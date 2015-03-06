@@ -1,0 +1,25 @@
+{
+  "name": "Revalia",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 30510,
+  "fonts": [
+    {
+      "name": "Revalia",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Revalia-Regular.ttf",
+      "postScriptName": "Revalia-Regular",
+      "fullName": "Revalia-Regular",
+      "copyright": "Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright (c) 2011, Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name Revalia."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

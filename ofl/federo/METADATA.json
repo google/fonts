@@ -1,0 +1,24 @@
+{
+  "name": "Federo",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 69453,
+  "fonts": [
+    {
+      "name": "Federo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Federo-Regular.ttf",
+      "postScriptName": "Federo-Regular",
+      "fullName": "Federo",
+      "copyright": "Copyright (c) 2011 by Olexa M. Volochay | Cyreal.org (a@cyreal.org). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-27"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Arimo",
+  "designer": "Steve Matteson",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 237441,
+  "fonts": [
+    {
+      "name": "Arimo",
+      "postScriptName": "Arimo-Bold",
+      "fullName": "Arimo Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Arimo-Bold.ttf",
+      "copyright": "Digitized data copyright (c) 2010-2012 Google Corporation."
+    },
+    {
+      "name": "Arimo",
+      "postScriptName": "Arimo-BoldItalic",
+      "fullName": "Arimo Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Arimo-BoldItalic.ttf",
+      "copyright": "Digitized data copyright (c) 2010-2012 Google Corporation."
+    },
+    {
+      "name": "Arimo",
+      "postScriptName": "Arimo-Italic",
+      "fullName": "Arimo Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Arimo-Italic.ttf",
+      "copyright": "Digitized data copyright (c) 2010-2012 Google Corporation."
+    },
+    {
+      "name": "Arimo",
+      "postScriptName": "Arimo",
+      "fullName": "Arimo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Arimo-Regular.ttf",
+      "copyright": "Digitized data copyright (c) 2010-2012 Google Corporation."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2010-11-18"
+}

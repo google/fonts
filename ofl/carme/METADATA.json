@@ -1,0 +1,24 @@
+{
+  "name": "Carme",
+  "designer": "Rubén Prol",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 26098,
+  "fonts": [
+    {
+      "name": "Carme",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Carme-Regular.ttf",
+      "postScriptName": "Carme",
+      "fullName": "Carme Regular",
+      "copyright": "Copyright (c) 2010-2011, Ruben Prol (ipanemagrafica@gmail.com|www.ipanemagrafica.com), with Reserved Font Name Carme."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-27"
+}

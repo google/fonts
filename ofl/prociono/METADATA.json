@@ -1,0 +1,24 @@
+{
+  "name": "Prociono",
+  "designer": "Barry Schwartz",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 18835,
+  "fonts": [
+    {
+      "name": "Prociono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Prociono-Regular.ttf",
+      "postScriptName": "Prociono-Regular",
+      "fullName": "Prociono",
+      "copyright": "Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-31"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Ranga",
+  "designer": "TipTopTyp",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 65800,
+  "fonts": [
+    {
+      "name": "Ranga",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Ranga-Bold.ttf",
+      "postScriptName": "Ranga-Bold",
+      "fullName": "Ranga Bold",
+      "copyright": "Copyright (c) 2014 by TipTopTyp."
+    },
+    {
+      "name": "Ranga",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ranga-Regular.ttf",
+      "postScriptName": "Ranga-Regular",
+      "fullName": "Ranga Regular",
+      "copyright": "Copyright (c) 2014 by TipTopTyp."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-01-28"
+}

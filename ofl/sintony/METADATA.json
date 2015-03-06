@@ -1,0 +1,34 @@
+{
+  "name": "Sintony",
+  "designer": "Eduardo Rodriguez Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 14794,
+  "fonts": [
+    {
+      "name": "Sintony",
+      "postScriptName": "Sintony-Bold",
+      "fullName": "Sintony Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sintony-Bold.ttf",
+      "copyright": "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Sintony'"
+    },
+    {
+      "name": "Sintony",
+      "postScriptName": "Sintony",
+      "fullName": "Sintony",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sintony-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Sintony'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-02-27"
+}

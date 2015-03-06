@@ -1,0 +1,25 @@
+{
+  "name": "Raleway Dots",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 117594,
+  "fonts": [
+    {
+      "name": "Raleway Dots",
+      "postScriptName": "RalewayDots-Regular",
+      "fullName": "Raleway Dots",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RalewayDots-Regular.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) and Brenda Gallo(gbrenda1987@gmail.com), with Reserved Font Name \"Raleway\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-07"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Libre Caslon Text",
+  "designer": "Impallari Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 64707,
+  "fonts": [
+    {
+      "name": "Libre Caslon Text",
+      "postScriptName": "LibreCaslonText-Bold",
+      "fullName": "Libre Caslon Text Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "LibreCaslonText-Bold.ttf",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Caslon."
+    },
+    {
+      "name": "Libre Caslon Text",
+      "postScriptName": "LibreCaslonText-Italic",
+      "fullName": "Libre Caslon Text Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "LibreCaslonText-Italic.ttf",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Caslon."
+    },
+    {
+      "name": "Libre Caslon Text",
+      "postScriptName": "LibreCaslonText-Regular",
+      "fullName": "Libre Caslon Text",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LibreCaslonText-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Caslon."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-03-15"
+}

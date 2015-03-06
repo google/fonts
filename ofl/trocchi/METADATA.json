@@ -1,0 +1,25 @@
+{
+  "name": "Trocchi",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 64941,
+  "fonts": [
+    {
+      "name": "Trocchi",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Trocchi-Regular.ttf",
+      "postScriptName": "Trocchi",
+      "fullName": "Trocchi",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Trocchi'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-04-04"
+}

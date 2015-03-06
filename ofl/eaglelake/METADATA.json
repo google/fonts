@@ -1,0 +1,25 @@
+{
+  "name": "Eagle Lake",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 46135,
+  "fonts": [
+    {
+      "name": "Eagle Lake",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EagleLake-Regular.ttf",
+      "postScriptName": "EagleLake-Regular",
+      "fullName": "Eagle Lake",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Eagle Lake\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-07-11"
+}

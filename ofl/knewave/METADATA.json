@@ -1,0 +1,25 @@
+{
+  "name": "Knewave",
+  "designer": "Tyler Finck",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21718,
+  "fonts": [
+    {
+      "name": "Knewave",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Knewave-Regular.ttf",
+      "postScriptName": "Knewave-Regular",
+      "fullName": "Knewave",
+      "copyright": "Copyright (c) 2011 by Tyler Finck (tylerfinck@gmail.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-23"
+}

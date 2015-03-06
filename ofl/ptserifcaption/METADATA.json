@@ -1,0 +1,36 @@
+{
+  "name": "PT Serif Caption",
+  "designer": "ParaType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 204576,
+  "fonts": [
+    {
+      "name": "PT Serif Caption",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PT_Serif-Caption-Web-Regular.ttf",
+      "postScriptName": "PTSerif-Caption",
+      "fullName": "PT Serif Caption",
+      "copyright": "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    },
+    {
+      "name": "PT Serif Caption",
+      "style": "italic",
+      "weight": 400,
+      "filename": "PT_Serif-Caption-Web-Italic.ttf",
+      "postScriptName": "PTSerif-CaptionItalic",
+      "fullName": "PT Serif Caption Italic",
+      "copyright": "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-02-09"
+}

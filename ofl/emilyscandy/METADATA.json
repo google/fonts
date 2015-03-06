@@ -1,0 +1,25 @@
+{
+  "name": "Emilys Candy",
+  "designer": "Neapolitan",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 114841,
+  "fonts": [
+    {
+      "name": "Emilys Candy",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EmilysCandy-Regular.ttf",
+      "postScriptName": "EmilysCandy-Regular",
+      "fullName": "Emilys Candy",
+      "copyright": "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Emilys Candy\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-29"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Kadwa",
+  "designer": "Sol Matas",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 96645,
+  "fonts": [
+    {
+      "name": "Kadwa",
+      "postScriptName": "Kadwa-Bold",
+      "fullName": "Kadwa Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Kadwa-Bold.ttf",
+      "copyright": "Copyright (c) 2014-2015, Sol Matas (www.huertatipografica.com - sol@huertatipografica.com)"
+    },
+    {
+      "name": "Kadwa",
+      "postScriptName": "Kadwa-Regular",
+      "fullName": "Kadwa",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kadwa-Regular.ttf",
+      "copyright": "Copyright (c) 2014-2015, Sol Matas (www.huertatipografica.com - sol@huertatipografica.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2015-02-18"
+}

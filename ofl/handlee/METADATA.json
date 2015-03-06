@@ -1,0 +1,25 @@
+{
+  "name": "Handlee",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 22842,
+  "fonts": [
+    {
+      "name": "Handlee",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Handlee-Regular.ttf",
+      "postScriptName": "Handlee-Regular",
+      "fullName": "Handlee Regular",
+      "copyright": "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Handlee."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

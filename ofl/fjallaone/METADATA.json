@@ -1,0 +1,25 @@
+{
+  "name": "Fjalla One",
+  "designer": "Sorkin Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 21637,
+  "fonts": [
+    {
+      "name": "Fjalla One",
+      "postScriptName": "FjallaOne-Regular",
+      "fullName": "Fjalla One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FjallaOne-Regular.ttf",
+      "copyright": "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name 'Fjalla'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-27"
+}

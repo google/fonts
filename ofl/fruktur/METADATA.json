@@ -1,0 +1,25 @@
+{
+  "name": "Fruktur",
+  "designer": "Viktoriya Grabowska",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 41880,
+  "fonts": [
+    {
+      "name": "Fruktur",
+      "postScriptName": "Fruktur-Regular",
+      "fullName": "Fruktur Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Fruktur-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Fruktur'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-01-16"
+}

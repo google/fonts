@@ -1,0 +1,24 @@
+{
+  "name": "Aldrich",
+  "designer": "MADType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 27144,
+  "fonts": [
+    {
+      "name": "Aldrich",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Aldrich-Regular.ttf",
+      "postScriptName": "Aldrich",
+      "fullName": "Aldrich",
+      "copyright": "Copyright (c) 2011, Matthew Desmond (mattdesmond@gmail.com) All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-17"
+}

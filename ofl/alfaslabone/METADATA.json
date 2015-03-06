@@ -1,0 +1,25 @@
+{
+  "name": "Alfa Slab One",
+  "designer": "JM Solé",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19976,
+  "fonts": [
+    {
+      "name": "Alfa Slab One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AlfaSlabOne-Regular.ttf",
+      "postScriptName": "AlfaSlabOne-Regular",
+      "fullName": "Alfa Slab One",
+      "copyright": "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Alfa Slab One\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

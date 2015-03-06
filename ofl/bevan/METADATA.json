@@ -1,0 +1,24 @@
+{
+  "name": "Bevan",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 49238,
+  "fonts": [
+    {
+      "name": "Bevan",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bevan.ttf",
+      "postScriptName": "Bevan",
+      "fullName": "Bevan",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Bevan'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-02-23"
+}

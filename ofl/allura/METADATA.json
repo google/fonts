@@ -1,0 +1,25 @@
+{
+  "name": "Allura",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 40938,
+  "fonts": [
+    {
+      "name": "Allura",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Allura-Regular.ttf",
+      "postScriptName": "Allura-Regular",
+      "fullName": "Allura",
+      "copyright": "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Allura\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-08"
+}

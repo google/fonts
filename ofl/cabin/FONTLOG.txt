@@ -1,0 +1,47 @@
+FONTLOG for the Cabin fonts
+
+This file provides detailed information on the Cabin Font Software.
+This information should be distributed along with the Cabin fonts
+and any derivative works.
+
+Basic Font Information
+
+Cabin is a Unicode typeface family that supports languages that
+use the Latin script and its variants, and could be expanded to support other
+scripts.
+
+More specifically, this release supports the following Unicode ranges: Latin-1
+
+Documentation can be found at www.impallari.com/cabin
+To contribute to the project contact Pablo Impallari at impallari@gmail.com
+
+ChangeLog
+
+21 Mar 2011 (Pablo Impallari & Igino Marini) Cabin v1.005
+- Added Italics for Regular, Medium, SemiBold & Bold weights.
+
+31 Jan 2011 (Pablo Impallari & Igino Marini) Cabin v1.004
+- Added Regular, Medium and SemiBold weights.
+- Some glyphs refined.
+- iKerned by Igino Marini
+
+14 Dec 2010 (Pablo Impallari) Cabin v1.003
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Igino Marini
+E: mail@iginomarini.com
+W: http://www.ikern.com
+D: Spacing and Kerning
+
+N: Pablo Impallari
+E: impallari@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+
+

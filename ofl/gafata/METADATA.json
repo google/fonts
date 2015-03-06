@@ -1,0 +1,25 @@
+{
+  "name": "Gafata",
+  "designer": "Lautaro Hourcade",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 14318,
+  "fonts": [
+    {
+      "name": "Gafata",
+      "postScriptName": "Gafata-Regular",
+      "fullName": "Gafata",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Gafata-Regular.ttf",
+      "copyright": "Copyright (c) 2010-2012, Lautaro Hourcade (lautaro.uy@gmail.com), with Reserved Font Name 'Gafata'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-31"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Terminal Dosis",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 65681,
+  "fonts": [
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 200,
+      "filename": "TerminalDosis-ExtraLight.ttf",
+      "postScriptName": "TerminalDosis-ExtraLight",
+      "fullName": "Terminal Dosis ExtraLight",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 300,
+      "filename": "TerminalDosis-Light.ttf",
+      "postScriptName": "TerminalDosis-Light",
+      "fullName": "Terminal Dosis Light",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 400,
+      "filename": "TerminalDosis-Regular.ttf",
+      "postScriptName": "TerminalDosis-Regular",
+      "fullName": "Terminal Dosis Regular",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 500,
+      "filename": "TerminalDosis-Medium.ttf",
+      "postScriptName": "TerminalDosis-Medium",
+      "fullName": "Terminal Dosis Medium",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 600,
+      "filename": "TerminalDosis-SemiBold.ttf",
+      "postScriptName": "TerminalDosis-SemiBold",
+      "fullName": "Terminal Dosis SemiBold",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 700,
+      "filename": "TerminalDosis-Bold.ttf",
+      "postScriptName": "TerminalDosis-Bold",
+      "fullName": "Terminal Dosis Bold",
+      "copyright": "Copyright (c) 2011 by EdgarTolentino, PabloImpallari, IginoMarini. All rights reserved."
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 800,
+      "filename": "TerminalDosis-ExtraBold.ttf",
+      "postScriptName": "TerminalDosis-ExtraBold",
+      "fullName": "Terminal Dosis ExtraBold",
+      "copyright": "Copyright (c) 2011 by EdgarTolentino, PabloImpallari, IginoMarini. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-09-28"
+}

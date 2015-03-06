@@ -1,0 +1,25 @@
+{
+  "name": "Nova Round",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 41309,
+  "fonts": [
+    {
+      "name": "Nova Round",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NovaRound.ttf",
+      "postScriptName": "NovaRound",
+      "fullName": "Nova Round",
+      "copyright": "Copyright (c) 2011, wmk69 (wmk69@o2.pl) with Reserved Font Names 'NovaRound' and 'Nova Round'. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-03-23"
+}

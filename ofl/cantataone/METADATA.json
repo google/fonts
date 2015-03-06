@@ -1,0 +1,25 @@
+{
+  "name": "Cantata One",
+  "designer": "Joana Correia da Silva",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 22818,
+  "fonts": [
+    {
+      "name": "Cantata One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CantataOne-Regular.ttf",
+      "postScriptName": "CantataOne-Regular",
+      "fullName": "Cantata One",
+      "copyright": "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name \"Cantata\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-29"
+}

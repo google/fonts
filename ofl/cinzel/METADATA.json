@@ -1,0 +1,42 @@
+{
+  "name": "Cinzel",
+  "designer": "Natanael Gama",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 25508,
+  "fonts": [
+    {
+      "name": "Cinzel",
+      "postScriptName": "Cinzel-Black",
+      "fullName": "Cinzel-Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Cinzel-Black.ttf",
+      "copyright": "Copyright (c) 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name 'Cinzel'"
+    },
+    {
+      "name": "Cinzel",
+      "postScriptName": "Cinzel-Bold",
+      "fullName": "Cinzel-Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Cinzel-Bold.ttf",
+      "copyright": "Copyright (c) 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name 'Cinzel'"
+    },
+    {
+      "name": "Cinzel",
+      "postScriptName": "Cinzel-Regular",
+      "fullName": "Cinzel-Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cinzel-Regular.ttf",
+      "copyright": "Copyright (c) 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name 'Cinzel'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-10-05"
+}

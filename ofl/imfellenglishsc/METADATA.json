@@ -1,0 +1,24 @@
+{
+  "name": "IM Fell English SC",
+  "designer": "Igino Marini",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 110116,
+  "fonts": [
+    {
+      "name": "IM Fell English SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "IMFeENsc28P.ttf",
+      "postScriptName": "IM_FELL_English_SC",
+      "fullName": "IM FELL English SC",
+      "copyright": "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL English SC"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-05-17"
+}

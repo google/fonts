@@ -1,0 +1,24 @@
+{
+  "name": "Zeyada",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 33532,
+  "fonts": [
+    {
+      "name": "Zeyada",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Zeyada.ttf",
+      "postScriptName": "Zeyada",
+      "fullName": "Zeyada",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-06-08"
+}

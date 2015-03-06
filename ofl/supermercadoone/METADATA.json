@@ -1,0 +1,24 @@
+{
+  "name": "Supermercado One",
+  "designer": "James Grieshaber",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19460,
+  "fonts": [
+    {
+      "name": "Supermercado One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SupermercadoOne-Regular.ttf",
+      "postScriptName": "SupermercadoOne-Regular",
+      "fullName": "Supermercado One Regular",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Supermercado One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-11-02"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "IM Fell DW Pica",
+  "designer": "Igino Marini",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 124462,
+  "fonts": [
+    {
+      "name": "IM Fell DW Pica",
+      "style": "normal",
+      "weight": 400,
+      "filename": "IMFePIrm28P.ttf",
+      "postScriptName": "IM_FELL_DW_Pica_Roman",
+      "fullName": "IM FELL DW Pica Roman",
+      "copyright": "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL DW Pica Roman"
+    },
+    {
+      "name": "IM Fell DW Pica",
+      "style": "italic",
+      "weight": 400,
+      "filename": "IMFePIit28P.ttf",
+      "postScriptName": "IM_FELL_DW_Pica_Italic",
+      "fullName": "IM FELL DW Pica Italic",
+      "copyright": "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL DW Pica Italic"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-05-17"
+}

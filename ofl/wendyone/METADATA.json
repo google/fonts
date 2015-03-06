@@ -1,0 +1,25 @@
+{
+  "name": "Wendy One",
+  "designer": "Alejandro Inler",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 12651,
+  "fonts": [
+    {
+      "name": "Wendy One",
+      "postScriptName": "WendyOne-Regular",
+      "fullName": "Wendy One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "WendyOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Wendy'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-12-05"
+}

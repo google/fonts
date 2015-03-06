@@ -1,0 +1,51 @@
+{
+  "name": "Cantarell",
+  "designer": "Dave Crossland",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 24798,
+  "fonts": [
+    {
+      "name": "Cantarell",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cantarell-Regular.ttf",
+      "postScriptName": "Cantarell-Regular",
+      "fullName": "Cantarell Regular",
+      "copyright": "Copyright (c) 2009 Dave Crossland <dave@lab6.com>"
+    },
+    {
+      "name": "Cantarell",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Cantarell-Oblique.ttf",
+      "postScriptName": "Cantarell-Oblique",
+      "fullName": "Cantarell Oblique",
+      "copyright": "Copyright (c) 2009 Dave Crossland <dave@lab6.com>"
+    },
+    {
+      "name": "Cantarell",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Cantarell-Bold.ttf",
+      "postScriptName": "Cantarell-Bold",
+      "fullName": "Cantarell Bold",
+      "copyright": "Copyright (c) 2009 Dave Crossland <dave@lab6.com>"
+    },
+    {
+      "name": "Cantarell",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Cantarell-BoldOblique.ttf",
+      "postScriptName": "Cantarell-BoldOblique",
+      "fullName": "Cantarell Bold Oblique",
+      "copyright": "Copyright (c) 2009 Dave Crossland <dave@lab6.com>"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-05-10"
+}

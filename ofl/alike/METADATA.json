@@ -1,0 +1,24 @@
+{
+  "name": "Alike",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 53386,
+  "fonts": [
+    {
+      "name": "Alike",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Alike-Regular.ttf",
+      "postScriptName": "Alike-Regular",
+      "fullName": "Alike",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Alike\" and \"Alike Regular\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-24"
+}

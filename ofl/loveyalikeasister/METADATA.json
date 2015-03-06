@@ -1,0 +1,24 @@
+{
+  "name": "Love Ya Like A Sister",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 135536,
+  "fonts": [
+    {
+      "name": "Love Ya Like A Sister",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LoveYaLikeASister.ttf",
+      "postScriptName": "LoveYaLikeASister-Regular",
+      "fullName": "Love Ya Like A Sister Regular",
+      "copyright": "Copyright (c) 2011 by Kimberly Geswein (kimberlygeswein@gmail.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-06"
+}

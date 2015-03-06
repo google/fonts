@@ -1,0 +1,24 @@
+{
+  "name": "Dorsa",
+  "designer": "Santiago Orozco",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 10949,
+  "fonts": [
+    {
+      "name": "Dorsa",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dorsa-Regular.ttf",
+      "postScriptName": "Dorsa-Regular",
+      "fullName": "Dorsa",
+      "copyright": "Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved Font Name \"Dorsa\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-31"
+}

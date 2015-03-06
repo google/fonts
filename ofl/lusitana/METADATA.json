@@ -1,0 +1,34 @@
+{
+  "name": "Lusitana",
+  "designer": "Ana Paula Megda",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 16635,
+  "fonts": [
+    {
+      "name": "Lusitana",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lusitana-Regular.ttf",
+      "postScriptName": "Lusitana",
+      "fullName": "Lusitana",
+      "copyright": "Copyright (c) 2011 by Ana Paula Megda (www.anamegda.com|anapbm@gmail.com), with Reserved Font Name Lusitana."
+    },
+    {
+      "name": "Lusitana",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Lusitana-Bold.ttf",
+      "postScriptName": "Lusitana-Bold",
+      "fullName": "Lusitana Bold",
+      "copyright": "Copyright (c) 2011 by Ana Paula Megda (www.anamegda.com|anapbm@gmail.com), with Reserved Font Name Lusitana."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-11"
+}

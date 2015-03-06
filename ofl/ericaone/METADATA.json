@@ -1,0 +1,25 @@
+{
+  "name": "Erica One",
+  "designer": "LatinoType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 14762,
+  "fonts": [
+    {
+      "name": "Erica One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EricaOne-Regular.ttf",
+      "postScriptName": "EricaOne-Regular",
+      "fullName": "Erica One",
+      "copyright": "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Erica\" \"Erica One\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-18"
+}

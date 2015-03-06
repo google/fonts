@@ -1,0 +1,24 @@
+{
+  "name": "Rochester",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 24135,
+  "fonts": [
+    {
+      "name": "Rochester",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rochester-Regular.ttf",
+      "postScriptName": "Rochester-Regular",
+      "fullName": "Rochester",
+      "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-03"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Almendra Display",
+  "designer": "Ana Sanfelippo",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 16369,
+  "fonts": [
+    {
+      "name": "Almendra Display",
+      "postScriptName": "AlmendraDisplay-Regular",
+      "fullName": "Almendra Display",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AlmendraDisplay-Regular.ttf",
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-12"
+}

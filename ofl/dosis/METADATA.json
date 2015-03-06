@@ -1,0 +1,79 @@
+{
+  "name": "Dosis",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 65681,
+  "fonts": [
+    {
+      "name": "Dosis",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Dosis-ExtraLight.ttf",
+      "postScriptName": "Dosis-ExtraLight",
+      "fullName": "Dosis ExtraLight",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Dosis",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Dosis-Light.ttf",
+      "postScriptName": "Dosis-Light",
+      "fullName": "Dosis Light",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Dosis",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dosis-Regular.ttf",
+      "postScriptName": "Dosis-Regular",
+      "fullName": "Dosis Regular",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Dosis",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Dosis-Medium.ttf",
+      "postScriptName": "Dosis-Medium",
+      "fullName": "Dosis Medium",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Dosis",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Dosis-SemiBold.ttf",
+      "postScriptName": "Dosis-SemiBold",
+      "fullName": "Dosis SemiBold",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Dosis",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Dosis-Bold.ttf",
+      "postScriptName": "Dosis-Bold",
+      "fullName": "Dosis Bold",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    },
+    {
+      "name": "Dosis",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Dosis-ExtraBold.ttf",
+      "postScriptName": "Dosis-ExtraBold",
+      "fullName": "Dosis ExtraBold",
+      "copyright": "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-20"
+}

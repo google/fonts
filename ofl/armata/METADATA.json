@@ -1,0 +1,25 @@
+{
+  "name": "Armata",
+  "designer": "Viktoriya Grabowska",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 21151,
+  "fonts": [
+    {
+      "name": "Armata",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Armata-Regular.ttf",
+      "postScriptName": "Armata-Regular",
+      "fullName": "Armata",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Armata\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

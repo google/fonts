@@ -1,0 +1,32 @@
+{
+  "name": "Karla Tamil Upright",
+  "designer": "Jonathan Pinhorn",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 65227,
+  "fonts": [
+    {
+      "name": "Karla Tamil Upright",
+      "postScriptName": "KarlaTamilUpright-Bold",
+      "fullName": "Karla Tamil Upright Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "KarlaTamilUpright-Bold.ttf",
+      "copyright": "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+    },
+    {
+      "name": "Karla Tamil Upright",
+      "postScriptName": "KarlaTamilUpright-Regular",
+      "fullName": "Karla Tamil Upright",
+      "style": "normal",
+      "weight": 400,
+      "filename": "KarlaTamilUpright-Regular.ttf",
+      "copyright": "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+    }
+  ],
+  "subsets": [
+    "tamil"
+  ],
+  "dateAdded": "2012-09-29"
+}

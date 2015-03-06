@@ -1,0 +1,25 @@
+{
+  "name": "Freckle Face",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 68140,
+  "fonts": [
+    {
+      "name": "Freckle Face",
+      "postScriptName": "FreckleFace-Regular",
+      "fullName": "Freckle Face",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FreckleFace-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Freckle Face\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-26"
+}

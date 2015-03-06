@@ -1,0 +1,23 @@
+{
+  "name": "Lohit Bengali",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Serif",
+  "size": 69100,
+  "fonts": [
+    {
+      "name": "Lohit Bengali",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lohit-Bengali.ttf",
+      "postScriptName": "Lohit-Bengali",
+      "fullName": "Lohit Bengali",
+      "copyright": "Copyright 2011 Lohit Fonts Project contributors (psatpute@redhat.com). <http://fedorahosted.org/lohit> Licensed under the SIL Open Font License 1.1 (see file OFL.txt)"
+    }
+  ],
+  "subsets": [
+    "bengali"
+  ],
+  "dateAdded": "2012-05-09"
+}

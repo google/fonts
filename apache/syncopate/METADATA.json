@@ -1,0 +1,33 @@
+{
+  "name": "Syncopate",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 68851,
+  "fonts": [
+    {
+      "name": "Syncopate",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Syncopate-Regular.ttf",
+      "postScriptName": "Syncopate-Regular",
+      "fullName": "Syncopate",
+      "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    {
+      "name": "Syncopate",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Syncopate-Bold.ttf",
+      "postScriptName": "Syncopate-Bold",
+      "fullName": "Syncopate Bold",
+      "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-04-27"
+}

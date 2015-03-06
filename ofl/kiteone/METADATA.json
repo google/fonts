@@ -1,0 +1,24 @@
+{
+  "name": "Kite One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 19790,
+  "fonts": [
+    {
+      "name": "Kite One",
+      "postScriptName": "KiteOne-Regular",
+      "fullName": "Kite One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "KiteOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Kite'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-10-26"
+}

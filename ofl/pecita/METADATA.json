@@ -1,0 +1,25 @@
+{
+  "name": "Pecita",
+  "designer": "Phillipe Cochy",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 507313,
+  "fonts": [
+    {
+      "name": "Pecita",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Pecita.ttf",
+      "postScriptName": "Pecita",
+      "fullName": "Pecita",
+      "copyright": "Copyright (c) 2009-2011, Philippe Cochy (http://pecita.com acquadoria@gmail.com), with Reserved Font Name Pecita."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-05-09"
+}

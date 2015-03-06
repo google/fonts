@@ -1,0 +1,34 @@
+{
+  "name": "Coda",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19827,
+  "fonts": [
+    {
+      "name": "Coda",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Coda-Regular.ttf",
+      "postScriptName": "Coda-Regular",
+      "fullName": "Coda",
+      "copyright": "Copyright (c) 2010-2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Coda\""
+    },
+    {
+      "name": "Coda",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Coda-Heavy.ttf",
+      "postScriptName": "Coda-Heavy",
+      "fullName": "Coda Heavy",
+      "copyright": "Copyright (c) 2010-2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Coda\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-12-07"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "GFS Neohellenic",
+  "designer": "Greek Font Society",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 152310,
+  "fonts": [
+    {
+      "name": "GFS Neohellenic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GFSNeohellenic.ttf",
+      "postScriptName": "GFSNeohellenic-Regular",
+      "fullName": "GFS Neohellenic Regular",
+      "copyright": "Copyright (c) Takis Katsoulidis and George D. Matthiopoulos (gfs@greekfontsociety.gr), 1993-2001. All rights reserved."
+    },
+    {
+      "name": "GFS Neohellenic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "GFSNeohellenicItalic.ttf",
+      "postScriptName": "GFSNeohellenic-Italic",
+      "fullName": "GFS Neohellenic Italic",
+      "copyright": "Copyright (c) Takis Katsoulidis and George D. Matthiopoulos (gfs@greekfontsociety.gr) , 2001. All rights reserved."
+    },
+    {
+      "name": "GFS Neohellenic",
+      "style": "normal",
+      "weight": 700,
+      "filename": "GFSNeohellenicBold.ttf",
+      "postScriptName": "GFSNeohellenic-Bold",
+      "fullName": "GFS Neohellenic Bold",
+      "copyright": "Copyright (c) Designed by Takis Katsoulidis and George D. Matthiopoulos (gfs@greekfontsociety.gr)., 2001. All rights reserved."
+    },
+    {
+      "name": "GFS Neohellenic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "GFSNeohellenicBoldItalic.ttf",
+      "postScriptName": "GFSNeohellenic-BoldItalic",
+      "fullName": "GFS Neohellenic Bold Italic",
+      "copyright": "Copyright (c) Designed by Takis Katsoulidis and George D. Matthiopoulos (gfs@greekfontsociety.gr)., 2001. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "greek",
+    "menu"
+  ],
+  "dateAdded": "2010-09-21"
+}

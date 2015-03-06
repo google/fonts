@@ -1,0 +1,78 @@
+FONTLOG for the Podkova font
+
+This file provides detailed information on the Podkova 
+font Software.
+
+This information should be distributed along with the 
+Podkova fonts and any derivative works.
+
+Basic Font Information
+
+Podkova is a monoline slab serif with diagonal terminals. 
+Wide proportions and clean features aid to legibility at 
+small sizes. Its unusual letterforms provide enough 
+character to be used at display sizes. Podkova is the 
+Russian word for Horseshoe. Try it and see if the lucky 
+charm works for you!
+
+Designed by Ilya Yudin.
+
+Podkova is a Unicode typeface family that supports 
+languages that use the Latin script, and could be 
+expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a at cyreal.org
+
+There are four .vfb Source files:
+
+1. Podkova-Regular-OTF.vfb (Merged and optimized file)
+
+2. Podkova-Regular-TTF.vfb (Mastered TTF with manual hinting applied)
+
+3. Podkova-Bold-OTF.vfb (Merged and optimized file)
+
+4. Podkova-Bold-TTF.vfb (Mastered TTF with manual hinting applied)
+
+ChangeLog
+
+12 December 2011 (Alexei Vanyashin) Podkova Regular v. 1.001
+— Adjusted vertical metrics according to Podkova Bold
+— Deleted kerning to reduce file size
+— Deleted glyphs ogonek, hungarumlaut, uni2215 to match the 
+  Encoding of Podlova Bold.
+— Updated foundryicon and .notdef
+
+8 December (Nikita Kanarev) v 1.002
+— Minor design and spacing enhancements
+
+5 December (Alexei Vanyashin) v 1.001
+— Tweeked glyphs W, w, M, m, g
+— Adjusted overshoots
+
+1 December (Ilya Yudin) v 1.000
+— Completed initial release of bold version in VFB format
+
+27 May 2011 (Ilya Yudin) Podkova v. 1.000
+— Completed initial release in VFB format
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Ilya Yudin
+E: lenny.goofoff@gmail.com
+D: Designer
+
+N: Nikita Kanarev
+E: i@xarsok.ru
+W: http://xarsok.ru
+D: Designer
+
+N: Alexei Vanyashin
+E: a at cyreal.org
+W: http://cyreal.org
+D: Mastering

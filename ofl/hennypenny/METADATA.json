@@ -1,0 +1,25 @@
+{
+  "name": "Henny Penny",
+  "designer": "Brownfox",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 59697,
+  "fonts": [
+    {
+      "name": "Henny Penny",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HennyPenny-Regular.ttf",
+      "postScriptName": "HennyPenny-Regular",
+      "fullName": "Henny Penny",
+      "copyright": "Copyright (c) 2012, Brownfox (gayaneh.b@gmail.com), with Reserved Font Name \"Henny Penny\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-22"
+}

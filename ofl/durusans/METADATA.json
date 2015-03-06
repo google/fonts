@@ -1,0 +1,25 @@
+{
+  "name": "Duru Sans",
+  "designer": "Onur Yazıcıgil",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 21388,
+  "fonts": [
+    {
+      "name": "Duru Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DuruSans-Regular.ttf",
+      "postScriptName": "DuruSans-Regular",
+      "fullName": "Duru Sans",
+      "copyright": "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name Duru."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

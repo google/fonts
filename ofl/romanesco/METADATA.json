@@ -1,0 +1,25 @@
+{
+  "name": "Romanesco",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 28547,
+  "fonts": [
+    {
+      "name": "Romanesco",
+      "postScriptName": "Romanesco-Regular",
+      "fullName": "Romanesco",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Romanesco-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Romanesco\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-08-13"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Sansation",
+  "designer": "Bernd Montag",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 29137,
+  "fonts": [
+    {
+      "name": "Sansation",
+      "postScriptName": "Sansation-Bold",
+      "fullName": "Sansation Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sansation-Bold.ttf",
+      "copyright": "Copyright (c) 2011 by Bernd Montag (berndmontag@gmx.de), with Reserved Font Name 'Sansation'"
+    },
+    {
+      "name": "Sansation",
+      "postScriptName": "Sansation-BoldItalic",
+      "fullName": "Sansation Bold Italic",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sansation-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2011 by Bernd Montag (berndmontag@gmx.de), with Reserved Font Name 'Sansation'"
+    },
+    {
+      "name": "Sansation",
+      "postScriptName": "Sansation-Italic",
+      "fullName": "Sansation Italic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sansation-Italic.ttf",
+      "copyright": "Copyright (c) 2011 by Bernd Montag (berndmontag@gmx.de), with Reserved Font Name 'Sansation'"
+    },
+    {
+      "name": "Sansation",
+      "postScriptName": "Sansation-Light",
+      "fullName": "Sansation Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Sansation-Light.ttf",
+      "copyright": "Copyright (c) 2011 by Bernd Montag (berndmontag@gmx.de), with Reserved Font Name 'Sansation'"
+    },
+    {
+      "name": "Sansation",
+      "postScriptName": "Sansation-LightItalic",
+      "fullName": "Sansation Light Italic",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Sansation-LightItalic.ttf",
+      "copyright": "Copyright (c) 2011 by Bernd Montag (berndmontag@gmx.de), with Reserved Font Name 'Sansation'"
+    },
+    {
+      "name": "Sansation",
+      "postScriptName": "Sansation-Regular",
+      "fullName": "Sansation Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sansation-Regular.ttf",
+      "copyright": "Copyright (c) 2011 by Bernd Montag (berndmontag@gmx.de), with Reserved Font Name 'Sansation'"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-18"
+}

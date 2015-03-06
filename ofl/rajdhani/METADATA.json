@@ -1,0 +1,62 @@
+{
+  "name": "Rajdhani",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 145353,
+  "fonts": [
+    {
+      "name": "Rajdhani",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Rajdhani-Bold.ttf",
+      "postScriptName": "Rajdhani-Bold",
+      "fullName": "Rajdhani Bold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Rajdhani",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Rajdhani-Light.ttf",
+      "postScriptName": "Rajdhani-Light",
+      "fullName": "Rajdhani Light",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Rajdhani",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Rajdhani-Medium.ttf",
+      "postScriptName": "Rajdhani-Medium",
+      "fullName": "Rajdhani Medium",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Rajdhani",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rajdhani-Regular.ttf",
+      "postScriptName": "Rajdhani-Regular",
+      "fullName": "Rajdhani",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Rajdhani",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Rajdhani-SemiBold.ttf",
+      "postScriptName": "Rajdhani-Semibold",
+      "fullName": "Rajdhani Semibold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-07-09"
+}

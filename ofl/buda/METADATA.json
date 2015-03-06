@@ -1,0 +1,24 @@
+{
+  "name": "Buda",
+  "designer": "Adèle Antignac",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 53743,
+  "fonts": [
+    {
+      "name": "Buda",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Buda-Light.ttf",
+      "postScriptName": "Buda",
+      "fullName": "Buda",
+      "copyright": "Copyright (c) 2010, Adele Antignac (a.antignac@hotmail.fr anton@fatype.com). All rights reserved. Licenced under SIL OFL vl.1"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-20"
+}

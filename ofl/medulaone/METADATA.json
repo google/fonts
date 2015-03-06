@@ -1,0 +1,25 @@
+{
+  "name": "Medula One",
+  "designer": "LatinoType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 16364,
+  "fonts": [
+    {
+      "name": "Medula One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MedulaOne-Regular.ttf",
+      "postScriptName": "MedulaOne-Regular",
+      "fullName": "Medula One",
+      "copyright": "Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), with Reserved Font Names \"Medula\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Ultra",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27766,
+  "fonts": [
+    {
+      "name": "Ultra",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ultra.ttf",
+      "postScriptName": "Ultra",
+      "fullName": "Ultra",
+      "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-09"
+}

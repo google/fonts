@@ -1,0 +1,24 @@
+{
+  "name": "Unna",
+  "designer": "Omnibus-Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15549,
+  "fonts": [
+    {
+      "name": "Unna",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Unna-Regular.ttf",
+      "postScriptName": "Unna-Regular",
+      "fullName": "Unna-Regular",
+      "copyright": "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \"Unna\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-20"
+}

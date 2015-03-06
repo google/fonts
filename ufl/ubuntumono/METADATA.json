@@ -1,0 +1,56 @@
+{
+  "name": "Ubuntu Mono",
+  "designer": "Dalton Maag",
+  "license": "UFL",
+  "visibility": "External",
+  "category": "Monospace",
+  "size": 112445,
+  "fonts": [
+    {
+      "name": "Ubuntu Mono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "UbuntuMono-Regular.ttf",
+      "postScriptName": "UbuntuMono-Regular",
+      "fullName": "Ubuntu Mono",
+      "copyright": "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+    },
+    {
+      "name": "Ubuntu Mono",
+      "style": "italic",
+      "weight": 400,
+      "filename": "UbuntuMono-Italic.ttf",
+      "postScriptName": "UbuntuMono-Italic",
+      "fullName": "Ubuntu Mono Italic",
+      "copyright": "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+    },
+    {
+      "name": "Ubuntu Mono",
+      "style": "normal",
+      "weight": 700,
+      "filename": "UbuntuMono-Bold.ttf",
+      "postScriptName": "UbuntuMono-Bold",
+      "fullName": "Ubuntu Mono Bold",
+      "copyright": "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+    },
+    {
+      "name": "Ubuntu Mono",
+      "style": "italic",
+      "weight": 700,
+      "filename": "UbuntuMono-BoldItalic.ttf",
+      "postScriptName": "UbuntuMono-BoldItalic",
+      "fullName": "Ubuntu Mono Bold Italic",
+      "copyright": "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-10-05"
+}

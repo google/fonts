@@ -1,0 +1,67 @@
+FONTLOG for the Limelight font
+
+This file provides detailed information on Limelight
+Font Software. 
+
+This information should be distributed along with the 
+Limelight font and any derivative works.
+
+Basic Font Information
+
+Limelight is a sensitive rendition of the classic high 
+contrast art deco style geometric sans serif. This style 
+is often used to suggest the 1920's time period as well 
+as the theatre generally and hollywood filmmaking in 
+particular. Because of the extreme contrast of the design 
+it will perform most reliably on web pages at medium and 
+large font sizes.
+
+Limelight is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, 
+and could be expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1, Latin-2: Easern Europe, Turkish, 
+Macintosh Character Set.
+
+There are three Source files:
+
+1. Limelight-Regular.vfb Original Source Files with 
+   contour overlaps
+
+2. Limelight-Regular-otf.sfd Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. Limelight-Regular-ttf.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+To contribute to the project contact Eben Sorkin at 
+sorkineben@gmail.com
+
+ChangeLog
+
+3 April 2012 (Eben) Limelight v1.002
+- Added support for full Latin-1, Latin-2: Easern Europe, 
+Turkish, Macintosh Character Set.
+- Mastered Font from Fontlab VBF to TTF and OTF
+- Added true type hinting using TTF Autohint version 0.8
+
+24 March 2011 (Nicole Fally) Limelight v1.000
+- Completed first complete version of Limelight in 
+  Fontlab (VBF format)
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Nicole Fally
+E: nf@t-g-d.at
+W: www.t-g-d.at
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Spacing and Mastering

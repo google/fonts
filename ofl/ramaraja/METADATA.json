@@ -1,0 +1,25 @@
+{
+  "name": "Ramaraja",
+  "designer": "Appaji Ambarisha Darbha",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 272499,
+  "fonts": [
+    {
+      "name": "Ramaraja",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ramaraja-Regular.ttf",
+      "postScriptName": "Ramaraja",
+      "fullName": "Ramaraja",
+      "copyright": "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name 'Crimson'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2015-01-08"
+}

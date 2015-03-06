@@ -1,0 +1,25 @@
+{
+  "name": "Balthazar",
+  "designer": "Dario Manuel Muhafara",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15754,
+  "fonts": [
+    {
+      "name": "Balthazar",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Balthazar-Regular.ttf",
+      "postScriptName": "Balthazar-Regular",
+      "fullName": "Balthazar Regular",
+      "copyright": "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Balthazar\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

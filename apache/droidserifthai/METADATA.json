@@ -1,0 +1,33 @@
+{
+  "name": "Droid Serif Thai",
+  "designer": "Monotype",
+  "license": "Apache2",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 16205,
+  "fonts": [
+    {
+      "name": "Droid Serif Thai",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DroidSerifThai-Regular.ttf",
+      "postScriptName": "DroidSerifThai",
+      "fullName": "Droid Serif Thai",
+      "copyright": "Digitized data copyright Google Corporation © 2011"
+    },
+    {
+      "name": "Droid Serif Thai",
+      "style": "normal",
+      "weight": 700,
+      "filename": "DroidSerifThai-Bold.ttf",
+      "postScriptName": "DroidSerifThai-Bold",
+      "fullName": "DroidSerifThai Bold",
+      "copyright": "Digitized data copyright Google Corporation © 2011"
+    }
+  ],
+  "subsets": [
+    "menu",
+    "thai"
+  ],
+  "dateAdded": "2012-05-09"
+}

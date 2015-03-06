@@ -1,0 +1,25 @@
+{
+  "name": "Unica One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 16794,
+  "fonts": [
+    {
+      "name": "Unica One",
+      "postScriptName": "UnicaOne-Regular",
+      "fullName": "Unica One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "UnicaOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Unica'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-26"
+}

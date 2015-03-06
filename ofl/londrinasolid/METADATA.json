@@ -1,0 +1,24 @@
+{
+  "name": "Londrina Solid",
+  "designer": "Marcelo Magalhães",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 25280,
+  "fonts": [
+    {
+      "name": "Londrina Solid",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LondrinaSolid-Regular.ttf",
+      "postScriptName": "LondrinaSolid-Regular",
+      "fullName": "Londrina Solid",
+      "copyright": "Copyright (c) 2011 by Marcelo Magalhaes (marcelomagalhaes.net marcelommp@gmail.com), with Reserved Font Name \"Londrina\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

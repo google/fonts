@@ -1,0 +1,52 @@
+{
+  "name": "Simonetta",
+  "designer": "Brownfox",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 78140,
+  "fonts": [
+    {
+      "name": "Simonetta",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Simonetta-Regular.ttf",
+      "postScriptName": "Simonetta-Regular",
+      "fullName": "Simonetta",
+      "copyright": "Copyright (c) 2011, BrownFox (www.brownfox.org info@brownfox.org), with Reserved Font Name \"Simonetta\""
+    },
+    {
+      "name": "Simonetta",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Simonetta-Italic.ttf",
+      "postScriptName": "Simonetta-Italic",
+      "fullName": "Simonetta Italic",
+      "copyright": "Copyright (c) 2011, BrownFox (www.brownfox.org info@brownfox.org), with Reserved Font Name \"Simonetta\""
+    },
+    {
+      "name": "Simonetta",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Simonetta-Black.ttf",
+      "postScriptName": "Simonetta-Black",
+      "fullName": "Simonetta Black",
+      "copyright": "Copyright (c) 2011-2012, Brownfox (www.brownfox.org info@brownfox.org), with Reserved Font Name \"Simonetta\""
+    },
+    {
+      "name": "Simonetta",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Simonetta-BlackItalic.ttf",
+      "postScriptName": "Simonetta-BlackItalic",
+      "fullName": "Simonetta Black Italic",
+      "copyright": "Copyright (c) 2011-2012, Brownfox (www.brownfox.org info@brownfox.org), with Reserved Font Name \"Simonetta\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-04-04"
+}

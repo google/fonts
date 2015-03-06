@@ -1,0 +1,24 @@
+{
+  "name": "Prata",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 18209,
+  "fonts": [
+    {
+      "name": "Prata",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Prata-Regular.ttf",
+      "postScriptName": "Prata-Regular",
+      "fullName": "Prata",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Prata\" and \"Prata Regular\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-09-07"
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Alegreya Sans SC",
+  "designer": "Juan Pablo del Peral",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 48962,
+  "fonts": [
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-Black",
+      "fullName": "Alegreya Sans SC Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "AlegreyaSansSC-Black.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-BlackItalic",
+      "fullName": "Alegreya Sans SC Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "AlegreyaSansSC-BlackItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-Bold",
+      "fullName": "Alegreya Sans SC Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AlegreyaSansSC-Bold.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-BoldItalic",
+      "fullName": "Alegreya Sans SC Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "AlegreyaSansSC-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-ExtraBold",
+      "fullName": "Alegreya Sans SC ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "AlegreyaSansSC-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-ExtraBoldItalic",
+      "fullName": "Alegreya Sans SC ExtraBold Italic",
+      "style": "italic",
+      "weight": 800,
+      "filename": "AlegreyaSansSC-ExtraBoldItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-Italic",
+      "fullName": "Alegreya Sans SC Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "AlegreyaSansSC-Italic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-Light",
+      "fullName": "Alegreya Sans SC Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "AlegreyaSansSC-Light.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-LightItalic",
+      "fullName": "Alegreya Sans SC Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "AlegreyaSansSC-LightItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-Medium",
+      "fullName": "Alegreya Sans SC Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "AlegreyaSansSC-Medium.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-MediumItalic",
+      "fullName": "Alegreya Sans SC Medium Italic",
+      "style": "italic",
+      "weight": 500,
+      "filename": "AlegreyaSansSC-MediumItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-Regular",
+      "fullName": "Alegreya Sans SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AlegreyaSansSC-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-Thin",
+      "fullName": "Alegreya Sans SC Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "AlegreyaSansSC-Thin.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Alegreya Sans SC",
+      "postScriptName": "AlegreyaSansSC-ThinItalic",
+      "fullName": "Alegreya Sans SC Thin Italic",
+      "style": "italic",
+      "weight": 100,
+      "filename": "AlegreyaSansSC-ThinItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2013-12-04"
+}

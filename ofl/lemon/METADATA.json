@@ -1,0 +1,25 @@
+{
+  "name": "Lemon",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 18017,
+  "fonts": [
+    {
+      "name": "Lemon",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lemon-Regular.ttf",
+      "postScriptName": "Lemon-Regular",
+      "fullName": "Lemon Regular",
+      "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Lemon\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

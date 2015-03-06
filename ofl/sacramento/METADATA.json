@@ -1,0 +1,25 @@
+{
+  "name": "Sacramento",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 41985,
+  "fonts": [
+    {
+      "name": "Sacramento",
+      "postScriptName": "Sacramento-Regular",
+      "fullName": "Sacramento",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sacramento-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Sacramento'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-01"
+}

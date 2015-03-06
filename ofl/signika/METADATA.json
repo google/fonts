@@ -1,0 +1,52 @@
+{
+  "name": "Signika",
+  "designer": "Anna Giedryś",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 77743,
+  "fonts": [
+    {
+      "name": "Signika",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Signika-Light.ttf",
+      "postScriptName": "Signika-Light",
+      "fullName": "Signika-Light",
+      "copyright": "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+    },
+    {
+      "name": "Signika",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Signika-Regular.ttf",
+      "postScriptName": "Signika-Regular",
+      "fullName": "Signika",
+      "copyright": "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+    },
+    {
+      "name": "Signika",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Signika-Semibold.ttf",
+      "postScriptName": "Signika-Semibold",
+      "fullName": "Signika-Semibold",
+      "copyright": "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+    },
+    {
+      "name": "Signika",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Signika-Bold.ttf",
+      "postScriptName": "Signika-Bold",
+      "fullName": "Signika-Bold",
+      "copyright": "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-23"
+}

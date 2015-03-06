@@ -1,0 +1,24 @@
+{
+  "name": "Frijole",
+  "designer": "Sideshow",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 122166,
+  "fonts": [
+    {
+      "name": "Frijole",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Frijole-Regular.ttf",
+      "postScriptName": "Frijole",
+      "fullName": "Frijole",
+      "copyright": "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reserved Font Name \"Frijole\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

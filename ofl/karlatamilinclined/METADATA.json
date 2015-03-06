@@ -1,0 +1,32 @@
+{
+  "name": "Karla Tamil Inclined",
+  "designer": "Jonathan Pinhorn",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 48621,
+  "fonts": [
+    {
+      "name": "Karla Tamil Inclined",
+      "postScriptName": "KarlaTamilInclined-Bold",
+      "fullName": "Karla Tamil Inclined Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "KarlaTamilInclined-Bold.ttf",
+      "copyright": "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+    },
+    {
+      "name": "Karla Tamil Inclined",
+      "postScriptName": "KarlaTamilInclined-Regular",
+      "fullName": "Karla Tamil Inclined",
+      "style": "normal",
+      "weight": 400,
+      "filename": "KarlaTamilInclined-Regular.ttf",
+      "copyright": "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+    }
+  ],
+  "subsets": [
+    "tamil"
+  ],
+  "dateAdded": "2012-09-29"
+}

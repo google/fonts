@@ -1,0 +1,24 @@
+{
+  "name": "Antic Didone",
+  "designer": "Santiago Orozco",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 19070,
+  "fonts": [
+    {
+      "name": "Antic Didone",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AnticDidone-Regular.ttf",
+      "postScriptName": "AnticDidone-Regular",
+      "fullName": "Antic Didone",
+      "copyright": "Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved Font Name Antic Didone."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

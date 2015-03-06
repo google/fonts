@@ -1,0 +1,25 @@
+{
+  "name": "Arbutus Slab",
+  "designer": "Karolina Lach",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 39271,
+  "fonts": [
+    {
+      "name": "Arbutus Slab",
+      "postScriptName": "ArbutusSlab-Regular",
+      "fullName": "Arbutus Slab",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ArbutusSlab-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Sorkin Type Co (eben@eyebytes.com), with Reserved Font Name 'Arbutus'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-18"
+}

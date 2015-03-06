@@ -1,0 +1,25 @@
+{
+  "name": "Average",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 19073,
+  "fonts": [
+    {
+      "name": "Average",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Average-Regular.ttf",
+      "postScriptName": "Average-Regular",
+      "fullName": "Average",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Average\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

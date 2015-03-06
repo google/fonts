@@ -1,0 +1,25 @@
+{
+  "name": "Niconne",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 24707,
+  "fonts": [
+    {
+      "name": "Niconne",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Niconne-Regular.ttf",
+      "postScriptName": "Niconne-Regular",
+      "fullName": "Niconne",
+      "copyright": "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Name Niconne."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-23"
+}

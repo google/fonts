@@ -1,0 +1,56 @@
+{
+  "name": "Anonymous Pro",
+  "designer": "Mark Simonson",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Monospace",
+  "size": 71287,
+  "fonts": [
+    {
+      "name": "Anonymous Pro",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AnonymousPro-Regular.ttf",
+      "postScriptName": "AnonymousPro",
+      "fullName": "Anonymous Pro",
+      "copyright": "Copyright (c) 2009-2010, Mark Simonson (mark@ms-studio.com). All rights reserved."
+    },
+    {
+      "name": "Anonymous Pro",
+      "style": "italic",
+      "weight": 400,
+      "filename": "AnonymousPro-Italic.ttf",
+      "postScriptName": "AnonymousPro-Italic",
+      "fullName": "Anonymous Pro Italic",
+      "copyright": "Copyright (c) 2009-2010, Mark Simonson (mark@ms-studio.com). All rights reserved."
+    },
+    {
+      "name": "Anonymous Pro",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AnonymousPro-Bold.ttf",
+      "postScriptName": "AnonymousPro-Bold",
+      "fullName": "Anonymous Pro Bold",
+      "copyright": "Copyright (c) 2009-2010, Mark Simonson (mark@ms-studio.com). All rights reserved."
+    },
+    {
+      "name": "Anonymous Pro",
+      "style": "italic",
+      "weight": 700,
+      "filename": "AnonymousPro-BoldItalic.ttf",
+      "postScriptName": "AnonymousPro-BoldItalic",
+      "fullName": "Anonymous Pro Bold Italic",
+      "copyright": "Copyright (c) 2009-2010, Mark Simonson (mark@ms-studio.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-12-15"
+}

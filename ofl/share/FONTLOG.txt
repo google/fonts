@@ -1,0 +1,58 @@
+FONTLOG for the Share font
+
+This file provides detailed information on the Share
+font Software.
+
+This information should be distributed along with the 
+Share fonts and any derivative works.
+
+Basic Font Information
+
+Share was designed by Botio Nikoltchev.
+
+Share is a Unicode typeface that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+To contribute to the project contact Ralph Carrois at 
+post@carrois.com
+
+There are four .VFB Source files:
+
+1. Share-Regular-OTF.vfb (Merged contours and optimized file 
+                         corresponding to the OTF file)
+
+2. Share-Italic-OTF.vfb (Merged contours and optimized file 
+                         corresponding to the OTF file)
+
+3. Share-Bold-OTF.vfb (Merged contours and optimized file 
+                         corresponding to the OTF file)
+
+4. Share-BoldItalic-OTF.vfb (Merged contours and optimized file 
+                         corresponding to the OTF file)
+
+ChangeLog
+
+10 December 2011 (Botio Nikoltchev) Share v. 1.001
+- Completed initial design in VBF format, Latin-1 encoding
+
+15 December 2011 (Andreas Eigendorf) Share v. 1.002
+- Completed mastering for initial release, Latin-1 encoding
+
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Botio Nikoltchev
+E: post@carrois.com
+W: www.carrois.com
+D: Design
+
+N: Andreas Eigendorf
+E: mail@e-font.de
+W: www.e-font.de
+D: Mastering

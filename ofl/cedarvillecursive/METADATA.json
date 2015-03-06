@@ -1,0 +1,24 @@
+{
+  "name": "Cedarville Cursive",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 38590,
+  "fonts": [
+    {
+      "name": "Cedarville Cursive",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cedarville-Cursive.ttf",
+      "postScriptName": "Cedarville-Cursive",
+      "fullName": "Cedarville Cursive",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-06-08"
+}

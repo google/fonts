@@ -1,0 +1,24 @@
+{
+  "name": "Allerta Stencil",
+  "designer": "Matt McInerney",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 13012,
+  "fonts": [
+    {
+      "name": "Allerta Stencil",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AllertaStencil-Regular.ttf",
+      "postScriptName": "AllertaStencil-Regular",
+      "fullName": "Allerta Stencil Regular",
+      "copyright": "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com> with Reserved Font Name Allerta."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-11-30"
+}

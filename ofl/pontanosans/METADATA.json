@@ -1,0 +1,25 @@
+{
+  "name": "Pontano Sans",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 44782,
+  "fonts": [
+    {
+      "name": "Pontano Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PontanoSans-Regular.ttf",
+      "postScriptName": "PontanoSans-Regular",
+      "fullName": "Pontano Sans",
+      "copyright": "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Potano\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Battambang",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 78272,
+  "fonts": [
+    {
+      "name": "Battambang",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Battambang-Regular.ttf",
+      "postScriptName": "Battambang",
+      "fullName": "Battambang",
+      "copyright": "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS Battambang. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Battambang",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Battambang-Bold.ttf",
+      "postScriptName": "Battambang-Bold",
+      "fullName": "Battambang Bold",
+      "copyright": "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS Battambang. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "khmer",
+    "menu"
+  ],
+  "dateAdded": "2011-03-02"
+}

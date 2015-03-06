@@ -1,0 +1,45 @@
+{
+  "name": "Cardo",
+  "designer": "David Perry",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 224897,
+  "fonts": [
+    {
+      "name": "Cardo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cardo-Regular.ttf",
+      "postScriptName": "Cardo-Regular",
+      "fullName": "Cardo",
+      "copyright": "Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)"
+    },
+    {
+      "name": "Cardo",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Cardo-Italic.ttf",
+      "postScriptName": "Cardo-Italic",
+      "fullName": "Cardo Italic",
+      "copyright": "Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)"
+    },
+    {
+      "name": "Cardo",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Cardo-Bold.ttf",
+      "postScriptName": "Cardo-Bold",
+      "fullName": "Cardo Bold",
+      "copyright": "Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)"
+    }
+  ],
+  "subsets": [
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-09-07"
+}

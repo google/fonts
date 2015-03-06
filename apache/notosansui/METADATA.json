@@ -1,0 +1,57 @@
+{
+  "name": "Noto Sans UI",
+  "designer": "Google",
+  "license": "Apache2",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 177390,
+  "fonts": [
+    {
+      "name": "Noto Sans UI",
+      "postScriptName": "NotoSansUI-Bold",
+      "fullName": "Noto Sans UI Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "NotoSansUI-Bold.ttf",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Noto Sans UI",
+      "postScriptName": "NotoSansUI-BoldItalic",
+      "fullName": "Noto Sans UI Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "NotoSansUI-BoldItalic.ttf",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Noto Sans UI",
+      "postScriptName": "NotoSansUI-Italic",
+      "fullName": "Noto Sans UI Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "NotoSansUI-Italic.ttf",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Noto Sans UI",
+      "postScriptName": "NotoSansUI",
+      "fullName": "Noto Sans UI",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NotoSansUI-Regular.ttf",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2013-02-27"
+}

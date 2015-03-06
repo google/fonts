@@ -1,0 +1,24 @@
+{
+  "name": "Mako",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 47759,
+  "fonts": [
+    {
+      "name": "Mako",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Mako-Regular.ttf",
+      "postScriptName": "Mako",
+      "fullName": "Mako",
+      "copyright": "Copyright (c) 2007 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name 'Mako'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-11"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Droid Sans",
+  "designer": "Steve Matteson",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 26287,
+  "fonts": [
+    {
+      "name": "Droid Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DroidSans.ttf",
+      "postScriptName": "DroidSans",
+      "fullName": "Droid Sans",
+      "copyright": "Digitized data copyright © 2007, Google Corporation."
+    },
+    {
+      "name": "Droid Sans",
+      "style": "normal",
+      "weight": 700,
+      "filename": "DroidSans-Bold.ttf",
+      "postScriptName": "DroidSans-Bold",
+      "fullName": "Droid Sans Bold",
+      "copyright": "Digitized data copyright © 2007, Google Corporation."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-05-17"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Marcellus SC",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 24844,
+  "fonts": [
+    {
+      "name": "Marcellus SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MarcellusSC-Regular.ttf",
+      "postScriptName": "MarcellusSC-Regular",
+      "fullName": "Marcellus SC",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Marcellus\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-05-09"
+}

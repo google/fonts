@@ -1,0 +1,33 @@
+{
+  "name": "Droid Arabic Naskh",
+  "designer": "Pascal Zoghbi",
+  "license": "Apache2",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 106297,
+  "fonts": [
+    {
+      "name": "Droid Arabic Naskh",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DroidNaskh-Regular.ttf",
+      "postScriptName": "DroidArabicNaskh",
+      "fullName": "Droid Arabic Naskh",
+      "copyright": "Digitized data copyright © 2010, Google Corporation."
+    },
+    {
+      "name": "Droid Arabic Naskh",
+      "style": "normal",
+      "weight": 700,
+      "filename": "DroidNaskh-Bold.ttf",
+      "postScriptName": "DroidArabicNaskh-Bold",
+      "fullName": "Droid Arabic Naskh Bold",
+      "copyright": "Digitized data copyright © 2010, Google Corporation."
+    }
+  ],
+  "subsets": [
+    "arabic",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Pompiere",
+  "designer": "Karolina Lach",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 25132,
+  "fonts": [
+    {
+      "name": "Pompiere",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Pompiere-Regular.ttf",
+      "postScriptName": "Pompiere-Regular",
+      "fullName": "Pompiere ",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Pompiere\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-20"
+}

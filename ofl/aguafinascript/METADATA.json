@@ -1,0 +1,25 @@
+{
+  "name": "Aguafina Script",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 22551,
+  "fonts": [
+    {
+      "name": "Aguafina Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AguafinaScript-Regular.ttf",
+      "postScriptName": "AguafinaScript-Regular",
+      "fullName": "Aguafina Script Regular",
+      "copyright": "Copyright (c) 2007 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2007 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Aguafina Script\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Monoton",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 26536,
+  "fonts": [
+    {
+      "name": "Monoton",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Monoton-Regular.ttf",
+      "postScriptName": "Monoton-Regular",
+      "fullName": "Monoton",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Monoton'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-24"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Damion",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 30578,
+  "fonts": [
+    {
+      "name": "Damion",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Damion-Regular.ttf",
+      "postScriptName": "Damion",
+      "fullName": "Damion",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Damion'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-04-27"
+}

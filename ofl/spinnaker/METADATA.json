@@ -1,0 +1,25 @@
+{
+  "name": "Spinnaker",
+  "designer": "Elena Albertoni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 15865,
+  "fonts": [
+    {
+      "name": "Spinnaker",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Spinnaker-Regular.ttf",
+      "postScriptName": "Spinnaker-Regular",
+      "fullName": "Spinnaker",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Spinnaker\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-09-28"
+}

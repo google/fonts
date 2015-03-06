@@ -1,0 +1,25 @@
+{
+  "name": "Fauna One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 16538,
+  "fonts": [
+    {
+      "name": "Fauna One",
+      "postScriptName": "FaunaOne-Regular",
+      "fullName": "Fauna One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FaunaOne-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Fauna'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-06-05"
+}

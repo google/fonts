@@ -1,0 +1,24 @@
+{
+  "name": "VT323",
+  "designer": "Peter Hull",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Monospace",
+  "size": 51900,
+  "fonts": [
+    {
+      "name": "VT323",
+      "style": "normal",
+      "weight": 400,
+      "filename": "VT323-Regular.ttf",
+      "postScriptName": "VT323-Regular",
+      "fullName": "VT323",
+      "copyright": "Copyright (c) 2011, Peter Hull (peter.hull@oikoi.com), with Reserved Font Name \"VT323\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-03-02"
+}

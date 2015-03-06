@@ -1,0 +1,33 @@
+{
+  "name": "Nokora",
+  "designer": "Danh Hong",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 22518,
+  "fonts": [
+    {
+      "name": "Nokora",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Nokora-Regular.ttf",
+      "postScriptName": "Nokora",
+      "fullName": "Nokora",
+      "copyright": "Digitized data copyright © 2007, Google Corporation. Copyright (c) 2012, Danh Hong (khmertype.blogspot.com danhhong@gmail.com). Nokora started as the Droid Sans files which were modified by Dahn Hong."
+    },
+    {
+      "name": "Nokora",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Nokora-Bold.ttf",
+      "postScriptName": "Nokora-Bold",
+      "fullName": "Nokora Bold",
+      "copyright": "Digitized data copyright © 2007, Google Corporation. Copyright (c) 2012, Danh Hong (khmertype.blogspot.com danhhong@gmail.com). Nokora started as the Droid Sans files which were modified by Dahn Hong."
+    }
+  ],
+  "subsets": [
+    "khmer",
+    "menu"
+  ],
+  "dateAdded": "2011-11-09"
+}

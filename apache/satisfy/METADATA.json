@@ -1,0 +1,24 @@
+{
+  "name": "Satisfy",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 28939,
+  "fonts": [
+    {
+      "name": "Satisfy",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Satisfy-Regular.ttf",
+      "postScriptName": "Satisfy",
+      "fullName": "Satisfy",
+      "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-10-12"
+}

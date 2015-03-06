@@ -1,0 +1,25 @@
+{
+  "name": "Port Lligat Slab",
+  "designer": "Tipo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 19054,
+  "fonts": [
+    {
+      "name": "Port Lligat Slab",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PortLligatSlab-Regular.ttf",
+      "postScriptName": "PortLligatSlab-Regular",
+      "fullName": "Port Lligat Slab",
+      "copyright": "Copyright (c) 2011, Tipo (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Port Lligat Slab\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-18"
+}

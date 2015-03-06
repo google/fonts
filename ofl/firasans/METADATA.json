@@ -1,0 +1,91 @@
+{
+  "name": "Fira Sans",
+  "designer": "Carrois and Edenspiekermann",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 92571,
+  "fonts": [
+    {
+      "name": "Fira Sans",
+      "style": "normal",
+      "weight": 700,
+      "filename": "FiraSans-Bold.ttf",
+      "postScriptName": "FiraSans-Bold",
+      "fullName": "Fira Sans Bold",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    },
+    {
+      "name": "Fira Sans",
+      "style": "italic",
+      "weight": 700,
+      "filename": "FiraSans-BoldItalic.ttf",
+      "postScriptName": "FiraSans-BoldItalic",
+      "fullName": "Fira Sans Bold Italic",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    },
+    {
+      "name": "Fira Sans",
+      "style": "italic",
+      "weight": 400,
+      "filename": "FiraSans-Italic.ttf",
+      "postScriptName": "FiraSans-Italic",
+      "fullName": "Fira Sans Italic",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    },
+    {
+      "name": "Fira Sans",
+      "style": "normal",
+      "weight": 300,
+      "filename": "FiraSans-Light.ttf",
+      "postScriptName": "FiraSans-Light",
+      "fullName": "Fira Sans Light",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    },
+    {
+      "name": "Fira Sans",
+      "style": "italic",
+      "weight": 300,
+      "filename": "FiraSans-LightItalic.ttf",
+      "postScriptName": "FiraSans-LightItalic",
+      "fullName": "Fira Sans Light Italic",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    },
+    {
+      "name": "Fira Sans",
+      "style": "normal",
+      "weight": 500,
+      "filename": "FiraSans-Medium.ttf",
+      "postScriptName": "FiraSans-Medium",
+      "fullName": "Fira Sans Medium",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    },
+    {
+      "name": "Fira Sans",
+      "style": "italic",
+      "weight": 500,
+      "filename": "FiraSans-MediumItalic.ttf",
+      "postScriptName": "FiraSans-MediumItalic",
+      "fullName": "Fira Sans Medium Italic",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    },
+    {
+      "name": "Fira Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FiraSans-Regular.ttf",
+      "postScriptName": "FiraSans-Regular",
+      "fullName": "Fira Sans",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-06-18"
+}

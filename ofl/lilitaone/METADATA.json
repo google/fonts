@@ -1,0 +1,25 @@
+{
+  "name": "Lilita One",
+  "designer": "Juan Montoreano",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 15298,
+  "fonts": [
+    {
+      "name": "Lilita One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LilitaOne-Regular.ttf",
+      "postScriptName": "LilitaOne",
+      "fullName": "Lilita One",
+      "copyright": "Copyright (c) 2011 Juan Montoreano (juan@remolacha.biz), with Reserved Font Names \"Lilita One\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-11"
+}

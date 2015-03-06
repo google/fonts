@@ -1,0 +1,24 @@
+{
+  "name": "Lohit Tamil",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Serif",
+  "size": 27639,
+  "fonts": [
+    {
+      "name": "Lohit Tamil",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lohit-Tamil.ttf",
+      "postScriptName": "Lohit-Tamil",
+      "fullName": "Lohit Tamil",
+      "copyright": "Copyright 2011 Lohit Fonts Project contributors (psatpute@redhat.com). <http://fedorahosted.org/lohit> Licensed under the SIL Open Font License 1.1 (see file OFL.txt)"
+    }
+  ],
+  "subsets": [
+    "menu",
+    "tamil"
+  ],
+  "dateAdded": "2011-12-12"
+}

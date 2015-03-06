@@ -1,0 +1,25 @@
+{
+  "name": "Lovers Quarrel",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 31590,
+  "fonts": [
+    {
+      "name": "Lovers Quarrel",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LoversQuarrel-Regular.ttf",
+      "postScriptName": "LoversQuarrel-Regular",
+      "fullName": "Lovers Quarrel",
+      "copyright": "Copyright (c) 2012 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Lovers Quarrel\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-29"
+}

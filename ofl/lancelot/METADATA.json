@@ -1,0 +1,25 @@
+{
+  "name": "Lancelot",
+  "designer": "Marion Kadi",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 31944,
+  "fonts": [
+    {
+      "name": "Lancelot",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lancelot-Regular.ttf",
+      "postScriptName": "Lancelot",
+      "fullName": "Lancelot",
+      "copyright": "Copyright (c) 2011 by Marion Kadi (marionkadi@gmail.com). All rights reserved. Licenced under SIL OFL v1.1"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-02"
+}

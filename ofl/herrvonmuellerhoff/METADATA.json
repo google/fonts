@@ -1,0 +1,25 @@
+{
+  "name": "Herr Von Muellerhoff",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 25280,
+  "fonts": [
+    {
+      "name": "Herr Von Muellerhoff",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HerrVonMuellerhoff-Regular.ttf",
+      "postScriptName": "HerrVonMuellerhoff-Regular",
+      "fullName": "Herr Von Muellerhoff Regular",
+      "copyright": "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Herr Von Mullerhoff\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

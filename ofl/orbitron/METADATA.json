@@ -1,0 +1,51 @@
+{
+  "name": "Orbitron",
+  "designer": "Matt McInerney",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 17599,
+  "fonts": [
+    {
+      "name": "Orbitron",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Orbitron-Regular.ttf",
+      "postScriptName": "Orbitron-Regular",
+      "fullName": "Orbitron-Light",
+      "copyright": "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
+    },
+    {
+      "name": "Orbitron",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Orbitron-Medium.ttf",
+      "postScriptName": "Orbitron-Medium",
+      "fullName": "Orbitron-Medium",
+      "copyright": "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
+    },
+    {
+      "name": "Orbitron",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Orbitron-Bold.ttf",
+      "postScriptName": "Orbitron-Bold",
+      "fullName": "Orbitron-Bold",
+      "copyright": "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
+    },
+    {
+      "name": "Orbitron",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Orbitron-Black.ttf",
+      "postScriptName": "Orbitron-Black",
+      "fullName": "Orbitron-Black",
+      "copyright": "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-15"
+}

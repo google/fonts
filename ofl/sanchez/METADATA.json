@@ -1,0 +1,34 @@
+{
+  "name": "Sanchez",
+  "designer": "Daniel Hernandez",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 26775,
+  "fonts": [
+    {
+      "name": "Sanchez",
+      "postScriptName": "Sanchez-Italic",
+      "fullName": "Sanchez Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Sanchez-Italic.ttf",
+      "copyright": "Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Sanchez'"
+    },
+    {
+      "name": "Sanchez",
+      "postScriptName": "Sanchez-Regular",
+      "fullName": "Sanchez",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sanchez-Regular.ttf",
+      "copyright": "Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Sanchez'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-31"
+}

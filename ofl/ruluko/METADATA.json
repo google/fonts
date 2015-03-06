@@ -1,0 +1,25 @@
+{
+  "name": "Ruluko",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 14968,
+  "fonts": [
+    {
+      "name": "Ruluko",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ruluko-Regular.ttf",
+      "postScriptName": "Ruluko",
+      "fullName": "Ruluko",
+      "copyright": "Copyright (c) 2011, Ana Sanfelippo, Angelica Diaz y Meme Hernandez (anasanfe@gmail.com - angiecina@gmail.com), with Reserved Font Name \"Ruluko\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-11"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Dekko",
+  "designer": "Eben Sorkin",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 135576,
+  "fonts": [
+    {
+      "name": "Dekko",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dekko-Regular.ttf",
+      "postScriptName": "Dekko",
+      "fullName": "Dekko",
+      "copyright": "Copyright (c) 2000, Modular Infotech, Pune, INDIA. Copyright (c) 2014, Sorkin Type Co, Boston, MA, USA (www.sorkintype.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-01-28"
+}

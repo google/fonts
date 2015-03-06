@@ -1,0 +1,70 @@
+{
+  "name": "Averia Sans Libre",
+  "designer": "Dan Sayers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 61046,
+  "fonts": [
+    {
+      "name": "Averia Sans Libre",
+      "style": "normal",
+      "weight": 300,
+      "filename": "AveriaSansLibre-Light.ttf",
+      "postScriptName": "AveriaSansLibre-Light",
+      "fullName": "Averia Sans Libre Light",
+      "copyright": "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "italic",
+      "weight": 300,
+      "filename": "AveriaSansLibre-LightItalic.ttf",
+      "postScriptName": "AveriaSansLibre-LightItalic",
+      "fullName": "Averia Sans Libre Light Italic",
+      "copyright": "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AveriaSansLibre-Regular.ttf",
+      "postScriptName": "AveriaSansLibre-Regular",
+      "fullName": "Averia Sans Libre Regular",
+      "copyright": "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "italic",
+      "weight": 400,
+      "filename": "AveriaSansLibre-Italic.ttf",
+      "postScriptName": "AveriaSansLibre-Italic",
+      "fullName": "Averia Sans Libre Italic",
+      "copyright": "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AveriaSansLibre-Bold.ttf",
+      "postScriptName": "AveriaSansLibre-Bold",
+      "fullName": "Averia Sans Libre Bold",
+      "copyright": "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "italic",
+      "weight": 700,
+      "filename": "AveriaSansLibre-BoldItalic.ttf",
+      "postScriptName": "AveriaSansLibre-BoldItalic",
+      "fullName": "Averia Sans Libre Bold Italic",
+      "copyright": "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

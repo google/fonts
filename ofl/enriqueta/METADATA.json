@@ -1,0 +1,34 @@
+{
+  "name": "Enriqueta",
+  "designer": "FontFuror",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 22599,
+  "fonts": [
+    {
+      "name": "Enriqueta",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Enriqueta-Regular.ttf",
+      "postScriptName": "Enriqueta-Regular",
+      "fullName": "Enriqueta-Regular",
+      "copyright": "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Enriqueta\" and \"Enriqueta Pro\"."
+    },
+    {
+      "name": "Enriqueta",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Enriqueta-Bold.ttf",
+      "postScriptName": "Enriqueta-Bold",
+      "fullName": "Enriqueta-Bold",
+      "copyright": "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Enriqueta\" and \"Enriqueta Pro\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

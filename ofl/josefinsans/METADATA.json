@@ -1,0 +1,106 @@
+{
+  "name": "Josefin Sans",
+  "designer": "Santiago Orozco",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 43171,
+  "fonts": [
+    {
+      "name": "Josefin Sans",
+      "style": "normal",
+      "weight": 100,
+      "filename": "JosefinSans-Thin.ttf",
+      "postScriptName": "JosefinSans-Thin",
+      "fullName": "Josefin Sans Thin",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Sans",
+      "style": "italic",
+      "weight": 100,
+      "filename": "JosefinSans-ThinItalic.ttf",
+      "postScriptName": "JosefinSans-ThinItalic",
+      "fullName": "Josefin Sans Thin Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Sans",
+      "style": "normal",
+      "weight": 300,
+      "filename": "JosefinSans-Light.ttf",
+      "postScriptName": "JosefinSans-Light",
+      "fullName": "Josefin Sans Light",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Sans",
+      "style": "italic",
+      "weight": 300,
+      "filename": "JosefinSans-LightItalic.ttf",
+      "postScriptName": "JosefinSans-LightItalic",
+      "fullName": "Josefin Sans Light Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JosefinSans-Regular.ttf",
+      "postScriptName": "JosefinSans",
+      "fullName": "Josefin Sans",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Sans",
+      "style": "italic",
+      "weight": 400,
+      "filename": "JosefinSans-Italic.ttf",
+      "postScriptName": "JosefinSans-Italic",
+      "fullName": "Josefin Sans Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Sans",
+      "style": "normal",
+      "weight": 600,
+      "filename": "JosefinSans-SemiBold.ttf",
+      "postScriptName": "JosefinSans-SemiBold",
+      "fullName": "Josefin Sans SemiBold",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Sans",
+      "style": "italic",
+      "weight": 600,
+      "filename": "JosefinSans-SemiBoldItalic.ttf",
+      "postScriptName": "JosefinSans-SemiBoldItalic",
+      "fullName": "Josefin Sans SemiBold Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Sans",
+      "style": "normal",
+      "weight": 700,
+      "filename": "JosefinSans-Bold.ttf",
+      "postScriptName": "JosefinSans-Bold",
+      "fullName": "Josefin Sans Bold",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Sans",
+      "style": "italic",
+      "weight": 700,
+      "filename": "JosefinSans-BoldItalic.ttf",
+      "postScriptName": "JosefinSans-BoldItalic",
+      "fullName": "Josefin Sans Bold Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-11-17"
+}

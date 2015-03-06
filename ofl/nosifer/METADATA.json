@@ -1,0 +1,25 @@
+{
+  "name": "Nosifer",
+  "designer": "Typomondo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 22458,
+  "fonts": [
+    {
+      "name": "Nosifer",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Nosifer-Regular.ttf",
+      "postScriptName": "Nosifer-Regular",
+      "fullName": "Nosifer",
+      "copyright": "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Nosifer\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

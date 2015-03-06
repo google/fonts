@@ -1,0 +1,25 @@
+{
+  "name": "Condiment",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 23826,
+  "fonts": [
+    {
+      "name": "Condiment",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Condiment-Regular.ttf",
+      "postScriptName": "Condiment-Regular",
+      "fullName": "Condiment",
+      "copyright": "Copyright (c) 2010 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2010 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Condiment\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-25"
+}

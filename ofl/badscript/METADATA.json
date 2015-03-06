@@ -1,0 +1,27 @@
+{
+  "name": "Bad Script",
+  "designer": "Gaslight",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 37312,
+  "fonts": [
+    {
+      "name": "Bad Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BadScript-Regular.ttf",
+      "postScriptName": "BadScript-Regular",
+      "fullName": "Bad Script Regular",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Bad Script\"."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

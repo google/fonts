@@ -1,0 +1,88 @@
+{
+  "name": "Merriweather Sans",
+  "designer": "Eben Sorkin",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 31707,
+  "fonts": [
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-Bold",
+      "fullName": "Merriweather Sans Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "MerriweatherSans-Bold.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-BoldItalic",
+      "fullName": "Merriweather Sans Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "MerriweatherSans-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-ExtraBold",
+      "fullName": "Merriweather Sans ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "MerriweatherSans-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-ExtraBldItalic",
+      "fullName": "Merriweather Sans ExtraBold Italic",
+      "style": "italic",
+      "weight": 800,
+      "filename": "MerriweatherSans-ExtraBoldItalic.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-Italic",
+      "fullName": "Merriweather Sans Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "MerriweatherSans-Italic.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-Light",
+      "fullName": "Merriweather Sans Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "MerriweatherSans-Light.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-LightItalic",
+      "fullName": "Merriweather Sans Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "MerriweatherSans-LightItalic.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-Regular",
+      "fullName": "Merriweather Sans Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MerriweatherSans-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-03-06"
+}

@@ -1,0 +1,50 @@
+FONTLOG for the Alice font
+
+This file provides detailed information on the Alice font Software.
+
+This information should be distributed along with the 
+Alice fonts and any derivative works.
+
+Basic Font Information
+
+Ksenia Erulevich, designer of Alice typeface,
+was inspired by Lewis Carroll's novel and
+decided to make a typeface that will
+be suitable for typesetting this book.
+
+It came out eclectic and quaint, old-fashioned, 
+having widened proportions, open aperture, and 
+soft rounded features. Perfect for long meditative text-setting 
+and headlines.
+
+This is in fact Ksenia's first typeface, as part of 
+her diploma project at the Type & Typography course in 
+Moscow, Russia.
+
+Released by Cyreal with help from Gayaneh Bagdasaryan 
+and Alexei Vanyashin.
+
+Alice is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a@cyreal.org
+
+There are two .VBF Source files:
+1. Alice_PS_Source.vbf (Original Source files with contour overlaps)
+2. Alice_merged_and_optimized.vbf (Merged and optimized file)
+
+ChangeLog
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Designer and Mastering

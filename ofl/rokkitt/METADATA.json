@@ -1,0 +1,42 @@
+{
+  "name": "Rokkitt",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27349,
+  "fonts": [
+    {
+      "name": "Rokkitt",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Rokkitt-Light.ttf",
+      "postScriptName": "Rokkitt-Light",
+      "fullName": "Rokkitt Light",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
+    },
+    {
+      "name": "Rokkitt",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rokkitt-Regular.ttf",
+      "postScriptName": "Rokkitt",
+      "fullName": "Rokkitt",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
+    },
+    {
+      "name": "Rokkitt",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Rokkitt-Bold.ttf",
+      "postScriptName": "Rokkitt-Bold",
+      "fullName": "Rokkitt Bold",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-27"
+}

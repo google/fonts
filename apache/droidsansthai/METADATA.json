@@ -1,0 +1,33 @@
+{
+  "name": "Droid Sans Thai",
+  "designer": "Monotype",
+  "license": "Apache2",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 18871,
+  "fonts": [
+    {
+      "name": "Droid Sans Thai",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DroidSansThai-Regular.ttf",
+      "postScriptName": "DroidSansThai",
+      "fullName": "Droid Sans Thai",
+      "copyright": "Digitized data copyright Google Corporation © 2009"
+    },
+    {
+      "name": "Droid Sans Thai",
+      "style": "normal",
+      "weight": 700,
+      "filename": "DroidSansThai-Bold.ttf",
+      "postScriptName": "DroidSansThai-Bold",
+      "fullName": "Droid Sans Thai Bold",
+      "copyright": "Digitized data copyright Google Corporation © 2011"
+    }
+  ],
+  "subsets": [
+    "menu",
+    "thai"
+  ],
+  "dateAdded": "2012-05-09"
+}

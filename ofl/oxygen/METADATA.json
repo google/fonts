@@ -1,0 +1,43 @@
+{
+  "name": "Oxygen",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 36354,
+  "fonts": [
+    {
+      "name": "Oxygen",
+      "postScriptName": "Oxygen-Bold",
+      "fullName": "Oxygen Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Oxygen-Bold.ttf",
+      "copyright": "Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'"
+    },
+    {
+      "name": "Oxygen",
+      "postScriptName": "Oxygen-Light",
+      "fullName": "Oxygen Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Oxygen-Light.ttf",
+      "copyright": "Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'"
+    },
+    {
+      "name": "Oxygen",
+      "postScriptName": "Oxygen-Regular",
+      "fullName": "Oxygen",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Oxygen-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-29"
+}

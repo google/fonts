@@ -1,0 +1,42 @@
+{
+  "name": "Old Standard TT",
+  "designer": "Alexey Kryukov",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 32103,
+  "fonts": [
+    {
+      "name": "Old Standard TT",
+      "style": "normal",
+      "weight": 400,
+      "filename": "OldStandard-Regular.ttf",
+      "postScriptName": "OldStandardTT-Regular",
+      "fullName": "Old Standard TT Regular",
+      "copyright": "Copyright (C) 2006-2008 Alexey Kryukov (alexios@thessalonica.org.ru)"
+    },
+    {
+      "name": "Old Standard TT",
+      "style": "italic",
+      "weight": 400,
+      "filename": "OldStandard-Italic.ttf",
+      "postScriptName": "OldStandardTT-Italic",
+      "fullName": "Old Standard TT Italic",
+      "copyright": "Copyright (c) 2006-2008 Alexey Kryukov (alexios@thessalonica.org.ru)"
+    },
+    {
+      "name": "Old Standard TT",
+      "style": "normal",
+      "weight": 700,
+      "filename": "OldStandard-Bold.ttf",
+      "postScriptName": "OldStandardTT-Bold",
+      "fullName": "Old Standard TT Bold",
+      "copyright": "Copyright (C) 2006-2008 Alexey Kryukov (alexios@thessalonica.org.ru)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-05-18"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Bilbo",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 23579,
+  "fonts": [
+    {
+      "name": "Bilbo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bilbo-Regular.ttf",
+      "postScriptName": "Bilbo-Regular",
+      "fullName": "Bilbo Regular",
+      "copyright": "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Bilbo\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-07"
+}

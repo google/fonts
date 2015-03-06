@@ -1,0 +1,43 @@
+{
+  "name": "Libre Baskerville",
+  "designer": "Impallari Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 59180,
+  "fonts": [
+    {
+      "name": "Libre Baskerville",
+      "postScriptName": "LibreBaskerville-Bold",
+      "fullName": "Libre Baskerville Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "LibreBaskerville-Bold.ttf",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Baskerville."
+    },
+    {
+      "name": "Libre Baskerville",
+      "postScriptName": "LibreBaskerville-Italic",
+      "fullName": "Libre Baskerville Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "LibreBaskerville-Italic.ttf",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Baskerville."
+    },
+    {
+      "name": "Libre Baskerville",
+      "postScriptName": "LibreBaskerville-Regular",
+      "fullName": "Libre Baskerville",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LibreBaskerville-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Baskerville."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-30"
+}

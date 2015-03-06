@@ -1,0 +1,34 @@
+{
+  "name": "Linden Hill",
+  "designer": "Barry Schwartz",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 54717,
+  "fonts": [
+    {
+      "name": "Linden Hill",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LindenHill-Regular.ttf",
+      "postScriptName": "LindenHill-Regular",
+      "fullName": "Linden Hill Regular",
+      "copyright": "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)"
+    },
+    {
+      "name": "Linden Hill",
+      "style": "italic",
+      "weight": 400,
+      "filename": "LindenHill-Italic.ttf",
+      "postScriptName": "LindenHill-Italic",
+      "fullName": "Linden Hill Italic",
+      "copyright": "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-10-19"
+}

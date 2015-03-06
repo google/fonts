@@ -1,0 +1,24 @@
+{
+  "name": "Abel",
+  "designer": "MADType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 16583,
+  "fonts": [
+    {
+      "name": "Abel",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Abel-Regular.ttf",
+      "postScriptName": "Abel-Regular",
+      "fullName": "Abel",
+      "copyright": "Copyright (c) 2011, Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name Abel."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-03"
+}

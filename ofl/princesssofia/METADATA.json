@@ -1,0 +1,25 @@
+{
+  "name": "Princess Sofia",
+  "designer": "Tart Workshop",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 130400,
+  "fonts": [
+    {
+      "name": "Princess Sofia",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PrincessSofia-Regular.ttf",
+      "postScriptName": "PrincessSofia",
+      "fullName": "Princess Sofia",
+      "copyright": "Copyright (c) 2012 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reseved Font Name \"Princess Sofia\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-15"
+}

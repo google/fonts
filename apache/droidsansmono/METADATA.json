@@ -1,0 +1,26 @@
+{
+  "name": "Droid Sans Mono",
+  "designer": "Steve Matteson",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Monospace",
+  "size": 75530,
+  "fonts": [
+    {
+      "name": "Droid Sans Mono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DroidSansMono.ttf",
+      "postScriptName": "DroidSansMono",
+      "fullName": "Droid Sans Mono",
+      "copyright": "Digitized data copyright © 2007, Google Corporation."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2010-05-17"
+}

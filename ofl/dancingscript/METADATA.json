@@ -1,0 +1,33 @@
+{
+  "name": "Dancing Script",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 60264,
+  "fonts": [
+    {
+      "name": "Dancing Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DancingScript-Regular.ttf",
+      "postScriptName": "DancingScript",
+      "fullName": "Dancing Script",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). All rights reserved."
+    },
+    {
+      "name": "Dancing Script",
+      "style": "normal",
+      "weight": 700,
+      "filename": "DancingScript-Bold.ttf",
+      "postScriptName": "DancingScript-Bold",
+      "fullName": "Dancing Script Bold",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-18"
+}

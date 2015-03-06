@@ -1,0 +1,34 @@
+{
+  "name": "Magra",
+  "designer": "FontFuror",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 23060,
+  "fonts": [
+    {
+      "name": "Magra",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Magra-Regular.ttf",
+      "postScriptName": "Magra",
+      "fullName": "Magra",
+      "copyright": "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Names \"Magra\" \"Magra Pro\""
+    },
+    {
+      "name": "Magra",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Magra-Bold.ttf",
+      "postScriptName": "Magra-Bold",
+      "fullName": "Magra Bold",
+      "copyright": "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Names \"Magra\" \"Magra Pro\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-11"
+}

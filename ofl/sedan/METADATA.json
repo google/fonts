@@ -1,0 +1,32 @@
+{
+  "name": "Sedan",
+  "designer": "Sebastian Salazar",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 18605,
+  "fonts": [
+    {
+      "name": "Sedan",
+      "postScriptName": "Sedan-Italic",
+      "fullName": "Sedan Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Sedan-Italic.ttf",
+      "copyright": "Copyright (c) 2012, Sebastian Salazar (sebotas26@hotmail.com), with Reserved Font Name 'Sedan'"
+    },
+    {
+      "name": "Sedan",
+      "postScriptName": "Sedan-Regular",
+      "fullName": "Sedan",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sedan-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Sebastian Salazar (sebotas26@hotmail.com), with Reserved Font Name 'Sedan'"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ],
+  "dateAdded": "2012-10-31"
+}

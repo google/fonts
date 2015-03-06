@@ -1,0 +1,25 @@
+{
+  "name": "Seaweed Script",
+  "designer": "Neapolitan",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 58115,
+  "fonts": [
+    {
+      "name": "Seaweed Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SeaweedScript-Regular.ttf",
+      "postScriptName": "SeaweedScript-Regular",
+      "fullName": "Seaweed Script",
+      "copyright": "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Seaweed Script\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-29"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gochi Hand",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 24848,
+  "fonts": [
+    {
+      "name": "Gochi Hand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GochiHand-Regular.ttf",
+      "postScriptName": "GochiHand-Regular",
+      "fullName": "Gochi Hand",
+      "copyright": "Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Names \"Gochi\" and \"Gochi Hand\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-10-05"
+}

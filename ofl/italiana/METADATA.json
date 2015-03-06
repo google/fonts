@@ -1,0 +1,24 @@
+{
+  "name": "Italiana",
+  "designer": "Santiago Orozco",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15007,
+  "fonts": [
+    {
+      "name": "Italiana",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Italiana-Regular.ttf",
+      "postScriptName": "Italiana-Regular",
+      "fullName": "Italiana",
+      "copyright": "Copyright (c) 2011 by Santiago Orozco (hi@typemade.mx) with reserved name Italiana"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

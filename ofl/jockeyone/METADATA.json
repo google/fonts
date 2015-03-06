@@ -1,0 +1,25 @@
+{
+  "name": "Jockey One",
+  "designer": "TypeTogether",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 22480,
+  "fonts": [
+    {
+      "name": "Jockey One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JockeyOne-Regular.ttf",
+      "postScriptName": "JockeyOne-Regular",
+      "fullName": "Jockey One",
+      "copyright": "Copyright (c) 2011, Copyright (c) 2011, TypeTogether (www.type-together.com info@type-together.com), with Reserved Font Names \"Jockey\" and \"Jockey One\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-10-26"
+}

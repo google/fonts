@@ -1,0 +1,24 @@
+{
+  "name": "Maiden Orange",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 32926,
+  "fonts": [
+    {
+      "name": "Maiden Orange",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MaidenOrange.ttf",
+      "postScriptName": "MaidenOrange-Regular",
+      "fullName": "Maiden Orange",
+      "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-20"
+}

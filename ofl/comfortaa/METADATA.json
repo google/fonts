@@ -1,0 +1,46 @@
+{
+  "name": "Comfortaa",
+  "designer": "Johan Aakerlund",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 43662,
+  "fonts": [
+    {
+      "name": "Comfortaa",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Comfortaa-Light.ttf",
+      "postScriptName": "Comfortaa-Light",
+      "fullName": "Comfortaa Light",
+      "copyright": "Copyright (c) 2011, Johan Aakerlund (aajohan@gmail.com), with Reserved Font Name \"Comfortaa\""
+    },
+    {
+      "name": "Comfortaa",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Comfortaa-Regular.ttf",
+      "postScriptName": "Comfortaa-Regular",
+      "fullName": "Comfortaa",
+      "copyright": "Copyright (c) 2011, Johan Aakerlund (aajohan@gmail.com), with Reserved Font Name \"Comfortaa\""
+    },
+    {
+      "name": "Comfortaa",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Comfortaa-Bold.ttf",
+      "postScriptName": "Comfortaa-Bold",
+      "fullName": "Comfortaa Bold",
+      "copyright": "Copyright (c) 2011, Johan Aakerlund (aajohan@gmail.com), with Reserved Font Name \"Comfortaa\""
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-08-10"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Droid Sans Ethiopic",
+  "designer": "Monotype",
+  "license": "Apache2",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 91795,
+  "fonts": [
+    {
+      "name": "Droid Sans Ethiopic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DroidSansEthiopic-Regular.ttf",
+      "postScriptName": "DroidSansEthiopic",
+      "fullName": "Droid Sans Ethiopic",
+      "copyright": "Digitized data copyright Google Corporation © 2010"
+    },
+    {
+      "name": "Droid Sans Ethiopic",
+      "style": "normal",
+      "weight": 700,
+      "filename": "DroidSansEthiopic-Bold.ttf",
+      "postScriptName": "DroidSansEthiopic-Bold",
+      "fullName": "Droid Sans Ethiopic Bold",
+      "copyright": "Digitized data copyright Google Corporation © 2010"
+    }
+  ],
+  "subsets": [
+    "ethiopic",
+    "menu"
+  ],
+  "dateAdded": "2012-05-09"
+}

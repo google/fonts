@@ -1,0 +1,52 @@
+{
+  "name": "Andada SC",
+  "designer": "Huerta Tipogr\u00e1fica",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 30271,
+  "fonts": [
+    {
+      "name": "Andada SC",
+      "postScriptName": "AndadaSC-Bold",
+      "fullName": "Andada SC Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AndadaSC-Bold.ttf",
+      "copyright": "Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Name 'Andada'"
+    },
+    {
+      "name": "Andada SC",
+      "postScriptName": "AndadaSC-BoldItalic",
+      "fullName": "Andada SC Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "AndadaSC-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Name 'Andada'"
+    },
+    {
+      "name": "Andada SC",
+      "postScriptName": "AndadaSC-Italic",
+      "fullName": "Andada SC Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "AndadaSC-Italic.ttf",
+      "copyright": "Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Name 'Andada'"
+    },
+    {
+      "name": "Andada SC",
+      "postScriptName": "AndadaSC-Regular",
+      "fullName": "Andada SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AndadaSC-Regular.ttf",
+      "copyright": "Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Name 'Andada'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-12"
+}

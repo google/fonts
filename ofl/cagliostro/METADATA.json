@@ -1,0 +1,25 @@
+{
+  "name": "Cagliostro",
+  "designer": "MADType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 20763,
+  "fonts": [
+    {
+      "name": "Cagliostro",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cagliostro-Regular.ttf",
+      "postScriptName": "Cagliostro-Regular",
+      "fullName": "Cagliostro Regular",
+      "copyright": "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Cagliostro\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

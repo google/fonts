@@ -1,0 +1,27 @@
+{
+  "name": "Tenor Sans",
+  "designer": "Denis Masharov",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 52475,
+  "fonts": [
+    {
+      "name": "Tenor Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "TenorSans-Regular.ttf",
+      "postScriptName": "TenorSans",
+      "fullName": "Tenor Sans",
+      "copyright": "Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-05-25"
+}

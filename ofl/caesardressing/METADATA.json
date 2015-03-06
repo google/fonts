@@ -1,0 +1,24 @@
+{
+  "name": "Caesar Dressing",
+  "designer": "Open Window",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 40370,
+  "fonts": [
+    {
+      "name": "Caesar Dressing",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CaesarDressing-Regular.ttf",
+      "postScriptName": "CaesarDressing-Regular",
+      "fullName": "Caesar Dressing",
+      "copyright": "Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Caesar Dressing\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

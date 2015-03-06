@@ -1,0 +1,53 @@
+{
+  "name": "Scada",
+  "designer": "Jovanny Lemonad",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": "47993",
+  "fonts": [
+    {
+      "name": "Scada",
+      "postScriptName": "Scada-Bold",
+      "fullName": "Scada Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Scada-Bold.ttf",
+      "copyright": "Copyright (c) 2005-2012 by Jovanny Lemonad (lemonad@jovanny.ru)"
+    },
+    {
+      "name": "Scada",
+      "postScriptName": "Scada-BoldItalic",
+      "fullName": "Scada Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Scada-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2005-2012 by Jovanny Lemonad (lemonad@jovanny.ru)"
+    },
+    {
+      "name": "Scada",
+      "postScriptName": "Scada-Italic",
+      "fullName": "Scada Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Scada-Italic.ttf",
+      "copyright": "Copyright (c) 2005-2012 by Jovanny Lemonad (lemonad@jovanny.ru)"
+    },
+    {
+      "name": "Scada",
+      "postScriptName": "Scada-Regular",
+      "fullName": "Scada",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Scada-Regular.ttf",
+      "copyright": "Copyright (c) 2005-2012 by Jovanny Lemonad (lemonad@jovanny.ru)"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-07-30"
+}

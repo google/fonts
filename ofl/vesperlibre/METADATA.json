@@ -1,0 +1,53 @@
+{
+  "name": "Vesper Libre",
+  "designer": "Mota Italic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 77365,
+  "fonts": [
+    {
+      "name": "Vesper Libre",
+      "style": "normal",
+      "weight": 700,
+      "filename": "VesperLibre-Bold.ttf",
+      "postScriptName": "VesperDevanagariLibre-Bold",
+      "fullName": "Vesper Devanagari Libre Bold",
+      "copyright": "Copyright (c) 2014, Rob Keller (info@motaitalic.com)"
+    },
+    {
+      "name": "Vesper Libre",
+      "style": "normal",
+      "weight": 900,
+      "filename": "VesperLibre-Heavy.ttf",
+      "postScriptName": "VesperDevanagariLibre-Heavy",
+      "fullName": "Vesper Devanagari Libre Heavy",
+      "copyright": "Copyright (c) 2014, Rob Keller (info@motaitalic.com)"
+    },
+    {
+      "name": "Vesper Libre",
+      "style": "normal",
+      "weight": 500,
+      "filename": "VesperLibre-Medium.ttf",
+      "postScriptName": "VesperDevanagariLibre-Medium",
+      "fullName": "Vesper Devanagari Libre Medium",
+      "copyright": "Copyright (c) 2014, Rob Keller (info@motaitalic.com)"
+    },
+    {
+      "name": "Vesper Libre",
+      "style": "normal",
+      "weight": 400,
+      "filename": "VesperLibre-Regular.ttf",
+      "postScriptName": "VesperDevanagariLibre-Regular",
+      "fullName": "Vesper Devanagari Libre",
+      "copyright": "Copyright (c) 2014, Rob Keller (info@motaitalic.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-07-14"
+}

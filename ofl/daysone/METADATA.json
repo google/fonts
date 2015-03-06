@@ -1,0 +1,24 @@
+{
+  "name": "Days One",
+  "designer": "Jovanny Lemonad",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 30757,
+  "fonts": [
+    {
+      "name": "Days One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DaysOne-Regular.ttf",
+      "postScriptName": "DaysOne-Regular",
+      "fullName": "Days One",
+      "copyright": "Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-17"
+}

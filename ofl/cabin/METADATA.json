@@ -1,0 +1,87 @@
+{
+  "name": "Cabin",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 85829,
+  "fonts": [
+    {
+      "name": "Cabin",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cabin-Regular.ttf",
+      "postScriptName": "Cabin-Regular",
+      "fullName": "Cabin Regular",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    },
+    {
+      "name": "Cabin",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Cabin-Italic.ttf",
+      "postScriptName": "Cabin-Italic",
+      "fullName": "Cabin Italic",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    },
+    {
+      "name": "Cabin",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Cabin-Medium.ttf",
+      "postScriptName": "Cabin-Medium",
+      "fullName": "Cabin Medium",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    },
+    {
+      "name": "Cabin",
+      "style": "italic",
+      "weight": 500,
+      "filename": "Cabin-MediumItalic.ttf",
+      "postScriptName": "Cabin-MediumItalic",
+      "fullName": "Cabin Medium Italic",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    },
+    {
+      "name": "Cabin",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Cabin-SemiBold.ttf",
+      "postScriptName": "Cabin-SemiBold",
+      "fullName": "Cabin SemiBold",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    },
+    {
+      "name": "Cabin",
+      "style": "italic",
+      "weight": 600,
+      "filename": "Cabin-SemiBoldItalic.ttf",
+      "postScriptName": "Cabin-SemiBoldItalic",
+      "fullName": "Cabin SemiBold Italic",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    },
+    {
+      "name": "Cabin",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Cabin-Bold.ttf",
+      "postScriptName": "Cabin-Bold",
+      "fullName": "Cabin Bold",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    },
+    {
+      "name": "Cabin",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Cabin-BoldItalic.ttf",
+      "postScriptName": "Cabin-BoldItalic",
+      "fullName": "Cabin Bold Italic",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-03-23"
+}

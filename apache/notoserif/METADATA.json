@@ -1,0 +1,57 @@
+{
+  "name": "Noto Serif",
+  "designer": "Google",
+  "license": "Apache2",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 208530,
+  "fonts": [
+    {
+      "name": "Noto Serif",
+      "postScriptName": "NotoSerif-Bold",
+      "fullName": "Noto Serif Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "NotoSerif-Bold.ttf",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Noto Serif",
+      "postScriptName": "NotoSerif-BoldItalic",
+      "fullName": "Noto Serif Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "NotoSerif-BoldItalic.ttf",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Noto Serif",
+      "postScriptName": "NotoSerif-Italic",
+      "fullName": "Noto Serif Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "NotoSerif-Italic.ttf",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Noto Serif",
+      "postScriptName": "NotoSerif",
+      "fullName": "Noto Serif",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NotoSerif-Regular.ttf",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2013-02-27"
+}

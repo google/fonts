@@ -1,0 +1,24 @@
+{
+  "name": "Shanti",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 49755,
+  "fonts": [
+    {
+      "name": "Shanti",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Shanti-Regular.ttf",
+      "postScriptName": "Shanti",
+      "fullName": "Shanti",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Shanti'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-11"
+}

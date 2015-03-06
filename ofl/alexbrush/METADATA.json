@@ -1,0 +1,25 @@
+{
+  "name": "Alex Brush",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 25453,
+  "fonts": [
+    {
+      "name": "Alex Brush",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AlexBrush-Regular.ttf",
+      "postScriptName": "AlexBrush-Regular",
+      "fullName": "Alex Brush",
+      "copyright": "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Alex Brush\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

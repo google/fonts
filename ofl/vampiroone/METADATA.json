@@ -1,0 +1,25 @@
+{
+  "name": "Vampiro One",
+  "designer": "Riccardo De Franceschi",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 19133,
+  "fonts": [
+    {
+      "name": "Vampiro One",
+      "postScriptName": "VampiroOne-Regular",
+      "fullName": "Vampiro One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "VampiroOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)\rwith Reserved Font Name 'Vampiro'."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-26"
+}

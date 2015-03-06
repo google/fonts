@@ -1,0 +1,24 @@
+{
+  "name": "Tulpen One",
+  "designer": "Naima Ben Ayed",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19409,
+  "fonts": [
+    {
+      "name": "Tulpen One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "TulpenOne-Regular.ttf",
+      "postScriptName": "TulpenOne-Regular",
+      "fullName": "Tulpen One",
+      "copyright": "Copyright (c) 2011, Naima Ben Ayed (naima.benayed@gmail.com), with Reserved Font Names \"Tulpen\" and \"Tulpen One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-03"
+}

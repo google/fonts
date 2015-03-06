@@ -1,0 +1,25 @@
+{
+  "name": "Mr De Haviland",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 23988,
+  "fonts": [
+    {
+      "name": "Mr De Haviland",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MrDeHaviland-Regular.ttf",
+      "postScriptName": "MrDeHaviland-Regular",
+      "fullName": "Mr De Haviland Regular",
+      "copyright": "Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mr De Haviland\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

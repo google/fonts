@@ -1,0 +1,24 @@
+{
+  "name": "Walter Turncoat",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 79445,
+  "fonts": [
+    {
+      "name": "Walter Turncoat",
+      "style": "normal",
+      "weight": 400,
+      "filename": "WalterTurncoat.ttf",
+      "postScriptName": "WalterTurncoat",
+      "fullName": "Walter Turncoat",
+      "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-01-06"
+}

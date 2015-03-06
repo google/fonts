@@ -1,0 +1,24 @@
+{
+  "name": "Spirax",
+  "designer": "Brenda Gallo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 22525,
+  "fonts": [
+    {
+      "name": "Spirax",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Spirax-Regular.ttf",
+      "postScriptName": "Spirax-Regular",
+      "fullName": "Spirax-Regular",
+      "copyright": "Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved Font Name Spirax."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-11-23"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Viga",
+  "designer": "Fontstage",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 15882,
+  "fonts": [
+    {
+      "name": "Viga",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Viga-Regular.ttf",
+      "postScriptName": "Viga-Regular",
+      "fullName": "Viga-Regular",
+      "copyright": "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Viga\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-07"
+}

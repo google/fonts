@@ -1,0 +1,25 @@
+{
+  "name": "Montaga",
+  "designer": "Alejandra Rodriguez",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 17847,
+  "fonts": [
+    {
+      "name": "Montaga",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Montaga-Regular.ttf",
+      "postScriptName": "Montaga-Regular",
+      "fullName": "Montaga",
+      "copyright": "Copyright (c) 2011, Alejandra Rodriguez (ale_guez@yahoo.com.ar http://twitter.com/ale_guez), with Reserved Font Name \"Montaga\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-18"
+}

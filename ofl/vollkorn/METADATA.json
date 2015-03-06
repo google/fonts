@@ -1,0 +1,51 @@
+{
+  "name": "Vollkorn",
+  "designer": "Friedrich Althausen",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 31898,
+  "fonts": [
+    {
+      "name": "Vollkorn",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Vollkorn-Regular.ttf",
+      "postScriptName": "Vollkorn-Regular",
+      "fullName": "Vollkorn Regular",
+      "copyright": "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de post@friedrichalthausen.de). All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Vollkorn",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Vollkorn-Italic.ttf",
+      "postScriptName": "Vollkorn-Italic",
+      "fullName": "Vollkorn Italic",
+      "copyright": "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de post@friedrichalthausen.de). All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Vollkorn",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Vollkorn-Bold.ttf",
+      "postScriptName": "Vollkorn-Bold",
+      "fullName": "Vollkorn Bold",
+      "copyright": "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de post@friedrichalthausen.de). All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Vollkorn",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Vollkorn-BoldItalic.ttf",
+      "postScriptName": "Vollkorn-BoldItalic",
+      "fullName": "Vollkorn Bold Italic",
+      "copyright": "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de post@friedrichalthausen.de). All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-09-08"
+}

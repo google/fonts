@@ -1,0 +1,25 @@
+{
+  "name": "Germania One",
+  "designer": "John Vargas Beltrán",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 15842,
+  "fonts": [
+    {
+      "name": "Germania One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GermaniaOne-Regular.ttf",
+      "postScriptName": "GermaniaOne-Regular",
+      "fullName": "Germania One",
+      "copyright": "Copyright (c) 2011 by John Vargas Beltran (john.vargasbeltran@gmail.com), with Reserved Font Name \"Germania One\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-18"
+}

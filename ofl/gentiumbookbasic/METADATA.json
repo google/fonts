@@ -1,0 +1,52 @@
+{
+  "name": "Gentium Book Basic",
+  "designer": "Victor Gaultney",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 106572,
+  "fonts": [
+    {
+      "name": "Gentium Book Basic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GenBkBasR.ttf",
+      "postScriptName": "GentiumBookBasic",
+      "fullName": "Gentium Book Basic",
+      "copyright": "Copyright (c) SIL International, 2003-2008."
+    },
+    {
+      "name": "Gentium Book Basic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "GenBkBasI.ttf",
+      "postScriptName": "GentiumBookBasic-Italic",
+      "fullName": "Gentium Book Basic Italic",
+      "copyright": "Copyright (c) SIL International, 2003-2008."
+    },
+    {
+      "name": "Gentium Book Basic",
+      "style": "normal",
+      "weight": 700,
+      "filename": "GenBkBasB.ttf",
+      "postScriptName": "GentiumBookBasic-Bold",
+      "fullName": "Gentium Book Basic Bold",
+      "copyright": "Copyright (c) SIL International, 2003-2008."
+    },
+    {
+      "name": "Gentium Book Basic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "GenBkBasBI.ttf",
+      "postScriptName": "GentiumBookBasic-BoldItalic",
+      "fullName": "Gentium Book Basic Bold Italic",
+      "copyright": "Copyright (c) SIL International, 2003-2008."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-08-17"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Inder",
+  "designer": "Sorkin Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 20318,
+  "fonts": [
+    {
+      "name": "Inder",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Inder-Regular.ttf",
+      "postScriptName": "Inder-Regular",
+      "fullName": "Inder",
+      "copyright": "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name Inder."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

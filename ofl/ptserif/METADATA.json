@@ -1,0 +1,54 @@
+{
+  "name": "PT Serif",
+  "designer": "ParaType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 180768,
+  "fonts": [
+    {
+      "name": "PT Serif",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PT_Serif-Web-Regular.ttf",
+      "postScriptName": "PTSerif-Regular",
+      "fullName": "PT Serif",
+      "copyright": "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    },
+    {
+      "name": "PT Serif",
+      "style": "italic",
+      "weight": 400,
+      "filename": "PT_Serif-Web-Italic.ttf",
+      "postScriptName": "PTSerif-Italic",
+      "fullName": "PT Serif Italic",
+      "copyright": "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    },
+    {
+      "name": "PT Serif",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PT_Serif-Web-Bold.ttf",
+      "postScriptName": "PTSerif-Bold",
+      "fullName": "PT Serif Bold",
+      "copyright": "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    },
+    {
+      "name": "PT Serif",
+      "style": "italic",
+      "weight": 700,
+      "filename": "PT_Serif-Web-BoldItalic.ttf",
+      "postScriptName": "PTSerif-BoldItalic",
+      "fullName": "PT Serif Bold Italic",
+      "copyright": "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-02-09"
+}

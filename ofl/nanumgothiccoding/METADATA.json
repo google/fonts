@@ -1,0 +1,33 @@
+{
+  "name": "Nanum Gothic Coding",
+  "designer": "Sandoll Communication",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 1003051,
+  "fonts": [
+    {
+      "name": "Nanum Gothic Coding",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NanumGothicCoding-Regular.ttf",
+      "postScriptName": "NanumGothicCoding",
+      "fullName": "NanumGothicCoding",
+      "copyright": "Copyright © 2009 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
+    },
+    {
+      "name": "Nanum Gothic Coding",
+      "style": "normal",
+      "weight": 700,
+      "filename": "NanumGothicCoding-Bold.ttf",
+      "postScriptName": "NanumGothicCoding-Bold",
+      "fullName": "NanumGothicCoding-Bold",
+      "copyright": "Copyright © 2009 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
+    }
+  ],
+  "subsets": [
+    "korean",
+    "menu"
+  ],
+  "dateAdded": "2012-05-09"
+}

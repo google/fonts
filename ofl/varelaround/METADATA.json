@@ -1,0 +1,24 @@
+{
+  "name": "Varela Round",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 40987,
+  "fonts": [
+    {
+      "name": "Varela Round",
+      "style": "normal",
+      "weight": 400,
+      "filename": "VarelaRound-Regular.ttf",
+      "postScriptName": "VarelaRound-Regular",
+      "fullName": "Varela Round",
+      "copyright": "Copyright (c) 2011, Joe Prince, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Varela Round."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-13"
+}

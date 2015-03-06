@@ -1,0 +1,24 @@
+{
+  "name": "Wire One",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 57744,
+  "fonts": [
+    {
+      "name": "Wire One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "WireOne.ttf",
+      "postScriptName": "WireOne",
+      "fullName": "Wire One",
+      "copyright": "Copyright (c) 2011 by Cyreal Type Foundry (a@cyreal.org). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-18"
+}

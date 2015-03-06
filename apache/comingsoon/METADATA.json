@@ -1,0 +1,24 @@
+{
+  "name": "Coming Soon",
+  "designer": "Open Window",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 35773,
+  "fonts": [
+    {
+      "name": "Coming Soon",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ComingSoon.ttf",
+      "postScriptName": "ComingSoon",
+      "fullName": "Coming Soon",
+      "copyright": "Copyright (c) 2010 by Open Window (dathanboardman@gmail.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-01-06"
+}

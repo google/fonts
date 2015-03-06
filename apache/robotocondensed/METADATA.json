@@ -1,0 +1,78 @@
+{
+  "foundry": "Google",
+  "name": "Roboto Condensed",
+  "designer": "Christian Robertson",
+  "license": "Apache2",
+  "visibility": "External",
+  "repository": "static",
+  "experiments": ["enable_unicode_range", "enable_unique_glyphs_subset"],
+  "category": "Sans Serif",
+  "size": 85969,
+  "fonts": [
+    {
+      "name": "Roboto Condensed",
+      "style": "normal",
+      "weight": 300,
+      "filename": "RobotoCondensed-Light.ttf",
+      "postScriptName": "RobotoCondensed-Light",
+      "fullName": "Roboto Condensed Light",
+      "copyright": "Copyright 2011 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "italic",
+      "weight": 300,
+      "filename": "RobotoCondensed-LightItalic.ttf",
+      "postScriptName": "RobotoCondensed-LightItalic",
+      "fullName": "Roboto Condensed Light Italic",
+      "copyright": "Copyright 2011 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RobotoCondensed-Regular.ttf",
+      "postScriptName": "RobotoCondensed-Regular",
+      "fullName": "Roboto Condensed",
+      "copyright": "Copyright 2011 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "italic",
+      "weight": 400,
+      "filename": "RobotoCondensed-Italic.ttf",
+      "postScriptName": "RobotoCondensed-Italic",
+      "fullName": "Roboto Condensed Italic",
+      "copyright": "Copyright 2011 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "normal",
+      "weight": 700,
+      "filename": "RobotoCondensed-Bold.ttf",
+      "postScriptName": "RobotoCondensed-Bold",
+      "fullName": "Roboto Condensed Bold",
+      "copyright": "Copyright 2011 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "italic",
+      "weight": 700,
+      "filename": "RobotoCondensed-BoldItalic.ttf",
+      "postScriptName": "RobotoCondensed-BoldItalic",
+      "fullName": "Roboto Condensed Bold Italic",
+      "copyright": "Copyright 2011 Google Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2012-06-26"
+}

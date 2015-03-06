@@ -1,0 +1,25 @@
+{
+  "name": "Croissant One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 22909,
+  "fonts": [
+    {
+      "name": "Croissant One",
+      "postScriptName": "CroissantOne-Regular",
+      "fullName": "Croissant One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CroissantOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Croissant'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-12"
+}

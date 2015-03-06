@@ -1,0 +1,24 @@
+{
+  "name": "Copse",
+  "designer": "Dan Rhatigan",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 35077,
+  "fonts": [
+    {
+      "name": "Copse",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Copse-Regular.ttf",
+      "postScriptName": "Copse",
+      "fullName": "Copse",
+      "copyright": "\"Copyright (c) 2010, Daniel Rhatigan (sparky@ultrasparky.org) with Reserved Font Name Copse\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-15"
+}

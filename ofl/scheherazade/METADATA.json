@@ -1,0 +1,25 @@
+{
+  "name": "Scheherazade",
+  "designer": "SIL International",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Serif",
+  "size": 118029,
+  "fonts": [
+    {
+      "name": "Scheherazade",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Scheherazade-R.ttf",
+      "postScriptName": "Scheherazade",
+      "fullName": "Scheherazade",
+      "copyright": "Copyright (c) 1994 - 2014 by SIL International. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-01-18"
+}

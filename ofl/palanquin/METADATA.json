@@ -1,0 +1,80 @@
+{
+  "name": "Palanquin",
+  "designer": "Pria Ravichandran",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 228336,
+  "fonts": [
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Palanquin-Bold.ttf",
+      "postScriptName": "Palanquin-Bold",
+      "fullName": "Palanquin Bold",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Palanquin-ExtraLight.ttf",
+      "postScriptName": "Palanquin-ExtraLight",
+      "fullName": "Palanquin ExtraLight",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Palanquin-Light.ttf",
+      "postScriptName": "Palanquin-Light",
+      "fullName": "Palanquin Light",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Palanquin-Medium.ttf",
+      "postScriptName": "Palanquin-Medium",
+      "fullName": "Palanquin Medium",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Palanquin-Regular.ttf",
+      "postScriptName": "Palanquin-Regular",
+      "fullName": "Palanquin Regular",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Palanquin-SemiBold.ttf",
+      "postScriptName": "Palanquin-SemiBold",
+      "fullName": "Palanquin SemiBold",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Palanquin-Thin.ttf",
+      "postScriptName": "Palanquin-Thin",
+      "fullName": "Palanquin Thin",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    }
+  ],
+  "subsets": [
+	"menu",
+    "latin",
+	"latin-ext",
+	"devanagari"
+  ],
+  "dateAdded": "2015-01-28"
+}

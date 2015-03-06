@@ -1,0 +1,34 @@
+{
+  "name": "Sniglet",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 33431,
+  "fonts": [
+    {
+      "name": "Sniglet",
+      "postScriptName": "Sniglet-ExtraBold",
+      "fullName": "Sniglet ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Sniglet-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2008, Haley Fiege (haley@kingdomofawesome.com), Copyright (c) 2012, Brenda Gallo (gbrenda1987@gmail.com) Copyright (c) 2013, Pablo Impallari (www.impallari.com|impallari@gmail.com), with no Reserved Font Name."
+    },
+    {
+      "name": "Sniglet",
+      "postScriptName": "Sniglet-Regular",
+      "fullName": "Sniglet Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sniglet-Regular.ttf",
+      "copyright": "Copyright (c) 2008, Haley Fiege (haley@kingdomofawesome.com), Copyright (c) 2012, Brenda Gallo (gbrenda1987@gmail.com) Copyright (c) 2013, Pablo Impallari (www.impallari.com|impallari@gmail.com), with no Reserved Font Name."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-12-15"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Risque",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 33784,
+  "fonts": [
+    {
+      "name": "Risque",
+      "postScriptName": "Risque-Regular",
+      "fullName": "Risque",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Risque-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Risque\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-11"
+}

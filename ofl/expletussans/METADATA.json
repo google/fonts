@@ -1,0 +1,87 @@
+{
+  "name": "Expletus Sans",
+  "designer": "Jasper de Waard",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 28056,
+  "fonts": [
+    {
+      "name": "Expletus Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ExpletusSans-Regular.ttf",
+      "postScriptName": "ExpletusSans",
+      "fullName": "Expletus Sans",
+      "copyright": "Copyright (c) 2009 by Designtown (jasper@designtown.nl). All rights reserved."
+    },
+    {
+      "name": "Expletus Sans",
+      "style": "italic",
+      "weight": 400,
+      "filename": "ExpletusSans-Italic.ttf",
+      "postScriptName": "ExpletusSans-Italic",
+      "fullName": "Expletus Sans Italic",
+      "copyright": "Copyright (c) 2009 by Designtown (jasper@designtown.nl). All rights reserved."
+    },
+    {
+      "name": "Expletus Sans",
+      "style": "normal",
+      "weight": 500,
+      "filename": "ExpletusSans-Medium.ttf",
+      "postScriptName": "ExpletusSans-Medium",
+      "fullName": "Expletus Sans Medium",
+      "copyright": "Copyright (c) 2010 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+    },
+    {
+      "name": "Expletus Sans",
+      "style": "italic",
+      "weight": 500,
+      "filename": "ExpletusSans-MediumItalic.ttf",
+      "postScriptName": "ExpletusSans-MediumItalic",
+      "fullName": "Expletus Sans Medium Italic",
+      "copyright": "Copyright (c) 2010 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+    },
+    {
+      "name": "Expletus Sans",
+      "style": "normal",
+      "weight": 600,
+      "filename": "ExpletusSans-SemiBold.ttf",
+      "postScriptName": "ExpletusSans-SemiBold",
+      "fullName": "Expletus Sans SemiBold",
+      "copyright": "Copyright (c) 2010 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+    },
+    {
+      "name": "Expletus Sans",
+      "style": "italic",
+      "weight": 600,
+      "filename": "ExpletusSans-SemiBoldItalic.ttf",
+      "postScriptName": "ExpletusSans-SemiBoldItalic",
+      "fullName": "Expletus Sans SemiBold Italic",
+      "copyright": "Copyright (c) 2010 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+    },
+    {
+      "name": "Expletus Sans",
+      "style": "normal",
+      "weight": 700,
+      "filename": "ExpletusSans-Bold.ttf",
+      "postScriptName": "ExpletusSans-Bold",
+      "fullName": "Expletus Sans Bold",
+      "copyright": "Copyright (c) 2009 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+    },
+    {
+      "name": "Expletus Sans",
+      "style": "italic",
+      "weight": 700,
+      "filename": "ExpletusSans-BoldItalic.ttf",
+      "postScriptName": "ExpletusSans-BoldItalic",
+      "fullName": "Expletus Sans Bold Italic",
+      "copyright": "Copyright (c) 2009 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-04"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Molengo",
+  "designer": "Denis Jacquerye",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 33658,
+  "fonts": [
+    {
+      "name": "Molengo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Molengo-Regular.ttf",
+      "postScriptName": "Molengo-Regular",
+      "fullName": "Molengo",
+      "copyright": "Copyright (c) 2007, Denis Moyogo Jacquerye <moyogo@gmail.com>, with Reserved Font Name Molengo"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-04-19"
+}

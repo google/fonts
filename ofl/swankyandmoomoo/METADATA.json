@@ -1,0 +1,24 @@
+{
+  "name": "Swanky and Moo Moo",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 31290,
+  "fonts": [
+    {
+      "name": "Swanky and Moo Moo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SwankyandMooMoo.ttf",
+      "postScriptName": "SwankyandMooMoo",
+      "fullName": "Swanky and Moo Moo",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-04-27"
+}

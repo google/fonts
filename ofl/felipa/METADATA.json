@@ -1,0 +1,25 @@
+{
+  "name": "Felipa",
+  "designer": "Fontstage",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 21605,
+  "fonts": [
+    {
+      "name": "Felipa",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Felipa-Regular.ttf",
+      "postScriptName": "Felipa-Regular",
+      "fullName": "Felipa",
+      "copyright": "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Felipa\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-08"
+}

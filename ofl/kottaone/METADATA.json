@@ -1,0 +1,25 @@
+{
+  "name": "Kotta One",
+  "designer": "Ania Kruk",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 17086,
+  "fonts": [
+    {
+      "name": "Kotta One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "KottaOne-Regular.ttf",
+      "postScriptName": "KottaOne-Regular",
+      "fullName": "Kotta One",
+      "copyright": "Copyright (c) 2012 by Ania Kruk (hello@aniakruk.com), with Reserved Font Name \"Kotta\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-25"
+}

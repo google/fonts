@@ -1,0 +1,25 @@
+{
+  "name": "Sevillana",
+  "designer": "Brownfox",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 79591,
+  "fonts": [
+    {
+      "name": "Sevillana",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sevillana-Regular.ttf",
+      "postScriptName": "Sevillana-Regular",
+      "fullName": "Sevillana",
+      "copyright": "Copyright (c) 2011, Brownfox (gayaneh.b@gmail.com), with Reserved Font Names \"Sevillana\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-22"
+}

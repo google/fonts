@@ -1,0 +1,25 @@
+{
+  "name": "Just Me Again Down Here",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 36244,
+  "fonts": [
+    {
+      "name": "Just Me Again Down Here",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JustMeAgainDownHere.ttf",
+      "postScriptName": "JustMeAgainDownHere",
+      "fullName": "Just Me Again Down Here",
+      "copyright": "Copyright (c) 2011 by Kimberly Geswein (kimberlygeswein@gmail.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-12-07"
+}

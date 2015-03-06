@@ -1,0 +1,24 @@
+{
+  "name": "Holtwood One SC",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 19536,
+  "fonts": [
+    {
+      "name": "Holtwood One SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HoltwoodOneSC.ttf",
+      "postScriptName": "HoltwoodOneSC",
+      "fullName": "Holtwood One SC",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Holtwood'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-04"
+}

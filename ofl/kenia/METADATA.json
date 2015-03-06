@@ -1,0 +1,24 @@
+{
+  "name": "Kenia",
+  "designer": "Julia Petretta",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 33989,
+  "fonts": [
+    {
+      "name": "Kenia",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kenia-Regular.ttf",
+      "postScriptName": "Kenia-Regular",
+      "fullName": "Kenia",
+      "copyright": "Copyright (c) 2010, Julia Petretta (julia.petretta@googlemail.com), with Reserved Font Name Kenia"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-15"
+}

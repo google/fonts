@@ -1,0 +1,56 @@
+FONTLOG for the Atomic Age font
+
+This file provides detailed information on Atomic Age Font 
+Software.This information should be distributed along with 
+the Atomic Age font and any derivative works.
+
+Basic Font Information
+
+Atomic Age was inspired by 1950s era connected 
+scripts seen on nameplates of American cars. 
+Atomic Age looses the connection but keeps the 
+spirit of these letters to make a highly legible 
+somewhat mechanical looking font. Atomic Age 
+is usable from very small sizes all the way 
+up to large display sizes.
+
+Atomic Age is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be 
+expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Eben Sorkin 
+at sorkineben@gmail.com
+
+ChangeLog
+
+7 Dec 2011 (Eben Sorkin) Atomic Age v1.003
+- Incorporated fixes to merged glyph shapes from Grieshaber 
+- Added glyphs to support a few more languages
+- Added Fontlab style hinting
+
+20 October 2011 (Eben Sorkin) Atomic Age v1.003
+- Adjusted spacing for web browsers.
+- Mastered VFB to TTF.
+
+14 October 2011 (James Grieshaber) Atomic Age v1.000
+- Completed first complete version of Atomic Age in 
+  Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: James Grieshaber
+E: james@typeco.com
+W: http://www.typeco.com/
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Spacing and Mastering

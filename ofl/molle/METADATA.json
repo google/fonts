@@ -1,0 +1,25 @@
+{
+  "name": "Molle",
+  "designer": "Elena Albertoni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 34080,
+  "fonts": [
+    {
+      "name": "Molle",
+      "postScriptName": "Molle-Regular",
+      "fullName": "Molle",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Molle-Regular.ttf",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)\rwith Reserved Font Name \"Spinnaker\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-18"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Sancreek",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 32131,
+  "fonts": [
+    {
+      "name": "Sancreek",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sancreek-Regular.ttf",
+      "postScriptName": "Sancreek-Regular",
+      "fullName": "Sancreek Regular",
+      "copyright": "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Sancreek\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-10-12"
+}

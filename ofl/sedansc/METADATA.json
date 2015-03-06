@@ -1,0 +1,25 @@
+{
+  "name": "Sedan SC",
+  "designer": "Sebastian Salazar",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 18981,
+  "fonts": [
+    {
+      "name": "Sedan SC",
+      "postScriptName": "SedanSC-Regular",
+      "fullName": "Sedan SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SedanSC-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Sebastian Salazar (sebotas26@hotmail.com), with Reserved Font Name 'Sedan'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-31"
+}

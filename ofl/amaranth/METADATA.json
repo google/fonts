@@ -1,0 +1,51 @@
+{
+  "name": "Amaranth",
+  "designer": "Gesine Todt",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 41181,
+  "fonts": [
+    {
+      "name": "Amaranth",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Amaranth-Regular.ttf",
+      "postScriptName": "Amaranth",
+      "fullName": "Amaranth",
+      "copyright": "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
+    },
+    {
+      "name": "Amaranth",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Amaranth-Italic.ttf",
+      "postScriptName": "Amaranth-Italic",
+      "fullName": "Amaranth Italic",
+      "copyright": "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
+    },
+    {
+      "name": "Amaranth",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Amaranth-Bold.ttf",
+      "postScriptName": "Amaranth-Bold",
+      "fullName": "Amaranth Bold",
+      "copyright": "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
+    },
+    {
+      "name": "Amaranth",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Amaranth-BoldItalic.ttf",
+      "postScriptName": "Amaranth-BoldItalic",
+      "fullName": "Amaranth Bold Italic",
+      "copyright": "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-04"
+}

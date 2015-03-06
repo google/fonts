@@ -1,0 +1,24 @@
+{
+  "name": "Vibur",
+  "designer": "Johan Kallas",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 91454,
+  "fonts": [
+    {
+      "name": "Vibur",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Vibur-Regular.ttf",
+      "postScriptName": "Vibur",
+      "fullName": "Vibur",
+      "copyright": "Copyright (c) 2010, Johan Kallas (johan.kallas@gmail.com). All rights reserved. Licenced under SIL OFL v1.1"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-15"
+}

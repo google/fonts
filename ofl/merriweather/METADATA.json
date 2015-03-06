@@ -1,0 +1,88 @@
+{
+  "name": "Merriweather",
+  "designer": "Eben Sorkin",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 23289,
+  "fonts": [
+    {
+      "name": "Merriweather",
+      "postScriptName": "Merriweather-Light",
+      "fullName": "Merriweather Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Merriweather-Light.ttf",
+      "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
+      "postScriptName": "Merriweather-LightItalic",
+      "fullName": "Merriweather Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Merriweather-LightItalic.ttf",
+      "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
+      "postScriptName": "Merriweather",
+      "fullName": "Merriweather",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Merriweather-Regular.ttf",
+      "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
+      "postScriptName": "Merriweather-Italic",
+      "fullName": "Merriweather Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Merriweather-Italic.ttf",
+      "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
+      "postScriptName": "Merriweather-Bold",
+      "fullName": "Merriweather Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Merriweather-Bold.ttf",
+      "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
+      "postScriptName": "Merriweather-BoldItalic",
+      "fullName": "Merriweather Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Merriweather-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
+      "postScriptName": "Merriweather-Heavy",
+      "fullName": "Merriweather Heavy",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Merriweather-Black.ttf",
+      "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
+      "postScriptName": "Merriweather-HeavyItalic",
+      "fullName": "Merriweather Heavy Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Merriweather-HeavyItalic.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-05-11"
+}

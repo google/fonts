@@ -1,0 +1,34 @@
+{
+  "name": "Corben",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 23543,
+  "fonts": [
+    {
+      "name": "Corben",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Corben-Regular.ttf",
+      "postScriptName": "Corben-Regular",
+      "fullName": "Corben Regular",
+      "copyright": "Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name 'Corben'."
+    },
+    {
+      "name": "Corben",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Corben-Bold.ttf",
+      "postScriptName": "Corben",
+      "fullName": "Corben",
+      "copyright": "Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name 'Corben'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-12-20"
+}

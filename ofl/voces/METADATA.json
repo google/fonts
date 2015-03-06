@@ -1,0 +1,25 @@
+{
+  "name": "Voces",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 35061,
+  "fonts": [
+    {
+      "name": "Voces",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Voces-Regular.ttf",
+      "postScriptName": "Voces-Regular",
+      "fullName": "Voces",
+      "copyright": "Copyright (c) 2012, Ana Paula Megda (www.anamegda.com anapbm@gmail.com), Copyright (c) 2012, Pablo Ugerman (www.ugrdesign.com.ar info@ugrdesign.com.ar), with Reserved Font Names \"Voces\", \"Voceso Pro\", \"Voces UGR\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-22"
+}

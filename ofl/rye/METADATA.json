@@ -1,0 +1,25 @@
+{
+  "name": "Rye",
+  "designer": "Nicole Fally",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 66252,
+  "fonts": [
+    {
+      "name": "Rye",
+      "postScriptName": "Rye-Regular",
+      "fullName": "Rye Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rye-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name 'Rye'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-08-21"
+}

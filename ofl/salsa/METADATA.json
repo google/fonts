@@ -1,0 +1,24 @@
+{
+  "name": "Salsa",
+  "designer": "John Vargas Beltrán",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 24609,
+  "fonts": [
+    {
+      "name": "Salsa",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Salsa-Regular.ttf",
+      "postScriptName": "Salsa-Regular",
+      "fullName": "Salsa-Regular",
+      "copyright": "Copyright (c) 2011 by John Vargas Beltrn (john.vargasbeltran@gmail.com), with Reserved Font Name Salsa."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-10-12"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Pirata One",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 20251,
+  "fonts": [
+    {
+      "name": "Pirata One",
+      "postScriptName": "PirataOne-Regular",
+      "fullName": "Pirata One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PirataOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Rodrigo Fuenzalida (hello@rfuenzalida.com), Nicolas Massi (www.taip.com.ar / abc.taip.com.ar / nmassi@gmail.com), with Reserved Font Name 'Pirata'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-31"
+}

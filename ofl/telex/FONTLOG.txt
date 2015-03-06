@@ -1,0 +1,48 @@
+FONTLOG for Telex font
+
+This file provides detailed information on the Telex font
+Software.
+
+This information should be distributed along with the Telex
+font and any derivative works.
+
+Basic Font Information
+
+Telex is a humanist sans serif conceived to be a web font with 
+nice legibility at normal text sizes. Originally based on grid 
+fitting shapes it became a multi-purpose typeface with low 
+contrast, open counter forms, wide proportions and a touch 
+of freshness.
+
+It is ideal for paragraph text on websites (blogs, news) 
+and also for printed text.
+
+Designed by Andrés Torresi for Huerta Tipográfica 
+(http://www.huertatipografica.com.ar).
+
+To contribute to the project contact Andrés Torresi at 
+andres@huertatipografica.com.ar
+
+There are three Source files:
+
+1. Telex-Regular.vfb: Original Source files with contour
+   overlaps, anchors, etc.
+
+2. Telex-Regular-OTF.vfb: Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. Telex-Regular-TTF.sfd: Fontforge file with bezier 
+   quadratic curves and adjustments according to GWF 
+   specifications, and run through ttfautohint
+
+
+ChangeLog
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Andres Torresi
+E: info@andrestorresi.com.ar
+W: www.huertatipografica.com.ar
+D: Type Designer

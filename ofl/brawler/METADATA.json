@@ -1,0 +1,24 @@
+{
+  "name": "Brawler",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 55409,
+  "fonts": [
+    {
+      "name": "Brawler",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Brawler-Regular.ttf",
+      "postScriptName": "Brawler",
+      "fullName": "Brawler",
+      "copyright": "Copyright (c) 2011 by Oleg Frolov | Cyreal (a@cyreal.org). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-18"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Delius Unicase",
+  "designer": "Natalia Raices",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 16510,
+  "fonts": [
+    {
+      "name": "Delius Unicase",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DeliusUnicase-Regular.ttf",
+      "postScriptName": "DeliusUnicase-Regular",
+      "fullName": "Delius Unicase",
+      "copyright": "Copyright (c) 2010, 2011, Natalia Raices<nraices@gmail.com>, with Reserved Font Name \"Delius\" \"Delius Unicase\" \"Delius Swash Caps\"."
+    },
+    {
+      "name": "Delius Unicase",
+      "style": "normal",
+      "weight": 700,
+      "filename": "DeliusUnicase-Bold.ttf",
+      "postScriptName": "DeliusUnicase-Bold",
+      "fullName": "Delius Unicase Bold",
+      "copyright": "Copyright (c) 2010, 2011, Natalia Raices<nraices@gmail.com>, with Reserved Font Name \"Delius\" \"Delius Unicase\" \"Delius Swash Caps\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-10-12"
+}

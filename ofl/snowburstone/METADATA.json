@@ -1,0 +1,25 @@
+{
+  "name": "Snowburst One",
+  "designer": "Annet Stirling",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 46962,
+  "fonts": [
+    {
+      "name": "Snowburst One",
+      "postScriptName": "SnowburstOne-Regular",
+      "fullName": "Snowburst One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SnowburstOne-Regular.ttf",
+      "copyright": "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)\rwith Reserved Font Name 'Snowburst'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-26"
+}

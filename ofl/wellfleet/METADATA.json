@@ -1,0 +1,25 @@
+{
+  "name": "Wellfleet",
+  "designer": "Riccardo De Franceschi",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 34556,
+  "fonts": [
+    {
+      "name": "Wellfleet",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Wellfleet-Regular.ttf",
+      "postScriptName": "Wellfleet-Regular",
+      "fullName": "Wellfleet",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name Wellfleet"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-11"
+}

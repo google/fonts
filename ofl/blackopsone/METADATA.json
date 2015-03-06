@@ -1,0 +1,25 @@
+{
+  "name": "Black Ops One",
+  "designer": "James Grieshaber",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 14162,
+  "fonts": [
+    {
+      "name": "Black Ops One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BlackOpsOne-Regular.ttf",
+      "postScriptName": "BlackOpsOne-Regular",
+      "fullName": "Black Ops One",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Black Ops\" and \"Black Ops One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-07-27"
+}

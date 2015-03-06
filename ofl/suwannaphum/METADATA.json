@@ -1,0 +1,24 @@
+{
+  "name": "Suwannaphum",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 65842,
+  "fonts": [
+    {
+      "name": "Suwannaphum",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Suwannaphum.ttf",
+      "postScriptName": "Suwannaphum",
+      "fullName": "Suwannaphum",
+      "copyright": "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name NiDA Sowannaphum. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "khmer",
+    "menu"
+  ],
+  "dateAdded": "2011-03-02"
+}

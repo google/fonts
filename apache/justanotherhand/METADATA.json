@@ -1,0 +1,24 @@
+{
+  "name": "Just Another Hand",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 94296,
+  "fonts": [
+    {
+      "name": "Just Another Hand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JustAnotherHand.ttf",
+      "postScriptName": "JustAnotherHand-Regular",
+      "fullName": "Just Another Hand",
+      "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-20"
+}

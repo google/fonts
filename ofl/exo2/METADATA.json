@@ -1,0 +1,179 @@
+{
+  "name": "Exo 2",
+  "designer": "Natanael Gama",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 50100,
+  "fonts": [
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-Black",
+      "fullName": "Exo 2 Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Exo2-Black.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-BlackItalic",
+      "fullName": "Exo 2 Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Exo2-BlackItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-Bold",
+      "fullName": "Exo 2 Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Exo2-Bold.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-BoldItalic",
+      "fullName": "Exo 2 Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Exo2-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-ExtraBold",
+      "fullName": "Exo 2 Extra Bold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Exo2-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-ExtraBoldItalic",
+      "fullName": "Exo 2 Extra Bold Italic",
+      "style": "italic",
+      "weight": 800,
+      "filename": "Exo2-ExtraBoldItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-ExtraLight",
+      "fullName": "Exo 2 Extra Light",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Exo2-ExtraLight.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-ExtraLightItalic",
+      "fullName": "Exo 2 Extra Light Italic",
+      "style": "italic",
+      "weight": 200,
+      "filename": "Exo2-ExtraLightItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-Italic",
+      "fullName": "Exo 2 Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Exo2-Italic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-Light",
+      "fullName": "Exo 2 Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Exo2-Light.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-LightItalic",
+      "fullName": "Exo 2 Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Exo2-LightItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-Medium",
+      "fullName": "Exo 2 Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Exo2-Medium.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-MediumItalic",
+      "fullName": "Exo 2 Medium Italic",
+      "style": "italic",
+      "weight": 500,
+      "filename": "Exo2-MediumItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-Regular",
+      "fullName": "Exo 2",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Exo2-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-SemiBold",
+      "fullName": "Exo 2 Semi Bold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Exo2-SemiBold.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-SemiBoldItalic",
+      "fullName": "Exo 2 Semi Bold Italic",
+      "style": "italic",
+      "weight": 600,
+      "filename": "Exo2-SemiBoldItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-Thin",
+      "fullName": "Exo 2 Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Exo2-Thin.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Exo 2",
+      "postScriptName": "Exo2-ThinItalic",
+      "fullName": "Exo 2 Thin Italic",
+      "style": "italic",
+      "weight": 100,
+      "filename": "Exo2-ThinItalic.ttf",
+      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-12-04"
+}

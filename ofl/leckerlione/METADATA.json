@@ -1,0 +1,24 @@
+{
+  "name": "Leckerli One",
+  "designer": "Gesine Todt",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 25643,
+  "fonts": [
+    {
+      "name": "Leckerli One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LeckerliOne-Regular.ttf",
+      "postScriptName": "LeckerliOne-Regular",
+      "fullName": "Leckerli One",
+      "copyright": "Copyright (c) 2011 Gesine Todt (www.gesine-todt.de hallo@gesine-todt.de), with Reserved Font Names \"Leckerli\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-20"
+}

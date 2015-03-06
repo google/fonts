@@ -1,0 +1,25 @@
+{
+  "name": "Keania One",
+  "designer": "Julia Petretta",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 20748,
+  "fonts": [
+    {
+      "name": "Keania One",
+      "postScriptName": "KeaniaOne-Regular",
+      "fullName": "Keania One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "KeaniaOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Julia Petretta (julia.petretta@googlemail.com), with Reserved Font Name 'Keania'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-31"
+}

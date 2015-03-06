@@ -1,0 +1,52 @@
+{
+  "name": "Amiri",
+  "designer": "Khaled Hosny",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": "238904",
+  "dateAdded": "2012-07-30",
+  "fonts": [
+    {
+      "name": "Amiri",
+      "postScriptName": "Amiri-Bold",
+      "fullName": "Amiri Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Amiri-Bold.ttf",
+      "copyright": "Copyright (c) 2010, 2012, Khaled Hosny <khaledhosny@eglug.org>. Portions copyright (c) 2010, Sebastian Kosch <sebastian@aldusleaf.org>\n\nThis Font Software is licensed under the Open Font License, Version 1.1."
+    },
+    {
+      "name": "Amiri",
+      "postScriptName": "Amiri-BoldSlanted",
+      "fullName": "Amiri Bold Slanted",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Amiri-BoldSlanted.ttf",
+      "copyright": "Copyright (c) 2010, 2012, Khaled Hosny <khaledhosny@eglug.org>. Portions copyright (c) 2010, Sebastian Kosch <sebastian@aldusleaf.org>\n\nThis Font Software is licensed under the Open Font License, Version 1.1."
+    },
+    {
+      "name": "Amiri",
+      "postScriptName": "Amiri-Regular",
+      "fullName": "Amiri",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Amiri-Regular.ttf",
+      "copyright": "Copyright (c) 2010, 2012, Khaled Hosny <khaledhosny@eglug.org>. Portions copyright (c) 2010, Sebastian Kosch <sebastian@aldusleaf.org>\n\nThis Font Software is licensed under the Open Font License, Version 1.1."
+    },
+    {
+      "name": "Amiri",
+      "postScriptName": "Amiri-Slanted",
+      "fullName": "Amiri Slanted",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Amiri-Slanted.ttf",
+      "copyright": "Copyright (c) 2010, 2012, Khaled Hosny <khaledhosny@eglug.org>. Portions copyright (c) 2010, Sebastian Kosch <sebastian@aldusleaf.org>\n\nThis Font Software is licensed under the Open Font License, Version 1.1."
+    }
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "menu"
+  ]
+}

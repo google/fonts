@@ -1,0 +1,34 @@
+{
+  "name": "Amatic SC",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 25285,
+  "fonts": [
+    {
+      "name": "Amatic SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AmaticSC-Regular.ttf",
+      "postScriptName": "AmaticSC-Regular",
+      "fullName": "Amatic SC Regular",
+      "copyright": "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Amatic\" \"Amatic SC\""
+    },
+    {
+      "name": "Amatic SC",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AmaticSC-Bold.ttf",
+      "postScriptName": "AmaticSC-Bold",
+      "fullName": "Amatic SC Bold",
+      "copyright": "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Amatic\" \"Amatic SC\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-10-12"
+}

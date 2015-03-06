@@ -1,0 +1,24 @@
+{
+  "name": "Smythe",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 47182,
+  "fonts": [
+    {
+      "name": "Smythe",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Smythe-Regular.ttf",
+      "postScriptName": "Smythe",
+      "fullName": "Smythe",
+      "copyright": "Copyright (c) 2011 by Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Smythe'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-04-20"
+}

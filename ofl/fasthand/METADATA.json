@@ -1,0 +1,24 @@
+{
+  "name": "Fasthand",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 43339,
+  "fonts": [
+    {
+      "name": "Fasthand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Fasthand-Regular.ttf",
+      "postScriptName": "Fasthand-Regular",
+      "fullName": "Fasthand",
+      "copyright": "Copyright (c) 2012, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Fasthand"
+    }
+  ],
+  "subsets": [
+    "khmer",
+    "menu"
+  ],
+  "dateAdded": "2012-05-24"
+}

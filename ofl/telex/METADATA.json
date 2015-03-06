@@ -1,0 +1,25 @@
+{
+  "name": "Telex",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 27135,
+  "fonts": [
+    {
+      "name": "Telex",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Telex-Regular.ttf",
+      "postScriptName": "Telex-Regular",
+      "fullName": "Telex-Regular",
+      "copyright": "Copyright (c) 2011 Andres Torresi (info@andrestorresi.com.ar), with Reserved Font Name \"Telex\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-18"
+}

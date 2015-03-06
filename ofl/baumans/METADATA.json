@@ -1,0 +1,25 @@
+{
+  "name": "Baumans",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 28145,
+  "fonts": [
+    {
+      "name": "Baumans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Baumans-Regular.ttf",
+      "postScriptName": "Baumans-Regular",
+      "fullName": "Baumans",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Baumans\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-07"
+}

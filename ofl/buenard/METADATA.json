@@ -1,0 +1,34 @@
+{
+  "name": "Buenard",
+  "designer": "FontFuror",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 23877,
+  "fonts": [
+    {
+      "name": "Buenard",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Buenard-Regular.ttf",
+      "postScriptName": "Buenard-Regular",
+      "fullName": "Buenard",
+      "copyright": "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Buenard\" and \"Buenard Pro\"."
+    },
+    {
+      "name": "Buenard",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Buenard-Bold.ttf",
+      "postScriptName": "Buenard-Bold",
+      "fullName": "Buenard Bold",
+      "copyright": "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Buenard\" and \"Buenard Pro\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

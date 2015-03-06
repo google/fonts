@@ -1,0 +1,24 @@
+{
+  "name": "Contrail One",
+  "designer": "Riccardo De Franceschi",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 16400,
+  "fonts": [
+    {
+      "name": "Contrail One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ContrailOne-Regular.ttf",
+      "postScriptName": "ContrailOne-Regular",
+      "fullName": "Contrail One",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Contrail\" and \"Contrail One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-10-26"
+}

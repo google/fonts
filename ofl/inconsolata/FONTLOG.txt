@@ -1,0 +1,40 @@
+FONTLOG for the Inconsolata Bold font
+
+This file provides detailed information on the Inconsolata Bold 
+font Software.
+
+This information should be distributed along with the 
+Inconsolata Bold fonts and any derivative works.
+
+Basic Font Information
+
+Inconsolata Bold is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+There are two .vfb Source files:
+1. Inconsolata Bold-OTF.vfb (Merged contours)
+2. Inconsolata Bold-TTF.vfb (TTF countours)
+
+ChangeLog
+
+18 September 2012 (Alexei Vanyashiin) Inconsolata bold v. 1.014
+- Fixed spacing issue associated with the character "4" and "0"
+- Applied ttfautohint (to fix windows rendering problem that occurred in v 1.000)
+
+
+7 December 2011 (Kirill Tkachev) Inconsolata Bold v. 1.000
+- Completed Bold version of Inconsolata in VBF format.
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Kirill Tkachev
+W: http://cyreal.org
+E: contact at cyreal.org
+D: Designer
+

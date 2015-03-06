@@ -1,0 +1,62 @@
+{
+  "name": "Karma",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 164156,
+  "fonts": [
+    {
+      "name": "Karma",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Karma-Bold.ttf",
+      "postScriptName": "Karma-Bold",
+      "fullName": "Karma Bold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Karma",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Karma-Light.ttf",
+      "postScriptName": "Karma-Light",
+      "fullName": "Karma Light",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Karma",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Karma-Medium.ttf",
+      "postScriptName": "Karma-Medium",
+      "fullName": "Karma Medium",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Karma",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Karma-Regular.ttf",
+      "postScriptName": "Karma-Regular",
+      "fullName": "Karma Regular",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Karma",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Karma-SemiBold.ttf",
+      "postScriptName": "Karma-Semibold",
+      "fullName": "Karma SemiBold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "devanagari",
+    "menu"
+  ],
+  "dateAdded": "2014-06-25"
+}

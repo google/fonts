@@ -1,0 +1,24 @@
+{
+  "name": "Schoolbell",
+  "designer": "Font Diner",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 28795,
+  "fonts": [
+    {
+      "name": "Schoolbell",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Schoolbell.ttf",
+      "postScriptName": "Schoolbell",
+      "fullName": "Schoolbell",
+      "copyright": "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-01-06"
+}

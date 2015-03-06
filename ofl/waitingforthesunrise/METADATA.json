@@ -1,0 +1,24 @@
+{
+  "name": "Waiting for the Sunrise",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 31788,
+  "fonts": [
+    {
+      "name": "Waiting for the Sunrise",
+      "style": "normal",
+      "weight": 400,
+      "filename": "WaitingfortheSunrise.ttf",
+      "postScriptName": "WaitingfortheSunrise",
+      "fullName": "Waiting for the Sunrise",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-04-14"
+}

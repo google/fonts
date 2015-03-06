@@ -1,0 +1,24 @@
+{
+  "name": "Covered By Your Grace",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 29017,
+  "fonts": [
+    {
+      "name": "Covered By Your Grace",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CoveredByYourGrace.ttf",
+      "postScriptName": "CoveredByYourGrace",
+      "fullName": "Covered By Your Grace",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-07"
+}

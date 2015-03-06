@@ -1,0 +1,24 @@
+{
+  "name": "Sue Ellen Francisco",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 28154,
+  "fonts": [
+    {
+      "name": "Sue Ellen Francisco",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SueEllenFrancisco.ttf",
+      "postScriptName": "SueEllenFrancisco",
+      "fullName": "Sue Ellen Francisco ",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-04-14"
+}

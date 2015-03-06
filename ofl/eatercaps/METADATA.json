@@ -1,0 +1,25 @@
+{
+  "name": "Eater Caps",
+  "designer": "Typomondo",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Display",
+  "size": 56321,
+  "fonts": [
+    {
+      "name": "Eater Caps",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EaterCaps-Regular.ttf",
+      "postScriptName": "EaterCaps-Regular",
+      "fullName": "Eater Caps Regular",
+      "copyright": "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Eater\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-10-24"
+}

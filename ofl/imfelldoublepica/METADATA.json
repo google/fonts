@@ -1,0 +1,33 @@
+{
+  "name": "IM Fell Double Pica",
+  "designer": "Igino Marini",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 120725,
+  "fonts": [
+    {
+      "name": "IM Fell Double Pica",
+      "style": "normal",
+      "weight": 400,
+      "filename": "IMFeDPrm28P.ttf",
+      "postScriptName": "IM_FELL_Double_Pica_Roman",
+      "fullName": "IM FELL Double Pica Roman ",
+      "copyright": "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL Double Pica Roman"
+    },
+    {
+      "name": "IM Fell Double Pica",
+      "style": "italic",
+      "weight": 400,
+      "filename": "IMFeDPit28P.ttf",
+      "postScriptName": "IM_FELL_Double_Pica_Italic",
+      "fullName": "IM FELL Double Pica Italic",
+      "copyright": "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) with reserved name IM FELL Double Pica Italic"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-05-17"
+}

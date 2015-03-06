@@ -1,0 +1,25 @@
+{
+  "name": "Metal Mania",
+  "designer": "Open Window",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 123068,
+  "fonts": [
+    {
+      "name": "Metal Mania",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MetalMania-Regular.ttf",
+      "postScriptName": "MetalMania-Regular",
+      "fullName": "Metal Mania",
+      "copyright": "Copyright (c) 2012 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Metal Mania\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-07-11"
+}

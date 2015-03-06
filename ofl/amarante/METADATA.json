@@ -1,0 +1,25 @@
+{
+  "name": "Amarante",
+  "designer": "Karolina Lach",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 55376,
+  "fonts": [
+    {
+      "name": "Amarante",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Amarante-Regular.ttf",
+      "postScriptName": "Amarante-Regular",
+      "fullName": "Amarante Regular",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Amarante\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-07-10"
+}

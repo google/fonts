@@ -1,0 +1,27 @@
+{
+  "name": "PT Mono",
+  "designer": "ParaType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Monospace",
+  "size": 100999,
+  "fonts": [
+    {
+      "name": "PT Mono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PTM55FT.ttf",
+      "postScriptName": "PTMono-Regular",
+      "fullName": "PT Mono",
+      "copyright": "Copyright © 2010 ParaType Inc., ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-29"
+}

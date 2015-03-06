@@ -1,0 +1,26 @@
+{
+  "name": "Seymour One",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 42662,
+  "fonts": [
+    {
+      "name": "Seymour One",
+      "postScriptName": "SeymourOne",
+      "fullName": "Seymour One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SeymourOne-Regular.ttf",
+      "copyright": "Copyright (c) 2011-12 by vernon adams (vern@newtypography.co.uk) with Reserved Font Names 'Seymour'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-10"
+}

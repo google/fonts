@@ -1,0 +1,25 @@
+{
+  "name": "Fresca",
+  "designer": "Fontstage",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 18537,
+  "fonts": [
+    {
+      "name": "Fresca",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Fresca-Regular.ttf",
+      "postScriptName": "Fresca-Regular",
+      "fullName": "Fresca-Regular",
+      "copyright": "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Fresca\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-07"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Kaushan Script",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 79314,
+  "fonts": [
+    {
+      "name": "Kaushan Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "KaushanScript-Regular.ttf",
+      "postScriptName": "KaushanScript-Regular",
+      "fullName": "Kaushan Script",
+      "copyright": "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com), with Reserved Font Name Kaushan Script."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-25"
+}

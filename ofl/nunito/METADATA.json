@@ -1,0 +1,43 @@
+{
+  "name": "Nunito",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 27694,
+  "fonts": [
+    {
+      "name": "Nunito",
+      "postScriptName": "Nunito-Bold",
+      "fullName": "Nunito Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Nunito-Bold.ttf",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name Nunito"
+    },
+    {
+      "name": "Nunito",
+      "postScriptName": "Nunito-Light",
+      "fullName": "Nunito Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Nunito-Light.ttf",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name Nunito"
+    },
+    {
+      "name": "Nunito",
+      "postScriptName": "Nunito-Regular",
+      "fullName": "Nunito",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Nunito-Regular.ttf",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name Nunito"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-08-12"
+}

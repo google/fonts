@@ -1,0 +1,56 @@
+{
+  "name": "Jura",
+  "designer": "Daniel Johnson",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 154325,
+  "fonts": [
+    {
+      "name": "Jura",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Jura-Light.ttf",
+      "postScriptName": "Jura-Light",
+      "fullName": "Jura Light",
+      "copyright": "Copyright 2009, 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the Open Font License v1.1."
+    },
+    {
+      "name": "Jura",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Jura-Regular.ttf",
+      "postScriptName": "Jura-Regular",
+      "fullName": "Jura Regular",
+      "copyright": "Copyright 2009, 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the Open Font License v1.1."
+    },
+    {
+      "name": "Jura",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Jura-Medium.ttf",
+      "postScriptName": "Jura-Medium",
+      "fullName": "Jura Medium",
+      "copyright": "Copyright 2009, 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the Open Font License v1.1."
+    },
+    {
+      "name": "Jura",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Jura-DemiBold.ttf",
+      "postScriptName": "Jura-DemiBold",
+      "fullName": "Jura DemiBold",
+      "copyright": "Copyright 2009, 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the Open Font License."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-05-18"
+}

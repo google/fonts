@@ -1,0 +1,24 @@
+{
+  "name": "Yellowtail",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 32495,
+  "fonts": [
+    {
+      "name": "Yellowtail",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Yellowtail-Regular.ttf",
+      "postScriptName": "Yellowtail",
+      "fullName": "Yellowtail",
+      "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-20"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Tangerine",
+  "designer": "Toshi Omagari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 32183,
+  "fonts": [
+    {
+      "name": "Tangerine",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tangerine_Regular.ttf",
+      "postScriptName": "Tangerine",
+      "fullName": "Tangerine",
+      "copyright": "Copyright (c) 2010 by Toshi Omagari (tosche@mac.com). All rights reserved."
+    },
+    {
+      "name": "Tangerine",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tangerine_Bold.ttf",
+      "postScriptName": "Tangerine-Bold",
+      "fullName": "Tangerine Bold",
+      "copyright": "Copyright (c) 2010 by Toshi Omagari (tosche@mac.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-06-08"
+}

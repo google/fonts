@@ -1,0 +1,43 @@
+{
+  "name": "Passion One",
+  "designer": "Fontstage",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 14143,
+  "fonts": [
+    {
+      "name": "Passion One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PassionOne-Regular.ttf",
+      "postScriptName": "PassionOne-Regular",
+      "fullName": "Passion One",
+      "copyright": "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Passion\""
+    },
+    {
+      "name": "Passion One",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PassionOne-Bold.ttf",
+      "postScriptName": "PassionOne-Bold",
+      "fullName": "Passion One Bold",
+      "copyright": "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Passion\""
+    },
+    {
+      "name": "Passion One",
+      "style": "normal",
+      "weight": 900,
+      "filename": "PassionOne-Black.ttf",
+      "postScriptName": "PassionOne-Black",
+      "fullName": "Passion One Black",
+      "copyright": "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Passion\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

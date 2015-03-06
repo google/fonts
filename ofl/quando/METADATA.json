@@ -1,0 +1,25 @@
+{
+  "name": "Quando",
+  "designer": "Joana Correia da Silva",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 52277,
+  "fonts": [
+    {
+      "name": "Quando",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Quando-Regular.ttf",
+      "postScriptName": "Quando-Regular",
+      "fullName": "Quando-Regular",
+      "copyright": "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Quando\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-07-10"
+}

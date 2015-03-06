@@ -1,0 +1,23 @@
+{
+  "name": "Noto Sans Symbols",
+  "designer": "Google",
+  "license": "Apache2",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 121352,
+  "fonts": [
+    {
+      "name": "Noto Sans Symbols",
+      "postScriptName": "NotoSansSymbols",
+      "fullName": "Noto Sans Symbols",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NotoSansSymbols-Regular.ttf",
+      "copyright": "Copyright 2013 Google Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "all"
+  ],
+  "dateAdded": "2013-10-28"
+}

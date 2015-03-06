@@ -1,0 +1,25 @@
+{
+  "name": "Stalemate",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 39920,
+  "fonts": [
+    {
+      "name": "Stalemate",
+      "postScriptName": "Stalemate-Regular",
+      "fullName": "Stalemate",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Stalemate-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Jim Lyles for Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Stalemate'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-03"
+}

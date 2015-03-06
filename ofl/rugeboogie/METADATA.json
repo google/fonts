@@ -1,0 +1,25 @@
+{
+  "name": "Ruge Boogie",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 35669,
+  "fonts": [
+    {
+      "name": "Ruge Boogie",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RugeBoogie-Regular.ttf",
+      "postScriptName": "RugeBoogie-Regular",
+      "fullName": "Ruge Boogie",
+      "copyright": "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Ruge Boogie\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

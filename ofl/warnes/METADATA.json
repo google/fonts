@@ -1,0 +1,25 @@
+{
+  "name": "Warnes",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 34923,
+  "fonts": [
+    {
+      "name": "Warnes",
+      "postScriptName": "Warnes-Regular",
+      "fullName": "Warnes",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Warnes-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Warnes'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-07"
+}

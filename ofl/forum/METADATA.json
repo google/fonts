@@ -1,0 +1,27 @@
+{
+  "name": "Forum",
+  "designer": "Denis Masharov",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 131858,
+  "fonts": [
+    {
+      "name": "Forum",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Forum-Regular.ttf",
+      "postScriptName": "Forum",
+      "fullName": "Forum",
+      "copyright": "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-07-06"
+}

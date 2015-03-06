@@ -1,0 +1,95 @@
+FONTLOG for the Libre Caslon fonts
+
+This file provides detailed information on the Libre Caslon Font Software.
+
+This information should be distributed along with the Libre Caslon fonts and any derivative works.
+
+Basic Font Information
+
+Libre Caslon Text is optimized for web body text (typically set at 16px).
+Libre Caslon Display is optimized for Headlines.
+
+There are already lots of digital Caslon's revivals, and lots of Caslon-esque fonts. Some are very good. But none of them was truly made for the web. While they look very good when printed on paper, they render very small when used for web body text on the screen.
+
+Libre Caslon Text, instead, was specifically tailored to be used for web body text (typically set at 16px). It can be used at very small sizes and will still be readable on your website.
+
+Another big difference is that pretty much all other digital Caslons revivals are based on 18th Century specimens by William Caslon I and Wiliam Caslon II. Libre Caslon, instead, it's based on hand lettering artists Caslon's interpretations typical of 1950 advertising. 
+
+Libre Caslon Text also include some nice, extra Open Type features:
+- 17 ligatures on the regular styles, and XX ligatures on the italic styles
+- Lining Proportional Numbers (Default style).
+- Lining Tabular Numbers and punctuation.
+- Old Style Prortional Numbers.
+- Inferiors, Superiors, Numerators, Denominators.
+- Fractions.
+- Ordinals.
+
+And a big PRO character-set covering 103 Latin languages: Afar, Afrikaans,
+Albanian, Azerbaijani, Basque, Belarusian, Bislama, Bosnian, Breton, Catalan,
+Chamorro, Chichewa, Comorian, Czech, Danish, Dutch, English, Esperanto,
+Estonian, Faroese, Fijian, Filipino/Tagalog, Finnish, Flemish, French, Gaelic
+(Irish / Manx / Scottish), Gagauz, German, Gikuyu, Gilbertese/Kiribati,
+Greenlandic, Guarani, Haitian_Creole, Hawaiian, Hungarian, Icelandic,
+Igo/Igbo, Indonesian, Irish, Italian, Javanese, Kashubian, Kinyarwanda,
+Kirundi, Latin, Latvian, Lithuanian, Luba/Ciluba/Kasai, Luxembourgish,
+Malagasy, Malay, Maltese, Maori, Marquesan, Marshallese,
+Moldovan/Moldovian/Romanian, Montenegrin, Nauruan, Ndebele, Norwegian, Oromo,
+Palauan/Belauan, Polish, Portuguese, Quechua, Romanian, Romansh, Sami, Samoan,
+Sango, Serbian, Sesotho, Setswana/Sitswana/Tswana, Seychellois_Creole,
+SiSwati/Swati/Swazi, Silesian, Slovak, Slovenian, Somali, Sorbian, Sotho,
+Spanish, Swahili, Swedish, Tahitian, Tetum, Tok_Pisin, Tongan, Tsonga, Tswana,
+Tuareg/Berber, Turkish, Turkmen, Tuvaluan, Uzbek/Usbek, Wallisian, Walloon,
+Welsh, Xhosa, Yoruba, Zulu.
+
+Join the project at:
+http://www.impallari.com/projects/overview/libre-caslon-display-and-text
+
+Documentation can be found at www.impallari.com
+
+To contribute to the project contact Pablo Impallari at impallari@gmail.com
+
+ChangeLog
+
+14 Mar 2013 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Text v1.00
+- Ikerned and TTF Hinted
+- Added Tabular Numbers
+
+
+07 Mar 2013 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon v0.34
+- Completed charset on the Text styles
+- Normalized Vertical Metrics
+- Lots of bugs fixed
+- Text Styles (Regular, Italic and Bold) are ready for iKern
+
+06 Dec 2012 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Text Italic v0.03
+- First draft of the Text Italic version.
+
+19 Nov 2012 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon v 0.22
+- Lower and Uppercase
+- Text Bold Style added
+- Some tentative kerning in the Display version
+- OT features calt and ss01
+
+08 Nov 2012 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon v0.03
+- Initial release
+- a-z lowercase only
+- Display and Text styles
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Pablo Impallari
+E: impallari@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+N: Rodrigo Fuenzalida
+E: hello@rfuenzalida.com
+W: http://www.rfuenzalida.com
+D: Designer
+
+
+

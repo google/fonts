@@ -1,0 +1,25 @@
+{
+  "name": "Fugaz One",
+  "designer": "LatinoType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 16808,
+  "fonts": [
+    {
+      "name": "Fugaz One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FugazOne-Regular.ttf",
+      "postScriptName": "FugazOne-Regular",
+      "fullName": "Fugaz One",
+      "copyright": "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Fugaz\" and \"Fugaz One\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

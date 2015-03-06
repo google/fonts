@@ -1,0 +1,52 @@
+{
+  "name": "Quantico",
+  "designer": "MADType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 11479,
+  "fonts": [
+    {
+      "name": "Quantico",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Quantico-Regular.ttf",
+      "postScriptName": "Quantico-Regular",
+      "fullName": "Quantico",
+      "copyright": "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\""
+    },
+    {
+      "name": "Quantico",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Quantico-Italic.ttf",
+      "postScriptName": "Quantico-Italic",
+      "fullName": "Quantico-Italic",
+      "copyright": "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\""
+    },
+    {
+      "name": "Quantico",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Quantico-Bold.ttf",
+      "postScriptName": "Quantico-Bold",
+      "fullName": "Quantico-Bold",
+      "copyright": "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\""
+    },
+    {
+      "name": "Quantico",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Quantico-BoldItalic.ttf",
+      "postScriptName": "Quantico-BoldItalic",
+      "fullName": "Quantico-BoldItalic",
+      "copyright": "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

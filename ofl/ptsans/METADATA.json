@@ -1,0 +1,54 @@
+{
+  "name": "PT Sans",
+  "designer": "ParaType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 229341,
+  "fonts": [
+    {
+      "name": "PT Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PT_Sans-Web-Regular.ttf",
+      "postScriptName": "PTSans-Regular",
+      "fullName": "PT Sans",
+      "copyright": "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    },
+    {
+      "name": "PT Sans",
+      "style": "italic",
+      "weight": 400,
+      "filename": "PT_Sans-Web-Italic.ttf",
+      "postScriptName": "PTSans-Italic",
+      "fullName": "PT Sans Italic",
+      "copyright": "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    },
+    {
+      "name": "PT Sans",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PT_Sans-Web-Bold.ttf",
+      "postScriptName": "PTSans-Bold",
+      "fullName": "PT Sans Bold",
+      "copyright": "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    },
+    {
+      "name": "PT Sans",
+      "style": "italic",
+      "weight": 700,
+      "filename": "PT_Sans-Web-BoldItalic.ttf",
+      "postScriptName": "PTSans-BoldItalic",
+      "fullName": "PT Sans Bold Italic",
+      "copyright": "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-09-21"
+}

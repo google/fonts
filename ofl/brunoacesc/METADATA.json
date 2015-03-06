@@ -1,0 +1,25 @@
+{
+  "name": "Bruno Ace SC",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 23658,
+  "fonts": [
+    {
+      "name": "Bruno Ace SC",
+      "postScriptName": "BrunoAceSC-Regular",
+      "fullName": "Bruno Ace SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BrunoAceSC-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Bruno Ace SC\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-16"
+}

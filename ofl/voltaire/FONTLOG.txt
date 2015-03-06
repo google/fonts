@@ -1,0 +1,49 @@
+FONTLOG for the Voltaire font
+
+This file provides detailed information on Voltaire 
+Font Software. This information should be distributed 
+along with the Voltaire font and any derivative works.
+
+Basic Font Information
+
+Voltaire is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+More specifically, this release supports the following Unicode 
+ranges: Latin-1
+
+To contribute to the project contact Eben Sorkin at 
+sorkineben@gmail.com
+
+ChangeLog
+
+12 August 2011 (Eben Sorkin) Voltaire v1.003
+
+- Mastered Font from Fontlab VBF to TTF
+- adjusted spacing for windows.
+
+11 August 2011 (Eben Sorkin) Voltaire v1.002
+
+- Mastered Font from Fontlab VBF to TTF
+- small tweaks to spacing.
+
+11 August 2010 (Yvonne SchŸttler) Voltaire v1.001
+- Completed first complete version of Volataire in 
+  Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Yvonne Schüttler
+E: ysch@mac.com
+W: www.ysch.de
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Spacing and Mastering

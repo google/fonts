@@ -1,0 +1,24 @@
+{
+  "name": "Smokum",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 34510,
+  "fonts": [
+    {
+      "name": "Smokum",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Smokum-Regular.ttf",
+      "postScriptName": "Smokum-Regular",
+      "fullName": "Smokum",
+      "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-03"
+}

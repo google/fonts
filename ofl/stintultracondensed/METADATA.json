@@ -1,0 +1,25 @@
+{
+  "name": "Stint Ultra Condensed",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21994,
+  "fonts": [
+    {
+      "name": "Stint Ultra Condensed",
+      "style": "normal",
+      "weight": 400,
+      "filename": "StintUltraCondensed-Regular.ttf",
+      "postScriptName": "StintUltraCondensed-Regular",
+      "fullName": "Stint Ultra Condensed",
+      "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Stint Ultra Condensed\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-07"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Bangers",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21678,
+  "fonts": [
+    {
+      "name": "Bangers",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bangers.ttf",
+      "postScriptName": "Bangers-Regular",
+      "fullName": "Bangers",
+      "copyright": "Copyright (c) 2011 by Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Bangers'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-02-09"
+}

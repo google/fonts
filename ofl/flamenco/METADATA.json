@@ -1,0 +1,34 @@
+{
+  "name": "Flamenco",
+  "designer": "LatinoType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19060,
+  "fonts": [
+    {
+      "name": "Flamenco",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Flamenco-Light.ttf",
+      "postScriptName": "Flamenco-Light",
+      "fullName": "Flamenco Light",
+      "copyright": "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Flamenco\""
+    },
+    {
+      "name": "Flamenco",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Flamenco-Regular.ttf",
+      "postScriptName": "Flamenco-Regular",
+      "fullName": "Flamenco",
+      "copyright": "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Flamenco\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

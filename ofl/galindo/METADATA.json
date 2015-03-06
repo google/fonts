@@ -1,0 +1,25 @@
+{
+  "name": "Galindo",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 33936,
+  "fonts": [
+    {
+      "name": "Galindo",
+      "postScriptName": "Galindo-Regular",
+      "fullName": "Galindo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Galindo-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Galindo\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-08-13"
+}

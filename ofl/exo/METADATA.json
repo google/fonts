@@ -1,0 +1,178 @@
+{
+  "name": "Exo",
+  "designer": "Natanael Gama",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 42644,
+  "fonts": [
+    {
+      "name": "Exo",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Exo-Thin.ttf",
+      "postScriptName": "Exo-Thin",
+      "fullName": "Exo Thin",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "italic",
+      "weight": 100,
+      "filename": "Exo-ThinItalic.ttf",
+      "postScriptName": "Exo-ThinItalic",
+      "fullName": "Exo Thin Italic",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Exo-ExtraLight.ttf",
+      "postScriptName": "Exo-ExtraLight",
+      "fullName": "Exo ExtraLight",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "italic",
+      "weight": 200,
+      "filename": "Exo-ExtraLightItalic.ttf",
+      "postScriptName": "Exo-ExtraLightItalic",
+      "fullName": "Exo ExtraLight Italic",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Exo-Light.ttf",
+      "postScriptName": "Exo-Light",
+      "fullName": "Exo Light",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Exo-LightItalic.ttf",
+      "postScriptName": "Exo-LightItalic",
+      "fullName": "Exo Light Italic",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Exo-Regular.ttf",
+      "postScriptName": "Exo-Regular",
+      "fullName": "Exo Regular",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Exo-Italic.ttf",
+      "postScriptName": "Exo-Italic",
+      "fullName": "Exo Italic",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Exo-Medium.ttf",
+      "postScriptName": "Exo-Medium",
+      "fullName": "Exo Medium",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "italic",
+      "weight": 500,
+      "filename": "Exo-MediumItalic.ttf",
+      "postScriptName": "Exo-MediumItalic",
+      "fullName": "Exo Medium Italic",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Exo-SemiBold.ttf",
+      "postScriptName": "Exo-DemiBold",
+      "fullName": "Exo DemiBold",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "italic",
+      "weight": 600,
+      "filename": "Exo-SemiBoldItalic.ttf",
+      "postScriptName": "Exo-DemiBoldItalic",
+      "fullName": "Exo DemiBold Italic",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Exo-Bold.ttf",
+      "postScriptName": "Exo-Bold",
+      "fullName": "Exo Bold",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Exo-BoldItalic.ttf",
+      "postScriptName": "Exo-BoldItalic",
+      "fullName": "Exo Bold Italic",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Exo-ExtraBold.ttf",
+      "postScriptName": "Exo-ExtraBold",
+      "fullName": "Exo ExtraBold",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "italic",
+      "weight": 800,
+      "filename": "Exo-ExtraBoldItalic.ttf",
+      "postScriptName": "Exo-ExtraBoldItalic",
+      "fullName": "Exo ExtraBold Italic",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Exo-Black.ttf",
+      "postScriptName": "Exo-Black",
+      "fullName": "Exo Black",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    },
+    {
+      "name": "Exo",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Exo-BlackItalic.ttf",
+      "postScriptName": "Exo-BlackItalic",
+      "fullName": "Exo Black Italic",
+      "copyright": "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-08"
+}

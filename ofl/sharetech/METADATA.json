@@ -1,0 +1,24 @@
+{
+  "name": "Share Tech",
+  "designer": "Ralph du Carrois",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 15003,
+  "fonts": [
+    {
+      "name": "Share Tech",
+      "postScriptName": "ShareTech-Regular",
+      "fullName": "Share Tech",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ShareTech-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Carrois Type Design, Ralph du Carrois (www.carrois.com post@carrois.com), with Reserved Font Name 'Share'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-10-31"
+}

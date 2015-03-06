@@ -1,0 +1,25 @@
+{
+  "name": "Cookie",
+  "designer": "Ania Kruk",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 21573,
+  "fonts": [
+    {
+      "name": "Cookie",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cookie-Regular.ttf",
+      "postScriptName": "Cookie-Regular",
+      "fullName": "Cookie-Regular",
+      "copyright": "Copyright (c) 2011 by Ania Kruk (hello@aniakruk.com), with Reserved Font Name Cookie."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-10-12"
+}

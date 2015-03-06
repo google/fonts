@@ -1,0 +1,46 @@
+{
+  "name": "Fira Mono",
+  "designer": "Carrois and Edenspiekermann",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 64822,
+  "fonts": [
+    {
+      "name": "Fira Mono",
+      "style": "normal",
+      "weight": 700,
+      "filename": "FiraMono-Bold.ttf",
+      "postScriptName": "FiraMono-Bold",
+      "fullName": "Fira Mono Bold",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    },
+    {
+      "name": "Fira Mono",
+      "style": "normal",
+      "weight": 500,
+      "filename": "FiraMono-Medium.ttf",
+      "postScriptName": "FiraMono-Medium",
+      "fullName": "Fira Mono Medium",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    },
+    {
+      "name": "Fira Mono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FiraMono-Regular.ttf",
+      "postScriptName": "FiraMono-Regular",
+      "fullName": "Fira Mono",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-06-18"
+}

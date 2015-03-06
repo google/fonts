@@ -1,0 +1,33 @@
+{
+  "name": "Podkova",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 37173,
+  "fonts": [
+    {
+      "name": "Podkova",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Podkova-Regular.ttf",
+      "postScriptName": "Podkova-Regular",
+      "fullName": "Podkova",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org), with Reserved Font Name \"Podkova\"."
+    },
+    {
+      "name": "Podkova",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Podkova-Bold.ttf",
+      "postScriptName": "Podkova-Bold",
+      "fullName": "Podkova Bold",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org), with Reserved Font Name \"Podkova\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-18"
+}

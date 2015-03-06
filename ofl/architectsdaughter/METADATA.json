@@ -1,0 +1,24 @@
+{
+  "name": "Architects Daughter",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 23863,
+  "fonts": [
+    {
+      "name": "Architects Daughter",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ArchitectsDaughter.ttf",
+      "postScriptName": "ArchitectsDaughter",
+      "fullName": "Architects Daughter",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-03-09"
+}

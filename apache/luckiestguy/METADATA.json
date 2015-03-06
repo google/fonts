@@ -1,0 +1,24 @@
+{
+  "name": "Luckiest Guy",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 40138,
+  "fonts": [
+    {
+      "name": "Luckiest Guy",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LuckiestGuy.ttf",
+      "postScriptName": "LuckiestGuy-Regular",
+      "fullName": "Luckiest Guy",
+      "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-01-06"
+}

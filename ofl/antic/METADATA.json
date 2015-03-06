@@ -1,0 +1,24 @@
+{
+  "name": "Antic",
+  "designer": "Santiago Orozco",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 20884,
+  "fonts": [
+    {
+      "name": "Antic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Antic-Regular.ttf",
+      "postScriptName": "Antic-Regular",
+      "fullName": "Antic",
+      "copyright": "Copyright (c) 2010, 2011, Santiago Orozco <hi@typemade.mx>, with Reserved Font Name \"Antic\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-31"
+}

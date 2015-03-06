@@ -1,0 +1,24 @@
+{
+  "name": "Poller One",
+  "designer": "Yvonne Schüttler",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 16366,
+  "fonts": [
+    {
+      "name": "Poller One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PollerOne.ttf",
+      "postScriptName": "PollerOne-Regular",
+      "fullName": "Poller One",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Poller\" and \"Poller One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-09-28"
+}

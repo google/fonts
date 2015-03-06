@@ -1,0 +1,33 @@
+{
+  "name": "IM Fell French Canon",
+  "designer": "Igino Marini",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 85439,
+  "fonts": [
+    {
+      "name": "IM Fell French Canon",
+      "style": "normal",
+      "weight": 400,
+      "filename": "IMFeFCrm28P.ttf",
+      "postScriptName": "IM_FELL_French_Canon_Roman",
+      "fullName": "IM FELL French Canon Roman",
+      "copyright": "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL French Canon Roman"
+    },
+    {
+      "name": "IM Fell French Canon",
+      "style": "italic",
+      "weight": 400,
+      "filename": "IMFeFCit28P.ttf",
+      "postScriptName": "IM_FELL_French_Canon_Italic",
+      "fullName": "IM FELL French Canon Italic",
+      "copyright": "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL French Canon Italic"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-05-17"
+}

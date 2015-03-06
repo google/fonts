@@ -1,0 +1,25 @@
+{
+  "name": "Clicker Script",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 35215,
+  "fonts": [
+    {
+      "name": "Clicker Script",
+      "postScriptName": "ClickerScript-Regular",
+      "fullName": "Clicker Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ClickerScript-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky and Jim Lyles for Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Clicker Script\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-11"
+}

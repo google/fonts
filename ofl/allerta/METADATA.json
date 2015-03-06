@@ -1,0 +1,24 @@
+{
+  "name": "Allerta",
+  "designer": "Matt McInerney",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 12255,
+  "fonts": [
+    {
+      "name": "Allerta",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Allerta-Regular.ttf",
+      "postScriptName": "Allerta-Regular",
+      "fullName": "Allerta Regular",
+      "copyright": "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-11-30"
+}

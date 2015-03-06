@@ -1,0 +1,25 @@
+{
+  "name": "Aladin",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 20839,
+  "fonts": [
+    {
+      "name": "Aladin",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Aladin-Regular.ttf",
+      "postScriptName": "Aladin-Regular",
+      "fullName": "Aladin Regular",
+      "copyright": "Copyright (c) 2009 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2009 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Aladin\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

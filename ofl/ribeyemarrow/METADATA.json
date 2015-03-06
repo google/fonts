@@ -1,0 +1,25 @@
+{
+  "name": "Ribeye Marrow",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 45571,
+  "fonts": [
+    {
+      "name": "Ribeye Marrow",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RibeyeMarrow-Regular.ttf",
+      "postScriptName": "RibeyeMarrow-Regular",
+      "fullName": "Ribeye Marrow",
+      "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Ribeye Marrow\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-23"
+}

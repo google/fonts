@@ -1,0 +1,25 @@
+{
+  "name": "Esteban",
+  "designer": "Angélica Díaz",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 23463,
+  "fonts": [
+    {
+      "name": "Esteban",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Esteban-Regular.ttf",
+      "postScriptName": "Esteban",
+      "fullName": "Esteban",
+      "copyright": "Copyright (c) 2011, Angelica Diaz Rivera (www.typereview.wordpress.com angiecina@gmail.com), with Reserved Font Name \"Esteban\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-11"
+}

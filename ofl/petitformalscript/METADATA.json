@@ -1,0 +1,25 @@
+{
+  "name": "Petit Formal Script",
+  "designer": "Impallari Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 70282,
+  "fonts": [
+    {
+      "name": "Petit Formal Script",
+      "postScriptName": "PetitFormalScript-Regular",
+      "fullName": "Petit Formal Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PetitFormalScript-Regular.ttf",
+      "copyright": "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\rCopyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com),\rCopyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), \r\rwith Reserved Font Name Petit Formal Script."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-07"
+}

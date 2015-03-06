@@ -1,0 +1,29 @@
+{
+  "name": "Didact Gothic",
+  "designer": "Daniel Johnson",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 92760,
+  "fonts": [
+    {
+      "name": "Didact Gothic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DidactGothic.ttf",
+      "postScriptName": "DidactGothic",
+      "fullName": "Didact Gothic",
+      "copyright": "Copyright (c) 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the SIL Open Font License."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-05-04"
+}

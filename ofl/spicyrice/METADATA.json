@@ -1,0 +1,25 @@
+{
+  "name": "Spicy Rice",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 38719,
+  "fonts": [
+    {
+      "name": "Spicy Rice",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SpicyRice-Regular.ttf",
+      "postScriptName": "SpicyRice-Regular",
+      "fullName": "Spicy Rice",
+      "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Spicy Rice\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

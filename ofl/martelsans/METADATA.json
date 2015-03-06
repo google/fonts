@@ -1,0 +1,80 @@
+{
+  "name": "Martel Sans",
+  "designer": "Dan Reynolds",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 76358,
+  "fonts": [
+    {
+      "name": "Martel Sans",
+      "postScriptName": "MartelSans-Black",
+      "fullName": "Martel Sans Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "MartelSans-Black.ttf",
+      "copyright": "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
+    },
+    {
+      "name": "Martel Sans",
+      "postScriptName": "MartelSans-Bold",
+      "fullName": "Martel Sans Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "MartelSans-Bold.ttf",
+      "copyright": "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
+    },
+    {
+      "name": "Martel Sans",
+      "postScriptName": "MartelSans-ExtraBold",
+      "fullName": "Martel Sans ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "MartelSans-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
+    },
+    {
+      "name": "Martel Sans",
+      "postScriptName": "MartelSans-ExtraLight",
+      "fullName": "Martel Sans ExtraLight",
+      "style": "normal",
+      "weight": 200,
+      "filename": "MartelSans-ExtraLight.ttf",
+      "copyright": "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
+    },
+    {
+      "name": "Martel Sans",
+      "postScriptName": "MartelSans-Light",
+      "fullName": "Martel Sans Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "MartelSans-Light.ttf",
+      "copyright": "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
+    },
+    {
+      "name": "Martel Sans",
+      "postScriptName": "MartelSans-Regular",
+      "fullName": "Martel Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MartelSans-Regular.ttf",
+      "copyright": "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
+    },
+    {
+      "name": "Martel Sans",
+      "postScriptName": "MartelSans-SemiBold",
+      "fullName": "Martel Sans SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "MartelSans-SemiBold.ttf",
+      "copyright": "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-03-04"
+}

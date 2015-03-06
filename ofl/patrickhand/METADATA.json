@@ -1,0 +1,26 @@
+{
+  "name": "Patrick Hand",
+  "designer": "Patrick Wagesreiter",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 54194,
+  "fonts": [
+    {
+      "name": "Patrick Hand",
+      "postScriptName": "PatrickHand-Regular",
+      "fullName": "Patrick Hand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PatrickHand-Regular.ttf",
+      "copyright": "Copyright (c) 2010-2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2011-07-06"
+}

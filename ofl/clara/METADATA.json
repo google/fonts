@@ -1,0 +1,24 @@
+{
+  "name": "Clara",
+  "designer": "Proyecto Demo",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Display",
+  "size": 79183,
+  "fonts": [
+    {
+      "name": "Clara",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Clara-Regular.ttf",
+      "postScriptName": "Clara-Regular",
+      "fullName": "Clara-Regular",
+      "copyright": "Copyright (c) 2010, Proyecto Demo (http://www.proyectodemo.cl), with Reserved Font Name Clara."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-11-02"
+}

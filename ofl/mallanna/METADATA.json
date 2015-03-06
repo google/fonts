@@ -1,0 +1,25 @@
+{
+  "name": "Mallanna",
+  "designer": "Purushoth Kumar Guttula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 235173, 
+  "fonts": [
+    {
+      "name": "Mallanna",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Mallanna-Regular.ttf",
+      "postScriptName": "Mallanna",
+      "fullName": "Mallanna",
+      "copyright": "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name Nunito"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

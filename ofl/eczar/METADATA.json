@@ -1,0 +1,62 @@
+{
+  "name": "Eczar",
+  "designer": "Vaibhav Singh",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 153111,
+  "fonts": [
+    {
+      "name": "Eczar",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Eczar-Bold.ttf",
+      "postScriptName": "Eczar-Bold",
+      "fullName": "Eczar Bold",
+      "copyright": "Copyright (c) 2014, Rosetta Type Foundry s.r.o. (http://rosettatype.com)"
+    },
+    {
+      "name": "Eczar",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Eczar-Extrabold.ttf",
+      "postScriptName": "Eczar-Extrabold",
+      "fullName": "Eczar Extrabold",
+      "copyright": "Copyright (c) 2014, Rosetta Type Foundry s.r.o. (http://rosettatype.com)"
+    },
+    {
+      "name": "Eczar",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Eczar-Medium.ttf",
+      "postScriptName": "Eczar-Medium",
+      "fullName": "Eczar Medium",
+      "copyright": "Copyright (c) 2014, Rosetta Type Foundry s.r.o. (http://rosettatype.com)"
+    },
+    {
+      "name": "Eczar",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Eczar-Regular.ttf",
+      "postScriptName": "Eczar-Regular",
+      "fullName": "Eczar",
+      "copyright": "Copyright (c) 2014, Rosetta Type Foundry s.r.o. (http://rosettatype.com)"
+    },
+    {
+      "name": "Eczar",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Eczar-Semibold.ttf",
+      "postScriptName": "Eczar-Semibold",
+      "fullName": "Eczar Semibold",
+      "copyright": "Copyright (c) 2014, Rosetta Type Foundry s.r.o. (http://rosettatype.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-01-28"
+}

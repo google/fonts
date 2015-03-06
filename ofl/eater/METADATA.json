@@ -1,0 +1,25 @@
+{
+  "name": "Eater",
+  "designer": "Typomondo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 56242,
+  "fonts": [
+    {
+      "name": "Eater",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Eater-Regular.ttf",
+      "postScriptName": "Eater-Regular",
+      "fullName": "Eater",
+      "copyright": "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Eater\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

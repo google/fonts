@@ -1,0 +1,25 @@
+{
+  "name": "Diplomata",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 22203,
+  "fonts": [
+    {
+      "name": "Diplomata",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Diplomata-Regular.ttf",
+      "postScriptName": "Diplomata-Regular",
+      "fullName": "Diplomata",
+      "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Diplomata\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-25"
+}

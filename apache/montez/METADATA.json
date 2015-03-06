@@ -1,0 +1,24 @@
+{
+  "name": "Montez",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 40414,
+  "fonts": [
+    {
+      "name": "Montez",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Montez-Regular.ttf",
+      "postScriptName": "Montez-Regular",
+      "fullName": "Montez",
+      "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-17"
+}

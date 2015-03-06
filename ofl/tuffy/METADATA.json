@@ -1,0 +1,56 @@
+{
+  "name": "Tuffy",
+  "designer": "Thatcher Ulrich",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 76494,
+  "fonts": [
+    {
+      "name": "Tuffy",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tuffy-Regular.ttf",
+      "postScriptName": "Tuffy-Regular",
+      "fullName": "Tuffy Regular",
+      "copyright": "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com tu@tulrich.com), Karoly Barta (brtkr@freemail.hu), Michael Everson (http://www.evertype.com everson@evertype.com), with Reserved Font Name \"Tuffy\""
+    },
+    {
+      "name": "Tuffy",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Tuffy-Italic.ttf",
+      "postScriptName": "Tuffy-Italic",
+      "fullName": "Tuffy Italic",
+      "copyright": "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com tu@tulrich.com), Karoly Barta (brtkr@freemail.hu), Michael Everson (http://www.evertype.com everson@evertype.com), with Reserved Font Name \"Tuffy\""
+    },
+    {
+      "name": "Tuffy",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tuffy-Bold.ttf",
+      "postScriptName": "Tuffy-Bold",
+      "fullName": "Tuffy Bold",
+      "copyright": "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com tu@tulrich.com), Karoly Barta (brtkr@freemail.hu), Michael Everson (http://www.evertype.com everson@evertype.com), with Reserved Font Name \"Tuffy\""
+    },
+    {
+      "name": "Tuffy",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Tuffy-BoldItalic.ttf",
+      "postScriptName": "Tuffy-BoldItalic",
+      "fullName": "Tuffy Bold Italic",
+      "copyright": "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com tu@tulrich.com), Karoly Barta (brtkr@freemail.hu), Michael Everson (http://www.evertype.com everson@evertype.com), with Reserved Font Name \"Tuffy\""
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-05-09"
+}

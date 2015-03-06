@@ -1,0 +1,24 @@
+{
+  "name": "Nixie One",
+  "designer": "Jovanny Lemonad",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 40924,
+  "fonts": [
+    {
+      "name": "Nixie One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NixieOne-Regular.ttf",
+      "postScriptName": "NixieOne-Regular",
+      "fullName": "Nixie One",
+      "copyright": "Copyright (c) 2011, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name \"Nixie\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-06-21"
+}

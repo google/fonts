@@ -1,0 +1,25 @@
+{
+  "name": "Sarina",
+  "designer": "James Grieshaber",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 42939,
+  "fonts": [
+    {
+      "name": "Sarina",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sarina-Regular.ttf",
+      "postScriptName": "Sarina-Regular",
+      "fullName": "Sarina",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Sarina\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

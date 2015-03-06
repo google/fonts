@@ -1,0 +1,25 @@
+{
+  "name": "Autour One",
+  "designer": "Eben Sorkin",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 40806,
+  "fonts": [
+    {
+      "name": "Autour One",
+      "postScriptName": "AutourOne-Regular",
+      "fullName": "Autour One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AutourOne-Regular.ttf",
+      "copyright": "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Autour'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-05-15"
+}

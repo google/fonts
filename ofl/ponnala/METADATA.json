@@ -1,0 +1,25 @@
+{
+  "name": "Ponnala",
+  "designer": "Appaji Ambarisha Darbha",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 192739,
+  "fonts": [
+    {
+      "name": "Ponnala",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ponnala-Regular.ttf",
+      "postScriptName": "Ponnala",
+      "fullName": "Ponnala",
+      "copyright": "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

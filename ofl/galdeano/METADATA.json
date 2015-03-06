@@ -1,0 +1,25 @@
+{
+  "name": "Galdeano",
+  "designer": "Dario Manuel Muhafara",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 14389,
+  "fonts": [
+    {
+      "name": "Galdeano",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Galdeano-Regular.ttf",
+      "postScriptName": "Galdeano-Regular",
+      "fullName": "Galdeano Regular",
+      "copyright": "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Galdeano\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-07"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Titan One",
+  "designer": "Rodrigo Fuenzalida",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 25523,
+  "fonts": [
+    {
+      "name": "Titan One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "TitanOne-Regular.ttf",
+      "postScriptName": "TitanOne",
+      "fullName": "Titan One",
+      "copyright": "Copyright (c) 2011 Rodrigo Fuenzalida (hello@rfuenzalida.com), with Reserved Font Name \"Titan One\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-11"
+}

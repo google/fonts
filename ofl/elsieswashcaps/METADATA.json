@@ -1,0 +1,34 @@
+{
+  "name": "Elsie Swash Caps",
+  "designer": "Alejandro Inler",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 18328,
+  "fonts": [
+    {
+      "name": "Elsie Swash Caps",
+      "postScriptName": "ElsieSwashCapsBlack-Regular",
+      "fullName": "Elsie Swash Caps Blacks",
+      "style": "normal",
+      "weight": 900,
+      "filename": "ElsieSwashCaps-Black.ttf",
+      "copyright": "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Elsie'"
+    },
+    {
+      "name": "Elsie Swash Caps",
+      "postScriptName": "ElsieSwashCaps-Regular",
+      "fullName": "Elsie Swash Caps",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ElsieSwashCaps-Regular.ttf",
+      "copyright": "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Elsie'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-12"
+}

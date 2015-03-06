@@ -1,0 +1,26 @@
+{
+  "name": "Varela",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 79136,
+  "fonts": [
+    {
+      "name": "Varela",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Varela-Regular.ttf",
+      "postScriptName": "Varela",
+      "fullName": "Varela",
+      "copyright": "Copyright (c) 2011 by Admix Designs (joe@admixdesigns.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2011-06-29"
+}

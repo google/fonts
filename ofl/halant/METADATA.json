@@ -1,0 +1,62 @@
+{
+  "name": "Halant",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 74682,
+  "fonts": [
+    {
+      "name": "Halant",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Halant-Bold.ttf",
+      "postScriptName": "Halant-Bold",
+      "fullName": "Halant Bold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Halant",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Halant-Light.ttf",
+      "postScriptName": "Halant-Light",
+      "fullName": "Halant Light",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Halant",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Halant-Medium.ttf",
+      "postScriptName": "Halant-Medium",
+      "fullName": "Halant Medium",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Halant",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Halant-Regular.ttf",
+      "postScriptName": "Halant-Regular",
+      "fullName": "Halant",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Halant",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Halant-Semibold.ttf",
+      "postScriptName": "Halant-Semibold",
+      "fullName": "Halant Semibold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-08-27"
+}

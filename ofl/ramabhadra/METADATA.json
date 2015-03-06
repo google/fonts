@@ -1,0 +1,25 @@
+{
+  "name": "Ramabhadra",
+  "designer": "Purushoth Kumar Guttula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 251151, 
+  "fonts": [
+    {
+      "name": "Ramabhadra",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ramabhadra-Regular.ttf",
+      "postScriptName": "Ramabhadra",
+      "fullName": "Ramabhadra",
+      "copyright": "Copyright (c) 2012 Andhra Pradesh Society for Knowledge Networks (fonts.siliconandhra.org). Digitized data copyright (c) 2010-2012 Google Corporation."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

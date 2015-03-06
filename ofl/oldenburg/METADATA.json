@@ -1,0 +1,25 @@
+{
+  "name": "Oldenburg",
+  "designer": "Nicole Fally",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 27438,
+  "fonts": [
+    {
+      "name": "Oldenburg",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Oldenburg-Regular.ttf",
+      "postScriptName": "Oldenburg-Regular",
+      "fullName": "Oldenburg",
+      "copyright": "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name Oldenburgh."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

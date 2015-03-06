@@ -1,0 +1,25 @@
+{
+  "name": "Mouse Memoirs",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 32696,
+  "fonts": [
+    {
+      "name": "Mouse Memoirs",
+      "postScriptName": "MouseMemoirs-Regular",
+      "fullName": "Mouse Memoirs",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MouseMemoirs-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Mouse Memoirs'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-02"
+}

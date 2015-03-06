@@ -1,0 +1,24 @@
+{
+  "name": "Sigmar One",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 39161,
+  "fonts": [
+    {
+      "name": "Sigmar One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SigmarOne.ttf",
+      "postScriptName": "SigmarOne",
+      "fullName": "Sigmar One",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Sigmar'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-04"
+}

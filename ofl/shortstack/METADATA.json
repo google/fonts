@@ -1,0 +1,24 @@
+{
+  "name": "Short Stack",
+  "designer": "James Grieshaber",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 35460,
+  "fonts": [
+    {
+      "name": "Short Stack",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ShortStack-Regular.ttf",
+      "postScriptName": "ShortStack",
+      "fullName": "Short Stack",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Short Stack\" and \"Short Stack One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-17"
+}

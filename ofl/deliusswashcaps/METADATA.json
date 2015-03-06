@@ -1,0 +1,24 @@
+{
+  "name": "Delius Swash Caps",
+  "designer": "Natalia Raices",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 30652,
+  "fonts": [
+    {
+      "name": "Delius Swash Caps",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DeliusSwashCaps-Regular.ttf",
+      "postScriptName": "DeliusSwashCaps-Regular",
+      "fullName": "Delius Swash Caps",
+      "copyright": "Copyright (c) 2010, 2011, Natalia Raices <nraices@gmail.com>, with Reserved Font Name \"Delius\" \"Delius Unicase\" \"Delius Swash Caps\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-03"
+}

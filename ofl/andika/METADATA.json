@@ -1,0 +1,28 @@
+{
+  "name": "Andika",
+  "designer": "Annie Olsen",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 528562,
+  "fonts": [
+    {
+      "name": "Andika",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Andika-R.ttf",
+      "postScriptName": "Andika",
+      "fullName": "Andika",
+      "copyright": "Copyright (c) 2004-2011, SIL International (http://www.sil.org/). Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL), with Reserved Font Names \"Andika\" and \"SIL\"."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2011-08-10"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Metrophobic",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 38027,
+  "fonts": [
+    {
+      "name": "Metrophobic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Metrophobic.ttf",
+      "postScriptName": "Metrophobic",
+      "fullName": "Metrophobic",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Metrophobic'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-11"
+}

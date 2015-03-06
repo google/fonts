@@ -1,0 +1,25 @@
+{
+  "name": "Boogaloo",
+  "designer": "John Vargas Beltrán",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 18299,
+  "fonts": [
+    {
+      "name": "Boogaloo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Boogaloo-Regular.ttf",
+      "postScriptName": "Boogaloo-Regular",
+      "fullName": "Boogaloo",
+      "copyright": "Copyright (c) 2011, John Vargas Beltran (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com), with Reserved Font Name \"Boogaloo\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Loved by the King",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 18417,
+  "fonts": [
+    {
+      "name": "Loved by the King",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LovedbytheKing.ttf",
+      "postScriptName": "LovedbytheKing",
+      "fullName": "Loved by the King",
+      "copyright": "Copyright (c) 2006 by Kimberly Geswein (kimberlygeswein@gmail.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-06"
+}

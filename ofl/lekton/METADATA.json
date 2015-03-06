@@ -1,0 +1,43 @@
+{
+  "name": "Lekton",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 48685,
+  "fonts": [
+    {
+      "name": "Lekton",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lekton-Regular.ttf",
+      "postScriptName": "Lekton-Regular",
+      "fullName": "Lekton",
+      "copyright": "Copyright (c) 2008, 2009, 2010, Accademia di Belle Arti di Urbino (luciano.perondi@isiaurbino.net). Licensed under the SIL Open Font License, Version 1.1"
+    },
+    {
+      "name": "Lekton",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Lekton-Italic.ttf",
+      "postScriptName": "Lekton-Italic",
+      "fullName": "Lekton-Italic",
+      "copyright": "Copyright (c) 2008, 2009, 2010, Accademia di Belle Arti di Urbino (luciano.perondi@isiaurbino.net). Licensed under the SIL Open Font License, Version 1.1"
+    },
+    {
+      "name": "Lekton",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Lekton-Bold.ttf",
+      "postScriptName": "Lekton-Bold",
+      "fullName": "Lekton-Bold",
+      "copyright": "Copyright (c) 2008, 2009, 2010, Accademia di Belle Arti di Urbino (luciano.perondi@isiaurbino.net). Licensed under the SIL Open Font License, Version 1.1"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-12-20"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Mervale Script",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 40508,
+  "fonts": [
+    {
+      "name": "Mervale Script",
+      "postScriptName": "MervaleScript-Regular",
+      "fullName": "Mervale Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MervaleScript-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Mervale Script\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-12"
+}

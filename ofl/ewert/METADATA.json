@@ -1,0 +1,25 @@
+{
+  "name": "Ewert",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19988,
+  "fonts": [
+    {
+      "name": "Ewert",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ewert-Regular.ttf",
+      "postScriptName": "Ewert-Regular",
+      "fullName": "Ewert",
+      "copyright": "Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright (c) 2011 Mihkel Virkus (mihkelvirkus@gmail.com) with Reserved Font Name Ewert."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-08"
+}

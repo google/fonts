@@ -1,0 +1,89 @@
+{
+  "name": "Khand",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 74048,
+  "fonts": [
+  {
+    "name": "Khand",
+    "style": "normal",
+    "weight": 200,
+    "filename": "Khand-SemiLight.ttf",
+    "postScriptName": "Khand-SemiLight",
+    "fullName": "Khand SemiLight",
+    "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  },
+  {
+    "name": "Khand",
+    "style": "normal",
+    "weight": 400,
+    "filename": "Khand-Regular.ttf",
+    "postScriptName": "Khand-Regular",
+    "fullName": "Khand",
+    "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  },
+  {
+    "name": "Khand",
+    "style": "normal",
+    "weight": 900,
+    "filename": "Khand-Black.ttf",
+    "postScriptName": "Khand-Black",
+    "fullName": "Khand Black",
+    "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  },
+  {
+    "name": "Khand",
+    "style": "normal",
+    "weight": 700,
+    "filename": "Khand-Bold.ttf",
+    "postScriptName": "Khand-Bold",
+    "fullName": "Khand Bold",
+    "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  },
+  {
+    "name": "Khand",
+    "style": "normal",
+    "weight": 600,
+    "filename": "Khand-SemiBold.ttf",
+    "postScriptName": "Khand-SemiBold",
+    "fullName": "Khand SemiBold",
+    "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  },
+  {
+    "name": "Khand",
+    "style": "normal",
+    "weight": 800,
+    "filename": "Khand-ExtraBold.ttf",
+    "postScriptName": "Khand-ExtraBold",
+    "fullName": "Khand ExtraBold",
+    "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  },
+  {
+    "name": "Khand",
+    "style": "normal",
+    "weight": 100,
+    "filename": "Khand-ExtraLight.ttf",
+    "postScriptName": "Khand-ExtraLight",
+    "fullName": "Khand ExtraLight",
+    "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  },
+  {
+    "name": "Khand",
+    "style": "normal",
+    "weight": 300,
+    "filename": "Khand-Light.ttf",
+    "postScriptName": "Khand-Light",
+    "fullName": "Khand Light",
+    "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-07-14"
+}

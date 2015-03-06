@@ -1,0 +1,25 @@
+{
+  "name": "Gruppo",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 35183,
+  "fonts": [
+    {
+      "name": "Gruppo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Gruppo-Regular.ttf",
+      "postScriptName": "Gruppo",
+      "fullName": "Gruppo",
+      "copyright": "Copyright (c) 2010 Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Gruppo'. Available under the terms of the SIL OFL v1.1 from http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-12-20"
+}

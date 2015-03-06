@@ -1,0 +1,25 @@
+{
+  "name": "Dhurjati",
+  "designer": "Purushoth Kumar Guttula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 112310,
+  "fonts": [
+    {
+      "name": "Dhurjati",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dhurjati-Regular.ttf",
+      "postScriptName": "Dhurjati",
+      "fullName": "Dhurjati",
+      "copyright": "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2014 Google, Inc."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

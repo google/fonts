@@ -1,0 +1,25 @@
+{
+  "name": "Rouge Script",
+  "designer": "Sabrina Mariela Lopez",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 22140,
+  "fonts": [
+    {
+      "name": "Rouge Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RougeScript-Regular.ttf",
+      "postScriptName": "RougeScript-Regular",
+      "fullName": "Rouge Script",
+      "copyright": "Copyright (c) 2011 Typesenses (typesenses@live.com.ar), with Reserved Font Name \"Rouge Script\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-11"
+}

@@ -1,0 +1,68 @@
+FONTLOG for the Buenard fonts
+
+This file provides detailed information on the Buenard 
+Font Software.
+
+This information should be distributed along with the 
+Buenard fonts and any derivative works.
+
+Basic Font Information
+
+Buenard is a high-quality serif typeface for art books.
+It’s based on the Transitional Roman classical structure, 
+with less contrasted strokes and heavier serifs.
+It has its own contemporary style, combining elegance, 
+consistency and legibility for all text sizes, making 
+it an excellent choice when selecting a serif font.
+Buenard was designed for an Argentinian art publisher 
+and its being developed as the final project in the 
+Postgraduate Career in Typography at the University 
+of Buenos Aires.
+
+Designed by Gustavo Ibarra for FontFuror (www.fontfuror.com).
+
+Buenard is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be 
+expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Basic Latin and Latin-1 Supplement.
+
+To contribute to the project contact Gustavo Ibarra 
+at info@fontfuror.com
+
+There are six Source files:
+
+1. Buenard-Bold-OTF.vfb Merged contours and optimized 
+   file corresponding to the OTF file
+
+2. Buenard-Bold-TTF.sfd TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+3. Buenard-Bold.vfb Original Source files with contour overlaps
+
+4. Buenard-Regular-OTF.vfb Merged contours and optimized 
+   file corresponding to the OTF file
+
+5. Buenard-Regular-TTF.sfd TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+6. Buenard-Regular.vfb Original Source files with contour 
+   overlaps
+
+ChangeLog
+
+12 Jan 2012 (Gustavo Ibarra) Buenard v1.001
+- Extended Latin character set for Regular and Bold styles
+
+18 Dec 2011 (Gustavo Ibarra) Buenard v1.000
+- Initial release of Regular and Bold styles
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Gustavo Ibarra
+E: info@fontfuror.com
+W: www.fontfuror.com
+D: Typeface Designer

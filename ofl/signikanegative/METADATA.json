@@ -1,0 +1,52 @@
+{
+  "name": "Signika Negative",
+  "designer": "Anna Giedryś",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 27741,
+  "fonts": [
+    {
+      "name": "Signika Negative",
+      "style": "normal",
+      "weight": 300,
+      "filename": "SignikaNegative-Light.ttf",
+      "postScriptName": "SignikaNegative-Light",
+      "fullName": "Signika Negative Light",
+      "copyright": "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+    },
+    {
+      "name": "Signika Negative",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SignikaNegative-Regular.ttf",
+      "postScriptName": "SignikaNegative-Regular",
+      "fullName": "Signika Negative",
+      "copyright": "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+    },
+    {
+      "name": "Signika Negative",
+      "style": "normal",
+      "weight": 600,
+      "filename": "SignikaNegative-Semibold.ttf",
+      "postScriptName": "SignikaNegative-Semibold",
+      "fullName": "Signika Negative Semibold",
+      "copyright": "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+    },
+    {
+      "name": "Signika Negative",
+      "style": "normal",
+      "weight": 700,
+      "filename": "SignikaNegative-Bold.ttf",
+      "postScriptName": "SignikaNegative-Bold",
+      "fullName": "Signika Negative Bold",
+      "copyright": "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-23"
+}

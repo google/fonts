@@ -1,0 +1,25 @@
+{
+  "name": "Ruthie",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 30099,
+  "fonts": [
+    {
+      "name": "Ruthie",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ruthie-Regular.ttf",
+      "postScriptName": "Ruthie-Regular",
+      "fullName": "Ruthie",
+      "copyright": "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Ruthie\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

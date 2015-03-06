@@ -1,0 +1,26 @@
+{
+  "name": "Underdog",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 51898,
+  "fonts": [
+    {
+      "name": "Underdog",
+      "postScriptName": "Underdog-Regular",
+      "fullName": "Underdog",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Underdog-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Sergey Steblina (sergey@steblina.com), Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Underdog'"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-23"
+}

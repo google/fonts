@@ -1,0 +1,25 @@
+{
+  "name": "Joti One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 21632,
+  "fonts": [
+    {
+      "name": "Joti One",
+      "postScriptName": "JotiOne-Regular",
+      "fullName": "Joti One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JotiOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Joti'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-31"
+}

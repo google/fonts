@@ -1,0 +1,24 @@
+{
+  "name": "Carter One",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 40519,
+  "fonts": [
+    {
+      "name": "Carter One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CarterOne.ttf",
+      "postScriptName": "CarterOne",
+      "fullName": "Carter One",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Carter One'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-04"
+}

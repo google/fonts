@@ -1,0 +1,25 @@
+{
+  "name": "Audiowide",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 33690,
+  "fonts": [
+    {
+      "name": "Audiowide",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Audiowide-Regular.ttf",
+      "postScriptName": "Audiowide-Regular",
+      "fullName": "Audiowide",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Audiowide\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-04-04"
+}

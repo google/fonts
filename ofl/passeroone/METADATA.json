@@ -1,0 +1,25 @@
+{
+  "name": "Passero One",
+  "designer": "Viktoriya Grabowska",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19856,
+  "fonts": [
+    {
+      "name": "Passero One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PasseroOne-Regular.ttf",
+      "postScriptName": "PasseroOne-Regular",
+      "fullName": "Passero One",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Passero\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-08-31"
+}

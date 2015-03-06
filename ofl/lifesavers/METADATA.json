@@ -1,0 +1,43 @@
+{
+  "name": "Life Savers",
+  "designer": "Impallari Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 69595,
+  "fonts": [
+    {
+      "name": "Life Savers",
+      "style": "normal",
+      "weight": 700,
+      "filename": "LifeSavers-Bold.ttf",
+      "postScriptName": "LifeSavers-Bold",
+      "fullName": "Life Savers Bold",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),\rCopyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), \rCopyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rwith Reserved Font Name Life Savers."
+    },
+    {
+      "name": "Life Savers",
+      "style": "normal",
+      "weight": 800,
+      "filename": "LifeSavers-ExtraBold.ttf",
+      "postScriptName": "LifeSavers-ExtraBold",
+      "fullName": "Life Savers ExtraBold",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),\nCopyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), \nCopyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com),\nwith Reserved Font Name Life Savers."
+    },
+    {
+      "name": "Life Savers",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LifeSavers-Regular.ttf",
+      "postScriptName": "LifeSavers-Regular",
+      "fullName": "Life Savers",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),\rCopyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), \rCopyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rwith Reserved Font Name Life Savers."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-08-13"
+}

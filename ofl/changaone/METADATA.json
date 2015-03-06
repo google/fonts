@@ -1,0 +1,33 @@
+{
+  "name": "Changa One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 13542,
+  "fonts": [
+    {
+      "name": "Changa One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ChangaOne-Regular.ttf",
+      "postScriptName": "ChangaOne",
+      "fullName": "Changa One",
+      "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Changa\""
+    },
+    {
+      "name": "Changa One",
+      "style": "italic",
+      "weight": 400,
+      "filename": "ChangaOne-Italic.ttf",
+      "postScriptName": "ChangaOne-Italic",
+      "fullName": "Changa One Italic",
+      "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Changa\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

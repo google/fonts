@@ -1,0 +1,25 @@
+{
+  "name": "Timmana",
+  "designer": "Appaji Ambarisha Darbha",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 372715,
+  "fonts": [
+    {
+      "name": "Timmana",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Timmana-Regular.ttf",
+      "postScriptName": "Timmana",
+      "fullName": "Timmana",
+      "copyright": "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011, Sergiy Tkachenko (www.4thfebruary.com.ua info@4thfebruary.com.ua), with Reserved Font Names 'Sansus', 'Webissimo'."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2015-01-12"
+}

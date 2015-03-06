@@ -1,0 +1,69 @@
+{
+  "name": "Quicksand",
+  "designer": "Andrew Paglinawan",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 13386,
+  "fonts": [
+    {
+      "name": "Quicksand",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Quicksand-Light.ttf",
+      "postScriptName": "Quicksand-Light",
+      "fullName": "Quicksand Light",
+      "copyright": "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+    },
+    {
+      "name": "Quicksand",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Quicksand-LightItalic.ttf",
+      "postScriptName": "Quicksand-LightItalic",
+      "fullName": "Quicksand Light Italic",
+      "copyright": "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+    },
+    {
+      "name": "Quicksand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Quicksand-Regular.ttf",
+      "postScriptName": "Quicksand-Regular",
+      "fullName": "Quicksand Regular",
+      "copyright": "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+    },
+    {
+      "name": "Quicksand",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Quicksand-Italic.ttf",
+      "postScriptName": "Quicksand-Italic",
+      "fullName": "Quicksand Italic",
+      "copyright": "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+    },
+    {
+      "name": "Quicksand",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Quicksand-Bold.ttf",
+      "postScriptName": "Quicksand-Bold",
+      "fullName": "Quicksand Bold",
+      "copyright": "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+    },
+    {
+      "name": "Quicksand",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Quicksand-BoldItalic.ttf",
+      "postScriptName": "Quicksand-BoldItalic",
+      "fullName": "Quicksand Bold Italic",
+      "copyright": "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-10-19"
+}

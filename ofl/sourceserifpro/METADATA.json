@@ -1,0 +1,43 @@
+{
+  "name": "Source Serif Pro",
+  "designer": "Frank Grießhammer",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 50608,
+  "fonts": [
+    {
+      "name": "Source Serif Pro",
+      "style": "normal",
+      "weight": 700,
+      "filename": "SourceSerifPro-Bold.ttf",
+      "postScriptName": "SourceSerifPro-Bold",
+      "fullName": "Source Serif Pro Bold",
+      "copyright": "Copyright 2014 Adobe Systems Incorporated. All Rights Reserved."
+    },
+    {
+      "name": "Source Serif Pro",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SourceSerifPro-Regular.ttf",
+      "postScriptName": "SourceSerifPro-Regular",
+      "fullName": "Source Serif Pro",
+      "copyright": "Copyright 2014 Adobe Systems Incorporated. All Rights Reserved."
+    },
+    {
+      "name": "Source Serif Pro",
+      "style": "normal",
+      "weight": 600,
+      "filename": "SourceSerifPro-Semibold.ttf",
+      "postScriptName": "SourceSerifPro-Semibold",
+      "fullName": "Source Serif Pro Semibold",
+      "copyright": "Copyright 2014 Adobe Systems Incorporated. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-05-30"
+}

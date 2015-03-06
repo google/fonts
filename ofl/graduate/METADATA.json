@@ -1,0 +1,25 @@
+{
+  "name": "Graduate",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 11170,
+  "fonts": [
+    {
+      "name": "Graduate",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Graduate-Regular.ttf",
+      "postScriptName": "Graduate-Regular",
+      "fullName": "Graduate",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Graduate\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

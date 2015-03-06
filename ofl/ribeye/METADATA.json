@@ -1,0 +1,25 @@
+{
+  "name": "Ribeye",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 44724,
+  "fonts": [
+    {
+      "name": "Ribeye",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ribeye-Regular.ttf",
+      "postScriptName": "Ribeye-Regular",
+      "fullName": "Ribeye",
+      "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Ribeye\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-23"
+}

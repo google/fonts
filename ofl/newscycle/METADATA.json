@@ -1,0 +1,34 @@
+{
+  "name": "News Cycle",
+  "designer": "Nathan Willis",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 52837,
+  "fonts": [
+    {
+      "name": "News Cycle",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NewsCycle-Regular.ttf",
+      "postScriptName": "NewsCycle-Regular",
+      "fullName": "News Cycle Regular",
+      "copyright": "Copyright (c) 2011, Nathan Willis (glyphography.com nwillis@glyphography.com), with Reserved Font Name \"News Cycle\""
+    },
+    {
+      "name": "News Cycle",
+      "style": "normal",
+      "weight": 700,
+      "filename": "NewsCycle-Bold.ttf",
+      "postScriptName": "NewsCycle-Bold",
+      "fullName": "News Cycle Bold",
+      "copyright": "Copyright (c) 2011, Nathan Willis (glyphography.com nwillis@glyphography.com), with Reserved Font Name \"News Cycle\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-04-27"
+}

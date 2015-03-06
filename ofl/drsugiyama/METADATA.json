@@ -1,0 +1,25 @@
+{
+  "name": "Dr Sugiyama",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 21575,
+  "fonts": [
+    {
+      "name": "Dr Sugiyama",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DrSugiyama-Regular.ttf",
+      "postScriptName": "DrSugiyama-Regular",
+      "fullName": "Dr Sugiyama Regular",
+      "copyright": "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Dr Sujiyama\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

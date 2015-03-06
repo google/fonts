@@ -1,0 +1,26 @@
+{
+  "name": "Marck Script",
+  "designer": "Denis Masharov",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 39169,
+  "fonts": [
+    {
+      "name": "Marck Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MarckScript-Regular.ttf",
+      "postScriptName": "MarckScript-Regular",
+      "fullName": "Marck Script",
+      "copyright": "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>, Marck Fogel, with Reserved Font Names \"Marck Script\"."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-10-12"
+}

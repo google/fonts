@@ -1,0 +1,24 @@
+{
+  "name": "Carrois Gothic",
+  "designer": "Ralph du Carrois",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 23045,
+  "fonts": [
+    {
+      "name": "Carrois Gothic",
+      "postScriptName": "CarroisGothic-Regular",
+      "fullName": "Carrois Gothic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CarroisGothic-Regular.ttf",
+      "copyright": "Copyright (c) 2011 by Ralph du Carrois (www.carrois.com post@carrois.com), with Reserved Font Name 'Carrois'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-09-30"
+}

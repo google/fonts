@@ -1,0 +1,25 @@
+{
+  "name": "Lustria",
+  "designer": "MADType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 18375,
+  "fonts": [
+    {
+      "name": "Lustria",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lustria-Regular.ttf",
+      "postScriptName": "Lustria-Regular",
+      "fullName": "Lustria",
+      "copyright": "Copyright (c) 2011, Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name Lustria"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-18"
+}

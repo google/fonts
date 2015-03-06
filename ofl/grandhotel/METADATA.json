@@ -1,0 +1,25 @@
+{
+  "name": "Grand Hotel",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 30641,
+  "fonts": [
+    {
+      "name": "Grand Hotel",
+      "postScriptName": "GrandHotel-Regular",
+      "fullName": "Grand Hotel",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GrandHotel-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Grand Hotel\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-30"
+}

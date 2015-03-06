@@ -1,0 +1,25 @@
+{
+  "name": "Euphoria Script",
+  "designer": "Sabrina Mariela Lopez",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 20795,
+  "fonts": [
+    {
+      "name": "Euphoria Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EuphoriaScript-Regular.ttf",
+      "postScriptName": "EuphoriaScript-Regular",
+      "fullName": "Euphoria Script",
+      "copyright": "Copyright (c) 2012 Sabrina Mariela Lopez (typesenses@live.com.ar), with Reserved Font Name \"Euphoria Script\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-08"
+}

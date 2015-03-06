@@ -1,0 +1,24 @@
+{
+  "name": "Cantora One",
+  "designer": "Impallari Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": "64188",
+  "dateAdded": "2012-07-30",
+  "fonts": [
+    {
+      "name": "Cantora One",
+      "postScriptName": "CantoraOne-Regular",
+      "fullName": "Cantora One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CantoraOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com) with Reserved Font Name Cantora."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Muli",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 32086,
+  "fonts": [
+    {
+      "name": "Muli",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Muli-Light.ttf",
+      "postScriptName": "Muli-Light",
+      "fullName": "Muli Light",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Muli'. All rights reserved."
+    },
+    {
+      "name": "Muli",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Muli-LightItalic.ttf",
+      "postScriptName": "Muli-LightItalic",
+      "fullName": "Muli Light Italic",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Muli'. All rights reserved."
+    },
+    {
+      "name": "Muli",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Muli-Regular.ttf",
+      "postScriptName": "Muli",
+      "fullName": "Muli",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Muli'. All rights reserved."
+    },
+    {
+      "name": "Muli",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Muli-Italic.ttf",
+      "postScriptName": "Muli-Italic",
+      "fullName": "Muli Italic",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Muli'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-25"
+}

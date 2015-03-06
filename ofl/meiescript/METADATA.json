@@ -1,0 +1,25 @@
+{
+  "name": "Meie Script",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 59912,
+  "fonts": [
+    {
+      "name": "Meie Script",
+      "postScriptName": "MeieScript-Regular",
+      "fullName": "Meie Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MeieScript-Regular.ttf",
+      "copyright": "Copyright (c) 2011, 2012 Johan Kallas (johankallas@gmail.com), Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name 'Meie Script'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-08-21"
+}

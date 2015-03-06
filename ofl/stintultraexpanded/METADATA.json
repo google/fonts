@@ -1,0 +1,25 @@
+{
+  "name": "Stint Ultra Expanded",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 23145,
+  "fonts": [
+    {
+      "name": "Stint Ultra Expanded",
+      "style": "normal",
+      "weight": 400,
+      "filename": "StintUltraExpanded-Regular.ttf",
+      "postScriptName": "StintUltraExpanded-Regular",
+      "fullName": "Stint Ultra Expanded",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Stint Ultra Expanded\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-15"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Phetsarath",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15159,
+  "fonts": [
+    {
+      "name": "Phetsarath",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Phetsarath-Regular.ttf",
+      "postScriptName": "Phetsarath-Regular",
+      "fullName": "Phetsarath Regular",
+      "copyright": "Copyright (c) 2010-2012, Ministry of Posts and Telecommunications, Laos (www.phetsarath.gov.la)"
+    },
+    {
+      "name": "Phetsarath",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Phetsarath-Bold.ttf",
+      "postScriptName": "Phetsarath-Bold",
+      "fullName": "Phetsarath Bold",
+      "copyright": "Copyright (c) 2010-2012, Ministry of Posts and Telecommunications, Laos (www.phetsarath.gov.la)"
+    }
+  ],
+  "subsets": [
+    "lao"
+  ],
+  "dateAdded": "2012-05-18"
+}

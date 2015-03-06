@@ -1,0 +1,54 @@
+{
+  "name": "Sarabun",
+  "designer": "Suppakit Chalermlarp",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 163859,
+  "fonts": [
+    {
+      "name": "Sarabun",
+      "postScriptName": "Sarabun-Bold",
+      "fullName": "Sarabun Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sarabun-Bold.ttf",
+      "copyright": "Copyright (c) 2010-2013 by Software Industry Promotion Agency (Public Organization) (SIPA). All rights reserved. Created by Suppakit CHALERMLARP."
+    },
+    {
+      "name": "Sarabun",
+      "postScriptName": "Sarabun-BoldItalic",
+      "fullName": "Sarabun Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Sarabun-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2010-2013 by Software Industry Promotion Agency (Public Organization) (SIPA). All rights reserved. Created by Suppakit CHALERMLARP."
+    },
+    {
+      "name": "Sarabun",
+      "postScriptName": "Sarabun-Italic",
+      "fullName": "Sarabun Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Sarabun-Italic.ttf",
+      "copyright": "Copyright (c) 2010-2013 by Software Industry Promotion Agency (Public Organization) (SIPA). All rights reserved. Created by Suppakit CHALERMLARP."
+    },
+    {
+      "name": "Sarabun",
+      "postScriptName": "Sarabun",
+      "fullName": "Sarabun",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sarabun-Regular.ttf",
+      "copyright": "Copyright (c) 2010-2013 by Software Industry Promotion Agency (Public Organization) (SIPA). All rights reserved. Created by Suppakit CHALERMLARP."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese",
+    "thai"
+  ],
+  "dateAdded": "2013-10-28"
+}

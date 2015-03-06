@@ -1,0 +1,25 @@
+{
+  "name": "Nosifer Caps",
+  "designer": "Typomondo",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Display",
+  "size": 22616,
+  "fonts": [
+    {
+      "name": "Nosifer Caps",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NosiferCaps-Regular.ttf",
+      "postScriptName": "NosiferCaps-Regular",
+      "fullName": "Nosifer Caps Regular",
+      "copyright": "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Nosifer\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-10-24"
+}

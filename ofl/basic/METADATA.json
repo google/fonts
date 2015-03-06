@@ -1,0 +1,25 @@
+{
+  "name": "Basic",
+  "designer": "Magnus Gaarde",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 19647,
+  "fonts": [
+    {
+      "name": "Basic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Basic-Regular.ttf",
+      "postScriptName": "Basic-Regular",
+      "fullName": "Basic Regular",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Basic\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-15"
+}

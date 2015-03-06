@@ -1,0 +1,51 @@
+{
+  "name": "Maven Pro",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 33149,
+  "fonts": [
+    {
+      "name": "Maven Pro",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MavenPro-Regular.ttf",
+      "postScriptName": "MavenProRegular",
+      "fullName": "Maven Pro Regular",
+      "copyright": "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
+    },
+    {
+      "name": "Maven Pro",
+      "style": "normal",
+      "weight": 500,
+      "filename": "MavenPro-Medium.ttf",
+      "postScriptName": "MavenProMedium",
+      "fullName": "Maven Pro Medium",
+      "copyright": "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
+    },
+    {
+      "name": "Maven Pro",
+      "style": "normal",
+      "weight": 700,
+      "filename": "MavenPro-Bold.ttf",
+      "postScriptName": "MavenProBold",
+      "fullName": "Maven Pro Bold",
+      "copyright": "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
+    },
+    {
+      "name": "Maven Pro",
+      "style": "normal",
+      "weight": 900,
+      "filename": "MavenPro-Black.ttf",
+      "postScriptName": "MavenProBlack",
+      "fullName": "Maven Pro Black",
+      "copyright": "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-25"
+}

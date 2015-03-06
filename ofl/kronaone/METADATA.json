@@ -1,0 +1,25 @@
+{
+  "name": "Krona One",
+  "designer": "Yvonne Schüttler",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 20960,
+  "fonts": [
+    {
+      "name": "Krona One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "KronaOne-Regular.ttf",
+      "postScriptName": "KronaOne-Regular",
+      "fullName": "Krona One",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Krona\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-22"
+}

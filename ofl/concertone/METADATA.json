@@ -1,0 +1,25 @@
+{
+  "name": "Concert One",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 34203,
+  "fonts": [
+    {
+      "name": "Concert One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ConcertOne-Regular.ttf",
+      "postScriptName": "ConcertOne-Regular",
+      "fullName": "Concert One",
+      "copyright": "Copyright (c) 2011, 2011 Johan Kallas (johankallas@gmail.com), Copyright (c) 2011, 2011 Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name Concert."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-23"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Capriola",
+  "designer": "Viktoriya Grabowska",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 47884,
+  "fonts": [
+    {
+      "name": "Capriola",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Capriola-Regular.ttf",
+      "postScriptName": "Capriola-Regular",
+      "fullName": "Capriola Regular",
+      "copyright": "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Capriola\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-07-10"
+}

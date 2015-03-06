@@ -1,0 +1,24 @@
+{
+  "name": "Adamina",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 57548,
+  "fonts": [
+    {
+      "name": "Adamina",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Adamina-Regular.ttf",
+      "postScriptName": "Adamina-Regular",
+      "fullName": "Adamina",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Adamina\" and \"Adamina Regular\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-09-07"
+}

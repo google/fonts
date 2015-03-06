@@ -1,0 +1,24 @@
+{
+  "name": "Trade Winds",
+  "designer": "Sideshow",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 47446,
+  "fonts": [
+    {
+      "name": "Trade Winds",
+      "style": "normal",
+      "weight": 400,
+      "filename": "TradeWinds-Regular.ttf",
+      "postScriptName": "TradeWinds",
+      "fullName": "Trade Winds",
+      "copyright": "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reserved Font Name \"Trade Winds\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

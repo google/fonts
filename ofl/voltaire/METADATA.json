@@ -1,0 +1,24 @@
+{
+  "name": "Voltaire",
+  "designer": "Yvonne Schüttler",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 14862,
+  "fonts": [
+    {
+      "name": "Voltaire",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Voltaire-Regular.ttf",
+      "postScriptName": "Voltaire",
+      "fullName": "Voltaire",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Voltaire\" and \"Voltaire One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-17"
+}

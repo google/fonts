@@ -1,0 +1,25 @@
+{
+  "name": "Bruno Ace",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 23868,
+  "fonts": [
+    {
+      "name": "Bruno Ace",
+      "postScriptName": "BrunoAce-Regular",
+      "fullName": "Bruno Ace",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BrunoAce-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Bruno Ace\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-16"
+}

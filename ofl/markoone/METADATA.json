@@ -1,0 +1,25 @@
+{
+  "name": "Marko One",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 21411,
+  "fonts": [
+    {
+      "name": "Marko One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MarkoOne-Regular.ttf",
+      "postScriptName": "MarkoOne-Regular",
+      "fullName": "Marko One",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Marko\" and \"Marko One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

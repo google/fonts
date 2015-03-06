@@ -1,0 +1,25 @@
+{
+  "name": "Milonga",
+  "designer": "Impallari Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 69301,
+  "fonts": [
+    {
+      "name": "Milonga",
+      "postScriptName": "Milonga-Regular",
+      "fullName": "Milonga",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Milonga-Regular.ttf",
+      "copyright": "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\rCopyright (c) 2011, Brenda Gallo (gbrenda1987@gmail.com),\rCopyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Milonga."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-30"
+}

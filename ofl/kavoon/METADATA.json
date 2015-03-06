@@ -1,0 +1,25 @@
+{
+  "name": "Kavoon",
+  "designer": "Viktoriya Grabowska",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 35360,
+  "fonts": [
+    {
+      "name": "Kavoon",
+      "postScriptName": "Kavoon-Regular",
+      "fullName": "Kavoon Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kavoon-Regular.ttf",
+      "copyright": "Copyright (c) 2011-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)\rwith Reserved Font Name 'Kavoon'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-01-23"
+}

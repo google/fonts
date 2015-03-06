@@ -1,0 +1,49 @@
+FONTLOG for the Bigelow Rules font
+
+This file provides detailed information on the Bigelow Rules Font Software.
+
+This information should be distributed along with the Bigelow Rules font
+and any derivative works.
+
+Basic Font Information
+
+The Bigelow Rules typeface is an odd hybrid from numerous inspirations.
+Imagine Times Roman feels the squeeze, marries a Didone, and gives birth
+to something with retro appeal and bounce with some eclectic glyph oddities 
+thrown in for spunk. That is Bigelow Rules.
+
+Designed by Astigmatic (AOETI).
+
+Bigelow Rules is a Unicode typeface that supports languages that use the 
+Latin script and its variants, and could be expanded to support other
+scripts.
+
+More specifically, this release supports the following
+Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic
+
+There are 3 source files:
+
+1. BigelowRules-Regular.vfb Original Source files with contour overlaps
+
+2. BigelowRules-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. BigelowRules-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
+To contribute to the project contact Brian J. Bonislawsky
+at astigma@astigmatic.com
+
+ChangeLog
+
+1 Nov 2012 (Brian J. Bonislawsky) Bigelow Rules v1.001
+- Initial release
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Brian J. Bonislawsky
+E: astigma@astigmatic.com
+W: www.astigmatic.com
+D: Typeface and Software Designer

@@ -1,0 +1,52 @@
+{
+  "name": "Almendra",
+  "designer": "Ana Sanfelippo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 28761,
+  "fonts": [
+    {
+      "name": "Almendra",
+      "postScriptName": "Almendra-Bold",
+      "fullName": "Almendra Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Almendra-Bold.ttf",
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    },
+    {
+      "name": "Almendra",
+      "postScriptName": "Almendra-BoldItalic",
+      "fullName": "Almendra Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Almendra-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    },
+    {
+      "name": "Almendra",
+      "postScriptName": "Almendra-Italic",
+      "fullName": "Almendra Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Almendra-Italic.ttf",
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    },
+    {
+      "name": "Almendra",
+      "postScriptName": "Almendra-Regular",
+      "fullName": "Almendra",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Almendra-Regular.ttf",
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

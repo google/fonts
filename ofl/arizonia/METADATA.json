@@ -1,0 +1,25 @@
+{
+  "name": "Arizonia",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 26897,
+  "fonts": [
+    {
+      "name": "Arizonia",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Arizonia-Regular.ttf",
+      "postScriptName": "Arizonia-Regular",
+      "fullName": "Arizonia",
+      "copyright": "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Arizonia\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

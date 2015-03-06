@@ -1,0 +1,62 @@
+{
+  "name": "Khula",
+  "designer": "Erin McLaughlin",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 73783,
+  "fonts": [
+    {
+      "name": "Khula",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Khula-Bold.ttf",
+      "postScriptName": "Khula-Bold",
+      "fullName": "Khula Bold",
+      "copyright": "Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized data copyright 2010, Google Corporation."
+    },
+    {
+      "name": "Khula",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Khula-ExtraBold.ttf",
+      "postScriptName": "Khula-ExtraBold",
+      "fullName": "Khula ExtraBold",
+      "copyright": "Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized data copyright 2010, Google Corporation."
+    },
+    {
+      "name": "Khula",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Khula-Light.ttf",
+      "postScriptName": "Khula-Light",
+      "fullName": "Khula Light",
+      "copyright": "Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized data copyright 2010, Google Corporation."
+    },
+    {
+      "name": "Khula",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Khula-Regular.ttf",
+      "postScriptName": "Khula-Regular",
+      "fullName": "Khula",
+      "copyright": "Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized data copyright 2010, Google Corporation."
+    },
+    {
+      "name": "Khula",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Khula-SemiBold.ttf",
+      "postScriptName": "Khula-Semibold",
+      "fullName": "Khula Semibold",
+      "copyright": "Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized data copyright 2010, Google Corporation."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-01-28"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Berkshire Swash",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 29257,
+  "fonts": [
+    {
+      "name": "Berkshire Swash",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BerkshireSwash-Regular.ttf",
+      "postScriptName": "BerkshireSwash-Regular",
+      "fullName": "Berkshire Swash",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Berkshire Swash\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

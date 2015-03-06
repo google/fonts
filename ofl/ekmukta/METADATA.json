@@ -1,0 +1,80 @@
+{
+  "name": "Ek Mukta",
+  "designer": "Ek Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 441798,
+  "fonts": [
+    {
+      "name": "Ek Mukta",
+      "style": "normal",
+      "weight": 700,
+      "filename": "EkMukta-Bold.ttf",
+      "postScriptName": "EkMukta-Bold",
+      "fullName": "Ek Mukta Bold",
+      "copyright": "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
+    },
+    {
+      "name": "Ek Mukta",
+      "style": "normal",
+      "weight": 800,
+      "filename": "EkMukta-ExtraBold.ttf",
+      "postScriptName": "EkMukta-ExtraBold",
+      "fullName": "Ek Mukta ExtraBold",
+      "copyright": "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
+    },
+    {
+      "name": "Ek Mukta",
+      "style": "normal",
+      "weight": 200,
+      "filename": "EkMukta-ExtraLight.ttf",
+      "postScriptName": "EkMukta-ExtraLight",
+      "fullName": "Ek Mukta ExtraLight",
+      "copyright": "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
+    },
+    {
+      "name": "Ek Mukta",
+      "style": "normal",
+      "weight": 300,
+      "filename": "EkMukta-Light.ttf",
+      "postScriptName": "EkMukta-Light",
+      "fullName": "Ek Mukta Light",
+      "copyright": "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
+    },
+    {
+      "name": "Ek Mukta",
+      "style": "normal",
+      "weight": 500,
+      "filename": "EkMukta-Medium.ttf",
+      "postScriptName": "EkMukta-Medium",
+      "fullName": "Ek Mukta Medium",
+      "copyright": "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
+    },
+    {
+      "name": "Ek Mukta",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EkMukta-Regular.ttf",
+      "postScriptName": "EkMukta-Regular",
+      "fullName": "Ek Mukta",
+      "copyright": "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
+    },
+    {
+      "name": "Ek Mukta",
+      "style": "normal",
+      "weight": 600,
+      "filename": "EkMukta-SemiBold.ttf",
+      "postScriptName": "EkMukta-SemiBold",
+      "fullName": "Ek Mukta SemiBold",
+      "copyright": "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "menu",
+    "latin",
+    "latin-ext",
+    "devanagari"
+  ],
+  "dateAdded": "2014-05-12"
+}

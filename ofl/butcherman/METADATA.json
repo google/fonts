@@ -1,0 +1,25 @@
+{
+  "name": "Butcherman",
+  "designer": "Typomondo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 44518,
+  "fonts": [
+    {
+      "name": "Butcherman",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Butcherman-Regular.ttf",
+      "postScriptName": "Butcherman-Regular",
+      "fullName": "Butcherman",
+      "copyright": "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Butcherman\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

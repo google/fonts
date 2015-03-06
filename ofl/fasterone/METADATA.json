@@ -1,0 +1,24 @@
+{
+  "name": "Faster One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 20657,
+  "fonts": [
+    {
+      "name": "Faster One",
+      "postScriptName": "FasterOne-Regular",
+      "fullName": "Faster One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FasterOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Faster'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-10-26"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Cabin Sketch",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 103529,
+  "fonts": [
+    {
+      "name": "Cabin Sketch",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CabinSketch-Regular.ttf",
+      "postScriptName": "CabinSketch-Regular",
+      "fullName": "Cabin Sketch Regular",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    },
+    {
+      "name": "Cabin Sketch",
+      "style": "normal",
+      "weight": 700,
+      "filename": "CabinSketch-Bold.ttf",
+      "postScriptName": "CabinSketch-Bold",
+      "fullName": "CabinSketch Bold",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-03-16"
+}

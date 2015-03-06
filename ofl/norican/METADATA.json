@@ -1,0 +1,25 @@
+{
+  "name": "Norican",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 27728,
+  "fonts": [
+    {
+      "name": "Norican",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Norican-Regular.ttf",
+      "postScriptName": "Norican-Regular",
+      "fullName": "Norican Regular",
+      "copyright": "Copyright (c) 2011 by vernon adams (www.newtypography.co.uk vern@newtypography.co.uk), with Reserved Font Names \"Norican\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-08"
+}

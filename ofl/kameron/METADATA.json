@@ -1,0 +1,33 @@
+{
+  "name": "Kameron",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 41226,
+  "fonts": [
+    {
+      "name": "Kameron",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kameron-Regular.ttf",
+      "postScriptName": "Kameron",
+      "fullName": "Kameron",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Kameron'. All rights reserved."
+    },
+    {
+      "name": "Kameron",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Kameron-Bold.ttf",
+      "postScriptName": "Kameron-Bold",
+      "fullName": "Kameron Bold",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Kameron'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-06-08"
+}

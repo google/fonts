@@ -1,0 +1,24 @@
+{
+  "name": "Homemade Apple",
+  "designer": "Font Diner",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 64219,
+  "fonts": [
+    {
+      "name": "Homemade Apple",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HomemadeApple.ttf",
+      "postScriptName": "HomemadeApple",
+      "fullName": "Homemade Apple",
+      "copyright": "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-01-06"
+}

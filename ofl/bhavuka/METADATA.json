@@ -1,0 +1,26 @@
+{
+  "name": "Bhavuka",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 122101,
+  "fonts": [
+    {
+      "name": "Bhavuka",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bhavuka-Regular.ttf",
+      "postScriptName": "Bhavuka-Regular",
+      "fullName": "Bhavuka Regular",
+      "copyright": "Copyright 2014 - Matt Heximer (www.10fourdesign.com)\nbased on Latin \"Bellota\" by Kemie Guaida (www.pixilate.com), \nwhich is in turn based on \"Snippet\" by Gesine Todt.\n\nLicensed under the SIL Open Font License 1.1 This license is available with a FAQ at: http://scripts.sil.org/OFL\n(see file OFL.txt)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-10-31"
+}

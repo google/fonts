@@ -1,0 +1,26 @@
+{
+  "name": "Gabriela",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 18144,
+  "fonts": [
+    {
+      "name": "Gabriela",
+      "postScriptName": "Gabriela-Regular",
+      "fullName": "Gabriela",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Gabriela-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Gabriela'"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-03-06"
+}

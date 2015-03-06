@@ -1,0 +1,43 @@
+{
+  "name": "BenchNine",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 32489,
+  "fonts": [
+    {
+      "name": "BenchNine",
+      "postScriptName": "BenchNine-Bold",
+      "fullName": "BenchNine Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "BenchNine-Bold.ttf",
+      "copyright": "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name 'BenchNine'"
+    },
+    {
+      "name": "BenchNine",
+      "postScriptName": "BenchNine-Light",
+      "fullName": "BenchNine Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "BenchNine-Light.ttf",
+      "copyright": "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name 'BenchNine'"
+    },
+    {
+      "name": "BenchNine",
+      "postScriptName": "BenchNine-Regular",
+      "fullName": "BenchNine Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BenchNine-Regular.ttf",
+      "copyright": "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name 'BenchNine'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-24"
+}

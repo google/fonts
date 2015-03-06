@@ -1,0 +1,70 @@
+{
+  "name": "Overlock",
+  "designer": "Dario Manuel Muhafara",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 25546,
+  "fonts": [
+    {
+      "name": "Overlock",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Overlock-Regular.ttf",
+      "postScriptName": "Overlock-Regular",
+      "fullName": "Overlock",
+      "copyright": "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Overlock\"."
+    },
+    {
+      "name": "Overlock",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Overlock-Italic.ttf",
+      "postScriptName": "Overlock-Italic",
+      "fullName": "Overlock-Italic",
+      "copyright": "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Overlock\"."
+    },
+    {
+      "name": "Overlock",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Overlock-Bold.ttf",
+      "postScriptName": "Overlock-Bold",
+      "fullName": "Overlock-Bold",
+      "copyright": "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Overlock\"."
+    },
+    {
+      "name": "Overlock",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Overlock-BoldItalic.ttf",
+      "postScriptName": "Overlock-BoldItalic",
+      "fullName": "Overlock-BoldItalic",
+      "copyright": "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Overlock\"."
+    },
+    {
+      "name": "Overlock",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Overlock-Black.ttf",
+      "postScriptName": "Overlock-Black",
+      "fullName": "Overlock-Black",
+      "copyright": "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Overlock\"."
+    },
+    {
+      "name": "Overlock",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Overlock-BlackItalic.ttf",
+      "postScriptName": "Overlock-BlackItalic",
+      "fullName": "Overlock-BlackItalic",
+      "copyright": "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Overlock\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

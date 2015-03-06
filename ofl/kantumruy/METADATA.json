@@ -1,0 +1,42 @@
+{
+  "name": "Kantumruy",
+  "designer": "Tep Sovichet",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 48446,
+  "fonts": [
+    {
+      "name": "Kantumruy",
+      "postScriptName": "Kantumruy-Bold",
+      "fullName": "Kantumruy Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Kantumruy-Bold.ttf",
+      "copyright": "Copyright (c) 2013, Tep Sovichet (it4ug.net sovichet.tep@gmail.com), with Reserved Font Name 'Kantumruy'"
+    },
+    {
+      "name": "Kantumruy",
+      "postScriptName": "KantumruyLight",
+      "fullName": "Kantumruy Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Kantumruy-Light.ttf",
+      "copyright": "Copyright (c) 2013, Tep Sovichet (it4ug.net sovichet.tep@gmail.com), with Reserved Font Name 'Kantumruy'"
+    },
+    {
+      "name": "Kantumruy",
+      "postScriptName": "Kantumruy",
+      "fullName": "Kantumruy",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kantumruy-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Tep Sovichet (it4ug.net sovichet.tep@gmail.com), with Reserved Font Name 'Kantumruy'"
+    }
+  ],
+  "subsets": [
+    "khmer",
+    "menu"
+  ],
+  "dateAdded": "2013-06-24"
+}

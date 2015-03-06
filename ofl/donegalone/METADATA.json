@@ -1,0 +1,25 @@
+{
+  "name": "Donegal One",
+  "designer": "Gary Lonergan",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 34745,
+  "fonts": [
+    {
+      "name": "Donegal One",
+      "postScriptName": "DonegalOne-Regular",
+      "fullName": "Donegal One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DonegalOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Donegal'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-26"
+}

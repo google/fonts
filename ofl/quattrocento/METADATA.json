@@ -1,0 +1,34 @@
+{
+  "name": "Quattrocento",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 57181,
+  "fonts": [
+    {
+      "name": "Quattrocento",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Quattrocento-Regular.ttf",
+      "postScriptName": "Quattrocento",
+      "fullName": "Quattrocento",
+      "copyright": "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com), Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com), with Reserved Font Name Quattrocento."
+    },
+    {
+      "name": "Quattrocento",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Quattrocento-Bold.ttf",
+      "postScriptName": "Quattrocento-Bold",
+      "fullName": "Quattrocento Bold",
+      "copyright": "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com), Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com), with Reserved Font Name Quattrocento."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-20"
+}

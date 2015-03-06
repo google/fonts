@@ -1,0 +1,24 @@
+{
+  "name": "jsMath cmsy10",
+  "designer": "Donald Knuth",
+  "license": "Apache2",
+  "visibility": "Internal",
+  "category": "Serif",
+  "size": 25168,
+  "fonts": [
+    {
+      "name": "jsMath cmsy10",
+      "style": "normal",
+      "weight": 400,
+      "filename": "jsMath-cmsy10.ttf",
+      "postScriptName": "jsMath-cmsy10",
+      "fullName": "jsMath-cmsy10",
+      "copyright": "Generated from MetaFont bitmap by mftrace 1.0.33, http://www.cs.uu.nl/~hanwen/mftrace/"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-20"
+}

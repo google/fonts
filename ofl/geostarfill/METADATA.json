@@ -1,0 +1,24 @@
+{
+  "name": "Geostar Fill",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 20292,
+  "fonts": [
+    {
+      "name": "Geostar Fill",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GeostarFill-Regular.ttf",
+      "postScriptName": "GeostarFill-Regular",
+      "fullName": "Geostar Fill",
+      "copyright": "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Geostar."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-10"
+}

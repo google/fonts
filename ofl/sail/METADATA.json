@@ -1,0 +1,25 @@
+{
+  "name": "Sail",
+  "designer": "LatinoType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19168,
+  "fonts": [
+    {
+      "name": "Sail",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sail-Regular.ttf",
+      "postScriptName": "Sail-Regular",
+      "fullName": "Sail",
+      "copyright": "Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), with Reserved Font Names \"Sail\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Mate SC",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15619,
+  "fonts": [
+    {
+      "name": "Mate SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MateSC-Regular.ttf",
+      "postScriptName": "MateSC-Regular",
+      "fullName": "Mate SC Regular",
+      "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Mate\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-02"
+}

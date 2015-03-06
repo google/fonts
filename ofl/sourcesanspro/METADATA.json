@@ -1,0 +1,125 @@
+{
+  "name": "Source Sans Pro",
+  "designer": "Paul D. Hunt",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": "55467",
+  "fonts": [
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-Black",
+      "fullName": "Source Sans Pro Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "SourceSansPro-Black.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-BlackIt",
+      "fullName": "Source Sans Pro Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "SourceSansPro-BlackItalic.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-Bold",
+      "fullName": "Source Sans Pro Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "SourceSansPro-Bold.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-BoldIt",
+      "fullName": "Source Sans Pro Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "SourceSansPro-BoldItalic.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-ExtraLight",
+      "fullName": "Source Sans Pro ExtraLight",
+      "style": "normal",
+      "weight": 200,
+      "filename": "SourceSansPro-ExtraLight.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-ExtraLightIt",
+      "fullName": "Source Sans Pro ExtraLight Italic",
+      "style": "italic",
+      "weight": 200,
+      "filename": "SourceSansPro-ExtraLightItalic.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-It",
+      "fullName": "Source Sans Pro Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "SourceSansPro-Italic.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-Light",
+      "fullName": "Source Sans Pro Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "SourceSansPro-Light.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-LightIt",
+      "fullName": "Source Sans Pro Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "SourceSansPro-LightItalic.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-Regular",
+      "fullName": "Source Sans Pro",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SourceSansPro-Regular.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-Semibold",
+      "fullName": "Source Sans Pro Semibold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "SourceSansPro-Semibold.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Sans Pro",
+      "postScriptName": "SourceSansPro-SemiboldIt",
+      "fullName": "Source Sans Pro Semibold Italic",
+      "style": "italic",
+      "weight": 600,
+      "filename": "SourceSansPro-SemiboldItalic.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2012-07-31"
+}

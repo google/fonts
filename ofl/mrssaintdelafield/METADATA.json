@@ -1,0 +1,25 @@
+{
+  "name": "Mrs Saint Delafield",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 26511,
+  "fonts": [
+    {
+      "name": "Mrs Saint Delafield",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MrsSaintDelafield-Regular.ttf",
+      "postScriptName": "MrsSaintDelafield-Regular",
+      "fullName": "Mrs Saint Delafield",
+      "copyright": "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mrs Saint Delafield\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-11"
+}

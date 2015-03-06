@@ -1,0 +1,33 @@
+{
+  "name": "Fanwood Text",
+  "designer": "Barry Schwartz",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 63489,
+  "fonts": [
+    {
+      "name": "Fanwood Text",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FanwoodText-Regular.ttf",
+      "postScriptName": "FanwoodText-Regular",
+      "fullName": "Fanwood Text",
+      "copyright": "Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)"
+    },
+    {
+      "name": "Fanwood Text",
+      "style": "italic",
+      "weight": 400,
+      "filename": "FanwoodText-Italic.ttf",
+      "postScriptName": "FanwoodText-Italic",
+      "fullName": "Fanwood Text Italic",
+      "copyright": "Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-31"
+}

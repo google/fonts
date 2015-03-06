@@ -1,0 +1,24 @@
+{
+  "name": "Aubrey",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 55571,
+  "fonts": [
+    {
+      "name": "Aubrey",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Aubrey-Regular.ttf",
+      "postScriptName": "Aubrey-Regular",
+      "fullName": "Aubrey",
+      "copyright": "Copyright (c) 2011 by Gayaneh Bagdasaryan | Cyreal.org (a@cyreal.org). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-27"
+}

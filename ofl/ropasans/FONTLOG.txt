@@ -1,0 +1,70 @@
+FONTLOG for the Ropa Sans font
+
+This file provides detailed information on the Ropa Sans
+font Software.
+
+This information should be distributed along with the 
+Ropa Sans fonts and any derivative works.
+
+Basic Font Information
+
+Ropa Sans was first designed as a homage to DIN and 
+became a unique typeface during the work process.
+
+The step to a remarkable Italic with its extreme ink-traps 
+caused a hard change of nearly all shapes of the first 
+slices of Roman. This process is still running and the Ropa
+family will grow, for sure. Soon more at carrois.com
+
+Ropa Sans was designed by Botio Nikoltchev
+
+Ropa Sans is a Unicode typeface that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+To contribute to the project contact Botio Nikoltchev at 
+post@carrois.com
+
+There are six .VFB Source files:
+
+1. RopaSans-Regular.vfb (Original Source file with contour overlaps)
+
+2. RopsSans-Regular-OTF.vfb (Merged contours and optimized file 
+                         corresponding to the OTF file)
+
+3. RopaSans-Regular-TTF.vfb (TrueType outlines with hinting 
+                         adjustments corresponding to the TTF file)
+
+4. RopaSans-Italic.vfb (Original Source file with contour overlaps)
+
+5. RopsSans-Italic-OTF.vfb (Merged contours and optimized file 
+                         corresponding to the OTF file)
+
+6. RopaSans-Italic-TTF.vfb (TrueType outlines with hinting 
+                         adjustments corresponding to the TTF file)
+
+ChangeLog
+
+10 December 2011 (Botio Nikoltchev) Ropa Sans v. 1.001
+- Completed initial design in VBF format, Latin-1 encoding
+
+15 December 2011 (Andreas Eigendorf) Ropa Sans v. 1.002
+- Completed mastering for initial release, Latin-1 encoding
+
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Botio Nikoltchev
+E: post@carrois.com
+W: www.carrois.com
+D: Design
+
+N: Andreas Eigendorf
+E: mail@e-font.de
+W: www.e-font.de
+D: Mastering

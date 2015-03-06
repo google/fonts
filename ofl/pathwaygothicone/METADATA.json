@@ -1,0 +1,25 @@
+{
+  "name": "Pathway Gothic One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 14386,
+  "fonts": [
+    {
+      "name": "Pathway Gothic One",
+      "postScriptName": "PathwayGothicOne-Regular",
+      "fullName": "Pathway Gothic One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PathwayGothicOne-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Pathway'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-06-05"
+}

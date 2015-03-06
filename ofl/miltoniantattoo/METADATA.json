@@ -1,0 +1,24 @@
+{
+  "name": "Miltonian Tattoo",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 100886,
+  "fonts": [
+    {
+      "name": "Miltonian Tattoo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MiltonianTattoo-Regular.ttf",
+      "postScriptName": "MiltonianTattoo",
+      "fullName": "Miltonian Tattoo",
+      "copyright": "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-04-06"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Hanalei Fill",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 38904,
+  "fonts": [
+    {
+      "name": "Hanalei Fill",
+      "postScriptName": "HanaleiFill-Regular",
+      "fullName": "Hanalei Fill",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HanaleiFill-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Hanalei Fill\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-26"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Bonbon",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 43621,
+  "fonts": [
+    {
+      "name": "Bonbon",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bonbon-Regular.ttf",
+      "postScriptName": "Bonbon-Regular",
+      "fullName": "Bonbon",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Bonbon\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-12-07"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Butterfly Kids",
+  "designer": "Tart Workshop",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 98240,
+  "fonts": [
+    {
+      "name": "Butterfly Kids",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ButterflyKids-Regular.ttf",
+      "postScriptName": "ButterflyKids",
+      "fullName": "Butterfly Kids",
+      "copyright": "Copyright (c) 2012 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reseved Font Name \"Butterfly Kids\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-15"
+}

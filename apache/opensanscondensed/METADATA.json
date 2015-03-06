@@ -1,0 +1,48 @@
+{
+  "name": "Open Sans Condensed",
+  "designer": "Steve Matteson",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 122270,
+  "fonts": [
+    {
+      "name": "Open Sans Condensed",
+      "style": "normal",
+      "weight": 300,
+      "filename": "OpenSans-CondLight.ttf",
+      "postScriptName": "OpenSans-CondensedLight",
+      "fullName": "Open Sans Cond Light",
+      "copyright": "Digitized data copyright © 2011, Google Corporation."
+    },
+    {
+      "name": "Open Sans Condensed",
+      "style": "italic",
+      "weight": 300,
+      "filename": "OpenSans-CondLightItalic.ttf",
+      "postScriptName": "OpenSans-CondensedLightItalic",
+      "fullName": "Open Sans Cond Light Italic",
+      "copyright": "Digitized data copyright © 2010-2011, Google Corporation."
+    },
+    {
+      "name": "Open Sans Condensed",
+      "style": "normal",
+      "weight": 700,
+      "filename": "OpenSans-CondBold.ttf",
+      "postScriptName": "OpenSans-CondensedBold",
+      "fullName": "Open Sans Condensed Bold",
+      "copyright": "Digitized data copyright © 2010-2011, Google Corporation."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2011-05-09"
+}

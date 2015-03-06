@@ -1,0 +1,25 @@
+{
+  "name": "Patua One",
+  "designer": "LatinoType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19690,
+  "fonts": [
+    {
+      "name": "Patua One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PatuaOne-Regular.ttf",
+      "postScriptName": "PatuaOne-Regular",
+      "fullName": "Patua One",
+      "copyright": "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Patua\" and \"Patua One\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

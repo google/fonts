@@ -1,0 +1,26 @@
+{
+  "name": "Ledger",
+  "designer": "Denis Masharov",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 28643,
+  "fonts": [
+    {
+      "name": "Ledger",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ledger-Regular.ttf",
+      "postScriptName": "Ledger-Regular",
+      "fullName": "Ledger",
+      "copyright": "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-22"
+}

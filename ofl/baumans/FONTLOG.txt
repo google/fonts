@@ -1,0 +1,67 @@
+FONTLOG for the Baumans font
+
+This file provides detailed information on the Baumans 
+font Software.
+
+This information should be distributed along with the 
+Baumans fonts and any derivative works.
+
+Basic Font Information
+
+Baumans is a geometric typeface for headlines.
+Its letterforms are inspired by Bauhaus typefaces
+and preconstructivist forms.
+
+The concept of the typeface fits with
+Moholy-Nagy's typography statement that type
+must be clear, legible, and communicate its message.
+
+The main distinctive features are the 
+sharp corners in MVW, curved Z and unicase-like N.
+Contrast is monolinear and proportions are balanced.
+
+Baumans is suitable for medium to large sizes and optimized for screen.
+
+Designed by Henadij Zarechnjuk.
+
+Baumans is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a@cyreal.org
+
+Source files:
+
+1. Baumans-Regular.vfb (Original Source files with contour 
+   overlaps and components)
+2. Baumans-Regular-OTF.vfb (Decomposed, merged 
+   and optimized file)
+3. Baumans-Regular-TTF.vbf (Mastered TTF file with manual hints)
+
+ChangeLog
+
+21 November 2011 (Alexei Vanyashin) Baumans v. 1.001
+— Made spacing adjustments and tweeked shapes
+- Changed E glyph and adjusted figures
+— Mastered .vbf file from PS to TT contours.
+
+15 November 2011 (Henadij Zarechnjuk) Baumans v1.000
+- Initial release in Fontlab ( VBF format )
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Henadij Zarechnjuk
+E: henadij.zarechnjuk@gmail.com
+W: www.fonts.org.ua
+D: Original Design Concept
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+W: www.cyreal.org
+D: Spacing and Mastering

@@ -1,0 +1,43 @@
+{
+  "name": "Bitter",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 45850,
+  "fonts": [
+    {
+      "name": "Bitter",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bitter-Regular.ttf",
+      "postScriptName": "Bitter-Regular",
+      "fullName": "Bitter-Regular",
+      "copyright": "Copyright (c) 2011, Sol Matas (www.huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Name \"Bitter\""
+    },
+    {
+      "name": "Bitter",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Bitter-Italic.ttf",
+      "postScriptName": "Bitter-Italic",
+      "fullName": "Bitter-Italic",
+      "copyright": "Copyright (c) 2011, Sol Matas (www.huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Name \"Bitter\""
+    },
+    {
+      "name": "Bitter",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Bitter-Bold.ttf",
+      "postScriptName": "Bitter-Bold",
+      "fullName": "Bitter-Bold",
+      "copyright": "Copyright (c) 2011, Sol Matas (www.huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Name \"Bitter\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

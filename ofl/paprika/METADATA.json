@@ -1,0 +1,24 @@
+{
+  "name": "Paprika",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 22305,
+  "fonts": [
+    {
+      "name": "Paprika",
+      "postScriptName": "Paprika-Regular",
+      "fullName": "Paprika",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Paprika-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Paprika'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-10-26"
+}

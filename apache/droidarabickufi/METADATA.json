@@ -1,0 +1,33 @@
+{
+  "name": "Droid Arabic Kufi",
+  "designer": "Pascal Zoghbi",
+  "license": "Apache2",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 41542,
+  "fonts": [
+    {
+      "name": "Droid Arabic Kufi",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DroidKufi-Regular.ttf",
+      "postScriptName": "DroidArabicKufi",
+      "fullName": "Droid Arabic Kufi",
+      "copyright": "Digitized data copyright © 2010, Google Corporation."
+    },
+    {
+      "name": "Droid Arabic Kufi",
+      "style": "normal",
+      "weight": 700,
+      "filename": "DroidKufi-Bold.ttf",
+      "postScriptName": "DroidArabicKufi-Bold",
+      "fullName": "Droid Arabic Kufi Bold",
+      "copyright": "Digitized data copyright © 2010, Google Corporation."
+    }
+  ],
+  "subsets": [
+    "arabic",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

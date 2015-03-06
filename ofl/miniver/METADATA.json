@@ -1,0 +1,24 @@
+{
+  "name": "Miniver",
+  "designer": "Open Window",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 29283,
+  "fonts": [
+    {
+      "name": "Miniver",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Miniver-Regular.ttf",
+      "postScriptName": "Miniver",
+      "fullName": "Miniver",
+      "copyright": "Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Miniver\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

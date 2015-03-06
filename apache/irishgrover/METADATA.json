@@ -1,0 +1,24 @@
+{
+  "name": "Irish Grover",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 30520,
+  "fonts": [
+    {
+      "name": "Irish Grover",
+      "style": "normal",
+      "weight": 400,
+      "filename": "IrishGrover.ttf",
+      "postScriptName": "IrishGrover",
+      "fullName": "Irish Grover",
+      "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-03-16"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Titillium Web",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 32568,
+  "fonts": [
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-Black",
+      "fullName": "Titillium WebBlack",
+      "style": "normal",
+      "weight": 900,
+      "filename": "TitilliumWeb-Black.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-Bold",
+      "fullName": "Titillium WebBold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "TitilliumWeb-Bold.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-BoldItalic",
+      "fullName": "Titillium WebBold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "TitilliumWeb-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-Thin",
+      "fullName": "Titillium WebThin",
+      "style": "normal",
+      "weight": 200,
+      "filename": "TitilliumWeb-ExtraLight.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-ThinItalic",
+      "fullName": "Titillium WebThin Italic",
+      "style": "italic",
+      "weight": 200,
+      "filename": "TitilliumWeb-ExtraLightItalic.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-Italic",
+      "fullName": "Titillium WebItalic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "TitilliumWeb-Italic.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-Light",
+      "fullName": "Titillium WebLight",
+      "style": "normal",
+      "weight": 300,
+      "filename": "TitilliumWeb-Light.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-LightItalic",
+      "fullName": "Titillium WebLight Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "TitilliumWeb-LightItalic.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-Regular",
+      "fullName": "Titillium Web",
+      "style": "normal",
+      "weight": 400,
+      "filename": "TitilliumWeb-Regular.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-SemiBold",
+      "fullName": "Titillium WebSemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "TitilliumWeb-SemiBold.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    },
+    {
+      "name": "Titillium Web",
+      "postScriptName": "TitilliumWeb-SemiBoldItalic",
+      "fullName": "Titillium WebSemiBold Italic",
+      "style": "italic",
+      "weight": 600,
+      "filename": "TitilliumWeb-SemiBoldItalic.ttf",
+      "copyright": "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-01"
+}

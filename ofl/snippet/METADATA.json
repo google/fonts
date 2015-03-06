@@ -1,0 +1,24 @@
+{
+  "name": "Snippet",
+  "designer": "Gesine Todt",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 19466,
+  "fonts": [
+    {
+      "name": "Snippet",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Snippet.ttf",
+      "postScriptName": "Snippet",
+      "fullName": "Snippet",
+      "copyright": "Copyright (c) 2011 Gesine Todt (www.gesine-todt.de hallo@gesine-todt.de), with Reserved Font Name \"Snippet\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-20"
+}

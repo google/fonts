@@ -1,0 +1,26 @@
+{
+  "name": "Prosto One",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 49033,
+  "fonts": [
+    {
+      "name": "Prosto One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ProstoOne-Regular.ttf",
+      "postScriptName": "ProstoOne-Regular",
+      "fullName": "Prosto One",
+      "copyright": "Copyright (c) 2012, Jovanny Lemonad (http://www.jovanny.ru), Copyright (c) 2012, Pavel Emelyanov (zakachka2006@mail.ru), with Reserved Font Name \"Prosto\" and \"Prosto One\"."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-29"
+}

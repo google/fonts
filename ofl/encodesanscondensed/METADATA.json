@@ -1,0 +1,97 @@
+{
+  "name": "Encode Sans Condensed",
+  "designer": "Impallari Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 89040,
+  "fonts": [
+    {
+      "name": "Encode Sans Condensed",
+      "style": "normal",
+      "weight": 900,
+      "filename": "EncodeSansCondensed-Black.ttf",
+      "postScriptName": "EncodeSansCondensed-Black",
+      "fullName": "Encode Sans Condensed Black",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Condensed",
+      "style": "normal",
+      "weight": 700,
+      "filename": "EncodeSansCondensed-Bold.ttf",
+      "postScriptName": "EncodeSansCondensed-Bold",
+      "fullName": "Encode Sans Condensed Bold",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Condensed",
+      "style": "normal",
+      "weight": 800,
+      "filename": "EncodeSansCondensed-ExtraBold.ttf",
+      "postScriptName": "EncodeSansCondensed-ExtraBold",
+      "fullName": "Encode Sans Condensed ExtraBold",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Condensed",
+      "style": "normal",
+      "weight": 200,
+      "filename": "EncodeSansCondensed-ExtraLight.ttf",
+      "postScriptName": "EncodeSansCondensed-ExtraLight",
+      "fullName": "Encode Sans Condensed ExtraLight",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Condensed",
+      "style": "normal",
+      "weight": 300,
+      "filename": "EncodeSansCondensed-Light.ttf",
+      "postScriptName": "EncodeSansCondensed-Light",
+      "fullName": "Encode Sans Condensed Light",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Condensed",
+      "style": "normal",
+      "weight": 500,
+      "filename": "EncodeSansCondensed-Medium.ttf",
+      "postScriptName": "EncodeSansCondensed-Medium",
+      "fullName": "Encode Sans Condensed Medium",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Condensed",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EncodeSansCondensed-Regular.ttf",
+      "postScriptName": "EncodeSansCondensed-Regular",
+      "fullName": "Encode Sans Condensed",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Condensed",
+      "style": "normal",
+      "weight": 600,
+      "filename": "EncodeSansCondensed-SemiBold.ttf",
+      "postScriptName": "EncodeSansCondensed-SemiBold",
+      "fullName": "Encode Sans Condensed SemiBold",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Condensed",
+      "style": "normal",
+      "weight": 100,
+      "filename": "EncodeSansCondensed-Thin.ttf",
+      "postScriptName": "EncodeSansCondensed-Thin",
+      "fullName": "Encode Sans Condensed Thin",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-06-07"
+}

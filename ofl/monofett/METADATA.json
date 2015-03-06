@@ -1,0 +1,24 @@
+{
+  "name": "Monofett",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21493,
+  "fonts": [
+    {
+      "name": "Monofett",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Monofett.ttf",
+      "postScriptName": "Monofett",
+      "fullName": "Monofett",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Monofett'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-04"
+}

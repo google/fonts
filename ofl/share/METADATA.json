@@ -1,0 +1,52 @@
+{
+  "name": "Share",
+  "designer": "Ralph du Carrois",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 45492,
+  "fonts": [
+    {
+      "name": "Share",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Share-Regular.ttf",
+      "postScriptName": "Share-Regular",
+      "fullName": "Share",
+      "copyright": "Copyright (c) 2005-2011, Carrois Type Design (carrois.com post@carrois.com), with Reserved Font Name \"Share\""
+    },
+    {
+      "name": "Share",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Share-Italic.ttf",
+      "postScriptName": "Share-Italic",
+      "fullName": "Share Italic",
+      "copyright": "Copyright (c) 2005-2011, Carrois Type Design (carrois.com post@carrois.com), with Reserved Font Name \"Share\""
+    },
+    {
+      "name": "Share",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Share-Bold.ttf",
+      "postScriptName": "Share-Bold",
+      "fullName": "Share Bold",
+      "copyright": "Copyright (c) 2005-2011, Carrois Type Design (carrois.com post@carrois.com), with Reserved Font Name \"Share\""
+    },
+    {
+      "name": "Share",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Share-BoldItalic.ttf",
+      "postScriptName": "Share-BoldItalic",
+      "fullName": "Share Bold Italic",
+      "copyright": "Copyright (c) 2005-2011, Carrois Type Design (carrois.com post@carrois.com), with Reserved Font Name \"Share\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-08"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Slabo 13px",
+  "designer": "John Hudson",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 25599,
+  "fonts": [
+    {
+      "name": "Slabo 13px",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Slabo13px-Regular.ttf",
+      "postScriptName": "Slabo13px-Regular",
+      "fullName": "Slabo 13px",
+      "copyright": "Copyright (c) 2013, Tiro Typeworks Ltd (www.tiro.com)."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-05-30"
+}

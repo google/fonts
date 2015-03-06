@@ -1,0 +1,53 @@
+{
+  "name": "Cambay",
+  "designer": "Pooja Saxena",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 84875,
+  "fonts": [
+    {
+      "name": "Cambay",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Cambay-Bold.ttf",
+      "postScriptName": "Cambay-Bold",
+      "fullName": "Cambay Bold",
+      "copyright": "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
+    },
+    {
+      "name": "Cambay",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Cambay-BoldItalic.ttf",
+      "postScriptName": "Cambay-BoldItalic",
+      "fullName": "Cambay Bold Italic",
+      "copyright": "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
+    },
+    {
+      "name": "Cambay",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Cambay-Italic.ttf",
+      "postScriptName": "Cambay-Italic",
+      "fullName": "Cambay Italic",
+      "copyright": "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
+    },
+    {
+      "name": "Cambay",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cambay-Regular.ttf",
+      "postScriptName": "Cambay-Regular",
+      "fullName": "Cambay",
+      "copyright": "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-01-28"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Atomic Age",
+  "designer": "James Grieshaber",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 17918,
+  "fonts": [
+    {
+      "name": "Atomic Age",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AtomicAge-Regular.ttf",
+      "postScriptName": "AtomicAge",
+      "fullName": "Atomic Age",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Atomic Age\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-10-26"
+}

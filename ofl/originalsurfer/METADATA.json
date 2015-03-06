@@ -1,0 +1,25 @@
+{
+  "name": "Original Surfer",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 34318,
+  "fonts": [
+    {
+      "name": "Original Surfer",
+      "style": "normal",
+      "weight": 400,
+      "filename": "OriginalSurfer-Regular.ttf",
+      "postScriptName": "OriginalSurfer-Regular",
+      "fullName": "Original Surfer",
+      "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Original Surfer\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-07"
+}

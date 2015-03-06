@@ -1,0 +1,35 @@
+{
+  "name": "Sarala",
+  "designer": "Andres Torresi",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 94947,
+  "fonts": [
+    {
+      "name": "Sarala",
+      "postScriptName": "Sarala-Bold",
+      "fullName": "Sarala Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sarala-Bold.ttf",
+      "copyright": "Copyright © 2015 by Andres Torresi. All rights reserved."
+    },
+    {
+      "name": "Sarala",
+      "postScriptName": "Sarala-Regular",
+      "fullName": "Sarala",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sarala-Regular.ttf",
+      "copyright": "Copyright © 2015 by Andres Torresi. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-02-18"
+}

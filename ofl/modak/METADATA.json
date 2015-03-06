@@ -1,0 +1,26 @@
+{
+  "name": "Modak",
+  "designer": "Ek Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 271464,
+  "fonts": [
+    {
+      "name": "Modak",
+      "postScriptName": "Modak",
+      "fullName": "Modak",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Modak-Regular.ttf",
+      "copyright": "Copyright (c) 2015 Ek Type (www.ektype.in)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-02-18"
+}

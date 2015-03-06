@@ -1,0 +1,33 @@
+{
+  "name": "Mountains of Christmas",
+  "designer": "Tart Workshop",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 74391,
+  "fonts": [
+    {
+      "name": "Mountains of Christmas",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MountainsofChristmas-Regular.ttf",
+      "postScriptName": "MountainsofChristmas-Regular",
+      "fullName": "Mountains of Christmas",
+      "copyright": "Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Mountains of Christmas\""
+    },
+    {
+      "name": "Mountains of Christmas",
+      "style": "normal",
+      "weight": 700,
+      "filename": "MountainsofChristmas-Bold.ttf",
+      "postScriptName": "MountainsofChristmas-Bold",
+      "fullName": "Mountains of Christmas Bold",
+      "copyright": "Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Mountains of Christmas\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-14"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ABeeZee",
+  "designer": "Anja Meiners",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 24918,
+  "fonts": [
+    {
+      "name": "ABeeZee",
+      "postScriptName": "ABeeZee-Italic",
+      "fullName": "ABeeZee Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "ABeeZee-Italic.ttf",
+      "copyright": "Copyright (c) 2011 by Anja Meiners (www.carrois.com post@carrois.com), with Reserved Font Name 'ABeeZee'"
+    },
+    {
+      "name": "ABeeZee",
+      "postScriptName": "ABeeZee-Regular",
+      "fullName": "ABeeZee",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ABeeZee-Regular.ttf",
+      "copyright": "Copyright (c) 2011 by Anja Meiners (www.carrois.com post@carrois.com), with Reserved Font Name 'ABeeZee'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-09-30"
+}

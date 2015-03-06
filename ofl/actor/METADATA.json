@@ -1,0 +1,24 @@
+{
+  "name": "Actor",
+  "designer": "Thomas Junold",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 32863,
+  "fonts": [
+    {
+      "name": "Actor",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Actor-Regular.ttf",
+      "postScriptName": "Actor-Regular",
+      "fullName": "Actor Regular",
+      "copyright": "Copyright (c) 2011, Thomas Junold <hallo@buerofueraufmerksamkeit.de>, with Reserved Font Name \"Actor\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-03"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gloria Hallelujah",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 33223,
+  "fonts": [
+    {
+      "name": "Gloria Hallelujah",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GloriaHallelujah.ttf",
+      "postScriptName": "GloriaHallelujah",
+      "fullName": "Gloria Hallelujah",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-27"
+}

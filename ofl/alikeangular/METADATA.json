@@ -1,0 +1,24 @@
+{
+  "name": "Alike Angular",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 59895,
+  "fonts": [
+    {
+      "name": "Alike Angular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AlikeAngular-Regular.ttf",
+      "postScriptName": "AlikeAngular-Regular",
+      "fullName": "Alike Angular",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Alike\" and \"Alike Angular\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-09-28"
+}

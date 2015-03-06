@@ -1,0 +1,24 @@
+{
+  "name": "Rationale",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 28190,
+  "fonts": [
+    {
+      "name": "Rationale",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rationale-Regular.ttf",
+      "postScriptName": "Rationale-Regular",
+      "fullName": "Rationale",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Rationale\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-03"
+}

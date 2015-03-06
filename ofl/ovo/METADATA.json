@@ -1,0 +1,24 @@
+{
+  "name": "Ovo",
+  "designer": "Nicole Fally",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 23887,
+  "fonts": [
+    {
+      "name": "Ovo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ovo-Regular.ttf",
+      "postScriptName": "Ovo",
+      "fullName": "Ovo",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Ovo\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-20"
+}

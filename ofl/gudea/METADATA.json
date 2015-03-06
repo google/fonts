@@ -1,0 +1,43 @@
+{
+  "name": "Gudea",
+  "designer": "Agustina Mingote",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 14187,
+  "fonts": [
+    {
+      "name": "Gudea",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Gudea-Regular.ttf",
+      "postScriptName": "Gudea",
+      "fullName": "Gudea",
+      "copyright": "Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with Reserved Font Names \"Gudea\""
+    },
+    {
+      "name": "Gudea",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Gudea-Italic.ttf",
+      "postScriptName": "Gudea-Italic",
+      "fullName": "Gudea Italic",
+      "copyright": "Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with Reserved Font Names \"Gudea\""
+    },
+    {
+      "name": "Gudea",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Gudea-Bold.ttf",
+      "postScriptName": "Gudea-Bold",
+      "fullName": "Gudea Bold",
+      "copyright": "Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with Reserved Font Names \"Gudea\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-18"
+}

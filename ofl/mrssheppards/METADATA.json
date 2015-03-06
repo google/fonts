@@ -1,0 +1,25 @@
+{
+  "name": "Mrs Sheppards",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 22988,
+  "fonts": [
+    {
+      "name": "Mrs Sheppards",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MrsSheppards-Regular.ttf",
+      "postScriptName": "MrsSheppards-Regular",
+      "fullName": "Mrs Sheppards Regular",
+      "copyright": "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mrs Sheppards\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

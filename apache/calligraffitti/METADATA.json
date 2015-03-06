@@ -1,0 +1,25 @@
+{
+  "name": "Calligraffitti",
+  "designer": "Open Window",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 37816,
+  "fonts": [
+    {
+      "name": "Calligraffitti",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Calligraffitti-Regular.ttf",
+      "postScriptName": "Calligraffitti-Regular",
+      "fullName": "Calligraffitti",
+      "copyright": "Copyright (c) 2010 by Open Window (dathanboardman@gmail.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-01-06"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Plaster",
+  "designer": "Eben Sorkin",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 18428,
+  "fonts": [
+    {
+      "name": "Plaster",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Plaster-Regular.ttf",
+      "postScriptName": "Plaster-Regular",
+      "fullName": "Plaster",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Plaster\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

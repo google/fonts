@@ -1,0 +1,25 @@
+{
+  "name": "Combo",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 49028,
+  "fonts": [
+    {
+      "name": "Combo",
+      "postScriptName": "Combo-Regular",
+      "fullName": "Combo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Combo-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Combo'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-23"
+}

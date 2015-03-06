@@ -1,0 +1,24 @@
+{
+  "name": "Vidaloka",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 67261,
+  "fonts": [
+    {
+      "name": "Vidaloka",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Vidaloka-Regular.ttf",
+      "postScriptName": "Vidaloka-Regular",
+      "fullName": "Vidaloka ",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Vidaloka\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-17"
+}

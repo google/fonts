@@ -1,0 +1,25 @@
+{
+  "name": "Convergence",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 16323,
+  "fonts": [
+    {
+      "name": "Convergence",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Convergence-Regular.ttf",
+      "postScriptName": "Convergence-Regular",
+      "fullName": "Convergence-Regular",
+      "copyright": "Copyright (c) 2010 by Jos Nicols Silva Schwarzenberg.<info@nsilva.com> and John Vargas Beltran <http://www.johnvargasbeltran.com/>, with Reserved Font Names \"Convergence\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-09"
+}

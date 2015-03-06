@@ -1,0 +1,24 @@
+{
+  "name": "Candal",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 19847,
+  "fonts": [
+    {
+      "name": "Candal",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Candal.ttf",
+      "postScriptName": "Candal",
+      "fullName": "Candal",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Candal'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-03-09"
+}

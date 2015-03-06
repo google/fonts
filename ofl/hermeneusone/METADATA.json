@@ -1,0 +1,25 @@
+{
+  "name": "Hermeneus One",
+  "designer": "Impallari Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 51632,
+  "fonts": [
+    {
+      "name": "Hermeneus One",
+      "postScriptName": "HermeneusOne-Regular",
+      "fullName": "Hermeneus One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HermeneusOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com) and Rodrigo Fuenzalida (www.rfuenzalida.com), with Reserved Font Name Hermeneus."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-05-01"
+}

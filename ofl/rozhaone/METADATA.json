@@ -1,0 +1,26 @@
+{
+  "name": "Rozha One",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 142190,
+  "fonts": [
+    {
+      "name": "Rozha One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RozhaOne-Regular.ttf",
+      "postScriptName": "RozhaOne-Regular",
+      "fullName": "Rozha One",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-08-13"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "GFS Didot",
+  "designer": "Greek Font Society",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 79456,
+  "fonts": [
+    {
+      "name": "GFS Didot",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GFSDidot-Regular.ttf",
+      "postScriptName": "GFSDidot-Regular",
+      "fullName": "GFS Didot Regular",
+      "copyright": "Copyright (c) Takis Katsoulidis and George D. Matthiopoulos (gfs@greekfontsociety.gr), 2001. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "greek",
+    "menu"
+  ],
+  "dateAdded": "2010-09-21"
+}

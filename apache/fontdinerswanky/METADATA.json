@@ -1,0 +1,24 @@
+{
+  "name": "Fontdiner Swanky",
+  "designer": "Font Diner",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 26041,
+  "fonts": [
+    {
+      "name": "Fontdiner Swanky",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FontdinerSwanky.ttf",
+      "postScriptName": "FontdinerSwanky",
+      "fullName": "Fontdiner Swanky",
+      "copyright": "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-01-06"
+}

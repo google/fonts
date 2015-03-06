@@ -1,0 +1,25 @@
+{
+  "name": "Hammersmith One",
+  "designer": "Nicole Fally",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 19277,
+  "fonts": [
+    {
+      "name": "Hammersmith One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HammersmithOne-Regular.ttf",
+      "postScriptName": "HammersmithOne",
+      "fullName": "Hammersmith One",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co. (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Hammersmith One\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-06-29"
+}

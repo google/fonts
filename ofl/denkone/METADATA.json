@@ -1,0 +1,25 @@
+{
+  "name": "Denk One",
+  "designer": "Sorkin Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 25132,
+  "fonts": [
+    {
+      "name": "Denk One",
+      "postScriptName": "DenkOne-Regular",
+      "fullName": "Denk One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DenkOne-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Denk'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-26"
+}

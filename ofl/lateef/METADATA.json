@@ -1,0 +1,25 @@
+{
+  "name": "Lateef",
+  "designer": "SIL International",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Handwriting",
+  "size": 109324,
+  "fonts": [
+    {
+      "name": "Lateef",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LateefRegOT.ttf",
+      "postScriptName": "Lateef",
+      "fullName": "Lateef",
+      "copyright": "Copyright (c) 2004-2008, SIL International (http://www.sil.org/), and released under the SIL Open Font License, with Reserved Font Names \"Lateef\" and \"SIL\"."
+    }
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-01-18"
+}

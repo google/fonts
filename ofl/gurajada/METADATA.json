@@ -1,0 +1,25 @@
+{
+  "name": "Gurajada",
+  "designer": "Purushoth Kumar Guttula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 166688,
+  "fonts": [
+    {
+      "name": "Gurajada",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Gurajada-Regular.ttf",
+      "postScriptName": "Gurajada",
+      "fullName": "Gurajada",
+      "copyright": "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2015-01-08"
+}

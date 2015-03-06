@@ -1,0 +1,25 @@
+{
+  "name": "Mr Bedford",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Handwriting",
+  "size": 21958,
+  "fonts": [
+    {
+      "name": "Mr Bedford",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MrBedfort-Regular.ttf",
+      "postScriptName": "MrBedfort-Regular",
+      "fullName": "Mr Bedfort Regular",
+      "copyright": "Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mr Bedfort\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-30"
+}

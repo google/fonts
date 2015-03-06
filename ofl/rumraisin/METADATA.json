@@ -1,0 +1,25 @@
+{
+  "name": "Rum Raisin",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 35175,
+  "fonts": [
+    {
+      "name": "Rum Raisin",
+      "postScriptName": "RumRaisin-Regular",
+      "fullName": "Rum Raisin",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RumRaisin-Regular.ttf",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Rum Raisin'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-11-02"
+}

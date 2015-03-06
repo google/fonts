@@ -1,0 +1,25 @@
+{
+  "name": "Jolly Lodger",
+  "designer": "Font Diner",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 24196,
+  "fonts": [
+    {
+      "name": "Jolly Lodger",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JollyLodger-Regular.ttf",
+      "postScriptName": "JollyLodger",
+      "fullName": "Jolly Lodger",
+      "copyright": "Copyright (c) 2012 by Font Diner, Inc (diner@fontdiner.com) with Reseved Font Name \"Jolly Lodger\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

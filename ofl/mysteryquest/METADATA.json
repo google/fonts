@@ -1,0 +1,25 @@
+{
+  "name": "Mystery Quest",
+  "designer": "Sideshow",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 27518,
+  "fonts": [
+    {
+      "name": "Mystery Quest",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MysteryQuest-Regular.ttf",
+      "postScriptName": "MysteryQuest",
+      "fullName": "Mystery Quest",
+      "copyright": "Copyright (c) 2012 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reserved Font Name \"Mystery Quest\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-02-29"
+}

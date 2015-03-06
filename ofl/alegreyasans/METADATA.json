@@ -1,0 +1,143 @@
+{
+  "name": "Alegreya Sans",
+  "designer": "Juan Pablo del Peral",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 54635,
+  "fonts": [
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-Black",
+      "fullName": "Alegreya Sans Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "AlegreyaSans-Black.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-BlackItalic",
+      "fullName": "Alegreya Sans Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "AlegreyaSans-BlackItalic.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-Bold",
+      "fullName": "Alegreya Sans Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AlegreyaSans-Bold.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-BoldItalic",
+      "fullName": "Alegreya Sans Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "AlegreyaSans-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-ExtraBold",
+      "fullName": "Alegreya Sans ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "AlegreyaSans-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-ExtraBoldItalic",
+      "fullName": "Alegreya Sans ExtraBold Italic",
+      "style": "italic",
+      "weight": 800,
+      "filename": "AlegreyaSans-ExtraBoldItalic.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-Italic",
+      "fullName": "Alegreya Sans Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "AlegreyaSans-Italic.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-Light",
+      "fullName": "Alegreya Sans Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "AlegreyaSans-Light.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-LightItalic",
+      "fullName": "Alegreya Sans Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "AlegreyaSans-LightItalic.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-Medium",
+      "fullName": "Alegreya Sans Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "AlegreyaSans-Medium.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-MediumItalic",
+      "fullName": "Alegreya Sans Medium Italic",
+      "style": "italic",
+      "weight": 500,
+      "filename": "AlegreyaSans-MediumItalic.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-Regular",
+      "fullName": "Alegreya Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AlegreyaSans-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-Thin",
+      "fullName": "Alegreya Sans Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "AlegreyaSans-Thin.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    },
+    {
+      "name": "Alegreya Sans",
+      "postScriptName": "AlegreyaSans-ThinItalic",
+      "fullName": "Alegreya Sans Thin Italic",
+      "style": "italic",
+      "weight": 100,
+      "filename": "AlegreyaSans-ThinItalic.ttf",
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2013-12-04"
+}

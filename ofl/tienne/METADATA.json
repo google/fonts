@@ -1,0 +1,42 @@
+{
+  "name": "Tienne",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 39754,
+  "fonts": [
+    {
+      "name": "Tienne",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tienne-Regular.ttf",
+      "postScriptName": "Tienne-Regular",
+      "fullName": "Tienne Regular",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
+    },
+    {
+      "name": "Tienne",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tienne-Bold.ttf",
+      "postScriptName": "Tienne-Bold",
+      "fullName": "Tienne Bold",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
+    },
+    {
+      "name": "Tienne",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Tienne-Heavy.ttf",
+      "postScriptName": "Tienne-Heavy",
+      "fullName": "Tienne Heavy",
+      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-27"
+}

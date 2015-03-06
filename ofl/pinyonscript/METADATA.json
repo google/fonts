@@ -1,0 +1,24 @@
+{
+  "name": "Pinyon Script",
+  "designer": "Nicole Fally",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 33130,
+  "fonts": [
+    {
+      "name": "Pinyon Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PinyonScript-Regular.ttf",
+      "postScriptName": "PinyonScript",
+      "fullName": "Pinyon Script",
+      "copyright": "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name Pinyon Script. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-10-12"
+}

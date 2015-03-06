@@ -1,0 +1,57 @@
+{
+  "name": "Roboto Slab",
+  "designer": "Christian Robertson",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 91225,
+  "fonts": [
+    {
+      "name": "Roboto Slab",
+      "postScriptName": "RobotoSlab-Bold",
+      "fullName": "Roboto Slab Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "RobotoSlab-Bold.ttf",
+      "copyright": "Font data copyright Google 2013"
+    },
+    {
+      "name": "Roboto Slab",
+      "postScriptName": "RobotoSlab-Light",
+      "fullName": "Roboto Slab Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "RobotoSlab-Light.ttf",
+      "copyright": "Font data copyright Google 2013"
+    },
+    {
+      "name": "Roboto Slab",
+      "postScriptName": "RobotoSlab-Regular",
+      "fullName": "Roboto Slab Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RobotoSlab-Regular.ttf",
+      "copyright": "Font data copyright Google 2013"
+    },
+    {
+      "name": "Roboto Slab",
+      "postScriptName": "RobotoSlab-Thin",
+      "fullName": "Roboto Slab Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "RobotoSlab-Thin.ttf",
+      "copyright": "Font data copyright Google 2013"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2013-04-10"
+}

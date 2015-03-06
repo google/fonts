@@ -1,0 +1,57 @@
+{
+  "name": "Tinos",
+  "designer": "Steve Matteson",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 254668,
+  "fonts": [
+    {
+      "name": "Tinos",
+      "postScriptName": "Tinos-Bold",
+      "fullName": "Tinos Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tinos-Bold.ttf",
+      "copyright": "Digitized data copyright (c) 2010-2012 Google Corporation."
+    },
+    {
+      "name": "Tinos",
+      "postScriptName": "Tinos-BoldItalic",
+      "fullName": "Tinos Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Tinos-BoldItalic.ttf",
+      "copyright": "Digitized data copyright (c) 2010-2012 Google Corporation."
+    },
+    {
+      "name": "Tinos",
+      "postScriptName": "Tinos-Italic",
+      "fullName": "Tinos Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Tinos-Italic.ttf",
+      "copyright": "Digitized data copyright (c) 2010-2012 Google Corporation."
+    },
+    {
+      "name": "Tinos",
+      "postScriptName": "Tinos",
+      "fullName": "Tinos",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tinos-Regular.ttf",
+      "copyright": "Digitized data copyright (c) 2010-2012 Google Corporation."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2010-11-18"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Dinah",
+  "designer": "Blondina Elms Pastel",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 100496,
+  "fonts": [
+    {
+      "name": "Dinah",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dinah-Regular.ttf",
+      "postScriptName": "Dinah-Regular",
+      "fullName": "Dinah Regular",
+      "copyright": "Copyright (c) Blondina Elms Pastel (blondina@atelierelms.com)"
+    },
+    {
+      "name": "Dinah",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Dinah-Bold.ttf",
+      "postScriptName": "Dinah-Bold",
+      "fullName": "Dinah Bold",
+      "copyright": "Copyright (c) Blondina Elms Pastel (blondina@atelierelms.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-10-31"
+}

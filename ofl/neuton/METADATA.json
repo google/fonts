@@ -1,0 +1,70 @@
+{
+  "name": "Neuton",
+  "designer": "Brian Zick",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 29256,
+  "fonts": [
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Neuton-ExtraLight.ttf",
+      "postScriptName": "Neuton-ExtraLight",
+      "fullName": "Neuton Extralight",
+      "copyright": "Copyright (c) 2010, 2011 Brian M Zick (http://21326.info/ artistenator@gmail.com), with Reserved Font Name \"Neuton\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Neuton-Light.ttf",
+      "postScriptName": "Neuton-Light",
+      "fullName": "Neuton Light",
+      "copyright": "Copyright (c) 2010, 2011 Brian M Zick (http://21326.info/ artistenator@gmail.com), with Reserved Font Name \"Neuton\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Neuton-Regular.ttf",
+      "postScriptName": "Neuton-Regular",
+      "fullName": "Neuton Regular",
+      "copyright": "Copyright (c) 2010, 2011 Brian M Zick (http://21326.info/ artistenator@gmail.com), with Reserved Font Name \"Neuton\"."
+    },
+    {
+      "name": "Neuton",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Neuton-Italic.ttf",
+      "postScriptName": "Neuton-Italic",
+      "fullName": "Neuton Italic",
+      "copyright": "Copyright (c) 2010, 2011, Brian M Zick (http://21326.info/ artistenator@gmail.com), with Reserved Font Name \"Neuton\"."
+    },
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Neuton-Bold.ttf",
+      "postScriptName": "Neuton-Bold",
+      "fullName": "Neuton Bold",
+      "copyright": "Copyright (c) 2010, 2011 Brian M Zick (http://21326.info/ artistenator@gmail.com), with Reserved Font Name \"Neuton\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Neuton-ExtraBold.ttf",
+      "postScriptName": "Neuton-ExtraBold",
+      "fullName": "Neuton Extrabold",
+      "copyright": "Copyright (c) 2010, Brian M Zick (http://21326.info/ artistenator@gmail.com), with Reserved Font Name \"Neuton\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-02-09"
+}

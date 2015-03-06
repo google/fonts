@@ -1,0 +1,61 @@
+FONTLOG for the Kavoon font
+
+This file provides detailed information on Kavoon Font Software. 
+This information should be distributed along with the Kavoon font 
+and any derivative works.
+
+Basic Font Information
+
+Kavoon is a display face based on experiments with brush and ink. 
+Kavoon's expressive features make words vivid and powerfully draw 
+the reader in. Kavoon may be used from medium to large sizes.
+
+Kavoon is a Unicode typeface family that supports languages that use 
+the Latin script and its variants, and could be expanded to support 
+other scripts.
+
+More specifically, this release partially supports the following Unicode 
+ranges: Latin-1
+
+There are four Source files:
+
+1. Kavoon-Regular.vfb Original Source Files with 
+   contour overlaps
+
+2. Kavoon-Regular-OTF.sfd Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. Kavoon-Regular-TTF.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+
+ChangeLog
+
+09 Jan 2013 (Eben Sorkin) Kavoon v1.002
+- Improved language coverage with OpenType features
+- Removed custom Cmap and excess OpenType tables
+- Mastered typeface to TTF and OTF
+- Added hinting using TTFautohint version 0.93.8-669f
+
+11 Sept 2012 (Eben Sorkin) Kavoon v1.001
+- Mastered typeface to TTF and OTF
+- Added hinting using TTF Autohint v0.92
+
+29 August 2012 (Viktoriya Grabowska) Kavoon v1.000
+- Created complete Kavoon design in VFB format
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Viktoriya Grabowska
+E: vi_ga@wp.pl
+W: www.vikaniesiada.blogspot.com
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering

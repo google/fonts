@@ -1,0 +1,25 @@
+{
+  "name": "Coda Caption",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 45481,
+  "fonts": [
+    {
+      "name": "Coda Caption",
+      "style": "normal",
+      "weight": 800,
+      "filename": "CodaCaption-Heavy.ttf",
+      "postScriptName": "CodaCaption-Heavy",
+      "fullName": "Coda Caption Heavy",
+      "copyright": "Copyright (c) 2009 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name 'Coda'. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-02-09"
+}

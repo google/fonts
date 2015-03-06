@@ -1,0 +1,25 @@
+{
+  "name": "Anaheim",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 34740,
+  "fonts": [
+    {
+      "name": "Anaheim",
+      "postScriptName": "Anaheim-Regular",
+      "fullName": "Anaheim",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Anaheim-Regular.ttf",
+      "copyright": "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Anaheim'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-31"
+}

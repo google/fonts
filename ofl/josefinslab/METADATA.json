@@ -1,0 +1,105 @@
+{
+  "name": "Josefin Slab",
+  "designer": "Santiago Orozco",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 52259,
+  "fonts": [
+    {
+      "name": "Josefin Slab",
+      "style": "normal",
+      "weight": 100,
+      "filename": "JosefinSlab-Thin.ttf",
+      "postScriptName": "JosefinSlab-Thin",
+      "fullName": "Josefin Slab Thin",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Slab",
+      "style": "italic",
+      "weight": 100,
+      "filename": "JosefinSlab-ThinItalic.ttf",
+      "postScriptName": "JosefinSlab-ThinItalic",
+      "fullName": "Josefin Slab Thin Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Slab",
+      "style": "normal",
+      "weight": 300,
+      "filename": "JosefinSlab-Light.ttf",
+      "postScriptName": "JosefinSlab-Light",
+      "fullName": "Josefin Slab Light",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Slab",
+      "style": "italic",
+      "weight": 300,
+      "filename": "JosefinSlab-LightItalic.ttf",
+      "postScriptName": "JosefinSlab-LightItalic",
+      "fullName": "Josefin Slab Light Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Slab",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JosefinSlab-Regular.ttf",
+      "postScriptName": "JosefinSlab",
+      "fullName": "Josefin Slab",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Slab",
+      "style": "italic",
+      "weight": 400,
+      "filename": "JosefinSlab-Italic.ttf",
+      "postScriptName": "JosefinSlab-Italic",
+      "fullName": "Josefin Slab Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Slab",
+      "style": "normal",
+      "weight": 600,
+      "filename": "JosefinSlab-SemiBold.ttf",
+      "postScriptName": "JosefinSlab-SemiBold",
+      "fullName": "Josefin Slab SemiBold",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Slab",
+      "style": "italic",
+      "weight": 600,
+      "filename": "JosefinSlab-SemiBoldItalic.ttf",
+      "postScriptName": "JosefinSlab-SemiBoldItalic",
+      "fullName": "Josefin Slab SemiBold Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Slab",
+      "style": "normal",
+      "weight": 700,
+      "filename": "JosefinSlab-Bold.ttf",
+      "postScriptName": "JosefinSlab-Bold",
+      "fullName": "Josefin Slab Bold",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    },
+    {
+      "name": "Josefin Slab",
+      "style": "italic",
+      "weight": 700,
+      "filename": "JosefinSlab-BoldItalic.ttf",
+      "postScriptName": "JosefinSlab-BoldItalic",
+      "fullName": "Josefin Slab Bold Italic",
+      "copyright": "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-11-17"
+}

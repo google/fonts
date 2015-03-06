@@ -1,0 +1,71 @@
+{
+  "name": "Playfair Display SC",
+  "designer": "Claus Eggers Sørensen",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 60282,
+  "fonts": [
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplaySC-Black",
+      "fullName": "Playfair Display SC Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "PlayfairDisplaySC-Black.ttf",
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+    },
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplaySC-BlackItalic",
+      "fullName": "Playfair Display SC Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "PlayfairDisplaySC-BlackItalic.ttf",
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+    },
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplaySC-Bold",
+      "fullName": "Playfair Display SC Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PlayfairDisplaySC-Bold.ttf",
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+    },
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplaySC-BoldItalic",
+      "fullName": "Playfair Display SC Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "PlayfairDisplaySC-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+    },
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplaySC-Italic",
+      "fullName": "Playfair Display SC Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "PlayfairDisplaySC-Italic.ttf",
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+    },
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplaySC-Regular",
+      "fullName": "Playfair Display SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PlayfairDisplaySC-Regular.ttf",
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-26"
+}

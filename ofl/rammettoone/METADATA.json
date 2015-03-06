@@ -1,0 +1,25 @@
+{
+  "name": "Rammetto One",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19117,
+  "fonts": [
+    {
+      "name": "Rammetto One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RammettoOne-Regular.ttf",
+      "postScriptName": "RammettoOne-Regular",
+      "fullName": "Rammetto One Regular",
+      "copyright": "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Rammetto\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-02"
+}

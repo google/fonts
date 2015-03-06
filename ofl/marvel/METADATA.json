@@ -1,0 +1,51 @@
+{
+  "name": "Marvel",
+  "designer": "Carolina Trebol",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 21269,
+  "fonts": [
+    {
+      "name": "Marvel",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Marvel-Regular.ttf",
+      "postScriptName": "Marvel-Regular",
+      "fullName": "Marvel",
+      "copyright": "Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved Font Name \"Marvel\"."
+    },
+    {
+      "name": "Marvel",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Marvel-Italic.ttf",
+      "postScriptName": "Marvel-Italic",
+      "fullName": "Marvel Italic",
+      "copyright": "Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved Font Name \"Marvel\"."
+    },
+    {
+      "name": "Marvel",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Marvel-Bold.ttf",
+      "postScriptName": "Marvel-Bold",
+      "fullName": "Marvel Bold",
+      "copyright": "Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved Font Name \"Marvel\"."
+    },
+    {
+      "name": "Marvel",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Marvel-BoldItalic.ttf",
+      "postScriptName": "Marvel-BoldItalic",
+      "fullName": "Marvel Bold Italic",
+      "copyright": "Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved Font Name \"Marvel\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-08-03"
+}

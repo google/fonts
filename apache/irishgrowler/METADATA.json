@@ -1,0 +1,24 @@
+{
+  "name": "Irish Growler",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "Internal",
+  "category": "Display",
+  "size": 30494,
+  "fonts": [
+    {
+      "name": "Irish Growler",
+      "style": "normal",
+      "weight": 400,
+      "filename": "IrishGrowler.ttf",
+      "postScriptName": "IrishGrowler",
+      "fullName": "Irish Growler",
+      "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-01-06"
+}

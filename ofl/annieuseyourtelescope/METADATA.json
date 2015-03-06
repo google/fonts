@@ -1,0 +1,24 @@
+{
+  "name": "Annie Use Your Telescope",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 27285,
+  "fonts": [
+    {
+      "name": "Annie Use Your Telescope",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AnnieUseYourTelescope.ttf",
+      "postScriptName": "AnnieUseYourTelescope",
+      "fullName": "Annie Use Your Telescope",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-04-14"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Over the Rainbow",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 28103,
+  "fonts": [
+    {
+      "name": "Over the Rainbow",
+      "style": "normal",
+      "weight": 400,
+      "filename": "OvertheRainbow.ttf",
+      "postScriptName": "OvertheRainbow",
+      "fullName": "Over the Rainbow",
+      "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-04-27"
+}

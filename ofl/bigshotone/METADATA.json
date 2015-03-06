@@ -1,0 +1,24 @@
+{
+  "name": "Bigshot One",
+  "designer": "Gesine Todt",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19985,
+  "fonts": [
+    {
+      "name": "Bigshot One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BigshotOne.ttf",
+      "postScriptName": "BigshotOne",
+      "fullName": "Bigshot One",
+      "copyright": "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-04"
+}

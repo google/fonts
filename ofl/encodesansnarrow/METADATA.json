@@ -1,0 +1,97 @@
+{
+  "name": "Encode Sans Narrow",
+  "designer": "Impallari Type",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 89901,
+  "fonts": [
+    {
+      "name": "Encode Sans Narrow",
+      "style": "normal",
+      "weight": 900,
+      "filename": "EncodeSansNarrow-Black.ttf",
+      "postScriptName": "EncodeSansNarrow-Black",
+      "fullName": "Encode Sans Narrow Black",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Narrow",
+      "style": "normal",
+      "weight": 700,
+      "filename": "EncodeSansNarrow-Bold.ttf",
+      "postScriptName": "EncodeSansNarrow-Bold",
+      "fullName": "Encode Sans Narrow Bold",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Narrow",
+      "style": "normal",
+      "weight": 800,
+      "filename": "EncodeSansNarrow-ExtraBold.ttf",
+      "postScriptName": "EncodeSansNarrow-ExtraBold",
+      "fullName": "Encode Sans Narrow ExtraBold",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Narrow",
+      "style": "normal",
+      "weight": 200,
+      "filename": "EncodeSansNarrow-ExtraLight.ttf",
+      "postScriptName": "EncodeSansNarrow-ExtraLight",
+      "fullName": "Encode Sans Narrow ExtraLight",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Narrow",
+      "style": "normal",
+      "weight": 300,
+      "filename": "EncodeSansNarrow-Light.ttf",
+      "postScriptName": "EncodeSansNarrow-Light",
+      "fullName": "Encode Sans Narrow Light",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Narrow",
+      "style": "normal",
+      "weight": 500,
+      "filename": "EncodeSansNarrow-Medium.ttf",
+      "postScriptName": "EncodeSansNarrow-Medium",
+      "fullName": "Encode Sans Narrow Medium",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Narrow",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EncodeSansNarrow-Regular.ttf",
+      "postScriptName": "EncodeSansNarrow-Regular",
+      "fullName": "Encode Sans Narrow",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Narrow",
+      "style": "normal",
+      "weight": 600,
+      "filename": "EncodeSansNarrow-SemiBold.ttf",
+      "postScriptName": "EncodeSansNarrow-SemiBold",
+      "fullName": "Encode Sans Narrow SemiBold",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    },
+    {
+      "name": "Encode Sans Narrow",
+      "style": "normal",
+      "weight": 100,
+      "filename": "EncodeSansNarrow-Thin.ttf",
+      "postScriptName": "EncodeSansNarrow-Thin",
+      "fullName": "Encode Sans Narrow Thin",
+      "copyright": "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-06-07"
+}

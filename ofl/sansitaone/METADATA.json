@@ -1,0 +1,24 @@
+{
+  "name": "Sansita One",
+  "designer": "Omnibus-Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 24780,
+  "fonts": [
+    {
+      "name": "Sansita One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SansitaOne.ttf",
+      "postScriptName": "SansitaOne",
+      "fullName": "Sansita One",
+      "copyright": "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Sansita One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-09-28"
+}

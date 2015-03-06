@@ -1,0 +1,52 @@
+{
+  "name": "Karla",
+  "designer": "Jonny Pinhorn",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 10026,
+  "fonts": [
+    {
+      "name": "Karla",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Karla-Regular.ttf",
+      "postScriptName": "Karla-Regular",
+      "fullName": "Karla",
+      "copyright": "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+    },
+    {
+      "name": "Karla",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Karla-Italic.ttf",
+      "postScriptName": "Karla-Italic",
+      "fullName": "Karla Italic",
+      "copyright": "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+    },
+    {
+      "name": "Karla",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Karla-Bold.ttf",
+      "postScriptName": "Karla-Bold",
+      "fullName": "Karla Bold",
+      "copyright": "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+    },
+    {
+      "name": "Karla",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Karla-BoldItalic.ttf",
+      "postScriptName": "Karla-BoldItalic",
+      "fullName": "Karla Bold Italic",
+      "copyright": "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

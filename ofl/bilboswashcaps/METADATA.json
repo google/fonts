@@ -1,0 +1,25 @@
+{
+  "name": "Bilbo Swash Caps",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 30343,
+  "fonts": [
+    {
+      "name": "Bilbo Swash Caps",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BilboSwashCaps-Regular.ttf",
+      "postScriptName": "BilboSwashCaps-Regular",
+      "fullName": "Bilbo Swash Caps",
+      "copyright": "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Names \"Bilbo\" and \"Bilbo Swash Caps\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Akronim",
+  "designer": "Grzegorz Klimczewski",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 69665,
+  "fonts": [
+    {
+      "name": "Akronim",
+      "postScriptName": "Akronim-Regular",
+      "fullName": "Akronim",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Akronim-Regular.ttf",
+      "copyright": "Copyright (c) 2012 Grzegorz Klimczewski, Fonty.PL (www.fonty.pl grzegorz@fonty.pl), with Reserved Font Name 'Akronim'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-23"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Play",
+  "designer": "Jonas Hecksher",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 65866,
+  "fonts": [
+    {
+      "name": "Play",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Play-Regular.ttf",
+      "postScriptName": "Play",
+      "fullName": "Play",
+      "copyright": "Copyright (c) 2011 by Jonas Hecksher, Playtypeª, e-types AS (lasse@e-types.com). All rights reserved."
+    },
+    {
+      "name": "Play",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Play-Bold.ttf",
+      "postScriptName": "Play-Bold",
+      "fullName": "Play-Bold",
+      "copyright": "Copyright (c) 2011 by Jonas Hecksher, Playtype¬ e-types AS (lasse@e-types.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-05-04"
+}

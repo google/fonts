@@ -1,0 +1,34 @@
+{
+  "name": "Cherry Swash",
+  "designer": "Nataliya Kasatkina",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 14596,
+  "fonts": [
+    {
+      "name": "Cherry Swash",
+      "postScriptName": "CherrySwash-Bold",
+      "fullName": "Cherry Swash Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "CherrySwash-Bold.ttf",
+      "copyright": "Copyright (c) 2012, Natalia Kasatkina (kasatkinanataliya@gmail.com)"
+    },
+    {
+      "name": "Cherry Swash",
+      "postScriptName": "CherrySwash-Regular",
+      "fullName": "Cherry Swash",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CherrySwash-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Natalia Kasatkina (kasatkinanataliya@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-10-05"
+}

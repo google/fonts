@@ -1,0 +1,25 @@
+{
+  "name": "Oxygen Mono",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Monospace",
+  "size": 34272,
+  "fonts": [
+    {
+      "name": "Oxygen Mono",
+      "postScriptName": "OxygenMono-Regular",
+      "fullName": "Oxygen Mono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "OxygenMono-Regular.ttf",
+      "copyright": "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-09-08"
+}

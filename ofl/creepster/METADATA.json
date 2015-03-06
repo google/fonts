@@ -1,0 +1,25 @@
+{
+  "name": "Creepster",
+  "designer": "Sideshow",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 37836,
+  "fonts": [
+    {
+      "name": "Creepster",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Creepster-Regular.ttf",
+      "postScriptName": "Creepster-Regular",
+      "fullName": "Creepster",
+      "copyright": "Copyright (c) 2011, Font Diner, Inc DBA Sideshow (diner@fontdiner.com), with Reserved Font Names \"Creepster\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

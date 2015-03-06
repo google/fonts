@@ -1,0 +1,33 @@
+{
+  "name": "Gorditas",
+  "designer": "Gustavo Dipre",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 62156,
+  "fonts": [
+    {
+      "name": "Gorditas",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Gorditas-Regular.ttf",
+      "postScriptName": "Gorditas-Regular",
+      "fullName": "Gorditas",
+      "copyright": "Copyright (c) 2011, Gustavo Dipre (gbrenda1987@gmail.com), with Reserved Font Name \"Gorditas\"."
+    },
+    {
+      "name": "Gorditas",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Gorditas-Bold.ttf",
+      "postScriptName": "Gorditas-Bold",
+      "fullName": "Gorditas Bold",
+      "copyright": "Copyright (c) 2011, Gustavo Dipre (gbrenda1987@gmail.com), with Reserved Font Name \"Gorditas\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-03-14"
+}

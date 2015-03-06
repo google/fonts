@@ -1,0 +1,25 @@
+{
+  "name": "Iceland",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19403,
+  "fonts": [
+    {
+      "name": "Iceland",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Iceland-Regular.ttf",
+      "postScriptName": "Iceland-Regular",
+      "fullName": "Iceland",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Iceland\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-11-23"
+}

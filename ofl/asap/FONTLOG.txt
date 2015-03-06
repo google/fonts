@@ -1,0 +1,76 @@
+FONTLOG for the Asap fonts
+
+This file provides detailed information on the Asap Font Software.
+This information should be distributed along with the Asap fonts
+and any derivative works.
+
+Basic Font Information
+
+Asap is a contemporary sans-serif family with subtle rounded 
+corners. Designed by Pablo Cosgaya, Asap ("as soon as possible") 
+there are 4 styles: Regular, Italic, Bold and Bold Italic. This 
+family, specially developed for screen and desktop use, offers 
+a standarised character width on all styles, which means lines 
+of text remain the same length. This useful feature allows users 
+to change type styles on-the-go without reflowing a text body. 
+Asap is based on Ancha (designed by Pablo Cosgaya & Hector 
+Gatti), and has been developed with the collaboration of 
+AndrŽés Torresi.
+
+Asap is a typeface family that supports Unicode language 
+range: Latin-1
+
+To contribute to the project contact Omnibus-Type 
+at omnibus.type@gmail.com
+
+There are four .vfb Source files and four .sfd source files:
+
+1. Asap-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+2. Asap-Regular-TTF.sfd TrueType outlines with nonhinting 
+   tables corresponding to the TTF file
+
+3. Asap-Italic-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+4. Asap-Italic-TTF.sfd TrueType outlines with nonhinting 
+   tables corresponding to the TTF file
+
+5. Asap-Bold-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+6. Asap-Bold-TTF.sfd TrueType outlines with nonhinting 
+   tables corresponding to the TTF file
+
+7. Asap-BoldItalic-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+8. Asap-BoldItalic-TTF.sfd TrueType outlines with nonhinting 
+   tables corresponding to the TTF file
+
+ChangeLog
+
+19 Jan 2012 (v.1.001) Omnibus-Type
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Pablo Cosgaya
+E: omnibus.type@gmail.com
+W: http://www.omnibus-type.com
+D: Principle designer of Asap, designer of Ancha upstream
+
+N: Andrés Torresi
+E: omnibus.type@gmail.com
+W: http://www.omnibus-type.com
+D: Assistant designer of Asap
+
+N: Hector Gatti
+E: omnibus.type@gmail.com
+W: http://www.omnibus-type.com
+D: Designer of Ancha upstream

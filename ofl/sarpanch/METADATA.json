@@ -1,0 +1,71 @@
+{
+  "name": "Sarpanch",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 62813,
+  "fonts": [
+    {
+      "name": "Sarpanch",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Sarpanch-Black.ttf",
+      "postScriptName": "Sarpanch-Black",
+      "fullName": "Sarpanch Black",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Sarpanch",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sarpanch-Regular.ttf",
+      "postScriptName": "Sarpanch-Regular",
+      "fullName": "Sarpanch",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Sarpanch",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sarpanch-Bold.ttf",
+      "postScriptName": "Sarpanch-Bold",
+      "fullName": "Sarpanch Bold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Sarpanch",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Sarpanch-Medium.ttf",
+      "postScriptName": "Sarpanch-Medium",
+      "fullName": "Sarpanch Medium",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Sarpanch",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Sarpanch-ExtraBold.ttf",
+      "postScriptName": "Sarpanch-ExtraBold",
+      "fullName": "Sarpanch ExtraBold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Sarpanch",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Sarpanch-SemiBold.ttf",
+      "postScriptName": "Sarpanch-SemiBold",
+      "fullName": "Sarpanch SemiBold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-09-03"
+}

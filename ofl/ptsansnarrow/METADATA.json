@@ -1,0 +1,36 @@
+{
+  "name": "PT Sans Narrow",
+  "designer": "ParaType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 198698,
+  "fonts": [
+    {
+      "name": "PT Sans Narrow",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PT_Sans-Narrow-Web-Regular.ttf",
+      "postScriptName": "PTSans-Narrow",
+      "fullName": "PT Sans Narrow",
+      "copyright": "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    },
+    {
+      "name": "PT Sans Narrow",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PT_Sans-Narrow-Web-Bold.ttf",
+      "postScriptName": "PTSans-NarrowBold",
+      "fullName": "PT Sans Narrow Bold",
+      "copyright": "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-09-21"
+}

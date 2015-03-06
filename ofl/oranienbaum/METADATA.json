@@ -1,0 +1,27 @@
+{
+  "name": "Oranienbaum",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 61947,
+  "fonts": [
+    {
+      "name": "Oranienbaum",
+      "postScriptName": "Oranienbaum-Regular",
+      "fullName": "Oranienbaum",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Oranienbaum-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Oleg Pospelov (oleg@pospelov.com), Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Oranienbaum'"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-08-20"
+}

@@ -1,8 +1,8 @@
-# Google Fonts
+# Google Fonts Files
 
-This project contains the font files served by Google Fonts:
+This project contains the binary font files served by Google Fonts: http://www.google.com/fonts
 
-http://www.google.com/fonts
+This is not an official Google project, and Google provides no support for it.
 
 The top level directories indicate the license of all files found within them.
 Subdirectories are named according to the family name of the fonts within. 
@@ -32,4 +32,4 @@ what they might need in order to include your improvements.
 
 Most of all: Enjoy the fonts!
 
-– The Google Fonts team, 2015-03-06
+– The Google Fonts team, 2015-03-08

@@ -1,6 +1,8 @@
 # `METADATA.json` File Specification
 
-The `METADATA.json` file is a [JSON](http://en.wikipedia.org/wiki/JSON)-formatted metadata file that contains some information derived from the font files, and some information about the status of the fonts at Google Fonts. The file uses UTF-8 encoding, though it may also include backslashed Unicode characters in form of `\u00e1`. Below is an example `METADATA.json` file for [/ofl/abeezee](ofl/abeezee/METADATA.json): 
+The `METADATA.json` file is a [JSON](http://en.wikipedia.org/wiki/JSON)-formatted metadata file that contains some information derived from the font files, and some information about the status of the fonts at Google Fonts. 
+The file uses UTF-8 encoding, though it may also include backslashed Unicode characters in form of `\u00e1`. 
+Below is an example `METADATA.json` file for [/ofl/abeezee](ofl/abeezee/METADATA.json): 
 
 ```
 {
@@ -38,11 +40,13 @@ The `METADATA.json` file is a [JSON](http://en.wikipedia.org/wiki/JSON)-formatte
 }
 ```
 
-Below is a brief description of the most important top-level fields of `METADATA.json` (those which provide unique information which cannot otherwise be derived from the font files themselves). Each top-level field can only occur once in the file.
+Below is a brief description of the most important top-level fields of `METADATA.json` (those which provide unique information which cannot otherwise be derived from the font files themselves). 
+Each top-level field can only occur once in the file.
 
 ### `license`
 
-The license field declares the license of the fonts in the family. Can contain one of 3 possible values:
+The license field declares the license of the fonts in the family. 
+Can contain one of 3 possible values:
 
 * `"license": "Apache2"`
 * `"license": "OFL"`
@@ -50,7 +54,8 @@ The license field declares the license of the fonts in the family. Can contain o
 
 ### `visibility`
 
-The visibility field determines the current release status of the font on Google Fonts. One of 3 possible values:
+The visibility field determines the current release status of the font on Google Fonts. 
+One of 3 possible values:
 
 * `"visibility": "External"` — font available on Google Fonts (both website and API)
 * `"visibility": "Sandbox"` — font will be available shortly on Google Fonts (being tested)
@@ -68,19 +73,22 @@ Typographic category used on Google Fonts, one of 5 possible values:
 
 ### `dateAdded`
 
-Date when the font was first added to the Google Fonts collection, in `YYYY-MM-DD` format. Example:
+Date when the font was first added to the Google Fonts collection, in `YYYY-MM-DD` format. 
+Example:
 
 * `"dateAdded": "2012-09-30"`
 
 ### `name`
 
-The family name of the font as shown in the Google Fonts user interface. Example:
+The family name of the font as shown in the Google Fonts user interface. 
+Example:
 
 * `"name": "ABeeZee"`
 
 ### `designer`
 
-The name of the type designer(s) who created the fonts. Example entries:
+The name of the type designer(s) who created the fonts. 
+Example entries:
 
 * `"designer": "Anja Meiners"`
 * `"designer": "Multiple Designers"`
@@ -106,11 +114,13 @@ A list of entries which point to font files in each family, looking like this:
 	"copyright": "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'"
 },
 ```
+
 The info in this section is derived from the information included inside the font files. 
 
 ### `subsets`
 
-List of all character set subsets available in Google Fonts API for the given font family. Possible values (current as of 2015-04-14):
+List of all character set subsets available in Google Fonts API for the given font family. 
+Possible values (current as of 2015-04-14):
 
 * `"latin"`
 * `"latin-ext"`

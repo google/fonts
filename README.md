@@ -64,6 +64,8 @@ Examples:
 * `"designer": "Huerta Tipográfica"` — Non-ascii characters are supported as UTF-8
 * `"designer": "Huerta Tipogr\u00e1fica"` — Sometimes non-ascii characters are encoded this way
 
+This typically matches a string in the first column of [profiles.csv](https://github.com/google/fonts/blob/master/designers/profiles.csv) 
+
 ### `license`
 
 Declares the license of the fonts in the family. 

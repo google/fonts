@@ -172,11 +172,12 @@ Typically this matches the value of `usWeightClass` in the font file's [`OS/2`](
 The font filename. 
 Example:
 
-* "filename": "ABeeZee-Italic.ttf",
+* `"filename": "ABeeZee-Italic.ttf"`
 
 ### `font/copyright`
 
 Copyright notice. 
+Example: 
 
 * `"copyright": "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'"`
 

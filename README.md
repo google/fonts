@@ -155,15 +155,15 @@ The value of `italicAngle` in the font file's [`POST`](https://www.microsoft.com
 Value of the CSS `font-weight` property served by Google Fonts. 
 One of 9 possible values:
 
-* `"weight": "100",`
-* `"weight": "200",`
-* `"weight": "300",`
-* `"weight": "400",`
-* `"weight": "500",`
-* `"weight": "600",`
-* `"weight": "700",`
-* `"weight": "800",`
-* `"weight": "900",`
+* `"weight": 100,`
+* `"weight": 200,`
+* `"weight": 300,`
+* `"weight": 400,`
+* `"weight": 500,`
+* `"weight": 600,`
+* `"weight": 700,`
+* `"weight": 800,`
+* `"weight": 900,`
 
 Typically this matches the value of `usWeightClass` in the font file's [`OS/2`](https://www.microsoft.com/typography/otspec/os2.htm) table, although for fonts with a CSS `font-weight` property of 100 or 200 then the `usWeightClass` value will likely be 250, as values of 249 or less suffer smeared rendering on Windows.
 

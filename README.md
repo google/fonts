@@ -48,6 +48,7 @@ Below is an example `METADATA.json` file for [/ofl/abeezee](ofl/abeezee/METADATA
 
 Most top-level keys provide unique information which is generally not derived from or matching with data inside the font files themselves.
 Each top-level field can only occur once in the file.
+The order of the keys does not strictly matter, but the order in this example is typical and is maintained when possible to avoid noisy diff comparisons.
 
 ### `name`
 

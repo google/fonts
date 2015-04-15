@@ -1,11 +1,8 @@
 {
-  "foundry": "Google",
   "name": "Roboto",
   "designer": "Christian Robertson",
   "license": "Apache2",
   "visibility": "External",
-  "repository": "static",
-  "experiments": ["enable_unicode_range", "enable_unique_glyphs_subset", "unicode_range_no_fallback" ],
   "category": "Sans Serif",
   "size": 86523,
   "fonts": [

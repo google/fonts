@@ -1,0 +1,80 @@
+{
+  "name": "Biryani",
+  "designer": "Dan Reynolds and Mathieu Réguer",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 79078,
+  "fonts": [
+    {
+      "name": "Biryani",
+      "postScriptName": "Biryani-Bold",
+      "fullName": "Biryani Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Biryani-Bold.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
+    },
+    {
+      "name": "Biryani",
+      "postScriptName": "Biryani-DemiBold",
+      "fullName": "Biryani DemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Biryani-DemiBold.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
+    },
+    {
+      "name": "Biryani",
+      "postScriptName": "Biryani-ExtraBold",
+      "fullName": "Biryani ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Biryani-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
+    },
+    {
+      "name": "Biryani",
+      "postScriptName": "Biryani-Heavy",
+      "fullName": "Biryani Heavy",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Biryani-Heavy.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
+    },
+    {
+      "name": "Biryani",
+      "postScriptName": "Biryani-Light",
+      "fullName": "Biryani Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Biryani-Light.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
+    },
+    {
+      "name": "Biryani",
+      "postScriptName": "Biryani-Regular",
+      "fullName": "Biryani",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Biryani-Regular.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
+    },
+    {
+      "name": "Biryani",
+      "postScriptName": "Biryani-UltraLight",
+      "fullName": "Biryani UltraLight",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Biryani-UltraLight.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-04-22"
+}

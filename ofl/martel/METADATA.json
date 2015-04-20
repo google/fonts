@@ -1,0 +1,80 @@
+{
+  "name": "Martel",
+  "designer": "Dan Reynolds",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 89593,
+  "fonts": [
+    {
+      "name": "Martel",
+      "postScriptName": "Martel-Bold",
+      "fullName": "Martel Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Martel-Bold.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Martel",
+      "postScriptName": "Martel-DemiBold",
+      "fullName": "Martel DemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Martel-DemiBold.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Martel",
+      "postScriptName": "Martel-ExtraBold",
+      "fullName": "Martel ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Martel-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Martel",
+      "postScriptName": "Martel-Heavy",
+      "fullName": "Martel Heavy",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Martel-Heavy.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Martel",
+      "postScriptName": "Martel-Light",
+      "fullName": "Martel Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Martel-Light.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Martel",
+      "postScriptName": "Martel-Regular",
+      "fullName": "Martel",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Martel-Regular.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Martel",
+      "postScriptName": "Martel-UltraLight",
+      "fullName": "Martel UltraLight",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Martel-UltraLight.ttf",
+      "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-04-20"
+}

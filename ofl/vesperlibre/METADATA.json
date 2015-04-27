@@ -4,43 +4,43 @@
   "license": "OFL",
   "visibility": "External",
   "category": "Serif",
-  "size": 77365,
+  "size": 124061,
   "fonts": [
     {
       "name": "Vesper Libre",
       "style": "normal",
-      "weight": 700,
-      "filename": "VesperLibre-Bold.ttf",
-      "postScriptName": "VesperDevanagariLibre-Bold",
-      "fullName": "Vesper Devanagari Libre Bold",
-      "copyright": "Copyright (c) 2014, Rob Keller (info@motaitalic.com)"
-    },
-    {
-      "name": "Vesper Libre",
-      "style": "normal",
-      "weight": 900,
-      "filename": "VesperLibre-Heavy.ttf",
-      "postScriptName": "VesperDevanagariLibre-Heavy",
-      "fullName": "Vesper Devanagari Libre Heavy",
-      "copyright": "Copyright (c) 2014, Rob Keller (info@motaitalic.com)"
+      "weight": 400,
+      "filename": "VesperLibre-Regular.ttf",
+      "postScriptName": "VesperLibre-Regular",
+      "fullName": "Vesper Libre",
+      "copyright": "Copyright (c) 2014 by Robert Keller."
     },
     {
       "name": "Vesper Libre",
       "style": "normal",
       "weight": 500,
       "filename": "VesperLibre-Medium.ttf",
-      "postScriptName": "VesperDevanagariLibre-Medium",
-      "fullName": "Vesper Devanagari Libre Medium",
-      "copyright": "Copyright (c) 2014, Rob Keller (info@motaitalic.com)"
+      "postScriptName": "VesperLibre-Medium",
+      "fullName": "Vesper Libre Medium",
+      "copyright": "Copyright (c) 2014 by Robert Keller."
     },
     {
       "name": "Vesper Libre",
       "style": "normal",
-      "weight": 400,
-      "filename": "VesperLibre-Regular.ttf",
-      "postScriptName": "VesperDevanagariLibre-Regular",
-      "fullName": "Vesper Devanagari Libre",
-      "copyright": "Copyright (c) 2014, Rob Keller (info@motaitalic.com)"
+      "weight": 700,
+      "filename": "VesperLibre-Bold.ttf",
+      "postScriptName": "VesperLibre-Bold",
+      "fullName": "Vesper Libre Bold",
+      "copyright": "Copyright (c) 2014 by Robert Keller."
+    },
+    {
+      "name": "Vesper Libre",
+      "style": "normal",
+      "weight": 900,
+      "filename": "VesperLibre-Heavy.ttf",
+      "postScriptName": "VesperLibre-Heavy",
+      "fullName": "Vesper Libre Heavy",
+      "copyright": "Copyright (c) 2014 by Robert Keller."
     }
   ],
   "subsets": [

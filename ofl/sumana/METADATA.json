@@ -1,0 +1,35 @@
+{
+  "name": "Sumana",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 94523,
+  "fonts": [
+    {
+      "name": "Sumana",
+      "postScriptName": "Sumana-Bold",
+      "fullName": "Sumana Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sumana-Bold.ttf",
+      "copyright": "Copyright © 2015 by Cyreal. All rights reserved."
+    },
+    {
+      "name": "Sumana",
+      "postScriptName": "Sumana-Regular",
+      "fullName": "Sumana",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sumana-Regular.ttf",
+      "copyright": "Copyright © 2015 by Cyreal. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-04-29"
+}

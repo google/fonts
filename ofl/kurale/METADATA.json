@@ -1,0 +1,27 @@
+{
+  "name": "Kurale",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 106706,
+  "fonts": [
+    {
+      "name": "Kurale",
+      "postScriptName": "Kurale-Regular",
+      "fullName": "Kurale",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kurale-Regular.ttf",
+      "copyright": "Copyright (c) 2013, 2014, 2015 Eduardo Tunni (http://www.tipo.net.ar)"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-05-14"
+}

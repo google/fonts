@@ -1,0 +1,26 @@
+{
+  "name": "Asar",
+  "designer": "Eben Sorkin",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 310311,
+  "fonts": [
+    {
+      "name": "Asar",
+      "postScriptName": "Asar-Regular",
+      "fullName": "Asar",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Asar-Regular.ttf",
+      "copyright": "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com). Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-05-13"
+}

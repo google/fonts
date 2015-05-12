@@ -1,0 +1,53 @@
+{
+  "name": "Varta",
+  "designer": "Sorkin Type Co",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 119940,
+  "fonts": [
+    {
+      "name": "Varta",
+      "postScriptName": "Varta-Light",
+      "fullName": "Varta Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Varta-Light.ttf",
+      "copyright": "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
+    },
+    {
+      "name": "Varta",
+      "postScriptName": "Varta-Regular",
+      "fullName": "Varta Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Varta-Regular.ttf",
+      "copyright": "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
+    },
+    {
+      "name": "Varta",
+      "postScriptName": "VartaSemiBold",
+      "fullName": "Varta SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Varta-SemiBold.ttf",
+      "copyright": "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
+    },
+    {
+      "name": "Varta",
+      "postScriptName": "Varta-Bold",
+      "fullName": "Varta Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Varta-Bold.ttf",
+      "copyright": "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-05-13"
+}

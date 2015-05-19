@@ -1,0 +1,35 @@
+{
+  "name": "Arya",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 86116,
+  "fonts": [
+    {
+      "name": "Arya",
+      "postScriptName": "Arya-Regular",
+      "fullName": "Arya",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Arya-Regular.ttf",
+      "copyright": "Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular Infotech, Pune, INDIA. All rights reserved."
+    },
+    {
+      "name": "Arya",
+      "postScriptName": "Arya-Bold",
+      "fullName": "Arya Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Arya-Bold.ttf",
+      "copyright": "Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular Infotech, Pune, INDIA. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-05-20"
+}

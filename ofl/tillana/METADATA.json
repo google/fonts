@@ -4,51 +4,51 @@
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Handwriting",
-  "size": 139159,
+  "size": 138391,
   "fonts": [
     {
       "name": "Tillana",
-      "style": "normal",
-      "weight": 700,
-      "filename": "Tillana-Bold.ttf",
-      "postScriptName": "Tillana-Bold",
-      "fullName": "Tillana Bold",
-      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
-    },
-    {
-      "name": "Tillana",
-      "style": "normal",
-      "weight": 800,
-      "filename": "Tillana-ExtraBold.ttf",
-      "postScriptName": "Tillana-ExtraBold",
-      "fullName": "Tillana ExtraBold",
-      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
-    },
-    {
-      "name": "Tillana",
-      "style": "normal",
-      "weight": 500,
-      "filename": "Tillana-Medium.ttf",
-      "postScriptName": "Tillana-Medium",
-      "fullName": "Tillana Medium",
-      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
-    },
-    {
-      "name": "Tillana",
+      "postScriptName": "Tillana-Regular",
+      "fullName": "Tillana",
       "style": "normal",
       "weight": 400,
       "filename": "Tillana-Regular.ttf",
-      "postScriptName": "Tillana-Regular",
-      "fullName": "Tillana",
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
       "name": "Tillana",
+      "postScriptName": "Tillana-Medium",
+      "fullName": "Tillana Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Tillana-Medium.ttf",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Tillana",
+      "postScriptName": "Tillana-SemiBold",
+      "fullName": "Tillana SemiBold",
       "style": "normal",
       "weight": 600,
       "filename": "Tillana-SemiBold.ttf",
-      "postScriptName": "Tillana-SemiBold",
-      "fullName": "Tillana SemiBold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Tillana",
+      "postScriptName": "Tillana-Bold",
+      "fullName": "Tillana Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tillana-Bold.ttf",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Tillana",
+      "postScriptName": "Tillana-ExtraBold",
+      "fullName": "Tillana ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Tillana-ExtraBold.ttf",
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     }
   ],
@@ -58,5 +58,5 @@
     "latin-ext",
     "menu"
   ],
-  "dateAdded": "2015-01-28"
+  "dateAdded": "2015-06-03"
 }

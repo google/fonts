@@ -1,0 +1,26 @@
+{
+  "name": "Rhodium Libre",
+  "designer": "James Puckett",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 106902,
+  "fonts": [
+    {
+      "name": "Rhodium Libre",
+      "postScriptName": "RhodiumLibre-Regular",
+      "fullName": "Rhodium Libre",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RhodiumLibre-Regular.ttf",
+      "copyright": "Copyright (c) 2014, Dunwich Type Founders (http://dunwichtype.com). Rhodium is a trademark of Dunwich Type Founders."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-06-03"
+}

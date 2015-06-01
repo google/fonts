@@ -1,0 +1,71 @@
+{
+  "name": "Yantramanav",
+  "designer": "Erin McLaughlin",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 72176,
+  "fonts": [
+    {
+      "name": "Yantramanav",
+      "postScriptName": "Yantramanav-Thin",
+      "fullName": "Yantramanav Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Yantramanav-Thin.ttf",
+      "copyright": "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Yantramanav",
+      "postScriptName": "Yantramanav-Light",
+      "fullName": "Yantramanav Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Yantramanav-Light.ttf",
+      "copyright": "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Yantramanav",
+      "postScriptName": "Yantramanav-Regular",
+      "fullName": "Yantramanav",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Yantramanav-Regular.ttf",
+      "copyright": "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Yantramanav",
+      "postScriptName": "Yantramanav-Medium",
+      "fullName": "Yantramanav Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Yantramanav-Medium.ttf",
+      "copyright": "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Yantramanav",
+      "postScriptName": "Yantramanav-Bold",
+      "fullName": "Yantramanav Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Yantramanav-Bold.ttf",
+      "copyright": "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Yantramanav",
+      "postScriptName": "Yantramanav-Black",
+      "fullName": "Yantramanav Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Yantramanav-Black.ttf",
+      "copyright": "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-06-03"
+}

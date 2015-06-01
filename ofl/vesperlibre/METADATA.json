@@ -4,43 +4,43 @@
   "license": "OFL",
   "visibility": "External",
   "category": "Serif",
-  "size": 124061,
+  "size": 84789,
   "fonts": [
     {
       "name": "Vesper Libre",
+      "postScriptName": "VesperLibre-Regular",
+      "fullName": "Vesper Libre",
       "style": "normal",
       "weight": 400,
       "filename": "VesperLibre-Regular.ttf",
-      "postScriptName": "VesperLibre-Regular",
-      "fullName": "Vesper Libre",
-      "copyright": "Copyright (c) 2014 by Robert Keller."
+      "copyright": "Copyright (c) 2007, Robert Keller (www.motaitalic.com)"
     },
     {
       "name": "Vesper Libre",
+      "postScriptName": "VesperLibre-Medium",
+      "fullName": "Vesper Libre Medium",
       "style": "normal",
       "weight": 500,
       "filename": "VesperLibre-Medium.ttf",
-      "postScriptName": "VesperLibre-Medium",
-      "fullName": "Vesper Libre Medium",
-      "copyright": "Copyright (c) 2014 by Robert Keller."
+      "copyright": "Copyright (c) 2007, Robert Keller (www.motaitalic.com)"
     },
     {
       "name": "Vesper Libre",
+      "postScriptName": "VesperLibre-Bold",
+      "fullName": "Vesper Libre Bold",
       "style": "normal",
       "weight": 700,
       "filename": "VesperLibre-Bold.ttf",
-      "postScriptName": "VesperLibre-Bold",
-      "fullName": "Vesper Libre Bold",
-      "copyright": "Copyright (c) 2014 by Robert Keller."
+      "copyright": "Copyright (c) 2007, Robert Keller (www.motaitalic.com)"
     },
     {
       "name": "Vesper Libre",
+      "postScriptName": "VesperLibre-Heavy",
+      "fullName": "Vesper Libre Heavy",
       "style": "normal",
       "weight": 900,
       "filename": "VesperLibre-Heavy.ttf",
-      "postScriptName": "VesperLibre-Heavy",
-      "fullName": "Vesper Libre Heavy",
-      "copyright": "Copyright (c) 2014 by Robert Keller."
+      "copyright": "Copyright (c) 2007, Robert Keller (www.motaitalic.com)"
     }
   ],
   "subsets": [

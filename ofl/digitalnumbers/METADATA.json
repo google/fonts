@@ -1,0 +1,22 @@
+{
+  "name": "Digital Numbers",
+  "designer": "Stephan Ahlf",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Monospace",
+  "size": 22200,
+  "fonts": [
+    {
+      "name": "Digital Numbers",
+      "style": "normal",
+      "weight": 400,
+      "filename": "sa-digital-number.ttf",
+      "fullName": "Digital Numbers",
+      "copyright": "© 2015, Stephan Ahlf."
+    }
+  ],
+  "subsets": [
+    "latin"
+  ],
+  "dateAdded": "2015-06-06"
+}

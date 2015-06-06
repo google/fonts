@@ -27,5 +27,5 @@ If you would like to include a font family in the Google Fonts collection we'll 
 * All font files within the family have the same glyph set
 * A `README.md` file is included in the root of the source repository with [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#43cecb44) information, so that we can prepare a description ([example](https://github.com/google/fonts/blob/master/ofl/poppins/DESCRIPTION.en_us.html))
 
-When your project meets these criteria, please file an issue with a link to the source repository. 
+When your project meets these criteria, please [file an issue](https://github.com/google/fonts/issues) with a link to the source repository. 
 (In the future we hope to provide guidance on making pull requests directly, but since we carefully check the technical aspects of the fonts, its better to work with us on your upstream project.)

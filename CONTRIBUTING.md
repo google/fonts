@@ -24,7 +24,7 @@ If you would like to include a font family in the Google Fonts collection we'll 
 * The project is developed on Github or similar, with complete corresponding sources, [open](http://producingoss.com) to public participation, and actively maintained. Sources mean the fonts are available in the preferred form of modification, plus reproducible build instructions or scripts
 * All font files are available in TTF format, with hinting (such as with [ttfautohint](http://www.freetype.org/ttfautohint/))
 * All font files have at a minimum the 215 glyphs listed in our [latin_unique-glyphs.nam](https://github.com/google/fonts/blob/master/tools/encodings/latin_unique-glyphs.nam)
-* All font files within the family have the same glyph set
+* All font files within the family have the same Unicode character set (unencoded glyphs can differ)
 * A `README.md` file is included in the root of the source repository with [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#43cecb44) information, so that we can prepare a description ([example](https://github.com/google/fonts/blob/master/ofl/poppins/DESCRIPTION.en_us.html))
 
 When your project meets these criteria, please [file an issue](https://github.com/google/fonts/issues) with a link to the source repository. 

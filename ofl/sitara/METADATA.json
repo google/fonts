@@ -1,0 +1,53 @@
+{
+  "name": "Sitara",
+  "designer": "Neelakash Kshetrimayum",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 85502,
+  "fonts": [
+    {
+      "name": "Sitara",
+      "postScriptName": "Sitara-Regular",
+      "fullName": "Sitara",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sitara-Regular.ttf",
+      "copyright": "Copyright (c) 2014, Neelakash Kshetrimayum (github.com/Neelakash/sitara). Copyright 2013, Google Corporation."
+    },
+    {
+      "name": "Sitara",
+      "postScriptName": "Sitara-Italic",
+      "fullName": "Sitara Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Sitara-Italic.ttf",
+      "copyright": "Copyright (c) 2014, Neelakash Kshetrimayum (github.com/Neelakash/sitara). Copyright 2013, Google Corporation."
+    },
+    {
+      "name": "Sitara",
+      "postScriptName": "Sitara-Bold",
+      "fullName": "Sitara Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sitara-Bold.ttf",
+      "copyright": "Copyright (c) 2014, Neelakash Kshetrimayum (github.com/Neelakash/sitara). Copyright 2013, Google Corporation."
+    },
+    {
+      "name": "Sitara",
+      "postScriptName": "Sitara-BoldItalic",
+      "fullName": "Sitara Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Sitara-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2014, Neelakash Kshetrimayum (github.com/Neelakash/sitara). Copyright 2013, Google Corporation."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-06-10"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Sahitya",
+  "designer": "Juan Pablo del Peral",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 125026,
+  "fonts": [
+    {
+      "name": "Sahitya",
+      "postScriptName": "Sahitya-Regular",
+      "fullName": "Sahitya",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sahitya-Regular.ttf",
+      "copyright": "Copyright (c) 2015 by Juan Pablo del Peral (http://www.huertatipografica.com). All rights reserved."
+    },
+    {
+      "name": "Sahitya",
+      "postScriptName": "Sahitya-Bold",
+      "fullName": "Sahitya Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sahitya-Bold.ttf",
+      "copyright": "Copyright (c) 2015 by Juan Pablo del Peral (http://www.huertatipografica.com). All rights reserved."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2015-06-17"
+}

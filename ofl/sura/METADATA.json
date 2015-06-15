@@ -1,0 +1,35 @@
+{
+  "name": "Sura",
+  "designer": "Carolina Giovagnoli",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 70117,
+  "fonts": [
+    {
+      "name": "Sura",
+      "postScriptName": "Sura-Regular",
+      "fullName": "Sura",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sura-Regular.ttf",
+      "copyright": "Copyright 2015 by Carolina Giovagnoli. All rights reserved."
+    },
+    {
+      "name": "Sura",
+      "postScriptName": "Sura-Bold",
+      "fullName": "Sura Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sura-Bold.ttf",
+      "copyright": "Copyright 2015 by Carolina Giovagnoli. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-06-17"
+}

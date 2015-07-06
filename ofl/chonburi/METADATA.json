@@ -1,0 +1,27 @@
+{
+  "name": "Chonburi",
+  "designer": "Cadson Demak",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 72060,
+  "fonts": [
+    {
+      "name": "Chonburi",
+      "postScriptName": "Chonburi-Regular",
+      "fullName": "Chonburi",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Chonburi-Regular.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "thai",
+    "vietnamese"
+  ],
+  "dateAdded": "2015-07-08"
+}

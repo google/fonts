@@ -22,6 +22,8 @@ flags.DEFINE_string('nam_dir', 'encodings/', 'nam file dir')
 
 # See https://www.microsoft.com/typography/otspec/name.htm.
 NAME_COPYRIGHT = 0
+NAME_FAMILY = 1
+NAME_UNIQUEID = 3
 NAME_FULLNAME = 4
 NAME_PSNAME = 6
 

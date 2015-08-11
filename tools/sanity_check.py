@@ -253,8 +253,8 @@ def _CheckFontOS2Values(path, font, ttf):
 
   font_file = font['filename']
   full_font_file = os.path.join(path, font_file)
-  style = font['style']
-  weight = font['weight']
+  expected_style = font['style']
+  expected_weight = font['weight']
 
   os2 = ttf['OS/2']
   fs_selection_flags = fonts.FsSelectionFlags(os2.fsSelection)
@@ -266,46 +266,47 @@ def _CheckFontOS2Values(path, font, ttf):
   marked_bold = 'BOLD' in fs_selection_flags
 
   # fsSelection flags (see thread http://shortn/_FEOPPU691a)
-  expect_italic = _IsItalic(style)
-  expect_bold = _IsBold(weight)
+  expect_italic = _IsItalic(expected_style)
+  expect_bold = _IsBold(expected_weight)
   # Per Dave C, we should NEVER set oblique, use 0 for italic
   expect_oblique = False
 
   results.append(ResultMessageTuple(
       marked_italic == expect_italic,
       '%s %s/%d fsSelection marked_italic %d' % (
-          font_file, style, weight, marked_italic),
+          font_file, expected_style, expected_weight, marked_italic),
       full_font_file, _FixFsSelectionBit('ITALIC', expect_italic)))
   results.append(ResultMessageTuple(
       marked_bold == expect_bold,
       '%s %s/%d fsSelection marked_bold %d' %
-      (font_file, style, weight, marked_bold), full_font_file,
+      (font_file, expected_style, expected_weight, marked_bold), full_font_file,
       _FixFsSelectionBit('BOLD', expect_bold)))
 
   results.append(ResultMessageTuple(
       marked_oblique == expect_oblique,
       '%s %s/%d fsSelection marked_oblique %d' % (
-          font_file, style, weight, marked_oblique), full_font_file,
-      _FixFsSelectionBit('OBLIQUE', expect_oblique)))
+          font_file, expected_style, expected_weight, marked_oblique),
+      full_font_file, _FixFsSelectionBit('OBLIQUE', expect_oblique)))
 
-  # We use 250 for 100 for reasons I can't recall.
-  # TODO(user): adjust expectation for low weights per Dave C
-  # If we only have 1 it'll be 400 in METADATA but font might mismatch
-  expected_weight = weight
-  if weight == 100:
-    expected_weight = 250
+  # For weight < 300, just confirm 250<weight<300
+  # TODO(user): we should also verify ordering is correct
+  weight_ok = expected_weight == actual_weight
+  weight_msg = str(expected_weight)
+  if expected_weight < 300:
+    weight_ok = actual_weight > 250 and actual_weight < 300
+    weight_msg = '(250, 300)'
 
   results.append(ResultMessageTuple(
-      expected_weight == actual_weight,
-      '%s %s/%d weight expected: %d usWeightClass: %d' %
-      (font_file, style, weight, expected_weight, actual_weight),
+      weight_ok,
+      '%s %s/%d weight expected: %s usWeightClass: %d' %
+      (font_file, expected_style, expected_weight, weight_msg, actual_weight),
       full_font_file, _FixWeightClass(expected_weight)))
 
   expected_fs_type = 0
   results.append(ResultMessageTuple(
       expected_fs_type == fs_type,
       '%s %s/%d fsType expected: %d fsType: %d' %
-      (font_file, style, weight, expected_fs_type, fs_type),
+      (font_file, expected_style, expected_weight, expected_fs_type, fs_type),
       full_font_file, _FixFsType(expected_fs_type)))
 
   return results
@@ -331,6 +332,7 @@ def _CheckFontNameValues(path, name, font, ttf):
   full_font_file = os.path.join(path, font['filename'])
 
   expectations = [
+      ('family', fonts.NAME_FAMILY, name),
       ('postScriptName', fonts.NAME_PSNAME,
        fonts.FilenameFor(name, style, weight)),
       ('fullName', fonts.NAME_FULLNAME, fonts.FullnameFor(name, style, weight))]

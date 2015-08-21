@@ -138,3 +138,30 @@ Note that you should have a single directory named with the family name, a singl
   * For each person involved in the design of the font, include their name, email, homepage URL, and role in the project. The [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#11bc4f28) example in the OFL FAQ is a good guide for this file.
 
 Now contact me 
+
+* * *
+
+#### Comment by vernnobile, Mar 21, 2011
+
+Not sure if the mimimal PREP table is 'stale', but i can comment on some approaches to setting the flags in a Truetypefont for optimisting rendering. Info here is on the 'gasp' tables of a truetype font, and how they effect the way a font is rendered to a digital screen, partly by using Truetype hinting instructions. This applies to fonts being rendered via a Windows OS, and Linux (Freetype) OS's. OS X does not utilise a font's hinting instructions. Gasp tables come in 2 flavours, version 0, and version 1. Version 1 is an enhanced version developed to utilise Microsoft's ClearType? technology. Version 0 uses 2 flags that can be toggled ON or OFF; 'dogray' antialiased smoothing, and, grid fitting. Version 1 tables contain same as version 0 but with 2 extra flags for ClearType?; Symmetric Smoothing, and Symmeric Gridfitting.
+
+So in a version 0 table you have access to turning on/off antialiasing and gridfitting. In vrsion 1 tables you have access to antialiasing, gridfitting, symmetric smoothing, and symmetric gridfitting.
+
+Worth noting that if Cleartype is not present a version 1 table will act as a version 0 table.This means the ideal is to have a version 1 table that is set for Cleartype and non-Cleartype.
+
+Traditionally version 0 tables were set so that font sizes below 8 ppem had no grid fitting but did have antialiasing. From 9-16 ppem, just grid fitting. And fonts above 17ppem had both antialiasing and grid fitting toggled on. IMO the use of accelerated graphics cards and higher resolution screens make this appraoch obsolete. Microsofts DirectWrite? pushed this even further with much improved rendering built into the OS and apps. In this scenario it makes sense to simply toggle all 4 flogs ON for all font sizes.
+
+At present it is not too straigtforward to build fonts with version 1 gasp tables. Fontlab cannot do it. Microsoft Visual Truetype can do it. Fontforge can do it. Perhaps the best approach is to use TTX (part of 'fonttools') and set the tables by hand.
+
+#### Comment by vernnobile, Mar 22, 2011
+
+I should add something here. The combination of accelerated graphics, high resolution screens and and Direct Write is making hinting a font for Windows OS optional, perhaps. Not obsolete, but hinting is no longer so crucial to rendering fonts on DirectWrite?. For example under DirectWrite? an unhinted font will render almost or as good as a hinted font. 2 major caveats here though - an unhinted font will not be backward compatible to older Windows OS's or older browsers. Some fonts can still benefit from hinting where particularly small details need to be preserved.
+
+#### Comment by thomas.phinney, Dec 5, 2011
+
+Just to clarify a point on Vern's stuff on the 'gasp' table, the new flags in the version 1 gasp table are specific to the DirectWrite? version of ClearType?. Older GDI ClearType? ignores these. If DirectWrite? is not present, a version 1 table acts like a version 0 table and the additional flags are ignored.
+
+#### Comment by vernnobile, Dec 7, 2011
+re "Now find a Windows machine with Firefox 4+ installed, and visit http://understandingfonts.com/2011/fonttest/ and drag and drop all the fonts into the grey bar at the top. Using the Control Panel, you can toggle ClearType? on and off to see the differences."
+
+Testing for Windows OS's is a little more complex than this unfortunately :-/ On Windows XP, Firefox4 will not use (as far as i know) DirectWrite? smoothing, but it will on Windows 7 (not sure about Vista). This is an issue when testing as there is a BIG difference between DirectWrite? and GDI font rendering. A font can look ok under DirectWrite? but not good under GDI, so I would say you really need to test fonts for adequate rendering primarily on GDI (if a font renders ok on GDI it will render ok on DirectWrite?) For this Chrome is better than Firefox as it gives a less-than-best scenario for testing purposes.

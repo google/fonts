@@ -1,16 +1,14 @@
-#summary Moving your font project to Git
-
-= Introduction =
+# Introduction
 
 Many type designers are using Git to manage their projects, especially libre fonts that encourage direct contributions to font files.
 
-This page explains [or, will in the future explain] how to learn enough about Git to move an open font project available in this Mercurial repository to a Git repository, and how to manage a open font project with it. 
+This page explains [or, will in the future explain] how to learn enough about Git to move an open font project available in this Mercurial repository to a Git repository, and how to manage a open font project with it.
 
-= Details =
+# Details
 
 UNDER CONSTRUCTION
 
-= Further Reading =
+# Further Reading
 
 1. 15 minute interactive game to learn Git and Github: http://try.github.io/
 

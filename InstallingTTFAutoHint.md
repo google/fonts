@@ -1,50 +1,50 @@
-#summary How to compile the `ttfautohint` tool that Google Web Fonts supported
+# How To Install The Binary on Mac OS X
 
-= How To Install The Binary on Mac OS X =
+_How to compile the `ttfautohint` tool that Google Web Fonts supported_
 
 Go to http://freetype.org/ttfautohint/#download and click the blue text 'Apple'
 
 You will download the file ttfautohint-0.8-tty-osx.tar.gz - if OS X asks you to pick between tar.gz and .gz, pick tar.gz
 
-Find the file in the finder, drag and drop it into your home folder, and unzip it. You will find a file with a black icon named 'ttfautohint' 
+Find the file in the finder, drag and drop it into your home folder, and unzip it. You will find a file with a black icon named 'ttfautohint'
 
 Run the Terminal and type this in:
 
-{{{
+```
     sudo mkdir -p /usr/local/bin; 
-}}}
+```
 
 and hit return. Enter your Mac login password (as you would for the screensaver) and hit return. Then type:
 
-{{{
+```
     sudo mv ttfautohint /usr/local/bin/; 
-}}}
+```
 
 and hit return. Then you can run ttfautohint! :) See the help screen this way:
 
-{{{
+```
    ttfautohint --help 
-}}}
+```
 
-= The following information is a little out of date, and may no longer be valid =
+# The following information is a little out of date, and may no longer be valid
 
-= Installing ttfautohint from source code =
+# Installing ttfautohint from source code
 
-= Introduction =
+# Introduction
 
-`ttfautohint` is a great new autohinter by Werner Lemberg, maintainer of the freetype library. 
+`ttfautohint` is a great new autohinter by Werner Lemberg, maintainer of the freetype library.
 
 Here is how to install it and use it from source code.
 
-Thanks to [http://code.newtypography.co.uk/ Vernon Adams] and [http://somadesign.ca/2011/improve-windows-type-rendering-with-ttfautohint/ Matt Wiebe] for the initial version and thorough checking of this guide. 
+Thanks to [Vernon Adams](http://code.newtypography.co.uk/) and [Matt Wiebe](http://somadesign.ca/2011/improve-windows-type-rendering-with-ttfautohint/) for the initial version and thorough checking of this guide.
 
-You may like to see Vern's detailed blogging with many comparison screenshots of the tool at http://code.newtypography.co.uk 
+You may like to see Vern's detailed blogging with many comparison screenshots of the tool at http://code.newtypography.co.uk
 
-= Installation =
+# Installation
 
-Open a Terminal application and run the following commands one at a time. 
+Open a Terminal application and run the following commands one at a time.
 
-{{{
+```
 
 # First install XCode from the Mac OS X Install DVD
 
@@ -206,25 +206,25 @@ make;
 
 sudo make install;
 
-}}}
+```
 
-You can now close the Terminal window. 
+You can now close the Terminal window.
 
-= Usage =
+# Usage
 
-To use ttfautohint, open a Terminal window run the program from the terminal by typing 
+To use ttfautohint, open a Terminal window run the program from the terminal by typing
 
-{{{
+```
 
 ttfautohint -f -i -v INFILE.ttf OUTFILE.ttf
 
-}}}
+```
 
 Here INFILE.ttf is your unhinted font file, and OUTFILE.ttf is the hinted font file the program will produce.
 
 If you type only the program name, you will see all the options, like this:
 
-{{{
+```
 
 $ ttfautohint 
 
@@ -256,4 +256,4 @@ The used ppem value for option -p is FUnits per em, normally 2048.
 Report bugs to: freetype-devel@nongnu.org
 FreeType home page: <http://www.freetype.org>
 
-}}}
+```

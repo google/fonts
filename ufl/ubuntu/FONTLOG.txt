@@ -20,10 +20,24 @@ History
 
 The Ubuntu Font Family has been creating during 2010 and 2011.  As of
 September 2011 coverage is provided for Latin, Cyrillic and Greek across
-Regular, Italic, Bold and Bold-Italic.
+Regular, Italic, Bold and Bold-Italic.  Further work was uptaken during
+2015.
 
 
 ChangeLog
+
+2015-08-21 (Paul Sladen) Ubuntu Font Family version 0.83
+
+  Note: This release was created by binary patching from the v0.80
+  release using the scripts in 'sources/patch-0.80-0.83/' to rebuild
+  the necessary tables. The release selectively updates only those
+  proportional .ttf font files exhibiting the bug below bug number;
+  the Ubuntu Mono monospace font files remain unchanged, being the
+  original version 0.80 ones.
+
+  [Marc Foley]
+  * [Engineering] Fixed wrong characters appear in some mac apps. (LP: #1334363)
+
 
 2011-09-22 (Paul Sladen) Ubuntu Font Family version 0.80
 
@@ -207,6 +221,10 @@ D: font.ubuntu.com revamp implementation with Canonical Web Team
 N: Iain Farrell
 W: http://www.flickr.com/photos/iain
 D: Ubuntu Font Family delivery for the Ubuntu UX team at Canonical
+
+N: Marc Foley
+W: http://www.marcfoley.co/
+D: Font Engineer at Dalton Maag for the 2015 updates
 
 N: Shiraaz Gabru
 W: http://www.daltonmaag.com/

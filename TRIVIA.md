@@ -17,6 +17,7 @@ They are no longer listed in the main www.google.com/fonts directory, but the fi
 The www.google.com/fonts directory is accompanied by a [Google Fonts Developer API](https://developers.google.com/fonts/docs/developer_api) which provides raw data for constructing such a directory in JSON format. 
 Here is a list of 3rd party directories:
 
+* http://font-combinator.com / http://chipcullen.com/font-combinator
 * https://www.typetester.org
 * http://font-combinator.com
 * http://somadesign.ca/demos/better-google-fonts
@@ -28,3 +29,14 @@ Here is a list of 3rd party directories:
 * https://hail2u.github.io/mn
 * http://fontflame.com
 * http://jenniferdewalt.com/gfboom/page
+* http://fontpair.co
+* https://typ.io
+* http://andreasweis.com/webfontblender
+* http://www.typegenius.com/
+
+There are also handcrafted directories with rich samples:
+
+* http://hellohappy.org/beautiful-web-type/
+* http://femmebot.github.io/google-type/
+* http://100daysoffonts.com
+* http://jxnblk.com/type-a/

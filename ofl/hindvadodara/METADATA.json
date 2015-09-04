@@ -1,9 +1,9 @@
 {
   "name": "Hind Vadodara",
-  "designer": "Hitesh Malaviya",
-  "license": "",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
   "visibility": "Sandbox",
-  "category": "monospace",
+  "category": "Sans Serif",
   "size": 54394,
   "fonts": [
     {
@@ -53,7 +53,10 @@
     }
   ],
   "subsets": [
-    "latin"
+    "gujarati",
+    "latin",
+    "latin-ext",
+    "menu"
   ],
-  "dateAdded": "2015-08-31"
+  "dateAdded": "2015-09-09"
 }

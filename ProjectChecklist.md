@@ -33,6 +33,7 @@ You may maintain a build script that runs the build steps, or you may make a tut
 - [ ] Support the 219 "base Latin" glyphs https://github.com/google/fonts/blob/master/tools/encodings/latin_unique-glyphs.nam
 - [ ] Support Adobe Latin 3 http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-3.html
 - [ ] Support Adobe Latin 4 (mainly Vietnamese) http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-4.html
+- [ ] `.notdef` glyph is a recommended design https://www.microsoft.com/typography/otspec/recom.htm
 
 ## OpenType
 

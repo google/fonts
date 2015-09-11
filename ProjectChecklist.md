@@ -40,3 +40,9 @@ You may maintain a build script that runs the build steps, or you may make a tut
 - [ ] Support Turkish with OpenType http://typedrawers.com/discussion/1101/izmir-turkey
 - [ ] Support tabular numbers across the family http://typedrawers.com/discussion/1103/tabular-figures-width-consistency#latest
 
+## Test Documents
+
+- [ ] http://understandingfonts.com/2011/fonttest
+- [ ] http://impallari.com/testing
+- [ ] http://testmyfont.com
+

@@ -34,6 +34,7 @@ You may maintain a build script that runs the build steps, or you may make a tut
 - [ ] Support Adobe Latin 3 http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-3.html
 - [ ] Support Adobe Latin 4 (mainly Vietnamese) http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-4.html
 - [ ] `.notdef` glyph is a recommended design https://www.microsoft.com/typography/otspec/recom.htm
+- [ ] Anchors for all letter and diacritics https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842
 
 ## OpenType
 
@@ -46,3 +47,6 @@ You may maintain a build script that runs the build steps, or you may make a tut
 - [ ] http://impallari.com/testing
 - [ ] http://testmyfont.com
 
+### Tests
+
+- [ ] Test for all letter/diacritic combinations https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842

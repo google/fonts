@@ -1,0 +1,62 @@
+{
+  "name": "Hind Mysuru",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 52267,
+  "fonts": [
+    {
+      "name": "Hind Mysuru",
+      "postScriptName": "HindMysuru-Light",
+      "fullName": "Hind Mysuru Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "HindMysuru-Light.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Mysuru",
+      "postScriptName": "HindMysuru-Regular",
+      "fullName": "Hind Mysuru",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HindMysuru-Regular.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Mysuru",
+      "postScriptName": "HindMysuru-Medium",
+      "fullName": "Hind Mysuru Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "HindMysuru-Medium.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Mysuru",
+      "postScriptName": "HindMysuru-SemiBold",
+      "fullName": "Hind Mysuru SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "HindMysuru-SemiBold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Mysuru",
+      "postScriptName": "HindMysuru-Bold",
+      "fullName": "Hind Mysuru Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "HindMysuru-Bold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "kannada",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-09-16"
+}

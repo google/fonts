@@ -1,0 +1,62 @@
+{
+  "name": "Hind Jalandhar",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 25511,
+  "fonts": [
+    {
+      "name": "Hind Jalandhar",
+      "postScriptName": "HindJalandhar-Light",
+      "fullName": "Hind Jalandhar Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "HindJalandhar-Light.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Jalandhar",
+      "postScriptName": "HindJalandhar-Regular",
+      "fullName": "Hind Jalandhar",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HindJalandhar-Regular.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Jalandhar",
+      "postScriptName": "HindJalandhar-Medium",
+      "fullName": "Hind Jalandhar Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "HindJalandhar-Medium.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Jalandhar",
+      "postScriptName": "HindJalandhar-SemiBold",
+      "fullName": "Hind Jalandhar SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "HindJalandhar-SemiBold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Jalandhar",
+      "postScriptName": "HindJalandhar-Bold",
+      "fullName": "Hind Jalandhar Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "HindJalandhar-Bold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "gurmukhi",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-09-16"
+}

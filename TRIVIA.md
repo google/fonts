@@ -1,5 +1,12 @@
 # github.com/google/fonts.git repo trivia
 
+## Google Fonts Repo Wiki
+
+The previous fonts Mercurial repository had a wiki at <https://code.google.com/p/googlefontdirectory/wiki> which is no longer available. 
+The contents of the wiki are now available here:
+
+<https://github.com/googlefonts/gf-docs>
+
 ## Duplicated fonts
 
 There are some similarly named pairs of directories which each have identically named font files. 

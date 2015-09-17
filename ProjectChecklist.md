@@ -31,7 +31,8 @@ Often these are Glyphs files, sets of UFOs, VFBs, or SFDs.
 You may maintain a set of 'build sources', which are updated less frequently than the actual source files, and updated with care. 
 They may have some 'pre-build' operations applied, like Remove Overlaps, and are used as input to a build script. 
 
-- [ ] Build script 
+- [ ] Build process documentation
+- [ ] Build process script
 
 You may maintain a build script that runs the build steps, or you may make a tutorial for taking those steps manually (or a mix.)
 
@@ -45,7 +46,7 @@ There should not be 'stray' files in the repo, such as `.empty`
 
 ## Production
 
-- [ ] Including ttfautohint 
+- [ ] Including ttfautohint command line options in build script
 - [ ] Including ttfautohint controls file
 
 ## Latin Design
@@ -71,11 +72,8 @@ There should not be 'stray' files in the repo, such as `.empty`
 
 - [ ] Test for all letter/diacritic combinations https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842
 
-
-
 # Further reading
 
 ### UFO
 
 The UFO format is documented at http://unifiedfontobject.org and developed on Github (https://github.com/unified-font-object/ufo-spec) and the ufo-spec mailing list (https://groups.google.com/forum/#!forum/ufo-spec)
-

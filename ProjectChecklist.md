@@ -2,11 +2,23 @@
 
 This page lists how to learn enough about Git to move an open font project available in this Mercurial repository to a Git repository, and how to manage a open font project with it.
 
-## Project
+## Project Repository
 
 - [ ] Set up a Github Repo
 
 New to Git and Github? Play the http://try.github.io 15 minute interactive game, and read http://nvie.com/posts/a-successful-git-branching-model, an essay about using Git for ongoing project management.
+
+- [ ] README.md file
+
+Each Github repo must have a README.md that summarises the project. This may include
+
+- [ ] DESCRIPTION.en_us.html
+
+Description paragraph to be used in font directories.
+
+- [ ] BRIEF.md
+
+Each Github repo must have a BRIEF.md that describes the project. 
 
 - [ ] Actual source files
 
@@ -26,6 +38,10 @@ You may maintain a build script that runs the build steps, or you may make a tut
 - [ ] Binary files
  
 After the build process you will have OTF and TTF files.
+
+- [ ] "Clean" repo
+
+There should not be 'stray' files in the repo, such as `.empty` 
 
 ## Production
 
@@ -54,6 +70,7 @@ After the build process you will have OTF and TTF files.
 ### Tests
 
 - [ ] Test for all letter/diacritic combinations https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842
+
 
 
 # Further reading

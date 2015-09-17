@@ -56,6 +56,7 @@ There should not be 'stray' files in the repo, such as `.empty`
 - [ ] Support Adobe Latin 4 (mainly Vietnamese) http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-4.html
 - [ ] `.notdef` glyph is a recommended design https://www.microsoft.com/typography/otspec/recom.htm
 - [ ] Anchors for all letter and diacritics https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842
+- [ ] Prime design https://github.com/googlei18n/noto-fonts/issues/510#issue-105444463
 
 ## OpenType
 

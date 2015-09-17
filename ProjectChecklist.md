@@ -50,3 +50,11 @@ You may maintain a build script that runs the build steps, or you may make a tut
 ### Tests
 
 - [ ] Test for all letter/diacritic combinations https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842
+
+
+# Further reading
+
+### UFO
+
+The UFO format is documented at http://unifiedfontobject.org and developed on Github (https://github.com/unified-font-object/ufo-spec) and the ufo-spec mailing list (https://groups.google.com/forum/#!forum/ufo-spec)
+

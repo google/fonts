@@ -23,6 +23,10 @@ They may have some 'pre-build' operations applied, like Remove Overlaps, and are
 
 You may maintain a build script that runs the build steps, or you may make a tutorial for taking those steps manually (or a mix.)
 
+- [ ] Binary files
+ 
+After the build process you will have OTF and TTF files.
+
 ## Production
 
 - [ ] Including ttfautohint 

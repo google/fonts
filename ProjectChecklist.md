@@ -2,6 +2,40 @@
 
 This page lists how to learn enough about Git to move an open font project available in this Mercurial repository to a Git repository, and how to manage a open font project with it.
 
+## Tools
+
+### Windows
+
+You will need a Windows computer, real or virtual machine, for testing your fonts as web fonts. 
+
+- [ ] Microsoft offers zero-price virtual machine images at https://dev.modern.ie/tools/vms/mac/
+- [ ] MSIE
+- [ ] Firefox
+- [ ] Chrome
+- [ ] Safari
+- [ ] Opeta
+
+### Mac
+
+- [ ] Homebrew is a package manager for installing unix tools. http://brew.sh
+
+```sh
+brew install fontforge;
+```
+
+- [ ] pip is a package manager for installing python tools. https://pip.pypa.io
+
+```
+pip install pyfontaine;
+pip install fontbakery;
+```
+
+- [ ] FontForge http://fontforge.github.io
+- [ ] Glyphs https://glyphsapp.com
+- [ ] FontLab https://fontlab.com
+- [ ] OTMaster http://dtl.nl
+- [ ] 
+
 ## Project Repository
 
 - [ ] Set up a Github Repo

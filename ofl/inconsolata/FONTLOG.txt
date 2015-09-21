@@ -21,6 +21,10 @@ There are two .vfb Source files:
 
 ChangeLog
 
+21 September 2015 (Dave Crossland) Inconsolata bold v. 1.016
+- Fixed internal metadata
+- Updated ttfautohint to v1.3
+
 18 September 2012 (Alexei Vanyashiin) Inconsolata bold v. 1.014
 - Fixed spacing issue associated with the character "4" and "0"
 - Applied ttfautohint (to fix windows rendering problem that occurred in v 1.000)

@@ -57,13 +57,27 @@ Each Github repo must have a BRIEF.md that describes the project.
 - [ ] Actual source files
 
 Your project will include _actual_ source files, the ones that you use yourself when drawing the design. 
-These are often quite 'messy', but no problem. 
-Often these are Glyphs files, sets of UFOs, VFBs, or SFDs.
+These are typically files with extensions like `.glyphs .ufo .vfb .sfd .sfdir`.
+These are often quite 'messy'. 
+Common indications of actual source files are:
+
+- guidelines
+- overlapping shapes
+- multiple layers with alternative drawings
+- unencoded glyphs with alternative drawings
+- 'smart components'
 
 - [ ] Build source files
 
-You may maintain a set of 'build sources', which are updated less frequently than the actual source files, and updated with care. 
-They may have some 'pre-build' operations applied, like Remove Overlaps, and are used as input to a build script. 
+You may maintain a set of 'build sources', which are used as input to a build script. 
+They are updated less frequently than the actual source files, and updated with care. 
+Common indications of build source files are:
+
+- no or minimal guidelines
+- no overlapping shapes (the result of a Remove Overlaps operation)
+- a single layer per Master
+- no unusual or additional unencoded glyphs with alternative drawings
+- no 'smart components'
 
 - [ ] Build process documentation
 - [ ] Build process script

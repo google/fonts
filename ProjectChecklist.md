@@ -48,15 +48,17 @@ Each Github repo must have a README.md that summarises the project. This may inc
 
 - [ ] DESCRIPTION.en_us.html
 
-Description paragraph to be used in font directories.
+Description paragraph in HTML to be used directly in font directories. 
+This may be omitted by the designer, but if so requires Google to create one based on the contents of the README.md.
 
 - [ ] BRIEF.md
 
-Each Github repo must have a BRIEF.md that describes the project. 
+A design brief that describes the intentions and goals of the project at its beginning. 
+This should be added at the start of a project, but may not be included in existing projects.
 
 - [ ] Actual source files
 
-Your project will include _actual_ source files, the ones that you use yourself when drawing the design. 
+A type project will include _actual_ source files, the ones that designers use ourselves when drawing the design. 
 These are typically files with extensions like `.glyphs .ufo .vfb .sfd .sfdir`.
 These are often quite 'messy'. 
 Common indications of actual source files are:
@@ -69,7 +71,7 @@ Common indications of actual source files are:
 
 - [ ] Build source files
 
-You may maintain a set of 'build sources', which are used as input to a build script. 
+Some type projects maintain a set of 'build sources', which are used as input to a build script. 
 They are updated less frequently than the actual source files, and updated with care. 
 Common indications of build source files are:
 

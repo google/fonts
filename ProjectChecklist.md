@@ -87,13 +87,20 @@ Common indications of build source files are:
 
 You may maintain a build script that runs the build steps, or you may make a tutorial for taking those steps manually (or a mix.)
 
-- [ ] Binary files
- 
-After the build process you will have OTF and TTF files.
-
 - [ ] "Clean" repo
 
 There should not be 'stray' files in the repo, such as `.empty` 
+
+- [ ] Binary files
+ 
+After the build process you will have OTF and TTF files, which must be included in the repo.
+
+- [ ] The `fsType` embedding bits must be set to 0
+- [ ] The Vertical Metrics must be set correctly
+- [ ] The `FFTM` table should not be included
+- [ ] The `DSIG` table should be included
+- [ ] The `gasp` table should be included and set to 15
+
 
 ## Production
 

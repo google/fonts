@@ -53,8 +53,9 @@ This may be omitted by the designer, but if so requires Google to create one bas
 
 - [ ] BRIEF.md
 
-A design brief that describes the intentions and goals of the project at its beginning. 
-This should be added at the start of a project, but may not be included in existing projects.
+A design brief that describes the intentions and goals of the project. 
+Ideally this will be be added at the start of a project, defining the milestones that will be completed.
+Typically it will be based on a proposal document made by the designer for financial support.
 
 - [ ] Actual source files
 

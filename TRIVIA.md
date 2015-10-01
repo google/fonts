@@ -49,3 +49,15 @@ There are also handcrafted directories with rich samples:
 * http://femmebot.github.io/google-type/
 * http://100daysoffonts.com
 * http://jxnblk.com/type-a/
+
+## Rightsholder contacts
+
+This shell command shows all email addresses for font copyright holders listed in the METADATA.json files:
+
+    grep copyright\"\: */*/MET* | grep \@ |  perl -ne'if(/[\w\.\-\_]+@([\w\-\_]+\.)+[A-Za-z]{2,4}/g){print "$&\n"}' | sort | uniq
+
+This shell command shows all the families without a contact email address:
+
+    grep copyright\"\: */*/MET* | grep -v \@ | cut -d\: -f1 | cut -d\/ -f2 | uniq | sort
+
+The copyright holders of those families are mostly Google, SIL, Adobe, Canonical, Naver, and a couple of outliers. 

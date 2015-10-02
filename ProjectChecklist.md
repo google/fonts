@@ -110,6 +110,8 @@ After the build process you will have OTF and TTF files, which must be included 
 ## Latin Design
 
 - [ ] Support the 219 "base Latin" glyphs https://github.com/google/fonts/blob/master/tools/encodings/latin_unique-glyphs.nam
+- [ ] Lining numerals with tabular spacing should be default; old style figures, and proportional variants, should be included with appropriate OpenType features. 
+The general public calls old style the "jumping numbers" and like their tables to line up.
 - [ ] Support Adobe Latin 3 http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-3.html
 - [ ] Support Adobe Latin 4 (mainly Vietnamese) http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-4.html
 - [ ] `.notdef` glyph is a recommended design https://www.microsoft.com/typography/otspec/recom.htm

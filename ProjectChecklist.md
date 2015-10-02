@@ -80,6 +80,7 @@ Common indications of actual source files are:
 
 Some type projects maintain a set of 'build sources', which are used as input to a build script. 
 They are updated less frequently than the actual source files, and updated with care. 
+These are typically UFO files, compiled with the [afdko](https://github.com/adobe-type-tools/afdko)
 Common indications of build source files are:
 
 - no or minimal guidelines
@@ -101,18 +102,19 @@ There should not be 'stray' files in the repo, such as `.empty`
  
 After the build process you will have OTF and TTF files, which must be included in the repo.
 
+## Production
+
 - [ ] The `fsType` embedding bits must be set to 0
 - [ ] The Vertical Metrics must be set correctly
 - [ ] The `FFTM` table should not be included
 - [ ] The `DSIG` table should be included
 - [ ] The `gasp` table should be included and set to 15
-
-
-## Production
-
-- [ ] Including ttfautohint command line options in build script
-- [ ] Including ttfautohint controls file
-- [ ] All files should be named according to the [DWFF Family Naming](http://designwithfontforge.com/en-US/Font_Info_&_Metadata.html) scheme ([spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
+- [ ] Include ttfautohint command line options in build script
+- [ ] Include ttfautohint controls file
+- [ ] Name files according to the [DWFF Family Naming](http://designwithfontforge.com/en-US/Font_Info_&_Metadata.html) scheme ([spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
+- [ ] Set vertical metrics to the _family's_ y-axis bbox values, with linegaps of 0. 
+- [ ] Use a UPM of 1000 (even for TrueType fonts)
+- [ ] Keep all points within a 4,000 unit square; no point should be beyond `-2000/2000` in either direction
 
 ## Latin Design
 
@@ -123,12 +125,12 @@ The general public calls old style the "jumping numbers" and like their tables t
 - [ ] Support Adobe Latin 4 (mainly Vietnamese) http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-4.html
 - [ ] `.notdef` glyph is a recommended design https://www.microsoft.com/typography/otspec/recom.htm
 - [ ] Anchors for all letter and diacritics https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842
-- [ ] Prime design https://github.com/googlei18n/noto-fonts/issues/510#issue-105444463
+- [ ] Prime design distinct from apostrophe https://github.com/googlei18n/noto-fonts/issues/510#issue-105444463
 
 ## OpenType
 
 - [ ] Support Turkish with OpenType http://typedrawers.com/discussion/1101/izmir-turkey
-- [ ] Support tabular numbers across the family http://typedrawers.com/discussion/1103/tabular-figures-width-consistency#latest
+- [ ] Support tabular numbers with a consistent glyph width across the Regular, Italic, Bold and Bold Italic styles of a family http://typedrawers.com/discussion/1103/tabular-figures-width-consistency
 
 ## Test Documents
 

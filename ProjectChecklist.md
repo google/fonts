@@ -106,6 +106,7 @@ After the build process you will have OTF and TTF files, which must be included 
 
 - [ ] Including ttfautohint command line options in build script
 - [ ] Including ttfautohint controls file
+- [ ] All files should be named according to the [DWFF Family Naming](http://designwithfontforge.com/en-US/Font_Info_&_Metadata.html) scheme ([spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
 
 ## Latin Design
 

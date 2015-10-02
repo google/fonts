@@ -114,7 +114,7 @@ After the build process you will have OTF and TTF files, which must be included 
 - [ ] Name files according to the [DWFF Family Naming](http://designwithfontforge.com/en-US/Font_Info_&_Metadata.html) scheme ([spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
 - [ ] Set vertical metrics to the _family's_ y-axis bbox values, with linegaps of 0. 
 - [ ] Use a UPM of 1000 (even for TrueType fonts)
-- [ ] Keep all points within a 4,000 unit square; no point should be beyond `-2000/2000` in either direction
+- [ ] Keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font; Android TextView widgets will clip fonts beyond that if there's no explicit padding (and designers tend to work just in Latin, so are unlikely to set it) says [Raph](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ)
 
 ## Latin Design
 

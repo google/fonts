@@ -4,9 +4,18 @@ This page lists how to learn enough about Git to move an open font project avail
 
 ## Tools
 
+### Mobile
+
+Testing your type on mobile devices is essential, and more important than on desktops.
+You'll need both iOS and Android devices to do this testing.
+
+- [ ] iPhone 4S+ with iOS 8+ ([reference](https://david-smith.org/iosversionstats/))
+- [ ] Android 4.x or higher (ideally latest) with a "normal" size screen ([reference](https://developer.android.com/about/dashboards/index.html))
+
 ### Windows
 
-You will need a Windows computer, real or virtual machine, for testing your fonts as web fonts. 
+You will need a Windows 7 computer, real or virtual machine, for testing your fonts as web fonts.
+Windows 7 is the most commonly used desktop operating system ([reference](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems)), and also the most challenging font rendering system compared to alternatives.
 
 - [ ] Microsoft offers zero-price virtual machine images at https://dev.modern.ie/tools/vms/mac/
 - [ ] MSIE
@@ -17,14 +26,12 @@ You will need a Windows computer, real or virtual machine, for testing your font
 
 ### Mac
 
-- [ ] Homebrew is a package manager for installing unix tools. http://brew.sh
-
+- [ ] Homebrew is a package manager for installing unix tools, such as FontForge. http://brew.sh
 ```sh
 brew install fontforge;
 ```
 
 - [ ] pip is a package manager for installing python tools. https://pip.pypa.io
-
 ```
 pip install pyfontaine;
 pip install fontbakery;
@@ -34,7 +41,6 @@ pip install fontbakery;
 - [ ] Glyphs https://glyphsapp.com
 - [ ] FontLab https://fontlab.com
 - [ ] OTMaster http://dtl.nl
-- [ ] 
 
 ## Project Repository
 

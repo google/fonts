@@ -17,11 +17,11 @@
     },
     {
       "name": "Biryani",
-      "postScriptName": "Biryani-DemiBold",
-      "fullName": "Biryani DemiBold",
+      "postScriptName": "Biryani-SemiBold",
+      "fullName": "Biryani SemiBold",
       "style": "normal",
       "weight": 600,
-      "filename": "Biryani-DemiBold.ttf",
+      "filename": "Biryani-SemiBold.ttf",
       "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
     },
     {
@@ -35,11 +35,11 @@
     },
     {
       "name": "Biryani",
-      "postScriptName": "Biryani-Heavy",
-      "fullName": "Biryani Heavy",
+      "postScriptName": "Biryani-Black",
+      "fullName": "Biryani Black",
       "style": "normal",
       "weight": 900,
-      "filename": "Biryani-Heavy.ttf",
+      "filename": "Biryani-Black.ttf",
       "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
     },
     {
@@ -62,11 +62,11 @@
     },
     {
       "name": "Biryani",
-      "postScriptName": "Biryani-UltraLight",
-      "fullName": "Biryani UltraLight",
+      "postScriptName": "Biryani-Thin",
+      "fullName": "Biryani Thin",
       "style": "normal",
       "weight": 200,
-      "filename": "Biryani-UltraLight.ttf",
+      "filename": "Biryani-Thin.ttf",
       "copyright": "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
     }
   ],

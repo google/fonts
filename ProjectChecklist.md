@@ -115,17 +115,31 @@ After the build process you will have OTF and TTF files, which must be included 
 - [ ] Set vertical metrics to the _family's_ y-axis bbox values, with linegaps of 0. 
 - [ ] Use a UPM of 1000 (even for TrueType fonts)
 - [ ] Keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font; Android TextView widgets will clip fonts beyond that if there's no explicit padding (and designers tend to work just in Latin, so are unlikely to set it) says [Raph](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ)
+- [ ] Production masters have PostScript manual hinting https://www.glyphsapp.com/tutorials/hinting-manual-postscript-hinting
+- [ ] 
 
 ## Latin Design
 
 - [ ] Support the 219 "base Latin" glyphs https://github.com/google/fonts/blob/master/tools/encodings/latin_unique-glyphs.nam
+- [ ] Support all four figure sets https://www.glyphsapp.com/tutorials/figure-sets/
+- [ ] Support mark based diacritics https://www.glyphsapp.com/tutorials/diacritics https://www.glyphsapp.com/tutorials/advanced-diacritics-narrow-marks
+- [ ] Support the tallest glyph (perhaps Ǻ http://typedrawers.com/discussion/65/r-i-p) 
 - [ ] Lining numerals with tabular spacing should be default; old style figures, and proportional variants, should be included with appropriate OpenType features. 
 The general public calls old style the "jumping numbers" and like their tables to line up.
 - [ ] Support Adobe Latin 3 http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-3.html
-- [ ] Support Adobe Latin 4 (mainly Vietnamese) http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-4.html
+- [ ] Support Adobe Latin 4 (mainly Vietnamese) http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-4.html https://www.glyphsapp.com/tutorials/advanced-diacritics-multiple-anchors
 - [ ] `.notdef` glyph is a recommended design https://www.microsoft.com/typography/otspec/recom.htm
 - [ ] Anchors for all letter and diacritics https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842
 - [ ] Prime design distinct from apostrophe https://github.com/googlei18n/noto-fonts/issues/510#issue-105444463
+- [ ] Support Catalan https://www.glyphsapp.com/tutorials/localize-your-font-catalan-punt-volat
+- [ ] Support Dutch https://www.glyphsapp.com/tutorials/localize-your-font-accented-dutch-ij
+- [ ] Support German https://www.glyphsapp.com/tutorials/localize-your-font-german-capital-sharp-s
+- [ ] Support Polish https://www.glyphsapp.com/tutorials/localize-your-font-polish-kreska http://www.twardoch.com/download/polishhowto/ogonek.html 
+- [ ] Support Romanian and Moldovian https://www.glyphsapp.com/tutorials/localize-your-font-romanian-and-moldovan
+- [ ] Support Turkish https://www.glyphsapp.com/tutorials/localize-your-font-turkish
+- [ ] Support Slashed Zero https://www.glyphsapp.com/tutorials/slashed-zero
+- [ ] Support fractions, superscript and subscript numerals https://www.glyphsapp.com/tutorials/fractions https://www.glyphsapp.com/tutorials/superscript-and-subscript-figures 
+
 
 ## OpenType
 

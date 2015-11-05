@@ -1,0 +1,14 @@
+
+@font-face {
+	font-family: 'LuenTai1';
+	src: url(
+	'https://sites.google.com/site/luentaai/font-css/LuenTai1.eot');	src: local('LuenTai1.eot/#iefix')format('embedded-opentype'),
+	url('https://sites.google.com/site/luentaai/font-css/LuenTai1.woff') format('woff'), 
+	url('https://sites.google.com/site/luentaai/font-css/LuenTai1.ttf') format('truetype'), 
+	url('https://sites.google.com/site/luentaai/font-css/LuenTai1.svg') format('svg'),
+	 url('https://sites.google.com/site/luentaai/font-css/LuenTai1.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+	
+}
+*,body,h1,h2,h3,h4,h5,h6,p,span,div { font-family:LuenTai1, Arial, Tahoma, Helvetica, FreeSans, sans-serif !important; line-height: 170%; }

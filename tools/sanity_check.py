@@ -14,6 +14,17 @@ import gflags as flags
 
 from util import google_fonts as fonts
 
+# make a unicode escaper
+if sys.version < '3':
+    import codecs
+    def u(x):
+        if not x:
+            return ''
+        return codecs.unicode_escape_decode(x)[0]
+else:
+    def u(x):
+        return x
+
 FLAGS = flags.FLAGS
 
 flags.DEFINE_boolean('suppress_pass', True, 'Whether to print pass: results')
@@ -341,6 +352,7 @@ def _CheckFontNameValues(path, name, font, ttf):
     # If you have lots of name records they should ALL have the right value
     actuals = fonts.ExtractNames(ttf, name_id)
     for (idx, actual) in enumerate(actuals):
+      actual = u(actual)
       results.append(ResultMessageTuple(
           expected == actual,
           '%s %s/%d \'name\' %s[%d] expected %s, got %s' %

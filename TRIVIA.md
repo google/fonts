@@ -19,6 +19,10 @@ They are no longer listed in the main www.google.com/fonts directory, but the fi
 - `ofl/siamreap` and `ofl/siemreap` contain `Siemreap.ttf`
 - `ofl/terminaldosis` and `ofl/dosis` contain the same files (renamed) and `ofl/terminaldosislight` contain `TerminalDosis-Light.ttf`
 
+## Missing METADATA.json files
+
+Fonts in Early Access do not have METADATA.json files.
+
 ## 3rd Party Directories
 
 The www.google.com/fonts directory is accompanied by a [Google Fonts Developer API](https://developers.google.com/fonts/docs/developer_api) which provides raw data for constructing such a directory in JSON format. 

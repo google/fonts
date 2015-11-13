@@ -52,9 +52,21 @@ If your font works on Windows MSIE and Android Chrome, but not in CS, then it is
 
 ## Project Repository
 
-- [ ] Set up a Github Repo
+### Set up a Github Repo
 
-New to Git and Github? Play the http://try.github.io 15 minute interactive game, and read http://nvie.com/posts/a-successful-git-branching-model, an essay about using Git for ongoing project management.
+I expect all development to be done publicly, to invite the public to review work in progress, and to discuss all technical/design issues. 
+
+Github is a online project collaboration platform, somewhat similar to Dropbox but more fine-grained as it uses the Git version control system.
+New to Github and Git? Play the http://try.github.io 15 minute interactive game, and read http://nvie.com/posts/a-successful-git-branching-model, an essay about using Git for ongoing project management.
+
+David Lemon said at ATypI 2014 how the Adobe Type team has benefited from libre fonts culture, and that Git and Github was one of the most positive things ([reference video](https://www.youtube.com/watch?v=DBz0rVUYNPA).)
+Adobe have recently used this kind of "publish early and often, gathering feedback" approach with the Vortice design ([reference](http://blog.typekit.com/2015/03/04/introducing-vortice-and-the-adobe-type-concepts-program/).) A designer recently commented on his experience with all this:
+
+> But really, I used to hate Git because I don’t understand why I have to use it…. until I started working with agile method. Since then I keep using Git even on projects I work alone because commit messages help me remember thing I did or why I did it on each project.
+
+Glyphs has a plugin for working with Git, [github.com/simoncozens/GlyphsGit](https://github.com/simoncozens/GlyphsGit)
+
+### Repo Contents
 
 - [ ] README.md file
 

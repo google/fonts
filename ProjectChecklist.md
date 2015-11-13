@@ -9,38 +9,46 @@ This page lists how to learn enough about Git to move an open font project avail
 Testing your type on mobile devices is essential, and more important than on desktops.
 You'll need both iOS and Android devices to do this testing.
 
-- [ ] iPhone 4S+ with iOS 8+ ([reference](https://david-smith.org/iosversionstats/))
-- [ ] Android 4.x or higher (ideally latest) with a "normal" size screen ([reference](https://developer.android.com/about/dashboards/index.html))
+- [ ] iPhone 4S+ with iOS 8+ ([reference](https://david-smith.org/iosversionstats/)) Safari
+- [ ] Android 4.x or higher (ideally latest) with a "normal" size screen ([reference](https://developer.android.com/about/dashboards/index.html)) Chrome
+
+The support of OpenType features in iOS is buggy, but improving.  
 
 ### Windows
 
 You will need a Windows 7 computer, real or virtual machine, for testing your fonts as web fonts.
 Windows 7 is the most commonly used desktop operating system ([reference](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems)), and also the most challenging font rendering system compared to alternatives.
 
-- [ ] Microsoft offers zero-price virtual machine images at https://dev.modern.ie/tools/vms/mac/
+Microsoft offers zero-price virtual machine images at https://dev.modern.ie/tools/vms/mac/
+
 - [ ] MSIE
 - [ ] Firefox
 - [ ] Chrome
 - [ ] Safari
-- [ ] Opeta
+- [ ] Opera
 
 ### Mac
 
 - [ ] Homebrew is a package manager for installing unix tools, such as FontForge. http://brew.sh
-```sh
-brew install fontforge;
-```
+
+    brew install fontforge;
 
 - [ ] pip is a package manager for installing python tools. https://pip.pypa.io
-```
-pip install pyfontaine;
-pip install fontbakery;
-```
+
+    pip install pyfontaine;
+    pip install fontbakery;
 
 - [ ] FontForge http://fontforge.github.io
 - [ ] Glyphs https://glyphsapp.com
 - [ ] FontLab https://fontlab.com
 - [ ] OTMaster http://dtl.nl
+
+#### Note on Adobe CS
+
+The support of OpenType features in Adobe applications is buggy, but improving. 
+Since Google Fonts are primarily for use on the web, how web browsers render the font is primarily important (and fortunately
+browsers tend to have much better and up to date OpenType support in general.) 
+If your font works on Windows MSIE and Android Chrome, but not in CS, then it is likely to be a CS bug. 
 
 ## Project Repository
 

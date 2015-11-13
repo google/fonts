@@ -156,6 +156,20 @@ The general public calls old style the "jumping numbers" and like their tables t
 
 - [ ] Test for all letter/diacritic combinations https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842
 
+### Versioning
+
+Abstractly, we can distinguish between work that is public and publicised. 
+Proprietary software/fonts are developed privately, and then tightly couple their releases' publication and publicity, marking clear versions in each release. 
+Publicly developed libre software/fonts necessarily make more of a difference between the two concepts, since publication is constant. 
+
+Practically speaking, the availability of fonts in the Google Fonts API is the primary point of publicity. 
+A secondary point is the Github releases system -https://help.github.com/articles/creating-releases/ - which is a good way of marking new versions when you wish to queue them up for release in the Google Fonts API.
+Its important that the version fields inside the source and binary font files in a release (eg in the NAME table, or Font Info inputs) match the version labelled on the release. 
+
+That github help article links to http://semver.org and while this is a good version numbering scheme for software, since the binary font metadata field can only have one period separator, for fonts a `MAJOR.MINOR-or-PATCH` scheme is better, starting with 1.000 and incrementing from there (1.001, 1.002, etc) 
+
+It would be good to have some note in the version string where possible like 'development version' that is removed when making a release build. 
+
 # Further reading
 
 ### UFO

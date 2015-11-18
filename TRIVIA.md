@@ -53,6 +53,7 @@ There are also handcrafted directories with rich samples:
 * http://femmebot.github.io/google-type/
 * http://100daysoffonts.com
 * http://jxnblk.com/type-a/
+* https://jonsuh.com/100-days-of-scriptures/
 
 ## Rightsholder contacts
 

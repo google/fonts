@@ -176,6 +176,11 @@ The general public calls old style the "jumping numbers" and like their tables t
 
 - [ ] Test for all letter/diacritic combinations https://github.com/weiweihuanghuang/Work-Sans/pull/17#issuecomment-139910842
 
+## Post Release
+
+- Submit the work to awards competitions, such as the TDC, TDC2, Granshan, Morisawa. 
+- Privately email feedback of your experience of the project to DC (what was missing that would make the project better, what you could have done better, what DC could have done better, what the project should do next, who would you like to collaborate on the project with, etc)
+
 ### Versioning
 
 Abstractly, we can distinguish between work that is public and publicised. 

@@ -29,7 +29,7 @@ Most of the fonts in the collection use the SIL Open Font License, v1.1.
 Some fonts use the Apache 2 license. 
 The Ubuntu fonts use the Ubuntu Font License v1.0. 
 
-The SIL Open Font License has an option for copyright holders to include a Reserved Font Name requirement, and this is option is used with some of the fonts. 
+The SIL Open Font License has an option for copyright holders to include a Reserved Font Name requirement, and this option is used with some of the fonts. 
 If you modify those fonts, please take care of this important detail.
 
 ## Source Files

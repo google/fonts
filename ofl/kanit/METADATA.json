@@ -1,0 +1,180 @@
+{
+  "name": "Kanit",
+  "designer": "Cadson Demak",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 65628,
+  "fonts": [
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-Thin",
+      "fullName": "Kanit Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Kanit-Thin.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-ThinItalic",
+      "fullName": "Kanit Thin Italic",
+      "style": "italic",
+      "weight": 100,
+      "filename": "Kanit-ThinItalic.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-ExtraLight",
+      "fullName": "Kanit ExtraLight",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Kanit-ExtraLight.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-ExtraLightItalic",
+      "fullName": "Kanit ExtraLight Italic",
+      "style": "italic",
+      "weight": 200,
+      "filename": "Kanit-ExtraLightItalic.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-Light",
+      "fullName": "Kanit Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Kanit-Light.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-LightItalic",
+      "fullName": "Kanit Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Kanit-LightItalic.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-Italic",
+      "fullName": "Kanit Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Kanit-Italic.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-Regular",
+      "fullName": "Kanit",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kanit-Regular.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-Medium",
+      "fullName": "Kanit Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Kanit-Medium.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-MediumItalic",
+      "fullName": "Kanit Medium Italic",
+      "style": "italic",
+      "weight": 500,
+      "filename": "Kanit-MediumItalic.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-SemiBold",
+      "fullName": "Kanit SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Kanit-SemiBold.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-SemiBoldItalic",
+      "fullName": "Kanit SemiBold Italic",
+      "style": "italic",
+      "weight": 600,
+      "filename": "Kanit-SemiBoldItalic.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-Bold",
+      "fullName": "Kanit Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Kanit-Bold.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-BoldItalic",
+      "fullName": "Kanit Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Kanit-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-ExtraBold",
+      "fullName": "Kanit ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Kanit-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-ExtraBoldItalic",
+      "fullName": "Kanit ExtraBold Italic",
+      "style": "italic",
+      "weight": 800,
+      "filename": "Kanit-ExtraBoldItalic.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-Black",
+      "fullName": "Kanit Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Kanit-Black.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    },
+    {
+      "name": "Kanit",
+      "postScriptName": "Kanit-BlackItalic",
+      "fullName": "Kanit Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Kanit-BlackItalic.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+    }
+  ],
+  "subsets": [
+      "latin",
+      "latin-ext",
+      "menu",
+      "thai",
+      "vietnamese"
+  ],
+  "dateAdded": "2015-12-07"
+}

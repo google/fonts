@@ -1,0 +1,25 @@
+{
+  "name": "Caveat Brush",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 140755,
+  "fonts": [
+    {
+      "name": "Caveat Brush",
+      "postScriptName": "CaveatBrush-Regular",
+      "fullName": "Caveat Brush",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CaveatBrush-Regular.ttf",
+      "copyright": "Copyright 2015 Google Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-09-23"
+}

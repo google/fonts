@@ -1,0 +1,97 @@
+{
+  "name": "Catamaran",
+  "designer": "Pria Ravichandran",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 37396,
+  "fonts": [
+    {
+      "name": "Catamaran",
+      "postScriptName": "Catamaran-Thin",
+      "fullName": "Catamaran Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Catamaran-Thin.ttf",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Catamaran",
+      "postScriptName": "Catamaran-ExtraLight",
+      "fullName": "Catamaran ExtraLight",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Catamaran-ExtraLight.ttf",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Catamaran",
+      "postScriptName": "Catamaran-Light",
+      "fullName": "Catamaran Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Catamaran-Light.ttf",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Catamaran",
+      "postScriptName": "Catamaran-Regular",
+      "fullName": "Catamaran",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Catamaran-Regular.ttf",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Catamaran",
+      "postScriptName": "Catamaran-Medium",
+      "fullName": "Catamaran Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Catamaran-Medium.ttf",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Catamaran",
+      "postScriptName": "Catamaran-SemiBold",
+      "fullName": "Catamaran SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Catamaran-SemiBold.ttf",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Catamaran",
+      "postScriptName": "Catamaran-Bold",
+      "fullName": "Catamaran Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Catamaran-Bold.ttf",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Catamaran",
+      "postScriptName": "Catamaran-ExtraBold",
+      "fullName": "Catamaran ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Catamaran-ExtraBold.ttf",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Catamaran",
+      "postScriptName": "Catamaran-Black",
+      "fullName": "Catamaran Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Catamaran-Black.ttf",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil"
+  ],
+  "dateAdded": "2015-07-08"
+}

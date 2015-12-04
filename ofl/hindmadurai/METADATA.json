@@ -1,0 +1,62 @@
+{
+  "name": "Hind Madurai",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 31532,
+  "fonts": [
+    {
+      "name": "Hind Madurai",
+      "postScriptName": "HindMadurai-Light",
+      "fullName": "Hind Madurai Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "HindMadurai-Light.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Madurai",
+      "postScriptName": "HindMadurai-Regular",
+      "fullName": "Hind Madurai",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HindMadurai-Regular.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Madurai",
+      "postScriptName": "HindMadurai-Medium",
+      "fullName": "Hind Madurai Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "HindMadurai-Medium.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Madurai",
+      "postScriptName": "HindMadurai-SemiBold",
+      "fullName": "Hind Madurai SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "HindMadurai-SemiBold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Madurai",
+      "postScriptName": "HindMadurai-Bold",
+      "fullName": "Hind Madurai Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "HindMadurai-Bold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "tamil"
+  ],
+  "dateAdded": "2015-09-16"
+}

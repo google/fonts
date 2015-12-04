@@ -1,0 +1,62 @@
+{
+  "name": "Hind Siliguri",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 64307,
+  "fonts": [
+    {
+      "name": "Hind Siliguri",
+      "postScriptName": "HindSiliguri-Light",
+      "fullName": "Hind Siliguri Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "HindSiliguri-Light.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Siliguri",
+      "postScriptName": "HindSiliguri-Regular",
+      "fullName": "Hind Siliguri",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HindSiliguri-Regular.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Siliguri",
+      "postScriptName": "HindSiliguri-Medium",
+      "fullName": "Hind Siliguri Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "HindSiliguri-Medium.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Siliguri",
+      "postScriptName": "HindSiliguri-SemiBold",
+      "fullName": "Hind Siliguri SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "HindSiliguri-SemiBold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Siliguri",
+      "postScriptName": "HindSiliguri-Bold",
+      "fullName": "Hind Siliguri Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "HindSiliguri-Bold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "bengali",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-09-09"
+}

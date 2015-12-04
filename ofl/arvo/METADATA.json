@@ -8,45 +8,43 @@
   "fonts": [
     {
       "name": "Arvo",
-      "postScriptName": "Arvo-Bold",
-      "fullName": "Arvo Bold",
-      "style": "normal",
-      "weight": 700,
-      "filename": "Arvo-Bold.ttf",
-      "copyright": "Copyright (c) 2010-2013 Anton Koovit (anton@fatype.com), Yassin Baggar."
-    },
-    {
-      "name": "Arvo",
-      "postScriptName": "Arvo-BoldItalic",
-      "fullName": "Arvo Bold Italic",
-      "style": "italic",
-      "weight": 700,
-      "filename": "Arvo-BoldItalic.ttf",
-      "copyright": "Copyright (c) 2010-2013 Anton Koovit (anton@fatype.com), Yassin Baggar."
-    },
-    {
-      "name": "Arvo",
-      "postScriptName": "Arvo-Italic",
-      "fullName": "Arvo Italic",
-      "style": "italic",
-      "weight": 400,
-      "filename": "Arvo-Italic.ttf",
-      "copyright": "Copyright (c) 2010-2013 Anton Koovit (anton@fatype.com), Yassin Baggar."
-    },
-    {
-      "name": "Arvo",
-      "postScriptName": "Arvo",
-      "fullName": "Arvo",
       "style": "normal",
       "weight": 400,
       "filename": "Arvo-Regular.ttf",
-      "copyright": "Copyright (c) 2010-2013 Anton Koovit (anton@fatype.com), Yassin Baggar."
+      "postScriptName": "Arvo",
+      "fullName": "Arvo",
+      "copyright": "Copyright 2010 Anton Koovit."
+    },
+    {
+      "name": "Arvo",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Arvo-Italic.ttf",
+      "postScriptName": "Arvo-Italic",
+      "fullName": "Arvo Italic",
+      "copyright": "Copyright 2010 Anton Koovit, Yassin Baggar."
+    },
+    {
+      "name": "Arvo",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Arvo-Bold.ttf",
+      "postScriptName": "Arvo-Bold",
+      "fullName": "Arvo Bold",
+      "copyright": "Copyright (c) 2010 by Anton Koovit."
+    },
+    {
+      "name": "Arvo",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Arvo-BoldItalic.ttf",
+      "postScriptName": "Arvo-BoldItalic",
+      "fullName": "Arvo Bold Italic",
+      "copyright": "Copyright 2010 Anton Koovit, Yassin Baggar."
     }
   ],
   "subsets": [
-    "cyrillic",
     "latin",
-    "latin-ext",
     "menu"
   ],
   "dateAdded": "2010-11-17"

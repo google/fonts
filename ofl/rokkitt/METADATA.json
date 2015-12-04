@@ -3,18 +3,10 @@
   "designer": "Vernon Adams",
   "license": "OFL",
   "visibility": "External",
+  "repository": "static",
   "category": "Serif",
   "size": 27349,
   "fonts": [
-    {
-      "name": "Rokkitt",
-      "style": "normal",
-      "weight": 300,
-      "filename": "Rokkitt-Light.ttf",
-      "postScriptName": "Rokkitt-Light",
-      "fullName": "Rokkitt Light",
-      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
-    },
     {
       "name": "Rokkitt",
       "style": "normal",
@@ -22,7 +14,7 @@
       "filename": "Rokkitt-Regular.ttf",
       "postScriptName": "Rokkitt",
       "fullName": "Rokkitt",
-      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
+      "copyright": "Copyright (c) 2011 by vernon adams. All rights reserved."
     },
     {
       "name": "Rokkitt",
@@ -31,7 +23,7 @@
       "filename": "Rokkitt-Bold.ttf",
       "postScriptName": "Rokkitt-Bold",
       "fullName": "Rokkitt Bold",
-      "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
+      "copyright": "Copyright (c) 2011 by vernon adams. All rights reserved. with Reserved Font Names \"Tienne\" and \"Tienne Regular\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
     }
   ],
   "subsets": [

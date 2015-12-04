@@ -1,0 +1,107 @@
+{
+  "name": "Rubik",
+  "designer": "Hubert and Fischer",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 97892,
+  "fonts": [
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-Light",
+      "fullName": "Rubik Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Rubik-Light.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    },
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-LightItalic",
+      "fullName": "Rubik Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Rubik-LightItalic.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    },
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-Italic",
+      "fullName": "Rubik Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Rubik-Italic.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    },
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-Regular",
+      "fullName": "Rubik",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rubik-Regular.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    },
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-Medium",
+      "fullName": "Rubik Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Rubik-Medium.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    },
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-MediumItalic",
+      "fullName": "Rubik Medium Italic",
+      "style": "italic",
+      "weight": 500,
+      "filename": "Rubik-MediumItalic.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    },
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-Bold",
+      "fullName": "Rubik Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Rubik-Bold.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    },
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-BoldItalic",
+      "fullName": "Rubik Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Rubik-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    },
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-Black",
+      "fullName": "Rubik Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Rubik-Black.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    },
+    {
+      "name": "Rubik",
+      "postScriptName": "Rubik-BlackItalic",
+      "fullName": "Rubik Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Rubik-BlackItalic.ttf",
+      "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved."
+    }
+  ],
+  "subsets": [
+	"cyrillic",
+    "latin",
+	"latin-ext",
+	"menu"
+  ],
+  "dateAdded": "2015-07-22"
+}

@@ -4,34 +4,34 @@
   "license": "OFL",
   "visibility": "External",
   "category": "Handwriting",
-  "size": 199109,
+  "size": 191146,
   "fonts": [
     {
       "name": "Kalam",
-      "style": "normal",
-      "weight": 700,
-      "filename": "Kalam-Bold.ttf",
-      "postScriptName": "Kalam-Bold",
-      "fullName": "Kalam Bold",
-      "copyright": ""
-    },
-    {
-      "name": "Kalam",
+      "postScriptName": "Kalam-Light",
+      "fullName": "Kalam Light",
       "style": "normal",
       "weight": 300,
       "filename": "Kalam-Light.ttf",
-      "postScriptName": "Kalam-Light",
-      "fullName": "Kalam Light",
-      "copyright": ""
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
       "name": "Kalam",
+      "postScriptName": "Kalam-Regular",
+      "fullName": "Kalam",
       "style": "normal",
       "weight": 400,
       "filename": "Kalam-Regular.ttf",
-      "postScriptName": "Kalam-Regular",
-      "fullName": "Kalam Regular",
-      "copyright": ""
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Kalam",
+      "postScriptName": "Kalam-Bold",
+      "fullName": "Kalam Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Kalam-Bold.ttf",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     }
   ],
   "subsets": [

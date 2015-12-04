@@ -31,6 +31,10 @@ There are four Source files:
 
 ChangeLog
 
+21 Sept 2015 (Dave Crossland) Molle v1.002
+- Fixed metadata in macStyle, fsSelection, italicAngle
+- Updated hinting using TTFAutohint v1.3
+
 13 Sept 2012 (Eben Sorkin) Molle v1.001
 - Mastered typeface to TTF and OTF
 - Added hinting using TTF Autohint v0.92

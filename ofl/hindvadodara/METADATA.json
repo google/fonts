@@ -1,0 +1,62 @@
+{
+  "name": "Hind Vadodara",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 54394,
+  "fonts": [
+    {
+      "name": "Hind Vadodara",
+      "postScriptName": "HindVadodara-Light",
+      "fullName": "Hind Vadodara Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "HindVadodara-Light.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Vadodara",
+      "postScriptName": "HindVadodara-Regular",
+      "fullName": "Hind Vadodara",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HindVadodara-Regular.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Vadodara",
+      "postScriptName": "HindVadodara-Medium",
+      "fullName": "Hind Vadodara Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "HindVadodara-Medium.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Vadodara",
+      "postScriptName": "HindVadodara-SemiBold",
+      "fullName": "Hind Vadodara SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "HindVadodara-SemiBold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Vadodara",
+      "postScriptName": "HindVadodara-Bold",
+      "fullName": "Hind Vadodara Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "HindVadodara-Bold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "gujarati",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-09-09"
+}

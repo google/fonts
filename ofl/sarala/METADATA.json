@@ -4,17 +4,8 @@
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Sans Serif",
-  "size": 94947,
+  "size": 90435,
   "fonts": [
-    {
-      "name": "Sarala",
-      "postScriptName": "Sarala-Bold",
-      "fullName": "Sarala Bold",
-      "style": "normal",
-      "weight": 700,
-      "filename": "Sarala-Bold.ttf",
-      "copyright": "Copyright © 2015 by Andres Torresi. All rights reserved."
-    },
     {
       "name": "Sarala",
       "postScriptName": "Sarala-Regular",
@@ -22,7 +13,16 @@
       "style": "normal",
       "weight": 400,
       "filename": "Sarala-Regular.ttf",
-      "copyright": "Copyright © 2015 by Andres Torresi. All rights reserved."
+      "copyright": "Copyright 2015 by Andres Torresi. All rights reserved."
+    },
+    {
+      "name": "Sarala",
+      "postScriptName": "Sarala-Bold",
+      "fullName": "Sarala Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Sarala-Bold.ttf",
+      "copyright": "Copyright 2015 by Andres Torresi. All rights reserved."
     }
   ],
   "subsets": [
@@ -31,5 +31,5 @@
     "latin-ext",
     "menu"
   ],
-  "dateAdded": "2015-02-18"
+  "dateAdded": "2015-06-17"
 }

@@ -2,18 +2,27 @@
   "name": "Scheherazade",
   "designer": "SIL International",
   "license": "OFL",
-  "visibility": "Internal",
+  "visibility": "External",
   "category": "Serif",
-  "size": 118029,
+  "size": 176473,
   "fonts": [
     {
       "name": "Scheherazade",
+      "postScriptName": "Scheherazade-Regular",
+      "fullName": "Scheherazade",
       "style": "normal",
       "weight": 400,
-      "filename": "Scheherazade-R.ttf",
-      "postScriptName": "Scheherazade",
-      "fullName": "Scheherazade",
-      "copyright": "Copyright (c) 1994 - 2014 by SIL International. All rights reserved."
+      "filename": "Scheherazade-Regular.ttf",
+      "copyright": "Copyright (c) 1994 - 2015 by SIL International. All rights reserved."
+    },
+    {
+      "name": "Scheherazade",
+      "postScriptName": "Scheherazade-Bold",
+      "fullName": "Scheherazade Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Scheherazade-Bold.ttf",
+      "copyright": "Copyright (c) 1994-2015 SIL International. All rights reserved."
     }
   ],
   "subsets": [

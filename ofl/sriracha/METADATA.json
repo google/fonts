@@ -1,0 +1,27 @@
+{
+  "name": "Sriracha",
+  "designer": "Cadson Demak",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 121913,
+  "fonts": [
+    {
+      "name": "Sriracha",
+      "postScriptName": "Sriracha-Regular",
+      "fullName": "Sriracha",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sriracha-Regular.ttf",
+      "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com), Copyright (c) 2014, Pablo Impallari (www.impallari.com|impallari@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "thai",
+    "vietnamese"
+  ],
+  "dateAdded": "2015-07-01"
+}

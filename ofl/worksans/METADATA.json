@@ -1,0 +1,97 @@
+{
+  "name": "Work Sans",
+  "designer": "Wei Huang",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 64357,
+  "fonts": [
+    {
+      "name": "Work Sans",
+      "postScriptName": "WorkSans-Thin",
+      "fullName": "Work Sans Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "WorkSans-Thin.ttf",
+      "copyright": "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
+    },
+    {
+      "name": "Work Sans",
+      "postScriptName": "WorkSans-ExtraLight",
+      "fullName": "Work Sans ExtraLight",
+      "style": "normal",
+      "weight": 200,
+      "filename": "WorkSans-ExtraLight.ttf",
+      "copyright": "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
+    },
+    {
+      "name": "Work Sans",
+      "postScriptName": "WorkSans-Light",
+      "fullName": "Work Sans Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "WorkSans-Light.ttf",
+      "copyright": "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
+    },
+    {
+      "name": "Work Sans",
+      "postScriptName": "WorkSans-Regular",
+      "fullName": "Work Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "WorkSans-Regular.ttf",
+      "copyright": "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
+    },
+    {
+      "name": "Work Sans",
+      "postScriptName": "WorkSans-Medium",
+      "fullName": "Work Sans Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "WorkSans-Medium.ttf",
+      "copyright": "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
+    },
+    {
+      "name": "Work Sans",
+      "postScriptName": "WorkSans-SemiBold",
+      "fullName": "Work Sans SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "WorkSans-SemiBold.ttf",
+      "copyright": "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
+    },
+    {
+      "name": "Work Sans",
+      "postScriptName": "WorkSans-Bold",
+      "fullName": "Work Sans Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "WorkSans-Bold.ttf",
+      "copyright": "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
+    },
+    {
+      "name": "Work Sans",
+      "postScriptName": "WorkSans-ExtraBold",
+      "fullName": "Work Sans ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "WorkSans-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
+    },
+    {
+      "name": "Work Sans",
+      "postScriptName": "WorkSans-Black",
+      "fullName": "Work Sans Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "WorkSans-Black.ttf",
+      "copyright": "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-07-08"
+}

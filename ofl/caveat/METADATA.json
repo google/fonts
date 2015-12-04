@@ -1,0 +1,34 @@
+{
+  "name": "Caveat",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 89711,
+  "fonts": [
+    {
+      "name": "Caveat",
+      "postScriptName": "Caveat-Regular",
+      "fullName": "Caveat",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Caveat-Regular.ttf",
+      "copyright": "Copyright 2015 Google Inc. All Rights Reserved."
+    },
+    {
+      "name": "Caveat",
+      "postScriptName": "Caveat-Bold",
+      "fullName": "Caveat Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Caveat-Bold.ttf",
+      "copyright": "Copyright 2015 Google Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2015-09-23"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Hind Kochi",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 33748,
+  "fonts": [
+    {
+      "name": "Hind Kochi",
+      "postScriptName": "HindKochi-Light",
+      "fullName": "Hind Kochi Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "HindKochi-Light.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Kochi",
+      "postScriptName": "HindKochi-Regular",
+      "fullName": "Hind Kochi",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HindKochi-Regular.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Kochi",
+      "postScriptName": "HindKochi-Medium",
+      "fullName": "Hind Kochi Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "HindKochi-Medium.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Kochi",
+      "postScriptName": "HindKochi-SemiBold",
+      "fullName": "Hind Kochi SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "HindKochi-SemiBold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind Kochi",
+      "postScriptName": "HindKochi-Bold",
+      "fullName": "Hind Kochi Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "HindKochi-Bold.ttf",
+      "copyright": "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "malayalam",
+    "menu"
+  ],
+  "dateAdded": "2015-09-16"
+}

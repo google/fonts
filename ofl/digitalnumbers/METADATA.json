@@ -1,0 +1,24 @@
+{
+  "name": "Digital Numbers",
+  "designer": "Stephan Ahlf",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Monospace",
+  "size": 7551,
+  "fonts": [
+    {
+      "name": "Digital Numbers",
+      "postScriptName": "DigitalNumbers-Regular",
+      "fullName": "Digital Numbers",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DigitalNumbers-Regular.ttf",
+      "copyright": "Copyright (c) 2015, Stephan Ahlf (https://github.com/s-a/digital-numbers-font stephan.ahlf@googlemail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2015-06-24"
+}

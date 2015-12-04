@@ -1,0 +1,62 @@
+{
+  "name": "Abhaya Libre",
+  "designer": "Mooniak",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 66783,
+  "fonts": [
+    {
+      "name": "Abhaya Libre",
+      "postScriptName": "AbhayaLibre-Regular",
+      "fullName": "Abhaya Libre",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AbhayaLibre-Regular.ttf",
+      "copyright": "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
+    },
+    {
+      "name": "Abhaya Libre",
+      "postScriptName": "AbhayaLibre-Medium",
+      "fullName": "Abhaya Libre Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "AbhayaLibre-Medium.ttf",
+      "copyright": "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
+    },
+    {
+      "name": "Abhaya Libre",
+      "postScriptName": "AbhayaLibre-SemiBold",
+      "fullName": "Abhaya Libre SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "AbhayaLibre-SemiBold.ttf",
+      "copyright": "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
+    },
+    {
+      "name": "Abhaya Libre",
+      "postScriptName": "AbhayaLibre-Bold",
+      "fullName": "Abhaya Libre Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AbhayaLibre-Bold.ttf",
+      "copyright": "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
+    },
+    {
+      "name": "Abhaya Libre",
+      "postScriptName": "AbhayaLibre-ExtraBold",
+      "fullName": "Abhaya Libre ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "AbhayaLibre-ExtraBold.ttf",
+      "copyright": "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu",
+    "sinhala"
+  ],
+  "dateAdded": "2015-09-16"
+}

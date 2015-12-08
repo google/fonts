@@ -162,10 +162,12 @@ def DiffCoverage(font_filename1, font_filename2, subset):
 
 
 def CompareDirs(font1, font2):
-  """Compares fonts by assuming font1/2 are dirs containing METADATA.json."""
+  """Compares fonts by assuming font1/2 are dirs containing METADATA.pb."""
+
   m1 = fonts.Metadata(font1)
   m2 = fonts.Metadata(font2)
-  subsets_to_compare = fonts.UniqueSort(m1['subsets'], m2['subsets'])
+
+  subsets_to_compare = fonts.UniqueSort(m1.subsets, m2.subsets)
   subsets_to_compare.remove('menu')
   subsets_to_compare.append('all')
 

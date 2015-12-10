@@ -1,0 +1,25 @@
+name: "Arya"
+designer: "Multiple Designers"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2015-05-20"
+fonts {
+  name: "Arya"
+  style: "normal"
+  weight: 400
+  filename: "Arya-Regular.ttf"
+  post_script_name: "Arya-Regular"
+  full_name: "Arya"
+}
+fonts {
+  name: "Arya"
+  style: "normal"
+  weight: 700
+  filename: "Arya-Bold.ttf"
+  post_script_name: "Arya-Bold"
+  full_name: "Arya Bold"
+}
+subsets: "menu"
+subsets: "devanagari"
+subsets: "latin"
+subsets: "latin-ext"

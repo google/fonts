@@ -1,0 +1,20 @@
+name: "Ubuntu Condensed"
+designer: "Dalton Maag"
+license: "UFL"
+category: "SANS_SERIF"
+date_added: "2011-10-05"
+fonts {
+  name: "Ubuntu Condensed"
+  style: "normal"
+  weight: 400
+  filename: "UbuntuCondensed-Regular.ttf"
+  post_script_name: "UbuntuCondensed-Regular"
+  full_name: "Ubuntu Condensed"
+}
+subsets: "menu"
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek"
+subsets: "greek-ext"
+subsets: "latin"
+subsets: "latin-ext"

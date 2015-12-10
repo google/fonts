@@ -1,0 +1,17 @@
+name: "Prosto One"
+designer: "Multiple Designers"
+license: "OFL"
+category: "DISPLAY"
+date_added: "2012-02-29"
+fonts {
+  name: "Prosto One"
+  style: "normal"
+  weight: 400
+  filename: "ProstoOne-Regular.ttf"
+  post_script_name: "ProstoOne-Regular"
+  full_name: "Prosto One"
+}
+subsets: "menu"
+subsets: "cyrillic"
+subsets: "latin"
+subsets: "latin-ext"

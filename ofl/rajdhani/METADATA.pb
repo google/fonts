@@ -1,0 +1,49 @@
+name: "Rajdhani"
+designer: "Indian Type Foundry"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2014-07-09"
+fonts {
+  name: "Rajdhani"
+  style: "normal"
+  weight: 300
+  filename: "Rajdhani-Light.ttf"
+  post_script_name: "Rajdhani-Light"
+  full_name: "Rajdhani Light"
+}
+fonts {
+  name: "Rajdhani"
+  style: "normal"
+  weight: 400
+  filename: "Rajdhani-Regular.ttf"
+  post_script_name: "Rajdhani-Regular"
+  full_name: "Rajdhani"
+}
+fonts {
+  name: "Rajdhani"
+  style: "normal"
+  weight: 500
+  filename: "Rajdhani-Medium.ttf"
+  post_script_name: "Rajdhani-Medium"
+  full_name: "Rajdhani Medium"
+}
+fonts {
+  name: "Rajdhani"
+  style: "normal"
+  weight: 600
+  filename: "Rajdhani-SemiBold.ttf"
+  post_script_name: "Rajdhani-Semibold"
+  full_name: "Rajdhani Semibold"
+}
+fonts {
+  name: "Rajdhani"
+  style: "normal"
+  weight: 700
+  filename: "Rajdhani-Bold.ttf"
+  post_script_name: "Rajdhani-Bold"
+  full_name: "Rajdhani Bold"
+}
+subsets: "menu"
+subsets: "devanagari"
+subsets: "latin"
+subsets: "latin-ext"

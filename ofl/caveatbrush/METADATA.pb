@@ -1,0 +1,16 @@
+name: "Caveat Brush"
+designer: "Pablo Impallari"
+license: "OFL"
+category: "HANDWRITING"
+date_added: "2015-09-23"
+fonts {
+  name: "Caveat Brush"
+  style: "normal"
+  weight: 400
+  filename: "CaveatBrush-Regular.ttf"
+  post_script_name: "CaveatBrush-Regular"
+  full_name: "Caveat Brush"
+}
+subsets: "menu"
+subsets: "latin"
+subsets: "latin-ext"

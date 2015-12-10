@@ -1,0 +1,49 @@
+name: "Halant"
+designer: "Indian Type Foundry"
+license: "OFL"
+category: "SERIF"
+date_added: "2014-08-27"
+fonts {
+  name: "Halant"
+  style: "normal"
+  weight: 300
+  filename: "Halant-Light.ttf"
+  post_script_name: "Halant-Light"
+  full_name: "Halant Light"
+}
+fonts {
+  name: "Halant"
+  style: "normal"
+  weight: 400
+  filename: "Halant-Regular.ttf"
+  post_script_name: "Halant-Regular"
+  full_name: "Halant"
+}
+fonts {
+  name: "Halant"
+  style: "normal"
+  weight: 500
+  filename: "Halant-Medium.ttf"
+  post_script_name: "Halant-Medium"
+  full_name: "Halant Medium"
+}
+fonts {
+  name: "Halant"
+  style: "normal"
+  weight: 600
+  filename: "Halant-Semibold.ttf"
+  post_script_name: "Halant-Semibold"
+  full_name: "Halant Semibold"
+}
+fonts {
+  name: "Halant"
+  style: "normal"
+  weight: 700
+  filename: "Halant-Bold.ttf"
+  post_script_name: "Halant-Bold"
+  full_name: "Halant Bold"
+}
+subsets: "menu"
+subsets: "devanagari"
+subsets: "latin"
+subsets: "latin-ext"

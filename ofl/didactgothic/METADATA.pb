@@ -1,0 +1,20 @@
+name: "Didact Gothic"
+designer: "Daniel Johnson"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2011-05-04"
+fonts {
+  name: "Didact Gothic"
+  style: "normal"
+  weight: 400
+  filename: "DidactGothic.ttf"
+  post_script_name: "DidactGothic"
+  full_name: "Didact Gothic"
+}
+subsets: "menu"
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek"
+subsets: "greek-ext"
+subsets: "latin"
+subsets: "latin-ext"

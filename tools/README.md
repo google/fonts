@@ -1,5 +1,10 @@
 # Tools
 
+# License
+
+The tools under this directory are available under the Apache License v2.0.
+See [LICENSE.txt](LICENSE.txt) for details.
+
 # Sample Usage
 
 compare_font

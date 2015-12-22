@@ -68,9 +68,74 @@
       "weight": 600,
       "filename": "SourceCodePro-Semibold.ttf",
       "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Code Pro",
+      "postScriptName": "SourceCodePro-BlackIt",
+      "fullName": "Source Code Pro Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "SourceCodePro-BlackIt.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Code Pro",
+      "postScriptName": "SourceCodePro-BoldIt",
+      "fullName": "Source Code Pro Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "SourceCodePro-BoldIt.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Code Pro",
+      "postScriptName": "SourceCodePro-ExtraLightIt",
+      "fullName": "Source Code Pro ExtraLight Italic",
+      "style": "italic",
+      "weight": 200,
+      "filename": "SourceCodePro-ExtraLightIt.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Code Pro",
+      "postScriptName": "SourceCodePro-LightIt",
+      "fullName": "Source Code Pro Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "SourceCodePro-LightIt.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Code Pro",
+      "postScriptName": "SourceCodePro-MediumIt",
+      "fullName": "Source Code Pro Medium Italic",
+      "style": "italic",
+      "weight": 500,
+      "filename": "SourceCodePro-MediumIt.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Code Pro",
+      "postScriptName": "SourceCodePro-It",
+      "fullName": "Source Code Pro Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "SourceCodePro-It.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+    },
+    {
+      "name": "Source Code Pro",
+      "postScriptName": "SourceCodePro-SemiboldIt",
+      "fullName": "Source Code Pro Semibold Italic",
+      "style": "italic",
+      "weight": 600,
+      "filename": "SourceCodePro-SemiboldIt.ttf",
+      "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
     }
   ],
   "subsets": [
+    "cyrillic",
+    "greek",
     "latin",
     "latin-ext",
     "menu",

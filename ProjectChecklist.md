@@ -159,7 +159,7 @@ The general public calls old style the "jumping numbers" and like their tables t
 - [ ] Support Turkish https://www.glyphsapp.com/tutorials/localize-your-font-turkish
 - [ ] Support Slashed Zero https://www.glyphsapp.com/tutorials/slashed-zero
 - [ ] Support fractions, superscript and subscript numerals https://www.glyphsapp.com/tutorials/fractions https://www.glyphsapp.com/tutorials/superscript-and-subscript-figures 
-
+- [ ] All kerning and GPOS in the font is checked for mistakes (eg using [Mark Foley's GlyphsApp script](https://github.com/m4rc1e/mf-glyphs-scripts))
 
 ## OpenType
 

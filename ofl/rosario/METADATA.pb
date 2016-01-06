@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Rosario-Regular.ttf"
   post_script_name: "Rosario-Regular"
-  full_name: "Rosario Regular"
+  full_name: "Rosario"
 }
 fonts {
   name: "Rosario"

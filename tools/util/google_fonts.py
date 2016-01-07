@@ -12,11 +12,10 @@ import sys
 
 from fontTools import ttLib
 
-
 import fonts_public_pb2 as fonts_pb2
 from google.protobuf import text_format
 import gflags as flags
-from google.apputils import resources
+from util import py_subsets
 
 FLAGS = flags.FLAGS
 flags.DEFINE_string('nam_dir', 'encodings/', 'nam file dir')
@@ -70,6 +69,13 @@ _FS_SELECTION_BITS = [
     (1 << 9, 'OBLIQUE')
 ]
 
+
+# license_dir => license name mappings
+_KNOWN_LICENSE_DIRS = {
+    'apache': 'APACHE2',
+    'ofl': 'OFL',
+    'ufl': 'UFL',
+}
 
 
 FileFamilyStyleWeightTuple = collections.namedtuple(
@@ -145,17 +151,8 @@ def RegularWeight(metadata):
 
 
 def ListSubsets():
-  """Returns a list of all subset names, in lowercase, except */all and menu."""
-
-  subsets = []
-
-  with resources.GetResourceAsFile(_SUBSET_RESOURCE_PATH) as f:
-    for l in f:
-      match = _SUBSET_PATTERN.search(l)
-      if match and match.group(1) not in ('ALL', 'MENU'):
-        subsets.append(match.group(2))
-
-  return subsets
+  """Returns a list of all subset names, in lowercase."""
+  return py_subsets.SUBSETS
 
 
 def Metadata(file_or_dir):
@@ -497,5 +494,30 @@ def FsSelectionFlags(fs_selection):
     if fs_selection & mask:
       names.append(name)
   return names
+
+
+def _EntryForEndOfPath(path, answer_map):
+  segments = [s.lower() for s in path.split(os.sep)]
+  answers = [answer_map[s] for s in segments
+             if s in answer_map]
+  if len(answers) != 1:
+    raise ValueError('Found %d possible matches: %s' % (
+        len(answers), answers))
+  return answers[0]
+
+
+def LicenseFromPath(path):
+  """Try to figure out the license for a given path.
+
+  Splits path and looks for known license dirs in segments.
+
+  Args:
+    path: A filesystem path, hopefully including a license dir.
+  Returns:
+    The name of the license, eg OFL, UFL, etc.
+  Raises:
+    ValueError: if 0 or >1 licenses match path.
+  """
+  return _EntryForEndOfPath(path, _KNOWN_LICENSE_DIRS)
 
 

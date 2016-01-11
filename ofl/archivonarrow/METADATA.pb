@@ -10,6 +10,7 @@ fonts {
   filename: "ArchivoNarrow-Regular.ttf"
   post_script_name: "ArchivoNarrow-Regular"
   full_name: "Archivo Narrow Regular"
+  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
 }
 fonts {
   name: "Archivo Narrow"
@@ -18,6 +19,7 @@ fonts {
   filename: "ArchivoNarrow-Italic.ttf"
   post_script_name: "ArchivoNarrow-Italic"
   full_name: "Archivo Narrow Italic"
+  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
 }
 fonts {
   name: "Archivo Narrow"
@@ -26,6 +28,7 @@ fonts {
   filename: "ArchivoNarrow-Bold.ttf"
   post_script_name: "ArchivoNarrow-Bold"
   full_name: "Archivo Narrow Bold"
+  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
 }
 fonts {
   name: "Archivo Narrow"
@@ -34,6 +37,7 @@ fonts {
   filename: "ArchivoNarrow-BoldItalic.ttf"
   post_script_name: "ArchivoNarrow-BoldItalic"
   full_name: "Archivo Narrow Bold Italic"
+  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
 }
 subsets: "menu"
 subsets: "latin"

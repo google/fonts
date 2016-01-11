@@ -10,6 +10,7 @@ fonts {
   filename: "SueEllenFrancisco.ttf"
   post_script_name: "SueEllenFrancisco"
   full_name: "Sue Ellen Francisco "
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Comfortaa-Light.ttf"
   post_script_name: "Comfortaa-Light"
   full_name: "Comfortaa Light"
+  copyright: "Copyright (c) 2011, Johan Aakerlund (aajohan@gmail.com), with Reserved Font Name \"Comfortaa\""
 }
 fonts {
   name: "Comfortaa"
@@ -18,6 +19,7 @@ fonts {
   filename: "Comfortaa-Regular.ttf"
   post_script_name: "Comfortaa-Regular"
   full_name: "Comfortaa"
+  copyright: "Copyright (c) 2011, Johan Aakerlund (aajohan@gmail.com), with Reserved Font Name \"Comfortaa\""
 }
 fonts {
   name: "Comfortaa"
@@ -26,6 +28,7 @@ fonts {
   filename: "Comfortaa-Bold.ttf"
   post_script_name: "Comfortaa-Bold"
   full_name: "Comfortaa Bold"
+  copyright: "Copyright (c) 2011, Johan Aakerlund (aajohan@gmail.com), with Reserved Font Name \"Comfortaa\""
 }
 subsets: "menu"
 subsets: "cyrillic"

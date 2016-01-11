@@ -10,6 +10,7 @@ fonts {
   filename: "Alike-Regular.ttf"
   post_script_name: "Alike-Regular"
   full_name: "Alike"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Alike\" and \"Alike Regular\"."
 }
 subsets: "menu"
 subsets: "latin"

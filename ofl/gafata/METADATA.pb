@@ -10,6 +10,7 @@ fonts {
   filename: "Gafata-Regular.ttf"
   post_script_name: "Gafata-Regular"
   full_name: "Gafata"
+  copyright: "Copyright (c) 2010-2012, Lautaro Hourcade (lautaro.uy@gmail.com), with Reserved Font Name 'Gafata'"
 }
 subsets: "menu"
 subsets: "latin"

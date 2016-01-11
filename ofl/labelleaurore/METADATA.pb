@@ -10,6 +10,7 @@ fonts {
   filename: "LaBelleAurore.ttf"
   post_script_name: "LaBelleAurore"
   full_name: "La Belle Aurore"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

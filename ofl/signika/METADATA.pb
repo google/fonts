@@ -10,6 +10,7 @@ fonts {
   filename: "Signika-Light.ttf"
   post_script_name: "Signika-Light"
   full_name: "Signika-Light"
+  copyright: "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
 fonts {
   name: "Signika"
@@ -18,6 +19,7 @@ fonts {
   filename: "Signika-Regular.ttf"
   post_script_name: "Signika-Regular"
   full_name: "Signika"
+  copyright: "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
 fonts {
   name: "Signika"
@@ -26,6 +28,7 @@ fonts {
   filename: "Signika-Semibold.ttf"
   post_script_name: "Signika-Semibold"
   full_name: "Signika-Semibold"
+  copyright: "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
 fonts {
   name: "Signika"
@@ -34,6 +37,7 @@ fonts {
   filename: "Signika-Bold.ttf"
   post_script_name: "Signika-Bold"
   full_name: "Signika-Bold"
+  copyright: "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
 subsets: "menu"
 subsets: "latin"

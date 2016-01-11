@@ -10,6 +10,7 @@ fonts {
   filename: "SwankyandMooMoo.ttf"
   post_script_name: "SwankyandMooMoo"
   full_name: "Swanky and Moo Moo"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

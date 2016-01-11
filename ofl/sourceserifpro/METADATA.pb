@@ -10,6 +10,7 @@ fonts {
   filename: "SourceSerifPro-Regular.ttf"
   post_script_name: "SourceSerifPro-Regular"
   full_name: "Source Serif Pro"
+  copyright: "Copyright 2014 Adobe Systems Incorporated. All Rights Reserved."
 }
 fonts {
   name: "Source Serif Pro"
@@ -18,6 +19,7 @@ fonts {
   filename: "SourceSerifPro-Semibold.ttf"
   post_script_name: "SourceSerifPro-Semibold"
   full_name: "Source Serif Pro Semibold"
+  copyright: "Copyright 2014 Adobe Systems Incorporated. All Rights Reserved."
 }
 fonts {
   name: "Source Serif Pro"
@@ -26,6 +28,7 @@ fonts {
   filename: "SourceSerifPro-Bold.ttf"
   post_script_name: "SourceSerifPro-Bold"
   full_name: "Source Serif Pro Bold"
+  copyright: "Copyright 2014 Adobe Systems Incorporated. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "latin"

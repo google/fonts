@@ -10,6 +10,7 @@ fonts {
   filename: "AutourOne-Regular.ttf"
   post_script_name: "AutourOne-Regular"
   full_name: "Autour One"
+  copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Autour'"
 }
 subsets: "menu"
 subsets: "latin"

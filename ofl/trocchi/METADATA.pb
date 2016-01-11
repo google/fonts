@@ -10,6 +10,7 @@ fonts {
   filename: "Trocchi-Regular.ttf"
   post_script_name: "Trocchi"
   full_name: "Trocchi"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Trocchi'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

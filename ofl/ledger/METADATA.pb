@@ -10,6 +10,7 @@ fonts {
   filename: "Ledger-Regular.ttf"
   post_script_name: "Ledger-Regular"
   full_name: "Ledger"
+  copyright: "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>."
 }
 subsets: "menu"
 subsets: "cyrillic"

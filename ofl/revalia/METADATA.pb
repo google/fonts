@@ -10,6 +10,7 @@ fonts {
   filename: "Revalia-Regular.ttf"
   post_script_name: "Revalia-Regular"
   full_name: "Revalia-Regular"
+  copyright: "Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright (c) 2011, Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name Revalia."
 }
 subsets: "menu"
 subsets: "latin"

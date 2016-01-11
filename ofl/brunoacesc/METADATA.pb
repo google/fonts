@@ -10,6 +10,7 @@ fonts {
   filename: "BrunoAceSC-Regular.ttf"
   post_script_name: "BrunoAceSC-Regular"
   full_name: "Bruno Ace SC"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Bruno Ace SC\""
 }
 subsets: "menu"
 subsets: "latin"

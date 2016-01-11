@@ -10,6 +10,7 @@ fonts {
   filename: "HindMadurai-Light.ttf"
   post_script_name: "HindMadurai-Light"
   full_name: "Hind Madurai Light"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Madurai"
@@ -18,6 +19,7 @@ fonts {
   filename: "HindMadurai-Regular.ttf"
   post_script_name: "HindMadurai-Regular"
   full_name: "Hind Madurai"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Madurai"
@@ -26,6 +28,7 @@ fonts {
   filename: "HindMadurai-Medium.ttf"
   post_script_name: "HindMadurai-Medium"
   full_name: "Hind Madurai Medium"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Madurai"
@@ -34,6 +37,7 @@ fonts {
   filename: "HindMadurai-SemiBold.ttf"
   post_script_name: "HindMadurai-SemiBold"
   full_name: "Hind Madurai SemiBold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Madurai"
@@ -42,6 +46,7 @@ fonts {
   filename: "HindMadurai-Bold.ttf"
   post_script_name: "HindMadurai-Bold"
   full_name: "Hind Madurai Bold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "latin"

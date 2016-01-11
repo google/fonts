@@ -10,6 +10,7 @@ fonts {
   filename: "DroidSans.ttf"
   post_script_name: "DroidSans"
   full_name: "Droid Sans"
+  copyright: "Digitized data copyright © 2007, Google Corporation."
 }
 fonts {
   name: "Droid Sans"
@@ -18,6 +19,7 @@ fonts {
   filename: "DroidSans-Bold.ttf"
   post_script_name: "DroidSans-Bold"
   full_name: "Droid Sans Bold"
+  copyright: "Digitized data copyright © 2007, Google Corporation."
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "FanwoodText-Regular.ttf"
   post_script_name: "FanwoodText-Regular"
   full_name: "Fanwood Text"
+  copyright: "Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)"
 }
 fonts {
   name: "Fanwood Text"
@@ -18,6 +19,7 @@ fonts {
   filename: "FanwoodText-Italic.ttf"
   post_script_name: "FanwoodText-Italic"
   full_name: "Fanwood Text Italic"
+  copyright: "Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)"
 }
 subsets: "menu"
 subsets: "latin"

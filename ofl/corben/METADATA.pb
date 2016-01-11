@@ -10,6 +10,7 @@ fonts {
   filename: "Corben-Regular.ttf"
   post_script_name: "Corben-Regular"
   full_name: "Corben Regular"
+  copyright: "Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name 'Corben'."
 }
 fonts {
   name: "Corben"
@@ -18,6 +19,7 @@ fonts {
   filename: "Corben-Bold.ttf"
   post_script_name: "Corben"
   full_name: "Corben"
+  copyright: "Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name 'Corben'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

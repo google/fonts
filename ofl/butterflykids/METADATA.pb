@@ -10,6 +10,7 @@ fonts {
   filename: "ButterflyKids-Regular.ttf"
   post_script_name: "ButterflyKids"
   full_name: "Butterfly Kids"
+  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reseved Font Name \"Butterfly Kids\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "PaytoneOne.ttf"
   post_script_name: "PaytoneOne"
   full_name: "Paytone One"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Paytone'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "LilyScriptOne-Regular.ttf"
   post_script_name: "LilyScriptOne-Regular"
   full_name: "Lily Script One"
+  copyright: "Copyright (c) 2012-2013, Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name 'Lily'"
 }
 subsets: "menu"
 subsets: "latin"

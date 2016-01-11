@@ -10,6 +10,7 @@ fonts {
   filename: "Playball-Regular.ttf"
   post_script_name: "Playball-Regular"
   full_name: "Playball"
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Playball\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Inder-Regular.ttf"
   post_script_name: "Inder-Regular"
   full_name: "Inder"
+  copyright: "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name Inder."
 }
 subsets: "menu"
 subsets: "latin"

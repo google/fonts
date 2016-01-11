@@ -10,6 +10,7 @@ fonts {
   filename: "MonsieurLaDoulaise-Regular.ttf"
   post_script_name: "MonsieurLaDoulaise-Regular"
   full_name: "Monsieur La Doulaise Regular"
+  copyright: "Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"MonsieurLaDoulaise\""
 }
 subsets: "menu"
 subsets: "latin"

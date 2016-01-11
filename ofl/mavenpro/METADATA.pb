@@ -10,6 +10,7 @@ fonts {
   filename: "MavenPro-Regular.ttf"
   post_script_name: "MavenProRegular"
   full_name: "Maven Pro Regular"
+  copyright: "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
 }
 fonts {
   name: "Maven Pro"
@@ -18,6 +19,7 @@ fonts {
   filename: "MavenPro-Medium.ttf"
   post_script_name: "MavenProMedium"
   full_name: "Maven Pro Medium"
+  copyright: "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
 }
 fonts {
   name: "Maven Pro"
@@ -26,6 +28,7 @@ fonts {
   filename: "MavenPro-Bold.ttf"
   post_script_name: "MavenProBold"
   full_name: "Maven Pro Bold"
+  copyright: "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
 }
 fonts {
   name: "Maven Pro"
@@ -34,6 +37,7 @@ fonts {
   filename: "MavenPro-Black.ttf"
   post_script_name: "MavenProBlack"
   full_name: "Maven Pro Black"
+  copyright: "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

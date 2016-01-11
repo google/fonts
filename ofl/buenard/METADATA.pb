@@ -10,6 +10,7 @@ fonts {
   filename: "Buenard-Regular.ttf"
   post_script_name: "Buenard-Regular"
   full_name: "Buenard"
+  copyright: "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Buenard\" and \"Buenard Pro\"."
 }
 fonts {
   name: "Buenard"
@@ -18,6 +19,7 @@ fonts {
   filename: "Buenard-Bold.ttf"
   post_script_name: "Buenard-Bold"
   full_name: "Buenard Bold"
+  copyright: "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Buenard\" and \"Buenard Pro\"."
 }
 subsets: "menu"
 subsets: "latin"

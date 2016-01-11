@@ -10,6 +10,7 @@ fonts {
   filename: "Balthazar-Regular.ttf"
   post_script_name: "Balthazar-Regular"
   full_name: "Balthazar Regular"
+  copyright: "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Balthazar\"."
 }
 subsets: "menu"
 subsets: "latin"

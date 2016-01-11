@@ -10,6 +10,7 @@ fonts {
   filename: "Play-Regular.ttf"
   post_script_name: "Play"
   full_name: "Play"
+  copyright: "Copyright (c) 2011 by Jonas Hecksher, Playtypeª, e-types AS (lasse@e-types.com). All rights reserved."
 }
 fonts {
   name: "Play"
@@ -18,6 +19,7 @@ fonts {
   filename: "Play-Bold.ttf"
   post_script_name: "Play-Bold"
   full_name: "Play-Bold"
+  copyright: "Copyright (c) 2011 by Jonas Hecksher, Playtype¬ e-types AS (lasse@e-types.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

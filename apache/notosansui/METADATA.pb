@@ -10,6 +10,7 @@ fonts {
   filename: "NotoSansUI-Regular.ttf"
   post_script_name: "NotoSansUI"
   full_name: "Noto Sans UI"
+  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Noto Sans UI"
@@ -18,6 +19,7 @@ fonts {
   filename: "NotoSansUI-Italic.ttf"
   post_script_name: "NotoSansUI-Italic"
   full_name: "Noto Sans UI Italic"
+  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Noto Sans UI"
@@ -26,6 +28,7 @@ fonts {
   filename: "NotoSansUI-Bold.ttf"
   post_script_name: "NotoSansUI-Bold"
   full_name: "Noto Sans UI Bold"
+  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Noto Sans UI"
@@ -34,6 +37,7 @@ fonts {
   filename: "NotoSansUI-BoldItalic.ttf"
   post_script_name: "NotoSansUI-BoldItalic"
   full_name: "Noto Sans UI Bold Italic"
+  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

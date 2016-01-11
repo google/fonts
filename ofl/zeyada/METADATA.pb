@@ -10,6 +10,7 @@ fonts {
   filename: "Zeyada.ttf"
   post_script_name: "Zeyada"
   full_name: "Zeyada"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

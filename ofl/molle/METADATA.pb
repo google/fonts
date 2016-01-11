@@ -10,6 +10,7 @@ fonts {
   filename: "Molle-Regular.ttf"
   post_script_name: "Molle-Regular"
   full_name: "Molle"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Spinnaker\"."
 }
 subsets: "menu"
 subsets: "latin"

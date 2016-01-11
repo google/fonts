@@ -10,6 +10,7 @@ fonts {
   filename: "Abel-Regular.ttf"
   post_script_name: "Abel-Regular"
   full_name: "Abel"
+  copyright: "Copyright (c) 2011, Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name Abel."
 }
 subsets: "menu"
 subsets: "latin"

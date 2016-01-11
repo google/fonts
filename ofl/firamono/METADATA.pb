@@ -10,6 +10,7 @@ fonts {
   filename: "FiraMono-Regular.ttf"
   post_script_name: "FiraMono-Regular"
   full_name: "Fira Mono"
+  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
 }
 fonts {
   name: "Fira Mono"
@@ -18,6 +19,7 @@ fonts {
   filename: "FiraMono-Medium.ttf"
   post_script_name: "FiraMono-Medium"
   full_name: "Fira Mono Medium"
+  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
 }
 fonts {
   name: "Fira Mono"
@@ -26,6 +28,7 @@ fonts {
   filename: "FiraMono-Bold.ttf"
   post_script_name: "FiraMono-Bold"
   full_name: "Fira Mono Bold"
+  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
 }
 subsets: "menu"
 subsets: "cyrillic"

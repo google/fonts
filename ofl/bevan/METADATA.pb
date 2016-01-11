@@ -10,6 +10,7 @@ fonts {
   filename: "Bevan.ttf"
   post_script_name: "Bevan"
   full_name: "Bevan"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Bevan'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

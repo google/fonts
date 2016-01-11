@@ -10,6 +10,7 @@ fonts {
   filename: "Amaranth-Regular.ttf"
   post_script_name: "Amaranth"
   full_name: "Amaranth"
+  copyright: "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
 }
 fonts {
   name: "Amaranth"
@@ -18,6 +19,7 @@ fonts {
   filename: "Amaranth-Italic.ttf"
   post_script_name: "Amaranth-Italic"
   full_name: "Amaranth Italic"
+  copyright: "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
 }
 fonts {
   name: "Amaranth"
@@ -26,6 +28,7 @@ fonts {
   filename: "Amaranth-Bold.ttf"
   post_script_name: "Amaranth-Bold"
   full_name: "Amaranth Bold"
+  copyright: "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
 }
 fonts {
   name: "Amaranth"
@@ -34,6 +37,7 @@ fonts {
   filename: "Amaranth-BoldItalic.ttf"
   post_script_name: "Amaranth-BoldItalic"
   full_name: "Amaranth Bold Italic"
+  copyright: "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

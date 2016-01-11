@@ -10,6 +10,7 @@ fonts {
   filename: "Halant-Light.ttf"
   post_script_name: "Halant-Light"
   full_name: "Halant Light"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Halant"
@@ -18,6 +19,7 @@ fonts {
   filename: "Halant-Regular.ttf"
   post_script_name: "Halant-Regular"
   full_name: "Halant"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Halant"
@@ -26,6 +28,7 @@ fonts {
   filename: "Halant-Medium.ttf"
   post_script_name: "Halant-Medium"
   full_name: "Halant Medium"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Halant"
@@ -34,6 +37,7 @@ fonts {
   filename: "Halant-Semibold.ttf"
   post_script_name: "Halant-Semibold"
   full_name: "Halant Semibold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Halant"
@@ -42,6 +46,7 @@ fonts {
   filename: "Halant-Bold.ttf"
   post_script_name: "Halant-Bold"
   full_name: "Halant Bold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

@@ -10,6 +10,7 @@ fonts {
   filename: "Lohit-Tamil.ttf"
   post_script_name: "Lohit-Tamil"
   full_name: "Lohit Tamil"
+  copyright: "Copyright 2011 Lohit Fonts Project contributors (psatpute@redhat.com). <http://fedorahosted.org/lohit> Licensed under the SIL Open Font License 1.1 (see file OFL.txt)"
 }
 subsets: "menu"
 subsets: "tamil"

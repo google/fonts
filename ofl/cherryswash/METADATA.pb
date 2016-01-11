@@ -10,6 +10,7 @@ fonts {
   filename: "CherrySwash-Regular.ttf"
   post_script_name: "CherrySwash-Regular"
   full_name: "Cherry Swash"
+  copyright: "Copyright (c) 2012, Natalia Kasatkina (kasatkinanataliya@gmail.com)"
 }
 fonts {
   name: "Cherry Swash"
@@ -18,6 +19,7 @@ fonts {
   filename: "CherrySwash-Bold.ttf"
   post_script_name: "CherrySwash-Bold"
   full_name: "Cherry Swash Bold"
+  copyright: "Copyright (c) 2012, Natalia Kasatkina (kasatkinanataliya@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

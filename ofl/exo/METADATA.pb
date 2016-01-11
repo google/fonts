@@ -10,6 +10,7 @@ fonts {
   filename: "Exo-Thin.ttf"
   post_script_name: "Exo-Thin"
   full_name: "Exo Thin"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -18,6 +19,7 @@ fonts {
   filename: "Exo-ThinItalic.ttf"
   post_script_name: "Exo-ThinItalic"
   full_name: "Exo Thin Italic"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -26,6 +28,7 @@ fonts {
   filename: "Exo-ExtraLight.ttf"
   post_script_name: "Exo-ExtraLight"
   full_name: "Exo ExtraLight"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -34,6 +37,7 @@ fonts {
   filename: "Exo-ExtraLightItalic.ttf"
   post_script_name: "Exo-ExtraLightItalic"
   full_name: "Exo ExtraLight Italic"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -42,6 +46,7 @@ fonts {
   filename: "Exo-Light.ttf"
   post_script_name: "Exo-Light"
   full_name: "Exo Light"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -50,6 +55,7 @@ fonts {
   filename: "Exo-LightItalic.ttf"
   post_script_name: "Exo-LightItalic"
   full_name: "Exo Light Italic"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -58,6 +64,7 @@ fonts {
   filename: "Exo-Regular.ttf"
   post_script_name: "Exo-Regular"
   full_name: "Exo Regular"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -66,6 +73,7 @@ fonts {
   filename: "Exo-Italic.ttf"
   post_script_name: "Exo-Italic"
   full_name: "Exo Italic"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -74,6 +82,7 @@ fonts {
   filename: "Exo-Medium.ttf"
   post_script_name: "Exo-Medium"
   full_name: "Exo Medium"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -82,6 +91,7 @@ fonts {
   filename: "Exo-MediumItalic.ttf"
   post_script_name: "Exo-MediumItalic"
   full_name: "Exo Medium Italic"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -90,6 +100,7 @@ fonts {
   filename: "Exo-SemiBold.ttf"
   post_script_name: "Exo-DemiBold"
   full_name: "Exo DemiBold"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -98,6 +109,7 @@ fonts {
   filename: "Exo-SemiBoldItalic.ttf"
   post_script_name: "Exo-DemiBoldItalic"
   full_name: "Exo DemiBold Italic"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -106,6 +118,7 @@ fonts {
   filename: "Exo-Bold.ttf"
   post_script_name: "Exo-Bold"
   full_name: "Exo Bold"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -114,6 +127,7 @@ fonts {
   filename: "Exo-BoldItalic.ttf"
   post_script_name: "Exo-BoldItalic"
   full_name: "Exo Bold Italic"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -122,6 +136,7 @@ fonts {
   filename: "Exo-ExtraBold.ttf"
   post_script_name: "Exo-ExtraBold"
   full_name: "Exo ExtraBold"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -130,6 +145,7 @@ fonts {
   filename: "Exo-ExtraBoldItalic.ttf"
   post_script_name: "Exo-ExtraBoldItalic"
   full_name: "Exo ExtraBold Italic"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -138,6 +154,7 @@ fonts {
   filename: "Exo-Black.ttf"
   post_script_name: "Exo-Black"
   full_name: "Exo Black"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 fonts {
   name: "Exo"
@@ -146,6 +163,7 @@ fonts {
   filename: "Exo-BlackItalic.ttf"
   post_script_name: "Exo-BlackItalic"
   full_name: "Exo Black Italic"
+  copyright: "Copyright (c) 2011 Natanael Gama (exo@ndiscovered.com), with Reserved Font Name \"Exo\""
 }
 subsets: "menu"
 subsets: "latin"

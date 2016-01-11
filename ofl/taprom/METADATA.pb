@@ -10,6 +10,7 @@ fonts {
   filename: "Taprom.ttf"
   post_script_name: "Taprom"
   full_name: "Taprom"
+  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name NiDA Taprom. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 subsets: "menu"
 subsets: "khmer"

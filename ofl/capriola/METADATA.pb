@@ -10,6 +10,7 @@ fonts {
   filename: "Capriola-Regular.ttf"
   post_script_name: "Capriola-Regular"
   full_name: "Capriola Regular"
+  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Capriola\"."
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "NoticiaText-Regular.ttf"
   post_script_name: "NoticiaText-Regular"
   full_name: "Noticia Text"
+  copyright: "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Noticia Text\"."
 }
 fonts {
   name: "Noticia Text"
@@ -18,6 +19,7 @@ fonts {
   filename: "NoticiaText-Italic.ttf"
   post_script_name: "NoticiaText-Italic"
   full_name: "Noticia Text Italic"
+  copyright: "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Noticia Text\"."
 }
 fonts {
   name: "Noticia Text"
@@ -26,6 +28,7 @@ fonts {
   filename: "NoticiaText-Bold.ttf"
   post_script_name: "NoticiaText-Bold"
   full_name: "Noticia Text Bold"
+  copyright: "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Noticia Text\"."
 }
 fonts {
   name: "Noticia Text"
@@ -34,6 +37,7 @@ fonts {
   filename: "NoticiaText-BoldItalic.ttf"
   post_script_name: "NoticiaText-BoldItalic"
   full_name: "Noticia Text Bold Italic"
+  copyright: "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Noticia Text\"."
 }
 subsets: "menu"
 subsets: "latin"

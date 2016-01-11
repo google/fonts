@@ -10,6 +10,7 @@ fonts {
   filename: "ConcertOne-Regular.ttf"
   post_script_name: "ConcertOne-Regular"
   full_name: "Concert One"
+  copyright: "Copyright (c) 2011, 2011 Johan Kallas (johankallas@gmail.com), Copyright (c) 2011, 2011 Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name Concert."
 }
 subsets: "menu"
 subsets: "latin"

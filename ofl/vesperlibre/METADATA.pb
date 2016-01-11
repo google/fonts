@@ -10,6 +10,7 @@ fonts {
   filename: "VesperLibre-Regular.ttf"
   post_script_name: "VesperLibre-Regular"
   full_name: "Vesper Libre"
+  copyright: "Copyright (c) 2007, Robert Keller (www.motaitalic.com)"
 }
 fonts {
   name: "Vesper Libre"
@@ -18,6 +19,7 @@ fonts {
   filename: "VesperLibre-Medium.ttf"
   post_script_name: "VesperLibre-Medium"
   full_name: "Vesper Libre Medium"
+  copyright: "Copyright (c) 2007, Robert Keller (www.motaitalic.com)"
 }
 fonts {
   name: "Vesper Libre"
@@ -26,6 +28,7 @@ fonts {
   filename: "VesperLibre-Bold.ttf"
   post_script_name: "VesperLibre-Bold"
   full_name: "Vesper Libre Bold"
+  copyright: "Copyright (c) 2007, Robert Keller (www.motaitalic.com)"
 }
 fonts {
   name: "Vesper Libre"
@@ -34,6 +37,7 @@ fonts {
   filename: "VesperLibre-Heavy.ttf"
   post_script_name: "VesperLibre-Heavy"
   full_name: "Vesper Libre Heavy"
+  copyright: "Copyright (c) 2007, Robert Keller (www.motaitalic.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

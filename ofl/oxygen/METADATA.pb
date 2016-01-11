@@ -10,6 +10,7 @@ fonts {
   filename: "Oxygen-Light.ttf"
   post_script_name: "Oxygen-Light"
   full_name: "Oxygen Light"
+  copyright: "Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'"
 }
 fonts {
   name: "Oxygen"
@@ -18,6 +19,7 @@ fonts {
   filename: "Oxygen-Regular.ttf"
   post_script_name: "Oxygen-Regular"
   full_name: "Oxygen"
+  copyright: "Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'"
 }
 fonts {
   name: "Oxygen"
@@ -26,6 +28,7 @@ fonts {
   filename: "Oxygen-Bold.ttf"
   post_script_name: "Oxygen-Bold"
   full_name: "Oxygen Bold"
+  copyright: "Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'"
 }
 subsets: "menu"
 subsets: "latin"

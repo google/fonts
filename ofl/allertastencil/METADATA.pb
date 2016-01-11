@@ -10,6 +10,7 @@ fonts {
   filename: "AllertaStencil-Regular.ttf"
   post_script_name: "AllertaStencil-Regular"
   full_name: "Allerta Stencil Regular"
+  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com> with Reserved Font Name Allerta."
 }
 subsets: "menu"
 subsets: "latin"

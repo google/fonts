@@ -10,6 +10,7 @@ fonts {
   filename: "Damion-Regular.ttf"
   post_script_name: "Damion"
   full_name: "Damion"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Damion'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

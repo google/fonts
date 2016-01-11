@@ -10,6 +10,7 @@ fonts {
   filename: "CutiveMono-Regular.ttf"
   post_script_name: "CutiveMono-Regular"
   full_name: "Cutive Mono"
+  copyright: "Copyright (c) 2012 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Cutive'"
 }
 subsets: "menu"
 subsets: "latin"

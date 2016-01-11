@@ -10,6 +10,7 @@ fonts {
   filename: "Cousine-Regular.ttf"
   post_script_name: "Cousine"
   full_name: "Cousine"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
   name: "Cousine"
@@ -18,6 +19,7 @@ fonts {
   filename: "Cousine-Italic.ttf"
   post_script_name: "Cousine-Italic"
   full_name: "Cousine Italic"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
   name: "Cousine"
@@ -26,6 +28,7 @@ fonts {
   filename: "Cousine-Bold.ttf"
   post_script_name: "Cousine-Bold"
   full_name: "Cousine Bold"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
   name: "Cousine"
@@ -34,6 +37,7 @@ fonts {
   filename: "Cousine-BoldItalic.ttf"
   post_script_name: "Cousine-BoldItalic"
   full_name: "Cousine Bold Italic"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 subsets: "menu"
 subsets: "cyrillic"

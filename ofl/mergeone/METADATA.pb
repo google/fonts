@@ -10,6 +10,7 @@ fonts {
   filename: "MergeOne-Regular.ttf"
   post_script_name: "MergeOne-Regular"
   full_name: "Merge One"
+  copyright: "Copyright (c) 2012, Kosal Sen, Philatype (holla@philatype.com), with Reserved Font Name 'Merge'"
 }
 subsets: "menu"
 subsets: "latin"

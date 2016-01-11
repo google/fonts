@@ -10,6 +10,7 @@ fonts {
   filename: "Sevillana-Regular.ttf"
   post_script_name: "Sevillana-Regular"
   full_name: "Sevillana"
+  copyright: "Copyright (c) 2011, Brownfox (gayaneh.b@gmail.com), with Reserved Font Names \"Sevillana\""
 }
 subsets: "menu"
 subsets: "latin"

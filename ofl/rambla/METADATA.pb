@@ -10,6 +10,7 @@ fonts {
   filename: "Rambla-Regular.ttf"
   post_script_name: "Rambla-Regular"
   full_name: "Rambla"
+  copyright: "Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with Reserved Font Name 'Rambla'"
 }
 fonts {
   name: "Rambla"
@@ -18,6 +19,7 @@ fonts {
   filename: "Rambla-Italic.ttf"
   post_script_name: "Rambla-Italic"
   full_name: "Rambla Italic"
+  copyright: "Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with Reserved Font Name 'Rambla'"
 }
 fonts {
   name: "Rambla"
@@ -26,6 +28,7 @@ fonts {
   filename: "Rambla-Bold.ttf"
   post_script_name: "Rambla-Bold"
   full_name: "Rambla Bold"
+  copyright: "Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with Reserved Font Name 'Rambla'"
 }
 fonts {
   name: "Rambla"
@@ -34,6 +37,7 @@ fonts {
   filename: "Rambla-BoldItalic.ttf"
   post_script_name: "Rambla-BoldItalic"
   full_name: "Rambla Bold Italic"
+  copyright: "Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with Reserved Font Name 'Rambla'"
 }
 subsets: "menu"
 subsets: "latin"

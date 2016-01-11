@@ -10,6 +10,7 @@ fonts {
   filename: "ReenieBeanie.ttf"
   post_script_name: "ReenieBeanie"
   full_name: "Reenie Beanie"
+  copyright: "Copyright (c) 2010 Typeco (james@typeco.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

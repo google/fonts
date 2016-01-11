@@ -10,6 +10,7 @@ fonts {
   filename: "PoiretOne-Regular.ttf"
   post_script_name: "PoiretOne-Regular"
   full_name: "Poiret One"
+  copyright: "Copyright (c) 2011, Denis Masharov (denis.masharov@gmail.com)"
 }
 subsets: "menu"
 subsets: "cyrillic"

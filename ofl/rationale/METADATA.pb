@@ -10,6 +10,7 @@ fonts {
   filename: "Rationale-Regular.ttf"
   post_script_name: "Rationale-Regular"
   full_name: "Rationale"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Rationale\"."
 }
 subsets: "menu"
 subsets: "latin"

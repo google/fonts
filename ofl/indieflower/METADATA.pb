@@ -10,6 +10,7 @@ fonts {
   filename: "IndieFlower.ttf"
   post_script_name: "IndieFlower"
   full_name: "Indie Flower"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "GreatVibes-Regular.ttf"
   post_script_name: "GreatVibes-Regular"
   full_name: "Great Vibes"
+  copyright: "Copyright (c) 2012 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Great Vibes\""
 }
 subsets: "menu"
 subsets: "latin"

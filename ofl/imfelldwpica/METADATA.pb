@@ -10,6 +10,7 @@ fonts {
   filename: "IMFePIrm28P.ttf"
   post_script_name: "IM_FELL_DW_Pica_Roman"
   full_name: "IM FELL DW Pica Roman"
+  copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL DW Pica Roman"
 }
 fonts {
   name: "IM Fell DW Pica"
@@ -18,6 +19,7 @@ fonts {
   filename: "IMFePIit28P.ttf"
   post_script_name: "IM_FELL_DW_Pica_Italic"
   full_name: "IM FELL DW Pica Italic"
+  copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL DW Pica Italic"
 }
 subsets: "menu"
 subsets: "latin"

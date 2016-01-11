@@ -10,6 +10,7 @@ fonts {
   filename: "RobotoCondensed-Light.ttf"
   post_script_name: "RobotoCondensed-Light"
   full_name: "Roboto Condensed Light"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Condensed"
@@ -18,6 +19,7 @@ fonts {
   filename: "RobotoCondensed-LightItalic.ttf"
   post_script_name: "RobotoCondensed-LightItalic"
   full_name: "Roboto Condensed Light Italic"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Condensed"
@@ -26,6 +28,7 @@ fonts {
   filename: "RobotoCondensed-Regular.ttf"
   post_script_name: "RobotoCondensed-Regular"
   full_name: "Roboto Condensed"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Condensed"
@@ -34,6 +37,7 @@ fonts {
   filename: "RobotoCondensed-Italic.ttf"
   post_script_name: "RobotoCondensed-Italic"
   full_name: "Roboto Condensed Italic"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Condensed"
@@ -42,6 +46,7 @@ fonts {
   filename: "RobotoCondensed-Bold.ttf"
   post_script_name: "RobotoCondensed-Bold"
   full_name: "Roboto Condensed Bold"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Condensed"
@@ -50,6 +55,7 @@ fonts {
   filename: "RobotoCondensed-BoldItalic.ttf"
   post_script_name: "RobotoCondensed-BoldItalic"
   full_name: "Roboto Condensed Bold Italic"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "PlayfairDisplaySC-Regular.ttf"
   post_script_name: "PlayfairDisplaySC-Regular"
   full_name: "Playfair Display SC"
+  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
 }
 fonts {
   name: "Playfair Display SC"
@@ -18,6 +19,7 @@ fonts {
   filename: "PlayfairDisplaySC-Italic.ttf"
   post_script_name: "PlayfairDisplaySC-Italic"
   full_name: "Playfair Display SC Italic"
+  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
 }
 fonts {
   name: "Playfair Display SC"
@@ -26,6 +28,7 @@ fonts {
   filename: "PlayfairDisplaySC-Bold.ttf"
   post_script_name: "PlayfairDisplaySC-Bold"
   full_name: "Playfair Display SC Bold"
+  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
 }
 fonts {
   name: "Playfair Display SC"
@@ -34,6 +37,7 @@ fonts {
   filename: "PlayfairDisplaySC-BoldItalic.ttf"
   post_script_name: "PlayfairDisplaySC-BoldItalic"
   full_name: "Playfair Display SC Bold Italic"
+  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
 }
 fonts {
   name: "Playfair Display SC"
@@ -42,6 +46,7 @@ fonts {
   filename: "PlayfairDisplaySC-Black.ttf"
   post_script_name: "PlayfairDisplaySC-Black"
   full_name: "Playfair Display SC Black"
+  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
 }
 fonts {
   name: "Playfair Display SC"
@@ -50,6 +55,7 @@ fonts {
   filename: "PlayfairDisplaySC-BlackItalic.ttf"
   post_script_name: "PlayfairDisplaySC-BlackItalic"
   full_name: "Playfair Display SC Black Italic"
+  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
 }
 subsets: "menu"
 subsets: "cyrillic"

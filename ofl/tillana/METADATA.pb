@@ -10,6 +10,7 @@ fonts {
   filename: "Tillana-Regular.ttf"
   post_script_name: "Tillana-Regular"
   full_name: "Tillana"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Tillana"
@@ -18,6 +19,7 @@ fonts {
   filename: "Tillana-Medium.ttf"
   post_script_name: "Tillana-Medium"
   full_name: "Tillana Medium"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Tillana"
@@ -26,6 +28,7 @@ fonts {
   filename: "Tillana-SemiBold.ttf"
   post_script_name: "Tillana-SemiBold"
   full_name: "Tillana SemiBold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Tillana"
@@ -34,6 +37,7 @@ fonts {
   filename: "Tillana-Bold.ttf"
   post_script_name: "Tillana-Bold"
   full_name: "Tillana Bold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Tillana"
@@ -42,6 +46,7 @@ fonts {
   filename: "Tillana-ExtraBold.ttf"
   post_script_name: "Tillana-ExtraBold"
   full_name: "Tillana ExtraBold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

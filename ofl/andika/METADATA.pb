@@ -10,6 +10,7 @@ fonts {
   filename: "Andika-R.ttf"
   post_script_name: "Andika"
   full_name: "Andika"
+  copyright: "Copyright (c) 2004-2011, SIL International (http://www.sil.org/). Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL), with Reserved Font Names \"Andika\" and \"SIL\"."
 }
 subsets: "menu"
 subsets: "cyrillic"

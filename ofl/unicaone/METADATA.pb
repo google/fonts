@@ -10,6 +10,7 @@ fonts {
   filename: "UnicaOne-Regular.ttf"
   post_script_name: "UnicaOne-Regular"
   full_name: "Unica One"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Unica'"
 }
 subsets: "menu"
 subsets: "latin"

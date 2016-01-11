@@ -10,6 +10,7 @@ fonts {
   filename: "WireOne.ttf"
   post_script_name: "WireOne"
   full_name: "Wire One"
+  copyright: "Copyright (c) 2011, Cyreal Type Foundry (a@cyreal.org), with Reserved Font Name 'Wire'"
 }
 subsets: "menu"
 subsets: "latin"

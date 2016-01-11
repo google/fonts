@@ -10,6 +10,7 @@ fonts {
   filename: "Knewave-Regular.ttf"
   post_script_name: "Knewave-Regular"
   full_name: "Knewave"
+  copyright: "Copyright (c) 2011 by Tyler Finck (tylerfinck@gmail.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

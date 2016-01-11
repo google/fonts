@@ -10,6 +10,7 @@ fonts {
   filename: "Imprima-Regular.ttf"
   post_script_name: "Imprima-Regular"
   full_name: "Imprima"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Imprima\""
 }
 subsets: "menu"
 subsets: "latin"

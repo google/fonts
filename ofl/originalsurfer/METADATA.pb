@@ -10,6 +10,7 @@ fonts {
   filename: "OriginalSurfer-Regular.ttf"
   post_script_name: "OriginalSurfer-Regular"
   full_name: "Original Surfer"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Original Surfer\""
 }
 subsets: "menu"
 subsets: "latin"

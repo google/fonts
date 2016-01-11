@@ -10,6 +10,7 @@ fonts {
   filename: "MontserratAlternates-Regular.ttf"
   post_script_name: "MontserratAlternates-Regular"
   full_name: "MontserratAlternates-Regular"
+  copyright: "Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names 'Montserrat'"
 }
 fonts {
   name: "Montserrat Alternates"
@@ -18,6 +19,7 @@ fonts {
   filename: "MontserratAlternates-Bold.ttf"
   post_script_name: "MontserratAlternates-Bold"
   full_name: "MontserratAlternates-Bold"
+  copyright: "Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names 'Montserrat'"
 }
 subsets: "menu"
 subsets: "latin"

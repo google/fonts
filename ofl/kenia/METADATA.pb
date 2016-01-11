@@ -10,6 +10,7 @@ fonts {
   filename: "Kenia-Regular.ttf"
   post_script_name: "Kenia-Regular"
   full_name: "Kenia"
+  copyright: "Copyright (c) 2010, Julia Petretta (julia.petretta@googlemail.com), with Reserved Font Name Kenia"
 }
 subsets: "menu"
 subsets: "latin"

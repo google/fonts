@@ -10,6 +10,7 @@ fonts {
   filename: "Geo-Regular.ttf"
   post_script_name: "Geo-Regular"
   full_name: "Geo"
+  copyright: "Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with Reserved Font Name Geo."
 }
 fonts {
   name: "Geo"
@@ -18,6 +19,7 @@ fonts {
   filename: "Geo-Oblique.ttf"
   post_script_name: "Geo-Oblique"
   full_name: "Geo Oblique"
+  copyright: "Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with Reserved Font Name Geo."
 }
 subsets: "menu"
 subsets: "latin"

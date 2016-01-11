@@ -10,6 +10,7 @@ fonts {
   filename: "HomemadeApple.ttf"
   post_script_name: "HomemadeApple"
   full_name: "Homemade Apple"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

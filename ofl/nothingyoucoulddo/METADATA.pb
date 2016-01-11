@@ -10,6 +10,7 @@ fonts {
   filename: "NothingYouCouldDo.ttf"
   post_script_name: "NothingYouCouldDo"
   full_name: "Nothing You Could Do"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license available with a FAQ at: http://scripts.sil.org/OFL"
 }
 subsets: "menu"
 subsets: "latin"

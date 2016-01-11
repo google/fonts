@@ -10,6 +10,7 @@ fonts {
   filename: "TradeWinds-Regular.ttf"
   post_script_name: "TradeWinds"
   full_name: "Trade Winds"
+  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reserved Font Name \"Trade Winds\""
 }
 subsets: "menu"
 subsets: "latin"

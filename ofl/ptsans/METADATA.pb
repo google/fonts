@@ -10,6 +10,7 @@ fonts {
   filename: "PT_Sans-Web-Regular.ttf"
   post_script_name: "PTSans-Regular"
   full_name: "PT Sans"
+  copyright: "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 fonts {
   name: "PT Sans"
@@ -18,6 +19,7 @@ fonts {
   filename: "PT_Sans-Web-Italic.ttf"
   post_script_name: "PTSans-Italic"
   full_name: "PT Sans Italic"
+  copyright: "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 fonts {
   name: "PT Sans"
@@ -26,6 +28,7 @@ fonts {
   filename: "PT_Sans-Web-Bold.ttf"
   post_script_name: "PTSans-Bold"
   full_name: "PT Sans Bold"
+  copyright: "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 fonts {
   name: "PT Sans"
@@ -34,6 +37,7 @@ fonts {
   filename: "PT_Sans-Web-BoldItalic.ttf"
   post_script_name: "PTSans-BoldItalic"
   full_name: "PT Sans Bold Italic"
+  copyright: "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

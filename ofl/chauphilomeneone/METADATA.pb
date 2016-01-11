@@ -10,6 +10,7 @@ fonts {
   filename: "ChauPhilomeneOne-Regular.ttf"
   post_script_name: "ChauPhilomeneOne-Regular"
   full_name: "Chau Philomene One"
+  copyright: "Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com), with Reserved Font Name \"Chau Philomene\""
 }
 fonts {
   name: "Chau Philomene One"
@@ -18,6 +19,7 @@ fonts {
   filename: "ChauPhilomeneOne-Italic.ttf"
   post_script_name: "ChauPhilomeneOne-Italic"
   full_name: "Chau Philomene One"
+  copyright: "Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com www.tipotype.com), with Reserved Font Name \"Chau Philomene\""
 }
 subsets: "menu"
 subsets: "latin"

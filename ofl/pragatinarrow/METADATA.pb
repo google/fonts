@@ -10,6 +10,7 @@ fonts {
   filename: "PragatiNarrow-Regular.ttf"
   post_script_name: "PragatiNarrow-Regular"
   full_name: "Pragati Narrow"
+  copyright: "Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)"
 }
 fonts {
   name: "Pragati Narrow"
@@ -18,6 +19,7 @@ fonts {
   filename: "PragatiNarrow-Bold.ttf"
   post_script_name: "PragatiNarrow-Bold"
   full_name: "Pragati Narrow Bold"
+  copyright: "Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

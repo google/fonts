@@ -10,6 +10,7 @@ fonts {
   filename: "Mandali-Regular.ttf"
   post_script_name: "Mandali"
   full_name: "Mandali"
+  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name Nunito"
 }
 subsets: "menu"
 subsets: "latin"

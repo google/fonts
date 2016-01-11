@@ -10,6 +10,7 @@ fonts {
   filename: "KottaOne-Regular.ttf"
   post_script_name: "KottaOne-Regular"
   full_name: "Kotta One"
+  copyright: "Copyright (c) 2012 by Ania Kruk (hello@aniakruk.com), with Reserved Font Name \"Kotta\""
 }
 subsets: "menu"
 subsets: "latin"

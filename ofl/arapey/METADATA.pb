@@ -10,6 +10,7 @@ fonts {
   filename: "Arapey-Regular.ttf"
   post_script_name: "Arapey-Regular"
   full_name: "Arapey Regular"
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Arapey\""
 }
 fonts {
   name: "Arapey"
@@ -18,6 +19,7 @@ fonts {
   filename: "Arapey-Italic.ttf"
   post_script_name: "Arapey-Italic"
   full_name: "Arapey Italic"
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Arapey\""
 }
 subsets: "menu"
 subsets: "latin"

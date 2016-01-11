@@ -10,6 +10,7 @@ fonts {
   filename: "EBGaramond-Regular.ttf"
   post_script_name: "EBGaramond"
   full_name: "EB Garamond"
+  copyright: "Copyright (c) 2010, 2011, 2012 Georg Duffner (http://www.georgduffner.at g.duffner@gmail.com)"
 }
 subsets: "menu"
 subsets: "cyrillic"

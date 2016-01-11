@@ -10,6 +10,7 @@ fonts {
   filename: "CraftyGirls.ttf"
   post_script_name: "CraftyGirls"
   full_name: "Crafty Girls"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

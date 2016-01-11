@@ -10,6 +10,7 @@ fonts {
   filename: "AverageSans-Regular.ttf"
   post_script_name: "AverageSans-Regular"
   full_name: "Average Sans"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Average'"
 }
 subsets: "menu"
 subsets: "latin"

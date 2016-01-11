@@ -10,6 +10,7 @@ fonts {
   filename: "Trochut-Regular.ttf"
   post_script_name: "Trochut"
   full_name: "Trochut"
+  copyright: "Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com), with Reserved Font Name Trochut"
 }
 fonts {
   name: "Trochut"
@@ -18,6 +19,7 @@ fonts {
   filename: "Trochut-Italic.ttf"
   post_script_name: "Trochut-Italic"
   full_name: "Trochut Italic"
+  copyright: "Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com), with Reserved Font Name Trochut"
 }
 fonts {
   name: "Trochut"
@@ -26,6 +28,7 @@ fonts {
   filename: "Trochut-Bold.ttf"
   post_script_name: "Trochut-Bold"
   full_name: "Trochut Bold"
+  copyright: "Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com), with Reserved Font Name Trochut"
 }
 subsets: "menu"
 subsets: "latin"

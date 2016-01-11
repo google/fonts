@@ -10,6 +10,7 @@ fonts {
   filename: "Almendra-Regular.ttf"
   post_script_name: "Almendra-Regular"
   full_name: "Almendra"
+  copyright: "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
 }
 fonts {
   name: "Almendra"
@@ -18,6 +19,7 @@ fonts {
   filename: "Almendra-Italic.ttf"
   post_script_name: "Almendra-Italic"
   full_name: "Almendra Italic"
+  copyright: "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
 }
 fonts {
   name: "Almendra"
@@ -26,6 +28,7 @@ fonts {
   filename: "Almendra-Bold.ttf"
   post_script_name: "Almendra-Bold"
   full_name: "Almendra Bold"
+  copyright: "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
 }
 fonts {
   name: "Almendra"
@@ -34,6 +37,7 @@ fonts {
   filename: "Almendra-BoldItalic.ttf"
   post_script_name: "Almendra-BoldItalic"
   full_name: "Almendra Bold Italic"
+  copyright: "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Merienda-Regular.ttf"
   post_script_name: "Merienda-Regular_0_wt"
   full_name: "Merienda"
+  copyright: "Copyright (c) 2011-2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Merienda'"
 }
 fonts {
   name: "Merienda"
@@ -18,6 +19,7 @@ fonts {
   filename: "Merienda-Bold.ttf"
   post_script_name: "Merienda-Bold"
   full_name: "Merienda Bold"
+  copyright: "Copyright (c) 2011-2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Merienda'"
 }
 subsets: "menu"
 subsets: "latin"

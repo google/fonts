@@ -10,6 +10,7 @@ fonts {
   filename: "Habibi-Regular.ttf"
   post_script_name: "Habibi-Regular"
   full_name: "Habibi"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Habibi\"."
 }
 subsets: "menu"
 subsets: "latin"

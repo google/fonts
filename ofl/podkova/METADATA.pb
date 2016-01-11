@@ -10,6 +10,7 @@ fonts {
   filename: "Podkova-Regular.ttf"
   post_script_name: "Podkova-Regular"
   full_name: "Podkova"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org), with Reserved Font Name \"Podkova\"."
 }
 fonts {
   name: "Podkova"
@@ -18,6 +19,7 @@ fonts {
   filename: "Podkova-Bold.ttf"
   post_script_name: "Podkova-Bold"
   full_name: "Podkova Bold"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org), with Reserved Font Name \"Podkova\"."
 }
 subsets: "menu"
 subsets: "latin"

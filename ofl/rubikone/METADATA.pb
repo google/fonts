@@ -10,6 +10,7 @@ fonts {
   filename: "RubikOne-Regular.ttf"
   post_script_name: "RubikOne-Regular"
   full_name: "Rubik One Regular"
+  copyright: "Copyright (c) 2013, 2014, Hubert and Fischer, Philipp Hubert (philipp@hubertfischer.com), Sebastian Fischer (sebastian@hubertfischer.com)"
 }
 subsets: "menu"
 subsets: "cyrillic"

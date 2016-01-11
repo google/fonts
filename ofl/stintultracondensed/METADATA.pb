@@ -10,6 +10,7 @@ fonts {
   filename: "StintUltraCondensed-Regular.ttf"
   post_script_name: "StintUltraCondensed-Regular"
   full_name: "Stint Ultra Condensed"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Stint Ultra Condensed\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "FjallaOne-Regular.ttf"
   post_script_name: "FjallaOne-Regular"
   full_name: "Fjalla One"
+  copyright: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name 'Fjalla'"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "TheGirlNextDoor.ttf"
   post_script_name: "TheGirlNextDoor"
   full_name: "The Girl Next Door"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

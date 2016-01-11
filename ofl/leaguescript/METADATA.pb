@@ -10,6 +10,7 @@ fonts {
   filename: "LeagueScript.ttf"
   post_script_name: "LeagueScript"
   full_name: "League Script"
+  copyright: "Copyright (c) 2010, Haley Fiege (haley@kingdomofawesome.com)"
 }
 subsets: "menu"
 subsets: "latin"

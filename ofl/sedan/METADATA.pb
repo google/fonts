@@ -10,6 +10,7 @@ fonts {
   filename: "Sedan-Regular.ttf"
   post_script_name: "Sedan-Regular"
   full_name: "Sedan"
+  copyright: "Copyright (c) 2012, Sebastian Salazar (sebotas26@hotmail.com), with Reserved Font Name 'Sedan'"
 }
 fonts {
   name: "Sedan"
@@ -18,5 +19,6 @@ fonts {
   filename: "Sedan-Italic.ttf"
   post_script_name: "Sedan-Italic"
   full_name: "Sedan Italic"
+  copyright: "Copyright (c) 2012, Sebastian Salazar (sebotas26@hotmail.com), with Reserved Font Name 'Sedan'"
 }
 subsets: "latin"

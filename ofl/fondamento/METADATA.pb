@@ -10,6 +10,7 @@ fonts {
   filename: "Fondamento-Regular.ttf"
   post_script_name: "Fondamento-Regular"
   full_name: "Fondamento Regular"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Fondamento\""
 }
 fonts {
   name: "Fondamento"
@@ -18,6 +19,7 @@ fonts {
   filename: "Fondamento-Italic.ttf"
   post_script_name: "Fondamento-Italic"
   full_name: "Fondamento-Italic"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Fondamento Italic\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "GlassAntiqua-Regular.ttf"
   post_script_name: "GlassAntiqua-Regular"
   full_name: "Glass Antiqua"
+  copyright: "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>."
 }
 subsets: "menu"
 subsets: "latin"

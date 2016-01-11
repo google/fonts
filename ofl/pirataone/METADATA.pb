@@ -10,6 +10,7 @@ fonts {
   filename: "PirataOne-Regular.ttf"
   post_script_name: "PirataOne-Regular"
   full_name: "Pirata One"
+  copyright: "Copyright (c) 2012, Rodrigo Fuenzalida (hello@rfuenzalida.com), Nicolas Massi (www.taip.com.ar / abc.taip.com.ar / nmassi@gmail.com), with Reserved Font Name 'Pirata'"
 }
 subsets: "menu"
 subsets: "latin"

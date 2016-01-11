@@ -10,6 +10,7 @@ fonts {
   filename: "Puritan-Regular.ttf"
   post_script_name: "Puritan-Regular"
   full_name: "Puritan Regular"
+  copyright: "Copyright 1999-2010 Ben Weiner (ben@readingtype.org.uk). Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)"
 }
 fonts {
   name: "Puritan"
@@ -18,6 +19,7 @@ fonts {
   filename: "Puritan-Italic.ttf"
   post_script_name: "Puritan-Italic"
   full_name: "Puritan Italic"
+  copyright: "Copyright 1999-2010 Ben Weiner (ben@readingtype.org.uk). Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)"
 }
 fonts {
   name: "Puritan"
@@ -26,6 +28,7 @@ fonts {
   filename: "Puritan-Bold.ttf"
   post_script_name: "Puritan-Bold"
   full_name: "Puritan Bold"
+  copyright: "Copyright 1999-2010 Ben Weiner (ben@readingtype.org.uk). Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)"
 }
 fonts {
   name: "Puritan"
@@ -34,6 +37,7 @@ fonts {
   filename: "Puritan-BoldItalic.ttf"
   post_script_name: "Puritan-BoldItalic"
   full_name: "Puritan Bold Italic"
+  copyright: "Copyright 1999-2010 Ben Weiner (ben@readingtype.org.uk). Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)"
 }
 subsets: "menu"
 subsets: "latin"

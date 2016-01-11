@@ -10,6 +10,7 @@ fonts {
   filename: "Glegoo-Regular.ttf"
   post_script_name: "Glegoo-Regular"
   full_name: "Glegoo"
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), Copyright 2011-13 Lohit Fonts Project contributors (http://fedorahosted.org/lohit)"
 }
 fonts {
   name: "Glegoo"
@@ -18,6 +19,7 @@ fonts {
   filename: "Glegoo-Bold.ttf"
   post_script_name: "Glegoo-Bold"
   full_name: "Glegoo Bold"
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), Copyright 2011-13 Lohit Fonts Project contributors (http://fedorahosted.org/lohit)"
 }
 subsets: "menu"
 subsets: "devanagari"

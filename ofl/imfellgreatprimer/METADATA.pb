@@ -10,6 +10,7 @@ fonts {
   filename: "IMFeGPrm28P.ttf"
   post_script_name: "IM_FELL_Great_Primer_Roman"
   full_name: "IM FELL Great Primer Roman"
+  copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL Great Primer Roman"
 }
 fonts {
   name: "IM Fell Great Primer"
@@ -18,6 +19,7 @@ fonts {
   filename: "IMFeGPit28P.ttf"
   post_script_name: "IM_FELL_Great_Primer_Italic"
   full_name: "IM FELL Great Primer Italic"
+  copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL Great Primer Italic"
 }
 subsets: "menu"
 subsets: "latin"

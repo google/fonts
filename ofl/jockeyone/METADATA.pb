@@ -10,6 +10,7 @@ fonts {
   filename: "JockeyOne-Regular.ttf"
   post_script_name: "JockeyOne-Regular"
   full_name: "Jockey One"
+  copyright: "Copyright (c) 2011, Copyright (c) 2011, TypeTogether (www.type-together.com info@type-together.com), with Reserved Font Names \"Jockey\" and \"Jockey One\""
 }
 subsets: "menu"
 subsets: "latin"

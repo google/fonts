@@ -10,6 +10,7 @@ fonts {
   filename: "Milonga-Regular.ttf"
   post_script_name: "Milonga-Regular"
   full_name: "Milonga"
+  copyright: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2011, Brenda Gallo (gbrenda1987@gmail.com), Copyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Milonga."
 }
 subsets: "menu"
 subsets: "latin"

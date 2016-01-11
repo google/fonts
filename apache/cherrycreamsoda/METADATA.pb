@@ -10,6 +10,7 @@ fonts {
   filename: "CherryCreamSoda.ttf"
   post_script_name: "CherryCreamSoda"
   full_name: "Cherry Cream Soda"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

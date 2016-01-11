@@ -10,6 +10,7 @@ fonts {
   filename: "SixCaps.ttf"
   post_script_name: "SixCaps"
   full_name: "Six Caps"
+  copyright: "Copyright (c) 2010 by vernon adams (vern@newtypography.co.uk) with Reserved Font Names 'Six Caps'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

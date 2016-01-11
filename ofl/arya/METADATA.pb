@@ -10,6 +10,7 @@ fonts {
   filename: "Arya-Regular.ttf"
   post_script_name: "Arya-Regular"
   full_name: "Arya"
+  copyright: "Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular Infotech, Pune, INDIA. All rights reserved."
 }
 fonts {
   name: "Arya"
@@ -18,6 +19,7 @@ fonts {
   filename: "Arya-Bold.ttf"
   post_script_name: "Arya-Bold"
   full_name: "Arya Bold"
+  copyright: "Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular Infotech, Pune, INDIA. All rights reserved."
 }
 subsets: "menu"
 subsets: "devanagari"

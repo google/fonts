@@ -10,6 +10,7 @@ fonts {
   filename: "PT_Serif-Web-Regular.ttf"
   post_script_name: "PTSerif-Regular"
   full_name: "PT Serif"
+  copyright: "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 fonts {
   name: "PT Serif"
@@ -18,6 +19,7 @@ fonts {
   filename: "PT_Serif-Web-Italic.ttf"
   post_script_name: "PTSerif-Italic"
   full_name: "PT Serif Italic"
+  copyright: "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 fonts {
   name: "PT Serif"
@@ -26,6 +28,7 @@ fonts {
   filename: "PT_Serif-Web-Bold.ttf"
   post_script_name: "PTSerif-Bold"
   full_name: "PT Serif Bold"
+  copyright: "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 fonts {
   name: "PT Serif"
@@ -34,6 +37,7 @@ fonts {
   filename: "PT_Serif-Web-BoldItalic.ttf"
   post_script_name: "PTSerif-BoldItalic"
   full_name: "PT Serif Bold Italic"
+  copyright: "Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

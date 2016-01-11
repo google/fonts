@@ -10,6 +10,7 @@ fonts {
   filename: "FontdinerSwanky.ttf"
   post_script_name: "FontdinerSwanky"
   full_name: "Fontdiner Swanky"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

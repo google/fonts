@@ -10,5 +10,6 @@ fonts {
   filename: "ArchivoBlack-Regular.ttf"
   post_script_name: "ArchivoBlack-Regular"
   full_name: "Archivo Black"
+  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
 }
 subsets: "latin"

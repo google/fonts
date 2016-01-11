@@ -10,6 +10,7 @@ fonts {
   filename: "Schoolbell.ttf"
   post_script_name: "Schoolbell"
   full_name: "Schoolbell"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

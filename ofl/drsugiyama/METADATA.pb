@@ -10,6 +10,7 @@ fonts {
   filename: "DrSugiyama-Regular.ttf"
   post_script_name: "DrSugiyama-Regular"
   full_name: "Dr Sugiyama Regular"
+  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Dr Sujiyama\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Raleway-Thin.ttf"
   post_script_name: "Raleway-Thin"
   full_name: "Raleway Thin"
+  copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -18,6 +19,7 @@ fonts {
   filename: "Raleway-ThinItalic.ttf"
   post_script_name: "Raleway-ThinItalic"
   full_name: "Raleway Thin Italic"
+  copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -26,6 +28,7 @@ fonts {
   filename: "Raleway-ExtraLight.ttf"
   post_script_name: "Raleway-ExtraLight"
   full_name: "Raleway ExtraLight"
+  copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -34,6 +37,7 @@ fonts {
   filename: "Raleway-ExtraLightItalic.ttf"
   post_script_name: "Raleway-ExtraLightItalic"
   full_name: "Raleway ExtraLight Italic"
+  copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -42,6 +46,7 @@ fonts {
   filename: "Raleway-Light.ttf"
   post_script_name: "Raleway-Light"
   full_name: "Raleway Light"
+  copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -50,6 +55,7 @@ fonts {
   filename: "Raleway-LightItalic.ttf"
   post_script_name: "Raleway-LightItalic"
   full_name: "Raleway Light Italic"
+  copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -58,6 +64,7 @@ fonts {
   filename: "Raleway-Regular.ttf"
   post_script_name: "Raleway-Regular"
   full_name: "Raleway Regular"
+  copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -66,6 +73,7 @@ fonts {
   filename: "Raleway-Italic.ttf"
   post_script_name: "Raleway-Italic"
   full_name: "Raleway Italic"
+  copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -74,6 +82,7 @@ fonts {
   filename: "Raleway-Medium.ttf"
   post_script_name: "Raleway-Medium"
   full_name: "Raleway Medium"
+  copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -82,6 +91,7 @@ fonts {
   filename: "Raleway-MediumItalic.ttf"
   post_script_name: "Raleway-MediumItalic"
   full_name: "Raleway Medium Italic"
+  copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -90,6 +100,7 @@ fonts {
   filename: "Raleway-SemiBold.ttf"
   post_script_name: "Raleway-SemiBold"
   full_name: "Raleway SemiBold"
+  copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -98,6 +109,7 @@ fonts {
   filename: "Raleway-SemiBoldItalic.ttf"
   post_script_name: "Raleway-SemiBoldItalic"
   full_name: "Raleway SemiBold Italic"
+  copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -106,6 +118,7 @@ fonts {
   filename: "Raleway-Bold.ttf"
   post_script_name: "Raleway-Bold"
   full_name: "Raleway Bold"
+  copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -114,6 +127,7 @@ fonts {
   filename: "Raleway-BoldItalic.ttf"
   post_script_name: "Raleway-BoldItalic"
   full_name: "Raleway Bold Italic"
+  copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -122,6 +136,7 @@ fonts {
   filename: "Raleway-ExtraBold.ttf"
   post_script_name: "Raleway-ExtraBold"
   full_name: "Raleway ExtraBold"
+  copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -130,6 +145,7 @@ fonts {
   filename: "Raleway-ExtraBoldItalic.ttf"
   post_script_name: "Raleway-ExtraBoldItalic"
   full_name: "Raleway ExtraBold Italic"
+  copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -138,6 +154,7 @@ fonts {
   filename: "Raleway-Black.ttf"
   post_script_name: "Raleway-Black"
   full_name: "Raleway Black"
+  copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
   name: "Raleway"
@@ -146,6 +163,7 @@ fonts {
   filename: "Raleway-BlackItalic.ttf"
   post_script_name: "Raleway-BlackItalic"
   full_name: "Raleway Black Italic"
+  copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 subsets: "menu"
 subsets: "cyrillic"

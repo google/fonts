@@ -10,6 +10,7 @@ fonts {
   filename: "Armata-Regular.ttf"
   post_script_name: "Armata-Regular"
   full_name: "Armata"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Armata\""
 }
 subsets: "menu"
 subsets: "latin"

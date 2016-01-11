@@ -10,6 +10,7 @@ fonts {
   filename: "Chivo-Regular.ttf"
   post_script_name: "Chivo-Regular"
   full_name: "Chivo"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Chivo\"."
 }
 fonts {
   name: "Chivo"
@@ -18,6 +19,7 @@ fonts {
   filename: "Chivo-Italic.ttf"
   post_script_name: "Chivo-Italic"
   full_name: "Chivo-Italic"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Chivo\"."
 }
 fonts {
   name: "Chivo"
@@ -26,6 +28,7 @@ fonts {
   filename: "Chivo-Black.ttf"
   post_script_name: "Chivo-Black"
   full_name: "Chivo Black"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Chivo\"."
 }
 fonts {
   name: "Chivo"
@@ -34,6 +37,7 @@ fonts {
   filename: "Chivo-BlackItalic.ttf"
   post_script_name: "Chivo-BlackItalic"
   full_name: "Chivo-BlackItalic"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Chivo\"."
 }
 subsets: "menu"
 subsets: "latin"

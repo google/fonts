@@ -10,6 +10,7 @@ fonts {
   filename: "Martel-UltraLight.ttf"
   post_script_name: "Martel-UltraLight"
   full_name: "Martel UltraLight"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
 }
 fonts {
   name: "Martel"
@@ -18,6 +19,7 @@ fonts {
   filename: "Martel-Light.ttf"
   post_script_name: "Martel-Light"
   full_name: "Martel Light"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
 }
 fonts {
   name: "Martel"
@@ -26,6 +28,7 @@ fonts {
   filename: "Martel-Regular.ttf"
   post_script_name: "Martel-Regular"
   full_name: "Martel"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
 }
 fonts {
   name: "Martel"
@@ -34,6 +37,7 @@ fonts {
   filename: "Martel-DemiBold.ttf"
   post_script_name: "Martel-DemiBold"
   full_name: "Martel DemiBold"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
 }
 fonts {
   name: "Martel"
@@ -42,6 +46,7 @@ fonts {
   filename: "Martel-Bold.ttf"
   post_script_name: "Martel-Bold"
   full_name: "Martel Bold"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
 }
 fonts {
   name: "Martel"
@@ -50,6 +55,7 @@ fonts {
   filename: "Martel-ExtraBold.ttf"
   post_script_name: "Martel-ExtraBold"
   full_name: "Martel ExtraBold"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
 }
 fonts {
   name: "Martel"
@@ -58,6 +64,7 @@ fonts {
   filename: "Martel-Heavy.ttf"
   post_script_name: "Martel-Heavy"
   full_name: "Martel Heavy"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
 }
 subsets: "menu"
 subsets: "devanagari"

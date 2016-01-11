@@ -10,6 +10,7 @@ fonts {
   filename: "Anton.ttf"
   post_script_name: "Anton"
   full_name: "Anton"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Anton'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

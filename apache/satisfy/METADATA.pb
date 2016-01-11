@@ -10,6 +10,7 @@ fonts {
   filename: "Satisfy-Regular.ttf"
   post_script_name: "Satisfy"
   full_name: "Satisfy"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "LondrinaShadow-Regular.ttf"
   post_script_name: "LondrinaShadow-Regular"
   full_name: "Londrina Shadow"
+  copyright: "Copyright (c) 2011 by Marcelo Magalhaes (marcelomagalhaes.net marcelommp@gmail.com), with Reserved Font Name \"Londrina\""
 }
 subsets: "menu"
 subsets: "latin"

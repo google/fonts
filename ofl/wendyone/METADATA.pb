@@ -10,6 +10,7 @@ fonts {
   filename: "WendyOne-Regular.ttf"
   post_script_name: "WendyOne-Regular"
   full_name: "Wendy One"
+  copyright: "Copyright (c) 2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Wendy'"
 }
 subsets: "menu"
 subsets: "latin"

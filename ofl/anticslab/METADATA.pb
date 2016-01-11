@@ -10,6 +10,7 @@ fonts {
   filename: "AnticSlab-Regular.ttf"
   post_script_name: "AnticSlab-Regular"
   full_name: "Antic Slab"
+  copyright: "Copyright (c) 2011 by Santiago Orozco(hi@typemade.mx) with reserved name Antic Slab"
 }
 subsets: "menu"
 subsets: "latin"

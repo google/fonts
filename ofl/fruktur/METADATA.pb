@@ -10,6 +10,7 @@ fonts {
   filename: "Fruktur-Regular.ttf"
   post_script_name: "Fruktur-Regular"
   full_name: "Fruktur Regular"
+  copyright: "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Fruktur'"
 }
 subsets: "menu"
 subsets: "latin"

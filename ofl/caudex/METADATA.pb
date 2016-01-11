@@ -10,6 +10,7 @@ fonts {
   filename: "Caudex-Regular.ttf"
   post_script_name: "Caudex"
   full_name: "Caudex"
+  copyright: "Copyright (c) 2011 Hjort Nidudsson (nidud@users.sourceforge.net)"
 }
 fonts {
   name: "Caudex"
@@ -18,6 +19,7 @@ fonts {
   filename: "Caudex-Italic.ttf"
   post_script_name: "Caudex-Italic"
   full_name: "Caudex Italic"
+  copyright: "Copyright (c) 2011 Hjort Nidudsson (nidud@users.sourceforge.net)"
 }
 fonts {
   name: "Caudex"
@@ -26,6 +28,7 @@ fonts {
   filename: "Caudex-Bold.ttf"
   post_script_name: "Caudex-Bold"
   full_name: "Caudex Bold"
+  copyright: "Copyright (c) 2011 Hjort Nidudsson (nidud@users.sourceforge.net)"
 }
 fonts {
   name: "Caudex"
@@ -34,6 +37,7 @@ fonts {
   filename: "Caudex-BoldItalic.ttf"
   post_script_name: "Caudex-BoldItalic"
   full_name: "Caudex Bold Italic"
+  copyright: "Copyright (c) 2011 Hjort Nidudsson (nidud@users.sourceforge.net)"
 }
 subsets: "menu"
 subsets: "greek"

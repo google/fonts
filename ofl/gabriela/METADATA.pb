@@ -10,6 +10,7 @@ fonts {
   filename: "Gabriela-Regular.ttf"
   post_script_name: "Gabriela-Regular"
   full_name: "Gabriela"
+  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Gabriela'"
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "Wallpoet-Regular.ttf"
   post_script_name: "Wallpoet"
   full_name: "Wallpoet"
+  copyright: "Copyright (c) 2011 by Lars Berggren (punktlars@gmail.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

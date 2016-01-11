@@ -10,6 +10,7 @@ fonts {
   filename: "Offside-Regular.ttf"
   post_script_name: "Offside-Regular"
   full_name: "Offside"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Offside'"
 }
 subsets: "menu"
 subsets: "latin"

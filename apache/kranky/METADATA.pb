@@ -10,6 +10,7 @@ fonts {
   filename: "Kranky.ttf"
   post_script_name: "Kranky"
   full_name: "Kranky"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

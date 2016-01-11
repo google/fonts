@@ -10,6 +10,7 @@ fonts {
   filename: "BreeSerif-Regular.ttf"
   post_script_name: "BreeSerif-Regular"
   full_name: "Bree Serif"
+  copyright: "Copyright (c) 2011, TypeTogether (www.type-together.com info@type-together.com), with Reserved Font Names \"Bree\" and \"Bree Serif\""
 }
 subsets: "menu"
 subsets: "latin"

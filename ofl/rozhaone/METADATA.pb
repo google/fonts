@@ -10,6 +10,7 @@ fonts {
   filename: "RozhaOne-Regular.ttf"
   post_script_name: "RozhaOne-Regular"
   full_name: "Rozha One"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

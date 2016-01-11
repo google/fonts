@@ -10,6 +10,7 @@ fonts {
   filename: "PortLligatSans-Regular.ttf"
   post_script_name: "PortLligatSans-Regular"
   full_name: "Port Lligat Sans"
+  copyright: "Copyright (c) 2011, Tipo (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Port Lligat Sans\""
 }
 subsets: "menu"
 subsets: "latin"

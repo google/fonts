@@ -10,6 +10,7 @@ fonts {
   filename: "JustAnotherHand.ttf"
   post_script_name: "JustAnotherHand-Regular"
   full_name: "Just Another Hand"
+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
 }
 subsets: "menu"
 subsets: "latin"

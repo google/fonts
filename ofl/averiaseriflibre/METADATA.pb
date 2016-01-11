@@ -10,6 +10,7 @@ fonts {
   filename: "AveriaSerifLibre-Light.ttf"
   post_script_name: "AveriaSerifLibre-Light"
   full_name: "Averia Serif Libre Light"
+  copyright: "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
 }
 fonts {
   name: "Averia Serif Libre"
@@ -18,6 +19,7 @@ fonts {
   filename: "AveriaSerifLibre-LightItalic.ttf"
   post_script_name: "AveriaSerifLibre-LightItalic"
   full_name: "Averia Serif Libre Light Italic"
+  copyright: "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
 }
 fonts {
   name: "Averia Serif Libre"
@@ -26,6 +28,7 @@ fonts {
   filename: "AveriaSerifLibre-Regular.ttf"
   post_script_name: "AveriaSerifLibre-Regular"
   full_name: "Averia Serif Libre Regular"
+  copyright: "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
 }
 fonts {
   name: "Averia Serif Libre"
@@ -34,6 +37,7 @@ fonts {
   filename: "AveriaSerifLibre-Italic.ttf"
   post_script_name: "AveriaSerifLibre-Italic"
   full_name: "Averia Serif Libre Italic"
+  copyright: "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
 }
 fonts {
   name: "Averia Serif Libre"
@@ -42,6 +46,7 @@ fonts {
   filename: "AveriaSerifLibre-Bold.ttf"
   post_script_name: "AveriaSerifLibre-Bold"
   full_name: "Averia Serif Libre Bold"
+  copyright: "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
 }
 fonts {
   name: "Averia Serif Libre"
@@ -50,6 +55,7 @@ fonts {
   filename: "AveriaSerifLibre-BoldItalic.ttf"
   post_script_name: "AveriaSerifLibre-BoldItalic"
   full_name: "Averia Serif Libre Bold Italic"
+  copyright: "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia' and 'Averia Libre'."
 }
 subsets: "menu"
 subsets: "latin"

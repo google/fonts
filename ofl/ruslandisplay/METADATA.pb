@@ -10,6 +10,7 @@ fonts {
   filename: "RuslanDisplay.ttf"
   post_script_name: "RuslanDisplay"
   full_name: "Ruslan Display"
+  copyright: "Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>, Vladimir Rabdu. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 subsets: "menu"
 subsets: "cyrillic"

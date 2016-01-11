@@ -10,6 +10,7 @@ fonts {
   filename: "Lobster-Regular.ttf"
   post_script_name: "Lobster-Regular"
   full_name: "Lobster"
+  copyright: "Copyright (c) 2010 by Pablo Impallari (www.impallari.com)"
 }
 subsets: "menu"
 subsets: "cyrillic"

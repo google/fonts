@@ -10,6 +10,7 @@ fonts {
   filename: "Metrophobic.ttf"
   post_script_name: "Metrophobic"
   full_name: "Metrophobic"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Metrophobic'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

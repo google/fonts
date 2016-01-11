@@ -10,6 +10,7 @@ fonts {
   filename: "Dinah-Regular.ttf"
   post_script_name: "Dinah-Regular"
   full_name: "Dinah Regular"
+  copyright: "Copyright (c) Blondina Elms Pastel (blondina@atelierelms.com)"
 }
 fonts {
   name: "Dinah"
@@ -18,6 +19,7 @@ fonts {
   filename: "Dinah-Bold.ttf"
   post_script_name: "Dinah-Bold"
   full_name: "Dinah Bold"
+  copyright: "Copyright (c) Blondina Elms Pastel (blondina@atelierelms.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

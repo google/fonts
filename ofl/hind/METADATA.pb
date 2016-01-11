@@ -10,6 +10,7 @@ fonts {
   filename: "Hind-Light.ttf"
   post_script_name: "Hind-Light"
   full_name: "Hind Light"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind"
@@ -18,6 +19,7 @@ fonts {
   filename: "Hind-Regular.ttf"
   post_script_name: "Hind-Regular"
   full_name: "Hind Regular"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind"
@@ -26,6 +28,7 @@ fonts {
   filename: "Hind-Medium.ttf"
   post_script_name: "Hind-Medium"
   full_name: "Hind Medium"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind"
@@ -34,6 +37,7 @@ fonts {
   filename: "Hind-Semibold.ttf"
   post_script_name: "Hind-Semibold"
   full_name: "Hind Semibold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind"
@@ -42,6 +46,7 @@ fonts {
   filename: "Hind-Bold.ttf"
   post_script_name: "Hind-Bold"
   full_name: "Hind Bold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

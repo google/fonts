@@ -10,6 +10,7 @@ fonts {
   filename: "Eczar-Regular.ttf"
   post_script_name: "Eczar-Regular"
   full_name: "Eczar"
+  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
 }
 fonts {
   name: "Eczar"
@@ -18,6 +19,7 @@ fonts {
   filename: "Eczar-Medium.ttf"
   post_script_name: "Eczar-Medium"
   full_name: "Eczar Medium"
+  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
 }
 fonts {
   name: "Eczar"
@@ -26,6 +28,7 @@ fonts {
   filename: "Eczar-SemiBold.ttf"
   post_script_name: "Eczar-SemiBold"
   full_name: "Eczar SemiBold"
+  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
 }
 fonts {
   name: "Eczar"
@@ -34,6 +37,7 @@ fonts {
   filename: "Eczar-Bold.ttf"
   post_script_name: "Eczar-Bold"
   full_name: "Eczar Bold"
+  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
 }
 fonts {
   name: "Eczar"
@@ -42,6 +46,7 @@ fonts {
   filename: "Eczar-ExtraBold.ttf"
   post_script_name: "Eczar-ExtraBold"
   full_name: "Eczar ExtraBold"
+  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
 }
 subsets: "menu"
 subsets: "devanagari"

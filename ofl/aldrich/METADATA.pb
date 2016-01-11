@@ -10,6 +10,7 @@ fonts {
   filename: "Aldrich-Regular.ttf"
   post_script_name: "Aldrich"
   full_name: "Aldrich"
+  copyright: "Copyright (c) 2011, Matthew Desmond (mattdesmond@gmail.com) All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

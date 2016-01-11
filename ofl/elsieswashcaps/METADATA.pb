@@ -10,6 +10,7 @@ fonts {
   filename: "ElsieSwashCaps-Regular.ttf"
   post_script_name: "ElsieSwashCaps-Regular"
   full_name: "Elsie Swash Caps"
+  copyright: "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Elsie'"
 }
 fonts {
   name: "Elsie Swash Caps"
@@ -18,6 +19,7 @@ fonts {
   filename: "ElsieSwashCaps-Black.ttf"
   post_script_name: "ElsieSwashCapsBlack-Regular"
   full_name: "Elsie Swash Caps Blacks"
+  copyright: "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Elsie'"
 }
 subsets: "menu"
 subsets: "latin"

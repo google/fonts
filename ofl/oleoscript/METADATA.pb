@@ -10,6 +10,7 @@ fonts {
   filename: "OleoScript-Regular.ttf"
   post_script_name: "OleoScript-Regular"
   full_name: "Oleo Script"
+  copyright: "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname 'Oleo'"
 }
 fonts {
   name: "Oleo Script"
@@ -18,6 +19,7 @@ fonts {
   filename: "OleoScript-Bold.ttf"
   post_script_name: "OleoScript-Bold"
   full_name: "Oleo Script Bold"
+  copyright: "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname 'Oleo'"
 }
 subsets: "menu"
 subsets: "latin"

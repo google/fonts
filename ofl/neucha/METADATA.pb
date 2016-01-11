@@ -10,6 +10,7 @@ fonts {
   filename: "Neucha.ttf"
   post_script_name: "Neucha"
   full_name: "Neucha"
+  copyright: "Copyright (c) 2005-2010 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

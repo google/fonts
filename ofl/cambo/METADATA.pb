@@ -10,6 +10,7 @@ fonts {
   filename: "Cambo-Regular.ttf"
   post_script_name: "Cambo-Regular"
   full_name: "Cambo"
+  copyright: "Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar), Copyright (c) 2011, Andres Torresi (andres@huertatipografica.com.ar), with Reserved Font Name Cambo."
 }
 subsets: "menu"
 subsets: "latin"

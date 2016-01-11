@@ -10,6 +10,7 @@ fonts {
   filename: "CantoraOne-Regular.ttf"
   post_script_name: "CantoraOne-Regular"
   full_name: "Cantora One"
+  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com) with Reserved Font Name Cantora."
 }
 subsets: "latin"
 subsets: "latin-ext"

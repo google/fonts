@@ -10,6 +10,7 @@ fonts {
   filename: "LondrinaSketch-Regular.ttf"
   post_script_name: "LondrinaSketch-Regular"
   full_name: "Londrina Sketch"
+  copyright: "Copyright (c) 2011 by Marcelo Magalhaes (marcelomagalhaes.net marcelommp@gmail.com), with Reserved Font Name \"Londrina\""
 }
 subsets: "menu"
 subsets: "latin"

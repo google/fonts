@@ -10,6 +10,7 @@ fonts {
   filename: "Margarine-Regular.ttf"
   post_script_name: "Margarine-Regular"
   full_name: "Margarine"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Margarine\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Mate-Regular.ttf"
   post_script_name: "Mate-Regular"
   full_name: "Mate-Regular"
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Mate\""
 }
 fonts {
   name: "Mate"
@@ -18,6 +19,7 @@ fonts {
   filename: "Mate-Italic.ttf"
   post_script_name: "Mate-Italic"
   full_name: "Mate Italic"
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Mate\""
 }
 subsets: "menu"
 subsets: "latin"

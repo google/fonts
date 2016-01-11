@@ -10,6 +10,7 @@ fonts {
   filename: "LondrinaSolid-Regular.ttf"
   post_script_name: "LondrinaSolid-Regular"
   full_name: "Londrina Solid"
+  copyright: "Copyright (c) 2011 by Marcelo Magalhaes (marcelomagalhaes.net marcelommp@gmail.com), with Reserved Font Name \"Londrina\""
 }
 subsets: "menu"
 subsets: "latin"

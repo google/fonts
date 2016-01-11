@@ -10,6 +10,7 @@ fonts {
   filename: "RobotoMono-Thin.ttf"
   post_script_name: "RobotoMono-Thin"
   full_name: "Roboto Mono Thin"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Mono"
@@ -18,6 +19,7 @@ fonts {
   filename: "RobotoMono-ThinItalic.ttf"
   post_script_name: "RobotoMono-ThinItalic"
   full_name: "Roboto Mono Thin Italic"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Mono"
@@ -26,6 +28,7 @@ fonts {
   filename: "RobotoMono-Light.ttf"
   post_script_name: "RobotoMono-Light"
   full_name: "Roboto Mono Light"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Mono"
@@ -34,6 +37,7 @@ fonts {
   filename: "RobotoMono-LightItalic.ttf"
   post_script_name: "RobotoMono-LightItalic"
   full_name: "Roboto Mono Light Italic"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Mono"
@@ -42,6 +46,7 @@ fonts {
   filename: "RobotoMono-Regular.ttf"
   post_script_name: "RobotoMono-Regular"
   full_name: "Roboto Mono"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Mono"
@@ -50,6 +55,7 @@ fonts {
   filename: "RobotoMono-Italic.ttf"
   post_script_name: "RobotoMono-Italic"
   full_name: "Roboto Mono Italic"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Mono"
@@ -58,6 +64,7 @@ fonts {
   filename: "RobotoMono-Medium.ttf"
   post_script_name: "RobotoMono-Medium"
   full_name: "Roboto Mono Medium"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Mono"
@@ -66,6 +73,7 @@ fonts {
   filename: "RobotoMono-MediumItalic.ttf"
   post_script_name: "RobotoMono-MediumItalic"
   full_name: "Roboto Mono Medium Italic"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Mono"
@@ -74,6 +82,7 @@ fonts {
   filename: "RobotoMono-Bold.ttf"
   post_script_name: "RobotoMono-Bold"
   full_name: "Roboto Mono Bold"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto Mono"
@@ -82,6 +91,7 @@ fonts {
   filename: "RobotoMono-BoldItalic.ttf"
   post_script_name: "RobotoMono-BoldItalic"
   full_name: "Roboto Mono Bold Italic"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "Tuffy-Regular.ttf"
   post_script_name: "Tuffy-Regular"
   full_name: "Tuffy Regular"
+  copyright: "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com tu@tulrich.com), Karoly Barta (brtkr@freemail.hu), Michael Everson (http://www.evertype.com everson@evertype.com), with Reserved Font Name \"Tuffy\""
 }
 fonts {
   name: "Tuffy"
@@ -18,6 +19,7 @@ fonts {
   filename: "Tuffy-Italic.ttf"
   post_script_name: "Tuffy-Italic"
   full_name: "Tuffy Italic"
+  copyright: "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com tu@tulrich.com), Karoly Barta (brtkr@freemail.hu), Michael Everson (http://www.evertype.com everson@evertype.com), with Reserved Font Name \"Tuffy\""
 }
 fonts {
   name: "Tuffy"
@@ -26,6 +28,7 @@ fonts {
   filename: "Tuffy-Bold.ttf"
   post_script_name: "Tuffy-Bold"
   full_name: "Tuffy Bold"
+  copyright: "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com tu@tulrich.com), Karoly Barta (brtkr@freemail.hu), Michael Everson (http://www.evertype.com everson@evertype.com), with Reserved Font Name \"Tuffy\""
 }
 fonts {
   name: "Tuffy"
@@ -34,6 +37,7 @@ fonts {
   filename: "Tuffy-BoldItalic.ttf"
   post_script_name: "Tuffy-BoldItalic"
   full_name: "Tuffy Bold Italic"
+  copyright: "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com tu@tulrich.com), Karoly Barta (brtkr@freemail.hu), Michael Everson (http://www.evertype.com everson@evertype.com), with Reserved Font Name \"Tuffy\""
 }
 subsets: "menu"
 subsets: "cyrillic"

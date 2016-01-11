@@ -10,6 +10,7 @@ fonts {
   filename: "OvertheRainbow.ttf"
   post_script_name: "OvertheRainbow"
   full_name: "Over the Rainbow"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

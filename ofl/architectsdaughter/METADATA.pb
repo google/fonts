@@ -10,6 +10,7 @@ fonts {
   filename: "ArchitectsDaughter.ttf"
   post_script_name: "ArchitectsDaughter"
   full_name: "Architects Daughter"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

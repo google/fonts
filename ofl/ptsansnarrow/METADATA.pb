@@ -10,6 +10,7 @@ fonts {
   filename: "PT_Sans-Narrow-Web-Regular.ttf"
   post_script_name: "PTSans-Narrow"
   full_name: "PT Sans Narrow"
+  copyright: "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 fonts {
   name: "PT Sans Narrow"
@@ -18,6 +19,7 @@ fonts {
   filename: "PT_Sans-Narrow-Web-Bold.ttf"
   post_script_name: "PTSans-NarrowBold"
   full_name: "PT Sans Narrow Bold"
+  copyright: "Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "ContrailOne-Regular.ttf"
   post_script_name: "ContrailOne-Regular"
   full_name: "Contrail One"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Contrail\" and \"Contrail One\"."
 }
 subsets: "menu"
 subsets: "latin"

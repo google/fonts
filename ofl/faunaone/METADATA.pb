@@ -10,6 +10,7 @@ fonts {
   filename: "FaunaOne-Regular.ttf"
   post_script_name: "FaunaOne-Regular"
   full_name: "Fauna One"
+  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Fauna'"
 }
 subsets: "menu"
 subsets: "latin"

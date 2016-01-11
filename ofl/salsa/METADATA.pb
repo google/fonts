@@ -10,6 +10,7 @@ fonts {
   filename: "Salsa-Regular.ttf"
   post_script_name: "Salsa-Regular"
   full_name: "Salsa-Regular"
+  copyright: "Copyright (c) 2011 by John Vargas Beltrn (john.vargasbeltran@gmail.com), with Reserved Font Name Salsa."
 }
 subsets: "menu"
 subsets: "latin"

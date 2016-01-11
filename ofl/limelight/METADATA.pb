@@ -10,6 +10,7 @@ fonts {
   filename: "Limelight-Regular.ttf"
   post_script_name: "Limelight"
   full_name: "Limelight"
+  copyright: "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name Limelight. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 subsets: "menu"
 subsets: "latin"

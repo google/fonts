@@ -10,6 +10,7 @@ fonts {
   filename: "Boogaloo-Regular.ttf"
   post_script_name: "Boogaloo-Regular"
   full_name: "Boogaloo"
+  copyright: "Copyright (c) 2011, John Vargas Beltran (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com), with Reserved Font Name \"Boogaloo\"."
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "HindMysuru-Light.ttf"
   post_script_name: "HindMysuru-Light"
   full_name: "Hind Mysuru Light"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Mysuru"
@@ -18,6 +19,7 @@ fonts {
   filename: "HindMysuru-Regular.ttf"
   post_script_name: "HindMysuru-Regular"
   full_name: "Hind Mysuru"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Mysuru"
@@ -26,6 +28,7 @@ fonts {
   filename: "HindMysuru-Medium.ttf"
   post_script_name: "HindMysuru-Medium"
   full_name: "Hind Mysuru Medium"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Mysuru"
@@ -34,6 +37,7 @@ fonts {
   filename: "HindMysuru-SemiBold.ttf"
   post_script_name: "HindMysuru-SemiBold"
   full_name: "Hind Mysuru SemiBold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Mysuru"
@@ -42,6 +46,7 @@ fonts {
   filename: "HindMysuru-Bold.ttf"
   post_script_name: "HindMysuru-Bold"
   full_name: "Hind Mysuru Bold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "kannada"

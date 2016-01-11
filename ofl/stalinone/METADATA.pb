@@ -10,6 +10,7 @@ fonts {
   filename: "StalinOne-Regular.ttf"
   post_script_name: "StalinOne-Regular"
   full_name: "Stalin One"
+  copyright: "Copyright (c) 2009-2011, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Stalin'"
 }
 subsets: "menu"
 subsets: "cyrillic"

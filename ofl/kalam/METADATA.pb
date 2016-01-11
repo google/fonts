@@ -10,6 +10,7 @@ fonts {
   filename: "Kalam-Light.ttf"
   post_script_name: "Kalam-Light"
   full_name: "Kalam Light"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Kalam"
@@ -18,6 +19,7 @@ fonts {
   filename: "Kalam-Regular.ttf"
   post_script_name: "Kalam-Regular"
   full_name: "Kalam"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Kalam"
@@ -26,6 +28,7 @@ fonts {
   filename: "Kalam-Bold.ttf"
   post_script_name: "Kalam-Bold"
   full_name: "Kalam Bold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

@@ -10,6 +10,7 @@ fonts {
   filename: "MeieScript-Regular.ttf"
   post_script_name: "MeieScript-Regular"
   full_name: "Meie Script"
+  copyright: "Copyright (c) 2011, 2012 Johan Kallas (johankallas@gmail.com), Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name 'Meie Script'"
 }
 subsets: "menu"
 subsets: "latin"

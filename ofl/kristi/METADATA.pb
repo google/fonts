@@ -10,6 +10,7 @@ fonts {
   filename: "Kristi.ttf"
   post_script_name: "Kristi"
   full_name: "Kristi"
+  copyright: "Copyright (c) 2010, Birgit Pulk (birgitpulk@gmail.com). All rights reserved. Licenced under SIL OFL v1.1"
 }
 subsets: "menu"
 subsets: "latin"

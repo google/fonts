@@ -10,6 +10,7 @@ fonts {
   filename: "Devonshire-Regular.ttf"
   post_script_name: "Devonshire-Regular"
   full_name: "Devonshire-Regular"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Devonshire\""
 }
 subsets: "menu"
 subsets: "latin"

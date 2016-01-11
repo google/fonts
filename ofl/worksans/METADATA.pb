@@ -10,6 +10,7 @@ fonts {
   filename: "WorkSans-Thin.ttf"
   post_script_name: "WorkSans-Thin"
   full_name: "Work Sans Thin"
+  copyright: "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
 }
 fonts {
   name: "Work Sans"
@@ -18,6 +19,7 @@ fonts {
   filename: "WorkSans-ExtraLight.ttf"
   post_script_name: "WorkSans-ExtraLight"
   full_name: "Work Sans ExtraLight"
+  copyright: "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
 }
 fonts {
   name: "Work Sans"
@@ -26,6 +28,7 @@ fonts {
   filename: "WorkSans-Light.ttf"
   post_script_name: "WorkSans-Light"
   full_name: "Work Sans Light"
+  copyright: "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
 }
 fonts {
   name: "Work Sans"
@@ -34,6 +37,7 @@ fonts {
   filename: "WorkSans-Regular.ttf"
   post_script_name: "WorkSans-Regular"
   full_name: "Work Sans"
+  copyright: "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
 }
 fonts {
   name: "Work Sans"
@@ -42,6 +46,7 @@ fonts {
   filename: "WorkSans-Medium.ttf"
   post_script_name: "WorkSans-Medium"
   full_name: "Work Sans Medium"
+  copyright: "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
 }
 fonts {
   name: "Work Sans"
@@ -50,6 +55,7 @@ fonts {
   filename: "WorkSans-SemiBold.ttf"
   post_script_name: "WorkSans-SemiBold"
   full_name: "Work Sans SemiBold"
+  copyright: "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
 }
 fonts {
   name: "Work Sans"
@@ -58,6 +64,7 @@ fonts {
   filename: "WorkSans-Bold.ttf"
   post_script_name: "WorkSans-Bold"
   full_name: "Work Sans Bold"
+  copyright: "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
 }
 fonts {
   name: "Work Sans"
@@ -66,6 +73,7 @@ fonts {
   filename: "WorkSans-ExtraBold.ttf"
   post_script_name: "WorkSans-ExtraBold"
   full_name: "Work Sans ExtraBold"
+  copyright: "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
 }
 fonts {
   name: "Work Sans"
@@ -74,6 +82,7 @@ fonts {
   filename: "WorkSans-Black.ttf"
   post_script_name: "WorkSans-Black"
   full_name: "Work Sans Black"
+  copyright: "Copyright (c) 2014-2015 Wei Huang (wweeiihhuuaanngg@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

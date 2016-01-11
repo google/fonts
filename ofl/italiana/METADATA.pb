@@ -10,6 +10,7 @@ fonts {
   filename: "Italiana-Regular.ttf"
   post_script_name: "Italiana-Regular"
   full_name: "Italiana"
+  copyright: "Copyright (c) 2011 by Santiago Orozco (hi@typemade.mx) with reserved name Italiana"
 }
 subsets: "menu"
 subsets: "latin"

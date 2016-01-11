@@ -10,6 +10,7 @@ fonts {
   filename: "BigshotOne.ttf"
   post_script_name: "BigshotOne"
   full_name: "Bigshot One"
+  copyright: "Copyright (c) 2011 by Gesine Todt (hallo@gesine-todt.de). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

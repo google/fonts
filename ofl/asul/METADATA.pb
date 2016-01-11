@@ -10,6 +10,7 @@ fonts {
   filename: "Asul-Regular.ttf"
   post_script_name: "Asul-Regular"
   full_name: "Asul"
+  copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), with Reserved Font Name \"Asul\""
 }
 fonts {
   name: "Asul"
@@ -18,6 +19,7 @@ fonts {
   filename: "Asul-Bold.ttf"
   post_script_name: "Asul-Bold"
   full_name: "Asul Bold"
+  copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), with Reserved Font Name \"Asul\""
 }
 subsets: "menu"
 subsets: "latin"

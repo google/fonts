@@ -10,6 +10,7 @@ fonts {
   filename: "LovedbytheKing.ttf"
   post_script_name: "LovedbytheKing"
   full_name: "Loved by the King"
+  copyright: "Copyright (c) 2006 by Kimberly Geswein (kimberlygeswein@gmail.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

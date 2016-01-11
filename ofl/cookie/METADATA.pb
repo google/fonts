@@ -10,6 +10,7 @@ fonts {
   filename: "Cookie-Regular.ttf"
   post_script_name: "Cookie-Regular"
   full_name: "Cookie-Regular"
+  copyright: "Copyright (c) 2011 by Ania Kruk (hello@aniakruk.com), with Reserved Font Name Cookie."
 }
 subsets: "menu"
 subsets: "latin"

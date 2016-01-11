@@ -10,6 +10,7 @@ fonts {
   filename: "DroidSansEthiopic-Regular.ttf"
   post_script_name: "DroidSansEthiopic"
   full_name: "Droid Sans Ethiopic"
+  copyright: "Digitized data copyright Google Corporation © 2010"
 }
 fonts {
   name: "Droid Sans Ethiopic"
@@ -18,6 +19,7 @@ fonts {
   filename: "DroidSansEthiopic-Bold.ttf"
   post_script_name: "DroidSansEthiopic-Bold"
   full_name: "Droid Sans Ethiopic Bold"
+  copyright: "Digitized data copyright Google Corporation © 2010"
 }
 subsets: "menu"
 subsets: "ethiopic"

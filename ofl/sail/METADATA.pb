@@ -10,6 +10,7 @@ fonts {
   filename: "Sail-Regular.ttf"
   post_script_name: "Sail-Regular"
   full_name: "Sail"
+  copyright: "Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), with Reserved Font Names \"Sail\""
 }
 subsets: "menu"
 subsets: "latin"

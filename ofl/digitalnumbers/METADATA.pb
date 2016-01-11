@@ -10,6 +10,7 @@ fonts {
   filename: "DigitalNumbers-Regular.ttf"
   post_script_name: "DigitalNumbers-Regular"
   full_name: "Digital Numbers"
+  copyright: "Copyright (c) 2015, Stephan Ahlf (https://github.com/s-a/digital-numbers-font stephan.ahlf@googlemail.com)"
 }
 subsets: "menu"
 subsets: "latin"

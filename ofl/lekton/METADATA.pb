@@ -10,6 +10,7 @@ fonts {
   filename: "Lekton-Regular.ttf"
   post_script_name: "Lekton-Regular"
   full_name: "Lekton"
+  copyright: "Copyright (c) 2008, 2009, 2010, Accademia di Belle Arti di Urbino (luciano.perondi@isiaurbino.net). Licensed under the SIL Open Font License, Version 1.1"
 }
 fonts {
   name: "Lekton"
@@ -18,6 +19,7 @@ fonts {
   filename: "Lekton-Italic.ttf"
   post_script_name: "Lekton-Italic"
   full_name: "Lekton-Italic"
+  copyright: "Copyright (c) 2008, 2009, 2010, Accademia di Belle Arti di Urbino (luciano.perondi@isiaurbino.net). Licensed under the SIL Open Font License, Version 1.1"
 }
 fonts {
   name: "Lekton"
@@ -26,6 +28,7 @@ fonts {
   filename: "Lekton-Bold.ttf"
   post_script_name: "Lekton-Bold"
   full_name: "Lekton-Bold"
+  copyright: "Copyright (c) 2008, 2009, 2010, Accademia di Belle Arti di Urbino (luciano.perondi@isiaurbino.net). Licensed under the SIL Open Font License, Version 1.1"
 }
 subsets: "menu"
 subsets: "latin"

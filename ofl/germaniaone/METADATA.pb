@@ -10,6 +10,7 @@ fonts {
   filename: "GermaniaOne-Regular.ttf"
   post_script_name: "GermaniaOne-Regular"
   full_name: "Germania One"
+  copyright: "Copyright (c) 2011 by John Vargas Beltran (john.vargasbeltran@gmail.com), with Reserved Font Name \"Germania One\""
 }
 subsets: "menu"
 subsets: "latin"

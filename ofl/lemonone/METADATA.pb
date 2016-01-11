@@ -10,6 +10,7 @@ fonts {
   filename: "LemonOne-Regular.ttf"
   post_script_name: "LemonOne-Regular"
   full_name: "Lemon One Regular"
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Lemon\""
 }
 subsets: "menu"
 subsets: "latin"

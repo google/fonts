@@ -10,6 +10,7 @@ fonts {
   filename: "GenBkBasR.ttf"
   post_script_name: "GentiumBookBasic"
   full_name: "Gentium Book Basic"
+  copyright: "Copyright (c) 2003-2013, SIL International (http://www.sil.org/) with Reserved Font Names \"Gentium\" and \"SIL\""
 }
 fonts {
   name: "Gentium Book Basic"
@@ -18,6 +19,7 @@ fonts {
   filename: "GenBkBasI.ttf"
   post_script_name: "GentiumBookBasic-Italic"
   full_name: "Gentium Book Basic Italic"
+  copyright: "Copyright (c) 2003-2013, SIL International (http://www.sil.org/) with Reserved Font Names \"Gentium\" and \"SIL\""
 }
 fonts {
   name: "Gentium Book Basic"
@@ -26,6 +28,7 @@ fonts {
   filename: "GenBkBasB.ttf"
   post_script_name: "GentiumBookBasic-Bold"
   full_name: "Gentium Book Basic Bold"
+  copyright: "Copyright (c) 2003-2013, SIL International (http://www.sil.org/) with Reserved Font Names \"Gentium\" and \"SIL\""
 }
 fonts {
   name: "Gentium Book Basic"
@@ -34,6 +37,7 @@ fonts {
   filename: "GenBkBasBI.ttf"
   post_script_name: "GentiumBookBasic-BoldItalic"
   full_name: "Gentium Book Basic Bold Italic"
+  copyright: "Copyright (c) 2003-2013, SIL International (http://www.sil.org/) with Reserved Font Names \"Gentium\" and \"SIL\""
 }
 subsets: "menu"
 subsets: "latin"

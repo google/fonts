@@ -10,6 +10,7 @@ fonts {
   filename: "PontanoSans-Regular.ttf"
   post_script_name: "PontanoSans-Regular"
   full_name: "Pontano Sans"
+  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Potano\""
 }
 subsets: "menu"
 subsets: "latin"

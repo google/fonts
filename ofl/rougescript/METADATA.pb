@@ -10,6 +10,7 @@ fonts {
   filename: "RougeScript-Regular.ttf"
   post_script_name: "RougeScript-Regular"
   full_name: "Rouge Script"
+  copyright: "Copyright (c) 2011 Typesenses (typesenses@live.com.ar), with Reserved Font Name \"Rouge Script\""
 }
 subsets: "menu"
 subsets: "latin"

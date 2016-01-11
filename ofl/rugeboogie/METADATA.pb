@@ -10,6 +10,7 @@ fonts {
   filename: "RugeBoogie-Regular.ttf"
   post_script_name: "RugeBoogie-Regular"
   full_name: "Ruge Boogie"
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Ruge Boogie\""
 }
 subsets: "menu"
 subsets: "latin"

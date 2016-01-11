@@ -10,6 +10,7 @@ fonts {
   filename: "DaysOne-Regular.ttf"
   post_script_name: "DaysOne-Regular"
   full_name: "Days One"
+  copyright: "Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "DroidSerifThai-Regular.ttf"
   post_script_name: "DroidSerifThai"
   full_name: "Droid Serif Thai"
+  copyright: "Digitized data copyright Google Corporation © 2011"
 }
 fonts {
   name: "Droid Serif Thai"
@@ -18,6 +19,7 @@ fonts {
   filename: "DroidSerifThai-Bold.ttf"
   post_script_name: "DroidSerifThai-Bold"
   full_name: "DroidSerifThai Bold"
+  copyright: "Digitized data copyright Google Corporation © 2011"
 }
 subsets: "menu"
 subsets: "thai"

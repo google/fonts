@@ -10,6 +10,7 @@ fonts {
   filename: "Ranga-Regular.ttf"
   post_script_name: "Ranga-Regular"
   full_name: "Ranga Regular"
+  copyright: "Copyright (c) 2014 by TipTopTyp."
 }
 fonts {
   name: "Ranga"
@@ -18,6 +19,7 @@ fonts {
   filename: "Ranga-Bold.ttf"
   post_script_name: "Ranga-Bold"
   full_name: "Ranga Bold"
+  copyright: "Copyright (c) 2014 by TipTopTyp."
 }
 subsets: "menu"
 subsets: "devanagari"

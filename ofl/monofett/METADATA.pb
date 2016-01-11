@@ -10,6 +10,7 @@ fonts {
   filename: "Monofett.ttf"
   post_script_name: "Monofett"
   full_name: "Monofett"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Monofett'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

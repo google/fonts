@@ -10,6 +10,7 @@ fonts {
   filename: "Dynalight-Regular.ttf"
   post_script_name: "Dynalight-Regular"
   full_name: "Dynalight"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Dynalight\""
 }
 subsets: "menu"
 subsets: "latin"

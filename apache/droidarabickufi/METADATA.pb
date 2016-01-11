@@ -10,6 +10,7 @@ fonts {
   filename: "DroidKufi-Regular.ttf"
   post_script_name: "DroidArabicKufi"
   full_name: "Droid Arabic Kufi"
+  copyright: "Digitized data copyright © 2010, Google Corporation."
 }
 fonts {
   name: "Droid Arabic Kufi"
@@ -18,6 +19,7 @@ fonts {
   filename: "DroidKufi-Bold.ttf"
   post_script_name: "DroidArabicKufi-Bold"
   full_name: "Droid Arabic Kufi Bold"
+  copyright: "Digitized data copyright © 2010, Google Corporation."
 }
 subsets: "menu"
 subsets: "arabic"

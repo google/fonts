@@ -10,6 +10,7 @@ fonts {
   filename: "ShadowsIntoLight.ttf"
   post_script_name: "ShadowsIntoLight"
   full_name: "Shadows Into Light"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

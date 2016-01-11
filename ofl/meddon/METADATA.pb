@@ -10,6 +10,7 @@ fonts {
   filename: "Meddon.ttf"
   post_script_name: "Meddon"
   full_name: "Meddon"
+  copyright: "Copyright (c) 2011 by Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Meddon'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

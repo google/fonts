@@ -10,6 +10,7 @@ fonts {
   filename: "Piedra-Regular.ttf"
   post_script_name: "Piedra-Regular"
   full_name: "Piedra Regular"
+  copyright: "Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Piedra\""
 }
 subsets: "menu"
 subsets: "latin"

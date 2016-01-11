@@ -10,6 +10,7 @@ fonts {
   filename: "TitilliumWeb-ExtraLight.ttf"
   post_script_name: "TitilliumWeb-Thin"
   full_name: "Titillium WebThin"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -18,6 +19,7 @@ fonts {
   filename: "TitilliumWeb-ExtraLightItalic.ttf"
   post_script_name: "TitilliumWeb-ThinItalic"
   full_name: "Titillium WebThin Italic"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -26,6 +28,7 @@ fonts {
   filename: "TitilliumWeb-Light.ttf"
   post_script_name: "TitilliumWeb-Light"
   full_name: "Titillium WebLight"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -34,6 +37,7 @@ fonts {
   filename: "TitilliumWeb-LightItalic.ttf"
   post_script_name: "TitilliumWeb-LightItalic"
   full_name: "Titillium WebLight Italic"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -42,6 +46,7 @@ fonts {
   filename: "TitilliumWeb-Regular.ttf"
   post_script_name: "TitilliumWeb-Regular"
   full_name: "Titillium Web"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -50,6 +55,7 @@ fonts {
   filename: "TitilliumWeb-Italic.ttf"
   post_script_name: "TitilliumWeb-Italic"
   full_name: "Titillium WebItalic"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -58,6 +64,7 @@ fonts {
   filename: "TitilliumWeb-SemiBold.ttf"
   post_script_name: "TitilliumWeb-SemiBold"
   full_name: "Titillium WebSemiBold"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -66,6 +73,7 @@ fonts {
   filename: "TitilliumWeb-SemiBoldItalic.ttf"
   post_script_name: "TitilliumWeb-SemiBoldItalic"
   full_name: "Titillium WebSemiBold Italic"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -74,6 +82,7 @@ fonts {
   filename: "TitilliumWeb-Bold.ttf"
   post_script_name: "TitilliumWeb-Bold"
   full_name: "Titillium WebBold"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -82,6 +91,7 @@ fonts {
   filename: "TitilliumWeb-BoldItalic.ttf"
   post_script_name: "TitilliumWeb-BoldItalic"
   full_name: "Titillium WebBold Italic"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 fonts {
   name: "Titillium Web"
@@ -90,6 +100,7 @@ fonts {
   filename: "TitilliumWeb-Black.ttf"
   post_script_name: "TitilliumWeb-Black"
   full_name: "Titillium WebBlack"
+  copyright: "Copyright (c) 2009-2011 by Accademia di Belle Arti di Urbino (titillium@campivisivi.net) and students of MA course of Visual design. Some rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

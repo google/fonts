@@ -10,6 +10,7 @@ fonts {
   filename: "Asar-Regular.ttf"
   post_script_name: "Asar-Regular"
   full_name: "Asar"
+  copyright: "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com). Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com). Asar is a trademark of Sorkin Type Co."
 }
 subsets: "menu"
 subsets: "devanagari"

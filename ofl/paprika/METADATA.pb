@@ -10,6 +10,7 @@ fonts {
   filename: "Paprika-Regular.ttf"
   post_script_name: "Paprika-Regular"
   full_name: "Paprika"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Paprika'"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "PollerOne.ttf"
   post_script_name: "PollerOne-Regular"
   full_name: "Poller One"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Poller\" and \"Poller One\"."
 }
 subsets: "menu"
 subsets: "latin"

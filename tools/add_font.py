@@ -124,7 +124,12 @@ def main(argv):
   metadata = _MakeMetadata(fontdir)
   text_proto = text_format.MessageToString(metadata)
 
-  _WriteTextFile(os.path.join(fontdir, 'DESCRIPTION.en_us.html'), 'N/A')
+  desc = os.path.join(fontdir, 'DESCRIPTION.en_us.html')
+  if os.path.isfile(desc):
+    print "DESCRIPTION.en_us.html exists"
+  else:
+    _WriteTextFile(os.path.join(fontdir, desc), 'N/A')
+
   _WriteTextFile(os.path.join(fontdir, 'METADATA.pb'), text_proto)
 
 

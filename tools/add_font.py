@@ -86,6 +86,7 @@ def _MakeMetadata(fontdir):
     font_metadata.filename = filename
     font_metadata.post_script_name = font_psname
     font_metadata.full_name = os.path.splitext(filename)[0].replace('-', ' ')
+    font_metadata.copyright = font_copyright
 
   return metadata
 

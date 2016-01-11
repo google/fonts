@@ -26,4 +26,5 @@ message FontProto {
   required string filename = 4;
   required string post_script_name = 5;
   required string full_name = 6;
+  optional string copyright = 7;
 };

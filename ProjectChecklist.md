@@ -120,7 +120,9 @@ There should not be 'stray' files in the repo, such as `.empty`
 
 - [ ] Binary files
  
-After the build process you will have OTF and TTF files, which must be included in the repo.
+After the build process you will have OTF and TTF files, which should be included in the repo either directly or as a ZIP uploaded to correspond to a tagged release. 
+https://github.com/blog/1547-release-your-software explains Github's Releases feature. The attached ZIP should contain the README, OFL, FONTLOG and binary font files. 
+https://github.com/daltonmaag/scope-one is a good example of this approach.
 
 ## Production
 

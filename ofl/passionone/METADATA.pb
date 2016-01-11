@@ -10,6 +10,7 @@ fonts {
   filename: "PassionOne-Regular.ttf"
   post_script_name: "PassionOne-Regular"
   full_name: "Passion One"
+  copyright: "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Passion\""
 }
 fonts {
   name: "Passion One"
@@ -18,6 +19,7 @@ fonts {
   filename: "PassionOne-Bold.ttf"
   post_script_name: "PassionOne-Bold"
   full_name: "Passion One Bold"
+  copyright: "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Passion\""
 }
 fonts {
   name: "Passion One"
@@ -26,6 +28,7 @@ fonts {
   filename: "PassionOne-Black.ttf"
   post_script_name: "PassionOne-Black"
   full_name: "Passion One Black"
+  copyright: "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Passion\""
 }
 subsets: "menu"
 subsets: "latin"

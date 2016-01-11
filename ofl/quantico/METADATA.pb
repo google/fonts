@@ -10,6 +10,7 @@ fonts {
   filename: "Quantico-Regular.ttf"
   post_script_name: "Quantico-Regular"
   full_name: "Quantico"
+  copyright: "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\""
 }
 fonts {
   name: "Quantico"
@@ -18,6 +19,7 @@ fonts {
   filename: "Quantico-Italic.ttf"
   post_script_name: "Quantico-Italic"
   full_name: "Quantico-Italic"
+  copyright: "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\""
 }
 fonts {
   name: "Quantico"
@@ -26,6 +28,7 @@ fonts {
   filename: "Quantico-Bold.ttf"
   post_script_name: "Quantico-Bold"
   full_name: "Quantico-Bold"
+  copyright: "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\""
 }
 fonts {
   name: "Quantico"
@@ -34,6 +37,7 @@ fonts {
   filename: "Quantico-BoldItalic.ttf"
   post_script_name: "Quantico-BoldItalic"
   full_name: "Quantico-BoldItalic"
+  copyright: "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\""
 }
 subsets: "menu"
 subsets: "latin"

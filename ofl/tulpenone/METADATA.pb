@@ -10,6 +10,7 @@ fonts {
   filename: "TulpenOne-Regular.ttf"
   post_script_name: "TulpenOne-Regular"
   full_name: "Tulpen One"
+  copyright: "Copyright (c) 2011, Naima Ben Ayed (naima.benayed@gmail.com), with Reserved Font Names \"Tulpen\" and \"Tulpen One\"."
 }
 subsets: "menu"
 subsets: "latin"

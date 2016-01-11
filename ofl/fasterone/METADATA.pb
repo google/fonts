@@ -10,6 +10,7 @@ fonts {
   filename: "FasterOne-Regular.ttf"
   post_script_name: "FasterOne-Regular"
   full_name: "Faster One"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Faster'"
 }
 subsets: "menu"
 subsets: "latin"

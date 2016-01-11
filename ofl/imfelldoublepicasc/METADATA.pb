@@ -10,6 +10,7 @@ fonts {
   filename: "IMFeDPsc28P.ttf"
   post_script_name: "IM_FELL_Double_Pica_SC"
   full_name: "IM FELL Double Pica SC"
+  copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved Font Name IM FELL Double Pica SC"
 }
 subsets: "menu"
 subsets: "latin"

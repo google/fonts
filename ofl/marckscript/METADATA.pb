@@ -10,6 +10,7 @@ fonts {
   filename: "MarckScript-Regular.ttf"
   post_script_name: "MarckScript-Regular"
   full_name: "Marck Script"
+  copyright: "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>, Marck Fogel, with Reserved Font Names \"Marck Script\"."
 }
 subsets: "menu"
 subsets: "cyrillic"

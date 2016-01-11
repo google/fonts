@@ -10,6 +10,7 @@ fonts {
   filename: "GFSDidot-Regular.ttf"
   post_script_name: "GFSDidot-Regular"
   full_name: "GFS Didot Regular"
+  copyright: "Copyright (c) Takis Katsoulidis and George D. Matthiopoulos (gfs@greekfontsociety.gr), 2001. All rights reserved."
 }
 subsets: "menu"
 subsets: "greek"

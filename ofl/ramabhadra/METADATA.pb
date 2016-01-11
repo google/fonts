@@ -10,6 +10,7 @@ fonts {
   filename: "Ramabhadra-Regular.ttf"
   post_script_name: "Ramabhadra"
   full_name: "Ramabhadra"
+  copyright: "Copyright (c) 2012 Andhra Pradesh Society for Knowledge Networks (fonts.siliconandhra.org). Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 subsets: "menu"
 subsets: "latin"

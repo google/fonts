@@ -10,6 +10,7 @@ fonts {
   filename: "RammettoOne-Regular.ttf"
   post_script_name: "RammettoOne-Regular"
   full_name: "Rammetto One Regular"
+  copyright: "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Rammetto\""
 }
 subsets: "menu"
 subsets: "latin"

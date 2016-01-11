@@ -10,6 +10,7 @@ fonts {
   filename: "PTM55FT.ttf"
   post_script_name: "PTMono-Regular"
   full_name: "PT Mono"
+  copyright: "Copyright © 2010 ParaType Inc., ParaType Ltd (yakupov@paratype.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "OpenSans-CondLight.ttf"
   post_script_name: "OpenSans-CondensedLight"
   full_name: "Open Sans Cond Light"
+  copyright: "Digitized data copyright © 2011, Google Corporation."
 }
 fonts {
   name: "Open Sans Condensed"
@@ -18,6 +19,7 @@ fonts {
   filename: "OpenSans-CondLightItalic.ttf"
   post_script_name: "OpenSans-CondensedLightItalic"
   full_name: "Open Sans Cond Light Italic"
+  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
 }
 fonts {
   name: "Open Sans Condensed"
@@ -26,6 +28,7 @@ fonts {
   filename: "OpenSans-CondBold.ttf"
   post_script_name: "OpenSans-CondensedBold"
   full_name: "Open Sans Condensed Bold"
+  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "Miama-Regular.ttf"
   post_script_name: "Miama-Regular"
   full_name: "Miama"
+  copyright: "Copyright (c) 2008-2011, Linus Romer, with Reserved Font Name Miama. This Font Software is licensed under the SIL Open Font License, Version 1.1."
 }
 subsets: "menu"
 subsets: "greek"

@@ -10,6 +10,7 @@ fonts {
   filename: "VampiroOne-Regular.ttf"
   post_script_name: "VampiroOne-Regular"
   full_name: "Vampiro One"
+  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Vampiro'."
 }
 subsets: "menu"
 subsets: "latin"

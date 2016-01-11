@@ -10,6 +10,7 @@ fonts {
   filename: "Basic-Regular.ttf"
   post_script_name: "Basic-Regular"
   full_name: "Basic Regular"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Basic\"."
 }
 subsets: "menu"
 subsets: "latin"

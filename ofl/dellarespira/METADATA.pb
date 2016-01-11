@@ -10,6 +10,7 @@ fonts {
   filename: "DellaRespira-Regular.ttf"
   post_script_name: "DellaRespira-Regular"
   full_name: "Della Respira"
+  copyright: "Copyright (c) 2011-2012, Nathan Willis (nwillis@glyphography.com), with Reserved Font Names \"Della Respira\""
 }
 subsets: "menu"
 subsets: "latin"

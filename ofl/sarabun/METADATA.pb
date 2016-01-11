@@ -10,6 +10,7 @@ fonts {
   filename: "Sarabun-Regular.ttf"
   post_script_name: "Sarabun"
   full_name: "Sarabun"
+  copyright: "Copyright (c) 2010-2013 by Software Industry Promotion Agency (Public Organization) (SIPA). All rights reserved. Created by Suppakit CHALERMLARP."
 }
 fonts {
   name: "Sarabun"
@@ -18,6 +19,7 @@ fonts {
   filename: "Sarabun-Italic.ttf"
   post_script_name: "Sarabun-Italic"
   full_name: "Sarabun Italic"
+  copyright: "Copyright (c) 2010-2013 by Software Industry Promotion Agency (Public Organization) (SIPA). All rights reserved. Created by Suppakit CHALERMLARP."
 }
 fonts {
   name: "Sarabun"
@@ -26,6 +28,7 @@ fonts {
   filename: "Sarabun-Bold.ttf"
   post_script_name: "Sarabun-Bold"
   full_name: "Sarabun Bold"
+  copyright: "Copyright (c) 2010-2013 by Software Industry Promotion Agency (Public Organization) (SIPA). All rights reserved. Created by Suppakit CHALERMLARP."
 }
 fonts {
   name: "Sarabun"
@@ -34,6 +37,7 @@ fonts {
   filename: "Sarabun-BoldItalic.ttf"
   post_script_name: "Sarabun-BoldItalic"
   full_name: "Sarabun Bold Italic"
+  copyright: "Copyright (c) 2010-2013 by Software Industry Promotion Agency (Public Organization) (SIPA). All rights reserved. Created by Suppakit CHALERMLARP."
 }
 subsets: "menu"
 subsets: "latin"

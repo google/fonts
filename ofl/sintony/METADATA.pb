@@ -10,6 +10,7 @@ fonts {
   filename: "Sintony-Regular.ttf"
   post_script_name: "Sintony"
   full_name: "Sintony"
+  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Sintony'"
 }
 fonts {
   name: "Sintony"
@@ -18,6 +19,7 @@ fonts {
   filename: "Sintony-Bold.ttf"
   post_script_name: "Sintony-Bold"
   full_name: "Sintony Bold"
+  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Sintony'"
 }
 subsets: "menu"
 subsets: "latin"

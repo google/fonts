@@ -10,6 +10,7 @@ fonts {
   filename: "Slabo13px-Regular.ttf"
   post_script_name: "Slabo13px-Regular"
   full_name: "Slabo 13px"
+  copyright: "Copyright (c) 2013, Tiro Typeworks Ltd (www.tiro.com)."
 }
 subsets: "menu"
 subsets: "latin"

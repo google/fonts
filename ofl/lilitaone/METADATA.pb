@@ -10,6 +10,7 @@ fonts {
   filename: "LilitaOne-Regular.ttf"
   post_script_name: "LilitaOne"
   full_name: "Lilita One"
+  copyright: "Copyright (c) 2011 Juan Montoreano (juan@remolacha.biz), with Reserved Font Names \"Lilita One\""
 }
 subsets: "menu"
 subsets: "latin"

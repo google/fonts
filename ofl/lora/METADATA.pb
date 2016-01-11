@@ -10,6 +10,7 @@ fonts {
   filename: "Lora-Regular.ttf"
   post_script_name: "Lora-Regular"
   full_name: "Lora"
+  copyright: "Copyright (c) 2013 by Cyreal (www.cyreal.org, a@cyreal.org). All rights reserved."
 }
 fonts {
   name: "Lora"
@@ -18,6 +19,7 @@ fonts {
   filename: "Lora-Italic.ttf"
   post_script_name: "Lora-Italic"
   full_name: "Lora Italic"
+  copyright: "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
 }
 fonts {
   name: "Lora"
@@ -26,6 +28,7 @@ fonts {
   filename: "Lora-Bold.ttf"
   post_script_name: "Lora-Bold"
   full_name: "Lora Bold"
+  copyright: "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
 }
 fonts {
   name: "Lora"
@@ -34,6 +37,7 @@ fonts {
   filename: "Lora-BoldItalic.ttf"
   post_script_name: "Lora-BoldItalic"
   full_name: "Lora Bold Italic"
+  copyright: "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

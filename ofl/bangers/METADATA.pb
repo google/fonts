@@ -10,6 +10,7 @@ fonts {
   filename: "Bangers.ttf"
   post_script_name: "Bangers-Regular"
   full_name: "Bangers"
+  copyright: "Copyright (c) 2011 by Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Bangers'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

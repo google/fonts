@@ -10,6 +10,7 @@ fonts {
   filename: "InknutAntiqua-Light.ttf"
   post_script_name: "InknutAntiqua-Light"
   full_name: "InknutAntiqua-Light"
+  copyright: "Copyright (c) 2014 by Claus Eggers Srensen (es@forthehearts.net)."
 }
 fonts {
   name: "Inknut Antiqua"
@@ -18,6 +19,7 @@ fonts {
   filename: "InknutAntiqua-Regular.ttf"
   post_script_name: "InknutAntiqua-Regular"
   full_name: "InknutAntiqua-Regular"
+  copyright: "Copyright (c) 2014 by Claus Eggers Srensen (es@forthehearts.net)."
 }
 fonts {
   name: "Inknut Antiqua"
@@ -26,6 +28,7 @@ fonts {
   filename: "InknutAntiqua-Medium.ttf"
   post_script_name: "InknutAntiqua-Medium"
   full_name: "InknutAntiqua-Medium"
+  copyright: "Copyright (c) 2014 by Claus Eggers Srensen (es@forthehearts.net)."
 }
 fonts {
   name: "Inknut Antiqua"
@@ -34,6 +37,7 @@ fonts {
   filename: "InknutAntiqua-SemiBold.ttf"
   post_script_name: "InknutAntiqua-SemiBold"
   full_name: "InknutAntiqua-SemiBold"
+  copyright: "Copyright (c) 2014 by Claus Eggers Srensen (es@forthehearts.net)."
 }
 fonts {
   name: "Inknut Antiqua"
@@ -42,6 +46,7 @@ fonts {
   filename: "InknutAntiqua-Bold.ttf"
   post_script_name: "InknutAntiqua-Bold"
   full_name: "InknutAntiqua-Bold"
+  copyright: "Copyright (c) 2014 by Claus Eggers Srensen (es@forthehearts.net)."
 }
 fonts {
   name: "Inknut Antiqua"
@@ -50,6 +55,7 @@ fonts {
   filename: "InknutAntiqua-ExtraBold.ttf"
   post_script_name: "InknutAntiqua-ExtraBold"
   full_name: "InknutAntiqua-ExtraBold"
+  copyright: "Copyright (c) 2014 by Claus Eggers Srensen (es@forthehearts.net)."
 }
 fonts {
   name: "Inknut Antiqua"
@@ -58,6 +64,7 @@ fonts {
   filename: "InknutAntiqua-Black.ttf"
   post_script_name: "InknutAntiqua-Black"
   full_name: "InknutAntiqua-Black"
+  copyright: "Copyright (c) 2014 by Claus Eggers Srensen (es@forthehearts.net)."
 }
 subsets: "menu"
 subsets: "devanagari"

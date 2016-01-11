@@ -10,6 +10,7 @@ fonts {
   filename: "EncodeSansNarrow-Thin.ttf"
   post_script_name: "EncodeSansNarrow-Thin"
   full_name: "Encode Sans Narrow Thin"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Narrow"
@@ -18,6 +19,7 @@ fonts {
   filename: "EncodeSansNarrow-ExtraLight.ttf"
   post_script_name: "EncodeSansNarrow-ExtraLight"
   full_name: "Encode Sans Narrow ExtraLight"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Narrow"
@@ -26,6 +28,7 @@ fonts {
   filename: "EncodeSansNarrow-Light.ttf"
   post_script_name: "EncodeSansNarrow-Light"
   full_name: "Encode Sans Narrow Light"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Narrow"
@@ -34,6 +37,7 @@ fonts {
   filename: "EncodeSansNarrow-Regular.ttf"
   post_script_name: "EncodeSansNarrow-Regular"
   full_name: "Encode Sans Narrow"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Narrow"
@@ -42,6 +46,7 @@ fonts {
   filename: "EncodeSansNarrow-Medium.ttf"
   post_script_name: "EncodeSansNarrow-Medium"
   full_name: "Encode Sans Narrow Medium"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Narrow"
@@ -50,6 +55,7 @@ fonts {
   filename: "EncodeSansNarrow-SemiBold.ttf"
   post_script_name: "EncodeSansNarrow-SemiBold"
   full_name: "Encode Sans Narrow SemiBold"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Narrow"
@@ -58,6 +64,7 @@ fonts {
   filename: "EncodeSansNarrow-Bold.ttf"
   post_script_name: "EncodeSansNarrow-Bold"
   full_name: "Encode Sans Narrow Bold"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Narrow"
@@ -66,6 +73,7 @@ fonts {
   filename: "EncodeSansNarrow-ExtraBold.ttf"
   post_script_name: "EncodeSansNarrow-ExtraBold"
   full_name: "Encode Sans Narrow ExtraBold"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Narrow"
@@ -74,6 +82,7 @@ fonts {
   filename: "EncodeSansNarrow-Black.ttf"
   post_script_name: "EncodeSansNarrow-Black"
   full_name: "Encode Sans Narrow Black"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 subsets: "menu"
 subsets: "latin"

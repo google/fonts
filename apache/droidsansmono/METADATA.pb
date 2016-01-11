@@ -10,6 +10,7 @@ fonts {
   filename: "DroidSansMono.ttf"
   post_script_name: "DroidSansMono"
   full_name: "Droid Sans Mono"
+  copyright: "Digitized data copyright © 2007, Google Corporation."
 }
 subsets: "menu"
 subsets: "cyrillic"

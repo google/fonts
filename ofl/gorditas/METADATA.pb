@@ -10,6 +10,7 @@ fonts {
   filename: "Gorditas-Regular.ttf"
   post_script_name: "Gorditas-Regular"
   full_name: "Gorditas"
+  copyright: "Copyright (c) 2011, Gustavo Dipre (gbrenda1987@gmail.com), with Reserved Font Name \"Gorditas\"."
 }
 fonts {
   name: "Gorditas"
@@ -18,6 +19,7 @@ fonts {
   filename: "Gorditas-Bold.ttf"
   post_script_name: "Gorditas-Bold"
   full_name: "Gorditas Bold"
+  copyright: "Copyright (c) 2011, Gustavo Dipre (gbrenda1987@gmail.com), with Reserved Font Name \"Gorditas\"."
 }
 subsets: "menu"
 subsets: "latin"

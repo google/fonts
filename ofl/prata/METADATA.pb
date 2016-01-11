@@ -10,6 +10,7 @@ fonts {
   filename: "Prata-Regular.ttf"
   post_script_name: "Prata-Regular"
   full_name: "Prata"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Prata\" and \"Prata Regular\"."
 }
 subsets: "menu"
 subsets: "latin"

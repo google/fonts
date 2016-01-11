@@ -10,6 +10,7 @@ fonts {
   filename: "AlexBrush-Regular.ttf"
   post_script_name: "AlexBrush-Regular"
   full_name: "Alex Brush"
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Alex Brush\""
 }
 subsets: "menu"
 subsets: "latin"

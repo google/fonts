@@ -10,6 +10,7 @@ fonts {
   filename: "Esteban-Regular.ttf"
   post_script_name: "Esteban"
   full_name: "Esteban"
+  copyright: "Copyright (c) 2011, Angelica Diaz Rivera (www.typereview.wordpress.com angiecina@gmail.com), with Reserved Font Name \"Esteban\""
 }
 subsets: "menu"
 subsets: "latin"

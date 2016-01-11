@@ -10,6 +10,7 @@ fonts {
   filename: "Stoke-Light.ttf"
   post_script_name: "Stoke-Light"
   full_name: "Stoke Light"
+  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name 'Stoke'"
 }
 fonts {
   name: "Stoke"
@@ -18,6 +19,7 @@ fonts {
   filename: "Stoke-Regular.ttf"
   post_script_name: "Stoke-Regular"
   full_name: "Stoke Regular"
+  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name 'Stoke'"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Shojumaru-Regular.ttf"
   post_script_name: "Shojumaru-Regular"
   full_name: "Shojumaru"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Shojumaru\""
 }
 subsets: "menu"
 subsets: "latin"

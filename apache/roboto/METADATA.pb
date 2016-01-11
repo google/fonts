@@ -10,6 +10,7 @@ fonts {
   filename: "Roboto-Thin.ttf"
   post_script_name: "Roboto-Thin"
   full_name: "Roboto Thin"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -18,6 +19,7 @@ fonts {
   filename: "Roboto-ThinItalic.ttf"
   post_script_name: "Roboto-ThinItalic"
   full_name: "Roboto Thin Italic"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -26,6 +28,7 @@ fonts {
   filename: "Roboto-Light.ttf"
   post_script_name: "Roboto-Light"
   full_name: "Roboto Light"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -34,6 +37,7 @@ fonts {
   filename: "Roboto-LightItalic.ttf"
   post_script_name: "Roboto-LightItalic"
   full_name: "Roboto Light Italic"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -42,6 +46,7 @@ fonts {
   filename: "Roboto-Regular.ttf"
   post_script_name: "Roboto-Regular"
   full_name: "Roboto"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -50,6 +55,7 @@ fonts {
   filename: "Roboto-Italic.ttf"
   post_script_name: "Roboto-Italic"
   full_name: "Roboto Italic"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -58,6 +64,7 @@ fonts {
   filename: "Roboto-Medium.ttf"
   post_script_name: "Roboto-Medium"
   full_name: "Roboto Medium"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -66,6 +73,7 @@ fonts {
   filename: "Roboto-MediumItalic.ttf"
   post_script_name: "Roboto-MediumItalic"
   full_name: "Roboto Medium Italic"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -74,6 +82,7 @@ fonts {
   filename: "Roboto-Bold.ttf"
   post_script_name: "Roboto-Bold"
   full_name: "Roboto Bold"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -82,6 +91,7 @@ fonts {
   filename: "Roboto-BoldItalic.ttf"
   post_script_name: "Roboto-BoldItalic"
   full_name: "Roboto Bold Italic"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -90,6 +100,7 @@ fonts {
   filename: "Roboto-Black.ttf"
   post_script_name: "Roboto-Black"
   full_name: "Roboto Black"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Roboto"
@@ -98,6 +109,7 @@ fonts {
   filename: "Roboto-BlackItalic.ttf"
   post_script_name: "Roboto-BlackItalic"
   full_name: "Roboto Black Italic"
+  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

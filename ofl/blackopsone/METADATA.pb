@@ -10,6 +10,7 @@ fonts {
   filename: "BlackOpsOne-Regular.ttf"
   post_script_name: "BlackOpsOne-Regular"
   full_name: "Black Ops One"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Black Ops\" and \"Black Ops One\"."
 }
 subsets: "menu"
 subsets: "latin"

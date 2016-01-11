@@ -10,6 +10,7 @@ fonts {
   filename: "Modak-Regular.ttf"
   post_script_name: "Modak"
   full_name: "Modak"
+  copyright: "Copyright (c) 2015 Ek Type (www.ektype.in)"
 }
 subsets: "menu"
 subsets: "devanagari"

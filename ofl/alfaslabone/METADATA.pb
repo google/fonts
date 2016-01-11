@@ -10,6 +10,7 @@ fonts {
   filename: "AlfaSlabOne-Regular.ttf"
   post_script_name: "AlfaSlabOne-Regular"
   full_name: "Alfa Slab One"
+  copyright: "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Alfa Slab One\""
 }
 subsets: "menu"
 subsets: "latin"

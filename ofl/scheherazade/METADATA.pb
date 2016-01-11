@@ -10,6 +10,7 @@ fonts {
   filename: "Scheherazade-Regular.ttf"
   post_script_name: "Scheherazade-Regular"
   full_name: "Scheherazade"
+  copyright: "Copyright (c) 1994 - 2015 by SIL International. All rights reserved."
 }
 fonts {
   name: "Scheherazade"
@@ -18,6 +19,7 @@ fonts {
   filename: "Scheherazade-Bold.ttf"
   post_script_name: "Scheherazade-Bold"
   full_name: "Scheherazade Bold"
+  copyright: "Copyright (c) 1994-2015 SIL International. All rights reserved."
 }
 subsets: "menu"
 subsets: "arabic"

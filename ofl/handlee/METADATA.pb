@@ -10,6 +10,7 @@ fonts {
   filename: "Handlee-Regular.ttf"
   post_script_name: "Handlee-Regular"
   full_name: "Handlee Regular"
+  copyright: "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Handlee."
 }
 subsets: "menu"
 subsets: "latin"

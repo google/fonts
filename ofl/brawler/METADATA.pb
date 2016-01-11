@@ -10,6 +10,7 @@ fonts {
   filename: "Brawler-Regular.ttf"
   post_script_name: "Brawler"
   full_name: "Brawler"
+  copyright: "Copyright (c) 2011 by Oleg Frolov | Cyreal (a@cyreal.org). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Carme-Regular.ttf"
   post_script_name: "Carme"
   full_name: "Carme Regular"
+  copyright: "Copyright (c) 2010-2011, Ruben Prol (ipanemagrafica@gmail.com|www.ipanemagrafica.com), with Reserved Font Name Carme."
 }
 subsets: "menu"
 subsets: "latin"

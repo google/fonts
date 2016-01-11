@@ -10,6 +10,7 @@ fonts {
   filename: "Cagliostro-Regular.ttf"
   post_script_name: "Cagliostro-Regular"
   full_name: "Cagliostro Regular"
+  copyright: "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Cagliostro\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "NanumPenScript-Regular.ttf"
   post_script_name: "NanumPen"
   full_name: "Nanum Pen"
+  copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 subsets: "menu"
 subsets: "korean"

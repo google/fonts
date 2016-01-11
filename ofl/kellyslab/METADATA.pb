@@ -10,6 +10,7 @@ fonts {
   filename: "KellySlab-Regular.ttf"
   post_script_name: "KellySlab-Regular"
   full_name: "Kelly Slab"
+  copyright: "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>, with Reserved Font Names \"Kelly\", \"Kelly Slab\"."
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "Prociono-Regular.ttf"
   post_script_name: "Prociono-Regular"
   full_name: "Prociono"
+  copyright: "Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)"
 }
 subsets: "menu"
 subsets: "latin"

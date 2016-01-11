@@ -10,6 +10,7 @@ fonts {
   filename: "NotoSansHebrew-Regular.ttf"
   post_script_name: "NotoSansHebrew"
   full_name: "Noto Sans Hebrew"
+  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Noto Sans Hebrew"
@@ -18,6 +19,7 @@ fonts {
   filename: "NotoSansHebrew-Bold.ttf"
   post_script_name: "NotoSansHebrew-Bold"
   full_name: "Noto Sans Hebrew Bold"
+  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "hebrew"

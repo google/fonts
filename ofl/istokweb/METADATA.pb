@@ -10,6 +10,7 @@ fonts {
   filename: "IstokWeb-Regular.ttf"
   post_script_name: "IstokWeb-Regular"
   full_name: "Istok Web Regular"
+  copyright: "Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru), with Reserved Font Name Istok"
 }
 fonts {
   name: "Istok Web"
@@ -18,6 +19,7 @@ fonts {
   filename: "IstokWeb-Italic.ttf"
   post_script_name: "IstokWeb-Italic"
   full_name: "Istok Web Italic"
+  copyright: "Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru), with Reserved Font Name Istok"
 }
 fonts {
   name: "Istok Web"
@@ -26,6 +28,7 @@ fonts {
   filename: "IstokWeb-Bold.ttf"
   post_script_name: "IstokWeb-Bold"
   full_name: "Istok Web Bold"
+  copyright: "Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru), with Reserved Font Name Istok"
 }
 fonts {
   name: "Istok Web"
@@ -34,6 +37,7 @@ fonts {
   filename: "IstokWeb-BoldItalic.ttf"
   post_script_name: "IstokWeb-BoldItalic"
   full_name: "Istok Web Bold Italic"
+  copyright: "Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru), with Reserved Font Name Istok"
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "OleoScriptSwashCaps-Regular.ttf"
   post_script_name: "OleoScriptSwashCaps-Regular"
   full_name: "Oleo Script Swash Caps"
+  copyright: "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname 'Oleo'"
 }
 fonts {
   name: "Oleo Script Swash Caps"
@@ -18,6 +19,7 @@ fonts {
   filename: "OleoScriptSwashCaps-Bold.ttf"
   post_script_name: "OleoScriptSwashCaps-Bold"
   full_name: "Oleo Script Swash Caps Bold"
+  copyright: "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname 'Oleo'"
 }
 subsets: "menu"
 subsets: "latin"

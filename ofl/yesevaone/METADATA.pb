@@ -10,6 +10,7 @@ fonts {
   filename: "YesevaOne-Regular.ttf"
   post_script_name: "YesevaOne"
   full_name: "Yeseva One"
+  copyright: "Copyright (c) 2011-2012, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Yeseva'"
 }
 subsets: "menu"
 subsets: "cyrillic"

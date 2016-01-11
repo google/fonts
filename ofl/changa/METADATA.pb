@@ -10,6 +10,7 @@ fonts {
   filename: "Changa-Regular.ttf"
   post_script_name: "Changa-Regular"
   full_name: "Changa"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Changa'"
 }
 subsets: "menu"
 subsets: "latin"

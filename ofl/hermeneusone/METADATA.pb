@@ -10,6 +10,7 @@ fonts {
   filename: "HermeneusOne-Regular.ttf"
   post_script_name: "HermeneusOne-Regular"
   full_name: "Hermeneus One"
+  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com) and Rodrigo Fuenzalida (www.rfuenzalida.com), with Reserved Font Name Hermeneus."
 }
 subsets: "menu"
 subsets: "latin"

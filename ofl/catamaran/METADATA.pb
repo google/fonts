@@ -10,6 +10,7 @@ fonts {
   filename: "Catamaran-Thin.ttf"
   post_script_name: "Catamaran-Thin"
   full_name: "Catamaran Thin"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Catamaran"
@@ -18,6 +19,7 @@ fonts {
   filename: "Catamaran-ExtraLight.ttf"
   post_script_name: "Catamaran-ExtraLight"
   full_name: "Catamaran ExtraLight"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Catamaran"
@@ -26,6 +28,7 @@ fonts {
   filename: "Catamaran-Light.ttf"
   post_script_name: "Catamaran-Light"
   full_name: "Catamaran Light"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Catamaran"
@@ -34,6 +37,7 @@ fonts {
   filename: "Catamaran-Regular.ttf"
   post_script_name: "Catamaran-Regular"
   full_name: "Catamaran"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Catamaran"
@@ -42,6 +46,7 @@ fonts {
   filename: "Catamaran-Medium.ttf"
   post_script_name: "Catamaran-Medium"
   full_name: "Catamaran Medium"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Catamaran"
@@ -50,6 +55,7 @@ fonts {
   filename: "Catamaran-SemiBold.ttf"
   post_script_name: "Catamaran-SemiBold"
   full_name: "Catamaran SemiBold"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Catamaran"
@@ -58,6 +64,7 @@ fonts {
   filename: "Catamaran-Bold.ttf"
   post_script_name: "Catamaran-Bold"
   full_name: "Catamaran Bold"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Catamaran"
@@ -66,6 +73,7 @@ fonts {
   filename: "Catamaran-ExtraBold.ttf"
   post_script_name: "Catamaran-ExtraBold"
   full_name: "Catamaran ExtraBold"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Catamaran"
@@ -74,6 +82,7 @@ fonts {
   filename: "Catamaran-Black.ttf"
   post_script_name: "Catamaran-Black"
   full_name: "Catamaran Black"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 subsets: "latin"
 subsets: "latin-ext"

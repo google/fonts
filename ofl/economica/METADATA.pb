@@ -10,6 +10,7 @@ fonts {
   filename: "Economica-Regular.ttf"
   post_script_name: "Economica-Regular"
   full_name: "Economica"
+  copyright: "Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info www.tipotype.com)"
 }
 fonts {
   name: "Economica"
@@ -18,6 +19,7 @@ fonts {
   filename: "Economica-Italic.ttf"
   post_script_name: "Economica-Italic"
   full_name: "Economica Italic"
+  copyright: "Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info www.tipotype.com)"
 }
 fonts {
   name: "Economica"
@@ -26,6 +28,7 @@ fonts {
   filename: "Economica-Bold.ttf"
   post_script_name: "Economica-Bold"
   full_name: "Economica Bold"
+  copyright: "Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info www.tipotype.com)"
 }
 fonts {
   name: "Economica"
@@ -34,6 +37,7 @@ fonts {
   filename: "Economica-BoldItalic.ttf"
   post_script_name: "Economica-BoldItalic"
   full_name: "Economica Bold Italic"
+  copyright: "Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info www.tipotype.com)"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Wellfleet-Regular.ttf"
   post_script_name: "Wellfleet-Regular"
   full_name: "Wellfleet"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name Wellfleet"
 }
 subsets: "menu"
 subsets: "latin"

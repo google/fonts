@@ -10,6 +10,7 @@ fonts {
   filename: "Arvo-Regular.ttf"
   post_script_name: "Arvo"
   full_name: "Arvo"
+  copyright: "Copyright 2010 Anton Koovit."
 }
 fonts {
   name: "Arvo"
@@ -18,6 +19,7 @@ fonts {
   filename: "Arvo-Italic.ttf"
   post_script_name: "Arvo-Italic"
   full_name: "Arvo Italic"
+  copyright: "Copyright 2010 Anton Koovit, Yassin Baggar."
 }
 fonts {
   name: "Arvo"
@@ -26,6 +28,7 @@ fonts {
   filename: "Arvo-Bold.ttf"
   post_script_name: "Arvo-Bold"
   full_name: "Arvo Bold"
+  copyright: "Copyright (c) 2010 by Anton Koovit."
 }
 fonts {
   name: "Arvo"
@@ -34,6 +37,7 @@ fonts {
   filename: "Arvo-BoldItalic.ttf"
   post_script_name: "Arvo-BoldItalic"
   full_name: "Arvo Bold Italic"
+  copyright: "Copyright 2010 Anton Koovit, Yassin Baggar."
 }
 subsets: "menu"
 subsets: "latin"

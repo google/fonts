@@ -10,6 +10,7 @@ fonts {
   filename: "Sarpanch-Regular.ttf"
   post_script_name: "Sarpanch-Regular"
   full_name: "Sarpanch"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Sarpanch"
@@ -18,6 +19,7 @@ fonts {
   filename: "Sarpanch-Medium.ttf"
   post_script_name: "Sarpanch-Medium"
   full_name: "Sarpanch Medium"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Sarpanch"
@@ -26,6 +28,7 @@ fonts {
   filename: "Sarpanch-SemiBold.ttf"
   post_script_name: "Sarpanch-SemiBold"
   full_name: "Sarpanch SemiBold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Sarpanch"
@@ -34,6 +37,7 @@ fonts {
   filename: "Sarpanch-Bold.ttf"
   post_script_name: "Sarpanch-Bold"
   full_name: "Sarpanch Bold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Sarpanch"
@@ -42,6 +46,7 @@ fonts {
   filename: "Sarpanch-ExtraBold.ttf"
   post_script_name: "Sarpanch-ExtraBold"
   full_name: "Sarpanch ExtraBold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Sarpanch"
@@ -50,6 +55,7 @@ fonts {
   filename: "Sarpanch-Black.ttf"
   post_script_name: "Sarpanch-Black"
   full_name: "Sarpanch Black"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

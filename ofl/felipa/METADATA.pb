@@ -10,6 +10,7 @@ fonts {
   filename: "Felipa-Regular.ttf"
   post_script_name: "Felipa-Regular"
   full_name: "Felipa"
+  copyright: "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Felipa\""
 }
 subsets: "menu"
 subsets: "latin"

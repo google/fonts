@@ -10,6 +10,7 @@ fonts {
   filename: "Pecita.ttf"
   post_script_name: "Pecita"
   full_name: "Pecita"
+  copyright: "Copyright (c) 2009-2011, Philippe Cochy (http://pecita.com acquadoria@gmail.com), with Reserved Font Name Pecita."
 }
 subsets: "menu"
 subsets: "latin"

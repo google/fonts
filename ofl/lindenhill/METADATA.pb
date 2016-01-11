@@ -10,6 +10,7 @@ fonts {
   filename: "LindenHill-Regular.ttf"
   post_script_name: "LindenHill-Regular"
   full_name: "Linden Hill Regular"
+  copyright: "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)"
 }
 fonts {
   name: "Linden Hill"
@@ -18,6 +19,7 @@ fonts {
   filename: "LindenHill-Italic.ttf"
   post_script_name: "LindenHill-Italic"
   full_name: "Linden Hill Italic"
+  copyright: "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)"
 }
 subsets: "menu"
 subsets: "latin"

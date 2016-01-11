@@ -10,6 +10,7 @@ fonts {
   filename: "Yantramanav-Thin.ttf"
   post_script_name: "Yantramanav-Thin"
   full_name: "Yantramanav Thin"
+  copyright: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Yantramanav"
@@ -18,6 +19,7 @@ fonts {
   filename: "Yantramanav-Light.ttf"
   post_script_name: "Yantramanav-Light"
   full_name: "Yantramanav Light"
+  copyright: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Yantramanav"
@@ -26,6 +28,7 @@ fonts {
   filename: "Yantramanav-Regular.ttf"
   post_script_name: "Yantramanav-Regular"
   full_name: "Yantramanav"
+  copyright: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Yantramanav"
@@ -34,6 +37,7 @@ fonts {
   filename: "Yantramanav-Medium.ttf"
   post_script_name: "Yantramanav-Medium"
   full_name: "Yantramanav Medium"
+  copyright: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Yantramanav"
@@ -42,6 +46,7 @@ fonts {
   filename: "Yantramanav-Bold.ttf"
   post_script_name: "Yantramanav-Bold"
   full_name: "Yantramanav Bold"
+  copyright: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Yantramanav"
@@ -50,6 +55,7 @@ fonts {
   filename: "Yantramanav-Black.ttf"
   post_script_name: "Yantramanav-Black"
   full_name: "Yantramanav Black"
+  copyright: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "devanagari"

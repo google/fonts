@@ -10,6 +10,7 @@ fonts {
   filename: "OFLGoudyStMTT.ttf"
   post_script_name: "OFLGoudyStMTT"
   full_name: "OFL Sorts Mill Goudy TT"
+  copyright: "Copyright (c) 2009 Barry Schwartz (http://crudfactory.com chemoelectric@chemoelectric.org)"
 }
 fonts {
   name: "OFL Sorts Mill Goudy TT"
@@ -18,6 +19,7 @@ fonts {
   filename: "OFLGoudyStMTT-Italic.ttf"
   post_script_name: "OFLGoudyStMTT-Italic"
   full_name: "OFL Sorts Mill Goudy TT Italic"
+  copyright: "Copyright (c) 2009 Barry Schwartz (http://crudfactory.com chemoelectric@chemoelectric.org)"
 }
 subsets: "menu"
 subsets: "latin"

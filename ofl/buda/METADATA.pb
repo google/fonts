@@ -10,6 +10,7 @@ fonts {
   filename: "Buda-Light.ttf"
   post_script_name: "Buda"
   full_name: "Buda"
+  copyright: "Copyright (c) 2010, Adele Antignac (a.antignac@hotmail.fr anton@fatype.com). All rights reserved. Licenced under SIL OFL vl.1"
 }
 subsets: "menu"
 subsets: "latin"

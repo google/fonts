@@ -10,6 +10,7 @@ fonts {
   filename: "Iceberg-Regular.ttf"
   post_script_name: "Iceberg-Regular"
   full_name: "Iceberg"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org), with Reserved Font Name \"Iceberg\"."
 }
 subsets: "menu"
 subsets: "latin"

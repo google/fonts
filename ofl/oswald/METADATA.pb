@@ -10,6 +10,7 @@ fonts {
   filename: "Oswald-Light.ttf"
   post_script_name: "Oswald-Light"
   full_name: "Oswald Light"
+  copyright: "Copyright (c) 2011-2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oswald'"
 }
 fonts {
   name: "Oswald"
@@ -18,6 +19,7 @@ fonts {
   filename: "Oswald-Regular.ttf"
   post_script_name: "Oswald-Regular"
   full_name: "Oswald Regular"
+  copyright: "Copyright (c) 2011-2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oswald'"
 }
 fonts {
   name: "Oswald"
@@ -26,6 +28,7 @@ fonts {
   filename: "Oswald-Bold.ttf"
   post_script_name: "Oswald-Bold"
   full_name: "Oswald Bold"
+  copyright: "Copyright (c) 2011-2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oswald'"
 }
 subsets: "menu"
 subsets: "latin"

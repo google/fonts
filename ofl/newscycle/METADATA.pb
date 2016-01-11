@@ -10,6 +10,7 @@ fonts {
   filename: "NewsCycle-Regular.ttf"
   post_script_name: "NewsCycle"
   full_name: "News Cycle"
+  copyright: "Copyright (c) 2010-2011, Nathan Willis (nwillis@glyphography.com), with Reserved Font Name \"News Cycle.\""
 }
 fonts {
   name: "News Cycle"
@@ -18,6 +19,7 @@ fonts {
   filename: "NewsCycle-Bold.ttf"
   post_script_name: "NewsCycle-Bold"
   full_name: "News Cycle Bold"
+  copyright: "Copyright (c) 2010-2011, Nathan Willis (nwillis@glyphography.com), with Reserved Font Name \"News Cycle.\""
 }
 subsets: "menu"
 subsets: "latin"

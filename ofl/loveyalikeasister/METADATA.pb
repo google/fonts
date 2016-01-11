@@ -10,6 +10,7 @@ fonts {
   filename: "LoveYaLikeASister.ttf"
   post_script_name: "LoveYaLikeASister-Regular"
   full_name: "Love Ya Like A Sister Regular"
+  copyright: "Copyright (c) 2011 by Kimberly Geswein (kimberlygeswein@gmail.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

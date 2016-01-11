@@ -10,6 +10,7 @@ fonts {
   filename: "GoudyBookletter1911.ttf"
   post_script_name: "GoudyBookletter1911"
   full_name: "Goudy Bookletter 1911"
+  copyright: "Copyright (c) 2010, Barry Schwartz (crudfactory.com chemoelectric@chemoelectric.org)"
 }
 subsets: "menu"
 subsets: "latin"

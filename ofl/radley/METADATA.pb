@@ -10,6 +10,7 @@ fonts {
   filename: "Radley-Regular.ttf"
   post_script_name: "Radley"
   full_name: "Radley"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Radley'. All rights reserved."
 }
 fonts {
   name: "Radley"
@@ -18,6 +19,7 @@ fonts {
   filename: "Radley-Italic.ttf"
   post_script_name: "Radley-Italic"
   full_name: "Radley Italic"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Radley'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Lusitana-Regular.ttf"
   post_script_name: "Lusitana"
   full_name: "Lusitana"
+  copyright: "Copyright (c) 2011 by Ana Paula Megda (www.anamegda.com|anapbm@gmail.com), with Reserved Font Name Lusitana."
 }
 fonts {
   name: "Lusitana"
@@ -18,6 +19,7 @@ fonts {
   filename: "Lusitana-Bold.ttf"
   post_script_name: "Lusitana-Bold"
   full_name: "Lusitana Bold"
+  copyright: "Copyright (c) 2011 by Ana Paula Megda (www.anamegda.com|anapbm@gmail.com), with Reserved Font Name Lusitana."
 }
 subsets: "menu"
 subsets: "latin"

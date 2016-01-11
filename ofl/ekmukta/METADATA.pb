@@ -10,6 +10,7 @@ fonts {
   filename: "EkMukta-ExtraLight.ttf"
   post_script_name: "EkMukta-ExtraLight"
   full_name: "Ek Mukta ExtraLight"
+  copyright: "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
 }
 fonts {
   name: "Ek Mukta"
@@ -18,6 +19,7 @@ fonts {
   filename: "EkMukta-Light.ttf"
   post_script_name: "EkMukta-Light"
   full_name: "Ek Mukta Light"
+  copyright: "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
 }
 fonts {
   name: "Ek Mukta"
@@ -26,6 +28,7 @@ fonts {
   filename: "EkMukta-Regular.ttf"
   post_script_name: "EkMukta-Regular"
   full_name: "Ek Mukta"
+  copyright: "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
 }
 fonts {
   name: "Ek Mukta"
@@ -34,6 +37,7 @@ fonts {
   filename: "EkMukta-Medium.ttf"
   post_script_name: "EkMukta-Medium"
   full_name: "Ek Mukta Medium"
+  copyright: "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
 }
 fonts {
   name: "Ek Mukta"
@@ -42,6 +46,7 @@ fonts {
   filename: "EkMukta-SemiBold.ttf"
   post_script_name: "EkMukta-SemiBold"
   full_name: "Ek Mukta SemiBold"
+  copyright: "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
 }
 fonts {
   name: "Ek Mukta"
@@ -50,6 +55,7 @@ fonts {
   filename: "EkMukta-Bold.ttf"
   post_script_name: "EkMukta-Bold"
   full_name: "Ek Mukta Bold"
+  copyright: "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
 }
 fonts {
   name: "Ek Mukta"
@@ -58,6 +64,7 @@ fonts {
   filename: "EkMukta-ExtraBold.ttf"
   post_script_name: "EkMukta-ExtraBold"
   full_name: "Ek Mukta ExtraBold"
+  copyright: "Copyright (c) 2013 - 2014, Ek Type. All rights reserved."
 }
 subsets: "menu"
 subsets: "devanagari"

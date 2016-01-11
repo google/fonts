@@ -10,6 +10,7 @@ fonts {
   filename: "RussoOne-Regular.ttf"
   post_script_name: "RussoOne-Regular"
   full_name: "Russo One"
+  copyright: "Copyright (c) 2011-2012, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name \"Russo\""
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "Peralta-Regular.ttf"
   post_script_name: "Peralta-Regular"
   full_name: "Peralta"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Peralta\""
 }
 subsets: "menu"
 subsets: "latin"

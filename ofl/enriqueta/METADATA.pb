@@ -10,6 +10,7 @@ fonts {
   filename: "Enriqueta-Regular.ttf"
   post_script_name: "Enriqueta-Regular"
   full_name: "Enriqueta-Regular"
+  copyright: "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Enriqueta\" and \"Enriqueta Pro\"."
 }
 fonts {
   name: "Enriqueta"
@@ -18,6 +19,7 @@ fonts {
   filename: "Enriqueta-Bold.ttf"
   post_script_name: "Enriqueta-Bold"
   full_name: "Enriqueta-Bold"
+  copyright: "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Enriqueta\" and \"Enriqueta Pro\"."
 }
 subsets: "menu"
 subsets: "latin"

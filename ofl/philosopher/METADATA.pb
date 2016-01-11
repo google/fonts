@@ -10,6 +10,7 @@ fonts {
   filename: "Philosopher-Regular.ttf"
   post_script_name: "Philosopher"
   full_name: "Philosopher"
+  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 fonts {
   name: "Philosopher"
@@ -18,6 +19,7 @@ fonts {
   filename: "Philosopher-Italic.ttf"
   post_script_name: "Philosopher-Italic"
   full_name: "Philosopher Italic"
+  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 fonts {
   name: "Philosopher"
@@ -26,6 +28,7 @@ fonts {
   filename: "Philosopher-Bold.ttf"
   post_script_name: "Philosopher-Bold"
   full_name: "Philosopher Bold"
+  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 fonts {
   name: "Philosopher"
@@ -34,6 +37,7 @@ fonts {
   filename: "Philosopher-BoldItalic.ttf"
   post_script_name: "Philosopher-BoldItalic"
   full_name: "Philosopher Bold Italic"
+  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

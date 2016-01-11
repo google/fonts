@@ -10,6 +10,7 @@ fonts {
   filename: "WaitingfortheSunrise.ttf"
   post_script_name: "WaitingfortheSunrise"
   full_name: "Waiting for the Sunrise"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

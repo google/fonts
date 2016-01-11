@@ -10,6 +10,7 @@ fonts {
   filename: "Hanuman-Regular.ttf"
   post_script_name: "Hanuman"
   full_name: "Hanuman"
+  copyright: "Copyright © 2011, Danh Hong (danhhong@gmail.com)"
 }
 fonts {
   name: "Hanuman"
@@ -18,6 +19,7 @@ fonts {
   filename: "Hanuman-Bold.ttf"
   post_script_name: "Hanuman-Bold"
   full_name: "Hanuman Bold"
+  copyright: "Copyright © 2011, Danh Hong (danhhong@gmail.com)"
 }
 subsets: "menu"
 subsets: "khmer"

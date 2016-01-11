@@ -10,6 +10,7 @@ fonts {
   filename: "Snippet.ttf"
   post_script_name: "Snippet"
   full_name: "Snippet"
+  copyright: "Copyright (c) 2011 Gesine Todt (www.gesine-todt.de hallo@gesine-todt.de), with Reserved Font Name \"Snippet\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Varta-Light.ttf"
   post_script_name: "Varta-Light"
   full_name: "Varta Light"
+  copyright: "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
 }
 fonts {
   name: "Varta"
@@ -18,6 +19,7 @@ fonts {
   filename: "Varta-Regular.ttf"
   post_script_name: "Varta-Regular"
   full_name: "Varta Regular"
+  copyright: "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
 }
 fonts {
   name: "Varta"
@@ -26,6 +28,7 @@ fonts {
   filename: "Varta-SemiBold.ttf"
   post_script_name: "VartaSemiBold"
   full_name: "Varta SemiBold"
+  copyright: "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
 }
 fonts {
   name: "Varta"
@@ -34,6 +37,7 @@ fonts {
   filename: "Varta-Bold.ttf"
   post_script_name: "Varta-Bold"
   full_name: "Varta Bold"
+  copyright: "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

@@ -10,6 +10,7 @@ fonts {
   filename: "Candal.ttf"
   post_script_name: "Candal"
   full_name: "Candal"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Candal'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

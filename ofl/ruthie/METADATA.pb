@@ -10,6 +10,7 @@ fonts {
   filename: "Ruthie-Regular.ttf"
   post_script_name: "Ruthie-Regular"
   full_name: "Ruthie"
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Ruthie\""
 }
 subsets: "menu"
 subsets: "latin"

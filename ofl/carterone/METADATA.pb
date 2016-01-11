@@ -10,6 +10,7 @@ fonts {
   filename: "CarterOne.ttf"
   post_script_name: "CarterOne"
   full_name: "Carter One"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Carter One'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

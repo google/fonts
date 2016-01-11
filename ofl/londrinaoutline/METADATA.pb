@@ -10,6 +10,7 @@ fonts {
   filename: "LondrinaOutline-Regular.ttf"
   post_script_name: "LondrinaOutline-Regular"
   full_name: "Londrina Outline"
+  copyright: "Copyright (c) 2011 by Marcelo Magalhaes (marcelomagalhaes.net marcelommp@gmail.com), with Reserved Font Name \"Londrina\""
 }
 subsets: "menu"
 subsets: "latin"

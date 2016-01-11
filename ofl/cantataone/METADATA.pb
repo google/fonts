@@ -10,6 +10,7 @@ fonts {
   filename: "CantataOne-Regular.ttf"
   post_script_name: "CantataOne-Regular"
   full_name: "Cantata One"
+  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name \"Cantata\""
 }
 subsets: "menu"
 subsets: "latin"

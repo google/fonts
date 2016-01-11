@@ -10,6 +10,7 @@ fonts {
   filename: "PressStart2P-Regular.ttf"
   post_script_name: "PressStart2P-Regular"
   full_name: "Press Start 2P"
+  copyright: "Copyright (c) 2012, Cody \"CodeMan38\" Boisclair (cody@zone38.net), with Reserved Font Name \"Press Start 2P\""
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "HindSiliguri-Light.ttf"
   post_script_name: "HindSiliguri-Light"
   full_name: "Hind Siliguri Light"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Siliguri"
@@ -18,6 +19,7 @@ fonts {
   filename: "HindSiliguri-Regular.ttf"
   post_script_name: "HindSiliguri-Regular"
   full_name: "Hind Siliguri"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Siliguri"
@@ -26,6 +28,7 @@ fonts {
   filename: "HindSiliguri-Medium.ttf"
   post_script_name: "HindSiliguri-Medium"
   full_name: "Hind Siliguri Medium"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Siliguri"
@@ -34,6 +37,7 @@ fonts {
   filename: "HindSiliguri-SemiBold.ttf"
   post_script_name: "HindSiliguri-SemiBold"
   full_name: "Hind Siliguri SemiBold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Siliguri"
@@ -42,6 +46,7 @@ fonts {
   filename: "HindSiliguri-Bold.ttf"
   post_script_name: "HindSiliguri-Bold"
   full_name: "Hind Siliguri Bold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "bengali"

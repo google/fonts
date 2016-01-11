@@ -10,6 +10,7 @@ fonts {
   filename: "CabinSketch-Regular.ttf"
   post_script_name: "CabinSketch-Regular"
   full_name: "Cabin Sketch Regular"
+  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
 }
 fonts {
   name: "Cabin Sketch"
@@ -18,6 +19,7 @@ fonts {
   filename: "CabinSketch-Bold.ttf"
   post_script_name: "CabinSketch-Bold"
   full_name: "CabinSketch Bold"
+  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

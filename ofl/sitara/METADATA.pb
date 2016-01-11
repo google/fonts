@@ -10,6 +10,7 @@ fonts {
   filename: "Sitara-Regular.ttf"
   post_script_name: "Sitara-Regular"
   full_name: "Sitara"
+  copyright: "Copyright (c) 2014, Neelakash Kshetrimayum (github.com/Neelakash/sitara). Copyright 2013, Google Corporation."
 }
 fonts {
   name: "Sitara"
@@ -18,6 +19,7 @@ fonts {
   filename: "Sitara-Italic.ttf"
   post_script_name: "Sitara-Italic"
   full_name: "Sitara Italic"
+  copyright: "Copyright (c) 2014, Neelakash Kshetrimayum (github.com/Neelakash/sitara). Copyright 2013, Google Corporation."
 }
 fonts {
   name: "Sitara"
@@ -26,6 +28,7 @@ fonts {
   filename: "Sitara-Bold.ttf"
   post_script_name: "Sitara-Bold"
   full_name: "Sitara Bold"
+  copyright: "Copyright (c) 2014, Neelakash Kshetrimayum (github.com/Neelakash/sitara). Copyright 2013, Google Corporation."
 }
 fonts {
   name: "Sitara"
@@ -34,6 +37,7 @@ fonts {
   filename: "Sitara-BoldItalic.ttf"
   post_script_name: "Sitara-BoldItalic"
   full_name: "Sitara Bold Italic"
+  copyright: "Copyright (c) 2014, Neelakash Kshetrimayum (github.com/Neelakash/sitara). Copyright 2013, Google Corporation."
 }
 subsets: "menu"
 subsets: "devanagari"

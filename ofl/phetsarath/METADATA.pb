@@ -10,6 +10,7 @@ fonts {
   filename: "Phetsarath-Regular.ttf"
   post_script_name: "Phetsarath-Regular"
   full_name: "Phetsarath Regular"
+  copyright: "Copyright (c) 2010-2012, Ministry of Posts and Telecommunications, Laos (www.phetsarath.gov.la)"
 }
 fonts {
   name: "Phetsarath"
@@ -18,5 +19,6 @@ fonts {
   filename: "Phetsarath-Bold.ttf"
   post_script_name: "Phetsarath-Bold"
   full_name: "Phetsarath Bold"
+  copyright: "Copyright (c) 2010-2012, Ministry of Posts and Telecommunications, Laos (www.phetsarath.gov.la)"
 }
 subsets: "lao"

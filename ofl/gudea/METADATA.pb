@@ -10,6 +10,7 @@ fonts {
   filename: "Gudea-Regular.ttf"
   post_script_name: "Gudea"
   full_name: "Gudea"
+  copyright: "Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with Reserved Font Names \"Gudea\""
 }
 fonts {
   name: "Gudea"
@@ -18,6 +19,7 @@ fonts {
   filename: "Gudea-Italic.ttf"
   post_script_name: "Gudea-Italic"
   full_name: "Gudea Italic"
+  copyright: "Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with Reserved Font Names \"Gudea\""
 }
 fonts {
   name: "Gudea"
@@ -26,6 +28,7 @@ fonts {
   filename: "Gudea-Bold.ttf"
   post_script_name: "Gudea-Bold"
   full_name: "Gudea Bold"
+  copyright: "Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with Reserved Font Names \"Gudea\""
 }
 subsets: "menu"
 subsets: "latin"

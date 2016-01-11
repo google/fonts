@@ -10,6 +10,7 @@ fonts {
   filename: "Acme-Regular.ttf"
   post_script_name: "Acme-Regular"
   full_name: "Acme"
+  copyright: "Copyright (c) 2011 by Juan Pablo del Peral (huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Name \"Acme\""
 }
 subsets: "menu"
 subsets: "latin"

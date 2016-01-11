@@ -10,6 +10,7 @@ fonts {
   filename: "Numans-Regular.ttf"
   post_script_name: "Numans-Regular"
   full_name: "Numans"
+  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

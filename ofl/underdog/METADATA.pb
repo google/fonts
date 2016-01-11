@@ -10,6 +10,7 @@ fonts {
   filename: "Underdog-Regular.ttf"
   post_script_name: "Underdog-Regular"
   full_name: "Underdog"
+  copyright: "Copyright (c) 2012, Sergey Steblina (sergey@steblina.com), Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Underdog'"
 }
 subsets: "menu"
 subsets: "cyrillic"

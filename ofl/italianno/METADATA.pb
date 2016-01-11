@@ -10,6 +10,7 @@ fonts {
   filename: "Italianno-Regular.ttf"
   post_script_name: "Italianno-Regular"
   full_name: "Italianno"
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Italianno\""
 }
 subsets: "menu"
 subsets: "latin"

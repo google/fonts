@@ -10,6 +10,7 @@ fonts {
   filename: "HindJalandhar-Light.ttf"
   post_script_name: "HindJalandhar-Light"
   full_name: "Hind Jalandhar Light"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Jalandhar"
@@ -18,6 +19,7 @@ fonts {
   filename: "HindJalandhar-Regular.ttf"
   post_script_name: "HindJalandhar-Regular"
   full_name: "Hind Jalandhar"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Jalandhar"
@@ -26,6 +28,7 @@ fonts {
   filename: "HindJalandhar-Medium.ttf"
   post_script_name: "HindJalandhar-Medium"
   full_name: "Hind Jalandhar Medium"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Jalandhar"
@@ -34,6 +37,7 @@ fonts {
   filename: "HindJalandhar-SemiBold.ttf"
   post_script_name: "HindJalandhar-SemiBold"
   full_name: "Hind Jalandhar SemiBold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Jalandhar"
@@ -42,6 +46,7 @@ fonts {
   filename: "HindJalandhar-Bold.ttf"
   post_script_name: "HindJalandhar-Bold"
   full_name: "Hind Jalandhar Bold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "gurmukhi"

@@ -10,6 +10,7 @@ fonts {
   filename: "CaveatBrush-Regular.ttf"
   post_script_name: "CaveatBrush-Regular"
   full_name: "Caveat Brush"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "latin"

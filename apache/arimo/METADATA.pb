@@ -10,6 +10,7 @@ fonts {
   filename: "Arimo-Regular.ttf"
   post_script_name: "Arimo"
   full_name: "Arimo"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
   name: "Arimo"
@@ -18,6 +19,7 @@ fonts {
   filename: "Arimo-Italic.ttf"
   post_script_name: "Arimo-Italic"
   full_name: "Arimo Italic"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
   name: "Arimo"
@@ -26,6 +28,7 @@ fonts {
   filename: "Arimo-Bold.ttf"
   post_script_name: "Arimo-Bold"
   full_name: "Arimo Bold"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
   name: "Arimo"
@@ -34,6 +37,7 @@ fonts {
   filename: "Arimo-BoldItalic.ttf"
   post_script_name: "Arimo-BoldItalic"
   full_name: "Arimo Bold Italic"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 subsets: "menu"
 subsets: "cyrillic"

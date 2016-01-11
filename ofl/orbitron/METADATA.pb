@@ -10,6 +10,7 @@ fonts {
   filename: "Orbitron-Regular.ttf"
   post_script_name: "Orbitron-Regular"
   full_name: "Orbitron-Light"
+  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
 }
 fonts {
   name: "Orbitron"
@@ -18,6 +19,7 @@ fonts {
   filename: "Orbitron-Medium.ttf"
   post_script_name: "Orbitron-Medium"
   full_name: "Orbitron-Medium"
+  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
 }
 fonts {
   name: "Orbitron"
@@ -26,6 +28,7 @@ fonts {
   filename: "Orbitron-Bold.ttf"
   post_script_name: "Orbitron-Bold"
   full_name: "Orbitron-Bold"
+  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
 }
 fonts {
   name: "Orbitron"
@@ -34,6 +37,7 @@ fonts {
   filename: "Orbitron-Black.ttf"
   post_script_name: "Orbitron-Black"
   full_name: "Orbitron-Black"
+  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
 }
 subsets: "menu"
 subsets: "latin"

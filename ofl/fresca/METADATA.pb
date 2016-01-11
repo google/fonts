@@ -10,6 +10,7 @@ fonts {
   filename: "Fresca-Regular.ttf"
   post_script_name: "Fresca-Regular"
   full_name: "Fresca-Regular"
+  copyright: "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Fresca\""
 }
 subsets: "menu"
 subsets: "latin"

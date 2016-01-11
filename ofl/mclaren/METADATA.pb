@@ -10,6 +10,7 @@ fonts {
   filename: "McLaren-Regular.ttf"
   post_script_name: "McLaren-Regular"
   full_name: "McLaren"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"McLaren\""
 }
 subsets: "menu"
 subsets: "latin"

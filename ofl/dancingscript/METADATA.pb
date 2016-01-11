@@ -10,6 +10,7 @@ fonts {
   filename: "DancingScript-Regular.ttf"
   post_script_name: "DancingScript"
   full_name: "Dancing Script"
+  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). All rights reserved."
 }
 fonts {
   name: "Dancing Script"
@@ -18,6 +19,7 @@ fonts {
   filename: "DancingScript-Bold.ttf"
   post_script_name: "DancingScript-Bold"
   full_name: "Dancing Script Bold"
+  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

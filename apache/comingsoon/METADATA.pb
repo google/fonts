@@ -10,6 +10,7 @@ fonts {
   filename: "ComingSoon.ttf"
   post_script_name: "ComingSoon"
   full_name: "Coming Soon"
+  copyright: "Copyright (c) 2010 by Open Window (dathanboardman@gmail.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

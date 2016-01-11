@@ -10,6 +10,7 @@ fonts {
   filename: "Macondo-Regular.ttf"
   post_script_name: "Macondo-Regular"
   full_name: "Macondo"
+  copyright: "Copyright (c) 1997 - 2011, John Vargas Beltran. (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com), with Reserved Font Name \"Macondo\""
 }
 subsets: "menu"
 subsets: "latin"

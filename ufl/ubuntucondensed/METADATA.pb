@@ -10,6 +10,7 @@ fonts {
   filename: "UbuntuCondensed-Regular.ttf"
   post_script_name: "UbuntuCondensed-Regular"
   full_name: "Ubuntu Condensed"
+  copyright: "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
 }
 subsets: "menu"
 subsets: "cyrillic"

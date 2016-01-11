@@ -10,6 +10,7 @@ fonts {
   filename: "GloriaHallelujah.ttf"
   post_script_name: "GloriaHallelujah"
   full_name: "Gloria Hallelujah"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

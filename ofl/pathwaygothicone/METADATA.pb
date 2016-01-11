@@ -10,6 +10,7 @@ fonts {
   filename: "PathwayGothicOne-Regular.ttf"
   post_script_name: "PathwayGothicOne-Regular"
   full_name: "Pathway Gothic One"
+  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Pathway'"
 }
 subsets: "menu"
 subsets: "latin"

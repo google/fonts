@@ -10,6 +10,7 @@ fonts {
   filename: "UnifrakturMaguntia-Book.ttf"
   post_script_name: "UnifrakturMaguntia"
   full_name: "UnifrakturMaguntia"
+  copyright: "Copyright (c) 2010 j. 'mach' wust (j.mach.wust@gmail.com) with Reserved Font Name UnifrakturMaguntia. Copyright (c) 2009 Peter Wiegel (wiegel@peter-wiegel.de). This Font Software is licensed under the SIL Open Font License, Version 1.1."
 }
 subsets: "menu"
 subsets: "latin"

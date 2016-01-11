@@ -10,6 +10,7 @@ fonts {
   filename: "CarroisGothicSC-Regular.ttf"
   post_script_name: "CarroisGothicSC-Regular"
   full_name: "Carrois Gothic SC"
+  copyright: "Copyright (c) 2011 by Ralph du Carrois (www.carrois.com post@carrois.com), with Reserved Font Name 'Carrois'"
 }
 subsets: "menu"
 subsets: "latin"

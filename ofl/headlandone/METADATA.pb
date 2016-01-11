@@ -10,6 +10,7 @@ fonts {
   filename: "HeadlandOne-Regular.ttf"
   post_script_name: "HeadlandOne-Regular"
   full_name: "Headland One"
+  copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name \"Headland\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "CevicheOne-Regular.ttf"
   post_script_name: "CevicheOne-Regular"
   full_name: "Ceviche One"
+  copyright: "Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), with Reserved Font Names \"Cecivhe\" and \"Ceviche One\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "MissFajardose-Regular.ttf"
   post_script_name: "MissFajardose-Regular"
   full_name: "Miss Fajardose Regular"
+  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"MissFajardose\""
 }
 subsets: "menu"
 subsets: "latin"

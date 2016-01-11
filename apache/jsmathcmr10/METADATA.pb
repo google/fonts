@@ -10,6 +10,7 @@ fonts {
   filename: "jsMath-cmr10.ttf"
   post_script_name: "jsMath-cmr10"
   full_name: "jsMath-cmr10"
+  copyright: "Generated from MetaFont bitmap by mftrace 1.0.33, http://www.cs.uu.nl/~hanwen/mftrace/"
 }
 subsets: "menu"
 subsets: "latin"

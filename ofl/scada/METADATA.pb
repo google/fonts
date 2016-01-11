@@ -10,6 +10,7 @@ fonts {
   filename: "Scada-Regular.ttf"
   post_script_name: "Scada-Regular"
   full_name: "Scada"
+  copyright: "Copyright (c) 2005-2012 by Jovanny Lemonad (lemonad@jovanny.ru)"
 }
 fonts {
   name: "Scada"
@@ -18,6 +19,7 @@ fonts {
   filename: "Scada-Italic.ttf"
   post_script_name: "Scada-Italic"
   full_name: "Scada Italic"
+  copyright: "Copyright (c) 2005-2012 by Jovanny Lemonad (lemonad@jovanny.ru)"
 }
 fonts {
   name: "Scada"
@@ -26,6 +28,7 @@ fonts {
   filename: "Scada-Bold.ttf"
   post_script_name: "Scada-Bold"
   full_name: "Scada Bold"
+  copyright: "Copyright (c) 2005-2012 by Jovanny Lemonad (lemonad@jovanny.ru)"
 }
 fonts {
   name: "Scada"
@@ -34,6 +37,7 @@ fonts {
   filename: "Scada-BoldItalic.ttf"
   post_script_name: "Scada-BoldItalic"
   full_name: "Scada Bold Italic"
+  copyright: "Copyright (c) 2005-2012 by Jovanny Lemonad (lemonad@jovanny.ru)"
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -10,6 +10,7 @@ fonts {
   filename: "Chonburi-Regular.ttf"
   post_script_name: "Chonburi-Regular"
   full_name: "Chonburi"
+  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "AnonymousPro-Regular.ttf"
   post_script_name: "AnonymousPro"
   full_name: "Anonymous Pro"
+  copyright: "Copyright (c) 2009-2010, Mark Simonson (mark@ms-studio.com). All rights reserved."
 }
 fonts {
   name: "Anonymous Pro"
@@ -18,6 +19,7 @@ fonts {
   filename: "AnonymousPro-Italic.ttf"
   post_script_name: "AnonymousPro-Italic"
   full_name: "Anonymous Pro Italic"
+  copyright: "Copyright (c) 2009-2010, Mark Simonson (mark@ms-studio.com). All rights reserved."
 }
 fonts {
   name: "Anonymous Pro"
@@ -26,6 +28,7 @@ fonts {
   filename: "AnonymousPro-Bold.ttf"
   post_script_name: "AnonymousPro-Bold"
   full_name: "Anonymous Pro Bold"
+  copyright: "Copyright (c) 2009-2010, Mark Simonson (mark@ms-studio.com). All rights reserved."
 }
 fonts {
   name: "Anonymous Pro"
@@ -34,6 +37,7 @@ fonts {
   filename: "AnonymousPro-BoldItalic.ttf"
   post_script_name: "AnonymousPro-BoldItalic"
   full_name: "Anonymous Pro Bold Italic"
+  copyright: "Copyright (c) 2009-2010, Mark Simonson (mark@ms-studio.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "cyrillic"

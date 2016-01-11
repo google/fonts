@@ -10,6 +10,7 @@ fonts {
   filename: "Laila-Light.ttf"
   post_script_name: "Laila-Light"
   full_name: "Laila Light"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Laila"
@@ -18,6 +19,7 @@ fonts {
   filename: "Laila-Regular.ttf"
   post_script_name: "Laila-Regular"
   full_name: "Laila"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Laila"
@@ -26,6 +28,7 @@ fonts {
   filename: "Laila-Medium.ttf"
   post_script_name: "Laila-Medium"
   full_name: "Laila Medium"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Laila"
@@ -34,6 +37,7 @@ fonts {
   filename: "Laila-Semibold.ttf"
   post_script_name: "Laila-Semibold"
   full_name: "Laila Semibold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Laila"
@@ -42,6 +46,7 @@ fonts {
   filename: "Laila-Bold.ttf"
   post_script_name: "Laila-Bold"
   full_name: "Laila Bold"
+  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

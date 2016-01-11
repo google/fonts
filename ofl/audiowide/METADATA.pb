@@ -10,6 +10,7 @@ fonts {
   filename: "Audiowide-Regular.ttf"
   post_script_name: "Audiowide-Regular"
   full_name: "Audiowide"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Audiowide\""
 }
 subsets: "menu"
 subsets: "latin"

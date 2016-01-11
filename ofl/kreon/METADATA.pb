@@ -10,6 +10,7 @@ fonts {
   filename: "Kreon-Light.ttf"
   post_script_name: "Kreon-Light"
   full_name: "Kreon Light"
+  copyright: "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name \"Kreon\"."
 }
 fonts {
   name: "Kreon"
@@ -18,6 +19,7 @@ fonts {
   filename: "Kreon-Regular.ttf"
   post_script_name: "Kreon-Regular"
   full_name: "Kreon Regular"
+  copyright: "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name \"Kreon\"."
 }
 fonts {
   name: "Kreon"
@@ -26,6 +28,7 @@ fonts {
   filename: "Kreon-Bold.ttf"
   post_script_name: "Kreon-Bold"
   full_name: "Kreon Bold"
+  copyright: "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name \"Kreon\"."
 }
 subsets: "menu"
 subsets: "latin"

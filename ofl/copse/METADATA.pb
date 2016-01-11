@@ -10,6 +10,7 @@ fonts {
   filename: "Copse-Regular.ttf"
   post_script_name: "Copse"
   full_name: "Copse"
+  copyright: "\"Copyright (c) 2010, Daniel Rhatigan (sparky@ultrasparky.org) with Reserved Font Name Copse\""
 }
 subsets: "menu"
 subsets: "latin"

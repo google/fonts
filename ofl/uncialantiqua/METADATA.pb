@@ -10,6 +10,7 @@ fonts {
   filename: "UncialAntiqua-Regular.ttf"
   post_script_name: "UncialAntiqua-Regular"
   full_name: "Uncial Antiqua"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Uncial Antiqua\""
 }
 subsets: "menu"
 subsets: "latin"

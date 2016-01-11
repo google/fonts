@@ -10,6 +10,7 @@ fonts {
   filename: "Ranchers-Regular.ttf"
   post_script_name: "Ranchers-Regular"
   full_name: "Ranchers"
+  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Brenda Gallo. (gbrenda1987@gmail.com), with Reserved Font Name Ranchers."
 }
 subsets: "menu"
 subsets: "latin"

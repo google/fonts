@@ -10,6 +10,7 @@ fonts {
   filename: "PurplePurse-Regular.ttf"
   post_script_name: "PurplePurse-Regular"
   full_name: "Purple Purse"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Purple Purse\""
 }
 subsets: "menu"
 subsets: "latin"

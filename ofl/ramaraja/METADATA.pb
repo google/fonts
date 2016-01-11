@@ -10,6 +10,7 @@ fonts {
   filename: "Ramaraja-Regular.ttf"
   post_script_name: "Ramaraja"
   full_name: "Ramaraja"
+  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name 'Crimson'"
 }
 subsets: "menu"
 subsets: "latin"

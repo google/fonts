@@ -10,6 +10,7 @@ fonts {
   filename: "Engagement-Regular.ttf"
   post_script_name: "Engagement-Regular"
   full_name: "Engagement"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Engagement\""
 }
 subsets: "menu"
 subsets: "latin"

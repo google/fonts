@@ -10,6 +10,7 @@ fonts {
   filename: "AbhayaLibre-Regular.ttf"
   post_script_name: "AbhayaLibre-Regular"
   full_name: "Abhaya Libre"
+  copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
   name: "Abhaya Libre"
@@ -18,6 +19,7 @@ fonts {
   filename: "AbhayaLibre-Medium.ttf"
   post_script_name: "AbhayaLibre-Medium"
   full_name: "Abhaya Libre Medium"
+  copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
   name: "Abhaya Libre"
@@ -26,6 +28,7 @@ fonts {
   filename: "AbhayaLibre-SemiBold.ttf"
   post_script_name: "AbhayaLibre-SemiBold"
   full_name: "Abhaya Libre SemiBold"
+  copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
   name: "Abhaya Libre"
@@ -34,6 +37,7 @@ fonts {
   filename: "AbhayaLibre-Bold.ttf"
   post_script_name: "AbhayaLibre-Bold"
   full_name: "Abhaya Libre Bold"
+  copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
   name: "Abhaya Libre"
@@ -42,6 +46,7 @@ fonts {
   filename: "AbhayaLibre-ExtraBold.ttf"
   post_script_name: "AbhayaLibre-ExtraBold"
   full_name: "Abhaya Libre ExtraBold"
+  copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Biryani-ExtraLight.ttf"
   post_script_name: "Biryani-ExtraLight"
   full_name: "Biryani ExtraLight"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
 }
 fonts {
   name: "Biryani"
@@ -18,6 +19,7 @@ fonts {
   filename: "Biryani-Light.ttf"
   post_script_name: "Biryani-Light"
   full_name: "Biryani Light"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
 }
 fonts {
   name: "Biryani"
@@ -26,6 +28,7 @@ fonts {
   filename: "Biryani-Regular.ttf"
   post_script_name: "Biryani-Regular"
   full_name: "Biryani"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
 }
 fonts {
   name: "Biryani"
@@ -34,6 +37,7 @@ fonts {
   filename: "Biryani-SemiBold.ttf"
   post_script_name: "Biryani-SemiBold"
   full_name: "Biryani SemiBold"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
 }
 fonts {
   name: "Biryani"
@@ -42,6 +46,7 @@ fonts {
   filename: "Biryani-Bold.ttf"
   post_script_name: "Biryani-Bold"
   full_name: "Biryani Bold"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
 }
 fonts {
   name: "Biryani"
@@ -50,6 +55,7 @@ fonts {
   filename: "Biryani-ExtraBold.ttf"
   post_script_name: "Biryani-ExtraBold"
   full_name: "Biryani ExtraBold"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
 }
 fonts {
   name: "Biryani"
@@ -58,6 +64,7 @@ fonts {
   filename: "Biryani-Black.ttf"
   post_script_name: "Biryani-Black"
   full_name: "Biryani Black"
+  copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
 }
 subsets: "menu"
 subsets: "devanagari"

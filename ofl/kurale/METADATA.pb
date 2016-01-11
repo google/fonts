@@ -10,6 +10,7 @@ fonts {
   filename: "Kurale-Regular.ttf"
   post_script_name: "Kurale-Regular"
   full_name: "Kurale"
+  copyright: "Copyright (c) 2013, 2014, 2015 Eduardo Tunni (http://www.tipo.net.ar)"
 }
 subsets: "menu"
 subsets: "cyrillic"

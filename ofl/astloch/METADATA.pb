@@ -10,6 +10,7 @@ fonts {
   filename: "Astloch-Regular.ttf"
   post_script_name: "Astloch"
   full_name: "Astloch"
+  copyright: "Copyright (c) 2010, 2011 Daniel Rhatigan (sparky@ultrasparky.org) with Reserved Font Name Astloch."
 }
 fonts {
   name: "Astloch"
@@ -18,6 +19,7 @@ fonts {
   filename: "Astloch-Bold.ttf"
   post_script_name: "Astloch-Bold"
   full_name: "Astloch Bold"
+  copyright: "Copyright (c) 2010, 2011 Daniel Rhatigan (sparky@ultrasparky.org) with Reserved Font Name Astloch."
 }
 subsets: "menu"
 subsets: "latin"

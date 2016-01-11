@@ -10,6 +10,7 @@ fonts {
   filename: "DidactGothic.ttf"
   post_script_name: "DidactGothic"
   full_name: "Didact Gothic"
+  copyright: "Copyright (c) 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the SIL Open Font License."
 }
 subsets: "menu"
 subsets: "cyrillic"

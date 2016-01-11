@@ -10,6 +10,7 @@ fonts {
   filename: "TitanOne-Regular.ttf"
   post_script_name: "TitanOne"
   full_name: "Titan One"
+  copyright: "Copyright (c) 2011 Rodrigo Fuenzalida (hello@rfuenzalida.com), with Reserved Font Name \"Titan One\""
 }
 subsets: "menu"
 subsets: "latin"

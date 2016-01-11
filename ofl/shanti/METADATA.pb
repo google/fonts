@@ -10,6 +10,7 @@ fonts {
   filename: "Shanti-Regular.ttf"
   post_script_name: "Shanti"
   full_name: "Shanti"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Shanti'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Tienne-Regular.ttf"
   post_script_name: "Tienne-Regular"
   full_name: "Tienne Regular"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
 }
 fonts {
   name: "Tienne"
@@ -18,6 +19,7 @@ fonts {
   filename: "Tienne-Bold.ttf"
   post_script_name: "Tienne-Bold"
   full_name: "Tienne Bold"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
 }
 fonts {
   name: "Tienne"
@@ -26,6 +28,7 @@ fonts {
   filename: "Tienne-Heavy.ttf"
   post_script_name: "Tienne-Heavy"
   full_name: "Tienne Heavy"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Tienne'"
 }
 subsets: "menu"
 subsets: "latin"

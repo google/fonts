@@ -10,6 +10,7 @@ fonts {
   filename: "EncodeSansWide-Thin.ttf"
   post_script_name: "EncodeSansWide-Thin"
   full_name: "Encode Sans Wide Thin"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Wide"
@@ -18,6 +19,7 @@ fonts {
   filename: "EncodeSansWide-ExtraLight.ttf"
   post_script_name: "EncodeSansWide-ExtraLight"
   full_name: "Encode Sans Wide ExtraLight"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Wide"
@@ -26,6 +28,7 @@ fonts {
   filename: "EncodeSansWide-Light.ttf"
   post_script_name: "EncodeSansWide-Light"
   full_name: "Encode Sans Wide Light"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Wide"
@@ -34,6 +37,7 @@ fonts {
   filename: "EncodeSansWide-Regular.ttf"
   post_script_name: "EncodeSansWide-Regular"
   full_name: "Encode Sans Wide"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Wide"
@@ -42,6 +46,7 @@ fonts {
   filename: "EncodeSansWide-Medium.ttf"
   post_script_name: "EncodeSansWide-Medium"
   full_name: "Encode Sans Wide Medium"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Wide"
@@ -50,6 +55,7 @@ fonts {
   filename: "EncodeSansWide-SemiBold.ttf"
   post_script_name: "EncodeSansWide-SemiBold"
   full_name: "Encode Sans Wide SemiBold"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Wide"
@@ -58,6 +64,7 @@ fonts {
   filename: "EncodeSansWide-Bold.ttf"
   post_script_name: "EncodeSansWide-Bold"
   full_name: "Encode Sans Wide Bold"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Wide"
@@ -66,6 +73,7 @@ fonts {
   filename: "EncodeSansWide-ExtraBold.ttf"
   post_script_name: "EncodeSansWide-ExtraBold"
   full_name: "Encode Sans Wide ExtraBold"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 fonts {
   name: "Encode Sans Wide"
@@ -74,6 +82,7 @@ fonts {
   filename: "EncodeSansWide-Black.ttf"
   post_script_name: "EncodeSansWide-Black"
   full_name: "Encode Sans Wide Black"
+  copyright: "Copyright (c) 2012, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans."
 }
 subsets: "menu"
 subsets: "latin"

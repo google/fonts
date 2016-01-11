@@ -10,6 +10,7 @@ fonts {
   filename: "Galdeano-Regular.ttf"
   post_script_name: "Galdeano-Regular"
   full_name: "Galdeano Regular"
+  copyright: "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Galdeano\"."
 }
 subsets: "menu"
 subsets: "latin"

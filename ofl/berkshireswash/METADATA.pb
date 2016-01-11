@@ -10,6 +10,7 @@ fonts {
   filename: "BerkshireSwash-Regular.ttf"
   post_script_name: "BerkshireSwash-Regular"
   full_name: "Berkshire Swash"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Berkshire Swash\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Tinos-Regular.ttf"
   post_script_name: "Tinos"
   full_name: "Tinos"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
   name: "Tinos"
@@ -18,6 +19,7 @@ fonts {
   filename: "Tinos-Italic.ttf"
   post_script_name: "Tinos-Italic"
   full_name: "Tinos Italic"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
   name: "Tinos"
@@ -26,6 +28,7 @@ fonts {
   filename: "Tinos-Bold.ttf"
   post_script_name: "Tinos-Bold"
   full_name: "Tinos Bold"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
   name: "Tinos"
@@ -34,6 +37,7 @@ fonts {
   filename: "Tinos-BoldItalic.ttf"
   post_script_name: "Tinos-BoldItalic"
   full_name: "Tinos Bold Italic"
+  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 subsets: "menu"
 subsets: "cyrillic"

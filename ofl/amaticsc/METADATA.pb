@@ -10,6 +10,7 @@ fonts {
   filename: "AmaticSC-Regular.ttf"
   post_script_name: "AmaticSC-Regular"
   full_name: "Amatic SC"
+  copyright: "Copyright 2011, 2015 vernon adams (vern@newtypography.co.uk)"
 }
 fonts {
   name: "Amatic SC"
@@ -18,6 +19,7 @@ fonts {
   filename: "AmaticSC-Bold.ttf"
   post_script_name: "AmaticSC-Bold"
   full_name: "Amatic SC Bold"
+  copyright: "Copyright 2011, 2015 vernon adams (vern@newtypography.co.uk)"
 }
 subsets: "menu"
 subsets: "latin"

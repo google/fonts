@@ -10,6 +10,7 @@ fonts {
   filename: "Voltaire-Regular.ttf"
   post_script_name: "Voltaire"
   full_name: "Voltaire"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Voltaire\" and \"Voltaire One\"."
 }
 subsets: "menu"
 subsets: "latin"

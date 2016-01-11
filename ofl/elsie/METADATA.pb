@@ -10,6 +10,7 @@ fonts {
   filename: "Elsie-Regular.ttf"
   post_script_name: "Elsie-Regular"
   full_name: "Elsie"
+  copyright: "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Elsie'"
 }
 fonts {
   name: "Elsie"
@@ -18,6 +19,7 @@ fonts {
   filename: "Elsie-Black.ttf"
   post_script_name: "ElsieBlack-Regular"
   full_name: "Elsie Black"
+  copyright: "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Elsie'"
 }
 subsets: "menu"
 subsets: "latin"

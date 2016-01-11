@@ -10,6 +10,7 @@ fonts {
   filename: "Miltonian-Regular.ttf"
   post_script_name: "Miltonian-Regular"
   full_name: "Miltonian"
+  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

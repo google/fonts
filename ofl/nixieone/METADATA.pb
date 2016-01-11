@@ -10,6 +10,7 @@ fonts {
   filename: "NixieOne-Regular.ttf"
   post_script_name: "NixieOne-Regular"
   full_name: "Nixie One"
+  copyright: "Copyright (c) 2011, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name \"Nixie\""
 }
 subsets: "menu"
 subsets: "latin"

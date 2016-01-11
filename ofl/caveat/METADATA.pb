@@ -10,6 +10,7 @@ fonts {
   filename: "Caveat-Regular.ttf"
   post_script_name: "Caveat-Regular"
   full_name: "Caveat"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 fonts {
   name: "Caveat"
@@ -18,6 +19,7 @@ fonts {
   filename: "Caveat-Bold.ttf"
   post_script_name: "Caveat-Bold"
   full_name: "Caveat Bold"
+  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "latin"

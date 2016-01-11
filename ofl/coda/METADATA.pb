@@ -10,6 +10,7 @@ fonts {
   filename: "Coda-Regular.ttf"
   post_script_name: "Coda-Regular"
   full_name: "Coda"
+  copyright: "Copyright (c) 2010-2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Coda\""
 }
 fonts {
   name: "Coda"
@@ -18,6 +19,7 @@ fonts {
   filename: "Coda-Heavy.ttf"
   post_script_name: "Coda-Heavy"
   full_name: "Coda Heavy"
+  copyright: "Copyright (c) 2010-2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Coda\""
 }
 subsets: "menu"
 subsets: "latin"

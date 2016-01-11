@@ -10,6 +10,7 @@ fonts {
   filename: "AdventPro-Thin.ttf"
   post_script_name: "AdventPro-Thin"
   full_name: "Advent Pro Thin"
+  copyright: "Copyright (c) 2008 Andreas Kalpakidis (hello@inderesting.com), with Reserved Font Name \"Advent Pro\""
 }
 fonts {
   name: "Advent Pro"
@@ -18,6 +19,7 @@ fonts {
   filename: "AdventPro-ExtraLight.ttf"
   post_script_name: "AdventPro-ExtraLight"
   full_name: "Advent Pro ExtraLight"
+  copyright: "Copyright (c) 2008 Andreas Kalpakidis (hello@inderesting.com), with Reserved Font Name \"Advent Pro\""
 }
 fonts {
   name: "Advent Pro"
@@ -26,6 +28,7 @@ fonts {
   filename: "AdventPro-Light.ttf"
   post_script_name: "AdventPro-Light"
   full_name: "Advent Pro Light"
+  copyright: "Copyright (c) 2008 Andreas Kalpakidis (hello@inderesting.com), with Reserved Font Name \"Advent Pro\""
 }
 fonts {
   name: "Advent Pro"
@@ -34,6 +37,7 @@ fonts {
   filename: "AdventPro-Regular.ttf"
   post_script_name: "AdventPro-Regular"
   full_name: "Advent Pro Regular"
+  copyright: "Copyright (c) 2008 Andreas Kalpakidis (hello@inderesting.com), with Reserved Font Name \"Advent Pro\""
 }
 fonts {
   name: "Advent Pro"
@@ -42,6 +46,7 @@ fonts {
   filename: "AdventPro-Medium.ttf"
   post_script_name: "AdventPro-Medium"
   full_name: "Advent Pro Medium"
+  copyright: "Copyright (c) 2008 Andreas Kalpakidis (hello@inderesting.com), with Reserved Font Name \"Advent Pro\""
 }
 fonts {
   name: "Advent Pro"
@@ -50,6 +55,7 @@ fonts {
   filename: "AdventPro-SemiBold.ttf"
   post_script_name: "AdventPro-SemiBold"
   full_name: "Advent Pro SemiBold"
+  copyright: "Copyright (c) 2008 Andreas Kalpakidis (hello@inderesting.com), with Reserved Font Name \"Advent Pro\""
 }
 fonts {
   name: "Advent Pro"
@@ -58,6 +64,7 @@ fonts {
   filename: "AdventPro-Bold.ttf"
   post_script_name: "AdventPro-Bold"
   full_name: "Advent Pro Bold"
+  copyright: "Copyright (c) 2008 Andreas Kalpakidis (hello@inderesting.com), with Reserved Font Name \"Advent Pro\""
 }
 subsets: "menu"
 subsets: "greek"

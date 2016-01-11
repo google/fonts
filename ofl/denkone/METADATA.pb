@@ -10,6 +10,7 @@ fonts {
   filename: "DenkOne-Regular.ttf"
   post_script_name: "DenkOne-Regular"
   full_name: "Denk One"
+  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Denk'"
 }
 subsets: "menu"
 subsets: "latin"

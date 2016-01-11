@@ -10,6 +10,7 @@ fonts {
   filename: "RacingSansOne-Regular.ttf"
   post_script_name: "RacingSansOne-Regular"
   full_name: "Racing Sans One"
+  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com) and Rodrigo Fuenzalida (www.rfuenzalida.com), with Reserved Font Name Racing Sans."
 }
 subsets: "menu"
 subsets: "latin"

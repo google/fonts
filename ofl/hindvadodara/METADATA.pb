@@ -10,6 +10,7 @@ fonts {
   filename: "HindVadodara-Light.ttf"
   post_script_name: "HindVadodara-Light"
   full_name: "Hind Vadodara Light"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Vadodara"
@@ -18,6 +19,7 @@ fonts {
   filename: "HindVadodara-Regular.ttf"
   post_script_name: "HindVadodara-Regular"
   full_name: "Hind Vadodara"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Vadodara"
@@ -26,6 +28,7 @@ fonts {
   filename: "HindVadodara-Medium.ttf"
   post_script_name: "HindVadodara-Medium"
   full_name: "Hind Vadodara Medium"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Vadodara"
@@ -34,6 +37,7 @@ fonts {
   filename: "HindVadodara-SemiBold.ttf"
   post_script_name: "HindVadodara-SemiBold"
   full_name: "Hind Vadodara SemiBold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Hind Vadodara"
@@ -42,6 +46,7 @@ fonts {
   filename: "HindVadodara-Bold.ttf"
   post_script_name: "HindVadodara-Bold"
   full_name: "Hind Vadodara Bold"
+  copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 subsets: "menu"
 subsets: "gujarati"

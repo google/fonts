@@ -10,6 +10,7 @@ fonts {
   filename: "Chango-Regular.ttf"
   post_script_name: "Chango-Regular"
   full_name: "Chango Regular"
+  copyright: "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Chango\""
 }
 subsets: "menu"
 subsets: "latin"

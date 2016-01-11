@@ -10,6 +10,7 @@ fonts {
   filename: "Dorsa-Regular.ttf"
   post_script_name: "Dorsa-Regular"
   full_name: "Dorsa"
+  copyright: "Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved Font Name \"Dorsa\""
 }
 subsets: "menu"
 subsets: "latin"

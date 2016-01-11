@@ -10,6 +10,7 @@ fonts {
   filename: "Unlock-Regular.ttf"
   post_script_name: "Unlock-Regular"
   full_name: "Unlock Regular"
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Unlock\""
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "Ewert-Regular.ttf"
   post_script_name: "Ewert-Regular"
   full_name: "Ewert"
+  copyright: "Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright (c) 2011 Mihkel Virkus (mihkelvirkus@gmail.com) with Reserved Font Name Ewert."
 }
 subsets: "menu"
 subsets: "latin"

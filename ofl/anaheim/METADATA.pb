@@ -10,6 +10,7 @@ fonts {
   filename: "Anaheim-Regular.ttf"
   post_script_name: "Anaheim-Regular"
   full_name: "Anaheim"
+  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Anaheim'"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "DawningofaNewDay.ttf"
   post_script_name: "DawningofaNewDay"
   full_name: "Dawning of a New Day"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

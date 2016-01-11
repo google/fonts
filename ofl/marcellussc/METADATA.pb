@@ -10,6 +10,7 @@ fonts {
   filename: "MarcellusSC-Regular.ttf"
   post_script_name: "MarcellusSC-Regular"
   full_name: "Marcellus SC"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Marcellus\""
 }
 subsets: "menu"
 subsets: "latin"

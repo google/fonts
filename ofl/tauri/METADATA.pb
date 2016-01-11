@@ -10,6 +10,7 @@ fonts {
   filename: "Tauri-Regular.ttf"
   post_script_name: "Tauri-Regular"
   full_name: "Tauri Regular"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Tauri'."
 }
 subsets: "menu"
 subsets: "latin"

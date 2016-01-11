@@ -10,6 +10,7 @@ fonts {
   filename: "GochiHand-Regular.ttf"
   post_script_name: "GochiHand-Regular"
   full_name: "Gochi Hand"
+  copyright: "Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Names \"Gochi\" and \"Gochi Hand\""
 }
 subsets: "menu"
 subsets: "latin"

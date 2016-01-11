@@ -10,6 +10,7 @@ fonts {
   filename: "TerminalDosis-Light.ttf"
   post_script_name: "TerminalDosis-Light"
   full_name: "Terminal Dosis Light"
+  copyright: "Copyright (c) 2011 by Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

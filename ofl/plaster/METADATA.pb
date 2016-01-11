@@ -10,6 +10,7 @@ fonts {
   filename: "Plaster-Regular.ttf"
   post_script_name: "Plaster-Regular"
   full_name: "Plaster"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Plaster\""
 }
 subsets: "menu"
 subsets: "latin"

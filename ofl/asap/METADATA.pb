@@ -10,6 +10,7 @@ fonts {
   filename: "Asap-Regular.ttf"
   post_script_name: "Asap-Regular"
   full_name: "Asap"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \"Asap\"."
 }
 fonts {
   name: "Asap"
@@ -18,6 +19,7 @@ fonts {
   filename: "Asap-Italic.ttf"
   post_script_name: "Asap-Italic"
   full_name: "Asap Italic"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \"Asap\"."
 }
 fonts {
   name: "Asap"
@@ -26,6 +28,7 @@ fonts {
   filename: "Asap-Bold.ttf"
   post_script_name: "Asap-Bold"
   full_name: "Asap Bold"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \"Asap\"."
 }
 fonts {
   name: "Asap"
@@ -34,6 +37,7 @@ fonts {
   filename: "Asap-BoldItalic.ttf"
   post_script_name: "Asap-BoldItalic"
   full_name: "Asap Bold Italic"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \"Asap\"."
 }
 subsets: "menu"
 subsets: "latin"

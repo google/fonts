@@ -10,6 +10,7 @@ fonts {
   filename: "CoveredByYourGrace.ttf"
   post_script_name: "CoveredByYourGrace"
   full_name: "Covered By Your Grace"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
 subsets: "menu"
 subsets: "latin"

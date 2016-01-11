@@ -10,6 +10,7 @@ fonts {
   filename: "Sarala-Regular.ttf"
   post_script_name: "Sarala-Regular"
   full_name: "Sarala"
+  copyright: "Copyright 2015 by Andres Torresi. All rights reserved."
 }
 fonts {
   name: "Sarala"
@@ -18,6 +19,7 @@ fonts {
   filename: "Sarala-Bold.ttf"
   post_script_name: "Sarala-Bold"
   full_name: "Sarala Bold"
+  copyright: "Copyright 2015 by Andres Torresi. All rights reserved."
 }
 subsets: "menu"
 subsets: "devanagari"

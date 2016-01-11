@@ -10,6 +10,7 @@ fonts {
   filename: "LibreBaskerville-Regular.ttf"
   post_script_name: "LibreBaskerville-Regular"
   full_name: "Libre Baskerville"
+  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Baskerville."
 }
 fonts {
   name: "Libre Baskerville"
@@ -18,6 +19,7 @@ fonts {
   filename: "LibreBaskerville-Italic.ttf"
   post_script_name: "LibreBaskerville-Italic"
   full_name: "Libre Baskerville Italic"
+  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Baskerville."
 }
 fonts {
   name: "Libre Baskerville"
@@ -26,6 +28,7 @@ fonts {
   filename: "LibreBaskerville-Bold.ttf"
   post_script_name: "LibreBaskerville-Bold"
   full_name: "Libre Baskerville Bold"
+  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Baskerville."
 }
 subsets: "menu"
 subsets: "latin"

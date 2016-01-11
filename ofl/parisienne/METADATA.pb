@@ -10,6 +10,7 @@ fonts {
   filename: "Parisienne-Regular.ttf"
   post_script_name: "Parisienne-Regular"
   full_name: "Parisienne"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Parisienne\""
 }
 subsets: "menu"
 subsets: "latin"

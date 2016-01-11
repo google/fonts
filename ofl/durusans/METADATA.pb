@@ -10,6 +10,7 @@ fonts {
   filename: "DuruSans-Regular.ttf"
   post_script_name: "DuruSans-Regular"
   full_name: "Duru Sans"
+  copyright: "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name Duru."
 }
 subsets: "menu"
 subsets: "latin"

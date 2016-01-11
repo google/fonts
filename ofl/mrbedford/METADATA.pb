@@ -10,6 +10,7 @@ fonts {
   filename: "MrBedfort-Regular.ttf"
   post_script_name: "MrBedfort-Regular"
   full_name: "Mr Bedfort Regular"
+  copyright: "Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mr Bedfort\""
 }
 subsets: "menu"
 subsets: "latin"

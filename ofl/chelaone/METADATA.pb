@@ -10,6 +10,7 @@ fonts {
   filename: "ChelaOne-Regular.ttf"
   post_script_name: "ChelaOne-Regular"
   full_name: "Chela One"
+  copyright: "Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Chela'"
 }
 subsets: "menu"
 subsets: "latin"

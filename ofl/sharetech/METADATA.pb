@@ -10,6 +10,7 @@ fonts {
   filename: "ShareTech-Regular.ttf"
   post_script_name: "ShareTech-Regular"
   full_name: "Share Tech"
+  copyright: "Copyright (c) 2012, Carrois Type Design, Ralph du Carrois (www.carrois.com post@carrois.com), with Reserved Font Name 'Share'"
 }
 subsets: "menu"
 subsets: "latin"

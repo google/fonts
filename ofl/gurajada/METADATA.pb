@@ -10,6 +10,7 @@ fonts {
   filename: "Gurajada-Regular.ttf"
   post_script_name: "Gurajada"
   full_name: "Gurajada"
+  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org)"
 }
 subsets: "menu"
 subsets: "latin"

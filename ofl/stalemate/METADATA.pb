@@ -10,6 +10,7 @@ fonts {
   filename: "Stalemate-Regular.ttf"
   post_script_name: "Stalemate-Regular"
   full_name: "Stalemate"
+  copyright: "Copyright (c) 2012 by Jim Lyles for Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Stalemate'"
 }
 subsets: "menu"
 subsets: "latin"

@@ -10,6 +10,7 @@ fonts {
   filename: "MartelSans-ExtraLight.ttf"
   post_script_name: "MartelSans-ExtraLight"
   full_name: "Martel Sans ExtraLight"
+  copyright: "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
 }
 fonts {
   name: "Martel Sans"
@@ -18,6 +19,7 @@ fonts {
   filename: "MartelSans-Light.ttf"
   post_script_name: "MartelSans-Light"
   full_name: "Martel Sans Light"
+  copyright: "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
 }
 fonts {
   name: "Martel Sans"
@@ -26,6 +28,7 @@ fonts {
   filename: "MartelSans-Regular.ttf"
   post_script_name: "MartelSans-Regular"
   full_name: "Martel Sans"
+  copyright: "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
 }
 fonts {
   name: "Martel Sans"
@@ -34,6 +37,7 @@ fonts {
   filename: "MartelSans-SemiBold.ttf"
   post_script_name: "MartelSans-SemiBold"
   full_name: "Martel Sans SemiBold"
+  copyright: "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
 }
 fonts {
   name: "Martel Sans"
@@ -42,6 +46,7 @@ fonts {
   filename: "MartelSans-Bold.ttf"
   post_script_name: "MartelSans-Bold"
   full_name: "Martel Sans Bold"
+  copyright: "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
 }
 fonts {
   name: "Martel Sans"
@@ -50,6 +55,7 @@ fonts {
   filename: "MartelSans-ExtraBold.ttf"
   post_script_name: "MartelSans-ExtraBold"
   full_name: "Martel Sans ExtraBold"
+  copyright: "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
 }
 fonts {
   name: "Martel Sans"
@@ -58,6 +64,7 @@ fonts {
   filename: "MartelSans-Black.ttf"
   post_script_name: "MartelSans-Black"
   full_name: "Martel Sans Black"
+  copyright: "Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Reguer."
 }
 subsets: "menu"
 subsets: "devanagari"

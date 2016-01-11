@@ -10,6 +10,7 @@ fonts {
   filename: "Cambay-Regular.ttf"
   post_script_name: "Cambay-Regular"
   full_name: "Cambay"
+  copyright: "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
 }
 fonts {
   name: "Cambay"
@@ -18,6 +19,7 @@ fonts {
   filename: "Cambay-Italic.ttf"
   post_script_name: "Cambay-Italic"
   full_name: "Cambay Italic"
+  copyright: "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
 }
 fonts {
   name: "Cambay"
@@ -26,6 +28,7 @@ fonts {
   filename: "Cambay-Bold.ttf"
   post_script_name: "Cambay-Bold"
   full_name: "Cambay Bold"
+  copyright: "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
 }
 fonts {
   name: "Cambay"
@@ -34,6 +37,7 @@ fonts {
   filename: "Cambay-BoldItalic.ttf"
   post_script_name: "Cambay-BoldItalic"
   full_name: "Cambay Bold Italic"
+  copyright: "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
 }
 subsets: "menu"
 subsets: "devanagari"

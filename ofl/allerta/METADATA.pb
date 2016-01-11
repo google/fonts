@@ -10,6 +10,7 @@ fonts {
   filename: "Allerta-Regular.ttf"
   post_script_name: "Allerta-Regular"
   full_name: "Allerta Regular"
+  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
 }
 subsets: "menu"
 subsets: "latin"

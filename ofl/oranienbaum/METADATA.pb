@@ -10,6 +10,7 @@ fonts {
   filename: "Oranienbaum-Regular.ttf"
   post_script_name: "Oranienbaum-Regular"
   full_name: "Oranienbaum"
+  copyright: "Copyright (c) 2012, Oleg Pospelov (oleg@pospelov.com), Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Oranienbaum'"
 }
 subsets: "menu"
 subsets: "cyrillic"

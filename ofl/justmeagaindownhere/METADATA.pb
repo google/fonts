@@ -10,6 +10,7 @@ fonts {
   filename: "JustMeAgainDownHere.ttf"
   post_script_name: "JustMeAgainDownHere"
   full_name: "Just Me Again Down Here"
+  copyright: "Copyright (c) 2011 by Kimberly Geswein (kimberlygeswein@gmail.com). All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

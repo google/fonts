@@ -10,5 +10,6 @@ fonts {
   filename: "NotoSansSymbols-Regular.ttf"
   post_script_name: "NotoSansSymbols"
   full_name: "Noto Sans Symbols"
+  copyright: "Copyright 2013 Google Inc. All Rights Reserved."
 }
 subsets: "*"

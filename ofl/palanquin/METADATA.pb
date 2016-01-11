@@ -10,6 +10,7 @@ fonts {
   filename: "Palanquin-Thin.ttf"
   post_script_name: "Palanquin-Thin"
   full_name: "Palanquin Thin"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Palanquin"
@@ -18,6 +19,7 @@ fonts {
   filename: "Palanquin-ExtraLight.ttf"
   post_script_name: "Palanquin-ExtraLight"
   full_name: "Palanquin ExtraLight"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Palanquin"
@@ -26,6 +28,7 @@ fonts {
   filename: "Palanquin-Light.ttf"
   post_script_name: "Palanquin-Light"
   full_name: "Palanquin Light"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Palanquin"
@@ -34,6 +37,7 @@ fonts {
   filename: "Palanquin-Regular.ttf"
   post_script_name: "Palanquin-Regular"
   full_name: "Palanquin Regular"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Palanquin"
@@ -42,6 +46,7 @@ fonts {
   filename: "Palanquin-Medium.ttf"
   post_script_name: "Palanquin-Medium"
   full_name: "Palanquin Medium"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Palanquin"
@@ -50,6 +55,7 @@ fonts {
   filename: "Palanquin-SemiBold.ttf"
   post_script_name: "Palanquin-SemiBold"
   full_name: "Palanquin SemiBold"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
   name: "Palanquin"
@@ -58,6 +64,7 @@ fonts {
   filename: "Palanquin-Bold.ttf"
   post_script_name: "Palanquin-Bold"
   full_name: "Palanquin Bold"
+  copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 subsets: "menu"
 subsets: "devanagari"

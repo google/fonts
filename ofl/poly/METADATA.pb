@@ -10,6 +10,7 @@ fonts {
   filename: "Poly-Regular.ttf"
   post_script_name: "Poly-Regular"
   full_name: "Poly-Regular"
+  copyright: "Copyright (c) 2010 by Jos Nicols Silva Schwarzenberg.<info@nsilva.com>, with Reserved Font Names \"Poly\"."
 }
 fonts {
   name: "Poly"
@@ -18,6 +19,7 @@ fonts {
   filename: "Poly-Italic.ttf"
   post_script_name: "Poly-Italic"
   full_name: "Poly-Italic"
+  copyright: "Copyright (c) 2010 by Jos Nicols Silva Schwarzenberg.<info@nsilva.com>, with Reserved Font Names \"Poly\"."
 }
 subsets: "menu"
 subsets: "latin"

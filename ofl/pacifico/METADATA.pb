@@ -10,6 +10,7 @@ fonts {
   filename: "Pacifico.ttf"
   post_script_name: "Pacifico-Regular"
   full_name: "Pacifico Regular"
+  copyright: "Copyright (c) 2011 by Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Pacifico'. All rights reserved."
 }
 subsets: "menu"
 subsets: "latin"

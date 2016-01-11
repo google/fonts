@@ -10,6 +10,7 @@ fonts {
   filename: "JotiOne-Regular.ttf"
   post_script_name: "JotiOne-Regular"
   full_name: "Joti One"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Joti'"
 }
 subsets: "menu"
 subsets: "latin"

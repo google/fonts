@@ -10,6 +10,7 @@ fonts {
   filename: "Jura-Light.ttf"
   post_script_name: "Jura-Light"
   full_name: "Jura Light"
+  copyright: "Copyright 2009, 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the Open Font License v1.1."
 }
 fonts {
   name: "Jura"
@@ -18,6 +19,7 @@ fonts {
   filename: "Jura-Regular.ttf"
   post_script_name: "Jura-Regular"
   full_name: "Jura Regular"
+  copyright: "Copyright 2009, 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the Open Font License v1.1."
 }
 fonts {
   name: "Jura"
@@ -26,6 +28,7 @@ fonts {
   filename: "Jura-Medium.ttf"
   post_script_name: "Jura-Medium"
   full_name: "Jura Medium"
+  copyright: "Copyright 2009, 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the Open Font License v1.1."
 }
 fonts {
   name: "Jura"
@@ -34,6 +37,7 @@ fonts {
   filename: "Jura-DemiBold.ttf"
   post_script_name: "Jura-DemiBold"
   full_name: "Jura DemiBold"
+  copyright: "Copyright 2009, 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com). Released under the terms of the Open Font License."
 }
 subsets: "menu"
 subsets: "cyrillic"

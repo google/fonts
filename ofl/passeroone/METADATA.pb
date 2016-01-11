@@ -10,6 +10,7 @@ fonts {
   filename: "PasseroOne-Regular.ttf"
   post_script_name: "PasseroOne-Regular"
   full_name: "Passero One"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Passero\""
 }
 subsets: "menu"
 subsets: "latin"

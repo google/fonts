@@ -10,6 +10,7 @@ fonts {
   filename: "NanumMyeongjo-Regular.ttf"
   post_script_name: "NanumMyeongjo"
   full_name: "NanumMyeongjo"
+  copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
 }
 fonts {
   name: "Nanum Myeongjo"
@@ -18,6 +19,7 @@ fonts {
   filename: "NanumMyeongjo-Bold.ttf"
   post_script_name: "NanumMyeongjoBold"
   full_name: "NanumMyeongjoBold"
+  copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
 }
 fonts {
   name: "Nanum Myeongjo"
@@ -26,6 +28,7 @@ fonts {
   filename: "NanumMyeongjo-ExtraBold.ttf"
   post_script_name: "NanumMyeongjoExtraBold"
   full_name: "NanumMyeongjoExtraBold"
+  copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
 }
 subsets: "menu"
 subsets: "korean"

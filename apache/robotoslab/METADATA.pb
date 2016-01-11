@@ -10,6 +10,7 @@ fonts {
   filename: "RobotoSlab-Thin.ttf"
   post_script_name: "RobotoSlab-Thin"
   full_name: "Roboto Slab Thin"
+  copyright: "Font data copyright Google 2013"
 }
 fonts {
   name: "Roboto Slab"
@@ -18,6 +19,7 @@ fonts {
   filename: "RobotoSlab-Light.ttf"
   post_script_name: "RobotoSlab-Light"
   full_name: "Roboto Slab Light"
+  copyright: "Font data copyright Google 2013"
 }
 fonts {
   name: "Roboto Slab"
@@ -26,6 +28,7 @@ fonts {
   filename: "RobotoSlab-Regular.ttf"
   post_script_name: "RobotoSlab-Regular"
   full_name: "Roboto Slab Regular"
+  copyright: "Font data copyright Google 2013"
 }
 fonts {
   name: "Roboto Slab"
@@ -34,6 +37,7 @@ fonts {
   filename: "RobotoSlab-Bold.ttf"
   post_script_name: "RobotoSlab-Bold"
   full_name: "Roboto Slab Bold"
+  copyright: "Font data copyright Google 2013"
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -1,6 +1,6 @@
 name: "Noto Serif"
 designer: "Google"
-license: "APACHE2"
+license: "OFL"
 category: "SERIF"
 date_added: "2013-02-27"
 fonts {

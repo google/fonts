@@ -17,6 +17,12 @@ To contribute to the project contact Pablo Impallari at impallari@gmail.com
 
 ChangeLog
 
+11 Jan 2016 (Dave Crossland) Cabin v1.007
+- Edited TTF tables with TTX to fix NAME table and update OFL.txt
+
+06 Jan 2016 (Pablo Impallari) Cabin v1.005
+- Regenerated to pass the OpenType Sanitizer
+
 21 Mar 2011 (Pablo Impallari & Igino Marini) Cabin v1.005
 - Added Italics for Regular, Medium, SemiBold & Bold weights.
 

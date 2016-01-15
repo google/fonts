@@ -2,7 +2,7 @@ name: "Abhaya Libre"
 designer: "Mooniak"
 license: "OFL"
 category: "SERIF"
-date_added: "2015-09-16"
+date_added: "2016-01-20"
 fonts {
   name: "Abhaya Libre"
   style: "normal"

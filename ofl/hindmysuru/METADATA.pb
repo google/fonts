@@ -2,7 +2,7 @@ name: "Hind Mysuru"
 designer: "Indian Type Foundry"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2015-09-16"
+date_added: "2016-01-20"
 fonts {
   name: "Hind Mysuru"
   style: "normal"

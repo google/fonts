@@ -2,7 +2,7 @@ name: "Hind Colombo"
 designer: "Indian Type Foundry"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2016-01-14"
+date_added: "2016-01-20"
 fonts {
   name: "Hind Colombo"
   style: "normal"

@@ -21,7 +21,7 @@ flags.DEFINE_boolean('check_metadata', True, 'Whether to check METADATA values')
 flags.DEFINE_boolean('check_font', True, 'Whether to check font values')
 flags.DEFINE_string('repair_script', None, 'Where to write a repair script')
 _FIX_TYPE_OPTS = ['all', 'name', 'filename', 'postScriptName', 'fullName',
-                  'fsSelection', 'fsType', 'usWeightClass']
+                  'fsSelection', 'fsType', 'usWeightClass', 'emptyGlyphLSB']
 flags.DEFINE_multistring('fix_type', 'all',
                          'What types of problems should be fixed by '
                          'repair_script. Choices: ' + ', '.join(_FIX_TYPE_OPTS))
@@ -238,6 +238,14 @@ def _FixMissingNameRecord(friendly_name, name_id, expected):
               name_id, friendly_name, expected))
 
 
+def _FixEmptyGlyphLsb(glyph_name):
+  if not _ShouldFix('emptyGlyphLSB'):
+    return None
+
+  return 'ttf[\'hmtx\'][\'%s\'] = [ttf[\'hmtx\'][\'%s\'][0], 0]\n' % (
+      glyph_name, glyph_name)
+
+
 def _CheckFontOS2Values(path, font, ttf):
   """Check sanity of values hidden in the 'OS/2' table.
 
@@ -266,7 +274,6 @@ def _CheckFontOS2Values(path, font, ttf):
   marked_italic = 'ITALIC' in fs_selection_flags
   marked_bold = 'BOLD' in fs_selection_flags
 
-  # fsSelection flags (see thread http://shortn/_FEOPPU691a)
   expect_italic = _IsItalic(expected_style)
   expect_bold = _IsBold(expected_weight)
   # Per Dave C, we should NEVER set oblique, use 0 for italic
@@ -359,6 +366,32 @@ def _CheckFontNameValues(path, name, font, ttf):
   return results
 
 
+def _CheckLSB0ForEmptyGlyphs(path, font, ttf):
+  """Checks if font has empty (loca[n] == loca[n+1]) glyphs that have non-0 lsb.
+
+  There is no reason to set such lsb's.
+
+  Args:
+    path: Path to directory containing font.
+    font: A font record from a METADATA.pb.
+    ttf: A fontTools.ttLib.TTFont for the font.
+  Returns:
+    A list of ResultMessageTuple for tests performed.
+  """
+  results = []
+  if 'loca' not in ttf:
+    return results
+  for glyph_index, glyph_name in enumerate(ttf.getGlyphOrder()):
+    is_empty = ttf['loca'][glyph_index] == ttf['loca'][glyph_index + 1]
+    lsb = ttf['hmtx'][glyph_name][1]
+    if is_empty and lsb != 0:
+      results.append(_SadResult(
+          '%s %s/%d [\'hmtx\'][\'%s\'][1] (lsb) should be 0 but is %d' %
+          (font.name, font.style, font.weight, glyph_name, lsb),
+          os.path.join(path, font.filename), _FixEmptyGlyphLsb(glyph_name)))
+  return results
+
+
 def _CheckFontInternalValues(path):
   """Validates fonts internal metadata matches METADATA.pb values.
 
@@ -379,6 +412,7 @@ def _CheckFontInternalValues(path):
     with contextlib.closing(ttLib.TTFont(os.path.join(path, font_file))) as ttf:
       results.extend(_CheckFontOS2Values(path, font, ttf))
       results.extend(_CheckFontNameValues(path, name, font, ttf))
+      results.extend(_CheckLSB0ForEmptyGlyphs(path, font, ttf))
 
   return results
 

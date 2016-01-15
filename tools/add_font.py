@@ -85,7 +85,9 @@ def _MakeMetadata(fontdir):
     font_metadata.weight = weight
     font_metadata.filename = filename
     font_metadata.post_script_name = font_psname
-    font_metadata.full_name = os.path.splitext(filename)[0].replace('-', ' ')
+    default_fullname = os.path.splitext(filename)[0].replace('-', ' ')
+    font_metadata.full_name = fonts.ExtractName(fontfile, fonts.NAME_FULLNAME,
+                                                default_fullname)
     font_metadata.copyright = font_copyright
 
   return metadata
@@ -126,7 +128,7 @@ def main(argv):
 
   desc = os.path.join(fontdir, 'DESCRIPTION.en_us.html')
   if os.path.isfile(desc):
-    print "DESCRIPTION.en_us.html exists"
+    print 'DESCRIPTION.en_us.html exists'
   else:
     _WriteTextFile(os.path.join(fontdir, desc), 'N/A')
 

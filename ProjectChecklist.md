@@ -128,6 +128,7 @@ Create a `.gitignore` file to prevent these being casually commited to the repo.
  
 After the build process you will have OTF and TTF files, which must be included in the repo but only as TTX files. 
 This enables the differences in binaries to be reviewed, and disincentivises development binaries from wider use.
+Actual OTF and TTF files should be included in a ZIP and attached to a Github Release (see below.)
 
 ## Pre-Production
 
@@ -242,6 +243,9 @@ It would be good to have some note in the version string where possible like 'de
 * https://github.com/blog/1547-release-your-software
 * https://help.github.com/articles/about-releases/
 * https://help.github.com/articles/creating-releases/
+
+The attached ZIP should contain the README, OFL, FONTLOG and binary font files. 
+[github.com/daltonmaag/scope-one](https://github.com/daltonmaag/scope-one) is a good example of this approach.
 
 ## Post Release
 

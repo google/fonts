@@ -180,7 +180,7 @@ This is where to set the vertical metrics in FontLab 5:
 ## Latin Design
 
 - [ ] Support the 219 "base Latin" glyphs https://github.com/google/fonts/blob/master/tools/encodings/latin_unique-glyphs.nam
-- [ ] Support all four figure sets https://www.glyphsapp.com/tutorials/figure-sets/
+- [ ] Support all four figure sets. Tabular numbers must have a consistent glyph width across the Regular, Italic, Bold and Bold Italic styles of a family, but in other styles can be only consistent with other glyphs in the same style. http://typedrawers.com/discussion/1103/tabular-figures-width-consistency https://www.glyphsapp.com/tutorials/figure-sets/
 - [ ] Support mark based diacritics https://www.glyphsapp.com/tutorials/diacritics https://www.glyphsapp.com/tutorials/advanced-diacritics-narrow-marks
 - [ ] Support the tallest glyph (perhaps Ǻ, per http://typedrawers.com/discussion/65/r-i-p) 
 - [ ] Lining numerals with tabular spacing should be default; old style figures, and proportional variants, should be included with appropriate OpenType features. The general public calls old style the "jumping numbers" and like their tables to line up.
@@ -199,9 +199,10 @@ This is where to set the vertical metrics in FontLab 5:
 - [ ] Support German https://www.glyphsapp.com/tutorials/localize-your-font-german-capital-sharp-s
 - [ ] Support Polish https://www.glyphsapp.com/tutorials/localize-your-font-polish-kreska http://www.twardoch.com/download/polishhowto/ogonek.html 
 - [ ] Support Romanian and Moldovian https://www.glyphsapp.com/tutorials/localize-your-font-romanian-and-moldovan
-- [ ] Support Turkish https://www.glyphsapp.com/tutorials/localize-your-font-turkish
-- [ ] Support Turkish with OpenType http://typedrawers.com/discussion/1101/izmir-turkey
-- [ ] Support tabular numbers with a consistent glyph width across the Regular, Italic, Bold and Bold Italic styles of a family http://typedrawers.com/discussion/1103/tabular-figures-width-consistency
+- [ ] Support Turkish https://www.glyphsapp.com/tutorials/localize-your-font-turkish http://typedrawers.com/discussion/1101/izmir-turkey
+- [ ] Support Slashed Zero https://www.glyphsapp.com/tutorials/slashed-zero
+- [ ] Support fractions, superscript and subscript numerals https://www.glyphsapp.com/tutorials/fractions https://www.glyphsapp.com/tutorials/superscript-and-subscript-figures 
+- [ ] All kerning and GPOS in the font is checked for mistakes (eg using [Mark Foley's GlyphsApp script](https://github.com/m4rc1e/mf-glyphs-scripts))
 
 ## Test Documents
 

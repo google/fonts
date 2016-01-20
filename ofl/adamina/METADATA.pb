@@ -10,7 +10,7 @@ fonts {
   filename: "Adamina-Regular.ttf"
   post_script_name: "Adamina-Regular"
   full_name: "Adamina"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Adamina\" and \"Adamina Regular\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name 'Adamina'"
 }
 subsets: "menu"
 subsets: "latin"

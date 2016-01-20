@@ -27,16 +27,22 @@ ranges: Latin-1
 To contribute to the project contact Alexei Vanyashin at 
 a@cyreal.org
 
-There are two .vfb Source files:
-1. Alike-Regular.vfb (Original Source files with contour overlaps)
-2. Alike-Regular-OTF.vfb (Merged and optimized file)
+There are three .VBF Source files:
+1. Alike-OTF.vbf (Original Source files with contour overlaps)
+2. Alike-OTF-optimized.vbf (Merged and optimized file)
+3. Alike-TTF.vbf (TTF file with hints)
 
 ChangeLog
+
+20 January 2016. Alike-Regular.ttf (v.1.212) (Alexei Vanyashin)
+- Updated to fix GPOS error found with ot-sanitise
 
 9 September 2011. AlikeRegular_v1.2_PS_Source.vfb (v.1.210) (Alexei Vanyashin)
 — Major design adjustments: proportions more regular, reworked serif treatment
 — Fully Hinted
 
+3 September 2013. AlikeRegular-OTF.vbf (v.1.211) (Alexei Vanyashin)
+— Adjusted width of endash glyph. Thanks Jochen Uebel.
 
 If you make modifications be sure to add your name (N), 
 email (E), web-address (if you have one) (W) and description (D). 

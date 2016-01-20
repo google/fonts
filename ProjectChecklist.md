@@ -121,8 +121,12 @@ You may maintain a build script that runs the build steps, or you may make a tut
 
 - [ ] Clean repo
 
-There should not be 'stray' files in the repo, such as `.empty` or `.DS_Store`. 
-Create a `.gitignore` file to prevent these being casually commited to the repo.
+There should not be 'stray' files in the repo. 
+Create a `.gitignore` file to prevent these being casually commited to the repo, as follows:
+
+    .empty
+    .DS_Store
+    *.vfbak
 
 - [ ] Binary files **as ttx**
  

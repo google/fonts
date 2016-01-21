@@ -60,11 +60,13 @@ Github is a online project collaboration platform, somewhat similar to Dropbox b
 New to Github and Git? Play the http://try.github.io 15 minute interactive game, and read http://nvie.com/posts/a-successful-git-branching-model, an essay about using Git for ongoing project management.
 
 David Lemon said at ATypI 2014 how the Adobe Type team has benefited from libre fonts culture, and that Git and Github was one of the most positive things ([reference video](https://www.youtube.com/watch?v=DBz0rVUYNPA).)
-Adobe have recently used this kind of "publish early and often, gathering feedback" approach with the Vortice design ([reference](http://blog.typekit.com/2015/03/04/introducing-vortice-and-the-adobe-type-concepts-program/).) A designer recently commented on his experience with all this:
+Adobe have recently used this kind of "publish early and often, gathering feedback" approach with the Vortice design ([reference](http://blog.typekit.com/2015/03/04/introducing-vortice-and-the-adobe-type-concepts-program/).) A Thai type designer commented on his experience with all this:
 
 > But really, I used to hate Git because I don’t understand why I have to use it…. until I started working with agile method. Since then I keep using Git even on projects I work alone because commit messages help me remember thing I did or why I did it on each project.
 
 Glyphs has a plugin for working with Git, [github.com/simoncozens/GlyphsGit](https://github.com/simoncozens/GlyphsGit)
+
+See <https://github.com/davelab6/git-for-type-designers> for more details.
 
 ### Repo Contents
 

@@ -34,21 +34,37 @@ ranges: Latin-1
 To contribute to the project contact Alexei Vanyashin at 
 a@cyreal.org
 
-There are two .vfb Source files:
+There are 5 Source files:
+
 1. Federant-Regular.vfb (Original Source files with contour overlaps)
+
 2. Federant-Regular-OTF.vfb (Merged and optimized file)
+
+3. Federant-Regular.otf (Fontlab export from 2)
+
+4. Federant-Regular-TTF.vfb (Merged and optimized file for TTF export, used to create v1.110 and earlier)
+
+5. Federant-Regular-TTF.glyphs (Merged and optimized file for TTF export, used to create v1.111)
 
 ChangeLog
 
-9 Oct 2011 - Federant version 1.110 
+
+20 Jnauary 2016 (Dave Crossland) Federant version 1.011
+- Regenerated TTF through Glyphs to fix GPOS issue, reduce filesize, autohint
+
+9 October 2011  (Olexa M. Volochay, Alexei Vanyashin) Federant version 1.010 
 — More conventional forms for /v/, /w/, /V/, /W/ with a 
   baseline join between left and central stems. Previous versions
   are left as alternatives /v.001/, /w.001/. /W.001/, /V.001/.
-  By Olexa M. Volochay, Alexei Vanyashin
 
 If you make modifications be sure to add your name (N), 
 email (E), web-address (if you have one) (W) and description (D). 
 This list is in alphabetical order.
+
+N: Olexa M. Volochay
+E: olexa.volochay@gmail.com
+W: www.cyreal.org
+D: Designer
 
 N: Alexei Vanyashin
 E: a@cyreal.org

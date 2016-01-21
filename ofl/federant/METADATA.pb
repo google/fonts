@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Federant-Regular.ttf"
-  post_script_name: "Federant-Medium"
-  full_name: "Federant Medium"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Federant\" and \"Federant Medium\" This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  post_script_name: "Federant-Regular"
+  full_name: "Federant"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org), with Reserved Font Name 'Federant'."
 }
 subsets: "menu"
 subsets: "latin"

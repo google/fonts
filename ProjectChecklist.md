@@ -66,9 +66,17 @@ Adobe have recently used this kind of "publish early and often, gathering feedba
 
 Glyphs has a plugin for working with Git, [github.com/simoncozens/GlyphsGit](https://github.com/simoncozens/GlyphsGit)
 
-See <https://github.com/davelab6/git-for-type-designers> for more details.
+See <https://github.com/davelab6/git-for-type-designers> for more details, including
 
 ### Repo Contents
+
+- [ ] `.gitignore`
+
+Each Github repo must have a `.gitignore` file with at least the following contents
+
+    .DS_Store
+    *.vfbak
+    .empty
 
 - [ ] README.md
 
@@ -116,7 +124,10 @@ Common indications of build source files are:
 - no unusual or additional unencoded glyphs with alternative drawings
 - no 'smart components'
 
-- [ ] Build process documentation
+- [ ] `BUILD.md`
+
+ Build process documentation
+
 - [ ] Build process script
 
 You may maintain a build script that runs the build steps, or you may make a tutorial for taking those steps manually (or a mix.)

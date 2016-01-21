@@ -17,20 +17,27 @@ other scripts.
 More specifically, this release partially supports the following Unicode 
 ranges: Latin-1
 
-There are four Source files:
+There are two Source files:
 
-1. Kavoon-Regular.vfb Original Source Files with 
-   contour overlaps
+1. Kavoon-Regular.vfb Original Source Files with contour overlaps
+   for version 1.003 and earlier
 
-2. Kavoon-Regular-OTF.sfd Merged contours and 
-   optimized file corresponding to the OTF file
+2. Kavoon.ufo Original Source Files made with vfb2ufo and further
+   developed with Glyphs for v1.004 and later
 
-3. Kavoon-Regular-TTF.sfd TrueType outlines with 
-   hinting adjustments corresponding to the TTF file
-
-To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
+To contribute to the project see https://github.com/EbenSorkin/Kavoon
 
 ChangeLog
+
+20 Jan 2016 (Dave Crossland) Kavoon v1.004
+- Fixed GSUB table to pass ot-sanitise by
+  rebuilding the font with Glyphs 2.3b
+
+12 Jan 2016 (Eben Sorkin) Kavoon v1.003
+- Improved language coverage
+- Fixed overlaps in Q
+- Added OpenType code
+- Added hinting using TTFautohint version 1.4.1
 
 09 Jan 2013 (Eben Sorkin) Kavoon v1.002
 - Improved language coverage with OpenType features

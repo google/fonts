@@ -194,6 +194,7 @@ This is where to set the vertical metrics in FontLab 5:
 
 - [ ] Production masters have PostScript manual hinting https://www.glyphsapp.com/tutorials/hinting-manual-postscript-hinting
 - [ ] Develop a ttfautohint controls file to correct any problems in hinting. 
+- [ ] Kerning should be generated. Ideally in both `GPOS` and `kern` table formats, since older versions of MS Office only use the 'kern' feature (but drop it if extension-type lookups are used) but this topic needs more research.
 
 ## Latin Design
 

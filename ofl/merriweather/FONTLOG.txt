@@ -1,32 +1,28 @@
-FONTLOG for the Merriweather font
+FONTLOG for Merriweather
 
-This file provides detailed information on the Merriweather 
-font Software.
+This file provides detailed information on Merriweather font Software.
 
-This information should be distributed along with the 
-Merriweather fonts and any derivative works.
+This information should be distributed along with the Merriweather fonts and any derivative works.
 
 Basic Font Information
 
-Merriweather is a low-contrast semi-condensed-serif typeface family
-designed to be readable at very small sizes. Merriweather is 
-traditional in feeling despite the modern shapes it has adopted for screens. 
+Merriweather offers a Renaissance warmth while using proportions which are space-saving. 
+It is suitable for editorial design, news and other kinds of space sensitive typography.
 
-Merriweather is an evolving project and will be updated. As of now there are 5
-styles: Regular, Light, Bold, and Black Roman and Italic styles.
+Merriweather is an evolving project and will be updated. As of now there are 8 styles: 
 
-There is also Merriweather Sans, a sans-serif version which closely 
-harmonizes with the weights and styles of this serif family.
+Light
+Regular
+Bold
+Black
+Light Italic
+Italic
+Bold Italic
+Black Italic
+
+There is also Merriweather Sans, a sans-serif version which closely harmonizes with the weights and styles of this serif family.
 
 http://www.google.com/webfonts/specimen/Merriweather+Sans
-
-Designed by Eben Sorkin, Merriweather features a very large x height,
-slightly condensed letterforms, a mild diagonal stress, sturdy serifs and open
-forms.
-
-Merriweather is a work in progress and will be improved regularly. This
-means you can request improvements and even fund specific features if if they
-are outside of the current scope of work.
 
 For more information and to stay updated see Eben 
 Sorkin's blog and Flickr and follow the Merriweather 
@@ -38,40 +34,57 @@ http://www.flickr.com/photos/55990250@N02/
 
 http://twitter.com/MerriweatherFnt
 
-Merriweather is a Unicode typeface family that supports 
-languages that use the Latin script and its variants, and 
-could be expanded to support other scripts.
+Merriweather is a Unicode typeface family that supports languages that use the Latin script and its variants, and could be expanded to support other scripts.
 
-More specifically, this release supports the following Unicode 
-ranges: Latin-1, Latin-2: Eastern Europe, Turkish, 
-Macintosh Character Set and Adobe Latin 3 character set.
+More specifically, this release supports the following Unicode ranges: Latin-1, Latin-2, Cyrillic, Turkish, Windows Baltic, Macintosh Character Set
 
-There are four source files for each style:
+There is are 2 kinds of source files for each style:
 
-1. Merriweather-Style.vfb Original Source Files with 
-   contour overlaps
-
-2. Merriweather-Style-OTF.sfd Merged contours and 
-   optimized file corresponding to the OTF file
-
-3. Merriweather-Style.otf PostScript outlines OTF-CFF font.
-
-4. Merriweather-Style-TTF.sfd TrueType outlines with 
-   hinting adjustments corresponding to the TTF file
+1. A VBF file with contour overlaps (for v1.058 and earlier)
+3. A UFO file with contour overlaps (for v1.582 and later)
 
 To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
-1 May 2013 (Eben Sorkin) Merriweather v1.4
-- Italic Light, Bold, Black added
-- Hinted fonts using TTFAutohint version 0.93.8-669f
-- Mastered VBF to TTF and other formats.
-- Improved the design in response to additional print 
-  and rendering tests and added glyphs to cover the entire 
-  Adobe Latin 3 character set. ( VBF format )
-- Completed first complete version of Merriweather in 
-  Fontlab ( VBF format )
+22 Jan 2016 (Dave Crossland) Merriweather v1.582
+- Version numbering is unified to 1.582 across the roman and italic
+- Corrected NAME table
+- Further OpenType code corrections
+
+12 Jan 2016 (Eben Sorkin) Merriweather v1.058 
+- Version numbering is unified to 1.058 across the roman and italic
+- The whole family is now hinted with TTFA 1.4.1
+- Slight increase in glyphs
+- OpenType code is corrected.
+
+3 Jan 2014 (Eben Sorkin) Merriweather v1.057 (new numbering scheme)
+- Roman is now Hinted with TTFA 1.3
+- Refined the weights - the new roman weights are changed slightly
+- Improved the upright or roman design with special attention to punctuation
+- Improved the shapes and spacing of the Cyrillic with the kind support of users and other font designers
+- Future work: The italic will need to be updated to match the weight of the roman and re-hinted next. 
+- Future work: Some effort to begin supporting Vietnamese and other users not covered yet has started.
+
+6 Jan 2014 (Eben Sorkin) Merriweather v1.52
+- Updated copyright string in UFOs
+
+3 Jan 2014 (Eben Sorkin) Merriweather v1.51 ( not pushed live )
+- Added support for the currency symbols won (uni20A9) and franc (uni20A3)
+- Added support for typographic features requiring glyphs uni02C9, uni00AD and uni2219 to gain full Adobe Latin 3 coverage.
+- Added support for Serbian when in Latin ( uni01F1/uni01C7/uni01CA/uni01C4/uni01F2/uni01C8/uni01CB/uni01C5/uni01F3/uni01C9/uni01CC/uni01C6 )
+- Added upper & lower case latin shwa uni0259, uni018F for Azerbaijani.
+- Updated reference encoding to reflect these additions.
+
+23 December 2013 (Eben Sorkin) Merriweather v1.5
+- TTFA hinting added.
+- Cyrillic coverage added including minority language support for Ukrainian, Mongolian and others. Note: no Cyrillic localizations have been made yet.
+- Some additional Glyphs added including latin shwa, colonmonetary, Lira, peseta, and Turkish Lira, minute, second, Number sign with N and o, as well as the litre and estimated signs.
+- Added support for a broad range of additional Latin based languages.
+- Support for Romanian and Moldavian localization
+- Overall adjustment in scale to make TTFA hinting effective
+- Alteration of contrast in the Light weight for better rendering in Windows
+- Overall improvement and refinement to the design of both upright and italic.
 
 14 March 2013 (Eben Sorkin) Merriweather v1.4
 - Italic Regular added
@@ -88,11 +101,7 @@ in Fontlab ( VBF format )
 
 29 July 2011 (Eben Sorkin) Merriweather v1.3
 
-- Altered and improved 90% of the glyphs. Some in minor ways 
-  and other in fairly significant ways. For example: 
-  The lc a was a small change.
-  The changes to the numbers corrected weight consistency issues 
-  were more significant. 
+- Altered and improved 90% of the glyphs. 
 - Added glyphs to support texts originating from Windows
   ANSI and Mac Roman encodings. 
 - Adjusted diacritics further

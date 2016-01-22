@@ -10,7 +10,7 @@ fonts {
   filename: "Merriweather-Light.ttf"
   post_script_name: "Merriweather-Light"
   full_name: "Merriweather Light"
-  copyright: "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+  copyright: "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
 fonts {
   name: "Merriweather"
@@ -19,16 +19,16 @@ fonts {
   filename: "Merriweather-LightItalic.ttf"
   post_script_name: "Merriweather-LightItalic"
   full_name: "Merriweather Light Italic"
-  copyright: "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+  copyright: "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
 fonts {
   name: "Merriweather"
   style: "normal"
   weight: 400
   filename: "Merriweather-Regular.ttf"
-  post_script_name: "Merriweather"
+  post_script_name: "Merriweather-Regular"
   full_name: "Merriweather"
-  copyright: "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+  copyright: "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
 fonts {
   name: "Merriweather"
@@ -37,7 +37,7 @@ fonts {
   filename: "Merriweather-Italic.ttf"
   post_script_name: "Merriweather-Italic"
   full_name: "Merriweather Italic"
-  copyright: "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+  copyright: "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
 fonts {
   name: "Merriweather"
@@ -46,7 +46,7 @@ fonts {
   filename: "Merriweather-Bold.ttf"
   post_script_name: "Merriweather-Bold"
   full_name: "Merriweather Bold"
-  copyright: "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+  copyright: "Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
 fonts {
   name: "Merriweather"
@@ -55,26 +55,27 @@ fonts {
   filename: "Merriweather-BoldItalic.ttf"
   post_script_name: "Merriweather-BoldItalic"
   full_name: "Merriweather Bold Italic"
-  copyright: "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+  copyright: "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
 fonts {
   name: "Merriweather"
   style: "normal"
   weight: 900
   filename: "Merriweather-Black.ttf"
-  post_script_name: "Merriweather-Heavy"
-  full_name: "Merriweather Heavy"
-  copyright: "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+  post_script_name: "Merriweather-Black"
+  full_name: "Merriweather Black"
+  copyright: "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
 fonts {
   name: "Merriweather"
   style: "italic"
   weight: 900
-  filename: "Merriweather-HeavyItalic.ttf"
-  post_script_name: "Merriweather-HeavyItalic"
-  full_name: "Merriweather Heavy Italic"
-  copyright: "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Merriweather'"
+  filename: "Merriweather-BlackItalic.ttf"
+  post_script_name: "Merriweather-BlackItalic"
+  full_name: "Merriweather Black Italic"
+  copyright: "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
 subsets: "menu"
+subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"

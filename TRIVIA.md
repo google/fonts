@@ -23,6 +23,14 @@ They are no longer listed in the main www.google.com/fonts directory, but the fi
 
 Fonts in Early Access do not have METADATA.json files.
 
+### Install on Windows
+
+You can install all of the fonts using Windows power shell. Change directories to the folder where you downloaded the package, and run the following command:
+```
+$fonts = (New-Object -ComObject Shell.Application).Namespace(0x14)
+dir ofl/*/*.ttf | %{ $fonts.CopyHere($_.fullname) }
+```
+
 ## 3rd Party Directories
 
 The www.google.com/fonts directory is accompanied by a [Google Fonts Developer API](https://developers.google.com/fonts/docs/developer_api) which provides raw data for constructing such a directory in JSON format. 

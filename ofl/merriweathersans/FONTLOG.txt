@@ -26,6 +26,10 @@ To contribute to the project visit https://github.com/EbenSorkin/Merriweather-Sa
 
 ChangeLog
 
+25 Jan 2016 (Dave Crossland) Merriweather Sans v1.006
+- Made caron (Ǐ ǐ etc) and slash (Ǿ ǿ) glyphs consistent
+- Fixed ligatures (ĳ fi ffi fl ffl)
+
 21 Jan 2016 (Dave Crossland) Merriweather Sans v1.005
 - Version numbering updated to 1.005
 - Corrected NAME table

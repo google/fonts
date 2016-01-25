@@ -8,7 +8,7 @@ fonts {
   style: "normal"
   weight: 400
   filename: "MiltonianTattoo-Regular.ttf"
-  post_script_name: "MiltonianTattoo"
+  post_script_name: "MiltonianTattoo-Regular"
   full_name: "Miltonian Tattoo"
   copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)"
 }

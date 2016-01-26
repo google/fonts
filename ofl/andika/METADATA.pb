@@ -1,5 +1,5 @@
 name: "Andika"
-designer: "Annie Olsen"
+designer: "SIL International"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-10"

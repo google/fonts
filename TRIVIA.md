@@ -19,9 +19,9 @@ They are no longer listed in the main www.google.com/fonts directory, but the fi
 - `ofl/siamreap` and `ofl/siemreap` contain `Siemreap.ttf`
 - `ofl/terminaldosis` and `ofl/dosis` contain the same files (renamed) and `ofl/terminaldosislight` contain `TerminalDosis-Light.ttf`
 
-## Missing METADATA.json files
+## Missing METADATA.pb files
 
-Fonts in Early Access do not have METADATA.json files.
+Fonts in Early Access do not have METADATA.pb files.
 
 ### Install on Windows
 
@@ -65,12 +65,12 @@ There are also handcrafted directories with rich samples:
 
 ## Rightsholder contacts
 
-This shell command shows all email addresses for font copyright holders listed in the METADATA.json files:
+This shell command shows all email addresses for font copyright holders listed in the METADATA.pb files:
 
-    grep copyright\"\: */*/MET* | grep \@ |  perl -ne'if(/[\w\.\-\_]+@([\w\-\_]+\.)+[A-Za-z]{2,4}/g){print "$&\n"}' | sort | uniq
+    grep copyright\: */*/MET* | grep \@ |  perl -ne'if(/[\w\.\-\_]+@([\w\-\_]+\.)+[A-Za-z]{2,4}/g){print "$&\n"}' | sort | uniq
 
 This shell command shows all the families without a contact email address:
 
-    grep copyright\"\: */*/MET* | grep -v \@ | cut -d\: -f1 | cut -d\/ -f2 | uniq | sort
+    grep copyright\: */*/MET* | grep -v \@ | cut -d\: -f1 | cut -d\/ -f2 | uniq | sort
 
 The copyright holders of those families are mostly Google, SIL, Adobe, Canonical, Naver, and a couple of outliers. 

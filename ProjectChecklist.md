@@ -52,12 +52,20 @@ If your font works on Windows MSIE and Android Chrome, but not in CS, then it is
 
 ## Project Repository
 
-### Set up a Github Repo
+### Learn to Collaborate With Github
 
 I expect all development to be done publicly, to invite the public to review work in progress, and to discuss all technical/design issues. 
+Github is a online project collaboration platform, somewhat similar to Dropbox but more fine-grained, that provides the best and most well designed experience for this.
 
-Github is a online project collaboration platform, somewhat similar to Dropbox but more fine-grained as it uses the Git version control system.
-New to Github and Git? Play the http://try.github.io 15 minute interactive game, and read http://nvie.com/posts/a-successful-git-branching-model, an essay about using Git for ongoing project management.
+When working with font projects on Github, it is typical to work with several forks of the same project. To keep things simple, create a folder in your projects director called `github.com`, inside that make a directory for each username you work with, and clone each user's repo inside their correpsonding folder. This way on your harddisk you have a 'mirror' of the github.com site structure.
+
+There are many good guides for Github around the web, including:
+
+* <https://try.github.io>, a 15 minute interactive game
+* <http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1>, an introduction article
+* <https://guides.github.com>, well written and illustrated guides
+* <http://nvie.com/posts/a-successful-git-branching-model>, an essay about using Git for ongoing project management.
+* [Articles about Github in Wired.com](https://www.google.com/search?q=github+everything+site:wired.com)
 
 David Lemon said at ATypI 2014 how the Adobe Type team has benefited from libre fonts culture, and that Git and Github was one of the most positive things ([reference video](https://www.youtube.com/watch?v=DBz0rVUYNPA).)
 Adobe have recently used this kind of "publish early and often, gathering feedback" approach with the Vortice design ([reference](http://blog.typekit.com/2015/03/04/introducing-vortice-and-the-adobe-type-concepts-program/).) A Thai type designer commented on his experience with all this:

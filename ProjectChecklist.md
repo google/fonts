@@ -151,7 +151,7 @@ Actual OTF and TTF files should be included in a ZIP and attached to a Github Re
 
 Here are production steps you can take at the start of a project.
 
-- [ ] The font family naming should follow the naming scheme described in the Family Naming section of [designwithfontforge.com/en-US/Font_Info_&_Metadata.html](http://designwithfontforge.com/en-US/Font_Info_&_Metadata.html)
+- [ ] Name files and naming metadata according to this ([family naming scheme spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
 
 Here is the default value in FontLab 5:
 
@@ -174,13 +174,14 @@ Here is the corrected value:
 
 - [ ] License URL is set to http://scripts.sil.org/OFL
 - [ ] Maintain a build script that applies ttfautohint with specific command line options and control file, that does not create a 'ttfautohint table' in production builds
-- [ ] Name files according to the [DWFF Family Naming](http://designwithfontforge.com/en-US/Font_Info_&_Metadata.html) scheme ([spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
 - [ ] Use a UPM of 1000 (even for TrueType fonts)
 - [ ] Keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font; Android TextView widgets will clip fonts beyond that if there's no explicit padding (and designers tend to work just in Latin, so are unlikely to set it) says [Raph](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ)
 
 ## Post-Production
 
 Here are production steps you can take during or near the end of a period of development.
+
+- [ ] Name files and naming metadata according to this ([family naming scheme spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
 
 - [ ] The Vertical Metrics must be set correctly, to the __family's__ y-axis bbox values, with linegaps of 0. 
 

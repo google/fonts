@@ -13,5 +13,5 @@ fonts {
   copyright: "Copyright (c) 2000-2013 by SIL International. All rights reserved."
 }
 subsets: "menu"
-subsets: "latin"
 subsets: "ethiopic"
+subsets: "latin"

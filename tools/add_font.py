@@ -58,8 +58,16 @@ def _MakeMetadata(fontdir):
   """
   file_family_style_weights = _FileFamilyStyleWeights(fontdir)
 
+  # include subset keys when the first font in a family has at least 
+  # 50% of the characters in a subset
   first_file = file_family_style_weights[0].file
   subsets = ['menu'] + [s[0] for s in fonts.SubsetsInFont(first_file, 50)]
+  # make an exception for -ext subsets, include them if any support exists
+  for s in fonts.SubsetsInFont(first_file, 0):
+      if s[0].endswith("-ext"):
+          subsets.append(s[0])
+  # sort and uniq the subsets list
+  subsets = sorted(set(subsets))
 
   font_license = fonts.LicenseFromPath(fontdir)
 

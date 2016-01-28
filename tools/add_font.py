@@ -69,6 +69,7 @@ def _MakeMetadata(fontdir):
   metadata.designer = 'Unknown'
   metadata.category = 'SANS_SERIF'
   metadata.license = font_license
+  subsets = sorted(subsets)
   for subset in subsets:
     metadata.subsets.append(subset)
   metadata.date_added = time.strftime('%Y-%m-%d')

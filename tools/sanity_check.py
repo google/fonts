@@ -1,5 +1,3 @@
-
-
 import collections
 import contextlib
 import os
@@ -349,6 +347,16 @@ def _CheckFontNameValues(path, name, font, ttf):
     # If you have lots of name records they should ALL have the right value
     actuals = fonts.ExtractNames(ttf, name_id)
     for (idx, actual) in enumerate(actuals):
+      # print "actual is", actual
+      if name_id == 1:
+          # print "name_id is", name_id
+          if expected != actual:
+            # print 'no match for', expected, actual
+            name_id = 16
+            actual = fonts.ExtractNames(ttf, name_id)
+            actual = actual[0]
+            # print "actual is now", actual
+
       results.append(ResultMessageTuple(
           expected == actual,
           '%s %s/%d \'name\' %s[%d] expected %s, got %s' %

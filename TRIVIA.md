@@ -51,9 +51,10 @@ Here is a list of 3rd party directories:
 * http://fontpair.co
 * https://typ.io
 * http://andreasweis.com/webfontblender
-* http://www.typegenius.com/
+* http://www.typegenius.com
 * http://abbychen.me/punch
 * http://typewonder.com
+* http://www.localfont.com
 
 There are also handcrafted directories with rich samples:
 

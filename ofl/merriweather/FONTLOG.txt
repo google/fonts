@@ -24,9 +24,9 @@ There is also Merriweather Sans, a sans-serif version which closely harmonizes w
 
 http://www.google.com/webfonts/specimen/Merriweather+Sans
 
-For more information and to stay updated see Eben 
-Sorkin's blog and Flickr and follow the Merriweather 
-Twitter microblog:
+Merriweather is a work in progress and will be improved upon periodically. 
+
+For more information and to stay updated see Eben Sorkin's blog and Flickr and follow the Merriweather Twitter microblog:
 
 http://ebensorkin.wordpress.com
 
@@ -95,12 +95,10 @@ ChangeLog
 26 Feb 2012 (Eben Sorkin) Merriweather Sans v1.001
 - Hinted font Using TTFAutohint version 0.93.8-669f
 - Mastered VBF to TTF and other formats.
-- Added glyphs to cover the entire Adobe Latin 3 
-character set. ( VBF format )
+- Added glyphs to cover the entire Adobe Latin 3 character set. ( VBF format )
 
 10 Feb 2012 (Eben Sorkin) Merriweather Sans v1.000
-- Completed first complete version of Merriweather Italic 
-in Fontlab ( VBF format )
+- Completed first complete version of Merriweather Italic in Fontlab ( VBF format )
 
 29 July 2011 (Eben Sorkin) Merriweather v1.3
 
@@ -108,9 +106,7 @@ in Fontlab ( VBF format )
 - Added glyphs to support texts originating from Windows
   ANSI and Mac Roman encodings. 
 - Adjusted diacritics further
-- This may be the last update to shapes before work 
-  begins on the Sans. This means that VTT hinting 
-  should be next.
+- This may be the last update to shapes before work begins on the Sans. This means that VTT hinting should be next.
 
 22 July 2011 (Eben Sorkin) Merriweather v1.287
 - Adusted glyph diacritics to make them work with MS Word.
@@ -118,9 +114,7 @@ in Fontlab ( VBF format )
 
 Acknowledgements
 
-If you make modifications be sure to add your name (N), 
-email (E), web-address (if you have one) (W) and description (D). 
-This list is in alphabetical order.
+If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.
 
 N: Eben Sorkin
 E: sorkineben@gmail.com

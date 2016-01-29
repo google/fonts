@@ -46,7 +46,7 @@ fonts {
   filename: "Merriweather-Bold.ttf"
   post_script_name: "Merriweather-Bold"
   full_name: "Merriweather Bold"
-  copyright: "Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
+  copyright: "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
 fonts {
   name: "Merriweather"
@@ -75,7 +75,8 @@ fonts {
   full_name: "Merriweather Black Italic"
   copyright: "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

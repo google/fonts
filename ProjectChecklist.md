@@ -74,7 +74,7 @@ Adobe have recently used this kind of "publish early and often, gathering feedba
 
 Glyphs has a plugin for working with Git, [github.com/simoncozens/GlyphsGit](https://github.com/simoncozens/GlyphsGit)
 
-See <https://github.com/davelab6/git-for-type-designers> for more details, including
+See <https://github.com/davelab6/git-for-type-designers> for more details. 
 
 ### Repo Contents
 
@@ -283,3 +283,5 @@ The attached ZIP should contain the README, OFL, FONTLOG and binary font files.
 # Further Reading
 
 **UFO:** The UFO format is documented at http://unifiedfontobject.org and developed on Github (https://github.com/unified-font-object/ufo-spec) and the ufo-spec mailing list (https://groups.google.com/forum/#!forum/ufo-spec)
+
+**Git:** A step by step guide to best practices could involve [a 'dist' branch](https://github.com/khaledhosny/libertinus/issues/13#issuecomment-176641248)

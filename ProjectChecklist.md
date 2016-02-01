@@ -265,6 +265,12 @@ So a `MAJOR.MINOR-or-PATCH` scheme is better for fonts, starting with 1.000 and 
 
 It would be good to have some note in the version string where possible like 'development version' that is removed when making a release build. 
 
+- [ ] Create or update the FONTLOG.txt
+ 
+This is a text file that details each release of the project and what changed. 
+
+https://github.com/fonts/skeleton/blob/skeleton/tools/FONTLOG.py can generate one.
+
 - [ ] Use the Github Releases system to tag a release of your git repository, and then upload a ZIP with the actual release OTF/TTF files.
 
 * https://github.com/blog/1547-release-your-software

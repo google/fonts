@@ -10,7 +10,7 @@ fonts {
   filename: "FiraSans-Light.ttf"
   post_script_name: "FiraSans-Light"
   full_name: "Fira Sans Light"
-  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
+  copyright: "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
 }
 fonts {
   name: "Fira Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "FiraSans-LightItalic.ttf"
   post_script_name: "FiraSans-LightItalic"
   full_name: "Fira Sans Light Italic"
-  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
+  copyright: "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
 }
 fonts {
   name: "Fira Sans"
@@ -28,7 +28,7 @@ fonts {
   filename: "FiraSans-Regular.ttf"
   post_script_name: "FiraSans-Regular"
   full_name: "Fira Sans"
-  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
+  copyright: "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
 }
 fonts {
   name: "Fira Sans"
@@ -37,7 +37,7 @@ fonts {
   filename: "FiraSans-Italic.ttf"
   post_script_name: "FiraSans-Italic"
   full_name: "Fira Sans Italic"
-  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
+  copyright: "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
 }
 fonts {
   name: "Fira Sans"
@@ -46,7 +46,7 @@ fonts {
   filename: "FiraSans-Medium.ttf"
   post_script_name: "FiraSans-Medium"
   full_name: "Fira Sans Medium"
-  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
+  copyright: "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
 }
 fonts {
   name: "Fira Sans"
@@ -55,7 +55,7 @@ fonts {
   filename: "FiraSans-MediumItalic.ttf"
   post_script_name: "FiraSans-MediumItalic"
   full_name: "Fira Sans Medium Italic"
-  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
+  copyright: "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
 }
 fonts {
   name: "Fira Sans"
@@ -64,7 +64,7 @@ fonts {
   filename: "FiraSans-Bold.ttf"
   post_script_name: "FiraSans-Bold"
   full_name: "Fira Sans Bold"
-  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
+  copyright: "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
 }
 fonts {
   name: "Fira Sans"
@@ -73,11 +73,11 @@ fonts {
   filename: "FiraSans-BoldItalic.ttf"
   post_script_name: "FiraSans-BoldItalic"
   full_name: "Fira Sans Bold Italic"
-  copyright: "Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A."
+  copyright: "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

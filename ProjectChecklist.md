@@ -185,6 +185,15 @@ Here is the corrected value:
 - [ ] Use a UPM of 1000 (even for TrueType fonts)
 - [ ] Keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font; Android TextView widgets will clip fonts beyond that if there's no explicit padding (and designers tend to work just in Latin, so are unlikely to set it) says [Raph](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ)
 
+### Project Website
+
+[pages.github.com](https://pages.github.com) offers a convenient way to create a blog the project, or host live testing pages.
+Some relevant links and examples:
+
+* https://github.com/barryclark/jekyll-now
+* http://tarobish.github.io/Mirza/index.html
+* http://tarobish.github.io/Katibeh/index.html
+
 ## Post-Production
 
 Here are production steps you can take during or near the end of a period of development.

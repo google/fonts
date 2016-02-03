@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Play-Regular.ttf"
-  post_script_name: "Play"
+  post_script_name: "Play-Regular"
   full_name: "Play"
-  copyright: "Copyright (c) 2011 by Jonas Hecksher, Playtypeª, e-types AS (lasse@e-types.com). All rights reserved."
+  copyright: "Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (lasse@e-types.com), with Reserved Font Name 'Play', 'Playtype', 'Playtype Sans'."
 }
 fonts {
   name: "Play"
@@ -18,8 +18,8 @@ fonts {
   weight: 700
   filename: "Play-Bold.ttf"
   post_script_name: "Play-Bold"
-  full_name: "Play-Bold"
-  copyright: "Copyright (c) 2011 by Jonas Hecksher, Playtype¬ e-types AS (lasse@e-types.com). All rights reserved."
+  full_name: "Play Bold"
+  copyright: "Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (lasse@e-types.com), with Reserved Font Name 'Play', 'Playtype', 'Playtype Sans'."
 }
 subsets: "menu"
 subsets: "cyrillic"

@@ -18,8 +18,8 @@ flags.DEFINE_integer('min_pct', 0,
 def main(argv):
   for arg in argv[1:]:
     for (subset, available, total) in fonts.SubsetsInFont(arg, FLAGS.min_pct):
-      print '%s %s %d/%d' % (os.path.basename(arg), subset, available, total)
-
+      percent = 100 * float(available) / float(total)
+      print '%s %s %03d/%d %02d%%' % (os.path.basename(arg), subset, available, total, percent)
 
 if __name__ == '__main__':
   app.run()

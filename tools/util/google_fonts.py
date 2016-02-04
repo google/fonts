@@ -286,13 +286,16 @@ def CodepointFiles(subset):
   return map(CodepointFileForSubset, files)
 
 
-def SubsetsInFont(file_path, min_pct):
+def SubsetsInFont(file_path, min_pct, ext_min_pct=None):
   """Finds all subsets for which we support > min_pct of codepoints.
 
   Args:
     file_path: A file_path to a font file.
     min_pct: Min percent coverage to report a subset. 0 means at least 1 glyph.
     25 means 25%.
+    ext_min_pct: The minimum percent coverage to report a -ext
+    subset supported. Used to admit extended subsets with a lower percent. Same
+    interpretation as min_pct. If None same as min_pct.
   Returns:
     A list of 3-tuples of (subset name, #supported, #in subset).
   """
@@ -310,7 +313,11 @@ def SubsetsInFont(file_path, min_pct):
 
     overlap = all_cps & subset_cps
 
-    if 100.0 * len(overlap) / len(subset_cps) > min_pct:
+    target_pct = min_pct
+    if ext_min_pct is not None and subset.endswith('-ext'):
+      target_pct = ext_min_pct
+
+    if 100.0 * len(overlap) / len(subset_cps) > target_pct:
       results.append((subset, len(overlap), len(subset_cps)))
 
   return results

@@ -9,8 +9,18 @@ import time
 import fonts_public_pb2 as fonts_pb2
 from google.protobuf import text_format
 from google.apputils import app
+import gflags as flags
 
 from util import google_fonts as fonts
+
+FLAGS = flags.FLAGS
+
+flags.DEFINE_integer('min_pct', 50,
+                     'What percentage of subset codepoints have to be supported'
+                     ' for a non-ext subset.')
+flags.DEFINE_integer('min_pct_ext', 10,
+                     'What percentage of subset codepoints have to be supported'
+                     ' for a -ext subset.')
 
 
 
@@ -59,7 +69,9 @@ def _MakeMetadata(fontdir):
   file_family_style_weights = _FileFamilyStyleWeights(fontdir)
 
   first_file = file_family_style_weights[0].file
-  subsets = ['menu'] + [s[0] for s in fonts.SubsetsInFont(first_file, 50)]
+  subsets = ['menu'] + [s[0] for s in fonts.SubsetsInFont(first_file,
+                                                          FLAGS.min_pct,
+                                                          FLAGS.min_pct_ext)]
 
   font_license = fonts.LicenseFromPath(fontdir)
 
@@ -69,6 +81,7 @@ def _MakeMetadata(fontdir):
   metadata.designer = 'Unknown'
   metadata.category = 'SANS_SERIF'
   metadata.license = font_license
+  subsets = sorted(subsets)
   for subset in subsets:
     metadata.subsets.append(subset)
   metadata.date_added = time.strftime('%Y-%m-%d')

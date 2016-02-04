@@ -9,6 +9,10 @@ Each family subdirectory contains the  `.ttf` font files served by Google Fonts,
 
 Also [/designers](designers) contains a list of the Google+ pages for the fonts' designers.
 
+## Bug reports and improvement requests
+
+If you find a problem with a font file, or have a request for future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/google/fonts/issues).
+
 ## Download All Google Fonts
 
 You can download all Google Fonts in a simple ZIP snapshot (over 250Mb) from <https://github.com/google/fonts/archive/master.zip>

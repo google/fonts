@@ -1,8 +1,11 @@
 This directory contains 'namelist' files, that list unicode characters followed by glyph names or glyph descriptions. 
 
+Typically all the Unicodes in each file are in each font. 
+If the fonts go beyond that list, those additional characters will not be available to Fonts API end users.
+
 The Google Fonts API uses these files in combination with [pyftsubset](https://github.com/behdad/fonttools/blob/master/Lib/fontTools/subset.py) to generate script subsets from the full `.ttf` files in this repository.
 
-That use requires that each line must start with `0x` and then have 4 **uppercase** hex digits; what follows is an arbitrary description to the end of the line.
+The subsetting requires that each line must start with `0x` and then have 4 **uppercase** hex digits; what follows is an arbitrary description to the end of the line.
 Comments are lines starting with `#`.
 
 A python script, `[namelist.py](namelist.py)` can generate these files:

@@ -240,6 +240,7 @@ This is where to set the vertical metrics in FontLab 5:
 - [ ] Support Slashed Zero https://www.glyphsapp.com/tutorials/slashed-zero
 - [ ] Support fractions, superscript and subscript numerals https://www.glyphsapp.com/tutorials/fractions https://www.glyphsapp.com/tutorials/superscript-and-subscript-figures 
 - [ ] All kerning and GPOS in the font is checked for mistakes (eg using [Mark Foley's GlyphsApp script](https://github.com/m4rc1e/mf-glyphs-scripts))
+- [ ] Lowercase octothorpe ([discussion](http://typedrawers.com/discussion/1377/lowercase-hashtag#latest))
 
 ## Test Documents
 

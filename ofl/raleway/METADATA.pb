@@ -63,7 +63,7 @@ fonts {
   weight: 400
   filename: "Raleway-Regular.ttf"
   post_script_name: "Raleway-Regular"
-  full_name: "Raleway Regular"
+  full_name: "Raleway"
   copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {

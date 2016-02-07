@@ -72,7 +72,7 @@ Adobe have recently used this kind of "publish early and often, gathering feedba
 
 > But really, I used to hate Git because I don’t understand why I have to use it…. until I started working with agile method. Since then I keep using Git even on projects I work alone because commit messages help me remember thing I did or why I did it on each project.
 
-Glyphs has a plugin for working with Git, [github.com/simoncozens/GlyphsGit](https://github.com/simoncozens/GlyphsGit)
+There is a Glyphs plugin that makes working with Git very natural, use it:  [github.com/simoncozens/GlyphsGit](https://github.com/simoncozens/GlyphsGit)
 
 See <https://github.com/davelab6/git-for-type-designers> for more details. 
 

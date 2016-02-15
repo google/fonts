@@ -119,6 +119,8 @@ Common indications of actual source files are:
 - unencoded glyphs with alternative drawings
 - 'smart components'
 
+If using UFO, you should integrate [ufoNormalizer](https://github.com/unified-font-object/ufoNormalizer) into your workflow.
+
 - [ ] Build source files (`sources/builds/`)
 
 Some type projects maintain a set of 'build sources', which are used as input to a build script. 

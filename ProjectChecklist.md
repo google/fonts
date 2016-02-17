@@ -111,13 +111,18 @@ Typically it will be based on a proposal document made by the designer for finan
 Project must include actual source files, the ones that we type designers use ourselves when drawing the design. 
 These are typically files with extensions like `.glyphs .ufo .vfb .sfd .sfdir`.
 These are often quite 'messy'. 
-Common indications of actual source files are:
+Common indications of actual source files in glyph drawings are:
 
 - guidelines
 - overlapping shapes
 - multiple layers with alternative drawings
 - unencoded glyphs with alternative drawings
 - 'smart components'
+
+For feature files:
+
+- descriptive comments
+- commented out blocks
 
 If using UFO, you should integrate [ufoNormalizer](https://github.com/unified-font-object/ufoNormalizer) into your workflow.
 
@@ -243,6 +248,9 @@ This is where to set the vertical metrics in FontLab 5:
 - [ ] Support fractions, superscript and subscript numerals https://www.glyphsapp.com/tutorials/fractions https://www.glyphsapp.com/tutorials/superscript-and-subscript-figures 
 - [ ] All kerning and GPOS in the font is checked for mistakes (eg using [Mark Foley's GlyphsApp script](https://github.com/m4rc1e/mf-glyphs-scripts))
 - [ ] Lowercase octothorpe ([discussion](http://typedrawers.com/discussion/1377/lowercase-hashtag#latest))
+
+You must comment all feature code that is not automatically generated.
+It’s not always obvious what OpenType code in a font does, particularly with non-Latin scripts where the features that are specific to a font can be entangled with features that are required for language support. 
 
 ## Test Documents
 

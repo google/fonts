@@ -1,6 +1,11 @@
 # Introduction
 
-This page lists how to learn enough about Git to move an open font project available in this Mercurial repository to a Git repository, and how to manage a open font project with it.
+This page offers a checklist for running a libre font project. 
+
+Since fonts are software, it is helpful to understand typical ways of running libre software projects. 
+
+* The [Producing Open Source Software](http://producingoss.com) book
+* A list of [99 anti-patterns](http://opensoul.org/2015/07/22/99ways/)
 
 ## Tools
 

@@ -88,8 +88,9 @@ See <https://github.com/davelab6/git-for-type-designers> for more details.
 Each Github repo must have a `.gitignore` file with at least the following contents
 
     .DS_Store
-    *.vfbak
     .empty
+	*(Autosaved).glyphs
+	*.vfbak
 
 - [ ] README.md
 
@@ -179,11 +180,7 @@ You may maintain a build script that runs the build steps, or you may make a tut
 - [ ] Clean repo
 
 There should not be 'stray' files in the repo. 
-Create a `.gitignore` file to prevent these being casually commited to the repo, as follows:
-
-    .empty
-    .DS_Store
-    *.vfbak
+The `.gitignore` file described above can prevent these being casually commited to the repo.
 
 - [ ] Binary files **as ttx**
  

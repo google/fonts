@@ -1,5 +1,5 @@
 name: "Erica One"
-designer: "LatinoType"
+designer: "Miguel Hernandez"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-18"

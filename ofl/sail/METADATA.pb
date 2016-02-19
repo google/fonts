@@ -1,5 +1,5 @@
 name: "Sail"
-designer: "LatinoType"
+designer: "Miguel Hernandez"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"

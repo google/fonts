@@ -224,9 +224,9 @@ Here is the corrected value:
 [pages.github.com](https://pages.github.com) offers a convenient way to create a blog the project, or host live testing pages.
 Some relevant links and examples:
 
-* https://github.com/barryclark/jekyll-now
-* http://tarobish.github.io/Mirza/index.html
-* http://tarobish.github.io/Katibeh/index.html
+* https://github.com/barryclark/jekyll-now is a helpful demo site
+* http://tarobish.github.io/Mirza/ and http://tarobish.github.io/Katibeh/ are advanced Arabic font testing pages
+* https://github.com/rosettatype/ is a great example of how to set up a Github Organization if you are practising as a foundry
 
 ## Post-Production
 

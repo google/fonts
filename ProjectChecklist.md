@@ -330,6 +330,10 @@ https://github.com/fonts/skeleton/blob/skeleton/tools/FONTLOG.py can generate on
 The attached ZIP should contain the README, OFL, FONTLOG and binary font files. 
 [github.com/daltonmaag/scope-one](https://github.com/daltonmaag/scope-one) is a good example of this approach.
 
+- [ ] Convert rich document formats (DOC, RTF, etc) to MarkDown
+
+For archival of reviews and so on, please convert any offline documents to MarkDown.
+
 ## Post Release
 
 - Promote your project on social media

@@ -95,6 +95,30 @@ Each Github repo must have a `.gitignore` file with at least the following conte
 
 Each Github repo must have a README.md that summarises the project, and inlines a sample.png file near the top.
 
+- [ ] OFL.txt
+
+Each Github repo must have an OFL.txt containing the full text of the SIL Open Font License, and a copyright notice on the first line. 
+Typically this notice does **not** have a Reserved Font Name at the end, or if it does, the name declared is not used anywhere else in the project. 
+
+Since the copyright authors can change over time, you may write the notice for the "Acme" family as 
+
+    Copyright 2016 The Acme Project Authors (info@foundry.com)
+
+If you do this ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/OFL.txt)) the project must list the authors, so include 2 more files:
+
+- `AUTHOR.txt` listing copyright holders. ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/AUTHORS.txt))
+- `CONTRIBUTORS.txt` listing people who contribute who are not direct copyright holders. For example, those who work for a company that holds their copyrights as part of their employment contract. ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/CONTRIBUTORS.txt))
+
+If there is only one copyright author, you may omit those two files and list them directly in the notice, such as
+
+    Copyright 2016 Firstname Lastname (name@domain.tld)
+
+If you have included parts of another font, such as OpenType feature code, or starting from someone else's design that you're contributing to, or taking in your own direction, you must retain their notices exactly **without changing them**, and prepend your own. For example
+
+    Copyright 2016 Firstname Lastname (name@domain.tld).  Copyright 2016 The Acme Project Authors (info@foundry.com) with Reserved Font Name 'Acme'. 
+
+The copyright notice on line 1 of the OFL.txt must match the copyright notice inside each font file.
+
 - [ ] `documentation/sample.png`
 
 A sample.png banner image showing the project, so people get an instant and visual overview. 
@@ -193,6 +217,7 @@ Here is the corrected value:
     This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
 - [ ] License URL is set to http://scripts.sil.org/OFL
+- [ ] Copyright matches line 1 of OFL.txt
 - [ ] Maintain a build script that applies ttfautohint with specific command line options and control file, that does not create a 'ttfautohint table' in production builds
 - [ ] Use a UPM of 1000 (even for TrueType fonts)
 - [ ] Keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font; Android TextView widgets will clip fonts beyond that if there's no explicit padding (and designers tend to work just in Latin, so are unlikely to set it) says [Raph](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ)

@@ -1,5 +1,5 @@
 name: "Cantata One"
-designer: "Joana Correia da Silva"
+designer: "Joana Correia"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-02-29"

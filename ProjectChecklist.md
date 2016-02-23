@@ -81,13 +81,27 @@ There is a Glyphs plugin that makes working with Git very natural, use it:  [git
 
 See <https://github.com/davelab6/git-for-type-designers> for more details. 
 
-### Repo Contents
+### Repository Setup
+
+- [ ] Create and name your repository
+
+The repository should be all lowercase, with no spaces or dashes `-` for spaces.
+
+If you are a collaborateive project or a foundry, you should set up a [Github organization](https://help.github.com/articles/creating-a-new-organization-account/) and create your repo inside that organization instead of inside your username. 
+
+* [Github Blog: Introducing Organizations](https://github.com/blog/674-introducing-organizations)
+* [Github Help: Setting up and managing organizations and teams](https://help.github.com/categories/setting-up-and-managing-organizations-and-teams/)
+* [Github Help: What's the difference between user and organization accounts?](https://help.github.com/articles/what-s-the-difference-between-user-and-organization-accounts/)
+
+Do not include the script name in your family name ([see discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1).)
 
 - [ ] Short summary and website
 
 At the top of the repo page is a summary input, that can be set to a short (10 words or less) description of the project. 
 
 If the project has a gh-pages branch (see below) then its URL can be included.
+
+### Repository Files
 
 - [ ] `.gitignore`
 

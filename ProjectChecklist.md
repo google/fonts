@@ -83,6 +83,12 @@ See <https://github.com/davelab6/git-for-type-designers> for more details.
 
 ### Repo Contents
 
+- [ ] Short summary and website
+
+At the top of the repo page is a summary input, that can be set to a short (10 words or less) description of the project. 
+
+If the project has a gh-pages branch (see below) then its URL can be included.
+
 - [ ] `.gitignore`
 
 Each Github repo must have a `.gitignore` file with at least the following contents

@@ -345,8 +345,8 @@ https://github.com/fonts/skeleton/blob/skeleton/tools/FONTLOG.py can generate on
 
 - [ ] Use the Github Releases system to tag a release of your git repository, and then upload a ZIP with the actual release OTF/TTF files.
 
-* https://github.com/blog/1547-release-your-software
 * https://help.github.com/articles/about-releases/
+* https://github.com/blog/1547-release-your-software
 * https://help.github.com/articles/creating-releases/
 
 The attached ZIP should contain the README, OFL, FONTLOG and binary font files. 

@@ -95,6 +95,10 @@ If you are a collaborateive project or a foundry, you should set up a [Github or
 
 Do not include the script name in your family name ([see discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1).)
 
+- [ ] Give any trademark permissions needed
+
+If your project declared trademarks ([example](https://github.com/mooniak/ayanna-font/blob/master/TRADEMARKS.md)) please ensure Google has permission to use them.
+
 - [ ] Short summary and website
 
 At the top of the repo page is a summary input, that can be set to a short (10 words or less) description of the project. 
@@ -235,6 +239,7 @@ Here is the corrected value:
 
 - [ ] License URL is set to http://scripts.sil.org/OFL
 - [ ] Copyright matches line 1 of OFL.txt
+- [ ] Trademark metadata is filled in if your project has trademarks ([example](https://github.com/mooniak/ayanna-font/blob/master/TRADEMARKS.md))
 - [ ] Maintain a build script that applies ttfautohint with specific command line options and control file, that does not create a 'ttfautohint table' in production builds
 - [ ] Use a UPM of 1000 (even for TrueType fonts)
 - [ ] Keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font; Android TextView widgets will clip fonts beyond that if there's no explicit padding (and designers tend to work just in Latin, so are unlikely to set it) says [Raph](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ)

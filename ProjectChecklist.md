@@ -160,6 +160,15 @@ Package manager for installing unix tools, such as FontForge.
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
     sudo xcodebuild -license;
 
+##### ttfautohint
+
+Autohinter for TTF files.
+[freetype.org/ttfautohint](http://freetype.org/ttfautohint/) and [manual](http://freetype.org/ttfautohint/doc/)
+
+Install the latest version of ttfautohint from git master:
+
+    brew install --HEAD ttfautohint --with-qt;
+
 ##### Web Font Tools
 
 Some command line web font tools can be useful for converting to and from various web font formats.

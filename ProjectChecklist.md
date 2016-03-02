@@ -19,6 +19,10 @@ This enables the public to see work in progress and point out issues during deve
 
 Github is a public project collaboration platform that is somewhat similar to Dropbox, but more fine-grained. 
 It provides the best and most well-designed experience for public project development.
+
+**Note:** The github messages are emailed to you and anyone who clicks 'watch' at the top of your project. 
+You can reply via email to these messages and they will be posted publicly on the Github issue tracker (although attachments will be dropped.)
+So its a good idea to set up an email filter to label github emails as such, to be sure you know when your reply will become public. 
  
 * The [Producing Open Source Software](http://producingoss.com) book
 * A list of [99 anti-patterns](http://opensoul.org/2015/07/22/99ways/)

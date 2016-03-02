@@ -520,6 +520,19 @@ Throughout development the 3 sets of vertical metrics should be set to the y bou
 The `fontbakery-fix-vertical-metrics.py` script can help with this. 
 It is wise to determine the tallest and deepest glyphs early in your process. 
 
+#### Codepages
+
+The codepages set will determine how the font family is ordered in some software's font family lists ([discussion](https://github.com/Tarobish/Jomhuria/issues/40).)
+
+In fonttools, Arabic fonts codepages can be set like this:
+
+    >>> font['OS/2'].ulCodePageRange1 = 64
+    >>> font['OS/2'].ulCodePageRange2 = 0
+
+Then the family will be included with the Arabic fonts, like this:
+
+![Katibeh in Adobe](https://cloud.githubusercontent.com/assets/8403973/13370134/8f5f3bd0-dcb4-11e5-8336-7b608ebe483e.png)
+
 ### Project Website
 
 [pages.github.com](https://pages.github.com) offers a convenient way to create a blog for the project, and host live testing pages.

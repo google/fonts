@@ -656,6 +656,7 @@ It’s not always obvious what OpenType code in a font does, particularly with n
 #### Slashed Zero 
 
 * https://www.glyphsapp.com/tutorials/slashed-zero
+* https://forum.glyphsapp.com/t/tabular-slashed-zero/3987
 
 #### Catalan 
 

@@ -8,7 +8,7 @@ Since fonts are software, it is helpful for all type designers to understand typ
 For type designers involved in starting or participating in libre font projects, it is especially helpful to understand how libre software project operate.
 
 The libre software culture has had an influence on restricted software development practices, and is a leading influence on type design today. 
-David Lemon said at ATypI 2014 how the Adobe Type team has benefited from libre fonts culture, and that Git and Github was one of the most positive things ([reference](https://www.youtube.com/watch?v=DBz0rVUYNPA).)
+David Lemon, the senior manager of the Adobe Type group, said at ATypI 2014 how the Adobe Type team has benefited from libre fonts culture, and that Git and Github was one of the most positive things ([reference](https://www.youtube.com/watch?v=DBz0rVUYNPA).)
 Adobe have recently used the "publish early and often, gathering feedback" approach typical of libre project with the Vortice typeface project ([reference](http://blog.typekit.com/2015/03/04/introducing-vortice-and-the-adobe-type-concepts-program/).) 
 A Thai type designer and web developer said this about his experience with Git:
 

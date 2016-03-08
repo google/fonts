@@ -252,7 +252,7 @@ To use icdiff with the `git` command:
 
 ### Github
 
-There are many good guides for learning ho to use Github around the web, including:
+There are many good guides for learning how to use Github around the web, including:
 
 * <https://github.com/davelab6/git-for-type-designers>
 * <https://try.github.io>, a 15 minute interactive game
@@ -275,7 +275,13 @@ Aim for short, snappy, memorable name that is easy to pronounce in English. Long
 
 Do not use a name already used by another published font project. [namecheck.fontdata.com](http://namecheck.fontdata.com) is a handy tool to assist such checks, along with a general web search for `name + font`
 
-Do not include any script or language names. Eg, `Acme Arabic` or `Acme Persian` ([discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1).)
+Do not include any script or language names. Eg, `Acme Arabic` or `Acme Persian`. 
+(The Google Fonts API will by default serve only Basic Latin fonts; users must specify additoinal scripts. 
+This means a family named "Family Script" will be confusing because the font will often not contain any support for that script. 
+More details in this [discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1).)
+
+You may include stylistic of genre names in the family name. 
+There are already families such as "Family Cursive" or "Family Sans" or "Family Mono," and other scripts also have visual genre names that do not refer to a particular language or set of unicode characters, like "Family Nastaliq" or "Family Kufi" or "Family Naskh" for Arabic genres.
 
 Do not use any company names, including your own. Google and other distributors can not redistribute the fonts without appearing to endose a so named company, and in this case will need to rename the fonts
 

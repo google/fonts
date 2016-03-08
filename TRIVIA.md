@@ -55,6 +55,7 @@ Here is a list of 3rd party directories:
 * http://abbychen.me/punch
 * http://typewonder.com
 * http://www.localfont.com
+* http://open-foundry.com
 
 There are also handcrafted directories with rich samples:
 

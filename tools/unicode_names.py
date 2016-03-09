@@ -7,7 +7,8 @@ import gflags as flags
 
 FLAGS = flags.FLAGS
 
-flags.DEFINE_string('nam_file', '', 'Location of file containing the codepoints')
+flags.DEFINE_string('nam_file', None, 'Location of nam file')
+flags.MarkFlagAsRequired('nam_file')
 
 
 def main(_):

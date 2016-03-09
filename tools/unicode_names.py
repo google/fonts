@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import unicodedata
+import unicodedata, sys
 
 from google.apputils import app
 import gflags as flags
@@ -9,6 +9,8 @@ FLAGS = flags.FLAGS
 
 flags.DEFINE_string('nam_file', '', 'Location of file containing the codepoints')
 
+if FLAGS.nam_file == ":
+  FLAGS.nam_file = sys.argv[1]
 
 def main(_):
   with open(FLAGS.nam_file, 'r') as f:

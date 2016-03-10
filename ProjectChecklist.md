@@ -491,7 +491,7 @@ The `gasp` should be set to 15
 
 #### License
 
-The license metadata should be set to the long line (which is cut off on Github, but if you triple click to select the whole line, you'll get it all:
+The license metadata should be set to the long line (which is cut off on Github, but if you triple click to select the whole line, you'll get it all - and watch out for your editor adding an unneccessary line break after the line when you paste it:
 
     This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 

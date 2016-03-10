@@ -618,7 +618,7 @@ Support mark based diacritics
 * https://www.glyphsapp.com/tutorials/diacritics 
 * https://www.glyphsapp.com/tutorials/advanced-diacritics-multiple-anchors
 * https://www.glyphsapp.com/tutorials/advanced-diacritics-narrow-marks
-* COD (FIXME TODO add link)
+* http://www.urtd.net/x/cod (+ introduction at http://www.urtd.net/blog/cod)
 
 #### Future Proof Tallest + Deepest Glyphs
 
@@ -676,13 +676,18 @@ It’s not always obvious what OpenType code in a font does, particularly with n
 
 * https://www.glyphsapp.com/tutorials/localize-your-font-accented-dutch-ij
 
+TODO As of March 2016 this Glyphs tutorial is incomplete, we should find how what is needed to make it complete.
+
 #### German 
 
 * https://www.glyphsapp.com/tutorials/localize-your-font-german-capital-sharp-s
 
 #### Polish 
 
-* https://www.glyphsapp.com/tutorials/localize-your-font-polish-kreska http://www.twardoch.com/download/polishhowto/ogonek.html 
+* https://www.glyphsapp.com/tutorials/localize-your-font-polish-kreska 
+* http://www.twardoch.com/download/polishhowto/ogonek.html 
+
+TODO The Polish kreska is not always needed, we should find out when it is and is not needed. 
 
 #### Romanian and Moldovian 
 

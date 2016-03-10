@@ -522,13 +522,13 @@ Use a UPM of 1000 (even for TrueType fonts)
 
 #### Vertical Metrics
 
-Keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font.
-
-Android TextView widgets will clip fonts beyond that if there's no explicit padding, and app designers tend to work just in Latin, so are unlikely to set it) ([discussion](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ))
-
-Throughout development the 3 sets of vertical metrics should be set to the y bounding box of the family, and both linegaps should be set to zero.
+Throughout development the 3 sets of vertical metrics should be set to the y bounding box **of the family,** and both linegaps should be set to zero.
 The `fontbakery-fix-vertical-metrics.py` script can help with this. 
-It is wise to determine the tallest and deepest glyphs early in your process. 
+It is wise to determine the tallest and deepest glyphs possible in the design early in your process; these may be outside the glyph set you are intending to cover during this round of development, but should be set to allow for future development without changing the vertical metrics.
+
+Ideally, keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font.
+At the time of writing (late 2015) Android TextView widgets will clip fonts beyond that if there's no explicit padding, and app designers tend to work just in Latin, so are unlikely to set it ([discussion](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ).
+However, this may mean that your design would be scaled small on the body, so you can go outside this range if you need to. 
 
 #### Codepages
 

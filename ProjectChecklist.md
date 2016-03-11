@@ -438,6 +438,7 @@ Common indications of build source files are:
 #### `sources/README.md`
 
 Build process documentation, that explains the steps you take to build your sources into binary files.
+This might also be named `BUILD-HOWTO.md` or `BUILD-INSTRUCTIONS.md`, but if it is named README.md then when you browse the `sources/` directory on Github it will be shown inline at the bottom of the page.
 
 #### `tools/build.py` 
 
@@ -495,7 +496,12 @@ You can do this by passing an argument to the fontforge python `font.generate()`
 
 #### DSIG table
 
-The `DSIG` table should be included
+The `DSIG` table should be included.
+
+There is a fontbakery tool to add one, that uses fonttools:
+
+    fontbakery-fix-dsig.py Family-Style.ttf --autofix;
+    mv Family-Style.ttf.fix Family-Style.ttf;
 
 #### gasp table 
 
@@ -523,10 +529,18 @@ Only if required, trademark metadata should be filled in ([example](https://gith
 
 #### TTFAutohint Settings and Controls File
 
-Develop your build process or script early on in your process to apply ttfautohint with the relevant specific command line options and a stub control file to build on over time.
+Early on in your development process, add ttf output and ttfautohint to your build process or script, and test the output on various Windows browsers. 
+Be sure to use all relevant and specific command line options, which you can learn about in the ttfautohint manual.
 
-* ttfautohint info should include version and parameters
-* TTFA Info Table should not be included
+You can improve the results of ttfautohint using a 'controls' file.
+Early on in your development process, add a 'stub' controls file and improve it as the design progresses. 
+There is often a sweet spot that you can reach early in the design process by scaling your design to improve the base ttfautohint results, reducing the need for controls file adjustments.
+
+ttfautohint info should include version and parameters, by passing the `-I` option.
+
+TTFA Info Table should not be included.
+
+* TTFAutohint manual is at http://freetype.org/ttfautohint/doc/ttfautohint.html
 
 #### UPM
 
@@ -749,10 +763,11 @@ A secondary point is the Github releases system, which is the best way of markin
 
 Its important that the version fields inside the source and binary font files in a release (eg in the NAME table, or Font Info inputs) match the version labelled on the release. 
 
-[semver.org(http://semver.org) is growing in popularity as a deeply considered way of versioning software. 
-But it does not work well for fonts because the OpenType standard only allows binary font metadata to have one period separator. 
+[semver.org](http://semver.org) is growing in popularity as a deeply considered way of versioning software that uses 3 version numbers, `MAJOR.MINOR.PATCH`, but it does not work well for fonts because the OpenType standard only allows binary font metadata to have one period separator. 
 
 So a `MAJOR.MINOR-or-PATCH` scheme is better for fonts, starting with `1.000` and incrementing from there (`1.001`, `1.002`, etc.) 
+
+A MAJOR number of 0 will cause problems for some software, so `0.1` is not allowed.
 
 It would be good to have some note in the version string where possible like 'development version' that is removed when making a release build. 
 Some systems will not accept fonts with a version number of `0.something` so that can be good to use in development sources.

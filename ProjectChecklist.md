@@ -543,6 +543,14 @@ Then the family will be included with the Arabic fonts, like this:
 
 ![Katibeh in Adobe](https://cloud.githubusercontent.com/assets/8403973/13370134/8f5f3bd0-dcb4-11e5-8336-7b608ebe483e.png)
 
+#### Vendor ID
+
+You may wish to set the OS/2 Vendor ID to your own 4 ASCII character value. 
+Your value should be registered with Microsoft. 
+If you do not yet have a value, review the Microsoft list to ensure your value is unique.
+
+* https://www.microsoft.com/typography/links/vendorlist.aspx
+
 ### Project Website
 
 [pages.github.com](https://pages.github.com) offers a convenient way to create a blog for the project, and host live testing pages.

@@ -372,9 +372,13 @@ If you do trademark your project name, license your trademarks for redistributio
 
 During the course of a project many documents may be written that can be useful to store for archival purposes, such as email reviews and so on.
 
-Convert any offline rich document formats (DOC, RTF, etc) to MarkDown.
+If you wish to include dated versions of files inside the version control system repository, the filenames should start with YYYY-MM-DD so that when the directory is listed alphabetically, the contents are sorted by date order.
 
-* FIXME TODO links to documentions and applications for working with MarkDown
+Convert any offline rich document formats (DOC, RTF, etc) to MarkDown.
+Some handy MarkDown editors are:
+
+* http://macdown.uranusjr.com
+* https://cloose.github.io/CuteMarkEd
 
 #### `documentation/sample.png`
 
@@ -431,7 +435,7 @@ Common indications of build source files are:
 * no unusual or additional unencoded glyphs with alternative drawings
 * no 'smart components'
 
-#### `documentation/README.md`
+#### `sources/README.md`
 
 Build process documentation, that explains the steps you take to build your sources into binary files.
 
@@ -483,6 +487,11 @@ The `fsType` embedding bits must be set to 0.
 ![Set fsType to 0 in Glyphs](ProjectChecklist-G-fstype.png)
 
 ![Set fsType to 0 in FontLab 5](ProjectChecklist-FL-fstype.png)
+
+#### FFTM
+
+If you are using FontForge, do not include the `FFTM` table.
+You can do this by passing an argument to the fontforge python `font.generate()` argument.
 
 #### DSIG table
 

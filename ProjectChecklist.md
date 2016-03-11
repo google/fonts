@@ -187,7 +187,10 @@ Web font sanitiser, used by Firefox and Chromium to reject buggy binary font fil
 **Your OTF and TTF files must pass its checks.**
 
     brew install ots --HEAD; # install
-		ot-sanitiser font.ttf; # run
+
+Use it like this:
+
+    ot-sanitiser font.ttf; # run on a single file
 
 (When run and no output appears, it means the file is good.)
 

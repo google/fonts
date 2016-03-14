@@ -193,7 +193,10 @@ Web font sanitiser, used by Firefox and Chromium to reject buggy binary font fil
 **Your OTF and TTF files must pass its checks.**
 
     brew install ots --HEAD; # install
-		ot-sanitiser font.ttf; # run
+
+Use it like this:
+
+    ot-sanitiser font.ttf; # run on a single file
 
 (When run and no output appears, it means the file is good.)
 
@@ -258,7 +261,7 @@ To use icdiff with the `git` command:
 
 ### Github
 
-There are many good guides for learning ho to use Github around the web, including:
+There are many good guides for learning how to use Github around the web, including:
 
 * <https://github.com/davelab6/git-for-type-designers>
 * <https://try.github.io>, a 15 minute interactive game
@@ -281,7 +284,13 @@ Aim for short, snappy, memorable name that is easy to pronounce in English. Long
 
 Do not use a name already used by another published font project. [namecheck.fontdata.com](http://namecheck.fontdata.com) is a handy tool to assist such checks, along with a general web search for `name + font`
 
-Do not include any script or language names. Eg, `Acme Arabic` or `Acme Persian` ([discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1).)
+Do not include any script or language names. Eg, `Acme Arabic` or `Acme Persian`. 
+(The Google Fonts API will by default serve only Basic Latin fonts; users must specify additoinal scripts. 
+This means a family named "Family Script" will be confusing because the font will often not contain any support for that script. 
+More details in this [discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1).)
+
+You may include stylistic of genre names in the family name. 
+There are already families such as "Family Cursive" or "Family Sans" or "Family Mono," and other scripts also have visual genre names that do not refer to a particular language or set of unicode characters, like "Family Nastaliq" or "Family Kufi" or "Family Naskh" for Arabic genres.
 
 Do not use any company names, including your own. Google and other distributors can not redistribute the fonts without appearing to endose a so named company, and in this case will need to rename the fonts
 
@@ -376,9 +385,13 @@ If you do trademark your project name, license your trademarks for redistributio
 
 During the course of a project many documents may be written that can be useful to store for archival purposes, such as email reviews and so on.
 
-Convert any offline rich document formats (DOC, RTF, etc) to MarkDown.
+If you wish to include dated versions of files inside the version control system repository, the filenames should start with YYYY-MM-DD so that when the directory is listed alphabetically, the contents are sorted by date order.
 
-* FIXME TODO links to documentions and applications for working with MarkDown
+Convert any offline rich document formats (DOC, RTF, etc) to MarkDown.
+Some handy MarkDown editors are:
+
+* http://macdown.uranusjr.com
+* https://cloose.github.io/CuteMarkEd
 
 #### `documentation/sample.png`
 
@@ -438,6 +451,7 @@ Common indications of build source files are:
 #### `sources/README.md`
 
 Build process documentation, that explains the steps you take to build your sources into binary files.
+This might also be named `BUILD-HOWTO.md` or `BUILD-INSTRUCTIONS.md`, but if it is named README.md then when you browse the `sources/` directory on Github it will be shown inline at the bottom of the page.
 
 #### `tools/build.py` 
 
@@ -494,9 +508,19 @@ You should set your own unique VendorID and register it with Microsoft.
 
 * https://www.microsoft.com/typography/otspec/os2.htm#vendid
 
+#### FFTM
+
+If you are using FontForge, do not include the `FFTM` table.
+You can do this by passing an argument to the fontforge python `font.generate()` argument.
+
 #### DSIG table
 
-The `DSIG` table should be included
+The `DSIG` table should be included.
+
+There is a fontbakery tool to add one, that uses fonttools:
+
+    fontbakery-fix-dsig.py Family-Style.ttf --autofix;
+    mv Family-Style.ttf.fix Family-Style.ttf;
 
 #### gasp table 
 
@@ -504,7 +528,7 @@ The `gasp` should be set to 15
 
 #### License
 
-The license metadata should be set to
+The license metadata should be set to the long line (which is cut off on Github, but if you triple click to select the whole line, you'll get it all - and watch out for your editor adding an unneccessary line break after the line when you paste it:
 
     This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
@@ -524,10 +548,18 @@ Only if required, trademark metadata should be filled in ([example](https://gith
 
 #### TTFAutohint Settings and Controls File
 
-Develop your build process or script early on in your process to apply ttfautohint with the relevant specific command line options and a stub control file to build on over time.
+Early on in your development process, add ttf output and ttfautohint to your build process or script, and test the output on various Windows browsers. 
+Be sure to use all relevant and specific command line options, which you can learn about in the ttfautohint manual.
 
-* ttfautohint info should include version and parameters
-* TTFA Info Table should not be included
+You can improve the results of ttfautohint using a 'controls' file.
+Early on in your development process, add a 'stub' controls file and improve it as the design progresses. 
+There is often a sweet spot that you can reach early in the design process by scaling your design to improve the base ttfautohint results, reducing the need for controls file adjustments.
+
+ttfautohint info should include version and parameters, by passing the `-I` option.
+
+TTFA Info Table should not be included.
+
+* TTFAutohint manual is at http://freetype.org/ttfautohint/doc/ttfautohint.html
 
 #### UPM
 
@@ -535,13 +567,13 @@ Use a UPM of 1000 (even for TrueType fonts)
 
 #### Vertical Metrics
 
-Keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font.
-
-Android TextView widgets will clip fonts beyond that if there's no explicit padding, and app designers tend to work just in Latin, so are unlikely to set it) ([discussion](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ))
-
-Throughout development the 3 sets of vertical metrics should be set to the y bounding box of the family, and both linegaps should be set to zero.
+Throughout development the 3 sets of vertical metrics should be set to the y bounding box **of the family,** and both linegaps should be set to zero.
 The `fontbakery-fix-vertical-metrics.py` script can help with this. 
-It is wise to determine the tallest and deepest glyphs early in your process. 
+It is wise to determine the tallest and deepest glyphs possible in the design early in your process; these may be outside the glyph set you are intending to cover during this round of development, but should be set to allow for future development without changing the vertical metrics.
+
+Ideally, keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font.
+At the time of writing (late 2015) Android TextView widgets will clip fonts beyond that if there's no explicit padding, and app designers tend to work just in Latin, so are unlikely to set it ([discussion](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ).
+However, this may mean that your design would be scaled small on the body, so you can go outside this range if you need to. 
 
 #### Codepages
 
@@ -555,6 +587,14 @@ In fonttools, Arabic fonts codepages can be set like this:
 Then the family will be included with the Arabic fonts, like this:
 
 ![Katibeh in Adobe](https://cloud.githubusercontent.com/assets/8403973/13370134/8f5f3bd0-dcb4-11e5-8336-7b608ebe483e.png)
+
+#### Vendor ID
+
+You may wish to set the OS/2 Vendor ID to your own 4 ASCII character value. 
+Your value should be registered with Microsoft. 
+If you do not yet have a value, review the Microsoft list to ensure your value is unique.
+
+* https://www.microsoft.com/typography/links/vendorlist.aspx
 
 ### Project Website
 
@@ -631,7 +671,7 @@ Support mark based diacritics
 * https://www.glyphsapp.com/tutorials/diacritics 
 * https://www.glyphsapp.com/tutorials/advanced-diacritics-multiple-anchors
 * https://www.glyphsapp.com/tutorials/advanced-diacritics-narrow-marks
-* COD (FIXME TODO add link)
+* http://www.urtd.net/x/cod (+ introduction at http://www.urtd.net/blog/cod)
 
 #### Future Proof Tallest + Deepest Glyphs
 
@@ -689,13 +729,18 @@ It’s not always obvious what OpenType code in a font does, particularly with n
 
 * https://www.glyphsapp.com/tutorials/localize-your-font-accented-dutch-ij
 
+TODO As of March 2016 this Glyphs tutorial is incomplete, we should find how what is needed to make it complete.
+
 #### German 
 
 * https://www.glyphsapp.com/tutorials/localize-your-font-german-capital-sharp-s
 
 #### Polish 
 
-* https://www.glyphsapp.com/tutorials/localize-your-font-polish-kreska http://www.twardoch.com/download/polishhowto/ogonek.html 
+* https://www.glyphsapp.com/tutorials/localize-your-font-polish-kreska 
+* http://www.twardoch.com/download/polishhowto/ogonek.html 
+
+TODO The Polish kreska is not always needed, we should find out when it is and is not needed. 
 
 #### Romanian and Moldovian 
 
@@ -737,10 +782,11 @@ A secondary point is the Github releases system, which is the best way of markin
 
 Its important that the version fields inside the source and binary font files in a release (eg in the NAME table, or Font Info inputs) match the version labelled on the release. 
 
-[semver.org(http://semver.org) is growing in popularity as a deeply considered way of versioning software. 
-But it does not work well for fonts because the OpenType standard only allows binary font metadata to have one period separator. 
+[semver.org](http://semver.org) is growing in popularity as a deeply considered way of versioning software that uses 3 version numbers, `MAJOR.MINOR.PATCH`, but it does not work well for fonts because the OpenType standard only allows binary font metadata to have one period separator. 
 
 So a `MAJOR.MINOR-or-PATCH` scheme is better for fonts, starting with `1.000` and incrementing from there (`1.001`, `1.002`, etc.) 
+
+A MAJOR number of 0 will cause problems for some software, so `0.1` is not allowed.
 
 It would be good to have some note in the version string where possible like 'development version' that is removed when making a release build. 
 Some systems will not accept fonts with a version number of `0.something` so that can be good to use in development sources.

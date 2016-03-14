@@ -20,6 +20,12 @@ This enables the public to see work in progress and point out issues during deve
 Github is a public project collaboration platform that is somewhat similar to Dropbox, but more fine-grained. 
 It provides the best and most well-designed experience for public project development.
 
+However, it is very project-centered. 
+
+Please join the Fonts-Discuss Google Group, and when you have some work to show start a new thread and describe the work. You'll see a lot of other Israeli designers did the same, and the responses have been great.
+
+If possible, add screenshots of your designs in your posts (and not just links to Github) - it makes the conversation on the Google Group much easier.
+
 **Note:** The github messages are emailed to you and anyone who clicks 'watch' at the top of your project. 
 You can reply via email to these messages and they will be posted publicly on the Github issue tracker (although attachments will be dropped.)
 So its a good idea to set up an email filter to label github emails as such, to be sure you know when your reply will become public. 
@@ -320,12 +326,19 @@ If the project has a gh-pages branch (see below) then use that URL, typically `h
 
 ### Repository Files
 
-#### `.gitignore`
+#### Keep a clean repo, with `.gitignore`
+
+There should not be 'stray' files in the repo. 
+
+The `.gitignore` file can prevent such files being casually commited to the repo.
 
 Each Github repo must have a `.gitignore` file with at least the following contents
 
-    .DS_Store
+    # file manager empty files
+		.DS_Store
     .empty
+    .sparkleshare
+		# font editor temporary files
     *(Autosaved).glyphs
     *.vfbak
 
@@ -422,7 +435,7 @@ Common indications of build source files are:
 * no unusual or additional unencoded glyphs with alternative drawings
 * no 'smart components'
 
-#### `documentation/README.md`
+#### `sources/README.md`
 
 Build process documentation, that explains the steps you take to build your sources into binary files.
 
@@ -431,11 +444,6 @@ Build process documentation, that explains the steps you take to build your sour
 You may maintain a build script that runs the build steps. 
 
 This typically accompanies the documentation above for taking those steps manually (or a mix.)
-
-#### Clean repo
-
-There should not be 'stray' files in the repo. 
-The `.gitignore` file described above can prevent such files being casually commited to the repo.
 
 #### `fonts/otf/` and `fonts/ttf/` 
 
@@ -457,6 +465,11 @@ Here are production steps you can take at the start of a project when setting up
 
 Set up all your masters and instances at the start of the project to keep the project process iterative. 
 
+You should plan and develop the weights of each instance early in the process.
+The Impallari Type Family Steps page helps to plan the weight progression on a curve, so that the weight of middle instances are suitably light.
+
+* http://www.impallari.com/familysteps
+
 Name files and naming-metadata so that your OTF and TTF files follow this ([family naming scheme spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
 
 Here is the default value in FontLab 5:
@@ -474,6 +487,12 @@ The `fsType` embedding bits must be set to 0.
 ![Set fsType to 0 in Glyphs](ProjectChecklist-G-fstype.png)
 
 ![Set fsType to 0 in FontLab 5](ProjectChecklist-FL-fstype.png)
+
+#### VendorID
+
+You should set your own unique VendorID and register it with Microsoft.
+
+* https://www.microsoft.com/typography/otspec/os2.htm#vendid
 
 #### DSIG table
 

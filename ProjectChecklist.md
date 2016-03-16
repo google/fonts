@@ -484,7 +484,7 @@ The Impallari Type Family Steps page helps to plan the weight progression on a c
 
 * http://www.impallari.com/familysteps
 
-Name files and naming-metadata so that your OTF and TTF files follow this ([family naming scheme spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
+Name files and naming-metadata canonically, so that your OTF and TTF files follow this ([family naming scheme spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
 
 Here is the default value in FontLab 5:
 

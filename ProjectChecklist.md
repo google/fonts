@@ -87,6 +87,15 @@ Like Windows, if your main working environment is Mac OS X, it can be run as vir
 * [Firefox 44](https://www.getfirefox.com)
 * [Opera 31](https://www.opera.com)
 
+#### FontForge PPA
+
+A FontForge PPA is available. 
+TODO include details
+
+Install the python module with
+
+    apt-get install python-fontforge;
+
 ### Mac
 
 #### Web Browsers
@@ -169,6 +178,14 @@ Package manager for installing unix tools, such as FontForge.
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
     sudo xcodebuild -license;
+
+#### FontForge
+
+FontForge offers a python module that can be useful.
+[fontforge.org](https://fontforge.org)
+
+    brew install python; 
+    brew install fontforge --HEAD;
 
 ##### ttfautohint
 

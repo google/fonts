@@ -192,13 +192,17 @@ Some command line web font tools can be useful for converting to and from variou
 Web font sanitiser, used by Firefox and Chromium to reject buggy binary font files. 
 **Your OTF and TTF files must pass its checks.**
 
+Install [homebrew](#homebrew) (as above) then:
+
+    brew tap bramstein/webfonttools; 
+    brew update; 
     brew install ots --HEAD; # install
 
 Use it like this:
 
-    ot-sanitiser font.ttf; # run on a single file
+    ot-sanitiser font.ttf;
 
-(When run and no output appears, it means the file is good.)
+When run and no output appears, it means the file is good.
 
 ##### fontbakery 
 

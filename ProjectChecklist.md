@@ -505,6 +505,8 @@ Set up all your masters and instances at the start of the project to keep the pr
 
 You should plan and develop the weights of each instance early in the process.
 The Impallari Type Family Steps page helps to plan the weight progression on a curve, so that the weight of middle instances are suitably light.
+The master and instance interpolation values should be representative of stem weights. 
+This makes it easier for people who want generate their own fonts in the future to do so. 
 
 * http://www.impallari.com/familysteps
 

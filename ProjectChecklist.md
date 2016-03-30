@@ -268,11 +268,11 @@ File/folder comparison application and tool, that shows two files or directories
 To compare two fonts using fonttools `ttx` and `meld`:
 
     mkdir OLD;
-		mkdir NEW;
-		mv Acme*.ttf OLD/;
-		mv ~/Desktop/Acme*.ttf NEW/;
-		ttx -s */*ttf;
-		meld OLD NEW;
+    mkdir NEW;
+    mv Acme*.ttf OLD/;
+    mv ~/Desktop/Acme*.ttf NEW/;
+    ttx -s */*ttf;
+    meld OLD NEW;
 
 To use icdiff with the `git` command:
 
@@ -368,10 +368,10 @@ The `.gitignore` file can prevent such files being casually commited to the repo
 Each Github repo must have a `.gitignore` file with at least the following contents
 
     # file manager empty files
-		.DS_Store
+    .DS_Store
     .empty
     .sparkleshare
-		# font editor temporary files
+    # font editor temporary files
     *(Autosaved).glyphs
     *.vfbak
 

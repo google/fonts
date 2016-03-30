@@ -303,7 +303,7 @@ If you use Glyphs, use this plugin that makes working with Git just like saving:
 
 Aim for short, snappy, memorable name that is easy to pronounce in English. Long names can be harder for people to remember and type correctly, and problematic for software with name length limitations.
 
-You may include stylistic of genre names in the family name. 
+You may include stylistic or genre names in the family name. 
 There are already families such as "Family Cursive" or "Family Sans" or "Family Mono," and other scripts also have visual genre names that do not refer to a particular language or set of unicode characters, like "Family Nastaliq" or "Family Kufi" or "Family Naskh" for Arabic genres.
 
 Do not use a name already used by another published font project. [namecheck.fontdata.com](http://namecheck.fontdata.com) is a handy tool to assist such checks, along with a general web search for `name + font`

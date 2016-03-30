@@ -310,15 +310,17 @@ Do not use a name already used by another published font project. [namecheck.fon
 
 Do not include any script or language names. Eg, `Acme Arabic` or `Acme Persian`. 
 (The Google Fonts API will by default serve only Basic Latin fonts; users must specify additoinal scripts. 
-This means a family named "Family Script" will be confusing because the font will often not contain any support for that script. 
+This means a family named with a language or script in the name will confuse users, because the font will often be served without any support for that language or script. 
 More details in this [discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1).)
 
 Do not use non-ASCII alphabet characters in the family name: 
 No dashes, numbers, or diacritics.
 
-Do not use any company names, including your own. Google and other distributors can not redistribute the fonts without appearing to endose a so named company, and in this case will need to rename the fonts
+Do not use any company names, including your own. 
+Large distributors (such as Google) can not redistribute the fonts without neccessarily endorsing the named company, and companies with policies against endorsement will therefore need to rename the fonts, which is not ideal.  
 
-Do not use anyone else's trademark names. Google and other redistributors may not be able to get permission to use the trademark, even if you can
+Do not use any trademark names. 
+Google and other redistributors may not be able to get permission to use the trademark, even if you can.
 
 If you are making a libre version of your prior proprietary font, or designing something in an established genre, add "Libre" or a local equivalent to that well-known name Eg, `Vesper Libre` or `Libre Baskerville` or `David Hofshi` (Hebrew) or `Something Mukta` (Hindi)
 

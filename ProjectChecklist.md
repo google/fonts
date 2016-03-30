@@ -622,6 +622,12 @@ If you do not yet have a value, review the Microsoft list to ensure your value i
 
 * https://www.microsoft.com/typography/links/vendorlist.aspx
 
+#### Glyphs Specific Steps
+
+If you are using the Glyphs editor, there are some specific steps you should take. 
+
+Font Info, Font, Compact File Storage enabled.
+
 ### Project Website
 
 [pages.github.com](https://pages.github.com) offers a convenient way to create a blog for the project, and host live testing pages.

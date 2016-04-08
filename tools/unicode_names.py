@@ -8,7 +8,6 @@ import gflags as flags
 FLAGS = flags.FLAGS
 
 flags.DEFINE_string('nam_file', None, 'Location of nam file')
-flags.MarkFlagAsRequired('nam_file')
 
 
 def main(_):
@@ -26,4 +25,5 @@ def _ReformatLine(line):
     return line
 
 if __name__ == '__main__':
+  flags.MarkFlagAsRequired('nam_file')
   app.run()

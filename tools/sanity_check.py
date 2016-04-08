@@ -296,13 +296,13 @@ def _CheckFontOS2Values(path, font, ttf):
           font_file, expected_style, expected_weight, marked_oblique),
       full_font_file, _FixFsSelectionBit('OBLIQUE', expect_oblique)))
 
-  # For weight < 300, just confirm 250<weight<300
+  # For weight < 300, just confirm weight [250, 300)
   # TODO(user): we should also verify ordering is correct
   weight_ok = expected_weight == actual_weight
   weight_msg = str(expected_weight)
   if expected_weight < 300:
-    weight_ok = actual_weight > 250 and actual_weight < 300
-    weight_msg = '(250, 300)'
+    weight_ok = actual_weight >= 250 and actual_weight < 300
+    weight_msg = '[250, 300)'
 
   results.append(ResultMessageTuple(
       weight_ok,

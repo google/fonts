@@ -25,7 +25,7 @@ Fonts in Early Access do not have METADATA.pb files.
 
 ### Install on Windows
 
-You can install all of the fonts using Windows power shell. Change directories to the folder where you downloaded the package, and run the following command:
+You can install all of the fonts using Windows PowerShell. Change directories to the folder where you downloaded the package, and run the following command:
 ```
 $fonts = (New-Object -ComObject Shell.Application).Namespace(0x14)
 dir ofl/*/*.ttf | %{ $fonts.CopyHere($_.fullname) }

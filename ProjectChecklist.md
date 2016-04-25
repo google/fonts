@@ -202,7 +202,7 @@ Some command line web font tools can be useful for converting to and from variou
 
     brew tap bramstein/webfonttools; 
     brew update; 
-    brew install sfnt2woff sfnt2woff-zopfli woff2 ttf2eot sfntly;
+    brew install sfnt2woff sfnt2woff-zopfli woff2 ttf2eot sfntly vfb2ufo;
 
 ##### OTS 
 

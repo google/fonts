@@ -12,8 +12,8 @@ fonts {
   full_name: "Baloo Bhaina"
   copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "oriya"
 subsets: "vietnamese"

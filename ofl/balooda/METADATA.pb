@@ -12,8 +12,8 @@ fonts {
   full_name: "Baloo Da"
   copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
 }
-subsets: "menu"
 subsets: "bengali"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

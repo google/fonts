@@ -12,8 +12,8 @@ fonts {
   full_name: "Baloo Chettan"
   copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "malayalam"
+subsets: "menu"
 subsets: "vietnamese"

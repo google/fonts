@@ -12,8 +12,8 @@ fonts {
   full_name: "Baloo"
   copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

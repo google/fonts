@@ -1,5 +1,5 @@
 name: "Plaster"
-designer: "Eben Sorkin"
+designer: "Sorkin Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-13"

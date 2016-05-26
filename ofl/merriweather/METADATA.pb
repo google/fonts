@@ -1,5 +1,5 @@
 name: "Merriweather"
-designer: "Eben Sorkin"
+designer: "Sorkin Type"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-05-11"

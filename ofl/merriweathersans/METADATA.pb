@@ -1,5 +1,5 @@
 name: "Merriweather Sans"
-designer: "Eben Sorkin"
+designer: "Sorkin Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-03-06"

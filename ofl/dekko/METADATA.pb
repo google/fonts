@@ -1,5 +1,5 @@
 name: "Dekko"
-designer: "Eben Sorkin"
+designer: "Sorkin Type"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2015-01-28"

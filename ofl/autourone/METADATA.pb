@@ -1,5 +1,5 @@
 name: "Autour One"
-designer: "Eben Sorkin"
+designer: "Sorkin Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-05-15"

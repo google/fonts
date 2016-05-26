@@ -1,5 +1,5 @@
 name: "Asar"
-designer: "Eben Sorkin"
+designer: "Sorkin Type"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-06-17"

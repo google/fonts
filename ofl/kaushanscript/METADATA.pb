@@ -1,5 +1,5 @@
 name: "Kaushan Script"
-designer: "Pablo Impallari"
+designer: "Impallari Type"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-01-25"

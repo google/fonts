@@ -1,5 +1,5 @@
 name: "Caveat Brush"
-designer: "Pablo Impallari"
+designer: "Impallari Type"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2015-09-23"

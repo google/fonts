@@ -1,5 +1,5 @@
 name: "Dosis"
-designer: "Pablo Impallari"
+designer: "Impallari Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-03-20"

@@ -1,5 +1,5 @@
 name: "Quattrocento Sans"
-designer: "Pablo Impallari"
+designer: "Impallari Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-15"

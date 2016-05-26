@@ -1,5 +1,5 @@
 name: "Lobster Two"
-designer: "Pablo Impallari"
+designer: "Impallari Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-06-21"

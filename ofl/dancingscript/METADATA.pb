@@ -1,5 +1,5 @@
 name: "Dancing Script"
-designer: "Pablo Impallari"
+designer: "Impallari Type"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-05-18"

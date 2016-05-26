@@ -1,5 +1,5 @@
 name: "Cabin Condensed"
-designer: "Pablo Impallari"
+designer: "Impallari Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-30"

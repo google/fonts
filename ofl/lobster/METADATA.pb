@@ -1,5 +1,5 @@
 name: "Lobster"
-designer: "Pablo Impallari"
+designer: "Impallari Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2010-05-17"

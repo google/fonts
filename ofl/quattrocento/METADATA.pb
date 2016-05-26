@@ -1,5 +1,5 @@
 name: "Quattrocento"
-designer: "Pablo Impallari"
+designer: "Impallari Type"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-03-20"

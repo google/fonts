@@ -1,5 +1,5 @@
 name: "Fira Mono"
-designer: "Carrois and Edenspiekermann"
+designer: "Carrois Apostrophe"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2014-06-18"

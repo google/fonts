@@ -1,5 +1,5 @@
 name: "Carrois Gothic"
-designer: "Ralph du Carrois"
+designer: "Carrois Apostrophe"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-30"

@@ -1,5 +1,5 @@
 name: "Fira Sans"
-designer: "Carrois and Edenspiekermann"
+designer: "Carrois Apostrophe"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2014-06-18"

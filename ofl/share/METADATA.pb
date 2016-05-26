@@ -1,5 +1,5 @@
 name: "Share"
-designer: "Ralph du Carrois"
+designer: "Carrois Apostrophe"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-08"

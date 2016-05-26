@@ -1,5 +1,5 @@
 name: "Share Tech Mono"
-designer: "Ralph du Carrois"
+designer: "Carrois Apostrophe"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2012-10-31"

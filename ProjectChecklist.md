@@ -784,9 +784,10 @@ TODO The Polish kreska is not always needed, we should find out when it is and i
 
 * https://www.glyphsapp.com/tutorials/localize-your-font-turkish http://typedrawers.com/discussion/1101/izmir-turkey
 
-#### Lowercase octothorpe (optional)
+#### Case
 
-* ([discussion](http://typedrawers.com/discussion/1377/lowercase-hashtag#latest))
+* Lowercase octothorpe ([discussion](http://typedrawers.com/discussion/1377/lowercase-hashtag#latest))
+* Period centered ([discussion](http://typedrawers.com/discussion/407/periodcentered#latest))
 
 ## Test Documents
 

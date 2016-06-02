@@ -322,7 +322,7 @@ Large distributors (such as Google) can not redistribute the fonts without necce
 Do not use any trademark names. 
 Google and other redistributors may not be able to get permission to use the trademark, even if you can.
 
-If you are making a libre version of your prior proprietary font, or designing something in an established genre, add "Libre" or a local equivalent to that well-known name Eg, `Vesper Libre` or `Libre Baskerville` or `David Hofshi` (Hebrew) or `Something Mukta` (Hindi)
+If you are making a libre version of your prior proprietary font, or designing something in an established genre, add "Libre" or a local equivalent to that well-known name Eg, `Vesper Libre` or `Libre Baskerville` or `Something Swatantra` (Hindi)
 
 #### Trademarks 
 

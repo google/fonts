@@ -1,7 +1,8 @@
 GFN,FWE,FIA,FWI,USAGE
+Aaram:normal:400,4,1,2,header
 ABeeZee:italic:400,5,4,7,header
 ABeeZee:normal:400,5,1,7,header
-Abel:normal:400,4,1,6,body
+Abel:normal:400,4,1,2,body
 Abril Fatface:normal:400,7,1,7,header
 Aclonica:normal:400,8,1,8,body
 Acme:normal:400,6,1,6,header
@@ -20,26 +21,12 @@ Aladin:normal:400,6,1,5,header
 Aldrich:normal:400,5,1,8,header
 Alef:normal:400,5,1,7,header
 Alef:normal:700,6,1,8,header
-Alegreya SC:italic:400,4,4,7,header
-Alegreya SC:italic:700,6,3,7,header
-Alegreya SC:italic:900,8,3,7,header
-Alegreya SC:normal:400,4,1,7,header
-Alegreya SC:normal:700,6,1,7,header
-Alegreya SC:normal:900,8,1,7,header
-Alegreya Sans SC:italic:100,1,4,6,header
-Alegreya Sans SC:italic:300,3,3,6,header
-Alegreya Sans SC:italic:400,4,3,6,header
-Alegreya Sans SC:italic:500,5,3,7,header
-Alegreya Sans SC:italic:700,6,4,7,header
-Alegreya Sans SC:italic:800,7,3,7,header
-Alegreya Sans SC:italic:900,8,3,7,header
-Alegreya Sans SC:normal:100,1,1,7,header
-Alegreya Sans SC:normal:300,3,1,7,header
-Alegreya Sans SC:normal:400,5,1,7,header
-Alegreya Sans SC:normal:500,5,1,7,header
-Alegreya Sans SC:normal:700,6,1,7,header
-Alegreya Sans SC:normal:800,7,1,7,header
-Alegreya Sans SC:normal:900,8,1,7,header
+Alegreya:italic:400,4,4,6,header
+Alegreya:italic:700,6,4,6,header
+Alegreya:italic:900,8,4,6,header
+Alegreya:normal:400,4,1,6,header
+Alegreya:normal:700,7,1,7,header
+Alegreya:normal:900,8,1,7,header
 Alegreya Sans:italic:100,1,4,5,header
 Alegreya Sans:italic:300,3,4,6,header
 Alegreya Sans:italic:400,4,4,6,header
@@ -54,12 +41,26 @@ Alegreya Sans:normal:500,5,1,6,header
 Alegreya Sans:normal:700,6,1,6,header
 Alegreya Sans:normal:800,7,1,6,header
 Alegreya Sans:normal:900,8,1,6,header
-Alegreya:italic:400,4,4,6,header
-Alegreya:italic:700,6,4,6,header
-Alegreya:italic:900,8,4,6,header
-Alegreya:normal:400,4,1,6,header
-Alegreya:normal:700,7,1,7,header
-Alegreya:normal:900,8,1,7,header
+Alegreya Sans SC:italic:100,1,4,6,header
+Alegreya Sans SC:italic:300,3,3,6,header
+Alegreya Sans SC:italic:400,4,3,6,header
+Alegreya Sans SC:italic:500,5,3,7,header
+Alegreya Sans SC:italic:700,6,4,7,header
+Alegreya Sans SC:italic:800,7,3,7,header
+Alegreya Sans SC:italic:900,8,3,7,header
+Alegreya Sans SC:normal:100,1,1,7,header
+Alegreya Sans SC:normal:300,3,1,7,header
+Alegreya Sans SC:normal:400,5,1,7,header
+Alegreya Sans SC:normal:500,5,1,7,header
+Alegreya Sans SC:normal:700,6,1,7,header
+Alegreya Sans SC:normal:800,7,1,7,header
+Alegreya Sans SC:normal:900,8,1,7,header
+Alegreya SC:italic:400,4,4,7,header
+Alegreya SC:italic:700,6,3,7,header
+Alegreya SC:italic:900,8,3,7,header
+Alegreya SC:normal:400,4,1,7,header
+Alegreya SC:normal:700,6,1,7,header
+Alegreya SC:normal:900,8,1,7,header
 Alex Brush:normal:400,5,9,5,header
 Alfa Slab One:normal:400,9,1,8,header
 Alice:normal:400,5,1,7,body
@@ -67,35 +68,44 @@ Alike Angular:normal:400,5,1,7,body
 Alike:normal:400,5,1,7,header
 Allan:normal:400,4,5,5,header
 Allan:normal:700,6,5,5,header
-Allerta Stencil:normal:400,6,1,8,header
 Allerta:normal:400,6,1,8,header
+Allerta Stencil:normal:400,6,1,8,header
 Allura:normal:400,3,7,5,header
 Almendra Display:normal:400,1,1,6,header
-Almendra SC:italic:400,4,1,6,header
-Almendra SC:italic:700,7,1,7,header
-Almendra SC:normal:400,4,1,7,header
-Almendra SC:normal:700,7,1,7,header
 Almendra:italic:400,4,1,6,header
 Almendra:italic:700,7,1,6,header
 Almendra:normal:400,4,1,6,header
 Almendra:normal:700,7,1,7,header
+Almendra SC:italic:400,4,1,6,header
+Almendra SC:italic:700,7,1,7,header
+Almendra SC:normal:400,4,1,7,header
+Almendra SC:normal:700,7,1,7,header
 Amarante:normal:400,5,1,7,header
 Amaranth:italic:400,6,5,7,header
 Amaranth:italic:700,7,5,7,header
 Amaranth:normal:400,6,1,7,header
 Amaranth:normal:700,7,1,7,header
 Amatic SC:normal:400,2,1,4,header
-Amatic SC:normal:700,3,1,4,header
+Amatic SC:normal:700,3,1,2,header
 Amethysta:normal:400,5,1,8,body
+Amiko:normal:400,4,1,5,body
+Amiko:normal:600,4,1,5,body
+Amiko:normal:700,5,1,5,body
+Amiri:italic:400,3,5,4,body
+Amiri:italic:700,5,5,4,body
+Amiri:normal:400,3,1,4,body
+Amiri:normal:700,5,1,4,body
+Amita:normal:400,4,2,4,header
+Amita:normal:700,3,2,4,header
 Anaheim:normal:400,4,1,7,body
-Andada SC:italic:400,5,4,7,header
-Andada SC:italic:700,7,4,7,header
-Andada SC:normal:400,5,1,7,header
-Andada SC:normal:700,7,1,7,header
 Andada:italic:400,5,3,7,header
 Andada:italic:700,7,4,7,header
 Andada:normal:400,5,1,7,body
 Andada:normal:700,7,1,7,header
+Andada SC:italic:400,5,4,7,header
+Andada SC:italic:700,7,4,7,header
+Andada SC:normal:400,5,1,7,header
+Andada SC:normal:700,7,1,7,header
 Andika:normal:400,5,1,7,body
 Annie Use Your Telescope:normal:400,3,1,6,header
 Anonymous Pro:italic:400,4,5,8,header
@@ -103,22 +113,32 @@ Anonymous Pro:italic:700,5,5,8,header
 Anonymous Pro:normal:400,4,1,8,header
 Anonymous Pro:normal:700,5,1,8,header
 Antic Didone:normal:400,4,1,7,header
-Antic Slab:normal:400,4,1,7,header
 Antic:normal:400,4,1,7,body
-Anton:normal:400,7,1,7,body
+Antic Slab:normal:400,4,1,7,header
 Antonio:normal:300,4,1,5,header
 Antonio:normal:400,4,1,6,body
 Antonio:normal:700,5,1,6,body
+Anton:normal:400,7,1,7,body
 Arapey:italic:400,4,5,6,header
 Arapey:normal:400,4,1,6,body
-Arbutus Slab:normal:400,5,1,8,body
 Arbutus:normal:400,8,1,9,header
+Arbutus Slab:normal:400,5,1,8,body
 Architects Daughter:normal:400,4,1,7,header
 Archivo Black:normal:400,8,1,8,header
 Archivo Narrow:italic:400,5,3,6,header
 Archivo Narrow:italic:700,6,3,6,header
 Archivo Narrow:normal:400,5,1,6,header
 Archivo Narrow:normal:700,6,1,6,header
+Aref Ruqaa:normal:400,3,1,4,header
+Aref Ruqaa:normal:700,4,1,4,header
+Arima Madurai:normal:100,2,1,4,body
+Arima Madurai:normal:200,3,1,4,body
+Arima Madurai:normal:300,4,1,4,body
+Arima Madurai:normal:400,5,1,4,body
+Arima Madurai:normal:500,6,1,4,body
+Arima Madurai:normal:700,6,1,4,body
+Arima Madurai:normal:800,7,1,4,body
+Arima Madurai:normal:900,7,1,4,body
 Arimo:italic:400,5,4,7,header
 Arimo:italic:700,7,4,7,header
 Arimo:normal:400,5,1,7,body
@@ -130,11 +150,20 @@ Arvo:italic:400,5,5,8,header
 Arvo:italic:700,7,4,8,header
 Arvo:normal:400,5,1,7,body
 Arvo:normal:700,7,1,8,header
+Arya:normal:400,4,1,3,body
+Arya:normal:700,5,1,3,body
 Asap:italic:400,5,3,7,header
 Asap:italic:700,7,3,7,header
 Asap:normal:400,5,1,7,header
 Asap:normal:700,7,1,7,header
+Asar:normal:400,3,1,4,body
 Asset:normal:400,10,1,10,header
+Assistant:normal:200,2,1,4,body
+Assistant:normal:300,3,1,4,body
+Assistant:normal:400,4,1,4,body
+Assistant:normal:600,5,1,4,body
+Assistant:normal:700,6,1,4,body
+Assistant:normal:800,7,1,4,body
 Astloch:normal:400,2,1,5,header
 Astloch:normal:700,6,1,6,header
 Asul:normal:400,5,1,7,body
@@ -143,8 +172,8 @@ Atomic Age:normal:400,5,1,8,body
 Aubrey:normal:400,4,1,6,body
 Audiowide:normal:400,6,1,8,header
 Autour One:normal:400,5,1,8,body
-Average Sans:normal:400,5,1,7,body
 Average:normal:400,5,1,7,header
+Average Sans:normal:400,5,1,7,body
 Averia Gruesa Libre:normal:400,5,1,7,header
 Averia Libre:italic:300,4,4,7,header
 Averia Libre:italic:400,5,4,7,header
@@ -169,36 +198,63 @@ Balthazar:normal:400,5,1,6,header
 Bangers:normal:400,6,4,6,header
 Basic:normal:400,6,1,7,header
 Baumans:normal:400,5,1,7,body
+Bayon:normal:400,6,1,4,header
 Belgrano:normal:400,5,1,8,header
+Bellefair:normal:400,3,1,4,body
 Belleza:normal:400,5,1,6,body
-BenchNine:normal:300,3,1,4,header
-BenchNine:normal:400,4,1,4,header
+BenchNine:normal:300,3,1,1,header
+BenchNine:normal:400,4,1,2,header
 BenchNine:normal:700,5,1,4,header
+Benne:normal:400,3,1,4,body
 Bentham:normal:400,5,1,7,body
 Berkshire Swash:normal:400,7,1,7,body
 Bevan:normal:400,8,1,8,header
 Bhavuka:normal:400,4,1,6,header
-Bigelow Rules:normal:400,3,1,4,header
+Bhu Tuka Extended One:normal:400,1,1,6,header
+Bigelow Rules:normal:400,3,1,2,header
 Bigshot One:normal:400,7,1,7,header
-Bilbo Swash Caps:normal:400,4,6,4,header
-Bilbo:normal:400,3,6,4,header
+Bilbo:normal:400,3,6,2,header
+Bilbo Swash Caps:normal:400,4,6,2,header
+BioRhyme Expanded:normal:200,2,1,9,header
+BioRhyme Expanded:normal:300,3,1,9,header
+BioRhyme Expanded:normal:400,4,1,9,header
+BioRhyme Expanded:normal:700,5,1,9,header
+BioRhyme Expanded:normal:800,7,1,9,header
+BioRhyme:normal:200,2,1,5,header
+BioRhyme:normal:300,3,1,5,header
+BioRhyme:normal:400,4,1,5,header
+BioRhyme:normal:700,5,1,5,header
+BioRhyme:normal:800,7,1,5,header
+Biryani:normal:200,2,1,5,body
+Biryani:normal:300,3,1,5,body
+Biryani:normal:400,4,1,5,body
+Biryani:normal:600,5,1,5,body
+Biryani:normal:700,6,1,5,body
+Biryani:normal:800,7,1,5,body
+Biryani:normal:900,8,1,5,body
 Bitter:italic:400,5,4,7,header
 Bitter:normal:400,5,1,7,body
 Bitter:normal:700,7,1,8,header
 Black Ops One:normal:400,9,1,8,header
+Bokor:normal:400,3,1,4,body
 Bonbon:normal:400,6,2,8,header
 Boogaloo:normal:400,6,1,6,header
-Bowlby One SC:normal:400,9,1,8,header
 Bowlby One:normal:400,9,1,8,header
+Bowlby One SC:normal:400,9,1,8,header
 Brawler:normal:400,5,1,7,body
 Bree Serif:normal:400,6,1,7,body
-Bruno Ace SC:normal:400,5,1,9,header
 Bruno Ace:normal:400,5,1,8,header
+Bruno Ace SC:normal:400,5,1,9,header
 Bubblegum Sans:normal:400,6,1,6,header
 Bubbler One:normal:400,3,1,6,header
 Buda:normal:300,4,1,6,header
 Buenard:normal:400,5,1,7,body
 Buenard:normal:700,6,1,7,header
+Bungee Hairline:normal:400,7,1,8,header
+Bungee Inline:normal:400,7,1,8,header
+Bungee:normal:400,7,1,8,header
+Bungee Outline:normal:400,7,1,8,header
+Bungee Shade:normal:400,7,1,8,header
 Butcherman Caps:normal:400,6,1,8,header
 Butcherman:normal:400,6,1,8,header
 Butterfly Kids:normal:400,3,4,5,header
@@ -206,8 +262,6 @@ Cabin Condensed:normal:400,5,1,6,header
 Cabin Condensed:normal:500,5,1,6,header
 Cabin Condensed:normal:600,6,1,6,header
 Cabin Condensed:normal:700,6,1,6,header
-Cabin Sketch:normal:400,4,1,7,body
-Cabin Sketch:normal:700,4,1,7,header
 Cabin:italic:400,5,4,6,header
 Cabin:italic:500,5,4,6,header
 Cabin:italic:600,6,4,7,header
@@ -216,6 +270,8 @@ Cabin:normal:400,5,1,7,body
 Cabin:normal:500,5,1,7,header
 Cabin:normal:600,6,1,7,header
 Cabin:normal:700,6,1,7,header
+Cabin Sketch:normal:400,4,1,7,body
+Cabin Sketch:normal:700,4,1,7,header
 Caesar Dressing:normal:400,6,1,7,header
 Cagliostro:normal:400,5,1,7,body
 Calligraffitti:normal:400,3,6,6,header
@@ -236,18 +292,37 @@ Cardo:italic:400,4,5,6,header
 Cardo:normal:400,5,1,7,body
 Cardo:normal:700,6,1,7,body
 Carme:normal:400,5,1,7,body
-Carrois Gothic SC:normal:400,4,1,7,header
 Carrois Gothic:normal:400,4,1,7,body
+Carrois Gothic SC:normal:400,4,1,7,header
 Carter One:normal:400,7,3,7,header
+Catamaran:normal:100,1,1,4,body
+Catamaran:normal:200,2,1,4,body
+Catamaran:normal:300,3,1,4,body
+Catamaran:normal:400,4,1,4,body
+Catamaran:normal:500,5,1,4,body
+Catamaran:normal:600,6,1,4,body
+Catamaran:normal:700,7,1,4,body
+Catamaran:normal:800,8,1,4,body
+Catamaran:normal:900,9,1,4,body
 Caudex:italic:400,5,5,7,header
 Caudex:italic:700,5,5,7,header
 Caudex:normal:400,5,1,7,body
 Caudex:normal:700,5,1,7,header
+Caveat Brush:normal:400,5,1,3,header
+Caveat:normal:400,3,6,3,body
+Caveat:normal:700,4,6,3,body
 Cedarville Cursive:normal:400,4,6,7,header
 Ceviche One:normal:400,8,5,6,header
+Changa:normal:200,2,1,4,header
+Changa:normal:300,3,1,4,header
+Changa:normal:400,3,1,4,header
+Changa:normal:500,4,1,4,header
+Changa:normal:600,5,1,4,header
+Changa:normal:700,6,1,4,header
+Changa:normal:800,7,1,4,header
+Changa:normal:900,8,1,4,header
 Changa One:italic:400,8,4,7,header
 Changa One:normal:400,8,1,7,header
-Changa:normal:400,5,1,7,body
 Chango:normal:400,10,1,9,header
 Chau Philomene One:italic:400,6,3,6,header
 Chau Philomene One:normal:400,6,1,6,header
@@ -258,6 +333,7 @@ Cherry Swash:normal:400,7,1,7,body
 Cherry Swash:normal:700,9,1,8,header
 Chewy:normal:400,7,1,6,body
 Chicle:normal:400,6,1,6,header
+Chilanka:normal:400,3,1,4,body
 Chivo:italic:400,5,3,7,header
 Chivo:italic:900,8,3,7,header
 Chivo:normal:400,5,1,7,header
@@ -320,10 +396,11 @@ Dancing Script:normal:400,4,7,6,header
 Dancing Script:normal:700,4,7,6,header
 Dawning of a New Day:normal:400,2,5,6,header
 Days One:normal:400,7,1,8,header
+Dekko:normal:400,3,1,3,body
+Delius:normal:400,4,1,7,body
 Delius Swash Caps:normal:400,4,1,7,header
 Delius Unicase:normal:400,5,1,8,header
 Delius Unicase:normal:700,6,1,9,header
-Delius:normal:400,4,1,7,body
 Della Respira:normal:400,4,1,7,body
 Denk One:normal:400,6,1,7,header
 Devonshire:normal:400,5,3,5,header
@@ -333,13 +410,13 @@ Dhyana:normal:700,6,1,8,header
 Didact Gothic:normal:400,4,1,7,header
 Dinah:normal:400,5,1,5,body
 Dinah:normal:700,6,1,6,body
-Diplomata SC:normal:400,9,1,10,header
 Diplomata:normal:400,9,1,10,header
+Diplomata SC:normal:400,9,1,10,header
 Domine:normal:400,5,1,7,body
 Domine:normal:700,6,1,8,header
 Donegal One:normal:400,5,1,8,body
 Doppio One:normal:400,6,1,7,header
-Dorsa:normal:400,2,1,2,header
+Dorsa:normal:400,2,1,1,header
 Dosis:normal:200,2,1,6,header
 Dosis:normal:300,3,1,6,header
 Dosis:normal:400,4,1,6,header
@@ -347,7 +424,6 @@ Dosis:normal:500,4,1,6,body
 Dosis:normal:600,5,1,6,body
 Dosis:normal:700,6,1,6,header
 Dosis:normal:800,7,1,7,header
-Dr Sugiyama:normal:400,4,1,5,header
 Droid Sans Mono:normal:400,5,1,8,header
 Droid Sans:normal:400,5,1,7,body
 Droid Sans:normal:700,7,1,7,header
@@ -355,12 +431,13 @@ Droid Serif:italic:400,5,4,7,header
 Droid Serif:italic:700,6,5,8,header
 Droid Serif:normal:400,5,1,8,header
 Droid Serif:normal:700,6,1,8,header
+Dr Sugiyama:normal:400,4,1,5,header
 Duru Sans:normal:400,4,1,8,body
 Dynalight:normal:400,4,7,5,header
-EB Garamond:normal:400,4,1,6,body
 Eagle Lake:normal:400,5,1,8,header
 Eater Caps:normal:400,5,1,8,header
 Eater:normal:400,5,1,8,header
+EB Garamond:normal:400,4,1,6,body
 Economica:italic:400,4,4,5,header
 Economica:italic:700,5,4,5,header
 Economica:normal:400,4,1,5,header
@@ -378,10 +455,10 @@ Ek Mukta:normal:600,6,1,7,header
 Ek Mukta:normal:700,7,1,7,header
 Ek Mukta:normal:800,7,1,7,header
 Electrolize:normal:400,5,1,7,body
-Elsie Swash Caps:normal:400,4,1,7,body
-Elsie Swash Caps:normal:900,6,1,8,header
 Elsie:normal:400,5,1,7,header
 Elsie:normal:900,7,1,8,header
+Elsie Swash Caps:normal:400,4,1,7,body
+Elsie Swash Caps:normal:900,6,1,8,header
 Emblema One:normal:400,8,3,8,header
 Emilys Candy:normal:400,5,1,7,body
 Encode Sans Compressed:normal:100,2,1,6,header
@@ -411,15 +488,6 @@ Encode Sans Narrow:normal:600,6,1,7,header
 Encode Sans Narrow:normal:700,7,1,7,header
 Encode Sans Narrow:normal:800,7,1,7,header
 Encode Sans Narrow:normal:900,8,1,8,header
-Encode Sans Wide:normal:100,3,1,7,header
-Encode Sans Wide:normal:200,3,1,7,header
-Encode Sans Wide:normal:300,4,1,7,header
-Encode Sans Wide:normal:400,5,1,8,header
-Encode Sans Wide:normal:500,6,1,8,header
-Encode Sans Wide:normal:600,6,1,8,header
-Encode Sans Wide:normal:700,7,1,8,header
-Encode Sans Wide:normal:800,8,1,8,header
-Encode Sans Wide:normal:900,8,1,8,header
 Encode Sans:normal:100,3,1,7,header
 Encode Sans:normal:200,3,1,7,header
 Encode Sans:normal:300,4,1,7,header
@@ -429,7 +497,16 @@ Encode Sans:normal:600,6,1,8,header
 Encode Sans:normal:700,7,1,8,header
 Encode Sans:normal:800,8,1,8,header
 Encode Sans:normal:900,8,1,8,header
-Engagement:normal:400,5,2,4,header
+Encode Sans Wide:normal:100,3,1,7,header
+Encode Sans Wide:normal:200,3,1,7,header
+Encode Sans Wide:normal:300,4,1,7,header
+Encode Sans Wide:normal:400,5,1,8,header
+Encode Sans Wide:normal:500,6,1,8,header
+Encode Sans Wide:normal:600,6,1,8,header
+Encode Sans Wide:normal:700,7,1,8,header
+Encode Sans Wide:normal:800,8,1,8,header
+Encode Sans Wide:normal:900,8,1,8,header
+Engagement:normal:400,5,2,1,header
 Englebert:normal:400,4,1,6,body
 Enriqueta:normal:400,5,1,7,body
 Enriqueta:normal:700,6,1,7,header
@@ -483,6 +560,7 @@ Expletus Sans:normal:600,6,1,7,header
 Expletus Sans:normal:700,6,1,7,header
 Fanwood Text:italic:400,5,4,6,header
 Fanwood Text:normal:400,5,1,6,body
+Farsan:normal:400,3,3,3,body
 Fascinate Inline:normal:400,9,1,8,header
 Fascinate:normal:400,9,1,8,header
 Faster One:normal:400,9,4,8,header
@@ -510,14 +588,10 @@ Fresca:normal:400,5,1,6,body
 Frijole:normal:400,9,1,9,header
 Fruktur:normal:400,7,1,7,header
 Fugaz One:normal:400,7,4,8,header
-GFS Didot:normal:400,5,1,7,body
-GFS Neohellenic:italic:400,4,5,6,header
-GFS Neohellenic:italic:700,6,5,7,header
-GFS Neohellenic:normal:400,4,1,6,header
-GFS Neohellenic:normal:700,6,1,6,header
 Gabriela:normal:400,5,1,8,body
 Gafata:normal:400,4,1,7,body
 Gafata:normal:400,4,1,7,body
+Galada:normal:400,5,4,4,header
 Galdeano:normal:400,5,1,6,header
 Galindo:normal:400,8,1,8,header
 Gentium Basic:italic:400,4,3,6,header
@@ -533,6 +607,11 @@ Geo:normal:400,5,1,6,header
 Geostar Fill:normal:400,6,1,9,header
 Geostar:normal:400,4,1,9,header
 Germania One:normal:400,6,1,6,header
+GFS Didot:normal:400,5,1,7,body
+GFS Neohellenic:italic:400,4,5,6,header
+GFS Neohellenic:italic:700,6,5,7,header
+GFS Neohellenic:normal:400,4,1,6,header
+GFS Neohellenic:normal:700,6,1,6,header
 Gidugu:normal:400,7,1,4,header
 Gilda Display:normal:400,4,1,7,header
 Give You Glory:normal:400,3,1,7,header
@@ -569,6 +648,13 @@ Hanuman:normal:400,4,1,7,body
 Hanuman:normal:700,4,1,7,header
 Happy Monkey:normal:400,4,1,8,header
 Headland One:normal:400,5,1,8,body
+Heebo:normal:100,1,1,4,body
+Heebo:normal:300,3,1,4,body
+Heebo:normal:400,4,1,4,body
+Heebo:normal:500,6,1,4,body
+Heebo:normal:700,7,1,4,body
+Heebo:normal:800,9,1,4,body
+Heebo:normal:900,8,1,4,body
 Henny Penny:normal:400,4,1,7,header
 Hermeneus One:normal:400,5,1,7,body
 Herr Von Muellerhoff:normal:400,3,9,4,header
@@ -580,23 +666,23 @@ Hind:normal:700,7,1,7,header
 Holtwood One SC:normal:400,9,1,9,header
 Homemade Apple:normal:400,5,6,8,header
 Homenaje:normal:400,5,1,5,header
-IM Fell DW Pica SC:normal:400,5,1,7,header
-IM Fell DW Pica:italic:400,4,7,6,header
-IM Fell DW Pica:normal:400,5,1,6,header
-IM Fell Double Pica SC:normal:400,5,1,7,header
-IM Fell Double Pica:italic:400,5,6,6,header
-IM Fell Double Pica:normal:400,5,1,6,body
-IM Fell English SC:normal:400,5,1,7,header
-IM Fell English:italic:400,5,6,6,header
-IM Fell English:normal:400,5,1,7,header
-IM Fell French Canon SC:normal:400,5,1,7,header
-IM Fell French Canon:italic:400,5,7,6,header
-IM Fell French Canon:normal:400,5,1,7,header
-IM Fell Great Primer SC:normal:400,5,1,7,header
-IM Fell Great Primer:italic:400,5,6,6,header
-IM Fell Great Primer:normal:400,5,2,6,header
 Iceberg:normal:400,5,1,6,header
 Iceland:normal:400,6,1,6,body
+IM Fell Double Pica:italic:400,5,6,6,header
+IM Fell Double Pica:normal:400,5,1,6,body
+IM Fell Double Pica SC:normal:400,5,1,7,header
+IM Fell DW Pica:italic:400,4,7,6,header
+IM Fell DW Pica:normal:400,5,1,6,header
+IM Fell DW Pica SC:normal:400,5,1,7,header
+IM Fell English:italic:400,5,6,6,header
+IM Fell English:normal:400,5,1,7,header
+IM Fell English SC:normal:400,5,1,7,header
+IM Fell French Canon:italic:400,5,7,6,header
+IM Fell French Canon:normal:400,5,1,7,header
+IM Fell French Canon SC:normal:400,5,1,7,header
+IM Fell Great Primer:italic:400,5,6,6,header
+IM Fell Great Primer:normal:400,5,2,6,header
+IM Fell Great Primer SC:normal:400,5,1,7,header
 Imprima:normal:400,4,1,7,body
 Inconsolata:normal:400,4,1,7,header
 Inconsolata:normal:700,6,1,7,header
@@ -614,17 +700,20 @@ Inknut Antiqua:normal:900,7,1,9,header
 Irish Grover:normal:400,6,1,7,header
 Irish Growler:normal:400,6,1,7,body
 Istok Web:italic:500,5,4,7,header
-Istok Web:italic:500,5,4,7,header
+Istok Web:italic:700,5,4,7,header
 Istok Web:normal:500,5,1,7,body
 Istok Web:normal:700,6,1,7,header
 Italiana:normal:400,4,1,7,header
 Italianno:normal:400,3,8,4,header
-Jacques Francois Shadow:normal:400,4,1,8,header
+Itim:normal:400,5,1,4,body
 Jacques Francois:normal:400,5,1,7,header
+Jacques Francois Shadow:normal:400,4,1,8,header
+Jaldi:normal:400,5,1,4,body
+Jaldi:normal:700,8,1,4,body
 Jim Nightshade:normal:400,4,4,5,header
 Jockey One:normal:400,6,1,6,header
-Jolly Lodger:normal:400,5,1,4,header
-Josefin Sans Std Light:normal:400,3,1,6,header
+Jolly Lodger:normal:400,5,1,2,header
+Jomhuria:normal:400,8,1,3,header
 Josefin Sans:italic:100,1,4,6,header
 Josefin Sans:italic:300,3,3,6,header
 Josefin Sans:italic:400,4,3,6,header
@@ -635,6 +724,7 @@ Josefin Sans:normal:300,3,1,6,header
 Josefin Sans:normal:400,4,1,6,header
 Josefin Sans:normal:600,5,1,6,header
 Josefin Sans:normal:700,6,1,6,body
+Josefin Sans Std Light:normal:400,3,1,6,header
 Josefin Slab:italic:100,1,1,7,header
 Josefin Slab:italic:300,1,4,7,header
 Josefin Slab:italic:400,3,3,7,header
@@ -656,13 +746,33 @@ Jura:normal:300,3,1,7,header
 Jura:normal:400,4,1,7,header
 Jura:normal:500,4,1,7,header
 Jura:normal:600,4,1,8,body
-Just Another Hand:normal:400,4,1,3,header
+Just Another Hand:normal:400,4,1,1,header
 Just Me Again Down Here:normal:400,4,1,5,header
+Kadwa:normal:400,6,1,5,body
+Kadwa:normal:700,9,1,5,body
 Kalam:normal:300,4,5,7,header
 Kalam:normal:400,5,5,7,header
 Kalam:normal:700,6,5,7,header
 Kameron:normal:400,5,1,7,body
 Kameron:normal:700,7,1,8,header
+Kanit:italic:100,1,5,4,body
+Kanit:italic:200,2,5,4,body
+Kanit:italic:300,3,5,4,body
+Kanit:italic:400,4,5,4,body
+Kanit:italic:500,5,5,4,body
+Kanit:italic:600,6,5,4,body
+Kanit:italic:700,7,5,4,body
+Kanit:italic:800,8,5,4,body
+Kanit:italic:900,9,5,4,body
+Kanit:normal:100,1,1,4,body
+Kanit:normal:200,2,1,4,body
+Kanit:normal:300,3,1,4,body
+Kanit:normal:400,4,1,4,body
+Kanit:normal:500,5,1,4,body
+Kanit:normal:600,6,1,4,body
+Kanit:normal:700,7,1,4,body
+Kanit:normal:800,8,1,4,body
+Kanit:normal:900,9,1,4,body
 Karla:italic:400,4,2,6,header
 Karla:italic:700,6,2,7,header
 Karla:normal:400,5,1,7,body
@@ -672,7 +782,9 @@ Karma:normal:400,4,1,7,header
 Karma:normal:500,5,1,7,body
 Karma:normal:600,5,1,7,body
 Karma:normal:700,6,1,7,header
+Katibeh:normal:400,5,1,3,header
 Kaushan Script:normal:400,5,7,6,header
+Kavivanar:normal:400,2,1,3,header
 Kavoon:normal:400,8,1,8,header
 Keania One:normal:400,7,1,7,header
 Kelly Slab:normal:400,4,1,7,body
@@ -689,8 +801,9 @@ Kranky:normal:400,3,1,7,header
 Kreon:normal:300,4,1,6,body
 Kreon:normal:400,5,1,6,body
 Kreon:normal:700,6,1,7,header
-Kristi:normal:400,3,7,4,header
+Kristi:normal:400,3,7,1,header
 Krona One:normal:400,6,1,9,header
+Kurale:normal:400,4,1,3,header
 La Belle Aurore:normal:400,5,8,7,header
 Laila:normal:300,4,1,7,header
 Laila:normal:400,4,1,7,body
@@ -716,8 +829,8 @@ Ledger:normal:400,5,1,8,body
 Lekton:italic:400,4,4,7,header
 Lekton:normal:400,4,1,7,header
 Lekton:normal:700,5,1,7,header
-Lemon One:normal:400,8,4,8,header
 Lemon:normal:400,8,4,8,header
+Lemon One:normal:400,8,4,8,header
 Libre Baskerville:italic:400,5,5,7,header
 Libre Baskerville:normal:400,5,1,8,body
 Libre Baskerville:normal:700,6,1,8,header
@@ -732,11 +845,11 @@ Lily Script One:normal:400,7,3,7,header
 Limelight:normal:400,8,1,8,header
 Linden Hill:italic:400,4,2,5,header
 Linden Hill:normal:400,4,1,6,body
+Lobster:normal:400,5,5,6,header
 Lobster Two:italic:400,4,5,6,header
 Lobster Two:italic:700,5,5,6,header
 Lobster Two:normal:400,5,1,6,header
 Lobster Two:normal:700,5,1,6,header
-Lobster:normal:400,5,5,6,header
 Londrina Outline:normal:400,1,1,6,header
 Londrina Shadow:normal:400,3,1,6,header
 Londrina Sketch:normal:400,3,1,6,header
@@ -745,55 +858,61 @@ Lora:italic:400,4,2,7,header
 Lora:italic:700,6,3,7,header
 Lora:normal:400,4,1,7,body
 Lora:normal:700,6,1,7,header
-Love Ya Like A Sister:normal:400,4,1,7,header
 Loved by the King:normal:400,2,1,5,header
 Lovers Quarrel:normal:400,4,5,3,header
+Love Ya Like A Sister:normal:400,4,1,7,header
 Luckiest Guy:normal:400,8,1,8,header
 Lusitana:normal:400,5,1,7,header
 Lusitana:normal:700,6,1,7,header
 Lustria:normal:400,4,1,7,body
-Macondo Swash Caps:normal:400,5,1,7,header
 Macondo:normal:400,4,1,7,header
+Macondo Swash Caps:normal:400,5,1,7,header
 Magra:normal:400,5,1,6,body
 Magra:normal:700,7,1,7,header
 Maiden Orange:normal:400,5,1,5,body
 Mako:normal:400,5,1,7,body
 Mallanna:normal:400,5,1,6,body
 Mandali:normal:400,5,1,7,body
-Marcellus SC:normal:400,5,1,7,header
 Marcellus:normal:400,5,1,7,body
+Marcellus SC:normal:400,5,1,7,header
 Marck Script:normal:400,6,7,7,header
 Margarine:normal:400,5,1,7,header
 Marko One:normal:400,6,1,8,header
 Marmelad:normal:400,5,1,7,header
+Martel:normal:300,3,1,4,body
+Martel:normal:400,4,1,4,body
+Martel:normal:600,5,1,4,body
+Martel:normal:700,6,1,4,body
+Martel:normal:800,7,1,4,body
+Martel:normal:900,8,1,4,body
+Martel Sans:normal:200,2,1,4,body
+Martel Sans:normal:300,3,1,4,body
+Martel Sans:normal:400,4,1,4,body
+Martel Sans:normal:600,5,1,4,body
+Martel Sans:normal:700,6,1,4,body
+Martel Sans:normal:800,7,1,4,body
+Martel Sans:normal:900,8,1,4,body
 Marvel:italic:400,3,4,6,header
 Marvel:italic:700,4,4,6,header
 Marvel:normal:400,3,1,6,header
 Marvel:normal:700,4,1,6,header
-Mate SC:normal:400,4,1,7,header
 Mate:italic:400,4,4,6,header
 Mate:normal:400,4,1,7,body
+Mate SC:normal:400,4,1,7,header
 Maven Pro:normal:400,4,1,7,body
 Maven Pro:normal:500,5,1,7,header
 Maven Pro:normal:700,6,1,7,header
 Maven Pro:normal:900,7,1,8,header
 McLaren:normal:400,5,1,8,header
+Meddon:normal:400,3,5,4,header
 MedievalSharp:normal:400,4,1,7,body
-Medula One:normal:400,4,1,4,header
+Medula One:normal:400,4,1,1,header
 Megrim:normal:400,2,1,7,header
 Meie Script:normal:400,4,9,6,header
 Merge One:normal:400,5,1,7,body
-Merienda One:normal:400,6,3,8,header
 Merienda:normal:400,5,3,8,header
 Merienda:normal:700,6,3,8,header
-Merriweather Sans:italic:300,4,3,7,header
-Merriweather Sans:italic:400,5,3,7,header
-Merriweather Sans:italic:700,6,3,7,header
-Merriweather Sans:italic:800,7,3,7,header
-Merriweather Sans:normal:300,4,1,8,body
-Merriweather Sans:normal:400,5,1,8,body
-Merriweather Sans:normal:700,7,1,8,header
-Merriweather Sans:normal:800,7,1,8,header
+Merienda One:normal:400,6,3,8,header
 Merriweather:italic:300,4,3,7,header
 Merriweather:italic:400,5,3,7,header
 Merriweather:italic:700,6,3,7,header
@@ -802,6 +921,14 @@ Merriweather:normal:300,4,1,8,header
 Merriweather:normal:400,5,1,8,header
 Merriweather:normal:700,6,1,8,header
 Merriweather:normal:900,7,1,8,header
+Merriweather Sans:italic:300,4,3,7,header
+Merriweather Sans:italic:400,5,3,7,header
+Merriweather Sans:italic:700,6,3,7,header
+Merriweather Sans:italic:800,7,3,7,header
+Merriweather Sans:normal:300,4,1,8,body
+Merriweather Sans:normal:400,5,1,8,body
+Merriweather Sans:normal:700,7,1,8,header
+Merriweather Sans:normal:800,7,1,8,header
 Mervale Script:normal:400,4,7,4,header
 Metal Mania:normal:400,5,1,6,header
 Metamorphous:normal:400,5,1,8,body
@@ -809,11 +936,14 @@ Metrophobic:normal:400,4,1,7,body
 Miama:italic:400,3,8,8,header
 Michroma:normal:400,5,1,8,header
 Milonga:normal:400,4,1,7,body
-Miltonian Tattoo:normal:400,7,1,8,header
 Miltonian:normal:400,4,1,8,header
+Miltonian Tattoo:normal:400,7,1,8,header
 Miniver:normal:400,4,5,7,header
+Miriam Libre:normal:400,2,1,3,body
+Miriam Libre:normal:700,6,1,3,body
 Miss Fajardose:normal:400,4,9,3,header
 Miss Saint Delafield:normal:400,4,9,4,header
+Modak:normal:400,10,1,4,header
 Modern Antiqua:normal:400,5,1,8,header
 Molengo:normal:400,5,1,7,body
 Molle:italic:400,6,8,7,header
@@ -826,16 +956,16 @@ Montaga:normal:400,4,1,7,body
 Montez:normal:400,3,1,5,header
 Montserrat Alternates:normal:400,6,1,8,header
 Montserrat Alternates:normal:700,7,1,8,header
-Montserrat Subrayada:normal:400,6,1,8,header
-Montserrat Subrayada:normal:700,7,1,8,header
 Montserrat:normal:100,1,1,7,header
 Montserrat:normal:300,4,1,8,body
 Montserrat:normal:400,6,1,8,header
 Montserrat:normal:700,7,1,8,header
 Montserrat:normal:900,8,1,8,header
+Montserrat Subrayada:normal:400,6,1,8,header
+Montserrat Subrayada:normal:700,7,1,8,header
 Mountains of Christmas:normal:400,3,1,6,header
 Mountains of Christmas:normal:700,4,1,6,body
-Mouse Memoirs:normal:400,5,1,4,header
+Mouse Memoirs:normal:400,5,1,2,header
 Mr Bedford:normal:400,4,1,6,header
 Mr Bedfort:normal:400,4,1,6,header
 Mr Dafoe:normal:400,6,10,6,header
@@ -847,8 +977,6 @@ Muli:italic:400,4,2,7,header
 Muli:normal:300,4,1,7,header
 Muli:normal:400,4,1,7,body
 Mystery Quest:normal:400,4,1,7,header
-NATS:normal:400,6,1,6,body
-NTR:normal:400,5,1,6,body
 Nanum Brush Script:normal:400,4,1,5,header
 Nanum Gothic Coding:normal:400,4,1,10,header
 Nanum Gothic Coding:normal:700,5,1,10,body
@@ -859,6 +987,7 @@ Nanum Myeongjo:normal:400,4,1,7,header
 Nanum Myeongjo:normal:600,4,1,7,body
 Nanum Myeongjo:normal:700,5,1,7,header
 Nanum Pen Script:normal:400,5,1,6,header
+NATS:normal:400,6,1,6,body
 Neucha:normal:400,4,1,6,body
 Neuton:italic:400,5,4,6,header
 Neuton:normal:200,4,1,6,header
@@ -867,6 +996,8 @@ Neuton:normal:400,5,1,6,header
 Neuton:normal:700,7,1,6,header
 Neuton:normal:800,8,1,7,header
 New Rocker:normal:400,5,1,7,body
+News Cycle:normal:400,4,1,3,body
+News Cycle:normal:700,7,1,4,body
 Niconne:normal:400,6,6,5,header
 Nixie One:normal:400,2,1,8,header
 Nobile:italic:400,4,3,7,header
@@ -883,16 +1014,16 @@ Noticia Text:italic:400,5,3,7,header
 Noticia Text:italic:700,6,3,8,header
 Noticia Text:normal:400,5,1,7,body
 Noticia Text:normal:700,6,1,8,header
-Noto Sans UI:italic:400,5,5,7,header
-Noto Sans UI:italic:700,7,5,7,header
-Noto Sans UI:normal:400,5,1,7,header
-Noto Sans UI:normal:700,7,1,8,header
 Noto Sans:italic:400,5,5,7,header
 Noto Sans:italic:700,7,5,7,header
 Noto Sans:normal:400,5,1,7,body
 Noto Sans:normal:400,5,1,7,body
 Noto Sans:normal:700,7,1,8,header
 Noto Sans:normal:700,7,1,8,header
+Noto Sans UI:italic:400,5,5,7,header
+Noto Sans UI:italic:700,7,5,7,header
+Noto Sans UI:normal:400,5,1,7,header
+Noto Sans UI:normal:700,7,1,8,header
 Noto Serif:italic:400,5,4,7,header
 Noto Serif:italic:700,6,5,8,header
 Noto Serif:normal:400,5,1,8,header
@@ -905,21 +1036,22 @@ Nova Round:normal:400,5,1,7,body
 Nova Script:normal:400,5,4,7,header
 Nova Slim:normal:400,5,1,7,header
 Nova Square:normal:400,5,1,7,header
+NTR:normal:400,5,1,6,body
 Numans:normal:400,5,1,8,body
 Nunito:normal:300,5,1,7,body
 Nunito:normal:400,6,1,7,header
 Nunito:normal:700,7,1,8,header
+Offside:normal:400,4,1,8,body
 OFL Sorts Mill Goudy TT:italic:400,4,4,6,header
 OFL Sorts Mill Goudy TT:normal:400,4,1,7,body
-Offside:normal:400,4,1,8,body
+Oldenburg:normal:400,4,1,8,body
 Old Standard TT:italic:400,4,5,7,header
 Old Standard TT:normal:400,5,1,7,body
 Old Standard TT:normal:700,6,1,7,body
-Oldenburg:normal:400,4,1,8,body
-Oleo Script Swash Caps:normal:400,7,4,6,header
-Oleo Script Swash Caps:normal:700,8,4,6,header
 Oleo Script:normal:400,6,4,6,header
 Oleo Script:normal:700,7,4,6,header
+Oleo Script Swash Caps:normal:400,7,4,6,header
+Oleo Script Swash Caps:normal:700,8,4,6,header
 Open Sans Condensed:italic:300,3,4,5,header
 Open Sans Condensed:normal:300,3,1,5,header
 Open Sans Condensed:normal:700,6,1,6,header
@@ -945,34 +1077,19 @@ Original Surfer:normal:400,6,1,7,header
 Oswald:normal:300,4,1,5,body
 Oswald:normal:400,5,1,6,body
 Oswald:normal:700,6,1,6,header
-Over the Rainbow:normal:400,4,1,7,header
-Overlock SC:normal:400,4,1,7,header
 Overlock:italic:400,4,3,6,header
 Overlock:italic:700,5,3,6,header
 Overlock:italic:900,7,3,7,header
 Overlock:normal:400,4,1,6,body
 Overlock:normal:700,5,1,7,body
 Overlock:normal:900,7,1,7,header
+Overlock SC:normal:400,4,1,7,header
+Over the Rainbow:normal:400,4,1,7,header
 Ovo:normal:400,4,1,7,header
 Oxygen Mono:normal:400,5,1,8,header
 Oxygen:normal:300,4,1,7,header
 Oxygen:normal:400,4,1,7,body
 Oxygen:normal:700,6,1,7,header
-PT Mono:normal:400,5,1,8,header
-PT Sans Caption:normal:400,5,1,8,header
-PT Sans Caption:normal:700,6,1,8,header
-PT Sans Narrow:normal:400,4,1,6,body
-PT Sans Narrow:normal:700,6,1,6,header
-PT Sans:italic:400,4,5,6,header
-PT Sans:italic:700,6,5,6,header
-PT Sans:normal:400,5,1,7,header
-PT Sans:normal:700,6,1,7,header
-PT Serif Caption:italic:400,5,4,7,header
-PT Serif Caption:normal:400,5,1,8,header
-PT Serif:italic:400,5,4,7,header
-PT Serif:italic:700,6,4,7,header
-PT Serif:normal:400,5,1,7,body
-PT Serif:normal:700,6,1,7,header
 Pacifico:normal:400,5,4,6,header
 Palanquin Dark:normal:400,6,1,7,header
 Palanquin Dark:normal:500,7,1,7,header
@@ -992,8 +1109,8 @@ Passion One:normal:400,8,1,6,header
 Passion One:normal:700,8,1,7,header
 Passion One:normal:900,9,1,7,header
 Pathway Gothic One:normal:400,4,1,5,header
-Patrick Hand SC:normal:400,5,1,6,header
 Patrick Hand:normal:400,5,1,6,header
+Patrick Hand SC:normal:400,5,1,6,header
 Patua One:normal:400,6,1,7,header
 Paytone One:normal:400,8,1,8,header
 Pecita:normal:400,4,1,7,header
@@ -1010,21 +1127,21 @@ Piedra:normal:400,7,1,6,body
 Pinyon Script:normal:400,5,9,6,header
 Pirata One:normal:400,5,1,6,body
 Plaster:normal:400,9,1,9,header
-Play:normal:400,5,1,7,body
-Play:normal:700,7,1,7,header
 Playball:normal:400,5,7,6,header
-Playfair Display SC:italic:400,4,5,8,header
-Playfair Display SC:italic:700,6,5,8,header
-Playfair Display SC:italic:900,7,5,8,header
-Playfair Display SC:normal:400,4,1,8,header
-Playfair Display SC:normal:700,6,1,8,header
-Playfair Display SC:normal:900,7,1,8,header
 Playfair Display:italic:400,4,5,7,header
 Playfair Display:italic:700,6,5,7,header
 Playfair Display:italic:900,7,5,7,header
 Playfair Display:normal:400,4,1,7,header
 Playfair Display:normal:700,6,1,7,header
 Playfair Display:normal:900,7,1,7,header
+Playfair Display SC:italic:400,4,5,8,header
+Playfair Display SC:italic:700,6,5,8,header
+Playfair Display SC:italic:900,7,5,8,header
+Playfair Display SC:normal:400,4,1,8,header
+Playfair Display SC:normal:700,6,1,8,header
+Playfair Display SC:normal:900,7,1,8,header
+Play:normal:400,5,1,7,body
+Play:normal:700,7,1,7,header
 Podkova:normal:400,5,1,7,body
 Podkova:normal:700,7,1,7,header
 Poetsen One:normal:400,7,3,7,header
@@ -1038,14 +1155,31 @@ Poppins:normal:300,4,1,8,body
 Poppins:normal:400,5,1,8,body
 Poppins:normal:500,6,1,8,header
 Poppins:normal:600,6,1,8,header
+Porter Sans Block:normal:400,7,1,10,header
 Port Lligat Sans:normal:400,4,1,6,body
 Port Lligat Slab:normal:400,4,1,6,header
-Porter Sans Block:normal:400,7,1,10,header
+Pragati Narrow:normal:400,4,1,3,body
+Pragati Narrow:normal:700,7,1,3,body
 Prata:normal:400,5,1,7,body
 Press Start 2P:normal:400,8,1,10,header
 Princess Sofia:normal:400,4,3,6,header
 Prociono:normal:400,5,1,7,body
 Prosto One:normal:400,6,1,8,header
+PT Mono:normal:400,5,1,8,header
+PT Sans Caption:normal:400,5,1,8,header
+PT Sans Caption:normal:700,6,1,8,header
+PT Sans:italic:400,4,5,6,header
+PT Sans:italic:700,6,5,6,header
+PT Sans Narrow:normal:400,4,1,6,body
+PT Sans Narrow:normal:700,6,1,6,header
+PT Sans:normal:400,5,1,7,header
+PT Sans:normal:700,6,1,7,header
+PT Serif Caption:italic:400,5,4,7,header
+PT Serif Caption:normal:400,5,1,8,header
+PT Serif:italic:400,5,4,7,header
+PT Serif:italic:700,6,4,7,header
+PT Serif:normal:400,5,1,7,body
+PT Serif:normal:700,6,1,7,header
 Puritan:italic:400,5,3,7,header
 Puritan:italic:700,6,3,7,header
 Puritan:normal:400,5,1,7,header
@@ -1056,12 +1190,12 @@ Quantico:italic:400,5,3,7,header
 Quantico:italic:700,6,3,7,header
 Quantico:normal:400,5,1,7,body
 Quantico:normal:700,6,1,7,header
+Quattrocento:normal:400,4,1,7,header
+Quattrocento:normal:700,6,1,7,header
 Quattrocento Sans:italic:400,4,4,7,header
 Quattrocento Sans:italic:700,6,4,7,header
 Quattrocento Sans:normal:400,4,1,7,body
 Quattrocento Sans:normal:700,6,1,7,header
-Quattrocento:normal:400,4,1,7,header
-Quattrocento:normal:700,6,1,7,header
 Questrial:normal:400,4,1,7,header
 Quicksand:italic:300,2,4,8,header
 Quicksand:italic:400,3,4,8,header
@@ -1111,12 +1245,13 @@ Ranga:normal:400,4,5,5,header
 Ranga:normal:700,6,5,5,header
 Rationale:normal:400,4,1,6,body
 Ravi Prakash:normal:400,7,1,6,header
+Redacted:normal:400,9,1,7,header
 Redacted Script:normal:400,4,1,7,header
 Redacted Script:normal:700,9,8,8,header
-Redacted:normal:400,9,1,7,header
 Redressed:normal:400,5,1,6,body
 Reenie Beanie:normal:400,4,1,6,header
 Revalia:normal:400,5,1,9,header
+Rhodium Libre:normal:400,4,1,5,header
 Ribeye Marrow:normal:400,4,1,8,header
 Ribeye:normal:400,6,1,8,header
 Righteous:normal:400,6,1,7,body
@@ -1127,10 +1262,6 @@ Roboto Condensed:italic:700,6,4,6,header
 Roboto Condensed:normal:300,4,1,6,header
 Roboto Condensed:normal:400,5,1,6,body
 Roboto Condensed:normal:700,6,1,6,header
-Roboto Slab:normal:100,2,1,7,header
-Roboto Slab:normal:300,4,1,7,header
-Roboto Slab:normal:400,5,1,7,header
-Roboto Slab:normal:700,6,1,7,header
 Roboto:italic:100,2,4,7,header
 Roboto:italic:300,4,4,7,header
 Roboto:italic:400,5,4,7,header
@@ -1143,12 +1274,16 @@ Roboto:normal:400,5,1,7,body
 Roboto:normal:500,6,1,7,header
 Roboto:normal:700,6,1,7,header
 Roboto:normal:900,7,1,7,header
+Roboto Slab:normal:100,2,1,7,header
+Roboto Slab:normal:300,4,1,7,header
+Roboto Slab:normal:400,5,1,7,header
+Roboto Slab:normal:700,6,1,7,header
 Rochester:normal:400,4,1,5,header
 Rock Salt:normal:400,4,2,8,header
 Rokkitt:normal:300,3,1,7,header
 Rokkitt:normal:400,5,1,6,header
 Rokkitt:normal:700,6,1,7,header
-Romanesco:normal:400,5,6,4,header
+Romanesco:normal:400,5,6,1,header
 Ropa Sans:italic:400,5,4,7,header
 Ropa Sans:normal:400,5,1,6,header
 Rosario:italic:400,5,3,6,header
@@ -1174,6 +1309,8 @@ Russo One:normal:400,7,1,8,body
 Ruthie:normal:400,4,7,4,header
 Rye:normal:400,7,1,8,header
 Sacramento:normal:400,4,1,5,header
+Sahitya:normal:400,3,1,4,body
+Sahitya:normal:700,7,1,4,body
 Sail:normal:400,5,4,6,header
 Salsa:normal:400,6,1,7,header
 Sanchez:italic:400,5,4,8,header
@@ -1190,6 +1327,8 @@ Sarabun:italic:400,4,4,5,header
 Sarabun:italic:700,5,5,5,header
 Sarabun:normal:400,3,1,5,header
 Sarabun:normal:700,5,1,5,body
+Sarala:normal:400,4,1,5,body
+Sarala:normal:700,7,1,5,body
 Sarina:normal:400,8,7,8,header
 Sarpanch:normal:400,5,1,8,body
 Sarpanch:normal:500,6,1,8,header
@@ -1202,22 +1341,26 @@ Scada:italic:400,5,4,7,header
 Scada:italic:700,6,4,7,header
 Scada:normal:400,5,1,7,body
 Scada:normal:700,6,1,7,header
+Scheherazade:normal:400,4,1,3,body
+Scheherazade:normal:700,4,1,3,body
 Schoolbell:normal:400,4,1,6,header
+Scope One:normal:400,2,1,5,header
 Seaweed Script:normal:400,4,7,6,header
-Sedan SC:normal:400,5,1,7,header
+Secular One:normal:400,6,1,5,header
 Sedan:italic:400,5,8,6,header
 Sedan:normal:400,5,1,7,body
+Sedan SC:normal:400,5,1,7,header
 Sevillana:normal:400,4,1,6,header
 Seymour One:normal:400,10,1,9,header
-Shadows Into Light Two:normal:400,3,1,6,header
 Shadows Into Light:normal:400,3,1,6,header
+Shadows Into Light Two:normal:400,3,1,6,header
 Shanti:normal:400,5,1,7,body
-Share Tech Mono:normal:400,5,1,8,header
-Share Tech:normal:400,5,1,6,header
 Share:italic:400,5,3,6,header
 Share:italic:700,6,2,7,header
 Share:normal:400,5,1,6,header
 Share:normal:700,6,1,7,header
+Share Tech Mono:normal:400,5,1,8,header
+Share Tech:normal:400,5,1,6,header
 Shojumaru:normal:400,8,1,9,header
 Short Stack:normal:400,5,1,8,header
 Sigmar One:normal:400,10,1,8,header
@@ -1236,7 +1379,7 @@ Simonetta:normal:900,7,1,7,header
 Sintony:normal:400,4,1,8,header
 Sintony:normal:700,6,1,8,header
 Sirin Stencil:normal:400,5,1,6,body
-Six Caps:normal:400,3,1,3,header
+Six Caps:normal:400,3,1,1,header
 Skranji:normal:400,7,1,7,body
 Skranji:normal:700,8,1,8,header
 Slabo 13px:normal:400,4,1,7,header
@@ -1282,20 +1425,25 @@ Spirax:normal:400,4,1,7,body
 Squada One:normal:400,7,1,6,header
 Sree Krushnadevaraya:normal:400,6,1,6,body
 Stalemate:normal:400,3,1,3,header
-Stalin One:normal:400,9,7,10,header
 Stalinist One:normal:400,9,7,10,header
+Stalin One:normal:400,9,7,10,header
 Stardos Stencil:normal:400,6,1,7,body
 Stardos Stencil:normal:700,7,1,7,header
-Stint Ultra Condensed:normal:400,4,1,4,header
+Stint Ultra Condensed:normal:400,4,1,1,header
 Stint Ultra Expanded:normal:400,4,1,8,header
 Stoke:normal:300,5,1,8,header
 Stoke:normal:400,5,1,8,header
 Strait:normal:400,5,1,6,header
 Strong:normal:400,4,1,6,header
 Sue Ellen Francisco:normal:400,3,1,4,header
+Suez One:normal:400,9,1,5,header
+Sumana:normal:400,4,1,3,body
+Sumana:normal:700,7,1,3,body
 Sunshiney:normal:400,4,1,6,header
 Supermercado One:normal:400,5,1,7,header
 Suranna:normal:400,5,1,6,body
+Sura:normal:400,4,1,3,body
+Sura:normal:700,7,1,3,body
 Suravaram:normal:400,5,1,6,body
 Swanky and Moo Moo:normal:400,5,1,7,header
 Syncopate:normal:400,4,1,9,header
@@ -1303,8 +1451,8 @@ Syncopate:normal:700,8,1,9,header
 Tangerine:normal:400,3,10,3,header
 Tangerine:normal:700,4,8,4,header
 Tauri:normal:400,5,1,7,header
-Teko:normal:300,4,1,4,header
-Teko:normal:400,5,1,5,header
+Teko:normal:300,4,1,1,header
+Teko:normal:400,5,1,2,header
 Teko:normal:500,6,1,5,body
 Teko:normal:600,7,1,6,header
 Teko:normal:700,8,1,6,header
@@ -1358,16 +1506,16 @@ Tuffy:italic:400,4,5,7,header
 Tuffy:italic:700,6,5,7,header
 Tuffy:normal:400,4,1,7,header
 Tuffy:normal:700,6,1,7,header
-Tulpen One:normal:400,3,1,3,header
+Tulpen One:normal:400,3,1,1,header
 Ubuntu Condensed:normal:400,5,1,6,header
-Ubuntu Mono:italic:400,5,5,7,header
-Ubuntu Mono:italic:700,6,5,7,header
-Ubuntu Mono:normal:400,5,1,7,header
-Ubuntu Mono:normal:700,6,1,7,header
 Ubuntu:italic:300,4,5,7,header
 Ubuntu:italic:400,5,5,7,header
 Ubuntu:italic:500,6,5,7,header
 Ubuntu:italic:700,7,5,7,header
+Ubuntu Mono:italic:400,5,5,7,header
+Ubuntu Mono:italic:700,6,5,7,header
+Ubuntu Mono:normal:400,5,1,7,header
+Ubuntu Mono:normal:700,6,1,7,header
 Ubuntu:normal:300,4,1,7,header
 Ubuntu:normal:400,5,1,7,header
 Ubuntu:normal:500,6,1,7,header
@@ -1382,11 +1530,14 @@ Unkempt:normal:400,4,1,7,header
 Unkempt:normal:700,5,1,7,body
 Unlock:normal:400,8,1,8,header
 Unna:normal:400,5,1,6,header
-VT323:normal:400,5,1,6,body
 Vampiro One:normal:400,7,8,8,header
-Varela Round:normal:400,5,1,7,header
 Varela:normal:400,5,1,7,body
+Varela Round:normal:400,5,1,7,header
 Vast Shadow:normal:400,6,1,9,header
+Vesper Libre:normal:400,4,1,3,body
+Vesper Libre:normal:500,5,1,3,body
+Vesper Libre:normal:700,7,1,3,body
+Vesper Libre:normal:900,8,1,3,body
 Vibur:normal:400,5,3,6,header
 Vidaloka:normal:400,5,1,7,header
 Viga:normal:400,6,1,7,header
@@ -1400,17 +1551,33 @@ Vollkorn:italic:700,8,4,7,header
 Vollkorn:normal:400,5,1,7,body
 Vollkorn:normal:700,8,1,8,header
 Voltaire:normal:400,4,1,6,body
+VT323:normal:400,5,1,6,body
 Waiting for the Sunrise:normal:400,2,1,6,header
 Wallpoet:normal:400,7,1,8,header
 Walter Turncoat:normal:400,5,1,7,header
 Warnes:normal:400,5,1,8,header
 Wellfleet:normal:400,5,1,8,body
 Wendy One:normal:400,9,1,7,header
-Wire One:normal:400,1,1,3,header
+Wire One:normal:400,1,1,1,header
+Work Sans:normal:100,1,1,3,body
+Work Sans:normal:200,2,1,3,body
+Work Sans:normal:300,3,1,3,body
+Work Sans:normal:400,4,1,3,body
+Work Sans:normal:500,5,1,3,body
+Work Sans:normal:600,6,1,3,body
+Work Sans:normal:700,7,1,3,body
+Work Sans:normal:800,8,1,3,body
+Work Sans:normal:900,9,1,3,body
 Yanone Kaffeesatz:normal:200,1,1,5,header
 Yanone Kaffeesatz:normal:300,3,1,5,header
 Yanone Kaffeesatz:normal:400,4,1,5,header
-Yanone Kaffeesatz:normal:700,6,1,4,header
+Yanone Kaffeesatz:normal:700,6,1,2,header
+Yantramanav:normal:100,1,1,3,body
+Yantramanav:normal:300,3,1,3,body
+Yantramanav:normal:400,5,1,3,body
+Yantramanav:normal:500,6,1,3,body
+Yantramanav:normal:700,7,1,3,body
+Yantramanav:normal:900,8,1,3,body
 Yellowtail:normal:400,6,8,5,header
 Yeseva One:normal:400,7,1,8,header
 Yesteryear:normal:400,6,7,5,header

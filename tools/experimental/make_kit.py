@@ -61,9 +61,10 @@ def makeKit(font_path):
       f.write("    url('./%s.woff2') format('woff2'),\n" % font_name_noext)
       f.write("    url('./%s.woff') format('woff'),\n" % font_name_noext)
       if font_ext == '.otf':
-        f.write("    url('./%s.otf') format('opentype')\n" % font_name_noext)
+        f.write("    url('./%s.otf') format('opentype')" % font_name_noext)
       else:
-        f.write("    url('./%s.ttf') format('truetype')\n" % font_name_noext)
+        f.write("    url('./%s.ttf') format('truetype')" % font_name_noext)
+      f.write(";\n")
       f.write("}\n")
 
   return True

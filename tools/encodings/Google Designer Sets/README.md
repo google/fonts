@@ -79,7 +79,7 @@ Includes currencies: ₮, ₴, ₸.
 
 The ruble sign (₽ U+20BD) is not included, since it is already present in the Latin Plus set.
 
-### Google Cyrillic Pro [total: 322 glyphs, 76 unique glyphs]
+### Google Cyrillic Pro (total: 322 glyphs, 76 unique glyphs)
 
 
 Additional characters in this set provide support for the following languages: Chukchi, Enets, Itelmen, Nenets, Orok, Kanty, Kildin Sami, Tati

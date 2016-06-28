@@ -19,7 +19,7 @@ Open Glyphs and in the left bottom sidebar, create a new list filter, and paste 
 Latin
 ----------------------------------------------------
 
-* * * 
+
 Structure and Hierarchy of Encodings for Latin:
 
 1. **Core** A Basic Latin set for Western Europe

@@ -4,16 +4,16 @@
 0x215C  ⅜ threeeighths
 0x215D  ⅝ fiveeighths
 0x215E  ⅞ seveneighths
-0x2190  ← arrowleft
-0x2191  ↑ arrowup
-0x2192  → arrowright
-0x2193  ↓ arrowdown
-0x25A0  ■ filledbox
-0x25B2  ▲ triagup
+0x2190  ← leftArrow
+0x2191  ↑ upArrow
+0x2192  → rightArrow
+0x2193  ↓ downArrow
+0x25A0  ■ blackSquare
+0x25B2  ▲ upBlackTriangle
 0x25B3  △ upWhiteTriangle
 0x25B6  ▶ rightBlackTriangle
 0x25B7  ▷ rightWhiteTriangle
-0x25BC  ▼ triagdn
+0x25BC  ▼ downBlackTriangle
 0x25BD  ▽ downWhiteTriangle
 0x25C0  ◀ leftBlackTriangle
 0x25C1  ◁ leftWhiteTriangle
@@ -175,59 +175,59 @@
           uhorntilde.sc
           uhungarumlaut.sc
           umacron.sc
-          uni01C6.sc
-          uni01C9.sc
-          uni01CC.sc
-          uni0201.sc
-          uni0203.sc
-          uni0205.sc
-          uni0207.sc
-          uni0209.sc
-          uni020B.sc
-          uni020D.sc
-          uni020F.sc
-          uni0211.sc
-          uni0213.sc
-          uni0215.sc
-          uni0217.sc
-          uni022B.sc
-          uni022D.sc
-          uni0231.sc
-          uni1E09.sc
-          uni1E0D.sc
-          uni1E0F.sc
-          uni1E15.sc
-          uni1E17.sc
-          uni1E1D.sc
-          uni1E21.sc
-          uni1E25.sc
-          uni1E2B.sc
-          uni1E2F.sc
-          uni1E37.sc
-          uni1E3B.sc
-          uni1E43.sc
-          uni1E45.sc
-          uni1E47.sc
-          uni1E49.sc
-          uni1E4D.sc
-          uni1E4F.sc
-          uni1E51.sc
-          uni1E53.sc
-          uni1E5B.sc
-          uni1E5F.sc
-          uni1E61.sc
-          uni1E63.sc
-          uni1E65.sc
-          uni1E67.sc
-          uni1E69.sc
-          uni1E6D.sc
-          uni1E6F.sc
-          uni1E79.sc
-          uni1E7B.sc
-          uni1E8F.sc
-          uni1E93.sc
-          uni1E97.sc
-          uni1EC9.sc
+          dzcaron.sc
+          lj.sc
+          nj.sc
+          adblgrave.sc
+          ainvertedbreve.sc
+          edblgrave.sc
+          einvertedbreve.sc
+          idblgrave.sc
+          iinvertedbreve.sc
+          odblgrave.sc
+          oinvertedbreve.sc
+          rdblgrave.sc
+          rinvertedbreve.sc
+          udblgrave.sc
+          uinvertedbreve.sc
+          odieresismacron.sc
+          otildemacron.sc
+          odotaccentmacron.sc
+          ccedillaacute.sc
+          ddotbelow.sc
+          dlinebelow.sc
+          emacrongrave.sc
+          emacronacute.sc
+          ecedillabreve.sc
+          gmacron.sc
+          hdotbelow.sc
+          hbrevebelow.sc
+          idieresisacute.sc
+          ldotbelow.sc
+          llinebelow.sc
+          mdotbelow.sc
+          ndotaccent.sc
+          ndotbelow.sc
+          nlinebelow.sc
+          otildeacute.sc
+          otildedieresis.sc
+          omacrongrave.sc
+          omacronacute.sc
+          rdotbelow.sc
+          rlinebelow.sc
+          sdotaccent.sc
+          sdotbelow.sc
+          sacutedotaccent.sc
+          scarondotaccent.sc
+          sdotbelowdotaccent.sc
+          tdotbelow.sc
+          tlinebelow.sc
+          utildeacute.sc
+          umacrondieresis.sc
+          ydotaccent.sc
+          zdotbelow.sc
+          tdieresis.sc
+          ihookabove.sc
           uogonek.sc
           uring.sc
           utilde.sc
@@ -251,17 +251,17 @@
           zacute.sc
           zcaron.sc
           zdotaccent.sc
-          i.TRK.sc
+          i.sc.TRK.sc
           germandbls.alt.sc
           00B7.sc
-          uni0021.sc
-          uni00A1.sc
-          uni003F.sc
-          uni00BF.sc
-          uni0022.sc
-          uni201C.sc
-          uni201D.sc
-          uni2018.sc
-          uni2019.sc
-          uni0027.sc
-          uni0026.sc
+          exclam.sc
+          exclamdown.sc
+          question.sc
+          questiondown.sc
+          quotedbl.sc
+          quotedblleft.sc
+          quotedblright.sc
+          quoteleft.sc
+          quoteright.sc
+          quotesingle.sc
+          ampersand.sc

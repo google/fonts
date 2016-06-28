@@ -14,7 +14,7 @@ Inside **FilterLists** are text files with a list of glyphs for each set.
 Open Glyphs and in the left bottom sidebar, create a new list filter, and paste the contents of these files to check if your fonts supports these characters. A ✓ will indicate you are all set. Otherwise **ctrl + click** on the numbers to generate missing glyphs.
 
 ![Glyphs list filter](FilterLists/list-filter.png)
-![Glyphs list filter](FilterLists/list-filter-2.png)
+![Glyphs list filter](FilterLists/list-filter-1.png) 
 
 Latin
 ----------------------------------------------------

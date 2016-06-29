@@ -29,7 +29,10 @@ Structure and Hierarchy of Encodings for Latin:
 
 ### Google Latin Plus (600 glyphs total)
 
-Vietnamese language support
+  - Western European  
+  - Central European  
+  - Vietnamese  
+  - Currencies: ₡ ₣ ₤ ₦ ₧ ₩ ₫ ₭ ₱ ₲ ₵ ₹ ₺ ₼ ₽
 
 Includes characters from the following unicode ranges: 
 
@@ -38,7 +41,6 @@ Includes characters from the following unicode ranges:
   - Latin Extended B
   - Latin Extended Additional
   - Latin-1 Supplement
-  - Currencies: ₡ ₣ ₤ ₦ ₧ ₩ ₫ ₭ ₱ ₲ ₵ ₹ ₺ ₼ ₽ 
 
 **Language support for the following Latin-based languages**: Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (Latin), Bemba, Bikol, Bislama, Bosnian, Breton, Cape Verdean Creole, Catalan, Cebuano, Chamorro, Chavacano, Chichewa, Chickasaw, Cimbrian, Cofán, Cornish, Corsican, Creek, Crimean Tatar (Latin), Croatian, Czech, Danish, Dawan, Delaware, Dholuo, Drehu, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino, Finnish, Folkspraak, French, Frisian, Friulian, Gagauz (Latin), Galician, Ganda, Genoese, German, Gikuyu, Gooniyandi, Greenlandic (Kalaallisut), Guadeloupean Creole, Gwich’in, Haitian Creole, Hän, Hawaiian, Hiligaynon, Hopi, Hotcąk (Latin), Hungarian, Icelandic, Ido, Igbo, Ilocano, Indonesian, Interglossa, Interlingua, Irish, Istro-Romanian, Italian, Jamaican, Javanese (Latin), Jèrriais, Kaingang, Kala Lagaw Ya, Kapampangan (Latin), Kaqchikel, Karakalpak (Latin), Karelian (Latin), Kashubian, Kikongo, Kinyarwanda, Kiribati, Kirundi, Klingon, Kurdish (Latin), Ladin, Latin, Latino sine Flexione, Latvian, Lithuanian, Lojban, Lombard, Low Saxon, Luxembourgish, Maasai, Makhuwa, Malay, Maltese, Manx, Māori, Marquesan, Megleno-Romanian, Meriam Mir, Mirandese, Mohawk, Moldovan, Montagnais, Montenegrin, Murrinh-Patha, Nagamese Creole, Nahuatl, Ndebele, Neapolitan, Ngiyambaa, Niuean, Noongar, Norwegian, Novial, Occidental, Occitan, Old Icelandic, Old Norse, Onĕipŏt, Oshiwambo, Ossetian (Latin), Palauan, Papiamento, Piedmontese, Polish, Portuguese, Potawatomi, Q’eqchi’, Quechua, Rarotongan, Romanian, Romansh, Rotokas, Sami (Inari Sami), Sami (Lule Sami), Sami (Northern Sami), Sami (Southern Sami), Samoan, Sango, Saramaccan, Sardinian, Scottish Gaelic, Serbian (Latin), Seri, Seychellois Creole, Shawnee, Shona, Sicilian, Silesian, Slovak, Slovenian, Slovio (Latin), Somali, Sorbian (Lower Sorbian), Sorbian (Upper Sorbian), Sotho (Northern), Sotho (Southern), Spanish, Sranan, Sundanese (Latin), Swahili, Swazi, Swedish, Tagalog, Tahitian, Tetum, Tok Pisin, Tokelauan, Tongan, Tshiluba, Tsonga, Tswana, Tumbuka, Turkish, Turkmen (Latin), Tuvaluan, Tzotzil, Uzbek (Latin), Venetian, Vepsian, Volapük, Võro, Wallisian, Walloon, Waray-Waray, Warlpiri, Wayuu, Welsh, Wik-Mungkan, Wiradjuri, Wolof, Xavante, Xhosa, Yapese, Yindjibarndi, Zapotec, Zarma, Zazaki, Zulu, Zuni
 
@@ -47,14 +49,17 @@ Includes characters from the following unicode ranges:
 - Math symbols and units of measure ∆ Ω π ℓ ℮ ∞ ∂ ∫ √ ∑ ∏ ◊
 - Latin general use extensions from U+1E08 to U+1EC9 Ḉ ḉ Ḍ ḍ Ḏ ḏ Ḕ ḕ Ḗ ḗ Ḝ ḝ Ḡ ḡ Ḥ ḥ Ḫ ḫ Ḯ ḯ Ḷ ḷ Ḻ ḻ Ṃ ṃ Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṍ ṍ Ṏ ṏ Ṑ ṑ Ṓ ṓ Ṛ ṛ Ṟ ṟ Ṡ ṡ Ṣ ṣ Ṥ ṥ Ṧ ṧ Ṩ ṩ Ṭ ṭ Ṯ ṯ Ṹ ṹ Ṻ ṻ Ẏ ẏ Ẓ ẓ ẗ 
  - Figures: numerators, denominators, superiors and inferiors ⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉
- — Punctuation and phonetic modifiers for transliterations ‐ ‒ ― ′ ″ ʻ ʼ ʾ ʿ ˈ ˊ ˋ ˌ 
+ — General punctuation Phonetic modifiers for transliterations ‐ ‒ ― ′ ″ ʻ ʼ ʾ ʿ ˈ ˊ ˋ ˌ 
+ - Superscript and Subscript ⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉
+ - Numerators and Denominators
+ - Case variants for punctuation
 
 
 ### Google Latin Expert (+274 for 1025 total)
 
-- Small Caps (.sc)
-- Arrows and ornaments ← ↑ → ↓ ■ □ ▲ △ ▶ ▷ ▼ ▽ ◀ ◁ ◆ ◇ 
-- Fractions ⅓ ⅔ ⅛ ⅜ ⅝ ⅞
+- Small Capitals (.sc)
+- Arrows and Ornaments ← ↑ → ↓ ■ □ ▲ △ ▶ ▷ ▼ ▽ ◀ ◁ ◆ ◇ 
+- Additional Unicode Fractions ⅓ ⅔ ⅛ ⅜ ⅝ ⅞
 - Discretionaty Ligatures Th ct ch st
 
 

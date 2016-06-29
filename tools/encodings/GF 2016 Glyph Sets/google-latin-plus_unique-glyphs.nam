@@ -1,8 +1,7 @@
-          .notdef
 0x0000  . null
-0x000D  C R
-0x0020  s pace
-0x00A0  n bspace
+0x000D    CR
+0x0020    space
+0x00A0    nbspace
 0x0041  A A
 0x0042  B B
 0x0043  C C
@@ -149,7 +148,7 @@
 0x012C  Ĭ Ibreve
 0x012D  ĭ ibreve
 0x0130  İ Idotaccent
-          i.TRK
+          idotaccent
 0x1ECA  Ị Idotbelow
 0x1ECB  ị idotbelow
 0x012E  Į Iogonek
@@ -333,9 +332,7 @@
 0x0231  ȱ odotaccentmacron
 0xFB00  ﬀ f_f
 0xFB01  ﬁ fi
-          f_i
 0xFB02  ﬂ fl
-          f_l
          f_ij
 0xFB03  ﬃ f_f_i
 0xFB04  ﬄ f_f_l
@@ -423,6 +420,8 @@
 0x00BF  ¿ questiondown
 0x2026  … ellipsis
 0x00B7  · periodcentered
+          periodcentered.loclCAT
+          periodcentered.loclCAT.case
 0x2219  ∙ bulletoperator
 0x2022  • bullet
 0x002F  / slash
@@ -562,6 +561,8 @@
 0x1EC3  ể ecircumflexhookabove
 0x1EC5  ễ ecircumflextilde
 0x1EBB  ẻ ehookabove
+0x1EC8  Ỉ Ihookabove
+0x1EC9  ỉ ihookabove
 0x1ED1  ố ocircumflexacute
 0x1ED9  ộ ocircumflexdotbelow
 0x1ED3  ồ ocircumflexgrave
@@ -582,3 +583,18 @@
 0x1EEF  ữ uhorntilde
 0x1EF5  ỵ ydotbelow
 0x1EF7  ỷ yhookabove
+0x20A1  ₡ colonsign
+0x20A3  ₣ franc
+0x20A4  ₤ lira
+0x20A6  ₦ naira
+0x20A7  ₧ peseta
+0x20A9  ₩ won
+0x20AB  ₫ dong
+0x20AD  ₭ kip
+0x20B1  ₱ peso
+0x20B2  ₲ guarani
+0x20B5  ₵ cedi
+0x20B9  ₹ rupeeIndian
+0x20BA  ₺ liraTurkish
+0x20BC  ₼ manat
+0x20BD  ₽ ruble

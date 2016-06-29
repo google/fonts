@@ -1,5 +1,4 @@
-.notdef
-.null
+null
 CR
 space
 nbspace
@@ -149,7 +148,7 @@ imacron
 Ibreve
 ibreve
 Idotaccent
-i.TRK
+idotaccent
 Idotbelow
 idotbelow
 Iogonek
@@ -288,8 +287,8 @@ Zdotaccent
 zdotaccent
 IJ
 ij
-IJacute
-ijacute
+ IJacute
+ ijacute
 Schwa
 schwa
 DZcaron
@@ -333,13 +332,11 @@ Odotaccentmacron
 odotaccentmacron
 f_f
 fi
-f_i
 fl
-f_l
-f_ij
+ f_ij
 f_f_i
 f_f_l
-f_f_ij
+ f_f_ij
 ampersand
 at
 asterisk
@@ -363,52 +360,52 @@ hungarumlaut
 dotaccent
 cedilla
 ogonek
-gravecomb
+ gravecomb
 gravecomb.case
-acutecomb
+ acutecomb
 acutecomb.case
-circumflexcomb
+ circumflexcomb
 circumflexcomb.case
-tildecomb
+ tildecomb
 tildecomb.case
-macroncomb
+ macroncomb
 macroncomb.case
-brevecomb
+ brevecomb
 brevecomb.case
-dotaccentcomb
+ dotaccentcomb
 dotaccentcomb.case
-dieresiscomb
+ dieresiscomb
 dieresiscomb.case
-hookabovecomb
+ hookabovecomb
 hookabovecomb.case
-ringcomb
+ ringcomb
 ringcomb.case
-hungarumlautcomb
+ hungarumlautcomb
 hungarumlautcomb.case
-caroncomb
+ caroncomb
 caroncomb.case
-breveinvertedcomb
+ breveinvertedcomb
 breveinvertedcomb.case
-dblgravecomb
+ dblgravecomb
 dblgravecomb.case
-horncomb
+ horncomb
 horncomb.case
-dotbelowcomb
+ dotbelowcomb
 dotbelowcomb.case
-dieresisbelowcomb
+ dieresisbelowcomb
 dieresisbelowcomb.case
-commaaccentcomb
+ commaaccentcomb
 commaaccentcomb.case
 commaaccentcomb.alt
-cedillacomb
+ cedillacomb
 cedillacomb.case
-ogonekcomb
+ ogonekcomb
 ogonekcomb.case
-brevebelowcomb
+ brevebelowcomb
 brevebelowcomb.case
-macronbelowcomb
+ macronbelowcomb
 macronbelowcomb.case
-softhyphen
+ softhyphen
 hyphen
 endash
 emdash
@@ -423,6 +420,8 @@ question
 questiondown
 ellipsis
 periodcentered
+periodcentered.loclCAT
+periodcentered.loclCAT.case
 bulletoperator
 bullet
 slash
@@ -562,6 +561,8 @@ ecircumflexgrave
 ecircumflexhookabove
 ecircumflextilde
 ehookabove
+Ihookabove
+ihookabove
 ocircumflexacute
 ocircumflexdotbelow
 ocircumflexgrave
@@ -582,3 +583,18 @@ uhornhookabove
 uhorntilde
 ydotbelow
 yhookabove
+colonsign
+franc
+lira
+naira
+peseta
+won
+dong
+kip
+peso
+guarani
+cedi
+rupeeIndian
+liraTurkish
+manat
+ruble

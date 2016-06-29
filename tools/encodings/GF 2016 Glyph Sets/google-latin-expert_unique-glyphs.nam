@@ -9,6 +9,7 @@
 0x2192  → rightArrow
 0x2193  ↓ downArrow
 0x25A0  ■ blackSquare
+0x25A1  □ whiteSquare
 0x25B2  ▲ upBlackTriangle
 0x25B3  △ upWhiteTriangle
 0x25B6  ▶ rightBlackTriangle
@@ -18,6 +19,7 @@
 0x25C0  ◀ leftBlackTriangle
 0x25C1  ◁ leftWhiteTriangle
 0x25C6  ◆ blackDiamond
+0x25C7  ◇ whiteDiamond
           a.sc
           aacute.sc
           abreve.sc
@@ -253,7 +255,8 @@
           zdotaccent.sc
           i.sc.TRK.sc
           germandbls.alt.sc
-          00B7.sc
+          periodcentered.sc
+          periodcentered.loclCAT.sc
           exclam.sc
           exclamdown.sc
           question.sc
@@ -265,3 +268,7 @@
           quoteright.sc
           quotesingle.sc
           ampersand.sc
+          T_h
+          c_t
+          c_h
+          s_t

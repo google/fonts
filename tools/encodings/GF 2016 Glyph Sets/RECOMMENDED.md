@@ -32,6 +32,29 @@ Armenian Dram currency symbol is a recommended addition to any Cyrillic-supporti
 	
 	
 ***
+### STRASSE or Straße? ###
+
+The Google Lating Plus encoding includes **ẞ Germandbls U+1E9E**. 
+
+Does your font include Small Capitals?
+For better compatibility you may consider adding the germandbls.calt glyph to access ẞ U+1E9E in Small Caps fonts. In Glyphs go to *Glyph > Add Glyphs*, and paste this code:
+
+	Germandbls=germandbls.calt
+	
+Add this calt feature:
+
+	sub @Uppercase germandbls' @Uppercase by germandbls.calt;
+	sub @Uppercase @Uppercase germandbls' by germandbls.calt;
+
+Recommended links for further reading: 
+
+ * [How to draw a Capital Sharp S](https://typography.guru/journal/how-to-draw-a-capital-sharp-s-r18/) by Ralf Herrmann
+
+ * [Localize Your Font: German Capital Sharp S](https://www.glyphsapp.com/tutorials/localize-your-font-german-capital-sharp-s) by Rainer Erich Scheichelbauer  
+
+N.B. The question of German Uppercase Capital Sharp S is still highly debatable, and its usage hasn't passed into the official orthography. 
+
+
 ### Recommended links: ###
 
 Pablo Impallari's [Latin encoding](https://github.com/impallari/Impallari-Fontlab-Encodings/tree/master/Impallari%20Latin)

@@ -103,4 +103,4 @@ See [RECOMMENDED.md](RECOMMENDED.md)
 
 Dave Crossland, Frank Grießhammer, Georg Seifert, Gunnar Vilhjálmsson, Jacques Le Bailly, Nhung Nguyen (Vietnamese lists), Pablo Impallari (Impallari Encoding), Thomas Jockin, Thomas Phinney (Adobe Cyrillic lists), Underware (Latin Plus Encoding)
 
-Encoding created by Alexei Vanyashin (@alexeiva) and Kalapi Gajjar (@kalapi) 2016-07-27
+Encoding created by Alexei Vanyashin (@alexeiva) and Kalapi Gajjar (@kalapi) 2016-06-27

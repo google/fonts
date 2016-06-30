@@ -2,13 +2,24 @@
 
 This page offers a checklist for running a libre font project. 
 
-## Libre Fonts Culture
+## Participating in Libre Fonts Culture
 
+### The Culture
+
+The libre software culture has influenced restricted software development practices, and is also a trending influence on type design today. 
 Since fonts are software, it is helpful for all type designers to understand typical ways of running software projects. 
 For type designers involved in starting or participating in libre font projects, it is especially helpful to understand how libre software project operate.
+Here are a few guides to this culture:
 
-The libre software culture has had an influence on restricted software development practices, and is a leading influence on type design today. 
-David Lemon, the senior manager of the Adobe Type group, said at ATypI 2014 how the Adobe Type team has benefited from libre fonts culture, and that Git and Github was one of the most positive things ([reference](https://www.youtube.com/watch?v=DBz0rVUYNPA).)
+* [Remix Culture](https://en.wikipedia.org/wiki/Remix_culture)
+* The [Producing Open Source Software](http://producingoss.com) book
+* A list of [99 anti-patterns](http://opensoul.org/2015/07/22/99ways/)
+* The [Debian Social Contract](https://www.debian.org/social_contract)
+* Dave Crossland's MATD Dissertation, [The Free Font Movement](https://davelab6.github.io/matd-dissertation)
+
+### Github
+
+At ATypI 2014 David Lemon, the senior manager of the Adobe Type group, discussed how the Adobe Type team has benefited from libre fonts culture, and that Git and Github was one of the most positive things ([reference](https://www.youtube.com/watch?v=DBz0rVUYNPA).)
 Adobe have recently used the "publish early and often, gathering feedback" approach typical of libre project with the Vortice typeface project ([reference](http://blog.typekit.com/2015/03/04/introducing-vortice-and-the-adobe-type-concepts-program/).) 
 A Thai type designer and web developer said this about his experience with Git:
 
@@ -19,20 +30,30 @@ This enables the public to see work in progress and point out issues during deve
 
 Github is a public project collaboration platform that is somewhat similar to Dropbox, but more fine-grained. 
 It provides the best and most well-designed experience for public project development.
-
 However, it is very project-centered. 
 
-Please join the Fonts-Discuss Google Group, and when you have some work to show start a new thread and describe the work. You'll see a lot of other Israeli designers did the same, and the responses have been great.
+### The Google Fonts Discuss mailing list
 
-If possible, add screenshots of your designs in your posts (and not just links to Github) - it makes the conversation on the Google Group much easier.
+To discuss topics outside narrow per-project details, the Google Fonts type design community uses the Google Group [Google Fonts Discuss](https://groups.google.com/forum/#!forum/googlefonts-discuss)
 
-**Note:** The github messages are emailed to you and anyone who clicks 'watch' at the top of your project. 
-You can reply via email to these messages and they will be posted publicly on the Github issue tracker (although attachments will be dropped.)
+When you begin a project, start a new thread and describe the project. 
+You'll see a lot of other designers have done the same, and the responses have improved their results as there are linguists, developers and many other type designers there. 
+
+To make your progress visible to the community, it is helpful to post a short 3 line email with 3 things:
+
+1. What you did today
+2. What you'll do the next day you work on the project
+3. Any questoins for the team
+
+If possible, add screenshots of your designs in your emails (along with links to PDFs or project files in your Github repo) as this makes the conversation on the email list much easier to follow. 
+
+### Github "Watch" Discussions
+
+Github also has an email discussion feature: 
+clicks 'watch' at the top of your project page, and github will email you (and all other watchers) each comment posted on the issue tracker, pull requests, or commits. 
+You can reply via email to these messages, but note that your email replies **will** be posted publicly on the Github issue tracker (although attachments will be dropped.)
+
 So its a good idea to set up an email filter to label github emails as such, to be sure you know when your reply will become public. 
- 
-* The [Producing Open Source Software](http://producingoss.com) book
-* A list of [99 anti-patterns](http://opensoul.org/2015/07/22/99ways/)
-* [The Free Font Movement](https://davelab6.github.io/matd-dissertation) MATD Dissertation
 
 ## Tools
 

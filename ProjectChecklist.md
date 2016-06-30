@@ -291,11 +291,20 @@ There are many good guides for learning how to use Github around the web, includ
 * <http://nvie.com/posts/a-successful-git-branching-model>, an essay about using Git for ongoing project management.
 * [Articles about Github in Wired.com](https://www.google.com/search?q=github+everything+site:wired.com)
 
-Tip: When working with font projects on Github, it is typical to work with several "forks" of the same project, each driven by different people or organizations.
+Github provides a proprietary-freeware desktop Git GUI, <https://desktop.github.com>. 
+If you use Glyphs, the [github.com/simoncozens/GlyphsGit](https://github.com/simoncozens/GlyphsGit) plugin changes the 'save' function to integrate with Git, so that as you save like normal within the app, you are prompted for a git commit message.
+These 2 tools are probably the best way to keep your work committed into git as you go. 
+Doing so helps keep a journal of your progress with the project. 
+
+When working with font projects on Github, it is typical to work with several "forks" of the same project, each owned by different people or organizations.
 To keep things simple you should repeat the github.com site structure on your harddisk:
 Create a folder in your projects directory called `github.com`, inside that make a directory for each username/organization you work with, and clone each repo inside its correpsonding folder. 
 
-If you use Glyphs, use this plugin that makes working with Git just like saving: [github.com/simoncozens/GlyphsGit](https://github.com/simoncozens/GlyphsGit)
+When addressing an issue, do not close it when you think it is done; 
+ask for the person who reported it to verify it is resolved and then close their issue. 
+
+When posting a Pull Request, do not merge your own PR; ask for someone to review it. 
+Open PRs can be updated in-place (sometimes requiring a 'forced push' with `git push -f`) and the Github PR pages offer line-by-line commenting. 
 
 ### Your Repository
 

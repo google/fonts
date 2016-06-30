@@ -1,5 +1,7 @@
 # Large-scale Web Font Analysis
 
+**This database is no longer available, the following is for historical interest only.**
+
 The Large-scale Web Font Analysis data set is a tool to understand the adoption of web fonts across the web. 
 This document explains
 

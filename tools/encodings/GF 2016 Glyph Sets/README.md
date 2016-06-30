@@ -10,8 +10,13 @@ Three sets are available in this directory: **Plus, Pro and Expert.**
 
 ### Glyphs App Tip
 
-Inside **FilterLists** are text files with a list of glyphs for each set. 
-Open Glyphs and in the left bottom sidebar, create a new list filter, and paste the contents of these files to check if your fonts supports these characters. A ✓ will indicate you are all set. Otherwise **ctrl + click** on the numbers to generate missing glyphs.
+Inside [**FilterLists**](FilterLists) are text files with a list of glyphs for each set. 
+Open Glyphs and in the left bottom sidebar, create a new list filter, and paste the contents of these TXT files to check if your fonts supports these characters. A ✓ will indicate you are all set. Otherwise **ctrl + click** on the numbers to generate missing glyphs. 
+
+
+	N.B. If you get an error while creating new glyphs, select all glyphs in your font, from the top menu choose Glyph -> Update Glyph Info. Try again. If updating Glyph Info didn't work make sure [ ] Use custom naming is unckecked in Font Info > Other Settings. 
+
+See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for more details.
 
 ![Glyphs list filter](FilterLists/list-filter.png)
 ![Glyphs list filter](FilterLists/list-filter-1.png) 
@@ -27,7 +32,15 @@ Structure and Hierarchy of Encodings for Latin:
 3. **Pro** For casual and headline fonts that need a little more typographic sophistication, an extra 171 glyphs
 4. **Expert** For text and workhorse typefaces that must supply everything typographers need, such as small caps, an additional 300 glyphs
 
-### Google Latin Plus (600 glyphs total)
+| Glyph Set | Drawn | Composite | Either/Or | From Core | From Core contingency
+|:-------|----:|----:|---:|----:|---:|
+| Core   | 150 | 70  |    |     |    |
+| Plus   | 215 | 360 | 19 |  65 | 19 |
+| Pro    |  26 | 116 |  4 |  23 | 23 |
+| Expert |  62 | 207 |  4 | 153 | 27 |
+| Total  | 303 | 683 | 27 |     |    |
+
+### Google Latin Plus (597 glyphs total)
 
   - Western & Central European 
   - Vietnamese  
@@ -44,9 +57,9 @@ Includes characters from the following unicode ranges:
 
 **Language support for the following Latin-based languages**: Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (Latin), Bemba, Bikol, Bislama, Bosnian, Breton, Cape Verdean Creole, Catalan, Cebuano, Chamorro, Chavacano, Chichewa, Chickasaw, Cimbrian, Cofán, Cornish, Corsican, Creek, Crimean Tatar (Latin), Croatian, Czech, Danish, Dawan, Delaware, Dholuo, Drehu, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino, Finnish, Folkspraak, French, Frisian, Friulian, Gagauz (Latin), Galician, Ganda, Genoese, German, Gikuyu, Gooniyandi, Greenlandic (Kalaallisut), Guadeloupean Creole, Gwich’in, Haitian Creole, Hän, Hawaiian, Hiligaynon, Hopi, Hotcąk (Latin), Hungarian, Icelandic, Ido, Igbo, Ilocano, Indonesian, Interglossa, Interlingua, Irish, Istro-Romanian, Italian, Jamaican, Javanese (Latin), Jèrriais, Kaingang, Kala Lagaw Ya, Kapampangan (Latin), Kaqchikel, Karakalpak (Latin), Karelian (Latin), Kashubian, Kikongo, Kinyarwanda, Kiribati, Kirundi, Klingon, Kurdish (Latin), Ladin, Latin, Latino sine Flexione, Latvian, Lithuanian, Lojban, Lombard, Low Saxon, Luxembourgish, Maasai, Makhuwa, Malay, Maltese, Manx, Māori, Marquesan, Megleno-Romanian, Meriam Mir, Mirandese, Mohawk, Moldovan, Montagnais, Montenegrin, Murrinh-Patha, Nagamese Creole, Nahuatl, Ndebele, Neapolitan, Ngiyambaa, Niuean, Noongar, Norwegian, Novial, Occidental, Occitan, Old Icelandic, Old Norse, Onĕipŏt, Oshiwambo, Ossetian (Latin), Palauan, Papiamento, Piedmontese, Polish, Portuguese, Potawatomi, Q’eqchi’, Quechua, Rarotongan, Romanian, Romansh, Rotokas, Sami (Inari Sami), Sami (Lule Sami), Sami (Northern Sami), Sami (Southern Sami), Samoan, Sango, Saramaccan, Sardinian, Scottish Gaelic, Serbian (Latin), Seri, Seychellois Creole, Shawnee, Shona, Sicilian, Silesian, Slovak, Slovenian, Slovio (Latin), Somali, Sorbian (Lower Sorbian), Sorbian (Upper Sorbian), Sotho (Northern), Sotho (Southern), Spanish, Sranan, Sundanese (Latin), Swahili, Swazi, Swedish, Tagalog, Tahitian, Tetum, Tok Pisin, Tokelauan, Tongan, Tshiluba, Tsonga, Tswana, Tumbuka, Turkish, Turkmen (Latin), Tuvaluan, Tzotzil, Uzbek (Latin), Venetian, Vepsian, Volapük, Võro, Wallisian, Walloon, Waray-Waray, Warlpiri, Wayuu, Welsh, Wik-Mungkan, Wiradjuri, Wolof, Xavante, Xhosa, Yapese, Yindjibarndi, Zapotec, Zarma, Zazaki, Zulu, Zuni
 
-### Google Latin Pro (+151 for 751 glyphs total)
+### Google Latin Pro (+152 for 749 glyphs total)
 
-- Math symbols and Units of Measure (∆ Ω π ℓ ℮ ∞ ∂ ∫ √ ∑ ∏ ◊)
+- Math symbols and Units of Measure (∆ Ω π ℓ ℮ ∞ ∂ ∫ √ ∑ ∏ ◊ ∅)
 - Latin General Use Extensions (U+1E08 to U+1EC9)
 - Superiors and Inferiors (⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉)
 - Spacing Modifier Letters (ʻ ʼ ʾ ʿ ˈ ˊ ˋ ˌ)
@@ -56,7 +69,7 @@ Includes characters from the following unicode ranges:
 - Numerators and Denominators
 
 
-### Google Latin Expert (+274 for 1025 total)
+### Google Latin Expert (+274 for 1023 total)
 
 - Additional Unicode Fractions (⅓ ⅔ ⅛ ⅜ ⅝ ⅞)
 - Arrows (← ↑ → ↓)

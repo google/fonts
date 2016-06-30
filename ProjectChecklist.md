@@ -223,7 +223,20 @@ Some command line web font tools can be useful for converting to and from variou
 
     brew tap bramstein/webfonttools; 
     brew update; 
-    brew install sfnt2woff sfnt2woff-zopfli woff2 ttf2eot sfntly vfb2ufo;
+    brew install sfnt2woff sfnt2woff-zopfli woff2 ttf2eot sfntly;
+
+##### vfb2ufo
+
+Fonts developed prior to 2014 are typically in the FontLab Studio `.VFB` format. 
+There are 2 tools to convert VFB files to Glyphs files. 
+
+1. Use Glyphs's FontLab Export Macro, described in <https://glyphsapp.com/tutorials/porting-to-glyphs> and <https://glyphsapp.com/tutorials/importing-existing-fonts>
+
+2. Use FontLab's `vfb2ufo` command line tool. This can be installed with:
+
+    brew tap bramstein/webfonttools; 
+    brew update;
+    brew install vfb2ufo
 
 ##### OTS 
 
@@ -485,10 +498,13 @@ For feature files:
 * descriptive comments
 * commented out blocks
 
-If your preferred form of modification us UFO, integrate [ufoNormalizer](https://github.com/unified-font-object/ufoNormalizer) into your workflow so that the UFOs saved are always in the same order and disk layout.
+If your preferred form of modification is UFO, integrate [ufoNormalizer](https://github.com/unified-font-object/ufoNormalizer) into your workflow with "git hooks" so that the UFOs saved are always in the same order and disk layout.
 
 (If you are unfamiliar with UFO, you can learn more at [unifiedfontobject.org](http://unifiedfontobject.org). 
 The UFO format is itself developed on Github at [github.com/unified-font-object](https://github.com/unified-font-object/ufo-spec) and the [ufo-spec mailing list](https://groups.google.com/forum/#!forum/ufo-spec).)
+
+If you are using Glyphs, you do not need to export a UFO along with your Glyphs file. 
+Thanks to the Google Noto team, there is now a libre glyphs file parser, <https://github.com/googlei18n/glyphsLib>, so any Python capable application can use source files in the native Glyphs format. 
 
 #### `sources/builds/` (optional)
 

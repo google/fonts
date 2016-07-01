@@ -27,6 +27,14 @@ Structure and Hierarchy of Encodings for Latin:
 3. **Pro** For casual and headline fonts that need a little more typographic sophistication, an extra 171 glyphs
 4. **Expert** For text and workhorse typefaces that must supply everything typographers need, such as small caps, an additional 300 glyphs
 
+| Glyph Set | Drawn | Composite | Either/Or | From Core | From Core contingency
+|:-------|----:|----:|---:|----:|---:|
+| Core   | 150 | 70  |    |     |    |
+| Plus   | 215 | 360 | 19 |  65 |    |
+| Pro    |  26 | 116 |  4 |  23 | 19 |
+| Expert |  62 | 207 |  4 | 153 | 23 |
+| Total  | 303 | 683 | 27 |     | 27 |
+
 ### Google Latin Plus (600 glyphs total)
 
 Vietnamese language support

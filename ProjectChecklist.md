@@ -779,6 +779,12 @@ The `.notdef` glyph should be the recommended design
 
 * https://www.microsoft.com/typography/otspec/recom.htm
 
+#### spaces
+
+The spaces glyphs should follow the recommended designs
+
+* https://www.microsoft.com/typography/developers/fdsspec/spaces.htm
+
 #### Anchors
 
 Anchors for all letter and diacritics 

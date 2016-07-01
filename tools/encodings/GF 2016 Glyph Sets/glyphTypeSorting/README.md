@@ -34,6 +34,3 @@ Therefore:
 * Total drawing effort for Plus: 65 glyphs (+19 'either/or' contingency)
 * Total drawing effort for Pro: 91 glyphs (+23 'either/or' contingency)
 * Total drawing effort for Expert: 153 glyphs (+27 'either/or' contingency)
-
-
-Af9D7z^7$VnD15OhT5O#Lheo2

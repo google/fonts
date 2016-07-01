@@ -30,10 +30,10 @@ Structure and Hierarchy of Encodings for Latin:
 | Glyph Set | Drawn | Composite | Either/Or | From Core | From Core contingency
 |:-------|----:|----:|---:|----:|---:|
 | Core   | 150 | 70  |    |     |    |
-| Plus   | 215 | 360 | 19 |  65 |    |
-| Pro    |  26 | 116 |  4 |  23 | 19 |
-| Expert |  62 | 207 |  4 | 153 | 23 |
-| Total  | 303 | 683 | 27 |     | 27 |
+| Plus   | 215 | 360 | 19 |  65 | 19 |
+| Pro    |  26 | 116 |  4 |  23 | 23 |
+| Expert |  62 | 207 |  4 | 153 | 27 |
+| Total  | 303 | 683 | 27 |     |    |
 
 ### Google Latin Plus (600 glyphs total)
 

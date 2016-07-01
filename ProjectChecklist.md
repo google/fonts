@@ -340,6 +340,18 @@ ask for the person who reported it to verify it is resolved and then close their
 When posting a Pull Request, do not merge your own PR; ask for someone to review it. 
 Open PRs can be updated in-place (sometimes requiring a 'forced push' with `git push -f`) and the Github PR pages offer line-by-line commenting. 
 
+Be sure to set git to record commits with your name, and the email you signed the Googel CLA with, otherwise your pull requests will trigger a CLA-checker warning ([example](https://github.com/google/fonts/pull/297).)
+To set this metadata, run:
+
+     git config --global user.name "Your Name" ;
+     git config --global user.email user@host ;
+     git config --global push.default simple;
+    
+You can also set git to use your preferred text editor for all git commit messages and similar. 
+If you are a TextMate user, run:
+
+     git config --global core.editor "mate -w";
+
 ### Your Repository
 
 #### Name Your Project

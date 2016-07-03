@@ -1,0 +1,133 @@
+# Fontbakery check results
+## Fonts have equal numbers of glyphs?
+* ERROR: Fonts have different numbers of glyphs.
+
+## Fonts have equal glyph names?
+* ERROR: Fonts have different glyph names.
+
+## Fonts have equal numbers of glyphs?
+* ERROR: Fonts have different numbers of glyphs.
+
+## Fonts have equal glyph names?
+* ERROR: Fonts have different glyph names.
+
+## Fonts have equal numbers of glyphs?
+* ERROR: Fonts have different numbers of glyphs.
+
+## Fonts have equal glyph names?
+* ERROR: Fonts have different glyph names.
+
+## Checking OS/2 achVendID
+* ERROR: OS/2 VendorID is 'pyrs' but this is registered with different casing. You should check the case.
+
+## Check copyright namerecords match license file
+* HOTFIX: License file OFL.txt exists but NameID value is not specified for that.
+* HOTFIX: License file OFL.txt exists but NameID value is not specified for that.
+
+## StyleName recommendation
+* HOTFIX: /home/felipe/devel/github_google/fonts/ofl/kreon/Kreon-Bold.ttf: Windows-only Opentype-specific StyleName set to "Bold".
+
+## Font has **proper** whitespace glyph names?
+* ERROR: /home/felipe/devel/github_google/fonts/ofl/kreon: Glyph 0x00A0 is called "space": Change to "nbsp" or "uni00A0"
+
+## Are there unwanted tables?
+* HOTFIX: Unwanted tables were present in the font and were removed: FFTM
+
+## Version format is correct in NAME table?
+* ERROR: The NAMEID_VERSION_STRING (nameID=5) value must follow the pattern Version X.Y. Current value: False
+
+## EPAR table present in font?
+* ERROR: Font is missing EPAR table.
+
+## Does full font name begin with the font family name?
+* ERROR: Font family name 'Kreon' does not begin with full font name 'Kreon Bold'
+
+## Font names are consistent across platforms?
+* ERROR: Entries in "name" table are not the same across specific platforms.
+
+## METADATA.pb: Designer exists in GWF profiles.csv ?
+* ERROR: METADATA.pb: Designer 'Julia Petretta' is not listed in profiles.csv (at 'https://github.com/google/fonts/blob/master/designers/profiles.csv')
+
+## Copyright notice does not contain Reserved Font Name
+* ERROR: METADATA.pb: copyright field ("Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name "Kreon".") contains "Reserved Font Name"
+
+## METADATA.pb font.style `normal` matches font internals?
+* ERROR: Font macStyle indicates a non-Italic font but nameID 4 ("Kreon Bold") ends with "Italic"
+
+## Checking OS/2 achVendID
+* ERROR: OS/2 VendorID is 'pyrs' but this is registered with different casing. You should check the case.
+
+## Check copyright namerecords match license file
+* HOTFIX: License file OFL.txt exists but NameID value is not specified for that.
+* HOTFIX: License file OFL.txt exists but NameID value is not specified for that.
+
+## StyleName recommendation
+* HOTFIX: /home/felipe/devel/github_google/fonts/ofl/kreon/Kreon-Light.ttf: Warning: Windows-only Opentype-specific StyleName set to "Regular" as a default value. Please verify if this is correct.
+
+## Whitespace glyphs have ink?
+* HOTFIX: /home/felipe/devel/github_google/fonts/ofl/kreon space 240 nbsp 0: Fixed nbsp advanceWidth to 240
+
+## Are there unwanted tables?
+* HOTFIX: Unwanted tables were present in the font and were removed: FFTM
+
+## Version format is correct in NAME table?
+* ERROR: The NAMEID_VERSION_STRING (nameID=5) value must follow the pattern Version X.Y. Current value: False
+
+## EPAR table present in font?
+* ERROR: Font is missing EPAR table.
+
+## Does full font name begin with the font family name?
+* ERROR: Font family name 'Kreon' does not begin with full font name 'Kreon Light'
+
+## Font names are consistent across platforms?
+* ERROR: Entries in "name" table are not the same across specific platforms.
+
+## METADATA.pb: Designer exists in GWF profiles.csv ?
+* ERROR: METADATA.pb: Designer 'Julia Petretta' is not listed in profiles.csv (at 'https://github.com/google/fonts/blob/master/designers/profiles.csv')
+
+## Copyright notice does not contain Reserved Font Name
+* ERROR: METADATA.pb: copyright field ("Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name "Kreon".") contains "Reserved Font Name"
+
+## METADATA.pb font.style `normal` matches font internals?
+* ERROR: Font macStyle indicates a non-Italic font but nameID 4 ("Kreon Light") ends with "Italic"
+
+## Checking OS/2 achVendID
+* ERROR: OS/2 VendorID is 'pyrs' but this is registered with different casing. You should check the case.
+
+## Check copyright namerecords match license file
+* HOTFIX: License file OFL.txt exists but NameID value is not specified for that.
+* HOTFIX: License file OFL.txt exists but NameID value is not specified for that.
+
+## StyleName recommendation
+* HOTFIX: /home/felipe/devel/github_google/fonts/ofl/kreon/Kreon-Regular.ttf: Windows-only Opentype-specific StyleName set to "Regular".
+
+## Font has **proper** whitespace glyph names?
+* ERROR: /home/felipe/devel/github_google/fonts/ofl/kreon: Glyph 0x00A0 is called "space": Change to "nbsp" or "uni00A0"
+
+## Are there unwanted tables?
+* HOTFIX: Unwanted tables were present in the font and were removed: FFTM
+
+## Version format is correct in NAME table?
+* ERROR: The NAMEID_VERSION_STRING (nameID=5) value must follow the pattern Version X.Y. Current value: False
+
+## EPAR table present in font?
+* ERROR: Font is missing EPAR table.
+
+## Does full font name begin with the font family name?
+* ERROR: Font family name 'Kreon' does not begin with full font name 'Kreon Regular'
+
+## Font names are consistent across platforms?
+* ERROR: Entries in "name" table are not the same across specific platforms.
+
+## METADATA.pb: Designer exists in GWF profiles.csv ?
+* ERROR: METADATA.pb: Designer 'Julia Petretta' is not listed in profiles.csv (at 'https://github.com/google/fonts/blob/master/designers/profiles.csv')
+
+## METADATA.pb 'filename' matches 'postScriptName' ?
+* ERROR: METADATA.pb postScriptName field ends with '-Regular'
+
+## Copyright notice does not contain Reserved Font Name
+* ERROR: METADATA.pb: copyright field ("Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name "Kreon".") contains "Reserved Font Name"
+
+## METADATA.pb font.style `normal` matches font internals?
+* ERROR: Font macStyle indicates a non-Italic font but nameID 4 ("Kreon Regular") ends with "Italic"
+

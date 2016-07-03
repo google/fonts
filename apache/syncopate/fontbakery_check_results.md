@@ -1,0 +1,107 @@
+# Fontbakery check results
+## Fonts have equal glyph names?
+* ERROR: Fonts have different glyph names.
+
+## Fonts have equal glyph names?
+* ERROR: Fonts have different glyph names.
+
+## Checking OS/2 achVendID
+* Warning: OS/2 VendorID is 'AOEF' but this is not registered with Microsoft. You should register it at https://www.microsoft.com/typography/links/vendorlist.aspx
+
+## Check copyright namerecords match license file
+* HOTFIX: License file LICENSE.txt exists but NameID value is not specified for that.
+* HOTFIX: License file LICENSE.txt exists but NameID value is not specified for that.
+
+## Checking name table for items without platformID = 1 (MACHINTOSH)
+* HOTFIX: some name table items with platformID=1 were removed
+* HOTFIX: Namerecord 10s (descriptions) were removed (perhaps added by a longstanding FontLab Studio 5.x bug.)
+
+## StyleName recommendation
+* HOTFIX: /home/felipe/devel/github_google/fonts/apache/syncopate/Syncopate-Bold.ttf: Windows-only Opentype-specific StyleName set to "Bold".
+
+## Checking vertical metrics
+* HOTFIX: Vertical metrics. Fixes: hhea ascent from 1556 to 1964 | OS/2 sTypoAscender from 1556 to 1964 | OS/2 usWinAscent from 1556 to 1964 | hhea descent from -426 to -523 | OS/2 sTypoDescender from -426 to -523 | OS/2 usWinDescent from 426 to 523 | hhea lineGap from 150 to 0 | OS/2 sTypoLineGap from 150 to 0
+
+## Digital Signature exists?
+* HOTFIX: The font does not have an existing digital signature (DSIG), so we just added one.
+
+## Version format is correct in NAME table?
+* ERROR: The NAMEID_VERSION_STRING (nameID=5) value must follow the pattern Version X.Y. Current value: False
+
+## EPAR table present in font?
+* ERROR: Font is missing EPAR table.
+
+## Is GASP table correctly set?
+* HOTFIX: gaspRange[65535] value (3) is not 15
+
+## Does GPOS table have kerning information?
+* ERROR: GPOS table seems to be corrupted.
+
+## Does full font name begin with the font family name?
+* ERROR: Font family name 'Syncopate' does not begin with full font name 'Syncopate Bold'
+
+## Font contains magic code in PREP table?
+* ERROR: Failed to find correct magic code in PREP table.
+
+## Font names are consistent across platforms?
+* ERROR: Entries in "name" table are not the same across specific platforms.
+
+## Is font em size (ideally) equal to 1000?
+* ERROR: font em size (2048) is not equal to 1000.
+
+## METADATA.pb font.style `normal` matches font internals?
+* ERROR: Font macStyle indicates a non-Italic font but nameID 4 ("Syncopate Bold") ends with "Italic"
+
+## Checking OS/2 achVendID
+* Warning: OS/2 VendorID is 'AOEF' but this is not registered with Microsoft. You should register it at https://www.microsoft.com/typography/links/vendorlist.aspx
+
+## Checking OS/2 usWeightClass
+* HOTFIX: OS/2 usWeightClass Fixes: OS/2 usWeightClass from 300 to 400
+
+## Check copyright namerecords match license file
+* HOTFIX: License file LICENSE.txt exists but NameID value is not specified for that.
+* HOTFIX: License file LICENSE.txt exists but NameID value is not specified for that.
+
+## Checking name table for items without platformID = 1 (MACHINTOSH)
+* HOTFIX: some name table items with platformID=1 were removed
+* HOTFIX: Namerecord 10s (descriptions) were removed (perhaps added by a longstanding FontLab Studio 5.x bug.)
+
+## StyleName recommendation
+* HOTFIX: /home/felipe/devel/github_google/fonts/apache/syncopate/Syncopate-Regular.ttf: Windows-only Opentype-specific StyleName set to "Regular".
+
+## Checking vertical metrics
+* HOTFIX: Vertical metrics. Fixes: hhea ascent from 1556 to 1964 | OS/2 sTypoAscender from 1556 to 1964 | OS/2 usWinAscent from 1853 to 1964 | hhea descent from -426 to -523 | OS/2 sTypoDescender from -426 to -523 | OS/2 usWinDescent from 483 to 523 | hhea lineGap from 150 to 0 | OS/2 sTypoLineGap from 150 to 0
+
+## Digital Signature exists?
+* HOTFIX: The font does not have an existing digital signature (DSIG), so we just added one.
+
+## Version format is correct in NAME table?
+* ERROR: The NAMEID_VERSION_STRING (nameID=5) value must follow the pattern Version X.Y. Current value: False
+
+## EPAR table present in font?
+* ERROR: Font is missing EPAR table.
+
+## Is GASP table correctly set?
+* HOTFIX: gaspRange[65535] value (3) is not 15
+
+## Font contains magic code in PREP table?
+* ERROR: Failed to find correct magic code in PREP table.
+
+## Font names are consistent across platforms?
+* ERROR: Entries in "name" table are not the same across specific platforms.
+
+## Is font em size (ideally) equal to 1000?
+* ERROR: font em size (2048) is not equal to 1000.
+
+## METADATA.pb 'fullName' matches 'postScriptName' ?
+* ERROR: METADATA.pb full_name="Syncopate" does not match post_script_name = "Syncopate-Regular"
+
+## METADATA.pb 'filename' matches 'postScriptName' ?
+* ERROR: METADATA.pb postScriptName field ends with '-Regular'
+
+## METADATA.pb font.style `normal` matches font internals?
+* ERROR: Font macStyle indicates a non-Italic font but nameID 4 ("Syncopate") ends with "Italic"
+
+## METADATA.pb lists fonts named canonicaly?
+* ERROR: Canonical name in font expected: [[u'Syncopate Regular', u'Syncopate Italic']] but Syncopate
+

@@ -175,8 +175,6 @@ Ncaron
 ncaron
 Ncommaaccent
 ncommaaccent
-Nhookleft
-nhookleft
 Eng
 eng
 napostrophe
@@ -863,7 +861,6 @@ napostrophe.sc
 ncaron.sc
 ncommaaccent.sc
 eng.sc
-nhookleft.sc
 ntilde.sc
 o.sc
 oacute.sc
@@ -1020,3 +1017,4 @@ ampersand.sc
 T_h
 c_t
 s_t
+c_h

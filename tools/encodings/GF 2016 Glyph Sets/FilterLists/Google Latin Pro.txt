@@ -151,7 +151,7 @@ Idotbelow
 idotbelow
 Iogonek
 iogonek
-dotlessj
+jdotless
 Jcircumflex
 jcircumflex
 Kcommaaccent
@@ -348,6 +348,7 @@ caroncomb.alt
 tilde
 dieresis
 macron
+apostrophemod
 firsttonechinese
 breve
 ring
@@ -355,52 +356,31 @@ hungarumlaut
 dotaccent
 cedilla
 ogonek
- gravecomb
-gravecomb.case
- acutecomb
-acutecomb.case
- circumflexcomb
-circumflexcomb.case
- tildecomb
-tildecomb.case
- macroncomb
-macroncomb.case
- brevecomb
-brevecomb.case
- dotaccentcomb
-dotaccentcomb.case
- dieresiscomb
-dieresiscomb.case
- hookabovecomb
-hookabovecomb.case
- ringcomb
-ringcomb.case
- hungarumlautcomb
-hungarumlautcomb.case
- caroncomb
-caroncomb.case
- breveinvertedcomb
-breveinvertedcomb.case
- dblgravecomb
-dblgravecomb.case
- horncomb
-horncomb.case
- dotbelowcomb
-dotbelowcomb.case
- dieresisbelowcomb
-dieresisbelowcomb.case
- commaaccentcomb
-commaaccentcomb.case
+gravecomb
+acutecomb
+circumflexcomb
+tildecomb
+macroncomb
+brevecomb
+dotaccentcomb
+dieresiscomb
+hookabovecomb
+ringcomb
+hungarumlautcomb
+caroncomb
+breveinvertedcomb
+dblgravecomb
+horncomb
+dotbelowcomb
+dieresisbelowcomb
+commaaccentcomb
 commaaccentcomb.alt
- cedillacomb
-cedillacomb.case
- ogonekcomb
-ogonekcomb.case
- brevebelowcomb
-brevebelowcomb.case
- macronbelowcomb
-macronbelowcomb.case
- softhyphen
+commaturnedabovecomb 
+cedillacomb
+ogonekcomb
+brevebelowcomb
+macronbelowcomb
+softhyphen
 hyphen
 endash
 emdash
@@ -416,7 +396,6 @@ questiondown
 ellipsis
 periodcentered
 periodcentered.loclCAT
-periodcentered.loclCAT.case
 bulletoperator
 bullet
 slash
@@ -453,7 +432,6 @@ six
 seven
 eight
 nine
-zero.zero
 fraction
 divisionslash
 onequarter
@@ -593,23 +571,6 @@ rupeeIndian
 liraTurkish
 manat
 ruble
-at.case
-hyphen.case
-endash.case
-emdash.case
-periodcentered.case
-bullet.case
-slash.case
-backslash.case
-parenright.case
-bracketleft.case
-bracketright.case
-braceleft.case
-braceright.case
-guilsinglleft.case
-guilsinglright.case
-guillemetleft.case
-guillemetright.case
 zero.dnom
 one.dnom
 two.dnom
@@ -644,7 +605,6 @@ integral
 lozenge
 emptyset
 commaturnedmod
-apostrophemod
 ringhalfright
 ringhalfleft
 verticallinemod

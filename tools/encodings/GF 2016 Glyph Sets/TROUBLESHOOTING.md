@@ -10,7 +10,7 @@ You are adding new glyphs to your font, and you may get this error:
 Say, you are trying to add *DZcaron*, but the font already includes the same glyph with a different name *uni01C4*. The FilterLists are fully compatible with the Glyphs naming scheme. So, for a seamless workflow we advise changing the glyph name in the existing font to follow the same convention. To do this you would need to Update Glyph Info by following these steps.
 
 
-Step 1.  Open Font *Info > Other Settings*. Make sure [ ] Use custom naming is unchecked.
+Step 1.  Open Font *Info > Other Settings*. Make sure "Use custom naming" is unchecked.
 
 ![glyphs app fix](FilterLists/fix-2.png)
 

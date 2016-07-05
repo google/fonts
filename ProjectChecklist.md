@@ -446,7 +446,7 @@ Each Github repo **MUST** have an OFL.txt containing the full text of the SIL Op
 
 The copyright notice on line 1 of the OFL.txt **MUST** match the copyright notice inside each font file.
 
-Typically this notice does **not** have a Reserved Font Name at the end, or if it does, the name declared is not used anywhere else in the project. 
+Typically this notice does **not** have a Reserved Font Name (RFN) at the end, or if it does, the name declared is not used anywhere else in the project. 
 
 Since the copyright authors can change over time, such as when another author contributes to the project, write the notice for the "Acme" family as 
 
@@ -457,6 +457,25 @@ This necessarily means the list the authors must be maintained somewhere, so rea
 * `OFL.txt` with the license text ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/OFL.txt))
 * `AUTHOR.txt` listing copyright holders ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/AUTHORS.txt))
 * `CONTRIBUTORS.txt` listing people who contribute but who are not actually copyright holders, eg people who work for a company that holds their copyrights as part of their employment contract ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/CONTRIBUTORS.txt))
+
+The OFL Reserved Font Name (RFN) option is not recommended for 2 reasons:
+
+1. It makes the process of collaboration via github cumbersome; 
+if a memberof the general public clicks the 'fork' button up top right, they must either seek permission from you before-hand to use the RFN, or to immediately change the font name in the files as part of their first modification, and then you'll have to change it back.
+
+2. Many websites who self host the font files will modify them, doing subsetting and format conversion, which are both explicitly defined in the OFL as kinds of modification subject to the RFN restriction. 
+SIL have been willing to offer their view that the most popular web font formats are not format conversions subject to the RFN restriction, but popular web font bundling service Font Squirrel includes the less popular formats too, which do. 
+And subsetting remains. 
+So, changing the name or contacting you are both administrative burdens for these downstream users, and if they do contact you, for you;
+and many people won't think carefully about this and will just do so without asking, which formally terminates their license. 
+Putting them in that position is not a good situation.
+
+So not having any RFNs is best, unless you have a specific reason to use it. 
+
+For more discussion of this topic, see 
+
+* <https://lwn.net/Articles/552178>
+* <https://github.com/simoncozens/silson/issues/1>
 
 #### TRADEMARKS.md
 

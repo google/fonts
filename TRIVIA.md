@@ -56,6 +56,7 @@ Here is a list of 3rd party directories:
 * http://typewonder.com
 * http://www.localfont.com
 * http://open-foundry.com
+* https://typeresources.github.io/glyph-gazer/
 
 There are also handcrafted directories with rich samples:
 
@@ -64,6 +65,7 @@ There are also handcrafted directories with rich samples:
 * http://100daysoffonts.com
 * http://jxnblk.com/type-a/
 * https://jonsuh.com/100-days-of-scriptures/
+* http://codepen.io/nxworld/pen/XKRaRm
 
 ## Rightsholder contacts
 

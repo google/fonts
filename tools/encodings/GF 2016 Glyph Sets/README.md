@@ -13,7 +13,6 @@ Three sets are available in this directory: **Plus, Pro and Expert.**
 Inside [**FilterLists**](FilterLists) are text files with a list of glyphs for each set. 
 Open Glyphs and in the left bottom sidebar, create a new list filter, and paste the contents of these TXT files to check if your fonts supports these characters. A ✓ will indicate you are all set. Otherwise **ctrl + click** on the numbers to generate missing glyphs. 
 
-
 	N.B. If you get an error while creating new glyphs, select all glyphs in your font, from the top menu choose Glyph -> Update Glyph Info. Try again. If updating Glyph Info didn't work make sure [ ] Use custom naming is unckecked in Font Info > Other Settings. 
 
 See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for more details.
@@ -42,22 +41,23 @@ Structure and Hierarchy of Encodings for Latin:
 
 ### Google Latin Plus (573 glyphs total + 25 optional)
 
-  - Western & Central European 
-  - Vietnamese  
-  - Currencies (₡ ₣ ₤ ₦ ₧ ₩ ₫ ₭ ₱ ₲ ₵ ₹ ₺ ₼ ₽)
-  - Alternate Numerals: Proportonal Lining
+- Western & Central European 
+- Vietnamese  
+- Currencies (₡ ₣ ₤ ₦ ₧ ₩ ₫ ₭ ₱ ₲ ₵ ₹ ₺ ₼ ₽)
+- Alternate Numerals: Proportonal Lining
 
 Includes characters from the following unicode ranges: 
 
-  - Latin-1
-  - Latin Extended A 
-  - Latin Extended B
-  - Latin Extended Additional
-  - Latin-1 Supplement
+- Latin-1
+- Latin Extended A 
+- Latin Extended B
+- Latin Extended Additional
+- Latin-1 Supplement
 
 Optional additions:
-  - Uppercase Accents, 24
-  - Slashed zero (zero.zero)
+
+- Uppercase Accents, 24
+- Slashed zero (zero.zero)
 
 ### Glyphs App Tip
 
@@ -81,7 +81,8 @@ zero=zero.lf one=one.lf two=two.lf three=three.lf four=four.lf five=five.lf six=
 - Numerators and Denominators
 
 Optional additions:
-  - Uppercase Punctuation, 17
+
+- Uppercase Punctuation, 17
 
 ### Google Latin Expert (+272 for 979 total)
 

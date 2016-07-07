@@ -41,23 +41,23 @@ Structure and Hierarchy of Encodings for Latin:
 
 ### Google Latin Plus (573 glyphs total + 25 optional)
 
--Western & Central European 
--Vietnamese  
--Currencies (₡ ₣ ₤ ₦ ₧ ₩ ₫ ₭ ₱ ₲ ₵ ₹ ₺ ₼ ₽)
--Alternate Numerals: Proportonal Lining
+- Western & Central European 
+- Vietnamese  
+- Currencies (₡ ₣ ₤ ₦ ₧ ₩ ₫ ₭ ₱ ₲ ₵ ₹ ₺ ₼ ₽)
+- Alternate Numerals: Proportonal Lining
 
 Includes characters from the following unicode ranges: 
 
-  - Latin-1
-  - Latin Extended A 
-  - Latin Extended B
-  - Latin Extended Additional
-  - Latin-1 Supplement
+- Latin-1
+- Latin Extended A 
+- Latin Extended B
+- Latin Extended Additional
+- Latin-1 Supplement
 
 Optional additions:
 
-  - Uppercase Accents, 24
-  - Slashed zero (zero.zero)
+- Uppercase Accents, 24
+- Slashed zero (zero.zero)
 
 ### Glyphs App Tip
 
@@ -81,7 +81,8 @@ zero=zero.lf one=one.lf two=two.lf three=three.lf four=four.lf five=five.lf six=
 - Numerators and Denominators
 
 Optional additions:
- - Uppercase Punctuation, 17
+
+- Uppercase Punctuation, 17
 
 ### Google Latin Expert (+272 for 979 total)
 

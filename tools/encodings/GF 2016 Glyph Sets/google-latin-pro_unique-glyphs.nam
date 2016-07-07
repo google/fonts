@@ -1,20 +1,3 @@
-          at.case
-          hyphen.case
-          endash.case
-          emdash.case
-          periodcentered.case
-          bullet.case
-          slash.case
-          backslash.case
-          parenright.case
-          bracketleft.case
-          bracketright.case
-          braceleft.case
-          braceright.case
-          guilsinglleft.case
-          guilsinglright.case
-          guillemetleft.case
-          guillemetright.case
           zero.dnom
           one.dnom
           two.dnom
@@ -35,20 +18,20 @@
           seven.numr
           eight.numr
           nine.numr
-0x2206  ∆ increment
-0x2126  Ω Ohm
 0x03C0  π pi
 0x2113  ℓ literSign
+0x2126  Ω Ohm
 0x212E  ℮ estimated
-0x221E  ∞ infinity
 0x2202  ∂ partialdiff
-0x222B  ∫ integral
-0x221A  √ radical
-0x2211  ∑ summation
+0x2206  ∆ increment
 0x220F  ∏ product
+0x2211  ∑ summation
+0x221A  √ radical
+0x221E  ∞ infinity
+0x222B  ∫ integral
 0x25CA  ◊ lozenge
+0x2205  ∅ emptyset
 0x02BB  ʻ commaturnedmod
-0x02BC  ʼ apostrophemod
 0x02BE  ʾ ringhalfright
 0x02BF  ʿ ringhalfleft
 0x02C8  ˈ verticallinemod

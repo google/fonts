@@ -1,5 +1,3 @@
-0x0000  . null
-0x000D    CR
 0x0020    space
 0x00A0    nbspace
 0x0041  A A
@@ -153,7 +151,7 @@
 0x1ECB  ị idotbelow
 0x012E  Į Iogonek
 0x012F  į iogonek
-0x0237  ȷ dotlessj
+0x0237  ȷ jdotless
 0x0134  Ĵ Jcircumflex
 0x0135  ĵ jcircumflex
 0x0136  Ķ Kcommaaccent
@@ -177,8 +175,6 @@
 0x0148  ň ncaron
 0x0145  Ņ Ncommaaccent
 0x0146  ņ ncommaaccent
-0x019D  Ɲ Nhookleft
-0x0272  ɲ nhookleft
 0x014A  Ŋ Eng
 0x014B  ŋ eng
 0x0149  ŉ napostrophe
@@ -226,7 +222,6 @@
 0x0219  ș scommaaccent
 0x1E9E  ẞ Germandbls
 0x00DF  ß germandbls
-          germandbls.alt
 0x0164  Ť Tcaron
 0x0165  ť tcaron
 0x0162  Ţ Tcedilla
@@ -349,10 +344,10 @@
 0x00B4  ´ acute
 0x02C6  ˆ circumflex
 0x02C7  ˇ caron
-          caronalt
 0x02DC  ˜ tilde
 0x00A8  ¨ dieresis
 0x00AF  ¯ macron
+0x02BC  ʼ apostrophemod
 0x02C9  ˉ firsttonechinese
 0x02D8  ˘ breve
 0x02DA  ˚ ring
@@ -360,51 +355,31 @@
 0x02D9  ˙ dotaccent
 0x00B8  ¸ cedilla
 0x02DB  ˛ ogonek
-0x0300  ̀  gravecomb
-          gravecomb.case
-0x0301  ́  acutecomb
-          acutecomb.case
-0x0302  ̂  circumflexcomb
-          circumflexcomb.case
-0x0303  ̃  tildecomb
-          tildecomb.case
-0x0304  ̄  macroncomb
-          macroncomb.case
-0x0306  ̆  brevecomb
-          brevecomb.case
-0x0307  ̇  dotaccentcomb
-          dotaccentcomb.case
-0x0308  ̈  dieresiscomb
-          dieresiscomb.case
-0x0309  ̉  hookabovecomb
-          hookabovecomb.case
-0x030A  ̊  ringcomb
-          ringcomb.case
-0x030B  ̋  hungarumlautcomb
-          hungarumlautcomb.case
-0x030C  ̌  caroncomb
-          caroncomb.case
-0x030F  ̏  breveinvertedcomb
-          breveinvertedcomb.case
-0x0311  ̑  dblgravecomb
-          dblgravecomb.case
-0x031B  ̛  horncomb
-          horncomb.case
-0x0323  ̣  dotbelowcomb
-          dotbelowcomb.case
-0x0324  ̤  dieresisbelowcomb
-          dieresisbelowcomb.case
-0x0326  ̦  commaaccentcomb
-          commaaccentcomb.case
+0x0300  ̀ gravecomb
+0x0301  ́ acutecomb
+0x0302  ̂ circumflexcomb
+0x0303  ̃ tildecomb
+0x0304  ̄ macroncomb
+0x0306  ̆ brevecomb
+0x0307  ̇ dotaccentcomb
+0x0308  ̈ dieresiscomb
+0x0309  ̉ hookabovecomb
+0x030A  ̊ ringcomb
+0x030B  ̋ hungarumlautcomb
+0x030C  ̌ caroncomb
+          caroncomb.alt
+0x030F  ̏ breveinvertedcomb
+0x0311  ̑ dblgravecomb
+0x031B  ̛ horncomb
+0x0323  ̣ dotbelowcomb
+0x0324  ̤ dieresisbelowcomb
+0x0326  ̦ commaaccentcomb
           commaaccentcomb.alt
-0x0327  ̧  cedillacomb
-          cedillacomb.case
-0x0328  ̨  ogonekcomb
-          ogonekcomb.case
-0x032E  ̮  brevebelowcomb
-          brevebelowcomb.case
-0x0331  ̱  macronbelowcomb
-          macronbelowcomb.case
+0x0312  ̒ commaturnedabovecomb 
+0x0327  ̧ cedillacomb
+0x0328  ̨ ogonekcomb
+0x032E  ̮ brevebelowcomb
+0x0331  ̱ macronbelowcomba
 0x00AD  ­  softhyphen
 0x002D  - hyphen
 0x2013  – endash
@@ -421,7 +396,6 @@
 0x2026  … ellipsis
 0x00B7  · periodcentered
           periodcentered.loclCAT
-          periodcentered.loclCAT.case
 0x2219  ∙ bulletoperator
 0x2022  • bullet
 0x002F  / slash
@@ -458,7 +432,6 @@
 0x0037  7 seven
 0x0038  8 eight
 0x0039  9 nine
-          zero.zero
 0x2044  ⁄ fraction
 0x2215  ∕ divisionslash
 0x00BC  ¼ onequarter

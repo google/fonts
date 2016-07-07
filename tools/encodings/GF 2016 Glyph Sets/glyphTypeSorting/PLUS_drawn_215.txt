@@ -70,7 +70,6 @@
 0x0153  œ oe
 0x1E9E  ẞ Germandbls
 0x00DF  ß germandbls
-          germandbls.alt
 0x0138  ĸ kgreenlandic
 0x0166  Ŧ Tbar
 0x0167  ŧ tbar
@@ -86,51 +85,51 @@
 0x2122  ™ trademark
 0x005E  ^ asciicircum
 0x007E  ~ asciitilde
-          caronalt
-0x0300  ̀  gravecomb
+0x0300  ̀ gravecomb
           gravecomb.case
-0x0301  ́  acutecomb
+0x0301  ́ acutecomb
           acutecomb.case
-0x0302  ̂  circumflexcomb
+0x0302  ̂ circumflexcomb
           circumflexcomb.case
-0x0303  ̃  tildecomb
+0x0303  ̃ tildecomb
           tildecomb.case
-0x0304  ̄  macroncomb
+0x0304  ̄ macroncomb
           macroncomb.case
-0x0306  ̆  brevecomb
+0x0306  ̆ brevecomb
           brevecomb.case
-0x0307  ̇  dotaccentcomb
+0x0307  ̇ dotaccentcomb
           dotaccentcomb.case
-0x0308  ̈  dieresiscomb
+0x0308  ̈ dieresiscomb
           dieresiscomb.case
-0x0309  ̉  hookabovecomb
+0x0309  ̉ hookabovecomb
           hookabovecomb.case
-0x030A  ̊  ringcomb
+0x030A  ̊ ringcomb
           ringcomb.case
-0x030B  ̋  hungarumlautcomb
+0x030B  ̋ hungarumlautcomb
           hungarumlautcomb.case
-0x030C  ̌  caroncomb
+0x030C  ̌ caroncomb
           caroncomb.case
-0x030F  ̏  breveinvertedcomb
+          caroncomb.alt
+0x030F  ̏ breveinvertedcomb
           breveinvertedcomb.case
-0x0311  ̑  dblgravecomb
+0x0311  ̑ dblgravecomb
           dblgravecomb.case
-0x031B  ̛  horncomb
+0x031B  ̛ horncomb
           horncomb.case
-0x0323  ̣  dotbelowcomb
+0x0323  ̣ dotbelowcomb
           dotbelowcomb.case
-0x0324  ̤  dieresisbelowcomb
+0x0324  ̤ dieresisbelowcomb
           dieresisbelowcomb.case
-0x0326  ̦  commaaccentcomb
+0x0326  ̦ commaaccentcomb
           commaaccentcomb.case
           commaaccentcomb.alt
-0x0327  ̧  cedillacomb
+0x0327  ̧ cedillacomb
           cedillacomb.case
-0x0328  ̨  ogonekcomb
+0x0328  ̨ ogonekcomb
           ogonekcomb.case
-0x032E  ̮  brevebelowcomb
+0x032E  ̮ brevebelowcomb
           brevebelowcomb.case
-0x0331  ̱  macronbelowcomb
+0x0331  ̱ macronbelowcomb
           macronbelowcomb.case
 0x00AD  ­  softhyphen
 0x2013  – endash

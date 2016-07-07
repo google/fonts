@@ -10,8 +10,12 @@ Three sets are available in this directory: **Plus, Pro and Expert.**
 
 ### Glyphs App Tip
 
-Inside **FilterLists** are text files with a list of glyphs for each set. 
-Open Glyphs and in the left bottom sidebar, create a new list filter, and paste the contents of these files to check if your fonts supports these characters. A ✓ will indicate you are all set. Otherwise **ctrl + click** on the numbers to generate missing glyphs.
+Inside [**FilterLists**](FilterLists) are text files with a list of glyphs for each set. 
+Open Glyphs and in the left bottom sidebar, create a new list filter, and paste the contents of these TXT files to check if your fonts supports these characters. A ✓ will indicate you are all set. Otherwise **ctrl + click** on the numbers to generate missing glyphs. 
+
+	N.B. If you get an error while creating new glyphs, select all glyphs in your font, from the top menu choose Glyph -> Update Glyph Info. Try again. If updating Glyph Info didn't work make sure [ ] Use custom naming is unckecked in Font Info > Other Settings. 
+
+See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for more details.
 
 ![Glyphs list filter](FilterLists/list-filter.png)
 ![Glyphs list filter](FilterLists/list-filter-1.png) 
@@ -35,35 +39,58 @@ Structure and Hierarchy of Encodings for Latin:
 | Expert |  62 | 207 |  4 | 153 | 27 |
 | Total  | 303 | 683 | 27 |     |    |
 
-### Google Latin Plus (600 glyphs total)
+### Google Latin Plus (573 glyphs total + 25 optional)
 
-Vietnamese language support
+- Western & Central European 
+- Vietnamese  
+- Currencies (₡ ₣ ₤ ₦ ₧ ₩ ₫ ₭ ₱ ₲ ₵ ₹ ₺ ₼ ₽)
+- Alternate Numerals: Proportonal Lining
 
 Includes characters from the following unicode ranges: 
 
-  - Latin-1
-  - Latin Extended A 
-  - Latin Extended B
-  - Latin Extended Additional
-  - Latin-1 Supplement
-  - Currencies: ₡ ₣ ₤ ₦ ₧ ₩ ₫ ₭ ₱ ₲ ₵ ₹ ₺ ₼ ₽ 
+- Latin-1
+- Latin Extended A 
+- Latin Extended B
+- Latin Extended Additional
+- Latin-1 Supplement
+
+Optional additions:
+
+- Uppercase Accents, 24
+- Slashed zero (zero.zero)
+
+### Glyphs App Tip
+
+To quickly create base glyphs for lining figures, click *Cmd + G*, and paste in this code:
+
+```
+zero=zero.lf one=one.lf two=two.lf three=three.lf four=four.lf five=five.lf six=six.lf seven=seven.lf eight=eight.lf nine=nine.lf
+```
 
 **Language support for the following Latin-based languages**: Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (Latin), Bemba, Bikol, Bislama, Bosnian, Breton, Cape Verdean Creole, Catalan, Cebuano, Chamorro, Chavacano, Chichewa, Chickasaw, Cimbrian, Cofán, Cornish, Corsican, Creek, Crimean Tatar (Latin), Croatian, Czech, Danish, Dawan, Delaware, Dholuo, Drehu, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino, Finnish, Folkspraak, French, Frisian, Friulian, Gagauz (Latin), Galician, Ganda, Genoese, German, Gikuyu, Gooniyandi, Greenlandic (Kalaallisut), Guadeloupean Creole, Gwich’in, Haitian Creole, Hän, Hawaiian, Hiligaynon, Hopi, Hotcąk (Latin), Hungarian, Icelandic, Ido, Igbo, Ilocano, Indonesian, Interglossa, Interlingua, Irish, Istro-Romanian, Italian, Jamaican, Javanese (Latin), Jèrriais, Kaingang, Kala Lagaw Ya, Kapampangan (Latin), Kaqchikel, Karakalpak (Latin), Karelian (Latin), Kashubian, Kikongo, Kinyarwanda, Kiribati, Kirundi, Klingon, Kurdish (Latin), Ladin, Latin, Latino sine Flexione, Latvian, Lithuanian, Lojban, Lombard, Low Saxon, Luxembourgish, Maasai, Makhuwa, Malay, Maltese, Manx, Māori, Marquesan, Megleno-Romanian, Meriam Mir, Mirandese, Mohawk, Moldovan, Montagnais, Montenegrin, Murrinh-Patha, Nagamese Creole, Nahuatl, Ndebele, Neapolitan, Ngiyambaa, Niuean, Noongar, Norwegian, Novial, Occidental, Occitan, Old Icelandic, Old Norse, Onĕipŏt, Oshiwambo, Ossetian (Latin), Palauan, Papiamento, Piedmontese, Polish, Portuguese, Potawatomi, Q’eqchi’, Quechua, Rarotongan, Romanian, Romansh, Rotokas, Sami (Inari Sami), Sami (Lule Sami), Sami (Northern Sami), Sami (Southern Sami), Samoan, Sango, Saramaccan, Sardinian, Scottish Gaelic, Serbian (Latin), Seri, Seychellois Creole, Shawnee, Shona, Sicilian, Silesian, Slovak, Slovenian, Slovio (Latin), Somali, Sorbian (Lower Sorbian), Sorbian (Upper Sorbian), Sotho (Northern), Sotho (Southern), Spanish, Sranan, Sundanese (Latin), Swahili, Swazi, Swedish, Tagalog, Tahitian, Tetum, Tok Pisin, Tokelauan, Tongan, Tshiluba, Tsonga, Tswana, Tumbuka, Turkish, Turkmen (Latin), Tuvaluan, Tzotzil, Uzbek (Latin), Venetian, Vepsian, Volapük, Võro, Wallisian, Walloon, Waray-Waray, Warlpiri, Wayuu, Welsh, Wik-Mungkan, Wiradjuri, Wolof, Xavante, Xhosa, Yapese, Yindjibarndi, Zapotec, Zarma, Zazaki, Zulu, Zuni
 
-### Google Latin Pro (+151 for 751 glyphs total)
+### Google Latin Pro (+134 for 707 glyphs total + 17 optional .case)
 
-- Math symbols and units of measure ∆ Ω π ℓ ℮ ∞ ∂ ∫ √ ∑ ∏ ◊
-- Latin general use extensions from U+1E08 to U+1EC9 Ḉ ḉ Ḍ ḍ Ḏ ḏ Ḕ ḕ Ḗ ḗ Ḝ ḝ Ḡ ḡ Ḥ ḥ Ḫ ḫ Ḯ ḯ Ḷ ḷ Ḻ ḻ Ṃ ṃ Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṍ ṍ Ṏ ṏ Ṑ ṑ Ṓ ṓ Ṛ ṛ Ṟ ṟ Ṡ ṡ Ṣ ṣ Ṥ ṥ Ṧ ṧ Ṩ ṩ Ṭ ṭ Ṯ ṯ Ṹ ṹ Ṻ ṻ Ẏ ẏ Ẓ ẓ ẗ 
- - Figures: numerators, denominators, superiors and inferiors ⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉
- — Punctuation and phonetic modifiers for transliterations ‐ ‒ ― ′ ″ ʻ ʼ ʾ ʿ ˈ ˊ ˋ ˌ 
+- Math symbols and Units of Measure (∆ Ω π ℓ ℮ ∞ ∂ ∫ √ ∑ ∏ ◊ ∅)
+- Latin General Use Extensions (U+1E08 to U+1EC9)
+- Superiors and Inferiors (⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉)
+- Spacing Modifier Letters (ʻ ʾ ʿ ˈ ˊ ˋ ˌ)
+- Typographic Spaces (figure, punctuation, thin, hair, zero-width)
+- Additional General Punctuation (‐ ‒ ― ′ ″)
+- Alternate Punctuation Glyphs for Capitals
+- Numerators and Denominators
 
+Optional additions:
 
-### Google Latin Expert (+274 for 1025 total)
+- Uppercase Punctuation, 17
 
-- Small Caps (.sc)
-- Arrows and ornaments ← ↑ → ↓ ■ □ ▲ △ ▶ ▷ ▼ ▽ ◀ ◁ ◆ ◇ 
-- Fractions ⅓ ⅔ ⅛ ⅜ ⅝ ⅞
-- Discretionaty Ligatures Th ct ch st
+### Google Latin Expert (+272 for 979 total)
+
+- Additional Unicode Fractions (⅓ ⅔ ⅛ ⅜ ⅝ ⅞)
+- Arrows (← ↑ → ↓)
+- Geometric Shapes (■ □ ▲ △ ▶ ▷ ▼ ▽ ◀ ◁ ◆ ◇)
+- Small Capitals
+- Discretionary Ligatures (T_h c_t c_h s_t)
 
 
 
@@ -83,25 +110,27 @@ Structure and Hierarchy of Encodings for Cyrillic:
 
 **Supports the following Cyrillic languages**: Balkar, Belarusian (Cyrillic), Bosnian (Cyrillic), Bulgarian, Croatian (Cyrillic), Erzya, Karachay, Kumyk, Macedonian, Moksha, Montenigrin, Nanai, Nogai, Russian, Rusyn, Serbian (Cyrillic), Ukrainian.
 
-### Google Cyrillic Plus (246 total)
+### Google Cyrillic Plus (206 total + 40 localised variants)
 
 **Supports the following Cyrillic languages**: Abkhaz, Adyghe, Agul, Altay, Avar, Azerbaijani (Cyrillic), Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Bulgarian, Buryat, Chechen, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargin, Dungan, Erzya, Gagauz (Cyrillic), Ingush, Kabardian, Kalmyk, Karachay, Karakalpak, Kazakh, Khakas (Cyrillic), Khinalugh, Komi, Kumyk, Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Macedonian, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin, Nanai, Nogai, Ossetian, Russian, Rusyn, Rutul, Sakha/Yakut, Serbian (Cyrillic), Tabasaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Turkmen, Tuvan, Udi, Udmurt, Ukrainian, Uyghur (Cyrillic), Uzbek (Cyrillic), Yukaghir (Northern and Southern).
+
+Localised variants for: Bulgarian, Serbian, Macedonian, Chuvash, Bashkir.
 
 Includes currencies: ₮, ₴, ₸.
 
 The ruble sign (₽ U+20BD) is not included, since it is already present in the Latin Plus set.
 
-### Google Cyrillic Pro (+76 glyphs for 322 glyphs total)
+### Google Cyrillic Pro (+76 glyphs for 278 glyphs total)
 
 Additional characters in this set provide support for the following languages: Chukchi, Enets, Itelmen, Nenets, Orok, Kanty, Kildin Sami, Tati
 
 **Full list of supported Cyrillic languages**: Abkhaz, Agul, Altay Enets, Azerbaijani (Cyrillic), Balkar Adyghe, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Bulgarian Avar, Chukchi, Croatian (Cyrillic), Dungan, Erzya Buryat, Gagauz (Cyrillic), Ingush, Itelmen, Kabardian, Kalmyk, Kanty, Karachay Chechen, Karakalpak, Kazakh, Khakas (Cyrillic), Khinalugh, Kildin, Komi, Kumyk Chuvash, Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Macedonian Crimean Tatar (Cyrillic), Mari (Hill and Meadow), Moksha Dargin, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin, Nanai, Nenets, Nogai, Orok, Ossetian, Russian, Rusyn, Rutul, Sakha/Yakut, Sami, Serbian (Cyrillic), Tabasaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tati, Turkmen, Tuvan, Udi, Udmurt, Ukrainian, Uyghur (Cyrillic), Uzbek (Cyrillic), Yukaghir (Northern and Southern).
 
-### Google Cyrillic Expert (+116 glyphs for 438 glyphs total)
+### Google Cyrillic Expert (+116 glyphs for 394 glyphs total)
 
 Includes additional characters and features:
 
-- Small Caps (.sc)
+- Small Capitals
 
 ### Recommended Additions
 

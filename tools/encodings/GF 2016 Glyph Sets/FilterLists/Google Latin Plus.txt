@@ -151,7 +151,7 @@ Idotbelow
 idotbelow
 Iogonek
 iogonek
-dotlessj
+jdotless
 Jcircumflex
 jcircumflex
 Kcommaaccent
@@ -175,8 +175,6 @@ Ncaron
 ncaron
 Ncommaaccent
 ncommaaccent
-Nhookleft
-nhookleft
 Eng
 eng
 napostrophe
@@ -350,6 +348,7 @@ caroncomb.alt
 tilde
 dieresis
 macron
+apostrophemod
 firsttonechinese
 breve
 ring
@@ -357,52 +356,40 @@ hungarumlaut
 dotaccent
 cedilla
 ogonek
- gravecomb
-gravecomb.case
- acutecomb
-acutecomb.case
- circumflexcomb
-circumflexcomb.case
- tildecomb
-tildecomb.case
- macroncomb
-macroncomb.case
- brevecomb
-brevecomb.case
- dotaccentcomb
-dotaccentcomb.case
- dieresiscomb
-dieresiscomb.case
- hookabovecomb
-hookabovecomb.case
- ringcomb
-ringcomb.case
- hungarumlautcomb
-hungarumlautcomb.case
- caroncomb
-caroncomb.case
- breveinvertedcomb
-breveinvertedcomb.case
- dblgravecomb
-dblgravecomb.case
- horncomb
-horncomb.case
- dotbelowcomb
-dotbelowcomb.case
- dieresisbelowcomb
-dieresisbelowcomb.case
- commaaccentcomb
-commaaccentcomb.case
+gravecomb
+acutecomb
+circumflexcomb
+tildecomb
+macroncomb
+brevecomb
+dotaccentcomb
+dieresiscomb
+hookabovecomb
+ringcomb
+hungarumlautcomb
+caroncomb
+breveinvertedcomb
+dblgravecomb
+horncomb
+dotbelowcomb
+strokeshortcomb
+brevecomb_acutecomb
+brevecomb_gravecomb
+brevecomb_hookabovecomb
+brevecomb_tildecomb
+circumflexcomb_acutecomb
+circumflexcomb_gravecomb
+circumflexcomb_hookabovecomb
+circumflexcomb_tildecomb
+dieresisbelowcomb
+commaaccentcomb
 commaaccentcomb.alt
- cedillacomb
-cedillacomb.case
- ogonekcomb
-ogonekcomb.case
- brevebelowcomb
-brevebelowcomb.case
- macronbelowcomb
-macronbelowcomb.case
- softhyphen
+commaturnedabovecomb 
+cedillacomb
+ogonekcomb
+brevebelowcomb
+macronbelowcomb
+softhyphen
 hyphen
 endash
 emdash
@@ -418,7 +405,6 @@ questiondown
 ellipsis
 periodcentered
 periodcentered.loclCAT
-periodcentered.loclCAT.case
 bulletoperator
 bullet
 slash
@@ -455,7 +441,6 @@ six
 seven
 eight
 nine
-zero.zero
 fraction
 divisionslash
 onequarter
@@ -490,6 +475,7 @@ yen
 onesuperior
 twosuperior
 threesuperior
+foursuperior
 ordfeminine
 ordmasculine
 numero
@@ -533,6 +519,7 @@ Ohorndotbelow
 Ohorngrave
 Ohornhookabove
 Ohorntilde
+Uhookabove
 Uhorn
 Uhornacute
 Uhorndotbelow
@@ -572,6 +559,7 @@ ohorndotbelow
 ohorngrave
 ohornhookabove
 ohorntilde
+uhookabove
 uhorn
 uhornacute
 uhorndotbelow

@@ -57,6 +57,7 @@ Here is a list of 3rd party directories:
 * http://www.localfont.com
 * http://open-foundry.com
 * https://typeresources.github.io/glyph-gazer/
+* http://cdn.canelodigital.cl/fonts/
 
 There are also handcrafted directories with rich samples:
 

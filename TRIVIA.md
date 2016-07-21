@@ -67,6 +67,7 @@ There are also handcrafted directories with rich samples:
 * http://jxnblk.com/type-a/
 * https://jonsuh.com/100-days-of-scriptures/
 * http://codepen.io/nxworld/pen/XKRaRm
+* https://twitter.com/FontSnek
 
 ## Rightsholder contacts
 

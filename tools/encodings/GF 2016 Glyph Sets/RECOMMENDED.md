@@ -1,6 +1,6 @@
 
 Recommended additions 
-====================================================
+===
 to [Google Fonts 2016 Glyph Sets](README.md)
 
 Although **Plus, Pro and Expert** sets provide extensive language coverage there may be particular design cases where additional characters would be helpful to have. 
@@ -26,12 +26,62 @@ Here is a list of popular ligatures that are recommended for addition on a case-
 	t_t
 	t_z
 
-Armenian Dram currency symbol is a recommended addition to any Cyrillic-supporting fonts, due to popular use of Russian in Armenian community
-
-	0x058F  ֏ dram-arm
-	
 	
 ***
+
+### Better Components Generation in Glyphs ###
+
+By adding the following glyphs, you will enable auto-generation of many components for the GF Latin encodings.
+
+```
+DZ
+Dz
+dz
+slashlongcomb
+slashshortcomb
+
+```
+
+### Armenian Dram ###
+
+Armenian Dram currency symbol is a recommended addition to any Cyrillic-supporting fonts, due to popular use of Russian in Armenia.
+
+	0x058F  ֏ dram-arm
+
+
+### Better Vietnamese ###
+
+Stacked Vietnamese accents may require custom tailoring. This can be achieved by adding additional accents. Glyphs will automatically place these newly created accents were applicable. 
+
+Image: `ecircumflexacute`, `circumflexcomb_acutecomb` and `acutecomb`
+
+![ecircumflexacute](tutorials/img/ecircumflexacute.jpg)
+
+
+Recommended glyphs for better Vietnamese diacritics. 
+
+```
+brevecomb_acutecomb
+brevecomb_gravecomb
+brevecomb_hookabovecomb
+brevecomb_tildecomb
+circumflexcomb_acutecomb
+circumflexcomb_gravecomb
+circumflexcomb_hookabovecomb
+circumflexcomb_tildecomb
+```
+
+
+### Polish Kreska ###
+
+Polish Kreska shares the same unicode as the acute accent, however it is designed differently. Explore Adam Twardoch's guidelines on [Polish Kreska](http://www.twardoch.com/download/polishhowto/kreska.html)
+
+Here is a list of additional glyphs for better Polish support:
+
+```
+Cacute.loclPLN Nacute.loclPLN Oacute.loclPLN Sacute.loclPLN Zacute.loclPLN cacute.loclPLN nacute.loclPLN oacute.loclPLN sacute.loclPLN zacute.loclPLN acutecomb.loclPLN acutecomb.loclPLN.case
+```
+
 ### STRASSE or Straße? ###
 
 The Google Lating Plus encoding includes **ẞ Germandbls U+1E9E**. 

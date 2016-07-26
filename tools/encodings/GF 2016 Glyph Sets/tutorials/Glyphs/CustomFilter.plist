@@ -184,7 +184,6 @@
 			<string>ncommaaccent</string>
 			<string>Eng</string>
 			<string>eng</string>
-			<string>napostrophe</string>
 			<string>Ograve</string>
 			<string>ograve</string>
 			<string>Oacute</string>
@@ -287,10 +286,6 @@
 			<string>zcaron</string>
 			<string>Zdotaccent</string>
 			<string>zdotaccent</string>
-			<string>IJ</string>
-			<string>ij</string>
-			<string>IJacute</string>
-			<string>ijacute</string>
 			<string>Schwa</string>
 			<string>schwa</string>
 			<string>DZcaron</string>
@@ -912,7 +907,6 @@
 			<string>idieresis.sc</string>
 			<string>idotbelow.sc</string>
 			<string>igrave.sc</string>
-			<string>ij.sc</string>
 			<string>imacron.sc</string>
 			<string>iogonek.sc</string>
 			<string>itilde.sc</string>
@@ -930,7 +924,6 @@
 			<string>m.sc</string>
 			<string>n.sc</string>
 			<string>nacute.sc</string>
-			<string>napostrophe.sc</string>
 			<string>ncaron.sc</string>
 			<string>ncommaaccent.sc</string>
 			<string>eng.sc</string>

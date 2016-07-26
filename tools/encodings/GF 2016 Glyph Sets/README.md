@@ -41,7 +41,7 @@ Structure and Hierarchy of Encodings for Latin:
 | Expert |  62 | 207 |  4 | 153 | 27 |
 | Total  | 303 | 683 | 27 |     |    |
 
-### GF Latin Plus (575 glyphs total + 25 optional)
+### GF Latin Plus (570 glyphs total + 25 optional)
 
   - Western & Central European 
   - Vietnamese  
@@ -72,31 +72,15 @@ Lining Figures | zero=zero.lf one=one.lf two=two.lf three=three.lf four=four.lf 
 
 *For more information see [tutorials/GLYPHS-TIPS.md](GLYPHS-TIPS.md)*
 
-#### *Dutch IJ, IJacute*
+#### *Ligated Dutch IJ*
 
-To enable the Dutch diagraph IJ, and its accented version add this code to the `ccmp` feature manually:
+In case your IJ diagraph is really ligated, or has a special form (like shortened I) you will need to add these glyphs: `I_J.loclNLD i_j.loclNLD Iacute_J.loclNLD iacute_j.loclNLD`. Glyphs (versions 2.3.1 or later) will automate the OT code. If your font includes small caps, make sure to add `.sc` glyphs too.
 
-```
-lookup ccmp_latn_ij  {
-	script latn;
-	sub I acutecomb J acutecomb by IJacute;
-	sub i acutecomb j acutecomb by ijacute;
-	sub Iacute J acutecomb by IJacute;
-	sub iacute j acutecomb by ijacute;
-} ccmp_latn_ij;
-```
-
-And the following code to the `locl` feature:
-
-```
-language NLD;
-sub I J by IJ;
-sub i j by ij;
-```
+Read more on [Glyphs Tutorials](https://www.glyphsapp.com/tutorials/localize-your-font-accented-dutch-ij)
 
 **Language support for the following Latin-based languages**: Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (Latin), Bemba, Bikol, Bislama, Bosnian, Breton, Cape Verdean Creole, Catalan, Cebuano, Chamorro, Chavacano, Chichewa, Chickasaw, Cimbrian, Cofán, Cornish, Corsican, Creek, Crimean Tatar (Latin), Croatian, Czech, Danish, Dawan, Delaware, Dholuo, Drehu, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino, Finnish, Folkspraak, French, Frisian, Friulian, Gagauz (Latin), Galician, Ganda, Genoese, German, Gikuyu, Gooniyandi, Greenlandic (Kalaallisut), Guadeloupean Creole, Gwich’in, Haitian Creole, Hän, Hawaiian, Hiligaynon, Hopi, Hotcąk (Latin), Hungarian, Icelandic, Ido, Igbo, Ilocano, Indonesian, Interglossa, Interlingua, Irish, Istro-Romanian, Italian, Jamaican, Javanese (Latin), Jèrriais, Kaingang, Kala Lagaw Ya, Kapampangan (Latin), Kaqchikel, Karakalpak (Latin), Karelian (Latin), Kashubian, Kikongo, Kinyarwanda, Kiribati, Kirundi, Klingon, Kurdish (Latin), Ladin, Latin, Latino sine Flexione, Latvian, Lithuanian, Lojban, Lombard, Low Saxon, Luxembourgish, Maasai, Makhuwa, Malay, Maltese, Manx, Māori, Marquesan, Megleno-Romanian, Meriam Mir, Mirandese, Mohawk, Moldovan, Montagnais, Montenegrin, Murrinh-Patha, Nagamese Creole, Nahuatl, Ndebele, Neapolitan, Ngiyambaa, Niuean, Noongar, Norwegian, Novial, Occidental, Occitan, Old Icelandic, Old Norse, Onĕipŏt, Oshiwambo, Ossetian (Latin), Palauan, Papiamento, Piedmontese, Polish, Portuguese, Potawatomi, Q’eqchi’, Quechua, Rarotongan, Romanian, Romansh, Rotokas, Sami (Inari Sami), Sami (Lule Sami), Sami (Northern Sami), Sami (Southern Sami), Samoan, Sango, Saramaccan, Sardinian, Scottish Gaelic, Serbian (Latin), Seri, Seychellois Creole, Shawnee, Shona, Sicilian, Silesian, Slovak, Slovenian, Slovio (Latin), Somali, Sorbian (Lower Sorbian), Sorbian (Upper Sorbian), Sotho (Northern), Sotho (Southern), Spanish, Sranan, Sundanese (Latin), Swahili, Swazi, Swedish, Tagalog, Tahitian, Tetum, Tok Pisin, Tokelauan, Tongan, Tshiluba, Tsonga, Tswana, Tumbuka, Turkish, Turkmen (Latin), Tuvaluan, Tzotzil, Uzbek (Latin), Venetian, Vepsian, Volapük, Võro, Wallisian, Walloon, Waray-Waray, Warlpiri, Wayuu, Welsh, Wik-Mungkan, Wiradjuri, Wolof, Xavante, Xhosa, Yapese, Yindjibarndi, Zapotec, Zarma, Zazaki, Zulu, Zuni
 
-### GF Latin Pro (+144 for 719 glyphs total + 37 optional .case, .sinf, and .sups)
+### GF Latin Pro (+144 for 714 glyphs total + 37 optional .case, .sinf, and .sups)
 
 - Math symbols and Units of Measure (∆ Ω π ℓ ℮ ∞ ∂ ∫ √ ∑ ∏ ◊ ∅)
 - Latin General Use Extensions (U+1E08 to U+1EC9)
@@ -132,7 +116,7 @@ feature name | created | sub one by ...
 `.sinf` | manually | `one.sinf`
 
 
-### GF Latin Expert (+272 for 991 total)
+### GF Latin Expert (+271 for 985 total)
 
 - Additional Unicode Fractions (⅓ ⅔ ⅛ ⅜ ⅝ ⅞)
 - Arrows (← ↑ → ↓)
@@ -182,6 +166,6 @@ See [RECOMMENDED.md](RECOMMENDED.md)
 
 ### Acknowledgements:
 
-Dave Crossland, Frank Grießhammer, Georg Seifert, Gunnar Vilhjálmsson, Jacques Le Bailly, Nhung Nguyen (Vietnamese lists), Pablo Impallari (Impallari Encoding), Thomas Jockin, Thomas Phinney (Adobe Cyrillic lists), Underware (Latin Plus Encoding)
+Dave Crossland, Frank Grießhammer, Georg Seifert, Gunnar Vilhjálmsson, Jacques Le Bailly, Nhung Nguyen (Vietnamese lists), Pablo Impallari (Impallari Encoding), Rainer Erich Scheichelbauer (@mekkablue), Thomas Jockin, Thomas Phinney (Adobe Cyrillic lists), Underware (Latin Plus Encoding)
 
 Encoding created by Alexei Vanyashin (@alexeiva) and Kalapi Gajjar (@kalapi) 2016-06-27

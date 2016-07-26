@@ -1,8 +1,10 @@
 # Vertical metrics recommendations
 
+**Please see [this googlefonts-discuss thread](https://groups.google.com/forum/#!topic/googlefonts-discuss/W4PHxnLk3JY) for the 2016 vertical metrics recommendations from Khaled and Kalapi**
+
 _Recommendations for setting vertical metrics for consistent layout and avoiding clipping._
 
-Updated Jan 21, 2011 by @raphlinus
+Last Updated Jan 21, 2011 by @raphlinus
 
 ## Goals
 

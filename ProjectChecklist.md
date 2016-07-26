@@ -673,13 +673,23 @@ Use a UPM of 1000 (even for TrueType fonts)
 
 #### Vertical Metrics
 
-Throughout development the 3 sets of vertical metrics should be set to the y bounding box **of the family,** and both linegaps should be set to zero.
+From 2011 to early 2016, Raph Levien (then an engineer in the Google Fonts team) recommended that the 3 sets of vertical metrics should have been set to the y bounding box **of the family,** and both linegaps should be set to zero.
 The `fontbakery-fix-vertical-metrics.py` script can help with this. 
-It is wise to determine the tallest and deepest glyphs possible in the design early in your process; these may be outside the glyph set you are intending to cover during this round of development, but should be set to allow for future development without changing the vertical metrics.
+Google Fonts also encouraged designers to determine the tallest and deepest glyphs possible in the design early in your process; these may be outside the glyph set you are intending to cover during this round of development, but should be set to allow for future development without changing the vertical metrics.
 
-Ideally, keep all points below `1056` and above `-270`, which is 132% of a 1000 UPM font.
-At the time of writing (late 2015) Android TextView widgets will clip fonts beyond that if there's no explicit padding, and app designers tend to work just in Latin, so are unlikely to set it ([discussion](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ).
-However, this may mean that your design would be scaled small on the body, so you can go outside this range if you need to. 
+In late 2015, Raph was part an engineer in the Android team, and noted that Android TextView widgets would clip fonts beyond that, if there was no explicit padding, and since app designers tend to work only with Latin they are unlikely to set any padding ([discussion](https://groups.google.com/d/msg/googlefonts-discuss/qIPdk9Y7YUY/Eu21xtm0YrsJ).) 
+Keeping all points below `1056` and above `-270`, which is 132% of a 1000 UPM font, is therefore nice to have when possible.
+However, to work with many designs (such as multi-script projects) it requires scaling the drawings down to be small on the body, and since that is a problem everywhere this is not a recommendation. 
+
+In July 2016, Khaled Hosny and Kalapi Gajjar proposed two new vertical metrics schemes which are now recommended ([discussion](https://groups.google.com/forum/#!topic/googlefonts-discuss/W4PHxnLk3JY).)
+
+Khaled's scheme is recommended for projects that followed Raph's 2011 recommendation; in most cases it doesn't create any visible repositioning in any browsers, but testing this is required for each family that is updated.  
+
+TODO describe Khaled's scheme
+
+Kalapi's scheme is recommended for new projects.
+
+TODO describe Kalapi's scheme
 
 #### Codepages
 

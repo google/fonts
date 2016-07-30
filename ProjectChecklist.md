@@ -323,6 +323,7 @@ There are many good guides for learning how to use Github around the web, includ
 * <http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1>, an introduction article
 * <https://guides.github.com>, well written and illustrated guides
 * <http://nvie.com/posts/a-successful-git-branching-model>, an essay about using Git for ongoing project management.
+* <https://www.zenhub.com/blog/best-practices-for-github-issues>, on issue management
 * [Articles about Github in Wired.com](https://www.google.com/search?q=github+everything+site:wired.com)
 
 Github provides a proprietary-freeware desktop Git GUI, <https://desktop.github.com>. 
@@ -432,6 +433,10 @@ Each Github repo must have a `.gitignore` file with at least the following conte
     # font editor temporary files
     *(Autosaved).glyphs
     *.vfbak
+
+#### .github Templates
+
+TODO Add templates ideas
 
 #### README.md
 

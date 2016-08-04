@@ -177,7 +177,6 @@
 0x0146  ņ ncommaaccent
 0x014A  Ŋ Eng
 0x014B  ŋ eng
-0x0149  ŉ napostrophe
 0x00D2  Ò Ograve
 0x00F2  ò ograve
 0x00D3  Ó Oacute
@@ -252,6 +251,8 @@
 0x0171  ű uhungarumlaut
 0x1EE4  Ụ Udotbelow
 0x1EE5  ụ udotbelow
+0x1EE6  Ủ Uhookabove
+0x1EE7  ủ uhookabove
 0x0172  Ų Uogonek
 0x0173  ų uogonek
 0x1E80  Ẁ Wgrave
@@ -280,10 +281,6 @@
 0x017E  ž zcaron
 0x017B  Ż Zdotaccent
 0x017C  ż zdotaccent
-0x0132  Ĳ IJ
-0x0133  ĳ ij
-         IJacute
-         ijacute
 0x018F  Ə Schwa
 0x0259  ə schwa
 0x01C4  Ǆ DZcaron
@@ -328,10 +325,8 @@
 0xFB00  ﬀ f_f
 0xFB01  ﬁ fi
 0xFB02  ﬂ fl
-         f_ij
 0xFB03  ﬃ f_f_i
 0xFB04  ﬄ f_f_l
-         f_f_ij
 0x0026  & ampersand
 0x0040  @ at
 0x002A  * asterisk
@@ -374,7 +369,6 @@
 0x0323  ̣ dotbelowcomb
 0x0324  ̤ dieresisbelowcomb
 0x0326  ̦ commaaccentcomb
-          commaaccentcomb.alt
 0x0312  ̒ commaturnedabovecomb 
 0x0327  ̧ cedillacomb
 0x0328  ̨ ogonekcomb
@@ -466,6 +460,7 @@
 0x00B9  ¹ onesuperior
 0x00B2  ² twosuperior
 0x00B3  ³ threesuperior
+0x2074  ⁴ foursuperior
 0x00AA  ª ordfeminine
 0x00BA  º ordmasculine
 0x2116  № numero

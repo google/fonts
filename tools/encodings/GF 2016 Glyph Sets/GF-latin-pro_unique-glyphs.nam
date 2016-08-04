@@ -116,7 +116,6 @@
 0x2032  ′ prime
 0x2033  ″ second
 0x2070  ⁰ zerosuperior
-0x2074  ⁴ foursuperior
 0x2075  ⁵ fivesuperior
 0x2076  ⁶ sixsuperior
 0x2077  ⁷ sevensuperior
@@ -132,3 +131,13 @@
 0x2087  ₇ seveninferior
 0x2088  ₈ eightinferior
 0x2089  ₉ nineinferior
+          zero.subs
+          one.subs
+          two.subs
+          three.subs
+          four.subs
+          five.subs
+          six.subs
+          seven.subs
+          eight.subs
+          nine.subs

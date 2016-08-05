@@ -26,7 +26,7 @@ To use `compare_font.py` and `sanity_check.py` you will need:
 These can be installed with pip:
 
     sudo easy_install pip;
-    sudo pip install google-apputils protobuf git+git://github.com/behdad/fonttools.git;
+    pip install --user google-apputils protobuf git+git://github.com/behdad/fonttools.git;
 
 ## License
 

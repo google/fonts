@@ -28,6 +28,10 @@ Here is a list of popular ligatures that are recommended for addition on a case-
 
 	
 ***
+### Space Characters
+
+
+[Space Characters Design Standards — Microsoft Typography](1)
 
 ### Better Components Generation in Glyphs ###
 
@@ -108,3 +112,5 @@ N.B. The question of German Uppercase Capital Sharp S is still highly debatable,
 ### Recommended links: ###
 
 Pablo Impallari's [Latin encoding](https://github.com/impallari/Impallari-Fontlab-Encodings/tree/master/Impallari%20Latin)
+
+[1]:https://www.microsoft.com/typography/developers/fdsspec/spaces.htm

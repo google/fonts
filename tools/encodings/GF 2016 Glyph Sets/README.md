@@ -80,7 +80,7 @@ Read more on [Glyphs Tutorials](https://www.glyphsapp.com/tutorials/localize-you
 
 **Language support for the following Latin-based languages**: Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (Latin), Bemba, Bikol, Bislama, Bosnian, Breton, Cape Verdean Creole, Catalan, Cebuano, Chamorro, Chavacano, Chichewa, Chickasaw, Cimbrian, Cofán, Cornish, Corsican, Creek, Crimean Tatar (Latin), Croatian, Czech, Danish, Dawan, Delaware, Dholuo, Drehu, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino, Finnish, Folkspraak, French, Frisian, Friulian, Gagauz (Latin), Galician, Ganda, Genoese, German, Gikuyu, Gooniyandi, Greenlandic (Kalaallisut), Guadeloupean Creole, Gwich’in, Haitian Creole, Hän, Hawaiian, Hiligaynon, Hopi, Hotcąk (Latin), Hungarian, Icelandic, Ido, Igbo, Ilocano, Indonesian, Interglossa, Interlingua, Irish, Istro-Romanian, Italian, Jamaican, Javanese (Latin), Jèrriais, Kaingang, Kala Lagaw Ya, Kapampangan (Latin), Kaqchikel, Karakalpak (Latin), Karelian (Latin), Kashubian, Kikongo, Kinyarwanda, Kiribati, Kirundi, Klingon, Kurdish (Latin), Ladin, Latin, Latino sine Flexione, Latvian, Lithuanian, Lojban, Lombard, Low Saxon, Luxembourgish, Maasai, Makhuwa, Malay, Maltese, Manx, Māori, Marquesan, Megleno-Romanian, Meriam Mir, Mirandese, Mohawk, Moldovan, Montagnais, Montenegrin, Murrinh-Patha, Nagamese Creole, Nahuatl, Ndebele, Neapolitan, Ngiyambaa, Niuean, Noongar, Norwegian, Novial, Occidental, Occitan, Old Icelandic, Old Norse, Onĕipŏt, Oshiwambo, Ossetian (Latin), Palauan, Papiamento, Piedmontese, Polish, Portuguese, Potawatomi, Q’eqchi’, Quechua, Rarotongan, Romanian, Romansh, Rotokas, Sami (Inari Sami), Sami (Lule Sami), Sami (Northern Sami), Sami (Southern Sami), Samoan, Sango, Saramaccan, Sardinian, Scottish Gaelic, Serbian (Latin), Seri, Seychellois Creole, Shawnee, Shona, Sicilian, Silesian, Slovak, Slovenian, Slovio (Latin), Somali, Sorbian (Lower Sorbian), Sorbian (Upper Sorbian), Sotho (Northern), Sotho (Southern), Spanish, Sranan, Sundanese (Latin), Swahili, Swazi, Swedish, Tagalog, Tahitian, Tetum, Tok Pisin, Tokelauan, Tongan, Tshiluba, Tsonga, Tswana, Tumbuka, Turkish, Turkmen (Latin), Tuvaluan, Tzotzil, Uzbek (Latin), Venetian, Vepsian, Volapük, Võro, Wallisian, Walloon, Waray-Waray, Warlpiri, Wayuu, Welsh, Wik-Mungkan, Wiradjuri, Wolof, Xavante, Xhosa, Yapese, Yindjibarndi, Zapotec, Zarma, Zazaki, Zulu, Zuni
 
-### GF Latin Pro (+143 for 711 glyphs total + 37 optional .case, .sinf, and .sups)
+### GF Latin Pro (+145 for 713 glyphs total + 37 optional .case, .sinf, and .sups)
 
 - Math symbols and Units of Measure (∆ Ω π ℓ ℮ ∞ ∂ ∫ √ ∑ ∏ ◊ ∅)
 - Latin General Use Extensions (U+1E08 to U+1EC9)
@@ -116,7 +116,7 @@ feature name | created | sub one by ...
 `.sinf` | manually | `one.sinf`
 
 
-### GF Latin Expert (+271 for 982 total)
+### GF Latin Expert (+271 for 984 total)
 
 - Additional Unicode Fractions (⅓ ⅔ ⅛ ⅜ ⅝ ⅞)
 - Arrows (← ↑ → ↓)
@@ -158,7 +158,7 @@ Additional characters in this set provide support for the following languages: A
 
 ### GF Cyrillic Historical (Optional 37 glyphs )
 
-Provides support for Pre-Pertine Old Church Slavonic Texts.
+Provides support for Pre-Petrine Old Church Slavonic Texts.
 
 ### Recommended Additions
 
@@ -168,4 +168,4 @@ See [RECOMMENDED.md](RECOMMENDED.md)
 
 Dave Crossland, Frank Grießhammer, Georg Seifert, Gunnar Vilhjálmsson, Jacques Le Bailly, Nhung Nguyen (Vietnamese lists), Pablo Impallari (Impallari Encoding), Rainer Erich Scheichelbauer (@mekkablue), Thomas Jockin, Thomas Phinney (Adobe Cyrillic lists), Underware (Latin Plus Encoding)
 
-Encoding created by Alexei Vanyashin (@alexeiva) and Kalapi Gajjar (@kalapi) 2016-06-27
+Glyph Sets created by Alexei Vanyashin (@alexeiva) and Kalapi Gajjar (@kalapi) 2016-06-27

@@ -354,6 +354,11 @@ If you are a TextMate user, run:
 
      git config --global core.editor "mate -w";
 
+Make sure to always use ssh:
+
+    git config --global url.ssh://git@github.com/.insteadOf https://github.com/
+    git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
+
 ### Your Repository
 
 #### Name Your Project

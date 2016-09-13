@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Lobster-Regular.ttf"
   post_script_name: "Lobster-Regular"
-  full_name: "Lobster"
-  copyright: "Copyright (c) 2010 by Pablo Impallari (www.impallari.com)"
+  full_name: "Lobster Regular"
+  copyright: "Copyright (c) 2010, The Lobster Font Authors (impallari@gmail.com)"
 }
 subsets: "menu"
 subsets: "cyrillic"

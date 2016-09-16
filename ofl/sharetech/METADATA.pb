@@ -1,5 +1,5 @@
 name: "Share Tech"
-designer: "Carrois Apostrophe"
+designer: "Ralph du Carrois"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-10-31"
@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "ShareTech-Regular.ttf"
   post_script_name: "ShareTech-Regular"
-  full_name: "Share Tech"
-  copyright: "Copyright (c) 2012, Carrois Type Design, Ralph du Carrois (www.carrois.com post@carrois.com), with Reserved Font Name 'Share'"
+  full_name: "Share Tech Regular"
+  copyright: "Copyright 2012 The Share Tech Project Authors (post@carrois.com)"
 }
 subsets: "menu"
 subsets: "latin"

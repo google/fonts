@@ -26,7 +26,7 @@ If you would like to include a font family in the Google Fonts collection we'll 
 * More detailed design and production details are listed in [googlefonts/gf-docs/ProjectChecklist.md](https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md)
 
 When your project meets these criteria, please [file an issue](https://github.com/google/fonts/issues) with a link to the source repository.
-(In the future we hope to provide guidance on making pull requests directly, but since we carefully check the technical aspects of the fonts, its better to work with us on your upstream project.)
+(In the future we hope to provide guidance on making pull requests directly, but since we carefully check the technical aspects of the fonts, it's better to work with us on your upstream project.)
 
 Google Fonts may provide financial or design assistance for some type projects. 
 If you would like to discuss this, please [get in touch](https://github.com/google/fonts/issues/new)

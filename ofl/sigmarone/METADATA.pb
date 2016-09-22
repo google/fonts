@@ -7,10 +7,10 @@ fonts {
   name: "Sigmar One"
   style: "normal"
   weight: 400
-  filename: "SigmarOne.ttf"
-  post_script_name: "SigmarOne"
-  full_name: "Sigmar One"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Sigmar'. All rights reserved."
+  filename: "SigmarOne-Regular.ttf"
+  post_script_name: "SigmarOne-Regular"
+  full_name: "Sigmar One Regular"
+  copyright: "Copyright 2011 The Sigmar One Project Authors (vern@newtypography.co.uk)"
 }
 subsets: "menu"
 subsets: "latin"

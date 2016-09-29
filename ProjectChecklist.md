@@ -375,8 +375,11 @@ Do not include any script or language names. Eg, `Acme Arabic` or `Acme Persian`
 This means a family named with a language or script in the name will confuse users, because the font will often be served without any support for that language or script. 
 More details in this [discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1).)
 
-Do not use non-ASCII alphabet characters in the family name: 
-No dashes, numbers, or diacritics.
+Do not use non-ASCII alphanumeric characters in the family name: 
+No dashes or diacritics. 
+
+Family names must begin with alphabet characters: 
+No numbers, dashes, or diacritics.
 
 Do not use any company names, including your own. 
 Large distributors (such as Google) can not redistribute the fonts without neccessarily endorsing the named company, and companies with policies against endorsement will therefore need to rename the fonts, which is not ideal.  

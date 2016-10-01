@@ -10,8 +10,8 @@ fonts {
   filename: "Homenaje-Regular.ttf"
   post_script_name: "Homenaje-Regular"
   full_name: "Homenaje Regular"
-  copyright: "Copyright The Homenaje Project Authors (agustinamingote@gmail.com | artigasconstanza@gmail.com)"
+  copyright: "Copyright 2016 The Homenaje Project Authors"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

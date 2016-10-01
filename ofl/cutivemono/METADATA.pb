@@ -12,6 +12,6 @@ fonts {
   full_name: "Cutive Mono Regular"
   copyright: "Copyright 2012 The Cutive Project Authors (vern@newtypography.co.uk)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

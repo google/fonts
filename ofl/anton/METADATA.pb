@@ -12,6 +12,7 @@ fonts {
   full_name: "Anton Regular"
   copyright: "Copyright 2011 The Anton Project Authors"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

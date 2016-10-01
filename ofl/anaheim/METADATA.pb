@@ -12,6 +12,7 @@ fonts {
   full_name: "Anaheim Regular"
   copyright: "Copyright 2012 The Anaheim Project Authors"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

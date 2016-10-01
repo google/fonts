@@ -21,5 +21,5 @@ fonts {
   full_name: "Cabin Sketch Bold"
   copyright: "Copyright 2011 The Cabin Project Authors (impallari@gmail.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

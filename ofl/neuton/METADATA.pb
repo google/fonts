@@ -57,6 +57,7 @@ fonts {
   full_name: "Neuton ExtraBold"
   copyright: "Copyright 2010 The Neuton Project Authors (http://21326.info/)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+
+subsets: "menu"

@@ -12,6 +12,7 @@ fonts {
   full_name: "Alfa Slab One Regular"
   copyright: "Copyright 2016 The Alfa Slab One Project Authors (http://www.jmsole.cl | info@jmsole.cl)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

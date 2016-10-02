@@ -12,6 +12,6 @@ fonts {
   full_name: "Telex Regular"
   copyright: "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

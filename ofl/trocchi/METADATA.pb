@@ -12,6 +12,6 @@ fonts {
   full_name: "Trocchi Regular"
   copyright: "Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

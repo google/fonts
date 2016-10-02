@@ -12,5 +12,5 @@ fonts {
   full_name: "Share Tech Regular"
   copyright: "Copyright 2012 The Share Tech Project Authors (post@carrois.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

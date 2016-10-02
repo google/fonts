@@ -13,4 +13,6 @@ fonts {
   copyright: "Copyright 2011 The Sigmar One Project Authors (vern@newtypography.co.uk)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"

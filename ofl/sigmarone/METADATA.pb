@@ -12,5 +12,5 @@ fonts {
   full_name: "Sigmar One Regular"
   copyright: "Copyright 2011 The Sigmar One Project Authors (vern@newtypography.co.uk)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

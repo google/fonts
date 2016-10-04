@@ -12,5 +12,7 @@ fonts {
   full_name: "Pacifico Regular"
   copyright: "Copyright 2011 The Pacifico Project Authors"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

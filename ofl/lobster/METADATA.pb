@@ -10,10 +10,11 @@ fonts {
   filename: "Lobster-Regular.ttf"
   post_script_name: "Lobster-Regular"
   full_name: "Lobster Regular"
-  copyright: "Copyright (c) 2010, The Lobster Font Authors (impallari@gmail.com)"
+  copyright: "Copyright 2010 The Lobster Font Authors (impallari@gmail.com)"
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

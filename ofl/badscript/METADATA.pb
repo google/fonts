@@ -10,10 +10,11 @@ fonts {
   filename: "BadScript-Regular.ttf"
   post_script_name: "BadScript-Regular"
   full_name: "Bad Script Regular"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Bad Script\"."
+  copyright: "Copyright 2011 The Bad Script Project Authors (gaslighttypefoundry@gmail.com)"
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

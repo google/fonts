@@ -10,7 +10,7 @@ fonts {
   filename: "Muli-Light.ttf"
   post_script_name: "Muli-Light"
   full_name: "Muli Light"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Muli'. All rights reserved."
+  copyright: "Copyright (c) 2011 by vernon adams. All rights reserved."
 }
 fonts {
   name: "Muli"
@@ -19,7 +19,7 @@ fonts {
   filename: "Muli-LightItalic.ttf"
   post_script_name: "Muli-LightItalic"
   full_name: "Muli Light Italic"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Muli'. All rights reserved."
+  copyright: "Copyright (c) 2011 by vernon adams. All rights reserved."
 }
 fonts {
   name: "Muli"
@@ -28,7 +28,7 @@ fonts {
   filename: "Muli-Regular.ttf"
   post_script_name: "Muli"
   full_name: "Muli"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Muli'. All rights reserved."
+  copyright: "Copyright (c) 2011 by vernon adams. All rights reserved."
 }
 fonts {
   name: "Muli"
@@ -37,7 +37,7 @@ fonts {
   filename: "Muli-Italic.ttf"
   post_script_name: "Muli-Italic"
   full_name: "Muli Italic"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Muli'. All rights reserved."
+  copyright: "Copyright (c) 2011 by vernon adams. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

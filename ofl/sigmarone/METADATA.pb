@@ -10,7 +10,7 @@ fonts {
   filename: "SigmarOne-Regular.ttf"
   post_script_name: "SigmarOne-Regular"
   full_name: "Sigmar One Regular"
-  copyright: "Copyright 2011 The Sigmar One Project Authors (vern@newtypography.co.uk)"
+  copyright: "Copyright 2011 The Sigmar One Project Authors (contact@sansoxygen.com)"
 }
 subsets: "latin"
 subsets: "latin-ext"

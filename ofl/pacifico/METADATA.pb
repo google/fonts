@@ -10,7 +10,7 @@ fonts {
   filename: "Pacifico-Regular.ttf"
   post_script_name: "Pacifico-Regular"
   full_name: "Pacifico Regular"
-  copyright: "Copyright 2011 The Pacifico Project Authors"
+  copyright: "Copyright 2011 The Pacifico Project Authors (contact@sansoxygen.com)"
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -32,6 +32,8 @@ Github is a public project collaboration platform that is somewhat similar to Dr
 It provides the best and most well-designed experience for public project development.
 However, it is very project-centered. 
 
+* <https://github.com/sindresorhus/refined-github>
+
 ### The Google Fonts Discuss mailing list
 
 To discuss topics outside narrow per-project details, the Google Fonts type design community uses the Google Group [Google Fonts Discuss](https://groups.google.com/forum/#!forum/googlefonts-discuss)

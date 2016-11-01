@@ -9,9 +9,10 @@ fonts {
   weight: 400
   filename: "Anaheim-Regular.ttf"
   post_script_name: "Anaheim-Regular"
-  full_name: "Anaheim"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Anaheim'"
+  full_name: "Anaheim Regular"
+  copyright: "Copyright 2012 The Anaheim Project Authors"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

@@ -459,14 +459,16 @@ Ideally, include an inline image near the top (see below)
 #### OFL.txt
 
 Each Github repo **MUST** have an OFL.txt containing the full text of the SIL Open Font License, and a copyright notice on the first line. 
+The entire copyright notice including all names, contact information, and Reserved Font Name (RFN) notices, **all on one line.**
 
 The copyright notice on line 1 of the OFL.txt **MUST** match the copyright notice inside each font file.
 
-Typically this notice does **not** have a Reserved Font Name (RFN) at the end, or if it does, the name declared is not used anywhere else in the project. 
+Typically this notice does **not** have an RFN at the end. 
+If it does, the name declared is not used anywhere else in the project. 
 
 Since the copyright authors can change over time, such as when another author contributes to the project, write the notice for the "Acme" family as 
 
-    Copyright 2016 The Acme Project Authors (info@foundry.com)
+    Copyright 2016 The Acme Project Authors (github.com/upstream/projectname)
 
 This necessarily means the list the authors must be maintained somewhere, so really 3 files are required:
 

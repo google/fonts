@@ -464,7 +464,8 @@ The entire copyright notice including all names, contact information, and Reserv
 The copyright notice on line 1 of the OFL.txt **MUST** match the copyright notice inside each font file.
 
 Typically this notice does **not** have an RFN at the end. 
-If it does, the name declared is not used anywhere else in the project. 
+If it does, the name declared must not be used anywhere else in the project, unless permission has been granted to Google. 
+If permission has not been granted, the RFN must only appear in the copyright notices.
 
 Since the copyright authors can change over time, such as when another author contributes to the project, write the notice for the "Acme" family as 
 

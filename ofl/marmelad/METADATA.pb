@@ -9,11 +9,12 @@ fonts {
   weight: 400
   filename: "Marmelad-Regular.ttf"
   post_script_name: "Marmelad-Regular"
-  full_name: "Marmelad"
-  copyright: "Copyright (c) 2011-2016, Cyreal (contact@cyreal.org)."
+  full_name: "Marmelad Regular"
+  copyright: "Copyright 2016 The Marmelad Project Authors (manveltype@gmail.com), with Reserved Font Name \"Marmelad\"."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

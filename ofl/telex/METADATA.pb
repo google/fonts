@@ -10,8 +10,7 @@ fonts {
   filename: "Telex-Regular.ttf"
   post_script_name: "Telex-Regular"
   full_name: "Telex Regular"
-  copyright: "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar)"
+  copyright: "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar), with Reserved Font Name Telex."
 }
 subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"

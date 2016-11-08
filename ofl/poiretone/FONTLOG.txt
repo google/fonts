@@ -26,12 +26,28 @@ that use the Latin script and its variants, and could be
 expanded to support other scripts.
 
 More specifically, this release supports the following 
-Unicode ranges: Latin-1
+Unicode ranges: Latin-1, Cyrillic
 
 To contribute to the project contact Denis Masharov
 at denis.masharov@gmail.com
 
+Source Files
+1. src/PoiretOne-Regular.glyphs (Glyphs App Source File)
+
 ChangeLog
+
+27 September 2016 (Marc Foley) Poiret One 1.1
+-Mastered repository and fonts
+
+7–13 July 2016 (Alexei Vanyshin / Cyreal) Poiret One 1.1
+— Setup git repo: https://github.com/alexeiva/poiretone
+— Converted to Glyphs format
+— Expanded Charset to GF Cyrillic Plus
+— Added Tabular figures
+— Major design and spacing improvements
+— Rechecked every glyph for stroke weight consistency
+— Fully reworked kerning, added manual pairs. 
+— Expanded Charset to GF Latin Plus
 
 24 Feb 2012 (Denis Masharov) Poiret One v1.001
 - Initial release
@@ -45,3 +61,8 @@ description (D). This list is in alphabetical order.
 N: Denis Masharov
 E: denis.masharov@gmail.com
 D: Original Type Designer
+
+N: Alexei Vanyashin
+E: a at cyreal dot org
+D: QA, Expansion to GF Cyrillic Plus, GF Latin Plus
+W: www.cyreal.org

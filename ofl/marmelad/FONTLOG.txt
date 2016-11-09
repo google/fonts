@@ -25,13 +25,19 @@ More specifically, this release supports the following Unicode
 ranges: Latin-1, Latin-5, Cyrillic
 
 To contribute to the project contact Alexei Vanyashin at 
-a@cyreal.org
+a (at) cyreal.org
 
-There are two .vfb Source files:
-1. Marmelad-Regular-OTF.vfb (Merged and optimized file)
-2. Marmelad-Regular-TTF.vfb (Mastered TTF with manual hinting applied)
+Source files:
+1. sources/Marmelad-Regular.glyphs
 
 ChangeLog
+
+August 4 2016  v 1.100 (Alexei Vanyashin)
+— Extended charset to GF Latin Plus, GF Cyrillic Plus
+— Added core kerning pairs
+
+Feb 6 2013  v 1.001 (Alexei Vanyashin)
+Fixed ttfautohint bug (broken contour issue after converting to outlines)
 
 If you make modifications be sure to add your name (N), 
 email (E), web-address (if you have one) (W) and description (D). 
@@ -40,3 +46,8 @@ This list is in alphabetical order.
 N: Manvel Shmavonyan
 E: manveltype@gmail.com
 D: Designer
+
+N: Alexei Vanyashin
+E: a@cyreal.org
+E: www.cyreal.org
+D: Charset expansion

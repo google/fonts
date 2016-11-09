@@ -4,15 +4,23 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-10-17"
 fonts {
-  name: "Oswald Heavy"
+  name: "Nunito Heavy"
   style: "normal"
   weight: 400
-  filename: "OswaldHeavy-Regular.ttf"
-  post_script_name: "OswaldHeavy-Regular"
-  full_name: "Oswald Heavy Regular"
-  copyright: "Copyright 2016 The Oswald Project Authors (contact@sansoxygen.com)"
+  filename: "NunitoHeavy-Regular.ttf"
+  post_script_name: "NunitoHeavy-Regular"
+  full_name: "Nunito Heavy Regular"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
-subsets: "cyrillic"
+fonts {
+  name: "Nunito Heavy"
+  style: "italic"
+  weight: 400
+  filename: "NunitoHeavy-Italic.ttf"
+  post_script_name: "NunitoHeavy-Italic"
+  full_name: "Nunito Heavy Italic"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
+}
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

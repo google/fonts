@@ -10,7 +10,7 @@ fonts {
   filename: "Nunito-ExtraLight.ttf"
   post_script_name: "Nunito-ExtraLight"
   full_name: "Nunito ExtraLight"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -19,7 +19,7 @@ fonts {
   filename: "Nunito-ExtraLightItalic.ttf"
   post_script_name: "Nunito-ExtraLightItalic"
   full_name: "Nunito ExtraLight Italic"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -28,7 +28,7 @@ fonts {
   filename: "Nunito-Light.ttf"
   post_script_name: "Nunito-Light"
   full_name: "Nunito Light"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -37,7 +37,7 @@ fonts {
   filename: "Nunito-LightItalic.ttf"
   post_script_name: "Nunito-LightItalic"
   full_name: "Nunito Light Italic"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -46,7 +46,7 @@ fonts {
   filename: "Nunito-Regular.ttf"
   post_script_name: "Nunito-Regular"
   full_name: "Nunito Regular"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -55,7 +55,7 @@ fonts {
   filename: "Nunito-Italic.ttf"
   post_script_name: "Nunito-Italic"
   full_name: "Nunito Italic"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -64,7 +64,7 @@ fonts {
   filename: "Nunito-SemiBold.ttf"
   post_script_name: "Nunito-SemiBold"
   full_name: "Nunito SemiBold"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -73,7 +73,7 @@ fonts {
   filename: "Nunito-SemiBoldItalic.ttf"
   post_script_name: "Nunito-SemiBoldItalic"
   full_name: "Nunito SemiBold Italic"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -82,7 +82,7 @@ fonts {
   filename: "Nunito-Bold.ttf"
   post_script_name: "Nunito-Bold"
   full_name: "Nunito Bold"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -91,7 +91,7 @@ fonts {
   filename: "Nunito-BoldItalic.ttf"
   post_script_name: "Nunito-BoldItalic"
   full_name: "Nunito Bold Italic"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -100,7 +100,7 @@ fonts {
   filename: "Nunito-ExtraBold.ttf"
   post_script_name: "Nunito-ExtraBold"
   full_name: "Nunito ExtraBold"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -109,7 +109,7 @@ fonts {
   filename: "Nunito-ExtraBoldItalic.ttf"
   post_script_name: "Nunito-ExtraBoldItalic"
   full_name: "Nunito ExtraBold Italic"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -118,7 +118,7 @@ fonts {
   filename: "Nunito-Black.ttf"
   post_script_name: "Nunito-Black"
   full_name: "Nunito Black"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Nunito"
@@ -127,26 +127,9 @@ fonts {
   filename: "Nunito-BlackItalic.ttf"
   post_script_name: "Nunito-BlackItalic"
   full_name: "Nunito Black Italic"
-  copyright: "Copyright 2014 The Nunito Project Authors"
+  copyright: "Copyright 2014 The Nunito Project Authors (contact@sansoxygen.com)"
 }
-fonts {
-  name: "Nunito"
-  style: "normal"
-  weight: 950
-  filename: "Nunito-Heavy.ttf"
-  post_script_name: "Nunito-Heavy"
-  full_name: "Nunito Heavy"
-  copyright: "Copyright 2014 The Nunito Project Authors"
-}
-fonts {
-  name: "Nunito"
-  style: "italic"
-  weight: 950
-  filename: "Nunito-HeavyItalic.ttf"
-  post_script_name: "Nunito-HeavyItalic"
-  full_name: "Nunito Heavy Italic"
-  copyright: "Copyright 2014 The Nunito Project Authors"
-}
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

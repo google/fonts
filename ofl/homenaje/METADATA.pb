@@ -10,8 +10,7 @@ fonts {
   filename: "Homenaje-Regular.ttf"
   post_script_name: "Homenaje-Regular"
   full_name: "Homenaje Regular"
-  copyright: "Copyright 2016 The Homenaje Project Authors"
+  copyright: "Copyright 2016 The Homenaje Project Authors (https://github.com/googlefonts/Homenaje), with Reserved Font Name \'Homenaje."
 }
 subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"

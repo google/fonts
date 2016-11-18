@@ -83,7 +83,7 @@ Polish Kreska shares the same unicode as the acute accent, however it is designe
 Here is a list of additional glyphs for better Polish support:
 
 ```
-Cacute.loclPLN Nacute.loclPLN Oacute.loclPLN Sacute.loclPLN Zacute.loclPLN cacute.loclPLN nacute.loclPLN oacute.loclPLN sacute.loclPLN zacute.loclPLN acutecomb.loclPLN acutecomb.loclPLN.case
+Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK acutecomb.loclPLK acutecomb.loclPLK.case
 ```
 
 ### STRASSE or Straße? ###

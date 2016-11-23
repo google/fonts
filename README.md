@@ -46,4 +46,6 @@ When customising or remixing fonts, please do contact the designers to understan
 
 Most of all: Enjoy the fonts!
 
+##How to use Google Fonts on you website
+
 – The Google Fonts team, 2015-06-18

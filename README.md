@@ -54,7 +54,7 @@ Let's make an example using the Antonio Font downloading the Font.
 2)Second
 Create a file name style.css.
 And copy the following code to it:
-
+"""html
 @font-face {
   font-family: 'Antonio';
   font-style: normal;
@@ -67,6 +67,7 @@ And copy the following code to it:
   font-weight: 400;
   src: local('Antonio'), local('Antonio-Regular'), url(fonts/ofl/antonio/Antonio-Regular.ttf) format('ttf');
 }
+"""
 
 3)Then we create an HTML file with the following code:
 

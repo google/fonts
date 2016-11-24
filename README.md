@@ -47,5 +47,39 @@ When customising or remixing fonts, please do contact the designers to understan
 Most of all: Enjoy the fonts!
 
 ##How to use Google Fonts on you website
+There are two types of doing it: using the google API fonts directly or using google font downloading it.
+
+Let's make an example using the Antonio Font downloading the Font.
+1)First , you need to download this repo on a folder named "font"
+2)Second
+Create a file name style.css.
+And copy the following code to it:
+
+@font-face {
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Antonio Light'), local('Antonio-Light'), url(fonts/ofl/antonio/Antonio-Light.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Antonio'), local('Antonio-Regular'), url(fonts/ofl/antonio/Antonio-Regular.ttf) format('ttf');
+}
+
+3)Then we create an HTML file with the following code:
+
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+  
+  </head>
+  <body>
+    <div>Just Making an Example using Google Fonts</div>
+  </body>
+</html>
+
+
 
 – The Google Fonts team, 2015-06-18

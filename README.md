@@ -70,7 +70,7 @@ And copy the following code to it:
 """
 
 3)Then we create an HTML file with the following code:
-
+```html
 <html>
   <head>
     <link href="styles.css" rel="stylesheet">
@@ -80,7 +80,7 @@ And copy the following code to it:
     <div>Just Making an Example using Google Fonts</div>
   </body>
 </html>
-
+```
 
 
 – The Google Fonts team, 2015-06-18

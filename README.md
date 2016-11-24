@@ -50,9 +50,13 @@ Most of all: Enjoy the fonts!
 There are two types of doing it: using the google API fonts directly or using google font downloading it.
 
 Let's make an example using the Antonio Font downloading the Font.
+
 1)First , you need to download this repo on a folder named "font"
+
 2)Second
+
 Create a file named:  style.css.
+
 And copy the following code to it:
 ```css
 @font-face {

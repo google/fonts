@@ -46,7 +46,7 @@ When customising or remixing fonts, please do contact the designers to understan
 
 Most of all: Enjoy the fonts!
 
-##How to use Google Fonts on you website
+##How to use Google Fonts on your website locally
 There are two types of doing it: using the google API fonts directly or using google font downloading it.
 
 Let's make an example using the Antonio Font downloading the Font.

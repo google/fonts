@@ -54,7 +54,7 @@ Let's make an example using the Antonio Font downloading the Font.
 2)Second
 Create a file named:  style.css.
 And copy the following code to it:
-```html
+```css
 @font-face {
   font-family: 'Antonio';
   font-style: normal;

@@ -91,3 +91,10 @@ Some interesting articles about Google Fonts:
 * <https://design.google.com/articles/reimagining-google-fonts/>
 * <https://medium.com/google-design/introducing-space-mono-a-new-monospaced-typeface-by-colophon-foundry-for-google-fonts-84367eac6dfb>
 * <http://www.fastcodesign.com/3033126/roboto-rebooted-why-google-plans-to-update-its-font-like-the-rest-of-its-products>
+
+## Interesting Libre Fonts Not In Google Fonts
+
+Here is a list of some libre fonts made for special purposes (emoij, math, icon, etc) are not available in Google Fonts. 
+
+* https://material.io/icons/
+* https://github.com/figs-lab/datalegreya

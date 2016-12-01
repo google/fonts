@@ -10,16 +10,7 @@ fonts {
   filename: "Quicksand-Light.ttf"
   post_script_name: "Quicksand-Light"
   full_name: "Quicksand Light"
-  copyright: "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
-}
-fonts {
-  name: "Quicksand"
-  style: "italic"
-  weight: 300
-  filename: "Quicksand-LightItalic.ttf"
-  post_script_name: "Quicksand-LightItalic"
-  full_name: "Quicksand Light Italic"
-  copyright: "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+  copyright: "Copyright 2011 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily), with Reserved Font Name Quicksand."
 }
 fonts {
   name: "Quicksand"
@@ -28,16 +19,16 @@ fonts {
   filename: "Quicksand-Regular.ttf"
   post_script_name: "Quicksand-Regular"
   full_name: "Quicksand Regular"
-  copyright: "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+  copyright: "Copyright 2011 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily), with Reserved Font Name Quicksand."
 }
 fonts {
   name: "Quicksand"
-  style: "italic"
-  weight: 400
-  filename: "Quicksand-Italic.ttf"
-  post_script_name: "Quicksand-Italic"
-  full_name: "Quicksand Italic"
-  copyright: "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+  style: "normal"
+  weight: 500
+  filename: "Quicksand-Medium.ttf"
+  post_script_name: "Quicksand-Medium"
+  full_name: "Quicksand Medium"
+  copyright: "Copyright 2011 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily), with Reserved Font Name Quicksand."
 }
 fonts {
   name: "Quicksand"
@@ -46,16 +37,9 @@ fonts {
   filename: "Quicksand-Bold.ttf"
   post_script_name: "Quicksand-Bold"
   full_name: "Quicksand Bold"
-  copyright: "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
+  copyright: "Copyright 2011 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily), with Reserved Font Name Quicksand."
 }
-fonts {
-  name: "Quicksand"
-  style: "italic"
-  weight: 700
-  filename: "Quicksand-BoldItalic.ttf"
-  post_script_name: "Quicksand-BoldItalic"
-  full_name: "Quicksand Bold Italic"
-  copyright: "Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com andrew.paglinawan@gmail.com), with Reserved Font Name \"Quicksand\"."
-}
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

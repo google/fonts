@@ -9,8 +9,10 @@ fonts {
   weight: 400
   filename: "VT323-Regular.ttf"
   post_script_name: "VT323-Regular"
-  full_name: "VT323"
-  copyright: "Copyright (c) 2011, Peter Hull (peter.hull@oikoi.com), with Reserved Font Name \"VT323\"."
+  full_name: "VT323 Regular"
+  copyright: "Copyright 2011, The VT323 Project Authors (peter.hull@oikoi.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

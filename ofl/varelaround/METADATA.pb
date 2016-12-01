@@ -9,8 +9,11 @@ fonts {
   weight: 400
   filename: "VarelaRound-Regular.ttf"
   post_script_name: "VarelaRound-Regular"
-  full_name: "Varela Round"
-  copyright: "Copyright (c) 2011, Joe Prince, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Varela Round."
+  full_name: "Varela Round Regular"
+  copyright: "Copyright 2011-2016 The Varela Round Project Authors (https://github.com/alefalefalef/Varela-Round-Hebrew/), with Reserved Font Names \'Varela\' and Varela Round."
 }
-subsets: "menu"
+subsets: "hebrew"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

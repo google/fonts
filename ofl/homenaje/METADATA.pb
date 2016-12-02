@@ -9,9 +9,8 @@ fonts {
   weight: 400
   filename: "Homenaje-Regular.ttf"
   post_script_name: "Homenaje-Regular"
-  full_name: "Homenaje"
-  copyright: "Copyright (c) 2011, Agustina Mingote (agustinamingote@gmail.com), Copyright (c) 2011, Constanza Artigas Preller (artigasconstanza@gmail.com), with Reserved Font Name 'Homenaje'"
+  full_name: "Homenaje Regular"
+  copyright: "Copyright 2016 The Homenaje Project Authors (https://github.com/googlefonts/Homenaje), with Reserved Font Name \'Homenaje."
 }
-subsets: "menu"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"

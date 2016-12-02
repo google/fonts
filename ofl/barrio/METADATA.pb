@@ -1,5 +1,5 @@
 name: "Barrio"
-designer: "Sergio Jiménez"
+designer: "Multiple Designers"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-12-02"

@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "DancingScript-Regular.ttf"
-  post_script_name: "DancingScript"
-  full_name: "Dancing Script"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). All rights reserved."
+  post_script_name: "DancingScript-Regular"
+  full_name: "Dancing Script Regular"
+  copyright: "Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com), with Reserved Font Name \'Dancing Script."
 }
 fonts {
   name: "Dancing Script"
@@ -19,7 +19,9 @@ fonts {
   filename: "DancingScript-Bold.ttf"
   post_script_name: "DancingScript-Bold"
   full_name: "Dancing Script Bold"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+  copyright: "Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com), with Reserved Font Name \'Dancing Script."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

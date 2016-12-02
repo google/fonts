@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Inconsolata-Regular.ttf"
-  post_script_name: "Inconsolata"
-  full_name: "Inconsolata"
-  copyright: "Copyright (c) 2006-2012, Raph Levien (firstname.lastname@gmail.com), Copyright (c) 2011-2012, Cyreal (cyreal.org)"
+  post_script_name: "Inconsolata-Regular"
+  full_name: "Inconsolata Regular"
+  copyright: "Copyright 2006 The Inconsolata Project Authors"
 }
 fonts {
   name: "Inconsolata"
@@ -19,8 +19,9 @@ fonts {
   filename: "Inconsolata-Bold.ttf"
   post_script_name: "Inconsolata-Bold"
   full_name: "Inconsolata Bold"
-  copyright: "Copyright (c) 2006-2012, Raph Levien (firstname.lastname@gmail.com), Copyright (c) 2011-2012, Cyreal (cyreal.org)"
+  copyright: "Copyright 2006 The Inconsolata Project Authors"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

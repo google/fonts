@@ -58,4 +58,5 @@ fonts {
   copyright: "Copyright 2010 The Neuton Project Authors (http://www.21326.info/), with Reserved Font Name \"Neuton\"."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

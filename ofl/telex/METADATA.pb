@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar), with Reserved Font Name Telex."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

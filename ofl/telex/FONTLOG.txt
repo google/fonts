@@ -23,18 +23,6 @@ Designed by Andrés Torresi for Huerta Tipográfica
 To contribute to the project contact Andrés Torresi at 
 andres@huertatipografica.com.ar
 
-There are three Source files:
-
-1. Telex-Regular.vfb: Original Source files with contour
-   overlaps, anchors, etc.
-
-2. Telex-Regular-OTF.vfb: Merged contours and optimized file 
-   corresponding to the OTF file
-
-3. Telex-Regular-TTF.sfd: Fontforge file with bezier 
-   quadratic curves and adjustments according to GWF 
-   specifications, and run through ttfautohint
-
 
 ChangeLog
 
@@ -46,3 +34,11 @@ N: Andres Torresi
 E: info@andrestorresi.com.ar
 W: www.huertatipografica.com.ar
 D: Type Designer
+
+N: Marc Foley
+E: m.foley.88@gmail.com
+D: Engineer
+
+14 September 2016 Telex V1.100 release:
+- Converted sources to .glyphs
+- Fixed font’s fullname Telex -> Telex Regular

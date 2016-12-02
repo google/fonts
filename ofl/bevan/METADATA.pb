@@ -7,7 +7,7 @@ fonts {
   name: "Bevan"
   style: "normal"
   weight: 400
-  filename: "Bevan.ttf"
+  filename: "Bevan-Regular.ttf"
   post_script_name: "Bevan-Regular"
   full_name: "Bevan Regular"
   copyright: "Copyright 2016 The Bevan Project Authors (www.sansoxygen.com)"

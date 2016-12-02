@@ -1,5 +1,5 @@
 name: "Bahiana"
-designer: "Daniela Raskovsky"
+designer: "Multiple Designers"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-12-02"

@@ -13,3 +13,5 @@ fonts {
   copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
 }
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

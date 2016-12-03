@@ -39,6 +39,6 @@ fonts {
   full_name: "Archivo Narrow Bold Italic"
   copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

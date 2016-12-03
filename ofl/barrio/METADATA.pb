@@ -1,5 +1,5 @@
 name: "Barrio"
-designer: "Multiple Designers"
+designer: "Omnibus-Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-12-02"

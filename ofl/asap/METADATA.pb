@@ -2,7 +2,7 @@ name: "Asap"
 designer: "Omnibus-Type"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2012-01-25"
+date_added: "2016-12-03"
 fonts {
   name: "Asap"
   style: "normal"
@@ -10,7 +10,7 @@ fonts {
   filename: "Asap-Regular.ttf"
   post_script_name: "Asap-Regular"
   full_name: "Asap Regular"
-  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)"
+  copyright: "Copyright 2016 The Asap Project Authors (omnibus.type@gmail.com)"
 }
 fonts {
   name: "Asap"
@@ -19,7 +19,7 @@ fonts {
   filename: "Asap-Italic.ttf"
   post_script_name: "Asap-Italic"
   full_name: "Asap Italic"
-  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)"
+  copyright: "Copyright 2016 The Asap Project Authors (omnibus.type@gmail.com)"
 }
 fonts {
   name: "Asap"
@@ -28,7 +28,7 @@ fonts {
   filename: "Asap-Medium.ttf"
   post_script_name: "Asap-Medium"
   full_name: "Asap Medium"
-  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)"
+  copyright: "Copyright 2016 The Asap Project Authors (omnibus.type@gmail.com)"
 }
 fonts {
   name: "Asap"
@@ -36,8 +36,8 @@ fonts {
   weight: 500
   filename: "Asap-MediumItalic.ttf"
   post_script_name: "Asap-MediumItalic"
-  full_name: "Asap MediumItalic"
-  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)"
+  full_name: "Asap Medium Italic"
+  copyright: "Copyright 2016 The Asap Project Authors (omnibus.type@gmail.com)"
 }
 fonts {
   name: "Asap"
@@ -46,7 +46,7 @@ fonts {
   filename: "Asap-Bold.ttf"
   post_script_name: "Asap-Bold"
   full_name: "Asap Bold"
-  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)"
+  copyright: "Copyright 2016 The Asap Project Authors (omnibus.type@gmail.com)"
 }
 fonts {
   name: "Asap"
@@ -54,8 +54,8 @@ fonts {
   weight: 700
   filename: "Asap-BoldItalic.ttf"
   post_script_name: "Asap-BoldItalic"
-  full_name: "Asap BoldItalic"
-  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)"
+  full_name: "Asap Bold Italic"
+  copyright: "Copyright 2016 The Asap Project Authors (omnibus.type@gmail.com)"
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -1,5 +1,5 @@
 name: "Faustina"
-designer: "Omnibus-Type""
+designer: "Omnibus-Type"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-12-03"

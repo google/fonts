@@ -1,5 +1,5 @@
 name: "Faustina"
-designer: "Alfonso Garcia""
+designer: "Omnibus-Type""
 license: "OFL"
 category: "SERIF"
 date_added: "2016-12-03"

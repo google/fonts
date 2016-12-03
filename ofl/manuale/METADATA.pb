@@ -1,7 +1,7 @@
 name: "Manuale"
 designer: "Eduardo Tunni"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2016-12-03"
 fonts {
   name: "Manuale"

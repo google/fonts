@@ -2,7 +2,7 @@ name: "Asap"
 designer: "Omnibus-Type"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2016-12-03"
+date_added: "2012-01-25"
 fonts {
   name: "Asap"
   style: "normal"

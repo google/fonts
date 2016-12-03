@@ -1,5 +1,5 @@
 name: "Faustina"
-designer: "Unknown"
+designer: "Alfonso Garcia""
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-12-03"

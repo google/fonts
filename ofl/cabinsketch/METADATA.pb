@@ -10,7 +10,7 @@ fonts {
   filename: "CabinSketch-Regular.ttf"
   post_script_name: "CabinSketch-Regular"
   full_name: "Cabin Sketch Regular"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+  copyright: "Copyright 2011 The Cabin Project Authors (impallari@gmail.com), with Reserved Font Name \"Cabin\", \"Cabin Sketch\"."
 }
 fonts {
   name: "Cabin Sketch"
@@ -18,8 +18,8 @@ fonts {
   weight: 700
   filename: "CabinSketch-Bold.ttf"
   post_script_name: "CabinSketch-Bold"
-  full_name: "CabinSketch Bold"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+  full_name: "Cabin Sketch Bold"
+  copyright: "Copyright 2011 The Cabin Project Authors (impallari@gmail.com), with Reserved Font Name \"Cabin\", \"Cabin Sketch\"."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "CabinCondensed-Regular.ttf"
-  post_script_name: "CabinCondensed"
+  post_script_name: "CabinCondensed-Regular"
   full_name: "Cabin Condensed"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin Condensed"
@@ -19,7 +19,7 @@ fonts {
   filename: "CabinCondensed-Medium.ttf"
   post_script_name: "CabinCondensed-Medium"
   full_name: "Cabin Condensed Medium"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin Condensed"
@@ -28,7 +28,7 @@ fonts {
   filename: "CabinCondensed-SemiBold.ttf"
   post_script_name: "CabinCondensed-SemiBold"
   full_name: "Cabin Condensed SemiBold"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin Condensed"
@@ -37,7 +37,9 @@ fonts {
   filename: "CabinCondensed-Bold.ttf"
   post_script_name: "CabinCondensed-Bold"
   full_name: "Cabin Condensed Bold"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

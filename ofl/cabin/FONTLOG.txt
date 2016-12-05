@@ -17,6 +17,15 @@ To contribute to the project contact Pablo Impallari at impallari@gmail.com
 
 ChangeLog
 
+06 Nov 2016 (Kalapi Gajjar-Bordawekar) Cabin v2.001
+- Fixes issue #7 [https://github.com/impallari/Cabin/issues/7]
+- Fixes issue #8 [https://github.com/impallari/Cabin/issues/8]
+
+27 Sep 2016 (Kalapi Gajjar-Bordawekar) Cabin v2.000 (Cabin, Cabin Italic, and Cabin Condensed)
+- Updated the glyph-set to Google Pro
+- Updated vertical metrics as per Khaled's scheme
+- Updated OpenType layout code (automated by Glyphs)
+
 11 Jan 2016 (Dave Crossland) Cabin v1.007
 - Edited TTF tables with TTX to fix NAME table and update OFL.txt
 
@@ -38,6 +47,11 @@ Acknowledgements
 
 If you make modifications be sure to add your name (N), email (E), web-address
 (if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Kalapi Gajjar-Bordawekar
+E: hello@kalapigajjar.com
+W: http://www.kalapigajjar.com
+D: Drawing fixes, character-set expansion, and font mastering
 
 N: Igino Marini
 E: mail@iginomarini.com

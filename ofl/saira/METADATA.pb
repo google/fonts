@@ -1,5 +1,5 @@
 name: "Saira"
-designer: "Hector Gatti"
+designer: "Omnibus-Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-12-03"

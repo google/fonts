@@ -8,9 +8,18 @@ fonts {
   style: "normal"
   weight: 100
   filename: "Montserrat-Thin.ttf"
-  post_script_name: "Montserrat-Hairline"
-  full_name: "Montserrat Hairline"
-  copyright: "Copyright © 2014 by Julieta Ulanovsky. All rights reserved."
+  post_script_name: "Montserrat-Thin"
+  full_name: "Montserrat Thin"
+  copyright: "Copyright 2011 - 2016 The Montserrat Project Authors (julieta.ulanovsky@gmail.com)"
+}
+fonts {
+  name: "Montserrat"
+  style: "normal"
+  weight: 200
+  filename: "Montserrat-ExtraLight.ttf"
+  post_script_name: "Montserrat-ExtraLight"
+  full_name: "Montserrat ExtraLight"
+  copyright: "Copyright 2011 - 2016 The Montserrat Project Authors (julieta.ulanovsky@gmail.com)"
 }
 fonts {
   name: "Montserrat"
@@ -19,7 +28,7 @@ fonts {
   filename: "Montserrat-Light.ttf"
   post_script_name: "Montserrat-Light"
   full_name: "Montserrat Light"
-  copyright: "Copyright © 2014 by Julieta Ulanovsky. All rights reserved."
+  copyright: "Copyright 2011 - 2016 The Montserrat Project Authors (julieta.ulanovsky@gmail.com)"
 }
 fonts {
   name: "Montserrat"
@@ -27,8 +36,26 @@ fonts {
   weight: 400
   filename: "Montserrat-Regular.ttf"
   post_script_name: "Montserrat-Regular"
-  full_name: "Montserrat"
-  copyright: "Copyright © 2014 by Julieta Ulanovsky. All rights reserved."
+  full_name: "Montserrat Regular"
+  copyright: "Copyright 2011 - 2016 The Montserrat Project Authors (julieta.ulanovsky@gmail.com)"
+}
+fonts {
+  name: "Montserrat"
+  style: "normal"
+  weight: 500
+  filename: "Montserrat-Medium.ttf"
+  post_script_name: "Montserrat-Medium"
+  full_name: "Montserrat Medium"
+  copyright: "Copyright 2011 - 2016 The Montserrat Project Authors (julieta.ulanovsky@gmail.com)"
+}
+fonts {
+  name: "Montserrat"
+  style: "normal"
+  weight: 600
+  filename: "Montserrat-SemiBold.ttf"
+  post_script_name: "Montserrat-SemiBold"
+  full_name: "Montserrat SemiBold"
+  copyright: "Copyright 2011 - 2016 The Montserrat Project Authors (julieta.ulanovsky@gmail.com)"
 }
 fonts {
   name: "Montserrat"
@@ -37,7 +64,16 @@ fonts {
   filename: "Montserrat-Bold.ttf"
   post_script_name: "Montserrat-Bold"
   full_name: "Montserrat Bold"
-  copyright: "Copyright © 2014 by Julieta Ulanovsky. All rights reserved."
+  copyright: "Copyright 2011 - 2016 The Montserrat Project Authors (julieta.ulanovsky@gmail.com)"
+}
+fonts {
+  name: "Montserrat"
+  style: "normal"
+  weight: 800
+  filename: "Montserrat-ExtraBold.ttf"
+  post_script_name: "Montserrat-ExtraBold"
+  full_name: "Montserrat ExtraBold"
+  copyright: "Copyright 2011 - 2016 The Montserrat Project Authors (julieta.ulanovsky@gmail.com)"
 }
 fonts {
   name: "Montserrat"
@@ -46,7 +82,9 @@ fonts {
   filename: "Montserrat-Black.ttf"
   post_script_name: "Montserrat-Black"
   full_name: "Montserrat Black"
-  copyright: "Copyright © 2014 by Julieta Ulanovsky. All rights reserved."
+  copyright: "Copyright 2011 - 2016 The Montserrat Project Authors (julieta.ulanovsky@gmail.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

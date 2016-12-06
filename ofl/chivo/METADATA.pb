@@ -6,11 +6,29 @@ date_added: "2011-12-07"
 fonts {
   name: "Chivo"
   style: "normal"
+  weight: 300
+  filename: "Chivo-Light.ttf"
+  post_script_name: "Chivo-Light"
+  full_name: "Chivo Light"
+  copyright: "Copyright 2016 The Chivo Project Authors (omnibus.type@gmail.com)"
+}
+fonts {
+  name: "Chivo"
+  style: "italic"
+  weight: 300
+  filename: "Chivo-LightItalic.ttf"
+  post_script_name: "Chivo-LightItalic"
+  full_name: "Chivo Light Italic"
+  copyright: "Copyright 2016 The Chivo Project Authors (omnibus.type@gmail.com)"
+}
+fonts {
+  name: "Chivo"
+  style: "normal"
   weight: 400
   filename: "Chivo-Regular.ttf"
   post_script_name: "Chivo-Regular"
-  full_name: "Chivo"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Chivo\"."
+  full_name: "Chivo Regular"
+  copyright: "Copyright 2016 The Chivo Project Authors (omnibus.type@gmail.com)"
 }
 fonts {
   name: "Chivo"
@@ -18,8 +36,26 @@ fonts {
   weight: 400
   filename: "Chivo-Italic.ttf"
   post_script_name: "Chivo-Italic"
-  full_name: "Chivo-Italic"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Chivo\"."
+  full_name: "Chivo Italic"
+  copyright: "Copyright 2016 The Chivo Project Authors (omnibus.type@gmail.com)"
+}
+fonts {
+  name: "Chivo"
+  style: "normal"
+  weight: 700
+  filename: "Chivo-Bold.ttf"
+  post_script_name: "Chivo-Bold"
+  full_name: "Chivo Bold"
+  copyright: "Copyright 2016 The Chivo Project Authors (omnibus.type@gmail.com)"
+}
+fonts {
+  name: "Chivo"
+  style: "italic"
+  weight: 700
+  filename: "Chivo-BoldItalic.ttf"
+  post_script_name: "Chivo-BoldItalic"
+  full_name: "Chivo Bold Italic"
+  copyright: "Copyright 2016 The Chivo Project Authors (omnibus.type@gmail.com)"
 }
 fonts {
   name: "Chivo"
@@ -28,7 +64,7 @@ fonts {
   filename: "Chivo-Black.ttf"
   post_script_name: "Chivo-Black"
   full_name: "Chivo Black"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Chivo\"."
+  copyright: "Copyright 2016 The Chivo Project Authors (omnibus.type@gmail.com)"
 }
 fonts {
   name: "Chivo"
@@ -36,8 +72,9 @@ fonts {
   weight: 900
   filename: "Chivo-BlackItalic.ttf"
   post_script_name: "Chivo-BlackItalic"
-  full_name: "Chivo-BlackItalic"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Chivo\"."
+  full_name: "Chivo Black Italic"
+  copyright: "Copyright 2016 The Chivo Project Authors (omnibus.type@gmail.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

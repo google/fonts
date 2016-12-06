@@ -1,5 +1,5 @@
 name: "Unna"
-designer: "Jorge de Buen Unna"
+designer: "Omnibus-Type"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-07-20"

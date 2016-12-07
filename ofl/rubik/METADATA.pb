@@ -93,7 +93,8 @@ fonts {
   full_name: "Rubik Black Italic"
   copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

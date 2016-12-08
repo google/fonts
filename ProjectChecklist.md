@@ -314,6 +314,11 @@ To use icdiff with the `git` command:
 
     # FIXME TODO
 
+### Tools Further Reading 
+
+<https://github.com/Jolg42/awesome-typography> lists many tools for working with fonts. 
+If you use actively use a tool in your work, please consider contacting @davelab6 to add it to this document. 
+
 ## Project Repository
 
 ### Github

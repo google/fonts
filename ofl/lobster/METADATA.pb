@@ -10,7 +10,7 @@ fonts {
   filename: "Lobster-Regular.ttf"
   post_script_name: "Lobster-Regular"
   full_name: "Lobster Regular"
-  copyright: "Copyright 2010 The Lobster Font Authors (impallari@gmail.com), with Reserved Font Name Lobster."
+  copyright: "Copyright 2010 The Lobster Font Authors (impallari@gmail.com), with Reserved Font Name \"Lobster\"."
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

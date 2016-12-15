@@ -9,11 +9,12 @@ fonts {
   weight: 400
   filename: "PressStart2P-Regular.ttf"
   post_script_name: "PressStart2P-Regular"
-  full_name: "Press Start 2P"
-  copyright: "Copyright (c) 2012, Cody \"CodeMan38\" Boisclair (cody@zone38.net), with Reserved Font Name \"Press Start 2P\""
+  full_name: "Press Start 2P Regular"
+  copyright: "Copyright 2012 The Press Start 2P Project Authors (cody@zone38.net), with Reserved Font Name \"Press Start 2P\""
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

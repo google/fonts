@@ -9,10 +9,10 @@ fonts {
   weight: 400
   filename: "Gabriela-Regular.ttf"
   post_script_name: "Gabriela-Regular"
-  full_name: "Gabriela"
-  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Gabriela'"
+  full_name: "Gabriela Regular"
+  copyright: "Copyright 2013 The Gabriela Project Authors (edu@tipo.net.ar), with Reserved Font Name \"Gabriela\"."
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"

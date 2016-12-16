@@ -10,22 +10,32 @@ any derivative works.
 Basic Font Information
 ----------------------
 
-Didact Gothic is a sans-serif font designed to present each letter in its
-simplest form. This makes it very suitable for literacy efforts.
+Didact Gothic is a sans-serif font designed to present each letter in the
+form most often used in elementary classrooms.  This makes it very suitable
+for literacy efforts.
 
 ChangeLog
 ---------
-2010-12-22	Added Greek range; kerned r + round letters; improved Icelandic
-2010-11-23	Improved Cyrillic breve; added extended Cyrillic
-2010-11-19	Added Cyrillic range
-2010-10-27	Initial release
+2016-10-14 	v.2.000 Design improvements across GF Latin Plus, and GF Cyrillic Plus (Cyreal)
+2013-01-25  Major stroke-width improvements in shoulders. Improved esszet,
+            eth, thorn, slashed o. Added space between stroke and dot of
+	    question and exclamation marks for legibility at low point-sizes.
+	    Narrowed Cyrillic lowercase ef.
+2011-08-25  Added a few glyphs to convince Fontaine that I support Pan-
+            African Latin. Re-hinted using TTFAutohint.
+2011-04-29  Completely re-spaced and re-kerned entire font. Thanks, Google!
+2010-12-22  Added Greek range; kerned r + round letters; improved Icelandic
+2010-11-23  Improved Cyrillic breve; added extended Cyrillic
+2010-11-19  Added Cyrillic range
+2010-10-27  Initial release
 
 
 Information for Contributors
 ----------------------------
 
-This font is licensed under the Open Font License (OFL).  There are no Reserved
-Font Names declared for the Didact Gothic font. 
+This font is licensed under the Open Font License (OFL).  There is no Reserved
+Name clause for the Didact Gothic font, enabling the free conversion between
+font formats.
 
 You can read more about the OFL here:
 http://scripts.sil.org/OFL

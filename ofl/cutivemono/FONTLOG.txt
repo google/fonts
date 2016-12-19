@@ -17,25 +17,22 @@ expanded to support other scripts.
 More specifically, this release supports the following 
 Unicode ranges: Latin-1
 
-There are 3 Source files:
-
-
-1. FONT.ufo Original Source Files in UFO format
-
-2. FONT.sfd Original Source Files for FontForge
-
-3. FONT.otf Original Source Files in OpenType format
-
-To contribute to the project contact Vernon Adams
-at vern@newtypography.co.uk
 
 ChangeLog
+
+14 September 2016 Marc Foley Cutive Mono v1.100
+- Removed overlap in ‘Q’
+- Converted sources to Glyphs
+
 
 27th March 2012 Vernon Adams Cutive v1.001
 - Initial release
 
 23rd October 2012 Vernon Adams CutiveMono v1.001
 - Initial Release
+
+11th August 2016 Marc Foley CutiveMono v1.101
+- Fixed overlapping contour issue in 'Q'
 
 Acknowledgements
 

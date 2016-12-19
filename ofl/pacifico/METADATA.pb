@@ -7,10 +7,12 @@ fonts {
   name: "Pacifico"
   style: "normal"
   weight: 400
-  filename: "Pacifico.ttf"
+  filename: "Pacifico-Regular.ttf"
   post_script_name: "Pacifico-Regular"
   full_name: "Pacifico Regular"
-  copyright: "Copyright (c) 2011 by Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Pacifico'. All rights reserved."
+  copyright: "Copyright 2011 The Pacifico Project Authors (contact@sansoxygen.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

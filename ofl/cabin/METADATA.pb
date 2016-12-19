@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Cabin-Regular.ttf"
   post_script_name: "Cabin-Regular"
-  full_name: "Cabin Regular"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)."
+  full_name: "Cabin"
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin"
@@ -19,7 +19,7 @@ fonts {
   filename: "Cabin-Italic.ttf"
   post_script_name: "Cabin-Italic"
   full_name: "Cabin Italic"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin"
@@ -28,7 +28,7 @@ fonts {
   filename: "Cabin-Medium.ttf"
   post_script_name: "Cabin-Medium"
   full_name: "Cabin Medium"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin"
@@ -37,7 +37,7 @@ fonts {
   filename: "Cabin-MediumItalic.ttf"
   post_script_name: "Cabin-MediumItalic"
   full_name: "Cabin Medium Italic"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin"
@@ -46,7 +46,7 @@ fonts {
   filename: "Cabin-SemiBold.ttf"
   post_script_name: "Cabin-SemiBold"
   full_name: "Cabin SemiBold"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin"
@@ -55,7 +55,7 @@ fonts {
   filename: "Cabin-SemiBoldItalic.ttf"
   post_script_name: "Cabin-SemiBoldItalic"
   full_name: "Cabin SemiBold Italic"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin"
@@ -64,7 +64,7 @@ fonts {
   filename: "Cabin-Bold.ttf"
   post_script_name: "Cabin-Bold"
   full_name: "Cabin Bold"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
   name: "Cabin"
@@ -73,7 +73,9 @@ fonts {
   filename: "Cabin-BoldItalic.ttf"
   post_script_name: "Cabin-BoldItalic"
   full_name: "Cabin Bold Italic"
-  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)."
+  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

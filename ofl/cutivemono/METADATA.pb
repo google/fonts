@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "CutiveMono-Regular.ttf"
   post_script_name: "CutiveMono-Regular"
-  full_name: "Cutive Mono"
-  copyright: "Copyright (c) 2012 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Cutive'"
+  full_name: "Cutive Mono Regular"
+  copyright: "Copyright 2012 The Cutive Project Authors (vern@newtypography.co.uk)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

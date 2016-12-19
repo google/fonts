@@ -7,10 +7,10 @@ fonts {
   name: "Metrophobic"
   style: "normal"
   weight: 400
-  filename: "Metrophobic.ttf"
-  post_script_name: "Metrophobic"
-  full_name: "Metrophobic"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Metrophobic'. All rights reserved."
+  filename: "Metrophobic-Regular.ttf"
+  post_script_name: "Metrophobic-Regular"
+  full_name: "Metrophobic Regular"
+  copyright: "Copyright 2011 The Metrophobic Project Authors (contact@sansoxygen.com), with Reserved Font Name \'Metrophobic\'."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

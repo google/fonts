@@ -7,11 +7,12 @@ fonts {
   name: "Anton"
   style: "normal"
   weight: 400
-  filename: "Anton.ttf"
-  post_script_name: "Anton"
-  full_name: "Anton"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Anton'. All rights reserved."
+  filename: "Anton-Regular.ttf"
+  post_script_name: "Anton-Regular"
+  full_name: "Anton Regular"
+  copyright: "Copyright 2011 The Anton Project Authors"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

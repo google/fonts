@@ -7,10 +7,12 @@ fonts {
   name: "Bangers"
   style: "normal"
   weight: 400
-  filename: "Bangers.ttf"
+  filename: "Bangers-Regular.ttf"
   post_script_name: "Bangers-Regular"
-  full_name: "Bangers"
-  copyright: "Copyright (c) 2011 by Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Bangers'. All rights reserved."
+  full_name: "Bangers Regular"
+  copyright: "Copyright 2010 The Bangers Project Authors (contact@sansoxygen.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

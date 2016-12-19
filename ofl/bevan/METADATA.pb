@@ -7,10 +7,12 @@ fonts {
   name: "Bevan"
   style: "normal"
   weight: 400
-  filename: "Bevan.ttf"
-  post_script_name: "Bevan"
-  full_name: "Bevan"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Bevan'. All rights reserved."
+  filename: "Bevan-Regular.ttf"
+  post_script_name: "Bevan-Regular"
+  full_name: "Bevan Regular"
+  copyright: "Copyright 2016 The Bevan Project Authors (www.sansoxygen.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

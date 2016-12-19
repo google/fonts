@@ -9,9 +9,10 @@ fonts {
   weight: 400
   filename: "AlfaSlabOne-Regular.ttf"
   post_script_name: "AlfaSlabOne-Regular"
-  full_name: "Alfa Slab One"
-  copyright: "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Alfa Slab One\""
+  full_name: "Alfa Slab One Regular"
+  copyright: "Copyright 2016 The Alfa Slab One Project Authors (http://www.jmsole.cl | info@jmsole.cl), with Reserved Font Name \"Alfa Slab\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

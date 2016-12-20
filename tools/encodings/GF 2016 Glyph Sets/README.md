@@ -130,24 +130,25 @@ Structure and Hierarchy of Glyph Sets for Cyrillic:
 
 1. **Core** is the existing default set, a Basic Cyrillic
 3. **Plus** includes added language coverage for Slavic, Non-Slavic, and Uralic languages
-3. **Pro** for Headline typefaces, with language support for historic Cyrillic and some Non-Slavic languages
+3. **Pro** for Headline typefaces, with language support more Non-Slavic languages
 4. **Expert** for text and workhorse typefaces, includes Small Caps
+5. **Historic** with support for historic Cyrillic
 
 ### GF Cyrillic Core
 
 **Supports the following Cyrillic languages:** Balkar, Belarusian (Cyrillic), Bosnian (Cyrillic), Bulgarian, Croatian (Cyrillic), Erzya, Karachay, Kumyk, Macedonian, Moksha, Montenigrin, Nanai, Nogai, Russian, Rusyn, Serbian (Cyrillic), Ukrainian.
 
-### GF Cyrillic Plus (184 + 40 localized variants for 228 total)
+### GF Cyrillic Plus (182 + 40 localized variants for 226 total)
 
-**Supports the following Cyrillic languages:** Adyghe, Agul, Altay, Avar, Azerbaijani (Cyrillic), Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Bulgarian, Buryat, Chechen, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargin, Dungan, Erzya, Gagauz (Cyrillic), Ingush, Kabardian, Kalmyk, Karachay, Karakalpak, Kazakh, Khakas (Cyrillic), Khinalugh, Komi, Kumyk, Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Macedonian, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin, Nanai, Nogai, Ossetian, Russian, Rusyn, Rutul, Sakha/Yakut, Serbian (Cyrillic), Tabasaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Turkmen, Tuvan, Udi, Udmurt, Ukrainian, Uyghur (Cyrillic), Uzbek (Cyrillic), Yukaghir (Northern and Southern).
+**Supports the following Cyrillic languages:** Adyghe, Agul, Altay, Avar, Azerbaijani (Cyrillic), Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Bulgarian, Buryat, Chechen, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargin, Dungan, Erzya, Gagauz (Cyrillic), Ingush, Kabardian, Kalmyk, Karachay, Karakalpak, Kazakh, Khakas (Cyrillic), Khinalugh, Komi, Kumyk, Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Macedonian, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin, Nanai, Nogai, Ossetian, Russian, Rusyn, Rutul, Serbian (Cyrillic), Tabasaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Turkmen, Tuvan, Udi, Udmurt, Ukrainian, Uyghur (Cyrillic), Uzbek (Cyrillic), Yukaghir (Northern and Southern).
 
 Includes currencies: ₮, ₴, ₸.
 
 The ruble sign (₽ U+20BD) is not included, since it is already present in the Latin Plus set.
 
-### GF Cyrillic Pro (+58 glyphs for 286 glyphs total)
+### GF Cyrillic Pro (+58 glyphs for 284 glyphs total)
 
-Additional characters in this set provide support for the following languages: Abkhaz, Chukchi, Enets, Itelmen, Nenets, Orok, Kanty, Kildin Sami, Tati
+Additional characters in this set provide support for the following languages: Abkhaz, Chukchi, Enets, Itelmen, Nenets, Orok, Kanty, Kildin Sami, Tati, Sakha/Yakut
 
 **Full list of supported Cyrillic languages:** Abkhaz, Agul, Altay Enets, Azerbaijani (Cyrillic), Balkar Adyghe, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Bulgarian Avar, Chukchi, Croatian (Cyrillic), Dungan, Erzya Buryat, Gagauz (Cyrillic), Ingush, Itelmen, Kabardian, Kalmyk, Kanty, Karachay Chechen, Karakalpak, Kazakh, Khakas (Cyrillic), Khinalugh, Kildin, Komi, Kumyk Chuvash, Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Macedonian Crimean Tatar (Cyrillic), Mari (Hill and Meadow), Moksha Dargin, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin, Nanai, Nenets, Nogai, Orok, Ossetian, Russian, Rusyn, Rutul, Sakha/Yakut, Sami, Serbian (Cyrillic), Tabasaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tati, Turkmen, Tuvan, Udi, Udmurt, Ukrainian, Uyghur (Cyrillic), Uzbek (Cyrillic), Yukaghir (Northern and Southern).
 
@@ -162,7 +163,8 @@ See [RECOMMENDED.md](RECOMMENDED.md)
 ### Acknowledgements:
 
 GF Glyph Sets defined by Alexei Vanyashin (@alexeiva) and Kalapi Gajjar (@kalapi) from 2016-06-27 to 2016-10-11, with input from
-Dave Crossland, 
+Dave Crossland,
+Denis Jacquerye,
 Frank Grießhammer, 
 Georg Seifert, 
 Gunnar Vilhjálmsson, 

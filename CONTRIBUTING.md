@@ -16,7 +16,7 @@ CONTRIBUTORS is the official list of people who can contribute (and typically ha
 
 If you would like to include a font family in the Google Fonts collection we'll be very happy to include it, if it meets the following criteria:
 
-* The typeface design is original, or a legitimate revival of a design in the public domain, and of good quality. You can get the quality reviewed by posting review requests in the [googlefonts-discuss](https://groups.google.com/forum/#!forum/googlefonts-discuss) group, and the [typedrawers](http://typedrawers.com/categories/critiques%E2%80%94type-design) review forum.
+* The typeface design is original, or a legitimate revival of a design in the public domain, and of good quality. The Google Design team curates the overall Google Fonts collection and decides if fonts are of good quality. You can get general reviews of your project from the wider international type community during development by posting review requests in the [googlefonts-discuss](https://groups.google.com/forum/#!forum/googlefonts-discuss) group, and the [typedrawers](http://typedrawers.com/categories/critiques%E2%80%94type-design) review forum. 
 * The project is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL), with no Reserved Font Name ([why](https://github.com/simoncozens/silson/issues/1))
 * The project is developed on Github or similar, with complete corresponding sources, [open](http://producingoss.com) to public participation, and actively maintained. Sources mean the fonts are available in the preferred form of modification, plus reproducible build instructions or scripts
 * All font files are available in TTF format, with hinting (such as with [ttfautohint](http://www.freetype.org/ttfautohint/))
@@ -29,4 +29,4 @@ When your project meets these criteria, please [file an issue](https://github.co
 (In the future we hope to provide guidance on making pull requests directly, but since we carefully check the technical aspects of the fonts, it's better to work with us on your upstream project.)
 
 Google Fonts may provide financial or design assistance for some type projects. 
-If you would like to discuss this, please [get in touch](https://github.com/google/fonts/issues/new)
+If you would like to discuss this, please mention that you would like someone to contact you privately when filing an issue. 

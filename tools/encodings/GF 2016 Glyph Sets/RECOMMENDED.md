@@ -105,6 +105,15 @@ sub @Uppercase germandbls' @Uppercase by germandbls.calt;
 sub @Uppercase @Uppercase germandbls' by germandbls.calt;
 ```
 
+### Duodecimal(dozenal) notation
+
+Add these glyphs for single-digit representations of numbers 10 and 11.
+
+```
+U+218A (turned digit two) 
+U+218B (turned digit three)
+```
+
 Recommended links for further reading: 
 
  * [How to draw a Capital Sharp S](https://typography.guru/journal/how-to-draw-a-capital-sharp-s-r18/) by Ralf Herrmann
@@ -112,7 +121,6 @@ Recommended links for further reading:
  * [Localize Your Font: German Capital Sharp S](https://www.glyphsapp.com/tutorials/localize-your-font-german-capital-sharp-s) by Rainer Erich Scheichelbauer  
 
 N.B. The question of German Uppercase Capital Sharp S is still highly debatable, and its usage hasn't passed into the official orthography. 
-
 
 ### Recommended links: ###
 

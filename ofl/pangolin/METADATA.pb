@@ -1,0 +1,20 @@
+name: "Pangolin"
+designer: "Kevin Burke"
+license: "OFL"
+category: "HANDWRITING"
+date_added: "2017-01-11"
+fonts {
+  name: "Pangolin"
+  style: "normal"
+  weight: 400
+  filename: "Pangolin-Regular.ttf"
+  post_script_name: "Pangolin-Regular"
+  full_name: "Pangolin Regular"
+  copyright: "Copyright 2016 The Pangolin Project Authors (github.com/googlefonts/pangolin)"
+}
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

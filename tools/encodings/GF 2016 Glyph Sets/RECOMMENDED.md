@@ -75,10 +75,11 @@ circumflexcomb_hookabovecomb
 circumflexcomb_tildecomb
 ```
 
+*Further reading:* [Customized Vietnamese accents](Vietnamese/README.md)
 
 ### Polish Kreska ###
 
-Polish Kreska shares the same unicode as the acute accent, however it is designed differently. Explore Adam Twardoch's guidelines on [Polish Kreska](http://www.twardoch.com/download/polishhowto/kreska.html)
+Polish Kreska shares the same unicode as the acute accent, however it is designed differently. Explore Adam Twardoch's guidelines on [Polish Kreska](2)
 
 Here is a list of additional glyphs for better Polish support:
 
@@ -93,12 +94,25 @@ The Google Lating Plus encoding includes **ẞ Germandbls U+1E9E**.
 Does your font include Small Capitals?
 For better compatibility you may consider adding the germandbls.calt glyph to access ẞ U+1E9E in Small Caps fonts. In Glyphs go to *Glyph > Add Glyphs*, and paste this code:
 
-	Germandbls=germandbls.calt
+```
+Germandbls=germandbls.calt
+```
 	
 Add this calt feature:
 
-	sub @Uppercase germandbls' @Uppercase by germandbls.calt;
-	sub @Uppercase @Uppercase germandbls' by germandbls.calt;
+```
+sub @Uppercase germandbls' @Uppercase by germandbls.calt;
+sub @Uppercase @Uppercase germandbls' by germandbls.calt;
+```
+
+### Duodecimal(dozenal) notation
+
+Add these glyphs for single-digit representations of numbers 10 and 11.
+
+```
+U+218A (turned digit two) 
+U+218B (turned digit three)
+```
 
 Recommended links for further reading: 
 
@@ -108,9 +122,9 @@ Recommended links for further reading:
 
 N.B. The question of German Uppercase Capital Sharp S is still highly debatable, and its usage hasn't passed into the official orthography. 
 
-
 ### Recommended links: ###
 
 Pablo Impallari's [Latin encoding](https://github.com/impallari/Impallari-Fontlab-Encodings/tree/master/Impallari%20Latin)
 
 [1]:https://www.microsoft.com/typography/developers/fdsspec/spaces.htm
+[2]:http://www.twardoch.com/download/polishhowto/kreska.html

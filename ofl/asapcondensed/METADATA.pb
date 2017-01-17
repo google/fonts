@@ -1,5 +1,5 @@
 name: "Asap Condensed"
-designer: "Pablo Cosgaya"
+designer: "Omnibus-Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-12-07"

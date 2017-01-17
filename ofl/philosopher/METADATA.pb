@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Philosopher-Regular.ttf"
-  post_script_name: "Philosopher"
-  full_name: "Philosopher"
-  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
+  post_script_name: "Philosopher-Regular"
+  full_name: "Philosopher Regular"
+  copyright: "Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)"
 }
 fonts {
   name: "Philosopher"
@@ -19,7 +19,7 @@ fonts {
   filename: "Philosopher-Italic.ttf"
   post_script_name: "Philosopher-Italic"
   full_name: "Philosopher Italic"
-  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
+  copyright: "Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)"
 }
 fonts {
   name: "Philosopher"
@@ -28,7 +28,7 @@ fonts {
   filename: "Philosopher-Bold.ttf"
   post_script_name: "Philosopher-Bold"
   full_name: "Philosopher Bold"
-  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
+  copyright: "Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)"
 }
 fonts {
   name: "Philosopher"
@@ -37,8 +37,10 @@ fonts {
   filename: "Philosopher-BoldItalic.ttf"
   post_script_name: "Philosopher-BoldItalic"
   full_name: "Philosopher Bold Italic"
-  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
+  copyright: "Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)"
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
+subsets: "menu"
+subsets: "vietnamese"

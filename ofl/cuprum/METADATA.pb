@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Cuprum-Regular.ttf"
   post_script_name: "Cuprum-Regular"
-  full_name: "Cuprum"
-  copyright: "Copyright (c) 2006-2012 by Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\""
+  full_name: "Cuprum Regular"
+  copyright: "Copyright 2010 The Cuprum Project Authors (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\"."
 }
 fonts {
   name: "Cuprum"
@@ -19,7 +19,7 @@ fonts {
   filename: "Cuprum-Italic.ttf"
   post_script_name: "Cuprum-Italic"
   full_name: "Cuprum Italic"
-  copyright: "Copyright (c) 2006-2012 by Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\""
+  copyright: "Copyright 2010 The Cuprum Project Authors (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\"."
 }
 fonts {
   name: "Cuprum"
@@ -28,7 +28,7 @@ fonts {
   filename: "Cuprum-Bold.ttf"
   post_script_name: "Cuprum-Bold"
   full_name: "Cuprum Bold"
-  copyright: "Copyright (c) 2006-2012 by Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\""
+  copyright: "Copyright 2010 The Cuprum Project Authors (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\"."
 }
 fonts {
   name: "Cuprum"
@@ -37,9 +37,11 @@ fonts {
   filename: "Cuprum-BoldItalic.ttf"
   post_script_name: "Cuprum-BoldItalic"
   full_name: "Cuprum Bold Italic"
-  copyright: "Copyright (c) 2006-2012 by Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\""
+  copyright: "Copyright 2010 The Cuprum Project Authors (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\"."
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

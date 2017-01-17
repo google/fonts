@@ -62,6 +62,13 @@ at lemonad@jovanny.ru
 
 ChangeLog
 
+14 October 2016 (Font Raisins Team) v.2.000
+— Expanded glyph set to GF Cyrillic Plus
+— Ported sources files to Glyphs
+— Added kerning classes, compressed and optimised kerning
+— Added glyphs ˚⁴∕⁄ required for Google Latin support
+— Added Vietnamese support (by Nhung Nguyen)
+
 31 March 2012 (Jovanny Lemonad) Cuprum v1.002
 - Release of 4 style family with Latin, Extended Latin
  and Cyrillic character sets.
@@ -78,3 +85,10 @@ description (D). This list is in alphabetical order.
 N: Jovanny Lemonad
 E: lemonad@jovanny.ru
 D: Original Type Designer
+
+N: Font Raisins Team
+D: Expansion to GF Cyrillic Plus
+
+N: Nhung Nguyen
+E: vns.wonderland@gmail.com
+D: Adding Vietnamese support 

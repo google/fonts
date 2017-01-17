@@ -1,5 +1,5 @@
 name: "Rubik"
-designer: "Hubert and Fischer"
+designer: "Hubert and Fischer, Meir Sadan, Cyreal"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-07-22"

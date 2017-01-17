@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "AmaticSC-Regular.ttf"
   post_script_name: "AmaticSC-Regular"
-  full_name: "Amatic SC"
-  copyright: "Copyright 2011, 2015 vernon adams (vern@newtypography.co.uk)"
+  full_name: "Amatic SC Regular"
+  copyright: "Copyright 2015 The Amatic SC Project Authors (contact@sansoxygen.com)"
 }
 fonts {
   name: "Amatic SC"
@@ -19,8 +19,10 @@ fonts {
   filename: "AmaticSC-Bold.ttf"
   post_script_name: "AmaticSC-Bold"
   full_name: "Amatic SC Bold"
-  copyright: "Copyright 2011, 2015 vernon adams (vern@newtypography.co.uk)"
+  copyright: "Copyright 2015 The Amatic SC Project Authors (contact@sansoxygen.com)"
 }
-subsets: "menu"
+subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

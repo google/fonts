@@ -9,8 +9,8 @@ fonts {
   weight: 200
   filename: "YanoneKaffeesatz-ExtraLight.ttf"
   post_script_name: "YanoneKaffeesatz-ExtraLight"
-  full_name: "Yanone Kaffeesatz Extra Light"
-  copyright: "Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)"
+  full_name: "Yanone Kaffeesatz ExtraLight"
+  copyright: "Copyright 2010, The Yanone Kaffeesatz Project Authors (post@yanone.de)"
 }
 fonts {
   name: "Yanone Kaffeesatz"
@@ -19,7 +19,7 @@ fonts {
   filename: "YanoneKaffeesatz-Light.ttf"
   post_script_name: "YanoneKaffeesatz-Light"
   full_name: "Yanone Kaffeesatz Light"
-  copyright: "Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)"
+  copyright: "Copyright 2010, The Yanone Kaffeesatz Project Authors (post@yanone.de)"
 }
 fonts {
   name: "Yanone Kaffeesatz"
@@ -27,8 +27,8 @@ fonts {
   weight: 400
   filename: "YanoneKaffeesatz-Regular.ttf"
   post_script_name: "YanoneKaffeesatz-Regular"
-  full_name: "Yanone Kaffeesatz"
-  copyright: "Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)"
+  full_name: "Yanone Kaffeesatz Regular"
+  copyright: "Copyright 2010, The Yanone Kaffeesatz Project Authors (post@yanone.de)"
 }
 fonts {
   name: "Yanone Kaffeesatz"
@@ -37,9 +37,10 @@ fonts {
   filename: "YanoneKaffeesatz-Bold.ttf"
   post_script_name: "YanoneKaffeesatz-Bold"
   full_name: "Yanone Kaffeesatz Bold"
-  copyright: "Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)"
+  copyright: "Copyright 2010, The Yanone Kaffeesatz Project Authors (post@yanone.de)"
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

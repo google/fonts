@@ -9,8 +9,10 @@ fonts {
   weight: 400
   filename: "Alice-Regular.ttf"
   post_script_name: "Alice-Regular"
-  full_name: "Alice"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Alice\" and \"Alice Regular\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  full_name: "Alice Regular"
+  copyright: "Copyright 2011 The Alice Project Authors (contact@cyreal.org) with Reserved Font Name \"Alice\""
 }
-subsets: "menu"
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
+subsets: "menu"

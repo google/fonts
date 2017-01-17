@@ -1,5 +1,5 @@
 name: "Alef"
-designer: "Hagilda and Mushon Zer-Aviv"
+designer: "Hagilda, Mushon Zer-Aviv"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-05-21"

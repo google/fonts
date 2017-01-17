@@ -9,11 +9,12 @@ fonts {
   weight: 400
   filename: "Kurale-Regular.ttf"
   post_script_name: "Kurale-Regular"
-  full_name: "Kurale"
-  copyright: "Copyright (c) 2013, 2014, 2015 Eduardo Tunni (http://www.tipo.net.ar)"
+  full_name: "Kurale Regular"
+  copyright: "Copyright 2013 The Kurale Project Authors (edu@tipo.net.ar)"
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

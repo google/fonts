@@ -9,8 +9,11 @@ fonts {
   weight: 400
   filename: "Prata-Regular.ttf"
   post_script_name: "Prata-Regular"
-  full_name: "Prata"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Prata\" and \"Prata Regular\"."
+  full_name: "Prata Regular"
+  copyright: "Copyright 2011 The Prata Project Authors (contact@cyreal.org)"
 }
-subsets: "menu"
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
+subsets: "menu"
+subsets: "vietnamese"

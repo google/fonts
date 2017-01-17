@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Podkova-Regular.ttf"
   post_script_name: "Podkova-Regular"
-  full_name: "Podkova"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org), with Reserved Font Name \"Podkova\"."
+  full_name: "Podkova Regular"
+  copyright: "Copyright (c) 2011 the Podkova Project authors (contact@cyreal.org)."
 }
 fonts {
   name: "Podkova"
@@ -19,7 +19,9 @@ fonts {
   filename: "Podkova-Bold.ttf"
   post_script_name: "Podkova-Bold"
   full_name: "Podkova Bold"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org), with Reserved Font Name \"Podkova\"."
+  copyright: "Copyright (c) 2011 the Podkova Project authors (contact@cyreal.org)."
 }
-subsets: "menu"
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
+subsets: "menu"

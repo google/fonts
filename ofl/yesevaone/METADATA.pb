@@ -8,11 +8,13 @@ fonts {
   style: "normal"
   weight: 400
   filename: "YesevaOne-Regular.ttf"
-  post_script_name: "YesevaOne"
-  full_name: "Yeseva One"
-  copyright: "Copyright (c) 2011-2012, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Yeseva'"
+  post_script_name: "YesevaOne-Regular"
+  full_name: "Yeseva One Regular"
+  copyright: "Copyright 2012 The Yeseva One Project Authors (lemonad@jovanny.ru), with Reserved Font Name \"Yeseva\"."
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

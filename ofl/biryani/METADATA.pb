@@ -1,5 +1,5 @@
 name: "Biryani"
-designer: "Dan Reynolds and Mathieu Réguer"
+designer: "Dan Reynolds, Mathieu Réguer"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-04-22"

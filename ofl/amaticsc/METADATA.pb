@@ -1,5 +1,5 @@
 name: "Amatic SC"
-designer: "Vernon Adams"
+designer: "Vernon Adams, Ben Nathan, Thomas Jockin"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-10-12"

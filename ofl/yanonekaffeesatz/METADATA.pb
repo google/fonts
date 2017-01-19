@@ -1,5 +1,5 @@
 name: "Yanone Kaffeesatz"
-designer: "Multiple Designers"
+designer: "Yanone, Cyreal"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2010-05-11"

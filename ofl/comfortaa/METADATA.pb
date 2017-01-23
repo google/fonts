@@ -1,8 +1,8 @@
 name: "Comfortaa"
-designer: "Johan Aakerlund"
+designer: "Unknown"
 license: "OFL"
-category: "DISPLAY"
-date_added: "2011-08-10"
+category: "SANS_SERIF"
+date_added: "2017-01-23"
 fonts {
   name: "Comfortaa"
   style: "normal"
@@ -32,6 +32,7 @@ fonts {
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
+subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

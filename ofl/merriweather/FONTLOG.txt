@@ -47,6 +47,15 @@ To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
+17 Jan 2017 (Marc Foley)
+* Added CrystalType Vietnamese extension
+* Added Alexieva Cyrillic extension
+* Updated font metadata
+
+28 Jan 2016 (Dave Crossland) Merriweather v1.584
+* Corrected name table metadata (especially in OTFs)
+* Improved hinting (especially for cyrillic) with ttfautohint v1.5
+
 25 Jan 2016 (Dave Crossland) Merriweather v1.583
 - Fix components in some ligatures and extended latin glyphs
 
@@ -120,3 +129,7 @@ N: Eben Sorkin
 E: sorkineben@gmail.com
 W: www.sorkintype.com
 D: Designer and Mastering
+
+N: Marc Foley
+E: m.foley.88@gmail.com
+D: Engineer

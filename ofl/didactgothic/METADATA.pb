@@ -1,5 +1,5 @@
 name: "Didact Gothic"
-designer: "Daniel Johnson"
+designer: "Daniel Johnson, Cyreal"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-05-04"

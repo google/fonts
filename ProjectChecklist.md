@@ -332,6 +332,7 @@ There are many good guides for learning how to use Github around the web, includ
 * <http://nvie.com/posts/a-successful-git-branching-model>, an essay about using Git for ongoing project management.
 * <https://www.zenhub.com/blog/best-practices-for-github-issues>, on issue management
 * [Articles about Github in Wired.com](https://www.google.com/search?q=github+everything+site:wired.com)
+* <https://github.com/sindresorhus/refined-github> adds power user features to the website
 
 Github provides a proprietary-freeware desktop Git GUI, <https://desktop.github.com>. 
 If you use Glyphs, the [github.com/simoncozens/GlyphsGit](https://github.com/simoncozens/GlyphsGit) plugin changes the 'save' function to integrate with Git, so that as you save like normal within the app, you are prompted for a git commit message.

@@ -23,7 +23,9 @@ Google Fonts Greek Glyphs Sets
 
 ## General Use
 
-### 1. GF Greek Core, 77 glyphs total (+ 43 Optional Small Cap Variants)
+### 1. GF Greek Core, 77 glyphs total 
+
+> + 43 Optional Small Cap Glyphs
 
 Basic Monotonic Greek
 
@@ -32,24 +34,24 @@ Basic Monotonic Greek
 * Punctuation ` · ; `
 * Greek numeral signs or keraia ` ʹ ͵ `
 * Accents `  ́ ΅ `
-* Kai symbol ` ϗ, Ϗ `
+* Kai symbol ` ϗ Ϗ `
 
 ### 2. GF Greek Plus, 234 glyphs total 
 
-> +122 Optional Small Cap Variants
-
+> +122 Optional Small Cap Glyphs
+> 
 Basic Polytonic Greek
 
 * Polytonic UC `ἈἉἊἋἌἍἎἏἘἙἚἛἜἝἨἩἪἫἬἭἮἯἸἹἺἻἼἽἾἿὈὉὊὋὌὍὙὛὝὟὨὩὪὫὬὭὮὯᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾸᾹᾺΆᾼῈΈῊΉῌῘῙῚΊῨῩῪΎῬῸΌῺΏῼ `
 * Polytonic LC ` ἀἁἂἃἄἅἆἇἐἑἒἓἔἕἠἡἢἣἤἥἦἧἰἱἲἳἴἵἶἷὀὁὂὃὄὅὐὑὒὓὔὕὖὗὠὡὢὣὤὥὦὧὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧᾰᾱᾲᾳᾴᾶᾷιῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ `
-* Accents `  ́ `  ͂ `
+* Accents ```   ́ `  ͂ `  ```
 * Breathings `  ̔  ̓ `
 * Combinations ` ῁ ῍ ῎ ῏ ῝ ῞ ῟ `
 * Diactritics `  ͅ ι `
 * Punctuation `  ̓ `
 * Combining Marks ` ͂ ̓ ̈́ ͅ `
 
-### 3. GF Greek Expert, 159 glyphs total
+### 3. GF Greek Expert, 163 glyphs total
 
 Small Caps for Core and Plus sets, and Archaic Numerals 
 

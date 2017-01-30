@@ -1,0 +1,124 @@
+FONTLOG for the Encode fonts
+
+This file provides detailed information on the Encode Font Software.
+
+This information should be distributed along with the Encode fonts and any
+derivative works.
+
+Basic Font Information
+
+The Encode Sans family is a versatile workhorse. Featuring a huge range of weights and widths, it's ready for all kind of typographic challenges.
+It also includes Tabular and Old Style figres, as well as full set of Small Caps and other Open Type features.
+
+Designed by Pablo Impallari and Andres Torresi, Encode Sans covers all 104 Latin Languages.
+
+Documentation can be found at www.impallari.com
+
+Join the project at: http://www.impallari.com/projects/overview/encode
+
+To contribute to the project contact Pablo Impallari at impallari@gmail.com 
+
+30 Jane 2017 (Marc Foley) Encode v2.00
+- Vietnamese added
+
+27 Mar 2014 (Pablo Impallari, Andres Torresi) Encode v1.0
+- Completed! Woah!!!
+
+20 Dic 2013 (Pablo Impallari, Andres Torresi) Encode (Beta) v0.60
+- More refining of the extreme masters
+- The interpolation axis has been re-arranged, leaving only the extreme masters
+- There are still a few misaligned diacritics
+
+14 Dic 2013 (Pablo Impallari, Andres Torresi) Encode (Beta) v0.55
+- We added new masters at the extremes, now we are working with 8 masters
+- And started refining those new masters
+
+21 Nov 2013 (Pablo Impallari, Andres Torresi) Encode (Beta) v0.52
+- Improved Uppercase proportions
+- Improved spacing
+- Changed many of the uppercase glyphs
+- Changed the lowercase /t
+- Fixed a bug in /six.denominaton and /seven.denominator
+- Fixed a few bugs in the diacritics, fractions, etc.
+
+13 May 2013 (Pablo Impallari) Encode (Beta) v0.42
+- Another round of iteration over all the glyphs
+- Improved proportions in all masters
+- New spacing scheme across the entire family
+- Charset Completed 
+- OT features added
+
+30 March 2013 (Pablo Impallari) Encode (Beta) v0.39
+- Another round of iteration over the numbers and some of the lowercase
+- The Compressed styles are now more Compressed
+- The Wide styles are now more Wider
+- All weights are now better distributed across the entire family
+
+24 March 2013 (Pablo Impallari) Encode (Beta) v0.38
+- Another round of iteration over all the glyphs
+- Improved proportions in all masters
+- Numbers are now present in all masters
+
+18 January 2013 (Pablo Impallari) Encode (Beta) v0.37
+- Another round of iteration over all the glyphs
+- Improved proportions of the Uppercase glyphs
+- Added the first version of the Numbers
+
+12 January 2013 (Pablo Impallari) Encode (Beta) v0.36
+- Another round of iteration over all the glyphs
+- Added basic punctuation
+
+21 December 2012 (Pablo Impallari) Encode (Beta) v0.34
+- Another round of iteration over all the glyphs.
+
+19 December 2012 (Pablo Impallari) Encode (Beta) v0.33
+- New spacing scheme across the entire family
+- Lessened contrast in the lighter weights
+- Lots of tweaks to achieve better typographic color
+- Masters renamed
+
+15 December 2012 (Pablo Impallari) Encode (Beta) v0.30
+- Better weight range across the entire family (New goes from 28 to 224, old was from 56 to 206)
+- Progressive distribution of weight across styles and widths
+- The EncodeCompressed-100 stem weight is now 28 units (old was 56 units)
+- The EncodeWide-900 stem weight is now 224 units (old was 206 units)
+
+13 December 2012 (Pablo Impallari) Encode (Beta) v0.29
+- Initial version of the Uppercase Glyphs
+- New spacing schema across the family
+- Tweaked Lowercases
+- Kerning Removed
+
+27 sep 2012 (Pablo Impallari) Encode (Beta) v0.26
+- Improved diagonals (s v w x y z)
+- Improved spacing
+
+13 sep 2012 (Pablo Impallari) Encode (Beta) v0.24b
+- Four Masters
+- Initial family test generating 45 styles generated
+- Condensed, Narrow, Normal, Wide and Wider width range
+- Each in 9 styles from Thin to Heavy
+
+11 sep 2012 (Pablo Impallari) Encode (Beta) v0.24
+- Initial public Beta release
+- Lowercase a-z and a few caps only.
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Pablo Impallari
+E: impallari@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+N: Andres Torresi
+E: andres@huertatipografica.com.ar
+W: http://www.huertatipografica.com.ar
+D: Designer
+
+N: Marc Foley
+E: m.foley.88@gmail.com
+D: Engineer

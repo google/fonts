@@ -4,7 +4,7 @@ This page offers a checklist for running a libre font project.
 
 ## Participating in Libre Fonts Culture
 
-### The Culture
+### Libre Culture
 
 The libre software culture has influenced restricted software development practices, and is also a trending influence on type design today. 
 Since fonts are software, it is helpful for all type designers to understand typical ways of running software projects. 
@@ -17,7 +17,7 @@ Here are a few guides to this culture:
 * The [Debian Social Contract](https://www.debian.org/social_contract)
 * Dave Crossland's MATD Dissertation, [The Free Font Movement](https://davelab6.github.io/matd-dissertation)
 
-### Github
+### Github Culture
 
 At ATypI 2014 David Lemon, the senior manager of the Adobe Type group, discussed how the Adobe Type team has benefited from libre fonts culture, and that Git and Github was one of the most positive things ([reference](https://www.youtube.com/watch?v=DBz0rVUYNPA).)
 Adobe have recently used the "publish early and often, gathering feedback" approach typical of libre project with the Vortice typeface project ([reference](http://blog.typekit.com/2015/03/04/introducing-vortice-and-the-adobe-type-concepts-program/).) 
@@ -30,9 +30,8 @@ This enables the public to see work in progress and point out issues during deve
 
 Github is a public project collaboration platform that is somewhat similar to Dropbox, but more fine-grained. 
 It provides the best and most well-designed experience for public project development.
-However, it is very project-centered. 
 
-* <https://github.com/sindresorhus/refined-github>
+Please see the Github section further below for tips on learning Github.
 
 ### The Google Fonts Discuss mailing list
 
@@ -48,14 +47,6 @@ To make your progress visible to the community, it is helpful to post a short 3 
 3. Any questoins for the team
 
 If possible, add screenshots of your designs in your emails (along with links to PDFs or project files in your Github repo) as this makes the conversation on the email list much easier to follow. 
-
-### Github "Watch" Discussions
-
-Github also has an email discussion feature: 
-clicks 'watch' at the top of your project page, and github will email you (and all other watchers) each comment posted on the issue tracker, pull requests, or commits. 
-You can reply via email to these messages, but note that your email replies **will** be posted publicly on the Github issue tracker (although attachments will be dropped.)
-
-So its a good idea to set up an email filter to label github emails as such, to be sure you know when your reply will become public. 
 
 ## Tools
 
@@ -321,7 +312,7 @@ If you use actively use a tool in your work, please consider contacting @davelab
 
 ## Project Repository
 
-### Github
+### Learning Github
 
 There are many good guides for learning how to use Github around the web, including:
 
@@ -366,6 +357,15 @@ Make sure to always use ssh:
 
     git config --global url.ssh://git@github.com/.insteadOf https://github.com/
     git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
+
+#### Github "Watch" Discussions
+
+Github also has an email discussion feature: 
+clicks 'watch' at the top of your project page, and github will email you (and all other watchers) each comment posted on the issue tracker, pull requests, or commits. 
+You can reply via email to these messages, but note that your email replies **will** be posted publicly on the Github issue tracker (although attachments will be dropped.)
+
+It is a good idea to set up an email filter to label github emails as such, to be sure you know when your reply will become public. 
+See [GMail Filter and Label Documentation](https://support.google.com/mail/answer/6579?hl=en)
 
 ### Your Repository
 

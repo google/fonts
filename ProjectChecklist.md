@@ -381,7 +381,8 @@ Do not use a name already used by another published font project. [namecheck.fon
 Do not include any script or language names. Eg, `Acme Arabic` or `Acme Persian`. 
 (The Google Fonts API will by default serve only Basic Latin fonts; users must specify additoinal scripts. 
 This means a family named with a language or script in the name will confuse users, because the font will often be served without any support for that language or script. 
-More details in this [discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1).)
+More details in this [discussion](https://github.com/vaishnavimurthy/Akaya-Kannada/issues/1). 
+Example multi-script families are [Baloo](https://fonts.google.com/?query=baloo) which uses a word related to the design translated in the major language used by each script, and [Hind](https://fonts.google.com/?query=hind) which use famous cities where the script is used.)
 
 Do not use non-ASCII alphanumeric characters in the family name: 
 No dashes or diacritics. 

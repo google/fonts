@@ -31,6 +31,12 @@ Source files:
 
 ChangeLog
 
+1 February 2017 (Alexei Vanyashin, Cyreal) v.2.100
+— Expanded glyph set to GF Cyrillic Pro, Latin Pro
+— Moved existing Bold master from 700 to 800, renamed to ExtraBold
+— Generated instances from two masters: 400, 500, 600, 700, 800.
+— Minor fixes in Vietnamese by Nhung Nguyen (@crystaltype)
+
 16 December 2016 (Ilya Yudin, Cyreal) Podkova v. 2.000
 — Expanded glyph set to GF Cyrillic Plus (Ilya Yudin)
 — Re-spacing and kerning (by Alexei Vanyashin)

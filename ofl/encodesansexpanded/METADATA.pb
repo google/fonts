@@ -1,8 +1,8 @@
 name: "Encode Sans Expanded"
-designer: "Impallari Type"
+designer: "Impallari Type, Andres Torresi"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2017-01-30"
+date_added: "2017-02-08"
 fonts {
   name: "Encode Sans Expanded"
   style: "normal"

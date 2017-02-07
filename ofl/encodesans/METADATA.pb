@@ -1,5 +1,5 @@
 name: "Encode Sans"
-designer: "Impallari Type, Andres Torresi"
+designer: "Impallari Type, Andres Torresi, Jacques Le Bailly"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-02-08"

@@ -80,6 +80,11 @@ Duplicate entries:
 > + ⁰ ⁵ ⁶ ⁷ ⁸ ⁹ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ in GF Latin Pro
 
 
+**N.B.** For certain design cases it is best practice to include inital and final variants of ` ̅` overlinecomb (uni0305):
+
+* `overlinecomb.init`, cropped on the left
+* `overlinecomb.fina`, cropped on the right
+
 ### 2. GF Greek Archaic, 109 glyphs total
 
 Archaic, Papyri

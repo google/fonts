@@ -9,7 +9,7 @@ Google Fonts Greek Glyphs Sets
 
 1. **Core** Basic Monotonic set for everyday Modern Greek
 2. **Plus** Basic Polytonic set for Scholarly Greek
-3. **Expert** Small Caps for Core and Plus sets
+3. **Expert** Small Caps for Core and Plus sets, Superscript Letters
 
 ###Scholarly Use
 
@@ -25,7 +25,7 @@ Google Fonts Greek Glyphs Sets
 
 ### 1. GF Greek Core, 77 glyphs total 
 
-> + 43 Optional Small Cap Glyphs
+> +43 Optional Small Cap Glyphs
 
 Basic Monotonic Greek
 
@@ -54,7 +54,8 @@ Basic Polytonic Greek
 
 ### 3. GF Greek Expert, 283 glyphs total
 
-Small Caps for Core and Plus sets, and Archaic Numerals 
+Small Caps for Core and Plus sets, Superscript Letters
+
 
 * Core .sc `άέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ`
 * Plus .sc `ἀἁἂἃἄἅἆἇἐἑἒἓἔἕἠἡἢἣἤἥἦἧἰἱἲἳἴἵἶἷὀὁὂὃὄὅὐὑὒὓὔὕὖὗὠὡὢὣὤὥὦὧὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧᾰᾱᾲᾳᾴᾶᾷιῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ Ϗ`

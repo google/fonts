@@ -47,7 +47,13 @@ _PLATFORM_ENCS_UNICODE = (_PLATFORM_ENC_UNICODE_BMP, _PLATFORM_ENC_UNICODE_UCS4)
 
 _FAMILY_WEIGHT_REGEX = r'([^/-]+)-(\w+)\.ttf$'
 
-_NAMELIST_CODEPOINT_REGEX = re.compile('^[A-F0-9]{4}$')
+# Matches 4 or 5 hexadecimal digits that are uppercase at the beginning of the
+# test string. The match is stored in group 0, e.g:
+# >>> _NAMELIST_CODEPOINT_REGEX.match('1234X').groups()[0]
+# '1234'
+# >>> _NAMELIST_CODEPOINT_REGEX.match('1234A').groups()[0]
+# '1234A'
+_NAMELIST_CODEPOINT_REGEX = re.compile('^([A-F0-9]{4,5})')
 
 # The canonical [to Google Fonts] name comes before any aliases
 _KNOWN_WEIGHTS = collections.OrderedDict([
@@ -222,7 +228,9 @@ def CodepointsInSubset(subset, unique_glyphs=False):
     with open(filename) as f:
       for line in f:
         if not line.startswith('#'):
-          cps.add(int(line[2:6], 16))
+          match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7])
+          if match is not None:
+            cps.add(int(match.groups()[0], 16))
 
   return cps
 
@@ -566,14 +574,20 @@ def _parseNamelist(lines):
         headerLines.append(line)
         continue
     # reading the body, i.e. codepoints
-    if line.startswith('0x') \
-        and _NAMELIST_CODEPOINT_REGEX.match(line[2:6]) is not None:
-      cps.add(int(line[2:6], 16))
-    elif line.startswith('0x') \
-        and _NAMELIST_CODEPOINT_REGEX.match(line[2:6].upper()) is not None:
+
+    if line.startswith('0x'):
+      match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7])
+      if match is None:
+        match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7]).upper()
+        if match is not None:
           # Codepoints must be uppercase, it's documented
-          warn('Found a codepoint with lowercase unicode hex value: {0}'.format(line[0:6]))
-    # ignore all lines that we don't understand
+          warn('Found a codepoint with lowercase unicode hex value: 0x{0}'.format(match.groups()[0]))
+        # ignore all lines that we don't understand
+        continue
+      codepoint = match.groups()[0]
+      cps.add(int(codepoint, 16))
+      # description
+      # line[(2+len(codepoint)),]
   header = _parseNamelistHeader(headerLines)
   return cps, header
 

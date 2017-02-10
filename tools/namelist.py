@@ -26,12 +26,12 @@ from fontTools.unicode import Unicode
 def main(file_name):
     excluded_chars = ["????", "SPACE", "NO-BREAK SPACE"]
     font = TTFont(file_name)
-    for cmap in font["cmap"].tables: 
+    for cmap in font["cmap"].tables:
         char_list = sorted(cmap.cmap.items())
         for item in char_list:
             item_description = Unicode[item[0]]
             if item_description not in excluded_chars:
-                print hex(item[0]), item_description
+                print '0x{0:04X}'.format(item[0]), item_description
     font.close()
 
 if __name__ == '__main__':

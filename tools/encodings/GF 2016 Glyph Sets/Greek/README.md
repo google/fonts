@@ -36,9 +36,9 @@ Basic Monotonic Greek
 * Accents `  ́ ΅ `
 * Kai symbol ` ϗ Ϗ `
 
-### 2. GF Greek Plus, 234 glyphs total 
+### 2. GF Greek Plus, 265 glyphs total 
 
-> +122 Optional Small Cap Glyphs
+> +185 Optional Small Cap Glyphs
 > 
 Basic Polytonic Greek
 
@@ -50,16 +50,19 @@ Basic Polytonic Greek
 * Diactritics `  ͅ ι `
 * Punctuation `  ̓ `
 * Combining Marks ` ͂ ̓ ̈́ ͅ `
+* Iota Adscript as ss01 `ᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾼῌῼ`
 
-### 3. GF Greek Expert, 163 glyphs total
+### 3. GF Greek Expert, 283 glyphs total
 
 Small Caps for Core and Plus sets, and Archaic Numerals 
 
 * Core .sc `άέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ`
 * Plus .sc `ἀἁἂἃἄἅἆἇἐἑἒἓἔἕἠἡἢἣἤἥἦἧἰἱἲἳἴἵἶἷὀὁὂὃὄὅὐὑὒὓὔὕὖὗὠὡὢὣὤὥὦὧὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧᾰᾱᾲᾳᾴᾶᾷιῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ Ϗ`
 * Archaic Numerals .sc `ϛ ϟ ϡ ϝ`
-
+* Iota Adscript as ss01 .sc `ᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾼῌῼ`
+* Superior Letters .sups `ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρςστυφχψω`
 *** 
+* Ligatures `λλ γγ`
 
 ## Scholarly Use
 
@@ -68,16 +71,40 @@ Small Caps for Core and Plus sets, and Archaic Numerals
 
 Extended Polytonic Greek, for scholarly edition of ancient texts (Ancient and Roman Greece studies, Byzantine studies, Greek Biblical studies)
 
+**N.B.** List of characters from GF Latin Plus and Pro sets that are prerequisites to this set.
+
+№ | char | nice name (Glyphs App) | uni name | set
+---|---|---|---|---
+1|²|twosuperior|uni00B2|GF Latin Plus
+2|³|threesuperior|uni00B3|GF Latin Plus
+3|¹|onesuperior|uni00B9|GF Latin Plus
+4|⁰|zerosuperior|uni0270|GF Latin Pro
+5|†|dagger|uni2020|GF Latin Plus
+6|‡|daggerdbl|uni2021|GF Latin Plus
+7|⁴|foursuperior|uni2074|GF Latin Plus
+8|⁵|fivesuperior|uni2075|GF Latin Pro
+9|⁶|sixsuperior|uni2076|GF Latin Pro
+10|⁷|sevensuperior|uni2077|GF Latin Pro
+11|⁸|eightsuperior|uni2078|GF Latin Pro
+12|⁹|ninesuperior|uni2079|GF Latin Pro
+13|₀|zeroinferior|uni2080|GF Latin Pro
+14|₁|oneinferior|uni2081|GF Latin Pro
+15|₂|twoinferior|uni2082|GF Latin Pro
+16|₃|threeinferior|uni2083|GF Latin Pro
+17|₄|fourinferior|uni2084|GF Latin Pro
+18|₅|fiveinferior|uni2085|GF Latin Pro
+19|₆|sixinferior|uni2086|GF Latin Pro
+20|₇|seveninferior|uni2087|GF Latin Pro
+21|₈|eightinferior|uni2088|GF Latin Pro
+22|₉|nineinferior|uni2089|GF Latin Pro
+
+
 * Archaic Letters and Numerals `Ϛ Ϟ Ϡ Ϝ ϛ ϟ ϡ ϝ`
-* Ancient Greek textual symbols `⸎ ⸏ ⸐ ⸑ ⸒ ⸓ ⸔ ⸕ ⸖ ⸗`
+* Ancient Greek Textual symbols `⸎ ⸏ ⸐ ⸑ ⸒ ⸓ ⸔ ⸕ ⸖ ⸗`
 * Archaic Punctuation `※ ⁂ ‿ ͜ ˙ ⁖ ⁘ ⁙ ⁚ ⁛ ⁜ ⁝ ⁞ ⊗ ⋮`
 * Greek Metrical Symbols `⏑ ⏒ ⏓ ⏔ ⏕ ⏖ ⏗ ⏘ ⏙`
 * Critical Sigla `̅ ̣ ͙ ‖ ⁺ ⁻ ⁼ ₊ ₋ ₌ ⫽ ⸀ ⸁ ⸂ ⸃ ⸄ ⸅ ⸆ ⸇ ⸈ ⸉ ⸊ ⸋ ⸌ ⸍ 〈 〉《 》「 」〚 〛`
 * Biblical Apparatus `ℵ ℶ 𝑙 𝔖 𝔐 𝔓 𝔭`
-
-Duplicate entries:
-> + † ‡ ¹ ² ³ ⁴ in GF Latin Plus
-> + ⁰ ⁵ ⁶ ⁷ ⁸ ⁹ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ in GF Latin Pro
 
 
 **N.B.** For certain design cases it is best practice to include inital and final variants of ` ̅` overlinecomb (uni0305):
@@ -85,7 +112,7 @@ Duplicate entries:
 * `overlinecomb.init`, cropped on the left
 * `overlinecomb.fina`, cropped on the right
 
-### 2. GF Greek Archaic, 109 glyphs total
+### 2. GF Greek Archaic, 143 glyphs total
 
 Archaic, Papyri
 
@@ -93,14 +120,15 @@ Archaic, Papyri
 * Archaic LC `ϙϛϝϟϡϻ`
 * Variant Letterforms `κρςΣ`, `Θϐϑϒϓϔϕϖε϶`
 * Additional Letter `ϳ`
-* Additional archaic letters for Bactrian `Ϸϸ`
+* Additional Archaic Letters for Bactrian `Ϸϸ`
 * Symbols `ϼ ☧`
-* Editorial symbols `ϽϾϿ`
-* Ancient Greek mathematical character `⟀ ⟁`
-* Greek Acrophonic Symbols `𐅀𐅁𐅂𐅃𐅆𐅇𐅈𐅉𐅊𐅋𐅌𐅍𐅎𐅏𐅐𐅑𐅒𐅓𐅔𐅕𐅖𐅗𐅘𐅙𐅚𐅛𐅜𐅝𐅞𐅟𐅠𐅡𐅢𐅣𐅤𐅥𐅦𐅧𐅨𐅩𐅪𐅫𐅬𐅭𐅮𐅯𐅰𐅱𐅲𐅳𐅴`
-
+* Editorial Symbols `ϽϾϿ`
+* Ancient Greek Mathematical Character `⟀ ⟁`
+* Ancient Greek Acrophonic Numerals `𐅀𐅁𐅂𐅃𐅆𐅇𐅈𐅉𐅊𐅋𐅌𐅍𐅎𐅏𐅐𐅑𐅒𐅓𐅔𐅕𐅖𐅗𐅘𐅙𐅚𐅛𐅜𐅝𐅞𐅟𐅠𐅡𐅢𐅣𐅤𐅥𐅦𐅧𐅨𐅩𐅪𐅫𐅬𐅭𐅮𐅯𐅰𐅱𐅲𐅳𐅴`
+* Geometric shape `□`
+* Astrological symbols `★☉☊☋☌☍☽☾☿♀♁♂♃♄♅♆♇♈♉♊♋♌♍♎♏♐♑♒♓`
  
-### 3. GF Ancient Musical Symbols, 123 glyphs total
+### 3. GF Ancient Musical Symbols, 316 glyphs total
 
 * Greek Vocal Notation Symbols
 * Greek Instrumental Notation Symbols
@@ -125,42 +153,6 @@ Coptic `U+03E2` – `U+03EF`, Coptic Unicode block `U+2C80` – `U+2CFF`
 * Punctuation ` ⳾ ⳿ ` 
 
 
-### Recommended Optional Additions
-
-#### Astronomical Symbols
-
-№ | char | nice name | uni name
----|---|---|---
-1 | □ | whiteSquare | uni25A1
-2 | ★ | blackstar | uni2605
-3 | ☉ | sun | uni2609
-4 | ☊ | ascendingnode | uni260A
-5 | ☋ | descendingnode | uni260B
-6 | ☌ | conjunction | uni260C
-7 | ☍ | opposition | uni260D
-8 | ☽ | firstquartermoon | uni263D
-9 | ☾ | lastquartermoon | uni263E
-10 | ☿ | mercury | uni263F
-11 | ♀ | femalesign | uni2640
-12 | ♁ | earth | uni2641
-13 | ♂ | malesign | uni2642
-14 | ♃ | jupiter | uni2643
-15 | ♄ | saturn | uni2644
-16 | ♅ | uranus | uni2645
-17 | ♆ | neptune | uni2646
-18 | ♇ | pluto | uni2647
-19 | ♈ | aries | uni2648
-20 | ♉ | taurus | uni2649
-21 | ♊ | gemini | uni264A
-22 | ♋ | cancer | uni264B
-23 | ♌ | leo | uni264C
-24 | ♍ | virgo | uni264D
-25 | ♎ | libra | uni264E
-26 | ♏ | scorpius | uni264F
-27 | ♐ | sagittarius | uni2650
-28 | ♑ | capricorn | uni2651
-29 | ♒ | aquarius | uni2652
-30 | ♓ | pisces | uni2653
 
 
 ### Acknowledgements:

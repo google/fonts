@@ -28,7 +28,7 @@ The [`README.md`]('GF 2016 Glyph Sets/README.md') describes mostly how each of t
 
 ## Codepoint format
 
-A line that starts with `0x` and then have 4 **uppercase** hex digits; what follows is an arbitrary description to the end of the line.
+A line that starts with `0x` and then have 4 or 5 **uppercase** hex digits; what follows is an arbitrary description to the end of the line.
 
 Example:
 
@@ -36,6 +36,8 @@ Example:
 0x0061  a LATIN SMALL LETTER A
 0x0062  b LATIN SMALL LETTER B
 0x0063  c LATIN SMALL LETTER C
+0x03E4  Ϥ COPTIC CAPITAL LETTER FEI
+0x10142  𐅂 GREEK ACROPHONIC ATTIC ONE DRACHMA
 ```
 
 

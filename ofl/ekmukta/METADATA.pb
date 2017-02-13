@@ -2,6 +2,7 @@ name: "Ek Mukta"
 designer: "Ek Type"
 license: "OFL"
 category: "SANS_SERIF"
+visibility: "INTERNAL"
 date_added: "2014-05-12"
 fonts {
   name: "Ek Mukta"

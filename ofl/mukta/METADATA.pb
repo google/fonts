@@ -1,5 +1,5 @@
 name: "Mukta"
-designer: "Multiple Designers"
+designer: "Ek Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-01-26"

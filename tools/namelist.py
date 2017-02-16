@@ -26,16 +26,16 @@ from fontTools.unicode import Unicode
 def main(file_name):
     excluded_chars = ["????", "SPACE", "NO-BREAK SPACE"]
     font = TTFont(file_name)
-    seen = set()
+    charcodes = set()
     for cmap in font["cmap"].tables:
-        char_list = sorted(cmap.cmap.items())
-        for item in char_list:
-            item_description = Unicode[item[0]]
-            if item[0] in seen:
-                continue
-            seen.add(item[0])
-            if item_description not in excluded_chars:
-                print '0x{0:04X}'.format(item[0]), unichr(item[0]).encode('utf-8'), item_description
+        if not cmap.isUnicode():
+            continue
+        charcodes.update(cp for cp,name in cmap.cmap.items())
+    charcodes = sorted(charcodes)
+    for charcode in charcodes:
+        item_description = Unicode[charcode]
+        if item_description not in excluded_chars:
+            print '0x{0:04X}'.format(charcode), unichr(charcode).encode('utf-8'), item_description
     font.close()
 
 if __name__ == '__main__':

@@ -11,6 +11,7 @@ Since fonts are software, it is helpful for all type designers to understand typ
 For type designers involved in starting or participating in libre font projects, it is especially helpful to understand how libre software project operate.
 Here are a few guides to this culture:
 
+* [opensource.guide](https://opensource.guide) (especially [/getting-paid](https://opensource.guide/getting-paid/))
 * [Remix Culture](https://en.wikipedia.org/wiki/Remix_culture)
 * The [Producing Open Source Software](http://producingoss.com) book
 * A list of [99 anti-patterns](http://opensoul.org/2015/07/22/99ways/)

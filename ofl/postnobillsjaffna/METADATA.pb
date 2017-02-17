@@ -2,7 +2,7 @@ name: "Post No Bills Jaffna"
 designer: "Mooniak"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2017-02-17"
+date_added: "2017-02-20"
 fonts {
   name: "Post No Bills Jaffna"
   style: "normal"

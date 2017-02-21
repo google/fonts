@@ -1,11 +1,11 @@
 This directory contains "Namelist" files, that list Unicode characters followed by glyph names or glyph descriptions.
 
-**TODO: clarify:** Typically all the Unicodes in each file are in each font.
+Typically all the Unicodes in each file are in each font.
 If the fonts go beyond that list, those additional characters will not be available to Fonts API end users.
 
 The Google Fonts API uses these files in combination with [pyftsubset](https://github.com/behdad/fonttools/blob/master/Lib/fontTools/subset.py) to generate script subsets from the full `.ttf` files in this repository.
 
-There are "legacy" encodings, the files directly in this directory and the newer "2016" encodings contained in the `GF 2016 Glyph Sets` subdirectory.
+There are "legacy" encodings, the files directly in this directory, and "novel" encodings contained in the `GF 2016 Glyph Sets` subdirectory.
 The latter directory contains itself a [`README.md`]('GF 2016 Glyph Sets/README.md').
 
 # The "Namelist" file format
@@ -21,9 +21,12 @@ Namelist files are encoded in UTF-8.
 
 This is implemented in the `CodepointFiles` function of [google_fonts.py](../util/google_fonts.py)
 
-### *2016* subsetting
+*NOTE: the legacy files have also been adapted to the novel header `#$ include` style.*
 
-The [`README.md`]('GF 2016 Glyph Sets/README.md') describes mostly how each of the Namelist files depend on each other, however, this is not implemented anywhere yet. To make the system more flexible and self describing I suggest using [header includes](#header).
+### *novel* subsetting
+
+The [`README.md`]('GF 2016 Glyph Sets/README.md') describes mostly how each of the Namelist files depend on each other,
+to implement this [header includes](#header) were created.
 
 
 ## Codepoint format
@@ -52,7 +55,7 @@ Example:
 #$ include ../GF-latin-plus_unique-glyphs.nam
 ```
 
-## glyphs without Unicode (since 2016)
+## glyphs without Unicode (since the "novel" encodings)
 
 A line that starts with at least six spaces describes a glyph that has no Unicode and will usually be accessible via OpenType GSUB. These glyphs are used to ensure the fonts contain certain OpenType features.
 
@@ -67,19 +70,19 @@ Example:
           abrevedotbelow.sc
 ```
 
-## <a name="header"></a> Header (proposal)
+## <a name="header"></a> Header
 
-To make the Namelist format more self contained I suggest a file header.
+The header was created to make the Namelist format more self contained.
 
 The Namelist header is made of all consecutive comment lines at the beginning of the file. The first non-comment line ends the header.
 
 Specially crafted comment lines, "header data", define the meta data of the file. Other comments are just that, comments.
 
-A header data line begins with "#$" then is followed by a keyword and then followed by the arguments for the keyword.
+A header data line begins with `#$` then is followed by a keyword and then followed by the arguments for the keyword.
 
 The keyword is separated from its arguments by one or more space characters.
 
-The keywords, the semantics of a keyword and the syntax of the arguments of a keyword should be documented here.
+The keywords, the semantics of a keyword and the syntax of its arguments should be documented here.
 
 Format for header data:
 
@@ -95,16 +98,25 @@ It specifies the namfiles on which the current namfile depends. The file plus al
 
 Includes are loaded recursively, meaning that the includes of an included files must also be loaded.
 
-E.g. a 2016 a "pro" encoding would include its "plus" encoding and the latter would include its "base" encoding. The Pro charset then is the union of pro, plus and base.
+E.g. a novel a "pro" encoding would include its "plus" encoding and the latter would include its "base" encoding. The Pro charset then is the union of pro, plus and base.
 
 Loops in the includes are not followed; the final result as a `set` wouldn't have a different value whether the same file is included once or many times.
 
 `{namfile}` is a file path to a namfile relative to the path of the file that contains the include statement.
 
+Example from `GF-latin-expert_unique-glyphs.nam`
+
+```
+#$ include GF-latin-pro_unique-glyphs.nam
+0x2153  ⅓ onethird
+0x2154  ⅔ twothirds
+0x215B  ⅛ oneeighth
+```
+
 
 ### Possible Keywords
 
-* `author {name}` (zero or more) since we can already find `# Created by` comments in the 2016 namfiles we could as well just institutionalize it.
+* `author {name}` (zero or more) since we can already find `# Created by` comments in the novel nam-files we could as well just institutionalize it.
 
 * `label {name}` A human readable name for the file, to be used in user interfaces. Could also have a further `{locale}` argument for internationalization.
 
@@ -124,3 +136,9 @@ A python script, `tools/unicode_names.py` can reformat these files:
     0x0022  " QUOTATION MARK
     0x0023  # NUMBER SIGN
     ...
+
+Namelist parsing is implemented in:
+
+Python: `tools/util/google_fonts.py` use the function `CodepointsInSubset` for legacy Namelist files and `codepointsInNamelist` for novel Namelist files.
+
+JavaScript: [analyzeCharSets.js](https://github.com/graphicore/specimenTools/blob/languages/build/analyzeCharSets.js) implements novel style Namefile parsing.

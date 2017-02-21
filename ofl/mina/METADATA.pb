@@ -1,5 +1,5 @@
 name: "Mina"
-designer: "Mooniak"
+designer: "Suman Bhandary, Natanael Gama, Mooniak"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-02-20"

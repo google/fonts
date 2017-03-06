@@ -13,10 +13,11 @@ message FamilyProto {
   required string designer = 2;
   required string license = 3;
   required string category = 4;
-  required string date_added = 5;
-  repeated FontProto fonts = 6;
-  repeated string aliases = 7;
-  repeated string subsets = 8;
+  optional string visibility = 5;
+  required string date_added = 6;
+  repeated FontProto fonts = 7;
+  repeated string aliases = 8;
+  repeated string subsets = 9;
 };
 
 message FontProto {

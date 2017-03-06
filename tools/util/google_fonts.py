@@ -563,6 +563,7 @@ def _parseNamelistHeader(lines):
 
 def _parseNamelist(lines):
   cps = set()
+  noncodes = set()
   headerLines = []
   readingHeader = True
   for line in lines:
@@ -588,8 +589,13 @@ def _parseNamelist(lines):
       cps.add(int(codepoint, 16))
       # description
       # line[(2+len(codepoint)),]
+    elif line.startswith('      '):
+      noncode = line.strip()
+      if len(noncode):
+        noncodes.add(noncode)
+
   header = _parseNamelistHeader(headerLines)
-  return cps, header
+  return cps, header, noncodes
 
 def parseNamelist(filename):
   """Parse filename as Namelist and return a tuple of
@@ -606,6 +612,8 @@ def _loadNamelistIncludes(item, unique_glyphs, cache):
   includes = item["includes"] = []
   charset = item["charset"] = set() | item["ownCharset"]
 
+  noCharcode = item["noCharcode"] = set() | item["ownNoCharcode"]
+
   dirname =  os.path.dirname(item["fileName"])
   for include in item["header"]["includes"]:
     includeFile = os.path.join(dirname, include)
@@ -617,6 +625,7 @@ def _loadNamelistIncludes(item, unique_glyphs, cache):
       continue
     includes.append(includedItem)
     charset |= includedItem["charset"]
+    noCharcode |= includedItem["ownNoCharcode"]
   return item
 
 def __readNamelist(cache, filename, unique_glyphs):
@@ -627,13 +636,15 @@ def __readNamelist(cache, filename, unique_glyphs):
   if filename in cache:
     item = cache[filename]
   else:
-    cps, header = parseNamelist(filename)
+    cps, header, noncodes = parseNamelist(filename)
     item = {
       "fileName": filename
     , "ownCharset": cps
     , "header": header
+    , "ownNoCharcode": noncodes
     , "includes": None # placeholder
     , "charset": None # placeholder
+    , "noCharcode": None
     }
     cache[filename] = item
 

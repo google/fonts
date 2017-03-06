@@ -15,7 +15,7 @@ If you find a problem with a font file, or have a request for future development
 
 ## Download All Google Fonts
 
-You can download all Google Fonts in a simple ZIP snapshot (over 300Mb) from <https://github.com/google/fonts/archive/master.zip>
+You can download all Google Fonts in a simple ZIP snapshot (over 300MB) from <https://github.com/google/fonts/archive/master.zip>
 
 #### Sync With Git
 

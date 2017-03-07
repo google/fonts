@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "greek"
+subsets: "greek-ext"

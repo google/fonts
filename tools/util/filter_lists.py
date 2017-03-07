@@ -4,18 +4,20 @@
 # for the glyphsLib dependency do: pip install GlyphsLib
 
 from __future__ import print_function, unicode_literals
-from glyphsLib import glyphdata, glyphdata_generated
 from fontTools.misc.py23 import unichr, byteord
 import sys, os, subprocess
 import re
 import codecs
+import logging as log
+import unittest
+from collections import Counter
 
 if __name__ == '__main__':
-  # some of the imports here wouldn't work otherwise
+  # the following imports wouldn't work otherwise
   sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import google_fonts as fonts
-
+from glyphdata import DATA as GlyphData
 
 
 PURE_UNI_CHR = re.compile('^uni([0-9A-F]{4,5})$', re.IGNORECASE)
@@ -49,7 +51,7 @@ def get_namelist_for_filterlist(filterlistFilename):
     while(len(markerDir) and markerDir != FILTER_LISTS_DIR_NAME):
         namelistDir, markerDir = os.path.split(namelistDir)
     if markerDir != FILTER_LISTS_DIR_NAME:
-        raise Exception('charset directory not fond in "{path}".'.format(path=dirname))
+        raise Exception('charset directory not found in "{path}".'.format(path=dirname))
 
     # get all the Namelist files from
     for root, dirs, files in os.walk(namelistDir):
@@ -73,26 +75,19 @@ def get_namelist_for_filterlist(filterlistFilename):
 
 _UNICDE2GLYPHNAME = {}
 def get_name_by_unicode(search_codepoint, production_name=False):
-    if not len(_UNICDE2GLYPHNAME):
-        for name in glyphdata_generated.PRODUCTION_NAMES:
-            pname = glyphdata_generated.PRODUCTION_NAMES[name]
-            codepoint = glyphdata.get_glyph(name).unicode
-            if codepoint is not None:
-                _UNICDE2GLYPHNAME[byteord(codepoint)] = (name, pname)
-
-        for name in glyphdata_generated.IRREGULAR_UNICODE_STRINGS:
-            codepoint = glyphdata.get_glyph(name).unicode
-            if codepoint is not None:
-                _UNICDE2GLYPHNAME[byteord(codepoint)] = (name, None)
-
-    entry = _UNICDE2GLYPHNAME.get(search_codepoint, (None, None))
-    index = 1 if production_name else 0
-    return entry[index]
+    """
+    If this returns None GlyphsData.xml doesn't contain search_codepoint.
+    """
+    entry = (None, None)
+    glyph = GlyphData.by_unicode.get(search_codepoint, None)
+    if glyph is not None:
+        entry = (glyph.name, glyph.production_name)
+    return entry[1] if production_name else entry[0]
 
 def get_unicode_by_name(name):
-    codepoint = glyphdata.get_glyph(name).unicode
-    if codepoint is not None:
-        return byteord(codepoint)
+    glyph = GlyphData.by_name.get(name, None)
+    if glyph is not None and glyph.unicode is not None:
+        return glyph.unicode
     match = PURE_UNI_CHR.match(name)
     if match is not None:
         return int(match.groups()[0], base=16)
@@ -104,7 +99,6 @@ def get_unicode_by_name(name):
 def get_filterlist_names(filterListFileName):
     with codecs.open(filterListFileName, 'r', encoding='utf-8') as f:
         return [line.strip() for line in f]
-
 
 def read_filterlist(filterListFileName):
     names = get_filterlist_names(filterListFileName)
@@ -140,7 +134,6 @@ def production_name_to_friendly_name(name):
     codepoint = get_unicode_by_name(name)
     friendly_name = get_name_by_unicode(codepoint, production_name=False)
     return friendly_name if friendly_name is not None else name
-
 
 def check_filterlist_in_namelist(filterListFileName, namelistCache=None):
     namelistFilename = get_namelist_for_filterlist(filterListFileName)
@@ -183,41 +176,31 @@ def check_filterlist_in_namelist(filterListFileName, namelistCache=None):
         return False, '\n'.join(message), namelistFilename
     return True, None, namelistFilename
 
-def check_filterlists_in_namelists(files):
-    print('*'*30)
-    print('Checking filterlists in namelists...')
-    print('*'*30)
-    namelistCache = {}
+
+def _build_filterlists_in_namelists(f):
+    """
+        Checking filterlists in namelists.
+    """
+    test_name = 'test_filterlists_in_namelists {0}'.format(f)
+    def test_filterlists_in_namelists(self):
+        passed, message, namelist = check_filterlist_in_namelist(f, self._cache)
+        if passed:
+            return
+        self.assertTrue(passed, msg=message)
+    return test_name, test_filterlists_in_namelists
+
+def build_filterlists_in_namelists(files):
     for f in files:
-        print('='*30)
-        print ('Checking filter list:', f)
-        passed, message, namelist = check_filterlist_in_namelist(f, namelistCache)
-        print ('Namelist:', namelist)
-        if not passed:
-            print('Failed')
-            print(message)
-        else:
-            print('Passed')
+        yield _build_filterlists_in_namelists(f);
 
-def check_friendly_names_production_names_equal(files):
-    print('*'*30)
-    print('Check if nice names and uni names filter lists are in sync.')
-    print('*'*30)
-    nice_names_dir = 'nice names'
-    prod_names_dir = 'uni names'
-    nice_names_parts = {tuple(f.split(nice_names_dir, 1)) for f in files
-                                                if nice_names_dir in f}
-    prod_names_parts = {tuple(f.split(prod_names_dir, 1)) for f in files
-                                                if prod_names_dir in f}
+def _build_friendly_names_production_names_equal(pathparts, prod_names_file, nice_names_file):
+    test_name = 'test_nice_names_uni_names_equal {0}'.format('{marker dir}'.join(pathparts))
+    def test_friendly_names_production_names_equal(self):
+        message = []
+        log_message = lambda *args: message.append(' '.join(map(unicode, args)))
 
-    # filter to check only files that have a counterpart
-    matches = sorted(list(nice_names_parts & prod_names_parts))
-    for pathparts in matches:
-        print('='*30)
-        prod_names_file = prod_names_dir.join(pathparts)
-        nice_names_file = nice_names_dir.join(pathparts)
-        print('uni names filter list:', prod_names_file)
-        print('nice names filter list:', nice_names_file)
+        log_message('uni names filter list:', prod_names_file)
+        log_message('nice names filter list:', nice_names_file)
 
         prod_names = get_filterlist_names(prod_names_file)
         nice_prod_names = [production_name_to_friendly_name(name)
@@ -229,40 +212,87 @@ def check_friendly_names_production_names_equal(files):
 
         not_in_both = nice_names_set ^ prod_names_set
         if not len(not_in_both):
-            print('PASS\n')
-            continue
+            return
 
-        print('FAIL')
-        print('# uni names', len(prod_names), '# duplicates', len(prod_names) - len(prod_names_set))
-        print('# nice names', len(nice_names), '# duplicates',len(nice_names) - len(nice_names_set))
+        log_message('# uni names', len(prod_names))
+        log_message('# nice names', len(nice_names))
+
+        dupes_in_prod_names = len(prod_names) - len(prod_names_set)
+        dupes_in_nice_names = len(nice_names) - len(nice_names_set)
+
+        if dupes_in_prod_names:
+            log_message('# duplicates in uni names', dupes_in_prod_names, '\n'
+                    , *[item for item, count in Counter(prod_names).items() if count > 1])
+        if dupes_in_nice_names:
+            log_message('# duplicates in nice names', dupes_in_nice_names, '\n'
+                    , *[item for item, count in Counter(nice_names).items() if count > 1])
+
+
+        self.assertTrue(dupes_in_prod_names == 0 and dupes_in_nice_names == 0
+                                                ,  msg='\n'.join(message))
 
         not_in_nice = sorted(not_in_both - nice_names_set)
         not_in_prod = sorted(not_in_both - prod_names_set)
 
         if len(not_in_prod):
-            print ('Entries in nice names but not in uni names(#{1}):\n{0}\n' \
+            log_message('Entries in nice names but not in uni names(#{1}):\n{0}\n' \
                                 .format(', '.join(not_in_prod), len(not_in_prod)))
 
         if len(not_in_nice):
             nice2prod = dict(zip(nice_prod_names, prod_names))
             items = ','.join('{0} as {1}'.format(nice2prod[n],n)
                                                     for n in not_in_nice)
-            print ('Entries in uni names but not in nice names (#{1}):\n{0}\n' \
-                                        .format(items, len(not_in_nice)))
+            log_message('Entries in uni names but not in nice names (#{1}):\n{0}\n' \
+                                    .format(items, len(not_in_nice)))
+
+        self.assertTrue(False, msg='\n'.join(message))
+    return test_name, test_friendly_names_production_names_equal
 
 
-def check_files(files):
-    check_filterlists_in_namelists(files)
-    check_friendly_names_production_names_equal(files)
+def build_friendly_names_production_names_equal(files):
+    """
+        Check if nice names and uni names filter lists are in sync.
+    """
+    nice_names_dir = 'nice names'
+    prod_names_dir = 'uni names'
+    nice_names_parts = {tuple(f.split(nice_names_dir, 1)) for f in files
+                                                if nice_names_dir in f}
+    prod_names_parts = {tuple(f.split(prod_names_dir, 1)) for f in files
+                                                if prod_names_dir in f}
+
+    # filter to check only files that have a counterpart
+    matches = sorted(list(nice_names_parts & prod_names_parts))
+    for pathparts in matches:
+        prod_names_file = prod_names_dir.join(pathparts)
+        nice_names_file = nice_names_dir.join(pathparts)
+        yield _build_friendly_names_production_names_equal(pathparts, prod_names_file, nice_names_file)
+
+def initTestProperties(cls, files):
+  initialized = []
+  for test_generator in (build_filterlists_in_namelists
+                       , build_friendly_names_production_names_equal):
+    for testName, test in test_generator(files):
+        setattr(cls, testName, test)
+
+
+class TestFilterLists(unittest.TestCase):
+  def setUp(self):
+    self._cache = {}
+
+  def tearDown(self):
+    self._cache = None
+
 
 def main(args):
-    if len(args) < 1:
-        raise Excepion('The first argument must be the search directory'\
+    if len(args) < 2:
+        raise Exception('The first argument must be the search directory'\
                                                         ' for nam files.')
-    searchDirectory = args[0]
-    files = subprocess.check_output(['find', searchDirectory, '-type', 'f', '-path', '*/filter lists/*.txt']);
-    check_files( filter(len, files.split('\n')) )
+    searchDirectory = args[1]
+    files = subprocess.check_output(['find', searchDirectory, '-type', 'f', '-path', '*/filter lists/*.txt'])
+    files = filter(len, files.split('\n'))
+    initTestProperties(TestFilterLists, files)
+    unittest.main(argv=args[:1] + args[2:], verbosity=2)
+
 
 if __name__ == '__main__':
-    main(sys.argv[1:])
-
+    main(sys.argv)

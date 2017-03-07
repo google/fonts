@@ -590,7 +590,7 @@ def _parseNamelist(lines):
       # description
       # line[(2+len(codepoint)),]
     elif line.startswith('      '):
-      noncode = line.strip()
+      noncode = line.strip().rsplit(' ')[-1]
       if len(noncode):
         noncodes.add(noncode)
 

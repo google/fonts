@@ -70,6 +70,20 @@ Example:
           abrevedotbelow.sc
 ```
 
+For legacy reasons, we also accept lines in the form of:
+
+```
+        Д uni0414.loclBGR
+        И uni0418.loclBGR
+        Й uni0419.loclBGR
+```
+
+Using this sample python implementation to obtain the glyph name:
+
+```py
+line.strip().rsplit(' ')[-1]
+```
+
 ## <a name="header"></a> Header
 
 The header was created to make the Namelist format more self contained.

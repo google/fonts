@@ -20,23 +20,7 @@ import google_fonts as fonts
 from glyphdata import DATA as GlyphData
 
 
-PURE_UNI_CHR = re.compile('^uni([0-9A-F]{4,5})$', re.IGNORECASE)
-
-# Discussion: https://github.com/schriftgestalt/GlyphsInfo/issues/10#issuecomment-283217683
-EXCEPTIONS = {
-    'f_f': 0xFB00
-  , 'f_f_i': 0xFB03
-  , 'f_f_l': 0xFB04
-  , 'longs_t': 0xFB05
-  , 's_t': 0xFB06
-}
-
-NO_CODE_EXCEPTIONS = set(
-# This is used to localize for Turkish and some other languages, unfortunately
-# it's not in Latin_Plus, where it seems to belong, but without Unicode!
-# I'll collect cases like this here and later communicate them in the backlog.
-'idotaccent'
-)
+PURE_UNI_CHR = re.compile('^uni([0-9A-F]{4,6})$', re.IGNORECASE)
 
 FILTER_LISTS_DIR_NAME = 'filter lists'
 
@@ -73,7 +57,6 @@ def get_namelist_for_filterlist(filterlistFilename):
             return os.path.join(namelistDir, f)
     return None;
 
-_UNICDE2GLYPHNAME = {}
 def get_name_by_unicode(search_codepoint, production_name=False):
     """
     If this returns None GlyphsData.xml doesn't contain search_codepoint.
@@ -91,8 +74,6 @@ def get_unicode_by_name(name):
     match = PURE_UNI_CHR.match(name)
     if match is not None:
         return int(match.groups()[0], base=16)
-    if name in EXCEPTIONS:
-        return EXCEPTIONS[name]
     return None
 
 
@@ -109,13 +90,6 @@ def read_filterlist(filterListFileName):
         if codepoint is not None:
             codepoints.append((codepoint, name))
             continue
-        # I'm not sure if this assertion holds, but with the current data
-        # from our name lists it seems to do so.
-        # hmm, maybe we'll have to allow a - as well, as it used to mark
-        # localized alternates, like {name}-cy for cyrillic.
-        assert name not in NO_CODE_EXCEPTIONS or '.' in name, 'A suffix '\
-                'beginning with a ".", to indicate this is a character '\
-                'used via GSUB, is expected in {name}.'.format(name=name)
         noncodes.append(name)
     return codepoints, noncodes
 
@@ -162,8 +136,9 @@ def check_filterlist_in_namelist(filterListFileName, namelistCache=None):
                        '\n[{names}]'.format(names=names))
 
     missingNoncodes = []
+    namelistNoCharcode = set(production_name_to_friendly_name(name) for name in namelist['noCharcode'])
     for noncode in noncodes:
-        if noncode not in namelist['noCharcode']:
+        if noncode not in namelistNoCharcode:
             missingNoncodes.append(noncode)
     if len(missingNoncodes):
         if useProductionNames:

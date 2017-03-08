@@ -215,6 +215,7 @@
 0x0328 ̨ COMBINING OGONEK
 0x032E ̮ COMBINING BREVE BELOW
 0x0331 ̱ COMBINING MACRON BELOW
+0x0335 strokeshortcom
 0x1E80 Ẁ LATIN CAPITAL LETTER W WITH GRAVE
 0x1E81 ẁ LATIN SMALL LETTER W WITH GRAVE
 0x1E82 Ẃ LATIN CAPITAL LETTER W WITH ACUTE
@@ -345,8 +346,29 @@
 0x2265 ≥ GREATER-THAN OR EQUAL TO
 0x27E8 ⟨ MATHEMATICAL LEFT ANGLE BRACKET
 0x27E9 ⟩ MATHEMATICAL RIGHT ANGLE BRACKET
-0xFB00 ﬀ LATIN SMALL LIGATURE FF
 0xFB01 ﬁ LATIN SMALL LIGATURE FI
 0xFB02 ﬂ LATIN SMALL LIGATURE FL
-0xFB03 ﬃ LATIN SMALL LIGATURE FFI
-0xFB04 ﬄ LATIN SMALL LIGATURE FFL
+       f_f
+       f_f_i
+       f_f_l
+       idotaccent
+       zero.lf
+       one.lf
+       two.lf
+       three.lf
+       four.lf
+       five.lf
+       six.lf
+       seven.lf
+       eight.lf
+       nine.lf
+       periodcentered.loclCAT
+       caroncomb.alt
+       brevecomb_acutecomb
+       brevecomb_gravecomb
+       brevecomb_hookabovecomb
+       brevecomb_tildecomb
+       circumflexcomb_acutecomb
+       circumflexcomb_gravecomb
+       circumflexcomb_hookabovecomb
+       circumflexcomb_tildecomb

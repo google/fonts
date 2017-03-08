@@ -263,7 +263,7 @@ def main(args):
         raise Exception('The first argument must be the search directory'\
                                                         ' for nam files.')
     searchDirectory = args[1]
-    files = subprocess.check_output(['find', searchDirectory, '-type', 'f', '-path', '*/filter lists/*.txt'])
+    files = subprocess.check_output(['find', searchDirectory, '-type', 'f', '-path', '*/filter lists/*.txt']).decode("utf-8")
     files = filter(len, files.split('\n'))
     initTestProperties(TestFilterLists, files)
     unittest.main(argv=args[:1] + args[2:], verbosity=2)

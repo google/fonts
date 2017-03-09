@@ -9,12 +9,15 @@ fonts/tools$ python util/google_fonts.py
 $ python path/to/fonts/tools/utilgoogle_fonts.py --nam_dir path/to/fonts/tools/encodings/
 
 """
+from __future__ import print_function, unicode_literals
+
 import collections
 import contextlib
 import errno
 import os
 import re
 import sys
+import codecs
 from warnings import warn
 import unittest
 
@@ -133,7 +136,7 @@ def ShowOnce(msg):
   if msg in _displayed_errors:
     return
   _displayed_errors.add(msg)
-  print >> sys.stderr, msg
+  print(msg, file=sys.stderr)
 
 
 def UniqueSort(*args):
@@ -198,7 +201,7 @@ def Metadata(file_or_dir):
                      file_or_dir)
 
   msg = fonts_pb2.FamilyProto()
-  with open(metadata_file) as f:
+  with codecs.open(metadata_file, encoding='utf-8') as f:
     text_format.Merge(f.read(), msg)
 
   return msg
@@ -225,7 +228,7 @@ def CodepointsInSubset(subset, unique_glyphs=False):
 
   cps = set()
   for filename in filenames:
-    with open(filename) as f:
+    with codecs.open(filename, encoding='utf-8') as f:
       for line in f:
         if not line.startswith('#'):
           match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7])
@@ -601,7 +604,7 @@ def parseNamelist(filename):
   """Parse filename as Namelist and return a tuple of
     (Codepoints set, header data dict)
   """
-  with open(filename) as namFile:
+  with codecs.open(filename, encoding='utf-8') as namFile:
     return _parseNamelist(namFile)
 
 def _loadNamelistIncludes(item, unique_glyphs, cache):

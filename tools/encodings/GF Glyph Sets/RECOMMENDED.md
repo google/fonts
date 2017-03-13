@@ -121,6 +121,16 @@ Recommended links for further reading:
  * [Localize Your Font: German Capital Sharp S](https://www.glyphsapp.com/tutorials/localize-your-font-german-capital-sharp-s) by Rainer Erich Scheichelbauer  
 
 N.B. The question of German Uppercase Capital Sharp S is still highly debatable, and its usage hasn't passed into the official orthography. 
+### Cyrillic component building
+
+These glyphs are used for component building and are non-exportable. Don't forget to set the non-export tag.
+
+```
+descender-cy
+descender-cy.case
+verticalbar-cy
+verticalbar-cy.case
+```
 
 ### Recommended links: ###
 

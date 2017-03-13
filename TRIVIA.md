@@ -14,6 +14,7 @@ These files are redundant, and exist following the renaming of a family.
 The initial directories are kept so that people already using that initial name can continue to do so. 
 They are no longer listed in the main www.google.com/fonts directory, but the files exist in this repo since they are still served via the Google Fonts API. 
 
+- `ofl/alefhebrew` and `ofl/alef` contain `Alef-Regular.ttf` and `Alef-Bold.ttf`
 - `ofl/mrbedford` and `ofl/mrbedfort` contain `MrBedfort-Regular.ttf`
 - `ofl/mrssaintdelafield` and `ofl/misssaintdelafield` contain `MrsSaintDelafield-Regular.ttf`
 - `ofl/siamreap` and `ofl/siemreap` contain `Siemreap.ttf`

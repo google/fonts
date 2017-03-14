@@ -19,10 +19,13 @@ if __name__ == '__main__':
 import google_fonts as fonts
 from glyphdata import DATA as GlyphData
 
-
-PURE_UNI_CHR = re.compile('^uni([0-9A-F]{4,6})$', re.IGNORECASE)
+# There's also the form u1014A for higher unicode codepoints next to uni1234
+PURE_UNI_CHR = re.compile('^u(?:ni)?([0-9A-F]{4,6})$', re.IGNORECASE)
 
 FILTER_LISTS_DIR_NAME = 'filter lists'
+
+class MissingCharsetDirectory(Exception):
+    pass
 
 def get_namelist_for_filterlist(filterlistFilename):
     dirname, fileName = os.path.split(filterlistFilename)
@@ -35,7 +38,7 @@ def get_namelist_for_filterlist(filterlistFilename):
     while(len(markerDir) and markerDir != FILTER_LISTS_DIR_NAME):
         namelistDir, markerDir = os.path.split(namelistDir)
     if markerDir != FILTER_LISTS_DIR_NAME:
-        raise Exception('charset directory not found in "{path}".'.format(path=dirname))
+        raise MissingCharsetDirectory('charset directory not found in "{path}".'.format(path=dirname))
 
     # get all the Namelist files from
     for root, dirs, files in os.walk(namelistDir):
@@ -94,6 +97,16 @@ def read_filterlist(filterListFileName):
     return codepoints, noncodes
 
 def production_name_to_friendly_name(name):
+    # The call to get_unicode_by_name at the beginning of this recursive
+    # function is more expensive, but it may get fringe cases
+    # where names with ".", "-" or "_" have a unicode.
+    codepoint = get_unicode_by_name(name)
+    if codepoint is not None:
+        friendly_name = get_name_by_unicode(codepoint, production_name=False) \
+                                        if codepoint is not None else None
+        if friendly_name is not None:
+            return friendly_name
+
     if '_' in name:
         return '_'.join(production_name_to_friendly_name(component)
                                     for component in name.split('_'))
@@ -104,10 +117,7 @@ def production_name_to_friendly_name(name):
     if '-' in name:
         basename, extension = name.split('-', 1)
         return '-'.join([production_name_to_friendly_name(basename), extension])
-    # no '.' no '_' no '-'
-    codepoint = get_unicode_by_name(name)
-    friendly_name = get_name_by_unicode(codepoint, production_name=False)
-    return friendly_name if friendly_name is not None else name
+    return name
 
 def check_filterlist_in_namelist(filterListFileName, namelistCache=None):
     namelistFilename = get_namelist_for_filterlist(filterListFileName)
@@ -167,6 +177,78 @@ def _build_filterlists_in_namelists(f):
 def build_filterlists_in_namelists(files):
     for f in files:
         yield _build_filterlists_in_namelists(f);
+
+
+def check_filterlist_equals_namelist(filterlist, namelistFilename, namelistCache=None):
+    codepoints, noncodes = read_filterlist(filterlist)
+    namelist = fonts.readNamelist(namelistFilename, cache=namelistCache)
+    message = []
+    codepoints_set = set(c for c, _ in codepoints)
+    if codepoints_set != namelist['ownCharset']:
+        formatCodePoints = '0x{0:04X}'.format
+        codepoints_not_in_namelist = codepoints_set - namelist['ownCharset']
+        if len(codepoints_not_in_namelist):
+            message.append('Unicode in filter list missing in Namelist:\n{0}'\
+                        .format(', '.join(formatCodePoints(c) for c
+                                    in sorted(codepoints_not_in_namelist))))
+        codepoints_not_in_filterlist = namelist['ownCharset'] - codepoints_set
+        if len(codepoints_not_in_filterlist):
+            message.append('Unicode in Namelist missing in filter list:\n{0}'\
+                        .format(', '.join(formatCodePoints(c) for c
+                                    in sorted(codepoints_not_in_filterlist))))
+
+    noncodes_set = set(noncodes)
+    if noncodes_set != namelist['ownNoCharcode']:
+        noncodes_not_in_namelist = noncodes_set - namelist['ownNoCharcode']
+        if len(noncodes_not_in_namelist):
+            message.append('Unencoded chars in filter list missing in Namelist:\n{0}'\
+                        .format(', '.join(sorted(noncodes_not_in_namelist))))
+        noncodes_not_in_filterlist = namelist['ownNoCharcode'] - noncodes_set
+        if len(noncodes_not_in_filterlist):
+            message.append('Unencoded in Namelist missing in filter list:\n{0}'\
+                        .format(', '.join(sorted(noncodes_not_in_filterlist))))
+
+    if len(message):
+        message.insert(0, 'Namelist and Filter-List are out of sync.'\
+                    '\n{0}\n{1}'.format(namelistFilename, filterlist))
+        return False, '\n'.join(message), namelistFilename
+    return True, None, namelistFilename
+
+def _build_filterlists_equal_namelists(filterlist, namelistFilename):
+    """
+    Checks if a Namelist e.g. "GF-latin-plus_unique-glyphs.nam" and the
+    filter-list with the exact matching name i.e. "filter lists/plus_unique-glyphs.txt"
+    contain the same set of glyphs.
+
+    "filter lists/plus_unique-glyphs.txt" should be the same set.
+    """
+    test_name = 'test_filterlist_equals_namelist {0}'.format(filterlist)
+    def test_filterlist_equals_namelist(self):
+        passed, message, namelist = check_filterlist_equals_namelist(filterlist, namelistFilename, self._cache)
+        if passed:
+            return
+        self.assertTrue(passed, msg=message)
+    return test_name, test_filterlist_equals_namelist
+
+
+def build_filterlists_equal_namelists(files):
+    for filterlist in files:
+        if 'uni names' in filterlist or 'uni-names' in filterlist:
+            # Only checking nice names. uni-names must be the same set as their
+            # nice names pendant, we have a test for that.
+            continue
+        try:
+            namelist = get_namelist_for_filterlist(filterlist)
+        except MissingCharsetDirectory:
+            # will be reported via the tests using check_filterlist_in_namelist
+            continue
+        # must be a full match, if there's more at the end of filterlist
+        # than at the end of namelist it's likely a specialized subset.
+        fl_name = os.path.basename(filterlist).split('.', 1)[0]
+        nl_name = namelist.split('.', 1)[0]
+        if nl_name.endswith(fl_name):
+            yield _build_filterlists_equal_namelists(filterlist, namelist);
+
 
 def _build_friendly_names_production_names_equal(pathparts, prod_names_file, nice_names_file):
     test_name = 'test_nice_names_uni_names_equal {0}'.format('{marker dir}'.join(pathparts))
@@ -245,7 +327,8 @@ def build_friendly_names_production_names_equal(files):
 def initTestProperties(cls, files):
   initialized = []
   for test_generator in (build_filterlists_in_namelists
-                       , build_friendly_names_production_names_equal):
+                       , build_friendly_names_production_names_equal
+                       , build_filterlists_equal_namelists):
     for testName, test in test_generator(files):
         setattr(cls, testName, test)
 

@@ -276,7 +276,7 @@ def _build_friendly_names_production_names_equal(pathparts, prod_names_file, nic
     test_name = 'test_nice_names_uni_names_equal {0}'.format('{marker dir}'.join(pathparts))
     def test_friendly_names_production_names_equal(self):
         message = []
-        log_message = lambda *args: message.append(' '.join(map(unicode, args)))
+        log_message = lambda *args: message.append(' '.join(args))
 
         log_message('uni names filter list:', prod_names_file)
         log_message('nice names filter list:', nice_names_file)
@@ -354,7 +354,6 @@ def initTestProperties(cls, files):
     for testName, test in test_generator(files):
         setattr(cls, testName, test)
 
-
 class TestFilterLists(unittest.TestCase):
   def setUp(self):
     self._cache = {}
@@ -369,7 +368,7 @@ def main(args):
                                                         ' for nam files.')
     searchDirectory = args[1]
     files = subprocess.check_output(['find', searchDirectory, '-type', 'f', '-path', '*/filter lists/*.txt']).decode("utf-8")
-    files = filter(len, files.split('\n'))
+    files = list(filter(len, files.split('\n')))
     initTestProperties(TestFilterLists, files)
     unittest.main(argv=args[:1] + args[2:], verbosity=2)
 

@@ -62,7 +62,7 @@ def get_namelist_for_filterlist(filterlistFilename):
 
 def get_name_by_unicode(search_codepoint, production_name=False):
     """
-    If this returns None GlyphsData.xml doesn't contain search_codepoint.
+    Returns None if GlyphsData.xml doesn't contain search_codepoint.
     """
     entry = (None, None)
     glyph = GlyphData.by_unicode.get(search_codepoint, None)
@@ -70,8 +70,23 @@ def get_name_by_unicode(search_codepoint, production_name=False):
         entry = (glyph.name, glyph.production_name)
     return entry[1] if production_name else entry[0]
 
+def get_name_by_name(search_name, production_name=False):
+    """
+    Use this if you don't know what exact type your name is. E.g. when
+    the names in your source are mixes friendly names and production names.
+
+    Returns None if GlyphsData.xml doesn't contain search_name.
+    """
+    entry = (None, None)
+    glyph = GlyphData.by_name.get(search_name, None) \
+                            or GlyphData.by_prodname.get(search_name, None)
+    if glyph is not None:
+        entry = (glyph.name, glyph.production_name)
+    return entry[1] if production_name else entry[0]
+
 def get_unicode_by_name(name):
-    glyph = GlyphData.by_name.get(name, None)
+    glyph = GlyphData.by_name.get(name, None) \
+                                or GlyphData.by_prodname.get(name, None)
     if glyph is not None and glyph.unicode is not None:
         return glyph.unicode
     match = PURE_UNI_CHR.match(name)
@@ -96,27 +111,34 @@ def read_filterlist(filterListFileName):
         noncodes.append(name)
     return codepoints, noncodes
 
-def production_name_to_friendly_name(name):
+def translate_name(name, production_name=False):
     # The call to get_unicode_by_name at the beginning of this recursive
     # function is more expensive, but it may get fringe cases
     # where names with ".", "-" or "_" have a unicode.
+
+    new_name = get_name_by_name(name,production_name=production_name)
+    if new_name is not None:
+        return new_name
+
     codepoint = get_unicode_by_name(name)
     if codepoint is not None:
-        friendly_name = get_name_by_unicode(codepoint, production_name=False) \
+        new_name = get_name_by_unicode(codepoint, production_name=production_name) \
                                         if codepoint is not None else None
-        if friendly_name is not None:
-            return friendly_name
+        if new_name is not None:
+            return new_name
 
     if '_' in name:
-        return '_'.join(production_name_to_friendly_name(component)
+        return '_'.join(translate_name(component, production_name=production_name)
                                     for component in name.split('_'))
     if '.' in name:
         basename, extension = name.split('.', 1)
-        return '.'.join([production_name_to_friendly_name(basename), extension])
+        return '.'.join([translate_name(basename, production_name=production_name)
+                                                            , extension])
     # "brevecomb-cy" did not produce a friendly name
     if '-' in name:
         basename, extension = name.split('-', 1)
-        return '-'.join([production_name_to_friendly_name(basename), extension])
+        return '-'.join([translate_name(basename, production_name=production_name)
+                                                            , extension])
     return name
 
 def check_filterlist_in_namelist(filterListFileName, namelistCache=None):
@@ -128,7 +150,7 @@ def check_filterlist_in_namelist(filterListFileName, namelistCache=None):
     useProductionNames = 'uni names' in filterListFileName or 'uni-names' in filterListFileName
     if useProductionNames:
         prod_noncodes = noncodes;
-        noncodes = [production_name_to_friendly_name(name) for name in noncodes]
+        noncodes = [translate_name(name) for name in noncodes]
         noncodes2prodcodes = dict(zip(noncodes, prod_noncodes))
 
     namelist = fonts.readNamelist(namelistFilename, cache=namelistCache)
@@ -146,7 +168,7 @@ def check_filterlist_in_namelist(filterListFileName, namelistCache=None):
                        '\n[{names}]'.format(names=names))
 
     missingNoncodes = []
-    namelistNoCharcode = set(production_name_to_friendly_name(name) for name in namelist['noCharcode'])
+    namelistNoCharcode = set(translate_name(name) for name in namelist['noCharcode'])
     for noncode in noncodes:
         if noncode not in namelistNoCharcode:
             missingNoncodes.append(noncode)
@@ -260,7 +282,7 @@ def _build_friendly_names_production_names_equal(pathparts, prod_names_file, nic
         log_message('nice names filter list:', nice_names_file)
 
         prod_names = get_filterlist_names(prod_names_file)
-        nice_prod_names = [production_name_to_friendly_name(name)
+        nice_prod_names = [translate_name(name)
                                                     for name in prod_names]
         nice_names = get_filterlist_names(nice_names_file)
 

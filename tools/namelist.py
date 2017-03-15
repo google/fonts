@@ -26,8 +26,17 @@
 #   # To reformat all Namelists in a directory.
 #   $ find encodings/GF\ Glyph\ Sets/ -type f -name "*.nam" -exec \
 #       bash -c './namelist.py reformat "{}" > "{}__tmp" && mv "{}__tmp" "{}"' \;
+#
+#   # To generate "uni names" and "nice names" filter lists a Namelist
+#   # This will create the needed directories if missing
+#   $ ./namelist.py generate-filter-lists NameList.nam
+#
+#   # To generate "uni names" and "nice names" filter lists for all Namelists
+#   $ find encodings/GF\ Glyph\ Sets/ -type f -name "*.nam" -exec \
+#       ./namelist.py generate-filter-lists "{}" \;
 from __future__ import print_function, unicode_literals
 import sys
+import os
 from fontTools.ttLib import TTFont
 from fontTools.unicode import Unicode
 import codecs
@@ -73,7 +82,7 @@ def reformat_namelist(filename, out=None):
     if filename == '-':
         _reformat_namelist(codecs.getreader('utf8')(sys.stdin), out)
         return
-    with codecs.open(filename, 'r', 'utf-8') as f:
+    with codecs.open(filename, 'r', encoding='utf-8') as f:
         _reformat_namelist(f, out)
 
 def _reformat_namelist(f, out=None):
@@ -92,7 +101,7 @@ def _reformat_namelist(f, out=None):
             entry = (codepoint, None, line)
         elif line.startswith('      '):
             # unencoded name
-            name = filter_lists.production_name_to_friendly_name(line.rsplit(' ', 1)[1])
+            name = filter_lists.translate_name(line.rsplit(' ', 1)[1])
             entry = (None, name, line)
 
         if entry is not None:
@@ -114,6 +123,47 @@ def _reformat_namelist(f, out=None):
             _print((' '*9 + name))
     # output left over lines at the end of the file
     map(_print, before)
+
+
+def _names_generator(filename):
+    with codecs.open(filename, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.rstrip()
+            if line.startswith('0x'):
+                # uni chr
+                codepoint = google_fonts.get_codepoint_from_line(line)
+                name = filter_lists.get_name_by_unicode(codepoint)
+                if name is None:
+                    prefix = 'u' if codepoint > 0xFFFF else 'uni'
+                    name = '{0}{1:04X}'.format(prefix, codepoint)
+                yield name
+            elif line.startswith(' ' * 6):
+                # unencoded name
+                yield line.rsplit(' ', 1)[1]
+
+def _mkdir(path):
+    try:
+        os.makedirs(path)
+    except OSError as exc:
+        if not os.path.isdir(path):
+          raise exc
+
+def generate_filter_lists(filename):
+    # 'GF-{script}-rest.nam' => {script}-rest
+    basename = os.path.basename(filename).split('.', 1)[0].split('-', 2)[-1]
+    filerListFileName = '{0}.txt'.format(basename)
+    dirname =  os.path.dirname(filename)
+    nice_names_filename = os.path.join(dirname, 'filter lists', 'nice names', filerListFileName)
+    prod_names_filename = os.path.join(dirname, 'filter lists', 'uni names', filerListFileName)
+
+    _mkdir(os.path.dirname(nice_names_filename))
+    _mkdir(os.path.dirname(prod_names_filename))
+
+    with codecs.open(nice_names_filename, 'w', encoding='utf-8') as niceNamesFile, \
+            codecs.open(prod_names_filename, 'w', encoding='utf-8') as prodNamesFile:
+        for name in _names_generator(filename):
+            print(filter_lists.translate_name(name, production_name=False), file=niceNamesFile)
+            print(filter_lists.translate_name(name, production_name=True), file=prodNamesFile)
 
 def _format_codepoint(codepoint):
     if 0xE000 <= codepoint <= 0xF8FF:
@@ -154,6 +204,8 @@ def namelist_from_font(file_name, out=None):
 def main(*args):
     if args[0] == 'reformat':
         reformat_namelist(args[1])
+    if args[0] == 'generate-filter-lists':
+        generate_filter_lists(args[1])
     else:
         namelist_from_font(args[0])
 

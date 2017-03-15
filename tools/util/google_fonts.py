@@ -564,6 +564,18 @@ def _parseNamelistHeader(lines):
     , 'includes': includes
   }
 
+
+def get_codepoint_from_line(line):
+  assert line.startswith('0x')
+  match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7])
+  if match is None:
+    match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7].upper())
+    if match is not None:
+      # Codepoints must be uppercase, it's documented
+      warn('Found a codepoint with lowercase unicode hex value: 0x{0}'.format(match.groups()[0]))
+    return None
+  return int(match.groups()[0], 16)
+
 def _parseNamelist(lines):
   cps = set()
   noncodes = set()
@@ -580,16 +592,11 @@ def _parseNamelist(lines):
     # reading the body, i.e. codepoints
 
     if line.startswith('0x'):
-      match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7])
-      if match is None:
-        match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7]).upper()
-        if match is not None:
-          # Codepoints must be uppercase, it's documented
-          warn('Found a codepoint with lowercase unicode hex value: 0x{0}'.format(match.groups()[0]))
+      codepoint = get_codepoint_from_line(line)
+      if codepoint is None:
         # ignore all lines that we don't understand
         continue
-      codepoint = match.groups()[0]
-      cps.add(int(codepoint, 16))
+      cps.add(codepoint)
       # description
       # line[(2+len(codepoint)),]
     elif line.startswith('      '):

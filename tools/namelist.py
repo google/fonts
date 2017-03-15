@@ -17,13 +17,126 @@
 # namelist.py: A fontTools python script for generating namelist files
 #
 # Usage:
-#
+#   # To make a Namelist from a font file.
 #   $ namelist.py Font.ttf > NameList.nam
+#
+#   # To reformat an existing Namelist.
+#   $ ./namelist.py reformat  NameList.nam > NameList.nam
+#
+#   # To reformat all Namelists in a directory.
+#   $ find encodings/GF\ Glyph\ Sets/ -type f -name "*.nam" -exec \
+#       bash -c './namelist.py reformat "{}" > "{}__tmp" && mv "{}__tmp" "{}"' \;
+from __future__ import print_function, unicode_literals
 import sys
 from fontTools.ttLib import TTFont
 from fontTools.unicode import Unicode
+import codecs
+from util import google_fonts
+from util  import filter_lists
 
-def main(file_name):
+def _get_basechar_unicode(name):
+    codepoint = filter_lists.get_unicode_by_name(name)
+    if codepoint is not None:
+        return codepoint;
+    if '_' in name:
+        # use the first ligature component as base char
+        return _get_basechar_unicode(name.split('_')[0])
+    if '.' in name:
+        return _get_basechar_unicode(name.split('.')[0])
+    return None
+
+def _sortkey_namelist_entries(entry):
+    codepoint, name, _, _ = entry
+    base_codepoint = None
+    extension = None
+
+    if name == 'NULL':
+        codepoint = -float('inf')
+
+    if name:
+
+        if '.' in name:
+            extension = name.split('.')[1]
+        base_codepoint = _get_basechar_unicode(name)
+
+    return tuple([
+        codepoint if codepoint is not None else float('inf')
+          # keep glyphs of one OT-Feature sticking together
+        , extension
+        , base_codepoint if base_codepoint is not None else float('inf')
+        , name
+    ])
+
+def reformat_namelist(filename, out=None):
+    if out is None:
+        out = sys.stdout
+    if filename == '-':
+        _reformat_namelist(codecs.getreader('utf8')(sys.stdin), out)
+        return
+    with codecs.open(filename, 'r', 'utf-8') as f:
+        _reformat_namelist(f, out)
+
+def _reformat_namelist(f, out=None):
+    entries = []
+    before = []
+    header = []
+    for line in f:
+        line = line.rstrip()
+        if (not entries and not before) and line.startswith('#'):
+            header.append(line)
+            continue
+        entry = None
+        if line.startswith('0x'):
+            # uni chr
+            codepoint = google_fonts.get_codepoint_from_line(line)
+            entry = (codepoint, None, line)
+        elif line.startswith('      '):
+            # unencoded name
+            name = filter_lists.production_name_to_friendly_name(line.rsplit(' ', 1)[1])
+            entry = (None, name, line)
+
+        if entry is not None:
+            entry += (before, )
+            before = []
+            entries.append(entry)
+        else:
+            # these lines will stick before the next entry
+            before.append(line)
+
+    entries.sort(key=_sortkey_namelist_entries)
+    _print = lambda *args: print(*args,file=out)
+    map(_print, header)
+    for codepoint, name, original, item_before in entries:
+        map(_print, item_before)
+        if codepoint is not None:
+            _print(format_codepoint(codepoint))
+        elif name is not None:
+            _print((' '*9 + name))
+    # output left over lines at the end of the file
+    map(_print, before)
+
+def _format_codepoint(codepoint):
+    if 0xE000 <= codepoint <= 0xF8FF:
+        item_description = 'PRIVATE USE AREA U+{0:04X}'.format(codepoint)
+        char = ' '
+    elif codepoint == 0x000D:
+        # Special case, this only happens in Latin-core.
+        # FIXME: we should consider remover CR from Latin-core
+        item_description = 'CR'
+        char = ' '
+    else:
+        item_description = Unicode[codepoint].decode('utf-8')
+        char = unichr(codepoint)
+    return ('0x{0:04X}'.format(codepoint)
+          , char
+          , item_description)
+
+def format_codepoint(codepoint):
+    return ' '.join(_format_codepoint(codepoint))
+
+def namelist_from_font(file_name, out=None):
+    if out is None:
+        out = sys.stdout
     excluded_chars = ["????", "SPACE", "NO-BREAK SPACE"]
     font = TTFont(file_name)
     charcodes = set()
@@ -33,10 +146,17 @@ def main(file_name):
         charcodes.update(cp for cp,name in cmap.cmap.items())
     charcodes = sorted(charcodes)
     for charcode in charcodes:
-        item_description = Unicode[charcode]
+        hexchar, char, item_description = _format_codepoint(charcode)
         if item_description not in excluded_chars:
-            print '0x{0:04X}'.format(charcode), unichr(charcode).encode('utf-8'), item_description
+            print(hexchar, char, item_description, file=out)
     font.close()
 
+def main(*args):
+    if args[0] == 'reformat':
+        reformat_namelist(args[1])
+    else:
+        namelist_from_font(args[0])
+
 if __name__ == '__main__':
-    main(sys.argv[1])
+    sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
+    main(*sys.argv[1:])

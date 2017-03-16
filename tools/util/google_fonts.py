@@ -1,14 +1,29 @@
 """Helper APIs for interaction with Google Fonts.
 
 Provides APIs to interact with font subsets, codepoints for font or subset.
+
+To run the tests:
+$ cd fonts/tools
+fonts/tools$ python util/google_fonts.py
+# or do:
+$ python path/to/fonts/tools/utilgoogle_fonts.py --nam_dir path/to/fonts/tools/encodings/
+
 """
+from __future__ import print_function, unicode_literals
+
 import collections
 import contextlib
 import errno
 import os
 import re
 import sys
+import codecs
+from warnings import warn
+import unittest
 
+if __name__ == '__main__':
+  # some of the imports here wouldn't work otherwise
+  sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from fontTools import ttLib
 
@@ -34,6 +49,14 @@ _PLATFORM_ENC_UNICODE_UCS4 = 10
 _PLATFORM_ENCS_UNICODE = (_PLATFORM_ENC_UNICODE_BMP, _PLATFORM_ENC_UNICODE_UCS4)
 
 _FAMILY_WEIGHT_REGEX = r'([^/-]+)-(\w+)\.ttf$'
+
+# Matches 4 or 5 hexadecimal digits that are uppercase at the beginning of the
+# test string. The match is stored in group 0, e.g:
+# >>> _NAMELIST_CODEPOINT_REGEX.match('1234X').groups()[0]
+# '1234'
+# >>> _NAMELIST_CODEPOINT_REGEX.match('1234A').groups()[0]
+# '1234A'
+_NAMELIST_CODEPOINT_REGEX = re.compile('^([A-F0-9]{4,5})')
 
 # The canonical [to Google Fonts] name comes before any aliases
 _KNOWN_WEIGHTS = collections.OrderedDict([
@@ -113,7 +136,7 @@ def ShowOnce(msg):
   if msg in _displayed_errors:
     return
   _displayed_errors.add(msg)
-  print >> sys.stderr, msg
+  print(msg, file=sys.stderr)
 
 
 def UniqueSort(*args):
@@ -178,7 +201,7 @@ def Metadata(file_or_dir):
                      file_or_dir)
 
   msg = fonts_pb2.FamilyProto()
-  with open(metadata_file) as f:
+  with codecs.open(metadata_file, encoding='utf-8') as f:
     text_format.Merge(f.read(), msg)
 
   return msg
@@ -205,13 +228,14 @@ def CodepointsInSubset(subset, unique_glyphs=False):
 
   cps = set()
   for filename in filenames:
-    with open(filename) as f:
+    with codecs.open(filename, encoding='utf-8') as f:
       for line in f:
         if not line.startswith('#'):
-          cps.add(int(line[2:6], 16))
+          match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7])
+          if match is not None:
+            cps.add(int(match.groups()[0], 16))
 
   return cps
-
 
 def CodepointsInFont(font_filename):
   """Returns the set of codepoints present in the font file specified.
@@ -321,7 +345,6 @@ def SubsetsInFont(file_path, min_pct, ext_min_pct=None):
       results.append((subset, len(overlap), len(subset_cps)))
 
   return results
-
 
 def FamilyName(fontname):
   """Attempts to build family name from font name.
@@ -527,4 +550,240 @@ def LicenseFromPath(path):
   """
   return _EntryForEndOfPath(path, _KNOWN_LICENSE_DIRS)
 
+def _parseNamelistHeader(lines):
+  includes = set()
+  for line in lines:
+    if not line.startswith('#$'):
+      # not functional line, regular comment
+      continue
+    keyword, args = line.rstrip()[2:].lstrip().split(' ', 1)
+    if keyword == 'include':
+      includes.add(args)
+  return {
+      'lines': list(lines)
+    , 'includes': includes
+  }
 
+
+def get_codepoint_from_line(line):
+  assert line.startswith('0x')
+  match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7])
+  if match is None:
+    match = _NAMELIST_CODEPOINT_REGEX.match(line[2:7].upper())
+    if match is not None:
+      # Codepoints must be uppercase, it's documented
+      warn('Found a codepoint with lowercase unicode hex value: 0x{0}'.format(match.groups()[0]))
+    return None
+  return int(match.groups()[0], 16)
+
+def _parseNamelist(lines):
+  cps = set()
+  noncodes = set()
+  headerLines = []
+  readingHeader = True
+  for line in lines:
+    if readingHeader:
+      if not line.startswith('#'):
+        # first none comment line ends the header
+        readingHeader = False
+      else:
+        headerLines.append(line)
+        continue
+    # reading the body, i.e. codepoints
+
+    if line.startswith('0x'):
+      codepoint = get_codepoint_from_line(line)
+      if codepoint is None:
+        # ignore all lines that we don't understand
+        continue
+      cps.add(codepoint)
+      # description
+      # line[(2+len(codepoint)),]
+    elif line.startswith('      '):
+      noncode = line.strip().rsplit(' ')[-1]
+      if len(noncode):
+        noncodes.add(noncode)
+
+  header = _parseNamelistHeader(headerLines)
+  return cps, header, noncodes
+
+def parseNamelist(filename):
+  """Parse filename as Namelist and return a tuple of
+    (Codepoints set, header data dict)
+  """
+  with codecs.open(filename, encoding='utf-8') as namFile:
+    return _parseNamelist(namFile)
+
+def _loadNamelistIncludes(item, unique_glyphs, cache):
+  """Load the includes of an encoding Namelist files.
+
+  This is an implementation detail of readNamelist.
+  """
+  includes = item["includes"] = []
+  charset = item["charset"] = set() | item["ownCharset"]
+
+  noCharcode = item["noCharcode"] = set() | item["ownNoCharcode"]
+
+  dirname =  os.path.dirname(item["fileName"])
+  for include in item["header"]["includes"]:
+    includeFile = os.path.join(dirname, include)
+    try:
+      includedItem = readNamelist(includeFile, unique_glyphs, cache)
+    except NamelistRecursionError:
+      continue
+    if includedItem in includes:
+      continue
+    includes.append(includedItem)
+    charset |= includedItem["charset"]
+    noCharcode |= includedItem["ownNoCharcode"]
+  return item
+
+def __readNamelist(cache, filename, unique_glyphs):
+  """Return a dict with the data of an encoding Namelist file.
+
+  This is an implementation detail of readNamelist.
+  """
+  if filename in cache:
+    item = cache[filename]
+  else:
+    cps, header, noncodes = parseNamelist(filename)
+    item = {
+      "fileName": filename
+    , "ownCharset": cps
+    , "header": header
+    , "ownNoCharcode": noncodes
+    , "includes": None # placeholder
+    , "charset": None # placeholder
+    , "noCharcode": None
+    }
+    cache[filename] = item
+
+  if unique_glyphs or item["charset"] is not None:
+    return item
+
+  # full-charset/includes are requested and not cached yet
+  _loadNamelistIncludes(item, unique_glyphs, cache)
+  return item
+
+class NamelistRecursionError(Error):
+  """Exception to control infinite recursion in Namelist includes"""
+  pass
+
+
+def _readNamelist(currentlyIncluding, cache, namFilename, unique_glyphs):
+  """ Detect infinite recursion and prevent it.
+
+  This is an implementation detail of readNamelist.
+
+  Raises NamelistRecursionError if namFilename is in the process of being included
+  """
+  # normalize
+  filename = os.path.abspath(os.path.normcase(namFilename))
+  if filename in currentlyIncluding:
+    raise NamelistRecursionError(filename)
+  currentlyIncluding.add(filename)
+  try:
+    result = __readNamelist(cache, filename, unique_glyphs)
+  finally:
+    currentlyIncluding.remove(filename)
+  return result
+
+def readNamelist(namFilename, unique_glyphs=False, cache=None):
+  """
+  Args:
+    namFilename: The path to the  Namelist file.
+    unique_glyphs: Optional, whether to only include glyphs unique to subset.
+    cache: Optional, a dict used to cache loaded Namelist files
+
+  Returns:
+  A dict with following keys:
+  "fileName": (string) absolut path to namFilename
+  "ownCharset": (set) the set of codepoints defined by the file itself
+  "header": (dict) the result of _parseNamelistHeader
+  "includes":
+      (set) if unique_glyphs=False, the resulting dicts of readNamelist
+            for each of the include files
+      (None) if unique_glyphs=True
+  "charset":
+      (set) if unique_glyphs=False, the union of "ownCharset" and all
+            "charset" items of each included file
+      (None) if unique_glyphs=True
+
+  If you are using  unique_glyphs=True and an external cache, don't expect
+  the keys "includes" and "charset" to have a specific value.
+  Depending on the state of cache, if unique_glyphs=True the returned
+  dict may have None values for its "includes" and "charset" keys.
+  """
+  currentlyIncluding = set()
+  if not cache:
+    cache = {}
+  return _readNamelist(currentlyIncluding, cache, namFilename, unique_glyphs)
+
+def codepointsInNamelist(namFilename, unique_glyphs=False, cache=None):
+  """Returns the set of codepoints contained in a given Namelist file.
+
+  This is a replacement CodepointsInSubset and implements the "#$ include"
+  header format.
+
+  Args:
+    namFilename: The path to the  Namelist file.
+    unique_glyphs: Optional, whether to only include glyphs unique to subset.
+  Returns:
+    A set containing the glyphs in the subset.
+  """
+  key = 'charset' if not unique_glyphs else 'ownCharset'
+  result = readNamelist(namFilename, unique_glyphs, cache)
+  return result[key]
+
+### unit tests ###
+
+def makeTestMethod(subset, namelistFilename):
+  testName = 'test_legacy_subsets_{0}'.format(subset.replace('-', '_'))
+  def test(self):
+    """Compare if the old function CodepointsInSubset and the new function
+    codepointsInNamelist return the same sets.
+    This will only work as long as the #$inlcude statements in the Namelist
+    files reproduce the old dependency logic implemented in CodepointFiles
+    """
+    charsetOldMethod = set(hex(c) for c in CodepointsInSubset(subset
+                                    , unique_glyphs=self.unique_glyphs))
+
+    charsetNewMethod = set(hex(c) for c in codepointsInNamelist(
+          namelistFilename, unique_glyphs=self.unique_glyphs, cache=self._cache))
+    self.assertTrue(len(charsetOldMethod) > 0)
+    self.assertEqual(charsetOldMethod, charsetNewMethod);
+  return testName, test
+
+def initTestProperties(cls):
+  initialized = []
+  for subset in ListSubsets():
+    namelistFilename = CodepointFileForSubset(subset)
+    if namelistFilename is None:
+      continue
+    testName, test = makeTestMethod(subset, namelistFilename)
+    setattr(cls, testName, test)
+    initialized.append(testName)
+  return initialized
+
+
+class TestCodepointReading(unittest.TestCase):
+  unique_glyphs = True
+  _cache = None
+
+  @classmethod
+  def setUpClass(cls):
+    cls._cache = {}
+
+  @classmethod
+  def tearDownClass(cls):
+    cls._cache = None
+
+
+def main(argv):
+  # CodepointFileForSubset needs gflags to be parsed and that happens in
+  # app.run(). Thus, we can't dynamically build our test cases before.
+  initTestProperties(TestCodepointReading)
+  unittest.main(argv=argv, verbosity=2)
+if __name__ == '__main__':
+  from google.apputils import app
+  app.run()

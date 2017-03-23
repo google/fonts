@@ -5,8 +5,8 @@ If the fonts go beyond that list, those additional characters will not be availa
 
 The Google Fonts API uses these files in combination with [pyftsubset](https://github.com/behdad/fonttools/blob/master/Lib/fontTools/subset.py) to generate script subsets from the full `.ttf` files in this repository.
 
-There are "legacy" encodings, the files directly in this directory, and "novel" encodings contained in the `GF 2016 Glyph Sets` subdirectory.
-The latter directory contains itself a [`README.md`]('GF 2016 Glyph Sets/README.md').
+There are "legacy" encodings, the files directly in this directory, and "novel" encodings contained in the `GF Glyph Sets` subdirectory.
+The latter directory contains itself a [`README.md`]('GF Glyph Sets/README.md').
 
 # The "Namelist" file format
 
@@ -25,7 +25,7 @@ This is implemented in the `CodepointFiles` function of [google_fonts.py](../uti
 
 ### *novel* subsetting
 
-The [`README.md`]('GF 2016 Glyph Sets/README.md') describes mostly how each of the Namelist files depend on each other,
+The [`README.md`]('GF Glyph Sets/README.md') describes mostly how each of the Namelist files depend on each other,
 to implement this [header includes](#header) were created.
 
 

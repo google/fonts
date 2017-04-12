@@ -156,6 +156,8 @@ Some useful font editor GUI applications:
 Some useful font tools used in Terminal. 
 When you need to type a filename for a command, you can drag and drop files from finder into Terminal and their full path will be added.
 
+Many of these can be installed conveniently with <https://github.com/twardoch/fontsurgery-tools>
+
 ##### pip
 
 Package manager for installing python tools. 

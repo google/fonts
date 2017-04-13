@@ -17,6 +17,7 @@ Here are a few guides to this culture:
 * A list of [99 anti-patterns](http://opensoul.org/2015/07/22/99ways/)
 * The [Debian Social Contract](https://www.debian.org/social_contract)
 * Dave Crossland's MATD Dissertation, [The Free Font Movement](https://davelab6.github.io/matd-dissertation)
+* SIL's [Font Development Best Practices](http://silnrsi.github.io/FDBP/en-US/index.html) with Technical Guidance Regarding Font Development And Production
 
 ### Github Culture
 

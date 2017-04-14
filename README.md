@@ -13,6 +13,11 @@ Also [/designers](designers) contains a list of the Google+ pages for the fonts'
 
 If you find a problem with a font file, or have a request for future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/google/fonts/issues).
 
+## Self Host Fonts Available From Google Fonts
+
+Since all the fonts available here are licensed with permission to redistribute, subject to the license terms, you can self-host.
+For help doing this, see <https://github.com/majodev/google-webfonts-helper>
+
 ## Download All Google Fonts
 
 You can download all Google Fonts in a simple ZIP snapshot (over 300MB) from <https://github.com/google/fonts/archive/master.zip>

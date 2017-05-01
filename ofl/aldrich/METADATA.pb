@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Aldrich-Regular.ttf"
-  post_script_name: "Aldrich"
-  full_name: "Aldrich"
-  copyright: "Copyright (c) 2011, Matthew Desmond (mattdesmond@gmail.com) All rights reserved."
+  post_script_name: "Aldrich-Regular"
+  full_name: "Aldrich Regular"
+  copyright: "Copyright (c) Matthew Desmond, 2011. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

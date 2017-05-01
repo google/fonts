@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Abel-Regular.ttf"
   post_script_name: "Abel-Regular"
-  full_name: "Abel"
+  full_name: "Abel Regular"
   copyright: "Copyright (c) 2011, Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name Abel."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

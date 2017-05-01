@@ -10,7 +10,7 @@ fonts {
   filename: "Alef-Regular.ttf"
   post_script_name: "Alef-Regular"
   full_name: "Alef Regular"
-  copyright: "Copyright (c) 2012, HaGilda, Mushon Zer-Aviv (http://alef.hagilda.com|alef@hagilda.com), with Reserved Font Name Alef."
+  copyright: "Copyright (c) 2012 by Hagilda. All rights reserved."
 }
 fonts {
   name: "Alef"
@@ -19,8 +19,8 @@ fonts {
   filename: "Alef-Bold.ttf"
   post_script_name: "Alef-Bold"
   full_name: "Alef Bold"
-  copyright: "Copyright (c) 2012, HaGilda, Mushon Zer-Aviv (http://alef.hagilda.com|alef@hagilda.com), with Reserved Font Name Alef."
+  copyright: "Copyright (c) 2012 by Hagilda. All rights reserved."
 }
-subsets: "menu"
 subsets: "hebrew"
 subsets: "latin"
+subsets: "menu"

@@ -10,7 +10,7 @@ fonts {
   filename: "Aclonica-Regular.ttf"
   post_script_name: "Aclonica-Regular"
   full_name: "Aclonica Regular"
-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved."
+  copyright: "Copyright (c) 2010 Brian J. Bonislawsky (astigma@astigmatic.com)"
 }
 subsets: "latin"
 subsets: "menu"

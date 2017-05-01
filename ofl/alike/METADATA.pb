@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Alike-Regular.ttf"
   post_script_name: "Alike-Regular"
-  full_name: "Alike"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name 'Alike'."
+  full_name: "Alike Regular"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \'Alike\'."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

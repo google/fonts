@@ -2,7 +2,7 @@ name: "Gemunu Libre"
 designer: "Mooniak"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2017-02-17"
+date_added: "2017-02-10"
 fonts {
   name: "Gemunu Libre"
   style: "normal"

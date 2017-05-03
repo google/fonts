@@ -7,10 +7,10 @@ fonts {
   name: "Permanent Marker"
   style: "normal"
   weight: 400
-  filename: "PermanentMarker.ttf"
-  post_script_name: "PermanentMarker"
-  full_name: "Permanent Marker"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
+  filename: "PermanentMarker-Regular.ttf"
+  post_script_name: "PermanentMarker-Regular"
+  full_name: "Permanent Marker Regular"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Rancho-Regular.ttf"
-  post_script_name: "Rancho"
-  full_name: "Rancho"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+  post_script_name: "Rancho-Regular"
+  full_name: "Rancho Regular"
+  copyright: "Copyright (c) 2011 by Font Diner, Inc. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

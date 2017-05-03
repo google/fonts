@@ -10,25 +10,25 @@ fonts {
   filename: "OpenSans-Light.ttf"
   post_script_name: "OpenSans-Light"
   full_name: "Open Sans Light"
-  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
+  copyright: "Digitized data copyright  2010-2011, Google Corporation."
 }
 fonts {
   name: "Open Sans"
   style: "italic"
   weight: 300
   filename: "OpenSans-LightItalic.ttf"
-  post_script_name: "OpenSansLight-Italic"
+  post_script_name: "OpenSans-LightItalic"
   full_name: "Open Sans Light Italic"
-  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
+  copyright: "Digitized data copyright  2010-2011, Google Corporation."
 }
 fonts {
   name: "Open Sans"
   style: "normal"
   weight: 400
   filename: "OpenSans-Regular.ttf"
-  post_script_name: "OpenSans"
-  full_name: "Open Sans"
-  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
+  post_script_name: "OpenSans-Regular"
+  full_name: "Open Sans Regular"
+  copyright: "Digitized data copyright  2010-2011, Google Corporation."
 }
 fonts {
   name: "Open Sans"
@@ -37,25 +37,25 @@ fonts {
   filename: "OpenSans-Italic.ttf"
   post_script_name: "OpenSans-Italic"
   full_name: "Open Sans Italic"
-  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
+  copyright: "Digitized data copyright  2010-2011, Google Corporation."
 }
 fonts {
   name: "Open Sans"
   style: "normal"
   weight: 600
-  filename: "OpenSans-Semibold.ttf"
-  post_script_name: "OpenSans-Semibold"
-  full_name: "Open Sans Semibold"
-  copyright: "Digitized data copyright © 2011, Google Corporation."
+  filename: "OpenSans-SemiBold.ttf"
+  post_script_name: "OpenSans-SemiBold"
+  full_name: "Open Sans SemiBold"
+  copyright: "Digitized data copyright  2011, Google Corporation."
 }
 fonts {
   name: "Open Sans"
   style: "italic"
   weight: 600
-  filename: "OpenSans-SemiboldItalic.ttf"
-  post_script_name: "OpenSans-SemiboldItalic"
-  full_name: "Open Sans Semibold Italic"
-  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
+  filename: "OpenSans-SemiBoldItalic.ttf"
+  post_script_name: "OpenSans-SemiBoldItalic"
+  full_name: "Open Sans SemiBold Italic"
+  copyright: "Digitized data copyright  2010-2011, Google Corporation."
 }
 fonts {
   name: "Open Sans"
@@ -64,7 +64,7 @@ fonts {
   filename: "OpenSans-Bold.ttf"
   post_script_name: "OpenSans-Bold"
   full_name: "Open Sans Bold"
-  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
+  copyright: "Digitized data copyright  2010-2011, Google Corporation."
 }
 fonts {
   name: "Open Sans"
@@ -73,32 +73,31 @@ fonts {
   filename: "OpenSans-BoldItalic.ttf"
   post_script_name: "OpenSans-BoldItalic"
   full_name: "Open Sans Bold Italic"
-  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
+  copyright: "Digitized data copyright  2010-2011, Google Corporation."
 }
 fonts {
   name: "Open Sans"
   style: "normal"
   weight: 800
   filename: "OpenSans-ExtraBold.ttf"
-  post_script_name: "OpenSans-Extrabold"
-  full_name: "Open Sans Extrabold"
-  copyright: "Digitized data copyright © 2011, Google Corporation."
+  post_script_name: "OpenSans-ExtraBold"
+  full_name: "Open Sans ExtraBold"
+  copyright: "Digitized data copyright  2011, Google Corporation."
 }
 fonts {
   name: "Open Sans"
   style: "italic"
   weight: 800
   filename: "OpenSans-ExtraBoldItalic.ttf"
-  post_script_name: "OpenSans-ExtraboldItalic"
-  full_name: "Open Sans Extrabold Italic"
-  copyright: "Digitized data copyright © 2010-2011, Google Corporation."
+  post_script_name: "OpenSans-ExtraBoldItalic"
+  full_name: "Open Sans ExtraBold Italic"
+  copyright: "Digitized data copyright  2010-2011, Google Corporation."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
-subsets: "devanagari"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "AutourOne-Regular.ttf"
   post_script_name: "AutourOne-Regular"
-  full_name: "Autour One"
-  copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Autour'"
+  full_name: "Autour One Regular"
+  copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Autour\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Astloch-Regular.ttf"
-  post_script_name: "Astloch"
-  full_name: "Astloch"
-  copyright: "Copyright (c) 2010, 2011 Daniel Rhatigan (sparky@ultrasparky.org) with Reserved Font Name Astloch."
+  post_script_name: "Astloch-Regular"
+  full_name: "Astloch Regular"
+  copyright: "Copyright 2011 The Astloch Project Authors"
 }
 fonts {
   name: "Astloch"
@@ -19,7 +19,7 @@ fonts {
   filename: "Astloch-Bold.ttf"
   post_script_name: "Astloch-Bold"
   full_name: "Astloch Bold"
-  copyright: "Copyright (c) 2010, 2011 Daniel Rhatigan (sparky@ultrasparky.org) with Reserved Font Name Astloch."
+  copyright: ""
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

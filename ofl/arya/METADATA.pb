@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Arya-Regular.ttf"
   post_script_name: "Arya-Regular"
-  full_name: "Arya"
+  full_name: "Arya Regular"
   copyright: "Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular Infotech, Pune, INDIA. All rights reserved."
 }
 fonts {
@@ -21,7 +21,7 @@ fonts {
   full_name: "Arya Bold"
   copyright: "Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular Infotech, Pune, INDIA. All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Buenard-Regular.ttf"
   post_script_name: "Buenard-Regular"
-  full_name: "Buenard"
+  full_name: "Buenard Regular"
   copyright: "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Buenard\" and \"Buenard Pro\"."
 }
 fonts {
@@ -21,6 +21,6 @@ fonts {
   full_name: "Buenard Bold"
   copyright: "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Buenard\" and \"Buenard Pro\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Antic-Regular.ttf"
   post_script_name: "Antic-Regular"
-  full_name: "Antic"
+  full_name: "Antic Regular"
   copyright: "Copyright (c) 2010, 2011, Santiago Orozco <hi@typemade.mx>, with Reserved Font Name \"Antic\""
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

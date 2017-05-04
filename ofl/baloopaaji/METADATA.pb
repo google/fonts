@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "BalooPaaji-Regular.ttf"
   post_script_name: "BalooPaaji-Regular"
-  full_name: "Baloo Paaji"
+  full_name: "Baloo Paaji Regular"
   copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
 }
 subsets: "gurmukhi"

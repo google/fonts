@@ -7,10 +7,10 @@ fonts {
   name: "Annie Use Your Telescope"
   style: "normal"
   weight: 400
-  filename: "AnnieUseYourTelescope.ttf"
-  post_script_name: "AnnieUseYourTelescope"
-  full_name: "Annie Use Your Telescope"
-  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
+  filename: "AnnieUseYourTelescope-Regular.ttf"
+  post_script_name: "AnnieUseYourTelescope-Regular"
+  full_name: "Annie Use Your Telescope Regular"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "Belleza-Regular.ttf"
   post_script_name: "Belleza-Regular"
-  full_name: "Belleza"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Belleza\""
+  full_name: "Belleza Regular"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \"Belleza\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

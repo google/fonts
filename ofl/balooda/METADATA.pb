@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "BalooDa-Regular.ttf"
   post_script_name: "BalooDa-Regular"
-  full_name: "Baloo Da"
+  full_name: "Baloo Da Regular"
   copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
 }
 subsets: "bengali"

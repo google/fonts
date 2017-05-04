@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "BalooChettan-Regular.ttf"
   post_script_name: "BalooChettan-Regular"
-  full_name: "Baloo Chettan"
+  full_name: "Baloo Chettan Regular"
   copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
 }
 subsets: "latin"

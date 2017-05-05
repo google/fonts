@@ -10,7 +10,7 @@ fonts {
   filename: "Ubuntu-Light.ttf"
   post_script_name: "Ubuntu-Light"
   full_name: "Ubuntu Light"
-  copyright: "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+  copyright: "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
 }
 fonts {
   name: "Ubuntu"
@@ -19,16 +19,16 @@ fonts {
   filename: "Ubuntu-LightItalic.ttf"
   post_script_name: "Ubuntu-LightItalic"
   full_name: "Ubuntu Light Italic"
-  copyright: "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+  copyright: "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
 }
 fonts {
   name: "Ubuntu"
   style: "normal"
   weight: 400
   filename: "Ubuntu-Regular.ttf"
-  post_script_name: "Ubuntu"
-  full_name: "Ubuntu"
-  copyright: "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+  post_script_name: "Ubuntu-Regular"
+  full_name: "Ubuntu Regular"
+  copyright: "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
 }
 fonts {
   name: "Ubuntu"
@@ -37,7 +37,7 @@ fonts {
   filename: "Ubuntu-Italic.ttf"
   post_script_name: "Ubuntu-Italic"
   full_name: "Ubuntu Italic"
-  copyright: "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+  copyright: "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
 }
 fonts {
   name: "Ubuntu"
@@ -46,7 +46,7 @@ fonts {
   filename: "Ubuntu-Medium.ttf"
   post_script_name: "Ubuntu-Medium"
   full_name: "Ubuntu Medium"
-  copyright: "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+  copyright: "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
 }
 fonts {
   name: "Ubuntu"
@@ -55,7 +55,7 @@ fonts {
   filename: "Ubuntu-MediumItalic.ttf"
   post_script_name: "Ubuntu-MediumItalic"
   full_name: "Ubuntu Medium Italic"
-  copyright: "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+  copyright: "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
 }
 fonts {
   name: "Ubuntu"
@@ -64,7 +64,7 @@ fonts {
   filename: "Ubuntu-Bold.ttf"
   post_script_name: "Ubuntu-Bold"
   full_name: "Ubuntu Bold"
-  copyright: "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+  copyright: "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
 }
 fonts {
   name: "Ubuntu"
@@ -73,12 +73,12 @@ fonts {
   filename: "Ubuntu-BoldItalic.ttf"
   post_script_name: "Ubuntu-BoldItalic"
   full_name: "Ubuntu Bold Italic"
-  copyright: "Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0"
+  copyright: "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

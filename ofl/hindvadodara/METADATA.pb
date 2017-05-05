@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "HindVadodara-Regular.ttf"
   post_script_name: "HindVadodara-Regular"
-  full_name: "Hind Vadodara"
+  full_name: "Hind Vadodara Regular"
   copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -48,7 +48,7 @@ fonts {
   full_name: "Hind Vadodara Bold"
   copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "gujarati"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

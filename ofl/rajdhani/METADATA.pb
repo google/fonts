@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "Rajdhani-Regular.ttf"
   post_script_name: "Rajdhani-Regular"
-  full_name: "Rajdhani"
+  full_name: "Rajdhani Regular"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -35,8 +35,8 @@ fonts {
   style: "normal"
   weight: 600
   filename: "Rajdhani-SemiBold.ttf"
-  post_script_name: "Rajdhani-Semibold"
-  full_name: "Rajdhani Semibold"
+  post_script_name: "Rajdhani-SemiBold"
+  full_name: "Rajdhani SemiBold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -48,7 +48,7 @@ fonts {
   full_name: "Rajdhani Bold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

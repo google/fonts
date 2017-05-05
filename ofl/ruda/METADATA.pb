@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Ruda-Regular.ttf"
-  post_script_name: "Ruda"
-  full_name: "Ruda"
+  post_script_name: "Ruda-Regular"
+  full_name: "Ruda Regular"
   copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), Copyright (c) 2011, Angelina Sanchez (ange_dg@yahoo.com.ar), With Reserved Font Name \"Ruda\""
 }
 fonts {
@@ -30,6 +30,6 @@ fonts {
   full_name: "Ruda Black"
   copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), Copyright (c) 2011, Angelina Sanchez (ange_dg@yahoo.com.ar), With Reserved Font Name \"Ruda\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

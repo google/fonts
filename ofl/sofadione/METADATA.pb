@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "SofadiOne-Regular.ttf"
   post_script_name: "SofadiOne-Regular"
-  full_name: "Sofadi One"
-  copyright: "Copyright (c) 2011 by Botjo Nikoltchev (post@carrois.com www.carrois.com), with Reserved Font Name 'Sofadi One'"
+  full_name: "Sofadi One Regular"
+  copyright: "Copyright (c) 2011 by Botjo Nikoltchev, with Reserved Font Name \'Sofadi One\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

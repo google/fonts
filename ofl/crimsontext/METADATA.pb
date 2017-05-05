@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "CrimsonText-Regular.ttf"
-  post_script_name: "CrimsonText-Roman"
+  post_script_name: "CrimsonText-Regular"
   full_name: "Crimson Text Regular"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),\nwith Reserved Font Name \"Crimson Text\".\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 fonts {
   name: "Crimson Text"
@@ -19,25 +19,25 @@ fonts {
   filename: "CrimsonText-Italic.ttf"
   post_script_name: "CrimsonText-Italic"
   full_name: "Crimson Text Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),\nwith Reserved Font Name \"Crimson Text\".\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 fonts {
   name: "Crimson Text"
   style: "normal"
   weight: 600
-  filename: "CrimsonText-Semibold.ttf"
-  post_script_name: "CrimsonText-Semibold"
-  full_name: "Crimson Text Bold"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  filename: "CrimsonText-SemiBold.ttf"
+  post_script_name: "CrimsonText-SemiBold"
+  full_name: "Crimson Text SemiBold"
+  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),\nwith Reserved Font Name \"Crimson Text\".\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 fonts {
   name: "Crimson Text"
   style: "italic"
   weight: 600
-  filename: "CrimsonText-SemiboldItalic.ttf"
-  post_script_name: "CrimsonText-SemiboldItalic"
-  full_name: "Crimson Text Bold Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  filename: "CrimsonText-SemiBoldItalic.ttf"
+  post_script_name: "CrimsonText-SemiBoldItalic"
+  full_name: "Crimson Text SemiBold Italic"
+  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),\nwith Reserved Font Name \"Crimson Text\".\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 fonts {
   name: "Crimson Text"
@@ -46,7 +46,7 @@ fonts {
   filename: "CrimsonText-Bold.ttf"
   post_script_name: "CrimsonText-Bold"
   full_name: "Crimson Text Bold"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),\nwith Reserved Font Name \"Crimson Text\".\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 fonts {
   name: "Crimson Text"
@@ -55,7 +55,7 @@ fonts {
   filename: "CrimsonText-BoldItalic.ttf"
   post_script_name: "CrimsonText-BoldItalic"
   full_name: "Crimson Text Bold Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),\nwith Reserved Font Name \"Crimson Text\".\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

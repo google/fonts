@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "Khula-Regular.ttf"
   post_script_name: "Khula-Regular"
-  full_name: "Khula"
+  full_name: "Khula Regular"
   copyright: "Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized data copyright 2010, Google Corporation."
 }
 fonts {
@@ -26,8 +26,8 @@ fonts {
   style: "normal"
   weight: 600
   filename: "Khula-SemiBold.ttf"
-  post_script_name: "Khula-Semibold"
-  full_name: "Khula Semibold"
+  post_script_name: "Khula-SemiBold"
+  full_name: "Khula SemiBold"
   copyright: "Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized data copyright 2010, Google Corporation."
 }
 fonts {
@@ -48,7 +48,7 @@ fonts {
   full_name: "Khula ExtraBold"
   copyright: "Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized data copyright 2010, Google Corporation."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

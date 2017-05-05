@@ -63,7 +63,7 @@ fonts {
   weight: 400
   filename: "Kanit-Regular.ttf"
   post_script_name: "Kanit-Regular"
-  full_name: "Kanit"
+  full_name: "Kanit Regular"
   copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
 }
 fonts {
@@ -165,8 +165,8 @@ fonts {
   full_name: "Kanit Black Italic"
   copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"

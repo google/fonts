@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "Halant-Regular.ttf"
   post_script_name: "Halant-Regular"
-  full_name: "Halant"
+  full_name: "Halant Regular"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -34,9 +34,9 @@ fonts {
   name: "Halant"
   style: "normal"
   weight: 600
-  filename: "Halant-Semibold.ttf"
-  post_script_name: "Halant-Semibold"
-  full_name: "Halant Semibold"
+  filename: "Halant-SemiBold.ttf"
+  post_script_name: "Halant-SemiBold"
+  full_name: "Halant SemiBold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -48,7 +48,7 @@ fonts {
   full_name: "Halant Bold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

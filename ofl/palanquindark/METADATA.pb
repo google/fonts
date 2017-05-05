@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "PalanquinDark-Regular.ttf"
   post_script_name: "PalanquinDark-Regular"
-  full_name: "Palanquin Dark"
+  full_name: "Palanquin Dark Regular"
   copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
 fonts {
@@ -39,7 +39,7 @@ fonts {
   full_name: "Palanquin Dark Bold"
   copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Simonetta-Regular.ttf"
   post_script_name: "Simonetta-Regular"
-  full_name: "Simonetta"
-  copyright: "Copyright (c) 2011, BrownFox (www.brownfox.org info@brownfox.org), with Reserved Font Name \"Simonetta\""
+  full_name: "Simonetta Regular"
+  copyright: "Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com), with Reserved Font Name \"Simonetta\""
 }
 fonts {
   name: "Simonetta"
@@ -19,7 +19,7 @@ fonts {
   filename: "Simonetta-Italic.ttf"
   post_script_name: "Simonetta-Italic"
   full_name: "Simonetta Italic"
-  copyright: "Copyright (c) 2011, BrownFox (www.brownfox.org info@brownfox.org), with Reserved Font Name \"Simonetta\""
+  copyright: "Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com), with Reserved Font Name \"Simonetta\""
 }
 fonts {
   name: "Simonetta"
@@ -28,7 +28,7 @@ fonts {
   filename: "Simonetta-Black.ttf"
   post_script_name: "Simonetta-Black"
   full_name: "Simonetta Black"
-  copyright: "Copyright (c) 2011-2012, Brownfox (www.brownfox.org info@brownfox.org), with Reserved Font Name \"Simonetta\""
+  copyright: "Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com), with Reserved Font Name \"Simonetta\""
 }
 fonts {
   name: "Simonetta"
@@ -37,8 +37,8 @@ fonts {
   filename: "Simonetta-BlackItalic.ttf"
   post_script_name: "Simonetta-BlackItalic"
   full_name: "Simonetta Black Italic"
-  copyright: "Copyright (c) 2011-2012, Brownfox (www.brownfox.org info@brownfox.org), with Reserved Font Name \"Simonetta\""
+  copyright: "Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com), with Reserved Font Name \"Simonetta\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

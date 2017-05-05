@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Eczar-Regular.ttf"
   post_script_name: "Eczar-Regular"
-  full_name: "Eczar"
+  full_name: "Eczar Regular"
   copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
 }
 fonts {
@@ -48,7 +48,7 @@ fonts {
   full_name: "Eczar ExtraBold"
   copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

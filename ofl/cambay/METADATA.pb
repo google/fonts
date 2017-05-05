@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Cambay-Regular.ttf"
   post_script_name: "Cambay-Regular"
-  full_name: "Cambay"
+  full_name: "Cambay Regular"
   copyright: "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
 }
 fonts {
@@ -39,7 +39,7 @@ fonts {
   full_name: "Cambay Bold Italic"
   copyright: "Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

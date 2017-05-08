@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "HindGuntur-Regular.ttf"
   post_script_name: "HindGuntur-Regular"
-  full_name: "Hind Guntur"
+  full_name: "Hind Guntur Regular"
   copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -48,7 +48,7 @@ fonts {
   full_name: "Hind Guntur Bold"
   copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "telugu"

@@ -9,18 +9,18 @@ fonts {
   weight: 400
   filename: "ElsieSwashCaps-Regular.ttf"
   post_script_name: "ElsieSwashCaps-Regular"
-  full_name: "Elsie Swash Caps"
-  copyright: "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Elsie'"
+  full_name: "Elsie Swash Caps Regular"
+  copyright: "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name \'Elsie\'"
 }
 fonts {
   name: "Elsie Swash Caps"
   style: "normal"
   weight: 900
   filename: "ElsieSwashCaps-Black.ttf"
-  post_script_name: "ElsieSwashCapsBlack-Regular"
-  full_name: "Elsie Swash Caps Blacks"
-  copyright: "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name 'Elsie'"
+  post_script_name: "ElsieSwashCaps-Black"
+  full_name: "Elsie Swash Caps Black"
+  copyright: "Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with Reserved Font Name \'Elsie\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Alegreya-Regular.ttf"
   post_script_name: "Alegreya-Regular"
-  full_name: "Alegreya"
+  full_name: "Alegreya Regular"
   copyright: "Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names \"Alegreya\" \"Alegreya SC\""
 }
 fonts {
@@ -57,6 +57,6 @@ fonts {
   full_name: "Alegreya Black Italic"
   copyright: "Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names \"Alegreya\" \"Alegreya SC\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

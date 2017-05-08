@@ -44,8 +44,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "JosefinSlab-Regular.ttf"
-  post_script_name: "JosefinSlab"
-  full_name: "Josefin Slab"
+  post_script_name: "JosefinSlab-Regular"
+  full_name: "Josefin Slab Regular"
   copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
 }
 fonts {
@@ -93,5 +93,5 @@ fonts {
   full_name: "Josefin Slab Bold Italic"
   copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "CinzelDecorative-Regular.ttf"
   post_script_name: "CinzelDecorative-Regular"
-  full_name: "CinzelDecorative-Regular"
-  copyright: "Copyright (c) 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name 'Cinzel'"
+  full_name: "Cinzel Decorative Regular"
+  copyright: "Copyright  2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name \'Cinzel\'"
 }
 fonts {
   name: "Cinzel Decorative"
@@ -19,7 +19,7 @@ fonts {
   filename: "CinzelDecorative-Bold.ttf"
   post_script_name: "CinzelDecorative-Bold"
   full_name: "Cinzel Decorative Bold"
-  copyright: "Copyright (c) 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name 'Cinzel'"
+  copyright: "Copyright  2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name \'Cinzel\'"
 }
 fonts {
   name: "Cinzel Decorative"
@@ -28,7 +28,7 @@ fonts {
   filename: "CinzelDecorative-Black.ttf"
   post_script_name: "CinzelDecorative-Black"
   full_name: "Cinzel Decorative Black"
-  copyright: "Copyright (c) 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name 'Cinzel'"
+  copyright: "Copyright  2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name \'Cinzel\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

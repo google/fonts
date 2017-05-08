@@ -10,7 +10,7 @@ fonts {
   filename: "Flamenco-Light.ttf"
   post_script_name: "Flamenco-Light"
   full_name: "Flamenco Light"
-  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Flamenco\""
+  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with Reserved Font Names \"Flamenco\""
 }
 fonts {
   name: "Flamenco"
@@ -18,9 +18,8 @@ fonts {
   weight: 400
   filename: "Flamenco-Regular.ttf"
   post_script_name: "Flamenco-Regular"
-  full_name: "Flamenco"
-  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Flamenco\""
+  full_name: "Flamenco Regular"
+  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with Reserved Font Names \"Flamenco\""
 }
-subsets: "menu"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"

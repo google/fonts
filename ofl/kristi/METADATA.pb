@@ -7,10 +7,10 @@ fonts {
   name: "Kristi"
   style: "normal"
   weight: 400
-  filename: "Kristi.ttf"
-  post_script_name: "Kristi"
-  full_name: "Kristi"
+  filename: "Kristi-Regular.ttf"
+  post_script_name: "Kristi-Regular"
+  full_name: "Kristi Regular"
   copyright: "Copyright (c) 2010, Birgit Pulk (birgitpulk@gmail.com). All rights reserved. Licenced under SIL OFL v1.1"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

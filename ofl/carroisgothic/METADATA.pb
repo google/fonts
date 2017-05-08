@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "CarroisGothic-Regular.ttf"
   post_script_name: "CarroisGothic-Regular"
-  full_name: "Carrois Gothic"
-  copyright: "Copyright (c) 2011 by Ralph du Carrois (www.carrois.com post@carrois.com), with Reserved Font Name 'Carrois'"
+  full_name: "Carrois Gothic Regular"
+  copyright: "Copyright (c) 2011 by Ralph du Carrois, with Reserved Font Name \'Carrois\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

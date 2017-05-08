@@ -7,11 +7,11 @@ fonts {
   name: "Coda Caption"
   style: "normal"
   weight: 800
-  filename: "CodaCaption-Heavy.ttf"
-  post_script_name: "CodaCaption-Heavy"
-  full_name: "Coda Caption Heavy"
-  copyright: "Copyright (c) 2009 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name 'Coda'. All rights reserved."
+  filename: "CodaCaption-ExtraBold.ttf"
+  post_script_name: "CodaCaption-ExtraBold"
+  full_name: "Coda Caption ExtraBold"
+  copyright: "Copyright (c) 2009 by vernon adams. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

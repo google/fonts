@@ -10,7 +10,7 @@ fonts {
   filename: "Coustard-Regular.ttf"
   post_script_name: "Coustard-Regular"
   full_name: "Coustard Regular"
-  copyright: "Copyright (c) 2011 by vernon adams. All rights reserved. with\nReserved Font Names \"Coustard\" and \"Coustard Regular\". This\nFont Software is licensed under the SIL Open Font License, Version\n1.1. This license is available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+  copyright: "Copyright 2011 Vernon Adams (vern@newtypography.co.uk)"
 }
 fonts {
   name: "Coustard"
@@ -19,7 +19,7 @@ fonts {
   filename: "Coustard-Black.ttf"
   post_script_name: "Coustard-Black"
   full_name: "Coustard Black"
-  copyright: "Copyright (c) 2011 by vernon adams. All rights reserved. with\nReserved Font Names \"Coustard\" and \"Coustard Black\". This\nFont Software is licensed under the SIL Open Font License, Version\n1.1. This license is available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+  copyright: "Copyright 2011 Vernon Adams (vern@newtypography.co.uk)"
 }
 subsets: "latin"
 subsets: "menu"

@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "ABeeZee-Regular.ttf"
   post_script_name: "ABeeZee-Regular"
-  full_name: "ABeeZee"
-  copyright: "Copyright (c) 2011 by Anja Meiners (www.carrois.com post@carrois.com), with Reserved Font Name 'ABeeZee'"
+  full_name: "ABeeZee Regular"
+  copyright: "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name \'ABeeZee\'"
 }
 fonts {
   name: "ABeeZee"
@@ -19,7 +19,7 @@ fonts {
   filename: "ABeeZee-Italic.ttf"
   post_script_name: "ABeeZee-Italic"
   full_name: "ABeeZee Italic"
-  copyright: "Copyright (c) 2011 by Anja Meiners (www.carrois.com post@carrois.com), with Reserved Font Name 'ABeeZee'"
+  copyright: "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name \'ABeeZee\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

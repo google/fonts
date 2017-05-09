@@ -10,7 +10,7 @@ fonts {
   filename: "Teko-Light.ttf"
   post_script_name: "Teko-Light"
   full_name: "Teko Light"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014 Indian Type Foundry. All rights reserved."
 }
 fonts {
   name: "Teko"
@@ -19,7 +19,7 @@ fonts {
   filename: "Teko-Regular.ttf"
   post_script_name: "Teko-Regular"
   full_name: "Teko Regular"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014 Indian Type Foundry. All rights reserved."
 }
 fonts {
   name: "Teko"
@@ -28,7 +28,7 @@ fonts {
   filename: "Teko-Medium.ttf"
   post_script_name: "Teko-Medium"
   full_name: "Teko Medium"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014 Indian Type Foundry. All rights reserved."
 }
 fonts {
   name: "Teko"
@@ -37,7 +37,7 @@ fonts {
   filename: "Teko-SemiBold.ttf"
   post_script_name: "Teko-SemiBold"
   full_name: "Teko SemiBold"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014 Indian Type Foundry. All rights reserved."
 }
 fonts {
   name: "Teko"
@@ -46,9 +46,9 @@ fonts {
   filename: "Teko-Bold.ttf"
   post_script_name: "Teko-Bold"
   full_name: "Teko Bold"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014 Indian Type Foundry. All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

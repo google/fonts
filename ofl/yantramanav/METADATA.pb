@@ -27,7 +27,7 @@ fonts {
   weight: 400
   filename: "Yantramanav-Regular.ttf"
   post_script_name: "Yantramanav-Regular"
-  full_name: "Yantramanav"
+  full_name: "Yantramanav Regular"
   copyright: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
 }
 fonts {
@@ -57,7 +57,7 @@ fonts {
   full_name: "Yantramanav Black"
   copyright: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

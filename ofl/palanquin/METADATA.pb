@@ -66,7 +66,7 @@ fonts {
   full_name: "Palanquin Bold"
   copyright: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

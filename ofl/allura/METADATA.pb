@@ -10,7 +10,7 @@ fonts {
   filename: "Allura-Regular.ttf"
   post_script_name: "Allura-Regular"
   full_name: "Allura Regular"
-  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),\rwith Reserved Font Name \"Allura\""
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Allura\""
 }
 subsets: "latin"
 subsets: "latin-ext"

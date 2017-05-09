@@ -10,7 +10,7 @@ fonts {
   filename: "Tienne-Regular.ttf"
   post_script_name: "Tienne-Regular"
   full_name: "Tienne Regular"
-  copyright: "Copyright (c) 2011 by vernon adams. All rights reserved. with Reserved Font Names \"Tienne\" and \"Tienne Regular\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names \'Tienne\'"
 }
 fonts {
   name: "Tienne"
@@ -19,7 +19,7 @@ fonts {
   filename: "Tienne-Bold.ttf"
   post_script_name: "Tienne-Bold"
   full_name: "Tienne Bold"
-  copyright: "Copyright (c) 2011 by vernon adams. All rights reserved. with Reserved Font Names \"Tienne\" and \"Tienne Regular\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names \'Tienne\'"
 }
 fonts {
   name: "Tienne"
@@ -28,7 +28,7 @@ fonts {
   filename: "Tienne-Black.ttf"
   post_script_name: "Tienne-Black"
   full_name: "Tienne Black"
-  copyright: "Copyright (c) 2011 by vernon adams. All rights reserved. with Reserved Font Names \"Tienne\" and \"Tienne Regular\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names \'Tienne\'"
 }
 subsets: "latin"
 subsets: "menu"

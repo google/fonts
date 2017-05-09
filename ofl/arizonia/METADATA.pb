@@ -10,7 +10,7 @@ fonts {
   filename: "Arizonia-Regular.ttf"
   post_script_name: "Arizonia-Regular"
   full_name: "Arizonia Regular"
-  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),\rwith Reserved Font Name \"Arizonia\""
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Arizonia\""
 }
 subsets: "latin"
 subsets: "latin-ext"

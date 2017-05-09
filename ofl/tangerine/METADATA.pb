@@ -7,19 +7,19 @@ fonts {
   name: "Tangerine"
   style: "normal"
   weight: 400
-  filename: "Tangerine_Regular.ttf"
-  post_script_name: "Tangerine"
-  full_name: "Tangerine"
-  copyright: "Copyright (c) 2010 by Toshi Omagari (tosche@mac.com). All rights reserved."
+  filename: "Tangerine-Regular.ttf"
+  post_script_name: "Tangerine-Regular"
+  full_name: "Tangerine Regular"
+  copyright: "Copyright (c) 2010 by Toshi Omagari. All rights reserved."
 }
 fonts {
   name: "Tangerine"
   style: "normal"
   weight: 700
-  filename: "Tangerine_Bold.ttf"
+  filename: "Tangerine-Bold.ttf"
   post_script_name: "Tangerine-Bold"
   full_name: "Tangerine Bold"
-  copyright: "Copyright (c) 2010 by Toshi Omagari (tosche@mac.com). All rights reserved."
+  copyright: "Copyright (c) 2010 by Toshi Omagari. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

@@ -889,6 +889,10 @@ It’s not always obvious what OpenType code in a font does, particularly with n
 
 TODO As of March 2016 this Glyphs tutorial is incomplete, we should find how what is needed to make it complete.
 
+#### French
+
+* http://typedrawers.com/discussion/comment/27837/#Comment_27837 Spacing can be made specific for French. 
+
 #### German 
 
 * https://www.glyphsapp.com/tutorials/localize-your-font-german-capital-sharp-s

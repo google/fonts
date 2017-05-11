@@ -44,12 +44,12 @@ Basic Polytonic Greek
 
 * Polytonic UC `ἈἉἊἋἌἍἎἏἘἙἚἛἜἝἨἩἪἫἬἭἮἯἸἹἺἻἼἽἾἿὈὉὊὋὌὍὙὛὝὟὨὩὪὫὬὭὮὯᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾸᾹᾺΆᾼῈΈῊΉῌῘῙῚΊῨῩῪΎῬῸΌῺΏῼ `
 * Polytonic LC ` ἀἁἂἃἄἅἆἇἐἑἒἓἔἕἠἡἢἣἤἥἦἧἰἱἲἳἴἵἶἷὀὁὂὃὄὅὐὑὒὓὔὕὖὗὠὡὢὣὤὥὦὧὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾕᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧᾰᾱᾲᾳᾴᾶᾷιῂῃῄῆῇῐῑῒΐῖῗῠῡῢΰῤῥῦῧῲῳῴῶῷ `
-* Accents ```   ́ `  ͂ `  ```
-* Breathings `  ̔  ̓ `
-* Combinations ` ῁ ῍ ῎ ῏ ῝ ῞ ῟ `
+* Accents ```   ́ ` ῀ `  ```
+* Breathings ` ῾ ᾿ `
+* Combinations ` ῁ ῍ ῎ ῏ ῝ ῞ ῟  ̈́ `
 * Diactritics `  ͅ ι `
-* Punctuation `  ̓ `
-* Combining Marks ` ͂ ̓ ̈́ ͅ `
+* Punctuation ` ᾽ `
+* Combining Marks `  ̓ ΅  ͂ ͅ `
 * Iota Adscript as ss01 `ᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯᾼῌῼ`
 
 ### 3. GF Greek Expert, 283 glyphs total

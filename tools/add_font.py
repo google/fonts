@@ -1,4 +1,28 @@
+"""
+add_font.py:
+~~~~~~~~~~~~
 
+Generate METADATA.pb files for font families.
+
+METADATA.pb files are used to serve the families on http://fonts.google.com.
+
+Font families are stored in this repo by license type. The following
+directories contain font families:
+
+../fonts/ofl
+../fonts/apache
+../fonts/ufl
+
+
+Generating a METADATA.pb file for a new family:
+
+1. Determine the family's license type, ofl, ufl or apache
+2. Create a new folder under the license type directory
+3. Name the folder so it's the family name, all lowercase and no spaces.
+4. Run the following: python add_font.py /path/to/new/family
+5. Update the category field in the generated METADATA.pb file.
+
+"""
 import errno
 import glob
 import os
@@ -134,7 +158,7 @@ def _WriteTextFile(filename, text):
 
 
 def main(args=None):
-  parser = ArgumentParser()
+  parser = ArgumentParser(description=__doc__)
   parser.add_argument('fontdir',
                       help='path to font family')
   args = parser.parse_args()

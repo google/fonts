@@ -22,6 +22,11 @@ Generating a METADATA.pb file for a new family:
 4. Run the following: python add_font.py /path/to/new/family
 5. Update the category field in the generated METADATA.pb file.
 
+
+Generating a METADATA.pb file for an existing family:
+
+1. run the following: python add_font.py /path/to/existing/family --update
+
 """
 import errno
 import glob

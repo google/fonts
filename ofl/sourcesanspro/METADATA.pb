@@ -10,16 +10,16 @@ fonts {
   filename: "SourceSansPro-ExtraLight.ttf"
   post_script_name: "SourceSansPro-ExtraLight"
   full_name: "Source Sans Pro ExtraLight"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
   style: "italic"
   weight: 200
   filename: "SourceSansPro-ExtraLightItalic.ttf"
-  post_script_name: "SourceSansPro-ExtraLightIt"
+  post_script_name: "SourceSansPro-ExtraLightItalic"
   full_name: "Source Sans Pro ExtraLight Italic"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
@@ -28,16 +28,16 @@ fonts {
   filename: "SourceSansPro-Light.ttf"
   post_script_name: "SourceSansPro-Light"
   full_name: "Source Sans Pro Light"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
   style: "italic"
   weight: 300
   filename: "SourceSansPro-LightItalic.ttf"
-  post_script_name: "SourceSansPro-LightIt"
+  post_script_name: "SourceSansPro-LightItalic"
   full_name: "Source Sans Pro Light Italic"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
@@ -45,35 +45,35 @@ fonts {
   weight: 400
   filename: "SourceSansPro-Regular.ttf"
   post_script_name: "SourceSansPro-Regular"
-  full_name: "Source Sans Pro"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  full_name: "Source Sans Pro Regular"
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
   style: "italic"
   weight: 400
   filename: "SourceSansPro-Italic.ttf"
-  post_script_name: "SourceSansPro-It"
+  post_script_name: "SourceSansPro-Italic"
   full_name: "Source Sans Pro Italic"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
   style: "normal"
   weight: 600
-  filename: "SourceSansPro-Semibold.ttf"
-  post_script_name: "SourceSansPro-Semibold"
-  full_name: "Source Sans Pro Semibold"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  filename: "SourceSansPro-SemiBold.ttf"
+  post_script_name: "SourceSansPro-SemiBold"
+  full_name: "Source Sans Pro SemiBold"
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
   style: "italic"
   weight: 600
-  filename: "SourceSansPro-SemiboldItalic.ttf"
-  post_script_name: "SourceSansPro-SemiboldIt"
-  full_name: "Source Sans Pro Semibold Italic"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  filename: "SourceSansPro-SemiBoldItalic.ttf"
+  post_script_name: "SourceSansPro-SemiBoldItalic"
+  full_name: "Source Sans Pro SemiBold Italic"
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
@@ -82,16 +82,16 @@ fonts {
   filename: "SourceSansPro-Bold.ttf"
   post_script_name: "SourceSansPro-Bold"
   full_name: "Source Sans Pro Bold"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
   style: "italic"
   weight: 700
   filename: "SourceSansPro-BoldItalic.ttf"
-  post_script_name: "SourceSansPro-BoldIt"
+  post_script_name: "SourceSansPro-BoldItalic"
   full_name: "Source Sans Pro Bold Italic"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
@@ -100,18 +100,22 @@ fonts {
   filename: "SourceSansPro-Black.ttf"
   post_script_name: "SourceSansPro-Black"
   full_name: "Source Sans Pro Black"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Sans Pro"
   style: "italic"
   weight: 900
   filename: "SourceSansPro-BlackItalic.ttf"
-  post_script_name: "SourceSansPro-BlackIt"
+  post_script_name: "SourceSansPro-BlackItalic"
   full_name: "Source Sans Pro Black Italic"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+  copyright: "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
-subsets: "menu"
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek"
+subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

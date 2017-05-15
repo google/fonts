@@ -29,6 +29,8 @@ import os
 import re
 import sys
 import time
+import requests
+import json
 from argparse import ArgumentParser
 
 import fonts_public_pb2 as fonts_pb2
@@ -48,6 +50,30 @@ flags.DEFINE_integer('min_pct_ext', 10,
                      ' for a -ext subset.')
 
 
+def family_url(name):
+  url_prefix = 'http://fonts.google.com/specimen/'
+  dl_name = name.replace(' ', '+')
+  return url_prefix + dl_name
+
+
+def family_exists(name):
+  """Check if a font family exists on fonts.google.com"""
+  url = family_url(name)
+  request = requests.get(url)
+  if request.status_code == 200:
+      return True
+  return False
+
+
+def _GetFamilyMetaData(name):
+  """Get family information from the frontend GF api"""
+  api_prefix = 'http://fonts.google.com/metadata/fonts/'
+  if family_exists(name):
+    url = api_prefix + name.replace(' ', '+')
+    request = requests.get(url)
+
+    return json.loads(request.text[5:])
+  return None
 
 
 def _FileFamilyStyleWeights(fontdir):
@@ -84,7 +110,7 @@ def _FileFamilyStyleWeights(fontdir):
   return result
 
 
-def _MakeMetadata(fontdir):
+def _MakeMetadata(fontdir, update=False):
   """Builds a dictionary matching a METADATA.pb file.
 
   Args:
@@ -101,16 +127,26 @@ def _MakeMetadata(fontdir):
 
   font_license = fonts.LicenseFromPath(fontdir)
 
+  if update:
+    prev_meta = _GetFamilyMetaData(file_family_style_weights[0].family)
+  else:
+    prev_meta = None
 
   metadata = fonts_pb2.FamilyProto()
   metadata.name = file_family_style_weights[0].family
-  metadata.designer = 'Unknown'
-  metadata.category = 'SANS_SERIF'
+  if prev_meta:
+    metadata.designer = ', '.join([d['name'] for d in prev_meta['designers']])
+    metadata.category = prev_meta['category'].upper().replace(' ', '_')
+    metadata.date_added = prev_meta['lastModified']
+  else:
+    metadata.designer = 'UNKNOWN'
+    metadata.category = 'SANS_SERIF'
+    metadata.date_added = time.strftime('%Y-%m-%d')
   metadata.license = font_license
+
   subsets = sorted(subsets)
   for subset in subsets:
     metadata.subsets.append(subset)
-  metadata.date_added = time.strftime('%Y-%m-%d')
 
   for (fontfile, family, style, weight) in file_family_style_weights:
     filename = os.path.basename(fontfile)
@@ -161,9 +197,15 @@ def main(args=None):
   parser = ArgumentParser(description=__doc__)
   parser.add_argument('fontdir',
                       help='path to font family')
+  parser.add_argument('--update', '-u',
+                      action='store_true',
+                      help="Update an existing family's METADATA.pb file")
   args = parser.parse_args()
 
-  metadata = _MakeMetadata(args.fontdir)
+  if args.update:
+    metadata = _MakeMetadata(args.fontdir, update=True)
+  else:
+    metadata = _MakeMetadata(args.fontdir)
   text_proto = text_format.MessageToString(metadata)
 
   desc = os.path.join(args.fontdir, 'DESCRIPTION.en_us.html')

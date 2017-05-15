@@ -5,6 +5,7 @@ import os
 import re
 import sys
 import time
+from argparse import ArgumentParser
 
 import fonts_public_pb2 as fonts_pb2
 from google.protobuf import text_format
@@ -132,21 +133,22 @@ def _WriteTextFile(filename, text):
 
 
 
-def main(argv):
-  if len(argv) != 2:
-    sys.exit('One argument, a directory containing a font family')
-  fontdir = argv[1]
+def main(args=None):
+  parser = ArgumentParser()
+  parser.add_argument('fontdir',
+                      help='path to font family')
+  args = parser.parse_args()
 
-  metadata = _MakeMetadata(fontdir)
+  metadata = _MakeMetadata(args.fontdir)
   text_proto = text_format.MessageToString(metadata)
 
-  desc = os.path.join(fontdir, 'DESCRIPTION.en_us.html')
+  desc = os.path.join(args.fontdir, 'DESCRIPTION.en_us.html')
   if os.path.isfile(desc):
     print 'DESCRIPTION.en_us.html exists'
   else:
     _WriteTextFile(desc, 'N/A')
 
-  _WriteTextFile(os.path.join(fontdir, 'METADATA.pb'), text_proto)
+  _WriteTextFile(os.path.join(args.fontdir, 'METADATA.pb'), text_proto)
 
 
 

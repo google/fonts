@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "Laila-Regular.ttf"
   post_script_name: "Laila-Regular"
-  full_name: "Laila"
+  full_name: "Laila Regular"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -34,9 +34,9 @@ fonts {
   name: "Laila"
   style: "normal"
   weight: 600
-  filename: "Laila-Semibold.ttf"
-  post_script_name: "Laila-Semibold"
-  full_name: "Laila Semibold"
+  filename: "Laila-SemiBold.ttf"
+  post_script_name: "Laila-SemiBold"
+  full_name: "Laila SemiBold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -48,7 +48,7 @@ fonts {
   full_name: "Laila Bold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

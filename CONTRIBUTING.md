@@ -12,9 +12,9 @@ You generally only need to submit the Google CLA once, so if you've already subm
 After your contribution is included, you will be listed in [CONTRIBUTORS](CONTRIBUTORS) and/or [AUTHORS](AUTHORS) files; 
 CONTRIBUTORS is the official list of people who can contribute (and typically have contributed) code to this repository, while the AUTHORS file lists the copyright holders.
 
-# Font Requirements
+# New Font Family Requirements
 
-If you would like to include a font family in the Google Fonts collection we'll be very happy to include it, if it meets the following criteria:
+If you would like to include a new font family in the Google Fonts collection we'll be very happy to include it, if it also meets the following criteria:
 
 * The typeface design is original, or a legitimate revival of a design in the public domain, and of good quality. The Google Design team curates the overall Google Fonts collection and decides if fonts are of good quality. You can get general reviews of your project from the wider international type community during development by posting review requests in the [googlefonts-discuss](https://groups.google.com/forum/#!forum/googlefonts-discuss) group, and the [typedrawers](http://typedrawers.com/categories/critiques%E2%80%94type-design) review forum. 
 * The project is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL), with no Reserved Font Name ([why](https://github.com/simoncozens/silson/issues/1))

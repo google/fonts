@@ -10,7 +10,7 @@ fonts {
   filename: "MuktaVaani-ExtraLight.ttf"
   post_script_name: "MuktaVaani-ExtraLight"
   full_name: "Mukta Vaani ExtraLight"
-  copyright: "Copyright (c) 2013-2016 Ek Type (www.ektype.in)"
+  copyright: "Copyright (c) 2016, Ek Type. All rights reserved."
 }
 fonts {
   name: "Mukta Vaani"
@@ -19,7 +19,7 @@ fonts {
   filename: "MuktaVaani-Light.ttf"
   post_script_name: "MuktaVaani-Light"
   full_name: "Mukta Vaani Light"
-  copyright: "Copyright (c) 2013-2016 Ek Type (www.ektype.in)"
+  copyright: "Copyright (c) 2016, Ek Type. All rights reserved."
 }
 fonts {
   name: "Mukta Vaani"
@@ -28,7 +28,7 @@ fonts {
   filename: "MuktaVaani-Regular.ttf"
   post_script_name: "MuktaVaani-Regular"
   full_name: "Mukta Vaani Regular"
-  copyright: "Copyright (c) 2013-2016 Ek Type (www.ektype.in)"
+  copyright: "Copyright (c) 2016, Ek Type. All rights reserved."
 }
 fonts {
   name: "Mukta Vaani"
@@ -37,7 +37,7 @@ fonts {
   filename: "MuktaVaani-Medium.ttf"
   post_script_name: "MuktaVaani-Medium"
   full_name: "Mukta Vaani Medium"
-  copyright: "Copyright (c) 2013-2016 Ek Type (www.ektype.in)"
+  copyright: "Copyright (c) 2016, Ek Type. All rights reserved."
 }
 fonts {
   name: "Mukta Vaani"
@@ -46,7 +46,7 @@ fonts {
   filename: "MuktaVaani-SemiBold.ttf"
   post_script_name: "MuktaVaani-SemiBold"
   full_name: "Mukta Vaani SemiBold"
-  copyright: "Copyright (c) 2013-2016 Ek Type (www.ektype.in)"
+  copyright: "Copyright (c) 2016, Ek Type. All rights reserved."
 }
 fonts {
   name: "Mukta Vaani"
@@ -55,7 +55,7 @@ fonts {
   filename: "MuktaVaani-Bold.ttf"
   post_script_name: "MuktaVaani-Bold"
   full_name: "Mukta Vaani Bold"
-  copyright: "Copyright (c) 2013-2016 Ek Type (www.ektype.in)"
+  copyright: "Copyright (c) 2016, Ek Type. All rights reserved."
 }
 fonts {
   name: "Mukta Vaani"
@@ -64,7 +64,7 @@ fonts {
   filename: "MuktaVaani-ExtraBold.ttf"
   post_script_name: "MuktaVaani-ExtraBold"
   full_name: "Mukta Vaani ExtraBold"
-  copyright: "Copyright (c) 2013-2016 Ek Type (www.ektype.in)"
+  copyright: "Copyright (c) 2016, Ek Type. All rights reserved."
 }
 subsets: "gujarati"
 subsets: "latin"

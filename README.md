@@ -28,6 +28,14 @@ You can also sync the collection with git, so that you can update by only fetchi
 To learn how to use git, Github provides [illustrated guides](https://guides.github.com) and a [youtube channel](https://www.youtube.com/user/GitHubGuides), and a [learning game that takes just 15 minutes](https://try.github.io). 
 Free, open source git applications are available for [Windows](https://msysgit.github.io) and [Mac OS X](http://gitx.laullon.com).
 
+### Install on Windows
+
+You can install all of the fonts using power shell. Change directories to the root folder where you downloaded the package, and run the following command:
+```
+$fonts = (New-Object -ComObject Shell.Application).Namespace(0x14)
+dir ofl/*/*.ttf | %{ $fonts.CopyHere($_.fullname) }
+```
+
 ## Licensing
 
 It is important to always read the license for every font that you use.

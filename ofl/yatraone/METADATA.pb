@@ -12,6 +12,7 @@ fonts {
   full_name: "Yatra One Regular"
   copyright: "Copyright 2014 The Yatra Project Authors."
 }
+subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

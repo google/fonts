@@ -15,6 +15,12 @@ Sanity check a family directory:
     python sanity_check.py --repair_script=/tmp/fix.py ../ofl/josefinsans;
     python sanity_check.py --repair_script=/tmp/fix.py --fix_type=fsSelection ../ufl;
 
+## Requirements
+
+These tools are intended to work with Python 2.7 systems. 
+
+While these tools may work with Python 3.x, if so, that's a happy accident. 
+
 ## Dependencies
 
 To use `compare_font.py` and `sanity_check.py` you will need:

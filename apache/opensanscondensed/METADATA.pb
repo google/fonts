@@ -33,7 +33,6 @@ fonts {
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

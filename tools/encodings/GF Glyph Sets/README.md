@@ -10,7 +10,7 @@ Three sets are available in this directory: **Plus, Pro and Expert.**
 
 #### Glyphs App Tip
 
-Inside **[filter lists](./filter\ lists)** are text files with a list of glyphs for each set. 
+Inside **[filter lists](./filter%20lists)** are text files with a list of glyphs for each set. 
 Open Glyphs and in the left bottom sidebar, create a new list filter, and paste the contents of these TXT files to check if your fonts supports these characters. 
 A ✓ will indicate you are all set. 
 Otherwise **ctrl + click** on the numbers to generate missing glyphs. 

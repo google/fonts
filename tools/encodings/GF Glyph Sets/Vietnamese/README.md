@@ -1,10 +1,9 @@
 ### Making Vietnamese look better
 
-####How to create localized Vietnamese glyphs, different from default Latin in Glyphs App
+Here is how to create localized Vietnamese glyphs, different from default Latin ones, in Glyphs App.
 
-
-First, let's create glyphs for localized Vietnamese accents. Go to `Glyphs > Add Glyphs`, copy and paste the command below:
-
+First, let's create glyphs for localized Vietnamese accents. 
+Go to `Glyphs > Add Glyphs`, copy and paste the command below:
 
 ```
 acutecomb=acutecomb.loclVIT
@@ -16,7 +15,9 @@ tildecomb=tildecomb.loclVIT
 
 ![Vietnamese accents](img/VIT_accents.jpg)
 
-Adjust the new accents to your liking. Then add localised Vietnamese glyphs with the next command. Go to `Glyphs > Add Glyphs`, copy and paste the code below:
+Adjust the new accents to your liking. 
+Then add localised Vietnamese glyphs with the next command. 
+Go to `Glyphs > Add Glyphs`, copy and paste the code below:
 
 ```
 A+acutecomb.loclVIT=Aacute.loclVIT
@@ -89,24 +90,20 @@ u+tildecomb.loclVIT=utilde
 y+tildecomb.loclVIT=ytilde
 ```
 
-This command will create new unique Vietnamese glyphs with special accents, and generate additional localized variants for these glyphs:
+Then, the following command will create new unique Vietnamese glyphs with special accents, and generate additional localized variants for these glyphs:
 
 ```
 Aacute.loclVIT Abreve.loclVIT Acircumflex.loclVIT Agrave.loclVIT Atilde.loclVIT Eacute.loclVIT Ecircumflex.loclVIT Egrave.loclVIT Iacute.loclVIT Igrave.loclVIT Oacute.loclVIT Ocircumflex.loclVIT Ograve.loclVIT Otilde.loclVIT Uacute.loclVIT Ugrave.loclVIT Yacute.loclVIT Ygrave.loclVIT aacute.loclVIT abreve.loclVIT acircumflex.loclVIT agrave.loclVIT atilde.loclVIT eacute.loclVIT ecircumflex.loclVIT egrave.loclVIT iacute.loclVIT igrave.loclVIT oacute.loclVIT ocircumflex.loclVIT ograve.loclVIT otilde.loclVIT uacute.loclVIT ugrave.loclVIT yacute.loclVIT ygrave.loclVIT
 ```
 
-
 ![Vietnamese accents](img/VIT_glyphs.jpg)
 
-Now update your `locl` OT feature.
+Now update your `locl` OT feature:
 
 ![Update locl feature](img/locl.png)
 
-
 Other glyphs are unique for Vietnamese within the GF Latin glyphs sets range, they will be created with special Vietnamese accents. 
 
-
-*Written by Alexei Vanyashin* [@alexeiva](https://github.com/alexeiva)
-
-Acknowledgments: Nhung Nguyen [@crystaltype](https://github.com/crystaltype) for the idea
-
+*Acknowledgments: 
+Nhung Nguyen [@crystaltype](https://github.com/crystaltype) had the idea
+and this tutorial was written by Alexei Vanyashin [@alexeiva](https://github.com/alexeiva)*

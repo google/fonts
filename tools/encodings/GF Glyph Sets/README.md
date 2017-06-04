@@ -122,11 +122,11 @@ Structure and Hierarchy of Glyph Sets for Cyrillic:
 3. **Pro** for Headline typefaces, with language support more Non-Slavic languages
 4. **Historic** for text and workhorse typefaces, includes Small Caps, with support for historic Cyrillic
 
-### GF Cyrillic Core
+### GF Cyrillic Core (not used)
 
 **Supports the following Cyrillic languages:** Balkar, Belarusian (Cyrillic), Bosnian (Cyrillic), Bulgarian, Croatian (Cyrillic), Erzya, Karachay, Kumyk, Macedonian, Moksha, Montenigrin, Nanai, Nogai, Russian, Rusyn, Serbian (Cyrillic), Ukrainian, West Polesian
 
-### GF Cyrillic Plus (184 + 40 localized variants for 228 total)
+### GF Cyrillic Plus (184 Unicode characters in 277 glyphs including Small Caps + 40 localized variants: 317 total)
 
 **Supports the following 90 Cyrillic languages:** 
 Abaza,
@@ -224,7 +224,7 @@ Includes currencies: ₮, ₴, ₸.
 
 The ruble sign (₽ U+20BD) is not included, since it is already present in the Latin Plus set.
 
-### GF Cyrillic Pro (+56 glyphs for 284 glyphs total)
+### GF Cyrillic Pro (+82 glyphs for 399 glyphs total)
 
 **Additional characters in this set provide support for the following 18 languages:** 
 Abkhaz,

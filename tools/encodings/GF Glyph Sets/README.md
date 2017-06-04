@@ -120,8 +120,7 @@ Structure and Hierarchy of Glyph Sets for Cyrillic:
 1. **Core** is the existing default set, a Basic Cyrillic
 3. **Plus** includes added language coverage for Slavic, Non-Slavic, and Uralic languages
 3. **Pro** for Headline typefaces, with language support more Non-Slavic languages
-4. **Expert** for text and workhorse typefaces, includes Small Caps
-5. **Historic** with support for historic Cyrillic
+4. **Historic** for text and workhorse typefaces, includes Small Caps, with support for historic Cyrillic
 
 ### GF Cyrillic Core
 

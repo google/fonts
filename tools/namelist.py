@@ -204,7 +204,7 @@ def namelist_from_font(file_name, out=None):
 def main(*args):
     if args[0] == 'reformat':
         reformat_namelist(args[1])
-    if args[0] == 'generate-filter-lists':
+    elif args[0] == 'generate-filter-lists':
         generate_filter_lists(args[1])
     else:
         namelist_from_font(args[0])

@@ -80,7 +80,7 @@ Read more about this in the [GlyphsApp Ligated Dutch IJ Tutorial](https://www.gl
 
 ### GF Latin Pro (+145 for 713 glyphs total + 17 optional .case)
 
-- Math symbols and Units of Measure (∆ Ω π ℓ ℮ ∞ ∂ ∫ √ ∑ ∏ ◊ ∅)
+- Math symbols and Units of Measure (∆ Ω π ℓ ℮ ∞ ∂ ∫ √ ∑ ∏ ◊ ∅)
 - Latin General Use Extensions (U+1E08 to U+1EC9)
 - Superiors and Inferiors (⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉)
 - Scientific Inferiors as *".subs"* (₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉)
@@ -120,7 +120,7 @@ Structure and Hierarchy of Glyph Sets for Cyrillic:
 1. **Core** is the existing default set, a Basic Cyrillic
 3. **Plus** includes added language coverage for Slavic, Non-Slavic, and Uralic languages
 3. **Pro** for Headline typefaces, with language support more Non-Slavic languages
-4. **Historic** for text and workhorse typefaces, includes Small Caps, with support for historic Cyrillic
+4. **Historic** provides support for historic Cyrillic, Old Church Slavonic Texts
 
 ### GF Cyrillic Core (not used)
 
@@ -361,7 +361,7 @@ Yukaghir,
 Yupik.
 
 
-### GF Cyrillic Historical (Optional 37 glyphs )
+### GF Cyrillic Historic ( 37 glyphs )
 
 Provides support for Pre-Petrine Old Church Slavonic Texts.
 

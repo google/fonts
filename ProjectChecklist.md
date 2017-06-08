@@ -114,6 +114,13 @@ Install the python module with
 
 ### Mac
 
+#### Font Installation/Management
+
+Mac OS X has good font caching, which is good for end-users, but annoying for type designers. 
+The Font Finagler tool (US$10 shareware) can take care of flushing out those font caches when you need to be sure. 
+
+* [Font Finagler](http://www.markdouma.com/fontfinagler)
+
 #### Web Browsers
 
 * [Chrome 48](http://www.google.com/chrome)

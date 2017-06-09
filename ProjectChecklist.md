@@ -485,7 +485,7 @@ Since the copyright authors can change over time, such as when another author co
 This necessarily means the list the authors must be maintained somewhere, so really 3 files are required:
 
 * `OFL.txt` with the license text ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/OFL.txt))
-* `AUTHOR.txt` listing copyright holders ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/AUTHORS.txt))
+* `AUTHORS.txt` listing copyright holders ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/AUTHORS.txt))
 * `CONTRIBUTORS.txt` listing people who contribute but who are not actually copyright holders, eg people who work for a company that holds their copyrights as part of their employment contract ([example](https://github.com/NDISCOVER/Arima-Font/blob/master/CONTRIBUTORS.txt))
 
 The OFL Reserved Font Name (RFN) option is not recommended for 2 reasons:

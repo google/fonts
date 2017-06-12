@@ -8,7 +8,7 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Baloo-Regular.ttf"
-  post_script_name: "Baloo-Regular"
+  post_script_name: "Baloo"
   full_name: "Baloo"
   copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
 }

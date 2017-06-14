@@ -71,6 +71,7 @@ There are also handcrafted directories with rich samples:
 * https://jonsuh.com/100-days-of-scriptures/
 * http://codepen.io/nxworld/pen/XKRaRm
 * https://twitter.com/FontSnek
+* https://www.reliablepsd.com/ultimate-google-font-pairings/
 
 ## Rightsholder contacts
 

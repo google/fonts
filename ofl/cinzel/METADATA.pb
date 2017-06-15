@@ -31,4 +31,5 @@ fonts {
   copyright: "Copyright  2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name \'Cinzel\'"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

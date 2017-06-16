@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "BalooBhaina-Regular.ttf"
   post_script_name: "BalooBhaina-Regular"
-  full_name: "Baloo Bhaina"
-  copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
+  full_name: "Baloo Bhaina Regular"
+  copyright: "Copyright (c) 2015 Ek Type (www.ektype.in)"
 }
 subsets: "latin"
 subsets: "latin-ext"

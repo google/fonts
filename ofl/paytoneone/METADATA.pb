@@ -7,10 +7,12 @@ fonts {
   name: "Paytone One"
   style: "normal"
   weight: 400
-  filename: "PaytoneOne.ttf"
-  post_script_name: "PaytoneOne"
-  full_name: "Paytone One"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Paytone'. All rights reserved."
+  filename: "PaytoneOne-Regular.ttf"
+  post_script_name: "PaytoneOne-Regular"
+  full_name: "Paytone One Regular"
+  copyright: "Copyright 2011 The Paytone Project Authors (https://github.com/googlefonts/paytoneFont)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

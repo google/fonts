@@ -2,7 +2,7 @@ name: "Bellefair"
 designer: "Nick Shinn, Liron Lavi Turkenic"
 license: "OFL"
 category: "SERIF"
-date_added: "2017-06-22"
+date_added: "2017-06-28"
 fonts {
   name: "Bellefair"
   style: "normal"

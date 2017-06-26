@@ -2,7 +2,7 @@ name: "Zilla Slab"
 designer: "Typotheque"
 license: "OFL"
 category: "SERIF"
-date_added: "2017-05-12"
+date_added: "2017-06-28"
 fonts {
   name: "Zilla Slab"
   style: "normal"

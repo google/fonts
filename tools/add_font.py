@@ -25,7 +25,7 @@ Generating a METADATA.pb file for a new family:
 
 Generating a METADATA.pb file for an existing family:
 
-1. run the following: python add_font.py /path/to/existing/family --update
+1. run the following: python add_font.py --update /path/to/existing/family
 
 """
 import errno
@@ -34,9 +34,6 @@ import os
 import re
 import sys
 import time
-import requests
-import json
-from argparse import ArgumentParser
 
 import fonts_public_pb2 as fonts_pb2
 from google.protobuf import text_format
@@ -53,32 +50,11 @@ flags.DEFINE_integer('min_pct', 50,
 flags.DEFINE_integer('min_pct_ext', 10,
                      'What percentage of subset codepoints have to be supported'
                      ' for a -ext subset.')
+flags.DEFINE_boolean('update', False,
+                     'If a family is getting updated, keep the designer,'
+                     ' category and date added values')
 
 
-def family_url(name):
-  url_prefix = 'http://fonts.google.com/specimen/'
-  dl_name = name.replace(' ', '+')
-  return url_prefix + dl_name
-
-
-def family_exists(name):
-  """Check if a font family exists on fonts.google.com"""
-  url = family_url(name)
-  request = requests.get(url)
-  if request.status_code == 200:
-      return True
-  return False
-
-
-def _GetFamilyMetaData(name):
-  """Get family information from the frontend GF api"""
-  api_prefix = 'http://fonts.google.com/metadata/fonts/'
-  if family_exists(name):
-    url = api_prefix + name.replace(' ', '+')
-    request = requests.get(url)
-
-    return json.loads(request.text[5:])
-  return None
 
 
 def _FileFamilyStyleWeights(fontdir):
@@ -115,7 +91,7 @@ def _FileFamilyStyleWeights(fontdir):
   return result
 
 
-def _MakeMetadata(fontdir, update=False):
+def _MakeMetadata(fontdir):
   """Builds a dictionary matching a METADATA.pb file.
 
   Args:
@@ -129,26 +105,27 @@ def _MakeMetadata(fontdir, update=False):
   subsets = ['menu'] + [s[0] for s in fonts.SubsetsInFont(first_file,
                                                           FLAGS.min_pct,
                                                           FLAGS.min_pct_ext)]
+  old_metadata_file = os.path.join(fontdir, 'METADATA.pb')
 
   font_license = fonts.LicenseFromPath(fontdir)
 
-  if update:
-    prev_meta = _GetFamilyMetaData(file_family_style_weights[0].family)
-  else:
-    prev_meta = None
 
   metadata = fonts_pb2.FamilyProto()
   metadata.name = file_family_style_weights[0].family
-  if prev_meta:
-    metadata.designer = ', '.join([d['name'] for d in prev_meta['designers']])
-    metadata.category = prev_meta['category'].upper().replace(' ', '_')
-    metadata.date_added = prev_meta['lastModified']
+
+  if FLAGS.update and os.path.isfile(old_metadata_file):
+    old_metadata = fonts_pb2.FamilyProto()
+    with open(old_metadata_file, "rb") as old_meta:
+      text_format.Parse(old_meta.read(), old_metadata)
+      metadata.designer = old_metadata.designer
+      metadata.category = old_metadata.category
+      metadata.date_added = old_metadata.date_added
   else:
     metadata.designer = 'UNKNOWN'
     metadata.category = 'SANS_SERIF'
     metadata.date_added = time.strftime('%Y-%m-%d')
-  metadata.license = font_license
 
+  metadata.license = font_license
   subsets = sorted(subsets)
   for subset in subsets:
     metadata.subsets.append(subset)
@@ -198,28 +175,21 @@ def _WriteTextFile(filename, text):
 
 
 
-def main(args=None):
-  parser = ArgumentParser(description=__doc__)
-  parser.add_argument('fontdir',
-                      help='path to font family')
-  parser.add_argument('--update', '-u',
-                      action='store_true',
-                      help="Update an existing family's METADATA.pb file")
-  args = parser.parse_args()
+def main(argv):
+  if len(argv) != 2:
+    sys.exit('One argument, a directory containing a font family')
+  fontdir = argv[1]
 
-  if args.update:
-    metadata = _MakeMetadata(args.fontdir, update=True)
-  else:
-    metadata = _MakeMetadata(args.fontdir)
+  metadata = _MakeMetadata(fontdir)
   text_proto = text_format.MessageToString(metadata)
 
-  desc = os.path.join(args.fontdir, 'DESCRIPTION.en_us.html')
+  desc = os.path.join(fontdir, 'DESCRIPTION.en_us.html')
   if os.path.isfile(desc):
     print 'DESCRIPTION.en_us.html exists'
   else:
     _WriteTextFile(desc, 'N/A')
 
-  _WriteTextFile(os.path.join(args.fontdir, 'METADATA.pb'), text_proto)
+  _WriteTextFile(os.path.join(fontdir, 'METADATA.pb'), text_proto)
 
 
 

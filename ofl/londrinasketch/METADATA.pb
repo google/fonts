@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "LondrinaSketch-Regular.ttf"
   post_script_name: "LondrinaSketch-Regular"
-  full_name: "Londrina Sketch"
-  copyright: "Copyright (c) 2011 by Marcelo Magalhaes (marcelomagalhaes.net marcelommp@gmail.com), with Reserved Font Name \"Londrina\""
+  full_name: "Londrina Sketch Regular"
+  copyright: "Copyright 2011 The Londrina Sketch Authors (https://github.com/marcelommp/Londrina-Typeface), with Reserved Font Name \"Londrina Sketch\""
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

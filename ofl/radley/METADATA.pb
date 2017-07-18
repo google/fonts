@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Radley-Regular.ttf"
-  post_script_name: "Radley"
-  full_name: "Radley"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Radley'. All rights reserved."
+  post_script_name: "Radley-Regular"
+  full_name: "Radley Regular"
+  copyright: "Copyright 2011 The Radley Project Authors (https://github.com/googlefonts/RadleyFont)"
 }
 fonts {
   name: "Radley"
@@ -19,8 +19,8 @@ fonts {
   filename: "Radley-Italic.ttf"
   post_script_name: "Radley-Italic"
   full_name: "Radley Italic"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Radley'. All rights reserved."
+  copyright: "Copyright 2011 The Radley Project Authors (https://github.com/googlefonts/RadleyFont)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -10,7 +10,7 @@ fonts {
   filename: "ArchivoNarrow-Regular.ttf"
   post_script_name: "ArchivoNarrow-Regular"
   full_name: "Archivo Narrow Regular"
-  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
+  copyright: "Copyright 2017 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
 }
 fonts {
   name: "Archivo Narrow"
@@ -19,7 +19,43 @@ fonts {
   filename: "ArchivoNarrow-Italic.ttf"
   post_script_name: "ArchivoNarrow-Italic"
   full_name: "Archivo Narrow Italic"
-  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
+  copyright: "Copyright 2017 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
+}
+fonts {
+  name: "Archivo Narrow"
+  style: "normal"
+  weight: 500
+  filename: "ArchivoNarrow-Medium.ttf"
+  post_script_name: "ArchivoNarrow-Medium"
+  full_name: "Archivo Narrow Medium"
+  copyright: "Copyright 2017 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
+}
+fonts {
+  name: "Archivo Narrow"
+  style: "italic"
+  weight: 500
+  filename: "ArchivoNarrow-MediumItalic.ttf"
+  post_script_name: "ArchivoNarrow-MediumItalic"
+  full_name: "Archivo Narrow Medium Italic"
+  copyright: "Copyright 2017 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
+}
+fonts {
+  name: "Archivo Narrow"
+  style: "normal"
+  weight: 600
+  filename: "ArchivoNarrow-SemiBold.ttf"
+  post_script_name: "ArchivoNarrow-SemiBold"
+  full_name: "Archivo Narrow SemiBold"
+  copyright: "Copyright 2017 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
+}
+fonts {
+  name: "Archivo Narrow"
+  style: "italic"
+  weight: 600
+  filename: "ArchivoNarrow-SemiBoldItalic.ttf"
+  post_script_name: "ArchivoNarrow-SemiBoldItalic"
+  full_name: "Archivo Narrow SemiBold Italic"
+  copyright: "Copyright 2017 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
 }
 fonts {
   name: "Archivo Narrow"
@@ -28,7 +64,7 @@ fonts {
   filename: "ArchivoNarrow-Bold.ttf"
   post_script_name: "ArchivoNarrow-Bold"
   full_name: "Archivo Narrow Bold"
-  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
+  copyright: "Copyright 2017 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
 }
 fonts {
   name: "Archivo Narrow"
@@ -37,7 +73,7 @@ fonts {
   filename: "ArchivoNarrow-BoldItalic.ttf"
   post_script_name: "ArchivoNarrow-BoldItalic"
   full_name: "Archivo Narrow Bold Italic"
-  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
+  copyright: "Copyright 2017 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
 }
 subsets: "latin"
 subsets: "latin-ext"

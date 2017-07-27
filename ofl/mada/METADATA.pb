@@ -1,5 +1,5 @@
 name: "Mada"
-designer: "Multiple Designers"
+designer: "Khaled Hosny, Paul D. Hunt"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-05-08"

@@ -4,7 +4,7 @@ Ex: If FamilyName-Regular.ttf supports codepoints A-D
        FamilyName-Bold.ttf supports codepoints B-E
        FamilyName-Light.ttf supports codepoints A-E
 
-$ python tools/font_wieghts+coverage.py ofl/familyname
+$ python tools/font_weights_coverage.py ofl/familyname
 FamilyName-Regular.ttf failed
 0x0045
 FamilyName-Bold.ttf failed

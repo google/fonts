@@ -10,7 +10,7 @@ fonts {
   filename: "JosefinSans-Thin.ttf"
   post_script_name: "JosefinSans-Thin"
   full_name: "Josefin Sans Thin"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "JosefinSans-ThinItalic.ttf"
   post_script_name: "JosefinSans-ThinItalic"
   full_name: "Josefin Sans Thin Italic"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
@@ -28,7 +28,7 @@ fonts {
   filename: "JosefinSans-Light.ttf"
   post_script_name: "JosefinSans-Light"
   full_name: "Josefin Sans Light"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
@@ -37,16 +37,16 @@ fonts {
   filename: "JosefinSans-LightItalic.ttf"
   post_script_name: "JosefinSans-LightItalic"
   full_name: "Josefin Sans Light Italic"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
   style: "normal"
   weight: 400
   filename: "JosefinSans-Regular.ttf"
-  post_script_name: "JosefinSans"
-  full_name: "Josefin Sans"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  post_script_name: "JosefinSans-Regular"
+  full_name: "Josefin Sans Regular"
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
@@ -55,7 +55,7 @@ fonts {
   filename: "JosefinSans-Italic.ttf"
   post_script_name: "JosefinSans-Italic"
   full_name: "Josefin Sans Italic"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
@@ -64,7 +64,7 @@ fonts {
   filename: "JosefinSans-SemiBold.ttf"
   post_script_name: "JosefinSans-SemiBold"
   full_name: "Josefin Sans SemiBold"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
@@ -73,7 +73,7 @@ fonts {
   filename: "JosefinSans-SemiBoldItalic.ttf"
   post_script_name: "JosefinSans-SemiBoldItalic"
   full_name: "Josefin Sans SemiBold Italic"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
@@ -82,7 +82,7 @@ fonts {
   filename: "JosefinSans-Bold.ttf"
   post_script_name: "JosefinSans-Bold"
   full_name: "Josefin Sans Bold"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
@@ -91,8 +91,9 @@ fonts {
   filename: "JosefinSans-BoldItalic.ttf"
   post_script_name: "JosefinSans-BoldItalic"
   full_name: "Josefin Sans Bold Italic"
-  copyright: "Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved."
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

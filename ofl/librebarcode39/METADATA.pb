@@ -10,7 +10,7 @@ fonts {
   filename: "LibreBarcode39-Regular.ttf"
   post_script_name: "LibreBarcode39-Regular"
   full_name: "Libre Barcode 39 Regular"
-  copyright: "Copyright 2015 The Libre Barcode Project Authors (lasse@graphicore.de)"
+  copyright: "Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)"
 }
 subsets: "latin"
 subsets: "menu"

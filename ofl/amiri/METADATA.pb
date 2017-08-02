@@ -1,5 +1,5 @@
 name: "Amiri"
-designer: "Khaled Hosny"
+designer: "Khaled Hosny, Sebastian Kosch"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-07-30"

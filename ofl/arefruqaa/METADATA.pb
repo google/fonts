@@ -1,5 +1,5 @@
 name: "Aref Ruqaa"
-designer: "Multiple Designers"
+designer: "Abdullah Aref, Khaled Hosny, Hermann Zapf"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"

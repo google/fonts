@@ -316,6 +316,15 @@ To use icdiff with the `git` command:
 
     # FIXME TODO
 
+##### thefuck
+
+When working on a command line, often some commands fail.
+Perhaps you forgot to use a `-f` force argument, or to prepend `sudo` to run the comment as root.
+<https://github.com/nvbn/thefuck> is allows you to simply run the command `fuck` and it will offer a suggestion about what to run instead, which you can accept by hitting return.
+Install it with homebrew, simply run:
+
+    brew install fuck
+
 ### Tools Further Reading 
 
 <https://github.com/Jolg42/awesome-typography> lists many tools for working with fonts. 

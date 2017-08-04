@@ -42,6 +42,24 @@ fonts {
 fonts {
   name: "Asap"
   style: "normal"
+  weight: 600
+  filename: "Asap-SemiBold.ttf"
+  post_script_name: "Asap-SemiBold"
+  full_name: "Asap SemiBold"
+  copyright: "Copyright 2016 The Asap Project Authors (omnibus.type@gmail.com)"
+}
+fonts {
+  name: "Asap"
+  style: "italic"
+  weight: 600
+  filename: "Asap-SemiBoldItalic.ttf"
+  post_script_name: "Asap-SemiBoldItalic"
+  full_name: "Asap SemiBold Italic"
+  copyright: "Copyright 2016 The Asap Project Authors (omnibus.type@gmail.com)"
+}
+fonts {
+  name: "Asap"
+  style: "normal"
   weight: 700
   filename: "Asap-Bold.ttf"
   post_script_name: "Asap-Bold"

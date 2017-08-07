@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Brawler-Regular.ttf"
-  post_script_name: "Brawler"
-  full_name: "Brawler"
-  copyright: "Copyright (c) 2011 by Oleg Frolov | Cyreal (a@cyreal.org). All rights reserved."
+  post_script_name: "Brawler-Regular"
+  full_name: "Brawler Regular"
+  copyright: "Copyright (c) 2011 by Oleg Frolov | Cyreal. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

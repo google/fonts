@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "BilboSwashCaps-Regular.ttf"
   post_script_name: "BilboSwashCaps-Regular"
-  full_name: "Bilbo Swash Caps"
+  full_name: "Bilbo Swash Caps Regular"
   copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Names \"Bilbo\" and \"Bilbo Swash Caps\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

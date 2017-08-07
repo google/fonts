@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Arimo-Regular.ttf"
-  post_script_name: "Arimo"
-  full_name: "Arimo"
+  post_script_name: "Arimo-Regular"
+  full_name: "Arimo Regular"
   copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
@@ -39,7 +39,6 @@ fonts {
   full_name: "Arimo Bold Italic"
   copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
@@ -47,4 +46,5 @@ subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

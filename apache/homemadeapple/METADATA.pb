@@ -7,10 +7,10 @@ fonts {
   name: "Homemade Apple"
   style: "normal"
   weight: 400
-  filename: "HomemadeApple.ttf"
-  post_script_name: "HomemadeApple"
-  full_name: "Homemade Apple"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
+  filename: "HomemadeApple-Regular.ttf"
+  post_script_name: "HomemadeApple-Regular"
+  full_name: "Homemade Apple Regular"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

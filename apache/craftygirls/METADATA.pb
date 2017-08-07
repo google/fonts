@@ -7,10 +7,10 @@ fonts {
   name: "Crafty Girls"
   style: "normal"
   weight: 400
-  filename: "CraftyGirls.ttf"
-  post_script_name: "CraftyGirls"
-  full_name: "Crafty Girls"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com). All rights reserved."
+  filename: "CraftyGirls-Regular.ttf"
+  post_script_name: "CraftyGirls-Regular"
+  full_name: "Crafty Girls Regular"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "BlackOpsOne-Regular.ttf"
   post_script_name: "BlackOpsOne-Regular"
-  full_name: "Black Ops One"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Black Ops\" and \"Black Ops One\"."
+  full_name: "Black Ops One Regular"
+  copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Names \"Black Ops\" and \"Black Ops One\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

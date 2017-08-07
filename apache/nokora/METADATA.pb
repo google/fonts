@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Nokora-Regular.ttf"
-  post_script_name: "Nokora"
-  full_name: "Nokora"
-  copyright: "Digitized data copyright © 2007, Google Corporation. Copyright (c) 2012, Danh Hong (khmertype.blogspot.com danhhong@gmail.com). Nokora started as the Droid Sans files which were modified by Dahn Hong."
+  post_script_name: "Nokora-Regular"
+  full_name: "Nokora Regular"
+  copyright: "Digitized data copyright  2007, Google Corporation. Copyright (c) 2012, Danh Hong (khmertype.blogspot.com)"
 }
 fonts {
   name: "Nokora"
@@ -19,7 +19,7 @@ fonts {
   filename: "Nokora-Bold.ttf"
   post_script_name: "Nokora-Bold"
   full_name: "Nokora Bold"
-  copyright: "Digitized data copyright © 2007, Google Corporation. Copyright (c) 2012, Danh Hong (khmertype.blogspot.com danhhong@gmail.com). Nokora started as the Droid Sans files which were modified by Dahn Hong."
+  copyright: "Digitized data copyright  2007, Google Corporation. Copyright (c) 2012, Danh Hong (khmertype.blogspot.com)"
 }
-subsets: "menu"
 subsets: "khmer"
+subsets: "menu"

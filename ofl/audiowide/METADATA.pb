@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "Audiowide-Regular.ttf"
   post_script_name: "Audiowide-Regular"
-  full_name: "Audiowide"
+  full_name: "Audiowide Regular"
   copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Audiowide\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

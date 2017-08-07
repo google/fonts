@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Rochester-Regular.ttf"
   post_script_name: "Rochester-Regular"
-  full_name: "Rochester"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+  full_name: "Rochester Regular"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

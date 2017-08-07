@@ -378,6 +378,18 @@ Make sure to always use ssh:
     git config --global url.ssh://git@github.com/.insteadOf https://github.com/
     git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
 
+#### Git on Mac
+
+On Mac OS X, the filesystem is "case insensitive" which means these two file names access the same file data:
+
+    monteserrat-semibold.ttf
+    Montserrat-SemiBold.ttf
+
+This often causes problems when renaming files. 
+To configure git to be case-sensitive, run:
+
+    git config core.ignorecase false
+
 #### Github "Watch" Discussions
 
 Github also has an email discussion feature: 

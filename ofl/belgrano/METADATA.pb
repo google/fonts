@@ -9,9 +9,8 @@ fonts {
   weight: 400
   filename: "Belgrano-Regular.ttf"
   post_script_name: "Belgrano-Regular"
-  full_name: "Belgrano"
-  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Belgrano\""
+  full_name: "Belgrano Regular"
+  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with Reserved Font Names \"Belgrano\""
 }
-subsets: "menu"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"

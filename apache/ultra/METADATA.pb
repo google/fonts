@@ -7,10 +7,10 @@ fonts {
   name: "Ultra"
   style: "normal"
   weight: 400
-  filename: "Ultra.ttf"
-  post_script_name: "Ultra"
-  full_name: "Ultra"
-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+  filename: "Ultra-Regular.ttf"
+  post_script_name: "Ultra-Regular"
+  full_name: "Ultra Regular"
+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

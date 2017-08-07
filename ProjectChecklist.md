@@ -362,6 +362,18 @@ Make sure to always use ssh:
     git config --global url.ssh://git@github.com/.insteadOf https://github.com/
     git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
 
+#### Git on Mac
+
+On Mac OS X, the filesystem is "case insensitive" which means these two file names access the same file data:
+
+    monteserrat-semibold.ttf
+    Montserrat-SemiBold.ttf
+
+This often causes problems when renaming files. 
+To configure git to be case-sensitive, run:
+
+    git config core.ignorecase false
+
 #### Github "Watch" Discussions
 
 Github also has an email discussion feature: 
@@ -370,10 +382,6 @@ You can reply via email to these messages, but note that your email replies **wi
 
 It is a good idea to set up an email filter to label github emails as such, to be sure you know when your reply will become public. 
 See [GMail Filter and Label Documentation](https://support.google.com/mail/answer/6579?hl=en)
-
-#### Github Caveats
-
-On some systems, git is case-insensitive, monteserrat-semibold.ttf is the same as Montserrat-SemiBold.ttf. This often causes problems when renaming files. We recommend that git be configured to be case-sensitive. Enter the following into your terminal `git config core.ignorecase false`.
 
 ### Your Repository
 

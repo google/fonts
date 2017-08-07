@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Syncopate-Regular.ttf"
   post_script_name: "Syncopate-Regular"
-  full_name: "Syncopate"
-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+  full_name: "Syncopate Regular"
+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
 }
 fonts {
   name: "Syncopate"
@@ -19,7 +19,7 @@ fonts {
   filename: "Syncopate-Bold.ttf"
   post_script_name: "Syncopate-Bold"
   full_name: "Syncopate Bold"
-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

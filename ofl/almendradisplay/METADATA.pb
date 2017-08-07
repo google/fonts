@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "AlmendraDisplay-Regular.ttf"
   post_script_name: "AlmendraDisplay-Regular"
-  full_name: "Almendra Display"
-  copyright: "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+  full_name: "Almendra Display Regular"
+  copyright: "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name \'Almendra\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

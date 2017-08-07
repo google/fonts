@@ -1,4 +1,33 @@
+"""
+add_font.py:
+~~~~~~~~~~~~
 
+Generate METADATA.pb files for font families.
+
+METADATA.pb files are used to serve the families on http://fonts.google.com.
+
+Font families are stored in this repo by license type. The following
+directories contain font families:
+
+../fonts/ofl
+../fonts/apache
+../fonts/ufl
+
+
+Generating a METADATA.pb file for a new family:
+
+1. Determine the family's license type, ofl, ufl or apache
+2. Create a new folder under the license type directory
+3. Name the folder so it's the family name, all lowercase and no spaces.
+4. Run the following: python add_font.py /path/to/new/family
+5. Update the category field in the generated METADATA.pb file.
+
+
+Generating a METADATA.pb file for an existing family:
+
+1. run the following: python add_font.py --update /path/to/existing/family
+
+"""
 import errno
 import glob
 import os
@@ -21,6 +50,9 @@ flags.DEFINE_integer('min_pct', 50,
 flags.DEFINE_integer('min_pct_ext', 10,
                      'What percentage of subset codepoints have to be supported'
                      ' for a -ext subset.')
+flags.DEFINE_boolean('update', False,
+                     'If a family is getting updated, keep the designer,'
+                     ' category and date added values')
 
 
 
@@ -73,19 +105,30 @@ def _MakeMetadata(fontdir):
   subsets = ['menu'] + [s[0] for s in fonts.SubsetsInFont(first_file,
                                                           FLAGS.min_pct,
                                                           FLAGS.min_pct_ext)]
+  old_metadata_file = os.path.join(fontdir, 'METADATA.pb')
 
   font_license = fonts.LicenseFromPath(fontdir)
 
 
   metadata = fonts_pb2.FamilyProto()
   metadata.name = file_family_style_weights[0].family
-  metadata.designer = 'Unknown'
-  metadata.category = 'SANS_SERIF'
+
+  if FLAGS.update and os.path.isfile(old_metadata_file):
+    old_metadata = fonts_pb2.FamilyProto()
+    with open(old_metadata_file, "rb") as old_meta:
+      text_format.Parse(old_meta.read(), old_metadata)
+      metadata.designer = old_metadata.designer
+      metadata.category = old_metadata.category
+      metadata.date_added = old_metadata.date_added
+  else:
+    metadata.designer = 'UNKNOWN'
+    metadata.category = 'SANS_SERIF'
+    metadata.date_added = time.strftime('%Y-%m-%d')
+
   metadata.license = font_license
   subsets = sorted(subsets)
   for subset in subsets:
     metadata.subsets.append(subset)
-  metadata.date_added = time.strftime('%Y-%m-%d')
 
   for (fontfile, family, style, weight) in file_family_style_weights:
     filename = os.path.basename(fontfile)

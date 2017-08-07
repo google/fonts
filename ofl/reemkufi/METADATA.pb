@@ -1,5 +1,5 @@
 name: "Reem Kufi"
-designer: "Multiple Designers"
+designer: "Khaled Hosny, Santiago Orozco"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-08-22"

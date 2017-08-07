@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Amethysta-Regular.ttf"
   post_script_name: "Amethysta-Regular"
-  full_name: "Amethysta"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Amethysta\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  full_name: "Amethysta Regular"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Amethysta\".  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

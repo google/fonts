@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Baloo-Regular.ttf"
   post_script_name: "Baloo-Regular"
-  full_name: "Baloo"
-  copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
+  full_name: "Baloo Regular"
+  copyright: "Copyright (c) 2015 Ek Type (www.ektype.in)"
 }
 subsets: "devanagari"
 subsets: "latin"

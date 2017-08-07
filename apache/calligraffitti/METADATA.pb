@@ -9,9 +9,8 @@ fonts {
   weight: 400
   filename: "Calligraffitti-Regular.ttf"
   post_script_name: "Calligraffitti-Regular"
-  full_name: "Calligraffitti"
-  copyright: "Copyright (c) 2010 by Open Window (dathanboardman@gmail.com). All rights reserved."
+  full_name: "Calligraffitti Regular"
+  copyright: "Copyright (c) 2010 by Open Window. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"

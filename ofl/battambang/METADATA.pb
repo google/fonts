@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Battambang-Regular.ttf"
-  post_script_name: "Battambang"
-  full_name: "Battambang"
-  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS Battambang. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  post_script_name: "Battambang-Regular"
+  full_name: "Battambang Regular"
+  copyright: "Copyright (c) 2013, Danh Hong (khmertype.org)"
 }
 fonts {
   name: "Battambang"
@@ -19,7 +19,7 @@ fonts {
   filename: "Battambang-Bold.ttf"
   post_script_name: "Battambang-Bold"
   full_name: "Battambang Bold"
-  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS Battambang. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2013, Danh Hong (khmertype.org)"
 }
-subsets: "menu"
 subsets: "khmer"
+subsets: "menu"

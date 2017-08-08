@@ -10,7 +10,7 @@ fonts {
   filename: "Rubik-Light.ttf"
   post_script_name: "Rubik-Light"
   full_name: "Rubik Light"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 fonts {
   name: "Rubik"
@@ -19,7 +19,7 @@ fonts {
   filename: "Rubik-LightItalic.ttf"
   post_script_name: "Rubik-LightItalic"
   full_name: "Rubik Light Italic"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 fonts {
   name: "Rubik"
@@ -27,8 +27,8 @@ fonts {
   weight: 400
   filename: "Rubik-Regular.ttf"
   post_script_name: "Rubik-Regular"
-  full_name: "Rubik"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  full_name: "Rubik Regular"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 fonts {
   name: "Rubik"
@@ -37,7 +37,7 @@ fonts {
   filename: "Rubik-Italic.ttf"
   post_script_name: "Rubik-Italic"
   full_name: "Rubik Italic"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 fonts {
   name: "Rubik"
@@ -46,7 +46,7 @@ fonts {
   filename: "Rubik-Medium.ttf"
   post_script_name: "Rubik-Medium"
   full_name: "Rubik Medium"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 fonts {
   name: "Rubik"
@@ -55,7 +55,7 @@ fonts {
   filename: "Rubik-MediumItalic.ttf"
   post_script_name: "Rubik-MediumItalic"
   full_name: "Rubik Medium Italic"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 fonts {
   name: "Rubik"
@@ -64,7 +64,7 @@ fonts {
   filename: "Rubik-Bold.ttf"
   post_script_name: "Rubik-Bold"
   full_name: "Rubik Bold"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 fonts {
   name: "Rubik"
@@ -73,7 +73,7 @@ fonts {
   filename: "Rubik-BoldItalic.ttf"
   post_script_name: "Rubik-BoldItalic"
   full_name: "Rubik Bold Italic"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 fonts {
   name: "Rubik"
@@ -82,7 +82,7 @@ fonts {
   filename: "Rubik-Black.ttf"
   post_script_name: "Rubik-Black"
   full_name: "Rubik Black"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 fonts {
   name: "Rubik"
@@ -91,9 +91,10 @@ fonts {
   filename: "Rubik-BlackItalic.ttf"
   post_script_name: "Rubik-BlackItalic"
   full_name: "Rubik Black Italic"
-  copyright: "Copyright 2015 The Rubik Project Authors (meir@sadan.com)"
+  copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"

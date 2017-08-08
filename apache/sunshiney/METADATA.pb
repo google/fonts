@@ -7,10 +7,10 @@ fonts {
   name: "Sunshiney"
   style: "normal"
   weight: 400
-  filename: "Sunshiney.ttf"
-  post_script_name: "Sunshiney"
-  full_name: "Sunshiney"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+  filename: "Sunshiney-Regular.ttf"
+  post_script_name: "Sunshiney-Regular"
+  full_name: "Sunshiney Regular"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

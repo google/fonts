@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "AnticDidone-Regular.ttf"
   post_script_name: "AnticDidone-Regular"
-  full_name: "Antic Didone"
+  full_name: "Antic Didone Regular"
   copyright: "Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved Font Name Antic Didone."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

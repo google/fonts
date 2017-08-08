@@ -1,7 +1,7 @@
 name: "Frank Ruhl Libre"
 designer: "Yanek Iontef"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2016-06-20"
 fonts {
   name: "Frank Ruhl Libre"

@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "Allura-Regular.ttf"
   post_script_name: "Allura-Regular"
-  full_name: "Allura"
+  full_name: "Allura Regular"
   copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Allura\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -7,10 +7,10 @@ fonts {
   name: "Fontdiner Swanky"
   style: "normal"
   weight: 400
-  filename: "FontdinerSwanky.ttf"
-  post_script_name: "FontdinerSwanky"
-  full_name: "Fontdiner Swanky"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc. (diner@fontdiner.com) All rights reserved."
+  filename: "FontdinerSwanky-Regular.ttf"
+  post_script_name: "FontdinerSwanky-Regular"
+  full_name: "Fontdiner Swanky Regular"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

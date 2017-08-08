@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "Armata-Regular.ttf"
   post_script_name: "Armata-Regular"
-  full_name: "Armata"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Armata\""
+  full_name: "Armata Regular"
+  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Armata\"  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

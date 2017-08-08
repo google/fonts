@@ -7,12 +7,10 @@ fonts {
   name: "Droid Sans Mono"
   style: "normal"
   weight: 400
-  filename: "DroidSansMono.ttf"
-  post_script_name: "DroidSansMono"
-  full_name: "Droid Sans Mono"
-  copyright: "Digitized data copyright © 2007, Google Corporation."
+  filename: "DroidSansMono-Regular.ttf"
+  post_script_name: "DroidSansMono-Regular"
+  full_name: "Droid Sans Mono Regular"
+  copyright: "Digitized data copyright  2007, Google Corporation."
 }
-subsets: "menu"
-subsets: "cyrillic"
 subsets: "latin"
-subsets: "vietnamese"
+subsets: "menu"

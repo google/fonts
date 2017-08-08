@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "Butcherman-Regular.ttf"
   post_script_name: "Butcherman-Regular"
-  full_name: "Butcherman"
-  copyright: "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Butcherman\"."
+  full_name: "Butcherman Regular"
+  copyright: "Copyright (c) 2011, Typomondo, with Reserved Font Name  \"Butcherman\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

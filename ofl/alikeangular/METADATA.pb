@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "AlikeAngular-Regular.ttf"
   post_script_name: "AlikeAngular-Regular"
-  full_name: "Alike Angular"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Alike\" and \"Alike Angular\"."
+  full_name: "Alike Angular Regular"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Alike\" and \"Alike Angular\"."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

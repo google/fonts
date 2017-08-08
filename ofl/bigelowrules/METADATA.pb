@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "BigelowRules-Regular.ttf"
   post_script_name: "BigelowRules-Regular"
-  full_name: "Bigelow Rules"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Bigelow Rules'"
+  full_name: "Bigelow Rules Regular"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Bigelow Rules\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

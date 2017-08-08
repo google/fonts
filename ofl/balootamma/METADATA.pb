@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "BalooTamma-Regular.ttf"
   post_script_name: "BalooTamma-Regular"
-  full_name: "Baloo Tamma"
-  copyright: "Copyright (c) 2015, Ek Type. All rights reserved."
+  full_name: "Baloo Tamma Regular"
+  copyright: "Copyright (c) 2015 Ek Type (www.ektype.in)"
 }
 subsets: "kannada"
 subsets: "latin"

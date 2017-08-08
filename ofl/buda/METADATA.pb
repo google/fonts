@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 300
   filename: "Buda-Light.ttf"
-  post_script_name: "Buda"
-  full_name: "Buda"
-  copyright: "Copyright (c) 2010, Adele Antignac (a.antignac@hotmail.fr anton@fatype.com). All rights reserved. Licenced under SIL OFL vl.1"
+  post_script_name: "Buda-Light"
+  full_name: "Buda Light"
+  copyright: "Copyright (c) 2010, Adele Antignac (a.antignac@hotmail.fr). All rights reserved. Licenced under SIL OFL vl.1"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

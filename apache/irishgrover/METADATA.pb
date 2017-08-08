@@ -7,10 +7,10 @@ fonts {
   name: "Irish Grover"
   style: "normal"
   weight: 400
-  filename: "IrishGrover.ttf"
-  post_script_name: "IrishGrover"
-  full_name: "Irish Grover"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+  filename: "IrishGrover-Regular.ttf"
+  post_script_name: "IrishGrover-Regular"
+  full_name: "Irish Grover Regular"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

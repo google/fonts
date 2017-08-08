@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Unkempt-Regular.ttf"
-  post_script_name: "Unkempt"
-  full_name: "Unkempt"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reserved Font Name \"Unkempt\". All rights reserved."
+  post_script_name: "Unkempt-Regular"
+  full_name: "Unkempt Regular"
+  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved."
 }
 fonts {
   name: "Unkempt"
@@ -19,7 +19,7 @@ fonts {
   filename: "Unkempt-Bold.ttf"
   post_script_name: "Unkempt-Bold"
   full_name: "Unkempt Bold"
-  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reserved Font Name \"Unkempt\". All rights reserved."
+  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reseved Font Name \"Unkempt Bold\""
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

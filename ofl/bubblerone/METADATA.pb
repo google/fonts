@@ -8,10 +8,10 @@ fonts {
   style: "normal"
   weight: 400
   filename: "BubblerOne-Regular.ttf"
-  post_script_name: "BubblerOne"
-  full_name: "Bubbler One"
+  post_script_name: "BubblerOne-Regular"
+  full_name: "Bubbler One Regular"
   copyright: "Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved Font Name \"Bubbler\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

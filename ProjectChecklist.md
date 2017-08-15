@@ -638,7 +638,7 @@ Here are production steps you can take at the start of a project when setting up
 
 #### Instance and File Naming
 
-Set up all your masters and instances at the start of the project to keep the project process iterative. 
+Set up all your masters and instances at the start of the project to keep the project process iterative. Please note that The GWF backend system requires there to always be a Regular (400) style in the family.
 
 You should plan and develop the weights of each instance early in the process.
 The Impallari Type Family Steps page helps to plan the weight progression on a curve, so that the weight of middle instances are suitably light.

@@ -61,6 +61,7 @@ Here is a list of 3rd party directories:
 * http://cdn.canelodigital.cl/fonts/
 * http://code.thisarmy.com/fontsinfo/
 * http://www.localfont.com
+* http://brandmark.io/font-generator/
 
 There are also handcrafted directories with rich samples:
 

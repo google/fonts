@@ -2,7 +2,7 @@ name: "Zilla Slab Highlight"
 designer: "Typotheque"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2017-07-05"
+date_added: "2017-07-26"
 fonts {
   name: "Zilla Slab Highlight"
   style: "normal"

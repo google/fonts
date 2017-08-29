@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "ZillaSlabHighlight-Regular.ttf"
   post_script_name: "ZillaSlabHighlight-Regular"
-  full_name: "Zilla Slab Highlight Regular"
+  full_name: "Zilla Slab Highlight"
   copyright: "Copyright 2017, The Mozilla Foundation"
 }
 fonts {
@@ -18,7 +18,7 @@ fonts {
   weight: 700
   filename: "ZillaSlabHighlight-Bold.ttf"
   post_script_name: "ZillaSlabHighlight-Bold"
-  full_name: "Zilla Slab Highlight Bold Bold"
+  full_name: "Zilla Slab Highlight Bold"
   copyright: "Copyright 2017, The Mozilla Foundation"
 }
 subsets: "latin"

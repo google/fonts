@@ -34,7 +34,8 @@ These can be installed with pip:
     sudo easy_install pip;
     pip install --user google-apputils protobuf git+git://github.com/behdad/fonttools.git;
 
-These tools depend on the submodule [GlyphsInfo](https://github.com/schriftgestalt/GlyphsInfo). Make sure the submodule is up to date by running:
+These tools depend on the submodule [GlyphsInfo](https://github.com/schriftgestalt/GlyphsInfo).
+Make sure the submodule is up to date by running:
 
     git submodule update --init --recursive
 

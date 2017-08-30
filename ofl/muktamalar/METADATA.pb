@@ -2,7 +2,7 @@ name: "Mukta Malar"
 designer: "Ek Type"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2017-01-26"
+date_added: "2017-02-13"
 fonts {
   name: "Mukta Malar"
   style: "normal"

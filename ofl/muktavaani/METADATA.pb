@@ -2,7 +2,7 @@ name: "Mukta Vaani"
 designer: "Ek Type"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2017-01-26"
+date_added: "2016-06-15"
 fonts {
   name: "Mukta Vaani"
   style: "normal"

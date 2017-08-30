@@ -2,7 +2,7 @@ name: "Reem Kufi"
 designer: "Khaled Hosny, Santiago Orozco"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2016-08-22"
+date_added: "2016-05-31"
 fonts {
   name: "Reem Kufi"
   style: "normal"

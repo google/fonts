@@ -2,7 +2,7 @@ name: "Cinzel"
 designer: "Natanael Gama"
 license: "OFL"
 category: "SERIF"
-date_added: "2012-10-05"
+date_added: "2012-10-24"
 fonts {
   name: "Cinzel"
   style: "normal"

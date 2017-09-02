@@ -6,4 +6,4 @@ Try to avoid strokes that go left of the origin (0 on the X axis) since they may
 Counters and apertures should not be too small, very fine details should not be too fine, because they will not appears on low resolution screens.
 
 Thin strokes should not be as thin as their print fonts equivalents. 
-[Pinyon Script](http://www.google.com/webfonts/specimen/Pinyon+Script) is a good example of how a high contrast font can be developed specifically for the web, with thins that are not too thin.
+[Pinyon Script](https://fonts.google.com/specimen/Pinyon+Script) is a good example of how a high contrast font can be developed specifically for the web, with thins that are not too thin.

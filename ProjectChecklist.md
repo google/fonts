@@ -647,7 +647,22 @@ This makes it easier for people who want generate their own fonts in the future 
 
 * http://www.impallari.com/familysteps
 
-Name files and naming-metadata canonically, so that your OTF and TTF files follow this ([family naming scheme spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0))
+Filenames and naming metadata (in "Font Info" areas of font editor apps) should be made canonically, so that all font files have a predictable naming scheme suitable for both people and machine-processing. 
+
+This [family naming scheme spreadsheet](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0) provides all the information in table form. 
+Here is a quick reference table (but note that CSS font-weight is not the same as font metadata info.) 
+
+| CSS font-weight | filename              | filename (italic)           |
+|-----------------|-----------------------|-----------------------------|
+| 100             | Roboto-Thin.ttf       | Roboto-ThinItalic.ttf       |
+| 200             | Roboto-ExtraLight.ttf | Roboto-ExtraLightItalic.ttf |
+| 300             | Roboto-Light.ttf      | Roboto-LightItalic.ttf      |
+| 400             | Roboto-Regular.ttf    | Roboto-Italic.ttf           |
+| 500             | Roboto-Medium.ttf     | Roboto-MediumItalic.ttf     |
+| 600             | Roboto-SemiBold.ttf   | Roboto-SemiBoldItalic.ttf   |
+| 700             | Roboto-Bold.ttf       | Roboto-BoldItalic.ttf       |
+| 800             | Roboto-ExtraBold.ttf  | Roboto-ExtraBoldItalic.ttf  |
+| 900             | Roboto-Black.ttf      | Roboto-BlackItalic.ttf      |
 
 Here is the default value in FontLab 5:
 

@@ -361,9 +361,9 @@ Yukaghir,
 Yupik.
 
 
-### GF Cyrillic Historic ( 37 glyphs )
+### GF Cyrillic Historic ( 48 glyphs )
 
-Provides support for Pre-Petrine Old Church Slavonic Texts.
+Provides support for Old Church Slavonic Texts including variant forms for Early Church Slavic books. Supported variants: Synodal Slavonic, Kievan Church Slavonic.
 
 ### Recommended Additions
 
@@ -382,7 +382,8 @@ Michael Everson,
 Nhung Nguyen (Vietnamese lists), 
 Pablo Impallari (Impallari Encoding), 
 Rainer Erich Scheichelbauer (@mekkablue), 
+Slavonic Computing Initiative (Old Church Slavonic lists)
 Thomas Jockin,
-Thomas Phinney
-(Adobe Cyrillic lists), and
+Thomas Phinney (Adobe Cyrillic lists), and
 Underware (Latin Plus Encoding)
+

@@ -465,6 +465,11 @@ At the top of the repo page is a summary input, that can be set to a short (10 w
 
 If the project has a gh-pages branch (see below) then use that URL, typically `https://username.github.io/project`. If you maintain a project homepage elsewhere, use that URL.
 
+#### Turn off "wiki" and "projects"
+
+On the setting page (eg github.com/USERNAME/REPO/settings) disable the wiki and projects features;
+regular markdown files within your repo are better than a wiki, because anyone can contribute using normal pull requests.
+
 ### Repository Files
 
 #### Keep a clean repo, with `.gitignore`

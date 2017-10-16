@@ -10,7 +10,7 @@ fonts {
   filename: "ElMessiri-Regular.ttf"
   post_script_name: "ElMessiri-Regular"
   full_name: "El Messiri Regular"
-  copyright: "Copyright 2015 The El Messiri Project Authors."
+  copyright: "Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)"
 }
 fonts {
   name: "El Messiri"
@@ -19,7 +19,7 @@ fonts {
   filename: "ElMessiri-Medium.ttf"
   post_script_name: "ElMessiri-Medium"
   full_name: "El Messiri Medium"
-  copyright: "Copyright 2015 The El Messiri Project Authors."
+  copyright: "Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)"
 }
 fonts {
   name: "El Messiri"
@@ -28,7 +28,7 @@ fonts {
   filename: "ElMessiri-SemiBold.ttf"
   post_script_name: "ElMessiri-SemiBold"
   full_name: "El Messiri SemiBold"
-  copyright: "Copyright 2015 The El Messiri Project Authors."
+  copyright: "Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)"
 }
 fonts {
   name: "El Messiri"
@@ -37,7 +37,7 @@ fonts {
   filename: "ElMessiri-Bold.ttf"
   post_script_name: "ElMessiri-Bold"
   full_name: "El Messiri Bold"
-  copyright: "Copyright 2015 The El Messiri Project Authors."
+  copyright: "Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)"
 }
 subsets: "arabic"
 subsets: "cyrillic"

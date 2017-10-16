@@ -10,7 +10,7 @@ fonts {
   filename: "Changa-ExtraLight.ttf"
   post_script_name: "Changa-ExtraLight"
   full_name: "Changa ExtraLight"
-  copyright: "Copyright 2011 Eduardo Tunni (www.tipo.net.ar)"
+  copyright: "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)"
 }
 fonts {
   name: "Changa"
@@ -19,7 +19,7 @@ fonts {
   filename: "Changa-Light.ttf"
   post_script_name: "Changa-Light"
   full_name: "Changa Light"
-  copyright: "Copyright 2011 Eduardo Tunni (www.tipo.net.ar)"
+  copyright: "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)"
 }
 fonts {
   name: "Changa"
@@ -27,8 +27,8 @@ fonts {
   weight: 400
   filename: "Changa-Regular.ttf"
   post_script_name: "Changa-Regular"
-  full_name: "Changa"
-  copyright: "Copyright 2011 Eduardo Tunni (www.tipo.net.ar)"
+  full_name: "Changa Regular"
+  copyright: "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)"
 }
 fonts {
   name: "Changa"
@@ -37,7 +37,7 @@ fonts {
   filename: "Changa-Medium.ttf"
   post_script_name: "Changa-Medium"
   full_name: "Changa Medium"
-  copyright: "Copyright 2011 Eduardo Tunni (www.tipo.net.ar)"
+  copyright: "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)"
 }
 fonts {
   name: "Changa"
@@ -46,7 +46,7 @@ fonts {
   filename: "Changa-SemiBold.ttf"
   post_script_name: "Changa-SemiBold"
   full_name: "Changa SemiBold"
-  copyright: "Copyright 2011 Eduardo Tunni (www.tipo.net.ar)"
+  copyright: "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)"
 }
 fonts {
   name: "Changa"
@@ -55,7 +55,7 @@ fonts {
   filename: "Changa-Bold.ttf"
   post_script_name: "Changa-Bold"
   full_name: "Changa Bold"
-  copyright: "Copyright 2011 Eduardo Tunni (www.tipo.net.ar)"
+  copyright: "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)"
 }
 fonts {
   name: "Changa"
@@ -64,7 +64,7 @@ fonts {
   filename: "Changa-ExtraBold.ttf"
   post_script_name: "Changa-ExtraBold"
   full_name: "Changa ExtraBold"
-  copyright: "Copyright 2011 Eduardo Tunni (www.tipo.net.ar)"
+  copyright: "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)"
 }
 subsets: "arabic"
 subsets: "latin"

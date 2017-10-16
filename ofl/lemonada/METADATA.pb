@@ -10,7 +10,7 @@ fonts {
   filename: "Lemonada-Light.ttf"
   post_script_name: "Lemonada-Light"
   full_name: "Lemonada Light"
-  copyright: "Copyright 2011 The Lemonada Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)"
 }
 fonts {
   name: "Lemonada"
@@ -19,7 +19,7 @@ fonts {
   filename: "Lemonada-Regular.ttf"
   post_script_name: "Lemonada-Regular"
   full_name: "Lemonada Regular"
-  copyright: "Copyright 2011 The Lemonada Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)"
 }
 fonts {
   name: "Lemonada"
@@ -28,7 +28,7 @@ fonts {
   filename: "Lemonada-SemiBold.ttf"
   post_script_name: "Lemonada-SemiBold"
   full_name: "Lemonada SemiBold"
-  copyright: "Copyright 2011 The Lemonada Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)"
 }
 fonts {
   name: "Lemonada"
@@ -37,7 +37,7 @@ fonts {
   filename: "Lemonada-Bold.ttf"
   post_script_name: "Lemonada-Bold"
   full_name: "Lemonada Bold"
-  copyright: "Copyright 2011 The Lemonada Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)"
 }
 subsets: "arabic"
 subsets: "latin"

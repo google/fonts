@@ -1,5 +1,10 @@
 # github.com/google/fonts.git repo trivia
 
+## Incomplete greek-ext subsets 
+
+Open Sans (and some others, like Roboto) are advertised as they supporting Extended Greek, but choosing the greek-ext subset will not display Open Sans (or the required font) for this range because they don't actually contain the required characters.
+You're welcome to commission these characters, though.
+
 ## Google Fonts Repo Wiki
 
 The previous fonts Mercurial repository had a wiki at <https://code.google.com/p/googlefontdirectory/wiki> which is no longer available. 
@@ -24,7 +29,7 @@ They are no longer listed in the main www.google.com/fonts directory, but the fi
 
 Fonts in Early Access do not have METADATA.pb files.
 
-### Install on Windows
+## Install on Windows
 
 You can install all of the fonts using Windows PowerShell. Change directories to the folder where you downloaded the package, and run the following command:
 ```

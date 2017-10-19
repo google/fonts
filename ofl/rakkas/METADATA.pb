@@ -10,7 +10,7 @@ fonts {
   filename: "Rakkas-Regular.ttf"
   post_script_name: "Rakkas-Regular"
   full_name: "Rakkas Regular"
-  copyright: "Copyright 2016 Zeynep Akay"
+  copyright: "Copyright 2017 The Rakkas Project Authors (https://github.com/zeynepakay/Rakkas)"
 }
 subsets: "arabic"
 subsets: "latin"

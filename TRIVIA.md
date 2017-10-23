@@ -68,6 +68,7 @@ Here is a list of 3rd party directories:
 * <http://www.localfont.com>
 * <http://brandmark.io/font-generator>
 * <http://archetypeapp.com>
+* <https://getflourish.github.io/anatomy-of-typefaces>
 
 There are also handcrafted directories with rich samples:
 
@@ -79,6 +80,7 @@ There are also handcrafted directories with rich samples:
 * <http://codepen.io/nxworld/pen/XKRaRm>
 * <https://twitter.com/FontSnek>
 * <https://www.reliablepsd.com/ultimate-google-font-pairings>
+https://www.reliablepsd.com/ultimate-google-font-pairings/
 
 ## Rightsholder contacts
 

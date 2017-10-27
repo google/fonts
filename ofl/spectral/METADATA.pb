@@ -52,9 +52,9 @@ fonts {
   name: "Spectral"
   style: "italic"
   weight: 400
-  filename: "Spectral-RegularItalic.ttf"
+  filename: "Spectral-Italic.ttf"
   post_script_name: "Spectral-Italic"
-  full_name: "Spectral Regular Italic"
+  full_name: "Spectral Italic"
   copyright: "Copyright 2017 The Spectral Project Authors (http://github.com/productiontype/spectral)"
 }
 fonts {

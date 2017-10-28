@@ -855,9 +855,13 @@ FIXME TODO Come up with a definitive `latin-ext` glyph set
 
 Support all four figure sets. 
 
-The general public calls old style the "jumping numbers" and like their tables to line up, so lining numerals with tabular spacing must be default.
+The general public calls old style the "jumping numbers" and like their tables to line up, especially in sans serif designs.
 
-Old style figures, and proportional variants, should be included with appropriate OpenType features. 
+Lining numerals with tabular spacing must be default for all new families.
+
+Updates to designs should also include all 4 figure styles and change the default designs to lining tabular. 
+
+Both lining and tabular old style figures, and lining proportional figures, should be included with appropriate OpenType features. 
 
 Tabular numbers must have a consistent glyph width across the Regular, Italic, Bold and Bold Italic styles of a family, but in other styles can be only consistent with other glyphs in the same style. 
 

@@ -69,6 +69,7 @@ Here is a list of 3rd party directories:
 * <http://brandmark.io/font-generator>
 * <http://archetypeapp.com>
 * <https://getflourish.github.io/anatomy-of-typefaces>
+* <https://tyffle.ml>
 
 There are also handcrafted directories with rich samples:
 

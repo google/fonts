@@ -10,7 +10,7 @@ fonts {
   filename: "AmaticSC-Regular.ttf"
   post_script_name: "AmaticSC-Regular"
   full_name: "Amatic SC Regular"
-  copyright: "Copyright 2015 The Amatic SC Project Authors (contact@sansoxygen.com)"
+  copyright: "Copyright 2015 The Amatic SC Project Authors (https://github.com/googlefonts/AmaticSC)"
 }
 fonts {
   name: "Amatic SC"
@@ -19,8 +19,9 @@ fonts {
   filename: "AmaticSC-Bold.ttf"
   post_script_name: "AmaticSC-Bold"
   full_name: "Amatic SC Bold"
-  copyright: "Copyright 2015 The Amatic SC Project Authors (contact@sansoxygen.com)"
+  copyright: "Copyright 2015 The Amatic SC Project Authors (https://github.com/googlefonts/AmaticSC)"
 }
+subsets: "cyrillic"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"

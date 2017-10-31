@@ -10,7 +10,7 @@ fonts {
   filename: "Comfortaa-Light.ttf"
   post_script_name: "Comfortaa-Light"
   full_name: "Comfortaa Light"
-  copyright: "Copyright 2011 The Comfortaa Project Authors (aajohan@gmail.com), with Reserved Font Name \"Comfortaa\"."
+  copyright: "Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa), with Reserved Font Name \"Comfortaa\"."
 }
 fonts {
   name: "Comfortaa"
@@ -19,7 +19,7 @@ fonts {
   filename: "Comfortaa-Regular.ttf"
   post_script_name: "Comfortaa-Regular"
   full_name: "Comfortaa Regular"
-  copyright: "Copyright 2011 The Comfortaa Project Authors (aajohan@gmail.com), with Reserved Font Name \"Comfortaa\"."
+  copyright: "Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa), with Reserved Font Name \"Comfortaa\"."
 }
 fonts {
   name: "Comfortaa"
@@ -28,7 +28,7 @@ fonts {
   filename: "Comfortaa-Bold.ttf"
   post_script_name: "Comfortaa-Bold"
   full_name: "Comfortaa Bold"
-  copyright: "Copyright 2011 The Comfortaa Project Authors (aajohan@gmail.com), with Reserved Font Name \"Comfortaa\"."
+  copyright: "Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa), with Reserved Font Name \"Comfortaa\"."
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

@@ -47,6 +47,10 @@ To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
+31 October 2017 (Marc Foley) Merriweather v2.002
+* Official v2.000 regression free release. All glyph sets now contain the same glyphs as the v1.000 series.
+* Added Cyrillic extended glyphs
+
 24 April 2017 (Marc Foley) Merriweather v1.585
 v2.001 had to be reverted back to v1.544, due to regression issues. This hotfix fixes https://github.com/google/fonts/issues/588.
 

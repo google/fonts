@@ -1,5 +1,5 @@
 name: "Montserrat Alternates"
-designer: "Julieta Ulanovsky"
+designer: "Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-10-01"

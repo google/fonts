@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "PlayfairDisplay-Regular.ttf"
   post_script_name: "PlayfairDisplay-Regular"
-  full_name: "Playfair Display"
-  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+  full_name: "Playfair Display Regular"
+  copyright: "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
 }
 fonts {
   name: "Playfair Display"
@@ -19,7 +19,7 @@ fonts {
   filename: "PlayfairDisplay-Italic.ttf"
   post_script_name: "PlayfairDisplay-Italic"
   full_name: "Playfair Display Italic"
-  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+  copyright: "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
 }
 fonts {
   name: "Playfair Display"
@@ -28,7 +28,7 @@ fonts {
   filename: "PlayfairDisplay-Bold.ttf"
   post_script_name: "PlayfairDisplay-Bold"
   full_name: "Playfair Display Bold"
-  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+  copyright: "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
 }
 fonts {
   name: "Playfair Display"
@@ -37,7 +37,7 @@ fonts {
   filename: "PlayfairDisplay-BoldItalic.ttf"
   post_script_name: "PlayfairDisplay-BoldItalic"
   full_name: "Playfair Display Bold Italic"
-  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+  copyright: "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
 }
 fonts {
   name: "Playfair Display"
@@ -46,7 +46,7 @@ fonts {
   filename: "PlayfairDisplay-Black.ttf"
   post_script_name: "PlayfairDisplay-Black"
   full_name: "Playfair Display Black"
-  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+  copyright: "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
 }
 fonts {
   name: "Playfair Display"
@@ -55,9 +55,10 @@ fonts {
   filename: "PlayfairDisplay-BlackItalic.ttf"
   post_script_name: "PlayfairDisplay-BlackItalic"
   full_name: "Playfair Display Black Italic"
-  copyright: "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
+  copyright: "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

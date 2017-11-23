@@ -70,6 +70,8 @@ Here is a list of 3rd party directories:
 * <http://archetypeapp.com>
 * <https://getflourish.github.io/anatomy-of-typefaces>
 * <https://tyffle.ml>
+* <https://lepovirta.github.io/Typographer> 
+* <https://lepovirta.github.io/Typographer-React>
 
 There are also handcrafted directories with rich samples:
 

@@ -72,6 +72,7 @@ Here is a list of 3rd party directories:
 * <https://tyffle.ml>
 * <https://lepovirta.github.io/Typographer> 
 * <https://lepovirta.github.io/Typographer-React>
+* <https://jmattthew.github.io/better-font-finder/better-font-finder.html>
 
 There are also handcrafted directories with rich samples:
 

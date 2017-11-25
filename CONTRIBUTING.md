@@ -1,8 +1,12 @@
-# Google Fonts Contribution Requirements 
+# Contribute to Google Fonts
+
+## Feedback
+
+If you have any feedback on Google Fonts API, directory, or the fonts themselves, please create an issue at [github.com/google/fonts/issues](http://github.com/google/fonts/issues)
 
 ## New Families
 
-If you would like to include a new font family in the Google Fonts collection we'll be very happy to include it, if it also meets the following criteria:
+If you would like to include a new font family in the Google Fonts collection, we'll be happy to include it if it meets the following criteria:
 
 * The typeface design is original, or a legitimate revival of a design in the public domain, and of good quality. The Google Design team curates the overall Google Fonts collection and decides if fonts are of good quality. You can get general reviews of your project from the wider international type community during development by posting review requests in the [googlefonts-discuss](https://groups.google.com/forum/#!forum/googlefonts-discuss) group, and the [typedrawers](http://typedrawers.com/categories/critiques%E2%80%94type-design) review forum.  
 * The project is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL), with no Reserved Font Name ([why](https://github.com/simoncozens/silson/issues/1))  
@@ -14,11 +18,16 @@ If you would like to include a new font family in the Google Fonts collection we
 * A `README.md` file is included in the root of the source repository, and inside of that file we can read about [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#43cecb44) information, and your github usernames, so that we can prepare a description ([example](https://github.com/google/fonts/blob/master/ofl/poppins/DESCRIPTION.en_us.html)) and link your name to your profile.  
 * More detailed design and production details are listed in [github.com/googlefonts/gf-docs/ProjectChecklist.md](https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md)  
 
-When your project meets these criteria, please [file an issue](https://github.com/google/fonts/issues) with a link to the source repository.
-(In the future we hope to provide guidance on making pull requests directly, but since we carefully check the technical aspects of the fonts, it's better to work with us on your upstream project.)
+When you are ready to meet these requirements, please [create a new issue](https://github.com/google/fonts/issues) with a link to the project's source repository.
 
-Google Fonts may provide financial or design assistance for some type projects. 
-If you would like to discuss this, please mention that you would like someone to contact you privately when filing an issue, and that your contact details are posted on your Github profile page. 
+From time to time, Google Fonts provides financial and design assistance for projects. 
+If you would like to discuss this, please mention that you would like someone to contact you privately when filing an issue (and have contact details on your Github profile page.)
+
+### Updates
+
+If your font is already on-boarded and you'd like us to update our copy, please file an issue (instead of making a pull request directly.)
+
+We carefully check the technical aspects of updated fonts to prevent unintended changes, so we prefer to collaborate with you on your upstream project to make a release which we update from. 
 
 ## All Contributors
 

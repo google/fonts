@@ -84,7 +84,7 @@ There are also handcrafted directories with rich samples:
 * <http://codepen.io/nxworld/pen/XKRaRm>
 * <https://twitter.com/FontSnek>
 * <https://www.reliablepsd.com/ultimate-google-font-pairings>
-https://www.reliablepsd.com/ultimate-google-font-pairings/
+* <http://fonts.greatsimple.io>
 
 ## Rightsholder contacts
 

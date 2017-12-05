@@ -10,7 +10,16 @@ fonts {
   filename: "SourceCodePro-ExtraLight.ttf"
   post_script_name: "SourceCodePro-ExtraLight"
   full_name: "Source Code Pro ExtraLight"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
+}
+fonts {
+  name: "Source Code Pro"
+  style: "italic"
+  weight: 200
+  filename: "SourceCodePro-ExtraLightItalic.ttf"
+  post_script_name: "SourceCodePro-ExtraLightItalic"
+  full_name: "Source Code Pro ExtraLight Italic"
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Code Pro"
@@ -19,7 +28,16 @@ fonts {
   filename: "SourceCodePro-Light.ttf"
   post_script_name: "SourceCodePro-Light"
   full_name: "Source Code Pro Light"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
+}
+fonts {
+  name: "Source Code Pro"
+  style: "italic"
+  weight: 300
+  filename: "SourceCodePro-LightItalic.ttf"
+  post_script_name: "SourceCodePro-LightItalic"
+  full_name: "Source Code Pro Light Italic"
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Code Pro"
@@ -28,7 +46,16 @@ fonts {
   filename: "SourceCodePro-Regular.ttf"
   post_script_name: "SourceCodePro-Regular"
   full_name: "Source Code Pro Regular"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
+}
+fonts {
+  name: "Source Code Pro"
+  style: "italic"
+  weight: 400
+  filename: "SourceCodePro-Italic.ttf"
+  post_script_name: "SourceCodePro-Italic"
+  full_name: "Source Code Pro Italic"
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Code Pro"
@@ -37,7 +64,16 @@ fonts {
   filename: "SourceCodePro-Medium.ttf"
   post_script_name: "SourceCodePro-Medium"
   full_name: "Source Code Pro Medium"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
+}
+fonts {
+  name: "Source Code Pro"
+  style: "italic"
+  weight: 500
+  filename: "SourceCodePro-MediumItalic.ttf"
+  post_script_name: "SourceCodePro-MediumItalic"
+  full_name: "Source Code Pro Medium Italic"
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Code Pro"
@@ -46,7 +82,16 @@ fonts {
   filename: "SourceCodePro-SemiBold.ttf"
   post_script_name: "SourceCodePro-SemiBold"
   full_name: "Source Code Pro SemiBold"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
+}
+fonts {
+  name: "Source Code Pro"
+  style: "italic"
+  weight: 600
+  filename: "SourceCodePro-SemiBoldItalic.ttf"
+  post_script_name: "SourceCodePro-SemiBoldItalic"
+  full_name: "Source Code Pro SemiBold Italic"
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Code Pro"
@@ -55,7 +100,16 @@ fonts {
   filename: "SourceCodePro-Bold.ttf"
   post_script_name: "SourceCodePro-Bold"
   full_name: "Source Code Pro Bold"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
+}
+fonts {
+  name: "Source Code Pro"
+  style: "italic"
+  weight: 700
+  filename: "SourceCodePro-BoldItalic.ttf"
+  post_script_name: "SourceCodePro-BoldItalic"
+  full_name: "Source Code Pro Bold Italic"
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
 fonts {
   name: "Source Code Pro"
@@ -64,8 +118,21 @@ fonts {
   filename: "SourceCodePro-Black.ttf"
   post_script_name: "SourceCodePro-Black"
   full_name: "Source Code Pro Black"
-  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
 }
+fonts {
+  name: "Source Code Pro"
+  style: "italic"
+  weight: 900
+  filename: "SourceCodePro-BlackItalic.ttf"
+  post_script_name: "SourceCodePro-BlackItalic"
+  full_name: "Source Code Pro Black Italic"
+  copyright: "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source."
+}
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"

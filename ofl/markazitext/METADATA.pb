@@ -1,7 +1,7 @@
 name: "Markazi Text"
-designer: "UNKNOWN"
+designer: "Borna Izadpanah"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2018-02-09"
 fonts {
   name: "Markazi Text"

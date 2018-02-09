@@ -1,5 +1,5 @@
 name: "Markazi Text"
-designer: "Borna Izadpanah"
+designer: "Tim Holloway, Borna Izadpanah, Florian Runge"
 license: "OFL"
 category: "SERIF"
 date_added: "2018-02-09"

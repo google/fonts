@@ -85,6 +85,7 @@ There are also handcrafted directories with rich samples:
 * <https://twitter.com/FontSnek>
 * <https://www.reliablepsd.com/ultimate-google-font-pairings>
 * <http://fonts.greatsimple.io>
+* <https://digitalsynopsis.com/design/best-google-font-combinations-typeface-pairings/>
 
 ## Rightsholder contacts
 

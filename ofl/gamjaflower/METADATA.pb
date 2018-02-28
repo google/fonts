@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Gamjaflower-Regular.ttf"
-  post_script_name: "Gamjaflower-Regular"
-  full_name: "Gamjaflower Regular"
+  post_script_name: "GamjaFlower-Regular"
+  full_name: "GamjaFlower Regular"
   copyright: "Copyright (c) YoonDesign Inc. All Rights Reserved."
 }
 subsets: "korean"

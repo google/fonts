@@ -27,8 +27,9 @@ fonts {
   weight: 800
   filename: "NanumGothic-ExtraBold.ttf"
   post_script_name: "NanumGothic-ExtraBold"
-  full_name: "NanumGothic ExtraBold"
+  full_name: "Nanum Gothic"
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
+subsets: "korean"
 subsets: "latin"
 subsets: "menu"

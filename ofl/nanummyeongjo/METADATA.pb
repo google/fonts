@@ -27,7 +27,7 @@ fonts {
   weight: 800
   filename: "NanumMyeongjo-ExtraBold.ttf"
   post_script_name: "NanumMyeongjo-ExtraBold"
-  full_name: "NanumMyeongjo ExtraBold"
+  full_name: "Nanum Myeongjo"
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 subsets: "korean"

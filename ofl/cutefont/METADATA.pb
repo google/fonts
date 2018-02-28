@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Cutefont-Regular.ttf"
-  post_script_name: "Cutefont-Regular"
-  full_name: "Cutefont Regular"
+  post_script_name: "CuteFont-Regular"
+  full_name: "CuteFont Regular"
   copyright: "COPYRIGHT  2004-2017 by TypoDesign Lab. Inc. All rights reserved. Font designed by TypoDesign Lab. Inc."
 }
 subsets: "korean"

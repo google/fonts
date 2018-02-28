@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Singleday-Regular.ttf"
-  post_script_name: "Singleday-Regular"
-  full_name: "Singleday Regular"
+  post_script_name: "SingleDay-Regular"
+  full_name: "SingleDay Regular"
   copyright: "Copyright 2015 DXKorea Inc. All rights reserved."
 }
 subsets: "korean"

@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Poorstory-Regular.ttf"
-  post_script_name: "Poorstory-Regular"
-  full_name: "Poorstory Regular"
+  post_script_name: "PoorStory-Regular"
+  full_name: "PoorStory Regular"
   copyright: "Copyright (c) YoonDesign Inc. All Rights Reserved."
 }
 subsets: "korean"

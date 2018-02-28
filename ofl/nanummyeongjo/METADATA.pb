@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "NanumMyeongjo-Regular.ttf"
   post_script_name: "NanumMyeongjo-Regular"
-  full_name: "NanumMyeongjo Regular"
+  full_name: "Nanum Myeongjo Regular"
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 fonts {
@@ -18,7 +18,7 @@ fonts {
   weight: 700
   filename: "NanumMyeongjo-Bold.ttf"
   post_script_name: "NanumMyeongjo-Bold"
-  full_name: "NanumMyeongjo Bold"
+  full_name: "Nanum Myeongjo Bold"
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 fonts {

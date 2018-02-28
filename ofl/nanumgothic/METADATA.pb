@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "NanumGothic-Regular.ttf"
   post_script_name: "NanumGothic-Regular"
-  full_name: "NanumGothic Regular"
+  full_name: "Nanum Gothic Regular"
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 fonts {
@@ -18,7 +18,7 @@ fonts {
   weight: 700
   filename: "NanumGothic-Bold.ttf"
   post_script_name: "NanumGothic-Bold"
-  full_name: "NanumGothic Bold"
+  full_name: "Nanum Gothic Bold"
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 fonts {

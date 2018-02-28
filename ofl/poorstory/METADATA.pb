@@ -1,15 +1,15 @@
-name: "Poorstory"
+name: "Poor Story"
 designer: "UNKNOWN"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2018-02-23"
 fonts {
-  name: "Poorstory"
+  name: "Poor Story"
   style: "normal"
   weight: 400
-  filename: "Poorstory-Regular.ttf"
+  filename: "PoorStory-Regular.ttf"
   post_script_name: "PoorStory-Regular"
-  full_name: "PoorStory Regular"
+  full_name: "Poor Story Regular"
   copyright: "Copyright (c) YoonDesign Inc. All Rights Reserved."
 }
 subsets: "korean"

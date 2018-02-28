@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "SongMyung-Regular.ttf"
   post_script_name: "SongMyung-Regular"
-  full_name: "SongMyung Regular"
+  full_name: "Song Myung Regular"
   copyright: "Copyright 2018 The Song Myung Project Authors"
 }
 subsets: "korean"

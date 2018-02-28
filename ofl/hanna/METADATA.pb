@@ -8,7 +8,7 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Hanna-Regular.ttf"
-  post_script_name: "Hanna11yrsold-Regular"
+  post_script_name: "Hanna-Regular"
   full_name: "Hanna Regular"
   copyright: "Copyright 2018 The Hanna Project Authors"
 }

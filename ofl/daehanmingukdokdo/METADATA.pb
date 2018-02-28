@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "DaehanMingukDokdo-Regular.ttf"
-  post_script_name: "KoreaDokdo-Regular"
-  full_name: "DaehanMingukDokdo Regular"
+  post_script_name: "DaehanMingukDokdo-Regular"
+  full_name: "Daehan Minguk Dokdo Regular"
   copyright: "Copyright (c) YoonDesign Inc. All Rights Reserved."
 }
 subsets: "korean"

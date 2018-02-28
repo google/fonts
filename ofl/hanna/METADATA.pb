@@ -10,7 +10,7 @@ fonts {
   filename: "Hanna-Regular.ttf"
   post_script_name: "Hanna11yrsold-Regular"
   full_name: "Hanna Regular"
-  copyright: ""
+  copyright: "Copyright 2018 The Hanna Project Authors"
 }
 subsets: "korean"
 subsets: "latin"

@@ -10,7 +10,7 @@ fonts {
   filename: "Gaegu-Light.ttf"
   post_script_name: "Gaegu-Light"
   full_name: "Gaegu Light"
-  copyright: ""
+  copyright: "Copyright 2018 The Gaegu Project Authors"
 }
 fonts {
   name: "Gaegu"
@@ -19,7 +19,7 @@ fonts {
   filename: "Gaegu-Regular.ttf"
   post_script_name: "Gaegu-Regular"
   full_name: "Gaegu Regular"
-  copyright: ""
+  copyright: "Copyright 2018 The Gaegu Project Authors"
 }
 fonts {
   name: "Gaegu"
@@ -28,7 +28,7 @@ fonts {
   filename: "Gaegu-Bold.ttf"
   post_script_name: "Gaegu-Bold"
   full_name: "Gaegu Bold"
-  copyright: ""
+  copyright: "Copyright 2018 The Gaegu Project Authors"
 }
 subsets: "korean"
 subsets: "menu"

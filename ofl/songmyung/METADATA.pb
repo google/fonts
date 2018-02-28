@@ -10,7 +10,7 @@ fonts {
   filename: "SongMyung-Regular.ttf"
   post_script_name: "SongMyung-Regular"
   full_name: "SongMyung Regular"
-  copyright: ""
+  copyright: "Copyright 2018 The Song Myung Project Authors"
 }
 subsets: "korean"
 subsets: "menu"

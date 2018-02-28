@@ -10,8 +10,8 @@ fonts {
   filename: "DoHyeon-Regular.ttf"
   post_script_name: "DoHyeon-Regular"
   full_name: "Do Hyeon Regular"
-  copyright: ""
+  copyright: "Copyright 2018 The Do Hyeon Project Authors"
 }
-subset: "korean"
+subsets: "korean"
 subsets: "latin"
 subsets: "menu"

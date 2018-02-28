@@ -10,7 +10,7 @@ fonts {
   filename: "YeonSung-Regular.ttf"
   post_script_name: "YeonSung-Regular"
   full_name: "Yeon Sung Regular"
-  copyright: ""
+  copyright: "Copyright 2018 The Yeon Sung Project Authors"
 }
 subsets: "korean"
 subsets: "latin"

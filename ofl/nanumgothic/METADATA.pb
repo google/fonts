@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "NanumGothic-Regular.ttf"
-  post_script_name: "NanumGothic-Regular"
-  full_name: "Nanum Gothic Regular"
+  post_script_name: "NanumGothic"
+  full_name: "NanumGothic"
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 fonts {
@@ -17,8 +17,8 @@ fonts {
   style: "normal"
   weight: 700
   filename: "NanumGothic-Bold.ttf"
-  post_script_name: "NanumGothic-Bold"
-  full_name: "Nanum Gothic Bold"
+  post_script_name: "NanumGothicBold"
+  full_name: "NanumGothic Bold"
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 fonts {
@@ -26,8 +26,8 @@ fonts {
   style: "normal"
   weight: 800
   filename: "NanumGothic-ExtraBold.ttf"
-  post_script_name: "NanumGothic-ExtraBold"
-  full_name: "Nanum Gothic"
+  post_script_name: "NanumGothicExtraBold"
+  full_name: "NanumGothic ExtraBold"
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 subsets: "korean"

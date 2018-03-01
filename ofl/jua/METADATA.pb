@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Jua-Regular.ttf"
-  post_script_name: "BMJUA-Regular"
-  full_name: "BM JUA Regular"
+  post_script_name: "Jua-Regular"
+  full_name: "Jua Regular"
   copyright: "Copyright 2018 The BM JUA Project Authors"
 }
 subsets: "korean"

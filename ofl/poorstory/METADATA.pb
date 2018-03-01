@@ -1,5 +1,5 @@
 name: "Poor Story"
-designer: "UNKNOWN"
+designer: "Yoon Design"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2018-02-23"

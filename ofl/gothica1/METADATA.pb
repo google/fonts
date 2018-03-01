@@ -84,11 +84,11 @@ fonts {
   full_name: "Gothic A1 Black"
   copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
 }
+subsets: "korean"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "greek-ext"
-subsets: "korean"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

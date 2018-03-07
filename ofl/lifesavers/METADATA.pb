@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "LifeSavers-Regular.ttf"
   post_script_name: "LifeSavers-Regular"
-  full_name: "Life Savers"
+  full_name: "Life Savers Regular"
   copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),  Copyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com), with Reserved Font Name Life Savers."
 }
 fonts {
@@ -30,6 +30,6 @@ fonts {
   full_name: "Life Savers ExtraBold"
   copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),\nCopyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), \nCopyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com),\nwith Reserved Font Name Life Savers."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

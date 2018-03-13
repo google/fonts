@@ -30,5 +30,6 @@ fonts {
   full_name: "NanumMyeongjoExtraBold"
   copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
 }
-subsets: "menu"
 subsets: "korean"
+subsets: "latin"
+subsets: "menu"

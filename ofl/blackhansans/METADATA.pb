@@ -1,5 +1,5 @@
 name: "Black Han Sans"
-designer: "ZESSTYPE 2015"
+designer: "Zess Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-02-23"
@@ -10,7 +10,7 @@ fonts {
   filename: "BlackHanSans-Regular.ttf"
   post_script_name: "BlackHanSans-Regular"
   full_name: "Black Han Sans Regular"
-  copyright: "(c) ZESSTYPE 2015"
+  copyright: "Copyright 2015 The Black Han Sans Authors"
 }
 subsets: "korean"
 subsets: "menu"

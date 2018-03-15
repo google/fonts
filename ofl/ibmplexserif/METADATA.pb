@@ -113,6 +113,15 @@ fonts {
 }
 fonts {
   name: "IBM Plex Serif"
+  style: "normal"
+  weight: 700
+  filename: "IBMPlexSerif-Bold.ttf"
+  post_script_name: "IBMPlexSerif-Bold"
+  full_name: "IBM Plex Serif Bold"
+  copyright: "Copyright 2018 IBM Corp. All rights reserved."
+}
+fonts {
+  name: "IBM Plex Serif"
   style: "italic"
   weight: 700
   filename: "IBMPlexSerif-BoldItalic.ttf"

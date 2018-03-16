@@ -15,10 +15,10 @@ fonts {
 fonts {
   name: "Sunflower"
   style: "normal"
-  weight: 400
-  filename: "Sunflower-Regular.ttf"
-  post_script_name: "Sunflower-Regular"
-  full_name: "Sunflower Regular"
+  weight: 500
+  filename: "Sunflower-Medium.ttf"
+  post_script_name: "Sunflower-Medium"
+  full_name: "Sunflower Medium"
   copyright: "Copyright 2008 The Sunflower Project Authors"
 }
 fonts {

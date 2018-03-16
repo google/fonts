@@ -15,10 +15,10 @@ fonts {
 fonts {
   name: "Gaegu"
   style: "normal"
-  weight: 400
-  filename: "Gaegu-Regular.ttf"
-  post_script_name: "Gaegu-Regular"
-  full_name: "Gaegu Regular"
+  weight: 500
+  filename: "Gaegu-Medium.ttf"
+  post_script_name: "Gaegu-Medium"
+  full_name: "Gaegu Medium"
   copyright: "Copyright 2018 The Gaegu Project Authors"
 }
 fonts {

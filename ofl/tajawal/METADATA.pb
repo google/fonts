@@ -1,8 +1,8 @@
 name: "Tajawal"
-designer: "UNKNOWN"
+designer: "Boutros Fonts"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-03-27"
+date_added: "2018-04-04"
 fonts {
   name: "Tajawal"
   style: "normal"

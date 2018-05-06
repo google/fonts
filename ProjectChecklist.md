@@ -378,6 +378,8 @@ Make sure to always use ssh:
     git config --global url.ssh://git@github.com/.insteadOf https://github.com/
     git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
 
+<http://www.git-legit.org> is helpful
+
 #### Git on Mac
 
 On Mac OS X, the filesystem is "case insensitive" which means these two file names access the same file data:

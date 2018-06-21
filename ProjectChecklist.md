@@ -923,6 +923,12 @@ FIXME TODO which one exactly, and how to use it
 You must comment all feature code that is not automatically generated.
 It’s not always obvious what OpenType code in a font does, particularly with non-Latin scripts where the features that are specific to a font can be entangled with features that are required for language support. 
 
+#### Ligature Caret positions
+
+Set the ligature caret positions for all ligatures that need them.
+
+* https://github.com/FAlthausen/LigatureCaret
+
 #### fractions, superscript and subscript numerals 
 
 * https://www.glyphsapp.com/tutorials/fractions 

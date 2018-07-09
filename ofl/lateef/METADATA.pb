@@ -1,7 +1,7 @@
 name: "Lateef"
 designer: "SIL International"
 license: "OFL"
-category: "HANDWRITING"
+category: "SERIF"
 date_added: "2012-01-18"
 fonts {
   name: "Lateef"

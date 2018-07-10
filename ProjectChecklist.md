@@ -114,6 +114,16 @@ Install the python module with
 
 ### Mac
 
+#### Automation
+
+You can automate any application with these tools:
+
+* https://folivora.ai
+* http://www.sikuli.org/
+* http://www.hammerspoon.org/
+* https://www.bluem.net/en/projects/cliclick/
+* https://pqrs.org/osx/karabiner/document.html
+
 #### Font Installation/Management
 
 Mac OS X has good font caching, which is good for end-users, but annoying for type designers. 

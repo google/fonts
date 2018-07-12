@@ -411,6 +411,14 @@ You can reply via email to these messages, but note that your email replies **wi
 It is a good idea to set up an email filter to label github emails as such, to be sure you know when your reply will become public. 
 See [GMail Filter and Label Documentation](https://support.google.com/mail/answer/6579?hl=en)
 
+#### Commit on Save
+
+Some tools are available to use Git more closely with your font editor:
+
+* https://glyphsapp.com/tools/commitglyphs for Glyphs, easy to use
+* https://github.com/simoncozens/GlyphsGit for Glyphs, needs some more familiarity with Git
+* https://bitbucket.org/BlackFoundry/commitatsave for RoboFont
+
 ### Your Repository
 
 #### Name Your Project

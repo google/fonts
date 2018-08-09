@@ -88,9 +88,9 @@ Microsoft offers zero-price virtual machine images at [modern.ie](https://dev.mo
 
 Many Windows users install fonts to use them in Microsoft Word or LibreOffice, so check that your fonts can be installed and set paragraphs normally in 
 
-* Windows installation
+* Windows
 * Microsoft Word
-* Libre Office 5.1
+* LibreOffice 5.3 (5.3 introduced a new layout engine, based on HarfBuzz)
 
 ### GNU+Linux
 

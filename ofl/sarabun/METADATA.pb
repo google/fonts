@@ -1,8 +1,8 @@
 name: "Sarabun"
-designer: "Cadson Demak"
+designer: "Suppakit Chalermlarp"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-08-22"
+date_added: "2013-10-28"
 fonts {
   name: "Sarabun"
   style: "normal"

@@ -1,10 +1,10 @@
-name: "K2 D"
+name: "K2D"
 designer: "Cadson Demak"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-08-22"
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "normal"
   weight: 100
   filename: "K2D-Thin.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "italic"
   weight: 100
   filename: "K2D-ThinItalic.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "normal"
   weight: 200
   filename: "K2D-ExtraLight.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "italic"
   weight: 200
   filename: "K2D-ExtraLightItalic.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "normal"
   weight: 300
   filename: "K2D-Light.ttf"
@@ -49,7 +49,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "italic"
   weight: 300
   filename: "K2D-LightItalic.ttf"
@@ -58,7 +58,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "normal"
   weight: 400
   filename: "K2D-Regular.ttf"
@@ -67,7 +67,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "italic"
   weight: 400
   filename: "K2D-Italic.ttf"
@@ -76,7 +76,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "normal"
   weight: 500
   filename: "K2D-Medium.ttf"
@@ -85,7 +85,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "italic"
   weight: 500
   filename: "K2D-MediumItalic.ttf"
@@ -94,7 +94,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "normal"
   weight: 600
   filename: "K2D-SemiBold.ttf"
@@ -103,7 +103,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "italic"
   weight: 600
   filename: "K2D-SemiBoldItalic.ttf"
@@ -112,7 +112,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "normal"
   weight: 700
   filename: "K2D-Bold.ttf"
@@ -121,7 +121,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "italic"
   weight: 700
   filename: "K2D-BoldItalic.ttf"
@@ -130,7 +130,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "normal"
   weight: 800
   filename: "K2D-ExtraBold.ttf"
@@ -139,7 +139,7 @@ fonts {
   copyright: "Copyright 2018 The K2D Project Authors (https://github.com/cadsondemak/K2D)"
 }
 fonts {
-  name: "K2 D"
+  name: "K2D"
   style: "italic"
   weight: 800
   filename: "K2D-ExtraBoldItalic.ttf"

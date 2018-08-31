@@ -10,7 +10,7 @@ fonts {
   filename: "AsapCondensed-Regular.ttf"
   post_script_name: "AsapCondensed-Regular"
   full_name: "Asap Condensed Regular"
-  copyright: "Copyright 2017 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed), with Reserved Font Name \"(Asap Condensed)\"."
 }
 fonts {
   name: "Asap Condensed"
@@ -19,7 +19,7 @@ fonts {
   filename: "AsapCondensed-Italic.ttf"
   post_script_name: "AsapCondensed-Italic"
   full_name: "Asap Condensed Italic"
-  copyright: "Copyright 2017 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed), with Reserved Font Name \"(Asap Condensed)\"."
 }
 fonts {
   name: "Asap Condensed"
@@ -28,7 +28,7 @@ fonts {
   filename: "AsapCondensed-Medium.ttf"
   post_script_name: "AsapCondensed-Medium"
   full_name: "Asap Condensed Medium"
-  copyright: "Copyright 2017 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed), with Reserved Font Name \"(Asap Condensed)\"."
 }
 fonts {
   name: "Asap Condensed"
@@ -37,7 +37,7 @@ fonts {
   filename: "AsapCondensed-MediumItalic.ttf"
   post_script_name: "AsapCondensed-MediumItalic"
   full_name: "Asap Condensed Medium Italic"
-  copyright: "Copyright 2017 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed), with Reserved Font Name \"(Asap Condensed)\"."
 }
 fonts {
   name: "Asap Condensed"
@@ -46,7 +46,7 @@ fonts {
   filename: "AsapCondensed-SemiBold.ttf"
   post_script_name: "AsapCondensed-SemiBold"
   full_name: "Asap Condensed SemiBold"
-  copyright: "Copyright 2017 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed), with Reserved Font Name \"(Asap Condensed)\"."
 }
 fonts {
   name: "Asap Condensed"
@@ -55,7 +55,7 @@ fonts {
   filename: "AsapCondensed-SemiBoldItalic.ttf"
   post_script_name: "AsapCondensed-SemiBoldItalic"
   full_name: "Asap Condensed SemiBold Italic"
-  copyright: "Copyright 2017 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed), with Reserved Font Name \"(Asap Condensed)\"."
 }
 fonts {
   name: "Asap Condensed"
@@ -64,7 +64,7 @@ fonts {
   filename: "AsapCondensed-Bold.ttf"
   post_script_name: "AsapCondensed-Bold"
   full_name: "Asap Condensed Bold"
-  copyright: "Copyright 2017 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed), with Reserved Font Name \"(Asap Condensed)\"."
 }
 fonts {
   name: "Asap Condensed"
@@ -73,7 +73,7 @@ fonts {
   filename: "AsapCondensed-BoldItalic.ttf"
   post_script_name: "AsapCondensed-BoldItalic"
   full_name: "Asap Condensed Bold Italic"
-  copyright: "Copyright 2017 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed) with Reserved Font Name \"Asap\"."
+  copyright: "Copyright 2018 The Asap Condensed Project Authors (https://github.com/Omnibus-Type/AsapCondensed), with Reserved Font Name \"(Asap Condensed)\"."
 }
 subsets: "latin"
 subsets: "latin-ext"

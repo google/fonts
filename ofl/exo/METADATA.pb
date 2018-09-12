@@ -1,5 +1,5 @@
 name: "Exo"
-designer: "Natanael Gama, Rob Mientjes"
+designer: "Natanael Gama, Robin Mientjes"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-08"

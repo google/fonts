@@ -10,7 +10,7 @@ fonts {
   filename: "Niramit-ExtraLight.ttf"
   post_script_name: "Niramit-ExtraLight"
   full_name: "Niramit ExtraLight"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -19,7 +19,7 @@ fonts {
   filename: "Niramit-ExtraLightItalic.ttf"
   post_script_name: "Niramit-ExtraLightItalic"
   full_name: "Niramit ExtraLight Italic"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -28,7 +28,7 @@ fonts {
   filename: "Niramit-Light.ttf"
   post_script_name: "Niramit-Light"
   full_name: "Niramit Light"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -37,7 +37,7 @@ fonts {
   filename: "Niramit-LightItalic.ttf"
   post_script_name: "Niramit-LightItalic"
   full_name: "Niramit Light Italic"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -46,7 +46,7 @@ fonts {
   filename: "Niramit-Regular.ttf"
   post_script_name: "Niramit-Regular"
   full_name: "Niramit Regular"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -55,7 +55,7 @@ fonts {
   filename: "Niramit-Italic.ttf"
   post_script_name: "Niramit-Italic"
   full_name: "Niramit Italic"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -64,7 +64,7 @@ fonts {
   filename: "Niramit-Medium.ttf"
   post_script_name: "Niramit-Medium"
   full_name: "Niramit Medium"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -73,7 +73,7 @@ fonts {
   filename: "Niramit-MediumItalic.ttf"
   post_script_name: "Niramit-MediumItalic"
   full_name: "Niramit Medium Italic"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -82,7 +82,7 @@ fonts {
   filename: "Niramit-SemiBold.ttf"
   post_script_name: "Niramit-SemiBold"
   full_name: "Niramit SemiBold"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -91,7 +91,7 @@ fonts {
   filename: "Niramit-SemiBoldItalic.ttf"
   post_script_name: "Niramit-SemiBoldItalic"
   full_name: "Niramit SemiBold Italic"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -100,7 +100,7 @@ fonts {
   filename: "Niramit-Bold.ttf"
   post_script_name: "Niramit-Bold"
   full_name: "Niramit Bold"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 fonts {
   name: "Niramit"
@@ -109,7 +109,7 @@ fonts {
   filename: "Niramit-BoldItalic.ttf"
   post_script_name: "Niramit-BoldItalic"
   full_name: "Niramit Bold Italic"
-  copyright: "Copyright 2018 the Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
+  copyright: "Copyright 2018 The Niramit Project Authors (https://github.com/cadsondemak/Niramit)"
 }
 subsets: "latin"
 subsets: "latin-ext"

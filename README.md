@@ -5,7 +5,7 @@ This project contains the binary font files served by Google Fonts: https://font
 The top level directories indicate the license of all files found within them.
 Subdirectories are named according to the family name of the fonts within. 
 
-Each family subdirectory contains the  `.ttf` font files served by Google Fonts, plus a `METADATA.pb` file with metadata for the family, and a `DESCRIPTION.en_us.html` with a description of the family in US English.
+Each family subdirectory contains the  `.ttf` font files served by Google Fonts, plus a `METADATA.pb` file with metadata for the family, and a `DESCRIPTION.en_us.html` with a description of the family in US English. The `METADATA.pb` file also contains information on a font's designer(s) and license.
 
 ## Bug reports and improvement requests
 

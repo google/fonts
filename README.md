@@ -7,8 +7,6 @@ Subdirectories are named according to the family name of the fonts within.
 
 Each family subdirectory contains the  `.ttf` font files served by Google Fonts, plus a `METADATA.pb` file with metadata for the family, and a `DESCRIPTION.en_us.html` with a description of the family in US English.
 
-Also, [/designers](designers) contains a list of the Google+ pages for the fonts' designers.
-
 ## Bug reports and improvement requests
 
 If you find a problem with a font file or have a request for future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/google/fonts/issues).

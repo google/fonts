@@ -158,7 +158,7 @@ The Typo Metrics need to inherit the v1.000 Win values. The Win Ascent and Win D
 If the font was previously hosted on fonts.google.com, you can test the upgraded vertical metrics visually match by using [GF Regression](http://45.55.138.144).
 
 
-![GF Regression vertical metrics test](VerticalMetrics-gfregression-test.png)
+![GF Regression vertical metrics test](assets/VerticalMetrics-gfregression-test.png)
 *Play's vertical metrics being tested, left: Local version, right: fonts.google.com version*
 
 Useful Links:

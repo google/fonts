@@ -10,8 +10,8 @@ fonts {
   filename: "Staatliches-Regular.ttf"
   post_script_name: "Staatliches-Regular"
   full_name: "Staatliches Regular"
-  copyright: "Copyright 2018 The Staatliches Authors (https://github.com/googlefonts/staatliches)"
+  copyright: "Copyright 2018 The Staatliches Project Authors (https://github.com/googlefonts/staatliches)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

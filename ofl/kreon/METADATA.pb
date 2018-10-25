@@ -7,7 +7,7 @@ fonts {
   name: "Kreon"
   style: "normal"
   weight: 300
-  filename: "Kreon-Light.ttf"
+  filename: "Kreon-VF.ttf"
   post_script_name: "Kreon-Light"
   full_name: "Kreon Light"
   copyright: "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com), with Reserved Font Name \"Kreon\"."
@@ -16,7 +16,7 @@ fonts {
   name: "Kreon"
   style: "normal"
   weight: 400
-  filename: "Kreon-Regular.ttf"
+  filename: "Kreon-VF.ttf"
   post_script_name: "Kreon-Regular"
   full_name: "Kreon Regular"
   copyright: "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com), with Reserved Font Name \"Kreon\"."
@@ -25,7 +25,7 @@ fonts {
   name: "Kreon"
   style: "normal"
   weight: 700
-  filename: "Kreon-Bold.ttf"
+  filename: "Kreon-VF.ttf"
   post_script_name: "Kreon-Bold"
   full_name: "Kreon Bold"
   copyright: "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com), with Reserved Font Name \"Kreon\"."

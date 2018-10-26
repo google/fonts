@@ -34,7 +34,7 @@ Each font family directory contains the appropriate license file for the fonts i
 The fonts files themselves also contain licensing and authorship metadata.
 
 - A majority of the fonts in the collection use the **SIL Open Font License, v1.1**
-- Some fonts use the A**pache 2 license** 
+- Some fonts use the **Apache 2 license** 
 - Every Ubuntu font uses the **Ubuntu Font License v1.0**
 
 The *SIL Open Font License* has an option for copyright holders to include a Reserved Font Name requirement, and this option is used with some of the fonts. 

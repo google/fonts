@@ -15,7 +15,7 @@ If you find a problem with a font file or have a request for future development 
 
 ## Self Host Fonts Available From Google Fonts
 
-Since all the fonts available here are licensed with permission to redistribute, subject to the license terms, you can self-host.
+Since all fonts available here are licensed with permission to redistribute, subject to the license terms, you can self-host.
 For help doing this, see <https://github.com/majodev/google-webfonts-helper>
 
 ## Download All Google Fonts
@@ -24,7 +24,7 @@ You can download all Google Fonts in a simple ZIP snapshot (over 300MB) from <ht
 
 #### Sync With Git
 
-You can also sync the collection with git so that you can update by only fetching what has changed.
+You can also sync the collection with git so that you can only update by fetching what has changed.
 To learn how to use git, Github provides [illustrated guides](https://guides.github.com) and a [youtube channel](https://www.youtube.com/user/GitHubGuides), and a [learning game that takes just 15 minutes](https://try.github.io). 
 Free, open source git applications are available for [Windows](https://msysgit.github.io) and [Mac OS X](http://gitx.laullon.com).
 

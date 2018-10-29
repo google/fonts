@@ -7,7 +7,7 @@ fonts {
   name: "Orbitron"
   style: "normal"
   weight: 400
-  filename: "Orbitron-Regular.ttf"
+  filename: "Orbitron-VF.ttf"
   post_script_name: "Orbitron-Regular"
   full_name: "Orbitron Regular"
   copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
@@ -16,7 +16,7 @@ fonts {
   name: "Orbitron"
   style: "normal"
   weight: 500
-  filename: "Orbitron-Medium.ttf"
+  filename: "Orbitron-VF.ttf"
   post_script_name: "Orbitron-Medium"
   full_name: "Orbitron Medium"
   copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
@@ -25,7 +25,7 @@ fonts {
   name: "Orbitron"
   style: "normal"
   weight: 700
-  filename: "Orbitron-Bold.ttf"
+  filename: "Orbitron-VF.ttf"
   post_script_name: "Orbitron-Bold"
   full_name: "Orbitron Bold"
   copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
@@ -34,7 +34,7 @@ fonts {
   name: "Orbitron"
   style: "normal"
   weight: 900
-  filename: "Orbitron-Black.ttf"
+  filename: "Orbitron-VF.ttf"
   post_script_name: "Orbitron-Black"
   full_name: "Orbitron Black"
   copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"

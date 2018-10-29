@@ -10,7 +10,7 @@ fonts {
   filename: "Orbitron-VF.ttf"
   post_script_name: "Orbitron-Regular"
   full_name: "Orbitron Regular"
-  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
+  copyright: "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)."
 }
 fonts {
   name: "Orbitron"
@@ -19,7 +19,7 @@ fonts {
   filename: "Orbitron-VF.ttf"
   post_script_name: "Orbitron-Medium"
   full_name: "Orbitron Medium"
-  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
+  copyright: "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)."
 }
 fonts {
   name: "Orbitron"
@@ -28,7 +28,7 @@ fonts {
   filename: "Orbitron-VF.ttf"
   post_script_name: "Orbitron-Bold"
   full_name: "Orbitron Bold"
-  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
+  copyright: "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)."
 }
 fonts {
   name: "Orbitron"
@@ -37,7 +37,7 @@ fonts {
   filename: "Orbitron-VF.ttf"
   post_script_name: "Orbitron-Black"
   full_name: "Orbitron Black"
-  copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
+  copyright: "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)."
 }
 subsets: "latin"
 subsets: "menu"

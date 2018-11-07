@@ -719,11 +719,10 @@ You can do this by passing an argument to the fontforge python `font.generate()`
 #### DSIG table
 
 The `DSIG` table should be included.
+    
+There is a [gftools](https://github.com/googlefonts/gftools) script to add one:
 
-There is a fontbakery tool to add one, that uses fonttools:
-
-    fontbakery-fix-dsig.py Family-Style.ttf --autofix;
-    mv Family-Style.ttf.fix Family-Style.ttf;
+    gftools fix-dsig --autofix Family-Style.ttf
 
 #### gasp table
 

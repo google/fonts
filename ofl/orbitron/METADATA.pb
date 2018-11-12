@@ -2,7 +2,7 @@ name: "Orbitron"
 designer: "Matt McInerney"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-11-08"
+date_added: "2018-11-12"
 fonts {
   name: "Orbitron"
   style: "normal"
@@ -10,7 +10,7 @@ fonts {
   filename: "Orbitron-Regular.ttf"
   post_script_name: "Orbitron-Regular"
   full_name: "Orbitron Regular"
-  copyright: "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)."
+  copyright: "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)"
 }
 subsets: "latin"
 subsets: "menu"

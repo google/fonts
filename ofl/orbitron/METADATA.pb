@@ -7,7 +7,7 @@ fonts {
   name: "Orbitron"
   style: "normal"
   weight: 400
-  filename: "Orbitron-Regular.ttf"
+  filename: "Orbitron-Roman.ttf"
   post_script_name: "Orbitron-Regular"
   full_name: "Orbitron Regular"
   copyright: "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)"

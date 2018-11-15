@@ -17,6 +17,7 @@ If you would like to include a new font family in the Google Fonts collection, w
 * All font files are available in TTF format, with hinting (such as with [ttfautohint](http://www.freetype.org/ttfautohint/))  
 * All font files have at a minimum the 215 glyphs listed in our [`latin_unique-glyphs.nam`](https://github.com/googlefonts/tools/blob/master/encodings/latin_unique-glyphs.nam) file  
 * All font files within the family have the same Unicode character set (unencoded glyphs can differ)  
+* All font files pass the [Font Bakery](https://github.com/googlefonts/fontbakery) google-fonts profile checks.
 * A `README.md` file is included in the root of the source repository, and inside of that file we can read about [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#43cecb44) information, and your github usernames, so that we can prepare a description ([example](https://github.com/google/fonts/blob/master/ofl/poppins/DESCRIPTION.en_us.html)) and link your name to your profile.  
 * More detailed design and production details are listed in [github.com/googlefonts/gf-docs/ProjectChecklist](https://github.com/googlefonts/gf-docs/tree/master/ProjectChecklist)  
 

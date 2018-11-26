@@ -2,14 +2,14 @@ name: "Orbitron"
 designer: "Matt McInerney"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-11-12"
+date_added: "2018-11-21"
 fonts {
   name: "Orbitron"
   style: "normal"
   weight: 400
-  filename: "Orbitron-Roman.ttf"
-  post_script_name: "Orbitron-Regular"
-  full_name: "Orbitron Regular"
+  filename: "Orbitron-Roman-VF.ttf"
+  post_script_name: "Orbitron-Roman-VF"
+  full_name: "Orbitron Roman"
   copyright: "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)"
 }
 subsets: "latin"

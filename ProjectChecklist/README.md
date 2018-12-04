@@ -347,6 +347,7 @@ If you use actively use a tool in your work, please consider contacting @davelab
 There are many good guides for learning how to use Github around the web, including:
 
 * <https://github.com/davelab6/git-for-type-designers>
+* <https://abookapart.com/products/git-for-humans>, a short and friendly introduction book
 * <https://try.github.io>, a 15 minute interactive game
 * <http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1>, an introduction article
 * <https://guides.github.com>, well written and illustrated guides

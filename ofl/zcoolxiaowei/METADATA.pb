@@ -1,8 +1,8 @@
 name: "ZCOOL XiaoWei"
-designer: "David Lee"
+designer: "Li Dawei"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-11-20"
+date_added: "2018-12-05"
 fonts {
   name: "ZCOOL XiaoWei"
   style: "normal"
@@ -12,6 +12,6 @@ fonts {
   full_name: "ZCOOL XiaoWei Regular"
   copyright: "Copyright 2018 The ZCOOL XiaoWei Project Authors (https://www.github.com/googlefonts/xiaowei)"
 }
-subsets: "japanese"
+subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"

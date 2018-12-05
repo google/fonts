@@ -1,8 +1,8 @@
 name: "Major Mono Display"
-designer: "Emre Parlak"
+designer: "Emre Parlak, Mika LaGattuta"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2018-09-28"
+date_added: "2018-12-05"
 fonts {
   name: "Major Mono Display"
   style: "normal"

@@ -2,7 +2,7 @@ name: "Aleo"
 designer: "Alessio Laiso, Kevin Conroy"
 license: "OFL"
 category: "SERIF"
-date_added: "2018-03-21"
+date_added: "2018-12-05"
 fonts {
   name: "Aleo"
   style: "normal"

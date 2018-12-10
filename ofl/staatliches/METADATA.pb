@@ -1,8 +1,8 @@
 name: "Staatliches"
-designer: "Brian LaRossa & Erica Carras"
+designer: "Brian LaRossa, Erica Carras"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2018-10-17"
+date_added: "2018-12-10"
 fonts {
   name: "Staatliches"
   style: "normal"

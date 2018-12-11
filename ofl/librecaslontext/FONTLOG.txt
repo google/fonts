@@ -6,54 +6,54 @@ This information should be distributed along with the Libre Caslon fonts and any
 
 Basic Font Information
 
-Libre Caslon Text is optimized for web body text (typically set at 16px).
-Libre Caslon Display is optimized for Headlines.
+The Libre Caslon fonts are unique Caslons. They are different to all other Caslons out there.
 
-There are already lots of digital Caslon's revivals, and lots of Caslon-esque fonts. Some are very good. But none of them was truly made for the web. While they look very good when printed on paper, they render very small when used for web body text on the screen.
+When we were faced with the challenge of making a new Caslon, we asked ourselves: How can we make them different, to bring something new to the table?
+We realized that most Caslon revivals were based on 18-Century specimens and that there was a whole genre of Caslons that has been so far ignored: The alluring hand-lettered American Caslons of 1960s.
 
-Libre Caslon Text, instead, was specifically tailored to be used for web body text (typically set at 16px). It can be used at very small sizes and will still be readable on your website.
+This was a captivating subject to investigate. Caslon was the very first alphabet that lettering artists learned to draw, so they all were very familiar with it. Our wonder led us to find countless examples of beautifully crafted and elegant vintage ads and hand lettering books. Among those many books, there were two that outshine the rest: One is "Lettering for Advertising" by Mortimer Leach, and the other one is "How to Render Roman Letter Forms" by Tommy Thompson. Both of these books are excellent, highly recommended for all those who want to learn lettering.
 
-Another big difference is that pretty much all other digital Caslons revivals are based on 18th Century specimens by William Caslon I and Wiliam Caslon II. Libre Caslon, instead, it's based on hand lettering artists Caslon's interpretations typical of 1950 advertising. 
+So, instead of making just another revival of the types of William Caslon, we preferred to pay homage to 60's lettering artist's Caslon interpretations. And that's how Libre Caslon become different to all other Caslons. (Not better or worse, just different.)
 
-Libre Caslon Text also include some nice, extra Open Type features:
-- 17 ligatures on the regular styles, and XX ligatures on the italic styles
+We also decided to make two size-specific subfamilies:
+- [Libre Caslon Display](https://github.com/impallari/Libre-Caslon-Display/), a high-contrast Caslon for big headlines.
+- [Libre Caslon Text](https://github.com/impallari/Libre-Caslon-Text/), specifically optimized for web body text.
+
+Libre Caslon Text also includes some nice, extra Open Type features:
+- 17 ligatures on the regular styles, and 20 ligatures on the italic styles
 - Lining Proportional Numbers (Default style).
 - Lining Tabular Numbers and punctuation.
-- Old Style Prortional Numbers.
+- Old Style Proportional Numbers.
 - Inferiors, Superiors, Numerators, Denominators.
 - Fractions.
 - Ordinals.
+- The italic style includes an alternate Ampersand (ss01)
 
-And a big PRO character-set covering 103 Latin languages: Afar, Afrikaans,
-Albanian, Azerbaijani, Basque, Belarusian, Bislama, Bosnian, Breton, Catalan,
-Chamorro, Chichewa, Comorian, Czech, Danish, Dutch, English, Esperanto,
-Estonian, Faroese, Fijian, Filipino/Tagalog, Finnish, Flemish, French, Gaelic
-(Irish / Manx / Scottish), Gagauz, German, Gikuyu, Gilbertese/Kiribati,
-Greenlandic, Guarani, Haitian_Creole, Hawaiian, Hungarian, Icelandic,
-Igo/Igbo, Indonesian, Irish, Italian, Javanese, Kashubian, Kinyarwanda,
-Kirundi, Latin, Latvian, Lithuanian, Luba/Ciluba/Kasai, Luxembourgish,
-Malagasy, Malay, Maltese, Maori, Marquesan, Marshallese,
-Moldovan/Moldovian/Romanian, Montenegrin, Nauruan, Ndebele, Norwegian, Oromo,
-Palauan/Belauan, Polish, Portuguese, Quechua, Romanian, Romansh, Sami, Samoan,
-Sango, Serbian, Sesotho, Setswana/Sitswana/Tswana, Seychellois_Creole,
-SiSwati/Swati/Swazi, Silesian, Slovak, Slovenian, Somali, Sorbian, Sotho,
-Spanish, Swahili, Swedish, Tahitian, Tetum, Tok_Pisin, Tongan, Tsonga, Tswana,
-Tuareg/Berber, Turkish, Turkmen, Tuvaluan, Uzbek/Usbek, Wallisian, Walloon,
-Welsh, Xhosa, Yoruba, Zulu.
+The Libre Caslon Fonts covers all 104 Latin Languages: Afar, Afrikaans, Albanian, Azerbaijani, Basque, Belarusian, Bislama, Bosnian, Breton, Catalan, Chamorro, Chichewa, Comorian, Croatian, Czech, Danish, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino/Tagalog, Finnish, Flemish, French, Gaelic (Irish / Manx / Scottish), Gagauz, German, Gikuyu, Gilbertese/Kiribati, Greenlandic, Guarani, Haitian_Creole, Hawaiian, Hungarian, Icelandic, Igo/Igbo, Indonesian, Irish, Italian, Javanese, Kashubian, Kinyarwanda, Kirundi, Latin, Latvian, Lithuanian, Luba/Ciluba/Kasai, Luxembourgish, Malagasy, Malay, Maltese, Maori, Marquesan, Marshallese, Moldovan/Moldovian/Romanian, Montenegrin, Nauruan, Ndebele, Norwegian, Oromo, Palauan/Belauan, Polish, Portuguese, Quechua, Romanian, Romansh, Sami, Samoan, Sango, Serbian, Sesotho, Setswana/Sitswana/Tswana, Seychellois_Creole, SiSwati/Swati/Swazi, Silesian, Slovak, Slovenian, Somali, Sorbian, Sotho, Spanish, Swahili, Swedish, Tahitian, Tetum, Tok_Pisin, Tongan, Tsonga, Tswana, Tuareg/Berber, Turkish, Turkmen, Tuvaluan, Uzbek/Usbek, Wallisian, Walloon, Welsh, Xhosa, Yoruba, Zulu.
+
+Documentation can be found at https://web.archive.org/web/20171123191201/http://www.impallari.com:80/projects/overview/libre-caslon-display-and-text
 
 Join the project at:
-http://www.impallari.com/projects/overview/libre-caslon-display-and-text
-
-Documentation can be found at www.impallari.com
-
-To contribute to the project contact Pablo Impallari at impallari@gmail.com
+https://github.com/thundernixon/libre-caslon
 
 ChangeLog
+
+10 Dec 2018 (Stephen Nixon) Libre Caslon Text v2.000
+- Rescale against UPM to be closer in sizing to default serif fonts (e.g. Times, Times New Roman, & Tinos)
+- Slightly increase Roman Regular master weight to better match Italic
+- Generate variable font from Roman masters, with beta of TTFautohint for variable fonts (v1.8.1.43-b0c9)
+- Rebuild Italic static TTF with latest TTFautohint (v1.8.2)
+
+25 Jul 2016 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Text v1.002
+- Fixing Naming and Metadata bugs
+
+27 Jul 2015 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Text v1.001
+- Removed RFN
+- Rehinted using latest ttfautohint version (v1.3)
 
 14 Mar 2013 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Text v1.00
 - Ikerned and TTF Hinted
 - Added Tabular Numbers
-
 
 07 Mar 2013 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon v0.34
 - Completed charset on the Text styles
@@ -91,5 +91,7 @@ E: hello@rfuenzalida.com
 W: http://www.rfuenzalida.com
 D: Designer
 
-
-
+N: Stephen Nixon
+E: stephen@thundernixon.com
+W: http://www.thundernixon.com
+D: Variable Font Mastering

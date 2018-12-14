@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Cabin-VF.ttf"
   post_script_name: "Cabin-Regular"
-  full_name: "Cabin Regular"
+  full_name: "Cabin"
   copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
@@ -19,15 +19,6 @@ fonts {
   filename: "CabinItalic-VF.ttf"
   post_script_name: "Cabin-Italic"
   full_name: "Cabin Italic"
-  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
-}
-fonts {
-  name: "Cabin"
-  style: "normal"
-  weight: 500
-  filename: "CabinCondensed-VF.ttf"
-  post_script_name: "CabinCondensed-VF"
-  full_name: "Cabin Condensed Regular"
   copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 subsets: "latin"

@@ -33,10 +33,28 @@ fonts {
 fonts {
   name: "Roboto Slab"
   style: "normal"
+  weight: 500
+  filename: "RobotoSlab-Medium.ttf"
+  post_script_name: "RobotoSlab-Medium"
+  full_name: "Roboto Slab Medium"
+  copyright: "Font data copyright Google 2013"
+}
+fonts {
+  name: "Roboto Slab"
+  style: "normal"
   weight: 700
   filename: "RobotoSlab-Bold.ttf"
   post_script_name: "RobotoSlab-Bold"
   full_name: "Roboto Slab Bold"
+  copyright: "Font data copyright Google 2013"
+}
+fonts {
+  name: "Roboto Slab"
+  style: "normal"
+  weight: 900
+  filename: "RobotoSlab-Black.ttf"
+  post_script_name: "RobotoSlab-Black"
+  full_name: "Roboto Slab Black"
   copyright: "Font data copyright Google 2013"
 }
 subsets: "menu"

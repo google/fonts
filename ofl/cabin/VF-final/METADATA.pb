@@ -37,9 +37,3 @@ axes {
   default_value: 100.0
   max_value: 100.0
 }
-axes {
-  tag: "ital"
-  min_value: 0.0
-  default_value: 0.0
-  max_value: 1.0
-}

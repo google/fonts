@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Cabin-VF.ttf"
   post_script_name: "Cabin-Regular"
-  full_name: "Cabin Regular"
+  full_name: "Cabin"
   copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {
@@ -21,15 +21,6 @@ fonts {
   full_name: "Cabin Italic"
   copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
-fonts {
-  name: "Cabin"
-  style: "normal"
-  weight: 500
-  filename: "CabinCondensed-VF.ttf"
-  post_script_name: "CabinCondensed-VF"
-  full_name: "Cabin Condensed Regular"
-  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
-}
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -39,16 +30,4 @@ axes {
   min_value: 400.0
   default_value: 400.0
   max_value: 700.0
-}
-axes {
-  tag: "wdth"
-  min_value: 50.0
-  default_value: 100.0
-  max_value: 100.0
-}
-axes {
-  tag: "ital"
-  min_value: 0.0
-  default_value: 0.0
-  max_value: 1.0
 }

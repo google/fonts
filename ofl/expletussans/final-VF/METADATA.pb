@@ -10,7 +10,7 @@ fonts {
   filename: "ExpletusSans-VF.ttf"
   post_script_name: "ExpletusSans"
   full_name: "Expletus Sans"
-  copyright: "Copyright (c) 2009 by Designtown (jasper@designtown.nl). All rights reserved."
+  copyright: "Copyright 2018 The Expletus Sans Project Authors (https://bitbucket.org/lassefister/old-googlefontdirectory/src/21142f3bf7ad39d89c1c682d30830494ef1c905c/ofl/expletussans/?at=default), with Reserved Font Name "Expletus Sans"."
 }
 subsets: "menu"
 subsets: "latin"

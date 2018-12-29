@@ -2,7 +2,7 @@ name: "PT Root UI"
 designer: "ParaType"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-12-28"
+date_added: "2018-12-29"
 fonts {
   name: "PT Root UI"
   style: "normal"

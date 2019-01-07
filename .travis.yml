@@ -17,5 +17,4 @@ script:
   - sh run_fb.sh
 
 after_success:
-  script:
-    - python viz_pr.py
+  - python viz_pr.py

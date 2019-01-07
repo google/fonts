@@ -1,0 +1,21 @@
+language: python
+
+dist: xenial 
+
+python:
+  - "3.6"
+
+before_install:
+  - sudo apt-get install -y jq
+  - sudo apt-get install -y libfreetype6-dev libglib2.0-dev libcairo2-dev libharfbuzz-dev
+
+install:
+  - pip install fontbakery
+  - pip install git+https://www.github.com/m4rc1e/tools@34d2c6cfd6721a56de861db8afb68a1ed4e71bed
+
+script:
+  - sh run_fb.sh
+
+after_success:
+  script:
+    - python viz_pr.py

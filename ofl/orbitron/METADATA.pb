@@ -2,7 +2,7 @@ name: "Orbitron"
 designer: "Matt McInerney"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2019-01-18"
+date_added: "2010-12-15"
 fonts {
   name: "Orbitron"
   style: "normal"

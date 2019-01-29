@@ -11,7 +11,7 @@ before_install:
 
 install:
   - pip install fontbakery
-  - pip install git+https://www.github.com/m4rc1e/tools@49dcdaf6f7e4c6a738a3d8d806415f36060d5c5d
+  - pip install git+https://www.github.com/googlefonts/gftools
 
 script:
   - python viz_pr.py

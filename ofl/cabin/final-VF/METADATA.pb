@@ -10,7 +10,7 @@ fonts {
   filename: "Cabin-Roman-VF.ttf"
   post_script_name: "Cabin-Regular"
   full_name: "Cabin"
-  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
+  copyright: "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)"
 }
 fonts {
   name: "Cabin"
@@ -19,7 +19,7 @@ fonts {
   filename: "Cabin-Italic-VF.ttf"
   post_script_name: "Cabin-Italic"
   full_name: "Cabin Italic"
-  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
+  copyright: "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)"
 }
 subsets: "latin"
 subsets: "latin-ext"

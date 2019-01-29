@@ -10,7 +10,7 @@ fonts {
   filename: "CabinCondensed-Regular.ttf"
   post_script_name: "CabinCondensed-Regular"
   full_name: "Cabin Condensed"
-  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
+  copyright: "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)"
 }
 fonts {
   name: "Cabin Condensed"
@@ -19,7 +19,7 @@ fonts {
   filename: "CabinCondensed-Medium.ttf"
   post_script_name: "CabinCondensed-Medium"
   full_name: "Cabin Condensed Medium"
-  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
+  copyright: "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)"
 }
 fonts {
   name: "Cabin Condensed"
@@ -28,7 +28,7 @@ fonts {
   filename: "CabinCondensed-SemiBold.ttf"
   post_script_name: "CabinCondensed-SemiBold"
   full_name: "Cabin Condensed SemiBold"
-  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
+  copyright: "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)"
 }
 fonts {
   name: "Cabin Condensed"
@@ -37,7 +37,7 @@ fonts {
   filename: "CabinCondensed-Bold.ttf"
   post_script_name: "CabinCondensed-Bold"
   full_name: "Cabin Condensed Bold"
-  copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
+  copyright: "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)"
 }
 subsets: "latin"
 subsets: "latin-ext"

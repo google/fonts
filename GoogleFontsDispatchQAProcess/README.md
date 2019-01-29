@@ -85,7 +85,7 @@ to [Google Fonts](https://github.com/google/fonts/). We also outlined a proposed
     - Must be github repo
     - Sources must exist
     - License is OFL
-- **(upgrade)**User clicks on "update family radio button"
+- **(upgrade)** User clicks on "update family radio button"
   - User provides "upstream url" (or just selects family name?)
     - User adds optional authors
 - Thank user

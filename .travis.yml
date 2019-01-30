@@ -22,6 +22,5 @@ install:
   - pip install git+https://github.com/googlefonts/gftools
 
 script:
-  - travis_wait 30 python viz_pr.py
-  - sh run_fb.sh
+  - travis_wait 30 python .ci/viz_pr.py
 

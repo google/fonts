@@ -14,7 +14,9 @@ before_install:
   - cd harfbuzz-2.3.0
   - ./configure --with-cairo=yes
   - make
-  - cd ..
+  - cd util
+  - PATH=$(pwd):$PATH
+  - cd ../..
 
 install:
   - pip install git+https://github.com/googlefonts/gftools

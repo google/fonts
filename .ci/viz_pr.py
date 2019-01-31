@@ -6,7 +6,9 @@ import json
 from zipfile import ZipFile
 import subprocess
 from uuid import uuid4
+import logging
 
+logging.getLogger().setLevel(logging.INFO)
 
 GFR_URL = 'http://159.65.243.73'
 
@@ -71,6 +73,9 @@ def sep_fonts_into_families(fonts):
 
 def main():
     fonts_after = get_fonts_in_pr()
+    if not fonts_after:
+        post_gh_msg("No fonts found. Skipping font QA")
+        return
     families = sep_fonts_into_families(fonts_after)
     for family, fonts in families.items():
         family_qa_dir = "{}_qa".format(family)

@@ -7,9 +7,9 @@ fonts {
   name: "Cabin Condensed"
   style: "normal"
   weight: 400
-  filename: "CabinCondensed-Roman-VF.ttf"
+  filename: "CabinCondensed-Regular.ttf"
   post_script_name: "CabinCondensed-Regular"
-  full_name: "Cabin Condensed"
+  full_name: "Cabin Condensed Regular"
   copyright: "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)"
 }
 subsets: "latin"

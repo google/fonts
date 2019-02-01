@@ -7,16 +7,16 @@ fonts {
   name: "Cabin"
   style: "normal"
   weight: 400
-  filename: "Cabin-Roman-VF.ttf"
+  filename: "Cabin-Regular.ttf"
   post_script_name: "Cabin-Regular"
-  full_name: "Cabin"
+  full_name: "Cabin Regular"
   copyright: "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)"
 }
 fonts {
   name: "Cabin"
   style: "italic"
   weight: 400
-  filename: "Cabin-Italic-VF.ttf"
+  filename: "Cabin-Italic.ttf"
   post_script_name: "Cabin-Italic"
   full_name: "Cabin Italic"
   copyright: "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)"

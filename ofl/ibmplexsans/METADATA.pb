@@ -78,6 +78,24 @@ fonts {
 fonts {
   name: "IBM Plex Sans"
   style: "normal"
+  weight: 450
+  filename: "IBMPlexSans-Text.ttf"
+  post_script_name: "IBMPlexSans-Text"
+  full_name: "IBM Plex Sans Text"
+  copyright: "Copyright 2018 IBM Corp. All rights reserved."
+}
+fonts {
+  name: "IBM Plex Sans"
+  style: "italic"
+  weight: 450
+  filename: "IBMPlexSans-TextItalic.ttf"
+  post_script_name: "IBMPlexSans-TextItalic"
+  full_name: "IBM Plex Sans Text Italic"
+  copyright: "Copyright 2018 IBM Corp. All rights reserved."
+}
+fonts {
+  name: "IBM Plex Sans"
+  style: "normal"
   weight: 500
   filename: "IBMPlexSans-Medium.ttf"
   post_script_name: "IBMPlexSans-Medium"
@@ -131,6 +149,7 @@ fonts {
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
+subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

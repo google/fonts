@@ -78,6 +78,24 @@ fonts {
 fonts {
   name: "IBM Plex Serif"
   style: "normal"
+  weight: 450
+  filename: "IBMPlexSerif-Text.ttf"
+  post_script_name: "IBMPlexSerif-Text"
+  full_name: "IBM Plex Serif Text"
+  copyright: "Copyright 2018 IBM Corp. All rights reserved."
+}
+fonts {
+  name: "IBM Plex Serif"
+  style: "italic"
+  weight: 450
+  filename: "IBMPlexSerif-TextItalic.ttf"
+  post_script_name: "IBMPlexSerif-TextItalic"
+  full_name: "IBM Plex Serif Text Italic"
+  copyright: "Copyright 2018 IBM Corp. All rights reserved."
+}
+fonts {
+  name: "IBM Plex Serif"
+  style: "normal"
   weight: 500
   filename: "IBMPlexSerif-Medium.ttf"
   post_script_name: "IBMPlexSerif-Medium"

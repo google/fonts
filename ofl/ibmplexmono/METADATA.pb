@@ -78,6 +78,24 @@ fonts {
 fonts {
   name: "IBM Plex Mono"
   style: "normal"
+  weight: 450
+  filename: "IBMPlexMono-Text.ttf"
+  post_script_name: "IBMPlexMono-Text"
+  full_name: "IBM Plex Mono Text"
+  copyright: "Copyright 2018 IBM Corp. All rights reserved."
+}
+fonts {
+  name: "IBM Plex Mono"
+  style: "italic"
+  weight: 450
+  filename: "IBMPlexMono-TextItalic.ttf"
+  post_script_name: "IBMPlexMono-TextItalic"
+  full_name: "IBM Plex Mono Text Italic"
+  copyright: "Copyright 2018 IBM Corp. All rights reserved."
+}
+fonts {
+  name: "IBM Plex Mono"
+  style: "normal"
   weight: 500
   filename: "IBMPlexMono-Medium.ttf"
   post_script_name: "IBMPlexMono-Medium"

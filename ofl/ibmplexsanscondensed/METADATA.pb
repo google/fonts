@@ -1,8 +1,8 @@
 name: "IBM Plex Sans Condensed"
-designer: "Bold Monday"
+designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-03-12"
+date_added: "2019-02-04"
 fonts {
   name: "IBM Plex Sans Condensed"
   style: "normal"
@@ -73,24 +73,6 @@ fonts {
   filename: "IBMPlexSansCondensed-Italic.ttf"
   post_script_name: "IBMPlexSansCond-Italic"
   full_name: "IBM Plex Sans Condensed Italic"
-  copyright: "Copyright 2018 IBM Corp. All rights reserved."
-}
-fonts {
-  name: "IBM Plex Sans Condensed"
-  style: "normal"
-  weight: 450
-  filename: "IBMPlexSansCondensed-Text.ttf"
-  post_script_name: "IBMPlexSansCond-Text"
-  full_name: "IBM Plex Sans Condensed Text"
-  copyright: "Copyright 2018 IBM Corp. All rights reserved."
-}
-fonts {
-  name: "IBM Plex Sans Condensed"
-  style: "italic"
-  weight: 450
-  filename: "IBMPlexSansCondensed-TextItalic.ttf"
-  post_script_name: "IBMPlexSansCond-TextItalic"
-  full_name: "IBM Plex Sans Condensed Text Italic"
   copyright: "Copyright 2018 IBM Corp. All rights reserved."
 }
 fonts {

@@ -1,8 +1,8 @@
 name: "IBM Plex Serif"
-designer: "Bold Monday"
+designer: "UNKNOWN"
 license: "OFL"
-category: "SERIF"
-date_added: "2018-03-12"
+category: "SANS_SERIF"
+date_added: "2019-02-04"
 fonts {
   name: "IBM Plex Serif"
   style: "normal"
@@ -73,24 +73,6 @@ fonts {
   filename: "IBMPlexSerif-Italic.ttf"
   post_script_name: "IBMPlexSerif-Italic"
   full_name: "IBM Plex Serif Italic"
-  copyright: "Copyright 2018 IBM Corp. All rights reserved."
-}
-fonts {
-  name: "IBM Plex Serif"
-  style: "normal"
-  weight: 450
-  filename: "IBMPlexSerif-Text.ttf"
-  post_script_name: "IBMPlexSerif-Text"
-  full_name: "IBM Plex Serif Text"
-  copyright: "Copyright 2018 IBM Corp. All rights reserved."
-}
-fonts {
-  name: "IBM Plex Serif"
-  style: "italic"
-  weight: 450
-  filename: "IBMPlexSerif-TextItalic.ttf"
-  post_script_name: "IBMPlexSerif-TextItalic"
-  full_name: "IBM Plex Serif Text Italic"
   copyright: "Copyright 2018 IBM Corp. All rights reserved."
 }
 fonts {

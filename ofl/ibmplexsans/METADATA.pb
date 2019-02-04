@@ -1,8 +1,8 @@
 name: "IBM Plex Sans"
-designer: "Bold Monday"
+designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-03-12"
+date_added: "2019-02-04"
 fonts {
   name: "IBM Plex Sans"
   style: "normal"
@@ -73,24 +73,6 @@ fonts {
   filename: "IBMPlexSans-Italic.ttf"
   post_script_name: "IBMPlexSans-Italic"
   full_name: "IBM Plex Sans Italic"
-  copyright: "Copyright 2018 IBM Corp. All rights reserved."
-}
-fonts {
-  name: "IBM Plex Sans"
-  style: "normal"
-  weight: 450
-  filename: "IBMPlexSans-Text.ttf"
-  post_script_name: "IBMPlexSans-Text"
-  full_name: "IBM Plex Sans Text"
-  copyright: "Copyright 2018 IBM Corp. All rights reserved."
-}
-fonts {
-  name: "IBM Plex Sans"
-  style: "italic"
-  weight: 450
-  filename: "IBMPlexSans-TextItalic.ttf"
-  post_script_name: "IBMPlexSans-TextItalic"
-  full_name: "IBM Plex Sans Text Italic"
   copyright: "Copyright 2018 IBM Corp. All rights reserved."
 }
 fonts {

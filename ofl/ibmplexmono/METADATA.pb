@@ -1,8 +1,8 @@
 name: "IBM Plex Mono"
-designer: "Bold Monday"
+designer: "UNKNOWN"
 license: "OFL"
-category: "MONOSPACE"
-date_added: "2018-03-12"
+category: "SANS_SERIF"
+date_added: "2019-02-04"
 fonts {
   name: "IBM Plex Mono"
   style: "normal"
@@ -74,24 +74,6 @@ fonts {
   post_script_name: "IBMPlexMono-Italic"
   full_name: "IBM Plex Mono Italic"
   copyright: "Copyright 2017 IBM Corp. All rights reserved."
-}
-fonts {
-  name: "IBM Plex Mono"
-  style: "normal"
-  weight: 450
-  filename: "IBMPlexMono-Text.ttf"
-  post_script_name: "IBMPlexMono-Text"
-  full_name: "IBM Plex Mono Text"
-  copyright: "Copyright 2018 IBM Corp. All rights reserved."
-}
-fonts {
-  name: "IBM Plex Mono"
-  style: "italic"
-  weight: 450
-  filename: "IBMPlexMono-TextItalic.ttf"
-  post_script_name: "IBMPlexMono-TextItalic"
-  full_name: "IBM Plex Mono Text Italic"
-  copyright: "Copyright 2018 IBM Corp. All rights reserved."
 }
 fonts {
   name: "IBM Plex Mono"

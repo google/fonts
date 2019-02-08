@@ -6,7 +6,7 @@ date_added: "2019-02-07"
 fonts {
   name: "Libre Clarendon"
   style: "normal"
-  weight: 300
+  weight: 400
   filename: "LibreClarendon-CondensedLight.ttf"
   post_script_name: "LibreClarendon-CondensedLight"
   full_name: "Libre Clarendon Condensed Light"
@@ -24,5 +24,5 @@ axes {
   default_value: 70.0
   max_value: 115.0
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

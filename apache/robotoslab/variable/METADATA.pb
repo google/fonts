@@ -10,19 +10,19 @@ fonts {
   filename: "RobotoSlab-Regular.ttf"
   post_script_name: "RobotoSlab-Regular"
   full_name: "Roboto Slab Regular"
-  copyright: "Font data copyright Google 2013"
+  copyright: "Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)"
 }
-subsets: "menu"
-subsets: "cyrillic"
-subsets: "cyrillic-ext"
-subsets: "greek"
-subsets: "greek-ext"
-subsets: "latin"
-subsets: "latin-ext"
-subsets: "vietnamese"
 axes {
 	tag:"wght"
 	min_value: 100.0
 	default_value: 400.0
 	max_value: 900.0
 }
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek"
+subsets: "greek-ext"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

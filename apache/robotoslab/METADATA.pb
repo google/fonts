@@ -10,7 +10,7 @@ fonts {
   filename: "RobotoSlab-Thin.ttf"
   post_script_name: "RobotoSlab-Thin"
   full_name: "Roboto Slab Thin"
-  copyright: "Font data copyright Google 2013"
+  copyright: "Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)"
 }
 fonts {
   name: "Roboto Slab"
@@ -19,7 +19,7 @@ fonts {
   filename: "RobotoSlab-Light.ttf"
   post_script_name: "RobotoSlab-Light"
   full_name: "Roboto Slab Light"
-  copyright: "Font data copyright Google 2013"
+  copyright: "Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)"
 }
 fonts {
   name: "Roboto Slab"
@@ -28,7 +28,7 @@ fonts {
   filename: "RobotoSlab-Regular.ttf"
   post_script_name: "RobotoSlab-Regular"
   full_name: "Roboto Slab Regular"
-  copyright: "Font data copyright Google 2013"
+  copyright: "Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)"
 }
 fonts {
   name: "Roboto Slab"
@@ -37,7 +37,7 @@ fonts {
   filename: "RobotoSlab-Medium.ttf"
   post_script_name: "RobotoSlab-Medium"
   full_name: "Roboto Slab Medium"
-  copyright: "Font data copyright Google 2013"
+  copyright: "Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)"
 }
 fonts {
   name: "Roboto Slab"
@@ -46,7 +46,7 @@ fonts {
   filename: "RobotoSlab-Bold.ttf"
   post_script_name: "RobotoSlab-Bold"
   full_name: "Roboto Slab Bold"
-  copyright: "Font data copyright Google 2013"
+  copyright: "Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)"
 }
 fonts {
   name: "Roboto Slab"
@@ -55,13 +55,13 @@ fonts {
   filename: "RobotoSlab-Black.ttf"
   post_script_name: "RobotoSlab-Black"
   full_name: "Roboto Slab Black"
-  copyright: "Font data copyright Google 2013"
+  copyright: "Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)"
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

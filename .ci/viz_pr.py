@@ -10,7 +10,7 @@ import logging
 
 logging.getLogger().setLevel(logging.INFO)
 
-GFR_URL = 'http://159.65.243.73'
+GFR_URL = 'http://35.188.158.120/'
 
 
 def post_media_to_gfr(paths, uuid):

@@ -6,8 +6,8 @@ date_added: "2019-02-15"
 fonts {
   name: "Kreon"
   style: "normal"
-  weight: 400
-  filename: "Kreon-Regular.ttf"
+  weight: 300
+  filename: "Kreon-Light.ttf"
   post_script_name: "Kreon-Light"
   full_name: "Kreon Light"
   copyright: "Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)"

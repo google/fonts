@@ -1,8 +1,8 @@
 name: "IBM Plex Sans Condensed"
-designer: "Bold Monday"
+designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-03-12"
+date_added: "2019-02-04"
 fonts {
   name: "IBM Plex Sans Condensed"
   style: "normal"

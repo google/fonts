@@ -1,8 +1,8 @@
 name: "IBM Plex Sans"
-designer: "Bold Monday"
+designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2018-03-12"
+date_added: "2019-02-04"
 fonts {
   name: "IBM Plex Sans"
   style: "normal"
@@ -131,6 +131,7 @@ fonts {
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
+subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

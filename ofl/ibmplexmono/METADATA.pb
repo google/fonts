@@ -1,8 +1,8 @@
 name: "IBM Plex Mono"
-designer: "Bold Monday"
+designer: "UNKNOWN"
 license: "OFL"
-category: "MONOSPACE"
-date_added: "2018-03-12"
+category: "SANS_SERIF"
+date_added: "2019-02-04"
 fonts {
   name: "IBM Plex Mono"
   style: "normal"

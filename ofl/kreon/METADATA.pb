@@ -2,7 +2,7 @@ name: "Kreon"
 designer: "Julia Petretta"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2019-02-05"
+date_added: "2019-02-15"
 fonts {
   name: "Kreon"
   style: "normal"
@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"

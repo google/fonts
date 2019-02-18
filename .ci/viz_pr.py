@@ -43,7 +43,7 @@ def get_fonts_in_pr(repo_slug=None, pull_id=None):
         headers={'Authorization': 'token {}'.format(os.environ['GH_TOKEN'])})
     for item in r.json():
         filename = item['filename']
-        if filename.endswith('.ttf'):
+        if filename.endswith('.ttf') and item['status'] != 'removed':
             if len(os.path.normpath(filename).split(os.path.sep)) > 3:
                 continue
             font_paths.append(filename)

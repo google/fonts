@@ -1,8 +1,8 @@
 name: "Kreon"
 designer: "Julia Petretta"
 license: "OFL"
-category: "SANS_SERIF"
-date_added: "2019-02-15"
+category: "SERIF"
+date_added: "2011-02-02"
 fonts {
   name: "Kreon"
   style: "normal"

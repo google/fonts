@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 1999-2010, Ben Weiner (ben@readingtype.org.uk), with Reserved Font Name Bentham."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

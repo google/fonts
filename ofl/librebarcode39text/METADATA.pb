@@ -12,5 +12,4 @@ fonts {
   full_name: "Libre Barcode 39 Text Regular"
   copyright: "Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)"
 }
-subsets: "latin"
 subsets: "menu"

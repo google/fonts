@@ -10,8 +10,8 @@ fonts {
   filename: "MrsSaintDelafield-Regular.ttf"
   post_script_name: "MrsSaintDelafield-Regular"
   full_name: "Mrs Saint Delafield"
-  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mrs Saint Delafield\""
+  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Mrs Saint Delafield\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

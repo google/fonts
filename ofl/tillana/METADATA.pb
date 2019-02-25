@@ -48,7 +48,6 @@ fonts {
   full_name: "Tillana ExtraBold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

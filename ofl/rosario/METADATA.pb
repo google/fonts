@@ -10,7 +10,7 @@ fonts {
   filename: "Rosario-Regular.ttf"
   post_script_name: "Rosario-Regular"
   full_name: "Rosario"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name 'Rosario'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name \'Rosario\'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
 }
 fonts {
   name: "Rosario"
@@ -19,7 +19,7 @@ fonts {
   filename: "Rosario-Italic.ttf"
   post_script_name: "Rosario-Italic"
   full_name: "Rosario Italic"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name 'Rosario'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name \'Rosario\'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
 }
 fonts {
   name: "Rosario"
@@ -28,7 +28,7 @@ fonts {
   filename: "Rosario-Bold.ttf"
   post_script_name: "Rosario-Bold"
   full_name: "Rosario Bold"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name 'Rosario'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name \'Rosario\'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
 }
 fonts {
   name: "Rosario"
@@ -37,7 +37,8 @@ fonts {
   filename: "Rosario-BoldItalic.ttf"
   post_script_name: "Rosario-BoldItalic"
   full_name: "Rosario Bold Italic"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name 'Rosario'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name \'Rosario\'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

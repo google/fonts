@@ -39,5 +39,6 @@ fonts {
   full_name: "Arvo Bold Italic"
   copyright: "Copyright 2010 Anton Koovit, Yassin Baggar."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

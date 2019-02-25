@@ -10,8 +10,8 @@ fonts {
   filename: "ClickerScript-Regular.ttf"
   post_script_name: "ClickerScript-Regular"
   full_name: "Clicker Script"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky and Jim Lyles for Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Clicker Script\""
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky and Jim Lyles for Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Clicker Script\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -21,7 +21,7 @@ fonts {
   full_name: "Sarala Bold"
   copyright: "Copyright 2015 by Andres Torresi. All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

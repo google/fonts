@@ -10,8 +10,8 @@ fonts {
   filename: "EaterCaps-Regular.ttf"
   post_script_name: "EaterCaps-Regular"
   full_name: "Eater Caps Regular"
-  copyright: "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Eater\""
+  copyright: "Copyright (c) 2011, Typomondo, with Reserved Font Name  \"Eater\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

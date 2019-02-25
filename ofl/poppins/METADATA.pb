@@ -165,7 +165,6 @@ fonts {
   full_name: "Poppins Black Italic"
   copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

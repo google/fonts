@@ -10,7 +10,7 @@ fonts {
   filename: "NanumGothicCoding-Regular.ttf"
   post_script_name: "NanumGothicCoding"
   full_name: "NanumGothicCoding"
-  copyright: "Copyright © 2009 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
+  copyright: "Copyright  2009 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 fonts {
   name: "Nanum Gothic Coding"
@@ -19,7 +19,9 @@ fonts {
   filename: "NanumGothicCoding-Bold.ttf"
   post_script_name: "NanumGothicCoding-Bold"
   full_name: "NanumGothicCoding-Bold"
-  copyright: "Copyright © 2009 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
+  copyright: "Copyright  2009 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
+subsets: "cyrillic"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
-subsets: "korean"

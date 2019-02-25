@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "NanumPenScript-Regular.ttf"
-  post_script_name: "NanumPen"
-  full_name: "Nanum Pen"
-  copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
+  post_script_name: "NanumPen-Regular"
+  full_name: "Nanum Pen Regular"
+  copyright: "Copyright  2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
+subsets: "latin-ext"
 subsets: "menu"
-subsets: "korean"

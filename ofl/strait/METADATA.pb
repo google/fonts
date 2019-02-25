@@ -10,7 +10,8 @@ fonts {
   filename: "Strait-Regular.ttf"
   post_script_name: "Strait-Regular"
   full_name: "Strait"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Strait'"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \'Strait\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

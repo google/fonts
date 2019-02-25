@@ -10,8 +10,8 @@ fonts {
   filename: "Aladin-Regular.ttf"
   post_script_name: "Aladin-Regular"
   full_name: "Aladin Regular"
-  copyright: "Copyright (c) 2009 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2009 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Aladin\""
+  copyright: "Copyright (c) 2009 Angel Koziupa (sudtipos@sudtipos.com),\rCopyright (c) 2009 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Aladin\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

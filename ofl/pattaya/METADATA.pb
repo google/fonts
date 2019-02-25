@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com), Copyright (c) 2010, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2010, 2011, Alexei Vanyashin (www.cyreal.org|a@cyreal.org), with Reserved Font Name Lobster."
 }
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

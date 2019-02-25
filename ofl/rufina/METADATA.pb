@@ -10,7 +10,7 @@ fonts {
   filename: "Rufina-Regular.ttf"
   post_script_name: "Rufina-Regular"
   full_name: "Rufina"
-  copyright: "Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with Reserved Font Name 'Rufina'"
+  copyright: "Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with Reserved Font Name \'Rufina\'"
 }
 fonts {
   name: "Rufina"
@@ -19,8 +19,8 @@ fonts {
   filename: "Rufina-Bold.ttf"
   post_script_name: "Rufina-Bold"
   full_name: "Rufina Bold"
-  copyright: "Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with Reserved Font Name 'Rufina'"
+  copyright: "Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with Reserved Font Name \'Rufina\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -10,8 +10,7 @@ fonts {
   filename: "MarkoOne-Regular.ttf"
   post_script_name: "MarkoOne-Regular"
   full_name: "Marko One"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Marko\" and \"Marko One\"."
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Marko\" and \"Marko One\"."
 }
-subsets: "menu"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"

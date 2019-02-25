@@ -10,7 +10,8 @@ fonts {
   filename: "KiteOne-Regular.ttf"
   post_script_name: "KiteOne-Regular"
   full_name: "Kite One"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Kite'"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \'Kite\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

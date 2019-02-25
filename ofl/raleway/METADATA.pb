@@ -165,7 +165,7 @@ fonts {
   full_name: "Raleway Black Italic"
   copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
-# subsets: "cyrillic" # commented because italics do not support it yet
+subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

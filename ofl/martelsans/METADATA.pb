@@ -1,5 +1,5 @@
 name: "Martel Sans"
-designer: "Dan Reynolds, Mathieu Réguer"
+designer: "Dan Reynolds, Mathieu R\303\251guer"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-03-04"

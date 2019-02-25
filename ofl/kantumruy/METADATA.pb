@@ -10,7 +10,7 @@ fonts {
   filename: "Kantumruy-Light.ttf"
   post_script_name: "KantumruyLight"
   full_name: "Kantumruy Light"
-  copyright: "Copyright (c) 2013, Tep Sovichet (it4ug.net sovichet.tep@gmail.com), with Reserved Font Name 'Kantumruy'"
+  copyright: "Copyright (c) 2013 by Sovichet Tep with Reserved Font Name \"Kantumruy\". Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1."
 }
 fonts {
   name: "Kantumruy"
@@ -19,7 +19,7 @@ fonts {
   filename: "Kantumruy-Regular.ttf"
   post_script_name: "Kantumruy"
   full_name: "Kantumruy"
-  copyright: "Copyright (c) 2013, Tep Sovichet (it4ug.net sovichet.tep@gmail.com), with Reserved Font Name 'Kantumruy'"
+  copyright: "Copyright (c) 2013 by Sovichet Tep with Reserved Font Name \"Kantumruy\". Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1."
 }
 fonts {
   name: "Kantumruy"
@@ -28,7 +28,7 @@ fonts {
   filename: "Kantumruy-Bold.ttf"
   post_script_name: "Kantumruy-Bold"
   full_name: "Kantumruy Bold"
-  copyright: "Copyright (c) 2013, Tep Sovichet (it4ug.net sovichet.tep@gmail.com), with Reserved Font Name 'Kantumruy'"
+  copyright: "Copyright (c) 2013 by Sovichet Tep with Reserved Font Name \"Kantumruy\". Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name \"Lato\". Licensed under the SIL Open Font License, Version 1.1."
 }
-subsets: "menu"
 subsets: "khmer"
+subsets: "menu"

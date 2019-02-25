@@ -12,6 +12,7 @@ fonts {
   full_name: "Peddana Regular"
   copyright: "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 1997-2014, SIL International (http://scripts.sil.org/) with Reserved Font Names \"Charis\" and \"SIL\"."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 subsets: "telugu"

@@ -10,7 +10,7 @@ fonts {
   filename: "SirinStencil-Regular.ttf"
   post_script_name: "SirinStencil-Regular"
   full_name: "SirinStencil"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Sirin\" and \"Sirin Stencil\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Sirin\" and \"Sirin Stencil\".\r\rThis Font Software is licensed under the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

@@ -12,6 +12,6 @@ fonts {
   full_name: "Sancreek Regular"
   copyright: "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Sancreek\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

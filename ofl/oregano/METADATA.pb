@@ -10,7 +10,7 @@ fonts {
   filename: "Oregano-Regular.ttf"
   post_script_name: "Oregano-Regular"
   full_name: "Oregano"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Oregano\""
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Oregano\""
 }
 fonts {
   name: "Oregano"
@@ -19,8 +19,8 @@ fonts {
   filename: "Oregano-Italic.ttf"
   post_script_name: "Oregano-Italic"
   full_name: "Oregano Italic"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Oregano Italic\""
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Oregano Italic\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

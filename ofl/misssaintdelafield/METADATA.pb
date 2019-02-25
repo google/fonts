@@ -1,17 +1,17 @@
-name: "Miss Saint Delafield"
+name: "Mrs Saint Delafield"
 designer: "Sudtipos"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-11-30"
 fonts {
-  name: "Miss Saint Delafield"
+  name: "Mrs Saint Delafield"
   style: "normal"
   weight: 400
   filename: "MrsSaintDelafield-Regular.ttf"
   post_script_name: "MrsSaintDelafield-Regular"
   full_name: "Mrs Saint Delafield Regular"
-  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mrs Saint Delafield\""
+  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Mrs Saint Delafield\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

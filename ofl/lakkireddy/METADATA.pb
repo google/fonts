@@ -12,6 +12,7 @@ fonts {
   full_name: "Lakki Reddy"
   copyright: "Copyright (c) 2011 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2010 by Font Diner, Inc DBA Sideshow."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 subsets: "telugu"

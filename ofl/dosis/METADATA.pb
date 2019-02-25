@@ -10,7 +10,7 @@ fonts {
   filename: "Dosis-ExtraLight.ttf"
   post_script_name: "Dosis-ExtraLight"
   full_name: "Dosis ExtraLight"
-  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
   name: "Dosis"
@@ -19,7 +19,7 @@ fonts {
   filename: "Dosis-Light.ttf"
   post_script_name: "Dosis-Light"
   full_name: "Dosis Light"
-  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
   name: "Dosis"
@@ -28,7 +28,7 @@ fonts {
   filename: "Dosis-Regular.ttf"
   post_script_name: "Dosis-Regular"
   full_name: "Dosis Regular"
-  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
   name: "Dosis"
@@ -37,7 +37,7 @@ fonts {
   filename: "Dosis-Medium.ttf"
   post_script_name: "Dosis-Medium"
   full_name: "Dosis Medium"
-  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
   name: "Dosis"
@@ -46,7 +46,7 @@ fonts {
   filename: "Dosis-SemiBold.ttf"
   post_script_name: "Dosis-SemiBold"
   full_name: "Dosis SemiBold"
-  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
   name: "Dosis"
@@ -55,7 +55,7 @@ fonts {
   filename: "Dosis-Bold.ttf"
   post_script_name: "Dosis-Bold"
   full_name: "Dosis Bold"
-  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+  copyright: "Copyright (c) 2011 by EdgarTolentino, PabloImpallari, IginoMarini. All rights reserved."
 }
 fonts {
   name: "Dosis"
@@ -64,8 +64,8 @@ fonts {
   filename: "Dosis-ExtraBold.ttf"
   post_script_name: "Dosis-ExtraBold"
   full_name: "Dosis ExtraBold"
-  copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com), with Reserved Font Name Dosis."
+  copyright: "Copyright (c) 2011 by EdgarTolentino, PabloImpallari, IginoMarini. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

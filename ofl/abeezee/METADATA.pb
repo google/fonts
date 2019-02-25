@@ -1,10 +1,10 @@
-name: "ABeeZee"
+name: "A Bee Zee"
 designer: "Anja Meiners"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-30"
 fonts {
-  name: "ABeeZee"
+  name: "A Bee Zee"
   style: "normal"
   weight: 400
   filename: "ABeeZee-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name \'ABeeZee\'"
 }
 fonts {
-  name: "ABeeZee"
+  name: "A Bee Zee"
   style: "italic"
   weight: 400
   filename: "ABeeZee-Italic.ttf"
@@ -22,4 +22,5 @@ fonts {
   copyright: "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name \'ABeeZee\'"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

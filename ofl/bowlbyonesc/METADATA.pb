@@ -12,6 +12,6 @@ fonts {
   full_name: "Bowlby One SC Regular"
   copyright: "Copyright (c) 2011, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Bowlby\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

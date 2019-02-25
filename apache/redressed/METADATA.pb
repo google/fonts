@@ -10,7 +10,8 @@ fonts {
   filename: "Redressed-Regular.ttf"
   post_script_name: "Redressed-Regular"
   full_name: "Redressed Regular"
-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

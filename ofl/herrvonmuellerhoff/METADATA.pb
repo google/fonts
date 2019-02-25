@@ -10,8 +10,8 @@ fonts {
   filename: "HerrVonMuellerhoff-Regular.ttf"
   post_script_name: "HerrVonMuellerhoff-Regular"
   full_name: "Herr Von Muellerhoff Regular"
-  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Herr Von Mullerhoff\""
+  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Herr Von Mullerhoff\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

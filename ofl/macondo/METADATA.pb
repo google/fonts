@@ -1,5 +1,5 @@
 name: "Macondo"
-designer: "John Vargas Beltrán"
+designer: "John Vargas Beltr\303\241n"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-18"
@@ -12,6 +12,6 @@ fonts {
   full_name: "Macondo"
   copyright: "Copyright (c) 1997 - 2011, John Vargas Beltran. (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com), with Reserved Font Name \"Macondo\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

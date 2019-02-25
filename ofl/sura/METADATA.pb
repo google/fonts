@@ -21,7 +21,7 @@ fonts {
   full_name: "Sura Bold"
   copyright: "Copyright 2015 by Carolina Giovagnoli. All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

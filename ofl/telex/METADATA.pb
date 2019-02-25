@@ -1,5 +1,5 @@
 name: "Telex"
-designer: "Huerta Tipográfica"
+designer: "Huerta Tipogr\303\241fica"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-01-18"

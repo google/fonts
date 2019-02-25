@@ -1,5 +1,5 @@
 name: "Salsa"
-designer: "John Vargas Beltrán"
+designer: "John Vargas Beltr\303\241n"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-10-12"
@@ -12,5 +12,6 @@ fonts {
   full_name: "Salsa-Regular"
   copyright: "Copyright (c) 2011 by John Vargas Beltrn (john.vargasbeltran@gmail.com), with Reserved Font Name Salsa."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

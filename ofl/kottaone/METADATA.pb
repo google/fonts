@@ -12,6 +12,6 @@ fonts {
   full_name: "Kotta One"
   copyright: "Copyright (c) 2012 by Ania Kruk (hello@aniakruk.com), with Reserved Font Name \"Kotta\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

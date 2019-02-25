@@ -10,8 +10,8 @@ fonts {
   filename: "Englebert-Regular.ttf"
   post_script_name: "Englebert-Regular"
   full_name: "Englebert"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Englebert'"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Englebert\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

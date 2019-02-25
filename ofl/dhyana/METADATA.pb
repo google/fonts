@@ -8,7 +8,7 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Dhyana-Regular.ttf"
-  post_script_name: "Dhyana"
+  post_script_name: "Dhyana-Regular"
   full_name: "Dhyana"
   copyright: "Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Nobile\" and \"Dhyana\""
 }
@@ -21,5 +21,7 @@ fonts {
   full_name: "Dhyana Bold"
   copyright: "Copyright (c) 2010-12, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \"Nobile\" and \"Dhyana\""
 }
-subsets: "menu"
 subsets: "lao"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

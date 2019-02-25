@@ -12,5 +12,6 @@ fonts {
   full_name: "Caesar Dressing"
   copyright: "Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Caesar Dressing\""
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

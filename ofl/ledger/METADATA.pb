@@ -12,7 +12,7 @@ fonts {
   full_name: "Ledger"
   copyright: "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

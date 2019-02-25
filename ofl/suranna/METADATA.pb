@@ -10,8 +10,8 @@ fonts {
   filename: "Suranna-Regular.ttf"
   post_script_name: "Suranna"
   full_name: "Suranna"
-  copyright: "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name 'Prata'"
+  copyright: "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \'Prata\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
 subsets: "telugu"

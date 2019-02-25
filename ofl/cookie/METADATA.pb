@@ -12,6 +12,6 @@ fonts {
   full_name: "Cookie-Regular"
   copyright: "Copyright (c) 2011 by Ania Kruk (hello@aniakruk.com), with Reserved Font Name Cookie."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -10,8 +10,8 @@ fonts {
   filename: "Sarina-Regular.ttf"
   post_script_name: "Sarina-Regular"
   full_name: "Sarina"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Sarina\"."
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserved Font Name \"Sarina\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

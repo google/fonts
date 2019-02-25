@@ -10,8 +10,8 @@ fonts {
   filename: "Metamorphous-Regular.ttf"
   post_script_name: "Metamorphous"
   full_name: "Metamorphous"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Metamorphous\"."
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserved Font Name \"Metamorphous\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

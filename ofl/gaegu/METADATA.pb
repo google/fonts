@@ -30,5 +30,5 @@ fonts {
   full_name: "Gaegu Bold"
   copyright: "Copyright 2018 The Gaegu Project Authors"
 }
-subsets: "korean"
+subsets: "latin-ext"
 subsets: "menu"

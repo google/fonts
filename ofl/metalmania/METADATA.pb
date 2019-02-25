@@ -12,6 +12,6 @@ fonts {
   full_name: "Metal Mania"
   copyright: "Copyright (c) 2012 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Metal Mania\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

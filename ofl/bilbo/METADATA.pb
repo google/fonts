@@ -12,6 +12,6 @@ fonts {
   full_name: "Bilbo Regular"
   copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Bilbo\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

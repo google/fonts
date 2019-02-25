@@ -1,5 +1,5 @@
 name: "Alfa Slab One"
-designer: "JM Solé"
+designer: "JM Sol\303\251"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"

@@ -12,5 +12,6 @@ fonts {
   full_name: "Julee-Regular"
   copyright: "Copyright (c) 2011, Julian Tunni (jotadejulian@hotmail.com), with Reserved Font Name \"Julee\""
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

@@ -30,9 +30,10 @@ fonts {
   full_name: "Cardo Bold"
   copyright: "Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)"
 }
-subsets: "menu"
+subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

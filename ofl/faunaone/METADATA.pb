@@ -8,10 +8,10 @@ fonts {
   style: "normal"
   weight: 400
   filename: "FaunaOne-Regular.ttf"
-  post_script_name: "FaunaOne-Regular"
+  post_script_name: "FaunaOne"
   full_name: "Fauna One"
-  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Fauna'"
+  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Fauna\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

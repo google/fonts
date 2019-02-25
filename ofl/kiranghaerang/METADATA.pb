@@ -12,6 +12,6 @@ fonts {
   full_name: "Kirang Haerang Regular"
   copyright: "Copyright 2018 The Kirang Haerang Project Authors"
 }
-subsets: "korean"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

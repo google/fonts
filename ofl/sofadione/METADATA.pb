@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2011 by Botjo Nikoltchev, with Reserved Font Name \'Sofadi One\'"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

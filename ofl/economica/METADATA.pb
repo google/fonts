@@ -1,5 +1,5 @@
 name: "Economica"
-designer: "Vicente Lamónaca"
+designer: "Vicente Lam\303\263naca"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-29"
@@ -39,6 +39,6 @@ fonts {
   full_name: "Economica Bold Italic"
   copyright: "Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info www.tipotype.com)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

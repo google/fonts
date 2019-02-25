@@ -10,8 +10,8 @@ fonts {
   filename: "PorterSansBlock-Regular.ttf"
   post_script_name: "PorterSansBlock"
   full_name: "Porter Sans Block"
-  copyright: "Copyright (c) 2013, Tyler Finck (hello@sursly.com)"
+  copyright: "Copyright (c) 2013 by Tyler Finck. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

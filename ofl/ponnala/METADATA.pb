@@ -10,8 +10,8 @@ fonts {
   filename: "Ponnala-Regular.ttf"
   post_script_name: "Ponnala"
   full_name: "Ponnala"
-  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org)"
+  copyright: "Copyright (c) 2011 SiliconAndhra (fonts.siliconandhra.org)"
 }
+subsets: "latin-ext"
 subsets: "menu"
-subsets: "latin"
 subsets: "telugu"

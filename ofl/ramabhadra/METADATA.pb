@@ -12,6 +12,7 @@ fonts {
   full_name: "Ramabhadra"
   copyright: "Copyright (c) 2012 Andhra Pradesh Society for Knowledge Networks (fonts.siliconandhra.org). Digitized data copyright (c) 2010-2012 Google Corporation."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 subsets: "telugu"

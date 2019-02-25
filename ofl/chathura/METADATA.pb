@@ -49,5 +49,6 @@ fonts {
   copyright: "Copyright 2009 The Chathura Project Authors."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "telugu"

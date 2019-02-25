@@ -10,7 +10,7 @@ fonts {
   filename: "SquadaOne-Regular.ttf"
   post_script_name: "SquadaOne-Regular"
   full_name: "Squada One"
-  copyright: "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Squada."
+  copyright: "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com/) with Reserved Font Name Squada."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

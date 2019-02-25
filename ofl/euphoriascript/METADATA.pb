@@ -12,6 +12,6 @@ fonts {
   full_name: "Euphoria Script"
   copyright: "Copyright (c) 2012 Sabrina Mariela Lopez (typesenses@live.com.ar), with Reserved Font Name \"Euphoria Script\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -10,7 +10,7 @@ fonts {
   filename: "AmaticaSC-Regular.ttf"
   post_script_name: "AmaticaSC-Regular"
   full_name: "Amatica SC Regular"
-  copyright: "Copyright 2011 The Amatic Project Authors. "
+  copyright: "Copyright 2011 The Amatic Project Authors."
 }
 fonts {
   name: "Amatica SC"
@@ -19,7 +19,7 @@ fonts {
   filename: "AmaticaSC-Bold.ttf"
   post_script_name: "AmaticaSC-Bold"
   full_name: "Amatica SC Bold"
-  copyright: "Copyright 2011 The Amatic Project Authors. "
+  copyright: "Copyright 2011 The Amatic Project Authors."
 }
 subsets: "hebrew"
 subsets: "latin"

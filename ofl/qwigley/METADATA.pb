@@ -10,8 +10,8 @@ fonts {
   filename: "Qwigley-Regular.ttf"
   post_script_name: "Qwigley-Regular"
   full_name: "Qwigley"
-  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Qwigley\""
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),\rwith Reserved Font Name \"Qwigley\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

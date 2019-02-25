@@ -39,7 +39,6 @@ fonts {
   full_name: "Noto Sans Bold Italic"
   copyright: "Copyright 2012 Google Inc. All Rights Reserved."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "devanagari"
@@ -47,4 +46,5 @@ subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

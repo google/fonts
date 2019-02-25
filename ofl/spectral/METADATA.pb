@@ -130,6 +130,8 @@ fonts {
   copyright: "Copyright 2017 The Spectral Project Authors (http://github.com/productiontype/spectral)"
 }
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2013 - 2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Atomic Age\'."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

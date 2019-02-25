@@ -10,7 +10,7 @@ fonts {
   filename: "Sanchez-Regular.ttf"
   post_script_name: "Sanchez-Regular"
   full_name: "Sanchez"
-  copyright: "Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Sanchez'"
+  copyright: "Copyright (c) 2012, LatinoType (www.latinotype.com), with Reserved Font Name \'Sanchez\'"
 }
 fonts {
   name: "Sanchez"
@@ -19,8 +19,8 @@ fonts {
   filename: "Sanchez-Italic.ttf"
   post_script_name: "Sanchez-Italic"
   full_name: "Sanchez Italic"
-  copyright: "Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Sanchez'"
+  copyright: "Copyright (c) 2012, LatinoType (www.latinotype.com), with Reserved Font Name \'Sanchez\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

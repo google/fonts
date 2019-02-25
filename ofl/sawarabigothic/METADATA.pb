@@ -1,0 +1,20 @@
+name: "Sawarabi Gothic"
+designer: "UNKNOWN"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2019-02-25"
+fonts {
+  name: "Sawarabi Gothic"
+  style: "normal"
+  weight: 400
+  filename: "SawarabiGothic-Regular.ttf"
+  post_script_name: "SawarabiGothic-Regular"
+  full_name: "Sawarabi Gothic"
+  copyright: "Copyright 2016 The Sawarabi Gothic Project Authors."
+}
+subsets: "cyrillic"
+subsets: "japanese"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

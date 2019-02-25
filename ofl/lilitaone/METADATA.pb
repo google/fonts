@@ -12,6 +12,6 @@ fonts {
   full_name: "Lilita One"
   copyright: "Copyright (c) 2011 Juan Montoreano (juan@remolacha.biz), with Reserved Font Names \"Lilita One\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

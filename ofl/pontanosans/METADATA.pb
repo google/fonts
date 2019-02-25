@@ -12,6 +12,6 @@ fonts {
   full_name: "Pontano Sans"
   copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Potano\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

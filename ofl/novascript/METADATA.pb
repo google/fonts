@@ -10,7 +10,8 @@ fonts {
   filename: "NovaScript-Regular.ttf"
   post_script_name: "NovaScript-Regular"
   full_name: "Nova Script Regular"
-  copyright: "Copyright (c) 2011, wmk69 (wmk69@o2.pl) with Reserved Font Names \'NovaScript\' and \'Nova Script\'"
+  copyright: "Copyright (c) 2011, wmk69 (wmk69@o2.pl)\nwith Reserved Font Names \'NovaScript\' and \'Nova Script\'.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at:\nhttp://scripts.sil.org/OFL"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

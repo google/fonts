@@ -10,8 +10,8 @@ fonts {
   filename: "Chicle-Regular.ttf"
   post_script_name: "Chicle-Regular"
   full_name: "Chicle Regular"
-  copyright: "Copyright (c) 2007 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2007 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Chicle\""
+  copyright: "Copyright (c) 2007 Angel Koziupa (sudtipos@sudtipos.com),\rCopyright (c) 2007 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Chicle\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

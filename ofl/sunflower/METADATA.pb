@@ -30,5 +30,5 @@ fonts {
   full_name: "Sunflower Bold"
   copyright: "Copyright 2008 The Sunflower Project Authors"
 }
-subsets: "korean"
+subsets: "latin-ext"
 subsets: "menu"

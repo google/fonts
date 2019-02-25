@@ -12,8 +12,7 @@ fonts {
   full_name: "Tenor Sans"
   copyright: "Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "cyrillic"
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

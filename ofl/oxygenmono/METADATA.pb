@@ -10,8 +10,8 @@ fonts {
   filename: "OxygenMono-Regular.ttf"
   post_script_name: "OxygenMono-Regular"
   full_name: "Oxygen Mono"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Oxygen'"
+  copyright: "Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \'Oxygen\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

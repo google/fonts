@@ -10,8 +10,8 @@ fonts {
   filename: "JuliusSansOne-Regular.ttf"
   post_script_name: "JuliusSansOne-Regular"
   full_name: "Julius Sans One"
-  copyright: "Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Julius'"
+  copyright: "Copyright (c) 2012, LatinoType (www.latinotype.com), with Reserved Font Name \'Julius\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

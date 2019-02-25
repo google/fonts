@@ -10,26 +10,26 @@ fonts {
   filename: "NanumMyeongjo-Regular.ttf"
   post_script_name: "NanumMyeongjo"
   full_name: "NanumMyeongjo"
-  copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
-}
-fonts {
-  name: "Nanum Myeongjo"
-  style: "normal"
-  weight: 600
-  filename: "NanumMyeongjo-Bold.ttf"
-  post_script_name: "NanumMyeongjoBold"
-  full_name: "NanumMyeongjoBold"
-  copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
+  copyright: "Copyright  2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
 }
 fonts {
   name: "Nanum Myeongjo"
   style: "normal"
   weight: 700
+  filename: "NanumMyeongjo-Bold.ttf"
+  post_script_name: "NanumMyeongjoBold"
+  full_name: "NanumMyeongjo Bold"
+  copyright: "Copyright  2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
+}
+fonts {
+  name: "Nanum Myeongjo"
+  style: "normal"
+  weight: 800
   filename: "NanumMyeongjo-ExtraBold.ttf"
   post_script_name: "NanumMyeongjoExtraBold"
-  full_name: "NanumMyeongjoExtraBold"
-  copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
+  full_name: "NanumMyeongjo ExtraBold"
+  copyright: "Copyright  2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
 }
-subsets: "korean"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

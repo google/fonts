@@ -8,9 +8,10 @@ fonts {
   style: "normal"
   weight: 400
   filename: "SupermercadoOne-Regular.ttf"
-  post_script_name: "SupermercadoOne-Regular"
-  full_name: "Supermercado One Regular"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Supermercado One\"."
+  post_script_name: "Supermercado-Regular"
+  full_name: "Supermercado Regular"
+  copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)\rwith Reserved Font Name \"Supermercado\"."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

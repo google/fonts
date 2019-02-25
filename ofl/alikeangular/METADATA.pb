@@ -10,7 +10,7 @@ fonts {
   filename: "AlikeAngular-Regular.ttf"
   post_script_name: "AlikeAngular-Regular"
   full_name: "Alike Angular Regular"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Alike\" and \"Alike Angular\"."
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Alike\" and \"Alike Angular\"."
 }
 subsets: "latin"
 subsets: "menu"

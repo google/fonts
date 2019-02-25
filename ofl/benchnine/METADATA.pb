@@ -1,10 +1,10 @@
-name: "BenchNine"
+name: "Bench Nine"
 designer: "Vernon Adams"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-24"
 fonts {
-  name: "BenchNine"
+  name: "Bench Nine"
   style: "normal"
   weight: 300
   filename: "BenchNine-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name \'BenchNine\'"
 }
 fonts {
-  name: "BenchNine"
+  name: "Bench Nine"
   style: "normal"
   weight: 400
   filename: "BenchNine-Regular.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Name \'BenchNine\'"
 }
 fonts {
-  name: "BenchNine"
+  name: "Bench Nine"
   style: "normal"
   weight: 700
   filename: "BenchNine-Bold.ttf"

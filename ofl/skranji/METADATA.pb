@@ -21,6 +21,6 @@ fonts {
   full_name: "Skranji Bold"
   copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Skranji Bold\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

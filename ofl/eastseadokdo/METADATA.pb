@@ -12,6 +12,6 @@ fonts {
   full_name: "East Sea Dokdo Regular"
   copyright: "Copyright (c) YoonDesign Inc. All Rights Reserved."
 }
-subsets: "korean"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

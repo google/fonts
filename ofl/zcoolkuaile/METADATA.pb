@@ -1,10 +1,10 @@
-name: "ZCOOL KuaiLe"
+name: "ZCOOL Kuai Le"
 designer: "Liu Bingke, Yang Kang, Wu Shaojie"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-12-05"
 fonts {
-  name: "ZCOOL KuaiLe"
+  name: "ZCOOL Kuai Le"
   style: "normal"
   weight: 400
   filename: "ZCOOLKuaiLe-Regular.ttf"
@@ -12,6 +12,6 @@ fonts {
   full_name: "ZCOOL KuaiLe Regular"
   copyright: "Copyright 2018 The ZCOOL KuaiLe Project Authors (https://www.github.com/googlefonts/zcool-kuaile)"
 }
-subsets: "chinese-simplified"
+subsets: "japanese"
 subsets: "latin"
 subsets: "menu"

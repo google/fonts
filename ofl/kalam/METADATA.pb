@@ -30,7 +30,6 @@ fonts {
   full_name: "Kalam Bold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
-subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

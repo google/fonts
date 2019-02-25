@@ -40,6 +40,7 @@ fonts {
   copyright: "Copyright 2010, The Yanone Kaffeesatz Project Authors (post@yanone.de)"
 }
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

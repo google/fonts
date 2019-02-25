@@ -1,5 +1,5 @@
 name: "Coiny"
-designer: "Marcelo Magalhães"
+designer: "Marcelo Magalh\303\243es"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-20"
@@ -10,7 +10,7 @@ fonts {
   filename: "Coiny-Regular.ttf"
   post_script_name: "Coiny-Regular"
   full_name: "Coiny Regular"
-  copyright: "Copyright 2015 Marcelo Magalhaes (marcelommp@gmail.com @marcelommp)"
+  copyright: "Copyright (c) 2015, Marcelo Magalhaes"
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -12,6 +12,6 @@ fonts {
   full_name: "Do Hyeon Regular"
   copyright: "Copyright 2018 The Do Hyeon Project Authors"
 }
-subsets: "korean"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

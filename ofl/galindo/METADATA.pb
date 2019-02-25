@@ -10,8 +10,8 @@ fonts {
   filename: "Galindo-Regular.ttf"
   post_script_name: "Galindo-Regular"
   full_name: "Galindo"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Galindo\""
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Galindo\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -75,6 +75,6 @@ fonts {
   full_name: "Merriweather Sans ExtraBold Italic"
   copyright: "Copyright (c) 2013-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Merriweather\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

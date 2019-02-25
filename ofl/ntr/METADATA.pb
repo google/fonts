@@ -10,8 +10,8 @@ fonts {
   filename: "NTR-Regular.ttf"
   post_script_name: "NTR"
   full_name: "NTR"
-  copyright: "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2011, Joe Prince, Admix Designs (http://www.admixdesigns.com/) with Reserved Font Name Varela Round."
+  copyright: "Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org). Copyright (c) 2011, Joe Prince, Admix Designs (http://www.admixdesigns.com/) with Reserved Font Name Varela Round."
 }
+subsets: "latin-ext"
 subsets: "menu"
-subsets: "latin"
 subsets: "telugu"

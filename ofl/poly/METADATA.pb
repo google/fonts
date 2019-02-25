@@ -1,5 +1,5 @@
 name: "Poly"
-designer: "Nicolás Silva"
+designer: "Nicol\303\241s Silva"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-11-02"
@@ -21,6 +21,6 @@ fonts {
   full_name: "Poly-Italic"
   copyright: "Copyright (c) 2010 by Jos Nicols Silva Schwarzenberg.<info@nsilva.com>, with Reserved Font Names \"Poly\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

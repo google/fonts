@@ -10,8 +10,8 @@ fonts {
   filename: "SpicyRice-Regular.ttf"
   post_script_name: "SpicyRice-Regular"
   full_name: "Spicy Rice"
-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Spicy Rice\""
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Spicy Rice\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

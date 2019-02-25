@@ -10,8 +10,8 @@ fonts {
   filename: "ButchermanCaps-Regular.ttf"
   post_script_name: "ButchermanCaps-Regular"
   full_name: "Butcherman Caps Regular"
-  copyright: "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Butcherman\"."
+  copyright: "Copyright (c) 2011, Typomondo, with Reserved Font Name  \"Butcherman\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

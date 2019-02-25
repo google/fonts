@@ -12,6 +12,6 @@ fonts {
   full_name: "Molengo"
   copyright: "Copyright (c) 2007, Denis Moyogo Jacquerye <moyogo@gmail.com>, with Reserved Font Name Molengo"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

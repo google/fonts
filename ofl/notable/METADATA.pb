@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright 2018 The Notable Project Authors (https://github.com/googlefonts/notable)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

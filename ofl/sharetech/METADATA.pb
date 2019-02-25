@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright 2012 The Share Tech Project Authors (post@carrois.com), with Reserved Font Name \'Share."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

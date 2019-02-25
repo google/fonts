@@ -58,4 +58,5 @@ fonts {
   copyright: "Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name \'Averia\' and \'Averia Libre\'."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

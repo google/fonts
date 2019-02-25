@@ -12,6 +12,6 @@ fonts {
   full_name: "Cutive"
   copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Cutive\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

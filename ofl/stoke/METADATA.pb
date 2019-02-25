@@ -10,7 +10,7 @@ fonts {
   filename: "Stoke-Light.ttf"
   post_script_name: "Stoke-Light"
   full_name: "Stoke Light"
-  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name 'Stoke'"
+  copyright: "Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Stoke."
 }
 fonts {
   name: "Stoke"
@@ -19,8 +19,8 @@ fonts {
   filename: "Stoke-Regular.ttf"
   post_script_name: "Stoke-Regular"
   full_name: "Stoke Regular"
-  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name 'Stoke'"
+  copyright: "Copyright (c) 2011-2012 by Sorkin Type Co with Reserved Font Name Stoke.\r\rThis Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

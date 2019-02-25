@@ -10,7 +10,7 @@ fonts {
   filename: "BlackHanSans-Regular.ttf"
   post_script_name: "BlackHanSans-Regular"
   full_name: "Black Han Sans Regular"
-  copyright: "Copyright 2015 The Black Han Sans Authors"
+  copyright: "(c) ZESSTYPE 2015"
 }
-subsets: "korean"
+subsets: "latin-ext"
 subsets: "menu"

@@ -129,6 +129,7 @@ fonts {
   full_name: "IBM Plex Sans Condensed Bold Italic"
   copyright: "Copyright 2018 IBM Corp. All rights reserved."
 }
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

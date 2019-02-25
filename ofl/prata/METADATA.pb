@@ -15,5 +15,6 @@ fonts {
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"

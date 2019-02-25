@@ -21,6 +21,6 @@ fonts {
   full_name: "Sorts Mill Goudy Italic"
   copyright: "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

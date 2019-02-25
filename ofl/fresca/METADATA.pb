@@ -12,6 +12,6 @@ fonts {
   full_name: "Fresca-Regular"
   copyright: "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Fresca\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

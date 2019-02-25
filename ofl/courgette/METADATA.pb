@@ -10,8 +10,8 @@ fonts {
   filename: "Courgette-Regular.ttf"
   post_script_name: "Courgette-Regular"
   full_name: "Courgette Regular"
-  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Courgette\"."
+  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Courgette\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

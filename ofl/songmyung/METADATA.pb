@@ -12,5 +12,5 @@ fonts {
   full_name: "Song Myung Regular"
   copyright: "Copyright 2018 The Song Myung Project Authors"
 }
-subsets: "korean"
+subsets: "latin-ext"
 subsets: "menu"

@@ -66,7 +66,6 @@ fonts {
   full_name: "Advent Pro Bold"
   copyright: "Copyright (c) 2008 Andreas Kalpakidis (hello@inderesting.com), with Reserved Font Name \"Advent Pro\""
 }
-subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

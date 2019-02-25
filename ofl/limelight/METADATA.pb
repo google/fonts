@@ -8,10 +8,10 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Limelight-Regular.ttf"
-  post_script_name: "Limelight"
-  full_name: "Limelight"
-  copyright: "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name Limelight. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  post_script_name: "Limelight-Regular"
+  full_name: "Limelight Regular"
+  copyright: "Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Limelight.\r\rThis Font Software is licensed under the SIL Open Font License, Version 1.1.\rThis license is copied below, and is also available with a FAQ at:\rhttp://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

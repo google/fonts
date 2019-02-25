@@ -10,8 +10,9 @@ fonts {
   filename: "SreeKrushnadevaraya-Regular.ttf"
   post_script_name: "SreeKrushnadevaraya"
   full_name: "Sree Krushnadevaraya"
-  copyright: "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Cantata'"
+  copyright: "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Cantata\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 subsets: "telugu"

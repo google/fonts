@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "Varta-Regular.ttf"
   post_script_name: "Varta-Regular"
-  full_name: "Varta Regular"
+  full_name: "Varta"
   copyright: "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
 }
 fonts {
@@ -26,7 +26,7 @@ fonts {
   style: "normal"
   weight: 600
   filename: "Varta-SemiBold.ttf"
-  post_script_name: "VartaSemiBold"
+  post_script_name: "Varta-SemiBold"
   full_name: "Varta SemiBold"
   copyright: "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
 }
@@ -37,9 +37,10 @@ fonts {
   filename: "Varta-Bold.ttf"
   post_script_name: "Varta-Bold"
   full_name: "Varta Bold"
-  copyright: "Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com)"
+  copyright: "Copyright  2014 by Joana Correia, Viktoriya Grabowska, Eben Sorkin. All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

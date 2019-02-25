@@ -12,5 +12,6 @@ fonts {
   full_name: "Prociono"
   copyright: "Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

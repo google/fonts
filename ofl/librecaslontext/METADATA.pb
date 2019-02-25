@@ -30,6 +30,6 @@ fonts {
   full_name: "Libre Caslon Text Bold"
   copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Caslon."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

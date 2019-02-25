@@ -39,6 +39,6 @@ fonts {
   full_name: "Quantico-BoldItalic"
   copyright: "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

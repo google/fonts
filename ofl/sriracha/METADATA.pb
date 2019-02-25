@@ -12,8 +12,8 @@ fonts {
   full_name: "Sriracha"
   copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com), Copyright (c) 2014, Pablo Impallari (www.impallari.com|impallari@gmail.com)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"

@@ -30,6 +30,6 @@ fonts {
   full_name: "Trochut Bold"
   copyright: "Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com), with Reserved Font Name Trochut"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -39,11 +39,11 @@ fonts {
   full_name: "Roboto Slab Bold"
   copyright: "Font data copyright Google 2013"
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2011, Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name Abel."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

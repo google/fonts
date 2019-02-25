@@ -1,5 +1,5 @@
 name: "Boogaloo"
-designer: "John Vargas Beltrán"
+designer: "John Vargas Beltr\303\241n"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2011, John Vargas Beltran (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com), with Reserved Font Name \"Boogaloo\"."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

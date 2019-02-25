@@ -69,3 +69,4 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"

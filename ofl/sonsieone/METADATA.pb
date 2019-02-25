@@ -10,8 +10,8 @@ fonts {
   filename: "SonsieOne-Regular.ttf"
   post_script_name: "SonsieOne-Regular"
   full_name: "Sonsie One"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Sonsie One\"."
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserved Font Name \"Sonsie One\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

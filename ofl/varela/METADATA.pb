@@ -10,9 +10,9 @@ fonts {
   filename: "Varela-Regular.ttf"
   post_script_name: "Varela"
   full_name: "Varela"
-  copyright: "Copyright (c) 2011 by Admix Designs (joe@admixdesigns.com). All rights reserved."
+  copyright: "Copyright (c) 2011 by Admix Designs. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

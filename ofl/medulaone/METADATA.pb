@@ -12,6 +12,6 @@ fonts {
   full_name: "Medula One"
   copyright: "Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), with Reserved Font Names \"Medula\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

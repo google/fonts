@@ -1,5 +1,5 @@
 name: "Londrina Outline"
-designer: "Marcelo Magalhães"
+designer: "Marcelo Magalh\303\243es"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-03-14"
@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright 2011 The Londrina Outline Authors (https://github.com/marcelommp/Londrina-Typeface), with Reserved Font Name \"Londrina Outline\""
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

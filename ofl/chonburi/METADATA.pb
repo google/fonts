@@ -12,8 +12,8 @@ fonts {
   full_name: "Chonburi"
   copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "thai"
 subsets: "vietnamese"

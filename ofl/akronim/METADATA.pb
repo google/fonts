@@ -12,6 +12,6 @@ fonts {
   full_name: "Akronim Regular"
   copyright: "Copyright (c) 2012 Grzegorz Klimczewski, Fonty.PL (www.fonty.pl), with Reserved Font Name \'Akronim\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

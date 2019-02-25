@@ -59,4 +59,5 @@ fonts {
 }
 subsets: "hebrew"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

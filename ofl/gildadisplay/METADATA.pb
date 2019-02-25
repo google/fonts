@@ -10,8 +10,8 @@ fonts {
   filename: "GildaDisplay-Regular.ttf"
   post_script_name: "GildaDisplay-Regular"
   full_name: "Gilda Display"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Gilda'"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \'Gilda\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

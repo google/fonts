@@ -10,7 +10,8 @@ fonts {
   filename: "Questrial-Regular.ttf"
   post_script_name: "Questrial-Regular"
   full_name: "Questrial"
-  copyright: "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Questrial."
+  copyright: "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com/) with Reserved Font Name Questrial."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

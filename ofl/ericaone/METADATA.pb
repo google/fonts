@@ -10,8 +10,8 @@ fonts {
   filename: "EricaOne-Regular.ttf"
   post_script_name: "EricaOne-Regular"
   full_name: "Erica One"
-  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Erica\" \"Erica One\""
+  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with Reserved Font Names \"Erica\" \"Erica One\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

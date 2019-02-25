@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2011 by Font Diner, Inc. All rights reserved."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

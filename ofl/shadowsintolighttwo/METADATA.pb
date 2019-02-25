@@ -10,8 +10,8 @@ fonts {
   filename: "ShadowsIntoLightTwo-Regular.ttf"
   post_script_name: "ShadowsIntoLightTwo-Regular"
   full_name: "Shadows Into Light Two"
-  copyright: "Copyright (c) 2012, Kimberly Geswein (kimberlygeswein@gmail.com)."
+  copyright: "Copyright (c) 2012, Kimberly Geswein."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

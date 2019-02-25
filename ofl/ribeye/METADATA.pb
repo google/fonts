@@ -10,8 +10,8 @@ fonts {
   filename: "Ribeye-Regular.ttf"
   post_script_name: "Ribeye-Regular"
   full_name: "Ribeye"
-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Ribeye\""
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Ribeye\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

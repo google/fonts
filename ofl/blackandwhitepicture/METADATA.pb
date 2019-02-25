@@ -12,5 +12,5 @@ fonts {
   full_name: "Black And White Picture Regular"
   copyright: "Copyright (c) 1992-2018 AsiaSoft Inc. Seoul Korea All Rights Reserved."
 }
-subsets: "korean"
+subsets: "latin-ext"
 subsets: "menu"

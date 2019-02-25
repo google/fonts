@@ -10,8 +10,8 @@ fonts {
   filename: "MysteryQuest-Regular.ttf"
   post_script_name: "MysteryQuest"
   full_name: "Mystery Quest"
-  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reserved Font Name \"Mystery Quest\""
+  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reseved Font Name \"Mystery Quest\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

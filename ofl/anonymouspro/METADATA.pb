@@ -40,7 +40,6 @@ fonts {
   copyright: "Copyright (c) Mark Simonson 2009-2010. All rights reserved."
 }
 subsets: "cyrillic"
-subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

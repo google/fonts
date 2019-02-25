@@ -12,5 +12,5 @@ fonts {
   full_name: "Digital Numbers"
   copyright: "Copyright (c) 2015, Stephan Ahlf (https://github.com/s-a/digital-numbers-font stephan.ahlf@googlemail.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

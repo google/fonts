@@ -58,4 +58,5 @@ fonts {
   copyright: "2011, Dan Sayers (i@iotic.com"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

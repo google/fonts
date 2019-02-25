@@ -10,7 +10,8 @@ fonts {
   filename: "GeostarFill-Regular.ttf"
   post_script_name: "GeostarFill-Regular"
   full_name: "Geostar Fill"
-  copyright: "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Geostar."
+  copyright: "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com/) with Reserved Font Name Geostar."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

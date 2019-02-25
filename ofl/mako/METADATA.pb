@@ -10,7 +10,8 @@ fonts {
   filename: "Mako-Regular.ttf"
   post_script_name: "Mako"
   full_name: "Mako"
-  copyright: "Copyright (c) 2007 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name 'Mako'. All rights reserved."
+  copyright: "Copyright (c) 2007 by vernon adams. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

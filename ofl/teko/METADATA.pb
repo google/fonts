@@ -48,7 +48,6 @@ fonts {
   full_name: "Teko Bold"
   copyright: "Copyright 2014 Indian Type Foundry. All rights reserved."
 }
-subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

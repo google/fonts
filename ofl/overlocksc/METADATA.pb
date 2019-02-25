@@ -10,8 +10,8 @@ fonts {
   filename: "OverlockSC-Regular.ttf"
   post_script_name: "OverlockSC-Regular"
   full_name: "Overlock SC"
-  copyright: "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar), with Reserved Font Name \"Overlock\"."
+  copyright: "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar), with Reserved Font Name \"Overlock\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

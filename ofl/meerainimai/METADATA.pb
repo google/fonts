@@ -13,5 +13,6 @@ fonts {
   copyright: "Copyright 2012-2016 Hussain K.H, Santhosh Thottingal, Anilan NG, AKM Kutty, Swathanthra Malayalam Computing (http://smc.org.in)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil"

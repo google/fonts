@@ -10,8 +10,8 @@ fonts {
   filename: "Romanesco-Regular.ttf"
   post_script_name: "Romanesco-Regular"
   full_name: "Romanesco"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Romanesco\""
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Romanesco\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

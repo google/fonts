@@ -12,6 +12,6 @@ fonts {
   full_name: "Yeon Sung Regular"
   copyright: "Copyright 2018 The Yeon Sung Project Authors"
 }
-subsets: "korean"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

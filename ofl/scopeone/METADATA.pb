@@ -12,6 +12,7 @@ fonts {
   full_name: "Scope One Regular"
   copyright: "Copyright 2015 Dalton Maag Ltd (info@daltonmaag.com)"
 }
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

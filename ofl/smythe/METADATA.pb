@@ -10,7 +10,8 @@ fonts {
   filename: "Smythe-Regular.ttf"
   post_script_name: "Smythe"
   full_name: "Smythe"
-  copyright: "Copyright (c) 2011 by Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names 'Smythe'. All rights reserved."
+  copyright: "Copyright (c) 2011 by Vernon Adams. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

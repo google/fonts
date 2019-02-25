@@ -12,6 +12,6 @@ fonts {
   full_name: "Emilys Candy"
   copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Emilys Candy\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

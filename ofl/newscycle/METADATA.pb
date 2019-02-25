@@ -21,6 +21,11 @@ fonts {
   full_name: "News Cycle Bold"
   copyright: "Copyright (c) 2010-2011, Nathan Willis (nwillis@glyphography.com), with Reserved Font Name \"News Cycle.\""
 }
-subsets: "menu"
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek"
+subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

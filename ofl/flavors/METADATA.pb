@@ -10,8 +10,8 @@ fonts {
   filename: "Flavors-Regular.ttf"
   post_script_name: "Flavors-Regular"
   full_name: "Flavors"
-  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reserved Font Name \"Flavors\""
+  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reseved Font Name \"Flavors\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

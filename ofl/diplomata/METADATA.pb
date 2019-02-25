@@ -10,8 +10,8 @@ fonts {
   filename: "Diplomata-Regular.ttf"
   post_script_name: "Diplomata-Regular"
   full_name: "Diplomata"
-  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Diplomata\""
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \"Diplomata\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

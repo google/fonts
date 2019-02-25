@@ -10,8 +10,8 @@ fonts {
   filename: "Gruppo-Regular.ttf"
   post_script_name: "Gruppo"
   full_name: "Gruppo"
-  copyright: "Copyright (c) 2010 Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Gruppo'. Available under the terms of the SIL OFL v1.1 from http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2010 Vernon Adams (vern@newtypography.co.uk). Available under the terms of the SIL OFL v1.1 from http://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

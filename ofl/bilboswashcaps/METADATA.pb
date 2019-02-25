@@ -10,7 +10,7 @@ fonts {
   filename: "BilboSwashCaps-Regular.ttf"
   post_script_name: "BilboSwashCaps-Regular"
   full_name: "Bilbo Swash Caps Regular"
-  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Names \"Bilbo\" and \"Bilbo Swash Caps\""
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),\rwith Reserved Font Names \"Bilbo\" and \"Bilbo Swash Caps\""
 }
 subsets: "latin"
 subsets: "latin-ext"

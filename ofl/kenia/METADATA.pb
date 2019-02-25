@@ -12,5 +12,5 @@ fonts {
   full_name: "Kenia"
   copyright: "Copyright (c) 2010, Julia Petretta (julia.petretta@googlemail.com), with Reserved Font Name Kenia"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

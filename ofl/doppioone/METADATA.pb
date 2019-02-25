@@ -10,8 +10,8 @@ fonts {
   filename: "DoppioOne-Regular.ttf"
   post_script_name: "DoppioOne-Regular"
   full_name: "Doppio One Regular"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name \"Doppio\""
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com), with Reserved Font Name \"Doppio\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -10,8 +10,8 @@ fonts {
   filename: "MateSC-Regular.ttf"
   post_script_name: "MateSC-Regular"
   full_name: "Mate SC Regular"
-  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Mate\""
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \"Mate\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -10,8 +10,8 @@ fonts {
   filename: "Lancelot-Regular.ttf"
   post_script_name: "Lancelot"
   full_name: "Lancelot"
-  copyright: "Copyright (c) 2011 by Marion Kadi (marionkadi@gmail.com). All rights reserved. Licenced under SIL OFL v1.1"
+  copyright: "Copyright (c) 2011 by Marion Kadi. All rights reserved. Licenced under SIL OFL v1.1"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

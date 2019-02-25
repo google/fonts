@@ -10,7 +10,8 @@ fonts {
   filename: "Smokum-Regular.ttf"
   post_script_name: "Smokum-Regular"
   full_name: "Smokum Regular"
-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\nhttp://www.apache.org/licenses/LICENSE-2.0.html"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

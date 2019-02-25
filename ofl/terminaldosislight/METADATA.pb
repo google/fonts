@@ -1,16 +1,17 @@
-name: "Terminal Dosis Light"
+name: "Terminal Dosis"
 designer: "multiple designers"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-03-30"
 fonts {
-  name: "Terminal Dosis Light"
+  name: "Terminal Dosis"
   style: "normal"
-  weight: 400
+  weight: 300
   filename: "TerminalDosis-Light.ttf"
   post_script_name: "TerminalDosis-Light"
   full_name: "Terminal Dosis Light"
-  copyright: "Copyright (c) 2011 by Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com impallari@gmail.com). All rights reserved."
+  copyright: "Copyright (c) 2011 by EdgarTolentino, PabloImpallari, IginoMarini. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

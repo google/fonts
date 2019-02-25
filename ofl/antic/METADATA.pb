@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2010, 2011, Santiago Orozco <hi@typemade.mx>, with Reserved Font Name \"Antic\""
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

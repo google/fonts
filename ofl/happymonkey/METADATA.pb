@@ -12,6 +12,6 @@ fonts {
   full_name: "Happy Monkey"
   copyright: "Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved Font Name \"Happy Monkey\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

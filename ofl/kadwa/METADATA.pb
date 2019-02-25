@@ -21,6 +21,7 @@ fonts {
   full_name: "Kadwa Bold"
   copyright: "Copyright (c) 2014-2015, Sol Matas (www.huertatipografica.com - sol@huertatipografica.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

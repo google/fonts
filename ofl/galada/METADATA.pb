@@ -14,4 +14,5 @@ fonts {
 }
 subsets: "bengali"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

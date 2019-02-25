@@ -10,7 +10,8 @@ fonts {
   filename: "ShareTechMono-Regular.ttf"
   post_script_name: "ShareTechMono-Regular"
   full_name: "Share Tech Mono"
-  copyright: "Copyright (c) 2012, Carrois Type Design, Ralph du Carrois (www.carrois.com post@carrois.com), with Reserved Font Name 'Share'"
+  copyright: "Copyright (c) 2012, Carrois Type Design, Ralph du Carrois (post@carrois.com www.carrois.com), with Reserved Font Name \'Share\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

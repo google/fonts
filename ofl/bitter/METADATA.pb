@@ -1,5 +1,5 @@
 name: "Bitter"
-designer: "Huerta Tipográfica"
+designer: "Huerta Tipogr\303\241fica"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"

@@ -12,6 +12,6 @@ fonts {
   full_name: "Niconne"
   copyright: "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Name Niconne."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

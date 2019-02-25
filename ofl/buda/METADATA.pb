@@ -1,5 +1,5 @@
 name: "Buda"
-designer: "Adèle Antignac"
+designer: "Ad\303\250le Antignac"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2010-12-20"

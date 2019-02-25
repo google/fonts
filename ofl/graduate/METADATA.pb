@@ -10,8 +10,8 @@ fonts {
   filename: "Graduate-Regular.ttf"
   post_script_name: "Graduate-Regular"
   full_name: "Graduate"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Graduate\""
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \"Graduate\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

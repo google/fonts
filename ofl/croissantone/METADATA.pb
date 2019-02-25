@@ -10,8 +10,8 @@ fonts {
   filename: "CroissantOne-Regular.ttf"
   post_script_name: "CroissantOne-Regular"
   full_name: "Croissant One"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Croissant'"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \'Croissant\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

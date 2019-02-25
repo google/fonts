@@ -10,8 +10,8 @@ fonts {
   filename: "Amarante-Regular.ttf"
   post_script_name: "Amarante-Regular"
   full_name: "Amarante Regular"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Amarante\"."
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Amarante\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

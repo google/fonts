@@ -10,9 +10,9 @@ fonts {
   filename: "Dekko-Regular.ttf"
   post_script_name: "Dekko"
   full_name: "Dekko"
-  copyright: "Copyright (c) 2000, Modular Infotech, Pune, INDIA. Copyright (c) 2014, Sorkin Type Co, Boston, MA, USA (www.sorkintype.com)"
+  copyright: "Copyright (c) 2000, Modular Infotech, Pune, INDIA. Latin Portions added 2014 by Eben Sorkin Sorkin Type Co, Boston MA, USA"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

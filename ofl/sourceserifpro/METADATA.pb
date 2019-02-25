@@ -1,5 +1,5 @@
 name: "Source Serif Pro"
-designer: "Frank Grießhammer"
+designer: "Frank Grie\303\237hammer"
 license: "OFL"
 category: "SERIF"
 date_added: "2014-05-30"

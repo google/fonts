@@ -10,8 +10,8 @@ fonts {
   filename: "AbrilFatface-Regular.ttf"
   post_script_name: "AbrilFatface-Regular"
   full_name: "Abril Fatface"
-  copyright: "Copyright (c) 2011, Copyright (c) 2011, TypeTogether (www.type-together.com info@type-together.com), with Reserved Font Names \"Abril\" and \"Abril Fatface\""
+  copyright: "Copyright (c) 2011, Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved Font Names \"Abril\" and \"Abril Fatface\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

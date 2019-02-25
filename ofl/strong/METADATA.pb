@@ -10,10 +10,10 @@ fonts {
   filename: "Strong-Regular.ttf"
   post_script_name: "Strong-Regular"
   full_name: "Strong"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Strong\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Strong\".\r\rThis Font Software is licensed under the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

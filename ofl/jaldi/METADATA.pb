@@ -10,7 +10,7 @@ fonts {
   filename: "Jaldi-Regular.ttf"
   post_script_name: "Jaldi-Regular"
   full_name: "Jaldi"
-  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name 'Jaldi' and 'Asap'"
+  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \'Jaldi\' and \'Asap\'"
 }
 fonts {
   name: "Jaldi"
@@ -19,9 +19,10 @@ fonts {
   filename: "Jaldi-Bold.ttf"
   post_script_name: "Jaldi-Bold"
   full_name: "Jaldi Bold"
-  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name 'Jaldi' and 'Asap'"
+  copyright: "Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \'Jaldi\' and \'Asap\'"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

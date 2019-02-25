@@ -10,7 +10,7 @@ fonts {
   filename: "SansitaOne-Regular.ttf"
   post_script_name: "SansitaOne-Regular"
   full_name: "Sansita One Regular"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Sansita One\"."
+  copyright: "Copyright 2011 The Sansita One Project Authors"
 }
 subsets: "latin"
 subsets: "menu"

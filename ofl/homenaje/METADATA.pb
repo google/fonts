@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright 2016 The Homenaje Project Authors (https://github.com/googlefonts/Homenaje), with Reserved Font Name \'Homenaje."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

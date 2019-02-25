@@ -12,5 +12,6 @@ fonts {
   full_name: "Miltonian Tattoo"
   copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). Igino Marini (www.ikern.com)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

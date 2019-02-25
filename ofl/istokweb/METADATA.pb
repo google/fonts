@@ -39,8 +39,8 @@ fonts {
   full_name: "Istok Web Bold Italic"
   copyright: "Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru), with Reserved Font Name Istok"
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

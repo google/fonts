@@ -10,8 +10,8 @@ fonts {
   filename: "MouseMemoirs-Regular.ttf"
   post_script_name: "MouseMemoirs-Regular"
   full_name: "Mouse Memoirs"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Mouse Memoirs'"
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Mouse Memoirs\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

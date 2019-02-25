@@ -21,6 +21,6 @@ fonts {
   full_name: "Scheherazade Bold"
   copyright: "Copyright (c) 1994-2015 SIL International. All rights reserved."
 }
-subsets: "menu"
-subsets: "arabic"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

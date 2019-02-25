@@ -48,7 +48,7 @@ fonts {
   full_name: "Hind Kochi Bold"
   copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "malayalam"
+subsets: "menu"

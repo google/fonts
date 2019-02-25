@@ -21,5 +21,6 @@ fonts {
   full_name: "Gorditas Bold"
   copyright: "Copyright (c) 2011, Gustavo Dipre (gbrenda1987@gmail.com), with Reserved Font Name \"Gorditas\"."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

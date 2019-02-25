@@ -22,4 +22,5 @@ fonts {
   copyright: "Copyright 2011 The Cabin Project Authors (impallari@gmail.com), with Reserved Font Name \"Cabin\", \"Cabin Sketch\"."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

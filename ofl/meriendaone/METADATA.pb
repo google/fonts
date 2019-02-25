@@ -10,7 +10,8 @@ fonts {
   filename: "MeriendaOne-Regular.ttf"
   post_script_name: "MeriendaOne-Regular"
   full_name: "Merienda One"
-  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Merienda\""
+  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \"Merienda\""
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

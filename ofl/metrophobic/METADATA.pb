@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright 2011 The Metrophobic Project Authors (contact@sansoxygen.com), with Reserved Font Name \'Metrophobic\'."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

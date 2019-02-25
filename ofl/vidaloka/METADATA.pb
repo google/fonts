@@ -10,7 +10,8 @@ fonts {
   filename: "Vidaloka-Regular.ttf"
   post_script_name: "Vidaloka-Regular"
   full_name: "Vidaloka "
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Vidaloka\"."
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Vidaloka\"."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

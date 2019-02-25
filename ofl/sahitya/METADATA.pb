@@ -21,6 +21,7 @@ fonts {
   full_name: "Sahitya Bold"
   copyright: "Copyright (c) 2015 by Juan Pablo del Peral (http://www.huertatipografica.com). All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

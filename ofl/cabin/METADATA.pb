@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Cabin-Regular.ttf"
   post_script_name: "Cabin-Regular"
-  full_name: "Cabin"
+  full_name: "Cabin Regular"
   copyright: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)"
 }
 fonts {

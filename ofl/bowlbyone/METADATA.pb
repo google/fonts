@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Bowlby\" \"Bowlby One\" and \"Bowlby One SC\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

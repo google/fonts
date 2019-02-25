@@ -12,6 +12,6 @@ fonts {
   full_name: "Convergence-Regular"
   copyright: "Copyright (c) 2010 by Jos Nicols Silva Schwarzenberg.<info@nsilva.com> and John Vargas Beltran <http://www.johnvargasbeltran.com/>, with Reserved Font Names \"Convergence\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

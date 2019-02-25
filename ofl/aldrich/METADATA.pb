@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) Matthew Desmond, 2011. All rights reserved."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

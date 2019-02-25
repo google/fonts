@@ -40,4 +40,5 @@ fonts {
   copyright: "Copyright 2012 The B612 Project Authors (https://github.com/polarsys/b612)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

@@ -10,7 +10,7 @@ fonts {
   filename: "Amaranth-Regular.ttf"
   post_script_name: "Amaranth-Regular"
   full_name: "Amaranth Regular"
-  copyright: "Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)"
+  copyright: "Copyright (c) 2011 by Gesine Todt. All rights reserved."
 }
 fonts {
   name: "Amaranth"
@@ -19,7 +19,7 @@ fonts {
   filename: "Amaranth-Italic.ttf"
   post_script_name: "Amaranth-Italic"
   full_name: "Amaranth Italic"
-  copyright: "Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)"
+  copyright: "Copyright (c) 2011 by Gesine Todt. All rights reserved."
 }
 fonts {
   name: "Amaranth"
@@ -28,7 +28,7 @@ fonts {
   filename: "Amaranth-Bold.ttf"
   post_script_name: "Amaranth-Bold"
   full_name: "Amaranth Bold"
-  copyright: "Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)"
+  copyright: "Copyright (c) 2011 by Gesine Todt. All rights reserved."
 }
 fonts {
   name: "Amaranth"
@@ -37,7 +37,8 @@ fonts {
   filename: "Amaranth-BoldItalic.ttf"
   post_script_name: "Amaranth-BoldItalic"
   full_name: "Amaranth Bold Italic"
-  copyright: "Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)"
+  copyright: "Copyright (c) 2011 by Gesine Todt. All rights reserved."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

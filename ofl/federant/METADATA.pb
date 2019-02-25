@@ -10,7 +10,7 @@ fonts {
   filename: "Federant-Regular.ttf"
   post_script_name: "Federant-Regular"
   full_name: "Federant"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org), with Reserved Font Name 'Federant'."
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \'Federant\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

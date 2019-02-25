@@ -10,8 +10,8 @@ fonts {
   filename: "Fascinate-Regular.ttf"
   post_script_name: "Fascinate-Regular"
   full_name: "Fascinate"
-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Fascinate\""
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Fascinate\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

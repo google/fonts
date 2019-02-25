@@ -10,8 +10,8 @@ fonts {
   filename: "MrDafoe-Regular.ttf"
   post_script_name: "MrDafoe-Regular"
   full_name: "Mr Dafoe Regular"
-  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mr Dafoe\""
+  copyright: "Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Mr Dafoe\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

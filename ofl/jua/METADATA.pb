@@ -12,5 +12,4 @@ fonts {
   full_name: "Jua Regular"
   copyright: "Copyright 2018 The BM JUA Project Authors"
 }
-subsets: "korean"
 subsets: "menu"

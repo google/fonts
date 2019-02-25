@@ -12,7 +12,7 @@ fonts {
   full_name: "Marck Script"
   copyright: "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>, Marck Fogel, with Reserved Font Names \"Marck Script\"."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -1,10 +1,10 @@
-name: "KoHo"
+name: "Ko Ho"
 designer: "Cadson Demak"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-08-22"
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "normal"
   weight: 200
   filename: "KoHo-ExtraLight.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "italic"
   weight: 200
   filename: "KoHo-ExtraLightItalic.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "normal"
   weight: 300
   filename: "KoHo-Light.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "italic"
   weight: 300
   filename: "KoHo-LightItalic.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "normal"
   weight: 400
   filename: "KoHo-Regular.ttf"
@@ -49,7 +49,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "italic"
   weight: 400
   filename: "KoHo-Italic.ttf"
@@ -58,7 +58,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "normal"
   weight: 500
   filename: "KoHo-Medium.ttf"
@@ -67,7 +67,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "italic"
   weight: 500
   filename: "KoHo-MediumItalic.ttf"
@@ -76,7 +76,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "normal"
   weight: 600
   filename: "KoHo-SemiBold.ttf"
@@ -85,7 +85,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "italic"
   weight: 600
   filename: "KoHo-SemiBoldItalic.ttf"
@@ -94,7 +94,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "normal"
   weight: 700
   filename: "KoHo-Bold.ttf"
@@ -103,7 +103,7 @@ fonts {
   copyright: "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)"
 }
 fonts {
-  name: "KoHo"
+  name: "Ko Ho"
   style: "italic"
   weight: 700
   filename: "KoHo-BoldItalic.ttf"

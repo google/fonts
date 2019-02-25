@@ -30,6 +30,6 @@ fonts {
   full_name: "Gudea Bold"
   copyright: "Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with Reserved Font Names \"Gudea\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

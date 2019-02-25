@@ -22,4 +22,5 @@ fonts {
   copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reseved Font Name \"Unkempt Bold\""
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Padauk-Regular.ttf"
   post_script_name: "Padauk-Regular"
-  full_name: ""
-  copyright: "Copyright SIL International, all rights reserved"
+  full_name: "Padauk"
+  copyright: "Copyright 2016 SIL International, all rights reserved"
 }
 fonts {
   name: "Padauk"
@@ -18,9 +18,8 @@ fonts {
   weight: 700
   filename: "Padauk-Bold.ttf"
   post_script_name: "Padauk-Bold"
-  full_name: " "
-  copyright: "Copyright SIL International, all rights reserved"
+  full_name: "Padauk Bold"
+  copyright: "Copyright 2016 SIL International, all rights reserved"
 }
-subsets: "latin"
 subsets: "menu"
 subsets: "myanmar"

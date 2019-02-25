@@ -1,5 +1,5 @@
 name: "Inknut Antiqua"
-designer: "Claus Eggers Sørensen"
+designer: "Claus Eggers S\303\270rensen"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-05-20"

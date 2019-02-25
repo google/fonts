@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "PoetsenOne-Regular.ttf"
   post_script_name: "PoetsenOne-Regular"
-  full_name: "Poetsen One"
+  full_name: "PoetsenOne"
   copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com) and Rodrigo Fuenzalida (www.rfuenzalida.com), with Reserved Font Name Poetsen."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -93,6 +93,7 @@ fonts {
   full_name: "Zilla Slab Bold Italic"
   copyright: "Copyright 2017, The Mozilla Foundation"
 }
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

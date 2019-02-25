@@ -1,5 +1,5 @@
 name: "Noticia Text"
-designer: "JM Solé"
+designer: "JM Sol\303\251"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-02-08"
@@ -39,7 +39,7 @@ fonts {
   full_name: "Noticia Text Bold Italic"
   copyright: "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Noticia Text\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

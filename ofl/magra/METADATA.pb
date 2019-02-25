@@ -10,7 +10,7 @@ fonts {
   filename: "Magra-Regular.ttf"
   post_script_name: "Magra"
   full_name: "Magra"
-  copyright: "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Names \"Magra\" \"Magra Pro\""
+  copyright: "Copyright (c) 2011, FontFuror (info@fontfuror), with Reserved Names \"Magra\" \"Magra Pro\""
 }
 fonts {
   name: "Magra"
@@ -19,8 +19,8 @@ fonts {
   filename: "Magra-Bold.ttf"
   post_script_name: "Magra-Bold"
   full_name: "Magra Bold"
-  copyright: "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Names \"Magra\" \"Magra Pro\""
+  copyright: "Copyright (c) 2011, FontFuror (info@fontfuror), with Reserved Names \"Magra\" \"Magra Pro\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

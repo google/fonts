@@ -10,8 +10,8 @@ fonts {
   filename: "NanumBrushScript-Regular.ttf"
   post_script_name: "NanumBrush"
   full_name: "Nanum Brush Script"
-  copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
+  copyright: "Copyright  2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
-subsets: "korean"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

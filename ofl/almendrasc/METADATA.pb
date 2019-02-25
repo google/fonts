@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved Font Names \"Almendra\" \"Almendra SC\""
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

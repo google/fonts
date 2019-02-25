@@ -10,7 +10,8 @@ fonts {
   filename: "CreepsterCaps-Regular.ttf"
   post_script_name: "CreepsterCaps-Regular"
   full_name: "Creepster Caps Regular"
-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."
+  copyright: "Copyright (c) 2011 by Font Diner, Inc. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

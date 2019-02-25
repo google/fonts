@@ -9,9 +9,9 @@ fonts {
   weight: 400
   filename: "HeadlandOne-Regular.ttf"
   post_script_name: "HeadlandOne-Regular"
-  full_name: "Headland One"
-  copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name \"Headland\""
+  full_name: "HeadlandOne-Regular"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserved Font Name \"Headland\".\r\rThis Font Software is licensed under the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

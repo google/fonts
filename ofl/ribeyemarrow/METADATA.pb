@@ -10,8 +10,8 @@ fonts {
   filename: "RibeyeMarrow-Regular.ttf"
   post_script_name: "RibeyeMarrow-Regular"
   full_name: "Ribeye Marrow"
-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Ribeye Marrow\""
+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Ribeye Marrow\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

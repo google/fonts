@@ -10,8 +10,8 @@ fonts {
   filename: "FreckleFace-Regular.ttf"
   post_script_name: "FreckleFace-Regular"
   full_name: "Freckle Face"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Freckle Face\""
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Freckle Face\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

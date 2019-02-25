@@ -22,4 +22,5 @@ fonts {
   copyright: "Copyright (c) 2010 by Toshi Omagari. All rights reserved."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

@@ -10,7 +10,7 @@ fonts {
   filename: "Sumana-Regular.ttf"
   post_script_name: "Sumana-Regular"
   full_name: "Sumana"
-  copyright: "Copyright © 2015 by Cyreal. All rights reserved."
+  copyright: "Copyright  2015 by Cyreal. All rights reserved."
 }
 fonts {
   name: "Sumana"
@@ -19,9 +19,9 @@ fonts {
   filename: "Sumana-Bold.ttf"
   post_script_name: "Sumana-Bold"
   full_name: "Sumana Bold"
-  copyright: "Copyright © 2015 by Cyreal. All rights reserved."
+  copyright: "Copyright  2015 by Cyreal. All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

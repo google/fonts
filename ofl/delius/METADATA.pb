@@ -10,7 +10,8 @@ fonts {
   filename: "Delius-Regular.ttf"
   post_script_name: "Delius-Regular"
   full_name: "Delius-Regular"
-  copyright: "Copyright (c) 2010 by Natalia Raices (nraices@gmail.com). All rights reserved."
+  copyright: "Copyright (c) 2010 by Natalia Raices. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

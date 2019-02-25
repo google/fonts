@@ -10,9 +10,9 @@ fonts {
   filename: "PatrickHand-Regular.ttf"
   post_script_name: "PatrickHand-Regular"
   full_name: "Patrick Hand"
-  copyright: "Copyright (c) 2010-2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)"
+  copyright: "Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

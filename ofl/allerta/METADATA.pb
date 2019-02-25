@@ -12,5 +12,6 @@ fonts {
   full_name: "Allerta Regular"
   copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

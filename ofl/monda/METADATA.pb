@@ -10,7 +10,7 @@ fonts {
   filename: "Monda-Regular.ttf"
   post_script_name: "Monda-Regular"
   full_name: "Monda Regular"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Monda'"
+  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \'Monda\'"
 }
 fonts {
   name: "Monda"
@@ -19,8 +19,8 @@ fonts {
   filename: "Monda-Bold.ttf"
   post_script_name: "Monda-Bold"
   full_name: "Monda Bold"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Monda'"
+  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \'Monda\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

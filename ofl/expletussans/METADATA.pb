@@ -10,7 +10,7 @@ fonts {
   filename: "ExpletusSans-Regular.ttf"
   post_script_name: "ExpletusSans"
   full_name: "Expletus Sans"
-  copyright: "Copyright (c) 2009 by Designtown (jasper@designtown.nl). All rights reserved."
+  copyright: "Copyright (c) 2009 by Designtown. All rights reserved."
 }
 fonts {
   name: "Expletus Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "ExpletusSans-Italic.ttf"
   post_script_name: "ExpletusSans-Italic"
   full_name: "Expletus Sans Italic"
-  copyright: "Copyright (c) 2009 by Designtown (jasper@designtown.nl). All rights reserved."
+  copyright: "Copyright (c) 2009 by Designtown. All rights reserved."
 }
 fonts {
   name: "Expletus Sans"
@@ -28,7 +28,7 @@ fonts {
   filename: "ExpletusSans-Medium.ttf"
   post_script_name: "ExpletusSans-Medium"
   full_name: "Expletus Sans Medium"
-  copyright: "Copyright (c) 2010 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+  copyright: "Copyright (c) 2010 by Jasper de Waard. All rights reserved."
 }
 fonts {
   name: "Expletus Sans"
@@ -37,7 +37,7 @@ fonts {
   filename: "ExpletusSans-MediumItalic.ttf"
   post_script_name: "ExpletusSans-MediumItalic"
   full_name: "Expletus Sans Medium Italic"
-  copyright: "Copyright (c) 2010 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+  copyright: "Copyright (c) 2010 by Jasper de Waard. All rights reserved."
 }
 fonts {
   name: "Expletus Sans"
@@ -46,7 +46,7 @@ fonts {
   filename: "ExpletusSans-SemiBold.ttf"
   post_script_name: "ExpletusSans-SemiBold"
   full_name: "Expletus Sans SemiBold"
-  copyright: "Copyright (c) 2010 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+  copyright: "Copyright (c) 2010 by Jasper de Waard. All rights reserved."
 }
 fonts {
   name: "Expletus Sans"
@@ -55,7 +55,7 @@ fonts {
   filename: "ExpletusSans-SemiBoldItalic.ttf"
   post_script_name: "ExpletusSans-SemiBoldItalic"
   full_name: "Expletus Sans SemiBold Italic"
-  copyright: "Copyright (c) 2010 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+  copyright: "Copyright (c) 2010 by Jasper de Waard. All rights reserved."
 }
 fonts {
   name: "Expletus Sans"
@@ -64,7 +64,7 @@ fonts {
   filename: "ExpletusSans-Bold.ttf"
   post_script_name: "ExpletusSans-Bold"
   full_name: "Expletus Sans Bold"
-  copyright: "Copyright (c) 2009 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+  copyright: "Copyright (c) 2009 by Jasper de Waard. All rights reserved."
 }
 fonts {
   name: "Expletus Sans"
@@ -73,7 +73,8 @@ fonts {
   filename: "ExpletusSans-BoldItalic.ttf"
   post_script_name: "ExpletusSans-BoldItalic"
   full_name: "Expletus Sans Bold Italic"
-  copyright: "Copyright (c) 2009 by Jasper de Waard (jasper@designtown.nl). All rights reserved."
+  copyright: "Copyright (c) 2009 by Jasper de Waard. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

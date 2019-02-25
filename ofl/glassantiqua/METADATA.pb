@@ -12,6 +12,6 @@ fonts {
   full_name: "Glass Antiqua"
   copyright: "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

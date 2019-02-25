@@ -10,7 +10,7 @@ fonts {
   filename: "Arbutus-Regular.ttf"
   post_script_name: "Arbutus-Regular"
   full_name: "Arbutus Regular"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Arbutus\".  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserved Font Name \"Arbutus\".\r\rThis Font Software is licensed under the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
 }
 subsets: "latin"
 subsets: "latin-ext"

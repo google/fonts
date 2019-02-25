@@ -21,7 +21,7 @@ fonts {
   full_name: "Pragati Narrow Bold"
   copyright: "Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -12,6 +12,6 @@ fonts {
   full_name: "Slabo 27px"
   copyright: "Copyright (c) 2013, Tiro Typeworks Ltd (www.tiro.com)."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

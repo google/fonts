@@ -21,6 +21,6 @@ fonts {
   full_name: "Cherry Swash Bold"
   copyright: "Copyright (c) 2012, Natalia Kasatkina (kasatkinanataliya@gmail.com)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

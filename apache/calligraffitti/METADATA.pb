@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2010 by Open Window. All rights reserved."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

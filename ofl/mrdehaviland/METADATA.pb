@@ -10,8 +10,8 @@ fonts {
   filename: "MrDeHaviland-Regular.ttf"
   post_script_name: "MrDeHaviland-Regular"
   full_name: "Mr De Haviland Regular"
-  copyright: "Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mr De Haviland\""
+  copyright: "Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Mr De Haviland\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

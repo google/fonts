@@ -10,8 +10,8 @@ fonts {
   filename: "LoversQuarrel-Regular.ttf"
   post_script_name: "LoversQuarrel-Regular"
   full_name: "Lovers Quarrel"
-  copyright: "Copyright (c) 2012 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Lovers Quarrel\""
+  copyright: "Copyright (c) 2012 TypeSETit, LLC (typesetit@att.net),\rwith Reserved Font Name \"Lovers Quarrel\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

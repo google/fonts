@@ -1,5 +1,5 @@
 name: "Playfair Display SC"
-designer: "Claus Eggers Sørensen"
+designer: "Claus Eggers S\303\270rensen"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-10-26"
@@ -58,6 +58,7 @@ fonts {
   copyright: "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
 }
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

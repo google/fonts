@@ -10,8 +10,8 @@ fonts {
   filename: "Italianno-Regular.ttf"
   post_script_name: "Italianno-Regular"
   full_name: "Italianno"
-  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Italianno\""
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),\rwith Reserved Font Name \"Italianno\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

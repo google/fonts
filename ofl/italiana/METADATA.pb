@@ -12,5 +12,6 @@ fonts {
   full_name: "Italiana"
   copyright: "Copyright (c) 2011 by Santiago Orozco (hi@typemade.mx) with reserved name Italiana"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

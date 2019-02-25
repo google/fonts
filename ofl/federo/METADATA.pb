@@ -10,7 +10,7 @@ fonts {
   filename: "Federo-Regular.ttf"
   post_script_name: "Federo-Regular"
   full_name: "Federo"
-  copyright: "Copyright (c) 2011 by Olexa M. Volochay | Cyreal.org (a@cyreal.org). All rights reserved."
+  copyright: "Copyright (c) 2011 by Olexa M. Volochay | Cyreal.org. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

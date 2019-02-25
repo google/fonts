@@ -10,8 +10,8 @@ fonts {
   filename: "Nosifer-Regular.ttf"
   post_script_name: "Nosifer-Regular"
   full_name: "Nosifer"
-  copyright: "Copyright (c) 2011, Vernon Adams DBA Typomondo (vern@newtypography.co.uk), with Reserved Font Name \"Nosifer\""
+  copyright: "Copyright (c) 2011, Typomondo, with Reserved Font Name \"Nosifer\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

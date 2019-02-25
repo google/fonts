@@ -10,7 +10,7 @@ fonts {
   filename: "Inika-Regular.ttf"
   post_script_name: "Inika"
   full_name: "Inika"
-  copyright: "Copyright (c) 2011 by Constanza Artigas Preller (artigasconstanza@gmail.com). All rights reserved."
+  copyright: "Copyright (c) 2011 by Constanza Artigas Preller. All rights reserved."
 }
 fonts {
   name: "Inika"
@@ -19,8 +19,8 @@ fonts {
   filename: "Inika-Bold.ttf"
   post_script_name: "Inika-Bold"
   full_name: "Inika Bold"
-  copyright: "Copyright (c) 2011 by Constanza Artigas Preller (artigasconstanza@gmail.com). All rights reserved."
+  copyright: "Copyright (c) 2011 by Constanza Artigas Preller. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

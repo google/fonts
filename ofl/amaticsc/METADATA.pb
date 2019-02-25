@@ -22,6 +22,7 @@ fonts {
   copyright: "Copyright 2015 The Amatic SC Project Authors (https://github.com/googlefonts/AmaticSC)"
 }
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"

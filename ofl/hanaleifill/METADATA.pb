@@ -10,8 +10,8 @@ fonts {
   filename: "HanaleiFill-Regular.ttf"
   post_script_name: "HanaleiFill-Regular"
   full_name: "Hanalei Fill"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Hanalei Fill\""
+  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Hanalei Fill\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

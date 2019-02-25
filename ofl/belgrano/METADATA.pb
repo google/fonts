@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with Reserved Font Names \"Belgrano\""
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

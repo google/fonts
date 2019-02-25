@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2011 by Santiago Orozco(hi@typemade.mx) with reserved name Antic Slab"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

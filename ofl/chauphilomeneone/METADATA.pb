@@ -1,5 +1,5 @@
 name: "Chau Philomene One"
-designer: "Vicente Lamónaca"
+designer: "Vicente Lam\303\263naca"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-04-04"

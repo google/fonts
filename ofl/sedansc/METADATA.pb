@@ -10,8 +10,8 @@ fonts {
   filename: "SedanSC-Regular.ttf"
   post_script_name: "SedanSC-Regular"
   full_name: "Sedan SC"
-  copyright: "Copyright (c) 2012, Sebastian Salazar (sebotas26@hotmail.com), with Reserved Font Name 'Sedan'"
+  copyright: "Copyright (c) 2012, Sebastian Salazar (sebotas26@hotmail.com), with Reserved Font Name \'Sedan\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -10,8 +10,8 @@ fonts {
   filename: "Condiment-Regular.ttf"
   post_script_name: "Condiment-Regular"
   full_name: "Condiment"
-  copyright: "Copyright (c) 2010 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2010 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Condiment\""
+  copyright: "Copyright (c) 2010 Angel Koziupa (sudtipos@sudtipos.com),\rCopyright (c) 2010 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Condiment\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

@@ -6,6 +6,24 @@ date_added: "2018-08-22"
 fonts {
   name: "Chakra Petch"
   style: "normal"
+  weight: 200
+  filename: "ChakraPetch-ExtraLight.ttf"
+  post_script_name: "ChakraPetch-ExtraLight"
+  full_name: "Chakra Petch ExtraLight"
+  copyright: "Copyright 2018 The Chakra Petch Project Authors (https://github.com/m4rc1e/Chakra-Petch.git)"
+}
+fonts {
+  name: "Chakra Petch"
+  style: "italic"
+  weight: 200
+  filename: "ChakraPetch-ExtraLightItalic.ttf"
+  post_script_name: "ChakraPetch-ExtraLightItalic"
+  full_name: "Chakra Petch ExtraLight Italic"
+  copyright: "Copyright 2018 The Chakra Petch Project Authors (https://github.com/m4rc1e/Chakra-Petch.git)"
+}
+fonts {
+  name: "Chakra Petch"
+  style: "normal"
   weight: 300
   filename: "ChakraPetch-Light.ttf"
   post_script_name: "ChakraPetch-Light"

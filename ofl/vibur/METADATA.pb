@@ -12,5 +12,6 @@ fonts {
   full_name: "Vibur"
   copyright: "Copyright (c) 2010, Johan Kallas (johan.kallas@gmail.com). All rights reserved. Licenced under SIL OFL v1.1"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

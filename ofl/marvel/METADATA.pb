@@ -39,5 +39,6 @@ fonts {
   full_name: "Marvel Bold Italic"
   copyright: "Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved Font Name \"Marvel\"."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

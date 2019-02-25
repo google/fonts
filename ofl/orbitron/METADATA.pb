@@ -40,4 +40,5 @@ fonts {
   copyright: "Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

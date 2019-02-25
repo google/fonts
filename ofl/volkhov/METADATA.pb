@@ -10,7 +10,7 @@ fonts {
   filename: "Volkhov-Regular.ttf"
   post_script_name: "Volkhov-Regular"
   full_name: "Volkhov Regular"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Volkhov\" and \"Volkhov Regular\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Volkhov\" and \"Volkhov Regular\".\r\rThis Font Software is licensed under the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
 }
 fonts {
   name: "Volkhov"
@@ -19,7 +19,7 @@ fonts {
   filename: "Volkhov-Italic.ttf"
   post_script_name: "Volkhov-Italic"
   full_name: "Volkhov Italic"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Volkhov\" and \"Volkhov Italic\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Volkhov\" and \"Volkhov Italic\".\r\rThis Font Software is licensed under the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
 }
 fonts {
   name: "Volkhov"
@@ -28,7 +28,7 @@ fonts {
   filename: "Volkhov-Bold.ttf"
   post_script_name: "Volkhov-Bold"
   full_name: "Volkhov Bold"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Volkhov\" and \"Volkhov Bold\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Volkhov\" and \"Volkhov Bold\".\r\rThis Font Software is licensed under the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
 }
 fonts {
   name: "Volkhov"
@@ -37,7 +37,7 @@ fonts {
   filename: "Volkhov-BoldItalic.ttf"
   post_script_name: "Volkhov-BoldItalic"
   full_name: "Volkhov Bold Italic"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \"Volkhov\" and \"Volkhov Bold Italic\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Volkhov\" and \"Volkhov Bold Italic\".\r\rThis Font Software is licensed under the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

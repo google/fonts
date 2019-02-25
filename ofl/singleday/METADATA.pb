@@ -12,5 +12,5 @@ fonts {
   full_name: "Single Day Regular"
   copyright: "Copyright 2015 DXKorea Inc. All rights reserved."
 }
-subsets: "korean"
+subsets: "latin-ext"
 subsets: "menu"

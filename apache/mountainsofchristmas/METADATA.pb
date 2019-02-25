@@ -1,10 +1,10 @@
-name: "Mountains of Christmas"
+name: "Mountainsof Christmas"
 designer: "Tart Workshop"
 license: "APACHE2"
 category: "DISPLAY"
 date_added: "2010-12-14"
 fonts {
-  name: "Mountains of Christmas"
+  name: "Mountainsof Christmas"
   style: "normal"
   weight: 400
   filename: "MountainsofChristmas-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Mountains of Christmas\""
 }
 fonts {
-  name: "Mountains of Christmas"
+  name: "Mountainsof Christmas"
   style: "normal"
   weight: 700
   filename: "MountainsofChristmas-Bold.ttf"
@@ -22,4 +22,5 @@ fonts {
   copyright: "Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Mountains of Christmas\""
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

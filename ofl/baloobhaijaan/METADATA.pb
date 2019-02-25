@@ -12,7 +12,6 @@ fonts {
   full_name: "Baloo Bhaijaan Regular"
   copyright: "Copyright (c) 2015 Ek Type (www.ektype.in)"
 }
-subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

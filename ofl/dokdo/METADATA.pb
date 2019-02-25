@@ -12,5 +12,5 @@ fonts {
   full_name: "Dokdo Regular"
   copyright: "Copyright (c) 2005-2017 FONTRIX. All Rights Reserved."
 }
-subsets: "korean"
+subsets: "latin-ext"
 subsets: "menu"

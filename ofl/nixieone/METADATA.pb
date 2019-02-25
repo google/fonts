@@ -12,5 +12,6 @@ fonts {
   full_name: "Nixie One"
   copyright: "Copyright (c) 2011, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name \"Nixie\""
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

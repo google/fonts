@@ -10,9 +10,9 @@ fonts {
   filename: "RhodiumLibre-Regular.ttf"
   post_script_name: "RhodiumLibre-Regular"
   full_name: "Rhodium Libre"
-  copyright: "Copyright (c) 2014, Dunwich Type Founders (http://dunwichtype.com). Rhodium is a trademark of Dunwich Type Founders."
+  copyright: "Copyright  2015 by James Puckett. All rights reserved."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

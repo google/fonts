@@ -10,7 +10,8 @@ fonts {
   filename: "Ovo-Regular.ttf"
   post_script_name: "Ovo"
   full_name: "Ovo"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Ovo\"."
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\nwith Reserved Font Name \"Ovo\"."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

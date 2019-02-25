@@ -22,4 +22,5 @@ fonts {
   copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), with Reserved Font Name \"Asul\""
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

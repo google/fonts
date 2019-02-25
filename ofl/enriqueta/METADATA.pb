@@ -21,6 +21,6 @@ fonts {
   full_name: "Enriqueta-Bold"
   copyright: "Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font Names \"Enriqueta\" and \"Enriqueta Pro\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

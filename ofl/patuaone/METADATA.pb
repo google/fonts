@@ -10,8 +10,8 @@ fonts {
   filename: "PatuaOne-Regular.ttf"
   post_script_name: "PatuaOne-Regular"
   full_name: "Patua One"
-  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved Font Names \"Patua\" and \"Patua One\""
+  copyright: "Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with Reserved Font Names \"Patua\" and \"Patua One\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

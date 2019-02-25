@@ -57,11 +57,11 @@ fonts {
   full_name: "Roboto Condensed Bold Italic"
   copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

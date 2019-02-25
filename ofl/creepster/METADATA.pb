@@ -10,8 +10,8 @@ fonts {
   filename: "Creepster-Regular.ttf"
   post_script_name: "Creepster-Regular"
   full_name: "Creepster"
-  copyright: "Copyright (c) 2011, Font Diner, Inc DBA Sideshow (diner@fontdiner.com), with Reserved Font Names \"Creepster\""
+  copyright: "Copyright (c) 2011, Font Diner, Inc (diner@fontdiner.com), with Reserved Font Names \"Creepster\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

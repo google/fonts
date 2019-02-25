@@ -22,6 +22,7 @@ fonts {
   copyright: "Copyright 2017 The Literata Project Authors (https://github.com/googlefonts/literata)"
 }
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"

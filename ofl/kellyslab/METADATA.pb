@@ -12,8 +12,7 @@ fonts {
   full_name: "Kelly Slab"
   copyright: "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>, with Reserved Font Names \"Kelly\", \"Kelly Slab\"."
 }
-subsets: "menu"
 subsets: "cyrillic"
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

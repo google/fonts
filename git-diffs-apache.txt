@@ -1,0 +1,173 @@
+Git Diffs for fonts in google/fonts/apache directory after re-running gftools add-font 
+ 
+aclonica
+    '-  copyright: "Copyright (c) 2010 Brian J. Bonislawsky (astigma@astigmatic.com)"'
+    '+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+arimo
+----------------------------------
+calligraffitti
+    '+subsets: "latin-ext"'
+----------------------------------
+cherrycreamsoda
+    '+subsets: "latin-ext"'
+----------------------------------
+chewy
+    '+subsets: "latin-ext"'
+----------------------------------
+comingsoon
+    '+subsets: "latin-ext"'
+----------------------------------
+cousine
+----------------------------------
+craftygirls
+    '+subsets: "latin-ext"'
+----------------------------------
+creepstercaps
+    '-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."'
+    '+  copyright: "Copyright (c) 2011 by Font Diner, Inc. All rights reserved."'
+    '+subsets: "latin-ext"'
+----------------------------------
+crushed
+    '-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+fontdinerswanky
+    '+subsets: "latin-ext"'
+----------------------------------
+homemadeapple
+    '+subsets: "latin-ext"'
+----------------------------------
+irishgrover
+    '+subsets: "latin-ext"'
+----------------------------------
+jsmathcmbx10
+----------------------------------
+jsmathcmex10
+----------------------------------
+jsmathcmmi10
+----------------------------------
+jsmathcmr10
+----------------------------------
+jsmathcmsy10
+----------------------------------
+jsmathcmti10
+----------------------------------
+justanotherhand
+    '-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+kranky
+    '+subsets: "latin-ext"'
+----------------------------------
+luckiestguy
+    '-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+maidenorange
+    '-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+montez
+    '-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+mountainsofchristmas
+    '-name: "Mountains of Christmas"'
+    '+name: "Mountainsof Christmas"'
+    '-  name: "Mountains of Christmas"'
+    '+  name: "Mountainsof Christmas"'
+    '-  name: "Mountains of Christmas"'
+    '+  name: "Mountainsof Christmas"'
+    '+subsets: "latin-ext"'
+----------------------------------
+nokora
+----------------------------------
+opensans
+----------------------------------
+opensanscondensed
+----------------------------------
+opensanshebrew
+----------------------------------
+opensanshebrewcondensed
+----------------------------------
+permanentmarker
+    '+subsets: "latin-ext"'
+----------------------------------
+rancho
+    '+subsets: "latin-ext"'
+----------------------------------
+redressed
+    '-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+roboto
+----------------------------------
+robotocondensed
+----------------------------------
+robotomono
+----------------------------------
+robotoslab
+----------------------------------
+rochester
+    '-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved. Available under the Apache 2.0 licence.\\nhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+rocksalt
+    '+subsets: "latin-ext"'
+----------------------------------
+satisfy
+    '+subsets: "latin-ext"'
+----------------------------------
+schoolbell
+    '+subsets: "latin-ext"'
+----------------------------------
+slackey
+    '+subsets: "latin-ext"'
+----------------------------------
+smokum
+    '-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\nhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+specialelite
+    '-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+sunshiney
+    '+subsets: "latin-ext"'
+----------------------------------
+syncopate
+    '-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+tinos
+----------------------------------
+ultra
+    '-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------
+unkempt
+    '+subsets: "latin-ext"'
+----------------------------------
+walterturncoat
+    '+subsets: "latin-ext"'
+----------------------------------
+yellowtail
+    '-  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+  copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\nhttp://www.apache.org/licenses/LICENSE-2.0.html"'
+    '+subsets: "latin-ext"'
+----------------------------------

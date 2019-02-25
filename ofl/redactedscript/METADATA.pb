@@ -10,7 +10,7 @@ fonts {
   filename: "RedactedScript-Regular.ttf"
   post_script_name: "RedactedScriptRegular"
   full_name: "Redacted Script Regular"
-  copyright: "Copyright (c) 2013, Christian Naths (christiannaths@gmail.com christiannaths.com)"
+  copyright: "Copyright  2013 Christian Naths. All rights reserved."
 }
 fonts {
   name: "Redacted Script"
@@ -19,7 +19,6 @@ fonts {
   filename: "RedactedScript-Bold.ttf"
   post_script_name: "RedactedScriptBold"
   full_name: "Redacted Script Bold"
-  copyright: "Copyright (c) 2013, Christian Naths (christiannaths@gmail.com christiannaths.com)"
+  copyright: "Copyright  2013 Christian Naths. All rights reserved."
 }
 subsets: "menu"
-subsets: "latin"

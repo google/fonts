@@ -10,8 +10,8 @@ fonts {
   filename: "Oldenburg-Regular.ttf"
   post_script_name: "Oldenburg-Regular"
   full_name: "Oldenburg"
-  copyright: "Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name Oldenburgh."
+  copyright: "Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Oldenburgh."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

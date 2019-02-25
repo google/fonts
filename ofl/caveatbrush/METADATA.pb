@@ -12,6 +12,6 @@ fonts {
   full_name: "Caveat Brush"
   copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

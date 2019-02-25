@@ -13,4 +13,5 @@ fonts {
   copyright: "Copyright (c) 2011 by Ralph du Carrois, with Reserved Font Name \'Carrois\'"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"

@@ -12,6 +12,6 @@ fonts {
   full_name: "Felipa"
   copyright: "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name \"Felipa\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

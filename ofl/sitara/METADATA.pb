@@ -39,7 +39,6 @@ fonts {
   full_name: "Sitara Bold Italic"
   copyright: "Copyright (c) 2014, Neelakash Kshetrimayum (github.com/Neelakash/sitara). Copyright 2013, Google Corporation."
 }
-subsets: "menu"
 subsets: "devanagari"
-subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

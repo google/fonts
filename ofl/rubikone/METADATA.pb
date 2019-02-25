@@ -12,7 +12,8 @@ fonts {
   full_name: "Rubik One Regular"
   copyright: "Copyright (c) 2013, 2014, Hubert and Fischer, Philipp Hubert (philipp@hubertfischer.com), Sebastian Fischer (sebastian@hubertfischer.com)"
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

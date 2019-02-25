@@ -66,6 +66,5 @@ fonts {
   full_name: "Mada Black"
   copyright: "Copyright  2015-2016 The Mada Project Authors, with Reserved Font Name \"Source\". Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
 }
-subsets: "arabic"
 subsets: "latin"
 subsets: "menu"

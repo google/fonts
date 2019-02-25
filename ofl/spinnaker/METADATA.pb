@@ -10,8 +10,8 @@ fonts {
   filename: "Spinnaker-Regular.ttf"
   post_script_name: "Spinnaker-Regular"
   full_name: "Spinnaker"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Spinnaker\"."
+  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Spinnaker\"."
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

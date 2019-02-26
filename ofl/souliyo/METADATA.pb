@@ -1,10 +1,10 @@
-name: "Souliyo"
+name: "Souliyo Unicode"
 designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-02-25"
 fonts {
-  name: "Souliyo"
+  name: "Souliyo Unicode"
   style: "normal"
   weight: 400
   filename: "Souliyo-Regular.ttf"

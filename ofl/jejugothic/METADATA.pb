@@ -1,10 +1,10 @@
-name: "Jeju Gothic"
+name: "JejuGothic"
 designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-02-25"
 fonts {
-  name: "Jeju Gothic"
+  name: "JejuGothic"
   style: "normal"
   weight: 400
   filename: "JejuGothic-Regular.ttf"

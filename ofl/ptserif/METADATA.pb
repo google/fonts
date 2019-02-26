@@ -1,10 +1,10 @@
-name: "Web"
+name: "PT Serif"
 designer: "ParaType"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-02-09"
 fonts {
-  name: "Web"
+  name: "PT Serif"
   style: "normal"
   weight: 400
   filename: "PT_Serif-Web-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright  2010 ParaType Ltd. All rights reserved."
 }
 fonts {
-  name: "Web"
+  name: "PT Serif"
   style: "italic"
   weight: 400
   filename: "PT_Serif-Web-Italic.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright  2010 ParaType Ltd. All rights reserved."
 }
 fonts {
-  name: "Web"
+  name: "PT Serif"
   style: "normal"
   weight: 700
   filename: "PT_Serif-Web-Bold.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright  2010 ParaType Ltd. All rights reserved."
 }
 fonts {
-  name: "Web"
+  name: "PT Serif"
   style: "italic"
   weight: 700
   filename: "PT_Serif-Web-BoldItalic.ttf"

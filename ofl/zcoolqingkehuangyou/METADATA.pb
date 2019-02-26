@@ -1,10 +1,10 @@
-name: "ZCOOL Qing Ke Huang You"
+name: "ZCOOL QingKe HuangYou"
 designer: "Zheng Qingke"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-12-05"
 fonts {
-  name: "ZCOOL Qing Ke Huang You"
+  name: "ZCOOL QingKe HuangYou"
   style: "normal"
   weight: 400
   filename: "ZCOOLQingKeHuangYou-Regular.ttf"

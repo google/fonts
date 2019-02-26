@@ -1,10 +1,10 @@
-name: "Mc Laren"
+name: "McLaren"
 designer: "Astigmatic"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-08-13"
 fonts {
-  name: "Mc Laren"
+  name: "McLaren"
   style: "normal"
   weight: 400
   filename: "McLaren-Regular.ttf"

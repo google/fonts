@@ -1,10 +1,10 @@
-name: "Seoul Namsan Condensed"
+name: "SeoulNamsan CL"
 designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-02-25"
 fonts {
-  name: "Seoul Namsan Condensed"
+  name: "SeoulNamsan CL"
   style: "normal"
   weight: 300
   filename: "SeoulNamsanCondensed-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "COPYRIGHT  2011 Seoul Metropolitan Government. All rights reserved. Font designed by TypoDesign lab.inc."
 }
 fonts {
-  name: "Seoul Namsan Condensed"
+  name: "SeoulNamsan CL"
   style: "normal"
   weight: 500
   filename: "SeoulNamsanCondensed-Medium.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "COPYRIGHT  2011 Seoul Metropolitan Government. All rights reserved. Font designed by TypoDesign lab.inc."
 }
 fonts {
-  name: "Seoul Namsan Condensed"
+  name: "SeoulNamsan CL"
   style: "normal"
   weight: 700
   filename: "SeoulNamsanCondensed-Bold.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "COPYRIGHT  2011 Seoul Metropolitan Government. All rights reserved. Font designed by TypoDesign lab.inc."
 }
 fonts {
-  name: "Seoul Namsan Condensed"
+  name: "SeoulNamsan CL"
   style: "normal"
   weight: 800
   filename: "SeoulNamsanCondensed-ExtraBold.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "COPYRIGHT  2011 Seoul Metropolitan Government. All rights reserved. Font designed by TypoDesign lab.inc."
 }
 fonts {
-  name: "Seoul Namsan Condensed"
+  name: "SeoulNamsan CL"
   style: "normal"
   weight: 900
   filename: "SeoulNamsanCondensed-Black.ttf"

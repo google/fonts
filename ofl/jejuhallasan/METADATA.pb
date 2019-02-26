@@ -1,10 +1,10 @@
-name: "Jeju Hallasan"
+name: "JejuHallasan"
 designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-02-25"
 fonts {
-  name: "Jeju Hallasan"
+  name: "JejuHallasan"
   style: "normal"
   weight: 400
   filename: "JejuHallasan-Regular.ttf"

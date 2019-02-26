@@ -1,10 +1,10 @@
-name: "Headland One"
+name: "HeadlandOne"
 designer: "Gary Lonergan"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-05-09"
 fonts {
-  name: "Headland One"
+  name: "HeadlandOne"
   style: "normal"
   weight: 400
   filename: "HeadlandOne-Regular.ttf"

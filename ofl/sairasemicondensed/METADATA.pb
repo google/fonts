@@ -1,10 +1,10 @@
-name: "Saira Semi Condensed"
+name: "Saira SemiCondensed"
 designer: "Omnibus-Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-12-03"
 fonts {
-  name: "Saira Semi Condensed"
+  name: "Saira SemiCondensed"
   style: "normal"
   weight: 100
   filename: "SairaSemiCondensed-Thin.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
 }
 fonts {
-  name: "Saira Semi Condensed"
+  name: "Saira SemiCondensed"
   style: "normal"
   weight: 200
   filename: "SairaSemiCondensed-ExtraLight.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
 }
 fonts {
-  name: "Saira Semi Condensed"
+  name: "Saira SemiCondensed"
   style: "normal"
   weight: 300
   filename: "SairaSemiCondensed-Light.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
 }
 fonts {
-  name: "Saira Semi Condensed"
+  name: "Saira SemiCondensed"
   style: "normal"
   weight: 400
   filename: "SairaSemiCondensed-Regular.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
 }
 fonts {
-  name: "Saira Semi Condensed"
+  name: "Saira SemiCondensed"
   style: "normal"
   weight: 500
   filename: "SairaSemiCondensed-Medium.ttf"
@@ -49,7 +49,7 @@ fonts {
   copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
 }
 fonts {
-  name: "Saira Semi Condensed"
+  name: "Saira SemiCondensed"
   style: "normal"
   weight: 600
   filename: "SairaSemiCondensed-SemiBold.ttf"
@@ -58,7 +58,7 @@ fonts {
   copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
 }
 fonts {
-  name: "Saira Semi Condensed"
+  name: "Saira SemiCondensed"
   style: "normal"
   weight: 700
   filename: "SairaSemiCondensed-Bold.ttf"
@@ -67,7 +67,7 @@ fonts {
   copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
 }
 fonts {
-  name: "Saira Semi Condensed"
+  name: "Saira SemiCondensed"
   style: "normal"
   weight: 800
   filename: "SairaSemiCondensed-ExtraBold.ttf"
@@ -76,7 +76,7 @@ fonts {
   copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
 }
 fonts {
-  name: "Saira Semi Condensed"
+  name: "Saira SemiCondensed"
   style: "normal"
   weight: 900
   filename: "SairaSemiCondensed-Black.ttf"

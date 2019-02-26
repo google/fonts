@@ -1,10 +1,10 @@
-name: "Post No Bills Colombo"
+name: "Post No Bills Colombo Light"
 designer: "Mooniak"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2017-02-20"
 fonts {
-  name: "Post No Bills Colombo"
+  name: "Post No Bills Colombo Light"
   style: "normal"
   weight: 300
   filename: "PostNoBillsColombo-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Colombo"
+  name: "Post No Bills Colombo Light"
   style: "normal"
   weight: 400
   filename: "PostNoBillsColombo-Regular.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Colombo"
+  name: "Post No Bills Colombo Light"
   style: "normal"
   weight: 500
   filename: "PostNoBillsColombo-Medium.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Colombo"
+  name: "Post No Bills Colombo Light"
   style: "normal"
   weight: 600
   filename: "PostNoBillsColombo-SemiBold.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Colombo"
+  name: "Post No Bills Colombo Light"
   style: "normal"
   weight: 700
   filename: "PostNoBillsColombo-Bold.ttf"
@@ -49,7 +49,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Colombo"
+  name: "Post No Bills Colombo Light"
   style: "normal"
   weight: 800
   filename: "PostNoBillsColombo-ExtraBold.ttf"

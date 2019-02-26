@@ -1,10 +1,10 @@
-name: "Terminal Dosis"
+name: "Dosis"
 designer: "Impallari Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-09-28"
 fonts {
-  name: "Terminal Dosis"
+  name: "Dosis"
   style: "normal"
   weight: 200
   filename: "TerminalDosis-ExtraLight.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
-  name: "Terminal Dosis"
+  name: "Dosis"
   style: "normal"
   weight: 300
   filename: "TerminalDosis-Light.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
-  name: "Terminal Dosis"
+  name: "Dosis"
   style: "normal"
   weight: 400
   filename: "TerminalDosis-Regular.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
-  name: "Terminal Dosis"
+  name: "Dosis"
   style: "normal"
   weight: 500
   filename: "TerminalDosis-Medium.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
-  name: "Terminal Dosis"
+  name: "Dosis"
   style: "normal"
   weight: 600
   filename: "TerminalDosis-SemiBold.ttf"
@@ -49,7 +49,7 @@ fonts {
   copyright: "Copyright (c) 2011, Edgar Tolentino, Pablo Impallari, Igino Marini (impallari.com), with Reserved Font Name Dosis."
 }
 fonts {
-  name: "Terminal Dosis"
+  name: "Dosis"
   style: "normal"
   weight: 700
   filename: "TerminalDosis-Bold.ttf"
@@ -58,7 +58,7 @@ fonts {
   copyright: "Copyright (c) 2011 by EdgarTolentino, PabloImpallari, IginoMarini. All rights reserved."
 }
 fonts {
-  name: "Terminal Dosis"
+  name: "Dosis"
   style: "normal"
   weight: 800
   filename: "TerminalDosis-ExtraBold.ttf"

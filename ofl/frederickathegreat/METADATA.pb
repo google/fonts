@@ -1,10 +1,10 @@
-name: "Frederickathe Great"
+name: "Fredericka the Great"
 designer: "Tart Workshop"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-12-19"
 fonts {
-  name: "Frederickathe Great"
+  name: "Fredericka the Great"
   style: "normal"
   weight: 400
   filename: "FrederickatheGreat-Regular.ttf"

@@ -1,10 +1,10 @@
-name: "Unifraktur Cook"
+name: "UnifrakturCook"
 designer: "j. \'mach\' wust"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2010-12-07"
 fonts {
-  name: "Unifraktur Cook"
+  name: "UnifrakturCook"
   style: "normal"
   weight: 700
   filename: "UnifrakturCook-Bold.ttf"

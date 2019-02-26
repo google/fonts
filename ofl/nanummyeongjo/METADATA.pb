@@ -1,10 +1,10 @@
-name: "Nanum Myeongjo"
+name: "NanumMyeongjo"
 designer: "Sandoll Communication"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-05-09"
 fonts {
-  name: "Nanum Myeongjo"
+  name: "NanumMyeongjo"
   style: "normal"
   weight: 400
   filename: "NanumMyeongjo-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright  2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
 }
 fonts {
-  name: "Nanum Myeongjo"
+  name: "NanumMyeongjo"
   style: "normal"
   weight: 700
   filename: "NanumMyeongjo-Bold.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright  2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
 }
 fonts {
-  name: "Nanum Myeongjo"
+  name: "NanumMyeongjo"
   style: "normal"
   weight: 800
   filename: "NanumMyeongjo-ExtraBold.ttf"

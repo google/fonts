@@ -1,10 +1,10 @@
-name: "Nanum Gothic"
+name: "NanumGothic"
 designer: "Sandoll Communication"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-05-09"
 fonts {
-  name: "Nanum Gothic"
+  name: "NanumGothic"
   style: "normal"
   weight: 400
   filename: "NanumGothic-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 fonts {
-  name: "Nanum Gothic"
+  name: "NanumGothic"
   style: "normal"
   weight: 700
   filename: "NanumGothic-Bold.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright  2011 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 fonts {
-  name: "Nanum Gothic"
+  name: "NanumGothic"
   style: "normal"
   weight: 800
   filename: "NanumGothic-ExtraBold.ttf"

@@ -1,10 +1,10 @@
-name: "Web"
+name: "PT Serif Caption"
 designer: "ParaType"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-02-09"
 fonts {
-  name: "Web"
+  name: "PT Serif Caption"
   style: "normal"
   weight: 400
   filename: "PT_Serif-Caption-Web-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright  2010 ParaType Ltd. All rights reserved."
 }
 fonts {
-  name: "Web"
+  name: "PT Serif Caption"
   style: "italic"
   weight: 400
   filename: "PT_Serif-Caption-Web-Italic.ttf"

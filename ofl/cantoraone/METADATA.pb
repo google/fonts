@@ -1,10 +1,10 @@
-name: "Cantora One"
+name: "CantoraOne"
 designer: "Impallari Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-07-30"
 fonts {
-  name: "Cantora One"
+  name: "CantoraOne"
   style: "normal"
   weight: 400
   filename: "CantoraOne-Regular.ttf"

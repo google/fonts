@@ -1,10 +1,10 @@
-name: "Gemunu Libre"
+name: "Gemunu Libre ExtraLight"
 designer: "Mooniak"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-05-29"
 fonts {
-  name: "Gemunu Libre"
+  name: "Gemunu Libre ExtraLight"
   style: "normal"
   weight: 200
   filename: "GemunuLibre-ExtraLight.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
-  name: "Gemunu Libre"
+  name: "Gemunu Libre ExtraLight"
   style: "normal"
   weight: 300
   filename: "GemunuLibre-Light.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
-  name: "Gemunu Libre"
+  name: "Gemunu Libre ExtraLight"
   style: "normal"
   weight: 400
   filename: "GemunuLibre-Regular.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
-  name: "Gemunu Libre"
+  name: "Gemunu Libre ExtraLight"
   style: "normal"
   weight: 500
   filename: "GemunuLibre-Medium.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
-  name: "Gemunu Libre"
+  name: "Gemunu Libre ExtraLight"
   style: "normal"
   weight: 600
   filename: "GemunuLibre-SemiBold.ttf"
@@ -49,7 +49,7 @@ fonts {
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
-  name: "Gemunu Libre"
+  name: "Gemunu Libre ExtraLight"
   style: "normal"
   weight: 700
   filename: "GemunuLibre-Bold.ttf"
@@ -58,7 +58,7 @@ fonts {
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
 fonts {
-  name: "Gemunu Libre"
+  name: "Gemunu Libre ExtraLight"
   style: "normal"
   weight: 800
   filename: "GemunuLibre-ExtraBold.ttf"

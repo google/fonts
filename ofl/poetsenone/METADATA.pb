@@ -1,10 +1,10 @@
-name: "Poetsen One"
+name: "PoetsenOne"
 designer: "Rodrigo Fuenzalida, Pablo Impallari"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-09-07"
 fonts {
-  name: "Poetsen One"
+  name: "PoetsenOne"
   style: "normal"
   weight: 400
   filename: "PoetsenOne-Regular.ttf"

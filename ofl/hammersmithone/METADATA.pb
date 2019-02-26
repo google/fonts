@@ -1,10 +1,10 @@
-name: "Hammersmith One"
+name: "HammersmithOne"
 designer: "Nicole Fally"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-06-29"
 fonts {
-  name: "Hammersmith One"
+  name: "HammersmithOne"
   style: "normal"
   weight: 400
   filename: "HammersmithOne-Regular.ttf"

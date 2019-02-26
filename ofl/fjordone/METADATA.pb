@@ -1,10 +1,10 @@
-name: "Fjord One"
+name: "Fjord"
 designer: "Viktoriya Grabowska"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-11-02"
 fonts {
-  name: "Fjord One"
+  name: "Fjord"
   style: "normal"
   weight: 400
   filename: "FjordOne-Regular.ttf"

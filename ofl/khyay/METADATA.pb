@@ -1,10 +1,10 @@
-name: "Khyay"
+name: "Myanmar Khyay"
 designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-02-25"
 fonts {
-  name: "Khyay"
+  name: "Myanmar Khyay"
   style: "normal"
   weight: 400
   filename: "Khyay-Regular.ttf"

@@ -1,10 +1,10 @@
-name: "Sansation"
+name: "Sansation Light"
 designer: "Bernd Montag"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-10-18"
 fonts {
-  name: "Sansation"
+  name: "Sansation Light"
   style: "normal"
   weight: 300
   filename: "Sansation-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name \'Sansation\'"
 }
 fonts {
-  name: "Sansation"
+  name: "Sansation Light"
   style: "italic"
   weight: 300
   filename: "Sansation-LightItalic.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name \'Sansation\'"
 }
 fonts {
-  name: "Sansation"
+  name: "Sansation Light"
   style: "normal"
   weight: 400
   filename: "Sansation-Regular.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name \'Sansation\'"
 }
 fonts {
-  name: "Sansation"
+  name: "Sansation Light"
   style: "italic"
   weight: 400
   filename: "Sansation-Italic.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name \'Sansation\'"
 }
 fonts {
-  name: "Sansation"
+  name: "Sansation Light"
   style: "normal"
   weight: 700
   filename: "Sansation-Bold.ttf"
@@ -49,7 +49,7 @@ fonts {
   copyright: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name \'Sansation\'"
 }
 fonts {
-  name: "Sansation"
+  name: "Sansation Light"
   style: "italic"
   weight: 700
   filename: "Sansation-BoldItalic.ttf"

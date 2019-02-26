@@ -1,10 +1,10 @@
-name: "Post No Bills Jaffna"
+name: "Post No Bills Jaffna Light"
 designer: "Mooniak"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2017-02-20"
 fonts {
-  name: "Post No Bills Jaffna"
+  name: "Post No Bills Jaffna Light"
   style: "normal"
   weight: 300
   filename: "PostNoBillsJaffna-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Jaffna"
+  name: "Post No Bills Jaffna Light"
   style: "normal"
   weight: 400
   filename: "PostNoBillsJaffna-Regular.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Jaffna"
+  name: "Post No Bills Jaffna Light"
   style: "normal"
   weight: 500
   filename: "PostNoBillsJaffna-Medium.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Jaffna"
+  name: "Post No Bills Jaffna Light"
   style: "normal"
   weight: 600
   filename: "PostNoBillsJaffna-SemiBold.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Jaffna"
+  name: "Post No Bills Jaffna Light"
   style: "normal"
   weight: 700
   filename: "PostNoBillsJaffna-Bold.ttf"
@@ -49,7 +49,7 @@ fonts {
   copyright: "Copyright (c) 2013-2015 Gall Productions Pvt. Ltd (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)"
 }
 fonts {
-  name: "Post No Bills Jaffna"
+  name: "Post No Bills Jaffna Light"
   style: "normal"
   weight: 800
   filename: "PostNoBillsJaffna-ExtraBold.ttf"

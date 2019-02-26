@@ -1,10 +1,10 @@
-name: "Ko Pub Batang"
+name: "KoPub Batang"
 designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-02-25"
 fonts {
-  name: "Ko Pub Batang"
+  name: "KoPub Batang"
   style: "normal"
   weight: 300
   filename: "KoPubBatang-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2005-2011 FONTRIX. All Rights Reserved."
 }
 fonts {
-  name: "Ko Pub Batang"
+  name: "KoPub Batang"
   style: "normal"
   weight: 400
   filename: "KoPubBatang-Regular.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 2005-2011 FONTRIX. All Rights Reserved."
 }
 fonts {
-  name: "Ko Pub Batang"
+  name: "KoPub Batang"
   style: "normal"
   weight: 700
   filename: "KoPubBatang-Bold.ttf"

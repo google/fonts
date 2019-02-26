@@ -1,10 +1,10 @@
-name: "Yaldevi Colombo"
+name: "Yaldevi Colombo ExtraLight"
 designer: "Mooniak"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-02-20"
 fonts {
-  name: "Yaldevi Colombo"
+  name: "Yaldevi Colombo ExtraLight"
   style: "normal"
   weight: 200
   filename: "YaldeviColombo-ExtraLight.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2015-2016 Mooniak (hello@mooniak.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar)"
 }
 fonts {
-  name: "Yaldevi Colombo"
+  name: "Yaldevi Colombo ExtraLight"
   style: "normal"
   weight: 300
   filename: "YaldeviColombo-Light.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 2015-2016 Mooniak (hello@mooniak.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar)"
 }
 fonts {
-  name: "Yaldevi Colombo"
+  name: "Yaldevi Colombo ExtraLight"
   style: "normal"
   weight: 400
   filename: "YaldeviColombo-Regular.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright (c) 2015-2016 Mooniak (hello@mooniak.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar)"
 }
 fonts {
-  name: "Yaldevi Colombo"
+  name: "Yaldevi Colombo ExtraLight"
   style: "normal"
   weight: 500
   filename: "YaldeviColombo-Medium.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright (c) 2015-2016 Mooniak (hello@mooniak.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar)"
 }
 fonts {
-  name: "Yaldevi Colombo"
+  name: "Yaldevi Colombo ExtraLight"
   style: "normal"
   weight: 600
   filename: "YaldeviColombo-SemiBold.ttf"
@@ -49,7 +49,7 @@ fonts {
   copyright: "Copyright (c) 2015-2016 Mooniak (hello@mooniak.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar)"
 }
 fonts {
-  name: "Yaldevi Colombo"
+  name: "Yaldevi Colombo ExtraLight"
   style: "normal"
   weight: 700
   filename: "YaldeviColombo-Bold.ttf"

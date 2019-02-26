@@ -1,10 +1,10 @@
-name: "Pompiere"
+name: "Pompiere "
 designer: "Karolina Lach"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-20"
 fonts {
-  name: "Pompiere"
+  name: "Pompiere "
   style: "normal"
   weight: 400
   filename: "Pompiere-Regular.ttf"

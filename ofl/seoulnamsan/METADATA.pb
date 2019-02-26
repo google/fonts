@@ -1,10 +1,10 @@
-name: "Seoul Namsan"
+name: "SeoulNamsan"
 designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-02-25"
 fonts {
-  name: "Seoul Namsan"
+  name: "SeoulNamsan"
   style: "normal"
   weight: 300
   filename: "SeoulNamsan-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright(c)2009. Seoul Metropolitan Government. All rights reserved."
 }
 fonts {
-  name: "Seoul Namsan"
+  name: "SeoulNamsan"
   style: "normal"
   weight: 500
   filename: "SeoulNamsan-Medium.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright(c)2008-2009. Seoul Metropolitan Government. All rights reserved."
 }
 fonts {
-  name: "Seoul Namsan"
+  name: "SeoulNamsan"
   style: "normal"
   weight: 700
   filename: "SeoulNamsan-Bold.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright(c)2008-2009. Seoul Metropolitan Government. All rights reserved."
 }
 fonts {
-  name: "Seoul Namsan"
+  name: "SeoulNamsan"
   style: "normal"
   weight: 800
   filename: "SeoulNamsan-ExtraBold.ttf"

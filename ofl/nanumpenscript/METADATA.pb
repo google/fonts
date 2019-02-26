@@ -1,10 +1,10 @@
-name: "Nanum Pen Script"
+name: "Nanum Pen"
 designer: "Sandoll Communication"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-05-09"
 fonts {
-  name: "Nanum Pen Script"
+  name: "Nanum Pen"
   style: "normal"
   weight: 400
   filename: "NanumPenScript-Regular.ttf"

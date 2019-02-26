@@ -1,10 +1,10 @@
-name: "Supermercado One"
+name: "Supermercado"
 designer: "James Grieshaber"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-11-02"
 fonts {
-  name: "Supermercado One"
+  name: "Supermercado"
   style: "normal"
   weight: 400
   filename: "SupermercadoOne-Regular.ttf"

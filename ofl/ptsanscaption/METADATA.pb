@@ -1,10 +1,10 @@
-name: "Web"
+name: "PT Sans Caption"
 designer: "ParaType"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2010-09-21"
 fonts {
-  name: "Web"
+  name: "PT Sans Caption"
   style: "normal"
   weight: 400
   filename: "PT_Sans-Caption-Web-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright  2009 ParaType Ltd. All rights reserved."
 }
 fonts {
-  name: "Web"
+  name: "PT Sans Caption"
   style: "normal"
   weight: 700
   filename: "PT_Sans-Caption-Web-Bold.ttf"

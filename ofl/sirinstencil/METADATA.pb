@@ -1,10 +1,10 @@
-name: "Sirin Stencil"
+name: "SirinStencil"
 designer: "Cyreal"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-01-18"
 fonts {
-  name: "Sirin Stencil"
+  name: "SirinStencil"
   style: "normal"
   weight: 400
   filename: "SirinStencil-Regular.ttf"

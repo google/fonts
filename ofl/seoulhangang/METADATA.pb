@@ -1,10 +1,10 @@
-name: "Seoul Hangang"
+name: "SeoulHangang"
 designer: "UNKNOWN"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-02-25"
 fonts {
-  name: "Seoul Hangang"
+  name: "SeoulHangang"
   style: "normal"
   weight: 300
   filename: "SeoulHangang-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright(c)2009. Seoul Metropolitan Government. All rights reserved."
 }
 fonts {
-  name: "Seoul Hangang"
+  name: "SeoulHangang"
   style: "normal"
   weight: 500
   filename: "SeoulHangang-Medium.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright(c)2009. Seoul Metropolitan Government. All rights reserved."
 }
 fonts {
-  name: "Seoul Hangang"
+  name: "SeoulHangang"
   style: "normal"
   weight: 700
   filename: "SeoulHangang-Bold.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright(c)2010. Seoul Metropolitan Government. All rights reserved."
 }
 fonts {
-  name: "Seoul Hangang"
+  name: "SeoulHangang"
   style: "normal"
   weight: 800
   filename: "SeoulHangang-ExtraBold.ttf"

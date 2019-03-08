@@ -10,7 +10,7 @@ fonts {
   filename: "BethEllen-Regular.ttf"
   post_script_name: "BethEllen-Regular"
   full_name: "Beth Ellen Regular"
-  copyright: "Copyright 2018 The Beth Ellen Project Authors (https://github.com/felipesanches/BethEllen)"
+  copyright: "Copyright 2018 The Beth Ellen Project Authors (https://github.com/googlefonts/BethEllen)"
 }
 subsets: "latin"
 subsets: "menu"

@@ -6,38 +6,28 @@ date_added: "2011-09-07"
 fonts {
   name: "Rosario"
   style: "normal"
-  weight: 400
-  filename: "Rosario-Regular.ttf"
+  weight: 300
+  filename: "Rosario-Light.ttf"
   post_script_name: "Rosario-Regular"
-  full_name: "Rosario"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name 'Rosario'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
+  full_name: "Rosario Regular"
+  copyright: "Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)"
 }
 fonts {
   name: "Rosario"
   style: "italic"
-  weight: 400
-  filename: "Rosario-Italic.ttf"
+  weight: 300
+  filename: "Rosario-LightItalic.ttf"
   post_script_name: "Rosario-Italic"
   full_name: "Rosario Italic"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name 'Rosario'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
+  copyright: "Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)"
 }
-fonts {
-  name: "Rosario"
-  style: "normal"
-  weight: 700
-  filename: "Rosario-Bold.ttf"
-  post_script_name: "Rosario-Bold"
-  full_name: "Rosario Bold"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name 'Rosario'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
-}
-fonts {
-  name: "Rosario"
-  style: "italic"
-  weight: 700
-  filename: "Rosario-BoldItalic.ttf"
-  post_script_name: "Rosario-BoldItalic"
-  full_name: "Rosario Bold Italic"
-  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name 'Rosario'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved."
-}
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 300.0
+  default_value: 400.0
+  max_value: 700.0
+}

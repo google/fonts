@@ -1,7 +1,7 @@
 name: "Beth Ellen"
 designer: "Rob Jelinski"
 license: "OFL"
-category: "SANS_SERIF"
+category: "HANDWRITING"
 date_added: "2019-03-06"
 fonts {
   name: "Beth Ellen"

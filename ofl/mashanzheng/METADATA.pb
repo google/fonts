@@ -1,8 +1,8 @@
 name: "MaShanZheng"
-designer: "ZhongQi"
+designer: "Ma ShanZheng"
 license: "OFL"
 category: "HANDWRITING"
-date_added: "2019-02-15"
+date_added: "2019-03-18"
 fonts {
   name: "MaShanZheng"
   style: "normal"
@@ -12,6 +12,6 @@ fonts {
   full_name: "MaShanZheng Regular"
   copyright: "Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)"
 }
-subsets: "japanese"
+subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"

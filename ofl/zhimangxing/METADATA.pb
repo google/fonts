@@ -1,8 +1,8 @@
 name: "ZhiMangXing"
-designer: "ZhongQi"
+designer: "Wei Zhimang"
 license: "OFL"
 category: "HANDWRITING"
-date_added: "2019-02-20"
+date_added: "2019-03-18"
 fonts {
   name: "ZhiMangXing"
   style: "normal"
@@ -12,6 +12,6 @@ fonts {
   full_name: "ZhiMangXing Regular"
   copyright: "Copyright 2018 The ZhiMangXing Project Authors (https://github.com/googlefonts/zhimangxing)"
 }
-subsets: "japanese"
+subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"

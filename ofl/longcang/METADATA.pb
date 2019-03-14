@@ -1,8 +1,8 @@
 name: "LongCang"
-designer: "ZhongQi"
+designer: "Chen Xiaomin"
 license: "OFL"
 category: "HANDWRITING"
-date_added: "2019-02-13"
+date_added: "2019-03-18"
 fonts {
   name: "LongCang"
   style: "normal"
@@ -12,6 +12,6 @@ fonts {
   full_name: "LongCang Regular"
   copyright: "Copyright 2018 The LongCang Project Authors (https://github.com/googlefonts/longcang)"
 }
-subsets: "japanese"
+subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"

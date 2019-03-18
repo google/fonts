@@ -9,10 +9,10 @@ fonts {
   weight: 400
   filename: "PatrickHandSC-Regular.ttf"
   post_script_name: "PatrickHandSC-Regular"
-  full_name: "Patrick Hand SC"
-  copyright: "Copyright (c) 2010-2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)"
+  full_name: "Patrick Hand SC Regular"
+  copyright: "Copyright 2012 The Patrick Hand Authors (mail@patrickwagesreiter.at)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"

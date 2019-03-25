@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "TitilliumWeb-Regular.ttf"
   post_script_name: "TitilliumWeb-Regular"
-  full_name: "Titilliumweb Regular"
+  full_name: "Titillium Web Regular"
   copyright: "Copyright 2019 The Titillium Web VF Project Authors (https://github.com/eliheuer/titillium-web-vf)"
 }
 fonts {
@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "TitilliumWeb-Italic.ttf"
   post_script_name: "TitilliumWeb-Italic"
-  full_name: "TitilliumWeb Italic"
+  full_name: "Titillium Web Italic"
   copyright: "Copyright 2019 The Titillium Web VF Project Authors (https://github.com/eliheuer/titillium-web-vf)"
 }
 subsets: "arabic"

@@ -7,7 +7,7 @@ fonts {
   name: "Titillium Web"
   style: "normal"
   weight: 400
-  filename: "TitilliumWeb-Regular.ttf"
+  filename: "TitilliumWeb[wght].ttf"
   post_script_name: "TitilliumWeb-Regular"
   full_name: "Titillium Web Regular"
   copyright: "Copyright 2019 The Titillium Web VF Project Authors (https://github.com/eliheuer/titillium-web-vf)"
@@ -16,7 +16,7 @@ fonts {
   name: "Titillium Web"
   style: "italic"
   weight: 400
-  filename: "TitilliumWeb-Italic.ttf"
+  filename: "TitilliumWeb-Italic[wght].ttf"
   post_script_name: "TitilliumWeb-Italic"
   full_name: "Titillium Web Italic"
   copyright: "Copyright 2019 The Titillium Web VF Project Authors (https://github.com/eliheuer/titillium-web-vf)"

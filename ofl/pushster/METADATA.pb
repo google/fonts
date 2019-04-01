@@ -10,7 +10,7 @@ fonts {
   filename: "Pushster-Regular.ttf"
   post_script_name: "Pushster-Regular"
   full_name: "Pushster Regular"
-  copyright: "Copyright 2010 The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font), with Reserved Font Name \"Lobster\".2"
+  copyright: "Copyright 2010 The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font), with Reserved Font Name \"Lobster\".3"
 }
 subsets: "latin"
 subsets: "latin-ext"

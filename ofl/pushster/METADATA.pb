@@ -2,7 +2,7 @@ name: "Pushster"
 designer: "Andyj"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2019-03-29"
+date_added: "2019-04-01"
 fonts {
   name: "Pushster"
   style: "normal"

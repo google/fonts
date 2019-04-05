@@ -10,7 +10,7 @@ fonts {
   filename: "Poppins-Thin.ttf"
   post_script_name: "Poppins-Thin"
   full_name: "Poppins Thin"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -19,7 +19,7 @@ fonts {
   filename: "Poppins-ThinItalic.ttf"
   post_script_name: "Poppins-ThinItalic"
   full_name: "Poppins Thin Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -28,7 +28,7 @@ fonts {
   filename: "Poppins-ExtraLight.ttf"
   post_script_name: "Poppins-ExtraLight"
   full_name: "Poppins ExtraLight"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -37,7 +37,7 @@ fonts {
   filename: "Poppins-ExtraLightItalic.ttf"
   post_script_name: "Poppins-ExtraLightItalic"
   full_name: "Poppins ExtraLight Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -46,7 +46,7 @@ fonts {
   filename: "Poppins-Light.ttf"
   post_script_name: "Poppins-Light"
   full_name: "Poppins Light"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -55,7 +55,7 @@ fonts {
   filename: "Poppins-LightItalic.ttf"
   post_script_name: "Poppins-LightItalic"
   full_name: "Poppins Light Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -64,7 +64,7 @@ fonts {
   filename: "Poppins-Regular.ttf"
   post_script_name: "Poppins-Regular"
   full_name: "Poppins Regular"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -73,7 +73,7 @@ fonts {
   filename: "Poppins-Italic.ttf"
   post_script_name: "Poppins-Italic"
   full_name: "Poppins Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -82,7 +82,7 @@ fonts {
   filename: "Poppins-Medium.ttf"
   post_script_name: "Poppins-Medium"
   full_name: "Poppins Medium"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -91,7 +91,7 @@ fonts {
   filename: "Poppins-MediumItalic.ttf"
   post_script_name: "Poppins-MediumItalic"
   full_name: "Poppins Medium Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -100,7 +100,7 @@ fonts {
   filename: "Poppins-SemiBold.ttf"
   post_script_name: "Poppins-SemiBold"
   full_name: "Poppins SemiBold"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -109,7 +109,7 @@ fonts {
   filename: "Poppins-SemiBoldItalic.ttf"
   post_script_name: "Poppins-SemiBoldItalic"
   full_name: "Poppins SemiBold Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -118,7 +118,7 @@ fonts {
   filename: "Poppins-Bold.ttf"
   post_script_name: "Poppins-Bold"
   full_name: "Poppins Bold"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -127,7 +127,7 @@ fonts {
   filename: "Poppins-BoldItalic.ttf"
   post_script_name: "Poppins-BoldItalic"
   full_name: "Poppins Bold Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -136,7 +136,7 @@ fonts {
   filename: "Poppins-ExtraBold.ttf"
   post_script_name: "Poppins-ExtraBold"
   full_name: "Poppins ExtraBold"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -145,7 +145,7 @@ fonts {
   filename: "Poppins-ExtraBoldItalic.ttf"
   post_script_name: "Poppins-ExtraBoldItalic"
   full_name: "Poppins ExtraBold Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -154,7 +154,7 @@ fonts {
   filename: "Poppins-Black.ttf"
   post_script_name: "Poppins-Black"
   full_name: "Poppins Black"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
   name: "Poppins"
@@ -163,9 +163,8 @@ fonts {
   filename: "Poppins-BlackItalic.ttf"
   post_script_name: "Poppins-BlackItalic"
   full_name: "Poppins Black Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

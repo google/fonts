@@ -19,7 +19,7 @@ fonts {
   filename: "Merriweather-LightItalic.ttf"
   post_script_name: "Merriweather-LightItalic"
   full_name: "Merriweather Light Italic"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
+  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name \"Merriweather\"."
 }
 fonts {
   name: "Merriweather"
@@ -37,7 +37,7 @@ fonts {
   filename: "Merriweather-Italic.ttf"
   post_script_name: "Merriweather-Italic"
   full_name: "Merriweather Italic"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
+  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name \"Merriweather\"."
 }
 fonts {
   name: "Merriweather"
@@ -55,7 +55,7 @@ fonts {
   filename: "Merriweather-BoldItalic.ttf"
   post_script_name: "Merriweather-BoldItalic"
   full_name: "Merriweather Bold Italic"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
+  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name \"Merriweather\"."
 }
 fonts {
   name: "Merriweather"
@@ -73,7 +73,7 @@ fonts {
   filename: "Merriweather-BlackItalic.ttf"
   post_script_name: "Merriweather-BlackItalic"
   full_name: "Merriweather Black Italic"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
+  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name \"Merriweather\"."
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

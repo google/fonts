@@ -31,6 +31,5 @@ subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 400.0
-  default_value: 400.0
   max_value: 700.0
 }

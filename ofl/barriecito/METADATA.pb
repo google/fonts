@@ -2,7 +2,7 @@ name: "Barriecito"
 designer: "Omnibus-Type"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2018-09-03"
+date_added: "2019-06-12"
 fonts {
   name: "Barriecito"
   style: "normal"

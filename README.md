@@ -22,9 +22,9 @@ You can download all Google Fonts in a simple ZIP snapshot (over 300MB) from <ht
 
 #### Sync With Git
 
-You can also sync the collection with git so that you can update by only fetching what has changed.
-To learn how to use git, Github provides [illustrated guides](https://guides.github.com) and a [youtube channel](https://www.youtube.com/user/GitHubGuides), and a [learning game that takes just 15 minutes](https://try.github.io). 
+You can also sync the collection with git so that you can update by only fetching what has changed. To learn how to use git, Github provides [illustrated guides](https://guides.github.com) and a [youtube channel](https://www.youtube.com/user/GitHubGuides), and a [learning game that takes just 15 minutes](https://try.github.io). 
 Free, open source git applications are available for [Windows](https://git-scm.com/download/gui/windows) and [Mac OS X](https://git-scm.com/download/gui/mac).
+
 
 ## Licensing
 

@@ -10,7 +10,9 @@ fonts {
   filename: "Metrophobic-Regular.ttf"
   post_script_name: "Metrophobic-Regular"
   full_name: "Metrophobic Regular"
-  copyright: "Copyright 2011 The Metrophobic Project Authors (contact@sansoxygen.com), with Reserved Font Name \'Metrophobic\'."
+  copyright: "Copyright 2011 The Metrophobic Project Authors (https://github.com/googlefonts/MetrophobicFont), with Reserved Font Name \'Metrophobic\'."
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"

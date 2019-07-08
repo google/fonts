@@ -74,6 +74,7 @@ Here is a list of 3rd party directories:
 * <https://lepovirta.github.io/Typographer-React>
 * <https://jmattthew.github.io/better-font-finder/better-font-finder.html>
 * <https://font2vec.vishalgupta.me> ([source](https://github.com/py-ranoid/font2vec)), a 3D projection of all fonts
+* <https://logogenerator.website>
 
 There are also handcrafted directories with rich samples:
 
@@ -112,7 +113,7 @@ Some interesting articles about Google Fonts:
 
 ## Interesting Libre Fonts Not In Google Fonts
 
-Here is a list of some libre fonts made for special purposes (emoij, math, icon, etc) are not available in Google Fonts. 
+Here is a list of some libre fonts made for special purposes (emoij, math, icon, etc) that are not available in Google Fonts. 
 
 * <https://material.io/icons>
 * <https://github.com/figs-lab/datalegreya>

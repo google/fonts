@@ -12,5 +12,5 @@ fonts {
   full_name: "Sue Ellen Francisco"
   copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
-subsets: "latin"
 subsets: "menu"
+subsets: "latin"

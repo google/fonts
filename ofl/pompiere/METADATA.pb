@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Pompiere-Regular.ttf"
   post_script_name: "Pompiere-Regular"
-  full_name: "Pompiere "
+  full_name: "Pompiere"
   copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Pompiere\"."
 }
 subsets: "menu"

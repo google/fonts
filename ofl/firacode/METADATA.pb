@@ -7,7 +7,7 @@ fonts {
   name: "Fira Code"
   style: "normal"
   weight: 300
-  filename: "FiraCode-Light.ttf"
+  filename: "FiraCode[wght].ttf"
   post_script_name: "FiraCode-Light"
   full_name: "Fira Code Light"
   copyright: "Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)"

@@ -46,3 +46,7 @@ fontbakery check-googlefonts \
     -c com.google.fonts/check/165 \
     -c com.google.fonts/check/vttclean \
     $fonts -l FAIL -n
+
+# Run QA tools and send comment to pr
+gftools qa -f 
+gftools qa -f 

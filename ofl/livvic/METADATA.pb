@@ -1,5 +1,5 @@
 name: "Livvic"
-designer: "Jacques Le Bailly, Vernon Adams"
+designer: "LV=, Jacques Le Bailly"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-06-21"

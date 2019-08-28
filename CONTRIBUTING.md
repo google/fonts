@@ -19,6 +19,7 @@ If you would like to include a new font family in the Google Fonts collection, w
 * All font files within the family have the same Unicode character set (unencoded glyphs can differ)  
 * All font files pass the [Font Bakery](https://github.com/googlefonts/fontbakery) google-fonts profile checks.
 * A `README.md` file is included in the root of the source repository, and inside of that file we can read about [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#43cecb44) information, and your github usernames, so that we can prepare a description ([example](https://github.com/google/fonts/blob/master/ofl/poppins/DESCRIPTION.en_us.html)) and link your name to your profile.  
+* Optionally, a direct `DESCRIPTION.en_us.html` file, a `profile.txt` and a `your-name.jpg` avatar image, to be copied into this repo.
 * More detailed design and production details are listed in [github.com/googlefonts/gf-docs/ProjectChecklist](https://github.com/googlefonts/gf-docs/tree/master/ProjectChecklist)  
 
 When you are ready to meet these requirements, please [create a new issue](https://github.com/google/fonts/issues) with a link to the project's source repository.

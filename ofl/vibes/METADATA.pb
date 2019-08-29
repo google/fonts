@@ -1,7 +1,7 @@
 name: "Vibes"
 designer: "AbdElmomen Kadhim (blueMix)"
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2019-04-23"
 fonts {
   name: "Vibes"

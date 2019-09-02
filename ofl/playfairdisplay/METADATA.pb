@@ -1,5 +1,5 @@
 name: "Playfair Display"
-designer: "Claus Eggers S\303\270rensen"
+designer: "Claus Eggers Sørensen"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-11-16"

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+subsets: "tibetan"

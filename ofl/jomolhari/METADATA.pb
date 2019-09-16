@@ -14,4 +14,4 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
-subsets: "tibetan"
+# subsets: "tibetan"  # We don't have a tibetian subset defined yet.

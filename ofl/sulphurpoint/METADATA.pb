@@ -2,7 +2,7 @@ name: "Sulphur Point"
 designer: "Dale Sattler"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: ""
+date_added: "2019-09-25"
 fonts {
   name: "Sulphur Point"
   style: "normal"

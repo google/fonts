@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "ABeeZee-Regular.ttf"
   post_script_name: "ABeeZee-Regular"
-  full_name: "ABeeZee Regular"
+  full_name: "ABeeZee"
   copyright: "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name \'ABeeZee\'"
 }
 fonts {

@@ -1,5 +1,5 @@
 name: "DM Serif Display"
-designer: "Colophon Foundry, Frank Grie\303\237hammer"
+designer: "Colophon Foundry, Frank Grießhammer"
 license: "OFL"
 category: "SERIF"
 date_added: "2019-06-12"

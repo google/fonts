@@ -21,3 +21,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 300.0
+  max_value: 700.0
+}

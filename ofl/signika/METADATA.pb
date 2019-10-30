@@ -7,11 +7,16 @@ fonts {
   name: "Signika"
   style: "normal"
   weight: 300
-  filename: "Signika-Light.ttf"
+  filename: "Signika[wght].ttf"
   post_script_name: "Signika-Light"
   full_name: "Signika Light"
-  copyright: "Copyright 2018 The Signika Project Authors (https://github.com/thundernixon/Signika), with Reserved Font Names 'Signika'."
+  copyright: "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika), with Reserved Font Names \'Signika\'."
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 300.0
+  max_value: 700.0
+}

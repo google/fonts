@@ -6,7 +6,7 @@ date_added: "2019-06-07"
 fonts {
   name: "Public Sans"
   style: "normal"
-  weight: 100
+  weight: 400
   filename: "PublicSans[wght].ttf"
   post_script_name: "PublicSans-Thin"
   full_name: "Public Sans Thin"
@@ -15,7 +15,7 @@ fonts {
 fonts {
   name: "Public Sans"
   style: "italic"
-  weight: 100
+  weight: 400
   filename: "PublicSans-Italic[wght].ttf"
   post_script_name: "PublicSans-ThinItalic"
   full_name: "Public Sans Thin Italic"

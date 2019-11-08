@@ -1,5 +1,5 @@
 name: "EB Garamond"
-designer: "Georg Duffner"
+designer: "Georg Duffner, Octavio Pardo"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-03-23"

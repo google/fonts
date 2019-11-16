@@ -1,5 +1,5 @@
 name: "Major Mono Display"
-designer: "Emre Parlak, Mika LaGattuta"
+designer: "Emre Parlak, Mike LaGattuta"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2018-12-05"

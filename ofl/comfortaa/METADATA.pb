@@ -7,7 +7,7 @@ fonts {
   name: "Comfortaa"
   style: "normal"
   weight: 400
-  filename: "Comfortaa-Regular.ttf"
+  filename: "Comfortaa[wght].ttf"
   post_script_name: "Comfortaa-Regular"
   full_name: "Comfortaa Regular"
   copyright: "Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa), with Reserved Font Name \"Comfortaa\"."

@@ -7,21 +7,17 @@ fonts {
   name: "Dancing Script"
   style: "normal"
   weight: 400
-  filename: "DancingScript-Regular.ttf"
+  filename: "DancingScript[wght].ttf"
   post_script_name: "DancingScript-Regular"
   full_name: "Dancing Script Regular"
-  copyright: "Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com), with Reserved Font Name \'Dancing Script."
-}
-fonts {
-  name: "Dancing Script"
-  style: "normal"
-  weight: 700
-  filename: "DancingScript-Bold.ttf"
-  post_script_name: "DancingScript-Bold"
-  full_name: "Dancing Script Bold"
-  copyright: "Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com), with Reserved Font Name \'Dancing Script."
+  copyright: "Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com), with Reserved Font Name \'Dancing Script\'."
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}

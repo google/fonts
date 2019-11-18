@@ -6,7 +6,7 @@ date_added: "2012-10-31"
 fonts {
   name: "Changa"
   style: "normal"
-  weight: 200
+  weight: 400
   filename: "Changa[wght].ttf"
   post_script_name: "Changa-ExtraLight"
   full_name: "Changa ExtraLight"
@@ -19,6 +19,5 @@ subsets: "menu"
 axes {
   tag: "wght"
   min_value: 200.0
-  default_value: 400.0
   max_value: 800.0
 }

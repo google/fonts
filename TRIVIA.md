@@ -76,6 +76,7 @@ Here is a list of 3rd party directories:
 * <https://font2vec.vishalgupta.me> ([source](https://github.com/py-ranoid/font2vec)), a 3D projection of all fonts
 * <https://logogenerator.website>
 * <http://www.ourownthing.co.uk/fontpairing/>
+* <https://goofonts.com>
 
 There are also handcrafted directories with rich samples:
 

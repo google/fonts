@@ -7,7 +7,7 @@ fonts {
   name: "Crimson Pro"
   style: "normal"
   weight: 200
-  filename: "CrimsonPro-ExtraLight.ttf"
+  filename: "CrimsonPro[wght].ttf"
   post_script_name: "CrimsonPro-ExtraLight"
   full_name: "Crimson Pro ExtraLight"
   copyright: "Copyright 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro)"
@@ -16,7 +16,7 @@ fonts {
   name: "Crimson Pro"
   style: "italic"
   weight: 200
-  filename: "CrimsonPro-ExtraLightItalic.ttf"
+  filename: "CrimsonPro-Italic[wght].ttf"
   post_script_name: "CrimsonPro-ExtraLightItalic"
   full_name: "Crimson Pro ExtraLight Italic"
   copyright: "Copyright 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro)"

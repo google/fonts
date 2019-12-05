@@ -6,7 +6,7 @@ date_added: "2010-05-11"
 fonts {
   name: "Yanone Kaffeesatz"
   style: "normal"
-  weight: 200
+  weight: 400
   filename: "YanoneKaffeesatz[wght].ttf"
   post_script_name: "YanoneKaffeesatz-ExtraLight"
   full_name: "Yanone Kaffeesatz ExtraLight"
@@ -20,6 +20,5 @@ subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 200.0
-  default_value: 200.0
   max_value: 700.0
 }

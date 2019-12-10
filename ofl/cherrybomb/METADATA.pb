@@ -15,4 +15,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "japanese"
 subsets: "vietnamese"

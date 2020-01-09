@@ -1,5 +1,5 @@
 name: "Solway"
-designer: "Mariya V. Pigoulevskaya"
+designer: "Mariya V. Pigoulevskaya, The Northern Block"
 license: "OFL"
 category: "SERIF"
 date_added: "2018-08-06"

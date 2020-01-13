@@ -1,7 +1,7 @@
 name: "Viaoda Libre"
 designer: "Gydient, Vietanh Nguyen"
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2019-11-05"
 fonts {
   name: "Viaoda Libre"

@@ -1,7 +1,7 @@
 name: "Inter"
 designer: "Rasmus Andersson"
 license: "OFL"
-category: "SANS-SERIF"
+category: "SANS_SERIF"
 date_added: "2020-01-24"
 fonts {
   name: "Inter"

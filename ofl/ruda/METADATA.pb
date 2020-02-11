@@ -7,29 +7,18 @@ fonts {
   name: "Ruda"
   style: "normal"
   weight: 400
-  filename: "Ruda-Regular.ttf"
+  filename: "Ruda[wght].ttf"
   post_script_name: "Ruda-Regular"
   full_name: "Ruda Regular"
-  copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), Copyright (c) 2011, Angelina Sanchez (ange_dg@yahoo.com.ar), With Reserved Font Name \"Ruda\""
+  copyright: "Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)"
 }
-fonts {
-  name: "Ruda"
-  style: "normal"
-  weight: 700
-  filename: "Ruda-Bold.ttf"
-  post_script_name: "Ruda-Bold"
-  full_name: "Ruda Bold"
-  copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), Copyright (c) 2011, Angelina Sanchez (ange_dg@yahoo.com.ar), With Reserved Font Name \"Ruda\""
-}
-fonts {
-  name: "Ruda"
-  style: "normal"
-  weight: 900
-  filename: "Ruda-Black.ttf"
-  post_script_name: "Ruda-Black"
-  full_name: "Ruda Black"
-  copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), Copyright (c) 2011, Angelina Sanchez (ange_dg@yahoo.com.ar), With Reserved Font Name \"Ruda\""
-}
+subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 900.0
+}

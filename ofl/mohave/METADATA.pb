@@ -6,7 +6,7 @@ date_added: "2020-01-23"
 fonts {
   name: "Mohave"
   style: "normal"
-  weight: 300
+  weight: 400
   filename: "Mohave[wght].ttf"
   post_script_name: "Mohave-Light"
   full_name: "Mohave Light"
@@ -15,7 +15,7 @@ fonts {
 fonts {
   name: "Mohave"
   style: "italic"
-  weight: 300
+  weight: 400
   filename: "Mohave-Italic[wght].ttf"
   post_script_name: "Mohave-LightItalic"
   full_name: "Mohave Light Italic"

@@ -1,5 +1,5 @@
 name: "Lemonada"
-designer: "Multiple Designers"
+designer: "Mohamed Gaber, Eduardo Tunni"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-20"

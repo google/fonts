@@ -1,5 +1,5 @@
 name: "Caladea"
-designer: "Andrés Torresi, Carolina Giovanolli"
+designer: "Andrés Torresi, Carolina Giovagnoli"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-02-11"

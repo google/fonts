@@ -6,7 +6,7 @@ date_added: "2019-10-03"
 fonts {
   name: "Manrope"
   style: "normal"
-  weight: 200
+  weight: 400
   filename: "Manrope[wght].ttf"
   post_script_name: "Manrope-ExtraLight"
   full_name: "Manrope ExtraLight"
@@ -20,6 +20,5 @@ subsets: "menu"
 axes {
   tag: "wght"
   min_value: 200.0
-  default_value: 200.0
   max_value: 800.0
 }

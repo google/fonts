@@ -19,7 +19,7 @@ subsets: "menu"
 axes {
   tag: "ital"
   min_value: 0.0
-  max_value: 2.0
+  max_value: 1.0
 }
 axes {
   tag: "wght"

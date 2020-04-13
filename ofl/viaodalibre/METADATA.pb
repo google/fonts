@@ -10,7 +10,7 @@ fonts {
   filename: "ViaodaLibre-Regular.ttf"
   post_script_name: "ViaodaLibre-Regular"
   full_name: "Viaoda Libre Regular"
-  copyright: "Copyright 2019 The Viaodalibre Project Authors (https://github.com/bettergui/ViaodaLibre)"
+  copyright: "Copyright 2020 The Viaodalibre Project Authors (https://github.com/bettergui/ViaodaLibre)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

@@ -30,11 +30,6 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "vietnamese"
 axes {
-  tag: "ital"
-  min_value: 0.0
-  max_value: 1.0
-}
-axes {
   tag: "wdth"
   min_value: 75.0
   max_value: 100.0

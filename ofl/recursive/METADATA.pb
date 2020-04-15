@@ -2,7 +2,7 @@ name: "Recursive"
 designer: "Arrow Type, Stephen Nixon"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2019-06-28"
+date_added: "2020-05-01"
 fonts {
   name: "Recursive"
   style: "normal"
@@ -10,7 +10,7 @@ fonts {
   filename: "Recursive[CASL,CRSV,MONO,slnt,wght].ttf"
   post_script_name: "Recursive"
   full_name: "Recursive"
-  copyright: "???."
+  copyright: "Copyright 2019 The Recursive Project Authors (info@arrowtype.com)"
 }
 subsets: "menu"
 subsets: "latin"

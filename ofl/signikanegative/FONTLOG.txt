@@ -1,10 +1,10 @@
-FONTLOG for the Signika Negative fonts
+FONTLOG for the Signika fonts
 
 This file provides detailed information on the Signika 
-Negative Font Software.
+Font Software.
 
 This information should be distributed along with the 
-Signika Negative fonts and any derivative works.
+Signika fonts and any derivative works.
 
 Basic Font Information
 
@@ -15,30 +15,40 @@ required. It has a low contrast and tall x-height
 to improve readability of texts in small sizes
 as well as in large distances from the reader.
 
-The typeface comes with a wide character set
-supporting Western European languages, Polish,
-and Czech. The figures are designed as tabular.
+The typeface comes with a wide character set supporting 
+over 220 languages including most of the Latin-based 
+European languages, some African languages and Vietnamese. 
+It offers a basic set of typographic tools like ligatures, 
+small caps, and case sensitive punctuation. Two sets of 
+figures, text and lining, are both designed as tabular, 
+and complemented by a corresponding tabular sets 
+of currency symbols.
 
-This is the alternative Negative version 
-optimised to solve the effect of
-juxtaposed positive and negative text
-setting, where the text in negative tends
-to look thicker.
+With the 2020 update Signika was extended by 
+a set of 300+ arrows and pictograms.
 
-Small caps and small-cap figures will be 
-published soon.
+All weights from Light to Bold have alternative Negative 
+versions optimised to solve the effect of juxtaposed 
+positive and negative text setting, where the text 
+in negative tends to look thicker.
 
-Signika is a Unicode typeface family that supports languages 
-that use the Latin script and its variants, and could be expanded 
-to support other scripts.
-
-More specifically, this release supports 
-the following Unicode ranges: Latin-1
+Signika is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, 
+and could be expanded to support other scripts.
 
 To contribute to the project contact Anna Giedryś, 
 anna@ancymonic.com
 
 ChangeLog
+
+12 May 2020
+– Language extension to full support of the Google Pro encoding (Anna Giedryś).
+- Additional set of over 300 arrows and pictograms designed by (Anna Giedryś and Peter Machaj)
+
+18 Dec 2018
+- Upgrade font to variable font with Weight and "Negative" axes, otherwise preserving original designs
+- Includes glyph extensions and font refinements made by Anna, including expanded language support and small caps
+
 
 24 Oct 2011 (Anna Giedryś) Signika v1.000
 - Initial release
@@ -53,3 +63,21 @@ N: Anna Giedryś
 E: anna@ancymonic.com
 W: http://www.ancymonic.com
 D: Designer
+
+N: Johannes Neumeier
+E: hello@underscoretype.com
+W: http://underscoretype.com
+D: Post-production
+
+N: Peter Machaj
+E: petermachaj.dizajn@gmail.com
+W: https://www.behance.net/petermachaj
+D: Designer (pictograms co-design)
+
+N: Stephen Nixon
+E: stephen@thundernixon.com
+W: http://www.thundernixon.com
+D: Variable Font Mastering
+
+
+

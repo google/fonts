@@ -1,42 +1,42 @@
-name: "Signika"
+name: "Signika Negative"
 designer: "Anna Giedryś"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-23"
 fonts {
-  name: "Signika"
+  name: "Signika Negative"
   style: "normal"
   weight: 300
-  filename: "Signika-Light.ttf"
-  post_script_name: "Signika-Light"
-  full_name: "Signika Light"
+  filename: "SignikaNegative-Light.ttf"
+  post_script_name: "SignikaNegative-Light"
+  full_name: "Signika Negative Light"
   copyright: "Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
 fonts {
-  name: "Signika"
+  name: "Signika Negative"
   style: "normal"
   weight: 400
-  filename: "Signika-Regular.ttf"
-  post_script_name: "Signika-Regular"
-  full_name: "Signika Regular"
+  filename: "SignikaNegative-Regular.ttf"
+  post_script_name: "SignikaNegative-Regular"
+  full_name: "Signika Negative Regular"
   copyright: "Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
 fonts {
-  name: "Signika"
+  name: "Signika Negative"
   style: "normal"
   weight: 600
-  filename: "Signika-SemiBold.ttf"
-  post_script_name: "Signika-SemiBold"
-  full_name: "Signika SemiBold"
+  filename: "SignikaNegative-SemiBold.ttf"
+  post_script_name: "SignikaNegative-SemiBold"
+  full_name: "Signika Negative SemiBold"
   copyright: "Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
 fonts {
-  name: "Signika"
+  name: "Signika Negative"
   style: "normal"
   weight: 700
-  filename: "Signika-Bold.ttf"
-  post_script_name: "Signika-Bold"
-  full_name: "Signika Bold"
+  filename: "SignikaNegative-Bold.ttf"
+  post_script_name: "SignikaNegative-Bold"
+  full_name: "Signika Negative Bold"
   copyright: "Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
 subsets: "latin"

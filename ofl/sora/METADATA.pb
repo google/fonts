@@ -1,5 +1,5 @@
 name: "Sora"
-designer: "UNKNOWN"
+designer: "Jonathan Barnbrook, Juli\303\241n Moncada"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-06-10"

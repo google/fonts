@@ -10,7 +10,7 @@ fonts {
   filename: "Mulish[wght].ttf"
   post_script_name: "Mulish-Regular"
   full_name: "Mulish Regular"
-  copyright: "Copyright 2016 The Mulish Project Authors (https://github.com/googlefonts/MulishFont)"
+  copyright: "Copyright 2011 The Mulish Project Authors (github.com/googlefonts/mulish)"
 }
 fonts {
   name: "Mulish"
@@ -19,7 +19,7 @@ fonts {
   filename: "Mulish-Italic[wght].ttf"
   post_script_name: "Mulish-Italic"
   full_name: "Mulish Italic"
-  copyright: "Copyright 2016 The Mulish Project Authors (https://github.com/googlefonts/MulishFont)"
+  copyright: "Copyright 2011 The Mulish Project Authors (github.com/googlefonts/mulish)"
 }
 subsets: "latin"
 subsets: "latin-ext"

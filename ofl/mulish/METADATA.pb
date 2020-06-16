@@ -1,5 +1,5 @@
 name: "Mulish"
-designer: "Vernon Adams"
+designer: "Vernon Adams, Cyreal, Jacques Le Bailly"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-05-25"

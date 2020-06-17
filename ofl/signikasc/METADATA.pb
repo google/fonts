@@ -1,15 +1,15 @@
-name: "Signika"
+name: "Signika SC"
 designer: "Anna Giedryś"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-23"
 fonts {
-  name: "Signika"
+  name: "Signika SC"
   style: "normal"
   weight: 400
-  filename: "Signika[NEGA,wght].ttf"
-  post_script_name: "Signika-Light"
-  full_name: "Signika"
+  filename: "SignikaSC[NEGA,wght].ttf"
+  post_script_name: "SignikaSC-Light"
+  full_name: "Signika SC"
   copyright: "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika)."
 }
 subsets: "latin"

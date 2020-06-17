@@ -10,7 +10,7 @@ fonts {
   filename: "ArefRuqaa-Regular.ttf"
   post_script_name: "ArefRuqaa-Regular"
   full_name: "Aref Ruqaa Regular"
-  copyright: "Portions copyright  2015, Khaled Hosny (<khaledhosny@eglug.org>). Portions copyright  1997, 2009, 2011 American Mathematical Society (<http://www.ams.org>), with Reserved Font Name EURM10."
+  copyright: "Copyright 2015-2020 The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
 }
 fonts {
   name: "Aref Ruqaa"
@@ -19,7 +19,7 @@ fonts {
   filename: "ArefRuqaa-Bold.ttf"
   post_script_name: "ArefRuqaa-Bold"
   full_name: "Aref Ruqaa Bold"
-  copyright: "Portions copyright  2015, Khaled Hosny (<khaledhosny@eglug.org>). Portions copyright  1997, 2009, 2011 American Mathematical Society (<http://www.ams.org>), with Reserved Font Name EURB10."
+  copyright: "Copyright 2015-2020 The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
 }
 subsets: "latin"
 subsets: "menu"

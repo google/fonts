@@ -1,8 +1,8 @@
 name: "Encode Sans"
 designer: "Impallari Type, Andres Torresi, Jacques Le Bailly"
 license: "OFL"
-category: "SANS_SERIF"
-date_added: "2020-06-11"
+category: "SAN_SERIF"
+date_added: "2020-06-24"
 fonts {
   name: "Encode Sans"
   style: "normal"

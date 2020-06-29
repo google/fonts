@@ -1,0 +1,31 @@
+# For more help see the docs at:
+# https://github.com/googlefonts/gf-docs/tree/master/METADATA
+
+# Full family name, with initial upper cases and spaces
+name: Sora
+
+# In most cases this should be based on the GitHub https repo url:
+# this https://github.com/{owner}/{repo}.git
+repository_url: https://github.com/sora-xor/sora-font.git
+
+# The branch name used to update google fonts. e.g.: master
+branch: master
+
+# Choose one of: DISPLAY, SERIF, SANS_SERIF, SANS_SERIF, HANDWRITING, MONOSPACE
+category: SANS_SERIF
+
+# Full name of the type designer(s) or foundry who designed the fonts.
+designer: Jonathan Barnbrook, Julián Moncada
+
+# Dictionary mapping of SOURCE file names to TARGET file names. Where
+files:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/variable/Sora[wght].ttf: Sora[wght].ttf
+  fonts/ttf/Sora-Bold.ttf: static/Sora-Bold.ttf
+  fonts/ttf/Sora-ExtraBold.ttf: static/Sora-ExtraBold.ttf
+  fonts/ttf/Sora-ExtraLight.ttf: static/Sora-ExtraLight.ttf
+  fonts/ttf/Sora-Light.ttf: static/Sora-Light.ttf
+  fonts/ttf/Sora-Regular.ttf: static/Sora-Regular.ttf
+  fonts/ttf/Sora-SemiBold.ttf: static/Sora-SemiBold.ttf
+  fonts/ttf/Sora-Thin.ttf: static/Sora-Thin.ttf

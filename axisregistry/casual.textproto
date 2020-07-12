@@ -1,0 +1,19 @@
+# CASL based on https://github.com/arrowtype/Recursive#variable-axes
+tag: "CASL"
+display_name: "Casual"
+min_value: 0
+max_value: 1
+default_value: 0
+precision: -2
+fallback {
+  name: "Linear"
+  value: 0
+}
+fallback {
+  name: "Casual"
+  value: 1
+}
+description:
+  "Along this axis, letterforms adjust in stroke curvature, contrast, and"
+  " terminals to go from a sturdy, rational 'Linear' style to a friendly,"
+  " energetic 'Casual' style."

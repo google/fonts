@@ -9,6 +9,8 @@ Each family subdirectory contains the  `.ttf` font files served by Google Fonts,
 
 The `/catalog` subdirectory contains additional metadata, such as profile texts and portrait/avatar images of font designers, and this is open for contributions and corrections from anyone via Github.
 
+The `/axisregistry` subdirectory contains metadata for the GF Axis Registry, containing information on variable font axes that can be found in the collection, including experimental axes.
+
 ## Bug reports and improvement requests
 
 If you find a problem with a font file or have a request for the future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/google/fonts/issues).

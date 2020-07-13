@@ -1,0 +1,20 @@
+# FOR TESTING ONLY [for now anyway]
+# Added for initial releases of Recursive::XPRN (https://recursive.design)
+tag: "XPRN"
+display_name: "Expression"
+min_value: 0
+max_value: 1
+default_value: 0
+precision: -1
+fallback {
+  name: "Inexpressive"
+  value: 0
+}
+fallback {
+  name: "Expressive"
+  value: 1
+}
+description:
+  "Axis used first in Recursive development, intended as a general purpose"
+  " axis for any expressive variation; GF team requested a different approach"
+  " to expressive axes, with more specificity."

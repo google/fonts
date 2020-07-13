@@ -1,5 +1,5 @@
 name: "El Messiri"
-designer: "Multiple Designers"
+designer: "Mohamed Gaber, Jovanny Lemonad"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"

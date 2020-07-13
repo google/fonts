@@ -19,8 +19,8 @@ before_install:
   - cd ../..
 
 install:
-  - pip install git+https://github.com/googlefonts/gftools
+  - pip install gftools[qa]
 
 script:
-  - gftools qa -pr https://github.com/$TRAVIS_REPO_SLUG/pulls/$TRAVIS_PULL_REQUEST -gfb -a -o qa -ogh
+  - bash .ci/run.sh
 

@@ -10,7 +10,7 @@ fonts {
   filename: "Kanit-Thin.ttf"
   post_script_name: "Kanit-Thin"
   full_name: "Kanit Thin"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -19,7 +19,7 @@ fonts {
   filename: "Kanit-ThinItalic.ttf"
   post_script_name: "Kanit-ThinItalic"
   full_name: "Kanit Thin Italic"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -28,7 +28,7 @@ fonts {
   filename: "Kanit-ExtraLight.ttf"
   post_script_name: "Kanit-ExtraLight"
   full_name: "Kanit ExtraLight"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -37,7 +37,7 @@ fonts {
   filename: "Kanit-ExtraLightItalic.ttf"
   post_script_name: "Kanit-ExtraLightItalic"
   full_name: "Kanit ExtraLight Italic"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -46,7 +46,7 @@ fonts {
   filename: "Kanit-Light.ttf"
   post_script_name: "Kanit-Light"
   full_name: "Kanit Light"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -55,7 +55,7 @@ fonts {
   filename: "Kanit-LightItalic.ttf"
   post_script_name: "Kanit-LightItalic"
   full_name: "Kanit Light Italic"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -64,7 +64,7 @@ fonts {
   filename: "Kanit-Regular.ttf"
   post_script_name: "Kanit-Regular"
   full_name: "Kanit Regular"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -73,7 +73,7 @@ fonts {
   filename: "Kanit-Italic.ttf"
   post_script_name: "Kanit-Italic"
   full_name: "Kanit Italic"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -82,7 +82,7 @@ fonts {
   filename: "Kanit-Medium.ttf"
   post_script_name: "Kanit-Medium"
   full_name: "Kanit Medium"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -91,7 +91,7 @@ fonts {
   filename: "Kanit-MediumItalic.ttf"
   post_script_name: "Kanit-MediumItalic"
   full_name: "Kanit Medium Italic"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -100,7 +100,7 @@ fonts {
   filename: "Kanit-SemiBold.ttf"
   post_script_name: "Kanit-SemiBold"
   full_name: "Kanit SemiBold"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -109,7 +109,7 @@ fonts {
   filename: "Kanit-SemiBoldItalic.ttf"
   post_script_name: "Kanit-SemiBoldItalic"
   full_name: "Kanit SemiBold Italic"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -118,7 +118,7 @@ fonts {
   filename: "Kanit-Bold.ttf"
   post_script_name: "Kanit-Bold"
   full_name: "Kanit Bold"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -127,7 +127,7 @@ fonts {
   filename: "Kanit-BoldItalic.ttf"
   post_script_name: "Kanit-BoldItalic"
   full_name: "Kanit Bold Italic"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -136,7 +136,7 @@ fonts {
   filename: "Kanit-ExtraBold.ttf"
   post_script_name: "Kanit-ExtraBold"
   full_name: "Kanit ExtraBold"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -145,7 +145,7 @@ fonts {
   filename: "Kanit-ExtraBoldItalic.ttf"
   post_script_name: "Kanit-ExtraBoldItalic"
   full_name: "Kanit ExtraBold Italic"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -154,7 +154,7 @@ fonts {
   filename: "Kanit-Black.ttf"
   post_script_name: "Kanit-Black"
   full_name: "Kanit Black"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 fonts {
   name: "Kanit"
@@ -163,7 +163,7 @@ fonts {
   filename: "Kanit-BlackItalic.ttf"
   post_script_name: "Kanit-BlackItalic"
   full_name: "Kanit Black Italic"
-  copyright: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)"
+  copyright: "Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)"
 }
 subsets: "latin"
 subsets: "latin-ext"

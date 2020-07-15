@@ -1,6 +1,6 @@
 name: "Roboto"
 designer: "Christian Robertson, Paratype, Font Bureau"
-license: "OFL"
+license: "APACHE2"
 category: "SANS_SERIF"
 date_added: "2013-01-09"
 fonts {
@@ -21,13 +21,13 @@ fonts {
   full_name: "Roboto Italic"
   copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"
 axes {
   tag: "wdth"

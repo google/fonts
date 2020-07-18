@@ -1,5 +1,5 @@
 name: "Ibarra Real Nova"
-designer: "Jos\303\251 Mar\303\255a Ribagorda, Octavio Pardo"
+designer: "José María Ribagorda, Octavio Pardo"
 license: "OFL"
 category: "SERIF"
 date_added: "2019-11-04"

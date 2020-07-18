@@ -1,5 +1,5 @@
 name: "Alegreya SC"
-designer: "Huerta Tipogr\303\241fica"
+designer: "Huerta Tipográfica"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"

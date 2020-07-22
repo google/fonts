@@ -7,29 +7,16 @@ fonts {
   name: "Cinzel"
   style: "normal"
   weight: 400
-  filename: "Cinzel-Regular.ttf"
+  filename: "Cinzel[wght].ttf"
   post_script_name: "Cinzel-Regular"
   full_name: "Cinzel Regular"
-  copyright: "Copyright  2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name \'Cinzel\'"
-}
-fonts {
-  name: "Cinzel"
-  style: "normal"
-  weight: 700
-  filename: "Cinzel-Bold.ttf"
-  post_script_name: "Cinzel-Bold"
-  full_name: "Cinzel Bold"
-  copyright: "Copyright  2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name \'Cinzel\'"
-}
-fonts {
-  name: "Cinzel"
-  style: "normal"
-  weight: 900
-  filename: "Cinzel-Black.ttf"
-  post_script_name: "Cinzel-Black"
-  full_name: "Cinzel Black"
-  copyright: "Copyright  2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name \'Cinzel\'"
+  copyright: "Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 900.0
+}

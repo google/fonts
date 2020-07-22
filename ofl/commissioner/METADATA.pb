@@ -20,16 +20,6 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 axes {
-  tag: "FLAR"
-  min_value: 0.0
-  max_value: 100.0
-}
-axes {
-  tag: "VOLM"
-  min_value: 0.0
-  max_value: 100.0
-}
-axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0

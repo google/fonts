@@ -1,0 +1,47 @@
+# Please edit this upstream configuration for the family accordingly.
+# This is a yaml formatted file.
+# An "#" (number sign) denotes a comment.
+# For more help see the docs at:
+# https://github.com/googlefonts/gf-docs/tree/master/METADATA
+
+# Full family name, with initial upper cases and spaces
+name: Chilanka
+
+# In most cases this should be based on the GitHub https repo url:
+# this https://github.com/{{owner}}/{{repo}}.git
+repository_url: https://github.com/smc/Chilanka.git
+
+# The branch name used to update google fonts. e.g.: master
+branch: tags/Version1.510
+
+# Choose one of: {', '.join(CATEGORIES)}
+category: HANDWRITING
+
+# Full name of the type designer(s) or foundry who designed the fonts.
+designer: Santhosh Thottingal
+
+# optional commands to build, using bash -c {build}
+# if you need a python virtual env, this must be created with build as well
+# TODO: sandboxing and venv creation should be handled by the tool, maybe
+# using docker ...
+# FIXME: for FDB this is a security issue! should only run sanctioned/signed
+# scripts. Maybe we can have a secure $ gftools fontmake ...
+build: mkdir -p build; python3 -m venv build/venv; source build/venv/bin/activate;
+  pip install -r requirements.txt; make ttf
+
+
+# Dictionary mapping of SOURCE file names to TARGET file names. Where
+# SOURCE is the file path in the upstream repo and TARGET is the file
+# path in the google fonts family directory.
+# Accepted and expected files:
+#     - The font files, ending with ".ttf"
+#     - In case of a variable font, static instances in: static/Family-instance.ttf
+#     - DESCRIPTION.en_us.html
+#     - OFL.txt, the license.  Less likely UFL.txt and LICENSE.txt.
+#     - (optional) FONTLOG.txt
+files:
+  # These are some examples as comments, please modify, add, delete as necessary:
+  # OFL.txt: OFL.txt
+  # DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  build/Chilanka-Regular.ttf: Chilanka-Regular.ttf
+

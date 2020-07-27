@@ -1,7 +1,7 @@
 name: "Grandstander"
 designer: "Tyler Finck"
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2020-07-24"
 fonts {
   name: "Grandstander"

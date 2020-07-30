@@ -39,7 +39,3 @@ axes {
   min_value: 200.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/literata"
-  commit: "fce0a581df5da1e7aadb4acc874f19e8f40612c7"
-}

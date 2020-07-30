@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "malayalam"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/smc/Chilanka.git"
-  commit: "76462b137b0b8a8b4734a62ad76d994e01101458"
-}

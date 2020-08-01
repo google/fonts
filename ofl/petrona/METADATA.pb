@@ -2,7 +2,7 @@ name: "Petrona"
 designer: "Ringo R. Seeber"
 license: "OFL"
 category: "SERIF"
-date_added: "2011-11-02"
+date_added: "2020-07-15"
 fonts {
   name: "Petrona"
   style: "normal"

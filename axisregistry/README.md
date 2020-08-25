@@ -22,7 +22,7 @@ This package contains a collection of metadata files that collectively form the 
 *   `description`   
     *   A description of the axis.
 
-## Why does Fonts have its own Axis Registry?
+## Why does Google Fonts have its own Axis Registry?
 
 We support a superset of the [OpenType axis registry](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg) axis set, and use additional metadata for each axis.
 Axes present in a font file but not in this registry will not function via our API.

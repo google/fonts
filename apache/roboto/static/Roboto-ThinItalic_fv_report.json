@@ -1,1 +1,78 @@
-"{\"processed\": [{\"file\": {\"name\": \"Roboto-ThinItalic.ttf\", \"type\": \"ttf\", \"size\": 153840, \"md5\": \"b3628aaf5f3ff89c15673336f7a2a352\", \"geometryMd5\": \"f40a8af64c6594d61156fa1a1b3da5e1\"}, \"name\": {\"family\": \"Roboto Thin\", \"subFamily\": \"Italic\", \"fullName\": \"Roboto Thin Italic\", \"psName\": \"Roboto-ThinItalic\", \"versionText\": \"Version 3.002; 2020\", \"copyright\": \"Copyright 2011 Google Inc. All Rights Reserved.\", \"trademark\": \"Roboto is a trademark of Google.\", \"typographicFamily\": \"Roboto\", \"typographicSubFamily\": \"Thin Italic\", \"variationsPSNamePrefix\": \"Roboto\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 1295, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"GOOG\", \"font_vendor\": \"Google\"}, \"validation\": {\"font_full_name\": \"Roboto Thin Italic\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 3, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_291e9d4615ba49f29099359bdb76e130.glyf.glyph 523 ('523').contours.contour 1\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:57:59.679846Z\", \"orig_output\": \"validate_291e9d4615ba49f29099359bdb76e130.glyf.glyph 523 ('523').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_291e9d4615ba49f29099359bdb76e130.name\", \"levelname\": \"ERROR\", \"message\": \"Postscript name not present for both Mac and Windows.\", \"timestamp\": \"2020-08-25T14:58:16.078026Z\", \"orig_output\": \"validate_291e9d4615ba49f29099359bdb76e130.name - ERROR - Postscript name not present for both Mac and Windows.\", \"msg_code\": \"E2008\"}, {\"subroutine\": \"validate_291e9d4615ba49f29099359bdb76e130.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 1096, but is 1161\", \"timestamp\": \"2020-08-25T14:57:54.663946Z\", \"orig_output\": \"validate_291e9d4615ba49f29099359bdb76e130.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1096, but is 1161\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 32647, \"completedDate\": \"2020-08-25 14:58:22.756145\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Roboto-ThinItalic.ttf",
+                "type": "ttf",
+                "size": 153840,
+                "md5": "b3628aaf5f3ff89c15673336f7a2a352",
+                "geometryMd5": "f40a8af64c6594d61156fa1a1b3da5e1"
+            },
+            "name": {
+                "family": "Roboto Thin",
+                "subFamily": "Italic",
+                "fullName": "Roboto Thin Italic",
+                "psName": "Roboto-ThinItalic",
+                "versionText": "Version 3.002; 2020",
+                "copyright": "Copyright 2011 Google Inc. All Rights Reserved.",
+                "trademark": "Roboto is a trademark of Google.",
+                "typographicFamily": "Roboto",
+                "typographicSubFamily": "Thin Italic",
+                "variationsPSNamePrefix": "Roboto"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 1295,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "GOOG",
+                "font_vendor": "Google"
+            },
+            "validation": {
+                "font_full_name": "Roboto Thin Italic",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 3,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_dbffe668587c4c2ab0bf28f7bcf64f4f.glyf.glyph 523 ('523').contours.contour 1",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:41:59.952104Z",
+                        "orig_output": "validate_dbffe668587c4c2ab0bf28f7bcf64f4f.glyf.glyph 523 ('523').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_dbffe668587c4c2ab0bf28f7bcf64f4f.name",
+                        "levelname": "ERROR",
+                        "message": "Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-08-26T06:42:16.009566Z",
+                        "orig_output": "validate_dbffe668587c4c2ab0bf28f7bcf64f4f.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "msg_code": "E2008"
+                    },
+                    {
+                        "subroutine": "validate_dbffe668587c4c2ab0bf28f7bcf64f4f.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 1096, but is 1161",
+                        "timestamp": "2020-08-26T06:41:54.920422Z",
+                        "orig_output": "validate_dbffe668587c4c2ab0bf28f7bcf64f4f.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1096, but is 1161",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 32349,
+    "completedDate": "2020-08-26 06:42:22.682182"
+}

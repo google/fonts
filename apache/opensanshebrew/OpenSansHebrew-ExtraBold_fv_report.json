@@ -1,1 +1,133 @@
-"{\"processed\": [{\"file\": {\"name\": \"OpenSansHebrew-ExtraBold.ttf\", \"type\": \"ttf\", \"size\": 35092, \"md5\": \"612a355682445e4301c8186044d6c1e7\", \"geometryMd5\": \"b5fbe2073c99436a9971d3292db44ffa\"}, \"name\": {\"family\": \"Open Sans Hebrew Extra Bold\", \"subFamily\": \"Regular\", \"fullName\": \"Open Sans Hebrew Extra Bold\", \"psName\": \"OpenSansHebrew-ExtraBold\", \"versionText\": \"Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329\", \"copyright\": \"Digitized data copyright (c) 2011, Google Corporation. Copyright (c) 2012, 2013 Yanek Iontef (yanek@netvision.net.il)\", \"trademark\": \"Open Sans is a trademark of Google and may be registered in certain jurisdictions.\", \"typographicFamily\": \"Open Sans Hebrew\", \"typographicSubFamily\": \"Extra Bold\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 305, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"UKWN\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Open Sans Hebrew Extra Bold\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 10, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.fontedit.OS_2.PANOSE.weight\", \"levelname\": \"ERROR\", \"message\": \"Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T14:57:46.050605Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.fontedit.OS_2.PANOSE.weight - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2111\"}, {\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.GDEF.glyphClasses\", \"levelname\": \"ERROR\", \"message\": \"The following mark glyphs have nonzero advances: [68, 106, 117, 120, 199, 205, 221]\", \"timestamp\": \"2020-08-25T14:57:46.056905Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [68, 106, 117, 120, 199, 205, 221]\", \"msg_code\": \"V1102\"}, {\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.head\", \"levelname\": \"ERROR\", \"message\": \"The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Regular'.\", \"timestamp\": \"2020-08-25T14:57:49.595911Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.head - ERROR - The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Regular'.\", \"msg_code\": \"E1311\"}, {\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 71 does not match the glyph's xMin 72 (glyph 10)\", \"timestamp\": \"2020-08-25T14:57:49.673699Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.hmtx - ERROR - The left sidebearing 71 does not match the glyph's xMin 72 (glyph 10)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 103 does not match the glyph's xMin 104 (glyph 39)\", \"timestamp\": \"2020-08-25T14:57:49.679940Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.hmtx - ERROR - The left sidebearing 103 does not match the glyph's xMin 104 (glyph 39)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 62 does not match the glyph's xMin 63 (glyph 113)\", \"timestamp\": \"2020-08-25T14:57:49.695227Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.hmtx - ERROR - The left sidebearing 62 does not match the glyph's xMin 63 (glyph 113)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 103 does not match the glyph's xMin 104 (glyph 134)\", \"timestamp\": \"2020-08-25T14:57:49.700913Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.hmtx - ERROR - The left sidebearing 103 does not match the glyph's xMin 104 (glyph 134)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.OS_2.fsSelection\", \"levelname\": \"ERROR\", \"message\": \"The fsSelection doesn't match the subfamily 'name' entry\", \"timestamp\": \"2020-08-25T14:57:46.599934Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.OS_2.fsSelection - ERROR - The fsSelection doesn't match the subfamily 'name' entry\", \"msg_code\": \"E2100\"}, {\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.OS_2.usMaxContext\", \"levelname\": \"ERROR\", \"message\": \"The usMaxContext should be 1, but is 5\", \"timestamp\": \"2020-08-25T14:57:46.701440Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 5\", \"msg_code\": \"V0831\"}, {\"subroutine\": \"validate_ef81252264f843a5a54c38fb68d00fae.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 1196, but is 1205\", \"timestamp\": \"2020-08-25T14:57:46.701709Z\", \"orig_output\": \"validate_ef81252264f843a5a54c38fb68d00fae.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1196, but is 1205\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 5610, \"completedDate\": \"2020-08-25 14:57:50.087233\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "OpenSansHebrew-ExtraBold.ttf",
+                "type": "ttf",
+                "size": 35092,
+                "md5": "612a355682445e4301c8186044d6c1e7",
+                "geometryMd5": "b5fbe2073c99436a9971d3292db44ffa"
+            },
+            "name": {
+                "family": "Open Sans Hebrew Extra Bold",
+                "subFamily": "Regular",
+                "fullName": "Open Sans Hebrew Extra Bold",
+                "psName": "OpenSansHebrew-ExtraBold",
+                "versionText": "Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329",
+                "copyright": "Digitized data copyright (c) 2011, Google Corporation. Copyright (c) 2012, 2013 Yanek Iontef (yanek@netvision.net.il)",
+                "trademark": "Open Sans is a trademark of Google and may be registered in certain jurisdictions.",
+                "typographicFamily": "Open Sans Hebrew",
+                "typographicSubFamily": "Extra Bold"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 305,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "UKWN",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Open Sans Hebrew Extra Bold",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 10,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.fontedit.OS_2.PANOSE.weight",
+                        "levelname": "ERROR",
+                        "message": "Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:41:54.355932Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.fontedit.OS_2.PANOSE.weight - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2111"
+                    },
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.GDEF.glyphClasses",
+                        "levelname": "ERROR",
+                        "message": "The following mark glyphs have nonzero advances: [68, 106, 117, 120, 199, 205, 221]",
+                        "timestamp": "2020-08-26T06:41:54.362282Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [68, 106, 117, 120, 199, 205, 221]",
+                        "msg_code": "V1102"
+                    },
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.head",
+                        "levelname": "ERROR",
+                        "message": "The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Regular'.",
+                        "timestamp": "2020-08-26T06:41:57.790673Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.head - ERROR - The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Regular'.",
+                        "msg_code": "E1311"
+                    },
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 71 does not match the glyph's xMin 72 (glyph 10)",
+                        "timestamp": "2020-08-26T06:41:57.868832Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.hmtx - ERROR - The left sidebearing 71 does not match the glyph's xMin 72 (glyph 10)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 103 does not match the glyph's xMin 104 (glyph 39)",
+                        "timestamp": "2020-08-26T06:41:57.875199Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.hmtx - ERROR - The left sidebearing 103 does not match the glyph's xMin 104 (glyph 39)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 62 does not match the glyph's xMin 63 (glyph 113)",
+                        "timestamp": "2020-08-26T06:41:57.890411Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.hmtx - ERROR - The left sidebearing 62 does not match the glyph's xMin 63 (glyph 113)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 103 does not match the glyph's xMin 104 (glyph 134)",
+                        "timestamp": "2020-08-26T06:41:57.896014Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.hmtx - ERROR - The left sidebearing 103 does not match the glyph's xMin 104 (glyph 134)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.OS_2.fsSelection",
+                        "levelname": "ERROR",
+                        "message": "The fsSelection doesn't match the subfamily 'name' entry",
+                        "timestamp": "2020-08-26T06:41:54.906367Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.OS_2.fsSelection - ERROR - The fsSelection doesn't match the subfamily 'name' entry",
+                        "msg_code": "E2100"
+                    },
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.OS_2.usMaxContext",
+                        "levelname": "ERROR",
+                        "message": "The usMaxContext should be 1, but is 5",
+                        "timestamp": "2020-08-26T06:41:55.007580Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 5",
+                        "msg_code": "V0831"
+                    },
+                    {
+                        "subroutine": "validate_9a666a754b35459b9a59ec4d015aa2fa.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 1196, but is 1205",
+                        "timestamp": "2020-08-26T06:41:55.007856Z",
+                        "orig_output": "validate_9a666a754b35459b9a59ec4d015aa2fa.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1196, but is 1205",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 5538,
+    "completedDate": "2020-08-26 06:41:58.277965"
+}

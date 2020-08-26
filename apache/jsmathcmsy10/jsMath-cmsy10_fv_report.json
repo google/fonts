@@ -1,1 +1,1482 @@
-"{\"processed\": [{\"file\": {\"name\": \"jsMath-cmsy10.ttf\", \"type\": \"ttf\", \"size\": 43456, \"md5\": \"c2a71444e86e6bd62dd44efa6a6930a3\", \"geometryMd5\": \"67f6d9543d3e0da30a7b81483266b6a6\"}, \"name\": {\"family\": \"jsMath-cmsy10\", \"subFamily\": \"cmsy10\", \"fullName\": \"jsMath-cmsy10\", \"psName\": \"jsMath-cmsy10\", \"versionText\": \"Version 001.001 \", \"copyright\": \"Generated from MetaFont bitmap by mftrace 1.0.33, http://www.cs.uu.nl/~hanwen/mftrace/ \", \"trademark\": \"Unknown\"}, \"format\": {\"format\": \"TT\"}, \"summary\": {\"num_glyphs\": 132, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"PfEd\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"jsMath-cmsy10\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 179, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 655, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.926917Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 3's value should be 655, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 30's value should be 5, but is 6\", \"timestamp\": \"2020-08-25T15:00:24.927012Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 30's value should be 5, but is 6\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 31's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.927086Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 31's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 35's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.927156Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 35's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 58's value should be 10, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.927237Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 58's value should be 10, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.927307Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 62's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.927375Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 63's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 68's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.927444Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 68's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 84's value should be 8, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.927518Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 84's value should be 8, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 87's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.927586Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 87's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 88's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.927653Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 88's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.927723Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.10 ppem - ERROR - Glyph 94's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 721, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.928593Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem - ERROR - Glyph 3's value should be 721, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 28's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.928686Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem - ERROR - Glyph 28's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 29's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.928757Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem - ERROR - Glyph 29's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 36's value should be 9, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.928828Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem - ERROR - Glyph 36's value should be 9, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.928908Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem - ERROR - Glyph 62's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.928975Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem - ERROR - Glyph 63's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 7, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.929042Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem - ERROR - Glyph 64's value should be 7, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 87's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.929120Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem - ERROR - Glyph 87's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 88's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.929186Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.11 ppem - ERROR - Glyph 88's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 786, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.930076Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 3's value should be 786, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 29's value should be 8, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.930171Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 29's value should be 8, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 32's value should be 9, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.930245Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 32's value should be 9, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 35's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.930316Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 35's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 36's value should be 10, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.930383Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 36's value should be 10, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 8, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.930465Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 62's value should be 8, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 8, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.930532Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 63's value should be 8, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 8, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.930599Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 64's value should be 8, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 68's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.930668Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 68's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 87's value should be 8, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.930745Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 87's value should be 8, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 88's value should be 8, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.930811Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 88's value should be 8, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.930881Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.12 ppem - ERROR - Glyph 94's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.13 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 852, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.931740Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.13 ppem - ERROR - Glyph 3's value should be 852, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.13 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 28's value should be 7, but is 8\", \"timestamp\": \"2020-08-25T15:00:24.931830Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.13 ppem - ERROR - Glyph 28's value should be 7, but is 8\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 983, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.932724Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 3's value should be 983, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 26's value should be 0, but is 1\", \"timestamp\": \"2020-08-25T15:00:24.932812Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 26's value should be 0, but is 1\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 28's value should be 8, but is 9\", \"timestamp\": \"2020-08-25T15:00:24.932884Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 28's value should be 8, but is 9\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 35's value should be 9, but is 10\", \"timestamp\": \"2020-08-25T15:00:24.932957Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 35's value should be 9, but is 10\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 36's value should be 12, but is 13\", \"timestamp\": \"2020-08-25T15:00:24.933024Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 36's value should be 12, but is 13\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 10, but is 11\", \"timestamp\": \"2020-08-25T15:00:24.933112Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 62's value should be 10, but is 11\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 10, but is 11\", \"timestamp\": \"2020-08-25T15:00:24.933181Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 63's value should be 10, but is 11\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 10, but is 11\", \"timestamp\": \"2020-08-25T15:00:24.933248Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 64's value should be 10, but is 11\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 68's value should be 9, but is 10\", \"timestamp\": \"2020-08-25T15:00:24.933316Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 68's value should be 9, but is 10\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 84's value should be 11, but is 12\", \"timestamp\": \"2020-08-25T15:00:24.933391Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 84's value should be 11, but is 12\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 90's value should be 12, but is 11\", \"timestamp\": \"2020-08-25T15:00:24.933460Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 90's value should be 12, but is 11\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 9, but is 10\", \"timestamp\": \"2020-08-25T15:00:24.933528Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.15 ppem - ERROR - Glyph 94's value should be 9, but is 10\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.16 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 1049, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.934405Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.16 ppem - ERROR - Glyph 3's value should be 1049, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.16 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 32's value should be 12, but is 11\", \"timestamp\": \"2020-08-25T15:00:24.934497Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.16 ppem - ERROR - Glyph 32's value should be 12, but is 11\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.16 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 90's value should be 12, but is 13\", \"timestamp\": \"2020-08-25T15:00:24.934598Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.16 ppem - ERROR - Glyph 90's value should be 12, but is 13\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 1114, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.935461Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 3's value should be 1114, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 28's value should be 9, but is 10\", \"timestamp\": \"2020-08-25T15:00:24.935551Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 28's value should be 9, but is 10\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 29's value should be 11, but is 12\", \"timestamp\": \"2020-08-25T15:00:24.935621Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 29's value should be 11, but is 12\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 31's value should be 12, but is 13\", \"timestamp\": \"2020-08-25T15:00:24.935689Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 31's value should be 12, but is 13\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 35's value should be 10, but is 11\", \"timestamp\": \"2020-08-25T15:00:24.935759Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 35's value should be 10, but is 11\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 11, but is 12\", \"timestamp\": \"2020-08-25T15:00:24.935841Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 62's value should be 11, but is 12\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 11, but is 12\", \"timestamp\": \"2020-08-25T15:00:24.935908Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 63's value should be 11, but is 12\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 68's value should be 10, but is 11\", \"timestamp\": \"2020-08-25T15:00:24.935978Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 68's value should be 10, but is 11\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 87's value should be 11, but is 12\", \"timestamp\": \"2020-08-25T15:00:24.936054Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 87's value should be 11, but is 12\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 88's value should be 11, but is 12\", \"timestamp\": \"2020-08-25T15:00:24.936129Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 88's value should be 11, but is 12\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 90's value should be 13, but is 14\", \"timestamp\": \"2020-08-25T15:00:24.936198Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 90's value should be 13, but is 14\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 10, but is 11\", \"timestamp\": \"2020-08-25T15:00:24.936267Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.17 ppem - ERROR - Glyph 94's value should be 10, but is 11\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.19 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 1245, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.937307Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.19 ppem - ERROR - Glyph 3's value should be 1245, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.21 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 1376, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.938246Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.21 ppem - ERROR - Glyph 3's value should be 1376, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.21 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 36's value should be 17, but is 16\", \"timestamp\": \"2020-08-25T15:00:24.938344Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.21 ppem - ERROR - Glyph 36's value should be 17, but is 16\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.21 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 14, but is 13\", \"timestamp\": \"2020-08-25T15:00:24.938431Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.21 ppem - ERROR - Glyph 64's value should be 14, but is 13\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 1573, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.939323Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem - ERROR - Glyph 3's value should be 1573, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 31's value should be 17, but is 18\", \"timestamp\": \"2020-08-25T15:00:24.939415Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem - ERROR - Glyph 31's value should be 17, but is 18\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 35's value should be 15, but is 14\", \"timestamp\": \"2020-08-25T15:00:24.939486Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem - ERROR - Glyph 35's value should be 15, but is 14\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 36's value should be 19, but is 20\", \"timestamp\": \"2020-08-25T15:00:24.939555Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem - ERROR - Glyph 36's value should be 19, but is 20\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 16, but is 15\", \"timestamp\": \"2020-08-25T15:00:24.939637Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem - ERROR - Glyph 64's value should be 16, but is 15\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 68's value should be 15, but is 14\", \"timestamp\": \"2020-08-25T15:00:24.939705Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem - ERROR - Glyph 68's value should be 15, but is 14\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 87's value should be 16, but is 17\", \"timestamp\": \"2020-08-25T15:00:24.939782Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem - ERROR - Glyph 87's value should be 16, but is 17\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 88's value should be 16, but is 17\", \"timestamp\": \"2020-08-25T15:00:24.939848Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem - ERROR - Glyph 88's value should be 16, but is 17\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 90's value should be 19, but is 18\", \"timestamp\": \"2020-08-25T15:00:24.939915Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.24 ppem - ERROR - Glyph 90's value should be 19, but is 18\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.27 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 1769, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.940785Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.27 ppem - ERROR - Glyph 3's value should be 1769, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.27 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 31's value should be 20, but is 19\", \"timestamp\": \"2020-08-25T15:00:24.940878Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.27 ppem - ERROR - Glyph 31's value should be 20, but is 19\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.27 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 32's value should be 20, but is 19\", \"timestamp\": \"2020-08-25T15:00:24.940949Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.27 ppem - ERROR - Glyph 32's value should be 20, but is 19\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.27 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 17, but is 16\", \"timestamp\": \"2020-08-25T15:00:24.941049Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.27 ppem - ERROR - Glyph 94's value should be 17, but is 16\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 1900, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.941959Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem - ERROR - Glyph 3's value should be 1900, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 29's value should be 19, but is 20\", \"timestamp\": \"2020-08-25T15:00:24.942054Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem - ERROR - Glyph 29's value should be 19, but is 20\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 19, but is 20\", \"timestamp\": \"2020-08-25T15:00:24.942144Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem - ERROR - Glyph 62's value should be 19, but is 20\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 19, but is 20\", \"timestamp\": \"2020-08-25T15:00:24.942212Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem - ERROR - Glyph 63's value should be 19, but is 20\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 18, but is 17\", \"timestamp\": \"2020-08-25T15:00:24.942296Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.29 ppem - ERROR - Glyph 94's value should be 18, but is 17\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.32 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 2097, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.943168Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.32 ppem - ERROR - Glyph 3's value should be 2097, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.32 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 32's value should be 23, but is 24\", \"timestamp\": \"2020-08-25T15:00:24.943261Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.32 ppem - ERROR - Glyph 32's value should be 23, but is 24\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.32 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 36's value should be 26, but is 25\", \"timestamp\": \"2020-08-25T15:00:24.943333Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.32 ppem - ERROR - Glyph 36's value should be 26, but is 25\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.33 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 2163, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.944222Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.33 ppem - ERROR - Glyph 3's value should be 2163, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.33 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 30's value should be 17, but is 16\", \"timestamp\": \"2020-08-25T15:00:24.944326Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.33 ppem - ERROR - Glyph 30's value should be 17, but is 16\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.33 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 22, but is 23\", \"timestamp\": \"2020-08-25T15:00:24.944415Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.33 ppem - ERROR - Glyph 64's value should be 22, but is 23\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.33 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 90's value should be 26, but is 25\", \"timestamp\": \"2020-08-25T15:00:24.944498Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.33 ppem - ERROR - Glyph 90's value should be 26, but is 25\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 2425, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.945362Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 3's value should be 2425, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 26's value should be 0, but is 255\", \"timestamp\": \"2020-08-25T15:00:24.945451Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 26's value should be 0, but is 255\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 28's value should be 21, but is 20\", \"timestamp\": \"2020-08-25T15:00:24.945521Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 28's value should be 21, but is 20\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 29's value should be 25, but is 24\", \"timestamp\": \"2020-08-25T15:00:24.945589Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 29's value should be 25, but is 24\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 30's value should be 19, but is 18\", \"timestamp\": \"2020-08-25T15:00:24.945671Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 30's value should be 19, but is 18\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 36's value should be 30, but is 29\", \"timestamp\": \"2020-08-25T15:00:24.945742Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 36's value should be 30, but is 29\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 58's value should be 37, but is 36\", \"timestamp\": \"2020-08-25T15:00:24.945821Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 58's value should be 37, but is 36\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 25, but is 24\", \"timestamp\": \"2020-08-25T15:00:24.945889Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 62's value should be 25, but is 24\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 68's value should be 23, but is 22\", \"timestamp\": \"2020-08-25T15:00:24.945958Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 68's value should be 23, but is 22\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 87's value should be 25, but is 24\", \"timestamp\": \"2020-08-25T15:00:24.946034Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 87's value should be 25, but is 24\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 88's value should be 25, but is 24\", \"timestamp\": \"2020-08-25T15:00:24.946108Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 88's value should be 25, but is 24\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 23, but is 22\", \"timestamp\": \"2020-08-25T15:00:24.946179Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.37 ppem - ERROR - Glyph 94's value should be 23, but is 22\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 2752, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.947040Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem - ERROR - Glyph 3's value should be 2752, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 32's value should be 30, but is 31\", \"timestamp\": \"2020-08-25T15:00:24.947131Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem - ERROR - Glyph 32's value should be 30, but is 31\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 35's value should be 26, but is 25\", \"timestamp\": \"2020-08-25T15:00:24.947203Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem - ERROR - Glyph 35's value should be 26, but is 25\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 36's value should be 34, but is 33\", \"timestamp\": \"2020-08-25T15:00:24.947271Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem - ERROR - Glyph 36's value should be 34, but is 33\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 58's value should be 42, but is 41\", \"timestamp\": \"2020-08-25T15:00:24.947350Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem - ERROR - Glyph 58's value should be 42, but is 41\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 68's value should be 26, but is 25\", \"timestamp\": \"2020-08-25T15:00:24.947422Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem - ERROR - Glyph 68's value should be 26, but is 25\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 84's value should be 32, but is 31\", \"timestamp\": \"2020-08-25T15:00:24.947496Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem - ERROR - Glyph 84's value should be 32, but is 31\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 87's value should be 28, but is 29\", \"timestamp\": \"2020-08-25T15:00:24.947563Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem - ERROR - Glyph 87's value should be 28, but is 29\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 88's value should be 28, but is 29\", \"timestamp\": \"2020-08-25T15:00:24.947629Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.42 ppem - ERROR - Glyph 88's value should be 28, but is 29\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 3015, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.948491Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem - ERROR - Glyph 3's value should be 3015, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 31's value should be 33, but is 34\", \"timestamp\": \"2020-08-25T15:00:24.948593Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem - ERROR - Glyph 31's value should be 33, but is 34\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 35's value should be 28, but is 29\", \"timestamp\": \"2020-08-25T15:00:24.948683Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem - ERROR - Glyph 35's value should be 28, but is 29\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 31, but is 32\", \"timestamp\": \"2020-08-25T15:00:24.948771Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem - ERROR - Glyph 64's value should be 31, but is 32\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 68's value should be 28, but is 29\", \"timestamp\": \"2020-08-25T15:00:24.948866Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.46 ppem - ERROR - Glyph 68's value should be 28, but is 29\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 3277, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.949808Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem - ERROR - Glyph 3's value should be 3277, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 29's value should be 33, but is 34\", \"timestamp\": \"2020-08-25T15:00:24.949904Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem - ERROR - Glyph 29's value should be 33, but is 34\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 33, but is 34\", \"timestamp\": \"2020-08-25T15:00:24.949994Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem - ERROR - Glyph 62's value should be 33, but is 34\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 33, but is 34\", \"timestamp\": \"2020-08-25T15:00:24.950074Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem - ERROR - Glyph 63's value should be 33, but is 34\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 33, but is 34\", \"timestamp\": \"2020-08-25T15:00:24.950145Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem - ERROR - Glyph 64's value should be 33, but is 34\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 84's value should be 38, but is 37\", \"timestamp\": \"2020-08-25T15:00:24.950223Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.50 ppem - ERROR - Glyph 84's value should be 38, but is 37\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.54 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 3539, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.951133Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.54 ppem - ERROR - Glyph 3's value should be 3539, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 3801, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.952087Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 3's value should be 3801, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 26's value should be 0, but is 255\", \"timestamp\": \"2020-08-25T15:00:24.952181Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 26's value should be 0, but is 255\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 29's value should be 39, but is 38\", \"timestamp\": \"2020-08-25T15:00:24.952256Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 29's value should be 39, but is 38\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 30's value should be 29, but is 28\", \"timestamp\": \"2020-08-25T15:00:24.952326Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 30's value should be 29, but is 28\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 31's value should be 42, but is 41\", \"timestamp\": \"2020-08-25T15:00:24.952394Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 31's value should be 42, but is 41\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 39, but is 38\", \"timestamp\": \"2020-08-25T15:00:24.952479Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 62's value should be 39, but is 38\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 39, but is 38\", \"timestamp\": \"2020-08-25T15:00:24.952549Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 63's value should be 39, but is 38\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 39, but is 38\", \"timestamp\": \"2020-08-25T15:00:24.952639Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 64's value should be 39, but is 38\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 84's value should be 44, but is 43\", \"timestamp\": \"2020-08-25T15:00:24.952720Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 84's value should be 44, but is 43\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 35, but is 36\", \"timestamp\": \"2020-08-25T15:00:24.952793Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.58 ppem - ERROR - Glyph 94's value should be 35, but is 36\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 4391, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.953715Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem - ERROR - Glyph 3's value should be 4391, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 26's value should be 0, but is 1\", \"timestamp\": \"2020-08-25T15:00:24.953812Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem - ERROR - Glyph 26's value should be 0, but is 1\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 28's value should be 37, but is 38\", \"timestamp\": \"2020-08-25T15:00:24.953886Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem - ERROR - Glyph 28's value should be 37, but is 38\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 84's value should be 50, but is 51\", \"timestamp\": \"2020-08-25T15:00:24.953986Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem - ERROR - Glyph 84's value should be 50, but is 51\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 41, but is 42\", \"timestamp\": \"2020-08-25T15:00:24.954060Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.67 ppem - ERROR - Glyph 94's value should be 41, but is 42\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.75 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 4915, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.954931Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.75 ppem - ERROR - Glyph 3's value should be 4915, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.75 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 50, but is 49\", \"timestamp\": \"2020-08-25T15:00:24.955048Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.75 ppem - ERROR - Glyph 64's value should be 50, but is 49\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.75 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 84's value should be 56, but is 57\", \"timestamp\": \"2020-08-25T15:00:24.955146Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.75 ppem - ERROR - Glyph 84's value should be 56, but is 57\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.75 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 46, but is 45\", \"timestamp\": \"2020-08-25T15:00:24.955222Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.75 ppem - ERROR - Glyph 94's value should be 46, but is 45\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 3's value should be 590, but is 0\", \"timestamp\": \"2020-08-25T15:00:24.925351Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem - ERROR - Glyph 3's value should be 590, but is 0\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 28's value should be 5, but is 6\", \"timestamp\": \"2020-08-25T15:00:24.925486Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem - ERROR - Glyph 28's value should be 5, but is 6\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 29's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.925567Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem - ERROR - Glyph 29's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 31's value should be 7, but is 6\", \"timestamp\": \"2020-08-25T15:00:24.925669Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem - ERROR - Glyph 31's value should be 7, but is 6\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.925760Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem - ERROR - Glyph 62's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.925829Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem - ERROR - Glyph 63's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.925898Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem - ERROR - Glyph 64's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 87's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.925977Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem - ERROR - Glyph 87's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 88's value should be 6, but is 7\", \"timestamp\": \"2020-08-25T15:00:24.926044Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hdmx.9 ppem - ERROR - Glyph 88's value should be 6, but is 7\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hhea\", \"levelname\": \"ERROR\", \"message\": \"The advanceWidthMax value (1201) does not match the expected value (65534)\", \"timestamp\": \"2020-08-25T15:00:25.212018Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.hhea - ERROR - The advanceWidthMax value (1201) does not match the expected value (65534)\", \"msg_code\": \"E1400\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 13's value should be 46, but is 1\", \"timestamp\": \"2020-08-25T15:00:21.190725Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 13's value should be 46, but is 1\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 14's value should be 46, but is 1\", \"timestamp\": \"2020-08-25T15:00:21.190913Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 14's value should be 46, but is 1\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 26's value should be 1, but is 68\", \"timestamp\": \"2020-08-25T15:00:21.190996Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 26's value should be 1, but is 68\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 28's value should be 1, but is 68\", \"timestamp\": \"2020-08-25T15:00:21.191068Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 28's value should be 1, but is 68\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 29's value should be 1, but is 59\", \"timestamp\": \"2020-08-25T15:00:21.191137Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 29's value should be 1, but is 59\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 30's value should be 1, but is 59\", \"timestamp\": \"2020-08-25T15:00:21.191204Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 30's value should be 1, but is 59\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 31's value should be 28, but is 59\", \"timestamp\": \"2020-08-25T15:00:21.191270Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 31's value should be 28, but is 59\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 32's value should be 28, but is 43\", \"timestamp\": \"2020-08-25T15:00:21.191335Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 32's value should be 28, but is 43\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 35's value should be 46, but is 47\", \"timestamp\": \"2020-08-25T15:00:21.191400Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 35's value should be 46, but is 47\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 36's value should be 1, but is 43\", \"timestamp\": \"2020-08-25T15:00:21.191465Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 36's value should be 1, but is 43\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 38's value should be 38, but is 1\", \"timestamp\": \"2020-08-25T15:00:21.191530Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 38's value should be 38, but is 1\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 42's value should be 22, but is 1\", \"timestamp\": \"2020-08-25T15:00:21.191594Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 42's value should be 22, but is 1\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 52's value should be 42, but is 1\", \"timestamp\": \"2020-08-25T15:00:21.191659Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 52's value should be 42, but is 1\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 62's value should be 1, but is 59\", \"timestamp\": \"2020-08-25T15:00:21.191746Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 62's value should be 1, but is 59\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 63's value should be 1, but is 59\", \"timestamp\": \"2020-08-25T15:00:21.191823Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 63's value should be 1, but is 59\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 64's value should be 1, but is 76\", \"timestamp\": \"2020-08-25T15:00:21.191893Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 64's value should be 1, but is 76\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 67's value should be 46, but is 1\", \"timestamp\": \"2020-08-25T15:00:21.191958Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 67's value should be 46, but is 1\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 68's value should be 46, but is 47\", \"timestamp\": \"2020-08-25T15:00:21.192022Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 68's value should be 46, but is 47\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 80's value should be 46, but is 1\", \"timestamp\": \"2020-08-25T15:00:21.192086Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 80's value should be 46, but is 1\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 83's value should be 22, but is 1\", \"timestamp\": \"2020-08-25T15:00:21.192151Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 83's value should be 22, but is 1\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 84's value should be 1, but is 76\", \"timestamp\": \"2020-08-25T15:00:21.192215Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 84's value should be 1, but is 76\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 85's value should be 22, but is 1\", \"timestamp\": \"2020-08-25T15:00:21.192279Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 85's value should be 22, but is 1\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 87's value should be 1, but is 43\", \"timestamp\": \"2020-08-25T15:00:21.192343Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 87's value should be 1, but is 43\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 88's value should be 1, but is 43\", \"timestamp\": \"2020-08-25T15:00:21.192406Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 88's value should be 1, but is 43\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 90's value should be 1, but is 34\", \"timestamp\": \"2020-08-25T15:00:21.192470Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 90's value should be 1, but is 34\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 94's value should be 46, but is 76\", \"timestamp\": \"2020-08-25T15:00:21.192534Z\", \"orig_output\": \"validate_f78d8f4f66b14242b7a4c7eb5516f4b1.LTSH - ERROR - Glyph 94's value should be 46, but is 76\", \"msg_code\": \"E1804\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 8641, \"completedDate\": \"2020-08-25 15:00:26.960090\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "jsMath-cmsy10.ttf",
+                "type": "ttf",
+                "size": 43456,
+                "md5": "c2a71444e86e6bd62dd44efa6a6930a3",
+                "geometryMd5": "67f6d9543d3e0da30a7b81483266b6a6"
+            },
+            "name": {
+                "family": "jsMath-cmsy10",
+                "subFamily": "cmsy10",
+                "fullName": "jsMath-cmsy10",
+                "psName": "jsMath-cmsy10",
+                "versionText": "Version 001.001 ",
+                "copyright": "Generated from MetaFont bitmap by mftrace 1.0.33, http://www.cs.uu.nl/~hanwen/mftrace/ ",
+                "trademark": "Unknown"
+            },
+            "format": {
+                "format": "TT"
+            },
+            "summary": {
+                "num_glyphs": 132,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "PfEd",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "jsMath-cmsy10",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 179,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 655, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.488501Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 3's value should be 655, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 30's value should be 5, but is 6",
+                        "timestamp": "2020-08-26T06:43:09.488601Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 30's value should be 5, but is 6",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 31's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.488684Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 31's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 35's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.488756Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 35's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 58's value should be 10, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.488836Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 58's value should be 10, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.488905Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 62's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.488970Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 63's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 68's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.489038Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 68's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 84's value should be 8, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.489111Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 84's value should be 8, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 87's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.489177Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 87's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 88's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.489241Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 88's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.489309Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.10 ppem - ERROR - Glyph 94's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 721, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.490218Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem - ERROR - Glyph 3's value should be 721, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 28's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.490314Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem - ERROR - Glyph 28's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 29's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.490385Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem - ERROR - Glyph 29's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 36's value should be 9, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.490456Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem - ERROR - Glyph 36's value should be 9, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.490537Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem - ERROR - Glyph 62's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.490603Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem - ERROR - Glyph 63's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 7, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.490668Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem - ERROR - Glyph 64's value should be 7, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 87's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.490745Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem - ERROR - Glyph 87's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 88's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.490811Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.11 ppem - ERROR - Glyph 88's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 786, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.491681Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 3's value should be 786, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 29's value should be 8, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.491771Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 29's value should be 8, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 32's value should be 9, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.491842Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 32's value should be 9, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 35's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.491911Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 35's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 36's value should be 10, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.491977Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 36's value should be 10, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 8, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.492057Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 62's value should be 8, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 8, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.492123Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 63's value should be 8, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 8, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.492188Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 64's value should be 8, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 68's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.492255Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 68's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 87's value should be 8, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.492330Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 87's value should be 8, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 88's value should be 8, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.492397Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 88's value should be 8, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.492465Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.12 ppem - ERROR - Glyph 94's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.13 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 852, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.493340Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.13 ppem - ERROR - Glyph 3's value should be 852, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.13 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 28's value should be 7, but is 8",
+                        "timestamp": "2020-08-26T06:43:09.493430Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.13 ppem - ERROR - Glyph 28's value should be 7, but is 8",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 983, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.494348Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 3's value should be 983, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 26's value should be 0, but is 1",
+                        "timestamp": "2020-08-26T06:43:09.494460Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 26's value should be 0, but is 1",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 28's value should be 8, but is 9",
+                        "timestamp": "2020-08-26T06:43:09.494535Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 28's value should be 8, but is 9",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 35's value should be 9, but is 10",
+                        "timestamp": "2020-08-26T06:43:09.494608Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 35's value should be 9, but is 10",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 36's value should be 12, but is 13",
+                        "timestamp": "2020-08-26T06:43:09.494675Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 36's value should be 12, but is 13",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 10, but is 11",
+                        "timestamp": "2020-08-26T06:43:09.494755Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 62's value should be 10, but is 11",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 10, but is 11",
+                        "timestamp": "2020-08-26T06:43:09.494830Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 63's value should be 10, but is 11",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 10, but is 11",
+                        "timestamp": "2020-08-26T06:43:09.494898Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 64's value should be 10, but is 11",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 68's value should be 9, but is 10",
+                        "timestamp": "2020-08-26T06:43:09.494966Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 68's value should be 9, but is 10",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 84's value should be 11, but is 12",
+                        "timestamp": "2020-08-26T06:43:09.495040Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 84's value should be 11, but is 12",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 90's value should be 12, but is 11",
+                        "timestamp": "2020-08-26T06:43:09.495108Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 90's value should be 12, but is 11",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 9, but is 10",
+                        "timestamp": "2020-08-26T06:43:09.495174Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.15 ppem - ERROR - Glyph 94's value should be 9, but is 10",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.16 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 1049, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.496060Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.16 ppem - ERROR - Glyph 3's value should be 1049, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.16 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 32's value should be 12, but is 11",
+                        "timestamp": "2020-08-26T06:43:09.496153Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.16 ppem - ERROR - Glyph 32's value should be 12, but is 11",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.16 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 90's value should be 12, but is 13",
+                        "timestamp": "2020-08-26T06:43:09.496253Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.16 ppem - ERROR - Glyph 90's value should be 12, but is 13",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 1114, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.497121Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 3's value should be 1114, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 28's value should be 9, but is 10",
+                        "timestamp": "2020-08-26T06:43:09.497208Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 28's value should be 9, but is 10",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 29's value should be 11, but is 12",
+                        "timestamp": "2020-08-26T06:43:09.497277Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 29's value should be 11, but is 12",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 31's value should be 12, but is 13",
+                        "timestamp": "2020-08-26T06:43:09.497345Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 31's value should be 12, but is 13",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 35's value should be 10, but is 11",
+                        "timestamp": "2020-08-26T06:43:09.497413Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 35's value should be 10, but is 11",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 11, but is 12",
+                        "timestamp": "2020-08-26T06:43:09.497492Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 62's value should be 11, but is 12",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 11, but is 12",
+                        "timestamp": "2020-08-26T06:43:09.497556Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 63's value should be 11, but is 12",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 68's value should be 10, but is 11",
+                        "timestamp": "2020-08-26T06:43:09.497638Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 68's value should be 10, but is 11",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 87's value should be 11, but is 12",
+                        "timestamp": "2020-08-26T06:43:09.497716Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 87's value should be 11, but is 12",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 88's value should be 11, but is 12",
+                        "timestamp": "2020-08-26T06:43:09.497782Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 88's value should be 11, but is 12",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 90's value should be 13, but is 14",
+                        "timestamp": "2020-08-26T06:43:09.497848Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 90's value should be 13, but is 14",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 10, but is 11",
+                        "timestamp": "2020-08-26T06:43:09.497915Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.17 ppem - ERROR - Glyph 94's value should be 10, but is 11",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.19 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 1245, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.498798Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.19 ppem - ERROR - Glyph 3's value should be 1245, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.21 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 1376, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.499723Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.21 ppem - ERROR - Glyph 3's value should be 1376, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.21 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 36's value should be 17, but is 16",
+                        "timestamp": "2020-08-26T06:43:09.499818Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.21 ppem - ERROR - Glyph 36's value should be 17, but is 16",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.21 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 14, but is 13",
+                        "timestamp": "2020-08-26T06:43:09.499904Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.21 ppem - ERROR - Glyph 64's value should be 14, but is 13",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 1573, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.500784Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem - ERROR - Glyph 3's value should be 1573, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 31's value should be 17, but is 18",
+                        "timestamp": "2020-08-26T06:43:09.500873Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem - ERROR - Glyph 31's value should be 17, but is 18",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 35's value should be 15, but is 14",
+                        "timestamp": "2020-08-26T06:43:09.500943Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem - ERROR - Glyph 35's value should be 15, but is 14",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 36's value should be 19, but is 20",
+                        "timestamp": "2020-08-26T06:43:09.501010Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem - ERROR - Glyph 36's value should be 19, but is 20",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 16, but is 15",
+                        "timestamp": "2020-08-26T06:43:09.501090Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem - ERROR - Glyph 64's value should be 16, but is 15",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 68's value should be 15, but is 14",
+                        "timestamp": "2020-08-26T06:43:09.501157Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem - ERROR - Glyph 68's value should be 15, but is 14",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 87's value should be 16, but is 17",
+                        "timestamp": "2020-08-26T06:43:09.501233Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem - ERROR - Glyph 87's value should be 16, but is 17",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 88's value should be 16, but is 17",
+                        "timestamp": "2020-08-26T06:43:09.501297Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem - ERROR - Glyph 88's value should be 16, but is 17",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 90's value should be 19, but is 18",
+                        "timestamp": "2020-08-26T06:43:09.501363Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.24 ppem - ERROR - Glyph 90's value should be 19, but is 18",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.27 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 1769, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.502238Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.27 ppem - ERROR - Glyph 3's value should be 1769, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.27 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 31's value should be 20, but is 19",
+                        "timestamp": "2020-08-26T06:43:09.502330Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.27 ppem - ERROR - Glyph 31's value should be 20, but is 19",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.27 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 32's value should be 20, but is 19",
+                        "timestamp": "2020-08-26T06:43:09.502400Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.27 ppem - ERROR - Glyph 32's value should be 20, but is 19",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.27 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 17, but is 16",
+                        "timestamp": "2020-08-26T06:43:09.502501Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.27 ppem - ERROR - Glyph 94's value should be 17, but is 16",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 1900, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.503383Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem - ERROR - Glyph 3's value should be 1900, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 29's value should be 19, but is 20",
+                        "timestamp": "2020-08-26T06:43:09.503472Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem - ERROR - Glyph 29's value should be 19, but is 20",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 19, but is 20",
+                        "timestamp": "2020-08-26T06:43:09.503559Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem - ERROR - Glyph 62's value should be 19, but is 20",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 19, but is 20",
+                        "timestamp": "2020-08-26T06:43:09.503626Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem - ERROR - Glyph 63's value should be 19, but is 20",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 18, but is 17",
+                        "timestamp": "2020-08-26T06:43:09.503708Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.29 ppem - ERROR - Glyph 94's value should be 18, but is 17",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.32 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 2097, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.504583Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.32 ppem - ERROR - Glyph 3's value should be 2097, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.32 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 32's value should be 23, but is 24",
+                        "timestamp": "2020-08-26T06:43:09.504673Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.32 ppem - ERROR - Glyph 32's value should be 23, but is 24",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.32 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 36's value should be 26, but is 25",
+                        "timestamp": "2020-08-26T06:43:09.504744Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.32 ppem - ERROR - Glyph 36's value should be 26, but is 25",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.33 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 2163, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.505659Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.33 ppem - ERROR - Glyph 3's value should be 2163, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.33 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 30's value should be 17, but is 16",
+                        "timestamp": "2020-08-26T06:43:09.505751Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.33 ppem - ERROR - Glyph 30's value should be 17, but is 16",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.33 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 22, but is 23",
+                        "timestamp": "2020-08-26T06:43:09.505838Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.33 ppem - ERROR - Glyph 64's value should be 22, but is 23",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.33 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 90's value should be 26, but is 25",
+                        "timestamp": "2020-08-26T06:43:09.505918Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.33 ppem - ERROR - Glyph 90's value should be 26, but is 25",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 2425, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.506795Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 3's value should be 2425, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 26's value should be 0, but is 255",
+                        "timestamp": "2020-08-26T06:43:09.506883Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 26's value should be 0, but is 255",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 28's value should be 21, but is 20",
+                        "timestamp": "2020-08-26T06:43:09.506952Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 28's value should be 21, but is 20",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 29's value should be 25, but is 24",
+                        "timestamp": "2020-08-26T06:43:09.507019Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 29's value should be 25, but is 24",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 30's value should be 19, but is 18",
+                        "timestamp": "2020-08-26T06:43:09.507084Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 30's value should be 19, but is 18",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 36's value should be 30, but is 29",
+                        "timestamp": "2020-08-26T06:43:09.507152Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 36's value should be 30, but is 29",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 58's value should be 37, but is 36",
+                        "timestamp": "2020-08-26T06:43:09.507229Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 58's value should be 37, but is 36",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 25, but is 24",
+                        "timestamp": "2020-08-26T06:43:09.507296Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 62's value should be 25, but is 24",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 68's value should be 23, but is 22",
+                        "timestamp": "2020-08-26T06:43:09.507363Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 68's value should be 23, but is 22",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 87's value should be 25, but is 24",
+                        "timestamp": "2020-08-26T06:43:09.507439Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 87's value should be 25, but is 24",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 88's value should be 25, but is 24",
+                        "timestamp": "2020-08-26T06:43:09.507504Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 88's value should be 25, but is 24",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 23, but is 22",
+                        "timestamp": "2020-08-26T06:43:09.507572Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.37 ppem - ERROR - Glyph 94's value should be 23, but is 22",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 2752, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.508431Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem - ERROR - Glyph 3's value should be 2752, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 32's value should be 30, but is 31",
+                        "timestamp": "2020-08-26T06:43:09.508521Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem - ERROR - Glyph 32's value should be 30, but is 31",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 35's value should be 26, but is 25",
+                        "timestamp": "2020-08-26T06:43:09.508591Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem - ERROR - Glyph 35's value should be 26, but is 25",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 36's value should be 34, but is 33",
+                        "timestamp": "2020-08-26T06:43:09.508664Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem - ERROR - Glyph 36's value should be 34, but is 33",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 58's value should be 42, but is 41",
+                        "timestamp": "2020-08-26T06:43:09.508744Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem - ERROR - Glyph 58's value should be 42, but is 41",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 68's value should be 26, but is 25",
+                        "timestamp": "2020-08-26T06:43:09.508814Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem - ERROR - Glyph 68's value should be 26, but is 25",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 84's value should be 32, but is 31",
+                        "timestamp": "2020-08-26T06:43:09.508887Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem - ERROR - Glyph 84's value should be 32, but is 31",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 87's value should be 28, but is 29",
+                        "timestamp": "2020-08-26T06:43:09.508954Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem - ERROR - Glyph 87's value should be 28, but is 29",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 88's value should be 28, but is 29",
+                        "timestamp": "2020-08-26T06:43:09.509019Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.42 ppem - ERROR - Glyph 88's value should be 28, but is 29",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 3015, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.509913Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem - ERROR - Glyph 3's value should be 3015, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 31's value should be 33, but is 34",
+                        "timestamp": "2020-08-26T06:43:09.510005Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem - ERROR - Glyph 31's value should be 33, but is 34",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 35's value should be 28, but is 29",
+                        "timestamp": "2020-08-26T06:43:09.510076Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem - ERROR - Glyph 35's value should be 28, but is 29",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 31, but is 32",
+                        "timestamp": "2020-08-26T06:43:09.510160Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem - ERROR - Glyph 64's value should be 31, but is 32",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 68's value should be 28, but is 29",
+                        "timestamp": "2020-08-26T06:43:09.510228Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.46 ppem - ERROR - Glyph 68's value should be 28, but is 29",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 3277, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.511103Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem - ERROR - Glyph 3's value should be 3277, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 29's value should be 33, but is 34",
+                        "timestamp": "2020-08-26T06:43:09.511192Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem - ERROR - Glyph 29's value should be 33, but is 34",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 33, but is 34",
+                        "timestamp": "2020-08-26T06:43:09.511279Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem - ERROR - Glyph 62's value should be 33, but is 34",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 33, but is 34",
+                        "timestamp": "2020-08-26T06:43:09.511346Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem - ERROR - Glyph 63's value should be 33, but is 34",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 33, but is 34",
+                        "timestamp": "2020-08-26T06:43:09.511412Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem - ERROR - Glyph 64's value should be 33, but is 34",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 84's value should be 38, but is 37",
+                        "timestamp": "2020-08-26T06:43:09.511489Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.50 ppem - ERROR - Glyph 84's value should be 38, but is 37",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.54 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 3539, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.512681Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.54 ppem - ERROR - Glyph 3's value should be 3539, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 3801, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.514134Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 3's value should be 3801, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 26's value should be 0, but is 255",
+                        "timestamp": "2020-08-26T06:43:09.514233Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 26's value should be 0, but is 255",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 29's value should be 39, but is 38",
+                        "timestamp": "2020-08-26T06:43:09.514307Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 29's value should be 39, but is 38",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 30's value should be 29, but is 28",
+                        "timestamp": "2020-08-26T06:43:09.514376Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 30's value should be 29, but is 28",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 31's value should be 42, but is 41",
+                        "timestamp": "2020-08-26T06:43:09.514443Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 31's value should be 42, but is 41",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 39, but is 38",
+                        "timestamp": "2020-08-26T06:43:09.514526Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 62's value should be 39, but is 38",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 39, but is 38",
+                        "timestamp": "2020-08-26T06:43:09.514592Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 63's value should be 39, but is 38",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 39, but is 38",
+                        "timestamp": "2020-08-26T06:43:09.514658Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 64's value should be 39, but is 38",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 84's value should be 44, but is 43",
+                        "timestamp": "2020-08-26T06:43:09.514734Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 84's value should be 44, but is 43",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 35, but is 36",
+                        "timestamp": "2020-08-26T06:43:09.514804Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.58 ppem - ERROR - Glyph 94's value should be 35, but is 36",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 4391, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.515680Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem - ERROR - Glyph 3's value should be 4391, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 26's value should be 0, but is 1",
+                        "timestamp": "2020-08-26T06:43:09.515771Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem - ERROR - Glyph 26's value should be 0, but is 1",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 28's value should be 37, but is 38",
+                        "timestamp": "2020-08-26T06:43:09.515843Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem - ERROR - Glyph 28's value should be 37, but is 38",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 84's value should be 50, but is 51",
+                        "timestamp": "2020-08-26T06:43:09.515948Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem - ERROR - Glyph 84's value should be 50, but is 51",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 41, but is 42",
+                        "timestamp": "2020-08-26T06:43:09.516031Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.67 ppem - ERROR - Glyph 94's value should be 41, but is 42",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.75 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 4915, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.516896Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.75 ppem - ERROR - Glyph 3's value should be 4915, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.75 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 50, but is 49",
+                        "timestamp": "2020-08-26T06:43:09.517018Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.75 ppem - ERROR - Glyph 64's value should be 50, but is 49",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.75 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 84's value should be 56, but is 57",
+                        "timestamp": "2020-08-26T06:43:09.517102Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.75 ppem - ERROR - Glyph 84's value should be 56, but is 57",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.75 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 46, but is 45",
+                        "timestamp": "2020-08-26T06:43:09.517175Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.75 ppem - ERROR - Glyph 94's value should be 46, but is 45",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 3's value should be 590, but is 0",
+                        "timestamp": "2020-08-26T06:43:09.486921Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem - ERROR - Glyph 3's value should be 590, but is 0",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 28's value should be 5, but is 6",
+                        "timestamp": "2020-08-26T06:43:09.487057Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem - ERROR - Glyph 28's value should be 5, but is 6",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 29's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.487135Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem - ERROR - Glyph 29's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 31's value should be 7, but is 6",
+                        "timestamp": "2020-08-26T06:43:09.487208Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem - ERROR - Glyph 31's value should be 7, but is 6",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.487293Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem - ERROR - Glyph 62's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.487360Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem - ERROR - Glyph 63's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.487425Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem - ERROR - Glyph 64's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 87's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.487504Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem - ERROR - Glyph 87's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 88's value should be 6, but is 7",
+                        "timestamp": "2020-08-26T06:43:09.487571Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hdmx.9 ppem - ERROR - Glyph 88's value should be 6, but is 7",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.hhea",
+                        "levelname": "ERROR",
+                        "message": "The advanceWidthMax value (1201) does not match the expected value (65534)",
+                        "timestamp": "2020-08-26T06:43:09.764298Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.hhea - ERROR - The advanceWidthMax value (1201) does not match the expected value (65534)",
+                        "msg_code": "E1400"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 13's value should be 46, but is 1",
+                        "timestamp": "2020-08-26T06:43:05.958135Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 13's value should be 46, but is 1",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 14's value should be 46, but is 1",
+                        "timestamp": "2020-08-26T06:43:05.958309Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 14's value should be 46, but is 1",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 26's value should be 1, but is 68",
+                        "timestamp": "2020-08-26T06:43:05.958388Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 26's value should be 1, but is 68",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 28's value should be 1, but is 68",
+                        "timestamp": "2020-08-26T06:43:05.958459Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 28's value should be 1, but is 68",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 29's value should be 1, but is 59",
+                        "timestamp": "2020-08-26T06:43:05.958525Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 29's value should be 1, but is 59",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 30's value should be 1, but is 59",
+                        "timestamp": "2020-08-26T06:43:05.958590Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 30's value should be 1, but is 59",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 31's value should be 28, but is 59",
+                        "timestamp": "2020-08-26T06:43:05.958653Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 31's value should be 28, but is 59",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 32's value should be 28, but is 43",
+                        "timestamp": "2020-08-26T06:43:05.958716Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 32's value should be 28, but is 43",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 35's value should be 46, but is 47",
+                        "timestamp": "2020-08-26T06:43:05.958779Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 35's value should be 46, but is 47",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 36's value should be 1, but is 43",
+                        "timestamp": "2020-08-26T06:43:05.958842Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 36's value should be 1, but is 43",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 38's value should be 38, but is 1",
+                        "timestamp": "2020-08-26T06:43:05.958905Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 38's value should be 38, but is 1",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 42's value should be 22, but is 1",
+                        "timestamp": "2020-08-26T06:43:05.958968Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 42's value should be 22, but is 1",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 52's value should be 42, but is 1",
+                        "timestamp": "2020-08-26T06:43:05.959030Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 52's value should be 42, but is 1",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 62's value should be 1, but is 59",
+                        "timestamp": "2020-08-26T06:43:05.959093Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 62's value should be 1, but is 59",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 63's value should be 1, but is 59",
+                        "timestamp": "2020-08-26T06:43:05.959155Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 63's value should be 1, but is 59",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 64's value should be 1, but is 76",
+                        "timestamp": "2020-08-26T06:43:05.959217Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 64's value should be 1, but is 76",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 67's value should be 46, but is 1",
+                        "timestamp": "2020-08-26T06:43:05.959280Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 67's value should be 46, but is 1",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 68's value should be 46, but is 47",
+                        "timestamp": "2020-08-26T06:43:05.959342Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 68's value should be 46, but is 47",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 80's value should be 46, but is 1",
+                        "timestamp": "2020-08-26T06:43:05.959405Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 80's value should be 46, but is 1",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 83's value should be 22, but is 1",
+                        "timestamp": "2020-08-26T06:43:05.959466Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 83's value should be 22, but is 1",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 84's value should be 1, but is 76",
+                        "timestamp": "2020-08-26T06:43:05.959528Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 84's value should be 1, but is 76",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 85's value should be 22, but is 1",
+                        "timestamp": "2020-08-26T06:43:05.959590Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 85's value should be 22, but is 1",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 87's value should be 1, but is 43",
+                        "timestamp": "2020-08-26T06:43:05.959666Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 87's value should be 1, but is 43",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 88's value should be 1, but is 43",
+                        "timestamp": "2020-08-26T06:43:05.959731Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 88's value should be 1, but is 43",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 90's value should be 1, but is 34",
+                        "timestamp": "2020-08-26T06:43:05.959793Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 90's value should be 1, but is 34",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 94's value should be 46, but is 76",
+                        "timestamp": "2020-08-26T06:43:05.959856Z",
+                        "orig_output": "validate_9602b7723e08494c88aacdd44fa9d96d.LTSH - ERROR - Glyph 94's value should be 46, but is 76",
+                        "msg_code": "E1804"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 9017,
+    "completedDate": "2020-08-26 06:43:11.297830"
+}

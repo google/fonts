@@ -1,1 +1,60 @@
-"{\"processed\": [{\"file\": {\"name\": \"Roboto-Italic[wdth,wght].ttf\", \"type\": \"ttf\", \"size\": 505816, \"md5\": \"5783de8ba26d8384d401b0e946b14191\", \"geometryMd5\": \"27b14e23dac6e306eb2e767974532f5e\"}, \"name\": {\"family\": \"Roboto\", \"subFamily\": \"Italic\", \"fullName\": \"Roboto Italic\", \"psName\": \"Roboto-Italic\", \"versionText\": \"Version 3.002; 2020\", \"copyright\": \"Copyright 2011 Google Inc. All Rights Reserved.\", \"trademark\": \"Roboto is a trademark of Google.\", \"variationsPSNamePrefix\": \"RobotoItalic\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 1295, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"GOOG\", \"font_vendor\": \"Google\"}, \"validation\": {\"font_full_name\": \"Roboto Italic\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 1, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_42c8e01280e649bc9c8a230dc214b66c.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 1130, but is 1161\", \"timestamp\": \"2020-08-25T15:06:37.839958Z\", \"orig_output\": \"validate_42c8e01280e649bc9c8a230dc214b66c.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1130, but is 1161\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 122720, \"completedDate\": \"2020-08-25 15:08:22.195539\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Roboto-Italic[wdth,wght].ttf",
+                "type": "ttf",
+                "size": 505816,
+                "md5": "5783de8ba26d8384d401b0e946b14191",
+                "geometryMd5": "27b14e23dac6e306eb2e767974532f5e"
+            },
+            "name": {
+                "family": "Roboto",
+                "subFamily": "Italic",
+                "fullName": "Roboto Italic",
+                "psName": "Roboto-Italic",
+                "versionText": "Version 3.002; 2020",
+                "copyright": "Copyright 2011 Google Inc. All Rights Reserved.",
+                "trademark": "Roboto is a trademark of Google.",
+                "variationsPSNamePrefix": "RobotoItalic"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 1295,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "GOOG",
+                "font_vendor": "Google"
+            },
+            "validation": {
+                "font_full_name": "Roboto Italic",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_a6e3dbe0177c494bbdbee7f00649a2cc.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 1130, but is 1161",
+                        "timestamp": "2020-08-26T06:48:32.705275Z",
+                        "orig_output": "validate_a6e3dbe0177c494bbdbee7f00649a2cc.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1130, but is 1161",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 116395,
+    "completedDate": "2020-08-26 06:50:11.606401"
+}

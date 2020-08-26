@@ -1,1 +1,115 @@
-"{\"processed\": [{\"file\": {\"name\": \"OpenSansHebrewCondensed-Regular.ttf\", \"type\": \"ttf\", \"size\": 32364, \"md5\": \"a4fb5655ce25a0601b78be4bf3a9d7bb\", \"geometryMd5\": \"1f05fc7264c621e19ef808faef991b80\"}, \"name\": {\"family\": \"Open Sans Hebrew Condensed\", \"subFamily\": \"Regular\", \"fullName\": \"Open Sans Hebrew Condensed\", \"psName\": \"OpenSansHebrewCondensed-Regular\", \"versionText\": \"Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329\", \"copyright\": \"copyright missing\", \"trademark\": \"Unknown\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 310, \"embedding\": \"Editable Embedding\", \"font_vendor_id\": \"UKWN\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Open Sans Hebrew Condensed\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 8, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_e49172101687455abfb510458e8088df.fontedit.OS_2.PANOSE.proportion\", \"levelname\": \"ERROR\", \"message\": \"Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T14:57:50.447615Z\", \"orig_output\": \"validate_e49172101687455abfb510458e8088df.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2108\"}, {\"subroutine\": \"validate_e49172101687455abfb510458e8088df.fontedit.OS_2.PANOSE.weight\", \"levelname\": \"ERROR\", \"message\": \"Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T14:57:50.447790Z\", \"orig_output\": \"validate_e49172101687455abfb510458e8088df.fontedit.OS_2.PANOSE.weight - ERROR - Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2111\"}, {\"subroutine\": \"validate_e49172101687455abfb510458e8088df.glyf.glyph 106 ('section')\", \"levelname\": \"ERROR\", \"message\": \"Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].\", \"timestamp\": \"2020-08-25T14:57:51.865018Z\", \"orig_output\": \"validate_e49172101687455abfb510458e8088df.glyf.glyph 106 ('section') - ERROR - Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].\", \"msg_code\": \"E1112\"}, {\"subroutine\": \"validate_e49172101687455abfb510458e8088df.glyf.glyph 127 ('onequarter').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:57:52.013624Z\", \"orig_output\": \"validate_e49172101687455abfb510458e8088df.glyf.glyph 127 ('onequarter').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_e49172101687455abfb510458e8088df.glyf.glyph 275 ('uni20AA').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:57:53.219609Z\", \"orig_output\": \"validate_e49172101687455abfb510458e8088df.glyf.glyph 275 ('uni20AA').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_e49172101687455abfb510458e8088df.glyf.glyph 46 ('J')\", \"levelname\": \"ERROR\", \"message\": \"Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].\", \"timestamp\": \"2020-08-25T14:57:51.383901Z\", \"orig_output\": \"validate_e49172101687455abfb510458e8088df.glyf.glyph 46 ('J') - ERROR - Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].\", \"msg_code\": \"E1112\"}, {\"subroutine\": \"validate_e49172101687455abfb510458e8088df.OS_2.usMaxContext\", \"levelname\": \"ERROR\", \"message\": \"The usMaxContext should be 1, but is 4\", \"timestamp\": \"2020-08-25T14:57:51.074081Z\", \"orig_output\": \"validate_e49172101687455abfb510458e8088df.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4\", \"msg_code\": \"V0831\"}, {\"subroutine\": \"validate_e49172101687455abfb510458e8088df.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 843, but is 844\", \"timestamp\": \"2020-08-25T14:57:51.074364Z\", \"orig_output\": \"validate_e49172101687455abfb510458e8088df.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 843, but is 844\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 5412, \"completedDate\": \"2020-08-25 14:57:54.286518\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "OpenSansHebrewCondensed-Regular.ttf",
+                "type": "ttf",
+                "size": 32364,
+                "md5": "a4fb5655ce25a0601b78be4bf3a9d7bb",
+                "geometryMd5": "1f05fc7264c621e19ef808faef991b80"
+            },
+            "name": {
+                "family": "Open Sans Hebrew Condensed",
+                "subFamily": "Regular",
+                "fullName": "Open Sans Hebrew Condensed",
+                "psName": "OpenSansHebrewCondensed-Regular",
+                "versionText": "Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329",
+                "copyright": "copyright missing",
+                "trademark": "Unknown"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 310,
+                "embedding": "Editable Embedding",
+                "font_vendor_id": "UKWN",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Open Sans Hebrew Condensed",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 8,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_068e72329ca747e3adf2002638e55e99.fontedit.OS_2.PANOSE.proportion",
+                        "levelname": "ERROR",
+                        "message": "Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:42:10.098906Z",
+                        "orig_output": "validate_068e72329ca747e3adf2002638e55e99.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2108"
+                    },
+                    {
+                        "subroutine": "validate_068e72329ca747e3adf2002638e55e99.fontedit.OS_2.PANOSE.weight",
+                        "levelname": "ERROR",
+                        "message": "Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:42:10.099075Z",
+                        "orig_output": "validate_068e72329ca747e3adf2002638e55e99.fontedit.OS_2.PANOSE.weight - ERROR - Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2111"
+                    },
+                    {
+                        "subroutine": "validate_068e72329ca747e3adf2002638e55e99.glyf.glyph 106 ('section')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].",
+                        "timestamp": "2020-08-26T06:42:11.583077Z",
+                        "orig_output": "validate_068e72329ca747e3adf2002638e55e99.glyf.glyph 106 ('section') - ERROR - Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_068e72329ca747e3adf2002638e55e99.glyf.glyph 127 ('onequarter').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:42:11.732731Z",
+                        "orig_output": "validate_068e72329ca747e3adf2002638e55e99.glyf.glyph 127 ('onequarter').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_068e72329ca747e3adf2002638e55e99.glyf.glyph 275 ('uni20AA').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:42:12.932386Z",
+                        "orig_output": "validate_068e72329ca747e3adf2002638e55e99.glyf.glyph 275 ('uni20AA').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_068e72329ca747e3adf2002638e55e99.glyf.glyph 46 ('J')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].",
+                        "timestamp": "2020-08-26T06:42:11.108871Z",
+                        "orig_output": "validate_068e72329ca747e3adf2002638e55e99.glyf.glyph 46 ('J') - ERROR - Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_068e72329ca747e3adf2002638e55e99.OS_2.usMaxContext",
+                        "levelname": "ERROR",
+                        "message": "The usMaxContext should be 1, but is 4",
+                        "timestamp": "2020-08-26T06:42:10.784013Z",
+                        "orig_output": "validate_068e72329ca747e3adf2002638e55e99.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
+                        "msg_code": "V0831"
+                    },
+                    {
+                        "subroutine": "validate_068e72329ca747e3adf2002638e55e99.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 843, but is 844",
+                        "timestamp": "2020-08-26T06:42:10.784428Z",
+                        "orig_output": "validate_068e72329ca747e3adf2002638e55e99.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 843, but is 844",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 5494,
+    "completedDate": "2020-08-26 06:42:14.000962"
+}

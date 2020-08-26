@@ -1,1 +1,59 @@
-"{\"processed\": [{\"file\": {\"name\": \"OpenSans-Bold.ttf\", \"type\": \"ttf\", \"size\": 224452, \"md5\": \"f5331cb6372b6c0d8baf2dd7e200498c\", \"geometryMd5\": \"dc477fa88c8fbec2f5de77241ebccafb\"}, \"name\": {\"family\": \"Open Sans\", \"subFamily\": \"Bold\", \"fullName\": \"Open Sans Bold\", \"psName\": \"OpenSans-Bold\", \"versionText\": \"Version 1.10\", \"copyright\": \"Digitized data copyright \\u00a9 2010-2011, Google Corporation.\", \"trademark\": \"Open Sans is a trademark of Google and may be registered in certain jurisdictions.\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 938, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"1ASC\", \"font_vendor\": \"Ascender Corporation\"}, \"validation\": {\"font_full_name\": \"Open Sans Bold\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 1, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_5afb08099d5449759800bdc159d2e73a.fontedit.kern.format0\", \"levelname\": \"ERROR\", \"message\": \"Insufficient bytes for pair data.\", \"timestamp\": \"2020-08-25T14:54:42.747083Z\", \"orig_output\": \"validate_5afb08099d5449759800bdc159d2e73a.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.\", \"msg_code\": \"V0136\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 20995, \"completedDate\": \"2020-08-25 14:55:02.002395\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "OpenSans-Bold.ttf",
+                "type": "ttf",
+                "size": 224452,
+                "md5": "f5331cb6372b6c0d8baf2dd7e200498c",
+                "geometryMd5": "dc477fa88c8fbec2f5de77241ebccafb"
+            },
+            "name": {
+                "family": "Open Sans",
+                "subFamily": "Bold",
+                "fullName": "Open Sans Bold",
+                "psName": "OpenSans-Bold",
+                "versionText": "Version 1.10",
+                "copyright": "Digitized data copyright \u00a9 2010-2011, Google Corporation.",
+                "trademark": "Open Sans is a trademark of Google and may be registered in certain jurisdictions."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 938,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "1ASC",
+                "font_vendor": "Ascender Corporation"
+            },
+            "validation": {
+                "font_full_name": "Open Sans Bold",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_cd798709b80a47f697fa5dd9a0232206.fontedit.kern.format0",
+                        "levelname": "ERROR",
+                        "message": "Insufficient bytes for pair data.",
+                        "timestamp": "2020-08-26T06:39:58.494902Z",
+                        "orig_output": "validate_cd798709b80a47f697fa5dd9a0232206.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
+                        "msg_code": "V0136"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 21145,
+    "completedDate": "2020-08-26 06:40:17.970027"
+}

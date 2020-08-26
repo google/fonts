@@ -1,1 +1,59 @@
-"{\"processed\": [{\"file\": {\"name\": \"OpenSans-BoldItalic.ttf\", \"type\": \"ttf\", \"size\": 213168, \"md5\": \"f40598dd8ea8593e91ab28aa48130cf1\", \"geometryMd5\": \"13e07c30b71ba1786cfa8eee5cf6815e\"}, \"name\": {\"family\": \"Open Sans\", \"subFamily\": \"Bold Italic\", \"fullName\": \"Open Sans Bold Italic\", \"psName\": \"OpenSans-BoldItalic\", \"versionText\": \"Version 1.10\", \"copyright\": \"Digitized data copyright \\u00a9 2010-2011, Google Corporation.\", \"trademark\": \"Open Sans is a trademark of Google and may be registered in certain jurisdictions.\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 938, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"1ASC\", \"font_vendor\": \"Ascender Corporation\"}, \"validation\": {\"font_full_name\": \"Open Sans Bold Italic\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 1, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_e587454762814ee1bf8f1019b92dfc89.fontedit.kern.format0\", \"levelname\": \"ERROR\", \"message\": \"Insufficient bytes for pair data.\", \"timestamp\": \"2020-08-25T15:01:13.127150Z\", \"orig_output\": \"validate_e587454762814ee1bf8f1019b92dfc89.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.\", \"msg_code\": \"V0136\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 22297, \"completedDate\": \"2020-08-25 15:01:33.573684\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "OpenSans-BoldItalic.ttf",
+                "type": "ttf",
+                "size": 213168,
+                "md5": "f40598dd8ea8593e91ab28aa48130cf1",
+                "geometryMd5": "13e07c30b71ba1786cfa8eee5cf6815e"
+            },
+            "name": {
+                "family": "Open Sans",
+                "subFamily": "Bold Italic",
+                "fullName": "Open Sans Bold Italic",
+                "psName": "OpenSans-BoldItalic",
+                "versionText": "Version 1.10",
+                "copyright": "Digitized data copyright \u00a9 2010-2011, Google Corporation.",
+                "trademark": "Open Sans is a trademark of Google and may be registered in certain jurisdictions."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 938,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "1ASC",
+                "font_vendor": "Ascender Corporation"
+            },
+            "validation": {
+                "font_full_name": "Open Sans Bold Italic",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_987842b9f0744ca489c52614084cfd45.fontedit.kern.format0",
+                        "levelname": "ERROR",
+                        "message": "Insufficient bytes for pair data.",
+                        "timestamp": "2020-08-26T06:44:42.016399Z",
+                        "orig_output": "validate_987842b9f0744ca489c52614084cfd45.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
+                        "msg_code": "V0136"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 20602,
+    "completedDate": "2020-08-26 06:45:00.949035"
+}

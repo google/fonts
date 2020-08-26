@@ -1,1 +1,74 @@
-"{\"processed\": [{\"file\": {\"name\": \"CherryCreamSoda-Regular.ttf\", \"type\": \"ttf\", \"size\": 50256, \"md5\": \"ea3bba02ae734f074617c7a45726169b\", \"geometryMd5\": \"50689102bce4c254c38f241122b5e3b5\"}, \"name\": {\"family\": \"Cherry Cream Soda\", \"subFamily\": \"Regular\", \"fullName\": \"Cherry Cream Soda Regular\", \"psName\": \"CherryCreamSoda-Regular\", \"versionText\": \"Version 1.001\", \"copyright\": \"Copyright (c) 2010 by Font Diner, Inc. All rights reserved.\", \"trademark\": \"Cherry Cream Soda is a trademark of Font Diner, Inc.\"}, \"format\": {\"format\": \"TT\"}, \"summary\": {\"num_glyphs\": 228, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"DINR\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Cherry Cream Soda Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 3, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_90637da0155747089d9514d05ecde9f0.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:05:24.386395Z\", \"orig_output\": \"validate_90637da0155747089d9514d05ecde9f0.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_90637da0155747089d9514d05ecde9f0.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:05:24.386625Z\", \"orig_output\": \"validate_90637da0155747089d9514d05ecde9f0.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_90637da0155747089d9514d05ecde9f0.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasTags' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:05:24.386731Z\", \"orig_output\": \"validate_90637da0155747089d9514d05ecde9f0.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.\", \"msg_code\": \"E2113\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 10680, \"completedDate\": \"2020-08-25 15:05:32.594113\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "CherryCreamSoda-Regular.ttf",
+                "type": "ttf",
+                "size": 50256,
+                "md5": "ea3bba02ae734f074617c7a45726169b",
+                "geometryMd5": "50689102bce4c254c38f241122b5e3b5"
+            },
+            "name": {
+                "family": "Cherry Cream Soda",
+                "subFamily": "Regular",
+                "fullName": "Cherry Cream Soda Regular",
+                "psName": "CherryCreamSoda-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2010 by Font Diner, Inc. All rights reserved.",
+                "trademark": "Cherry Cream Soda is a trademark of Font Diner, Inc."
+            },
+            "format": {
+                "format": "TT"
+            },
+            "summary": {
+                "num_glyphs": 228,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "DINR",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Cherry Cream Soda Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 3,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_55d22a3cb5f5411ea1081e054871ef5f.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:48:43.001288Z",
+                        "orig_output": "validate_55d22a3cb5f5411ea1081e054871ef5f.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_55d22a3cb5f5411ea1081e054871ef5f.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:48:43.001466Z",
+                        "orig_output": "validate_55d22a3cb5f5411ea1081e054871ef5f.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_55d22a3cb5f5411ea1081e054871ef5f.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:48:43.001549Z",
+                        "orig_output": "validate_55d22a3cb5f5411ea1081e054871ef5f.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 10431,
+    "completedDate": "2020-08-26 06:48:51.284214"
+}

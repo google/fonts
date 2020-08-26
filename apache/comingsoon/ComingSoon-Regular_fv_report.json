@@ -1,1 +1,83 @@
-"{\"processed\": [{\"file\": {\"name\": \"ComingSoon-Regular.ttf\", \"type\": \"ttf\", \"size\": 53256, \"md5\": \"2e91c0365025abd287c9efbaae09aedd\", \"geometryMd5\": \"687d015bad8bca4b3359888865d867c8\"}, \"name\": {\"family\": \"Coming Soon\", \"subFamily\": \"Regular\", \"fullName\": \"Coming Soon Regular\", \"psName\": \"ComingSoon-Regular\", \"versionText\": \"Version 1.002\", \"copyright\": \"Copyright (c) 2010 by Open Window. All rights reserved.\", \"trademark\": \"Coming Soon is a trademark of Open Window.\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 230, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"BROS\", \"font_vendor\": \"Michael Brosnan\"}, \"validation\": {\"font_full_name\": \"Coming Soon Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 4, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_e59ed408dccf4c709796a5b2a62f265d.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:03:40.340002Z\", \"orig_output\": \"validate_e59ed408dccf4c709796a5b2a62f265d.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_e59ed408dccf4c709796a5b2a62f265d.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:03:40.340249Z\", \"orig_output\": \"validate_e59ed408dccf4c709796a5b2a62f265d.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_e59ed408dccf4c709796a5b2a62f265d.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasTags' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:03:40.340342Z\", \"orig_output\": \"validate_e59ed408dccf4c709796a5b2a62f265d.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_e59ed408dccf4c709796a5b2a62f265d.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 520, but is 522\", \"timestamp\": \"2020-08-25T15:03:40.540891Z\", \"orig_output\": \"validate_e59ed408dccf4c709796a5b2a62f265d.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 520, but is 522\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 10680, \"completedDate\": \"2020-08-25 15:03:48.303786\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "ComingSoon-Regular.ttf",
+                "type": "ttf",
+                "size": 53256,
+                "md5": "2e91c0365025abd287c9efbaae09aedd",
+                "geometryMd5": "687d015bad8bca4b3359888865d867c8"
+            },
+            "name": {
+                "family": "Coming Soon",
+                "subFamily": "Regular",
+                "fullName": "Coming Soon Regular",
+                "psName": "ComingSoon-Regular",
+                "versionText": "Version 1.002",
+                "copyright": "Copyright (c) 2010 by Open Window. All rights reserved.",
+                "trademark": "Coming Soon is a trademark of Open Window."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 230,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "BROS",
+                "font_vendor": "Michael Brosnan"
+            },
+            "validation": {
+                "font_full_name": "Coming Soon Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 4,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_ea1a6bfa24d3482493822e50618a7ed8.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:47:33.990284Z",
+                        "orig_output": "validate_ea1a6bfa24d3482493822e50618a7ed8.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_ea1a6bfa24d3482493822e50618a7ed8.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:47:33.990452Z",
+                        "orig_output": "validate_ea1a6bfa24d3482493822e50618a7ed8.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_ea1a6bfa24d3482493822e50618a7ed8.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:47:33.990533Z",
+                        "orig_output": "validate_ea1a6bfa24d3482493822e50618a7ed8.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_ea1a6bfa24d3482493822e50618a7ed8.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 520, but is 522",
+                        "timestamp": "2020-08-26T06:47:34.159601Z",
+                        "orig_output": "validate_ea1a6bfa24d3482493822e50618a7ed8.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 520, but is 522",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 9865,
+    "completedDate": "2020-08-26 06:47:41.252582"
+}

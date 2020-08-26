@@ -1,1 +1,99 @@
-"{\"processed\": [{\"file\": {\"name\": \"RobotoMono[wght].ttf\", \"type\": \"ttf\", \"size\": 184768, \"md5\": \"11570fd6c7ffcefcb6f9cd4f16c4f8c9\", \"geometryMd5\": \"d906985c61d5e473d5a5f5b360e74702\"}, \"name\": {\"family\": \"Roboto Mono\", \"subFamily\": \"Regular\", \"fullName\": \"Roboto Mono Regular\", \"psName\": \"RobotoMono-Regular\", \"versionText\": \"Version 3.000\", \"copyright\": \"Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)\", \"trademark\": \"Roboto Mono is a trademark of Google.\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 1006, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"GOOG\", \"font_vendor\": \"Google\"}, \"validation\": {\"font_full_name\": \"Roboto Mono Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 6, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.fontedit.HVAR\", \"levelname\": \"ERROR\", \"message\": \"Item Variation Store missing or empty\", \"timestamp\": \"2020-08-25T15:06:26.439621Z\", \"orig_output\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.fontedit.HVAR - ERROR - Item Variation Store missing or empty\", \"msg_code\": \"V1100\"}, {\"subroutine\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.fontedit.HVAR.IVS\", \"levelname\": \"ERROR\", \"message\": \"Insufficient bytes\", \"timestamp\": \"2020-08-25T15:06:26.439379Z\", \"orig_output\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.fontedit.HVAR.IVS - ERROR - Insufficient bytes\", \"msg_code\": \"V0004\"}, {\"subroutine\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.fontedit.OS_2.PANOSE.proportion\", \"levelname\": \"ERROR\", \"message\": \"Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T15:06:26.439935Z\", \"orig_output\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2108\"}, {\"subroutine\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.name\", \"levelname\": \"ERROR\", \"message\": \"Postscript name not present for both Mac and Windows.\", \"timestamp\": \"2020-08-25T15:06:51.195185Z\", \"orig_output\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.name - ERROR - Postscript name not present for both Mac and Windows.\", \"msg_code\": \"E2008\"}, {\"subroutine\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.OS_2.usMaxContext\", \"levelname\": \"ERROR\", \"message\": \"The usMaxContext should be 2, but is 1\", \"timestamp\": \"2020-08-25T15:06:28.311589Z\", \"orig_output\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1\", \"msg_code\": \"V0831\"}, {\"subroutine\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.post\", \"levelname\": \"ERROR\", \"message\": \"Header disagrees with PANOSE on fixed-pitch.\", \"timestamp\": \"2020-08-25T15:06:51.198615Z\", \"orig_output\": \"validate_ef0cb6dc4b9e4672a756050e4e9bd298.post - ERROR - Header disagrees with PANOSE on fixed-pitch.\", \"msg_code\": \"E2303\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 26762, \"completedDate\": \"2020-08-25 15:06:51.378247\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "RobotoMono[wght].ttf",
+                "type": "ttf",
+                "size": 184768,
+                "md5": "11570fd6c7ffcefcb6f9cd4f16c4f8c9",
+                "geometryMd5": "d906985c61d5e473d5a5f5b360e74702"
+            },
+            "name": {
+                "family": "Roboto Mono",
+                "subFamily": "Regular",
+                "fullName": "Roboto Mono Regular",
+                "psName": "RobotoMono-Regular",
+                "versionText": "Version 3.000",
+                "copyright": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+                "trademark": "Roboto Mono is a trademark of Google."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 1006,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "GOOG",
+                "font_vendor": "Google"
+            },
+            "validation": {
+                "font_full_name": "Roboto Mono Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 6,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.fontedit.HVAR",
+                        "levelname": "ERROR",
+                        "message": "Item Variation Store missing or empty",
+                        "timestamp": "2020-08-26T06:50:28.442038Z",
+                        "orig_output": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.fontedit.HVAR - ERROR - Item Variation Store missing or empty",
+                        "msg_code": "V1100"
+                    },
+                    {
+                        "subroutine": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.fontedit.HVAR.IVS",
+                        "levelname": "ERROR",
+                        "message": "Insufficient bytes",
+                        "timestamp": "2020-08-26T06:50:28.441861Z",
+                        "orig_output": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.fontedit.HVAR.IVS - ERROR - Insufficient bytes",
+                        "msg_code": "V0004"
+                    },
+                    {
+                        "subroutine": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.fontedit.OS_2.PANOSE.proportion",
+                        "levelname": "ERROR",
+                        "message": "Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:50:28.442291Z",
+                        "orig_output": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2108"
+                    },
+                    {
+                        "subroutine": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.name",
+                        "levelname": "ERROR",
+                        "message": "Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-08-26T06:50:51.701207Z",
+                        "orig_output": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "msg_code": "E2008"
+                    },
+                    {
+                        "subroutine": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.OS_2.usMaxContext",
+                        "levelname": "ERROR",
+                        "message": "The usMaxContext should be 2, but is 1",
+                        "timestamp": "2020-08-26T06:50:30.243670Z",
+                        "orig_output": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
+                        "msg_code": "V0831"
+                    },
+                    {
+                        "subroutine": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.post",
+                        "levelname": "ERROR",
+                        "message": "Header disagrees with PANOSE on fixed-pitch.",
+                        "timestamp": "2020-08-26T06:50:51.704960Z",
+                        "orig_output": "validate_82e3896cb56e40ef8ceeebb08d1fe98c.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
+                        "msg_code": "E2303"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 25145,
+    "completedDate": "2020-08-26 06:50:51.875380"
+}

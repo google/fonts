@@ -1,1 +1,84 @@
-"{\"processed\": [{\"file\": {\"name\": \"RobotoCondensed-Regular.ttf\", \"type\": \"ttf\", \"size\": 149004, \"md5\": \"a1cb1570ddae9825aa2a0b31acc69f01\", \"geometryMd5\": \"8aea58ae444cf0ceb4faadfb85de76aa\"}, \"name\": {\"family\": \"Roboto Condensed\", \"subFamily\": \"Regular\", \"fullName\": \"Roboto Condensed\", \"psName\": \"RobotoCondensed-Regular\", \"versionText\": \"Version 3.002; 2020\", \"copyright\": \"Copyright 2011 Google Inc. All Rights Reserved.\", \"trademark\": \"Roboto is a trademark of Google.\", \"variationsPSNamePrefix\": \"Roboto\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 1295, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"GOOG\", \"font_vendor\": \"Google\"}, \"validation\": {\"font_full_name\": \"Roboto Condensed\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 4, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_ea7da9b13afa4825ac9e95eb27fc13ca.glyf.glyph 199 ('U+03C1').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:59:47.589318Z\", \"orig_output\": \"validate_ea7da9b13afa4825ac9e95eb27fc13ca.glyf.glyph 199 ('U+03C1').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_ea7da9b13afa4825ac9e95eb27fc13ca.glyf.glyph 451 ('U+FFFC').contours.contour 18\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:59:50.873245Z\", \"orig_output\": \"validate_ea7da9b13afa4825ac9e95eb27fc13ca.glyf.glyph 451 ('U+FFFC').contours.contour 18 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_ea7da9b13afa4825ac9e95eb27fc13ca.name\", \"levelname\": \"ERROR\", \"message\": \"Postscript name not present for both Mac and Windows.\", \"timestamp\": \"2020-08-25T15:00:08.189681Z\", \"orig_output\": \"validate_ea7da9b13afa4825ac9e95eb27fc13ca.name - ERROR - Postscript name not present for both Mac and Windows.\", \"msg_code\": \"E2008\"}, {\"subroutine\": \"validate_ea7da9b13afa4825ac9e95eb27fc13ca.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 1026, but is 1161\", \"timestamp\": \"2020-08-25T14:59:45.565525Z\", \"orig_output\": \"validate_ea7da9b13afa4825ac9e95eb27fc13ca.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1026, but is 1161\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 37242, \"completedDate\": \"2020-08-25 15:00:18.316225\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "RobotoCondensed-Regular.ttf",
+                "type": "ttf",
+                "size": 149004,
+                "md5": "a1cb1570ddae9825aa2a0b31acc69f01",
+                "geometryMd5": "8aea58ae444cf0ceb4faadfb85de76aa"
+            },
+            "name": {
+                "family": "Roboto Condensed",
+                "subFamily": "Regular",
+                "fullName": "Roboto Condensed",
+                "psName": "RobotoCondensed-Regular",
+                "versionText": "Version 3.002; 2020",
+                "copyright": "Copyright 2011 Google Inc. All Rights Reserved.",
+                "trademark": "Roboto is a trademark of Google.",
+                "variationsPSNamePrefix": "Roboto"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 1295,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "GOOG",
+                "font_vendor": "Google"
+            },
+            "validation": {
+                "font_full_name": "Roboto Condensed",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 4,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_917a01e36c27412b9a51448910ee418d.glyf.glyph 199 ('U+03C1').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:43:48.154454Z",
+                        "orig_output": "validate_917a01e36c27412b9a51448910ee418d.glyf.glyph 199 ('U+03C1').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_917a01e36c27412b9a51448910ee418d.glyf.glyph 451 ('U+FFFC').contours.contour 18",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:43:50.671347Z",
+                        "orig_output": "validate_917a01e36c27412b9a51448910ee418d.glyf.glyph 451 ('U+FFFC').contours.contour 18 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_917a01e36c27412b9a51448910ee418d.name",
+                        "levelname": "ERROR",
+                        "message": "Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-08-26T06:44:07.376030Z",
+                        "orig_output": "validate_917a01e36c27412b9a51448910ee418d.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "msg_code": "E2008"
+                    },
+                    {
+                        "subroutine": "validate_917a01e36c27412b9a51448910ee418d.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 1026, but is 1161",
+                        "timestamp": "2020-08-26T06:43:46.094348Z",
+                        "orig_output": "validate_917a01e36c27412b9a51448910ee418d.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1026, but is 1161",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 32510,
+    "completedDate": "2020-08-26 06:44:14.007119"
+}

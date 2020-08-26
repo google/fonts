@@ -1,1 +1,59 @@
-"{\"processed\": [{\"file\": {\"name\": \"Montez-Regular.ttf\", \"type\": \"ttf\", \"size\": 77132, \"md5\": \"cf657defdbeffef991fc5ff37fcfc9a0\", \"geometryMd5\": \"1a96298c29b2d8c52a5aa9b4eec041ff\"}, \"name\": {\"family\": \"Montez\", \"subFamily\": \"Regular\", \"fullName\": \"Montez Regular\", \"psName\": \"Montez-Regular\", \"versionText\": \"Version 1.001\", \"copyright\": \"Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html\", \"trademark\": \"Montez is a trademark of Astigmatic (AOETI).\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 372, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"AOEF\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Montez Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 1, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_482f46a8992f4031ad572a50a26486ac.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 838, but is 649\", \"timestamp\": \"2020-08-25T15:08:35.767265Z\", \"orig_output\": \"validate_482f46a8992f4031ad572a50a26486ac.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 838, but is 649\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 15063, \"completedDate\": \"2020-08-25 15:08:47.734380\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Montez-Regular.ttf",
+                "type": "ttf",
+                "size": 77132,
+                "md5": "cf657defdbeffef991fc5ff37fcfc9a0",
+                "geometryMd5": "1a96298c29b2d8c52a5aa9b4eec041ff"
+            },
+            "name": {
+                "family": "Montez",
+                "subFamily": "Regular",
+                "fullName": "Montez Regular",
+                "psName": "Montez-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+                "trademark": "Montez is a trademark of Astigmatic (AOETI)."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 372,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "AOEF",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Montez Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_70299a194be34fd1b5e9246deebb098e.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 838, but is 649",
+                        "timestamp": "2020-08-26T06:52:21.414468Z",
+                        "orig_output": "validate_70299a194be34fd1b5e9246deebb098e.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 838, but is 649",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 13591,
+    "completedDate": "2020-08-26 06:52:32.226056"
+}

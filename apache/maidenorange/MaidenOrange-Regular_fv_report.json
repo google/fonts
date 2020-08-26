@@ -1,1 +1,59 @@
-"{\"processed\": [{\"file\": {\"name\": \"MaidenOrange-Regular.ttf\", \"type\": \"ttf\", \"size\": 60688, \"md5\": \"97f2ae718daf09e338be4b218207373d\", \"geometryMd5\": \"072047cb697935f07f5078824e143f09\"}, \"name\": {\"family\": \"Maiden Orange\", \"subFamily\": \"Regular\", \"fullName\": \"Maiden Orange Regular\", \"psName\": \"MaidenOrange-Regular\", \"versionText\": \"Version 1.001\", \"copyright\": \"Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html\", \"trademark\": \"Maiden Orange is a trademark of Astigmatic (AOETI).\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 369, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"AOEF\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Maiden Orange Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 1, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_482068d665274a878ddf96f4aa30d189.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 830, but is 663\", \"timestamp\": \"2020-08-25T15:04:21.511663Z\", \"orig_output\": \"validate_482068d665274a878ddf96f4aa30d189.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 830, but is 663\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 10252, \"completedDate\": \"2020-08-25 15:04:28.410510\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "MaidenOrange-Regular.ttf",
+                "type": "ttf",
+                "size": 60688,
+                "md5": "97f2ae718daf09e338be4b218207373d",
+                "geometryMd5": "072047cb697935f07f5078824e143f09"
+            },
+            "name": {
+                "family": "Maiden Orange",
+                "subFamily": "Regular",
+                "fullName": "Maiden Orange Regular",
+                "psName": "MaidenOrange-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+                "trademark": "Maiden Orange is a trademark of Astigmatic (AOETI)."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 369,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "AOEF",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Maiden Orange Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_9ad891b51ff1422287c38d26189980af.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 830, but is 663",
+                        "timestamp": "2020-08-26T06:48:14.209411Z",
+                        "orig_output": "validate_9ad891b51ff1422287c38d26189980af.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 830, but is 663",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 9725,
+    "completedDate": "2020-08-26 06:48:20.927936"
+}

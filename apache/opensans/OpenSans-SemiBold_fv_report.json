@@ -1,1 +1,61 @@
-"{\"processed\": [{\"file\": {\"name\": \"OpenSans-SemiBold.ttf\", \"type\": \"ttf\", \"size\": 221164, \"md5\": \"e1c83f9474e0cc1d84a13c6d1ddf3ca5\", \"geometryMd5\": \"1567181f03189c0dd58aee70e78192f6\"}, \"name\": {\"family\": \"Open Sans SemiBold\", \"subFamily\": \"Regular\", \"fullName\": \"Open Sans SemiBold\", \"psName\": \"OpenSans-SemiBold\", \"versionText\": \"Version 1.10\", \"copyright\": \"Digitized data copyright \\u00a9 2011, Google Corporation.\", \"trademark\": \"Open Sans is a trademark of Google and may be registered in certain jurisdictions.\", \"typographicFamily\": \"Open Sans\", \"typographicSubFamily\": \"SemiBold\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 938, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"1ASC\", \"font_vendor\": \"Ascender Corporation\"}, \"validation\": {\"font_full_name\": \"Open Sans SemiBold\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 1, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_5195a1a398b64276a3785e334b7afc79.fontedit.kern.format0\", \"levelname\": \"ERROR\", \"message\": \"Insufficient bytes for pair data.\", \"timestamp\": \"2020-08-25T14:57:29.599906Z\", \"orig_output\": \"validate_5195a1a398b64276a3785e334b7afc79.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.\", \"msg_code\": \"V0136\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 21043, \"completedDate\": \"2020-08-25 14:57:48.853423\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "OpenSans-SemiBold.ttf",
+                "type": "ttf",
+                "size": 221164,
+                "md5": "e1c83f9474e0cc1d84a13c6d1ddf3ca5",
+                "geometryMd5": "1567181f03189c0dd58aee70e78192f6"
+            },
+            "name": {
+                "family": "Open Sans SemiBold",
+                "subFamily": "Regular",
+                "fullName": "Open Sans SemiBold",
+                "psName": "OpenSans-SemiBold",
+                "versionText": "Version 1.10",
+                "copyright": "Digitized data copyright \u00a9 2011, Google Corporation.",
+                "trademark": "Open Sans is a trademark of Google and may be registered in certain jurisdictions.",
+                "typographicFamily": "Open Sans",
+                "typographicSubFamily": "SemiBold"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 938,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "1ASC",
+                "font_vendor": "Ascender Corporation"
+            },
+            "validation": {
+                "font_full_name": "Open Sans SemiBold",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_1dd152b9a9da475395eec93a1a8f50a1.fontedit.kern.format0",
+                        "levelname": "ERROR",
+                        "message": "Insufficient bytes for pair data.",
+                        "timestamp": "2020-08-26T06:41:30.815282Z",
+                        "orig_output": "validate_1dd152b9a9da475395eec93a1a8f50a1.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
+                        "msg_code": "V0136"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 21226,
+    "completedDate": "2020-08-26 06:41:50.310292"
+}

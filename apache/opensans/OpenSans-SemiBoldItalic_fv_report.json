@@ -1,1 +1,61 @@
-"{\"processed\": [{\"file\": {\"name\": \"OpenSans-SemiBoldItalic.ttf\", \"type\": \"ttf\", \"size\": 212732, \"md5\": \"fc17ea62c914b2aaa9e89ecc519a8cb3\", \"geometryMd5\": \"d2160e016d558b5a6de5ba55a289c4fc\"}, \"name\": {\"family\": \"Open Sans SemiBold\", \"subFamily\": \"Italic\", \"fullName\": \"Open Sans SemiBold Italic\", \"psName\": \"OpenSans-SemiBoldItalic\", \"versionText\": \"Version 1.10\", \"copyright\": \"Digitized data copyright \\u00a9 2010-2011, Google Corporation.\", \"trademark\": \"Open Sans is a trademark of Google and may be registered in certain jurisdictions.\", \"typographicFamily\": \"Open Sans\", \"typographicSubFamily\": \"SemiBold Italic\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 938, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"1ASC\", \"font_vendor\": \"Ascender Corporation\"}, \"validation\": {\"font_full_name\": \"Open Sans SemiBold Italic\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 1, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_073a6ffee91947d781b00572a1865ba0.fontedit.kern.format0\", \"levelname\": \"ERROR\", \"message\": \"Insufficient bytes for pair data.\", \"timestamp\": \"2020-08-25T14:59:30.949838Z\", \"orig_output\": \"validate_073a6ffee91947d781b00572a1865ba0.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.\", \"msg_code\": \"V0136\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 22407, \"completedDate\": \"2020-08-25 14:59:50.687156\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "OpenSans-SemiBoldItalic.ttf",
+                "type": "ttf",
+                "size": 212732,
+                "md5": "fc17ea62c914b2aaa9e89ecc519a8cb3",
+                "geometryMd5": "d2160e016d558b5a6de5ba55a289c4fc"
+            },
+            "name": {
+                "family": "Open Sans SemiBold",
+                "subFamily": "Italic",
+                "fullName": "Open Sans SemiBold Italic",
+                "psName": "OpenSans-SemiBoldItalic",
+                "versionText": "Version 1.10",
+                "copyright": "Digitized data copyright \u00a9 2010-2011, Google Corporation.",
+                "trademark": "Open Sans is a trademark of Google and may be registered in certain jurisdictions.",
+                "typographicFamily": "Open Sans",
+                "typographicSubFamily": "SemiBold Italic"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 938,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "1ASC",
+                "font_vendor": "Ascender Corporation"
+            },
+            "validation": {
+                "font_full_name": "Open Sans SemiBold Italic",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_87e50f17eab94e47ba5ee9caf3d6c33e.fontedit.kern.format0",
+                        "levelname": "ERROR",
+                        "message": "Insufficient bytes for pair data.",
+                        "timestamp": "2020-08-26T06:43:16.959803Z",
+                        "orig_output": "validate_87e50f17eab94e47ba5ee9caf3d6c33e.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
+                        "msg_code": "V0136"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 20652,
+    "completedDate": "2020-08-26 06:43:35.898883"
+}

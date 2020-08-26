@@ -1,1 +1,125 @@
-"{\"processed\": [{\"file\": {\"name\": \"OpenSansHebrewCondensed-Light.ttf\", \"type\": \"ttf\", \"size\": 32868, \"md5\": \"8852a55cc98c93b0e7d1c48240347f74\", \"geometryMd5\": \"f827f7efad39624dbacc3253dbc51280\"}, \"name\": {\"family\": \"Open Sans Hebrew Condensed Light\", \"subFamily\": \"Regular\", \"fullName\": \"Open Sans Hebrew Condensed Light\", \"psName\": \"OpenSansHebrewCondensed-Light\", \"versionText\": \"Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329\", \"copyright\": \"Digitized data copyright (c) 2011, Google Corporation. Copyright (c) 2012, 2013 Yanek Iontef (yanek@netvision.net.il)\", \"trademark\": \"Open Sans is a trademark of Google and may be registered in certain jurisdictions.\", \"typographicFamily\": \"Open Sans Hebrew Condensed\", \"typographicSubFamily\": \"Light\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 311, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"UKWN\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Open Sans Hebrew Condensed Light\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 9, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.fontedit.OS_2.PANOSE.proportion\", \"levelname\": \"ERROR\", \"message\": \"Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T14:56:13.335726Z\", \"orig_output\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2108\"}, {\"subroutine\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.fontedit.OS_2.PANOSE.weight\", \"levelname\": \"ERROR\", \"message\": \"Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T14:56:13.335905Z\", \"orig_output\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.fontedit.OS_2.PANOSE.weight - ERROR - Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2111\"}, {\"subroutine\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 110 does not match the glyph's xMin 111 (glyph 36)\", \"timestamp\": \"2020-08-25T14:56:16.799708Z\", \"orig_output\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 36)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 110 does not match the glyph's xMin 111 (glyph 39)\", \"timestamp\": \"2020-08-25T14:56:16.800630Z\", \"orig_output\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 39)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 110 does not match the glyph's xMin 111 (glyph 138)\", \"timestamp\": \"2020-08-25T14:56:16.822066Z\", \"orig_output\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 138)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 95 does not match the glyph's xMin 94 (glyph 238)\", \"timestamp\": \"2020-08-25T14:56:16.847216Z\", \"orig_output\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx - ERROR - The left sidebearing 95 does not match the glyph's xMin 94 (glyph 238)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 95 does not match the glyph's xMin 94 (glyph 293)\", \"timestamp\": \"2020-08-25T14:56:16.859994Z\", \"orig_output\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.hmtx - ERROR - The left sidebearing 95 does not match the glyph's xMin 94 (glyph 293)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.OS_2.usMaxContext\", \"levelname\": \"ERROR\", \"message\": \"The usMaxContext should be 1, but is 4\", \"timestamp\": \"2020-08-25T14:56:13.964553Z\", \"orig_output\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4\", \"msg_code\": \"V0831\"}, {\"subroutine\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 792, but is 795\", \"timestamp\": \"2020-08-25T14:56:13.964825Z\", \"orig_output\": \"validate_85f4ce1400b34e69bc3bf88fa69f0fb4.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 792, but is 795\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 5461, \"completedDate\": \"2020-08-25 14:56:17.205732\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "OpenSansHebrewCondensed-Light.ttf",
+                "type": "ttf",
+                "size": 32868,
+                "md5": "8852a55cc98c93b0e7d1c48240347f74",
+                "geometryMd5": "f827f7efad39624dbacc3253dbc51280"
+            },
+            "name": {
+                "family": "Open Sans Hebrew Condensed Light",
+                "subFamily": "Regular",
+                "fullName": "Open Sans Hebrew Condensed Light",
+                "psName": "OpenSansHebrewCondensed-Light",
+                "versionText": "Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329",
+                "copyright": "Digitized data copyright (c) 2011, Google Corporation. Copyright (c) 2012, 2013 Yanek Iontef (yanek@netvision.net.il)",
+                "trademark": "Open Sans is a trademark of Google and may be registered in certain jurisdictions.",
+                "typographicFamily": "Open Sans Hebrew Condensed",
+                "typographicSubFamily": "Light"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 311,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "UKWN",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Open Sans Hebrew Condensed Light",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 9,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_f27135efecb741baa81f984180852e69.fontedit.OS_2.PANOSE.proportion",
+                        "levelname": "ERROR",
+                        "message": "Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:40:36.794657Z",
+                        "orig_output": "validate_f27135efecb741baa81f984180852e69.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2108"
+                    },
+                    {
+                        "subroutine": "validate_f27135efecb741baa81f984180852e69.fontedit.OS_2.PANOSE.weight",
+                        "levelname": "ERROR",
+                        "message": "Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:40:36.794835Z",
+                        "orig_output": "validate_f27135efecb741baa81f984180852e69.fontedit.OS_2.PANOSE.weight - ERROR - Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2111"
+                    },
+                    {
+                        "subroutine": "validate_f27135efecb741baa81f984180852e69.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 110 does not match the glyph's xMin 111 (glyph 36)",
+                        "timestamp": "2020-08-26T06:40:40.286162Z",
+                        "orig_output": "validate_f27135efecb741baa81f984180852e69.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 36)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_f27135efecb741baa81f984180852e69.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 110 does not match the glyph's xMin 111 (glyph 39)",
+                        "timestamp": "2020-08-26T06:40:40.287068Z",
+                        "orig_output": "validate_f27135efecb741baa81f984180852e69.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 39)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_f27135efecb741baa81f984180852e69.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 110 does not match the glyph's xMin 111 (glyph 138)",
+                        "timestamp": "2020-08-26T06:40:40.308372Z",
+                        "orig_output": "validate_f27135efecb741baa81f984180852e69.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 138)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_f27135efecb741baa81f984180852e69.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 95 does not match the glyph's xMin 94 (glyph 238)",
+                        "timestamp": "2020-08-26T06:40:40.333483Z",
+                        "orig_output": "validate_f27135efecb741baa81f984180852e69.hmtx - ERROR - The left sidebearing 95 does not match the glyph's xMin 94 (glyph 238)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_f27135efecb741baa81f984180852e69.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 95 does not match the glyph's xMin 94 (glyph 293)",
+                        "timestamp": "2020-08-26T06:40:40.346213Z",
+                        "orig_output": "validate_f27135efecb741baa81f984180852e69.hmtx - ERROR - The left sidebearing 95 does not match the glyph's xMin 94 (glyph 293)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_f27135efecb741baa81f984180852e69.OS_2.usMaxContext",
+                        "levelname": "ERROR",
+                        "message": "The usMaxContext should be 1, but is 4",
+                        "timestamp": "2020-08-26T06:40:37.423252Z",
+                        "orig_output": "validate_f27135efecb741baa81f984180852e69.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
+                        "msg_code": "V0831"
+                    },
+                    {
+                        "subroutine": "validate_f27135efecb741baa81f984180852e69.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 792, but is 795",
+                        "timestamp": "2020-08-26T06:40:37.423513Z",
+                        "orig_output": "validate_f27135efecb741baa81f984180852e69.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 792, but is 795",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 5469,
+    "completedDate": "2020-08-26 06:40:40.694983"
+}

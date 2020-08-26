@@ -1,1 +1,106 @@
-"{\"processed\": [{\"file\": {\"name\": \"Schoolbell-Regular.ttf\", \"type\": \"ttf\", \"size\": 48904, \"md5\": \"dbb73c2595e8bbf4129cd47793f72638\", \"geometryMd5\": \"3cf1b4463f603271c7d6b1899c488afd\"}, \"name\": {\"family\": \"Schoolbell\", \"subFamily\": \"Regular\", \"fullName\": \"Schoolbell Regular\", \"psName\": \"Schoolbell-Regular\", \"versionText\": \"Version 1.001\", \"copyright\": \"Copyright (c) 2010 by Font Diner, Inc. All rights reserved.\", \"trademark\": \"Schoolbell is a trademark of Font Diner, Inc.\"}, \"format\": {\"format\": \"TT\"}, \"summary\": {\"num_glyphs\": 228, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"DINR\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Schoolbell Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 7, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.glyf.glyph 153 ('paragraph').contours.contour 1\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T15:05:18.805540Z\", \"orig_output\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.glyf.glyph 153 ('paragraph').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.glyf.glyph 153 ('paragraph').contours.contour 1\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate non-adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T15:05:18.805720Z\", \"orig_output\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.glyf.glyph 153 ('paragraph').contours.contour 1 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.\", \"msg_code\": \"V0297\"}, {\"subroutine\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.glyf.glyph 29 ('parenleft').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T15:05:16.259422Z\", \"orig_output\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.glyf.glyph 29 ('parenleft').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:05:15.505528Z\", \"orig_output\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:05:15.505735Z\", \"orig_output\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasTags' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:05:15.505822Z\", \"orig_output\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 473, but is 419\", \"timestamp\": \"2020-08-25T15:05:15.665802Z\", \"orig_output\": \"validate_6e367dd0fd7a43e7900c8013d9cf4d13.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 473, but is 419\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 8733, \"completedDate\": \"2020-08-25 15:05:21.902089\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Schoolbell-Regular.ttf",
+                "type": "ttf",
+                "size": 48904,
+                "md5": "dbb73c2595e8bbf4129cd47793f72638",
+                "geometryMd5": "3cf1b4463f603271c7d6b1899c488afd"
+            },
+            "name": {
+                "family": "Schoolbell",
+                "subFamily": "Regular",
+                "fullName": "Schoolbell Regular",
+                "psName": "Schoolbell-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2010 by Font Diner, Inc. All rights reserved.",
+                "trademark": "Schoolbell is a trademark of Font Diner, Inc."
+            },
+            "format": {
+                "format": "TT"
+            },
+            "summary": {
+                "num_glyphs": 228,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "DINR",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Schoolbell Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 7,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_12a8e990c3174e218168887c44d3e57e.glyf.glyph 153 ('paragraph').contours.contour 1",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:50:57.076237Z",
+                        "orig_output": "validate_12a8e990c3174e218168887c44d3e57e.glyf.glyph 153 ('paragraph').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_12a8e990c3174e218168887c44d3e57e.glyf.glyph 153 ('paragraph').contours.contour 1",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:50:57.076392Z",
+                        "orig_output": "validate_12a8e990c3174e218168887c44d3e57e.glyf.glyph 153 ('paragraph').contours.contour 1 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "msg_code": "V0297"
+                    },
+                    {
+                        "subroutine": "validate_12a8e990c3174e218168887c44d3e57e.glyf.glyph 29 ('parenleft').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:50:54.671965Z",
+                        "orig_output": "validate_12a8e990c3174e218168887c44d3e57e.glyf.glyph 29 ('parenleft').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_12a8e990c3174e218168887c44d3e57e.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:50:53.963624Z",
+                        "orig_output": "validate_12a8e990c3174e218168887c44d3e57e.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_12a8e990c3174e218168887c44d3e57e.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:50:53.963801Z",
+                        "orig_output": "validate_12a8e990c3174e218168887c44d3e57e.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_12a8e990c3174e218168887c44d3e57e.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:50:53.963882Z",
+                        "orig_output": "validate_12a8e990c3174e218168887c44d3e57e.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_12a8e990c3174e218168887c44d3e57e.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 473, but is 419",
+                        "timestamp": "2020-08-26T06:50:54.116120Z",
+                        "orig_output": "validate_12a8e990c3174e218168887c44d3e57e.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 473, but is 419",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 8017,
+    "completedDate": "2020-08-26 06:50:59.914980"
+}

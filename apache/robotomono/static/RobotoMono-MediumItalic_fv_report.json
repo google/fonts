@@ -1,1 +1,197 @@
-"{\"processed\": [{\"file\": {\"name\": \"RobotoMono-MediumItalic.ttf\", \"type\": \"ttf\", \"size\": 135952, \"md5\": \"93558caf0a9759ac6f5698890aab184d\", \"geometryMd5\": \"8140b45ee26f3a9748c5b2ec8c7dba9d\"}, \"name\": {\"family\": \"Roboto Mono Medium\", \"subFamily\": \"Italic\", \"fullName\": \"Roboto Mono Medium Italic\", \"psName\": \"RobotoMono-MediumItalic\", \"versionText\": \"Version 3.000; ttfautohint (v1.8.3)\", \"copyright\": \"Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)\", \"trademark\": \"Roboto Mono is a trademark of Google.\", \"typographicFamily\": \"Roboto Mono\", \"typographicSubFamily\": \"Medium Italic\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 1006, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"pyrs\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Roboto Mono Medium Italic\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 18, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.fontedit.OS_2.PANOSE.proportion\", \"levelname\": \"ERROR\", \"message\": \"Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T14:57:26.385951Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2108\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 239 ('Uogonek').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:57:30.103743Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 239 ('Uogonek').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 239 ('Uogonek').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate non-adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:57:30.103927Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 239 ('Uogonek').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.\", \"msg_code\": \"V0297\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 279 ('eogonek').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:57:30.476319Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 279 ('eogonek').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 279 ('eogonek').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate non-adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:57:30.476508Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 279 ('eogonek').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.\", \"msg_code\": \"V0297\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:57:35.517867Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate non-adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:57:35.518061Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.\", \"msg_code\": \"V0297\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.hhea\", \"levelname\": \"ERROR\", \"message\": \"The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)\", \"timestamp\": \"2020-08-25T14:57:39.008200Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.hhea - ERROR - The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)\", \"msg_code\": \"E1411\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.hhea\", \"levelname\": \"ERROR\", \"message\": \"The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)\", \"timestamp\": \"2020-08-25T14:57:39.008326Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.hhea - ERROR - The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)\", \"msg_code\": \"E1413\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.name\", \"levelname\": \"ERROR\", \"message\": \"Postscript name not present for both Mac and Windows.\", \"timestamp\": \"2020-08-25T14:58:14.423317Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.name - ERROR - Postscript name not present for both Mac and Windows.\", \"msg_code\": \"E2008\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasArmenian' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T14:57:26.950672Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.unicodeRanges - ERROR - Unicode range 'hasArmenian' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T14:57:26.950807Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.unicodeRanges - ERROR - Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T14:57:26.950888Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.unicodeRanges - ERROR - Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T14:57:26.950962Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.usMaxContext\", \"levelname\": \"ERROR\", \"message\": \"The usMaxContext should be 2, but is 1\", \"timestamp\": \"2020-08-25T14:57:27.410030Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1\", \"msg_code\": \"V0831\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.post\", \"levelname\": \"ERROR\", \"message\": \"Header disagrees with PANOSE on fixed-pitch.\", \"timestamp\": \"2020-08-25T14:58:14.424792Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.post - ERROR - Header disagrees with PANOSE on fixed-pitch.\", \"msg_code\": \"E2303\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.post\", \"levelname\": \"ERROR\", \"message\": \"Nonzero italic angle but zero hhea.caretSlopeRun\", \"timestamp\": \"2020-08-25T14:58:14.424905Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.post - ERROR - Nonzero italic angle but zero hhea.caretSlopeRun\", \"msg_code\": \"E2306\"}, {\"subroutine\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.post\", \"levelname\": \"ERROR\", \"message\": \"The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.\", \"timestamp\": \"2020-08-25T14:58:14.424999Z\", \"orig_output\": \"validate_3a12f6ef9d1d4dd78f86bb4df84cf792.post - ERROR - The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.\", \"msg_code\": \"E2307\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 82134, \"completedDate\": \"2020-08-25 14:58:46.738266\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "RobotoMono-MediumItalic.ttf",
+                "type": "ttf",
+                "size": 135952,
+                "md5": "93558caf0a9759ac6f5698890aab184d",
+                "geometryMd5": "8140b45ee26f3a9748c5b2ec8c7dba9d"
+            },
+            "name": {
+                "family": "Roboto Mono Medium",
+                "subFamily": "Italic",
+                "fullName": "Roboto Mono Medium Italic",
+                "psName": "RobotoMono-MediumItalic",
+                "versionText": "Version 3.000; ttfautohint (v1.8.3)",
+                "copyright": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+                "trademark": "Roboto Mono is a trademark of Google.",
+                "typographicFamily": "Roboto Mono",
+                "typographicSubFamily": "Medium Italic"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 1006,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "pyrs",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Roboto Mono Medium Italic",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 18,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.fontedit.OS_2.PANOSE.proportion",
+                        "levelname": "ERROR",
+                        "message": "Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:41:16.142991Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2108"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 239 ('Uogonek').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:41:19.831314Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 239 ('Uogonek').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 239 ('Uogonek').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:41:19.831508Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 239 ('Uogonek').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "msg_code": "V0297"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 279 ('eogonek').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:41:20.198244Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 279 ('eogonek').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 279 ('eogonek').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:41:20.198414Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 279 ('eogonek').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "msg_code": "V0297"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:41:25.327439Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:41:25.327620Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "msg_code": "V0297"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.hhea",
+                        "levelname": "ERROR",
+                        "message": "The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)",
+                        "timestamp": "2020-08-26T06:41:28.834170Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.hhea - ERROR - The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)",
+                        "msg_code": "E1411"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.hhea",
+                        "levelname": "ERROR",
+                        "message": "The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)",
+                        "timestamp": "2020-08-26T06:41:28.834294Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.hhea - ERROR - The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)",
+                        "msg_code": "E1413"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.name",
+                        "levelname": "ERROR",
+                        "message": "Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-08-26T06:42:03.983875Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "msg_code": "E2008"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasArmenian' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:41:16.714804Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.unicodeRanges - ERROR - Unicode range 'hasArmenian' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:41:16.714931Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.unicodeRanges - ERROR - Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:41:16.715011Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.unicodeRanges - ERROR - Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:41:16.715102Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.usMaxContext",
+                        "levelname": "ERROR",
+                        "message": "The usMaxContext should be 2, but is 1",
+                        "timestamp": "2020-08-26T06:41:17.152028Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
+                        "msg_code": "V0831"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.post",
+                        "levelname": "ERROR",
+                        "message": "Header disagrees with PANOSE on fixed-pitch.",
+                        "timestamp": "2020-08-26T06:42:03.985238Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
+                        "msg_code": "E2303"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.post",
+                        "levelname": "ERROR",
+                        "message": "Nonzero italic angle but zero hhea.caretSlopeRun",
+                        "timestamp": "2020-08-26T06:42:03.985357Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.post - ERROR - Nonzero italic angle but zero hhea.caretSlopeRun",
+                        "msg_code": "E2306"
+                    },
+                    {
+                        "subroutine": "validate_86e9e2868c5c4455a73c4a17f24acefb.post",
+                        "levelname": "ERROR",
+                        "message": "The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.",
+                        "timestamp": "2020-08-26T06:42:03.985451Z",
+                        "orig_output": "validate_86e9e2868c5c4455a73c4a17f24acefb.post - ERROR - The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.",
+                        "msg_code": "E2307"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 81657,
+    "completedDate": "2020-08-26 06:42:36.023325"
+}

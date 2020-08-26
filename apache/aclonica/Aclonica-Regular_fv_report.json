@@ -1,1 +1,67 @@
-"{\"processed\": [{\"file\": {\"name\": \"Aclonica-Regular.ttf\", \"type\": \"ttf\", \"size\": 68732, \"md5\": \"ba855bc75122dabd6edf474ed6cedaf0\", \"geometryMd5\": \"4b2b2cbeed56656b49cad7b92cc68c12\"}, \"name\": {\"family\": \"Aclonica\", \"subFamily\": \"Regular\", \"fullName\": \"Aclonica Regular\", \"psName\": \"Aclonica-Regular\", \"versionText\": \"Version 1.001\", \"copyright\": \"Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html\", \"trademark\": \"Aclonica is a trademark of Astigmatic (AOETI).\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 371, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"AOEF\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Aclonica Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 2, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_c3d97990570e475d80c0c2aceb30384c.hhea\", \"levelname\": \"ERROR\", \"message\": \"The minLeftSidebearing value (-72) does not match the expected value (-97)\", \"timestamp\": \"2020-08-25T15:01:09.510221Z\", \"orig_output\": \"validate_c3d97990570e475d80c0c2aceb30384c.hhea - ERROR - The minLeftSidebearing value (-72) does not match the expected value (-97)\", \"msg_code\": \"E1402\"}, {\"subroutine\": \"validate_c3d97990570e475d80c0c2aceb30384c.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 1261, but is 1128\", \"timestamp\": \"2020-08-25T15:01:04.227363Z\", \"orig_output\": \"validate_c3d97990570e475d80c0c2aceb30384c.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1261, but is 1128\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 10809, \"completedDate\": \"2020-08-25 15:01:10.608657\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Aclonica-Regular.ttf",
+                "type": "ttf",
+                "size": 68732,
+                "md5": "ba855bc75122dabd6edf474ed6cedaf0",
+                "geometryMd5": "4b2b2cbeed56656b49cad7b92cc68c12"
+            },
+            "name": {
+                "family": "Aclonica",
+                "subFamily": "Regular",
+                "fullName": "Aclonica Regular",
+                "psName": "Aclonica-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+                "trademark": "Aclonica is a trademark of Astigmatic (AOETI)."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 371,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "AOEF",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Aclonica Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 2,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_157a75d7778b41968d530182223fea14.hhea",
+                        "levelname": "ERROR",
+                        "message": "The minLeftSidebearing value (-72) does not match the expected value (-97)",
+                        "timestamp": "2020-08-26T06:44:31.692454Z",
+                        "orig_output": "validate_157a75d7778b41968d530182223fea14.hhea - ERROR - The minLeftSidebearing value (-72) does not match the expected value (-97)",
+                        "msg_code": "E1402"
+                    },
+                    {
+                        "subroutine": "validate_157a75d7778b41968d530182223fea14.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 1261, but is 1128",
+                        "timestamp": "2020-08-26T06:44:26.922453Z",
+                        "orig_output": "validate_157a75d7778b41968d530182223fea14.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1261, but is 1128",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 9803,
+    "completedDate": "2020-08-26 06:44:32.692173"
+}

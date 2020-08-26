@@ -1,1 +1,125 @@
-"{\"processed\": [{\"file\": {\"name\": \"OpenSansHebrew-Italic.ttf\", \"type\": \"ttf\", \"size\": 37240, \"md5\": \"b862aa707a3a06050bf8e8b3f9611f3c\", \"geometryMd5\": \"fdd79c9942f6847d15d4f86139b566d2\"}, \"name\": {\"family\": \"Open Sans Hebrew\", \"subFamily\": \"Italic\", \"fullName\": \"Open Sans Hebrew Italic\", \"psName\": \"OpenSansHebrew-Italic\", \"versionText\": \"Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329\", \"copyright\": \"Digitized data copyright (c) 2011, Google Corporation. Copyright (c) 2012, 2013 Yanek Iontef (yanek@netvision.net.il)\", \"trademark\": \"Open Sans is a trademark of Google and may be registered in certain jurisdictions.\", \"typographicFamily\": \"Open Sans Hebrew\", \"typographicSubFamily\": \"Italic\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 292, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"UKWN\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Open Sans Hebrew Italic\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 9, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_d23e61e7f3ab411ca48726f548931416.fontedit.OS_2.PANOSE.weight\", \"levelname\": \"ERROR\", \"message\": \"Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T14:56:24.301765Z\", \"orig_output\": \"validate_d23e61e7f3ab411ca48726f548931416.fontedit.OS_2.PANOSE.weight - ERROR - Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2111\"}, {\"subroutine\": \"validate_d23e61e7f3ab411ca48726f548931416.GDEF.glyphClasses\", \"levelname\": \"ERROR\", \"message\": \"The following mark glyphs have nonzero advances: [203]\", \"timestamp\": \"2020-08-25T14:56:24.308007Z\", \"orig_output\": \"validate_d23e61e7f3ab411ca48726f548931416.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [203]\", \"msg_code\": \"V1102\"}, {\"subroutine\": \"validate_d23e61e7f3ab411ca48726f548931416.glyf.glyph 230 ('uni05E6').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:56:27.041441Z\", \"orig_output\": \"validate_d23e61e7f3ab411ca48726f548931416.glyf.glyph 230 ('uni05E6').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_d23e61e7f3ab411ca48726f548931416.glyf.glyph 284 ('tsadidageshhb').contours.contour 0\", \"levelname\": \"ERROR\", \"message\": \"Contour has duplicate adjacent points of differing on-curve states.\", \"timestamp\": \"2020-08-25T14:56:27.595797Z\", \"orig_output\": \"validate_d23e61e7f3ab411ca48726f548931416.glyf.glyph 284 ('tsadidageshhb').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.\", \"msg_code\": \"V0295\"}, {\"subroutine\": \"validate_d23e61e7f3ab411ca48726f548931416.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -90 does not match the glyph's xMin -91 (glyph 272)\", \"timestamp\": \"2020-08-25T14:56:27.982297Z\", \"orig_output\": \"validate_d23e61e7f3ab411ca48726f548931416.hmtx - ERROR - The left sidebearing -90 does not match the glyph's xMin -91 (glyph 272)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_d23e61e7f3ab411ca48726f548931416.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -23 does not match the glyph's xMin -24 (glyph 273)\", \"timestamp\": \"2020-08-25T14:56:27.982732Z\", \"orig_output\": \"validate_d23e61e7f3ab411ca48726f548931416.hmtx - ERROR - The left sidebearing -23 does not match the glyph's xMin -24 (glyph 273)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_d23e61e7f3ab411ca48726f548931416.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -48 does not match the glyph's xMin -49 (glyph 275)\", \"timestamp\": \"2020-08-25T14:56:27.983484Z\", \"orig_output\": \"validate_d23e61e7f3ab411ca48726f548931416.hmtx - ERROR - The left sidebearing -48 does not match the glyph's xMin -49 (glyph 275)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_d23e61e7f3ab411ca48726f548931416.OS_2.usMaxContext\", \"levelname\": \"ERROR\", \"message\": \"The usMaxContext should be 2, but is 4\", \"timestamp\": \"2020-08-25T14:56:25.132365Z\", \"orig_output\": \"validate_d23e61e7f3ab411ca48726f548931416.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 4\", \"msg_code\": \"V0831\"}, {\"subroutine\": \"validate_d23e61e7f3ab411ca48726f548931416.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 1043, but is 1044\", \"timestamp\": \"2020-08-25T14:56:25.132626Z\", \"orig_output\": \"validate_d23e61e7f3ab411ca48726f548931416.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1043, but is 1044\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 5717, \"completedDate\": \"2020-08-25 14:56:28.362943\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "OpenSansHebrew-Italic.ttf",
+                "type": "ttf",
+                "size": 37240,
+                "md5": "b862aa707a3a06050bf8e8b3f9611f3c",
+                "geometryMd5": "fdd79c9942f6847d15d4f86139b566d2"
+            },
+            "name": {
+                "family": "Open Sans Hebrew",
+                "subFamily": "Italic",
+                "fullName": "Open Sans Hebrew Italic",
+                "psName": "OpenSansHebrew-Italic",
+                "versionText": "Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329",
+                "copyright": "Digitized data copyright (c) 2011, Google Corporation. Copyright (c) 2012, 2013 Yanek Iontef (yanek@netvision.net.il)",
+                "trademark": "Open Sans is a trademark of Google and may be registered in certain jurisdictions.",
+                "typographicFamily": "Open Sans Hebrew",
+                "typographicSubFamily": "Italic"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 292,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "UKWN",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Open Sans Hebrew Italic",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 9,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_dcc6adbcff934801a7fe572f42877965.fontedit.OS_2.PANOSE.weight",
+                        "levelname": "ERROR",
+                        "message": "Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:40:19.633653Z",
+                        "orig_output": "validate_dcc6adbcff934801a7fe572f42877965.fontedit.OS_2.PANOSE.weight - ERROR - Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2111"
+                    },
+                    {
+                        "subroutine": "validate_dcc6adbcff934801a7fe572f42877965.GDEF.glyphClasses",
+                        "levelname": "ERROR",
+                        "message": "The following mark glyphs have nonzero advances: [203]",
+                        "timestamp": "2020-08-26T06:40:19.639731Z",
+                        "orig_output": "validate_dcc6adbcff934801a7fe572f42877965.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [203]",
+                        "msg_code": "V1102"
+                    },
+                    {
+                        "subroutine": "validate_dcc6adbcff934801a7fe572f42877965.glyf.glyph 230 ('uni05E6').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:40:22.374462Z",
+                        "orig_output": "validate_dcc6adbcff934801a7fe572f42877965.glyf.glyph 230 ('uni05E6').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_dcc6adbcff934801a7fe572f42877965.glyf.glyph 284 ('tsadidageshhb').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T06:40:22.923026Z",
+                        "orig_output": "validate_dcc6adbcff934801a7fe572f42877965.glyf.glyph 284 ('tsadidageshhb').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_dcc6adbcff934801a7fe572f42877965.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -90 does not match the glyph's xMin -91 (glyph 272)",
+                        "timestamp": "2020-08-26T06:40:23.309033Z",
+                        "orig_output": "validate_dcc6adbcff934801a7fe572f42877965.hmtx - ERROR - The left sidebearing -90 does not match the glyph's xMin -91 (glyph 272)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_dcc6adbcff934801a7fe572f42877965.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -23 does not match the glyph's xMin -24 (glyph 273)",
+                        "timestamp": "2020-08-26T06:40:23.309457Z",
+                        "orig_output": "validate_dcc6adbcff934801a7fe572f42877965.hmtx - ERROR - The left sidebearing -23 does not match the glyph's xMin -24 (glyph 273)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_dcc6adbcff934801a7fe572f42877965.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -48 does not match the glyph's xMin -49 (glyph 275)",
+                        "timestamp": "2020-08-26T06:40:23.310245Z",
+                        "orig_output": "validate_dcc6adbcff934801a7fe572f42877965.hmtx - ERROR - The left sidebearing -48 does not match the glyph's xMin -49 (glyph 275)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_dcc6adbcff934801a7fe572f42877965.OS_2.usMaxContext",
+                        "levelname": "ERROR",
+                        "message": "The usMaxContext should be 2, but is 4",
+                        "timestamp": "2020-08-26T06:40:20.464024Z",
+                        "orig_output": "validate_dcc6adbcff934801a7fe572f42877965.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 4",
+                        "msg_code": "V0831"
+                    },
+                    {
+                        "subroutine": "validate_dcc6adbcff934801a7fe572f42877965.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 1043, but is 1044",
+                        "timestamp": "2020-08-26T06:40:20.464280Z",
+                        "orig_output": "validate_dcc6adbcff934801a7fe572f42877965.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1043, but is 1044",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 5676,
+    "completedDate": "2020-08-26 06:40:23.668369"
+}

@@ -1,1 +1,557 @@
-"{\"processed\": [{\"file\": {\"name\": \"OpenSansHebrewCondensed-ExtraBoldItalic.ttf\", \"type\": \"ttf\", \"size\": 38852, \"md5\": \"a97d8b8873128d9ce20c3d8eb9246af0\", \"geometryMd5\": \"7abe25d5071d649362766edfbcba1be2\"}, \"name\": {\"family\": \"Open Sans Hebrew Condensed Extra Bold\", \"subFamily\": \"Italic\", \"fullName\": \"Open Sans Hebrew Condensed Extra Bold Italic\", \"psName\": \"OpenSansHebrewCondensedExtraBold-Italic\", \"versionText\": \"Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329\", \"copyright\": \"Digitized data copyright (c) 2011, Google Corporation. Copyright (c) 2012, 2013 Yanek Iontef (yanek@netvision.net.il)\", \"trademark\": \"Open Sans is a trademark of Google and may be registered in certain jurisdictions.\", \"typographicFamily\": \"Open Sans Hebrew Condensed\", \"typographicSubFamily\": \"Extra Bold Italic\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 310, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"UKWN\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Open Sans Hebrew Condensed Extra Bold Italic\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 63, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.fontedit.OS_2.PANOSE.proportion\", \"levelname\": \"ERROR\", \"message\": \"Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T15:04:51.005120Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2108\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.fontedit.OS_2.PANOSE.weight\", \"levelname\": \"ERROR\", \"message\": \"Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"timestamp\": \"2020-08-25T15:04:51.005310Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.fontedit.OS_2.PANOSE.weight - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.\", \"msg_code\": \"E2111\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.head\", \"levelname\": \"ERROR\", \"message\": \"The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Italic'.\", \"timestamp\": \"2020-08-25T15:04:54.732112Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.head - ERROR - The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Italic'.\", \"msg_code\": \"E1311\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 61 does not match the glyph's xMin 62 (glyph 9)\", \"timestamp\": \"2020-08-25T15:04:54.826234Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 61 does not match the glyph's xMin 62 (glyph 9)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 27 does not match the glyph's xMin 28 (glyph 12)\", \"timestamp\": \"2020-08-25T15:04:54.827199Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 27 does not match the glyph's xMin 28 (glyph 12)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -48 does not match the glyph's xMin -49 (glyph 18)\", \"timestamp\": \"2020-08-25T15:04:54.828222Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -48 does not match the glyph's xMin -49 (glyph 18)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 12 does not match the glyph's xMin 13 (glyph 20)\", \"timestamp\": \"2020-08-25T15:04:54.828771Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 12 does not match the glyph's xMin 13 (glyph 20)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -23 does not match the glyph's xMin -24 (glyph 28)\", \"timestamp\": \"2020-08-25T15:04:54.831300Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -23 does not match the glyph's xMin -24 (glyph 28)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -39 does not match the glyph's xMin -40 (glyph 30)\", \"timestamp\": \"2020-08-25T15:04:54.832113Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -39 does not match the glyph's xMin -40 (glyph 30)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 33 does not match the glyph's xMin 34 (glyph 36)\", \"timestamp\": \"2020-08-25T15:04:54.833965Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 33 does not match the glyph's xMin 34 (glyph 36)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 59 does not match the glyph's xMin 60 (glyph 39)\", \"timestamp\": \"2020-08-25T15:04:54.834979Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 59 does not match the glyph's xMin 60 (glyph 39)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 60 does not match the glyph's xMin 61 (glyph 43)\", \"timestamp\": \"2020-08-25T15:04:54.836036Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 60 does not match the glyph's xMin 61 (glyph 43)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 60 does not match the glyph's xMin 61 (glyph 51)\", \"timestamp\": \"2020-08-25T15:04:54.837509Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 60 does not match the glyph's xMin 61 (glyph 51)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 53 does not match the glyph's xMin 54 (glyph 73)\", \"timestamp\": \"2020-08-25T15:04:54.842516Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 53 does not match the glyph's xMin 54 (glyph 73)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -101 does not match the glyph's xMin -102 (glyph 75)\", \"timestamp\": \"2020-08-25T15:04:54.843501Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -101 does not match the glyph's xMin -102 (glyph 75)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 73 does not match the glyph's xMin 74 (glyph 101)\", \"timestamp\": \"2020-08-25T15:04:54.850289Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 73 does not match the glyph's xMin 74 (glyph 101)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 192 does not match the glyph's xMin 193 (glyph 107)\", \"timestamp\": \"2020-08-25T15:04:54.852452Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 192 does not match the glyph's xMin 193 (glyph 107)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 156 does not match the glyph's xMin 157 (glyph 108)\", \"timestamp\": \"2020-08-25T15:04:54.853378Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 156 does not match the glyph's xMin 157 (glyph 108)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -28 does not match the glyph's xMin -29 (glyph 109)\", \"timestamp\": \"2020-08-25T15:04:54.854033Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -28 does not match the glyph's xMin -29 (glyph 109)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 156 does not match the glyph's xMin 157 (glyph 113)\", \"timestamp\": \"2020-08-25T15:04:54.855451Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 156 does not match the glyph's xMin 157 (glyph 113)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 70 does not match the glyph's xMin 71 (glyph 120)\", \"timestamp\": \"2020-08-25T15:04:54.857844Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 70 does not match the glyph's xMin 71 (glyph 120)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 53 does not match the glyph's xMin 54 (glyph 121)\", \"timestamp\": \"2020-08-25T15:04:54.858217Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 53 does not match the glyph's xMin 54 (glyph 121)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 0 does not match the glyph's xMin 1 (glyph 124)\", \"timestamp\": \"2020-08-25T15:04:54.859331Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 0 does not match the glyph's xMin 1 (glyph 124)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -88 does not match the glyph's xMin -89 (glyph 129)\", \"timestamp\": \"2020-08-25T15:04:54.861393Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -88 does not match the glyph's xMin -89 (glyph 129)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -35 does not match the glyph's xMin -36 (glyph 155)\", \"timestamp\": \"2020-08-25T15:04:54.871954Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -35 does not match the glyph's xMin -36 (glyph 155)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -35 does not match the glyph's xMin -36 (glyph 156)\", \"timestamp\": \"2020-08-25T15:04:54.872412Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -35 does not match the glyph's xMin -36 (glyph 156)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -35 does not match the glyph's xMin -36 (glyph 157)\", \"timestamp\": \"2020-08-25T15:04:54.872882Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -35 does not match the glyph's xMin -36 (glyph 157)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -96 does not match the glyph's xMin -97 (glyph 162)\", \"timestamp\": \"2020-08-25T15:04:54.875020Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 162)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -96 does not match the glyph's xMin -97 (glyph 163)\", \"timestamp\": \"2020-08-25T15:04:54.875581Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 163)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -96 does not match the glyph's xMin -97 (glyph 164)\", \"timestamp\": \"2020-08-25T15:04:54.876176Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 164)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -93 does not match the glyph's xMin -94 (glyph 165)\", \"timestamp\": \"2020-08-25T15:04:54.876781Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -93 does not match the glyph's xMin -94 (glyph 165)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -95 does not match the glyph's xMin -96 (glyph 166)\", \"timestamp\": \"2020-08-25T15:04:54.877533Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -95 does not match the glyph's xMin -96 (glyph 166)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -111 does not match the glyph's xMin -112 (glyph 167)\", \"timestamp\": \"2020-08-25T15:04:54.878312Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -111 does not match the glyph's xMin -112 (glyph 167)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -45 does not match the glyph's xMin -46 (glyph 168)\", \"timestamp\": \"2020-08-25T15:04:54.879007Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -45 does not match the glyph's xMin -46 (glyph 168)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -39 does not match the glyph's xMin -40 (glyph 171)\", \"timestamp\": \"2020-08-25T15:04:54.880586Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -39 does not match the glyph's xMin -40 (glyph 171)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -50 does not match the glyph's xMin -51 (glyph 178)\", \"timestamp\": \"2020-08-25T15:04:54.883246Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -50 does not match the glyph's xMin -51 (glyph 178)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -40 does not match the glyph's xMin -41 (glyph 180)\", \"timestamp\": \"2020-08-25T15:04:54.884210Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -40 does not match the glyph's xMin -41 (glyph 180)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -40 does not match the glyph's xMin -41 (glyph 182)\", \"timestamp\": \"2020-08-25T15:04:54.885249Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -40 does not match the glyph's xMin -41 (glyph 182)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -37 does not match the glyph's xMin -38 (glyph 183)\", \"timestamp\": \"2020-08-25T15:04:54.885858Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -37 does not match the glyph's xMin -38 (glyph 183)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -38 does not match the glyph's xMin -39 (glyph 184)\", \"timestamp\": \"2020-08-25T15:04:54.886548Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -38 does not match the glyph's xMin -39 (glyph 184)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -42 does not match the glyph's xMin -43 (glyph 188)\", \"timestamp\": \"2020-08-25T15:04:54.888090Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -42 does not match the glyph's xMin -43 (glyph 188)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 6 does not match the glyph's xMin 7 (glyph 195)\", \"timestamp\": \"2020-08-25T15:04:54.890799Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 6 does not match the glyph's xMin 7 (glyph 195)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 268 does not match the glyph's xMin 269 (glyph 205)\", \"timestamp\": \"2020-08-25T15:04:54.894379Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 268 does not match the glyph's xMin 269 (glyph 205)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 308 does not match the glyph's xMin 309 (glyph 207)\", \"timestamp\": \"2020-08-25T15:04:54.894957Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 308 does not match the glyph's xMin 309 (glyph 207)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -350 does not match the glyph's xMin -351 (glyph 212)\", \"timestamp\": \"2020-08-25T15:04:54.896484Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -350 does not match the glyph's xMin -351 (glyph 212)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -96 does not match the glyph's xMin -97 (glyph 215)\", \"timestamp\": \"2020-08-25T15:04:54.897342Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 215)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -244 does not match the glyph's xMin -245 (glyph 216)\", \"timestamp\": \"2020-08-25T15:04:54.897812Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -244 does not match the glyph's xMin -245 (glyph 216)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -218 does not match the glyph's xMin -219 (glyph 217)\", \"timestamp\": \"2020-08-25T15:04:54.898298Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -218 does not match the glyph's xMin -219 (glyph 217)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -96 does not match the glyph's xMin -97 (glyph 220)\", \"timestamp\": \"2020-08-25T15:04:54.898922Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 220)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -96 does not match the glyph's xMin -97 (glyph 221)\", \"timestamp\": \"2020-08-25T15:04:54.899185Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 221)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -96 does not match the glyph's xMin -97 (glyph 226)\", \"timestamp\": \"2020-08-25T15:04:54.900240Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 226)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -96 does not match the glyph's xMin -97 (glyph 227)\", \"timestamp\": \"2020-08-25T15:04:54.900539Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 227)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 34 does not match the glyph's xMin 35 (glyph 246)\", \"timestamp\": \"2020-08-25T15:04:54.905626Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 34 does not match the glyph's xMin 35 (glyph 246)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 46 does not match the glyph's xMin 47 (glyph 248)\", \"timestamp\": \"2020-08-25T15:04:54.906387Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 46 does not match the glyph's xMin 47 (glyph 248)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 61 does not match the glyph's xMin 62 (glyph 270)\", \"timestamp\": \"2020-08-25T15:04:54.912422Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 61 does not match the glyph's xMin 62 (glyph 270)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -47 does not match the glyph's xMin -48 (glyph 290)\", \"timestamp\": \"2020-08-25T15:04:54.919430Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -47 does not match the glyph's xMin -48 (glyph 290)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing -56 does not match the glyph's xMin -57 (glyph 291)\", \"timestamp\": \"2020-08-25T15:04:54.919861Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing -56 does not match the glyph's xMin -57 (glyph 291)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 70 does not match the glyph's xMin 71 (glyph 294)\", \"timestamp\": \"2020-08-25T15:04:54.920994Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 70 does not match the glyph's xMin 71 (glyph 294)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 34 does not match the glyph's xMin 35 (glyph 299)\", \"timestamp\": \"2020-08-25T15:04:54.923236Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 34 does not match the glyph's xMin 35 (glyph 299)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx\", \"levelname\": \"ERROR\", \"message\": \"The left sidebearing 46 does not match the glyph's xMin 47 (glyph 300)\", \"timestamp\": \"2020-08-25T15:04:54.923849Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.hmtx - ERROR - The left sidebearing 46 does not match the glyph's xMin 47 (glyph 300)\", \"msg_code\": \"V0933\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.OS_2.fsSelection\", \"levelname\": \"ERROR\", \"message\": \"The fsSelection doesn't match the subfamily 'name' entry\", \"timestamp\": \"2020-08-25T15:04:51.579984Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.OS_2.fsSelection - ERROR - The fsSelection doesn't match the subfamily 'name' entry\", \"msg_code\": \"E2100\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.OS_2.usMaxContext\", \"levelname\": \"ERROR\", \"message\": \"The usMaxContext should be 1, but is 4\", \"timestamp\": \"2020-08-25T15:04:51.716230Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4\", \"msg_code\": \"V0831\"}, {\"subroutine\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 957, but is 959\", \"timestamp\": \"2020-08-25T15:04:51.716498Z\", \"orig_output\": \"validate_bbfb646d5e784116ba8f84e467ce5b30.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 957, but is 959\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 6004, \"completedDate\": \"2020-08-25 15:04:55.330162\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "OpenSansHebrewCondensed-ExtraBoldItalic.ttf",
+                "type": "ttf",
+                "size": 38852,
+                "md5": "a97d8b8873128d9ce20c3d8eb9246af0",
+                "geometryMd5": "7abe25d5071d649362766edfbcba1be2"
+            },
+            "name": {
+                "family": "Open Sans Hebrew Condensed Extra Bold",
+                "subFamily": "Italic",
+                "fullName": "Open Sans Hebrew Condensed Extra Bold Italic",
+                "psName": "OpenSansHebrewCondensedExtraBold-Italic",
+                "versionText": "Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329",
+                "copyright": "Digitized data copyright (c) 2011, Google Corporation. Copyright (c) 2012, 2013 Yanek Iontef (yanek@netvision.net.il)",
+                "trademark": "Open Sans is a trademark of Google and may be registered in certain jurisdictions.",
+                "typographicFamily": "Open Sans Hebrew Condensed",
+                "typographicSubFamily": "Extra Bold Italic"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 310,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "UKWN",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Open Sans Hebrew Condensed Extra Bold Italic",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 63,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.fontedit.OS_2.PANOSE.proportion",
+                        "levelname": "ERROR",
+                        "message": "Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:48:14.459071Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2108"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.fontedit.OS_2.PANOSE.weight",
+                        "levelname": "ERROR",
+                        "message": "Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-08-26T06:48:14.459253Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.fontedit.OS_2.PANOSE.weight - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2111"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.head",
+                        "levelname": "ERROR",
+                        "message": "The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Italic'.",
+                        "timestamp": "2020-08-26T06:48:18.054000Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.head - ERROR - The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Italic'.",
+                        "msg_code": "E1311"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 61 does not match the glyph's xMin 62 (glyph 9)",
+                        "timestamp": "2020-08-26T06:48:18.151972Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 61 does not match the glyph's xMin 62 (glyph 9)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 27 does not match the glyph's xMin 28 (glyph 12)",
+                        "timestamp": "2020-08-26T06:48:18.152890Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 27 does not match the glyph's xMin 28 (glyph 12)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -48 does not match the glyph's xMin -49 (glyph 18)",
+                        "timestamp": "2020-08-26T06:48:18.153897Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -48 does not match the glyph's xMin -49 (glyph 18)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 12 does not match the glyph's xMin 13 (glyph 20)",
+                        "timestamp": "2020-08-26T06:48:18.154435Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 12 does not match the glyph's xMin 13 (glyph 20)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -23 does not match the glyph's xMin -24 (glyph 28)",
+                        "timestamp": "2020-08-26T06:48:18.156856Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -23 does not match the glyph's xMin -24 (glyph 28)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -39 does not match the glyph's xMin -40 (glyph 30)",
+                        "timestamp": "2020-08-26T06:48:18.157638Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -39 does not match the glyph's xMin -40 (glyph 30)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 33 does not match the glyph's xMin 34 (glyph 36)",
+                        "timestamp": "2020-08-26T06:48:18.159425Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 33 does not match the glyph's xMin 34 (glyph 36)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 59 does not match the glyph's xMin 60 (glyph 39)",
+                        "timestamp": "2020-08-26T06:48:18.160373Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 59 does not match the glyph's xMin 60 (glyph 39)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 60 does not match the glyph's xMin 61 (glyph 43)",
+                        "timestamp": "2020-08-26T06:48:18.161390Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 60 does not match the glyph's xMin 61 (glyph 43)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 60 does not match the glyph's xMin 61 (glyph 51)",
+                        "timestamp": "2020-08-26T06:48:18.162868Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 60 does not match the glyph's xMin 61 (glyph 51)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 53 does not match the glyph's xMin 54 (glyph 73)",
+                        "timestamp": "2020-08-26T06:48:18.167998Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 53 does not match the glyph's xMin 54 (glyph 73)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -101 does not match the glyph's xMin -102 (glyph 75)",
+                        "timestamp": "2020-08-26T06:48:18.168967Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -101 does not match the glyph's xMin -102 (glyph 75)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 73 does not match the glyph's xMin 74 (glyph 101)",
+                        "timestamp": "2020-08-26T06:48:18.175274Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 73 does not match the glyph's xMin 74 (glyph 101)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 192 does not match the glyph's xMin 193 (glyph 107)",
+                        "timestamp": "2020-08-26T06:48:18.177259Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 192 does not match the glyph's xMin 193 (glyph 107)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 156 does not match the glyph's xMin 157 (glyph 108)",
+                        "timestamp": "2020-08-26T06:48:18.177944Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 156 does not match the glyph's xMin 157 (glyph 108)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -28 does not match the glyph's xMin -29 (glyph 109)",
+                        "timestamp": "2020-08-26T06:48:18.178396Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -28 does not match the glyph's xMin -29 (glyph 109)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 156 does not match the glyph's xMin 157 (glyph 113)",
+                        "timestamp": "2020-08-26T06:48:18.179389Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 156 does not match the glyph's xMin 157 (glyph 113)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 70 does not match the glyph's xMin 71 (glyph 120)",
+                        "timestamp": "2020-08-26T06:48:18.181014Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 70 does not match the glyph's xMin 71 (glyph 120)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 53 does not match the glyph's xMin 54 (glyph 121)",
+                        "timestamp": "2020-08-26T06:48:18.181352Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 53 does not match the glyph's xMin 54 (glyph 121)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 0 does not match the glyph's xMin 1 (glyph 124)",
+                        "timestamp": "2020-08-26T06:48:18.182126Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 0 does not match the glyph's xMin 1 (glyph 124)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -88 does not match the glyph's xMin -89 (glyph 129)",
+                        "timestamp": "2020-08-26T06:48:18.183937Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -88 does not match the glyph's xMin -89 (glyph 129)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -35 does not match the glyph's xMin -36 (glyph 155)",
+                        "timestamp": "2020-08-26T06:48:18.192320Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -35 does not match the glyph's xMin -36 (glyph 155)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -35 does not match the glyph's xMin -36 (glyph 156)",
+                        "timestamp": "2020-08-26T06:48:18.192732Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -35 does not match the glyph's xMin -36 (glyph 156)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -35 does not match the glyph's xMin -36 (glyph 157)",
+                        "timestamp": "2020-08-26T06:48:18.193162Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -35 does not match the glyph's xMin -36 (glyph 157)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -96 does not match the glyph's xMin -97 (glyph 162)",
+                        "timestamp": "2020-08-26T06:48:18.195115Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 162)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -96 does not match the glyph's xMin -97 (glyph 163)",
+                        "timestamp": "2020-08-26T06:48:18.195674Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 163)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -96 does not match the glyph's xMin -97 (glyph 164)",
+                        "timestamp": "2020-08-26T06:48:18.196251Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 164)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -93 does not match the glyph's xMin -94 (glyph 165)",
+                        "timestamp": "2020-08-26T06:48:18.196852Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -93 does not match the glyph's xMin -94 (glyph 165)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -95 does not match the glyph's xMin -96 (glyph 166)",
+                        "timestamp": "2020-08-26T06:48:18.197579Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -95 does not match the glyph's xMin -96 (glyph 166)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -111 does not match the glyph's xMin -112 (glyph 167)",
+                        "timestamp": "2020-08-26T06:48:18.198264Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -111 does not match the glyph's xMin -112 (glyph 167)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -45 does not match the glyph's xMin -46 (glyph 168)",
+                        "timestamp": "2020-08-26T06:48:18.198912Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -45 does not match the glyph's xMin -46 (glyph 168)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -39 does not match the glyph's xMin -40 (glyph 171)",
+                        "timestamp": "2020-08-26T06:48:18.200280Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -39 does not match the glyph's xMin -40 (glyph 171)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -50 does not match the glyph's xMin -51 (glyph 178)",
+                        "timestamp": "2020-08-26T06:48:18.202795Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -50 does not match the glyph's xMin -51 (glyph 178)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -40 does not match the glyph's xMin -41 (glyph 180)",
+                        "timestamp": "2020-08-26T06:48:18.203696Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -40 does not match the glyph's xMin -41 (glyph 180)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -40 does not match the glyph's xMin -41 (glyph 182)",
+                        "timestamp": "2020-08-26T06:48:18.204592Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -40 does not match the glyph's xMin -41 (glyph 182)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -37 does not match the glyph's xMin -38 (glyph 183)",
+                        "timestamp": "2020-08-26T06:48:18.205149Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -37 does not match the glyph's xMin -38 (glyph 183)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -38 does not match the glyph's xMin -39 (glyph 184)",
+                        "timestamp": "2020-08-26T06:48:18.205799Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -38 does not match the glyph's xMin -39 (glyph 184)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -42 does not match the glyph's xMin -43 (glyph 188)",
+                        "timestamp": "2020-08-26T06:48:18.207209Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -42 does not match the glyph's xMin -43 (glyph 188)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 6 does not match the glyph's xMin 7 (glyph 195)",
+                        "timestamp": "2020-08-26T06:48:18.209637Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 6 does not match the glyph's xMin 7 (glyph 195)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 268 does not match the glyph's xMin 269 (glyph 205)",
+                        "timestamp": "2020-08-26T06:48:18.213176Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 268 does not match the glyph's xMin 269 (glyph 205)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 308 does not match the glyph's xMin 309 (glyph 207)",
+                        "timestamp": "2020-08-26T06:48:18.213742Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 308 does not match the glyph's xMin 309 (glyph 207)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -350 does not match the glyph's xMin -351 (glyph 212)",
+                        "timestamp": "2020-08-26T06:48:18.215256Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -350 does not match the glyph's xMin -351 (glyph 212)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -96 does not match the glyph's xMin -97 (glyph 215)",
+                        "timestamp": "2020-08-26T06:48:18.216092Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 215)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -244 does not match the glyph's xMin -245 (glyph 216)",
+                        "timestamp": "2020-08-26T06:48:18.216435Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -244 does not match the glyph's xMin -245 (glyph 216)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -218 does not match the glyph's xMin -219 (glyph 217)",
+                        "timestamp": "2020-08-26T06:48:18.216896Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -218 does not match the glyph's xMin -219 (glyph 217)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -96 does not match the glyph's xMin -97 (glyph 220)",
+                        "timestamp": "2020-08-26T06:48:18.217388Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 220)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -96 does not match the glyph's xMin -97 (glyph 221)",
+                        "timestamp": "2020-08-26T06:48:18.217655Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 221)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -96 does not match the glyph's xMin -97 (glyph 226)",
+                        "timestamp": "2020-08-26T06:48:18.218578Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 226)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -96 does not match the glyph's xMin -97 (glyph 227)",
+                        "timestamp": "2020-08-26T06:48:18.218830Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -96 does not match the glyph's xMin -97 (glyph 227)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 34 does not match the glyph's xMin 35 (glyph 246)",
+                        "timestamp": "2020-08-26T06:48:18.223379Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 34 does not match the glyph's xMin 35 (glyph 246)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 46 does not match the glyph's xMin 47 (glyph 248)",
+                        "timestamp": "2020-08-26T06:48:18.224103Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 46 does not match the glyph's xMin 47 (glyph 248)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 61 does not match the glyph's xMin 62 (glyph 270)",
+                        "timestamp": "2020-08-26T06:48:18.229895Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 61 does not match the glyph's xMin 62 (glyph 270)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -47 does not match the glyph's xMin -48 (glyph 290)",
+                        "timestamp": "2020-08-26T06:48:18.236363Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -47 does not match the glyph's xMin -48 (glyph 290)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing -56 does not match the glyph's xMin -57 (glyph 291)",
+                        "timestamp": "2020-08-26T06:48:18.236738Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing -56 does not match the glyph's xMin -57 (glyph 291)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 70 does not match the glyph's xMin 71 (glyph 294)",
+                        "timestamp": "2020-08-26T06:48:18.237797Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 70 does not match the glyph's xMin 71 (glyph 294)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 34 does not match the glyph's xMin 35 (glyph 299)",
+                        "timestamp": "2020-08-26T06:48:18.239781Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 34 does not match the glyph's xMin 35 (glyph 299)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.hmtx",
+                        "levelname": "ERROR",
+                        "message": "The left sidebearing 46 does not match the glyph's xMin 47 (glyph 300)",
+                        "timestamp": "2020-08-26T06:48:18.240374Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.hmtx - ERROR - The left sidebearing 46 does not match the glyph's xMin 47 (glyph 300)",
+                        "msg_code": "V0933"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.OS_2.fsSelection",
+                        "levelname": "ERROR",
+                        "message": "The fsSelection doesn't match the subfamily 'name' entry",
+                        "timestamp": "2020-08-26T06:48:14.983757Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.OS_2.fsSelection - ERROR - The fsSelection doesn't match the subfamily 'name' entry",
+                        "msg_code": "E2100"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.OS_2.usMaxContext",
+                        "levelname": "ERROR",
+                        "message": "The usMaxContext should be 1, but is 4",
+                        "timestamp": "2020-08-26T06:48:15.106615Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
+                        "msg_code": "V0831"
+                    },
+                    {
+                        "subroutine": "validate_a037dffb562a4b0fb309221e17039468.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 957, but is 959",
+                        "timestamp": "2020-08-26T06:48:15.106890Z",
+                        "orig_output": "validate_a037dffb562a4b0fb309221e17039468.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 957, but is 959",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 5741,
+    "completedDate": "2020-08-26 06:48:18.640015"
+}

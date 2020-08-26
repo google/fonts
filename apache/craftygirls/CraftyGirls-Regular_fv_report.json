@@ -1,1 +1,82 @@
-"{\"processed\": [{\"file\": {\"name\": \"CraftyGirls-Regular.ttf\", \"type\": \"ttf\", \"size\": 75336, \"md5\": \"a12ba132b0c535ac1a32a8230f27b912\", \"geometryMd5\": \"5c3e1e634775c5e6ae50d8a9faf37b8b\"}, \"name\": {\"family\": \"Crafty Girls\", \"subFamily\": \"Regular\", \"fullName\": \"Crafty Girls Regular\", \"psName\": \"CraftyGirls-Regular\", \"versionText\": \"Version 1.001\", \"copyright\": \"Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop. All rights reserved.\", \"trademark\": \"Crafty Girls is a trademark of Font Diner, Inc DBA Tart Workshop.\"}, \"format\": {\"format\": \"TT\"}, \"summary\": {\"num_glyphs\": 230, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"DINR\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Crafty Girls Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 4, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_1411f78a84f14a88b70aa5fad361ee68.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T14:58:24.874803Z\", \"orig_output\": \"validate_1411f78a84f14a88b70aa5fad361ee68.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_1411f78a84f14a88b70aa5fad361ee68.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasCJKStrokes' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T14:58:24.874969Z\", \"orig_output\": \"validate_1411f78a84f14a88b70aa5fad361ee68.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKStrokes' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_1411f78a84f14a88b70aa5fad361ee68.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T14:58:24.875053Z\", \"orig_output\": \"validate_1411f78a84f14a88b70aa5fad361ee68.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_1411f78a84f14a88b70aa5fad361ee68.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasTags' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T14:58:24.875124Z\", \"orig_output\": \"validate_1411f78a84f14a88b70aa5fad361ee68.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.\", \"msg_code\": \"E2113\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 15162, \"completedDate\": \"2020-08-25 14:58:37.940865\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "CraftyGirls-Regular.ttf",
+                "type": "ttf",
+                "size": 75336,
+                "md5": "a12ba132b0c535ac1a32a8230f27b912",
+                "geometryMd5": "5c3e1e634775c5e6ae50d8a9faf37b8b"
+            },
+            "name": {
+                "family": "Crafty Girls",
+                "subFamily": "Regular",
+                "fullName": "Crafty Girls Regular",
+                "psName": "CraftyGirls-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop. All rights reserved.",
+                "trademark": "Crafty Girls is a trademark of Font Diner, Inc DBA Tart Workshop."
+            },
+            "format": {
+                "format": "TT"
+            },
+            "summary": {
+                "num_glyphs": 230,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "DINR",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Crafty Girls Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 4,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:42:49.225838Z",
+                        "orig_output": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasCJKStrokes' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:42:49.226007Z",
+                        "orig_output": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKStrokes' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:42:49.226095Z",
+                        "orig_output": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:42:49.226169Z",
+                        "orig_output": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 15446,
+    "completedDate": "2020-08-26 06:43:02.259675"
+}

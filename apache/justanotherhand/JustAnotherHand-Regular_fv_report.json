@@ -1,1 +1,139 @@
-"{\"processed\": [{\"file\": {\"name\": \"JustAnotherHand-Regular.ttf\", \"type\": \"ttf\", \"size\": 191076, \"md5\": \"bcf61fe1957c0455bdc6c67a2131d62c\", \"geometryMd5\": \"55306661d2414b0113350ef4055a282e\"}, \"name\": {\"family\": \"Just Another Hand\", \"subFamily\": \"Regular\", \"fullName\": \"Just Another Hand Regular\", \"psName\": \"JustAnotherHand-Regular\", \"versionText\": \"Version 1.001\", \"copyright\": \"Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html\", \"trademark\": \"Just Another Hand Regular is a trademark of Astigmatic (AOETI).\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 369, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"AOEF\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Just Another Hand Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 11, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.16 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 139's value should be 4, but is 5\", \"timestamp\": \"2020-08-25T15:08:02.190995Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.16 ppem - ERROR - Glyph 139's value should be 4, but is 5\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.16 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 140's value should be 4, but is 5\", \"timestamp\": \"2020-08-25T15:08:02.191122Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.16 ppem - ERROR - Glyph 140's value should be 4, but is 5\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.16 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 153's value should be 2, but is 3\", \"timestamp\": \"2020-08-25T15:08:02.191211Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.16 ppem - ERROR - Glyph 153's value should be 2, but is 3\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.16 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 154's value should be 2, but is 3\", \"timestamp\": \"2020-08-25T15:08:02.191297Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.16 ppem - ERROR - Glyph 154's value should be 2, but is 3\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.19 ppem\", \"levelname\": \"ERROR\", \"message\": \"Glyph 295's value should be 4, but is 5\", \"timestamp\": \"2020-08-25T15:08:02.196363Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.hdmx.19 ppem - ERROR - Glyph 295's value should be 4, but is 5\", \"msg_code\": \"E1207\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 126's value should be 1, but is 23\", \"timestamp\": \"2020-08-25T15:07:52.825204Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH - ERROR - Glyph 126's value should be 1, but is 23\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 139's value should be 10, but is 17\", \"timestamp\": \"2020-08-25T15:07:52.825349Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH - ERROR - Glyph 139's value should be 10, but is 17\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 140's value should be 10, but is 17\", \"timestamp\": \"2020-08-25T15:07:52.825429Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH - ERROR - Glyph 140's value should be 10, but is 17\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 153's value should be 1, but is 17\", \"timestamp\": \"2020-08-25T15:07:52.825500Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH - ERROR - Glyph 153's value should be 1, but is 17\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 154's value should be 1, but is 17\", \"timestamp\": \"2020-08-25T15:07:52.825567Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH - ERROR - Glyph 154's value should be 1, but is 17\", \"msg_code\": \"E1804\"}, {\"subroutine\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH\", \"levelname\": \"ERROR\", \"message\": \"Glyph 295's value should be 1, but is 20\", \"timestamp\": \"2020-08-25T15:07:52.825649Z\", \"orig_output\": \"validate_ae00245fa3dd47588b22746791b34479.LTSH - ERROR - Glyph 295's value should be 1, but is 20\", \"msg_code\": \"E1804\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 24234, \"completedDate\": \"2020-08-25 15:08:11.147285\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "JustAnotherHand-Regular.ttf",
+                "type": "ttf",
+                "size": 191076,
+                "md5": "bcf61fe1957c0455bdc6c67a2131d62c",
+                "geometryMd5": "55306661d2414b0113350ef4055a282e"
+            },
+            "name": {
+                "family": "Just Another Hand",
+                "subFamily": "Regular",
+                "fullName": "Just Another Hand Regular",
+                "psName": "JustAnotherHand-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+                "trademark": "Just Another Hand Regular is a trademark of Astigmatic (AOETI)."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 369,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "AOEF",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Just Another Hand Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 11,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.16 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 139's value should be 4, but is 5",
+                        "timestamp": "2020-08-26T06:49:15.470798Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.16 ppem - ERROR - Glyph 139's value should be 4, but is 5",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.16 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 140's value should be 4, but is 5",
+                        "timestamp": "2020-08-26T06:49:15.470920Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.16 ppem - ERROR - Glyph 140's value should be 4, but is 5",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.16 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 153's value should be 2, but is 3",
+                        "timestamp": "2020-08-26T06:49:15.471018Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.16 ppem - ERROR - Glyph 153's value should be 2, but is 3",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.16 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 154's value should be 2, but is 3",
+                        "timestamp": "2020-08-26T06:49:15.471094Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.16 ppem - ERROR - Glyph 154's value should be 2, but is 3",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.19 ppem",
+                        "levelname": "ERROR",
+                        "message": "Glyph 295's value should be 4, but is 5",
+                        "timestamp": "2020-08-26T06:49:15.475850Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.hdmx.19 ppem - ERROR - Glyph 295's value should be 4, but is 5",
+                        "msg_code": "E1207"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 126's value should be 1, but is 23",
+                        "timestamp": "2020-08-26T06:49:06.417216Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH - ERROR - Glyph 126's value should be 1, but is 23",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 139's value should be 10, but is 17",
+                        "timestamp": "2020-08-26T06:49:06.417366Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH - ERROR - Glyph 139's value should be 10, but is 17",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 140's value should be 10, but is 17",
+                        "timestamp": "2020-08-26T06:49:06.417447Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH - ERROR - Glyph 140's value should be 10, but is 17",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 153's value should be 1, but is 17",
+                        "timestamp": "2020-08-26T06:49:06.417518Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH - ERROR - Glyph 153's value should be 1, but is 17",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 154's value should be 1, but is 17",
+                        "timestamp": "2020-08-26T06:49:06.417584Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH - ERROR - Glyph 154's value should be 1, but is 17",
+                        "msg_code": "E1804"
+                    },
+                    {
+                        "subroutine": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH",
+                        "levelname": "ERROR",
+                        "message": "Glyph 295's value should be 1, but is 20",
+                        "timestamp": "2020-08-26T06:49:06.417665Z",
+                        "orig_output": "validate_f79de08a76a8419aac6b3a685aed8581.LTSH - ERROR - Glyph 295's value should be 1, but is 20",
+                        "msg_code": "E1804"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 23109,
+    "completedDate": "2020-08-26 06:49:24.038287"
+}

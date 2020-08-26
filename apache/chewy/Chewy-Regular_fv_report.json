@@ -1,1 +1,74 @@
-"{\"processed\": [{\"file\": {\"name\": \"Chewy-Regular.ttf\", \"type\": \"ttf\", \"size\": 41248, \"md5\": \"fef0557686d2280ebe303fd3b8691efd\", \"geometryMd5\": \"4b3b0223280185d1182ffd9895196682\"}, \"name\": {\"family\": \"Chewy\", \"subFamily\": \"Regular\", \"fullName\": \"Chewy Regular\", \"psName\": \"Chewy-Regular\", \"versionText\": \"Version 1.001\", \"copyright\": \"Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.\", \"trademark\": \"Chewy is a trademark of Font Diner, Inc DBA Sideshow.\"}, \"format\": {\"format\": \"TT\"}, \"summary\": {\"num_glyphs\": 229, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"DINR\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Chewy Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 3, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_6097cc784a2946ef9a2375733ee16b96.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:01:04.007484Z\", \"orig_output\": \"validate_6097cc784a2946ef9a2375733ee16b96.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_6097cc784a2946ef9a2375733ee16b96.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:01:04.007724Z\", \"orig_output\": \"validate_6097cc784a2946ef9a2375733ee16b96.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.\", \"msg_code\": \"E2113\"}, {\"subroutine\": \"validate_6097cc784a2946ef9a2375733ee16b96.OS_2.unicodeRanges\", \"levelname\": \"ERROR\", \"message\": \"Unicode range 'hasTags' claimed to be present but is not.\", \"timestamp\": \"2020-08-25T15:01:04.007868Z\", \"orig_output\": \"validate_6097cc784a2946ef9a2375733ee16b96.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.\", \"msg_code\": \"E2113\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 9823, \"completedDate\": \"2020-08-25 15:01:11.255467\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Chewy-Regular.ttf",
+                "type": "ttf",
+                "size": 41248,
+                "md5": "fef0557686d2280ebe303fd3b8691efd",
+                "geometryMd5": "4b3b0223280185d1182ffd9895196682"
+            },
+            "name": {
+                "family": "Chewy",
+                "subFamily": "Regular",
+                "fullName": "Chewy Regular",
+                "psName": "Chewy-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.",
+                "trademark": "Chewy is a trademark of Font Diner, Inc DBA Sideshow."
+            },
+            "format": {
+                "format": "TT"
+            },
+            "summary": {
+                "num_glyphs": 229,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "DINR",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Chewy Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 3,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_ee472e283efb4f7e9ebfd14efe9c6bbf.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:45:23.728302Z",
+                        "orig_output": "validate_ee472e283efb4f7e9ebfd14efe9c6bbf.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_ee472e283efb4f7e9ebfd14efe9c6bbf.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:45:23.728470Z",
+                        "orig_output": "validate_ee472e283efb4f7e9ebfd14efe9c6bbf.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_ee472e283efb4f7e9ebfd14efe9c6bbf.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T06:45:23.728553Z",
+                        "orig_output": "validate_ee472e283efb4f7e9ebfd14efe9c6bbf.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 8728,
+    "completedDate": "2020-08-26 06:45:30.331084"
+}

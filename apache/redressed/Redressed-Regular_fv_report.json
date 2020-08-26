@@ -1,1 +1,59 @@
-"{\"processed\": [{\"file\": {\"name\": \"Redressed-Regular.ttf\", \"type\": \"ttf\", \"size\": 79220, \"md5\": \"da6b838606bb829f56444a0a77f91fc2\", \"geometryMd5\": \"b7dab272f1ebcdf3b7bf7fc2e0d4b192\"}, \"name\": {\"family\": \"Redressed\", \"subFamily\": \"Regular\", \"fullName\": \"Redressed Regular\", \"psName\": \"Redressed-Regular\", \"versionText\": \"Version 1.001\", \"copyright\": \"Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\\rhttp://www.apache.org/licenses/LICENSE-2.0.html\", \"trademark\": \"Redressed is a trademark of Astigmatic (AOETI).\"}, \"format\": {\"format\": \"OT\", \"flavor\": \"TT\"}, \"summary\": {\"num_glyphs\": 376, \"embedding\": \"Installable Embedding\", \"font_vendor_id\": \"AOEF\", \"font_vendor\": \"Unknown\"}, \"validation\": {\"font_full_name\": \"Redressed Regular\", \"level\": \"ERROR\", \"last_success\": \"finished validation python\", \"msg_count\": {\"CRITICAL\": 0, \"ERROR\": 1, \"WARNING\": 0, \"INFO\": 0, \"DEBUG\": 0}, \"result\": [{\"subroutine\": \"validate_0d706b0e0fdf4939a4256f1f9194b975.OS_2.xAvgCharWidth\", \"levelname\": \"ERROR\", \"message\": \"The xAvgCharWidth should be 949, but is 714\", \"timestamp\": \"2020-08-25T15:03:53.446304Z\", \"orig_output\": \"validate_0d706b0e0fdf4939a4256f1f9194b975.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 949, but is 714\", \"msg_code\": \"E2135\"}]}}], \"skipped\": [], \"fontio3_version\": \"3.7.20200604.317848rc3\", \"fontvalidator_version\": \"20200305.1\", \"runningTime\": 13339, \"completedDate\": \"2020-08-25 15:04:01.665026\"}"
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Redressed-Regular.ttf",
+                "type": "ttf",
+                "size": 79220,
+                "md5": "da6b838606bb829f56444a0a77f91fc2",
+                "geometryMd5": "b7dab272f1ebcdf3b7bf7fc2e0d4b192"
+            },
+            "name": {
+                "family": "Redressed",
+                "subFamily": "Regular",
+                "fullName": "Redressed Regular",
+                "psName": "Redressed-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+                "trademark": "Redressed is a trademark of Astigmatic (AOETI)."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 376,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "AOEF",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Redressed Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_4d2a3be4f9b84f3f81f8519e74a32b98.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 949, but is 714",
+                        "timestamp": "2020-08-26T06:46:33.227193Z",
+                        "orig_output": "validate_4d2a3be4f9b84f3f81f8519e74a32b98.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 949, but is 714",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 11904,
+    "completedDate": "2020-08-26 06:46:40.562182"
+}

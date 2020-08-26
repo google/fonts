@@ -28,46 +28,134 @@
             },
             "validation": {
                 "font_full_name": "Crafty Girls Regular",
-                "level": "ERROR",
+                "level": "WARNING",
                 "last_success": "finished validation python",
                 "msg_count": {
                     "CRITICAL": 0,
                     "ERROR": 4,
-                    "WARNING": 0,
+                    "WARNING": 11,
                     "INFO": 0,
                     "DEBUG": 0
                 },
                 "result": [
                     {
-                        "subroutine": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges",
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.fontedit.loca",
+                        "levelname": "WARNING",
+                        "message": "Not all glyphs are longword-aligned.",
+                        "timestamp": "2020-08-26T07:15:21.436551Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.fontedit.loca - WARNING - Not all glyphs are longword-aligned.",
+                        "msg_code": "W1701"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.cmap",
+                        "levelname": "WARNING",
+                        "message": "Apple logo not mapped to missing glyph in Mac Roman subtable.",
+                        "timestamp": "2020-08-26T07:15:22.206858Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.cmap - WARNING - Apple logo not mapped to missing glyph in Mac Roman subtable.",
+                        "msg_code": "W0300"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.cmap",
+                        "levelname": "WARNING",
+                        "message": "PUA characters present in (3, 1, 0) subtable.",
+                        "timestamp": "2020-08-26T07:15:22.207068Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.cmap - WARNING - PUA characters present in (3, 1, 0) subtable.",
+                        "msg_code": "W0307"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.cmap",
+                        "levelname": "WARNING",
+                        "message": "PUA characters present in (0, 3, 0) subtable.",
+                        "timestamp": "2020-08-26T07:15:22.207222Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.cmap - WARNING - PUA characters present in (0, 3, 0) subtable.",
+                        "msg_code": "W0307"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.DSIG",
+                        "levelname": "WARNING",
+                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
+                        "timestamp": "2020-08-26T07:15:21.445057Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
+                        "msg_code": "V1126"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.glyf",
+                        "levelname": "WARNING",
+                        "message": "Glyph 0 has no contours.",
+                        "timestamp": "2020-08-26T07:15:22.230662Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.glyf - WARNING - Glyph 0 has no contours.",
+                        "msg_code": "V0948"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStackElements value is 512, which is larger than is needed. It may be reduced to 270.",
+                        "timestamp": "2020-08-26T07:15:33.588425Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.maxp - WARNING - The maxStackElements value is 512, which is larger than is needed. It may be reduced to 270.",
+                        "msg_code": "V0279"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2",
+                        "levelname": "WARNING",
+                        "message": "The usWeightClass 400 is inconsistent with the PANOSE weight Any",
+                        "timestamp": "2020-08-26T07:15:21.445530Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2 - WARNING - The usWeightClass 400 is inconsistent with the PANOSE weight Any",
+                        "msg_code": "W2116"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.codePageRanges",
+                        "levelname": "WARNING",
+                        "message": "Code page cp1252 is missing printables U+0192, U+2020-2021, U+2122",
+                        "timestamp": "2020-08-26T07:15:21.460799Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.codePageRanges - WARNING - Code page cp1252 is missing printables U+0192, U+2020-2021, U+2122",
+                        "msg_code": "W2101"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.sCapHeight",
+                        "levelname": "WARNING",
+                        "message": "sCapHeight value (772) does not match yMax of 'H' (771)",
+                        "timestamp": "2020-08-26T07:15:21.980718Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.sCapHeight - WARNING - sCapHeight value (772) does not match yMax of 'H' (771)",
+                        "msg_code": "V1133"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.sxHeight",
+                        "levelname": "WARNING",
+                        "message": "sxHeight value (548) does not match yMax of 'x' (520)",
+                        "timestamp": "2020-08-26T07:15:21.981730Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.sxHeight - WARNING - sxHeight value (548) does not match yMax of 'x' (520)",
+                        "msg_code": "V1135"
+                    },
+                    {
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
-                        "timestamp": "2020-08-26T06:42:49.225838Z",
-                        "orig_output": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:15:21.986737Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges",
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCJKStrokes' claimed to be present but is not.",
-                        "timestamp": "2020-08-26T06:42:49.226007Z",
-                        "orig_output": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKStrokes' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:15:21.986830Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKStrokes' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges",
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
-                        "timestamp": "2020-08-26T06:42:49.226095Z",
-                        "orig_output": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:15:21.986920Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges",
+                        "subroutine": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasTags' claimed to be present but is not.",
-                        "timestamp": "2020-08-26T06:42:49.226169Z",
-                        "orig_output": "validate_64ca68a10674408aaf682b8515e90121.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:15:21.987000Z",
+                        "orig_output": "validate_02217da8c83c4e01a005bb6bd12eedaf.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
                         "msg_code": "E2113"
                     }
                 ]
@@ -77,6 +165,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc3",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 15446,
-    "completedDate": "2020-08-26 06:43:02.259675"
+    "runningTime": 15010,
+    "completedDate": "2020-08-26 07:15:34.894991"
 }

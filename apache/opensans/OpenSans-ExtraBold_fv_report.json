@@ -31,31 +31,367 @@
             },
             "validation": {
                 "font_full_name": "Open Sans ExtraBold",
-                "level": "ERROR",
+                "level": "WARNING",
                 "last_success": "finished validation python",
                 "msg_count": {
                     "CRITICAL": 0,
                     "ERROR": 2,
-                    "WARNING": 0,
+                    "WARNING": 42,
                     "INFO": 0,
                     "DEBUG": 0
                 },
                 "result": [
                     {
-                        "subroutine": "validate_8915c65685624c2ea857682a1e38b027.fontedit.kern.format0",
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.GDEF.GDEF.ligcaret",
+                        "levelname": "WARNING",
+                        "message": "Offset count is zero.",
+                        "timestamp": "2020-08-26T07:18:29.410305Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.GDEF.GDEF.ligcaret - WARNING - Offset count is zero.",
+                        "msg_code": "V0107"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.GDEF.GDEF.ligcaret.coverage",
+                        "levelname": "WARNING",
+                        "message": "Count is zero.",
+                        "timestamp": "2020-08-26T07:18:29.410062Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.GDEF.GDEF.ligcaret.coverage - WARNING - Count is zero.",
+                        "msg_code": "V0086"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.kern.format0",
+                        "levelname": "WARNING",
+                        "message": "Subtable declares more than 10920 pairs.",
+                        "timestamp": "2020-08-26T07:18:29.459713Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.kern.format0 - WARNING - Subtable declares more than 10920 pairs.",
+                        "msg_code": "V0920"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.kern.format0",
                         "levelname": "ERROR",
                         "message": "Insufficient bytes for pair data.",
-                        "timestamp": "2020-08-26T06:46:13.294381Z",
-                        "orig_output": "validate_8915c65685624c2ea857682a1e38b027.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
+                        "timestamp": "2020-08-26T07:18:29.459877Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
                         "msg_code": "V0136"
                     },
                     {
-                        "subroutine": "validate_8915c65685624c2ea857682a1e38b027.gasp.up to 11 ppem",
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.loca",
+                        "levelname": "WARNING",
+                        "message": "Not all glyphs are longword-aligned.",
+                        "timestamp": "2020-08-26T07:18:29.456290Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.fontedit.loca - WARNING - Not all glyphs are longword-aligned.",
+                        "msg_code": "W1701"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.cmap",
+                        "levelname": "WARNING",
+                        "message": "Cannot check Apple logo mapping, as Mac Roman subtable is missing.",
+                        "timestamp": "2020-08-26T07:18:30.337755Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.cmap - WARNING - Cannot check Apple logo mapping, as Mac Roman subtable is missing.",
+                        "msg_code": "W0301"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.cmap",
+                        "levelname": "WARNING",
+                        "message": "No Mac subtables present.",
+                        "timestamp": "2020-08-26T07:18:30.337847Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.cmap - WARNING - No Mac subtables present.",
+                        "msg_code": "W0302"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.DSIG",
+                        "levelname": "WARNING",
+                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
+                        "timestamp": "2020-08-26T07:18:29.469901Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
+                        "msg_code": "V1126"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.gasp.up to 11 ppem",
                         "levelname": "ERROR",
                         "message": "v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
-                        "timestamp": "2020-08-26T06:46:14.257912Z",
-                        "orig_output": "validate_8915c65685624c2ea857682a1e38b027.gasp.up to 11 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
+                        "timestamp": "2020-08-26T07:18:30.432496Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.gasp.up to 11 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
                         "msg_code": "V0992"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 11 ('parenleft').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:18:30.532278Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 11 ('parenleft').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 12 ('parenright').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:18:30.535795Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 12 ('parenright').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 135 ('Aring')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:31.453249Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 135 ('Aring') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 137 ('Ccedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:31.476565Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 137 ('Ccedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 169 ('ccedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:31.656778Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 169 ('ccedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 219 ('eogonek')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:31.914174Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 219 ('eogonek') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 288 ('Scedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:32.293296Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 288 ('Scedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 289 ('scedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:32.299067Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 289 ('scedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 308 ('Uogonek')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:32.413471Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 308 ('Uogonek') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 323 ('Aringacute').contours.contour 4",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:18:32.493313Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 323 ('Aringacute').contours.contour 4 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 527 ('bullet').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:18:33.909724Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 527 ('bullet').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 62 ('bracketleft').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:18:30.882746Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 62 ('bracketleft').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 64 ('bracketright').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:18:30.888888Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 64 ('bracketright').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 673 ('uni0498')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:35.734841Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 673 ('uni0498') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 674 ('uni0499')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:35.740651Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 674 ('uni0499') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 691 ('uni04AA')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:35.985410Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 691 ('uni04AA') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 692 ('uni04AB')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:35.990465Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 692 ('uni04AB') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 7 ('dollar').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:18:30.502604Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 7 ('dollar').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 771 ('uni04FA')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:36.639519Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 771 ('uni04FA') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 772 ('uni04FB')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:36.643306Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 772 ('uni04FB') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 773 ('uni04FC')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:36.646914Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 773 ('uni04FC') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 774 ('uni04FD')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:36.650509Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 774 ('uni04FD') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 795 ('uni0512')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:36.916330Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 795 ('uni0512') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 796 ('uni0513')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:36.920586Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 796 ('uni0513') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 912 ('tcedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:18:37.586662Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.glyf.glyph 912 ('tcedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.head.flags",
+                        "levelname": "WARNING",
+                        "message": "Bit 1 (left sidebearing point at x=0) is not set",
+                        "timestamp": "2020-08-26T07:18:38.848968Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.head.flags - WARNING - Bit 1 (left sidebearing point at x=0) is not set",
+                        "msg_code": "V0934"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.hhea",
+                        "levelname": "WARNING",
+                        "message": "The font-wide head.yMax 2302 exceeds the ascent 2189. Clipping may occur.",
+                        "timestamp": "2020-08-26T07:18:38.849430Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.hhea - WARNING - The font-wide head.yMax 2302 exceeds the ascent 2189. Clipping may occur.",
+                        "msg_code": "V0916"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.kern",
+                        "levelname": "WARNING",
+                        "message": "Subtable 0 could not be validated.",
+                        "timestamp": "2020-08-26T07:18:40.191611Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.kern - WARNING - Subtable 0 could not be validated.",
+                        "msg_code": "V0990"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxSizeOfInstructions, 267, correctly matches the size of the glyph hints, but is less than 2016, the larger of the sizes of the 'fpgm' and 'prep' tables.",
+                        "timestamp": "2020-08-26T07:18:45.188793Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp - WARNING - The maxSizeOfInstructions, 267, correctly matches the size of the glyph hints, but is less than 2016, the larger of the sizes of the 'fpgm' and 'prep' tables.",
+                        "msg_code": "V0270"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
+                        "timestamp": "2020-08-26T07:18:45.188919Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp - WARNING - The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
+                        "msg_code": "V0273"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxTwilightPoints value is 16, which is larger than is needed. It may be reduced to 0.",
+                        "timestamp": "2020-08-26T07:18:45.188998Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp - WARNING - The maxTwilightPoints value is 16, which is larger than is needed. It may be reduced to 0.",
+                        "msg_code": "V0275"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStorage value is 47, which is larger than is needed. It may be reduced to 23.",
+                        "timestamp": "2020-08-26T07:18:45.189069Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp - WARNING - The maxStorage value is 47, which is larger than is needed. It may be reduced to 23.",
+                        "msg_code": "V0277"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStackElements value is 294, which is larger than is needed. It may be reduced to 198.",
+                        "timestamp": "2020-08-26T07:18:45.189138Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.maxp - WARNING - The maxStackElements value is 294, which is larger than is needed. It may be reduced to 198.",
+                        "msg_code": "V0279"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.OS_2.codePageRanges",
+                        "levelname": "WARNING",
+                        "message": "Code page mac-roman is missing printables U+F8FF",
+                        "timestamp": "2020-08-26T07:18:29.760415Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.OS_2.codePageRanges - WARNING - Code page mac-roman is missing printables U+F8FF",
+                        "msg_code": "W2101"
+                    },
+                    {
+                        "subroutine": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.OS_2.usWinAscent",
+                        "levelname": "WARNING",
+                        "message": "The font-wide head.yMax 2302 exceeds the usWinAscent 2189. Clipping may occur.",
+                        "timestamp": "2020-08-26T07:18:30.337130Z",
+                        "orig_output": "validate_0b5e3fbd192444cbbbf8349f7dfb9c8c.OS_2.usWinAscent - WARNING - The font-wide head.yMax 2302 exceeds the usWinAscent 2189. Clipping may occur.",
+                        "msg_code": "V0918"
                     }
                 ]
             }
@@ -64,6 +400,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc3",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 21002,
-    "completedDate": "2020-08-26 06:46:32.643178"
+    "runningTime": 21659,
+    "completedDate": "2020-08-26 07:18:49.381312"
 }

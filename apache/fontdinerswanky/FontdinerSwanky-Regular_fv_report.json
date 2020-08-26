@@ -28,46 +28,150 @@
             },
             "validation": {
                 "font_full_name": "Fontdiner Swanky Regular",
-                "level": "ERROR",
+                "level": "WARNING",
                 "last_success": "finished validation python",
                 "msg_count": {
                     "CRITICAL": 0,
                     "ERROR": 4,
-                    "WARNING": 0,
+                    "WARNING": 13,
                     "INFO": 0,
                     "DEBUG": 0
                 },
                 "result": [
                     {
-                        "subroutine": "validate_7ffe9b71a9514074a8204242820ccbe2.OS_2.unicodeRanges",
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.DSIG",
+                        "levelname": "WARNING",
+                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
+                        "timestamp": "2020-08-26T07:12:53.668798Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
+                        "msg_code": "V1126"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.glyf",
+                        "levelname": "WARNING",
+                        "message": "Glyph 0 has no contours.",
+                        "timestamp": "2020-08-26T07:12:54.319486Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.glyf - WARNING - Glyph 0 has no contours.",
+                        "msg_code": "V0948"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 130 ('ccedilla').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:12:55.659376Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 130 ('ccedilla').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 130 ('ccedilla').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:12:55.663234Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 130 ('ccedilla').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 75 ('U').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Contour intersects itself.",
+                        "timestamp": "2020-08-26T07:12:55.095529Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 75 ('U').contours.contour 0 - WARNING - Contour intersects itself.",
+                        "msg_code": "E1111"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 89 ('c').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:12:55.163607Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 89 ('c').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 89 ('c').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:12:55.166270Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.glyf.glyph 89 ('c').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.hints",
+                        "levelname": "WARNING",
+                        "message": "Font has function definitions, a pre-program, and a control value program, but no glyph hints.",
+                        "timestamp": "2020-08-26T07:12:57.728732Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.hints - WARNING - Font has function definitions, a pre-program, and a control value program, but no glyph hints.",
+                        "msg_code": "V0549"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxSizeOfInstructions 371 does not match either the font's actual largest glyph hint size (0) nor the larger of the sizes of the 'fpgm' and 'prep' tables (353).",
+                        "timestamp": "2020-08-26T07:12:57.643659Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.maxp - WARNING - The maxSizeOfInstructions 371 does not match either the font's actual largest glyph hint size (0) nor the larger of the sizes of the 'fpgm' and 'prep' tables (353).",
+                        "msg_code": "V0271"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStackElements value is 512, which is larger than is needed. It may be reduced to 0.",
+                        "timestamp": "2020-08-26T07:12:57.643778Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.maxp - WARNING - The maxStackElements value is 512, which is larger than is needed. It may be reduced to 0.",
+                        "msg_code": "V0279"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2",
+                        "levelname": "WARNING",
+                        "message": "The usWeightClass 400 is inconsistent with the PANOSE weight Any",
+                        "timestamp": "2020-08-26T07:12:53.669316Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2 - WARNING - The usWeightClass 400 is inconsistent with the PANOSE weight Any",
+                        "msg_code": "W2116"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.codePageRanges",
+                        "levelname": "WARNING",
+                        "message": "Code page cp1252 is missing printables U+0192",
+                        "timestamp": "2020-08-26T07:12:53.683207Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.codePageRanges - WARNING - Code page cp1252 is missing printables U+0192",
+                        "msg_code": "W2101"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.sCapHeight",
+                        "levelname": "WARNING",
+                        "message": "sCapHeight value (805) does not match yMax of 'H' (719)",
+                        "timestamp": "2020-08-26T07:12:54.188465Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.sCapHeight - WARNING - sCapHeight value (805) does not match yMax of 'H' (719)",
+                        "msg_code": "V1133"
+                    },
+                    {
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
-                        "timestamp": "2020-08-26T06:40:31.646034Z",
-                        "orig_output": "validate_7ffe9b71a9514074a8204242820ccbe2.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:12:54.193830Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_7ffe9b71a9514074a8204242820ccbe2.OS_2.unicodeRanges",
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
-                        "timestamp": "2020-08-26T06:40:31.646206Z",
-                        "orig_output": "validate_7ffe9b71a9514074a8204242820ccbe2.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:12:54.193929Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_7ffe9b71a9514074a8204242820ccbe2.OS_2.unicodeRanges",
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasTags' claimed to be present but is not.",
-                        "timestamp": "2020-08-26T06:40:31.646286Z",
-                        "orig_output": "validate_7ffe9b71a9514074a8204242820ccbe2.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:12:54.194016Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_7ffe9b71a9514074a8204242820ccbe2.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 647, but is 558",
-                        "timestamp": "2020-08-26T06:40:31.742315Z",
-                        "orig_output": "validate_7ffe9b71a9514074a8204242820ccbe2.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 647, but is 558",
+                        "timestamp": "2020-08-26T07:12:54.295251Z",
+                        "orig_output": "validate_16fa878b44dc46748ee64ac9a455499c.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 647, but is 558",
                         "msg_code": "E2135"
                     }
                 ]
@@ -77,6 +181,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc3",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 5727,
-    "completedDate": "2020-08-26 06:40:35.203478"
+    "runningTime": 5780,
+    "completedDate": "2020-08-26 07:12:57.821755"
 }

@@ -28,135 +28,319 @@
             },
             "validation": {
                 "font_full_name": "Ultra Regular",
-                "level": "ERROR",
+                "level": "WARNING",
                 "last_success": "finished validation python",
                 "msg_count": {
                     "CRITICAL": 0,
                     "ERROR": 15,
-                    "WARNING": 0,
+                    "WARNING": 23,
                     "INFO": 0,
                     "DEBUG": 0
                 },
                 "result": [
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 168 ('ae')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.fontedit.post",
+                        "levelname": "WARNING",
+                        "message": "The glyph name '.null' for glyph 1 is not valid.",
+                        "timestamp": "2020-08-26T07:10:38.616954Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.fontedit.post - WARNING - The glyph name '.null' for glyph 1 is not valid.",
+                        "msg_code": "V0930"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.DSIG",
+                        "levelname": "WARNING",
+                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
+                        "timestamp": "2020-08-26T07:10:38.619007Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
+                        "msg_code": "V1126"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf",
+                        "levelname": "WARNING",
+                        "message": "Glyph 0 has no contours.",
+                        "timestamp": "2020-08-26T07:10:39.329339Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf - WARNING - Glyph 0 has no contours.",
+                        "msg_code": "V0948"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 137 ('Ccedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:41.754403Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 137 ('Ccedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 168 ('ae')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [39, -43, 2099, 1147], but are [39, -43, 2097, 1147].",
-                        "timestamp": "2020-08-26T06:38:42.385314Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 168 ('ae') - ERROR - Bounds should be [39, -43, 2099, 1147], but are [39, -43, 2097, 1147].",
+                        "timestamp": "2020-08-26T07:10:41.991850Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 168 ('ae') - ERROR - Bounds should be [39, -43, 2099, 1147], but are [39, -43, 2097, 1147].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 170 ('egrave')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 168 ('ae').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:41.995397Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 168 ('ae').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 168 ('ae').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:41.999021Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 168 ('ae').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 169 ('ccedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:42.031789Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 169 ('ccedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 170 ('egrave')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-08-26T06:38:42.428679Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 170 ('egrave') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-08-26T07:10:42.034365Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 170 ('egrave') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 171 ('eacute')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 171 ('eacute')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-08-26T06:38:42.433642Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 171 ('eacute') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-08-26T07:10:42.039265Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 171 ('eacute') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 172 ('ecircumflex')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 172 ('ecircumflex')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-08-26T06:38:42.438768Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 172 ('ecircumflex') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-08-26T07:10:42.044245Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 172 ('ecircumflex') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 173 ('edieresis')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 173 ('edieresis')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1546], but are [41, -43, 1403, 1546].",
-                        "timestamp": "2020-08-26T06:38:42.444454Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 173 ('edieresis') - ERROR - Bounds should be [41, -43, 1405, 1546], but are [41, -43, 1403, 1546].",
+                        "timestamp": "2020-08-26T07:10:42.049932Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 173 ('edieresis') - ERROR - Bounds should be [41, -43, 1405, 1546], but are [41, -43, 1403, 1546].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 213 ('emacron')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 213 ('emacron')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1507], but are [41, -43, 1403, 1507].",
-                        "timestamp": "2020-08-26T06:38:42.829879Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 213 ('emacron') - ERROR - Bounds should be [41, -43, 1405, 1507], but are [41, -43, 1403, 1507].",
+                        "timestamp": "2020-08-26T07:10:42.419635Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 213 ('emacron') - ERROR - Bounds should be [41, -43, 1405, 1507], but are [41, -43, 1403, 1507].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 215 ('ebreve')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 215 ('ebreve')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-08-26T06:38:42.840702Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 215 ('ebreve') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-08-26T07:10:42.430058Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 215 ('ebreve') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 217 ('edotaccent')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 217 ('edotaccent')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1573], but are [41, -43, 1403, 1573].",
-                        "timestamp": "2020-08-26T06:38:42.851692Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 217 ('edotaccent') - ERROR - Bounds should be [41, -43, 1405, 1573], but are [41, -43, 1403, 1573].",
+                        "timestamp": "2020-08-26T07:10:42.440710Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 217 ('edotaccent') - ERROR - Bounds should be [41, -43, 1405, 1573], but are [41, -43, 1403, 1573].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 219 ('eogonek')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 219 ('eogonek')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -467, 1405, 1147], but are [41, -467, 1403, 1147].",
-                        "timestamp": "2020-08-26T06:38:42.888263Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 219 ('eogonek') - ERROR - Bounds should be [41, -467, 1405, 1147], but are [41, -467, 1403, 1147].",
+                        "timestamp": "2020-08-26T07:10:42.476012Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 219 ('eogonek') - ERROR - Bounds should be [41, -467, 1405, 1147], but are [41, -467, 1403, 1147].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 221 ('ecaron')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 219 ('eogonek').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:42.477041Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 219 ('eogonek').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 219 ('eogonek').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:42.479471Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 219 ('eogonek').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 221 ('ecaron')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-08-26T06:38:42.911724Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 221 ('ecaron') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-08-26T07:10:42.498992Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 221 ('ecaron') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 277 ('oe')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 240 ('Iogonek')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:42.695202Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 240 ('Iogonek') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 241 ('iogonek')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:42.700533Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 241 ('iogonek') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 277 ('oe')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 2236, 1147], but are [41, -43, 2234, 1147].",
-                        "timestamp": "2020-08-26T06:38:43.450905Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 277 ('oe') - ERROR - Bounds should be [41, -43, 2236, 1147], but are [41, -43, 2234, 1147].",
+                        "timestamp": "2020-08-26T07:10:43.028419Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 277 ('oe') - ERROR - Bounds should be [41, -43, 2236, 1147], but are [41, -43, 2234, 1147].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 323 ('aeacute')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 277 ('oe').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:43.030785Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 277 ('oe').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 277 ('oe').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:43.032923Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 277 ('oe').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 288 ('Scedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:43.115709Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 288 ('Scedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 289 ('scedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:43.124138Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 289 ('scedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 323 ('aeacute')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [39, -43, 2099, 1548], but are [39, -43, 2097, 1548].",
-                        "timestamp": "2020-08-26T06:38:43.863102Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 323 ('aeacute') - ERROR - Bounds should be [39, -43, 2099, 1548], but are [39, -43, 2097, 1548].",
+                        "timestamp": "2020-08-26T07:10:43.438617Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 323 ('aeacute') - ERROR - Bounds should be [39, -43, 2099, 1548], but are [39, -43, 2097, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 72 ('e')",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 72 ('e')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1147], but are [41, -43, 1403, 1147].",
-                        "timestamp": "2020-08-26T06:38:40.860209Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.glyf.glyph 72 ('e') - ERROR - Bounds should be [41, -43, 1405, 1147], but are [41, -43, 1403, 1147].",
+                        "timestamp": "2020-08-26T07:10:40.472051Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 72 ('e') - ERROR - Bounds should be [41, -43, 1405, 1147], but are [41, -43, 1403, 1147].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.OS_2.usMaxContext",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 72 ('e').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:40.472860Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 72 ('e').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 72 ('e').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:40.474589Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.glyf.glyph 72 ('e').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.head",
+                        "levelname": "WARNING",
+                        "message": "Non-linear scaling flag (bit 4) is set, but b'hdmx' table is not present",
+                        "timestamp": "2020-08-26T07:10:44.611859Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.head - WARNING - Non-linear scaling flag (bit 4) is set, but b'hdmx' table is not present",
+                        "msg_code": "W1302"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.head",
+                        "levelname": "WARNING",
+                        "message": "Non-linear scaling flag (bit 4) is set, but b'LTSH' table is not present",
+                        "timestamp": "2020-08-26T07:10:44.611980Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.head - WARNING - Non-linear scaling flag (bit 4) is set, but b'LTSH' table is not present",
+                        "msg_code": "W1303"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.hints",
+                        "levelname": "WARNING",
+                        "message": "Font has function definitions, a pre-program, and a control value program, but no glyph hints.",
+                        "timestamp": "2020-08-26T07:10:46.128541Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.hints - WARNING - Font has function definitions, a pre-program, and a control value program, but no glyph hints.",
+                        "msg_code": "V0549"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxSizeOfInstructions, 0, correctly matches the size of the glyph hints, but is less than 371, the larger of the sizes of the 'fpgm' and 'prep' tables.",
+                        "timestamp": "2020-08-26T07:10:45.991554Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.maxp - WARNING - The maxSizeOfInstructions, 0, correctly matches the size of the glyph hints, but is less than 371, the larger of the sizes of the 'fpgm' and 'prep' tables.",
+                        "msg_code": "V0270"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStackElements value is 512, which is larger than is needed. It may be reduced to 0.",
+                        "timestamp": "2020-08-26T07:10:45.991668Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.maxp - WARNING - The maxStackElements value is 512, which is larger than is needed. It may be reduced to 0.",
+                        "msg_code": "V0279"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 0, but is 1",
-                        "timestamp": "2020-08-26T06:38:39.671409Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.OS_2.usMaxContext - ERROR - The usMaxContext should be 0, but is 1",
+                        "timestamp": "2020-08-26T07:10:39.302546Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.OS_2.usMaxContext - ERROR - The usMaxContext should be 0, but is 1",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_9b034f905ffa4a8ab91c949d313ec01f.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1459, but is 1460",
-                        "timestamp": "2020-08-26T06:38:39.671758Z",
-                        "orig_output": "validate_9b034f905ffa4a8ab91c949d313ec01f.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1459, but is 1460",
+                        "timestamp": "2020-08-26T07:10:39.302826Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1459, but is 1460",
                         "msg_code": "E2135"
+                    },
+                    {
+                        "subroutine": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.post",
+                        "levelname": "WARNING",
+                        "message": "The glyph name '.null' for glyph 1 is not valid.",
+                        "timestamp": "2020-08-26T07:10:45.994902Z",
+                        "orig_output": "validate_6c8e0fc7b5c6485399aeac6254d44f8e.post - WARNING - The glyph name '.null' for glyph 1 is not valid.",
+                        "msg_code": "V0930"
                     }
                 ]
             }
@@ -165,6 +349,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc3",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 9400,
-    "completedDate": "2020-08-26 06:38:46.703776"
+    "runningTime": 9275,
+    "completedDate": "2020-08-26 07:10:46.213630"
 }

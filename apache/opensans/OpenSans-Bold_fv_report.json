@@ -29,23 +29,607 @@
             },
             "validation": {
                 "font_full_name": "Open Sans Bold",
-                "level": "ERROR",
+                "level": "WARNING",
                 "last_success": "finished validation python",
                 "msg_count": {
                     "CRITICAL": 0,
                     "ERROR": 1,
-                    "WARNING": 0,
+                    "WARNING": 73,
                     "INFO": 0,
                     "DEBUG": 0
                 },
                 "result": [
                     {
-                        "subroutine": "validate_cd798709b80a47f697fa5dd9a0232206.fontedit.kern.format0",
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.GDEF.GDEF.ligcaret",
+                        "levelname": "WARNING",
+                        "message": "Offset count is zero.",
+                        "timestamp": "2020-08-26T07:10:38.638114Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.GDEF.GDEF.ligcaret - WARNING - Offset count is zero.",
+                        "msg_code": "V0107"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.GDEF.GDEF.ligcaret.coverage",
+                        "levelname": "WARNING",
+                        "message": "Count is zero.",
+                        "timestamp": "2020-08-26T07:10:38.637889Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.GDEF.GDEF.ligcaret.coverage - WARNING - Count is zero.",
+                        "msg_code": "V0086"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.kern.format0",
+                        "levelname": "WARNING",
+                        "message": "Subtable declares more than 10920 pairs.",
+                        "timestamp": "2020-08-26T07:10:38.688707Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.kern.format0 - WARNING - Subtable declares more than 10920 pairs.",
+                        "msg_code": "V0920"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.kern.format0",
                         "levelname": "ERROR",
                         "message": "Insufficient bytes for pair data.",
-                        "timestamp": "2020-08-26T06:39:58.494902Z",
-                        "orig_output": "validate_cd798709b80a47f697fa5dd9a0232206.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
+                        "timestamp": "2020-08-26T07:10:38.688850Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
                         "msg_code": "V0136"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.loca",
+                        "levelname": "WARNING",
+                        "message": "Not all glyphs are longword-aligned.",
+                        "timestamp": "2020-08-26T07:10:38.685274Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.fontedit.loca - WARNING - Not all glyphs are longword-aligned.",
+                        "msg_code": "W1701"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.cmap",
+                        "levelname": "WARNING",
+                        "message": "Cannot check Apple logo mapping, as Mac Roman subtable is missing.",
+                        "timestamp": "2020-08-26T07:10:39.564625Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.cmap - WARNING - Cannot check Apple logo mapping, as Mac Roman subtable is missing.",
+                        "msg_code": "W0301"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.cmap",
+                        "levelname": "WARNING",
+                        "message": "No Mac subtables present.",
+                        "timestamp": "2020-08-26T07:10:39.564750Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.cmap - WARNING - No Mac subtables present.",
+                        "msg_code": "W0302"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.DSIG",
+                        "levelname": "WARNING",
+                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
+                        "timestamp": "2020-08-26T07:10:38.698377Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
+                        "msg_code": "V1126"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 135 ('Aring')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:40.686666Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 135 ('Aring') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 137 ('Ccedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:40.707157Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 137 ('Ccedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 169 ('ccedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:40.889825Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 169 ('ccedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 219 ('eogonek')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:41.152566Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 219 ('eogonek') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 288 ('Scedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:41.536601Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 288 ('Scedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 289 ('scedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:41.542428Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 289 ('scedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 308 ('Uogonek')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:41.656322Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 308 ('Uogonek') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 309 ('uogonek')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:41.660963Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 309 ('uogonek') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 420 ('afii10058').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:42.317118Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 420 ('afii10058').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 420 ('afii10058').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:42.318571Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 420 ('afii10058').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 437 ('afii10029').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:42.454564Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 437 ('afii10029').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 437 ('afii10029').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:42.455697Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 437 ('afii10029').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 451 ('afii10043').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:42.529569Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 451 ('afii10043').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 483 ('afii10091').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:42.761539Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 483 ('afii10091').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 529 ('perthousand').contours.contour 7",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:43.043134Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 529 ('perthousand').contours.contour 7 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 607 ('Ohorn').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:43.584099Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 607 ('Ohorn').contours.contour 2 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 608 ('ohorn').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:43.592576Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 608 ('ohorn').contours.contour 2 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 609 ('Uhorn').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:43.606375Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 609 ('Uhorn').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 610 ('uhorn').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:43.623562Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 610 ('uhorn').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 632 ('uni046C').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:43.876688Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 632 ('uni046C').contours.contour 2 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 633 ('uni046D').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:43.907960Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 633 ('uni046D').contours.contour 2 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 661 ('uni048A').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.270762Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 661 ('uni048A').contours.contour 2 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 662 ('uni048B').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.287116Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 662 ('uni048B').contours.contour 2 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 671 ('uni0496').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.408219Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 671 ('uni0496').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 672 ('uni0497').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.435022Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 672 ('uni0497').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 673 ('uni0498')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:44.440899Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 673 ('uni0498') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 674 ('uni0499')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:44.447082Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 674 ('uni0499') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 675 ('uni049A').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.460717Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 675 ('uni049A').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 676 ('uni049B').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.474189Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 676 ('uni049B').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 681 ('uni04A0').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.580893Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 681 ('uni04A0').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 682 ('uni04A1').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.591674Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 682 ('uni04A1').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 683 ('uni04A2').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.604372Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 683 ('uni04A2').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 684 ('uni04A3').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.617104Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 684 ('uni04A3').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 685 ('uni04A4').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.627320Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 685 ('uni04A4').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 686 ('uni04A5').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.637689Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 686 ('uni04A5').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 691 ('uni04AA')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:44.697796Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 691 ('uni04AA') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 692 ('uni04AB')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:44.702778Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 692 ('uni04AB') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 699 ('uni04B2').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.775932Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 699 ('uni04B2').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 700 ('uni04B3').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.790093Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 700 ('uni04B3').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 700 ('uni04B3').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.790356Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 700 ('uni04B3').contours.contour 2 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 703 ('uni04B6').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.829078Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 703 ('uni04B6').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 704 ('uni04B7').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.841589Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 704 ('uni04B7').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 718 ('uni04C5').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:44.998681Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 718 ('uni04C5').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 719 ('uni04C6').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:45.009752Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 719 ('uni04C6').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 722 ('uni04C9').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:45.048769Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 722 ('uni04C9').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 723 ('uni04CA').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:45.062819Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 723 ('uni04CA').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 726 ('uni04CD').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:45.111097Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 726 ('uni04CD').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 727 ('uni04CE').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Contour is degenerate (only a single (x, y) location).",
+                        "timestamp": "2020-08-26T07:10:45.133634Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 727 ('uni04CE').contours.contour 1 - WARNING - Contour is degenerate (only a single (x, y) location).",
+                        "msg_code": "W1113"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 771 ('uni04FA')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:45.375530Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 771 ('uni04FA') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 772 ('uni04FB')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:45.379316Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 772 ('uni04FB') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 773 ('uni04FC')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:45.382980Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 773 ('uni04FC') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 774 ('uni04FD')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:45.386650Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 774 ('uni04FD') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 785 ('uni0508').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:45.525405Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 785 ('uni0508').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 785 ('uni0508').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:10:45.527165Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 785 ('uni0508').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 795 ('uni0512')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:45.652946Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 795 ('uni0512') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 796 ('uni0513')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:45.657129Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 796 ('uni0513') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 911 ('Tcedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:46.335113Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 911 ('Tcedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 912 ('tcedilla')",
+                        "levelname": "WARNING",
+                        "message": "Composite has intersecting contours.",
+                        "timestamp": "2020-08-26T07:10:46.339994Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.glyf.glyph 912 ('tcedilla') - WARNING - Composite has intersecting contours.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.head.flags",
+                        "levelname": "WARNING",
+                        "message": "Bit 1 (left sidebearing point at x=0) is not set",
+                        "timestamp": "2020-08-26T07:10:47.611788Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.head.flags - WARNING - Bit 1 (left sidebearing point at x=0) is not set",
+                        "msg_code": "V0934"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.kern",
+                        "levelname": "WARNING",
+                        "message": "Subtable 0 could not be validated.",
+                        "timestamp": "2020-08-26T07:10:48.966606Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.kern - WARNING - Subtable 0 could not be validated.",
+                        "msg_code": "V0990"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxSizeOfInstructions, 267, correctly matches the size of the glyph hints, but is less than 2016, the larger of the sizes of the 'fpgm' and 'prep' tables.",
+                        "timestamp": "2020-08-26T07:10:54.014308Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.maxp - WARNING - The maxSizeOfInstructions, 267, correctly matches the size of the glyph hints, but is less than 2016, the larger of the sizes of the 'fpgm' and 'prep' tables.",
+                        "msg_code": "V0270"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
+                        "timestamp": "2020-08-26T07:10:54.014432Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.maxp - WARNING - The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
+                        "msg_code": "V0273"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxTwilightPoints value is 16, which is larger than is needed. It may be reduced to 0.",
+                        "timestamp": "2020-08-26T07:10:54.014510Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.maxp - WARNING - The maxTwilightPoints value is 16, which is larger than is needed. It may be reduced to 0.",
+                        "msg_code": "V0275"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStorage value is 47, which is larger than is needed. It may be reduced to 23.",
+                        "timestamp": "2020-08-26T07:10:54.014586Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.maxp - WARNING - The maxStorage value is 47, which is larger than is needed. It may be reduced to 23.",
+                        "msg_code": "V0277"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStackElements value is 256, which is larger than is needed. It may be reduced to 150.",
+                        "timestamp": "2020-08-26T07:10:54.014665Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.maxp - WARNING - The maxStackElements value is 256, which is larger than is needed. It may be reduced to 150.",
+                        "msg_code": "V0279"
+                    },
+                    {
+                        "subroutine": "validate_625e3c371b6d47f5958a9854460f828c.OS_2.codePageRanges",
+                        "levelname": "WARNING",
+                        "message": "Code page mac-roman is missing printables U+F8FF",
+                        "timestamp": "2020-08-26T07:10:38.981737Z",
+                        "orig_output": "validate_625e3c371b6d47f5958a9854460f828c.OS_2.codePageRanges - WARNING - Code page mac-roman is missing printables U+F8FF",
+                        "msg_code": "W2101"
                     }
                 ]
             }
@@ -54,6 +638,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc3",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 21145,
-    "completedDate": "2020-08-26 06:40:17.970027"
+    "runningTime": 21391,
+    "completedDate": "2020-08-26 07:10:58.333224"
 }

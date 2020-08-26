@@ -1,0 +1,2562 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "WalterTurncoat-Regular.ttf",
+                "type": "ttf",
+                "size": 153836,
+                "md5": "a4b0f1845bb7312ede1eb1a97fa6f7ae",
+                "geometryMd5": "6423c88fe0ff08759fa288215db26629"
+            },
+            "name": {
+                "family": "Walter Turncoat",
+                "subFamily": "Regular",
+                "fullName": "Walter Turncoat Regular",
+                "psName": "WalterTurncoat-Regular",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.",
+                "trademark": "Walter Turncoat is a trademark of Font Diner, Inc DBA Sideshow."
+            },
+            "format": {
+                "format": "TT"
+            },
+            "summary": {
+                "num_glyphs": 228,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "DINR",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Walter Turncoat Regular",
+                "level": "WARNING",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 15,
+                    "WARNING": 299,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.DSIG",
+                        "levelname": "WARNING",
+                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
+                        "timestamp": "2020-08-26T07:15:32.099159Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
+                        "msg_code": "V1126"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf",
+                        "levelname": "WARNING",
+                        "message": "Glyph 0 has no contours.",
+                        "timestamp": "2020-08-26T07:15:33.169391Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf - WARNING - Glyph 0 has no contours.",
+                        "msg_code": "V0948"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 1 ('Eth').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:33.253274Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 1 ('Eth').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 1 ('Eth').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:15:33.253898Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 1 ('Eth').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 1 ('Eth').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:33.262800Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 1 ('Eth').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 1 ('Eth').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:33.412904Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 1 ('Eth').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 100 ('n').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:00.395762Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 100 ('n').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 100 ('n').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:00.410113Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 100 ('n').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 101 ('o').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:00.822139Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 101 ('o').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 102 ('p').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:00.896417Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 102 ('p').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 102 ('p').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:00.905700Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 102 ('p').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 103 ('q').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:01.113730Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 103 ('q').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 103 ('q').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:01.122463Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 103 ('q').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 104 ('r').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:01.335782Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 104 ('r').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 104 ('r').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:01.346743Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 104 ('r').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 104 ('r').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:01.511565Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 104 ('r').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 106 ('t').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:01.776594Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 106 ('t').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 106 ('t').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:01.786279Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 106 ('t').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 107 ('u').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:01.919039Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 107 ('u').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 108 ('v').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:02.085832Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 108 ('v').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 108 ('v').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:02.097608Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 108 ('v').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 110 ('x').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:02.632993Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 110 ('x').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 110 ('x').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:02.643386Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 110 ('x').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 112 ('z').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:02.939465Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 112 ('z').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 112 ('z').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:02.952006Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 112 ('z').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 113 ('braceleft').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:03.154777Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 113 ('braceleft').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 113 ('braceleft').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:03.166453Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 113 ('braceleft').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 114 ('bar').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:03.343988Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 114 ('bar').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 114 ('bar').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:03.351742Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 114 ('bar').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 115 ('braceright').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:03.440038Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 115 ('braceright').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 115 ('braceright').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:03.450182Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 115 ('braceright').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 116 ('asciitilde').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:03.588158Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 116 ('asciitilde').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 116 ('asciitilde').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:03.596339Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 116 ('asciitilde').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 119 ('Ccedilla').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:04.242393Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 119 ('Ccedilla').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 119 ('Ccedilla').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:04.262459Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 119 ('Ccedilla').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 129 ('aring').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:05.491618Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 129 ('aring').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 129 ('aring').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:05.495321Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 129 ('aring').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:34.997497Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.005914Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Contour intersects itself.",
+                        "timestamp": "2020-08-26T07:15:35.102746Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours.contour 0 - WARNING - Contour intersects itself.",
+                        "msg_code": "E1111"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.117800Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.139986Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 13 ('onehalf').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 14 ('onequarter').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.302126Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 14 ('onequarter').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 14 ('onequarter').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.309908Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 14 ('onequarter').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 14 ('onequarter').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.430512Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 14 ('onequarter').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 15 ('onesuperior').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.592455Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 15 ('onesuperior').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 15 ('onesuperior').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.595428Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 15 ('onesuperior').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 150 ('cent').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:06.947784Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 150 ('cent').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 150 ('cent').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:06.960545Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 150 ('cent').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 151 ('sterling').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:07.196999Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 151 ('sterling').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 151 ('sterling').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:07.216328Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 151 ('sterling').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 152 ('section').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:07.738276Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 152 ('section').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 152 ('section').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:07.754493Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 152 ('section').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 152 ('section').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:08.128598Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 152 ('section').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 153 ('bullet').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:08.147901Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 153 ('bullet').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 153 ('bullet').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:08.151257Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 153 ('bullet').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 154 ('paragraph').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:08.220739Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 154 ('paragraph').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 154 ('paragraph').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:08.238368Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 154 ('paragraph').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 154 ('paragraph').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:08.654223Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 154 ('paragraph').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 156 ('registered').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:09.138337Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 156 ('registered').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 156 ('registered').contours.contour 3",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:09.322199Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 156 ('registered').contours.contour 3 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 157 ('copyright').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:09.505984Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 157 ('copyright').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 157 ('copyright').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:09.517426Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 157 ('copyright').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 157 ('copyright').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:09.698885Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 157 ('copyright').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 157 ('copyright').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:09.812370Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 157 ('copyright').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 159 ('dieresis').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:09.945490Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 159 ('dieresis').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 159 ('dieresis').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:09.947635Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 159 ('dieresis').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 159 ('dieresis').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:09.957473Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 159 ('dieresis').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 16 ('threequarters').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.690992Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 16 ('threequarters').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 16 ('threequarters').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.700522Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 16 ('threequarters').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 16 ('threequarters').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.825428Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 16 ('threequarters').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 16 ('threequarters').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:35.946275Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 16 ('threequarters').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 160 ('AE').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:10.051936Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 160 ('AE').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 160 ('AE').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:10.078852Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 160 ('AE').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 161 ('Oslash').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:11.204125Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 161 ('Oslash').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 161 ('Oslash').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:11.219285Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 161 ('Oslash').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 163 ('yen').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:11.735238Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 163 ('yen').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 163 ('yen').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:11.750990Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 163 ('yen').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 165 ('ordfeminine').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:12.351351Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 165 ('ordfeminine').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 165 ('ordfeminine').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:12.358866Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 165 ('ordfeminine').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 166 ('ordmasculine').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:12.475273Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 166 ('ordmasculine').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 166 ('ordmasculine').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:12.481227Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 166 ('ordmasculine').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 166 ('ordmasculine').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:12.538995Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 166 ('ordmasculine').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 167 ('ae').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:16:12.586613Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 167 ('ae').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 167 ('ae').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.076691Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 167 ('ae').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 168 ('oslash').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.292658Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 168 ('oslash').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 169 ('questiondown').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.353923Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 169 ('questiondown').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 169 ('questiondown').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:16:13.354502Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 169 ('questiondown').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 169 ('questiondown').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.364737Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 169 ('questiondown').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 169 ('questiondown').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.531704Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 169 ('questiondown').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 17 ('threesuperior').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.050415Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 17 ('threesuperior').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 17 ('threesuperior').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.058609Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 17 ('threesuperior').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 170 ('exclamdown').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.543364Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 170 ('exclamdown').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 170 ('exclamdown').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.549085Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 170 ('exclamdown').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 170 ('exclamdown').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.600566Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 170 ('exclamdown').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 171 ('logicalnot').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.608096Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 171 ('logicalnot').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 171 ('logicalnot').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.616077Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 171 ('logicalnot').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 172 ('guillemotleft').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.712794Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 172 ('guillemotleft').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 172 ('guillemotleft').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.719551Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 172 ('guillemotleft').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 172 ('guillemotleft').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.786120Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 172 ('guillemotleft').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 173 ('guillemotright').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.867062Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 173 ('guillemotright').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 173 ('guillemotright').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.874053Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 173 ('guillemotright').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 173 ('guillemotright').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:13.946690Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 173 ('guillemotright').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 179 ('OE').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:14.464898Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 179 ('OE').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 179 ('OE').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:14.487651Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 179 ('OE').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 18 ('twosuperior').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.162240Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 18 ('twosuperior').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 18 ('twosuperior').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.170302Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 18 ('twosuperior').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 180 ('oe').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:15.767469Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 180 ('oe').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 181 ('endash').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:15.811783Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 181 ('endash').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 181 ('endash').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:15.818085Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 181 ('endash').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 182 ('emdash').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:15.875275Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 182 ('emdash').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 182 ('emdash').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:15.882199Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 182 ('emdash').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 184 ('quotedblright').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.007564Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 184 ('quotedblright').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 184 ('quotedblright').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.033738Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 184 ('quotedblright').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 186 ('quoteright').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.076993Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 186 ('quoteright').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 186 ('quoteright').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.080347Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 186 ('quoteright').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 187 ('divide').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.106772Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 187 ('divide').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 187 ('divide').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.108771Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 187 ('divide').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 187 ('divide').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.120445Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 187 ('divide').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 187 ('divide').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.152933Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 187 ('divide').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 19 ('brokenbar').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.275822Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 19 ('brokenbar').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 19 ('brokenbar').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.278827Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 19 ('brokenbar').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 19 ('brokenbar').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.296085Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 19 ('brokenbar').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 190 ('fraction').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.242389Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 190 ('fraction').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 190 ('fraction').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:16.250851Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 190 ('fraction').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 192 ('guilsinglleft').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.131854Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 192 ('guilsinglleft').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 192 ('guilsinglleft').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.138610Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 192 ('guilsinglleft').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 193 ('guilsinglright').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.205611Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 193 ('guilsinglright').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 193 ('guilsinglright').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.212084Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 193 ('guilsinglright').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 196 ('periodcentered').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.392058Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 196 ('periodcentered').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 196 ('periodcentered').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.394032Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 196 ('periodcentered').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 197 ('quotesinglbase').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.401895Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 197 ('quotesinglbase').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 197 ('quotesinglbase').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.405233Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 197 ('quotesinglbase').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 198 ('quotedblbase').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.428901Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 198 ('quotedblbase').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 198 ('quotedblbase').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.455227Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 198 ('quotedblbase').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.624373Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.673659Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.685570Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 3",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.731251Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 3 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 4",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.752422Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 4 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 6",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:17.970875Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 199 ('perthousand').contours.contour 6 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 2 ('eth').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:33.661951Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 2 ('eth').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 2 ('eth').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:33.668061Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 2 ('eth').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 2 ('eth').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:33.732144Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 2 ('eth').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 20 ('minus').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.324986Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 20 ('minus').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 20 ('minus').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.331087Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 20 ('minus').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 21 ('multiply').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.388332Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 21 ('multiply').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 21 ('multiply').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.399789Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 21 ('multiply').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 215 ('dotlessi').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.037539Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 215 ('dotlessi').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 217 ('tilde').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.137346Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 217 ('tilde').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 217 ('tilde').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.143188Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 217 ('tilde').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 218 ('macron').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.195395Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 218 ('macron').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 218 ('macron').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.199213Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 218 ('macron').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 219 ('breve').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.222588Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 219 ('breve').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 219 ('breve').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.226823Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 219 ('breve').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 220 ('dotaccent').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.256265Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 220 ('dotaccent').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 220 ('dotaccent').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.258380Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 220 ('dotaccent').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 222 ('cedilla').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.332234Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 222 ('cedilla').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 222 ('cedilla').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.337958Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 222 ('cedilla').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 223 ('hungarumlaut').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.396285Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 223 ('hungarumlaut').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 223 ('hungarumlaut').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.398334Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 223 ('hungarumlaut').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 223 ('hungarumlaut').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.408003Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 223 ('hungarumlaut').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 226 ('sfthyphen').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.487493Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 226 ('sfthyphen').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 226 ('sfthyphen').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.493433Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 226 ('sfthyphen').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 227 ('currency').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.559782Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 227 ('currency').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 227 ('currency').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.568288Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 227 ('currency').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 227 ('currency').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:16:19.676890Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 227 ('currency').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 23 ('exclam').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.577124Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 23 ('exclam').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 23 ('exclam').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.583005Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 23 ('exclam').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 23 ('exclam').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.637706Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 23 ('exclam').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 24 ('quotedbl').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.647783Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 24 ('quotedbl').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 24 ('quotedbl').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.650674Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 24 ('quotedbl').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 25 ('numbersign').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.724928Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 25 ('numbersign').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 25 ('numbersign').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:36.742049Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 25 ('numbersign').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 26 ('dollar').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:37.135802Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 26 ('dollar').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 26 ('dollar').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:15:37.136588Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 26 ('dollar').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 26 ('dollar').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:37.152713Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 26 ('dollar').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:37.618272Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:37.623802Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:37.667593Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:37.688543Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours.contour 4",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:37.897004Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 27 ('percent').contours.contour 4 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 28 ('ampersand').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:37.980713Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 28 ('ampersand').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 28 ('ampersand').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:37.996072Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 28 ('ampersand').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 28 ('ampersand').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.306004Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 28 ('ampersand').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 28 ('ampersand').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.323109Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 28 ('ampersand').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 3 ('Lslash').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:33.864360Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 3 ('Lslash').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 3 ('Lslash').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:33.877541Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 3 ('Lslash').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 32 ('asterisk').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.659747Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 32 ('asterisk').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 32 ('asterisk').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.667586Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 32 ('asterisk').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 34 ('comma').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.889341Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 34 ('comma').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 34 ('comma').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.892780Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 34 ('comma').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 35 ('hyphen').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.913103Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 35 ('hyphen').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 35 ('hyphen').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.919208Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 35 ('hyphen').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 36 ('period').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.973851Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 36 ('period').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 36 ('period').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.975777Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 36 ('period').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 37 ('slash').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.984793Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 37 ('slash').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 37 ('slash').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:15:38.985234Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 37 ('slash').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 37 ('slash').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:38.992920Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 37 ('slash').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 38 ('zero').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:39.352258Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 38 ('zero').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 4 ('lslash').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:34.139865Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 4 ('lslash').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 4 ('lslash').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:34.150794Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 4 ('lslash').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 40 ('two').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:39.622924Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 40 ('two').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 40 ('two').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:39.642842Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 40 ('two').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 41 ('three').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:40.202626Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 41 ('three').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 42 ('four').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:40.764248Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 42 ('four').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 42 ('four').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:40.780568Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 42 ('four').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 43 ('five').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:41.215108Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 43 ('five').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 43 ('five').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:41.238055Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 43 ('five').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 44 ('six').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:42.419183Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 44 ('six').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 45 ('seven').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:15:42.537852Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 45 ('seven').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 46 ('eight').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:42.935690Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 46 ('eight').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 46 ('eight').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:42.949652Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 46 ('eight').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 46 ('eight').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.231654Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 46 ('eight').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 46 ('eight').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.280427Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 46 ('eight').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 47 ('nine').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.478981Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 47 ('nine').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 47 ('nine').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.812336Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 47 ('nine').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 48 ('colon').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.887963Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 48 ('colon').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 48 ('colon').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.889976Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 48 ('colon').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 48 ('colon').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.898814Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 48 ('colon').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 49 ('semicolon').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.909174Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 49 ('semicolon').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 49 ('semicolon').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.911201Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 49 ('semicolon').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 49 ('semicolon').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:43.921558Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 49 ('semicolon').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:44.024784Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:15:44.025146Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:44.030294Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Contour intersects itself.",
+                        "timestamp": "2020-08-26T07:15:44.033573Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours.contour 0 - WARNING - Contour intersects itself.",
+                        "msg_code": "E1111"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:44.047429Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 51 ('equal').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 53 ('question').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:44.183152Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 53 ('question').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 53 ('question').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:15:44.183690Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 53 ('question').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 53 ('question').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:44.193634Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 53 ('question').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 53 ('question').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:44.359131Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 53 ('question').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 54 ('at').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:44.433414Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 54 ('at').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 54 ('at').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:44.459284Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 54 ('at').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 56 ('B').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:45.731748Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 56 ('B').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 56 ('B').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:45.745198Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 56 ('B').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 56 ('B').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:45.997623Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 56 ('B').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 56 ('B').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:46.044112Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 56 ('B').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 57 ('C').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:46.109719Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 57 ('C').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 57 ('C').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:46.125129Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 57 ('C').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 58 ('D').contours.contour 1",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:15:46.694249Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 58 ('D').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 58 ('D').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:46.702204Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 58 ('D').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 60 ('F').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:47.284968Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 60 ('F').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 60 ('F').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:47.299305Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 60 ('F').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 66 ('L').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:49.726784Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 66 ('L').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 67 ('M').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:49.901481Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 67 ('M').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 67 ('M').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:49.928366Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 67 ('M').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 68 ('N').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:50.867985Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 68 ('N').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 68 ('N').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:50.890204Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 68 ('N').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 69 ('O').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Contour intersects itself.",
+                        "timestamp": "2020-08-26T07:15:51.769748Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 69 ('O').contours.contour 0 - WARNING - Contour intersects itself.",
+                        "msg_code": "E1111"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 69 ('O').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:51.794604Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 69 ('O').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 70 ('P').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:51.948089Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 70 ('P').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 70 ('P').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:51.959420Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 70 ('P').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 71 ('Q').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:52.281842Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 71 ('Q').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 71 ('Q').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:52.293809Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 71 ('Q').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 71 ('Q').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:52.502040Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 71 ('Q').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 72 ('R').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:52.715127Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 72 ('R').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 72 ('R').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:52.729844Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 72 ('R').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 72 ('R').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:53.021734Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 72 ('R').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 73 ('S').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:53.084778Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 73 ('S').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 73 ('S').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:53.103935Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 73 ('S').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 74 ('T').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:53.613387Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 74 ('T').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 74 ('T').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:53.627953Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 74 ('T').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 75 ('U').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Contour intersects itself.",
+                        "timestamp": "2020-08-26T07:15:54.112650Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 75 ('U').contours.contour 0 - WARNING - Contour intersects itself.",
+                        "msg_code": "E1111"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 76 ('V').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:54.140788Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 76 ('V').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 76 ('V').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:54.156573Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 76 ('V').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 78 ('X').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:55.548255Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 78 ('X').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 78 ('X').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:55.566011Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 78 ('X').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 80 ('Z').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:56.261742Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 80 ('Z').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 80 ('Z').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:56.282238Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 80 ('Z').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 82 ('backslash').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:56.994027Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 82 ('backslash').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 82 ('backslash').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.002796Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 82 ('backslash').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 83 ('bracketright').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.106150Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 83 ('bracketright').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 83 ('bracketright').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.115921Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 83 ('bracketright').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 85 ('underscore').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.309909Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 85 ('underscore').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 85 ('underscore').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.316704Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 85 ('underscore').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 86 ('grave').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.397454Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 86 ('grave').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 86 ('grave').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.400720Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 86 ('grave').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 87 ('a').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.574818Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 87 ('a').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 88 ('b').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.632910Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 88 ('b').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 88 ('b').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.640851Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 88 ('b').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 88 ('b').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.734994Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 88 ('b').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 88 ('b').contours.contour 2",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:57.755557Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 88 ('b').contours.contour 2 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:34.552616Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:15:34.553237Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:34.564263Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Contour intersects itself.",
+                        "timestamp": "2020-08-26T07:15:34.570944Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours.contour 0 - WARNING - Contour intersects itself.",
+                        "msg_code": "E1111"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:34.594199Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 9 ('Thorn').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 90 ('d').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:58.064785Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 90 ('d').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 91 ('e').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:58.100867Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 91 ('e').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 91 ('e').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:58.114363Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 91 ('e').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 93 ('g').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:58.577434Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 93 ('g').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 93 ('g').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:58.594093Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 93 ('g').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 95 ('i').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:59.216764Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 95 ('i').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 96 ('j').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:59.282440Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 96 ('j').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 96 ('j').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:59.294158Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 96 ('j').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 97 ('k').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:59.493728Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 97 ('k').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 97 ('k').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:59.506161Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 97 ('k').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 98 ('l').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:59.709274Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 98 ('l').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 98 ('l').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:59.718148Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 98 ('l').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 99 ('m').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:59.835347Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 99 ('m').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 99 ('m').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:15:59.855612Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.glyf.glyph 99 ('m').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.hhea",
+                        "levelname": "ERROR",
+                        "message": "The minRightSidebearing value (-82) does not match the expected value (-111)",
+                        "timestamp": "2020-08-26T07:16:22.504559Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.hhea - ERROR - The minRightSidebearing value (-82) does not match the expected value (-111)",
+                        "msg_code": "E1403"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.hints",
+                        "levelname": "WARNING",
+                        "message": "Font has function definitions, a pre-program, and a control value program, but no glyph hints.",
+                        "timestamp": "2020-08-26T07:16:24.713903Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.hints - WARNING - Font has function definitions, a pre-program, and a control value program, but no glyph hints.",
+                        "msg_code": "V0549"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxSizeOfInstructions 371 does not match either the font's actual largest glyph hint size (0) nor the larger of the sizes of the 'fpgm' and 'prep' tables (353).",
+                        "timestamp": "2020-08-26T07:16:24.287080Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.maxp - WARNING - The maxSizeOfInstructions 371 does not match either the font's actual largest glyph hint size (0) nor the larger of the sizes of the 'fpgm' and 'prep' tables (353).",
+                        "msg_code": "V0271"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStackElements value is 512, which is larger than is needed. It may be reduced to 0.",
+                        "timestamp": "2020-08-26T07:16:24.287199Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.maxp - WARNING - The maxStackElements value is 512, which is larger than is needed. It may be reduced to 0.",
+                        "msg_code": "V0279"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2",
+                        "levelname": "WARNING",
+                        "message": "The usWeightClass 400 is inconsistent with the PANOSE weight Any",
+                        "timestamp": "2020-08-26T07:15:32.099676Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2 - WARNING - The usWeightClass 400 is inconsistent with the PANOSE weight Any",
+                        "msg_code": "W2116"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.codePageRanges",
+                        "levelname": "WARNING",
+                        "message": "Code page cp1252 is missing printables U+0192, U+2020-2021, U+2122",
+                        "timestamp": "2020-08-26T07:15:32.115234Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.codePageRanges - WARNING - Code page cp1252 is missing printables U+0192, U+2020-2021, U+2122",
+                        "msg_code": "W2101"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.sCapHeight",
+                        "levelname": "WARNING",
+                        "message": "sCapHeight value (752) does not match yMax of 'H' (739)",
+                        "timestamp": "2020-08-26T07:15:32.614771Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.sCapHeight - WARNING - sCapHeight value (752) does not match yMax of 'H' (739)",
+                        "msg_code": "V1133"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.sxHeight",
+                        "levelname": "WARNING",
+                        "message": "sxHeight value (559) does not match yMax of 'x' (554)",
+                        "timestamp": "2020-08-26T07:15:32.616964Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.sxHeight - WARNING - sxHeight value (559) does not match yMax of 'x' (554)",
+                        "msg_code": "V1135"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:15:32.621744Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:15:32.621841Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.unicodeRanges",
+                        "levelname": "ERROR",
+                        "message": "Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-08-26T07:15:32.621916Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "msg_code": "E2113"
+                    },
+                    {
+                        "subroutine": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 568, but is 501",
+                        "timestamp": "2020-08-26T07:15:33.141310Z",
+                        "orig_output": "validate_d543f298ce3b4f19817a4fbb43ccfea9.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 568, but is 501",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 54322,
+    "completedDate": "2020-08-26 07:16:24.810238"
+}

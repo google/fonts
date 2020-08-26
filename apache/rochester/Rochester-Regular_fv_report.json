@@ -1,0 +1,258 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Rochester-Regular.ttf",
+                "type": "ttf",
+                "size": 37144,
+                "md5": "487122cf258f095d3ec4338ede308823",
+                "geometryMd5": "aaf12508743266646edbc6fa96f5d916"
+            },
+            "name": {
+                "family": "Rochester",
+                "subFamily": "Regular",
+                "fullName": "Rochester Regular",
+                "psName": "Rochester-Regular",
+                "versionText": "Version 1.006",
+                "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved. Available under the Apache 2.0 licence.\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+                "trademark": "Rochester is a trademark of Font Diner, Inc DBA Sideshow"
+            },
+            "format": {
+                "format": "TT"
+            },
+            "summary": {
+                "num_glyphs": 230,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "DINR",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Rochester Regular",
+                "level": "WARNING",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 4,
+                    "WARNING": 22,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.fontedit.post",
+                        "levelname": "WARNING",
+                        "message": "The glyph name '.null' for glyph 1 is not valid.",
+                        "timestamp": "2020-08-26T07:24:58.726443Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.fontedit.post - WARNING - The glyph name '.null' for glyph 1 is not valid.",
+                        "msg_code": "V0930"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.DSIG",
+                        "levelname": "WARNING",
+                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
+                        "timestamp": "2020-08-26T07:24:58.727677Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
+                        "msg_code": "V1126"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf",
+                        "levelname": "WARNING",
+                        "message": "Glyph 0 has no contours.",
+                        "timestamp": "2020-08-26T07:24:59.393163Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf - WARNING - Glyph 0 has no contours.",
+                        "msg_code": "V0948"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 115 ('twosuperior').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Contour intersects itself.",
+                        "timestamp": "2020-08-26T07:25:02.830483Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 115 ('twosuperior').contours.contour 0 - WARNING - Contour intersects itself.",
+                        "msg_code": "E1111"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 119 ('paragraph').contours",
+                        "levelname": "WARNING",
+                        "message": "Glyph has intersecting components.",
+                        "timestamp": "2020-08-26T07:25:02.905310Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 119 ('paragraph').contours - WARNING - Glyph has intersecting components.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 128 ('questiondown').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-08-26T07:25:03.079715Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 128 ('questiondown').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 177 ('eth').contours",
+                        "levelname": "WARNING",
+                        "message": "Glyph has intersecting components.",
+                        "timestamp": "2020-08-26T07:25:03.930948Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 177 ('eth').contours - WARNING - Glyph has intersecting components.",
+                        "msg_code": "W1110"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 177 ('eth').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Contour intersects itself.",
+                        "timestamp": "2020-08-26T07:25:03.940680Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 177 ('eth').contours.contour 0 - WARNING - Contour intersects itself.",
+                        "msg_code": "E1111"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 195 ('lslash')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [-163, 0, 477, 1331], but are [-152, 0, 477, 1331].",
+                        "timestamp": "2020-08-26T07:25:04.191294Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 195 ('lslash') - ERROR - Bounds should be [-163, 0, 477, 1331], but are [-152, 0, 477, 1331].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 195 ('lslash').contours",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:25:04.191814Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 195 ('lslash').contours - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 195 ('lslash').contours.contour 0",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:25:04.194826Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 195 ('lslash').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 75 ('h').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:25:01.846992Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 75 ('h').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 99 ('exclamdown').contours.contour 1",
+                        "levelname": "WARNING",
+                        "message": "Not all extrema are marked with on-curve points.",
+                        "timestamp": "2020-08-26T07:25:02.502255Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.glyf.glyph 99 ('exclamdown').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
+                        "msg_code": "W1112"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.head",
+                        "levelname": "WARNING",
+                        "message": "fontRevision (1.01) is not consistent with the name table version string 'Version 1.006'",
+                        "timestamp": "2020-08-26T07:25:05.206985Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.head - WARNING - fontRevision (1.01) is not consistent with the name table version string 'Version 1.006'",
+                        "msg_code": "W1314"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.hints",
+                        "levelname": "WARNING",
+                        "message": "Font has only a pre-program, but no glyph hints, CVT, or function definitions.",
+                        "timestamp": "2020-08-26T07:25:06.136518Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.hints - WARNING - Font has only a pre-program, but no glyph hints, CVT, or function definitions.",
+                        "msg_code": "V0538"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxFunctionDefs value is 1, which is larger than is needed. It may be reduced to 0.",
+                        "timestamp": "2020-08-26T07:25:06.018535Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.maxp - WARNING - The maxFunctionDefs value is 1, which is larger than is needed. It may be reduced to 0.",
+                        "msg_code": "V0252"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxSizeOfInstructions, 0, correctly matches the size of the glyph hints, but is less than 7, the larger of the sizes of the 'fpgm' and 'prep' tables.",
+                        "timestamp": "2020-08-26T07:25:06.018701Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.maxp - WARNING - The maxSizeOfInstructions, 0, correctly matches the size of the glyph hints, but is less than 7, the larger of the sizes of the 'fpgm' and 'prep' tables.",
+                        "msg_code": "V0270"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
+                        "timestamp": "2020-08-26T07:25:06.018784Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.maxp - WARNING - The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
+                        "msg_code": "V0273"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStorage value is 1, which is larger than is needed. It may be reduced to 0.",
+                        "timestamp": "2020-08-26T07:25:06.018855Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.maxp - WARNING - The maxStorage value is 1, which is larger than is needed. It may be reduced to 0.",
+                        "msg_code": "V0277"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.maxp",
+                        "levelname": "WARNING",
+                        "message": "The maxStackElements value is 64, which is larger than is needed. It may be reduced to 0.",
+                        "timestamp": "2020-08-26T07:25:06.018923Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.maxp - WARNING - The maxStackElements value is 64, which is larger than is needed. It may be reduced to 0.",
+                        "msg_code": "V0279"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.OS_2.codePageRanges",
+                        "levelname": "WARNING",
+                        "message": "Code page cp1252 is missing printables U+00AC, U+0192, U+2020-2021",
+                        "timestamp": "2020-08-26T07:24:58.742272Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.OS_2.codePageRanges - WARNING - Code page cp1252 is missing printables U+00AC, U+0192, U+2020-2021",
+                        "msg_code": "W2101"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.OS_2.sCapHeight",
+                        "levelname": "WARNING",
+                        "message": "sCapHeight value (326) does not match yMax of 'H' (1741)",
+                        "timestamp": "2020-08-26T07:24:59.239800Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.OS_2.sCapHeight - WARNING - sCapHeight value (326) does not match yMax of 'H' (1741)",
+                        "msg_code": "V1133"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.OS_2.sxHeight",
+                        "levelname": "WARNING",
+                        "message": "sxHeight value (192) does not match yMax of 'x' (819)",
+                        "timestamp": "2020-08-26T07:24:59.240751Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.OS_2.sxHeight - WARNING - sxHeight value (192) does not match yMax of 'x' (819)",
+                        "msg_code": "V1135"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.OS_2.usMaxContext",
+                        "levelname": "ERROR",
+                        "message": "The usMaxContext should be 0, but is 1",
+                        "timestamp": "2020-08-26T07:24:59.385764Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.OS_2.usMaxContext - ERROR - The usMaxContext should be 0, but is 1",
+                        "msg_code": "V0831"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 914, but is 918",
+                        "timestamp": "2020-08-26T07:24:59.385998Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 914, but is 918",
+                        "msg_code": "E2135"
+                    },
+                    {
+                        "subroutine": "validate_67751b62d3984328af0942314be7ebbc.post",
+                        "levelname": "WARNING",
+                        "message": "The glyph name '.null' for glyph 1 is not valid.",
+                        "timestamp": "2020-08-26T07:25:06.021906Z",
+                        "orig_output": "validate_67751b62d3984328af0942314be7ebbc.post - WARNING - The glyph name '.null' for glyph 1 is not valid.",
+                        "msg_code": "V0930"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 9070,
+    "completedDate": "2020-08-26 07:25:06.219601"
+}

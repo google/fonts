@@ -1,5 +1,5 @@
 name: "Grandstander"
-designer: "Tyler Finck"
+designer: "Tyler Finck, ETC"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2020-07-24"

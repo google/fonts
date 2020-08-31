@@ -1,5 +1,5 @@
 designer: "Omnibus-Type"
-link: "https://plus.google.com/115141460305554867239/about"
+link: "http://www.omnibus-type.com"
 avatar: {
   file_name: "omnibus_type.png"
 }

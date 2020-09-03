@@ -29,158 +29,22 @@
             },
             "validation": {
                 "font_full_name": "Crushed Regular",
-                "level": "WARNING",
+                "level": "ERROR",
                 "last_success": "finished validation python",
                 "msg_count": {
                     "CRITICAL": 0,
                     "ERROR": 1,
-                    "WARNING": 17,
+                    "WARNING": 0,
                     "INFO": 0,
                     "DEBUG": 0
                 },
                 "result": [
                     {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.fontedit.GPOS.GPOS.lookuplist.lookup 0.lookup.subtable 2.pair.pairclasses",
-                        "levelname": "WARNING",
-                        "message": "The following glyphs explicitly mapped to class zero in the first ClassDef; they will be ignored: [5, 7, 8, 9, 10, 13, 14, 27, 28, 34, 35, 36, 39, 40, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 72, 73, 74, 75, 76, 77, 78, 80, 82, 84, 86, 89, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 114, 116, 118, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 154, 155, 156, 157, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 191, 193, 194, 216, 218, 220, 222, 224, 226, 228, 230, 232, 234, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 333, 335, 336, 337, 339, 341, 342, 343]",
-                        "timestamp": "2020-08-26T07:18:23.099880Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.fontedit.GPOS.GPOS.lookuplist.lookup 0.lookup.subtable 2.pair.pairclasses - WARNING - The following glyphs explicitly mapped to class zero in the first ClassDef; they will be ignored: [5, 7, 8, 9, 10, 13, 14, 27, 28, 34, 35, 36, 39, 40, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 72, 73, 74, 75, 76, 77, 78, 80, 82, 84, 86, 89, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 114, 116, 118, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 154, 155, 156, 157, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 191, 193, 194, 216, 218, 220, 222, 224, 226, 228, 230, 232, 234, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 333, 335, 336, 337, 339, 341, 342, 343]",
-                        "msg_code": "V0305"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.fontedit.GPOS.GPOS.lookuplist.lookup 0.lookup.subtable 2.pair.pairclasses",
-                        "levelname": "WARNING",
-                        "message": "The following glyphs explicitly mapped to class zero in the second ClassDef; they will be ignored: [2, 4, 5, 6, 8, 9, 11, 12, 13, 14, 16, 18, 28, 30, 34, 35, 37, 38, 39, 42, 44, 52, 55, 88, 89, 90, 92, 93, 94, 96, 98, 100, 102, 104, 106, 108, 110, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 162, 164, 166, 168, 169, 170, 193, 194, 195, 196, 197, 198, 199, 200, 252, 254, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 329, 330, 331, 332, 334, 336, 337, 338, 340, 342]",
-                        "timestamp": "2020-08-26T07:18:23.100125Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.fontedit.GPOS.GPOS.lookuplist.lookup 0.lookup.subtable 2.pair.pairclasses - WARNING - The following glyphs explicitly mapped to class zero in the second ClassDef; they will be ignored: [2, 4, 5, 6, 8, 9, 11, 12, 13, 14, 16, 18, 28, 30, 34, 35, 37, 38, 39, 42, 44, 52, 55, 88, 89, 90, 92, 93, 94, 96, 98, 100, 102, 104, 106, 108, 110, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 162, 164, 166, 168, 169, 170, 193, 194, 195, 196, 197, 198, 199, 200, 252, 254, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 329, 330, 331, 332, 334, 336, 337, 338, 340, 342]",
-                        "msg_code": "V0305"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.DSIG",
-                        "levelname": "WARNING",
-                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
-                        "timestamp": "2020-08-26T07:18:23.131468Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
-                        "msg_code": "V1126"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf",
-                        "levelname": "WARNING",
-                        "message": "Glyph 0 has no contours.",
-                        "timestamp": "2020-08-26T07:18:24.704731Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf - WARNING - Glyph 0 has no contours.",
-                        "msg_code": "V0948"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 205 ('Scedilla')",
-                        "levelname": "WARNING",
-                        "message": "Composite has intersecting contours.",
-                        "timestamp": "2020-08-26T07:18:26.687304Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 205 ('Scedilla') - WARNING - Composite has intersecting contours.",
-                        "msg_code": "W1110"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 206 ('scedilla')",
-                        "levelname": "WARNING",
-                        "message": "Composite has intersecting contours.",
-                        "timestamp": "2020-08-26T07:18:26.696679Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 206 ('scedilla') - WARNING - Composite has intersecting contours.",
-                        "msg_code": "W1110"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 257 ('zero').contours.contour 1",
-                        "levelname": "WARNING",
-                        "message": "Not all extrema are marked with on-curve points.",
-                        "timestamp": "2020-08-26T07:18:27.045717Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 257 ('zero').contours.contour 1 - WARNING - Not all extrema are marked with on-curve points.",
-                        "msg_code": "W1112"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 263 ('six').contours.contour 1",
-                        "levelname": "WARNING",
-                        "message": "Contour intersects itself.",
-                        "timestamp": "2020-08-26T07:18:27.143702Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 263 ('six').contours.contour 1 - WARNING - Contour intersects itself.",
-                        "msg_code": "E1111"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 266 ('nine').contours.contour 1",
-                        "levelname": "WARNING",
-                        "message": "Contour intersects itself.",
-                        "timestamp": "2020-08-26T07:18:27.178858Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 266 ('nine').contours.contour 1 - WARNING - Contour intersects itself.",
-                        "msg_code": "E1111"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 51 ('y').contours.contour 0",
-                        "levelname": "WARNING",
-                        "message": "Contour intersects itself.",
-                        "timestamp": "2020-08-26T07:18:25.436313Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 51 ('y').contours.contour 0 - WARNING - Contour intersects itself.",
-                        "msg_code": "E1111"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 78 ('Ccedilla')",
-                        "levelname": "WARNING",
-                        "message": "Composite has intersecting contours.",
-                        "timestamp": "2020-08-26T07:18:25.751092Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 78 ('Ccedilla') - WARNING - Composite has intersecting contours.",
-                        "msg_code": "W1110"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 79 ('ccedilla')",
-                        "levelname": "WARNING",
-                        "message": "Composite has intersecting contours.",
-                        "timestamp": "2020-08-26T07:18:25.758080Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.glyf.glyph 79 ('ccedilla') - WARNING - Composite has intersecting contours.",
-                        "msg_code": "W1110"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.head",
-                        "levelname": "WARNING",
-                        "message": "fontRevision (1.00) is not consistent with the name table version string 'Version 001.001'",
-                        "timestamp": "2020-08-26T07:18:28.868622Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.head - WARNING - fontRevision (1.00) is not consistent with the name table version string 'Version 001.001'",
-                        "msg_code": "W1314"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.hints",
-                        "levelname": "WARNING",
-                        "message": "Font has function definitions, a pre-program, and a control value program, but no glyph hints.",
-                        "timestamp": "2020-08-26T07:18:30.360460Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.hints - WARNING - Font has function definitions, a pre-program, and a control value program, but no glyph hints.",
-                        "msg_code": "V0549"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxSizeOfInstructions 371 does not match either the font's actual largest glyph hint size (0) nor the larger of the sizes of the 'fpgm' and 'prep' tables (353).",
-                        "timestamp": "2020-08-26T07:18:30.228487Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.maxp - WARNING - The maxSizeOfInstructions 371 does not match either the font's actual largest glyph hint size (0) nor the larger of the sizes of the 'fpgm' and 'prep' tables (353).",
-                        "msg_code": "V0271"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxStackElements value is 512, which is larger than is needed. It may be reduced to 0.",
-                        "timestamp": "2020-08-26T07:18:30.228614Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.maxp - WARNING - The maxStackElements value is 512, which is larger than is needed. It may be reduced to 0.",
-                        "msg_code": "V0279"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.OS_2.sxHeight",
-                        "levelname": "WARNING",
-                        "message": "sxHeight value (958) does not match yMax of 'x' (1374)",
-                        "timestamp": "2020-08-26T07:18:24.522751Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.OS_2.sxHeight - WARNING - sxHeight value (958) does not match yMax of 'x' (1374)",
-                        "msg_code": "V1135"
-                    },
-                    {
-                        "subroutine": "validate_a3c17017e6354b96989c5c7f7d6c0399.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_3263df079b71457299856862be5dd5f7.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 819, but is 768",
-                        "timestamp": "2020-08-26T07:18:24.677479Z",
-                        "orig_output": "validate_a3c17017e6354b96989c5c7f7d6c0399.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 819, but is 768",
+                        "timestamp": "2020-09-03T13:56:56.023939Z",
+                        "orig_output": "validate_3263df079b71457299856862be5dd5f7.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 819, but is 768",
                         "msg_code": "E2135"
                     }
                 ]
@@ -190,6 +54,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc3",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 9432,
-    "completedDate": "2020-08-26 07:18:30.455570"
+    "runningTime": 9321,
+    "completedDate": "2020-09-03 13:57:01.456286"
 }

@@ -31,551 +31,79 @@
             },
             "validation": {
                 "font_full_name": "Open Sans Hebrew Bold",
-                "level": "WARNING",
+                "level": "ERROR",
                 "last_success": "finished validation python",
                 "msg_count": {
                     "CRITICAL": 0,
                     "ERROR": 8,
-                    "WARNING": 51,
+                    "WARNING": 0,
                     "INFO": 0,
                     "DEBUG": 0
                 },
                 "result": [
                     {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.GDEF.GDEF.ligcaret",
-                        "levelname": "WARNING",
-                        "message": "Offset count is zero.",
-                        "timestamp": "2020-08-26T07:18:15.143192Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.GDEF.GDEF.ligcaret - WARNING - Offset count is zero.",
-                        "msg_code": "V0107"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.GDEF.GDEF.ligcaret.coverage",
-                        "levelname": "WARNING",
-                        "message": "Count is zero.",
-                        "timestamp": "2020-08-26T07:18:15.142973Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.GDEF.GDEF.ligcaret.coverage - WARNING - Count is zero.",
-                        "msg_code": "V0086"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.loca",
-                        "levelname": "WARNING",
-                        "message": "Glyphs starting at 306 are all zero-length.",
-                        "timestamp": "2020-08-26T07:18:15.177421Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.loca - WARNING - Glyphs starting at 306 are all zero-length.",
-                        "msg_code": "V0294"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.OS_2.PANOSE.weight",
+                        "subroutine": "validate_6d7d8fad890e41108d2dcb40bb914d0b.fontedit.OS_2.PANOSE.weight",
                         "levelname": "ERROR",
                         "message": "Value 8 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-08-26T07:18:15.175565Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.OS_2.PANOSE.weight - ERROR - Value 8 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-03T13:55:48.262387Z",
+                        "orig_output": "validate_6d7d8fad890e41108d2dcb40bb914d0b.fontedit.OS_2.PANOSE.weight - ERROR - Value 8 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2111"
                     },
                     {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.post",
-                        "levelname": "WARNING",
-                        "message": "The glyph name '.null' for glyph 1 is not valid.",
-                        "timestamp": "2020-08-26T07:18:15.180176Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.fontedit.post - WARNING - The glyph name '.null' for glyph 1 is not valid.",
-                        "msg_code": "V0930"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.DSIG",
-                        "levelname": "WARNING",
-                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
-                        "timestamp": "2020-08-26T07:18:15.182114Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
-                        "msg_code": "V1126"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.GDEF.glyphClasses",
+                        "subroutine": "validate_6d7d8fad890e41108d2dcb40bb914d0b.GDEF.glyphClasses",
                         "levelname": "ERROR",
                         "message": "The following mark glyphs have nonzero advances: [225]",
-                        "timestamp": "2020-08-26T07:18:15.182882Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [225]",
+                        "timestamp": "2020-09-03T13:55:48.268226Z",
+                        "orig_output": "validate_6d7d8fad890e41108d2dcb40bb914d0b.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [225]",
                         "msg_code": "V1102"
                     },
                     {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf",
-                        "levelname": "WARNING",
-                        "message": "Glyph 0 has no contours.",
-                        "timestamp": "2020-08-26T07:18:15.847337Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf - WARNING - Glyph 0 has no contours.",
-                        "msg_code": "V0948"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 164 ('aring').contours",
-                        "levelname": "WARNING",
-                        "message": "Contour 1 does  not have correct winding direction.",
-                        "timestamp": "2020-08-26T07:18:17.209149Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 164 ('aring').contours - WARNING - Contour 1 does  not have correct winding direction.",
-                        "msg_code": "V1006"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 204 ('ring').contours",
-                        "levelname": "WARNING",
-                        "message": "Contour 1 does  not have correct winding direction.",
-                        "timestamp": "2020-08-26T07:18:17.598376Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 204 ('ring').contours - WARNING - Contour 1 does  not have correct winding direction.",
-                        "msg_code": "V1006"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 213 ('uni05B1').contours",
-                        "levelname": "WARNING",
-                        "message": "Contour 2 does  not have correct winding direction.",
-                        "timestamp": "2020-08-26T07:18:17.651208Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 213 ('uni05B1').contours - WARNING - Contour 2 does  not have correct winding direction.",
-                        "msg_code": "V1006"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 84 ('p').contours",
-                        "levelname": "WARNING",
-                        "message": "Not all extrema are marked with on-curve points.",
-                        "timestamp": "2020-08-26T07:18:16.468181Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 84 ('p').contours - WARNING - Not all extrema are marked with on-curve points.",
-                        "msg_code": "W1112"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 84 ('p').contours.contour 0",
-                        "levelname": "WARNING",
-                        "message": "Not all extrema are marked with on-curve points.",
-                        "timestamp": "2020-08-26T07:18:16.469235Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.glyf.glyph 84 ('p').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
-                        "msg_code": "W1112"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.head.flags",
-                        "levelname": "WARNING",
-                        "message": "Bit 1 (left sidebearing point at x=0) is not set",
-                        "timestamp": "2020-08-26T07:18:18.649027Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.head.flags - WARNING - Bit 1 (left sidebearing point at x=0) is not set",
-                        "msg_code": "V0934"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.head.fontDirectionHint",
-                        "levelname": "WARNING",
-                        "message": "The fontDirectionHint value (0) is not 2",
-                        "timestamp": "2020-08-26T07:18:18.649153Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.head.fontDirectionHint - WARNING - The fontDirectionHint value (0) is not 2",
-                        "msg_code": "V0245"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hhea",
-                        "levelname": "WARNING",
-                        "message": "The font-wide head.yMin -651 exceeds the descent -600. Clipping may occur.",
-                        "timestamp": "2020-08-26T07:18:18.649568Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hhea - WARNING - The font-wide head.yMin -651 exceeds the descent -600. Clipping may occur.",
-                        "msg_code": "V0917"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hints",
-                        "levelname": "WARNING",
-                        "message": "Font has only a pre-program, but no glyph hints, CVT, or function definitions.",
-                        "timestamp": "2020-08-26T07:18:19.050587Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hints - WARNING - Font has only a pre-program, but no glyph hints, CVT, or function definitions.",
-                        "msg_code": "V0538"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx",
+                        "subroutine": "validate_6d7d8fad890e41108d2dcb40bb914d0b.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 71 does not match the glyph's xMin 72 (glyph 26)",
-                        "timestamp": "2020-08-26T07:18:18.729846Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx - ERROR - The left sidebearing 71 does not match the glyph's xMin 72 (glyph 26)",
+                        "timestamp": "2020-09-03T13:55:51.523804Z",
+                        "orig_output": "validate_6d7d8fad890e41108d2dcb40bb914d0b.hmtx - ERROR - The left sidebearing 71 does not match the glyph's xMin 72 (glyph 26)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx",
+                        "subroutine": "validate_6d7d8fad890e41108d2dcb40bb914d0b.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 118 does not match the glyph's xMin 119 (glyph 39)",
-                        "timestamp": "2020-08-26T07:18:18.733140Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx - ERROR - The left sidebearing 118 does not match the glyph's xMin 119 (glyph 39)",
+                        "timestamp": "2020-09-03T13:55:51.527548Z",
+                        "orig_output": "validate_6d7d8fad890e41108d2dcb40bb914d0b.hmtx - ERROR - The left sidebearing 118 does not match the glyph's xMin 119 (glyph 39)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx",
+                        "subroutine": "validate_6d7d8fad890e41108d2dcb40bb914d0b.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 91 does not match the glyph's xMin 92 (glyph 83)",
-                        "timestamp": "2020-08-26T07:18:18.741727Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx - ERROR - The left sidebearing 91 does not match the glyph's xMin 92 (glyph 83)",
+                        "timestamp": "2020-09-03T13:55:51.536747Z",
+                        "orig_output": "validate_6d7d8fad890e41108d2dcb40bb914d0b.hmtx - ERROR - The left sidebearing 91 does not match the glyph's xMin 92 (glyph 83)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx",
+                        "subroutine": "validate_6d7d8fad890e41108d2dcb40bb914d0b.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 91 does not match the glyph's xMin 92 (glyph 113)",
-                        "timestamp": "2020-08-26T07:18:18.748369Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx - ERROR - The left sidebearing 91 does not match the glyph's xMin 92 (glyph 113)",
+                        "timestamp": "2020-09-03T13:55:51.542857Z",
+                        "orig_output": "validate_6d7d8fad890e41108d2dcb40bb914d0b.hmtx - ERROR - The left sidebearing 91 does not match the glyph's xMin 92 (glyph 113)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 212",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 537 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.805583Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 212 - WARNING - The sidebearing 537 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 212,
-                            "name": "uni05B0"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 213",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 285 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.805777Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 213 - WARNING - The sidebearing 285 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 213,
-                            "name": "uni05B1"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 214",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 351 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.805926Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 214 - WARNING - The sidebearing 351 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 214,
-                            "name": "uni05B2"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 215",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 351 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.806060Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 215 - WARNING - The sidebearing 351 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 215,
-                            "name": "uni05B3"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 216",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 534 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.806188Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 216 - WARNING - The sidebearing 534 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 216,
-                            "name": "uni05B4"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 217",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 387 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.806315Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 217 - WARNING - The sidebearing 387 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 217,
-                            "name": "uni05B5"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 218",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 387 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.806439Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 218 - WARNING - The sidebearing 387 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 218,
-                            "name": "uni05B6"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 219",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 432 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.806563Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 219 - WARNING - The sidebearing 432 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 219,
-                            "name": "uni05B7"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 220",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 438 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.806686Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 220 - WARNING - The sidebearing 438 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 220,
-                            "name": "uni05B8"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 221",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 535 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.806809Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 221 - WARNING - The sidebearing 535 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 221,
-                            "name": "uni05B9"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 222",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 535 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.806958Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 222 - WARNING - The sidebearing 535 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 222,
-                            "name": "uni05BA"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 223",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 394 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.807089Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 223 - WARNING - The sidebearing 394 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 223,
-                            "name": "uni05BB"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 224",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 534 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.807221Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 224 - WARNING - The sidebearing 534 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 224,
-                            "name": "uni05BC"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 227",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 482 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.807427Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 227 - WARNING - The sidebearing 482 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 227,
-                            "name": "uni05C1"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 228",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 535 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.807550Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 228 - WARNING - The sidebearing 535 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 228,
-                            "name": "uni05C2"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 229",
-                        "levelname": "WARNING",
-                        "message": "The sidebearing 111 is greater than the advance 0.",
-                        "timestamp": "2020-08-26T07:18:18.807672Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.hmtx.glyph 229 - WARNING - The sidebearing 111 is greater than the advance 0.",
-                        "glyph": {
-                            "id": 229,
-                            "name": "uni05C7"
-                        },
-                        "msg_code": "W1500"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxFunctionDefs value is 1, which is larger than is needed. It may be reduced to 0.",
-                        "timestamp": "2020-08-26T07:18:18.972739Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp - WARNING - The maxFunctionDefs value is 1, which is larger than is needed. It may be reduced to 0.",
-                        "msg_code": "V0252"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxSizeOfInstructions, 0, correctly matches the size of the glyph hints, but is less than 7, the larger of the sizes of the 'fpgm' and 'prep' tables.",
-                        "timestamp": "2020-08-26T07:18:18.972904Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp - WARNING - The maxSizeOfInstructions, 0, correctly matches the size of the glyph hints, but is less than 7, the larger of the sizes of the 'fpgm' and 'prep' tables.",
-                        "msg_code": "V0270"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
-                        "timestamp": "2020-08-26T07:18:18.972992Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp - WARNING - The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
-                        "msg_code": "V0273"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxStorage value is 1, which is larger than is needed. It may be reduced to 0.",
-                        "timestamp": "2020-08-26T07:18:18.973067Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp - WARNING - The maxStorage value is 1, which is larger than is needed. It may be reduced to 0.",
-                        "msg_code": "V0277"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxStackElements value is 64, which is larger than is needed. It may be reduced to 0.",
-                        "timestamp": "2020-08-26T07:18:18.973137Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.maxp - WARNING - The maxStackElements value is 64, which is larger than is needed. It may be reduced to 0.",
-                        "msg_code": "V0279"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2",
-                        "levelname": "WARNING",
-                        "message": "The usWeightClass 700 is inconsistent with the PANOSE weight Any",
-                        "timestamp": "2020-08-26T07:18:15.207297Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2 - WARNING - The usWeightClass 700 is inconsistent with the PANOSE weight Any",
-                        "msg_code": "W2116"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.codePageRanges",
-                        "levelname": "WARNING",
-                        "message": "Code page cp1252 is missing printables U+00A4, U+00AA, U+00B5, U+00BA",
-                        "timestamp": "2020-08-26T07:18:15.222038Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.codePageRanges - WARNING - Code page cp1252 is missing printables U+00A4, U+00AA, U+00B5, U+00BA",
-                        "msg_code": "W2101"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.codePageRanges",
-                        "levelname": "WARNING",
-                        "message": "Code page cp1255 is missing printables U+00B5, U+05BF-05C0, U+05C3, U+05F0-05F2, U+200E-200F",
-                        "timestamp": "2020-08-26T07:18:15.301247Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.codePageRanges - WARNING - Code page cp1255 is missing printables U+00B5, U+05BF-05C0, U+05C3, U+05F0-05F2, U+200E-200F",
-                        "msg_code": "W2101"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.codePageRanges",
-                        "levelname": "WARNING",
-                        "message": "Code page mac-roman is missing printables U+00AA, U+00B5, U+00BA, U+03A9, U+03C0, U+2044, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+F8FF, U+FB01-FB02",
-                        "timestamp": "2020-08-26T07:18:15.490533Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.codePageRanges - WARNING - Code page mac-roman is missing printables U+00AA, U+00B5, U+00BA, U+03A9, U+03C0, U+2044, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+F8FF, U+FB01-FB02",
-                        "msg_code": "W2101"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.panoseArray",
-                        "levelname": "WARNING",
-                        "message": "PANOSE values are all zero; font mapping may not work.",
-                        "timestamp": "2020-08-26T07:18:15.733675Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.panoseArray - WARNING - PANOSE values are all zero; font mapping may not work.",
-                        "msg_code": "W2105"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasLatinExtendedA' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:18:15.741716Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges - WARNING - Unicode range 'hasLatinExtendedA' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasLatinExtendedB' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:18:15.741876Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges - WARNING - Unicode range 'hasLatinExtendedB' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasModifierLetters' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:18:15.741961Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges - WARNING - Unicode range 'hasModifierLetters' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasCombiningDiacriticalMarks' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:18:15.742034Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges - WARNING - Unicode range 'hasCombiningDiacriticalMarks' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasGreekAndCoptic' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:18:15.742102Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges - WARNING - Unicode range 'hasGreekAndCoptic' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasPunctuation' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:18:15.742172Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges - WARNING - Unicode range 'hasPunctuation' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasCurrency' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:18:15.742239Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges - WARNING - Unicode range 'hasCurrency' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasLetterlike' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:18:15.742304Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.unicodeRanges - WARNING - Unicode range 'hasLetterlike' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.usMaxContext",
+                        "subroutine": "validate_6d7d8fad890e41108d2dcb40bb914d0b.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 1, but is 4",
-                        "timestamp": "2020-08-26T07:18:15.838296Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
+                        "timestamp": "2020-09-03T13:55:48.847845Z",
+                        "orig_output": "validate_6d7d8fad890e41108d2dcb40bb914d0b.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.usWinDescent",
-                        "levelname": "WARNING",
-                        "message": "The font-wide head.yMin -651 exceeds the usWinDescent 600. Clipping may occur.",
-                        "timestamp": "2020-08-26T07:18:15.838470Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.usWinDescent - WARNING - The font-wide head.yMin -651 exceeds the usWinDescent 600. Clipping may occur.",
-                        "msg_code": "V0919"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_6d7d8fad890e41108d2dcb40bb914d0b.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1167, but is 1173",
-                        "timestamp": "2020-08-26T07:18:15.838644Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1167, but is 1173",
+                        "timestamp": "2020-09-03T13:55:48.848125Z",
+                        "orig_output": "validate_6d7d8fad890e41108d2dcb40bb914d0b.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1167, but is 1173",
                         "msg_code": "E2135"
-                    },
-                    {
-                        "subroutine": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.post",
-                        "levelname": "WARNING",
-                        "message": "The glyph name '.null' for glyph 1 is not valid.",
-                        "timestamp": "2020-08-26T07:18:18.976424Z",
-                        "orig_output": "validate_068b1d0c83ff43fd9d57cfd6399f20b0.post - WARNING - The glyph name '.null' for glyph 1 is not valid.",
-                        "msg_code": "V0930"
                     }
                 ]
             }
@@ -584,6 +112,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc3",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 5562,
-    "completedDate": "2020-08-26 07:18:19.145987"
+    "runningTime": 5221,
+    "completedDate": "2020-09-03 13:55:51.942042"
 }

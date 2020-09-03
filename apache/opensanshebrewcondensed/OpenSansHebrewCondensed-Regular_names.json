@@ -1,0 +1,178 @@
+{
+  "0": {
+    "nid": 0,
+    "pid": 1,
+    "eid": 0,
+    "lid": 0,
+    "name_id": "Copyright",
+    "platform": "Macintosh",
+    "encoding": "Roman",
+    "language": "English",
+    "name_entry": "copyright missing"
+  },
+  "1": {
+    "nid": 1,
+    "pid": 1,
+    "eid": 0,
+    "lid": 0,
+    "name_id": "Family Name",
+    "platform": "Macintosh",
+    "encoding": "Roman",
+    "language": "English",
+    "name_entry": "Open Sans Hebrew Condensed"
+  },
+  "2": {
+    "nid": 2,
+    "pid": 1,
+    "eid": 0,
+    "lid": 0,
+    "name_id": "Subfamily Name",
+    "platform": "Macintosh",
+    "encoding": "Roman",
+    "language": "English",
+    "name_entry": "Regular"
+  },
+  "3": {
+    "nid": 3,
+    "pid": 1,
+    "eid": 0,
+    "lid": 0,
+    "name_id": "Unique Font Identifier",
+    "platform": "Macintosh",
+    "encoding": "Roman",
+    "language": "English",
+    "name_entry": "2.001;UKWN;OpenSansHebrewCondensed-Regular"
+  },
+  "4": {
+    "nid": 4,
+    "pid": 1,
+    "eid": 0,
+    "lid": 0,
+    "name_id": "Full Font Name",
+    "platform": "Macintosh",
+    "encoding": "Roman",
+    "language": "English",
+    "name_entry": "Open Sans Hebrew Condensed"
+  },
+  "5": {
+    "nid": 5,
+    "pid": 1,
+    "eid": 0,
+    "lid": 0,
+    "name_id": "Version",
+    "platform": "Macintosh",
+    "encoding": "Roman",
+    "language": "English",
+    "name_entry": "Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329"
+  },
+  "6": {
+    "nid": 6,
+    "pid": 1,
+    "eid": 0,
+    "lid": 0,
+    "name_id": "PostScript Name",
+    "platform": "Macintosh",
+    "encoding": "Roman",
+    "language": "English",
+    "name_entry": "OpenSansHebrewCondensed-Regular"
+  },
+  "7": {
+    "nid": 18,
+    "pid": 1,
+    "eid": 0,
+    "lid": 0,
+    "name_id": "Compatible Full Name",
+    "platform": "Macintosh",
+    "encoding": "Roman",
+    "language": "English",
+    "name_entry": "Open Sans Hebrew Cond Regular"
+  },
+  "8": {
+    "nid": 0,
+    "pid": 3,
+    "eid": 1,
+    "lid": 1033,
+    "name_id": "Copyright",
+    "platform": "Windows",
+    "encoding": "Unicode BMP",
+    "language": "English (United States)",
+    "name_entry": "copyright missing"
+  },
+  "9": {
+    "nid": 1,
+    "pid": 3,
+    "eid": 1,
+    "lid": 1033,
+    "name_id": "Family Name",
+    "platform": "Windows",
+    "encoding": "Unicode BMP",
+    "language": "English (United States)",
+    "name_entry": "Open Sans Hebrew Condensed"
+  },
+  "10": {
+    "nid": 2,
+    "pid": 3,
+    "eid": 1,
+    "lid": 1033,
+    "name_id": "Subfamily Name",
+    "platform": "Windows",
+    "encoding": "Unicode BMP",
+    "language": "English (United States)",
+    "name_entry": "Regular"
+  },
+  "11": {
+    "nid": 3,
+    "pid": 3,
+    "eid": 1,
+    "lid": 1033,
+    "name_id": "Unique Font Identifier",
+    "platform": "Windows",
+    "encoding": "Unicode BMP",
+    "language": "English (United States)",
+    "name_entry": "2.001;UKWN;OpenSansHebrewCondensed-Regular"
+  },
+  "12": {
+    "nid": 4,
+    "pid": 3,
+    "eid": 1,
+    "lid": 1033,
+    "name_id": "Full Font Name",
+    "platform": "Windows",
+    "encoding": "Unicode BMP",
+    "language": "English (United States)",
+    "name_entry": "Open Sans Hebrew Condensed"
+  },
+  "13": {
+    "nid": 5,
+    "pid": 3,
+    "eid": 1,
+    "lid": 1033,
+    "name_id": "Version",
+    "platform": "Windows",
+    "encoding": "Unicode BMP",
+    "language": "English (United States)",
+    "name_entry": "Version 2.001;PS 002.001;hotconv 1.0.70;makeotf.lib2.5.58329"
+  },
+  "14": {
+    "nid": 6,
+    "pid": 3,
+    "eid": 1,
+    "lid": 1033,
+    "name_id": "PostScript Name",
+    "platform": "Windows",
+    "encoding": "Unicode BMP",
+    "language": "English (United States)",
+    "name_entry": "OpenSansHebrewCondensed-Regular"
+  },
+  "15": {
+    "nid": 18,
+    "pid": 3,
+    "eid": 1,
+    "lid": 1033,
+    "name_id": "Compatible Full Name",
+    "platform": "Windows",
+    "encoding": "Unicode BMP",
+    "language": "English (United States)",
+    "name_entry": "Open Sans Hebrew Cond Regular"
+  }
+}

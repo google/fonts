@@ -29,335 +29,79 @@
             },
             "validation": {
                 "font_full_name": "Open Sans Hebrew Condensed",
-                "level": "WARNING",
+                "level": "ERROR",
                 "last_success": "finished validation python",
                 "msg_count": {
                     "CRITICAL": 0,
                     "ERROR": 8,
-                    "WARNING": 32,
+                    "WARNING": 0,
                     "INFO": 0,
                     "DEBUG": 0
                 },
                 "result": [
                     {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.GDEF.GDEF.ligcaret",
-                        "levelname": "WARNING",
-                        "message": "Offset count is zero.",
-                        "timestamp": "2020-08-26T07:14:48.590311Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.GDEF.GDEF.ligcaret - WARNING - Offset count is zero.",
-                        "msg_code": "V0107"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.GDEF.GDEF.ligcaret.coverage",
-                        "levelname": "WARNING",
-                        "message": "Count is zero.",
-                        "timestamp": "2020-08-26T07:14:48.590088Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.GDEF.GDEF.ligcaret.coverage - WARNING - Count is zero.",
-                        "msg_code": "V0086"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.OS_2.PANOSE.proportion",
+                        "subroutine": "validate_72d6f7d3566844b29f432c4a0b2beffd.fontedit.OS_2.PANOSE.proportion",
                         "levelname": "ERROR",
                         "message": "Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-08-26T07:14:48.620402Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-03T13:52:27.228662Z",
+                        "orig_output": "validate_72d6f7d3566844b29f432c4a0b2beffd.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2108"
                     },
                     {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.OS_2.PANOSE.weight",
+                        "subroutine": "validate_72d6f7d3566844b29f432c4a0b2beffd.fontedit.OS_2.PANOSE.weight",
                         "levelname": "ERROR",
                         "message": "Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-08-26T07:14:48.620531Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.OS_2.PANOSE.weight - ERROR - Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-03T13:52:27.228944Z",
+                        "orig_output": "validate_72d6f7d3566844b29f432c4a0b2beffd.fontedit.OS_2.PANOSE.weight - ERROR - Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2111"
                     },
                     {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.post",
-                        "levelname": "WARNING",
-                        "message": "The glyph name '.null' for glyph 1 is not valid.",
-                        "timestamp": "2020-08-26T07:14:48.624684Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.fontedit.post - WARNING - The glyph name '.null' for glyph 1 is not valid.",
-                        "msg_code": "V0930"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.DSIG",
-                        "levelname": "WARNING",
-                        "message": "DSIG validation has been deactivated due to issues with the verification service.",
-                        "timestamp": "2020-08-26T07:14:48.626323Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.DSIG - WARNING - DSIG validation has been deactivated due to issues with the verification service.",
-                        "msg_code": "V1126"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf",
-                        "levelname": "WARNING",
-                        "message": "Glyph 0 has no contours.",
-                        "timestamp": "2020-08-26T07:14:49.278571Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf - WARNING - Glyph 0 has no contours.",
-                        "msg_code": "V0948"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 106 ('section')",
+                        "subroutine": "validate_72d6f7d3566844b29f432c4a0b2beffd.glyf.glyph 106 ('section')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].",
-                        "timestamp": "2020-08-26T07:14:50.061872Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 106 ('section') - ERROR - Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].",
+                        "timestamp": "2020-09-03T13:52:28.926057Z",
+                        "orig_output": "validate_72d6f7d3566844b29f432c4a0b2beffd.glyf.glyph 106 ('section') - ERROR - Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 127 ('onequarter').contours.contour 0",
+                        "subroutine": "validate_72d6f7d3566844b29f432c4a0b2beffd.glyf.glyph 127 ('onequarter').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-08-26T07:14:50.213693Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 127 ('onequarter').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T13:52:29.078260Z",
+                        "orig_output": "validate_72d6f7d3566844b29f432c4a0b2beffd.glyf.glyph 127 ('onequarter').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 127 ('onequarter').contours.contour 0",
-                        "levelname": "WARNING",
-                        "message": "Contour intersects itself.",
-                        "timestamp": "2020-08-26T07:14:50.216108Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 127 ('onequarter').contours.contour 0 - WARNING - Contour intersects itself.",
-                        "msg_code": "E1111"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 168 ('aring').contours",
-                        "levelname": "WARNING",
-                        "message": "Contour 1 does  not have correct winding direction.",
-                        "timestamp": "2020-08-26T07:14:50.650854Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 168 ('aring').contours - WARNING - Contour 1 does  not have correct winding direction.",
-                        "msg_code": "V1006"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 208 ('ring').contours",
-                        "levelname": "WARNING",
-                        "message": "Contour 1 does  not have correct winding direction.",
-                        "timestamp": "2020-08-26T07:14:51.038584Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 208 ('ring').contours - WARNING - Contour 1 does  not have correct winding direction.",
-                        "msg_code": "V1006"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 275 ('uni20AA').contours.contour 0",
+                        "subroutine": "validate_72d6f7d3566844b29f432c4a0b2beffd.glyf.glyph 275 ('uni20AA').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-08-26T07:14:51.449512Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 275 ('uni20AA').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T13:52:30.430759Z",
+                        "orig_output": "validate_72d6f7d3566844b29f432c4a0b2beffd.glyf.glyph 275 ('uni20AA').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 46 ('J')",
+                        "subroutine": "validate_72d6f7d3566844b29f432c4a0b2beffd.glyf.glyph 46 ('J')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].",
-                        "timestamp": "2020-08-26T07:14:49.572543Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 46 ('J') - ERROR - Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].",
+                        "timestamp": "2020-09-03T13:52:28.418247Z",
+                        "orig_output": "validate_72d6f7d3566844b29f432c4a0b2beffd.glyf.glyph 46 ('J') - ERROR - Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 46 ('J').contours",
-                        "levelname": "WARNING",
-                        "message": "Not all extrema are marked with on-curve points.",
-                        "timestamp": "2020-08-26T07:14:49.572901Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 46 ('J').contours - WARNING - Not all extrema are marked with on-curve points.",
-                        "msg_code": "W1112"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 46 ('J').contours.contour 0",
-                        "levelname": "WARNING",
-                        "message": "Not all extrema are marked with on-curve points.",
-                        "timestamp": "2020-08-26T07:14:49.573764Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.glyf.glyph 46 ('J').contours.contour 0 - WARNING - Not all extrema are marked with on-curve points.",
-                        "msg_code": "W1112"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.head",
-                        "levelname": "WARNING",
-                        "message": "The modified date is earlier than the created date",
-                        "timestamp": "2020-08-26T07:14:52.108843Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.head - WARNING - The modified date is earlier than the created date",
-                        "msg_code": "V0244"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.head.fontDirectionHint",
-                        "levelname": "WARNING",
-                        "message": "The fontDirectionHint value (0) is not 2",
-                        "timestamp": "2020-08-26T07:14:52.109068Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.head.fontDirectionHint - WARNING - The fontDirectionHint value (0) is not 2",
-                        "msg_code": "V0245"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.hhea",
-                        "levelname": "WARNING",
-                        "message": "The font-wide head.yMin -556 exceeds the descent -512. Clipping may occur.",
-                        "timestamp": "2020-08-26T07:14:52.109481Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.hhea - WARNING - The font-wide head.yMin -556 exceeds the descent -512. Clipping may occur.",
-                        "msg_code": "V0917"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.hints",
-                        "levelname": "WARNING",
-                        "message": "Font has only a pre-program, but no glyph hints, CVT, or function definitions.",
-                        "timestamp": "2020-08-26T07:14:52.522152Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.hints - WARNING - Font has only a pre-program, but no glyph hints, CVT, or function definitions.",
-                        "msg_code": "V0538"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxFunctionDefs value is 1, which is larger than is needed. It may be reduced to 0.",
-                        "timestamp": "2020-08-26T07:14:52.440999Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp - WARNING - The maxFunctionDefs value is 1, which is larger than is needed. It may be reduced to 0.",
-                        "msg_code": "V0252"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxSizeOfInstructions, 0, correctly matches the size of the glyph hints, but is less than 7, the larger of the sizes of the 'fpgm' and 'prep' tables.",
-                        "timestamp": "2020-08-26T07:14:52.441168Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp - WARNING - The maxSizeOfInstructions, 0, correctly matches the size of the glyph hints, but is less than 7, the larger of the sizes of the 'fpgm' and 'prep' tables.",
-                        "msg_code": "V0270"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
-                        "timestamp": "2020-08-26T07:14:52.441263Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp - WARNING - The maxZones value is 2, which is larger than is needed. It may be reduced to 1.",
-                        "msg_code": "V0273"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxStorage value is 1, which is larger than is needed. It may be reduced to 0.",
-                        "timestamp": "2020-08-26T07:14:52.441339Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp - WARNING - The maxStorage value is 1, which is larger than is needed. It may be reduced to 0.",
-                        "msg_code": "V0277"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp",
-                        "levelname": "WARNING",
-                        "message": "The maxStackElements value is 64, which is larger than is needed. It may be reduced to 0.",
-                        "timestamp": "2020-08-26T07:14:52.441408Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.maxp - WARNING - The maxStackElements value is 64, which is larger than is needed. It may be reduced to 0.",
-                        "msg_code": "V0279"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2",
-                        "levelname": "WARNING",
-                        "message": "The usWeightClass 400 is inconsistent with the PANOSE weight Any",
-                        "timestamp": "2020-08-26T07:14:48.642679Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2 - WARNING - The usWeightClass 400 is inconsistent with the PANOSE weight Any",
-                        "msg_code": "W2116"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.codePageRanges",
-                        "levelname": "WARNING",
-                        "message": "Code page cp1255 is missing printables U+05BF-05C0, U+05C3, U+05F0-05F2, U+200E-200F",
-                        "timestamp": "2020-08-26T07:14:48.740387Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.codePageRanges - WARNING - Code page cp1255 is missing printables U+05BF-05C0, U+05C3, U+05F0-05F2, U+200E-200F",
-                        "msg_code": "W2101"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.codePageRanges",
-                        "levelname": "WARNING",
-                        "message": "Code page mac-roman is missing printables U+03A9, U+03C0, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+F8FF",
-                        "timestamp": "2020-08-26T07:14:48.924677Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.codePageRanges - WARNING - Code page mac-roman is missing printables U+03A9, U+03C0, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+F8FF",
-                        "msg_code": "W2101"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.panoseArray",
-                        "levelname": "WARNING",
-                        "message": "PANOSE values are all zero; font mapping may not work.",
-                        "timestamp": "2020-08-26T07:14:49.164585Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.panoseArray - WARNING - PANOSE values are all zero; font mapping may not work.",
-                        "msg_code": "W2105"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.sxHeight",
-                        "levelname": "WARNING",
-                        "message": "sxHeight value (1094) does not match yMax of 'x' (1095)",
-                        "timestamp": "2020-08-26T07:14:49.165490Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.sxHeight - WARNING - sxHeight value (1094) does not match yMax of 'x' (1095)",
-                        "msg_code": "V1135"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasLatinExtendedA' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:14:49.171728Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges - WARNING - Unicode range 'hasLatinExtendedA' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasLatinExtendedB' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:14:49.171820Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges - WARNING - Unicode range 'hasLatinExtendedB' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasModifierLetters' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:14:49.171895Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges - WARNING - Unicode range 'hasModifierLetters' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasPunctuation' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:14:49.171968Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges - WARNING - Unicode range 'hasPunctuation' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasCurrency' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:14:49.172035Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges - WARNING - Unicode range 'hasCurrency' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges",
-                        "levelname": "WARNING",
-                        "message": "Unicode range 'hasLetterlike' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "timestamp": "2020-08-26T07:14:49.172099Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.unicodeRanges - WARNING - Unicode range 'hasLetterlike' claimed not to be present, but at least one glyph from the range is in the font.",
-                        "msg_code": "V0795"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.usMaxContext",
+                        "subroutine": "validate_72d6f7d3566844b29f432c4a0b2beffd.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 1, but is 4",
-                        "timestamp": "2020-08-26T07:14:49.269554Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
+                        "timestamp": "2020-09-03T13:52:28.071038Z",
+                        "orig_output": "validate_72d6f7d3566844b29f432c4a0b2beffd.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.usWinDescent",
-                        "levelname": "WARNING",
-                        "message": "The font-wide head.yMin -556 exceeds the usWinDescent 512. Clipping may occur.",
-                        "timestamp": "2020-08-26T07:14:49.269759Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.usWinDescent - WARNING - The font-wide head.yMin -556 exceeds the usWinDescent 512. Clipping may occur.",
-                        "msg_code": "V0919"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_72d6f7d3566844b29f432c4a0b2beffd.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 843, but is 844",
-                        "timestamp": "2020-08-26T07:14:49.269950Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 843, but is 844",
+                        "timestamp": "2020-09-03T13:52:28.071481Z",
+                        "orig_output": "validate_72d6f7d3566844b29f432c4a0b2beffd.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 843, but is 844",
                         "msg_code": "E2135"
-                    },
-                    {
-                        "subroutine": "validate_4fedf90a539f4276930a90a8fcfe3989.post",
-                        "levelname": "WARNING",
-                        "message": "The glyph name '.null' for glyph 1 is not valid.",
-                        "timestamp": "2020-08-26T07:14:52.443817Z",
-                        "orig_output": "validate_4fedf90a539f4276930a90a8fcfe3989.post - WARNING - The glyph name '.null' for glyph 1 is not valid.",
-                        "msg_code": "V0930"
                     }
                 ]
             }
@@ -366,6 +110,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc3",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 6552,
-    "completedDate": "2020-08-26 07:14:52.612435"
+    "runningTime": 6165,
+    "completedDate": "2020-09-03 13:52:31.688880"
 }

@@ -79,6 +79,7 @@ node('master') {
                 git config --local user.name \"Font Tools Jenkins\"
                 # we are not on branch master !!!
                 git checkout master
+                git pull origin master
                 git remote -v | grep -wq upstream || git remote add --track master upstream git://github.com/google/fonts.git
                 git fetch upstream
                 git merge upstream/master -m \"update from Google fonts ${date}\"

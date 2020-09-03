@@ -114,6 +114,8 @@ node('master') {
                                 export RABBITMQ_USER=$RABBITMQ_USER
                                 export RABBITMQ_PASS=$RABBITMQ_PASS
                                 docker run --env RABBITMQ_HOST --env RABBITMQ_USER --env RABBITMQ_PASS  --user \$(id -u):\$(id -g) --rm -v \"\$PWD\":/work -w /work docker-artifact.monotype.com/fonttools/fonttoolkit:latest validate-font  https://github.com/Monotype/google-fonts/raw/master/${file} -o ${json}
+                                docker run --user \$(id -u):\$(id -g) --rm -v \"\$PWD\":/work -w /work docker-artifact.monotype.com/fonttools/fonttoolkit:latest dump-names ${file}
+                                docker run --user \$(id -u):\$(id -g) --rm -v \"\$PWD\":/work -w /work docker-artifact.monotype.com/fonttools/fonttoolkit:latest dump-names ${file} -f json
                                 export GIT_ASKPASS=\$PWD/.git-askpass
                                 git add ${json}
                             """

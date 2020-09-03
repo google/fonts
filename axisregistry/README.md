@@ -1,6 +1,8 @@
 # GF Axis Registry
 
-This package contains a collection of metadata files that collectively form the Google Fonts Axis Registry.
+This package contains a collection of metadata source files that collectively form the Google Fonts Axis Registry.
+
+The live Axis Registry is here: [fonts.google.com/variablefonts](https://fonts.google.com/variablefonts)
 
 ## Axis Metadata Fields
 

@@ -1,7 +1,7 @@
-name: "Y-Xanh Mono"
-designer: "Lam Bao, Duy Dao"
+name: "Xanh Mono"
+designer: "Lam Bao, Duy Dao, Yellow Type Foundry"
 license: "OFL"
-category: "MONOSPACED"
+category: "MONOSPACE"
 date_added: "2020-08-11"
 fonts {
   name: "Xanh Mono"
@@ -14,7 +14,7 @@ fonts {
 }
 fonts {
   name: "Xanh Mono"
-  style: "normal"
+  style: "italic"
   weight: 400
   filename: "XanhMono-Italic.ttf"
   post_script_name: "XanhMono-Italic"

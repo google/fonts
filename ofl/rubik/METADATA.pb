@@ -32,7 +32,3 @@ axes {
   min_value: 300.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/TypeNetwork/rubik"
-  commit: "d661e59233d560516e8107742b3026b1f6ac7af0"
-}

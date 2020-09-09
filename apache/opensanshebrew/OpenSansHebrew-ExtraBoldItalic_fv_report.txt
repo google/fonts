@@ -1,0 +1,23 @@
+ERROR	E2111	Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.
+ERROR	V1102	The following mark glyphs have nonzero advances: [203]
+ERROR	E1311	The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Italic'.
+ERROR	V0933	The left sidebearing 79 does not match the glyph's xMin 80 (glyph 8)
+ERROR	V0933	The left sidebearing 124 does not match the glyph's xMin 125 (glyph 56)
+ERROR	V0933	The left sidebearing 83 does not match the glyph's xMin 84 (glyph 84)
+ERROR	V0933	The left sidebearing 165 does not match the glyph's xMin 166 (glyph 111)
+ERROR	V0933	The left sidebearing 124 does not match the glyph's xMin 125 (glyph 143)
+ERROR	V0933	The left sidebearing 124 does not match the glyph's xMin 125 (glyph 144)
+ERROR	V0933	The left sidebearing 124 does not match the glyph's xMin 125 (glyph 145)
+ERROR	V0933	The left sidebearing 124 does not match the glyph's xMin 125 (glyph 146)
+ERROR	V0933	The left sidebearing 508 does not match the glyph's xMin 509 (glyph 190)
+ERROR	V0933	The left sidebearing 428 does not match the glyph's xMin 429 (glyph 201)
+ERROR	V0933	The left sidebearing 77 does not match the glyph's xMin 78 (glyph 227)
+ERROR	V0933	The left sidebearing 85 does not match the glyph's xMin 86 (glyph 247)
+ERROR	V0933	The left sidebearing 79 does not match the glyph's xMin 80 (glyph 249)
+ERROR	V0933	The left sidebearing -90 does not match the glyph's xMin -91 (glyph 273)
+ERROR	V0933	The left sidebearing -86 does not match the glyph's xMin -87 (glyph 274)
+ERROR	V0933	The left sidebearing -51 does not match the glyph's xMin -52 (glyph 276)
+ERROR	V0933	The left sidebearing 77 does not match the glyph's xMin 78 (glyph 283)
+ERROR	E2100	The fsSelection doesn't match the subfamily 'name' entry
+ERROR	V0831	The usMaxContext should be 2, but is 4
+ERROR	E2135	The xAvgCharWidth should be 1160, but is 1162

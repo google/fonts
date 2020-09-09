@@ -43,35 +43,35 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_8cd8db6a9a66481eb638c5e6d91e12d9.glyf.glyph 199 ('U+03C1').contours.contour 0",
+                        "subroutine": "validate_7e855152f94c495fa37f93195439ad53.glyf.glyph 199 ('U+03C1').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T13:50:12.418848Z",
-                        "orig_output": "validate_8cd8db6a9a66481eb638c5e6d91e12d9.glyf.glyph 199 ('U+03C1').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T14:17:51.280242Z",
+                        "orig_output": "validate_7e855152f94c495fa37f93195439ad53.glyf.glyph 199 ('U+03C1').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_8cd8db6a9a66481eb638c5e6d91e12d9.glyf.glyph 451 ('U+FFFC').contours.contour 18",
+                        "subroutine": "validate_7e855152f94c495fa37f93195439ad53.glyf.glyph 451 ('U+FFFC').contours.contour 18",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T13:50:15.387402Z",
-                        "orig_output": "validate_8cd8db6a9a66481eb638c5e6d91e12d9.glyf.glyph 451 ('U+FFFC').contours.contour 18 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T14:17:53.482717Z",
+                        "orig_output": "validate_7e855152f94c495fa37f93195439ad53.glyf.glyph 451 ('U+FFFC').contours.contour 18 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_8cd8db6a9a66481eb638c5e6d91e12d9.name",
+                        "subroutine": "validate_7e855152f94c495fa37f93195439ad53.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-03T13:50:34.371451Z",
-                        "orig_output": "validate_8cd8db6a9a66481eb638c5e6d91e12d9.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-09T14:18:08.342992Z",
+                        "orig_output": "validate_7e855152f94c495fa37f93195439ad53.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_8cd8db6a9a66481eb638c5e6d91e12d9.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_7e855152f94c495fa37f93195439ad53.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1129, but is 1161",
-                        "timestamp": "2020-09-03T13:50:10.112240Z",
-                        "orig_output": "validate_8cd8db6a9a66481eb638c5e6d91e12d9.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1129, but is 1161",
+                        "timestamp": "2020-09-09T14:17:49.515324Z",
+                        "orig_output": "validate_7e855152f94c495fa37f93195439ad53.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1129, but is 1161",
                         "msg_code": "E2135"
                     }
                 ]
@@ -79,8 +79,8 @@
         }
     ],
     "skipped": [],
-    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 38032,
-    "completedDate": "2020-09-03 13:50:42.146765"
+    "runningTime": 29866,
+    "completedDate": "2020-09-09 14:18:14.324926"
 }

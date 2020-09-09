@@ -39,35 +39,35 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_ead3d75b434745458bcef61684e15a9e.glyf.glyph 128 ('questiondown').contours.contour 0",
+                        "subroutine": "validate_566fa82dde8640ecaa62f8830195ee76.glyf.glyph 128 ('questiondown').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T14:02:04.550227Z",
-                        "orig_output": "validate_ead3d75b434745458bcef61684e15a9e.glyf.glyph 128 ('questiondown').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T15:13:56.570382Z",
+                        "orig_output": "validate_566fa82dde8640ecaa62f8830195ee76.glyf.glyph 128 ('questiondown').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_ead3d75b434745458bcef61684e15a9e.glyf.glyph 195 ('lslash')",
+                        "subroutine": "validate_566fa82dde8640ecaa62f8830195ee76.glyf.glyph 195 ('lslash')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-163, 0, 477, 1331], but are [-152, 0, 477, 1331].",
-                        "timestamp": "2020-09-03T14:02:05.671291Z",
-                        "orig_output": "validate_ead3d75b434745458bcef61684e15a9e.glyf.glyph 195 ('lslash') - ERROR - Bounds should be [-163, 0, 477, 1331], but are [-152, 0, 477, 1331].",
+                        "timestamp": "2020-09-09T15:13:57.516475Z",
+                        "orig_output": "validate_566fa82dde8640ecaa62f8830195ee76.glyf.glyph 195 ('lslash') - ERROR - Bounds should be [-163, 0, 477, 1331], but are [-152, 0, 477, 1331].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_ead3d75b434745458bcef61684e15a9e.OS_2.usMaxContext",
+                        "subroutine": "validate_566fa82dde8640ecaa62f8830195ee76.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 0, but is 1",
-                        "timestamp": "2020-09-03T14:02:00.999372Z",
-                        "orig_output": "validate_ead3d75b434745458bcef61684e15a9e.OS_2.usMaxContext - ERROR - The usMaxContext should be 0, but is 1",
+                        "timestamp": "2020-09-09T15:13:53.549209Z",
+                        "orig_output": "validate_566fa82dde8640ecaa62f8830195ee76.OS_2.usMaxContext - ERROR - The usMaxContext should be 0, but is 1",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_ead3d75b434745458bcef61684e15a9e.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_566fa82dde8640ecaa62f8830195ee76.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 914, but is 918",
-                        "timestamp": "2020-09-03T14:02:00.999709Z",
-                        "orig_output": "validate_ead3d75b434745458bcef61684e15a9e.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 914, but is 918",
+                        "timestamp": "2020-09-09T15:13:53.549523Z",
+                        "orig_output": "validate_566fa82dde8640ecaa62f8830195ee76.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 914, but is 918",
                         "msg_code": "E2135"
                     }
                 ]
@@ -75,8 +75,8 @@
         }
     ],
     "skipped": [],
-    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 8923,
-    "completedDate": "2020-09-03 14:02:07.741476"
+    "runningTime": 7717,
+    "completedDate": "2020-09-09 15:13:59.253646"
 }

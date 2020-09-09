@@ -40,11 +40,11 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_10de5433c2c04669a16f92b305302d3d.fontedit.kern.format0",
+                        "subroutine": "validate_9e99bd2d1c0a45cf94097f09c3e86245.fontedit.kern.format0",
                         "levelname": "ERROR",
                         "message": "Insufficient bytes for pair data.",
-                        "timestamp": "2020-09-03T13:55:22.919454Z",
-                        "orig_output": "validate_10de5433c2c04669a16f92b305302d3d.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
+                        "timestamp": "2020-09-09T14:29:03.678431Z",
+                        "orig_output": "validate_9e99bd2d1c0a45cf94097f09c3e86245.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
                         "msg_code": "V0136"
                     }
                 ]
@@ -52,8 +52,8 @@
         }
     ],
     "skipped": [],
-    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 20038,
-    "completedDate": "2020-09-03 13:55:41.252412"
+    "runningTime": 18090,
+    "completedDate": "2020-09-09 14:29:20.221562"
 }

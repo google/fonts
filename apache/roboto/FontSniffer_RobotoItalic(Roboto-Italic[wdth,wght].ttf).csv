@@ -1,0 +1,6 @@
+Critical;name;Mac NID 2 (Mac/Roman/English);Necessary name table entry according Monotype: 'Mac NID 2, Subfamily Name' (Mac/Roman/English);Subfamily Name NID 2 (Mac/Roman/English) is missing. Please verify agains spec. It might be ok if it's a symbol font.;
+Critical;name;Mac NID 1;Necessary name table entry according Monotype: NID 1;NID 1 is missing. Please investigate.;
+Critical;name;Mac NID 1 (Mac/Roman/English);Necessary name table entry according Monotype: 'Mac NID 1, Family Name' (Mac/Roman/English);Family Name NID 1 (Mac/Roman/English) is missing. Please verify agains spec. It might be ok if it's a symbol font.;
+Critical;name;Mac NID 1;Mac NID 1 (False) and/or NID 2 (False) are missing.;NID 1 and/or 2 are missing, but NID 4 (1, 0, 0, 4). Please add.;
+Critical;name;Mac NID 2;Necessary name table entry according Monotype: NID 2;NID 2 is missing. Please investigate.;
+Critical;name;Mac NID 5 (Mac/Roman/English);Necessary name table entry according Monotype: 'Mac NID 5, Version String' (Mac/Roman/English);Version String NID 5 (Mac/Roman/English) is missing. Please verify agains spec. It might be ok if it's a symbol font.;

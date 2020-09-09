@@ -40,19 +40,19 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_65107776342648a7a4252943b13f596e.fontedit.kern.format0",
+                        "subroutine": "validate_df9f31c1fe71450097e4a834b1d2a7c3.fontedit.kern.format0",
                         "levelname": "ERROR",
                         "message": "Insufficient bytes for pair data.",
-                        "timestamp": "2020-09-03T13:58:41.438860Z",
-                        "orig_output": "validate_65107776342648a7a4252943b13f596e.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
+                        "timestamp": "2020-09-09T14:49:25.215919Z",
+                        "orig_output": "validate_df9f31c1fe71450097e4a834b1d2a7c3.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
                         "msg_code": "V0136"
                     },
                     {
-                        "subroutine": "validate_65107776342648a7a4252943b13f596e.gasp.up to 13 ppem",
+                        "subroutine": "validate_df9f31c1fe71450097e4a834b1d2a7c3.gasp.up to 13 ppem",
                         "levelname": "ERROR",
                         "message": "v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
-                        "timestamp": "2020-09-03T13:58:42.391645Z",
-                        "orig_output": "validate_65107776342648a7a4252943b13f596e.gasp.up to 13 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
+                        "timestamp": "2020-09-09T14:49:26.045642Z",
+                        "orig_output": "validate_df9f31c1fe71450097e4a834b1d2a7c3.gasp.up to 13 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
                         "msg_code": "V0992"
                     }
                 ]
@@ -60,8 +60,8 @@
         }
     ],
     "skipped": [],
-    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 19321,
-    "completedDate": "2020-09-03 13:58:59.019266"
+    "runningTime": 17783,
+    "completedDate": "2020-09-09 14:49:41.448312"
 }

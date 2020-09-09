@@ -42,99 +42,99 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.fontedit.OS_2.PANOSE.proportion",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.fontedit.OS_2.PANOSE.proportion",
                         "levelname": "ERROR",
                         "message": "Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-09-03T13:55:58.391339Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-09T14:40:28.323282Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2108"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.hhea",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.hhea",
                         "levelname": "ERROR",
                         "message": "The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)",
-                        "timestamp": "2020-09-03T13:56:10.583215Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.hhea - ERROR - The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)",
+                        "timestamp": "2020-09-09T14:40:39.353533Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.hhea - ERROR - The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)",
                         "msg_code": "E1411"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.hhea",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.hhea",
                         "levelname": "ERROR",
                         "message": "The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)",
-                        "timestamp": "2020-09-03T13:56:10.583365Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.hhea - ERROR - The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)",
+                        "timestamp": "2020-09-09T14:40:39.353673Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.hhea - ERROR - The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)",
                         "msg_code": "E1413"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.name",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-03T13:56:38.233424Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-09T14:41:04.698933Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.unicodeRanges",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasArmenian' claimed to be present but is not.",
-                        "timestamp": "2020-09-03T13:55:58.931070Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.unicodeRanges - ERROR - Unicode range 'hasArmenian' claimed to be present but is not.",
+                        "timestamp": "2020-09-09T14:40:28.821346Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.OS_2.unicodeRanges - ERROR - Unicode range 'hasArmenian' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.unicodeRanges",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
-                        "timestamp": "2020-09-03T13:55:58.931196Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.unicodeRanges - ERROR - Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
+                        "timestamp": "2020-09-09T14:40:28.821466Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.OS_2.unicodeRanges - ERROR - Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.unicodeRanges",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
-                        "timestamp": "2020-09-03T13:55:58.931273Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.unicodeRanges - ERROR - Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
+                        "timestamp": "2020-09-09T14:40:28.821536Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.OS_2.unicodeRanges - ERROR - Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.unicodeRanges",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
-                        "timestamp": "2020-09-03T13:55:58.931344Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
+                        "timestamp": "2020-09-09T14:40:28.821614Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.usMaxContext",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 2, but is 1",
-                        "timestamp": "2020-09-03T13:55:59.431954Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
+                        "timestamp": "2020-09-09T14:40:29.188125Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.post",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.post",
                         "levelname": "ERROR",
                         "message": "Header disagrees with PANOSE on fixed-pitch.",
-                        "timestamp": "2020-09-03T13:56:38.234919Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
+                        "timestamp": "2020-09-09T14:41:04.700270Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
                         "msg_code": "E2303"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.post",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.post",
                         "levelname": "ERROR",
                         "message": "Nonzero italic angle but zero hhea.caretSlopeRun",
-                        "timestamp": "2020-09-03T13:56:38.235040Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.post - ERROR - Nonzero italic angle but zero hhea.caretSlopeRun",
+                        "timestamp": "2020-09-09T14:41:04.700376Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.post - ERROR - Nonzero italic angle but zero hhea.caretSlopeRun",
                         "msg_code": "E2306"
                     },
                     {
-                        "subroutine": "validate_acf44cb9f519459687394522a07a9c3e.post",
+                        "subroutine": "validate_31ff1986637a420b8208726d719d9825.post",
                         "levelname": "ERROR",
                         "message": "The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.",
-                        "timestamp": "2020-09-03T13:56:38.235144Z",
-                        "orig_output": "validate_acf44cb9f519459687394522a07a9c3e.post - ERROR - The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.",
+                        "timestamp": "2020-09-09T14:41:04.700476Z",
+                        "orig_output": "validate_31ff1986637a420b8208726d719d9825.post - ERROR - The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.",
                         "msg_code": "E2307"
                     }
                 ]
@@ -142,8 +142,8 @@
         }
     ],
     "skipped": [],
-    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 68769,
-    "completedDate": "2020-09-03 13:57:05.216261"
+    "runningTime": 60903,
+    "completedDate": "2020-09-09 14:41:27.663762"
 }

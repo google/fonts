@@ -1,0 +1,4 @@
+ERROR	V0992	v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).
+ERROR	V1102	The following mark glyphs have nonzero advances: [2289]
+ERROR	V0297	Contour has duplicate non-adjacent points of differing on-curve states.
+ERROR	V0831	The usMaxContext should be 3, but is 4

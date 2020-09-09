@@ -1,0 +1,19 @@
+ERROR	E2111	Value 8 is not a valid enum value. 0 will be used instead, but the font should be fixed.
+ERROR	V1102	The following mark glyphs have nonzero advances: [203]
+ERROR	V0933	The left sidebearing 91 does not match the glyph's xMin 92 (glyph 35)
+ERROR	V0933	The left sidebearing 163 does not match the glyph's xMin 164 (glyph 111)
+ERROR	V0933	The left sidebearing 89 does not match the glyph's xMin 90 (glyph 179)
+ERROR	V0933	The left sidebearing 508 does not match the glyph's xMin 509 (glyph 190)
+ERROR	V0933	The left sidebearing 428 does not match the glyph's xMin 429 (glyph 201)
+ERROR	V0933	The left sidebearing 129 does not match the glyph's xMin 130 (glyph 216)
+ERROR	V0933	The left sidebearing 66 does not match the glyph's xMin 67 (glyph 225)
+ERROR	V0933	The left sidebearing 108 does not match the glyph's xMin 109 (glyph 227)
+ERROR	V0933	The left sidebearing 103 does not match the glyph's xMin 104 (glyph 247)
+ERROR	V0933	The left sidebearing -58 does not match the glyph's xMin -59 (glyph 272)
+ERROR	V0933	The left sidebearing -74 does not match the glyph's xMin -75 (glyph 273)
+ERROR	V0933	The left sidebearing 129 does not match the glyph's xMin 130 (glyph 274)
+ERROR	V0933	The left sidebearing -19 does not match the glyph's xMin -20 (glyph 275)
+ERROR	V0933	The left sidebearing 66 does not match the glyph's xMin 67 (glyph 281)
+ERROR	V0933	The left sidebearing 108 does not match the glyph's xMin 109 (glyph 282)
+ERROR	V0831	The usMaxContext should be 2, but is 4
+ERROR	E2135	The xAvgCharWidth should be 1118, but is 1120

@@ -40,147 +40,147 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.fontedit.OS_2.PANOSE.proportion",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.fontedit.OS_2.PANOSE.proportion",
                         "levelname": "ERROR",
                         "message": "Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-09-03T13:55:56.915930Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-09T14:32:06.188078Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2108"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 239 ('Uogonek').contours.contour 0",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 239 ('Uogonek').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T13:56:00.338834Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 239 ('Uogonek').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T14:32:09.326191Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 239 ('Uogonek').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 239 ('Uogonek').contours.contour 0",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 239 ('Uogonek').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate non-adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T13:56:00.339011Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 239 ('Uogonek').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T14:32:09.326362Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 239 ('Uogonek').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
                         "msg_code": "V0297"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 279 ('eogonek').contours.contour 0",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 279 ('eogonek').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T13:56:00.672151Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 279 ('eogonek').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T14:32:09.640965Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 279 ('eogonek').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 279 ('eogonek').contours.contour 0",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 279 ('eogonek').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate non-adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T13:56:00.672331Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 279 ('eogonek').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T14:32:09.641131Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 279 ('eogonek').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
                         "msg_code": "V0297"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T13:56:05.487062Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T14:32:13.965664Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate non-adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T13:56:05.487334Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T14:32:13.965839Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.glyf.glyph 724 ('Uogonek.smcp').contours.contour 0 - ERROR - Contour has duplicate non-adjacent points of differing on-curve states.",
                         "msg_code": "V0297"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.hhea",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.hhea",
                         "levelname": "ERROR",
                         "message": "The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)",
-                        "timestamp": "2020-09-03T13:56:08.681311Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.hhea - ERROR - The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)",
+                        "timestamp": "2020-09-09T14:32:16.996009Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.hhea - ERROR - The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)",
                         "msg_code": "E1411"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.hhea",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.hhea",
                         "levelname": "ERROR",
                         "message": "The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)",
-                        "timestamp": "2020-09-03T13:56:08.681428Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.hhea - ERROR - The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)",
+                        "timestamp": "2020-09-09T14:32:16.996122Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.hhea - ERROR - The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)",
                         "msg_code": "E1413"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.name",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-03T13:56:42.600767Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-09T14:32:48.607280Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.unicodeRanges",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasArmenian' claimed to be present but is not.",
-                        "timestamp": "2020-09-03T13:55:57.457726Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.unicodeRanges - ERROR - Unicode range 'hasArmenian' claimed to be present but is not.",
+                        "timestamp": "2020-09-09T14:32:06.683266Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.unicodeRanges - ERROR - Unicode range 'hasArmenian' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.unicodeRanges",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
-                        "timestamp": "2020-09-03T13:55:57.457894Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.unicodeRanges - ERROR - Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
+                        "timestamp": "2020-09-09T14:32:06.683387Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.unicodeRanges - ERROR - Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.unicodeRanges",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
-                        "timestamp": "2020-09-03T13:55:57.457974Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.unicodeRanges - ERROR - Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
+                        "timestamp": "2020-09-09T14:32:06.683458Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.unicodeRanges - ERROR - Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.unicodeRanges",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
-                        "timestamp": "2020-09-03T13:55:57.458046Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
+                        "timestamp": "2020-09-09T14:32:06.683522Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.usMaxContext",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 2, but is 1",
-                        "timestamp": "2020-09-03T13:55:57.881396Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
+                        "timestamp": "2020-09-09T14:32:07.059427Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.post",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.post",
                         "levelname": "ERROR",
                         "message": "Header disagrees with PANOSE on fixed-pitch.",
-                        "timestamp": "2020-09-03T13:56:42.602126Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
+                        "timestamp": "2020-09-09T14:32:48.608391Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
                         "msg_code": "E2303"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.post",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.post",
                         "levelname": "ERROR",
                         "message": "Nonzero italic angle but zero hhea.caretSlopeRun",
-                        "timestamp": "2020-09-03T13:56:42.602268Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.post - ERROR - Nonzero italic angle but zero hhea.caretSlopeRun",
+                        "timestamp": "2020-09-09T14:32:48.608509Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.post - ERROR - Nonzero italic angle but zero hhea.caretSlopeRun",
                         "msg_code": "E2306"
                     },
                     {
-                        "subroutine": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.post",
+                        "subroutine": "validate_b0e401e3ad4d45a185f545a135daf9b0.post",
                         "levelname": "ERROR",
                         "message": "The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.",
-                        "timestamp": "2020-09-03T13:56:42.602367Z",
-                        "orig_output": "validate_d93a2ae22be0493cb4fbec1a579c8aeb.post - ERROR - The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.",
+                        "timestamp": "2020-09-09T14:32:48.608596Z",
+                        "orig_output": "validate_b0e401e3ad4d45a185f545a135daf9b0.post - ERROR - The slope of the hhea caretSlopeRise/Run deviates from the italic angle of -10.0 by more than 0.5 degrees.",
                         "msg_code": "E2307"
                     }
                 ]
@@ -188,8 +188,8 @@
         }
     ],
     "skipped": [],
-    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 79597,
-    "completedDate": "2020-09-03 13:57:14.837588"
+    "runningTime": 73233,
+    "completedDate": "2020-09-09 14:33:17.795219"
 }

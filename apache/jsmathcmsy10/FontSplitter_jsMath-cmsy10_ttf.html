@@ -1,0 +1,2517 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8'>
+    <meta name="code" content="Olli Meier">
+    <title>MT FontSplitter</title>
+    <style type="text/css">
+      body {
+        /*background-color: #fff; #fdfdfb;*/
+        color: #131313;
+        font-family: "Kootenay Pro", Axel, "System Font", "Fira Sans", sans-serif;
+        /*line-height: 1.3em;*/
+        margin: 0;
+        /*padding: 1em;*/
+        font-size: 14px;
+        /*padding-right: 50px;*/
+        /*background: linear-gradient(to bottom, #383838, white);*/
+      }
+
+    table {width:100%;}
+    tr {margin: 10px;}
+    td {border: 1px solid #fff; /*#fdfdfb;*/}
+/*
+    table th, table td {
+    overflow: scroll !important;
+    white-space: nowrap;
+}
+*/
+
+    mark {
+        background-color: #fff990;
+        color: black;
+        opacity: 0.7;
+    }
+
+    .containerMain {
+        position: absolute;
+        z-index: 2;
+        /*top:-2000px;*/
+        left: 15px; 
+        background-color: white;
+        overflow: scroll;
+        width: calc(100% - 15px);
+    }
+
+
+    .containerCSScode {
+        overflow: scroll;
+        position: absolute;
+        z-index: 1;
+        top:0px;
+        padding-top: 200px;
+        padding-left: 20px;
+        width: 100%;
+        background-color: #383838;
+    }
+
+    .cssButton {
+        z-index: 3;
+        position: fixed;
+        top: 49%;
+    }
+
+    .cssButtonStyle {
+        /*text-align: center;*/
+        /*text-transform: uppercase;*/
+        transform-origin: left bottom 0;
+        /*writing-mode:tb-rl;*/
+        -webkit-transform:rotate(-90deg);
+        -moz-transform:rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform:rotate(-90deg);
+        transform: rotate(-90deg);
+        white-space:nowrap;
+        display:block;
+        /*bottom:0;
+        width:20px;
+        height:20px;*/
+
+    }
+
+    .comment{color:#FCD833}
+    .rule{color:#009FE3}
+    .element{color:#FFF}
+    .keyword{color:#E50051}
+    .prop{color:#FF9700}
+    .whitetext{color:#FFF}
+    /*.deepgray{background-color:#383838}*/
+    .darkgray{background-color: #787878}
+    .darkgray_text{color:#BBB}
+    .lightgray{background-color:rgb(252,252,252)}
+    .lightgray_text{color:rgb(252,252,252)}
+    .gray_text{color:lightgrey}
+
+    pre{font-family:Consolas,Courier,monospace;
+        /*font-size:.81em;*/
+        line-height:1.1em;
+        margin:0;
+        /*padding:1em;*/
+        border:0;
+        -webkit-touch-callout:text!important;
+        -webkit-user-select:text!important;
+        -khtml-user-select:text!important;
+        -moz-user-select:text!important;
+        -ms-user-select:text!important;
+        user-select:text!important
+    }
+    .gradientBG {
+        background:
+            linear-gradient(
+                limegreen,
+                transparent
+            ),
+            linear-gradient(
+                90deg,
+                skyblue,
+                transparent
+            ),
+            linear-gradient(
+                -90deg,
+                coral,
+                transparent
+            );
+            
+        background-blend-mode: screen;
+        }
+
+    .linearGradientBG{
+        background:
+            repeating-linear-gradient(
+                -45deg,
+                transparent,
+                transparent 25%,
+                tomato 0,
+                tomato 50%
+            ),
+            repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 25%,
+                dodgerblue 0,
+                dodgerblue 50%
+            ), wheat;
+
+        background-size: 10em 10em;
+        background-blend-mode: multiply;
+    }
+
+    .linearGradient2BG{
+        background:
+            repeating-linear-gradient(
+                50deg,
+                #F7A37B,
+                #F7A37B 1em,
+                #FFDEA8 1em,
+                #FFDEA8 2em,
+                #D0E4B0 2em,
+                #D0E4B0 3em,
+                #7CC5D0 3em,
+                #7CC5D0 4em,
+                #00A2E1 4em,
+                #00A2E1 5em,
+                #0085C8 5em,
+                #0085C8 6em
+            ),
+            repeating-linear-gradient(
+                -50deg,
+                #F7A37B,
+                #F7A37B 1em,
+                #FFDEA8 1em,
+                #FFDEA8 2em,
+                #D0E4B0 2em,
+                #D0E4B0 3em,
+                #7CC5D0 3em,
+                #7CC5D0 4em,
+                #00A2E1 4em,
+                #00A2E1 5em,
+                #0085C8 5em,
+                #0085C8 6em
+            );
+            
+        background-blend-mode: multiply;
+    }
+
+    .character {
+        line-height: 1.45em;
+        font-size:2.5em;
+        		display:inline-block;
+width:1.45em;
+white-space: pre;
+        min-width:1.45em;
+        height:1.45em;
+        text-align:center;
+        /*margin:-1px -1px -1px -4px;*/
+        background-color: #fff; /*#fdfdfb;*/
+        border:1px solid #efefef;/*#FAF7F5;*/ 
+        /*overflow: scroll !important;*/
+        white-space: nowrap;
+        font-size: 30px;
+    }
+
+    .characterZoom {
+        display:inline-block;
+        white-space: pre;
+        text-align:center;
+        background-color: #fff; /*#fdfdfb;*/
+        border:10px solid #efefef;/*#FAF7F5;*/ 
+        white-space: nowrap;
+        font-size: 35vh;
+        z-index:1000; 
+        width:50%; 
+        height:50%;
+        position: fixed; 
+        left: 25%; 
+        top:25%; 
+        display: none;"
+    }
+
+    .characterUniRanges{
+        font-size:2.5em;
+        display:inline-block;
+        /*width:1.45em;*/
+        min-width:2em;
+        height:2em;
+        text-align:center;
+        margin:-0px -0px -1px -4px;
+        background-color:#fff;
+        border:1px solid rgb(240,240,240); 
+        white-space: pre;
+    }
+
+    .characterUniRanges[title-B]:active {
+        z-index: 999;
+      content: attr(title-B);
+      position: relative;
+        background:#B3D4FC;
+        font-size: 20.5em;
+        display:inline-block;
+        /*width:10.45em;*/
+        min-width:500px;
+        height:500px;
+        text-align:center;
+        margin:-0px -0px -1px -4px;
+        border:1px solid rgb(240,240,240); 
+        white-space: pre;
+    }
+
+    [data-title] {
+      transition-timing-function: ease-in;
+          transition: 0.4s;
+      position: relative;
+    }
+
+    [data-title]:hover::before {
+      content: attr(data-title);
+      position: absolute;
+      z-index: 999;
+      bottom: -26px;
+      display: inline-block;
+      padding: 3px 6px;
+      border-radius: 2px;
+      background: #000;
+      color: #fff;
+      font-size: 12px;
+      font-family: sans-serif;
+      white-space: nowrap;
+      left: -20px;
+    }
+
+    [data-title]:hover::after {
+          z-index: 999;
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 8px;
+      display: inline-block;
+      color: #fff;
+      border: 8px solid transparent;    
+      border-bottom: 8px solid #000;
+    }
+
+    .characterMetaData {
+        line-height: 1.45em;
+        font-size:2.5em;
+        		display:inline-block;
+width:1.45em;
+white-space: pre;
+        max-width:1.45em !important;
+        min-width:1.45em;
+        height:1.45em;
+        text-align:center;
+        /*margin:-1px -1px -1px -4px;*/
+        background-color: #fff; /*#fdfdfb;*/
+        border:1px solid #efefef;/*#FAF7F5;*/ 
+        /*overflow: scroll !important;*/
+        white-space: nowrap;
+        font-size: 30px;
+    }
+
+    .characterFix {
+        font-size:2.5em;
+        		display:inline-block;
+width:1.45em;
+white-space: pre;
+        min-width:1.45em;
+        height:1.45em;
+        text-align:center;
+        /*margin:-1px -1px -1px -4px;*/
+        background-color: #fff; /*#fdfdfb;*/
+        border:1px solid #efefef;/*#FAF7F5;*/
+        overflow-x: scroll !important;
+        white-space: nowrap;
+        font-size: 30px;
+    }
+
+    .characterFontNames {
+        font-size:2.5em;
+        		display:inline-block;
+width:1.45em;
+white-space: pre;
+        min-width: 1.45em;
+        height:1.45em;
+        text-align:center;
+        /*margin:-1px -1px -1px -4px;*/
+        background-color: #fff; /*#fdfdfb;*/
+        border: 1px solid #fff; /*#fdfdfb;*/ 
+        position: -webkit-sticky;
+        position: sticky;
+        white-space: pre !important;
+        font-size: 30px;
+    }
+
+    .buttonBlack {
+        background-color: #131313;
+        border: 1px solid #fff; /*#fdfdfb;*/
+        color: #fff; /*#fdfdfb;*/
+        padding: 5px 15px;
+        text-align: center;
+        /*text-decoration: none;*/
+        display: inline-block;
+        margin: 1px 1px;
+        cursor: pointer;
+        border-radius: 0.0em;
+
+    }
+
+    .features-head {
+        content:"";
+        display:inline-block;
+        float:left;
+        width:100%;
+        border-bottom:1px solid rgb(240,240,240);
+        padding-top:10px;
+        margin-top:30px; 
+        margin-bottom:10px
+    }
+
+    input {
+        /*width: 44px;
+        height: 23px;
+        background-color: buttonface;*/
+        cursor: default;
+        border-width: 0px;
+        border-style: solid;
+        border-color: ; #fff; /*#fdfdfb;*//*rgb(169, 169, 169);*/
+        border-image: initial;
+        padding: 0px opx;
+    }
+
+    .inputColor{
+        width: 25px;
+        height: 29px;
+        cursor: default;
+        border: none;
+    }
+
+    button {
+        border: 0;
+        height: 100%;
+        /*width: 100%;*/
+        padding: 5px 15px;
+        text-align: center;
+        /*text-decoration: none;*/
+        display: inline-block;
+        margin: 1px 1px;
+        cursor: pointer;
+        border-radius: 0.0em;
+        vertical-align: top;
+        background: #fff; /*#fdfdfb;*/
+        outline: none;
+    }
+
+    .buttonBorder {
+        border: 0;
+        height: 100%;
+        /*width: 100%;*/
+        padding: 5px 15px;
+        text-align: center;
+        /*text-decoration: none;*/
+        display: inline-block;
+        margin: 1px 1px;
+        cursor: pointer;
+        border-radius: 0.0em;
+        vertical-align: top;
+        background: #fff; /*#fdfdfb;*/
+        outline: none;
+        border:1px solid #efefef;/*#FAF7F5;*/
+    }
+
+    .buttonOT {
+        border:1px solid #efefef;/*#FAF7F5;*/
+        width: 40px;
+        padding: 5px 5px;
+    }
+    .buttonExtra{
+        vertical-align: bottom;
+        line-height: 2em;
+
+        border: 0;
+        height: 100%;
+        /*width: 100%;*/
+        padding: 5px 15px;
+        text-align: center;
+        /*text-decoration: none;*/
+        display: inline-block;
+        margin: 1px 1px;
+        cursor: pointer;
+        border-radius: 0.0em;
+        background: #fff; /*#fdfdfb;*/
+        outline: none;
+    }
+
+    select {
+        border: 0;
+        height: 100%;
+        width: 100%;
+        padding: 5px 15px;
+        text-align: center;
+        /*text-decoration: none;*/
+        display: inline-block;
+        margin: 1px 1px;
+        cursor: pointer;
+        border-radius: 0.0em;
+        vertical-align: top;
+        background: #131313;
+        color: #fff; /*#fdfdfb;*/
+    }
+
+    .selectSampleText {
+        border: 0;
+        height: 100%;
+        width: 200px;
+        /*padding: 5px 15px;*/
+        text-align: center;
+        /*text-decoration: none;*/
+        display: inline-block;
+        margin: 5px 1px;
+        cursor: pointer;
+        border-radius: 0.0em;
+        vertical-align: top;
+        background: #fff; /*#fdfdfb;*/
+        color: #131313;
+    }
+
+    .textTop {vertical-align: top;}
+    .compareBoxes{word-break: break-all;}
+
+    .flyingFont{
+        font-size: 300px;
+        text-align: center;
+        /*text-transform: uppercase;*/
+        width: 100%;
+    }
+
+    .flyingFont1{
+        color: #FF4136/*#131313*/; 
+        z-index: 900; 
+        position: absolute;
+    }
+    .flyingFont2{
+        /*-webkit-text-stroke-width: 2px;
+           -webkit-text-stroke-color: #FF4136;
+           -webkit-text-fill-color: transparent;*/
+        z-index: 899; 
+        position: absolute;
+           opacity: .5;
+           margin-top: 10px;
+           margin-left: 10px;
+    }
+    .flyingFont3{
+        /*-webkit-text-stroke-width: 2px;
+           -webkit-text-stroke-color: #FF4136;
+           -webkit-text-fill-color: transparent;*/
+        z-index: 898; 
+        position: absolute;
+           opacity: .2;
+           margin-top: 20px;
+           margin-left: 20px;
+    }
+
+    .buttonToggle {
+        border: 0;
+        /*background-color: #131313;*/
+        /*color: #fff; /*#fdfdfb;*/*/
+        text-align: center;
+        /*text-decoration: none;*/
+        display: inline-block;
+        margin: 1px 1px;
+        cursor: pointer;
+        border-radius: 0.0em;
+    }
+
+    button:hover, .selectSampleText:hover {background-color: #131313; color: #fff; /*#fdfdfb;*/}
+    .buttonOT:hover {background-color: #131313; color: #fff; /*#fdfdfb;*/}
+    .buttonExtra:hover {background-color: #fff; /*#fdfdfb;*/ color: #131313;}
+
+    hr { border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));}
+
+    .underline {text-decoration: underline; text-decoration-color: #131313; color: hsl(  0,  0%,  95%); overflow: hidden;} /* for the future: text-underline-offset: from-font; text-decoration-width: from-font; */
+    .strikeout {text-decoration: line-through; text-decoration-color: #131313; color: hsl(  0,  0%,  95%); overflow: hidden;} 
+
+    .character:hover {background:#B3D4FC}
+    .characterUniRanges:hover {background:#B3D4FC}
+    /*.characterUniRanges:active {
+        background:#B3D4FC;
+        font-size: 20.5em;
+        display:inline-block;
+        /*width:10.45em;*/
+        min-width:500px;
+        height:500px;
+        text-align:center;
+        margin:-0px -0px -1px -4px;
+        border:1px solid rgb(240,240,240); 
+        white-space: pre;
+    }
+    */
+    .characterFix:hover {background:#B3D4FC}
+    .character_name {/*padding-top: 5px; padding-left: 25px;*/}
+    
+    @keyframes blinkblink {
+        0% 100%   {background-color: hsl( 24,  100%, 50%); }
+        50% {background-color: hsl( 24,  100%, 45%); }
+    }
+
+    .serious {animation: blinkblink 0.9s ease-in-out 0s infinite;}
+    .critical {background-color: hsl( 0,  100%, 20%); color: hsl( 0,  0%, 90%);}
+    .error {background-color: hsl( 24,  100%, 45%); color: hsl( 24,  100%, 70%);}
+    .warning {background-color: hsl( 50,  65%, 52%); color: hsl( 50,  65%, 70%);}
+    .info {background-color: #f9f7f6;/*hsl(  0,  0%,  95%);*/ color: hsl(  0,  0%,  70%);}
+
+    .extra {background-color: hsl( 200,  50%, 95%);}
+    .extra_info {background-color: hsl( 200,  50%, 96%); color: hsl( 200,  50%, 80%);}
+
+    .colLeft {
+        width: 50%;
+        padding-left: 25px;
+        text-align: right;
+        padding-right: 25px;
+        vertical-align: text-top;
+    }
+
+    .header {
+      text-transform: none;
+      text-decoration: none;
+      background-color: #fff; /*#fdfdfb;*/
+      text-align: left;
+      color: #131313;
+      position: fixed;
+      padding: 15px 15px 0px 0px;
+      width: 100%;
+      box-shadow: 0px 0px 5px #888888;
+      z-index: 99;
+    }
+
+    .header1 {
+      text-transform: none;
+      text-decoration: none;
+      background-color: #fff; /*#fdfdfb;*/
+      text-align: left;
+      color: #131313;
+      position: fixed;
+      padding: 15px 15px 0px 0px;
+      width: 100%;
+      z-index: 99;
+    }
+    
+    .header:hover  { opacity: 0.95; }
+    .header1:hover  { opacity: 0.95; }
+
+
+    .splitter{width:100%; font-weight: bold;}
+    .center{text-align: center;}
+    .left{text-align: left;}
+    .content{padding-top: 500px;}
+    .sampleBig {/*font-size: 50px !important*/; color:#fff; /*#fdfdfb;*/ padding: 20px 50px 20px 50px; }
+    .sampleWaterfall {padding: 20px 50px 20px 20px;}
+    .waterfallOverflow {white-space:nowrap; overflow: hidden; text-overflow: clip; }
+    .sampleContent {/*empty*/ font-size: 30px;}
+    .compareBoxCSS {vertical-align: top; font-size: 30px;}
+    .blackBG {background-color: #131313;}
+
+    .defaultFont {font-size: 30px;}
+    .infoFont {font-family: "Kootenay Pro", Axel, "System Font", "Fira Sans", sans-serif; font-size: 14px; vertical-align: 5px;}
+    
+    .hidden {display:none;}
+    .sliderbar {vertical-align: 4px;}
+
+    /* Slider design Start */
+
+    .inputRangeCompareBox {
+      padding-bottom: 7px !important;
+      padding-left: 10px;
+    }
+
+    .inputNumberCompareBox{
+        max-width: 50px;
+    }
+
+    input[type=range] {
+      padding-bottom: 3px;
+      -webkit-appearance: none;
+      /*position: relative*/
+    }
+
+    input[type=range]::-webkit-slider-runnable-track {
+      width: 300px;
+      height: 2px;
+      border: none;
+      border-radius: 3px;
+      border: 1px solid #131313;
+    }
+
+    input[type=range]::-moz-range-track {
+      background-color: #131313;
+    }
+
+    input::-moz-range-thumb {
+        background-color: #fff; /*#fdfdfb;*/
+        border: solid 2px #131313;
+        border-radius: 0;
+        height: 10px;
+        width: 10px;
+      }
+
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      border: none;
+      height: 12px;
+      width: 12px;
+      border-radius: 510%;
+      background: #fff; /*#fdfdfb;*/
+      border: 2px solid #131313;
+      margin-top: -5px;
+      cursor: pointer
+    }
+
+    input[type=range]:focus {
+      outline: none
+    }
+
+    /* Slider design End */
+
+    .infoToggle {border-bottom:1px solid #efefef;/*#FAF7F5;*/}
+    .colLeftToggle {
+        width: 50%;
+        padding-left: 25px;
+        text-align: right;
+        padding-right: 25px;
+        vertical-align: mittle;
+    }
+
+    td.rotateSAVE {*/height: 140px;*/ white-space: nowrap; /*float: left;*/ }
+    td.rotate > div {-webkit-transform: rotate(270deg); transform: rotate(270deg); width: 30px;}
+    td.rotate > div > span {/*padding: 5px 10px;*/}
+
+
+    
+
+    
+		@font-face {font-family: 'om_jsMathcmsy10ttf'; src: url('jsMath-cmsy10.ttf');}
+	.om_jsMathcmsy10ttf {font-family: 'om_jsMathcmsy10ttf'; /*font-size: 30px;*/}
+
+    
+
+    /*.animationON {animation: LooperOne 5.0s ease-in-out 0s infinite;}
+    .animationOFF {/*empty*/}*/
+
+
+    </style>
+
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <body style="-webkit-print-color-adjust:exact;" id="body_all" >
+
+      <div id="zoom_characters" class="characterZoom" onclick="mUp()"></div>
+
+    <div class="header1 center" style="z-index:999; ">
+            Monotype
+        <table class="splitter">
+          <tr>
+            <td class="center">F</td>
+            <td class="center">O</td>
+            <td class="center">N</td>
+            <td class="center">T</td>
+            <td class="center">S</td>
+            <td class="center">P</td>
+            <td class="center">L</td>
+            <td class="center">I</td>
+            <td class="center">T</td>
+            <td class="center">T</td>
+            <td class="center">E</td>
+            <td class="center">R</td>
+          </tr>
+        </table>
+        <br>
+    </div>
+
+       <div class="header center">
+        <table style="width:100%">
+            <tbody id="otFeature" >
+                <td>
+                    <!-- OT feature buttons -->
+                    <table>
+		<tr>
+			<td class="colLeft">Select HTML Language</td><td class="left">
+		<select onchange="functionChangeLanguage(this.value)" class="selectSampleText">		<option value=>Default</option>
+			</select>
+			</td>
+		</tr>
+</table>
+
+                    <!-- fonts size slider
+                    <table>
+                        <tr>
+                        <td class="colLeft">Font Size</td><td class="left"><input type="range" min="0.5" max="20" value="2.5" step=".01" id="slider" /></td>
+                        </tr>
+                    </table>
+                     -->
+
+                    <!-- axis variable fonts -->
+                    
+
+                </td>
+            </tbody>
+
+            <th><button class="buttonExtra" id="otFeature_btn" onclick='functionShowHeader(".header", "otFeature");' title="Toggle details">&#x25bc;</button>
+            </th>
+        </table>
+    </div>  
+
+<div id="cssCodeForCustomerPreview" class="containerCSScode deepgray whitetext">
+<pre>
+
+<span class="comment">/* first assign web font */</span>
+
+<span class="rule">@font-face</span> {
+    <span class="keyword">font-family</span>: 'jsMath-cmsy10'; 
+    <span class="prop">src</span>: <span class="prop">url</span>('../jsMath-cmsy10.ttf') <span class="prop">format</span>('truetype');
+    }
+
+<span class="comment">/* go on with normal style definitions */</span>
+<span class="rule">body</span> {
+    <span class="keyword">font-family</span>: 'jsMath-cmsy10'; <span class="comment">/* this is only an example for one style */</span>
+    <span class="featurestring">
+    <span class="comment">/* setup OpenType features */</span>
+    <span class="keyword">font-feature-settings: </span><span id="w3cfeatures"></span>;
+
+    <span class="comment">/* vendor prefixes */</span>
+    <span class="keyword">-webkit-font-feature-settings: </span><span id="webkitfeatures"></span>;
+    <span class="keyword">-moz-font-feature-settings: </span><span id="mozfeatures-up-to-14"></span>;
+    <span class="keyword">-moz-font-feature-settings: </span><span id="mozfeatures"></span>;
+    <span class="keyword">-ms-font-feature-settings: </span><span id="msfeatures"></span>;
+    <span class="keyword">-o-font-feature-settings: </span><span id="ofeatures"></span>;
+    
+}
+    
+
+<span class="comment">/* language tag */</span>
+<code><</code><span class="keyword">html</span><span class="prop"> lang</span>=<span class="rule">"<span id="htmlLangTag"></span>"</span><code>></code>
+
+...
+
+<code><</code>/<span class="keyword">html</span><code>></code>
+
+</pre>
+</div>
+
+
+<div id="containerMainID" class="containerMain" onscroll="scrollXNamesFunc()">
+
+    <div class="cssButton">
+        <a class="cssButtonStyle whitetext" onclick="functionShowCSSCode('.containerMain')" href="#" style="text-decoration:None;"> 
+            css code
+        </a>
+    </div>
+
+    <div id="showFontNames" class="content" style="background: white; opacity: 0; transition: opacity 1s ease-in-out; position: fixed; z-index: -1; width:100%;">
+        <table style="width:100%; border-bottom: 1px solid #FAF7F5;">
+            <tr>
+                <td class="colLeft">
+                </td>
+                <td class="rotate characterFontNames defaultFont"><div><span class="infoFont"> </span></div></td>
+				<td class="rotate characterFontNames om_jsMathcmsy10ttf"><div><span>jsMath-cmsy10</span></div></td>
+				
+            </tr>
+        </table>
+    </div>
+
+    <div id="showFontNames_div" class="center" style="position: fixed; bottom: -50px; z-index:998; width:100%;">
+        <button class="buttonBlack" id="showFontNames_btn" onclick='showhide_div("showFontNames", "font names");' title="Toggle details">show font names</button>
+    </div>
+
+    <div id="varFont" class="content">
+
+        <table>
+            <tr>
+                <td class="colLeft">
+                <!-- <a href="#splitterContent">Character Set Compare</a> https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
+                2020-09-09 - 13:53.53
+                <br>
+                13:53.56
+                <br>
+                <button class="buttonBorder" onClick="window.print()">
+                Print this page
+                </button>
+                </td>
+                <td class="rotate characterFontNames defaultFont"><div><span class="infoFont"> </span></div></td>
+				<td class="rotate characterFontNames om_jsMathcmsy10ttf"><div><span>jsMath-cmsy10</span></div></td>
+				
+            </tr>
+        </table>
+
+            
+		<hr>
+		<table>
+<tr>
+<td class="colLeft">Format<br>(by file ending)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title=".ttf"><span class="infoFont">.ttf</span></td>
+</tr>
+<tr>
+<td class="colLeft">Outline Flavour<br>(CFF or glyf table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="TTF"><span class="infoFont">TTF</span></td>
+</tr>
+<tr>
+<td class="colLeft">Number of Glyphs<br>(maxp table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="132"><span class="infoFont">132</span></td>
+</tr>
+<tr>
+<td class="colLeft">Weight Class<br>(OS/2 table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont " title="jsMath-cmsy10" data-original-title="500"><span class="infoFont">500</span></td>
+</tr>
+<tr>
+<td class="colLeft">Width Class<br>(OS/2 table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont " title="jsMath-cmsy10" data-original-title="5"><span class="infoFont">5</span></td>
+</tr>
+<tr>
+<td class="colLeft">Units per Em<br>(head table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="1000"><div><span class="infoFont">1000</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">Font Revision<br>(head table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="1.001"><div><span class="infoFont">1.001</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">OS/2 Table Version<br></td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="3"><div><span class="infoFont">3</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">sTypeAscender<br>(OS/2 table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="800"><div><span class="infoFont">800</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">sTypeDescender<br>(OS/2 table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="-200"><div><span class="infoFont">-200</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">sTypeLineGap<br>(OS/2 table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="0"><div><span class="infoFont">0</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">usWinAscent<br>(OS/2 table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="799"><div><span class="infoFont">799</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">usWinDescent<br>(OS/2 table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="960"><div><span class="infoFont">960</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">Ascender<br>(hhea table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="799"><div><span class="infoFont">799</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">Descender<br>(hhea table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="-960"><div><span class="infoFont">-960</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">LineGap<br>(hhea table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="90"><div><span class="infoFont">90</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">post table format<br>(post table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="2.0"><div><span class="infoFont">2.0</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">Underline Position<br>(post table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="-100"><div><span class="infoFont">-100</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">Underline Thickness<br>(post table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="50"><div><span class="infoFont">50</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">Hgo<br>visual check underline</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData om_jsMathcmsy10ttf underline" title="jsMath-cmsy10" data-original-title="Hgo">Hgo</td>
+</tr>
+<tr>
+<td class="colLeft">yStrikeoutPosition<br>(OS/2 table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="258"><div><span class="infoFont">258</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">yStrikeoutSize<br>(OS/2 table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="49"><div><span class="infoFont">49</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">strikeout<br>visual check</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData om_jsMathcmsy10ttf strikeout" title="jsMath-cmsy10" data-original-title="Hgo">Hgo</td>
+</tr>
+<tr>
+<td class="colLeft">Italic Flag<br>(OS/2 table fsSelection)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterMetaData defaultFont" title="jsMath-cmsy10" data-original-title="False"><div><span class="infoFont">False</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">Italic Angle<br>(post table)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterFix defaultFont" title="jsMath-cmsy10" data-original-title="0.0"><div><span class="infoFont">0.0</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">Panose: Family<br>(Value 1)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterFix defaultFont" title="jsMath-cmsy10" data-original-title="Latin Text"><div><span class="infoFont">Latin Text</span></div></td>
+</tr>
+<tr>
+<td class="colLeft">Panose: Serif<br>(Value 2)</td>
+<td class="characterFontNames defaultFont"><div><span> </span></div></td>
+				<td class="characterFix defaultFont" title="jsMath-cmsy10" data-original-title="Any"><div><span class="infoFont">Any</span></div></td>
+</tr>
+
+		</table>
+
+
+            
+
+            
+            <hr>
+            <table id="compareBoxID">
+            <tr id="tableTR" class="textTop sampleBig blackBG compareBoxes">
+
+            <button class="buttonBorder" title="add column" onclick="functionBoxAdd()">+</button>
+            <button class="buttonBorder" title="remove column" onclick="functionBoxRemove()">-</button>
+            <select id="mySelectSampleText" onchange="functionSelectSampleText('mySelectSampleText')" class="selectSampleText">
+
+            <option value='Default Sample'>Default Sample</option><option value='All Unicodes'>All Unicodes</option><option value='Feature Frac'>Feature Frac</option><option value='MILE basicforms proof'>MILE basicforms proof</option><option value='MILE rhythm proof'>MILE rhythm proof</option><option value='Polish Sample'>Polish Sample</option><option value='Steve M Sample Latin'>Steve M Sample Latin</option>
+
+            </select>
+            <input type="color" class="inputColor" value="#82e5fe" title="Background Color" onchange="functionGetColorBG(this.value, '.compareBoxes')">
+            <input type="color" class="inputColor" value="#ff79ad" title="Text Color" onchange="functionGetColorText(this.value, '.compareBoxes')">
+            <button class="buttonBorder" title="Swap Colors" onclick="functionSwapColorTextBG('.compareBoxes')">&#x02B14</button>
+            <button class="buttonBorder" title="have fun, change background" onclick="functionGetRandomBG(['gradientBG', 'linearGradientBG', 'linearGradient2BG', 'blackBG'])">∞</button>
+            <input type="range" class="inputRangeCompareBox" title="Text Size" min="0.5" max="100" value="30" step=".01" id="sliderCompareBoxCSS"/>
+            <input type="number" class="inputNumberCompareBox" value="30" step="1" id="numberCompareBoxCSS"/>
+            <button class="buttonOT" id="leftcompareBox_btn" title="text alignment left" onclick="functionTextAlignment('compareBoxID', 'left')">L</button>
+            <button class="buttonOT" id="centercompareBox_btn" title="text alignment center" onclick="functionTextAlignment('compareBoxID', 'center')">C</button>
+            <button class="buttonOT" id="rightcompareBox_btn" title="text alignment right" onclick="functionTextAlignment('compareBoxID', 'right')">R</button>
+            <span style="vertical-align: super; color: #efefef;">|</span>
+            <button class="buttonOT" id="left-to-rightcompareBox_btn" title="reading direction: left to right" onclick="functionReadDirection('compareBoxID', 'left-to-right')">LR</button>
+            <button class="buttonOT" id="right-to-leftcompareBox_btn" title="reading direction: right to left" onclick="functionReadDirection('compareBoxID', 'right-to-left')">RL</button>
+            <!--<button class="buttonOT" id="top-to-downcompareBox_btn" title="reading direction: top to down" onclick="functionReadDirection('compareBoxID', 'top-to-down')">TD</button>-->
+            <button class="buttonBlack" id="hintingOnOff_btn" onclick="hintingOnOff('.compareBoxes', 'hintingOnOff');" title="activate/deactivate hinting">hinting on</button>
+            
+<td id="myBox" class="compareBox om_jsMathcmsy10ttf"><select id="mySelect" name="myBox" onchange="functionSelect('mySelect')"><option value='om_jsMathcmsy10ttf'>jsMath-cmsy10 (ttf)</option>
+</select>
+
+<span id="myBoxContent" contenteditable="true" class="compareBoxCSS ">1234567890 xozszn HOZD 1/3 @ 1a ;#& ? % $ € ! In August of 2016, four unlikely collaborators in the world of type, fonts and font technology stood on a stage at the ATypI conference in Warsaw, Poland. The collaborators were Apple, Microsoft, Adobe and Google. Together they announced the publishing of OpenType 1.8, an update to the now ubiquitous font standard which was originally an amalgam of Apple & Microsoft’s TrueType, and Adobe’s PostScript font formats. The OpenType 1.8 announcement, ATypI, Warsaw, Poland, September 14, 2016.</span></td>
+
+</tr>
+            </table>
+    
+
+            
+		<hr>
+		<table>
+<thead><tr><tr>
+<td class="colLeft">Copyright<br>NID0 Mac (1, 0, 0, 0)</td>
+<td class="characterFontNames defaultFont"><button id="(1, 0, 0, 0)_btn" onclick='toggle_detail("(1, 0, 0, 0)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(1, 0, 0, 0)0')" onMouseOut="hover('(1, 0, 0, 0)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(1, 0, 0, 0)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(1, 0, 0, 0)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be the SAME within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(1, 0, 0, 0)0')" onMouseOut="hover('(1, 0, 0, 0)0')" id="(1, 0, 0, 0)0" class="infoToggle" colspan="1">Generated from MetaFont bitmap by mftrace 1.0.33, http://www.cs.uu.nl/~hanwen/mftrace/ </td></tr></tbody><tr>
+<td class="colLeft">Family Name<br>NID1 Mac (1, 0, 0, 1)</td>
+<td class="characterFontNames defaultFont"><button id="(1, 0, 0, 1)_btn" onclick='toggle_detail("(1, 0, 0, 1)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(1, 0, 0, 1)0')" onMouseOut="hover('(1, 0, 0, 1)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(1, 0, 0, 1)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(1, 0, 0, 1)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID 1 and 2 together should be unique within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(1, 0, 0, 1)0')" onMouseOut="hover('(1, 0, 0, 1)0')" id="(1, 0, 0, 1)0" class="infoToggle" colspan="1">NID1: 'jsMath-cmsy10' + NID2: 'cmsy10'</td></tr></tbody><tr>
+<td class="colLeft">Subfamily Name<br>NID2 Mac (1, 0, 0, 2)</td>
+<td class="characterFontNames defaultFont"><button id="(1, 0, 0, 2)_btn" onclick='toggle_detail("(1, 0, 0, 2)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(1, 0, 0, 2)0')" onMouseOut="hover('(1, 0, 0, 2)0')" class="character defaultFont error" title="jsMath-cmsy10" data-original-title="(1, 0, 0, 2)">&#10005</td>
+
+        </tr>
+        </thead>
+        <tbody id="(1, 0, 0, 2)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be 'Regular', 'Italic', 'Bold' or 'Bold Italic'.</td><tr class="error" title="jsMath-cmsy10"><td onMouseOver="hover('(1, 0, 0, 2)0')" onMouseOut="hover('(1, 0, 0, 2)0')" id="(1, 0, 0, 2)0" class="infoToggle" colspan="1">cmsy10</td></tr></tbody><tr>
+<td class="colLeft">Unique Font ID<br>NID3 Mac (1, 0, 0, 3)</td>
+<td class="characterFontNames defaultFont"><button id="(1, 0, 0, 3)_btn" onclick='toggle_detail("(1, 0, 0, 3)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(1, 0, 0, 3)0')" onMouseOut="hover('(1, 0, 0, 3)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(1, 0, 0, 3)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(1, 0, 0, 3)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be DIFFERENT within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(1, 0, 0, 3)0')" onMouseOut="hover('(1, 0, 0, 3)0')" id="(1, 0, 0, 3)0" class="infoToggle" colspan="1">FontForge 1.0 : jsMath-cmsy10 : 12-12-2005</td></tr></tbody><tr>
+<td class="colLeft">Full Name<br>NID4 Mac (1, 0, 0, 4)</td>
+<td class="characterFontNames defaultFont"><button id="(1, 0, 0, 4)_btn" onclick='toggle_detail("(1, 0, 0, 4)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(1, 0, 0, 4)0')" onMouseOut="hover('(1, 0, 0, 4)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(1, 0, 0, 4)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(1, 0, 0, 4)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be DIFFERENT within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(1, 0, 0, 4)0')" onMouseOut="hover('(1, 0, 0, 4)0')" id="(1, 0, 0, 4)0" class="infoToggle" colspan="1">jsMath-cmsy10</td></tr></tbody><tr>
+<td class="colLeft">Version String<br>NID5 Mac (1, 0, 0, 5)</td>
+<td class="characterFontNames defaultFont"><button id="(1, 0, 0, 5)_btn" onclick='toggle_detail("(1, 0, 0, 5)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(1, 0, 0, 5)0')" onMouseOut="hover('(1, 0, 0, 5)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(1, 0, 0, 5)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(1, 0, 0, 5)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be the SAME within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(1, 0, 0, 5)0')" onMouseOut="hover('(1, 0, 0, 5)0')" id="(1, 0, 0, 5)0" class="infoToggle" colspan="1">Version 001.001 </td></tr></tbody><tr>
+<td class="colLeft">PostScript Name<br>NID6 Mac (1, 0, 0, 6)</td>
+<td class="characterFontNames defaultFont"><button id="(1, 0, 0, 6)_btn" onclick='toggle_detail("(1, 0, 0, 6)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(1, 0, 0, 6)0')" onMouseOut="hover('(1, 0, 0, 6)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(1, 0, 0, 6)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(1, 0, 0, 6)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be DIFFERENT within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(1, 0, 0, 6)0')" onMouseOut="hover('(1, 0, 0, 6)0')" id="(1, 0, 0, 6)0" class="infoToggle" colspan="1">jsMath-cmsy10</td></tr></tbody><tr>
+<td class="colLeft">Copyright<br>NID0 MS (3, 1, 1033, 0)</td>
+<td class="characterFontNames defaultFont"><button id="(3, 1, 1033, 0)_btn" onclick='toggle_detail("(3, 1, 1033, 0)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(3, 1, 1033, 0)0')" onMouseOut="hover('(3, 1, 1033, 0)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(3, 1, 1033, 0)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(3, 1, 1033, 0)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be the SAME within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(3, 1, 1033, 0)0')" onMouseOut="hover('(3, 1, 1033, 0)0')" id="(3, 1, 1033, 0)0" class="infoToggle" colspan="1">Generated from MetaFont bitmap by mftrace 1.0.33, http://www.cs.uu.nl/~hanwen/mftrace/ </td></tr></tbody><tr>
+<td class="colLeft">Family Name<br>NID1 MS (3, 1, 1033, 1)</td>
+<td class="characterFontNames defaultFont"><button id="(3, 1, 1033, 1)_btn" onclick='toggle_detail("(3, 1, 1033, 1)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(3, 1, 1033, 1)0')" onMouseOut="hover('(3, 1, 1033, 1)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(3, 1, 1033, 1)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(3, 1, 1033, 1)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID 1 and 2 together should be unique within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(3, 1, 1033, 1)0')" onMouseOut="hover('(3, 1, 1033, 1)0')" id="(3, 1, 1033, 1)0" class="infoToggle" colspan="1">NID1: 'jsMath-cmsy10' + NID2: 'cmsy10'</td></tr></tbody><tr>
+<td class="colLeft">Subfamily Name<br>NID2 MS (3, 1, 1033, 2)</td>
+<td class="characterFontNames defaultFont"><button id="(3, 1, 1033, 2)_btn" onclick='toggle_detail("(3, 1, 1033, 2)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(3, 1, 1033, 2)0')" onMouseOut="hover('(3, 1, 1033, 2)0')" class="character defaultFont error" title="jsMath-cmsy10" data-original-title="(3, 1, 1033, 2)">&#10005</td>
+
+        </tr>
+        </thead>
+        <tbody id="(3, 1, 1033, 2)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be 'Regular', 'Italic', 'Bold' or 'Bold Italic'.</td><tr class="error" title="jsMath-cmsy10"><td onMouseOver="hover('(3, 1, 1033, 2)0')" onMouseOut="hover('(3, 1, 1033, 2)0')" id="(3, 1, 1033, 2)0" class="infoToggle" colspan="1">cmsy10</td></tr></tbody><tr>
+<td class="colLeft">Unique Font ID<br>NID3 MS (3, 1, 1033, 3)</td>
+<td class="characterFontNames defaultFont"><button id="(3, 1, 1033, 3)_btn" onclick='toggle_detail("(3, 1, 1033, 3)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(3, 1, 1033, 3)0')" onMouseOut="hover('(3, 1, 1033, 3)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(3, 1, 1033, 3)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(3, 1, 1033, 3)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be DIFFERENT within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(3, 1, 1033, 3)0')" onMouseOut="hover('(3, 1, 1033, 3)0')" id="(3, 1, 1033, 3)0" class="infoToggle" colspan="1">FontForge 1.0 : jsMath-cmsy10 : 12-12-2005</td></tr></tbody><tr>
+<td class="colLeft">Full Name<br>NID4 MS (3, 1, 1033, 4)</td>
+<td class="characterFontNames defaultFont"><button id="(3, 1, 1033, 4)_btn" onclick='toggle_detail("(3, 1, 1033, 4)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(3, 1, 1033, 4)0')" onMouseOut="hover('(3, 1, 1033, 4)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(3, 1, 1033, 4)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(3, 1, 1033, 4)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be DIFFERENT within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(3, 1, 1033, 4)0')" onMouseOut="hover('(3, 1, 1033, 4)0')" id="(3, 1, 1033, 4)0" class="infoToggle" colspan="1">jsMath-cmsy10</td></tr></tbody><tr>
+<td class="colLeft">Version String<br>NID5 MS (3, 1, 1033, 5)</td>
+<td class="characterFontNames defaultFont"><button id="(3, 1, 1033, 5)_btn" onclick='toggle_detail("(3, 1, 1033, 5)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(3, 1, 1033, 5)0')" onMouseOut="hover('(3, 1, 1033, 5)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(3, 1, 1033, 5)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(3, 1, 1033, 5)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be the SAME within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(3, 1, 1033, 5)0')" onMouseOut="hover('(3, 1, 1033, 5)0')" id="(3, 1, 1033, 5)0" class="infoToggle" colspan="1">Version 001.001 </td></tr></tbody><tr>
+<td class="colLeft">PostScript Name<br>NID6 MS (3, 1, 1033, 6)</td>
+<td class="characterFontNames defaultFont"><button id="(3, 1, 1033, 6)_btn" onclick='toggle_detail("(3, 1, 1033, 6)");' title="Toggle details">&#x25bc;</button></td><td onMouseOver="hover('(3, 1, 1033, 6)0')" onMouseOut="hover('(3, 1, 1033, 6)0')" class="character defaultFont " title="jsMath-cmsy10" data-original-title="(3, 1, 1033, 6)">&#8226</td>
+
+        </tr>
+        </thead>
+        <tbody id="(3, 1, 1033, 6)" style="display: none;">
+        <td class="colLeftToggle" rowspan="2">NID entry should be DIFFERENT within the family.</td><tr class="" title="jsMath-cmsy10"><td onMouseOver="hover('(3, 1, 1033, 6)0')" onMouseOut="hover('(3, 1, 1033, 6)0')" id="(3, 1, 1033, 6)0" class="infoToggle" colspan="1">jsMath-cmsy10</td></tr></tbody>
+		</table>
+
+
+            
+
+            
+
+        <!-- big text on black backround -->
+            
+
+            
+
+            
+
+            
+		<hr>
+		<table id="splitterContent">
+<tr>
+<td class="colLeft">SPACE<br>uni0020</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0020', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0020">&#x0020</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0020', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0020">&#x0020</td>
+</tr>
+<tr>
+<td class="colLeft">EXCLAMATION MARK<br>uni0021</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0021', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0021">&#x0021</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0021', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0021">&#x0021</td>
+</tr>
+<tr>
+<td class="colLeft">QUOTATION MARK<br>uni0022</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0022', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0022">&#x0022</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0022', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0022">&#x0022</td>
+</tr>
+<tr>
+<td class="colLeft">NUMBER SIGN<br>uni0023</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0023', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0023">&#x0023</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0023', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0023">&#x0023</td>
+</tr>
+<tr>
+<td class="colLeft">DOLLAR SIGN<br>uni0024</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0024', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0024">&#x0024</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0024', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0024">&#x0024</td>
+</tr>
+<tr>
+<td class="colLeft">PERCENT SIGN<br>uni0025</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0025', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0025">&#x0025</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0025', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0025">&#x0025</td>
+</tr>
+<tr>
+<td class="colLeft">AMPERSAND<br>uni0026</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0026', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0026">&#x0026</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0026', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0026">&#x0026</td>
+</tr>
+<tr>
+<td class="colLeft">APOSTROPHE<br>uni0027</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0027', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0027">&#x0027</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0027', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0027">&#x0027</td>
+</tr>
+<tr>
+<td class="colLeft">LEFT PARENTHESIS<br>uni0028</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0028', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0028">&#x0028</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0028', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0028">&#x0028</td>
+</tr>
+<tr>
+<td class="colLeft">RIGHT PARENTHESIS<br>uni0029</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0029', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0029">&#x0029</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0029', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0029">&#x0029</td>
+</tr>
+<tr>
+<td class="colLeft">ASTERISK<br>uni002A</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x002a', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni002a">&#x002a</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x002a', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni002a">&#x002a</td>
+</tr>
+<tr>
+<td class="colLeft">PLUS SIGN<br>uni002B</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x002b', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni002b">&#x002b</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x002b', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni002b">&#x002b</td>
+</tr>
+<tr>
+<td class="colLeft">COMMA<br>uni002C</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x002c', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni002c">&#x002c</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x002c', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni002c">&#x002c</td>
+</tr>
+<tr>
+<td class="colLeft">HYPHEN-MINUS<br>uni002D</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x002d', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni002d">&#x002d</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x002d', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni002d">&#x002d</td>
+</tr>
+<tr>
+<td class="colLeft">FULL STOP<br>uni002E</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x002e', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni002e">&#x002e</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x002e', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni002e">&#x002e</td>
+</tr>
+<tr>
+<td class="colLeft">SOLIDUS<br>uni002F</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x002f', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni002f">&#x002f</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x002f', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni002f">&#x002f</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT ZERO<br>uni0030</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0030', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0030">&#x0030</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0030', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0030">&#x0030</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT ONE<br>uni0031</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0031', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0031">&#x0031</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0031', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0031">&#x0031</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT TWO<br>uni0032</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0032', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0032">&#x0032</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0032', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0032">&#x0032</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT THREE<br>uni0033</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0033', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0033">&#x0033</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0033', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0033">&#x0033</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT FOUR<br>uni0034</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0034', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0034">&#x0034</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0034', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0034">&#x0034</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT FIVE<br>uni0035</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0035', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0035">&#x0035</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0035', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0035">&#x0035</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT SIX<br>uni0036</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0036', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0036">&#x0036</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0036', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0036">&#x0036</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT SEVEN<br>uni0037</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0037', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0037">&#x0037</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0037', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0037">&#x0037</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT EIGHT<br>uni0038</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0038', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0038">&#x0038</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0038', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0038">&#x0038</td>
+</tr>
+<tr>
+<td class="colLeft">DIGIT NINE<br>uni0039</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0039', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0039">&#x0039</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0039', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0039">&#x0039</td>
+</tr>
+<tr>
+<td class="colLeft">COLON<br>uni003A</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x003a', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni003a">&#x003a</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x003a', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni003a">&#x003a</td>
+</tr>
+<tr>
+<td class="colLeft">SEMICOLON<br>uni003B</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x003b', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni003b">&#x003b</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x003b', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni003b">&#x003b</td>
+</tr>
+<tr>
+<td class="colLeft">LESS-THAN SIGN<br>uni003C</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x003c', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni003c">&#x003c</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x003c', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni003c">&#x003c</td>
+</tr>
+<tr>
+<td class="colLeft">EQUALS SIGN<br>uni003D</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x003d', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni003d">&#x003d</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x003d', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni003d">&#x003d</td>
+</tr>
+<tr>
+<td class="colLeft">GREATER-THAN SIGN<br>uni003E</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x003e', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni003e">&#x003e</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x003e', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni003e">&#x003e</td>
+</tr>
+<tr>
+<td class="colLeft">QUESTION MARK<br>uni003F</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x003f', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni003f">&#x003f</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x003f', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni003f">&#x003f</td>
+</tr>
+<tr>
+<td class="colLeft">COMMERCIAL AT<br>uni0040</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0040', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0040">&#x0040</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0040', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0040">&#x0040</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER A<br>uni0041</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0041', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0041">&#x0041</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0041', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0041">&#x0041</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER B<br>uni0042</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0042', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0042">&#x0042</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0042', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0042">&#x0042</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER C<br>uni0043</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0043', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0043">&#x0043</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0043', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0043">&#x0043</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER D<br>uni0044</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0044', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0044">&#x0044</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0044', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0044">&#x0044</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER E<br>uni0045</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0045', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0045">&#x0045</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0045', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0045">&#x0045</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER F<br>uni0046</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0046', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0046">&#x0046</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0046', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0046">&#x0046</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER G<br>uni0047</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0047', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0047">&#x0047</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0047', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0047">&#x0047</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER H<br>uni0048</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0048', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0048">&#x0048</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0048', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0048">&#x0048</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER I<br>uni0049</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0049', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0049">&#x0049</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0049', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0049">&#x0049</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER J<br>uni004A</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x004a', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni004a">&#x004a</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x004a', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni004a">&#x004a</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER K<br>uni004B</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x004b', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni004b">&#x004b</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x004b', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni004b">&#x004b</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER L<br>uni004C</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x004c', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni004c">&#x004c</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x004c', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni004c">&#x004c</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER M<br>uni004D</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x004d', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni004d">&#x004d</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x004d', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni004d">&#x004d</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER N<br>uni004E</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x004e', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni004e">&#x004e</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x004e', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni004e">&#x004e</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER O<br>uni004F</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x004f', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni004f">&#x004f</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x004f', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni004f">&#x004f</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER P<br>uni0050</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0050', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0050">&#x0050</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0050', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0050">&#x0050</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER Q<br>uni0051</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0051', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0051">&#x0051</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0051', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0051">&#x0051</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER R<br>uni0052</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0052', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0052">&#x0052</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0052', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0052">&#x0052</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER S<br>uni0053</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0053', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0053">&#x0053</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0053', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0053">&#x0053</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER T<br>uni0054</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0054', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0054">&#x0054</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0054', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0054">&#x0054</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER U<br>uni0055</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0055', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0055">&#x0055</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0055', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0055">&#x0055</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER V<br>uni0056</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0056', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0056">&#x0056</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0056', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0056">&#x0056</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER W<br>uni0057</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0057', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0057">&#x0057</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0057', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0057">&#x0057</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER X<br>uni0058</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0058', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0058">&#x0058</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0058', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0058">&#x0058</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER Y<br>uni0059</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0059', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0059">&#x0059</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0059', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0059">&#x0059</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER Z<br>uni005A</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x005a', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni005a">&#x005a</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x005a', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni005a">&#x005a</td>
+</tr>
+<tr>
+<td class="colLeft">LEFT SQUARE BRACKET<br>uni005B</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x005b', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni005b">&#x005b</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x005b', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni005b">&#x005b</td>
+</tr>
+<tr>
+<td class="colLeft">REVERSE SOLIDUS<br>uni005C</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x005c', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni005c">&#x005c</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x005c', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni005c">&#x005c</td>
+</tr>
+<tr>
+<td class="colLeft">RIGHT SQUARE BRACKET<br>uni005D</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x005d', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni005d">&#x005d</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x005d', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni005d">&#x005d</td>
+</tr>
+<tr>
+<td class="colLeft">CIRCUMFLEX ACCENT<br>uni005E</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x005e', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni005e">&#x005e</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x005e', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni005e">&#x005e</td>
+</tr>
+<tr>
+<td class="colLeft">LOW LINE<br>uni005F</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x005f', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni005f">&#x005f</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x005f', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni005f">&#x005f</td>
+</tr>
+<tr>
+<td class="colLeft">GRAVE ACCENT<br>uni0060</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0060', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0060">&#x0060</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0060', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0060">&#x0060</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER A<br>uni0061</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0061', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0061">&#x0061</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0061', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0061">&#x0061</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER B<br>uni0062</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0062', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0062">&#x0062</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0062', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0062">&#x0062</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER C<br>uni0063</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0063', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0063">&#x0063</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0063', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0063">&#x0063</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER D<br>uni0064</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0064', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0064">&#x0064</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0064', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0064">&#x0064</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER E<br>uni0065</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0065', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0065">&#x0065</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0065', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0065">&#x0065</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER F<br>uni0066</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0066', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0066">&#x0066</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0066', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0066">&#x0066</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER G<br>uni0067</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0067', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0067">&#x0067</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0067', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0067">&#x0067</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER H<br>uni0068</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0068', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0068">&#x0068</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0068', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0068">&#x0068</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER I<br>uni0069</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0069', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0069">&#x0069</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0069', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0069">&#x0069</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER J<br>uni006A</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x006a', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni006a">&#x006a</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x006a', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni006a">&#x006a</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER K<br>uni006B</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x006b', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni006b">&#x006b</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x006b', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni006b">&#x006b</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER L<br>uni006C</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x006c', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni006c">&#x006c</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x006c', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni006c">&#x006c</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER M<br>uni006D</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x006d', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni006d">&#x006d</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x006d', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni006d">&#x006d</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER N<br>uni006E</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x006e', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni006e">&#x006e</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x006e', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni006e">&#x006e</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER O<br>uni006F</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x006f', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni006f">&#x006f</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x006f', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni006f">&#x006f</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER P<br>uni0070</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0070', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0070">&#x0070</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0070', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0070">&#x0070</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER Q<br>uni0071</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0071', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0071">&#x0071</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0071', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0071">&#x0071</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER R<br>uni0072</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0072', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0072">&#x0072</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0072', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0072">&#x0072</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER S<br>uni0073</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0073', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0073">&#x0073</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0073', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0073">&#x0073</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER T<br>uni0074</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0074', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0074">&#x0074</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0074', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0074">&#x0074</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER U<br>uni0075</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0075', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0075">&#x0075</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0075', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0075">&#x0075</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER V<br>uni0076</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0076', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0076">&#x0076</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0076', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0076">&#x0076</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER W<br>uni0077</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0077', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0077">&#x0077</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0077', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0077">&#x0077</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER X<br>uni0078</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0078', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0078">&#x0078</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0078', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0078">&#x0078</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER Y<br>uni0079</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0079', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni0079">&#x0079</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x0079', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni0079">&#x0079</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER Z<br>uni007A</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x007a', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni007a">&#x007a</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x007a', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni007a">&#x007a</td>
+</tr>
+<tr>
+<td class="colLeft">LEFT CURLY BRACKET<br>uni007B</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x007b', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni007b">&#x007b</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x007b', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni007b">&#x007b</td>
+</tr>
+<tr>
+<td class="colLeft">VERTICAL LINE<br>uni007C</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x007c', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni007c">&#x007c</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x007c', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni007c">&#x007c</td>
+</tr>
+<tr>
+<td class="colLeft">RIGHT CURLY BRACKET<br>uni007D</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x007d', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni007d">&#x007d</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x007d', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni007d">&#x007d</td>
+</tr>
+<tr>
+<td class="colLeft">TILDE<br>uni007E</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x007e', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni007e">&#x007e</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x007e', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni007e">&#x007e</td>
+</tr>
+<tr>
+<td class="colLeft">DEGREE SIGN<br>uni00B0</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00b0', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00b0">&#x00b0</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00b0', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00b0">&#x00b0</td>
+</tr>
+<tr>
+<td class="colLeft">MICRO SIGN<br>uni00B5</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00b5', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00b5">&#x00b5</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00b5', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00b5">&#x00b5</td>
+</tr>
+<tr>
+<td class="colLeft">PILCROW SIGN<br>uni00B6</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00b6', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00b6">&#x00b6</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00b6', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00b6">&#x00b6</td>
+</tr>
+<tr>
+<td class="colLeft">MIDDLE DOT<br>uni00B7</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00b7', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00b7">&#x00b7</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00b7', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00b7">&#x00b7</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER A WITH GRAVE<br>uni00C0</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c0', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c0">&#x00c0</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c0', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c0">&#x00c0</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER A WITH ACUTE<br>uni00C1</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c1', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c1">&#x00c1</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c1', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c1">&#x00c1</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER A WITH CIRCUMFLEX<br>uni00C2</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c2', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c2">&#x00c2</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c2', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c2">&#x00c2</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER A WITH TILDE<br>uni00C3</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c3', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c3">&#x00c3</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c3', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c3">&#x00c3</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER A WITH DIAERESIS<br>uni00C4</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c4', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c4">&#x00c4</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c4', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c4">&#x00c4</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER A WITH RING ABOVE<br>uni00C5</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c5', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c5">&#x00c5</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c5', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c5">&#x00c5</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER AE<br>uni00C6</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c6', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c6">&#x00c6</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c6', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c6">&#x00c6</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER C WITH CEDILLA<br>uni00C7</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c7', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c7">&#x00c7</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c7', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c7">&#x00c7</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER E WITH GRAVE<br>uni00C8</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c8', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c8">&#x00c8</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c8', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c8">&#x00c8</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER E WITH ACUTE<br>uni00C9</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00c9', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00c9">&#x00c9</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00c9', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00c9">&#x00c9</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER E WITH CIRCUMFLEX<br>uni00CA</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00ca', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00ca">&#x00ca</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00ca', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00ca">&#x00ca</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER E WITH DIAERESIS<br>uni00CB</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00cb', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00cb">&#x00cb</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00cb', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00cb">&#x00cb</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER I WITH GRAVE<br>uni00CC</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00cc', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00cc">&#x00cc</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00cc', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00cc">&#x00cc</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER I WITH ACUTE<br>uni00CD</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00cd', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00cd">&#x00cd</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00cd', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00cd">&#x00cd</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER I WITH CIRCUMFLEX<br>uni00CE</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00ce', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00ce">&#x00ce</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00ce', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00ce">&#x00ce</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER I WITH DIAERESIS<br>uni00CF</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00cf', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00cf">&#x00cf</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00cf', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00cf">&#x00cf</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER N WITH TILDE<br>uni00D1</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00d1', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00d1">&#x00d1</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00d1', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00d1">&#x00d1</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER O WITH GRAVE<br>uni00D2</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00d2', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00d2">&#x00d2</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00d2', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00d2">&#x00d2</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER O WITH ACUTE<br>uni00D3</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00d3', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00d3">&#x00d3</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00d3', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00d3">&#x00d3</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER O WITH CIRCUMFLEX<br>uni00D4</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00d4', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00d4">&#x00d4</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00d4', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00d4">&#x00d4</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER O WITH TILDE<br>uni00D5</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00d5', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00d5">&#x00d5</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00d5', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00d5">&#x00d5</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER O WITH DIAERESIS<br>uni00D6</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00d6', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00d6">&#x00d6</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00d6', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00d6">&#x00d6</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER O WITH STROKE<br>uni00D8</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00d8', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00d8">&#x00d8</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00d8', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00d8">&#x00d8</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER U WITH GRAVE<br>uni00D9</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00d9', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00d9">&#x00d9</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00d9', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00d9">&#x00d9</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER U WITH ACUTE<br>uni00DA</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00da', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00da">&#x00da</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00da', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00da">&#x00da</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER U WITH CIRCUMFLEX<br>uni00DB</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00db', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00db">&#x00db</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00db', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00db">&#x00db</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN CAPITAL LETTER U WITH DIAERESIS<br>uni00DC</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00dc', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00dc">&#x00dc</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00dc', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00dc">&#x00dc</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER SHARP S<br>uni00DF</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00df', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00df">&#x00df</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00df', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00df">&#x00df</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER I WITH DIAERESIS<br>uni00EF</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00ef', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00ef">&#x00ef</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00ef', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00ef">&#x00ef</td>
+</tr>
+<tr>
+<td class="colLeft">LATIN SMALL LETTER Y WITH DIAERESIS<br>uni00FF</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x00ff', ['defaultFont'])" onmouseup="mUp()" title="defaultFont" data-original-title="uni00ff">&#x00ff</td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('&#x00ff', ['om_jsMathcmsy10ttf'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="uni00ff">&#x00ff</td>
+</tr>
+
+		</table>
+
+
+            
+		<hr>
+		<table id="splitterContent_unencoded">
+<tr>
+<td class="colLeft"><br></td>
+<td class="character defaultFont info" onmousedown="mDown('', ['defaultFont', 'info'])" onmouseup="mUp()" title="defaultFont" data-original-title=" "></td>
+<td class="character om_jsMathcmsy10ttf " onmousedown="mDown('', ['om_jsMathcmsy10ttf', ''])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title=" "></td>
+</tr>
+<tr>
+<td class="colLeft">NULL<br>Cannot display because feature tag is missing in name.</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0000', ['defaultFont', 'info'])" onmouseup="mUp()" title="defaultFont" data-original-title="NULL Cannot display because feature tag is missing in name.">&#x0000</td>
+<td class="character om_jsMathcmsy10ttf warning" onmousedown="mDown('&#x0000', ['om_jsMathcmsy10ttf', 'warning'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="NULL Cannot display because feature tag is missing in name.">&#x0000</td>
+</tr>
+<tr>
+<td class="colLeft">nonmarkingreturn<br>Cannot display because feature tag is missing in name.</td>
+<td class="character defaultFont info" onmousedown="mDown('&#x0000', ['defaultFont', 'info'])" onmouseup="mUp()" title="defaultFont" data-original-title="nonmarkingreturn Cannot display because feature tag is missing in name.">&#x0000</td>
+<td class="character om_jsMathcmsy10ttf warning" onmousedown="mDown('&#x0000', ['om_jsMathcmsy10ttf', 'warning'])" onmouseup="mUp()" title="jsMath-cmsy10" data-original-title="nonmarkingreturn Cannot display because feature tag is missing in name.">&#x0000</td>
+</tr>
+
+		</table>
+
+
+
+    </div>
+    </div>
+
+
+    <script type="text/javascript">
+
+    //var elementCustomerPreview = document.getElementById("cssCodeForCustomerPreview");
+    //console.log('element.height: ', elementCustomerPreview.offsetHeight)
+    //$('.containerMain').css("top", '-' + elementCustomerPreview.offsetHeight + 'px')
+
+    var elementCustomerPreview = document.getElementById("containerMainID");
+    console.log('element.height: ', elementCustomerPreview.offsetHeight)
+    $('.containerCSScode').css("height", elementCustomerPreview.offsetHeight -200 + 'px')
+
+    var elementHeader = document.getElementById('otFeature');
+    console.log('element.height: ', elementHeader.offsetHeight)
+    divHeight = elementHeader.offsetHeight - 50
+    $('.header').css("top", '-' + divHeight + 'px')
+
+    //document.getElementById("varFont").style.color = "blue";
+
+    $('.sampleContent').on('blur keyup paste input', function() {$(".sampleContent").not(this).html($(this).html());});
+
+    
+    $('#slider').on('change',function(){
+    var val = $(this).val();
+    $(".om_jsMathcmsy10ttf").css("font-size",(val+"em"));
+    $(".colLeft").css("width",(50 - (val*2)) +"%");
+    });
+
+    
+
+    function toggle_detail(my_id){
+        var element = document.getElementById(my_id)
+        //var buttoncell = document.getElementById(my_id+"_cell")
+        var button = document.getElementById(my_id+"_btn")
+        if (element.style.display != 'none') {
+          element.style.display = 'none'; //$("#" + my_id).slideUp(); smooth in/out does not work currently
+          button.innerHTML = '▼';
+        } else {
+          element.style.display = ''; //$("#" + my_id).slideDown(); smooth in/out does not work currently
+          button.innerHTML = '▲';
+        }
+    }
+
+    function showhide_div(my_id, buttomName){
+        var element = document.getElementById(my_id)
+        //var buttoncell = document.getElementById(my_id+"_cell")
+        var button = document.getElementById(my_id+"_btn")
+        if (element.style.opacity != '0') {
+          element.style.opacity = '0'; 
+          setTimeout(function () {
+            element.style.zIndex = '-1';
+            }, 1000);
+          button.innerHTML = 'show ' + buttomName;
+        } else {
+          element.style.opacity = '1';
+          element.style.zIndex = '998';
+          button.innerHTML = 'hide ' + buttomName;
+        }
+    }
+
+    function hover(my_id){
+        var element = document.getElementById(my_id)
+        if (element.style.background != '') {
+          element.style.background = '';
+          element.style.color = ''; 
+        } else {
+          element.style.background = '#B3D4FC';
+          element.style.color = 'black'; 
+        }
+    }
+
+    var HTMLCodeCompareBoxes = '1234567890 xozszn HOZD 1/3 @ 1a ;#& ? % $ € ! In August of 2016, four unlikely collaborators in the world of type, fonts and font technology stood on a stage at the ATypI conference in Warsaw, Poland. The collaborators were Apple, Microsoft, Adobe and Google. Together they announced the publishing of OpenType 1.8, an update to the now ubiquitous font standard which was originally an amalgam of Apple & Microsoft’s TrueType, and Adobe’s PostScript font formats. The OpenType 1.8 announcement, ATypI, Warsaw, Poland, September 14, 2016.'
+    var fontWeightsDict = {'jsMath-cmsy10 (ttf)':'om_jsMathcmsy10ttf'};
+
+    var sampleTexts = {'All Unicodes': '  ! " # $ % & \' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \\ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ ° µ ¶ · À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü ß ï ÿ', 'Default Sample': '1234567890 xozszn HOZD 1/3 @ 1a ;#& ? % $ € ! In August of 2016, four unlikely collaborators in the world of type, fonts and font technology stood on a stage at the ATypI conference in Warsaw, Poland. The collaborators were Apple, Microsoft, Adobe and Google. Together they announced the publishing of OpenType 1.8, an update to the now ubiquitous font standard which was originally an amalgam of Apple & Microsoft’s TrueType, and Adobe’s PostScript font formats. The OpenType 1.8 announcement, ATypI, Warsaw, Poland, September 14, 2016.', 'Feature Frac': '1 0/1<br>2 2/3<br>3 4/5<br>4 6/7<br>5 8/9<br>6 9/8<br>7 7/6<br>8 5/4<br>9 3/2<br>0 1/0<br>1234567890/9876543210<br><br>', 'MILE basicforms proof': 'E F H I J L T U<br>A V W X Z<br>K M N Y<br>C O Q S<br>B P R D G<br><br>f i j l t r<br>k v w x y z<br>h m n u<br>c e o g s<br>a b d p q', 'MILE rhythm proof': "Aaron Abridge Achieve Adulation Aerate Afoul Agree Ahoy Aida Ajai Akron Alight Ampere Android Aorta Aphid Aqua Army Ashen Atlas Audubon Avian Awful Axes Ayudar Azure Bank Bbozky Bcekklo Bdiscula Berm Bfryula Bgesklisch Bhopal Bindi Bjork Bkiite Blumen Bmorn Bnath Bond Brisk Bseiidt Btonn Buds Bwana Bxarx Byblos Bzdet Candi Cbarra Ccrush Cdisclu Cells Cfarsch Cgeur Chula Cinder Cjaonono Ckernth Climate Cmorm Cnesyza Cord Cprbuith Cqobn Cruel Cstemna Ctho Cujo Cvalda Cwoq Cxovbil Cymbal Czech Dahlia Dbintu Dcoltory Ddrnon Dents Dfunzi Dguner Dharma Diode Djuna Dkqirm Dlancia Dmarkone Dnieper Dough Dpilezon Dqorinon Drink Dsliveon Dthoniber Dull Dvorak Dweeb Dxonoyer Dyan Dzonopede Ears Ebens Ecology Educate Eerie Effect Egregious Ehrlich Eider Eject Ekta Elfin Empire Enlist Eohippus Epoxy Equine Erskine Espy Ethics Eulogy Evils Ewe Exit Eyrie Ezekiel Fa'dfbinder Fbuonons Fcij Fduqub Fenster Ffortis Fguno Fhwiloo Fine Fjord Fkoster Flight Fmisiti Fnyliz Ford Fponia Fquar Frump Fstubov Ftujik Funky Fvyikki Fweibnntg Fxeidgjg Fyona Fzbnee Gangsta Gbtyullia Gcbuvic Gdxizru Gershwin Gfdkiecn Ggcield Gherkin Gin Gjcie Gkcopex Glide Gmcoiq Gnosis Gouge Gpciielc Gqyeici Grey Gsciece Gtepep Guerlain Gvbecpi Gwar Gxeoim Gyrate Gzagg Hands Hbciewkc Hccqxx Hdewe Help Hford Hgewox Hhqcoe Hills Hjalmar Hkruieoc Hlertl Hmyneth Hnoru House Hpolty Hqurty Hrono Hshei Htwop Hubris Hvolti Hwang Hxorxes Hydra Hzipide Iambic Ibiza Iced Idle Ienta Ifighenia Igloo Ihop Iigeria Ijiston Ikarus Ilene Import Indigo Iola Ipomoea Iquine Irie Isthmus Italy Iurie Ivies Iwoster Ixia Iyester Izabel Janitor Jbuster Jcunio Jdyla Jeudi Jfina Jgust Jhane Jingle Jjiki Jkora Jlixy Jmeniaco Jntyru John Jpiti Jqavi Jroan Jsivirt Jtin June Jvorik Jwilcit Jxibryuo Jyaster Jzunbl Kaplow Kbuli Kceoxl Kdwocturi Kestrel Kfuldl Kgram Khaki Kilt Kjust Kkaviv Klepto Kmitria Knock Kouris Kpuskhin Kqua Krispy Ksunis Ktorkai Kukla Kvetch Kwai Kx Kxixli Kyolic Kzoeicl Lahoma Lbicurl Lcquinm Ldoa Lender Lfcoile Lgcieruf Lhasa Liatris Ljusjcl Lkwia Llama Lmoarl Lncosia Loud Lpate Lquien Lrabi Lsortia Ltony Lumpia Lvin Lwin Lxos Lyres Lzork Maker Mbabane McDermand Mderni Median Mfalca Mgram Mhaoit Miette Mjnash Mkinos Mlaria Mmmgood Mneri Mouse Mpilis Mquesi Mr Msuhl Mtherl Mufti Mvacua Mwhers Mxenia Mycology Mzulia Nadine Nbewel Ncortha Ndoslis Neuland Nfdoc Nguyen Nhytul Nine Njeus Nkurd Nlumsther Nmantkh Nneld Nomad Nputer Nqueld Nronsta Nsdoc Nteedr Nuance Nvelsy Nwesther Nxdeudl Nylon Nziend Oaken Object Occident Odilon Oedipal Often Ogee Ohio Oily Ojai Okie Olmo Omniscient Onoethera Oona Opulent Oquois Orestes Oslo Othello Ours Ovid Owls Oxen Oyl Ozbert Paint Pbaster Pculd Pdudl Pelts Pfizer Pguudle Phineas Pinks Pjaster Pkder Plum Pmasy Pneumatic Pork Ppseudl Pqod Prizes Psych Pterodactyl Punch Pvidl Pwaslx Pxod Pyrite Pzedrdk Qabala Qeshun Qian Quiet Qran Raheem Rbudnik Rcuntij Rdolp Refuse Rfulle Rguj Rhizome Ridden Rjana Rkyll Rldla Rmquporth Rnit Rolling Rpug Rqudl Rrrumph Rsudn Rtuni Ruven Rvesi Rwanda Rxelij Rye Rzeddk Sarge Sbarro Sclerotic Sd Sedition Sfartha Sgund Shout Silage Sjunner Skull Slippage Smite Sneer Sombre Splendor Squat Sreik String Surety Svetlana Swipe Sxerxe Sybase Szilard Tadzio Tbura Tchaikovsky Tdulle Teuchrium Tflor Tgunn Thrift Tilden Tjexxi Tkasth Tlondke Tmesh Tnzid Topsoil Tperna Tquesis Trams Tsarina Ttoluy Tuaca Tvestiun Twine Txoll Tyrol Tzar Uagua Ubangi Uchean Ucuuba Udder Uertia Uffala Ugly Uhlan Uigur Ujifly Ukelele Ulna Umbel Unkind Uovia Uplift Uqua Urning Usher Utrillo Uurai Uvula Uwe Uxoria Uyeisl Uzi Vanquish Vbomb Vct.Vday Velvet Vhui Vintner Vladimir Vmail Vnestiz Vole Vparticle Vquan Vraiment Vshaped Vtype Vuarnet Vying Vzertia Wake Wboard Wchromosome Wdt. Website Wfin Wgt. Whistle Windy Wladimir Wmkd. Wng. Words Wright Wshaped Wthr. Wunder Wveierl Wwaczy Wxerti Wynona Wzappth Xandria Xbody Xcite Xdisease Xenon Xhosa Xiang Xmas Xnty. Xosa Xylem Xzortia Yang Ybox Yciar Ydg. Yelp Yfere Ygriega Yhaiera Yiddish Yjaont Ykrki Ylem Yma Ynez Your Ypsilanti Yquestria Yreka Yshaped Yttrium Yuban Yvette Yworm Yxonni Yyersa Yzaorta Zandor Zchrome Zdarsky Zelda Zfrequa Zgolic Zhang Zing Zoloft Zpulse Zquaria Zrastian Zsa-Zsa Ztwist Zurich Zveder Zwinger Zxond Zymotic Zzzzzz<br><br>BAZAAR ATABLE BACON HADDOCK PAEAN DEAFEN ANAGRAM TEAHOUSE ASSAIL MAJESTY BAKU SALOON CAMBER HAND AO RAOUL TYPOGRAPHY OPAQUE APPARENT FASCISM ATAVISM TRAUMA AVARICE AWARE MAXIM MAYAN ABLAZE ALBACORE CLOBBER BABCOCK ABDOMEN ASBESTOS RIBFLASH SNABGORE CLUBHOUSE FORBIDDEN SUBJUNCTIVE BOBKI BIBLE SUBMERGE OBNOXIOUS SYMBOL BOMBPROOF SUBQUESTION SAGEBRUSH ABSTRACT OBTAIN SUBURB OBVIATE BARBWIRE ROBXER GOODBYE SUBZONE VATICAN LUCBAN BROCCOLI ANECDOTE INCEST PANICFUL MCGRAW ARCHAIC VACCINE WOCJOR BACKPACK ECLAIRE ALCMINA PICNIC APRICOT ECPHORE ACQUIESCE SCRIPT FACSIMILE AUCTION CAUCUS SLACVM TRAFFICWAY YACXI HALCYON ECZEMA ADAPT ROADBLOCK HANDCUFF BUDDHIST ACADEMIC GODFREY EDGE BUDDHISM ARMADILLO ADJUNCT ADKINS BODLEIAN GRANDMA KIDNAP HADDOCK ENDPOINT HEADQUARTER ADDRESS GLADSTONE HARDTOP CONDUCT ADVENTURE BUDWEISER BLOODXRAY EURIDYCE REDZONE ASHMOLEAN BLUEBOOK CHEESECAKE BEDBUG FREEWAY LIQUEFY BEGUILE FIREHOUSE CEILING JEJUNE TEKTON BELFAST BLASPHEME BRENDA PEOPLE REPLY SEQUOIA NUMERIC BESTIAL NINETY OEUVRE MALEVOLENT CODEWORD TEXTURA ABEYANT SQUEEZE HALIFAX OFFBEAT FD FIEFDOM CONFESS AFFORD WOLFGANG CLIFFHANG BEATIFIC FJARDING WOLFKIN MAYFLOWER HOFFMAN HAFNIUM BEFOGGING OFFPRINT ROOFQUAD WINIFRED OFFSTAGE LEFTWARD CONFUCIAN FLUFFVILLE ELFWORT INFXOB FLUFFY ALEFZERO BRIGADE KINGBIRD FLAGCALL MAGDALENE ANGELFISH SIEGFRIED MAGGOT MIGHT ELIGIBLE LOGJAM BANGKOK BURGLAR SEGMENT COGNAC ANGORA EGGPLANT SOGQUEST CALLIGRAPHY EGGSHELL LENGTH BODYGUARD SPRINGVALE GAGWRITER TOGXENON STRINGY ZIGZAG CARTHAGE DASHBOARD WITCHCRAFT BIRTHDAY APARTHEID ARCHFOOL SWITCHGEAR WITHHOLD ANARCHIC BOHJOHN HEATHKIT SCHLOSS FRESHMEN SCHNAPPS BATHOS MOUTHPIECE EARTHQUAKE ARTHRITIS WITHSTAND ATA EIGHTIETH KETCHUP NASHVILLE LENGTHWISE FLOHXEX PHYSIC GRAPHZEN JOVIAL CARIBOU STICK GRIDIRON PIECE BIFOCAL NIGHT DIHEDRAL POMPEII DEMIJOHN NIKOLAI BRAILLE ANIMAL ANGLING VICIOUS UNIPOLAR PIQUE AIRMAIL ARISE HOROWITZ CRANIUM ALIVE TAIWAN QUIXOTE RIYADH SCHIZOID TROJAN RUJBUB IJCAT WIJDIG MAJESTY COJFAT TOYJGERN NOJHATSLIMJIM ROJJI TIJKING OJLON YUJMI GEJNIX SOJOURN YIJPUN ZIJQUO BOJRON TAJSIS VUJTIT ADJUST IJVIN AJWOL UJXEN OJYLLAN EJZOR OKAY BLACKBERRY BLACKCAT WEEKDAY JACKET ROCKFORD GINKGO BULKHEAD BOOKISH REYKJAVIK HANUKKAH FOLKLORE MUSKMELON DOORKNOB KNOCKOUT BREAKPOINT TASKQUEEN COCKROACH FOLKSONG NECKTIE SKUNK KVETCH MILKWEED CORKXENO VALKYRIE AKZIDENZ ALACRITY BALBOA CALCULUS OLDER TALENT HALFWAY BELGIAN DELHI ALIVE KILLJOYO BALKAN TROLLOP HELMET WALNUT ALLOW SCULPTOR ILQUA CHIVALROUS ALSO HEALTHY ALLUVIAL OVOLVO WHIRLWIND ELXO POLYPHONY DALZELL AMARANTH COLUMBO ARMCHAIR FILMDOM AMERICA COMFORT WORMGUT FARMHOUSE AMICABLE RUMJELLY YUMKY GREMLIN COMMON SOMNOLENT DEMOCRACY AMPHIBIAN BLOMQUIST PRIMROSE CRIMSON WARMTH EMULATE CIRCUMVENT TEAMWORK OMXI DEMYSTIFY MOMZA ANACONDA INBOARD BALANCE FLOUNDER ANEMONE DRAGONFLY AMONGST INHABIT BROWNIE INJUSTICE STINKY SUNLIT ENTERTAINMENT ANNOY CANOE PINPOINT INQUIRY GOLDENROD DIMENSION INTOXICATE GENUS CONVOKE UNWELL ANXIETY ANYWAY ZANZIBAR ROAD ADOBE SOCIETY FOODSTUFF DOSTEOEVSKY SOFTBALL ANALOGOUS JOHN DOING SOJOURN BOOKCASE GOLD ISOMORPH ON ADONIS BOOK AUTOPSY BAROQUE ANOREXIA MOSQUITO DICHOTOMY SHOULDER PROVOKE DOWN XEROXED SOYBEAN MESOZOIC SPACE CHIPBOARD STEPCHILD UPDATE EXPECT FLIPFLOP STOPGAP BLASPHEMY INSPIRE SKOPJE UPKEEP REPLY TOPMOST HYPNOSIS LEOPOLD APPOINT DIPQUEEN APRIL CORPSE KRYPTON CAMPUS RIPVANWINKLE SHOPWORN BLOOPXEROX SHIPYARD PLOPZY QANTAS QUYMAR QESHUN QINGDAO QOPH TURQUOISE CRANBERRY BARBECUE FORCE MURDER APPRECIATE FARFETCHED BOURGEOIS PERHAPS AFRICA PERJURE BERKSKIRE EARLY HERMIT GOVERNESS ARROGANT AMORPHOUS MARQUEE GUERRILLA BOTHERSOME SHORTCUT CRUST HARVEY FORWARD XERXES ACRYLICSCHERZO RANSACK HUSBAND VASCULAR EAVESDROP HORSEHAIR SATISFY GLASGOW WORKSHOP DESIST DISJUNCT CASKET ISLE CHARISMA FRESNO CASSOCK DESPITE MOSQUITO DISRUPT MESSIAH BACKSTOP PEGASUS LOUISVILLE GLASSWARE WASXERO PUSSYCAT LASZLO ANTAEUS HEARTBREAK KITCHEN NIGHTDRESS METEOR STRATFORD RUTGERS ETHEL ANTIQUE PITJOYO AITKEN TITLE NUTMEG FOOTNOTE STORM RUSTPROOF NOTQUEST ASTRONAUT ARTSY MUTTON STUBBLE LATVIA ANTWERP FLATXAXIS BOATYARD FITZROY HABITUAL BUBBLE SUCH JUDGE FLUENT STUFF BUGGY KUHN QUICK FUJI YUKON INDULGE CIRCUMVENT FLOUNCE FLUORIDE CUPID BOUQUET COURIER BUSY NUTMEG CONTINUUM SOUVENIR THRUWAY BUXOM NGUYEN OUZO INNOVATE PROVBEND LAVCARNE PRAVDA DIVEST HAVFIN DAVGOOD RAVHERE VIVID BOVJO SOVKHOZ PAVLOV STREVMA VUVNA PROVOKE SOVPRA VAVQUOD LIVRE DOSTOEVSKY MOVTA GUSTAVUS SAVVY ZOVWIG NOVXOD WAVYHAIRED BAVZING RENEWAL STRAWBERRY FLOWCHART POWDERY SWEET LAWFUL LAWGIVER KNOWHOW EARWIG SNOWJOB MAWKISH CRAWLER SAWMILL DOWNBEAT SWOOP SHOWPIECE DOWQUEG ARROWROOT NEWSCAST GROWTH SWUNG GOWVIL POWWOW IWXI SHADOWY FROWZY VEXATION ROXBURY OXCART EXDELICOTO EXECUTE SIXFOLD SIXGUN FOXHOLE EXILE EXJUNKIE EXKILLER AXLE EXMOOR OXNARD EXOTIC EXPECT EXQUISITE EXRADIUS EXSOLVE EXTORT SEXUAL EXVOTO MAXWELL EXXON OXYGEN EXZETETIC MAYAN MAYBE COPYCAT PAYDAY CAYENNE JOYFUL PYGMY PANTYHOSE TRYING SKYJACK DYKE TAYLOR GANYMEDE CYNIC BEYOND EGYPT NYQUIST BYRONIC MYSELF ANYTIME KITAKYUSHU STUYVESANT PLYWOOD ASPHYXIATE UYYEX SYZYGY LIZARD BEEZBUB BUZCO MAZDA SEIZED DUZFOGGLE ROZGAS TOZHAT DANZIG DIZJOE CAZKATA LASZLO BOLTZMANN BOZNO ZODIAC FITZPATRICK ZAZQUI EZRA NIETZSCHE AZTEC AZURE IZVESTIA BUZZWORD TIZXY ENZYME SWIZZLE<br><br>bazaar table bacon haddock paean deafen anagram teahouse assail majesty baku saloon camber hand ao raoul typography opaque apparent fascism atavism trauma avarice aware maxim mayan ablaze albacore clobber babcock abdomen asbestos ribflash snabgore clubhouse forbidden subjunctive bobki bible submerge obnoxious symbol bombproof subquestion sagebrush abstract obtain suburb obviate barbwire robxer goodbye subzone vatican lucban broccoli anecdote incest panicful mcgraw archaic vaccine wocjor backpack eclaire alcmina picnic apricot ecphore acquiesce script facsimile auction caucus slacvm trafficway yacxi halcyon eczema adapt roadblock handcuff buddhist academic godfrey edge buddhism armadillo adjunct adkins bodleian grandma kidnap haddock endpoint headquarter address gladstone hardtop conduct adventure budweiser bloodxray euridyce redzone ashmolean bluebook cheesecake bedbug freeway liquefy beguile firehouse ceiling jejune tekton belfast blaspheme brenda people reply sequoia numeric bestial ninety oeuvre malevolent codeword textura abeyant squeeze halifax offbeat fd fiefdom confess afford wolfgang cliffhang beatific fjarding wolfkin mayflower hoffman hafnium befogging offprint roofquad winifred offstage leftward confucian fluffville elfwort infxob fluffy alefzero brigade kingbird flagcall magdalene angelfish siegfried maggot might eligible logjam bangkok burglar segment cognac angora eggplant sogquest calligraphy eggshell length bodyguard springvale gagwriter togxenon stringy zigzag carthage dashboard witchcraft birthday apartheid archfool switchgear withhold anarchic bohjohn heathkit schloss freshmen schnapps bathos mouthpiece earthquake arthritis withstand eightieth ketchup nashville lengthwise flohxex physic graphzen jovial caribou stick gridiron piece bifocal night dihedral pompeii demijohn nikolai braille animal angling vicious unipolar pique airmail arise horowitz cranium alive taiwan quixote riyadh schizoid trojan rujbub ijcat wijdig majesty cojfat toyjgern nojhatslimjim rojji tijking ojlon yujmi gejnix sojourn yijpun zijquo bojron tajsis vujtit adjust ijvin ajwol ujxen ojyllan ejzor okay blackberry blackcat weekday jacket rockford ginkgo bulkhead bookish reykjavik hanukkah folklore muskmelon doorknob knockout breakpoint taskqueen cockroach folksong necktie skunk kvetch milkweed corkxeno valkyrie akzidenz alacrity balboa calculus older talent halfway belgian delhi alive killjoy balkan trollop helmet walnut allow sculptor ilqua chivalrous also healthy alluvial volvo whirlwind elxo polyphony dalzell amaranth columbo armchair filmdom america comfort wormgut farmhouse amicable rumjelly yumky gremlin common somnolent democracy amphibian blomquist primrose crimson warmth emulate circumvent teamwork omxi demystify momza anaconda inboard balance flounder anemone dragonfly amongst inhabit brownie injustice stinky sunlit entertainment annoy canoe pinpoint inquiry goldenrod dimension intoxicate genus convoke unwell anxiety anyway zanzibar road adobe society foodstuff dosteoevsky softball analogous john doing sojourn bookcase gold isomorph on adonis book autopsy baroque anorexia mosquito dichotomy shoulder provoke down xeroxed soybean mesozoic space chipboard stepchild update expect flipflop stopgap blasphemy inspire skopje upkeep reply topmost hypnosis leopold appoint dipqueen april corpse krypton campus ripvanwinkle shopworn bloopxerox shipyard plopzy qantas quymar qeshun qingdao qoph turquoise cranberry barbecue force murder appreciate farfetched bourgeois perhaps africa perjure berkskire early hermit governess arrogant amorphous marquee guerrilla bothersome shortcut crust harvey forward xerxes acrylicscherzo ransack husband vascular eavesdrop horsehair satisfy glasgow workshop desist disjunct casket isle charisma fresno cassock despite mosquito disrupt messiah backstop pegasus louisville glassware wasxero pussycat laszlo antaeus heartbreak kitchen nightdress meteor stratford rutgers ethel antique pitjoy aitken title nutmeg footnote storm rustproof notquest astronaut artsy mutton stubble latvia antwerp flatxaxis boatyard fitzroy habitual bubble such judge fluent stuff buggy kuhn quick fuji yukon indulge circumvent flounce fluoride cupid bouquet courier busy nutmeg continuum souvenir thruway buxom nguyen ouzo innovate provbend lavcarne pravda divest havfin davgood ravhere vivid bovjo sovkhoz pavlov strevma vuvna provoke sovpra vavquod livre dostoevsky movta gustavus savvy zovwig novxod wavyhaired bavzing renewal strawberry flowchart powdery sweet lawful lawgiver knowhow earwig snowjob mawkish crawler sawmill downbeat swoop showpiece dowqueg arrowroot newscast growth swung gowvil powwow iwxi shadowy frowzy vexation roxbury oxcart exdelicto execute sixfold sixgun foxhole exile exjunkie exkiller axle exmoor oxnard exotic expect exquisite exradius exsolve extort sexual exvoto maxwell exxon oxygen exzetetic mayan maybe copycat payday cayenne joyful pygmy pantyhose trying skyjack dyke taylor ganymede cynic beyond egypt nyquist byronic myself anytime kitakyushu stuyvesant plywood asphyxiate uyyex syzygy lizard beezbub buzco mazda seized duzfoggle rozgas tozhat danzig dizjoe cazkat laszlo boltzmann bozno zodiac fitzpatrick zazqui ezra nietzsche aztec azure izvestia buzzword tizxy enzyme swizzle<br><br>AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZA<br>BABBBCBDBEBFBGBHBIBJBKBLBMBNBOBPBQBRBSBTBUBVBWBXBYBZB<br>CACBCCCDCECFCGCHCICJCKCLCMCNCOCPCQCRCSCTCUCVCWCXCYCZC<br>DADBDCDDDEDFDGDHDIDJDKDLDMDNDODPDQDRDSDTDUDVDWDXDYDZD<br>EAEBECEDEEEFEGEHEIEJEKELEMENEOEPEQERESETEUEVEWEXEYEZE<br>FAFBFCFDFEFFFGFHFIFJFKFLFMFNFOFPFQFRFSFTFUFVFWFXFYFZF<br>GAGBGCGDGEGFGGGHGIGJGKGLGMGNGOGPGQGRGSGTGUGVGWGXGYGZG<br>HAHBHCHDHEHFHGHHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZH<br>IAIBICIDIEIFIGIHIIIJIKILIMINIOIPIQIRISITIUIVIWIXIYIZI<br>JAJBJCJDJEJFJGJHJIJJJKJLJMJNJOJPJQJRJSJTJUJVJWJXJYJZJ<br>KAKBKCKDKEKFKGKHKIKJKKKLKMKNKOKPKQKRKSKTKUKVKWKXKYKZK<br>LALBLCLDLELFLGLHLILJLKLLLMLNLOLPLQLRLSLTLULVLWLXLYLZL<br>MAMBMCMDMEMFMGMHMIMJMKMLMMMNMOMPMQMRMSMTMUMVMWMXMYMZM<br>NANBNCNDNENFNGNHNINJNKNLNMNNNONPNQNRNSNTNUNVNWNXNYNZN<br>OAOBOCODOEOFOGOHOIOJOKOLOMONOOOPOQOROSOTOUOVOWOXOYOZO<br>PAPBPCPDPEPFPGPHPIPJPKPLPMPNPOPPPQPRPSPTPUPVPWPXPYPZP<br>QAQBQCQDQEQFQGQHQIQJQKQLQMQNQOQPQQQRQSQTQUQVQWQXQYQZQ<br>RARBRCRDRERFRGRHRIRJRKRLRMRNRORPRQRRRSRTRURVRWRXRYRZR<br>SASBSCSDSESFSGSHSISJSKSLSMSNSOSPSQSRSSSTSUSVSWSXSYSZS<br>TATBTCTDTETFTGTHTITJTKTLTMTNTOTPTQTRTSTTTUTVTWTXTYTZT<br>UAUBUCUDUEUFUGUHUIUJUKULUMUNUOUPUQURUSUTUUUVUWUXUYUZU<br>VAVBVCVDVEVFVGVHVIVJVKVLVMVNVOVPVQVRVSVTVUVVVWVXVYVZV<br>WAWBWCWDWEWFWGWHWIWJWKWLWMWNWOWPWQWRWSWTWUWVWWWXWYWZW<br>XAXBXCXDXEXFXGXHXIXJXKXLXMXNXOXPXQXRXSXTXUXVXWXXXYXZX<br>YAYBYCYDYEYFYGYHYIYJYKYLYMYNYOYPYQYRYSYTYUYVYWYXYYYZY<br>ZAZBZCZDZEZFZGZHZIZJZKZLZMZNZOZPZQZRZSZTZUZVZWZXZYZZZ<br><br>aaabacadaeafagahaiajakalamanaoapaqarasatauavawaxayaza<br>babbbcbdbebfbgbhbibjbkblbmbnbobpbqbrbsbtbubvbwbxbybzb<br>cacbcccdcecfcgchcicjckclcmcncocpcqcrcsctcucvcwcxcyczc<br>dadbdcdddedfdgdhdidjdkdldmdndodpdqdrdsdtdudvdwdxdydzd<br>eaebecedeeefegeheiejekelemeneoepeqereseteuevewexeyeze<br>fafbfcfdfefffgfhfifjfkflfmfnfofpfqfrfsftfufvfwfxfyfzf<br>gagbgcgdgegfggghgigjgkglgmgngogpgqgrgsgtgugvgwgxgygzg<br>hahbhchdhehfhghhhihjhkhlhmhnhohphqhrhshthuhvhwhxhyhzh<br>iaibicidieifigihiiijikiliminioipiqirisitiuiviwixiyizi<br>jajbjcjdjejfjgjhjijjjkjljmjnjojpjqjrjsjtjujvjwjxjyjzj<br>kakbkckdkekfkgkhkikjkkklkmknkokpkqkrksktkukvkwkxkykzk<br>lalblcldlelflglhliljlklllmlnlolplqlrlsltlulvlwlxlylzl<br>mambmcmdmemfmgmhmimjmkmlmmmnmompmqmrmsmtmumvmwmxmymzm<br>nanbncndnenfngnhninjnknlnmnnnonpnqnrnsntnunvnwnxnynzn<br>oaobocodoeofogohoiojokolomonooopoqorosotouovowoxoyozo<br>papbpcpdpepfpgphpipjpkplpmpnpopppqprpsptpupvpwpxpypzp<br>qaqbqcqdqeqfqgqhqiqjqkqlqmqnqoqpqqqrqsqtquqvqwqxqyqzq<br>rarbrcrdrerfrgrhrirjrkrlrmrnrorprqrrrsrtrurvrwrxryrzr<br>sasbscsdsesfsgshsisjskslsmsnsospsqsrssstsusvswsxsyszs<br>tatbtctdtetftgthtitjtktltmtntotptqtrtstttutvtwtxtytzt<br>uaubucudueufuguhuiujukulumunuoupuqurusutuuuvuwuxuyuzu<br>vavbvcvdvevfvgvhvivjvkvlvmvnvovpvqvrvsvtvuvvvwvxvyvzv<br>wawbwcwdwewfwgwhwiwjwkwlwmwnwowpwqwrwswtwuwvwwwxwywzw<br>xaxbxcxdxexfxgxhxixjxkxlxmxnxoxpxqxrxsxtxuxvxwxxxyxzx<br>yaybycydyeyfygyhyiyjykylymynyoypyqyrysytyuyvywyxyyyzy<br>zazbzczdzezfzgzhzizjzkzlzmznzozpzqzrzsztzuzvzwzxzyzzz", 'Polish Sample': 'Litwo! Ojczyzno moja! <br>Ty jesteś jak zdrowie, Ile cię trzeba cenić, ten tylko się dowie, Kto cię stracił. Dziś piękność twą w całej ozdobie, Widzę i opisuję, bo tęsknię po tobie, Panno święta, co Jasnej bronisz Częstochowy, I w Ostrej świecisz Bramie! Ty, co gród zamkowy, Nowogródzki ochraniasz z jego wiernym ludem!, Jak mnie dziecko do zdrowia powróciłaś cudem, (Gdy od płaczącej matki pod Twoją opiekę, Ofiarowany, martwą podniosłem powiekę, I zaraz mogłem pieszo do Twych świątyń progu, Iść za wrócone życie podziękować Bogu), Tak nas powrócisz cudem na Ojczyzny łono., Tymczasem przenoś moją duszę utęsknioną, Do tych pagórków leśnych, do tych łąk zielonych, Szeroko nad błękitnym Niemnem rozciągnionych; Do tych pól malowanych zbożem rozmaitem, Wyzłacanych pszenicą, posrebrzanych żytem; Gdzie bursztynowy świerzop, gryka jak śnieg biała, Gdzie panieńskim rumieńcem dzięcielina pała, A wszystko przepasane jakby wstęgą, miedzą, Zieloną, na niej z rzadka ciche grusze siedzą.', 'Steve M Sample Latin': 'ABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZA<br>BABBCBDBEBFBGBHBIBJBKBLBBMBNBOBPBQBRBSBTBUBVBWBXBYBZB<br>CACBCCDCECFCGCHCICJCKCLCMCNCOCPCQCRCSCTCUCVCWCXCYCZC<br>DADBDCDDEDFDGDHDIDJDKDLDMDNDODPDQDRDSDTDUDVDWDXDYDZD<br>EAEBECEDEEFEGEHEIEJEKELEMENEOEPEQERESETEUEVEWEXEYEZE<br>FAFBFCFDFEFFGFHFIFJFFKFLFMFNFOFPFQFRFSFTFUFVFWFXFYFZF<br>GAGBGCGDGEGFGGHGIGJGKGLGMGNGOGPGQGRGSGTGUGVGWGXGYGZG<br>HAHBHCHDHEHFHGHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZH<br>IAIBICIDIEIFIGIHIIIJIKILIMINIOIPIQIRISITIUIVIWIXIYIZI<br>JAJBJCJDJEJFJGJHJIJJKJLJMJNJOJPJQJRJSJTJUJVJWJXJYJZJ<br>KAKBKCKDKEKFKGKHKIKJKKLKMKNKOKPKQKRKSKTKUKVKWKXKYKZK<br>LALBLCLDLELFLGLHLILJLKLLMLNLOLPLQLRLSLTLULVLWLXLYLZL<br>MAMBMCMDMEMFMGMHMIMJMKMLMMNMOMPMQMRMSMTMUMVMWMXMYMZM<br>NANBNCNDNENFNGNHNINJNKNLNMNNONPNQNRNSNTNUNVNWNXNYNZN<br>OAOBOCODOEOFOGOHOIOJOKOLOMONOOPOQOROSOTOUOVOWOXOYOZO<br>PAPBPCPDPEPFPGPHPIPJPKPLPMPNPOPPQPRPSPTPUPVPWPXPYPZP<br>QAQBQCQDQEQFQGQHQIQJQKQLQMQNQOQPQQRQSQTQUQVQWQXQYQZQ<br>RARBRCRDRERFRGRHRIRJRKRLRMRNRORPRQRRSRTRURVRWRXRYRZR<br>SASBSCSDSESFSGSHSISJSKSLSMSNSOSPSQSRSSTSUSVSWSXSYSZS<br>TATBTCTDTETFTGTHTITJTKTLTMTNTOTPTQTRTSTTUTVTWTXTYTZT<br>UAUBUCUDUEUFUGUHUIUJUKULUMUNUOUPUQURUSUTUVUWUXUYUZU<br>VAVBVCVDVEVFVGVHVIVJVKVLVMVNVOVPVQVRVSVTVUVVWVXVYVZV<br>WAWBWCWDWEWFWGWHWIWJWKWLWMWNWOWPWQWRWSWTWUWVWWXWYWZW<br>XAXBXCXDXEXFXGXHXIXJXKXLXMXNXOXPXQXRXSXTXUXVXWXXYXZX<br>YAYBYCYDYEYFYGYHYIYJYKYLYMYNYOYPYQYRYSYTYUYVYWYXYYZY<br>ZAZBZCZDZEZFZGZHZIZJZKZLZMZNZOZPZQZRZSZTZUZVZWZXZYZZ<br> <br>aabacadaeafagahaiajakalamanaoapaqarasatauavawaxayaza<br>babbcbdbebfbgbhbibjbkblbbmbnbobpbqbrbsbtbubvbwbxbybzb<br>cacbccdcecfcgchcicjckclcmcncocpcqcrcsctcucvcwcxcyczc<br>dadbdcddedfdgdhdidjdkdldmdndodpdqdrdsdtdudvdwdxdydzd<br>eaebecedeefegeheiejekelemeneoepeqereseteuevewexeyeze<br>fafbfcfdfeffgfhfifjffkflfmfnfofpfqfrfsftfufvfwfxfyfzf<br>gagbgcgdgegfgghgigjgkglgmgngogpgqgrgsgtgugvgwgxgygzg<br>hahbhchdhehfhghhihjhkhlhmhnhohphqhrhshthuhvhwhxhyhzh<br>iaibicidieifigihiiijikiliminioipiqirisitiuiviwixiyizi<br>jajbjcjdjejfjgjhjijjkjljmjnjojpjqjrjsjtjujvjwjxjyjzj<br>kakbkckdkekfkgkhkikjkklkmknkokpkqkrksktkukvkwkxkykzk<br>lalblcldlelflglhliljlkllmlnlolplqlrlsltlulvlwlxlylzl<br>mambmcmdmemfmgmhmimjmkmlmmnmompmqmrmsmtmumvmwmxmymzm<br>nanbncndnenfngnhninjnknlnmnnonpnqnrnsntnunvnwnxnynzn<br>oaobocodoeofogohoiojokolomonoopoqorosotouovowoxoyozo<br>papbpcpdpepfpgphpipjpkplpmpnpoppqprpsptpupvpwpxpypzp<br>qaqbqcqdqeqfqgqhqiqjqkqlqmqnqoqpqqrqsqtquqvqwqxqyqzq<br>rarbrcrdrerfrgrhrirjrkrlrmrnrorprqrrsrtrurvrwrxryrzr<br>sasbscsdsesfsgshsisjskslsmsnsospsqsrsstsusvswsxsyszs<br>tatbtctdtetftgthtitjtktltmtntotptqtrtsttutvtwtxtytzt<br>uaubucudueufuguhuiujukulumunuoupuqurusutuvuwuxuyuzu<br>vavbvcvdvevfvgvhvivjvkvlvmvnvovpvqvrvsvtvuvvwvxvyvzv<br>wawbwcwdwewfwgwhwiwjwkwlwmwnwowpwqwrwswtwuwvwwxwywzw<br>xaxbxcxdxexfxgxhxixjxkxlxmxnxoxpxqxrxsxtxuxvxwxxyxzx<br>yaybycydyeyfygyhyiyjykylymynyoypyqyrysytyuyvywyxyyzy<br>zazbzczdzezfzgzhzizjzkzlzmznzozpzqzrzsztzuzvzwzxzyzz<br> <br>001020304050607080900<br>101112131415161718191<br>202122232425262728292<br>303132333435363738393<br>404142434445464748494<br>540515253545565758595<br>606162636465666768696<br>707172737475767778797<br>808182838485868788898<br>909192939495969798999<br>'}
+
+    var clicks = 0;
+    var arrList = [];
+    var mySpanIDList = [];
+
+    var supported_features = [];
+
+    function functionAddSupportedFeatures(item){
+        var button = document.getElementById(item+"_btn")
+        if (supported_features.includes(item) === true){
+            button.style.color = 'black';
+            button.style.backgroundColor = 'white';
+            var index = supported_features.indexOf(item);
+            if (index > -1) {
+                supported_features.splice(index, 1);
+            }
+        }
+        else { 
+            button.style.color = 'white';
+            button.style.backgroundColor = 'black';
+            supported_features.push(item);
+        }
+        functionSetCSSFeatureCode(supported_features)
+    }
+
+    function functionChangeLanguage(item){
+        document.documentElement.lang = item;
+        $("#htmlLangTag").html(item);
+        if (['ar', 'fa', 'ur'].indexOf(item) >= 0) {
+            document.getElementById('compareBoxID').dir = 'rtl';
+            functionReadDirection('compareBoxID', 'right-to-left');
+        } else {
+            document.getElementById('compareBoxID').dir = '';
+            functionReadDirection('compareBoxID', 'left-to-right')
+        }
+
+    }
+
+
+    function functionSetCSSFeatureCode(arr){
+        var supported_features = arr;
+        var default_features =  []; //['kern', 'vkrn', 'liga', 'clig', 'calt', 'mark', 'mkmk', 'rvrm' ];
+
+        var cssCode_features = "";//font-feature-settings:
+        var moz_features = "";
+        
+
+        var arrayLength = supported_features.length;
+        for (var i = 0; i < arrayLength; i++) {
+            var item = supported_features[i];
+            cssCode_features += "'" + item + "' 1,";
+            moz_features += item + "=1,";
+        }
+
+        var defaultLength = default_features.length;
+        for (var i = 0; i < defaultLength; i++) {
+            var item = default_features[i];
+            if (supported_features.includes(item) === false){
+                cssCode_features += "'" + item + "' 0,";
+                moz_features += item + "=0,";
+            }
+        }
+
+        var stringLength = cssCode_features.length;
+        if (cssCode_features[stringLength-1] === ','){
+            var cleanedCSS = cssCode_features.substring(',', stringLength - 1);
+        } else {
+            var cleanedCSS = cssCode_features;
+        }
+
+        var element = document.getElementById('body_all');
+        element.style.fontFeatureSettings = cleanedCSS;
+
+        var stringLength = moz_features.length;
+        if (moz_features[stringLength-1] === ','){
+            var cleanedCSSmoz_features = moz_features.substring(',', stringLength - 1);
+        } else {
+            var cleanedCSSmoz_features = moz_features;
+        }
+
+        console.log('cleanedCSS: ', cleanedCSS)
+        var webkit_features = cleanedCSS 
+
+        $("#w3cfeatures").html(webkit_features);
+        $("#webkitfeatures").html(webkit_features);
+        $("#mozfeatures-up-to-14").html(webkit_features);
+        $("#mozfeatures").html(cleanedCSSmoz_features);
+        $("#msfeatures").html(webkit_features);
+        $("#ofeatures").html(webkit_features);
+
+      };
+
+
+    function functionBoxAdd() {
+
+        clicks += 1;
+        //arrList.push(clicks.toString())
+        console.log(arrList)
+        //var tdID = 'myTD_' + clicks;
+        //arrList.push(tdID.toString())
+        
+        //var x = document.createElement("TD");
+        //x.setAttribute("id", tdID);
+        //document.getElementById("tableTR").appendChild(x);
+
+        //var optionID = 'myOption_' + clicks;
+        //var d1 = document.createElement("DIV");
+        //d1.setAttribute("id", optionID);
+        //document.getElementById(tdID).appendChild(d1);
+
+        //var copyTextID = 'myText_' + clicks;
+        //var d2 = document.createElement("DIV");
+        //d2.setAttribute("id", copyTextID);
+        //d2.setAttribute("contenteditable", 'true');
+        //document.getElementById(tdID).appendChild(d2);
+        //var SampleText = document.createTextNode(HTMLCodeCompareBoxes);
+        //document.getElementById(copyTextID).innerHTML = HTMLCodeCompareBoxes;
+
+        var nameID = 'myBox_' + clicks;
+        arrList.push(nameID.toString())
+        var x = document.createElement("TD");
+        x.setAttribute("id", nameID);
+        //x.setAttribute("contenteditable", 'true');
+
+
+         var selectID = 'mySelect_' + clicks;
+         var s = document.createElement("SELECT");
+         s.setAttribute("id", selectID);
+         s.setAttribute("name", nameID);
+         s.setAttribute("onchange", "functionSelect('" + selectID + "')");
+
+         var arrListFontname = [];
+         var arrListCSSName = [];
+         lenClicks = 0;
+
+         for(fontName in fontWeightsDict){
+                 lenClicks += 1;
+                 arrListFontname.push(fontName.toString())
+                  var fontCSScode = fontWeightsDict[fontName];
+                  arrListCSSName.push(fontCSScode.toString())
+
+                  var z = document.createElement("option");
+                z.setAttribute("value", fontCSScode);
+                if (clicks + 1 == lenClicks){
+                    var FontSelected = arrListCSSName[lenClicks-1]; //minus one because array starts with zero
+                    z.setAttribute("selected", 'selected');
+                }
+                var t = document.createTextNode(fontName);
+                z.appendChild(t);
+                s.appendChild(z);
+                console.log(arrListFontname[-1])
+        }
+
+        var numberFonts = Object.keys(fontWeightsDict).length;
+        if (numberFonts <= clicks){var FontSelected = arrListCSSName[0];}
+        
+        x.setAttribute("class", "compareBox "+FontSelected);
+        document.getElementById("tableTR").appendChild(x);
+
+
+        //document.getElementById(nameID).appendChild(z);
+        document.getElementById(nameID).appendChild(s);
+
+        //var SampleText = document.createTextNode(HTMLCodeCompareBoxes);
+        var mySpanID = 'myBoxContent_' + clicks;
+        mySpanIDList.push(mySpanID.toString())
+        var span = document.createElement("SPAN");
+        span.setAttribute("id", mySpanID);
+        span.setAttribute("contenteditable", 'true');
+        span.setAttribute("class", 'compareBoxCSS');
+
+        var compareBoxFontSize = document.getElementById("myBoxContent").style.fontSize;
+        //console.log('Font-Size: ', compareBoxFontSize)
+        span.setAttribute("style", "font-size: " + compareBoxFontSize);
+
+        var getSampleText = document.getElementById('myBoxContent').innerHTML
+        //var mySampleText = document.getElementById('mySelectSampleText').value;
+        //var getSampleText = sampleTexts[mySampleText];
+        span.innerHTML = getSampleText;
+
+        //var sp = document.createTextNode(getSampleText);
+        //span.appendChild(sp);
+
+        document.getElementById(nameID).appendChild(span);
+     
+    }
+     
+    function functionBoxRemove() {
+        var item = arrList.pop() ;
+        //var nameID2 = 'myBox_' + (item);
+
+        if (item != 'myBox'){
+            var x = document.getElementById(item);
+            document.getElementById("tableTR").removeChild(x);
+        }
+
+        var index = mySpanIDList.length;
+        if (index > 1){
+            var listIndex = index -1;
+            mySpanIDList.splice(listIndex, 1);
+        }
+
+    }
+
+    var allBoxBG = arrList;
+    allBoxBG.push('myBox'); //first fixed box
+    function functionBoxBG(){
+        for (var item in allBoxBG){
+            console.log(allBoxBG[item])
+            var element = document.getElementById(allBoxBG[item])
+            if (element.style.backgroundColor != "white"){
+                element.style.backgroundColor = "white";
+                element.style.color = 'black';
+            } else {
+                element.style.backgroundColor = "black";
+                element.style.color = 'white';                
+            }
+        }
+    }
+
+    //$('#myBox').on('blur keyup paste input', function() {
+    //    var sampleText = document.getElementById('myBox').innerHTML;
+    //    for (var item in arrList){
+    //        var element = document.getElementById(arrList[item]);
+    //        element.innerHTML = sampleText;
+    //    }
+    //});
+
+    function functionSelect(selectID) {
+        console.log(selectID)
+        //var box = document.getElementById(selectID).parentElement; //.nodeName;
+        var CSScode = document.getElementById(selectID).value;
+        var boxID = document.getElementById(selectID).name;
+        console.log(CSScode)
+        console.log(boxID)
+        //document.getElementById(boxID).classList.add(value);
+        //box.classList.add(value);
+        document.getElementById(boxID).classList = CSScode;
+    }
+
+    mySpanIDList.push('myBoxContent'); //first add "fixed box"
+    function functionSelectSampleText(mySelectSampleText){
+        console.log('LISTE mySpanIDList::::', mySpanIDList)
+        var mySampleText = document.getElementById(mySelectSampleText).value;
+        var sampleText = sampleTexts[mySampleText];
+        for (var item in mySpanIDList){
+            document.getElementById(mySpanIDList[item]).innerHTML = sampleText;
+        }
+
+    }
+
+    function functionGetColorBG(item, CSSClass){
+        $(CSSClass).css('background-color', item);
+    }
+
+    function functionGetColorText(item, CSSClass){
+        $(CSSClass).css('color', item);
+    }
+
+    function functionSwapColorTextBG(CSSClass){
+        var colorText = $(CSSClass).css('color');
+        var colorBG = $(CSSClass).css('backgroundColor');
+        $(CSSClass).css('background-color', colorText);
+        $(CSSClass).css('color', colorBG);
+
+    }
+
+    $('.compareBoxCSS').on('blur keyup paste input', function() {$(".compareBoxCSS").not(this).html($(this).html());});
+
+    $('#sliderCompareBoxCSS').on('change',function(){
+        var val = $(this).val();
+        $(".compareBoxCSS").css("font-size",(val+"px"));
+        
+        document.getElementById("numberCompareBoxCSS").value = val;
+    });
+
+    $('#numberCompareBoxCSS').on('change',function(){
+        var val = $(this).val();
+        $(".compareBoxCSS").css("font-size",(val+"px"));
+        
+        document.getElementById("sliderCompareBoxCSS").value = val;
+    });
+
+    $('#sliderSampleContent').on('change',function(){
+        var val = $(this).val();
+        $(".sampleContent").css("font-size",(val+"px"));
+        if (val <= 30){
+            $(".sampleContent").css("padding",(val+"px 50px "+ val+"px 50px"));
+        } else {
+            $(".sampleContent").css("padding",("30px 50px 30px 50px"));              
+        }        
+        document.getElementById("numberSampleContent").value = val;
+    });
+
+    $('#numberSampleContent').on('change',function(){
+        var val = $(this).val();
+        $(".sampleContent").css("font-size",(val+"px"));
+        if (val <= 30){
+            $(".sampleContent").css("padding",(val+"px 50px "+ val+"px 50px"));
+        } else {
+            $(".sampleContent").css("padding",("30px 50px 30px 50px"));              
+        }           
+        document.getElementById("sliderSampleContent").value = val;
+    });
+
+    clicksBG = 0;
+    function functionGetRandomBG(cssItem){
+        
+        var arrListCSSClasses = [];
+        var numberCSSClasses = Object.keys(cssItem).length;
+        var cssClasses = document.getElementById("tableTR").className;
+
+        var oldCSSClasses = cssClasses.split(' ');
+
+        for (var item in cssItem){
+            if (item == clicksBG){
+                oldCSSClasses.push(cssItem[clicksBG]);
+            } else {
+                var index = oldCSSClasses.indexOf(cssItem[item]);
+                if (index > -1) {
+                    oldCSSClasses.splice(index, 1);
+                }
+                
+            }
+        }
+
+        var newClassNames = oldCSSClasses.join(' ')
+
+        document.getElementById("tableTR").className = newClassNames;
+        
+        clicksBG += 1;
+
+        if (clicksBG === 4){
+            clicksBG = 0;
+        }
+        
+
+    }
+
+    function functionShowCSSCode(CSSClass){
+        if ($(CSSClass).css("left") == '15px'){
+            $(CSSClass).css("transition-timing-function", "ease-in");
+            $(CSSClass).css("transition", "0.4s");
+            $(CSSClass).css("left", "80%");
+        } else {
+            $(CSSClass).css("left", "15px");
+        }
+    }
+
+    function functionShowHeader(CSSClass, my_id){
+        //var element = document.getElementById(my_id)
+        //var buttoncell = document.getElementById(my_id+"_cell")
+
+        var button = document.getElementById(my_id+"_btn");
+        if (button.innerHTML != '▼') {
+            $(CSSClass).css("top", '-' + divHeight + 'px');
+            button.innerHTML = '▼';
+        } else {
+          //$("#" + my_id).slideDown();
+            $(CSSClass).css("transition-timing-function", "ease-in");
+            $(CSSClass).css("transition", "0.4s");
+          $(CSSClass).css("top", "50px");
+          button.innerHTML = '▲';
+        }
+
+    }
+
+        /*function myFunctionAnimate(my_id, CSSClassList){
+            var button = document.getElementById(my_id+"_btn");
+            if (button.innerHTML === 'Play') {
+                button.innerHTML = 'Pause';
+                var countingUp = 1;
+                var minValue = document.getElementById(my_id).min;
+                var maxValue = document.getElementById(my_id).max;
+                var value = document.getElementById(my_id).value;
+                var i = Math.round(value);
+                var speed = Math.round(1000/maxValue);
+                myTimer = setInterval(function() {
+                    console.log(maxValue)
+                    i = i + (1 * countingUp);
+
+                    if (i == maxValue || i == minValue)
+                    {
+                        countingUp *= -1;
+                    }
+
+                    console.log(i)
+                  document.getElementById(my_id).value = i;
+                  document.getElementById(my_id+"_range").innerHTML = i;
+                  //om_AvenirNextVariableRomanttfWeight_showValue(i, CSSClassList)
+                  
+                }, speed);
+
+            } else {
+                button.innerHTML = 'Play';
+                clearInterval(myTimer);
+            }
+        }*/
+
+        
+
+        function functionTextAlignment(ID, item){
+            textAligment = ['left', 'center', 'right'];
+            console.log('ID: ', ID)
+            nameID = ID.replace('ID', '');
+            console.log('nameID: ', nameID)
+            console.log('item: ', item)
+
+            buttonName = item + nameID + "_btn";
+
+            console.log('buttonName: ', buttonName)
+
+            var button = document.getElementById(buttonName);
+            button.style.backgroundColor = 'black';
+            button.style.color = 'white';
+
+            $('#' +ID).css("text-align", item);
+
+            var textAligmentLength = textAligment.length;
+            for (var i = 0; i < textAligmentLength; i++) {
+                var itemLoop = textAligment[i];
+                if (itemLoop != item){
+                    otherButtonName = itemLoop + nameID + "_btn";
+                    console.log('otherButtonName: ', otherButtonName)
+                    var otherButton = document.getElementById(otherButtonName);
+                    otherButton.style.backgroundColor = 'white';
+                    otherButton.style.color = 'black';
+
+                }
+            }
+        }
+
+        function functionReadDirection(ID, item){
+            textAligment = ['left-to-right', 'right-to-left', 'top-to-down'];
+            console.log('ID: ', ID)
+            nameID = ID.replace('ID', '');
+            console.log('nameID: ', nameID)
+            console.log('item: ', item)
+
+            buttonName = item + nameID + "_btn";
+
+            console.log('buttonName: ', buttonName)
+
+            var button = document.getElementById(buttonName);
+            button.style.backgroundColor = 'black';
+            button.style.color = 'white';
+
+            if (item === 'right-to-left'){document.getElementById('compareBoxID').dir = 'rtl';}
+            if (item === 'left-to-right'){document.getElementById('compareBoxID').dir = '';}
+
+            // if (item === 'top-to-down'){
+            //     document.getElementById('compareBoxID').dir = '';
+
+            //     //var elt = document.documentElement
+            //     var elt = document.getElementById(ID);
+            //     elt.setAttribute("style", "writing-mode: vertical-rl;");
+            //     //$("body").css("writing-mode", 'vertical-rl;');
+            //     //document.documentElement.css("writing-mode", 'vertical-rl;');
+
+            //     /* writing-mode: vertical-rl; */
+            // }            
+
+            var textAligmentLength = textAligment.length;
+            for (var i = 0; i < textAligmentLength; i++) {
+                var itemLoop = textAligment[i];
+                if (itemLoop != item){
+                    otherButtonName = itemLoop + nameID + "_btn";
+                    console.log('otherButtonName: ', otherButtonName)
+                    var otherButton = document.getElementById(otherButtonName);
+                    otherButton.style.backgroundColor = 'white';
+                    otherButton.style.color = 'black';
+
+                }
+            }
+        }
+
+    function functionTest(CSSClass){
+            $(CSSClass).css("transition-timing-function", "ease-in");
+            $(CSSClass).css("transition", "1.4s");
+            $(CSSClass).css("transform", 'translate3d(0px,0px,0px)');
+    }
+
+
+    delta = 0;
+    beta = 0;
+    lastPos = null;
+
+    function clearBeta() {
+      beta = 0;
+    }
+
+    window.onscroll = function(){
+
+        function clear() {
+          lastPos = null;
+          delta = 0;
+        }
+
+        newPos = window.scrollY;
+        if ( lastPos != null ){
+          delta = newPos - lastPos;
+        }
+        lastPos = newPos;
+
+        //console.log(100 - delta)
+        //console.log('newPos: ', newPos)
+
+        if (delta < 0){if (beta < (delta * -1)){beta = (delta * 6)} }
+        if (delta > 0){if (beta < delta){beta = delta} }
+
+        //console.log('beta: ', beta)
+
+        setTimeout(clear, 500);
+        setTimeout(clearBeta, 500);
+
+        //console.log(100 - Pos)
+      //var distanz =  window.scrollY
+      //console.log('distanz: ', distanz);
+      //console.log( 'PositivVal: ', PositivVal );
+      //console.log(Int(distanz))
+      $('.flyingFont1').css("transform", 'translate3d(0px,' + (beta * -1) + 'px,0px)');
+      $('.flyingFont2').css("transform", 'translate3d(0px,' + (beta * -2) + 'px,0px)');
+      $('.flyingFont3').css("transform", 'translate3d(0px,' + (beta * -3) + 'px,0px)');
+    };
+
+
+    window.addEventListener("scroll", functionTest('.flyingFont1'), false);
+    window.addEventListener("scroll", functionTest('.flyingFont2'), false);
+    window.addEventListener("scroll", functionTest('.flyingFont3'), false);
+
+    $('.flyingFont').on('blur keyup paste input', function() {$(".flyingFont").not(this).html($(this).html());});
+
+    function adjustHeightOfTwoDiv(div1_ID, div2_ID){
+        var offsetHeight = document.getElementById(div1_ID).offsetHeight;
+        document.getElementById(div2_ID).style.height = offsetHeight + 'px';
+    } 
+
+    $('.flyingFont1').on('blur keyup paste input', function() {adjustHeightOfTwoDiv('flyingFont_ID1', 'flyingFont_ID0')});
+
+    function mDown(UID, CSSClassFontList) {
+        var obj = document.getElementById('zoom_characters');
+        obj.style.display = 'block';
+
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+
+        if (w < h){
+            var nW = w / 2;
+            var nH = nW;
+
+        } else {
+            var nW = h / 2;
+            var nH = nW;
+        }
+        var top = (h - nH) / 2;
+        var left = (w - nW) / 2;
+
+        obj.style.height = nH + 'px';
+        obj.style.top = top + 'px';
+        obj.style.width = nW + 'px';
+        obj.style.left = left + 'px';        
+        obj.innerHTML = UID;
+        
+        var arrayLength = CSSClassFontList.length;
+        for (var i = 0; i < arrayLength; i++) {
+            var item = CSSClassFontList[i];
+            obj.classList.add(item);
+        }
+
+
+        
+
+        
+
+
+    }
+
+    function mUp() {
+        var obj = document.getElementById('zoom_characters');
+        obj.innerHTML = '';
+        obj.style.display = 'none';
+        obj.className = "characterZoom";
+    }
+
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("showFontNames_div").style.bottom = "-50px";
+        } else {
+            document.getElementById("showFontNames_div").style.bottom = "0";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+
+    function scrollXNamesFunc() {
+        var elmnt = document.getElementById("containerMainID");
+        var x = elmnt.scrollLeft;
+        $('#showFontNames').css({
+            'left': 15 - x
+        });
+    }
+
+    function hintingOnOff(CSSClass, my_id){
+        var button = document.getElementById(my_id+"_btn");
+        var elements = document.getElementsByClassName('compareBox')
+
+        if (button.innerHTML != 'hinting on') {
+            Array.prototype.filter.call(elements, function(el){
+                el.style.transform = 'rotate(0.0deg)';
+                el.style.transformOrigin = 'top left';
+            });
+
+            button.className = "buttonBlack";
+            button.innerHTML = 'hinting on';
+            button.style.backgroundColor = 'black';
+
+        } else {
+            Array.prototype.filter.call(elements, function(el){
+                el.style.transform = 'rotate(0.03deg)';
+                el.style.transformOrigin = 'top center';
+            });
+
+            button.innerHTML = 'hinting off';
+            button.className = ".buttonBorder";
+
+            button.style.backgroundColor = 'red';
+
+        }
+
+    }
+
+    </script>
+
+  </body>
+</html>
+

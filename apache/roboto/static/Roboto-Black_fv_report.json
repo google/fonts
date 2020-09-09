@@ -43,27 +43,27 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_24bf750a6b0d4983a9d7bcd051b3c5d0.glyf.glyph 451 ('U+FFFC').contours.contour 18",
+                        "subroutine": "validate_29e81d3e9aeb45578c66beaafa91e942.glyf.glyph 451 ('U+FFFC').contours.contour 18",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-03T13:55:07.032941Z",
-                        "orig_output": "validate_24bf750a6b0d4983a9d7bcd051b3c5d0.glyf.glyph 451 ('U+FFFC').contours.contour 18 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-09T14:56:51.801441Z",
+                        "orig_output": "validate_29e81d3e9aeb45578c66beaafa91e942.glyf.glyph 451 ('U+FFFC').contours.contour 18 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_24bf750a6b0d4983a9d7bcd051b3c5d0.name",
+                        "subroutine": "validate_29e81d3e9aeb45578c66beaafa91e942.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-03T13:55:22.723066Z",
-                        "orig_output": "validate_24bf750a6b0d4983a9d7bcd051b3c5d0.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-09T14:57:06.269230Z",
+                        "orig_output": "validate_29e81d3e9aeb45578c66beaafa91e942.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_24bf750a6b0d4983a9d7bcd051b3c5d0.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_29e81d3e9aeb45578c66beaafa91e942.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1199, but is 1161",
-                        "timestamp": "2020-09-03T13:55:02.770440Z",
-                        "orig_output": "validate_24bf750a6b0d4983a9d7bcd051b3c5d0.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1199, but is 1161",
+                        "timestamp": "2020-09-09T14:56:47.857636Z",
+                        "orig_output": "validate_29e81d3e9aeb45578c66beaafa91e942.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1199, but is 1161",
                         "msg_code": "E2135"
                     }
                 ]
@@ -71,8 +71,8 @@
         }
     ],
     "skipped": [],
-    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 30721,
-    "completedDate": "2020-09-03 13:55:29.133810"
+    "runningTime": 28433,
+    "completedDate": "2020-09-09 14:57:12.142157"
 }

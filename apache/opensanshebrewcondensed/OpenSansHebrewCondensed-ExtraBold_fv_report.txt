@@ -1,0 +1,17 @@
+ERROR	E2108	Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.
+ERROR	E2111	Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.
+ERROR	V0295	Contour has duplicate adjacent points of differing on-curve states.
+ERROR	V0295	Contour has duplicate adjacent points of differing on-curve states.
+ERROR	V0295	Contour has duplicate adjacent points of differing on-curve states.
+ERROR	E1311	The macStyle bold bit (True) is not consistent with the name table's subfamily string 'Regular'.
+ERROR	V0933	The left sidebearing 76 does not match the glyph's xMin 77 (glyph 83)
+ERROR	V0933	The left sidebearing 27 does not match the glyph's xMin 28 (glyph 180)
+ERROR	V0933	The left sidebearing 27 does not match the glyph's xMin 28 (glyph 181)
+ERROR	V0933	The left sidebearing 27 does not match the glyph's xMin 28 (glyph 182)
+ERROR	V0933	The left sidebearing 27 does not match the glyph's xMin 28 (glyph 183)
+ERROR	V0933	The left sidebearing 27 does not match the glyph's xMin 28 (glyph 184)
+ERROR	V0933	The left sidebearing 27 does not match the glyph's xMin 28 (glyph 186)
+ERROR	V0933	The left sidebearing 32 does not match the glyph's xMin 33 (glyph 196)
+ERROR	E2100	The fsSelection doesn't match the subfamily 'name' entry
+ERROR	V0831	The usMaxContext should be 1, but is 4
+ERROR	E2135	The xAvgCharWidth should be 957, but is 959

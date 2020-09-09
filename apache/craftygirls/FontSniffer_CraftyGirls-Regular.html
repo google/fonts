@@ -1,0 +1,2897 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8'>
+    <title>MT FontSniffer Report</title>
+    <style type="text/css">
+      body {
+        background-color: #fff;
+        color: #000;
+        font-family: "Kootenay Pro", Axel, "System Font", "Fira Sans", sans-serif;
+        line-height: 1.3em;
+        margin: 0;
+        padding: 1em;
+        font-size: 14px;
+      }
+      mark {
+        background-color: #fff990;
+        color: black;
+      }
+      h2 {
+        padding: 2em 0 0.2em 2.35em;
+        border-bottom: 2px solid #606060;
+        margin: 0;
+      }
+      h3 {
+        padding: 0.2em 0 0.3em 0;
+        margin: 0;
+      }
+      table {
+        border-collapse: collapse; 
+        margin: 1em 0; 
+        /* width: 100%; */
+        padding: 0;
+      }
+      table.togglemessages {
+        border: none; 
+        background-color: #f0f0f0;
+      }
+      td, th {
+        line-height: 1.3em; 
+        padding: 0.25em 0.5em; 
+        vertical-align: top;
+        text-align: left;
+      }
+      .summary th {
+        border-bottom: 1px solid #000;
+      }
+      td p, th p {
+        margin: 0 0 0em 0;
+        padding: 0;
+      }
+      td.num, th.num {
+        text-align: right;
+        width: 6em;
+      }
+      
+      td.time, th.time {
+        text-align: right;
+        width: 4.5em;
+        color: #c8c8c8;
+        font-size: 0.9em;
+        background-color: #fff;
+      }
+      
+      th.time p {
+        color: #d8d8d8;
+        padding-top: 0.5em;
+      }
+      
+      .summary {
+        width: auto;
+      }
+      
+      .summary tbody tr:nth-child(odd) {
+        background-color: #f8f8f8;
+      }
+      
+      .summary tbody tr:nth-last-child(1) {
+        background-color: #f0f0f0;
+      }
+      
+      .code {
+        font-weight: bold;
+        color: #fff;
+        width: 2em; 
+        text-align: center
+      }
+      
+      .results th {
+        border-radius: 0.0em;
+      }
+      
+      .results th button{
+        font-family: "Erler Dingbats", Arial;
+        line-height: 1.4em;
+        width: 2.6em;
+        padding-top: 0.2em;
+        margin-top: 0.2em;
+        background-color: rgba(255, 255, 255, 0.0);
+        border-radius: 0.0em;
+        border: 0px solid rgba(0, 0, 0, 0.3);
+      }
+
+      .A, .S, .E, .W, .I, .P {
+        width: 5em; 
+      }
+
+      tr.S {                                  color: hsl(  0,  0%,  90%) }
+      tr.S .code {                            color: hsl(  0,  0%,  90%) }
+      tr.S:nth-child(odd)        { background-color: hsl(  0,  0%,  10%) }
+      tr.S:nth-child(even)       { background-color: hsl(  0,  0%,  20%) }
+      tr.S:nth-child(odd)  .code { background-color: hsl(  0,  0%,  20%) }
+      tr.S:nth-child(even) .code { background-color: hsl(  0,  0%,  10%) }
+
+      tr.C {                                  color: hsl(  0,  0%,  90%) }
+      tr.C .code {                            color: hsl(  0,  0%,  90%) }
+      tr.C:nth-child(odd)        { background-color: hsl(  0,  100%,  20%) }
+      tr.C:nth-child(even)       { background-color: hsl(  0,  100%,  25%) }
+      tr.C:nth-child(odd)  .code { background-color: hsl(  0,  100%,  27%) }
+      tr.C:nth-child(even) .code { background-color: hsl(  0,  100%,  30%) }
+
+      tr.E {                                  color: #000 }
+      tr.E .code {                            color: #fff }
+      tr.E:nth-child(odd)        { background-color: hsl( 24,  100%, 95%) }
+      tr.E:nth-child(even)       { background-color: hsl( 24,  100%, 90%) }
+      tr.E:nth-child(odd)  .code { background-color: hsl( 24,  100%, 45%) }
+      tr.E:nth-child(even) .code { background-color: hsl( 24,  100%, 40%) }
+      
+      tr.W {                                  color: #000 }
+      tr.W .code {                            color: #fff }
+      tr.W:nth-child(odd)        { background-color: hsl( 50,  65%, 95%) }
+      tr.W:nth-child(even)       { background-color: hsl( 50,  65%, 90%) }
+      tr.W:nth-child(odd)  .code { background-color: hsl( 50,  65%, 52%) }
+      tr.W:nth-child(even) .code { background-color: hsl( 50,  65%, 48%) }
+      
+      tr.I {                                  color: #000 }
+      tr.I .code {                            color: #fff }
+      tr.I:nth-child(odd)        { background-color: hsl( 200,  50%, 95%) }
+      tr.I:nth-child(even)       { background-color: hsl( 200,  50%, 90%) }
+      tr.I:nth-child(odd)  .code { background-color: hsl( 200,  50%, 52%) }
+      tr.I:nth-child(even) .code { background-color: hsl( 200,  50%, 48%) }
+      
+      tr.P {                                  color: #000 }
+      tr.P .code {                            color: #fff }
+      tr.P:nth-child(odd)        { background-color: hsl( 130,  40%, 95%) }
+      tr.P:nth-child(even)       { background-color: hsl( 130,  40%, 90%) }
+      tr.P:nth-child(odd)  .code { background-color: hsl( 130,  40%, 60%) }
+      tr.P:nth-child(even) .code { background-color: hsl( 130,  40%, 55%) }
+      
+      tr.A {                                  color: hsl(  0,  0%,  50%) }
+      tr.A .code {                            color: hsl(  0,  0%,  50%) }
+      tr.A:nth-child(odd)        { background-color: hsl(  0,  0%,  75%) }
+      tr.A:nth-child(even)       { background-color: hsl(  0,  0%,  80%) }
+      tr.A:nth-child(odd)  .code { background-color: hsl(  0,  0%,  85%) }
+      tr.A:nth-child(even) .code { background-color: hsl(  0,  0%,  90%) }
+      
+      
+      /* Summary backgrounds */
+
+      th.S {
+        background: hsl(  0,  0%,  85%);
+      }
+      
+      th.A {
+        background: hsl(  0,  0%,  85%);
+      }
+      
+      th.E {
+        background: hsl( 24,  100%, 45%);
+      }
+      
+      th.I {
+        background: hsl( 200,  50%, 52%);
+      }
+      
+      th.P {
+        background: hsl( 130,  40%, 60%);
+      }
+      
+      th.W {
+        background: hsl( 50,  65%, 52%);
+      }
+      
+      
+      th.AE {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 24,  100%, 45%) 100%
+        );
+      }
+      
+      th.AI {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 200,  50%, 52%) 100%
+        );
+      }
+      
+      th.AP {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 130,  40%, 60%) 100%
+        );
+      }
+      
+      th.AW {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.EI {
+        background: linear-gradient(
+          90deg,
+          hsl( 24,  100%, 45%) 0%,
+          hsl( 200,  50%, 52%) 100%
+        );
+      }
+      
+      th.EP {
+        background: linear-gradient(
+          90deg,
+          hsl( 24,  100%, 45%) 0%,
+          hsl( 130,  40%, 60%) 100%
+        );
+      }
+      
+      th.EW {
+        background: linear-gradient(
+          90deg,
+          hsl( 24,  100%, 45%) 0%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.IP {
+        background: linear-gradient(
+          90deg,
+          hsl( 200,  50%, 52%) 0%,
+          hsl( 130,  40%, 60%) 100%
+        );
+      }
+      
+      th.IW {
+        background: linear-gradient(
+          90deg,
+          hsl( 200,  50%, 52%) 0%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.PW {
+        background: linear-gradient(
+          90deg,
+          hsl( 130,  40%, 60%) 0%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      
+      th.AEI {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 24,  100%, 45%) 50%,
+          hsl( 200,  50%, 52%) 100%
+        );
+      }
+      
+      th.AEP {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 24,  100%, 45%) 50%,
+          hsl( 130,  40%, 60%) 100%
+        );
+      }
+      
+      th.AEW {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 24,  100%, 45%) 50%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.AIP {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 200,  50%, 52%) 50%,
+          hsl( 130,  40%, 60%) 100%
+        );
+      }
+      
+      th.AIW {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 200,  50%, 52%) 50%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.APW {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 130,  40%, 60%) 50%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.EIP {
+        background: linear-gradient(
+          90deg,
+          hsl( 24,  100%, 45%) 0%,
+          hsl( 200,  50%, 52%) 50%,
+          hsl( 130,  40%, 60%) 100%
+        );
+      }
+      
+      th.EIW {
+        background: linear-gradient(
+          90deg,
+          hsl( 24,  100%, 45%) 0%,
+          hsl( 200,  50%, 52%) 50%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.IPW {
+        background: linear-gradient(
+          90deg,
+          hsl( 200,  50%, 52%) 0%,
+          hsl( 130,  40%, 60%) 50%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      
+      /* AEIPW */
+      
+      
+      th.AEIP {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 24,  100%, 45%) 33%,
+          hsl( 200,  50%, 52%) 66%,
+          hsl( 130,  40%, 60%) 100%
+        );
+      }
+      
+      th.AEIW {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 24,  100%, 45%) 33%,
+          hsl( 200,  50%, 52%) 66%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.AEPW {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 24,  100%, 45%) 33%,
+          hsl( 130,  40%, 60%) 66%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.AIPW {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 200,  50%, 52%) 33%,
+          hsl( 130,  40%, 60%) 66%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      th.EIPW {
+        background: linear-gradient(
+          90deg,
+          hsl( 24,  100%, 45%) 0%,
+          hsl( 200,  50%, 52%) 33%,
+          hsl( 130,  40%, 60%) 66%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      
+      th.AEIPW {
+        background: linear-gradient(
+          90deg,
+          hsl(  0,  0%,  85%) 0%,
+          hsl( 24,  100%, 45%) 25%,
+          hsl( 200,  50%, 52%) 50%,
+          hsl( 130,  40%, 60%) 75%,
+          hsl( 50,  65%, 52%) 100%
+        );
+      }
+      
+      
+      .fontname {
+        width: 20em;
+      }
+      .table {
+        width: 2.5em;
+      }
+      .feature {
+        width: 7.5em;
+      }
+      .message {
+        /*width: 20em;*/
+      }
+      .detail {
+        width: 40em;
+      }
+      .detail p {
+      }
+      .name { background-color: #eee }
+      .name th { padding-top: 1em }
+
+    </style>
+    <script type='text/javascript'>
+      function toggle(toggle_class){
+        var elements = document.getElementsByTagName('tr')
+        for (var i = 0; i < elements.length; i++){
+          var e = elements[i]
+          if (e.className == toggle_class) {
+            if (e.style.display != 'none') {
+              e.style.display = 'none'
+            } else {
+              e.style.display = 'table-row'
+            }
+          }
+        }
+      }
+    </script>
+    
+    <script type='text/javascript'>
+      function toggle_detail(my_id){
+        var element = document.getElementById(my_id)
+        var buttoncell = document.getElementById(my_id+"_cell")
+        var button = document.getElementById(my_id+"_btn")
+        if (element.style.display != 'none') {
+          element.style.display = 'none'
+          buttoncell.style.borderRadius = '0.0em'
+          button.firstChild.data = '\u25bc'
+        } else {
+          element.style.display = ''
+          buttoncell.style.borderRadius = '0.0em 0.0em 0 0'
+          button.firstChild.data = '\u25b2'
+        }
+      }
+    </script>
+    
+    <script type='text/javascript'>
+      function toggle_all_results(){
+        var elements = document.getElementsByClassName('result_body')
+        for (var i = 0; i < elements.length; i++){
+          var e = elements[i]
+          if (e.style.display != 'none') {
+            e.style.display = 'none'
+          } else {
+            e.style.display = ''
+          }
+        }
+      }
+    </script>
+  </head>
+  <body onload="toggle_all_results()">
+    <h1>FontSniffer Report</h1>
+    <p>Library Project, start: 2020-09-09 - 14:26.07, end: 14:26.13</p>
+    <table class='togglemessages'>
+      <tr>
+        <td>Show messages:</td>
+        <td><input type='checkbox' checked name='P' id='itoggle' onclick='toggle("P");'>
+          <label for='itoggle'>Pass</label></td>
+        <td><input type='checkbox' checked name='I' id='itoggle' onclick='toggle("I");'>
+          <label for='itoggle'>Info</label></td>
+        <td><input type='checkbox' checked name='W' id='wtoggle'onclick='toggle("W");'>
+          <label for='wtoggle'>Warning</label></td>
+        <td><input type='checkbox' checked name='E' id='etoggle' onclick='toggle("E");'>
+          <label for='etoggle'>Error</label></td>
+        <td><input type='checkbox' checked name='C' id='ctoggle' onclick='toggle("C");'>
+          <label for='ctoggle'>Critical</label></td>
+          
+        <td><button onclick='toggle_all_results();'>Toggle all details</button></td>
+      </tr>
+    </table>
+    
+        <table class="fontlist">
+
+            <thead>
+                <tr><th>Font List</th></tr>
+            </thead>
+            <tbody>
+								<tr><td>Crafty Girls Regular (CraftyGirls-Regular.ttf)</td></tr>
+						</tbody>
+        </table>
+
+            <h2>Table Description</h2>
+            <table class="results">
+
+                <thead>
+                    <tr>
+                    <th class="A code" id="Table Description_cell">
+                    <button id="Table Description_btn" onclick='toggle_detail("Table Description");' title="Toggle details">&#x25bc;</button>
+                    </th>
+                    <th colspan="3"><h3>Table Description</h3></th></tr>
+                </thead>
+              <tbody id="Table Description" class="result_body">
+                    
+                <tr class="A">
+                    <td class="code"><p>Level</p></td>
+                    <td class="fontname"><p>Font Name</p></td>
+                    <td class="table"><p>Table</p></td>
+                    <td class="feature"><p>Feature/Item</p></td>
+                    <td class="message"><p>Description</p></td>
+                    <td class="detail"><p>Notes</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+              </tbody>
+            </table>				<h2>Table Version</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Table Version_cell">
+                <button id="Table Version_btn" onclick='toggle_detail("Table Version");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Table Version</h3></th></tr>
+            </thead>
+            <tbody id="Table Version" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>head</p></td>
+                    <td class="feature"><p>version</p></td>
+                    <td class="message"><p>head table version should be 1.0.</p></td>
+                    <td class="detail"><p>head table version is 1.0.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="W">
+                    <td class="code"><p>Warning</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>version</p></td>
+                    <td class="message"><p>OS/2 table version should be 4.</p></td>
+                    <td class="detail"><p>OS/2 table version is '3' but should be 4. Please verify agains job spec.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>post</p></td>
+                    <td class="feature"><p>format</p></td>
+                    <td class="message"><p>If not CFF, post table format should be 2.</p></td>
+                    <td class="detail"><p>Format is 2.0</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>OT Sanitizer</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="OT Sanitizer_cell">
+                <button id="OT Sanitizer_btn" onclick='toggle_detail("OT Sanitizer");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>OT Sanitizer</h3></th></tr>
+            </thead>
+            <tbody id="OT Sanitizer" class="result_body">
+                    
+                <tr class="S">
+                    <td class="code"><p>Serious</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>-/-</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>-/-</p></td>
+                    <td class="detail"><p>There might be an issue in the script itself or in the font. In any case, please get in contact with the fonttools team and send them the font(s) you used:<br>fonttools.help@monotype.com</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Weight Class</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Weight Class_cell">
+                <button id="Weight Class_btn" onclick='toggle_detail("Weight Class");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Weight Class</h3></th></tr>
+            </thead>
+            <tbody id="Weight Class" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>usWeightClass</p></td>
+                    <td class="message"><p>OS/2 weight class should be greater then 250 otherwise it cause issues in MS PowerPoint.</p></td>
+                    <td class="detail"><p>OK: usWeightClass is '400'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>File Name</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="File Name_cell">
+                <button id="File Name_btn" onclick='toggle_detail("File Name");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>File Name</h3></th></tr>
+            </thead>
+            <tbody id="File Name" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>-/-</p></td>
+                    <td class="feature"><p>File Name</p></td>
+                    <td class="message"><p>File name should not be longer than 31 characters, otherwise style linking does not work in MS Word/Mac.</p></td>
+                    <td class="detail"><p>file name length is '23': 'CraftyGirls-Regular.ttf'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>-/-</p></td>
+                    <td class="feature"><p>File Name</p></td>
+                    <td class="message"><p>File name should not be longer than 31 characters, contain space and have more then one dot for ending.</p></td>
+                    <td class="detail"><p>Everything is fine: 'CraftyGirls-Regular.ttf'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Style Linking</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Style Linking_cell">
+                <button id="Style Linking_btn" onclick='toggle_detail("Style Linking");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Style Linking</h3></th></tr>
+            </thead>
+            <tbody id="Style Linking" class="result_body">
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>-/-</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Check if italic or upright.</p></td>
+                    <td class="detail"><p>It seems to be an upright font.<br>OS2.fsSelection.italic: False<br>head.macStyle.italic: False<br>post.header.italicAngle: 0.0</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>-/-</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Check if bold.</p></td>
+                    <td class="detail"><p>It seems to be not bold.<br>OS2.fsSelection.bold: False<br>head.macStyle.bold: False</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Empty Glyphs</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Empty Glyphs_cell">
+                <button id="Empty Glyphs_btn" onclick='toggle_detail("Empty Glyphs");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Empty Glyphs</h3></th></tr>
+            </thead>
+            <tbody id="Empty Glyphs" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>glyf</p></td>
+                    <td class="feature"><p>outline</p></td>
+                    <td class="message"><p>Unicodes should have outlines.</p></td>
+                    <td class="detail"><p>The following glyphs have no outlines, but this is correct:<br>SPACE (uni0020)<br>NO-BREAK SPACE (uni00A0)</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Supplementary NFC</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Supplementary NFC_cell">
+                <button id="Supplementary NFC_btn" onclick='toggle_detail("Supplementary NFC");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Supplementary NFC</h3></th></tr>
+            </thead>
+            <tbody id="Supplementary NFC" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>unicode</p></td>
+                    <td class="message"><p>Supplementary glyphs</p></td>
+                    <td class="detail"><p>No issues found.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Supplementary Glyphs</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Supplementary Glyphs_cell">
+                <button id="Supplementary Glyphs_btn" onclick='toggle_detail("Supplementary Glyphs");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Supplementary Glyphs</h3></th></tr>
+            </thead>
+            <tbody id="Supplementary Glyphs" class="result_body">
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>unicode</p></td>
+                    <td class="message"><p>Supplementary glyphs</p></td>
+                    <td class="detail"><p>Can be added as double encoded character(s):<br>uni0022 (QUOTATION MARK) is present, but 'uni2033' is missing.<br>uni0027 (APOSTROPHE) is present, but 'uni2032' is missing.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Check against Base Glyph Advance Width</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Check against Base Glyph Advance Width_cell">
+                <button id="Check against Base Glyph Advance Width_btn" onclick='toggle_detail("Check against Base Glyph Advance Width");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Check against Base Glyph Advance Width</h3></th></tr>
+            </thead>
+            <tbody id="Check against Base Glyph Advance Width" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hmtx</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Compare advance width against base glyph advance width (tolerance 2 units).</p></td>
+                    <td class="detail"><p>'Scaron' (ID 4): width is 520, base glyph ('S' (ID 72)) width is 520<br>'scaron' (ID 5): width is 531, base glyph ('s' (ID 104)) width is 531<br>'Yacute' (ID 6): width is 726, base glyph ('Y' (ID 78)) width is 726<br>'yacute' (ID 7): width is 584, base glyph ('y' (ID 110)) width is 584<br>'Zcaron' (ID 10): width is 707, base glyph ('Z' (ID 79)) width is 707<br>'zcaron' (ID 11): width is 542, base glyph ('z' (ID 111)) width is 542<br>'Adieresis' (ID 116): width is 786, base glyph ('A' (ID 54)) width is 786<br>'Eacute' (ID 119): width is 554, base glyph ('E' (ID 58)) width is 554<br>'Ntilde' (ID 120): width is 750, base glyph ('N' (ID 67)) width is 750<br>'Odieresis' (ID 121): width is 810, base glyph ('O' (ID 68)) width is 810<br>'Udieresis' (ID 122): width is 688, base glyph ('U' (ID 74)) width is 688<br>'aacute' (ID 123): width is 678, base glyph ('a' (ID 86)) width is 678<br>'agrave' (ID 124): width is 678, base glyph ('a' (ID 86)) width is 678<br>'acircumflex' (ID 125): width is 678, base glyph ('a' (ID 86)) width is 678<br>'adieresis' (ID 126): width is 678, base glyph ('a' (ID 86)) width is 678<br>'atilde' (ID 127): width is 678, base glyph ('a' (ID 86)) width is 678<br>'eacute' (ID 130): width is 599, base glyph ('e' (ID 90)) width is 599<br>'egrave' (ID 131): width is 599, base glyph ('e' (ID 90)) width is 599<br>'ecircumflex' (ID 132): width is 599, base glyph ('e' (ID 90)) width is 599<br>'edieresis' (ID 133): width is 599, base glyph ('e' (ID 90)) width is 599<br>'iacute' (ID 134): width is 217, base glyph ('dotlessi' (ID 216)) width is 217<br>'ntilde' (ID 138): width is 610, base glyph ('n' (ID 99)) width is 610<br>'oacute' (ID 139): width is 655, base glyph ('o' (ID 100)) width is 655<br>'ograve' (ID 140): width is 655, base glyph ('o' (ID 100)) width is 655<br>'ocircumflex' (ID 141): width is 655, base glyph ('o' (ID 100)) width is 655<br>'odieresis' (ID 142): width is 655, base glyph ('o' (ID 100)) width is 655<br>'otilde' (ID 143): width is 655, base glyph ('o' (ID 100)) width is 655<br>'uacute' (ID 144): width is 593, base glyph ('u' (ID 106)) width is 593<br>'ugrave' (ID 145): width is 593, base glyph ('u' (ID 106)) width is 593<br>'ucircumflex' (ID 146): width is 593, base glyph ('u' (ID 106)) width is 593<br>'udieresis' (ID 147): width is 593, base glyph ('u' (ID 106)) width is 593<br>'Agrave' (ID 176): width is 786, base glyph ('A' (ID 54)) width is 786<br>'Atilde' (ID 177): width is 786, base glyph ('A' (ID 54)) width is 786<br>'Otilde' (ID 178): width is 810, base glyph ('O' (ID 68)) width is 810<br>'ydieresis' (ID 188): width is 584, base glyph ('y' (ID 110)) width is 584<br>'Ydieresis' (ID 189): width is 726, base glyph ('Y' (ID 78)) width is 726<br>'Acircumflex' (ID 200): width is 786, base glyph ('A' (ID 54)) width is 786<br>'Ecircumflex' (ID 201): width is 554, base glyph ('E' (ID 58)) width is 554<br>'Aacute' (ID 202): width is 786, base glyph ('A' (ID 54)) width is 786<br>'Edieresis' (ID 203): width is 554, base glyph ('E' (ID 58)) width is 554<br>'Egrave' (ID 204): width is 554, base glyph ('E' (ID 58)) width is 554<br>'Icircumflex' (ID 206): width is 275, base glyph ('I' (ID 62)) width is 275<br>'Oacute' (ID 209): width is 810, base glyph ('O' (ID 68)) width is 810<br>'Ocircumflex' (ID 210): width is 810, base glyph ('O' (ID 68)) width is 810<br>'Ograve' (ID 212): width is 810, base glyph ('O' (ID 68)) width is 810<br>'Uacute' (ID 213): width is 688, base glyph ('U' (ID 74)) width is 688<br>'Ucircumflex' (ID 214): width is 688, base glyph ('U' (ID 74)) width is 688<br>'Ugrave' (ID 215): width is 688, base glyph ('U' (ID 74)) width is 688<br>'Aring' (ID 117): width is 786, base glyph ('A' (ID 54)) width is 786<br>'Ccedilla' (ID 118): width is 780, base glyph ('C' (ID 56)) width is 779<br>'aring' (ID 128): width is 678, base glyph ('a' (ID 86)) width is 678<br>'iacute' (ID 134): width is 217, base glyph ('i' (ID 94)) width is 217</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hmtx</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Compare advance width against base glyph advance width (tolerance 2 units).</p></td>
+                    <td class="detail"><p>'igrave' (ID 135): width is 217, base glyph ('dotlessi' (ID 216)) width is 217<br>'icircumflex' (ID 136): width is 217, base glyph ('dotlessi' (ID 216)) width is 217<br>'idieresis' (ID 137): width is 217, base glyph ('dotlessi' (ID 216)) width is 217<br>'Iacute' (ID 205): width is 275, base glyph ('I' (ID 62)) width is 275<br>'Idieresis' (ID 207): width is 275, base glyph ('I' (ID 62)) width is 275<br>'Igrave' (ID 208): width is 275, base glyph ('I' (ID 62)) width is 275<br>'Lslash' (ID 2): width is 510, base glyph ('L' (ID 65)) width is 510<br>'lslash' (ID 3): width is 224, base glyph ('l' (ID 97)) width is 224<br>'igrave' (ID 135): width is 217, base glyph ('i' (ID 94)) width is 217<br>'icircumflex' (ID 136): width is 217, base glyph ('i' (ID 94)) width is 217<br>'idieresis' (ID 137): width is 217, base glyph ('i' (ID 94)) width is 217<br>'Oslash' (ID 160): width is 810, base glyph ('O' (ID 68)) width is 810<br>'oslash' (ID 168): width is 640, base glyph ('o' (ID 100)) width is 655<br>'Iacute' (ID 205): width is 275, base glyph ('I' (ID 62)) width is 275<br>'Idieresis' (ID 207): width is 275, base glyph ('I' (ID 62)) width is 275<br>'Igrave' (ID 208): width is 275, base glyph ('I' (ID 62)) width is 275</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="W">
+                    <td class="code"><p>Warning</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hmtx</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Compare advance width against base glyph advance width (tolerance 2 units).</p></td>
+                    <td class="detail"><p>'ellipsis' (ID 174): width is 396, base glyph ('period' (ID 35)) width is 109<br>'ccedilla' (ID 129): width is 564, base glyph ('c' (ID 88)) width is 638</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Compare Advance Width hmtx and CFF table</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Compare Advance Width hmtx and CFF table_cell">
+                <button id="Compare Advance Width hmtx and CFF table_btn" onclick='toggle_detail("Compare Advance Width hmtx and CFF table");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Compare Advance Width hmtx and CFF table</h3></th></tr>
+            </thead>
+            <tbody id="Compare Advance Width hmtx and CFF table" class="result_body">
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hmtx/CFF</p></td>
+                    <td class="feature"><p>Advance width</p></td>
+                    <td class="message"><p>Advance width of hmtx and CFF table should be the same (tolerance 2 units).</p></td>
+                    <td class="detail"><p>This is a TrueType font. This test is only for CFF.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Individual Glyphs</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Individual Glyphs_cell">
+                <button id="Individual Glyphs_btn" onclick='toggle_detail("Individual Glyphs");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Individual Glyphs</h3></th></tr>
+            </thead>
+            <tbody id="Individual Glyphs" class="result_body">
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>post</p></td>
+                    <td class="feature"><p>PostScript names</p></td>
+                    <td class="message"><p>Check double NULL</p></td>
+                    <td class="detail"><p>Font does not have NULL at all. Please investigate.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>glyf</p></td>
+                    <td class="feature"><p>Contours</p></td>
+                    <td class="message"><p>.notdef should be TOFU.</p></td>
+                    <td class="detail"><p>.notdef is empty.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>uni200B</p></td>
+                    <td class="message"><p>Check ZERO WIDTH SPACE</p></td>
+                    <td class="detail"><p>Missing uni200B in cmap table.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>FEFF</p></td>
+                    <td class="message"><p>ZERO WIDTH NO-BREAK SPACE: Missing FEFF in cmap table.</p></td>
+                    <td class="detail"><p>Required for Monotype library. Please add unicode FEFF. Custom work refer to spec.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>00AD</p></td>
+                    <td class="message"><p>Soft hyphen 00AD in cmap table.</p></td>
+                    <td class="detail"><p>Soft hyphen is often used in web and in professional print publishing software like Adobe InDesign.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hmtx</p></td>
+                    <td class="feature"><p>Index 21 and 175</p></td>
+                    <td class="message"><p>Advance width of nonbreakingspace (uni00A0) should match the space (uni0020) width.</p></td>
+                    <td class="detail"><p>OK: Advance width nonbreakingspace (uni00A0) does match the space (uni0020) width:<br>389 = 389</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>uni2009</p></td>
+                    <td class="message"><p>Advance width of 'thinspace' (uni2009) should be smaller than the width of space (uni0020).</p></td>
+                    <td class="detail"><p>Can not check, because no uni2009 in this font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>uni200A</p></td>
+                    <td class="message"><p>Advance width of 'hairspace' (uni200A) should be smaller than the width of space (uni0020).</p></td>
+                    <td class="detail"><p>Can not check, because no uni200A in this font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>uni2004</p></td>
+                    <td class="message"><p>Advance width of 'THREE-PER-EM SPACE' (uni2004) should be 1/3 of em-square.</p></td>
+                    <td class="detail"><p>Can not check, because no uni2004 in this font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>uni2005</p></td>
+                    <td class="message"><p>Advance width of 'FOUR-PER-EM SPACE' (uni2005) should be 1/4 of em-square.</p></td>
+                    <td class="detail"><p>Can not check, because no uni2005 in this font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>uni2006</p></td>
+                    <td class="message"><p>Advance width of 'SIX-PER-EM SPACE' (uni2006) should be 1/6 of em-square.</p></td>
+                    <td class="detail"><p>Can not check, because no uni2006 in this font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>uni2002</p></td>
+                    <td class="message"><p>Advance width of 'EN SPACE' (uni2002) should be 50%% of em-square.</p></td>
+                    <td class="detail"><p>Can not check, because no uni2002 in this font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>uni2003</p></td>
+                    <td class="message"><p>Advance width of 'EM SPACE' (uni2003) should be equal to UPM.</p></td>
+                    <td class="detail"><p>Can not check, because no uni2003 in this font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>uni2008</p></td>
+                    <td class="message"><p>Advance width of 'PUNCTUATION SPACE' (uni2008) should be equal to the 'period' advance width.</p></td>
+                    <td class="detail"><p>Can not check, because no uni2008 in this font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Nodes Close to Zones (CFF)</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Nodes Close to Zones (CFF)_cell">
+                <button id="Nodes Close to Zones (CFF)_btn" onclick='toggle_detail("Nodes Close to Zones (CFF)");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Nodes Close to Zones (CFF)</h3></th></tr>
+            </thead>
+            <tbody id="Nodes Close to Zones (CFF)" class="result_body">
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>CFF</p></td>
+                    <td class="feature"><p>Alignment Zones</p></td>
+                    <td class="message"><p>Check if nodes are close to a zone, but not in or touching it.</p></td>
+                    <td class="detail"><p>This is a TTF, but this test is only for CFF fonts.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Should be Composite (only .ttf)</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Should be Composite (only .ttf)_cell">
+                <button id="Should be Composite (only .ttf)_btn" onclick='toggle_detail("Should be Composite (only .ttf)");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Should be Composite (only .ttf)</h3></th></tr>
+            </thead>
+            <tbody id="Should be Composite (only .ttf)" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>glyf</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Glyphs (LATIN) which are made from components.<br>Great.</p></td>
+                    <td class="detail"><p>'Aacute' (uni00C1) (ID 202)<br>'Acircumflex' (uni00C2) (ID 200)<br>'Adieresis' (uni00C4) (ID 116)<br>'Agrave' (uni00C0) (ID 176)<br>'Atilde' (uni00C3) (ID 177)<br>'Eacute' (uni00C9) (ID 119)<br>'Ecircumflex' (uni00CA) (ID 201)<br>'Edieresis' (uni00CB) (ID 203)<br>'Egrave' (uni00C8) (ID 204)<br>'Iacute' (uni00CD) (ID 205)<br>'Icircumflex' (uni00CE) (ID 206)<br>'Idieresis' (uni00CF) (ID 207)<br>'Igrave' (uni00CC) (ID 208)<br>'Ntilde' (uni00D1) (ID 120)<br>'Oacute' (uni00D3) (ID 209)<br>'Ocircumflex' (uni00D4) (ID 210)<br>'Odieresis' (uni00D6) (ID 121)<br>'Ograve' (uni00D2) (ID 212)<br>'Otilde' (uni00D5) (ID 178)<br>'Scaron' (uni0160) (ID 4)<br>'Uacute' (uni00DA) (ID 213)<br>'Ucircumflex' (uni00DB) (ID 214)<br>'Udieresis' (uni00DC) (ID 122)<br>'Ugrave' (uni00D9) (ID 215)<br>'Yacute' (uni00DD) (ID 6)<br>'Ydieresis' (uni0178) (ID 189)<br>'Zcaron' (uni017D) (ID 10)<br>'aacute' (uni00E1) (ID 123)<br>'acircumflex' (uni00E2) (ID 125)<br>'adieresis' (uni00E4) (ID 126)<br>'agrave' (uni00E0) (ID 124)<br>'atilde' (uni00E3) (ID 127)<br>'eacute' (uni00E9) (ID 130)<br>'ecircumflex' (uni00EA) (ID 132)<br>'edieresis' (uni00EB) (ID 133)<br>'egrave' (uni00E8) (ID 131)<br>'iacute' (uni00ED) (ID 134)<br>'icircumflex' (uni00EE) (ID 136)<br>'idieresis' (uni00EF) (ID 137)<br>'igrave' (uni00EC) (ID 135)<br>'ntilde' (uni00F1) (ID 138)<br>'oacute' (uni00F3) (ID 139)<br>'ocircumflex' (uni00F4) (ID 141)<br>'odieresis' (uni00F6) (ID 142)<br>'ograve' (uni00F2) (ID 140)<br>'otilde' (uni00F5) (ID 143)<br>'scaron' (uni0161) (ID 5)<br>'uacute' (uni00FA) (ID 144)<br>'ucircumflex' (uni00FB) (ID 146)<br>'udieresis' (uni00FC) (ID 147)<br>'ugrave' (uni00F9) (ID 145)<br>'yacute' (uni00FD) (ID 7)<br>'ydieresis' (uni00FF) (ID 188)<br>'zcaron' (uni017E) (ID 11)</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="W">
+                    <td class="code"><p>Warning</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>glyf</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Glyphs (LATIN) which chould be made from components (in many cases).<br>Please investigate and approve if correct.</p></td>
+                    <td class="detail"><p>'Aring' (uni00C5) (ID 117)<br>'fi' (uniFB01) (ID 194)<br>'fl' (uniFB02) (ID 195)</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>glyf</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Glyphs (LATIN) which chould be made from components (in many cases).<br>Please investigate and approve if correct.</p></td>
+                    <td class="detail"><p>'aring' (uni00E5) (ID 128)</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>glyf</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Glyphs (FRACTIONS) which chould be made from components (in many cases).<br>Please investigate and approve if correct.</p></td>
+                    <td class="detail"><p>'onehalf' (uni00BD) (ID 12)<br>'onequarter' (uni00BC) (ID 13)<br>'threequarters' (uni00BE) (ID 15)</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>glyf</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Glyphs (OTHER) which chould be made from components (in many cases).<br>Please investigate and approve if correct.</p></td>
+                    <td class="detail"><p>'sfthyphen' (uni00AD) (ID 227)</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Should not be Composite (CFF)</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Should not be Composite (CFF)_cell">
+                <button id="Should not be Composite (CFF)_btn" onclick='toggle_detail("Should not be Composite (CFF)");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Should not be Composite (CFF)</h3></th></tr>
+            </thead>
+            <tbody id="Should not be Composite (CFF)" class="result_body">
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>CFF </p></td>
+                    <td class="feature"><p>Composite</p></td>
+                    <td class="message"><p>CFF font should not have any composite.</p></td>
+                    <td class="detail"><p>This is not a CFF font. Skipped this check.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Advance Width (zero or negative)</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Advance Width (zero or negative)_cell">
+                <button id="Advance Width (zero or negative)_btn" onclick='toggle_detail("Advance Width (zero or negative)");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Advance Width (zero or negative)</h3></th></tr>
+            </thead>
+            <tbody id="Advance Width (zero or negative)" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hmtx</p></td>
+                    <td class="feature"><p>advance width</p></td>
+                    <td class="message"><p>Advance width should not be negative or zero.</p></td>
+                    <td class="detail"><p>OK: There is no negative advance width for any glyph in the font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Un/Necessary Tables</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Un/Necessary Tables_cell">
+                <button id="Un/Necessary Tables_btn" onclick='toggle_detail("Un/Necessary Tables");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Un/Necessary Tables</h3></th></tr>
+            </thead>
+            <tbody id="Un/Necessary Tables" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>-/-</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Unnecessary tables (private tables and embedded bitmap tables).</p></td>
+                    <td class="detail"><p>OK: No unnecessary tables.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>DSIG</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Necessary tables.</p></td>
+                    <td class="detail"><p>'DSIG' is missing. Please investigate.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>First Four Characters</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="First Four Characters_cell">
+                <button id="First Four Characters_btn" onclick='toggle_detail("First Four Characters");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>First Four Characters</h3></th></tr>
+            </thead>
+            <tbody id="First Four Characters" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>post</p></td>
+                    <td class="feature"><p>Index 0</p></td>
+                    <td class="message"><p>PostScript name should be ".notdef".</p></td>
+                    <td class="detail"><p>OK: Index 0 = ".notdef".</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hmtx</p></td>
+                    <td class="feature"><p>Index 0</p></td>
+                    <td class="message"><p>'.notdef' advance width should not be 0.</p></td>
+                    <td class="detail"><p>OK: '.notdef' advance width is 389.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>post</p></td>
+                    <td class="feature"><p>Index 1</p></td>
+                    <td class="message"><p>PostScript name should be one of the names:<br>".null"<br>"null"<br>"NULL".</p></td>
+                    <td class="detail"><p>Index 1 = "eth".<br>Check that character is the correct glyph.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>post</p></td>
+                    <td class="feature"><p>Index 2</p></td>
+                    <td class="message"><p>PostScript name should be one of the names:<br>"nonmarkingreturn"<br>"CR".</p></td>
+                    <td class="detail"><p>Index 2 = "Lslash". Check that character is the correct glyph.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>post</p></td>
+                    <td class="feature"><p>Index 3</p></td>
+                    <td class="message"><p>PostScript name should be "space"</p></td>
+                    <td class="detail"><p>Index 3 = "lslash". Check that character is the correct glyph.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>OS/2 table</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="OS/2 table_cell">
+                <button id="OS/2 table_btn" onclick='toggle_detail("OS/2 table");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>OS/2 table</h3></th></tr>
+            </thead>
+            <tbody id="OS/2 table" class="result_body">
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>table version 3.</p></td>
+                    <td class="message"><p>'OS/2' table version should be 4.</p></td>
+                    <td class="detail"><p>'OS/2' table version is: 3. Verify that this is the version required.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>italic flag</p></td>
+                    <td class="message"><p>'OS/2' fsSelection italic flag should match the 'head' macStyle italic flag. They should be the same.</p></td>
+                    <td class="detail"><p>OK: They are the same.'OS/2' fsSelection italic flag is False and 'head' macStyle italic flag is False.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>usBreakChar</p></td>
+                    <td class="message"><p>'OS/2' usBreakChar should be 0x0020.</p></td>
+                    <td class="detail"><p>OK: 'OS/2' usBreakChar is 0x0020.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>usDefaultChar</p></td>
+                    <td class="message"><p>'OS/2' usDefaultChar should be 0x0000.</p></td>
+                    <td class="detail"><p>OK: 'OS/2' usDefaultChar is 0x0000.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>usFirstCharIndex</p></td>
+                    <td class="message"><p>'OS/2' usFirstCharIndex should be 0x0020</p></td>
+                    <td class="detail"><p>OK: 'OS/2' usFirstCharIndex is 0x0020.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>usLastCharIndex</p></td>
+                    <td class="message"><p>'OS/2' usLastCharIndex should be 0xFB02</p></td>
+                    <td class="detail"><p>OK: 'OS/2' usLastCharIndex is 0xFB02.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>Embedding Level</p></td>
+                    <td class="message"><p>For library fonts embedding level should be 'Preview & Print Embedding'.</p></td>
+                    <td class="detail"><p>Embedding Level is 'Embedding Level = Installable Embedding'. If custom font please check against job spec.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>fsType</p></td>
+                    <td class="message"><p>Pull 'OS/2' fsType.</p></td>
+                    <td class="detail"><p>embedding level: Embedding Level = Installable Embedding<br>no subsetting flag: False<br>bitmap embedding only flag: False</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>fvar table</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="fvar table_cell">
+                <button id="fvar table_btn" onclick='toggle_detail("fvar table");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>fvar table</h3></th></tr>
+            </thead>
+            <tbody id="fvar table" class="result_body">
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>fvar</p></td>
+                    <td class="feature"><p>variable font</p></td>
+                    <td class="message"><p>Variable font must have a fvar table.</p></td>
+                    <td class="detail"><p>This font is not a variable font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>STAT table</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="STAT table_cell">
+                <button id="STAT table_btn" onclick='toggle_detail("STAT table");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>STAT table</h3></th></tr>
+            </thead>
+            <tbody id="STAT table" class="result_body">
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>STAT</p></td>
+                    <td class="feature"><p>static font</p></td>
+                    <td class="message"><p>Variable font must have a STAT table.</p></td>
+                    <td class="detail"><p>No check of STAT table for static fonts included, yet. Static fonts do not need to have a STAT table. It is only recommended by Microsoft, not required.<br>More infos here:<br><a href='https://docs.microsoft.com/en-us/typography/opentype/spec/stat'>https://docs.microsoft.com/en-us/typography/opentype/spec/stat</a></p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Missing uni0000 and uni000D in cmap Table</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Missing uni0000 and uni000D in cmap Table_cell">
+                <button id="Missing uni0000 and uni000D in cmap Table_btn" onclick='toggle_detail("Missing uni0000 and uni000D in cmap Table");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Missing uni0000 and uni000D in cmap Table</h3></th></tr>
+            </thead>
+            <tbody id="Missing uni0000 and uni000D in cmap Table" class="result_body">
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>cmap(0, 3, 0)</p></td>
+                    <td class="message"><p>Missing uni0000 and uni000D in cmap MS/BMP(0,3,0) and Unicode/2.0, BMP only(3,1,0).</p></td>
+                    <td class="detail"><p>Please verify with spec or Project Manager if uni0000 is required, if so: PLEASE ADD.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>cmap(0, 3, 0)</p></td>
+                    <td class="message"><p>Missing uni0000 and uni000D in cmap MS/BMP(0,3,0) and Unicode/2.0, BMP only(3,1,0).</p></td>
+                    <td class="detail"><p>Please verify with spec or Project Manager if uni000D is required, if so: PLEASE ADD.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>cmap(3, 1, 0)</p></td>
+                    <td class="message"><p>Missing uni0000 and uni000D in cmap MS/BMP(0,3,0) and Unicode/2.0, BMP only(3,1,0).</p></td>
+                    <td class="detail"><p>Please verify with spec or Project Manager if uni0000 is required, if so: PLEASE ADD.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>cmap</p></td>
+                    <td class="feature"><p>cmap(3, 1, 0)</p></td>
+                    <td class="message"><p>Missing uni0000 and uni000D in cmap MS/BMP(0,3,0) and Unicode/2.0, BMP only(3,1,0).</p></td>
+                    <td class="detail"><p>Please verify with spec or Project Manager if uni000D is required, if so: PLEASE ADD.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Obsolete Language Tag TUR</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Obsolete Language Tag TUR_cell">
+                <button id="Obsolete Language Tag TUR_btn" onclick='toggle_detail("Obsolete Language Tag TUR");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Obsolete Language Tag TUR</h3></th></tr>
+            </thead>
+            <tbody id="Obsolete Language Tag TUR" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>-/-</p></td>
+                    <td class="feature"><p>TRK</p></td>
+                    <td class="message"><p>Obsolete language tag 'TUR' should be TRK.</p></td>
+                    <td class="detail"><p>OK: No language tag 'TUR' in any table.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Name Table</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Name Table_cell">
+                <button id="Name Table_btn" onclick='toggle_detail("Name Table");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Name Table</h3></th></tr>
+            </thead>
+            <tbody id="Name Table" class="result_body">
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 0</p></td>
+                    <td class="message"><p>Mac NID 0, Copyright.</p></td>
+                    <td class="detail"><p>There is something wrong: <br>'Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop. All rights reserved.'<br>Please verify against spec. It should follow this structure:<br>'Copyright (c) XXXX - XXXX /entity/. All rights reserved.'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 1</p></td>
+                    <td class="message"><p>Mac NID 1, Family Name length shouldn't be longer then 31.</p></td>
+                    <td class="detail"><p>OK: NID 1 length is '12'<br>'Crafty Girls' </p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 1</p></td>
+                    <td class="message"><p>Reserved word used in Family Name NID1 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following keywords: 'Regular, Bold, Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 1</p></td>
+                    <td class="message"><p>Reserved word used in Family Name NID1 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following keywords: 'Book, Ultra, Normal'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 1</p></td>
+                    <td class="message"><p>Reserved word used in Family Name NID1 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following keywords: 'Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 1</p></td>
+                    <td class="message"><p>Reserved word used in Family Name NID1 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following keywords: 'Regular, Bold, Italic, Extra, Light, Black, Thin, Wide, Ultra'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 1</p></td>
+                    <td class="message"><p>Should be camel case Family Name NID1</p></td>
+                    <td class="detail"><p>NID 1: OK. No camel case required.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 1</p></td>
+                    <td class="message"><p>Check style extentions Family Name NID1</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following beginnings: 'X, Ultra, Dm, Xtra, Ex, Sm, Extra, Semi, Demi'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name/OS/2</p></td>
+                    <td class="feature"><p>Mac NID 1</p></td>
+                    <td class="message"><p>Width Names Family Name NID1</p></td>
+                    <td class="detail"><p>OS/2 usWidthClass seems to be correct. Cannot find any specific width name in the name:<br>'Crafty Girls'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 2</p></td>
+                    <td class="message"><p>Mac NID 2, Subfamily.</p></td>
+                    <td class="detail"><p>OK: NID 2 is 'Regular'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 2</p></td>
+                    <td class="message"><p>Reserved word used in Subfamily Name NID2 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 2 does not contain any of the following keywords: 'Book, Ultra, Normal'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 2</p></td>
+                    <td class="message"><p>Reserved word used in Subfamily Name NID2 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 2 does not contain any of the following keywords: 'Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 4</p></td>
+                    <td class="message"><p>Mac NID 4, Full Name length shouldn't be longer than 31.</p></td>
+                    <td class="detail"><p>OK: NID 4 length is '20'<br>'Crafty Girls Regular' </p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="W">
+                    <td class="code"><p>Warning</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 4</p></td>
+                    <td class="message"><p>If NID 2 is 'Regular': Mac NID 4 = NID 1</p></td>
+                    <td class="detail"><p>NID 4 'Crafty Girls Regular' ≠ NID 1 'Crafty Girls'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 4</p></td>
+                    <td class="message"><p>Reserved word used in Full Name NID4 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 4 does not contain any of the following keywords: 'Book, Ultra, Normal'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 4</p></td>
+                    <td class="message"><p>Reserved word used in Full Name NID4 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 4 does not contain any of the following keywords: 'Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 4</p></td>
+                    <td class="message"><p>Should be camel case Full Name NID4</p></td>
+                    <td class="detail"><p>NID 4: OK. No camel case required.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 4</p></td>
+                    <td class="message"><p>Check style extentions Full Name NID4</p></td>
+                    <td class="detail"><p>NID 4 does not contain any of the following beginnings: 'X, Ultra, Dm, Xtra, Ex, Sm, Extra, Semi, Demi'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name/OS/2</p></td>
+                    <td class="feature"><p>Mac NID 4</p></td>
+                    <td class="message"><p>Width Names Full Name NID4</p></td>
+                    <td class="detail"><p>OS/2 usWidthClass seems to be correct. Cannot find any specific width name in the name:<br>'Crafty Girls Regular'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name/head</p></td>
+                    <td class="feature"><p>Mac NID 5</p></td>
+                    <td class="message"><p>name table version should match head table fontRevision.</p></td>
+                    <td class="detail"><p>OK: name table version entry 'Version 1.001' does match fontRevision 'Version 1.001'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 6</p></td>
+                    <td class="message"><p>Mac NID 6, PostScript Name length shouldn't be longer then 27.<br>(Otherwise it may cause issues in MS Word.)</p></td>
+                    <td class="detail"><p>NID 6 length is '19'<br>'CraftyGirls-Regular' </p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 6</p></td>
+                    <td class="message"><p>Mac NID 6, PostScript Name check for illegal characters.<br>Monotype uses NID 6 for creating CSS classes for their demo HTML. The following characters cause issues in the CSS code: '<br>, ,  , &, _, [, ], (, ), {, }, <, >, /, \, %'</p></td>
+                    <td class="detail"><p>NID 6 is 'CraftyGirls-Regular', Everything looks good.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 6</p></td>
+                    <td class="message"><p>Mac NID 6, PostScript Name check for illegal characters.<br>'space' in NID 6 cause issues in fontbook for Mac.</p></td>
+                    <td class="detail"><p>NID 6 is 'CraftyGirls-Regular', Everything looks good.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 6</p></td>
+                    <td class="message"><p>Reserved word used in PostScript Name NID6 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 6 does not contain any of the following keywords: 'Book, Ultra, Normal'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 6</p></td>
+                    <td class="message"><p>Reserved word used in PostScript Name NID6 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 6 does not contain any of the following keywords: 'Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 6</p></td>
+                    <td class="message"><p>Should be camel case PostScript Name NID6</p></td>
+                    <td class="detail"><p>NID 6: OK. No camel case required.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 7</p></td>
+                    <td class="message"><p>Test Trademark</p></td>
+                    <td class="detail"><p><b>Current trademark is:</b><br>'Crafty Girls is a trademark of Font Diner, Inc DBA Tart Workshop.'<br><b>but what do think about this</b><br>'Crafty Girls is a trademark of Font<mark>smith Ltd and may be registered in certain jurisdictions</mark>.'<br><br>(This is automatically generated and might be wrong. Must be confirmed by legal)</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 8</p></td>
+                    <td class="message"><p>Manufactur (NID 8) should be Monotype IP</p></td>
+                    <td class="detail"><p>Mac NID 8 is 'Font Diner, Inc DBA Tart Workshop', but should be one of these: 'Monotype Imaging Inc.', 'Monotype Imaging Inc', 'Monotype ITC Inc.', 'Monotype Hong Kong Limited', 'Monotype Limited', 'Monotype KK', 'Monotype Solutions India Private Limited', 'Monotype GmbH', 'MyFonts Inc.', 'MyFonts Inc', 'Fontsmith Ltd.', 'Fontsmith Ltd'.<br></p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 11</p></td>
+                    <td class="message"><p>Mac NID 11, URL Vendor should be 'http://www.monotype.com'. </p></td>
+                    <td class="detail"><p>NID 11 is http://www.fontbros.com/tartworkshop.php, but should be http://www.monotype.com. Please verify against job spec.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 12</p></td>
+                    <td class="message"><p>Mac NID 12, URL Vendor should be 'http://www.monotype.com'. </p></td>
+                    <td class="detail"><p>NID 12 is http://www.tartworkshop.com, but should be http://www.monotype.com. Please verify against job spec.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 8/13</p></td>
+                    <td class="message"><p>License text</p></td>
+                    <td class="detail"><p>Cannot check license text because of unkown entity 'Font Diner, Inc DBA Tart Workshop' (NID8). Please verify against job spec.<br>Mac NID 13 is:<br>Licensed under the Apache License, Version 2.0<br>, most common Monotype license test is:<br><mark>This font software is the property of Monotype Imaging Inc., or one of its affiliated entities (collectively, Monotype) and its use by you is covered under the terms of a license agreement. You have obtained this font software either directly from Monotype or together with software distributed by one of the licensees of Monotype. This software is a valuable asset of Monotype. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited by the terms of the actual license agreement you have entered into with Monotype. You may not copy or distribute this software. If you have any questions concerning your rights you should review the license agreement you received with the software. You can learn more about Monotype by clicking here: www.monotype.com.</mark></p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 14</p></td>
+                    <td class="message"><p>Mac NID 14, URL Vendor should be 'http://www.monotype.com'. </p></td>
+                    <td class="detail"><p>NID 14 is http://www.apache.org/licenses/LICENSE-2.0, but should be http://www.monotype.com. Please verify against job spec.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 0</p></td>
+                    <td class="message"><p>MS NID 0, Copyright.</p></td>
+                    <td class="detail"><p>There is something wrong: <br>'Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop. All rights reserved.'<br>Please verify against spec. It should follow this structure:<br>'Copyright (c) XXXX - XXXX /entity/. All rights reserved.'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 1</p></td>
+                    <td class="message"><p>MS NID 1, Family Name length shouldn't be longer then 31.</p></td>
+                    <td class="detail"><p>OK: NID 1 length is '12'<br>'Crafty Girls' </p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 1</p></td>
+                    <td class="message"><p>Reserved word used in Family Name NID1 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following keywords: 'Regular, Bold, Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 1</p></td>
+                    <td class="message"><p>Reserved word used in Family Name NID1 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following keywords: 'Book, Ultra, Normal'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 1</p></td>
+                    <td class="message"><p>Reserved word used in Family Name NID1 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following keywords: 'Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 1</p></td>
+                    <td class="message"><p>Reserved word used in Family Name NID1 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following keywords: 'Regular, Bold, Italic, Extra, Light, Black, Thin, Wide, Ultra'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 1</p></td>
+                    <td class="message"><p>Should be camel case Family Name NID1</p></td>
+                    <td class="detail"><p>NID 1: OK. No camel case required.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 1</p></td>
+                    <td class="message"><p>Check style extentions Family Name NID1</p></td>
+                    <td class="detail"><p>NID 1 does not contain any of the following beginnings: 'X, Ultra, Dm, Xtra, Ex, Sm, Extra, Semi, Demi'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name/OS/2</p></td>
+                    <td class="feature"><p>MS NID 1</p></td>
+                    <td class="message"><p>Width Names Family Name NID1</p></td>
+                    <td class="detail"><p>OS/2 usWidthClass seems to be correct. Cannot find any specific width name in the name:<br>'Crafty Girls'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 2</p></td>
+                    <td class="message"><p>MS NID 2, Subfamily.</p></td>
+                    <td class="detail"><p>OK: NID 2 is 'Regular'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 2</p></td>
+                    <td class="message"><p>Reserved word used in Subfamily Name NID2 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 2 does not contain any of the following keywords: 'Book, Ultra, Normal'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 2</p></td>
+                    <td class="message"><p>Reserved word used in Subfamily Name NID2 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 2 does not contain any of the following keywords: 'Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 4</p></td>
+                    <td class="message"><p>MS NID 4, Full Name length shouldn't be longer than 31.</p></td>
+                    <td class="detail"><p>OK: NID 4 length is '20'<br>'Crafty Girls Regular' </p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="W">
+                    <td class="code"><p>Warning</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 4</p></td>
+                    <td class="message"><p>If NID 2 is 'Regular': MS NID 4 = NID 1</p></td>
+                    <td class="detail"><p>NID 4 'Crafty Girls Regular' ≠ NID 1 'Crafty Girls'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 4</p></td>
+                    <td class="message"><p>Reserved word used in Full Name NID4 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 4 does not contain any of the following keywords: 'Book, Ultra, Normal'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 4</p></td>
+                    <td class="message"><p>Reserved word used in Full Name NID4 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 4 does not contain any of the following keywords: 'Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 4</p></td>
+                    <td class="message"><p>Should be camel case Full Name NID4</p></td>
+                    <td class="detail"><p>NID 4: OK. No camel case required.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 4</p></td>
+                    <td class="message"><p>Check style extentions Full Name NID4</p></td>
+                    <td class="detail"><p>NID 4 does not contain any of the following beginnings: 'X, Ultra, Dm, Xtra, Ex, Sm, Extra, Semi, Demi'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name/OS/2</p></td>
+                    <td class="feature"><p>MS NID 4</p></td>
+                    <td class="message"><p>Width Names Full Name NID4</p></td>
+                    <td class="detail"><p>OS/2 usWidthClass seems to be correct. Cannot find any specific width name in the name:<br>'Crafty Girls Regular'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name/head</p></td>
+                    <td class="feature"><p>MS NID 5</p></td>
+                    <td class="message"><p>name table version should match head table fontRevision.</p></td>
+                    <td class="detail"><p>OK: name table version entry 'Version 1.001' does match fontRevision 'Version 1.001'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 6</p></td>
+                    <td class="message"><p>MS NID 6, PostScript Name length shouldn't be longer then 27.<br>(Otherwise it may cause issues in MS Word.)</p></td>
+                    <td class="detail"><p>NID 6 length is '19'<br>'CraftyGirls-Regular' </p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 6</p></td>
+                    <td class="message"><p>MS NID 6, PostScript Name check for illegal characters.<br>Monotype uses NID 6 for creating CSS classes for their demo HTML. The following characters cause issues in the CSS code: '<br>, ,  , &, _, [, ], (, ), {, }, <, >, /, \, %'</p></td>
+                    <td class="detail"><p>NID 6 is 'CraftyGirls-Regular', Everything looks good.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 6</p></td>
+                    <td class="message"><p>MS NID 6, PostScript Name check for illegal characters.<br>'space' in NID 6 cause issues in fontbook for Mac.</p></td>
+                    <td class="detail"><p>NID 6 is 'CraftyGirls-Regular', Everything looks good.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 6</p></td>
+                    <td class="message"><p>Reserved word used in PostScript Name NID6 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 6 does not contain any of the following keywords: 'Book, Ultra, Normal'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 6</p></td>
+                    <td class="message"><p>Reserved word used in PostScript Name NID6 and not allowed in Microsoft Office applications.</p></td>
+                    <td class="detail"><p>NID 6 does not contain any of the following keywords: 'Roman'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 6</p></td>
+                    <td class="message"><p>Should be camel case PostScript Name NID6</p></td>
+                    <td class="detail"><p>NID 6: OK. No camel case required.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 7</p></td>
+                    <td class="message"><p>Test Trademark</p></td>
+                    <td class="detail"><p><b>Current trademark is:</b><br>'Crafty Girls is a trademark of Font Diner, Inc DBA Tart Workshop.'<br><b>but what do think about this</b><br>'Crafty Girls is a trademark of Font<mark>smith Ltd and may be registered in certain jurisdictions</mark>.'<br><br>(This is automatically generated and might be wrong. Must be confirmed by legal)</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 8</p></td>
+                    <td class="message"><p>Manufactur (NID 8) should be Monotype IP</p></td>
+                    <td class="detail"><p>MS NID 8 is 'Font Diner, Inc DBA Tart Workshop', but should be one of these: 'Monotype Imaging Inc.', 'Monotype Imaging Inc', 'Monotype ITC Inc.', 'Monotype Hong Kong Limited', 'Monotype Limited', 'Monotype KK', 'Monotype Solutions India Private Limited', 'Monotype GmbH', 'MyFonts Inc.', 'MyFonts Inc', 'Fontsmith Ltd.', 'Fontsmith Ltd'.<br></p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 11</p></td>
+                    <td class="message"><p>MS NID 11, URL Vendor should be 'http://www.monotype.com'. </p></td>
+                    <td class="detail"><p>NID 11 is http://www.fontbros.com/tartworkshop.php, but should be http://www.monotype.com. Please verify against job spec.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 12</p></td>
+                    <td class="message"><p>MS NID 12, URL Vendor should be 'http://www.monotype.com'. </p></td>
+                    <td class="detail"><p>NID 12 is http://www.tartworkshop.com, but should be http://www.monotype.com. Please verify against job spec.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 8/13</p></td>
+                    <td class="message"><p>License text</p></td>
+                    <td class="detail"><p>Cannot check license text because of unkown entity 'Font Diner, Inc DBA Tart Workshop' (NID8). Please verify against job spec.<br>MS NID 13 is:<br>Licensed under the Apache License, Version 2.0<br>, most common Monotype license test is:<br><mark>This font software is the property of Monotype Imaging Inc., or one of its affiliated entities (collectively, Monotype) and its use by you is covered under the terms of a license agreement. You have obtained this font software either directly from Monotype or together with software distributed by one of the licensees of Monotype. This software is a valuable asset of Monotype. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited by the terms of the actual license agreement you have entered into with Monotype. You may not copy or distribute this software. If you have any questions concerning your rights you should review the license agreement you received with the software. You can learn more about Monotype by clicking here: www.monotype.com.</mark></p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 14</p></td>
+                    <td class="message"><p>MS NID 14, URL Vendor should be 'http://www.monotype.com'. </p></td>
+                    <td class="detail"><p>NID 14 is http://www.apache.org/licenses/LICENSE-2.0, but should be http://www.monotype.com. Please verify against job spec.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 0</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop. All rights reserved.'<br>MS is: 'Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop. All rights reserved.'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 1</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'Crafty Girls'<br>MS is: 'Crafty Girls'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 2</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'Regular'<br>MS is: 'Regular'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 3</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: '1.001;DINR;CraftyGirls-Regular'<br>MS is: '1.001;DINR;CraftyGirls-Regular'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 4</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'Crafty Girls Regular'<br>MS is: 'Crafty Girls Regular'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 5</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'Version 1.001'<br>MS is: 'Version 1.001'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 6</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'CraftyGirls-Regular'<br>MS is: 'CraftyGirls-Regular'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 7</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'Crafty Girls is a trademark of Font Diner, Inc DBA Tart Workshop.'<br>MS is: 'Crafty Girls is a trademark of Font Diner, Inc DBA Tart Workshop.'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 8</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'Font Diner, Inc DBA Tart Workshop'<br>MS is: 'Font Diner, Inc DBA Tart Workshop'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 9</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'Crystal Kluge'<br>MS is: 'Crystal Kluge'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 11</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'http://www.fontbros.com/tartworkshop.php'<br>MS is: 'http://www.fontbros.com/tartworkshop.php'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 12</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'http://www.tartworkshop.com'<br>MS is: 'http://www.tartworkshop.com'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 13</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'Licensed under the Apache License, Version 2.0'<br>MS is: 'Licensed under the Apache License, Version 2.0'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac and MS NID 14</p></td>
+                    <td class="message"><p>Mac and MS name table entries should be the same (English).</p></td>
+                    <td class="detail"><p>Entries are the same.<br>Mac is: 'http://www.apache.org/licenses/LICENSE-2.0'<br>MS is: 'http://www.apache.org/licenses/LICENSE-2.0'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 0 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 0, Copyright' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Copyright is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 1 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 1, Family Name' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Family Name is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 2 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 2, Subfamily Name' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Subfamily Name is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 3 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 3, Unique Font ID' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Unique Font ID is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 4 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 4, Full Name' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Full Name is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 5 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 5, Version String' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Version String is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 6 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 6, PostScript Name' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>PostScript Name is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 7 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 7, Trademark' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Trademark is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 8 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 8, Manufactur' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Manufactur is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 9 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 9, Designer' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Designer is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 10 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 10, Description' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Description NID 10 (Mac/Roman/English) is missing.<br>Please verify agains spec. It might be ok if it's a symbol font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 11 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 11, Vendor URL' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Vendor URL is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 13 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 13, License Description' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>License Description is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 14 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 14, License Info URL' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>License Info URL is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 16 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 16, Typographic Family Name' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Typographic Family Name NID 16 (Mac/Roman/English) is missing.<br>Please verify agains spec. It might be ok if it's a symbol font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>Mac NID 17 (Mac/Roman/English)</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'Mac NID 17, Typographic Subfamily Name' (Mac/Roman/English)</p></td>
+                    <td class="detail"><p>Typographic Subfamily Name NID 17 (Mac/Roman/English) is missing.<br>Please verify agains spec. It might be ok if it's a symbol font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 0 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 0, Copyright' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Copyright is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 1 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 1, Family Name' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Family Name is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 2 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 2, Subfamily Name' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Subfamily Name is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 3 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 3, Unique Font ID' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Unique Font ID is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 4 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 4, Full Name' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Full Name is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 5 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 5, Version String' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Version String is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 6 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 6, PostScript Name' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>PostScript Name is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 7 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 7, Trademark' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Trademark is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 8 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 8, Manufactur' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Manufactur is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 9 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 9, Designer' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Designer is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 10 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 10, Description' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Description NID 10 (MS/BMP/English (U.S.)) is missing.<br>Please verify agains spec. It might be ok if it's a symbol font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 11 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 11, Vendor URL' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Vendor URL is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 13 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 13, License Description' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>License Description is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 14 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 14, License Info URL' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>License Info URL is present.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 16 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 16, Typographic Family Name' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Typographic Family Name NID 16 (MS/BMP/English (U.S.)) is missing.<br>Please verify agains spec. It might be ok if it's a symbol font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>name</p></td>
+                    <td class="feature"><p>MS NID 17 (MS/BMP/English (U.S.))</p></td>
+                    <td class="message"><p>Necessary name table entry according Monotype: 'MS NID 17, Typographic Subfamily Name' (MS/BMP/English (U.S.))</p></td>
+                    <td class="detail"><p>Typographic Subfamily Name NID 17 (MS/BMP/English (U.S.)) is missing.<br>Please verify agains spec. It might be ok if it's a symbol font.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Underline Position and Thickness</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Underline Position and Thickness_cell">
+                <button id="Underline Position and Thickness_btn" onclick='toggle_detail("Underline Position and Thickness");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Underline Position and Thickness</h3></th></tr>
+            </thead>
+            <tbody id="Underline Position and Thickness" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>post</p></td>
+                    <td class="feature"><p>underline position and thickness</p></td>
+                    <td class="message"><p>underlinePosition should be a negative and underlineThickness not 0 or negative.</p></td>
+                    <td class="detail"><p>underlinePosition is '-77'.<br>underlineThicknes is '51'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Kerning (kern Table and GPOS Kerning)</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Kerning (kern Table and GPOS Kerning)_cell">
+                <button id="Kerning (kern Table and GPOS Kerning)_btn" onclick='toggle_detail("Kerning (kern Table and GPOS Kerning)");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Kerning (kern Table and GPOS Kerning)</h3></th></tr>
+            </thead>
+            <tbody id="Kerning (kern Table and GPOS Kerning)" class="result_body">
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>GPOS</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Simple check if kern feature in GPOS table.</p></td>
+                    <td class="detail"><p>Font does not have GPOS table/kerning. Please investigate if this meets requirements.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="W">
+                    <td class="code"><p>Warning</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>kern</p></td>
+                    <td class="feature"><p>-/-</p></td>
+                    <td class="message"><p>Check if 'kern' table in TTF font.</p></td>
+                    <td class="detail"><p>Font has 'kern' table. Please verify if font requires kern table or if only GPOS kerning should be in font.<br>For example: PowerPoint only supports a flat GPOS kerning or a kern table. So, if the customer requires PowerPoint support, a kern table is necessary.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Vendor ID</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Vendor ID_cell">
+                <button id="Vendor ID_btn" onclick='toggle_detail("Vendor ID");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Vendor ID</h3></th></tr>
+            </thead>
+            <tbody id="Vendor ID" class="result_body">
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>achVendID</p></td>
+                    <td class="message"><p>Vendor ID should be 'MONO'</p></td>
+                    <td class="detail"><p>Vendor ID is 'DINR'. Please change to 'MONO'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>Vertical Metrics</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="Vertical Metrics_cell">
+                <button id="Vertical Metrics_btn" onclick='toggle_detail("Vertical Metrics");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>Vertical Metrics</h3></th></tr>
+            </thead>
+            <tbody id="Vertical Metrics" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2 and head</p></td>
+                    <td class="feature"><p>sTypeAsc/Desc and unitsPerEm</p></td>
+                    <td class="message"><p>The result of sTypoAscender – sTypoDescender should match or exceed the unitsPerEm value.</p></td>
+                    <td class="detail"><p>The result of sTypoAscender – sTypoDescender (1088) match or exceed the unitsPerEm value (1024).</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hhea</p></td>
+                    <td class="feature"><p>Vertical Metrics</p></td>
+                    <td class="message"><p>Pull hhea Metrics</p></td>
+                    <td class="detail"><p>hhea.ascent: 1001<br>hhea.descent: -461<br>hhea.lineGap: 21</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>Vertical Metrics</p></td>
+                    <td class="message"><p>Pull OS/2 sTypo Metrics</p></td>
+                    <td class="detail"><p>OS2.sTypoAscender: 761<br>OS2.sTypoDescender: -327<br>OS2.sTypoLineGap: 40</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>Vertical Metrics</p></td>
+                    <td class="message"><p>Pull OS/2 usWin Metrics</p></td>
+                    <td class="detail"><p>OS2.usWinAscent: 1001<br>OS2.usWinDescent: 461</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>xAvgCharWidth</p></td>
+                    <td class="message"><p>Get 'OS/2' xAvgCharWidth.</p></td>
+                    <td class="detail"><p>xAvgCharWidth = 565.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hhea</p></td>
+                    <td class="feature"><p>advanceWidthMax</p></td>
+                    <td class="message"><p>Get advanceWidthMax.</p></td>
+                    <td class="detail"><p>advanceWidthMax = 1276.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hhea</p></td>
+                    <td class="feature"><p>xMin, yMin, xMax, yMax</p></td>
+                    <td class="message"><p>Get xMin, yMin, xMax, yMax.</p></td>
+                    <td class="detail"><p>xMin: -297<br>yMin: -461<br>xMax: 1286<br>yMax: 999<br></p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>sTypoAscender</p></td>
+                    <td class="message"><p>Vertical Metrics 'sTypoAscender' shouldn't be negative.</p></td>
+                    <td class="detail"><p>sTypoAscender = '761'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>sTypoDescender</p></td>
+                    <td class="message"><p>Vertical Metrics 'sTypoDescender' should be negative.</p></td>
+                    <td class="detail"><p>sTypoDescender = '-327'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>sTypoLineGap</p></td>
+                    <td class="message"><p>Vertical Metrics 'sTypoLineGap' shouldn't be negative.</p></td>
+                    <td class="detail"><p>sTypoLineGap = '40'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>usWinAscent</p></td>
+                    <td class="message"><p>Vertical Metrics 'usWinAscent' shouldn't be negative.</p></td>
+                    <td class="detail"><p>usWinAscent = '1001'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>OS/2</p></td>
+                    <td class="feature"><p>usWinDescent</p></td>
+                    <td class="message"><p>Vertical Metrics 'usWinDescent' shouldn't be negative.</p></td>
+                    <td class="detail"><p>usWinDescent = '461'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hhea</p></td>
+                    <td class="feature"><p>ascent</p></td>
+                    <td class="message"><p>Vertical Metrics 'ascent' shouldn't be negative.</p></td>
+                    <td class="detail"><p>ascent = '1001'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hhea</p></td>
+                    <td class="feature"><p>descent</p></td>
+                    <td class="message"><p>Vertical Metrics 'descent' should be negative.</p></td>
+                    <td class="detail"><p>descent = '-461'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>hhea</p></td>
+                    <td class="feature"><p>lineGap</p></td>
+                    <td class="message"><p>Vertical Metrics 'lineGap' shouldn't be negative.</p></td>
+                    <td class="detail"><p>lineGap = '21'.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>gasp Table</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="gasp Table_cell">
+                <button id="gasp Table_btn" onclick='toggle_detail("gasp Table");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>gasp Table</h3></th></tr>
+            </thead>
+            <tbody id="gasp Table" class="result_body">
+                    
+                <tr class="E">
+                    <td class="code"><p>Error</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>gasp</p></td>
+                    <td class="feature"><p>Version</p></td>
+                    <td class="message"><p>gasp table verison should be 1.</p></td>
+                    <td class="detail"><p>Verison = 0</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>gasp</p></td>
+                    <td class="feature"><p>Default</p></td>
+                    <td class="message"><p>Pull gasp table Default.</p></td>
+                    <td class="detail"><p>Grid-fit = True, Do gray = True</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>gasp</p></td>
+                    <td class="feature"><p>Default</p></td>
+                    <td class="message"><p>Check gasp table Default.</p></td>
+                    <td class="detail"><p>gasp table default is:<br>Grid-fit = True, Do gray = True<br>and should be:<br>Grid-fit = True, Do gray = True, Symmetric grid-fit = True, Symmetric smoothing = True</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>gasp</p></td>
+                    <td class="feature"><p>subtable</p></td>
+                    <td class="message"><p>Pull gasp subtable: '8'</p></td>
+                    <td class="detail"><p>Do gray = True</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>head</p></td>
+                    <td class="feature"><p>lowestRecPPEM</p></td>
+                    <td class="message"><p>Monotype standard for lowestRecPPEM is '9'.</p></td>
+                    <td class="detail"><p>lowestRecPPEM is '9', but should be '9'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>gasp</p></td>
+                    <td class="feature"><p>subtable</p></td>
+                    <td class="message"><p>gasp subtable value should be one less than lowestRecPPEM (head table).</p></td>
+                    <td class="detail"><p>gasp subtable is '8' and should be '8'.<br>(head table lowestRecPPEM is '9')</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>gasp</p></td>
+                    <td class="feature"><p>subtable</p></td>
+                    <td class="message"><p>Monotype standard for gasp table.</p></td>
+                    <td class="detail"><p>gasp subtable '8' is<br>'Do gray = True'<br>equal to MT standard<br>'Do gray = True, Symmetric smoothing = True'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="I">
+                    <td class="code"><p>Info</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>gasp</p></td>
+                    <td class="feature"><p>subtable</p></td>
+                    <td class="message"><p>Pull gasp subtable: '16'</p></td>
+                    <td class="detail"><p>Grid-fit = True</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="W">
+                    <td class="code"><p>Warning</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>gasp</p></td>
+                    <td class="feature"><p>subtable</p></td>
+                    <td class="message"><p>gasp subtable value should be one less than lowestRecPPEM (head table).</p></td>
+                    <td class="detail"><p>gasp subtable is '16' but should be '8'.<br>(head table lowestRecPPEM is '9')</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                    
+                <tr class="W">
+                    <td class="code"><p>Warning</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>gasp</p></td>
+                    <td class="feature"><p>subtable</p></td>
+                    <td class="message"><p>Monotype standard for gasp table.</p></td>
+                    <td class="detail"><p>gasp subtable '16' is<br>'Grid-fit = True'<br>but should be:<br>'Do gray = True, Symmetric smoothing = True'</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>PostScript names</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="PostScript names_cell">
+                <button id="PostScript names_btn" onclick='toggle_detail("PostScript names");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>PostScript names</h3></th></tr>
+            </thead>
+            <tbody id="PostScript names" class="result_body">
+                    
+                <tr class="P">
+                    <td class="code"><p>Pass</p></td>
+                    <td class="fontname"><p>Crafty Girls Regular (CraftyGirls-Regular.ttf)</p></td>
+                    <td class="table"><p>post</p></td>
+                    <td class="feature"><p>PostScript names</p></td>
+                    <td class="message"><p>Postscript names should not be longer then 29 characters. May cause issues in PDF.</p></td>
+                    <td class="detail"><p>Every PostScript name is fine.</p></td>
+                    <!--<td class="time"><p><input type="checkbox"></p></td>-->
+                </tr>
+                      </tbody>
+            </table>				<h2>OT Features</h2>
+				<table class="results">
+
+						<thead>
+                <tr>
+                <th class="A code" id="OT Features_cell">
+                <button id="OT Features_btn" onclick='toggle_detail("OT Features");' title="Toggle details">&#x25bc;</button>
+                </th>
+                <th colspan="3"><h3>OT Features</h3></th></tr>
+            </thead>
+            <tbody id="OT Features" class="result_body">
+                      </tbody>
+            </table>
+    </body>
+</html>

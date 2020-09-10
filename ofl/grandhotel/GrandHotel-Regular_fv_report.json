@@ -1,0 +1,67 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "GrandHotel-Regular.ttf",
+                "type": "ttf",
+                "size": 65012,
+                "md5": "000c98f72dcc7e997782a3497138c5d9",
+                "geometryMd5": "d4638d451a5284eaf7acfb7dce0255b4"
+            },
+            "name": {
+                "family": "Grand Hotel",
+                "subFamily": "Regular",
+                "fullName": "Grand Hotel",
+                "psName": "GrandHotel-Regular",
+                "versionText": "Version 001.000",
+                "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved\rFont Name \"Grand Hotel\"",
+                "trademark": "Grand Hotel is a trademark of Astigmatic (AOETI)."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 369,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "AOEF",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Grand Hotel",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 2,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_5a5a2363255b4611b01723edf6664c0f.glyf.glyph 311 ('parenright').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T09:53:15.623191Z",
+                        "orig_output": "validate_5a5a2363255b4611b01723edf6664c0f.glyf.glyph 311 ('parenright').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_5a5a2363255b4611b01723edf6664c0f.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 852, but is 611",
+                        "timestamp": "2020-09-03T09:53:07.753573Z",
+                        "orig_output": "validate_5a5a2363255b4611b01723edf6664c0f.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 852, but is 611",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 15337,
+    "completedDate": "2020-09-03 09:53:19.283673"
+}

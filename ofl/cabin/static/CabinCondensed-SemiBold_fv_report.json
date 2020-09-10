@@ -1,0 +1,165 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "CabinCondensed-SemiBold.ttf",
+                "type": "ttf",
+                "size": 101864,
+                "md5": "c9a81391fe22ebf7f5ba12e5f4aa9d4e",
+                "geometryMd5": "cd0b8a910084d29523b856ddb376656f"
+            },
+            "name": {
+                "family": "Cabin Condensed SemiBold",
+                "subFamily": "Regular",
+                "fullName": "Cabin Condensed SemiBold",
+                "psName": "CabinCondensed-SemiBold",
+                "versionText": "Version 3.001; ttfautohint (v1.8.3)",
+                "copyright": "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)",
+                "trademark": "Cabin is a trademark of Pablo Impallari. www.impallari.com Igino Marini. www.ikern.com.",
+                "typographicFamily": "Cabin Condensed",
+                "typographicSubFamily": "SemiBold"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 747,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "IMPA",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Cabin Condensed SemiBold",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 14,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 115 ('Ncaron')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [132, 0, 1084, 1400], but are [132, 0, 1084, 1871].",
+                        "timestamp": "2020-09-03T09:50:32.596128Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 115 ('Ncaron') - ERROR - Bounds should be [132, 0, 1084, 1400], but are [132, 0, 1084, 1871].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 163 ('Rcaron')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [131, 0, 1056, 1400], but are [131, 0, 1056, 1871].",
+                        "timestamp": "2020-09-03T09:50:32.908637Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 163 ('Rcaron') - ERROR - Bounds should be [131, 0, 1056, 1400], but are [131, 0, 1056, 1871].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 172 ('Scaron')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [76, -28, 958, 1428], but are [76, -28, 958, 1871].",
+                        "timestamp": "2020-09-03T09:50:32.955349Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 172 ('Scaron') - ERROR - Bounds should be [76, -28, 958, 1428], but are [76, -28, 958, 1871].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 231 ('Zcaron')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [14, 0, 938, 1400], but are [14, 0, 938, 1871].",
+                        "timestamp": "2020-09-03T09:50:33.279855Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 231 ('Zcaron') - ERROR - Bounds should be [14, 0, 938, 1400], but are [14, 0, 938, 1871].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 306 ('uni0123')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [-550, -500, 860, 1570], but are [42, -500, 860, 1570].",
+                        "timestamp": "2020-09-03T09:50:33.804889Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 306 ('uni0123') - ERROR - Bounds should be [-550, -500, 860, 1570], but are [42, -500, 860, 1570].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 31 ('Ccaron')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [60, -28, 996, 1428], but are [60, -28, 996, 1871].",
+                        "timestamp": "2020-09-03T09:50:32.224771Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 31 ('Ccaron') - ERROR - Bounds should be [60, -28, 996, 1428], but are [60, -28, 996, 1871].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 37 ('uni01C4')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [132, 0, 2148, 1400], but are [132, 0, 2148, 1871].",
+                        "timestamp": "2020-09-03T09:50:32.259000Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 37 ('uni01C4') - ERROR - Bounds should be [132, 0, 2148, 1400], but are [132, 0, 2148, 1871].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 39 ('Dcaron')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [132, 0, 1176, 1400], but are [132, 0, 1176, 1871].",
+                        "timestamp": "2020-09-03T09:50:32.276316Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 39 ('Dcaron') - ERROR - Bounds should be [132, 0, 1176, 1400], but are [132, 0, 1176, 1871].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 47 ('Ecaron')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [132, 0, 922, 1400], but are [132, 0, 922, 1871].",
+                        "timestamp": "2020-09-03T09:50:32.313038Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 47 ('Ecaron') - ERROR - Bounds should be [132, 0, 922, 1400], but are [132, 0, 922, 1871].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 70 ('Gcaron')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [60, -28, 1062, 1428], but are [60, -28, 1062, 1871].",
+                        "timestamp": "2020-09-03T09:50:32.413415Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 70 ('Gcaron') - ERROR - Bounds should be [60, -28, 1062, 1428], but are [60, -28, 1062, 1871].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 717 ('uni02BB')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [-410, 1166, -201, 1570], but are [220, 1166, 429, 1570].",
+                        "timestamp": "2020-09-03T09:50:36.381912Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.glyf.glyph 717 ('uni02BB') - ERROR - Bounds should be [-410, 1166, -201, 1570], but are [220, 1166, 429, 1570].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.head",
+                        "levelname": "ERROR",
+                        "message": "The calculated value for xMin (-550) exceeds the actual value -390",
+                        "timestamp": "2020-09-03T09:50:37.524613Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.head - ERROR - The calculated value for xMin (-550) exceeds the actual value -390",
+                        "msg_code": "E1326"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.name",
+                        "levelname": "ERROR",
+                        "message": "Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-03T09:50:59.090493Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "msg_code": "E2008"
+                    },
+                    {
+                        "subroutine": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 933, but is 934",
+                        "timestamp": "2020-09-03T09:50:31.922375Z",
+                        "orig_output": "validate_e8fb9a8c2ecb4c5f9e32aa2128a6520d.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 933, but is 934",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 49995,
+    "completedDate": "2020-09-03 09:51:17.024774"
+}

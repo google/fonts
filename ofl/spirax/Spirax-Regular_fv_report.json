@@ -1,0 +1,83 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Spirax-Regular.ttf",
+                "type": "ttf",
+                "size": 49064,
+                "md5": "f1042493f9c10dc5272dfe2b11c55a18",
+                "geometryMd5": "5f45e53e3ced501f21a5b4ec5d61305f"
+            },
+            "name": {
+                "family": "Spirax",
+                "subFamily": "Regular",
+                "fullName": "Spirax-Regular",
+                "psName": "Spirax-Regular",
+                "versionText": "Version 1.002",
+                "copyright": "Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved Font Name Spirax.",
+                "trademark": "Spirax is a trademark of Brenda Gallo (gbrenda1987@gmail.com)."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 222,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "pyrs",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Spirax-Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 4,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_ec14d6361ec94b7ba6076a9777952621.glyf.glyph 37 ('B')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [-27, -10, 665, 696], but are [-27, -11, 665, 696].",
+                        "timestamp": "2020-09-03T09:50:31.302242Z",
+                        "orig_output": "validate_ec14d6361ec94b7ba6076a9777952621.glyf.glyph 37 ('B') - ERROR - Bounds should be [-27, -10, 665, 696], but are [-27, -11, 665, 696].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_ec14d6361ec94b7ba6076a9777952621.glyf.glyph 43 ('H')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [5, -110, 739, 696], but are [5, -111, 739, 696].",
+                        "timestamp": "2020-09-03T09:50:31.508359Z",
+                        "orig_output": "validate_ec14d6361ec94b7ba6076a9777952621.glyf.glyph 43 ('H') - ERROR - Bounds should be [5, -110, 739, 696], but are [5, -111, 739, 696].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_ec14d6361ec94b7ba6076a9777952621.glyf.glyph 90 ('w')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [13, -10, 714, 476], but are [13, -11, 714, 476].",
+                        "timestamp": "2020-09-03T09:50:32.331260Z",
+                        "orig_output": "validate_ec14d6361ec94b7ba6076a9777952621.glyf.glyph 90 ('w') - ERROR - Bounds should be [13, -10, 714, 476], but are [13, -11, 714, 476].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_ec14d6361ec94b7ba6076a9777952621.glyf.glyph 94 ('braceleft').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T09:50:32.480410Z",
+                        "orig_output": "validate_ec14d6361ec94b7ba6076a9777952621.glyf.glyph 94 ('braceleft').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 8948,
+    "completedDate": "2020-09-03 09:50:35.722790"
+}

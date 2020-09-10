@@ -40,11 +40,11 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_55991ca9b90e4296980846fe39ab9fe7.gasp.up to 11 ppem",
+                        "subroutine": "validate_2fcfec8181e44cd2942cd6b48a828ef6.gasp.up to 11 ppem",
                         "levelname": "ERROR",
                         "message": "v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
-                        "timestamp": "2020-09-09T13:55:43.781747Z",
-                        "orig_output": "validate_55991ca9b90e4296980846fe39ab9fe7.gasp.up to 11 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
+                        "timestamp": "2020-09-10T07:37:34.487756Z",
+                        "orig_output": "validate_2fcfec8181e44cd2942cd6b48a828ef6.gasp.up to 11 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
                         "msg_code": "V0992"
                     }
                 ]
@@ -54,6 +54,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 22712,
-    "completedDate": "2020-09-09 13:56:00.589470"
+    "runningTime": 22880,
+    "completedDate": "2020-09-10 07:37:51.231470"
 }

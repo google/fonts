@@ -1,0 +1,85 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "KoHo-ExtraLight.ttf",
+                "type": "ttf",
+                "size": 96748,
+                "md5": "0e3b06eedef800cf27a75fdcd90ba013",
+                "geometryMd5": "f596c225b6a7fbb9d8f4ea79689b0ce6"
+            },
+            "name": {
+                "family": "KoHo ExtraLight",
+                "subFamily": "Regular",
+                "fullName": "KoHo ExtraLight",
+                "psName": "KoHo-ExtraLight",
+                "versionText": "Version 1.000; ttfautohint (v1.6)",
+                "copyright": "Copyright 2018 The KoHo Project Authors (https://github.com/cadsondemak/Koho)",
+                "trademark": "Unknown",
+                "typographicFamily": "KoHo",
+                "typographicSubFamily": "ExtraLight"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 774,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "CDK ",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "KoHo ExtraLight",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 4,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_ff0b06b3449141cb8d97b1cd8a238322.fontedit.OS_2.PANOSE.weight",
+                        "levelname": "ERROR",
+                        "message": "Value 3 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-03T09:53:37.676152Z",
+                        "orig_output": "validate_ff0b06b3449141cb8d97b1cd8a238322.fontedit.OS_2.PANOSE.weight - ERROR - Value 3 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2111"
+                    },
+                    {
+                        "subroutine": "validate_ff0b06b3449141cb8d97b1cd8a238322.maxp",
+                        "levelname": "ERROR",
+                        "message": "The maxZones value should be 1, but is 0.",
+                        "timestamp": "2020-09-03T09:53:48.932723Z",
+                        "orig_output": "validate_ff0b06b3449141cb8d97b1cd8a238322.maxp - ERROR - The maxZones value should be 1, but is 0.",
+                        "msg_code": "V0272"
+                    },
+                    {
+                        "subroutine": "validate_ff0b06b3449141cb8d97b1cd8a238322.OS_2.usWeightClass",
+                        "levelname": "ERROR",
+                        "message": "The usWeightClass value 275 is not valid",
+                        "timestamp": "2020-09-03T09:53:39.678978Z",
+                        "orig_output": "validate_ff0b06b3449141cb8d97b1cd8a238322.OS_2.usWeightClass - ERROR - The usWeightClass value 275 is not valid",
+                        "msg_code": "E2133"
+                    },
+                    {
+                        "subroutine": "validate_ff0b06b3449141cb8d97b1cd8a238322.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 547, but is 546",
+                        "timestamp": "2020-09-03T09:53:39.679296Z",
+                        "orig_output": "validate_ff0b06b3449141cb8d97b1cd8a238322.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 547, but is 546",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 13740,
+    "completedDate": "2020-09-03 09:53:49.326723"
+}

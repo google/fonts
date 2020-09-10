@@ -39,51 +39,51 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_e37f8ff5abc742e89b069f38b95a07cb.glyf.glyph 12 ('onehalf').contours.contour 1",
+                        "subroutine": "validate_e145b131f943425bbacd936ae62d9323.glyf.glyph 12 ('onehalf').contours.contour 1",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-09T13:56:43.006150Z",
-                        "orig_output": "validate_e37f8ff5abc742e89b069f38b95a07cb.glyf.glyph 12 ('onehalf').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-10T07:44:23.676311Z",
+                        "orig_output": "validate_e145b131f943425bbacd936ae62d9323.glyf.glyph 12 ('onehalf').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_e37f8ff5abc742e89b069f38b95a07cb.glyf.glyph 13 ('onequarter').contours.contour 1",
+                        "subroutine": "validate_e145b131f943425bbacd936ae62d9323.glyf.glyph 13 ('onequarter').contours.contour 1",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-09T13:56:43.081288Z",
-                        "orig_output": "validate_e37f8ff5abc742e89b069f38b95a07cb.glyf.glyph 13 ('onequarter').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-10T07:44:23.751943Z",
+                        "orig_output": "validate_e145b131f943425bbacd936ae62d9323.glyf.glyph 13 ('onequarter').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_e37f8ff5abc742e89b069f38b95a07cb.OS_2.unicodeRanges",
+                        "subroutine": "validate_e145b131f943425bbacd936ae62d9323.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
-                        "timestamp": "2020-09-09T13:56:42.464872Z",
-                        "orig_output": "validate_e37f8ff5abc742e89b069f38b95a07cb.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T07:44:23.129949Z",
+                        "orig_output": "validate_e145b131f943425bbacd936ae62d9323.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_e37f8ff5abc742e89b069f38b95a07cb.OS_2.unicodeRanges",
+                        "subroutine": "validate_e145b131f943425bbacd936ae62d9323.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
-                        "timestamp": "2020-09-09T13:56:42.465065Z",
-                        "orig_output": "validate_e37f8ff5abc742e89b069f38b95a07cb.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T07:44:23.130132Z",
+                        "orig_output": "validate_e145b131f943425bbacd936ae62d9323.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_e37f8ff5abc742e89b069f38b95a07cb.OS_2.unicodeRanges",
+                        "subroutine": "validate_e145b131f943425bbacd936ae62d9323.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasTags' claimed to be present but is not.",
-                        "timestamp": "2020-09-09T13:56:42.465140Z",
-                        "orig_output": "validate_e37f8ff5abc742e89b069f38b95a07cb.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T07:44:23.130214Z",
+                        "orig_output": "validate_e145b131f943425bbacd936ae62d9323.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_e37f8ff5abc742e89b069f38b95a07cb.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_e145b131f943425bbacd936ae62d9323.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 592, but is 517",
-                        "timestamp": "2020-09-09T13:56:42.657954Z",
-                        "orig_output": "validate_e37f8ff5abc742e89b069f38b95a07cb.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 592, but is 517",
+                        "timestamp": "2020-09-10T07:44:23.324208Z",
+                        "orig_output": "validate_e145b131f943425bbacd936ae62d9323.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 592, but is 517",
                         "msg_code": "E2135"
                     }
                 ]
@@ -93,6 +93,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 12605,
-    "completedDate": "2020-09-09 13:56:53.196060"
+    "runningTime": 13143,
+    "completedDate": "2020-09-10 07:44:34.321036"
 }

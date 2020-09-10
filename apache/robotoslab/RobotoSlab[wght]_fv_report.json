@@ -40,59 +40,59 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.GDEF.glyphClasses",
+                        "subroutine": "validate_fdac68153f59460aa951b023bd6cd91f.GDEF.glyphClasses",
                         "levelname": "ERROR",
                         "message": "The following mark glyphs have nonzero advances: [1142, 1143, 1144]",
-                        "timestamp": "2020-09-09T14:31:43.878183Z",
-                        "orig_output": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [1142, 1143, 1144]",
+                        "timestamp": "2020-09-10T07:46:49.557826Z",
+                        "orig_output": "validate_fdac68153f59460aa951b023bd6cd91f.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [1142, 1143, 1144]",
                         "msg_code": "V1102"
                     },
                     {
-                        "subroutine": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.name",
+                        "subroutine": "validate_fdac68153f59460aa951b023bd6cd91f.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-09T14:32:41.356084Z",
-                        "orig_output": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-10T07:47:48.484732Z",
+                        "orig_output": "validate_fdac68153f59460aa951b023bd6cd91f.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges",
+                        "subroutine": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasArmenian' claimed to be present but is not.",
-                        "timestamp": "2020-09-09T14:31:49.918982Z",
-                        "orig_output": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges - ERROR - Unicode range 'hasArmenian' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T07:46:55.720534Z",
+                        "orig_output": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges - ERROR - Unicode range 'hasArmenian' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges",
+                        "subroutine": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
-                        "timestamp": "2020-09-09T14:31:49.919093Z",
-                        "orig_output": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges - ERROR - Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T07:46:55.720652Z",
+                        "orig_output": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges - ERROR - Unicode range 'hasSymbolCombiningDiacritics' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges",
+                        "subroutine": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
-                        "timestamp": "2020-09-09T14:31:49.919160Z",
-                        "orig_output": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges - ERROR - Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T07:46:55.720724Z",
+                        "orig_output": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges - ERROR - Unicode range 'hasMiscellaneousSymbols' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges",
+                        "subroutine": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
-                        "timestamp": "2020-09-09T14:31:49.919234Z",
-                        "orig_output": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T07:46:55.720810Z",
+                        "orig_output": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsA' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges",
+                        "subroutine": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasVerticalForms' claimed to be present but is not.",
-                        "timestamp": "2020-09-09T14:31:49.919298Z",
-                        "orig_output": "validate_3a5cc6ab2c994ad9a3d9f296a7504699.OS_2.unicodeRanges - ERROR - Unicode range 'hasVerticalForms' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T07:46:55.720887Z",
+                        "orig_output": "validate_fdac68153f59460aa951b023bd6cd91f.OS_2.unicodeRanges - ERROR - Unicode range 'hasVerticalForms' claimed to be present but is not.",
                         "msg_code": "E2113"
                     }
                 ]
@@ -102,6 +102,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 92909,
-    "completedDate": "2020-09-09 14:33:13.634541"
+    "runningTime": 93553,
+    "completedDate": "2020-09-10 07:48:19.939444"
 }

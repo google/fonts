@@ -1,0 +1,93 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "SignikaNegative-Light.ttf",
+                "type": "ttf",
+                "size": 335348,
+                "md5": "5753f419ef9e1f737fb870ef9a613f16",
+                "geometryMd5": "f24f33ba06e3cb4ae9a76f0cc8231c30"
+            },
+            "name": {
+                "family": "Signika Negative Light",
+                "subFamily": "Regular",
+                "fullName": "Signika Negative Light",
+                "psName": "SignikaNegative-Light",
+                "versionText": "Version 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 9 -D latn -f none -a nnn -X \"\"",
+                "copyright": "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).",
+                "trademark": "Signika is a trademark of Anna Giedry\u015b.",
+                "typographicFamily": "Signika Negative",
+                "typographicSubFamily": "Light"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 1416,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "GOOG",
+                "font_vendor": "Google"
+            },
+            "validation": {
+                "font_full_name": "Signika Negative Light",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 5,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_39d49644368d44f0b8c57e5a7be8ea93.glyf.glyph 1053 ('bullet.case')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [241, 570, 632, 949], but are [241, 474, 632, 852].",
+                        "timestamp": "2020-09-03T09:52:50.936779Z",
+                        "orig_output": "validate_39d49644368d44f0b8c57e5a7be8ea93.glyf.glyph 1053 ('bullet.case') - ERROR - Bounds should be [241, 570, 632, 949], but are [241, 474, 632, 852].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_39d49644368d44f0b8c57e5a7be8ea93.glyf.glyph 931 ('eight').contours.contour 1",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T09:52:48.865472Z",
+                        "orig_output": "validate_39d49644368d44f0b8c57e5a7be8ea93.glyf.glyph 931 ('eight').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_39d49644368d44f0b8c57e5a7be8ea93.glyf.glyph 931 ('eight').contours.contour 2",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T09:52:48.868168Z",
+                        "orig_output": "validate_39d49644368d44f0b8c57e5a7be8ea93.glyf.glyph 931 ('eight').contours.contour 2 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_39d49644368d44f0b8c57e5a7be8ea93.name",
+                        "levelname": "ERROR",
+                        "message": "Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-03T09:54:25.180399Z",
+                        "orig_output": "validate_39d49644368d44f0b8c57e5a7be8ea93.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "msg_code": "E2008"
+                    },
+                    {
+                        "subroutine": "validate_39d49644368d44f0b8c57e5a7be8ea93.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 1236, but is 1237",
+                        "timestamp": "2020-09-03T09:52:41.259737Z",
+                        "orig_output": "validate_39d49644368d44f0b8c57e5a7be8ea93.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1236, but is 1237",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 186135,
+    "completedDate": "2020-09-03 09:55:39.640740"
+}

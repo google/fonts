@@ -43,35 +43,35 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_7e855152f94c495fa37f93195439ad53.glyf.glyph 199 ('U+03C1').contours.contour 0",
+                        "subroutine": "validate_f1e45c9c305640c6b26a80c359b14cd5.glyf.glyph 199 ('U+03C1').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-09T14:17:51.280242Z",
-                        "orig_output": "validate_7e855152f94c495fa37f93195439ad53.glyf.glyph 199 ('U+03C1').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-10T07:38:58.196174Z",
+                        "orig_output": "validate_f1e45c9c305640c6b26a80c359b14cd5.glyf.glyph 199 ('U+03C1').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_7e855152f94c495fa37f93195439ad53.glyf.glyph 451 ('U+FFFC').contours.contour 18",
+                        "subroutine": "validate_f1e45c9c305640c6b26a80c359b14cd5.glyf.glyph 451 ('U+FFFC').contours.contour 18",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-09T14:17:53.482717Z",
-                        "orig_output": "validate_7e855152f94c495fa37f93195439ad53.glyf.glyph 451 ('U+FFFC').contours.contour 18 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-10T07:39:00.491557Z",
+                        "orig_output": "validate_f1e45c9c305640c6b26a80c359b14cd5.glyf.glyph 451 ('U+FFFC').contours.contour 18 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_7e855152f94c495fa37f93195439ad53.name",
+                        "subroutine": "validate_f1e45c9c305640c6b26a80c359b14cd5.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-09T14:18:08.342992Z",
-                        "orig_output": "validate_7e855152f94c495fa37f93195439ad53.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-10T07:39:15.158714Z",
+                        "orig_output": "validate_f1e45c9c305640c6b26a80c359b14cd5.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_7e855152f94c495fa37f93195439ad53.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_f1e45c9c305640c6b26a80c359b14cd5.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1129, but is 1161",
-                        "timestamp": "2020-09-09T14:17:49.515324Z",
-                        "orig_output": "validate_7e855152f94c495fa37f93195439ad53.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1129, but is 1161",
+                        "timestamp": "2020-09-10T07:38:56.368927Z",
+                        "orig_output": "validate_f1e45c9c305640c6b26a80c359b14cd5.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1129, but is 1161",
                         "msg_code": "E2135"
                     }
                 ]
@@ -81,6 +81,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 29866,
-    "completedDate": "2020-09-09 14:18:14.324926"
+    "runningTime": 28819,
+    "completedDate": "2020-09-10 07:39:21.098164"
 }

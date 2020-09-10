@@ -1,0 +1,77 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Trirong-ExtraLight.ttf",
+                "type": "ttf",
+                "size": 194128,
+                "md5": "0f439b7f3c72847e7bbfc1ccf87dc830",
+                "geometryMd5": "594e2dcfcb9a21d919134bed6d89c00d"
+            },
+            "name": {
+                "family": "Trirong ExtraLight",
+                "subFamily": "Regular",
+                "fullName": "Trirong ExtraLight",
+                "psName": "Trirong-ExtraLight",
+                "versionText": "Version 1.001",
+                "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)",
+                "trademark": "Unknown",
+                "typographicFamily": "Trirong",
+                "typographicSubFamily": "ExtraLight"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 772,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "CDK ",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Trirong ExtraLight",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 3,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_788eb87e22bd4c2f94f840186d09d1b7.fontedit.OS_2.PANOSE.weight",
+                        "levelname": "ERROR",
+                        "message": "Value 3 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-03T09:50:37.771063Z",
+                        "orig_output": "validate_788eb87e22bd4c2f94f840186d09d1b7.fontedit.OS_2.PANOSE.weight - ERROR - Value 3 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2111"
+                    },
+                    {
+                        "subroutine": "validate_788eb87e22bd4c2f94f840186d09d1b7.glyf.glyph 658 ('at').contours.contour 0",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T09:50:51.954561Z",
+                        "orig_output": "validate_788eb87e22bd4c2f94f840186d09d1b7.glyf.glyph 658 ('at').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_788eb87e22bd4c2f94f840186d09d1b7.OS_2.usWeightClass",
+                        "levelname": "ERROR",
+                        "message": "The usWeightClass value 275 is not valid",
+                        "timestamp": "2020-09-03T09:50:39.633491Z",
+                        "orig_output": "validate_788eb87e22bd4c2f94f840186d09d1b7.OS_2.usWeightClass - ERROR - The usWeightClass value 275 is not valid",
+                        "msg_code": "E2133"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 112276,
+    "completedDate": "2020-09-03 09:52:28.020670"
+}

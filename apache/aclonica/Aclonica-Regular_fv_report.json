@@ -40,19 +40,19 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_a487c6fd60e84e0ab723405a4559253e.hhea",
+                        "subroutine": "validate_6c3b4114c72b45d68a051955fe348433.hhea",
                         "levelname": "ERROR",
                         "message": "The minLeftSidebearing value (-72) does not match the expected value (-97)",
-                        "timestamp": "2020-09-09T13:54:30.699213Z",
-                        "orig_output": "validate_a487c6fd60e84e0ab723405a4559253e.hhea - ERROR - The minLeftSidebearing value (-72) does not match the expected value (-97)",
+                        "timestamp": "2020-09-10T07:42:31.955792Z",
+                        "orig_output": "validate_6c3b4114c72b45d68a051955fe348433.hhea - ERROR - The minLeftSidebearing value (-72) does not match the expected value (-97)",
                         "msg_code": "E1402"
                     },
                     {
-                        "subroutine": "validate_a487c6fd60e84e0ab723405a4559253e.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_6c3b4114c72b45d68a051955fe348433.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1261, but is 1128",
-                        "timestamp": "2020-09-09T13:54:26.438694Z",
-                        "orig_output": "validate_a487c6fd60e84e0ab723405a4559253e.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1261, but is 1128",
+                        "timestamp": "2020-09-10T07:42:27.059083Z",
+                        "orig_output": "validate_6c3b4114c72b45d68a051955fe348433.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1261, but is 1128",
                         "msg_code": "E2135"
                     }
                 ]
@@ -62,6 +62,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 8913,
-    "completedDate": "2020-09-09 13:54:31.581822"
+    "runningTime": 10157,
+    "completedDate": "2020-09-10 07:42:33.049420"
 }

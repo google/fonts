@@ -1,0 +1,61 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Jost-Medium.ttf",
+                "type": "ttf",
+                "size": 102040,
+                "md5": "d0e3034a5a7208ca771460d715e9e273",
+                "geometryMd5": "68ff9cc8b559b483cc48deb5763d1445"
+            },
+            "name": {
+                "family": "Jost Medium",
+                "subFamily": "Regular",
+                "fullName": "Jost Medium",
+                "psName": "Jost-Medium",
+                "versionText": "Version 3.7",
+                "copyright": "Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type)",
+                "trademark": "Unknown",
+                "typographicFamily": "Jost",
+                "typographicSubFamily": "Medium"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 534,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "it* ",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Jost Medium",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_9976a22a21d948a4ba3d2fd34b17b4bb.name",
+                        "levelname": "ERROR",
+                        "message": "Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-03T09:51:41.686514Z",
+                        "orig_output": "validate_9976a22a21d948a4ba3d2fd34b17b4bb.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "msg_code": "E2008"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 146155,
+    "completedDate": "2020-09-03 09:52:51.415778"
+}

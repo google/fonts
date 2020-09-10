@@ -1,0 +1,69 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Spartan[wght].ttf",
+                "type": "ttf",
+                "size": 90288,
+                "md5": "f586e96faf48861446932769ab898b54",
+                "geometryMd5": "be1af881f591c0e730d704fb88e3d93e"
+            },
+            "name": {
+                "family": "Spartan Thin",
+                "subFamily": "Regular",
+                "fullName": "Spartan Thin",
+                "psName": "Spartan-Thin",
+                "versionText": "Version 1.003",
+                "copyright": "Copyright 2020 The Spartan Project Authors (https://github.com/bghryct/Spartan-MB)",
+                "trademark": "Unknown",
+                "typographicFamily": "Spartan",
+                "typographicSubFamily": "Thin"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 419,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "NONE",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Spartan Thin",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 2,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_0c263993b0f742b5bd721dcd4550e227.name",
+                        "levelname": "ERROR",
+                        "message": "Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-03T09:53:23.332151Z",
+                        "orig_output": "validate_0c263993b0f742b5bd721dcd4550e227.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "msg_code": "E2008"
+                    },
+                    {
+                        "subroutine": "validate_0c263993b0f742b5bd721dcd4550e227.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 1345, but is 1346",
+                        "timestamp": "2020-09-03T09:53:13.667688Z",
+                        "orig_output": "validate_0c263993b0f742b5bd721dcd4550e227.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1345, but is 1346",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 14418,
+    "completedDate": "2020-09-03 09:53:23.466003"
+}

@@ -1,0 +1,67 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "AverageSans-Regular.ttf",
+                "type": "ttf",
+                "size": 43824,
+                "md5": "65344d859cecce26cd6395810698f68d",
+                "geometryMd5": "26930482be2342c769ddff5244125de5"
+            },
+            "name": {
+                "family": "Average Sans",
+                "subFamily": "Regular",
+                "fullName": "Average Sans Regular",
+                "psName": "AverageSans-Regular",
+                "versionText": "Version 1.002",
+                "copyright": "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Average'",
+                "trademark": "Average is a trademark of Eduardo Rodriguez Tunni."
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 423,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "TIPO",
+                "font_vendor": "Tipo"
+            },
+            "validation": {
+                "font_full_name": "Average Sans Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 2,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_bdbb33abb1e3434a9fe62553d643e930.glyf.glyph 160 ('germandbls')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [27, -42, 537, 730], but are [27, 0, 537, 730].",
+                        "timestamp": "2020-09-03T09:52:32.672795Z",
+                        "orig_output": "validate_bdbb33abb1e3434a9fe62553d643e930.glyf.glyph 160 ('germandbls') - ERROR - Bounds should be [27, -42, 537, 730], but are [27, 0, 537, 730].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_bdbb33abb1e3434a9fe62553d643e930.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 492, but is 500",
+                        "timestamp": "2020-09-03T09:52:31.050119Z",
+                        "orig_output": "validate_bdbb33abb1e3434a9fe62553d643e930.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 492, but is 500",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 8738,
+    "completedDate": "2020-09-03 09:52:36.780884"
+}

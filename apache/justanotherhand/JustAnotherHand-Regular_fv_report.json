@@ -40,91 +40,91 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.16 ppem",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.hdmx.16 ppem",
                         "levelname": "ERROR",
                         "message": "Glyph 139's value should be 4, but is 5",
-                        "timestamp": "2020-09-09T14:42:35.873197Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.16 ppem - ERROR - Glyph 139's value should be 4, but is 5",
+                        "timestamp": "2020-09-10T07:46:38.964311Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.hdmx.16 ppem - ERROR - Glyph 139's value should be 4, but is 5",
                         "msg_code": "E1207"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.16 ppem",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.hdmx.16 ppem",
                         "levelname": "ERROR",
                         "message": "Glyph 140's value should be 4, but is 5",
-                        "timestamp": "2020-09-09T14:42:35.873304Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.16 ppem - ERROR - Glyph 140's value should be 4, but is 5",
+                        "timestamp": "2020-09-10T07:46:38.964433Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.hdmx.16 ppem - ERROR - Glyph 140's value should be 4, but is 5",
                         "msg_code": "E1207"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.16 ppem",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.hdmx.16 ppem",
                         "levelname": "ERROR",
                         "message": "Glyph 153's value should be 2, but is 3",
-                        "timestamp": "2020-09-09T14:42:35.873376Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.16 ppem - ERROR - Glyph 153's value should be 2, but is 3",
+                        "timestamp": "2020-09-10T07:46:38.964515Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.hdmx.16 ppem - ERROR - Glyph 153's value should be 2, but is 3",
                         "msg_code": "E1207"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.16 ppem",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.hdmx.16 ppem",
                         "levelname": "ERROR",
                         "message": "Glyph 154's value should be 2, but is 3",
-                        "timestamp": "2020-09-09T14:42:35.873439Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.16 ppem - ERROR - Glyph 154's value should be 2, but is 3",
+                        "timestamp": "2020-09-10T07:46:38.964591Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.hdmx.16 ppem - ERROR - Glyph 154's value should be 2, but is 3",
                         "msg_code": "E1207"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.19 ppem",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.hdmx.19 ppem",
                         "levelname": "ERROR",
                         "message": "Glyph 295's value should be 4, but is 5",
-                        "timestamp": "2020-09-09T14:42:35.877288Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.hdmx.19 ppem - ERROR - Glyph 295's value should be 4, but is 5",
+                        "timestamp": "2020-09-10T07:46:38.968712Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.hdmx.19 ppem - ERROR - Glyph 295's value should be 4, but is 5",
                         "msg_code": "E1207"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.LTSH",
                         "levelname": "ERROR",
                         "message": "Glyph 126's value should be 1, but is 23",
-                        "timestamp": "2020-09-09T14:42:27.834649Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH - ERROR - Glyph 126's value should be 1, but is 23",
+                        "timestamp": "2020-09-10T07:46:31.087485Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.LTSH - ERROR - Glyph 126's value should be 1, but is 23",
                         "msg_code": "E1804"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.LTSH",
                         "levelname": "ERROR",
                         "message": "Glyph 139's value should be 10, but is 17",
-                        "timestamp": "2020-09-09T14:42:27.834813Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH - ERROR - Glyph 139's value should be 10, but is 17",
+                        "timestamp": "2020-09-10T07:46:31.087613Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.LTSH - ERROR - Glyph 139's value should be 10, but is 17",
                         "msg_code": "E1804"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.LTSH",
                         "levelname": "ERROR",
                         "message": "Glyph 140's value should be 10, but is 17",
-                        "timestamp": "2020-09-09T14:42:27.834885Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH - ERROR - Glyph 140's value should be 10, but is 17",
+                        "timestamp": "2020-09-10T07:46:31.087682Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.LTSH - ERROR - Glyph 140's value should be 10, but is 17",
                         "msg_code": "E1804"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.LTSH",
                         "levelname": "ERROR",
                         "message": "Glyph 153's value should be 1, but is 17",
-                        "timestamp": "2020-09-09T14:42:27.834947Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH - ERROR - Glyph 153's value should be 1, but is 17",
+                        "timestamp": "2020-09-10T07:46:31.087742Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.LTSH - ERROR - Glyph 153's value should be 1, but is 17",
                         "msg_code": "E1804"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.LTSH",
                         "levelname": "ERROR",
                         "message": "Glyph 154's value should be 1, but is 17",
-                        "timestamp": "2020-09-09T14:42:27.835004Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH - ERROR - Glyph 154's value should be 1, but is 17",
+                        "timestamp": "2020-09-10T07:46:31.087799Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.LTSH - ERROR - Glyph 154's value should be 1, but is 17",
                         "msg_code": "E1804"
                     },
                     {
-                        "subroutine": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH",
+                        "subroutine": "validate_05eb203220624e68be99eaa540a26409.LTSH",
                         "levelname": "ERROR",
                         "message": "Glyph 295's value should be 1, but is 20",
-                        "timestamp": "2020-09-09T14:42:27.835060Z",
-                        "orig_output": "validate_76ec4ccd798345d1abd2db2be7e4a789.LTSH - ERROR - Glyph 295's value should be 1, but is 20",
+                        "timestamp": "2020-09-10T07:46:31.087856Z",
+                        "orig_output": "validate_05eb203220624e68be99eaa540a26409.LTSH - ERROR - Glyph 295's value should be 1, but is 20",
                         "msg_code": "E1804"
                     }
                 ]
@@ -134,6 +134,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 20364,
-    "completedDate": "2020-09-09 14:42:43.317002"
+    "runningTime": 20496,
+    "completedDate": "2020-09-10 07:46:46.364986"
 }

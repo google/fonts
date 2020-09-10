@@ -1,0 +1,61 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "EncodeSans-Thin.ttf",
+                "type": "ttf",
+                "size": 155924,
+                "md5": "53e63f84df5816f693ec6b5f3e863887",
+                "geometryMd5": "5dceb933d5b58b0a5b12e232c8ebf4df"
+            },
+            "name": {
+                "family": "Encode Sans Th",
+                "subFamily": "Regular",
+                "fullName": "Encode Sans Th",
+                "psName": "EncodeSans-Th",
+                "versionText": "Version 3.002; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X \"\"",
+                "copyright": "Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.",
+                "trademark": "Encode Sans is a trademark of Pablo Impallari.",
+                "typographicFamily": "Encode Sans",
+                "typographicSubFamily": "Thin"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 1214,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "GOOG",
+                "font_vendor": "Google"
+            },
+            "validation": {
+                "font_full_name": "Encode Sans Th",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 1,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_044bc60b310d47c5b3c4d1d9753d7576.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 1067, but is 1068",
+                        "timestamp": "2020-09-03T09:53:23.130348Z",
+                        "orig_output": "validate_044bc60b310d47c5b3c4d1d9753d7576.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1067, but is 1068",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 60192,
+    "completedDate": "2020-09-03 09:54:19.498118"
+}

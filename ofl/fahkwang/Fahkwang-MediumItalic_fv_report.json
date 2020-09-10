@@ -1,0 +1,77 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Fahkwang-MediumItalic.ttf",
+                "type": "ttf",
+                "size": 91132,
+                "md5": "a62571ae18611bd9aed904890fa9a51c",
+                "geometryMd5": "94d656399690dc4cea5d5b2f1d1096c3"
+            },
+            "name": {
+                "family": "Fahkwang Medium",
+                "subFamily": "Italic",
+                "fullName": "Fahkwang Medium Italic",
+                "psName": "Fahkwang-MediumItalic",
+                "versionText": "Version 1.000; ttfautohint (v1.6)",
+                "copyright": "Copyright 2018 The Fahkwang Project Authors (https://github.com/cadsondemak/Fah-Kwang)",
+                "trademark": "Unknown",
+                "typographicFamily": "Fahkwang",
+                "typographicSubFamily": "Medium Italic"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 775,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "CDK ",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "Fahkwang Medium Italic",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 3,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_92818e13bcab4255a7daa1ec7741da21.fontedit.OS_2.PANOSE.weight",
+                        "levelname": "ERROR",
+                        "message": "Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-03T09:53:25.346476Z",
+                        "orig_output": "validate_92818e13bcab4255a7daa1ec7741da21.fontedit.OS_2.PANOSE.weight - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2111"
+                    },
+                    {
+                        "subroutine": "validate_92818e13bcab4255a7daa1ec7741da21.maxp",
+                        "levelname": "ERROR",
+                        "message": "The maxZones value should be 1, but is 0.",
+                        "timestamp": "2020-09-03T09:53:35.380198Z",
+                        "orig_output": "validate_92818e13bcab4255a7daa1ec7741da21.maxp - ERROR - The maxZones value should be 1, but is 0.",
+                        "msg_code": "V0272"
+                    },
+                    {
+                        "subroutine": "validate_92818e13bcab4255a7daa1ec7741da21.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 654, but is 640",
+                        "timestamp": "2020-09-03T09:53:26.920640Z",
+                        "orig_output": "validate_92818e13bcab4255a7daa1ec7741da21.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 654, but is 640",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 12262,
+    "completedDate": "2020-09-03 09:53:35.750185"
+}

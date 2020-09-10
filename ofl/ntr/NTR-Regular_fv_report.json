@@ -1,0 +1,83 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "NTR-Regular.ttf",
+                "type": "ttf",
+                "size": 374932,
+                "md5": "d6e57ebc5cbd603c6a29f1856a5d3a03",
+                "geometryMd5": "33dfdb9bef42f2ac1f134db2536944a5"
+            },
+            "name": {
+                "family": "NTR",
+                "subFamily": "Regular",
+                "fullName": "NTR",
+                "psName": "NTR",
+                "versionText": "Version 1.0.5; ttfautohint (v1.2.25-373a) -l 7 -r 28 -G 50 -x 13 -D telu -f latn -w G -X \"\"",
+                "copyright": "Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org). Copyright (c) 2011, Joe Prince, Admix Designs (http://www.admixdesigns.com/) with Reserved Font Name Varela Round.",
+                "trademark": "Unknown"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 709,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "    ",
+                "font_vendor": "Unknown"
+            },
+            "validation": {
+                "font_full_name": "NTR",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 4,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_77e83e5c09734e1eaa3ff0c4ae6ad04b.GDEF.glyphClasses",
+                        "levelname": "ERROR",
+                        "message": "The following mark glyphs have nonzero advances: [97, 102, 103, 114, 166, 169, 170, 171, 172, 175, 176, 177, 178, 181, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 267, 269, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705]",
+                        "timestamp": "2020-09-03T09:51:19.571171Z",
+                        "orig_output": "validate_77e83e5c09734e1eaa3ff0c4ae6ad04b.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [97, 102, 103, 114, 166, 169, 170, 171, 172, 175, 176, 177, 178, 181, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 267, 269, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705]",
+                        "msg_code": "V1102"
+                    },
+                    {
+                        "subroutine": "validate_77e83e5c09734e1eaa3ff0c4ae6ad04b.glyf.glyph 604 ('LaUU').contours.contour 1",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T09:51:42.211157Z",
+                        "orig_output": "validate_77e83e5c09734e1eaa3ff0c4ae6ad04b.glyf.glyph 604 ('LaUU').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_77e83e5c09734e1eaa3ff0c4ae6ad04b.glyf.glyph 607 ('LaO').contours.contour 2",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T09:51:42.331799Z",
+                        "orig_output": "validate_77e83e5c09734e1eaa3ff0c4ae6ad04b.glyf.glyph 607 ('LaO').contours.contour 2 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    },
+                    {
+                        "subroutine": "validate_77e83e5c09734e1eaa3ff0c4ae6ad04b.glyf.glyph 609 ('LaAU').contours.contour 1",
+                        "levelname": "ERROR",
+                        "message": "Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-03T09:51:42.408648Z",
+                        "orig_output": "validate_77e83e5c09734e1eaa3ff0c4ae6ad04b.glyf.glyph 609 ('LaAU').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "msg_code": "V0295"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 576311,
+    "completedDate": "2020-09-03 10:00:53.357863"
+}

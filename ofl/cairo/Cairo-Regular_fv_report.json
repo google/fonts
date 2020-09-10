@@ -1,0 +1,99 @@
+{
+    "processed": [
+        {
+            "file": {
+                "name": "Cairo-Regular.ttf",
+                "type": "ttf",
+                "size": 170464,
+                "md5": "ba23baa3045470dc90590780483461fc",
+                "geometryMd5": "f554d7ecbfef4b2f7cf9cbe3f1331a1e"
+            },
+            "name": {
+                "family": "Cairo",
+                "subFamily": "Regular",
+                "fullName": "Cairo Regular",
+                "psName": "Cairo-Regular",
+                "versionText": "Version 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab -w G -W -c -X \"\"",
+                "copyright": "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)",
+                "trademark": "Unknown"
+            },
+            "format": {
+                "format": "OT",
+                "flavor": "TT"
+            },
+            "summary": {
+                "num_glyphs": 822,
+                "embedding": "Installable Embedding",
+                "font_vendor_id": "1KTF",
+                "font_vendor": "Kief Type Foundry"
+            },
+            "validation": {
+                "font_full_name": "Cairo Regular",
+                "level": "ERROR",
+                "last_success": "finished validation python",
+                "msg_count": {
+                    "CRITICAL": 0,
+                    "ERROR": 6,
+                    "WARNING": 0,
+                    "INFO": 0,
+                    "DEBUG": 0
+                },
+                "result": [
+                    {
+                        "subroutine": "validate_bf7e66f34df3445193ce6a7bc17cae21.fontedit.OS_2.PANOSE.weight",
+                        "levelname": "ERROR",
+                        "message": "Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-03T09:52:39.014809Z",
+                        "orig_output": "validate_bf7e66f34df3445193ce6a7bc17cae21.fontedit.OS_2.PANOSE.weight - ERROR - Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "msg_code": "E2111"
+                    },
+                    {
+                        "subroutine": "validate_bf7e66f34df3445193ce6a7bc17cae21.glyf.glyph 795 ('hamzaaboveDammaar')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [-105, 748, 116, 1159], but are [-105, 748, 113, 1159].",
+                        "timestamp": "2020-09-03T09:52:47.084319Z",
+                        "orig_output": "validate_bf7e66f34df3445193ce6a7bc17cae21.glyf.glyph 795 ('hamzaaboveDammaar') - ERROR - Bounds should be [-105, 748, 116, 1159], but are [-105, 748, 113, 1159].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_bf7e66f34df3445193ce6a7bc17cae21.glyf.glyph 796 ('hamzaaboveDammatanar')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [-124, 748, 119, 1170], but are [-124, 748, 116, 1170].",
+                        "timestamp": "2020-09-03T09:52:47.089747Z",
+                        "orig_output": "validate_bf7e66f34df3445193ce6a7bc17cae21.glyf.glyph 796 ('hamzaaboveDammatanar') - ERROR - Bounds should be [-124, 748, 119, 1170], but are [-124, 748, 116, 1170].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_bf7e66f34df3445193ce6a7bc17cae21.glyf.glyph 812 ('shaddaDammaar')",
+                        "levelname": "ERROR",
+                        "message": "Bounds should be [-108, 711, 109, 1058], but are [-108, 711, 107, 1058].",
+                        "timestamp": "2020-09-03T09:52:47.162965Z",
+                        "orig_output": "validate_bf7e66f34df3445193ce6a7bc17cae21.glyf.glyph 812 ('shaddaDammaar') - ERROR - Bounds should be [-108, 711, 109, 1058], but are [-108, 711, 107, 1058].",
+                        "msg_code": "E1112"
+                    },
+                    {
+                        "subroutine": "validate_bf7e66f34df3445193ce6a7bc17cae21.hhea",
+                        "levelname": "ERROR",
+                        "message": "The minRightSidebearing value (-208) does not match the expected value (-282)",
+                        "timestamp": "2020-09-03T09:52:49.576614Z",
+                        "orig_output": "validate_bf7e66f34df3445193ce6a7bc17cae21.hhea - ERROR - The minRightSidebearing value (-208) does not match the expected value (-282)",
+                        "msg_code": "E1403"
+                    },
+                    {
+                        "subroutine": "validate_bf7e66f34df3445193ce6a7bc17cae21.OS_2.xAvgCharWidth",
+                        "levelname": "ERROR",
+                        "message": "The xAvgCharWidth should be 592, but is 591",
+                        "timestamp": "2020-09-03T09:52:41.601347Z",
+                        "orig_output": "validate_bf7e66f34df3445193ce6a7bc17cae21.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 592, but is 591",
+                        "msg_code": "E2135"
+                    }
+                ]
+            }
+        }
+    ],
+    "skipped": [],
+    "fontio3_version": "3.7.20200604.317848rc3",
+    "fontvalidator_version": "20200305.1",
+    "runningTime": 58761,
+    "completedDate": "2020-09-03 09:53:35.564214"
+}

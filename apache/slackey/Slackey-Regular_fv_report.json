@@ -39,51 +39,51 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_c4cdafebcf1848aeb42f8d01f31113ca.glyf.glyph 72 ('S').contours.contour 0",
+                        "subroutine": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.glyf.glyph 72 ('S').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T07:43:07.968685Z",
-                        "orig_output": "validate_c4cdafebcf1848aeb42f8d01f31113ca.glyf.glyph 72 ('S').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-10T10:45:15.071490Z",
+                        "orig_output": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.glyf.glyph 72 ('S').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_c4cdafebcf1848aeb42f8d01f31113ca.glyf.glyph 75 ('V').contours.contour 0",
+                        "subroutine": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.glyf.glyph 75 ('V').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T07:43:08.036227Z",
-                        "orig_output": "validate_c4cdafebcf1848aeb42f8d01f31113ca.glyf.glyph 75 ('V').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-10T10:45:15.137361Z",
+                        "orig_output": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.glyf.glyph 75 ('V').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_c4cdafebcf1848aeb42f8d01f31113ca.OS_2.unicodeRanges",
+                        "subroutine": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T07:43:06.643868Z",
-                        "orig_output": "validate_c4cdafebcf1848aeb42f8d01f31113ca.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T10:45:13.521710Z",
+                        "orig_output": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_c4cdafebcf1848aeb42f8d01f31113ca.OS_2.unicodeRanges",
+                        "subroutine": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T07:43:06.644014Z",
-                        "orig_output": "validate_c4cdafebcf1848aeb42f8d01f31113ca.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T10:45:13.521894Z",
+                        "orig_output": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_c4cdafebcf1848aeb42f8d01f31113ca.OS_2.unicodeRanges",
+                        "subroutine": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasTags' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T07:43:06.644082Z",
-                        "orig_output": "validate_c4cdafebcf1848aeb42f8d01f31113ca.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-09-10T10:45:13.521976Z",
+                        "orig_output": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_c4cdafebcf1848aeb42f8d01f31113ca.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 684, but is 634",
-                        "timestamp": "2020-09-10T07:43:06.758910Z",
-                        "orig_output": "validate_c4cdafebcf1848aeb42f8d01f31113ca.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 684, but is 634",
+                        "timestamp": "2020-09-10T10:45:13.666891Z",
+                        "orig_output": "validate_51c9c9c1d6464e83b4e08aa04d672dd4.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 684, but is 634",
                         "msg_code": "E2135"
                     }
                 ]
@@ -93,6 +93,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 6811,
-    "completedDate": "2020-09-10 07:43:11.529125"
+    "runningTime": 7100,
+    "completedDate": "2020-09-10 10:45:18.650241"
 }

@@ -40,219 +40,219 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 102 ('currency')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 102 ('currency')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [178, 88, 1151, 1073], but are [188, 97, 1130, 1071].",
-                        "timestamp": "2020-09-10T07:40:54.446930Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 102 ('currency') - ERROR - Bounds should be [178, 88, 1151, 1073], but are [188, 97, 1130, 1071].",
+                        "timestamp": "2020-09-10T10:42:39.468640Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 102 ('currency') - ERROR - Bounds should be [178, 88, 1151, 1073], but are [188, 97, 1130, 1071].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 103 ('yen')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 103 ('yen')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [280, -214, 1358, 1243], but are [280, -214, 1357, 1238].",
-                        "timestamp": "2020-09-10T07:40:54.463676Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 103 ('yen') - ERROR - Bounds should be [280, -214, 1358, 1243], but are [280, -214, 1357, 1238].",
+                        "timestamp": "2020-09-10T10:42:39.485725Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 103 ('yen') - ERROR - Bounds should be [280, -214, 1358, 1243], but are [280, -214, 1357, 1238].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 103 ('yen').contours.contour 0",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 103 ('yen').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T07:40:54.464566Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 103 ('yen').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-10T10:42:39.486605Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 103 ('yen').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 110 ('logicalnot')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 110 ('logicalnot')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [261, 312, 951, 820], but are [261, 312, 947, 820].",
-                        "timestamp": "2020-09-10T07:40:54.586173Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 110 ('logicalnot') - ERROR - Bounds should be [261, 312, 951, 820], but are [261, 312, 947, 820].",
+                        "timestamp": "2020-09-10T10:42:39.610317Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 110 ('logicalnot') - ERROR - Bounds should be [261, 312, 951, 820], but are [261, 312, 947, 820].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 111 ('uni00AD')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 111 ('uni00AD')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [150, 397, 678, 605], but are [150, 399, 678, 605].",
-                        "timestamp": "2020-09-10T07:40:54.594492Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 111 ('uni00AD') - ERROR - Bounds should be [150, 397, 678, 605], but are [150, 399, 678, 605].",
+                        "timestamp": "2020-09-10T10:42:39.618803Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 111 ('uni00AD') - ERROR - Bounds should be [150, 397, 678, 605], but are [150, 399, 678, 605].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 120 ('paragraph')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 120 ('paragraph')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [138, -365, 1754, 1465], but are [232, -349, 1754, 1465].",
-                        "timestamp": "2020-09-10T07:40:54.686123Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 120 ('paragraph') - ERROR - Bounds should be [138, -365, 1754, 1465], but are [232, -349, 1754, 1465].",
+                        "timestamp": "2020-09-10T10:42:39.715979Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 120 ('paragraph') - ERROR - Bounds should be [138, -365, 1754, 1465], but are [232, -349, 1754, 1465].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 123 ('onesuperior')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 123 ('onesuperior')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [166, 464, 719, 1233], but are [167, 464, 719, 1233].",
-                        "timestamp": "2020-09-10T07:40:54.708578Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 123 ('onesuperior') - ERROR - Bounds should be [166, 464, 719, 1233], but are [167, 464, 719, 1233].",
+                        "timestamp": "2020-09-10T10:42:39.739310Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 123 ('onesuperior') - ERROR - Bounds should be [166, 464, 719, 1233], but are [167, 464, 719, 1233].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 16 ('hyphen')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 16 ('hyphen')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [150, 397, 678, 605], but are [150, 399, 678, 605].",
-                        "timestamp": "2020-09-10T07:40:53.197139Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 16 ('hyphen') - ERROR - Bounds should be [150, 397, 678, 605], but are [150, 399, 678, 605].",
+                        "timestamp": "2020-09-10T10:42:38.200852Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 16 ('hyphen') - ERROR - Bounds should be [150, 397, 678, 605], but are [150, 399, 678, 605].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 161 ('germandbls')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 161 ('germandbls')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-307, -585, 1286, 1446], but are [-307, -583, 1286, 1446].",
-                        "timestamp": "2020-09-10T07:40:55.135803Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 161 ('germandbls') - ERROR - Bounds should be [-307, -585, 1286, 1446], but are [-307, -583, 1286, 1446].",
+                        "timestamp": "2020-09-10T10:42:40.162376Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 161 ('germandbls') - ERROR - Bounds should be [-307, -585, 1286, 1446], but are [-307, -583, 1286, 1446].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 178 ('eth')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 178 ('eth')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [14, -27, 1159, 1538], but are [14, -27, 1144, 1531].",
-                        "timestamp": "2020-09-10T07:40:55.434574Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 178 ('eth') - ERROR - Bounds should be [14, -27, 1159, 1538], but are [14, -27, 1144, 1531].",
+                        "timestamp": "2020-09-10T10:42:40.486177Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 178 ('eth') - ERROR - Bounds should be [14, -27, 1159, 1538], but are [14, -27, 1144, 1531].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 179 ('ntilde')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 179 ('ntilde')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-66, -35, 1078, 1230], but are [-66, -34, 1078, 1230].",
-                        "timestamp": "2020-09-10T07:40:55.447747Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 179 ('ntilde') - ERROR - Bounds should be [-66, -35, 1078, 1230], but are [-66, -34, 1078, 1230].",
+                        "timestamp": "2020-09-10T10:42:40.509849Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 179 ('ntilde') - ERROR - Bounds should be [-66, -35, 1078, 1230], but are [-66, -34, 1078, 1230].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 19 ('zero')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 19 ('zero')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [56, -27, 1117, 1235], but are [59, -27, 1116, 1235].",
-                        "timestamp": "2020-09-10T07:40:53.211112Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 19 ('zero') - ERROR - Bounds should be [56, -27, 1117, 1235], but are [59, -27, 1116, 1235].",
+                        "timestamp": "2020-09-10T10:42:38.214810Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 19 ('zero') - ERROR - Bounds should be [56, -27, 1117, 1235], but are [59, -27, 1116, 1235].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 196 ('endash')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 196 ('endash')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [169, 421, 1071, 605], but are [169, 422, 1071, 605].",
-                        "timestamp": "2020-09-10T07:40:55.702050Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 196 ('endash') - ERROR - Bounds should be [169, 421, 1071, 605], but are [169, 422, 1071, 605].",
+                        "timestamp": "2020-09-10T10:42:40.878123Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 196 ('endash') - ERROR - Bounds should be [169, 421, 1071, 605], but are [169, 422, 1071, 605].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 221 ('perthousand')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 221 ('perthousand')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [242, -32, 1931, 1251], but are [242, -30, 1931, 1251].",
-                        "timestamp": "2020-09-10T07:40:55.965659Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 221 ('perthousand') - ERROR - Bounds should be [242, -32, 1931, 1251], but are [242, -30, 1931, 1251].",
+                        "timestamp": "2020-09-10T10:42:41.098597Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 221 ('perthousand') - ERROR - Bounds should be [242, -32, 1931, 1251], but are [242, -30, 1931, 1251].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 232 ('dotlessj')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 232 ('dotlessj')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-500, -602, 585, 786], but are [-500, -602, 573, 786].",
-                        "timestamp": "2020-09-10T07:40:56.199583Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 232 ('dotlessj') - ERROR - Bounds should be [-500, -602, 585, 786], but are [-500, -602, 573, 786].",
+                        "timestamp": "2020-09-10T10:42:41.329656Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 232 ('dotlessj') - ERROR - Bounds should be [-500, -602, 585, 786], but are [-500, -602, 573, 786].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 234 ('lslash')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 234 ('lslash')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-62, -39, 1012, 1501], but are [-8, -39, 1012, 1501].",
-                        "timestamp": "2020-09-10T07:40:56.239472Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 234 ('lslash') - ERROR - Bounds should be [-62, -39, 1012, 1501], but are [-8, -39, 1012, 1501].",
+                        "timestamp": "2020-09-10T10:42:41.368677Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 234 ('lslash') - ERROR - Bounds should be [-62, -39, 1012, 1501], but are [-8, -39, 1012, 1501].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 240 ('eng')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 240 ('eng')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-143, -602, 942, 815], but are [-143, -602, 930, 815].",
-                        "timestamp": "2020-09-10T07:40:56.410883Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 240 ('eng') - ERROR - Bounds should be [-143, -602, 942, 815], but are [-143, -602, 930, 815].",
+                        "timestamp": "2020-09-10T10:42:41.537437Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 240 ('eng') - ERROR - Bounds should be [-143, -602, 942, 815], but are [-143, -602, 930, 815].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 248 ('kgreenlandic')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 248 ('kgreenlandic')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-42, -35, 903, 922], but are [-42, -35, 903, 918].",
-                        "timestamp": "2020-09-10T07:40:56.614389Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 248 ('kgreenlandic') - ERROR - Bounds should be [-42, -35, 903, 922], but are [-42, -35, 903, 918].",
+                        "timestamp": "2020-09-10T10:42:41.724659Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 248 ('kgreenlandic') - ERROR - Bounds should be [-42, -35, 903, 922], but are [-42, -35, 903, 918].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 312 ('nacute')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 312 ('nacute')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-66, -35, 1050, 1332], but are [-66, -34, 1050, 1332].",
-                        "timestamp": "2020-09-10T07:40:57.637197Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 312 ('nacute') - ERROR - Bounds should be [-66, -35, 1050, 1332], but are [-66, -34, 1050, 1332].",
+                        "timestamp": "2020-09-10T10:42:42.772137Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 312 ('nacute') - ERROR - Bounds should be [-66, -35, 1050, 1332], but are [-66, -34, 1050, 1332].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 316 ('ncaron')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 316 ('ncaron')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-66, -35, 1067, 1336], but are [-66, -34, 1067, 1336].",
-                        "timestamp": "2020-09-10T07:40:57.750081Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 316 ('ncaron') - ERROR - Bounds should be [-66, -35, 1067, 1336], but are [-66, -34, 1067, 1336].",
+                        "timestamp": "2020-09-10T10:42:42.847129Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 316 ('ncaron') - ERROR - Bounds should be [-66, -35, 1067, 1336], but are [-66, -34, 1067, 1336].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 317 ('napostrophe')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 317 ('napostrophe')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-50, -35, 972, 1248], but are [-50, -34, 972, 1248].",
-                        "timestamp": "2020-09-10T07:40:57.792817Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 317 ('napostrophe') - ERROR - Bounds should be [-50, -35, 972, 1248], but are [-50, -34, 972, 1248].",
+                        "timestamp": "2020-09-10T10:42:42.874260Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 317 ('napostrophe') - ERROR - Bounds should be [-50, -35, 972, 1248], but are [-50, -34, 972, 1248].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 60 ('Y')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 60 ('Y')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [171, -614, 1781, 1466], but are [171, -614, 1781, 1458].",
-                        "timestamp": "2020-09-10T07:40:53.892568Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 60 ('Y') - ERROR - Bounds should be [171, -614, 1781, 1466], but are [171, -614, 1781, 1458].",
+                        "timestamp": "2020-09-10T10:42:38.891721Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 60 ('Y') - ERROR - Bounds should be [171, -614, 1781, 1466], but are [171, -614, 1781, 1458].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 81 ('n')",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 81 ('n')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-66, -35, 956, 815], but are [-66, -34, 956, 815].",
-                        "timestamp": "2020-09-10T07:40:54.167118Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.glyf.glyph 81 ('n') - ERROR - Bounds should be [-66, -35, 956, 815], but are [-66, -34, 956, 815].",
+                        "timestamp": "2020-09-10T10:42:39.183357Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.glyf.glyph 81 ('n') - ERROR - Bounds should be [-66, -35, 956, 815], but are [-66, -34, 956, 815].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.hmtx",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing -398 does not match the glyph's xMin -399 (glyph 83)",
-                        "timestamp": "2020-09-10T07:40:59.586954Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.hmtx - ERROR - The left sidebearing -398 does not match the glyph's xMin -399 (glyph 83)",
+                        "timestamp": "2020-09-10T10:42:44.693304Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.hmtx - ERROR - The left sidebearing -398 does not match the glyph's xMin -399 (glyph 83)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.hmtx",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing -235 does not match the glyph's xMin -236 (glyph 119)",
-                        "timestamp": "2020-09-10T07:40:59.600999Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.hmtx - ERROR - The left sidebearing -235 does not match the glyph's xMin -236 (glyph 119)",
+                        "timestamp": "2020-09-10T10:42:44.707279Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.hmtx - ERROR - The left sidebearing -235 does not match the glyph's xMin -236 (glyph 119)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.hmtx",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing -398 does not match the glyph's xMin -399 (glyph 192)",
-                        "timestamp": "2020-09-10T07:40:59.632527Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.hmtx - ERROR - The left sidebearing -398 does not match the glyph's xMin -399 (glyph 192)",
+                        "timestamp": "2020-09-10T10:42:44.737752Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.hmtx - ERROR - The left sidebearing -398 does not match the glyph's xMin -399 (glyph 192)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_19ded63da0f2445b8a76d489e4d68b90.hmtx",
+                        "subroutine": "validate_527f229ddd094577918bc313c1dbbb92.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing -235 does not match the glyph's xMin -236 (glyph 251)",
-                        "timestamp": "2020-09-10T07:40:59.657254Z",
-                        "orig_output": "validate_19ded63da0f2445b8a76d489e4d68b90.hmtx - ERROR - The left sidebearing -235 does not match the glyph's xMin -236 (glyph 251)",
+                        "timestamp": "2020-09-10T10:42:44.762067Z",
+                        "orig_output": "validate_527f229ddd094577918bc313c1dbbb92.hmtx - ERROR - The left sidebearing -235 does not match the glyph's xMin -236 (glyph 251)",
                         "msg_code": "V0933"
                     }
                 ]
@@ -262,6 +262,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 9142,
-    "completedDate": "2020-09-10 07:41:00.295615"
+    "runningTime": 10228,
+    "completedDate": "2020-09-10 10:42:45.396725"
 }

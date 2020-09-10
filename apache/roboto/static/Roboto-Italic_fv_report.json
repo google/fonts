@@ -41,19 +41,19 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_cc804feb09fd4f438f81cc09ac505ff1.name",
+                        "subroutine": "validate_04a4f2e9bc2c467f8b12bf4c91998ed5.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-10T07:45:34.064114Z",
-                        "orig_output": "validate_cc804feb09fd4f438f81cc09ac505ff1.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-10T10:48:10.302606Z",
+                        "orig_output": "validate_04a4f2e9bc2c467f8b12bf4c91998ed5.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_cc804feb09fd4f438f81cc09ac505ff1.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_04a4f2e9bc2c467f8b12bf4c91998ed5.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1130, but is 1161",
-                        "timestamp": "2020-09-10T07:45:15.762659Z",
-                        "orig_output": "validate_cc804feb09fd4f438f81cc09ac505ff1.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1130, but is 1161",
+                        "timestamp": "2020-09-10T10:47:52.030183Z",
+                        "orig_output": "validate_04a4f2e9bc2c467f8b12bf4c91998ed5.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1130, but is 1161",
                         "msg_code": "E2135"
                     }
                 ]
@@ -63,6 +63,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 28099,
-    "completedDate": "2020-09-10 07:45:39.812570"
+    "runningTime": 28362,
+    "completedDate": "2020-09-10 10:48:16.318030"
 }

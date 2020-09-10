@@ -40,51 +40,51 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_8c6a49944a5148be985a22f874bad966.fontedit.HVAR",
+                        "subroutine": "validate_ba392ac43953440592bb9f3af9989244.fontedit.HVAR",
                         "levelname": "ERROR",
                         "message": "Item Variation Store missing or empty",
-                        "timestamp": "2020-09-10T07:46:27.612823Z",
-                        "orig_output": "validate_8c6a49944a5148be985a22f874bad966.fontedit.HVAR - ERROR - Item Variation Store missing or empty",
+                        "timestamp": "2020-09-10T10:49:10.779930Z",
+                        "orig_output": "validate_ba392ac43953440592bb9f3af9989244.fontedit.HVAR - ERROR - Item Variation Store missing or empty",
                         "msg_code": "V1100"
                     },
                     {
-                        "subroutine": "validate_8c6a49944a5148be985a22f874bad966.fontedit.HVAR.IVS",
+                        "subroutine": "validate_ba392ac43953440592bb9f3af9989244.fontedit.HVAR.IVS",
                         "levelname": "ERROR",
                         "message": "Insufficient bytes",
-                        "timestamp": "2020-09-10T07:46:27.612594Z",
-                        "orig_output": "validate_8c6a49944a5148be985a22f874bad966.fontedit.HVAR.IVS - ERROR - Insufficient bytes",
+                        "timestamp": "2020-09-10T10:49:10.779781Z",
+                        "orig_output": "validate_ba392ac43953440592bb9f3af9989244.fontedit.HVAR.IVS - ERROR - Insufficient bytes",
                         "msg_code": "V0004"
                     },
                     {
-                        "subroutine": "validate_8c6a49944a5148be985a22f874bad966.fontedit.OS_2.PANOSE.proportion",
+                        "subroutine": "validate_ba392ac43953440592bb9f3af9989244.fontedit.OS_2.PANOSE.proportion",
                         "levelname": "ERROR",
                         "message": "Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-09-10T07:46:27.613104Z",
-                        "orig_output": "validate_8c6a49944a5148be985a22f874bad966.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-10T10:49:10.780146Z",
+                        "orig_output": "validate_ba392ac43953440592bb9f3af9989244.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2108"
                     },
                     {
-                        "subroutine": "validate_8c6a49944a5148be985a22f874bad966.name",
+                        "subroutine": "validate_ba392ac43953440592bb9f3af9989244.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-10T07:46:48.591759Z",
-                        "orig_output": "validate_8c6a49944a5148be985a22f874bad966.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-10T10:49:31.069817Z",
+                        "orig_output": "validate_ba392ac43953440592bb9f3af9989244.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_8c6a49944a5148be985a22f874bad966.OS_2.usMaxContext",
+                        "subroutine": "validate_ba392ac43953440592bb9f3af9989244.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 2, but is 1",
-                        "timestamp": "2020-09-10T07:46:29.388358Z",
-                        "orig_output": "validate_8c6a49944a5148be985a22f874bad966.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
+                        "timestamp": "2020-09-10T10:49:12.366118Z",
+                        "orig_output": "validate_ba392ac43953440592bb9f3af9989244.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_8c6a49944a5148be985a22f874bad966.post",
+                        "subroutine": "validate_ba392ac43953440592bb9f3af9989244.post",
                         "levelname": "ERROR",
                         "message": "Header disagrees with PANOSE on fixed-pitch.",
-                        "timestamp": "2020-09-10T07:46:48.594495Z",
-                        "orig_output": "validate_8c6a49944a5148be985a22f874bad966.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
+                        "timestamp": "2020-09-10T10:49:31.072492Z",
+                        "orig_output": "validate_ba392ac43953440592bb9f3af9989244.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
                         "msg_code": "E2303"
                     }
                 ]
@@ -94,6 +94,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 22742,
-    "completedDate": "2020-09-10 07:46:48.756238"
+    "runningTime": 22037,
+    "completedDate": "2020-09-10 10:49:31.239520"
 }

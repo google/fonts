@@ -6,15 +6,15 @@ max_value: 100
 default_value: 0
 precision: -1
 fallback {
-  name: "Hard"
+  name: "Sharper"
   value: 0
 }
 fallback {
-  name: "Softer"
+  name: "Soft"
   value: 50
 }
 fallback {
-  name: "Softest"
+  name: "Softer"
   value: 100
 }
 description: "Letterforms become more soft and rounded."

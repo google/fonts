@@ -39,123 +39,123 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 168 ('ae')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 168 ('ae')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [39, -43, 2099, 1147], but are [39, -43, 2097, 1147].",
-                        "timestamp": "2020-09-15T13:18:46.593391Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 168 ('ae') - ERROR - Bounds should be [39, -43, 2099, 1147], but are [39, -43, 2097, 1147].",
+                        "timestamp": "2020-09-15T14:20:57.614628Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 168 ('ae') - ERROR - Bounds should be [39, -43, 2099, 1147], but are [39, -43, 2097, 1147].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 170 ('egrave')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 170 ('egrave')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-09-15T13:18:46.638759Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 170 ('egrave') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-09-15T14:20:57.664031Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 170 ('egrave') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 171 ('eacute')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 171 ('eacute')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-09-15T13:18:46.643781Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 171 ('eacute') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-09-15T14:20:57.669744Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 171 ('eacute') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 172 ('ecircumflex')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 172 ('ecircumflex')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-09-15T13:18:46.648920Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 172 ('ecircumflex') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-09-15T14:20:57.675200Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 172 ('ecircumflex') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 173 ('edieresis')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 173 ('edieresis')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1546], but are [41, -43, 1403, 1546].",
-                        "timestamp": "2020-09-15T13:18:46.654732Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 173 ('edieresis') - ERROR - Bounds should be [41, -43, 1405, 1546], but are [41, -43, 1403, 1546].",
+                        "timestamp": "2020-09-15T14:20:57.683268Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 173 ('edieresis') - ERROR - Bounds should be [41, -43, 1405, 1546], but are [41, -43, 1403, 1546].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 213 ('emacron')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 213 ('emacron')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1507], but are [41, -43, 1403, 1507].",
-                        "timestamp": "2020-09-15T13:18:47.044211Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 213 ('emacron') - ERROR - Bounds should be [41, -43, 1405, 1507], but are [41, -43, 1403, 1507].",
+                        "timestamp": "2020-09-15T14:20:58.200890Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 213 ('emacron') - ERROR - Bounds should be [41, -43, 1405, 1507], but are [41, -43, 1403, 1507].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 215 ('ebreve')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 215 ('ebreve')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-09-15T13:18:47.054975Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 215 ('ebreve') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-09-15T14:20:58.218725Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 215 ('ebreve') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 217 ('edotaccent')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 217 ('edotaccent')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1573], but are [41, -43, 1403, 1573].",
-                        "timestamp": "2020-09-15T13:18:47.066097Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 217 ('edotaccent') - ERROR - Bounds should be [41, -43, 1405, 1573], but are [41, -43, 1403, 1573].",
+                        "timestamp": "2020-09-15T14:20:58.236585Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 217 ('edotaccent') - ERROR - Bounds should be [41, -43, 1405, 1573], but are [41, -43, 1403, 1573].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 219 ('eogonek')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 219 ('eogonek')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -467, 1405, 1147], but are [41, -467, 1403, 1147].",
-                        "timestamp": "2020-09-15T13:18:47.102613Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 219 ('eogonek') - ERROR - Bounds should be [41, -467, 1405, 1147], but are [41, -467, 1403, 1147].",
+                        "timestamp": "2020-09-15T14:20:58.295840Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 219 ('eogonek') - ERROR - Bounds should be [41, -467, 1405, 1147], but are [41, -467, 1403, 1147].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 221 ('ecaron')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 221 ('ecaron')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
-                        "timestamp": "2020-09-15T13:18:47.126290Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 221 ('ecaron') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
+                        "timestamp": "2020-09-15T14:20:58.331766Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 221 ('ecaron') - ERROR - Bounds should be [41, -43, 1405, 1548], but are [41, -43, 1403, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 277 ('oe')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 277 ('oe')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 2236, 1147], but are [41, -43, 2234, 1147].",
-                        "timestamp": "2020-09-15T13:18:47.674278Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 277 ('oe') - ERROR - Bounds should be [41, -43, 2236, 1147], but are [41, -43, 2234, 1147].",
+                        "timestamp": "2020-09-15T14:20:59.077061Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 277 ('oe') - ERROR - Bounds should be [41, -43, 2236, 1147], but are [41, -43, 2234, 1147].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 323 ('aeacute')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 323 ('aeacute')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [39, -43, 2099, 1548], but are [39, -43, 2097, 1548].",
-                        "timestamp": "2020-09-15T13:18:48.090460Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 323 ('aeacute') - ERROR - Bounds should be [39, -43, 2099, 1548], but are [39, -43, 2097, 1548].",
+                        "timestamp": "2020-09-15T14:20:59.616101Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 323 ('aeacute') - ERROR - Bounds should be [39, -43, 2099, 1548], but are [39, -43, 2097, 1548].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 72 ('e')",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 72 ('e')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [41, -43, 1405, 1147], but are [41, -43, 1403, 1147].",
-                        "timestamp": "2020-09-15T13:18:45.038140Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.glyf.glyph 72 ('e') - ERROR - Bounds should be [41, -43, 1405, 1147], but are [41, -43, 1403, 1147].",
+                        "timestamp": "2020-09-15T14:20:55.661516Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.glyf.glyph 72 ('e') - ERROR - Bounds should be [41, -43, 1405, 1147], but are [41, -43, 1403, 1147].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.OS_2.usMaxContext",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 0, but is 1",
-                        "timestamp": "2020-09-15T13:18:43.826537Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.OS_2.usMaxContext - ERROR - The usMaxContext should be 0, but is 1",
+                        "timestamp": "2020-09-15T14:20:54.184910Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.OS_2.usMaxContext - ERROR - The usMaxContext should be 0, but is 1",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_4cf695bc68eb4db8bc41493a65b68d05.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_5865bdd68ca04b049247c00383e1ace4.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1459, but is 1460",
-                        "timestamp": "2020-09-15T13:18:43.826885Z",
-                        "orig_output": "validate_4cf695bc68eb4db8bc41493a65b68d05.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1459, but is 1460",
+                        "timestamp": "2020-09-15T14:20:54.185288Z",
+                        "orig_output": "validate_5865bdd68ca04b049247c00383e1ace4.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1459, but is 1460",
                         "msg_code": "E2135"
                     }
                 ]
@@ -165,6 +165,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 9550,
-    "completedDate": "2020-09-15 13:18:50.985395"
+    "runningTime": 11955,
+    "completedDate": "2020-09-15 14:21:03.191445"
 }

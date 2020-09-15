@@ -1,5 +1,5 @@
 designer: "Impallari Type"
-link: "https://plus.google.com/u/0/110111593890826991879/about"
+link: "https://twitter.com/impallaritype"
 avatar: {
   file_name: "impallari_type.png"
 }

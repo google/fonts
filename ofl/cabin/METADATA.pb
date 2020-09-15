@@ -1,5 +1,5 @@
 name: "Cabin"
-designer: "Pablo Impallari, Rodrigo Fuenzalida"
+designer: "Impallari Type, Rodrigo Fuenzalida"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-07-22"

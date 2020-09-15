@@ -1,5 +1,5 @@
 name: "Piazzolla"
-designer: "huertatipografica"
+designer: "Huerta Tipográfica"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-08-27"

@@ -40,43 +40,43 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.glyf.glyph 234 ('uni0315').contours.contour 0",
+                        "subroutine": "validate_57c4dc648b894841b741574a278f57e1.glyf.glyph 234 ('uni0315').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:45:41.931663Z",
-                        "orig_output": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.glyf.glyph 234 ('uni0315').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:09:44.302860Z",
+                        "orig_output": "validate_57c4dc648b894841b741574a278f57e1.glyf.glyph 234 ('uni0315').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.glyf.glyph 235 ('uni0326').contours.contour 0",
+                        "subroutine": "validate_57c4dc648b894841b741574a278f57e1.glyf.glyph 235 ('uni0326').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:45:41.941023Z",
-                        "orig_output": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.glyf.glyph 235 ('uni0326').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:09:44.313795Z",
+                        "orig_output": "validate_57c4dc648b894841b741574a278f57e1.glyf.glyph 235 ('uni0326').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.hhea",
+                        "subroutine": "validate_57c4dc648b894841b741574a278f57e1.hhea",
                         "levelname": "ERROR",
                         "message": "The minLeftSidebearing value (-68) does not match the expected value (-229)",
-                        "timestamp": "2020-09-10T10:45:43.628420Z",
-                        "orig_output": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.hhea - ERROR - The minLeftSidebearing value (-68) does not match the expected value (-229)",
+                        "timestamp": "2020-09-16T07:09:46.235587Z",
+                        "orig_output": "validate_57c4dc648b894841b741574a278f57e1.hhea - ERROR - The minLeftSidebearing value (-68) does not match the expected value (-229)",
                         "msg_code": "E1402"
                     },
                     {
-                        "subroutine": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.hhea",
+                        "subroutine": "validate_57c4dc648b894841b741574a278f57e1.hhea",
                         "levelname": "ERROR",
                         "message": "The minRightSidebearing value (-93) does not match the expected value (-234)",
-                        "timestamp": "2020-09-10T10:45:43.628532Z",
-                        "orig_output": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.hhea - ERROR - The minRightSidebearing value (-93) does not match the expected value (-234)",
+                        "timestamp": "2020-09-16T07:09:46.235726Z",
+                        "orig_output": "validate_57c4dc648b894841b741574a278f57e1.hhea - ERROR - The minRightSidebearing value (-93) does not match the expected value (-234)",
                         "msg_code": "E1403"
                     },
                     {
-                        "subroutine": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_57c4dc648b894841b741574a278f57e1.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1108, but is 1051",
-                        "timestamp": "2020-09-10T10:45:40.090597Z",
-                        "orig_output": "validate_99b2cbd9aaeb45a1a62e50e8b7ab3c1d.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1108, but is 1051",
+                        "timestamp": "2020-09-16T07:09:42.130437Z",
+                        "orig_output": "validate_57c4dc648b894841b741574a278f57e1.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1108, but is 1051",
                         "msg_code": "E2135"
                     }
                 ]
@@ -86,6 +86,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 8348,
-    "completedDate": "2020-09-10 10:45:44.564976"
+    "runningTime": 9560,
+    "completedDate": "2020-09-16 07:09:47.254728"
 }

@@ -42,51 +42,51 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_fee94c55b27e4b79a6ac1d4855058575.fontedit.OS_2.PANOSE.weight",
+                        "subroutine": "validate_eb0cfdd3acac45ba86da004bc3b25969.fontedit.OS_2.PANOSE.weight",
                         "levelname": "ERROR",
                         "message": "Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-09-10T10:47:13.677678Z",
-                        "orig_output": "validate_fee94c55b27e4b79a6ac1d4855058575.fontedit.OS_2.PANOSE.weight - ERROR - Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-16T07:11:44.228727Z",
+                        "orig_output": "validate_eb0cfdd3acac45ba86da004bc3b25969.fontedit.OS_2.PANOSE.weight - ERROR - Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2111"
                     },
                     {
-                        "subroutine": "validate_fee94c55b27e4b79a6ac1d4855058575.GDEF.glyphClasses",
+                        "subroutine": "validate_eb0cfdd3acac45ba86da004bc3b25969.GDEF.glyphClasses",
                         "levelname": "ERROR",
                         "message": "The following mark glyphs have nonzero advances: [224]",
-                        "timestamp": "2020-09-10T10:47:13.683265Z",
-                        "orig_output": "validate_fee94c55b27e4b79a6ac1d4855058575.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [224]",
+                        "timestamp": "2020-09-16T07:11:44.235147Z",
+                        "orig_output": "validate_eb0cfdd3acac45ba86da004bc3b25969.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [224]",
                         "msg_code": "V1102"
                     },
                     {
-                        "subroutine": "validate_fee94c55b27e4b79a6ac1d4855058575.hmtx",
+                        "subroutine": "validate_eb0cfdd3acac45ba86da004bc3b25969.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 128 does not match the glyph's xMin 129 (glyph 39)",
-                        "timestamp": "2020-09-10T10:47:16.772134Z",
-                        "orig_output": "validate_fee94c55b27e4b79a6ac1d4855058575.hmtx - ERROR - The left sidebearing 128 does not match the glyph's xMin 129 (glyph 39)",
+                        "timestamp": "2020-09-16T07:11:47.850775Z",
+                        "orig_output": "validate_eb0cfdd3acac45ba86da004bc3b25969.hmtx - ERROR - The left sidebearing 128 does not match the glyph's xMin 129 (glyph 39)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_fee94c55b27e4b79a6ac1d4855058575.hmtx",
+                        "subroutine": "validate_eb0cfdd3acac45ba86da004bc3b25969.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 118 does not match the glyph's xMin 119 (glyph 83)",
-                        "timestamp": "2020-09-10T10:47:16.779529Z",
-                        "orig_output": "validate_fee94c55b27e4b79a6ac1d4855058575.hmtx - ERROR - The left sidebearing 118 does not match the glyph's xMin 119 (glyph 83)",
+                        "timestamp": "2020-09-16T07:11:47.859226Z",
+                        "orig_output": "validate_eb0cfdd3acac45ba86da004bc3b25969.hmtx - ERROR - The left sidebearing 118 does not match the glyph's xMin 119 (glyph 83)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_fee94c55b27e4b79a6ac1d4855058575.OS_2.usMaxContext",
+                        "subroutine": "validate_eb0cfdd3acac45ba86da004bc3b25969.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 1, but is 4",
-                        "timestamp": "2020-09-10T10:47:14.286749Z",
-                        "orig_output": "validate_fee94c55b27e4b79a6ac1d4855058575.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
+                        "timestamp": "2020-09-16T07:11:44.863458Z",
+                        "orig_output": "validate_eb0cfdd3acac45ba86da004bc3b25969.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_fee94c55b27e4b79a6ac1d4855058575.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_eb0cfdd3acac45ba86da004bc3b25969.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1058, but is 1062",
-                        "timestamp": "2020-09-10T10:47:14.286987Z",
-                        "orig_output": "validate_fee94c55b27e4b79a6ac1d4855058575.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1058, but is 1062",
+                        "timestamp": "2020-09-16T07:11:44.863735Z",
+                        "orig_output": "validate_eb0cfdd3acac45ba86da004bc3b25969.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1058, but is 1062",
                         "msg_code": "E2135"
                     }
                 ]
@@ -96,6 +96,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 4980,
-    "completedDate": "2020-09-10 10:47:17.131815"
+    "runningTime": 7680,
+    "completedDate": "2020-09-16 07:11:48.260435"
 }

@@ -40,27 +40,27 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_3c3866de6aae4537b00fc194a18cb2dd.gasp.up to 14 ppem",
+                        "subroutine": "validate_0295e87d54e1407984a06944b5a06b1a.gasp.up to 14 ppem",
                         "levelname": "ERROR",
                         "message": "v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
-                        "timestamp": "2020-09-10T10:40:51.653376Z",
-                        "orig_output": "validate_3c3866de6aae4537b00fc194a18cb2dd.gasp.up to 14 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
+                        "timestamp": "2020-09-16T07:03:33.110301Z",
+                        "orig_output": "validate_0295e87d54e1407984a06944b5a06b1a.gasp.up to 14 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
                         "msg_code": "V0992"
                     },
                     {
-                        "subroutine": "validate_3c3866de6aae4537b00fc194a18cb2dd.GDEF.glyphClasses",
+                        "subroutine": "validate_0295e87d54e1407984a06944b5a06b1a.GDEF.glyphClasses",
                         "levelname": "ERROR",
                         "message": "The following mark glyphs have nonzero advances: [2289]",
-                        "timestamp": "2020-09-10T10:40:19.040763Z",
-                        "orig_output": "validate_3c3866de6aae4537b00fc194a18cb2dd.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [2289]",
+                        "timestamp": "2020-09-16T07:02:56.073796Z",
+                        "orig_output": "validate_0295e87d54e1407984a06944b5a06b1a.GDEF.glyphClasses - ERROR - The following mark glyphs have nonzero advances: [2289]",
                         "msg_code": "V1102"
                     },
                     {
-                        "subroutine": "validate_3c3866de6aae4537b00fc194a18cb2dd.OS_2.usMaxContext",
+                        "subroutine": "validate_0295e87d54e1407984a06944b5a06b1a.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 3, but is 4",
-                        "timestamp": "2020-09-10T10:40:20.456487Z",
-                        "orig_output": "validate_3c3866de6aae4537b00fc194a18cb2dd.OS_2.usMaxContext - ERROR - The usMaxContext should be 3, but is 4",
+                        "timestamp": "2020-09-16T07:02:57.636310Z",
+                        "orig_output": "validate_0295e87d54e1407984a06944b5a06b1a.OS_2.usMaxContext - ERROR - The usMaxContext should be 3, but is 4",
                         "msg_code": "V0831"
                     }
                 ]
@@ -70,6 +70,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 121908,
-    "completedDate": "2020-09-10 10:41:47.291425"
+    "runningTime": 136945,
+    "completedDate": "2020-09-16 07:04:35.235617"
 }

@@ -39,35 +39,35 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_eaca3e9caa064a8481e3008068f98cd4.OS_2.unicodeRanges",
+                        "subroutine": "validate_5e20f95c86c94bec9634ccd3cfa79d3e.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T10:43:49.198302Z",
-                        "orig_output": "validate_eaca3e9caa064a8481e3008068f98cd4.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-09-16T07:07:18.247540Z",
+                        "orig_output": "validate_5e20f95c86c94bec9634ccd3cfa79d3e.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_eaca3e9caa064a8481e3008068f98cd4.OS_2.unicodeRanges",
+                        "subroutine": "validate_5e20f95c86c94bec9634ccd3cfa79d3e.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCJKStrokes' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T10:43:49.198482Z",
-                        "orig_output": "validate_eaca3e9caa064a8481e3008068f98cd4.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKStrokes' claimed to be present but is not.",
+                        "timestamp": "2020-09-16T07:07:18.247711Z",
+                        "orig_output": "validate_5e20f95c86c94bec9634ccd3cfa79d3e.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKStrokes' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_eaca3e9caa064a8481e3008068f98cd4.OS_2.unicodeRanges",
+                        "subroutine": "validate_5e20f95c86c94bec9634ccd3cfa79d3e.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T10:43:49.198560Z",
-                        "orig_output": "validate_eaca3e9caa064a8481e3008068f98cd4.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-09-16T07:07:18.247798Z",
+                        "orig_output": "validate_5e20f95c86c94bec9634ccd3cfa79d3e.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_eaca3e9caa064a8481e3008068f98cd4.OS_2.unicodeRanges",
+                        "subroutine": "validate_5e20f95c86c94bec9634ccd3cfa79d3e.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasTags' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T10:43:49.198624Z",
-                        "orig_output": "validate_eaca3e9caa064a8481e3008068f98cd4.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-09-16T07:07:18.247872Z",
+                        "orig_output": "validate_5e20f95c86c94bec9634ccd3cfa79d3e.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
                         "msg_code": "E2113"
                     }
                 ]
@@ -77,6 +77,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 13698,
-    "completedDate": "2020-09-10 10:44:01.041531"
+    "runningTime": 15139,
+    "completedDate": "2020-09-16 07:07:31.258793"
 }

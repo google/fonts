@@ -39,179 +39,179 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 104 ('s').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 104 ('s').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:34.128031Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 104 ('s').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:55.467054Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 104 ('s').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 105 ('t').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 105 ('t').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:34.160069Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 105 ('t').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:55.503348Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 105 ('t').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 159 ('dieresis').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 159 ('dieresis').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:41.886710Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 159 ('dieresis').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:12:04.716332Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 159 ('dieresis').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 190 ('Euro').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 190 ('Euro').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:46.721912Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 190 ('Euro').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:12:10.250730Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 190 ('Euro').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 198 ('perthousand').contours.contour 1",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 198 ('perthousand').contours.contour 1",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:48.362223Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 198 ('perthousand').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:12:12.101194Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 198 ('perthousand').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 198 ('perthousand').contours.contour 5",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 198 ('perthousand').contours.contour 5",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:48.444059Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 198 ('perthousand').contours.contour 5 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:12:12.195320Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 198 ('perthousand').contours.contour 5 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 219 ('dotaccent').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 219 ('dotaccent').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:49.436515Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 219 ('dotaccent').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:12:13.269482Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 219 ('dotaccent').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 26 ('percent').contours.contour 3",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 26 ('percent').contours.contour 3",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:10.119209Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 26 ('percent').contours.contour 3 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:27.569119Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 26 ('percent').contours.contour 3 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 53 ('at').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 53 ('at').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:15.626713Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 53 ('at').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:33.533586Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 53 ('at').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 58 ('E').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 58 ('E').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:19.057382Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 58 ('E').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:37.367694Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 58 ('E').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 65 ('L').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 65 ('L').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:22.295855Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 65 ('L').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:41.107036Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 65 ('L').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 78 ('Y').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 78 ('Y').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:29.025635Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 78 ('Y').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:49.003178Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 78 ('Y').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 79 ('Z').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 79 ('Z').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:30.256881Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 79 ('Z').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:50.455664Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 79 ('Z').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 80 ('bracketleft').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 80 ('bracketleft').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:30.532253Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 80 ('bracketleft').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:50.807411Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 80 ('bracketleft').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 81 ('backslash').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 81 ('backslash').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:30.743888Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 81 ('backslash').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:51.234603Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 81 ('backslash').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 87 ('b').contours.contour 1",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 87 ('b').contours.contour 1",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:31.484713Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 87 ('b').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:52.449565Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 87 ('b').contours.contour 1 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 92 ('g').contours.contour 0",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 92 ('g').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-10T10:47:32.066360Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.glyf.glyph 92 ('g').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-16T07:11:53.155667Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.glyf.glyph 92 ('g').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.hhea",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.hhea",
                         "levelname": "ERROR",
                         "message": "The advanceWidthMax value (1020) does not match the expected value (1024)",
-                        "timestamp": "2020-09-10T10:47:53.137431Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.hhea - ERROR - The advanceWidthMax value (1020) does not match the expected value (1024)",
+                        "timestamp": "2020-09-16T07:12:17.552046Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.hhea - ERROR - The advanceWidthMax value (1020) does not match the expected value (1024)",
                         "msg_code": "E1400"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.OS_2.unicodeRanges",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T10:47:05.863247Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-09-16T07:11:22.653031Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.OS_2.unicodeRanges",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T10:47:05.863409Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-09-16T07:11:22.653207Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.OS_2.unicodeRanges",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasTags' claimed to be present but is not.",
-                        "timestamp": "2020-09-10T10:47:05.863499Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-09-16T07:11:22.653287Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_373f04e5dffc432e85fe4182b8487111.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_f0692ac02963473f958cd6fe6ae5c34d.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 446, but is 346",
-                        "timestamp": "2020-09-10T10:47:06.325776Z",
-                        "orig_output": "validate_373f04e5dffc432e85fe4182b8487111.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 446, but is 346",
+                        "timestamp": "2020-09-16T07:11:23.188703Z",
+                        "orig_output": "validate_f0692ac02963473f958cd6fe6ae5c34d.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 446, but is 346",
                         "msg_code": "E2135"
                     }
                 ]
@@ -221,6 +221,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 51254,
-    "completedDate": "2020-09-10 10:47:55.099425"
+    "runningTime": 59438,
+    "completedDate": "2020-09-16 07:12:19.837699"
 }

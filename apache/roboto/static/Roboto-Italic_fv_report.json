@@ -1,4 +1,4 @@
-{
+﻿{
     "processed": [
         {
             "file": {
@@ -41,19 +41,19 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_15cc51a1fec94ff8a7fbfe9ccc9fab7e.name",
+                        "subroutine": "validate_cbdbbf25dfa14c4baf5f06c4eef2a03e.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-16T07:12:19.543586Z",
-                        "orig_output": "validate_15cc51a1fec94ff8a7fbfe9ccc9fab7e.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-21T16:35:21.157283Z",
+                        "orig_output": "validate_cbdbbf25dfa14c4baf5f06c4eef2a03e.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_15cc51a1fec94ff8a7fbfe9ccc9fab7e.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_cbdbbf25dfa14c4baf5f06c4eef2a03e.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1130, but is 1161",
-                        "timestamp": "2020-09-16T07:11:58.554696Z",
-                        "orig_output": "validate_15cc51a1fec94ff8a7fbfe9ccc9fab7e.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1130, but is 1161",
+                        "timestamp": "2020-09-21T16:34:58.287020Z",
+                        "orig_output": "validate_cbdbbf25dfa14c4baf5f06c4eef2a03e.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1130, but is 1161",
                         "msg_code": "E2135"
                     }
                 ]
@@ -63,6 +63,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 32298,
-    "completedDate": "2020-09-16 07:12:26.248574"
+    "runningTime": 36665,
+    "completedDate": "2020-09-21 16:35:28.644379"
 }

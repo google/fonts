@@ -1,4 +1,4 @@
-{
+﻿{
     "processed": [
         {
             "file": {
@@ -42,35 +42,35 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_080887cd70004d15aeeb9d14fd22c701.fontedit.OS_2.PANOSE.proportion",
+                        "subroutine": "validate_2dc8f8bf55d6446a805ded22627b9ea5.fontedit.OS_2.PANOSE.proportion",
                         "levelname": "ERROR",
                         "message": "Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-09-16T07:15:52.539994Z",
-                        "orig_output": "validate_080887cd70004d15aeeb9d14fd22c701.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-21T16:38:35.146330Z",
+                        "orig_output": "validate_2dc8f8bf55d6446a805ded22627b9ea5.fontedit.OS_2.PANOSE.proportion - ERROR - Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2108"
                     },
                     {
-                        "subroutine": "validate_080887cd70004d15aeeb9d14fd22c701.name",
+                        "subroutine": "validate_2dc8f8bf55d6446a805ded22627b9ea5.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-16T07:16:32.030108Z",
-                        "orig_output": "validate_080887cd70004d15aeeb9d14fd22c701.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-21T16:39:16.912013Z",
+                        "orig_output": "validate_2dc8f8bf55d6446a805ded22627b9ea5.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_080887cd70004d15aeeb9d14fd22c701.OS_2.usMaxContext",
+                        "subroutine": "validate_2dc8f8bf55d6446a805ded22627b9ea5.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 2, but is 1",
-                        "timestamp": "2020-09-16T07:15:53.552099Z",
-                        "orig_output": "validate_080887cd70004d15aeeb9d14fd22c701.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
+                        "timestamp": "2020-09-21T16:38:36.283668Z",
+                        "orig_output": "validate_2dc8f8bf55d6446a805ded22627b9ea5.OS_2.usMaxContext - ERROR - The usMaxContext should be 2, but is 1",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_080887cd70004d15aeeb9d14fd22c701.post",
+                        "subroutine": "validate_2dc8f8bf55d6446a805ded22627b9ea5.post",
                         "levelname": "ERROR",
                         "message": "Header disagrees with PANOSE on fixed-pitch.",
-                        "timestamp": "2020-09-16T07:16:32.031494Z",
-                        "orig_output": "validate_080887cd70004d15aeeb9d14fd22c701.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
+                        "timestamp": "2020-09-21T16:39:16.913565Z",
+                        "orig_output": "validate_2dc8f8bf55d6446a805ded22627b9ea5.post - ERROR - Header disagrees with PANOSE on fixed-pitch.",
                         "msg_code": "E2303"
                     }
                 ]
@@ -80,6 +80,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 64828,
-    "completedDate": "2020-09-16 07:16:55.598548"
+    "runningTime": 68742,
+    "completedDate": "2020-09-21 16:39:42.059933"
 }

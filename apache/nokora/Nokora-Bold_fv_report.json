@@ -1,4 +1,4 @@
-{
+﻿{
     "processed": [
         {
             "file": {
@@ -40,395 +40,395 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[10].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[10].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 261 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.188401Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[10].nameIndex - ERROR - Name table index 261 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.404193Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[10].nameIndex - ERROR - Name table index 261 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[10].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[10].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.188522Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[10].settings.[4] - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.404394Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[10].settings.[4] - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[11].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[11].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 261 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.188673Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[11].nameIndex - ERROR - Name table index 261 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.404574Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[11].nameIndex - ERROR - Name table index 261 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[11].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[11].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.188793Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[11].settings.[4] - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.404698Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[11].settings.[4] - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[12].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[12].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.188942Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[12].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.404851Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[12].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[12].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[12].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 257 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.189063Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[12].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.404997Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[12].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[13].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[13].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.189213Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[13].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.405136Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[13].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[13].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[13].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 257 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.189334Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[13].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.405243Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[13].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[14].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[14].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.189483Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[14].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.405375Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[14].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[14].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[14].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 257 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.189616Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[14].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.405479Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[14].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[15].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[15].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.189771Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[15].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.405666Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[15].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[15].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[15].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 257 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.189891Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[15].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.405837Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[15].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[16000].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[16000].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 258 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.191128Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[16000].nameIndex - ERROR - Name table index 258 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.407598Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[16000].nameIndex - ERROR - Name table index 258 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[16000].settings.[0]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[16000].settings.[0]",
                         "levelname": "ERROR",
                         "message": "Name table index 258 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.191248Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[16000].settings.[0] - ERROR - Name table index 258 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.407775Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[16000].settings.[0] - ERROR - Name table index 258 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[16].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[16].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.190042Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[16].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.406063Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[16].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[16].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[16].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 257 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.190163Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[16].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.406278Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[16].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[17].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[17].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.190312Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[17].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.406577Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[17].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[17].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[17].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 257 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.190432Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[17].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.406759Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[17].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[18].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[18].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.190588Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[18].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.406941Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[18].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[18].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[18].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 257 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.190710Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[18].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.407058Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[18].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[2].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[2].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.187155Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[2].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.402202Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[2].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[2].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[2].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 257 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.187304Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[2].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.402470Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[2].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[3].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[3].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.187468Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[3].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.402704Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[3].nameIndex - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[3].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[3].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 257 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.187610Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[3].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.402882Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[3].settings.[4] - ERROR - Name table index 257 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[64].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[64].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 258 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.190859Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[64].nameIndex - ERROR - Name table index 258 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.407234Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[64].nameIndex - ERROR - Name table index 258 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[64].settings.[1]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[64].settings.[1]",
                         "levelname": "ERROR",
                         "message": "Name table index 258 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.190978Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[64].settings.[1] - ERROR - Name table index 258 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.407386Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[64].settings.[1] - ERROR - Name table index 258 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[8].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[8].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 261 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.187770Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[8].nameIndex - ERROR - Name table index 261 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.403115Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[8].nameIndex - ERROR - Name table index 261 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[8].settings.[1]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[8].settings.[1]",
                         "levelname": "ERROR",
                         "message": "Name table index 260 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.187895Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[8].settings.[1] - ERROR - Name table index 260 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.403310Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[8].settings.[1] - ERROR - Name table index 260 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[8].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[8].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.187977Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[8].settings.[4] - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.403441Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[8].settings.[4] - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[9].nameIndex",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[9].nameIndex",
                         "levelname": "ERROR",
                         "message": "Name table index 261 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.188128Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[9].nameIndex - ERROR - Name table index 261 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.403684Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[9].nameIndex - ERROR - Name table index 261 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[9].settings.[4]",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[9].settings.[4]",
                         "levelname": "ERROR",
                         "message": "Name table index 256 not present in 'name' table.",
-                        "timestamp": "2020-09-16T07:06:39.188250Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.feat.[9].settings.[4] - ERROR - Name table index 256 not present in 'name' table.",
+                        "timestamp": "2020-09-21T16:30:18.403878Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.feat.[9].settings.[4] - ERROR - Name table index 256 not present in 'name' table.",
                         "msg_code": "G0042"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasLatinExtendedA' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090125Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasLatinExtendedA' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.302621Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasLatinExtendedA' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasLatinExtendedB' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090289Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasLatinExtendedB' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.302785Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasLatinExtendedB' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasModifierLetters' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090371Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasModifierLetters' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.302854Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasModifierLetters' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCombiningDiacriticalMarks' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090444Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasCombiningDiacriticalMarks' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.302915Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasCombiningDiacriticalMarks' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasGreekAndCoptic' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090513Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasGreekAndCoptic' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.302973Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasGreekAndCoptic' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCyrillic' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090588Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasCyrillic' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303029Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasCyrillic' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasLatinExtendedAdditional' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090660Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasLatinExtendedAdditional' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303087Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasLatinExtendedAdditional' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasGreekExtended' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090726Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasGreekExtended' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303142Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasGreekExtended' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasSuperscriptsAndSubscripts' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090792Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasSuperscriptsAndSubscripts' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303197Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasSuperscriptsAndSubscripts' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCurrency' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090857Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasCurrency' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303253Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasCurrency' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasLetterlike' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090922Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasLetterlike' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303308Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasLetterlike' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasNumberForms' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.090987Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasNumberForms' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303362Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasNumberForms' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasMathematical' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.091051Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasMathematical' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303417Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasMathematical' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasGeometricShapes' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.091116Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasGeometricShapes' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303471Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasGeometricShapes' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasAlphabeticPresentationForms' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.091183Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasAlphabeticPresentationForms' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303527Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasAlphabeticPresentationForms' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasArabicPresentationFormsB' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.091248Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsB' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303582Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasArabicPresentationFormsB' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasSpecials' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:06:39.091313Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.unicodeRanges - ERROR - Unicode range 'hasSpecials' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:30:18.303636Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.unicodeRanges - ERROR - Unicode range 'hasSpecials' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.usMaxContext",
+                        "subroutine": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 4, but is 2",
-                        "timestamp": "2020-09-16T07:06:39.182387Z",
-                        "orig_output": "validate_8aeb2380e0e841fc8d868d7ef7413e78.OS_2.usMaxContext - ERROR - The usMaxContext should be 4, but is 2",
+                        "timestamp": "2020-09-21T16:30:18.396287Z",
+                        "orig_output": "validate_ab7c8b40cff64059b279cea2d91f0ef1.OS_2.usMaxContext - ERROR - The usMaxContext should be 4, but is 2",
                         "msg_code": "V0831"
                     }
                 ]
@@ -438,6 +438,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 6683,
-    "completedDate": "2020-09-16 07:06:43.544476"
+    "runningTime": 6624,
+    "completedDate": "2020-09-21 16:30:22.726748"
 }

@@ -1,4 +1,4 @@
-ERROR	E2108	Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.
+﻿ERROR	E2108	Value 9 is not a valid enum value. 0 will be used instead, but the font should be fixed.
 ERROR	E1411	The caretSlopeRise/caretSlopeRun (1/0) angle ( 90.0) is not consistent with post.italicAngle (-10.0)
 ERROR	E1413	The caretSlopeRun is zero, but the post.italicAngle is nonzero (-10.0)
 ERROR	E2008	Postscript name not present for both Mac and Windows.

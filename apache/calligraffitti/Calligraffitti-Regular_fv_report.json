@@ -1,4 +1,4 @@
-{
+﻿{
     "processed": [
         {
             "file": {
@@ -39,27 +39,27 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_f0d942cb353449d694d8e4fe9f2e09bd.OS_2.unicodeRanges",
+                        "subroutine": "validate_2cbe7596d93b4d13aa2012990a7fb354.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:04:57.971737Z",
-                        "orig_output": "validate_f0d942cb353449d694d8e4fe9f2e09bd.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:28:42.945437Z",
+                        "orig_output": "validate_2cbe7596d93b4d13aa2012990a7fb354.OS_2.unicodeRanges - ERROR - Unicode range 'hasCJKIdeographs' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_f0d942cb353449d694d8e4fe9f2e09bd.OS_2.unicodeRanges",
+                        "subroutine": "validate_2cbe7596d93b4d13aa2012990a7fb354.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasPlane1516Private' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:04:57.971918Z",
-                        "orig_output": "validate_f0d942cb353449d694d8e4fe9f2e09bd.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:28:42.945595Z",
+                        "orig_output": "validate_2cbe7596d93b4d13aa2012990a7fb354.OS_2.unicodeRanges - ERROR - Unicode range 'hasPlane1516Private' claimed to be present but is not.",
                         "msg_code": "E2113"
                     },
                     {
-                        "subroutine": "validate_f0d942cb353449d694d8e4fe9f2e09bd.OS_2.unicodeRanges",
+                        "subroutine": "validate_2cbe7596d93b4d13aa2012990a7fb354.OS_2.unicodeRanges",
                         "levelname": "ERROR",
                         "message": "Unicode range 'hasTags' claimed to be present but is not.",
-                        "timestamp": "2020-09-16T07:04:57.971998Z",
-                        "orig_output": "validate_f0d942cb353449d694d8e4fe9f2e09bd.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
+                        "timestamp": "2020-09-21T16:28:42.945665Z",
+                        "orig_output": "validate_2cbe7596d93b4d13aa2012990a7fb354.OS_2.unicodeRanges - ERROR - Unicode range 'hasTags' claimed to be present but is not.",
                         "msg_code": "E2113"
                     }
                 ]
@@ -69,6 +69,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 12350,
-    "completedDate": "2020-09-16 07:05:08.048448"
+    "runningTime": 11682,
+    "completedDate": "2020-09-21 16:28:52.597977"
 }

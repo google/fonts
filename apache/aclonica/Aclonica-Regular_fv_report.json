@@ -1,4 +1,4 @@
-{
+﻿{
     "processed": [
         {
             "file": {
@@ -40,19 +40,19 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_969299b134cd4737a30ef737a80bb13c.hhea",
+                        "subroutine": "validate_f499807ec41e4db29a4bd6aec790f189.hhea",
                         "levelname": "ERROR",
                         "message": "The minLeftSidebearing value (-72) does not match the expected value (-97)",
-                        "timestamp": "2020-09-16T07:08:09.105303Z",
-                        "orig_output": "validate_969299b134cd4737a30ef737a80bb13c.hhea - ERROR - The minLeftSidebearing value (-72) does not match the expected value (-97)",
+                        "timestamp": "2020-09-21T16:31:52.150014Z",
+                        "orig_output": "validate_f499807ec41e4db29a4bd6aec790f189.hhea - ERROR - The minLeftSidebearing value (-72) does not match the expected value (-97)",
                         "msg_code": "E1402"
                     },
                     {
-                        "subroutine": "validate_969299b134cd4737a30ef737a80bb13c.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_f499807ec41e4db29a4bd6aec790f189.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 1261, but is 1128",
-                        "timestamp": "2020-09-16T07:08:04.220993Z",
-                        "orig_output": "validate_969299b134cd4737a30ef737a80bb13c.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1261, but is 1128",
+                        "timestamp": "2020-09-21T16:31:47.903752Z",
+                        "orig_output": "validate_f499807ec41e4db29a4bd6aec790f189.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 1261, but is 1128",
                         "msg_code": "E2135"
                     }
                 ]
@@ -62,6 +62,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 9820,
-    "completedDate": "2020-09-16 07:08:10.132775"
+    "runningTime": 9210,
+    "completedDate": "2020-09-21 16:31:53.087428"
 }

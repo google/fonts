@@ -1,4 +1,4 @@
-{
+﻿{
     "processed": [
         {
             "file": {
@@ -42,75 +42,75 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.fontedit.OS_2.PANOSE.proportion",
+                        "subroutine": "validate_dfdaee7c410942c5932de75e3f70ca06.fontedit.OS_2.PANOSE.proportion",
                         "levelname": "ERROR",
                         "message": "Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-09-16T07:03:53.791272Z",
-                        "orig_output": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-21T16:27:58.312285Z",
+                        "orig_output": "validate_dfdaee7c410942c5932de75e3f70ca06.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2108"
                     },
                     {
-                        "subroutine": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.fontedit.OS_2.PANOSE.weight",
+                        "subroutine": "validate_dfdaee7c410942c5932de75e3f70ca06.fontedit.OS_2.PANOSE.weight",
                         "levelname": "ERROR",
                         "message": "Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-09-16T07:03:53.791467Z",
-                        "orig_output": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.fontedit.OS_2.PANOSE.weight - ERROR - Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-21T16:27:58.312608Z",
+                        "orig_output": "validate_dfdaee7c410942c5932de75e3f70ca06.fontedit.OS_2.PANOSE.weight - ERROR - Value 4 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2111"
                     },
                     {
-                        "subroutine": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx",
+                        "subroutine": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 110 does not match the glyph's xMin 111 (glyph 36)",
-                        "timestamp": "2020-09-16T07:03:57.317240Z",
-                        "orig_output": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 36)",
+                        "timestamp": "2020-09-21T16:28:02.338071Z",
+                        "orig_output": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 36)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx",
+                        "subroutine": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 110 does not match the glyph's xMin 111 (glyph 39)",
-                        "timestamp": "2020-09-16T07:03:57.318173Z",
-                        "orig_output": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 39)",
+                        "timestamp": "2020-09-21T16:28:02.338916Z",
+                        "orig_output": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 39)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx",
+                        "subroutine": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 110 does not match the glyph's xMin 111 (glyph 138)",
-                        "timestamp": "2020-09-16T07:03:57.339448Z",
-                        "orig_output": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 138)",
+                        "timestamp": "2020-09-21T16:28:02.358210Z",
+                        "orig_output": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx - ERROR - The left sidebearing 110 does not match the glyph's xMin 111 (glyph 138)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx",
+                        "subroutine": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 95 does not match the glyph's xMin 94 (glyph 238)",
-                        "timestamp": "2020-09-16T07:03:57.364626Z",
-                        "orig_output": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx - ERROR - The left sidebearing 95 does not match the glyph's xMin 94 (glyph 238)",
+                        "timestamp": "2020-09-21T16:28:02.381335Z",
+                        "orig_output": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx - ERROR - The left sidebearing 95 does not match the glyph's xMin 94 (glyph 238)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx",
+                        "subroutine": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx",
                         "levelname": "ERROR",
                         "message": "The left sidebearing 95 does not match the glyph's xMin 94 (glyph 293)",
-                        "timestamp": "2020-09-16T07:03:57.377095Z",
-                        "orig_output": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.hmtx - ERROR - The left sidebearing 95 does not match the glyph's xMin 94 (glyph 293)",
+                        "timestamp": "2020-09-21T16:28:02.393090Z",
+                        "orig_output": "validate_dfdaee7c410942c5932de75e3f70ca06.hmtx - ERROR - The left sidebearing 95 does not match the glyph's xMin 94 (glyph 293)",
                         "msg_code": "V0933"
                     },
                     {
-                        "subroutine": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.OS_2.usMaxContext",
+                        "subroutine": "validate_dfdaee7c410942c5932de75e3f70ca06.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 1, but is 4",
-                        "timestamp": "2020-09-16T07:03:54.414992Z",
-                        "orig_output": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
+                        "timestamp": "2020-09-21T16:27:59.304863Z",
+                        "orig_output": "validate_dfdaee7c410942c5932de75e3f70ca06.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_dfdaee7c410942c5932de75e3f70ca06.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 792, but is 795",
-                        "timestamp": "2020-09-16T07:03:54.415263Z",
-                        "orig_output": "validate_7455dc8c15714a1ea4b10f9c2e1095b6.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 792, but is 795",
+                        "timestamp": "2020-09-21T16:27:59.305343Z",
+                        "orig_output": "validate_dfdaee7c410942c5932de75e3f70ca06.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 792, but is 795",
                         "msg_code": "E2135"
                     }
                 ]
@@ -120,6 +120,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 5609,
-    "completedDate": "2020-09-16 07:03:57.725020"
+    "runningTime": 6374,
+    "completedDate": "2020-09-21 16:28:02.807640"
 }

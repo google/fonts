@@ -1,4 +1,4 @@
-{
+﻿{
     "processed": [
         {
             "file": {
@@ -40,19 +40,19 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_8fd32464208549b6b988858dbde916a7.fontedit.kern.format0",
+                        "subroutine": "validate_96fdc86222214eb2a1cf8e54e8896401.fontedit.kern.format0",
                         "levelname": "ERROR",
                         "message": "Insufficient bytes for pair data.",
-                        "timestamp": "2020-09-16T07:11:49.903911Z",
-                        "orig_output": "validate_8fd32464208549b6b988858dbde916a7.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
+                        "timestamp": "2020-09-21T16:34:32.654551Z",
+                        "orig_output": "validate_96fdc86222214eb2a1cf8e54e8896401.fontedit.kern.format0 - ERROR - Insufficient bytes for pair data.",
                         "msg_code": "V0136"
                     },
                     {
-                        "subroutine": "validate_8fd32464208549b6b988858dbde916a7.gasp.up to 13 ppem",
+                        "subroutine": "validate_96fdc86222214eb2a1cf8e54e8896401.gasp.up to 13 ppem",
                         "levelname": "ERROR",
                         "message": "v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
-                        "timestamp": "2020-09-16T07:11:50.869842Z",
-                        "orig_output": "validate_8fd32464208549b6b988858dbde916a7.gasp.up to 13 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
+                        "timestamp": "2020-09-21T16:34:33.498501Z",
+                        "orig_output": "validate_96fdc86222214eb2a1cf8e54e8896401.gasp.up to 13 ppem - ERROR - v0 Smoothing flag (GASP_DOGRAY) set without corresponding v1 Symmetric Smoothing flag (GASP_SYMMETRIC_SMOOTHING).",
                         "msg_code": "V0992"
                     }
                 ]
@@ -62,6 +62,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 20826,
-    "completedDate": "2020-09-16 07:12:09.008310"
+    "runningTime": 21178,
+    "completedDate": "2020-09-21 16:34:51.918965"
 }

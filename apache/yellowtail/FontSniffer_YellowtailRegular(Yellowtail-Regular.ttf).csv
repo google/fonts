@@ -1,3 +1,3 @@
-Critical;OS/2;Version;OS/2 Version should be at least 3 or 4 to pull metrics.;OS/2 Version is: 1;
+﻿Critical;OS/2;Version;OS/2 Version should be at least 3 or 4 to pull metrics.;OS/2 Version is: 1;
 Critical;OS/2;table version 1.;'OS/2' table version should be 4.;'OS/2' table version is: 1. Verify that this is the version required.;
 Critical;OS/2;version;OS/2 table version should be 4.;OS/2 table version is '1' but should be 4. Please investigate.;

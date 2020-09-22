@@ -32,7 +32,3 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/alexeiva/cuprum"
-  commit: "98adc59dc00ca00dbde9eb42a23ace5f924b4f90"
-}

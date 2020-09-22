@@ -21,7 +21,3 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/magictype/redrose"
-  commit: "d173625490893538463fa9746477f35c975ab0e9"
-}

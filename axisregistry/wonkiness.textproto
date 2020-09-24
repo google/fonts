@@ -14,7 +14,8 @@ fallback {
   value: 1
 }
 description:
-  "Controls the subsitution of wonky forms along the Optical Size axis. 'Off'"
-  " (0) maintains more normalized letterforms, such as the leaning n/m/h in"
-  " Roman, or the bulbous flags in the b/d/h/k/l of the Italic. In"
-  " static fonts, this is also available as an OpenType Stylistic Set."
+  "Binary axis to control the subsitution of wonky forms along the"
+  " optical size axis. 'Off' (0) maintains more normalized letterforms,"
+  " such as the leaning n/m/h in roman, or the bulbous flags in the"
+  " b/d/h/k/l of the italic."
+  " In static fonts, this is also available as an OpenType Stylistic Set."

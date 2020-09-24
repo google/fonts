@@ -41,19 +41,19 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_06be94e59b3a40909131afc75b010614.name",
+                        "subroutine": "validate_ed714a79b6b64654b94da155df6a7d00.name",
                         "levelname": "ERROR",
                         "message": "Postscript name not present for both Mac and Windows.",
-                        "timestamp": "2020-09-21T16:28:26.002791Z",
-                        "orig_output": "validate_06be94e59b3a40909131afc75b010614.name - ERROR - Postscript name not present for both Mac and Windows.",
+                        "timestamp": "2020-09-24T06:00:55.585968Z",
+                        "orig_output": "validate_ed714a79b6b64654b94da155df6a7d00.name - ERROR - Postscript name not present for both Mac and Windows.",
                         "msg_code": "E2008"
                     },
                     {
-                        "subroutine": "validate_06be94e59b3a40909131afc75b010614.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_ed714a79b6b64654b94da155df6a7d00.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 996, but is 1161",
-                        "timestamp": "2020-09-21T16:28:05.741807Z",
-                        "orig_output": "validate_06be94e59b3a40909131afc75b010614.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 996, but is 1161",
+                        "timestamp": "2020-09-24T06:00:24.011807Z",
+                        "orig_output": "validate_ed714a79b6b64654b94da155df6a7d00.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 996, but is 1161",
                         "msg_code": "E2135"
                     }
                 ]
@@ -63,6 +63,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 31501,
-    "completedDate": "2020-09-21 16:28:32.539679"
+    "runningTime": 48806,
+    "completedDate": "2020-09-24 06:01:04.972324"
 }

@@ -40,67 +40,67 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_c8dea7c51f22446680aa052bd53304c1.fontedit.OS_2.PANOSE.proportion",
+                        "subroutine": "validate_75a1cccfda0e49abbe3bf412775f0129.fontedit.OS_2.PANOSE.proportion",
                         "levelname": "ERROR",
                         "message": "Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-09-21T16:29:36.853042Z",
-                        "orig_output": "validate_c8dea7c51f22446680aa052bd53304c1.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-24T05:59:31.007486Z",
+                        "orig_output": "validate_75a1cccfda0e49abbe3bf412775f0129.fontedit.OS_2.PANOSE.proportion - ERROR - Value 6 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2108"
                     },
                     {
-                        "subroutine": "validate_c8dea7c51f22446680aa052bd53304c1.fontedit.OS_2.PANOSE.weight",
+                        "subroutine": "validate_75a1cccfda0e49abbe3bf412775f0129.fontedit.OS_2.PANOSE.weight",
                         "levelname": "ERROR",
                         "message": "Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
-                        "timestamp": "2020-09-21T16:29:36.853242Z",
-                        "orig_output": "validate_c8dea7c51f22446680aa052bd53304c1.fontedit.OS_2.PANOSE.weight - ERROR - Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
+                        "timestamp": "2020-09-24T05:59:31.007630Z",
+                        "orig_output": "validate_75a1cccfda0e49abbe3bf412775f0129.fontedit.OS_2.PANOSE.weight - ERROR - Value 5 is not a valid enum value. 0 will be used instead, but the font should be fixed.",
                         "msg_code": "E2111"
                     },
                     {
-                        "subroutine": "validate_c8dea7c51f22446680aa052bd53304c1.glyf.glyph 106 ('section')",
+                        "subroutine": "validate_75a1cccfda0e49abbe3bf412775f0129.glyf.glyph 106 ('section')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].",
-                        "timestamp": "2020-09-21T16:29:38.104276Z",
-                        "orig_output": "validate_c8dea7c51f22446680aa052bd53304c1.glyf.glyph 106 ('section') - ERROR - Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].",
+                        "timestamp": "2020-09-24T05:59:32.523755Z",
+                        "orig_output": "validate_75a1cccfda0e49abbe3bf412775f0129.glyf.glyph 106 ('section') - ERROR - Bounds should be [82, 54, 658, 1556], but are [82, 54, 659, 1556].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_c8dea7c51f22446680aa052bd53304c1.glyf.glyph 127 ('onequarter').contours.contour 0",
+                        "subroutine": "validate_75a1cccfda0e49abbe3bf412775f0129.glyf.glyph 127 ('onequarter').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-21T16:29:38.243386Z",
-                        "orig_output": "validate_c8dea7c51f22446680aa052bd53304c1.glyf.glyph 127 ('onequarter').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-24T05:59:32.782904Z",
+                        "orig_output": "validate_75a1cccfda0e49abbe3bf412775f0129.glyf.glyph 127 ('onequarter').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_c8dea7c51f22446680aa052bd53304c1.glyf.glyph 275 ('uni20AA').contours.contour 0",
+                        "subroutine": "validate_75a1cccfda0e49abbe3bf412775f0129.glyf.glyph 275 ('uni20AA').contours.contour 0",
                         "levelname": "ERROR",
                         "message": "Contour has duplicate adjacent points of differing on-curve states.",
-                        "timestamp": "2020-09-21T16:29:39.287427Z",
-                        "orig_output": "validate_c8dea7c51f22446680aa052bd53304c1.glyf.glyph 275 ('uni20AA').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
+                        "timestamp": "2020-09-24T05:59:34.883807Z",
+                        "orig_output": "validate_75a1cccfda0e49abbe3bf412775f0129.glyf.glyph 275 ('uni20AA').contours.contour 0 - ERROR - Contour has duplicate adjacent points of differing on-curve states.",
                         "msg_code": "V0295"
                     },
                     {
-                        "subroutine": "validate_c8dea7c51f22446680aa052bd53304c1.glyf.glyph 46 ('J')",
+                        "subroutine": "validate_75a1cccfda0e49abbe3bf412775f0129.glyf.glyph 46 ('J')",
                         "levelname": "ERROR",
                         "message": "Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].",
-                        "timestamp": "2020-09-21T16:29:37.690671Z",
-                        "orig_output": "validate_c8dea7c51f22446680aa052bd53304c1.glyf.glyph 46 ('J') - ERROR - Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].",
+                        "timestamp": "2020-09-24T05:59:31.989564Z",
+                        "orig_output": "validate_75a1cccfda0e49abbe3bf412775f0129.glyf.glyph 46 ('J') - ERROR - Bounds should be [-111, -386, 299, 1462], but are [-111, -387, 298, 1462].",
                         "msg_code": "E1112"
                     },
                     {
-                        "subroutine": "validate_c8dea7c51f22446680aa052bd53304c1.OS_2.usMaxContext",
+                        "subroutine": "validate_75a1cccfda0e49abbe3bf412775f0129.OS_2.usMaxContext",
                         "levelname": "ERROR",
                         "message": "The usMaxContext should be 1, but is 4",
-                        "timestamp": "2020-09-21T16:29:37.421569Z",
-                        "orig_output": "validate_c8dea7c51f22446680aa052bd53304c1.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
+                        "timestamp": "2020-09-24T05:59:31.732597Z",
+                        "orig_output": "validate_75a1cccfda0e49abbe3bf412775f0129.OS_2.usMaxContext - ERROR - The usMaxContext should be 1, but is 4",
                         "msg_code": "V0831"
                     },
                     {
-                        "subroutine": "validate_c8dea7c51f22446680aa052bd53304c1.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_75a1cccfda0e49abbe3bf412775f0129.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 843, but is 844",
-                        "timestamp": "2020-09-21T16:29:37.421849Z",
-                        "orig_output": "validate_c8dea7c51f22446680aa052bd53304c1.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 843, but is 844",
+                        "timestamp": "2020-09-24T05:59:31.732825Z",
+                        "orig_output": "validate_75a1cccfda0e49abbe3bf412775f0129.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 843, but is 844",
                         "msg_code": "E2135"
                     }
                 ]
@@ -110,6 +110,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 5392,
-    "completedDate": "2020-09-21 16:29:40.273092"
+    "runningTime": 7493,
+    "completedDate": "2020-09-24 05:59:36.680485"
 }

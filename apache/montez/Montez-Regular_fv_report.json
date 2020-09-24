@@ -40,11 +40,11 @@
                 },
                 "result": [
                     {
-                        "subroutine": "validate_fe63ac42ee794ccaaeb4bdd95fe14c43.OS_2.xAvgCharWidth",
+                        "subroutine": "validate_1bb01ada405e451f951e8e2fb716d908.OS_2.xAvgCharWidth",
                         "levelname": "ERROR",
                         "message": "The xAvgCharWidth should be 838, but is 649",
-                        "timestamp": "2020-09-21T16:39:38.943220Z",
-                        "orig_output": "validate_fe63ac42ee794ccaaeb4bdd95fe14c43.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 838, but is 649",
+                        "timestamp": "2020-09-24T05:54:00.824635Z",
+                        "orig_output": "validate_1bb01ada405e451f951e8e2fb716d908.OS_2.xAvgCharWidth - ERROR - The xAvgCharWidth should be 838, but is 649",
                         "msg_code": "E2135"
                     }
                 ]
@@ -54,6 +54,6 @@
     "skipped": [],
     "fontio3_version": "3.7.20200604.317848rc4",
     "fontvalidator_version": "20200305.1",
-    "runningTime": 14893,
-    "completedDate": "2020-09-21 16:39:50.733078"
+    "runningTime": 21004,
+    "completedDate": "2020-09-24 05:54:17.877875"
 }

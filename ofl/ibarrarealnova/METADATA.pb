@@ -29,7 +29,3 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/ibarrareal"
-  commit: "7ae92a27f13f8e187db49312e7111041d1fa2a17"
-}

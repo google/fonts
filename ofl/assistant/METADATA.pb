@@ -21,7 +21,3 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/TypeNetwork/Assistant"
-  commit: "2b5ffdccb0216ccbdbdc8a623f3b935fc5b5e04a"
-}

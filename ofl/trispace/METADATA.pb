@@ -17,6 +17,11 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 axes {
+  tag: "wdth"
+  min_value: 75.0
+  max_value: 125.0
+}
+axes {
   tag: "wght"
   min_value: 100.0
   max_value: 800.0

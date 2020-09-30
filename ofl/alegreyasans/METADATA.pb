@@ -1,5 +1,5 @@
 name: "Alegreya Sans"
-designer: "Juan Pablo del Peral"
+designer: "Juan Pablo del Peral, Huerta Tipográfica"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-12-04"

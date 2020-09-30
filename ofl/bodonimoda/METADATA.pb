@@ -2,7 +2,7 @@ name: "Bodoni Moda"
 designer: "Owen Earl"
 license: "OFL"
 category: "SERIF"
-date_added: "2020-09-28"
+date_added: "2020-09-30"
 fonts {
   name: "Bodoni Moda"
   style: "normal"
@@ -17,13 +17,18 @@ fonts {
   style: "italic"
   weight: 400
   filename: "BodoniModa-Italic[opsz,wght].ttf"
-  post_script_name: "BodoniModa11-Italic"
+  post_script_name: "BodoniModa-Italic"
   full_name: "Bodoni Moda Italic"
-  copyright: "Copyright 2020 The Bodoni Moda Project Authors (https:github.comindestructible-type)"
+  copyright: "Copyright 2020 The Bodoni Moda Project Authors (https://github.com/indestructible-type)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "opsz"
+  min_value: 6.0
+  max_value: 96.0
+}
 axes {
   tag: "wght"
   min_value: 400.0

@@ -35,7 +35,3 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/TypeNetwork/Arimo"
-  commit: "77fdf7e032ef18c5ad72929bdea60ae6ab19adbe"
-}

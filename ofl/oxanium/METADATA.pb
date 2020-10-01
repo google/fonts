@@ -20,7 +20,3 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/sevmeyer/oxanium"
-  commit: "a8f39e0c71186190027a093e9001459410192d1e"
-}

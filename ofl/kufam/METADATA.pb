@@ -21,6 +21,7 @@ fonts {
   full_name: "Kufam Italic"
   copyright: "Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

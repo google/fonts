@@ -29,6 +29,11 @@ They are no longer listed in the main www.google.com/fonts directory, but the fi
 
 Fonts in Early Access do not have METADATA.pb files.
 
+## .pb vs .textproto 
+
+While `.textproto` is now the canonical extension for protobuffers text files, we have hundreds of `METADATA` files with the `.pb` extension. 
+The inconsistency isn't a practical issue, and as we have internal tools that assume the old filenames, it isn't worth renaming them proactively.
+
 ## Install on Windows
 
 You can install all of the fonts using Windows PowerShell. Change directories to the folder where you downloaded the package, and run the following command:

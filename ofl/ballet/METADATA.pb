@@ -19,5 +19,6 @@ subsets: "vietnamese"
 axes {
   tag: "opsz"
   min_value: 16.0
+  default_value: 16.0
   max_value: 72.0
 }

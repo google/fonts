@@ -22,7 +22,3 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/caveat"
-  commit: "59745e818ef7973e11e70cb1358d0e902b56c5fc"
-}

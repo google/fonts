@@ -7,37 +7,19 @@ fonts {
   name: "Arimo"
   style: "normal"
   weight: 400
-  filename: "Arimo-Regular.ttf"
+  filename: "Arimo[wght].ttf"
   post_script_name: "Arimo-Regular"
   full_name: "Arimo Regular"
-  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
+  copyright: "Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)"
 }
 fonts {
   name: "Arimo"
   style: "italic"
   weight: 400
-  filename: "Arimo-Italic.ttf"
+  filename: "Arimo-Italic[wght].ttf"
   post_script_name: "Arimo-Italic"
   full_name: "Arimo Italic"
-  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
-}
-fonts {
-  name: "Arimo"
-  style: "normal"
-  weight: 700
-  filename: "Arimo-Bold.ttf"
-  post_script_name: "Arimo-Bold"
-  full_name: "Arimo Bold"
-  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
-}
-fonts {
-  name: "Arimo"
-  style: "italic"
-  weight: 700
-  filename: "Arimo-BoldItalic.ttf"
-  post_script_name: "Arimo-BoldItalic"
-  full_name: "Arimo Bold Italic"
-  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
+  copyright: "Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -48,3 +30,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}

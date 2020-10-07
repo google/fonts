@@ -1,0 +1,13 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/variable/IbarraRealNova-Italic[wght].ttf: IbarraRealNova-Italic[wght].ttf
+  fonts/variable/IbarraRealNova[wght].ttf: IbarraRealNova[wght].ttf
+  fonts/ttf/IbarraRealNova-Bold.ttf: static/IbarraRealNova-Bold.ttf
+  fonts/ttf/IbarraRealNova-BoldItalic.ttf: static/IbarraRealNova-BoldItalic.ttf
+  fonts/ttf/IbarraRealNova-Italic.ttf: static/IbarraRealNova-Italic.ttf
+  fonts/ttf/IbarraRealNova-Regular.ttf: static/IbarraRealNova-Regular.ttf
+  fonts/ttf/IbarraRealNova-SemiBold.ttf: static/IbarraRealNova-SemiBold.ttf
+  fonts/ttf/IbarraRealNova-SemiBoldItalic.ttf: static/IbarraRealNova-SemiBoldItalic.ttf
+repository_url: https://github.com/googlefonts/ibarrareal

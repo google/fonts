@@ -1,5 +1,5 @@
 name: "DM Sans"
-designer: "Colophon Foundry, Jonny Pinhorn"
+designer: "Colophon Foundry, Jonny Pinhorn, Indian Type Foundry"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-06-12"

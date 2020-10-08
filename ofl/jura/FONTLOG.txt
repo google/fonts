@@ -85,12 +85,19 @@ ChangeLog
   More info: https://groups.google.com/forum/#!topic/googlefonts-discuss/EbCnvq3DIco
   New source files are in .glyphs format
 
+3.1 (Mirko Velimirovic) July 17 2019
+    Made variable font with a [wght] axis. 
 Acknowledgements
 ------------
 
 When you make modifications, be sure to add your name (N), email (E),
 web-address (W) and description (D). This list is sorted by last name in
 alphabetical order.
+
+N:Mirko Velimirovic
+E: bghryct at gmail dot com
+w: https://github.com/bghryct
+D: Made Variable
 
 N: Alexei Vanyashin
 E: a at cyreal dot org

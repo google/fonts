@@ -22,5 +22,5 @@ install:
   - pip install git+https://github.com/googlefonts/gftools
 
 script:
-  - python .ci/viz_pr.py
+  - gftools qa -pr https://github.com/$TRAVIS_REPO_SLUG/pulls/$TRAVIS_PULL_REQUEST -gfb -a -o qa -ogh
 

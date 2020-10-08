@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "Arvo-Italic.ttf"
   post_script_name: "Arvo-Italic"
-  full_name: "Arvo Italic"
+  full_name: "Arvo-Italic"
   copyright: "Copyright 2010 Anton Koovit, Yassin Baggar."
 }
 fonts {
@@ -39,5 +39,5 @@ fonts {
   full_name: "Arvo Bold Italic"
   copyright: "Copyright 2010 Anton Koovit, Yassin Baggar."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

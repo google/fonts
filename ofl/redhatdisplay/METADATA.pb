@@ -1,5 +1,5 @@
 name: "Red Hat Display"
-designer: "Pentagram, MCKL"
+designer: "MCKL"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-04-10"

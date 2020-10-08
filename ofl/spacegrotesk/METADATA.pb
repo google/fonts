@@ -21,7 +21,3 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/floriankarsten/space-grotesk"
-  commit: "743ffa3f95ba5602f3924b20f076d142728f5653"
-}

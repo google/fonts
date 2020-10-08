@@ -1,5 +1,5 @@
 name: "Poppins"
-designer: "Indian Type Foundry"
+designer: "Indian Type Foundry, Jonny Pinhorn"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-06-03"

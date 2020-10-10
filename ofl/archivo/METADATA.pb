@@ -10,7 +10,7 @@ fonts {
   filename: "Archivo-Regular.ttf"
   post_script_name: "Archivo-Regular"
   full_name: "Archivo Regular"
-  copyright: "Copyright 2017 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
+  copyright: "Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
 }
 fonts {
   name: "Archivo"
@@ -19,7 +19,7 @@ fonts {
   filename: "Archivo-Italic.ttf"
   post_script_name: "Archivo-Italic"
   full_name: "Archivo Italic"
-  copyright: "Copyright 2017 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
+  copyright: "Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
 }
 fonts {
   name: "Archivo"
@@ -28,7 +28,7 @@ fonts {
   filename: "Archivo-Medium.ttf"
   post_script_name: "Archivo-Medium"
   full_name: "Archivo Medium"
-  copyright: "Copyright 2017 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
+  copyright: "Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
 }
 fonts {
   name: "Archivo"
@@ -37,7 +37,7 @@ fonts {
   filename: "Archivo-MediumItalic.ttf"
   post_script_name: "Archivo-MediumItalic"
   full_name: "Archivo Medium Italic"
-  copyright: "Copyright 2017 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
+  copyright: "Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
 }
 fonts {
   name: "Archivo"
@@ -46,7 +46,7 @@ fonts {
   filename: "Archivo-SemiBold.ttf"
   post_script_name: "Archivo-SemiBold"
   full_name: "Archivo SemiBold"
-  copyright: "Copyright 2017 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
+  copyright: "Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
 }
 fonts {
   name: "Archivo"
@@ -55,7 +55,7 @@ fonts {
   filename: "Archivo-SemiBoldItalic.ttf"
   post_script_name: "Archivo-SemiBoldItalic"
   full_name: "Archivo SemiBold Italic"
-  copyright: "Copyright 2017 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
+  copyright: "Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
 }
 fonts {
   name: "Archivo"
@@ -64,7 +64,7 @@ fonts {
   filename: "Archivo-Bold.ttf"
   post_script_name: "Archivo-Bold"
   full_name: "Archivo Bold"
-  copyright: "Copyright 2017 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
+  copyright: "Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
 }
 fonts {
   name: "Archivo"
@@ -73,7 +73,7 @@ fonts {
   filename: "Archivo-BoldItalic.ttf"
   post_script_name: "Archivo-BoldItalic"
   full_name: "Archivo Bold Italic"
-  copyright: "Copyright 2017 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
+  copyright: "Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)"
 }
 subsets: "latin"
 subsets: "latin-ext"

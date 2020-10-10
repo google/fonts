@@ -7,7 +7,7 @@ fonts {
   name: "Muli"
   style: "normal"
   weight: 400
-  filename: "Muli-Regular.ttf"
+  filename: "Muli[wght].ttf"
   post_script_name: "Muli-Regular"
   full_name: "Muli Regular"
   copyright: "Copyright 2016 The Muli Project Authors (https://github.com/googlefonts/MuliFont)"
@@ -16,7 +16,7 @@ fonts {
   name: "Muli"
   style: "italic"
   weight: 400
-  filename: "Muli-Italic.ttf"
+  filename: "Muli-Italic[wght].ttf"
   post_script_name: "Muli-Italic"
   full_name: "Muli Italic"
   copyright: "Copyright 2016 The Muli Project Authors (https://github.com/googlefonts/MuliFont)"

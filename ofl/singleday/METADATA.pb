@@ -1,5 +1,5 @@
 name: "Single Day"
-designer: "UNKNOWN"
+designer: "DXKorea Inc"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2018-02-23"

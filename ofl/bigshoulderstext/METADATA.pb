@@ -79,3 +79,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/xotypeco/big_shoulders"
+  commit: "3f1061046298130bcb22361b8cc8e1ed595a889a"
+}

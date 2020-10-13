@@ -14,16 +14,29 @@ The contents of the wiki are now available here:
 
 ## Duplicated fonts
 
-There are some similarly named pairs of directories which each have identically named font files. 
-These files are redundant, and exist following the renaming of a family.
-The initial directories are kept so that people already using that initial name can continue to do so. 
-They are no longer listed in the main www.google.com/fonts directory, but the files exist in this repo since they are still served via the Google Fonts API. 
+From time to time, families have been renamed or updated a way that the existing styles had to change substantially.
+Until April 2020, the initial family was retained, creating similarly-named pairs of directories and often duplicate/redundant, files.
+The initial families are kept in the API, so that people already using them can continue to do so. 
+They are no longer listed in the [fonts.google.com](https://fonts.google.com) catalog, or in the HEAD of the master branch, but the files exist still exist in the commit history.
 
-- `ofl/alefhebrew` and `ofl/alef` contain `Alef-Regular.ttf` and `Alef-Bold.ttf`
-- `ofl/mrbedford` and `ofl/mrbedfort` contain `MrBedfort-Regular.ttf`
-- `ofl/mrssaintdelafield` and `ofl/misssaintdelafield` contain `MrsSaintDelafield-Regular.ttf`
-- `ofl/siamreap` and `ofl/siemreap` contain `Siemreap.ttf`
-- `ofl/terminaldosis` and `ofl/dosis` contain the same files (renamed) and `ofl/terminaldosislight` contain `TerminalDosis-Light.ttf`
+| Initial Family           | Current Family           | Category |
+|:-------------------------|:-------------------------|:---------|
+| `ofl/alefhebrew`         | `ofl/alef`               | renamed  |
+| `ofl/mrbedford`          | `ofl/mrbedfort`          | renamed  |
+| `ofl/misssaintdelafield` | `ofl/mrssaintdelafield`  | renamed  |
+| `ofl/siamreap`           | `ofl/siemreap`           | renamed  |
+| `ofl/terminaldosis`      | `ofl/dosis`              | renamed  |
+| `ofl/terminaldosislight` | `ofl/dosis`              | expanded |
+| `baloo`                  | `baloo2`                 | expanded |
+| `baloobhai`              | `baloobhai2`             | expanded |
+| `baloobhaijaan`          | `baloobhaijaan2`         | expanded |
+| `baloobhaina`            | `baloobhaina2`           | expanded |
+| `baloochettan`           | `baloochettan2`          | expanded |
+| `balooda`                | `balooda2`               | expanded |
+| `baloopaaji`             | `baloopaaji2`            | expanded |
+| `balootamma`             | `balootamma2`            | expanded |
+| `balootammudu`           | `balootammudu2`          | expanded |
+| `baloothambi`            | `baloothambi2`           | expanded |
 
 ## Missing METADATA.pb files
 
@@ -37,14 +50,13 @@ The inconsistency isn't a practical issue, and as we have internal tools that as
 ## Install on Windows
 
 You can install all of the fonts using Windows PowerShell. Change directories to the folder where you downloaded the package, and run the following command:
-```
-$fonts = (New-Object -ComObject Shell.Application).Namespace(0x14)
-dir ofl/*/*.ttf | %{ $fonts.CopyHere($_.fullname) }
-```
+
+    $fonts = (New-Object -ComObject Shell.Application).Namespace(0x14)
+    dir ofl/*/*.ttf | %{ $fonts.CopyHere($_.fullname) }
 
 ## 3rd Party Directories
 
-The www.google.com/fonts directory is accompanied by a [Google Fonts Developer API](https://developers.google.com/fonts/docs/developer_api) which provides raw data for constructing such a directory in JSON format. 
+The [fonts.google.com](https://fonts.google.com) is accompanied by a [Google Fonts Developer API](https://developers.google.com/fonts/docs/developer_api), which provides raw data for constructing such a directory in JSON format. 
 Here is a list of 3rd party directories:
 
 * <http://font-combinator.com> + <http://chipcullen.com/font-combinator>
@@ -106,7 +118,7 @@ This shell command shows all the families without a contact email address:
 
     grep copyright\: */*/MET* | grep -v \@ | cut -d\: -f1 | cut -d\/ -f2 | uniq | sort
 
-The copyright holders of those families are mostly Google, SIL, Adobe, Canonical, Naver, and a couple of outliers. 
+The copyright holders of those families include Google, SIL, Adobe, Canonical, Naver, and a couple of outliers. 
 
 ## Articles about Google Fonts
 

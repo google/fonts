@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Padauk-Regular.ttf"
   post_script_name: "Padauk-Regular"
-  full_name: ""
+  full_name: "Padauk Regular"
   copyright: "Copyright SIL International, all rights reserved"
 }
 fonts {
@@ -18,7 +18,7 @@ fonts {
   weight: 700
   filename: "Padauk-Bold.ttf"
   post_script_name: "Padauk-Bold"
-  full_name: " "
+  full_name: "Padauk Bold"
   copyright: "Copyright SIL International, all rights reserved"
 }
 subsets: "latin"

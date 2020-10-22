@@ -7,10 +7,10 @@ fonts {
   name: "League Script"
   style: "normal"
   weight: 400
-  filename: "LeagueScript.ttf"
+  filename: "LeagueScript-Regular.ttf"
   post_script_name: "LeagueScript"
   full_name: "League Script"
-  copyright: "Copyright (c) 2010, Haley Fiege (haley@kingdomofawesome.com)"
+  copyright: "Copyright (c) 2010, Haley Fiege (haley@kingdomofawesome.com"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

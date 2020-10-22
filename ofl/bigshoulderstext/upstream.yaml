@@ -1,0 +1,13 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/ttf/Big-Shoulders/BigShouldersText-Black.ttf: BigShouldersText-Black.ttf
+  fonts/ttf/Big-Shoulders/BigShouldersText-Bold.ttf: BigShouldersText-Bold.ttf
+  fonts/ttf/Big-Shoulders/BigShouldersText-ExtraBold.ttf: BigShouldersText-ExtraBold.ttf
+  fonts/ttf/Big-Shoulders/BigShouldersText-Light.ttf: BigShouldersText-Light.ttf
+  fonts/ttf/Big-Shoulders/BigShouldersText-Medium.ttf: BigShouldersText-Medium.ttf
+  fonts/ttf/Big-Shoulders/BigShouldersText-Regular.ttf: BigShouldersText-Regular.ttf
+  fonts/ttf/Big-Shoulders/BigShouldersText-SemiBold.ttf: BigShouldersText-SemiBold.ttf
+  fonts/ttf/Big-Shoulders/BigShouldersText-Thin.ttf: BigShouldersText-Thin.ttf
+repository_url: https://github.com/xotypeco/big_shoulders

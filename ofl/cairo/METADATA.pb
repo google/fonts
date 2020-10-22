@@ -1,5 +1,5 @@
 name: "Cairo"
-designer: "Multiple Designers"
+designer: "Mohamed Gaber, Accademia di Belle Arti di Urbino"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"

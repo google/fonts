@@ -35,7 +35,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/Omnibus-Type/Texturina"
-  commit: "85d61e3424c37595c2c6c8cac44bcc63fd9cf52f"
-}

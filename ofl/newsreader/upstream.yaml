@@ -1,0 +1,81 @@
+# Please edit this upstream configuration for the family accordingly.
+# This is a yaml formatted file.
+# An "#" (number sign) denotes a comment.
+# For more help see the docs at:
+# https://github.com/googlefonts/gf-docs/tree/master/METADATA
+
+# Full family name, with initial upper cases and spaces
+name: Newsreader
+
+# In most cases this should be based on the GitHub https repo url:
+# this https://github.com/{owner}/{repo}.git
+repository_url: https://github.com/productiontype/NewsReader
+
+# The branch name used to update google fonts. e.g.: master
+branch: master
+
+# Choose one of: DISPLAY, SERIF, SANS_SERIF, HANDWRITING, MONOSPACE
+category: SERIF
+
+# Full name of the type designer(s) or foundry who designed the fonts.
+designer: Production Type
+
+# Dictionary mapping of SOURCE file names to TARGET file names. Where
+# SOURCE is the file path in the upstream repo and TARGET is the file
+# path in the google fonts family directory.
+# Accepted and expected files:
+#     - The font files, ending with ".ttf"
+#     - In case of a variable font, static instances in: static/Family-instance.ttf
+#     - DESCRIPTION.en_us.html
+#     - OFL.txt, the license.  Less likely UFL.txt and LICENSE.txt.
+#     - (optional) FONTLOG.txt
+files:
+  # These are some examples as comments, please modify, add, delete as necessary:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  # Static:
+  fonts/static/ttf/Newsreader6pt-ExtraBoldItalic.ttf: Newsreader6pt-ExtraBoldItalic.ttf
+  fonts/static/ttf/Newsreader16pt-Bold.ttf: Newsreader16pt-Bold.ttf
+  fonts/static/ttf/Newsreader16pt-ExtraLightItalic.ttf: Newsreader16pt-ExtraLightItalic.ttf
+  fonts/static/ttf/Newsreader72pt-ExtraBoldItalic.ttf: Newsreader72pt-ExtraBoldItalic.ttf
+  fonts/static/ttf/Newsreader6pt-Bold.ttf: Newsreader6pt-Bold.ttf
+  fonts/static/ttf/Newsreader16pt-ExtraBoldItalic.ttf: Newsreader16pt-ExtraBoldItalic.ttf
+  fonts/static/ttf/Newsreader16pt-MediumItalic.ttf: Newsreader16pt-MediumItalic.ttf
+  fonts/static/ttf/Newsreader16pt-LightItalic.ttf: Newsreader16pt-LightItalic.ttf
+  fonts/static/ttf/Newsreader16pt-SemiBold.ttf: Newsreader16pt-SemiBold.ttf
+  fonts/static/ttf/Newsreader72pt-Italic.ttf: Newsreader72pt-Italic.ttf
+  fonts/static/ttf/Newsreader72pt-SemiBold.ttf: Newsreader72pt-SemiBold.ttf
+  fonts/static/ttf/Newsreader16pt-SemiBoldItalic.ttf: Newsreader16pt-SemiBoldItalic.ttf
+  fonts/static/ttf/Newsreader6pt-Italic.ttf: Newsreader6pt-Italic.ttf
+  fonts/static/ttf/Newsreader72pt-Regular.ttf: Newsreader72pt-Regular.ttf
+  fonts/static/ttf/Newsreader6pt-ExtraLightItalic.ttf: Newsreader6pt-ExtraLightItalic.ttf
+  fonts/static/ttf/Newsreader16pt-Italic.ttf: Newsreader16pt-Italic.ttf
+  fonts/static/ttf/Newsreader72pt-SemiBoldItalic.ttf: Newsreader72pt-SemiBoldItalic.ttf
+  fonts/static/ttf/Newsreader16pt-Regular.ttf: Newsreader16pt-Regular.ttf
+  fonts/static/ttf/Newsreader6pt-MediumItalic.ttf: Newsreader6pt-MediumItalic.ttf
+  fonts/static/ttf/Newsreader72pt-LightItalic.ttf: Newsreader72pt-LightItalic.ttf
+  fonts/static/ttf/Newsreader16pt-Light.ttf: Newsreader16pt-Light.ttf
+  fonts/static/ttf/Newsreader16pt-BoldItalic.ttf: Newsreader16pt-BoldItalic.ttf
+  fonts/static/ttf/Newsreader6pt-Light.ttf: Newsreader6pt-Light.ttf
+  fonts/static/ttf/Newsreader16pt-Medium.ttf: Newsreader16pt-Medium.ttf
+  fonts/static/ttf/Newsreader16pt-ExtraLight.ttf: Newsreader16pt-ExtraLight.ttf
+  fonts/static/ttf/Newsreader72pt-Medium.ttf: Newsreader72pt-Medium.ttf
+  fonts/static/ttf/Newsreader6pt-Medium.ttf: Newsreader6pt-Medium.ttf
+  fonts/static/ttf/Newsreader72pt-MediumItalic.ttf: Newsreader72pt-MediumItalic.ttf
+  fonts/static/ttf/Newsreader6pt-ExtraBold.ttf: Newsreader6pt-ExtraBold.ttf
+  fonts/static/ttf/Newsreader6pt-LightItalic.ttf: Newsreader6pt-LightItalic.ttf
+  fonts/static/ttf/Newsreader16pt-ExtraBold.ttf: Newsreader16pt-ExtraBold.ttf
+  fonts/static/ttf/Newsreader72pt-BoldItalic.ttf: Newsreader72pt-BoldItalic.ttf
+  fonts/static/ttf/Newsreader72pt-Bold.ttf: Newsreader72pt-Bold.ttf
+  fonts/static/ttf/Newsreader72pt-ExtraLightItalic.ttf: Newsreader72pt-ExtraLightItalic.ttf
+  fonts/static/ttf/Newsreader72pt-ExtraLight.ttf: Newsreader72pt-ExtraLight.ttf
+  fonts/static/ttf/Newsreader6pt-SemiBoldItalic.ttf: Newsreader6pt-SemiBoldItalic.ttf
+  fonts/static/ttf/Newsreader72pt-Light.ttf: Newsreader72pt-Light.ttf
+  fonts/static/ttf/Newsreader6pt-BoldItalic.ttf: Newsreader6pt-BoldItalic.ttf
+  fonts/static/ttf/Newsreader6pt-SemiBold.ttf: Newsreader6pt-SemiBold.ttf
+  fonts/static/ttf/Newsreader6pt-Regular.ttf: Newsreader6pt-Regular.ttf
+  fonts/static/ttf/Newsreader72pt-ExtraBold.ttf: Newsreader72pt-ExtraBold.ttf
+  fonts/static/ttf/Newsreader6pt-ExtraLight.ttf: Newsreader6pt-ExtraLight.ttf
+  # Variable:
+  fonts/variable/ttf/Newsreader-Italic[opsz,wght].ttf: Newsreader-Italic[opsz,wght].ttf
+  fonts/variable/ttf/Newsreader[opsz,wght].ttf: Newsreader[opsz,wght].ttf

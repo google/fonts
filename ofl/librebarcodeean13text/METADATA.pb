@@ -13,7 +13,3 @@ fonts {
   copyright: "Copyright 2017-2019 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)"
 }
 subsets: "menu"
-source {
-  repository_url: "https://github.com/graphicore/librebarcode.git"
-  commit: "869155f2bc559dbb392032ffcc4617e16c65e4d2"
-}

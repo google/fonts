@@ -8,18 +8,18 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Karla[wght].ttf"
-  post_script_name: "Karla-ExtraLight"
-  full_name: "Karla ExtraLight"
-  copyright: "Copyright 2019 The Karla Project Authors (https://github.com/bghryct/karmilla)"
+  post_script_name: "Karla-Regular"
+  full_name: "Karla Regular"
+  copyright: "Copyright 2019 The Karla Project Authors (https://github.com/googlefonts/karla)"
 }
 fonts {
   name: "Karla"
   style: "italic"
   weight: 400
   filename: "Karla-Italic[wght].ttf"
-  post_script_name: "Karla-ExtraLightItalic"
-  full_name: "Karla ExtraLight Italic"
-  copyright: "Copyright 2019 The Karla Project Authors (https://github.com/bghryct/karmilla)"
+  post_script_name: "Karla-Italic"
+  full_name: "Karla Italic"
+  copyright: "Copyright 2019 The Karla Project Authors (https://github.com/googlefonts/karla)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -28,4 +28,8 @@ axes {
   tag: "wght"
   min_value: 200.0
   max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/karla.git"
+  commit: "1bd63a928e0f1122373b2a3dfe6c82cdb20569b3"
 }

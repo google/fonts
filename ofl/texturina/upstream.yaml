@@ -1,0 +1,42 @@
+branch: master
+files:
+  fonts/variable/Texturina[opsz,wght].ttf: Texturina[opsz,wght].ttf
+  fonts/variable/Texturina-Italic[opsz,wght].ttf: Texturina-Italic[opsz,wght].ttf
+  fonts/ttf/Texturina-Black.ttf: static/Texturina-Black.ttf
+  fonts/ttf/Texturina-BlackItalic.ttf: static/Texturina-BlackItalic.ttf
+  fonts/ttf/Texturina-Bold.ttf: static/Texturina-Bold.ttf
+  fonts/ttf/Texturina-BoldItalic.ttf: static/Texturina-BoldItalic.ttf
+  fonts/ttf/Texturina-ExtraBold.ttf: static/Texturina-ExtraBold.ttf
+  fonts/ttf/Texturina-ExtraBoldItalic.ttf: static/Texturina-ExtraBoldItalic.ttf
+  fonts/ttf/Texturina-ExtraLight.ttf: static/Texturina-ExtraLight.ttf
+  fonts/ttf/Texturina-ExtraLightItalic.ttf: static/Texturina-ExtraLightItalic.ttf
+  fonts/ttf/Texturina-Italic.ttf: static/Texturina-Italic.ttf
+  fonts/ttf/Texturina-Light.ttf: static/Texturina-Light.ttf
+  fonts/ttf/Texturina-LightItalic.ttf: static/Texturina-LightItalic.ttf
+  fonts/ttf/Texturina-Medium.ttf: static/Texturina-Medium.ttf
+  fonts/ttf/Texturina-MediumItalic.ttf: static/Texturina-MediumItalic.ttf
+  fonts/ttf/Texturina-Regular.ttf: static/Texturina-Regular.ttf
+  fonts/ttf/Texturina-SemiBold.ttf: static/Texturina-SemiBold.ttf
+  fonts/ttf/Texturina-SemiBoldItalic.ttf: static/Texturina-SemiBoldItalic.ttf
+  fonts/ttf/Texturina-Thin.ttf: static/Texturina-Thin.ttf
+  fonts/ttf/Texturina-ThinItalic.ttf: static/Texturina-ThinItalic.ttf
+  fonts/ttf/Texturina72pt-Black.ttf: static/Texturina72pt-Black.ttf
+  fonts/ttf/Texturina72pt-BlackItalic.ttf: static/Texturina72pt-BlackItalic.ttf
+  fonts/ttf/Texturina72pt-Bold.ttf: static/Texturina72pt-Bold.ttf
+  fonts/ttf/Texturina72pt-BoldItalic.ttf: static/Texturina72pt-BoldItalic.ttf
+  fonts/ttf/Texturina72pt-ExtraBold.ttf: static/Texturina72pt-ExtraBold.ttf
+  fonts/ttf/Texturina72pt-ExtraBoldItalic.ttf: static/Texturina72pt-ExtraBoldItalic.ttf
+  fonts/ttf/Texturina72pt-ExtraLight.ttf: static/Texturina72pt-ExtraLight.ttf
+  fonts/ttf/Texturina72pt-ExtraLightItalic.ttf: static/Texturina72pt-ExtraLightItalic.ttf
+  fonts/ttf/Texturina72pt-Italic.ttf: static/Texturina72pt-Italic.ttf
+  fonts/ttf/Texturina72pt-Light.ttf: static/Texturina72pt-Light.ttf
+  fonts/ttf/Texturina72pt-LightItalic.ttf: static/Texturina72pt-LightItalic.ttf
+  fonts/ttf/Texturina72pt-Medium.ttf: static/Texturina72pt-Medium.ttf
+  fonts/ttf/Texturina72pt-MediumItalic.ttf: static/Texturina72pt-MediumItalic.ttf
+  fonts/ttf/Texturina72pt-Regular.ttf: static/Texturina72pt-Regular.ttf
+  fonts/ttf/Texturina72pt-SemiBold.ttf: static/Texturina72pt-SemiBold.ttf
+  fonts/ttf/Texturina72pt-SemiBoldItalic.ttf: static/Texturina72pt-SemiBoldItalic.ttf
+  fonts/ttf/Texturina72pt-Thin.ttf: static/Texturina72pt-Thin.ttf
+  fonts/ttf/Texturina72pt-ThinItalic.ttf: static/Texturina72pt-ThinItalic.ttf
+  OFL.txt: OFL.txt
+repository_url: https://github.com/Omnibus-Type/Texturina

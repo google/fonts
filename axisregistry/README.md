@@ -20,7 +20,11 @@ The live Axis Registry is here: [fonts.google.com/variablefonts](https://fonts.g
     *   Describes the specificity at which an axis position can be specified.
         For example, `0` means values must be specified as whole numbers while `-1` means values can be as precise as one decimal place.
 *   `fallback` (repeated)
-    *   Important positions along the axis. For weight, these are positions like Regular, Medium, and Bold.
+    *   Instance positions along the axis, such as wght 100,200,300,400,500,600,700,800,900.
+    *   A cross-product of fallback positions along all supported axes is created to support legacy browsers that lack variable font support.
+        For axes with CSS3 properties (such as [font-weight](https://drafts.csswg.org/css-fonts-3/#font-weight-prop)), the positions accessible
+        to CSS3 should be specified. For axes lacking CSS3 properties a legacy browser is limited to a single position and that position must
+        be at a fallback.
 *   `description`   
     *   A description of the axis.
 

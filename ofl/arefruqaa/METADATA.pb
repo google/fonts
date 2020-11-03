@@ -22,4 +22,6 @@ fonts {
   copyright: "Copyright 2015-2020 The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
 }
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "arabic"
 subsets: "menu"

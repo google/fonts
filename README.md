@@ -18,7 +18,6 @@ If you find a problem with a font file or have a request for the future developm
 ## Self Host Fonts Available From Google Fonts
 
 Since all the fonts available here are licensed with permission to redistribute, subject to the license terms, you can self-host.
-For help doing this, see <https://github.com/majodev/google-webfonts-helper>
 
 ## Download All Google Fonts
 

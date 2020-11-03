@@ -1,0 +1,17 @@
+tag: "VOLM"
+display_name: "Volume"
+min_value: 0.0
+default_value: 0.0
+max_value: 100.0
+precision: 1
+fallback {
+  name: "Normal"
+  value: 0.0
+}
+fallback {
+  name: "Loud"
+  value: 100.0
+}
+description:
+  "Transforms serifs from glyphic to wedge shapes,"
+  " and adds a little more edge to other details."

@@ -24,7 +24,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/TiroTypeworks/Castoro.git"
-  commit: "56da70fd9f66423bfa212118289a440f3bc1756f"
-}

@@ -1,0 +1,9 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/variable/RedRose[wght].ttf: RedRose[wght].ttf
+  fonts/ttf/RedRose-Regular.ttf: static/RedRose-Regular.ttf
+  fonts/ttf/RedRose-Bold.ttf: static/RedRose-Bold.ttf
+  fonts/ttf/RedRose-Light.ttf: static/RedRose-Light.ttf
+repository_url: https://github.com/magictype/redrose

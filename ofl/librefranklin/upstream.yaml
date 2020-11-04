@@ -1,0 +1,24 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  fonts/variable/LibreFranklin-Italic[wght].ttf: LibreFranklin-Italic[wght].ttf
+  fonts/variable/LibreFranklin[wght].ttf: LibreFranklin[wght].ttf
+  fonts/ttf/LibreFranklin-Black.ttf: static/LibreFranklin-Black.ttf
+  fonts/ttf/LibreFranklin-BlackItalic.ttf: static/LibreFranklin-BlackItalic.ttf
+  fonts/ttf/LibreFranklin-Bold.ttf: static/LibreFranklin-Bold.ttf
+  fonts/ttf/LibreFranklin-BoldItalic.ttf: static/LibreFranklin-BoldItalic.ttf
+  fonts/ttf/LibreFranklin-ExtraBold.ttf: static/LibreFranklin-ExtraBold.ttf
+  fonts/ttf/LibreFranklin-ExtraBoldItalic.ttf: static/LibreFranklin-ExtraBoldItalic.ttf
+  fonts/ttf/LibreFranklin-ExtraLight.ttf: static/LibreFranklin-ExtraLight.ttf
+  fonts/ttf/LibreFranklin-ExtraLightItalic.ttf: static/LibreFranklin-ExtraLightItalic.ttf
+  fonts/ttf/LibreFranklin-Italic.ttf: static/LibreFranklin-Italic.ttf
+  fonts/ttf/LibreFranklin-Light.ttf: static/LibreFranklin-Light.ttf
+  fonts/ttf/LibreFranklin-LightItalic.ttf: static/LibreFranklin-LightItalic.ttf
+  fonts/ttf/LibreFranklin-Medium.ttf: static/LibreFranklin-Medium.ttf
+  fonts/ttf/LibreFranklin-MediumItalic.ttf: static/LibreFranklin-MediumItalic.ttf
+  fonts/ttf/LibreFranklin-Regular.ttf: static/LibreFranklin-Regular.ttf
+  fonts/ttf/LibreFranklin-SemiBold.ttf: static/LibreFranklin-SemiBold.ttf
+  fonts/ttf/LibreFranklin-SemiBoldItalic.ttf: static/LibreFranklin-SemiBoldItalic.ttf
+  fonts/ttf/LibreFranklin-Thin.ttf: static/LibreFranklin-Thin.ttf
+  fonts/ttf/LibreFranklin-ThinItalic.ttf: static/LibreFranklin-ThinItalic.ttf
+repository_url: https://github.com/TypeNetwork/Libre-Franklin

@@ -1,5 +1,5 @@
 name: "Piazzolla"
-designer: "Huerta Tipográfica"
+designer: "Juan Pablo del Peral, Huerta Tipográfica"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-08-27"

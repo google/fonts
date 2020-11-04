@@ -27,7 +27,7 @@ subsets: "menu"
 subsets: "vietnamese"
 axes {
   tag: "opsz"
-  min_value: 0.0
+  min_value: 6.0
   max_value: 72.0
 }
 axes {

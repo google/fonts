@@ -1,0 +1,10 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/ttf/SpaceGrotesk[wght].ttf: SpaceGrotesk[wght].ttf
+  fonts/ttf/static/SpaceGrotesk-Bold.ttf: static/SpaceGrotesk-Bold.ttf
+  fonts/ttf/static/SpaceGrotesk-Light.ttf: static/SpaceGrotesk-Light.ttf
+  fonts/ttf/static/SpaceGrotesk-Medium.ttf: static/SpaceGrotesk-Medium.ttf
+  fonts/ttf/static/SpaceGrotesk-Regular.ttf: static/SpaceGrotesk-Regular.ttf
+repository_url: https://github.com/floriankarsten/space-grotesk

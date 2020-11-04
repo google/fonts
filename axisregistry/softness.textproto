@@ -6,11 +6,15 @@ max_value: 100
 default_value: 0
 precision: -1
 fallback {
-  name: "Normal"
+  name: "Sharp"
   value: 0
 }
 fallback {
   name: "Soft"
+  value: 50
+}
+fallback {
+  name: "SuperSoft"
   value: 100
 }
-description: "Along this axis, letterforms become more soft and rounded."
+description: "Letterforms become more soft and rounded."

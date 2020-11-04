@@ -1,5 +1,5 @@
-designer: "John Hudson"
-link: "https://plus.google.com"
+designer: "Paul Hanslow"
+link: "https://www.tiro.com/"
 avatar: {
-  file_name: "john_hudson.png"
+  file_name: "PaulHanslow.jpg"
 }

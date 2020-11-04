@@ -2,7 +2,7 @@ name: "Bodoni Moda"
 designer: "Owen Earl"
 license: "OFL"
 category: "SERIF"
-date_added: "2020-09-30"
+date_added: "2020-11-04"
 fonts {
   name: "Bodoni Moda"
   style: "normal"

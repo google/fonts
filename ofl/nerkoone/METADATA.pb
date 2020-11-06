@@ -15,7 +15,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/nermink99/Nerko.git"
-  commit: "62c2998197eaa09664ca1e0605fa4cfd273ac8bf"
-}

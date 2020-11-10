@@ -2,7 +2,9 @@
 
 This package contains a collection of metadata source files that collectively form the Google Fonts Axis Registry.
 
-The live Axis Registry is here: [fonts.google.com/variablefonts](https://fonts.google.com/variablefonts)
+The live Axis Registry is at [fonts.google.com/variablefonts](https://fonts.google.com/variablefonts), and axis definitions are only final when they appear on that page.
+
+When the registry is updated here, a line like `axisregistry/axis_name.textproto` should be added to the `to_sandbox.txt` file.
 
 ## Axis Metadata Fields
 

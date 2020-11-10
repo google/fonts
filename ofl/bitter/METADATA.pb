@@ -32,7 +32,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/solmatas/BitterPro"
-  commit: "8eab426de1060ee9425fb1a9d5fb6d8e0d386940"
-}

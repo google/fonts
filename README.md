@@ -19,8 +19,7 @@ If you find a problem with a font file or have a request for the future developm
 
 Since all the fonts available here are licensed with permission to redistribute, subject to the license terms, you can self-host using a variety of third-party projects.
 
-- [google-webfonts-helper](https://github.com/majodev/google-webfonts-helper) - Get eot, svg, ttf, woff and woff2 files + CSS snippets.
-- [Fontsource](https://github.com/fontsource/fontsource) - Self-host Open Source fonts in neatly bundled NPM packages.
+One popular service is [Fontsource](https://github.com/fontsource/fontsource), which offers bundled NPM packages.
 
 ## Download All Google Fonts
 

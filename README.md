@@ -17,9 +17,12 @@ If you find a problem with a font file or have a request for the future developm
 
 ## Self Host Fonts Available From Google Fonts
 
+
 Since all the fonts available here are licensed with permission to redistribute, subject to the license terms, you can self-host using a variety of third-party projects.
 
 One popular service is [Fontsource](https://github.com/fontsource/fontsource), which offers bundled NPM packages.
+
+
 
 ## Download All Google Fonts
 
@@ -30,7 +33,7 @@ You can download all Google Fonts in a simple ZIP snapshot (over 300MB) from <ht
 You can also sync the collection with git so that you can update by only fetching what has changed. To learn how to use git, Github provides [illustrated guides](https://guides.github.com) and a [youtube channel](https://www.youtube.com/user/GitHubGuides), and an [interactive learning lab](https://lab.github.com).
 Free, open-source git applications are available for [Windows](https://git-scm.com/download/gui/windows) and [Mac OS X](https://git-scm.com/download/gui/mac).
 
-## Licensing
+## License
 
 It is important to always read the license for every font that you use.
 Each font family directory contains the appropriate license file for the fonts in that directory.

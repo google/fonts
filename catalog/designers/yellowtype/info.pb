@@ -1,4 +1,4 @@
-designer: "Yello Type Foundry"
+designer: "Yello Type"
 link: "https://www.yellow-type.com"
 avatar: {
   file_name: "yellowtype.png"

@@ -33,7 +33,3 @@ axes {
   min_value: 100.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/JetBrains/JetBrainsMono"
-  commit: "6a005ca77d9202aa12fc277aefa8f5bb4eb7f0cd"
-}

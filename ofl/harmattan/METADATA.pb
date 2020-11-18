@@ -2,7 +2,7 @@ name: "Harmattan"
 designer: "SIL International"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2016-06-20"
+date_added: "2020-07-03"
 fonts {
   name: "Harmattan"
   style: "normal"

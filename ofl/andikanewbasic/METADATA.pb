@@ -43,7 +43,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/vv-monsalve/Andika-New-Basic.git"
-  commit: "1440cb19655806bd5142f9c167bd6aee0828d932"
-}

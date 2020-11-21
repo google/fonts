@@ -1,5 +1,5 @@
 name: "Noto Sans Gurmukhi"
-designer: "UNKNOWN"
+designer: "Google LLC"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"

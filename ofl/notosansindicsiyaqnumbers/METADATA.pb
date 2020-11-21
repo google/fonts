@@ -1,5 +1,5 @@
 name: "Noto Sans Indic Siyaq Numbers"
-designer: "UNKNOWN"
+designer: "Google LLC"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"

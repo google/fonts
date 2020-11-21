@@ -24,7 +24,6 @@ fonts {
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
-subsets: "devanagari"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"

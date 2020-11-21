@@ -1,7 +1,7 @@
 name: "Noto Traditional Nushu"
-designer: "UNKNOWN"
+designer: "Google LLC"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SANS"
 date_added: "2020-11-19"
 fonts {
   name: "Noto Traditional Nushu"

@@ -135,7 +135,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/nunito.git"
-  commit: "ed889dda6d742a0495c1963898e1b3567ab61a15"
-}

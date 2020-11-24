@@ -1,52 +1,18 @@
-# Please edit this upstream configuration for the family accordingly.
-# This is a yaml formatted file.
-# An "#" (number sign) denotes a comment.
-# For more help see the docs at:
-# https://github.com/googlefonts/gf-docs/tree/master/METADATA
-
-# Full family name, with initial upper cases and spaces
-name: Nunito
-
-# In most cases this should be based on the GitHub https repo url:
-# this https://github.com/{owner}/{repo}.git
-repository_url: https://github.com/googlefonts/nunito.git
-
-# The branch name used to update google fonts. e.g.: master
 branch: master
-
-# Choose one of: DISPLAY, SERIF, SANS_SERIF, HANDWRITING, MONOSPACE
-category: SANS_SERIF
-
-# Full name of the type designer(s) or foundry who designed the fonts.
-designer: Vernon Adams, Cyreal
-
-# Dictionary mapping of SOURCE file names to TARGET file names. Where
-# SOURCE is the file path in the upstream repo and TARGET is the file
-# path in the google fonts family directory.
-# Accepted and expected files:
-#     - The font files, ending with ".ttf"
-#     - In case of a variable font, static instances in: static/Family-instance.ttf
-#     - DESCRIPTION.en_us.html
-#     - OFL.txt, the license.  Less likely UFL.txt and LICENSE.txt.
-#     - (optional) FONTLOG.txt
 files:
-  # These are some examples as comments, please modify, add, delete as necessary:
-  # OFL.txt: OFL.txt
-  # DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-  # fonts/variable/Gelasio-Italic-VF.ttf: Gelasio-Italic[wght].ttf
-OFL.txt: OFL.txt
-DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-fonts/TTF/Nunito-Black.ttf: Nunito-Black.ttf
-fonts/TTF/Nunito-BlackItalic.ttf: Nunito-BlackItalic.ttf
-fonts/TTF/Nunito-Bold.ttf: Nunito-Bold.ttf
-fonts/TTF/Nunito-BoldItalic.ttf: Nunito-BoldItalic.ttf
-fonts/TTF/Nunito-ExtraBold.ttf: Nunito-ExtraBold.ttf
-fonts/TTF/Nunito-ExtraBoldItalic.ttf: Nunito-ExtraBoldItalic.ttf
-fonts/TTF/Nunito-ExtraLight.ttf: Nunito-ExtraLight.ttf
-fonts/TTF/Nunito-ExtraLightItalic.ttf: Nunito-ExtraLightItalic.ttf
-fonts/TTF/Nunito-Italic.ttf: Nunito-Italic.ttf
-fonts/TTF/Nunito-Light.ttf: Nunito-Light.ttf
-fonts/TTF/Nunito-LightItalic.ttf: Nunito-LightItalic.ttf
-fonts/TTF/Nunito-Regular.ttf: Nunito-Regular.ttf
-fonts/TTF/Nunito-SemiBold.ttf: Nunito-SemiBold.ttf
-fonts/TTF/Nunito-SemiBoldItalic.ttf: Nunito-SemiBoldItalic.ttf
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/TTF/Nunito-Black.ttf: Nunito-Black.ttf
+  fonts/TTF/Nunito-BlackItalic.ttf: Nunito-BlackItalic.ttf
+  fonts/TTF/Nunito-Bold.ttf: Nunito-Bold.ttf
+  fonts/TTF/Nunito-BoldItalic.ttf: Nunito-BoldItalic.ttf
+  fonts/TTF/Nunito-ExtraBold.ttf: Nunito-ExtraBold.ttf
+  fonts/TTF/Nunito-ExtraBoldItalic.ttf: Nunito-ExtraBoldItalic.ttf
+  fonts/TTF/Nunito-ExtraLight.ttf: Nunito-ExtraLight.ttf
+  fonts/TTF/Nunito-ExtraLightItalic.ttf: Nunito-ExtraLightItalic.ttf
+  fonts/TTF/Nunito-Italic.ttf: Nunito-Italic.ttf
+  fonts/TTF/Nunito-Light.ttf: Nunito-Light.ttf
+  fonts/TTF/Nunito-LightItalic.ttf: Nunito-LightItalic.ttf
+  fonts/TTF/Nunito-Regular.ttf: Nunito-Regular.ttf
+  fonts/TTF/Nunito-SemiBold.ttf: Nunito-SemiBold.ttf
+  fonts/TTF/Nunito-SemiBoldItalic.ttf: Nunito-SemiBoldItalic.ttf

@@ -34,7 +34,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "malayalam"
 subsets: "menu"
-source {
-  repository_url: "https://gitlab.com/smc/fonts/gayathri.git"
-  commit: "74544b1d2e6619a872710be05fde7bc309e3e162"
-}

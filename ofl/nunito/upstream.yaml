@@ -34,8 +34,8 @@ files:
   # OFL.txt: OFL.txt
   # DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   # fonts/variable/Gelasio-Italic-VF.ttf: Gelasio-Italic[wght].ttf
-OFL.txt OFL.txt
-DESCRIPTION.en_us.html DESCRIPTION.en_us.html
+OFL.txt: OFL.txt
+DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
 fonts/TTF/Nunito-Black.ttf: Nunito-Black.ttf
 fonts/TTF/Nunito-BlackItalic.ttf: Nunito-BlackItalic.ttf
 fonts/TTF/Nunito-Bold.ttf: Nunito-Bold.ttf

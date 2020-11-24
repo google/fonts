@@ -1,0 +1,7 @@
+branch: tags/Version1.110-2
+build: mkdir -p build; python3 -m venv build/venv; source build/venv/bin/activate;
+  pip install -r requirements.txt; make ttf
+files:
+  build/Gayathri-Regular.ttf: Gayathri-Regular.ttf
+  build/Gayathri-Bold.ttf: Gayathri-Bold.ttf
+  build/Gayathri-Thin.ttf: Gayathri-Thin.ttf

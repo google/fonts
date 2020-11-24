@@ -39,6 +39,5 @@ fonts {
   full_name: "Noto Sans Oriya UI Black"
   copyright: "Copyright 2019 Google LLC. All Rights Reserved."
 }
-subsets: "latin-ext"
 subsets: "menu"
 subsets: "oriya"

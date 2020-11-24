@@ -12,7 +12,6 @@ fonts {
   full_name: "Noto Sans Adlam Regular"
   copyright: "Copyright 2017-2019 Google LLC. All Rights Reserved."
 }
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"

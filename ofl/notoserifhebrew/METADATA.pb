@@ -13,7 +13,6 @@ fonts {
   copyright: "Copyright 2016 Google Inc. All Rights Reserved."
 }
 subsets: "hebrew"
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wdth"

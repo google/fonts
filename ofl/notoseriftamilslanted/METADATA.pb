@@ -12,7 +12,6 @@ fonts {
   full_name: "NotoSerifTamilSlanted Italic"
   copyright: "Copyright 2018 Google Inc. All Rights Reserved."
 }
-subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil"
 axes {

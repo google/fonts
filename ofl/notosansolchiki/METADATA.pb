@@ -12,7 +12,6 @@ fonts {
   full_name: "Noto Sans Ol Chiki Regular"
   copyright: "Copyright 2019 Google LLC. All Rights Reserved."
 }
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"

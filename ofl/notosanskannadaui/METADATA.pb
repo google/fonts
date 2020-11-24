@@ -13,7 +13,6 @@ fonts {
   copyright: "Copyright 2018 Google Inc. All Rights Reserved."
 }
 subsets: "kannada"
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wdth"

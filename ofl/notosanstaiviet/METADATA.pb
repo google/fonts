@@ -12,5 +12,4 @@ fonts {
   full_name: "Noto Sans Tai Viet Regular"
   copyright: "Copyright 2017 Google Inc. All Rights Reserved."
 }
-subsets: "latin-ext"
 subsets: "menu"

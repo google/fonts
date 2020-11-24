@@ -13,7 +13,6 @@ fonts {
   copyright: "Copyright 2017 Google LLC. All Rights Reserved."
 }
 subsets: "gujarati"
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"

@@ -12,7 +12,6 @@ fonts {
   full_name: "Noto Sans Tamil UI Regular"
   copyright: "Copyright 2017 Google Inc. All Rights Reserved."
 }
-subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil"
 axes {

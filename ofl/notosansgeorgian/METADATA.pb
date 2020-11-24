@@ -13,7 +13,6 @@ fonts {
   copyright: "Copyright 2019 Google LLC. All Rights Reserved."
 }
 subsets: "georgian"
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wdth"

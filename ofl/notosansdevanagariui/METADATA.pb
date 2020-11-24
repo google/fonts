@@ -85,5 +85,4 @@ fonts {
   copyright: "Copyright 2015 Google Inc. All Rights Reserved."
 }
 subsets: "devanagari"
-subsets: "latin-ext"
 subsets: "menu"

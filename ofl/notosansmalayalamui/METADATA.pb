@@ -12,7 +12,6 @@ fonts {
   full_name: "Noto Sans Malayalam UI Regular"
   copyright: "Copyright 2018 Google Inc. All Rights Reserved."
 }
-subsets: "latin-ext"
 subsets: "malayalam"
 subsets: "menu"
 axes {

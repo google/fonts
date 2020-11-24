@@ -12,7 +12,6 @@ fonts {
   full_name: "Noto Serif Telugu Regular"
   copyright: "Copyright 2019 Google LLC. All Rights Reserved."
 }
-subsets: "latin-ext"
 subsets: "menu"
 subsets: "telugu"
 axes {

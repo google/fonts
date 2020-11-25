@@ -34,7 +34,3 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/indestructible-type/Bodoni"
-  commit: "5457e20e8f7e16b53a5604dc08aca325142c172f"
-}

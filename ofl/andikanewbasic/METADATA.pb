@@ -1,4 +1,4 @@
-name: "AndikaNewBasic"
+name: "Andika New Basic"
 designer: "SIL International"
 license: "OFL"
 category: "SANS_SERIF"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) SIL International, 2004-2015."
 }
 fonts {
-  name: "AndikaNewBasic"
+  name: "Andika New Basic"
   style: "italic"
   weight: 400
   filename: "AndikaNewBasic-Italic.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) SIL International, 2004-2015."
 }
 fonts {
-  name: "AndikaNewBasic"
+  name: "Andika New Basic"
   style: "normal"
   weight: 700
   filename: "AndikaNewBasic-Bold.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright (c) SIL International, 2004-2015."
 }
 fonts {
-  name: "AndikaNewBasic"
+  name: "Andika New Basic"
   style: "italic"
   weight: 700
   filename: "AndikaNewBasic-BoldItalic.ttf"

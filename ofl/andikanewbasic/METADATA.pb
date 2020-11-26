@@ -4,7 +4,7 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
 fonts {
-  name: "AndikaNewBasic"
+  name: "Andika New Basic"
   style: "normal"
   weight: 400
   filename: "AndikaNewBasic-Regular.ttf"

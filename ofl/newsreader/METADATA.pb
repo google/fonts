@@ -35,7 +35,3 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/productiontype/NewsReader.git"
-  commit: "1ece6a8bfe5db1a2b90c76cc1fe5d3b2eed5dcf3"
-}

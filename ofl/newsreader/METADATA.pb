@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Newsreader[opsz,wght].ttf"
-  post_script_name: "Newsreader-Regular"
-  full_name: "Newsreader Regular"
+  post_script_name: "Newsreader16pt-Regular"
+  full_name: "Newsreader 16pt Regular"
   copyright: "Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)"
 }
 fonts {
@@ -17,8 +17,8 @@ fonts {
   style: "italic"
   weight: 400
   filename: "Newsreader-Italic[opsz,wght].ttf"
-  post_script_name: "Newsreader-Italic"
-  full_name: "Newsreader Italic"
+  post_script_name: "Newsreader16pt-Italic"
+  full_name: "Newsreader 16pt Italic"
   copyright: "Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)"
 }
 subsets: "latin"
@@ -34,4 +34,8 @@ axes {
   tag: "wght"
   min_value: 200.0
   max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/productiontype/NewsReader.git"
+  commit: "1ece6a8bfe5db1a2b90c76cc1fe5d3b2eed5dcf3"
 }

@@ -1,0 +1,24 @@
+branch: master
+files:
+  Saira/fonts/Saira/variable/Saira[wdth,wght].ttf: Saira[wdth,wght].ttf
+  Saira/fonts/Saira/variable/Saira-Italic[wdth,wght].ttf: Saira-Italic[wdth,wght].ttf
+  Saira/fonts/Saira/ttf/Saira-Black.ttf: static/Saira-Black.ttf
+  Saira/fonts/Saira/ttf/Saira-BlackItalic.ttf: static/Saira-BlackItalic.ttf
+  Saira/fonts/Saira/ttf/Saira-Bold.ttf: static/Saira-Bold.ttf
+  Saira/fonts/Saira/ttf/Saira-BoldItalic.ttf: static/Saira-BoldItalic.ttf
+  Saira/fonts/Saira/ttf/Saira-ExtraBold.ttf: static/Saira-ExtraBold.ttf
+  Saira/fonts/Saira/ttf/Saira-ExtraBoldItalic.ttf: static/Saira-ExtraBoldItalic.ttf
+  Saira/fonts/Saira/ttf/Saira-ExtraLight.ttf: static/Saira-ExtraLight.ttf
+  Saira/fonts/Saira/ttf/Saira-ExtraLightItalic.ttf: static/Saira-ExtraLightItalic.ttf
+  Saira/fonts/Saira/ttf/Saira-Italic.ttf: static/Saira-Italic.ttf
+  Saira/fonts/Saira/ttf/Saira-Light.ttf: static/Saira-Light.ttf
+  Saira/fonts/Saira/ttf/Saira-LightItalic.ttf: static/Saira-LightItalic.ttf
+  Saira/fonts/Saira/ttf/Saira-Medium.ttf: static/Saira-Medium.ttf
+  Saira/fonts/Saira/ttf/Saira-MediumItalic.ttf: static/Saira-MediumItalic.ttf
+  Saira/fonts/Saira/ttf/Saira-Regular.ttf: static/Saira-Regular.ttf
+  Saira/fonts/Saira/ttf/Saira-SemiBold.ttf: static/Saira-SemiBold.ttf
+  Saira/fonts/Saira/ttf/Saira-SemiBoldItalic.ttf: static/Saira-SemiBoldItalic.ttf
+  Saira/fonts/Saira/ttf/Saira-Thin.ttf: static/Saira-Thin.ttf
+  Saira/fonts/Saira/ttf/Saira-ThinItalic.ttf: static/Saira-ThinItalic.ttf
+  OFL.txt: OFL.txt
+repository_url: https://github.com/Omnibus-Type/Saira

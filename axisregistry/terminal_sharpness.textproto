@@ -1,0 +1,19 @@
+#SHARP based on https://github.com/monokromskriftforlag/geologisk/#variable-axis
+tag: "TSHR"
+display_name: "Terminal_Sharpness"
+min_value: 0.0
+default_value: 0.0
+max_value: 100.0
+precision: 1
+fallback {
+  name: "Flat"
+  value: 0.0
+}
+fallback {
+  name: "Sharp"
+  value: 100.0
+}
+description: "Detailing and terminal treatment."
+  "Modifies the slope of the sans serif stem terminals from flat to pointed"
+  "As the sharpness increase, different levels of acuteness can be set"
+

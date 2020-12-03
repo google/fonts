@@ -6,7 +6,7 @@ max_value: 1
 default_value: 0
 precision: 0
 fallback {
-  name: "NonWonky"
+  name: "Non Wonky"
   value: 0
 }
 fallback {

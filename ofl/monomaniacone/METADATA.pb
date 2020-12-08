@@ -15,7 +15,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/ManiackersDesign/monomaniac.git"
-  commit: "6150749469a13f0497e960217a17b6d38107ad67"
-}

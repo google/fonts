@@ -2,7 +2,7 @@ name: "Daruma Drop One"
 designer: "Maniackers Design"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2020-12-08"
+date_added: "2020-12-14"
 fonts {
   name: "Daruma Drop One"
   style: "normal"
@@ -12,6 +12,7 @@ fonts {
   full_name: "Daruma Drop One Regular"
   copyright: "Copyright 2020 The Daruma Drop Project Authors (https://github.com/ManiackersDesign/darumadrop), all rights reserved."
 }
+subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

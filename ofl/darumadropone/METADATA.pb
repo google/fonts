@@ -15,7 +15,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/ManiackersDesign/darumadrop.git"
-  commit: "9d5188a76086b0f011830dc191ee712c15a29d40"
-}

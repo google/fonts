@@ -40,6 +40,10 @@ fallback {
   value: 14
 }
 fallback {
+  name: "16pt"
+  value: 16
+}
+fallback {
   name: "18pt"
   value: 18
 }

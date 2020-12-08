@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/graphicore/librebarcode.git"
-  commit: "5a3e6055e01b9a2f8b9bccd635faa4e844b8767a"
-}

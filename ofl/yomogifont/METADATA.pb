@@ -20,7 +20,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/satsuyako/YomogiFont.git"
-  commit: "e7f8236fcf416b4e1fe797e109f3d4d081cc21ea"
-}

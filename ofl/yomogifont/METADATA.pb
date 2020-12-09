@@ -2,7 +2,7 @@ name: "YomogiFont"
 designer: "Satsuyako"
 license: "OFL"
 category: "HANDWRITING"
-date_added: "2020-12-09"
+date_added: "2020-12-14"
 fonts {
   name: "YomogiFont"
   style: "normal"
@@ -12,8 +12,6 @@ fonts {
   full_name: "YomogiFont Regular"
   copyright: "Copyright 2020 The Yomogi Font Project Authors (https://github.com/satsuyako/YomogiFont), all rights reserved."
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"

@@ -19,7 +19,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/noriokanisawa/HachiMaruPop.git"
-  commit: "497409c911541b53bcf2cc7a2d759e5be9707776"
-}

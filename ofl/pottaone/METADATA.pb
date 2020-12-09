@@ -2,7 +2,7 @@ name: "Potta One"
 designer: "Font Zone 108"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2020-12-08"
+date_added: "2020-12-14"
 fonts {
   name: "Potta One"
   style: "normal"
@@ -12,8 +12,6 @@ fonts {
   full_name: "Potta One Regular"
   copyright: "Copyright 2020 The Potta Project Authors (https://github.com/go108go/Potta), all rights reserved."
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"

@@ -2,7 +2,7 @@ name: "Kiwi Maru"
 designer: "Hiroki-Chan"
 license: "OFL"
 category: "SERIF"
-date_added: "2020-12-09"
+date_added: "2020-12-14"
 fonts {
   name: "Kiwi Maru"
   style: "normal"
@@ -30,8 +30,6 @@ fonts {
   full_name: "Kiwi Maru Medium"
   copyright: "Copyright 2020 The Kiwi Maru Project Authors (https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"

@@ -12,6 +12,7 @@ fonts {
   full_name: "Monomaniac One Regular"
   copyright: "Copyright 2020 The Monomaniac Project Authors (https://github.com/ManiackersDesign/monomaniac), all rights reserved."
 }
+subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

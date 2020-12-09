@@ -18,7 +18,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/nagamaki008/NewTegomin.git"
-  commit: "24034c0eef4a4a54e2d15771304020bc2288b8fd"
-}

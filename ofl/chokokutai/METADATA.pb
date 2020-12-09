@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/go108go/Chokokutai.git"
-  commit: "55016eef4cfaf7d9001eeaa64ad5a0a0f20a67c7"
-}

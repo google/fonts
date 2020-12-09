@@ -37,7 +37,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru.git"
-  commit: "d8d8709b4f18e302308dedf3fc1ca88ac76bbad2"
-}

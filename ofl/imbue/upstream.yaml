@@ -1,0 +1,32 @@
+branch: master
+files:
+  fonts/variable/Imbue[opsz,wght].ttf: Imbue[opsz,wght].ttf
+  fonts/ttf/Imbue10pt-Black.ttf: static/Imbue10pt-Black.ttf
+  fonts/ttf/Imbue10pt-Bold.ttf: static/Imbue10pt-Bold.ttf
+  fonts/ttf/Imbue10pt-ExtraBold.ttf: static/Imbue10pt-ExtraBold.ttf
+  fonts/ttf/Imbue10pt-ExtraLight.ttf: static/Imbue10pt-ExtraLight.ttf
+  fonts/ttf/Imbue10pt-Light.ttf: static/Imbue10pt-Light.ttf
+  fonts/ttf/Imbue10pt-Medium.ttf: static/Imbue10pt-Medium.ttf
+  fonts/ttf/Imbue10pt-Regular.ttf: static/Imbue10pt-Regular.ttf
+  fonts/ttf/Imbue10pt-SemiBold.ttf: static/Imbue10pt-SemiBold.ttf
+  fonts/ttf/Imbue10pt-Thin.ttf: static/Imbue10pt-Thin.ttf
+  fonts/ttf/Imbue50pt-Black.ttf: static/Imbue50pt-Black.ttf
+  fonts/ttf/Imbue50pt-Bold.ttf: static/Imbue50pt-Bold.ttf
+  fonts/ttf/Imbue50pt-ExtraBold.ttf: static/Imbue50pt-ExtraBold.ttf
+  fonts/ttf/Imbue50pt-ExtraLight.ttf: static/Imbue50pt-ExtraLight.ttf
+  fonts/ttf/Imbue50pt-Light.ttf: static/Imbue50pt-Light.ttf
+  fonts/ttf/Imbue50pt-Medium.ttf: static/Imbue50pt-Medium.ttf
+  fonts/ttf/Imbue50pt-Regular.ttf: static/Imbue50pt-Regular.ttf
+  fonts/ttf/Imbue50pt-SemiBold.ttf: static/Imbue50pt-SemiBold.ttf
+  fonts/ttf/Imbue50pt-Thin.ttf: static/Imbue50pt-Thin.ttf
+  fonts/ttf/Imbue100pt-Black.ttf: static/Imbue100pt-Black.ttf
+  fonts/ttf/Imbue100pt-Bold.ttf: static/Imbue100pt-Bold.ttf
+  fonts/ttf/Imbue100pt-ExtraBold.ttf: static/Imbue100pt-ExtraBold.ttf
+  fonts/ttf/Imbue100pt-ExtraLight.ttf: static/Imbue100pt-ExtraLight.ttf
+  fonts/ttf/Imbue100pt-Light.ttf: static/Imbue100pt-Light.ttf
+  fonts/ttf/Imbue100pt-Medium.ttf: static/Imbue100pt-Medium.ttf
+  fonts/ttf/Imbue100pt-Regular.ttf: static/Imbue100pt-Regular.ttf
+  fonts/ttf/Imbue100pt-SemiBold.ttf: static/Imbue100pt-SemiBold.ttf
+  fonts/ttf/Imbue100pt-Thin.ttf: static/Imbue100pt-Thin.ttf
+  OFL.txt: OFL.txt
+repository_url: https://github.com/Etcetera-Type-Co/Imbue

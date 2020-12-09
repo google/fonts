@@ -19,7 +19,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/go108go/Potta.git"
-  commit: "574738ac030a0551d675056dc56166fddbcad53c"
-}

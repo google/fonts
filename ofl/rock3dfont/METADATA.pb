@@ -13,7 +13,3 @@ fonts {
   copyright: "Copyright 2020 The Rock 3D Font Project Authors (https://github.com/shibuyafont/3d-rock-font), all rights reserved."
 }
 subsets: "menu"
-source {
-  repository_url: "https://github.com/shibuyafont/3d-rock-font.git"
-  commit: "cf98f864221ccfe24091dccc23325b2d97a0f24b"
-}

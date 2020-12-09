@@ -1,0 +1,27 @@
+name: "Dela Gothic One"
+designer: "aratakana"
+license: "OFL"
+category: "DISPLAY"
+date_added: "2020-12-09"
+fonts {
+  name: "Dela Gothic One"
+  style: "normal"
+  weight: 400
+  filename: "DelaGothicOne-Regular.ttf"
+  post_script_name: "DelaGothicOne-Regular"
+  full_name: "Dela Gothic One Regular"
+  copyright: "Copyright 2020 The Dela Gothic Project Authors (https://github.com/syakuzen/DelaGothic)"
+}
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
+subsets: "cyrillic"
+subsets: "greek"
+subsets: "japanese"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/syakuzen/DelaGothic.git"
+  commit: "c00d3aa11584648f76ce32e3f8d3993933903941"
+}

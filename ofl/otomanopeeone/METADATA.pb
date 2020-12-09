@@ -2,7 +2,7 @@ name: "Otomanopee One"
 designer: "Gutenberg Labo"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2020-12-09"
+date_added: "2020-12-14"
 fonts {
   name: "Otomanopee One"
   style: "normal"
@@ -12,6 +12,7 @@ fonts {
   full_name: "Otomanopee One Regular"
   copyright: "Copyright 2020 The Otomanopee Project Authors (https://github.com/Gutenberg-Labo), all rights reserved."
 }
+subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

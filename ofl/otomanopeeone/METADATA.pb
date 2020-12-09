@@ -15,7 +15,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/Gutenberg-Labo/Otomanopee.git"
-  commit: "21c3571eebc24b2723f94ef25dbf478c3a996047"
-}

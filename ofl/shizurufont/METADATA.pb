@@ -13,7 +13,3 @@ fonts {
   copyright: "Copyright 2020 The Shizuru Font Project Authors (https://github.com/shibuyafont/shizuru-font), all rights reserved."
 }
 subsets: "menu"
-source {
-  repository_url: "https://github.com/shibuyafont/shizuru-font.git"
-  commit: "a03af0c110a8ac65c79fdb1b67df89cd5cfffda8"
-}

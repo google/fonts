@@ -21,7 +21,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/syakuzen/DelaGothic.git"
-  commit: "c00d3aa11584648f76ce32e3f8d3993933903941"
-}

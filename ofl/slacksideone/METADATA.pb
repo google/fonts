@@ -15,7 +15,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/ManiackersDesign/slackside.git"
-  commit: "e5a03bb81c7a6c6eb9f901b993c2164213f143d4"
-}

@@ -2,7 +2,7 @@ name: "Dela Gothic One"
 designer: "aratakana"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2020-12-09"
+date_added: "2020-12-14"
 fonts {
   name: "Dela Gothic One"
   style: "normal"
@@ -12,8 +12,6 @@ fonts {
   full_name: "Dela Gothic One Regular"
   copyright: "Copyright 2020 The Dela Gothic Project Authors (https://github.com/syakuzen/DelaGothic)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"

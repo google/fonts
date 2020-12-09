@@ -13,7 +13,3 @@ fonts {
   copyright: "Copyright 2020 The Palette Mosaic Font One Project Authors (https://github.com/shibuyafont/Palette-mosaic-font-mono), all rights reserved."
 }
 subsets: "menu"
-source {
-  repository_url: "https://github.com/shibuyafont/Palette-mosaic-font-mono.git"
-  commit: "b57e21f96d2f579250a12296335bc72eac49340e"
-}

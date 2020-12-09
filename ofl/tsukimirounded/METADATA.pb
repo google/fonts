@@ -2,7 +2,7 @@ name: "Tsukimi Rounded"
 designer: "Takashi Funayama"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2020-12-09"
+date_added: "2020-12-14"
 fonts {
   name: "Tsukimi Rounded"
   style: "normal"
@@ -48,6 +48,7 @@ fonts {
   full_name: "Tsukimi Rounded Bold"
   copyright: "Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded), all rights reserved."
 }
+subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

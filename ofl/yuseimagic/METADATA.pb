@@ -2,7 +2,7 @@ name: "Yusei Magic"
 designer: "Tanukizamurai"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2020-12-08"
+date_added: "2020-12-14"
 fonts {
   name: "Yusei Magic"
   style: "normal"
@@ -12,8 +12,6 @@ fonts {
   full_name: "Yusei Magic Regular"
   copyright: "Copyright 2020 The Yusei Magic Project Authors (https://github.com/tanukifont/YuseiMagic)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"

@@ -2,7 +2,7 @@ name: "Palette Mosaic Font One"
 designer: "Shibuya Font"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2020-12-08"
+date_added: "2020-12-14"
 fonts {
   name: "Palette Mosaic Font One"
   style: "normal"
@@ -12,4 +12,6 @@ fonts {
   full_name: "Palette Mosaic Font One Regular"
   copyright: "Copyright 2020 The Palette Mosaic Font One Project Authors (https://github.com/shibuyafont/Palette-mosaic-font-mono), all rights reserved."
 }
+subsets: "japanese"
+subsets: "latin"
 subsets: "menu"

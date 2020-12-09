@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/satsuyako/CherryBomb.git"
-  commit: "9f7cce81aa78b3b13eceb86ec6282f23651350a2"
-}

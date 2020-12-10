@@ -1,5 +1,5 @@
 name: "Noto Sans Symbols 2"
-designer: "Google LLC"
+designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"

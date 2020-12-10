@@ -1,5 +1,5 @@
 name: "Noto Serif Balinese"
-designer: "Google LLC"
+designer: "Google"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-11-19"

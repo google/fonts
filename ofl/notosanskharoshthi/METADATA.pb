@@ -1,5 +1,5 @@
 name: "Noto Sans Kharoshthi"
-designer: "Google LLC"
+designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"

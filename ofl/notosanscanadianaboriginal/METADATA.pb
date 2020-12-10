@@ -1,5 +1,5 @@
 name: "Noto Sans Canadian Aboriginal"
-designer: "Google LLC"
+designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"

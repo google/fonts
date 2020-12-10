@@ -1,5 +1,5 @@
 name: "Noto Serif Ethiopic"
-designer: "Google LLC"
+designer: "Google"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-11-19"

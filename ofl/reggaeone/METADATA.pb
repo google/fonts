@@ -19,7 +19,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/Reggae.git"
-  commit: "64296711a74b77c00524d891697718eecc73be4c"
-}

@@ -16,7 +16,3 @@ subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/Train.git"
-  commit: "ca5aa2c4dd1a7b5b83909f58c8ad26616eebc4f5"
-}

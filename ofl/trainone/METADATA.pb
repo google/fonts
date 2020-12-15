@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2020 The Train Project Authors (https://github.com/fontworks-fonts/Train/)"
 }
 subsets: "cyrillic"
+subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

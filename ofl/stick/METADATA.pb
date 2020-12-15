@@ -19,7 +19,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/Stick.git"
-  commit: "2f4b840b27c35935d0a287c0e47f5e984a4db064"
-}

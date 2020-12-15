@@ -19,7 +19,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/DotGothic16.git"
-  commit: "a31d5b53faf6900125a95a7a1bea4fffe380e995"
-}

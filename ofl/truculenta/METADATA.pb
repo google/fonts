@@ -31,7 +31,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/Omnibus-Type/Truculenta"
-  commit: "ac07749ba0cdf141b5e91f83e74e6b64908aea6d"
-}

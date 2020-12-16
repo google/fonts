@@ -29,7 +29,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/Klee.git"
-  commit: "7b57d36ecd1d715e0a1c0fc7d74b1f871a2ce400"
-}

@@ -1,7 +1,7 @@
 # wdth based on https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_wdth
 tag: "wdth"
 display_name: "Width"
-min_value: 50
+min_value: 25
 max_value: 200
 default_value: 100
 precision: -1

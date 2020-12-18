@@ -48,8 +48,6 @@ fonts {
   full_name: "Shippori Mincho ExtraBold"
   copyright: "Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"

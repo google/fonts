@@ -34,7 +34,3 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/TypeNetwork/Alegreya"
-  commit: "4ac591fc21fe06ae1d99b9970d1f12c6f47a318b"
-}

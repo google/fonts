@@ -12,6 +12,7 @@ fonts {
   full_name: "Kapakana Regular"
   copyright: "Copyright 2020 The Kapakana Project Authors (https://github.com/nagamaki008/kapakana)"
 }
+subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

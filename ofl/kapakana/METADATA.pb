@@ -20,7 +20,3 @@ axes {
   min_value: 300.0
   max_value: 400.0
 }
-source {
-  repository_url: "https://github.com/nagamaki008/kapakana.git"
-  commit: "a67631c34287778228898d27a6a085bb4cbd8f83"
-}

@@ -16,7 +16,3 @@ subsets: "kannada"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/Benne.git"
-  commit: "3fed638b3bd8c6229b54d3e5007fac10645a4b53"
-}

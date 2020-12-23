@@ -25,7 +25,7 @@ jobs:
           BSTACK_ACCESS_KEY: ${{ secrets.BSTACK_ACCESS_KEY }}
           BSTACK_USERNAME: ${{ secrets.BSTACK_USERNAME }}
         run: |
-          sh .ci/run_gh.sh
+          sh .ci/run.sh
       - name: Check file existence
         id: check_files
         uses: andstor/file-existence-action@v1

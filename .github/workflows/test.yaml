@@ -24,6 +24,8 @@ jobs:
           GF_API_KEY: ${{ secrets.GF_API_KEY }}
           BSTACK_ACCESS_KEY: ${{ secrets.BSTACK_ACCESS_KEY }}
           BSTACK_USERNAME: ${{ secrets.BSTACK_USERNAME }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          PR_NUMBER: ${{ github.event.number }}
         run: |
           sh .ci/run.sh
       - name: Check file existence

@@ -6,6 +6,8 @@
 CHANGED_DIRS=$(git diff origin/master --dirstat=files --diff-filter d | sed "s/[0-9. ].*%//g" | grep -v "static")
 OUT=out
 
+PR_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/pull/$PR_NUMBER"
+echo "PR url: $PR_URL"
 
 for dir in $CHANGED_DIRS
 do
@@ -20,10 +22,10 @@ do
 	if [ -n "$modified_fonts" ]
 	then
 	    echo "Fonts have been modified. Checking fonts with all tools"
-	    gftools qa -f $dir*.ttf -gfb -a -o $OUT/$(basename $dir)_qa
+	    gftools qa -f $dir*.ttf -gfb -a -o $OUT/$(basename $dir)_qa --out-url $PR_URL
 	else
 	    echo "Fonts have not been modified. Checking fonts with Fontbakery only"
-	    gftools qa -f $dir*.ttf --fontbakery -o $OUT/$(basename $dir)_qa
+	    gftools qa -f $dir*.ttf --fontbakery -o $OUT/$(basename $dir)_qa --out-url $PR_URL
 	fi
     else
 	echo "Skipping $dir. Directory does not contain fonts"

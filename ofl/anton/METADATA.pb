@@ -10,9 +10,13 @@ fonts {
   filename: "Anton-Regular.ttf"
   post_script_name: "Anton-Regular"
   full_name: "Anton Regular"
-  copyright: "Copyright 2011 The Anton Project Authors"
+  copyright: "Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/AntonFont"
+  commit: "80d0112310690cf8257d067aae7ccc9b6790a587"
+}

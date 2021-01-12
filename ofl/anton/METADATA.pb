@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/AntonFont"
-  commit: "80d0112310690cf8257d067aae7ccc9b6790a587"
-}

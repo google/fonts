@@ -13,7 +13,5 @@ fallback {
   name: "Sloped"
   value: 100.0
 }
-description: "Detailing and terminal treatment."
-  "Modifies the slope of the sans serif stem terminals from flat to sloped"
-  "As the slop increase, different levels of acuteness can be set"
+description: "Adjust the slope angle of sans-serif stem terminals."
 

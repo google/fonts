@@ -1,5 +1,5 @@
 name: "Lexend Mega"
-designer: "Thomas Jockin"
+designer: "Bonnie Shaver-Troup, Thomas Jockin"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-08-01"

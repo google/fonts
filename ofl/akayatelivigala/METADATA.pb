@@ -16,3 +16,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/vaishnavimurthy/Akaya-Telivigala.git"
+  commit: "6b0eb7a4432a135d6aeff2dc5a44c5aa2c3e00e8"
+}

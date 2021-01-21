@@ -16,7 +16,3 @@ subsets: "kannada"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/vaishnavimurthy/Akaya-Kanadaka.git"
-  commit: "72bdbc541ee3311e0eadafc80d7f097d1d8080a9"
-}

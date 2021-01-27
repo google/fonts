@@ -1,10 +1,10 @@
 #SHARP based on https://github.com/monokromskriftforlag/geologisk/#variable-axis
 tag: "TSLO"
-display_name: "Terminal_Slope"
+display_name: "Terminal slope"
 min_value: 0.0
 default_value: 0.0
 max_value: 100.0
-precision: 1
+precision: -1
 fallback {
   name: "Flat"
   value: 0.0

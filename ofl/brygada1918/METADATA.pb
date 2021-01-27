@@ -24,7 +24,3 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/kosmynkab/Brygada-1918"
-  commit: "67ca01cf8f50ffc734ebee14a92f60c52359a8ad"
-}

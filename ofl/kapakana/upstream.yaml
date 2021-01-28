@@ -1,0 +1,8 @@
+branch: master
+files:
+  fonts/ttf/Kapakana-Light.ttf: static/Kapakana-Light.ttf
+  fonts/ttf/Kapakana-Regular.ttf: static/Kapakana-Regular.ttf
+  fonts/variable/Kapakana[wght].ttf: Kapakana[wght].ttf
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+repository_url: https://github.com/nagamaki008/kapakana.git

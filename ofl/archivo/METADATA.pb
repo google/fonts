@@ -35,7 +35,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/Omnibus-Type/Archivo"
-  commit: "555fa4a86de865637a2e5c35123ddb8972333467"
-}

@@ -30,7 +30,3 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/Omnibus-Type/Asap"
-  commit: "18c81047238c630e396728d24e6d3e62ea12d145"
-}

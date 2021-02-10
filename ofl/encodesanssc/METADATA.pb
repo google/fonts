@@ -1,7 +1,7 @@
 name: "Encode Sans SC"
 designer: "Impallari Type, Andres Torresi, Jacques Le Bailly"
 license: "OFL"
-category: "SAN_SERIF"
+category: "SANS_SERIF"
 date_added: "2020-06-24"
 fonts {
   name: "Encode Sans SC"

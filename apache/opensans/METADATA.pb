@@ -40,7 +40,3 @@ axes {
   min_value: 300.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/opensans"
-  commit: "c071e9696751f2d69925d66f3b8c581f2dc041c2"
-}

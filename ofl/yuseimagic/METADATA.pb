@@ -12,8 +12,6 @@ fonts {
   full_name: "Yusei Magic Regular"
   copyright: "Copyright 2020 The Yusei Magic Project Authors (https://github.com/tanukifont/YuseiMagic)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"

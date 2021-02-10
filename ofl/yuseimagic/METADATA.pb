@@ -18,7 +18,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/tanukifont/YuseiMagic.git"
-  commit: "360b28e0e83ed76cb8c51c57c89d239da261880e"
-}

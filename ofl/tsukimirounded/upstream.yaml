@@ -1,0 +1,10 @@
+branch: master
+files:
+  fonts/ttf/TsukimiRounded-Light.ttf: TsukimiRounded-Light.ttf
+  fonts/ttf/TsukimiRounded-Regular.ttf: TsukimiRounded-Regular.ttf
+  fonts/ttf/TsukimiRounded-Medium.ttf: TsukimiRounded-Medium.ttf
+  fonts/ttf/TsukimiRounded-SemiBold.ttf: TsukimiRounded-SemiBold.ttf
+  fonts/ttf/TsukimiRounded-Bold.ttf: TsukimiRounded-Bold.ttf
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+repository_url: https://github.com/mt-funa/Tsukimi-Rounded.git

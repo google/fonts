@@ -1,5 +1,5 @@
-designer: "Binoy Dominic"
-link: "https://binoydominic.com/"
+designer: "SMC"
+link: "https://smc.org.in/"
 avatar: {
-  file_name: "binoy_dominic.png"
+  file_name: "smc.png"
 }

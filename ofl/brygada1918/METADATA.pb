@@ -12,6 +12,15 @@ fonts {
   full_name: "Brygada 1918 Regular"
   copyright: "Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)"
 }
+fonts {
+  name: "Brygada 1918"
+  style: "italic"
+  weight: 400
+  filename: "Brygada1918-Italic[wght].ttf"
+  post_script_name: "Brygada1918-Italic"
+  full_name: "Brygada 1918 Italic"
+  copyright: "Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)"
+}
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
@@ -23,4 +32,8 @@ axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/kosmynkab/Brygada-1918"
+  commit: "b3cc8b29bbe616469cc010fcf07db83978f807c3"
 }

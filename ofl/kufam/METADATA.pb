@@ -1,5 +1,5 @@
 name: "Kufam"
-designer: "Waël Morcos, Artur Schmal"
+designer: "Original Type, Wael Morcos, Artur Schmal"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2020-07-14"

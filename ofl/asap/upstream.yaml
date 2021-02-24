@@ -1,0 +1,14 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  fonts/variable/Asap[wght].ttf: Asap[wght].ttf
+  fonts/variable/Asap-Italic[wght].ttf: Asap-Italic[wght].ttf
+  fonts/ttf/Asap-Bold.ttf: static/Asap-Bold.ttf
+  fonts/ttf/Asap-BoldItalic.ttf: static/Asap-BoldItalic.ttf
+  fonts/ttf/Asap-Italic.ttf: static/Asap-Italic.ttf
+  fonts/ttf/Asap-Medium.ttf: static/Asap-Medium.ttf
+  fonts/ttf/Asap-MediumItalic.ttf: static/Asap-MediumItalic.ttf
+  fonts/ttf/Asap-Regular.ttf: static/Asap-Regular.ttf
+  fonts/ttf/Asap-SemiBold.ttf: static/Asap-SemiBold.ttf
+  fonts/ttf/Asap-SemiBoldItalic.ttf: static/Asap-SemiBoldItalic.ttf
+repository_url: https://github.com/Omnibus-Type/Asap

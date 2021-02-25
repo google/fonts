@@ -17,7 +17,3 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/JapanYoshi/Orelega.git"
-  commit: "6507c269bf40d601e89c57f9b92758522bfd8521"
-}

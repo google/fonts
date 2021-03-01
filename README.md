@@ -26,7 +26,7 @@ One popular service is [Fontsource](https://github.com/fontsource/fontsource), w
 
 ## Download All Google Fonts
 
-You can download all Google Fonts in a simple ZIP snapshot (over 300MB) from <https://github.com/google/fonts/archive/master.zip>
+You can download all Google Fonts in a simple ZIP snapshot (over 600MB) from <https://github.com/google/fonts/archive/main.zip>
 
 #### Sync With Git
 

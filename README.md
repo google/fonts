@@ -56,4 +56,4 @@ When customizing or remixing fonts, please do contact the designers to understan
 
 Most of all: Enjoy the fonts!
 
-– The Google Fonts team, 2015-06-18
+– The Google Fonts team

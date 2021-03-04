@@ -1,0 +1,16 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  documentation/Rasa-DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/RasaVariable/RasaVF-Ups.ttf: Rasa[wght].ttf
+  fonts/RasaVariable/RasaVF-Its.ttf: Rasa-Italic[wght].ttf
+  fonts/Rasa/Rasa-Light.ttf: static/Rasa-Light.ttf
+  fonts/Rasa/Rasa-Regular.ttf: static/Rasa-Regular.ttf
+  fonts/Rasa/Rasa-Medium.ttf: static/Rasa-Medium.ttf
+  fonts/Rasa/Rasa-SemiBold.ttf: static/Rasa-SemiBold.ttf
+  fonts/Rasa/Rasa-Bold.ttf: static/Rasa-Bold.ttf
+  fonts/Rasa/Rasa-LightItalic.ttf: static/Rasa-LightItalic.ttf
+  fonts/Rasa/Rasa-Italic.ttf: static/Rasa-Italic.ttf
+  fonts/Rasa/Rasa-MediumItalic.ttf: static/Rasa-MediumItalic.ttf
+  fonts/Rasa/Rasa-SemiBoldItalic.ttf: static/Rasa-SemiBoldItalic.ttf
+  fonts/Rasa/Rasa-BoldItalic.ttf: static/Rasa-BoldItalic.ttf

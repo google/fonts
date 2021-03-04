@@ -1,0 +1,12 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  fonts/ttf/Oxanium-Bold.ttf: static/Oxanium-Bold.ttf
+  fonts/ttf/Oxanium-ExtraBold.ttf: static/Oxanium-ExtraBold.ttf
+  fonts/ttf/Oxanium-ExtraLight.ttf: static/Oxanium-ExtraLight.ttf
+  fonts/ttf/Oxanium-Light.ttf: static/Oxanium-Light.ttf
+  fonts/ttf/Oxanium-Medium.ttf: static/Oxanium-Medium.ttf
+  fonts/ttf/Oxanium-Regular.ttf: static/Oxanium-Regular.ttf
+  fonts/ttf/Oxanium-SemiBold.ttf: static/Oxanium-SemiBold.ttf
+  fonts/variable/Oxanium[wght].ttf: Oxanium[wght].ttf
+repository_url: https://github.com/sevmeyer/oxanium

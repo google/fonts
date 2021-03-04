@@ -1,0 +1,19 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/TTF/Nunito-Black.ttf: Nunito-Black.ttf
+  fonts/TTF/Nunito-BlackItalic.ttf: Nunito-BlackItalic.ttf
+  fonts/TTF/Nunito-Bold.ttf: Nunito-Bold.ttf
+  fonts/TTF/Nunito-BoldItalic.ttf: Nunito-BoldItalic.ttf
+  fonts/TTF/Nunito-ExtraBold.ttf: Nunito-ExtraBold.ttf
+  fonts/TTF/Nunito-ExtraBoldItalic.ttf: Nunito-ExtraBoldItalic.ttf
+  fonts/TTF/Nunito-ExtraLight.ttf: Nunito-ExtraLight.ttf
+  fonts/TTF/Nunito-ExtraLightItalic.ttf: Nunito-ExtraLightItalic.ttf
+  fonts/TTF/Nunito-Italic.ttf: Nunito-Italic.ttf
+  fonts/TTF/Nunito-Light.ttf: Nunito-Light.ttf
+  fonts/TTF/Nunito-LightItalic.ttf: Nunito-LightItalic.ttf
+  fonts/TTF/Nunito-Regular.ttf: Nunito-Regular.ttf
+  fonts/TTF/Nunito-SemiBold.ttf: Nunito-SemiBold.ttf
+  fonts/TTF/Nunito-SemiBoldItalic.ttf: Nunito-SemiBoldItalic.ttf
+repository_url: https://github.com/googlefonts/nunito.git

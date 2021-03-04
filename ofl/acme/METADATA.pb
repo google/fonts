@@ -1,5 +1,5 @@
 name: "Acme"
-designer: "Huerta Tipográfica"
+designer: "Juan Pablo del Peral, Huerta Tipográfica"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-19"

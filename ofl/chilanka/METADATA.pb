@@ -1,5 +1,5 @@
 name: "Chilanka"
-designer: "SMC"
+designer: "Santhosh Thottingal"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2019-06-10"
@@ -13,5 +13,6 @@ fonts {
   copyright: "Copyright 2019 The Chilanka Project Authors (https://gitlab.com/smc/fonts/chilanka)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "malayalam"
 subsets: "menu"

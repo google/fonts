@@ -1,5 +1,5 @@
 name: "Baskervville"
-designer: "ANRT (Atelier National de Recherche typographique)"
+designer: "ANRT"
 license: "OFL"
 category: "SERIF"
 date_added: "2019-10-04"

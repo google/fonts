@@ -10,7 +10,7 @@ fonts {
   filename: "Anton-Regular.ttf"
   post_script_name: "Anton-Regular"
   full_name: "Anton Regular"
-  copyright: "Copyright 2011 The Anton Project Authors"
+  copyright: "Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)"
 }
 subsets: "latin"
 subsets: "latin-ext"

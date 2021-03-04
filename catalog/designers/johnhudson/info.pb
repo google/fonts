@@ -1,5 +1,5 @@
 designer: "John Hudson"
-link: "https://plus.google.com"
+link: "https://www.tiro.com/"
 avatar: {
-  file_name: "john_hudson.png"
+  file_name: "johnhudson.png"
 }

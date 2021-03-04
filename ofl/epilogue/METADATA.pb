@@ -1,5 +1,5 @@
 name: "Epilogue"
-designer: "Tyler Finck"
+designer: "Tyler Finck, ETC"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-06-26"

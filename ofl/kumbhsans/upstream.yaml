@@ -1,0 +1,39 @@
+# Please edit this upstream configuration for the family accordingly.
+# This is a yaml formatted file.
+# An "#" (number sign) denotes a comment.
+# For more help see the docs at:
+# https://github.com/googlefonts/gf-docs/tree/master/METADATA
+
+# Full family name, with initial upper cases and spaces
+name: Kumbh Sans
+
+# In most cases this should be based on the GitHub https repo url:
+# this https://github.com/{owner}/{repo}.git
+repository_url: https://github.com/xconsau/KumbhSans.git
+
+# The branch name used to update google fonts. e.g.: master
+branch: master
+
+# Choose one of: DISPLAY, SERIF, SANS_SERIF, SANS_SERIF, HANDWRITING, MONOSPACE
+category: SANS_SERIF
+
+# Full name of the type designer(s) or foundry who designed the fonts.
+designer: Saurabh Sharma
+
+# Dictionary mapping of SOURCE file names to TARGET file names. Where
+# SOURCE is the file path in the upstream repo and TARGET is the file
+# path in the google fonts family directory.
+# Accepted and expected files:
+#     - The font files, ending with ".ttf"
+#     - In case of a variable font, static instances in: static/Family-instance.ttf
+#     - DESCRIPTION.en_us.html
+#     - OFL.txt, the license.  Less likely UFL.txt and LICENSE.txt.
+#     - (optional) FONTLOG.txt
+files:
+  # These are some examples as comments, please modify, add, delete as necessary:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  FONTLOG.txt: FONTLOG.txt
+  fonts/ttf/KumbhSans-Regular.ttf: KumbhSans-Regular.ttf
+  fonts/ttf/KumbhSans-Bold.ttf: KumbhSans-Bold.ttf
+  fonts/ttf/KumbhSans-Light.ttf: KumbhSans-Light.ttf

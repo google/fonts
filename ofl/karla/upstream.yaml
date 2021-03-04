@@ -1,0 +1,13 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/ttf/Karla-Italic[wght].ttf: Karla-Italic[wght].ttf
+  fonts/ttf/Karla[wght].ttf: Karla[wght].ttf
+  fonts/ttf/static/Karla-ExtraLight.ttf: static/Karla-ExtraLight.ttf
+  fonts/ttf/static/Karla-Light.ttf: static/Karla-Light.ttf
+  fonts/ttf/static/Karla-Regular.ttf: static/Karla-Regular.ttf
+  fonts/ttf/static/Karla-Medium.ttf: static/Karla-Medium.ttf
+  fonts/ttf/static/Karla-Bold.ttf: static/Karla-Bold.ttf
+  fonts/ttf/static/Karla-ExtraBold.ttf: static/Karla-ExtraBold.ttf
+repository_url: https://github.com/googlefonts/karla.git

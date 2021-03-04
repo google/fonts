@@ -1,0 +1,85 @@
+# Please edit this upstream configuration for the family accordingly.
+# This is a yaml formatted file.
+# An "#" (number sign) denotes a comment.
+# For more help see the docs at:
+# https://github.com/googlefonts/gf-docs/tree/master/METADATA
+
+# Full family name, with initial upper cases and spaces
+name: Literata
+
+# In most cases this should be based on the GitHub https repo url:
+# this https://github.com/{{owner}}/{{repo}}.git
+repository_url: https://github.com/googlefonts/literata
+
+# The branch name used to update google fonts. e.g.: master
+branch: release
+
+# Choose one of: {', '.join(CATEGORIES)}
+category: SERIF
+
+# Full name of the type designer(s) or foundry who designed the fonts.
+designer: TypeTogether
+
+# Dictionary mapping of SOURCE file names to TARGET file names. Where
+# SOURCE is the file path in the upstream repo and TARGET is the file
+# path in the google fonts family directory.
+# Accepted and expected files:
+#     - The font files, ending with ".ttf"
+#     - In case of a variable font, static instances in: static/Family-instance.ttf
+#     - DESCRIPTION.en_us.html
+#     - OFL.txt, the license.  Less likely UFL.txt and LICENSE.txt.
+#     - (optional) FONTLOG.txt
+files:
+  # These are some examples as comments, please modify, add, delete as necessary:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/variable/Literata[opsz,wght].ttf: Literata[opsz,wght].ttf
+  fonts/variable/Literata-Italic[opsz,wght].ttf: Literata-Italic[opsz,wght].ttf
+  fonts/static/ttf/Literata12pt-Bold.ttf: static/Literata12pt-Bold.ttf
+  fonts/static/ttf/Literata12pt-BoldItalic.ttf: static/Literata12pt-BoldItalic.ttf
+  fonts/static/ttf/Literata12pt-ExtraBold.ttf: static/Literata12pt-ExtraBold.ttf
+  fonts/static/ttf/Literata12pt-ExtraBoldItalic.ttf: static/Literata12pt-ExtraBoldItalic.ttf
+  fonts/static/ttf/Literata12pt-Italic.ttf: static/Literata12pt-Italic.ttf
+  fonts/static/ttf/Literata12pt-Light.ttf: static/Literata12pt-Light.ttf
+  fonts/static/ttf/Literata12pt-LightItalic.ttf: static/Literata12pt-LightItalic.ttf
+  fonts/static/ttf/Literata12pt-Medium.ttf: static/Literata12pt-Medium.ttf
+  fonts/static/ttf/Literata12pt-MediumItalic.ttf: static/Literata12pt-MediumItalic.ttf
+  fonts/static/ttf/Literata12pt-Regular.ttf: static/Literata12pt-Regular.ttf
+  fonts/static/ttf/Literata12pt-SemiBold.ttf: static/Literata12pt-SemiBold.ttf
+  fonts/static/ttf/Literata12pt-SemiBoldItalic.ttf: static/Literata12pt-SemiBoldItalic.ttf
+  fonts/static/ttf/Literata36pt-Bold.ttf: static/Literata36pt-Bold.ttf
+  fonts/static/ttf/Literata36pt-BoldItalic.ttf: static/Literata36pt-BoldItalic.ttf
+  fonts/static/ttf/Literata36pt-ExtraBold.ttf: static/Literata36pt-ExtraBold.ttf
+  fonts/static/ttf/Literata36pt-ExtraBoldItalic.ttf: static/Literata36pt-ExtraBoldItalic.ttf
+  fonts/static/ttf/Literata36pt-Italic.ttf: static/Literata36pt-Italic.ttf
+  fonts/static/ttf/Literata36pt-Light.ttf: static/Literata36pt-Light.ttf
+  fonts/static/ttf/Literata36pt-LightItalic.ttf: static/Literata36pt-LightItalic.ttf
+  fonts/static/ttf/Literata36pt-Medium.ttf: static/Literata36pt-Medium.ttf
+  fonts/static/ttf/Literata36pt-MediumItalic.ttf: static/Literata36pt-MediumItalic.ttf
+  fonts/static/ttf/Literata36pt-Regular.ttf: static/Literata36pt-Regular.ttf
+  fonts/static/ttf/Literata36pt-SemiBold.ttf: static/Literata36pt-SemiBold.ttf
+  fonts/static/ttf/Literata36pt-SemiBoldItalic.ttf: static/Literata36pt-SemiBoldItalic.ttf
+  fonts/static/ttf/Literata72pt-Black.ttf: static/Literata72pt-Black.ttf
+  fonts/static/ttf/Literata72pt-BlackItalic.ttf: static/Literata72pt-BlackItalic.ttf
+  fonts/static/ttf/Literata72pt-Bold.ttf: static/Literata72pt-Bold.ttf
+  fonts/static/ttf/Literata72pt-BoldItalic.ttf: static/Literata72pt-BoldItalic.ttf
+  fonts/static/ttf/Literata72pt-ExtraBold.ttf: static/Literata72pt-ExtraBold.ttf
+  fonts/static/ttf/Literata72pt-ExtraBoldItalic.ttf: static/Literata72pt-ExtraBoldItalic.ttf
+  fonts/static/ttf/Literata72pt-ExtraLight.ttf: static/Literata72pt-ExtraLight.ttf
+  fonts/static/ttf/Literata72pt-ExtraLightItalic.ttf: static/Literata72pt-ExtraLightItalic.ttf
+  fonts/static/ttf/Literata72pt-Italic.ttf: static/Literata72pt-Italic.ttf
+  fonts/static/ttf/Literata72pt-Light.ttf: static/Literata72pt-Light.ttf
+  fonts/static/ttf/Literata72pt-LightItalic.ttf: static/Literata72pt-LightItalic.ttf
+  fonts/static/ttf/Literata72pt-Medium.ttf: static/Literata72pt-Medium.ttf
+  fonts/static/ttf/Literata72pt-MediumItalic.ttf: static/Literata72pt-MediumItalic.ttf
+  fonts/static/ttf/Literata72pt-Regular.ttf: static/Literata72pt-Regular.ttf
+  fonts/static/ttf/Literata72pt-SemiBold.ttf: static/Literata72pt-SemiBold.ttf
+  fonts/static/ttf/Literata72pt-SemiBoldItalic.ttf: static/Literata72pt-SemiBoldItalic.ttf
+  fonts/static/ttf/Literata7pt-Bold.ttf: static/Literata7pt-Bold.ttf
+  fonts/static/ttf/Literata7pt-BoldItalic.ttf: static/Literata7pt-BoldItalic.ttf
+  fonts/static/ttf/Literata7pt-Italic.ttf: static/Literata7pt-Italic.ttf
+  fonts/static/ttf/Literata7pt-Medium.ttf: static/Literata7pt-Medium.ttf
+  fonts/static/ttf/Literata7pt-MediumItalic.ttf: static/Literata7pt-MediumItalic.ttf
+  fonts/static/ttf/Literata7pt-Regular.ttf: static/Literata7pt-Regular.ttf
+  fonts/static/ttf/Literata7pt-SemiBold.ttf: static/Literata7pt-SemiBold.ttf
+  fonts/static/ttf/Literata7pt-SemiBoldItalic.ttf: static/Literata7pt-SemiBoldItalic.ttf

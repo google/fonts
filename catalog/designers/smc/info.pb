@@ -1,2 +1,5 @@
 designer: "SMC"
-link: "https://plus.google.com/+SmcOrgIn/about"
+link: "https://smc.org.in/"
+avatar: {
+  file_name: "smc.png"
+}

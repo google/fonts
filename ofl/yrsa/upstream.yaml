@@ -1,0 +1,16 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  documentation/Yrsa-DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/YrsaVariable/YrsaVF-Ups.ttf: Yrsa[wght].ttf
+  fonts/YrsaVariable/YrsaVF-Its.ttf: Yrsa-Italic[wght].ttf
+  fonts/Yrsa/Yrsa-Light.ttf: static/Yrsa-Light.ttf
+  fonts/Yrsa/Yrsa-Regular.ttf: static/Yrsa-Regular.ttf
+  fonts/Yrsa/Yrsa-Medium.ttf: static/Yrsa-Medium.ttf
+  fonts/Yrsa/Yrsa-SemiBold.ttf: static/Yrsa-SemiBold.ttf
+  fonts/Yrsa/Yrsa-Bold.ttf: static/Yrsa-Bold.ttf
+  fonts/Yrsa/Yrsa-LightItalic.ttf: static/Yrsa-LightItalic.ttf
+  fonts/Yrsa/Yrsa-Italic.ttf: static/Yrsa-Italic.ttf
+  fonts/Yrsa/Yrsa-MediumItalic.ttf: static/Yrsa-MediumItalic.ttf
+  fonts/Yrsa/Yrsa-SemiBoldItalic.ttf: static/Yrsa-SemiBoldItalic.ttf
+  fonts/Yrsa/Yrsa-BoldItalic.ttf: static/Yrsa-BoldItalic.ttf

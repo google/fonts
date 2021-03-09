@@ -70,7 +70,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/FontBureau/fb-lexend/"
-  commit: "4e41bf952eb61d4a17d2ec190a43437714f0f144"
-}

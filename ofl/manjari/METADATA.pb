@@ -34,7 +34,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "malayalam"
 subsets: "menu"
-source {
-  repository_url: "https://gitlab.com/smc/fonts/manjari.git"
-  commit: "daba7c592ea3d51358c2c1368bb9d09c8a6e2c37"
-}

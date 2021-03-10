@@ -1,5 +1,5 @@
 name: "Lexend"
-designer: "Bonnie Shaver-Troup, Thomas Jockin"
+designer: "Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-03-09"

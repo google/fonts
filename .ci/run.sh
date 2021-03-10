@@ -3,7 +3,7 @@
 
 # Find directories which contain files that have been altered or added. Also
 # Skip /static directories.
-CHANGED_DIRS=$(git diff origin/master --dirstat=files --diff-filter d | sed "s/[0-9. ].*%//g" | grep -v "static")
+CHANGED_DIRS=$(git diff origin/main --dirstat=files --diff-filter d | sed "s/[0-9. ].*%//g" | grep -v "static")
 OUT=out
 
 PR_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/pull/$PR_NUMBER"
@@ -18,7 +18,7 @@ do
 	mkdir -p $OUT
 	# If pr contains modified fonts, check with Fontbakery, Diffenator and DiffBrowsers.
 	# If pr doesn't contain modified fonts, just check with Fontbakery.
-	modified_fonts=$(git diff --name-only origin/master HEAD $dir*.ttf)
+	modified_fonts=$(git diff --name-only origin/main HEAD $dir*.ttf)
 	if [ -n "$modified_fonts" ]
 	then
 	    echo "Fonts have been modified. Checking fonts with all tools"

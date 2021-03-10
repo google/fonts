@@ -24,7 +24,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/zen-loop"
-  commit: "ed607f9dcdbfd1b721fb5ad6071f8dfad8ab8117"
-}

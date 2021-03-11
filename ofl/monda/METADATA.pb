@@ -10,7 +10,7 @@ fonts {
   filename: "Monda-Regular.ttf"
   post_script_name: "Monda-Regular"
   full_name: "Monda Regular"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Monda'"
+  copyright: "Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)"
 }
 fonts {
   name: "Monda"
@@ -19,8 +19,13 @@ fonts {
   filename: "Monda-Bold.ttf"
   post_script_name: "Monda-Bold"
   full_name: "Monda Bold"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Monda'"
+  copyright: "Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/mondaFont"
+  commit: "1963ffcf91f712ec9d4575e301f068c3a499e3ee"
+}

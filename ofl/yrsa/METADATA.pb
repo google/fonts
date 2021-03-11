@@ -2,7 +2,7 @@ name: "Yrsa"
 designer: "Rosetta, Anna Giedryś, David Březina"
 license: "OFL"
 category: "SERIF"
-date_added: "2021-03-04"
+date_added: "2016-06-20"
 fonts {
   name: "Yrsa"
   style: "normal"

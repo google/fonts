@@ -25,7 +25,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/mondaFont"
-  commit: "1963ffcf91f712ec9d4575e301f068c3a499e3ee"
-}

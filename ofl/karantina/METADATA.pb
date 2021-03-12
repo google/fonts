@@ -34,7 +34,3 @@ subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/ronykoch/Karantina.git"
-  commit: "07efbd7a5c999427745bc046eb15aeb529f6a865"
-}

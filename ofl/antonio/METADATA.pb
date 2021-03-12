@@ -20,7 +20,3 @@ axes {
   min_value: 100.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/antonioFont"
-  commit: "08562998b10c6c21a3505f47236b42f5d58c9909"
-}

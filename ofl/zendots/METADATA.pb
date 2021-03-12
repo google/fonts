@@ -15,7 +15,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/zen-dots"
-  commit: "aa0a34abc0b8ed1c50bfabafc3ce0531be020e56"
-}

@@ -1,5 +1,5 @@
 name: "Arima Madurai"
-designer: "Multiple Designers"
+designer: "Natanael Gama, Joana Correia"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-08-22"

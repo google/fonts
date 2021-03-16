@@ -7,6 +7,10 @@ default_value: 100
 precision: -1
 # Instance values based on https://docs.microsoft.com/en-us/typography/opentype/spec/os2#uswidthclass
 fallback {
+  name: "Super Condensed"
+  value: 25
+}
+fallback {
   name: "Ultra Condensed"
   value: 50
 }

@@ -1,5 +1,5 @@
 name: "Amita"
-designer: "Multiple Designers"
+designer: "Eduardo Tunni, Brian Bonislawsky"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2015-05-20"

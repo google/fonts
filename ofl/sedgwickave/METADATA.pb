@@ -1,5 +1,5 @@
 name: "Sedgwick Ave"
-designer: "Multiple Designers"
+designer: "Pedro Vergani, Kevin Burke"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2017-08-01"

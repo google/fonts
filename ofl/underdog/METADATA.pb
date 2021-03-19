@@ -1,5 +1,5 @@
 name: "Underdog"
-designer: "Multiple Designers"
+designer: "Sergey Steblina, Jovanny Lemonad"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-09-23"

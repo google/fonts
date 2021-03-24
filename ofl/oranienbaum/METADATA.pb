@@ -1,5 +1,5 @@
 name: "Oranienbaum"
-designer: "Multiple Designers"
+designer: "Oleg Pospelov, Jovanny Lemonad"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-08-20"

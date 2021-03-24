@@ -1,5 +1,5 @@
 name: "Prosto One"
-designer: "Multiple Designers"
+designer: "Jovanny Lemonad, Pavel Emelyanov"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-29"

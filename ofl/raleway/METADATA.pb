@@ -1,5 +1,5 @@
 name: "Raleway"
-designer: "Multiple Designers"
+designer: "Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-09-07"

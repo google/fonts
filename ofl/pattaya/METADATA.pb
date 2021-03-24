@@ -1,5 +1,5 @@
 name: "Pattaya"
-designer: "Multiple Designers"
+designer: "Cadson Demak"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"

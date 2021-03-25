@@ -1,5 +1,5 @@
 designer: "Ross Mills"
-link: "https://www.tiro.com/"
+link: " "
 avatar: {
   file_name: "ross_mills.png"
 }

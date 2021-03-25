@@ -1,5 +1,5 @@
 designer: "Rob Leuschke"
-link: "http://www.typesetit.com/"
+link: " "
 avatar: {
   file_name: "rob_leuschke.png"
 }

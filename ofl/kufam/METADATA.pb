@@ -31,7 +31,3 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/originaltype/kufam"
-  commit: "a2c0c9552f98295167bc33bdb9c6256dd6abdc8a"
-}

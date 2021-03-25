@@ -1,7 +1,7 @@
 name: "Kufam"
 designer: "Original Type, Wael Morcos, Artur Schmal"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2020-07-14"
 fonts {
   name: "Kufam"
@@ -30,4 +30,8 @@ axes {
   tag: "wght"
   min_value: 400.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/originaltype/kufam"
+  commit: "a2c0c9552f98295167bc33bdb9c6256dd6abdc8a"
 }

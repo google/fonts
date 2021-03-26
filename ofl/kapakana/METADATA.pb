@@ -1,5 +1,5 @@
 name: "Kapakana"
-designer: "Kyosuke Nagai"
+designer: "Kousuke Nagai"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2020-12-21"

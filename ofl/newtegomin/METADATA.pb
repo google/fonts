@@ -1,5 +1,5 @@
 name: "New Tegomin"
-designer: "Kyosuke Nagai"
+designer: "Kousuke Nagai"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-12-14"

@@ -1,7 +1,7 @@
 name: "Kufam"
 designer: "Original Type, Wael Morcos, Artur Schmal"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2020-07-14"
 fonts {
   name: "Kufam"

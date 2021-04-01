@@ -12,6 +12,7 @@ echo "PR url: $PR_URL"
 for dir in $CHANGED_DIRS
 do
     font_count=$(ls -1 $dir*.ttf 2>/dev/null | wc -l)
+    is_designer_dir=$(echo $dir | grep "designers")
     if [ $font_count != 0 ]
     then
 	echo "Checking $dir"
@@ -27,6 +28,10 @@ do
 	    echo "Fonts have not been modified. Checking fonts with Fontbakery only"
 	    gftools qa -f $dir*.ttf --fontbakery -o $OUT/$(basename $dir)_qa --out-url $PR_URL
 	fi
+    elif [ ! -z $is_designer_dir ]
+    then
+        echo "Checking designer profile"
+        pytest .ci/test_profiles.py $dir
     else
 	echo "Skipping $dir. Directory does not contain fonts"
     fi

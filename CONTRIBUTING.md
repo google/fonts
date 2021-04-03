@@ -17,7 +17,7 @@ If you would like to include a new font family in the Google Fonts collection, w
 * All binary font files must be available in TTF format, and should have hinting (such as with [ttfautohint](http://www.freetype.org/ttfautohint/)).
 * All font files must be built with a scripted build process, and should use [fontmake](https://github.com/googlefonts/fontmake)
 * All font files should support the "Google Fonts 2016 Plus" glyph set. (Learn more about the Google Fonts 2016 glyph sets in the [gftools](https://github.com/googlefonts/gftools/blob/master/Lib/gftools/encodings/GF%20Glyph%20Sets/README.md) project.)
-* All font files within the family must have the same Unicode character set (unencoded glyphs can differ)  
+* All font files within the family must have the same Unicode character set (unencoded glyphs can differ) and corresponding upper/lower case pairs  
 * All font files should pass the [Font Bakery](https://github.com/googlefonts/fontbakery) checks for the `google-fonts` profile.
 * A `README.md` file must be included in the root of the source repository, and inside of that file we can read about the project with the kind of information suggested by SIL in their [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#43cecb44) recommendation (but no FONTLOG file itself is needed.)
 * A direct `DESCRIPTION.en_us.html` file, a `profile.txt` and a `your-name.jpg` avatar image, should be available to be copied into this repo ([example](https://github.com/google/fonts/blob/master/ofl/poppins/DESCRIPTION.en_us.html)) so that the fonts.google.com catalog can credit your project.  

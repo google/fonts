@@ -42,7 +42,3 @@ axes {
   min_value: 300.0
   max_value: 1000.0
 }
-source {
-  repository_url: "https://github.com/arrowtype/recursive"
-  commit: "6db52f2b78ed9404496a1de7a39e8b3b7dbfaf3f"
-}

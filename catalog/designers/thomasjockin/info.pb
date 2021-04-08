@@ -1,5 +1,5 @@
 designer: "Thomas Jockin"
-link: ""
+link: "http://thomasjockin.com"
 avatar: {
   file_name: "thomas_jockin.png"
 }

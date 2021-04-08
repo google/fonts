@@ -1,5 +1,5 @@
 designer: "Ross Mills"
-link: " "
+link: ""
 avatar: {
   file_name: "ross_mills.png"
 }

@@ -1,5 +1,5 @@
 designer: "Rob Leuschke"
-link: " "
+link: ""
 avatar: {
   file_name: "rob_leuschke.png"
 }

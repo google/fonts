@@ -12,4 +12,6 @@ fonts {
   full_name: "Shizuru Regular"
   copyright: "Copyright 2020 The Shizuru Project Authors (https://github.com/shibuyafont/shizuru-font), all rights reserved."
 }
+subsets: "japanese"
+subsets: "latin"
 subsets: "menu"

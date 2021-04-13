@@ -1,15 +1,15 @@
-name: "Shizuru Font"
+name: "Shizuru"
 designer: "Shibuya Font"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2020-12-08"
 fonts {
-  name: "Shizuru Font"
+  name: "Shizuru"
   style: "normal"
   weight: 400
-  filename: "ShizuruFont-Regular.ttf"
-  post_script_name: "ShizuruFont-Regular"
-  full_name: "Shizuru Font Regular"
-  copyright: "Copyright 2020 The Shizuru Font Project Authors (https://github.com/shibuyafont/shizuru-font), all rights reserved."
+  filename: "Shizuru-Regular.ttf"
+  post_script_name: "Shizuru-Regular"
+  full_name: "Shizuru Regular"
+  copyright: "Copyright 2020 The Shizuru Project Authors (https://github.com/shibuyafont/shizuru-font), all rights reserved."
 }
 subsets: "menu"

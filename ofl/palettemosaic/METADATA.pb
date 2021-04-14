@@ -12,6 +12,8 @@ fonts {
   full_name: "Palette Mosaic Regular"
   copyright: "Copyright 2020 The Palette Mosaic Project Authors (https://github.com/shibuyafont/Palette-mosaic-font-mono), all rights reserved."
 }
+subsets: "japanese"
+subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/shibuyafont/Palette-mosaic-font-mono.git"

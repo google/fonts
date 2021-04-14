@@ -85,7 +85,7 @@ Here is a list of 3rd party directories:
 * <http://www.localfont.com>
 * <http://brandmark.io/font-generator>
 * <http://archetypeapp.com>
-* <https://getflourish.github.io/anatomy-of-typefaces>
+* <https://useratio.com/the-anatomy-of-a-thousand-typefaces>
 * <https://tyffle.ml>
 * <https://lepovirta.github.io/Typographer> 
 * <https://lepovirta.github.io/Typographer-React>

@@ -2,7 +2,7 @@ name: "Mochiy Pop One"
 designer: "FONTDASU"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2021-02-04"
+date_added: "2021-04-14"
 fonts {
   name: "Mochiy Pop One"
   style: "normal"
@@ -12,10 +12,12 @@ fonts {
   full_name: "Mochiy Pop One Regular"
   copyright: "Copyright 2020 The MochiyPop Project Authors (https://github.com/fontdasu/Mochiypop)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontdasu/Mochiypop.git"
-  commit: "2c240f5bc8a60bc73979beaed13684d911abe93c"
+  commit: "9641b84721cc06c4765b4ba2d8de690d50c411db"
 }

@@ -12,15 +12,9 @@ fonts {
   full_name: "Hina Mincho Regular"
   copyright: "Copyright 2020 The Hina Mincho Project Authors (https://github.com/satsuyako/Hina-Mincho)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/satsuyako/Hina-Mincho.git"
-  commit: "f159a133f9aa8bdbc2f610bef25f0408f3b6ec76"
-}

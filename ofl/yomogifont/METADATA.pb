@@ -1,16 +1,16 @@
-name: "YomogiFont"
+name: "Yomogi"
 designer: "Satsuyako"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2020-12-14"
 fonts {
-  name: "YomogiFont"
+  name: "Yomogi"
   style: "normal"
   weight: 400
-  filename: "YomogiFont-Regular.ttf"
-  post_script_name: "YomogiFont-Regular"
-  full_name: "YomogiFont Regular"
-  copyright: "Copyright 2020 The Yomogi Font Project Authors (https://github.com/satsuyako/YomogiFont), all rights reserved."
+  filename: "Yomogi-Regular.ttf"
+  post_script_name: "Yomogi-Regular"
+  full_name: "Yomogi Regular"
+  copyright: "Copyright 2020 The Yomogi Project Authors (https://github.com/satsuyako/YomogiFont), all rights reserved."
 }
 subsets: "cyrillic"
 subsets: "japanese"

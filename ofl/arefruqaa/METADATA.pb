@@ -10,7 +10,7 @@ fonts {
   filename: "ArefRuqaa-Regular.ttf"
   post_script_name: "ArefRuqaa-Regular"
   full_name: "Aref Ruqaa Regular"
-  copyright: "Copyright 2015-2020 The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
+  copyright: "Copyright 2015-2021 The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
 }
 fonts {
   name: "Aref Ruqaa"
@@ -19,9 +19,9 @@ fonts {
   filename: "ArefRuqaa-Bold.ttf"
   post_script_name: "ArefRuqaa-Bold"
   full_name: "Aref Ruqaa Bold"
-  copyright: "Copyright 2015-2020 The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
+  copyright: "Copyright 2015-2021 The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "arabic"
 subsets: "menu"

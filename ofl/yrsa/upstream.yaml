@@ -1,0 +1,7 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  documentation/Yrsa-DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/YrsaVariable/YrsaVF-Ups.ttf: Yrsa[wght].ttf
+  fonts/YrsaVariable/YrsaVF-Its.ttf: Yrsa-Italic[wght].ttf
+repository_url: https://github.com/rosettatype/yrsa-rasa.git

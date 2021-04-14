@@ -14,9 +14,9 @@ The contents of the wiki are now available here:
 
 ## Duplicated fonts
 
-From time to time, families have been renamed or updated a way that the existing styles had to change substantially.
-Until April 2020, the initial family was retained, creating similarly-named pairs of directories and often duplicate/redundant, files.
-The initial families are kept in the API, so that people already using them can continue to do so. 
+From time to time, families have been renamed or updated in a way that the existing styles had to change substantially.
+Until April 2020, the initial family was retained, creating similarly named pairs of directories and often duplicate/redundant, files.
+The initial families are kept in the API so that people already using them can continue to do so. 
 They are no longer listed in the [fonts.google.com](https://fonts.google.com) catalog, or in the HEAD of the master branch, but the files exist still exist in the commit history.
 
 | Initial Family           | Current Family           | Category |
@@ -44,7 +44,7 @@ Fonts in Early Access do not have METADATA.pb files.
 
 ## .pb vs .textproto 
 
-While `.textproto` is now the canonical extension for protobuffers text files, we have hundreds of `METADATA` files with the `.pb` extension. 
+While `.textproto` is now the canonical extension for Protocol Buffers (Protobuf) text files, we have hundreds of `METADATA` files with the `.pb` extension. 
 The inconsistency isn't a practical issue, and as we have internal tools that assume the old filenames, it isn't worth renaming them proactively.
 
 ## Install on Windows
@@ -85,7 +85,7 @@ Here is a list of 3rd party directories:
 * <http://www.localfont.com>
 * <http://brandmark.io/font-generator>
 * <http://archetypeapp.com>
-* <https://getflourish.github.io/anatomy-of-typefaces>
+* <https://useratio.com/the-anatomy-of-a-thousand-typefaces>
 * <https://tyffle.ml>
 * <https://lepovirta.github.io/Typographer> 
 * <https://lepovirta.github.io/Typographer-React>

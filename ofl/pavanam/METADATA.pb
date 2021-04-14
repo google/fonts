@@ -1,5 +1,5 @@
 name: "Pavanam"
-designer: "Multiple Designers"
+designer: "Tharique Azeez"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"

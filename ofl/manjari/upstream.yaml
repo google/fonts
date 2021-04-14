@@ -1,0 +1,8 @@
+branch: tags/Version2.000
+build: mkdir -p build; python3 -m venv build/venv; source build/venv/bin/activate;
+  pip install -r requirements.txt; make ttf
+files:
+  build/Manjari-Regular.ttf: Manjari-Regular.ttf
+  build/Manjari-Bold.ttf: Manjari-Bold.ttf
+  build/Manjari-Thin.ttf: Manjari-Thin.ttf
+repository_url: https://gitlab.com/smc/fonts/manjari.git

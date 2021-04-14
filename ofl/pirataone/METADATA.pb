@@ -1,5 +1,5 @@
 name: "Pirata One"
-designer: "Multiple Designers"
+designer: "Rodrigo Fuenzalida, Nicolas Massi"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-10-31"

@@ -8,20 +8,17 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Recursive[CASL,CRSV,MONO,slnt,wght].ttf"
-  post_script_name: "Recursive"
-  full_name: "Recursive"
-  copyright: "Copyright 2019 The Recursive Project Authors (info@arrowtype.com)"
+  post_script_name: "Recursive-SansLinearLight"
+  full_name: "Recursive Sans Linear Light"
+  copyright: "Copyright 2019 The Recursive Project Authors (github.com/arrowtype/recursive)"
 }
-subsets: "menu"
+subsets: "cyrillic-ext"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"
 axes {
   tag: "CASL"
-  min_value: 0.0
-  max_value: 1.0
-}
-axes {
-  tag: "MONO"
   min_value: 0.0
   max_value: 1.0
 }
@@ -31,9 +28,14 @@ axes {
   max_value: 1.0
 }
 axes {
+  tag: "MONO"
+  min_value: 0.0
+  max_value: 1.0
+}
+axes {
   tag: "slnt"
   min_value: -15.0
-  max_value: 0
+  max_value: 0.0
 }
 axes {
   tag: "wght"

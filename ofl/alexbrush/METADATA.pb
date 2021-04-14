@@ -1,5 +1,5 @@
 name: "Alex Brush"
-designer: "TypeSETit"
+designer: "Robert Leuschke"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-12-19"
@@ -10,8 +10,9 @@ fonts {
   filename: "AlexBrush-Regular.ttf"
   post_script_name: "AlexBrush-Regular"
   full_name: "Alex Brush Regular"
-  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Alex Brush\""
+  copyright: "Copyright 2011 The Alex Brush Project Authors (https://github.com/googlefonts/alex-brush)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

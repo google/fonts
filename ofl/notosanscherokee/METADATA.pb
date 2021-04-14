@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2016 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "cherokee"
 axes {
   tag: "wght"
   min_value: 100.0

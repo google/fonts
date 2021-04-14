@@ -1,5 +1,5 @@
 name: "Gayathri"
-designer: "SMC"
+designer: "SMC, Binoy Dominic"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-06-10"

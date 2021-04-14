@@ -15,7 +15,3 @@ fonts {
 subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/shibuyafont/Palette-mosaic-font-mono.git"
-  commit: "155e6ec5d439f1cbd54fb808ac93ce2a07ebce97"
-}

@@ -12,12 +12,6 @@ fonts {
   full_name: "Mochiy Pop P One Regular"
   copyright: "Copyright 2020 The MochiyPop Project Authors (https://github.com/fontdasu/Mochiypop)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontdasu/Mochiypop.git"
-  commit: "9641b84721cc06c4765b4ba2d8de690d50c411db"
-}

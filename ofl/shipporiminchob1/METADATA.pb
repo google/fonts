@@ -10,7 +10,7 @@ fonts {
   filename: "ShipporiMinchoB1-Regular.ttf"
   post_script_name: "ShipporiMinchoB1-Regular"
   full_name: "Shippori Mincho B1 Regular"
-  copyright: "Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)"
+  copyright: "Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)"
 }
 fonts {
   name: "Shippori Mincho B1"
@@ -19,7 +19,7 @@ fonts {
   filename: "ShipporiMinchoB1-Medium.ttf"
   post_script_name: "ShipporiMinchoB1-Medium"
   full_name: "Shippori Mincho B1 Medium"
-  copyright: "Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)"
+  copyright: "Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)"
 }
 fonts {
   name: "Shippori Mincho B1"
@@ -28,7 +28,7 @@ fonts {
   filename: "ShipporiMinchoB1-SemiBold.ttf"
   post_script_name: "ShipporiMinchoB1-SemiBold"
   full_name: "Shippori Mincho B1 SemiBold"
-  copyright: "Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)"
+  copyright: "Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)"
 }
 fonts {
   name: "Shippori Mincho B1"
@@ -37,7 +37,7 @@ fonts {
   filename: "ShipporiMinchoB1-Bold.ttf"
   post_script_name: "ShipporiMinchoB1-Bold"
   full_name: "Shippori Mincho B1 Bold"
-  copyright: "Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)"
+  copyright: "Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)"
 }
 fonts {
   name: "Shippori Mincho B1"
@@ -46,9 +46,15 @@ fonts {
   filename: "ShipporiMinchoB1-ExtraBold.ttf"
   post_script_name: "ShipporiMinchoB1-ExtraBold"
   full_name: "Shippori Mincho B1 ExtraBold"
-  copyright: "Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)"
+  copyright: "Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/fontdasu/ShipporiMincho.git"
+  commit: "63431fee6c2cfea772325d6251d2935b7cfa7c6d"
+}

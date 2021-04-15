@@ -33,7 +33,3 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/stipub/stixfonts"
-  commit: "2e94666780a3a67cb32fbfac968cc2120bbb3b90"
-}

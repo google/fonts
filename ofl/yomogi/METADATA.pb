@@ -7,7 +7,7 @@ fonts {
   name: "Yomogi"
   style: "normal"
   weight: 400
-  filename: "YomogiFont-Regular.ttf"
+  filename: "Yomogi-Regular.ttf"
   post_script_name: "Yomogi-Regular"
   full_name: "Yomogi Regular"
   copyright: "Copyright 2020 The Yomogi Project Authors (https://github.com/satsuyako/YomogiFont), all rights reserved."

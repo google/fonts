@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2016 Google LLC. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wght"
   min_value: 100.0

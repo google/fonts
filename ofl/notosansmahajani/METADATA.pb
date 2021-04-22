@@ -13,3 +13,4 @@ fonts {
   copyright: "Copyright 2018 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "mahajani"

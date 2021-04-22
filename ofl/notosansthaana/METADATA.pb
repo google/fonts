@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2018 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "thaana"
 axes {
   tag: "wght"
   min_value: 100.0

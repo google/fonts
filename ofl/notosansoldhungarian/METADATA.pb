@@ -13,3 +13,4 @@ fonts {
   copyright: "Copyright 2018-2020 Google LLC. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "old-hungarian"

@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/festive"
-  commit: "bd9351113997057606ffc2ef98ccca9f2c968eb0"
-}

@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/bilbo"
-  commit: "40148a3e58ba010aa87c4ebf09f357ffb23475ff"
-}

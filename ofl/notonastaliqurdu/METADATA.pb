@@ -22,3 +22,5 @@ fonts {
   copyright: "Copyright 2017 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "arabic"
+

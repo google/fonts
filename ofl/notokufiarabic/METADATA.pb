@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2019 Google LLC. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "arabic"
 axes {
   tag: "wght"
   min_value: 100.0

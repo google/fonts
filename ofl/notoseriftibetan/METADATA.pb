@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2018 Google LLC. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "tibetan"
 axes {
   tag: "wght"
   min_value: 100.0

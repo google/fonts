@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2020 Google LLC. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "tai-tham"
 axes {
   tag: "wght"
   min_value: 400.0

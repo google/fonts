@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2020 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "medefaidrin"
 axes {
   tag: "wght"
   min_value: 400.0

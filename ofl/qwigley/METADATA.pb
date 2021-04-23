@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/qwigley"
-  commit: "7a963366b5efe19ef39603d03888a2105105dc01"
-}

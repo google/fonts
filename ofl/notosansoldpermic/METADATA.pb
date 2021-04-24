@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "cyrillic-ext"
 subsets: "menu"
+subsets: "old-permic"

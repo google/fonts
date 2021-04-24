@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2020 Noto Sans Balinese Google"
 }
 subsets: "menu"
+subsets: "balinese"
 axes {
   tag: "wght"
   min_value: 400.0

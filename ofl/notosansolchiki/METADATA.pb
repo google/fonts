@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2019 Google LLC. All Rights Reserved."
 }
 subsets: "menu"
+subsets: "ol-chiki"
 axes {
   tag: "wght"
   min_value: 400.0

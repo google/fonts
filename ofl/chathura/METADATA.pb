@@ -1,5 +1,5 @@
 name: "Chathura"
-designer: "Appaji Ambarisha Darbha, Indian Type Foundry"
+designer: "Appaji Ambarisha Darbha"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2017-05-09"

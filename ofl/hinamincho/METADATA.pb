@@ -1,0 +1,20 @@
+name: "Hina Mincho"
+designer: "Satsuyako"
+license: "OFL"
+category: "SERIF"
+date_added: "2021-04-14"
+fonts {
+  name: "Hina Mincho"
+  style: "normal"
+  weight: 400
+  filename: "HinaMincho-Regular.ttf"
+  post_script_name: "HinaMincho-Regular"
+  full_name: "Hina Mincho Regular"
+  copyright: "Copyright 2020 The Hina Mincho Project Authors (https://github.com/satsuyako/Hina-Mincho)"
+}
+subsets: "cyrillic"
+subsets: "japanese"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

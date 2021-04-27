@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/ThomasJockin/lexend"
-  commit: "5d41598f25ceedb549bfb6222125aac9aa851a93"
-}

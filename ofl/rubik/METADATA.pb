@@ -32,3 +32,7 @@ axes {
   min_value: 300.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/rubik"
+  commit: "d4741b6d7c06e81cfdbe597ff5ba3f9a4b63fec7"
+}

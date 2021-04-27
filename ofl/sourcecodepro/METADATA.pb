@@ -34,7 +34,7 @@ fonts {
   name: "Source Code Pro"
   style: "italic"
   weight: 300
-  filename: "SourceCodePro-LightItalic.ttf"
+  filename: "SourceCodePro-LightIt.ttf"
   post_script_name: "SourceCodePro-LightIt"
   full_name: "Source Code Pro Light Italic"
   copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
@@ -52,7 +52,7 @@ fonts {
   name: "Source Code Pro"
   style: "italic"
   weight: 400
-  filename: "SourceCodePro-Italic.ttf"
+  filename: "SourceCodePro-It.ttf"
   post_script_name: "SourceCodePro-It"
   full_name: "Source Code Pro Italic"
   copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
@@ -70,7 +70,7 @@ fonts {
   name: "Source Code Pro"
   style: "italic"
   weight: 500
-  filename: "SourceCodePro-MediumItalic.ttf"
+  filename: "SourceCodePro-MediumIt.ttf"
   post_script_name: "SourceCodePro-MediumIt"
   full_name: "Source Code Pro Medium Italic"
   copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
@@ -88,7 +88,7 @@ fonts {
   name: "Source Code Pro"
   style: "italic"
   weight: 600
-  filename: "SourceCodePro-SemiBoldItalic.ttf"
+  filename: "SourceCodePro-SemiBoldIt.ttf"
   post_script_name: "SourceCodePro-SemiBoldIt"
   full_name: "Source Code Pro SemiBold Italic"
   copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
@@ -106,7 +106,7 @@ fonts {
   name: "Source Code Pro"
   style: "italic"
   weight: 700
-  filename: "SourceCodePro-BoldItalic.ttf"
+  filename: "SourceCodePro-BoldIt.ttf"
   post_script_name: "SourceCodePro-BoldIt"
   full_name: "Source Code Pro Bold Italic"
   copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."
@@ -124,7 +124,7 @@ fonts {
   name: "Source Code Pro"
   style: "italic"
   weight: 900
-  filename: "SourceCodePro-BlackItalic.ttf"
+  filename: "SourceCodePro-BlackIt.ttf"
   post_script_name: "SourceCodePro-BlackIt"
   full_name: "Source Code Pro Black Italic"
   copyright: "Copyright 2010, 2012 Adobe Systems Incorporated. All Rights Reserved."

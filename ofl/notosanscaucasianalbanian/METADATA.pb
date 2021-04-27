@@ -12,6 +12,5 @@ fonts {
   full_name: "Noto Sans Caucasian Albanian Regular"
   copyright: "Copyright 2018 Google Inc. All Rights Reserved."
 }
-subsets: "cyrillic-ext"
 subsets: "menu"
 subsets: "caucasian-albanian"

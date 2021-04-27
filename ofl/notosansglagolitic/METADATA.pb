@@ -12,6 +12,5 @@ fonts {
   full_name: "Noto Sans Glagolitic Regular"
   copyright: "Copyright 2017 Google Inc. All Rights Reserved."
 }
-subsets: "cyrillic-ext"
 subsets: "menu"
 subsets: "glagolitic"

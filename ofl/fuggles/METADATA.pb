@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/fuggles"
-  commit: "4c5e05f83e50f5eba878b69d85022283612fdb18"
-}

@@ -35,7 +35,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/Etcetera-Type-Co/Tourney"
-  commit: "643f1026ad6d41b4527f42cd93c776414fdd6503"
-}

@@ -15,7 +15,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/zen-tokyo-zoo"
-  commit: "083c7b58656f53568f964d72b31bba42b3df28c2"
-}

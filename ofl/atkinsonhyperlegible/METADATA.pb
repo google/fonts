@@ -42,7 +42,3 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/atkinson-hyperlegible"
-  commit: "1cb311624b2ddf88e9e37873999d165a8cd28b46"
-}

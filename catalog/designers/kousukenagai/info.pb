@@ -1,5 +1,5 @@
 designer: "Kousuke Nagai"
-link: "https://twitter.com/sigurepunch008"
+link: ""
 avatar: {
   file_name: "KousukeNagai.png"
 }

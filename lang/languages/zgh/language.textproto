@@ -1,0 +1,13 @@
+id: "zgh"
+name: "Standard Moroccan Tamazight"
+preferred_name: ""
+autonym: "ⵜⴰⵎⴰⵣⵉⵖⵜ"
+population: 7823574
+region: "MA"
+script: "Tifinagh"
+exemplar_chars {
+  base: "A B G D Ḍ E F K H Ḥ X Q I J L M N U R Ṛ S Ṣ C T Ṭ W Ɣ Z Ẓ a b g d ḍ e f k h ḥ x q i j l m n u r ṛ s ṣ c t ṭ w ɣ z ẓ"
+  marks: "◌̣"
+  numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "ⴰ ⴱ ⴳ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ"
+}

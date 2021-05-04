@@ -1,0 +1,21 @@
+id: "pl"
+name: "Polish"
+preferred_name: ""
+autonym: "Polski"
+population: 38273562
+region: "CZ"
+region: "SK"
+region: "DE"
+region: "RO"
+region: "PL"
+region: "UA"
+region: "IL"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ó Ą Ć Ę Ł Ń Ś Ź Ż a b c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż"
+  auxiliary: "à â å ä æ ç é è ê ë î ï ô ö œ q ß ù û ü v x ÿ"
+  marks: "◌́ ◌̇ ◌̨"
+  numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' \" ” „ « » ( ) \\[ \\] \\{ \\} § @ * / \\& # % † ‡ ′ ″ ° ~"
+  index: "A B C Ć D E F G H I J K L Ł M N O Ó P Q R S Ś T U V W X Y Z Ź Ż"
+}

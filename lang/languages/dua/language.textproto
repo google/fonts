@@ -1,0 +1,14 @@
+id: "dua"
+name: "Duala"
+preferred_name: ""
+autonym: "Duálá"
+population: 133176
+region: "CM"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G I J K L M N O P R S T U W Y Á É Í Ó Ú Ŋ Ū Ɓ Ɔ Ɗ Ɛ a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ"
+  auxiliary: "H Q V X Z h q v x z"
+  marks: "◌́ ◌̄"
+  numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B Ɓ C D Ɗ E Ɛ F G I J K L M N Ŋ O Ɔ P S T U W Y"
+}

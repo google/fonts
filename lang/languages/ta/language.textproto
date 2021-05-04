@@ -1,0 +1,20 @@
+id: "ta"
+name: "Tamil"
+preferred_name: ""
+autonym: "தமிழ்"
+population: 83327102
+region: "MU"
+region: "MY"
+region: "RE"
+region: "LK"
+region: "SG"
+region: "IN"
+script: "Tamil"
+exemplar_chars {
+  base: "அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ ஃ க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ"
+  auxiliary: "\\u200C\\u200D"
+  marks: "◌ா ◌ி ◌ீ ◌ு ◌ூ ◌ெ ◌ே ◌ை ◌் ◌ௗ"
+  numerals: "0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲ 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) \\[ \\] § @ * / \\& # † ‡ ′ ″"
+  index: "அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன"
+}

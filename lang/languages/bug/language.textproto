@@ -1,0 +1,13 @@
+id: "bug"
+name: "Buginese"
+preferred_name: ""
+autonym: "Basa Ugi"
+population: 4298211
+region: "ID"
+region: "MY"
+script: "Latin"
+exemplar_chars {
+  base: "ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ"
+  marks: "◌ᨗ ◌ᨘ ◌ᨙ ◌ᨚ ◌ᨛ"
+  punctuation: "᨞ ᨟"
+}

@@ -1,0 +1,22 @@
+id: "hr"
+name: "Croatian"
+preferred_name: ""
+autonym: "Hrvatski"
+population: 6767930
+region: "HU"
+region: "HR"
+region: "BA"
+region: "SI"
+region: "AT"
+region: "IT"
+region: "RS"
+region: "DE"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž"
+  auxiliary: "q w x y"
+  marks: "◌́ ◌̌"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "‐ – — , ; \\: ! ? . … \' ‘ ’ ‚ \" “ ” „ ( ) \\[ \\] @ * / ′ ″"
+  index: "A B C Č Ć D {DŽ} Đ E F G H I J K L {LJ} M N {NJ} O P Q R S Š T U V W X Y Z Ž"
+}

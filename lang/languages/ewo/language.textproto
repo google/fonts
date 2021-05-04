@@ -1,0 +1,14 @@
+id: "ewo"
+name: "Ewondo"
+preferred_name: ""
+autonym: "Ewondo"
+population: 860095
+region: "CM"
+script: "Latin"
+exemplar_chars {
+  base: "A B D E F G H I K L M N O P R S T U V W Y Z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û Ě Ń Ŋ Ǎ Ǐ Ǒ Ǔ Ǹ Ɔ Ə Ɛ a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ"
+  auxiliary: "C J Q X c j q x"
+  marks: "◌̀ ◌́ ◌̂ ◌̌"
+  numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B D E Ə Ɛ F G H I K L M N Ŋ O Ɔ P R S T U V W Y Z"
+}

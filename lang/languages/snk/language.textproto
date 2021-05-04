@@ -1,0 +1,10 @@
+id: "snk"
+name: "Soninke"
+preferred_name: ""
+autonym: "Sooninkanxanne"
+population: 1153650
+region: "ML"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U W X Y a b c d e f g h i j k l m n o p q r s t u w x y \'"
+}

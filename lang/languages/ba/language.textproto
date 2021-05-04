@@ -1,0 +1,11 @@
+id: "ba"
+name: "Bashkir"
+preferred_name: ""
+autonym: "Башҡортса"
+population: 1842386
+region: "RU"
+script: "Cyrillic"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ö Ü Č Ğ Ķ Ņ Ś Ş Š Ź a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź"
+  marks: "◌́ ◌̆ ◌̇ ◌̈ ◌̌ ◌̧"
+}

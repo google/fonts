@@ -1,0 +1,15 @@
+id: "yo"
+name: "Yoruba"
+preferred_name: ""
+autonym: "Èdè Yorùbá"
+population: 28685568
+region: "NG"
+region: "BJ"
+script: "Latin"
+exemplar_chars {
+  base: "A B D E F G H I J K L M N O P R S T U W Y À Á Ā È É Ē Ẹ Ì Í Ī Ò Ó Ō Ọ Ù Ú Ū Ṣ a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ"
+  auxiliary: "Ɔ Ɛ ɔ ɛ"
+  marks: "◌̀ ◌́ ◌̄ ◌̣"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) @ * / \\& # † ‡ ′ ″"
+  index: "A B D E F G H I J K L M N O P R S T U W Y"
+}

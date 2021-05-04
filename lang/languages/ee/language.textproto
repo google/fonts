@@ -1,0 +1,16 @@
+id: "ee"
+name: "Ewe"
+preferred_name: ""
+autonym: "Èʋegbe"
+population: 4690856
+region: "TG"
+region: "GH"
+script: "Latin"
+exemplar_chars {
+  base: "A B D E F G H I K L M N O P R S T U V W X Y Z À Á Ã È É Ì Í Ò Ó Õ Ù Ú Ĩ Ŋ Ũ Ƒ Ɔ Ɖ Ɛ Ɣ Ʋ Ẽ a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ẽ"
+  auxiliary: "C J Q Â Ä Å Æ Ç Ê Ë Î Ï Ñ Ô Ö Ø Û Ü Ÿ Ā Ă Ĕ Ĭ Ŏ Œ Ŭ c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ"
+  marks: "◌̀ ◌́ ◌̃ ◌̂ ◌̄ ◌̆ ◌̈ ◌̊ ◌̧"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) \\[ \\] \\{ \\} § @ * / \\& # † ‡ ′ ″"
+  index: "A B D Ɖ E Ɛ F Ƒ G Ɣ H X I K L M N Ŋ O Ɔ P R S T U V Ʋ W Y Z"
+}

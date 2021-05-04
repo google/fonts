@@ -1,0 +1,13 @@
+id: "gn"
+name: "Guarani"
+preferred_name: ""
+autonym: "Avañe\'ẽ"
+population: 5827106
+region: "PY"
+region: "BO"
+region: "AR"
+script: "Latin"
+exemplar_chars {
+  base: "A Ã C E Ẽ G G̃ H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V Y Ỹ a ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ ʼ"
+  marks: "◌̃"
+}

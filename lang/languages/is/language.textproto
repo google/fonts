@@ -1,0 +1,15 @@
+id: "is"
+name: "Icelandic"
+preferred_name: ""
+autonym: "Íslenska"
+population: 350734
+region: "IS"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Æ É Í Ð Ó Ö Ú Ý Þ a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý þ"
+  auxiliary: "Ǽ Ǫ Œ ǽ ǫ œ"
+  marks: "◌́ ◌̈ ◌̨"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ‚ \" “ „ ( ) \\[ \\] § @ * / \\& # † ‡ ′ ″"
+  index: "A Á B C D Ð E É F G H I Í J K L M N O Ó P Q R S T U Ú V W X Y Ý Z Þ Æ Ö"
+}

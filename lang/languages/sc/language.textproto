@@ -1,0 +1,11 @@
+id: "sc"
+name: "Sardinian"
+preferred_name: ""
+autonym: "Sardu"
+population: 1060845
+region: "IT"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È Ì Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù"
+  marks: "◌̀ ◌̧"
+}

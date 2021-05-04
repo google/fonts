@@ -1,0 +1,16 @@
+id: "mai"
+name: "Maithili"
+preferred_name: ""
+autonym: "मैथिली"
+population: 19249149
+region: "NP"
+region: "IN"
+script: "Devanagari"
+exemplar_chars {
+  base: "अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऎ ऒ ॳ ॴ ॵ ʼ ऽ ‌ ‍"
+  auxiliary: "ॐ"
+  marks: "◌ँ ◌ं ◌ः ◌ऺ ◌ऻ ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌ॆ ◌े ◌ै ◌ॊ ◌ो ◌ौ ◌् ◌ॏ"
+  numerals: "० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "। ॥ ॰"
+  index: "\\u093C अ {अ\\u0902} {अः} आ इ ई उ ऊ ऋ ऌ ॡ ए ऐ ओ औ क {क\\u094Dष} ख ग घ च छ ज {ज\\u094Dञ} झ ञ ट ठ ड {ड\\u0902} ढ ण त {त\\u094Dर} थ द ध न प फ ब भ म य र ल व श {श\\u094Dर} ष स ह"
+}

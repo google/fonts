@@ -1,0 +1,13 @@
+id: "mer"
+name: "Meru"
+preferred_name: ""
+autonym: "Kimîîru"
+population: 2141116
+region: "KE"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E G H I J K L M N O R T U W Y Î Û a b c d e g h i j k l m n o r t u w y î û"
+  auxiliary: "F P Q S V X Z f p q s v x z"
+  marks: "◌̂"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}

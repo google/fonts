@@ -1,0 +1,15 @@
+id: "eo"
+name: "Esperanto"
+preferred_name: ""
+autonym: "Esperanto"
+population: 301
+region: "SM"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĉ Ĝ Ĥ Ĵ Ŝ Ŭ a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ"
+  auxiliary: "q w x y"
+  marks: "◌̂ ◌̆"
+  numerals: "  , % ‰ + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) \\[ \\] \\{ \\} /"
+  index: "A B C Ĉ D E F G Ĝ H Ĥ I J Ĵ K L M N O P R S Ŝ T U Ŭ V Z"
+}

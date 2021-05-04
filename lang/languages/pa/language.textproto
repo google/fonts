@@ -1,0 +1,19 @@
+id: "pa"
+name: "Punjabi"
+preferred_name: ""
+autonym: "ਪੰਜਾਬੀ,"
+population: 37669517
+region: "KE"
+region: "SG"
+region: "IN"
+region: "GB"
+script: "Perso-Arabic"
+script: "Gurmukhi"
+exemplar_chars {
+  base: "ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ ں و ه ھ ء ی ے"
+  auxiliary: "ॐ"
+  marks: "◌ؕ"
+  numerals: "੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "। ॥ ॰"
+  index: "ੳ ਅ ੲ ਸ ਹ ਕ ਖ ਗ ਘ ਙ ਚ ਛ ਜ ਝ ਞ ਟ ਠ ਡ ਢ ਣ ਤ ਥ ਦ ਧ ਨ ਪ ਫ ਬ ਭ ਮ ਯ ਰ ਲ ਵ ੜ"
+}

@@ -1,0 +1,13 @@
+id: "aeb"
+name: "Tunisian Arabic"
+preferred_name: ""
+autonym: "تونسي"
+population: 10549080
+region: "TN"
+script: "Perso-Arabic"
+exemplar_chars {
+  base: "ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ة"
+  auxiliary: "ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ"
+  marks: "◌َ ◌ُ ◌ِ ◌ْ ◌ٰ"
+  numerals: "٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩"
+}

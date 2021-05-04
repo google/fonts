@@ -1,0 +1,17 @@
+id: "bo"
+name: "Tibetan"
+preferred_name: ""
+autonym: "བོད་སྐད་"
+population: 3006696
+region: "IN"
+region: "NP"
+region: "CN"
+script: "Tibetan"
+exemplar_chars {
+  base: "ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ"
+  auxiliary: "ༀ"
+  marks: "◌ི ◌ུ ◌ེ ◌ོ"
+  numerals: "༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩"
+  punctuation: "༄ ༈ ་ ། ༎ ༔ ༺ ༻"
+  index: "ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ"
+}

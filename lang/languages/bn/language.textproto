@@ -1,0 +1,18 @@
+id: "bn"
+name: "Bangla"
+preferred_name: ""
+autonym: "বাংলা"
+population: 267280377
+region: "NP"
+region: "BD"
+region: "IN"
+region: "GB"
+script: "Bangla"
+exemplar_chars {
+  base: "৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ"
+  auxiliary: "\\u200C\\u200D ৲ ৳ ৴ ৵ ৶ ৷ ৸ ৹ ৰ ৱ"
+  marks: "◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ী ◌ু ◌ূ ◌ৃ ◌ৄ ◌ে ◌ৈ ◌্ ◌ৗ ◌ৢ ◌ৣ"
+  numerals: "০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) \\[ \\] § @ * / \\& # † ‡ ′ ″"
+  index: "অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক {ক\\u09CDষ} খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ"
+}

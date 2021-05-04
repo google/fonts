@@ -1,0 +1,16 @@
+id: "lt"
+name: "Lithuanian"
+preferred_name: ""
+autonym: "Lietuviškai"
+population: 2357094
+region: "LT"
+region: "PL"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ą Č Ė Ę Į Š Ū Ų Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž"
+  auxiliary: "á à ã {ą\\u0301} {ą\\u0303} {ch} {dz} {dž} é è ẽ {ę\\u0301} {ę\\u0303} {ė\\u0301} {ė\\u0303} {i\\u0307\\u0301}í {i\\u0307\\u0300}ì {i\\u0307\\u0303}ĩ {į\\u0301}{į\\u0307\\u0301} {į\\u0303}{į\\u0307\\u0303} {j\\u0303}{j\\u0307\\u0303} {l\\u0303} {m\\u0303} ñ ó ò õ q {r\\u0303} ú ù ũ {ų\\u0301} {ų\\u0303} {ū\\u0301} {ū\\u0303} w x"
+  marks: "◌̄ ◌̇ ◌̌ ◌̨"
+  numerals: "  , % ‰ + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … “ „ ( ) \\[ \\] \\{ \\}"
+  index: "A Ą B C Č D E Ę Ė F G H I Į Y J K L M N O P R S Š T U Ų Ū V Z Ž"
+}

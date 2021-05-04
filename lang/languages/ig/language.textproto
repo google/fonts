@@ -1,0 +1,14 @@
+id: "ig"
+name: "Igbo"
+preferred_name: ""
+autonym: "Igbo"
+population: 27823640
+region: "NG"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ù Ú Ā Ē Ī Ń Ō Ū Ị Ọ Ụ Ṅ Ẹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ"
+  auxiliary: "á à ā c é è ē í ì ī {ị\\u0301} {ị\\u0300} ḿ {m\\u0300} ń ǹ ó ò ō {ọ\\u0301} {ọ\\u0300} q ú ù ū {ụ\\u0301} {ụ\\u0300} x"
+  marks: "◌̀ ◌́ ◌̄ ◌̇ ◌̣"
+  punctuation: "\\- ‑ , ; \\: ! ? . ‘ ’ “ ” ( ) \\[ \\] \\{ \\}"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}

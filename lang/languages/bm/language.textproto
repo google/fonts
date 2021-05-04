@@ -1,0 +1,13 @@
+id: "bm"
+name: "Bambara"
+preferred_name: ""
+autonym: "Bamanankan"
+population: 8994564
+region: "ML"
+script: "Latin"
+script: "N’Ko"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U W Y Z Ŋ Ɔ Ɛ Ɲ a b c d e f g h i j k l m n o p r s t u w y z ŋ ɔ ɛ ɲ"
+  auxiliary: "Q V X q v x"
+  index: "A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U W Y Z"
+}

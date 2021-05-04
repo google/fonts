@@ -1,0 +1,10 @@
+id: "mos"
+name: "Mossi"
+preferred_name: ""
+autonym: ""
+population: 8334160
+region: "BF"
+script: "Latin"
+exemplar_chars {
+  base: "A B D E Ɛ F G H I Ɩ L M N O P R S T U V Ʋ W Y Z a b d e ɛ f g h i ɩ l m n o p r s t u v ʋ w y z \'"
+}

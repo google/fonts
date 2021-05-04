@@ -1,0 +1,19 @@
+id: "sr"
+name: "Serbian"
+preferred_name: ""
+autonym: "Српски"
+population: 7452738
+region: "RS"
+region: "XK"
+region: "ME"
+region: "BA"
+script: "Cyrillic"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž"
+  auxiliary: "Ǆ ǅ ǆ Ǉ ǈ ǉ Ǌ ǋ ǌ"
+  marks: "◌́ ◌̌"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – , ; \\: ! ? . … ‘ ‚ “ „ ( ) \\[ \\] \\{ \\} * #"
+  index: "А Б В Г Д Ђ Е Ж З И Ј К Л Љ М Н Њ О П Р С Т Ћ У Ф Х Ц Ч Џ Ш"
+}

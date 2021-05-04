@@ -1,0 +1,16 @@
+id: "ug"
+name: "Uyghur"
+preferred_name: ""
+autonym: "Уйғур"
+population: 7670114
+region: "AF"
+region: "CN"
+script: "Perso-Arabic"
+script: "Cyrillic"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U W X Y Z Ë Ö Ü a b c d e f g h i j k l m n o p q r s t u w x y z ë ö ü"
+  auxiliary: "\\u200E\\u200F ئ"
+  marks: "◌̈"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "{ئا} {ئه} {ئو} {ئۇ} {ئۆ} {ئۈ} {ئې} {ئى} ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۆ ۈ ۋ ې ى ي"
+}

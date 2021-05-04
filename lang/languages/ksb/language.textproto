@@ -1,0 +1,12 @@
+id: "ksb"
+name: "Shambala"
+preferred_name: ""
+autonym: "Kishambaa"
+population: 995397
+region: "TZ"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P S T U V W Y Z a b c d e f g h i j k l m n o p s t u v w y z"
+  auxiliary: "Q R X q r x"
+  index: "A B C D E F G H I J K L M N O P S T U V W Y Z"
+}

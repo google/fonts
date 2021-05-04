@@ -1,0 +1,14 @@
+id: "kfr"
+name: "Kachhi"
+preferred_name: ""
+autonym: "કચ્છી"
+population: 994567
+region: "IN"
+script: "Devanagari"
+exemplar_chars {
+  base: "અ આ ઇ ઈ ઉ ઊ ઋ પ એ ઐ ઓ ઔ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ"
+  auxiliary: "ॐ"
+  marks: "◌ં ◌ઃ ◌ા ◌િ ◌ી ◌ુ ◌ૂ ◌ૃ ◌ે ◌ૈ ◌ો ◌ૌ ◌્"
+  numerals: "૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "। ॥ ॰"
+}

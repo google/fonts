@@ -1,0 +1,16 @@
+id: "et"
+name: "Estonian"
+preferred_name: ""
+autonym: "Eesti"
+population: 878449
+region: "EE"
+region: "FI"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž"
+  auxiliary: "á à â å ã ā æ ç é è ê ë ē í ì î ï ī ñ ó ò ŏ ô ø ō œ ú ù û ū"
+  marks: "◌̃ ◌̈ ◌̌"
+  numerals: "  , % ‰ + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‑ – , ; \\: ! ? . “ „ ( ) \\[ \\] \\{ \\} @"
+  index: "A B C D E F G H I J K L M N O P Q R S Š Z Ž T U V W Õ Ä Ö Ü X Y"
+}

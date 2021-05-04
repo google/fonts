@@ -1,0 +1,13 @@
+id: "naq"
+name: "Nama"
+preferred_name: ""
+autonym: "Khoekhoe"
+population: 289307
+region: "NA"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I K M N O P Q R S T U W X Y Z À Á Ā Ä Â Ã É È Ê Ë Ẽ Ē Ì Í Ī Ï Ĩ Ò Ó Õ Ö Ô Ō Ù Ú Ũ Ü Û Ū a b c d e f g h i k m n o p q r s t u w x y z à á ā ä â ã é è ê ë ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ"
+  auxiliary: "J L V j l v"
+  marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̈"
+  index: "A B C D E F G H I K M N O P Q R S T U W X Y Z"
+}

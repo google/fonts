@@ -1,0 +1,12 @@
+id: "saq"
+name: "Samburu"
+preferred_name: ""
+autonym: "Sampur"
+population: 246228
+region: "KE"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E G H I J K L M N O P R S T U V W Y a b c d e g h i j k l m n o p r s t u v w y"
+  auxiliary: "F Q X Z f q x z"
+  index: "A B C D E G H I J K L M N O P R S T U V W Y"
+}

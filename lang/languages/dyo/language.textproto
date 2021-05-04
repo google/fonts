@@ -1,0 +1,14 @@
+id: "dyo"
+name: "Jola-Fonyi"
+preferred_name: ""
+autonym: "Jóola-Fóoñi"
+population: 409146
+region: "SN"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Á É Í Ñ Ó Ú Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ"
+  auxiliary: "Z z"
+  marks: "◌́ ◌̃"
+  numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N Ñ Ŋ O P Q R S T U V W X Y"
+}

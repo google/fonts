@@ -1,0 +1,16 @@
+id: "cy"
+name: "Welsh"
+preferred_name: ""
+autonym: "Cymraeg"
+population: 536376
+region: "AR"
+region: "GB"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ä È É Ê Ë Ì Í Î Ï Ò Ó Ô Ö Ù Ú Û Ü Ý Ÿ Ŵ Ŷ Ẁ Ẃ Ẅ Ỳ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ"
+  auxiliary: "ă å ã ā æ ç ĕ ē ĭ ī k ñ ŏ ø ō œ q ŭ ū v x z"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) \\[ \\] § @ * / \\& # † ‡ ′ ″"
+  index: "A B C {CH} D {DD} E F {FF} G {NG} H I J K L {LL} M N O P {PH} Q R {RH} S T {TH} U V W X Y Z"
+}

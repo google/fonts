@@ -1,0 +1,11 @@
+id: "bin"
+name: "Bini"
+preferred_name: ""
+autonym: "Ẹ̀dó"
+population: 1519598
+region: "NG"
+script: "Latin"
+exemplar_chars {
+  base: "A B D E F G H I K L M N O P R S T U V W Y Z Á É È Ẹ Í Ó Ò Ọ Ú a b d e f g h i k l m n o p r s t u v w y z á é è ẹ í ó ò ọ ú \'"
+  marks: "◌̀ ◌́ ◌̣"
+}

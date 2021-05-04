@@ -1,0 +1,17 @@
+id: "ln"
+name: "Lingala"
+preferred_name: ""
+autonym: "Lingala"
+population: 3514491
+region: "AO"
+region: "CF"
+region: "CG"
+region: "CD"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I K L M N O P R S T U V W Y Z Á Â É Ê Í Î Ó Ô Ú Ě Ǎ Ǐ Ǒ Ɔ Ɛ a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ ɔ ɛ"
+  auxiliary: "J Q X j q x"
+  marks: "◌́ ◌̂ ◌̌"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E Ɛ F G {Gb} H I K L M {Mb} {Mp} N {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} O Ɔ P R S T U V W Y Z"
+}

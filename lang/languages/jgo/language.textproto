@@ -1,0 +1,15 @@
+id: "jgo"
+name: "Ngomba"
+preferred_name: ""
+autonym: "Cú-Mbɔ́ndaa"
+population: 94333
+region: "CM"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D F G H I J K L M N P S T U V W Y Z Á Â Í Î Ú Û Ń Ŋ Ǎ Ǐ Ǔ Ǹ Ɔ Ɛ Ʉ Ḿ Ẅ Ꞌ a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ḿ ẅ ꞌ"
+  auxiliary: "E O Q R X e o q r x"
+  marks: "◌̀ ◌́ ◌̂ ◌̄ ◌̈ ◌̌"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‑ , ; \\: ! ? . ‹ › « »"
+  index: "A B C D Ɛ F G H I J K L M N Ŋ Ɔ P {Pf} S {Sh} T {Ts} U Ʉ {Ʉ\\u0308} V W Ẅ Y Z Ꞌ"
+}

@@ -1,0 +1,13 @@
+id: "nus"
+name: "Nuer"
+preferred_name: ""
+autonym: "Naath"
+population: 591427
+region: "SS"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ŋ Ɔ Ɛ Ɣ A̱ E̱ I̱ O̱ Ɔ̱ Ɛ̱ a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ŋ ɔ ɛ ɣ a̱ e̱ i̱ o̱ ɔ̱ ɛ̱"
+  marks: "◌̈ ◌̱"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P Q R S T U V W X Y Z"
+}

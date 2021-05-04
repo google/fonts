@@ -1,0 +1,11 @@
+id: "yao"
+name: "Yao"
+preferred_name: ""
+autonym: "chiYao"
+population: 722356
+region: "MZ"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E G H I J K L M N O P S T U W Ŵ Y a b c d e g h i j k l m n o p s t u w ŵ y"
+  marks: "◌̂"
+}

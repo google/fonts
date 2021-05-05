@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/italianno"
-  commit: "d183cfb030ba783dd91c010926e315afe33815d0"
-}

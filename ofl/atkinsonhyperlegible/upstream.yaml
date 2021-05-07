@@ -1,0 +1,9 @@
+branch: main
+files:
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/ttf/AtkinsonHyperlegible-Regular.ttf: AtkinsonHyperlegible-Regular.ttf
+  fonts/ttf/AtkinsonHyperlegible-Bold.ttf: AtkinsonHyperlegible-Bold.ttf
+  fonts/ttf/AtkinsonHyperlegible-Italic.ttf: AtkinsonHyperlegible-Italic.ttf
+  fonts/ttf/AtkinsonHyperlegible-BoldItalic.ttf: AtkinsonHyperlegible-BoldItalic.ttf
+repository_url: https://github.com/googlefonts/atkinson-hyperlegible

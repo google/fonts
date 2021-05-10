@@ -1,0 +1,12 @@
+id: "puu"
+name: "Punu"
+preferred_name: ""
+autonym: ""
+population: 200781
+region: "GA"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

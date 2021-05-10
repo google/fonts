@@ -1,0 +1,17 @@
+id: "ce"
+name: "Chechen"
+preferred_name: ""
+autonym: "Нохчийн мотт"
+population: 935365
+region: "RU"
+script: "Cyrillic"
+exemplar_chars {
+  base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ"
+  marks: "◌̆ ◌̈"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ‚ \" “ „ « » ( ) \\[ \\] \\{ \\} § @ * / \\& #"
+  index: "А Б В Г Д Е Ё Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я"
+}
+sample_text {
+  fallback_language: "ru"
+}

@@ -1,0 +1,12 @@
+id: "hnd"
+name: "Southern Hindko"
+preferred_name: ""
+autonym: ""
+population: 957354
+region: "PK"
+script: "Perso-Arabic"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "ar"
+}

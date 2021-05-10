@@ -1,0 +1,16 @@
+id: "prd"
+name: "Parsi-Dari"
+preferred_name: ""
+autonym: "فارسی"
+population: 864342
+region: "AF"
+region: "IR"
+script: "Perso-Arabic"
+exemplar_chars {
+  base: "ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی"
+  marks: "◌َ ◌ُ ◌ِ ◌ْ ◌ٔ ◌ٰ"
+  numerals: "۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9"
+}
+sample_text {
+  fallback_language: "ar"
+}

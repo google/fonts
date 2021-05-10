@@ -1,0 +1,12 @@
+id: "swv"
+name: "Shekhawati"
+preferred_name: ""
+autonym: ""
+population: 3713052
+region: "IN"
+script: "Devanagari"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "hi"
+}

@@ -1,0 +1,27 @@
+id: "om"
+name: "Oromo"
+preferred_name: ""
+autonym: "Afaan Oromoo"
+population: 34897120
+region: "ET"
+region: "KE"
+region: "SO"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z \'"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "NnAa"
+  masthead_partial: "Mm"
+  tester: "Ulfinni fi wal-qixxummaan ilmoo namaa kan uummattoota hundaa akka"
+  poster_sm: "Mirga namummaa"
+  poster_md: "Uummanni"
+  poster_lg: "Namooti"
+  specimen_48: "Biyyoota gidduutti walitti-dhufeenyi michumaa fi wal-jaalalaa akka"
+  specimen_36: "Akkasumas guddina hawaasummaa fi wayyaawuu sadarkaa jireenyaa fiduuf kan murannoodhaan hojjetan waan ta\'eef;"
+  specimen_32: "Kana malees immoo, garaagarummaan kamiyyuu karaa siyaasaa, karaa biyyummaa, karaa wal-caalmaa sadarkaa bulchiisa biyyaa fi karaa adda-addaa hin godhamu."
+  specimen_21: "Namni kamiyyuu mirga jiraachuu, birmadummaa argachuu fi mirga qaamni isaa eegamuu ni qaba.\nNamni homtuu garbummaa jalatti hin bulu, garbummaa fi daldalli garbaa bifa kamiin iyyuu dhorkaa dha.\nNamni kamiyyuu reebichii fi gidiraan hammeenyaa yookaan immoo wanti ulfina namummaa isaa hanqisu yookaan kan hammeenyaan adabsiisu irra hin ga\'u."
+  specimen_16: "Namni kamiyyuu akka namummaa isaatti seera duratti beekame kabajaa argachuu qaba.\nNamoonni hundi seera fuula duratti wal-qixxee ilaalamanii, garaagarummaa tokko malee, eegumsa seeraa argachuu qabu. Namoonni hundinuu waan labsii kanaan mormee isaan addaan qoodu hundumaa irraa eegamuu qabu.\nNamni kamiyyuu mirgoota heeraan yookaan seeraan isaaf kenname cabsuudhaan waan isa hubu hundumaa irraa karaa mana murtii yookaan yaa\'ii biyyaa eegumsa argachuuf mirga ni qaba.\nNamni kamiyyuu garmalee hin hidhamu, biyyaas hin ari\'atamu.\nNamni kamiyyuu yeroo yakkaan himatamee mirgooti isaa fi ittigaafatamni isaa murteeffamutti, qaama loogii irraa birmaduu ta\'etti dhiyaatee sirrii, qajeeltoo fi wal-qixummaadhaan gaafatamuuf mirga ni qabaata."
+}

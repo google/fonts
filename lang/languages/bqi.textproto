@@ -1,0 +1,12 @@
+id: "bqi"
+name: "Bakhtiari"
+preferred_name: ""
+autonym: ""
+population: 1188926
+region: "IR"
+script: "Perso-Arabic"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "ar"
+}

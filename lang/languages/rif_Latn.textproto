@@ -1,0 +1,14 @@
+id: "rif_Latn"
+name: "Riffian (Latin)"
+preferred_name: ""
+autonym: ""
+population: 1949888
+region: "MA"
+region: "NL"
+script: "Latin"
+script: "Tifinagh"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "tzm"
+}

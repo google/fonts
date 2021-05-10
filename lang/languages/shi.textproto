@@ -1,0 +1,18 @@
+id: "shi"
+name: "Tachelhit"
+preferred_name: ""
+autonym: "Tachelhit"
+population: 3093867
+region: "MA"
+script: "Latin"
+script: "Perso-Arabic"
+script: "Tifinagh"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N Q R S T U W X Y Z Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ Ž a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ ž"
+  marks: "◌̌ ◌̣"
+  numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "ⴰ ⴱ ⴳ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ"
+}
+sample_text {
+  fallback_language: "shi"
+}

@@ -1,0 +1,17 @@
+id: "sbp"
+name: "Sangu"
+preferred_name: ""
+autonym: "Shisango"
+population: 117105
+region: "TZ"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q S T U V W X Y Z À Á Ä Â È É Ë Ê Ì Í Ï Î Ò Ó Ö Ô Ù Ú Ü Û a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î ò ó ö ô ù ú ü û"
+  auxiliary: "q r x z"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E F G H I J K L M N O P S T U V W Y"
+}
+sample_text {
+  fallback_language: "en"
+}

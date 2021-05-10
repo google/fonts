@@ -1,0 +1,12 @@
+id: "sck"
+name: "Sadri"
+preferred_name: ""
+autonym: ""
+population: 2386962
+region: "IN"
+script: "Devanagari"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "hi"
+}

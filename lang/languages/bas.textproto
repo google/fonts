@@ -1,0 +1,17 @@
+id: "bas"
+name: "Basaa"
+preferred_name: ""
+autonym: "Basaa"
+population: 332940
+region: "CM"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U V W Y Z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û Ā Ē Ě Ī Ń Ŋ Ō Ū Ǎ Ǐ Ǒ Ǔ Ǹ Ɓ Ɔ Ɛ a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ"
+  auxiliary: "Q X q x"
+  marks: "◌̀ ◌́ ◌̂ ◌̄ ◌̌ ◌᷆ ◌᷇"
+  numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B Ɓ C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z"
+}
+sample_text {
+  fallback_language: "en"
+}

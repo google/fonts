@@ -1,0 +1,12 @@
+id: "jut"
+name: "Jutish"
+preferred_name: ""
+autonym: ""
+population: 0
+region: "DK"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

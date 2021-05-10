@@ -1,0 +1,12 @@
+id: "gos"
+name: "Gronings"
+preferred_name: ""
+autonym: ""
+population: 622094
+region: "NL"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

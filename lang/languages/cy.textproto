@@ -1,0 +1,29 @@
+id: "cy"
+name: "Welsh"
+preferred_name: ""
+autonym: "Cymraeg"
+population: 536376
+region: "AR"
+region: "GB"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ä È É Ê Ë Ì Í Î Ï Ò Ó Ô Ö Ù Ú Û Ü Ý Ÿ Ŵ Ŷ Ẁ Ẃ Ẅ Ỳ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ"
+  auxiliary: "ă å ã ā æ ç ĕ ē ĭ ī k ñ ŏ ø ō œ q ŭ ū v x z"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) \\[ \\] § @ * / \\& # † ‡ ′ ″"
+  index: "A B C {CH} D {DD} E F {FF} G {NG} H I J K L {LL} M N O P {PH} Q R {RH} S T {TH} U V W X Y Z"
+}
+sample_text {
+  masthead_full: "GgEe"
+  masthead_partial: "Nn"
+  tester: "Gan mai cydnabod urddas cynhenid a hawliau cydradd a phriod holl"
+  poster_sm: "Gan i anwybyddu"
+  poster_md: "Gan fod yn"
+  poster_lg: "Genir"
+  specimen_48: "Gan fod pobloedd y Cenhedloedd Unedig yn y Siarter wedi ail ddatgan"
+  specimen_36: "gwr a gwragedd, ac wedi penderfynu hyrwyddo cynnydd cymdeithasol a safonau byw gwell mewn rhyddid helaethach,"
+  specimen_32: "Gan fod y Gwladwriaethau sy’n Aelodau wedi ymrwymo, mewn cydweithrediad â’r Cenhedloedd Unedig, i sicrhau hyrwyddo parch cyffredinol i hawliau dynol a’r rhyddfreintiau sylfaenol, a’u cadw,"
+  specimen_21: "Gan fod deall yr hawliau a’r rhyddfreintiau hyn gan bawb o’r pwys mwyaf i lwyr sylweddoli’r ymrwymiad hwn,\nFelly, y mae’r\nCynulliad Cyffredinol\nyn awr yn cyhoeddi’r\nDatganiad Cyffredinol hwn o Hawliau Dynol\nGenir pawb yn rhydd ac yn gydradd â’i gilydd mewn urddas a hawliau. Fe’u cynysgaeddir â rheswm a chydwybod, a dylai pawb ymddwyn y naill at y llall mewn ysbryd cymodlon."
+  specimen_16: "Y mae gan bawb hawl i’r holl hawliau a’r rhyddfreintiau a nodir yn y Datganiad hwn, heb unrhyw wahaniaeth o gwbl, yn arbennig unrhyw wahaniaeth hil, lliw, rhyw, iaith, crefydd, barn boliticaidd neu unrhyw farn arall, tarddiad cenedlaethol neu gymdeithasol, eiddo, geni neu safle arall.\nYmhellach, ni ddylid gwahaniaethu ar sail safle politicaidd, gyfreithiol na chydwladol unrhyw wlad neu diriogaeth y mae pawb yn perthyn iddi, p’un ai yw honno’n annibynnol, dan nawdd, heb hunanlywodraeth, neu dan unrhyw gyfyngiad arall ar ei sofraniaeth.\nY mae gan bawb hawl i fywyd, rhyddid a diogelwch."
+}

@@ -1,0 +1,13 @@
+id: "ndc"
+name: "Ndau"
+preferred_name: ""
+autonym: ""
+population: 3867046
+region: "MZ"
+region: "ZW"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

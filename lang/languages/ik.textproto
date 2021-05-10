@@ -1,0 +1,12 @@
+id: "ik"
+name: "Inupiaq"
+preferred_name: ""
+autonym: ""
+population: 7983
+region: "US"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

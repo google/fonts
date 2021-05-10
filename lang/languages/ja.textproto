@@ -1,0 +1,19 @@
+id: "ja"
+name: "Japanese"
+preferred_name: ""
+autonym: "日本語"
+population: 119676253
+region: "BR"
+region: "JP"
+script: "Japanese"
+exemplar_chars {
+  base: "A B D E F G H I J K L M N O P R S T U V W Y Z Ā Ē Ī Ō Ū a b d e f g h i j k l m n o p r s t u v w y z ā ē ī ō ū"
+  auxiliary: "丑 亥 亨 兌 兎 卯 嘉 壬 寅 巳 庚 弘 戊 戌 拼 昌 楔 猪 癸 祚 禄 禎 辰 酉 錄 閏 雉 鳳 鼠"
+  marks: "◌̄"
+  numerals: "% + - . 0 1 2 3 4 5 6 7 8 9 ‰"
+  punctuation: "! \" # % & ( ) * - . / : ; ? @ [ \\ ] _ § ¶ ‐ — ― ‖ ‘ ’ “ ” † ‡ ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･"
+  index: "あ か さ た な は ま や ら わ"
+}
+sample_text {
+  fallback_language: "ja"
+}

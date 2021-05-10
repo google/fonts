@@ -1,0 +1,18 @@
+id: "ksh"
+name: "Colognian"
+preferred_name: ""
+autonym: "Kölsch"
+population: 240479
+region: "DE"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Å Æ Ë Ö Ü Ė Œ Ů a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů"
+  auxiliary: "À Á Â Ã Ç È É Ê Ì Í Î Ï Ñ Ò Ó Ô Ø Ù Ú Û Ÿ Ā Ă Ē Ĕ Ğ Ī Ĭ Ĳ Ł Ō Ŏ Ū Ŭ ẞ à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ"
+  marks: "◌̇ ◌̈ ◌̊ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̧"
+  numerals: "  , % ‰ + − 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "_ ‐ – — ⸗ , ; \\: ! ? . … \' ‘ ‚ \" “ „ ( ) \\[ \\] \\{ \\} § @ * / \\& # % † ‡ ° < = > ~"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  fallback_language: "en"
+}

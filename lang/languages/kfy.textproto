@@ -1,0 +1,12 @@
+id: "kfy"
+name: "Kumaoni"
+preferred_name: ""
+autonym: ""
+population: 2917398
+region: "IN"
+script: "Devanagari"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "hi"
+}

@@ -1,0 +1,12 @@
+id: "bej"
+name: "Beja"
+preferred_name: ""
+autonym: ""
+population: 2460326
+region: "SD"
+script: "Perso-Arabic"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "ar"
+}

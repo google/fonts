@@ -1,0 +1,28 @@
+id: "lb"
+name: "Luxembourgish"
+preferred_name: ""
+autonym: "Lëtzebuergesch"
+population: 421015
+region: "LU"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ä È É Ê Ë Î Ô Ö Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü"
+  auxiliary: "ẞ"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ‚ \" “ „ « » ( ) \\[ \\] \\{ \\} § @ * / \\& #"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Mm"
+  tester: "Well d\'Unerkennong vun der Dignitéit, déi all Mêmber vun der Mënschefamill"
+  poster_sm: "Well et do,"
+  poster_md: "Well an der"
+  poster_lg: "All"
+  specimen_48: "Well d\'Mëmberstate sech verflicht hu fir an Zesummenaarbecht mat"
+  specimen_36: "PROKLAMÉIERT D\'GENEROLVERSAMMLONG:\nAll Mësch huet Recht op d\'Liewen, op d\'Fräiheet an op d\'Secherheet vu sénger Persoun."
+  specimen_32: "Well eng an déi selwecht Opfaassong iwwer dës Rechter a Fräiheten aus der Mooss wichteg as fir dëst Engagement voll a ganz kënnen duerchzeféieren,"
+  specimen_21: "Well d\'Unerkennong vun der Dignitéit, déi all Mêmber vun der Mënschefamill gebuer as, a vu sénge gläichen an onersetzleche Rechter de Fëllement vun der Fräiheet, der Gerechtegkeet an dem Fridden an der Welt as,\nWell et haaptsächlech drëm geet fir duerch e Rechtssystem Hand iwwer d\'Mënscherechter ze halen an datt de Mënsch doduerch nët forcéiert gët fir säi leschten Auswee an der Revolt géint d\'Tyrannei an d\'Ënnerdrécktgin ze sichen,"
+  specimen_16: "Well d\'Unerkennong vun der Dignitéit, déi all Mêmber vun der Mënschefamill gebuer as, a vu sénge gläichen an onersetzleche Rechter de Fëllement vun der Fräiheet, der Gerechtegkeet an dem Fridden an der Welt as,\nWell et do, wou d\'Mënscherechter nët unerkannt an nët respektéiert gin, zu barbareschen Akte koum, déi d\'Gewësse vun der ganzer Mënschheet revoltéieren a well d\'Schafe vun enger Welt, an deer d\'Mënschen d\'Fräiheet vum Wuert a vum Glaf hun, an deer se fräi si vu Fuurcht an Nout, als dem Mënsch säin héchst Striewe proklaméiert gouf,\nWell et haaptsächlech drëm geet fir duerch e Rechtssystem Hand iwwer d\'Mënscherechter ze halen an datt de Mënsch doduerch nët forcéiert gët fir säi leschten Auswee an der Revolt géint d\'Tyrannei an d\'Ënnerdrécktgin ze sichen,"
+}

@@ -1,0 +1,12 @@
+id: "mak"
+name: "Makasar"
+preferred_name: ""
+autonym: ""
+population: 1949289
+region: "ID"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

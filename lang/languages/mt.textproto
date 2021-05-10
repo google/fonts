@@ -1,0 +1,28 @@
+id: "mt"
+name: "Maltese"
+preferred_name: ""
+autonym: "Malti"
+population: 457267
+region: "MT"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À È Ì Î Ò Ù Ċ Ġ Ħ Ż a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì î ò ù ċ ġ ħ ż"
+  auxiliary: "c y"
+  marks: "◌̀ ◌̂ ◌̇"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‑ , ; \\: ! ? . \' ‘ ’ \" “ ” ( ) \\[ \\] \\{ \\}"
+  index: "A B Ċ C D E F Ġ G {GĦ} H Ħ I {IE*} J K L M N O P Q R S T U V W X Y Ż Z"
+}
+sample_text {
+  masthead_full: "IiLl"
+  masthead_partial: "Bb"
+  tester: "Billi l-għarfien tad-dinjità proprja tal-membri kollha tal-familja"
+  poster_sm: "Billi t-tkasbir"
+  poster_md: "Billi hu"
+  poster_lg: "kollha"
+  specimen_48: "Billi hu essenzjali li jkun imħeġġeġ l-iżvilupp ta’ relazzjonijiet"
+  specimen_36: "Billi fehma komuni ta’ dawn il-jeddijiet u l-libertajiet hi tal-akbar importanza għat-twettiq sħiħ ta’ din il-wegħda,"
+  specimen_32: "Il-bnedmin kollha jitwieldu ħielsa u ugwali fid-dinjità u d-drittijiet. Huma mogħnija bir-raġuni u bil-kuxjenza u għandhom iġibu ruħhom ma’ xulxin bi spirtu ta’ aħwa."
+  specimen_21: "Kulħadd hu intitolat għal dawn il-jeddijiet u l-libertajiet imxandra f’din l-Istqarrija, bla ebda għażla, bħal ta’ razza, lewn, sess, ilsien, reliġjon, opinjoni politika jew kull opinjoni oħra, oriġini nazzjonali jew soċjali, proprjetà, twelid jew kull qagħda oħra.\nKull bniedem għandu l-jedd għall-ħajja, għall-ħelsien u għas-sigurtà tal-persuna tiegħu."
+  specimen_16: "Ħadd m’għandu jinżamm ilsir jew fi stat li jixbah lil dak ta’ lsir. L-iskjavitù u n-negozju tal-ilsiera fl-għamliet kollha tagħhom m’għandhomx jitħallew isiru.\nĦadd m’għandu jingħata tortura jew kastig jew trattament aħrax, li ma jixraqx lill-bniedem jew li jbaxxih.\nKulħadd għandu l-jedd li jintgħaraf kullimkien bħala persuna quddiem il-liġi.\nKulħadd huwa ndaqs quddiem il-liġi u għandu l-jedd, bla ebda għażla, għal protezzjoni ugwali mil-liġi. Kulħadd għandu l-jedd għal protezzjoni ndaqs kontra kull għażla li tikser din l-Istqarrija u kontra kull provokazzjoni għal għażla bħal din."
+}

@@ -1,0 +1,13 @@
+id: "sdh"
+name: "Southern Kurdish"
+preferred_name: ""
+autonym: "کوردی خوارگ"
+population: 3142162
+region: "IR"
+script: "Perso-Arabic"
+exemplar_chars {
+  base: "ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە"
+}
+sample_text {
+  fallback_language: "ar"
+}

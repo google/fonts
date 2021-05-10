@@ -1,0 +1,17 @@
+id: "agq"
+name: "Aghem"
+preferred_name: ""
+autonym: "Wum"
+population: 38843
+region: "CM"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I K L M N O P S T U V W Y Z À Â È Ê Ì Î Ò Ô Ù Û Ā Ē Ě Ī Ŋ Ō Ū Ǎ Ǐ Ǒ Ǔ Ɔ Ɛ Ɨ Ʉ a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ"
+  auxiliary: "Q R X q r x"
+  marks: "◌̀ ◌̂ ◌̄ ◌̌"
+  numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A B C D E Ɛ F G H I Ɨ K L M N Ŋ O Ɔ P S T U Ʉ V W Y Z ʔ"
+}
+sample_text {
+  fallback_language: "en"
+}

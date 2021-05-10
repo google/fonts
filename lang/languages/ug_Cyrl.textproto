@@ -1,0 +1,14 @@
+id: "ug_Cyrl"
+name: "Uyghur (Cyrillic)"
+preferred_name: ""
+autonym: ""
+population: 382851
+region: "KZ"
+region: "MN"
+script: "Cyrillic"
+script: "Perso-Arabic"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "uz"
+}

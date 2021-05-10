@@ -1,0 +1,15 @@
+id: "bbc"
+name: "Batak Toba"
+preferred_name: ""
+autonym: "Batak Toba"
+population: 2456639
+region: "ID"
+script: "Latin"
+exemplar_chars {
+  base: "ᯀ ᯂ ᯅ ᯇ ᯉ ᯋ ᯍ ᯎ ᯐ ᯑ ᯒ ᯔ ᯖ ᯗ ᯘ ᯛ ᯝ ᯞ ᯠ ᯤ ᯥ"
+  marks: "◌ᯩ ◌ᯪ ◌ᯬ ◌ᯮ ◌ᯰ ◌᯲"
+  punctuation: "᯼ ᯽ ᯾ ᯿"
+}
+sample_text {
+  fallback_language: "en"
+}

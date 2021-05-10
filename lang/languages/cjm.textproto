@@ -1,0 +1,12 @@
+id: "cjm"
+name: "Eastern Cham"
+preferred_name: ""
+autonym: ""
+population: 87861
+region: "VN"
+script: "Cham"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "cjm"
+}

@@ -1,0 +1,12 @@
+id: "rug"
+name: "Roviana"
+preferred_name: ""
+autonym: ""
+population: 9591
+region: "SB"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

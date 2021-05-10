@@ -1,0 +1,12 @@
+id: "nxq"
+name: "Naxi"
+preferred_name: ""
+autonym: ""
+population: 334564
+region: "CN"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

@@ -1,0 +1,12 @@
+id: "crl"
+name: "Northern East Cree"
+preferred_name: ""
+autonym: ""
+population: 5277
+region: "CA"
+script: "UCAS"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "cr"
+}

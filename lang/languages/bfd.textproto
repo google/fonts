@@ -1,0 +1,12 @@
+id: "bfd"
+name: "Bafut"
+preferred_name: ""
+autonym: ""
+population: 158146
+region: "CM"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

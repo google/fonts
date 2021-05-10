@@ -1,0 +1,12 @@
+id: "fan"
+name: "Fang"
+preferred_name: ""
+autonym: ""
+population: 426450
+region: "GQ"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

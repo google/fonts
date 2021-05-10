@@ -1,0 +1,12 @@
+id: "tdg"
+name: "Western Tamang"
+preferred_name: ""
+autonym: ""
+population: 394262
+region: "NP"
+script: "Devanagari"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "hi"
+}

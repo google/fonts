@@ -1,0 +1,12 @@
+id: "byn"
+name: "Blin"
+preferred_name: ""
+autonym: ""
+population: 79055
+region: "ER"
+script: "Ethiopic"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "am"
+}

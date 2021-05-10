@@ -1,0 +1,13 @@
+id: "bft"
+name: "Balti"
+preferred_name: ""
+autonym: ""
+population: 502519
+region: "IN"
+region: "PK"
+script: "Perso-Arabic"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "ar"
+}

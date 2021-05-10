@@ -1,0 +1,12 @@
+id: "bgx"
+name: "Balkan Gagauz Turkish"
+preferred_name: ""
+autonym: ""
+population: 377280
+region: "TR"
+script: "Greek"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "el"
+}

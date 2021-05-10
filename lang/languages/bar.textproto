@@ -1,0 +1,13 @@
+id: "bar"
+name: "Bavarian"
+preferred_name: ""
+autonym: ""
+population: 22043626
+region: "AT"
+region: "DE"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

@@ -1,0 +1,19 @@
+id: "az_Cyrl"
+name: "Azerbaijani (Cyrillic)"
+preferred_name: ""
+autonym: ""
+population: 1142175
+region: "AZ"
+region: "RU"
+script: "Cyrillic"
+script: "Latin"
+script: "Perso-Arabic"
+exemplar_chars {
+  base: "а ә б в г ғ д е ж з и й ј к ҝ л м н о ө п р с т у ү ф х һ ч ҹ ш ы"
+  auxiliary: "ц щ ъ ь э ю я"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "А Ә Б В Г Ғ Д Е Ж З И Й Ј К Ҝ Л М Н О Ө П Р С Т У Ү Ф Х Һ Ч Ҹ Ш Ы"
+}
+sample_text {
+  fallback_language: "uz"
+}

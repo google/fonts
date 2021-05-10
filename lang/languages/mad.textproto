@@ -1,0 +1,27 @@
+id: "mad"
+name: "Madurese"
+preferred_name: ""
+autonym: "Madhurâ"
+population: 16822638
+region: "ID"
+script: "Latin"
+exemplar_chars {
+  base: "ꦄ ꦅ ꦆ ꦇ ꦈ ꦉ ꦊ ꦋ ꦌ ꦍ ꦎ ꦏ ꦐ ꦒ ꦓ ꦔ ꦕ ꦗ ꦚ ꦛ ꦝ ꦞ ꦟ ꦠ ꦢ ꦣ ꦤ ꦥ ꦦ ꦧ ꦨ ꦩ ꦪ ꦫ ꦭ ꦮ ꦯ ꦱ ꦲ"
+  auxiliary: "ꦑ ꦖ ꦘ ꦙ ꦜ ꦡ ꦬ ꦰ"
+  marks: "◌ꦀ ◌ꦁ ◌ꦂ ◌ꦃ ◌꦳ ◌ꦴ ◌ꦵ ◌ꦶ ◌ꦷ ◌ꦸ ◌ꦹ ◌ꦺ ◌ꦻ ◌ꦼ ◌ꦽ ◌ꦾ ◌ꦿ ◌꧀"
+  numerals: "꧐ ꧑ ꧒ ꧓ ꧔ ꧕ ꧖ ꧗ ꧘ ꧙ 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "ꧏ ꧞ ꧟ ꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧇ ꧈ ꧉ ꧊ ꧋ ꧌ ꧍"
+}
+sample_text {
+  masthead_full: "SsAa"
+  masthead_partial: "Dd"
+  tester: "Saestona pangakowan drajat secara koddrat klaban hak se dha-padha"
+  poster_sm: "Saestona manabi"
+  poster_md: "Saestona"
+  poster_lg: "Sadajana"
+  specimen_48: "Saestona bangsa-bangsa dhari Perserikatan Bangsa-Bangsa e dhalem"
+  specimen_36: "Sabban oreng agaduwi hak istirahat ban prei, tamasok batessa jam-jam alako, klaban are-are prei se opana tetep ebajar."
+  specimen_32: "Sabban oreng agadhuwi hak dha\' tatanan sosial ban internasional, se hak-hak ban kabebasan-kabebasan ekasebut dhalem Parnyataan paneka kengeng elakone sadajana."
+  specimen_21: "Tadha hal dhari dhalem Parnyataan paneka kengeng etafsiragi a beri\' sala settong nagara, kelompok otaba sala settong oreng, hak kaangguy e dhalem kalakoan ponapa bisaos, otaba alakone settong kalakoan se gadhuan tojjuan marosak hak-hak ban kabebasan-kabebasan se ka\'dimma bisaos kasebut dhalem Parnyataan paneka."
+  specimen_16: "Saestona pangakowan drajat secara koddrat klaban hak se dha-padha sareng muttlak dhari sadajana anggota kaluwarga manossa enggi panika dasar dhari kamardikaan, keadilan sareng perdamaian e dunnya.\nSaestona manabi tak agateyagi sareng nganggep enteng hak-hak epon manossa badhi adaddiyagi kalakowan-kalakowan bengges se bisa mapeggel ate nuraniepon umat manossa; wujudepon settong dhunnya, palenggiyanna manossa se badhi arassaagi kenikmatan, kebebasan angocappagi pamanggi ban keyakinan sareng kebebasan dhari rassa tako\' ban kemeskenan ampon daddi pernyataan aspirasi paleng tenggi dhari sadajana ra\'yat biyasa."
+}

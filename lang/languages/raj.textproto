@@ -1,0 +1,12 @@
+id: "raj"
+name: "Rajasthani"
+preferred_name: ""
+autonym: ""
+population: 1326090
+region: "IN"
+script: "Devanagari"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "hi"
+}

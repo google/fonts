@@ -1,0 +1,12 @@
+id: "wtm"
+name: "Mewati"
+preferred_name: ""
+autonym: ""
+population: 6100014
+region: "IN"
+script: "Devanagari"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "hi"
+}

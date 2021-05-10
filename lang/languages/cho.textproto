@@ -1,0 +1,12 @@
+id: "cho"
+name: "Choctaw"
+preferred_name: ""
+autonym: ""
+population: 10977
+region: "US"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

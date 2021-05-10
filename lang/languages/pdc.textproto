@@ -1,0 +1,12 @@
+id: "pdc"
+name: "Pennsylvania German"
+preferred_name: ""
+autonym: ""
+population: 129729
+region: "US"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

@@ -1,0 +1,12 @@
+id: "nch"
+name: "Central Huasteca Nahuatl"
+preferred_name: ""
+autonym: ""
+population: 244435
+region: "MX"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

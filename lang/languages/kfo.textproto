@@ -1,0 +1,12 @@
+id: "kfo"
+name: "Koro"
+preferred_name: ""
+autonym: ""
+population: 63206
+region: "CI"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

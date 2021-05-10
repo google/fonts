@@ -1,0 +1,12 @@
+id: "frr"
+name: "Northern Frisian"
+preferred_name: ""
+autonym: ""
+population: 9619
+region: "DE"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

@@ -1,0 +1,12 @@
+id: "kru"
+name: "Kurukh"
+preferred_name: ""
+autonym: ""
+population: 2519571
+region: "IN"
+script: "Devanagari"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "hi"
+}

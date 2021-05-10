@@ -1,0 +1,12 @@
+id: "ext"
+name: "Extremaduran"
+preferred_name: ""
+autonym: ""
+population: 245077
+region: "ES"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

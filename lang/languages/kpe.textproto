@@ -1,0 +1,13 @@
+id: "kpe"
+name: "Kpelle"
+preferred_name: ""
+autonym: ""
+population: 1186303
+region: "GN"
+region: "LR"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

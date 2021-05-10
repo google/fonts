@@ -1,0 +1,12 @@
+id: "dtm"
+name: "Tomo Kan Dogon"
+preferred_name: ""
+autonym: ""
+population: 215087
+region: "ML"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

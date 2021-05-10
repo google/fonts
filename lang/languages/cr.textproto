@@ -1,0 +1,13 @@
+id: "cr"
+name: "Cree"
+preferred_name: ""
+autonym: ""
+population: 41463
+region: "CA"
+script: "Latin"
+script: "UCAS"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "cr"
+}

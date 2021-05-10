@@ -1,0 +1,12 @@
+id: "wni"
+name: "Ndzwani Comorian"
+preferred_name: ""
+autonym: ""
+population: 287735
+region: "KM"
+script: "Perso-Arabic"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "ar"
+}

@@ -1,0 +1,13 @@
+id: "lcp"
+name: "Western Lawa"
+preferred_name: ""
+autonym: ""
+population: 87750
+region: "CN"
+region: "TH"
+script: "Thai"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "th"
+}

@@ -1,0 +1,12 @@
+id: "gub"
+name: "Guajajára"
+preferred_name: ""
+autonym: ""
+population: 17784
+region: "BR"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

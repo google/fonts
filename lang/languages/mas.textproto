@@ -1,0 +1,17 @@
+id: "mas"
+name: "Masai"
+preferred_name: ""
+autonym: "Maa"
+population: 1734738
+region: "KE"
+region: "TZ"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â È É Ê Ì Í Î Ɔ Ɛ Ɨ Ʉ Ò Ó Ô Ù Ú Û Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ ɛ ɨ ʉ ò ó ô ù ú û ŋ"
+  auxiliary: "f q v x z"
+  marks: "◌̀ ◌́ ◌̂"
+  index: "A B C D E Ɛ G H I Ɨ J K L M N Ŋ O Ɔ P R S T U Ʉ W Y"
+}
+sample_text {
+  fallback_language: "en"
+}

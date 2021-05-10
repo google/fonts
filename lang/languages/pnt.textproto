@@ -1,0 +1,14 @@
+id: "pnt"
+name: "Pontic"
+preferred_name: ""
+autonym: ""
+population: 392462
+region: "GR"
+script: "Cyrillic"
+script: "Greek"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "pnt"
+}

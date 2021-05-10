@@ -1,0 +1,12 @@
+id: "kge"
+name: "Komering"
+preferred_name: ""
+autonym: ""
+population: 854483
+region: "ID"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

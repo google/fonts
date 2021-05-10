@@ -1,0 +1,28 @@
+id: "su"
+name: "Sundanese"
+preferred_name: ""
+autonym: "Basa Sunda"
+population: 32043120
+region: "ID"
+script: "Latin"
+exemplar_chars {
+  base: "ᮊ ᮌ ᮍ ᮎ ᮏ ᮑ ᮒ ᮓ ᮔ ᮕ ᮘ ᮙ ᮚ ᮛ ᮜ ᮝ ᮞ ᮠ ᮖ ᮋ ᮗ ᮟ ᮐ ᮃ ᮆ ᮄ ᮇ ᮅ ᮈ ᮉ"
+  auxiliary: "ᮮ ᮯ ᮻ ᮼ ᮽ ᮾ ᮿ"
+  marks: "◌ᮀ ◌ᮁ ◌ᮂ ◌ᮡ ◌ᮢ ◌ᮣ ◌ᮤ ◌ᮥ ◌ᮦ ◌ᮧ ◌ᮨ ◌ᮩ ◌᮪ ◌ᮬ ◌ᮭ"
+  numerals: "᮱ ᮲ ᮳ ᮴ ᮵ ᮶ ᮷ ᮸ ᮹ ᮰ 1 2 3 4 5 6 7 8 9 0"
+  punctuation: "᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇"
+  index: "A B C D E É F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  masthead_full: "SsAa"
+  masthead_partial: "Kk"
+  tester: "Dumasar ku ayana timbangan yen pangakuan kana ayana martabat"
+  poster_sm: "ku jalan ieu"
+  poster_md: "PERNYATAAN"
+  poster_lg: "Sakumna"
+  specimen_48: "Salaku standar umum hiji-hijina pikeun ngahasilkeun sakumna bangsa"
+  specimen_36: "Ku ayana timbangan yen dina ngabina hubungan duduluran di antara nagara-nagara perlu dironjatkeun.\nMAJELIS UMUM"
+  specimen_32: "Ku ayana timbangan yen hak-hak manusa teh perlu ditangtayungan ku aturan hukum sangkan ulah milih cara anu kapaksa dina ngalawan nu lalim jeung anu resep ngajajah."
+  specimen_21: "Dumasar ku ayana timbangan yen pangakuan kana ayana martabat alamiah katut hak-hak anu sarua ti sakumna anggota kulawarga manusa nu dasarna kamerdikaan, kaadilan jeung perdamaian di dunya.\nKu ayana timbangan yen hak-hak manusa teh perlu ditangtayungan ku aturan hukum sangkan ulah milih cara anu kapaksa dina ngalawan nu lalim jeung anu resep ngajajah."
+  specimen_16: "Dumasar ku ayana timbangan yen pangakuan kana ayana martabat alamiah katut hak-hak anu sarua ti sakumna anggota kulawarga manusa nu dasarna kamerdikaan, kaadilan jeung perdamaian di dunya.\nKu ayana timbangan yen ngalelewodehkeun katut nganggap enteng kana hak-hak manusa teh geus nyiptakeun polah - polah bengis anu nimbulkeun kaceuceub kana nurani manusa tur ngawangun hiji dunya tempat manusa ngasaan nikmatna kabebasan nyarita jeung ngagem agama sarta bebas tina kasieun jeung katuna, geus ditembrakkeun salaku cita-cita luhung ti rahayat biasa.\nKu ayana timbangan yen hak-hak manusa teh perlu ditangtayungan ku aturan hukum sangkan ulah milih cara anu kapaksa dina ngalawan nu lalim jeung anu resep ngajajah."
+}

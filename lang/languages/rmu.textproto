@@ -1,0 +1,12 @@
+id: "rmu"
+name: "Tavringer Romani"
+preferred_name: ""
+autonym: ""
+population: 9488
+region: "SE"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

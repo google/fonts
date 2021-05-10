@@ -1,0 +1,17 @@
+id: "smn"
+name: "Inari Sami"
+preferred_name: ""
+autonym: "Anarâškielâ"
+population: 612
+region: "FI"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä Å Ö Č Đ Ŋ Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž"
+  auxiliary: "à ç é è í ñ ń ó ò q ú ü w x æ ø å ã ö"
+  marks: "◌́ ◌̂ ◌̈ ◌̊ ◌̌"
+  numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  index: "A Â B C Č D Đ E F G H I J K L M N Ŋ O P R S Š T U V Y Z Ž Ä Á"
+}
+sample_text {
+  fallback_language: "en"
+}

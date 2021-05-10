@@ -1,0 +1,13 @@
+id: "unr"
+name: "Mundari"
+preferred_name: ""
+autonym: ""
+population: 1246524
+region: "IN"
+script: "Bangla"
+script: "Devanagari"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "unr"
+}

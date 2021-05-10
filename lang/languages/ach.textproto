@@ -1,0 +1,12 @@
+id: "ach"
+name: "Acoli"
+preferred_name: ""
+autonym: ""
+population: 1600361
+region: "UG"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

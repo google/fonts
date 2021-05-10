@@ -1,0 +1,12 @@
+id: "pag"
+name: "Pangasinan"
+preferred_name: ""
+autonym: ""
+population: 1528534
+region: "PH"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

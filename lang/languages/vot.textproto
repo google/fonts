@@ -1,0 +1,12 @@
+id: "vot"
+name: "Votic"
+preferred_name: ""
+autonym: ""
+population: 0
+region: "RU"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

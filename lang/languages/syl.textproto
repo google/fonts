@@ -1,0 +1,13 @@
+id: "syl"
+name: "Sylheti"
+preferred_name: ""
+autonym: ""
+population: 8467931
+region: "BD"
+region: "GB"
+script: "Bangla"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "bn"
+}

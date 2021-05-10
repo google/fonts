@@ -1,0 +1,20 @@
+id: "ha"
+name: "Hausa"
+preferred_name: ""
+autonym: "Hausa"
+population: 37412649
+region: "GH"
+region: "NE"
+region: "NG"
+script: "Latin"
+script: "Perso-Arabic"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O R S T U W Y Z Ƙ Ƴ Ɓ Ɗ R̃ a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ r̃ ʼ"
+  auxiliary: "P Q V X À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û p q v x à á â è é ê ì í î ò ó ô ù ú û"
+  marks: "◌̃ ◌̀ ◌́ ◌̂"
+  punctuation: "\\- ‑ , ; \\: ! ? . \' ‘ ’ \" “ ” ( ) \\[ \\] \\{ \\} ′ ″"
+  index: "A B Ɓ C D Ɗ E F G H I J K Ƙ L M N O R S T U W Y Ƴ Z"
+}
+sample_text {
+  fallback_language: "ha"
+}

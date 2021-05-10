@@ -1,0 +1,17 @@
+id: "doi"
+name: "Dogri"
+preferred_name: ""
+autonym: ""
+population: 2652180
+region: "IN"
+script: "Devanagari"
+exemplar_chars {
+  base: "\\u0951\\u0952 \\u093C \\u0901 \\u0902 ः ॐ अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ क {क\\u094Dष} ख ग घ ङ च छ ज झ ञ ट ठ ड {ड\\u093C} ढ {ढ\\u093C} ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ऽ ा ि ी \\u0941 \\u0942 \\u0943 \\u0944 \\u0962 \\u0963 \\u0947 \\u0948 ो ौ \\u094D"
+  auxiliary: "\\u200C\\u200D ऍ ऑ \\u0945"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "_ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) § @ * / \\& # † ‡ ′ ″"
+  index: "अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह"
+}
+sample_text {
+  fallback_language: "hi"
+}

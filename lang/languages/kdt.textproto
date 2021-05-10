@@ -1,0 +1,14 @@
+id: "kdt"
+name: "Kuy"
+preferred_name: ""
+autonym: ""
+population: 421206
+region: "KH"
+region: "LA"
+region: "TH"
+script: "Thai"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "th"
+}

@@ -1,0 +1,13 @@
+id: "gon"
+name: "Gondi"
+preferred_name: ""
+autonym: ""
+population: 3182616
+region: "IN"
+script: "Devanagari"
+script: "Telugu"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "gon"
+}

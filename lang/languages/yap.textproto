@@ -1,0 +1,24 @@
+id: "yap"
+name: "Yapese"
+preferred_name: ""
+autonym: "Waab"
+population: 6555
+region: "FM"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ö a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ö"
+  marks: "◌̈"
+}
+sample_text {
+  masthead_full: "GgUu"
+  masthead_partial: "Bb"
+  tester: "Bochan ni ngan nang ni gubine gidii mabee mabay mattʼawen, meere"
+  poster_sm: "Bochan ni yara"
+  poster_md: "Bochan ni"
+  poster_lg: "Gubine"
+  specimen_48: "Bochan ni battʼuf maba gaafan ni ngan obneg ziline pinam ni gubin"
+  specimen_36: "Bochan ni bagaa fan nge angin ni nge gubin e gidii menang fan nge morngaagen e tin mattʼawey nge tin bapuf rogoy ngay,"
+  specimen_32: "Gubine gidii mani gargeleg nga faileng nibapuf mattʼawen nge rogon. Bay laniyan nipii e nam, ere ngauda ted mattʼaawen e chaa niba chugur ngoded nimod walag dad."
+  specimen_21: "Gubine gidii maba puf mattʼawen nimod nibayu lan gazon ere ngi Garcheg ney, madariy rogon nga ramaen douey, miti gidii, ppin fa pumoon, zin, taliw, am, gyog, nam, ara likʼegal kubee, ngin gargeleg bee riiʼ, fa yuguboch banʼen.\nMakueritay ni dab ni page mazil nga zilin barbaa e am nge barbaa, ggangin ara mazil u gibine nam nitin baachig nge tin gagangʼ ni ngin bee fachaa riy, mademutrug fare nam ko fire bamil suwon ir ngak, ara bamil suwon ngakʼ rebo nam fa gaangin e mti motochiyel ko fare nam."
+  specimen_16: "Gubine gidii mabay mattʼawen ko birokʼe pagofan, talin, nge kanowaen i ayuweg fir.\nDab nikel beeʼ ngantay nimod e sib, mange maze folchuway ko gidii ni gubin.\nDab ni gafgou nege lem ara doungin bee, fani gechig neg ni gazi miti gechig ni yama pii ko gidii.\nGubine gidii mabay mattʼawen ni ngan nang gidii u bang u monʼutan e motochiyel.\nGubin e gidii mada taareb mattʼawen lane motochiyel makueritay ni dezilzil e ayuw ko motochiyel kubee nge bee. Magubin e gidii makueritay nibay mattʼawen ni tab ayuw e yaratay ngakʼ u lane motochiyel, makuran gechig neg ni ku taareb rogon ni gomanga kepig chel bee kepilyeg bayang ko ngi Garcheg ney ara marwee ngadaken ngawuruuʼ e kanowaʼ."
+}

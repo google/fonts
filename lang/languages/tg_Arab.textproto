@@ -1,0 +1,14 @@
+id: "tg_Arab"
+name: "Tajik (Arabic)"
+preferred_name: ""
+autonym: ""
+population: 770553
+region: "PK"
+script: "Cyrillic"
+script: "Latin"
+script: "Perso-Arabic"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "uz"
+}

@@ -1,0 +1,12 @@
+id: "tig"
+name: "Tigre"
+preferred_name: ""
+autonym: ""
+population: 1094616
+region: "ER"
+script: "Ethiopic"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "am"
+}

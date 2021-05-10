@@ -1,0 +1,12 @@
+id: "jml"
+name: "Jumli"
+preferred_name: ""
+autonym: ""
+population: 970492
+region: "NP"
+script: "Devanagari"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "hi"
+}

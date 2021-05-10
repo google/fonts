@@ -1,0 +1,31 @@
+id: "pt"
+name: "Portuguese"
+preferred_name: ""
+autonym: "Português"
+population: 237135427
+region: "AG"
+region: "AO"
+region: "BR"
+region: "CH"
+region: "CV"
+region: "FR"
+region: "GQ"
+region: "GW"
+region: "LU"
+region: "MO"
+region: "MZ"
+region: "PT"
+region: "ST"
+region: "TL"
+script: "Latin"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã Ç È É Ê Í Ò Ó Ô Õ Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü"
+  auxiliary: "ª ă å ä ā æ è ĕ ë ē ì ĭ î ï ī ñ º ŏ ö ø ō œ ù ŭ û ü ū ÿ"
+  marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧"
+  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) \\[ \\] § @ * / \\& # † ‡ ′ ″"
+  index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+}
+sample_text {
+  fallback_language: "en"
+}

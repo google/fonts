@@ -1,0 +1,12 @@
+id: "bku"
+name: "Buhid"
+preferred_name: ""
+autonym: ""
+population: 7970
+region: "PH"
+script: "Latin"
+exemplar_chars {
+}
+sample_text {
+  fallback_language: "en"
+}

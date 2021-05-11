@@ -1,12 +1,9 @@
 id: "kac"
+language: "kac"
+script: "Latn"
 name: "Kachin"
-preferred_name: ""
-autonym: ""
 population: 962031
 region: "MM"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

@@ -1,17 +1,18 @@
 id: "sus"
+language: "sus"
+script: "Latn"
 name: "Susu"
-preferred_name: ""
 autonym: "Sosoxi"
 population: 1378014
 region: "GN"
-script: "Latin"
 exemplar_chars {
   base: "A B D E Ɛ F G H I K X L M N Ɲ O Ɔ P R S T U W Y a b d e ɛ f g h i k x l m n ɲ o ɔ p r s t u w y"
 }
 sample_text {
   masthead_full: "AaDd"
   masthead_partial: "Mm"
-  tester: "A kolon fera, ibunadama xa lasiriya nun axa adamaya xafe rafalɛ"
+  styles: "A kolon fera, ibunadama xa lasiriya nun axa"
+  tester: "A kolon fera, adamaya xafe sariyɛe mu mabanbanxi han to i bunadama"
   poster_sm: "A kolon fera,"
   poster_md: "A kolon fera"
   poster_lg: "Adamadie"

@@ -1,12 +1,9 @@
 id: "ngl"
+language: "ngl"
+script: "Latn"
 name: "Lomwe"
-preferred_name: ""
-autonym: ""
 population: 2046677
 region: "MZ"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

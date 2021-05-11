@@ -1,0 +1,8 @@
+id: "ale"
+language: "ale"
+script: "Latn"
+name: "Aleut"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

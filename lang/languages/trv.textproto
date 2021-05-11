@@ -1,12 +1,9 @@
 id: "trv"
+language: "trv"
+script: "Latn"
 name: "Taroko"
-preferred_name: ""
-autonym: ""
 population: 4720
 region: "TW"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

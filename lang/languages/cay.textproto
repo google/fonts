@@ -1,0 +1,8 @@
+id: "cay"
+language: "cay"
+script: "Latn"
+name: "Cayuga"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

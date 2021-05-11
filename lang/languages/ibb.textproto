@@ -1,10 +1,9 @@
 id: "ibb"
+language: "ibb"
+script: "Latn"
 name: "Ibibio"
-preferred_name: ""
-autonym: ""
 population: 2996392
 region: "NG"
-script: "Latin"
 exemplar_chars {
   base: "A B D E F G H I Ị K M N Ñ O Ọ P R S T U Ʌ W Y a b d e f g h i ị k m n ñ o ọ p r s t u ʌ w y"
   marks: "◌̃ ◌̣"
@@ -12,8 +11,9 @@ exemplar_chars {
 sample_text {
   masthead_full: "KkPp"
   masthead_partial: "Uu"
-  tester: "Kpukpuru owo emana ye ukemukem ye asana asana unen ye ndamana"
-  poster_sm: "Mboho Edidiana"
+  styles: "Kpukpuru owo emana ye ukemukem ye asana asana"
+  tester: "Mboho Edidiana Kiet Ofuri Ekondo enehede ebiere ndimum nkama,"
+  poster_sm: "Ke nwed Edisuan"
   poster_md: "Mme unen"
   poster_lg: "Kpukpuru"
   specimen_48: "Mbufo emehe ye mme mbet ye mme unen emi enyun enwam ndisuan etop"

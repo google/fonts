@@ -1,13 +1,6 @@
 id: "man_Nkoo"
+language: "man"
+script: "Nkoo"
 name: "Mandingo (N’Ko)"
-preferred_name: ""
-autonym: ""
 population: 2881302
 region: "GN"
-script: "Latin"
-script: "N’Ko"
-exemplar_chars {
-}
-sample_text {
-  fallback_language: "bm"
-}

@@ -1,12 +1,9 @@
 id: "egl"
+language: "egl"
+script: "Latn"
 name: "Emilian"
-preferred_name: ""
-autonym: ""
 population: 31201
 region: "IT"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

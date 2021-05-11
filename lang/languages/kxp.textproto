@@ -1,12 +1,9 @@
 id: "kxp"
+language: "kxp"
+script: "Arab"
 name: "Wadiyara Koli"
-preferred_name: ""
-autonym: ""
 population: 256851
 region: "PK"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

@@ -1,0 +1,8 @@
+id: "dum"
+language: "dum"
+script: "Latn"
+name: "Middle Dutch"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

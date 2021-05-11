@@ -1,13 +1,7 @@
 id: "syr"
+language: "syr"
+script: "Syrc"
 name: "Syriac"
-preferred_name: ""
-autonym: ""
 population: 210658
 region: "IQ"
 region: "SY"
-script: "Syriac"
-exemplar_chars {
-}
-sample_text {
-  fallback_language: "syr"
-}

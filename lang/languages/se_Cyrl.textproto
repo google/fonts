@@ -1,0 +1,8 @@
+id: "se_Cyrl"
+language: "se"
+script: "Cyrl"
+name: "Northern Sami, Cyrillic"
+population: 0
+sample_text {
+  fallback_language: "ru"
+}

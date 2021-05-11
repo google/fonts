@@ -1,12 +1,9 @@
 id: "tbw"
+language: "tbw"
+script: "Latn"
 name: "Tagbanwa"
-preferred_name: ""
-autonym: ""
 population: 10044
 region: "PH"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

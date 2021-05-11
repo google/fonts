@@ -1,0 +1,8 @@
+id: "fro"
+language: "fro"
+script: "Latn"
+name: "Old French"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

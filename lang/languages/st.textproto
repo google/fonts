@@ -1,11 +1,11 @@
 id: "st"
+language: "st"
+script: "Latn"
 name: "Southern Sotho"
-preferred_name: ""
 autonym: "Sesotho"
 population: 6390567
 region: "LS"
 region: "ZA"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á É È Ē Ō Ò Š a b c d e f g h i j k l m n o p q r s t u v w x y z à á é è ē ō ò š"
   marks: "◌̀ ◌́ ◌̄ ◌̌"
@@ -13,7 +13,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "BbAa"
   masthead_partial: "Tt"
-  tester: "Ka hona he, ho amohela seriti seo motho a tswalwang le sona ha"
+  styles: "Ka hona he, ho amohela seriti seo motho a"
+  tester: "Ka hona he, ho se natse le ho tella ditokelo tsa botho, ho tswetse"
   poster_sm: "Ka hona he,"
   poster_md: "Seboka se"
   poster_lg: "Batho"

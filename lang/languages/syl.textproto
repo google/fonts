@@ -1,13 +1,10 @@
 id: "syl"
+language: "syl"
+script: "Beng"
 name: "Sylheti"
-preferred_name: ""
-autonym: ""
 population: 8467931
 region: "BD"
 region: "GB"
-script: "Bangla"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "bn"
 }

@@ -1,12 +1,9 @@
 id: "trw"
+language: "trw"
+script: "Arab"
 name: "Torwali"
-preferred_name: ""
-autonym: ""
 population: 123755
 region: "PK"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

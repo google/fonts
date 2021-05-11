@@ -1,12 +1,9 @@
 id: "gvr"
+language: "gvr"
+script: "Deva"
 name: "Gurung"
-preferred_name: ""
-autonym: ""
 population: 87950
 region: "NP"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

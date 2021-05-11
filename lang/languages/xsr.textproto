@@ -1,12 +1,9 @@
 id: "xsr"
+language: "xsr"
+script: "Deva"
 name: "Sherpa"
-preferred_name: ""
-autonym: ""
 population: 157705
 region: "NP"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

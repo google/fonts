@@ -1,10 +1,10 @@
 id: "maz"
+language: "maz"
+script: "Latn"
 name: "Central Mazahua"
-preferred_name: ""
 autonym: "Jñatrjo"
 population: 437410
 region: "MX"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E G H I J L M N Ñ O P R S T U V X Z Ⱥ Ɇ Ʉ a b c d e g h i j l m n ñ o p r s t u v x z \' ⱥ ɇ ʉ"
   marks: "◌̃ ◌̱ ◌̵"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "TtEe"
   masthead_partial: "Xx"
-  tester: "Panru̸ji k\'u̸ mara mimiji na joo texe yo nte̱\'e̱ in dya ra chu̱nji, numa"
+  styles: "Panru̸ji k\'u̸ mara mimiji na joo texe yo nte̱\'e̱"
+  tester: "Panru̸ji k\'u̸ ma dya ri pjechiji texto yo jña\'a nuyo nrra pjosu̸ ye"
   poster_sm: "Panru̸ji k\'u̸"
   poster_md: "Nu jmunte̱"
   poster_lg: "Texe"

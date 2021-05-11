@@ -1,12 +1,9 @@
 id: "thr"
+language: "thr"
+script: "Deva"
 name: "Rana Tharu"
-preferred_name: ""
-autonym: ""
 population: 363934
 region: "NP"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

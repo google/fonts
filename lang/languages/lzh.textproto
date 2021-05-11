@@ -1,12 +1,9 @@
 id: "lzh"
+language: "lzh"
+script: "Hans"
 name: "Literary Chinese"
-preferred_name: ""
-autonym: ""
 population: 0
 region: "CN"
-script: "Simplified Han"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "zh"
 }

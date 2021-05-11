@@ -1,12 +1,9 @@
 id: "saf"
+language: "saf"
+script: "Latn"
 name: "Safaliba"
-preferred_name: ""
-autonym: ""
 population: 4107
 region: "GH"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

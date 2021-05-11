@@ -1,0 +1,8 @@
+id: "crl_Latn"
+language: "crl"
+script: "Latn"
+name: "Northern East Cree, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

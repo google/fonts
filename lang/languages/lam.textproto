@@ -1,0 +1,8 @@
+id: "lam"
+language: "lam"
+script: "Latn"
+name: "Lamba"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

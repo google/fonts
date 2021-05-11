@@ -1,21 +1,22 @@
 id: "mg"
+language: "mg"
+script: "Latn"
 name: "Malagasy"
-preferred_name: ""
 autonym: "Malagasy"
 population: 24260130
 region: "MG"
-script: "Latin"
 exemplar_chars {
-  base: "A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ô a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô"
+  base: "a à â b d e é è ê ë f g h i ì î ï j k l m n ñ o ô p r s t v y z"
   auxiliary: "c q u w x"
-  marks: "◌̀ ◌́ ◌̂ ◌̈"
+  marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̈"
   numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "A B D E F G H I J K L M N O P R S T V Y Z"
 }
 sample_text {
   masthead_full: "TtEe"
   masthead_partial: "Rr"
-  tester: "Heverina fa ny fankatoavana ny fahamendrehan\'olombelona sy ny"
+  styles: "Heverina fa ny fankatoavana ny fahamendrehan\'olombelona"
+  tester: "Firenena Mikambana izy amin\'izany, Heverina fa tao anatin\'ny Dina"
   poster_sm: "Teraka afaka"
   poster_md: "Samy afaka"
   poster_lg: "Teraka"

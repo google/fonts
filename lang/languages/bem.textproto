@@ -1,20 +1,21 @@
 id: "bem"
+language: "bem"
+script: "Latn"
 name: "Bemba"
-preferred_name: ""
 autonym: "Chibemba"
 population: 5402246
 region: "ZM"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P S T U V W Y a b c d e f g h i j k l m n o p s t u v w y"
+  base: "a b c e f g i j k l m n o p s {sh} t u w y"
   auxiliary: "d h q r v x z"
   index: "A B C E F G I J K L M N O P S {SH} T U W Y"
 }
 sample_text {
   masthead_full: "AaBb"
   masthead_partial: "Nn"
-  tester: "Apo kwaba ukwishiba ubucindami bwa muntu nomulinganya pamo ne"
-  poster_sm: "Apo uku kana"
+  styles: "Apo kwaba ukwishiba ubucindami bwa muntu"
+  tester: "Apo uku kana posako mano nokusula insambu sha muntu fya lenga"
+  poster_sm: "Apo cikankala,"
   poster_md: "Apo caba"
   poster_lg: "Abantu"
   specimen_48: "Apo abantu bamu kabungwe kafyalo fyaikatana muli kalata balibwekeshapo"

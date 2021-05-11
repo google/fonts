@@ -1,13 +1,13 @@
 id: "wo"
+language: "wo"
+script: "Latn"
 name: "Wolof"
-preferred_name: ""
 autonym: "Wolof"
 population: 11025493
 region: "MR"
 region: "SN"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ã É Ë Ñ Ó Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y z à ã é ë ñ ó ŋ"
+  base: "a à b c d e é ë f g i j k l m n ñ ŋ o ó p q r s t u w x y"
   auxiliary: "ã h v z"
   marks: "◌̀ ◌́ ◌̃ ◌̈"
   numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
@@ -17,7 +17,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "DdOo"
   masthead_partial: "Mm"
-  tester: "Ñu jàpp te nangu ne sagu doomi aadama ak sañ-sañam yépp-dañu yam"
+  styles: "Ñu jàpp te nangu ne sagu doomi aadama ak"
+  tester: "Ñu jàpp ne ñakk xam ak soofantal sañ-sañi doomi aadama indi na"
   poster_sm: "Ñu jàpp ne"
   poster_md: "Ndaje mu"
   poster_lg: "Doomi"

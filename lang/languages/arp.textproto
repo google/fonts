@@ -1,0 +1,8 @@
+id: "arp"
+language: "arp"
+script: "Latn"
+name: "Arapaho"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

@@ -1,12 +1,9 @@
 id: "frp"
+language: "frp"
+script: "Latn"
 name: "Arpitan"
-preferred_name: ""
-autonym: ""
 population: 63777
 region: "FR"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

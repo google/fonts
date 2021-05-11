@@ -1,13 +1,10 @@
 id: "bfy"
+language: "bfy"
+script: "Deva"
 name: "Bagheli"
-preferred_name: ""
-autonym: ""
 population: 654423
 region: "IN"
 region: "NP"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

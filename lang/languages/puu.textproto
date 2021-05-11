@@ -1,12 +1,9 @@
 id: "puu"
+language: "puu"
+script: "Latn"
 name: "Punu"
-preferred_name: ""
-autonym: ""
 population: 200781
 region: "GA"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

@@ -1,0 +1,8 @@
+id: "pi"
+language: "pi"
+script: "Deva"
+name: "Pali"
+population: 0
+sample_text {
+  fallback_language: "hi"
+}

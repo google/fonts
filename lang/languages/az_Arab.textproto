@@ -1,16 +1,11 @@
 id: "az_Arab"
+language: "az"
+script: "Arab"
 name: "Azerbaijani (Arabic)"
-preferred_name: ""
-autonym: ""
 population: 21614414
 region: "IQ"
 region: "IR"
 region: "TR"
-script: "Cyrillic"
-script: "Latin"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "uz"
+  fallback_language: "ar"
 }

@@ -1,0 +1,8 @@
+id: "lzz_Latn"
+language: "lzz"
+script: "Latn"
+name: "Laz, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

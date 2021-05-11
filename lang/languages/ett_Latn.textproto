@@ -1,0 +1,8 @@
+id: "ett_Latn"
+language: "ett"
+script: "Latn"
+name: "Etruscan, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

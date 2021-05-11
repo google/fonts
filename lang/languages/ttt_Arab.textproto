@@ -1,0 +1,8 @@
+id: "ttt_Arab"
+language: "ttt"
+script: "Arab"
+name: "Muslim Tat, Perso-Arabic"
+population: 0
+sample_text {
+  fallback_language: "ar"
+}

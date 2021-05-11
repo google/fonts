@@ -1,12 +1,12 @@
 id: "dje"
+language: "dje"
+script: "Latn"
 name: "Zarma"
-preferred_name: ""
 autonym: "Zarmaciine"
 population: 3871308
 region: "NE"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ŋ Ɲ À Á Ã Ǎ Í Õ Ǒ Ô Š Ẽ Ě Ê Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô š ẽ ě ê ž"
+  base: "a ã b c d e ẽ f g h i j k l m n ɲ ŋ o õ p q r s š t u w x y z ž"
   auxiliary: "v"
   marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̌"
   numerals: "  \\- ‑ . % ‰ + 0 1 2 3 4 5 6 7 8 9"

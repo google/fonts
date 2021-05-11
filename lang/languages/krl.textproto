@@ -1,10 +1,10 @@
 id: "krl"
+language: "krl"
+script: "Latn"
 name: "Karelian"
-preferred_name: ""
 autonym: "Karjala"
 population: 116212
 region: "RU"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Č Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö č š ž"
   marks: "◌̈ ◌̌"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "KkAa"
   masthead_partial: "Ii"
-  tester: "Huomivoh ottajen, ku kaikile ristikanzoin pereheh kuulujile ominazen"
+  styles: "Huomivoh ottajen, ku kaikile ristikanzoin"
+  tester: "huomivoh ottajen, ku ristikanzan oigevuksien halveksindu da väheksindy"
   poster_sm: "sanou julgi"
   poster_md: "Kai rahvas"
   poster_lg: "Kai"

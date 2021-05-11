@@ -1,20 +1,19 @@
 id: "bug"
+language: "bug"
+script: "Latn"
 name: "Buginese"
-preferred_name: ""
 autonym: "Basa Ugi"
 population: 4298211
 region: "ID"
 region: "MY"
-script: "Latin"
 exemplar_chars {
-  base: "ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ"
-  marks: "◌ᨗ ◌ᨘ ◌ᨙ ◌ᨚ ◌ᨛ"
-  punctuation: "᨞ ᨟"
+  base: "A B C D E G I J K L M N O P R S T U W Y Ә a b c d e g i j k l m n o p r s t u w y \' ә"
 }
 sample_text {
   masthead_full: "SsIi"
   masthead_partial: "Nn"
-  tester: "Pura ritimbang nasengnge dipattongengngi ri asengnge allebbireng"
+  styles: "Pura ritimbang nasengnge dipattongengngi"
+  tester: "Pura ritimbang nasengnge gau de\'e nasipakalebbireng pole padatta"
   poster_sm: "Pura ritimbang"
   poster_md: "Riasengnge"
   poster_lg: "Sininna"

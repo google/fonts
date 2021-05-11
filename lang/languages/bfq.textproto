@@ -1,12 +1,9 @@
 id: "bfq"
+language: "bfq"
+script: "Taml"
 name: "Badaga"
-preferred_name: ""
-autonym: ""
 population: 305000
 region: "IN"
-script: "Tamil"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ta"
 }

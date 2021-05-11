@@ -1,12 +1,9 @@
 id: "rtm"
+language: "rtm"
+script: "Latn"
 name: "Rotuman"
-preferred_name: ""
-autonym: ""
 population: 2527
 region: "FJ"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

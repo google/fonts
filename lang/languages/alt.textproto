@@ -1,10 +1,10 @@
 id: "alt"
+language: "alt"
+script: "Cyrl"
 name: "Southern Altai"
-preferred_name: ""
 autonym: "Алтайча"
 population: 19841
 region: "RU"
-script: "Cyrillic"
 exemplar_chars {
   base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ј Ҥ Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ"
   marks: "◌̆ ◌̈"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "ОоНн"
   masthead_partial: "Чч"
-  tester: "Кижилик билезиниҥ  ончо турчыларыныҥ јарамыкту, јакшы јанын, онойдо"
+  styles: "Кижилик билезиниҥ  ончо турчыларыныҥ јарамыкту,"
+  tester: "Ончо улус ак‐јарыкка јайым ла теҥ‐тай тап‐эриктӱ туулат. Олор санааукаалу"
   poster_sm: "Кажы ла кижиде"
   poster_md: "Ого ӱзеери"
   poster_lg: "Ончо"

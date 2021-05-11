@@ -1,16 +1,12 @@
 id: "kk_Arab"
+language: "kk"
+script: "Arab"
 name: "Kazakh (Arabic)"
-preferred_name: ""
-autonym: ""
 population: 1418002
 region: "AF"
 region: "CN"
 region: "IR"
 region: "MN"
-script: "Cyrillic"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "uz"
+  fallback_language: "ar"
 }

@@ -1,10 +1,10 @@
 id: "arn"
+language: "arn"
+script: "Latn"
 name: "Mapuche"
-preferred_name: ""
 autonym: "Mapudungun"
 population: 272802
 region: "CL"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G I J K L M N O P Q R S T U W X Y Z Ü Ñ a b c d e f g i j k l m n o p q r s t u w x y z ü ñ"
   marks: "◌̃ ◌̈"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "KkOo"
   masthead_partial: "Mm"
-  tester: "Kimnieel fij mapu mew tañi kimgen kvme felen kisugvnew felen"
+  styles: "Kimnieel fij mapu mew tañi kimgen kvme felen"
+  tester: "Gewenonmu yamuwvn, zuamgewenonmu kvme felen, goymagenmu nor felen"
   poster_sm: "Tañi mvlenoam"
   poster_md: "Ka kimnieel"
   poster_lg: "Kom"

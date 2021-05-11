@@ -1,12 +1,9 @@
 id: "pfl"
+language: "pfl"
+script: "Latn"
 name: "Palatine German"
-preferred_name: ""
-autonym: ""
 population: 0
 region: "DE"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

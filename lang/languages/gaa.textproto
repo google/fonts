@@ -1,10 +1,10 @@
 id: "gaa"
+language: "gaa"
+script: "Latn"
 name: "Ga"
-preferred_name: ""
 autonym: "Gã"
 population: 821525
 region: "GH"
-script: "Latin"
 exemplar_chars {
   base: "A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z Ã Ẽ Ĩ Õ Ũ a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z ã ẽ ĩ õ ũ"
   marks: "◌̃"
@@ -12,9 +12,10 @@ exemplar_chars {
 sample_text {
   masthead_full: "AaFf"
   masthead_partial: "Ɔɔ"
-  tester: "Akɛni aŋɔɔ nɔ akɛ afɔ gbɔmɛi adesai fɛɛ akɛ mɛi ni yeɔ egbɔ kɛ"
-  poster_sm: "Akɛni bu ni"
-  poster_md: "Akɛni suɔmɔ"
+  styles: "Akɛni aŋɔɔ nɔ akɛ afɔ gbɔmɛi adesai fɛɛ akɛ"
+  tester: "Akɛni bu ni abuuu, kɛ asaŋ gbɔmɔ adesa hegbɛi anɔ ni anaanaa yɛ"
+  poster_sm: "Akɛni suɔmɔ"
+  poster_md: "Akɛni ehe"
   poster_lg: "Afɔ"
   specimen_48: "Akɛni mɛi ni yɔɔ Jeŋmaji Ekomefeemɔ Ku lɛ mli lɛ ema amɛhemɔkɛyeli"
   specimen_36: "Akɛni shishinumɔ ni aaana yɛ hegbɛi kɛ heyeli nɛɛ ahe baafee nɔ oti ni abaadamɔ nɔ koni shiwoo nɛɛ aye omanye hewɔ lɛ,"

@@ -1,12 +1,9 @@
 id: "noe"
+language: "noe"
+script: "Deva"
 name: "Nimadi"
-preferred_name: ""
-autonym: ""
 population: 1723917
 region: "IN"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

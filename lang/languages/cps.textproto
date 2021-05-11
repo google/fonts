@@ -1,12 +1,9 @@
 id: "cps"
+language: "cps"
+script: "Latn"
 name: "Capiznon"
-preferred_name: ""
-autonym: ""
 population: 720594
 region: "PH"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

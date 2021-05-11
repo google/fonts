@@ -1,0 +1,8 @@
+id: "car"
+language: "car"
+script: "Latn"
+name: "Carib"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

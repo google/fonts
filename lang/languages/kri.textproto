@@ -1,21 +1,21 @@
 id: "kri"
+language: "kri"
+script: "Latn"
 name: "Krio"
-preferred_name: ""
-autonym: ""
 population: 6293683
 region: "SL"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P S T U V W Y Z a b c d e ɛ f g h i j k l m n ŋ o ɔ p s t u v w y z"
 }
 sample_text {
   masthead_full: "ƐɛVv"
   masthead_partial: "Rr"
-  tester: "Soso we if wi sabi ɛn gri se if ɔlman gɛt insɛf yon rɛspɛkt, i"
-  poster_sm: "Di tiŋ we di"
-  poster_md: "If man fɔ"
+  styles: "Soso we if wi sabi ɛn gri se if ɔlman gɛt"
+  tester: "Di tiŋ we di kɔmɔn man want pas ɔltin na di wɔl tide na fɔ mek"
+  poster_sm: "If man fɔ liv"
+  poster_md: "Na semweso"
   poster_lg: "ɛvribɔdi"
-  specimen_48: "Na semweso i gud fɔ lɛ kolat ɛn frɛnship de bitwin neshɔn ɛn"
+  specimen_48: "We di Yunaytɛd Neshɔn dɛn sɛf si dis nain mek dɛn put am tranga"
   specimen_36: "Fɔ mek dis wanwɔd ol wata ɔloba di wɔl, ɛvribɔdi fɔɔndastand wetin dɛn rayt ɛn dɛn fridɔm, jɔstis ɛn pis yaso min."
   specimen_32: "ɛvribɔdi bɔn fri ɛn gɛt in yon rayt, nɔn wan nɔ pas in kɔmpin. Wi ɔl ebul fɔ tink ɛn fɛnɔt wetin rayt ɛn rɔŋ pantap dat wi fɔ sabi aw fɔ liv lɛk wan big famili."
   specimen_21: "ɛvribɔdi fɔ gɛt di sem rayt ɛn fridom we dis stetmɛnt tɔk bɔt, nɔ mata wɛda in na wetman ɔ blakman, man ɔ uman, bukman ɔ yu nɔ sabi rid ɛn rayt, poman ɔ mɔniman, kristiɛn ɔ muslim.\nPantap dat, di kɔntri we di pɔsin bɔn sɛf nɔ fɔ bi baria na in we. I fɔ gɛt ikwal rayt lɛk ɛni ɔda pɔsin na di bɛst divɛlop kɔntri na di wɔl."

@@ -1,12 +1,9 @@
 id: "bqv"
+language: "bqv"
+script: "Latn"
 name: "Koro Wachi"
-preferred_name: ""
-autonym: ""
 population: 46717
 region: "CI"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

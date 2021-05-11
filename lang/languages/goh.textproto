@@ -1,0 +1,8 @@
+id: "goh"
+language: "goh"
+script: "Latn"
+name: "Old High German"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

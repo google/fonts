@@ -1,12 +1,9 @@
 id: "amo"
+language: "amo"
+script: "Latn"
 name: "Amo"
-preferred_name: ""
-autonym: ""
 population: 18620
 region: "NG"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

@@ -1,13 +1,13 @@
 id: "tn"
+language: "tn"
+script: "Latn"
 name: "Tswana"
-preferred_name: ""
 autonym: "Setswana"
 population: 6113428
 region: "BW"
 region: "NA"
 region: "ZA"
 region: "ZW"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ê Ô Š a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š"
   marks: "◌̂ ◌̌"
@@ -15,7 +15,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "BbAa"
   masthead_partial: "Tt"
-  tester: "Go ntse jalo gore kamogelo ya tlhago ya seriti le tekatekano"
+  styles: "Go ntse jalo gore kamogelo ya tlhago ya seriti"
+  tester: "Go ntse jalo gore go itlhokomolosa le go nyatsa ditshwanelo tsa"
   poster_sm: "Go ntse jalo"
   poster_md: "JAANONG KA"
   poster_lg: "Batho"

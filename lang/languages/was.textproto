@@ -1,0 +1,8 @@
+id: "was"
+language: "was"
+script: "Latn"
+name: "Washo"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

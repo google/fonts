@@ -1,0 +1,8 @@
+id: "nia"
+language: "nia"
+script: "Latn"
+name: "Nias"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

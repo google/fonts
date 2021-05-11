@@ -1,11 +1,11 @@
 id: "lmo"
+language: "lmo"
+script: "Latn"
 name: "Lombard"
-preferred_name: ""
 autonym: "Lombard"
 population: 363284
 region: "CH"
 region: "IT"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ô Ø Ù Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü"
   marks: "◌̀ ◌́ ◌̂ ◌̈"

@@ -1,0 +1,8 @@
+id: "chn"
+language: "chn"
+script: "Latn"
+name: "Chinook Jargon"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

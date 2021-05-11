@@ -1,12 +1,9 @@
 id: "dak"
+language: "dak"
+script: "Latn"
 name: "Dakota"
-preferred_name: ""
-autonym: ""
 population: 19625
 region: "US"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

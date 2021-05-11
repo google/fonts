@@ -1,0 +1,8 @@
+id: "kjg_Latn"
+language: "kjg"
+script: "Latn"
+name: "Khmu, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

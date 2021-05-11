@@ -1,13 +1,9 @@
 id: "hif"
+language: "hif"
+script: "Deva"
 name: "Fiji Hindi"
-preferred_name: ""
-autonym: ""
 population: 383749
 region: "FJ"
-script: "Devanagari"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "hif"
+  fallback_language: "hi"
 }

@@ -1,12 +1,9 @@
 id: "gor"
+language: "gor"
+script: "Latn"
 name: "Gorontalo"
-preferred_name: ""
-autonym: ""
 population: 1094806
 region: "ID"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

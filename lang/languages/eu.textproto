@@ -1,13 +1,13 @@
 id: "eu"
+language: "eu"
+script: "Latn"
 name: "Basque"
-preferred_name: ""
 autonym: "Euskara"
 population: 1088518
 region: "ES"
 region: "FR"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü"
+  base: "a b c ç d e f g h i j k l m n ñ o p q r s t u v w x y z"
   auxiliary: "á à ă â å ä ã ā æ é è ĕ ê ë ē í ì ĭ î ï ī ó ò ŏ ô ö ø ō œ ú ù ŭ û ü ū ÿ"
   marks: "◌̃ ◌̈"
   numerals: ", . % ‰ + − 0 1 2 3 4 5 6 7 8 9"
@@ -17,7 +17,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "GgIi"
   masthead_partial: "Zz"
-  tester: "Kontuan izanik munduko askatasuna, justizia eta bakea giza familiako"
+  styles: "Kontuan izanik munduko askatasuna, justizia"
+  tester: "Kontuan izanik giza eskubideak ez ezagutzearen eta gutxiestearen"
   poster_sm: "Kontuan izanik"
   poster_md: "UNIBERTSAL"
   poster_lg: "guztiak"

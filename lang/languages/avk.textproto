@@ -1,0 +1,8 @@
+id: "avk"
+language: "avk"
+script: "Latn"
+name: "Kotava"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

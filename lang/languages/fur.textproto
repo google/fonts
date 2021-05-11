@@ -1,12 +1,12 @@
 id: "fur"
+language: "fur"
+script: "Latn"
 name: "Friulian"
-preferred_name: ""
 autonym: "Furlan"
 population: 37441
 region: "IT"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Â Ê Î Ô Û À È Ì Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z ç â ê î ô û à è ì ò ù"
+  base: "a à â b c ç d e è ê f g h i ì î j k l m n o ò ô p q r s t u ù û v w x y z"
   auxiliary: "å č é ë ğ ï ñ ó š ü"
   marks: "◌̀ ◌̂ ◌̧"
   numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
@@ -15,7 +15,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "DdUu"
   masthead_partial: "Cc"
-  tester: "Tignût cont che il ricognossi la dignitât di ducj i membris de"
+  styles: "Tignût cont che il ricognossi la dignitât"
+  tester: "Tignût cont che il dineâ e il spreseâ i derits dal om a an puartât"
   poster_sm: "Tignût cont"
   poster_md: "la Samblee"
   poster_lg: "Ducj"

@@ -1,0 +1,8 @@
+id: "gmh"
+language: "gmh"
+script: "Latn"
+name: "Middle High German"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

@@ -1,12 +1,9 @@
 id: "tcy"
+language: "tcy"
+script: "Knda"
 name: "Tulu"
-preferred_name: ""
-autonym: ""
 population: 1989135
 region: "IN"
-script: "Kannada"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "kn"
 }

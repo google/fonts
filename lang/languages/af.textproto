@@ -1,14 +1,14 @@
 id: "af"
+language: "af"
+script: "Latn"
 name: "Afrikaans"
-preferred_name: ""
 autonym: "Afrikaans"
 population: 9318845
 region: "BW"
 region: "NA"
 region: "ZA"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È Ê Ë Î Ï Ö Ô Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z è ê ë î ï ö ô û ü"
+  base: "a á â b c d e é è ê ë f g h i î ï j k l m n o ô ö p q r s t u û v w x y z"
   auxiliary: "à å ä ã æ ç í ì ó ò ú ù ü ý"
   marks: "◌̀ ◌̂ ◌̈"
   numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
@@ -18,7 +18,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "AaLl"
   masthead_partial: "Ee"
-  tester: "AANGESIEN erkenning vir die inherente waardigheid en die gelyke"
+  styles: "AANGESIEN erkenning vir die inherente waardigheid"
+  tester: "AANGESIEN minagting vir menseregte barbaarse dade wat die gewete"
   poster_sm: "AANGESIEN dit"
   poster_md: "AANGESIEN"
   poster_lg: "Alle"

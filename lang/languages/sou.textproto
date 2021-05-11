@@ -1,12 +1,9 @@
 id: "sou"
+language: "sou"
+script: "Thai"
 name: "Southern Thai"
-preferred_name: ""
-autonym: ""
 population: 5518192
 region: "TH"
-script: "Thai"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "th"
 }

@@ -1,11 +1,11 @@
 id: "sm"
+language: "sm"
+script: "Latn"
 name: "Samoan"
-preferred_name: ""
 autonym: "Sāmoa"
 population: 252716
 region: "AS"
 region: "WS"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū"
   marks: "◌̄"
@@ -13,8 +13,9 @@ exemplar_chars {
 sample_text {
   masthead_full: "OoTt"
   masthead_partial: "Aa"
-  tester: "Ona o le taliaina aloaia o le tofi mamalu faapea aia tatau tutusa"
-  poster_sm: "Ona o le le"
+  styles: "Ona o le taliaina aloaia o le tofi mamalu"
+  tester: "Ona o le le amanaiaina ma le manatu faatauvaa i aia tatau a tagata"
+  poster_sm: "Ona o ituaiga"
   poster_md: "Ona o lenei"
   poster_lg: "tagata"
   specimen_48: "Ua na faailoa aloaia mai, o lenei Tautinoga Aoao o Aia Tatau a"

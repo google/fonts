@@ -1,12 +1,9 @@
 id: "rmo"
+language: "rmo"
+script: "Latn"
 name: "Sinte Romani"
-preferred_name: ""
-autonym: ""
 population: 24371
 region: "CH"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

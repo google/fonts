@@ -1,0 +1,8 @@
+id: "osa_Latn"
+language: "osa"
+script: "Latn"
+name: "Osage, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

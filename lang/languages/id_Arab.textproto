@@ -1,0 +1,8 @@
+id: "id_Arab"
+language: "id"
+script: "Arab"
+name: "Indonesian, Perso-Arabic"
+population: 0
+sample_text {
+  fallback_language: "ar"
+}

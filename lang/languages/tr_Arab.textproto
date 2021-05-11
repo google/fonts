@@ -1,0 +1,8 @@
+id: "tr_Arab"
+language: "tr"
+script: "Arab"
+name: "Turkish, Perso-Arabic"
+population: 0
+sample_text {
+  fallback_language: "ar"
+}

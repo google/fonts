@@ -1,0 +1,8 @@
+id: "sad"
+language: "sad"
+script: "Latn"
+name: "Sandawe"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

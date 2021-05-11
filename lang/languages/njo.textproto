@@ -1,17 +1,17 @@
 id: "njo"
+language: "njo"
+script: "Latn"
 name: "Ao Naga"
-preferred_name: ""
-autonym: ""
 population: 305000
 region: "IN"
-script: "Latin"
 exemplar_chars {
   base: "A B C E I J K L M N O P R S T U Y Z a b c e i j k l m n o p r s t u y z"
 }
 sample_text {
   masthead_full: "MmEe"
   masthead_partial: "Ii"
-  tester: "Kechiaseralima rangben nung nung nisung ka tim temeten aser kasa"
+  styles: "Kechiaseralima rangben nung nung nisung ka"
+  tester: "Kechiaser mezüng meshitepba, aitsütepba, mashimalu mapa inyakba,"
   poster_sm: "Kechiaserkodang"
   poster_md: "Kechiaser"
   poster_lg: "Meimchir"

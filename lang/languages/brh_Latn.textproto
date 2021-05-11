@@ -1,0 +1,8 @@
+id: "brh_Latn"
+language: "brh"
+script: "Latn"
+name: "Brahui, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

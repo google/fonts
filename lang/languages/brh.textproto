@@ -1,12 +1,9 @@
 id: "brh"
+language: "brh"
+script: "Arab"
 name: "Brahui"
-preferred_name: ""
-autonym: ""
 population: 3035513
 region: "PK"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

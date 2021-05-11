@@ -1,0 +1,8 @@
+id: "hif_Latn"
+language: "hif"
+script: "Latn"
+name: "Fiji Hindi, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

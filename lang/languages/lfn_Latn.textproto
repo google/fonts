@@ -1,0 +1,8 @@
+id: "lfn_Latn"
+language: "lfn"
+script: "Latn"
+name: "Lingua Franca Nova, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

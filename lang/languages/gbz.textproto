@@ -1,12 +1,9 @@
 id: "gbz"
+language: "gbz"
+script: "Arab"
 name: "Zoroastrian Dari"
-preferred_name: ""
-autonym: ""
 population: 7982
 region: "IR"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

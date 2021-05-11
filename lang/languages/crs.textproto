@@ -1,17 +1,18 @@
 id: "crs"
+language: "crs"
+script: "Latn"
 name: "Seselwa Creole French"
-preferred_name: ""
 autonym: "Seselwa"
 population: 94061
 region: "SC"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
 }
 sample_text {
   masthead_full: "NnOo"
   masthead_partial: "Uu"
-  tester: "An rekonnesans ki dignite imen e bann drwa egal e enseparab pou"
+  styles: "An rekonnesans ki dignite imen e bann drwa"
+  tester: "An konsiderasyon ki mank konnesans e respe pou bann drwa imen"
   poster_sm: "Alor, Lasanble"
   poster_md: "Nou tou imen"
   poster_lg: "Nou"

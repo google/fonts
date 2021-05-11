@@ -1,12 +1,9 @@
 id: "ybb"
+language: "ybb"
+script: "Latn"
 name: "Yemba"
-preferred_name: ""
-autonym: ""
 population: 443920
 region: "CM"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

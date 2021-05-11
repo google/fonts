@@ -1,0 +1,8 @@
+id: "ks_Deva"
+language: "ks"
+script: "Deva"
+name: "Kashmiri, Devanagari"
+population: 0
+sample_text {
+  fallback_language: "hi"
+}

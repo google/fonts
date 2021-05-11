@@ -1,13 +1,13 @@
 id: "agq"
+language: "agq"
+script: "Latn"
 name: "Aghem"
-preferred_name: ""
 autonym: "Wum"
 population: 38843
 region: "CM"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I K L M N O P S T U V W Y Z À Â È Ê Ì Î Ò Ô Ù Û Ā Ē Ě Ī Ŋ Ō Ū Ǎ Ǐ Ǒ Ǔ Ɔ Ɛ Ɨ Ʉ a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ"
-  auxiliary: "Q R X q r x"
+  base: "a à â ǎ ā b c d e è ê ě ē ɛ {ɛ\\u0300} {ɛ\\u0302} {ɛ\\u030C} {ɛ\\u0304} f g h i ì î ǐ ī ɨ {ɨ\\u0300} {ɨ\\u0302} {ɨ\\u030C} {ɨ\\u0304} k l m n ŋ o ò ô ǒ ō ɔ {ɔ\\u0300} {ɔ\\u0302} {ɔ\\u030C} {ɔ\\u0304} p s t u ù û ǔ ū ʉ {ʉ\\u0300} {ʉ\\u0302} {ʉ\\u030C} {ʉ\\u0304} v w y z ʔ"
+  auxiliary: "q r x"
   marks: "◌̀ ◌̂ ◌̄ ◌̌"
   numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "A B C D E Ɛ F G H I Ɨ K L M N Ŋ O Ɔ P S T U Ʉ V W Y Z ʔ"

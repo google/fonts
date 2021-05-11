@@ -1,13 +1,14 @@
 id: "bua"
+language: "bua"
+script: "Cyrl"
 name: "Buriat"
 preferred_name: "Russian Buriat"
 autonym: "Буряад"
 population: 311788
 region: "RU"
-script: "Cyrillic"
 exemplar_chars {
-  base: "A B C Ç D E F G H I J K L M N O Ө P R S Ş T U V X Y Z Ƶ a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ"
-  marks: "◌̧"
+  base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ү Һ Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө"
+  marks: "◌̆ ◌̈"
 }
 sample_text {
   fallback_language: "ru"

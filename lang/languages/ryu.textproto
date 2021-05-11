@@ -1,12 +1,6 @@
 id: "ryu"
+language: "ryu"
+script: "Kana"
 name: "Central Okinawan"
-preferred_name: ""
-autonym: ""
 population: 966403
 region: "JP"
-script: "Katakana"
-exemplar_chars {
-}
-sample_text {
-  fallback_language: "ryu"
-}

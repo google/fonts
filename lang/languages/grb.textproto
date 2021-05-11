@@ -1,0 +1,8 @@
+id: "grb"
+language: "grb"
+script: "Latn"
+name: "Grebo"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

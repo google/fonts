@@ -1,12 +1,9 @@
 id: "kvr"
+language: "kvr"
+script: "Latn"
 name: "Kerinci"
-preferred_name: ""
-autonym: ""
 population: 373836
 region: "ID"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

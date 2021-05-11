@@ -1,0 +1,8 @@
+id: "za_Hans"
+language: "za"
+script: "Hans"
+name: "Zhuang, Simplified Han"
+population: 0
+sample_text {
+  fallback_language: "zh"
+}

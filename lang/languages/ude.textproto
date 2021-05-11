@@ -1,0 +1,7 @@
+id: "ude"
+language: "ude"
+script: "Cyrl"
+population: 0
+sample_text {
+  fallback_language: "ru"
+}

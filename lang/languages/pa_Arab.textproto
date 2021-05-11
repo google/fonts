@@ -1,11 +1,9 @@
 id: "pa_Arab"
+language: "pa"
+script: "Arab"
 name: "Punjabi (Arabic)"
-preferred_name: ""
-autonym: ""
 population: 163450700
 region: "PK"
-script: "Gurmukhi"
-script: "Perso-Arabic"
 exemplar_chars {
   base: "\\u064F ء آ ؤ ئ ا ب پ ت ث ٹ ج چ ح خ د ذ ڈ ر ز ڑ ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں ه ھ ہ و ی ے"
   auxiliary: "\\u200E\\u200F أ ٻ ة ٺ ټ ٽ"
@@ -13,5 +11,5 @@ exemplar_chars {
   index: "ء آ ؤ ئ ا ب پ ت ث ٹ ج چ ح خ د ذ ڈ ر ز ڑ ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں ه ھ ہ و ی ے"
 }
 sample_text {
-  fallback_language: "pa_Arab"
+  fallback_language: "ar"
 }

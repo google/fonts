@@ -1,12 +1,9 @@
 id: "dtp"
+language: "dtp"
+script: "Latn"
 name: "Central Dusun"
-preferred_name: ""
-autonym: ""
 population: 182851
 region: "MY"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

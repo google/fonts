@@ -1,12 +1,9 @@
 id: "crj"
+language: "crj"
+script: "Cans"
 name: "Southern East Cree"
-preferred_name: ""
-autonym: ""
 population: 7161
 region: "CA"
-script: "UCAS"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "cr"
+  fallback_language: "iu"
 }

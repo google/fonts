@@ -1,18 +1,16 @@
 id: "za"
+language: "za"
+script: "Latn"
 name: "Zhuang"
-preferred_name: ""
-autonym: ""
 population: 4321462
 region: "CN"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   masthead_full: "BbOo"
   masthead_partial: "Uu"
-  tester: "Aenvih roxnyinh vunz lajmbwn bonilaiz couh miz naj caeuq mboujbienq"
-  poster_sm: "Aenvih yawjsiuj"
-  poster_md: "Aenvih bwh"
+  styles: "Aenvih roxnyinh vunz lajmbwn bonilaiz couh"
+  tester: "Aenvih yawjsiuj vuhmez yinzgenz fazcanj baenz yejmanz bauhingz,"
+  poster_sm: "Aenvih bwh"
+  poster_md: "Aenvih aeu"
   poster_lg: "Boux"
   specimen_48: "Aenvih daengx lenzhozgoz guekgya dih yinzminz gaenq youq ndaw"
   specimen_36: "Aenvih gak veiyenzgoz gaenq siq nyuenh caeuq lenzhozgoz hozcoz, cuzcin yawjnaek, cinhhingz yinzgenz caeuq gijbwnj cwyouz,"

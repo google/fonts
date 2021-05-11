@@ -1,12 +1,9 @@
 id: "vic"
+language: "vic"
+script: "Latn"
 name: "Virgin Islands Creole English"
-preferred_name: ""
-autonym: ""
 population: 3113
 region: "SX"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

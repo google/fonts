@@ -1,0 +1,8 @@
+id: "sat_Deva"
+language: "sat"
+script: "Deva"
+name: "Santali, Devanagari"
+population: 0
+sample_text {
+  fallback_language: "hi"
+}

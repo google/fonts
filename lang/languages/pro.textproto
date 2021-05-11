@@ -1,0 +1,8 @@
+id: "pro"
+language: "pro"
+script: "Latn"
+name: "Old Provençal"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

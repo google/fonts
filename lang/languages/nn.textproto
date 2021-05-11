@@ -1,10 +1,9 @@
 id: "nn"
+language: "nn"
+script: "Latn"
 name: "Norwegian Nynorsk"
-preferred_name: ""
-autonym: ""
 population: 1366860
 region: "NO"
-script: "Latin"
 exemplar_chars {
   auxiliary: "á ǎ č ç đ è ê ń ñ ŋ š ŧ ü ž ä ö"
   punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) \\[ \\] § @ * / \\& # † ‡ ′ ″"
@@ -12,8 +11,9 @@ exemplar_chars {
 sample_text {
   masthead_full: "AaLl"
   masthead_partial: "Ee"
-  tester: "Då det å godkjenne det naturlege menneskeverdet med like og umissande"
-  poster_sm: "og då hån og"
+  styles: "Då det å godkjenne det naturlege menneskeverdet"
+  tester: "og då hån og vørdsløyse mot menneskerettane har ført til barbariske"
+  poster_sm: "og då det er"
   poster_md: "og då det"
   poster_lg: "Alle"
   specimen_48: "og då folka i Dei Sameinte Nasjonane har stadfest trua si i denne"

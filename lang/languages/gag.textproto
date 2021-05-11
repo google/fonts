@@ -1,10 +1,10 @@
 id: "gag"
+language: "gag"
+script: "Latn"
 name: "Gagauz"
-preferred_name: ""
-autonym: ""
+autonym: "Gagauzça"
 population: 111028
 region: "MD"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ê Ö Ü Ğ Ş Ţ Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ ș ț"
   marks: "◌̂ ◌̆ ◌̇ ◌̈ ◌̦ ◌̧"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "IiNn"
   masthead_partial: "Ss"
-  tester: "ESABA ALARAK, ani insan aylesi azaların kişilik saygılıı, onnarın"
+  styles: "ESABA ALARAK, ani insan aylesi azaların kişilik"
+  tester: "ESABA ALARAK, ani insan haklarına gösterilän saygısızlıktan hem"
   poster_sm: "ESABA ALARAK,"
   poster_md: "bildirer"
   poster_lg: "Insannar"

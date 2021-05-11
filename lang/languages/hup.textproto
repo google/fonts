@@ -1,0 +1,8 @@
+id: "hup"
+language: "hup"
+script: "Latn"
+name: "Hupa"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

@@ -1,0 +1,8 @@
+id: "tdg_Tibt"
+language: "tdg"
+script: "Tibt"
+name: "Western Tamang, Tibetan"
+population: 0
+sample_text {
+  fallback_language: "bo"
+}

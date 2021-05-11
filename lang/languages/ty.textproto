@@ -1,10 +1,10 @@
 id: "ty"
+language: "ty"
+script: "Latn"
 name: "Tahitian"
-preferred_name: ""
 autonym: "Reo Tahiti"
 population: 91487
 region: "PF"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū"
   marks: "◌̄"
@@ -12,8 +12,9 @@ exemplar_chars {
 sample_text {
   masthead_full: "EeFf"
   masthead_partial: "Aa"
-  tester: "I te fa\'ari\'i i te fa\'ati\'amā o te ihomana tumu o te mau mero tā\'āto\'a"
-  poster_sm: "I te fa\'ari\'i"
+  styles: "I te fa\'ari\'i i te fa\'ati\'amā o te ihomana tumu"
+  tester: "I te fa\'ari\'i e no te ha\'apa\'o\'ore, e no te fa\'afaufa\'a\'ore i te mau ti\'amanara\'a"
+  poster_sm: "I te fa\'afaufa\'a"
   poster_md: "I te fa\'ari\'i,"
   poster_lg: "fanauhia"
   specimen_48: "I te fa\'ari\'i i te \'opuara\'a\'amui a te mau Hau Mero e a te Fa\'anahora\'a"

@@ -1,12 +1,9 @@
 id: "dgr"
+language: "dgr"
+script: "Latn"
 name: "Dogrib"
-preferred_name: ""
-autonym: ""
 population: 2638
 region: "CA"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

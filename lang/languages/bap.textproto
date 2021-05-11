@@ -1,12 +1,9 @@
 id: "bap"
+language: "bap"
+script: "Deva"
 name: "Bantawa"
-preferred_name: ""
-autonym: ""
 population: 454918
 region: "NP"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

@@ -1,16 +1,9 @@
 id: "ars"
+language: "ars"
+script: "Arab"
 name: "Najdi Arabic"
-preferred_name: ""
-autonym: "نجدي"
 population: 1025205
 region: "SA"
-script: "Perso-Arabic"
-exemplar_chars {
-  base: "ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا پ ڤ ة"
-  auxiliary: "ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ"
-  marks: "◌َ ◌ُ ◌ِ ◌ْ ◌ٰ"
-  numerals: "٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩"
-}
 sample_text {
   fallback_language: "ar"
 }

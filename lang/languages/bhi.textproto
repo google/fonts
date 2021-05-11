@@ -1,12 +1,9 @@
 id: "bhi"
+language: "bhi"
+script: "Deva"
 name: "Bhilali"
-preferred_name: ""
-autonym: ""
 population: 1220002
 region: "IN"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

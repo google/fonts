@@ -1,0 +1,8 @@
+id: "sus_Arab"
+language: "sus"
+script: "Arab"
+name: "Susu, Perso-Arabic"
+population: 0
+sample_text {
+  fallback_language: "ar"
+}

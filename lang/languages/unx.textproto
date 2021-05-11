@@ -1,13 +1,9 @@
 id: "unx"
+language: "unx"
+script: "Beng"
 name: "Munda"
-preferred_name: ""
-autonym: ""
 population: 636523
 region: "IN"
-script: "Bangla"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "unr"
+  fallback_language: "bn"
 }

@@ -1,13 +1,13 @@
 id: "lkt"
+language: "lkt"
+script: "Latn"
 name: "Lakota"
-preferred_name: ""
 autonym: "Lakȟótiyapi"
 population: 8315
 region: "US"
-script: "Latin"
 exemplar_chars {
-  base: "A B E G H I K L M N O P S T U W Y Z Á É Í Ó Ú Č Ŋ Š Ž Ǧ Ȟ a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ"
-  auxiliary: "C D F J Q R V X c d f j q r v x"
+  base: "a á {aŋ} b č {čh} {čʼ} e é g ǧ h ȟ i í {iŋ} k {kh} {kȟ} {kʼ} l m n ŋ o ó p {ph} {pȟ} {pʼ} s š t {th} {tȟ} {tʼ} u ú {uŋ} w y z ž ʼ"
+  auxiliary: "c d f {ȟʼ} j q r {sʼ} {šʼ} v x"
   marks: "◌́ ◌̌"
   numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . \" “ ” ( ) \\[ \\] @ * / \\& #"

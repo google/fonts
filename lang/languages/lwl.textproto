@@ -1,12 +1,9 @@
 id: "lwl"
+language: "lwl"
+script: "Thai"
 name: "Eastern Lawa"
-preferred_name: ""
-autonym: ""
 population: 6897
 region: "TH"
-script: "Thai"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "th"
 }

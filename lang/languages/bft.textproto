@@ -1,13 +1,10 @@
 id: "bft"
+language: "bft"
+script: "Arab"
 name: "Balti"
-preferred_name: ""
-autonym: ""
 population: 502519
 region: "IN"
 region: "PK"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

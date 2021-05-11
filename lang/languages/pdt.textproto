@@ -1,12 +1,9 @@
 id: "pdt"
+language: "pdt"
+script: "Latn"
 name: "Plautdietsch"
-preferred_name: ""
-autonym: ""
 population: 90465
 region: "CA"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

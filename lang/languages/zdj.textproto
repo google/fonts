@@ -1,19 +1,15 @@
 id: "zdj"
+language: "zdj"
+script: "Arab"
 name: "Ngazidja Comorian"
-preferred_name: ""
-autonym: "شِكُمُرِ"
 population: 313123
 region: "KM"
-script: "Perso-Arabic"
-exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z"
-  marks: "◌َ ◌ُ ◌ِ ◌ّ"
-}
 sample_text {
   masthead_full: "WwOo"
   masthead_partial: "Aa"
-  tester: "1- Ha mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya"
-  poster_sm: "2- Ha mwakinisho"
+  styles: "1- Ha mwakinisho ukaya ho ukubali ye sheo"
+  tester: "2- Ha mwakinisho ukaya wo upuzi no uwoneya ze haki zaki binadamu"
+  poster_sm: "3- Ha mwakinisho"
   poster_md: "Wo wanadamu"
   poster_lg: "wanadamu"
   specimen_48: "Hayna mwanadamu gudjo djuwa udjinasbisha ne zehaki ne ze nyihuria"

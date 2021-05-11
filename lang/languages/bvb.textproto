@@ -1,12 +1,9 @@
 id: "bvb"
+language: "bvb"
+script: "Latn"
 name: "Bube"
-preferred_name: ""
-autonym: ""
 population: 66058
 region: "GQ"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

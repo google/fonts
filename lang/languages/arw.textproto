@@ -1,0 +1,8 @@
+id: "arw"
+language: "arw"
+script: "Latn"
+name: "Arawak"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

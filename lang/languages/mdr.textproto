@@ -1,12 +1,9 @@
 id: "mdr"
+language: "mdr"
+script: "Latn"
 name: "Mandar"
-preferred_name: ""
-autonym: ""
 population: 245663
 region: "ID"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

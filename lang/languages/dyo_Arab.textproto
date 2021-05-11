@@ -1,0 +1,8 @@
+id: "dyo_Arab"
+language: "dyo"
+script: "Arab"
+name: "Jola-Fonyi, Perso-Arabic"
+population: 0
+sample_text {
+  fallback_language: "ar"
+}

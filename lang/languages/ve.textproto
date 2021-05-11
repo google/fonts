@@ -1,11 +1,11 @@
 id: "ve"
+language: "ve"
+script: "Latn"
 name: "Venda"
-preferred_name: ""
 autonym: "Tshivenḓa"
 population: 1391759
 region: "ZA"
 region: "ZW"
-script: "Latin"
 exemplar_chars {
   base: "A B D Ḓ E F G H I K L Ḽ M N Ṋ Ṅ O P R S T Ṱ U V W X Y Z a b d ḓ e f g h i k l ḽ m n ṋ ṅ o p r s t ṱ u v w x y z"
   marks: "◌̇ ◌̭"
@@ -13,7 +13,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "VvHh"
   masthead_partial: "Aa"
-  tester: "Sa izwo u ḓivhea ha u dzhiela nṱha lwa mvele ya tshirunzi tsha"
+  styles: "Sa izwo u ḓivhea ha u dzhiela nṱha lwa mvele"
+  tester: "Sa izwo u dzhielwa fhasi na u tsikeledzwa ha pfanelo dza vhathu"
   poster_sm: "Sa izwo zwi"
   poster_md: "Sa izwo u"
   poster_lg: "Vhathu"

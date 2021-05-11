@@ -1,0 +1,8 @@
+id: "oj"
+language: "oj"
+script: "Cans"
+name: "Ojibwa"
+population: 0
+sample_text {
+  fallback_language: "iu"
+}

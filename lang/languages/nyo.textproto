@@ -1,0 +1,8 @@
+id: "nyo"
+language: "nyo"
+script: "Latn"
+name: "Nyoro"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

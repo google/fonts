@@ -1,12 +1,9 @@
 id: "crk"
+language: "crk"
+script: "Cans"
 name: "Plains Cree"
-preferred_name: ""
-autonym: ""
 population: 41463
 region: "CA"
-script: "UCAS"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "cr"
+  fallback_language: "iu"
 }

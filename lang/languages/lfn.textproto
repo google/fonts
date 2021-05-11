@@ -1,0 +1,8 @@
+id: "lfn"
+language: "lfn"
+script: "Cyrl"
+name: "Lingua Franca Nova"
+population: 0
+sample_text {
+  fallback_language: "ru"
+}

@@ -1,12 +1,9 @@
 id: "efi"
+language: "efi"
+script: "Latn"
 name: "Efik"
-preferred_name: ""
-autonym: ""
 population: 2996392
 region: "NG"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

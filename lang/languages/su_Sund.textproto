@@ -1,0 +1,13 @@
+id: "su_Sund"
+language: "su"
+script: "Sund"
+name: "Sundanese, Sundanese"
+autonym: "ᮘᮞ ᮞᮥᮔ᮪ᮓ"
+population: 0
+exemplar_chars {
+  base: "ᮊ ᮌ ᮍ ᮎ ᮏ ᮑ ᮒ ᮓ ᮔ ᮕ ᮘ ᮙ ᮚ ᮛ ᮜ ᮝ ᮞ ᮠ ᮖ ᮋ ᮗ ᮟ ᮐ ᮃ ᮆ ᮄ ᮇ ᮅ ᮈ ᮉ"
+  auxiliary: "ᮮ ᮯ ᮻ ᮼ ᮽ ᮾ ᮿ"
+  marks: "◌ᮀ ◌ᮁ ◌ᮂ ◌ᮡ ◌ᮢ ◌ᮣ ◌ᮤ ◌ᮥ ◌ᮦ ◌ᮧ ◌ᮨ ◌ᮩ ◌᮪ ◌ᮬ ◌ᮭ"
+  numerals: "᮱ ᮲ ᮳ ᮴ ᮵ ᮶ ᮷ ᮸ ᮹ ᮰ 1 2 3 4 5 6 7 8 9 0"
+  punctuation: "᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇"
+}

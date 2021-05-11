@@ -1,0 +1,13 @@
+id: "ban_Bali"
+language: "ban"
+script: "Bali"
+name: "Balinese, Balinese"
+autonym: "ᬪᬵᬱᬩᬮᬶ"
+population: 0
+exemplar_chars {
+  base: "ᬳ ᬦ ᬘ ᬭ ᬓ ᬤ ᬢ ᬲ ᬯ ᬮ ᬫ ᬕ ᬩ ᬗ ᬧ ᬚ ᬬ ᬜ ᬅ ᬆ ᬇ ᬈ ᬋ ᬌ ᬍ ᬎ ᬉ ᬊ ᬏ ᬐ ᬑ ᬒ"
+  auxiliary: "ᬡ ᬙ ᬔ ᬥ ᬟ ᬠ ᬣ ᬝ ᬞ ᬰ ᬱ ᬖ ᬪ ᬨ ᬛ"
+  marks: "◌ᬀ ◌ᬁ ◌ᬂ ◌ᬃ ◌ᬄ ◌᬴ ◌ᬵ ◌ᬶ ◌ᬷ ◌ᬸ ◌ᬹ ◌ᬺ ◌ᬾ ◌ᬿ"
+  numerals: "᭐ ᭕ ᭑ ᭖ ᭒ ᭗ ᭓ ᭘ ᭔ ᭙ 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "᭞ ᭟ ᭝ ᭜ ᭚ ᭛ ᭠"
+}

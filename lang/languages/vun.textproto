@@ -1,10 +1,9 @@
 id: "vun"
+language: "vun"
+script: "Latn"
 name: "Vunjo"
-preferred_name: ""
-autonym: ""
 population: 433290
 region: "TZ"
-script: "Latin"
 exemplar_chars {
   base: "a b c d e f g h i j k l m n o p r s t u v w y z"
   auxiliary: "q x"

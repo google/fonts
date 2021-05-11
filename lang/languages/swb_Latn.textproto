@@ -1,0 +1,12 @@
+id: "swb_Latn"
+language: "swb"
+script: "Latn"
+name: "Comorian, Latin"
+autonym: "Shikomori"
+population: 0
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z"
+}
+sample_text {
+  fallback_language: "en"
+}

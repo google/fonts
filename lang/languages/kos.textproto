@@ -1,12 +1,9 @@
 id: "kos"
+language: "kos"
+script: "Latn"
 name: "Kosraean"
-preferred_name: ""
-autonym: ""
 population: 7990
 region: "FM"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

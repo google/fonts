@@ -1,0 +1,8 @@
+id: "gon_Telu"
+language: "gon"
+script: "Telu"
+name: "Gondi, Telugu"
+population: 0
+sample_text {
+  fallback_language: "te"
+}

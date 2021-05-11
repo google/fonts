@@ -1,11 +1,11 @@
 id: "ay"
+language: "ay"
+script: "Latn"
 name: "Aymara"
-preferred_name: ""
 autonym: "Aymar"
 population: 2838620
 region: "BO"
 region: "PE"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ï Ñ Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’"
   marks: "◌̃ ◌̈"
@@ -13,7 +13,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "TtAa"
   masthead_partial: "Qq"
-  tester: "UNANCHASA, aka pachana jaqejh munañanïsina, cheqpacha amuyasisa,"
+  styles: "UNANCHASA, aka pachana jaqejh munañanïsina,"
+  tester: "UNANCHASA, jaqen walinkañapataki wakisir arunaka armasna, yaqhep"
   poster_sm: "UNANCHASA, jaqen"
   poster_md: "UNANCHASA,"
   poster_lg: "Taqpach"

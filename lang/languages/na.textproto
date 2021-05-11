@@ -1,12 +1,9 @@
 id: "na"
+language: "na"
+script: "Latn"
 name: "Nauru"
-preferred_name: ""
-autonym: ""
 population: 6930
 region: "NR"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

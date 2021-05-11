@@ -1,14 +1,12 @@
 id: "tg"
+language: "tg"
+script: "Cyrl"
 name: "Tajik"
-preferred_name: ""
 autonym: "Тоҷикӣ"
 population: 8873670
 region: "TJ"
-script: "Cyrillic"
-script: "Latin"
-script: "Perso-Arabic"
 exemplar_chars {
-  base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ч Ш Ъ Э Ю Я Ё Ғ Қ Ҳ Ҷ Ӣ Ӯ а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ"
+  base: "а б в г ғ д е ё ж з и ӣ й к қ л м н о п р с т у ӯ ф х ҳ ч ҷ ш ъ э ю я"
   auxiliary: "ц щ ы ь"
   marks: "◌̄ ◌̆ ◌̈"
   numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
@@ -18,7 +16,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "ТтАа"
   masthead_partial: "Мм"
-  tester: "Бо дарназардошти ин, ки этирофи қадру қимат ба ҳамаи аҳли башар"
+  styles: "Бо дарназардошти ин, ки этирофи қадру қимат"
+  tester: "бо дарназардошти ин, ки таҳкиру беэътиноӣ ба ҳуқуқи башар боиси"
   poster_sm: "Ассамблеяи"
   poster_md: "давлатҳо"
   poster_lg: "Тамоми"

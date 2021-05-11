@@ -1,10 +1,10 @@
 id: "dty"
+language: "dty"
+script: "Deva"
 name: "Dotyali"
-preferred_name: ""
 autonym: "डोटेली"
 population: 758197
 region: "NP"
-script: "Devanagari"
 exemplar_chars {
   base: "अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍"
   auxiliary: "ॐ"

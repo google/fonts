@@ -1,10 +1,10 @@
 id: "koi"
+language: "koi"
+script: "Cyrl"
 name: "Komi-Permyak"
-preferred_name: ""
 autonym: "Перем Коми"
 population: 63774
 region: "RU"
-script: "Cyrillic"
 exemplar_chars {
   base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ӧ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ӧ"
   marks: "◌̆ ◌̈"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "БбЫы"
   masthead_partial: "Дд"
-  tester: "Медбы тӧдны, что морт семьяись быд членлӧн эм аслас достоинство,"
+  styles: "Медбы тӧдны, что морт семьяись быд членлӧн"
+  tester: "медбы тӧдны, что колӧ керны быдӧс, медбы мортлӧн пра- воэз дозирайтсисӧ"
   poster_sm: "медбы тӧдны,"
   poster_md: "ГЕНЕРАЛЬНӦЙ"
   poster_lg: "Быдӧс"

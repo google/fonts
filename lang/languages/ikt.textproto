@@ -1,12 +1,9 @@
 id: "ikt"
+language: "ikt"
+script: "Latn"
 name: "Inuinnaqtun"
-preferred_name: ""
-autonym: ""
 population: 4146
 region: "CA"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

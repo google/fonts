@@ -1,13 +1,10 @@
 id: "btv"
+language: "btv"
+script: "Deva"
 name: "Bateri"
-preferred_name: ""
-autonym: ""
 population: 78843
 region: "IN"
 region: "PK"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

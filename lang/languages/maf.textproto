@@ -1,12 +1,9 @@
 id: "maf"
+language: "maf"
+script: "Latn"
 name: "Mafa"
-preferred_name: ""
-autonym: ""
 population: 205313
 region: "CM"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

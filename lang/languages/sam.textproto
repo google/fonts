@@ -1,0 +1,8 @@
+id: "sam"
+language: "sam"
+script: "Hebr"
+name: "Samaritan Aramaic"
+population: 0
+sample_text {
+  fallback_language: "he"
+}

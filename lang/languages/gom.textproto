@@ -1,14 +1,14 @@
 id: "gom"
+language: "gom"
+script: "Deva"
 name: "Goan Konkani"
-preferred_name: ""
 autonym: "गोवन कोंकणी"
 population: 4243488
 region: "IN"
-script: "Devanagari"
 exemplar_chars {
-  base: "A Ã B C Ç D E Ẽ F G H I Ĩ J K L M N Ñ O Õ P Q R S T U V W X Y Z a ã b c ç d e ẽ f g h i ĩ j k l m n ñ o õ p q r s t u v w x y z"
+  base: "अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ‌ ‍"
   auxiliary: "ॐ"
-  marks: "◌̃ ◌̧"
+  marks: "◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्"
   numerals: "० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9"
   punctuation: "। ॥ ॰"
 }

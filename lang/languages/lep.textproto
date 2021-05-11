@@ -1,14 +1,8 @@
 id: "lep"
+language: "lep"
+script: "Lepc"
 name: "Lepcha"
-preferred_name: ""
-autonym: ""
 population: 79744
 region: "BT"
 region: "IN"
 region: "NP"
-script: "Lepcha"
-exemplar_chars {
-}
-sample_text {
-  fallback_language: "lep"
-}

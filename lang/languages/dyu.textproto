@@ -1,19 +1,18 @@
 id: "dyu"
+language: "dyu"
+script: "Latn"
 name: "Dyula"
-preferred_name: ""
 autonym: "Julakan"
 population: 6667328
 region: "BF"
-script: "Latin"
 exemplar_chars {
-  base: "ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ"
-  marks: "◌߫ ◌߬ ◌߭ ◌߮ ◌߯ ◌߰ ◌߱"
-  numerals: "߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉"
+  base: "A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z"
 }
 sample_text {
   masthead_full: "WwÓó"
   masthead_partial: "Ll"
-  tester: "K’à mìna à mà kó dúnya’ mànton’ bɛɛ ká kan ni bònya ye, àni kó bɛɛ"
+  styles: "K’à mìna à mà kó dúnya’ mànton’ bɛɛ ká kan ni"
+  tester: "K’à mìna à mà kó mɔgɔya hákɛ lɔnbaliya’ ni à jàtebáliya’ nàna ni"
   poster_sm: "K’à mìna à mà"
   poster_md: "K’à mìna à"
   poster_lg: "Wólo’"

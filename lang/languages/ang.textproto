@@ -1,0 +1,8 @@
+id: "ang"
+language: "ang"
+script: "Latn"
+name: "Old English"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

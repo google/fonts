@@ -1,12 +1,9 @@
 id: "kxm"
+language: "kxm"
+script: "Thai"
 name: "Northern Khmer"
-preferred_name: ""
-autonym: ""
 population: 1172615
 region: "TH"
-script: "Thai"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "th"
 }

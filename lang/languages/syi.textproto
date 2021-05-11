@@ -1,0 +1,7 @@
+id: "syi"
+language: "syi"
+script: "Latn"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

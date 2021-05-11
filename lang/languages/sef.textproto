@@ -1,12 +1,9 @@
 id: "sef"
+language: "sef"
+script: "Latn"
 name: "Cebaara Senoufo"
-preferred_name: ""
-autonym: ""
 population: 1181687
 region: "CI"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

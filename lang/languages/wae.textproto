@@ -1,14 +1,14 @@
 id: "wae"
+language: "wae"
+script: "Latn"
 name: "Walser"
-preferred_name: ""
 autonym: "Walscher"
 population: 11376
 region: "CH"
 region: "LI"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ã Ä É Í Ó Õ Ö Ú Ü Č Š Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ"
-  auxiliary: "À Â Å Æ Ç È Ê Ë Ì Î Ï Ñ Ò Ô Ø Ù Û Ÿ Ā Ă Ē Ĕ Ī Ĭ Ō Ŏ Œ Ū Ŭ ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ"
+  base: "a á ä ã b c č d e é f g h i í j k l m n o ó ö õ p q r s š t u ú ü ũ v w x y z"
+  auxiliary: "à ă â å ā æ ç è ĕ ê ë ē ì ĭ î ï ī ñ ò ŏ ô ø ō œ ß ù ŭ û ū ÿ"
   marks: "◌́ ◌̃ ◌̈ ◌̌ ◌̀ ◌̂ ◌̄ ◌̆ ◌̊ ◌̧"
   numerals: "\\- ‑ , ’ % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"

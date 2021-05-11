@@ -1,0 +1,8 @@
+id: "rom_Cyrl"
+language: "rom"
+script: "Cyrl"
+name: "Romany, Cyrillic"
+population: 0
+sample_text {
+  fallback_language: "ru"
+}

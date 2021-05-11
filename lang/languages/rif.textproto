@@ -1,13 +1,9 @@
 id: "rif"
+language: "rif"
+script: "Tfng"
 name: "Riffian"
-preferred_name: ""
-autonym: ""
 population: 1742523
 region: "MA"
-script: "Latin"
-script: "Tifinagh"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "tzm"
+  fallback_language: "zgh"
 }

@@ -1,10 +1,10 @@
 id: "ht"
+language: "ht"
+script: "Latn"
 name: "Haitian Creole"
-preferred_name: ""
 autonym: "Kreyòl Ayisyen"
 population: 8964918
 region: "HT"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P R S T U V W Y Z È Ò a b c d e f g h i j k l m n o p r s t u v w y z è ò"
   auxiliary: "Q X À Á É Ó q x à á é ó"
@@ -13,7 +13,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Uu"
-  tester: "Lè nou sonje ke desizyon rekonèt valè chak moun genyen nan li"
+  styles: "Lè nou sonje ke desizyon rekonèt valè chak"
+  tester: "Lè nou sonje ke inyorans ak mepri dwa moun, konn lakòz divès move"
   poster_sm: "Lè nou sonje"
   poster_md: "Deklarasyon"
   poster_lg: "Tout"

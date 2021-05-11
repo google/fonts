@@ -1,13 +1,9 @@
 id: "unr_Deva"
+language: "unr"
+script: "Deva"
 name: "Mundari (Devanagari)"
-preferred_name: ""
-autonym: ""
 population: 5762
 region: "NP"
-script: "Bangla"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "unr"
+  fallback_language: "hi"
 }

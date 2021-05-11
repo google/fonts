@@ -1,16 +1,14 @@
 id: "rgn"
+language: "rgn"
+script: "Latn"
 name: "Romagnol"
-preferred_name: ""
-autonym: ""
 population: 0
 region: "IT"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Jj"
-  tester: "Considerèd che u riconoscimènt dla dignità cla riguèrda tot i"
+  styles: "Considerèd che u riconoscimènt dla dignità"
+  tester: "Considerèd che la negazioun e el disprèz di dirét umèn i à port"
   poster_sm: "Considerèd"
   poster_md: "L\'ASEMBLEA"
   poster_lg: "Tot"

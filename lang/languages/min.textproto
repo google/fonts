@@ -1,10 +1,10 @@
 id: "min"
+language: "min"
+script: "Latn"
 name: "Minangkabau"
-preferred_name: ""
 autonym: "Baso Minangkabau"
 population: 8010780
 region: "ID"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W Y Z a b c d e f g h i j k l m n o p q r s t u v w y z"
   auxiliary: "X x"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "SsAa"
   masthead_partial: "Dd"
-  tester: "Sasungguahnyo pangakuan taradok martabat dasar dan hak-hak nan"
+  styles: "Sasungguahnyo pangakuan taradok martabat"
+  tester: "Sasungguahnyo sikap tak paduli dan malecehkan hak-hak asasi manusia"
   poster_sm: "Sasungguahnyo"
   poster_md: "Deklarasi"
   poster_lg: "Sadonyo"

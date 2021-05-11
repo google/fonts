@@ -1,12 +1,9 @@
 id: "rjs"
+language: "rjs"
+script: "Deva"
 name: "Rajbanshi"
-preferred_name: ""
-autonym: ""
 population: 133442
 region: "NP"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

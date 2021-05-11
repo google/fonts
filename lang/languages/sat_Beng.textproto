@@ -1,0 +1,8 @@
+id: "sat_Beng"
+language: "sat"
+script: "Beng"
+name: "Santali, Bengali"
+population: 0
+sample_text {
+  fallback_language: "bn"
+}

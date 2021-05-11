@@ -1,12 +1,12 @@
 id: "tt"
+language: "tt"
+script: "Cyrl"
 name: "Tatar"
-preferred_name: ""
 autonym: "Татарча"
 population: 1984108
 region: "RU"
-script: "Cyrillic"
 exemplar_chars {
-  base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Җ Ң Ү Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө"
+  base: "а ә б в г д е ё ж җ з и й к л м н ң о ө п р с т у ү ф х һ ц ч ш щ ъ ы ь э ю я"
   auxiliary: "ғ қ"
   marks: "◌̆ ◌̈"
   punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) \\[ \\] § @ * / \\& # ′ ″"
@@ -15,7 +15,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "БбАа"
   masthead_partial: "Рр"
-  tester: "Кешелек гаиләсенең бөтен әгъзаларына хас булган тигез һәм аерылгысыз"
+  styles: "Кешелек гаиләсенең бөтен әгъзаларына хас"
+  tester: "кеше хокукларына кимсетеп һәм җирәнеп каруның вәхшилеккә китерүен,"
   poster_sm: "җәберләүгә"
   poster_md: "Кешенең төп"
   poster_lg: "Барлык"

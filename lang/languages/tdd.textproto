@@ -1,12 +1,6 @@
 id: "tdd"
+language: "tdd"
+script: "Tale"
 name: "Tai Nüa"
-preferred_name: ""
-autonym: ""
 population: 264863
 region: "CN"
-script: "Tai Le"
-exemplar_chars {
-}
-sample_text {
-  fallback_language: "tdd"
-}

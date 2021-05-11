@@ -1,12 +1,9 @@
 id: "mwv"
+language: "mwv"
+script: "Latn"
 name: "Mentawai"
-preferred_name: ""
-autonym: ""
 population: 64086
 region: "ID"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

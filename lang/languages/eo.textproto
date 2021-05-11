@@ -1,12 +1,12 @@
 id: "eo"
+language: "eo"
+script: "Latn"
 name: "Esperanto"
-preferred_name: ""
 autonym: "Esperanto"
 population: 301
 region: "SM"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĉ Ĝ Ĥ Ĵ Ŝ Ŭ a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ"
+  base: "a b c ĉ d e f g ĝ h ĥ i j ĵ k l m n o p r s ŝ t u ŭ v z"
   auxiliary: "q w x y"
   marks: "◌̂ ◌̆"
   numerals: "  , % ‰ + − 0 1 2 3 4 5 6 7 8 9"
@@ -16,7 +16,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "ĈĉIi"
   masthead_partial: "Uu"
-  tester: "Pro tio, ke agnosko de la esenca digno kaj de la egalaj kaj nefordoneblaj"
+  styles: "Pro tio, ke agnosko de la esenca digno kaj"
+  tester: "Pro tio, ke malagnosko kaj malestimo de la homaj rajtoj rezultigis"
   poster_sm: "Pro tio, ke"
   poster_md: "La Ĝenerala"
   poster_lg: "Ĉiuj"

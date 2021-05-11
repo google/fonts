@@ -1,13 +1,13 @@
 id: "ny"
+language: "ny"
+script: "Latn"
 name: "Nyanja"
-preferred_name: ""
 autonym: "Chicheŵa"
 population: 17026780
 region: "MW"
 region: "MZ"
 region: "ZM"
 region: "ZW"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ŋ Ŵ a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ"
   marks: "◌̂"
@@ -15,7 +15,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "AaNn"
   masthead_partial: "Tt"
-  tester: "Popeza kuti citsimikizo ca khalidwe loyenera la munthu mu banja"
+  styles: "Popeza kuti citsimikizo ca khalidwe loyenera"
+  tester: "Popeza kuti kusalabadira ufulu wa munthu kwabweretsa khalidwe"
   poster_sm: "Popeza kuti"
   poster_md: "Anthu onse"
   poster_lg: "Anthu"

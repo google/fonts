@@ -1,10 +1,10 @@
 id: "pam"
+language: "pam"
+script: "Latn"
 name: "Pampanga"
-preferred_name: ""
 autonym: "Kapampangan"
 population: 2511162
 region: "PH"
-script: "Latin"
 exemplar_chars {
   base: "A B D E G H I K L M N O P Q R S T U W Y a b d e g h i k l m n o p r s t u w y"
   auxiliary: "C F J V X Z c f j q v x z"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "DdIi"
   masthead_partial: "Nn"
-  tester: "Uling ing pamangilala king likas a karangalan at king pante at"
+  styles: "Uling ing pamangilala king likas a karangalan"
+  tester: "Dapat aintingdian ding sablang bibilug karing sablang pamilya"
   poster_sm: "Uling e tamu"
   poster_md: "Lebagan do"
   poster_lg: "Ding"

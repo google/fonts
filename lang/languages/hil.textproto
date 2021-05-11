@@ -1,17 +1,18 @@
 id: "hil"
+language: "hil"
+script: "Latn"
 name: "Hiligaynon"
-preferred_name: ""
 autonym: "Ilonggo"
 population: 9171204
 region: "PH"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
 }
 sample_text {
   masthead_full: "AaNn"
   masthead_partial: "Gg"
-  tester: "Tungod kay ang pagkilala sang duna nga dungog kag ang alalangay"
+  styles: "Tungod kay ang pagkilala sang duna nga dungog"
+  tester: "Tungod kay ang pagpabaya kag paghamak sa mga katarungang pangkataohan"
   poster_sm: "Tungod kay"
   poster_md: "Tungod sini,"
   poster_lg: "Ang"

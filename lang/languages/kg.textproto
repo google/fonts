@@ -1,17 +1,18 @@
 id: "kg"
+language: "kg"
+script: "Latn"
 name: "Kongo"
-preferred_name: ""
 autonym: "Kikongo"
 population: 1526700
 region: "CD"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
 }
 sample_text {
   masthead_full: "BbAa"
   masthead_partial: "Nn"
-  tester: "Nakutalaka ti kutambula ngenda ya binama nyonso ya dikanda na"
+  styles: "Nakutalaka ti kutambula ngenda ya binama"
+  tester: "Nakutalaka ti bunzimbu mpe mvwezolo baluve ya muntu metumia kusala"
   poster_sm: "Nakutalaka"
   poster_md: "Lukutakanu"
   poster_lg: "Bantu"

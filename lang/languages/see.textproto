@@ -1,0 +1,8 @@
+id: "see"
+language: "see"
+script: "Latn"
+name: "Seneca"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

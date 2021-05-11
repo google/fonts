@@ -1,13 +1,13 @@
 id: "ba"
+language: "ba"
+script: "Cyrl"
 name: "Bashkir"
-preferred_name: ""
 autonym: "Башҡортса"
 population: 1842386
 region: "RU"
-script: "Cyrillic"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ö Ü Č Ğ Ķ Ņ Ś Ş Š Ź a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź"
-  marks: "◌́ ◌̆ ◌̇ ◌̈ ◌̌ ◌̧"
+  base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ғ Ҙ Ҡ Ң Ҫ Ү Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ ң ҫ ү һ ә ө"
+  marks: "◌̆ ◌̈"
 }
 sample_text {
   fallback_language: "ru"

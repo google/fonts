@@ -1,0 +1,8 @@
+id: "inh_Arab"
+language: "inh"
+script: "Arab"
+name: "Ingush, Perso-Arabic"
+population: 0
+sample_text {
+  fallback_language: "ar"
+}

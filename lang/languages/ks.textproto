@@ -1,18 +1,16 @@
 id: "ks"
+language: "ks"
+script: "Arab"
 name: "Kashmiri"
-preferred_name: ""
-autonym: ""
 population: 5723030
 region: "GB"
 region: "IN"
 region: "PK"
-script: "Devanagari"
-script: "Perso-Arabic"
 exemplar_chars {
   base: "ء آ أ ٲ ؤ ا ب پ ت ث ٹ ج چ ح خ د ذ ڈ ر ز ڑ ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں ھ ہ و ۄ ۆ ی ۍ ؠ ے"
   auxiliary: "\\u200E\\u200F \\u064E \\u064F \\u0650 \\u0654 \\u0655 \\u065F \\u0656 \\u0657"
   numerals: "\\u200E \\- ‑ , . % ‰ + 0۰ 1۱ 2۲ 3۳ 4۴ 5۵ 6۶ 7۷ 8۸ 9۹"
 }
 sample_text {
-  fallback_language: "sd"
+  fallback_language: "ar"
 }

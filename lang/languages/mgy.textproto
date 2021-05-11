@@ -1,12 +1,9 @@
 id: "mgy"
+language: "mgy"
+script: "Latn"
 name: "Mbunga"
-preferred_name: ""
-autonym: ""
 population: 819739
 region: "TZ"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

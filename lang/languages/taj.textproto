@@ -1,16 +1,16 @@
 id: "taj"
+language: "taj"
+script: "Deva"
 name: "Eastern Tamang"
-preferred_name: ""
 autonym: "तामाङ‎"
 population: 130409
 region: "NP"
-script: "Devanagari"
 exemplar_chars {
-  base: "ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ"
+  base: "अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ‌ ‍"
   auxiliary: "ॐ"
-  marks: "◌ི ◌ུ ◌ེ ◌ོ"
-  numerals: "༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩"
-  punctuation: "༄ ༈ ་ ། ༎ ༔ ༺ ༻"
+  marks: "◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्"
+  numerals: "० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "। ॥ ॰"
 }
 sample_text {
   fallback_language: "hi"

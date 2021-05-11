@@ -1,13 +1,13 @@
 id: "et"
+language: "et"
+script: "Latn"
 name: "Estonian"
-preferred_name: ""
 autonym: "Eesti"
 population: 878449
 region: "EE"
 region: "FI"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž"
+  base: "a b c d e f g h i j k l m n o p q r s š z ž t u v w õ ä ö ü x y"
   auxiliary: "á à â å ã ā æ ç é è ê ë ē í ì î ï ī ñ ó ò ŏ ô ø ō œ ú ù û ū"
   marks: "◌̃ ◌̈ ◌̌"
   numerals: "  , % ‰ + − 0 1 2 3 4 5 6 7 8 9"
@@ -17,8 +17,9 @@ exemplar_chars {
 sample_text {
   masthead_full: "KkÕõ"
   masthead_partial: "Ii"
-  tester: "Pidades silmas, et inimkonna kõigi liikmete väärikuse, nende võrdsuse"
-  poster_sm: "pidades silmas,"
+  styles: "Pidades silmas, et inimkonna kõigi liikmete"
+  tester: "pidades silmas, et inimõiguste põlastamine ja hülgamine on viinud"
+  poster_sm: "pidades silmas"
   poster_md: "kuulutab"
   poster_lg: "Kõik"
   specimen_48: "käesolevaga Inimõiguste ülddeklaratsiooni kui ülesande, mida peavad"

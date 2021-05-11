@@ -1,13 +1,10 @@
 id: "grt"
+language: "grt"
+script: "Beng"
 name: "Garo"
-preferred_name: ""
-autonym: ""
 population: 821562
 region: "BD"
 region: "IN"
-script: "Bangla"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "bn"
 }

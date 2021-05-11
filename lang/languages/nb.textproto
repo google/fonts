@@ -1,17 +1,15 @@
 id: "nb"
+language: "nb"
+script: "Latn"
 name: "Norwegian Bokmål"
-preferred_name: ""
-autonym: ""
 population: 5468932
 region: "NO"
 region: "SJ"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   masthead_full: "AaLl"
   masthead_partial: "Ee"
-  tester: "Da anerkjennelsen av menneskeverd og like og umistelige rettigheter"
+  styles: "Da anerkjennelsen av menneskeverd og like"
+  tester: "da tilsidesettelse av og forakt for menneskerettighetene har"
   poster_sm: "da De Forente"
   poster_md: "nå denne"
   poster_lg: "Alle"

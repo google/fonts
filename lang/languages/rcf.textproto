@@ -1,12 +1,9 @@
 id: "rcf"
+language: "rcf"
+script: "Latn"
 name: "Réunion Creole French"
-preferred_name: ""
-autonym: ""
 population: 559184
 region: "RE"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

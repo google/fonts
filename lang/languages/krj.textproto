@@ -1,12 +1,9 @@
 id: "krj"
+language: "krj"
+script: "Latn"
 name: "Kinaray-a"
-preferred_name: ""
-autonym: ""
 population: 425805
 region: "PH"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

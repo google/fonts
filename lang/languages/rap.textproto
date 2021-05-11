@@ -1,0 +1,8 @@
+id: "rap"
+language: "rap"
+script: "Latn"
+name: "Rapanui"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

@@ -1,12 +1,9 @@
 id: "lmn"
+language: "lmn"
+script: "Telu"
 name: "Lambadi"
-preferred_name: ""
-autonym: ""
 population: 3580443
 region: "IN"
-script: "Telugu"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "te"
 }

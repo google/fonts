@@ -1,0 +1,8 @@
+id: "tg_Latn"
+language: "tg"
+script: "Latn"
+name: "Tajik, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

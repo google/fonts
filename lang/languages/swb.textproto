@@ -1,18 +1,14 @@
 id: "swb"
+language: "swb"
+script: "Arab"
 name: "Comorian"
-preferred_name: ""
-autonym: "شِكُمُرِ"
 population: 170720
 region: "YT"
-script: "Perso-Arabic"
-exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z"
-  marks: "◌َ ◌ُ ◌ِ ◌ّ"
-}
 sample_text {
   masthead_full: "WwAa"
   masthead_partial: "Nn"
-  tester: "Ha uwafiki amba mukuɓalio wa sheo wahuswiana na watru piya wapanga"
+  styles: "Ha uwafiki amba mukuɓalio wa sheo wahuswiana"
+  tester: "Ha uwafiki amba muharalio na mupuzisio wa zihaki za mwanadamu"
   poster_sm: "Ha uwafiki"
   poster_md: "Liɓaraza"
   poster_lg: "Wanadamu"

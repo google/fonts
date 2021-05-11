@@ -1,0 +1,8 @@
+id: "xum_Latn"
+language: "xum"
+script: "Latn"
+name: "Umbrian, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

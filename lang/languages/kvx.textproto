@@ -1,12 +1,9 @@
 id: "kvx"
+language: "kvx"
+script: "Arab"
 name: "Parkari Koli"
-preferred_name: ""
-autonym: ""
 population: 373601
 region: "PK"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

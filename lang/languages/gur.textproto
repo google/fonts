@@ -1,12 +1,9 @@
 id: "gur"
+language: "gur"
+script: "Latn"
 name: "Frafra"
-preferred_name: ""
-autonym: ""
 population: 1026907
 region: "GH"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

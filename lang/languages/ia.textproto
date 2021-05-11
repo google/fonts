@@ -1,19 +1,21 @@
 id: "ia"
+language: "ia"
+script: "Latn"
 name: "Interlingua"
 preferred_name: "Interlingua"
 autonym: "Interlingua"
 population: 135
 region: "FR"
 region: "SE"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+  base: "a b c {ch} d e f g h i j k l m n o p {ph} q r s t u v w x y z"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Ee"
-  tester: "Considerante que le recognoscentia del dignitate inherente a"
+  styles: "Considerante que le recognoscentia del dignitate"
+  tester: "Considerante que le ignorantia e le disprecio del derectos human"
   poster_sm: "Considerante"
   poster_md: "Le Assemblea"
   poster_lg: "Tote"

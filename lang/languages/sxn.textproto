@@ -1,12 +1,9 @@
 id: "sxn"
+language: "sxn"
+script: "Latn"
 name: "Sangir"
-preferred_name: ""
-autonym: ""
 population: 245663
 region: "ID"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

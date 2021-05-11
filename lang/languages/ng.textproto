@@ -1,17 +1,17 @@
 id: "ng"
+language: "ng"
+script: "Latn"
 name: "Ndonga"
-preferred_name: ""
-autonym: ""
 population: 552314
 region: "NA"
-script: "Latin"
 exemplar_chars {
   base: "A B D E F G H I J K L M N O P R S T U V W Y Z a b d e f g h i j k l m n o p r s t u v w y z"
 }
 sample_text {
   masthead_full: "AaNn"
   masthead_partial: "Tt"
-  tester: "Uuna mpoka pwa taambwa ko esimano lyomuntu pavalo nuuthikepamwe"
+  styles: "Uuna mpoka pwa taambwa ko esimano lyomuntu"
+  tester: "Uuna mpoka uuthemba womuntu inaau simanekwa nowa dhinika e tau"
   poster_sm: "Uuna mpoka"
   poster_md: "Uuna aantu"
   poster_lg: "Aantu"

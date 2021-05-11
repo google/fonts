@@ -1,12 +1,9 @@
 id: "swg"
+language: "swg"
+script: "Latn"
 name: "Swabian"
-preferred_name: ""
-autonym: ""
 population: 801597
 region: "DE"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

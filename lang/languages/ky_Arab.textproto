@@ -1,14 +1,9 @@
 id: "ky_Arab"
+language: "ky"
+script: "Arab"
 name: "Kyrgyz (Arabic)"
-preferred_name: ""
-autonym: ""
 population: 473966
 region: "CN"
-script: "Cyrillic"
-script: "Latin"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "uz"
+  fallback_language: "ar"
 }

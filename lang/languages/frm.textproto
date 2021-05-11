@@ -1,0 +1,8 @@
+id: "frm"
+language: "frm"
+script: "Latn"
+name: "Middle French"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

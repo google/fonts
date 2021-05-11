@@ -1,12 +1,9 @@
 id: "fit"
+language: "fit"
+script: "Latn"
 name: "Tornedalen Finnish"
-preferred_name: ""
-autonym: ""
 population: 56113
 region: "SE"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

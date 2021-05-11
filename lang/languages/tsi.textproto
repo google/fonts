@@ -1,0 +1,8 @@
+id: "tsi"
+language: "tsi"
+script: "Latn"
+name: "Tsimshian"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

@@ -1,12 +1,9 @@
 id: "aro"
+language: "aro"
+script: "Latn"
 name: "Araona"
-preferred_name: ""
-autonym: ""
 population: 104
 region: "BO"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

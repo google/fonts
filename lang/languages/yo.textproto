@@ -1,14 +1,14 @@
 id: "yo"
+language: "yo"
+script: "Latn"
 name: "Yoruba"
-preferred_name: ""
 autonym: "Èdè Yorùbá"
 population: 28685568
 region: "BJ"
 region: "NG"
-script: "Latin"
 exemplar_chars {
-  base: "A B D E F G H I J K L M N O P R S T U W Y À Á Ā È É Ē Ẹ Ì Í Ī Ò Ó Ō Ọ Ù Ú Ū Ṣ a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ"
-  auxiliary: "Ɔ Ɛ ɔ ɛ"
+  base: "a á à b d e é è ẹ {ẹ\\u0301} {ẹ\\u0300} f g {gb} h i í ì j k l m ḿ {m\\u0300} n ń ǹ o ó ò ọ {ọ\\u0301} {ọ\\u0300} p r s ṣ t u ú ù w y"
+  auxiliary: "c q v x z"
   marks: "◌̀ ◌́ ◌̄ ◌̣"
   punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ’ \" “ ” ( ) @ * / \\& # † ‡ ′ ″"
   index: "A B D E F G H I J K L M N O P R S T U W Y"
@@ -16,7 +16,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "GgBb"
   masthead_partial: "Oo"
-  tester: "Bí ó ti jé̩ pé s̩ís̩e àkíyèsí iyì tó jé̩ àbímó̩ fún è̩dá àti ìdó̩gba"
+  styles: "Bí ó ti jé̩ pé s̩ís̩e àkíyèsí iyì tó jé̩ àbímó̩"
+  tester: "Bí ó ti jé̩ pé àìka àwo̩n è̩tó̩ o̩mo̩nìyàn sí àti ìké̩gàn àwo̩n è̩tó̩ wò̩nyí"
   poster_sm: "Bí ó ti jé̩"
   poster_md: "Àpapò̩ ìgbìmò̩"
   poster_lg: "Gbogbo"

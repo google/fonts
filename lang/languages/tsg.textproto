@@ -1,12 +1,9 @@
 id: "tsg"
+language: "tsg"
+script: "Latn"
 name: "Tausug"
-preferred_name: ""
-autonym: ""
 population: 1200991
 region: "PH"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

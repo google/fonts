@@ -1,0 +1,8 @@
+id: "ain_Latn"
+language: "ain"
+script: "Latn"
+name: "Ainu, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

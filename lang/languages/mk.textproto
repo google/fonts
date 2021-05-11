@@ -1,14 +1,14 @@
 id: "mk"
+language: "mk"
+script: "Cyrl"
 name: "Macedonian"
-preferred_name: ""
 autonym: "Македонски"
 population: 1608564
 region: "AL"
 region: "GR"
 region: "MK"
-script: "Cyrillic"
 exemplar_chars {
-  base: "А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ѓ Ѕ Ј Љ Њ Ќ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ Ѐ Ѝ ѐ ѝ"
+  base: "а б в г д ѓ е ж з ѕ и ј к л љ м н њ о п р с т ќ у ф х ц ч џ ш"
   auxiliary: "ѐ ѝ"
   marks: "◌́ ◌̀"
   numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
@@ -18,7 +18,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "СсИи"
   masthead_partial: "Тт"
-  tester: "Бидејќи признавањето на вроденото достоинство, и на еднаквите"
+  styles: "Бидејќи признавањето на вроденото достоинство,"
+  tester: "Бидејќи непочитувањето и омаловажувањето на човековите права"
   poster_sm: "Бидејќи земјите"
   poster_md: "Генералното"
   poster_lg: "Сите"

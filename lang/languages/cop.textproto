@@ -1,0 +1,8 @@
+id: "cop"
+language: "cop"
+script: "Arab"
+name: "Coptic"
+population: 0
+sample_text {
+  fallback_language: "ar"
+}

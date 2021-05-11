@@ -1,0 +1,8 @@
+id: "eka"
+language: "eka"
+script: "Latn"
+name: "Ekajuk"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

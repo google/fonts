@@ -1,12 +1,9 @@
 id: "ria"
+language: "ria"
+script: "Latn"
 name: "Riang [India]"
-preferred_name: ""
-autonym: ""
 population: 172391
 region: "IN"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

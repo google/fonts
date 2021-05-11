@@ -1,12 +1,9 @@
 id: "wal"
+language: "wal"
+script: "Ethi"
 name: "Wolaytta"
-preferred_name: ""
-autonym: ""
 population: 1946034
 region: "ET"
-script: "Ethiopic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "am"
 }

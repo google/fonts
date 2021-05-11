@@ -1,12 +1,9 @@
 id: "kaj"
+language: "kaj"
+script: "Latn"
 name: "Jju"
-preferred_name: ""
-autonym: ""
 population: 449458
 region: "NG"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

@@ -1,10 +1,10 @@
 id: "mh"
+language: "mh"
+script: "Latn"
 name: "Marshallese"
-preferred_name: ""
 autonym: "Kajin M̧ajeļ"
 population: 56879
 region: "MH"
-script: "Latin"
 exemplar_chars {
   base: "A Ā B D E I J K L Ļ M M̧ N Ņ N̄ O Ō O̧ P R T U Ū W a ā b d e i j k l ļ m m̧ n ņ n̄ o ō o̧ p r t u ū w"
   marks: "◌̄ ◌̦ ◌̧ ◌̨"
@@ -12,8 +12,9 @@ exemplar_chars {
 sample_text {
   masthead_full: "AaRr"
   masthead_partial: "Mm"
-  tester: "Kinke watoke utiej eo ej mottan maron ko rej jonair wot juon"
-  poster_sm: "Kinke ne ej"
+  styles: "Kinke watoke utiej eo ej mottan maron ko"
+  tester: "Kinke ne ej ejelok lemnok kaki im kwo-wan maron ko an armij enwij"
+  poster_sm: "Kinke ekanuij"
   poster_md: "Kinke elap"
   poster_lg: "Armij"
   specimen_48: "Kinke armij ro otemmjej air United Nations emwij air bar kabine"

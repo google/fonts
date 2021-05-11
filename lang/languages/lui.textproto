@@ -1,0 +1,8 @@
+id: "lui"
+language: "lui"
+script: "Latn"
+name: "Luiseno"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

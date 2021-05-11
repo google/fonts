@@ -1,12 +1,6 @@
 id: "mn_Mong"
+language: "mn"
+script: "Mong"
 name: "Mongolian (Mongolian)"
-preferred_name: ""
-autonym: ""
 population: 3624452
 region: "CN"
-script: "Cyrillic"
-exemplar_chars {
-}
-sample_text {
-  fallback_language: "ru"
-}

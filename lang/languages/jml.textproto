@@ -1,12 +1,9 @@
 id: "jml"
+language: "jml"
+script: "Deva"
 name: "Jumli"
-preferred_name: ""
-autonym: ""
 population: 970492
 region: "NP"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

@@ -1,12 +1,9 @@
 id: "thq"
+language: "thq"
+script: "Deva"
 name: "Kochila Tharu"
-preferred_name: ""
-autonym: ""
 population: 303279
 region: "NP"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

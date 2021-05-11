@@ -1,12 +1,9 @@
 id: "mro"
+language: "mro"
+script: "Latn"
 name: "Mru"
-preferred_name: ""
-autonym: ""
 population: 29277
 region: "BD"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

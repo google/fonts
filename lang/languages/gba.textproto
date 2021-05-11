@@ -1,0 +1,8 @@
+id: "gba"
+language: "gba"
+script: "Latn"
+name: "Gbaya"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

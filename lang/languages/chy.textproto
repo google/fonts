@@ -1,0 +1,8 @@
+id: "chy"
+language: "chy"
+script: "Latn"
+name: "Cheyenne"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

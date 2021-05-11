@@ -1,12 +1,9 @@
 id: "scs"
+language: "scs"
+script: "Latn"
 name: "North Slavey"
-preferred_name: ""
-autonym: ""
 population: 1243
 region: "CA"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

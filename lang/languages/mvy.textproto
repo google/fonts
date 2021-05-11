@@ -1,12 +1,9 @@
 id: "mvy"
+language: "mvy"
+script: "Arab"
 name: "Indus Kohistani"
-preferred_name: ""
-autonym: ""
 population: 326901
 region: "PK"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

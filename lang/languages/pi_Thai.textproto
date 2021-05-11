@@ -1,0 +1,8 @@
+id: "pi_Thai"
+language: "pi"
+script: "Thai"
+name: "Pali, Thai"
+population: 0
+sample_text {
+  fallback_language: "th"
+}

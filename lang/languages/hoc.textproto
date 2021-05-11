@@ -1,12 +1,9 @@
 id: "hoc"
+language: "hoc"
+script: "Deva"
 name: "Ho"
-preferred_name: ""
-autonym: ""
 population: 1312829
 region: "IN"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

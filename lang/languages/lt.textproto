@@ -1,13 +1,13 @@
 id: "lt"
+language: "lt"
+script: "Latn"
 name: "Lithuanian"
-preferred_name: ""
 autonym: "Lietuviškai"
 population: 2357094
 region: "LT"
 region: "PL"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ą Č Ė Ę Į Š Ū Ų Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž"
+  base: "a ą b c č d e ę ė f g h i į y j k l m n o p r s š t u ų ū v z ž"
   auxiliary: "á à ã {ą\\u0301} {ą\\u0303} {ch} {dz} {dž} é è ẽ {ę\\u0301} {ę\\u0303} {ė\\u0301} {ė\\u0303} {i\\u0307\\u0301}í {i\\u0307\\u0300}ì {i\\u0307\\u0303}ĩ {į\\u0301}{į\\u0307\\u0301} {į\\u0303}{į\\u0307\\u0303} {j\\u0303}{j\\u0307\\u0303} {l\\u0303} {m\\u0303} ñ ó ò õ q {r\\u0303} ú ù ũ {ų\\u0301} {ų\\u0303} {ū\\u0301} {ū\\u0303} w x"
   marks: "◌̄ ◌̇ ◌̌ ◌̨"
   numerals: "  , % ‰ + − 0 1 2 3 4 5 6 7 8 9"
@@ -17,7 +17,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "VvIi"
   masthead_partial: "Ss"
-  tester: "Atsižvelgdama į tai, kad visiems žmonių giminės nariams būdingo"
+  styles: "Atsižvelgdama į tai, kad visiems žmonių giminės"
+  tester: "atsižvelgdama į tai, kad žmogaus teisių visiškas nepaisymas ir"
   poster_sm: "atsižvelgdama"
   poster_md: "Generalinė"
   poster_lg: "Visi"

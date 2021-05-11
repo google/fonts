@@ -1,12 +1,9 @@
 id: "srx"
+language: "srx"
+script: "Deva"
 name: "Sirmauri"
-preferred_name: ""
-autonym: ""
 population: 464131
 region: "IN"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

@@ -1,15 +1,11 @@
 id: "ms_Arab"
+language: "ms"
+script: "Arab"
 name: "Malay (Arabic)"
-preferred_name: ""
-autonym: ""
 population: 3228030
 region: "BN"
 region: "CC"
 region: "ID"
-script: "Latin"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "ha"
+  fallback_language: "ar"
 }

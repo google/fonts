@@ -1,21 +1,22 @@
 id: "pon"
+language: "pon"
+script: "Latn"
 name: "Pohnpeian"
-preferred_name: ""
 autonym: "Pohnpei"
 population: 23560
 region: "FM"
-script: "Latin"
 exemplar_chars {
   base: "A D E H I K L M N O P R S T U W a d e h i k l m n o p r s t u w"
 }
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Hh"
-  tester: "Pwehki eh sansalehr oh dehde me mie uhdahn kesempwelen de pwungin"
-  poster_sm: "Pwehki seu"
-  poster_md: "Pwehki eh"
+  styles: "Pwehki eh sansalehr oh dehde me mie uhdahn"
+  tester: "Pwehki seu petehkpen aramas de kasohwe kesempwelen aramas oh"
+  poster_sm: "Pwehki tohn"
+  poster_md: "Pwehki wehi"
   poster_lg: "Tohn"
-  specimen_48: "Pwehki eh kesempwal kitail en ngongki kekeirdahn nanpwung mwahu"
+  specimen_48: "Pwehki nin duwen eh dehdehiong karos duwen mour pwung oh saledek"
   specimen_36: "Aramas karos ahniki de paiki pwungin mour, pwungin saledek oh pil pwungin saledek sang apwal en paliwar."
   specimen_32: "Sohte aramas emen kak wia lidu men de doadoahk ni mwomwen lidu men; lidu de pesineski de pwainda lidukan uhong poason wet oh pil pahn inepwihdi ni soangen mwohmw karos."
   specimen_21: "Sohte me pahn mi pahn kalokolok en mahn de kamakam duehla mahn.\nAramas karos ahniki de paiki pwungin kawawih wasa karos pahn menemenen Kosonned.\nAramas karos ni nan irair pahrek ehu pahn kosonned oh ahniki de paiki epwel kan pahn kosonned. Aramas karos ahniki de paiki epwel pahrek pwehn kore songen apwal akan me uhong poason wet de me pahn kasohwe irehkan nan poason wet."

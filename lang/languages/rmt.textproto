@@ -1,12 +1,9 @@
 id: "rmt"
+language: "rmt"
+script: "Arab"
 name: "Domari"
-preferred_name: ""
-autonym: ""
 population: 1613542
 region: "IR"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

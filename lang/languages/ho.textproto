@@ -1,12 +1,9 @@
 id: "ho"
+language: "ho"
+script: "Latn"
 name: "Hiri Motu"
-preferred_name: ""
-autonym: ""
 population: 152448
 region: "PG"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

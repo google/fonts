@@ -1,10 +1,10 @@
 id: "vec"
+language: "vec"
+script: "Latn"
 name: "Venetian"
-preferred_name: ""
 autonym: "Vèneto"
 population: 811235
 region: "IT"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Ç È É Ì Í Ò Ó Ù Ł Ž a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù ł ž"
   marks: "◌̀ ◌́ ◌̌ ◌̧"
@@ -12,11 +12,12 @@ exemplar_chars {
 sample_text {
   masthead_full: "TtUu"
   masthead_partial: "Ii"
-  tester: "Considarà che el reconosimento de ła dinjità inerente a tuti"
-  poster_sm: "Considarà che"
+  styles: "Considarà che el reconosimento de ła dinjità"
+  tester: "Considarà che el desconosimento e el despreso de i deriti umani"
+  poster_sm: "Considarà ch’A"
   poster_md: "Considarà"
   poster_lg: "Tuti"
-  specimen_48: "Considarà ch’A ze indespensàbiłe promóvar el dezviłupo de raporti"
+  specimen_48: "Considarà che i pòpołi de łe Nasion Unìe i ga reafermà inte ła"
   specimen_36: "Nesun el podarà èsar tenjù da sciavo o da servo; ła sciavitù e el marcà de sciavi i sarà proibìi in tute łe maniere."
   specimen_32: "Onjun el ga el derito a na efetiva posibiłità de recorso a tribunałi conpetenti, contro de ati che no i respeta i só deriti fondamentałi reconosùi da ła costitusion o da ła łeze."
   specimen_21: "Nesun el podarà èsar arestà, inprezonà o eziłià par arbitrio.\nOnjun el ga el derito, in condision conpanja par tuti, a na udiensa justa e pùblega davanti de un tribunałe independente e inparsiałe, par ła detarminasion de i só deriti, de i só doveri e anca de onji acuzasion criminałe contro de łu.\nOnjun el ga el derito de sponsar e de straviarse, ciapà rento donca anca na łimitasion rasionałe de łe ore de łaoro e ferie pariòdeghe pagàe."

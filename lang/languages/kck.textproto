@@ -1,12 +1,9 @@
 id: "kck"
+language: "kck"
+script: "Latn"
 name: "Kalanga"
-preferred_name: ""
-autonym: ""
 population: 770953
 region: "ZW"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

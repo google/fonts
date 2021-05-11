@@ -1,12 +1,9 @@
 id: "bze"
+language: "bze"
+script: "Latn"
 name: "Jenaama Bozo"
-preferred_name: ""
-autonym: ""
 population: 166203
 region: "ML"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

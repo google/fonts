@@ -1,10 +1,10 @@
 id: "sc"
+language: "sc"
+script: "Latn"
 name: "Sardinian"
-preferred_name: ""
 autonym: "Sardu"
 population: 1060845
 region: "IT"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È Ì Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù"
   marks: "◌̀ ◌̧"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Uu"
-  tester: "Cunsiderende chi su reconnoschimentu de sa dinnidade inerente"
+  styles: "Cunsiderende chi su reconnoschimentu de sa"
+  tester: "Cunsiderende chi su misconnoschimentu e su dispretziu de sos"
   poster_sm: "Cunsiderende"
   poster_md: "s\'Assemblea"
   poster_lg: "Totu"

@@ -1,17 +1,17 @@
 id: "nzi"
+language: "nzi"
+script: "Latn"
 name: "Nzima"
-preferred_name: ""
-autonym: ""
 population: 293402
 region: "GH"
-script: "Latin"
 exemplar_chars {
   base: "A B D E Ɛ F G H I K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i k l m n o ɔ p r s t u v w y z"
 }
 sample_text {
   masthead_full: "MmEe"
   masthead_partial: "Nn"
-  tester: "Wɔ mekɛ ala mɔɔ Maanle Maanle mɔɔ wɔ Eku ye anu la gyinlabelɛ"
+  styles: "Wɔ mekɛ ala mɔɔ Maanle Maanle mɔɔ wɔ Eku"
+  tester: "Wɔ mekɛ ala mɔɔ menli ɛmbu sonla nwo adenlenyianlɛ ne mɔ bie"
   poster_sm: "Wɔ mekɛ ala"
   poster_md: "MAAMGBOLE"
   poster_lg: "Menli"

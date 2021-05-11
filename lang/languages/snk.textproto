@@ -1,18 +1,19 @@
 id: "snk"
+language: "snk"
+script: "Latn"
 name: "Soninke"
-preferred_name: ""
 autonym: "Sooninkanxanne"
 population: 1153650
 region: "ML"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U W X Y a b c d e f g h i j k l m n o p q r s t u w x y \'"
 }
 sample_text {
   masthead_full: "HhAa"
   masthead_partial: "Dd"
-  tester: "O ga na a faayi nan ti saran xabiilanun doronde do I taqu tinamto"
-  poster_sm: "O ga na a faayi"
+  styles: "O ga na a faayi nan ti saran xabiilanun doronde"
+  tester: "O ga na a faayi nan ti soron taqun turvinbalaaxun do i roxomaxantaaxun"
+  poster_sm: "O ga na a taayi"
   poster_md: "O ga na a"
   poster_lg: "Haadama"
   specimen_48: "O ga na a faayi nan ti Duna feddi xooren da sigira xerexerente"

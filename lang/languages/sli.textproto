@@ -1,12 +1,9 @@
 id: "sli"
+language: "sli"
+script: "Latn"
 name: "Lower Silesian"
-preferred_name: ""
-autonym: ""
 population: 11867
 region: "PL"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

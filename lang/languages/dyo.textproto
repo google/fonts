@@ -1,13 +1,13 @@
 id: "dyo"
+language: "dyo"
+script: "Latn"
 name: "Jola-Fonyi"
-preferred_name: ""
 autonym: "Jóola-Fóoñi"
 population: 409146
 region: "SN"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Á É Í Ñ Ó Ú Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ"
-  auxiliary: "Z z"
+  base: "a á b c d e é f g h i í j k l m n ñ ŋ o ó p q r s t u ú v w x y"
+  auxiliary: "z"
   marks: "◌́ ◌̃"
   numerals: "  \\- ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "A B C D E F G H I J K L M N Ñ Ŋ O P Q R S T U V W X Y"
@@ -15,7 +15,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "BbUu"
   masthead_partial: "Kk"
-  tester: "Yíneni aat mati faŋaaf fati anau di sidruwaas soola, san umaje"
+  styles: "Yíneni aat mati faŋaaf fati anau di sidruwaas"
+  tester: "Yíneni jaat anau nasonsoŋ mati kàmanjaataak di eñoosey sidruwaas"
   poster_sm: "Yíneni jaat"
   poster_md: "Asambule"
   poster_lg: "Bukanak"

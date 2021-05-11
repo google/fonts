@@ -1,0 +1,8 @@
+id: "doi_Arab"
+language: "doi"
+script: "Arab"
+name: "Dogri, Perso-Arabic"
+population: 0
+sample_text {
+  fallback_language: "ar"
+}

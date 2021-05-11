@@ -1,0 +1,8 @@
+id: "hai"
+language: "hai"
+script: "Latn"
+name: "Haida"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

@@ -1,12 +1,9 @@
 id: "vls"
+language: "vls"
+script: "Latn"
 name: "West Flemish"
-preferred_name: ""
-autonym: ""
 population: 1172070
 region: "BE"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

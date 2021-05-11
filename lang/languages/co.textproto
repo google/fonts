@@ -1,10 +1,10 @@
 id: "co"
+language: "co"
+script: "Latn"
 name: "Corsican"
-preferred_name: ""
 autonym: "Corsu"
 population: 162835
 region: "FR"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â È Ì Ï Ü Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ï ü ò ù"
   marks: "◌̀ ◌̂ ◌̈"
@@ -12,7 +12,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "NnAa"
   masthead_partial: "Ss"
-  tester: "Cunsidarendu ch’ellu ci voli à ricunnoscia a dignità propria di"
+  styles: "Cunsidarendu ch’ellu ci voli à ricunnoscia"
+  tester: "Cunsidarendu chì, ùn cunniscendu o sprizzendu i diritti di l’omu,"
   poster_sm: "Cunsidarendu"
   poster_md: "cum’è fini"
   poster_lg: "Nascinu"

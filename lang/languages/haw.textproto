@@ -1,12 +1,12 @@
 id: "haw"
+language: "haw"
+script: "Latn"
 name: "Hawaiian"
-preferred_name: ""
 autonym: "’Olelo Hawai’i"
 population: 29604
 region: "US"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū ’"
+  base: "a ā e ē i ī o ō u ū h k l m n p w ʻ"
   auxiliary: "b c d f g j q r s t v x y z"
   marks: "◌̄"
   numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
@@ -15,7 +15,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "HhĀā"
   masthead_partial: "Nn"
-  tester: "‘Oiai, ‘o ka ho’omaopop ‘ana i ka hanohano, a me nā pono kīvila i kau"
+  styles: "‘Oiai, ‘o ka ho’omaopop ‘ana i ka hanohano, a me"
+  tester: "‘Oiai, ‘o ka hehikū a me ka ho’owahāwahā i ka pono kīvila o ke kanaka"
   poster_sm: "‘Oiai, he mea"
   poster_md: "‘Oiai, ‘o ka"
   poster_lg: "Hānau"

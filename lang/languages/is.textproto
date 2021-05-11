@@ -1,13 +1,13 @@
 id: "is"
+language: "is"
+script: "Latn"
 name: "Icelandic"
-preferred_name: ""
 autonym: "Íslenska"
 population: 350734
 region: "IS"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Æ É Í Ð Ó Ö Ú Ý Þ a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý þ"
-  auxiliary: "Ǽ Ǫ Œ ǽ ǫ œ"
+  base: "a á b d ð e é f g h i í j k l m n o ó p r s t u ú v x y ý þ æ ö"
+  auxiliary: "c q w z"
   marks: "◌́ ◌̈ ◌̨"
   numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "\\- ‐ ‑ – — , ; \\: ! ? . … \' ‘ ‚ \" “ „ ( ) \\[ \\] § @ * / \\& # † ‡ ′ ″"
@@ -16,7 +16,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "HhVv"
   masthead_partial: "Ee"
-  tester: "Það ber að viðurkenna, að hver maður sé jafnborinn til virðingar"
+  styles: "Það ber að viðurkenna, að hver maður sé jafnborinn"
+  tester: "Hafi mannréttindi verið fyrir borð borin og lítilsvirt, hefur"
   poster_sm: "Mannréttindi"
   poster_md: "Í stofnskrá"
   poster_lg: "Hver"

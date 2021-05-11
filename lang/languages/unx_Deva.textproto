@@ -1,0 +1,8 @@
+id: "unx_Deva"
+language: "unx"
+script: "Deva"
+name: "Munda, Devanagari"
+population: 0
+sample_text {
+  fallback_language: "hi"
+}

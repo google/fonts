@@ -1,12 +1,9 @@
 id: "myx"
+language: "myx"
+script: "Latn"
 name: "Masaaba"
-preferred_name: ""
-autonym: ""
 population: 1254337
 region: "UG"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

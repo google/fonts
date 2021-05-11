@@ -1,12 +1,9 @@
 id: "crm"
+language: "crm"
+script: "Cans"
 name: "Moose Cree"
-preferred_name: ""
-autonym: ""
 population: 4523
 region: "CA"
-script: "UCAS"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "cr"
+  fallback_language: "iu"
 }

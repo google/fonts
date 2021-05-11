@@ -1,0 +1,8 @@
+id: "anp"
+language: "anp"
+script: "Deva"
+name: "Angika"
+population: 0
+sample_text {
+  fallback_language: "hi"
+}

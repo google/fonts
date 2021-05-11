@@ -1,12 +1,9 @@
 id: "dcc"
+language: "dcc"
+script: "Arab"
 name: "Deccan"
-preferred_name: ""
-autonym: ""
 population: 13128291
 region: "IN"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

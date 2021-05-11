@@ -1,15 +1,9 @@
 id: "hnn"
+language: "hnn"
+script: "Latn"
 name: "Hanunoo"
-preferred_name: ""
-autonym: "ᜱᜨᜳᜨᜳᜢ"
 population: 17468
 region: "PH"
-script: "Latin"
-exemplar_chars {
-  base: "ᜠ ᜡ ᜢ ᜣ ᜤ ᜥ ᜦ ᜧ ᜨ ᜩ ᜪ ᜫ ᜬ ᜭ ᜮ ᜯ ᜰ ᜱ"
-  marks: "◌ᜲ ◌ᜳ ◌᜴"
-  punctuation: "᜵ ᜶"
-}
 sample_text {
   fallback_language: "en"
 }

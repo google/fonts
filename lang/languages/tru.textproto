@@ -1,12 +1,9 @@
 id: "tru"
+language: "tru"
+script: "Latn"
 name: "Turoyo"
-preferred_name: ""
-autonym: ""
 population: 3034
 region: "TR"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

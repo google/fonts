@@ -1,12 +1,9 @@
 id: "gju"
+language: "gju"
+script: "Arab"
 name: "Gujari"
-preferred_name: ""
-autonym: ""
 population: 467002
 region: "PK"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

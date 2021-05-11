@@ -1,0 +1,8 @@
+id: "zen"
+language: "zen"
+script: "Tfng"
+name: "Zenaga"
+population: 0
+sample_text {
+  fallback_language: "zgh"
+}

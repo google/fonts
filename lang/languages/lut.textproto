@@ -1,0 +1,7 @@
+id: "lut"
+language: "lut"
+script: "Latn"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

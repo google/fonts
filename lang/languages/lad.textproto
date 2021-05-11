@@ -1,17 +1,18 @@
 id: "lad"
+language: "lad"
+script: "Hebr"
 name: "Ladino"
-preferred_name: ""
-autonym: "djudeo-espanyol"
+autonym: "ג\'ודיאו-איספאנייול"
 population: 112781
 region: "IL"
-script: "Hebrew"
 exemplar_chars {
   base: "א ב ׳ ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת"
 }
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Dd"
-  tester: "Konsiderando ke la libertad, la djustisia i la paz en el mundo"
+  styles: "Konsiderando ke la libertad, la djustisia"
+  tester: "Konsiderando ke el deskonosimiento i el despresio de los derechos"
   poster_sm: "Konsiderando"
   poster_md: "La Asamblea"
   poster_lg: "Todos"

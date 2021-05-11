@@ -1,13 +1,10 @@
 id: "bjn"
+language: "bjn"
+script: "Latn"
 name: "Banjar"
-preferred_name: ""
-autonym: ""
 population: 4010287
 region: "ID"
 region: "MY"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

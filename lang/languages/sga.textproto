@@ -1,0 +1,8 @@
+id: "sga"
+language: "sga"
+script: "Latn"
+name: "Old Irish"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

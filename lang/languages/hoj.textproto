@@ -1,12 +1,9 @@
 id: "hoj"
+language: "hoj"
+script: "Deva"
 name: "Hadothi"
-preferred_name: ""
-autonym: ""
 population: 1087393
 region: "IN"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

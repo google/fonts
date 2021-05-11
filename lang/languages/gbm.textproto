@@ -1,12 +1,9 @@
 id: "gbm"
+language: "gbm"
+script: "Deva"
 name: "Garhwali"
-preferred_name: ""
-autonym: ""
 population: 3580443
 region: "IN"
-script: "Devanagari"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "hi"
 }

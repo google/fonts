@@ -1,12 +1,12 @@
 id: "pap"
+language: "pap"
+script: "Latn"
 name: "Papiamento"
-preferred_name: ""
 autonym: "Papiamentu"
 population: 211640
 region: "AW"
 region: "BQ"
 region: "CW"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È Ò Ù Ü Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z è ò ù ü ñ"
   marks: "◌̀ ◌̃ ◌̈"
@@ -14,7 +14,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "TtUu"
   masthead_partial: "Rr"
-  tester: "Considerando cu reconocemento di e dignidad inherente y di e"
+  styles: "Considerando cu reconocemento di e dignidad"
+  tester: "Considerando cu indiferencia y menosprecio pa derecho humano"
   poster_sm: "Considerando"
   poster_md: "Asamblea"
   poster_lg: "Tur"

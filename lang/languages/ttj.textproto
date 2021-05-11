@@ -1,12 +1,9 @@
 id: "ttj"
+language: "ttj"
+script: "Latn"
 name: "Tooro"
-preferred_name: ""
-autonym: ""
 population: 821807
 region: "UG"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

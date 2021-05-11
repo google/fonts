@@ -1,12 +1,6 @@
 id: "lis"
+language: "lis"
+script: "Lisu"
 name: "Lisu"
-preferred_name: ""
-autonym: ""
 population: 627309
 region: "CN"
-script: "Fraser"
-exemplar_chars {
-}
-sample_text {
-  fallback_language: "lis"
-}

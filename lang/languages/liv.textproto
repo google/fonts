@@ -1,0 +1,8 @@
+id: "liv"
+language: "liv"
+script: "Latn"
+name: "Livonian"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

@@ -1,12 +1,9 @@
 id: "tog"
+language: "tog"
+script: "Latn"
 name: "Nyasa Tonga"
-preferred_name: ""
-autonym: ""
 population: 207726
 region: "MW"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

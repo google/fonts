@@ -1,13 +1,9 @@
 id: "iu_Latn"
+language: "iu"
+script: "Latn"
 name: "Inuktitut (Latin)"
-preferred_name: ""
-autonym: ""
 population: 15831
 region: "CA"
-script: "Latin"
-script: "UCAS"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "cr"
+  fallback_language: "en"
 }

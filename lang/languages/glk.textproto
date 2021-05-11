@@ -1,12 +1,9 @@
 id: "glk"
+language: "glk"
+script: "Arab"
 name: "Gilaki"
-preferred_name: ""
-autonym: ""
 population: 3906471
 region: "IR"
-script: "Perso-Arabic"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "ar"
 }

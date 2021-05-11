@@ -1,13 +1,13 @@
 id: "smj"
+language: "smj"
+script: "Latn"
 name: "Lule Sami"
-preferred_name: ""
 autonym: "Julevusámegiella"
 population: 1530
 region: "SE"
-script: "Latin"
 exemplar_chars {
-  base: "A B D E F G H I J K L M N O P R S T U V Á Ä Å Ŋ a b d e f g h i j k l m n o p r s t u v á ä å ŋ"
-  marks: "◌́ ◌̈ ◌̊"
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Å Ñ Ö Ń a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń"
+  marks: "◌́ ◌̃ ◌̈ ◌̊"
 }
 sample_text {
   fallback_language: "en"

@@ -1,12 +1,9 @@
 id: "mxc"
+language: "mxc"
+script: "Latn"
 name: "Manyika"
-preferred_name: ""
-autonym: ""
 population: 945509
 region: "ZW"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

@@ -1,12 +1,9 @@
 id: "sly"
+language: "sly"
+script: "Latn"
 name: "Selayar"
-preferred_name: ""
-autonym: ""
 population: 144194
 region: "ID"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

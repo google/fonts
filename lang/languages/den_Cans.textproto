@@ -1,0 +1,8 @@
+id: "den_Cans"
+language: "den"
+script: "Cans"
+name: "Slave, Unified Canadian Aboriginal Syllabics"
+population: 0
+sample_text {
+  fallback_language: "iu"
+}

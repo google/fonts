@@ -1,17 +1,17 @@
 id: "fuv"
+language: "fuv"
+script: "Latn"
 name: "Nigerian Fulfulde"
-preferred_name: ""
-autonym: ""
 population: 14339876
 region: "NG"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P R S T U W Y X Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ɓ ɗ"
 }
 sample_text {
   masthead_full: "ƁɓIi"
   masthead_partial: "Aa"
-  tester: "Nde laati tabitinki manngu e fotuki hakke neɗɗaaku ngu wosintaako"
+  styles: "Nde laati tabitinki manngu e fotuki hakke"
+  tester: "Nde laati memba’en lesɗe duuniyaaru kooƴii alkawal e hoore maɓɓe"
   poster_sm: "Ɓi-aadama fuu"
   poster_md: "Ɓii-aadama"
   poster_lg: "Ɓi-aadama"

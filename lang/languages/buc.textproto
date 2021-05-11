@@ -1,10 +1,10 @@
 id: "buc"
+language: "buc"
+script: "Latn"
 name: "Bushi"
-preferred_name: ""
-autonym: "Kibushi"
+autonym: "Shibushi"
 population: 44620
 region: "YT"
-script: "Latin"
 exemplar_chars {
   base: "A B D E F G H I K L M N O P R S T U V W X Y Z Ɓ Ɗ N̈ a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ n̈"
   auxiliary: "C J Q c j q"
@@ -13,8 +13,9 @@ exemplar_chars {
 sample_text {
   masthead_full: "ƁɓIi"
   masthead_partial: "Nn"
-  tester: "An-fahitaŋa amba, fikuɓaliaŋa amba ɓinadamu djabi nitirahinyi ndreka"
-  poster_sm: "An-fahitaŋa"
+  styles: "An-fahitaŋa amba, fikuɓaliaŋa amba ɓinadamu"
+  tester: "An-fahitaŋa amba, tsifahizaŋa ndreka fipuzisaŋa haki-l-adamì ro mikutsonga"
+  poster_sm: "An-An- fahitaŋa"
   poster_md: "An- fahitaŋa"
   poster_lg: "Ɓinadamu"
   specimen_48: "An- fahitaŋa amba, fikutrugaŋa djumla nin-sharia ndreka nafasi retu"

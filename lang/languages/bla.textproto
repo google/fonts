@@ -1,0 +1,8 @@
+id: "bla"
+language: "bla"
+script: "Latn"
+name: "Siksika"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

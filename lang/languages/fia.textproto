@@ -1,14 +1,9 @@
 id: "fia"
+language: "fia"
+script: "Arab"
 name: "Nobiin"
-preferred_name: ""
-autonym: ""
 population: 378161
 region: "SD"
-script: "Perso-Arabic"
-exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z"
-  marks: "◌̄ ◌̈"
-}
 sample_text {
   fallback_language: "ar"
 }

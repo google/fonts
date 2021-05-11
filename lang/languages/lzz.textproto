@@ -1,13 +1,9 @@
 id: "lzz"
+language: "lzz"
+script: "Geor"
 name: "Laz"
-preferred_name: ""
-autonym: ""
 population: 22964
 region: "TR"
-script: "Georgian"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "lzz"
+  fallback_language: "ka"
 }

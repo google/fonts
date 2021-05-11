@@ -1,19 +1,20 @@
 id: "kde"
+language: "kde"
+script: "Latn"
 name: "Makonde"
-preferred_name: ""
 autonym: "Chimakonde"
 population: 1463820
 region: "TZ"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+  base: "a b c d e f g h i j k l m n o p q r s t u v w x y z"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }
 sample_text {
   masthead_full: "VvAa"
   masthead_partial: "Nn"
-  tester: "Lisiku lya 10 Disemba 1948, Lukumbi Lukulu lwa Umoja wa Vilambo"
-  poster_sm: "Ili kuhinikiha"
+  styles: "Lisiku lya 10 Disemba 1948, Lukumbi Lukulu"
+  tester: "Ili kuhinikiha kuchidono wasa wa vanu unawuniwa, na Tansania inaunila"
+  poster_sm: "Vanu vohevohe"
   poster_md: "Kila munu"
   poster_lg: "Vanu"
   specimen_48: "Kila munu alembelewa kwikala pachilambo alitukutwile na wunu"

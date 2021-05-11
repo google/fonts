@@ -1,12 +1,9 @@
 id: "izh"
+language: "izh"
+script: "Latn"
 name: "Ingrian"
-preferred_name: ""
-autonym: ""
 population: 141
 region: "RU"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

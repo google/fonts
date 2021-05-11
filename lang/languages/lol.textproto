@@ -1,12 +1,9 @@
 id: "lol"
+language: "lol"
+script: "Latn"
 name: "Mongo"
-preferred_name: ""
-autonym: ""
 population: 620858
 region: "CD"
-script: "Latin"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "en"
 }

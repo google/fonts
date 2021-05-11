@@ -1,21 +1,22 @@
 id: "bi"
+language: "bi"
+script: "Latn"
 name: "Bislama"
-preferred_name: ""
 autonym: "Bislama"
 population: 268499
 region: "VU"
-script: "Latin"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
 }
 sample_text {
   masthead_full: "EeVv"
   masthead_partial: "Rr"
-  tester: "From se Jenerol Asembli i luksave respek mo ikwol raet blong"
-  poster_sm: "From se fasin"
-  poster_md: "From se hemi"
+  styles: "From se Jenerol Asembli i luksave respek"
+  tester: "From se fasin blong no luksave mo no respektem ol raet blong"
+  poster_sm: "From se hemi"
+  poster_md: "From se i"
   poster_lg: "Evri"
-  specimen_48: "From se i gat nid blong promotem fasin blong developem frensip"
+  specimen_48: "From se ol pipol blong Unaeted Neisen oli talem bakegen insaed"
   specimen_36: "From se hemi impoten tumas blong evriwan i luksave ol raet mo fridom blong promis ia i save tekemples fulwan,"
   specimen_32: "Evri man mo woman i bon fri mo ikwol long respek mo ol raet. Oli gat risen mo tingting mo oli mas tritim wanwan long olgeta olsem ol brata mo sista."
   specimen_21: "Evriwan i gat raet long evri raet mo fridom we i stap long Deklereisen ia, wetaot eni kaen difrens, olsem long reis, kala blong skin, seks, langwis, rilijen, politikol o narafala kaen tingting, we i kamaot long saed blong neisen o sosol, propeti, taem we man i bon long hem o emi narafala sosol saed olsem.\nEvriwan i gat raet blong laef, fridommo sekuriti blong man mo woman."

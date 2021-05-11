@@ -1,14 +1,10 @@
 id: "lif"
+language: "lif"
+script: "Deva"
 name: "Limbu"
-preferred_name: ""
-autonym: ""
 population: 368085
 region: "IN"
 region: "NP"
-script: "Devanagari"
-script: "Limbu"
-exemplar_chars {
-}
 sample_text {
-  fallback_language: "lif"
+  fallback_language: "hi"
 }

@@ -1,0 +1,8 @@
+id: "pnt_Latn"
+language: "pnt"
+script: "Latn"
+name: "Pontic, Latin"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

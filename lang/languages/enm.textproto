@@ -1,0 +1,8 @@
+id: "enm"
+language: "enm"
+script: "Latn"
+name: "Middle English"
+population: 0
+sample_text {
+  fallback_language: "en"
+}

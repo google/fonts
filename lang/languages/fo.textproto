@@ -1,13 +1,13 @@
 id: "fo"
+language: "fo"
+script: "Latn"
 name: "Faroese"
-preferred_name: ""
 autonym: "Føroyskt"
 population: 71350
 region: "DK"
 region: "FO"
-script: "Latin"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Å Æ Í Ð Ó Ø Ú Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ø ú ý"
+  base: "a á b d ð e f g h i í j k l m n o ó p r s t u ú v y ý æ ø"
   auxiliary: "c q w x z"
   marks: "◌́ ◌̊"
   numerals: ", . % ‰ + − 0 1 2 3 4 5 6 7 8 9"
@@ -17,7 +17,8 @@ exemplar_chars {
 sample_text {
   masthead_full: "ØøLl"
   masthead_partial: "Mm"
-  tester: "Tað verður at viðurkenna, at menniskjuni er virðing íborin, og"
+  styles: "Tað verður at viðurkenna, at menniskjuni er"
+  tester: "Har sum mannarættindini hava verið fyri vanbýti og vanvirðing,"
   poster_sm: "Tað varðar"
   poster_md: "Í sáttmáala"
   poster_lg: "Øll"

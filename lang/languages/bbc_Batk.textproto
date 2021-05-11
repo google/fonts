@@ -1,0 +1,11 @@
+id: "bbc_Batk"
+language: "bbc"
+script: "Batk"
+name: "Batak Toba, Batak"
+autonym: "ᯂᯖᯅᯖᯂ᯲ᯖᯬᯅ"
+population: 0
+exemplar_chars {
+  base: "ᯀ ᯂ ᯅ ᯇ ᯉ ᯋ ᯍ ᯎ ᯐ ᯑ ᯒ ᯔ ᯖ ᯗ ᯘ ᯛ ᯝ ᯞ ᯠ ᯤ ᯥ"
+  marks: "◌ᯩ ◌ᯪ ◌ᯬ ◌ᯮ ◌ᯰ ◌᯲"
+  punctuation: "᯼ ᯽ ᯾ ᯿"
+}

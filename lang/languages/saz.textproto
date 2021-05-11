@@ -1,12 +1,6 @@
 id: "saz"
+language: "saz"
+script: "Saur"
 name: "Saurashtra"
-preferred_name: ""
-autonym: ""
 population: 384566
 region: "IN"
-script: "Saurashtra"
-exemplar_chars {
-}
-sample_text {
-  fallback_language: "saz"
-}

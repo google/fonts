@@ -1,12 +1,9 @@
 id: "tsj"
+language: "tsj"
+script: "Tibt"
 name: "Tshangla"
-preferred_name: ""
-autonym: ""
 population: 117347
 region: "BT"
-script: "Tibetan"
-exemplar_chars {
-}
 sample_text {
   fallback_language: "bo"
 }

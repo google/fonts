@@ -7,13 +7,14 @@ fonts {
   name: "Noto Sans CJK KR"
   style: "normal"
   weight: 400
-  filename: "NotoSansCJKkr[wght].ttf"
-  post_script_name: "NotoSansCJKkr"
-  full_name: "Noto Sans CJK KR"
-  copyright: "2014-2021 Adobe, with Reserved Font Name 'Source'"
+  filename: "NotoSansCJKKR[wght].ttf"
+  post_script_name: "NotoSansCJKkr-Thin"
+  full_name: "NotoSansCJKkr"
+  copyright: "Copyright 2014-2021 Adobe"
 }
 subsets: "korean"
 subsets: "menu"
+subsets: "latin"
 axes {
   tag: "wght"
   min_value: 100.0

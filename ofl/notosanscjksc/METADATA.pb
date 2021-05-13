@@ -7,13 +7,14 @@ fonts {
   name: "Noto Sans CJK SC"
   style: "normal"
   weight: 400
-  filename: "NotoSansCJKsc[wght].ttf"
-  post_script_name: "NotoSansCJKsc"
-  full_name: "Noto Sans CJK SC"
-  copyright: "2014-2021 Adobe, with Reserved Font Name 'Source'"
+  filename: "NotoSansCJKSC[wght].ttf"
+  post_script_name: "NotoSansCJKsc-Thin"
+  full_name: "NotoSansCJKsc"
+  copyright: "Copyright 2014-2021 Adobe"
 }
 subsets: "chinese-simplified"
 subsets: "menu"
+subsets: "latin"
 axes {
   tag: "wght"
   min_value: 100.0

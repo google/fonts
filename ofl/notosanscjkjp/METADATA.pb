@@ -7,13 +7,14 @@ fonts {
   name: "Noto Sans CJK JP"
   style: "normal"
   weight: 400
-  filename: "NotoSansCJKjp[wght].ttf"
-  post_script_name: "NotoSansCJKjp"
-  full_name: "Noto Sans CJK JP"
-  copyright: "2014-2021 Adobe, with Reserved Font Name 'Source'"
+  filename: "NotoSansCJKJP[wght].ttf"
+  post_script_name: "NotoSansCJKjp-Thin"
+  full_name: "NotoSansCJKjp"
+  copyright: "Copyright 2014-2021 Adobe"
 }
 subsets: "japanese"
 subsets: "menu"
+subsets: "latin"
 axes {
   tag: "wght"
   min_value: 100.0

@@ -6,7 +6,7 @@ date_added: "2011-10-19"
 fonts {
   name: "Quicksand"
   style: "normal"
-  weight: 300
+  weight: 400
   filename: "Quicksand[wght].ttf"
   post_script_name: "Quicksand-Light"
   full_name: "Quicksand Light"

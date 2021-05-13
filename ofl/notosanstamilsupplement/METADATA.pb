@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "tamil-supplement"
+is_noto: true

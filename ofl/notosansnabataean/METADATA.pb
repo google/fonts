@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "nabataean"
+is_noto: true

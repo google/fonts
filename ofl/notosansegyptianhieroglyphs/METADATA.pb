@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "egyptian-hieroglyphs"
 subsets: "menu"
+is_noto: true

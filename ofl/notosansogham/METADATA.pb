@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "ogham"
+is_noto: true

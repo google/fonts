@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "newa"
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "meroitic"
+is_noto: true

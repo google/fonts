@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "balinese"
+is_noto: true

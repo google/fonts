@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "shavian"
+is_noto: true

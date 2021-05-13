@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "manichaean"
+is_noto: true

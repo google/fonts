@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "runic"
+is_noto: true

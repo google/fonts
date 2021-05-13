@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "symbols"
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "vai"
+is_noto: true

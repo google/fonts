@@ -19,3 +19,4 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "cuneiform"
+is_noto: true

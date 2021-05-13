@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "miao"
+is_noto: true

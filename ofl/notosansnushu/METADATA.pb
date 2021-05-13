@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "nushu"
+is_noto: true

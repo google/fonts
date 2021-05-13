@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "rejang"
+is_noto: true

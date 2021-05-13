@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "indic-siyaq-numbers"
+is_noto: true

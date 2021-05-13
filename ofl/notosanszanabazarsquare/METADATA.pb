@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "zanabazar-square"
+is_noto: true

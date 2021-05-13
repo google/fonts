@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "old-italic"
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "tagbanwa"
+is_noto: true

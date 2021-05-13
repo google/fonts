@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "sogdian"
+is_noto: true

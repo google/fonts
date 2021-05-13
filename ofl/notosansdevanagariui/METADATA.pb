@@ -86,3 +86,4 @@ fonts {
 }
 subsets: "devanagari"
 subsets: "menu"
+is_noto: true

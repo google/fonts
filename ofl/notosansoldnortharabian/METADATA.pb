@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "old-north-arabian"
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "modi"
+is_noto: true

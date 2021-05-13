@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "mahajani"
+is_noto: true

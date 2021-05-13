@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "kaithi"
+is_noto: true

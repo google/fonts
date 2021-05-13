@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "masaram-gondi"
+is_noto: true

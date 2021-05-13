@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "batak"
+is_noto: true

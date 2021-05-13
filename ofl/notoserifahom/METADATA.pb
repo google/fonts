@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "ahom"
+is_noto: true

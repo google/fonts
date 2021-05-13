@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "anatolian-hieroglyphs"
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "caucasian-albanian"
+is_noto: true

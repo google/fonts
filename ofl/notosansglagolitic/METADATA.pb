@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "glagolitic"
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "samaritan"
+is_noto: true

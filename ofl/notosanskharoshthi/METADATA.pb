@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "kharoshthi"
+is_noto: true

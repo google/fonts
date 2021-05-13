@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "soyombo"
+is_noto: true

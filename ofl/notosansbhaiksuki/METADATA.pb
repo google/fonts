@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "bhaiksuki"
+is_noto: true

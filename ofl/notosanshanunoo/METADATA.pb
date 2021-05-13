@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "hanunoo"
+is_noto: true

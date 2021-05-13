@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "avestan"
+is_noto: true

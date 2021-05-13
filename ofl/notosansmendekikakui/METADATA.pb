@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "mende-kikakui"
+is_noto: true

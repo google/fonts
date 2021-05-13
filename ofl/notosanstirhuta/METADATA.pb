@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "tirhuta"
+is_noto: true

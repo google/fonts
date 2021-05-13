@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "osmanya"
+is_noto: true

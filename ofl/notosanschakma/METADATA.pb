@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "chakma"
+is_noto: true

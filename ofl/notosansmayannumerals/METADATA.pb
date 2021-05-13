@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "mayan-numerals"
+is_noto: true

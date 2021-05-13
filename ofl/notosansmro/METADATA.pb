@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "mro"
+is_noto: true

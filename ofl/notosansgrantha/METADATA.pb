@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "grantha"
+is_noto: true

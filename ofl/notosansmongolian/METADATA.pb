@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "mongolian"
+is_noto: true

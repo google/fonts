@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "old-permic"
+is_noto: true

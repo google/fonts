@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "lepcha"
+is_noto: true

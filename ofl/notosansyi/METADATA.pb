@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "yi"
+is_noto: true

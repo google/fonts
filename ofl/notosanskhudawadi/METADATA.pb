@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "khudawadi"
+is_noto: true

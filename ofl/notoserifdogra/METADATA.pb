@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "dogra"
+is_noto: true

@@ -86,3 +86,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "myanmar"
+is_noto: true

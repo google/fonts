@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "nko"
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "coptic"
+is_noto: true

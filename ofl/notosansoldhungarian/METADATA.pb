@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "old-hungarian"
+is_noto: true

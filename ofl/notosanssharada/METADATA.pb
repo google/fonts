@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "sharada"
+is_noto: true

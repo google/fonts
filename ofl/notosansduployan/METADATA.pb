@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "duployan"
+is_noto: true

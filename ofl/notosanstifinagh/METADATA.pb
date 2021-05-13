@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "tifinagh"
+is_noto: true

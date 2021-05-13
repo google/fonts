@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "khojki"
+is_noto: true

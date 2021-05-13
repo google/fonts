@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "gunjala-gondi"
+is_noto: true

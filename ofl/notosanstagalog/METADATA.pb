@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "tagalog"
+is_noto: true

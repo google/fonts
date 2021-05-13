@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "old-turkic"
+is_noto: true

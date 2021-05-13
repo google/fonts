@@ -47,3 +47,4 @@ subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "vietnamese"
+is_noto: true

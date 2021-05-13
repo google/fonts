@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "elbasan"
+is_noto: true

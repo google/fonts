@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "buhid"
+is_noto: true

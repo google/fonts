@@ -23,4 +23,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "arabic"
-
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "wancho"
+is_noto: true

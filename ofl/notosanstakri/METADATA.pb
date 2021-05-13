@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "takri"
+is_noto: true

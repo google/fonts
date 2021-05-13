@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "psalter-pahlavi"
+is_noto: true

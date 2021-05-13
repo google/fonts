@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "math"
+is_noto: true

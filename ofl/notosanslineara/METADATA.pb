@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "linear-a"
+is_noto: true

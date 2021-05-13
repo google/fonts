@@ -23,3 +23,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "javanese"
+is_noto: true

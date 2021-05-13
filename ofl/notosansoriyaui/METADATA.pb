@@ -41,3 +41,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "oriya"
+is_noto: true

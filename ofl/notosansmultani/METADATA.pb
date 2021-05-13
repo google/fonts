@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "multani"
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "phags-pa"
+is_noto: true

@@ -86,3 +86,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "thai"
+is_noto: true

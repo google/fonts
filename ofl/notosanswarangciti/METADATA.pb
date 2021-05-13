@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "warang-citi"
+is_noto: true

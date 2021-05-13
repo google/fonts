@@ -32,3 +32,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "syriac"
+is_noto: true

@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "limbu"
+is_noto: true

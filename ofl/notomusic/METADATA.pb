@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "music"
+is_noto: true

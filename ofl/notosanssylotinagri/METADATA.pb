@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "syloti-nagri"
+is_noto: true

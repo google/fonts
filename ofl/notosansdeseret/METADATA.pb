@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "deseret"
+is_noto: true

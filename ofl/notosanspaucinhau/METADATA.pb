@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "pau-cin-hau"
+is_noto: true

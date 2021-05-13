@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "tai-le"
+is_noto: true

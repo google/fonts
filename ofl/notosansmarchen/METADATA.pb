@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "marchen"
+is_noto: true

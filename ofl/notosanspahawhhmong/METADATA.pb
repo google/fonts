@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "pahawh-hmong"
+is_noto: true

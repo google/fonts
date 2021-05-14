@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/style-script"
-  commit: "618d9e00fb65b051f65f00f8e09f57e07c6af251"
-}

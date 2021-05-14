@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/monte-carlo"
-  commit: "62962590ae6b6dea67788c485d38217abe196e1b"
-}

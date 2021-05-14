@@ -72,7 +72,7 @@ def test_info_link(proto_info):
 
 def test_info_link_works(proto_info):
     link = proto_info.link
-    if "instagram.com" in link:
+    if "instagram.com" in link or not link:
         return
     assert requests.get(link).status_code == 200, "info.pb: link is not producing a 200 status code"
 

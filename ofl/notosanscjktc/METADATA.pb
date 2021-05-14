@@ -9,12 +9,12 @@ fonts {
   weight: 400
   filename: "NotoSansCJKTC[wght].ttf"
   post_script_name: "NotoSansCJKtc-Thin"
-  full_name: "NotoSansCJKtc"
+  full_name: "Noto Sans CJK TC"
   copyright: "Copyright 2014-2021 Adobe"
 }
 subsets: "chinese-traditional"
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
 axes {
   tag: "wght"
   min_value: 100.0

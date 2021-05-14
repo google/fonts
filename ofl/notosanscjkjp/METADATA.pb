@@ -9,12 +9,12 @@ fonts {
   weight: 400
   filename: "NotoSansCJKJP[wght].ttf"
   post_script_name: "NotoSansCJKjp-Thin"
-  full_name: "NotoSansCJKjp"
+  full_name: "Noto Sans CJK JP"
   copyright: "Copyright 2014-2021 Adobe"
 }
 subsets: "japanese"
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
 axes {
   tag: "wght"
   min_value: 100.0

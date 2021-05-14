@@ -9,12 +9,12 @@ fonts {
   weight: 400
   filename: "NotoSansCJKKR[wght].ttf"
   post_script_name: "NotoSansCJKkr-Thin"
-  full_name: "NotoSansCJKkr"
+  full_name: "Noto Sans CJK KR"
   copyright: "Copyright 2014-2021 Adobe"
 }
 subsets: "korean"
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
 axes {
   tag: "wght"
   min_value: 100.0

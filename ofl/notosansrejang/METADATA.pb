@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "rejang"
 is_noto: true
+languages: "rej_Rjng"

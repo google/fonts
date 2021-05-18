@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "brahmi"
 is_noto: true
+languages: "pi_Brah"
+languages: "pka"

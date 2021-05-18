@@ -20,3 +20,5 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "cja_Cham"
+languages: "cjm"

@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "phags-pa"
 is_noto: true
+languages: "lzh_Phag"
+languages: "mn_Phag"
+languages: "zh_Phag"

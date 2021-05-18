@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "kaithi"
 is_noto: true
+languages: "bho_Kthi"

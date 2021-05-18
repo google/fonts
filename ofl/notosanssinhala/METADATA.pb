@@ -25,3 +25,6 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "pi_Sinh"
+languages: "sa_Sinh"
+languages: "si"

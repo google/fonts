@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "cuneiform"
 is_noto: true
+languages: "akk"
+languages: "hit"

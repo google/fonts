@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "new-tai-lue"
 is_noto: true
+languages: "khb"

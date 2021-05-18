@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "tai-viet"
 is_noto: true
+languages: "blt"

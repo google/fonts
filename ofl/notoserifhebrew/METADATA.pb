@@ -25,3 +25,9 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "he"
+languages: "jpr"
+languages: "jrb"
+languages: "lad"
+languages: "sam"
+languages: "yi"

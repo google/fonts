@@ -15,3 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "tifinagh"
 is_noto: true
+languages: "ber_Tfng"
+languages: "rif"
+languages: "shi_Tfng"
+languages: "tzm_Tfng"
+languages: "zen"
+languages: "zgh"

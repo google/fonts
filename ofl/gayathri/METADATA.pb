@@ -31,5 +31,6 @@ fonts {
   copyright: "Copyright 2019 The Gayathri Project Authors (https://gitlab.com/smc/fonts/gayathri)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "malayalam"
 subsets: "menu"

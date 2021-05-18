@@ -3,6 +3,10 @@ language: "kha"
 script: "Beng"
 name: "Khasi, Bengali"
 population: 0
+region: "BD"
+region: "GB"
+region: "IN"
+region: "NP"
 sample_text {
   fallback_language: "bn"
 }

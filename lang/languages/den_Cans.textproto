@@ -3,6 +3,7 @@ language: "den"
 script: "Cans"
 name: "Slave, Unified Canadian Aboriginal Syllabics"
 population: 0
+region: "CA"
 sample_text {
   fallback_language: "iu"
 }

@@ -3,6 +3,10 @@ language: "bft"
 script: "Tibt"
 name: "Balti, Tibetan"
 population: 0
+region: "BT"
+region: "CN"
+region: "IN"
+region: "NP"
 sample_text {
   fallback_language: "bo"
 }

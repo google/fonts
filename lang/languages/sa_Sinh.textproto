@@ -3,6 +3,7 @@ language: "sa"
 script: "Sinh"
 name: "Sanskrit, Sinhala"
 population: 0
+region: "LK"
 sample_text {
   fallback_language: "si"
 }

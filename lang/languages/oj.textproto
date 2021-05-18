@@ -3,6 +3,7 @@ language: "oj"
 script: "Cans"
 name: "Ojibwa"
 population: 0
+region: "CA"
 sample_text {
   fallback_language: "iu"
 }

@@ -3,6 +3,9 @@ language: "gez"
 script: "Ethi"
 name: "Geez"
 population: 0
+region: "ER"
+region: "ET"
+region: "IL"
 sample_text {
   fallback_language: "am"
 }

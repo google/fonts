@@ -3,6 +3,9 @@ language: "om"
 script: "Ethi"
 name: "Oromo, Ethiopic"
 population: 0
+region: "ER"
+region: "ET"
+region: "IL"
 sample_text {
   fallback_language: "am"
 }

@@ -3,6 +3,14 @@ language: "pi"
 script: "Deva"
 name: "Pali"
 population: 0
+region: "BT"
+region: "FJ"
+region: "IN"
+region: "MU"
+region: "NP"
+region: "PK"
+region: "UG"
+region: "ZA"
 sample_text {
   fallback_language: "hi"
 }

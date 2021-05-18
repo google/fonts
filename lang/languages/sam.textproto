@@ -3,6 +3,12 @@ language: "sam"
 script: "Hebr"
 name: "Samaritan Aramaic"
 population: 0
+region: "CA"
+region: "GB"
+region: "IL"
+region: "SE"
+region: "UA"
+region: "US"
 sample_text {
   fallback_language: "he"
 }

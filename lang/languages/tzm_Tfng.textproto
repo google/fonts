@@ -3,6 +3,7 @@ language: "tzm"
 script: "Tfng"
 name: "Central Atlas Tamazight, Tifinagh"
 population: 0
+region: "MA"
 sample_text {
   fallback_language: "zgh"
 }

@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "vai"
 is_noto: true
+languages: "vai"  # Vai
+languages: "vai"  # Vai
+languages: "vai"  # Vai
+languages: "vai"  # Vai

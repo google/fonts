@@ -51,3 +51,6 @@ region: "TN"
 region: "TR"
 region: "YE"
 region: "YT"
+sample_text {
+  fallback_language: "ar"
+}

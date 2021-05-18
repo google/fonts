@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "anatolian-hieroglyphs"
 is_noto: true
+languages: "hlu"  # Hieroglyphic Luwian
+languages: "hlu"  # Hieroglyphic Luwian
+languages: "hlu"  # Hieroglyphic Luwian

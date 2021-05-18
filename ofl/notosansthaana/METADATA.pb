@@ -20,3 +20,7 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "dv"  # Divehi
+languages: "dv"  # Divehi
+languages: "dv"  # Divehi
+languages: "dv"  # Divehi

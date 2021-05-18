@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "tamil-supplement"
 is_noto: true
+languages: "bfq"  # Badaga
+languages: "ta"  # Tamil

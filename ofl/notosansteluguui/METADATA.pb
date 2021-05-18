@@ -25,3 +25,7 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "gon_Telu"  # Gondi, Telugu
+languages: "lmn"  # Lambadi
+languages: "te"  # Telugu
+languages: "wbq"  # Waddar

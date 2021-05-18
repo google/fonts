@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "shavian"
 is_noto: true
+languages: "en_Shaw"  # English, Shavian
+languages: "en_Shaw"  # English, Shavian
+languages: "en_Shaw"  # English, Shavian

@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "lydian"
 is_noto: true
+languages: "xld"  # Lydian
+languages: "xld"  # Lydian
+languages: "xld"  # Lydian

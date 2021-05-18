@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "yi"
 is_noto: true
+languages: "ii"  # Sichuan Yi
+languages: "ii"  # Sichuan Yi
+languages: "ii"  # Sichuan Yi

@@ -15,3 +15,6 @@ fonts {
 subsets: "egyptian-hieroglyphs"
 subsets: "menu"
 is_noto: true
+languages: "egy"  # Ancient Egyptian
+languages: "egy"  # Ancient Egyptian
+languages: "egy"  # Ancient Egyptian

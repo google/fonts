@@ -20,3 +20,5 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "he"  # Hebrew
+languages: "lad"  # Ladino

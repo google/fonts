@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "saurashtra"
 is_noto: true
+languages: "saz"  # Saurashtra
+languages: "saz"  # Saurashtra
+languages: "saz"  # Saurashtra

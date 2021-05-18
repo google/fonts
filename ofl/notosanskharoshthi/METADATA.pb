@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "kharoshthi"
 is_noto: true
+languages: "pra"  # Prakrit
+languages: "pra"  # Prakrit
+languages: "pra"  # Prakrit

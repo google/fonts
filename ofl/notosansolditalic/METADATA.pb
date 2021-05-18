@@ -15,3 +15,12 @@ fonts {
 subsets: "menu"
 subsets: "old-italic"
 is_noto: true
+languages: "ett"  # Etruscan
+languages: "osc"  # Oscan
+languages: "xum"  # Umbrian
+languages: "ett"  # Etruscan
+languages: "osc"  # Oscan
+languages: "xum"  # Umbrian
+languages: "ett"  # Etruscan
+languages: "osc"  # Oscan
+languages: "xum"  # Umbrian

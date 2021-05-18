@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "tagbanwa"
 is_noto: true
+languages: "tbw_Tagb"  # Tagbanwa, Tagbanwa
+languages: "tbw_Tagb"  # Tagbanwa, Tagbanwa
+languages: "tbw_Tagb"  # Tagbanwa, Tagbanwa

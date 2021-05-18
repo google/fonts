@@ -25,3 +25,7 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "hy"  # Armenian
+languages: "hy"  # Armenian
+languages: "hy"  # Armenian
+languages: "hy"  # Armenian

@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "manichaean"
 is_noto: true
+languages: "xmn"  # Manichaean Middle Persian

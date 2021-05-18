@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "linear-b"
 is_noto: true
+languages: "grc_Linb"  # Ancient Greek, Linear B
+languages: "grc_Linb"  # Ancient Greek, Linear B
+languages: "grc_Linb"  # Ancient Greek, Linear B

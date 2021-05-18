@@ -25,3 +25,15 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "as"
+languages: "bn"
+languages: "bpy"
+languages: "ccp"
+languages: "grt"
+languages: "kha_Beng"
+languages: "mni"
+languages: "rkt"
+languages: "sat_Beng"
+languages: "syl"
+languages: "unr"
+languages: "unx"

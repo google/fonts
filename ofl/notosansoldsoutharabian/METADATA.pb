@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "old-south-arabian"
 is_noto: true
+languages: "xsa"

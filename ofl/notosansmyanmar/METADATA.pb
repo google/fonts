@@ -87,3 +87,7 @@ fonts {
 subsets: "menu"
 subsets: "myanmar"
 is_noto: true
+languages: "kht"
+languages: "mnw"
+languages: "my"
+languages: "shn"

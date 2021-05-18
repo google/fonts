@@ -20,3 +20,7 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "gon_Telu"
+languages: "lmn"
+languages: "te"
+languages: "wbq"

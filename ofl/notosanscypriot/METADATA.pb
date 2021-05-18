@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "cypriot"
 is_noto: true
+languages: "grc"

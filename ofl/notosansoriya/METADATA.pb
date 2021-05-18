@@ -42,3 +42,5 @@ fonts {
 subsets: "menu"
 subsets: "oriya"
 is_noto: true
+languages: "or"
+languages: "sat_Orya"

@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "tagalog"
 is_noto: true
+languages: "fil_Tglg"

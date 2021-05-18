@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "carian"
 is_noto: true
+languages: "xcr"

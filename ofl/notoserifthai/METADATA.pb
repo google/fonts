@@ -25,3 +25,11 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "kdt"
+languages: "kxm"
+languages: "lcp"
+languages: "lwl"
+languages: "pi_Thai"
+languages: "sou"
+languages: "th"
+languages: "tts"

@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "batak"
 is_noto: true
+languages: "bbc_Batk"

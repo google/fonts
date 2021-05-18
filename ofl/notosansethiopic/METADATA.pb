@@ -25,3 +25,10 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "am"
+languages: "byn"
+languages: "gez"
+languages: "om_Ethi"
+languages: "ti"
+languages: "tig"
+languages: "wal"

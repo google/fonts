@@ -20,3 +20,14 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "chp_Cans"
+languages: "cr"
+languages: "crj"
+languages: "crk"
+languages: "crl"
+languages: "crm"
+languages: "csw"
+languages: "den_Cans"
+languages: "iu"
+languages: "nsk"
+languages: "oj"

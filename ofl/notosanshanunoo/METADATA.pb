@@ -16,3 +16,5 @@ subsets: "menu"
 subsets: "hanunoo"
 is_noto: true
 languages: "hnn_Hano"
+languages: "hnn_Hano"
+languages: "hnn_Hano"

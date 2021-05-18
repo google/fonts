@@ -28,3 +28,7 @@ is_noto: true
 languages: "ka"
 languages: "lzz"
 languages: "xmf"
+languages: "ka"
+languages: "lzz"
+languages: "xmf"
+languages: "ka"

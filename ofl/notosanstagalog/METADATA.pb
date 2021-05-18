@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "tagalog"
 is_noto: true
 languages: "fil_Tglg"
+languages: "fil_Tglg"

@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "syloti-nagri"
 is_noto: true
 languages: "syl_Sylo"
+languages: "syl_Sylo"

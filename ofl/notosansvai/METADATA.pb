@@ -16,3 +16,5 @@ subsets: "menu"
 subsets: "vai"
 is_noto: true
 languages: "vai"
+languages: "vai"
+languages: "vai"

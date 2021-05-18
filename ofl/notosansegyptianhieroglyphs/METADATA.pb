@@ -16,3 +16,4 @@ subsets: "egyptian-hieroglyphs"
 subsets: "menu"
 is_noto: true
 languages: "egy"
+languages: "egy"

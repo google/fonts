@@ -22,3 +22,5 @@ axes {
 is_noto: true
 languages: "eky"
 languages: "kyu"
+languages: "eky"
+languages: "kyu"

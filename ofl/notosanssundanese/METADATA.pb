@@ -21,3 +21,5 @@ axes {
 }
 is_noto: true
 languages: "su_Sund"
+languages: "su_Sund"
+languages: "su_Sund"

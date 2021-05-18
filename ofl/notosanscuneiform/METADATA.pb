@@ -17,3 +17,5 @@ subsets: "cuneiform"
 is_noto: true
 languages: "akk"
 languages: "hit"
+languages: "akk"
+languages: "hit"

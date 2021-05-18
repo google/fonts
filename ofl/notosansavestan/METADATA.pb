@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "avestan"
 is_noto: true
 languages: "ae"
+languages: "ae"

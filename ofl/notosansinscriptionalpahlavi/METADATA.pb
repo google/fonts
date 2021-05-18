@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "inscriptional-pahlavi"
 is_noto: true
 languages: "pal"
+languages: "pal"

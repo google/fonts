@@ -18,3 +18,6 @@ is_noto: true
 languages: "ett"
 languages: "osc"
 languages: "xum"
+languages: "ett"
+languages: "osc"
+languages: "xum"

@@ -27,3 +27,5 @@ axes {
 is_noto: true
 languages: "bfq"
 languages: "ta"
+languages: "bfq"
+languages: "ta"

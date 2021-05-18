@@ -17,3 +17,5 @@ subsets: "samaritan"
 is_noto: true
 languages: "sam_Samr"
 languages: "smp"
+languages: "sam_Samr"
+languages: "smp"

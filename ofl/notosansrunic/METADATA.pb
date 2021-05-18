@@ -17,3 +17,5 @@ subsets: "runic"
 is_noto: true
 languages: "de_Runr"
 languages: "non"
+languages: "de_Runr"
+languages: "non"

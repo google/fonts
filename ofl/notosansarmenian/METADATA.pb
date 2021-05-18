@@ -26,3 +26,5 @@ axes {
 }
 is_noto: true
 languages: "hy"
+languages: "hy"
+languages: "hy"

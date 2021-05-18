@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "gothic"
 is_noto: true
 languages: "got"
+languages: "got"

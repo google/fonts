@@ -21,3 +21,5 @@ axes {
 }
 is_noto: true
 languages: "chr"
+languages: "chr"
+languages: "chr"

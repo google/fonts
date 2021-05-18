@@ -28,3 +28,6 @@ is_noto: true
 languages: "pi_Sinh"
 languages: "sa_Sinh"
 languages: "si"
+languages: "pi_Sinh"
+languages: "sa_Sinh"
+languages: "si"

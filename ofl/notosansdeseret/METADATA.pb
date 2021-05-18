@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "deseret"
 is_noto: true
 languages: "en_Dsrt"
+languages: "en_Dsrt"

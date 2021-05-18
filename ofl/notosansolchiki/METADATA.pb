@@ -21,3 +21,5 @@ axes {
 }
 is_noto: true
 languages: "sat"
+languages: "sat"
+languages: "sat"

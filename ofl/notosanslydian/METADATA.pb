@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "lydian"
 is_noto: true
 languages: "xld"
+languages: "xld"

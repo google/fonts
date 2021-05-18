@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "yi"
 is_noto: true
 languages: "ii"
+languages: "ii"

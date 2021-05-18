@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "linear-b"
 is_noto: true
 languages: "grc_Linb"
+languages: "grc_Linb"

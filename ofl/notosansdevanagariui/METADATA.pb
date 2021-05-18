@@ -87,3 +87,10 @@ fonts {
 subsets: "devanagari"
 subsets: "menu"
 is_noto: true
+languages: "awa"
+languages: "bho"
+languages: "dty"
+languages: "gom"
+languages: "mag"
+languages: "taj"
+languages: "xnr"

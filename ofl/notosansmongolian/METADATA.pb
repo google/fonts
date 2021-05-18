@@ -17,3 +17,5 @@ subsets: "mongolian"
 is_noto: true
 languages: "mn_Mong"
 languages: "mnc"
+languages: "mn_Mong"
+languages: "mnc"

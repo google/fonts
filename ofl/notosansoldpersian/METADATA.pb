@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "old-persian"
 is_noto: true
 languages: "peo"
+languages: "peo"

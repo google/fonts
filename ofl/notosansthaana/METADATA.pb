@@ -21,3 +21,5 @@ axes {
 }
 is_noto: true
 languages: "dv"
+languages: "dv"
+languages: "dv"

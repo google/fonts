@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "imperial-aramaic"
 is_noto: true
 languages: "arc"
+languages: "arc"

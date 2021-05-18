@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "inscriptional-parthian"
 is_noto: true
 languages: "xpr"
+languages: "xpr"

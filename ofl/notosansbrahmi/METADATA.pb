@@ -17,3 +17,5 @@ subsets: "brahmi"
 is_noto: true
 languages: "pi_Brah"
 languages: "pka"
+languages: "pi_Brah"
+languages: "pka"

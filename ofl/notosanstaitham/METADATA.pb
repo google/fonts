@@ -22,3 +22,5 @@ axes {
 is_noto: true
 languages: "kkh"
 languages: "nod"
+languages: "kkh"
+languages: "nod"

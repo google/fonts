@@ -21,3 +21,4 @@ axes {
 }
 is_noto: true
 languages: "gu"
+languages: "gu"

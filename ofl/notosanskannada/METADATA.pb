@@ -27,3 +27,5 @@ axes {
 is_noto: true
 languages: "kn"
 languages: "tcy"
+languages: "kn"
+languages: "tcy"

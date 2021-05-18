@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "phoenician"
 is_noto: true
 languages: "phn"
+languages: "phn"

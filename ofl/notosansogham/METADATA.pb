@@ -16,3 +16,4 @@ subsets: "menu"
 subsets: "ogham"
 is_noto: true
 languages: "sga_Ogam"
+languages: "sga_Ogam"

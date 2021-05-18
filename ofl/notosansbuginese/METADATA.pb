@@ -18,3 +18,6 @@ is_noto: true
 languages: "bug_Bugi"
 languages: "mak_Bugi"
 languages: "mdr_Bugi"
+languages: "bug_Bugi"
+languages: "mak_Bugi"
+languages: "mdr_Bugi"

@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "palmyrene"
 is_noto: true
+languages: "arc_Palm"  # Aramaic, Palmyrene

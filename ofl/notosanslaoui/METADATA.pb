@@ -25,3 +25,6 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "hnj"  # Hmong
+languages: "kjg"  # Khmu
+languages: "lo"  # Lao

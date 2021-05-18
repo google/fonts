@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "sharada"
 is_noto: true
+languages: "sa_Shrd"  # Sanskrit, Sharada

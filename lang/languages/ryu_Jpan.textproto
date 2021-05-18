@@ -4,3 +4,6 @@ script: "Jpan"
 name: "Central Okinawan, Japanese"
 region: "BR"
 region: "JP"
+sample_text {
+  fallback_language: "ja"
+}

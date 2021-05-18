@@ -25,18 +25,25 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "am"
-languages: "byn"
-languages: "gez"
-languages: "om_Ethi"
-languages: "ti"
-languages: "tig"
-languages: "wal"
-languages: "am"
-languages: "byn"
-languages: "gez"
-languages: "om_Ethi"
-languages: "ti"
-languages: "tig"
-languages: "wal"
-languages: "am"
+languages: "am"  # Amharic
+languages: "byn"  # Blin
+languages: "gez"  # Geez
+languages: "om_Ethi"  # Oromo, Ethiopic
+languages: "ti"  # Tigrinya
+languages: "tig"  # Tigre
+languages: "wal"  # Wolaytta
+languages: "am"  # Amharic
+languages: "byn"  # Blin
+languages: "gez"  # Geez
+languages: "om_Ethi"  # Oromo, Ethiopic
+languages: "ti"  # Tigrinya
+languages: "tig"  # Tigre
+languages: "wal"  # Wolaytta
+languages: "am"  # Amharic
+languages: "am"  # Amharic
+languages: "byn"  # Blin
+languages: "gez"  # Geez
+languages: "om_Ethi"  # Oromo, Ethiopic
+languages: "ti"  # Tigrinya
+languages: "tig"  # Tigre
+languages: "wal"  # Wolaytta

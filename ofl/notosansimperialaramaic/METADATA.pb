@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "imperial-aramaic"
 is_noto: true
-languages: "arc"
-languages: "arc"
+languages: "arc"  # Aramaic
+languages: "arc"  # Aramaic
+languages: "arc"  # Aramaic

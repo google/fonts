@@ -25,9 +25,12 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "pi_Sinh"
-languages: "sa_Sinh"
-languages: "si"
-languages: "pi_Sinh"
-languages: "sa_Sinh"
-languages: "si"
+languages: "pi_Sinh"  # Pali, Sinhala
+languages: "sa_Sinh"  # Sanskrit, Sinhala
+languages: "si"  # Sinhala
+languages: "pi_Sinh"  # Pali, Sinhala
+languages: "sa_Sinh"  # Sanskrit, Sinhala
+languages: "si"  # Sinhala
+languages: "pi_Sinh"  # Pali, Sinhala
+languages: "sa_Sinh"  # Sanskrit, Sinhala
+languages: "si"  # Sinhala

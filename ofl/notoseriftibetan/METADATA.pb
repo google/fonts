@@ -20,4 +20,4 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "taj_Tibt"
+languages: "taj_Tibt"  # Eastern Tamang, Tibetan

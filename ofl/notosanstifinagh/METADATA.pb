@@ -15,15 +15,21 @@ fonts {
 subsets: "menu"
 subsets: "tifinagh"
 is_noto: true
-languages: "ber_Tfng"
-languages: "rif"
-languages: "shi_Tfng"
-languages: "tzm_Tfng"
-languages: "zen"
-languages: "zgh"
-languages: "ber_Tfng"
-languages: "rif"
-languages: "shi_Tfng"
-languages: "tzm_Tfng"
-languages: "zen"
-languages: "zgh"
+languages: "ber_Tfng"  # Berber, Tifinagh
+languages: "rif"  # Riffian
+languages: "shi_Tfng"  # Tachelhit, Tifinagh
+languages: "tzm_Tfng"  # Central Atlas Tamazight, Tifinagh
+languages: "zen"  # Zenaga
+languages: "zgh"  # Standard Moroccan Tamazight
+languages: "ber_Tfng"  # Berber, Tifinagh
+languages: "rif"  # Riffian
+languages: "shi_Tfng"  # Tachelhit, Tifinagh
+languages: "tzm_Tfng"  # Central Atlas Tamazight, Tifinagh
+languages: "zen"  # Zenaga
+languages: "zgh"  # Standard Moroccan Tamazight
+languages: "ber_Tfng"  # Berber, Tifinagh
+languages: "rif"  # Riffian
+languages: "shi_Tfng"  # Tachelhit, Tifinagh
+languages: "tzm_Tfng"  # Central Atlas Tamazight, Tifinagh
+languages: "zen"  # Zenaga
+languages: "zgh"  # Standard Moroccan Tamazight

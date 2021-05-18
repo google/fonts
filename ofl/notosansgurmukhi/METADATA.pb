@@ -25,5 +25,6 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "pa"
-languages: "pa"
+languages: "pa"  # Punjabi
+languages: "pa"  # Punjabi
+languages: "pa"  # Punjabi

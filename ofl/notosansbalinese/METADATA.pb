@@ -20,6 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "ban_Bali"
-languages: "ban_Bali"
-languages: "ban_Bali"
+languages: "ban_Bali"  # Balinese, Balinese
+languages: "ban_Bali"  # Balinese, Balinese
+languages: "ban_Bali"  # Balinese, Balinese
+languages: "ban_Bali"  # Balinese, Balinese

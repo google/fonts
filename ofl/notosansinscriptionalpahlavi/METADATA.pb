@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "inscriptional-pahlavi"
 is_noto: true
-languages: "pal"
-languages: "pal"
+languages: "pal"  # Pahlavi
+languages: "pal"  # Pahlavi
+languages: "pal"  # Pahlavi

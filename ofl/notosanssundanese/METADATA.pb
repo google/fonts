@@ -20,6 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "su_Sund"
-languages: "su_Sund"
-languages: "su_Sund"
+languages: "su_Sund"  # Sundanese, Sundanese
+languages: "su_Sund"  # Sundanese, Sundanese
+languages: "su_Sund"  # Sundanese, Sundanese
+languages: "su_Sund"  # Sundanese, Sundanese

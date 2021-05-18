@@ -25,136 +25,199 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "anp"
-languages: "awa"
-languages: "bap"
-languages: "bfy"
-languages: "bgc"
-languages: "bhb"
-languages: "bhi"
-languages: "bho"
-languages: "bjj"
-languages: "bra"
-languages: "brx"
-languages: "btv"
-languages: "gbm"
-languages: "ggn"
-languages: "gom"
-languages: "gon"
-languages: "gvr"
-languages: "hi"
-languages: "hif"
-languages: "hne"
-languages: "hoc"
-languages: "hoj"
-languages: "jml"
-languages: "kfr"
-languages: "kfy"
-languages: "khn"
-languages: "kok"
-languages: "kru"
-languages: "ks_Deva"
-languages: "lif"
-languages: "mag"
-languages: "mai"
-languages: "mgp"
-languages: "mr"
-languages: "mrd"
-languages: "mtr"
-languages: "mwr"
-languages: "ne"
-languages: "new"
-languages: "noe"
-languages: "pi"
-languages: "raj"
-languages: "rjs"
-languages: "sa"
-languages: "sat_Deva"
-languages: "sck"
-languages: "sd_Deva"
-languages: "srx"
-languages: "swv"
-languages: "taj"
-languages: "tdg"
-languages: "tdh"
-languages: "thl"
-languages: "thq"
-languages: "thr"
-languages: "tkt"
-languages: "tsf"
-languages: "unr_Deva"
-languages: "unx_Deva"
-languages: "wbr"
-languages: "wtm"
-languages: "xnr"
-languages: "xsr"
-languages: "anp"
-languages: "awa"
-languages: "bap"
-languages: "bfy"
-languages: "bgc"
-languages: "bhb"
-languages: "bhi"
-languages: "bho"
-languages: "bjj"
-languages: "bra"
-languages: "brx"
-languages: "btv"
-languages: "gbm"
-languages: "ggn"
-languages: "gom"
-languages: "gon"
-languages: "gvr"
-languages: "hi"
-languages: "hif"
-languages: "hne"
-languages: "hoc"
-languages: "hoj"
-languages: "jml"
-languages: "kfr"
-languages: "kfy"
-languages: "khn"
-languages: "kok"
-languages: "kru"
-languages: "ks_Deva"
-languages: "lif"
-languages: "mag"
-languages: "mai"
-languages: "mgp"
-languages: "mr"
-languages: "mrd"
-languages: "mtr"
-languages: "mwr"
-languages: "ne"
-languages: "new"
-languages: "noe"
-languages: "pi"
-languages: "raj"
-languages: "rjs"
-languages: "sa"
-languages: "sat_Deva"
-languages: "sck"
-languages: "sd_Deva"
-languages: "srx"
-languages: "swv"
-languages: "taj"
-languages: "tdg"
-languages: "tdh"
-languages: "thl"
-languages: "thq"
-languages: "thr"
-languages: "tkt"
-languages: "tsf"
-languages: "unr_Deva"
-languages: "unx_Deva"
-languages: "wbr"
-languages: "wtm"
-languages: "xnr"
-languages: "xsr"
-languages: "awa"
-languages: "bho"
-languages: "dty"
-languages: "gom"
-languages: "mag"
-languages: "taj"
-languages: "xnr"
+languages: "anp"  # Angika
+languages: "awa"  # Awadhi
+languages: "bap"  # Bantawa
+languages: "bfy"  # Bagheli
+languages: "bgc"  # Haryanvi
+languages: "bhb"  # Bhili
+languages: "bhi"  # Bhilali
+languages: "bho"  # Bhojpuri
+languages: "bjj"  # Kanauji
+languages: "bra"  # Braj
+languages: "brx"  # Bodo
+languages: "btv"  # Bateri
+languages: "gbm"  # Garhwali
+languages: "ggn"  # Eastern Gurung
+languages: "gom"  # Goan Konkani
+languages: "gon"  # Gondi
+languages: "gvr"  # Gurung
+languages: "hi"  # Hindi
+languages: "hif"  # Fiji Hindi
+languages: "hne"  # Chhattisgarhi
+languages: "hoc"  # Ho
+languages: "hoj"  # Hadothi
+languages: "jml"  # Jumli
+languages: "kfr"  # Kachhi
+languages: "kfy"  # Kumaoni
+languages: "khn"  # Khandesi
+languages: "kok"  # Konkani
+languages: "kru"  # Kurukh
+languages: "ks_Deva"  # Kashmiri, Devanagari
+languages: "lif"  # Limbu
+languages: "mag"  # Magahi
+languages: "mai"  # Maithili
+languages: "mgp"  # Eastern Magar
+languages: "mr"  # Marathi
+languages: "mrd"  # Western Magar
+languages: "mtr"  # Mewari
+languages: "mwr"  # Marwari
+languages: "ne"  # Nepali
+languages: "new"  # Newari
+languages: "noe"  # Nimadi
+languages: "pi"  # Pali
+languages: "raj"  # Rajasthani
+languages: "rjs"  # Rajbanshi
+languages: "sa"  # Sanskrit
+languages: "sat_Deva"  # Santali, Devanagari
+languages: "sck"  # Sadri
+languages: "sd_Deva"  # Sindhi (Devanagari)
+languages: "srx"  # Sirmauri
+languages: "swv"  # Shekhawati
+languages: "taj"  # Eastern Tamang
+languages: "tdg"  # Western Tamang
+languages: "tdh"  # Thulung
+languages: "thl"  # Dangaura Tharu
+languages: "thq"  # Kochila Tharu
+languages: "thr"  # Rana Tharu
+languages: "tkt"  # Kathoriya Tharu
+languages: "tsf"  # Southwestern Tamang
+languages: "unr_Deva"  # Mundari (Devanagari)
+languages: "unx_Deva"  # Munda, Devanagari
+languages: "wbr"  # Wagdi
+languages: "wtm"  # Mewati
+languages: "xnr"  # Kangri
+languages: "xsr"  # Sherpa
+languages: "anp"  # Angika
+languages: "awa"  # Awadhi
+languages: "bap"  # Bantawa
+languages: "bfy"  # Bagheli
+languages: "bgc"  # Haryanvi
+languages: "bhb"  # Bhili
+languages: "bhi"  # Bhilali
+languages: "bho"  # Bhojpuri
+languages: "bjj"  # Kanauji
+languages: "bra"  # Braj
+languages: "brx"  # Bodo
+languages: "btv"  # Bateri
+languages: "gbm"  # Garhwali
+languages: "ggn"  # Eastern Gurung
+languages: "gom"  # Goan Konkani
+languages: "gon"  # Gondi
+languages: "gvr"  # Gurung
+languages: "hi"  # Hindi
+languages: "hif"  # Fiji Hindi
+languages: "hne"  # Chhattisgarhi
+languages: "hoc"  # Ho
+languages: "hoj"  # Hadothi
+languages: "jml"  # Jumli
+languages: "kfr"  # Kachhi
+languages: "kfy"  # Kumaoni
+languages: "khn"  # Khandesi
+languages: "kok"  # Konkani
+languages: "kru"  # Kurukh
+languages: "ks_Deva"  # Kashmiri, Devanagari
+languages: "lif"  # Limbu
+languages: "mag"  # Magahi
+languages: "mai"  # Maithili
+languages: "mgp"  # Eastern Magar
+languages: "mr"  # Marathi
+languages: "mrd"  # Western Magar
+languages: "mtr"  # Mewari
+languages: "mwr"  # Marwari
+languages: "ne"  # Nepali
+languages: "new"  # Newari
+languages: "noe"  # Nimadi
+languages: "pi"  # Pali
+languages: "raj"  # Rajasthani
+languages: "rjs"  # Rajbanshi
+languages: "sa"  # Sanskrit
+languages: "sat_Deva"  # Santali, Devanagari
+languages: "sck"  # Sadri
+languages: "sd_Deva"  # Sindhi (Devanagari)
+languages: "srx"  # Sirmauri
+languages: "swv"  # Shekhawati
+languages: "taj"  # Eastern Tamang
+languages: "tdg"  # Western Tamang
+languages: "tdh"  # Thulung
+languages: "thl"  # Dangaura Tharu
+languages: "thq"  # Kochila Tharu
+languages: "thr"  # Rana Tharu
+languages: "tkt"  # Kathoriya Tharu
+languages: "tsf"  # Southwestern Tamang
+languages: "unr_Deva"  # Mundari (Devanagari)
+languages: "unx_Deva"  # Munda, Devanagari
+languages: "wbr"  # Wagdi
+languages: "wtm"  # Mewati
+languages: "xnr"  # Kangri
+languages: "xsr"  # Sherpa
+languages: "awa"  # Awadhi
+languages: "bho"  # Bhojpuri
+languages: "dty"  # Dotyali
+languages: "gom"  # Goan Konkani
+languages: "mag"  # Magahi
+languages: "taj"  # Eastern Tamang
+languages: "xnr"  # Kangri
+languages: "anp"  # Angika
+languages: "awa"  # Awadhi
+languages: "bap"  # Bantawa
+languages: "bfy"  # Bagheli
+languages: "bgc"  # Haryanvi
+languages: "bhb"  # Bhili
+languages: "bhi"  # Bhilali
+languages: "bho"  # Bhojpuri
+languages: "bjj"  # Kanauji
+languages: "bra"  # Braj
+languages: "brx"  # Bodo
+languages: "btv"  # Bateri
+languages: "gbm"  # Garhwali
+languages: "ggn"  # Eastern Gurung
+languages: "gom"  # Goan Konkani
+languages: "gon"  # Gondi
+languages: "gvr"  # Gurung
+languages: "hi"  # Hindi
+languages: "hif"  # Fiji Hindi
+languages: "hne"  # Chhattisgarhi
+languages: "hoc"  # Ho
+languages: "hoj"  # Hadothi
+languages: "jml"  # Jumli
+languages: "kfr"  # Kachhi
+languages: "kfy"  # Kumaoni
+languages: "khn"  # Khandesi
+languages: "kok"  # Konkani
+languages: "kru"  # Kurukh
+languages: "ks_Deva"  # Kashmiri, Devanagari
+languages: "lif"  # Limbu
+languages: "mag"  # Magahi
+languages: "mai"  # Maithili
+languages: "mgp"  # Eastern Magar
+languages: "mr"  # Marathi
+languages: "mrd"  # Western Magar
+languages: "mtr"  # Mewari
+languages: "mwr"  # Marwari
+languages: "ne"  # Nepali
+languages: "new"  # Newari
+languages: "noe"  # Nimadi
+languages: "pi"  # Pali
+languages: "raj"  # Rajasthani
+languages: "rjs"  # Rajbanshi
+languages: "sa"  # Sanskrit
+languages: "sat_Deva"  # Santali, Devanagari
+languages: "sck"  # Sadri
+languages: "sd_Deva"  # Sindhi (Devanagari)
+languages: "srx"  # Sirmauri
+languages: "swv"  # Shekhawati
+languages: "taj"  # Eastern Tamang
+languages: "tdg"  # Western Tamang
+languages: "tdh"  # Thulung
+languages: "thl"  # Dangaura Tharu
+languages: "thq"  # Kochila Tharu
+languages: "thr"  # Rana Tharu
+languages: "tkt"  # Kathoriya Tharu
+languages: "tsf"  # Southwestern Tamang
+languages: "unr_Deva"  # Mundari (Devanagari)
+languages: "unx_Deva"  # Munda, Devanagari
+languages: "wbr"  # Wagdi
+languages: "wtm"  # Mewati
+languages: "xnr"  # Kangri
+languages: "xsr"  # Sherpa

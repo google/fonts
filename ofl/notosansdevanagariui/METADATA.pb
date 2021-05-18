@@ -87,10 +87,10 @@ fonts {
 subsets: "devanagari"
 subsets: "menu"
 is_noto: true
-languages: "awa"
-languages: "bho"
-languages: "dty"
-languages: "gom"
-languages: "mag"
-languages: "taj"
-languages: "xnr"
+languages: "awa"  # Awadhi
+languages: "bho"  # Bhojpuri
+languages: "dty"  # Dotyali
+languages: "gom"  # Goan Konkani
+languages: "mag"  # Magahi
+languages: "taj"  # Eastern Tamang
+languages: "xnr"  # Kangri

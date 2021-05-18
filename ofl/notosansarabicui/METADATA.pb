@@ -25,6 +25,6 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "ckb"
-languages: "ks"
-languages: "ur"
+languages: "ckb"  # Central Kurdish
+languages: "ks"  # Kashmiri
+languages: "ur"  # Urdu

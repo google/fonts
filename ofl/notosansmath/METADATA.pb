@@ -15,74 +15,74 @@ fonts {
 subsets: "menu"
 subsets: "math"
 is_noto: true
-languages: "aa"
-languages: "asa"
-languages: "bbc"
-languages: "bem"
-languages: "bez"
-languages: "bi"
-languages: "bik"
-languages: "bto"
-languages: "ceb"
-languages: "cgg"
-languages: "crs"
-languages: "ctd"
-languages: "dav"
-languages: "en"
-languages: "fbl"
-languages: "fj"
-languages: "gil"
-languages: "guz"
-languages: "hil"
-languages: "hmn"
-languages: "ia"
-languages: "id"
-languages: "jam"
-languages: "jmc"
-languages: "kde"
-languages: "kg"
-languages: "kj"
-languages: "kln"
-languages: "kmb"
-languages: "ksb"
-languages: "kw"
-languages: "la"
-languages: "lua"
-languages: "luo"
-languages: "luy"
-languages: "mfe"
-languages: "mgh"
-languages: "min"
-languages: "ms"
-languages: "nd"
-languages: "ng"
-languages: "njo"
-languages: "nov"
-languages: "nr"
-languages: "nyn"
-languages: "om"
-languages: "pam"
-languages: "pko"
-languages: "pon"
-languages: "quc"
-languages: "rn"
-languages: "rof"
-languages: "rw"
-languages: "rwk"
-languages: "saq"
-languages: "sbp"
-languages: "sn"
-languages: "snk"
-languages: "so"
-languages: "ss"
-languages: "sw"
-languages: "swb_Latn"
-languages: "teo"
-languages: "tpi"
-languages: "ts"
-languages: "tum"
-languages: "vun"
-languages: "wbp"
-languages: "xh"
-languages: "xog"
-languages: "zu"
+languages: "aa"  # Afar
+languages: "asa"  # Asu
+languages: "bbc"  # Batak Toba
+languages: "bem"  # Bemba
+languages: "bez"  # Bena
+languages: "bi"  # Bislama
+languages: "bik"  # Bikol
+languages: "bto"  # Rinconada Bikol
+languages: "ceb"  # Cebuano
+languages: "cgg"  # Chiga
+languages: "crs"  # Seselwa Creole French
+languages: "ctd"  # 
+languages: "dav"  # Taita
+languages: "en"  # English
+languages: "fbl"  # West Albay Bikol
+languages: "fj"  # Fijian
+languages: "gil"  # Gilbertese
+languages: "guz"  # Gusii
+languages: "hil"  # Hiligaynon
+languages: "hmn"  # Hmong
+languages: "ia"  # Interlingua
+languages: "id"  # Indonesian
+languages: "jam"  # Jamaican Creole English
+languages: "jmc"  # Machame
+languages: "kde"  # Makonde
+languages: "kg"  # Kongo
+languages: "kj"  # Kuanyama
+languages: "kln"  # Kalenjin
+languages: "kmb"  # Kimbundu
+languages: "ksb"  # Shambala
+languages: "kw"  # Cornish
+languages: "la"  # Latin
+languages: "lua"  # Luba-Lulua
+languages: "luo"  # Luo
+languages: "luy"  # Luyia
+languages: "mfe"  # Morisyen
+languages: "mgh"  # Makhuwa-Meetto
+languages: "min"  # Minangkabau
+languages: "ms"  # Malay
+languages: "nd"  # North Ndebele
+languages: "ng"  # Ndonga
+languages: "njo"  # Ao Naga
+languages: "nov"  # Novial
+languages: "nr"  # South Ndebele
+languages: "nyn"  # Nyankole
+languages: "om"  # Oromo
+languages: "pam"  # Pampanga
+languages: "pko"  # Pökoot
+languages: "pon"  # Pohnpeian
+languages: "quc"  # Kʼicheʼ
+languages: "rn"  # Rundi
+languages: "rof"  # Rombo
+languages: "rw"  # Kinyarwanda
+languages: "rwk"  # Rwa
+languages: "saq"  # Samburu
+languages: "sbp"  # Sangu
+languages: "sn"  # Shona
+languages: "snk"  # Soninke
+languages: "so"  # Somali
+languages: "ss"  # Swati
+languages: "sw"  # Swahili
+languages: "swb_Latn"  # Comorian, Latin
+languages: "teo"  # Teso
+languages: "tpi"  # Tok Pisin
+languages: "ts"  # Tsonga
+languages: "tum"  # Tumbuka
+languages: "vun"  # Vunjo
+languages: "wbp"  # Warlpiri
+languages: "xh"  # Xhosa
+languages: "xog"  # Soga
+languages: "zu"  # Zulu

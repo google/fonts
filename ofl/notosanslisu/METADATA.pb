@@ -20,5 +20,6 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "lis"
-languages: "lis"
+languages: "lis"  # Lisu
+languages: "lis"  # Lisu
+languages: "lis"  # Lisu

@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "tagalog"
 is_noto: true
-languages: "fil_Tglg"
-languages: "fil_Tglg"
+languages: "fil_Tglg"  # Filipino, Tagalog
+languages: "fil_Tglg"  # Filipino, Tagalog
+languages: "fil_Tglg"  # Filipino, Tagalog

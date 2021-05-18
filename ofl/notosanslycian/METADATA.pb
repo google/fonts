@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "lycian"
 is_noto: true
-languages: "xlc"
-languages: "xlc"
+languages: "xlc"  # Lycian
+languages: "xlc"  # Lycian
+languages: "xlc"  # Lycian

@@ -15,4 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "balinese"
 is_noto: true
-languages: "ban_Bali"
+languages: "ban_Bali"  # Balinese, Balinese

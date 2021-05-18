@@ -42,7 +42,9 @@ fonts {
 subsets: "menu"
 subsets: "oriya"
 is_noto: true
-languages: "or"
-languages: "sat_Orya"
-languages: "or"
-languages: "sat_Orya"
+languages: "or"  # Odia
+languages: "sat_Orya"  # Santali, Odia
+languages: "or"  # Odia
+languages: "sat_Orya"  # Santali, Odia
+languages: "or"  # Odia
+languages: "sat_Orya"  # Santali, Odia

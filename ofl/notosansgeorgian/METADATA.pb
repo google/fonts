@@ -25,10 +25,13 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "ka"
-languages: "lzz"
-languages: "xmf"
-languages: "ka"
-languages: "lzz"
-languages: "xmf"
-languages: "ka"
+languages: "ka"  # Georgian
+languages: "lzz"  # Laz
+languages: "xmf"  # Mingrelian
+languages: "ka"  # Georgian
+languages: "lzz"  # Laz
+languages: "xmf"  # Mingrelian
+languages: "ka"  # Georgian
+languages: "ka"  # Georgian
+languages: "lzz"  # Laz
+languages: "xmf"  # Mingrelian

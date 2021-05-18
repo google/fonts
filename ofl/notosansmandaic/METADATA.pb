@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "mandaic"
 is_noto: true
-languages: "myz"
-languages: "myz"
+languages: "myz"  # Mandaic
+languages: "myz"  # Mandaic
+languages: "myz"  # Mandaic

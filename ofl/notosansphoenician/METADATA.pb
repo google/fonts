@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "phoenician"
 is_noto: true
-languages: "phn"
-languages: "phn"
+languages: "phn"  # Phoenician
+languages: "phn"  # Phoenician
+languages: "phn"  # Phoenician

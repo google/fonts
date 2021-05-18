@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "cypriot"
 is_noto: true
-languages: "grc"
-languages: "grc"
+languages: "grc"  # Ancient Greek
+languages: "grc"  # Ancient Greek
+languages: "grc"  # Ancient Greek

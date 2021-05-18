@@ -33,4 +33,4 @@ fonts {
 subsets: "menu"
 subsets: "syriac"
 is_noto: true
-languages: "aii_Syrc"
+languages: "aii_Syrc"  # Assyrian Neo-Aramaic, Syriac

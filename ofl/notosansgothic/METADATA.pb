@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "gothic"
 is_noto: true
-languages: "got"
-languages: "got"
+languages: "got"  # Gothic
+languages: "got"  # Gothic
+languages: "got"  # Gothic

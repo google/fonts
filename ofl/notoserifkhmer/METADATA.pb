@@ -25,5 +25,6 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "km"
-languages: "km"
+languages: "km"  # Khmer
+languages: "km"  # Khmer
+languages: "km"  # Khmer

@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "buhid"
 is_noto: true
-languages: "bku_Buhd"
-languages: "bku_Buhd"
+languages: "bku_Buhd"  # Buhid, Buhid
+languages: "bku_Buhd"  # Buhid, Buhid
+languages: "bku_Buhd"  # Buhid, Buhid

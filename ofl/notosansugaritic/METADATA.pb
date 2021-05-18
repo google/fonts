@@ -15,5 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "ugaritic"
 is_noto: true
-languages: "uga"
-languages: "uga"
+languages: "uga"  # Ugaritic
+languages: "uga"  # Ugaritic
+languages: "uga"  # Ugaritic

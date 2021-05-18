@@ -20,7 +20,9 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "kn"
-languages: "tcy"
-languages: "kn"
-languages: "tcy"
+languages: "kn"  # Kannada
+languages: "tcy"  # Tulu
+languages: "kn"  # Kannada
+languages: "tcy"  # Tulu
+languages: "kn"  # Kannada
+languages: "tcy"  # Tulu

@@ -25,19 +25,27 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "kdt"
-languages: "kxm"
-languages: "lcp"
-languages: "lwl"
-languages: "pi_Thai"
-languages: "sou"
-languages: "th"
-languages: "tts"
-languages: "kdt"
-languages: "kxm"
-languages: "lcp"
-languages: "lwl"
-languages: "pi_Thai"
-languages: "sou"
-languages: "th"
-languages: "tts"
+languages: "kdt"  # Kuy
+languages: "kxm"  # Northern Khmer
+languages: "lcp"  # Western Lawa
+languages: "lwl"  # Eastern Lawa
+languages: "pi_Thai"  # Pali, Thai
+languages: "sou"  # Southern Thai
+languages: "th"  # Thai
+languages: "tts"  # Northeastern Thai
+languages: "kdt"  # Kuy
+languages: "kxm"  # Northern Khmer
+languages: "lcp"  # Western Lawa
+languages: "lwl"  # Eastern Lawa
+languages: "pi_Thai"  # Pali, Thai
+languages: "sou"  # Southern Thai
+languages: "th"  # Thai
+languages: "tts"  # Northeastern Thai
+languages: "kdt"  # Kuy
+languages: "kxm"  # Northern Khmer
+languages: "lcp"  # Western Lawa
+languages: "lwl"  # Eastern Lawa
+languages: "pi_Thai"  # Pali, Thai
+languages: "sou"  # Southern Thai
+languages: "th"  # Thai
+languages: "tts"  # Northeastern Thai

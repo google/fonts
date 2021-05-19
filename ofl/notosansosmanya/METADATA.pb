@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "osmanya"
 is_noto: true
 languages: "so_Osma"  # Somali, Osmanya
-languages: "so_Osma"  # Somali, Osmanya
-languages: "so_Osma"  # Somali, Osmanya

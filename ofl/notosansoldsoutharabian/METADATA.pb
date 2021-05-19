@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "old-south-arabian"
 is_noto: true
 languages: "xsa"  # Sabaean
-languages: "xsa"  # Sabaean
-languages: "xsa"  # Sabaean

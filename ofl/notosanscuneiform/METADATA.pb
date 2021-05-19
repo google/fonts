@@ -17,7 +17,3 @@ subsets: "cuneiform"
 is_noto: true
 languages: "akk"  # Akkadian
 languages: "hit"  # Hittite
-languages: "akk"  # Akkadian
-languages: "hit"  # Hittite
-languages: "akk"  # Akkadian
-languages: "hit"  # Hittite

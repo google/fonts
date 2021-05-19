@@ -17,7 +17,3 @@ subsets: "brahmi"
 is_noto: true
 languages: "pi_Brah"  # Pali, Brahmi
 languages: "pka"  # Ardhamagadhi Prakrit
-languages: "pi_Brah"  # Pali, Brahmi
-languages: "pka"  # Ardhamagadhi Prakrit
-languages: "pi_Brah"  # Pali, Brahmi
-languages: "pka"  # Ardhamagadhi Prakrit

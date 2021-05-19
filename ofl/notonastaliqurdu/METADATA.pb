@@ -39,35 +39,3 @@ languages: "ps"  # Pashto
 languages: "skr"  # Saraiki
 languages: "so_Arab"  # Somali, Perso-Arabic
 languages: "ur"  # Urdu
-languages: "ar"  # Arabic
-languages: "arz"  # Egyptian Arabic
-languages: "bal"  # Baluchi
-languages: "fa"  # Persian
-languages: "glk"  # Gilaki
-languages: "hno"  # Northern Hindko
-languages: "khw"  # Khowar
-languages: "ks"  # Kashmiri
-languages: "mvy"  # Indus Kohistani
-languages: "mzn"  # Mazanderani
-languages: "pa_Arab"  # Punjabi (Arabic)
-languages: "ps"  # Pashto
-languages: "skr"  # Saraiki
-languages: "so_Arab"  # Somali, Perso-Arabic
-languages: "ur"  # Urdu
-languages: "ks"  # Kashmiri
-languages: "ur"  # Urdu
-languages: "ar"  # Arabic
-languages: "arz"  # Egyptian Arabic
-languages: "bal"  # Baluchi
-languages: "fa"  # Persian
-languages: "glk"  # Gilaki
-languages: "hno"  # Northern Hindko
-languages: "khw"  # Khowar
-languages: "ks"  # Kashmiri
-languages: "mvy"  # Indus Kohistani
-languages: "mzn"  # Mazanderani
-languages: "pa_Arab"  # Punjabi (Arabic)
-languages: "ps"  # Pashto
-languages: "skr"  # Saraiki
-languages: "so_Arab"  # Somali, Perso-Arabic
-languages: "ur"  # Urdu

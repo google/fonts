@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "avestan"
 is_noto: true
 languages: "ae"  # Avestan
-languages: "ae"  # Avestan
-languages: "ae"  # Avestan

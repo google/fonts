@@ -88,5 +88,3 @@ subsets: "gujarati"
 subsets: "menu"
 is_noto: true
 languages: "gu"  # Gujarati
-languages: "gu"  # Gujarati
-languages: "gu"  # Gujarati

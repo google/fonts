@@ -27,7 +27,3 @@ axes {
 is_noto: true
 languages: "kn"  # Kannada
 languages: "tcy"  # Tulu
-languages: "kn"  # Kannada
-languages: "tcy"  # Tulu
-languages: "kn"  # Kannada
-languages: "tcy"  # Tulu

@@ -21,5 +21,3 @@ axes {
 }
 is_noto: true
 languages: "lis"  # Lisu
-languages: "lis"  # Lisu
-languages: "lis"  # Lisu

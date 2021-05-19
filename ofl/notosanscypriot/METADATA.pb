@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "cypriot"
 is_noto: true
 languages: "grc"  # Ancient Greek
-languages: "grc"  # Ancient Greek
-languages: "grc"  # Ancient Greek

@@ -26,5 +26,3 @@ axes {
 }
 is_noto: true
 languages: "pa"  # Punjabi
-languages: "pa"  # Punjabi
-languages: "pa"  # Punjabi

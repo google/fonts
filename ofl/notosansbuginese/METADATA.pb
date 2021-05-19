@@ -18,9 +18,3 @@ is_noto: true
 languages: "bug_Bugi"  # Buginese, Buginese
 languages: "mak_Bugi"  # Makasar, Buginese
 languages: "mdr_Bugi"  # Mandar, Buginese
-languages: "bug_Bugi"  # Buginese, Buginese
-languages: "mak_Bugi"  # Makasar, Buginese
-languages: "mdr_Bugi"  # Mandar, Buginese
-languages: "bug_Bugi"  # Buginese, Buginese
-languages: "mak_Bugi"  # Makasar, Buginese
-languages: "mdr_Bugi"  # Mandar, Buginese

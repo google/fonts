@@ -28,17 +28,6 @@ is_noto: true
 languages: "he"  # Hebrew
 languages: "jpr"  # Judeo-Persian
 languages: "jrb"  # Judeo-Arabic
-languages: "sam"  # Samaritan Aramaic
-languages: "yi"  # Yiddish
-languages: "he"  # Hebrew
-languages: "jpr"  # Judeo-Persian
-languages: "jrb"  # Judeo-Arabic
-languages: "sam"  # Samaritan Aramaic
-languages: "yi"  # Yiddish
-languages: "he"  # Hebrew
 languages: "lad"  # Ladino
-languages: "he"  # Hebrew
-languages: "jpr"  # Judeo-Persian
-languages: "jrb"  # Judeo-Arabic
 languages: "sam"  # Samaritan Aramaic
 languages: "yi"  # Yiddish

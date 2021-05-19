@@ -22,7 +22,3 @@ axes {
 is_noto: true
 languages: "kkh"  # Tai Khün
 languages: "nod"  # Northern Thai
-languages: "kkh"  # Tai Khün
-languages: "nod"  # Northern Thai
-languages: "kkh"  # Tai Khün
-languages: "nod"  # Northern Thai

@@ -21,5 +21,3 @@ axes {
 }
 is_noto: true
 languages: "bax"  # Bamun
-languages: "bax"  # Bamun
-languages: "bax"  # Bamun

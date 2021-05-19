@@ -21,6 +21,3 @@ axes {
 }
 is_noto: true
 languages: "su_Sund"  # Sundanese, Sundanese
-languages: "su_Sund"  # Sundanese, Sundanese
-languages: "su_Sund"  # Sundanese, Sundanese
-languages: "su_Sund"  # Sundanese, Sundanese

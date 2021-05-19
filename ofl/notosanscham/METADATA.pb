@@ -22,7 +22,3 @@ axes {
 is_noto: true
 languages: "cja_Cham"  # Western Cham, Cham
 languages: "cjm"  # Eastern Cham
-languages: "cja_Cham"  # Western Cham, Cham
-languages: "cjm"  # Eastern Cham
-languages: "cja_Cham"  # Western Cham, Cham
-languages: "cjm"  # Eastern Cham

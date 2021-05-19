@@ -37,29 +37,3 @@ languages: "sat_Beng"  # Santali, Bengali
 languages: "syl"  # Sylheti
 languages: "unr"  # Mundari
 languages: "unx"  # Munda
-languages: "as"  # Assamese
-languages: "bn"  # Bengali
-languages: "bpy"  # Bishnupriya
-languages: "ccp"  # Chakma
-languages: "grt"  # Garo
-languages: "kha_Beng"  # Khasi, Bengali
-languages: "mni"  # Manipuri
-languages: "rkt"  # Rangpuri
-languages: "sat_Beng"  # Santali, Bengali
-languages: "syl"  # Sylheti
-languages: "unr"  # Mundari
-languages: "unx"  # Munda
-languages: "bpy"  # Bishnupriya
-languages: "rkt"  # Rangpuri
-languages: "as"  # Assamese
-languages: "bn"  # Bengali
-languages: "bpy"  # Bishnupriya
-languages: "ccp"  # Chakma
-languages: "grt"  # Garo
-languages: "kha_Beng"  # Khasi, Bengali
-languages: "mni"  # Manipuri
-languages: "rkt"  # Rangpuri
-languages: "sat_Beng"  # Santali, Bengali
-languages: "syl"  # Sylheti
-languages: "unr"  # Mundari
-languages: "unx"  # Munda

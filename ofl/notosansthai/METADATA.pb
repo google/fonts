@@ -33,19 +33,3 @@ languages: "pi_Thai"  # Pali, Thai
 languages: "sou"  # Southern Thai
 languages: "th"  # Thai
 languages: "tts"  # Northeastern Thai
-languages: "kdt"  # Kuy
-languages: "kxm"  # Northern Khmer
-languages: "lcp"  # Western Lawa
-languages: "lwl"  # Eastern Lawa
-languages: "pi_Thai"  # Pali, Thai
-languages: "sou"  # Southern Thai
-languages: "th"  # Thai
-languages: "tts"  # Northeastern Thai
-languages: "kdt"  # Kuy
-languages: "kxm"  # Northern Khmer
-languages: "lcp"  # Western Lawa
-languages: "lwl"  # Eastern Lawa
-languages: "pi_Thai"  # Pali, Thai
-languages: "sou"  # Southern Thai
-languages: "th"  # Thai
-languages: "tts"  # Northeastern Thai

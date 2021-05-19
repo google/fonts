@@ -17,7 +17,3 @@ subsets: "mongolian"
 is_noto: true
 languages: "mn_Mong"  # Mongolian (Mongolian)
 languages: "mnc"  # Manchu
-languages: "mn_Mong"  # Mongolian (Mongolian)
-languages: "mnc"  # Manchu
-languages: "mn_Mong"  # Mongolian (Mongolian)
-languages: "mnc"  # Manchu

@@ -21,5 +21,3 @@ axes {
 }
 is_noto: true
 languages: "gu"  # Gujarati
-languages: "gu"  # Gujarati
-languages: "gu"  # Gujarati

@@ -21,6 +21,3 @@ axes {
 }
 is_noto: true
 languages: "dv"  # Divehi
-languages: "dv"  # Divehi
-languages: "dv"  # Divehi
-languages: "dv"  # Divehi

@@ -21,6 +21,3 @@ axes {
 }
 is_noto: true
 languages: "sat"  # Santali
-languages: "sat"  # Santali
-languages: "sat"  # Santali
-languages: "sat"  # Santali

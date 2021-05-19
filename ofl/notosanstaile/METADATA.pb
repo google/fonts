@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "tai-le"
 is_noto: true
 languages: "tdd"  # Tai Nüa
-languages: "tdd"  # Tai Nüa
-languages: "tdd"  # Tai Nüa

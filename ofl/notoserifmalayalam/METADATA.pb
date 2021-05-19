@@ -21,5 +21,3 @@ axes {
 }
 is_noto: true
 languages: "ml"  # Malayalam
-languages: "ml"  # Malayalam
-languages: "ml"  # Malayalam

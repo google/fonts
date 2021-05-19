@@ -32,18 +32,3 @@ languages: "om_Ethi"  # Oromo, Ethiopic
 languages: "ti"  # Tigrinya
 languages: "tig"  # Tigre
 languages: "wal"  # Wolaytta
-languages: "am"  # Amharic
-languages: "byn"  # Blin
-languages: "gez"  # Geez
-languages: "om_Ethi"  # Oromo, Ethiopic
-languages: "ti"  # Tigrinya
-languages: "tig"  # Tigre
-languages: "wal"  # Wolaytta
-languages: "am"  # Amharic
-languages: "am"  # Amharic
-languages: "byn"  # Blin
-languages: "gez"  # Geez
-languages: "om_Ethi"  # Oromo, Ethiopic
-languages: "ti"  # Tigrinya
-languages: "tig"  # Tigre
-languages: "wal"  # Wolaytta

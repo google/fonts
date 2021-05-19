@@ -22,7 +22,3 @@ axes {
 is_noto: true
 languages: "eky"  # Eastern Kayah
 languages: "kyu"  # Western Kayah
-languages: "eky"  # Eastern Kayah
-languages: "kyu"  # Western Kayah
-languages: "eky"  # Eastern Kayah
-languages: "kyu"  # Western Kayah

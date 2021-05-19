@@ -26,6 +26,3 @@ axes {
 }
 is_noto: true
 languages: "hy"  # Armenian
-languages: "hy"  # Armenian
-languages: "hy"  # Armenian
-languages: "hy"  # Armenian

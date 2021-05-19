@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "syloti-nagri"
 is_noto: true
 languages: "syl_Sylo"  # Sylheti, Syloti Nagri
-languages: "syl_Sylo"  # Sylheti, Syloti Nagri
-languages: "syl_Sylo"  # Sylheti, Syloti Nagri

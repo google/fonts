@@ -21,6 +21,3 @@ axes {
 }
 is_noto: true
 languages: "chr"  # Cherokee
-languages: "chr"  # Cherokee
-languages: "chr"  # Cherokee
-languages: "chr"  # Cherokee

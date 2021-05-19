@@ -27,7 +27,3 @@ axes {
 is_noto: true
 languages: "bfq"  # Badaga
 languages: "ta"  # Tamil
-languages: "bfq"  # Badaga
-languages: "ta"  # Tamil
-languages: "bfq"  # Badaga
-languages: "ta"  # Tamil

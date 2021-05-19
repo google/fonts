@@ -31,25 +31,3 @@ languages: "den_Cans"  # Slave, Unified Canadian Aboriginal Syllabics
 languages: "iu"  # Inuktitut
 languages: "nsk"  # Naskapi
 languages: "oj"  # Ojibwa
-languages: "chp_Cans"  # Chipewyan, Unified Canadian Aboriginal Syllabics
-languages: "cr"  # Cree
-languages: "crj"  # Southern East Cree
-languages: "crk"  # Plains Cree
-languages: "crl"  # Northern East Cree
-languages: "crm"  # Moose Cree
-languages: "csw"  # Swampy Cree
-languages: "den_Cans"  # Slave, Unified Canadian Aboriginal Syllabics
-languages: "iu"  # Inuktitut
-languages: "nsk"  # Naskapi
-languages: "oj"  # Ojibwa
-languages: "chp_Cans"  # Chipewyan, Unified Canadian Aboriginal Syllabics
-languages: "cr"  # Cree
-languages: "crj"  # Southern East Cree
-languages: "crk"  # Plains Cree
-languages: "crl"  # Northern East Cree
-languages: "crm"  # Moose Cree
-languages: "csw"  # Swampy Cree
-languages: "den_Cans"  # Slave, Unified Canadian Aboriginal Syllabics
-languages: "iu"  # Inuktitut
-languages: "nsk"  # Naskapi
-languages: "oj"  # Ojibwa

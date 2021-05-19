@@ -24,11 +24,3 @@ languages: "gon_Telu"  # Gondi, Telugu
 languages: "lmn"  # Lambadi
 languages: "te"  # Telugu
 languages: "wbq"  # Waddar
-languages: "gon_Telu"  # Gondi, Telugu
-languages: "lmn"  # Lambadi
-languages: "te"  # Telugu
-languages: "wbq"  # Waddar
-languages: "gon_Telu"  # Gondi, Telugu
-languages: "lmn"  # Lambadi
-languages: "te"  # Telugu
-languages: "wbq"  # Waddar

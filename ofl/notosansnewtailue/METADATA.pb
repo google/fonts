@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "new-tai-lue"
 is_noto: true
 languages: "khb"  # Lü
-languages: "khb"  # Lü
-languages: "khb"  # Lü

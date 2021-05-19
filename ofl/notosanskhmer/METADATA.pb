@@ -26,5 +26,3 @@ axes {
 }
 is_noto: true
 languages: "km"  # Khmer
-languages: "km"  # Khmer
-languages: "km"  # Khmer

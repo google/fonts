@@ -21,6 +21,3 @@ axes {
 }
 is_noto: true
 languages: "ban_Bali"  # Balinese, Balinese
-languages: "ban_Bali"  # Balinese, Balinese
-languages: "ban_Bali"  # Balinese, Balinese
-languages: "ban_Bali"  # Balinese, Balinese

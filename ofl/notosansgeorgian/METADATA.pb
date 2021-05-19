@@ -28,10 +28,3 @@ is_noto: true
 languages: "ka"  # Georgian
 languages: "lzz"  # Laz
 languages: "xmf"  # Mingrelian
-languages: "ka"  # Georgian
-languages: "lzz"  # Laz
-languages: "xmf"  # Mingrelian
-languages: "ka"  # Georgian
-languages: "ka"  # Georgian
-languages: "lzz"  # Laz
-languages: "xmf"  # Mingrelian

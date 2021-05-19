@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "old-turkic"
 is_noto: true
 languages: "otk"  # Old Turkish
-languages: "otk"  # Old Turkish
-languages: "otk"  # Old Turkish

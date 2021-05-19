@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "inscriptional-pahlavi"
 is_noto: true
 languages: "pal"  # Pahlavi
-languages: "pal"  # Pahlavi
-languages: "pal"  # Pahlavi

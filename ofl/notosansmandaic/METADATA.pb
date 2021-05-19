@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "mandaic"
 is_noto: true
 languages: "myz"  # Mandaic
-languages: "myz"  # Mandaic
-languages: "myz"  # Mandaic

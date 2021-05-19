@@ -16,5 +16,3 @@ subsets: "menu"
 subsets: "coptic"
 is_noto: true
 languages: "cop_Copt"  # Coptic, Coptic
-languages: "cop_Copt"  # Coptic, Coptic
-languages: "cop_Copt"  # Coptic, Coptic

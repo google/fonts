@@ -21,5 +21,3 @@ axes {
 }
 is_noto: true
 languages: "ff_Adlm"  # Fulah (Adlam)
-languages: "ff_Adlm"  # Fulah (Adlam)
-languages: "ff_Adlm"  # Fulah (Adlam)

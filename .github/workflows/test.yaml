@@ -27,9 +27,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt install libharfbuzz-dev libharfbuzz-bin libfreetype6-dev libglib2.0-dev libcairo2-dev
+          sudo apt install libharfbuzz-dev libharfbuzz-bin libfreetype6-dev libglib2.0-dev libcairo2-dev ttfautohint
           python -m pip install --upgrade pip
           pip install gftools[qa] pytest
+          
       - name: Check fonts
         env:
           GF_API_KEY: ${{ secrets.GF_API_KEY }}

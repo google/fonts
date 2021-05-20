@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Georama[wdth,wght].ttf"
-  post_script_name: "Georama-Variable"
-  full_name: "Georama Variable"
+  post_script_name: "GeoramaRoman-ExtraCondensedThin"
+  full_name: "Georama ExtraCondensed Thin"
   copyright: "Copyright 2020 The Georama Project Authors (http://github.com/productiontype/georama)"
 }
 fonts {
@@ -17,8 +17,8 @@ fonts {
   style: "italic"
   weight: 400
   filename: "Georama-Italic[wdth,wght].ttf"
-  post_script_name: "Georama-VariableItalic"
-  full_name: "Georama Variable Italic"
+  post_script_name: "GeoramaItalic-ExtraCondensedThinItalic"
+  full_name: "Georama ExtraCondensed Thin Italic"
   copyright: "Copyright 2020 The Georama Project Authors (http://github.com/productiontype/georama)"
 }
 subsets: "latin"
@@ -34,4 +34,8 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/productiontype/Georama.git"
+  commit: "1b063b6256c228a56d13b8b2f8f1d807f41467f8"
 }

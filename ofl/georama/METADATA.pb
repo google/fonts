@@ -35,7 +35,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/productiontype/Georama.git"
-  commit: "1b063b6256c228a56d13b8b2f8f1d807f41467f8"
-}

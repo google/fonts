@@ -7,7 +7,7 @@ fonts {
   name: "Andada Pro"
   style: "normal"
   weight: 400
-  filename: "AndadaPro[wght].ttf.ttf"
+  filename: "AndadaPro[wght].ttf"
   post_script_name: "AndadaPro-Regular"
   full_name: "Andada Pro Regular"
   copyright: "Copyright 2011 The Andada Pro Project Authors (https://github.com/huertatipografica/Andada)"
@@ -16,7 +16,7 @@ fonts {
   name: "Andada Pro"
   style: "italic"
   weight: 400
-  filename: "AndadaPro-Italic[wght].ttf.ttf"
+  filename: "AndadaPro-Italic[wght].ttf"
   post_script_name: "AndadaPro-Italic"
   full_name: "Andada Pro Italic"
   copyright: "Copyright 2011 The Andada Pro Project Authors (https://github.com/huertatipografica/Andada)"

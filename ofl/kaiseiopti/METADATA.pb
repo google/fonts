@@ -30,14 +30,8 @@ fonts {
   full_name: "Kaisei Opti Bold"
   copyright: "Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/FontKai-Kaisei/Kaisei.git"
-  commit: "c7d23987fd23fd5512c1caa259ca6dee7c59a167"
-}

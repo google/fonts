@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "meroitic"
 is_noto: true
+languages: "xmr_Mero"  # Meroitic, Meroitic Hieroglyphs

@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "bassa-vah"
 is_noto: true
+languages: "bsq"  # Bassa

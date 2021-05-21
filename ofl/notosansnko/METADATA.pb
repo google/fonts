@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "nko"
 is_noto: true
+languages: "bm_Nkoo"  # Bambara, Nko
+languages: "dyu_Nkoo"  # Dyula, Nko
+languages: "man_Nkoo"  # Mandingo, Nko

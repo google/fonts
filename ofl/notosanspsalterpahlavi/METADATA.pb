@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "psalter-pahlavi"
 is_noto: true
+languages: "pal_Phlp"  # Pahlavi, Psalter Pahlavi

@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "tangut"
 is_noto: true
+languages: "txg"  # Tangut

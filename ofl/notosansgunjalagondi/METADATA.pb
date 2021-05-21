@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "gunjala-gondi"
 is_noto: true
+languages: "gon_Gong"  # Gondi, Gunjala Gondi

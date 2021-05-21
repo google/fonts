@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "linear-a"
 is_noto: true
+languages: "lab"  # Linear A
+languages: "omn"  # Minoan

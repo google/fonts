@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "pau-cin-hau"
 is_noto: true
+languages: "ctd_Pauc"  # Tedim Chin, Pau Cin Hau

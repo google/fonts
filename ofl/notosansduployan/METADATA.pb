@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "duployan"
 is_noto: true
+languages: "chn_Dupl"  # Chinook Jargon, Duployan
+languages: "de_Dupl"  # German, Duployan
+languages: "fr_Dupl"  # French, Duployan

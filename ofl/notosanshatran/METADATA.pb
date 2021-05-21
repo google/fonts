@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "hatran"
 is_noto: true
+languages: "mis_Hatr"  # Hatran Aramaic

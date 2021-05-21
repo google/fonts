@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "multani"
 is_noto: true
+languages: "skr_Mult"  # Saraiki, Multani

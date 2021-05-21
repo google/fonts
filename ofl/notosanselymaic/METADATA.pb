@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "elymaic"
 is_noto: true
+languages: "xly"  # Elymian

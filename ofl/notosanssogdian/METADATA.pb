@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "sogdian"
 is_noto: true
+languages: "sog"  # Sogdian

@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "old-north-arabian"
 is_noto: true
+languages: "xna"  # Ancient North Arabian

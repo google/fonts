@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "dogra"
 is_noto: true
+languages: "doi_Dogr"  # Dogri, Dogra

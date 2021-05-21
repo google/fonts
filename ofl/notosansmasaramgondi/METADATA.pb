@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "masaram-gondi"
 is_noto: true
+languages: "esg"  # Aheri Gondi
+languages: "gon_Gonm"  # Gondi, Masaram Gondi
+languages: "wsg"  # Adilabad Gondi

@@ -16,11 +16,6 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 axes {
-  tag: "ital"
-  min_value: 0.0
-  max_value: 1.0
-}
-axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0

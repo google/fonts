@@ -1,5 +1,5 @@
 name: "Lovers Quarrel"
-designer: "TypeSETit"
+designer: "Robert Leuschke"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-03-29"
@@ -9,9 +9,10 @@ fonts {
   weight: 400
   filename: "LoversQuarrel-Regular.ttf"
   post_script_name: "LoversQuarrel-Regular"
-  full_name: "Lovers Quarrel"
-  copyright: "Copyright (c) 2012 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Lovers Quarrel\""
+  full_name: "Lovers Quarrel Regular"
+  copyright: "Copyright 2004 The Lovers Quarrel Project Authors (https://github.com/googlefonts/lovers-quarrel)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

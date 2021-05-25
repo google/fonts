@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/lovers-quarrel"
-  commit: "bf3a5fd5bf11cd96b5545ee9191a16460296eb71"
-}

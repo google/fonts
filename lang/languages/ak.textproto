@@ -8,7 +8,7 @@ region: "GH"
 exemplar_chars {
   base: "a b d e ɛ f g h i k l m n o ɔ p r s t u w y"
   auxiliary: "c j q v z"
-  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "A B C D E Ɛ F G H I J K L M N O Ɔ P Q R S T U V W X Y Z"
 }
 sample_text {

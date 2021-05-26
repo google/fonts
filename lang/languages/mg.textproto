@@ -9,7 +9,7 @@ exemplar_chars {
   base: "a à â b d e é è ê ë f g h i ì î ï j k l m n ñ o ô p r s t v y z"
   auxiliary: "c q u w x"
   marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̈"
-  numerals: "\\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "A B D E F G H I J K L M N O P R S T V Y Z"
 }
 sample_text {

@@ -25,7 +25,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/windsong"
-  commit: "08da686e588864189c5c1616ed6971c1aeebafd5"
-}

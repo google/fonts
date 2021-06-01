@@ -2,7 +2,8 @@ branch: master
 files:
   OFL.txt: OFL.txt
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-  fonts/variable/Urbanist[ital,wght].ttf: Urbanist[ital,wght].ttf
+  fonts/gfvariable/Urbanist[wght].ttf: Urbanist[wght].ttf
+  fonts/gfvariable/Urbanist-Italic[wght].ttf: Urbanist-Italic[wght].ttf
   fonts/ttf/Urbanist-Black.ttf: static/Urbanist-Black.ttf
   fonts/ttf/Urbanist-BlackItalic.ttf: static/Urbanist-BlackItalic.ttf
   fonts/ttf/Urbanist-ExtraBold.ttf: static/Urbanist-ExtraBold.ttf
@@ -21,3 +22,4 @@ files:
   fonts/ttf/Urbanist-ExtraLightItalic.ttf: static/Urbanist-ExtraLightItalic.ttf
   fonts/ttf/Urbanist-Thin.ttf: static/Urbanist-Thin.ttf
   fonts/ttf/Urbanist-ThinItalic.ttf: static/Urbanist-ThinItalic.ttf
+repository_url: https://github.com/coreyhu/Urbanist

@@ -32,7 +32,3 @@ axes {
   min_value: 200.0
   max_value: 1000.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/mulish.git"
-  commit: "1ee7aa5ccaa1fdd9cdeee8cb3e92d90d4b8f79c1"
-}

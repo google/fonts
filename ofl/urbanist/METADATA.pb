@@ -2,7 +2,7 @@ name: "Urbanist"
 designer: "Corey Hu"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2021-06-01"
+date_added: "2021-06-02"
 fonts {
   name: "Urbanist"
   style: "normal"

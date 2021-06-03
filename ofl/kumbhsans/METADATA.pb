@@ -20,7 +20,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/xconsau/KumbhSans"
-  commit: "8d0278f124a995f6c810997e04f68a02d28e0b4c"
-}

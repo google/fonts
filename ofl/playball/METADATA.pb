@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/play-ball"
-  commit: "13a54129eb380bb0f3a086b31da09e7f2cd46ba9"
-}

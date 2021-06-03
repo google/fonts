@@ -8,19 +8,21 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Mulish[wght].ttf"
-  post_script_name: "Mulish-Regular"
-  full_name: "Mulish Regular"
-  copyright: "Copyright 2011 The Mulish Project Authors (github.com/googlefonts/mulish)"
+  post_script_name: "Mulish-ExtraLight"
+  full_name: "Mulish ExtraLight"
+  copyright: "Copyright 2016 The Mulish Project Authors (https://github.com/googlefonts/mulish)"
 }
 fonts {
   name: "Mulish"
   style: "italic"
   weight: 400
   filename: "Mulish-Italic[wght].ttf"
-  post_script_name: "Mulish-Italic"
-  full_name: "Mulish Italic"
-  copyright: "Copyright 2011 The Mulish Project Authors (github.com/googlefonts/mulish)"
+  post_script_name: "Mulish-ExtraLightItalic"
+  full_name: "Mulish ExtraLight Italic"
+  copyright: "Copyright 2016 The Mulish Project Authors (https://github.com/googlefonts/mulish)"
 }
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -28,5 +30,9 @@ subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 200.0
-  max_value: 900.0
+  max_value: 1000.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/mulish.git"
+  commit: "1ee7aa5ccaa1fdd9cdeee8cb3e92d90d4b8f79c1"
 }

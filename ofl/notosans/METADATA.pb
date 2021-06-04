@@ -167,7 +167,7 @@ languages: "den"  # Slave
 languages: "dgr"  # Dogrib
 languages: "din"  # Dinka
 languages: "dje"  # Zarma
-languages: "dng"  # 
+languages: "dng"  # Dungan
 languages: "dnj"  # Dan
 languages: "dsb"  # Lower Sorbian
 languages: "dtm"  # Tomo Kan Dogon

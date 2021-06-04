@@ -1,25 +1,6 @@
 branch: master
 files:
   OFL.txt: OFL.txt
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   fonts/gfvariable/Urbanist[wght].ttf: Urbanist[wght].ttf
   fonts/gfvariable/Urbanist-Italic[wght].ttf: Urbanist-Italic[wght].ttf
-  fonts/ttf/Urbanist-Black.ttf: static/Urbanist-Black.ttf
-  fonts/ttf/Urbanist-BlackItalic.ttf: static/Urbanist-BlackItalic.ttf
-  fonts/ttf/Urbanist-ExtraBold.ttf: static/Urbanist-ExtraBold.ttf
-  fonts/ttf/Urbanist-ExtraBoldItalic.ttf: static/Urbanist-ExtraBoldItalic.ttf
-  fonts/ttf/Urbanist-Bold.ttf: static/Urbanist-Bold.ttf
-  fonts/ttf/Urbanist-BoldItalic.ttf: static/Urbanist-BoldItalic.ttf
-  fonts/ttf/Urbanist-SemiBold.ttf: static/Urbanist-SemiBold.ttf
-  fonts/ttf/Urbanist-SemiBoldItalic.ttf: static/Urbanist-SemiBoldItalic.ttf
-  fonts/ttf/Urbanist-Medium.ttf: static/Urbanist-Medium.ttf
-  fonts/ttf/Urbanist-MediumItalic.ttf: static/Urbanist-MediumItalic.ttf
-  fonts/ttf/Urbanist-Regular.ttf: static/Urbanist-Regular.ttf
-  fonts/ttf/Urbanist-Italic.ttf: static/Urbanist-Italic.ttf
-  fonts/ttf/Urbanist-Light.ttf: static/Urbanist-Light.ttf
-  fonts/ttf/Urbanist-LightItalic.ttf: static/Urbanist-LightItalic.ttf
-  fonts/ttf/Urbanist-ExtraLight.ttf: static/Urbanist-ExtraLight.ttf
-  fonts/ttf/Urbanist-ExtraLightItalic.ttf: static/Urbanist-ExtraLightItalic.ttf
-  fonts/ttf/Urbanist-Thin.ttf: static/Urbanist-Thin.ttf
-  fonts/ttf/Urbanist-ThinItalic.ttf: static/Urbanist-ThinItalic.ttf
 repository_url: https://github.com/coreyhu/Urbanist

@@ -12,14 +12,8 @@ fonts {
   full_name: "Hachi Maru Pop Regular"
   copyright: "Copyright 2020 The Hachi Maru Pop Project Authors (https://github.com/noriokanisawa/HachiMaruPop)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/noriokanisawa/HachiMaruPop.git"
-  commit: "efaa0d31f7bcace6cf4255b746911df1243af982"
-}

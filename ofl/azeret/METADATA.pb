@@ -29,7 +29,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/displaay/Azeret"
-  commit: "3d45a6c3e094f08bfc70551b525bd2037cac51ba"
-}

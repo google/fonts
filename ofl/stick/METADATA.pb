@@ -12,8 +12,14 @@ fonts {
   full_name: "Stick Regular"
   copyright: "Copyright 2020 The Stick Project Authors (https://github.com/fontworks-fonts/Stick/)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/fontworks-fonts/Stick.git"
+  commit: "7872941e6d29cb238ea7cc8d0e1d1499d02bc482"
+}

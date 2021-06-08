@@ -140,7 +140,7 @@ languages: "cho"  # Choctaw
 languages: "chp"  # Chipewyan
 languages: "chy"  # Cheyenne
 languages: "cjs"  # 
-languages: "ckt"  # 
+languages: "ckt"  # Chukot
 languages: "co"  # Corsican
 languages: "cop_Grek"  # Coptic, Greek
 languages: "cpf"  # French-based Creoles

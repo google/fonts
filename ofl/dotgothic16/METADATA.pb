@@ -12,8 +12,14 @@ fonts {
   full_name: "DotGothic16 Regular"
   copyright: "Copyright 2020 The DotGothic16 Project Authors (https://github.com/fontworks-fonts/DotGothic16/)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/fontworks-fonts/DotGothic16.git"
+  commit: "e44ca7bb46e7f353302c1431bf752af007c4fdfe"
+}

@@ -153,7 +153,7 @@ languages: "crl_Latn"  # Northern East Cree, Latin
 languages: "crs"  # Seselwa Creole French
 languages: "cs"  # Czech
 languages: "csb"  # Kashubian
-languages: "ctd"  # 
+languages: "ctd"  # Tedim
 languages: "cu"  # Church Slavic
 languages: "cv"  # Chuvash
 languages: "cy"  # Welsh

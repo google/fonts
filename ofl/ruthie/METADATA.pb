@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/ruthie"
-  commit: "73c981515aaf81ab6b027f7e10716f6be62c3fd5"
-}

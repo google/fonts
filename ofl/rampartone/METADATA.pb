@@ -12,14 +12,8 @@ fonts {
   full_name: "Rampart One Regular"
   copyright: "Copyright 2020 The Rampart Project Authors (https://github.com/fontworks-fonts/Rampart/)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/Rampart.git"
-  commit: "3f5fe9d544c290f6fc7c2176976ee7fe6ce14fbb"
-}

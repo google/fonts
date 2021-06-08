@@ -21,15 +21,9 @@ fonts {
   full_name: "Klee One SemiBold"
   copyright: "Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek-ext"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/Klee.git"
-  commit: "15a8d8f3e90b3aff71962aefaca4aa83171345e9"
-}

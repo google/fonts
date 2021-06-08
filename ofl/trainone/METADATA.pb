@@ -17,7 +17,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/Train.git"
-  commit: "7c77b21fbff6c182395862ab07273cb15423803e"
-}

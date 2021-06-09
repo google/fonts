@@ -1,10 +1,10 @@
-name: "Azeret"
+name: "Azeret Mono"
 designer: "Displaay, Martin Vácha"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2021-06-08"
 fonts {
-  name: "Azeret"
+  name: "Azeret Mono"
   style: "normal"
   weight: 400
   filename: "AzeretMono[wght].ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright 2021 The Azeret Project Authors (https://github.com/displaay/azeret)"
 }
 fonts {
-  name: "Azeret"
+  name: "Azeret Mono"
   style: "italic"
   weight: 400
   filename: "AzeretMono-Italic[wght].ttf"

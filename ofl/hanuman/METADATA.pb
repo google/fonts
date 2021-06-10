@@ -50,7 +50,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Hanuman.git"
-  commit: "76f778a2015763bfc6bdd610c15f44f10a294553"
-}

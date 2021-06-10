@@ -26,7 +26,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/yangheeryu/Gowun-Batang.git"
-  commit: "4e73f5a9a004927220354f4b68a4c720da538147"
-}

@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Moulpali.git"
-  commit: "77d85fc924e0f3c799c0066f8bb6f184930dc59e"
-}

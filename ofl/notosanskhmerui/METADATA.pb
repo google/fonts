@@ -50,7 +50,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/NotoSansKhmerUI.git"
-  commit: "859173db0331c30568a76b9cbbdd5e68fc486aed"
-}

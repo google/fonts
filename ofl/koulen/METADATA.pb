@@ -7,10 +7,14 @@ fonts {
   name: "Koulen"
   style: "normal"
   weight: 400
-  filename: "Koulen.ttf"
-  post_script_name: "Koulen"
-  full_name: "Koulen"
-  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS Koulen. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  filename: "Koulen-Regular.ttf"
+  post_script_name: "Koulen-Regular"
+  full_name: "Koulen Regular"
+  copyright: "Copyright 2019 The Koulen Project Authors (https://github.com/danhhong/Koulen)"
 }
-subsets: "menu"
 subsets: "khmer"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Koulen.git"
+  commit: "387ec6f230e61fe85a90529543daeeb2a3625b7e"
+}

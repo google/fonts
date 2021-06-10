@@ -17,7 +17,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/yangheeryu/Gowun-Dodum.git"
-  commit: "6d9ef10fc745cf3b0a4aba02dad1c740f94d029b"
-}

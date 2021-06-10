@@ -29,7 +29,3 @@ axes {
   min_value: 300.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/jeremymickel/RedHatFonts"
-  commit: "9dd2dd530e8dc986418f56d1e11c9c246bfe2bc7"
-}

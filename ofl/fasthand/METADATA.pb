@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Fasthand.git"
-  commit: "7f3bd99cd08ae57be1b4a1063a96117a5980beea"
-}

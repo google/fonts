@@ -7,10 +7,14 @@ fonts {
   name: "Moul"
   style: "normal"
   weight: 400
-  filename: "Moul.ttf"
-  post_script_name: "Moul"
-  full_name: "Moul"
-  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS Moul. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  filename: "Moul-Regular.ttf"
+  post_script_name: "Moul-Regular"
+  full_name: "Moul Regular"
+  copyright: "Copyright 2020 The Moul Project Authors (https://github.com/danhhong/Moul)"
 }
-subsets: "menu"
 subsets: "khmer"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Moul.git"
+  commit: "70a6f65f4d76152ef0986efea80b585d1ee21669"
+}

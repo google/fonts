@@ -30,8 +30,14 @@ fonts {
   full_name: "Kiwi Maru Medium"
   copyright: "Copyright 2020 The Kiwi Maru Project Authors (https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru.git"
+  commit: "65a112c7ec9ffe81595406982a670c7f945d7c5b"
+}

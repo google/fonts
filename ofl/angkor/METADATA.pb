@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Angkor.git"
-  commit: "8a6117ad7d97eee87c364657b47f35742df3bba9"
-}

@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Metal.git"
-  commit: "99c0e9b73987f4aaa55c7960fa7f0fdb654a7fa5"
-}

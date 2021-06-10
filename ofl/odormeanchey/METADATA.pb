@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/OdorMeanChey.git"
-  commit: "64f8c616d5120546c9d52ae2e47e006363433c55"
-}

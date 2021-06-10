@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Moul.git"
-  commit: "70a6f65f4d76152ef0986efea80b585d1ee21669"
-}

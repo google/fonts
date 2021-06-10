@@ -12,15 +12,9 @@ fonts {
   full_name: "Yomogi Regular"
   copyright: "Copyright 2020 The Yomogi Project Authors (https://github.com/satsuyako/YomogiFont), all rights reserved."
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/satsuyako/YomogiFont.git"
-  commit: "27a69d9253eb61d46772f65fcb7362647cedd148"
-}

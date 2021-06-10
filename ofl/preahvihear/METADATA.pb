@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Preahvihear.git"
-  commit: "0fc6b69c5097c9a9962a53187c77178e8336672e"
-}

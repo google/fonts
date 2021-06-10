@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Koulen.git"
-  commit: "387ec6f230e61fe85a90529543daeeb2a3625b7e"
-}

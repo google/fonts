@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Bayon.git"
-  commit: "1749b1d8a8321d4294aae0f73ebb473535c39aee"
-}

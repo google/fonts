@@ -21,7 +21,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/RosaWagner/lexend"
-  commit: "cb5b0005b7e01903191b3b5aff68bb0430d8f960"
-}

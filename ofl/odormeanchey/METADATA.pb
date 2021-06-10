@@ -1,16 +1,20 @@
 name: "Odor Mean Chey"
 designer: "Danh Hong"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2011-03-02"
 fonts {
   name: "Odor Mean Chey"
   style: "normal"
   weight: 400
-  filename: "OdorMeanChey.ttf"
-  post_script_name: "OdorMeanChey"
-  full_name: "OdorMeanChey"
-  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name NiDA OdorMeanChey. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  filename: "OdorMeanChey-Regular.ttf"
+  post_script_name: "OdorMeanChey-Regular"
+  full_name: "Odor Mean Chey Regular"
+  copyright: "Copyright 2019 The Odor Mean Chey Project Authors (https://github.com/danhhong/OdorMeanChey)"
 }
-subsets: "menu"
 subsets: "khmer"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/OdorMeanChey.git"
+  commit: "64f8c616d5120546c9d52ae2e47e006363433c55"
+}

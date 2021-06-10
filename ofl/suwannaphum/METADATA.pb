@@ -50,7 +50,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Suwannaphum.git"
-  commit: "d4076732263cc2b40ccb7d5929bc0c52924a9a6f"
-}

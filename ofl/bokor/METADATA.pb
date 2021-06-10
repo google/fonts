@@ -14,7 +14,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Bokor.git"
-  commit: "36d015e5a2b343452c57753d3b30c8bafb87c0ad"
-}

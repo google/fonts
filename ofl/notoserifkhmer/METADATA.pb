@@ -51,7 +51,3 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/NotoSerifKhmer.git"
-  commit: "184e2d677ca17fb19dc70bf8bed99c317f8033ac"
-}

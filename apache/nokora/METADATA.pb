@@ -50,7 +50,3 @@ fonts {
 }
 subsets: "khmer"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Nokora.git"
-  commit: "4355bf309ba9ae5d7143a63e70e9c64a37500b5a"
-}

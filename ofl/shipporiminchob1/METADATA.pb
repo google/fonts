@@ -48,13 +48,7 @@ fonts {
   full_name: "Shippori Mincho B1 ExtraBold"
   copyright: "Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontdasu/ShipporiMincho.git"
-  commit: "63431fee6c2cfea772325d6251d2935b7cfa7c6d"
-}

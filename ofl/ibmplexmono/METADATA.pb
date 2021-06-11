@@ -62,8 +62,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "IBMPlexMono-Regular.ttf"
-  post_script_name: "IBMPlexMono"
-  full_name: "IBM Plex Mono"
+  post_script_name: "IBMPlexMono-Regular"
+  full_name: "IBM Plex Mono Regular"
   copyright: "Copyright 2017 IBM Corp. All rights reserved."
 }
 fonts {
@@ -135,3 +135,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/plex"
+  commit: "71d012bccb31a2e282cc46de63b387ff7f676287"
+}

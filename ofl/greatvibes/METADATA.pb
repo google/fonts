@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/great-vibes"
-  commit: "40810389f7f44d1b7101bcce88294f485b590b80"
-}

@@ -1,5 +1,5 @@
 name: "Comic Neue"
-designer: "Craig Rozynski"
+designer: "Craig Rozynski, Hrant Papazian"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2020-03-12"

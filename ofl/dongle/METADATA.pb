@@ -35,7 +35,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/yangheeryu/Dongle.git"
-  commit: "71cc5162a79d65b3b9b5ad70398473152ce59ab9"
-}

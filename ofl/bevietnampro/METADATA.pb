@@ -2,23 +2,23 @@ name: "Be Vietnam Pro"
 designer: "Lam Bao, Tony Le, Vietanh Nguyen"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2021-05-29"
+date_added: "2021-06-13"
 fonts {
   name: "Be Vietnam Pro"
   style: "normal"
   weight: 100
-  filename: "BeVietnamPro-Thin.ttf"
-  post_script_name: "BeVietnamPro-Thin"
-  full_name: "Be Vietnam Pro Thin"
+  filename: "BeVietnamPro-ExtraLight.ttf"
+  post_script_name: "BeVietnamPro-ExtraLight"
+  full_name: "Be Vietnam Pro ExtraLight"
   copyright: "Copyright 2021 The Be Vietnam Pro Project Authors (https://github.com/bettergui/BeVietnamPro)"
 }
 fonts {
   name: "Be Vietnam Pro"
   style: "italic"
   weight: 100
-  filename: "BeVietnamPro-ThinItalic.ttf"
-  post_script_name: "BeVietnamPro-ThinItalic"
-  full_name: "Be Vietnam Pro Thin Italic"
+  filename: "BeVietnamPro-ExtraLightItalic.ttf"
+  post_script_name: "BeVietnamPro-ExtraLightItalic"
+  full_name: "Be Vietnam Pro ExtraLight Italic"
   copyright: "Copyright 2021 The Be Vietnam Pro Project Authors (https://github.com/bettergui/BeVietnamPro)"
 }
 fonts {
@@ -115,18 +115,18 @@ fonts {
   name: "Be Vietnam Pro"
   style: "normal"
   weight: 900
-  filename: "BeVietnamPro-Black.ttf"
-  post_script_name: "BeVietnamPro-Black"
-  full_name: "Be Vietnam Pro Black"
+  filename: "BeVietnamPro-ExtraBold.ttf"
+  post_script_name: "BeVietnamPro-ExtraBold"
+  full_name: "Be Vietnam Pro ExtraBold"
   copyright: "Copyright 2021 The Be Vietnam Pro Project Authors (https://github.com/bettergui/BeVietnamPro)"
 }
 fonts {
   name: "Be Vietnam Pro"
   style: "italic"
   weight: 900
-  filename: "BeVietnamPro-BlackItalic.ttf"
-  post_script_name: "BeVietnamPro-BlackItalic"
-  full_name: "Be Vietnam Pro Black Italic"
+  filename: "BeVietnamPro-ExtraBoldItalic.ttf"
+  post_script_name: "BeVietnamPro-ExtraBoldItalic"
+  full_name: "Be Vietnam Pro ExtraBold Italic"
   copyright: "Copyright 2021 The Be Vietnam Pro Project Authors (https://github.com/bettergui/BeVietnamPro)"
 }
 subsets: "latin"
@@ -135,5 +135,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/bettergui/BeVietnamPro.git"
-  commit: "e3ad282459bed6234e743da3f72c3d7d29121b7f"
+  commit: "ff64c5c73ebf0d24bfae4c05a28526e8c58dac81"
 }

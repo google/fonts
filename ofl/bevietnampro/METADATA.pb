@@ -7,6 +7,24 @@ fonts {
   name: "Be Vietnam Pro"
   style: "normal"
   weight: 100
+  filename: "BeVietnamPro-Thin.ttf"
+  post_script_name: "BeVietnamPro-Thin"
+  full_name: "Be Vietnam Pro Thin"
+  copyright: "Copyright 2021 The Be Vietnam Pro Project Authors (https://github.com/bettergui/BeVietnamPro)"
+}
+fonts {
+  name: "Be Vietnam Pro"
+  style: "italic"
+  weight: 100
+  filename: "BeVietnamPro-ThinItalic.ttf"
+  post_script_name: "BeVietnamPro-ThinItalic"
+  full_name: "Be Vietnam Pro Thin Italic"
+  copyright: "Copyright 2021 The Be Vietnam Pro Project Authors (https://github.com/bettergui/BeVietnamPro)"
+}
+fonts {
+  name: "Be Vietnam Pro"
+  style: "normal"
+  weight: 200
   filename: "BeVietnamPro-ExtraLight.ttf"
   post_script_name: "BeVietnamPro-ExtraLight"
   full_name: "Be Vietnam Pro ExtraLight"
@@ -15,7 +33,7 @@ fonts {
 fonts {
   name: "Be Vietnam Pro"
   style: "italic"
-  weight: 100
+  weight: 200
   filename: "BeVietnamPro-ExtraLightItalic.ttf"
   post_script_name: "BeVietnamPro-ExtraLightItalic"
   full_name: "Be Vietnam Pro ExtraLight Italic"
@@ -114,7 +132,7 @@ fonts {
 fonts {
   name: "Be Vietnam Pro"
   style: "normal"
-  weight: 900
+  weight: 800
   filename: "BeVietnamPro-ExtraBold.ttf"
   post_script_name: "BeVietnamPro-ExtraBold"
   full_name: "Be Vietnam Pro ExtraBold"
@@ -123,10 +141,28 @@ fonts {
 fonts {
   name: "Be Vietnam Pro"
   style: "italic"
-  weight: 900
+  weight: 800
   filename: "BeVietnamPro-ExtraBoldItalic.ttf"
   post_script_name: "BeVietnamPro-ExtraBoldItalic"
   full_name: "Be Vietnam Pro ExtraBold Italic"
+  copyright: "Copyright 2021 The Be Vietnam Pro Project Authors (https://github.com/bettergui/BeVietnamPro)"
+}
+fonts {
+  name: "Be Vietnam Pro"
+  style: "normal"
+  weight: 900
+  filename: "BeVietnamPro-Black.ttf"
+  post_script_name: "BeVietnamPro-Black"
+  full_name: "Be Vietnam Pro Black"
+  copyright: "Copyright 2021 The Be Vietnam Pro Project Authors (https://github.com/bettergui/BeVietnamPro)"
+}
+fonts {
+  name: "Be Vietnam Pro"
+  style: "italic"
+  weight: 900
+  filename: "BeVietnamPro-BlackItalic.ttf"
+  post_script_name: "BeVietnamPro-BlackItalic"
+  full_name: "Be Vietnam Pro Black Italic"
   copyright: "Copyright 2021 The Be Vietnam Pro Project Authors (https://github.com/bettergui/BeVietnamPro)"
 }
 subsets: "latin"
@@ -135,5 +171,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/bettergui/BeVietnamPro.git"
-  commit: "ff64c5c73ebf0d24bfae4c05a28526e8c58dac81"
+  commit: "f11241615ad1df369fbd79c60808f904a9f4461e"
 }

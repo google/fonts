@@ -23,3 +23,82 @@ axes {
   min_value: 200.0
   max_value: 700.0
 }
+
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 200
+    max_value: 200
+  }
+  target {
+    target_type: TARGET_OS_MAC
+  }
+  size_adjust_pct: 85.94
+  ascent_override: 175
+  local_src: "Impact"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300
+    max_value: 300
+  }
+  target {
+    target_type: TARGET_OS_MAC
+  }
+  size_adjust_pct: 87.5
+  ascent_override: 137.5
+  local_src: "Impact"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400
+    max_value: 400
+  }
+  target {
+    target_type: TARGET_OS_MAC
+  }
+  size_adjust_pct: 91.41
+  ascent_override: 141.41
+  local_src: "Impact"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 500
+    max_value: 500
+  }
+  target {
+    target_type: TARGET_OS_MAC
+  }
+  size_adjust_pct: 93.75
+  ascent_override: 137.5
+  local_src: "Impact"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 600
+    max_value: 600
+  }
+  target {
+    target_type: TARGET_OS_MAC
+  }
+  size_adjust_pct: 99.61
+  ascent_override: 128.13
+  local_src: "Impact"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700
+    max_value: 700
+  }
+  target {
+    target_type: TARGET_OS_MAC
+  }
+  size_adjust_pct: 100.78
+  ascent_override: 125
+  local_src: "Impact"
+}

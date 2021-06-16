@@ -30,6 +30,11 @@ fallbacks {
     min_value: 200
     max_value: 200
   }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
   target {
     target_type: TARGET_OS_MAC
   }
@@ -42,6 +47,11 @@ fallbacks {
     tag: "wght"
     min_value: 300
     max_value: 300
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
   }
   target {
     target_type: TARGET_OS_MAC
@@ -56,6 +66,11 @@ fallbacks {
     min_value: 400
     max_value: 400
   }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
   target {
     target_type: TARGET_OS_MAC
   }
@@ -68,6 +83,11 @@ fallbacks {
     tag: "wght"
     min_value: 500
     max_value: 500
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
   }
   target {
     target_type: TARGET_OS_MAC
@@ -82,6 +102,11 @@ fallbacks {
     min_value: 600
     max_value: 600
   }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
   target {
     target_type: TARGET_OS_MAC
   }
@@ -94,6 +119,11 @@ fallbacks {
     tag: "wght"
     min_value: 700
     max_value: 700
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
   }
   target {
     target_type: TARGET_OS_MAC

@@ -1,10 +1,12 @@
 id: "mfv"
 name: "Mandjak"
+script: "Latn"
 preferred_name: ""
 autonym: ""
 population: 121170
 region: "SN"
 exemplar_chars {
+  base: "a b c d e ë f g h i j k l m n ñ ŋ o p r s ŝ t ţ u w y z"
 }
 sample_text {
   fallback_language: "en"

@@ -1,11 +1,13 @@
 id: "knf"
 name: "Mankanya"
+script: "Latn"
 preferred_name: ""
 autonym: ""
 population: 83151
 region: "GW"
 region: "SN"
 exemplar_chars {
+  base: "a b c d e ë f g h i j k l m n ñ ŋ o p r s ş t ŧ ţ u w y"
 }
 sample_text {
   fallback_language: "en"

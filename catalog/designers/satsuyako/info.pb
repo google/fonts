@@ -1,5 +1,5 @@
 designer: "Satsuyako"
-link: "https://www.satsuyako.com"
+link: "https://satsuyako.com"
 avatar: {
   file_name: "satsuyako.png"
 }

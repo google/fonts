@@ -39,7 +39,7 @@ fallbacks {
     target_type: TARGET_OS_MAC
   }
   size_adjust_pct: 85.94
-  ascent_override_pct: 175
+  ascent_override_pct: 153.13
   local_src: "Impact"
 }
 fallbacks {
@@ -56,8 +56,8 @@ fallbacks {
   target {
     target_type: TARGET_OS_MAC
   }
-  size_adjust_pct: 87.5
-  ascent_override_pct: 137.5
+  size_adjust_pct: 87.89
+  ascent_override_pct: 148.44
   local_src: "Impact"
 }
 fallbacks {
@@ -75,7 +75,7 @@ fallbacks {
     target_type: TARGET_OS_MAC
   }
   size_adjust_pct: 91.41
-  ascent_override_pct: 141.41
+  ascent_override_pct: 140.63
   local_src: "Impact"
 }
 fallbacks {
@@ -92,8 +92,8 @@ fallbacks {
   target {
     target_type: TARGET_OS_MAC
   }
-  size_adjust_pct: 93.75
-  ascent_override_pct: 137.5
+  size_adjust_pct: 95.31
+  ascent_override_pct: 135.94
   local_src: "Impact"
 }
 fallbacks {
@@ -110,7 +110,7 @@ fallbacks {
   target {
     target_type: TARGET_OS_MAC
   }
-  size_adjust_pct: 99.61
+  size_adjust_pct: 100
   ascent_override_pct: 128.13
   local_src: "Impact"
 }
@@ -128,7 +128,7 @@ fallbacks {
   target {
     target_type: TARGET_OS_MAC
   }
-  size_adjust_pct: 100.78
-  ascent_override_pct: 125
+  size_adjust_pct: 100
+  ascent_override_pct: 128.13
   local_src: "Impact"
 }

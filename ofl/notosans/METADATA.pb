@@ -140,7 +140,7 @@ languages: "cho"  # Choctaw
 languages: "chp"  # Chipewyan
 languages: "chy"  # Cheyenne
 languages: "cjs"  # 
-languages: "ckt"  # 
+languages: "ckt"  # Chukot
 languages: "co"  # Corsican
 languages: "cop_Grek"  # Coptic, Greek
 languages: "cpf"  # French-based Creoles
@@ -153,7 +153,7 @@ languages: "crl_Latn"  # Northern East Cree, Latin
 languages: "crs"  # Seselwa Creole French
 languages: "cs"  # Czech
 languages: "csb"  # Kashubian
-languages: "ctd"  # 
+languages: "ctd"  # Tedim
 languages: "cu"  # Church Slavic
 languages: "cv"  # Chuvash
 languages: "cy"  # Welsh
@@ -167,7 +167,7 @@ languages: "den"  # Slave
 languages: "dgr"  # Dogrib
 languages: "din"  # Dinka
 languages: "dje"  # Zarma
-languages: "dng"  # 
+languages: "dng"  # Dungan
 languages: "dnj"  # Dan
 languages: "dsb"  # Lower Sorbian
 languages: "dtm"  # Tomo Kan Dogon

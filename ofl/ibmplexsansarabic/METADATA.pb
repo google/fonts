@@ -71,7 +71,3 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/plex"
-  commit: "2ea7fd4ff0451fe9a6d82cf1beb35462178f784e"
-}

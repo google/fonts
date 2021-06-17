@@ -135,7 +135,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/plex"
-  commit: "43279c151110b30d65a582261a5ddefd5c75c7be"
-}

@@ -3,4 +3,4 @@ language: "zh"
 script: "Bopo"
 name: "Chinese, Bopomofo"
 population: 0
-
+historical: true

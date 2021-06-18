@@ -30,7 +30,3 @@ axes {
   min_value: 100.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/glory"
-  commit: "76ea446c0499989af653f75c1cbd80447ef955d6"
-}

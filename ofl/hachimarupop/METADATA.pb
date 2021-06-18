@@ -1,5 +1,5 @@
 name: "Hachi Maru Pop"
-designer: "Nontynet"
+designer: "Nonty"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2020-12-14"

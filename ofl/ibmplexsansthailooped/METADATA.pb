@@ -71,7 +71,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
-source {
-  repository_url: "https://github.com/googlefonts/plex"
-  commit: "20f93381c40c4779f2297bb31c60fbc2992620b6"
-}

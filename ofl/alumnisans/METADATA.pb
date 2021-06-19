@@ -32,7 +32,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/alumni"
-  commit: "fae04c79a905f608bca0b7b2251706d732e81472"
-}

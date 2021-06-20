@@ -1,0 +1,20 @@
+branch: master
+files:
+  fonts/ttf/MplusCodeLatin50-Thin.ttf: static/MplusCodeLatin50-Thin.ttf
+  fonts/ttf/MplusCodeLatin50-ExtraLight.ttf: static/MplusCodeLatin50-ExtraLight.ttf
+  fonts/ttf/MplusCodeLatin50-Light.ttf: static/MplusCodeLatin50-Light.ttf
+  fonts/ttf/MplusCodeLatin50-Regular.ttf: static/MplusCodeLatin50-Regular.ttf
+  fonts/ttf/MplusCodeLatin50-Medium.ttf: static/MplusCodeLatin50-Medium.ttf
+  fonts/ttf/MplusCodeLatin50-SemiBold.ttf: static/MplusCodeLatin50-SemiBold.ttf
+  fonts/ttf/MplusCodeLatin50-Bold.ttf: static/MplusCodeLatin50-Bold.ttf
+  fonts/ttf/MplusCodeLatin60-Thin.ttf: static/MplusCodeLatin60-Thin.ttf
+  fonts/ttf/MplusCodeLatin60-ExtraLight.ttf: static/MplusCodeLatin60-ExtraLight.ttf
+  fonts/ttf/MplusCodeLatin60-Light.ttf: static/MplusCodeLatin60-Light.ttf
+  fonts/ttf/MplusCodeLatin60-Regular.ttf: static/MplusCodeLatin60-Regular.ttf
+  fonts/ttf/MplusCodeLatin60-Medium.ttf: static/MplusCodeLatin60-Medium.ttf
+  fonts/ttf/MplusCodeLatin60-SemiBold.ttf: static/MplusCodeLatin60-SemiBold.ttf
+  fonts/ttf/MplusCodeLatin60-Bold.ttf: static/MplusCodeLatin60-Bold.ttf
+  fonts/ttf/MplusCodeLatin[wdth,wght].ttf: MplusCodeLatin[wdth,wght].ttf
+  OFL.txt: OFL.txt
+  MPlusCodeLatin_DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+repository_url: https://github.com/coz-m/MPLUS_FONTS.git

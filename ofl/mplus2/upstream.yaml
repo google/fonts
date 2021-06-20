@@ -1,0 +1,15 @@
+branch: master
+files:
+  fonts/ttf/Mplus2-Thin.ttf: static/Mplus2-Thin.ttf
+  fonts/ttf/Mplus2-ExtraLight.ttf: static/Mplus2-ExtraLight.ttf
+  fonts/ttf/Mplus2-Light.ttf: static/Mplus2-Light.ttf
+  fonts/ttf/Mplus2-Regular.ttf: static/Mplus2-Regular.ttf
+  fonts/ttf/Mplus2-Medium.ttf: static/Mplus2-Medium.ttf
+  fonts/ttf/Mplus2-SemiBold.ttf: static/Mplus2-SemiBold.ttf
+  fonts/ttf/Mplus2-Bold.ttf: static/Mplus2-Bold.ttf
+  fonts/ttf/Mplus2-ExtraBold.ttf: static/Mplus2-ExtraBold.ttf
+  fonts/ttf/Mplus2-Black.ttf: static/Mplus2-Black.ttf
+  fonts/ttf/Mplus2[wght].ttf: Mplus2[wght].ttf
+  OFL.txt: OFL.txt
+  Mplus2_DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+repository_url: https://github.com/coz-m/MPLUS_FONTS.git

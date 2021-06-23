@@ -62,8 +62,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "IBMPlexMono-Regular.ttf"
-  post_script_name: "IBMPlexMono"
-  full_name: "IBM Plex Mono"
+  post_script_name: "IBMPlexMono-Regular"
+  full_name: "IBM Plex Mono Regular"
   copyright: "Copyright 2017 IBM Corp. All rights reserved."
 }
 fonts {

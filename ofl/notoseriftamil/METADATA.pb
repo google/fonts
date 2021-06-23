@@ -12,6 +12,15 @@ fonts {
   full_name: "Noto Serif Tamil Regular"
   copyright: "Copyright 2017 Google Inc. All Rights Reserved."
 }
+fonts {
+  name: "Noto Serif Tamil"
+  style: "italic"
+  weight: 400
+  filename: "NotoSerifTamil-Italic[wdth,wght].ttf"
+  post_script_name: "NotoSerifTamil-Italic"
+  full_name: "Noto Serif Tamil Italic"
+  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+}
 subsets: "menu"
 subsets: "tamil"
 axes {

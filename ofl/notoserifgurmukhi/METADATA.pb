@@ -15,11 +15,6 @@ fonts {
 subsets: "gurmukhi"
 subsets: "menu"
 axes {
-  tag: "wdth"
-  min_value: 100.0
-  max_value: 100.0
-}
-axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0

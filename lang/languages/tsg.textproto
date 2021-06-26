@@ -4,7 +4,3 @@ script: "Latn"
 name: "Tausug"
 population: 1200991
 region: "PH"
-sample_text {
-  fallback_language: "en"
-}
-

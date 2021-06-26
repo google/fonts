@@ -4,7 +4,3 @@ script: "Latn"
 name: "Caddo"
 population: 0
 region: "US"
-sample_text {
-  fallback_language: "en"
-}
-

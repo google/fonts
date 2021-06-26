@@ -4,7 +4,3 @@ script: "Latn"
 name: "Mentawai"
 population: 64086
 region: "ID"
-sample_text {
-  fallback_language: "en"
-}
-

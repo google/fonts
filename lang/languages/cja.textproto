@@ -4,7 +4,3 @@ script: "Arab"
 name: "Western Cham"
 population: 270832
 region: "KH"
-sample_text {
-  fallback_language: "ar"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "Central Huasteca Nahuatl"
 population: 244435
 region: "MX"
-sample_text {
-  fallback_language: "en"
-}
-

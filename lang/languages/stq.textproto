@@ -4,7 +4,3 @@ script: "Latn"
 name: "Saterland Frisian"
 population: 961
 region: "DE"
-sample_text {
-  fallback_language: "en"
-}
-

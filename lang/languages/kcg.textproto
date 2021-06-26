@@ -4,7 +4,3 @@ script: "Latn"
 name: "Tyap"
 population: 199046
 region: "NG"
-sample_text {
-  fallback_language: "en"
-}
-

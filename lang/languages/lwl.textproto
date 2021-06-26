@@ -4,7 +4,3 @@ script: "Thai"
 name: "Eastern Lawa"
 population: 6897
 region: "TH"
-sample_text {
-  fallback_language: "th"
-}
-

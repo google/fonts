@@ -4,7 +4,3 @@ script: "Arab"
 name: "Algerian Arabic"
 population: 35667507
 region: "DZ"
-sample_text {
-  fallback_language: "ar"
-}
-

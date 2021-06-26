@@ -4,7 +4,3 @@ script: "Latn"
 name: "Inuktitut (Latin)"
 population: 15831
 region: "CA"
-sample_text {
-  fallback_language: "en"
-}
-

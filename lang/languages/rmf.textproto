@@ -4,7 +4,3 @@ script: "Latn"
 name: "Kalo Finnish Romani"
 population: 5014
 region: "FI"
-sample_text {
-  fallback_language: "en"
-}
-

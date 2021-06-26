@@ -4,7 +4,3 @@ script: "Latn"
 name: "Selayar"
 population: 144194
 region: "ID"
-sample_text {
-  fallback_language: "en"
-}
-

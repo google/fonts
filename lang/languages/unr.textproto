@@ -4,7 +4,3 @@ script: "Beng"
 name: "Mundari"
 population: 1246524
 region: "IN"
-sample_text {
-  fallback_language: "bn"
-}
-

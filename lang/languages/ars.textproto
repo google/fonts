@@ -4,7 +4,3 @@ script: "Arab"
 name: "Najdi Arabic"
 population: 1025205
 region: "SA"
-sample_text {
-  fallback_language: "ar"
-}
-

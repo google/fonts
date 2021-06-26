@@ -4,7 +4,3 @@ script: "Tibt"
 name: "Tshangla"
 population: 117347
 region: "BT"
-sample_text {
-  fallback_language: "bo"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "East Futuna"
 population: 4756
 region: "WF"
-sample_text {
-  fallback_language: "en"
-}
-

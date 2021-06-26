@@ -14,7 +14,4 @@ exemplar_chars {
   numerals: "༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩"
   punctuation: "༄ ༈ ་ ། ༎ ༔ ༺ ༻"
 }
-sample_text {
-  fallback_language: "bo"
-}
 historical: true

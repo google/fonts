@@ -4,7 +4,3 @@ script: "Latn"
 name: "Rotuman"
 population: 2527
 region: "FJ"
-sample_text {
-  fallback_language: "en"
-}
-

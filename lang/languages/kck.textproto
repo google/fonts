@@ -4,7 +4,3 @@ script: "Latn"
 name: "Kalanga"
 population: 770953
 region: "ZW"
-sample_text {
-  fallback_language: "en"
-}
-

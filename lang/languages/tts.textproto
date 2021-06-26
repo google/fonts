@@ -4,7 +4,3 @@ script: "Thai"
 name: "Northeastern Thai"
 population: 16554576
 region: "TH"
-sample_text {
-  fallback_language: "th"
-}
-

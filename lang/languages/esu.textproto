@@ -10,7 +10,3 @@ exemplar_chars {
   base: "A C G I K L M N P Q R S T U V W Y Ń Ə Ḿ a c g i k l m n p q r s t u v w y ń ə ḿ u͡g u͡r ʼ"
   marks: "◌́ ◌͡"
 }
-sample_text {
-  fallback_language: "en"
-}
-

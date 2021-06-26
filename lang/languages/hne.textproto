@@ -4,7 +4,3 @@ script: "Deva"
 name: "Chhattisgarhi"
 population: 14586990
 region: "IN"
-sample_text {
-  fallback_language: "hi"
-}
-

@@ -4,7 +4,3 @@ script: "Thai"
 name: "Northern Khmer"
 population: 1172615
 region: "TH"
-sample_text {
-  fallback_language: "th"
-}
-

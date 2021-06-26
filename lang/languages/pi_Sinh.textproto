@@ -4,7 +4,4 @@ script: "Sinh"
 name: "Pali, Sinhala"
 population: 0
 region: "LK"
-sample_text {
-  fallback_language: "si"
-}
 historical: true

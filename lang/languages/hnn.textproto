@@ -4,7 +4,3 @@ script: "Latn"
 name: "Hanunoo"
 population: 17468
 region: "PH"
-sample_text {
-  fallback_language: "en"
-}
-

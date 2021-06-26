@@ -4,7 +4,3 @@ script: "Latn"
 name: "Lango [Uganda]"
 population: 1643614
 region: "UG"
-sample_text {
-  fallback_language: "en"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "Jenaama Bozo"
 population: 166203
 region: "ML"
-sample_text {
-  fallback_language: "en"
-}
-

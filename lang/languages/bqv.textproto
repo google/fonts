@@ -4,7 +4,3 @@ script: "Latn"
 name: "Koro Wachi"
 population: 46717
 region: "CI"
-sample_text {
-  fallback_language: "en"
-}
-

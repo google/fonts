@@ -9,7 +9,4 @@ region: "IL"
 region: "SE"
 region: "UA"
 region: "US"
-sample_text {
-  fallback_language: "he"
-}
 historical: true

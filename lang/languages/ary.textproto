@@ -4,7 +4,3 @@ script: "Arab"
 name: "Moroccan Arabic"
 population: 30938679
 region: "MA"
-sample_text {
-  fallback_language: "ar"
-}
-

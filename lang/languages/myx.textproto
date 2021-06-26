@@ -4,7 +4,3 @@ script: "Latn"
 name: "Masaaba"
 population: 1254337
 region: "UG"
-sample_text {
-  fallback_language: "en"
-}
-

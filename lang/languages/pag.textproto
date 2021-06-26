@@ -4,7 +4,3 @@ script: "Latn"
 name: "Pangasinan"
 population: 1528534
 region: "PH"
-sample_text {
-  fallback_language: "en"
-}
-

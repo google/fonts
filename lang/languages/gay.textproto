@@ -4,7 +4,3 @@ script: "Latn"
 name: "Gayo"
 population: 320431
 region: "ID"
-sample_text {
-  fallback_language: "en"
-}
-

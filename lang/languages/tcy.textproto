@@ -4,7 +4,3 @@ script: "Knda"
 name: "Tulu"
 population: 1989135
 region: "IN"
-sample_text {
-  fallback_language: "kn"
-}
-

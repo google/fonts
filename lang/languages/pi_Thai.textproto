@@ -7,7 +7,4 @@ region: "CN"
 region: "KH"
 region: "LA"
 region: "TH"
-sample_text {
-  fallback_language: "th"
-}
 historical: true

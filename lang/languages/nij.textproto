@@ -4,7 +4,3 @@ script: "Latn"
 name: "Ngaju"
 population: 987996
 region: "ID"
-sample_text {
-  fallback_language: "en"
-}
-

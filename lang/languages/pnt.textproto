@@ -4,7 +4,3 @@ script: "Cyrl"
 name: "Pontic"
 population: 392462
 region: "GR"
-sample_text {
-  fallback_language: "ru"
-}
-

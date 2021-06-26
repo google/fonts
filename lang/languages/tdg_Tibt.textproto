@@ -7,7 +7,4 @@ region: "BT"
 region: "CN"
 region: "IN"
 region: "NP"
-sample_text {
-  fallback_language: "bo"
-}
 historical: true

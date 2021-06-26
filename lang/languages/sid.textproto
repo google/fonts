@@ -4,7 +4,3 @@ script: "Latn"
 name: "Sidamo"
 population: 3783955
 region: "ET"
-sample_text {
-  fallback_language: "en"
-}
-

@@ -4,7 +4,3 @@ script: "Arab"
 name: "Bakhtiari"
 population: 1188926
 region: "IR"
-sample_text {
-  fallback_language: "ar"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "Slave"
 population: 2299
 region: "CA"
-sample_text {
-  fallback_language: "en"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "Punu"
 population: 200781
 region: "GA"
-sample_text {
-  fallback_language: "en"
-}
-

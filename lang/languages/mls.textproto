@@ -4,7 +4,3 @@ script: "Latn"
 name: "Masalit"
 population: 451059
 region: "SD"
-sample_text {
-  fallback_language: "en"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "Nauru"
 population: 6930
 region: "NR"
-sample_text {
-  fallback_language: "en"
-}
-

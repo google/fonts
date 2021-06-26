@@ -4,7 +4,3 @@ script: "Latn"
 name: "West Flemish"
 population: 1172070
 region: "BE"
-sample_text {
-  fallback_language: "en"
-}
-

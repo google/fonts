@@ -4,7 +4,3 @@ script: "Arab"
 name: "Northern Hindko"
 population: 2802012
 region: "PK"
-sample_text {
-  fallback_language: "ar"
-}
-

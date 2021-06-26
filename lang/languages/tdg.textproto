@@ -4,7 +4,3 @@ script: "Deva"
 name: "Western Tamang"
 population: 394262
 region: "NP"
-sample_text {
-  fallback_language: "hi"
-}
-

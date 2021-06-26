@@ -4,7 +4,3 @@ script: "Latn"
 name: "Bomu"
 population: 168159
 region: "ML"
-sample_text {
-  fallback_language: "en"
-}
-

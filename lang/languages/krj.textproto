@@ -4,7 +4,3 @@ script: "Latn"
 name: "Kinaray-a"
 population: 425805
 region: "PH"
-sample_text {
-  fallback_language: "en"
-}
-

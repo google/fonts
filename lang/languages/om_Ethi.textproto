@@ -6,7 +6,4 @@ population: 0
 region: "ER"
 region: "ET"
 region: "IL"
-sample_text {
-  fallback_language: "am"
-}
 historical: true

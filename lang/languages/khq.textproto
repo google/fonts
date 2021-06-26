@@ -12,7 +12,3 @@ exemplar_chars {
   numerals: "  - ‑ . % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "A Ã B C D E Ẽ F G H I J K L M N Ɲ Ŋ O Õ P Q R S Š T U W X Y Z Ž"
 }
-sample_text {
-  fallback_language: "en"
-}
-

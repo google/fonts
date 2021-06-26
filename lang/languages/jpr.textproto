@@ -14,7 +14,3 @@ exemplar_chars {
   auxiliary: "״ ׳ ־ ׃ ׆"
   marks: "◌ְ ◌ֱ ◌ֲ ◌ֳ ◌ִ ◌ֵ ◌ֶ ◌ַ ◌ָ ◌ֹ ◌ֻ ◌ּ ◌ׁ ◌ׂ"
 }
-sample_text {
-  fallback_language: "he"
-}
-

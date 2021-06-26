@@ -4,7 +4,3 @@ script: "Latn"
 name: "Lomwe"
 population: 2046677
 region: "MZ"
-sample_text {
-  fallback_language: "en"
-}
-

@@ -246,7 +246,3 @@ exemplar_chars {
   auxiliary: "Ä ä"
   marks: "◌̆ ◌̇ ◌̈ ◌̧"
 }
-sample_text {
-  fallback_language: "en"
-}
-

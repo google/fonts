@@ -4,7 +4,3 @@ script: "Latn"
 name: "Tornedalen Finnish"
 population: 56113
 region: "SE"
-sample_text {
-  fallback_language: "en"
-}
-

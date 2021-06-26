@@ -4,7 +4,3 @@ script: "Latn"
 name: "Atsam"
 population: 44945
 region: "NG"
-sample_text {
-  fallback_language: "en"
-}
-

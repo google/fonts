@@ -4,7 +4,3 @@ script: "Arab"
 name: "Deccan"
 population: 13128291
 region: "IN"
-sample_text {
-  fallback_language: "ar"
-}
-

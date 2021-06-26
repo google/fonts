@@ -13,7 +13,3 @@ exemplar_chars {
   numerals: "- ‑ , . % ‰ + 0০ 1১ 2২ 3৩ 4৪ 5৫ 6৬ 7৭ 8৮ 9৯"
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] § @ * / & # † ‡ ′ ″"
 }
-sample_text {
-  fallback_language: "bn"
-}
-

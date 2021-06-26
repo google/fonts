@@ -4,7 +4,3 @@ script: "Latn"
 name: "Kerinci"
 population: 373836
 region: "ID"
-sample_text {
-  fallback_language: "en"
-}
-

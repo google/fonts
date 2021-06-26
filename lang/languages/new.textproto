@@ -4,7 +4,3 @@ script: "Deva"
 name: "Newari"
 population: 1000820
 region: "NP"
-sample_text {
-  fallback_language: "hi"
-}
-

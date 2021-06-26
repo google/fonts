@@ -4,7 +4,3 @@ script: "Latn"
 name: "Virgin Islands Creole English"
 population: 3113
 region: "SX"
-sample_text {
-  fallback_language: "en"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "Herero"
 population: 239336
 region: "NA"
-sample_text {
-  fallback_language: "en"
-}
-

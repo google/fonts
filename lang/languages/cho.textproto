@@ -4,7 +4,3 @@ script: "Latn"
 name: "Choctaw"
 population: 10977
 region: "US"
-sample_text {
-  fallback_language: "en"
-}
-

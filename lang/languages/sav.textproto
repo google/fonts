@@ -1,6 +1,6 @@
 id: "sav"
-name: "Saafi-Saafi"
 script: "Latn"
+name: "Saafi-Saafi"
 preferred_name: ""
 autonym: ""
 population: 236046
@@ -8,7 +8,3 @@ region: "SN"
 exemplar_chars {
   base: "a b ɓ c d ɗ e f g h i j k l m n ñ ŋ o p r s t u w y ƴ ’"
 }
-sample_text {
-  fallback_language: "en"
-}
-

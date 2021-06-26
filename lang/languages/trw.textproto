@@ -4,7 +4,3 @@ script: "Arab"
 name: "Torwali"
 population: 123755
 region: "PK"
-sample_text {
-  fallback_language: "ar"
-}
-

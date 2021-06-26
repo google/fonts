@@ -4,7 +4,3 @@ script: "Latn"
 name: "Sasak"
 population: 2590152
 region: "ID"
-sample_text {
-  fallback_language: "en"
-}
-

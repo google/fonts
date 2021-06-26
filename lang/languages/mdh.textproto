@@ -4,7 +4,3 @@ script: "Latn"
 name: "Maguindanaon"
 population: 1310172
 region: "PH"
-sample_text {
-  fallback_language: "en"
-}
-

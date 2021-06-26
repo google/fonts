@@ -4,7 +4,3 @@ script: "Latn"
 name: "Betawi"
 population: 5607546
 region: "ID"
-sample_text {
-  fallback_language: "en"
-}
-

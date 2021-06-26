@@ -4,7 +4,3 @@ script: "Arab"
 name: "Domari"
 population: 1613542
 region: "IR"
-sample_text {
-  fallback_language: "ar"
-}
-

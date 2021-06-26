@@ -4,7 +4,3 @@ script: "Latn"
 name: "Lower Silesian"
 population: 11867
 region: "PL"
-sample_text {
-  fallback_language: "en"
-}
-

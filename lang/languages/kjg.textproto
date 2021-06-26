@@ -4,7 +4,3 @@ script: "Laoo"
 name: "Khmu"
 population: 431949
 region: "LA"
-sample_text {
-  fallback_language: "lo"
-}
-

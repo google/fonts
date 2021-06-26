@@ -4,7 +4,4 @@ script: "Hans"
 name: "Literary Chinese"
 population: 0
 region: "CN"
-sample_text {
-  fallback_language: "zh"
-}
 historical: true

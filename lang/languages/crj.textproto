@@ -4,7 +4,3 @@ script: "Cans"
 name: "Southern East Cree"
 population: 7161
 region: "CA"
-sample_text {
-  fallback_language: "iu"
-}
-

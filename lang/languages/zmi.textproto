@@ -4,7 +4,3 @@ script: "Latn"
 name: "Negeri Sembilan Malay"
 population: 391825
 region: "MY"
-sample_text {
-  fallback_language: "en"
-}
-

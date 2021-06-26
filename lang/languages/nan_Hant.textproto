@@ -19,7 +19,3 @@ region: "TH"
 region: "TW"
 region: "US"
 region: "VN"
-sample_text {
-  fallback_language: "zh_Hant"
-}
-

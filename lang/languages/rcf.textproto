@@ -4,7 +4,3 @@ script: "Latn"
 name: "Réunion Creole French"
 population: 559184
 region: "RE"
-sample_text {
-  fallback_language: "en"
-}
-

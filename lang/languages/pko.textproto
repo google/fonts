@@ -9,7 +9,3 @@ exemplar_chars {
   base: "A B C D E G H I J K L M N O P R S T U W Y a b c d e g h i j k l m n o p r s t u w y"
   auxiliary: "F Q V X Z f q v x z"
 }
-sample_text {
-  fallback_language: "en"
-}
-

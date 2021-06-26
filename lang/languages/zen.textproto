@@ -4,7 +4,4 @@ script: "Tfng"
 name: "Zenaga"
 population: 0
 region: "MA"
-sample_text {
-  fallback_language: "zgh"
-}
 historical: true

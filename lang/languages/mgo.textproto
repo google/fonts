@@ -14,7 +14,3 @@ exemplar_chars {
   punctuation: ", ; : ! ? . \' ‘ ’ \" “ ”"
   index: "A B {CH} D E Ə F G {GH} I J K M N Ŋ O Ɔ P R S T U W Y Z ʼ {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH} {CH} {GH}"
 }
-sample_text {
-  fallback_language: "en"
-}
-

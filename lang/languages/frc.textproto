@@ -4,7 +4,3 @@ script: "Latn"
 name: "Cajun French"
 population: 27941
 region: "US"
-sample_text {
-  fallback_language: "en"
-}
-

@@ -4,7 +4,4 @@ script: "Latn"
 name: "Votic"
 population: 0
 region: "RU"
-sample_text {
-  fallback_language: "en"
-}
 historical: true

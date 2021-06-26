@@ -4,7 +4,3 @@ script: "Deva"
 name: "Mundari (Devanagari)"
 population: 5762
 region: "NP"
-sample_text {
-  fallback_language: "hi"
-}
-

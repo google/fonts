@@ -4,7 +4,3 @@ script: "Latn"
 name: "Sinte Romani"
 population: 24371
 region: "CH"
-sample_text {
-  fallback_language: "en"
-}
-

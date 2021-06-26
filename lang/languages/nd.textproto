@@ -10,7 +10,3 @@ exemplar_chars {
   auxiliary: "r"
   index: "A B C D E F G H I J K L M N O P Q S T U V W X Y Z"
 }
-sample_text {
-  fallback_language: "en"
-}
-

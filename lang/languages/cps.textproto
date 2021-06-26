@@ -4,7 +4,3 @@ script: "Latn"
 name: "Capiznon"
 population: 720594
 region: "PH"
-sample_text {
-  fallback_language: "en"
-}
-

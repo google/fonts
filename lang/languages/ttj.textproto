@@ -4,7 +4,3 @@ script: "Latn"
 name: "Tooro"
 population: 821807
 region: "UG"
-sample_text {
-  fallback_language: "en"
-}
-

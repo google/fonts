@@ -13,7 +13,3 @@ exemplar_chars {
   punctuation: "- ‑ – — , ; : ! ? . … \" “ ” ( ) [ ] { } § @ * # { } { } { } { } { } { } { } { } { } { } { } { } { } { } { }"
   index: "A B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z"
 }
-sample_text {
-  fallback_language: "ar"
-}
-

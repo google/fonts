@@ -4,7 +4,3 @@ script: "Latn"
 name: "Main-Franconian"
 population: 4809582
 region: "DE"
-sample_text {
-  fallback_language: "en"
-}
-

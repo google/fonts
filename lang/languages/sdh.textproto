@@ -4,7 +4,3 @@ script: "Arab"
 name: "Southern Kurdish"
 population: 3142162
 region: "IR"
-sample_text {
-  fallback_language: "ar"
-}
-

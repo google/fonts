@@ -4,7 +4,3 @@ script: "Latn"
 name: "Taroko"
 population: 4720
 region: "TW"
-sample_text {
-  fallback_language: "en"
-}
-

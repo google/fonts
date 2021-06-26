@@ -4,7 +4,3 @@ script: "Latn"
 name: "Turoyo"
 population: 3034
 region: "TR"
-sample_text {
-  fallback_language: "en"
-}
-

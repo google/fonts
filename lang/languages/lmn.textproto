@@ -4,7 +4,3 @@ script: "Telu"
 name: "Lambadi"
 population: 3580443
 region: "IN"
-sample_text {
-  fallback_language: "te"
-}
-

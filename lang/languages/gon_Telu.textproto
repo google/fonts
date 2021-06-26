@@ -4,7 +4,3 @@ script: "Telu"
 name: "Gondi, Telugu"
 population: 0
 region: "IN"
-sample_text {
-  fallback_language: "te"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "Samogitian"
 population: 0
 region: "LT"
-sample_text {
-  fallback_language: "en"
-}
-

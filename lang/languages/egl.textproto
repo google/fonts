@@ -4,7 +4,3 @@ script: "Latn"
 name: "Emilian"
 population: 31201
 region: "IT"
-sample_text {
-  fallback_language: "en"
-}
-

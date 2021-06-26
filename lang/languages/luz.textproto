@@ -4,7 +4,3 @@ script: "Arab"
 name: "Southern Luri"
 population: 1019079
 region: "IR"
-sample_text {
-  fallback_language: "ar"
-}
-

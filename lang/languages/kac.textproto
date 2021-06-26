@@ -4,7 +4,3 @@ script: "Latn"
 name: "Kachin"
 population: 962031
 region: "MM"
-sample_text {
-  fallback_language: "en"
-}
-

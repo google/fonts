@@ -4,7 +4,3 @@ script: "Latn"
 name: "Hiri Motu"
 population: 152448
 region: "PG"
-sample_text {
-  fallback_language: "en"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "Arpitan"
 population: 63777
 region: "FR"
-sample_text {
-  fallback_language: "en"
-}
-

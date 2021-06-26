@@ -13,7 +13,3 @@ exemplar_chars {
   punctuation: "- ‐ ‑ – — , ; : ! ? . \" “ ” ( ) [ ] @ * / & #"
   index: "A B Č E G Ǧ H Ȟ I K L M N Ŋ O P S Š T U W Y Z Ž"
 }
-sample_text {
-  fallback_language: "en"
-}
-

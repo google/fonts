@@ -4,7 +4,3 @@ script: "Latn"
 name: "Mbunga"
 population: 819739
 region: "TZ"
-sample_text {
-  fallback_language: "en"
-}
-

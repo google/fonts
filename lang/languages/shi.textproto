@@ -9,7 +9,3 @@ exemplar_chars {
   numerals: "  - ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "ⴰ ⴱ ⴳ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ"
 }
-sample_text {
-  fallback_language: "ar"
-}
-

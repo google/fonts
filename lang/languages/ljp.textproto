@@ -4,7 +4,3 @@ script: "Latn"
 name: "Lampung Api"
 population: 1842479
 region: "ID"
-sample_text {
-  fallback_language: "en"
-}
-

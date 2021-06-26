@@ -4,7 +4,3 @@ script: "Deva"
 name: "Fiji Hindi"
 population: 383749
 region: "FJ"
-sample_text {
-  fallback_language: "hi"
-}
-

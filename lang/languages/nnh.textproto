@@ -13,7 +13,3 @@ exemplar_chars {
   punctuation: ", ; : ! ? . \' ‘ ’ « »"
   index: "A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P {Pf} R S {Sh} T {Ts} U Ʉ V W Ẅ Y Ÿ Z ʼ {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts} {Pf} {Sh} {Ts}"
 }
-sample_text {
-  fallback_language: "en"
-}
-

@@ -4,7 +4,3 @@ script: "Latn"
 name: "Kita Maninkakan"
 population: 977670
 region: "ML"
-sample_text {
-  fallback_language: "en"
-}
-

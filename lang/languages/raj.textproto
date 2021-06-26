@@ -4,7 +4,3 @@ script: "Deva"
 name: "Rajasthani"
 population: 1326090
 region: "IN"
-sample_text {
-  fallback_language: "hi"
-}
-

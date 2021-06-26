@@ -4,7 +4,3 @@ script: "Latn"
 name: "Cebaara Senoufo"
 population: 1181687
 region: "CI"
-sample_text {
-  fallback_language: "en"
-}
-

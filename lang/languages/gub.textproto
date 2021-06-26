@@ -4,7 +4,3 @@ script: "Latn"
 name: "Guajajára"
 population: 17784
 region: "BR"
-sample_text {
-  fallback_language: "en"
-}
-

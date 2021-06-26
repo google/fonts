@@ -4,7 +4,3 @@ script: "Latn"
 name: "Kyrgyz (Latin)"
 population: 1148
 region: "TR"
-sample_text {
-  fallback_language: "en"
-}
-

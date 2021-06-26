@@ -4,7 +4,3 @@ script: "Latn"
 name: "Kom"
 population: 360685
 region: "CM"
-sample_text {
-  fallback_language: "en"
-}
-

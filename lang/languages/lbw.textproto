@@ -4,7 +4,3 @@ script: "Latn"
 name: "Tolaki"
 population: 347133
 region: "ID"
-sample_text {
-  fallback_language: "en"
-}
-

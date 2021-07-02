@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/allison"
-  commit: "be5c0adca9cffb6ded38e4fc0d31b5b098eb4a1a"
-}

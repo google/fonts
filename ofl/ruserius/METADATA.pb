@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/are-you-serious"
-  commit: "58fb766af26a9e5570f5781c4b206e5213557bce"
-}

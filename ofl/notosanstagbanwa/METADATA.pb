@@ -16,3 +16,23 @@ subsets: "menu"
 subsets: "tagbanwa"
 is_noto: true
 languages: "tbw_Tagb"  # Tagbanwa, Tagbanwa
+sample_glyphs {
+  key: "Punctuation, Hanunoo"
+  value: "᜵ ᜶"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}
+sample_glyphs {
+  key: "Symbols, Geometric Shapes"
+  value: "◌"
+}
+sample_glyphs {
+  key: "Tagbanwa Letters"
+  value: "ᝠ ᝡ ᝢ ᝣ ᝤ ᝥ ᝦ ᝧ ᝨ ᝩ ᝪ ᝫ ᝬ ᝮ ᝯ ᝰ"
+}
+sample_glyphs {
+  key: "Tagbanwa Nonspacing Marks"
+  value: "ᝲ ᝳ"
+}

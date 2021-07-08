@@ -16,3 +16,23 @@ subsets: "menu"
 subsets: "hanunoo"
 is_noto: true
 languages: "hnn_Hano"  # Hanunoo, Hanunoo
+sample_glyphs {
+  key: "Hanunoo Letters"
+  value: "ᜠ ᜡ ᜢ ᜣ ᜤ ᜥ ᜦ ᜧ ᜨ ᜩ ᜪ ᜫ ᜬ ᜭ ᜮ ᜯ ᜰ ᜱ"
+}
+sample_glyphs {
+  key: "Hanunoo Nonspacing Marks"
+  value: "ᜲ ᜳ ᜴"
+}
+sample_glyphs {
+  key: "Punctuation, Hanunoo"
+  value: "᜵ ᜶"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}
+sample_glyphs {
+  key: "Symbols, Geometric Shapes"
+  value: "◌"
+}

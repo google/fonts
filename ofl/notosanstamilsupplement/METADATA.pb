@@ -17,3 +17,19 @@ subsets: "tamil-supplement"
 is_noto: true
 languages: "bfq"  # Badaga
 languages: "ta"  # Tamil
+sample_glyphs {
+  key: "Tamil Currency Symbols"
+  value: "𑿝 𑿞 𑿟 𑿠"
+}
+sample_glyphs {
+  key: "Tamil Numbers"
+  value: "𑿀 𑿁 𑿂 𑿃 𑿄 𑿅 𑿆 𑿇 𑿈 𑿉 𑿊 𑿋 𑿌 𑿍 𑿎 𑿏 𑿐 𑿑 𑿒 𑿓 𑿔"
+}
+sample_glyphs {
+  key: "Tamil Punctuation"
+  value: "𑿿"
+}
+sample_glyphs {
+  key: "Tamil Symbols"
+  value: "𑿕 𑿖 𑿗 𑿘 𑿙 𑿚 𑿛 𑿜 𑿡 𑿢 𑿣 𑿤 𑿥 𑿦 𑿧 𑿨 𑿩 𑿪 𑿫 𑿬 𑿭 𑿮 𑿯 𑿰 𑿱"
+}

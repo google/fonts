@@ -16,3 +16,11 @@ subsets: "menu"
 subsets: "elymaic"
 is_noto: true
 languages: "xly"  # Elymian
+sample_glyphs {
+  key: "Elymaic Letters"
+  value: "𐿠 𐿡 𐿢 𐿣 𐿤 𐿥 𐿦 𐿧 𐿨 𐿩 𐿪 𐿫 𐿬 𐿭 𐿮 𐿯 𐿰 𐿱 𐿲 𐿳 𐿴 𐿵 𐿶"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}

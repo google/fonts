@@ -21,3 +21,19 @@ axes {
 }
 is_noto: true
 languages: "srb_Sora"  # Sora, Sora Sompeng
+sample_glyphs {
+  key: "Dash Punctuation"
+  value: "- ‐"
+}
+sample_glyphs {
+  key: "Sora Sompeng Decimal Numbers"
+  value: "𑃰 𑃱 𑃲 𑃳 𑃴 𑃵 𑃶 𑃷 𑃸 𑃹"
+}
+sample_glyphs {
+  key: "Sora Sompeng Letters"
+  value: "𑃐 𑃑 𑃒 𑃓 𑃔 𑃕 𑃖 𑃗 𑃘 𑃙 𑃚 𑃛 𑃜 𑃝 𑃞 𑃟 𑃠 𑃡 𑃢 𑃣 𑃤 𑃥 𑃦 𑃧 𑃨"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}

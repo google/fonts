@@ -15,3 +15,11 @@ fonts {
 subsets: "menu"
 subsets: "mayan-numerals"
 is_noto: true
+sample_glyphs {
+  key: "Numbers, Mayan Numerals"
+  value: "𝋠 𝋡 𝋢 𝋣 𝋤 𝋥 𝋦 𝋧 𝋨 𝋩 𝋪 𝋫 𝋬 𝋭 𝋮 𝋯 𝋰 𝋱 𝋲 𝋳"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}

@@ -21,3 +21,35 @@ axes {
 }
 is_noto: true
 languages: "lis"  # Lisu
+sample_glyphs {
+  key: "Close Punctuation"
+  value: "》"
+}
+sample_glyphs {
+  key: "Dash Punctuation"
+  value: "- ‐"
+}
+sample_glyphs {
+  key: "Lisu Letters"
+  value: "ꓐ ꓑ ꓒ ꓓ ꓔ ꓕ ꓖ ꓗ ꓘ ꓙ ꓚ ꓛ ꓜ ꓝ ꓞ ꓟ ꓠ ꓡ ꓢ ꓣ ꓤ ꓥ ꓦ ꓧ ꓨ ꓩ ꓪ ꓫ ꓬ ꓭ ꓮ ꓯ ꓰ ꓱ ꓲ ꓳ ꓴ ꓵ ꓶ ꓷ"
+}
+sample_glyphs {
+  key: "Lisu Modifier Letters"
+  value: "ꓸ ꓹ ꓺ ꓻ ꓼ ꓽ"
+}
+sample_glyphs {
+  key: "Lisu Punctuation"
+  value: "꓾ ꓿"
+}
+sample_glyphs {
+  key: "Modifier Letters"
+  value: "ʼ ˍ"
+}
+sample_glyphs {
+  key: "Open Punctuation"
+  value: "《"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}

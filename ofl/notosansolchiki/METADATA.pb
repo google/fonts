@@ -21,3 +21,27 @@ axes {
 }
 is_noto: true
 languages: "sat"  # Santali
+sample_glyphs {
+  key: "Currency Symbols"
+  value: "₹"
+}
+sample_glyphs {
+  key: "Ol Chiki Decimal Numbers"
+  value: "᱐ ᱑ ᱒ ᱓ ᱔ ᱕ ᱖ ᱗ ᱘ ᱙"
+}
+sample_glyphs {
+  key: "Ol Chiki Letters"
+  value: "ᱚ ᱛ ᱜ ᱝ ᱞ ᱟ ᱠ ᱡ ᱢ ᱣ ᱤ ᱥ ᱦ ᱧ ᱨ ᱩ ᱪ ᱫ ᱬ ᱭ ᱮ ᱯ ᱰ ᱱ ᱲ ᱳ ᱴ ᱵ ᱶ ᱷ"
+}
+sample_glyphs {
+  key: "Ol Chiki Modifier Letters"
+  value: "ᱸ ᱹ ᱺ ᱻ ᱼ ᱽ"
+}
+sample_glyphs {
+  key: "Ol Chiki Punctuation"
+  value: "᱾ ᱿"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}

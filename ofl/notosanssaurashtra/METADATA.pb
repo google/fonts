@@ -16,3 +16,31 @@ subsets: "menu"
 subsets: "saurashtra"
 is_noto: true
 languages: "saz"  # Saurashtra
+sample_glyphs {
+  key: "Saurashtra Decimal Numbers"
+  value: "꣐ ꣑ ꣒ ꣓ ꣔ ꣕ ꣖ ꣗ ꣘ ꣙"
+}
+sample_glyphs {
+  key: "Saurashtra Letters"
+  value: "ꢂ ꢃ ꢄ ꢅ ꢆ ꢇ ꢈ ꢉ ꢊ ꢋ ꢌ ꢍ ꢎ ꢏ ꢐ ꢑ ꢒ ꢓ ꢔ ꢕ ꢖ ꢗ ꢘ ꢙ ꢚ ꢛ ꢜ ꢝ ꢞ ꢟ ꢠ ꢡ ꢢ ꢣ ꢤ ꢥ ꢦ ꢧ ꢨ ꢩ ꢪ ꢫ ꢬ ꢭ ꢮ ꢯ ꢰ ꢱ ꢲ ꢳ"
+}
+sample_glyphs {
+  key: "Saurashtra Nonspacing Marks"
+  value: "꣄ ꣅ"
+}
+sample_glyphs {
+  key: "Saurashtra Punctuation"
+  value: "꣎ ꣏"
+}
+sample_glyphs {
+  key: "Saurashtra Spacing Marks"
+  value: "ꢀ ꢁ ꢴ ꢵ ꢶ ꢷ ꢸ ꢹ ꢺ ꢻ ꢼ ꢽ ꢾ ꢿ ꣀ ꣁ ꣂ ꣃ"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}
+sample_glyphs {
+  key: "Symbols, Geometric Shapes"
+  value: "◌"
+}

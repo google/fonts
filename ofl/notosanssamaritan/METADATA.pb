@@ -17,3 +17,27 @@ subsets: "samaritan"
 is_noto: true
 languages: "sam_Samr"  # Samaritan Aramaic, Samaritan
 languages: "smp"  # Samaritan
+sample_glyphs {
+  key: "Punctuation, Supplemental"
+  value: "⸱"
+}
+sample_glyphs {
+  key: "Samaritan Letters"
+  value: "ࠀ ࠁ ࠂ ࠃ ࠄ ࠅ ࠆ ࠇ ࠈ ࠉ ࠊ ࠋ ࠌ ࠍ ࠎ ࠏ ࠐ ࠑ ࠒ ࠓ ࠔ ࠕ"
+}
+sample_glyphs {
+  key: "Samaritan Modifier Letters"
+  value: "ࠚ ࠤ ࠨ"
+}
+sample_glyphs {
+  key: "Samaritan Nonspacing Marks"
+  value: "ࠖ ࠗ ࠘ ࠙ ࠛ ࠜ ࠝ ࠞ ࠟ ࠠ ࠡ ࠢ ࠣ ࠥ ࠦ ࠧ ࠩ ࠪ ࠫ ࠬ ࠭"
+}
+sample_glyphs {
+  key: "Samaritan Punctuation"
+  value: "࠰ ࠱ ࠲ ࠳ ࠴ ࠵ ࠶ ࠷ ࠸ ࠹ ࠺ ࠻ ࠼ ࠽ ࠾"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}

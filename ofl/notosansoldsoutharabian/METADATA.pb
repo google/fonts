@@ -16,3 +16,19 @@ subsets: "menu"
 subsets: "old-south-arabian"
 is_noto: true
 languages: "xsa"  # Sabaean
+sample_glyphs {
+  key: "Old South Arabian Letters"
+  value: "𐩠 𐩡 𐩢 𐩣 𐩤 𐩥 𐩦 𐩧 𐩨 𐩩 𐩪 𐩫 𐩬 𐩭 𐩮 𐩯 𐩰 𐩱 𐩲 𐩳 𐩴 𐩵 𐩶 𐩷 𐩸 𐩹 𐩺 𐩻 𐩼"
+}
+sample_glyphs {
+  key: "Old South Arabian Numbers"
+  value: "𐩽 𐩾"
+}
+sample_glyphs {
+  key: "Old South Arabian Punctuation"
+  value: "𐩿"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}

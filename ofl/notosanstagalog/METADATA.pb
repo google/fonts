@@ -16,3 +16,23 @@ subsets: "menu"
 subsets: "tagalog"
 is_noto: true
 languages: "fil_Tglg"  # Filipino, Tagalog
+sample_glyphs {
+  key: "Punctuation, Hanunoo"
+  value: "᜵ ᜶"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}
+sample_glyphs {
+  key: "Symbols, Geometric Shapes"
+  value: "◌"
+}
+sample_glyphs {
+  key: "Tagalog Letters"
+  value: "ᜀ ᜁ ᜂ ᜃ ᜄ ᜅ ᜆ ᜇ ᜈ ᜉ ᜊ ᜋ ᜌ ᜎ ᜏ ᜐ ᜑ"
+}
+sample_glyphs {
+  key: "Tagalog Nonspacing Marks"
+  value: "ᜒ ᜓ ᜔"
+}

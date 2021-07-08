@@ -31,3 +31,39 @@ languages: "jrb"  # Judeo-Arabic
 languages: "lad"  # Ladino
 languages: "sam"  # Samaritan Aramaic
 languages: "yi"  # Yiddish
+sample_glyphs {
+  key: "Currency Symbols"
+  value: "₪"
+}
+sample_glyphs {
+  key: "Dash Punctuation"
+  value: "- ‐"
+}
+sample_glyphs {
+  key: "Hebrew Dash Punctuation"
+  value: "־"
+}
+sample_glyphs {
+  key: "Hebrew Letters"
+  value: "א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ יִ ײַ ﬠ ﬡ ﬢ ﬣ ﬤ ﬥ ﬦ ﬧ ﬨ שׁ שׂ שּׁ שּׂ אַ אָ אּ בּ גּ דּ הּ וּ זּ טּ יּ ךּ כּ לּ מּ נּ סּ ףּ פּ צּ קּ רּ שּ תּ וֹ בֿ כֿ פֿ ﭏ"
+}
+sample_glyphs {
+  key: "Hebrew Nonspacing Marks"
+  value: "֑ ֒ ֓ ֔ ֕ ֖ ֗ ֘ ֙ ֚ ֛ ֜ ֝ ֞ ֟ ֠ ֡ ֢ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֺ ֻ ּ ֽ ֿ ׁ ׂ ׄ ׅ ׇ ﬞ"
+}
+sample_glyphs {
+  key: "Hebrew Punctuation"
+  value: "׀ ׃ ׆ ׳ ״"
+}
+sample_glyphs {
+  key: "Mathematical Symbols, Alphabetic Presentation Forms"
+  value: "﬩"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}
+sample_glyphs {
+  key: "Symbols, Geometric Shapes"
+  value: "◌"
+}

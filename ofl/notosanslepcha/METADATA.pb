@@ -16,3 +16,31 @@ subsets: "menu"
 subsets: "lepcha"
 is_noto: true
 languages: "lep"  # Lepcha
+sample_glyphs {
+  key: "Lepcha Decimal Numbers"
+  value: "᱀ ᱁ ᱂ ᱃ ᱄ ᱅ ᱆ ᱇ ᱈ ᱉"
+}
+sample_glyphs {
+  key: "Lepcha Letters"
+  value: "ᰀ ᰁ ᰂ ᰃ ᰄ ᰅ ᰆ ᰇ ᰈ ᰉ ᰊ ᰋ ᰌ ᰍ ᰎ ᰏ ᰐ ᰑ ᰒ ᰓ ᰔ ᰕ ᰖ ᰗ ᰘ ᰙ ᰚ ᰛ ᰜ ᰝ ᰞ ᰟ ᰠ ᰡ ᰢ ᰣ ᱍ ᱎ ᱏ"
+}
+sample_glyphs {
+  key: "Lepcha Nonspacing Marks"
+  value: "ᰬ ᰭ ᰮ ᰯ ᰰ ᰱ ᰲ ᰳ ᰶ ᰷"
+}
+sample_glyphs {
+  key: "Lepcha Punctuation"
+  value: "᰻ ᰼ ᰽ ᰾ ᰿"
+}
+sample_glyphs {
+  key: "Lepcha Spacing Marks"
+  value: "ᰤ ᰥ ᰦ ᰧ ᰨ ᰩ ᰪ ᰫ ᰴ ᰵ"
+}
+sample_glyphs {
+  key: "Space Separators"
+  value: " "
+}
+sample_glyphs {
+  key: "Symbols, Geometric Shapes"
+  value: "◌"
+}

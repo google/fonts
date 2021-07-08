@@ -11,6 +11,10 @@ The `/catalog` subdirectory contains additional metadata, such as profile texts 
 
 The `/axisregistry` subdirectory contains metadata for the GF Axis Registry, containing information on variable font axes that can be found in the collection, including experimental axes.
 
+
+## Easy to use features
+
+<img src="./GoogleFontsFeatures.gif"></img>
 ## Bug reports and improvement requests
 
 If you find a problem with a font file or have a request for the future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/google/fonts/issues).

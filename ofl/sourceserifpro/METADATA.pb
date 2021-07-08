@@ -14,6 +14,15 @@ fonts {
 }
 fonts {
   name: "Source Serif Pro"
+  style: "italic"
+  weight: 200
+  filename: "SourceSerifPro-ExtraLightItalic.ttf"
+  post_script_name: "SourceSerifPro-ExtraLightIt"
+  full_name: "Source Serif Pro ExtraLight Italic"
+  copyright: "Copyright 2014, 2015, 2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+}
+fonts {
+  name: "Source Serif Pro"
   style: "normal"
   weight: 300
   filename: "SourceSerifPro-Light.ttf"
@@ -23,11 +32,29 @@ fonts {
 }
 fonts {
   name: "Source Serif Pro"
+  style: "italic"
+  weight: 300
+  filename: "SourceSerifPro-LightItalic.ttf"
+  post_script_name: "SourceSerifPro-LightIt"
+  full_name: "Source Serif Pro Light Italic"
+  copyright: "Copyright 2014, 2015, 2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+}
+fonts {
+  name: "Source Serif Pro"
   style: "normal"
   weight: 400
   filename: "SourceSerifPro-Regular.ttf"
   post_script_name: "SourceSerifPro-Regular"
-  full_name: "Source Serif Pro Regular"
+  full_name: "Source Serif Pro"
+  copyright: "Copyright 2014, 2015, 2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+}
+fonts {
+  name: "Source Serif Pro"
+  style: "italic"
+  weight: 400
+  filename: "SourceSerifPro-Italic.ttf"
+  post_script_name: "SourceSerifPro-It"
+  full_name: "Source Serif Pro Italic"
   copyright: "Copyright 2014, 2015, 2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name \'Source\'."
 }
 fonts {
@@ -41,6 +68,15 @@ fonts {
 }
 fonts {
   name: "Source Serif Pro"
+  style: "italic"
+  weight: 600
+  filename: "SourceSerifPro-SemiBoldItalic.ttf"
+  post_script_name: "SourceSerifPro-SemiBoldIt"
+  full_name: "Source Serif Pro SemiBold Italic"
+  copyright: "Copyright 2014, 2015, 2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+}
+fonts {
+  name: "Source Serif Pro"
   style: "normal"
   weight: 700
   filename: "SourceSerifPro-Bold.ttf"
@@ -50,11 +86,29 @@ fonts {
 }
 fonts {
   name: "Source Serif Pro"
+  style: "italic"
+  weight: 700
+  filename: "SourceSerifPro-BoldItalic.ttf"
+  post_script_name: "SourceSerifPro-BoldIt"
+  full_name: "Source Serif Pro Bold Italic"
+  copyright: "Copyright 2014, 2015, 2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+}
+fonts {
+  name: "Source Serif Pro"
   style: "normal"
   weight: 900
   filename: "SourceSerifPro-Black.ttf"
   post_script_name: "SourceSerifPro-Black"
   full_name: "Source Serif Pro Black"
+  copyright: "Copyright 2014, 2015, 2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+}
+fonts {
+  name: "Source Serif Pro"
+  style: "italic"
+  weight: 900
+  filename: "SourceSerifPro-BlackItalic.ttf"
+  post_script_name: "SourceSerifPro-BlackIt"
+  full_name: "Source Serif Pro Black Italic"
   copyright: "Copyright 2014, 2015, 2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name \'Source\'."
 }
 subsets: "cyrillic"

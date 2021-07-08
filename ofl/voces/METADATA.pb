@@ -1,5 +1,5 @@
 name: "Voces"
-designer: "Multiple Designers"
+designer: "Ana Paula Megda, Pablo Ugerman"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-22"

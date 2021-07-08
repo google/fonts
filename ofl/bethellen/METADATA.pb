@@ -1,5 +1,5 @@
 name: "Beth Ellen"
-designer: "Rob Jelinski"
+designer: "Rob Jelinski, Alyson Fraser Diaz"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2019-05-10"

@@ -1,0 +1,20 @@
+branch: master
+files:
+  fonts/variable/JetBrainsMono[wght].ttf: JetBrainsMono[wght].ttf
+  fonts/variable/JetBrainsMono-Italic[wght].ttf: JetBrainsMono-Italic[wght].ttf
+  fonts/ttf/JetBrainsMono-Bold.ttf: static/JetBrainsMono-Bold.ttf
+  fonts/ttf/JetBrainsMono-BoldItalic.ttf: static/JetBrainsMono-BoldItalic.ttf
+  fonts/ttf/JetBrainsMono-ExtraBold.ttf: static/JetBrainsMono-ExtraBold.ttf
+  fonts/ttf/JetBrainsMono-ExtraBoldItalic.ttf: static/JetBrainsMono-ExtraBoldItalic.ttf
+  fonts/ttf/JetBrainsMono-ExtraLight.ttf: static/JetBrainsMono-ExtraLight.ttf
+  fonts/ttf/JetBrainsMono-ExtraLightItalic.ttf: static/JetBrainsMono-ExtraLightItalic.ttf
+  fonts/ttf/JetBrainsMono-Italic.ttf: static/JetBrainsMono-Italic.ttf
+  fonts/ttf/JetBrainsMono-Light.ttf: static/JetBrainsMono-Light.ttf
+  fonts/ttf/JetBrainsMono-LightItalic.ttf: static/JetBrainsMono-LightItalic.ttf
+  fonts/ttf/JetBrainsMono-Medium.ttf: static/JetBrainsMono-Medium.ttf
+  fonts/ttf/JetBrainsMono-MediumItalic.ttf: static/JetBrainsMono-MediumItalic.ttf
+  fonts/ttf/JetBrainsMono-Regular.ttf: static/JetBrainsMono-Regular.ttf
+  fonts/ttf/JetBrainsMono-Thin.ttf: static/JetBrainsMono-Thin.ttf
+  fonts/ttf/JetBrainsMono-ThinItalic.ttf: static/JetBrainsMono-ThinItalic.ttf
+  OFL.txt: OFL.txt
+repository_url: https://github.com/JetBrains/JetBrainsMono

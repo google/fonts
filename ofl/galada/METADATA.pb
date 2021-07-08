@@ -1,5 +1,5 @@
 name: "Galada"
-designer: "Multiple Designers"
+designer: "Black Foundry"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2016-06-20"

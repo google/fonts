@@ -10,7 +10,7 @@ fonts {
   filename: "LibreBarcode128Text-Regular.ttf"
   post_script_name: "LibreBarcode128Text-Regular"
   full_name: "Libre Barcode 128 Text Regular"
-  copyright: "Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)"
+  copyright: "Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)"
 }
 subsets: "latin"
 subsets: "menu"

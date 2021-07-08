@@ -1,5 +1,5 @@
 name: "Lekton"
-designer: "Multiple Designers"
+designer: "ISIA Urbino"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2010-12-20"

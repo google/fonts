@@ -1,7 +1,7 @@
 name: "Lacquer"
 designer: "Niki Polyocan, Eli Block"
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2019-07-04"
 fonts {
   name: "Lacquer"

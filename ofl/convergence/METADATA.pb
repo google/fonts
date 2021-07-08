@@ -1,5 +1,5 @@
 name: "Convergence"
-designer: "Multiple Designers"
+designer: "Nicolás Silva, John Vargas Beltrán"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-09"

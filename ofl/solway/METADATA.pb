@@ -1,5 +1,5 @@
 name: "Solway"
-designer: "The Northern Block"
+designer: "Mariya V. Pigoulevskaya, The Northern Block"
 license: "OFL"
 category: "SERIF"
 date_added: "2018-08-06"
@@ -10,7 +10,7 @@ fonts {
   filename: "Solway-Light.ttf"
   post_script_name: "Solway-Light"
   full_name: "Solway Light"
-  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/googlefonts/solway)"
+  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)"
 }
 fonts {
   name: "Solway"
@@ -19,7 +19,7 @@ fonts {
   filename: "Solway-Regular.ttf"
   post_script_name: "Solway-Regular"
   full_name: "Solway Regular"
-  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/googlefonts/solway)"
+  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)"
 }
 fonts {
   name: "Solway"
@@ -28,7 +28,7 @@ fonts {
   filename: "Solway-Medium.ttf"
   post_script_name: "Solway-Medium"
   full_name: "Solway Medium"
-  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/googlefonts/solway)"
+  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)"
 }
 fonts {
   name: "Solway"
@@ -37,7 +37,7 @@ fonts {
   filename: "Solway-Bold.ttf"
   post_script_name: "Solway-Bold"
   full_name: "Solway Bold"
-  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/googlefonts/solway)"
+  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)"
 }
 fonts {
   name: "Solway"
@@ -46,7 +46,7 @@ fonts {
   filename: "Solway-ExtraBold.ttf"
   post_script_name: "Solway-ExtraBold"
   full_name: "Solway ExtraBold"
-  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/googlefonts/solway)"
+  copyright: "Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)"
 }
 subsets: "latin"
 subsets: "menu"

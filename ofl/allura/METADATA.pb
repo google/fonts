@@ -1,5 +1,5 @@
 name: "Allura"
-designer: "TypeSETit"
+designer: "Robert Leuschke"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-02-08"
@@ -10,8 +10,9 @@ fonts {
   filename: "Allura-Regular.ttf"
   post_script_name: "Allura-Regular"
   full_name: "Allura Regular"
-  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Allura\""
+  copyright: "Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"

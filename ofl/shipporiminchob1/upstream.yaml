@@ -1,0 +1,10 @@
+branch: master
+files:
+  fonts/ttf/ShipporiMinchoB1-Regular.ttf: ShipporiMinchoB1-Regular.ttf
+  fonts/ttf/ShipporiMinchoB1-Medium.ttf: ShipporiMinchoB1-Medium.ttf
+  fonts/ttf/ShipporiMinchoB1-SemiBold.ttf: ShipporiMinchoB1-SemiBold.ttf
+  fonts/ttf/ShipporiMinchoB1-Bold.ttf: ShipporiMinchoB1-Bold.ttf
+  fonts/ttf/ShipporiMinchoB1-ExtraBold.ttf: ShipporiMinchoB1-ExtraBold.ttf
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+repository_url: https://github.com/fontdasu/ShipporiMincho.git

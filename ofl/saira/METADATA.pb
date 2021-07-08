@@ -6,85 +6,32 @@ date_added: "2016-12-03"
 fonts {
   name: "Saira"
   style: "normal"
-  weight: 100
-  filename: "Saira-Thin.ttf"
+  weight: 400
+  filename: "Saira[wdth,wght].ttf"
   post_script_name: "Saira-Thin"
   full_name: "Saira Thin"
-  copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
+  copyright: "Copyright 2020 The Saira Project Authors (https://github.com/Omnibus-Type/Saira)"
 }
 fonts {
   name: "Saira"
-  style: "normal"
-  weight: 200
-  filename: "Saira-ExtraLight.ttf"
-  post_script_name: "Saira-ExtraLight"
-  full_name: "Saira ExtraLight"
-  copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
-}
-fonts {
-  name: "Saira"
-  style: "normal"
-  weight: 300
-  filename: "Saira-Light.ttf"
-  post_script_name: "Saira-Light"
-  full_name: "Saira Light"
-  copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
-}
-fonts {
-  name: "Saira"
-  style: "normal"
+  style: "italic"
   weight: 400
-  filename: "Saira-Regular.ttf"
-  post_script_name: "Saira-Regular"
-  full_name: "Saira Regular"
-  copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
-}
-fonts {
-  name: "Saira"
-  style: "normal"
-  weight: 500
-  filename: "Saira-Medium.ttf"
-  post_script_name: "Saira-Medium"
-  full_name: "Saira Medium"
-  copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
-}
-fonts {
-  name: "Saira"
-  style: "normal"
-  weight: 600
-  filename: "Saira-SemiBold.ttf"
-  post_script_name: "Saira-SemiBold"
-  full_name: "Saira SemiBold"
-  copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
-}
-fonts {
-  name: "Saira"
-  style: "normal"
-  weight: 700
-  filename: "Saira-Bold.ttf"
-  post_script_name: "Saira-Bold"
-  full_name: "Saira Bold"
-  copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
-}
-fonts {
-  name: "Saira"
-  style: "normal"
-  weight: 800
-  filename: "Saira-ExtraBold.ttf"
-  post_script_name: "Saira-ExtraBold"
-  full_name: "Saira ExtraBold"
-  copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
-}
-fonts {
-  name: "Saira"
-  style: "normal"
-  weight: 900
-  filename: "Saira-Black.ttf"
-  post_script_name: "Saira-Black"
-  full_name: "Saira Black"
-  copyright: "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\"."
+  filename: "Saira-Italic[wdth,wght].ttf"
+  post_script_name: "Saira-ThinItalic"
+  full_name: "Saira Thin Italic"
+  copyright: "Copyright 2020 The Saira Project Authors (https://github.com/Omnibus-Type/Saira)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "wdth"
+  min_value: 50.0
+  max_value: 125.0
+}
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}

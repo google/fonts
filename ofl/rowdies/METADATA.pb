@@ -10,7 +10,7 @@ fonts {
   filename: "Rowdies-Light.ttf"
   post_script_name: "Rowdies-Light"
   full_name: "Rowdies Light"
-  copyright: "Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdy)"
+  copyright: "Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdies)"
 }
 fonts {
   name: "Rowdies"
@@ -19,7 +19,7 @@ fonts {
   filename: "Rowdies-Regular.ttf"
   post_script_name: "Rowdies-Regular"
   full_name: "Rowdies Regular"
-  copyright: "Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdy)"
+  copyright: "Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdies)"
 }
 fonts {
   name: "Rowdies"
@@ -28,7 +28,7 @@ fonts {
   filename: "Rowdies-Bold.ttf"
   post_script_name: "Rowdies-Bold"
   full_name: "Rowdies Bold"
-  copyright: "Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdy)"
+  copyright: "Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdies)"
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "LibreBarcode39ExtendedText-Regular.ttf"
   post_script_name: "LibreBarcode39ExtendedText-Regular"
-  full_name: "Libre Barcode 39 Extended Text"
-  copyright: "Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)"
+  full_name: "Libre Barcode 39 Extended Text Regular"
+  copyright: "Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)"
 }
 subsets: "latin"
 subsets: "menu"

@@ -1,5 +1,5 @@
 name: "Meie Script"
-designer: "Multiple Designers"
+designer: "Johan Kallas, Mihkel Virkus"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2012-08-21"

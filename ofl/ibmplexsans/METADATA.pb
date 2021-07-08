@@ -62,8 +62,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "IBMPlexSans-Regular.ttf"
-  post_script_name: "IBMPlexSans"
-  full_name: "IBM Plex Sans"
+  post_script_name: "IBMPlexSans-Regular"
+  full_name: "IBM Plex Sans Regular"
   copyright: "Copyright 2018 IBM Corp. All rights reserved."
 }
 fonts {

@@ -1,5 +1,5 @@
 name: "Arya"
-designer: "Multiple Designers"
+designer: "Eduardo Tunni"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-05-20"

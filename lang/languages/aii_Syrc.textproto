@@ -1,0 +1,13 @@
+id: "aii_Syrc"
+language: "aii"
+script: "Syrc"
+name: "Assyrian Neo-Aramaic, Syriac"
+autonym: "ܐܵܬ݂ܘܼܪܵܝܲܐ ܠܸܫܵܢܵܐ"
+population: 0
+region: "IQ"
+region: "SY"
+exemplar_chars {
+  base: "ܟ ܝ ܛ ܚ ܙ ܘ ܗ ܕ ܓ ܒ ܐ ܬ ܫ ܪ ܩ ܨ ܦ ܥ ܣ ܢ ܡ ܠ"
+  marks: "◌ܲ ◌ܵ ◌ܸ ◌ܹ ◌݃ ◌݇"
+}
+historical: true

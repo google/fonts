@@ -6,7 +6,7 @@ date_added: "2010-05-11"
 fonts {
   name: "Yanone Kaffeesatz"
   style: "normal"
-  weight: 200
+  weight: 400
   filename: "YanoneKaffeesatz[wght].ttf"
   post_script_name: "YanoneKaffeesatz-ExtraLight"
   full_name: "Yanone Kaffeesatz ExtraLight"

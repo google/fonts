@@ -1,7 +1,7 @@
 name: "Fira Code"
 designer: "Multiple Designers"
 license: "OFL"
-category: "Monospace"
+category: "MONOSPACE"
 date_added: "2019-03-25"
 fonts {
   name: "Fira Code"

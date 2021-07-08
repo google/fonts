@@ -1,2 +1,1 @@
-This directory contains files which support the site fonts.google.com.
-
+This directory contains files which support the Google Fonts catalog website, [fonts.google.com](https://fonts.google.com).

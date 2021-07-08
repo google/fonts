@@ -1,0 +1,11 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  fonts/variable/Assistant[wght].ttf: Assistant[wght].ttf
+  fonts/ttf/Assistant-Bold.ttf: static/Assistant-Bold.ttf
+  fonts/ttf/Assistant-ExtraBold.ttf: static/Assistant-ExtraBold.ttf
+  fonts/ttf/Assistant-ExtraLight.ttf: static/Assistant-ExtraLight.ttf
+  fonts/ttf/Assistant-Light.ttf: static/Assistant-Light.ttf
+  fonts/ttf/Assistant-Regular.ttf: static/Assistant-Regular.ttf
+  fonts/ttf/Assistant-SemiBold.ttf: static/Assistant-SemiBold.ttf
+repository_url: https://github.com/TypeNetwork/Assistant

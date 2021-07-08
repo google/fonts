@@ -1,0 +1,14 @@
+branch: master
+files:
+  fonts/ttf/Hahmlet-Thin.ttf: static/Hahmlet-Thin.ttf
+  fonts/ttf/Hahmlet-ExtraLight.ttf: static/Hahmlet-ExtraLight.ttf
+  fonts/ttf/Hahmlet-Light.ttf: static/Hahmlet-Light.ttf
+  fonts/ttf/Hahmlet-Regular.ttf: static/Hahmlet-Regular.ttf
+  fonts/ttf/Hahmlet-Medium.ttf: static/Hahmlet-Medium.ttf
+  fonts/ttf/Hahmlet-SemiBold.ttf: static/Hahmlet-SemiBold.ttf
+  fonts/ttf/Hahmlet-Bold.ttf: static/Hahmlet-Bold.ttf
+  fonts/ttf/Hahmlet-ExtraBold.ttf: static/Hahmlet-ExtraBold.ttf
+  fonts/ttf/Hahmlet-Black.ttf: static/Hahmlet-Black.ttf
+  fonts/variable/Hahmlet[wght].ttf: Hahmlet[wght].ttf
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html

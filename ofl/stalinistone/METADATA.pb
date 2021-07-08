@@ -1,5 +1,5 @@
 name: "Stalinist One"
-designer: "Multiple Designers"
+designer: "Alexey Maslov, Jovanny Lemonad"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-08-20"

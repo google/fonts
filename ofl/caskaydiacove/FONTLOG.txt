@@ -1,0 +1,69 @@
+FONTLOG for Caskaydia Cove
+===================================
+
+This file provides detailed information on the Caskaydia Cove font. This information should be distributed along with the Caskaydia Cove font and any derivative works.
+
+Basic Font Information
+-----------------------------------
+
+Cascadia Code is a monospaced font shipped by Microsoft. It includes programming ligatures and is intended for use in terminal applications as well as text editors.
+
+Contribution Information
+-----------------------------------
+
+Documentation and contribution guidelines can be found at: https://github.com/microsoft/cascadia-code
+
+ChangeLog
+-----------------------------------
+
+07-29-2020 (Eli Heuer) Forked the project under a new name
+- To comply with the OFL RFN
+
+09-25-2019 (Aaron Bell) Bug Fixes and Improvements
+
+09-18-2019 (Aaron Bell) Cascadia Code Version 1909.16
+- Initial release
+
+10-04-2019 (Aaron Bell) Cascadia Code Version 1910.04
+- Addition of Latin-1 characters
+- Addition of box drawing glyphs
+11-20-2019 (Aaron Bell) Cascadia Code Version 1911.20
+- Cyrillic, Greek, Vietnamese, and many other symbols added
+- Font converted to UFO with a build workflow
+- font rehinted
+- many other fixes!
+
+04-29-2020 (Aaron Bell) April bug fixes
+- Many small bug fixes from the last few months
+
+05-05-2020 Font vertical metrics locked
+
+05-15-2020 (Aaron Bell, Dustin Howett) [Version 2005.15]
+Fixed WinDescent value to improve line spacing
+
+06-29-2020 (Aaron Bell) Variable font conversion
+Converted Cascadia Code to a Variable font with a weight axis
+
+06-29-2020 (Aaron Bell) [Version 2007.01]
+Reworked Cascadia Code to be a variable font with 6 named variations ranging
+from ExtraLight to Bold.
+Split the long equals ligature (==) for earier reading
+Removed the hexadeciaml 'x' alternate
+Corrected malformed IJacute dioacritics
+Introduced a compatibility layout for PowerLine glyphs that will
+be used in GDI
+
+Acknowledgements
+-----------------------------------
+
+If you make modifications, be sure to add your name (N), email (E), web-address (if you have one) (W), and description (D). This list is in alphabetical order.
+
+N: Aaron Bell
+E: aaron@sajatypeworks.com
+W: http://sajatypeworks.com
+D: Original font designer
+
+N: Eli Heuer
+E: elih@protonmail.com
+W: https://elih.blog
+D: Font Engineer

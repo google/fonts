@@ -169,7 +169,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/bettergui/BeVietnamPro.git"
-  commit: "f11241615ad1df369fbd79c60808f904a9f4461e"
-}

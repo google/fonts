@@ -20,7 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "dmf"  # Medefaidrin
+languages: "dmf_Medf"  # Medefaidrin
 sample_glyphs {
   key: "Medefaidrin Lowercase Letters"
   value: "𖹠 𖹡 𖹢 𖹣 𖹤 𖹥 𖹦 𖹧 𖹨 𖹩 𖹪 𖹫 𖹬 𖹭 𖹮 𖹯 𖹰 𖹱 𖹲 𖹳 𖹴 𖹵 𖹶 𖹷 𖹸 𖹹 𖹺 𖹻 𖹼 𖹽 𖹾 𖹿"

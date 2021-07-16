@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "sogdian"
 is_noto: true
-languages: "sog"  # Sogdian
+languages: "sog_Sogd"  # Sogdian
 sample_glyphs {
   key: "Modifier Letters"
   value: "ـ"

@@ -1,0 +1,16 @@
+id: "ha_Latn"
+language: "ha"
+script: "Latn"
+name: "Hausa"
+autonym: "Hausa"
+population: 37412649
+region: "GH"
+region: "NE"
+region: "NG"
+exemplar_chars {
+  base: "a b ɓ c d ɗ e f g h i j k ƙ l m n o r s {sh} t {ts} u w y ƴ z ʼ {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts} {sh} {ts}"
+  auxiliary: "á à â é è ê í ì î ó ò ô p q {r̃} ú ù û v x {r̃} {r̃} {r̃} {r̃} {r̃} {r̃} {r̃} {r̃} {r̃} {r̃} {r̃} {r̃} {r̃} {r̃} {r̃}"
+  marks: "◌̃ ◌̀ ◌́ ◌̂"
+  punctuation: "- ‑ , ; : ! ? . \' ‘ ’ \" “ ” ( ) [ ] { } ′ ″ { } { } { } { } { } { } { } { } { } { } { } { } { } { } { }"
+  index: "A B Ɓ C D Ɗ E F G H I J K Ƙ L M N O R S T U W Y Ƴ Z"
+}

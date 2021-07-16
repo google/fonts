@@ -20,7 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "sat"  # Santali
+languages: "sat_Olck"  # Santali
 sample_glyphs {
   key: "Currency Symbols"
   value: "₹"

@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "yi"
 is_noto: true
-languages: "ii"  # Sichuan Yi
+languages: "ii_Yiii"  # Sichuan Yi
 sample_glyphs {
   key: "Close Punctuation"
   value: "〉 》 」 』 】 〕 〗 〙 〛 ｣"

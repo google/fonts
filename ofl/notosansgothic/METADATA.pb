@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "gothic"
 is_noto: true
-languages: "got"  # Gothic
+languages: "got_Goth"  # Gothic
 sample_glyphs {
   key: "Gothic Letter Numbers"
   value: "𐍁 𐍊"

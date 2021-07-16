@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "old-hungarian"
 is_noto: true
-languages: "ohu"  # Old Hungarian
+languages: "ohu_Hung"  # Old Hungarian
 sample_glyphs {
   key: "Old Hungarian Lowercase Letters"
   value: "𐳀 𐳁 𐳂 𐳃 𐳄 𐳅 𐳆 𐳇 𐳈 𐳉 𐳊 𐳋 𐳌 𐳍 𐳎 𐳏 𐳐 𐳑 𐳒 𐳓 𐳔 𐳕 𐳖 𐳗 𐳘 𐳙 𐳚 𐳛 𐳜 𐳝 𐳞 𐳟 𐳠 𐳡 𐳢 𐳣 𐳤 𐳥 𐳦 𐳧 𐳨 𐳩 𐳪 𐳫 𐳬 𐳭 𐳮 𐳯 𐳰 𐳱 𐳲"

@@ -1,0 +1,25 @@
+id: "ty_Latn"
+language: "ty"
+script: "Latn"
+name: "Tahitian"
+autonym: "Reo Tahiti"
+population: 91487
+region: "PF"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū"
+  marks: "◌̄"
+}
+sample_text {
+  masthead_full: "EeFf"
+  masthead_partial: "Aa"
+  styles: "I te fa\'ari\'i i te fa\'ati\'amā o te ihomana tumu"
+  tester: "I te fa\'ari\'i e no te ha\'apa\'o\'ore, e no te fa\'afaufa\'a\'ore i te mau ti\'amanara\'a"
+  poster_sm: "I te fa\'afaufa\'a"
+  poster_md: "I te fa\'ari\'i,"
+  poster_lg: "fanauhia"
+  specimen_48: "I te fa\'ari\'i i te \'opuara\'a\'amui a te mau Hau Mero e a te Fa\'anahora\'a"
+  specimen_36: "I te fa\'ari\'i i te fa\'ati\'amā o te ihomana tumu o te mau mero tā\'āto\'a o te nuna\'a ta\'ata e i to ratou ato\'a ti\'amanara\'a"
+  specimen_32: "E fanauhia te tā\'āto\'ara\'a o te ta\'ata-tupu ma te ti\'amā e te ti\'amanara\'a \'aifaito. Ua \'ī te mana\'o pa\'ari e i te manava e ma te \'a\'au taea\'e \'oia ta ratou ha\'a i rotopū ia ratou iho, e ti\'a ai;"
+  specimen_21: "I te fa\'ari\'i i te fa\'ati\'amā o te ihomana tumu o te mau mero tā\'āto\'a o te nuna\'a ta\'ata e i to ratou ato\'a ti\'amanara\'a \'aifaito e te tūtu\'u-mana-\'ore \'ei papa no te orara\'ati\'amā, no te orara\'a-\'aifaro e no te hau i roto i teie nei ao, e ti\'a ai,\nI te fa\'afaufa\'a i te paruru i te ti\'amanara\'a o te ta\'ata ma te hō\'ē fa\'aterera\'a-ture, ia \'ore \'oia te ta\'ata ia hepohia, i te hope\'a, i te hepo-\'orure-hau i te fa\'atītīra\'a e te fa\'afaora\'a a te taehae, e tia ai,"
+  specimen_16: "I te fa\'ari\'i i te fa\'ati\'amā o te ihomana tumu o te mau mero tā\'āto\'a o te nuna\'a ta\'ata e i to ratou ato\'a ti\'amanara\'a \'aifaito e te tūtu\'u-mana-\'ore \'ei papa no te orara\'ati\'amā, no te orara\'a-\'aifaro e no te hau i roto i teie nei ao, e ti\'a ai,\nI te fa\'ari\'i e no te ha\'apa\'o\'ore, e no te fa\'afaufa\'a\'ore i te mau ti\'amanara\'a o te ta\'ata, i tupu ai te mau peu \'oviri i fa\'ati\'arepu i te manava o te tā\'āto\'ara\'a o te ao; i te fa\'ari\'i i te ti\'aoroara\'ahia \'ei a\'e nui no te ta\'ata te hitira\'a mai o te hō\'ē ao iti i reira te mau ta\'ata, i ora mai mai roto mai i te taiā e te veve, e \'aparaparau noa ai ma te ti\'aturi fa\'ahou, e ti\'a ai,"
+}

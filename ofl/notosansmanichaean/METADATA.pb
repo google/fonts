@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "manichaean"
 is_noto: true
-languages: "xmn"  # Manichaean Middle Persian
+languages: "xmn_Mani"  # Manichaean Middle Persian
 sample_glyphs {
   key: "Manichaean Letters"
   value: "𐫀 𐫁 𐫂 𐫃 𐫄 𐫅 𐫆 𐫇 𐫉 𐫊 𐫋 𐫌 𐫍 𐫎 𐫏 𐫐 𐫑 𐫒 𐫓 𐫔 𐫕 𐫖 𐫗 𐫘 𐫙 𐫚 𐫛 𐫜 𐫝 𐫞 𐫟 𐫠 𐫡 𐫢 𐫣 𐫤"

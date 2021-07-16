@@ -20,7 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "bax"  # Bamun
+languages: "bax_Bamu"  # Bamun
 sample_glyphs {
   key: "Bamum Letter Numbers"
   value: "ꛦ ꛧ ꛨ ꛩ ꛪ ꛫ ꛬ ꛭ ꛮ ꛯ"

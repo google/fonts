@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "ahom"
 is_noto: true
-languages: "aho"  # Ahom
+languages: "aho_Ahom"  # Ahom
 sample_glyphs {
   key: "Ahom Decimal Numbers"
   value: "𑜰 𑜱 𑜲 𑜳 𑜴 𑜵 𑜶 𑜷 𑜸 𑜹"

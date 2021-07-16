@@ -20,8 +20,8 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "eky"  # Eastern Kayah
-languages: "kyu"  # Western Kayah
+languages: "eky_Kali"  # Eastern Kayah
+languages: "kyu_Kali"  # Western Kayah
 sample_glyphs {
   key: "Dash Punctuation"
   value: "- ‐"

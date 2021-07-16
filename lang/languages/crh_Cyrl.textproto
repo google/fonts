@@ -1,0 +1,25 @@
+id: "crh_Cyrl"
+language: "crh"
+script: "Cyrl"
+name: "Crimean Turkish"
+autonym: "Къырымтатар"
+population: 245968
+region: "UA"
+exemplar_chars {
+  base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё"
+  marks: "◌̆ ◌̈"
+}
+sample_text {
+  masthead_full: "BbÜü"
+  masthead_partial: "Tt"
+  styles: "İnsan ailesiniñ cemi azalarına has olğan"
+  tester: "insan aqlarına lâqaydlıq ve aqaret beşeriyetniñ vicdanını ğadaplandırğan"
+  poster_sm: "aza devletler"
+  poster_md: "bu aqlar"
+  poster_lg: "Bütün"
+  specimen_48: "er kes ve cemiyetniñ er bir qurumı mezkür Beyannameni daima köz"
+  specimen_36: "İç bir kimse qullıq ya da esaret altında bulunmamalıdır; qullıq ve qul ticaretiniñ bütün çeşitleri yasaqtır."
+  specimen_32: "Er kes onıñ, anayasa ya da qanun teminlegen, esas aqları bozulğan taqdirde, selâhiyetli milliy mahkemeler tarafından bu aqları tiklenmek aqqına maliktir."
+  specimen_21: "İç kimse esassız yaqalanmaz, tutuvlanmaz yahut sürgün etilmez.\nEr kes, onıñ aqları ve borcunı belgilemek em de oña qarşı kösterilgen cinaiy qabaatlanuvnıñ delilligini tesbit etmek içün, tolu musaviylik esasında, onıñ işi mustaqil ve bitaraf mahkeme tarafından aşkâr ve adaletli tarzda baqılmaq aqqına maliktir."
+  specimen_16: "Kimse, onıñ şahsiy ve aileviy ömürine, meskenine tiyilmemezlik, yazışmaq sırına yahut onıñ namus ve itibarına esassız kirişmek, qast etmek areketlerine oğratıla bilmez. Er kes, böyle kirişmek yahut qastlardan qanun qorçalavı aqqına maliktir.\nEr kes fikir, itiqat ve din serbestligi aqqına malik; bu aq – em şahsiy tarzda, em de başqalarnen beraberlikte, alem-aşkâre ya da hususiy alda, oquvda, ibadet etüvde ve diniy merasimlerni becergende – öz dinini yahut itiqatlarını deñiştirmek ve öz dinini yahut itiqatlarnı izar etmek serbestligini içine almaqta.\nEr kes raatlanmaq, eglenmek, şu cümleden iş saatleriniñ aqılane sıñırlanması ve ödenilgen devriy tatil aqqına maliktir."
+}

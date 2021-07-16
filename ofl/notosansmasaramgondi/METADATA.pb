@@ -15,9 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "masaram-gondi"
 is_noto: true
-languages: "esg"  # Aheri Gondi
+languages: "esg_Gonm"  # Aheri Gondi
 languages: "gon_Gonm"  # Gondi, Masaram Gondi
-languages: "wsg"  # Adilabad Gondi
+languages: "wsg_Gonm"  # Adilabad Gondi
 sample_glyphs {
   key: "Close Punctuation"
   value: ")"

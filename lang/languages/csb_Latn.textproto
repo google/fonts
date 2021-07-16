@@ -1,0 +1,12 @@
+id: "csb_Latn"
+language: "csb"
+script: "Latn"
+name: "Kashubian"
+autonym: "Kaszëbsczi"
+population: 49766
+region: "PL"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã É Ë Ò Ó Ô Ù Ą Ę Ł Ń Ś Ż a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż"
+  marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̇ ◌̈ ◌̨"
+}
+historical: true

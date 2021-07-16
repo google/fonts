@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "saurashtra"
 is_noto: true
-languages: "saz"  # Saurashtra
+languages: "saz_Saur"  # Saurashtra
 sample_glyphs {
   key: "Saurashtra Decimal Numbers"
   value: "꣐ ꣑ ꣒ ꣓ ꣔ ꣕ ꣖ ꣗ ꣘ ꣙"

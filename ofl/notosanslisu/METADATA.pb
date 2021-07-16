@@ -20,7 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "lis"  # Lisu
+languages: "lis_Lisu"  # Lisu
 sample_glyphs {
   key: "Close Punctuation"
   value: "》"

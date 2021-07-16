@@ -1,0 +1,11 @@
+id: "vro_Latn"
+language: "vro"
+script: "Latn"
+name: "Võro"
+autonym: "Võro"
+population: 70031
+region: "EE"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž \'"
+  marks: "◌̃ ◌̈ ◌̌"
+}

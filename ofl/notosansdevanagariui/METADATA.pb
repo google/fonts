@@ -87,13 +87,13 @@ fonts {
 subsets: "devanagari"
 subsets: "menu"
 is_noto: true
-languages: "awa"  # Awadhi
-languages: "bho"  # Bhojpuri
-languages: "dty"  # Dotyali
-languages: "gom"  # Goan Konkani
-languages: "mag"  # Magahi
-languages: "taj"  # Eastern Tamang
-languages: "xnr"  # Kangri
+languages: "awa_Deva"  # Awadhi
+languages: "bho_Deva"  # Bhojpuri
+languages: "dty_Deva"  # Dotyali
+languages: "gom_Deva"  # Goan Konkani
+languages: "mag_Deva"  # Magahi
+languages: "taj_Deva"  # Eastern Tamang
+languages: "xnr_Deva"  # Kangri
 sample_glyphs {
   key: "Close Punctuation"
   value: ") ] }"

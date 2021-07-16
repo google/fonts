@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "imperial-aramaic"
 is_noto: true
-languages: "arc"  # Aramaic
+languages: "arc_Armi"  # Aramaic
 sample_glyphs {
   key: "Imperial Aramaic Letters"
   value: "𐡀 𐡁 𐡂 𐡃 𐡄 𐡅 𐡆 𐡇 𐡈 𐡉 𐡊 𐡋 𐡌 𐡍 𐡎 𐡏 𐡐 𐡑 𐡒 𐡓 𐡔 𐡕"

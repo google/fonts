@@ -87,70 +87,70 @@ fonts {
 subsets: "devanagari"
 subsets: "menu"
 is_noto: true
-languages: "anp"  # Angika
-languages: "awa"  # Awadhi
-languages: "bap"  # Bantawa
-languages: "bfy"  # Bagheli
-languages: "bgc"  # Haryanvi
-languages: "bhb"  # Bhili
-languages: "bhi"  # Bhilali
-languages: "bho"  # Bhojpuri
-languages: "bjj"  # Kanauji
-languages: "bra"  # Braj
-languages: "brx"  # Bodo
-languages: "btv"  # Bateri
-languages: "dty"  # Dotyali
-languages: "gbm"  # Garhwali
-languages: "ggn"  # Eastern Gurung
-languages: "gom"  # Goan Konkani
-languages: "gon"  # Gondi
-languages: "gvr"  # Gurung
-languages: "hi"  # Hindi
-languages: "hif"  # Fiji Hindi
-languages: "hne"  # Chhattisgarhi
-languages: "hoc"  # Ho
-languages: "hoj"  # Hadothi
-languages: "jml"  # Jumli
-languages: "kfr"  # Kachhi
-languages: "kfy"  # Kumaoni
-languages: "khn"  # Khandesi
-languages: "kok"  # Konkani
-languages: "kru"  # Kurukh
+languages: "anp_Deva"  # Angika
+languages: "awa_Deva"  # Awadhi
+languages: "bap_Deva"  # Bantawa
+languages: "bfy_Deva"  # Bagheli
+languages: "bgc_Deva"  # Haryanvi
+languages: "bhb_Deva"  # Bhili
+languages: "bhi_Deva"  # Bhilali
+languages: "bho_Deva"  # Bhojpuri
+languages: "bjj_Deva"  # Kanauji
+languages: "bra_Deva"  # Braj
+languages: "brx_Deva"  # Bodo
+languages: "btv_Deva"  # Bateri
+languages: "dty_Deva"  # Dotyali
+languages: "gbm_Deva"  # Garhwali
+languages: "ggn_Deva"  # Eastern Gurung
+languages: "gom_Deva"  # Goan Konkani
+languages: "gon_Deva"  # Gondi
+languages: "gvr_Deva"  # Gurung
+languages: "hi_Deva"  # Hindi
+languages: "hif_Deva"  # Fiji Hindi
+languages: "hne_Deva"  # Chhattisgarhi
+languages: "hoc_Deva"  # Ho
+languages: "hoj_Deva"  # Hadothi
+languages: "jml_Deva"  # Jumli
+languages: "kfr_Deva"  # Kachhi
+languages: "kfy_Deva"  # Kumaoni
+languages: "khn_Deva"  # Khandesi
+languages: "kok_Deva"  # Konkani
+languages: "kru_Deva"  # Kurukh
 languages: "ks_Deva"  # Kashmiri, Devanagari
-languages: "lif"  # Limbu
-languages: "mag"  # Magahi
-languages: "mai"  # Maithili
-languages: "mgp"  # Eastern Magar
-languages: "mr"  # Marathi
-languages: "mrd"  # Western Magar
-languages: "mtr"  # Mewari
-languages: "mwr"  # Marwari
-languages: "ne"  # Nepali
-languages: "new"  # Newari
-languages: "noe"  # Nimadi
-languages: "pi"  # Pali
-languages: "raj"  # Rajasthani
-languages: "rjs"  # Rajbanshi
-languages: "sa"  # Sanskrit
+languages: "lif_Deva"  # Limbu
+languages: "mag_Deva"  # Magahi
+languages: "mai_Deva"  # Maithili
+languages: "mgp_Deva"  # Eastern Magar
+languages: "mr_Deva"  # Marathi
+languages: "mrd_Deva"  # Western Magar
+languages: "mtr_Deva"  # Mewari
+languages: "mwr_Deva"  # Marwari
+languages: "ne_Deva"  # Nepali
+languages: "new_Deva"  # Newari
+languages: "noe_Deva"  # Nimadi
+languages: "pi_Deva"  # Pali
+languages: "raj_Deva"  # Rajasthani
+languages: "rjs_Deva"  # Rajbanshi
+languages: "sa_Deva"  # Sanskrit
 languages: "sat_Deva"  # Santali, Devanagari
-languages: "sck"  # Sadri
+languages: "sck_Deva"  # Sadri
 languages: "sd_Deva"  # Sindhi (Devanagari)
-languages: "srx"  # Sirmauri
-languages: "swv"  # Shekhawati
-languages: "taj"  # Eastern Tamang
-languages: "tdg"  # Western Tamang
-languages: "tdh"  # Thulung
-languages: "thl"  # Dangaura Tharu
-languages: "thq"  # Kochila Tharu
-languages: "thr"  # Rana Tharu
-languages: "tkt"  # Kathoriya Tharu
-languages: "tsf"  # Southwestern Tamang
+languages: "srx_Deva"  # Sirmauri
+languages: "swv_Deva"  # Shekhawati
+languages: "taj_Deva"  # Eastern Tamang
+languages: "tdg_Deva"  # Western Tamang
+languages: "tdh_Deva"  # Thulung
+languages: "thl_Deva"  # Dangaura Tharu
+languages: "thq_Deva"  # Kochila Tharu
+languages: "thr_Deva"  # Rana Tharu
+languages: "tkt_Deva"  # Kathoriya Tharu
+languages: "tsf_Deva"  # Southwestern Tamang
 languages: "unr_Deva"  # Mundari (Devanagari)
 languages: "unx_Deva"  # Munda, Devanagari
-languages: "wbr"  # Wagdi
-languages: "wtm"  # Mewati
-languages: "xnr"  # Kangri
-languages: "xsr"  # Sherpa
+languages: "wbr_Deva"  # Wagdi
+languages: "wtm_Deva"  # Mewati
+languages: "xnr_Deva"  # Kangri
+languages: "xsr_Deva"  # Sherpa
 sample_glyphs {
   key: "Close Punctuation"
   value: ") ] }"

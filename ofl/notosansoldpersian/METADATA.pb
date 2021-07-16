@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "old-persian"
 is_noto: true
-languages: "peo"  # Old Persian
+languages: "peo_Xpeo"  # Old Persian
 sample_glyphs {
   key: "Old Persian Letter Numbers"
   value: "𐏑 𐏒 𐏓 𐏔 𐏕"

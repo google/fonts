@@ -21,16 +21,16 @@ axes {
 }
 is_noto: true
 languages: "chp_Cans"  # Chipewyan, Unified Canadian Aboriginal Syllabics
-languages: "cr"  # Cree
-languages: "crj"  # Southern East Cree
-languages: "crk"  # Plains Cree
-languages: "crl"  # Northern East Cree
-languages: "crm"  # Moose Cree
-languages: "csw"  # Swampy Cree
+languages: "cr_Cans"  # Cree
+languages: "crj_Cans"  # Southern East Cree
+languages: "crk_Cans"  # Plains Cree
+languages: "crl_Cans"  # Northern East Cree
+languages: "crm_Cans"  # Moose Cree
+languages: "csw_Cans"  # Swampy Cree
 languages: "den_Cans"  # Slave, Unified Canadian Aboriginal Syllabics
-languages: "iu"  # Inuktitut
-languages: "nsk"  # Naskapi
-languages: "oj"  # Ojibwa
+languages: "iu_Cans"  # Inuktitut
+languages: "nsk_Cans"  # Naskapi
+languages: "oj_Cans"  # Ojibwa
 sample_glyphs {
   key: "Canadian Aboriginal Dash Punctuation"
   value: "᐀"

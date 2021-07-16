@@ -1,0 +1,16 @@
+id: "fil_Latn"
+language: "fil"
+script: "Latn"
+name: "Filipino"
+autonym: "Filipino"
+population: 66905683
+region: "PH"
+region: "US"
+exemplar_chars {
+  base: "a b c d e f g h i j k l m n ñ {ng} o p q r s t u v w x y z {ng} {ng} {ng} {ng} {ng} {ng} {ng} {ng} {ng} {ng} {ng} {ng} {ng} {ng} {ng}"
+  auxiliary: "á à â é è ê í ì î ó ò ô ú ù û"
+  marks: "◌̃"
+  numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] § * / & # ′ ″"
+  index: "A B C D E F G H I J K L M N Ñ {Ng} O P Q R S T U V W X Y Z {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng}"
+}

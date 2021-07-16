@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "inscriptional-parthian"
 is_noto: true
-languages: "xpr"  # Parthian
+languages: "xpr_Prti"  # Parthian
 sample_glyphs {
   key: "Inscriptional Parthian Letters"
   value: "𐭀 𐭁 𐭂 𐭃 𐭄 𐭅 𐭆 𐭇 𐭈 𐭉 𐭊 𐭋 𐭌 𐭍 𐭎 𐭏 𐭐 𐭑 𐭒 𐭓 𐭔 𐭕"

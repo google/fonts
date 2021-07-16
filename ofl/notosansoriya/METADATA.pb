@@ -42,7 +42,7 @@ fonts {
 subsets: "menu"
 subsets: "oriya"
 is_noto: true
-languages: "or"  # Odia
+languages: "or_Orya"  # Odia
 languages: "sat_Orya"  # Santali, Odia
 sample_glyphs {
   key: "Close Punctuation"

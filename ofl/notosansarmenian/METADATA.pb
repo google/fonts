@@ -25,7 +25,7 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "hy"  # Armenian
+languages: "hy_Armn"  # Armenian
 sample_glyphs {
   key: "Armenian Currency Symbols"
   value: "֏"

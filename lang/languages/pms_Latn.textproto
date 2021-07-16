@@ -1,0 +1,11 @@
+id: "pms_Latn"
+language: "pms"
+script: "Latn"
+name: "Piedmontese"
+autonym: "Piemontèis"
+population: 6177
+region: "IT"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ä È Ë Ì Ï Ò Ö Ù Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à ä è ë ì ï ò ö ù ü"
+  marks: "◌̀ ◌̈"
+}

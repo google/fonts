@@ -31,582 +31,582 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "aa"  # Afar
-languages: "ab"  # Abkhazian
-languages: "abq"  # Abaza
-languages: "abr"  # Abron
-languages: "ace"  # Achinese
-languages: "ach"  # Acoli
-languages: "ada"  # Adangme
-languages: "ady"  # Adyghe
-languages: "af"  # Afrikaans
-languages: "agq"  # Aghem
-languages: "aii"  # Assyrian Neo-Aramaic
+languages: "aa_Latn"  # Afar
+languages: "ab_Cyrl"  # Abkhazian
+languages: "abq_Cyrl"  # Abaza
+languages: "abr_Latn"  # Abron
+languages: "ace_Latn"  # Achinese
+languages: "ach_Latn"  # Acoli
+languages: "ada_Latn"  # Adangme
+languages: "ady_Cyrl"  # Adyghe
+languages: "af_Latn"  # Afrikaans
+languages: "agq_Latn"  # Aghem
+languages: "aii_Cyrl"  # Assyrian Neo-Aramaic
 languages: "ain_Latn"  # Ainu, Latin
-languages: "ak"  # Akan
-languages: "akz"  # Alabama
-languages: "ale"  # Aleut
-languages: "aln"  # Gheg Albanian
-languages: "alt"  # Southern Altai
-languages: "amo"  # Amo
-languages: "an"  # Aragonese
-languages: "ang"  # Old English
-languages: "aoz"  # Uab Meto
-languages: "arn"  # Mapuche
-languages: "aro"  # Araona
-languages: "arp"  # Arapaho
-languages: "arw"  # Arawak
-languages: "asa"  # Asu
-languages: "ast"  # Asturian
-languages: "atj"  # Atikamekw
-languages: "av"  # Avaric
-languages: "avk"  # Kotava
-languages: "ay"  # Aymara
-languages: "az"  # Azerbaijani
+languages: "ak_Latn"  # Akan
+languages: "akz_Latn"  # Alabama
+languages: "ale_Latn"  # Aleut
+languages: "aln_Latn"  # Gheg Albanian
+languages: "alt_Cyrl"  # Southern Altai
+languages: "amo_Latn"  # Amo
+languages: "an_Latn"  # Aragonese
+languages: "ang_Latn"  # Old English
+languages: "aoz_Latn"  # Uab Meto
+languages: "arn_Latn"  # Mapuche
+languages: "aro_Latn"  # Araona
+languages: "arp_Latn"  # Arapaho
+languages: "arw_Latn"  # Arawak
+languages: "asa_Latn"  # Asu
+languages: "ast_Latn"  # Asturian
+languages: "atj_Latn"  # Atikamekw
+languages: "av_Cyrl"  # Avaric
+languages: "avk_Latn"  # Kotava
+languages: "ay_Latn"  # Aymara
+languages: "az_Latn"  # Azerbaijani
 languages: "az_Cyrl"  # Azerbaijani (Cyrillic)
-languages: "ba"  # Bashkir
+languages: "ba_Cyrl"  # Bashkir
 languages: "bal_Latn"  # Baluchi, Latin
-languages: "ban"  # Balinese
-languages: "bar"  # Bavarian
-languages: "bas"  # Basaa
-languages: "bbc"  # Batak Toba
-languages: "bbj"  # Ghomala
-languages: "bci"  # Baoulé
-languages: "be"  # Belarusian
-languages: "bem"  # Bemba
+languages: "ban_Latn"  # Balinese
+languages: "bar_Latn"  # Bavarian
+languages: "bas_Latn"  # Basaa
+languages: "bbc_Latn"  # Batak Toba
+languages: "bbj_Latn"  # Ghomala
+languages: "bci_Latn"  # Baoulé
+languages: "be_Cyrl"  # Belarusian
+languages: "bem_Latn"  # Bemba
 languages: "ber_Latn"  # Berber, Latin
-languages: "bew"  # Betawi
-languages: "bez"  # Bena
-languages: "bfd"  # Bafut
-languages: "bg"  # Bulgarian
-languages: "bhk"  # Albay Bikol
-languages: "bi"  # Bislama
-languages: "bik"  # Bikol
-languages: "bin"  # Bini
-languages: "bjn"  # Banjar
-languages: "bkm"  # Kom
-languages: "bku"  # Buhid
-languages: "bla"  # Siksika
-languages: "bm"  # Bambara
-languages: "bmq"  # Bomu
-languages: "bqv"  # Koro Wachi
-languages: "br"  # Breton
+languages: "bew_Latn"  # Betawi
+languages: "bez_Latn"  # Bena
+languages: "bfd_Latn"  # Bafut
+languages: "bg_Cyrl"  # Bulgarian
+languages: "bhk_Latn"  # Albay Bikol
+languages: "bi_Latn"  # Bislama
+languages: "bik_Latn"  # Bikol
+languages: "bin_Latn"  # Bini
+languages: "bjn_Latn"  # Banjar
+languages: "bkm_Latn"  # Kom
+languages: "bku_Latn"  # Buhid
+languages: "bla_Latn"  # Siksika
+languages: "bm_Latn"  # Bambara
+languages: "bmq_Latn"  # Bomu
+languages: "bqv_Latn"  # Koro Wachi
+languages: "br_Latn"  # Breton
 languages: "brh_Latn"  # Brahui, Latin
-languages: "bs"  # Bosnian
+languages: "bs_Latn"  # Bosnian
 languages: "bs_Cyrl"  # Bosnian (Cyrillic)
-languages: "bss"  # Akoose
-languages: "bto"  # Rinconada Bikol
-languages: "bua"  # Buriat
-languages: "buc"  # Bushi
-languages: "bug"  # Buginese
-languages: "bum"  # Bulu
-languages: "bvb"  # Bube
-languages: "byv"  # Medumba
-languages: "bze"  # Jenaama Bozo
-languages: "bzx"  # Bozo, Hainyaxo
-languages: "ca"  # Catalan
-languages: "cad"  # Caddo
-languages: "car"  # Carib
-languages: "cay"  # Cayuga
-languages: "cch"  # Atsam
-languages: "ce"  # Chechen
-languages: "ceb"  # Cebuano
-languages: "cgg"  # Chiga
-languages: "ch"  # Chamorro
-languages: "chk"  # Chuukese
-languages: "chm"  # Mari
-languages: "chn"  # Chinook Jargon
-languages: "cho"  # Choctaw
-languages: "chp"  # Chipewyan
-languages: "chy"  # Cheyenne
-languages: "cjs"  # Shor
-languages: "ckt"  # Chukot
-languages: "co"  # Corsican
-languages: "cpf"  # French-based Creoles
-languages: "cps"  # Capiznon
+languages: "bss_Latn"  # Akoose
+languages: "bto_Latn"  # Rinconada Bikol
+languages: "bua_Cyrl"  # Buriat
+languages: "buc_Latn"  # Bushi
+languages: "bug_Latn"  # Buginese
+languages: "bum_Latn"  # Bulu
+languages: "bvb_Latn"  # Bube
+languages: "byv_Latn"  # Medumba
+languages: "bze_Latn"  # Jenaama Bozo
+languages: "bzx_Latn"  # Bozo, Hainyaxo
+languages: "ca_Latn"  # Catalan
+languages: "cad_Latn"  # Caddo
+languages: "car_Latn"  # Carib
+languages: "cay_Latn"  # Cayuga
+languages: "cch_Latn"  # Atsam
+languages: "ce_Cyrl"  # Chechen
+languages: "ceb_Latn"  # Cebuano
+languages: "cgg_Latn"  # Chiga
+languages: "ch_Latn"  # Chamorro
+languages: "chk_Latn"  # Chuukese
+languages: "chm_Cyrl"  # Mari
+languages: "chn_Latn"  # Chinook Jargon
+languages: "cho_Latn"  # Choctaw
+languages: "chp_Latn"  # Chipewyan
+languages: "chy_Latn"  # Cheyenne
+languages: "cjs_Cyrl"  # Shor
+languages: "ckt_Cyrl"  # Chukot
+languages: "co_Latn"  # Corsican
+languages: "cpf_Latn"  # French-based Creoles
+languages: "cps_Latn"  # Capiznon
 languages: "cr_Latn"  # Cree, Latin
-languages: "crh"  # Crimean Turkish
+languages: "crh_Cyrl"  # Crimean Turkish
 languages: "crh_Latn"  # Crimean Turkish
 languages: "crj_Latn"  # Southern East Cree, Latin
 languages: "crl_Latn"  # Northern East Cree, Latin
-languages: "crs"  # Seselwa Creole French
-languages: "cs"  # Czech
-languages: "csb"  # Kashubian
-languages: "ctd"  # Tedim Chin
-languages: "cu"  # Church Slavic
-languages: "cv"  # Chuvash
-languages: "cy"  # Welsh
-languages: "da"  # Danish
-languages: "dak"  # Dakota
-languages: "dar"  # Dargwa
-languages: "dav"  # Taita
-languages: "de"  # German
-languages: "del"  # Delaware
-languages: "den"  # Slave
-languages: "dgr"  # Dogrib
-languages: "din"  # Dinka
-languages: "dje"  # Zarma
-languages: "dng"  # Dungan
-languages: "dnj"  # Dan
-languages: "dsb"  # Lower Sorbian
-languages: "dtm"  # Tomo Kan Dogon
-languages: "dtp"  # Central Dusun
-languages: "dua"  # Duala
-languages: "dum"  # Middle Dutch
-languages: "dyo"  # Jola-Fonyi
-languages: "dyu"  # Dyula
-languages: "ebu"  # Embu
-languages: "ee"  # Ewe
-languages: "efi"  # Efik
-languages: "egl"  # Emilian
-languages: "eka"  # Ekajuk
-languages: "el"  # Greek
-languages: "en"  # English
-languages: "enm"  # Middle English
-languages: "eo"  # Esperanto
-languages: "es"  # Spanish
-languages: "esu"  # Central Yupik
-languages: "et"  # Estonian
+languages: "crs_Latn"  # Seselwa Creole French
+languages: "cs_Latn"  # Czech
+languages: "csb_Latn"  # Kashubian
+languages: "ctd_Latn"  # Tedim Chin
+languages: "cu_Cyrl"  # Church Slavic
+languages: "cv_Cyrl"  # Chuvash
+languages: "cy_Latn"  # Welsh
+languages: "da_Latn"  # Danish
+languages: "dak_Latn"  # Dakota
+languages: "dar_Cyrl"  # Dargwa
+languages: "dav_Latn"  # Taita
+languages: "de_Latn"  # German
+languages: "del_Latn"  # Delaware
+languages: "den_Latn"  # Slave
+languages: "dgr_Latn"  # Dogrib
+languages: "din_Latn"  # Dinka
+languages: "dje_Latn"  # Zarma
+languages: "dng_Cyrl"  # Dungan
+languages: "dnj_Latn"  # Dan
+languages: "dsb_Latn"  # Lower Sorbian
+languages: "dtm_Latn"  # Tomo Kan Dogon
+languages: "dtp_Latn"  # Central Dusun
+languages: "dua_Latn"  # Duala
+languages: "dum_Latn"  # Middle Dutch
+languages: "dyo_Latn"  # Jola-Fonyi
+languages: "dyu_Latn"  # Dyula
+languages: "ebu_Latn"  # Embu
+languages: "ee_Latn"  # Ewe
+languages: "efi_Latn"  # Efik
+languages: "egl_Latn"  # Emilian
+languages: "eka_Latn"  # Ekajuk
+languages: "el_Grek"  # Greek
+languages: "en_Latn"  # English
+languages: "enm_Latn"  # Middle English
+languages: "eo_Latn"  # Esperanto
+languages: "es_Latn"  # Spanish
+languages: "esu_Latn"  # Central Yupik
+languages: "et_Latn"  # Estonian
 languages: "ett_Latn"  # Etruscan, Latin
-languages: "eu"  # Basque
+languages: "eu_Latn"  # Basque
 languages: "evn_Latn"  # Evenki
-languages: "ewo"  # Ewondo
-languages: "ext"  # Extremaduran
-languages: "fan"  # Fang
-languages: "fbl"  # West Albay Bikol
-languages: "ff"  # Fulah
-languages: "ffm"  # Maasina Fulfulde
-languages: "fi"  # Finnish
-languages: "fil"  # Filipino
-languages: "fit"  # Tornedalen Finnish
-languages: "fj"  # Fijian
-languages: "fo"  # Faroese
-languages: "fon"  # Fon
-languages: "fr"  # French
-languages: "frc"  # Cajun French
-languages: "frm"  # Middle French
-languages: "fro"  # Old French
-languages: "frp"  # Arpitan
-languages: "frr"  # Northern Frisian
-languages: "frs"  # Eastern Frisian
-languages: "fud"  # East Futuna
-languages: "fuq"  # Central-Eastern Niger Fulfulde
-languages: "fur"  # Friulian
-languages: "fuv"  # Nigerian Fulfulde
-languages: "fy"  # Western Frisian
-languages: "ga"  # Irish
-languages: "gaa"  # Ga
-languages: "gag"  # Gagauz
+languages: "ewo_Latn"  # Ewondo
+languages: "ext_Latn"  # Extremaduran
+languages: "fan_Latn"  # Fang
+languages: "_Latn"  # West Albay Bikol
+languages: "ff_Latn"  # Fulah
+languages: "ffm_Latn"  # Maasina Fulfulde
+languages: "fi_Latn"  # Finnish
+languages: "fil_Latn"  # Filipino
+languages: "fit_Latn"  # Tornedalen Finnish
+languages: "fj_Latn"  # Fijian
+languages: "fo_Latn"  # Faroese
+languages: "fon_Latn"  # Fon
+languages: "fr_Latn"  # French
+languages: "frc_Latn"  # Cajun French
+languages: "frm_Latn"  # Middle French
+languages: "fro_Latn"  # Old French
+languages: "frp_Latn"  # Arpitan
+languages: "frr_Latn"  # Northern Frisian
+languages: "frs_Latn"  # Eastern Frisian
+languages: "fud_Latn"  # East Futuna
+languages: "fuq_Latn"  # Central-Eastern Niger Fulfulde
+languages: "fur_Latn"  # Friulian
+languages: "fuv_Latn"  # Nigerian Fulfulde
+languages: "fy_Latn"  # Western Frisian
+languages: "ga_Latn"  # Irish
+languages: "gaa_Latn"  # Ga
+languages: "gag_Latn"  # Gagauz
 languages: "gag_Cyrl"  # Gagauz, Cyrillic
-languages: "gay"  # Gayo
-languages: "gba"  # Gbaya
-languages: "gcr"  # Guianese Creole French
-languages: "gd"  # Scottish Gaelic
+languages: "gay_Latn"  # Gayo
+languages: "gba_Latn"  # Gbaya
+languages: "gcr_Latn"  # Guianese Creole French
+languages: "gd_Latn"  # Scottish Gaelic
 languages: "ggn_Latn"  # Eastern Gurung, Latin
-languages: "gil"  # Gilbertese
-languages: "gl"  # Galician
-languages: "gmh"  # Middle High German
-languages: "gn"  # Guarani
-languages: "goh"  # Old High German
-languages: "gor"  # Gorontalo
-languages: "gos"  # Gronings
-languages: "grb"  # Grebo
+languages: "gil_Latn"  # Gilbertese
+languages: "gl_Latn"  # Galician
+languages: "gmh_Latn"  # Middle High German
+languages: "gn_Latn"  # Guarani
+languages: "goh_Latn"  # Old High German
+languages: "gor_Latn"  # Gorontalo
+languages: "gos_Latn"  # Gronings
+languages: "grb_Latn"  # Grebo
 languages: "grc_Grek"  # Ancient Greek, Greek
-languages: "gsw"  # Swiss German
-languages: "gub"  # Guajajára
-languages: "guc"  # Wayuu
-languages: "gur"  # Frafra
-languages: "guz"  # Gusii
-languages: "gv"  # Manx
-languages: "gwi"  # Gwichʼin
-languages: "ha"  # Hausa
-languages: "hai"  # Haida
+languages: "gsw_Latn"  # Swiss German
+languages: "gub_Latn"  # Guajajára
+languages: "guc_Latn"  # Wayuu
+languages: "gur_Latn"  # Frafra
+languages: "guz_Latn"  # Gusii
+languages: "gv_Latn"  # Manx
+languages: "gwi_Latn"  # Gwichʼin
+languages: "ha_Latn"  # Hausa
+languages: "hai_Latn"  # Haida
 languages: "hak_Latn"  # Hakka Chinese, Latin
-languages: "haw"  # Hawaiian
+languages: "haw_Latn"  # Hawaiian
 languages: "hif_Latn"  # Fiji Hindi, Latin
-languages: "hil"  # Hiligaynon
-languages: "hmn"  # Hmong
+languages: "hil_Latn"  # Hiligaynon
+languages: "hmn_Latn"  # Hmong
 languages: "hnj_Latn"  # Hmong Njua
-languages: "hnn"  # Hanunoo
-languages: "ho"  # Hiri Motu
-languages: "hop"  # Hopi
-languages: "hr"  # Croatian
-languages: "hsb"  # Upper Sorbian
-languages: "ht"  # Haitian Creole
-languages: "hu"  # Hungarian
-languages: "hup"  # Hupa
-languages: "hz"  # Herero
-languages: "ia"  # Interlingua
-languages: "iba"  # Iban
-languages: "ibb"  # Ibibio
-languages: "id"  # Indonesian
-languages: "ig"  # Igbo
+languages: "hnn_Latn"  # Hanunoo
+languages: "ho_Latn"  # Hiri Motu
+languages: "hop_Latn"  # Hopi
+languages: "hr_Latn"  # Croatian
+languages: "hsb_Latn"  # Upper Sorbian
+languages: "ht_Latn"  # Haitian Creole
+languages: "hu_Latn"  # Hungarian
+languages: "hup_Latn"  # Hupa
+languages: "hz_Latn"  # Herero
+languages: "ia_Latn"  # Interlingua
+languages: "iba_Latn"  # Iban
+languages: "ibb_Latn"  # Ibibio
+languages: "id_Latn"  # Indonesian
+languages: "ig_Latn"  # Igbo
 languages: "ii_Latn"  # Sichuan Yi, Latin
-languages: "ik"  # Inupiaq
-languages: "ikt"  # Inuinnaqtun
-languages: "ilo"  # Iloko
-languages: "inh"  # Ingush
+languages: "ik_Latn"  # Inupiaq
+languages: "ikt_Latn"  # Inuinnaqtun
+languages: "ilo_Latn"  # Iloko
+languages: "inh_Cyrl"  # Ingush
 languages: "inh_Latn"  # Ingush, Latin
-languages: "is"  # Icelandic
-languages: "it"  # Italian
+languages: "is_Latn"  # Icelandic
+languages: "it_Latn"  # Italian
 languages: "iu_Latn"  # Inuktitut (Latin)
-languages: "izh"  # Ingrian
-languages: "jam"  # Jamaican Creole English
-languages: "jgo"  # Ngomba
-languages: "jmc"  # Machame
-languages: "jut"  # Jutish
-languages: "jv"  # Javanese
-languages: "kaa"  # Kara-Kalpak
-languages: "kab"  # Kabyle
-languages: "kac"  # Kachin
-languages: "kaj"  # Jju
-languages: "kam"  # Kamba
-languages: "kao"  # Xaasongaxango
-languages: "kbd"  # Kabardian
-languages: "kca"  # Khanty
-languages: "kcg"  # Tyap
-languages: "kck"  # Kalanga
-languages: "kde"  # Makonde
-languages: "kea"  # Kabuverdianu
-languages: "kfo"  # Koro
-languages: "kg"  # Kongo
-languages: "kge"  # Komering
-languages: "kgp"  # Kaingang
-languages: "kha"  # Khasi
-languages: "khq"  # Koyra Chiini
-languages: "ki"  # Kikuyu
-languages: "kiu"  # Kirmanjki
-languages: "kj"  # Kuanyama
+languages: "izh_Latn"  # Ingrian
+languages: "jam_Latn"  # Jamaican Creole English
+languages: "jgo_Latn"  # Ngomba
+languages: "jmc_Latn"  # Machame
+languages: "jut_Latn"  # Jutish
+languages: "jv_Latn"  # Javanese
+languages: "kaa_Cyrl"  # Kara-Kalpak
+languages: "kab_Latn"  # Kabyle
+languages: "kac_Latn"  # Kachin
+languages: "kaj_Latn"  # Jju
+languages: "kam_Latn"  # Kamba
+languages: "kao_Latn"  # Xaasongaxango
+languages: "kbd_Cyrl"  # Kabardian
+languages: "kca_Cyrl"  # Khanty
+languages: "kcg_Latn"  # Tyap
+languages: "kck_Latn"  # Kalanga
+languages: "kde_Latn"  # Makonde
+languages: "kea_Latn"  # Kabuverdianu
+languages: "kfo_Latn"  # Koro
+languages: "kg_Latn"  # Kongo
+languages: "kge_Latn"  # Komering
+languages: "kgp_Latn"  # Kaingang
+languages: "kha_Latn"  # Khasi
+languages: "khq_Latn"  # Koyra Chiini
+languages: "ki_Latn"  # Kikuyu
+languages: "kiu_Latn"  # Kirmanjki
+languages: "kj_Latn"  # Kuanyama
 languages: "kjg_Latn"  # Khmu, Latin
-languages: "kjh"  # Khakas
-languages: "kk"  # Kazakh
-languages: "kkj"  # Kako
-languages: "kl"  # Kalaallisut
-languages: "kln"  # Kalenjin
-languages: "kmb"  # Kimbundu
-languages: "koi"  # Komi-Permyak
-languages: "kos"  # Kosraean
-languages: "kpe"  # Kpelle
-languages: "kpy"  # Koryak
-languages: "kr"  # Kanuri
-languages: "krc"  # Karachay-Balkar
-languages: "kri"  # Krio
-languages: "krj"  # Kinaray-a
-languages: "krl"  # Karelian
-languages: "ksb"  # Shambala
-languages: "ksf"  # Bafia
-languages: "ksh"  # Colognian
-languages: "ku"  # Kurdish
+languages: "kjh_Cyrl"  # Khakas
+languages: "kk_Cyrl"  # Kazakh
+languages: "kkj_Latn"  # Kako
+languages: "kl_Latn"  # Kalaallisut
+languages: "kln_Latn"  # Kalenjin
+languages: "kmb_Latn"  # Kimbundu
+languages: "koi_Cyrl"  # Komi-Permyak
+languages: "kos_Latn"  # Kosraean
+languages: "kpe_Latn"  # Kpelle
+languages: "kpy_Cyrl"  # Koryak
+languages: "kr_Latn"  # Kanuri
+languages: "krc_Cyrl"  # Karachay-Balkar
+languages: "kri_Latn"  # Krio
+languages: "krj_Latn"  # Kinaray-a
+languages: "krl_Latn"  # Karelian
+languages: "ksb_Latn"  # Shambala
+languages: "ksf_Latn"  # Bafia
+languages: "ksh_Latn"  # Colognian
+languages: "ku_Cyrl"  # Kurdish
 languages: "ku_Latn"  # Kurdish, Latin
-languages: "kum"  # Kumyk
-languages: "kut"  # Kutenai
-languages: "kv"  # Komi
-languages: "kvr"  # Kerinci
-languages: "kw"  # Cornish
-languages: "ky"  # Kyrgyz
+languages: "kum_Cyrl"  # Kumyk
+languages: "kut_Latn"  # Kutenai
+languages: "kv_Cyrl"  # Komi
+languages: "kvr_Latn"  # Kerinci
+languages: "kw_Latn"  # Cornish
+languages: "ky_Cyrl"  # Kyrgyz
 languages: "ky_Latn"  # Kyrgyz (Latin)
-languages: "la"  # Latin
+languages: "la_Latn"  # Latin
 languages: "lad_Latn"  # Ladino
-languages: "lag"  # Langi
-languages: "laj"  # Lango [Uganda]
-languages: "lam"  # Lamba
-languages: "lb"  # Luxembourgish
-languages: "lbe"  # Lak
-languages: "lbw"  # Tolaki
-languages: "lez"  # Lezghian
+languages: "lag_Latn"  # Langi
+languages: "laj_Latn"  # Lango [Uganda]
+languages: "lam_Latn"  # Lamba
+languages: "lb_Latn"  # Luxembourgish
+languages: "lbe_Cyrl"  # Lak
+languages: "lbw_Latn"  # Tolaki
+languages: "lez_Cyrl"  # Lezghian
 languages: "lfn_Latn"  # Lingua Franca Nova, Latin
-languages: "lg"  # Ganda
-languages: "li"  # Limburgish
-languages: "lij"  # Ligurian
-languages: "liv"  # Livonian
-languages: "ljp"  # Lampung Api
-languages: "lkt"  # Lakota
-languages: "lmo"  # Lombard
-languages: "ln"  # Lingala
-languages: "lol"  # Mongo
-languages: "loz"  # Lozi
-languages: "lt"  # Lithuanian
-languages: "ltg"  # Latgalian
-languages: "lu"  # Luba-Katanga
-languages: "lua"  # Luba-Lulua
-languages: "lui"  # Luiseno
-languages: "lun"  # Lunda
-languages: "luo"  # Luo
+languages: "lg_Latn"  # Ganda
+languages: "li_Latn"  # Limburgish
+languages: "lij_Latn"  # Ligurian
+languages: "liv_Latn"  # Livonian
+languages: "ljp_Latn"  # Lampung Api
+languages: "lkt_Latn"  # Lakota
+languages: "lmo_Latn"  # Lombard
+languages: "ln_Latn"  # Lingala
+languages: "lol_Latn"  # Mongo
+languages: "loz_Latn"  # Lozi
+languages: "lt_Latn"  # Lithuanian
+languages: "ltg_Latn"  # Latgalian
+languages: "lu_Latn"  # Luba-Katanga
+languages: "lua_Latn"  # Luba-Lulua
+languages: "lui_Latn"  # Luiseno
+languages: "lun_Latn"  # Lunda
+languages: "luo_Latn"  # Luo
 languages: "lus_Latn"  # Mizo
-languages: "lut"  # Lushootseed
-languages: "luy"  # Luyia
-languages: "lv"  # Latvian
+languages: "lut_Latn"  # Lushootseed
+languages: "luy_Latn"  # Luyia
+languages: "lv_Latn"  # Latvian
 languages: "lzz_Latn"  # Laz, Latin
-languages: "mad"  # Madurese
-languages: "maf"  # Mafa
-languages: "mak"  # Makasar
-languages: "man"  # Mandingo
-languages: "mas"  # Masai
-languages: "maz"  # Central Mazahua
-languages: "mdf"  # Moksha
-languages: "mdh"  # Maguindanaon
-languages: "mdr"  # Mandar
-languages: "mdt"  # Mbere
-languages: "men"  # Mende
-languages: "mer"  # Meru
-languages: "mfe"  # Morisyen
-languages: "mg"  # Malagasy
-languages: "mgh"  # Makhuwa-Meetto
-languages: "mgo"  # Metaʼ
-languages: "mgy"  # Mbunga
-languages: "mh"  # Marshallese
-languages: "mi"  # Maori
-languages: "mic"  # Mi'kmaq
-languages: "min"  # Minangkabau
-languages: "mk"  # Macedonian
-languages: "mn"  # Mongolian
-languages: "mns"  # Mansi
-languages: "moe"  # Innu
-languages: "moh"  # Mohawk
-languages: "mos"  # Mossi
-languages: "mrj"  # Western Mari
-languages: "mro"  # Mru
-languages: "ms"  # Malay
-languages: "mt"  # Maltese
-languages: "mua"  # Mundang
-languages: "mus"  # Muscogee
-languages: "mwk"  # Kita Maninkakan
-languages: "mwl"  # Mirandese
-languages: "mwv"  # Mentawai
-languages: "mxc"  # Manyika
-languages: "myv"  # Erzya
-languages: "myx"  # Masaaba
-languages: "na"  # Nauru
+languages: "mad_Latn"  # Madurese
+languages: "maf_Latn"  # Mafa
+languages: "mak_Latn"  # Makasar
+languages: "man_Latn"  # Mandingo
+languages: "mas_Latn"  # Masai
+languages: "maz_Latn"  # Central Mazahua
+languages: "mdf_Cyrl"  # Moksha
+languages: "mdh_Latn"  # Maguindanaon
+languages: "mdr_Latn"  # Mandar
+languages: "mdt_Latn"  # Mbere
+languages: "men_Latn"  # Mende
+languages: "mer_Latn"  # Meru
+languages: "mfe_Latn"  # Morisyen
+languages: "mg_Latn"  # Malagasy
+languages: "mgh_Latn"  # Makhuwa-Meetto
+languages: "mgo_Latn"  # Metaʼ
+languages: "mgy_Latn"  # Mbunga
+languages: "mh_Latn"  # Marshallese
+languages: "mi_Latn"  # Maori
+languages: "mic_Latn"  # Mi'kmaq
+languages: "min_Latn"  # Minangkabau
+languages: "mk_Cyrl"  # Macedonian
+languages: "mn_Cyrl"  # Mongolian
+languages: "mns_Cyrl"  # Mansi
+languages: "moe_Latn"  # Innu
+languages: "moh_Latn"  # Mohawk
+languages: "mos_Latn"  # Mossi
+languages: "mrj_Cyrl"  # Western Mari
+languages: "mro_Latn"  # Mru
+languages: "ms_Latn"  # Malay
+languages: "mt_Latn"  # Maltese
+languages: "mua_Latn"  # Mundang
+languages: "mus_Latn"  # Muscogee
+languages: "mwk_Latn"  # Kita Maninkakan
+languages: "mwl_Latn"  # Mirandese
+languages: "mwv_Latn"  # Mentawai
+languages: "mxc_Latn"  # Manyika
+languages: "myv_Cyrl"  # Erzya
+languages: "myx_Latn"  # Masaaba
+languages: "na_Latn"  # Nauru
 languages: "nan_Latn"  # Min Nan Chinese, Latin
-languages: "nap"  # Neapolitan
-languages: "naq"  # Nama
-languages: "nb"  # Norwegian Bokmål
-languages: "nch"  # Central Huasteca Nahuatl
-languages: "nd"  # North Ndebele
-languages: "ndc"  # Ndau
-languages: "nds"  # Low German
-languages: "ng"  # Ndonga
-languages: "ngl"  # Lomwe
-languages: "nhe"  # Eastern Huasteca Nahuatl
-languages: "nhw"  # Western Huasteca Nahuatl
-languages: "nia"  # Nias
-languages: "nij"  # Ngaju
-languages: "niu"  # Niuean
-languages: "njo"  # Ao Naga
-languages: "nl"  # Dutch
-languages: "nmg"  # Kwasio
-languages: "nn"  # Norwegian Nynorsk
-languages: "nnh"  # Ngiemboon
-languages: "no"  # Norwegian
-languages: "nog"  # Nogai
-languages: "nov"  # Novial
-languages: "nr"  # South Ndebele
+languages: "nap_Latn"  # Neapolitan
+languages: "naq_Latn"  # Nama
+languages: "nb_Latn"  # Norwegian Bokmål
+languages: "nch_Latn"  # Central Huasteca Nahuatl
+languages: "nd_Latn"  # North Ndebele
+languages: "ndc_Latn"  # Ndau
+languages: "nds_Latn"  # Low German
+languages: "ng_Latn"  # Ndonga
+languages: "ngl_Latn"  # Lomwe
+languages: "nhe_Latn"  # Eastern Huasteca Nahuatl
+languages: "nhw_Latn"  # Western Huasteca Nahuatl
+languages: "nia_Latn"  # Nias
+languages: "nij_Latn"  # Ngaju
+languages: "niu_Latn"  # Niuean
+languages: "njo_Latn"  # Ao Naga
+languages: "nl_Latn"  # Dutch
+languages: "nmg_Latn"  # Kwasio
+languages: "nn_Latn"  # Norwegian Nynorsk
+languages: "nnh_Latn"  # Ngiemboon
+languages: "no_Latn"  # Norwegian
+languages: "nog_Cyrl"  # Nogai
+languages: "nov_Latn"  # Novial
+languages: "nr_Latn"  # South Ndebele
 languages: "nsk_Latn"  # Naskapi, Latin
-languages: "nso"  # Northern Sotho
-languages: "nus"  # Nuer
-languages: "nv"  # Navajo
-languages: "nxq"  # Naxi
-languages: "ny"  # Nyanja
-languages: "nym"  # Nyamwezi
-languages: "nyn"  # Nyankole
-languages: "nyo"  # Nyoro
-languages: "nzi"  # Nzima
-languages: "oc"  # Occitan
+languages: "nso_Latn"  # Northern Sotho
+languages: "nus_Latn"  # Nuer
+languages: "nv_Latn"  # Navajo
+languages: "nxq_Latn"  # Naxi
+languages: "ny_Latn"  # Nyanja
+languages: "nym_Latn"  # Nyamwezi
+languages: "nyn_Latn"  # Nyankole
+languages: "nyo_Latn"  # Nyoro
+languages: "nzi_Latn"  # Nzima
+languages: "oc_Latn"  # Occitan
 languages: "oj_Latn"  # Ojibwa, Latin
-languages: "om"  # Oromo
-languages: "os"  # Ossetic
+languages: "om_Latn"  # Oromo
+languages: "os_Cyrl"  # Ossetic
 languages: "osa_Latn"  # Osage, Latin
 languages: "osc_Latn"  # Oscan, Latin
-languages: "pag"  # Pangasinan
-languages: "pam"  # Pampanga
-languages: "pap"  # Papiamento
-languages: "pau"  # Palauan
-languages: "pcd"  # Picard
-languages: "pcm"  # Nigerian Pidgin
-languages: "pdc"  # Pennsylvania German
-languages: "pdt"  # Plautdietsch
-languages: "pfl"  # Palatine German
-languages: "pko"  # Pökoot
-languages: "pl"  # Polish
-languages: "pms"  # Piedmontese
+languages: "pag_Latn"  # Pangasinan
+languages: "pam_Latn"  # Pampanga
+languages: "pap_Latn"  # Papiamento
+languages: "pau_Latn"  # Palauan
+languages: "pcd_Latn"  # Picard
+languages: "pcm_Latn"  # Nigerian Pidgin
+languages: "pdc_Latn"  # Pennsylvania German
+languages: "pdt_Latn"  # Plautdietsch
+languages: "pfl_Latn"  # Palatine German
+languages: "pko_Latn"  # Pökoot
+languages: "pl_Latn"  # Polish
+languages: "pms_Latn"  # Piedmontese
 languages: "pnt_Latn"  # Pontic, Latin
-languages: "pon"  # Pohnpeian
-languages: "prg"  # Prussian
-languages: "pro"  # Old Provençal
-languages: "pt"  # Portuguese
-languages: "puu"  # Punu
-languages: "qu"  # Quechua
-languages: "quc"  # Kʼicheʼ
-languages: "qug"  # Chimborazo Highland Quichua
-languages: "rap"  # Rapanui
-languages: "rar"  # Rarotongan
-languages: "rcf"  # Réunion Creole French
-languages: "rej"  # Rejang
-languages: "rgn"  # Romagnol
-languages: "ria"  # Riang [India]
+languages: "pon_Latn"  # Pohnpeian
+languages: "prg_Latn"  # Prussian
+languages: "pro_Latn"  # Old Provençal
+languages: "pt_Latn"  # Portuguese
+languages: "puu_Latn"  # Punu
+languages: "qu_Latn"  # Quechua
+languages: "quc_Latn"  # Kʼicheʼ
+languages: "qug_Latn"  # Chimborazo Highland Quichua
+languages: "rap_Latn"  # Rapanui
+languages: "rar_Latn"  # Rarotongan
+languages: "rcf_Latn"  # Réunion Creole French
+languages: "rej_Latn"  # Rejang
+languages: "rgn_Latn"  # Romagnol
+languages: "ria_Latn"  # Riang [India]
 languages: "rif_Latn"  # Riffian (Latin)
-languages: "rm"  # Romansh
-languages: "rmf"  # Kalo Finnish Romani
-languages: "rmo"  # Sinte Romani
-languages: "rmu"  # Tavringer Romani
-languages: "rn"  # Rundi
-languages: "rng"  # Ronga
-languages: "ro"  # Romanian
+languages: "rm_Latn"  # Romansh
+languages: "rmf_Latn"  # Kalo Finnish Romani
+languages: "rmo_Latn"  # Sinte Romani
+languages: "rmu_Latn"  # Tavringer Romani
+languages: "rn_Latn"  # Rundi
+languages: "rng_Latn"  # Ronga
+languages: "ro_Latn"  # Romanian
 languages: "ro_Cyrl"  # Romanian, Cyrillic
-languages: "rob"  # Tae'
-languages: "rof"  # Rombo
-languages: "rom"  # Romany
-languages: "rtm"  # Rotuman
-languages: "ru"  # Russian
-languages: "rue"  # Rusyn
-languages: "rug"  # Roviana
-languages: "rup"  # Aromanian
-languages: "rw"  # Kinyarwanda
-languages: "rwk"  # Rwa
-languages: "sad"  # Sandawe
-languages: "saf"  # Safaliba
-languages: "sah"  # Sakha
-languages: "saq"  # Samburu
-languages: "sas"  # Sasak
+languages: "rob_Latn"  # Tae'
+languages: "rof_Latn"  # Rombo
+languages: "rom_Latn"  # Romany
+languages: "rtm_Latn"  # Rotuman
+languages: "ru_Cyrl"  # Russian
+languages: "rue_Cyrl"  # Rusyn
+languages: "rug_Latn"  # Roviana
+languages: "rup_Latn"  # Aromanian
+languages: "rw_Latn"  # Kinyarwanda
+languages: "rwk_Latn"  # Rwa
+languages: "sad_Latn"  # Sandawe
+languages: "saf_Latn"  # Safaliba
+languages: "sah_Cyrl"  # Sakha
+languages: "saq_Latn"  # Samburu
+languages: "sas_Latn"  # Sasak
 languages: "sat_Latn"  # Santali, Latin
-languages: "sbp"  # Sangu
-languages: "sc"  # Sardinian
-languages: "scn"  # Sicilian
-languages: "sco"  # Scots
-languages: "scs"  # North Slavey
-languages: "sdc"  # Sassarese Sardinian
-languages: "se"  # Northern Sami
-languages: "see"  # Seneca
-languages: "sef"  # Cebaara Senoufo
-languages: "seh"  # Sena
-languages: "sei"  # Seri
-languages: "sel"  # Selkup
-languages: "ses"  # Koyraboro Senni
-languages: "sg"  # Sango
-languages: "sga"  # Old Irish
-languages: "sgs"  # Samogitian
+languages: "sbp_Latn"  # Sangu
+languages: "sc_Latn"  # Sardinian
+languages: "scn_Latn"  # Sicilian
+languages: "sco_Latn"  # Scots
+languages: "scs_Latn"  # North Slavey
+languages: "sdc_Latn"  # Sassarese Sardinian
+languages: "se_Latn"  # Northern Sami
+languages: "see_Latn"  # Seneca
+languages: "sef_Latn"  # Cebaara Senoufo
+languages: "seh_Latn"  # Sena
+languages: "sei_Latn"  # Seri
+languages: "sel_Cyrl"  # Selkup
+languages: "ses_Latn"  # Koyraboro Senni
+languages: "sg_Latn"  # Sango
+languages: "sga_Latn"  # Old Irish
+languages: "sgs_Latn"  # Samogitian
 languages: "shi_Latn"  # Tachelhit (Latin)
-languages: "sid"  # Sidamo
-languages: "sk"  # Slovak
-languages: "sl"  # Slovenian
-languages: "sli"  # Lower Silesian
-languages: "sly"  # Selayar
-languages: "sm"  # Samoan
-languages: "sma"  # Southern Sami
-languages: "smj"  # Lule Sami
-languages: "smn"  # Inari Sami
-languages: "sms"  # Skolt Sami
-languages: "sn"  # Shona
-languages: "snk"  # Soninke
-languages: "so"  # Somali
-languages: "sq"  # Albanian
-languages: "sr"  # Serbian
+languages: "sid_Latn"  # Sidamo
+languages: "sk_Latn"  # Slovak
+languages: "sl_Latn"  # Slovenian
+languages: "sli_Latn"  # Lower Silesian
+languages: "sly_Latn"  # Selayar
+languages: "sm_Latn"  # Samoan
+languages: "sma_Latn"  # Southern Sami
+languages: "smj_Latn"  # Lule Sami
+languages: "smn_Latn"  # Inari Sami
+languages: "sms_Latn"  # Skolt Sami
+languages: "sn_Latn"  # Shona
+languages: "snk_Latn"  # Soninke
+languages: "so_Latn"  # Somali
+languages: "sq_Latn"  # Albanian
+languages: "sr_Cyrl"  # Serbian
 languages: "sr_Latn"  # Serbian (Latin)
-languages: "srb"  # Sora
-languages: "srn"  # Sranan Tongo
-languages: "srr"  # Serer
-languages: "ss"  # Swati
-languages: "ssy"  # Saho
-languages: "st"  # Southern Sotho
-languages: "stq"  # Saterland Frisian
-languages: "su"  # Sundanese
-languages: "suk"  # Sukuma
-languages: "sus"  # Susu
-languages: "sv"  # Swedish
-languages: "sw"  # Swahili
+languages: "srb_Latn"  # Sora
+languages: "srn_Latn"  # Sranan Tongo
+languages: "srr_Latn"  # Serer
+languages: "ss_Latn"  # Swati
+languages: "ssy_Latn"  # Saho
+languages: "st_Latn"  # Southern Sotho
+languages: "stq_Latn"  # Saterland Frisian
+languages: "su_Latn"  # Sundanese
+languages: "suk_Latn"  # Sukuma
+languages: "sus_Latn"  # Susu
+languages: "sv_Latn"  # Swedish
+languages: "sw_Latn"  # Swahili
 languages: "swb_Latn"  # Comorian, Latin
-languages: "sxn"  # Sangir
-languages: "syi"  # Seki
-languages: "szl"  # Silesian
-languages: "tab"  # Tabassaran
-languages: "tbw"  # Tagbanwa
-languages: "tem"  # Timne
-languages: "teo"  # Teso
-languages: "ter"  # Tereno
-languages: "tet"  # Tetum
-languages: "tg"  # Tajik
+languages: "sxn_Latn"  # Sangir
+languages: "syi_Latn"  # Seki
+languages: "szl_Latn"  # Silesian
+languages: "tab_Cyrl"  # Tabassaran
+languages: "tbw_Latn"  # Tagbanwa
+languages: "tem_Latn"  # Timne
+languages: "teo_Latn"  # Teso
+languages: "ter_Latn"  # Tereno
+languages: "tet_Latn"  # Tetum
+languages: "tg_Cyrl"  # Tajik
 languages: "tg_Latn"  # Tajik, Latin
-languages: "tiv"  # Tiv
-languages: "tk"  # Turkmen
+languages: "tiv_Latn"  # Tiv
+languages: "tk_Arab"  # Turkmen
 languages: "tk_Cyrl"  # Turkmen, Cyrillic
 languages: "tk_Latn"  # Turkmen, Latin
-languages: "tkl"  # Tokelau
-languages: "tkr"  # Tsakhur
+languages: "tkl_Latn"  # Tokelau
+languages: "tkr_Cyrl"  # Tsakhur
 languages: "tkr_Latn"  # Tsakhur, Latin
-languages: "tlh"  # Klingon, Latin
-languages: "tli"  # Tlingit
+languages: "tlh_Latn"  # Klingon, Latin
+languages: "tli_Latn"  # Tlingit
 languages: "tly_Cyrl"  # Talysh, Cyrillic
 languages: "tly_Latn"  # Talysh, Latin
-languages: "tmh"  # Tamashek
-languages: "tn"  # Tswana
-languages: "to"  # Tongan
-languages: "tog"  # Nyasa Tonga
-languages: "tpi"  # Tok Pisin
-languages: "tr"  # Turkish
-languages: "tru"  # Turoyo
-languages: "trv"  # Taroko
-languages: "ts"  # Tsonga
-languages: "tsg"  # Tausug
-languages: "tsi"  # Tsimshian
-languages: "tt"  # Tatar
-languages: "ttj"  # Tooro
-languages: "ttt"  # Muslim Tat
+languages: "tmh_Latn"  # Tamashek
+languages: "tn_Latn"  # Tswana
+languages: "to_Latn"  # Tongan
+languages: "tog_Latn"  # Nyasa Tonga
+languages: "tpi_Latn"  # Tok Pisin
+languages: "tr_Latn"  # Turkish
+languages: "tru_Latn"  # Turoyo
+languages: "trv_Latn"  # Taroko
+languages: "ts_Latn"  # Tsonga
+languages: "tsg_Latn"  # Tausug
+languages: "tsi_Latn"  # Tsimshian
+languages: "tt_Cyrl"  # Tatar
+languages: "ttj_Latn"  # Tooro
+languages: "ttt_Cyrl"  # Muslim Tat
 languages: "ttt_Latn"  # Muslim Tat, Latin
-languages: "tum"  # Tumbuka
-languages: "tvl"  # Tuvalu
-languages: "twq"  # Tasawaq
-languages: "ty"  # Tahitian
-languages: "tyv"  # Tuvinian
-languages: "tzm"  # Central Atlas Tamazight
-languages: "udm"  # Udmurt
+languages: "tum_Latn"  # Tumbuka
+languages: "tvl_Latn"  # Tuvalu
+languages: "twq_Latn"  # Tasawaq
+languages: "ty_Latn"  # Tahitian
+languages: "tyv_Cyrl"  # Tuvinian
+languages: "tzm_Latn"  # Central Atlas Tamazight
+languages: "udm_Cyrl"  # Udmurt
 languages: "udm_Latn"  # Udmurt, Latin
 languages: "ug_Cyrl"  # Uyghur (Cyrillic)
 languages: "ug_Latn"  # Uyghur, Latin
-languages: "uk"  # Ukrainian
-languages: "uli"  # Ulithian
-languages: "umb"  # Umbundu
-languages: "uz"  # Uzbek
+languages: "uk_Cyrl"  # Ukrainian
+languages: "uli_Latn"  # Ulithian
+languages: "umb_Latn"  # Umbundu
+languages: "uz_Latn"  # Uzbek
 languages: "uz_Cyrl"  # Uzbek (Cyrillic)
 languages: "vai_Latn"  # Vai (Latin)
-languages: "ve"  # Venda
-languages: "vec"  # Venetian
-languages: "vep"  # Veps
-languages: "vi"  # Vietnamese
-languages: "vic"  # Virgin Islands Creole English
-languages: "vls"  # West Flemish
-languages: "vmf"  # Main-Franconian
-languages: "vmw"  # Makhuwa
-languages: "vo"  # Volapük
-languages: "vot"  # Votic
-languages: "vro"  # Võro
-languages: "vun"  # Vunjo
-languages: "wa"  # Walloon
-languages: "wae"  # Walser
-languages: "war"  # Waray
-languages: "was"  # Washo
-languages: "wbp"  # Warlpiri
-languages: "wls"  # Wallisian
-languages: "wo"  # Wolof
-languages: "xal"  # Kalmyk
-languages: "xav"  # Xavánte
-languages: "xh"  # Xhosa
-languages: "xog"  # Soga
+languages: "ve_Latn"  # Venda
+languages: "vec_Latn"  # Venetian
+languages: "vep_Latn"  # Veps
+languages: "vi_Latn"  # Vietnamese
+languages: "vic_Latn"  # Virgin Islands Creole English
+languages: "vls_Latn"  # West Flemish
+languages: "vmf_Latn"  # Main-Franconian
+languages: "vmw_Latn"  # Makhuwa
+languages: "vo_Latn"  # Volapük
+languages: "vot_Latn"  # Votic
+languages: "vro_Latn"  # Võro
+languages: "vun_Latn"  # Vunjo
+languages: "wa_Latn"  # Walloon
+languages: "wae_Latn"  # Walser
+languages: "war_Latn"  # Waray
+languages: "was_Latn"  # Washo
+languages: "wbp_Latn"  # Warlpiri
+languages: "wls_Latn"  # Wallisian
+languages: "wo_Latn"  # Wolof
+languages: "xal_Cyrl"  # Kalmyk
+languages: "xav_Latn"  # Xavánte
+languages: "xh_Latn"  # Xhosa
+languages: "xog_Latn"  # Soga
 languages: "xum_Latn"  # Umbrian, Latin
-languages: "yao"  # Yao
-languages: "yap"  # Yapese
-languages: "yav"  # Yangben
-languages: "ybb"  # Yemba
-languages: "yo"  # Yoruba
-languages: "yrk"  # Nenets
-languages: "yrl"  # Nheengatu
-languages: "yua"  # Yucateco
-languages: "za"  # Zhuang
-languages: "zap"  # Zapotec
-languages: "zea"  # Zeelandic
-languages: "zmi"  # Negeri Sembilan Malay
-languages: "zu"  # Zulu
-languages: "zun"  # Zuni
-languages: "zza"  # Zaza
+languages: "yao_Latn"  # Yao
+languages: "yap_Latn"  # Yapese
+languages: "yav_Latn"  # Yangben
+languages: "ybb_Latn"  # Yemba
+languages: "yo_Latn"  # Yoruba
+languages: "yrk_Cyrl"  # Nenets
+languages: "yrl_Latn"  # Nheengatu
+languages: "yua_Latn"  # Yucateco
+languages: "za_Latn"  # Zhuang
+languages: "zap_Latn"  # Zapotec
+languages: "zea_Latn"  # Zeelandic
+languages: "zmi_Latn"  # Negeri Sembilan Malay
+languages: "zu_Latn"  # Zulu
+languages: "zun_Latn"  # Zuni
+languages: "zza_Latn"  # Zaza
 sample_glyphs {
   key: "Bopomofo Modifier Symbols"
   value: "˪ ˫"

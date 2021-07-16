@@ -16,7 +16,7 @@ subsets: "menu"
 subsets: "brahmi"
 is_noto: true
 languages: "pi_Brah"  # Pali, Brahmi
-languages: "pka"  # Ardhamagadhi Prakrit
+languages: "pka_Brah"  # Ardhamagadhi Prakrit
 sample_glyphs {
   key: "Brahmi Decimal Numbers"
   value: "𑁦 𑁧 𑁨 𑁩 𑁪 𑁫 𑁬 𑁭 𑁮 𑁯"

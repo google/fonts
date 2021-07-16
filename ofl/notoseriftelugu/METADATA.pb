@@ -21,9 +21,9 @@ axes {
 }
 is_noto: true
 languages: "gon_Telu"  # Gondi, Telugu
-languages: "lmn"  # Lambadi
-languages: "te"  # Telugu
-languages: "wbq"  # Waddar
+languages: "lmn_Telu"  # Lambadi
+languages: "te_Telu"  # Telugu
+languages: "wbq_Telu"  # Waddar
 sample_glyphs {
   key: "Close Punctuation"
   value: ") ] }"

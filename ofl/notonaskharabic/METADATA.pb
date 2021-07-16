@@ -20,75 +20,75 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "aeb"  # Tunisian Arabic
-languages: "ar"  # Arabic
-languages: "arq"  # Algerian Arabic
-languages: "ary"  # Moroccan Arabic
-languages: "arz"  # Egyptian Arabic
+languages: "aeb_Arab"  # Tunisian Arabic
+languages: "ar_Arab"  # Arabic
+languages: "arq_Arab"  # Algerian Arabic
+languages: "ary_Arab"  # Moroccan Arabic
+languages: "arz_Arab"  # Egyptian Arabic
 languages: "az_Arab"  # Azerbaijani (Arabic)
-languages: "bal"  # Baluchi
-languages: "bej"  # Beja
-languages: "ber"  # Berber
-languages: "bft"  # Balti
-languages: "bgn"  # Western Balochi
-languages: "bqi"  # Bakhtiari
-languages: "brh"  # Brahui
-languages: "cja"  # Western Cham
+languages: "bal_Arab"  # Baluchi
+languages: "bej_Arab"  # Beja
+languages: "ber_Arab"  # Berber
+languages: "bft_Arab"  # Balti
+languages: "bgn_Arab"  # Western Balochi
+languages: "bqi_Arab"  # Bakhtiari
+languages: "brh_Arab"  # Brahui
+languages: "cja_Arab"  # Western Cham
 languages: "cjm_Arab"  # Eastern Cham, Perso-Arabic
-languages: "ckb"  # Central Kurdish
-languages: "cop"  # Coptic
-languages: "dcc"  # Deccan
+languages: "ckb_Arab"  # Central Kurdish
+languages: "cop_Arab"  # Coptic
+languages: "dcc_Arab"  # Deccan
 languages: "doi_Arab"  # Dogri, Perso-Arabic
 languages: "dyo_Arab"  # Jola-Fonyi, Perso-Arabic
-languages: "fa"  # Persian
-languages: "gbz"  # Zoroastrian Dari
-languages: "gjk"  # Kachi Koli
-languages: "gju"  # Gujari
-languages: "glk"  # Gilaki
+languages: "fa_Arab"  # Persian
+languages: "gbz_Arab"  # Zoroastrian Dari
+languages: "gjk_Arab"  # Kachi Koli
+languages: "gju_Arab"  # Gujari
+languages: "glk_Arab"  # Gilaki
 languages: "ha_Arab"  # Hausa (Arabic)
-languages: "haz"  # Hazaragi
-languages: "hnd"  # Southern Hindko
-languages: "hno"  # Northern Hindko
+languages: "haz_Arab"  # Hazaragi
+languages: "hnd_Arab"  # Southern Hindko
+languages: "hno_Arab"  # Northern Hindko
 languages: "id_Arab"  # Indonesian, Perso-Arabic
 languages: "inh_Arab"  # Ingush, Perso-Arabic
-languages: "khw"  # Khowar
+languages: "khw_Arab"  # Khowar
 languages: "kk_Arab"  # Kazakh (Arabic)
 languages: "kr_Arab"  # Kanuri
-languages: "ks"  # Kashmiri
+languages: "ks_Arab"  # Kashmiri
 languages: "ku_Arab"  # Kurdish (Arabic)
-languages: "kvx"  # Parkari Koli
-languages: "kxp"  # Wadiyara Koli
+languages: "kvx_Arab"  # Parkari Koli
+languages: "kxp_Arab"  # Wadiyara Koli
 languages: "ky_Arab"  # Kyrgyz (Arabic)
-languages: "lah"  # Lahnda
-languages: "lki"  # Laki
-languages: "lrc"  # Northern Luri
-languages: "luz"  # Southern Luri
-languages: "mfa"  # Pattani Malay
+languages: "lah_Arab"  # Lahnda
+languages: "lki_Arab"  # Laki
+languages: "lrc_Arab"  # Northern Luri
+languages: "luz_Arab"  # Southern Luri
+languages: "mfa_Arab"  # Pattani Malay
 languages: "ms_Arab"  # Malay (Arabic)
-languages: "mvy"  # Indus Kohistani
-languages: "mzn"  # Mazanderani
+languages: "mvy_Arab"  # Indus Kohistani
+languages: "mzn_Arab"  # Mazanderani
 languages: "pa_Arab"  # Punjabi (Arabic)
-languages: "prd"  # Parsi-Dari
-languages: "prs"  # Dari
-languages: "ps"  # Pashto
-languages: "rmt"  # Domari
-languages: "sd"  # Sindhi
-languages: "sdh"  # Southern Kurdish
-languages: "shi"  # Tachelhit
-languages: "skr"  # Saraiki
+languages: "prd_Arab"  # Parsi-Dari
+languages: "prs_Arab"  # Dari
+languages: "ps_Arab"  # Pashto
+languages: "rmt_Arab"  # Domari
+languages: "sd_Arab"  # Sindhi
+languages: "sdh_Arab"  # Southern Kurdish
+languages: "shi_Arab"  # Tachelhit
+languages: "skr_Arab"  # Saraiki
 languages: "so_Arab"  # Somali, Perso-Arabic
 languages: "sus_Arab"  # Susu, Perso-Arabic
-languages: "swb"  # Comorian
+languages: "swb_Arab"  # Comorian
 languages: "tg_Arab"  # Tajik (Arabic)
-languages: "tk"  # Turkmen
-languages: "tly"  # Talysh
+languages: "tk_Arab"  # Turkmen
+languages: "tly_Arab"  # Talysh
 languages: "tr_Arab"  # Turkish, Perso-Arabic
 languages: "ttt_Arab"  # Muslim Tat, Perso-Arabic
-languages: "ug"  # Uyghur
-languages: "ur"  # Urdu
+languages: "ug_Arab"  # Uyghur
+languages: "ur_Arab"  # Urdu
 languages: "uz_Arab"  # Uzbek (Arabic)
 languages: "wo_Arab"  # Wolof, Perso-Arabic
-languages: "zdj"  # Ngazidja Comorian
+languages: "zdj_Arab"  # Ngazidja Comorian
 sample_glyphs {
   key: "Arabic Currency Symbols"
   value: "؋ ﷼"

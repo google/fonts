@@ -18,7 +18,7 @@ is_noto: true
 languages: "hmd_Hmng"  # A-Hmao, Pahawh Hmong
 languages: "hmn_Hmng"  # Hmong, Pahawh Hmong
 languages: "hnj_Hmng"  # Mong Njua, Pahawh Hmong
-languages: "mww"  # Hmong Daw
+languages: "mww_Hmng"  # Hmong Daw
 sample_glyphs {
   key: "Pahawh Hmong Decimal Numbers"
   value: "𖭐 𖭑 𖭒 𖭓 𖭔 𖭕 𖭖 𖭗 𖭘 𖭙"

@@ -25,9 +25,9 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "ka"  # Georgian
-languages: "lzz"  # Laz
-languages: "xmf"  # Mingrelian
+languages: "ka_Geor"  # Georgian
+languages: "lzz_Geor"  # Laz
+languages: "xmf_Geor"  # Mingrelian
 sample_glyphs {
   key: "Armenian Punctuation"
   value: "։"

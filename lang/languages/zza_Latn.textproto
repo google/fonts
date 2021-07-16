@@ -1,0 +1,12 @@
+id: "zza_Latn"
+language: "zza"
+script: "Latn"
+name: "Zaza"
+preferred_name: "Dimli"
+autonym: "Dimlî"
+population: 1148245
+region: "TR"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Û Ü Ş Ǧ a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ"
+  marks: "◌̂ ◌̇ ◌̈ ◌̌ ◌̧"
+}

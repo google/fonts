@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "vai"
 is_noto: true
-languages: "vai"  # Vai
+languages: "vai_Vaii"  # Vai
 sample_glyphs {
   key: "Space Separators"
   value: " "

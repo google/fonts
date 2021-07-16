@@ -20,8 +20,8 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "he"  # Hebrew
-languages: "lad"  # Ladino
+languages: "he_Hebr"  # Hebrew
+languages: "lad_Hebr"  # Ladino
 sample_glyphs {
   key: "Dash Punctuation"
   value: "-"

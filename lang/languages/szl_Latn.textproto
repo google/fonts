@@ -1,0 +1,11 @@
+id: "szl_Latn"
+language: "szl"
+script: "Latn"
+name: "Silesian"
+autonym: "Ślůnsko godka"
+population: 497669
+region: "PL"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Ń Ř Ś Š Ů Ź Ż Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž"
+  marks: "◌́ ◌̇ ◌̊ ◌̌"
+}

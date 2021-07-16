@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "lepcha"
 is_noto: true
-languages: "lep"  # Lepcha
+languages: "lep_Lepc"  # Lepcha
 sample_glyphs {
   key: "Lepcha Decimal Numbers"
   value: "᱀ ᱁ ᱂ ᱃ ᱄ ᱅ ᱆ ᱇ ᱈ ᱉"

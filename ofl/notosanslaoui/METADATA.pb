@@ -25,9 +25,9 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "hnj"  # Mong Njua
-languages: "kjg"  # Khmu
-languages: "lo"  # Lao
+languages: "hnj_Laoo"  # Mong Njua
+languages: "kjg_Laoo"  # Khmu
+languages: "lo_Laoo"  # Lao
 sample_glyphs {
   key: "Currency Symbols"
   value: "₭"

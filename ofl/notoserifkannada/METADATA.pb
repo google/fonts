@@ -20,8 +20,8 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "kn"  # Kannada
-languages: "tcy"  # Tulu
+languages: "kn_Knda"  # Kannada
+languages: "tcy_Knda"  # Tulu
 sample_glyphs {
   key: "Close Punctuation"
   value: ") ] }"

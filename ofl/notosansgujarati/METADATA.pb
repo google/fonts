@@ -87,7 +87,7 @@ fonts {
 subsets: "gujarati"
 subsets: "menu"
 is_noto: true
-languages: "gu"  # Gujarati
+languages: "gu_Gujr"  # Gujarati
 sample_glyphs {
   key: "Close Punctuation"
   value: ") ] }"

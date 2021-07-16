@@ -25,14 +25,14 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "kdt"  # Kuy
-languages: "kxm"  # Northern Khmer
-languages: "lcp"  # Western Lawa
-languages: "lwl"  # Eastern Lawa
+languages: "kdt_Thai"  # Kuy
+languages: "kxm_Thai"  # Northern Khmer
+languages: "lcp_Thai"  # Western Lawa
+languages: "lwl_Thai"  # Eastern Lawa
 languages: "pi_Thai"  # Pali, Thai
-languages: "sou"  # Southern Thai
-languages: "th"  # Thai
-languages: "tts"  # Northeastern Thai
+languages: "sou_Thai"  # Southern Thai
+languages: "th_Thai"  # Thai
+languages: "tts_Thai"  # Northeastern Thai
 sample_glyphs {
   key: "Currency Symbols"
   value: "฿"

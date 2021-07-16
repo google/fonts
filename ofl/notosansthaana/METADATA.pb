@@ -20,7 +20,7 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "dv"  # Divehi
+languages: "dv_Thaa"  # Divehi
 sample_glyphs {
   key: "Arabic Decimal Numbers"
   value: "٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩"

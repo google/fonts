@@ -25,9 +25,9 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "ckb"  # Central Kurdish
-languages: "ks"  # Kashmiri
-languages: "ur"  # Urdu
+languages: "ckb_Arab"  # Central Kurdish
+languages: "ks_Arab"  # Kashmiri
+languages: "ur_Arab"  # Urdu
 sample_glyphs {
   key: "Arabic Currency Symbols"
   value: "؋ ﷼"

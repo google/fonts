@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "inscriptional-pahlavi"
 is_noto: true
-languages: "pal"  # Pahlavi
+languages: "pal_Phli"  # Pahlavi
 sample_glyphs {
   key: "Inscriptional Pahlavi Letters"
   value: "𐭠 𐭡 𐭢 𐭣 𐭤 𐭥 𐭦 𐭧 𐭨 𐭩 𐭪 𐭫 𐭬 𐭭 𐭮 𐭯 𐭰 𐭱 𐭲"

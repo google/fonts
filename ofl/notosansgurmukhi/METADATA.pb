@@ -25,7 +25,7 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "pa"  # Punjabi
+languages: "pa_Guru"  # Punjabi
 sample_glyphs {
   key: "Close Punctuation"
   value: ") ] }"

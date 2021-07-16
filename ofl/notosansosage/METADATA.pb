@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "osage"
 is_noto: true
-languages: "osa"  # Osage
+languages: "osa_Osge"  # Osage
 sample_glyphs {
   key: "Nonspacing Marks, Combining Diacritical Marks (U+0300–0362)"
   value: "́ ̄ ̋ ͘"

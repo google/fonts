@@ -1,0 +1,11 @@
+id: "ba_Cyrl"
+language: "ba"
+script: "Cyrl"
+name: "Bashkir"
+autonym: "Башҡортса"
+population: 1842386
+region: "RU"
+exemplar_chars {
+  base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ғ Ҙ Ҡ Ң Ҫ Ү Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ ң ҫ ү һ ә ө"
+  marks: "◌̆ ◌̈"
+}

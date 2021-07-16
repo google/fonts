@@ -20,8 +20,8 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "kkh"  # Tai Khün
-languages: "nod"  # Northern Thai
+languages: "kkh_Lana"  # Tai Khün
+languages: "nod_Lana"  # Northern Thai
 sample_glyphs {
   key: "Mathematical Symbols, Operators (U+2200–2262)"
   value: "∙"

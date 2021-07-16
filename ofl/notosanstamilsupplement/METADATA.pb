@@ -15,8 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "tamil-supplement"
 is_noto: true
-languages: "bfq"  # Badaga
-languages: "ta"  # Tamil
+languages: "bfq_Taml"  # Badaga
+languages: "ta_Taml"  # Tamil
 sample_glyphs {
   key: "Tamil Currency Symbols"
   value: "𑿝 𑿞 𑿟 𑿠"

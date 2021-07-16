@@ -25,8 +25,8 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "bpy"  # Bishnupriya
-languages: "rkt"  # Rangpuri
+languages: "bpy_Beng"  # Bishnupriya
+languages: "rkt_Beng"  # Rangpuri
 sample_glyphs {
   key: "Bengali Currency Symbols"
   value: "৲ ৳ ৻"

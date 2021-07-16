@@ -16,7 +16,7 @@ subsets: "menu"
 subsets: "runic"
 is_noto: true
 languages: "de_Runr"  # German, Runic
-languages: "non"  # Old Norse
+languages: "non_Runr"  # Old Norse
 sample_glyphs {
   key: "Punctuation, Runic"
   value: "᛫ ᛬ ᛭"

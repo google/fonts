@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "anatolian-hieroglyphs"
 is_noto: true
-languages: "hlu"  # Hieroglyphic Luwian
+languages: "hlu_Hluw"  # Hieroglyphic Luwian
 sample_glyphs {
   key: "Anatolian Hieroglyphs Letters (U+14400–14462)"
   value: "𔐀 𔐁 𔐂 𔐃 𔐄 𔐅 𔐆 𔐇 𔐈 𔐉 𔐊 𔐋 𔐌 𔐍 𔐎 𔐏 𔐐 𔐑 𔐒 𔐓 𔐔 𔐕 𔐖 𔐗 𔐘 𔐙 𔐚 𔐛 𔐜 𔐝 𔐞 𔐟 𔐠 𔐡 𔐢 𔐣 𔐤 𔐥 𔐦 𔐧 𔐨 𔐩 𔐪 𔐫 𔐬 𔐭 𔐮 𔐯 𔐰 𔐱 𔐲 𔐳 𔐴 𔐵 𔐶 𔐷 𔐸 𔐹 𔐺 𔐻 𔐼 𔐽 𔐾 𔐿 𔑀 𔑁 𔑂 𔑃 𔑄 𔑅 𔑆 𔑇 𔑈 𔑉 𔑊 𔑋 𔑌 𔑍 𔑎 𔑏 𔑐 𔑑 𔑒 𔑓 𔑔 𔑕 𔑖 𔑗 𔑘 𔑙 𔑚 𔑛 𔑜 𔑝 𔑞 𔑟 𔑠 𔑡 𔑢"

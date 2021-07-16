@@ -1,0 +1,24 @@
+id: "hil_Latn"
+language: "hil"
+script: "Latn"
+name: "Hiligaynon"
+autonym: "Ilonggo"
+population: 9171204
+region: "PH"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "AaNn"
+  masthead_partial: "Gg"
+  styles: "Tungod kay ang pagkilala sang duna nga dungog"
+  tester: "Tungod kay ang pagpabaya kag paghamak sa mga katarungang pangkataohan"
+  poster_sm: "Tungod kay"
+  poster_md: "Tungod sini,"
+  poster_lg: "Ang"
+  specimen_48: "Ang tanan nga tao ginbun-ag nga hilway kag may pag-alalangay sa"
+  specimen_36: "Sa tangsa ka tao may katarungan nga kilalahon sa bisan diin, bilang isa ka tao sa atubangan sang kasuguan."
+  specimen_32: "Ang tagsa tagsa may katarungan nga magpahuway kag maglingaw, lakip ang makatarungan nga takda sa oras sang trabaho kag panahon sang mga pista opisyal nga may suweldo."
+  specimen_21: "Ang tagsa tagsa may katarungan sa kaayuhan sang pangkatilingban kag pangkalibutan nga ang mga katarungan kag kahilwayan nga gintakda sa Pahayag nga ini dapat lubos nga maangkon.\nWala sing ano man nga bahin sa Pahayag nga ini nga mahimo kabigon nga nagpakahulugan sa ano man nga Estado, grupo ukon tao, sang katarungan nga magpakigbahin sa ano man nga hilikuton ukon hulag nga nagahandum sa pagguba sang ano man nga katarungan kag kahilwayan nga gintakda diri sini."
+  specimen_16: "Tungod kay ang pagkilala sang duna nga dungog kag ang alalangay kag di madula nga mga katarungan sang tanan nga lahi sang tao amo ang pundasyon sang kahilwayan, katarungan kag kalinong sang kalibutan.\nTungod kay ang pagpabaya kag paghamak sa mga katarungang pangkataohan ngabunga sang mga kalapastangan nga labag sa konsyensya sang kataohan, kag ang pag-abot sang isa ka kalibutan nga maangkon sang mga tao ang kahilwayan sa paghambal kag pagsalig kag ang kaluwasan sa kahadlok kag kabudlayan nga ginpahayag ang pinakamataas nga handum sang kinaandan nga tao."
+}

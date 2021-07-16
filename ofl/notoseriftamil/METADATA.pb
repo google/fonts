@@ -34,8 +34,8 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "bfq"  # Badaga
-languages: "ta"  # Tamil
+languages: "bfq_Taml"  # Badaga
+languages: "ta_Taml"  # Tamil
 sample_glyphs {
   key: "Close Punctuation"
   value: ") ] }"

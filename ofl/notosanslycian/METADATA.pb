@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "lycian"
 is_noto: true
-languages: "xlc"  # Lycian
+languages: "xlc_Lyci"  # Lycian
 sample_glyphs {
   key: "Lycian Letters"
   value: "𐊀 𐊁 𐊂 𐊃 𐊄 𐊅 𐊆 𐊇 𐊈 𐊉 𐊊 𐊋 𐊌 𐊍 𐊎 𐊏 𐊐 𐊑 𐊒 𐊓 𐊔 𐊕 𐊖 𐊗 𐊘 𐊙 𐊚 𐊛 𐊜"

@@ -25,18 +25,18 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "as"  # Assamese
-languages: "bn"  # Bengali
-languages: "bpy"  # Bishnupriya
-languages: "ccp"  # Chakma
-languages: "grt"  # Garo
+languages: "as_Beng"  # Assamese
+languages: "bn_Beng"  # Bengali
+languages: "bpy_Beng"  # Bishnupriya
+languages: "ccp_Beng"  # Chakma
+languages: "grt_Beng"  # Garo
 languages: "kha_Beng"  # Khasi, Bengali
-languages: "mni"  # Manipuri
-languages: "rkt"  # Rangpuri
+languages: "mni_Beng"  # Manipuri
+languages: "rkt_Beng"  # Rangpuri
 languages: "sat_Beng"  # Santali, Bengali
-languages: "syl"  # Sylheti
-languages: "unr"  # Mundari
-languages: "unx"  # Munda
+languages: "syl_Beng"  # Sylheti
+languages: "unr_Beng"  # Mundari
+languages: "unx_Beng"  # Munda
 sample_glyphs {
   key: "Bengali Currency Symbols"
   value: "৲ ৳ ৻"

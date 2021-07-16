@@ -24,21 +24,21 @@ fonts {
 subsets: "menu"
 subsets: "arabic"
 is_noto: true
-languages: "ar"  # Arabic
-languages: "arz"  # Egyptian Arabic
-languages: "bal"  # Baluchi
-languages: "fa"  # Persian
-languages: "glk"  # Gilaki
-languages: "hno"  # Northern Hindko
-languages: "khw"  # Khowar
-languages: "ks"  # Kashmiri
-languages: "mvy"  # Indus Kohistani
-languages: "mzn"  # Mazanderani
+languages: "ar_Arab"  # Arabic
+languages: "arz_Arab"  # Egyptian Arabic
+languages: "bal_Arab"  # Baluchi
+languages: "fa_Arab"  # Persian
+languages: "glk_Arab"  # Gilaki
+languages: "hno_Arab"  # Northern Hindko
+languages: "khw_Arab"  # Khowar
+languages: "ks_Arab"  # Kashmiri
+languages: "mvy_Arab"  # Indus Kohistani
+languages: "mzn_Arab"  # Mazanderani
 languages: "pa_Arab"  # Punjabi (Arabic)
-languages: "ps"  # Pashto
-languages: "skr"  # Saraiki
+languages: "ps_Arab"  # Pashto
+languages: "skr_Arab"  # Saraiki
 languages: "so_Arab"  # Somali, Perso-Arabic
-languages: "ur"  # Urdu
+languages: "ur_Arab"  # Urdu
 sample_glyphs {
   key: "Arabic Currency Symbols"
   value: "؋ ﷼"

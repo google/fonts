@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "tangut"
 is_noto: true
-languages: "txg"  # Tangut
+languages: "txg_Tang"  # Tangut
 sample_glyphs {
   key: "Space Separators"
   value: " "

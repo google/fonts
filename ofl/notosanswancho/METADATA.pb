@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "wancho"
 is_noto: true
-languages: "nnp"  # Wancho Naga
+languages: "nnp_Wcho"  # Wancho Naga
 sample_glyphs {
   key: "Close Punctuation"
   value: ") ] }"

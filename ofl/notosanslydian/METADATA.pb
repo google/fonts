@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "lydian"
 is_noto: true
-languages: "xld"  # Lydian
+languages: "xld_Lydi"  # Lydian
 sample_glyphs {
   key: "Lydian Letters"
   value: "𐤠 𐤡 𐤢 𐤣 𐤤 𐤥 𐤦 𐤧 𐤨 𐤩 𐤪 𐤫 𐤬 𐤭 𐤮 𐤯 𐤰 𐤱 𐤲 𐤳 𐤴 𐤵 𐤶 𐤷 𐤸 𐤹"

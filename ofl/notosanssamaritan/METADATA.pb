@@ -16,7 +16,7 @@ subsets: "menu"
 subsets: "samaritan"
 is_noto: true
 languages: "sam_Samr"  # Samaritan Aramaic, Samaritan
-languages: "smp"  # Samaritan
+languages: "smp_Samr"  # Samaritan
 sample_glyphs {
   key: "Punctuation, Supplemental"
   value: "⸱"

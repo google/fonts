@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "kharoshthi"
 is_noto: true
-languages: "pra"  # Prakrit
+languages: "pra_Khar"  # Prakrit
 sample_glyphs {
   key: "Dash Punctuation"
   value: "- ‐"

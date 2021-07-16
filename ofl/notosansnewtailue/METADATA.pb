@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "new-tai-lue"
 is_noto: true
-languages: "khb"  # Lü
+languages: "khb_Talu"  # Lü
 sample_glyphs {
   key: "New Tai Lue Decimal Numbers"
   value: "᧐ ᧑ ᧒ ᧓ ᧔ ᧕ ᧖ ᧗ ᧘ ᧙"

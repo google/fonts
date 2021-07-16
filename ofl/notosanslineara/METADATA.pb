@@ -15,8 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "linear-a"
 is_noto: true
-languages: "lab"  # Linear A
-languages: "omn"  # Minoan
+languages: "lab_Lina"  # Linear A
+languages: "omn_Lina"  # Minoan
 sample_glyphs {
   key: "Linear A Letters (U+10600–10662)"
   value: "𐘀 𐘁 𐘂 𐘃 𐘄 𐘅 𐘆 𐘇 𐘈 𐘉 𐘊 𐘋 𐘌 𐘍 𐘎 𐘏 𐘐 𐘑 𐘒 𐘓 𐘔 𐘕 𐘖 𐘗 𐘘 𐘙 𐘚 𐘛 𐘜 𐘝 𐘞 𐘟 𐘠 𐘡 𐘢 𐘣 𐘤 𐘥 𐘦 𐘧 𐘨 𐘩 𐘪 𐘫 𐘬 𐘭 𐘮 𐘯 𐘰 𐘱 𐘲 𐘳 𐘴 𐘵 𐘶 𐘷 𐘸 𐘹 𐘺 𐘻 𐘼 𐘽 𐘾 𐘿 𐙀 𐙁 𐙂 𐙃 𐙄 𐙅 𐙆 𐙇 𐙈 𐙉 𐙊 𐙋 𐙌 𐙍 𐙎 𐙏 𐙐 𐙑 𐙒 𐙓 𐙔 𐙕 𐙖 𐙗 𐙘 𐙙 𐙚 𐙛 𐙜 𐙝 𐙞 𐙟 𐙠 𐙡 𐙢"

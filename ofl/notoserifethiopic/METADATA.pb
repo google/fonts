@@ -25,13 +25,13 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "am"  # Amharic
-languages: "byn"  # Blin
-languages: "gez"  # Geez
+languages: "am_Ethi"  # Amharic
+languages: "byn_Ethi"  # Blin
+languages: "gez_Ethi"  # Geez
 languages: "om_Ethi"  # Oromo, Ethiopic
-languages: "ti"  # Tigrinya
-languages: "tig"  # Tigre
-languages: "wal"  # Wolaytta
+languages: "ti_Ethi"  # Tigrinya
+languages: "tig_Ethi"  # Tigre
+languages: "wal_Ethi"  # Wolaytta
 sample_glyphs {
   key: "Dash Punctuation"
   value: "- ‐"

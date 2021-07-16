@@ -21,7 +21,7 @@ axes {
 }
 is_noto: true
 languages: "cja_Cham"  # Western Cham, Cham
-languages: "cjm"  # Eastern Cham
+languages: "cjm_Cham"  # Eastern Cham
 sample_glyphs {
   key: "Cham Decimal Numbers"
   value: "꩐ ꩑ ꩒ ꩓ ꩔ ꩕ ꩖ ꩗ ꩘ ꩙"

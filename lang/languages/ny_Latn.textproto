@@ -1,0 +1,28 @@
+id: "ny_Latn"
+language: "ny"
+script: "Latn"
+name: "Nyanja"
+autonym: "Chicheŵa"
+population: 17026780
+region: "MW"
+region: "MZ"
+region: "ZM"
+region: "ZW"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ŋ Ŵ a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ"
+  marks: "◌̂"
+}
+sample_text {
+  masthead_full: "AaNn"
+  masthead_partial: "Tt"
+  styles: "Popeza kuti citsimikizo ca khalidwe loyenera"
+  tester: "Popeza kuti kusalabadira ufulu wa munthu kwabweretsa khalidwe"
+  poster_sm: "Popeza kuti"
+  poster_md: "Anthu onse"
+  poster_lg: "Anthu"
+  specimen_48: "Munthu aliyense ali ndi danga lokhala ndi ufulu onse ofunikira"
+  specimen_36: "Munthu aliyense ali obvomerezedwa mu umoyo wace wa umunthu molingana ndi lamulo loyang\' ana pa makhalidwe a munthu."
+  specimen_32: "Munthu aliyense ali nalo danga kapena ufulu wa cisangalalo ca moyo wace molingana ndi chibvomerezo ca zofuna za lamulo losamalira khalidwe la umoyo wa munthu."
+  specimen_21: "Zosindikizidwa zonse za chibvomerezo ca lamulo losamalira khalidwe la umoyo wa munthu, sizitanthauza kuti Boma, kagulu ka anthu kapena munthu wina aliyense ali ndi danga kapena ufulu ocita zinthu zina zonse zofuna kuononga cilingo ca chibvomerezoci ai.\nPopeza kuti citsimikizo ca khalidwe loyenera la munthu mu banja lonse ndico tsinde la ufulu, ungwiro ndi mtendere pa dziko liri lonse la pansi,"
+  specimen_16: "Popeza kuti citsimikizo ca khalidwe loyenera la munthu mu banja lonse ndico tsinde la ufulu, ungwiro ndi mtendere pa dziko liri lonse la pansi,\nPopeza kuti kusalabadira ufulu wa munthu kwabweretsa khalidwe la nkhalwe pa umoyo wa munthu, ndi kutinso kusintha kwa zinthu pa dziko la pansi mwakufuna kupereka ufulu weni-weni pa umoyo wa munthu aliyense ndilo funo la munthu wamba aliyense,\nPopeza kuti ndi kofunikira kuti ufulu wa munthu ucinjirizidwe ndi lamulo pofuna kupewa nkhondo yomenyera ufulu kukhala ngati njira yomwe munthu angagwiritse nchito pofuna kumasulidwa ku nsinga za nkhalwe,"
+}

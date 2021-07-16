@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "tai-viet"
 is_noto: true
-languages: "blt"  # Tai Dam
+languages: "blt_Tavt"  # Tai Dam
 sample_glyphs {
   key: "Latin Lowercase Letters, Extended D"
   value: "ꞌ"

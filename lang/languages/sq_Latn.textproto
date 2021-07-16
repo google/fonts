@@ -1,0 +1,21 @@
+id: "sq_Latn"
+language: "sq"
+script: "Latn"
+name: "Albanian"
+autonym: "Shqip"
+population: 6791906
+region: "AL"
+region: "GR"
+region: "ME"
+region: "MK"
+region: "RS"
+region: "TR"
+region: "XK"
+exemplar_chars {
+  base: "a b c ç d {dh} e ë f g {gj} h i j k l {ll} m n {nj} o p q r {rr} s {sh} t {th} u v x {xh} y z {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh} {dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh}"
+  auxiliary: "w"
+  marks: "◌̈ ◌̧"
+  numerals: "  - ‑ , % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” « » ( ) [ ] § @ * / & # ′ ″ ~"
+  index: "A B C Ç D {DH} E Ë F G {GJ} H I J K L {LL} M N {NJ} O P Q R {RR} S {SH} T {TH} U V X {XH} Y Z {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH}"
+}

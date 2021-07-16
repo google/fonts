@@ -15,7 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "ugaritic"
 is_noto: true
-languages: "uga"  # Ugaritic
+languages: "uga_Ugar"  # Ugaritic
 sample_glyphs {
   key: "Space Separators"
   value: " "

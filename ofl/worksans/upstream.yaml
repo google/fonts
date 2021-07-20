@@ -1,0 +1,23 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  fonts/variable/WorkSans[wght].ttf: WorkSans[wght].ttf
+  fonts/variable/WorkSans-Italic[wght].ttf: WorkSans-Italic[wght].ttf
+  fonts/ttf/WorkSans-Thin.ttf: static/WorkSans-Thin.ttf
+  fonts/ttf/WorkSans-ExtraLight.ttf: static/WorkSans-ExtraLight.ttf
+  fonts/ttf/WorkSans-ExtraLightItalic.ttf: static/WorkSans-ExtraLightItalic.ttf
+  fonts/ttf/WorkSans-Light.ttf: static/WorkSans-Light.ttf
+  fonts/ttf/WorkSans-LightItalic.ttf: static/WorkSans-LightItalic.ttf
+  fonts/ttf/WorkSans-Regular.ttf: static/WorkSans-Regular.ttf
+  fonts/ttf/WorkSans-Italic.ttf: static/WorkSans-Italic.ttf
+  fonts/ttf/WorkSans-Medium.ttf: static/WorkSans-Medium.ttf
+  fonts/ttf/WorkSans-MediumItalic.ttf: static/WorkSans-MediumItalic.ttf
+  fonts/ttf/WorkSans-SemiBold.ttf: static/WorkSans-SemiBold.ttf
+  fonts/ttf/WorkSans-SemiBoldItalic.ttf: static/WorkSans-SemiBoldItalic.ttf
+  fonts/ttf/WorkSans-Bold.ttf: static/WorkSans-Bold.ttf
+  fonts/ttf/WorkSans-BoldItalic.ttf: static/WorkSans-BoldItalic.ttf
+  fonts/ttf/WorkSans-ExtraBold.ttf: static/WorkSans-ExtraBold.ttf
+  fonts/ttf/WorkSans-ExtraBoldItalic.ttf: static/WorkSans-ExtraBoldItalic.ttf
+  fonts/ttf/WorkSans-Black.ttf: static/WorkSans-Black.ttf
+  fonts/ttf/WorkSans-BlackItalic.ttf: static/WorkSans-BlackItalic.ttf
+repository_url: https://github.com/weiweihuanghuang/Work-Sans

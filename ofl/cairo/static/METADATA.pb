@@ -1,5 +1,5 @@
 name: "Cairo"
-designer: "Multiple Designers"
+designer: "Mohamed Gaber, Accademia di Belle Arti di Urbino"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"
@@ -10,7 +10,7 @@ fonts {
   filename: "Cairo-ExtraLight.ttf"
   post_script_name: "Cairo-ExtraLight"
   full_name: "Cairo ExtraLight"
-  copyright: "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)"
 }
 fonts {
   name: "Cairo"
@@ -19,7 +19,7 @@ fonts {
   filename: "Cairo-Light.ttf"
   post_script_name: "Cairo-Light"
   full_name: "Cairo Light"
-  copyright: "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)"
 }
 fonts {
   name: "Cairo"
@@ -28,7 +28,7 @@ fonts {
   filename: "Cairo-Regular.ttf"
   post_script_name: "Cairo-Regular"
   full_name: "Cairo Regular"
-  copyright: "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)"
 }
 fonts {
   name: "Cairo"
@@ -37,7 +37,7 @@ fonts {
   filename: "Cairo-SemiBold.ttf"
   post_script_name: "Cairo-SemiBold"
   full_name: "Cairo SemiBold"
-  copyright: "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)"
 }
 fonts {
   name: "Cairo"
@@ -46,7 +46,7 @@ fonts {
   filename: "Cairo-Bold.ttf"
   post_script_name: "Cairo-Bold"
   full_name: "Cairo Bold"
-  copyright: "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)"
 }
 fonts {
   name: "Cairo"
@@ -55,7 +55,7 @@ fonts {
   filename: "Cairo-Black.ttf"
   post_script_name: "Cairo-Black"
   full_name: "Cairo Black"
-  copyright: "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)"
+  copyright: "Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)"
 }
 subsets: "arabic"
 subsets: "latin"

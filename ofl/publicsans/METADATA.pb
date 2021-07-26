@@ -1,5 +1,5 @@
 name: "Public Sans"
-designer: "Multiple Designers"
+designer: "Pablo Impallari, Rodrigo Fuenzalida, Dan Williams, USWDS"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-06-07"

@@ -4,3 +4,17 @@ script: "Deva"
 name: "Mundari (Devanagari)"
 population: 5762
 region: "NP"
+sample_text {
+  masthead_full: "सबनह"
+  masthead_partial: "ड़क"
+  styles: "स\nो\nब\nे\nन\n \nह\nो\nड़\nो\nक\nो\n \nक\nे\n \nम\nन\nर\nं\nग\n \nओ\nड"
+  tester: "स\nो\nब\nे\nन\n \nह\nो\nड़\nो\nक\nो\n \nक\nे\n \nम\nन\nर\nं\nग\n \nओ\nड\nो\nओ\n \nअ\nक\n्\nत\nि\nय\nा\nर\n "
+  poster_sm: "स\nो\nब\nे\nन\n \nह"
+  poster_md: "स\nो\nब\nे\nन\n "
+  poster_lg: "स\nो\nब"
+  specimen_48: "स\nो\nब\nे\nन\n \nह\nो\nड़\nो\nक\nो\n \nक\nे\n \nम\nन\nर\nं\nग\n \nओ\nड\nो\nओ\n \nअ\nक\n्\nत\nि\nय\nा\nर\n "
+  specimen_36: "स\nो\nब\nे\nन\n \nह\nो\nड़\nो\nक\nो\n \nक\nे\n \nम\nन\nर\nं\nग\n \nओ\nड\nो\nओ\n \nअ\nक\n्\nत\nि\nय\nा\nर\n \nक\nो\n \nर\nे\nअ\nः\n \nप\nइ\nत\nि\n-\nब\nा\nब\nत\n \nर\nे\n \nज\nन\nम"
+  specimen_32: "स\nो\nब\nे\nन\n \nह\nो\nड़\nो\nक\nो\n \nक\nे\n \nम\nन\nर\nं\nग\n \nओ\nड\nो\nओ\n \nअ\nक\n्\nत\nि\nय\nा\nर\n \nक\nो\n \nर\nे\nअ\nः\n \nप\nइ\nत\nि\n-\nब\nा\nब\nत\n \nर\nे\n \nज\nन\nम\n \nज\nो\nर\nो\nं\nग\n्\nए\nत\nे\n \nअ\nह\n्\nड\nा\nन\nड\n \nओ\nड़\nो\nओ"
+  specimen_21: "स\nो\nब\nे\nन\n \nह\nो\nड़\nो\nक\nो\n \nक\nे\n \nम\nन\nर\nं\nग\n \nओ\nड\nो\nओ\n \nअ\nक\n्\nत\nि\nय\nा\nर\n \nक\nो\n \nर\nे\nअ\nः\n \nप\nइ\nत\nि\n-\nब\nा\nब\nत\n \nर\nे\n \nज\nन\nम\n \nज\nो\nर\nो\nं\nग\n्\nए\nत\nे\n \nअ\nह\n्\nड\nा\nन\nड\n \nओ\nड़\nो\nओ\n \nब\nर\nा\nब\nर\nी\n \nन\nम\nा\n \nक\nन\nा\n।\n \nइ\nन\nक\nु\n \nक\nे\n \nस\nे\nं\nड़\nॉ\n \nओ\nड़\nो\nओ\n-\nज\nी\n \nप\nे\nड\nे\nः\n,\n \nज\nी\nउ\n \nर\nे\nअ\nः\n \nए\nन\nे\nम\nक\nो\n \nन\nम\nा\n \nक\nन\nा\n \nओ\nड़\nो\nओ\n \nइ\nन\nक\nु\n \nल\nो\nओ\nः\nत\nे\n \nह\nग\nे\nय\nा\n-\nव\nो\nय"
+  specimen_16: "स\nो\nब\nे\nन\n \nह\nो\nड़\nो\nक\nो\n \nक\nे\n \nम\nन\nर\nं\nग\n \nओ\nड\nो\nओ\n \nअ\nक\n्\nत\nि\nय\nा\nर\n \nक\nो\n \nर\nे\nअ\nः\n \nप\nइ\nत\nि\n-\nब\nा\nब\nत\n \nर\nे\n \nज\nन\nम\n \nज\nो\nर\nो\nं\nग\n्\nए\nत\nे\n \nअ\nह\n्\nड\nा\nन\nड\n \nओ\nड़\nो\nओ\n \nब\nर\nा\nब\nर\nी\n \nन\nम\nा\n \nक\nन\nा\n।\n \nइ\nन\nक\nु\n \nक\nे\n \nस\nे\nं\nड़\nॉ\n \nओ\nड़\nो\nओ\n-\nज\nी\n \nप\nे\nड\nे\nः\n,\n \nज\nी\nउ\n \nर\nे\nअ\nः\n \nए\nन\nे\nम\nक\nो\n \nन\nम\nा\n \nक\nन\nा\n \nओ\nड़\nो\nओ\n \nइ\nन\nक\nु\n \nल\nो\nओ\nः\nत\nे\n \nह\nग\nे\nय\nा\n-\nव\nो\nय\nा\n \nल\nे\nक\nा\n \nज\nग\nर\n \nब\nक\nर\n \nल\nग\nा\nत\nि\nं\nग\n्\nअ\nः\n।\nस\nो\nब\nे\nन\n \nह\nो\nड़\nो\nक\nो\n \nक\nे\n \nम\nन\nर\nं\nग\n \nओ\nड\nो\nओ\n \nअ\nक\n्\nत\nि\nय\nा\nर\n \nक\nो\n \nर\nे\nअ\nः\n \nप\nइ\nत\nि\n-\nब\nा\nब\nत\n \nर\nे\n \nज\nन\nम\n \nज\nो\nर\nो\nं\nग\n्\nए\nत\nे\n \nअ\nह\n्\nड\nा\nन\nड\n \nओ\nड़\nो\nओ\n \nब\nर\nा\nब\nर\nी\n \nन\nम\nा\n \nक\nन\nा\n।\n \nइ\nन\nक\nु\n \nक\nे\n \nस\nे\nं\nड़\nॉ\n \nओ\nड़\nो\nओ\n-\nज\nी\n "
+}

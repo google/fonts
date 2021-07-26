@@ -39,3 +39,17 @@ exemplar_chars {
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ‚ \" “ „ « » ( ) [ ] { } § @ * / & # { } { } { } { } { } { } { } { } { } { } { } { } { } { } { }"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nd\n \nf\nr"
+  tester: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nd\n \nf\nr\ne\ni\n \nu\nn\nd\n \ng\nl\ne"
+  poster_sm: "A\nl\nl\ne\n \nM"
+  poster_md: "A\nl\nl\ne\n "
+  poster_lg: "A\nl"
+  specimen_48: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nd\n \nf\nr\ne\ni\n \nu\nn\nd\n \ng\nl\ne"
+  specimen_36: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nd\n \nf\nr\ne\ni\n \nu\nn\nd\n \ng\nl\ne\ni\nc\nh\n \na\nn\n \nW\nü\nr\nd\ne\n \nu\nn\nd\n \nR\ne\nc"
+  specimen_32: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nd\n \nf\nr\ne\ni\n \nu\nn\nd\n \ng\nl\ne\ni\nc\nh\n \na\nn\n \nW\nü\nr\nd\ne\n \nu\nn\nd\n \nR\ne\nc\nh\nt\ne\nn\n \ng\ne\nb\no\nr\ne\nn\n.\n \nS\ni\ne\n \ns\ni"
+  specimen_21: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nd\n \nf\nr\ne\ni\n \nu\nn\nd\n \ng\nl\ne\ni\nc\nh\n \na\nn\n \nW\nü\nr\nd\ne\n \nu\nn\nd\n \nR\ne\nc\nh\nt\ne\nn\n \ng\ne\nb\no\nr\ne\nn\n.\n \nS\ni\ne\n \ns\ni\nn\nd\n \nm\ni\nt\n \nV\ne\nr\nn\nu\nn\nf\nt\n \nu\nn\nd\n \nG\ne\nw\ni\ns\ns\ne\nn\n \nb\ne\ng\na\nb\nt\n \nu\nn\nd\n \ns\no\nl\nl\ne\nn\n \ne\ni\nn\na\nn\nd\ne\nr\n \ni\nm\n \nG\ne\ni\ns\nt\n \nd\ne\nr\n \nB\nr\nü\nd\ne\nr\nl\ni\nc\nh\nk"
+  specimen_16: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nd\n \nf\nr\ne\ni\n \nu\nn\nd\n \ng\nl\ne\ni\nc\nh\n \na\nn\n \nW\nü\nr\nd\ne\n \nu\nn\nd\n \nR\ne\nc\nh\nt\ne\nn\n \ng\ne\nb\no\nr\ne\nn\n.\n \nS\ni\ne\n \ns\ni\nn\nd\n \nm\ni\nt\n \nV\ne\nr\nn\nu\nn\nf\nt\n \nu\nn\nd\n \nG\ne\nw\ni\ns\ns\ne\nn\n \nb\ne\ng\na\nb\nt\n \nu\nn\nd\n \ns\no\nl\nl\ne\nn\n \ne\ni\nn\na\nn\nd\ne\nr\n \ni\nm\n \nG\ne\ni\ns\nt\n \nd\ne\nr\n \nB\nr\nü\nd\ne\nr\nl\ni\nc\nh\nk\ne\ni\nt\n \nb\ne\ng\ne\ng\nn\ne\nn\n.\nA\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nd\n \nf\nr\ne\ni\n \nu\nn\nd\n \ng\nl\ne\ni\nc\nh\n \na\nn\n \nW\nü\nr\nd\ne\n \nu\nn\nd\n \nR\ne\nc\nh\nt\ne\nn\n \ng\ne\nb\no\nr\ne\nn\n.\n \nS\ni\ne\n \ns\ni\nn\nd\n \nm\ni\nt\n \nV\ne\nr\nn\nu\nn\nf\nt\n \nu\nn\nd\n \nG\ne\nw\ni\ns\ns\ne\nn\n \nb\ne\ng\na\nb\nt\n \nu\nn\nd\n \ns\no"
+}

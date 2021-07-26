@@ -1,0 +1,18 @@
+id: "qvm_Latn"
+language: "qvm"
+script: "Latn"
+name: "Quechua, Margos-Yarowilca-Lauricocha"
+sample_text {
+  masthead_full: "LlAa"
+  masthead_partial: "Pp"
+  styles: "L\na\np\na\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nI\ni\nb\nr\ni"
+  tester: "L\na\np\na\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nI\ni\nb\nr\ni\nm\ni\n \ny\nu\nr\ni\ns\nh\nq"
+  poster_sm: "L\na\np\na\nn\nt"
+  poster_md: "L\na\np\na\nn"
+  poster_lg: "L\na"
+  specimen_48: "L\na\np\na\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nI\ni\nb\nr\ni\nm\ni\n \ny\nu\nr\ni\ns\nh\nq"
+  specimen_36: "L\na\np\na\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nI\ni\nb\nr\ni\nm\ni\n \ny\nu\nr\ni\ns\nh\nq\na\nn\nt\ns\ni\n.\n \nB\nä\nl\ni\nn\nt\ns\ni\nm\ni\n \ny\n "
+  specimen_32: "L\na\np\na\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nI\ni\nb\nr\ni\nm\ni\n \ny\nu\nr\ni\ns\nh\nq\na\nn\nt\ns\ni\n.\n \nB\nä\nl\ni\nn\nt\ns\ni\nm\ni\n \ny\n \nd\ne\nr\në\nc\nh\nu\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nw"
+  specimen_21: "L\na\np\na\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nI\ni\nb\nr\ni\nm\ni\n \ny\nu\nr\ni\ns\nh\nq\na\nn\nt\ns\ni\n.\n \nB\nä\nl\ni\nn\nt\ns\ni\nm\ni\n \ny\n \nd\ne\nr\në\nc\nh\nu\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nw\na\nk\ni\nn\nk\na\nq\nk\nu\nn\na\nn\no\nq\nl\na\np\na\nm\ni\n.\n \nY\na\nr\np\na\ny\nn\ni\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nk\na\ny\nk\na\nn\nm\ni\n \nr\nu\nn\na\n \nm\na\ny\ni\nn\nt\ns\ni\nk\nu\nn\na\nw\na\nn\n \nj\nu\nk\n \nw\na\nw\nq\ni"
+  specimen_16: "L\na\np\na\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nI\ni\nb\nr\ni\nm\ni\n \ny\nu\nr\ni\ns\nh\nq\na\nn\nt\ns\ni\n.\n \nB\nä\nl\ni\nn\nt\ns\ni\nm\ni\n \ny\n \nd\ne\nr\në\nc\nh\nu\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nw\na\nk\ni\nn\nk\na\nq\nk\nu\nn\na\nn\no\nq\nl\na\np\na\nm\ni\n.\n \nY\na\nr\np\na\ny\nn\ni\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nk\na\ny\nk\na\nn\nm\ni\n \nr\nu\nn\na\n \nm\na\ny\ni\nn\nt\ns\ni\nk\nu\nn\na\nw\na\nn\n \nj\nu\nk\n \nw\na\nw\nq\ni\nn\no\nq\n \nk\nu\ny\na\nn\na\nk\nu\nr\n \nk\na\nw\na\np\nä\nk\nu\nn\na\nn\nt\ns\ni\np\na\nq\n.\nL\na\np\na\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nI\ni\nb\nr\ni\nm\ni\n \ny\nu\nr\ni\ns\nh\nq\na\nn\nt\ns\ni\n.\n \nB\nä\nl\ni\nn\nt\ns\ni\nm\ni\n \ny\n \nd\ne\nr\në\nc\nh\nu\nn\nt\ns\ni\nk\nu\nn\na\np\ni\ns\n \nw\na\nk\ni\nn\nk\na\nq\nk\nu\nn\na\nn\no\nq\nl\na\np\na\nm\ni\n.\n \nY"
+}

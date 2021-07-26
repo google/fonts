@@ -1,0 +1,18 @@
+id: "miq_Latn"
+language: "miq"
+script: "Latn"
+name: "Mískito"
+sample_text {
+  masthead_full: "UuPp"
+  masthead_partial: "Ll"
+  styles: "U\np\nl\na\n \ns\nu\nt\n \nb\na\n \nk\nu\nl\nk\na\nn\nk\na\n "
+  tester: "U\np\nl\na\n \ns\nu\nt\n \nb\na\n \nk\nu\nl\nk\na\nn\nk\na\n \nl\na\nk\na\nr\na\n,\n \na\ni"
+  poster_sm: "U\np\nl\na\n \ns"
+  poster_md: "U\np\nl\na\n "
+  poster_lg: "U\np"
+  specimen_48: "U\np\nl\na\n \ns\nu\nt\n \nb\na\n \nk\nu\nl\nk\na\nn\nk\na\n \nl\na\nk\na\nr\na\n,\n \na\ni"
+  specimen_36: "U\np\nl\na\n \ns\nu\nt\n \nb\na\n \nk\nu\nl\nk\na\nn\nk\na\n \nl\na\nk\na\nr\na\n,\n \na\ni\nr\na\ni\nt\nk\na\n \nn\na\nn\ni\nr\na\n \nb\na\nr\na\n \np"
+  specimen_32: "U\np\nl\na\n \ns\nu\nt\n \nb\na\n \nk\nu\nl\nk\na\nn\nk\na\n \nl\na\nk\na\nr\na\n,\n \na\ni\nr\na\ni\nt\nk\na\n \nn\na\nn\ni\nr\na\n \nb\na\nr\na\n \np\nr\ni\n,\n \ns\ni\nn\n,\n \na\ni\nk\nu\nk\ni\n,\n \nb\na\nk\nu\n "
+  specimen_21: "U\np\nl\na\n \ns\nu\nt\n \nb\na\n \nk\nu\nl\nk\na\nn\nk\na\n \nl\na\nk\na\nr\na\n,\n \na\ni\nr\na\ni\nt\nk\na\n \nn\na\nn\ni\nr\na\n \nb\na\nr\na\n \np\nr\ni\n,\n \ns\ni\nn\n,\n \na\ni\nk\nu\nk\ni\n,\n \nb\na\nk\nu\n \nt\na\nk\ni\ns\na\n.\n \nB\na\nm\nn\na\n \ns\ni\nn\ns\n \nl\na\nk\na\n \nb\nr\ni\n \nb\na\nk\nu\n,\n \nl\nu\nk\na\nn\nk\na\n \nb\na\ni\nn\n \np\nr\ni\n \nb\na\nk\nu\n \na\ni\nm\nu\ni\nh\nn\ni\n \nl\na\nk\na\nr\na\n,\n \np\na\nn\na\n \np\na\nn"
+  specimen_16: "U\np\nl\na\n \ns\nu\nt\n \nb\na\n \nk\nu\nl\nk\na\nn\nk\na\n \nl\na\nk\na\nr\na\n,\n \na\ni\nr\na\ni\nt\nk\na\n \nn\na\nn\ni\nr\na\n \nb\na\nr\na\n \np\nr\ni\n,\n \ns\ni\nn\n,\n \na\ni\nk\nu\nk\ni\n,\n \nb\na\nk\nu\n \nt\na\nk\ni\ns\na\n.\n \nB\na\nm\nn\na\n \ns\ni\nn\ns\n \nl\na\nk\na\n \nb\nr\ni\n \nb\na\nk\nu\n,\n \nl\nu\nk\na\nn\nk\na\n \nb\na\ni\nn\n \np\nr\ni\n \nb\na\nk\nu\n \na\ni\nm\nu\ni\nh\nn\ni\n \nl\na\nk\na\nr\na\n,\n \np\na\nn\na\n \np\na\nn\na\n \nt\na\nb\na\ni\nk\na\nn\n \nk\na\ni\na\ns\na\n.\nU\np\nl\na\n \ns\nu\nt\n \nb\na\n \nk\nu\nl\nk\na\nn\nk\na\n \nl\na\nk\na\nr\na\n,\n \na\ni\nr\na\ni\nt\nk\na\n \nn\na\nn\ni\nr\na\n \nb\na\nr\na\n \np\nr\ni\n,\n \ns\ni\nn\n,\n \na\ni\nk\nu\nk\ni\n,\n \nb\na\nk\nu\n \nt\na\nk\ni\ns\na\n.\n \nB\na\nm\nn\na\n \ns\ni\nn\ns\n \nl\na\nk\na\n \nb\nr\ni\n \nb\na\nk\nu\n,\n \nl\nu\nk\na"
+}

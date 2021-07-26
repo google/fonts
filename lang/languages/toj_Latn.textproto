@@ -1,0 +1,18 @@
+id: "toj_Latn"
+language: "toj"
+script: "Latn"
+name: "Tojolabal"
+sample_text {
+  masthead_full: "SsPp"
+  masthead_partial: "Ee"
+  styles: "S\np\ne\nt\ns\na\nn\na\nl\n \nj\na\n \ns\nw\ni\nn\nk\ni\nl\n "
+  tester: "S\np\ne\nt\ns\na\nn\na\nl\n \nj\na\n \ns\nw\ni\nn\nk\ni\nl\n \nj\na\n \nl\nu\n’\nu\nm\n \nk"
+  poster_sm: "S\np\ne\nt\ns\na"
+  poster_md: "S\np\ne\nt\ns"
+  poster_lg: "S\np"
+  specimen_48: "S\np\ne\nt\ns\na\nn\na\nl\n \nj\na\n \ns\nw\ni\nn\nk\ni\nl\n \nj\na\n \nl\nu\n’\nu\nm\n \nk"
+  specimen_36: "S\np\ne\nt\ns\na\nn\na\nl\n \nj\na\n \ns\nw\ni\nn\nk\ni\nl\n \nj\na\n \nl\nu\n’\nu\nm\n \nk\n’\ni\nn\na\nl\ni\n \nj\nu\nn\nx\nt\na\n \nw\na\nx\n \nj\nu\nl"
+  specimen_32: "S\np\ne\nt\ns\na\nn\na\nl\n \nj\na\n \ns\nw\ni\nn\nk\ni\nl\n \nj\na\n \nl\nu\n’\nu\nm\n \nk\n’\ni\nn\na\nl\ni\n \nj\nu\nn\nx\nt\na\n \nw\na\nx\n \nj\nu\nl\n \ns\nc\nh\no\nn\nj\ne\nl\n,\n \ns\no\nk\n \nj\na\n \ns\ni"
+  specimen_21: "S\np\ne\nt\ns\na\nn\na\nl\n \nj\na\n \ns\nw\ni\nn\nk\ni\nl\n \nj\na\n \nl\nu\n’\nu\nm\n \nk\n’\ni\nn\na\nl\ni\n \nj\nu\nn\nx\nt\na\n \nw\na\nx\n \nj\nu\nl\n \ns\nc\nh\no\nn\nj\ne\nl\n,\n \ns\no\nk\n \nj\na\n \ns\ni\nj\np\na\nn\nu\nb\n’\na\nl\ni\n,\n \nj\na\n \ny\nu\nj\n \no\nj\nn\ni\n \nb\n’\no\nb\n’\n \ns\nk\n’\nu\n’\nl\nu\nk\n \nj\na\n \nj\na\ns\n \ns\nk\n’\na\nn\na\n-\ni\n \nj\na\n \nb\n’\na\ns\n \nl\ne\nk\ni\nl\na\nl\ni\n,\n \nj\na\n \ny\nu\nj\n \nj\na\n \na\ny"
+  specimen_16: "S\np\ne\nt\ns\na\nn\na\nl\n \nj\na\n \ns\nw\ni\nn\nk\ni\nl\n \nj\na\n \nl\nu\n’\nu\nm\n \nk\n’\ni\nn\na\nl\ni\n \nj\nu\nn\nx\nt\na\n \nw\na\nx\n \nj\nu\nl\n \ns\nc\nh\no\nn\nj\ne\nl\n,\n \ns\no\nk\n \nj\na\n \ns\ni\nj\np\na\nn\nu\nb\n’\na\nl\ni\n,\n \nj\na\n \ny\nu\nj\n \no\nj\nn\ni\n \nb\n’\no\nb\n’\n \ns\nk\n’\nu\n’\nl\nu\nk\n \nj\na\n \nj\na\ns\n \ns\nk\n’\na\nn\na\n-\ni\n \nj\na\n \nb\n’\na\ns\n \nl\ne\nk\ni\nl\na\nl\ni\n,\n \nj\na\n \ny\nu\nj\n \nj\na\n \na\ny\n \ns\nk\n’\nu\nj\no\nl\ni\n \ns\no\nk\n \na\ny\n \ns\np\ne\nn\ns\na\nr\ni\n \nt\n’\ni\nl\na\nn\n \no\nj\n \ny\ni\nl\ns\nb\n’\na\nj\ne\n \nl\ne\nk\n \ns\no\nk\n \nj\na\n \ns\nm\no\nj\n \nj\nu\nm\na\ns\na\n.\nS\np\ne\nt\ns\na\nn\na\nl\n \nj\na\n \ns\nw\ni\nn\nk\ni\nl\n \nj\na\n \nl\nu\n’\nu\nm\n \nk\n’\ni\nn\na\nl\ni\n \nj\nu\nn\nx\nt\na\n \nw\na\nx\n \nj\nu\nl\n \ns\nc\nh\no\nn\nj"
+}

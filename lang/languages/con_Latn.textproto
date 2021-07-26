@@ -1,0 +1,18 @@
+id: "con_Latn"
+language: "con"
+script: "Latn"
+name: "Cofán, Latin"
+sample_text {
+  masthead_full: "PpÛû"
+  masthead_partial: "Ii"
+  styles: "P\nû\ni\n \na\n\'\ni\n \nt\ns\nû\n \nv\na\n \na\nn\nd\ne\nn\ng"
+  tester: "P\nû\ni\n \na\n\'\ni\n \nt\ns\nû\n \nv\na\n \na\nn\nd\ne\nn\ng\na\n \nj\ni\n\'\nf\na\n \nf\na\ne"
+  poster_sm: "P\nû\ni\n \na\n\'"
+  poster_md: "P\nû\ni\n \na"
+  poster_lg: "P\nû"
+  specimen_48: "P\nû\ni\n \na\n\'\ni\n \nt\ns\nû\n \nv\na\n \na\nn\nd\ne\nn\ng\na\n \nj\ni\n\'\nf\na\n \nf\na\ne"
+  specimen_36: "P\nû\ni\n \na\n\'\ni\n \nt\ns\nû\n \nv\na\n \na\nn\nd\ne\nn\ng\na\n \nj\ni\n\'\nf\na\n \nf\na\ne\n\'\nn\ng\na\ne\n \nu\np\na\nt\ns\nh\ne\n \nk\na\nn\ns\ne\n\'\nf"
+  specimen_32: "P\nû\ni\n \na\n\'\ni\n \nt\ns\nû\n \nv\na\n \na\nn\nd\ne\nn\ng\na\n \nj\ni\n\'\nf\na\n \nf\na\ne\n\'\nn\ng\na\ne\n \nu\np\na\nt\ns\nh\ne\n \nk\na\nn\ns\ne\n\'\nf\na\ny\ne\n.\n \nT\ns\na\n\'\nk\na\nm\nb\na\n \nt\ns\nû\n \ni\nn"
+  specimen_21: "P\nû\ni\n \na\n\'\ni\n \nt\ns\nû\n \nv\na\n \na\nn\nd\ne\nn\ng\na\n \nj\ni\n\'\nf\na\n \nf\na\ne\n\'\nn\ng\na\ne\n \nu\np\na\nt\ns\nh\ne\n \nk\na\nn\ns\ne\n\'\nf\na\ny\ne\n.\n \nT\ns\na\n\'\nk\na\nm\nb\na\n \nt\ns\nû\n \ni\nn\nj\ne\nn\ng\ne\n \np\nû\ni\ny\ni\n\'\nk\nh\nu\n \na\ns\ni\n\'\nt\nh\na\ne\nm\nb\na\n \ni\nn\nj\ne\nn\ng\ne\np\na\n \nñ\nu\n\'\nt\ns\nh\ne\n \nf\na\ne\nn\ng\na\ns\nû\nm\na\n \nd\na\n\'\nñ\nu\nm\nb\ne\n \nk\na\nn\ns\ne\n\'\nf\na\ny\ne\n.\nP\nû\ni\n \na\n\'"
+  specimen_16: "P\nû\ni\n \na\n\'\ni\n \nt\ns\nû\n \nv\na\n \na\nn\nd\ne\nn\ng\na\n \nj\ni\n\'\nf\na\n \nf\na\ne\n\'\nn\ng\na\ne\n \nu\np\na\nt\ns\nh\ne\n \nk\na\nn\ns\ne\n\'\nf\na\ny\ne\n.\n \nT\ns\na\n\'\nk\na\nm\nb\na\n \nt\ns\nû\n \ni\nn\nj\ne\nn\ng\ne\n \np\nû\ni\ny\ni\n\'\nk\nh\nu\n \na\ns\ni\n\'\nt\nh\na\ne\nm\nb\na\n \ni\nn\nj\ne\nn\ng\ne\np\na\n \nñ\nu\n\'\nt\ns\nh\ne\n \nf\na\ne\nn\ng\na\ns\nû\nm\na\n \nd\na\n\'\nñ\nu\nm\nb\ne\n \nk\na\nn\ns\ne\n\'\nf\na\ny\ne\n.\nP\nû\ni\n \na\n\'\ni\n \nt\ns\nû\n \nv\na\n \na\nn\nd\ne\nn\ng\na\n \nj\ni\n\'\nf\na\n \nf\na\ne\n\'\nn\ng\na\ne\n \nu\np\na\nt\ns\nh\ne\n \nk\na\nn\ns\ne\n\'\nf\na\ny\ne\n.\n \nT\ns\na\n\'\nk\na\nm\nb\na\n \nt\ns\nû\n \ni\nn\nj\ne\nn\ng\ne\n \np\nû\ni\ny\ni\n\'\nk\nh\nu\n \na\ns\ni\n\'\nt\nh\na\ne\nm\nb\na\n \ni\nn\nj\ne\nn\ng\ne\np\na\n \nñ\nu\n\'\nt\ns\nh\ne\n \nf\na\ne\nn\ng\na\ns\nû\nm\na\n \nd\na\n\'\nñ\nu"
+}

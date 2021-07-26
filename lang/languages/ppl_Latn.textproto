@@ -1,0 +1,18 @@
+id: "ppl_Latn"
+language: "ppl"
+script: "Latn"
+name: "Pipil"
+sample_text {
+  masthead_full: "MmUu"
+  masthead_partial: "Cc"
+  styles: "M\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw"
+  tester: "M\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw\ne\ny\ng\na\n \nn\ne\ns\nt\ni"
+  poster_sm: "M\nu\nc\nh\ni\n "
+  poster_md: "M\nu\nc\nh\ni"
+  poster_lg: "M\nu"
+  specimen_48: "M\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw\ne\ny\ng\na\n \nn\ne\ns\nt\ni"
+  specimen_36: "M\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw\ne\ny\ng\na\n \nn\ne\ns\nt\ni\nw\ni\nt\n \nt\na\nm\na\ng\ni\nx\nt\ni\n \ng\ne\nn\ng\na\n "
+  specimen_32: "M\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw\ne\ny\ng\na\n \nn\ne\ns\nt\ni\nw\ni\nt\n \nt\na\nm\na\ng\ni\nx\nt\ni\n \ng\ne\nn\ng\na\n \nt\ni\nk\n \ne\nk\nn\ne\nl\ni\na\nt\n \nw\na\nn\n \ni\np\na"
+  specimen_21: "M\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw\ne\ny\ng\na\n \nn\ne\ns\nt\ni\nw\ni\nt\n \nt\na\nm\na\ng\ni\nx\nt\ni\n \ng\ne\nn\ng\na\n \nt\ni\nk\n \ne\nk\nn\ne\nl\ni\na\nt\n \nw\na\nn\n \ni\np\na\nl\n \nw\na\nn\n \ng\ni\nc\nh\ni\nw\nt\ni\nw\ni\nt\n \ni\np\na\nl\n \nm\na\n \nm\nu\nn\ne\ng\ni\ng\na\nn\n \nn\ne\n \ns\ne\n \np\na\nl\n \nn\ne\n \ns\ne\n.\nM\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw\ne\ny\ng\na\n \nn\ne"
+  specimen_16: "M\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw\ne\ny\ng\na\n \nn\ne\ns\nt\ni\nw\ni\nt\n \nt\na\nm\na\ng\ni\nx\nt\ni\n \ng\ne\nn\ng\na\n \nt\ni\nk\n \ne\nk\nn\ne\nl\ni\na\nt\n \nw\na\nn\n \ni\np\na\nl\n \nw\na\nn\n \ng\ni\nc\nh\ni\nw\nt\ni\nw\ni\nt\n \ni\np\na\nl\n \nm\na\n \nm\nu\nn\ne\ng\ni\ng\na\nn\n \nn\ne\n \ns\ne\n \np\na\nl\n \nn\ne\n \ns\ne\n.\nM\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw\ne\ny\ng\na\n \nn\ne\ns\nt\ni\nw\ni\nt\n \nt\na\nm\na\ng\ni\nx\nt\ni\n \ng\ne\nn\ng\na\n \nt\ni\nk\n \ne\nk\nn\ne\nl\ni\na\nt\n \nw\na\nn\n \ni\np\na\nl\n \nw\na\nn\n \ng\ni\nc\nh\ni\nw\nt\ni\nw\ni\nt\n \ni\np\na\nl\n \nm\na\n \nm\nu\nn\ne\ng\ni\ng\na\nn\n \nn\ne\n \ns\ne\n \np\na\nl\n \nn\ne\n \ns\ne\n.\nM\nu\nc\nh\ni\n \nn\ne\n \nt\na\ny\n \ng\ne\nn\n \nt\nu\n \nw\ne\ny\ng\na\n \nn\ne\ns\nt\ni"
+}

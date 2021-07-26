@@ -14,3 +14,17 @@ exemplar_chars {
   punctuation: "- ‑ , ; : ! ? . \' ‘ ’ \" “ ” ( ) [ ] { } ′ ″ { } { } { } { } { } { } { } { } { } { } { } { } { } { } { }"
   index: "A B Ɓ C D Ɗ E F G H I J K Ƙ L M N O R S T U W Y Ƴ Z"
 }
+sample_text {
+  masthead_full: "DdUu"
+  masthead_partial: "Kk"
+  styles: "D\nu\nk\n \n‘\ny\na\nn\n’\na\nd\na\nn\n \na\nn\na\n \nh\na\ni\nh"
+  tester: "D\nu\nk\n \n‘\ny\na\nn\n’\na\nd\na\nn\n \na\nn\na\n \nh\na\ni\nh\nu\nw\na\nr\ns\nu\n \nn\ne\n "
+  poster_sm: "D\nu\nk\n \n‘\ny"
+  poster_md: "D\nu\nk\n \n‘"
+  poster_lg: "D\nu"
+  specimen_48: "D\nu\nk\n \n‘\ny\na\nn\n’\na\nd\na\nn\n \na\nn\na\n \nh\na\ni\nh\nu\nw\na\nr\ns\nu\n \nn\ne\n "
+  specimen_36: "D\nu\nk\n \n‘\ny\na\nn\n’\na\nd\na\nn\n \na\nn\na\n \nh\na\ni\nh\nu\nw\na\nr\ns\nu\n \nn\ne\n \na\n \nm\na\nt\ns\na\ny\ni\nn\n \n‘\ny\na\nn\nt\na\nt\nt\nu"
+  specimen_32: "D\nu\nk\n \n‘\ny\na\nn\n’\na\nd\na\nn\n \na\nn\na\n \nh\na\ni\nh\nu\nw\na\nr\ns\nu\n \nn\ne\n \na\n \nm\na\nt\ns\na\ny\ni\nn\n \n‘\ny\na\nn\nt\na\nt\nt\nu\nn\n \n‘\ny\na\n’\ny\na\n,\n \nk\nu\nm\na\n \nm\nu\nt\nu\nn\nc\ni"
+  specimen_21: "D\nu\nk\n \n‘\ny\na\nn\n’\na\nd\na\nn\n \na\nn\na\n \nh\na\ni\nh\nu\nw\na\nr\ns\nu\n \nn\ne\n \na\n \nm\na\nt\ns\na\ny\ni\nn\n \n‘\ny\na\nn\nt\na\nt\nt\nu\nn\n \n‘\ny\na\n’\ny\na\n,\n \nk\nu\nm\na\n \nm\nu\nt\nu\nn\nc\ni\nn\ns\nu\n \nd\na\n \nh\na\nq\nq\no\nq\ni\nn\ns\nu\n \nd\na\ni\nd\na\ni\n \ny\na\nk\ne\n \nd\na\n \nn\na\n \nk\no\nw\na\n.\n \nS\nu\nn\na\n \nd\na\n \nt\nu\nn\na\nn\ni\n \nd\na\n \nc\ni\nk\na\nk\nk\ne\nn\n \nh\na\nn\nk\na\nl\ni\n,\n \ns\na\nb"
+  specimen_16: "D\nu\nk\n \n‘\ny\na\nn\n’\na\nd\na\nn\n \na\nn\na\n \nh\na\ni\nh\nu\nw\na\nr\ns\nu\n \nn\ne\n \na\n \nm\na\nt\ns\na\ny\ni\nn\n \n‘\ny\na\nn\nt\na\nt\nt\nu\nn\n \n‘\ny\na\n’\ny\na\n,\n \nk\nu\nm\na\n \nm\nu\nt\nu\nn\nc\ni\nn\ns\nu\n \nd\na\n \nh\na\nq\nq\no\nq\ni\nn\ns\nu\n \nd\na\ni\nd\na\ni\n \ny\na\nk\ne\n \nd\na\n \nn\na\n \nk\no\nw\na\n.\n \nS\nu\nn\na\n \nd\na\n \nt\nu\nn\na\nn\ni\n \nd\na\n \nc\ni\nk\na\nk\nk\ne\nn\n \nh\na\nn\nk\na\nl\ni\n,\n \ns\na\nb\no\nd\na\n \nh\na\nk\na\n \na\nk\ne\n \ns\no\nn\n \nd\nu\nk\n \nm\nu\n’\na\nm\na\nl\na\nr\n \nd\na\n \nz\na\n \ns\nu\n \ny\ni\n,\n \nt\na\n \nk\na\ns\na\nn\nc\ne\n \na\nk\nw\na\ni\n \n‘\ny\na\nn\n’\nu\nw\na\nn\nt\na\nk\na\n \na\n \nt\ns\na\nk\na\nn\ni\n.\nD\nu\nk\n \n‘\ny\na\nn\n’\na\nd\na\nn\n \na\nn\na\n \nh\na\ni\nh\nu\nw\na\nr\ns\nu\n \nn\ne\n \na\n \nm\na\nt\ns\na\ny\ni\nn\n "
+}

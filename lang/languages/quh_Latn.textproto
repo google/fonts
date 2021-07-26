@@ -1,0 +1,18 @@
+id: "quh_Latn"
+language: "quh"
+script: "Latn"
+name: "Quechua, South Bolivian"
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Kk"
+  styles: "T\nu\nk\nu\ny\n \nk\na\ny\n \np\na\nc\nh\na\nm\na\nn\n \np\na"
+  tester: "T\nu\nk\nu\ny\n \nk\na\ny\n \np\na\nc\nh\na\nm\na\nn\n \np\na\nq\na\nr\ni\nm\nu\nj\nk\nu\nn"
+  poster_sm: "T\nu\nk\nu\ny\n "
+  poster_md: "T\nu\nk\nu\ny"
+  poster_lg: "T\nu"
+  specimen_48: "T\nu\nk\nu\ny\n \nk\na\ny\n \np\na\nc\nh\na\nm\na\nn\n \np\na\nq\na\nr\ni\nm\nu\nj\nk\nu\nn"
+  specimen_36: "T\nu\nk\nu\ny\n \nk\na\ny\n \np\na\nc\nh\na\nm\na\nn\n \np\na\nq\na\nr\ni\nm\nu\nj\nk\nu\nn\na\n \nl\ni\nb\nr\ne\ns\n \nn\na\ns\ne\nk\nu\nn\nt\nu\n \nt"
+  specimen_32: "T\nu\nk\nu\ny\n \nk\na\ny\n \np\na\nc\nh\na\nm\na\nn\n \np\na\nq\na\nr\ni\nm\nu\nj\nk\nu\nn\na\n \nl\ni\nb\nr\ne\ns\n \nn\na\ns\ne\nk\nu\nn\nt\nu\n \nt\nu\nk\nu\ny\np\nu\nn\ni\nt\na\nj\n \nk\ni\nk\ni\nn\n \no\nb"
+  specimen_21: "T\nu\nk\nu\ny\n \nk\na\ny\n \np\na\nc\nh\na\nm\na\nn\n \np\na\nq\na\nr\ni\nm\nu\nj\nk\nu\nn\na\n \nl\ni\nb\nr\ne\ns\n \nn\na\ns\ne\nk\nu\nn\nt\nu\n \nt\nu\nk\nu\ny\np\nu\nn\ni\nt\na\nj\n \nk\ni\nk\ni\nn\n \no\nb\nl\ni\ng\na\nc\ni\no\nn\ne\ns\nn\ni\ny\nc\nj\nl\nl\na\nt\na\nj\n,\n \nj\ni\nn\na\nk\na\nm\na\nl\nl\na\n \nh\no\nn\no\nr\nn\ni\ny\no\nj\nt\na\nj\n \na\nt\ni\ny\nn\ni\ny\no\nj\nt\na\nj\n,\n \nc\nh\na\nn\nt\na\nq\na\n \nr\na\nz\no\nn\nw\na\nn\nt"
+  specimen_16: "T\nu\nk\nu\ny\n \nk\na\ny\n \np\na\nc\nh\na\nm\na\nn\n \np\na\nq\na\nr\ni\nm\nu\nj\nk\nu\nn\na\n \nl\ni\nb\nr\ne\ns\n \nn\na\ns\ne\nk\nu\nn\nt\nu\n \nt\nu\nk\nu\ny\np\nu\nn\ni\nt\na\nj\n \nk\ni\nk\ni\nn\n \no\nb\nl\ni\ng\na\nc\ni\no\nn\ne\ns\nn\ni\ny\nc\nj\nl\nl\na\nt\na\nj\n,\n \nj\ni\nn\na\nk\na\nm\na\nl\nl\na\n \nh\no\nn\no\nr\nn\ni\ny\no\nj\nt\na\nj\n \na\nt\ni\ny\nn\ni\ny\no\nj\nt\na\nj\n,\n \nc\nh\na\nn\nt\na\nq\na\n \nr\na\nz\no\nn\nw\na\nn\nt\na\nj\n \nc\no\nn\nc\ni\ne\nn\nc\ni\na\nw\na\nn\nt\na\nj\n \nd\no\nt\na\ns\nq\na\n \nk\na\ns\nq\na\nn\nk\nu\nr\na\ny\nk\nu\n,\n \nk\na\nw\ns\na\nq\ne\n \nm\na\ns\ni\np\nu\nr\na\n \nj\ni\nn\na\n,\n \nt\nu\nk\nu\ny\n \nu\nj\n \nm\nu\nn\na\nk\nu\ny\nl\nl\na\np\ni\n \nk\na\nw\ns\na\nk\nu\nn\na\nn\nk\nu\n \nt\ni\na\nn\n.\nT\nu\nk\nu\ny\n \nk\na\ny\n \np\na\nc\nh\na\nm\na\nn\n \np"
+}

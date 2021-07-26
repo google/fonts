@@ -1,0 +1,18 @@
+id: "mfq_Latn"
+language: "mfq"
+script: "Latn"
+name: "Moba"
+sample_text {
+  masthead_full: "NnIi"
+  masthead_partial: "Ff"
+  styles: "N\ni\nf\no\ni\n \nk\nu\nl\n \nm\na\na\nl\n \ny\ne\nn\nd\nu\n "
+  tester: "N\ni\nf\no\ni\n \nk\nu\nl\n \nm\na\na\nl\n \ny\ne\nn\nd\nu\n \nb\nu\na\nm\n \np\no\n \ni\n,"
+  poster_sm: "N\ni\nf\no\ni\n "
+  poster_md: "N\ni\nf\no\ni"
+  poster_lg: "N\ni"
+  specimen_48: "N\ni\nf\no\ni\n \nk\nu\nl\n \nm\na\na\nl\n \ny\ne\nn\nd\nu\n \nb\nu\na\nm\n \np\no\n \ni\n,"
+  specimen_36: "N\ni\nf\no\ni\n \nk\nu\nl\n \nm\na\na\nl\n \ny\ne\nn\nd\nu\n \nb\nu\na\nm\n \np\no\n \ni\n,\n \nk\n \nb\n \ny\nu\nd\na\nn\nd\n \ny\ne\nn\n \nb\n \ny\ni"
+  specimen_32: "N\ni\nf\no\ni\n \nk\nu\nl\n \nm\na\na\nl\n \ny\ne\nn\nd\nu\n \nb\nu\na\nm\n \np\no\n \ni\n,\n \nk\n \nb\n \ny\nu\nd\na\nn\nd\n \ny\ne\nn\n \nb\n \ny\ni\nk\no\n-\nn\nb\na\n \nb\ni\nɛ\n \nj\na\n.\n \nB\n \nm\nɔ\ng\n "
+  specimen_21: "N\ni\nf\no\ni\n \nk\nu\nl\n \nm\na\na\nl\n \ny\ne\nn\nd\nu\n \nb\nu\na\nm\n \np\no\n \ni\n,\n \nk\n \nb\n \ny\nu\nd\na\nn\nd\n \ny\ne\nn\n \nb\n \ny\ni\nk\no\n-\nn\nb\na\n \nb\ni\nɛ\n \nj\na\n.\n \nB\n \nm\nɔ\ng\n \nm\na\na\nl\nm\n \ng\n \nb\na\nn\n \ny\na\nl\n \ng\n \nŋ\na\nn\n,\n \ng\n \nb\ni\nɛ\n \nb\na\na\n \nb\nu\n \ny\ne\nn\n \nl\ni\ne\nb\n \nn\na\na\nt\na\na\nn\nn\n \nn\n \nn\ni\nn\nŋ\n \ni\n.\nN\ni\nf\no\ni\n \nk\nu\nl\n \nm\na\na\nl\n \ny\ne\nn"
+  specimen_16: "N\ni\nf\no\ni\n \nk\nu\nl\n \nm\na\na\nl\n \ny\ne\nn\nd\nu\n \nb\nu\na\nm\n \np\no\n \ni\n,\n \nk\n \nb\n \ny\nu\nd\na\nn\nd\n \ny\ne\nn\n \nb\n \ny\ni\nk\no\n-\nn\nb\na\n \nb\ni\nɛ\n \nj\na\n.\n \nB\n \nm\nɔ\ng\n \nm\na\na\nl\nm\n \ng\n \nb\na\nn\n \ny\na\nl\n \ng\n \nŋ\na\nn\n,\n \ng\n \nb\ni\nɛ\n \nb\na\na\n \nb\nu\n \ny\ne\nn\n \nl\ni\ne\nb\n \nn\na\na\nt\na\na\nn\nn\n \nn\n \nn\ni\nn\nŋ\n \ni\n.\nN\ni\nf\no\ni\n \nk\nu\nl\n \nm\na\na\nl\n \ny\ne\nn\nd\nu\n \nb\nu\na\nm\n \np\no\n \ni\n,\n \nk\n \nb\n \ny\nu\nd\na\nn\nd\n \ny\ne\nn\n \nb\n \ny\ni\nk\no\n-\nn\nb\na\n \nb\ni\nɛ\n \nj\na\n.\n \nB\n \nm\nɔ\ng\n \nm\na\na\nl\nm\n \ng\n \nb\na\nn\n \ny\na\nl\n \ng\n \nŋ\na\nn\n,\n \ng\n \nb\ni\nɛ\n \nb\na\na\n \nb\nu\n \ny\ne\nn\n \nl\ni\ne\nb\n \nn\na\na\nt\na\na\nn\nn\n \nn\n \nn\ni\nn\nŋ\n \ni\n.\nN\ni\nf\no\ni\n \nk\nu\nl\n \nm"
+}

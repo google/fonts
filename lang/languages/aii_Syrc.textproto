@@ -10,4 +10,18 @@ exemplar_chars {
   base: "ܟ ܝ ܛ ܚ ܙ ܘ ܗ ܕ ܓ ܒ ܐ ܬ ܫ ܪ ܩ ܨ ܦ ܥ ܣ ܢ ܡ ܠ"
   marks: "◌ܲ ◌ܵ ◌ܸ ◌ܹ ◌݃ ◌݇"
 }
+sample_text {
+  masthead_full: "ܟܠܒܪ"
+  masthead_partial: "ܢܫ"
+  styles: "ܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ"
+  tester: "ܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ\nܒ\nܪ\nܒ\nܪ\n \nܓ\nܘ\n \nܐ\nܝ"
+  poster_sm: "ܟ\nܠ\n \nܒ\nܪ\nܢ"
+  poster_md: "ܟ\nܠ\n \nܒ\nܪ"
+  poster_lg: "ܟ\nܠ"
+  specimen_48: "ܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ\nܒ\nܪ\nܒ\nܪ\n \nܓ\nܘ\n \nܐ\nܝ"
+  specimen_36: "ܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ\nܒ\nܪ\nܒ\nܪ\n \nܓ\nܘ\n \nܐ\nܝ\nܩ\nܪ\nܐ\n \nܘ\nܙ\nܕ\nܩ\nܐ\n.\n \nܘ\nܦ\nܝ\nܫ\nܝ\nܠ\nܗ\n \nܝ"
+  specimen_32: "ܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ\nܒ\nܪ\nܒ\nܪ\n \nܓ\nܘ\n \nܐ\nܝ\nܩ\nܪ\nܐ\n \nܘ\nܙ\nܕ\nܩ\nܐ\n.\n \nܘ\nܦ\nܝ\nܫ\nܝ\nܠ\nܗ\n \nܝ\nܗ\nܒ\nܐ\n \nܗ\nܘ\nܢ\nܐ\n \nܘ\nܐ\nܢ\nܝ\nܬ\n.\n \nܒ\nܘ\nܕ\n \nܕ"
+  specimen_21: "ܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ\nܒ\nܪ\nܒ\nܪ\n \nܓ\nܘ\n \nܐ\nܝ\nܩ\nܪ\nܐ\n \nܘ\nܙ\nܕ\nܩ\nܐ\n.\n \nܘ\nܦ\nܝ\nܫ\nܝ\nܠ\nܗ\n \nܝ\nܗ\nܒ\nܐ\n \nܗ\nܘ\nܢ\nܐ\n \nܘ\nܐ\nܢ\nܝ\nܬ\n.\n \nܒ\nܘ\nܕ\n \nܕ\nܐ\nܗ\nܐ\n \nܓ\nܫ\nܩ\nܬ\nܝ\n \nܥ\nܠ\n \nܐ\nܚ\nܪ\nܢ\nܐ\n \nܓ\nܪ\nܓ\n \nܗ\nܘ\nܝ\nܐ\n \nܒ\nܚ\nܕ\n \nܪ\nܘ\nܚ\nܐ\n \nܕ\nܐ\nܚ\nܢ\nܘ\nܬ\nܐ\n.\nܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ\nܒ\nܪ\nܒ\nܪ\n \nܓ\nܘ\n \nܐ\nܝ\nܩ\nܪ\nܐ\n "
+  specimen_16: "ܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ\nܒ\nܪ\nܒ\nܪ\n \nܓ\nܘ\n \nܐ\nܝ\nܩ\nܪ\nܐ\n \nܘ\nܙ\nܕ\nܩ\nܐ\n.\n \nܘ\nܦ\nܝ\nܫ\nܝ\nܠ\nܗ\n \nܝ\nܗ\nܒ\nܐ\n \nܗ\nܘ\nܢ\nܐ\n \nܘ\nܐ\nܢ\nܝ\nܬ\n.\n \nܒ\nܘ\nܕ\n \nܕ\nܐ\nܗ\nܐ\n \nܓ\nܫ\nܩ\nܬ\nܝ\n \nܥ\nܠ\n \nܐ\nܚ\nܪ\nܢ\nܐ\n \nܓ\nܪ\nܓ\n \nܗ\nܘ\nܝ\nܐ\n \nܒ\nܚ\nܕ\n \nܪ\nܘ\nܚ\nܐ\n \nܕ\nܐ\nܚ\nܢ\nܘ\nܬ\nܐ\n.\nܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ\nܒ\nܪ\nܒ\nܪ\n \nܓ\nܘ\n \nܐ\nܝ\nܩ\nܪ\nܐ\n \nܘ\nܙ\nܕ\nܩ\nܐ\n.\n \nܘ\nܦ\nܝ\nܫ\nܝ\nܠ\nܗ\n \nܝ\nܗ\nܒ\nܐ\n \nܗ\nܘ\nܢ\nܐ\n \nܘ\nܐ\nܢ\nܝ\nܬ\n.\n \nܒ\nܘ\nܕ\n \nܕ\nܐ\nܗ\nܐ\n \nܓ\nܫ\nܩ\nܬ\nܝ\n \nܥ\nܠ\n \nܐ\nܚ\nܪ\nܢ\nܐ\n \nܓ\nܪ\nܓ\n \nܗ\nܘ\nܝ\nܐ\n \nܒ\nܚ\nܕ\n \nܪ\nܘ\nܚ\nܐ\n \nܕ\nܐ\nܚ\nܢ\nܘ\nܬ\nܐ\n.\nܟ\nܠ\n \nܒ\nܪ\nܢ\nܫ\nܐ\n \nܒ\nܪ\nܝ\nܠ\nܗ\n \nܚ\nܐ\nܪ\nܐ\n \nܘ\nܒ\nܪ\nܒ\nܪ\n \nܓ\nܘ\n \nܐ\nܝ\nܩ\nܪ\nܐ\n \nܘ\nܙ\nܕ\nܩ\nܐ\n.\n \nܘ\nܦ\nܝ"
+}
 historical: true

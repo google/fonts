@@ -19,3 +19,17 @@ exemplar_chars {
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” « » ( ) [ ] § @ * / & # ′ ″ ~"
   index: "A B C Ç D {DH} E Ë F G {GJ} H I J K L {LL} M N {NJ} O P Q R {RR} S {SH} T {TH} U V X {XH} Y Z {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH} {DH} {GJ} {LL} {NJ} {RR} {SH} {TH} {XH} {ZH}"
 }
+sample_text {
+  masthead_full: "TtËë"
+  masthead_partial: "Gg"
+  styles: "T\në\n \ng\nj\ni\nt\nh\në\n \nn\nj\ne\nr\në\nz\ni\nt\n \nl\ni"
+  tester: "T\në\n \ng\nj\ni\nt\nh\në\n \nn\nj\ne\nr\në\nz\ni\nt\n \nl\ni\nn\nd\ni\nn\n \nt\në\n \nl\ni"
+  poster_sm: "T\në\n \ng\nj\ni"
+  poster_md: "T\në\n \ng\nj"
+  poster_lg: "T\në"
+  specimen_48: "T\në\n \ng\nj\ni\nt\nh\në\n \nn\nj\ne\nr\në\nz\ni\nt\n \nl\ni\nn\nd\ni\nn\n \nt\në\n \nl\ni"
+  specimen_36: "T\në\n \ng\nj\ni\nt\nh\në\n \nn\nj\ne\nr\në\nz\ni\nt\n \nl\ni\nn\nd\ni\nn\n \nt\në\n \nl\ni\nr\në\n \nd\nh\ne\n \nt\në\n \nb\na\nr\na\nb\na\nr\nt\në\n "
+  specimen_32: "T\në\n \ng\nj\ni\nt\nh\në\n \nn\nj\ne\nr\në\nz\ni\nt\n \nl\ni\nn\nd\ni\nn\n \nt\në\n \nl\ni\nr\në\n \nd\nh\ne\n \nt\në\n \nb\na\nr\na\nb\na\nr\nt\në\n \nn\në\n \nd\ni\nn\nj\ni\nt\ne\nt\n \nd\nh\ne\n \nn\në\n \nt"
+  specimen_21: "T\në\n \ng\nj\ni\nt\nh\në\n \nn\nj\ne\nr\në\nz\ni\nt\n \nl\ni\nn\nd\ni\nn\n \nt\në\n \nl\ni\nr\në\n \nd\nh\ne\n \nt\në\n \nb\na\nr\na\nb\na\nr\nt\në\n \nn\në\n \nd\ni\nn\nj\ni\nt\ne\nt\n \nd\nh\ne\n \nn\në\n \nt\në\n \nd\nr\ne\nj\nt\na\n.\n \nA\nt\na\n \nk\na\nn\në\n \na\nr\ns\ny\ne\n \nd\nh\ne\n \nn\nd\në\nr\ng\nj\ne\ng\nj\ne\n \nd\nh\ne\n \nd\nu\nh\ne\nt\n \nt\në\n \ns\ni\nl\nl\ne\nn\n \nn\nd\na\nj\n \nn\nj\në\nr\ni\n \nt\nj\ne\nt\nr\ni\nt\n \nm"
+  specimen_16: "T\në\n \ng\nj\ni\nt\nh\në\n \nn\nj\ne\nr\në\nz\ni\nt\n \nl\ni\nn\nd\ni\nn\n \nt\në\n \nl\ni\nr\në\n \nd\nh\ne\n \nt\në\n \nb\na\nr\na\nb\na\nr\nt\në\n \nn\në\n \nd\ni\nn\nj\ni\nt\ne\nt\n \nd\nh\ne\n \nn\në\n \nt\në\n \nd\nr\ne\nj\nt\na\n.\n \nA\nt\na\n \nk\na\nn\në\n \na\nr\ns\ny\ne\n \nd\nh\ne\n \nn\nd\në\nr\ng\nj\ne\ng\nj\ne\n \nd\nh\ne\n \nd\nu\nh\ne\nt\n \nt\në\n \ns\ni\nl\nl\ne\nn\n \nn\nd\na\nj\n \nn\nj\në\nr\ni\n \nt\nj\ne\nt\nr\ni\nt\n \nm\ne\n \nf\nr\ny\nm\në\n \nv\në\nl\nl\na\nz\në\nr\ni\nm\ni\n.\nT\në\n \ng\nj\ni\nt\nh\në\n \nn\nj\ne\nr\në\nz\ni\nt\n \nl\ni\nn\nd\ni\nn\n \nt\në\n \nl\ni\nr\në\n \nd\nh\ne\n \nt\në\n \nb\na\nr\na\nb\na\nr\nt\në\n \nn\në\n \nd\ni\nn\nj\ni\nt\ne\nt\n \nd\nh\ne\n \nn\në\n \nt\në\n \nd\nr\ne\nj\nt\na\n.\n \nA\nt\na\n \nk\na\nn\në\n \na\nr\ns\ny\ne\n \nd\nh\ne\n \nn\nd\në\nr\ng\nj"
+}

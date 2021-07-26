@@ -1,0 +1,18 @@
+id: "mrw_Latn"
+language: "mrw"
+script: "Latn"
+name: "Maranao, Latin"
+sample_text {
+  masthead_full: "LlAa"
+  masthead_partial: "Nn"
+  styles: "L\na\nn\ng\no\nn\n \na\n \nt\na\nw\n \nn\na\n \ni\nn\ni\nm\nb"
+  tester: "L\na\nn\ng\no\nn\n \na\n \nt\na\nw\n \nn\na\n \ni\nn\ni\nm\nb\na\nw\na\nt\na\n \na\n \nn\nd"
+  poster_sm: "L\na\nn\ng\no\nn"
+  poster_md: "L\na\nn\ng\no"
+  poster_lg: "L\na"
+  specimen_48: "L\na\nn\ng\no\nn\n \na\n \nt\na\nw\n \nn\na\n \ni\nn\ni\nm\nb\na\nw\na\nt\na\n \na\n \nn\nd"
+  specimen_36: "L\na\nn\ng\no\nn\n \na\n \nt\na\nw\n \nn\na\n \ni\nn\ni\nm\nb\na\nw\na\nt\na\n \na\n \nn\nd\nu\nd\no\nn\n \ns\no\n \nk\na\np\na\na\nr\n \na\ng\no\n \nn"
+  specimen_32: "L\na\nn\ng\no\nn\n \na\n \nt\na\nw\n \nn\na\n \ni\nn\ni\nm\nb\na\nw\na\nt\na\n \na\n \nn\nd\nu\nd\no\nn\n \ns\no\n \nk\na\np\na\na\nr\n \na\ng\no\n \nn\nd\na\nt\na\nd\na\nt\na\nr\n \ns\na\n \nb\na\nn\nt\no\ng\na"
+  specimen_21: "L\na\nn\ng\no\nn\n \na\n \nt\na\nw\n \nn\na\n \ni\nn\ni\nm\nb\na\nw\na\nt\na\n \na\n \nn\nd\nu\nd\no\nn\n \ns\no\n \nk\na\np\na\na\nr\n \na\ng\no\n \nn\nd\na\nt\na\nd\na\nt\na\nr\n \ns\na\n \nb\na\nn\nt\no\ng\na\nn\n \na\ng\no\n \nk\na\nb\nn\na\nr\n.\n \nB\ni\ng\na\nn\n \ns\ni\nr\na\nn\n \ns\na\n \nk\na\nb\nn\na\nr\n \na\ng\no\n \ng\na\ng\na\nw\n \nn\na\n \na\ny\na\n \np\na\nt\no\nt\n \na\n \nd\ni\n \nk\na\np\na\nk\na\ns\nu\ns\nu\nr\no\nt\na\n \no"
+  specimen_16: "L\na\nn\ng\no\nn\n \na\n \nt\na\nw\n \nn\na\n \ni\nn\ni\nm\nb\na\nw\na\nt\na\n \na\n \nn\nd\nu\nd\no\nn\n \ns\no\n \nk\na\np\na\na\nr\n \na\ng\no\n \nn\nd\na\nt\na\nd\na\nt\na\nr\n \ns\na\n \nb\na\nn\nt\no\ng\na\nn\n \na\ng\no\n \nk\na\nb\nn\na\nr\n.\n \nB\ni\ng\na\nn\n \ns\ni\nr\na\nn\n \ns\na\n \nk\na\nb\nn\na\nr\n \na\ng\no\n \ng\na\ng\na\nw\n \nn\na\n \na\ny\na\n \np\na\nt\no\nt\n \na\n \nd\ni\n \nk\na\np\na\nk\na\ns\nu\ns\nu\nr\no\nt\na\n \no\n \no\nm\na\nn\ni\n \ni\ns\na\n \nk\no\n \nk\na\np\na\nk\ni\np\nh\na\np\na\ng\na\nr\ni\ny\na\n.\nL\na\nn\ng\no\nn\n \na\n \nt\na\nw\n \nn\na\n \ni\nn\ni\nm\nb\na\nw\na\nt\na\n \na\n \nn\nd\nu\nd\no\nn\n \ns\no\n \nk\na\np\na\na\nr\n \na\ng\no\n \nn\nd\na\nt\na\nd\na\nt\na\nr\n \ns\na\n \nb\na\nn\nt\no\ng\na\nn\n \na\ng\no\n \nk\na\nb\nn\na\nr\n.\n \nB\ni\ng\na\nn\n \ns\ni\nr"
+}

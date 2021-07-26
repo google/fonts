@@ -3,4 +3,18 @@ language: "got"
 script: "Goth"
 name: "Gothic"
 population: 0
+sample_text {
+  masthead_full: "𐌰𐌻𐌹𐌼"
+  masthead_partial: "𐌽𐍆"
+  styles: "𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n "
+  tester: "𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐍃\n𐌰\n𐌼\n𐌰\n𐌻\n𐌴"
+  poster_sm: "𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n "
+  poster_md: "𐌰\n𐌻\n𐌻\n𐌰\n𐌹"
+  poster_lg: "𐌰\n𐌻"
+  specimen_48: "𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐍃\n𐌰\n𐌼\n𐌰\n𐌻\n𐌴"
+  specimen_36: "𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐍃\n𐌰\n𐌼\n𐌰\n𐌻\n𐌴\n𐌹\n𐌺\n𐍉\n \n𐌹\n𐌽\n \n𐍅\n𐌰\n𐌹\n𐍂\n𐌸\n𐌹\n𐌳\n𐌰\n𐌹\n \n𐌾\n𐌰\n𐌷"
+  specimen_32: "𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐍃\n𐌰\n𐌼\n𐌰\n𐌻\n𐌴\n𐌹\n𐌺\n𐍉\n \n𐌹\n𐌽\n \n𐍅\n𐌰\n𐌹\n𐍂\n𐌸\n𐌹\n𐌳\n𐌰\n𐌹\n \n𐌾\n𐌰\n𐌷\n \n𐍂\n𐌰\n𐌹\n𐌷\n𐍄\n𐌴\n𐌹\n𐍃\n \n𐍅\n𐌰\n𐌿\n𐍂\n𐌸\n𐌰\n𐌽\n𐍃\n.\n "
+  specimen_21: "𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐍃\n𐌰\n𐌼\n𐌰\n𐌻\n𐌴\n𐌹\n𐌺\n𐍉\n \n𐌹\n𐌽\n \n𐍅\n𐌰\n𐌹\n𐍂\n𐌸\n𐌹\n𐌳\n𐌰\n𐌹\n \n𐌾\n𐌰\n𐌷\n \n𐍂\n𐌰\n𐌹\n𐌷\n𐍄\n𐌴\n𐌹\n𐍃\n \n𐍅\n𐌰\n𐌿\n𐍂\n𐌸\n𐌰\n𐌽\n𐍃\n.\n \n𐍆\n𐍂\n𐌰\n𐌸\n𐌴\n𐌹\n \n𐌾\n𐌰\n𐌷\n \n𐌼\n𐌹\n𐌸\n𐍅\n𐌹\n𐍃\n𐍃\n𐌴\n𐌹\n \n𐌲\n𐌹\n𐌱\n𐌽\n𐌰\n𐌽\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐌻\n𐌹\n𐌱\n𐌰\n𐌽\n𐌳\n𐌰\n𐌿\n \n𐍃\n𐍅\n𐌴\n \n𐌱\n𐍂\n𐍉\n𐌸\n𐍂\n𐌾\n𐌿\n𐍃\n.\n𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐍃"
+  specimen_16: "𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐍃\n𐌰\n𐌼\n𐌰\n𐌻\n𐌴\n𐌹\n𐌺\n𐍉\n \n𐌹\n𐌽\n \n𐍅\n𐌰\n𐌹\n𐍂\n𐌸\n𐌹\n𐌳\n𐌰\n𐌹\n \n𐌾\n𐌰\n𐌷\n \n𐍂\n𐌰\n𐌹\n𐌷\n𐍄\n𐌴\n𐌹\n𐍃\n \n𐍅\n𐌰\n𐌿\n𐍂\n𐌸\n𐌰\n𐌽\n𐍃\n.\n \n𐍆\n𐍂\n𐌰\n𐌸\n𐌴\n𐌹\n \n𐌾\n𐌰\n𐌷\n \n𐌼\n𐌹\n𐌸\n𐍅\n𐌹\n𐍃\n𐍃\n𐌴\n𐌹\n \n𐌲\n𐌹\n𐌱\n𐌽\n𐌰\n𐌽\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐌻\n𐌹\n𐌱\n𐌰\n𐌽\n𐌳\n𐌰\n𐌿\n \n𐍃\n𐍅\n𐌴\n \n𐌱\n𐍂\n𐍉\n𐌸\n𐍂\n𐌾\n𐌿\n𐍃\n.\n𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐍃\n𐌰\n𐌼\n𐌰\n𐌻\n𐌴\n𐌹\n𐌺\n𐍉\n \n𐌹\n𐌽\n \n𐍅\n𐌰\n𐌹\n𐍂\n𐌸\n𐌹\n𐌳\n𐌰\n𐌹\n \n𐌾\n𐌰\n𐌷\n \n𐍂\n𐌰\n𐌹\n𐌷\n𐍄\n𐌴\n𐌹\n𐍃\n \n𐍅\n𐌰\n𐌿\n𐍂\n𐌸\n𐌰\n𐌽\n𐍃\n.\n \n𐍆\n𐍂\n𐌰\n𐌸\n𐌴\n𐌹\n \n𐌾\n𐌰\n𐌷\n \n𐌼\n𐌹\n𐌸\n𐍅\n𐌹\n𐍃\n𐍃\n𐌴\n𐌹\n \n𐌲\n𐌹\n𐌱\n𐌽\n𐌰\n𐌽\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐌻\n𐌹\n𐌱\n𐌰\n𐌽\n𐌳\n𐌰\n𐌿\n \n𐍃\n𐍅\n𐌴\n \n𐌱\n𐍂\n𐍉\n𐌸\n𐍂\n𐌾\n𐌿\n𐍃\n.\n𐌰\n𐌻\n𐌻\n𐌰\n𐌹\n \n𐌼\n𐌰\n𐌽\n𐌽\n𐌰\n \n𐍆\n𐍂\n𐌴\n𐌹\n𐌷\n𐌰\n𐌻\n𐍃\n \n𐌾\n𐌰\n𐌷\n \n𐍃"
+}
 historical: true

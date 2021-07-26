@@ -1,0 +1,18 @@
+id: "ijs_Latn"
+language: "ijs"
+script: "Latn"
+name: "Ijo, Southeast"
+sample_text {
+  masthead_full: "KkIi"
+  masthead_partial: "Mm"
+  styles: "K\ni\nm\n’\n \no\nw\no\nu\nm\no\n \ns\ne\n,\n \nk\ne\nn\ni\n \nb"
+  tester: "K\ni\nm\n’\n \no\nw\no\nu\nm\no\n \ns\ne\n,\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ni\n \nn\na\n,"
+  poster_sm: "K\ni\nm\n’\n \no"
+  poster_md: "K\ni\nm\n’\n "
+  poster_lg: "K\ni"
+  specimen_48: "K\ni\nm\n’\n \no\nw\no\nu\nm\no\n \ns\ne\n,\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ni\n \nn\na\n,"
+  specimen_36: "K\ni\nm\n’\n \no\nw\no\nu\nm\no\n \ns\ne\n,\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ni\n \nn\na\n,\n \np\na\n \nz\ni\nm\ni\n,\n \no\ns\ne\n \nk\ne\nn\ni\n \nb\na"
+  specimen_32: "K\ni\nm\n’\n \no\nw\no\nu\nm\no\n \ns\ne\n,\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ni\n \nn\na\n,\n \np\na\n \nz\ni\nm\ni\n,\n \no\ns\ne\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ne\nm\ni\n.\n \nK\ni\nm\n’\ns\ne\n \ny\ne\n \ni\nr"
+  specimen_21: "K\ni\nm\n’\n \no\nw\no\nu\nm\no\n \ns\ne\n,\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ni\n \nn\na\n,\n \np\na\n \nz\ni\nm\ni\n,\n \no\ns\ne\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ne\nm\ni\n.\n \nK\ni\nm\n’\ns\ne\n \ny\ne\n \ni\nr\no\nr\no\n,\n \nm\na\nn\ni\n \ni\nk\ni\no\nu\n \nn\na\nn\na\n,\n \ne\nn\ni\nn\ni\n \nk\ni\nm\n’\ns\ne\n \nd\nu\nd\nu\n \nt\na\nr\ni\n \nt\ne\nm\ne\n \nn\na\nn\na\n \nw\ne\nr\ni\n \ni\ny\ne\nn\nr\ni\n.\nK\ni\nm\n’\n \no\nw\no\nu\nm\no\n \ns\ne\n,\n "
+  specimen_16: "K\ni\nm\n’\n \no\nw\no\nu\nm\no\n \ns\ne\n,\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ni\n \nn\na\n,\n \np\na\n \nz\ni\nm\ni\n,\n \no\ns\ne\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ne\nm\ni\n.\n \nK\ni\nm\n’\ns\ne\n \ny\ne\n \ni\nr\no\nr\no\n,\n \nm\na\nn\ni\n \ni\nk\ni\no\nu\n \nn\na\nn\na\n,\n \ne\nn\ni\nn\ni\n \nk\ni\nm\n’\ns\ne\n \nd\nu\nd\nu\n \nt\na\nr\ni\n \nt\ne\nm\ne\n \nn\na\nn\na\n \nw\ne\nr\ni\n \ni\ny\ne\nn\nr\ni\n.\nK\ni\nm\n’\n \no\nw\no\nu\nm\no\n \ns\ne\n,\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ni\n \nn\na\n,\n \np\na\n \nz\ni\nm\ni\n,\n \no\ns\ne\n \nk\ne\nn\ni\n \nb\na\nr\na\n \nk\ne\nm\ni\n.\n \nK\ni\nm\n’\ns\ne\n \ny\ne\n \ni\nr\no\nr\no\n,\n \nm\na\nn\ni\n \ni\nk\ni\no\nu\n \nn\na\nn\na\n,\n \ne\nn\ni\nn\ni\n \nk\ni\nm\n’\ns\ne\n \nd\nu\nd\nu\n \nt\na\nr\ni\n \nt\ne\nm\ne\n \nn\na\nn\na\n \nw\ne\nr\ni\n \ni\ny\ne\nn\nr\ni\n.\nK\ni\nm\n’"
+}

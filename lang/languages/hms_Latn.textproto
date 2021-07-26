@@ -1,0 +1,18 @@
+id: "hms_Latn"
+language: "hms"
+script: "Latn"
+name: "Hmong, Southern Qiandong"
+sample_text {
+  masthead_full: "LlEe"
+  masthead_partial: "Bb"
+  styles: "L\ne\nb\n \nl\ne\nb\n \nn\ni\ns\n \nz\ni\nb\n \ny\no\nu\nl\n "
+  tester: "L\ne\nb\n \nl\ne\nb\n \nn\ni\ns\n \nz\ni\nb\n \ny\no\nu\nl\n \nn\na\nn\ng\ns\n,\n \nm\ne\nx"
+  poster_sm: "L\ne\nb\n \nl\ne"
+  poster_md: "L\ne\nb\n \nl"
+  poster_lg: "L\ne"
+  specimen_48: "L\ne\nb\n \nl\ne\nb\n \nn\ni\ns\n \nz\ni\nb\n \ny\no\nu\nl\n \nn\na\nn\ng\ns\n,\n \nm\ne\nx"
+  specimen_36: "L\ne\nb\n \nl\ne\nb\n \nn\ni\ns\n \nz\ni\nb\n \ny\no\nu\nl\n \nn\na\nn\ng\ns\n,\n \nm\ne\nx\n \na\nd\n \ns\nh\ne\ni\nt\n \nn\na\nn\ng\nd\n \nz\ne\nn\nd"
+  specimen_32: "L\ne\nb\n \nl\ne\nb\n \nn\ni\ns\n \nz\ni\nb\n \ny\no\nu\nl\n \nn\na\nn\ng\ns\n,\n \nm\ne\nx\n \na\nd\n \ns\nh\ne\ni\nt\n \nn\na\nn\ng\nd\n \nz\ne\nn\nd\n \ny\na\nn\nl\n \nn\nh\na\nn\ng\ns\n \nn\nj\na\nn\nl\n \nl"
+  specimen_21: "L\ne\nb\n \nl\ne\nb\n \nn\ni\ns\n \nz\ni\nb\n \ny\no\nu\nl\n \nn\na\nn\ng\ns\n,\n \nm\ne\nx\n \na\nd\n \ns\nh\ne\ni\nt\n \nn\na\nn\ng\nd\n \nz\ne\nn\nd\n \ny\na\nn\nl\n \nn\nh\na\nn\ng\ns\n \nn\nj\na\nn\nl\n \nl\ni\nb\n.\n \nM\ni\nx\n \nm\ne\nx\n \nl\ni\nx\n \nx\ni\nn\nb\n \ng\na\no\nt\n \nl\ni\na\nn\ng\nt\n \ns\ne\nn\nd\n,\n \nl\ne\nb\n \nl\ne\nb\n \nl\ni\ne\ns\n \nn\nh\na\nn\ng\ns\n \ng\nh\no\nb\n \nn\na\nb\n \ng\nh\no\nb\n \ng\ne\nu\nd\n \nn\na\nn"
+  specimen_16: "L\ne\nb\n \nl\ne\nb\n \nn\ni\ns\n \nz\ni\nb\n \ny\no\nu\nl\n \nn\na\nn\ng\ns\n,\n \nm\ne\nx\n \na\nd\n \ns\nh\ne\ni\nt\n \nn\na\nn\ng\nd\n \nz\ne\nn\nd\n \ny\na\nn\nl\n \nn\nh\na\nn\ng\ns\n \nn\nj\na\nn\nl\n \nl\ni\nb\n.\n \nM\ni\nx\n \nm\ne\nx\n \nl\ni\nx\n \nx\ni\nn\nb\n \ng\na\no\nt\n \nl\ni\na\nn\ng\nt\n \ns\ne\nn\nd\n,\n \nl\ne\nb\n \nl\ne\nb\n \nl\ni\ne\ns\n \nn\nh\na\nn\ng\ns\n \ng\nh\no\nb\n \nn\na\nb\n \ng\nh\no\nb\n \ng\ne\nu\nd\n \nn\na\nn\ng\nd\n.\nL\ne\nb\n \nl\ne\nb\n \nn\ni\ns\n \nz\ni\nb\n \ny\no\nu\nl\n \nn\na\nn\ng\ns\n,\n \nm\ne\nx\n \na\nd\n \ns\nh\ne\ni\nt\n \nn\na\nn\ng\nd\n \nz\ne\nn\nd\n \ny\na\nn\nl\n \nn\nh\na\nn\ng\ns\n \nn\nj\na\nn\nl\n \nl\ni\nb\n.\n \nM\ni\nx\n \nm\ne\nx\n \nl\ni\nx\n \nx\ni\nn\nb\n \ng\na\no\nt\n \nl\ni\na\nn\ng\nt\n \ns\ne\nn\nd\n,\n \nl\ne\nb\n \nl\ne\nb\n \nl\ni\ne\ns\n \nn"
+}

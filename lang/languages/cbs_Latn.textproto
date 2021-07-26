@@ -1,0 +1,18 @@
+id: "cbs_Latn"
+language: "cbs"
+script: "Latn"
+name: "Cashinahua"
+sample_text {
+  masthead_full: "YyUu"
+  masthead_partial: "Dd"
+  styles: "Y\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk"
+  tester: "Y\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n "
+  poster_sm: "Y\nu\nd\na\nb\nu"
+  poster_md: "Y\nu\nd\na\nb"
+  poster_lg: "Y\nu"
+  specimen_48: "Y\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n "
+  specimen_36: "Y\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n \nx\ni\nn\na\nn\nt\ni\nd\nu\nb\nu\nk\ni\n.\n \nJ\na\nv\ne\nn\n "
+  specimen_32: "Y\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n \nx\ni\nn\na\nn\nt\ni\nd\nu\nb\nu\nk\ni\n.\n \nJ\na\nv\ne\nn\n \nt\na\ne\na\n \nj\na\nu\n \nj\na\ni\nb\nu\nn\na\nm\ne\nn\nu"
+  specimen_21: "Y\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n \nx\ni\nn\na\nn\nt\ni\nd\nu\nb\nu\nk\ni\n.\n \nJ\na\nv\ne\nn\n \nt\na\ne\na\n \nj\na\nu\n \nj\na\ni\nb\nu\nn\na\nm\ne\nn\nu\nn\nb\nu\nn\nv\ne\nn\n.\nY\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n \nx\ni\nn\na\nn\nt\ni\nd\nu\nb\nu\nk\ni\n.\n \nJ\na\nv\ne\nn\n \nt\na\ne\na\n \nj\na\nu\n \nj\na\ni\nb\nu\nn\na\nm\ne\nn\nu\nn"
+  specimen_16: "Y\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n \nx\ni\nn\na\nn\nt\ni\nd\nu\nb\nu\nk\ni\n.\n \nJ\na\nv\ne\nn\n \nt\na\ne\na\n \nj\na\nu\n \nj\na\ni\nb\nu\nn\na\nm\ne\nn\nu\nn\nb\nu\nn\nv\ne\nn\n.\nY\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n \nx\ni\nn\na\nn\nt\ni\nd\nu\nb\nu\nk\ni\n.\n \nJ\na\nv\ne\nn\n \nt\na\ne\na\n \nj\na\nu\n \nj\na\ni\nb\nu\nn\na\nm\ne\nn\nu\nn\nb\nu\nn\nv\ne\nn\n.\nY\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n \nx\ni\nn\na\nn\nt\ni\nd\nu\nb\nu\nk\ni\n.\n \nJ\na\nv\ne\nn\n \nt\na\ne\na\n \nj\na\nu\n \nj\na\ni\nb\nu\nn\na\nm\ne\nn\nu\nn\nb\nu\nn\nv\ne\nn\n.\nY\nu\nd\na\nb\nu\n \nd\na\ns\ni\nb\ni\n \nj\na\nb\ni\na\ns\nk\na\nd\ni\n \na\nk\ni\nn\n,\n \nx\ni\nn\na\nn\nt\ni\nd\nu\nb"
+}

@@ -1,0 +1,18 @@
+id: "azb_Arab"
+language: "azb"
+script: "Arab"
+name: "South Azerbaijani, Arabic"
+sample_text {
+  masthead_full: "بوتن"
+  masthead_partial: "اي"
+  styles: "ب\nو\nت\nو\nن\n \nا\nي\nن\nس\nا\nن\nل\nا\nر\n \nح\nي\nث\nي\nي"
+  tester: "ب\nو\nت\nو\nن\n \nا\nي\nن\nس\nا\nن\nل\nا\nر\n \nح\nي\nث\nي\nي\nت\n \nو\n \nح\nا\nق\nل\nا\nر"
+  poster_sm: "ب\nو\nت\nو\nن\n "
+  poster_md: "ب\nو\nت\nو\nن"
+  poster_lg: "ب\nو"
+  specimen_48: "ب\nو\nت\nو\nن\n \nا\nي\nن\nس\nا\nن\nل\nا\nر\n \nح\nي\nث\nي\nي\nت\n \nو\n \nح\nا\nق\nل\nا\nر"
+  specimen_36: "ب\nو\nت\nو\nن\n \nا\nي\nن\nس\nا\nن\nل\nا\nر\n \nح\nي\nث\nي\nي\nت\n \nو\n \nح\nا\nق\nل\nا\nر\n \nب\nا\nخ\nي\nم\nي\nن\nد\nا\nن\n \nد\nن\nك\n \n(\nب\nر\nا"
+  specimen_32: "ب\nو\nت\nو\nن\n \nا\nي\nن\nس\nا\nن\nل\nا\nر\n \nح\nي\nث\nي\nي\nت\n \nو\n \nح\nا\nق\nل\nا\nر\n \nب\nا\nخ\nي\nم\nي\nن\nد\nا\nن\n \nد\nن\nك\n \n(\nب\nر\nا\nب\nر\n)\n \nو\n \nا\nر\nك\nي\nن\n \n(\nآ\nز\nا\nد\n)\n \nد\nو\nغ"
+  specimen_21: "ب\nو\nت\nو\nن\n \nا\nي\nن\nس\nا\nن\nل\nا\nر\n \nح\nي\nث\nي\nي\nت\n \nو\n \nح\nا\nق\nل\nا\nر\n \nب\nا\nخ\nي\nم\nي\nن\nد\nا\nن\n \nد\nن\nك\n \n(\nب\nر\nا\nب\nر\n)\n \nو\n \nا\nر\nك\nي\nن\n \n(\nآ\nز\nا\nد\n)\n \nد\nو\nغ\nو\nل\nا\nر\nل\nا\nر\n.\n \nا\nو\nس\n \n(\nع\nق\nل\n)\n \nو\n \nا\nو\nي\nا\nت\n \n(\nو\nي\nج\nد\nا\nن\n)\n \nي\nي\nه\nﺳ\nﻴ\nﺪ\nي\nر\nل\nر\n \nو\n \nب\nي\nر\n \nب\nي\nر\nل\nر\nي\nن\nه\n \nق\nا\nر\nش\nى\n \nق\nا\nر\nد\nا\nش\nل\nي\nق\n \nر\nو\nح\nو"
+  specimen_16: "ب\nو\nت\nو\nن\n \nا\nي\nن\nس\nا\nن\nل\nا\nر\n \nح\nي\nث\nي\nي\nت\n \nو\n \nح\nا\nق\nل\nا\nر\n \nب\nا\nخ\nي\nم\nي\nن\nد\nا\nن\n \nد\nن\nك\n \n(\nب\nر\nا\nب\nر\n)\n \nو\n \nا\nر\nك\nي\nن\n \n(\nآ\nز\nا\nد\n)\n \nد\nو\nغ\nو\nل\nا\nر\nل\nا\nر\n.\n \nا\nو\nس\n \n(\nع\nق\nل\n)\n \nو\n \nا\nو\nي\nا\nت\n \n(\nو\nي\nج\nد\nا\nن\n)\n \nي\nي\nه\nﺳ\nﻴ\nﺪ\nي\nر\nل\nر\n \nو\n \nب\nي\nر\n \nب\nي\nر\nل\nر\nي\nن\nه\n \nق\nا\nر\nش\nى\n \nق\nا\nر\nد\nا\nش\nل\nي\nق\n \nر\nو\nح\nو\n \nا\nي\nل\nه\n \nد\nا\nو\nر\nا\nم\nا\nل\nي\nد\nر\nل\nا\nر\n.\nب\nو\nت\nو\nن\n \nا\nي\nن\nس\nا\nن\nل\nا\nر\n \nح\nي\nث\nي\nي\nت\n \nو\n \nح\nا\nق\nل\nا\nر\n \nب\nا\nخ\nي\nم\nي\nن\nد\nا\nن\n \nد\nن\nك\n \n(\nب\nر\nا\nب\nر\n)\n \nو\n \nا\nر\nك\nي\nن\n \n(\nآ\nز\nا\nد\n)\n \nد\nو\nغ\nو\nل\nا\nر\nل\nا\nر\n.\n \nا\nو\nس\n \n(\nع\nق\nل\n)\n \nو\n \nا\nو\nي\nا\nت\n \n(\nو\nي\nج\nد\nا\nن\n)\n "
+}

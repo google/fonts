@@ -1,0 +1,18 @@
+id: "tdt_Latn"
+language: "tdt"
+script: "Latn"
+name: "Tetun Dili"
+sample_text {
+  masthead_full: "EeMm"
+  masthead_partial: "Aa"
+  styles: "E\nm\na\n \nt\no\nm\na\nk\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns"
+  tester: "E\nm\na\n \nt\no\nm\na\nk\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n,\n \ne\nm\na\n \nt\no"
+  poster_sm: "E\nm\na\n \nt\no"
+  poster_md: "E\nm\na\n \nt"
+  poster_lg: "E\nm"
+  specimen_48: "E\nm\na\n \nt\no\nm\na\nk\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n,\n \ne\nm\na\n \nt\no"
+  specimen_36: "E\nm\na\n \nt\no\nm\na\nk\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n,\n \ne\nm\na\n \nt\no\nm\na\nk\n \nh\na\nn\ne\ns\na\nn\n,\n \ni\nh\na\n \nd\ni\nr\ne"
+  specimen_32: "E\nm\na\n \nt\no\nm\na\nk\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n,\n \ne\nm\na\n \nt\no\nm\na\nk\n \nh\na\nn\ne\ns\na\nn\n,\n \ni\nh\na\n \nd\ni\nr\ne\ni\nt\nu\n \nh\na\nn\ne\ns\na\nn\n.\n \nE\nm\na\n \nt\no\nm"
+  specimen_21: "E\nm\na\n \nt\no\nm\na\nk\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n,\n \ne\nm\na\n \nt\no\nm\na\nk\n \nh\na\nn\ne\ns\na\nn\n,\n \ni\nh\na\n \nd\ni\nr\ne\ni\nt\nu\n \nh\na\nn\ne\ns\na\nn\n.\n \nE\nm\na\n \nt\no\nm\na\nk\n \ni\nh\na\n \no\nt\na\nk\n \nh\no\n \nn\ne\no\nn\n,\n \nh\no\nt\nu\n-\nh\no\nt\nu\n \ns\ne\ni\n \nb\nu\nk\na\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n \nm\na\nu\nn\n \nh\no\n \na\nl\ni\nn\n.\nE\nm\na\n \nt\no\nm\na\nk\n \nm\no\nr\ni\ns"
+  specimen_16: "E\nm\na\n \nt\no\nm\na\nk\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n,\n \ne\nm\na\n \nt\no\nm\na\nk\n \nh\na\nn\ne\ns\na\nn\n,\n \ni\nh\na\n \nd\ni\nr\ne\ni\nt\nu\n \nh\na\nn\ne\ns\na\nn\n.\n \nE\nm\na\n \nt\no\nm\na\nk\n \ni\nh\na\n \no\nt\na\nk\n \nh\no\n \nn\ne\no\nn\n,\n \nh\no\nt\nu\n-\nh\no\nt\nu\n \ns\ne\ni\n \nb\nu\nk\na\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n \nm\na\nu\nn\n \nh\no\n \na\nl\ni\nn\n.\nE\nm\na\n \nt\no\nm\na\nk\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n,\n \ne\nm\na\n \nt\no\nm\na\nk\n \nh\na\nn\ne\ns\na\nn\n,\n \ni\nh\na\n \nd\ni\nr\ne\ni\nt\nu\n \nh\na\nn\ne\ns\na\nn\n.\n \nE\nm\na\n \nt\no\nm\na\nk\n \ni\nh\na\n \no\nt\na\nk\n \nh\no\n \nn\ne\no\nn\n,\n \nh\no\nt\nu\n-\nh\no\nt\nu\n \ns\ne\ni\n \nb\nu\nk\na\n \nm\no\nr\ni\ns\n \nh\na\nn\ne\ns\na\nn\n \nm\na\nu\nn\n \nh\no\n \na\nl\ni\nn\n.\nE\nm\na\n "
+}

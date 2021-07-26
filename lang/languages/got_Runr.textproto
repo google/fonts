@@ -1,0 +1,18 @@
+id: "got_Runr"
+language: "got"
+script: "Runr"
+name: "Gothic, Runic"
+sample_text {
+  masthead_full: "ᚨᛚᛁᛗ"
+  masthead_partial: "ᚾᚠ"
+  styles: "ᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n "
+  tester: "ᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛋ\nᚨ\nᛗ\nᚨ\nᛚ\nᛖ"
+  poster_sm: "ᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n "
+  poster_md: "ᚨ\nᛚ\nᛚ\nᚨ\nᛁ"
+  poster_lg: "ᚨ\nᛚ"
+  specimen_48: "ᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛋ\nᚨ\nᛗ\nᚨ\nᛚ\nᛖ"
+  specimen_36: "ᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛋ\nᚨ\nᛗ\nᚨ\nᛚ\nᛖ\nᛁ\nᚲ\nᛟ\n \nᛁ\nᚾ\n \nᚹ\nᚨ\nᛁ\nᚱ\nᚦ\nᛁ\nᛞ\nᚨ\nᛁ\n \nᛃ\nᚨ\nᚺ"
+  specimen_32: "ᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛋ\nᚨ\nᛗ\nᚨ\nᛚ\nᛖ\nᛁ\nᚲ\nᛟ\n \nᛁ\nᚾ\n \nᚹ\nᚨ\nᛁ\nᚱ\nᚦ\nᛁ\nᛞ\nᚨ\nᛁ\n \nᛃ\nᚨ\nᚺ\n \nᚱ\nᚨ\nᛁ\nᚺ\nᛏ\nᛖ\nᛁ\nᛋ\n \nᚹ\nᚨ\nᚢ\nᚱ\nᚦ\nᚨ\nᚾ\nᛋ\n.\n "
+  specimen_21: "ᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛋ\nᚨ\nᛗ\nᚨ\nᛚ\nᛖ\nᛁ\nᚲ\nᛟ\n \nᛁ\nᚾ\n \nᚹ\nᚨ\nᛁ\nᚱ\nᚦ\nᛁ\nᛞ\nᚨ\nᛁ\n \nᛃ\nᚨ\nᚺ\n \nᚱ\nᚨ\nᛁ\nᚺ\nᛏ\nᛖ\nᛁ\nᛋ\n \nᚹ\nᚨ\nᚢ\nᚱ\nᚦ\nᚨ\nᚾ\nᛋ\n.\n \nᚠ\nᚱ\nᚨ\nᚦ\nᛖ\nᛁ\n \nᛃ\nᚨ\nᚺ\n \nᛗ\nᛁ\nᚦ\nᚹ\nᛁ\nᛋ\nᛋ\nᛖ\nᛁ\n \nᚷ\nᛁ\nᛒ\nᚾ\nᚨ\nᚾ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛚ\nᛁ\nᛒ\nᚨ\nᚾ\nᛞ\nᚨ\nᚢ\n \nᛋ\nᚹ\nᛇ\n \nᛒ\nᚱ\nᛟ\nᚦ\nᚱ\nᛃ\nᚢ\nᛋ\n.\nᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛋ"
+  specimen_16: "ᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛋ\nᚨ\nᛗ\nᚨ\nᛚ\nᛖ\nᛁ\nᚲ\nᛟ\n \nᛁ\nᚾ\n \nᚹ\nᚨ\nᛁ\nᚱ\nᚦ\nᛁ\nᛞ\nᚨ\nᛁ\n \nᛃ\nᚨ\nᚺ\n \nᚱ\nᚨ\nᛁ\nᚺ\nᛏ\nᛖ\nᛁ\nᛋ\n \nᚹ\nᚨ\nᚢ\nᚱ\nᚦ\nᚨ\nᚾ\nᛋ\n.\n \nᚠ\nᚱ\nᚨ\nᚦ\nᛖ\nᛁ\n \nᛃ\nᚨ\nᚺ\n \nᛗ\nᛁ\nᚦ\nᚹ\nᛁ\nᛋ\nᛋ\nᛖ\nᛁ\n \nᚷ\nᛁ\nᛒ\nᚾ\nᚨ\nᚾ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛚ\nᛁ\nᛒ\nᚨ\nᚾ\nᛞ\nᚨ\nᚢ\n \nᛋ\nᚹ\nᛇ\n \nᛒ\nᚱ\nᛟ\nᚦ\nᚱ\nᛃ\nᚢ\nᛋ\n.\nᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛋ\nᚨ\nᛗ\nᚨ\nᛚ\nᛖ\nᛁ\nᚲ\nᛟ\n \nᛁ\nᚾ\n \nᚹ\nᚨ\nᛁ\nᚱ\nᚦ\nᛁ\nᛞ\nᚨ\nᛁ\n \nᛃ\nᚨ\nᚺ\n \nᚱ\nᚨ\nᛁ\nᚺ\nᛏ\nᛖ\nᛁ\nᛋ\n \nᚹ\nᚨ\nᚢ\nᚱ\nᚦ\nᚨ\nᚾ\nᛋ\n.\n \nᚠ\nᚱ\nᚨ\nᚦ\nᛖ\nᛁ\n \nᛃ\nᚨ\nᚺ\n \nᛗ\nᛁ\nᚦ\nᚹ\nᛁ\nᛋ\nᛋ\nᛖ\nᛁ\n \nᚷ\nᛁ\nᛒ\nᚾ\nᚨ\nᚾ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛚ\nᛁ\nᛒ\nᚨ\nᚾ\nᛞ\nᚨ\nᚢ\n \nᛋ\nᚹ\nᛇ\n \nᛒ\nᚱ\nᛟ\nᚦ\nᚱ\nᛃ\nᚢ\nᛋ\n.\nᚨ\nᛚ\nᛚ\nᚨ\nᛁ\n \nᛗ\nᚨ\nᚾ\nᚾ\nᚨ\n \nᚠ\nᚱ\nᛖ\nᛁ\nᚺ\nᚨ\nᛚ\nᛋ\n \nᛃ\nᚨ\nᚺ\n \nᛋ"
+}

@@ -1,0 +1,18 @@
+id: "shp_Latn"
+language: "shp"
+script: "Latn"
+name: "Shipibo-Conibo"
+sample_text {
+  masthead_full: "JjAa"
+  masthead_partial: "Tt"
+  styles: "J\na\nt\ní\nb\ni\n \nj\no\nn\ni\nn\nr\na\n \nh\nu\ne\nt\ns\na"
+  tester: "J\na\nt\ní\nb\ni\n \nj\no\nn\ni\nn\nr\na\n \nh\nu\ne\nt\ns\na\n \nj\no\nn\ni\nb\na\no\nn\n "
+  poster_sm: "J\na\nt\ní\nb\ni"
+  poster_md: "J\na\nt\ní\nb"
+  poster_lg: "J\na"
+  specimen_48: "J\na\nt\ní\nb\ni\n \nj\no\nn\ni\nn\nr\na\n \nh\nu\ne\nt\ns\na\n \nj\no\nn\ni\nb\na\no\nn\n "
+  specimen_36: "J\na\nt\ní\nb\ni\n \nj\no\nn\ni\nn\nr\na\n \nh\nu\ne\nt\ns\na\n \nj\no\nn\ni\nb\na\no\nn\n \ny\no\ni\na\ni\n \nn\ni\nn\nc\ná\nr\ne\ns\nt\ni\n \ni\nq\nu"
+  specimen_32: "J\na\nt\ní\nb\ni\n \nj\no\nn\ni\nn\nr\na\n \nh\nu\ne\nt\ns\na\n \nj\no\nn\ni\nb\na\no\nn\n \ny\no\ni\na\ni\n \nn\ni\nn\nc\ná\nr\ne\ns\nt\ni\n \ni\nq\nu\ni\n,\n \nj\na\nh\nu\ne\nr\na\nq\nu\ni\nb\ni\n \nj\na\nc\no"
+  specimen_21: "J\na\nt\ní\nb\ni\n \nj\no\nn\ni\nn\nr\na\n \nh\nu\ne\nt\ns\na\n \nj\no\nn\ni\nb\na\no\nn\n \ny\no\ni\na\ni\n \nn\ni\nn\nc\ná\nr\ne\ns\nt\ni\n \ni\nq\nu\ni\n,\n \nj\na\nh\nu\ne\nr\na\nq\nu\ni\nb\ni\n \nj\na\nc\no\nn\nm\na\ni\n \ni\na\nm\na\nq\nu\ni\nn\n;\n \nj\na\ni\nn\no\na\ns\nh\n \nj\na\nh\nu\ne\nn\n \nq\nu\ne\ne\nn\na\n \nj\na\nc\no\nn\n \nj\na\nh\nu\né\nq\nu\ni\nb\no\n \na\nt\ni\n \nj\na\nh\nu\ne\nq\nu\ne\ns\nc\na\nm\na\nb\ni\n \ni\nq\nu\ni\n,\n "
+  specimen_16: "J\na\nt\ní\nb\ni\n \nj\no\nn\ni\nn\nr\na\n \nh\nu\ne\nt\ns\na\n \nj\no\nn\ni\nb\na\no\nn\n \ny\no\ni\na\ni\n \nn\ni\nn\nc\ná\nr\ne\ns\nt\ni\n \ni\nq\nu\ni\n,\n \nj\na\nh\nu\ne\nr\na\nq\nu\ni\nb\ni\n \nj\na\nc\no\nn\nm\na\ni\n \ni\na\nm\na\nq\nu\ni\nn\n;\n \nj\na\ni\nn\no\na\ns\nh\n \nj\na\nh\nu\ne\nn\n \nq\nu\ne\ne\nn\na\n \nj\na\nc\no\nn\n \nj\na\nh\nu\né\nq\nu\ni\nb\no\n \na\nt\ni\n \nj\na\nh\nu\ne\nq\nu\ne\ns\nc\na\nm\na\nb\ni\n \ni\nq\nu\ni\n,\n \nt\ns\no\nn\nb\ni\nr\na\n \na\nm\na\ny\na\nm\na\nt\ni\nm\na\n \ni\nq\nu\ni\n.\n \nJ\na\nt\ni\nc\na\ns\nh\nb\ni\nr\na\n \nj\na\ns\nc\na\nr\na\n \na\nr\ne\ns\nt\ni\n \nj\na\nc\no\nn\n \ns\nh\ni\nn\na\nn\ny\na\n \ni\nt\ni\n \nj\na\nh\nu\ne\nq\nu\ne\ns\nc\na\nm\na\nb\ni\n \ni\nq\nu\ni\n,\n \nj\na\nh\nu\ne\nq\nu\ne\ns\nc\na\nr\na\ni\nn\no\na\ns\nh\n \np\ni\nc\no\nt\na\n \nj\no\nn"
+}

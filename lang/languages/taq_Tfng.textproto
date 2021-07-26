@@ -1,0 +1,18 @@
+id: "taq_Tfng"
+language: "taq"
+script: "Tfng"
+name: "Tamasheq, Tifinagh"
+sample_text {
+  masthead_full: "ⵎⴸⴰⵏ"
+  masthead_partial: "ⵓⵜ"
+  styles: "ⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ"
+  tester: "ⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n "
+  poster_sm: "ⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ"
+  poster_md: "ⵎ\nⴸ\nⴰ\nⵏ\n "
+  poster_lg: "ⵎ\nⴸ"
+  specimen_48: "ⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n "
+  specimen_36: "ⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n \nⵙ\n \nⵍ\nⵆ\nⵈ\n.\n \nⴶ\nⵔ\nⴰ\nⵓ\nⵏ\n \nⵜ\nⴰ\nⵉ\nⵜ\nⵜ\nⵉ\n \nⴸ"
+  specimen_32: "ⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n \nⵙ\n \nⵍ\nⵆ\nⵈ\n.\n \nⴶ\nⵔ\nⴰ\nⵓ\nⵏ\n \nⵜ\nⴰ\nⵉ\nⵜ\nⵜ\nⵉ\n \nⴸ\n \nⵎ\nⴰ\nⵏ\n \nⴼ\nⵓ\nⵍ\nⵍ\n \nⵉ\nⴸ\n \nⵏ\nⵎ\nⵔ\nⵜ\nⴰ\nⵉ\nⵏ"
+  specimen_21: "ⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n \nⵙ\n \nⵍ\nⵆ\nⵈ\n.\n \nⴶ\nⵔ\nⴰ\nⵓ\nⵏ\n \nⵜ\nⴰ\nⵉ\nⵜ\nⵜ\nⵉ\n \nⴸ\n \nⵎ\nⴰ\nⵏ\n \nⴼ\nⵓ\nⵍ\nⵍ\n \nⵉ\nⴸ\n \nⵏ\nⵎ\nⵔ\nⵜ\nⴰ\nⵉ\nⵏ\n \nⵙ\n \nⵜ\nⴰ\nⴻ\nⴻ\nⵜ\n.\nⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n \nⵙ\n \nⵍ\nⵆ\nⵈ\n.\n \nⴶ\nⵔ\nⴰ\nⵓ\nⵏ\n \nⵜ\nⴰ\nⵉ\nⵜ\nⵜ\nⵉ\n \nⴸ\n \nⵎ\nⴰ\nⵏ\n \nⴼ\nⵓ\nⵍ\nⵍ\n \nⵉ\nⴸ\n \nⵏ\nⵎ\nⵔ\nⵜ\nⴰ\nⵉ\nⵏ"
+  specimen_16: "ⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n \nⵙ\n \nⵍ\nⵆ\nⵈ\n.\n \nⴶ\nⵔ\nⴰ\nⵓ\nⵏ\n \nⵜ\nⴰ\nⵉ\nⵜ\nⵜ\nⵉ\n \nⴸ\n \nⵎ\nⴰ\nⵏ\n \nⴼ\nⵓ\nⵍ\nⵍ\n \nⵉ\nⴸ\n \nⵏ\nⵎ\nⵔ\nⵜ\nⴰ\nⵉ\nⵏ\n \nⵙ\n \nⵜ\nⴰ\nⴻ\nⴻ\nⵜ\n.\nⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n \nⵙ\n \nⵍ\nⵆ\nⵈ\n.\n \nⴶ\nⵔ\nⴰ\nⵓ\nⵏ\n \nⵜ\nⴰ\nⵉ\nⵜ\nⵜ\nⵉ\n \nⴸ\n \nⵎ\nⴰ\nⵏ\n \nⴼ\nⵓ\nⵍ\nⵍ\n \nⵉ\nⴸ\n \nⵏ\nⵎ\nⵔ\nⵜ\nⴰ\nⵉ\nⵏ\n \nⵙ\n \nⵜ\nⴰ\nⴻ\nⴻ\nⵜ\n.\nⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n \nⵙ\n \nⵍ\nⵆ\nⵈ\n.\n \nⴶ\nⵔ\nⴰ\nⵓ\nⵏ\n \nⵜ\nⴰ\nⵉ\nⵜ\nⵜ\nⵉ\n \nⴸ\n \nⵎ\nⴰ\nⵏ\n \nⴼ\nⵓ\nⵍ\nⵍ\n \nⵉ\nⴸ\n \nⵏ\nⵎ\nⵔ\nⵜ\nⴰ\nⵉ\nⵏ\n \nⵙ\n \nⵜ\nⴰ\nⴻ\nⴻ\nⵜ\n.\nⵎ\nⴸ\nⴰ\nⵏ\n \nⴸ\nⴸ\nⵓ\nⵏ\nⵜ\n \nⵜ\nⵉ\nⵓ\nⵉ\nⵏ\n \nⵍ\nⵍ\nⵓ\nⵍ\nⵍ\nⵉ\nⵏ\n,\n \nⵓ\nⵍ\nⴰ\nⵏ\n \nⵙ\n \nⵍ\nⵆ\nⵈ\n.\n "
+}

@@ -1,0 +1,18 @@
+id: "qxu_Latn"
+language: "qxu"
+script: "Latn"
+name: "Quechua, Arequipa-La Unión"
+sample_text {
+  masthead_full: "KkAa"
+  masthead_partial: "Nn"
+  styles: "K\na\nn\nm\ni\n \nd\ne\nr\ne\nc\nh\no\nn\nc\nh\ni\ns\nk\nu\nn"
+  tester: "K\na\nn\nm\ni\n \nd\ne\nr\ne\nc\nh\no\nn\nc\nh\ni\ns\nk\nu\nn\na\n \nl\nl\na\np\na\nn\nc\nh"
+  poster_sm: "K\na\nn\nm\ni\n "
+  poster_md: "K\na\nn\nm\ni"
+  poster_lg: "K\na"
+  specimen_48: "K\na\nn\nm\ni\n \nd\ne\nr\ne\nc\nh\no\nn\nc\nh\ni\ns\nk\nu\nn\na\n \nl\nl\na\np\na\nn\nc\nh"
+  specimen_36: "K\na\nn\nm\ni\n \nd\ne\nr\ne\nc\nh\no\nn\nc\nh\ni\ns\nk\nu\nn\na\n \nl\nl\na\np\na\nn\nc\nh\ni\ns\np\na\n,\n \nn\na\nc\ne\ns\nq\na\nn\nc\nh\ni\ns\nm\na"
+  specimen_32: "K\na\nn\nm\ni\n \nd\ne\nr\ne\nc\nh\no\nn\nc\nh\ni\ns\nk\nu\nn\na\n \nl\nl\na\np\na\nn\nc\nh\ni\ns\np\na\n,\n \nn\na\nc\ne\ns\nq\na\nn\nc\nh\ni\ns\nm\na\nn\nt\na\n.\n \nK\na\nn\nt\na\nq\nm\ni\n \nl\nl\na\np\na\nn\nc"
+  specimen_21: "K\na\nn\nm\ni\n \nd\ne\nr\ne\nc\nh\no\nn\nc\nh\ni\ns\nk\nu\nn\na\n \nl\nl\na\np\na\nn\nc\nh\ni\ns\np\na\n,\n \nn\na\nc\ne\ns\nq\na\nn\nc\nh\ni\ns\nm\na\nn\nt\na\n.\n \nK\na\nn\nt\na\nq\nm\ni\n \nl\nl\na\np\na\nn\nc\nh\ni\ns\np\na\n \nr\nu\nn\na\n \nk\na\ny\nn\ni\nn\nc\nh\ni\ns\n.\n \nM\na\nn\na\nn\n \nr\nu\nn\na\n \nk\na\nn\nc\nh\nu\n \nm\na\nn\na\ny\n \nd\ne\nr\ne\nc\nh\no\ny\no\nq\n.\n \nH\nu\nk\n \nr\nu\nn\na\nq\n \nd\ne\nr\ne\nc\nh\no\n \nh\nu\nk\np"
+  specimen_16: "K\na\nn\nm\ni\n \nd\ne\nr\ne\nc\nh\no\nn\nc\nh\ni\ns\nk\nu\nn\na\n \nl\nl\na\np\na\nn\nc\nh\ni\ns\np\na\n,\n \nn\na\nc\ne\ns\nq\na\nn\nc\nh\ni\ns\nm\na\nn\nt\na\n.\n \nK\na\nn\nt\na\nq\nm\ni\n \nl\nl\na\np\na\nn\nc\nh\ni\ns\np\na\n \nr\nu\nn\na\n \nk\na\ny\nn\ni\nn\nc\nh\ni\ns\n.\n \nM\na\nn\na\nn\n \nr\nu\nn\na\n \nk\na\nn\nc\nh\nu\n \nm\na\nn\na\ny\n \nd\ne\nr\ne\nc\nh\no\ny\no\nq\n.\n \nH\nu\nk\n \nr\nu\nn\na\nq\n \nd\ne\nr\ne\nc\nh\no\n \nh\nu\nk\np\na\nw\na\nn\n \nk\na\nq\nl\nl\na\nn\n \nk\na\nn\n.\n \nK\na\nn\nm\ni\n \nd\ne\nr\ne\nc\nh\no\nn\nc\nh\ni\ns\n \nl\nl\na\np\na\nn\nc\nh\ni\ns\np\na\n \na\nl\nl\ni\nn\n \nk\na\nw\ns\na\ny\n \nl\ni\nb\nr\ne\n \nt\ni\ny\na\nn\na\nn\nc\nh\ni\ns\np\na\nq\n.\n \nL\nl\na\np\na\nn\n \nr\nu\nn\na\nq\np\na\nn\n \nk\na\nn\n \ny\nu\ny\na\ny\nn\ni\nn\nc\nh\ni\ns\n \ny\na\nc\nh\na\nn\na\np"
+}

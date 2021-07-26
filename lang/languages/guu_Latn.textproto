@@ -1,0 +1,18 @@
+id: "guu_Latn"
+language: "guu"
+script: "Latn"
+name: "Yanomamö"
+sample_text {
+  masthead_full: "KkÕõ"
+  masthead_partial: "Mm"
+  styles: "K\nõ\nm\ni\n \nt\nh\në\n \np\në\n \nr\në\n \np\në\nr\ni\np\nr"
+  tester: "K\nõ\nm\ni\n \nt\nh\në\n \np\në\n \nr\në\n \np\në\nr\ni\np\nr\na\nw\në\n \nr\në\n \np\ni\ny"
+  poster_sm: "K\nõ\nm\ni\n \nt"
+  poster_md: "K\nõ\nm\ni\n "
+  poster_lg: "K\nõ"
+  specimen_48: "K\nõ\nm\ni\n \nt\nh\në\n \np\në\n \nr\në\n \np\në\nr\ni\np\nr\na\nw\në\n \nr\në\n \np\ni\ny"
+  specimen_36: "K\nõ\nm\ni\n \nt\nh\në\n \np\në\n \nr\në\n \np\në\nr\ni\np\nr\na\nw\në\n \nr\në\n \np\ni\ny\në\nk\në\ni\n,\n \nh\ne\n \nu\ns\nu\nk\nu\nw\në\n \nt\nh\në"
+  specimen_32: "K\nõ\nm\ni\n \nt\nh\në\n \np\në\n \nr\në\n \np\në\nr\ni\np\nr\na\nw\në\n \nr\në\n \np\ni\ny\në\nk\në\ni\n,\n \nh\ne\n \nu\ns\nu\nk\nu\nw\në\n \nt\nh\në\n \np\në\n \nk\ne\np\nr\no\nu\n \na\ni\n \nt\nh\në\n \nã\n "
+  specimen_21: "K\nõ\nm\ni\n \nt\nh\në\n \np\në\n \nr\në\n \np\në\nr\ni\np\nr\na\nw\në\n \nr\në\n \np\ni\ny\në\nk\në\ni\n,\n \nh\ne\n \nu\ns\nu\nk\nu\nw\në\n \nt\nh\në\n \np\në\n \nk\ne\np\nr\no\nu\n \na\ni\n \nt\nh\në\n \nã\n \nr\në\na\nm\na\ni\nh\nã\n \nn\no\n \nã\n \nh\ne\np\na\nr\no\nh\no\nw\në\n,\n \nt\no\nt\ni\nh\ni\nt\na\nw\në\n \nt\nh\në\n \np\në\n \nr\ni\nã\n \nr\nẽ\n \nt\nh\na\ni\nw\ne\nh\ne\ni\n \nh\na\nm\ni\n,\n \nt\nh\në\n \np\në\n \np\nu\nh\ni\n \nt\na"
+  specimen_16: "K\nõ\nm\ni\n \nt\nh\në\n \np\në\n \nr\në\n \np\në\nr\ni\np\nr\na\nw\në\n \nr\në\n \np\ni\ny\në\nk\në\ni\n,\n \nh\ne\n \nu\ns\nu\nk\nu\nw\në\n \nt\nh\në\n \np\në\n \nk\ne\np\nr\no\nu\n \na\ni\n \nt\nh\në\n \nã\n \nr\në\na\nm\na\ni\nh\nã\n \nn\no\n \nã\n \nh\ne\np\na\nr\no\nh\no\nw\në\n,\n \nt\no\nt\ni\nh\ni\nt\na\nw\në\n \nt\nh\në\n \np\në\n \nr\ni\nã\n \nr\nẽ\n \nt\nh\na\ni\nw\ne\nh\ne\ni\n \nh\na\nm\ni\n,\n \nt\nh\në\n \np\në\n \np\nu\nh\ni\n \nt\na\no\n \nk\nã\ni\n \np\në\nr\ni\nh\ni\nw\në\nh\na\n,\n \nt\nh\në\n \np\në\n \np\nu\nh\ni\n \nk\nã\ni\n \nk\na\nt\ne\nh\ne\nw\në\nh\na\n \nh\na\nw\në\n \nk\na\nm\na\n \nt\nh\në\n \np\në\n \nm\na\ns\nh\ni\n \ns\nh\nĩ\nr\no\n \np\në\nr\ni\nh\ni\nm\no\np\në\n.\nK\nõ\nm\ni\n \nt\nh\në\n \np\në\n \nr\në\n \np\në\nr\ni\np\nr\na\nw\në\n \nr\në\n \np\ni\ny\në\nk\në\ni\n,\n \nh\ne\n \nu\ns"
+}

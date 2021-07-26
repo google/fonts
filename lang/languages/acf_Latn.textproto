@@ -1,0 +1,18 @@
+id: "acf_Latn"
+language: "acf"
+script: "Latn"
+name: "Saint Lucian Creole French, Latin"
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Uu"
+  styles: "T\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn\ne\nt\n \nl\ni\nb\n "
+  tester: "T\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn\ne\nt\n \nl\ni\nb\n \né\ng\no\n \na\nn\n \nd\ni\ng"
+  poster_sm: "T\no\nu\nt\n \ni"
+  poster_md: "T\no\nu\nt\n "
+  poster_lg: "T\no"
+  specimen_48: "T\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn\ne\nt\n \nl\ni\nb\n \né\ng\no\n \na\nn\n \nd\ni\ng"
+  specimen_36: "T\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn\ne\nt\n \nl\ni\nb\n \né\ng\no\n \na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\np\ni\n \ny\no\n \nd\nw\na\n.\n \nY\no\n "
+  specimen_32: "T\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn\ne\nt\n \nl\ni\nb\n \né\ng\no\n \na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\np\ni\n \ny\no\n \nd\nw\na\n.\n \nY\no\n \nn\ni\n \nr\né\nz\no\nn\n \ne\nk\n \nk\no\nn\ns\ny\na\nn\ns"
+  specimen_21: "T\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn\ne\nt\n \nl\ni\nb\n \né\ng\no\n \na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\np\ni\n \ny\no\n \nd\nw\na\n.\n \nY\no\n \nn\ni\n \nr\né\nz\no\nn\n \ne\nk\n \nk\no\nn\ns\ny\na\nn\ns\n \nl\na\n \né\np\ni\n \nd\nw\ne\nt\n \na\nj\ni\n \ny\no\nn\nn\n \np\no\nu\n \nl\no\nt\n \na\nd\na\nn\n \ny\no\nn\nn\n \nl\ne\ns\np\nr\ni\n \nd\ni\n \nf\nr\na\nt\ne\nr\nn\ni\nt\né\n.\nT\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn\ne\nt\n \nl\ni\nb"
+  specimen_16: "T\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn\ne\nt\n \nl\ni\nb\n \né\ng\no\n \na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\np\ni\n \ny\no\n \nd\nw\na\n.\n \nY\no\n \nn\ni\n \nr\né\nz\no\nn\n \ne\nk\n \nk\no\nn\ns\ny\na\nn\ns\n \nl\na\n \né\np\ni\n \nd\nw\ne\nt\n \na\nj\ni\n \ny\no\nn\nn\n \np\no\nu\n \nl\no\nt\n \na\nd\na\nn\n \ny\no\nn\nn\n \nl\ne\ns\np\nr\ni\n \nd\ni\n \nf\nr\na\nt\ne\nr\nn\ni\nt\né\n.\nT\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn\ne\nt\n \nl\ni\nb\n \né\ng\no\n \na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\np\ni\n \ny\no\n \nd\nw\na\n.\n \nY\no\n \nn\ni\n \nr\né\nz\no\nn\n \ne\nk\n \nk\no\nn\ns\ny\na\nn\ns\n \nl\na\n \né\np\ni\n \nd\nw\ne\nt\n \na\nj\ni\n \ny\no\nn\nn\n \np\no\nu\n \nl\no\nt\n \na\nd\na\nn\n \ny\no\nn\nn\n \nl\ne\ns\np\nr\ni\n \nd\ni\n \nf\nr\na\nt\ne\nr\nn\ni\nt\né\n.\nT\no\nu\nt\n \ni\nm\ne\nn\n \nk\na\n \nn"
+}

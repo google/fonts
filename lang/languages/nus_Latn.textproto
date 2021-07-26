@@ -11,3 +11,17 @@ exemplar_chars {
   numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "A B C D E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P Q R S T U V W X Y Z"
 }
+sample_text {
+  masthead_full: "NnAa"
+  masthead_partial: "Tt"
+  styles: "N\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n "
+  tester: "N\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n \na\n \nl\nɔ\nr\n \nk\nä\n \np"
+  poster_sm: "N\na\na\nt\nh\n "
+  poster_md: "N\na\na\nt\nh"
+  poster_lg: "N\na"
+  specimen_48: "N\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n \na\n \nl\nɔ\nr\n \nk\nä\n \np"
+  specimen_36: "N\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n \na\n \nl\nɔ\nr\n \nk\nä\n \np\nä\nä\nr\nk\nɛ\n \nk\nɛ\n \nc\ni\na\nŋ\n \nm\na\nl\nä\n \na"
+  specimen_32: "N\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n \na\n \nl\nɔ\nr\n \nk\nä\n \np\nä\nä\nr\nk\nɛ\n \nk\nɛ\n \nc\ni\na\nŋ\n \nm\na\nl\nä\n \na\n \nm\nä\nn\ni\n \nc\nu\nŋ\nk\ni\nɛ\nn\n.\n \nT\ne\nk\nɛ\n "
+  specimen_21: "N\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n \na\n \nl\nɔ\nr\n \nk\nä\n \np\nä\nä\nr\nk\nɛ\n \nk\nɛ\n \nc\ni\na\nŋ\n \nm\na\nl\nä\n \na\n \nm\nä\nn\ni\n \nc\nu\nŋ\nk\ni\nɛ\nn\n.\n \nT\ne\nk\nɛ\n \nk\nɛ\n \nc\na\nr\n \nk\nɛ\nn\nɛ\n \nn\nh\no\nk\n \nt\ni\n \nd\ne\n \nl\nä\nt\n \nk\nɛ\n \nr\na\na\nn\n \nk\nɛ\n \nd\nä\nm\na\na\nn\n \na\n \ng\nɔ\na\n.\nN\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n \na\n \nl\nɔ\nr\n \nk\nä\n "
+  specimen_16: "N\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n \na\n \nl\nɔ\nr\n \nk\nä\n \np\nä\nä\nr\nk\nɛ\n \nk\nɛ\n \nc\ni\na\nŋ\n \nm\na\nl\nä\n \na\n \nm\nä\nn\ni\n \nc\nu\nŋ\nk\ni\nɛ\nn\n.\n \nT\ne\nk\nɛ\n \nk\nɛ\n \nc\na\nr\n \nk\nɛ\nn\nɛ\n \nn\nh\no\nk\n \nt\ni\n \nd\ne\n \nl\nä\nt\n \nk\nɛ\n \nr\na\na\nn\n \nk\nɛ\n \nd\nä\nm\na\na\nn\n \na\n \ng\nɔ\na\n.\nN\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n \na\n \nl\nɔ\nr\n \nk\nä\n \np\nä\nä\nr\nk\nɛ\n \nk\nɛ\n \nc\ni\na\nŋ\n \nm\na\nl\nä\n \na\n \nm\nä\nn\ni\n \nc\nu\nŋ\nk\ni\nɛ\nn\n.\n \nT\ne\nk\nɛ\n \nk\nɛ\n \nc\na\nr\n \nk\nɛ\nn\nɛ\n \nn\nh\no\nk\n \nt\ni\n \nd\ne\n \nl\nä\nt\n \nk\nɛ\n \nr\na\na\nn\n \nk\nɛ\n \nd\nä\nm\na\na\nn\n \na\n \ng\nɔ\na\n.\nN\na\na\nt\nh\n \nd\ni\na\nl\n \nd\ni\ne\nt\nh\nɛ\n \nk\nɛ\n \na\n \nl\nɔ\nr\n \nk\nä\n \np\nä\nä\nr"
+}

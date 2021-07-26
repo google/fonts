@@ -4,3 +4,17 @@ script: "Latn"
 name: "Sasak"
 population: 2590152
 region: "ID"
+sample_text {
+  masthead_full: "SsEe"
+  masthead_partial: "Ll"
+  styles: "S\ne\nl\na\np\nu\nk\n \nm\na\nn\nu\ns\ni\ne\n \nt\ne\n \na\nn"
+  tester: "S\ne\nl\na\np\nu\nk\n \nm\na\nn\nu\ns\ni\ne\n \nt\ne\n \na\nn\na\nk\na\nn\n \nb\ne\nb\na\ns"
+  poster_sm: "S\ne\nl\na\np\nu"
+  poster_md: "S\ne\nl\na\np"
+  poster_lg: "S\ne"
+  specimen_48: "S\ne\nl\na\np\nu\nk\n \nm\na\nn\nu\ns\ni\ne\n \nt\ne\n \na\nn\na\nk\na\nn\n \nb\ne\nb\na\ns"
+  specimen_36: "S\ne\nl\na\np\nu\nk\n \nm\na\nn\nu\ns\ni\ne\n \nt\ne\n \na\nn\na\nk\na\nn\n \nb\ne\nb\na\ns\n \nk\na\nn\nc\ne\n \nb\ne\nd\no\ne\n \nm\na\nr\nt\na\nb\na"
+  specimen_32: "S\ne\nl\na\np\nu\nk\n \nm\na\nn\nu\ns\ni\ne\n \nt\ne\n \na\nn\na\nk\na\nn\n \nb\ne\nb\na\ns\n \nk\na\nn\nc\ne\n \nb\ne\nd\no\ne\n \nm\na\nr\nt\na\nb\na\nt\n \nk\na\nn\nc\ne\n \nh\na\nk\n \nh\na\nk\n \ns\na\nk\n "
+  specimen_21: "S\ne\nl\na\np\nu\nk\n \nm\na\nn\nu\ns\ni\ne\n \nt\ne\n \na\nn\na\nk\na\nn\n \nb\ne\nb\na\ns\n \nk\na\nn\nc\ne\n \nb\ne\nd\no\ne\n \nm\na\nr\nt\na\nb\na\nt\n \nk\na\nn\nc\ne\n \nh\na\nk\n \nh\na\nk\n \ns\na\nk\n \np\na\nd\ne\n.\n \nS\ne\nl\na\np\nu\nk\n \nn\ne\n \nt\ne\nb\ne\nn\ng\n \na\nk\na\nl\n \nk\na\nn\nc\ne\n \na\nt\ne\n \nj\na\nr\ni\n \nb\ne\nr\ng\na\nu\nl\n/\nb\ne\nk\ne\nd\ne\nk\n \nd\na\nl\ne\nm\n \ns\ne\nm\na\nn\ng\ne\nt\n \nb\ne\ns\ne\nm\ne"
+  specimen_16: "S\ne\nl\na\np\nu\nk\n \nm\na\nn\nu\ns\ni\ne\n \nt\ne\n \na\nn\na\nk\na\nn\n \nb\ne\nb\na\ns\n \nk\na\nn\nc\ne\n \nb\ne\nd\no\ne\n \nm\na\nr\nt\na\nb\na\nt\n \nk\na\nn\nc\ne\n \nh\na\nk\n \nh\na\nk\n \ns\na\nk\n \np\na\nd\ne\n.\n \nS\ne\nl\na\np\nu\nk\n \nn\ne\n \nt\ne\nb\ne\nn\ng\n \na\nk\na\nl\n \nk\na\nn\nc\ne\n \na\nt\ne\n \nj\na\nr\ni\n \nb\ne\nr\ng\na\nu\nl\n/\nb\ne\nk\ne\nd\ne\nk\n \nd\na\nl\ne\nm\n \ns\ne\nm\na\nn\ng\ne\nt\n \nb\ne\ns\ne\nm\ne\nt\no\nn\n.\nS\ne\nl\na\np\nu\nk\n \nm\na\nn\nu\ns\ni\ne\n \nt\ne\n \na\nn\na\nk\na\nn\n \nb\ne\nb\na\ns\n \nk\na\nn\nc\ne\n \nb\ne\nd\no\ne\n \nm\na\nr\nt\na\nb\na\nt\n \nk\na\nn\nc\ne\n \nh\na\nk\n \nh\na\nk\n \ns\na\nk\n \np\na\nd\ne\n.\n \nS\ne\nl\na\np\nu\nk\n \nn\ne\n \nt\ne\nb\ne\nn\ng\n \na\nk\na\nl\n \nk\na\nn\nc\ne\n \na\nt\ne\n \nj\na\nr\ni\n \nb\ne\nr\ng\na\nu\nl"
+}

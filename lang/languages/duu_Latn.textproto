@@ -1,0 +1,18 @@
+id: "duu_Latn"
+language: "duu"
+script: "Latn"
+name: "Drung"
+sample_text {
+  masthead_full: "AaVv"
+  masthead_partial: "Zz"
+  styles: "A\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb"
+  tester: "A\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb\ny\nv\n \ns\ny\nv\nn\na\nx\n "
+  poster_sm: "A\nv\nz\na\nn\ng"
+  poster_md: "A\nv\nz\na\nn"
+  poster_lg: "A\nv"
+  specimen_48: "A\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb\ny\nv\n \ns\ny\nv\nn\na\nx\n "
+  specimen_36: "A\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb\ny\nv\n \ns\ny\nv\nn\na\nx\n \nz\ny\nx\ny\ny\nv\n \ne\nf\n,\n \nl\ni\nf\nx\ni\nn\ng\nx\n "
+  specimen_32: "A\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb\ny\nv\n \ns\ny\nv\nn\na\nx\n \nz\ny\nx\ny\ny\nv\n \ne\nf\n,\n \nl\ni\nf\nx\ni\nn\ng\nx\n \nn\ni\nn\ng\nx\n \nl\ny\na\nn\ng\nv\nx\ni\nn\nx\n \na\nl\nf"
+  specimen_21: "A\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb\ny\nv\n \ns\ny\nv\nn\na\nx\n \nz\ny\nx\ny\ny\nv\n \ne\nf\n,\n \nl\ni\nf\nx\ni\nn\ng\nx\n \nn\ni\nn\ng\nx\n \nl\ny\na\nn\ng\nv\nx\ni\nn\nx\n \na\nl\nf\n,\n \nt\na\ni\nx\nr\na\nv\n \na\nn\ng\nv\nn\ni\nk\nx\nr\na\nv\n \ng\nw\na\nn\nx\nx\ni\nx\n \nm\ni\nx\n \ns\ny\nv\n \na\nv\n \nd\nu\ni\nx\nd\na\ni\nx\n.\nA\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb\ny\nv\n \ns\ny\nv\nn\na\nx"
+  specimen_16: "A\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb\ny\nv\n \ns\ny\nv\nn\na\nx\n \nz\ny\nx\ny\ny\nv\n \ne\nf\n,\n \nl\ni\nf\nx\ni\nn\ng\nx\n \nn\ni\nn\ng\nx\n \nl\ny\na\nn\ng\nv\nx\ni\nn\nx\n \na\nl\nf\n,\n \nt\na\ni\nx\nr\na\nv\n \na\nn\ng\nv\nn\ni\nk\nx\nr\na\nv\n \ng\nw\na\nn\nx\nx\ni\nx\n \nm\ni\nx\n \ns\ny\nv\n \na\nv\n \nd\nu\ni\nx\nd\na\ni\nx\n.\nA\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb\ny\nv\n \ns\ny\nv\nn\na\nx\n \nz\ny\nx\ny\ny\nv\n \ne\nf\n,\n \nl\ni\nf\nx\ni\nn\ng\nx\n \nn\ni\nn\ng\nx\n \nl\ny\na\nn\ng\nv\nx\ni\nn\nx\n \na\nl\nf\n,\n \nt\na\ni\nx\nr\na\nv\n \na\nn\ng\nv\nn\ni\nk\nx\nr\na\nv\n \ng\nw\na\nn\nx\nx\ni\nx\n \nm\ni\nx\n \ns\ny\nv\n \na\nv\n \nd\nu\ni\nx\nd\na\ni\nx\n.\nA\nv\nz\na\nn\ng\nf\n \nm\na\nx\n \np\ny\nv\nc\nc\nu\nf\n \nb\ny\nv\n \ns\ny\nv\nn\na\nx\n \nz\ny\nx\ny"
+}

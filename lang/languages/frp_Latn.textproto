@@ -4,3 +4,17 @@ script: "Latn"
 name: "Arpitan"
 population: 63777
 region: "FR"
+sample_text {
+  masthead_full: "TtÔô"
+  masthead_partial: "Ss"
+  styles: "T\nô\ns\n \nl\no\ns\n \né\nt\nr\ne\ns\n \nh\no\nm\na\nn\ns\n "
+  tester: "T\nô\ns\n \nl\no\ns\n \né\nt\nr\ne\ns\n \nh\no\nm\na\nn\ns\n \nn\nê\ns\ns\no\nn\nt\n \nl\ni"
+  poster_sm: "T\nô\ns\n \nl\no"
+  poster_md: "T\nô\ns\n \nl"
+  poster_lg: "T\nô"
+  specimen_48: "T\nô\ns\n \nl\no\ns\n \né\nt\nr\ne\ns\n \nh\no\nm\na\nn\ns\n \nn\nê\ns\ns\no\nn\nt\n \nl\ni"
+  specimen_36: "T\nô\ns\n \nl\no\ns\n \né\nt\nr\ne\ns\n \nh\no\nm\na\nn\ns\n \nn\nê\ns\ns\no\nn\nt\n \nl\ni\nb\nr\no\ns\n \ne\nt\n \nè\ng\na\nl\ns\n \ne\nn\n \nd\ni\ng"
+  specimen_32: "T\nô\ns\n \nl\no\ns\n \né\nt\nr\ne\ns\n \nh\no\nm\na\nn\ns\n \nn\nê\ns\ns\no\nn\nt\n \nl\ni\nb\nr\no\ns\n \ne\nt\n \nè\ng\na\nl\ns\n \ne\nn\n \nd\ni\ng\nn\ni\nt\nâ\nt\n \ne\nt\n \ne\nn\n \nd\nr\nê\nt\ns\n.\n \nI"
+  specimen_21: "T\nô\ns\n \nl\no\ns\n \né\nt\nr\ne\ns\n \nh\no\nm\na\nn\ns\n \nn\nê\ns\ns\no\nn\nt\n \nl\ni\nb\nr\no\ns\n \ne\nt\n \nè\ng\na\nl\ns\n \ne\nn\n \nd\ni\ng\nn\ni\nt\nâ\nt\n \ne\nt\n \ne\nn\n \nd\nr\nê\nt\ns\n.\n \nI\nl\ns\n \na\nn\nt\n \nr\nê\ns\no\nn\n \ne\nt\n \nc\no\nn\ns\nc\ni\ne\nn\nc\ne\n \ne\nt\n \nd\nê\nv\no\nn\nt\n \nf\nâ\nr\ne\n \nl\no\ns\n \nu\nn\ns\n \ne\nn\nv\nè\nr\ns\n \nl\no\ns\n \nô\nt\nr\no\ns\n \nd\ne\nd\ne\nn\ns\n \nu\nn\n \nè\ns\np"
+  specimen_16: "T\nô\ns\n \nl\no\ns\n \né\nt\nr\ne\ns\n \nh\no\nm\na\nn\ns\n \nn\nê\ns\ns\no\nn\nt\n \nl\ni\nb\nr\no\ns\n \ne\nt\n \nè\ng\na\nl\ns\n \ne\nn\n \nd\ni\ng\nn\ni\nt\nâ\nt\n \ne\nt\n \ne\nn\n \nd\nr\nê\nt\ns\n.\n \nI\nl\ns\n \na\nn\nt\n \nr\nê\ns\no\nn\n \ne\nt\n \nc\no\nn\ns\nc\ni\ne\nn\nc\ne\n \ne\nt\n \nd\nê\nv\no\nn\nt\n \nf\nâ\nr\ne\n \nl\no\ns\n \nu\nn\ns\n \ne\nn\nv\nè\nr\ns\n \nl\no\ns\n \nô\nt\nr\no\ns\n \nd\ne\nd\ne\nn\ns\n \nu\nn\n \nè\ns\np\nr\ni\nt\n \nd\ne\n \nf\nr\na\nt\ne\nr\nn\ni\nt\nâ\nt\n.\nT\nô\ns\n \nl\no\ns\n \né\nt\nr\ne\ns\n \nh\no\nm\na\nn\ns\n \nn\nê\ns\ns\no\nn\nt\n \nl\ni\nb\nr\no\ns\n \ne\nt\n \nè\ng\na\nl\ns\n \ne\nn\n \nd\ni\ng\nn\ni\nt\nâ\nt\n \ne\nt\n \ne\nn\n \nd\nr\nê\nt\ns\n.\n \nI\nl\ns\n \na\nn\nt\n \nr\nê\ns\no\nn\n \ne\nt\n \nc\no\nn\ns\nc\ni\ne\nn\nc\ne\n \ne\nt\n \nd\nê\nv\no\nn\nt"
+}

@@ -4,3 +4,17 @@ script: "Deva"
 name: "Kanauji"
 population: 7426104
 region: "IN"
+sample_text {
+  masthead_full: "सभमन"
+  masthead_partial: "षय"
+  styles: "स\nभ\nी\n \nम\nन\nु\nष\n्\nय\nो\nं\n \nक\nो\n \nग\nौ\nर\nव\n \nऔ\nर\n "
+  tester: "स\nभ\nी\n \nम\nन\nु\nष\n्\nय\nो\nं\n \nक\nो\n \nग\nौ\nर\nव\n \nऔ\nर\n \nअ\nध\nि\nक\nा\nर\nो\nं\n \nक\nे\n \nम"
+  poster_sm: "स\nभ\nी\n \nम\nन"
+  poster_md: "स\nभ\nी\n \nम"
+  poster_lg: "स\nभ"
+  specimen_48: "स\nभ\nी\n \nम\nन\nु\nष\n्\nय\nो\nं\n \nक\nो\n \nग\nौ\nर\nव\n \nऔ\nर\n \nअ\nध\nि\nक\nा\nर\nो\nं\n \nक\nे\n \nम"
+  specimen_36: "स\nभ\nी\n \nम\nन\nु\nष\n्\nय\nो\nं\n \nक\nो\n \nग\nौ\nर\nव\n \nऔ\nर\n \nअ\nध\nि\nक\nा\nर\nो\nं\n \nक\nे\n \nम\nा\nम\nल\nे\n \nम\nे\nं\n \nज\nन\n्\nम\nज\nा\nत\n \nस\n्\nव\nत\nं\nत\n्"
+  specimen_32: "स\nभ\nी\n \nम\nन\nु\nष\n्\nय\nो\nं\n \nक\nो\n \nग\nौ\nर\nव\n \nऔ\nर\n \nअ\nध\nि\nक\nा\nर\nो\nं\n \nक\nे\n \nम\nा\nम\nल\nे\n \nम\nे\nं\n \nज\nन\n्\nम\nज\nा\nत\n \nस\n्\nव\nत\nं\nत\n्\nर\nत\nा\n \nऔ\nर\n \nस\nम\nा\nन\nत\nा\n \nप\n्\nर\nा\nप\n्\nत\n \nह"
+  specimen_21: "स\nभ\nी\n \nम\nन\nु\nष\n्\nय\nो\nं\n \nक\nो\n \nग\nौ\nर\nव\n \nऔ\nर\n \nअ\nध\nि\nक\nा\nर\nो\nं\n \nक\nे\n \nम\nा\nम\nल\nे\n \nम\nे\nं\n \nज\nन\n्\nम\nज\nा\nत\n \nस\n्\nव\nत\nं\nत\n्\nर\nत\nा\n \nऔ\nर\n \nस\nम\nा\nन\nत\nा\n \nप\n्\nर\nा\nप\n्\nत\n \nह\nो\n।\n \nउ\nन\n्\nह\nे\nं\n \nब\nु\nद\n्\nभ\nि\n \nऔ\nर\n \nआ\nत\n्\nम\nा\n \nक\nी\n \nद\nे\nन\n \nप\n्\nर\nा\nप\n्\nत\n \nह\nै\n \nओ\nर\n \nप\nर\nस\n्\nप\nर\n \nउ\nन\n्\nह\nे\nं\n \nभ\nा\nई\nच\nा\nर\nे\n \nक\nे\n \nभ\nा\nव\n \nस\nे\n \nब\nर\n्\nत\nा\nब\n \nक\nर\nन\nो\n \nच\nइ\nए\n।"
+  specimen_16: "स\nभ\nी\n \nम\nन\nु\nष\n्\nय\nो\nं\n \nक\nो\n \nग\nौ\nर\nव\n \nऔ\nर\n \nअ\nध\nि\nक\nा\nर\nो\nं\n \nक\nे\n \nम\nा\nम\nल\nे\n \nम\nे\nं\n \nज\nन\n्\nम\nज\nा\nत\n \nस\n्\nव\nत\nं\nत\n्\nर\nत\nा\n \nऔ\nर\n \nस\nम\nा\nन\nत\nा\n \nप\n्\nर\nा\nप\n्\nत\n \nह\nो\n।\n \nउ\nन\n्\nह\nे\nं\n \nब\nु\nद\n्\nभ\nि\n \nऔ\nर\n \nआ\nत\n्\nम\nा\n \nक\nी\n \nद\nे\nन\n \nप\n्\nर\nा\nप\n्\nत\n \nह\nै\n \nओ\nर\n \nप\nर\nस\n्\nप\nर\n \nउ\nन\n्\nह\nे\nं\n \nभ\nा\nई\nच\nा\nर\nे\n \nक\nे\n \nभ\nा\nव\n \nस\nे\n \nब\nर\n्\nत\nा\nब\n \nक\nर\nन\nो\n \nच\nइ\nए\n।\nस\nभ\nी\n \nम\nन\nु\nष\n्\nय\nो\nं\n \nक\nो\n \nग\nौ\nर\nव\n \nऔ\nर\n \nअ\nध\nि\nक\nा\nर\nो\nं\n \nक\nे\n \nम\nा\nम\nल\nे\n \nम\nे\nं\n \nज\nन\n्\nम\nज\nा\nत\n \nस\n्\nव\nत\nं\nत\n्\nर\nत\nा\n \nऔ\nर\n \nस\nम\nा\nन\nत\nा\n \nप\n्\nर\nा\nप\n्\nत\n \nह\nो\n।\n \nउ\nन\n्\nह\nे\nं\n \nब\nु\nद\n्\nभ\nि\n \nऔ\nर\n \nआ\nत\n्\nम\nा\n \nक\nी\n \nद\nे\nन\n \nप\n्\nर\nा\nप\n्\nत\n \nह\nै\n \nओ\nर\n \nप\nर\nस\n्\nप\nर\n \nउ\nन\n्\nह\nे\nं\n \nभ\nा\nई\nच"
+}

@@ -1,0 +1,18 @@
+id: "cnh_Latn"
+language: "cnh"
+script: "Latn"
+name: "Chin, Haka"
+sample_text {
+  masthead_full: "MmIi"
+  masthead_partial: "Vv"
+  styles: "M\ni\n \nv\ni\na\nl\nt\ne\n \nh\nn\na\n \nc\nu\n \nz\na\nl\no"
+  tester: "M\ni\n \nv\ni\na\nl\nt\ne\n \nh\nn\na\n \nc\nu\n \nz\na\nl\no\nn\ng\n \nt\ne\n,\n \na\ni\n "
+  poster_sm: "M\ni\n \nv\ni\na"
+  poster_md: "M\ni\n \nv\ni"
+  poster_lg: "M\ni"
+  specimen_48: "M\ni\n \nv\ni\na\nl\nt\ne\n \nh\nn\na\n \nc\nu\n \nz\na\nl\no\nn\ng\n \nt\ne\n,\n \na\ni\n "
+  specimen_36: "M\ni\n \nv\ni\na\nl\nt\ne\n \nh\nn\na\n \nc\nu\n \nz\na\nl\no\nn\ng\n \nt\ne\n,\n \na\ni\n \nt\nl\nu\nk\n \nt\ne\n \nl\ne\n \nu\np\na\nt\n \nt\ni\nh\nz"
+  specimen_32: "M\ni\n \nv\ni\na\nl\nt\ne\n \nh\nn\na\n \nc\nu\n \nz\na\nl\no\nn\ng\n \nt\ne\n,\n \na\ni\n \nt\nl\nu\nk\n \nt\ne\n \nl\ne\n \nu\np\na\nt\n \nt\ni\nh\nz\na\nh\n \na\nw\nk\nt\nl\na\nk\n \nl\ne\n \nt\nh\ni\nl\nt\ni"
+  specimen_21: "M\ni\n \nv\ni\na\nl\nt\ne\n \nh\nn\na\n \nc\nu\n \nz\na\nl\no\nn\ng\n \nt\ne\n,\n \na\ni\n \nt\nl\nu\nk\n \nt\ne\n \nl\ne\n \nu\np\na\nt\n \nt\ni\nh\nz\na\nh\n \na\nw\nk\nt\nl\na\nk\n \nl\ne\n \nt\nh\ni\nl\nt\ni\nk\nh\na\nw\nh\nn\na\nk\n \nt\ni\nn\nv\no\n \na\n \nn\ng\ne\ni\n \ni\nn\n \na\n \nc\nh\nu\na\nk\n \nm\ni\n \nk\na\nn\n \ns\ni\n \nd\ni\nh\n.\n \nM\ni\nn\nu\nn\ng\n \nc\nu\n \na\n \nc\nh\ni\na\n \na\n \nt\nh\na\n \nt\nh\nl\ne\ni\nd\na\nn\ng\n "
+  specimen_16: "M\ni\n \nv\ni\na\nl\nt\ne\n \nh\nn\na\n \nc\nu\n \nz\na\nl\no\nn\ng\n \nt\ne\n,\n \na\ni\n \nt\nl\nu\nk\n \nt\ne\n \nl\ne\n \nu\np\na\nt\n \nt\ni\nh\nz\na\nh\n \na\nw\nk\nt\nl\na\nk\n \nl\ne\n \nt\nh\ni\nl\nt\ni\nk\nh\na\nw\nh\nn\na\nk\n \nt\ni\nn\nv\no\n \na\n \nn\ng\ne\ni\n \ni\nn\n \na\n \nc\nh\nu\na\nk\n \nm\ni\n \nk\na\nn\n \ns\ni\n \nd\ni\nh\n.\n \nM\ni\nn\nu\nn\ng\n \nc\nu\n \na\n \nc\nh\ni\na\n \na\n \nt\nh\na\n \nt\nh\nl\ne\ni\nd\na\nn\ng\n \nk\nh\no\nm\ni\n \nr\nu\na\nh\nn\na\nk\n \nl\ne\n \nt\nh\ne\ni\nh\nt\nh\ni\na\nm\nn\na\nk\n \nz\ni\na\nz\na\n \nt\nh\na\n \na\n \nn\ng\ne\ni\nm\ni\n \nk\na\nn\n \ns\ni\n \nc\na\na\nh\n \np\na\nk\nh\na\nt\n \nl\ne\n \np\na\nk\nh\na\nt\n \nd\na\nw\nt\nn\na\nk\n \nh\ne\n \ni\n \np\ne\nh\nt\nl\na\ni\nh\nn\na\nk\n \nl\ne\n \ni\n \nh\na\nw\ni\nk\na\nw\nm\nh\nn\na\nk\n \nn\ng\ne"
+}

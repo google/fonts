@@ -1,0 +1,18 @@
+id: "qxn_Latn"
+language: "qxn"
+script: "Latn"
+name: "Quechua, Northern Conchucos Ancash"
+sample_text {
+  masthead_full: "MmAa"
+  masthead_partial: "Yy"
+  styles: "M\na\ny\nq\na\nn\n \nr\nu\nn\na\np\ni\ns\n \nm\na\nn\na\nm\n "
+  tester: "M\na\ny\nq\na\nn\n \nr\nu\nn\na\np\ni\ns\n \nm\na\nn\na\nm\n \np\ni\np\na\n \ni\ns\nk\nl\na"
+  poster_sm: "M\na\ny\nq\na\nn"
+  poster_md: "M\na\ny\nq\na"
+  poster_lg: "M\na"
+  specimen_48: "M\na\ny\nq\na\nn\n \nr\nu\nn\na\np\ni\ns\n \nm\na\nn\na\nm\n \np\ni\np\na\n \ni\ns\nk\nl\na"
+  specimen_36: "M\na\ny\nq\na\nn\n \nr\nu\nn\na\np\ni\ns\n \nm\na\nn\na\nm\n \np\ni\np\na\n \ni\ns\nk\nl\na\nb\nu\nn\n \nk\na\nn\na\nn\np\na\nq\nt\ns\nu\n \ny\nu\nr\ni"
+  specimen_32: "M\na\ny\nq\na\nn\n \nr\nu\nn\na\np\ni\ns\n \nm\na\nn\na\nm\n \np\ni\np\na\n \ni\ns\nk\nl\na\nb\nu\nn\n \nk\na\nn\na\nn\np\na\nq\nt\ns\nu\n \ny\nu\nr\ni\ns\nh\nq\na\n.\n \nY\n \nr\nu\nn\na\n \nk\na\nr\nn\ni\nn\nm"
+  specimen_21: "M\na\ny\nq\na\nn\n \nr\nu\nn\na\np\ni\ns\n \nm\na\nn\na\nm\n \np\ni\np\na\n \ni\ns\nk\nl\na\nb\nu\nn\n \nk\na\nn\na\nn\np\na\nq\nt\ns\nu\n \ny\nu\nr\ni\ns\nh\nq\na\n.\n \nY\n \nr\nu\nn\na\n \nk\na\nr\nn\ni\nn\nm\ni\n \nl\nl\na\np\na\nn\n \nr\nu\nn\na\nk\nu\nn\na\n \ni\nw\na\nl\n \nk\na\ny\na\nn\nm\na\nn\n \nd\ni\nr\ni\nc\nh\nu\nn\nk\nu\nn\na\nc\nh\na\nw\np\ni\ns\n.\n \nY\n \ny\na\nr\np\na\ny\nt\na\n \ny\na\nc\nh\na\nr\nn\ni\nn\nm\ni\n \ny\n \na\nl\nl"
+  specimen_16: "M\na\ny\nq\na\nn\n \nr\nu\nn\na\np\ni\ns\n \nm\na\nn\na\nm\n \np\ni\np\na\n \ni\ns\nk\nl\na\nb\nu\nn\n \nk\na\nn\na\nn\np\na\nq\nt\ns\nu\n \ny\nu\nr\ni\ns\nh\nq\na\n.\n \nY\n \nr\nu\nn\na\n \nk\na\nr\nn\ni\nn\nm\ni\n \nl\nl\na\np\na\nn\n \nr\nu\nn\na\nk\nu\nn\na\n \ni\nw\na\nl\n \nk\na\ny\na\nn\nm\na\nn\n \nd\ni\nr\ni\nc\nh\nu\nn\nk\nu\nn\na\nc\nh\na\nw\np\ni\ns\n.\n \nY\n \ny\na\nr\np\na\ny\nt\na\n \ny\na\nc\nh\na\nr\nn\ni\nn\nm\ni\n \ny\n \na\nl\nl\ni\nt\na\n \nm\na\nn\na\n \na\nl\nl\ni\nt\na\n \ns\nh\nu\nn\nq\nu\nn\nk\nu\nn\na\nc\nh\na\nw\n \nm\na\nk\nu\nr\nn\ni\nn\nm\ni\n \nr\nu\nn\na\nk\nu\nn\na\n \nh\nu\nk\nn\ni\nn\n \nh\nu\nk\nn\ni\nn\nt\na\n \nr\ni\ns\np\ni\nt\na\nn\na\nk\nu\nr\n \nk\na\ny\na\nn\nm\na\nn\n.\nM\na\ny\nq\na\nn\n \nr\nu\nn\na\np\ni\ns\n \nm\na\nn\na\nm\n \np\ni\np\na\n \ni\ns\nk\nl\na\nb\nu\nn\n "
+}

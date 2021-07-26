@@ -1,0 +1,18 @@
+id: "qud_Latn"
+language: "qud"
+script: "Latn"
+name: "Quechua, Unified Quichua, old Hispanic orthography"
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Cc"
+  styles: "T\nu\nc\nu\ny\n \nr\nu\nn\na\nc\nu\nn\na\n \nq\nu\ni\ns\nh\np"
+  tester: "T\nu\nc\nu\ny\n \nr\nu\nn\na\nc\nu\nn\na\n \nq\nu\ni\ns\nh\np\ni\nr\ni\nh\nu\ná\nn\n \nh\nu"
+  poster_sm: "T\nu\nc\nu\ny\n "
+  poster_md: "T\nu\nc\nu\ny"
+  poster_lg: "T\nu"
+  specimen_48: "T\nu\nc\nu\ny\n \nr\nu\nn\na\nc\nu\nn\na\n \nq\nu\ni\ns\nh\np\ni\nr\ni\nh\nu\ná\nn\n \nh\nu"
+  specimen_36: "T\nu\nc\nu\ny\n \nr\nu\nn\na\nc\nu\nn\na\n \nq\nu\ni\ns\nh\np\ni\nr\ni\nh\nu\ná\nn\n \nh\nu\ni\nñ\ná\nn\n,\n \np\na\nc\nt\na\nc\nu\nn\na\nh\nu\na\nm\np"
+  specimen_32: "T\nu\nc\nu\ny\n \nr\nu\nn\na\nc\nu\nn\na\n \nq\nu\ni\ns\nh\np\ni\nr\ni\nh\nu\ná\nn\n \nh\nu\ni\nñ\ná\nn\n,\n \np\na\nc\nt\na\nc\nu\nn\na\nh\nu\na\nm\np\ne\ns\n,\n \np\na\ny\n \np\nu\nr\na\n,\n \nu\nm\na\nh\nu\ná\nn"
+  specimen_21: "T\nu\nc\nu\ny\n \nr\nu\nn\na\nc\nu\nn\na\n \nq\nu\ni\ns\nh\np\ni\nr\ni\nh\nu\ná\nn\n \nh\nu\ni\nñ\ná\nn\n,\n \np\na\nc\nt\na\nc\nu\nn\na\nh\nu\na\nm\np\ne\ns\n,\n \np\na\ny\n \np\nu\nr\na\n,\n \nu\nm\na\nh\nu\ná\nn\n,\n \na\ny\na\nh\nu\ná\nn\n \nc\nh\na\ny\n \ns\nh\nu\nc\nu\nn\na\n \ns\nh\ni\nn\na\n,\n \nc\nh\na\ny\nm\na\nn\nt\na\nm\ni\n \ns\nh\nu\nc\nl\nl\na\n \ns\nh\ni\nn\na\n \nc\na\nu\ns\na\nn\ng\na\nc\nu\nn\na\n.\nT\nu\nc\nu\ny\n \nr\nu\nn\na\nc\nu\nn"
+  specimen_16: "T\nu\nc\nu\ny\n \nr\nu\nn\na\nc\nu\nn\na\n \nq\nu\ni\ns\nh\np\ni\nr\ni\nh\nu\ná\nn\n \nh\nu\ni\nñ\ná\nn\n,\n \np\na\nc\nt\na\nc\nu\nn\na\nh\nu\na\nm\np\ne\ns\n,\n \np\na\ny\n \np\nu\nr\na\n,\n \nu\nm\na\nh\nu\ná\nn\n,\n \na\ny\na\nh\nu\ná\nn\n \nc\nh\na\ny\n \ns\nh\nu\nc\nu\nn\na\n \ns\nh\ni\nn\na\n,\n \nc\nh\na\ny\nm\na\nn\nt\na\nm\ni\n \ns\nh\nu\nc\nl\nl\na\n \ns\nh\ni\nn\na\n \nc\na\nu\ns\na\nn\ng\na\nc\nu\nn\na\n.\nT\nu\nc\nu\ny\n \nr\nu\nn\na\nc\nu\nn\na\n \nq\nu\ni\ns\nh\np\ni\nr\ni\nh\nu\ná\nn\n \nh\nu\ni\nñ\ná\nn\n,\n \np\na\nc\nt\na\nc\nu\nn\na\nh\nu\na\nm\np\ne\ns\n,\n \np\na\ny\n \np\nu\nr\na\n,\n \nu\nm\na\nh\nu\ná\nn\n,\n \na\ny\na\nh\nu\ná\nn\n \nc\nh\na\ny\n \ns\nh\nu\nc\nu\nn\na\n \ns\nh\ni\nn\na\n,\n \nc\nh\na\ny\nm\na\nn\nt\na\nm\ni\n \ns\nh\nu\nc\nl\nl\na\n \ns\nh\ni\nn\na\n \nc\na\nu\ns\na\nn\ng\na\nc\nu\nn\na"
+}

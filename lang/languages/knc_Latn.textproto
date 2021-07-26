@@ -1,0 +1,18 @@
+id: "knc_Latn"
+language: "knc"
+script: "Latn"
+name: "Kanuri, Central"
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Mm"
+  styles: "A\nd\na\nm\ng\na\nn\na\n \nw\no\ns\no\n \nk\na\nm\nb\ne\n \nk"
+  tester: "A\nd\na\nm\ng\na\nn\na\n \nw\no\ns\no\n \nk\na\nm\nb\ne\n \nk\na\nt\na\nm\nb\no\n \ny\ne\n "
+  poster_sm: "A\nd\na\nm\ng\na"
+  poster_md: "A\nd\na\nm\ng"
+  poster_lg: "A\nd"
+  specimen_48: "A\nd\na\nm\ng\na\nn\na\n \nw\no\ns\no\n \nk\na\nm\nb\ne\n \nk\na\nt\na\nm\nb\no\n \ny\ne\n "
+  specimen_36: "A\nd\na\nm\ng\na\nn\na\n \nw\no\ns\no\n \nk\na\nm\nb\ne\n \nk\na\nt\na\nm\nb\no\n \ny\ne\n \nd\na\nr\na\nj\na\n-\na\n \nh\na\nk\nk\ni\nw\na\n-\na\ns\no\nn"
+  specimen_32: "A\nd\na\nm\ng\na\nn\na\n \nw\no\ns\no\n \nk\na\nm\nb\ne\n \nk\na\nt\na\nm\nb\no\n \ny\ne\n \nd\na\nr\na\nj\na\n-\na\n \nh\na\nk\nk\ni\nw\na\n-\na\ns\no\nn\n \nk\na\nl\nk\na\nl\ny\ne\n.\n \nH\na\nn\nk\na\nl\n-\na\n \nn"
+  specimen_21: "A\nd\na\nm\ng\na\nn\na\n \nw\no\ns\no\n \nk\na\nm\nb\ne\n \nk\na\nt\na\nm\nb\no\n \ny\ne\n \nd\na\nr\na\nj\na\n-\na\n \nh\na\nk\nk\ni\nw\na\n-\na\ns\no\nn\n \nk\na\nl\nk\na\nl\ny\ne\n.\n \nH\na\nn\nk\na\nl\n-\na\n \nn\na\nz\na\nr\nu\n-\na\ns\no\nr\no\n \nk\nə\nz\nə\np\nk\nə\n \ny\ne\n \ns\nu\nr\no\n \nh\na\nl\n \nn\nə\nm\nh\na\nr\na\nm\ni\nb\ne\nn\n \nk\na\nm\na\nz\na\ns\no\ng\na\n \nl\ne\nt\na\ni\ny\ni\nn\n \ny\ne\n.\nA\nd\na\nm\ng\na\nn\na\n \nw\no\ns\no"
+  specimen_16: "A\nd\na\nm\ng\na\nn\na\n \nw\no\ns\no\n \nk\na\nm\nb\ne\n \nk\na\nt\na\nm\nb\no\n \ny\ne\n \nd\na\nr\na\nj\na\n-\na\n \nh\na\nk\nk\ni\nw\na\n-\na\ns\no\nn\n \nk\na\nl\nk\na\nl\ny\ne\n.\n \nH\na\nn\nk\na\nl\n-\na\n \nn\na\nz\na\nr\nu\n-\na\ns\no\nr\no\n \nk\nə\nz\nə\np\nk\nə\n \ny\ne\n \ns\nu\nr\no\n \nh\na\nl\n \nn\nə\nm\nh\na\nr\na\nm\ni\nb\ne\nn\n \nk\na\nm\na\nz\na\ns\no\ng\na\n \nl\ne\nt\na\ni\ny\ni\nn\n \ny\ne\n.\nA\nd\na\nm\ng\na\nn\na\n \nw\no\ns\no\n \nk\na\nm\nb\ne\n \nk\na\nt\na\nm\nb\no\n \ny\ne\n \nd\na\nr\na\nj\na\n-\na\n \nh\na\nk\nk\ni\nw\na\n-\na\ns\no\nn\n \nk\na\nl\nk\na\nl\ny\ne\n.\n \nH\na\nn\nk\na\nl\n-\na\n \nn\na\nz\na\nr\nu\n-\na\ns\no\nr\no\n \nk\nə\nz\nə\np\nk\nə\n \ny\ne\n \ns\nu\nr\no\n \nh\na\nl\n \nn\nə\nm\nh\na\nr\na\nm\ni\nb\ne\nn\n \nk\na\nm\na\nz\na\ns\no\ng\na\n \nl\ne\nt\na\ni\ny\ni\nn\n \ny\ne"
+}

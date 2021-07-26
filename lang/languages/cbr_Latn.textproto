@@ -1,0 +1,18 @@
+id: "cbr_Latn"
+language: "cbr"
+script: "Latn"
+name: "Cashibo-Cacataibo"
+sample_text {
+  masthead_full: "UuIi"
+  masthead_partial: "Nn"
+  styles: "U\ni\n \nu\nn\ni\n \nc\na\nr\na\n \n\'\ni\nt\ni\n \ni\nc\në\n "
+  tester: "U\ni\n \nu\nn\ni\n \nc\na\nr\na\n \n\'\ni\nt\ni\n \ni\nc\në\n \na\nx\nb\ni\n \nc\na\n \nb\në"
+  poster_sm: "U\ni\n \nu\nn\ni"
+  poster_md: "U\ni\n \nu\nn"
+  poster_lg: "U\ni"
+  specimen_48: "U\ni\n \nu\nn\ni\n \nc\na\nr\na\n \n\'\ni\nt\ni\n \ni\nc\në\n \na\nx\nb\ni\n \nc\na\n \nb\në"
+  specimen_36: "U\ni\n \nu\nn\ni\n \nc\na\nr\na\n \n\'\ni\nt\ni\n \ni\nc\në\n \na\nx\nb\ni\n \nc\na\n \nb\në\nt\ns\ni\n \nu\nn\ni\nb\në\n \ng\no\nb\ni\ne\nr\nn\no\nn\në"
+  specimen_32: "U\ni\n \nu\nn\ni\n \nc\na\nr\na\n \n\'\ni\nt\ni\n \ni\nc\në\n \na\nx\nb\ni\n \nc\na\n \nb\në\nt\ns\ni\n \nu\nn\ni\nb\në\n \ng\no\nb\ni\ne\nr\nn\no\nn\në\nn\n \ni\ns\nc\në\nx\n \ns\në\nn\në\nn\n \ni\nt\ní\n \ni\nc"
+  specimen_21: "U\ni\n \nu\nn\ni\n \nc\na\nr\na\n \n\'\ni\nt\ni\n \ni\nc\në\n \na\nx\nb\ni\n \nc\na\n \nb\në\nt\ns\ni\n \nu\nn\ni\nb\në\n \ng\no\nb\ni\ne\nr\nn\no\nn\në\nn\n \ni\ns\nc\në\nx\n \ns\në\nn\në\nn\n \ni\nt\ní\n \ni\nc\në\nn\n.\n \nU\ni\n \nc\na\nr\na\n \na\ni\nn\n \nt\ni\nt\na\n \na\ni\nn\n \np\na\np\na\n \n\'\ni\na\nx\na\n \nq\nu\ni\nx\nu\nn\n \ns\ni\nn\na\nn\nq\nu\ni\nn\nm\na\n \nc\na\n \ng\no\nb\ni\ne\nr\nn\no\nn\në\nn\n \ns\ni\nn\na\nn\nc\në\nx\n \na\nx"
+  specimen_16: "U\ni\n \nu\nn\ni\n \nc\na\nr\na\n \n\'\ni\nt\ni\n \ni\nc\në\n \na\nx\nb\ni\n \nc\na\n \nb\në\nt\ns\ni\n \nu\nn\ni\nb\në\n \ng\no\nb\ni\ne\nr\nn\no\nn\në\nn\n \ni\ns\nc\në\nx\n \ns\në\nn\në\nn\n \ni\nt\ní\n \ni\nc\në\nn\n.\n \nU\ni\n \nc\na\nr\na\n \na\ni\nn\n \nt\ni\nt\na\n \na\ni\nn\n \np\na\np\na\n \n\'\ni\na\nx\na\n \nq\nu\ni\nx\nu\nn\n \ns\ni\nn\na\nn\nq\nu\ni\nn\nm\na\n \nc\na\n \ng\no\nb\ni\ne\nr\nn\no\nn\në\nn\n \ns\ni\nn\na\nn\nc\në\nx\n \na\nx\n \nb\në\nt\ns\ni\nb\në\n \ns\në\nn\në\nn\n \n\'\ni\nc\në\nn\n.\n \nC\na\nm\na\nx\nu\nn\nb\ni\n \nc\na\n \ns\ni\nn\na\nn\nt\ni\n \n\'\nu\nn\na\nn\ni\nn\n.\n \nC\na\nm\na\nx\nu\nn\nb\ni\n \nc\na\n \na\nñ\nu\n \nñ\nu\n \na\nt\ni\n \nc\na\nr\na\n \na\ns\ná\nb\ni\n \n\'\ni\nc\në\nn\n,\n \na\nñ\nu\n \nñ\nu\n \n\'\na\nt\ni\n \nc\na\nr\na\n \n\'\na\ni\ns\na\nm\na\n \n\'\ni\nc\në\n \nq\nu\ni\nx\nu\nn"
+}

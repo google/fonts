@@ -1,0 +1,18 @@
+id: "ie_Latn"
+language: "ie"
+script: "Latn"
+name: "Interlingue, Latin"
+sample_text {
+  masthead_full: "OoMm"
+  masthead_partial: "Nn"
+  styles: "O\nm\nn\ni\n \nh\no\nm\ne\ns\n \nn\na\ns\nc\ne\n \nl\ní\nb\ne"
+  tester: "O\nm\nn\ni\n \nh\no\nm\ne\ns\n \nn\na\ns\nc\ne\n \nl\ní\nb\ne\nr\n \ne\n \ne\ng\na\nl\n \ni"
+  poster_sm: "O\nm\nn\ni\n \nh"
+  poster_md: "O\nm\nn\ni\n "
+  poster_lg: "O\nm"
+  specimen_48: "O\nm\nn\ni\n \nh\no\nm\ne\ns\n \nn\na\ns\nc\ne\n \nl\ní\nb\ne\nr\n \ne\n \ne\ng\na\nl\n \ni"
+  specimen_36: "O\nm\nn\ni\n \nh\no\nm\ne\ns\n \nn\na\ns\nc\ne\n \nl\ní\nb\ne\nr\n \ne\n \ne\ng\na\nl\n \ni\nn\n \nd\ni\ng\nn\ni\nt\ná\n \ne\n \nj\nu\nr\ne\ns\n.\n \nI"
+  specimen_32: "O\nm\nn\ni\n \nh\no\nm\ne\ns\n \nn\na\ns\nc\ne\n \nl\ní\nb\ne\nr\n \ne\n \ne\ng\na\nl\n \ni\nn\n \nd\ni\ng\nn\ni\nt\ná\n \ne\n \nj\nu\nr\ne\ns\n.\n \nI\nl\ni\n \ne\ns\n \nd\no\nt\na\nt\n \nd\ne\n \nr\na\ns\no\nn"
+  specimen_21: "O\nm\nn\ni\n \nh\no\nm\ne\ns\n \nn\na\ns\nc\ne\n \nl\ní\nb\ne\nr\n \ne\n \ne\ng\na\nl\n \ni\nn\n \nd\ni\ng\nn\ni\nt\ná\n \ne\n \nj\nu\nr\ne\ns\n.\n \nI\nl\ni\n \ne\ns\n \nd\no\nt\na\nt\n \nd\ne\n \nr\na\ns\no\nn\n \ne\n \nc\no\nn\ns\nc\ni\ne\nn\nt\ni\ne\n \ne\n \nd\ne\nv\ne\n \na\nc\nt\ne\nr\n \nv\ne\nr\ns\n \nu\nn\na\nl\nt\nr\nu\n \ni\nn\n \nu\nn\n \ns\np\ní\nr\ni\nt\nu\n \nd\ne\n \nf\nr\na\nt\ne\nr\nn\ni\nt\ná\n.\nO\nm\nn\ni\n \nh\no\nm\ne\ns\n \nn"
+  specimen_16: "O\nm\nn\ni\n \nh\no\nm\ne\ns\n \nn\na\ns\nc\ne\n \nl\ní\nb\ne\nr\n \ne\n \ne\ng\na\nl\n \ni\nn\n \nd\ni\ng\nn\ni\nt\ná\n \ne\n \nj\nu\nr\ne\ns\n.\n \nI\nl\ni\n \ne\ns\n \nd\no\nt\na\nt\n \nd\ne\n \nr\na\ns\no\nn\n \ne\n \nc\no\nn\ns\nc\ni\ne\nn\nt\ni\ne\n \ne\n \nd\ne\nv\ne\n \na\nc\nt\ne\nr\n \nv\ne\nr\ns\n \nu\nn\na\nl\nt\nr\nu\n \ni\nn\n \nu\nn\n \ns\np\ní\nr\ni\nt\nu\n \nd\ne\n \nf\nr\na\nt\ne\nr\nn\ni\nt\ná\n.\nO\nm\nn\ni\n \nh\no\nm\ne\ns\n \nn\na\ns\nc\ne\n \nl\ní\nb\ne\nr\n \ne\n \ne\ng\na\nl\n \ni\nn\n \nd\ni\ng\nn\ni\nt\ná\n \ne\n \nj\nu\nr\ne\ns\n.\n \nI\nl\ni\n \ne\ns\n \nd\no\nt\na\nt\n \nd\ne\n \nr\na\ns\no\nn\n \ne\n \nc\no\nn\ns\nc\ni\ne\nn\nt\ni\ne\n \ne\n \nd\ne\nv\ne\n \na\nc\nt\ne\nr\n \nv\ne\nr\ns\n \nu\nn\na\nl\nt\nr\nu\n \ni\nn\n \nu\nn\n \ns\np\ní\nr\ni\nt\nu\n \nd\ne\n \nf\nr\na\nt\ne\nr\nn\ni"
+}

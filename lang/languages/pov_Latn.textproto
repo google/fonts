@@ -1,0 +1,18 @@
+id: "pov_Latn"
+language: "pov"
+script: "Latn"
+name: "Crioulo, Upper Guinea"
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Dd"
+  styles: "T\nu\nd\nu\n \np\ne\nk\na\nd\nu\nr\ni\ns\n \nt\na\n \np\na\nd"
+  tester: "T\nu\nd\nu\n \np\ne\nk\na\nd\nu\nr\ni\ns\n \nt\na\n \np\na\nd\ni\nd\nu\n \nl\ni\nb\nr\ni\n "
+  poster_sm: "T\nu\nd\nu\n \np"
+  poster_md: "T\nu\nd\nu\n "
+  poster_lg: "T\nu"
+  specimen_48: "T\nu\nd\nu\n \np\ne\nk\na\nd\nu\nr\ni\ns\n \nt\na\n \np\na\nd\ni\nd\nu\n \nl\ni\nb\nr\ni\n "
+  specimen_36: "T\nu\nd\nu\n \np\ne\nk\na\nd\nu\nr\ni\ns\n \nt\na\n \np\na\nd\ni\nd\nu\n \nl\ni\nb\nr\ni\n \ni\n \ni\ng\nu\na\nl\n \nn\na\n \nb\na\nl\nu\nr\n \ns\nu\nm"
+  specimen_32: "T\nu\nd\nu\n \np\ne\nk\na\nd\nu\nr\ni\ns\n \nt\na\n \np\na\nd\ni\nd\nu\n \nl\ni\nb\nr\ni\n \ni\n \ni\ng\nu\na\nl\n \nn\na\n \nb\na\nl\nu\nr\n \ns\nu\nm\na\n \nn\na\n \nd\ni\nr\ni\nt\nu\ns\n.\n \nS\nu\nm\na\n \ne"
+  specimen_21: "T\nu\nd\nu\n \np\ne\nk\na\nd\nu\nr\ni\ns\n \nt\na\n \np\na\nd\ni\nd\nu\n \nl\ni\nb\nr\ni\n \ni\n \ni\ng\nu\na\nl\n \nn\na\n \nb\na\nl\nu\nr\n \ns\nu\nm\na\n \nn\na\n \nd\ni\nr\ni\nt\nu\ns\n.\n \nS\nu\nm\na\n \ne\n \nd\na\nd\nu\n \nk\na\np\na\ns\ni\nd\na\nd\ni\n \nd\ni\n \np\ne\nn\ns\na\n,\n \ne\n \nt\ne\nn\ne\n \nt\na\nm\nb\ni\n \nk\no\nn\ns\ni\ne\nn\ns\ni\na\n,\n \ne\n \nd\ni\nb\ni\n \nd\ni\n \nt\nr\na\nt\na\n \nñ\nu\nt\nr\nu\n \ns\nu\nm\na\n \ne\nr"
+  specimen_16: "T\nu\nd\nu\n \np\ne\nk\na\nd\nu\nr\ni\ns\n \nt\na\n \np\na\nd\ni\nd\nu\n \nl\ni\nb\nr\ni\n \ni\n \ni\ng\nu\na\nl\n \nn\na\n \nb\na\nl\nu\nr\n \ns\nu\nm\na\n \nn\na\n \nd\ni\nr\ni\nt\nu\ns\n.\n \nS\nu\nm\na\n \ne\n \nd\na\nd\nu\n \nk\na\np\na\ns\ni\nd\na\nd\ni\n \nd\ni\n \np\ne\nn\ns\na\n,\n \ne\n \nt\ne\nn\ne\n \nt\na\nm\nb\ni\n \nk\no\nn\ns\ni\ne\nn\ns\ni\na\n,\n \ne\n \nd\ni\nb\ni\n \nd\ni\n \nt\nr\na\nt\na\n \nñ\nu\nt\nr\nu\n \ns\nu\nm\na\n \ne\nr\nm\no\nn\ns\n.\nT\nu\nd\nu\n \np\ne\nk\na\nd\nu\nr\ni\ns\n \nt\na\n \np\na\nd\ni\nd\nu\n \nl\ni\nb\nr\ni\n \ni\n \ni\ng\nu\na\nl\n \nn\na\n \nb\na\nl\nu\nr\n \ns\nu\nm\na\n \nn\na\n \nd\ni\nr\ni\nt\nu\ns\n.\n \nS\nu\nm\na\n \ne\n \nd\na\nd\nu\n \nk\na\np\na\ns\ni\nd\na\nd\ni\n \nd\ni\n \np\ne\nn\ns\na\n,\n \ne\n \nt\ne\nn\ne\n \nt\na\nm\nb\ni\n \nk\no\nn\ns\ni\ne\nn\ns\ni\na\n,"
+}

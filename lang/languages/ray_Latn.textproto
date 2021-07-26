@@ -1,0 +1,18 @@
+id: "ray_Latn"
+language: "ray"
+script: "Latn"
+name: "Rapa, Latin"
+sample_text {
+  masthead_full: "TtEe"
+  masthead_partial: "Hh"
+  styles: "T\ne\n \nh\na\nn\na\nu\n \nh\ne\nn\nu\na\n,\n \nm\na\ni\n \nt"
+  tester: "T\ne\n \nh\na\nn\na\nu\n \nh\ne\nn\nu\na\n,\n \nm\na\ni\n \nt\ne\n \np\no\nr\ne\nk\no\n \nh"
+  poster_sm: "T\ne\n \nh\na\nn"
+  poster_md: "T\ne\n \nh\na"
+  poster_lg: "T\ne"
+  specimen_48: "T\ne\n \nh\na\nn\na\nu\n \nh\ne\nn\nu\na\n,\n \nm\na\ni\n \nt\ne\n \np\no\nr\ne\nk\no\n \nh"
+  specimen_36: "T\ne\n \nh\na\nn\na\nu\n \nh\ne\nn\nu\na\n,\n \nm\na\ni\n \nt\ne\n \np\no\nr\ne\nk\no\n \nh\na\nn\ng\na\n,\n \nh\ne\n \nm\na\nn\nu\n \nt\ne\nr\ne\n,\n \nm"
+  specimen_32: "T\ne\n \nh\na\nn\na\nu\n \nh\ne\nn\nu\na\n,\n \nm\na\ni\n \nt\ne\n \np\no\nr\ne\nk\no\n \nh\na\nn\ng\na\n,\n \nh\ne\n \nm\na\nn\nu\n \nt\ne\nr\ne\n,\n \nm\na\nn\nu\n \nr\na\nr\na\nm\na\n \ne\n \nm\na\nn\nu\n \nm\na"
+  specimen_21: "T\ne\n \nh\na\nn\na\nu\n \nh\ne\nn\nu\na\n,\n \nm\na\ni\n \nt\ne\n \np\no\nr\ne\nk\no\n \nh\na\nn\ng\na\n,\n \nh\ne\n \nm\na\nn\nu\n \nt\ne\nr\ne\n,\n \nm\na\nn\nu\n \nr\na\nr\na\nm\na\n \ne\n \nm\na\nn\nu\n \nm\na\nn\na\n’\nu\n;\n \nk\no\n \nt\nu\n’\nu\n \np\ni\nr\nu\n \na\nn\na\n \nt\na\n’\na\nt\no\n’\na\n.\n \nM\na\ni\n \na\ni\n \nh\ne\n \nh\na\nn\na\nu\n \ne\n \nh\na\nk\na\n \nt\no\np\na\n \nr\no\n \na\n \ni\n \nt\ne\n \nm\na\nn\na\n’\nu\n,\n \ne\n \nh\ne\nr"
+  specimen_16: "T\ne\n \nh\na\nn\na\nu\n \nh\ne\nn\nu\na\n,\n \nm\na\ni\n \nt\ne\n \np\no\nr\ne\nk\no\n \nh\na\nn\ng\na\n,\n \nh\ne\n \nm\na\nn\nu\n \nt\ne\nr\ne\n,\n \nm\na\nn\nu\n \nr\na\nr\na\nm\na\n \ne\n \nm\na\nn\nu\n \nm\na\nn\na\n’\nu\n;\n \nk\no\n \nt\nu\n’\nu\n \np\ni\nr\nu\n \na\nn\na\n \nt\na\n’\na\nt\no\n’\na\n.\n \nM\na\ni\n \na\ni\n \nh\ne\n \nh\na\nn\na\nu\n \ne\n \nh\na\nk\na\n \nt\no\np\na\n \nr\no\n \na\n \ni\n \nt\ne\n \nm\na\nn\na\n’\nu\n,\n \ne\n \nh\ne\nr\ne\n,\n \ne\n \nm\no\n’\na\n,\n \ne\n \nt\na\np\nu\n \nk\ni\n \na\n \nr\na\nu\na\n \n‘\na\n.\nT\ne\n \nh\na\nn\na\nu\n \nh\ne\nn\nu\na\n,\n \nm\na\ni\n \nt\ne\n \np\no\nr\ne\nk\no\n \nh\na\nn\ng\na\n,\n \nh\ne\n \nm\na\nn\nu\n \nt\ne\nr\ne\n,\n \nm\na\nn\nu\n \nr\na\nr\na\nm\na\n \ne\n \nm\na\nn\nu\n \nm\na\nn\na\n’\nu\n;\n \nk\no\n \nt\nu\n’\nu\n \np\ni\nr\nu\n \na\nn\na\n \nt\na\n’\na\nt"
+}

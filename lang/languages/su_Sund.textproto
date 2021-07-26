@@ -11,4 +11,18 @@ exemplar_chars {
   numerals: "᮱ ᮲ ᮳ ᮴ ᮵ ᮶ ᮷ ᮸ ᮹ ᮰ 1 2 3 4 5 6 7 8 9 0"
   punctuation: "᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇"
 }
+sample_text {
+  masthead_full: "ᮞᮊᮙᮔ"
+  masthead_partial: "ᮏᮜ"
+  styles: "ᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n \nᮏ\nᮜ\n᮪\nᮙ\n \nᮌ\nᮥ\nᮘ\nᮢ\nᮌ\n᮪\n \nᮊ\n \nᮃ\nᮜ\nᮙ"
+  tester: "ᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n \nᮏ\nᮜ\n᮪\nᮙ\n \nᮌ\nᮥ\nᮘ\nᮢ\nᮌ\n᮪\n \nᮊ\n \nᮃ\nᮜ\nᮙ\n᮪\n \nᮓ\nᮥ\nᮑ\n \nᮒ\nᮨ\nᮂ\nᮞ\nᮤ\nᮖ"
+  poster_sm: "ᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n "
+  poster_md: "ᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ"
+  poster_lg: "ᮞ\nᮊ"
+  specimen_48: "ᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n \nᮏ\nᮜ\n᮪\nᮙ\n \nᮌ\nᮥ\nᮘ\nᮢ\nᮌ\n᮪\n \nᮊ\n \nᮃ\nᮜ\nᮙ\n᮪\n \nᮓ\nᮥ\nᮑ\n \nᮒ\nᮨ\nᮂ\nᮞ\nᮤ\nᮖ"
+  specimen_36: "ᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n \nᮏ\nᮜ\n᮪\nᮙ\n \nᮌ\nᮥ\nᮘ\nᮢ\nᮌ\n᮪\n \nᮊ\n \nᮃ\nᮜ\nᮙ\n᮪\n \nᮓ\nᮥ\nᮑ\n \nᮒ\nᮨ\nᮂ\nᮞ\nᮤ\nᮖ\nᮒ\n᮪\nᮔ\n \nᮙ\nᮨ\nᮛ\n᮪\nᮓ\nᮤ\nᮊ\n \nᮏ\nᮦ\nᮀ\n \nᮘ\nᮧ\nᮌ\n \nᮙ\nᮛ\n᮪\nᮒ"
+  specimen_32: "ᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n \nᮏ\nᮜ\n᮪\nᮙ\n \nᮌ\nᮥ\nᮘ\nᮢ\nᮌ\n᮪\n \nᮊ\n \nᮃ\nᮜ\nᮙ\n᮪\n \nᮓ\nᮥ\nᮑ\n \nᮒ\nᮨ\nᮂ\nᮞ\nᮤ\nᮖ\nᮒ\n᮪\nᮔ\n \nᮙ\nᮨ\nᮛ\n᮪\nᮓ\nᮤ\nᮊ\n \nᮏ\nᮦ\nᮀ\n \nᮘ\nᮧ\nᮌ\n \nᮙ\nᮛ\n᮪\nᮒ\nᮘ\nᮒ\n᮪\n \nᮊ\nᮒ\nᮥ\nᮒ\n᮪\n \nᮠ\nᮊ\n᮪\n-\nᮠ\nᮊ\n᮪\n \nᮃ\nᮔ\nᮥ\n \nᮞ\nᮛ"
+  specimen_21: "ᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n \nᮏ\nᮜ\n᮪\nᮙ\n \nᮌ\nᮥ\nᮘ\nᮢ\nᮌ\n᮪\n \nᮊ\n \nᮃ\nᮜ\nᮙ\n᮪\n \nᮓ\nᮥ\nᮑ\n \nᮒ\nᮨ\nᮂ\nᮞ\nᮤ\nᮖ\nᮒ\n᮪\nᮔ\n \nᮙ\nᮨ\nᮛ\n᮪\nᮓ\nᮤ\nᮊ\n \nᮏ\nᮦ\nᮀ\n \nᮘ\nᮧ\nᮌ\n \nᮙ\nᮛ\n᮪\nᮒ\nᮘ\nᮒ\n᮪\n \nᮊ\nᮒ\nᮥ\nᮒ\n᮪\n \nᮠ\nᮊ\n᮪\n-\nᮠ\nᮊ\n᮪\n \nᮃ\nᮔ\nᮥ\n \nᮞ\nᮛ\nᮥ\nᮃ\n.\n \nᮙ\nᮛ\nᮔ\nᮦ\nᮨ\nᮂ\nᮔ\n \nᮓ\nᮤ\nᮘ\nᮨ\nᮛ\nᮨ\n \nᮃ\nᮊ\nᮜ\n᮪\n \nᮏ\nᮩ\nᮠ\nᮀ\nᮒ\nᮨ\n \nᮔ\nᮥ\nᮛ\nᮔ\nᮤ\n,\n \nᮎ\nᮙ\n᮪\nᮕ\nᮥ\nᮁ\nᮛ\n᮪\n-\nᮌ\nᮅ\nᮜ\n᮪\n \nᮏ\nᮩ\nᮀ\n \nᮞ\nᮞ\nᮙ\nᮔ\n \nᮃ\nᮚ\n \nᮓ\nᮤ\nᮔ\n \nᮞ\nᮥ\nᮙ\nᮔ\nᮨ\nᮒ\n᮪\n \nᮓ\nᮥ\nᮓ\nᮥ\nᮜ\nᮥ\nᮛ\nᮔ\n᮪\n.\nᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n \nᮏ\nᮜ\n᮪\nᮙ"
+  specimen_16: "ᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n \nᮏ\nᮜ\n᮪\nᮙ\n \nᮌ\nᮥ\nᮘ\nᮢ\nᮌ\n᮪\n \nᮊ\n \nᮃ\nᮜ\nᮙ\n᮪\n \nᮓ\nᮥ\nᮑ\n \nᮒ\nᮨ\nᮂ\nᮞ\nᮤ\nᮖ\nᮒ\n᮪\nᮔ\n \nᮙ\nᮨ\nᮛ\n᮪\nᮓ\nᮤ\nᮊ\n \nᮏ\nᮦ\nᮀ\n \nᮘ\nᮧ\nᮌ\n \nᮙ\nᮛ\n᮪\nᮒ\nᮘ\nᮒ\n᮪\n \nᮊ\nᮒ\nᮥ\nᮒ\n᮪\n \nᮠ\nᮊ\n᮪\n-\nᮠ\nᮊ\n᮪\n \nᮃ\nᮔ\nᮥ\n \nᮞ\nᮛ\nᮥ\nᮃ\n.\n \nᮙ\nᮛ\nᮔ\nᮦ\nᮨ\nᮂ\nᮔ\n \nᮓ\nᮤ\nᮘ\nᮨ\nᮛ\nᮨ\n \nᮃ\nᮊ\nᮜ\n᮪\n \nᮏ\nᮩ\nᮠ\nᮀ\nᮒ\nᮨ\n \nᮔ\nᮥ\nᮛ\nᮔ\nᮤ\n,\n \nᮎ\nᮙ\n᮪\nᮕ\nᮥ\nᮁ\nᮛ\n᮪\n-\nᮌ\nᮅ\nᮜ\n᮪\n \nᮏ\nᮩ\nᮀ\n \nᮞ\nᮞ\nᮙ\nᮔ\n \nᮃ\nᮚ\n \nᮓ\nᮤ\nᮔ\n \nᮞ\nᮥ\nᮙ\nᮔ\nᮨ\nᮒ\n᮪\n \nᮓ\nᮥ\nᮓ\nᮥ\nᮜ\nᮥ\nᮛ\nᮔ\n᮪\n.\nᮞ\nᮊ\nᮥ\nᮙ\n᮪\nᮔ\n \nᮏ\nᮜ\n᮪\nᮙ\n \nᮌ\nᮥ\nᮘ\nᮢ\nᮌ\n᮪\n \nᮊ\n \nᮃ\nᮜ\nᮙ\n᮪\n \nᮓ\nᮥ\nᮑ\n \nᮒ\nᮨ\nᮂ\nᮞ\nᮤ\nᮖ\nᮒ\n᮪\nᮔ\n \nᮙ\nᮨ\nᮛ\n᮪\nᮓ\nᮤ\nᮊ\n \nᮏ\nᮦ\nᮀ\n \nᮘ\nᮧ\nᮌ\n \nᮙ\nᮛ\n᮪\nᮒ\nᮘ\nᮒ\n᮪\n \nᮊ\nᮒ\nᮥ\nᮒ\n᮪\n \nᮠ\nᮊ\n᮪\n-\nᮠ\nᮊ\n᮪\n \nᮃ\nᮔ\nᮥ\n \nᮞ\nᮛ\nᮥ\nᮃ\n.\n \nᮙ\nᮛ\nᮔ\nᮦ\nᮨ\nᮂ\nᮔ\n \nᮓ\nᮤ\nᮘ\nᮨ\nᮛ\nᮨ\n \nᮃ\nᮊ\nᮜ\n᮪\n \nᮏ\nᮩ\nᮠ\nᮀ\nᮒ\nᮨ\n \nᮔ\nᮥ\nᮛ\nᮔ\nᮤ\n,\n \nᮎ\nᮙ\n᮪\nᮕ\nᮥ\nᮁ\nᮛ\n᮪\n-\nᮌ\nᮅ\nᮜ\n᮪\n \nᮏ\nᮩ\nᮀ\n \nᮞ\nᮞ\nᮙ\nᮔ\n \nᮃ\nᮚ\n \nᮓ\nᮤ\nᮔ\n \nᮞ\nᮥ\nᮙ\nᮔ\nᮨ\nᮒ\n᮪\n \nᮓ"
+}
 historical: true

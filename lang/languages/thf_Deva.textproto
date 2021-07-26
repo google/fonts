@@ -1,0 +1,18 @@
+id: "thf_Deva"
+language: "thf"
+script: "Deva"
+name: "Thangmi, Devanagari"
+sample_text {
+  masthead_full: "सकखम"
+  masthead_partial: "पर"
+  styles: "स\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nङ\nा\n \nह\nि\nक"
+  tester: "स\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nङ\nा\n \nह\nि\nक\n्\nक\nा\nक\nो\n \nआ\nध\nा\nर\nङ\nा"
+  poster_sm: "स\nा\nक\n्\nख\nा\n "
+  poster_md: "स\nा\nक\n्\nख\nा"
+  poster_lg: "स\nा\nक"
+  specimen_48: "स\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nङ\nा\n \nह\nि\nक\n्\nक\nा\nक\nो\n \nआ\nध\nा\nर\nङ\nा"
+  specimen_36: "स\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nङ\nा\n \nह\nि\nक\n्\nक\nा\nक\nो\n \nआ\nध\nा\nर\nङ\nा\n \nन\nि\n \nव\nि\nत\n्\nत\nि\nक\nा\nई\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n "
+  specimen_32: "स\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nङ\nा\n \nह\nि\nक\n्\nक\nा\nक\nो\n \nआ\nध\nा\nर\nङ\nा\n \nन\nि\n \nव\nि\nत\n्\nत\nि\nक\nा\nई\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nङ\nा\n \nथ\nा\nद\nु\n।\n \nत\nो\nब\nा\nङ\n \nब\nु\nद\n्\nध\nि\n \nङ\nा\n "
+  specimen_21: "स\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nङ\nा\n \nह\nि\nक\n्\nक\nा\nक\nो\n \nआ\nध\nा\nर\nङ\nा\n \nन\nि\n \nव\nि\nत\n्\nत\nि\nक\nा\nई\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nङ\nा\n \nथ\nा\nद\nु\n।\n \nत\nो\nब\nा\nङ\n \nब\nु\nद\n्\nध\nि\n \nङ\nा\n \nव\nि\nव\nे\nक\n \nन\nा\nम\nा\n \nक\nे\nल\n्\nय\nो\nङ\n्\nद\nु\n \nथ\nा\nद\nु\n \nङ\nा\n \nद\nि\n \nब\nे\nग\nा\nल\nे\n \nन\nा\nम\nा\n \nह\nु\n \nह\nु\n \nक\nो\n \nव\n्\nय\nव\nह\nा\nर\n \nन\nो\nङ\n्\nक\nो\n \nम\nा\nई\nद\nु\n।\nस\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nङ\nा\n \nह"
+  specimen_16: "स\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nङ\nा\n \nह\nि\nक\n्\nक\nा\nक\nो\n \nआ\nध\nा\nर\nङ\nा\n \nन\nि\n \nव\nि\nत\n्\nत\nि\nक\nा\nई\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nङ\nा\n \nथ\nा\nद\nु\n।\n \nत\nो\nब\nा\nङ\n \nब\nु\nद\n्\nध\nि\n \nङ\nा\n \nव\nि\nव\nे\nक\n \nन\nा\nम\nा\n \nक\nे\nल\n्\nय\nो\nङ\n्\nद\nु\n \nथ\nा\nद\nु\n \nङ\nा\n \nद\nि\n \nब\nे\nग\nा\nल\nे\n \nन\nा\nम\nा\n \nह\nु\n \nह\nु\n \nक\nो\n \nव\n्\nय\nव\nह\nा\nर\n \nन\nो\nङ\n्\nक\nो\n \nम\nा\nई\nद\nु\n।\nस\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nङ\nा\n \nह\nि\nक\n्\nक\nा\nक\nो\n \nआ\nध\nा\nर\nङ\nा\n \nन\nि\n \nव\nि\nत\n्\nत\nि\nक\nा\nई\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nङ\nा\n \nथ\nा\nद\nु\n।\n \nत\nो\nब\nा\nङ\n \nब\nु\nद\n्\nध\nि\n \nङ\nा\n \nव\nि\nव\nे\nक\n \nन\nा\nम\nा\n \nक\nे\nल\n्\nय\nो\nङ\n्\nद\nु\n \nथ\nा\nद\nु\n \nङ\nा\n \nद\nि\n \nब\nे\nग\nा\nल\nे\n \nन\nा\nम\nा\n \nह\nु\n \nह\nु\n \nक\nो\n \nव\n्\nय\nव\nह\nा\nर\n \nन\nो\nङ\n्\nक\nो\n \nम\nा\nई\nद\nु\n।\nस\nा\nक\n्\nख\nा\n \nम\nि\n \nप\n्\nर\nत\nि\nष\n्"
+}

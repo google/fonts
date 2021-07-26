@@ -13,3 +13,17 @@ exemplar_chars {
   punctuation: "- ‐ ‑ – — , ; : ! ? . … । \' ‘ ’ \" “ ” ( ) [ ] § @ * / & # † ‡ ′ ″"
   index: "় অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ং ঃ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ৎ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ্"
 }
+sample_text {
+  masthead_full: "জনমগ"
+  masthead_partial: "তভ"
+  styles: "জ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ"
+  tester: "জ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ\n্\nয\n্\nয\nদ\nা\n \nআ\nৰ\nু\n \nঅ"
+  poster_sm: "জ\nন\n্\nম\nগ\nত"
+  poster_md: "জ\nন\n্\nম\nগ"
+  poster_lg: "জ\nন"
+  specimen_48: "জ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ\n্\nয\n্\nয\nদ\nা\n \nআ\nৰ\nু\n \nঅ"
+  specimen_36: "জ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ\n্\nয\n্\nয\nদ\nা\n \nআ\nৰ\nু\n \nঅ\nধ\nি\nক\nা\nৰ\nত\n \nস\nম\nা\nন\n \nআ\nৰ\nু\n \nস\n্\nব\nত\nন\n্\nত"
+  specimen_32: "জ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ\n্\nয\n্\nয\nদ\nা\n \nআ\nৰ\nু\n \nঅ\nধ\nি\nক\nা\nৰ\nত\n \nস\nম\nা\nন\n \nআ\nৰ\nু\n \nস\n্\nব\nত\nন\n্\nত\n্\nৰ\n।\n \nত\nে\nও\nঁ\nল\nো\nক\nৰ\n \nব\nি\nব\nে\nক\n \nআ\nছ\nে\n,\n "
+  specimen_21: "জ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ\n্\nয\n্\nয\nদ\nা\n \nআ\nৰ\nু\n \nঅ\nধ\nি\nক\nা\nৰ\nত\n \nস\nম\nা\nন\n \nআ\nৰ\nু\n \nস\n্\nব\nত\nন\n্\nত\n্\nৰ\n।\n \nত\nে\nও\nঁ\nল\nো\nক\nৰ\n \nব\nি\nব\nে\nক\n \nআ\nছ\nে\n,\n \nব\nু\nদ\n্\nধ\nি\n \nআ\nছ\nে\n।\n \nত\nে\nও\nঁ\nল\nো\nক\nে\n \nপ\n্\nৰ\nত\n্\nয\nে\nক\nে\n \nপ\n্\nৰ\nে\nত\n্\nয\nে\nক\nক\n \nভ\n্\nৰ\nা\nত\nৃ\nভ\nা\nৱ\nে\n \nব\n্\nয\nৱ\nহ\nা\nৰ\n \nক\nৰ\nা\n \nউ\nচ\nি\nত\n।\nজ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ\n্\nয\n্\nয"
+  specimen_16: "জ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ\n্\nয\n্\nয\nদ\nা\n \nআ\nৰ\nু\n \nঅ\nধ\nি\nক\nা\nৰ\nত\n \nস\nম\nা\nন\n \nআ\nৰ\nু\n \nস\n্\nব\nত\nন\n্\nত\n্\nৰ\n।\n \nত\nে\nও\nঁ\nল\nো\nক\nৰ\n \nব\nি\nব\nে\nক\n \nআ\nছ\nে\n,\n \nব\nু\nদ\n্\nধ\nি\n \nআ\nছ\nে\n।\n \nত\nে\nও\nঁ\nল\nো\nক\nে\n \nপ\n্\nৰ\nত\n্\nয\nে\nক\nে\n \nপ\n্\nৰ\nে\nত\n্\nয\nে\nক\nক\n \nভ\n্\nৰ\nা\nত\nৃ\nভ\nা\nৱ\nে\n \nব\n্\nয\nৱ\nহ\nা\nৰ\n \nক\nৰ\nা\n \nউ\nচ\nি\nত\n।\nজ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ\n্\nয\n্\nয\nদ\nা\n \nআ\nৰ\nু\n \nঅ\nধ\nি\nক\nা\nৰ\nত\n \nস\nম\nা\nন\n \nআ\nৰ\nু\n \nস\n্\nব\nত\nন\n্\nত\n্\nৰ\n।\n \nত\nে\nও\nঁ\nল\nো\nক\nৰ\n \nব\nি\nব\nে\nক\n \nআ\nছ\nে\n,\n \nব\nু\nদ\n্\nধ\nি\n \nআ\nছ\nে\n।\n \nত\nে\nও\nঁ\nল\nো\nক\nে\n \nপ\n্\nৰ\nত\n্\nয\nে\nক\nে\n \nপ\n্\nৰ\nে\nত\n্\nয\nে\nক\nক\n \nভ\n্\nৰ\nা\nত\nৃ\nভ\nা\nৱ\nে\n \nব\n্\nয\nৱ\nহ\nা\nৰ\n \nক\nৰ\nা\n \nউ\nচ\nি\nত\n।\nজ\nন\n্\nম\nগ\nত\nভ\nা\nৱ\nে\n \nস\nক\nল\nো\n \nম\nা\nন\nু\nহ\n \nম\nৰ\n্"
+}

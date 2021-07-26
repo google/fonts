@@ -4,3 +4,17 @@ script: "Latn"
 name: "Northern Frisian"
 population: 9619
 region: "DE"
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "A\nl\ne\n \nm\ne\nn\ns\nk\ne\nn\n \ns\na\nn\n \nf\nr\ne\ni\n,"
+  tester: "A\nl\ne\n \nm\ne\nn\ns\nk\ne\nn\n \ns\na\nn\n \nf\nr\ne\ni\n,\n \nl\ni\nk\nw\nä\nä\nr\nt\ni"
+  poster_sm: "A\nl\ne\n \nm\ne"
+  poster_md: "A\nl\ne\n \nm"
+  poster_lg: "A\nl"
+  specimen_48: "A\nl\ne\n \nm\ne\nn\ns\nk\ne\nn\n \ns\na\nn\n \nf\nr\ne\ni\n,\n \nl\ni\nk\nw\nä\nä\nr\nt\ni"
+  specimen_36: "A\nl\ne\n \nm\ne\nn\ns\nk\ne\nn\n \ns\na\nn\n \nf\nr\ne\ni\n,\n \nl\ni\nk\nw\nä\nä\nr\nt\ni\ng\n \na\nn\n \nm\nä\n \nd\nö\nn\ns\na\nl\ne\nw\n \nr\no\nc"
+  specimen_32: "A\nl\ne\n \nm\ne\nn\ns\nk\ne\nn\n \ns\na\nn\n \nf\nr\ne\ni\n,\n \nl\ni\nk\nw\nä\nä\nr\nt\ni\ng\n \na\nn\n \nm\nä\n \nd\nö\nn\ns\na\nl\ne\nw\n \nr\no\nc\nh\nt\ne\nn\n \nb\nä\nä\nr\ne\nn\n.\n \nJ\no\n \nh\na\na\n \nf"
+  specimen_21: "A\nl\ne\n \nm\ne\nn\ns\nk\ne\nn\n \ns\na\nn\n \nf\nr\ne\ni\n,\n \nl\ni\nk\nw\nä\nä\nr\nt\ni\ng\n \na\nn\n \nm\nä\n \nd\nö\nn\ns\na\nl\ne\nw\n \nr\no\nc\nh\nt\ne\nn\n \nb\nä\nä\nr\ne\nn\n.\n \nJ\no\n \nh\na\na\n \nf\ne\nr\ns\nt\na\nn\nt\n \na\nn\n \ng\ne\nw\ne\ne\nt\ne\nn\n \nm\nä\nf\ni\nn\ng\ne\nn\n \na\nn\n \ns\nk\nu\nl\n \ne\nn\nö\nl\ne\nr\n \nü\nü\ns\n \nb\nr\ne\nl\ne\nr\n \nu\nu\nn\nj\ni\nn\nt\nr\ne\ne\nd\n.\nA\nl\ne\n \nm\ne\nn\ns\nk\ne\nn\n \ns"
+  specimen_16: "A\nl\ne\n \nm\ne\nn\ns\nk\ne\nn\n \ns\na\nn\n \nf\nr\ne\ni\n,\n \nl\ni\nk\nw\nä\nä\nr\nt\ni\ng\n \na\nn\n \nm\nä\n \nd\nö\nn\ns\na\nl\ne\nw\n \nr\no\nc\nh\nt\ne\nn\n \nb\nä\nä\nr\ne\nn\n.\n \nJ\no\n \nh\na\na\n \nf\ne\nr\ns\nt\na\nn\nt\n \na\nn\n \ng\ne\nw\ne\ne\nt\ne\nn\n \nm\nä\nf\ni\nn\ng\ne\nn\n \na\nn\n \ns\nk\nu\nl\n \ne\nn\nö\nl\ne\nr\n \nü\nü\ns\n \nb\nr\ne\nl\ne\nr\n \nu\nu\nn\nj\ni\nn\nt\nr\ne\ne\nd\n.\nA\nl\ne\n \nm\ne\nn\ns\nk\ne\nn\n \ns\na\nn\n \nf\nr\ne\ni\n,\n \nl\ni\nk\nw\nä\nä\nr\nt\ni\ng\n \na\nn\n \nm\nä\n \nd\nö\nn\ns\na\nl\ne\nw\n \nr\no\nc\nh\nt\ne\nn\n \nb\nä\nä\nr\ne\nn\n.\n \nJ\no\n \nh\na\na\n \nf\ne\nr\ns\nt\na\nn\nt\n \na\nn\n \ng\ne\nw\ne\ne\nt\ne\nn\n \nm\nä\nf\ni\nn\ng\ne\nn\n \na\nn\n \ns\nk\nu\nl\n \ne\nn\nö\nl\ne\nr\n \nü\nü\ns\n \nb\nr\ne\nl\ne\nr\n \nu\nu\nn\nj\ni\nn\nt\nr\ne\ne\nd\n.\nA"
+}

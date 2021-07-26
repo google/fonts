@@ -4,3 +4,17 @@ script: "Arab"
 name: "Egyptian Arabic"
 population: 66639360
 region: "EG"
+sample_text {
+  masthead_full: "الإع"
+  masthead_partial: "نم"
+  styles: "ا\nل\nإ\nع\nل\nا\nن\n \nا\nل\nع\nا\nل\nم\nي\n \nل\nح\nق\nو\nق"
+  tester: "ا\nل\nإ\nع\nل\nا\nن\n \nا\nل\nع\nا\nل\nم\nي\n \nل\nح\nق\nو\nق\n \nا\nل\nإ\nن\nس\nا\nن\n،\n "
+  poster_sm: "ا\nل\nإ\nع\nل\nا"
+  poster_md: "ا\nل\nإ\nع\nل"
+  poster_lg: "ا\nل"
+  specimen_48: "ا\nل\nإ\nع\nل\nا\nن\n \nا\nل\nع\nا\nل\nم\nي\n \nل\nح\nق\nو\nق\n \nا\nل\nإ\nن\nس\nا\nن\n،\n "
+  specimen_36: "ا\nل\nإ\nع\nل\nا\nن\n \nا\nل\nع\nا\nل\nم\nي\n \nل\nح\nق\nو\nق\n \nا\nل\nإ\nن\nس\nا\nن\n،\n \nا\nل\nم\nا\nد\nة\n \nا\nل\nأ\nو\nل\nا\nن\nي\nة\n \nا\nل\nب"
+  specimen_32: "ا\nل\nإ\nع\nل\nا\nن\n \nا\nل\nع\nا\nل\nم\nي\n \nل\nح\nق\nو\nق\n \nا\nل\nإ\nن\nس\nا\nن\n،\n \nا\nل\nم\nا\nد\nة\n \nا\nل\nأ\nو\nل\nا\nن\nي\nة\n \nا\nل\nب\nن\nي\n \nأ\nد\nم\nي\nن\n \nك\nل\nه\nم\n \nم\nو\nل\nو\nد\nي"
+  specimen_21: "ا\nل\nإ\nع\nل\nا\nن\n \nا\nل\nع\nا\nل\nم\nي\n \nل\nح\nق\nو\nق\n \nا\nل\nإ\nن\nس\nا\nن\n،\n \nا\nل\nم\nا\nد\nة\n \nا\nل\nأ\nو\nل\nا\nن\nي\nة\n \nا\nل\nب\nن\nي\n \nأ\nد\nم\nي\nن\n \nك\nل\nه\nم\n \nم\nو\nل\nو\nد\nي\nن\n \nح\nر\nي\nن\n \nو\nم\nت\nس\nا\nو\nي\nي\nن\n \nف\nي\n \nا\nل\nك\nر\nا\nم\nة\n \nو\nا\nل\nح\nق\nو\nق\n.\n \nإ\nت\nو\nه\nب\nل\nه\nم\n \nا\nل\nع\nق\nل\n \nو\nا\nل\nض\nم\nي\nر\n،\n \nو\nا\nل\nم\nف\nر\nو\nض\n \nي\nع\nا\nم\nل\nو\nا\n \nب\nع\nض"
+  specimen_16: "ا\nل\nإ\nع\nل\nا\nن\n \nا\nل\nع\nا\nل\nم\nي\n \nل\nح\nق\nو\nق\n \nا\nل\nإ\nن\nس\nا\nن\n،\n \nا\nل\nم\nا\nد\nة\n \nا\nل\nأ\nو\nل\nا\nن\nي\nة\n \nا\nل\nب\nن\nي\n \nأ\nد\nم\nي\nن\n \nك\nل\nه\nم\n \nم\nو\nل\nو\nد\nي\nن\n \nح\nر\nي\nن\n \nو\nم\nت\nس\nا\nو\nي\nي\nن\n \nف\nي\n \nا\nل\nك\nر\nا\nم\nة\n \nو\nا\nل\nح\nق\nو\nق\n.\n \nإ\nت\nو\nه\nب\nل\nه\nم\n \nا\nل\nع\nق\nل\n \nو\nا\nل\nض\nم\nي\nر\n،\n \nو\nا\nل\nم\nف\nر\nو\nض\n \nي\nع\nا\nم\nل\nو\nا\n \nب\nع\nض\n \nب\nر\nو\nح\n \nا\nل\nأ\nخ\nو\nي\nة\n.\nا\nل\nإ\nع\nل\nا\nن\n \nا\nل\nع\nا\nل\nم\nي\n \nل\nح\nق\nو\nق\n \nا\nل\nإ\nن\nس\nا\nن\n،\n \nا\nل\nم\nا\nد\nة\n \nا\nل\nأ\nو\nل\nا\nن\nي\nة\n \nا\nل\nب\nن\nي\n \nأ\nد\nم\nي\nن\n \nك\nل\nه\nم\n \nم\nو\nل\nو\nد\nي\nن\n \nح\nر\nي\nن\n \nو\nم\nت\nس\nا\nو\nي\nي\nن\n \nف\nي\n \nا\nل\nك\nر\nا\nم\nة\n \nو\nا\nل\nح\nق\nو\nق\n.\n \nإ\nت\nو\nه\nب"
+}

@@ -9,3 +9,17 @@ exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù ú û"
   marks: "◌̀ ◌́ ◌̂"
 }
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Ee"
+  styles: "T\nu\nt\nt\n\'\n\'\ne\n \np\ne\nr\nz\no\nn\ne\n \nr\no\n \nm\nu\nn"
+  tester: "T\nu\nt\nt\n\'\n\'\ne\n \np\ne\nr\nz\no\nn\ne\n \nr\no\n \nm\nu\nn\nn\no\n \nn\na\ns\nc\ni\no\nn"
+  poster_sm: "T\nu\nt\nt\n\'\n\'\ne"
+  poster_md: "T\nu\nt\nt\n\'"
+  poster_lg: "T\nu"
+  specimen_48: "T\nu\nt\nt\n\'\n\'\ne\n \np\ne\nr\nz\no\nn\ne\n \nr\no\n \nm\nu\nn\nn\no\n \nn\na\ns\nc\ni\no\nn"
+  specimen_36: "T\nu\nt\nt\n\'\n\'\ne\n \np\ne\nr\nz\no\nn\ne\n \nr\no\n \nm\nu\nn\nn\no\n \nn\na\ns\nc\ni\no\nn\no\n \nl\ni\nb\ne\nr\ni\n \ne\n \nc\nu\n\'\n \ne\n \ns\nt\ne"
+  specimen_32: "T\nu\nt\nt\n\'\n\'\ne\n \np\ne\nr\nz\no\nn\ne\n \nr\no\n \nm\nu\nn\nn\no\n \nn\na\ns\nc\ni\no\nn\no\n \nl\ni\nb\ne\nr\ni\n \ne\n \nc\nu\n\'\n \ne\n \ns\nt\ne\ns\ns\n \nd\ni\nr\ni\nt\nt\n \ne\n \nd\ni\ng\nn\ni\nt\nà\n.\n "
+  specimen_21: "T\nu\nt\nt\n\'\n\'\ne\n \np\ne\nr\nz\no\nn\ne\n \nr\no\n \nm\nu\nn\nn\no\n \nn\na\ns\nc\ni\no\nn\no\n \nl\ni\nb\ne\nr\ni\n \ne\n \nc\nu\n\'\n \ne\n \ns\nt\ne\ns\ns\n \nd\ni\nr\ni\nt\nt\n \ne\n \nd\ni\ng\nn\ni\nt\nà\n.\n \nT\nu\nt\nt\n \nq\nu\na\nn\nt\n \nt\ne\nn\no\nn\n \n\'\na\n \nr\ne\ng\ng\ni\no\nn\ne\n \ne\n \n\'\na\n \nc\nu\ns\nc\ni\ne\nn\nz\na\n \ne\n \ns\n\'\nh\na\nn\nn\n\'\n \na\n \nc\nu\nm\np\nu\nr\nt\nà\n \nl\n\'\nu\nn\n \nc\nu\n \nl\nl\n\'\na\nt\ne\n \nc\nu\n "
+  specimen_16: "T\nu\nt\nt\n\'\n\'\ne\n \np\ne\nr\nz\no\nn\ne\n \nr\no\n \nm\nu\nn\nn\no\n \nn\na\ns\nc\ni\no\nn\no\n \nl\ni\nb\ne\nr\ni\n \ne\n \nc\nu\n\'\n \ne\n \ns\nt\ne\ns\ns\n \nd\ni\nr\ni\nt\nt\n \ne\n \nd\ni\ng\nn\ni\nt\nà\n.\n \nT\nu\nt\nt\n \nq\nu\na\nn\nt\n \nt\ne\nn\no\nn\n \n\'\na\n \nr\ne\ng\ng\ni\no\nn\ne\n \ne\n \n\'\na\n \nc\nu\ns\nc\ni\ne\nn\nz\na\n \ne\n \ns\n\'\nh\na\nn\nn\n\'\n \na\n \nc\nu\nm\np\nu\nr\nt\nà\n \nl\n\'\nu\nn\n \nc\nu\n \nl\nl\n\'\na\nt\ne\n \nc\nu\n \nn\nu\n \ns\np\ni\nr\ni\nt\no\n \n\'\ne\n \nf\nr\na\nt\ne\nl\nl\na\nn\nz\na\n.\nT\nu\nt\nt\n\'\n\'\ne\n \np\ne\nr\nz\no\nn\ne\n \nr\no\n \nm\nu\nn\nn\no\n \nn\na\ns\nc\ni\no\nn\no\n \nl\ni\nb\ne\nr\ni\n \ne\n \nc\nu\n\'\n \ne\n \ns\nt\ne\ns\ns\n \nd\ni\nr\ni\nt\nt\n \ne\n \nd\ni\ng\nn\ni\nt\nà\n.\n \nT\nu\nt\nt\n \nq\nu\na\nn\nt\n \nt\ne\nn\no\nn\n \n\'\na\n \nr\ne\ng\ng\ni\no\nn\ne\n "
+}

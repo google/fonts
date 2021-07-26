@@ -4,3 +4,17 @@ script: "Arab"
 name: "Khowar"
 population: 350251
 region: "PK"
+sample_text {
+  masthead_full: "سفان"
+  masthead_partial: "آز"
+  styles: "س\nف\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nو\nا\n \nح\nق\nو\nق"
+  tester: "س\nف\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nو\nا\n \nح\nق\nو\nق\n \nا\nو\nچ\nے\n \nع\nز\nت\nو"
+  poster_sm: "س\nف\n \nا\nن\nس"
+  poster_md: "س\nف\n \nا\nن"
+  poster_lg: "س\nف"
+  specimen_48: "س\nف\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nو\nا\n \nح\nق\nو\nق\n \nا\nو\nچ\nے\n \nع\nز\nت\nو"
+  specimen_36: "س\nف\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nو\nا\n \nح\nق\nو\nق\n \nا\nو\nچ\nے\n \nع\nز\nت\nو\n \nا\nع\nت\nب\nا\nر\nو\n \nس\nو\nر\nا\n \nب\nر\nا\nب\nا\nر"
+  specimen_32: "س\nف\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nو\nا\n \nح\nق\nو\nق\n \nا\nو\nچ\nے\n \nع\nز\nت\nو\n \nا\nع\nت\nب\nا\nر\nو\n \nس\nو\nر\nا\n \nب\nر\nا\nب\nا\nر\n \nپ\nی\nد\nا\n \nب\nی\nت\nی\n \nآ\nس\nو\nن\nی\n،\n \nھ\nی"
+  specimen_21: "س\nف\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nو\nا\n \nح\nق\nو\nق\n \nا\nو\nچ\nے\n \nع\nز\nت\nو\n \nا\nع\nت\nب\nا\nر\nو\n \nس\nو\nر\nا\n \nب\nر\nا\nب\nا\nر\n \nپ\nی\nد\nا\n \nب\nی\nت\nی\n \nآ\nس\nو\nن\nی\n،\n \nھ\nی\nت\nا\nن\nت\nے\n \nض\nم\nی\nر\n \nا\nو\nچ\nے\n \nع\nق\nل\n \nع\nط\nا\n \nک\nو\nر\nو\nن\nو\n \nب\nی\nت\nی\n \nش\nی\nر\n،\n \nھ\nے\n \nب\nچ\nی\nن\n \nھ\nی\nت\nا\nن\n \nت\nا\nن\n \nم\nو\nژ\nی\n \nب\nر\nا\nر\nگ\nا\nر\nی\nو\n \nس\nل\nو\nک\nو\n \nک"
+  specimen_16: "س\nف\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nو\nا\n \nح\nق\nو\nق\n \nا\nو\nچ\nے\n \nع\nز\nت\nو\n \nا\nع\nت\nب\nا\nر\nو\n \nس\nو\nر\nا\n \nب\nر\nا\nب\nا\nر\n \nپ\nی\nد\nا\n \nب\nی\nت\nی\n \nآ\nس\nو\nن\nی\n،\n \nھ\nی\nت\nا\nن\nت\nے\n \nض\nم\nی\nر\n \nا\nو\nچ\nے\n \nع\nق\nل\n \nع\nط\nا\n \nک\nو\nر\nو\nن\nو\n \nب\nی\nت\nی\n \nش\nی\nر\n،\n \nھ\nے\n \nب\nچ\nی\nن\n \nھ\nی\nت\nا\nن\n \nت\nا\nن\n \nم\nو\nژ\nی\n \nب\nر\nا\nر\nگ\nا\nر\nی\nو\n \nس\nل\nو\nک\nو\n \nک\nو\nر\nی\nل\nک\n۔\n \nک\nھ\nو\nا\nر\n \nت\nر\nج\nم\nہ\n:\n \nر\nح\nم\nت\n \nع\nز\nی\nز\n \nچ\nت\nر\nا\nل\nی\nس\nف\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nو\nا\n \nح\nق\nو\nق\n \nا\nو\nچ\nے\n \nع\nز\nت\nو\n \nا\nع\nت\nب\nا\nر\nو\n \nس\nو\nر\nا\n \nب\nر\nا\nب\nا\nر\n \nپ\nی\nد\nا\n \nب\nی\nت\nی\n \nآ\nس\nو\nن\nی\n،\n \nھ\nی\nت\nا\nن\nت\nے\n \nض\nم\nی\nر\n \nا\nو\nچ\nے\n \nع\nق\nل"
+}

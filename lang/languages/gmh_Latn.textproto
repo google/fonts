@@ -240,4 +240,18 @@ region: "YT"
 region: "ZA"
 region: "ZM"
 region: "ZW"
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nt\n \nv\nr"
+  tester: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nt\n \nv\nr\ni\ne\n \nu\nn\nd\n \ng\ne\nl"
+  poster_sm: "A\nl\nl\ne\n \nM"
+  poster_md: "A\nl\nl\ne\n "
+  poster_lg: "A\nl"
+  specimen_48: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nt\n \nv\nr\ni\ne\n \nu\nn\nd\n \ng\ne\nl"
+  specimen_36: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nt\n \nv\nr\ni\ne\n \nu\nn\nd\n \ng\ne\nl\ni\nc\nh\ne\n \na\nn\ne\n \nW\ni\nr\nd\ne\n \nu\nn\nd\n \nR"
+  specimen_32: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nt\n \nv\nr\ni\ne\n \nu\nn\nd\n \ng\ne\nl\ni\nc\nh\ne\n \na\nn\ne\n \nW\ni\nr\nd\ne\n \nu\nn\nd\n \nR\ne\nh\nt\ne\nn\n \ng\ne\nb\no\nr\nn\ne\n.\n \nS\ni\n \ns\ni"
+  specimen_21: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nt\n \nv\nr\ni\ne\n \nu\nn\nd\n \ng\ne\nl\ni\nc\nh\ne\n \na\nn\ne\n \nW\ni\nr\nd\ne\n \nu\nn\nd\n \nR\ne\nh\nt\ne\nn\n \ng\ne\nb\no\nr\nn\ne\n.\n \nS\ni\n \ns\ni\nn\nt\n \nR\na\nt\ne\n \nu\nn\nd\n \nG\ne\nw\ni\ns\ns\ne\nn\n \nb\ne\ng\ne\nb\ne\nn\ne\n \nu\nn\nd\n \ns\nu\nl\nn\n \ng\ne\ng\ne\nn\n \ne\ni\nn\na\nn\nd\ne\nr\n \ni\nn\n \nb\nr\nu\no\nd\ne\nr\nl\ni\nc\nh\ne\n \nG\ne\ni\ns\nt\ne\n \nt\nu\no"
+  specimen_16: "A\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nt\n \nv\nr\ni\ne\n \nu\nn\nd\n \ng\ne\nl\ni\nc\nh\ne\n \na\nn\ne\n \nW\ni\nr\nd\ne\n \nu\nn\nd\n \nR\ne\nh\nt\ne\nn\n \ng\ne\nb\no\nr\nn\ne\n.\n \nS\ni\n \ns\ni\nn\nt\n \nR\na\nt\ne\n \nu\nn\nd\n \nG\ne\nw\ni\ns\ns\ne\nn\n \nb\ne\ng\ne\nb\ne\nn\ne\n \nu\nn\nd\n \ns\nu\nl\nn\n \ng\ne\ng\ne\nn\n \ne\ni\nn\na\nn\nd\ne\nr\n \ni\nn\n \nb\nr\nu\no\nd\ne\nr\nl\ni\nc\nh\ne\n \nG\ne\ni\ns\nt\ne\n \nt\nu\no\nn\n.\nA\nl\nl\ne\n \nM\ne\nn\ns\nc\nh\ne\nn\n \ns\ni\nn\nt\n \nv\nr\ni\ne\n \nu\nn\nd\n \ng\ne\nl\ni\nc\nh\ne\n \na\nn\ne\n \nW\ni\nr\nd\ne\n \nu\nn\nd\n \nR\ne\nh\nt\ne\nn\n \ng\ne\nb\no\nr\nn\ne\n.\n \nS\ni\n \ns\ni\nn\nt\n \nR\na\nt\ne\n \nu\nn\nd\n \nG\ne\nw\ni\ns\ns\ne\nn\n \nb\ne\ng\ne\nb\ne\nn\ne\n \nu\nn\nd\n \ns\nu\nl\nn\n \ng\ne\ng\ne\nn\n \ne\ni\nn\na\nn\nd\ne\nr"
+}
 historical: true

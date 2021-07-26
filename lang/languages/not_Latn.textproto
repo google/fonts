@@ -1,0 +1,18 @@
+id: "not_Latn"
+language: "not"
+script: "Latn"
+name: "Nomatsiguenga"
+sample_text {
+  masthead_full: "AaNn"
+  masthead_partial: "Tt"
+  styles: "A\nn\nt\na\ng\na\ni\ns\na\nt\ni\n \nm\na\nt\ns\ni\ng\nu\ne\nn"
+  tester: "A\nn\nt\na\ng\na\ni\ns\na\nt\ni\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\n \ni\nb\no\ng\na\ni\ng"
+  poster_sm: "A\nn\nt\na\ng\na"
+  poster_md: "A\nn\nt\na\ng"
+  poster_lg: "A\nn"
+  specimen_48: "A\nn\nt\na\ng\na\ni\ns\na\nt\ni\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\n \ni\nb\no\ng\na\ni\ng"
+  specimen_36: "A\nn\nt\na\ng\na\ni\ns\na\nt\ni\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\n \ni\nb\no\ng\na\ni\ng\nu\në\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\ns\no\nn\no\nr\nl"
+  specimen_32: "A\nn\nt\na\ng\na\ni\ns\na\nt\ni\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\n \ni\nb\no\ng\na\ni\ng\nu\në\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\ns\no\nn\no\nr\nl\n.\n \nA\ni\ns\na\nt\ni\n \ni\nc\na\nn\nt\na\ni\ng\na\nc\na"
+  specimen_21: "A\nn\nt\na\ng\na\ni\ns\na\nt\ni\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\n \ni\nb\no\ng\na\ni\ng\nu\në\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\ns\no\nn\no\nr\nl\n.\n \nA\ni\ns\na\nt\ni\n \ni\nc\na\nn\nt\na\ni\ng\na\nc\na\n.\n \nT\ne\nn\ni\n \ni\nr\no\nm\ne\nr\na\nt\na\ni\ng\nu\ne\nn\ng\na\nn\ni\n.\n \nA\nn\nt\na\ng\na\ni\ns\na\nt\ni\n \ni\nq\nu\ne\nn\ng\na\ni\ng\nu\ni\n \na\ni\ns\na\nt\ni\n \ni\ng\nó\ni\ng\nu\ni\nr\no\n \no\nr\na\n \nc\na\nn\ni\nn\na\nr\no\n "
+  specimen_16: "A\nn\nt\na\ng\na\ni\ns\na\nt\ni\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\n \ni\nb\no\ng\na\ni\ng\nu\në\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\ns\no\nn\no\nr\nl\n.\n \nA\ni\ns\na\nt\ni\n \ni\nc\na\nn\nt\na\ni\ng\na\nc\na\n.\n \nT\ne\nn\ni\n \ni\nr\no\nm\ne\nr\na\nt\na\ni\ng\nu\ne\nn\ng\na\nn\ni\n.\n \nA\nn\nt\na\ng\na\ni\ns\na\nt\ni\n \ni\nq\nu\ne\nn\ng\na\ni\ng\nu\ni\n \na\ni\ns\na\nt\ni\n \ni\ng\nó\ni\ng\nu\ni\nr\no\n \no\nr\na\n \nc\na\nn\ni\nn\na\nr\no\n \na\ni\ns\na\nt\ni\n \ni\ng\nó\ni\ng\nu\ni\nr\no\n \no\nr\na\n \nt\ne\n \no\nn\ng\na\nn\ni\nn\na\nt\ne\n.\n \nI\nr\no\nr\no\n \nc\na\nn\ni\nn\na\nt\na\nq\nu\ne\n \no\nm\na\ng\na\nr\no\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\n \ni\nr\na\nn\ni\na\nc\na\nn\ni\nn\na\nt\na\ni\ng\nu\ne\nr\ni\n \ni\nr\na\n \nb\na\ns\ni\nn\ni\na\nt\ni\n \nm\na\nt\ns\ni\ng\nu\ne\nn\ng\na\n \na\ni\ns\na\nt"
+}

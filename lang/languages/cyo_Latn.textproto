@@ -1,0 +1,18 @@
+id: "cyo_Latn"
+language: "cyo"
+script: "Latn"
+name: "Cuyonon, Latin"
+sample_text {
+  masthead_full: "TtAa"
+  masthead_partial: "Nn"
+  styles: "T\na\nn\na\nn\ng\n \nt\na\no\n \ni\nn\ng\nb\na\nt\na\n \nn\ng"
+  tester: "T\na\nn\na\nn\ng\n \nt\na\no\n \ni\nn\ng\nb\na\nt\na\n \nn\ng\na\n \nb\ne\nk\ne\nn\n \ni\n\'"
+  poster_sm: "T\na\nn\na\nn\ng"
+  poster_md: "T\na\nn\na\nn"
+  poster_lg: "T\na"
+  specimen_48: "T\na\nn\na\nn\ng\n \nt\na\no\n \ni\nn\ng\nb\na\nt\na\n \nn\ng\na\n \nb\ne\nk\ne\nn\n \ni\n\'"
+  specimen_36: "T\na\nn\na\nn\ng\n \nt\na\no\n \ni\nn\ng\nb\na\nt\na\n \nn\ng\na\n \nb\ne\nk\ne\nn\n \ni\n\'\n \no\nr\ni\np\ne\nn\n \ni\ng\n \nk\na\nr\na\nm\np\ne\nd\n "
+  specimen_32: "T\na\nn\na\nn\ng\n \nt\na\no\n \ni\nn\ng\nb\na\nt\na\n \nn\ng\na\n \nb\ne\nk\ne\nn\n \ni\n\'\n \no\nr\ni\np\ne\nn\n \ni\ng\n \nk\na\nr\na\nm\np\ne\nd\n \ni\n\'\n \nd\ni\ng\nn\ni\nd\na\nd\n \ni\ng\n \nm\na\nn\ng\na\n "
+  specimen_21: "T\na\nn\na\nn\ng\n \nt\na\no\n \ni\nn\ng\nb\na\nt\na\n \nn\ng\na\n \nb\ne\nk\ne\nn\n \ni\n\'\n \no\nr\ni\np\ne\nn\n \ni\ng\n \nk\na\nr\na\nm\np\ne\nd\n \ni\n\'\n \nd\ni\ng\nn\ni\nd\na\nd\n \ni\ng\n \nm\na\nn\ng\na\n \nk\na\nt\na\nd\nl\ne\nn\ng\na\nn\n.\n \nI\nn\ng\nk\na\nl\no\ny\na\nn\n \ns\na\nn\nd\na\n \ni\n\'\nl\ne\nb\na\nn\ng\n \na\nk\na\ne\nl\na\nm\n \na\ng\np\na\ns\no\nn\na\ni\nd\n;\n \np\na\ng\ni\nr\ni\ns\ni\np\ne\nn\n \nn\ng\na\n \na\nk\na\np\na\np"
+  specimen_16: "T\na\nn\na\nn\ng\n \nt\na\no\n \ni\nn\ng\nb\na\nt\na\n \nn\ng\na\n \nb\ne\nk\ne\nn\n \ni\n\'\n \no\nr\ni\np\ne\nn\n \ni\ng\n \nk\na\nr\na\nm\np\ne\nd\n \ni\n\'\n \nd\ni\ng\nn\ni\nd\na\nd\n \ni\ng\n \nm\na\nn\ng\na\n \nk\na\nt\na\nd\nl\ne\nn\ng\na\nn\n.\n \nI\nn\ng\nk\na\nl\no\ny\na\nn\n \ns\na\nn\nd\na\n \ni\n\'\nl\ne\nb\na\nn\ng\n \na\nk\na\ne\nl\na\nm\n \na\ng\np\na\ns\no\nn\na\ni\nd\n;\n \np\na\ng\ni\nr\ni\ns\ni\np\ne\nn\n \nn\ng\na\n \na\nk\na\np\na\np\na\ni\nn\no\ni\nn\no\n \ni\n\'\na\nn\ng\n \nm\na\na\ny\na\nd\n \ni\ng\n \na\nn\ng\n \nb\ne\nk\ne\nn\n;\n \np\na\ng\ns\ne\nl\ne\nn\ng\n \ns\na\n \nm\na\ns\ni\ng\nk\na\nt\na\no\n \nn\ng\na\n \nm\na\nr\na\nb\no\ng\nt\ni\nt\ni\nn\na\ni\n.\nT\na\nn\na\nn\ng\n \nt\na\no\n \ni\nn\ng\nb\na\nt\na\n \nn\ng\na\n \nb\ne\nk\ne\nn\n \ni\n\'\n \no\nr\ni\np\ne\nn\n \ni\ng\n \nk\na\nr\na\nm\np\ne"
+}

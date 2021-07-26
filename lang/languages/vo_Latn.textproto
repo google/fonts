@@ -245,4 +245,18 @@ exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü"
   marks: "◌̈"
 }
+sample_text {
+  masthead_full: "MmEe"
+  masthead_partial: "Nn"
+  styles: "M\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl"
+  tester: "M\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl\ni\nb\ni\nk\no\n \ne\n \nl\ne"
+  poster_sm: "M\ne\nn\ns\n \nv"
+  poster_md: "M\ne\nn\ns\n "
+  poster_lg: "M\ne"
+  specimen_48: "M\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl\ni\nb\ni\nk\no\n \ne\n \nl\ne"
+  specimen_36: "M\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl\ni\nb\ni\nk\no\n \ne\n \nl\ne\ni\ng\ni\nk\no\n \nt\ne\nf\nü\n \nd\ni\ng\nä\nd\n \ne\n \ng"
+  specimen_32: "M\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl\ni\nb\ni\nk\no\n \ne\n \nl\ne\ni\ng\ni\nk\no\n \nt\ne\nf\nü\n \nd\ni\ng\nä\nd\n \ne\n \ng\ni\nt\nä\nt\ns\n.\n \nL\na\nb\no\nn\ns\n \nt\ni\nk\nä\nl\ni"
+  specimen_21: "M\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl\ni\nb\ni\nk\no\n \ne\n \nl\ne\ni\ng\ni\nk\no\n \nt\ne\nf\nü\n \nd\ni\ng\nä\nd\n \ne\n \ng\ni\nt\nä\nt\ns\n.\n \nL\na\nb\no\nn\ns\n \nt\ni\nk\nä\nl\ni\n \ne\n \nk\no\nn\ns\ni\ne\nn\ni\n,\n \ne\n \ns\nö\nt\no\nn\ns\n \nk\no\ns\nä\nd\nö\nn\n \nk\no\n \no\nd\ns\n \ns\ni\nä\nm\nü\n \ns\nv\ni\ns\nt\nä\nl\n.\nM\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl\ni\nb\ni\nk\no\n \ne\n \nl"
+  specimen_16: "M\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl\ni\nb\ni\nk\no\n \ne\n \nl\ne\ni\ng\ni\nk\no\n \nt\ne\nf\nü\n \nd\ni\ng\nä\nd\n \ne\n \ng\ni\nt\nä\nt\ns\n.\n \nL\na\nb\no\nn\ns\n \nt\ni\nk\nä\nl\ni\n \ne\n \nk\no\nn\ns\ni\ne\nn\ni\n,\n \ne\n \ns\nö\nt\no\nn\ns\n \nk\no\ns\nä\nd\nö\nn\n \nk\no\n \no\nd\ns\n \ns\ni\nä\nm\nü\n \ns\nv\ni\ns\nt\nä\nl\n.\nM\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl\ni\nb\ni\nk\no\n \ne\n \nl\ne\ni\ng\ni\nk\no\n \nt\ne\nf\nü\n \nd\ni\ng\nä\nd\n \ne\n \ng\ni\nt\nä\nt\ns\n.\n \nL\na\nb\no\nn\ns\n \nt\ni\nk\nä\nl\ni\n \ne\n \nk\no\nn\ns\ni\ne\nn\ni\n,\n \ne\n \ns\nö\nt\no\nn\ns\n \nk\no\ns\nä\nd\nö\nn\n \nk\no\n \no\nd\ns\n \ns\ni\nä\nm\nü\n \ns\nv\ni\ns\nt\nä\nl\n.\nM\ne\nn\ns\n \nv\na\nl\ni\nk\n \np\ne\nm\no\nt\no\nn\ns\n \nl\ni\nb\ni\nk\no\n \ne\n \nl\ne\ni\ng\ni\nk"
+}
 historical: true

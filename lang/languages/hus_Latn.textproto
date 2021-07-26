@@ -1,0 +1,18 @@
+id: "hus_Latn"
+language: "hus"
+script: "Latn"
+name: "Huastec, San Luís Potosí"
+sample_text {
+  masthead_full: "PpAa"
+  masthead_partial: "Tt"
+  styles: "P\na\nt\na\nl\n \na\nn\n \ni\nn\ni\nk\n \na\nn\ni\n \na\nn\n "
+  tester: "P\na\nt\na\nl\n \na\nn\n \ni\nn\ni\nk\n \na\nn\ni\n \na\nn\n \nu\nx\nu\nm\n \nu\n \nw\na\n\'"
+  poster_sm: "P\na\nt\na\nl\n "
+  poster_md: "P\na\nt\na\nl"
+  poster_lg: "P\na"
+  specimen_48: "P\na\nt\na\nl\n \na\nn\n \ni\nn\ni\nk\n \na\nn\ni\n \na\nn\n \nu\nx\nu\nm\n \nu\n \nw\na\n\'"
+  specimen_36: "P\na\nt\na\nl\n \na\nn\n \ni\nn\ni\nk\n \na\nn\ni\n \na\nn\n \nu\nx\nu\nm\n \nu\n \nw\na\n\'\nt\ns\ni\nn\na\nl\n \nw\na\nl\nk\na\nd\nh\n \na\nb\na\nl\n "
+  specimen_32: "P\na\nt\na\nl\n \na\nn\n \ni\nn\ni\nk\n \na\nn\ni\n \na\nn\n \nu\nx\nu\nm\n \nu\n \nw\na\n\'\nt\ns\ni\nn\na\nl\n \nw\na\nl\nk\na\nd\nh\n \na\nb\na\nl\n \nj\nu\nn\nu\nn\nú\nl\n \nk\ni\nn\n \nb\na\nt\ns\n\'\nu\nw\n \na"
+  specimen_21: "P\na\nt\na\nl\n \na\nn\n \ni\nn\ni\nk\n \na\nn\ni\n \na\nn\n \nu\nx\nu\nm\n \nu\n \nw\na\n\'\nt\ns\ni\nn\na\nl\n \nw\na\nl\nk\na\nd\nh\n \na\nb\na\nl\n \nj\nu\nn\nu\nn\nú\nl\n \nk\ni\nn\n \nb\na\nt\ns\n\'\nu\nw\n \na\nn\n \na\nl\nw\na\n\'\nt\na\nl\ná\nb\n \na\nn\ni\n \nk\na\n \np\ni\nd\nh\na\nn\n \ni\nn\n \né\ny\n \nj\na\nn\nt\n\'\ni\nn\ni\n\'\n \ni\nn\n \nt\no\nm\nn\ná\nl\n;\n \ni\nn\n \nk\nw\na\n\'\na\nl\n \ni\nn\n \nt\ns\na\nl\np\ná\nd\nh\n \na\nn\ni\n \ni\nn"
+  specimen_16: "P\na\nt\na\nl\n \na\nn\n \ni\nn\ni\nk\n \na\nn\ni\n \na\nn\n \nu\nx\nu\nm\n \nu\n \nw\na\n\'\nt\ns\ni\nn\na\nl\n \nw\na\nl\nk\na\nd\nh\n \na\nb\na\nl\n \nj\nu\nn\nu\nn\nú\nl\n \nk\ni\nn\n \nb\na\nt\ns\n\'\nu\nw\n \na\nn\n \na\nl\nw\na\n\'\nt\na\nl\ná\nb\n \na\nn\ni\n \nk\na\n \np\ni\nd\nh\na\nn\n \ni\nn\n \né\ny\n \nj\na\nn\nt\n\'\ni\nn\ni\n\'\n \ni\nn\n \nt\no\nm\nn\ná\nl\n;\n \ni\nn\n \nk\nw\na\n\'\na\nl\n \ni\nn\n \nt\ns\na\nl\np\ná\nd\nh\n \na\nn\ni\n \ni\nn\n \nk\n\'\na\ny\ná\n\'\n \na\nb\na\nl\n \nk\ni\nn\n \nk\n\'\na\nn\ni\nd\nh\na\n\'\n \ni\nn\n \nj\nu\nn\nt\na\nl\n.\nP\na\nt\na\nl\n \na\nn\n \ni\nn\ni\nk\n \na\nn\ni\n \na\nn\n \nu\nx\nu\nm\n \nu\n \nw\na\n\'\nt\ns\ni\nn\na\nl\n \nw\na\nl\nk\na\nd\nh\n \na\nb\na\nl\n \nj\nu\nn\nu\nn\nú\nl\n \nk\ni\nn\n \nb\na\nt\ns\n\'\nu\nw\n \na\nn\n \na\nl\nw\na\n\'\nt\na\nl\ná\nb\n \na\nn\ni\n \nk\na\n "
+}

@@ -4,3 +4,17 @@ script: "Latn"
 name: "Saterland Frisian"
 population: 961
 region: "DE"
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Dd"
+  styles: "A\na\nl\n \nd\no\n \nM\na\na\nn\ns\nk\ne\nn\ne\n \ns\nu\nn\nt"
+  tester: "A\na\nl\n \nd\no\n \nM\na\na\nn\ns\nk\ne\nn\ne\n \ns\nu\nn\nt\n \nf\nr\nä\ni\n \nu\nn\n \ng"
+  poster_sm: "A\na\nl\n \nd\no"
+  poster_md: "A\na\nl\n \nd"
+  poster_lg: "A\na"
+  specimen_48: "A\na\nl\n \nd\no\n \nM\na\na\nn\ns\nk\ne\nn\ne\n \ns\nu\nn\nt\n \nf\nr\nä\ni\n \nu\nn\n \ng"
+  specimen_36: "A\na\nl\n \nd\no\n \nM\na\na\nn\ns\nk\ne\nn\ne\n \ns\nu\nn\nt\n \nf\nr\nä\ni\n \nu\nn\n \ng\nl\ni\ne\nk\n \ni\nn\n \nW\nö\ni\nd\ne\n \nu\nn\n \nG\nj\nu"
+  specimen_32: "A\na\nl\n \nd\no\n \nM\na\na\nn\ns\nk\ne\nn\ne\n \ns\nu\nn\nt\n \nf\nr\nä\ni\n \nu\nn\n \ng\nl\ni\ne\nk\n \ni\nn\n \nW\nö\ni\nd\ne\n \nu\nn\n \nG\nj\nu\nc\nh\nt\ne\n \ng\ne\nb\no\no\nr\ne\nn\n.\n \nJ\no\n \nh\nä"
+  specimen_21: "A\na\nl\n \nd\no\n \nM\na\na\nn\ns\nk\ne\nn\ne\n \ns\nu\nn\nt\n \nf\nr\nä\ni\n \nu\nn\n \ng\nl\ni\ne\nk\n \ni\nn\n \nW\nö\ni\nd\ne\n \nu\nn\n \nG\nj\nu\nc\nh\nt\ne\n \ng\ne\nb\no\no\nr\ne\nn\n.\n \nJ\no\n \nh\nä\nä\nb\ne\n \nF\ne\nr\nn\nu\nn\nf\nt\n \nu\nn\n \nG\ne\nw\ni\ne\nt\ne\nn\n \nm\ne\ne\nk\nr\ni\ne\ng\ne\nn\n \nu\nn\n \ns\nc\nh\nä\nl\nl\ne\nn\n \ns\ni\nk\n \ne\ne\nn\no\nu\nr\n \na\ns\n \nB\nr\no\nu\nr\ne\n \nf\ne\nr\nh\no\no\nl\nd\ne\n.\nA\na"
+  specimen_16: "A\na\nl\n \nd\no\n \nM\na\na\nn\ns\nk\ne\nn\ne\n \ns\nu\nn\nt\n \nf\nr\nä\ni\n \nu\nn\n \ng\nl\ni\ne\nk\n \ni\nn\n \nW\nö\ni\nd\ne\n \nu\nn\n \nG\nj\nu\nc\nh\nt\ne\n \ng\ne\nb\no\no\nr\ne\nn\n.\n \nJ\no\n \nh\nä\nä\nb\ne\n \nF\ne\nr\nn\nu\nn\nf\nt\n \nu\nn\n \nG\ne\nw\ni\ne\nt\ne\nn\n \nm\ne\ne\nk\nr\ni\ne\ng\ne\nn\n \nu\nn\n \ns\nc\nh\nä\nl\nl\ne\nn\n \ns\ni\nk\n \ne\ne\nn\no\nu\nr\n \na\ns\n \nB\nr\no\nu\nr\ne\n \nf\ne\nr\nh\no\no\nl\nd\ne\n.\nA\na\nl\n \nd\no\n \nM\na\na\nn\ns\nk\ne\nn\ne\n \ns\nu\nn\nt\n \nf\nr\nä\ni\n \nu\nn\n \ng\nl\ni\ne\nk\n \ni\nn\n \nW\nö\ni\nd\ne\n \nu\nn\n \nG\nj\nu\nc\nh\nt\ne\n \ng\ne\nb\no\no\nr\ne\nn\n.\n \nJ\no\n \nh\nä\nä\nb\ne\n \nF\ne\nr\nn\nu\nn\nf\nt\n \nu\nn\n \nG\ne\nw\ni\ne\nt\ne\nn\n \nm\ne\ne\nk\nr\ni\ne\ng\ne\nn\n \nu\nn\n \ns\nc\nh\nä\nl\nl\ne\nn\n \ns\ni\nk\n \ne\ne\nn\no"
+}

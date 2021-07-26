@@ -1,0 +1,18 @@
+id: "quz_Latn"
+language: "quz"
+script: "Latn"
+name: "Quechua, Cusco"
+sample_text {
+  masthead_full: "LlAa"
+  masthead_partial: "Pp"
+  styles: "L\nl\na\np\na\n \nr\nu\nn\na\nn\n \nk\na\ny\n \np\na\nc\nh\na"
+  tester: "L\nl\na\np\na\n \nr\nu\nn\na\nn\n \nk\na\ny\n \np\na\nc\nh\na\np\ni\n \np\na\nq\na\nr\ni\nn"
+  poster_sm: "L\nl\na\np\na\n "
+  poster_md: "L\nl\na\np\na"
+  poster_lg: "L\nl"
+  specimen_48: "L\nl\na\np\na\n \nr\nu\nn\na\nn\n \nk\na\ny\n \np\na\nc\nh\na\np\ni\n \np\na\nq\na\nr\ni\nn"
+  specimen_36: "L\nl\na\np\na\n \nr\nu\nn\na\nn\n \nk\na\ny\n \np\na\nc\nh\na\np\ni\n \np\na\nq\na\nr\ni\nn\n \nq\ni\ns\np\ni\ns\nq\na\n,\n \n\"\nl\ni\nb\nr\ne\n\"\n \nf\nl"
+  specimen_32: "L\nl\na\np\na\n \nr\nu\nn\na\nn\n \nk\na\ny\n \np\na\nc\nh\na\np\ni\n \np\na\nq\na\nr\ni\nn\n \nq\ni\ns\np\ni\ns\nq\na\n,\n \n\"\nl\ni\nb\nr\ne\n\"\n \nf\nl\ni\ns\nq\na\n,\n \na\nl\nl\ni\nn\n \nk\na\nu\ns\na\ny\np\ni\n,"
+  specimen_21: "L\nl\na\np\na\n \nr\nu\nn\na\nn\n \nk\na\ny\n \np\na\nc\nh\na\np\ni\n \np\na\nq\na\nr\ni\nn\n \nq\ni\ns\np\ni\ns\nq\na\n,\n \n\"\nl\ni\nb\nr\ne\n\"\n \nf\nl\ni\ns\nq\na\n,\n \na\nl\nl\ni\nn\n \nk\na\nu\ns\na\ny\np\ni\n,\n \nc\nh\na\nn\ni\nn\nc\nh\na\ns\nq\na\n \nk\na\nu\ns\na\ny\np\ni\n \nk\na\nn\na\nn\np\na\nq\n,\n \ny\nu\ny\na\ny\nn\ni\ny\no\nq\n,\n \ny\na\nc\nh\na\ny\nn\ni\ny\no\nq\n \nr\nu\nn\na\n \nk\na\ns\nq\na\nn\nm\na\nn\n \nj\ni\nn\na\n.\n \nL\nl\na\np"
+  specimen_16: "L\nl\na\np\na\n \nr\nu\nn\na\nn\n \nk\na\ny\n \np\na\nc\nh\na\np\ni\n \np\na\nq\na\nr\ni\nn\n \nq\ni\ns\np\ni\ns\nq\na\n,\n \n\"\nl\ni\nb\nr\ne\n\"\n \nf\nl\ni\ns\nq\na\n,\n \na\nl\nl\ni\nn\n \nk\na\nu\ns\na\ny\np\ni\n,\n \nc\nh\na\nn\ni\nn\nc\nh\na\ns\nq\na\n \nk\na\nu\ns\na\ny\np\ni\n \nk\na\nn\na\nn\np\na\nq\n,\n \ny\nu\ny\na\ny\nn\ni\ny\no\nq\n,\n \ny\na\nc\nh\na\ny\nn\ni\ny\no\nq\n \nr\nu\nn\na\n \nk\na\ns\nq\na\nn\nm\na\nn\n \nj\ni\nn\na\n.\n \nL\nl\na\np\na\n \nr\nu\nn\na\nm\na\ns\ni\nn\nw\na\nn\nt\na\nq\nm\ni\n \nw\na\nu\nq\ne\nn\nt\ni\nn\n \nj\ni\nn\na\n \nm\nu\nn\na\nn\na\nk\nu\nn\na\nn\n.\nL\nl\na\np\na\n \nr\nu\nn\na\nn\n \nk\na\ny\n \np\na\nc\nh\na\np\ni\n \np\na\nq\na\nr\ni\nn\n \nq\ni\ns\np\ni\ns\nq\na\n,\n \n\"\nl\ni\nb\nr\ne\n\"\n \nf\nl\ni\ns\nq\na\n,\n \na\nl\nl\ni\nn\n \nk\na\nu\ns\na\ny\np\ni\n,\n \nc\nh\na\nn\ni\nn\nc"
+}

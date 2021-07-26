@@ -1,0 +1,18 @@
+id: "udu_Latn"
+language: "udu"
+script: "Latn"
+name: "Uduk"
+sample_text {
+  masthead_full: "AaRr"
+  masthead_partial: "Ii"
+  styles: "A\nr\ni\ns\n \n’\nk\nw\na\nn\ni\nn\ny\n’\nc\ne\ns\nh\ni\n \n’\nb"
+  tester: "A\nr\ni\ns\n \n’\nk\nw\na\nn\ni\nn\ny\n’\nc\ne\ns\nh\ni\n \n’\nb\na\na\nr\n \nm\no\n \nd\nh\no"
+  poster_sm: "A\nr\ni\ns\n \n’"
+  poster_md: "A\nr\ni\ns\n "
+  poster_lg: "A\nr"
+  specimen_48: "A\nr\ni\ns\n \n’\nk\nw\na\nn\ni\nn\ny\n’\nc\ne\ns\nh\ni\n \n’\nb\na\na\nr\n \nm\no\n \nd\nh\no"
+  specimen_36: "A\nr\ni\ns\n \n’\nk\nw\na\nn\ni\nn\ny\n’\nc\ne\ns\nh\ni\n \n’\nb\na\na\nr\n \nm\no\n \nd\nh\no\n’\nt\nh\nk\nu\nn\nu\n \n’\nb\na\nḵ\na\nn\ny\n \nm\no\n \nd\nh"
+  specimen_32: "A\nr\ni\ns\n \n’\nk\nw\na\nn\ni\nn\ny\n’\nc\ne\ns\nh\ni\n \n’\nb\na\na\nr\n \nm\no\n \nd\nh\no\n’\nt\nh\nk\nu\nn\nu\n \n’\nb\na\nḵ\na\nn\ny\n \nm\no\n \nd\nh\na\nl\ni\n \nm\nm\no\nm\ni\ni\ny\na\n \nṯ\nu\n’\nc\n \ni\nm\no"
+  specimen_21: "A\nr\ni\ns\n \n’\nk\nw\na\nn\ni\nn\ny\n’\nc\ne\ns\nh\ni\n \n’\nb\na\na\nr\n \nm\no\n \nd\nh\no\n’\nt\nh\nk\nu\nn\nu\n \n’\nb\na\nḵ\na\nn\ny\n \nm\no\n \nd\nh\na\nl\ni\n \nm\nm\no\nm\ni\ni\ny\na\n \nṯ\nu\n’\nc\n \ni\nm\no\nn\nṯ\na\nl\n \n’\nd\ne\n/\n \nm\no\n \nd\nh\na\nl\ni\n \nm\ni\ni\n \nm\na\n \nḵ\na\nr\n/\ne\n \nm\no\n.\n \nU\nn\ni\n \nm\ni\nn\ni\n \nt\na\n \ng\ni\n \ng\nw\no\n \nm\no\n \nd\nh\na\nl\ni\n \nm\ni\ni\n \nm\no\n \nd\nh\na\nl\ni\n \nu\nn\ni\n \nm"
+  specimen_16: "A\nr\ni\ns\n \n’\nk\nw\na\nn\ni\nn\ny\n’\nc\ne\ns\nh\ni\n \n’\nb\na\na\nr\n \nm\no\n \nd\nh\no\n’\nt\nh\nk\nu\nn\nu\n \n’\nb\na\nḵ\na\nn\ny\n \nm\no\n \nd\nh\na\nl\ni\n \nm\nm\no\nm\ni\ni\ny\na\n \nṯ\nu\n’\nc\n \ni\nm\no\nn\nṯ\na\nl\n \n’\nd\ne\n/\n \nm\no\n \nd\nh\na\nl\ni\n \nm\ni\ni\n \nm\na\n \nḵ\na\nr\n/\ne\n \nm\no\n.\n \nU\nn\ni\n \nm\ni\nn\ni\n \nt\na\n \ng\ni\n \ng\nw\no\n \nm\no\n \nd\nh\na\nl\ni\n \nm\ni\ni\n \nm\no\n \nd\nh\na\nl\ni\n \nu\nn\ni\n \nm\ni\nn\ni\n \nm\ni\ni\n \nk\na\n \nk\na\nr\na\nm\nb\nu\ny\ne\n/\n \n’\nk\nu\np\ṉ\n \nk\ni\n \nc\ni\nn\n \nt\ni\ny\na\n \nm\no\n \ne\n \ns\nh\ni\n/\ni\nn\n \nm\no\n \nd\nh\na\nl\ni\n \nm\ni\ni\n \nk\nu\nn\n \nt\na\nn\nu\n \ni\nk\na\nm\n \nm\no\n.\nA\nr\ni\ns\n \n’\nk\nw\na\nn\ni\nn\ny\n’\nc\ne\ns\nh\ni\n \n’\nb\na\na\nr\n \nm\no\n \nd\nh\no\n’\nt\nh\nk\nu\nn\nu\n \n’\nb\na\nḵ\na\nn\ny\n "
+}

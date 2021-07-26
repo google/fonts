@@ -4,3 +4,17 @@ script: "Latn"
 name: "Guianese Creole French"
 population: 51872
 region: "GF"
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Uu"
+  styles: "T\no\nu\nt\n \nm\no\nu\nn\n \nf\nè\nt\n \nl\ni\nb\nr\n \né\n "
+  tester: "T\no\nu\nt\n \nm\no\nu\nn\n \nf\nè\nt\n \nl\ni\nb\nr\n \né\n \né\ng\na\nl\n \na\nn\nn\na\nn"
+  poster_sm: "T\no\nu\nt\n \nm"
+  poster_md: "T\no\nu\nt\n "
+  poster_lg: "T\no"
+  specimen_48: "T\no\nu\nt\n \nm\no\nu\nn\n \nf\nè\nt\n \nl\ni\nb\nr\n \né\n \né\ng\na\nl\n \na\nn\nn\na\nn"
+  specimen_36: "T\no\nu\nt\n \nm\no\nu\nn\n \nf\nè\nt\n \nl\ni\nb\nr\n \né\n \né\ng\na\nl\n \na\nn\nn\na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\n \ne\nn\n \nd\nr\no\ni\n.\n "
+  specimen_32: "T\no\nu\nt\n \nm\no\nu\nn\n \nf\nè\nt\n \nl\ni\nb\nr\n \né\n \né\ng\na\nl\n \na\nn\nn\na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\n \ne\nn\n \nd\nr\no\ni\n.\n \nY\né\n \nd\nw\né\n \nd\ni\n \nr\né\nz\no\nn\n \né\n \nd\ni"
+  specimen_21: "T\no\nu\nt\n \nm\no\nu\nn\n \nf\nè\nt\n \nl\ni\nb\nr\n \né\n \né\ng\na\nl\n \na\nn\nn\na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\n \ne\nn\n \nd\nr\no\ni\n.\n \nY\né\n \nd\nw\né\n \nd\ni\n \nr\né\nz\no\nn\n \né\n \nd\ni\n \nk\no\nn\ns\ny\ni\na\nn\ns\n,\n \né\n \nd\ni\nv\ne\nt\n \na\nj\ni\n \nr\no\nu\nn\n \np\no\nu\n \nr\nô\nt\n \na\nn\nn\na\nn\n \no\nu\nn\n \nl\ne\ns\np\nr\ni\n \nd\ni\n \nf\nr\na\nt\ne\nr\nn\ni\nt\né\n.\nT\no\nu\nt\n \nm\no\nu\nn\n \nf\nè\nt"
+  specimen_16: "T\no\nu\nt\n \nm\no\nu\nn\n \nf\nè\nt\n \nl\ni\nb\nr\n \né\n \né\ng\na\nl\n \na\nn\nn\na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\n \ne\nn\n \nd\nr\no\ni\n.\n \nY\né\n \nd\nw\né\n \nd\ni\n \nr\né\nz\no\nn\n \né\n \nd\ni\n \nk\no\nn\ns\ny\ni\na\nn\ns\n,\n \né\n \nd\ni\nv\ne\nt\n \na\nj\ni\n \nr\no\nu\nn\n \np\no\nu\n \nr\nô\nt\n \na\nn\nn\na\nn\n \no\nu\nn\n \nl\ne\ns\np\nr\ni\n \nd\ni\n \nf\nr\na\nt\ne\nr\nn\ni\nt\né\n.\nT\no\nu\nt\n \nm\no\nu\nn\n \nf\nè\nt\n \nl\ni\nb\nr\n \né\n \né\ng\na\nl\n \na\nn\nn\na\nn\n \nd\ni\ng\nn\ni\nt\né\n \né\n \ne\nn\n \nd\nr\no\ni\n.\n \nY\né\n \nd\nw\né\n \nd\ni\n \nr\né\nz\no\nn\n \né\n \nd\ni\n \nk\no\nn\ns\ny\ni\na\nn\ns\n,\n \né\n \nd\ni\nv\ne\nt\n \na\nj\ni\n \nr\no\nu\nn\n \np\no\nu\n \nr\nô\nt\n \na\nn\nn\na\nn\n \no\nu\nn\n \nl\ne\ns\np\nr\ni\n \nd\ni\n \nf\nr\na\nt\ne\nr\nn\ni\nt\né\n.\nT"
+}

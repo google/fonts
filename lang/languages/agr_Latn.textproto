@@ -1,0 +1,18 @@
+id: "agr_Latn"
+language: "agr"
+script: "Latn"
+name: "Aguaruna"
+sample_text {
+  masthead_full: "AaSs"
+  masthead_partial: "Hh"
+  styles: "A\ns\nh\ni\n \na\ne\nn\nt\ns\n \na\ni\nd\na\nu\nk\n \na\ng\nk"
+  tester: "A\ns\nh\ni\n \na\ne\nn\nt\ns\n \na\ni\nd\na\nu\nk\n \na\ng\nk\na\nn\n \na\nk\ni\nn\nu\ni\n,"
+  poster_sm: "A\ns\nh\ni\n \na"
+  poster_md: "A\ns\nh\ni\n "
+  poster_lg: "A\ns"
+  specimen_48: "A\ns\nh\ni\n \na\ne\nn\nt\ns\n \na\ni\nd\na\nu\nk\n \na\ng\nk\na\nn\n \na\nk\ni\nn\nu\ni\n,"
+  specimen_36: "A\ns\nh\ni\n \na\ne\nn\nt\ns\n \na\ni\nd\na\nu\nk\n \na\ng\nk\na\nn\n \na\nk\ni\nn\nu\ni\n,\n \nb\ne\nt\ne\nk\n \ne\nm\ne\n \na\nn\ne\nn\nt\ns\na\n \na"
+  specimen_32: "A\ns\nh\ni\n \na\ne\nn\nt\ns\n \na\ni\nd\na\nu\nk\n \na\ng\nk\na\nn\n \na\nk\ni\nn\nu\ni\n,\n \nb\ne\nt\ne\nk\n \ne\nm\ne\n \na\nn\ne\nn\nt\ns\na\n \na\ne\nn\nt\ns\nm\na\ns\na\n \nd\ni\ny\na\nm\n \na\nt\na\nn\nm"
+  specimen_21: "A\ns\nh\ni\n \na\ne\nn\nt\ns\n \na\ni\nd\na\nu\nk\n \na\ng\nk\na\nn\n \na\nk\ni\nn\nu\ni\n,\n \nb\ne\nt\ne\nk\n \ne\nm\ne\n \na\nn\ne\nn\nt\ns\na\n \na\ne\nn\nt\ns\nm\na\ns\na\n \nd\ni\ny\na\nm\n \na\nt\na\nn\nm\na\ns\nh\n,\n \nt\nu\nj\na\n \na\ne\nn\nt\ns\n \na\nn\ne\nn\nt\na\ni\nb\na\nu\n,\n \na\ne\nn\nt\ns\n \nd\nu\nt\ni\nk\na\nt\na\ns\na\n \nw\na\nk\ne\nj\n \na\nm\nu\n \ny\nu\np\ni\nc\nh\nu\n \nd\nu\nt\ni\nm\na\ni\nn\nn\nu\nm\n,\n \nt\nu\nj\na\n \nn"
+  specimen_16: "A\ns\nh\ni\n \na\ne\nn\nt\ns\n \na\ni\nd\na\nu\nk\n \na\ng\nk\na\nn\n \na\nk\ni\nn\nu\ni\n,\n \nb\ne\nt\ne\nk\n \ne\nm\ne\n \na\nn\ne\nn\nt\ns\na\n \na\ne\nn\nt\ns\nm\na\ns\na\n \nd\ni\ny\na\nm\n \na\nt\na\nn\nm\na\ns\nh\n,\n \nt\nu\nj\na\n \na\ne\nn\nt\ns\n \na\nn\ne\nn\nt\na\ni\nb\na\nu\n,\n \na\ne\nn\nt\ns\n \nd\nu\nt\ni\nk\na\nt\na\ns\na\n \nw\na\nk\ne\nj\n \na\nm\nu\n \ny\nu\np\ni\nc\nh\nu\n \nd\nu\nt\ni\nm\na\ni\nn\nn\nu\nm\n,\n \nt\nu\nj\na\n \nn\ni\n \nw\na\nk\ne\nj\na\nm\nu\nn\n \nt\na\nk\na\nk\nu\ns\nh\n \nt\ni\nk\ni\ns\nh\n \nb\na\nk\nu\ns\nh\nm\ni\nn\nn\nu\nm\n,\n \nn\nu\nn\ni\na\nk\n \nt\ni\nk\ni\ns\nh\n \na\ni\nd\na\nu\nj\na\ni\ns\nh\n \ns\nh\ni\ni\ng\n \ny\na\nt\ns\nu\nt\na\n \na\nn\nm\na\nm\nu\nt\n \na\nt\ni\n \nt\nu\ns\na\n.\nA\ns\nh\ni\n \na\ne\nn\nt\ns\n \na\ni\nd\na\nu\nk\n \na\ng\nk\na\nn\n \na\nk\ni\nn"
+}

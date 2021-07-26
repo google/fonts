@@ -3,4 +3,18 @@ language: "so"
 script: "Osma"
 name: "Somali, Osmanya"
 population: 0
+sample_text {
+  masthead_full: "𐒛𐒆𐒖𐒒"
+  masthead_partial: "𐒔𐒊"
+  styles: "𐒛\n𐒆\n𐒖\n𐒒\n𐒖\n𐒔\n𐒖\n \n𐒊\n𐒖\n𐒑\n𐒑\n𐒛\n𐒒\n𐒂\n𐒕\n𐒈\n \n𐒓\n𐒚\n𐒄"
+  tester: "𐒛\n𐒆\n𐒖\n𐒒\n𐒖\n𐒔\n𐒖\n \n𐒊\n𐒖\n𐒑\n𐒑\n𐒛\n𐒒\n𐒂\n𐒕\n𐒈\n \n𐒓\n𐒚\n𐒄\n𐒓\n \n𐒊\n𐒖\n𐒉\n𐒛\n \n𐒘\n𐒈\n𐒖"
+  poster_sm: "𐒛\n𐒆\n𐒖\n𐒒\n𐒖\n𐒔"
+  poster_md: "𐒛\n𐒆\n𐒖\n𐒒\n𐒖"
+  poster_lg: "𐒛\n𐒆"
+  specimen_48: "𐒛\n𐒆\n𐒖\n𐒒\n𐒖\n𐒔\n𐒖\n \n𐒊\n𐒖\n𐒑\n𐒑\n𐒛\n𐒒\n𐒂\n𐒕\n𐒈\n \n𐒓\n𐒚\n𐒄\n𐒓\n \n𐒊\n𐒖\n𐒉\n𐒛\n \n𐒘\n𐒈\n𐒖"
+  specimen_36: "𐒛\n𐒆\n𐒖\n𐒒\n𐒖\n𐒔\n𐒖\n \n𐒊\n𐒖\n𐒑\n𐒑\n𐒛\n𐒒\n𐒂\n𐒕\n𐒈\n \n𐒓\n𐒚\n𐒄\n𐒓\n \n𐒊\n𐒖\n𐒉\n𐒛\n \n𐒘\n𐒈\n𐒖\n𐒌\n𐒝\n \n𐒄\n𐒙\n𐒇\n \n𐒖\n𐒔\n \n𐒏\n𐒖\n𐒒\n𐒖\n \n𐒈\n𐒘\n𐒑\n𐒖\n𐒒"
+  specimen_32: "𐒛\n𐒆\n𐒖\n𐒒\n𐒖\n𐒔\n𐒖\n \n𐒊\n𐒖\n𐒑\n𐒑\n𐒛\n𐒒\n𐒂\n𐒕\n𐒈\n \n𐒓\n𐒚\n𐒄\n𐒓\n \n𐒊\n𐒖\n𐒉\n𐒛\n \n𐒘\n𐒈\n𐒖\n𐒌\n𐒝\n \n𐒄\n𐒙\n𐒇\n \n𐒖\n𐒔\n \n𐒏\n𐒖\n𐒒\n𐒖\n \n𐒈\n𐒘\n𐒑\n𐒖\n𐒒\n \n𐒄\n𐒖\n𐒌\n𐒌\n𐒖\n \n𐒉\n𐒖\n𐒇\n𐒖\n𐒍\n𐒂\n𐒖\n \n𐒘\n𐒕\n𐒙\n \n𐒄"
+  specimen_21: "𐒛\n𐒆\n𐒖\n𐒒\n𐒖\n𐒔\n𐒖\n \n𐒊\n𐒖\n𐒑\n𐒑\n𐒛\n𐒒\n𐒂\n𐒕\n𐒈\n \n𐒓\n𐒚\n𐒄\n𐒓\n \n𐒊\n𐒖\n𐒉\n𐒛\n \n𐒘\n𐒈\n𐒖\n𐒌\n𐒝\n \n𐒄\n𐒙\n𐒇\n \n𐒖\n𐒔\n \n𐒏\n𐒖\n𐒒\n𐒖\n \n𐒈\n𐒘\n𐒑\n𐒖\n𐒒\n \n𐒄\n𐒖\n𐒌\n𐒌\n𐒖\n \n𐒉\n𐒖\n𐒇\n𐒖\n𐒍\n𐒂\n𐒖\n \n𐒘\n𐒕\n𐒙\n \n𐒄\n𐒚\n𐒎\n𐒓\n𐒎\n𐒖\n𐒆\n𐒖\n \n𐒓\n𐒖\n𐒄\n𐒛\n \n𐒖\n𐒐\n𐒐\n𐒗\n \n(\n𐒘\n𐒐\n𐒛\n𐒔\n)\n \n𐒈\n𐒕\n𐒕\n𐒖\n𐒕\n \n𐒖\n𐒎\n𐒝\n𐒒\n \n𐒘\n𐒕\n𐒙\n \n𐒓\n𐒖\n𐒋\n𐒕\n𐒘\n,\n \n𐒓\n𐒛\n𐒒\n𐒖\n \n𐒘\n𐒒\n \n𐒎\n𐒙\n𐒍\n \n𐒐\n𐒖\n \n𐒖\n𐒇\n𐒏\n𐒛\n \n𐒎\n𐒙\n𐒍\n𐒏\n𐒖\n \n𐒏\n𐒖\n𐒐\n𐒗\n \n𐒚\n𐒐\n𐒖"
+  specimen_16: "𐒛\n𐒆\n𐒖\n𐒒\n𐒖\n𐒔\n𐒖\n \n𐒊\n𐒖\n𐒑\n𐒑\n𐒛\n𐒒\n𐒂\n𐒕\n𐒈\n \n𐒓\n𐒚\n𐒄\n𐒓\n \n𐒊\n𐒖\n𐒉\n𐒛\n \n𐒘\n𐒈\n𐒖\n𐒌\n𐒝\n \n𐒄\n𐒙\n𐒇\n \n𐒖\n𐒔\n \n𐒏\n𐒖\n𐒒\n𐒖\n \n𐒈\n𐒘\n𐒑\n𐒖\n𐒒\n \n𐒄\n𐒖\n𐒌\n𐒌\n𐒖\n \n𐒉\n𐒖\n𐒇\n𐒖\n𐒍\n𐒂\n𐒖\n \n𐒘\n𐒕\n𐒙\n \n𐒄\n𐒚\n𐒎\n𐒓\n𐒎\n𐒖\n𐒆\n𐒖\n \n𐒓\n𐒖\n𐒄\n𐒛\n \n𐒖\n𐒐\n𐒐\n𐒗\n \n(\n𐒘\n𐒐\n𐒛\n𐒔\n)\n \n𐒈\n𐒕\n𐒕\n𐒖\n𐒕\n \n𐒖\n𐒎\n𐒝\n𐒒\n \n𐒘\n𐒕\n𐒙\n \n𐒓\n𐒖\n𐒋\n𐒕\n𐒘\n,\n \n𐒓\n𐒛\n𐒒\n𐒖\n \n𐒘\n𐒒\n \n𐒎\n𐒙\n𐒍\n \n𐒐\n𐒖\n \n𐒖\n𐒇\n𐒏\n𐒛\n \n𐒎\n𐒙\n𐒍\n𐒏\n𐒖\n \n𐒏\n𐒖\n𐒐\n𐒗\n \n𐒚\n𐒐\n𐒖\n \n𐒊\n𐒖\n𐒎\n𐒑\n𐒛\n \n𐒈\n𐒘\n \n𐒓\n𐒖\n𐒐\n𐒛\n𐒐\n𐒂\n𐒘\n𐒒\n𐒘\n𐒑\n𐒙\n \n𐒖\n𐒔\n.\n𐒛\n𐒆\n𐒖\n𐒒\n𐒖\n𐒔\n𐒖\n \n𐒊\n𐒖\n𐒑\n𐒑\n𐒛\n𐒒\n𐒂\n𐒕\n𐒈\n \n𐒓\n𐒚\n𐒄\n𐒓\n \n𐒊\n𐒖\n𐒉\n𐒛\n \n𐒘\n𐒈\n𐒖\n𐒌\n𐒝\n \n𐒄\n𐒙\n𐒇\n \n𐒖\n𐒔\n \n𐒏\n𐒖\n𐒒\n𐒖\n \n𐒈\n𐒘\n𐒑\n𐒖\n𐒒\n \n𐒄\n𐒖\n𐒌\n𐒌\n𐒖\n \n𐒉\n𐒖\n𐒇\n𐒖\n𐒍\n𐒂\n𐒖\n \n𐒘\n𐒕\n𐒙\n \n𐒄\n𐒚\n𐒎\n𐒓\n𐒎\n𐒖\n𐒆\n𐒖\n \n𐒓\n𐒖\n𐒄\n𐒛\n \n𐒖\n𐒐\n𐒐\n𐒗\n \n(\n𐒘\n𐒐\n𐒛\n𐒔\n)\n \n𐒈\n𐒕\n𐒕\n𐒖\n𐒕\n "
+}
 historical: true

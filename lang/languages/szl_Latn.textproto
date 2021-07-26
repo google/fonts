@@ -9,3 +9,17 @@ exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Ń Ř Ś Š Ů Ź Ż Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž"
   marks: "◌́ ◌̇ ◌̊ ◌̌"
 }
+sample_text {
+  masthead_full: "WwŠš"
+  masthead_partial: "Yy"
+  styles: "W\nš\ny\nj\ns\nk\ne\n \nl\nu\nd\nź\ne\n \nr\no\nd\nz\nů\nm\n "
+  tester: "W\nš\ny\nj\ns\nk\ne\n \nl\nu\nd\nź\ne\n \nr\no\nd\nz\nů\nm\n \nś\ne\n \ns\nw\no\nb\no\nd\nn"
+  poster_sm: "W\nš\ny\nj\ns\nk"
+  poster_md: "W\nš\ny\nj\ns"
+  poster_lg: "W\nš"
+  specimen_48: "W\nš\ny\nj\ns\nk\ne\n \nl\nu\nd\nź\ne\n \nr\no\nd\nz\nů\nm\n \nś\ne\n \ns\nw\no\nb\no\nd\nn"
+  specimen_36: "W\nš\ny\nj\ns\nk\ne\n \nl\nu\nd\nź\ne\n \nr\no\nd\nz\nů\nm\n \nś\ne\n \ns\nw\no\nb\no\nd\nn\ne\n \na\n \nr\nů\nw\nn\ne\n \nw\ne\n \ns\nw\no\nj\ni\nm\n "
+  specimen_32: "W\nš\ny\nj\ns\nk\ne\n \nl\nu\nd\nź\ne\n \nr\no\nd\nz\nů\nm\n \nś\ne\n \ns\nw\no\nb\no\nd\nn\ne\n \na\n \nr\nů\nw\nn\ne\n \nw\ne\n \ns\nw\no\nj\ni\nm\n \nw\ne\nr\nć\ne\n \na\n \np\nr\na\nw\na\nc\nh\n.\n \nS\nů\nm"
+  specimen_21: "W\nš\ny\nj\ns\nk\ne\n \nl\nu\nd\nź\ne\n \nr\no\nd\nz\nů\nm\n \nś\ne\n \ns\nw\no\nb\no\nd\nn\ne\n \na\n \nr\nů\nw\nn\ne\n \nw\ne\n \ns\nw\no\nj\ni\nm\n \nw\ne\nr\nć\ne\n \na\n \np\nr\na\nw\na\nc\nh\n.\n \nS\nů\nm\n \nu\nů\nn\ne\n \nu\no\nb\nd\na\nř\nů\nn\ne\n \nf\ni\nl\ni\np\ny\nm\n \na\n \ns\nů\nm\nń\ny\nń\ny\nm\n \na\n \nm\na\nj\nů\nm\n \np\no\nw\ni\nn\nn\no\nś\nć\n \nw\nz\ng\nl\ny\nn\nd\ny\nm\n \ni\nn\nk\nš\ny\nc\nh\n \nj\na\nk\n \nb\nr\na\nt\n "
+  specimen_16: "W\nš\ny\nj\ns\nk\ne\n \nl\nu\nd\nź\ne\n \nr\no\nd\nz\nů\nm\n \nś\ne\n \ns\nw\no\nb\no\nd\nn\ne\n \na\n \nr\nů\nw\nn\ne\n \nw\ne\n \ns\nw\no\nj\ni\nm\n \nw\ne\nr\nć\ne\n \na\n \np\nr\na\nw\na\nc\nh\n.\n \nS\nů\nm\n \nu\nů\nn\ne\n \nu\no\nb\nd\na\nř\nů\nn\ne\n \nf\ni\nl\ni\np\ny\nm\n \na\n \ns\nů\nm\nń\ny\nń\ny\nm\n \na\n \nm\na\nj\nů\nm\n \np\no\nw\ni\nn\nn\no\nś\nć\n \nw\nz\ng\nl\ny\nn\nd\ny\nm\n \ni\nn\nk\nš\ny\nc\nh\n \nj\na\nk\n \nb\nr\na\nt\n \ns\n \nb\nr\na\nt\ny\nm\n \np\no\ns\nt\ny\nm\np\no\nw\na\nć\n.\nW\nš\ny\nj\ns\nk\ne\n \nl\nu\nd\nź\ne\n \nr\no\nd\nz\nů\nm\n \nś\ne\n \ns\nw\no\nb\no\nd\nn\ne\n \na\n \nr\nů\nw\nn\ne\n \nw\ne\n \ns\nw\no\nj\ni\nm\n \nw\ne\nr\nć\ne\n \na\n \np\nr\na\nw\na\nc\nh\n.\n \nS\nů\nm\n \nu\nů\nn\ne\n \nu\no\nb\nd\na\nř\nů\nn\ne\n \nf\ni\nl\ni\np\ny\nm\n \na\n \ns\nů\nm\nń\ny\nń\ny\nm"
+}

@@ -1,0 +1,18 @@
+id: "lot_Latn"
+language: "lot"
+script: "Latn"
+name: "Otuho"
+sample_text {
+  masthead_full: "LlSs"
+  masthead_partial: "Ii"
+  styles: "l\ns\ni\nu\nn\ni\n \na\na\nt\ni\n \nd\na\nn\ng\n \ni\nk\no\n "
+  tester: "l\ns\ni\nu\nn\ni\n \na\na\nt\ni\n \nd\na\nn\ng\n \ni\nk\no\n \na\nh\no\nd\nc\n \nh\na\nd\ne"
+  poster_sm: "l\ns\ni\nu\nn\ni"
+  poster_md: "l\ns\ni\nu\nn"
+  poster_lg: "l\ns"
+  specimen_48: "l\ns\ni\nu\nn\ni\n \na\na\nt\ni\n \nd\na\nn\ng\n \ni\nk\no\n \na\nh\no\nd\nc\n \nh\na\nd\ne"
+  specimen_36: "l\ns\ni\nu\nn\ni\n \na\na\nt\ni\n \nd\na\nn\ng\n \ni\nk\no\n \na\nh\no\nd\nc\n \nh\na\nd\ne\n \ni\nh\na\nn\ni\ne\nr\ne\n \ne\nr\nr\ne\n \nb\no\no\n \nv"
+  specimen_32: "l\ns\ni\nu\nn\ni\n \na\na\nt\ni\n \nd\na\nn\ng\n \ni\nk\no\n \na\nh\no\nd\nc\n \nh\na\nd\ne\n \ni\nh\na\nn\ni\ne\nr\ne\n \ne\nr\nr\ne\n \nb\no\no\n \nv\ne\n \ni\ns\ni\n \no\nr\nr\ni\nj\no\nr\ni\n \nd\na\nn\ng\n "
+  specimen_21: "l\ns\ni\nu\nn\ni\n \na\na\nt\ni\n \nd\na\nn\ng\n \ni\nk\no\n \na\nh\no\nd\nc\n \nh\na\nd\ne\n \ni\nh\na\nn\ni\ne\nr\ne\n \ne\nr\nr\ne\n \nb\no\no\n \nv\ne\n \ni\ns\ni\n \no\nr\nr\ni\nj\no\nr\ni\n \nd\na\nn\ng\n \nt\no\n\n\nn\ne\nl\no\nt\nu\nl\no\n.\n \nO\nw\no\nn\ni\n \ni\ns\ni\n \ni\nk\no\n \nn\ne\ng\ni\ng\ni\nl\ni\nt\na\n \nb\nw\no\n \nv\ne\n \ni\nk\no\n \na\nt\na\nj\na\n.\n \nO\nn\ng\ni\nd\na\n \ni\ns\ni\n \ni\nh\na\nn\ni\ne\n\n\na\nw\na\nt\ne\nk\n "
+  specimen_16: "l\ns\ni\nu\nn\ni\n \na\na\nt\ni\n \nd\na\nn\ng\n \ni\nk\no\n \na\nh\no\nd\nc\n \nh\na\nd\ne\n \ni\nh\na\nn\ni\ne\nr\ne\n \ne\nr\nr\ne\n \nb\no\no\n \nv\ne\n \ni\ns\ni\n \no\nr\nr\ni\nj\no\nr\ni\n \nd\na\nn\ng\n \nt\no\n\n\nn\ne\nl\no\nt\nu\nl\no\n.\n \nO\nw\no\nn\ni\n \ni\ns\ni\n \ni\nk\no\n \nn\ne\ng\ni\ng\ni\nl\ni\nt\na\n \nb\nw\no\n \nv\ne\n \ni\nk\no\n \na\nt\na\nj\na\n.\n \nO\nn\ng\ni\nd\na\n \ni\ns\ni\n \ni\nh\na\nn\ni\ne\n\n\na\nw\na\nt\ne\nk\n \nh\no\ns\ni\n \ni\nh\nw\no\n \ne\nl\na\nr\na\nk\n.\nl\ns\ni\nu\nn\ni\n \na\na\nt\ni\n \nd\na\nn\ng\n \ni\nk\no\n \na\nh\no\nd\nc\n \nh\na\nd\ne\n \ni\nh\na\nn\ni\ne\nr\ne\n \ne\nr\nr\ne\n \nb\no\no\n \nv\ne\n \ni\ns\ni\n \no\nr\nr\ni\nj\no\nr\ni\n \nd\na\nn\ng\n \nt\no\n\n\nn\ne\nl\no\nt\nu\nl\no\n.\n \nO\nw\no\nn\ni\n \ni\ns\ni\n \ni\nk\no\n \nn\ne\ng\ni\ng\ni\nl\ni\nt\na\n "
+}

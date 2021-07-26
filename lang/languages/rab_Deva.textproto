@@ -1,0 +1,18 @@
+id: "rab_Deva"
+language: "rab"
+script: "Deva"
+name: "Camling, Devanagari"
+sample_text {
+  masthead_full: "झरमन"
+  masthead_partial: "चप"
+  styles: "झ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे"
+  tester: "झ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे\nम\nा\n \nअ\nध\nि\nक\nा\nर\nम\nो\n "
+  poster_sm: "झ\nा\nर\nा\n \nम\nि"
+  poster_md: "झ\nा\nर\nा\n \nम"
+  poster_lg: "झ\nा\nर"
+  specimen_48: "झ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे\nम\nा\n \nअ\nध\nि\nक\nा\nर\nम\nो\n "
+  specimen_36: "झ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे\nम\nा\n \nअ\nध\nि\nक\nा\nर\nम\nो\n \nआ\nध\nा\nर\nद\nा\n \nम\nा\nम\nा\nख\nो\nर\nी\nन\nा\nक\nा\n \nम\nि\nट\nा\nय"
+  specimen_32: "झ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे\nम\nा\n \nअ\nध\nि\nक\nा\nर\nम\nो\n \nआ\nध\nा\nर\nद\nा\n \nम\nा\nम\nा\nख\nो\nर\nी\nन\nा\nक\nा\n \nम\nि\nट\nा\nय\nे\nप\nा\nङ\nो\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nह\nे\nम\nा\n \nस\nम\nा\nन"
+  specimen_21: "झ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे\nम\nा\n \nअ\nध\nि\nक\nा\nर\nम\nो\n \nआ\nध\nा\nर\nद\nा\n \nम\nा\nम\nा\nख\nो\nर\nी\nन\nा\nक\nा\n \nम\nि\nट\nा\nय\nे\nप\nा\nङ\nो\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nह\nे\nम\nा\n \nस\nम\nा\nन\n \nम\nि\nत\nि\nर\nे\n।\n \nख\nु\nच\nी\nम\nो\n \nत\nय\nा\nँ\n \nत\nि\nर\nे\nन\nो\nम\n \nझ\nा\nर\nा\nप\nि\nद\nा\n \nख\nु\nन\n्\nय\nो\nक\nो\n \nख\nा\nर\nु\n \nम\nु\nय\nो\n।\nझ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे\nम\nा\n \nअ\nध\nि\nक\nा\nर\nम\nो\n \nआ\nध\nा\nर\nद"
+  specimen_16: "झ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे\nम\nा\n \nअ\nध\nि\nक\nा\nर\nम\nो\n \nआ\nध\nा\nर\nद\nा\n \nम\nा\nम\nा\nख\nो\nर\nी\nन\nा\nक\nा\n \nम\nि\nट\nा\nय\nे\nप\nा\nङ\nो\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nह\nे\nम\nा\n \nस\nम\nा\nन\n \nम\nि\nत\nि\nर\nे\n।\n \nख\nु\nच\nी\nम\nो\n \nत\nय\nा\nँ\n \nत\nि\nर\nे\nन\nो\nम\n \nझ\nा\nर\nा\nप\nि\nद\nा\n \nख\nु\nन\n्\nय\nो\nक\nो\n \nख\nा\nर\nु\n \nम\nु\nय\nो\n।\nझ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे\nम\nा\n \nअ\nध\nि\nक\nा\nर\nम\nो\n \nआ\nध\nा\nर\nद\nा\n \nम\nा\nम\nा\nख\nो\nर\nी\nन\nा\nक\nा\n \nम\nि\nट\nा\nय\nे\nप\nा\nङ\nो\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nह\nे\nम\nा\n \nस\nम\nा\nन\n \nम\nि\nत\nि\nर\nे\n।\n \nख\nु\nच\nी\nम\nो\n \nत\nय\nा\nँ\n \nत\nि\nर\nे\nन\nो\nम\n \nझ\nा\nर\nा\nप\nि\nद\nा\n \nख\nु\nन\n्\nय\nो\nक\nो\n \nख\nा\nर\nु\n \nम\nु\nय\nो\n।\nझ\nा\nर\nा\n \nम\nि\nन\nा\nच\nी\nम\nो\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nह\nे\nम\nा\n \nअ\nध\nि\nक\nा\nर\nम\nो\n \nआ\nध\nा\nर\nद\nा\n \nम\nा\nम\nा\nख\nो\nर\nी\nन\nा\nक"
+}

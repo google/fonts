@@ -1,0 +1,18 @@
+id: "ame_Latn"
+language: "ame"
+script: "Latn"
+name: "Yaneshaʼ"
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Oo"
+  styles: "A\nl\nl\no\nh\nu\ne\nn\ne\ny\n \nñ\ne\nñ\nt\ne\ny\n \na\nr\nr"
+  tester: "A\nl\nl\no\nh\nu\ne\nn\ne\ny\n \nñ\ne\nñ\nt\ne\ny\n \na\nr\nr\no\nm\nñ\na\nt\ne\ny\n \na\nt"
+  poster_sm: "A\nl\nl\no\nh\nu"
+  poster_md: "A\nl\nl\no\nh"
+  poster_lg: "A\nl"
+  specimen_48: "A\nl\nl\no\nh\nu\ne\nn\ne\ny\n \nñ\ne\nñ\nt\ne\ny\n \na\nr\nr\no\nm\nñ\na\nt\ne\ny\n \na\nt"
+  specimen_36: "A\nl\nl\no\nh\nu\ne\nn\ne\ny\n \nñ\ne\nñ\nt\ne\ny\n \na\nr\nr\no\nm\nñ\na\nt\ne\ny\n \na\nt\nt\ñ\no\n \ny\ne\n\'\nñ\na\nl\nl\ne\nt\ny\ne\ns\na\n \na\nr\nr"
+  specimen_32: "A\nl\nl\no\nh\nu\ne\nn\ne\ny\n \nñ\ne\nñ\nt\ne\ny\n \na\nr\nr\no\nm\nñ\na\nt\ne\ny\n \na\nt\nt\ñ\no\n \ny\ne\n\'\nñ\na\nl\nl\ne\nt\ny\ne\ns\na\n \na\nr\nr\n \np\na\nt\ns\nr\no\n \ne\n\'\nñ\ne\n \na\nt\nt\ñ\ne\nc\nm\na"
+  specimen_21: "A\nl\nl\no\nh\nu\ne\nn\ne\ny\n \nñ\ne\nñ\nt\ne\ny\n \na\nr\nr\no\nm\nñ\na\nt\ne\ny\n \na\nt\nt\ñ\no\n \ny\ne\n\'\nñ\na\nl\nl\ne\nt\ny\ne\ns\na\n \na\nr\nr\n \np\na\nt\ns\nr\no\n \ne\n\'\nñ\ne\n \na\nt\nt\ñ\ne\nc\nm\na\n \nc\no\nh\nu\ne\nn\n \ny\ne\ns\nh\ne\nr\nb\ñ\na\n\'\ny\ne\nn\n.\n \nÑ\na\nm\ñ\na\n \ny\ne\nc\nh\ny\ne\nn\n \na\nl\nl\np\no\nn\n \nd\ne\nr\ne\nc\nh\no\ns\n \na\nt\nt\ñ\no\nc\nh\n \ne\n\'\nñ\ne\nc\nh\n \nc\no\nh\nu\ne\nn\no\n\'\nt\ns\na\n\'\ny\ne\nn\ne"
+  specimen_16: "A\nl\nl\no\nh\nu\ne\nn\ne\ny\n \nñ\ne\nñ\nt\ne\ny\n \na\nr\nr\no\nm\nñ\na\nt\ne\ny\n \na\nt\nt\ñ\no\n \ny\ne\n\'\nñ\na\nl\nl\ne\nt\ny\ne\ns\na\n \na\nr\nr\n \np\na\nt\ns\nr\no\n \ne\n\'\nñ\ne\n \na\nt\nt\ñ\ne\nc\nm\na\n \nc\no\nh\nu\ne\nn\n \ny\ne\ns\nh\ne\nr\nb\ñ\na\n\'\ny\ne\nn\n.\n \nÑ\na\nm\ñ\na\n \ny\ne\nc\nh\ny\ne\nn\n \na\nl\nl\np\no\nn\n \nd\ne\nr\ne\nc\nh\no\ns\n \na\nt\nt\ñ\no\nc\nh\n \ne\n\'\nñ\ne\nc\nh\n \nc\no\nh\nu\ne\nn\no\n\'\nt\ns\na\n\'\ny\ne\nn\ne\ny\n \na\nr\nr\n \np\na\nt\ns\nr\no\n.\n \nÑ\na\nm\ñ\na\n \na\nl\nl\no\nh\nu\ne\nn\n \na\nt\nt\ñ\ne\nc\nm\na\n \ny\ne\nc\nh\ny\ne\nn\n \na\nl\nl\no\nc\nh\n \ny\no\nc\nt\ñ\na\np\ne\n\'\n \nc\nh\ny\ne\nn\n \nc\no\nh\nu\ne\nn\n \nñ\na\nm\ñ\na\n \ny\ne\nñ\no\nt\ny\ne\nn\n \ny\ne\ny\no\nc\n̈\nh\nr\no\n \nñ\ne\nñ\nt\n \ñ\ne\n\'\nn\ne\n \np\no\nc\nt\ne\n\'\n \ne\nn\nt\ne\nn\n \na\nc\nh\ne\nñ"
+}

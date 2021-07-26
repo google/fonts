@@ -1,0 +1,18 @@
+id: "lld_Latn"
+language: "lld"
+script: "Latn"
+name: "Ladin"
+sample_text {
+  masthead_full: "DdÖö"
+  masthead_partial: "Tt"
+  styles: "D\nö\nt\ne\ns\n \nl\ne\ns\n \np\no\nr\ns\no\nn\ne\ns\n \nn\na"
+  tester: "D\nö\nt\ne\ns\n \nl\ne\ns\n \np\no\nr\ns\no\nn\ne\ns\n \nn\na\ns\nc\n \nl\në\nd\ni\ne\ns\n "
+  poster_sm: "D\nö\nt\ne\ns\n "
+  poster_md: "D\nö\nt\ne\ns"
+  poster_lg: "D\nö"
+  specimen_48: "D\nö\nt\ne\ns\n \nl\ne\ns\n \np\no\nr\ns\no\nn\ne\ns\n \nn\na\ns\nc\n \nl\në\nd\ni\ne\ns\n "
+  specimen_36: "D\nö\nt\ne\ns\n \nl\ne\ns\n \np\no\nr\ns\no\nn\ne\ns\n \nn\na\ns\nc\n \nl\në\nd\ni\ne\ns\n \ny\n \nc\nu\nn\n \nl\na\n \nm\ne\nd\ne\nm\na\n \nd\ni\ng\nn"
+  specimen_32: "D\nö\nt\ne\ns\n \nl\ne\ns\n \np\no\nr\ns\no\nn\ne\ns\n \nn\na\ns\nc\n \nl\në\nd\ni\ne\ns\n \ny\n \nc\nu\nn\n \nl\na\n \nm\ne\nd\ne\nm\na\n \nd\ni\ng\nn\ni\nt\né\n \ny\n \ni\n \nm\ne\nd\ne\nm\ni\n \nd\në\nr\nć\n."
+  specimen_21: "D\nö\nt\ne\ns\n \nl\ne\ns\n \np\no\nr\ns\no\nn\ne\ns\n \nn\na\ns\nc\n \nl\në\nd\ni\ne\ns\n \ny\n \nc\nu\nn\n \nl\na\n \nm\ne\nd\ne\nm\na\n \nd\ni\ng\nn\ni\nt\né\n \ny\n \ni\n \nm\ne\nd\ne\nm\ni\n \nd\në\nr\nć\n.\n \nA\nr\ne\ns\n \nà\n \nn\na\n \nr\na\nj\nu\nn\n \ny\n \nn\na\n \nc\no\ns\nc\ni\në\nn\nz\na\n \ny\n \nm\në\ns\ns\n \ns\n’\ni\nn\nc\nu\nn\nt\nè\n \nö\nn\na\n \nc\nu\nn\n \nl\n’\na\nt\nr\na\n \nt\ne\n \nn\n \ns\np\ni\nr\ni\nt\n \nd\ne\n \nf\nr"
+  specimen_16: "D\nö\nt\ne\ns\n \nl\ne\ns\n \np\no\nr\ns\no\nn\ne\ns\n \nn\na\ns\nc\n \nl\në\nd\ni\ne\ns\n \ny\n \nc\nu\nn\n \nl\na\n \nm\ne\nd\ne\nm\na\n \nd\ni\ng\nn\ni\nt\né\n \ny\n \ni\n \nm\ne\nd\ne\nm\ni\n \nd\në\nr\nć\n.\n \nA\nr\ne\ns\n \nà\n \nn\na\n \nr\na\nj\nu\nn\n \ny\n \nn\na\n \nc\no\ns\nc\ni\në\nn\nz\na\n \ny\n \nm\në\ns\ns\n \ns\n’\ni\nn\nc\nu\nn\nt\nè\n \nö\nn\na\n \nc\nu\nn\n \nl\n’\na\nt\nr\na\n \nt\ne\n \nn\n \ns\np\ni\nr\ni\nt\n \nd\ne\n \nf\nr\na\nt\ne\nr\nn\ni\nt\né\n.\nD\nö\nt\ne\ns\n \nl\ne\ns\n \np\no\nr\ns\no\nn\ne\ns\n \nn\na\ns\nc\n \nl\në\nd\ni\ne\ns\n \ny\n \nc\nu\nn\n \nl\na\n \nm\ne\nd\ne\nm\na\n \nd\ni\ng\nn\ni\nt\né\n \ny\n \ni\n \nm\ne\nd\ne\nm\ni\n \nd\në\nr\nć\n.\n \nA\nr\ne\ns\n \nà\n \nn\na\n \nr\na\nj\nu\nn\n \ny\n \nn\na\n \nc\no\ns\nc\ni\në\nn\nz\na\n \ny\n \nm\në\ns\ns\n \ns\n’\ni\nn\nc\nu\nn\nt"
+}

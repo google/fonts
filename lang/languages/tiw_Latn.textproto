@@ -1,0 +1,18 @@
+id: "tiw_Latn"
+language: "tiw"
+script: "Latn"
+name: "Tiwi, Latin"
+sample_text {
+  masthead_full: "TtAa"
+  masthead_partial: "Yy"
+  styles: "T\na\ny\ni\nk\nu\nw\na\np\ni\nm\nu\nl\nu\nn\ng\nu\nr\nr\nu\nm"
+  tester: "T\na\ny\ni\nk\nu\nw\na\np\ni\nm\nu\nl\nu\nn\ng\nu\nr\nr\nu\nm\ni\n \nw\nu\nt\na\ni\nl\na\np"
+  poster_sm: "T\na\ny\ni\nk\nu"
+  poster_md: "T\na\ny\ni\nk"
+  poster_lg: "T\na"
+  specimen_48: "T\na\ny\ni\nk\nu\nw\na\np\ni\nm\nu\nl\nu\nn\ng\nu\nr\nr\nu\nm\ni\n \nw\nu\nt\na\ni\nl\na\np"
+  specimen_36: "T\na\ny\ni\nk\nu\nw\na\np\ni\nm\nu\nl\nu\nn\ng\nu\nr\nr\nu\nm\ni\n \nw\nu\nt\na\ni\nl\na\np\nw\na\nr\nr\ni\ng\ni\n-\nj\ni\nk\ni\n \na\nr\nn\nu\nk\na\n "
+  specimen_32: "T\na\ny\ni\nk\nu\nw\na\np\ni\nm\nu\nl\nu\nn\ng\nu\nr\nr\nu\nm\ni\n \nw\nu\nt\na\ni\nl\na\np\nw\na\nr\nr\ni\ng\ni\n-\nj\ni\nk\ni\n \na\nr\nn\nu\nk\na\n \nk\ni\ny\ni\n \nw\nu\nt\na\na\nk\ni\ny\na\nm\na\nm\na\n \nk"
+  specimen_21: "T\na\ny\ni\nk\nu\nw\na\np\ni\nm\nu\nl\nu\nn\ng\nu\nr\nr\nu\nm\ni\n \nw\nu\nt\na\ni\nl\na\np\nw\na\nr\nr\ni\ng\ni\n-\nj\ni\nk\ni\n \na\nr\nn\nu\nk\na\n \nk\ni\ny\ni\n \nw\nu\nt\na\na\nk\ni\ny\na\nm\na\nm\na\n \nk\nw\ni\ny\ni\n \nt\ni\nw\ni\n-\nm\na\n \nk\ni\ny\ni\n \nr\na\ny\ni\nt\n.\n \nW\nu\nt\na\n-\nw\nu\nr\nl\ni\nm\ni\n \np\nu\nn\ng\ni\nn\nt\na\ng\na\n \nk\ni\ny\ni\n \np\nu\nn\ny\ni\np\nu\nn\ny\ni\n \nk\ni\ny\ni\n \nw\ni\ny\ni\n \nt\nu\nw\ni\nm\n-\na"
+  specimen_16: "T\na\ny\ni\nk\nu\nw\na\np\ni\nm\nu\nl\nu\nn\ng\nu\nr\nr\nu\nm\ni\n \nw\nu\nt\na\ni\nl\na\np\nw\na\nr\nr\ni\ng\ni\n-\nj\ni\nk\ni\n \na\nr\nn\nu\nk\na\n \nk\ni\ny\ni\n \nw\nu\nt\na\na\nk\ni\ny\na\nm\na\nm\na\n \nk\nw\ni\ny\ni\n \nt\ni\nw\ni\n-\nm\na\n \nk\ni\ny\ni\n \nr\na\ny\ni\nt\n.\n \nW\nu\nt\na\n-\nw\nu\nr\nl\ni\nm\ni\n \np\nu\nn\ng\ni\nn\nt\na\ng\na\n \nk\ni\ny\ni\n \np\nu\nn\ny\ni\np\nu\nn\ny\ni\n \nk\ni\ny\ni\n \nw\ni\ny\ni\n \nt\nu\nw\ni\nm\n-\na\nj\ni\nr\nr\ni\n \nn\ng\ni\nn\ni\nn\ng\na\nj\ni\n \np\ni\nr\na\nj\nu\nw\ni\n.\nT\na\ny\ni\nk\nu\nw\na\np\ni\nm\nu\nl\nu\nn\ng\nu\nr\nr\nu\nm\ni\n \nw\nu\nt\na\ni\nl\na\np\nw\na\nr\nr\ni\ng\ni\n-\nj\ni\nk\ni\n \na\nr\nn\nu\nk\na\n \nk\ni\ny\ni\n \nw\nu\nt\na\na\nk\ni\ny\na\nm\na\nm\na\n \nk\nw\ni\ny\ni\n \nt\ni\nw\ni\n-\nm\na\n \nk\ni\ny\ni\n \nr\na\ny\ni\nt\n.\n \nW\nu\nt\na\n-\nw"
+}

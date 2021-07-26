@@ -9,4 +9,18 @@ exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã É Ë Ò Ó Ô Ù Ą Ę Ł Ń Ś Ż a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż"
   marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̇ ◌̈ ◌̨"
 }
+sample_text {
+  masthead_full: "WwSs"
+  masthead_partial: "Zz"
+  styles: "W\ns\nz\në\nt\nc\nz\ni\n \nl\në\nd\nz\ne\n \nr\no\nd\nz\ną\n "
+  tester: "W\ns\nz\në\nt\nc\nz\ni\n \nl\në\nd\nz\ne\n \nr\no\nd\nz\ną\n \ns\nã\n \nw\nò\nl\nn\ny\n \në"
+  poster_sm: "W\ns\nz\në\nt\nc"
+  poster_md: "W\ns\nz\në\nt"
+  poster_lg: "W\ns"
+  specimen_48: "W\ns\nz\në\nt\nc\nz\ni\n \nl\në\nd\nz\ne\n \nr\no\nd\nz\ną\n \ns\nã\n \nw\nò\nl\nn\ny\n \në"
+  specimen_36: "W\ns\nz\në\nt\nc\nz\ni\n \nl\në\nd\nz\ne\n \nr\no\nd\nz\ną\n \ns\nã\n \nw\nò\nl\nn\ny\n \në\n \nr\nó\nw\nn\ny\n \nw\n \ns\nw\nò\nj\ni\n \nc\nz\në\ns\nt"
+  specimen_32: "W\ns\nz\në\nt\nc\nz\ni\n \nl\në\nd\nz\ne\n \nr\no\nd\nz\ną\n \ns\nã\n \nw\nò\nl\nn\ny\n \në\n \nr\nó\nw\nn\ny\n \nw\n \ns\nw\nò\nj\ni\n \nc\nz\në\ns\nt\nn\no\nc\ne\n \në\n \ns\nw\nò\nj\ni\nc\nh\n \np\nr\na\nw\na"
+  specimen_21: "W\ns\nz\në\nt\nc\nz\ni\n \nl\në\nd\nz\ne\n \nr\no\nd\nz\ną\n \ns\nã\n \nw\nò\nl\nn\ny\n \në\n \nr\nó\nw\nn\ny\n \nw\n \ns\nw\nò\nj\ni\n \nc\nz\në\ns\nt\nn\no\nc\ne\n \në\n \ns\nw\nò\nj\ni\nc\nh\n \np\nr\na\nw\na\nc\nh\n.\n \nM\na\nj\ną\n \nò\nn\ni\n \nd\no\ns\nt\nó\nn\ne\n \nr\no\nz\në\nm\n \në\n \ns\në\nm\ni\ne\nn\ni\né\n \në\n \nn\nô\nl\né\ng\nô\n \nj\ni\nm\na\n \np\nò\ns\nt\nã\np\nò\nw\na\nc\n \nw\no\nb\ne\nc\n \nd\nr\në\nd\nz\ni\nc\nh\n \nw\n "
+  specimen_16: "W\ns\nz\në\nt\nc\nz\ni\n \nl\në\nd\nz\ne\n \nr\no\nd\nz\ną\n \ns\nã\n \nw\nò\nl\nn\ny\n \në\n \nr\nó\nw\nn\ny\n \nw\n \ns\nw\nò\nj\ni\n \nc\nz\në\ns\nt\nn\no\nc\ne\n \në\n \ns\nw\nò\nj\ni\nc\nh\n \np\nr\na\nw\na\nc\nh\n.\n \nM\na\nj\ną\n \nò\nn\ni\n \nd\no\ns\nt\nó\nn\ne\n \nr\no\nz\në\nm\n \në\n \ns\në\nm\ni\ne\nn\ni\né\n \në\n \nn\nô\nl\né\ng\nô\n \nj\ni\nm\na\n \np\nò\ns\nt\nã\np\nò\nw\na\nc\n \nw\no\nb\ne\nc\n \nd\nr\në\nd\nz\ni\nc\nh\n \nw\n \nd\në\nc\nh\nù\n \nb\nr\na\nc\në\nn\no\nt\në\n.\nW\ns\nz\në\nt\nc\nz\ni\n \nl\në\nd\nz\ne\n \nr\no\nd\nz\ną\n \ns\nã\n \nw\nò\nl\nn\ny\n \në\n \nr\nó\nw\nn\ny\n \nw\n \ns\nw\nò\nj\ni\n \nc\nz\në\ns\nt\nn\no\nc\ne\n \në\n \ns\nw\nò\nj\ni\nc\nh\n \np\nr\na\nw\na\nc\nh\n.\n \nM\na\nj\ną\n \nò\nn\ni\n \nd\no\ns\nt\nó\nn\ne\n \nr\no\nz\në\nm\n \në\n \ns\në\nm\ni\ne\nn\ni\né\n \në"
+}
 historical: true

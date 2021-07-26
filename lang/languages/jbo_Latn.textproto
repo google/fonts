@@ -1,0 +1,18 @@
+id: "jbo_Latn"
+language: "jbo"
+script: "Latn"
+name: "Lojban, Latin"
+sample_text {
+  masthead_full: "RrOo"
+  masthead_partial: "Ee"
+  styles: "r\no\n \nr\ne\nm\nn\na\n \nc\nu\n \ns\ne\n \nj\ni\nn\nz\ni\n "
+  tester: "r\no\n \nr\ne\nm\nn\na\n \nc\nu\n \ns\ne\n \nj\ni\nn\nz\ni\n \nc\no\n \nz\ni\nf\nr\ne\n \nj"
+  poster_sm: "r\no\n \nr\ne\nm"
+  poster_md: "r\no\n \nr\ne"
+  poster_lg: "r\no"
+  specimen_48: "r\no\n \nr\ne\nm\nn\na\n \nc\nu\n \ns\ne\n \nj\ni\nn\nz\ni\n \nc\no\n \nz\ni\nf\nr\ne\n \nj"
+  specimen_36: "r\no\n \nr\ne\nm\nn\na\n \nc\nu\n \ns\ne\n \nj\ni\nn\nz\ni\n \nc\no\n \nz\ni\nf\nr\ne\n \nj\ne\n \ns\ni\nm\nd\nu\n\'\ni\n \nb\ne\n \nl\ne\n \nr\ny\n.\n \nn"
+  specimen_32: "r\no\n \nr\ne\nm\nn\na\n \nc\nu\n \ns\ne\n \nj\ni\nn\nz\ni\n \nc\no\n \nz\ni\nf\nr\ne\n \nj\ne\n \ns\ni\nm\nd\nu\n\'\ni\n \nb\ne\n \nl\ne\n \nr\ny\n.\n \nn\ni\nl\ns\ne\nl\ns\ni\n\'\na\n \n.\ne\n \nl\ne\ni\n \nr\ny\n.\n "
+  specimen_21: "r\no\n \nr\ne\nm\nn\na\n \nc\nu\n \ns\ne\n \nj\ni\nn\nz\ni\n \nc\no\n \nz\ni\nf\nr\ne\n \nj\ne\n \ns\ni\nm\nd\nu\n\'\ni\n \nb\ne\n \nl\ne\n \nr\ny\n.\n \nn\ni\nl\ns\ne\nl\ns\ni\n\'\na\n \n.\ne\n \nl\ne\ni\n \nr\ny\n.\n \ns\ne\nl\nc\nr\nu\n \n.\ni\n \nr\ny\n.\n \ns\ne\n \nm\ne\nn\nl\ni\n \ng\ni\n\'\ne\n \ns\ne\n \ns\ne\nz\nm\na\nr\nd\ne\n \n.\ni\n \n.\ne\ni\n \nj\ne\ns\ne\nk\ni\n\'\nu\nb\no\n \nr\ny\n.\n \ns\ni\nm\ny\nz\nu\n\'\ne\n \nt\na\n\'\ni\n \nl\ne\n \nt\nu\nn\nb\na\nr"
+  specimen_16: "r\no\n \nr\ne\nm\nn\na\n \nc\nu\n \ns\ne\n \nj\ni\nn\nz\ni\n \nc\no\n \nz\ni\nf\nr\ne\n \nj\ne\n \ns\ni\nm\nd\nu\n\'\ni\n \nb\ne\n \nl\ne\n \nr\ny\n.\n \nn\ni\nl\ns\ne\nl\ns\ni\n\'\na\n \n.\ne\n \nl\ne\ni\n \nr\ny\n.\n \ns\ne\nl\nc\nr\nu\n \n.\ni\n \nr\ny\n.\n \ns\ne\n \nm\ne\nn\nl\ni\n \ng\ni\n\'\ne\n \ns\ne\n \ns\ne\nz\nm\na\nr\nd\ne\n \n.\ni\n \n.\ne\ni\n \nj\ne\ns\ne\nk\ni\n\'\nu\nb\no\n \nr\ny\n.\n \ns\ni\nm\ny\nz\nu\n\'\ne\n \nt\na\n\'\ni\n \nl\ne\n \nt\nu\nn\nb\na\nr\no\n \nr\ne\nm\nn\na\n \nc\nu\n \ns\ne\n \nj\ni\nn\nz\ni\n \nc\no\n \nz\ni\nf\nr\ne\n \nj\ne\n \ns\ni\nm\nd\nu\n\'\ni\n \nb\ne\n \nl\ne\n \nr\ny\n.\n \nn\ni\nl\ns\ne\nl\ns\ni\n\'\na\n \n.\ne\n \nl\ne\ni\n \nr\ny\n.\n \ns\ne\nl\nc\nr\nu\n \n.\ni\n \nr\ny\n.\n \ns\ne\n \nm\ne\nn\nl\ni\n \ng\ni\n\'\ne\n \ns\ne\n \ns\ne\nz\nm\na\nr\nd\ne\n \n.\ni\n \n.\ne\ni\n \nj\ne\ns\ne\nk\ni\n\'\nu\nb\no\n "
+}

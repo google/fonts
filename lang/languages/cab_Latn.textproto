@@ -1,0 +1,18 @@
+id: "cab_Latn"
+language: "cab"
+script: "Latn"
+name: "Garifuna"
+sample_text {
+  masthead_full: "SsUu"
+  masthead_partial: "Nn"
+  styles: "S\nu\nn\n \ng\nü\nr\ni\ng\ni\na\n \nn\na\ns\ní\nr\nu\na\nt\ni"
+  tester: "S\nu\nn\n \ng\nü\nr\ni\ng\ni\na\n \nn\na\ns\ní\nr\nu\na\nt\ni\n \ny\nu\nt\ni\n \nl\nu\nn\n,"
+  poster_sm: "S\nu\nn\n \ng\nü"
+  poster_md: "S\nu\nn\n \ng"
+  poster_lg: "S\nu"
+  specimen_48: "S\nu\nn\n \ng\nü\nr\ni\ng\ni\na\n \nn\na\ns\ní\nr\nu\na\nt\ni\n \ny\nu\nt\ni\n \nl\nu\nn\n,"
+  specimen_36: "S\nu\nn\n \ng\nü\nr\ni\ng\ni\na\n \nn\na\ns\ní\nr\nu\na\nt\ni\n \ny\nu\nt\ni\n \nl\nu\nn\n,\n \nl\ni\nd\na\nn\n \nú\na\nr\na\nn\ni\n,\n \nl\na\nw\ni\nw\na"
+  specimen_32: "S\nu\nn\n \ng\nü\nr\ni\ng\ni\na\n \nn\na\ns\ní\nr\nu\na\nt\ni\n \ny\nu\nt\ni\n \nl\nu\nn\n,\n \nl\ni\nd\na\nn\n \nú\na\nr\na\nn\ni\n,\n \nl\na\nw\ni\nw\na\nn\nd\nu\nn\ní\n \nl\ni\nb\ná\ng\na\nr\ni\n \nk\na\ni\n \nl"
+  specimen_21: "S\nu\nn\n \ng\nü\nr\ni\ng\ni\na\n \nn\na\ns\ní\nr\nu\na\nt\ni\n \ny\nu\nt\ni\n \nl\nu\nn\n,\n \nl\ni\nd\na\nn\n \nú\na\nr\na\nn\ni\n,\n \nl\na\nw\ni\nw\na\nn\nd\nu\nn\ní\n \nl\ni\nb\ná\ng\na\nr\ni\n \nk\na\ni\n \nl\ne\n \na\nu\nb\na\ni\n \nl\na\nb\nú\ns\ni\ne\nn\nr\na\n,\n \ng\na\nt\nu\n \ng\ni\nñ\ne\n \nl\na\nn\na\ng\nu\nn\n \nl\nu\nn\ng\nu\na\n \nb\nu\ni\nd\nu\n \nh\na\nd\na\nn\n \nl\ní\nb\ne\ng\nu\n.\nS\nu\nn\n \ng\nü\nr\ni\ng\ni\na\n \nn\na\ns\ní\nr"
+  specimen_16: "S\nu\nn\n \ng\nü\nr\ni\ng\ni\na\n \nn\na\ns\ní\nr\nu\na\nt\ni\n \ny\nu\nt\ni\n \nl\nu\nn\n,\n \nl\ni\nd\na\nn\n \nú\na\nr\na\nn\ni\n,\n \nl\na\nw\ni\nw\na\nn\nd\nu\nn\ní\n \nl\ni\nb\ná\ng\na\nr\ni\n \nk\na\ni\n \nl\ne\n \na\nu\nb\na\ni\n \nl\na\nb\nú\ns\ni\ne\nn\nr\na\n,\n \ng\na\nt\nu\n \ng\ni\nñ\ne\n \nl\na\nn\na\ng\nu\nn\n \nl\nu\nn\ng\nu\na\n \nb\nu\ni\nd\nu\n \nh\na\nd\na\nn\n \nl\ní\nb\ne\ng\nu\n.\nS\nu\nn\n \ng\nü\nr\ni\ng\ni\na\n \nn\na\ns\ní\nr\nu\na\nt\ni\n \ny\nu\nt\ni\n \nl\nu\nn\n,\n \nl\ni\nd\na\nn\n \nú\na\nr\na\nn\ni\n,\n \nl\na\nw\ni\nw\na\nn\nd\nu\nn\ní\n \nl\ni\nb\ná\ng\na\nr\ni\n \nk\na\ni\n \nl\ne\n \na\nu\nb\na\ni\n \nl\na\nb\nú\ns\ni\ne\nn\nr\na\n,\n \ng\na\nt\nu\n \ng\ni\nñ\ne\n \nl\na\nn\na\ng\nu\nn\n \nl\nu\nn\ng\nu\na\n \nb\nu\ni\nd\nu\n \nh\na\nd\na\nn\n \nl\ní\nb\ne\ng\nu\n.\nS\nu\nn\n \ng\nü\nr\ni"
+}

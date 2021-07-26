@@ -1,0 +1,18 @@
+id: "owl_Latn"
+language: "owl"
+script: "Latn"
+name: "Old Welsh, Latin"
+sample_text {
+  masthead_full: "GgEe"
+  masthead_partial: "Nn"
+  styles: "G\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na"
+  tester: "G\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na\nc\n \ny\nn\n \ng\ny\nd\nr\na"
+  poster_sm: "G\ne\nn\ni\nr\n "
+  poster_md: "G\ne\nn\ni\nr"
+  poster_lg: "G\ne"
+  specimen_48: "G\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na\nc\n \ny\nn\n \ng\ny\nd\nr\na"
+  specimen_36: "G\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na\nc\n \ny\nn\n \ng\ny\nd\nr\na\nd\n \nm\ne\nw\nn\n \nu\nr\nd\nd\na\ns\n \na\n \nc\nh\ny\nf"
+  specimen_32: "G\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na\nc\n \ny\nn\n \ng\ny\nd\nr\na\nd\n \nm\ne\nw\nn\n \nu\nr\nd\nd\na\ns\n \na\n \nc\nh\ny\nf\nr\na\ni\nt\nh\n.\n \nM\na\ne\n \ng\na\nd\nd\ny\nn\nt\n \na"
+  specimen_21: "G\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na\nc\n \ny\nn\n \ng\ny\nd\nr\na\nd\n \nm\ne\nw\nn\n \nu\nr\nd\nd\na\ns\n \na\n \nc\nh\ny\nf\nr\na\ni\nt\nh\n.\n \nM\na\ne\n \ng\na\nd\nd\ny\nn\nt\n \na\nm\ng\nn\na\nu\nb\no\nt\n \na\n \nd\ny\nl\ny\na\nn\nt\n \ny\nm\nd\nd\nw\ny\nn\n \ny\n \nn\na\ni\nl\nl\n \na\nt\n \ny\n \nl\nl\na\nl\nl\n \nf\ne\nl\n \nb\nr\no\nd\ny\nr\n.\nG\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na\nc\n \ny"
+  specimen_16: "G\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na\nc\n \ny\nn\n \ng\ny\nd\nr\na\nd\n \nm\ne\nw\nn\n \nu\nr\nd\nd\na\ns\n \na\n \nc\nh\ny\nf\nr\na\ni\nt\nh\n.\n \nM\na\ne\n \ng\na\nd\nd\ny\nn\nt\n \na\nm\ng\nn\na\nu\nb\no\nt\n \na\n \nd\ny\nl\ny\na\nn\nt\n \ny\nm\nd\nd\nw\ny\nn\n \ny\n \nn\na\ni\nl\nl\n \na\nt\n \ny\n \nl\nl\na\nl\nl\n \nf\ne\nl\n \nb\nr\no\nd\ny\nr\n.\nG\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na\nc\n \ny\nn\n \ng\ny\nd\nr\na\nd\n \nm\ne\nw\nn\n \nu\nr\nd\nd\na\ns\n \na\n \nc\nh\ny\nf\nr\na\ni\nt\nh\n.\n \nM\na\ne\n \ng\na\nd\nd\ny\nn\nt\n \na\nm\ng\nn\na\nu\nb\no\nt\n \na\n \nd\ny\nl\ny\na\nn\nt\n \ny\nm\nd\nd\nw\ny\nn\n \ny\n \nn\na\ni\nl\nl\n \na\nt\n \ny\n \nl\nl\na\nl\nl\n \nf\ne\nl\n \nb\nr\no\nd\ny\nr\n.\nG\ne\nn\ni\nr\n \np\na\nw\nb\n \ny\nn\n \nr\nu\ng\ny\nl\n \na\nc"
+}

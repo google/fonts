@@ -1,0 +1,18 @@
+id: "pbb_Latn"
+language: "pbb"
+script: "Latn"
+name: "Páez"
+sample_text {
+  masthead_full: "YyAa"
+  masthead_partial: "Nn"
+  styles: "Y\na\n\'\nn\nw\ne\n\'\nw\ne\nw\na\n\'\nt\ne\n\'\n \nm\na\na\n \nn\na\ns"
+  tester: "Y\na\n\'\nn\nw\ne\n\'\nw\ne\nw\na\n\'\nt\ne\n\'\n \nm\na\na\n \nn\na\ns\na\np\na\n \nh\na\n\'\nd\na\nc"
+  poster_sm: "Y\na\n\'\nn\nw\ne"
+  poster_md: "Y\na\n\'\nn\nw"
+  poster_lg: "Y\na"
+  specimen_48: "Y\na\n\'\nn\nw\ne\n\'\nw\ne\nw\na\n\'\nt\ne\n\'\n \nm\na\na\n \nn\na\ns\na\np\na\n \nh\na\n\'\nd\na\nc"
+  specimen_36: "Y\na\n\'\nn\nw\ne\n\'\nw\ne\nw\na\n\'\nt\ne\n\'\n \nm\na\na\n \nn\na\ns\na\np\na\n \nh\na\n\'\nd\na\nc\ne\nh\nk\n \nh\ni\n\'\np\nk\nu\n \nu\np\n\'\nh\ni\n\'\n,\n \nw\në\nt"
+  specimen_32: "Y\na\n\'\nn\nw\ne\n\'\nw\ne\nw\na\n\'\nt\ne\n\'\n \nm\na\na\n \nn\na\ns\na\np\na\n \nh\na\n\'\nd\na\nc\ne\nh\nk\n \nh\ni\n\'\np\nk\nu\n \nu\np\n\'\nh\ni\n\'\n,\n \nw\në\nt\nt\ne\n \nu\n\'\nh\nu\nw\na\n\'\nh\ni\n\'\np\nt\na\n\'\n,\n \ne\ne\nn\na"
+  specimen_21: "Y\na\n\'\nn\nw\ne\n\'\nw\ne\nw\na\n\'\nt\ne\n\'\n \nm\na\na\n \nn\na\ns\na\np\na\n \nh\na\n\'\nd\na\nc\ne\nh\nk\n \nh\ni\n\'\np\nk\nu\n \nu\np\n\'\nh\ni\n\'\n,\n \nw\në\nt\nt\ne\n \nu\n\'\nh\nu\nw\na\n\'\nh\ni\n\'\np\nt\na\n\'\n,\n \ne\ne\nn\na\n\'\n \ne\ne\nn\na\n\'\n \nf\n\'\ni\n\'\nz\ne\nw\na\n\'\n \nh\ni\n\'\np\nt\na\n\'\n,\n \nü\nu\ns\n \nh\ni\n\'\np\nt\na\n\'\n \nd\n\'\ni\nk\n\'\nt\nh\ne\n \nh\ni\n\'\np\nt\na\n\'\n \nn\na\na\np\na\n\'\nk\na\nt\ne\n.\n \nS\na\n\'\n \nh\n\'\nu\nk\na\ny\ns\na\n \nü\nu\ns\n \nh\ni\n\'\np"
+  specimen_16: "Y\na\n\'\nn\nw\ne\n\'\nw\ne\nw\na\n\'\nt\ne\n\'\n \nm\na\na\n \nn\na\ns\na\np\na\n \nh\na\n\'\nd\na\nc\ne\nh\nk\n \nh\ni\n\'\np\nk\nu\n \nu\np\n\'\nh\ni\n\'\n,\n \nw\në\nt\nt\ne\n \nu\n\'\nh\nu\nw\na\n\'\nh\ni\n\'\np\nt\na\n\'\n,\n \ne\ne\nn\na\n\'\n \ne\ne\nn\na\n\'\n \nf\n\'\ni\n\'\nz\ne\nw\na\n\'\n \nh\ni\n\'\np\nt\na\n\'\n,\n \nü\nu\ns\n \nh\ni\n\'\np\nt\na\n\'\n \nd\n\'\ni\nk\n\'\nt\nh\ne\n \nh\ni\n\'\np\nt\na\n\'\n \nn\na\na\np\na\n\'\nk\na\nt\ne\n.\n \nS\na\n\'\n \nh\n\'\nu\nk\na\ny\ns\na\n \nü\nu\ns\n \nh\ni\n\'\np\nc\ne\nh\nk\nt\nh\na\n\'\nw\n \ns\na\n\'\n \np\ny\na\nk\nh\nn\na\n\'\nw\ne\n \nf\n\'\ni\n\'\nz\ne\n \nh\ni\n\'\np\nt\nh\na\n\'\nw\n.\nY\na\n\'\nn\nw\ne\n\'\nw\ne\nw\na\n\'\nt\ne\n\'\n \nm\na\na\n \nn\na\ns\na\np\na\n \nh\na\n\'\nd\na\nc\ne\nh\nk\n \nh\ni\n\'\np\nk\nu\n \nu\np\n\'\nh\ni\n\'\n,\n \nw\në\nt\nt\ne\n \nu\n\'\nh\nu\nw\na\n\'\nh\ni\n\'\np\nt\na\n\'\n,\n \ne\ne\nn\na\n\'\n \ne\ne\nn\na\n\'\n \nf\n\'\ni\n\'\nz\ne\nw\na\n\'\n \nh"
+}

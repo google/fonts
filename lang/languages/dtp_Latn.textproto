@@ -4,3 +4,17 @@ script: "Latn"
 name: "Central Dusun"
 population: 182851
 region: "MY"
+sample_text {
+  masthead_full: "NnOo"
+  masthead_partial: "Ss"
+  styles: "N\no\ns\nu\ns\nu\n \nn\no\n \nd\no\n \nt\nu\nh\nu\nn\n \nn\ng"
+  tester: "N\no\ns\nu\ns\nu\n \nn\no\n \nd\no\n \nt\nu\nh\nu\nn\n \nn\ng\na\na\nv\ni\n \ni\n \nk\no\ni"
+  poster_sm: "N\no\ns\nu\ns\nu"
+  poster_md: "N\no\ns\nu\ns"
+  poster_lg: "N\no"
+  specimen_48: "N\no\ns\nu\ns\nu\n \nn\no\n \nd\no\n \nt\nu\nh\nu\nn\n \nn\ng\na\na\nv\ni\n \ni\n \nk\no\ni"
+  specimen_36: "N\no\ns\nu\ns\nu\n \nn\no\n \nd\no\n \nt\nu\nh\nu\nn\n \nn\ng\na\na\nv\ni\n \ni\n \nk\no\ni\nd\nu\n \no\nm\n \nk\no\np\ni\na\ng\na\nh\na\nn\n \nd\no\ni"
+  specimen_32: "N\no\ns\nu\ns\nu\n \nn\no\n \nd\no\n \nt\nu\nh\nu\nn\n \nn\ng\na\na\nv\ni\n \ni\n \nk\no\ni\nd\nu\n \no\nm\n \nk\no\np\ni\na\ng\na\nh\na\nn\n \nd\no\ni\nd\n \nk\no\nt\ni\nn\ng\nu\nh\na\nn\n \no\nm\n \ns\na\nn\ng"
+  specimen_21: "N\no\ns\nu\ns\nu\n \nn\no\n \nd\no\n \nt\nu\nh\nu\nn\n \nn\ng\na\na\nv\ni\n \ni\n \nk\no\ni\nd\nu\n \no\nm\n \nk\no\np\ni\na\ng\na\nh\na\nn\n \nd\no\ni\nd\n \nk\no\nt\ni\nn\ng\nu\nh\na\nn\n \no\nm\n \ns\na\nn\ng\na\nn\nu\n.\n \nK\ni\nk\na\ns\na\na\nv\na\nn\n \no\nm\n \nt\no\np\ni\nu\nm\na\nn\na\nn\n \ng\ni\nn\na\nv\no\n \nz\ni\no\nh\no\n \no\nm\n \nm\ni\nn\no\no\ni\n \no\n \nt\nu\nm\ni\nn\nd\na\nk\n \ni\nd\n \np\ni\na\nh\na\nt\na\nn\n \nd\no\n \ni"
+  specimen_16: "N\no\ns\nu\ns\nu\n \nn\no\n \nd\no\n \nt\nu\nh\nu\nn\n \nn\ng\na\na\nv\ni\n \ni\n \nk\no\ni\nd\nu\n \no\nm\n \nk\no\np\ni\na\ng\na\nh\na\nn\n \nd\no\ni\nd\n \nk\no\nt\ni\nn\ng\nu\nh\na\nn\n \no\nm\n \ns\na\nn\ng\na\nn\nu\n.\n \nK\ni\nk\na\ns\na\na\nv\na\nn\n \no\nm\n \nt\no\np\ni\nu\nm\na\nn\na\nn\n \ng\ni\nn\na\nv\no\n \nz\ni\no\nh\no\n \no\nm\n \nm\ni\nn\no\no\ni\n \no\n \nt\nu\nm\ni\nn\nd\na\nk\n \ni\nd\n \np\ni\na\nh\na\nt\na\nn\n \nd\no\n \ni\ns\no\n \ns\nu\nv\na\ni\n \nd\no\n \ns\nu\nn\nd\nu\nv\na\nn\n \ni\n \nk\no\np\ni\no\nb\np\ni\nn\na\nz\na\nn\n.\nN\no\ns\nu\ns\nu\n \nn\no\n \nd\no\n \nt\nu\nh\nu\nn\n \nn\ng\na\na\nv\ni\n \ni\n \nk\no\ni\nd\nu\n \no\nm\n \nk\no\np\ni\na\ng\na\nh\na\nn\n \nd\no\ni\nd\n \nk\no\nt\ni\nn\ng\nu\nh\na\nn\n \no\nm\n \ns\na\nn\ng\na\nn\nu\n.\n \nK\ni\nk\na\ns\na\na\nv\na\nn\n \no\nm"
+}

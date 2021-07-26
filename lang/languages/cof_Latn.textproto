@@ -1,0 +1,18 @@
+id: "cof_Latn"
+language: "cof"
+script: "Latn"
+name: "Colorado"
+sample_text {
+  masthead_full: "PpIi"
+  masthead_partial: "Yy"
+  styles: "P\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn"
+  tester: "P\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn\nk\na\nr\ni\nj\nu\nn\n,\n \nj"
+  poster_sm: "P\ni\ny\na\nn\nl"
+  poster_md: "P\ni\ny\na\nn"
+  poster_lg: "P\ni"
+  specimen_48: "P\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn\nk\na\nr\ni\nj\nu\nn\n,\n \nj"
+  specimen_36: "P\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn\nk\na\nr\ni\nj\nu\nn\n,\n \nj\nu\nn\ns\nh\ni\n \nm\na\nn\nt\na\n \nt\na\nn\n,\n \ni\nn\n \nt"
+  specimen_32: "P\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn\nk\na\nr\ni\nj\nu\nn\n,\n \nj\nu\nn\ns\nh\ni\n \nm\na\nn\nt\na\n \nt\na\nn\n,\n \ni\nn\n \nt\no\nb\ni\n \nj\na\nm\ni\nn\nl\na\nj\no\ny\no\ne\n,\n \nt\ni"
+  specimen_21: "P\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn\nk\na\nr\ni\nj\nu\nn\n,\n \nj\nu\nn\ns\nh\ni\n \nm\na\nn\nt\na\n \nt\na\nn\n,\n \ni\nn\n \nt\no\nb\ni\n \nj\na\nm\ni\nn\nl\na\nj\no\ny\no\ne\n,\n \nt\ni\nt\ni\n \nm\ni\n,\n \nt\ne\nn\nk\na\n \nk\na\nn\no\n \nm\ni\nn\n,\n \nj\nu\nn\ns\nh\ni\n,\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n \nt\na\nl\na\n,\n \ns\ne\nn\n \nj\no\nn\no\n \nm\ni\nn\n.\nP\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn\nk\na"
+  specimen_16: "P\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn\nk\na\nr\ni\nj\nu\nn\n,\n \nj\nu\nn\ns\nh\ni\n \nm\na\nn\nt\na\n \nt\na\nn\n,\n \ni\nn\n \nt\no\nb\ni\n \nj\na\nm\ni\nn\nl\na\nj\no\ny\no\ne\n,\n \nt\ni\nt\ni\n \nm\ni\n,\n \nt\ne\nn\nk\na\n \nk\na\nn\no\n \nm\ni\nn\n,\n \nj\nu\nn\ns\nh\ni\n,\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n \nt\na\nl\na\n,\n \ns\ne\nn\n \nj\no\nn\no\n \nm\ni\nn\n.\nP\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn\nk\na\nr\ni\nj\nu\nn\n,\n \nj\nu\nn\ns\nh\ni\n \nm\na\nn\nt\na\n \nt\na\nn\n,\n \ni\nn\n \nt\no\nb\ni\n \nj\na\nm\ni\nn\nl\na\nj\no\ny\no\ne\n,\n \nt\ni\nt\ni\n \nm\ni\n,\n \nt\ne\nn\nk\na\n \nk\na\nn\no\n \nm\ni\nn\n,\n \nj\nu\nn\ns\nh\ni\n,\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n \nt\na\nl\na\n,\n \ns\ne\nn\n \nj\no\nn\no\n \nm\ni\nn\n.\nP\ni\ny\na\nn\nl\ne\n \nt\ns\na\n\'\nc\nh\ni\nl\na\n,\n \nm\na\nn"
+}

@@ -1,0 +1,18 @@
+id: "mis_Latn"
+language: "mis"
+script: "Latn"
+name: "Uncoded languages, Latin, World"
+sample_text {
+  masthead_full: "Hh₂Ó"
+  masthead_partial: "Ll"
+  styles: "h\n₂\nó\nl\ny\no\ne\ns\n \nǵ\nʰ\nm\nó\nn\ne\ns\n \nh\n₁\nl\né"
+  tester: "h\n₂\nó\nl\ny\no\ne\ns\n \nǵ\nʰ\nm\nó\nn\ne\ns\n \nh\n₁\nl\né\nw\nd\nʰ\ne\nr\no\ne\ns\n \ns"
+  poster_sm: "h\n₂\nó\nl\ny\no"
+  poster_md: "h\n₂\nó\nl\ny"
+  poster_lg: "h\n₂"
+  specimen_48: "h\n₂\nó\nl\ny\no\ne\ns\n \nǵ\nʰ\nm\nó\nn\ne\ns\n \nh\n₁\nl\né\nw\nd\nʰ\ne\nr\no\ne\ns\n \ns"
+  specimen_36: "h\n₂\nó\nl\ny\no\ne\ns\n \nǵ\nʰ\nm\nó\nn\ne\ns\n \nh\n₁\nl\né\nw\nd\nʰ\ne\nr\no\ne\ns\n \ns\no\nm\nH\nó\ne\ns\nk\nʷ\ne\n \ng\nʷ\nr\n̥\nH\nt\nó\nt\ne\nh"
+  specimen_32: "h\n₂\nó\nl\ny\no\ne\ns\n \nǵ\nʰ\nm\nó\nn\ne\ns\n \nh\n₁\nl\né\nw\nd\nʰ\ne\nr\no\ne\ns\n \ns\no\nm\nH\nó\ne\ns\nk\nʷ\ne\n \ng\nʷ\nr\n̥\nH\nt\nó\nt\ne\nh\n₂\nt\ni\n \nh\n₃\nr\n̥\nǵ\nt\nú\ns\nu\nk\nʷ\ne\n \nǵ\nn\n̥\nh"
+  specimen_21: "h\n₂\nó\nl\ny\no\ne\ns\n \nǵ\nʰ\nm\nó\nn\ne\ns\n \nh\n₁\nl\né\nw\nd\nʰ\ne\nr\no\ne\ns\n \ns\no\nm\nH\nó\ne\ns\nk\nʷ\ne\n \ng\nʷ\nr\n̥\nH\nt\nó\nt\ne\nh\n₂\nt\ni\n \nh\n₃\nr\n̥\nǵ\nt\nú\ns\nu\nk\nʷ\ne\n \nǵ\nn\n̥\nh\n₁\ny\nó\nn\nt\no\nr\n.\n \né\ny\nb\nʰ\no\ns\n \nd\nh\n₃\nt\nó\ny\n \nm\né\nn\no\ns\n \nḱ\nḗ\nr\nk\nʷ\ne\n \nh\n₁\ns\nt\né\ns\n \nh\n₂\né\nn\nt\ne\nr\no\ne\ny\nk\nʷ\ne\n \ns\nm\n̥\nh\n₂\né\nl\ne\ny\ne\ns\n \nb\nʰ\nr\né\nh\n₂\nt\nr\n̥\nb\nʰ\no\ns"
+  specimen_16: "h\n₂\nó\nl\ny\no\ne\ns\n \nǵ\nʰ\nm\nó\nn\ne\ns\n \nh\n₁\nl\né\nw\nd\nʰ\ne\nr\no\ne\ns\n \ns\no\nm\nH\nó\ne\ns\nk\nʷ\ne\n \ng\nʷ\nr\n̥\nH\nt\nó\nt\ne\nh\n₂\nt\ni\n \nh\n₃\nr\n̥\nǵ\nt\nú\ns\nu\nk\nʷ\ne\n \nǵ\nn\n̥\nh\n₁\ny\nó\nn\nt\no\nr\n.\n \né\ny\nb\nʰ\no\ns\n \nd\nh\n₃\nt\nó\ny\n \nm\né\nn\no\ns\n \nḱ\nḗ\nr\nk\nʷ\ne\n \nh\n₁\ns\nt\né\ns\n \nh\n₂\né\nn\nt\ne\nr\no\ne\ny\nk\nʷ\ne\n \ns\nm\n̥\nh\n₂\né\nl\ne\ny\ne\ns\n \nb\nʰ\nr\né\nh\n₂\nt\nr\n̥\nb\nʰ\no\ns\n \ns\nw\né\n \nh\n₂\né\nǵ\no\ny\nh\n₁\nn\n̥\nt\n.\nh\n₂\nó\nl\ny\no\ne\ns\n \nǵ\nʰ\nm\nó\nn\ne\ns\n \nh\n₁\nl\né\nw\nd\nʰ\ne\nr\no\ne\ns\n \ns\no\nm\nH\nó\ne\ns\nk\nʷ\ne\n \ng\nʷ\nr\n̥\nH\nt\nó\nt\ne\nh\n₂\nt\ni\n \nh\n₃\nr\n̥\nǵ\nt\nú\ns\nu\nk\nʷ\ne\n \nǵ\nn\n̥\nh\n₁\ny\nó\nn\nt\no\nr\n.\n \né\ny\nb\nʰ\no\ns\n \nd\nh\n₃\nt\nó\ny\n \nm\né\nn\no\ns\n \nḱ\nḗ\nr\nk\nʷ\ne\n \nh\n₁\ns"
+}

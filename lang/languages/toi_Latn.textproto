@@ -1,0 +1,18 @@
+id: "toi_Latn"
+language: "toi"
+script: "Latn"
+name: "Tonga"
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Nn"
+  styles: "B\na\nn\nt\nu\n \nb\no\no\nn\ns\ne\n \nb\na\nl\na\nz\ny\na\nl"
+  tester: "B\na\nn\nt\nu\n \nb\no\no\nn\ns\ne\n \nb\na\nl\na\nz\ny\na\nl\nw\na\n \nk\na\nb\na\na\nn\ng"
+  poster_sm: "B\na\nn\nt\nu\n "
+  poster_md: "B\na\nn\nt\nu"
+  poster_lg: "B\na"
+  specimen_48: "B\na\nn\nt\nu\n \nb\no\no\nn\ns\ne\n \nb\na\nl\na\nz\ny\na\nl\nw\na\n \nk\na\nb\na\na\nn\ng"
+  specimen_36: "B\na\nn\nt\nu\n \nb\no\no\nn\ns\ne\n \nb\na\nl\na\nz\ny\na\nl\nw\na\n \nk\na\nb\na\na\nn\ng\nu\nl\nu\nk\ni\nd\ne\n \na\nl\ni\nm\nw\ni\n \nk\na\nb\ne\ne"
+  specimen_32: "B\na\nn\nt\nu\n \nb\no\no\nn\ns\ne\n \nb\na\nl\na\nz\ny\na\nl\nw\na\n \nk\na\nb\na\na\nn\ng\nu\nl\nu\nk\ni\nd\ne\n \na\nl\ni\nm\nw\ni\n \nk\na\nb\ne\ne\nl\ne\nn\ne\n \na\nl\ni\nm\nw\ni\n \na\nk\nw\na\na\nn\ng\nu"
+  specimen_21: "B\na\nn\nt\nu\n \nb\no\no\nn\ns\ne\n \nb\na\nl\na\nz\ny\na\nl\nw\na\n \nk\na\nb\na\na\nn\ng\nu\nl\nu\nk\ni\nd\ne\n \na\nl\ni\nm\nw\ni\n \nk\na\nb\ne\ne\nl\ne\nn\ne\n \na\nl\ni\nm\nw\ni\n \na\nk\nw\na\na\nn\ng\nu\nl\nu\nk\na\n \nk\nu\nc\ni\nt\na\n \nz\ny\no\nb\na\ny\na\nn\nd\na\n.\n \nB\na\nl\na\nz\ny\na\nl\nw\na\n \na\nm\na\na\nn\nu\n \na\nk\nu\ny\ne\ne\ny\na\n,\n \na\na\nk\nu\ns\na\nl\na\n \na\nl\ni\nm\nw\ni\n \nb\ne\ne\nl\ne\nd\ne\n \nk\nu\nl\na\nn"
+  specimen_16: "B\na\nn\nt\nu\n \nb\no\no\nn\ns\ne\n \nb\na\nl\na\nz\ny\na\nl\nw\na\n \nk\na\nb\na\na\nn\ng\nu\nl\nu\nk\ni\nd\ne\n \na\nl\ni\nm\nw\ni\n \nk\na\nb\ne\ne\nl\ne\nn\ne\n \na\nl\ni\nm\nw\ni\n \na\nk\nw\na\na\nn\ng\nu\nl\nu\nk\na\n \nk\nu\nc\ni\nt\na\n \nz\ny\no\nb\na\ny\na\nn\nd\na\n.\n \nB\na\nl\na\nz\ny\na\nl\nw\na\n \na\nm\na\na\nn\nu\n \na\nk\nu\ny\ne\ne\ny\na\n,\n \na\na\nk\nu\ns\na\nl\na\n \na\nl\ni\nm\nw\ni\n \nb\ne\ne\nl\ne\nd\ne\n \nk\nu\nl\na\nn\ng\na\n \nb\na\nm\nb\ni\n \nm\nb\nu\nl\ni\n \nb\na\nn\na\nb\no\nk\nw\na\nb\no\n.\nB\na\nn\nt\nu\n \nb\no\no\nn\ns\ne\n \nb\na\nl\na\nz\ny\na\nl\nw\na\n \nk\na\nb\na\na\nn\ng\nu\nl\nu\nk\ni\nd\ne\n \na\nl\ni\nm\nw\ni\n \nk\na\nb\ne\ne\nl\ne\nn\ne\n \na\nl\ni\nm\nw\ni\n \na\nk\nw\na\na\nn\ng\nu\nl\nu\nk\na\n \nk\nu\nc\ni\nt\na\n \nz\ny\no\nb\na\ny\na\nn\nd\na\n.\n \nB\na\nl\na"
+}

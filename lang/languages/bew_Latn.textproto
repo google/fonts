@@ -4,3 +4,17 @@ script: "Latn"
 name: "Betawi"
 population: 5607546
 region: "ID"
+sample_text {
+  masthead_full: "SsEe"
+  masthead_partial: "Mm"
+  styles: "S\ne\nm\nu\ne\n \no\nr\na\nn\ng\n \nn\nt\nu\n \nd\ni\nl\na\nh"
+  tester: "S\ne\nm\nu\ne\n \no\nr\na\nn\ng\n \nn\nt\nu\n \nd\ni\nl\na\nh\ni\nr\ni\nn\n \nb\ne\nb\na\ns"
+  poster_sm: "S\ne\nm\nu\ne\n "
+  poster_md: "S\ne\nm\nu\ne"
+  poster_lg: "S\ne"
+  specimen_48: "S\ne\nm\nu\ne\n \no\nr\na\nn\ng\n \nn\nt\nu\n \nd\ni\nl\na\nh\ni\nr\ni\nn\n \nb\ne\nb\na\ns"
+  specimen_36: "S\ne\nm\nu\ne\n \no\nr\na\nn\ng\n \nn\nt\nu\n \nd\ni\nl\na\nh\ni\nr\ni\nn\n \nb\ne\nb\na\ns\n \na\nm\ne\n \np\nu\nn\ny\ne\n \nm\na\nr\nt\na\nb\na\nt\n "
+  specimen_32: "S\ne\nm\nu\ne\n \no\nr\na\nn\ng\n \nn\nt\nu\n \nd\ni\nl\na\nh\ni\nr\ni\nn\n \nb\ne\nb\na\ns\n \na\nm\ne\n \np\nu\nn\ny\ne\n \nm\na\nr\nt\na\nb\na\nt\n \nd\na\nn\n \nh\na\nk\n-\nh\na\nk\n \ny\na\nn\ng\n \ns\na\nm"
+  specimen_21: "S\ne\nm\nu\ne\n \no\nr\na\nn\ng\n \nn\nt\nu\n \nd\ni\nl\na\nh\ni\nr\ni\nn\n \nb\ne\nb\na\ns\n \na\nm\ne\n \np\nu\nn\ny\ne\n \nm\na\nr\nt\na\nb\na\nt\n \nd\na\nn\n \nh\na\nk\n-\nh\na\nk\n \ny\na\nn\ng\n \ns\na\nm\ne\n.\n \nM\ne\nr\ne\nk\na\n \nn\nt\nu\n \nd\ni\nk\na\ns\ni\nh\n \na\nk\na\nl\n \na\nm\ne\n \na\nt\ni\n \nn\nu\nr\na\nn\ni\n \nd\na\nn\n \nk\nu\nd\nu\n \nb\ne\nr\ng\na\nu\nl\n \ns\na\nt\nu\n \na\nm\ne\n \nl\na\ni\nn\nn\ny\ne\n \nd\na\nl\ne\nm"
+  specimen_16: "S\ne\nm\nu\ne\n \no\nr\na\nn\ng\n \nn\nt\nu\n \nd\ni\nl\na\nh\ni\nr\ni\nn\n \nb\ne\nb\na\ns\n \na\nm\ne\n \np\nu\nn\ny\ne\n \nm\na\nr\nt\na\nb\na\nt\n \nd\na\nn\n \nh\na\nk\n-\nh\na\nk\n \ny\na\nn\ng\n \ns\na\nm\ne\n.\n \nM\ne\nr\ne\nk\na\n \nn\nt\nu\n \nd\ni\nk\na\ns\ni\nh\n \na\nk\na\nl\n \na\nm\ne\n \na\nt\ni\n \nn\nu\nr\na\nn\ni\n \nd\na\nn\n \nk\nu\nd\nu\n \nb\ne\nr\ng\na\nu\nl\n \ns\na\nt\nu\n \na\nm\ne\n \nl\na\ni\nn\nn\ny\ne\n \nd\na\nl\ne\nm\n \ns\ne\nm\na\nn\ng\na\nt\n \np\ne\nr\ns\na\nu\nd\na\nr\na\na\nn\n.\nS\ne\nm\nu\ne\n \no\nr\na\nn\ng\n \nn\nt\nu\n \nd\ni\nl\na\nh\ni\nr\ni\nn\n \nb\ne\nb\na\ns\n \na\nm\ne\n \np\nu\nn\ny\ne\n \nm\na\nr\nt\na\nb\na\nt\n \nd\na\nn\n \nh\na\nk\n-\nh\na\nk\n \ny\na\nn\ng\n \ns\na\nm\ne\n.\n \nM\ne\nr\ne\nk\na\n \nn\nt\nu\n \nd\ni\nk\na\ns\ni\nh\n \na\nk\na\nl\n \na\nm\ne\n \na"
+}

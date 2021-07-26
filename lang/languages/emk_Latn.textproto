@@ -1,0 +1,18 @@
+id: "emk_Latn"
+language: "emk"
+script: "Latn"
+name: "Maninkakan, Eastern"
+sample_text {
+  masthead_full: "AaDd"
+  masthead_partial: "Mm"
+  styles: "A\nd\na\nm\na\nd\ne\nn\nn\nu\n \nb\nɛ\nɛ\n \ns\nɔ\nd\nɔ\nn\nɲ"
+  tester: "A\nd\na\nm\na\nd\ne\nn\nn\nu\n \nb\nɛ\nɛ\n \ns\nɔ\nd\nɔ\nn\nɲ\na\n \nk\na\nk\na\nn\n,\n \nh"
+  poster_sm: "A\nd\na\nm\na\nd"
+  poster_md: "A\nd\na\nm\na"
+  poster_lg: "A\nd"
+  specimen_48: "A\nd\na\nm\na\nd\ne\nn\nn\nu\n \nb\nɛ\nɛ\n \ns\nɔ\nd\nɔ\nn\nɲ\na\n \nk\na\nk\na\nn\n,\n \nh"
+  specimen_36: "A\nd\na\nm\na\nd\ne\nn\nn\nu\n \nb\nɛ\nɛ\n \ns\nɔ\nd\nɔ\nn\nɲ\na\n \nk\na\nk\na\nn\n,\n \nh\nɔ\nr\nɔ\ny\na\n \nd\nɔ\n,\n \nf\na\nb\na\nd\ne\nn\nɲ\na\n \nd"
+  specimen_32: "A\nd\na\nm\na\nd\ne\nn\nn\nu\n \nb\nɛ\nɛ\n \ns\nɔ\nd\nɔ\nn\nɲ\na\n \nk\na\nk\na\nn\n,\n \nh\nɔ\nr\nɔ\ny\na\n \nd\nɔ\n,\n \nf\na\nb\na\nd\ne\nn\nɲ\na\n \nd\nɔ\n \na\nn\ni\n \ns\na\nr\ni\ny\na\n \nt\na\n \nf\na\nn\n "
+  specimen_21: "A\nd\na\nm\na\nd\ne\nn\nn\nu\n \nb\nɛ\nɛ\n \ns\nɔ\nd\nɔ\nn\nɲ\na\n \nk\na\nk\na\nn\n,\n \nh\nɔ\nr\nɔ\ny\na\n \nd\nɔ\n,\n \nf\na\nb\na\nd\ne\nn\nɲ\na\n \nd\nɔ\n \na\nn\ni\n \ns\na\nr\ni\ny\na\n \nt\na\n \nf\na\nn\n \nd\nɔ\n.\n \nH\na\nn\nk\ni\nl\ni\n \nn\ni\n \ns\nɔ\nn\nɔ\nm\nɛ\n \ny\ne\n \na\nl\nu\n \nb\nɛ\nɛ\n \nm\na\n,\n \na\n \nk\na\nk\na\nn\n \nw\no\n \nd\nɔ\n \na\nl\nu\n \ny\ne\n \nb\na\nk\ne\nl\ne\nn\nɲ\na\n \ns\ni\nl\na\n \nl\na\nt\na\na\nm\na\nn"
+  specimen_16: "A\nd\na\nm\na\nd\ne\nn\nn\nu\n \nb\nɛ\nɛ\n \ns\nɔ\nd\nɔ\nn\nɲ\na\n \nk\na\nk\na\nn\n,\n \nh\nɔ\nr\nɔ\ny\na\n \nd\nɔ\n,\n \nf\na\nb\na\nd\ne\nn\nɲ\na\n \nd\nɔ\n \na\nn\ni\n \ns\na\nr\ni\ny\na\n \nt\na\n \nf\na\nn\n \nd\nɔ\n.\n \nH\na\nn\nk\ni\nl\ni\n \nn\ni\n \ns\nɔ\nn\nɔ\nm\nɛ\n \ny\ne\n \na\nl\nu\n \nb\nɛ\nɛ\n \nm\na\n,\n \na\n \nk\na\nk\na\nn\n \nw\no\n \nd\nɔ\n \na\nl\nu\n \ny\ne\n \nb\na\nk\ne\nl\ne\nn\nɲ\na\n \ns\ni\nl\na\n \nl\na\nt\na\na\nm\na\nn\n \na\nl\nu\n \nɲ\nɔ\nɔ\nn\n \nt\nɛ\n.\nA\nd\na\nm\na\nd\ne\nn\nn\nu\n \nb\nɛ\nɛ\n \ns\nɔ\nd\nɔ\nn\nɲ\na\n \nk\na\nk\na\nn\n,\n \nh\nɔ\nr\nɔ\ny\na\n \nd\nɔ\n,\n \nf\na\nb\na\nd\ne\nn\nɲ\na\n \nd\nɔ\n \na\nn\ni\n \ns\na\nr\ni\ny\na\n \nt\na\n \nf\na\nn\n \nd\nɔ\n.\n \nH\na\nn\nk\ni\nl\ni\n \nn\ni\n \ns\nɔ\nn\nɔ\nm\nɛ\n \ny\ne\n \na\nl\nu\n \nb\nɛ\nɛ\n \nm\na\n,\n \na\n \nk\na\nk"
+}

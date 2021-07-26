@@ -3,4 +3,18 @@ language: "bug"
 script: "Bugi"
 name: "Buginese, Buginese"
 population: 0
+sample_text {
+  masthead_full: "ᨔᨊᨑᨄ"
+  masthead_partial: "ᨈᨕ"
+  styles: "ᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ"
+  tester: "ᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨒ\nᨗ\nᨊ\nᨚ\nᨕ\nᨙ\n \nᨊ\nᨄ"
+  poster_sm: "ᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ"
+  poster_md: "ᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n "
+  poster_lg: "ᨔ\nᨗ\nᨊ"
+  specimen_48: "ᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨒ\nᨗ\nᨊ\nᨚ\nᨕ\nᨙ\n \nᨊ\nᨄ"
+  specimen_36: "ᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨒ\nᨗ\nᨊ\nᨚ\nᨕ\nᨙ\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨆ\nᨊ\nᨙ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨒ\nᨙ"
+  specimen_32: "ᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨒ\nᨗ\nᨊ\nᨚ\nᨕ\nᨙ\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨆ\nᨊ\nᨙ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨒ\nᨙ\nᨅ\nᨗ\nᨑ\nᨙ\n᨞\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨀ"
+  specimen_21: "ᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨒ\nᨗ\nᨊ\nᨚ\nᨕ\nᨙ\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨆ\nᨊ\nᨙ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨒ\nᨙ\nᨅ\nᨗ\nᨑ\nᨙ\n᨞\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨀ\nᨒ\nᨙ\n᨞\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨈ\nᨗ\n \nᨆ\nᨑ\nᨙ\nᨊ\nᨗ\n \nᨊ\n \nᨔ\nᨗ\nᨅ\nᨚ\nᨒ\nᨙ\n \nᨅ\nᨚ\nᨒ\nᨙ\nᨊ\n \nᨄ\nᨉ\n \nᨔ\nᨗ\nᨄ\nᨀ\nᨈ\nᨕ\nᨘ\n \nᨄ\nᨉ\n \nᨆ\nᨔ\nᨒ\nᨔ\nᨘ\nᨑ\nᨙ\n᨞\nᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ"
+  specimen_16: "ᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨒ\nᨗ\nᨊ\nᨚ\nᨕ\nᨙ\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨆ\nᨊ\nᨙ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨒ\nᨙ\nᨅ\nᨗ\nᨑ\nᨙ\n᨞\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨀ\nᨒ\nᨙ\n᨞\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨈ\nᨗ\n \nᨆ\nᨑ\nᨙ\nᨊ\nᨗ\n \nᨊ\n \nᨔ\nᨗ\nᨅ\nᨚ\nᨒ\nᨙ\n \nᨅ\nᨚ\nᨒ\nᨙ\nᨊ\n \nᨄ\nᨉ\n \nᨔ\nᨗ\nᨄ\nᨀ\nᨈ\nᨕ\nᨘ\n \nᨄ\nᨉ\n \nᨆ\nᨔ\nᨒ\nᨔ\nᨘ\nᨑ\nᨙ\n᨞\nᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨒ\nᨗ\nᨊ\nᨚ\nᨕ\nᨙ\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨆ\nᨊ\nᨙ\nᨊ\nᨁ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨒ\nᨙ\nᨅ\nᨗ\nᨑ\nᨙ\n᨞\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨀ\nᨒ\nᨙ\n᨞\n \nᨊ\nᨄ\nᨘ\nᨊ\nᨕ\nᨗ\n \nᨑ\nᨗ\nᨕ\nᨔ\nᨙ\nᨊ\nᨁ\nᨙ\n \nᨕ\nᨈ\nᨗ\n \nᨆ\nᨑ\nᨙ\nᨊ\nᨗ\n \nᨊ\n \nᨔ\nᨗ\nᨅ\nᨚ\nᨒ\nᨙ\n \nᨅ\nᨚ\nᨒ\nᨙ\nᨊ\n \nᨄ\nᨉ\n \nᨔ\nᨗ\nᨄ\nᨀ\nᨈ\nᨕ\nᨘ\n \nᨄ\nᨉ\n \nᨆ\nᨔ\nᨒ\nᨔ\nᨘ\nᨑ\nᨙ\n᨞\nᨔ\nᨗ\nᨊ\nᨗ\nᨊ\n \nᨑ\nᨘ\nᨄ\n \nᨈ\nᨕ\nᨘ\n \nᨑ\nᨗ\n \nᨍ\nᨍ\nᨗ\nᨕ\nᨊ\nᨁ\nᨗ"
+}
 historical: true

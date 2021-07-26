@@ -1,0 +1,18 @@
+id: "amc_Latn"
+language: "amc"
+script: "Latn"
+name: "Amahuaca"
+sample_text {
+  masthead_full: "TtZz"
+  masthead_partial: "Oo"
+  styles: "T\nz\no\nv\na\nn\n \nj\na\nt\no\n \nj\nu\nm\na\nh\na\ni\nt\no"
+  tester: "T\nz\no\nv\na\nn\n \nj\na\nt\no\n \nj\nu\nm\na\nh\na\ni\nt\no\n \nh\ni\nn\na\na\ny\na\nm\na"
+  poster_sm: "T\nz\no\nv\na\nn"
+  poster_md: "T\nz\no\nv\na"
+  poster_lg: "T\nz"
+  specimen_48: "T\nz\no\nv\na\nn\n \nj\na\nt\no\n \nj\nu\nm\na\nh\na\ni\nt\no\n \nh\ni\nn\na\na\ny\na\nm\na"
+  specimen_36: "T\nz\no\nv\na\nn\n \nj\na\nt\no\n \nj\nu\nm\na\nh\na\ni\nt\no\n \nh\ni\nn\na\na\ny\na\nm\na\nn\no\nn\nm\nu\nn\n \nv\na\nc\nu\nn\no\nx\nc\na\nn\nq\nu\ni"
+  specimen_32: "T\nz\no\nv\na\nn\n \nj\na\nt\no\n \nj\nu\nm\na\nh\na\ni\nt\no\n \nh\ni\nn\na\na\ny\na\nm\na\nn\no\nn\nm\nu\nn\n \nv\na\nc\nu\nn\no\nx\nc\na\nn\nq\nu\ni\nh\nn\nu\nc\na\nn\np\nu\n.\n \nT\nz\no\nv\na\nn\n \nj\na\nt"
+  specimen_21: "T\nz\no\nv\na\nn\n \nj\na\nt\no\n \nj\nu\nm\na\nh\na\ni\nt\no\n \nh\ni\nn\na\na\ny\na\nm\na\nn\no\nn\nm\nu\nn\n \nv\na\nc\nu\nn\no\nx\nc\na\nn\nq\nu\ni\nh\nn\nu\nc\na\nn\np\nu\n.\n \nT\nz\no\nv\na\nn\n \nj\na\nt\no\n \nz\ni\nn\na\na\ny\na\nm\na\nn\no\nn\nm\nu\nn\n \nv\na\nc\nu\nn\no\nx\nc\na\nn\nq\nu\ni\nh\nn\nu\nc\na\nn\np\nu\n.\n \nJ\no\nn\ni\nt\nz\na\nn\n \nd\ne\nr\ne\nc\nh\no\nc\na\nv\ni\nz\ny\na\nh\nt\no\nx\nr\ni\nv\ni\nm\nu\nn\n \nv\na\nc\nu\nn"
+  specimen_16: "T\nz\no\nv\na\nn\n \nj\na\nt\no\n \nj\nu\nm\na\nh\na\ni\nt\no\n \nh\ni\nn\na\na\ny\na\nm\na\nn\no\nn\nm\nu\nn\n \nv\na\nc\nu\nn\no\nx\nc\na\nn\nq\nu\ni\nh\nn\nu\nc\na\nn\np\nu\n.\n \nT\nz\no\nv\na\nn\n \nj\na\nt\no\n \nz\ni\nn\na\na\ny\na\nm\na\nn\no\nn\nm\nu\nn\n \nv\na\nc\nu\nn\no\nx\nc\na\nn\nq\nu\ni\nh\nn\nu\nc\na\nn\np\nu\n.\n \nJ\no\nn\ni\nt\nz\na\nn\n \nd\ne\nr\ne\nc\nh\no\nc\na\nv\ni\nz\ny\na\nh\nt\no\nx\nr\ni\nv\ni\nm\nu\nn\n \nv\na\nc\nu\nn\no\nx\nc\na\nn\nq\nu\ni\nh\nq\nu\ni\n.\n \nQ\nu\ni\ny\no\no\nv\ni\nn\ni\nn\n \ns\nh\ni\nn\na\nn\nq\nu\ni\nn\n \nh\ni\nr\no\nm\na\nq\nu\ni\nn\n \nj\na\nu\nc\nu\nz\na\nh\na\nv\no\nr\na\nh\nq\nu\ni\nq\nu\ni\n \ns\nh\ni\nn\na\nn\nt\ni\nm\nu\nn\nh\nc\na\nn\nq\nu\ni\nh\nq\nu\ni\n.\n \nV\na\nc\nu\nr\na\nz\ni\nx\nq\nu\ni\nc\na\nv\ni\nz\nh\ni\n \nq\nu\ni\ny\no\no\nv\ni\nn\ni\nx\nj\na"
+}

@@ -1,0 +1,18 @@
+id: "bba_Latn"
+language: "bba"
+script: "Latn"
+name: "Baatonum"
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Tt"
+  styles: "B\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na"
+  tester: "B\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na\n \nb\na\n \nt\ni\ni\n \nm\nɔ"
+  poster_sm: "B\na\n \nt\nɔ\nm"
+  poster_md: "B\na\n \nt\nɔ"
+  poster_lg: "B\na"
+  specimen_48: "B\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na\n \nb\na\n \nt\ni\ni\n \nm\nɔ"
+  specimen_36: "B\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na\n \nb\na\n \nt\ni\ni\n \nm\nɔ\n,\n \nb\na\n \nn\nɛ\n,\n \ng\ni\nr\ni\nm\na\n \nk\na\n \ns\na"
+  specimen_32: "B\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na\n \nb\na\n \nt\ni\ni\n \nm\nɔ\n,\n \nb\na\n \nn\nɛ\n,\n \ng\ni\nr\ni\nm\na\n \nk\na\n \ns\na\nr\ni\na\n \ns\nɔ\nɔ\n.\n \nB\na\n \nr\na\n \nb\nw\ni\ns\ni"
+  specimen_21: "B\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na\n \nb\na\n \nt\ni\ni\n \nm\nɔ\n,\n \nb\na\n \nn\nɛ\n,\n \ng\ni\nr\ni\nm\na\n \nk\na\n \ns\na\nr\ni\na\n \ns\nɔ\nɔ\n.\n \nB\na\n \nr\na\n \nb\nw\ni\ns\ni\nk\nu\n,\n \nb\na\n \nd\na\ns\na\nb\nu\n \nm\nɔ\n,\n \nm\na\n \nn\n \nw\ne\ne\nn\ne\n \nb\na\n \nn\n \nw\na\na\ns\ni\nn\nɛ\n \nm\nɛ\nr\no\nb\ni\ns\ni\nr\nu\n \ns\nɔ\nɔ\n.\nB\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na\n \nb\na\n "
+  specimen_16: "B\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na\n \nb\na\n \nt\ni\ni\n \nm\nɔ\n,\n \nb\na\n \nn\nɛ\n,\n \ng\ni\nr\ni\nm\na\n \nk\na\n \ns\na\nr\ni\na\n \ns\nɔ\nɔ\n.\n \nB\na\n \nr\na\n \nb\nw\ni\ns\ni\nk\nu\n,\n \nb\na\n \nd\na\ns\na\nb\nu\n \nm\nɔ\n,\n \nm\na\n \nn\n \nw\ne\ne\nn\ne\n \nb\na\n \nn\n \nw\na\na\ns\ni\nn\nɛ\n \nm\nɛ\nr\no\nb\ni\ns\ni\nr\nu\n \ns\nɔ\nɔ\n.\nB\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na\n \nb\na\n \nt\ni\ni\n \nm\nɔ\n,\n \nb\na\n \nn\nɛ\n,\n \ng\ni\nr\ni\nm\na\n \nk\na\n \ns\na\nr\ni\na\n \ns\nɔ\nɔ\n.\n \nB\na\n \nr\na\n \nb\nw\ni\ns\ni\nk\nu\n,\n \nb\na\n \nd\na\ns\na\nb\nu\n \nm\nɔ\n,\n \nm\na\n \nn\n \nw\ne\ne\nn\ne\n \nb\na\n \nn\n \nw\na\na\ns\ni\nn\nɛ\n \nm\nɛ\nr\no\nb\ni\ns\ni\nr\nu\n \ns\nɔ\nɔ\n.\nB\na\n \nt\nɔ\nm\nb\nu\n \nk\np\nu\nr\no\n \nm\na\nr\na\nw\na\n \nb\na"
+}

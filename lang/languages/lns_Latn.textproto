@@ -1,0 +1,18 @@
+id: "lns_Latn"
+language: "lns"
+script: "Latn"
+name: "Lamnso\'"
+sample_text {
+  masthead_full: "ÁáDd"
+  masthead_partial: "Zz"
+  styles: "Á\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nd\nz\nə\ǹ\nm\n \nr\né\nŋ"
+  tester: "Á\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nd\nz\nə\ǹ\nm\n \nr\né\nŋ\nr\né\nŋ\n \nf\nó\n \ng\nh\nv"
+  poster_sm: "Á\n \nd\nz\nə\ǹ"
+  poster_md: "Á\n \nd\nz\nə"
+  poster_lg: "Á\n "
+  specimen_48: "Á\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nd\nz\nə\ǹ\nm\n \nr\né\nŋ\nr\né\nŋ\n \nf\nó\n \ng\nh\nv"
+  specimen_36: "Á\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nd\nz\nə\ǹ\nm\n \nr\né\nŋ\nr\né\nŋ\n \nf\nó\n \ng\nh\nv\nə\nm\n \nw\nù\nn\n \nà\n \nf\nó\n \ng\nh\nà\ny\n,\n \ná\n \ny"
+  specimen_32: "Á\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nd\nz\nə\ǹ\nm\n \nr\né\nŋ\nr\né\nŋ\n \nf\nó\n \ng\nh\nv\nə\nm\n \nw\nù\nn\n \nà\n \nf\nó\n \ng\nh\nà\ny\n,\n \ná\n \ny\no\n’\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nm\ns\nò\nŋ\n \nj\ni"
+  specimen_21: "Á\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nd\nz\nə\ǹ\nm\n \nr\né\nŋ\nr\né\nŋ\n \nf\nó\n \ng\nh\nv\nə\nm\n \nw\nù\nn\n \nà\n \nf\nó\n \ng\nh\nà\ny\n,\n \ná\n \ny\no\n’\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nm\ns\nò\nŋ\n \nj\ni\n \nk\nw\nà\nn\n.\n \nW\nì\nr\n \nd\nz\nə\ǹ\nm\n \nk\ǹ\nm\n \nk\n \nf\nó\nm\no\n \nw\no\no\n \nf\nó\n \nk\nw\nà\n’\nt\nì\n \nw\nù\nn\n \nà\n \nf\nó\n \nv\ni\nf\ni\ni\n,\n \na\n \nw\nù\n \nk\né\nr\n \nf\nó\n \na\n \ny\ni\nì\n \ne\n \nw\nù\nm\nò\n’"
+  specimen_16: "Á\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nd\nz\nə\ǹ\nm\n \nr\né\nŋ\nr\né\nŋ\n \nf\nó\n \ng\nh\nv\nə\nm\n \nw\nù\nn\n \nà\n \nf\nó\n \ng\nh\nà\ny\n,\n \ná\n \ny\no\n’\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nm\ns\nò\nŋ\n \nj\ni\n \nk\nw\nà\nn\n.\n \nW\nì\nr\n \nd\nz\nə\ǹ\nm\n \nk\ǹ\nm\n \nk\n \nf\nó\nm\no\n \nw\no\no\n \nf\nó\n \nk\nw\nà\n’\nt\nì\n \nw\nù\nn\n \nà\n \nf\nó\n \nv\ni\nf\ni\ni\n,\n \na\n \nw\nù\n \nk\né\nr\n \nf\nó\n \na\n \ny\ni\nì\n \ne\n \nw\nù\nm\nò\n’\n \nw\no\no\n \nw\ní\nr\n \nm\no\no\n \nf\nə\ń\nr\n \nv\nə\n.\nÁ\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nd\nz\nə\ǹ\nm\n \nr\né\nŋ\nr\né\nŋ\n \nf\nó\n \ng\nh\nv\nə\nm\n \nw\nù\nn\n \nà\n \nf\nó\n \ng\nh\nà\ny\n,\n \ná\n \ny\no\n’\n \nd\nz\nə\ǹ\nə\ń\n \nw\ni\nr\n \nm\ns\nò\nŋ\n \nj\ni\n \nk\nw\nà\nn\n.\n \nW\nì\nr\n \nd\nz\nə\ǹ\nm\n \nk\ǹ\nm\n \nk\n \nf\nó\nm\no\n \nw\no\no\n \nf\nó\n \nk"
+}

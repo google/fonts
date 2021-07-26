@@ -1,0 +1,18 @@
+id: "tt_Latn"
+language: "tt"
+script: "Latn"
+name: "Tatar, Latin"
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Rr"
+  styles: "B\na\nr\nl\nı\nq\n \nk\ne\nş\ne\nl\nä\nr\n \nd\nä\n \na\nz\na"
+  tester: "B\na\nr\nl\nı\nq\n \nk\ne\nş\ne\nl\nä\nr\n \nd\nä\n \na\nz\na\nt\n \nh\nä\nm\n \nü\nz\n \na"
+  poster_sm: "B\na\nr\nl\nı\nq"
+  poster_md: "B\na\nr\nl\nı"
+  poster_lg: "B\na"
+  specimen_48: "B\na\nr\nl\nı\nq\n \nk\ne\nş\ne\nl\nä\nr\n \nd\nä\n \na\nz\na\nt\n \nh\nä\nm\n \nü\nz\n \na"
+  specimen_36: "B\na\nr\nl\nı\nq\n \nk\ne\nş\ne\nl\nä\nr\n \nd\nä\n \na\nz\na\nt\n \nh\nä\nm\n \nü\nz\n \na\nb\nr\nu\ny\nl\na\nr\nı\n \nh\nä\nm\n \nx\no\nq\nu\nq\nl\na"
+  specimen_32: "B\na\nr\nl\nı\nq\n \nk\ne\nş\ne\nl\nä\nr\n \nd\nä\n \na\nz\na\nt\n \nh\nä\nm\n \nü\nz\n \na\nb\nr\nu\ny\nl\na\nr\nı\n \nh\nä\nm\n \nx\no\nq\nu\nq\nl\na\nr\nı\n \ny\na\nğ\nı\nn\nn\na\nn\n \nt\ni\nñ\n \nb\nu\nl\nı"
+  specimen_21: "B\na\nr\nl\nı\nq\n \nk\ne\nş\ne\nl\nä\nr\n \nd\nä\n \na\nz\na\nt\n \nh\nä\nm\n \nü\nz\n \na\nb\nr\nu\ny\nl\na\nr\nı\n \nh\nä\nm\n \nx\no\nq\nu\nq\nl\na\nr\nı\n \ny\na\nğ\nı\nn\nn\na\nn\n \nt\ni\nñ\n \nb\nu\nl\nı\np\n \nt\nu\na\nl\na\nr\n.\n \nA\nl\na\nr\nğ\na\n \na\nq\nı\nl\n \nh\nä\nm\n \nw\no\nc\nl\na\ní\n \nb\ni\nr\ne\nl\ng\nä\nn\n \nh\nä\nm\n \nb\ne\nr\n-\nb\ne\nr\ns\ne\nn\nä\n \nq\na\nr\na\nt\na\n \nt\nu\nğ\na\nn\na\nr\nç\na\n \nm\no\nn\nä\ns\nä"
+  specimen_16: "B\na\nr\nl\nı\nq\n \nk\ne\nş\ne\nl\nä\nr\n \nd\nä\n \na\nz\na\nt\n \nh\nä\nm\n \nü\nz\n \na\nb\nr\nu\ny\nl\na\nr\nı\n \nh\nä\nm\n \nx\no\nq\nu\nq\nl\na\nr\nı\n \ny\na\nğ\nı\nn\nn\na\nn\n \nt\ni\nñ\n \nb\nu\nl\nı\np\n \nt\nu\na\nl\na\nr\n.\n \nA\nl\na\nr\nğ\na\n \na\nq\nı\nl\n \nh\nä\nm\n \nw\no\nc\nl\na\ní\n \nb\ni\nr\ne\nl\ng\nä\nn\n \nh\nä\nm\n \nb\ne\nr\n-\nb\ne\nr\ns\ne\nn\nä\n \nq\na\nr\na\nt\na\n \nt\nu\nğ\na\nn\na\nr\nç\na\n \nm\no\nn\nä\ns\nä\nb\nä\nt\nt\nä\n \nb\nu\nl\nı\nr\nğ\na\n \nt\ni\ne\nş\nl\nä\nr\n.\nB\na\nr\nl\nı\nq\n \nk\ne\nş\ne\nl\nä\nr\n \nd\nä\n \na\nz\na\nt\n \nh\nä\nm\n \nü\nz\n \na\nb\nr\nu\ny\nl\na\nr\nı\n \nh\nä\nm\n \nx\no\nq\nu\nq\nl\na\nr\nı\n \ny\na\nğ\nı\nn\nn\na\nn\n \nt\ni\nñ\n \nb\nu\nl\nı\np\n \nt\nu\na\nl\na\nr\n.\n \nA\nl\na\nr\nğ\na\n \na\nq\nı\nl\n \nh\nä\nm\n \nw\no\nc\nl\na\ní\n "
+}

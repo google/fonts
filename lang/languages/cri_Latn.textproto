@@ -1,0 +1,18 @@
+id: "cri_Latn"
+language: "cri"
+script: "Latn"
+name: "Sãotomense"
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Dd"
+  styles: "T\nu\nd\nu\n \nn\ng\nu\nê\n \nd\ni\n \nm\nu\nn\nd\nu\n \nc\na"
+  tester: "T\nu\nd\nu\n \nn\ng\nu\nê\n \nd\ni\n \nm\nu\nn\nd\nu\n \nc\na\n \nn\na\nn\nc\nê\n \nl\ni\nv"
+  poster_sm: "T\nu\nd\nu\n \nn"
+  poster_md: "T\nu\nd\nu\n "
+  poster_lg: "T\nu"
+  specimen_48: "T\nu\nd\nu\n \nn\ng\nu\nê\n \nd\ni\n \nm\nu\nn\nd\nu\n \nc\na\n \nn\na\nn\nc\nê\n \nl\ni\nv"
+  specimen_36: "T\nu\nd\nu\n \nn\ng\nu\nê\n \nd\ni\n \nm\nu\nn\nd\nu\n \nc\na\n \nn\na\nn\nc\nê\n \nl\ni\nv\nl\ni\n \ne\n \ni\ng\nu\na\nl\n \nn\ni\n \nd\ni\ng\nn\ni\nd"
+  specimen_32: "T\nu\nd\nu\n \nn\ng\nu\nê\n \nd\ni\n \nm\nu\nn\nd\nu\n \nc\na\n \nn\na\nn\nc\nê\n \nl\ni\nv\nl\ni\n \ne\n \ni\ng\nu\na\nl\n \nn\ni\n \nd\ni\ng\nn\ni\nd\na\nd\ne\n \ne\n \nn\ni\n \nd\ni\nr\nê\nt\nu\n.\n \nP\nu\nn"
+  specimen_21: "T\nu\nd\nu\n \nn\ng\nu\nê\n \nd\ni\n \nm\nu\nn\nd\nu\n \nc\na\n \nn\na\nn\nc\nê\n \nl\ni\nv\nl\ni\n \ne\n \ni\ng\nu\na\nl\n \nn\ni\n \nd\ni\ng\nn\ni\nd\na\nd\ne\n \ne\n \nn\ni\n \nd\ni\nr\nê\nt\nu\n.\n \nP\nu\nn\nd\na\n \nn\ne\nn\n \nc\na\n \np\ne\nn\ns\ná\n \ne\n \nn\ne\nn\n \nt\nê\n \nc\nu\nn\nx\ne\nn\ns\na\n,\n \ns\ne\nl\ná\n \nn\ne\nn\n \nf\né\n \nt\nu\nd\nu\n \nc\nu\ná\n \nc\nu\n \nt\ne\nn\nç\nó\nn\n \nd\ne\n \nl\nu\nm\nó\nn\n.\nT\nu\nd\nu\n \nn"
+  specimen_16: "T\nu\nd\nu\n \nn\ng\nu\nê\n \nd\ni\n \nm\nu\nn\nd\nu\n \nc\na\n \nn\na\nn\nc\nê\n \nl\ni\nv\nl\ni\n \ne\n \ni\ng\nu\na\nl\n \nn\ni\n \nd\ni\ng\nn\ni\nd\na\nd\ne\n \ne\n \nn\ni\n \nd\ni\nr\nê\nt\nu\n.\n \nP\nu\nn\nd\na\n \nn\ne\nn\n \nc\na\n \np\ne\nn\ns\ná\n \ne\n \nn\ne\nn\n \nt\nê\n \nc\nu\nn\nx\ne\nn\ns\na\n,\n \ns\ne\nl\ná\n \nn\ne\nn\n \nf\né\n \nt\nu\nd\nu\n \nc\nu\ná\n \nc\nu\n \nt\ne\nn\nç\nó\nn\n \nd\ne\n \nl\nu\nm\nó\nn\n.\nT\nu\nd\nu\n \nn\ng\nu\nê\n \nd\ni\n \nm\nu\nn\nd\nu\n \nc\na\n \nn\na\nn\nc\nê\n \nl\ni\nv\nl\ni\n \ne\n \ni\ng\nu\na\nl\n \nn\ni\n \nd\ni\ng\nn\ni\nd\na\nd\ne\n \ne\n \nn\ni\n \nd\ni\nr\nê\nt\nu\n.\n \nP\nu\nn\nd\na\n \nn\ne\nn\n \nc\na\n \np\ne\nn\ns\ná\n \ne\n \nn\ne\nn\n \nt\nê\n \nc\nu\nn\nx\ne\nn\ns\na\n,\n \ns\ne\nl\ná\n \nn\ne\nn\n \nf\né\n \nt\nu\nd\nu\n \nc\nu\ná\n \nc\nu\n \nt\ne"
+}

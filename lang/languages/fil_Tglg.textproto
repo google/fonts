@@ -3,4 +3,18 @@ language: "fil"
 script: "Tglg"
 name: "Filipino, Tagalog"
 population: 0
+sample_text {
+  masthead_full: "ᜀᜅᜎᜑ"
+  masthead_partial: "ᜆᜂ"
+  styles: "ᜀ\nᜅ\n᜔\n \nᜎ\nᜑ\nᜆ\n᜔\n \nᜅ\n᜔\n \nᜆ\nᜂ\nᜌ\n᜔\n \nᜁ\nᜐ\nᜒ\nᜈ\nᜒ\nᜎ\nᜅ"
+  tester: "ᜀ\nᜅ\n᜔\n \nᜎ\nᜑ\nᜆ\n᜔\n \nᜅ\n᜔\n \nᜆ\nᜂ\nᜌ\n᜔\n \nᜁ\nᜐ\nᜒ\nᜈ\nᜒ\nᜎ\nᜅ\n᜔\n \nᜈ\n \nᜋ\nᜎ\nᜌ\n \nᜀ\nᜆ"
+  poster_sm: "ᜀ\nᜅ\n᜔\n \nᜎ\nᜑ"
+  poster_md: "ᜀ\nᜅ\n᜔\n \nᜎ"
+  poster_lg: "ᜀ\nᜅ"
+  specimen_48: "ᜀ\nᜅ\n᜔\n \nᜎ\nᜑ\nᜆ\n᜔\n \nᜅ\n᜔\n \nᜆ\nᜂ\nᜌ\n᜔\n \nᜁ\nᜐ\nᜒ\nᜈ\nᜒ\nᜎ\nᜅ\n᜔\n \nᜈ\n \nᜋ\nᜎ\nᜌ\n \nᜀ\nᜆ"
+  specimen_36: "ᜀ\nᜅ\n᜔\n \nᜎ\nᜑ\nᜆ\n᜔\n \nᜅ\n᜔\n \nᜆ\nᜂ\nᜌ\n᜔\n \nᜁ\nᜐ\nᜒ\nᜈ\nᜒ\nᜎ\nᜅ\n᜔\n \nᜈ\n \nᜋ\nᜎ\nᜌ\n \nᜀ\nᜆ\n᜔\n \nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\n \nᜐ\n \nᜃ\nᜇ\nᜅ\nᜎ\nᜈ\n᜔"
+  specimen_32: "ᜀ\nᜅ\n᜔\n \nᜎ\nᜑ\nᜆ\n᜔\n \nᜅ\n᜔\n \nᜆ\nᜂ\nᜌ\n᜔\n \nᜁ\nᜐ\nᜒ\nᜈ\nᜒ\nᜎ\nᜅ\n᜔\n \nᜈ\n \nᜋ\nᜎ\nᜌ\n \nᜀ\nᜆ\n᜔\n \nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\n \nᜐ\n \nᜃ\nᜇ\nᜅ\nᜎ\nᜈ\n᜔\n \nᜀ\nᜆ\n᜔\n \nᜋ\n᜔\nᜄ\n \nᜃ\nᜇ\nᜉ\nᜆ\nᜈ\n᜔\n \nᜐ\nᜒ\nᜎ\nᜌ\n᜔\n \nᜉ"
+  specimen_21: "ᜀ\nᜅ\n᜔\n \nᜎ\nᜑ\nᜆ\n᜔\n \nᜅ\n᜔\n \nᜆ\nᜂ\nᜌ\n᜔\n \nᜁ\nᜐ\nᜒ\nᜈ\nᜒ\nᜎ\nᜅ\n᜔\n \nᜈ\n \nᜋ\nᜎ\nᜌ\n \nᜀ\nᜆ\n᜔\n \nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\n \nᜐ\n \nᜃ\nᜇ\nᜅ\nᜎ\nᜈ\n᜔\n \nᜀ\nᜆ\n᜔\n \nᜋ\n᜔\nᜄ\n \nᜃ\nᜇ\nᜉ\nᜆ\nᜈ\n᜔\n \nᜐ\nᜒ\nᜎ\nᜌ\n᜔\n \nᜉ\nᜒ\nᜈ\nᜄ\n᜔\nᜃ\nᜎ\nᜓ\nᜊ\nᜈ\n᜔\n \nᜅ\n᜔\n \nᜃ\nᜆ\n᜔\nᜏ\nᜒ\nᜇ\nᜈ\n᜔\n \nᜀ\nᜆ\n᜔\n \nᜊ\nᜓ\nᜇ\n᜔\nᜑ\nᜒ\n \nᜀ\nᜆ\n᜔\n \nᜇ\nᜉ\nᜆ\n᜔\n \nᜋ\nᜄ\n᜔\nᜉ\nᜎ\nᜄ\nᜌ\nᜈ\n᜔\n \nᜀ\nᜅ\n᜔\n \nᜁ\nᜐ\nᜆ\n᜔\n \nᜁ\nᜐ\n \nᜐ\n \nᜇ\nᜒ\nᜏ\n \nᜅ\n᜔\n \nᜉ\nᜄ\n᜔\nᜃ\nᜃ\nᜉ\nᜆ\nᜒ\nᜇ\nᜈ\n᜔\nᜀ\nᜅ\n᜔\n \nᜎ\nᜑ\nᜆ"
+  specimen_16: "ᜀ\nᜅ\n᜔\n \nᜎ\nᜑ\nᜆ\n᜔\n \nᜅ\n᜔\n \nᜆ\nᜂ\nᜌ\n᜔\n \nᜁ\nᜐ\nᜒ\nᜈ\nᜒ\nᜎ\nᜅ\n᜔\n \nᜈ\n \nᜋ\nᜎ\nᜌ\n \nᜀ\nᜆ\n᜔\n \nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\n \nᜐ\n \nᜃ\nᜇ\nᜅ\nᜎ\nᜈ\n᜔\n \nᜀ\nᜆ\n᜔\n \nᜋ\n᜔\nᜄ\n \nᜃ\nᜇ\nᜉ\nᜆ\nᜈ\n᜔\n \nᜐ\nᜒ\nᜎ\nᜌ\n᜔\n \nᜉ\nᜒ\nᜈ\nᜄ\n᜔\nᜃ\nᜎ\nᜓ\nᜊ\nᜈ\n᜔\n \nᜅ\n᜔\n \nᜃ\nᜆ\n᜔\nᜏ\nᜒ\nᜇ\nᜈ\n᜔\n \nᜀ\nᜆ\n᜔\n \nᜊ\nᜓ\nᜇ\n᜔\nᜑ\nᜒ\n \nᜀ\nᜆ\n᜔\n \nᜇ\nᜉ\nᜆ\n᜔\n \nᜋ\nᜄ\n᜔\nᜉ\nᜎ\nᜄ\nᜌ\nᜈ\n᜔\n \nᜀ\nᜅ\n᜔\n \nᜁ\nᜐ\nᜆ\n᜔\n \nᜁ\nᜐ\n \nᜐ\n \nᜇ\nᜒ\nᜏ\n \nᜅ\n᜔\n \nᜉ\nᜄ\n᜔\nᜃ\nᜃ\nᜉ\nᜆ\nᜒ\nᜇ\nᜈ\n᜔\nᜀ\nᜅ\n᜔\n \nᜎ\nᜑ\nᜆ\n᜔\n \nᜅ\n᜔\n \nᜆ\nᜂ\nᜌ\n᜔\n \nᜁ\nᜐ\nᜒ\nᜈ\nᜒ\nᜎ\nᜅ\n᜔\n \nᜈ\n \nᜋ\nᜎ\nᜌ\n \nᜀ\nᜆ\n᜔\n \nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\nᜉ\nᜈ\n᜔\nᜆ\nᜌ\n᜔\n \nᜐ\n \nᜃ\nᜇ\nᜅ\nᜎ\nᜈ\n᜔\n \nᜀ\nᜆ\n᜔\n \nᜋ\n᜔\nᜄ\n \nᜃ\nᜇ\nᜉ\nᜆ\nᜈ\n᜔\n \nᜐ\nᜒ\nᜎ\nᜌ\n᜔\n \nᜉ\nᜒ\nᜈ\nᜄ\n᜔\nᜃ\nᜎ\nᜓ\nᜊ\nᜈ\n᜔\n \nᜅ\n᜔\n \nᜃ\nᜆ\n᜔\nᜏ\nᜒ\nᜇ\nᜈ\n᜔\n \nᜀ\nᜆ\n᜔\n \nᜊ\nᜓ\nᜇ\n᜔\nᜑ\nᜒ\n \nᜀ\nᜆ\n᜔\n \nᜇ\nᜉ\nᜆ\n᜔\n \nᜋ\nᜄ\n᜔\nᜉ\nᜎ\nᜄ\nᜌ\nᜈ\n᜔\n \nᜀ\nᜅ\n᜔\n \nᜁ\nᜐ\nᜆ\n᜔\n \nᜁ\nᜐ\n \nᜐ\n \nᜇ\nᜒ\nᜏ"
+}
 historical: true

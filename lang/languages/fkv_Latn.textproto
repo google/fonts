@@ -1,0 +1,18 @@
+id: "fkv_Latn"
+language: "fkv"
+script: "Latn"
+name: "Finnish, Kven"
+sample_text {
+  masthead_full: "KkAa"
+  masthead_partial: "Ii"
+  styles: "K\na\ni\nk\nk\ni\n \ni\nh\nm\ni\ns\ne\nt\n \ns\ny\nn\nn\ny\nt"
+  tester: "K\na\ni\nk\nk\ni\n \ni\nh\nm\ni\ns\ne\nt\n \ns\ny\nn\nn\ny\nt\nh\nä\nä\nn\n \nv\na\np\nh\na"
+  poster_sm: "K\na\ni\nk\nk\ni"
+  poster_md: "K\na\ni\nk\nk"
+  poster_lg: "K\na"
+  specimen_48: "K\na\ni\nk\nk\ni\n \ni\nh\nm\ni\ns\ne\nt\n \ns\ny\nn\nn\ny\nt\nh\nä\nä\nn\n \nv\na\np\nh\na"
+  specimen_36: "K\na\ni\nk\nk\ni\n \ni\nh\nm\ni\ns\ne\nt\n \ns\ny\nn\nn\ny\nt\nh\nä\nä\nn\n \nv\na\np\nh\na\ni\nn\na\n,\n \nj\na\n \nh\ne\ni\nl\nä\n \nk\na\ni\nk\ni\nl"
+  specimen_32: "K\na\ni\nk\nk\ni\n \ni\nh\nm\ni\ns\ne\nt\n \ns\ny\nn\nn\ny\nt\nh\nä\nä\nn\n \nv\na\np\nh\na\ni\nn\na\n,\n \nj\na\n \nh\ne\ni\nl\nä\n \nk\na\ni\nk\ni\nl\na\n \no\no\nn\n \ns\na\nm\na\n \ni\nh\nm\ni\ns\na\nr\nv\no"
+  specimen_21: "K\na\ni\nk\nk\ni\n \ni\nh\nm\ni\ns\ne\nt\n \ns\ny\nn\nn\ny\nt\nh\nä\nä\nn\n \nv\na\np\nh\na\ni\nn\na\n,\n \nj\na\n \nh\ne\ni\nl\nä\n \nk\na\ni\nk\ni\nl\na\n \no\no\nn\n \ns\na\nm\na\n \ni\nh\nm\ni\ns\na\nr\nv\no\n \nj\na\n \ns\na\nm\na\nt\n \ni\nh\nm\ni\ns\no\ni\nk\nk\ne\nu\ne\nt\n.\n \nH\ne\nt\n \no\no\nn\n \ns\na\na\nn\nh\ne\ne\nt\n \nj\nä\nr\nj\ne\nn\n \nj\na\n \no\nm\na\nt\nu\nn\nn\no\nn\n,\n \nj\na\n \nh\ne\nt\n \np\ni\ne\nt\nh\nä\nä\nn\n \ne\nl"
+  specimen_16: "K\na\ni\nk\nk\ni\n \ni\nh\nm\ni\ns\ne\nt\n \ns\ny\nn\nn\ny\nt\nh\nä\nä\nn\n \nv\na\np\nh\na\ni\nn\na\n,\n \nj\na\n \nh\ne\ni\nl\nä\n \nk\na\ni\nk\ni\nl\na\n \no\no\nn\n \ns\na\nm\na\n \ni\nh\nm\ni\ns\na\nr\nv\no\n \nj\na\n \ns\na\nm\na\nt\n \ni\nh\nm\ni\ns\no\ni\nk\nk\ne\nu\ne\nt\n.\n \nH\ne\nt\n \no\no\nn\n \ns\na\na\nn\nh\ne\ne\nt\n \nj\nä\nr\nj\ne\nn\n \nj\na\n \no\nm\na\nt\nu\nn\nn\no\nn\n,\n \nj\na\n \nh\ne\nt\n \np\ni\ne\nt\nh\nä\nä\nn\n \ne\nl\nl\nä\nä\nt\n \nt\no\ni\nn\ne\nn\n \nt\no\ni\ns\ne\nn\n \nk\na\nn\ns\n \nn\ni\ni\nn\n \nk\no\n \nv\ne\nl\nj\ne\nt\n \nk\ne\ns\nk\ne\nn\nh\nä\nä\nn\n.\nK\na\ni\nk\nk\ni\n \ni\nh\nm\ni\ns\ne\nt\n \ns\ny\nn\nn\ny\nt\nh\nä\nä\nn\n \nv\na\np\nh\na\ni\nn\na\n,\n \nj\na\n \nh\ne\ni\nl\nä\n \nk\na\ni\nk\ni\nl\na\n \no\no\nn\n \ns\na\nm\na\n \ni\nh\nm\ni\ns\na\nr\nv\no\n \nj\na\n \ns"
+}

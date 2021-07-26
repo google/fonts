@@ -1,0 +1,18 @@
+id: "tzh_Latn"
+language: "tzh"
+script: "Latn"
+name: "Tzeltal, Oxchuc"
+sample_text {
+  masthead_full: "SsPp"
+  masthead_partial: "Ii"
+  styles: "S\np\ni\ns\ni\nl\n \nw\ni\nn\ni\nk\ne\nt\ni\nk\n \nt\ne\n \ny"
+  tester: "S\np\ni\ns\ni\nl\n \nw\ni\nn\ni\nk\ne\nt\ni\nk\n \nt\ne\n \ny\na\n \nx\nb\ne\nj\nk\n´\na\nj"
+  poster_sm: "S\np\ni\ns\ni\nl"
+  poster_md: "S\np\ni\ns\ni"
+  poster_lg: "S\np"
+  specimen_48: "S\np\ni\ns\ni\nl\n \nw\ni\nn\ni\nk\ne\nt\ni\nk\n \nt\ne\n \ny\na\n \nx\nb\ne\nj\nk\n´\na\nj"
+  specimen_36: "S\np\ni\ns\ni\nl\n \nw\ni\nn\ni\nk\ne\nt\ni\nk\n \nt\ne\n \ny\na\n \nx\nb\ne\nj\nk\n´\na\nj\ni\nk\n \nt\na\n \nk\n´\ni\nn\na\nl\ni\nl\n \na\ny\n \nj\nr\ne"
+  specimen_32: "S\np\ni\ns\ni\nl\n \nw\ni\nn\ni\nk\ne\nt\ni\nk\n \nt\ne\n \ny\na\n \nx\nb\ne\nj\nk\n´\na\nj\ni\nk\n \nt\na\n \nk\n´\ni\nn\na\nl\ni\nl\n \na\ny\n \nj\nr\ne\nr\ne\nc\nh\no\nt\ni\nk\n,\n \nm\na\ny\nu\nk\n \nm\na\nc\nh"
+  specimen_21: "S\np\ni\ns\ni\nl\n \nw\ni\nn\ni\nk\ne\nt\ni\nk\n \nt\ne\n \ny\na\n \nx\nb\ne\nj\nk\n´\na\nj\ni\nk\n \nt\na\n \nk\n´\ni\nn\na\nl\ni\nl\n \na\ny\n \nj\nr\ne\nr\ne\nc\nh\no\nt\ni\nk\n,\n \nm\na\ny\nu\nk\n \nm\na\nc\nh\n´\na\n \nc\nh\nu\nk\nu\nl\n \ny\na\n \nx\nb\ne\nj\nk\na\n,\n \ny\na\n \nj\nn\na\nt\ni\nk\n \ns\nt\no\nj\no\nl\n \nt\ne\n \nj\np\ni\ns\ni\nl\nt\ni\nk\n \na\ny\n \ns\nn\no\np\ni\nb\na\nl\n \ns\no\nk\n \ns\nb\ni\nj\ni\nl\n \nj\no\nl\nt\ni\nk\n,\n "
+  specimen_16: "S\np\ni\ns\ni\nl\n \nw\ni\nn\ni\nk\ne\nt\ni\nk\n \nt\ne\n \ny\na\n \nx\nb\ne\nj\nk\n´\na\nj\ni\nk\n \nt\na\n \nk\n´\ni\nn\na\nl\ni\nl\n \na\ny\n \nj\nr\ne\nr\ne\nc\nh\no\nt\ni\nk\n,\n \nm\na\ny\nu\nk\n \nm\na\nc\nh\n´\na\n \nc\nh\nu\nk\nu\nl\n \ny\na\n \nx\nb\ne\nj\nk\na\n,\n \ny\na\n \nj\nn\na\nt\ni\nk\n \ns\nt\no\nj\no\nl\n \nt\ne\n \nj\np\ni\ns\ni\nl\nt\ni\nk\n \na\ny\n \ns\nn\no\np\ni\nb\na\nl\n \ns\no\nk\n \ns\nb\ni\nj\ni\nl\n \nj\no\nl\nt\ni\nk\n,\n \nj\na\n´\n \nm\ne\n \nk\n´\nu\nx\n \ny\na\n \nk\na\ni\nb\na\nt\ni\nk\n \nt\na\n \nj\nu\nj\nu\nn\n \nt\nu\nl\n.\nS\np\ni\ns\ni\nl\n \nw\ni\nn\ni\nk\ne\nt\ni\nk\n \nt\ne\n \ny\na\n \nx\nb\ne\nj\nk\n´\na\nj\ni\nk\n \nt\na\n \nk\n´\ni\nn\na\nl\ni\nl\n \na\ny\n \nj\nr\ne\nr\ne\nc\nh\no\nt\ni\nk\n,\n \nm\na\ny\nu\nk\n \nm\na\nc\nh\n´\na\n \nc\nh\nu\nk\nu\nl\n \ny\na\n \nx\nb\ne\nj\nk\na"
+}

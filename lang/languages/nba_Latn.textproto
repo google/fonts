@@ -1,0 +1,18 @@
+id: "nba_Latn"
+language: "nba"
+script: "Latn"
+name: "Nyemba"
+sample_text {
+  masthead_full: "VvAa"
+  masthead_partial: "Nn"
+  styles: "V\na\nn\nu\n \nv\no\nx\ne\n \nv\na\nk\na\ns\ne\nm\nu\nk\na\n "
+  tester: "V\na\nn\nu\n \nv\no\nx\ne\n \nv\na\nk\na\ns\ne\nm\nu\nk\na\n \nm\nu\n \nc\ni\nz\na\nn\ng\no"
+  poster_sm: "V\na\nn\nu\n \nv"
+  poster_md: "V\na\nn\nu\n "
+  poster_lg: "V\na"
+  specimen_48: "V\na\nn\nu\n \nv\no\nx\ne\n \nv\na\nk\na\ns\ne\nm\nu\nk\na\n \nm\nu\n \nc\ni\nz\na\nn\ng\no"
+  specimen_36: "V\na\nn\nu\n \nv\no\nx\ne\n \nv\na\nk\na\ns\ne\nm\nu\nk\na\n \nm\nu\n \nc\ni\nz\na\nn\ng\no\n \nc\no\n \nm\nu\nm\no\n \nl\ni\nk\na\n \nm\nu\n \nv\nu\nl"
+  specimen_32: "V\na\nn\nu\n \nv\no\nx\ne\n \nv\na\nk\na\ns\ne\nm\nu\nk\na\n \nm\nu\n \nc\ni\nz\na\nn\ng\no\n \nc\no\n \nm\nu\nm\no\n \nl\ni\nk\na\n \nm\nu\n \nv\nu\nl\ne\nm\nu\n \nc\no\n \nk\nu\nl\ni\nm\na\nn\ne\nn\na\n.\n \nV"
+  specimen_21: "V\na\nn\nu\n \nv\no\nx\ne\n \nv\na\nk\na\ns\ne\nm\nu\nk\na\n \nm\nu\n \nc\ni\nz\na\nn\ng\no\n \nc\no\n \nm\nu\nm\no\n \nl\ni\nk\na\n \nm\nu\n \nv\nu\nl\ne\nm\nu\n \nc\no\n \nk\nu\nl\ni\nm\na\nn\ne\nn\na\n.\n \nV\na\nk\ne\nv\no\n \nv\na\nk\na\nl\na\n \nn\na\n \nm\na\nn\ng\na\nn\na\n \nc\no\n \nn\na\n \nm\nb\nu\nn\ng\ne\n \nc\no\n \nv\na\nn\na\n \np\na\nn\nd\ne\n \nk\nu\nl\ni\nn\ng\na\n \nv\na\nm\no\n \nn\na\n \nv\na\nk\nw\na\nv\no\n \nn\na\n \nm\nb"
+  specimen_16: "V\na\nn\nu\n \nv\no\nx\ne\n \nv\na\nk\na\ns\ne\nm\nu\nk\na\n \nm\nu\n \nc\ni\nz\na\nn\ng\no\n \nc\no\n \nm\nu\nm\no\n \nl\ni\nk\na\n \nm\nu\n \nv\nu\nl\ne\nm\nu\n \nc\no\n \nk\nu\nl\ni\nm\na\nn\ne\nn\na\n.\n \nV\na\nk\ne\nv\no\n \nv\na\nk\na\nl\na\n \nn\na\n \nm\na\nn\ng\na\nn\na\n \nc\no\n \nn\na\n \nm\nb\nu\nn\ng\ne\n \nc\no\n \nv\na\nn\na\n \np\na\nn\nd\ne\n \nk\nu\nl\ni\nn\ng\na\n \nv\na\nm\no\n \nn\na\n \nv\na\nk\nw\na\nv\no\n \nn\na\n \nm\nb\nu\nn\ng\ne\n \ny\na\n \nv\nu\nn\na\n \ny\ni\nn\na\n.\nV\na\nn\nu\n \nv\no\nx\ne\n \nv\na\nk\na\ns\ne\nm\nu\nk\na\n \nm\nu\n \nc\ni\nz\na\nn\ng\no\n \nc\no\n \nm\nu\nm\no\n \nl\ni\nk\na\n \nm\nu\n \nv\nu\nl\ne\nm\nu\n \nc\no\n \nk\nu\nl\ni\nm\na\nn\ne\nn\na\n.\n \nV\na\nk\ne\nv\no\n \nv\na\nk\na\nl\na\n \nn\na\n \nm\na\nn\ng\na\nn\na\n \nc\no\n \nn\na\n \nm\nb\nu\nn\ng\ne\n "
+}

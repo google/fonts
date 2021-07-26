@@ -1,0 +1,18 @@
+id: "ajg_Latn"
+language: "ajg"
+script: "Latn"
+name: "Aja"
+sample_text {
+  masthead_full: "AaGg"
+  masthead_partial: "Bb"
+  styles: "A\ng\nb\ne\nt\nɔ\nw\no\n \np\nl\ne\nŋ\nu\n \nv\na\nn\nɔ\n \ng"
+  tester: "A\ng\nb\ne\nt\nɔ\nw\no\n \np\nl\ne\nŋ\nu\n \nv\na\nn\nɔ\n \ng\nb\nɛ\nm\nɛ\n \nk\no\n \nv\no"
+  poster_sm: "A\ng\nb\ne\nt\nɔ"
+  poster_md: "A\ng\nb\ne\nt"
+  poster_lg: "A\ng"
+  specimen_48: "A\ng\nb\ne\nt\nɔ\nw\no\n \np\nl\ne\nŋ\nu\n \nv\na\nn\nɔ\n \ng\nb\nɛ\nm\nɛ\n \nk\no\n \nv\no"
+  specimen_36: "A\ng\nb\ne\nt\nɔ\nw\no\n \np\nl\ne\nŋ\nu\n \nv\na\nn\nɔ\n \ng\nb\nɛ\nm\nɛ\n \nk\no\n \nv\no\nv\no\nɖ\ne\nk\na\n \ng\nb\ne\ns\nw\nɛ\ng\nb\ne\ns\nw\nɛ\n,"
+  specimen_32: "A\ng\nb\ne\nt\nɔ\nw\no\n \np\nl\ne\nŋ\nu\n \nv\na\nn\nɔ\n \ng\nb\nɛ\nm\nɛ\n \nk\no\n \nv\no\nv\no\nɖ\ne\nk\na\n \ng\nb\ne\ns\nw\nɛ\ng\nb\ne\ns\nw\nɛ\n,\n \ns\nɔ\nt\no\n \na\nm\nɛ\nn\ny\ni\nn\ny\ni\n \nk\no\n \na"
+  specimen_21: "A\ng\nb\ne\nt\nɔ\nw\no\n \np\nl\ne\nŋ\nu\n \nv\na\nn\nɔ\n \ng\nb\nɛ\nm\nɛ\n \nk\no\n \nv\no\nv\no\nɖ\ne\nk\na\n \ng\nb\ne\ns\nw\nɛ\ng\nb\ne\ns\nw\nɛ\n,\n \ns\nɔ\nt\no\n \na\nm\nɛ\nn\ny\ni\nn\ny\ni\n \nk\no\n \na\nc\nɛ\nw\no\n \ng\no\nm\nɛ\n;\n \nw\no\n \nx\nɔ\nn\nɔ\n \ns\nu\ns\nu\nn\ny\nw\ni\nn\n \nk\no\n \nj\ni\nm\nɛ\nn\ny\nw\ni\n \ns\no\n \ne\ns\ne\nx\nw\ne\n.\n \nW\no\n \nɖ\no\n \na\n \nw\nɛ\n \nn\nɔ\nv\ni\n \nɖ\na\nɖ\na\n \nw\no\nw\no\n \nn\nɔ\nn"
+  specimen_16: "A\ng\nb\ne\nt\nɔ\nw\no\n \np\nl\ne\nŋ\nu\n \nv\na\nn\nɔ\n \ng\nb\nɛ\nm\nɛ\n \nk\no\n \nv\no\nv\no\nɖ\ne\nk\na\n \ng\nb\ne\ns\nw\nɛ\ng\nb\ne\ns\nw\nɛ\n,\n \ns\nɔ\nt\no\n \na\nm\nɛ\nn\ny\ni\nn\ny\ni\n \nk\no\n \na\nc\nɛ\nw\no\n \ng\no\nm\nɛ\n;\n \nw\no\n \nx\nɔ\nn\nɔ\n \ns\nu\ns\nu\nn\ny\nw\ni\nn\n \nk\no\n \nj\ni\nm\nɛ\nn\ny\nw\ni\n \ns\no\n \ne\ns\ne\nx\nw\ne\n.\n \nW\no\n \nɖ\no\n \na\n \nw\nɛ\n \nn\nɔ\nv\ni\n \nɖ\na\nɖ\na\n \nw\no\nw\no\n \nn\nɔ\nn\nɔ\nw\no\n \ng\nb\nɔ\n.\nA\ng\nb\ne\nt\nɔ\nw\no\n \np\nl\ne\nŋ\nu\n \nv\na\nn\nɔ\n \ng\nb\nɛ\nm\nɛ\n \nk\no\n \nv\no\nv\no\nɖ\ne\nk\na\n \ng\nb\ne\ns\nw\nɛ\ng\nb\ne\ns\nw\nɛ\n,\n \ns\nɔ\nt\no\n \na\nm\nɛ\nn\ny\ni\nn\ny\ni\n \nk\no\n \na\nc\nɛ\nw\no\n \ng\no\nm\nɛ\n;\n \nw\no\n \nx\nɔ\nn\nɔ\n \ns\nu\ns\nu\nn\ny\nw\ni\nn\n \nk\no\n \nj\ni\nm\nɛ\nn\ny\nw\ni\n \ns\no\n \ne\ns\ne\nx"
+}

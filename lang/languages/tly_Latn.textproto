@@ -246,3 +246,17 @@ exemplar_chars {
   auxiliary: "Ä ä"
   marks: "◌̆ ◌̇ ◌̈ ◌̧"
 }
+sample_text {
+  masthead_full: "HhƏə"
+  masthead_partial: "Mm"
+  styles: "H\nə\nm\nm\nə\n \ni\nn\ns\no\nn\no\nn\n \nb\nə\nş\nt\nə\n \nl"
+  tester: "H\nə\nm\nm\nə\n \ni\nn\ns\no\nn\no\nn\n \nb\nə\nş\nt\nə\n \nl\nə\ny\no\nğ\nə\nt\ni\n \ni\ny"
+  poster_sm: "H\nə\nm\nm\nə\n "
+  poster_md: "H\nə\nm\nm\nə"
+  poster_lg: "H\nə"
+  specimen_48: "H\nə\nm\nm\nə\n \ni\nn\ns\no\nn\no\nn\n \nb\nə\nş\nt\nə\n \nl\nə\ny\no\nğ\nə\nt\ni\n \ni\ny"
+  specimen_36: "H\nə\nm\nm\nə\n \ni\nn\ns\no\nn\no\nn\n \nb\nə\nş\nt\nə\n \nl\nə\ny\no\nğ\nə\nt\ni\n \ni\ny\nə\nn\n \nh\nə\nx\no\nn\nr\no\n \no\nz\no\nd\n \ni\ny\nə\nn"
+  specimen_32: "H\nə\nm\nm\nə\n \ni\nn\ns\no\nn\no\nn\n \nb\nə\nş\nt\nə\n \nl\nə\ny\no\nğ\nə\nt\ni\n \ni\ny\nə\nn\n \nh\nə\nx\no\nn\nr\no\n \no\nz\no\nd\n \ni\ny\nə\nn\n \nb\nə\nr\no\nb\nə\nr\n \nm\no\nv\na\nr\nd\nə\n \nb\ne\nd"
+  specimen_21: "H\nə\nm\nm\nə\n \ni\nn\ns\no\nn\no\nn\n \nb\nə\nş\nt\nə\n \nl\nə\ny\no\nğ\nə\nt\ni\n \ni\ny\nə\nn\n \nh\nə\nx\no\nn\nr\no\n \no\nz\no\nd\n \ni\ny\nə\nn\n \nb\nə\nr\no\nb\nə\nr\n \nm\no\nv\na\nr\nd\nə\n \nb\ne\nd\nə\nn\n.\n \nÇ\nə\nv\no\nn\n \nş\nu\nu\nr\n \ni\ny\nə\nn\n \nv\ni\nc\nd\no\nn\n \nh\ne\ns\ne\n,\n \nə\nv\ne\n \nk\ni\n,\n \nd\ne\ny\nə\nn\nd\nı\n \nm\nı\nn\na\ns\ni\nb\nə\nt\nə\nd\nə\n \nb\nə\nn\nə\n \nb\nı\nv\nə\n \nr\nə\nf\nt\no\nr\n \nk\na"
+  specimen_16: "H\nə\nm\nm\nə\n \ni\nn\ns\no\nn\no\nn\n \nb\nə\nş\nt\nə\n \nl\nə\ny\no\nğ\nə\nt\ni\n \ni\ny\nə\nn\n \nh\nə\nx\no\nn\nr\no\n \no\nz\no\nd\n \ni\ny\nə\nn\n \nb\nə\nr\no\nb\nə\nr\n \nm\no\nv\na\nr\nd\nə\n \nb\ne\nd\nə\nn\n.\n \nÇ\nə\nv\no\nn\n \nş\nu\nu\nr\n \ni\ny\nə\nn\n \nv\ni\nc\nd\no\nn\n \nh\ne\ns\ne\n,\n \nə\nv\ne\n \nk\ni\n,\n \nd\ne\ny\nə\nn\nd\nı\n \nm\nı\nn\na\ns\ni\nb\nə\nt\nə\nd\nə\n \nb\nə\nn\nə\n \nb\nı\nv\nə\n \nr\nə\nf\nt\no\nr\n \nk\na\nr\nd\nə\nn\ni\nn\ni\nn\n.\nH\nə\nm\nm\nə\n \ni\nn\ns\no\nn\no\nn\n \nb\nə\nş\nt\nə\n \nl\nə\ny\no\nğ\nə\nt\ni\n \ni\ny\nə\nn\n \nh\nə\nx\no\nn\nr\no\n \no\nz\no\nd\n \ni\ny\nə\nn\n \nb\nə\nr\no\nb\nə\nr\n \nm\no\nv\na\nr\nd\nə\n \nb\ne\nd\nə\nn\n.\n \nÇ\nə\nv\no\nn\n \nş\nu\nu\nr\n \ni\ny\nə\nn\n \nv\ni\nc\nd\no\nn\n \nh\ne\ns\ne\n,\n \nə\nv\ne\n \nk\ni\n,\n \nd\ne\ny\nə\nn\nd"
+}

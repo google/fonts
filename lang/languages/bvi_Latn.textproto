@@ -1,0 +1,18 @@
+id: "bvi_Latn"
+language: "bvi"
+script: "Latn"
+name: "Belanda Viri, Latin"
+sample_text {
+  masthead_full: "AaJj"
+  masthead_partial: "Oo"
+  styles: "A\n \nj\no\n \nk\ná\nn\na\nk\no\n \nm\nu\nr\nu\nt\nǘ\nk\np\ní"
+  tester: "A\n \nj\no\n \nk\ná\nn\na\nk\no\n \nm\nu\nr\nu\nt\nǘ\nk\np\ní\n \nn\nó\n \nn\nj\ne\ne\n,\n "
+  poster_sm: "A\n \nj\no\n \nk"
+  poster_md: "A\n \nj\no\n "
+  poster_lg: "A\n "
+  specimen_48: "A\n \nj\no\n \nk\ná\nn\na\nk\no\n \nm\nu\nr\nu\nt\nǘ\nk\np\ní\n \nn\nó\n \nn\nj\ne\ne\n,\n "
+  specimen_36: "A\n \nj\no\n \nk\ná\nn\na\nk\no\n \nm\nu\nr\nu\nt\nǘ\nk\np\ní\n \nn\nó\n \nn\nj\ne\ne\n,\n \nt\ní\n \nk\ná\n \nf\na\nv\nä\ń\nŋ\n,\n \nt\na\nk\ná\n \ny\ni"
+  specimen_32: "A\n \nj\no\n \nk\ná\nn\na\nk\no\n \nm\nu\nr\nu\nt\nǘ\nk\np\ní\n \nn\nó\n \nn\nj\ne\ne\n,\n \nt\ní\n \nk\ná\n \nf\na\nv\nä\ń\nŋ\n,\n \nt\na\nk\ná\n \ny\ni\nn\nd\ní\n \nt\na\n \ny\ne\ne\n \nn\nd\ní\n \nt\na\nt\ni\ní"
+  specimen_21: "A\n \nj\no\n \nk\ná\nn\na\nk\no\n \nm\nu\nr\nu\nt\nǘ\nk\np\ní\n \nn\nó\n \nn\nj\ne\ne\n,\n \nt\ní\n \nk\ná\n \nf\na\nv\nä\ń\nŋ\n,\n \nt\na\nk\ná\n \ny\ni\nn\nd\ní\n \nt\na\n \ny\ne\ne\n \nn\nd\ní\n \nt\na\nt\ni\ní\n.\n \nJ\no\nk\ni\n \nt\na\na\n \nj\ne\n \nm\nu\nr\nu\n \nt\na\n \nn\nj\no\nn\nv\né\n \nj\ni\nn\nd\ní\n,\n \nn\nd\ni\n \ns\nó\n \nw\ná\na\n \nb\no\nw\no\n \nt\ní\n \n\'\nd\nó\n \ng\nb\ní\n \nn\nv\nó\nk\no\n \nt\ní\nn\nd\ní\n \nt\na\n \ng\na\nn\nv"
+  specimen_16: "A\n \nj\no\n \nk\ná\nn\na\nk\no\n \nm\nu\nr\nu\nt\nǘ\nk\np\ní\n \nn\nó\n \nn\nj\ne\ne\n,\n \nt\ní\n \nk\ná\n \nf\na\nv\nä\ń\nŋ\n,\n \nt\na\nk\ná\n \ny\ni\nn\nd\ní\n \nt\na\n \ny\ne\ne\n \nn\nd\ní\n \nt\na\nt\ni\ní\n.\n \nJ\no\nk\ni\n \nt\na\na\n \nj\ne\n \nm\nu\nr\nu\n \nt\na\n \nn\nj\no\nn\nv\né\n \nj\ni\nn\nd\ní\n,\n \nn\nd\ni\n \ns\nó\n \nw\ná\na\n \nb\no\nw\no\n \nt\ní\n \n\'\nd\nó\n \ng\nb\ní\n \nn\nv\nó\nk\no\n \nt\ní\nn\nd\ní\n \nt\na\n \ng\na\nn\nv\ne\n \nl\na\nk\ná\n \nw\ni\nn\nv\ne\ne\n \nn\nj\ne\ne\n.\nA\n \nj\no\n \nk\ná\nn\na\nk\no\n \nm\nu\nr\nu\nt\nǘ\nk\np\ní\n \nn\nó\n \nn\nj\ne\ne\n,\n \nt\ní\n \nk\ná\n \nf\na\nv\nä\ń\nŋ\n,\n \nt\na\nk\ná\n \ny\ni\nn\nd\ní\n \nt\na\n \ny\ne\ne\n \nn\nd\ní\n \nt\na\nt\ni\ní\n.\n \nJ\no\nk\ni\n \nt\na\na\n \nj\ne\n \nm\nu\nr\nu\n \nt\na\n \nn\nj\no\nn\nv\né\n \nj\ni\nn\nd\ní\n,\n \nn"
+}

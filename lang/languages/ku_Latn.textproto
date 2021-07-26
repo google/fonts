@@ -246,3 +246,17 @@ exemplar_chars {
   auxiliary: "Ḧ Ẍ ḧ ẍ \'"
   marks: "◌̂ ◌̧ ◌̈"
 }
+sample_text {
+  masthead_full: "HhEe"
+  masthead_partial: "Mm"
+  styles: "H\ne\nm\nû\n \nm\ni\nr\no\nv\n \na\nz\na\nd\n \nû\n \nd\ni\n "
+  tester: "H\ne\nm\nû\n \nm\ni\nr\no\nv\n \na\nz\na\nd\n \nû\n \nd\ni\n \nw\ne\nq\na\nr\n \nû\n \nm\na"
+  poster_sm: "H\ne\nm\nû\n \nm"
+  poster_md: "H\ne\nm\nû\n "
+  poster_lg: "H\ne"
+  specimen_48: "H\ne\nm\nû\n \nm\ni\nr\no\nv\n \na\nz\na\nd\n \nû\n \nd\ni\n \nw\ne\nq\na\nr\n \nû\n \nm\na"
+  specimen_36: "H\ne\nm\nû\n \nm\ni\nr\no\nv\n \na\nz\na\nd\n \nû\n \nd\ni\n \nw\ne\nq\na\nr\n \nû\n \nm\na\nf\na\nn\n \nd\ne\n \nw\ne\nk\nh\ne\nv\n \nt\nê\nn\n \nd\ni"
+  specimen_32: "H\ne\nm\nû\n \nm\ni\nr\no\nv\n \na\nz\na\nd\n \nû\n \nd\ni\n \nw\ne\nq\na\nr\n \nû\n \nm\na\nf\na\nn\n \nd\ne\n \nw\ne\nk\nh\ne\nv\n \nt\nê\nn\n \nd\ni\nn\ny\na\ny\nê\n.\n \nE\nw\n \nx\nw\ne\nd\nî\n \nh\ni\nş\n "
+  specimen_21: "H\ne\nm\nû\n \nm\ni\nr\no\nv\n \na\nz\na\nd\n \nû\n \nd\ni\n \nw\ne\nq\na\nr\n \nû\n \nm\na\nf\na\nn\n \nd\ne\n \nw\ne\nk\nh\ne\nv\n \nt\nê\nn\n \nd\ni\nn\ny\na\ny\nê\n.\n \nE\nw\n \nx\nw\ne\nd\nî\n \nh\ni\nş\n \nû\n \nş\nu\nû\nr\n \ni\nn\n \nû\n \nd\ni\nv\nê\n \nl\ni\n \nh\ne\nm\nb\ne\nr\n \nh\ne\nv\n \nb\ni\n \nz\ni\nh\nn\ni\ny\ne\nt\ne\nk\ne\n \nb\nr\na\nt\ni\ny\nê\n \nb\ni\nl\ni\nv\ni\nn\n.\nH\ne\nm\nû\n \nm\ni\nr\no\nv\n \na\nz\na\nd\n \nû\n \nd"
+  specimen_16: "H\ne\nm\nû\n \nm\ni\nr\no\nv\n \na\nz\na\nd\n \nû\n \nd\ni\n \nw\ne\nq\na\nr\n \nû\n \nm\na\nf\na\nn\n \nd\ne\n \nw\ne\nk\nh\ne\nv\n \nt\nê\nn\n \nd\ni\nn\ny\na\ny\nê\n.\n \nE\nw\n \nx\nw\ne\nd\nî\n \nh\ni\nş\n \nû\n \nş\nu\nû\nr\n \ni\nn\n \nû\n \nd\ni\nv\nê\n \nl\ni\n \nh\ne\nm\nb\ne\nr\n \nh\ne\nv\n \nb\ni\n \nz\ni\nh\nn\ni\ny\ne\nt\ne\nk\ne\n \nb\nr\na\nt\ni\ny\nê\n \nb\ni\nl\ni\nv\ni\nn\n.\nH\ne\nm\nû\n \nm\ni\nr\no\nv\n \na\nz\na\nd\n \nû\n \nd\ni\n \nw\ne\nq\na\nr\n \nû\n \nm\na\nf\na\nn\n \nd\ne\n \nw\ne\nk\nh\ne\nv\n \nt\nê\nn\n \nd\ni\nn\ny\na\ny\nê\n.\n \nE\nw\n \nx\nw\ne\nd\nî\n \nh\ni\nş\n \nû\n \nş\nu\nû\nr\n \ni\nn\n \nû\n \nd\ni\nv\nê\n \nl\ni\n \nh\ne\nm\nb\ne\nr\n \nh\ne\nv\n \nb\ni\n \nz\ni\nh\nn\ni\ny\ne\nt\ne\nk\ne\n \nb\nr\na\nt\ni\ny\nê\n \nb\ni\nl\ni\nv\ni\nn\n.\nH\ne\nm\nû\n \nm\ni\nr\no\nv\n \na"
+}

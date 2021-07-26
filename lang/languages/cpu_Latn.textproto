@@ -1,0 +1,18 @@
+id: "cpu_Latn"
+language: "cpu"
+script: "Latn"
+name: "Ashéninka, Pichis"
+sample_text {
+  masthead_full: "MmAa"
+  masthead_partial: "Rr"
+  styles: "M\na\na\nr\no\nn\ni\n \na\nt\nz\ni\nr\ni\np\na\ny\ne\ne\nn\ni"
+  tester: "M\na\na\nr\no\nn\ni\n \na\nt\nz\ni\nr\ni\np\na\ny\ne\ne\nn\ni\n,\n \no\nv\na\nq\nu\ne\nr\na"
+  poster_sm: "M\na\na\nr\no\nn"
+  poster_md: "M\na\na\nr\no"
+  poster_lg: "M\na"
+  specimen_48: "M\na\na\nr\no\nn\ni\n \na\nt\nz\ni\nr\ni\np\na\ny\ne\ne\nn\ni\n,\n \no\nv\na\nq\nu\ne\nr\na"
+  specimen_36: "M\na\na\nr\no\nn\ni\n \na\nt\nz\ni\nr\ni\np\na\ny\ne\ne\nn\ni\n,\n \no\nv\na\nq\nu\ne\nr\na\n \ni\nn\nt\nz\ni\nm\na\np\na\na\nq\nu\ne\n,\n \ne\ne\nr\no\n "
+  specimen_32: "M\na\na\nr\no\nn\ni\n \na\nt\nz\ni\nr\ni\np\na\ny\ne\ne\nn\ni\n,\n \no\nv\na\nq\nu\ne\nr\na\n \ni\nn\nt\nz\ni\nm\na\np\na\na\nq\nu\ne\n,\n \ne\ne\nr\no\n \no\nc\na\nn\nt\nz\ni\n \ni\nñ\na\na\ns\nh\ni\nt\na\nc\na\na"
+  specimen_21: "M\na\na\nr\no\nn\ni\n \na\nt\nz\ni\nr\ni\np\na\ny\ne\ne\nn\ni\n,\n \no\nv\na\nq\nu\ne\nr\na\n \ni\nn\nt\nz\ni\nm\na\np\na\na\nq\nu\ne\n,\n \ne\ne\nr\no\n \no\nc\na\nn\nt\nz\ni\n \ni\nñ\na\na\ns\nh\ni\nt\na\nc\na\na\nv\na\ni\nt\na\ni\nt\ny\na\na\nr\ni\n \ni\nr\no\nm\np\ne\nr\na\nn\na\nt\na\ni\nt\ny\na\na\nr\ni\n.\n \nE\ne\nj\na\nt\nz\ni\n \no\nq\nu\ne\nm\ni\nt\na\nr\ni\n \ni\nr\no\nñ\na\na\nc\na\n \nt\ne\n \na\np\na\nn\nt\ny\na\na\nr\no\n \na\nm\na\nn"
+  specimen_16: "M\na\na\nr\no\nn\ni\n \na\nt\nz\ni\nr\ni\np\na\ny\ne\ne\nn\ni\n,\n \no\nv\na\nq\nu\ne\nr\na\n \ni\nn\nt\nz\ni\nm\na\np\na\na\nq\nu\ne\n,\n \ne\ne\nr\no\n \no\nc\na\nn\nt\nz\ni\n \ni\nñ\na\na\ns\nh\ni\nt\na\nc\na\na\nv\na\ni\nt\na\ni\nt\ny\na\na\nr\ni\n \ni\nr\no\nm\np\ne\nr\na\nn\na\nt\na\ni\nt\ny\na\na\nr\ni\n.\n \nE\ne\nj\na\nt\nz\ni\n \no\nq\nu\ne\nm\ni\nt\na\nr\ni\n \ni\nr\no\nñ\na\na\nc\na\n \nt\ne\n \na\np\na\nn\nt\ny\na\na\nr\no\n \na\nm\na\nn\ni\nt\na\ns\nh\ni\nr\ne\nt\ne\nr\ni\n \na\nt\nz\ni\nr\ni\n \na\nn\nc\na\nn\nt\ne\nr\ni\n:\n \n\"\nT\ne\n \np\ni\nr\nj\ni\np\ne\nr\no\nt\ne\n \ne\ne\nr\no\nc\na\n,\n \ni\nr\ni\ni\nm\na\n \ni\nr\ni\nn\nt\na\n \ni\nr\ni\ni\nt\na\nq\nu\ne\n \nñ\na\na\np\ne\nr\no\nr\ni\n\"\n.\n \nE\ne\nj\na\nt\nz\ni\n \no\nq\nu\ne\nm\ni\nt\na\nr\ni\n \nt\ne\n \no\nn\nc\na\nm\ne\ne\nt\nh\na\nt\ne\n \ni\nn"
+}

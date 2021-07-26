@@ -10,3 +10,17 @@ exemplar_chars {
   marks: "◌̀ ◌̂"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }
+sample_text {
+  masthead_full: "PpUu"
+  masthead_partial: "Bb"
+  styles: "P\nu\nb\n \nd\ne\nn\n \no\nl\nl\n \ny\nw\n \ng\ne\nn\ny\ns\n "
+  tester: "P\nu\nb\n \nd\ne\nn\n \no\nl\nl\n \ny\nw\n \ng\ne\nn\ny\ns\n \nr\ny\nd\nh\n \nh\na\ng\n \nk"
+  poster_sm: "P\nu\nb\n \nd\ne"
+  poster_md: "P\nu\nb\n \nd"
+  poster_lg: "P\nu"
+  specimen_48: "P\nu\nb\n \nd\ne\nn\n \no\nl\nl\n \ny\nw\n \ng\ne\nn\ny\ns\n \nr\ny\nd\nh\n \nh\na\ng\n \nk"
+  specimen_36: "P\nu\nb\n \nd\ne\nn\n \no\nl\nl\n \ny\nw\n \ng\ne\nn\ny\ns\n \nr\ny\nd\nh\n \nh\na\ng\n \nk\ne\nh\na\nv\na\nl\n \ny\nn\n \nd\ny\nn\ni\nt\na\n \nh\na\n "
+  specimen_32: "P\nu\nb\n \nd\ne\nn\n \no\nl\nl\n \ny\nw\n \ng\ne\nn\ny\ns\n \nr\ny\nd\nh\n \nh\na\ng\n \nk\ne\nh\na\nv\na\nl\n \ny\nn\n \nd\ny\nn\ni\nt\na\n \nh\na\n \ng\nw\ni\nr\ny\no\nw\n.\n \nY\nt\nh\n \ny\nn\ns\n \ni\n \nk"
+  specimen_21: "P\nu\nb\n \nd\ne\nn\n \no\nl\nl\n \ny\nw\n \ng\ne\nn\ny\ns\n \nr\ny\nd\nh\n \nh\na\ng\n \nk\ne\nh\na\nv\na\nl\n \ny\nn\n \nd\ny\nn\ni\nt\na\n \nh\na\n \ng\nw\ni\nr\ny\no\nw\n.\n \nY\nt\nh\n \ny\nn\ns\n \ni\n \nk\ne\nm\ny\nn\nn\ny\ns\n \ng\na\nn\ns\n \nr\ne\ns\no\nn\n \nh\na\n \nk\no\nw\ns\ne\ns\n \nh\na\ng\n \ny\n \nt\na\nl\n \nd\nh\ne\nd\nh\na\n \ng\nu\nl\n \nd\nh\ne\n \nu\nn\nn\n \no\nr\nt\nh\n \ny\n \ng\ni\nl\na\n \ny\nn\n \ns\np\ny\nr\ny\ns\n "
+  specimen_16: "P\nu\nb\n \nd\ne\nn\n \no\nl\nl\n \ny\nw\n \ng\ne\nn\ny\ns\n \nr\ny\nd\nh\n \nh\na\ng\n \nk\ne\nh\na\nv\na\nl\n \ny\nn\n \nd\ny\nn\ni\nt\na\n \nh\na\n \ng\nw\ni\nr\ny\no\nw\n.\n \nY\nt\nh\n \ny\nn\ns\n \ni\n \nk\ne\nm\ny\nn\nn\ny\ns\n \ng\na\nn\ns\n \nr\ne\ns\no\nn\n \nh\na\n \nk\no\nw\ns\ne\ns\n \nh\na\ng\n \ny\n \nt\na\nl\n \nd\nh\ne\nd\nh\na\n \ng\nu\nl\n \nd\nh\ne\n \nu\nn\nn\n \no\nr\nt\nh\n \ny\n \ng\ni\nl\na\n \ny\nn\n \ns\np\ny\nr\ny\ns\n \na\n \nv\nr\ne\nd\ne\nr\ne\nd\nh\n.\nP\nu\nb\n \nd\ne\nn\n \no\nl\nl\n \ny\nw\n \ng\ne\nn\ny\ns\n \nr\ny\nd\nh\n \nh\na\ng\n \nk\ne\nh\na\nv\na\nl\n \ny\nn\n \nd\ny\nn\ni\nt\na\n \nh\na\n \ng\nw\ni\nr\ny\no\nw\n.\n \nY\nt\nh\n \ny\nn\ns\n \ni\n \nk\ne\nm\ny\nn\nn\ny\ns\n \ng\na\nn\ns\n \nr\ne\ns\no\nn\n \nh\na\n \nk\no\nw\ns\ne\ns\n \nh\na\ng\n \ny\n \nt\na\nl\n \nd\nh\ne\nd"
+}

@@ -1,0 +1,18 @@
+id: "dip_Latn"
+language: "dip"
+script: "Latn"
+name: "Dinka, Northeastern"
+sample_text {
+  masthead_full: "RrAa"
+  masthead_partial: "Nn"
+  styles: "R\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n \nd\nh"
+  tester: "R\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n \nd\nh\në\në\nt\nh\n \nk\na\n \nl\na"
+  poster_sm: "R\na\na\nn\n \nt"
+  poster_md: "R\na\na\nn\n "
+  poster_lg: "R\na"
+  specimen_48: "R\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n \nd\nh\në\në\nt\nh\n \nk\na\n \nl\na"
+  specimen_36: "R\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n \nd\nh\në\në\nt\nh\n \nk\na\n \nl\na\nu\n \nn\nh\nö\nm\n \nk\nu\na\n \nt\nh\nö\nŋ\n \nn\nh\ni\ni"
+  specimen_32: "R\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n \nd\nh\në\në\nt\nh\n \nk\na\n \nl\na\nu\n \nn\nh\nö\nm\n \nk\nu\na\n \nt\nh\nö\nŋ\n \nn\nh\ni\ni\nm\n \ne\ny\ni\nt\nh\ni\ni\nc\n,\n \nk\nu\na\n \nt\nh\nɛ\n̈\nk"
+  specimen_21: "R\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n \nd\nh\në\në\nt\nh\n \nk\na\n \nl\na\nu\n \nn\nh\nö\nm\n \nk\nu\na\n \nt\nh\nö\nŋ\n \nn\nh\ni\ni\nm\n \ne\ny\ni\nt\nh\ni\ni\nc\n,\n \nk\nu\na\n \nt\nh\nɛ\n̈\nk\ni\nc\n,\n \nk\nu\na\n \nc\ni\n \ny\në\nk\nn\nh\ni\ne\nt\nh\nk\nu\n \np\nu\no\nu\n,\n \nk\nu\n \nb\ni\nk\n \nc\në\nŋ\n \nk\na\n \nk\ne\n \ny\ne\n \nm\ni\nt\nh\n \ne\nt\ni\nk\n.\nR\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n \nd\nh\në"
+  specimen_16: "R\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n \nd\nh\në\në\nt\nh\n \nk\na\n \nl\na\nu\n \nn\nh\nö\nm\n \nk\nu\na\n \nt\nh\nö\nŋ\n \nn\nh\ni\ni\nm\n \ne\ny\ni\nt\nh\ni\ni\nc\n,\n \nk\nu\na\n \nt\nh\nɛ\n̈\nk\ni\nc\n,\n \nk\nu\na\n \nc\ni\n \ny\në\nk\nn\nh\ni\ne\nt\nh\nk\nu\n \np\nu\no\nu\n,\n \nk\nu\n \nb\ni\nk\n \nc\në\nŋ\n \nk\na\n \nk\ne\n \ny\ne\n \nm\ni\nt\nh\n \ne\nt\ni\nk\n.\nR\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n \nd\nh\në\në\nt\nh\n \nk\na\n \nl\na\nu\n \nn\nh\nö\nm\n \nk\nu\na\n \nt\nh\nö\nŋ\n \nn\nh\ni\ni\nm\n \ne\ny\ni\nt\nh\ni\ni\nc\n,\n \nk\nu\na\n \nt\nh\nɛ\n̈\nk\ni\nc\n,\n \nk\nu\na\n \nc\ni\n \ny\në\nk\nn\nh\ni\ne\nt\nh\nk\nu\n \np\nu\no\nu\n,\n \nk\nu\n \nb\ni\nk\n \nc\në\nŋ\n \nk\na\n \nk\ne\n \ny\ne\n \nm\ni\nt\nh\n \ne\nt\ni\nk\n.\nR\na\na\nn\n \nt\nh\nö\nk\n \ne\nb\ne\nn\n \na\ny\ne\n "
+}

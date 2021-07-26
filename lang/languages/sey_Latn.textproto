@@ -1,0 +1,18 @@
+id: "sey_Latn"
+language: "sey"
+script: "Latn"
+name: "Secoya"
+sample_text {
+  masthead_full: "SsIi"
+  masthead_partial: "Aa"
+  styles: "S\ni\n\'\na\np\na\ni\n \na\ni\nd\ne\n\'\no\ny\në\n \nk\nu\na\n\'\ny"
+  tester: "S\ni\n\'\na\np\na\ni\n \na\ni\nd\ne\n\'\no\ny\në\n \nk\nu\na\n\'\ny\ne\n \np\ne\no\ny\ne\n \nk\nu"
+  poster_sm: "S\ni\n\'\na\np\na"
+  poster_md: "S\ni\n\'\na\np"
+  poster_lg: "S\ni"
+  specimen_48: "S\ni\n\'\na\np\na\ni\n \na\ni\nd\ne\n\'\no\ny\në\n \nk\nu\na\n\'\ny\ne\n \np\ne\no\ny\ne\n \nk\nu"
+  specimen_36: "S\ni\n\'\na\np\na\ni\n \na\ni\nd\ne\n\'\no\ny\në\n \nk\nu\na\n\'\ny\ne\n \np\ne\no\ny\ne\n \nk\nu\ni\n\'\nn\ne\n \ns\ni\na\ny\në\n\'\nk\në\n \nm\na\nk\na\n \np\na"
+  specimen_32: "S\ni\n\'\na\np\na\ni\n \na\ni\nd\ne\n\'\no\ny\në\n \nk\nu\na\n\'\ny\ne\n \np\ne\no\ny\ne\n \nk\nu\ni\n\'\nn\ne\n \ns\ni\na\ny\në\n\'\nk\në\n \nm\na\nk\na\n \np\na\n\'\ni\ny\ne\n \nk\nu\ni\n\'\nn\ne\n \nt\nu\nt\nu\np\na\ny\ne\n "
+  specimen_21: "S\ni\n\'\na\np\na\ni\n \na\ni\nd\ne\n\'\no\ny\në\n \nk\nu\na\n\'\ny\ne\n \np\ne\no\ny\ne\n \nk\nu\ni\n\'\nn\ne\n \ns\ni\na\ny\në\n\'\nk\në\n \nm\na\nk\na\n \np\na\n\'\ni\ny\ne\n \nk\nu\ni\n\'\nn\ne\n \nt\nu\nt\nu\np\na\ny\ne\n \nk\no\nn\ni\n,\n \nj\na\nj\ne\n \nk\nu\na\ns\na\ns\ne\n\'\ns\në\nt\ne\np\ni\n \nk\nu\na\nj\nu\n\'\ni\n\'\nn\ne\n \np\ne\no\ny\ne\n \nñ\ne\ns\ne\n \ns\na\ni\ny\ne\n \np\na\n\'\ni\nj\ni\n \nk\no\ṉ\nk\na\ni\nj\në\n \ny\ne\nk\në\n \np\na\ni\nr\ne\nj\ne\n.\nS"
+  specimen_16: "S\ni\n\'\na\np\na\ni\n \na\ni\nd\ne\n\'\no\ny\në\n \nk\nu\na\n\'\ny\ne\n \np\ne\no\ny\ne\n \nk\nu\ni\n\'\nn\ne\n \ns\ni\na\ny\në\n\'\nk\në\n \nm\na\nk\na\n \np\na\n\'\ni\ny\ne\n \nk\nu\ni\n\'\nn\ne\n \nt\nu\nt\nu\np\na\ny\ne\n \nk\no\nn\ni\n,\n \nj\na\nj\ne\n \nk\nu\na\ns\na\ns\ne\n\'\ns\në\nt\ne\np\ni\n \nk\nu\na\nj\nu\n\'\ni\n\'\nn\ne\n \np\ne\no\ny\ne\n \nñ\ne\ns\ne\n \ns\na\ni\ny\ne\n \np\na\n\'\ni\nj\ni\n \nk\no\ṉ\nk\na\ni\nj\në\n \ny\ne\nk\në\n \np\na\ni\nr\ne\nj\ne\n.\nS\ni\n\'\na\np\na\ni\n \na\ni\nd\ne\n\'\no\ny\në\n \nk\nu\na\n\'\ny\ne\n \np\ne\no\ny\ne\n \nk\nu\ni\n\'\nn\ne\n \ns\ni\na\ny\në\n\'\nk\në\n \nm\na\nk\na\n \np\na\n\'\ni\ny\ne\n \nk\nu\ni\n\'\nn\ne\n \nt\nu\nt\nu\np\na\ny\ne\n \nk\no\nn\ni\n,\n \nj\na\nj\ne\n \nk\nu\na\ns\na\ns\ne\n\'\ns\në\nt\ne\np\ni\n \nk\nu\na\nj\nu\n\'\ni\n\'\nn\ne\n \np\ne\no\ny\ne\n \nñ\ne\ns\ne\n \ns\na\ni\ny\ne\n \np\na\n\'\ni"
+}

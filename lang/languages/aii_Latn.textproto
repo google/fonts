@@ -1,0 +1,18 @@
+id: "aii_Latn"
+language: "aii"
+script: "Latn"
+name: "Assyrian Neo-Aramaic, Latin"
+sample_text {
+  masthead_full: "KkUu"
+  masthead_partial: "Ll"
+  styles: "K\nu\nl\nl\ne\nh\n \nb\ni\nr\nn\na\ns\nh\ne\nh\n \ni\nn\na\n "
+  tester: "K\nu\nl\nl\ne\nh\n \nb\ni\nr\nn\na\ns\nh\ne\nh\n \ni\nn\na\n \nb\ni\nr\ny\ne\nh\n \nk\nh\ne"
+  poster_sm: "K\nu\nl\nl\ne\nh"
+  poster_md: "K\nu\nl\nl\ne"
+  poster_lg: "K\nu"
+  specimen_48: "K\nu\nl\nl\ne\nh\n \nb\ni\nr\nn\na\ns\nh\ne\nh\n \ni\nn\na\n \nb\ni\nr\ny\ne\nh\n \nk\nh\ne"
+  specimen_36: "K\nu\nl\nl\ne\nh\n \nb\ni\nr\nn\na\ns\nh\ne\nh\n \ni\nn\na\n \nb\ni\nr\ny\ne\nh\n \nk\nh\ne\ne\nr\ne\nh\n \nU\n\'\n \nd\na\nm\ny\na\nn\ne\nh\n \nB\n\'\n \ni"
+  specimen_32: "K\nu\nl\nl\ne\nh\n \nb\ni\nr\nn\na\ns\nh\ne\nh\n \ni\nn\na\n \nb\ni\nr\ny\ne\nh\n \nk\nh\ne\ne\nr\ne\nh\n \nU\n\'\n \nd\na\nm\ny\na\nn\ne\nh\n \nB\n\'\n \ni\nq\na\nr\na\n \nU\n\'\n \nz\ni\nt\nq\ne\nh\n.\n \nB\ni\nr\ny\ne"
+  specimen_21: "K\nu\nl\nl\ne\nh\n \nb\ni\nr\nn\na\ns\nh\ne\nh\n \ni\nn\na\n \nb\ni\nr\ny\ne\nh\n \nk\nh\ne\ne\nr\ne\nh\n \nU\n\'\n \nd\na\nm\ny\na\nn\ne\nh\n \nB\n\'\n \ni\nq\na\nr\na\n \nU\n\'\n \nz\ni\nt\nq\ne\nh\n.\n \nB\ni\nr\ny\ne\nn\na\n \nB\n\'\n \np\na\nr\nm\ne\nt\na\n \nU\n\'\n \nh\no\nn\na\n,\n \nU\n\'\n \ns\nh\na\nr\nt\n \na\nw\ni\n \nm\ni\nn\n \no\nu\nd\na\nl\ne\nh\n \nB\n\'\n \nr\no\nu\nk\nh\na\n \nD\n\'\n \na\nk\nh\nu\nn\na\nw\no\no\nt\na\n.\nK\nu\nl\nl\ne\nh\n \nb\ni\nr"
+  specimen_16: "K\nu\nl\nl\ne\nh\n \nb\ni\nr\nn\na\ns\nh\ne\nh\n \ni\nn\na\n \nb\ni\nr\ny\ne\nh\n \nk\nh\ne\ne\nr\ne\nh\n \nU\n\'\n \nd\na\nm\ny\na\nn\ne\nh\n \nB\n\'\n \ni\nq\na\nr\na\n \nU\n\'\n \nz\ni\nt\nq\ne\nh\n.\n \nB\ni\nr\ny\ne\nn\na\n \nB\n\'\n \np\na\nr\nm\ne\nt\na\n \nU\n\'\n \nh\no\nn\na\n,\n \nU\n\'\n \ns\nh\na\nr\nt\n \na\nw\ni\n \nm\ni\nn\n \no\nu\nd\na\nl\ne\nh\n \nB\n\'\n \nr\no\nu\nk\nh\na\n \nD\n\'\n \na\nk\nh\nu\nn\na\nw\no\no\nt\na\n.\nK\nu\nl\nl\ne\nh\n \nb\ni\nr\nn\na\ns\nh\ne\nh\n \ni\nn\na\n \nb\ni\nr\ny\ne\nh\n \nk\nh\ne\ne\nr\ne\nh\n \nU\n\'\n \nd\na\nm\ny\na\nn\ne\nh\n \nB\n\'\n \ni\nq\na\nr\na\n \nU\n\'\n \nz\ni\nt\nq\ne\nh\n.\n \nB\ni\nr\ny\ne\nn\na\n \nB\n\'\n \np\na\nr\nm\ne\nt\na\n \nU\n\'\n \nh\no\nn\na\n,\n \nU\n\'\n \ns\nh\na\nr\nt\n \na\nw\ni\n \nm\ni\nn\n \no\nu\nd\na\nl\ne\nh\n \nB\n\'\n \nr\no\nu\nk\nh\na\n \nD\n\'\n \na\nk\nh\nu\nn\na"
+}

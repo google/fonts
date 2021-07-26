@@ -1,0 +1,18 @@
+id: "cbk_Latn"
+language: "cbk"
+script: "Latn"
+name: "Chavacano, Latin, Philippines"
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Dd"
+  styles: "T\no\nd\no\n\'\nl\n \nm\na\ng\na\n \ns\ne\nr\n \nh\nu\nm\na\nn"
+  tester: "T\no\nd\no\n\'\nl\n \nm\na\ng\na\n \ns\ne\nr\n \nh\nu\nm\na\nn\no\n \nn\na\nc\ne\n \nl\ni\nb"
+  poster_sm: "T\no\nd\no\n\'\nl"
+  poster_md: "T\no\nd\no\n\'"
+  poster_lg: "T\no"
+  specimen_48: "T\no\nd\no\n\'\nl\n \nm\na\ng\na\n \ns\ne\nr\n \nh\nu\nm\na\nn\no\n \nn\na\nc\ne\n \nl\ni\nb"
+  specimen_36: "T\no\nd\no\n\'\nl\n \nm\na\ng\na\n \ns\ne\nr\n \nh\nu\nm\na\nn\no\n \nn\na\nc\ne\n \nl\ni\nb\nr\ne\n \ne\n \ni\ng\nu\na\nl\n \ne\nn\n \nd\ni\ng\nn\ni\nd"
+  specimen_32: "T\no\nd\no\n\'\nl\n \nm\na\ng\na\n \ns\ne\nr\n \nh\nu\nm\na\nn\no\n \nn\na\nc\ne\n \nl\ni\nb\nr\ne\n \ne\n \ni\ng\nu\na\nl\n \ne\nn\n \nd\ni\ng\nn\ni\nd\na\nd\n \ny\n \nm\na\ng\na\n \nd\ne\nr\ne\nc\nh\no\n.\n \nD\no"
+  specimen_21: "T\no\nd\no\n\'\nl\n \nm\na\ng\na\n \ns\ne\nr\n \nh\nu\nm\na\nn\no\n \nn\na\nc\ne\n \nl\ni\nb\nr\ne\n \ne\n \ni\ng\nu\na\nl\n \ne\nn\n \nd\ni\ng\nn\ni\nd\na\nd\n \ny\n \nm\na\ng\na\n \nd\ne\nr\ne\nc\nh\no\n.\n \nD\no\nt\na\nd\no\n \nc\no\nn\n \ne\nl\nl\no\ns\n \ne\nl\n \nr\na\nz\no\nn\n \ny\n \nc\no\nn\nc\ni\ne\nn\nc\ni\na\n \ny\n \nd\ne\nb\ne\n \ne\nl\nl\no\ns\n \nc\no\nm\np\no\nr\nt\na\n \nf\nr\na\nt\ne\nr\nn\na\nl\nm\ne\nn\nt\ne\n \nc\no\nn\n \ne\nl"
+  specimen_16: "T\no\nd\no\n\'\nl\n \nm\na\ng\na\n \ns\ne\nr\n \nh\nu\nm\na\nn\no\n \nn\na\nc\ne\n \nl\ni\nb\nr\ne\n \ne\n \ni\ng\nu\na\nl\n \ne\nn\n \nd\ni\ng\nn\ni\nd\na\nd\n \ny\n \nm\na\ng\na\n \nd\ne\nr\ne\nc\nh\no\n.\n \nD\no\nt\na\nd\no\n \nc\no\nn\n \ne\nl\nl\no\ns\n \ne\nl\n \nr\na\nz\no\nn\n \ny\n \nc\no\nn\nc\ni\ne\nn\nc\ni\na\n \ny\n \nd\ne\nb\ne\n \ne\nl\nl\no\ns\n \nc\no\nm\np\no\nr\nt\na\n \nf\nr\na\nt\ne\nr\nn\na\nl\nm\ne\nn\nt\ne\n \nc\no\nn\n \ne\nl\n \nm\na\ng\na\n \nu\nn\no\n \nc\no\nn\n \ne\nl\n \nm\na\ng\na\n \no\nt\nr\no\n.\nT\no\nd\no\n\'\nl\n \nm\na\ng\na\n \ns\ne\nr\n \nh\nu\nm\na\nn\no\n \nn\na\nc\ne\n \nl\ni\nb\nr\ne\n \ne\n \ni\ng\nu\na\nl\n \ne\nn\n \nd\ni\ng\nn\ni\nd\na\nd\n \ny\n \nm\na\ng\na\n \nd\ne\nr\ne\nc\nh\no\n.\n \nD\no\nt\na\nd\no\n \nc\no\nn\n \ne\nl\nl\no\ns\n \ne\nl\n \nr\na\nz\no\nn\n \ny\n \nc"
+}

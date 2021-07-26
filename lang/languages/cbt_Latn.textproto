@@ -1,0 +1,18 @@
+id: "cbt_Latn"
+language: "cbt"
+script: "Latn"
+name: "Chayahuita"
+sample_text {
+  masthead_full: "YyAa"
+  masthead_partial: "Ii"
+  styles: "Y\na\n\'\ni\np\ni\n \np\ni\ny\na\np\ni\nn\np\no\na\n\'\n \nc\na\np"
+  tester: "Y\na\n\'\ni\np\ni\n \np\ni\ny\na\np\ni\nn\np\no\na\n\'\n \nc\na\np\ni\nn\ni\n \nn\no\ny\na\n \nn"
+  poster_sm: "Y\na\n\'\ni\np\ni"
+  poster_md: "Y\na\n\'\ni\np"
+  poster_lg: "Y\na"
+  specimen_48: "Y\na\n\'\ni\np\ni\n \np\ni\ny\na\np\ni\nn\np\no\na\n\'\n \nc\na\np\ni\nn\ni\n \nn\no\ny\na\n \nn"
+  specimen_36: "Y\na\n\'\ni\np\ni\n \np\ni\ny\na\np\ni\nn\np\no\na\n\'\n \nc\na\np\ni\nn\ni\n \nn\no\ny\na\n \nn\ni\nn\no\ns\no\nr\no\nc\na\ns\no\n\'\n \ny\na\n\'\nh\nu\në\nr\ni"
+  specimen_32: "Y\na\n\'\ni\np\ni\n \np\ni\ny\na\np\ni\nn\np\no\na\n\'\n \nc\na\np\ni\nn\ni\n \nn\no\ny\na\n \nn\ni\nn\no\ns\no\nr\no\nc\na\ns\no\n\'\n \ny\na\n\'\nh\nu\në\nr\ni\nn\n.\n \nY\na\n\'\ni\np\ni\nn\np\no\na\n\'\n \ny\no\nn\nq\nu\ni"
+  specimen_21: "Y\na\n\'\ni\np\ni\n \np\ni\ny\na\np\ni\nn\np\no\na\n\'\n \nc\na\np\ni\nn\ni\n \nn\no\ny\na\n \nn\ni\nn\no\ns\no\nr\no\nc\na\ns\no\n\'\n \ny\na\n\'\nh\nu\në\nr\ni\nn\n.\n \nY\na\n\'\ni\np\ni\nn\np\no\na\n\'\n \ny\no\nn\nq\nu\ni\nr\në\nh\nu\na\n\'\n.\n \nN\no\ny\na\n \nn\ni\nc\na\nc\na\ns\no\n\'\n \nn\ni\nt\no\nt\në\nr\në\nh\nu\na\n\'\n.\n \nN\na\np\no\na\nt\no\nn\n \ni\ny\na\nn\np\no\na\n \np\no\nc\nh\ni\nn\n \nn\ni\nn\no\ns\no\nr\no\nc\na\ns\no\n\'\n \ny\na\n \n\'\nh\nu\në\nr\ni"
+  specimen_16: "Y\na\n\'\ni\np\ni\n \np\ni\ny\na\np\ni\nn\np\no\na\n\'\n \nc\na\np\ni\nn\ni\n \nn\no\ny\na\n \nn\ni\nn\no\ns\no\nr\no\nc\na\ns\no\n\'\n \ny\na\n\'\nh\nu\në\nr\ni\nn\n.\n \nY\na\n\'\ni\np\ni\nn\np\no\na\n\'\n \ny\no\nn\nq\nu\ni\nr\në\nh\nu\na\n\'\n.\n \nN\no\ny\na\n \nn\ni\nc\na\nc\na\ns\no\n\'\n \nn\ni\nt\no\nt\në\nr\në\nh\nu\na\n\'\n.\n \nN\na\np\no\na\nt\no\nn\n \ni\ny\na\nn\np\no\na\n \np\no\nc\nh\ni\nn\n \nn\ni\nn\no\ns\no\nr\no\nc\na\ns\no\n\'\n \ny\na\n \n\'\nh\nu\në\nr\ni\nn\n.\nY\na\n\'\ni\np\ni\n \np\ni\ny\na\np\ni\nn\np\no\na\n\'\n \nc\na\np\ni\nn\ni\n \nn\no\ny\na\n \nn\ni\nn\no\ns\no\nr\no\nc\na\ns\no\n\'\n \ny\na\n\'\nh\nu\në\nr\ni\nn\n.\n \nY\na\n\'\ni\np\ni\nn\np\no\na\n\'\n \ny\no\nn\nq\nu\ni\nr\në\nh\nu\na\n\'\n.\n \nN\no\ny\na\n \nn\ni\nc\na\nc\na\ns\no\n\'\n \nn\ni\nt\no\nt\në\nr\në\nh\nu\na\n\'\n.\n \nN\na\np\no\na\nt\no\nn\n \ni\ny\na\nn\np\no\na\n \np"
+}

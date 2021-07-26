@@ -1,0 +1,18 @@
+id: "pck_Latn"
+language: "pck"
+script: "Latn"
+name: "Paite Chin, Latin"
+sample_text {
+  masthead_full: "MmIi"
+  masthead_partial: "Tt"
+  styles: "M\ni\n \nt\ne\nn\ng\nt\ne\nn\ng\n \nz\na\nl\ne\nn\na\n \np\ni"
+  tester: "M\ni\n \nt\ne\nn\ng\nt\ne\nn\ng\n \nz\na\nl\ne\nn\na\n \np\ni\na\nn\ng\n \ni\nh\ni\n \nu\na"
+  poster_sm: "M\ni\n \nt\ne\nn"
+  poster_md: "M\ni\n \nt\ne"
+  poster_lg: "M\ni"
+  specimen_48: "M\ni\n \nt\ne\nn\ng\nt\ne\nn\ng\n \nz\na\nl\ne\nn\na\n \np\ni\na\nn\ng\n \ni\nh\ni\n \nu\na"
+  specimen_36: "M\ni\n \nt\ne\nn\ng\nt\ne\nn\ng\n \nz\na\nl\ne\nn\na\n \np\ni\na\nn\ng\n \ni\nh\ni\n \nu\na\n,\n \nz\na\nh\no\nm\nn\na\n \nl\ne\nh\n \nd\ni\nk\nn\na\n "
+  specimen_32: "M\ni\n \nt\ne\nn\ng\nt\ne\nn\ng\n \nz\na\nl\ne\nn\na\n \np\ni\na\nn\ng\n \ni\nh\ni\n \nu\na\n,\n \nz\na\nh\no\nm\nn\na\n \nl\ne\nh\n \nd\ni\nk\nn\na\n \nt\na\nn\nv\no\nu\n \na\nh\n \nk\ni\nb\na\nn\ng\nv\ne\nk\n "
+  specimen_21: "M\ni\n \nt\ne\nn\ng\nt\ne\nn\ng\n \nz\na\nl\ne\nn\na\n \np\ni\na\nn\ng\n \ni\nh\ni\n \nu\na\n,\n \nz\na\nh\no\nm\nn\na\n \nl\ne\nh\n \nd\ni\nk\nn\na\n \nt\na\nn\nv\no\nu\n \na\nh\n \nk\ni\nb\na\nn\ng\nv\ne\nk\n \ni\nh\ni\n.\n \nS\ni\na\n \nl\ne\nh\n \np\nh\na\n \nt\nh\ne\ni\nh\nn\na\n \np\ni\nl\nn\na\n \nn\ne\ni\na\n \ns\ni\na\nm\n \ni\nh\ni\nh\nz\ni\na\nk\nu\nn\n \ni\nm\ni\nh\ni\nn\ng\np\ni\nh\nt\ne\n \nt\nu\nn\ng\na\nh\n \nu\nn\na\nu\nn\na\n \nl\nu"
+  specimen_16: "M\ni\n \nt\ne\nn\ng\nt\ne\nn\ng\n \nz\na\nl\ne\nn\na\n \np\ni\na\nn\ng\n \ni\nh\ni\n \nu\na\n,\n \nz\na\nh\no\nm\nn\na\n \nl\ne\nh\n \nd\ni\nk\nn\na\n \nt\na\nn\nv\no\nu\n \na\nh\n \nk\ni\nb\na\nn\ng\nv\ne\nk\n \ni\nh\ni\n.\n \nS\ni\na\n \nl\ne\nh\n \np\nh\na\n \nt\nh\ne\ni\nh\nn\na\n \np\ni\nl\nn\na\n \nn\ne\ni\na\n \ns\ni\na\nm\n \ni\nh\ni\nh\nz\ni\na\nk\nu\nn\n \ni\nm\ni\nh\ni\nn\ng\np\ni\nh\nt\ne\n \nt\nu\nn\ng\na\nh\n \nu\nn\na\nu\nn\na\n \nl\nu\nn\ng\ns\ni\nm\n \nf\ne\nl\nt\na\nk\n \ni\np\nu\nt\nn\ng\na\ni\n \na\nh\ni\n.\nM\ni\n \nt\ne\nn\ng\nt\ne\nn\ng\n \nz\na\nl\ne\nn\na\n \np\ni\na\nn\ng\n \ni\nh\ni\n \nu\na\n,\n \nz\na\nh\no\nm\nn\na\n \nl\ne\nh\n \nd\ni\nk\nn\na\n \nt\na\nn\nv\no\nu\n \na\nh\n \nk\ni\nb\na\nn\ng\nv\ne\nk\n \ni\nh\ni\n.\n \nS\ni\na\n \nl\ne\nh\n \np\nh\na\n \nt\nh\ne\ni\nh\nn\na\n \np\ni\nl\nn"
+}

@@ -1,0 +1,18 @@
+id: "rhg_Latn"
+language: "rhg"
+script: "Latn"
+name: "Rohingya, Latin"
+sample_text {
+  masthead_full: "MmAa"
+  masthead_partial: "Nn"
+  styles: "M\na\nn\nú\ni\nc\n \nb\ne\ng\ng\nú\nn\n \na\nz\na\nd\n \nh\ní"
+  tester: "M\na\nn\nú\ni\nc\n \nb\ne\ng\ng\nú\nn\n \na\nz\na\nd\n \nh\ní\ns\na\nf\ne\n,\n \na\nr\n \ni"
+  poster_sm: "M\na\nn\nú\ni\nc"
+  poster_md: "M\na\nn\nú\ni"
+  poster_lg: "M\na"
+  specimen_48: "M\na\nn\nú\ni\nc\n \nb\ne\ng\ng\nú\nn\n \na\nz\na\nd\n \nh\ní\ns\na\nf\ne\n,\n \na\nr\n \ni"
+  specimen_36: "M\na\nn\nú\ni\nc\n \nb\ne\ng\ng\nú\nn\n \na\nz\na\nd\n \nh\ní\ns\na\nf\ne\n,\n \na\nr\n \ni\nz\nz\no\nt\n \na\nr\nd\ne\n \nh\nó\nk\n \nó\nk\nk\no\nl\n "
+  specimen_32: "M\na\nn\nú\ni\nc\n \nb\ne\ng\ng\nú\nn\n \na\nz\na\nd\n \nh\ní\ns\na\nf\ne\n,\n \na\nr\n \ni\nz\nz\no\nt\n \na\nr\nd\ne\n \nh\nó\nk\n \nó\nk\nk\no\nl\n \nó\nt\n,\n \nf\nú\na\ni\nn\nn\na\n \nh\ní\ns\na\nf\ne\n \nf\no"
+  specimen_21: "M\na\nn\nú\ni\nc\n \nb\ne\ng\ng\nú\nn\n \na\nz\na\nd\n \nh\ní\ns\na\nf\ne\n,\n \na\nr\n \ni\nz\nz\no\nt\n \na\nr\nd\ne\n \nh\nó\nk\n \nó\nk\nk\no\nl\n \nó\nt\n,\n \nf\nú\na\ni\nn\nn\na\n \nh\ní\ns\na\nf\ne\n \nf\no\ni\nd\na\n \nó\ni\ny\ne\n.\n \nF\no\nt\nt\ní\n \ni\nn\ns\ná\nn\n \nó\nt\nt\nu\n \nh\no\nn\nó\n \nf\no\nr\nó\nk\n \ns\ná\nr\na\n \ne\nl\na\nn\n \no\nt\n \na\ns\né\nd\ne\n \nt\na\nm\ná\nm\n \nh\nó\nk\n \nó\nk\nk\no\nl\n \na\nr\nd\ne\n \na\nz"
+  specimen_16: "M\na\nn\nú\ni\nc\n \nb\ne\ng\ng\nú\nn\n \na\nz\na\nd\n \nh\ní\ns\na\nf\ne\n,\n \na\nr\n \ni\nz\nz\no\nt\n \na\nr\nd\ne\n \nh\nó\nk\n \nó\nk\nk\no\nl\n \nó\nt\n,\n \nf\nú\na\ni\nn\nn\na\n \nh\ní\ns\na\nf\ne\n \nf\no\ni\nd\na\n \nó\ni\ny\ne\n.\n \nF\no\nt\nt\ní\n \ni\nn\ns\ná\nn\n \nó\nt\nt\nu\n \nh\no\nn\nó\n \nf\no\nr\nó\nk\n \ns\ná\nr\na\n \ne\nl\na\nn\n \no\nt\n \na\ns\né\nd\ne\n \nt\na\nm\ná\nm\n \nh\nó\nk\n \nó\nk\nk\no\nl\n \na\nr\nd\ne\n \na\nz\na\nd\ni\n \nó\nk\nk\no\nl\n \nl\no\ni\n \nf\ná\na\ni\nd\na\n \ng\no\nr\nó\no\nn\n \nó\nr\n \nh\nó\nk\n \na\ns\né\n.\n \nA\nr\n,\n \nt\na\nr\ná\nr\ne\n \nd\ni\nl\n \na\nr\nd\ne\n \nd\ne\nm\na\nk\n \nd\ni\ny\né\n.\n \nÓ\nt\no\nl\nl\na\n,\n \nt\na\nr\ná\nt\nt\nu\n \ne\nk\nz\no\nn\n \nl\no\ni\n \na\nr\ne\nk\nz\no\nn\n \nb\ná\ni\n \nh\ní\ns\na\nf\ne\n \nm\na\na\nm\ne\nl\na\n \ng\no"
+}

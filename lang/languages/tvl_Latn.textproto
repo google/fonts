@@ -9,3 +9,17 @@ exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Á À Ǎ Ē É È Ě Ī Í Ì Ǐ Ō Ó Ò Ǒ Ū Ú Ù Ǔ a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í ì ǐ ō ó ò ǒ ū ú ù ǔ ’"
   marks: "◌̀ ◌́ ◌̄ ◌̌"
 }
+sample_text {
+  masthead_full: "EeFf"
+  masthead_partial: "Āā"
+  styles: "E\n \nf\nā\n\'\nn\na\nu\n \nm\na\ni\n \na\n \nt\ni\nn\no\n \nk"
+  tester: "E\n \nf\nā\n\'\nn\na\nu\n \nm\na\ni\n \na\n \nt\ni\nn\no\n \nk\na\nt\no\na\n \ni\n \nt\ne\n "
+  poster_sm: "E\n \nf\nā\n\'\nn"
+  poster_md: "E\n \nf\nā\n\'"
+  poster_lg: "E\n "
+  specimen_48: "E\n \nf\nā\n\'\nn\na\nu\n \nm\na\ni\n \na\n \nt\ni\nn\no\n \nk\na\nt\no\na\n \ni\n \nt\ne\n "
+  specimen_36: "E\n \nf\nā\n\'\nn\na\nu\n \nm\na\ni\n \na\n \nt\ni\nn\no\n \nk\na\nt\no\na\n \ni\n \nt\ne\n \ns\na\no\nl\no\nt\no\ng\na\n \nk\na\ne\n \ne\n \n\'\np\na\nu\n "
+  specimen_32: "E\n \nf\nā\n\'\nn\na\nu\n \nm\na\ni\n \na\n \nt\ni\nn\no\n \nk\na\nt\no\na\n \ni\n \nt\ne\n \ns\na\no\nl\no\nt\no\ng\na\n \nk\na\ne\n \ne\n \n\'\np\na\nu\n \nt\ne\nl\no\nt\no\nu\n \nt\nū\nl\na\ng\na\n \nf\na\nk\na\na"
+  specimen_21: "E\n \nf\nā\n\'\nn\na\nu\n \nm\na\ni\n \na\n \nt\ni\nn\no\n \nk\na\nt\no\na\n \ni\n \nt\ne\n \ns\na\no\nl\no\nt\no\ng\na\n \nk\na\ne\n \ne\n \n\'\np\na\nu\n \nt\ne\nl\no\nt\no\nu\n \nt\nū\nl\na\ng\na\n \nf\na\nk\na\na\nl\no\na\nl\no\ng\ni\nn\na\n \nm\no\n \nt\ne\nl\no\nt\no\nu\n \na\ni\nā\n.\n \nN\ne\n \nt\nu\nk\nu\n \na\nt\nu\n \nk\ni\n \na\n \nl\nā\nt\no\nu\n \na\n \nt\ne\n \nm\na\nf\na\nu\nf\na\nu\n \nm\no\n \nt\ne\n \nl\no\nt\no\n \nl\na\ng\no\nn\na"
+  specimen_16: "E\n \nf\nā\n\'\nn\na\nu\n \nm\na\ni\n \na\n \nt\ni\nn\no\n \nk\na\nt\no\na\n \ni\n \nt\ne\n \ns\na\no\nl\no\nt\no\ng\na\n \nk\na\ne\n \ne\n \n\'\np\na\nu\n \nt\ne\nl\no\nt\no\nu\n \nt\nū\nl\na\ng\na\n \nf\na\nk\na\na\nl\no\na\nl\no\ng\ni\nn\na\n \nm\no\n \nt\ne\nl\no\nt\no\nu\n \na\ni\nā\n.\n \nN\ne\n \nt\nu\nk\nu\n \na\nt\nu\n \nk\ni\n \na\n \nl\nā\nt\no\nu\n \na\n \nt\ne\n \nm\na\nf\na\nu\nf\na\nu\n \nm\no\n \nt\ne\n \nl\no\nt\no\n \nl\na\ng\no\nn\na\n,\n \nt\nē\nl\nā\n \nl\nā\n,\n \ne\n \n\'\nt\na\nu\n \no\n \ng\nā\n\'\nl\nu\ne\n \nf\na\nk\na\nt\na\ns\ni\n \nl\nā\nt\no\nu\n \ne\n \np\nē\nl\nā\n \nm\ne\n \nn\ne\n \nt\na\ni\nn\na\n.\nE\n \nf\nā\n\'\nn\na\nu\n \nm\na\ni\n \na\n \nt\ni\nn\no\n \nk\na\nt\no\na\n \ni\n \nt\ne\n \ns\na\no\nl\no\nt\no\ng\na\n \nk\na\ne\n \ne\n \n\'\np\na\nu\n \nt\ne\nl\no\nt\no\nu\n \nt\nū\nl\na\ng\na\n \nf"
+}

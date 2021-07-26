@@ -1,0 +1,18 @@
+id: "mto_Latn"
+language: "mto"
+script: "Latn"
+name: "Mixe, Totontepec"
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Mm"
+  styles: "T\nu\nm\n \na\nk\ni\nj\np\nx\na\n \nx\na\n \nv\ne\n’\ne\n \nj"
+  tester: "T\nu\nm\n \na\nk\ni\nj\np\nx\na\n \nx\na\n \nv\ne\n’\ne\n \nj\na\ny\nu\n \nk\ny\ne\n’\ne\nx\n,"
+  poster_sm: "T\nu\nm\n \na\nk"
+  poster_md: "T\nu\nm\n \na"
+  poster_lg: "T\nu"
+  specimen_48: "T\nu\nm\n \na\nk\ni\nj\np\nx\na\n \nx\na\n \nv\ne\n’\ne\n \nj\na\ny\nu\n \nk\ny\ne\n’\ne\nx\n,"
+  specimen_36: "T\nu\nm\n \na\nk\ni\nj\np\nx\na\n \nx\na\n \nv\ne\n’\ne\n \nj\na\ny\nu\n \nk\ny\ne\n’\ne\nx\n,\n \nv\ne\n’\ne\nm\n \na\nx\n \nj\nö\n’\nn\n \nt\ny\nu\nk\ni\nd"
+  specimen_32: "T\nu\nm\n \na\nk\ni\nj\np\nx\na\n \nx\na\n \nv\ne\n’\ne\n \nj\na\ny\nu\n \nk\ny\ne\n’\ne\nx\n,\n \nv\ne\n’\ne\nm\n \na\nx\n \nj\nö\n’\nn\n \nt\ny\nu\nk\ni\nd\na\na\nk\nj\nü\nv\na\n \nt\ni\nj\na\nt\ny\n \nm\në\nk\ni\nn"
+  specimen_21: "T\nu\nm\n \na\nk\ni\nj\np\nx\na\n \nx\na\n \nv\ne\n’\ne\n \nj\na\ny\nu\n \nk\ny\ne\n’\ne\nx\n,\n \nv\ne\n’\ne\nm\n \na\nx\n \nj\nö\n’\nn\n \nt\ny\nu\nk\ni\nd\na\na\nk\nj\nü\nv\na\n \nt\ni\nj\na\nt\ny\n \nm\në\nk\ni\nn\n;\n \nv\ne\n’\ne\nm\np\na\n \na\nx\nj\nö\n’\nn\n \nj\nä\n \nj\ny\nö\nö\nj\nt\ny\nk\ni\nn\n \nd\ni\n \ny\na\nk\nn\na\nx\ny\n,\n \nj\na\nt\ns\n \no\ny\n \nm\ny\nu\nj\na\nt\ny\nö\nö\n’\nt\në\nj\nk\n \nd\ni\n \nm\në\në\nt\n \nn\na\ny\nj\na\nv\na\nj\nü"
+  specimen_16: "T\nu\nm\n \na\nk\ni\nj\np\nx\na\n \nx\na\n \nv\ne\n’\ne\n \nj\na\ny\nu\n \nk\ny\ne\n’\ne\nx\n,\n \nv\ne\n’\ne\nm\n \na\nx\n \nj\nö\n’\nn\n \nt\ny\nu\nk\ni\nd\na\na\nk\nj\nü\nv\na\n \nt\ni\nj\na\nt\ny\n \nm\në\nk\ni\nn\n;\n \nv\ne\n’\ne\nm\np\na\n \na\nx\nj\nö\n’\nn\n \nj\nä\n \nj\ny\nö\nö\nj\nt\ny\nk\ni\nn\n \nd\ni\n \ny\na\nk\nn\na\nx\ny\n,\n \nj\na\nt\ns\n \no\ny\n \nm\ny\nu\nj\na\nt\ny\nö\nö\n’\nt\në\nj\nk\n \nd\ni\n \nm\në\në\nt\n \nn\na\ny\nj\na\nv\na\nj\nü\nt\n.\nT\nu\nm\n \na\nk\ni\nj\np\nx\na\n \nx\na\n \nv\ne\n’\ne\n \nj\na\ny\nu\n \nk\ny\ne\n’\ne\nx\n,\n \nv\ne\n’\ne\nm\n \na\nx\n \nj\nö\n’\nn\n \nt\ny\nu\nk\ni\nd\na\na\nk\nj\nü\nv\na\n \nt\ni\nj\na\nt\ny\n \nm\në\nk\ni\nn\n;\n \nv\ne\n’\ne\nm\np\na\n \na\nx\nj\nö\n’\nn\n \nj\nä\n \nj\ny\nö\nö\nj\nt\ny\nk\ni\nn\n \nd\ni\n \ny\na\nk\nn\na\nx\ny\n,\n \nj\na\nt\ns\n \no\ny\n \nm\ny\nu\nj"
+}

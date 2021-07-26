@@ -1,0 +1,18 @@
+id: "nio_Cyrl"
+language: "nio"
+script: "Cyrl"
+name: "Nganasan"
+sample_text {
+  masthead_full: "БбӘә"
+  masthead_partial: "Нн"
+  styles: "Б\nә\nн\nд\nе\n”\n \nӈ\nа\nн\nа\nс\nа\nн\nә\n”\n \nӈ\nә\nт\nу\nк"
+  tester: "Б\nә\nн\nд\nе\n”\n \nӈ\nа\nн\nа\nс\nа\nн\nә\n”\n \nӈ\nә\nт\nу\nк\nә\nн\nд\nы\n”\n \nн\nе\nн\nд"
+  poster_sm: "Б\nә\nн\nд\nе\n”"
+  poster_md: "Б\nә\nн\nд\nе"
+  poster_lg: "Б\nә"
+  specimen_48: "Б\nә\nн\nд\nе\n”\n \nӈ\nа\nн\nа\nс\nа\nн\nә\n”\n \nӈ\nә\nт\nу\nк\nә\nн\nд\nы\n”\n \nн\nе\nн\nд"
+  specimen_36: "Б\nә\nн\nд\nе\n”\n \nӈ\nа\nн\nа\nс\nа\nн\nә\n”\n \nӈ\nә\nт\nу\nк\nә\nн\nд\nы\n”\n \nн\nе\nн\nд\nя\n”\nт\nу\nо\n”\n \nӈ\nо\nн\nә\n \nх\nо\nн\nс\nы\n \nх\nе\nл"
+  specimen_32: "Б\nә\nн\nд\nе\n”\n \nӈ\nа\nн\nа\nс\nа\nн\nә\n”\n \nӈ\nә\nт\nу\nк\nә\nн\nд\nы\n”\n \nн\nе\nн\nд\nя\n”\nт\nу\nо\n”\n \nӈ\nо\nн\nә\n \nх\nо\nн\nс\nы\n \nх\nе\nл\nи\nд\nе\n”\n \nӈ\nи\nл\nе\n \nм\nә\nн\nә\nй\n \n(\nп\nр\nа\nв"
+  specimen_21: "Б\nә\nн\nд\nе\n”\n \nӈ\nа\nн\nа\nс\nа\nн\nә\n”\n \nӈ\nә\nт\nу\nк\nә\nн\nд\nы\n”\n \nн\nе\nн\nд\nя\n”\nт\nу\nо\n”\n \nӈ\nо\nн\nә\n \nх\nо\nн\nс\nы\n \nх\nе\nл\nи\nд\nе\n”\n \nӈ\nи\nл\nе\n \nм\nә\nн\nә\nй\n \n(\nп\nр\nа\nв\nа\nй\n)\n.\n \nС\nы\nт\nы\nӈ\n \nх\nо\nн\nд\nы\n”\n \nӈ\nи\nл\nе\n \nӈ\nо\nн\nд\nа\n \nӈ\nо\nн\nә\n \nс\nя\nр\nу\n,\n \nд\nү\nз\nы\nт\nә\nн\nд\nы\nӈ\n \nи\nх\nү\nт\nү\nӈ\n \nн\nя\nг\nә\nә\n”\n \nс\nү\nө\nа\nр\nу\nс\nә\n”\n.\nБ\nә\nн\nд\nе\n”\n \nӈ\nа"
+  specimen_16: "Б\nә\nн\nд\nе\n”\n \nӈ\nа\nн\nа\nс\nа\nн\nә\n”\n \nӈ\nә\nт\nу\nк\nә\nн\nд\nы\n”\n \nн\nе\nн\nд\nя\n”\nт\nу\nо\n”\n \nӈ\nо\nн\nә\n \nх\nо\nн\nс\nы\n \nх\nе\nл\nи\nд\nе\n”\n \nӈ\nи\nл\nе\n \nм\nә\nн\nә\nй\n \n(\nп\nр\nа\nв\nа\nй\n)\n.\n \nС\nы\nт\nы\nӈ\n \nх\nо\nн\nд\nы\n”\n \nӈ\nи\nл\nе\n \nӈ\nо\nн\nд\nа\n \nӈ\nо\nн\nә\n \nс\nя\nр\nу\n,\n \nд\nү\nз\nы\nт\nә\nн\nд\nы\nӈ\n \nи\nх\nү\nт\nү\nӈ\n \nн\nя\nг\nә\nә\n”\n \nс\nү\nө\nа\nр\nу\nс\nә\n”\n.\nБ\nә\nн\nд\nе\n”\n \nӈ\nа\nн\nа\nс\nа\nн\nә\n”\n \nӈ\nә\nт\nу\nк\nә\nн\nд\nы\n”\n \nн\nе\nн\nд\nя\n”\nт\nу\nо\n”\n \nӈ\nо\nн\nә\n \nх\nо\nн\nс\nы\n \nх\nе\nл\nи\nд\nе\n”\n \nӈ\nи\nл\nе\n \nм\nә\nн\nә\nй\n \n(\nп\nр\nа\nв\nа\nй\n)\n.\n \nС\nы\nт\nы\nӈ\n \nх\nо\nн\nд\nы\n”\n \nӈ\nи\nл\nе\n \nӈ\nо\nн\nд\nа\n \nӈ\nо\nн\nә\n \nс\nя\nр\nу\n,\n \nд\nү\nз\nы\nт\nә\nн\nд\nы\nӈ\n \nи\nх\nү\nт\nү\nӈ\n \nн\nя\nг\nә\nә\n”\n \nс"
+}

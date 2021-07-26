@@ -1,5 +1,5 @@
 name: "Assistant"
-designer: "Multiple Designers"
+designer: "Adobe Systems Inc., Ben Nathan"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"

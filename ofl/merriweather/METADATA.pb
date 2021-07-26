@@ -81,3 +81,148 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300
+    max_value: 300
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 109.38
+  ascent_override_pct: 90.63
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400
+    max_value: 400
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 109.77
+  ascent_override_pct: 90.63
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700
+    max_value: 700
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 112.3
+  ascent_override_pct: 87.5
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 900
+    max_value: 900
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 114.06
+  ascent_override_pct: 85.94
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300
+    max_value: 300
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 105.08
+  ascent_override_pct: 95.31
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400
+    max_value: 400
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 109.38
+  ascent_override_pct: 90.63
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700
+    max_value: 700
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 108.2
+  ascent_override_pct: 90.63
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 900
+    max_value: 900
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 112.5
+  ascent_override_pct: 87.5
+  local_src: "Roboto Italic"
+}

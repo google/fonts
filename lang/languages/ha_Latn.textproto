@@ -14,3 +14,17 @@ exemplar_chars {
   punctuation: "- ‑ , ; : ! ? . \' ‘ ’ \" “ ” ( ) [ ] { } ′ ″ { } { } { } { } { } { } { } { } { } { } { } { } { } { } { }"
   index: "A B Ɓ C D Ɗ E F G H I J K Ƙ L M N O R S T U W Y Ƴ Z"
 }
+sample_text {
+  masthead_full: "DdUu"
+  masthead_partial: "Kk"
+  styles: "Duk ‘yan’adan ana haihuwarsu ne a matsayin"
+  tester: "Duk ‘yan’adan ana haihuwarsu ne a matsayin ‘yantattun ‘ya’ya, kuma"
+  poster_sm: "Duk ‘yan’adan"
+  poster_md: "Duk ‘yan’adan"
+  poster_lg: "Duk"
+  specimen_48: "Duk ‘yan’adan ana haihuwarsu ne a matsayin ‘yantattun"
+  specimen_36: "Duk ‘yan’adan ana haihuwarsu ne a matsayin ‘yantattun ‘ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ‘yan’uwantaka a tsakani."
+  specimen_32: "Duk ‘yan’adan ana haihuwarsu ne a matsayin ‘yantattun ‘ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ‘yan’uwantaka a tsakani."
+  specimen_21: "Duk ‘yan’adan ana haihuwarsu ne a matsayin ‘yantattun ‘ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ‘yan’uwantaka a tsakani.\nDuk ‘yan’adan ana haihuwarsu ne a matsayin ‘yantattun ‘ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ‘yan’uwantaka a tsakani."
+  specimen_16: "Duk ‘yan’adan ana haihuwarsu ne a matsayin ‘yantattun ‘ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ‘yan’uwantaka a tsakani.\nDuk ‘yan’adan ana haihuwarsu ne a matsayin ‘yantattun ‘ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ‘yan’uwantaka a tsakani.\nDuk ‘yan’adan ana haihuwarsu ne a matsayin ‘yantattun ‘ya’ya, kuma mutuncinsu da haqqoqinsu daidai yake da na kowa. Suna da tunani da cikakken hankali, saboda haka ake son duk mu’amalar da za su yi, ta kasance akwai ‘yan’uwantaka a tsakani."
+}

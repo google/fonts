@@ -1,0 +1,18 @@
+id: "ami_Latn"
+language: "ami"
+script: "Latn"
+name: "Amis"
+sample_text {
+  masthead_full: "CcHh"
+  masthead_partial: "Ii"
+  styles: "Chiyu mahufuchay tu tamlaw, maemin pingdeng"
+  tester: "Chiyu mahufuchay tu tamlaw, maemin pingdeng ichunyan a kngli. Iraay"
+  poster_sm: ""
+  poster_md: ""
+  poster_lg: "Chiyu"
+  specimen_48: ""
+  specimen_36: ""
+  specimen_32: "Chiyu mahufuchay tu tamlaw, maemin pingdeng ichunyan a kngli. Iraay chaira lishing a naay a naay a harateng, pimaulahsha u harateng nu kaka shafa."
+  specimen_21: "Chiyu mahufuchay tu tamlaw, maemin pingdeng ichunyan a kngli. Iraay chaira lishing a naay a naay a harateng, pimaulahsha u harateng nu kaka shafa.\nChiyu mahufuchay tu tamlaw, maemin pingdeng ichunyan a kngli. Iraay chaira lishing a naay a naay a harateng, pimaulahsha u harateng nu kaka shafa.\nChiyu mahufuchay tu tamlaw, maemin pingdeng ichunyan a kngli. Iraay chaira lishing a naay a naay a harateng, pimaulahsha u harateng nu kaka shafa."
+  specimen_16: "Chiyu mahufuchay tu tamlaw, maemin pingdeng ichunyan a kngli. Iraay chaira lishing a naay a naay a harateng, pimaulahsha u harateng nu kaka shafa.\nChiyu mahufuchay tu tamlaw, maemin pingdeng ichunyan a kngli. Iraay chaira lishing a naay a naay a harateng, pimaulahsha u harateng nu kaka shafa.\nChiyu mahufuchay tu tamlaw, maemin pingdeng ichunyan a kngli. Iraay chaira lishing a naay a naay a harateng, pimaulahsha u harateng nu kaka shafa.\nChiyu mahufuchay tu tamlaw, maemin pingdeng ichunyan a kngli. Iraay chaira lishing a naay a naay a harateng, pimaulahsha u harateng nu kaka shafa."
+}

@@ -26,3 +26,17 @@ exemplar_chars {
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] § @ * / & # † ‡ ′ ″"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Dd"
+  styles: "Todos os seres humanos nascem livres e iguais"
+  tester: "Todos os seres humanos nascem livres e iguais em dignidade e"
+  poster_sm: "Todos os seres"
+  poster_md: "Todos"
+  poster_lg: "Todos"
+  specimen_48: "Todos os seres humanos nascem livres e iguais em dignidade"
+  specimen_36: "Todos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade."
+  specimen_32: "Todos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade."
+  specimen_21: "Todos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade.\nTodos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade."
+  specimen_16: "Todos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade.\nTodos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade.\nTodos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade.\nTodos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade."
+}

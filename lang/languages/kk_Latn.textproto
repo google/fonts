@@ -1,0 +1,18 @@
+id: "kk_Latn"
+language: "kk"
+script: "Latn"
+name: "Kazakh, Latin"
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Rr"
+  styles: "Barlıq adamdar twmısınan azat jäne qadir-qasïyeti"
+  tester: "Barlıq adamdar twmısınan azat jäne qadir-qasïyeti men quqıqtarı"
+  poster_sm: "Barlıq adamdar"
+  poster_md: ""
+  poster_lg: "Barlıq"
+  specimen_48: "Barlıq adamdar twmısınan azat jäne qadir-qasïyeti men quqıqtarı teñ"
+  specimen_36: ""
+  specimen_32: ""
+  specimen_21: "Barlıq adamdar twmısınan azat jäne qadir-qasïyeti men quqıqtarı teñ bolıp dünïyege keledi. Adamdarğa aqıl-parasat, ar-ojdan berilgen, sondıqtan olar bir-birimen twıstıq, bawırmaldıq qarım-qatınas jasawları tïis.\nBarlıq adamdar twmısınan azat jäne qadir-qasïyeti men quqıqtarı teñ bolıp dünïyege keledi. Adamdarğa aqıl-parasat, ar-ojdan berilgen, sondıqtan olar bir-birimen twıstıq, bawırmaldıq qarım-qatınas jasawları tïis."
+  specimen_16: "Barlıq adamdar twmısınan azat jäne qadir-qasïyeti men quqıqtarı teñ bolıp dünïyege keledi. Adamdarğa aqıl-parasat, ar-ojdan berilgen, sondıqtan olar bir-birimen twıstıq, bawırmaldıq qarım-qatınas jasawları tïis.\nBarlıq adamdar twmısınan azat jäne qadir-qasïyeti men quqıqtarı teñ bolıp dünïyege keledi. Adamdarğa aqıl-parasat, ar-ojdan berilgen, sondıqtan olar bir-birimen twıstıq, bawırmaldıq qarım-qatınas jasawları tïis.\nBarlıq adamdar twmısınan azat jäne qadir-qasïyeti men quqıqtarı teñ bolıp dünïyege keledi. Adamdarğa aqıl-parasat, ar-ojdan berilgen, sondıqtan olar bir-birimen twıstıq, bawırmaldıq qarım-qatınas jasawları tïis."
+}

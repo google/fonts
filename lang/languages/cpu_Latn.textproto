@@ -1,0 +1,18 @@
+id: "cpu_Latn"
+language: "cpu"
+script: "Latn"
+name: "Ashéninka, Pichis"
+sample_text {
+  masthead_full: "MmAa"
+  masthead_partial: "Rr"
+  styles: "Maaroni atziripayeeni, ovaquera intzimapaaque,"
+  tester: "Maaroni atziripayeeni, ovaquera intzimapaaque, eero ocantzi iñaashitacaavaitaityaari"
+  poster_sm: ""
+  poster_md: ""
+  poster_lg: "Maaroni"
+  specimen_48: ""
+  specimen_36: ""
+  specimen_32: ""
+  specimen_21: ""
+  specimen_16: "Maaroni atziripayeeni, ovaquera intzimapaaque, eero ocantzi iñaashitacaavaitaityaari iromperanataityaari. Eejatzi oquemitari iroñaaca te apantyaaro amanitashireteri atziri ancanteri: \"Te pirjiperote eeroca, iriima irinta iriitaque ñaaperori\". Eejatzi oquemitari te oncameethate intzime aparoni atziri antayetashityaarone caari ishinetaacairi pashine irantero. Tema maaroni ayotziro ampampithashirvaayeta, ayotziro tsicarica otzimayetzi cameethatatsiri anteri o tsicarica otzimi caariperotatsiri, irootaque ocovaperotantari iroñaaca entacotavacaayetya anquemitacaantanaquero arentzitavacaatyeeyaami ocaaquiini."
+}

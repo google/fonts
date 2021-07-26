@@ -1,0 +1,18 @@
+id: "ijs_Latn"
+language: "ijs"
+script: "Latn"
+name: "Ijo, Southeast"
+sample_text {
+  masthead_full: "KkIi"
+  masthead_partial: "Mm"
+  styles: "Kim’ owoumo se, keni bara ki na, pa zimi, ose"
+  tester: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se"
+  poster_sm: "Kim’ owoumo"
+  poster_md: ""
+  poster_lg: "Kim’"
+  specimen_48: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye"
+  specimen_36: ""
+  specimen_32: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri."
+  specimen_21: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri."
+  specimen_16: "Kim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri.\nKim’ owoumo se, keni bara ki na, pa zimi, ose keni bara kemi. Kim’se ye iroro, mani ikiou nana, enini kim’se dudu tari teme nana weri iyenri."
+}

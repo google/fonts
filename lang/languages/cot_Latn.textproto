@@ -1,0 +1,18 @@
+id: "cot_Latn"
+language: "cot"
+script: "Latn"
+name: "Caquinte"
+sample_text {
+  masthead_full: "AaQq"
+  masthead_partial: "Uu"
+  styles: "Aquejetavacaajiaca maasano caquinte. Chooca"
+  tester: "Aquejetavacaajiaca maasano caquinte. Chooca aquenquejantaca maasano,"
+  poster_sm: ""
+  poster_md: ""
+  poster_lg: "maasano"
+  specimen_48: "Aquejetavacaajiaca maasano caquinte. Chooca aquenquejantaca maasano"
+  specimen_36: ""
+  specimen_32: ""
+  specimen_21: "Aquejetavacaajiaca maasano caquinte. Chooca aquenquejantaca maasano, chooca amejigaca, atsajiaque taaca opajitapae ocameetsataque antajiguica. Tee oncameetsateji iromperaperanajicaji, tee oncameetsateji irogashinoncajajiacaji. Jero cameetsatatsica aavacaj aiaquempa."
+  specimen_16: "Aquejetavacaajiaca maasano caquinte. Chooca aquenquejantaca maasano, chooca amejigaca, atsajiaque taaca opajitapae ocameetsataque antajiguica. Tee oncameetsateji iromperaperanajicaji, tee oncameetsateji irogashinoncajajiacaji. Jero cameetsatatsica aavacaj aiaquempa.\nAquejetavacaajiaca maasano caquinte. Chooca aquenquejantaca maasano, chooca amejigaca, atsajiaque taaca opajitapae ocameetsataque antajiguica. Tee oncameetsateji iromperaperanajicaji, tee oncameetsateji irogashinoncajajiacaji. Jero cameetsatatsica aavacaj aiaquempa."
+}

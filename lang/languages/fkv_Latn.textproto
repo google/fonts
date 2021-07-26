@@ -1,0 +1,18 @@
+id: "fkv_Latn"
+language: "fkv"
+script: "Latn"
+name: "Finnish, Kven"
+sample_text {
+  masthead_full: "KkAa"
+  masthead_partial: "Ii"
+  styles: "Kaikki ihmiset synnythään vaphaina, ja heilä"
+  tester: "Kaikki ihmiset synnythään vaphaina, ja heilä kaikila oon sama"
+  poster_sm: "Kaikki ihmiset"
+  poster_md: ""
+  poster_lg: "Kaikki"
+  specimen_48: "Kaikki ihmiset synnythään vaphaina, ja heilä kaikila oon sama ihmisarvo"
+  specimen_36: ""
+  specimen_32: ""
+  specimen_21: "Kaikki ihmiset synnythään vaphaina, ja heilä kaikila oon sama ihmisarvo ja samat ihmisoikkeuet. Het oon saanheet järjen ja omatunnon, ja het piethään elläät toinen toisen kans niin ko veljet keskenhään.\nKaikki ihmiset synnythään vaphaina, ja heilä kaikila oon sama ihmisarvo ja samat ihmisoikkeuet. Het oon saanheet järjen ja omatunnon, ja het piethään elläät toinen toisen kans niin ko veljet keskenhään."
+  specimen_16: "Kaikki ihmiset synnythään vaphaina, ja heilä kaikila oon sama ihmisarvo ja samat ihmisoikkeuet. Het oon saanheet järjen ja omatunnon, ja het piethään elläät toinen toisen kans niin ko veljet keskenhään.\nKaikki ihmiset synnythään vaphaina, ja heilä kaikila oon sama ihmisarvo ja samat ihmisoikkeuet. Het oon saanheet järjen ja omatunnon, ja het piethään elläät toinen toisen kans niin ko veljet keskenhään.\nKaikki ihmiset synnythään vaphaina, ja heilä kaikila oon sama ihmisarvo ja samat ihmisoikkeuet. Het oon saanheet järjen ja omatunnon, ja het piethään elläät toinen toisen kans niin ko veljet keskenhään."
+}

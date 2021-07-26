@@ -1,0 +1,18 @@
+id: "quz_Latn"
+language: "quz"
+script: "Latn"
+name: "Quechua, Cusco"
+sample_text {
+  masthead_full: "LlAa"
+  masthead_partial: "Pp"
+  styles: "Llapa runan kay pachapi paqarin qispisqa,"
+  tester: "Llapa runan kay pachapi paqarin qispisqa, \"libre\" flisqa, allin kausaypi,"
+  poster_sm: "Llapa runan"
+  poster_md: ""
+  poster_lg: "Llapa"
+  specimen_48: "Llapa runan kay pachapi paqarin qispisqa, \"libre\" flisqa, allin kausaypi"
+  specimen_36: ""
+  specimen_32: ""
+  specimen_21: "Llapa runan kay pachapi paqarin qispisqa, \"libre\" flisqa, allin kausaypi, chaninchasqa kausaypi kananpaq, yuyayniyoq, yachayniyoq runa kasqanman jina. Llapa runamasinwantaqmi wauqentin jina munanakunan.\nLlapa runan kay pachapi paqarin qispisqa, \"libre\" flisqa, allin kausaypi, chaninchasqa kausaypi kananpaq, yuyayniyoq, yachayniyoq runa kasqanman jina. Llapa runamasinwantaqmi wauqentin jina munanakunan."
+  specimen_16: "Llapa runan kay pachapi paqarin qispisqa, \"libre\" flisqa, allin kausaypi, chaninchasqa kausaypi kananpaq, yuyayniyoq, yachayniyoq runa kasqanman jina. Llapa runamasinwantaqmi wauqentin jina munanakunan.\nLlapa runan kay pachapi paqarin qispisqa, \"libre\" flisqa, allin kausaypi, chaninchasqa kausaypi kananpaq, yuyayniyoq, yachayniyoq runa kasqanman jina. Llapa runamasinwantaqmi wauqentin jina munanakunan.\nLlapa runan kay pachapi paqarin qispisqa, \"libre\" flisqa, allin kausaypi, chaninchasqa kausaypi kananpaq, yuyayniyoq, yachayniyoq runa kasqanman jina. Llapa runamasinwantaqmi wauqentin jina munanakunan."
+}

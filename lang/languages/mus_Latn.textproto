@@ -9,17 +9,3 @@ exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ē a b c d e f g h i j k l m n o p q r s t u v w x y z ē"
   marks: "◌̄"
 }
-sample_text {
-  masthead_full: "EeSs"
-  masthead_partial: "Tt"
-  styles: "E\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n,\n \ne\ns\nt\ni\nm\nv\n \nt"
-  tester: "E\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n,\n \ne\ns\nt\ni\nm\nv\n \nt\no\nn\n \no\nm\ne\ns\nt\no\nw"
-  poster_sm: "E\ns\nt\ne\n \nv"
-  poster_md: "E\ns\nt\ne\n "
-  poster_lg: "E\ns"
-  specimen_48: "E\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n,\n \ne\ns\nt\ni\nm\nv\n \nt\no\nn\n \no\nm\ne\ns\nt\no\nw"
-  specimen_36: "E\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n,\n \ne\ns\nt\ni\nm\nv\n \nt\no\nn\n \no\nm\ne\ns\nt\no\nw\ni\ns\n,\n \ns\nv\nl\nv\nf\nk\ne\nk\no\nt\n \nh\ne\nc\nk\nv\nk"
-  specimen_32: "E\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n,\n \ne\ns\nt\ni\nm\nv\n \nt\no\nn\n \no\nm\ne\ns\nt\no\nw\ni\ns\n,\n \ns\nv\nl\nv\nf\nk\ne\nk\no\nt\n \nh\ne\nc\nk\nv\nk\nv\nt\ne\nt\n \no\nm\ne\nt\n,\n \nv\nr\nv\nk\nk\nu\ne\nc\nv"
-  specimen_21: "E\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n,\n \ne\ns\nt\ni\nm\nv\n \nt\no\nn\n \no\nm\ne\ns\nt\no\nw\ni\ns\n,\n \ns\nv\nl\nv\nf\nk\ne\nk\no\nt\n \nh\ne\nc\nk\nv\nk\nv\nt\ne\nt\n \no\nm\ne\nt\n,\n \nv\nr\nv\nk\nk\nu\ne\nc\nv\nk\ne\n \nt\na\ny\na\nt\n,\n \nm\no\nm\ne\nn\n \ne\nn\ny\ne\nk\nc\ne\nt\nv\n \ne\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n \ne\nm\ne\nt\ne\n \nm\no\nw\nv\nl\nk\no\ns\ne\nt\n \no\nm\ne\ns\n.\n \nH\no\np\no\nr\nr\ne\nn\nk\nv\n \nm\no\nm\ne\nn\n \nf\nv\nc"
-  specimen_16: "E\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n,\n \ne\ns\nt\ni\nm\nv\n \nt\no\nn\n \no\nm\ne\ns\nt\no\nw\ni\ns\n,\n \ns\nv\nl\nv\nf\nk\ne\nk\no\nt\n \nh\ne\nc\nk\nv\nk\nv\nt\ne\nt\n \no\nm\ne\nt\n,\n \nv\nr\nv\nk\nk\nu\ne\nc\nv\nk\ne\n \nt\na\ny\na\nt\n,\n \nm\no\nm\ne\nn\n \ne\nn\ny\ne\nk\nc\ne\nt\nv\n \ne\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n \ne\nm\ne\nt\ne\n \nm\no\nw\nv\nl\nk\no\ns\ne\nt\n \no\nm\ne\ns\n.\n \nH\no\np\no\nr\nr\ne\nn\nk\nv\n \nm\no\nm\ne\nn\n \nf\nv\nc\nc\ne\nt\nv\n \ne\nm\nv\nk\nh\no\ny\nv\nt\ne\nt\n \no\nm\ne\nk\nv\n \ne\ns\nt\ne\n \ne\nt\nv\nk\nv\n \nv\nt\ne\nk\na\nt\n \ne\nm\ne\nt\ne\nc\nv\nk\nk\ne\nt\nv\n \ne\nm\np\no\ny\nv\nf\ne\nk\nc\nv\n \no\nf\nv\nn\n \ne\nt\no\nh\ne\nc\nv\nk\nv\nr\na\nn\ne\nt\n \no\nm\ne\ns\n.\nE\ns\nt\ne\n \nv\nt\ne\nk\na\nt\n,\n \ne\ns\nt\ni\nm\nv\n \nt\no\nn\n \no\nm\ne\ns\nt\no\nw\ni\ns\n,\n \ns"
-}

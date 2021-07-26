@@ -26,17 +26,3 @@ exemplar_chars {
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] § @ * / & # † ‡ ′ ″"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }
-sample_text {
-  masthead_full: "TtOo"
-  masthead_partial: "Dd"
-  styles: "T\no\nd\no\ns\n \no\ns\n \ns\ne\nr\ne\ns\n \nh\nu\nm\na\nn\no"
-  tester: "T\no\nd\no\ns\n \no\ns\n \ns\ne\nr\ne\ns\n \nh\nu\nm\na\nn\no\ns\n \nn\na\ns\nc\ne\nm\n \nl"
-  poster_sm: "T\no\nd\no\ns\n "
-  poster_md: "T\no\nd\no\ns"
-  poster_lg: "T\no"
-  specimen_48: "T\no\nd\no\ns\n \no\ns\n \ns\ne\nr\ne\ns\n \nh\nu\nm\na\nn\no\ns\n \nn\na\ns\nc\ne\nm\n \nl"
-  specimen_36: "T\no\nd\no\ns\n \no\ns\n \ns\ne\nr\ne\ns\n \nh\nu\nm\na\nn\no\ns\n \nn\na\ns\nc\ne\nm\n \nl\ni\nv\nr\ne\ns\n \ne\n \ni\ng\nu\na\ni\ns\n \ne\nm\n \nd\ni"
-  specimen_32: "T\no\nd\no\ns\n \no\ns\n \ns\ne\nr\ne\ns\n \nh\nu\nm\na\nn\no\ns\n \nn\na\ns\nc\ne\nm\n \nl\ni\nv\nr\ne\ns\n \ne\n \ni\ng\nu\na\ni\ns\n \ne\nm\n \nd\ni\ng\nn\ni\nd\na\nd\ne\n \ne\n \nd\ni\nr\ne\ni\nt\no\ns\n.\n "
-  specimen_21: "T\no\nd\no\ns\n \no\ns\n \ns\ne\nr\ne\ns\n \nh\nu\nm\na\nn\no\ns\n \nn\na\ns\nc\ne\nm\n \nl\ni\nv\nr\ne\ns\n \ne\n \ni\ng\nu\na\ni\ns\n \ne\nm\n \nd\ni\ng\nn\ni\nd\na\nd\ne\n \ne\n \nd\ni\nr\ne\ni\nt\no\ns\n.\n \nS\nã\no\n \nd\no\nt\na\nd\no\ns\n \nd\ne\n \nr\na\nz\nã\no\n \ne\n \nc\no\nn\ns\nc\ni\nê\nn\nc\ni\na\n \ne\n \nd\ne\nv\ne\nm\n \na\ng\ni\nr\n \ne\nm\n \nr\ne\nl\na\nç\nã\no\n \nu\nn\ns\n \na\no\ns\n \no\nu\nt\nr\no\ns\n \nc\no\nm\n \ne\ns"
-  specimen_16: "T\no\nd\no\ns\n \no\ns\n \ns\ne\nr\ne\ns\n \nh\nu\nm\na\nn\no\ns\n \nn\na\ns\nc\ne\nm\n \nl\ni\nv\nr\ne\ns\n \ne\n \ni\ng\nu\na\ni\ns\n \ne\nm\n \nd\ni\ng\nn\ni\nd\na\nd\ne\n \ne\n \nd\ni\nr\ne\ni\nt\no\ns\n.\n \nS\nã\no\n \nd\no\nt\na\nd\no\ns\n \nd\ne\n \nr\na\nz\nã\no\n \ne\n \nc\no\nn\ns\nc\ni\nê\nn\nc\ni\na\n \ne\n \nd\ne\nv\ne\nm\n \na\ng\ni\nr\n \ne\nm\n \nr\ne\nl\na\nç\nã\no\n \nu\nn\ns\n \na\no\ns\n \no\nu\nt\nr\no\ns\n \nc\no\nm\n \ne\ns\np\ní\nr\ni\nt\no\n \nd\ne\n \nf\nr\na\nt\ne\nr\nn\ni\nd\na\nd\ne\n.\nT\no\nd\no\ns\n \no\ns\n \ns\ne\nr\ne\ns\n \nh\nu\nm\na\nn\no\ns\n \nn\na\ns\nc\ne\nm\n \nl\ni\nv\nr\ne\ns\n \ne\n \ni\ng\nu\na\ni\ns\n \ne\nm\n \nd\ni\ng\nn\ni\nd\na\nd\ne\n \ne\n \nd\ni\nr\ne\ni\nt\no\ns\n.\n \nS\nã\no\n \nd\no\nt\na\nd\no\ns\n \nd\ne\n \nr\na\nz\nã\no\n \ne\n \nc\no\nn\ns\nc\ni\nê\nn\nc"
-}

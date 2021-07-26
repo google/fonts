@@ -12,17 +12,3 @@ exemplar_chars {
   punctuation: "⹁ ⁏ : ! ۔ ‘ ( ) [ ] { } / { } { } { } { } { } { } { } { } { } { } { } { } { } { } { }"
   index: "ا ب ٻ پ ڀ ت ث ٺ ٽ ٿ ج {جھ} ڃ ڄ چ ڇ ح خ د ذ ڊ ڌ ڍ ڏ ر ز ڙ س ش ص ض ط ظ ع غ ف ڦ ق ک ڪ گ {گھ} ڱ ڳ ل م ن ڻ ه ھ و ي {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ} {جھ} {گھ}"
 }
-sample_text {
-  masthead_full: "سمور"
-  masthead_partial: "ان"
-  styles: "س\nم\nو\nر\nا\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nء\nِ\n \nع"
-  tester: "س\nم\nو\nر\nا\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nء\nِ\n \nع\nز\nت\n \nء\nِ\n \nح\nق\nن\n \nڄ"
-  poster_sm: "س\nم\nو\nر\nا\n "
-  poster_md: "س\nم\nو\nر\nا"
-  poster_lg: "س\nم"
-  specimen_48: "س\nم\nو\nر\nا\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nء\nِ\n \nع\nز\nت\n \nء\nِ\n \nح\nق\nن\n \nڄ"
-  specimen_36: "س\nم\nو\nر\nا\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nء\nِ\n \nع\nز\nت\n \nء\nِ\n \nح\nق\nن\n \nڄ\nي\n \nح\nو\nا\nل\nي\n \nڪ\nا\nن\n \nن\nر\nا\nن\nر\n \nپ\nي"
-  specimen_32: "س\nم\nو\nر\nا\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nء\nِ\n \nع\nز\nت\n \nء\nِ\n \nح\nق\nن\n \nڄ\nي\n \nح\nو\nا\nل\nي\n \nڪ\nا\nن\n \nن\nر\nا\nن\nر\n \nپ\nي\nد\nا\nٿ\nي\nا\n \nآ\nه\nن\n.\n \nا\nن\nه\nن\n \nڪ\nي\n \nع"
-  specimen_21: "س\nم\nو\nر\nا\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nء\nِ\n \nع\nز\nت\n \nء\nِ\n \nح\nق\nن\n \nڄ\nي\n \nح\nو\nا\nل\nي\n \nڪ\nا\nن\n \nن\nر\nا\nن\nر\n \nپ\nي\nد\nا\nٿ\nي\nا\n \nآ\nه\nن\n.\n \nا\nن\nه\nن\n \nڪ\nي\n \nع\nق\nل\n \nء\nِ\n \nض\nم\nي\nر\n \nح\nا\nص\nل\n \nٿ\nي\nو\n \nآ\nه\nي\n،\n \nڪ\nر\nي\n \nا\nن\nه\nن\n \nڪ\nي\n \nه\nڪ\n \nٻ\nئ\nي\n \nس\nل\nن\n \nڀ\nل\nئ\nي\nچ\nا\nر\n \nي\n \nو\nا\nر\nو\n \nس\nا\nو\nڪ\n \nا\nخ\nت\nي\nا\nر\n \nڪ\nر\nڻ\n \nگ\nه"
-  specimen_16: "س\nم\nو\nر\nا\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nء\nِ\n \nع\nز\nت\n \nء\nِ\n \nح\nق\nن\n \nڄ\nي\n \nح\nو\nا\nل\nي\n \nڪ\nا\nن\n \nن\nر\nا\nن\nر\n \nپ\nي\nد\nا\nٿ\nي\nا\n \nآ\nه\nن\n.\n \nا\nن\nه\nن\n \nڪ\nي\n \nع\nق\nل\n \nء\nِ\n \nض\nم\nي\nر\n \nح\nا\nص\nل\n \nٿ\nي\nو\n \nآ\nه\nي\n،\n \nڪ\nر\nي\n \nا\nن\nه\nن\n \nڪ\nي\n \nه\nڪ\n \nٻ\nئ\nي\n \nس\nل\nن\n \nڀ\nل\nئ\nي\nچ\nا\nر\n \nي\n \nو\nا\nر\nو\n \nس\nا\nو\nڪ\n \nا\nخ\nت\nي\nا\nر\n \nڪ\nر\nڻ\n \nگ\nه\nر\n \nج\nي\n.\nس\nم\nو\nر\nا\n \nا\nن\nس\nا\nن\n \nآ\nز\nا\nد\n \nء\nِ\n \nع\nز\nت\n \nء\nِ\n \nح\nق\nن\n \nڄ\nي\n \nح\nو\nا\nل\nي\n \nڪ\nا\nن\n \nن\nر\nا\nن\nر\n \nپ\nي\nد\nا\nٿ\nي\nا\n \nآ\nه\nن\n.\n \nا\nن\nه\nن\n \nڪ\nي\n \nع\nق\nل\n \nء\nِ\n \nض\nم\nي\nر\n \nح\nا\nص\nل\n \nٿ\nي\nو\n \nآ\nه\nي\n،\n \nڪ\nر\nي\n \nا\nن\nه\nن\n \nڪ\nي\n \nه\nڪ\n \nٻ\nئ\nي\n \nس\nل\nن\n \nڀ\nل\nئ"
-}

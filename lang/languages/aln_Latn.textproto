@@ -9,17 +9,3 @@ exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ë a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë"
   marks: "◌̈ ◌̧"
 }
-sample_text {
-  masthead_full: "ZzHh"
-  masthead_partial: "Dd"
-  styles: "Z\nh\nd\no\n \nn\nj\ne\nr\ni\n \nk\na\nn\n \nl\ne\n \nt\n\'\nl"
-  tester: "Z\nh\nd\no\n \nn\nj\ne\nr\ni\n \nk\na\nn\n \nl\ne\n \nt\n\'\nl\ni\nr\n \nm\nê\n \nn\nj\nã\nj"
-  poster_sm: "Z\nh\nd\no\n \nn"
-  poster_md: "Z\nh\nd\no\n "
-  poster_lg: "Z\nh"
-  specimen_48: "Z\nh\nd\no\n \nn\nj\ne\nr\ni\n \nk\na\nn\n \nl\ne\n \nt\n\'\nl\ni\nr\n \nm\nê\n \nn\nj\nã\nj"
-  specimen_36: "Z\nh\nd\no\n \nn\nj\ne\nr\ni\n \nk\na\nn\n \nl\ne\n \nt\n\'\nl\ni\nr\n \nm\nê\n \nn\nj\nã\nj\ni\nt\n \nd\ni\nn\nj\ni\nt\nê\nt\n \ne\nd\nh\nê\n \nd\nr\ne"
-  specimen_32: "Z\nh\nd\no\n \nn\nj\ne\nr\ni\n \nk\na\nn\n \nl\ne\n \nt\n\'\nl\ni\nr\n \nm\nê\n \nn\nj\nã\nj\ni\nt\n \nd\ni\nn\nj\ni\nt\nê\nt\n \ne\nd\nh\nê\n \nd\nr\ne\nt\na\n.\n \nA\nt\na\n \nj\na\nn\n \nt\në\n \np\na\nj\ni\ns\nu"
-  specimen_21: "Z\nh\nd\no\n \nn\nj\ne\nr\ni\n \nk\na\nn\n \nl\ne\n \nt\n\'\nl\ni\nr\n \nm\nê\n \nn\nj\nã\nj\ni\nt\n \nd\ni\nn\nj\ni\nt\nê\nt\n \ne\nd\nh\nê\n \nd\nr\ne\nt\na\n.\n \nA\nt\na\n \nj\na\nn\n \nt\në\n \np\na\nj\ni\ns\nu\nn\n \nm\nê\n \nm\nê\nn\nj\nê\n \ne\nd\nh\nê\n \nv\ne\nt\n-\nd\ni\nj\nê\n \ne\nd\nh\nê\n \nd\nu\nh\në\nn\n \nt\në\n \nv\ne\np\nr\nô\nj\nn\n \nk\na\n \nn\nj\nã\nn\ni\n-\nt\nj\ne\nt\nr\ni\nn\n \nm\nê\n \nn\nj\ni\n \ns\nh\np\ni\nr\nt\n \nv\nl\nl"
-  specimen_16: "Z\nh\nd\no\n \nn\nj\ne\nr\ni\n \nk\na\nn\n \nl\ne\n \nt\n\'\nl\ni\nr\n \nm\nê\n \nn\nj\nã\nj\ni\nt\n \nd\ni\nn\nj\ni\nt\nê\nt\n \ne\nd\nh\nê\n \nd\nr\ne\nt\na\n.\n \nA\nt\na\n \nj\na\nn\n \nt\në\n \np\na\nj\ni\ns\nu\nn\n \nm\nê\n \nm\nê\nn\nj\nê\n \ne\nd\nh\nê\n \nv\ne\nt\n-\nd\ni\nj\nê\n \ne\nd\nh\nê\n \nd\nu\nh\në\nn\n \nt\në\n \nv\ne\np\nr\nô\nj\nn\n \nk\na\n \nn\nj\nã\nn\ni\n-\nt\nj\ne\nt\nr\ni\nn\n \nm\nê\n \nn\nj\ni\n \ns\nh\np\ni\nr\nt\n \nv\nl\nl\nâ\nz\nn\ni\nm\ni\nt\n.\nZ\nh\nd\no\n \nn\nj\ne\nr\ni\n \nk\na\nn\n \nl\ne\n \nt\n\'\nl\ni\nr\n \nm\nê\n \nn\nj\nã\nj\ni\nt\n \nd\ni\nn\nj\ni\nt\nê\nt\n \ne\nd\nh\nê\n \nd\nr\ne\nt\na\n.\n \nA\nt\na\n \nj\na\nn\n \nt\në\n \np\na\nj\ni\ns\nu\nn\n \nm\nê\n \nm\nê\nn\nj\nê\n \ne\nd\nh\nê\n \nv\ne\nt\n-\nd\ni\nj\nê\n \ne\nd\nh\nê\n \nd\nu\nh\në\nn\n \nt\në\n \nv\ne\np\nr\nô\nj\nn\n "
-}

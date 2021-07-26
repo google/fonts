@@ -11,17 +11,3 @@ exemplar_chars {
   numerals: "  - ‑ . % ‰ + 0 1 2 3 4 5 6 7 8 9"
   index: "A B C D E F G H I J K L M N O P R S T U V W X Y Z"
 }
-sample_text {
-  masthead_full: "TtOo"
-  masthead_partial: "Uu"
-  styles: "T\no\nu\n \nb\na\nn\nn\n \ni\nm\ni\nn\n \nn\ne\n \nl\ni\nb\n "
-  tester: "T\no\nu\n \nb\na\nn\nn\n \ni\nm\ni\nn\n \nn\ne\n \nl\ni\nb\n \ne\nk\n \ne\ng\na\nl\n \nd\na"
-  poster_sm: "T\no\nu\n \nb\na"
-  poster_md: "T\no\nu\n \nb"
-  poster_lg: "T\no"
-  specimen_48: "T\no\nu\n \nb\na\nn\nn\n \ni\nm\ni\nn\n \nn\ne\n \nl\ni\nb\n \ne\nk\n \ne\ng\na\nl\n \nd\na"
-  specimen_36: "T\no\nu\n \nb\na\nn\nn\n \ni\nm\ni\nn\n \nn\ne\n \nl\ni\nb\n \ne\nk\n \ne\ng\na\nl\n \nd\na\nn\n \nd\ni\nn\ni\nt\ne\n \ne\nk\n \nd\na\nn\n \nb\na\nn\nn"
-  specimen_32: "T\no\nu\n \nb\na\nn\nn\n \ni\nm\ni\nn\n \nn\ne\n \nl\ni\nb\n \ne\nk\n \ne\ng\na\nl\n \nd\na\nn\n \nd\ni\nn\ni\nt\ne\n \ne\nk\n \nd\na\nn\n \nb\na\nn\nn\n \nd\nr\nw\na\n.\n \nZ\no\nt\n \ne\nn\na\n \nl\na\nr\ne\nz"
-  specimen_21: "T\no\nu\n \nb\na\nn\nn\n \ni\nm\ni\nn\n \nn\ne\n \nl\ni\nb\n \ne\nk\n \ne\ng\na\nl\n \nd\na\nn\n \nd\ni\nn\ni\nt\ne\n \ne\nk\n \nd\na\nn\n \nb\na\nn\nn\n \nd\nr\nw\na\n.\n \nZ\no\nt\n \ne\nn\na\n \nl\na\nr\ne\nz\no\nn\n \ne\nk\n \nk\no\nn\ns\ni\na\nn\ns\n \ne\nk\n \nz\no\nt\n \nb\ni\nz\ni\nn\n \na\nz\ni\nr\n \na\nn\nv\ne\nr\n \nl\ne\nz\no\nt\n \nd\na\nn\n \ne\nn\nn\n \nl\ne\ns\np\nr\ni\n \nf\nr\na\nt\ne\nr\nn\ne\nl\n.\nT\no\nu\n \nb\na\nn\nn\n \ni\nm"
-  specimen_16: "T\no\nu\n \nb\na\nn\nn\n \ni\nm\ni\nn\n \nn\ne\n \nl\ni\nb\n \ne\nk\n \ne\ng\na\nl\n \nd\na\nn\n \nd\ni\nn\ni\nt\ne\n \ne\nk\n \nd\na\nn\n \nb\na\nn\nn\n \nd\nr\nw\na\n.\n \nZ\no\nt\n \ne\nn\na\n \nl\na\nr\ne\nz\no\nn\n \ne\nk\n \nk\no\nn\ns\ni\na\nn\ns\n \ne\nk\n \nz\no\nt\n \nb\ni\nz\ni\nn\n \na\nz\ni\nr\n \na\nn\nv\ne\nr\n \nl\ne\nz\no\nt\n \nd\na\nn\n \ne\nn\nn\n \nl\ne\ns\np\nr\ni\n \nf\nr\na\nt\ne\nr\nn\ne\nl\n.\nT\no\nu\n \nb\na\nn\nn\n \ni\nm\ni\nn\n \nn\ne\n \nl\ni\nb\n \ne\nk\n \ne\ng\na\nl\n \nd\na\nn\n \nd\ni\nn\ni\nt\ne\n \ne\nk\n \nd\na\nn\n \nb\na\nn\nn\n \nd\nr\nw\na\n.\n \nZ\no\nt\n \ne\nn\na\n \nl\na\nr\ne\nz\no\nn\n \ne\nk\n \nk\no\nn\ns\ni\na\nn\ns\n \ne\nk\n \nz\no\nt\n \nb\ni\nz\ni\nn\n \na\nz\ni\nr\n \na\nn\nv\ne\nr\n \nl\ne\nz\no\nt\n \nd\na\nn\n \ne\nn\nn\n \nl\ne\ns\np\nr\ni\n \nf\nr\na\nt\ne"
-}

@@ -13,17 +13,3 @@ exemplar_chars {
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ ‚ \" “ „ « » ( ) [ ] { } § @ * / & # { } { } { } { } { } { } { } { } { } { } { } { } { } { } { }"
   index: "A B C Č Ć D E F G H {Ch} I J K Ł L M N O P Q R S Š Ś T U V W X Y Z Ž Ź {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch}"
 }
-sample_text {
-  masthead_full: "WwŠš"
-  masthead_partial: "Yy"
-  styles: "W\nš\ny\nk\nn\ne\n \nl\nu\nź\ne\n \ns\nu\n \nl\ni\nc\nh\no\nt"
-  tester: "W\nš\ny\nk\nn\ne\n \nl\nu\nź\ne\n \ns\nu\n \nl\ni\nc\nh\no\nt\nn\ne\n \nr\no\nź\no\nn\ne\n "
-  poster_sm: "W\nš\ny\nk\nn\ne"
-  poster_md: "W\nš\ny\nk\nn"
-  poster_lg: "W\nš"
-  specimen_48: "W\nš\ny\nk\nn\ne\n \nl\nu\nź\ne\n \ns\nu\n \nl\ni\nc\nh\no\nt\nn\ne\n \nr\no\nź\no\nn\ne\n "
-  specimen_36: "W\nš\ny\nk\nn\ne\n \nl\nu\nź\ne\n \ns\nu\n \nl\ni\nc\nh\no\nt\nn\ne\n \nr\no\nź\no\nn\ne\n \na\n \nj\na\nd\nn\na\nk\ne\n \np\no\n \nd\no\ns\nt\no\nj\nn"
-  specimen_32: "W\nš\ny\nk\nn\ne\n \nl\nu\nź\ne\n \ns\nu\n \nl\ni\nc\nh\no\nt\nn\ne\n \nr\no\nź\no\nn\ne\n \na\n \nj\na\nd\nn\na\nk\ne\n \np\no\n \nd\no\ns\nt\no\nj\nn\no\ns\nć\ni\n \na\n \np\nš\na\nw\na\nc\nh\n.\n \nW\no\nn\ni"
-  specimen_21: "W\nš\ny\nk\nn\ne\n \nl\nu\nź\ne\n \ns\nu\n \nl\ni\nc\nh\no\nt\nn\ne\n \nr\no\nź\no\nn\ne\n \na\n \nj\na\nd\nn\na\nk\ne\n \np\no\n \nd\no\ns\nt\no\nj\nn\no\ns\nć\ni\n \na\n \np\nš\na\nw\na\nc\nh\n.\n \nW\no\nn\ni\n \nm\na\nj\nu\n \nr\no\nz\ny\nm\n \na\n \ně\nd\no\nb\nn\no\ns\nć\n \na\n \nm\na\nj\nu\n \nz\ne\n \ns\no\nb\nu\n \nw\n \nd\nu\nc\nh\nu\n \nb\nr\na\nt\nš\no\nj\ns\nt\nw\na\n \nw\no\nb\nc\nh\na\nd\na\nś\n.\nW\nš\ny\nk\nn\ne\n \nl\nu\nź\ne\n \ns"
-  specimen_16: "W\nš\ny\nk\nn\ne\n \nl\nu\nź\ne\n \ns\nu\n \nl\ni\nc\nh\no\nt\nn\ne\n \nr\no\nź\no\nn\ne\n \na\n \nj\na\nd\nn\na\nk\ne\n \np\no\n \nd\no\ns\nt\no\nj\nn\no\ns\nć\ni\n \na\n \np\nš\na\nw\na\nc\nh\n.\n \nW\no\nn\ni\n \nm\na\nj\nu\n \nr\no\nz\ny\nm\n \na\n \ně\nd\no\nb\nn\no\ns\nć\n \na\n \nm\na\nj\nu\n \nz\ne\n \ns\no\nb\nu\n \nw\n \nd\nu\nc\nh\nu\n \nb\nr\na\nt\nš\no\nj\ns\nt\nw\na\n \nw\no\nb\nc\nh\na\nd\na\nś\n.\nW\nš\ny\nk\nn\ne\n \nl\nu\nź\ne\n \ns\nu\n \nl\ni\nc\nh\no\nt\nn\ne\n \nr\no\nź\no\nn\ne\n \na\n \nj\na\nd\nn\na\nk\ne\n \np\no\n \nd\no\ns\nt\no\nj\nn\no\ns\nć\ni\n \na\n \np\nš\na\nw\na\nc\nh\n.\n \nW\no\nn\ni\n \nm\na\nj\nu\n \nr\no\nz\ny\nm\n \na\n \ně\nd\no\nb\nn\no\ns\nć\n \na\n \nm\na\nj\nu\n \nz\ne\n \ns\no\nb\nu\n \nw\n \nd\nu\nc\nh\nu\n \nb\nr\na\nt\nš\no\nj\ns\nt\nw\na\n \nw\no\nb\nc\nh\na\nd\na\nś"
-}

@@ -9,17 +9,3 @@ exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž \'"
   marks: "◌̃ ◌̈ ◌̌"
 }
-sample_text {
-  masthead_full: "KkÕõ"
-  masthead_partial: "Ii"
-  styles: "K\nõ\ni\nk\n \ni\nn\ne\nm\ni\ns\ne\nq\n \ns\nü\nn\nn\nü\ns\ne"
-  tester: "K\nõ\ni\nk\n \ni\nn\ne\nm\ni\ns\ne\nq\n \ns\nü\nn\nn\nü\ns\ne\nq\n \na\nv\nv\no\n \nj\na\n "
-  poster_sm: "K\nõ\ni\nk\n \ni"
-  poster_md: "K\nõ\ni\nk\n "
-  poster_lg: "K\nõ"
-  specimen_48: "K\nõ\ni\nk\n \ni\nn\ne\nm\ni\ns\ne\nq\n \ns\nü\nn\nn\nü\ns\ne\nq\n \na\nv\nv\no\n \nj\na\n "
-  specimen_36: "K\nõ\ni\nk\n \ni\nn\ne\nm\ni\ns\ne\nq\n \ns\nü\nn\nn\nü\ns\ne\nq\n \na\nv\nv\no\n \nj\na\n \nõ\ni\ng\nu\ni\ns\ni\n \np\no\no\nl\nõ\ns\nt\n \nü\nt\ne\ns"
-  specimen_32: "K\nõ\ni\nk\n \ni\nn\ne\nm\ni\ns\ne\nq\n \ns\nü\nn\nn\nü\ns\ne\nq\n \na\nv\nv\no\n \nj\na\n \nõ\ni\ng\nu\ni\ns\ni\n \np\no\no\nl\nõ\ns\nt\n \nü\nt\ne\ns\nu\ng\nu\nm\na\ni\nd\ns\ni\ns\nt\n.\n \nN\nä\ni\nl\ne\n \no"
-  specimen_21: "K\nõ\ni\nk\n \ni\nn\ne\nm\ni\ns\ne\nq\n \ns\nü\nn\nn\nü\ns\ne\nq\n \na\nv\nv\no\n \nj\na\n \nõ\ni\ng\nu\ni\ns\ni\n \np\no\no\nl\nõ\ns\nt\n \nü\nt\ne\ns\nu\ng\nu\nm\na\ni\nd\ns\ni\ns\nt\n.\n \nN\nä\ni\nl\ne\n \no\nm\n \na\nn\nn\nõ\nt\n \nm\nu\nd\ns\nu\n \nj\na\n \ns\nü\nä\nm\ne\nt\nu\nn\n\'\ns\nt\nu\ns\n \nj\na\n \nn\nä\n \np\ni\nä\nt\n \nü\nt\ns\nt\nõ\nõ\ns\nõ\ng\na\n \nv\ne\nl\ne\n \nm\nu\nu\nd\nu\n \nl\nä\nb\ni\n \nk\nj\na\nu\nm\na\n.\nK\nõ\ni\nk\n "
-  specimen_16: "K\nõ\ni\nk\n \ni\nn\ne\nm\ni\ns\ne\nq\n \ns\nü\nn\nn\nü\ns\ne\nq\n \na\nv\nv\no\n \nj\na\n \nõ\ni\ng\nu\ni\ns\ni\n \np\no\no\nl\nõ\ns\nt\n \nü\nt\ne\ns\nu\ng\nu\nm\na\ni\nd\ns\ni\ns\nt\n.\n \nN\nä\ni\nl\ne\n \no\nm\n \na\nn\nn\nõ\nt\n \nm\nu\nd\ns\nu\n \nj\na\n \ns\nü\nä\nm\ne\nt\nu\nn\n\'\ns\nt\nu\ns\n \nj\na\n \nn\nä\n \np\ni\nä\nt\n \nü\nt\ns\nt\nõ\nõ\ns\nõ\ng\na\n \nv\ne\nl\ne\n \nm\nu\nu\nd\nu\n \nl\nä\nb\ni\n \nk\nj\na\nu\nm\na\n.\nK\nõ\ni\nk\n \ni\nn\ne\nm\ni\ns\ne\nq\n \ns\nü\nn\nn\nü\ns\ne\nq\n \na\nv\nv\no\n \nj\na\n \nõ\ni\ng\nu\ni\ns\ni\n \np\no\no\nl\nõ\ns\nt\n \nü\nt\ne\ns\nu\ng\nu\nm\na\ni\nd\ns\ni\ns\nt\n.\n \nN\nä\ni\nl\ne\n \no\nm\n \na\nn\nn\nõ\nt\n \nm\nu\nd\ns\nu\n \nj\na\n \ns\nü\nä\nm\ne\nt\nu\nn\n\'\ns\nt\nu\ns\n \nj\na\n \nn\nä\n \np\ni\nä\nt\n \nü\nt\ns\nt\nõ\nõ\ns\nõ\ng\na\n \nv\ne\nl\ne\n \nm\nu"
-}

@@ -4,18 +4,4 @@ script: "Copt"
 name: "Coptic, Coptic"
 population: 0
 region: "EG"
-sample_text {
-  masthead_full: "ⲤⲥⲞⲟ"
-  masthead_partial: "Ⲩⲩ"
-  styles: "ⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ"
-  tester: "ⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ\nϣ\n \nⲉ\n \nⲛ\nⲉ\nⲩ\nⲉ\nⲣ\nⲏ"
-  poster_sm: "ⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ"
-  poster_md: "ⲥ\nⲟ\nⲩ\nⲙ\nⲟ"
-  poster_lg: "ⲥ\nⲟ"
-  specimen_48: "ⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ\nϣ\n \nⲉ\n \nⲛ\nⲉ\nⲩ\nⲉ\nⲣ\nⲏ"
-  specimen_36: "ⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ\nϣ\n \nⲉ\n \nⲛ\nⲉ\nⲩ\nⲉ\nⲣ\nⲏ\nⲩ\n \nϩ\nⲛ\n \nⲟ\nⲩ\nⲇ\nⲓ\nⲕ\nⲁ\nⲓ\nⲟ\nⲥ\nⲩ\nⲛ\nⲏ\n.\n \nⲟ"
-  specimen_32: "ⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ\nϣ\n \nⲉ\n \nⲛ\nⲉ\nⲩ\nⲉ\nⲣ\nⲏ\nⲩ\n \nϩ\nⲛ\n \nⲟ\nⲩ\nⲇ\nⲓ\nⲕ\nⲁ\nⲓ\nⲟ\nⲥ\nⲩ\nⲛ\nⲏ\n.\n \nⲟ\nⲩ\nⲛ\n \nϭ\nⲟ\nⲙ\n \nⲙ\nⲙ\nⲟ\nⲩ\n \nⲉ\nⲧ\nⲣ\nⲉ\nⲩ\nⲙ\nⲉ\nⲉ"
-  specimen_21: "ⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ\nϣ\n \nⲉ\n \nⲛ\nⲉ\nⲩ\nⲉ\nⲣ\nⲏ\nⲩ\n \nϩ\nⲛ\n \nⲟ\nⲩ\nⲇ\nⲓ\nⲕ\nⲁ\nⲓ\nⲟ\nⲥ\nⲩ\nⲛ\nⲏ\n.\n \nⲟ\nⲩ\nⲛ\n \nϭ\nⲟ\nⲙ\n \nⲙ\nⲙ\nⲟ\nⲩ\n \nⲉ\nⲧ\nⲣ\nⲉ\nⲩ\nⲙ\nⲉ\nⲉ\nⲩ\nⲉ\n \nⲁ\nⲩ\nⲱ\n \nϣ\nϣ\nⲉ\n \nⲉ\nⲧ\nⲣ\nⲉ\nⲩ\nⲣ\n-\nⲙ\nⲛ\nⲧ\nⲙ\nⲁ\nⲓ\nⲥ\nⲟ\nⲛ\n.\nⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ\nϣ\n \nⲉ\n \nⲛ\nⲉ\nⲩ\nⲉ\nⲣ\nⲏ\nⲩ\n \nϩ\nⲛ\n \nⲟ\nⲩ\nⲇ\nⲓ\nⲕ\nⲁ\nⲓ\nⲟ\nⲥ\nⲩ\nⲛ\nⲏ\n.\n \nⲟ\nⲩ\nⲛ\n "
-  specimen_16: "ⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ\nϣ\n \nⲉ\n \nⲛ\nⲉ\nⲩ\nⲉ\nⲣ\nⲏ\nⲩ\n \nϩ\nⲛ\n \nⲟ\nⲩ\nⲇ\nⲓ\nⲕ\nⲁ\nⲓ\nⲟ\nⲥ\nⲩ\nⲛ\nⲏ\n.\n \nⲟ\nⲩ\nⲛ\n \nϭ\nⲟ\nⲙ\n \nⲙ\nⲙ\nⲟ\nⲩ\n \nⲉ\nⲧ\nⲣ\nⲉ\nⲩ\nⲙ\nⲉ\nⲉ\nⲩ\nⲉ\n \nⲁ\nⲩ\nⲱ\n \nϣ\nϣ\nⲉ\n \nⲉ\nⲧ\nⲣ\nⲉ\nⲩ\nⲣ\n-\nⲙ\nⲛ\nⲧ\nⲙ\nⲁ\nⲓ\nⲥ\nⲟ\nⲛ\n.\nⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ\nϣ\n \nⲉ\n \nⲛ\nⲉ\nⲩ\nⲉ\nⲣ\nⲏ\nⲩ\n \nϩ\nⲛ\n \nⲟ\nⲩ\nⲇ\nⲓ\nⲕ\nⲁ\nⲓ\nⲟ\nⲥ\nⲩ\nⲛ\nⲏ\n.\n \nⲟ\nⲩ\nⲛ\n \nϭ\nⲟ\nⲙ\n \nⲙ\nⲙ\nⲟ\nⲩ\n \nⲉ\nⲧ\nⲣ\nⲉ\nⲩ\nⲙ\nⲉ\nⲉ\nⲩ\nⲉ\n \nⲁ\nⲩ\nⲱ\n \nϣ\nϣ\nⲉ\n \nⲉ\nⲧ\nⲣ\nⲉ\nⲩ\nⲣ\n-\nⲙ\nⲛ\nⲧ\nⲙ\nⲁ\nⲓ\nⲥ\nⲟ\nⲛ\n.\nⲥ\nⲟ\nⲩ\nⲙ\nⲟ\nⲥ\nⲉ\n \nⲣ\nⲱ\nⲙ\nⲉ\n \nⲛ\nⲓ\nⲙ\n \nⲉ\nⲩ\nϣ\nⲏ\nϣ\n \nⲉ\n \nⲛ\nⲉ\nⲩ\nⲉ\nⲣ\nⲏ\nⲩ\n \nϩ\nⲛ\n \nⲟ\nⲩ\nⲇ\nⲓ\nⲕ\nⲁ\nⲓ\nⲟ\nⲥ\nⲩ\nⲛ\nⲏ\n.\n \nⲟ\nⲩ\nⲛ\n \nϭ\nⲟ\nⲙ\n \nⲙ\nⲙ\nⲟ\nⲩ\n \nⲉ\nⲧ\nⲣ\nⲉ\nⲩ\nⲙ\nⲉ\nⲉ\nⲩ\nⲉ\n \nⲁ\nⲩ\nⲱ\n \nϣ\nϣ\nⲉ"
-}
 historical: true

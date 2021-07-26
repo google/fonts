@@ -14,17 +14,3 @@ exemplar_chars {
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] § * / & # ′ ″"
   index: "A B C D E F G H I J K L M N Ñ {Ng} O P Q R S T U V W X Y Z {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng} {Ng}"
 }
-sample_text {
-  masthead_full: "AaNn"
-  masthead_partial: "Gg"
-  styles: "A\nn\ng\n \nl\na\nh\na\nt\n \nn\ng\n \nt\na\no\n\'\ny\n \ni\ns"
-  tester: "A\nn\ng\n \nl\na\nh\na\nt\n \nn\ng\n \nt\na\no\n\'\ny\n \ni\ns\ni\nn\ni\nl\na\nn\ng\n \nn\na"
-  poster_sm: "A\nn\ng\n \nl\na"
-  poster_md: "A\nn\ng\n \nl"
-  poster_lg: "A\nn"
-  specimen_48: "A\nn\ng\n \nl\na\nh\na\nt\n \nn\ng\n \nt\na\no\n\'\ny\n \ni\ns\ni\nn\ni\nl\na\nn\ng\n \nn\na"
-  specimen_36: "A\nn\ng\n \nl\na\nh\na\nt\n \nn\ng\n \nt\na\no\n\'\ny\n \ni\ns\ni\nn\ni\nl\na\nn\ng\n \nn\na\n \nm\na\nl\na\ny\na\n \na\nt\n \np\na\nn\nt\na\ny\n-\np\na\nn"
-  specimen_32: "A\nn\ng\n \nl\na\nh\na\nt\n \nn\ng\n \nt\na\no\n\'\ny\n \ni\ns\ni\nn\ni\nl\na\nn\ng\n \nn\na\n \nm\na\nl\na\ny\na\n \na\nt\n \np\na\nn\nt\na\ny\n-\np\na\nn\nt\na\ny\n \ns\na\n \nk\na\nr\na\nn\ng\na\nl\na\nn\n \na\nt"
-  specimen_21: "A\nn\ng\n \nl\na\nh\na\nt\n \nn\ng\n \nt\na\no\n\'\ny\n \ni\ns\ni\nn\ni\nl\na\nn\ng\n \nn\na\n \nm\na\nl\na\ny\na\n \na\nt\n \np\na\nn\nt\na\ny\n-\np\na\nn\nt\na\ny\n \ns\na\n \nk\na\nr\na\nn\ng\na\nl\na\nn\n \na\nt\n \nm\ng\na\n \nk\na\nr\na\np\na\nt\na\nn\n.\n \nS\ni\nl\na\n\'\ny\n \np\ni\nn\na\ng\nk\na\nl\no\no\nb\na\nn\n \nn\ng\n \nk\na\nt\nw\ni\nr\na\nn\n \na\nt\n \nb\nu\nd\nh\ni\n \na\nt\n \nd\na\np\na\nt\n \nm\na\ng\np\na\nl\na\ng\na\ny\na\nn\n \na"
-  specimen_16: "A\nn\ng\n \nl\na\nh\na\nt\n \nn\ng\n \nt\na\no\n\'\ny\n \ni\ns\ni\nn\ni\nl\na\nn\ng\n \nn\na\n \nm\na\nl\na\ny\na\n \na\nt\n \np\na\nn\nt\na\ny\n-\np\na\nn\nt\na\ny\n \ns\na\n \nk\na\nr\na\nn\ng\na\nl\na\nn\n \na\nt\n \nm\ng\na\n \nk\na\nr\na\np\na\nt\na\nn\n.\n \nS\ni\nl\na\n\'\ny\n \np\ni\nn\na\ng\nk\na\nl\no\no\nb\na\nn\n \nn\ng\n \nk\na\nt\nw\ni\nr\na\nn\n \na\nt\n \nb\nu\nd\nh\ni\n \na\nt\n \nd\na\np\na\nt\n \nm\na\ng\np\na\nl\na\ng\na\ny\na\nn\n \na\nn\ng\n \ni\ns\na\n\'\nt\n \ni\ns\na\n \ns\na\n \nd\ni\nw\na\n \nn\ng\n \np\na\ng\nk\na\nk\na\np\na\nt\ni\nr\na\nn\n.\nA\nn\ng\n \nl\na\nh\na\nt\n \nn\ng\n \nt\na\no\n\'\ny\n \ni\ns\ni\nn\ni\nl\na\nn\ng\n \nn\na\n \nm\na\nl\na\ny\na\n \na\nt\n \np\na\nn\nt\na\ny\n-\np\na\nn\nt\na\ny\n \ns\na\n \nk\na\nr\na\nn\ng\na\nl\na\nn\n \na\nt\n \nm\ng\na\n \nk\na\nr\na\np\na\nt\na\nn\n.\n "
-}

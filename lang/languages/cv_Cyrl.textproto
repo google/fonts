@@ -9,17 +9,3 @@ exemplar_chars {
   base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӑ Ӗ Ӳ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ ӳ"
   marks: "◌̆ ◌̈ ◌̋"
 }
-sample_text {
-  masthead_full: "ПпУу"
-  masthead_partial: "Рр"
-  styles: "П\nу\nр\n \nх\nа\nл\nӑ\nх\n \nт\nа\n \nу\nй\nр\nӑ\nм\n \nп\nу"
-  tester: "П\nу\nр\n \nх\nа\nл\nӑ\nх\n \nт\nа\n \nу\nй\nр\nӑ\nм\n \nп\nу\nр\nӑ\nн\nм\nа\n \nп\nӗ\nр\n "
-  poster_sm: "П\nу\nр\n \nх\nа"
-  poster_md: "П\nу\nр\n \nх"
-  poster_lg: "П\nу"
-  specimen_48: "П\nу\nр\n \nх\nа\nл\nӑ\nх\n \nт\nа\n \nу\nй\nр\nӑ\nм\n \nп\nу\nр\nӑ\nн\nм\nа\n \nп\nӗ\nр\n "
-  specimen_36: "П\nу\nр\n \nх\nа\nл\nӑ\nх\n \nт\nа\n \nу\nй\nр\nӑ\nм\n \nп\nу\nр\nӑ\nн\nм\nа\n \nп\nӗ\nр\n \nт\nа\nн\n \nп\nр\nа\nв\nа\nл\nл\nӑ\n.\n \nҪ\nа\nк\n \nп\nр"
-  specimen_32: "П\nу\nр\n \nх\nа\nл\nӑ\nх\n \nт\nа\n \nу\nй\nр\nӑ\nм\n \nп\nу\nр\nӑ\nн\nм\nа\n \nп\nӗ\nр\n \nт\nа\nн\n \nп\nр\nа\nв\nа\nл\nл\nӑ\n.\n \nҪ\nа\nк\n \nп\nр\nа\nв\nа\nп\nа\n \nу\nс\nӑ\n \nк\nу\nр\nс\nа\n \nв\nӗ\nс\nе"
-  specimen_21: "П\nу\nр\n \nх\nа\nл\nӑ\nх\n \nт\nа\n \nу\nй\nр\nӑ\nм\n \nп\nу\nр\nӑ\nн\nм\nа\n \nп\nӗ\nр\n \nт\nа\nн\n \nп\nр\nа\nв\nа\nл\nл\nӑ\n.\n \nҪ\nа\nк\n \nп\nр\nа\nв\nа\nп\nа\n \nу\nс\nӑ\n \nк\nу\nр\nс\nа\n \nв\nӗ\nс\nе\nм\n \nх\nӑ\nй\nс\nе\nн\n \nп\nо\nл\nи\nт\nи\nк\nа\n \nс\nт\nа\nт\nу\nс\nн\nе\n \nи\nр\nӗ\nк\nл\nӗ\nн\n \nт\nу\nс\nа\n \nх\nу\nр\nа\nҫ\nҫ\nӗ\n,\n \nэ\nк\nо\nн\nо\nм\nи\nк\nа\n,\n \nо\nб\nщ\nе\nс\nт\nв\nо\n \nт\nа\nт\nа\n \nк\nу\nл\nь\nт\nу\nр"
-  specimen_16: "П\nу\nр\n \nх\nа\nл\nӑ\nх\n \nт\nа\n \nу\nй\nр\nӑ\nм\n \nп\nу\nр\nӑ\nн\nм\nа\n \nп\nӗ\nр\n \nт\nа\nн\n \nп\nр\nа\nв\nа\nл\nл\nӑ\n.\n \nҪ\nа\nк\n \nп\nр\nа\nв\nа\nп\nа\n \nу\nс\nӑ\n \nк\nу\nр\nс\nа\n \nв\nӗ\nс\nе\nм\n \nх\nӑ\nй\nс\nе\nн\n \nп\nо\nл\nи\nт\nи\nк\nа\n \nс\nт\nа\nт\nу\nс\nн\nе\n \nи\nр\nӗ\nк\nл\nӗ\nн\n \nт\nу\nс\nа\n \nх\nу\nр\nа\nҫ\nҫ\nӗ\n,\n \nэ\nк\nо\nн\nо\nм\nи\nк\nа\n,\n \nо\nб\nщ\nе\nс\nт\nв\nо\n \nт\nа\nт\nа\n \nк\nу\nл\nь\nт\nу\nр\nа\n \nе\nн\nӗ\nп\nе\n \nи\nр\nӗ\nк\nл\nӗ\nн\n \nа\nт\nа\nл\nа\nн\nа\nҫ\nҫ\nӗ\n.\n \nП\nа\nт\nш\nа\nл\nӑ\nх\nс\nе\nн\n \nҫ\nа\nк\n \nп\nр\nа\nв\nӑ\nн\nа\n \nх\nи\nс\nе\nп\nл\nе\nм\nе\nл\nл\nе\n,\n \nт\nе\nр\nр\nи\nт\nо\nр\nи\n \nп\nӗ\nр\n \nп\nӗ\nт\nӗ\nм\nл\nӗ\nх\nӗ\nн\n \nп\nр\nи\nн\nц\nи\nп\nӗ\n \nу\nн\nп\nа\n \nу\nс\nӑ\n \nк\nу\nр\nм\nа\n \nп\nӗ\nр\n \nе\nн\nл\nӗ\nн\n \nч"
-}

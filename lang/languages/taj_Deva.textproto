@@ -12,17 +12,3 @@ exemplar_chars {
   numerals: "० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9"
   punctuation: "। ॥ ॰"
 }
-sample_text {
-  masthead_full: "बनमह"
-  masthead_partial: "कद"
-  styles: "ब\nे\nन\nा\nन\n \nम\n्\nह\nी\nक\nा\nद\nे\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nथ"
-  tester: "ब\nे\nन\nा\nन\n \nम\n्\nह\nी\nक\nा\nद\nे\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nथ\nे\nन\n \nय\nा\nङ\nत\nा\nम\nल\nा\n "
-  poster_sm: "ब\nे\nन\nा\nन\n \nम"
-  poster_md: "ब\nे\nन\nा\nन\n "
-  poster_lg: "ब\nे\nन"
-  specimen_48: "ब\nे\nन\nा\nन\n \nम\n्\nह\nी\nक\nा\nद\nे\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nथ\nे\nन\n \nय\nा\nङ\nत\nा\nम\nल\nा\n "
-  specimen_36: "ब\nे\nन\nा\nन\n \nम\n्\nह\nी\nक\nा\nद\nे\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nथ\nे\nन\n \nय\nा\nङ\nत\nा\nम\nल\nा\n \nआ\nध\nा\nर\nर\nी\n \nक\nे\nम\nा\nह\nे\nन\n्\nस\nे\nन\n \nस\n्\nव\nत\nन"
-  specimen_32: "ब\nे\nन\nा\nन\n \nम\n्\nह\nी\nक\nा\nद\nे\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nथ\nे\nन\n \nय\nा\nङ\nत\nा\nम\nल\nा\n \nआ\nध\nा\nर\nर\nी\n \nक\nे\nम\nा\nह\nे\nन\n्\nस\nे\nन\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nथ\nे\nन\n \nच\n्\nय\nो\nच\n्\nय\nो\n \nत\nा\nल\nा\n।\n \nथ"
-  specimen_21: "ब\nे\nन\nा\nन\n \nम\n्\nह\nी\nक\nा\nद\nे\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nथ\nे\nन\n \nय\nा\nङ\nत\nा\nम\nल\nा\n \nआ\nध\nा\nर\nर\nी\n \nक\nे\nम\nा\nह\nे\nन\n्\nस\nे\nन\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nथ\nे\nन\n \nच\n्\nय\nो\nच\n्\nय\nो\n \nत\nा\nल\nा\n।\n \nथ\nे\nन\nी\nक\nा\nद\nे\n \nब\nु\nद\n्\nध\nि\n \nथ\nे\nन\n \nव\nि\nव\nे\nक\n \nक\nि\nन\n्\nद\nा\nस\nी\n \nख\nा\nब\nा\n \nत\nा\nल\nा\n \nओ\nम\n \nग\nी\nस\nे\nम\nग\nी\nल\nा\n \nग\nु\nङ\nर\nी\n \nड\nी\nक\n्\nप\nा\n \nह\n्\nर\nि\nक\n्\nप\nा\n \nल\nा\nत\nो\nस\nे\nद\nा\n \nम\nु\nल\nा\n।\nब\nे\nन\nा\nन\n \nम"
-  specimen_16: "ब\nे\nन\nा\nन\n \nम\n्\nह\nी\nक\nा\nद\nे\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nथ\nे\nन\n \nय\nा\nङ\nत\nा\nम\nल\nा\n \nआ\nध\nा\nर\nर\nी\n \nक\nे\nम\nा\nह\nे\nन\n्\nस\nे\nन\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nथ\nे\nन\n \nच\n्\nय\nो\nच\n्\nय\nो\n \nत\nा\nल\nा\n।\n \nथ\nे\nन\nी\nक\nा\nद\nे\n \nब\nु\nद\n्\nध\nि\n \nथ\nे\nन\n \nव\nि\nव\nे\nक\n \nक\nि\nन\n्\nद\nा\nस\nी\n \nख\nा\nब\nा\n \nत\nा\nल\nा\n \nओ\nम\n \nग\nी\nस\nे\nम\nग\nी\nल\nा\n \nग\nु\nङ\nर\nी\n \nड\nी\nक\n्\nप\nा\n \nह\n्\nर\nि\nक\n्\nप\nा\n \nल\nा\nत\nो\nस\nे\nद\nा\n \nम\nु\nल\nा\n।\nब\nे\nन\nा\nन\n \nम\n्\nह\nी\nक\nा\nद\nे\n \nप\n्\nर\nत\nि\nष\n्\nठ\nा\n \nथ\nे\nन\n \nय\nा\nङ\nत\nा\nम\nल\nा\n \nआ\nध\nा\nर\nर\nी\n \nक\nे\nम\nा\nह\nे\nन\n्\nस\nे\nन\n \nस\n्\nव\nत\nन\n्\nत\n्\nर\n \nथ\nे\nन\n \nच\n्\nय\nो\nच\n्\nय\nो\n \nत\nा\nल\nा\n।\n \nथ\nे\nन\nी\nक\nा\nद\nे\n \nब\nु\nद\n्\nध\nि\n \nथ\nे\nन\n \nव\nि\nव\nे\nक\n \nक\nि\nन\n्\nद\nा\nस\nी\n \nख\nा\nब\nा\n \nत\nा\nल\nा\n \nओ\nम\n \nग\nी\nस\nे\nम\nग\nी\nल\nा\n \nग\nु\nङ\nर\nी\n \nड\nी\nक\n्\nप\nा\n \nह\n्\nर\nि"
-}

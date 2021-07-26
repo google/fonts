@@ -9,17 +9,3 @@ exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ñ Ó Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú"
   marks: "◌́ ◌̃"
 }
-sample_text {
-  masthead_full: "TtOo"
-  masthead_partial: "Zz"
-  styles: "T\no\nz\n \no\ns\n \no\nm\nb\nr\ne\ns\n \nn\na\nx\ne\nn\n \nl"
-  tester: "T\no\nz\n \no\ns\n \no\nm\nb\nr\ne\ns\n \nn\na\nx\ne\nn\n \nl\ni\nb\nr\ne\ns\n \ny\n \ni\ng"
-  poster_sm: "T\no\nz\n \no\ns"
-  poster_md: "T\no\nz\n \no"
-  poster_lg: "T\no"
-  specimen_48: "T\no\nz\n \no\ns\n \no\nm\nb\nr\ne\ns\n \nn\na\nx\ne\nn\n \nl\ni\nb\nr\ne\ns\n \ny\n \ni\ng"
-  specimen_36: "T\no\nz\n \no\ns\n \no\nm\nb\nr\ne\ns\n \nn\na\nx\ne\nn\n \nl\ni\nb\nr\ne\ns\n \ny\n \ni\ng\nu\na\nl\ns\n \ne\nn\n \nd\ni\nn\ni\nd\na\nt\n \ny\n \ne\nn"
-  specimen_32: "T\no\nz\n \no\ns\n \no\nm\nb\nr\ne\ns\n \nn\na\nx\ne\nn\n \nl\ni\nb\nr\ne\ns\n \ny\n \ni\ng\nu\na\nl\ns\n \ne\nn\n \nd\ni\nn\ni\nd\na\nt\n \ny\n \ne\nn\n \nd\nr\ne\ni\nt\no\ns\n.\n \nA\nd\no\nt\na\nt\no\ns\n \nd"
-  specimen_21: "T\no\nz\n \no\ns\n \no\nm\nb\nr\ne\ns\n \nn\na\nx\ne\nn\n \nl\ni\nb\nr\ne\ns\n \ny\n \ni\ng\nu\na\nl\ns\n \ne\nn\n \nd\ni\nn\ni\nd\na\nt\n \ny\n \ne\nn\n \nd\nr\ne\ni\nt\no\ns\n.\n \nA\nd\no\nt\na\nt\no\ns\n \nd\ne\n \nr\na\nz\nó\nn\n \ny\n \nd\ne\n \nc\no\nn\nz\ne\nn\nz\ni\na\n,\n \nd\ne\nb\ne\nn\n \na\np\na\nc\nh\na\nr\n-\ns\ne\nn\n \nu\nn\no\ns\n \nc\no\nn\n \na\nt\nr\no\ns\n \nd\n\'\nu\nn\na\n \nm\na\nn\ne\nr\na\n \nf\nr\ne\nt\ne\nr\nn\na\nl\n.\nT\no"
-  specimen_16: "T\no\nz\n \no\ns\n \no\nm\nb\nr\ne\ns\n \nn\na\nx\ne\nn\n \nl\ni\nb\nr\ne\ns\n \ny\n \ni\ng\nu\na\nl\ns\n \ne\nn\n \nd\ni\nn\ni\nd\na\nt\n \ny\n \ne\nn\n \nd\nr\ne\ni\nt\no\ns\n.\n \nA\nd\no\nt\na\nt\no\ns\n \nd\ne\n \nr\na\nz\nó\nn\n \ny\n \nd\ne\n \nc\no\nn\nz\ne\nn\nz\ni\na\n,\n \nd\ne\nb\ne\nn\n \na\np\na\nc\nh\na\nr\n-\ns\ne\nn\n \nu\nn\no\ns\n \nc\no\nn\n \na\nt\nr\no\ns\n \nd\n\'\nu\nn\na\n \nm\na\nn\ne\nr\na\n \nf\nr\ne\nt\ne\nr\nn\na\nl\n.\nT\no\nz\n \no\ns\n \no\nm\nb\nr\ne\ns\n \nn\na\nx\ne\nn\n \nl\ni\nb\nr\ne\ns\n \ny\n \ni\ng\nu\na\nl\ns\n \ne\nn\n \nd\ni\nn\ni\nd\na\nt\n \ny\n \ne\nn\n \nd\nr\ne\ni\nt\no\ns\n.\n \nA\nd\no\nt\na\nt\no\ns\n \nd\ne\n \nr\na\nz\nó\nn\n \ny\n \nd\ne\n \nc\no\nn\nz\ne\nn\nz\ni\na\n,\n \nd\ne\nb\ne\nn\n \na\np\na\nc\nh\na\nr\n-\ns\ne\nn\n \nu\nn\no\ns\n \nc\no\nn\n \na\nt\nr\no\ns\n \nd"
-}

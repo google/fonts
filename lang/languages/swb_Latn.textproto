@@ -244,18 +244,4 @@ region: "ZW"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z"
 }
-sample_text {
-  masthead_full: "HhAa"
-  masthead_partial: "Mm"
-  styles: "H\na\n \nm\nw\na\nk\ni\nn\ni\ns\nh\no\n \nu\nk\na\ny\na\n \nh"
-  tester: "H\na\n \nm\nw\na\nk\ni\nn\ni\ns\nh\no\n \nu\nk\na\ny\na\n \nh\no\n \nu\nk\nu\nb\na\nl\ni\n "
-  poster_sm: "H\na\n \nm\nw\na"
-  poster_md: "H\na\n \nm\nw"
-  poster_lg: "H\na"
-  specimen_48: "H\na\n \nm\nw\na\nk\ni\nn\ni\ns\nh\no\n \nu\nk\na\ny\na\n \nh\no\n \nu\nk\nu\nb\na\nl\ni\n "
-  specimen_36: "H\na\n \nm\nw\na\nk\ni\nn\ni\ns\nh\no\n \nu\nk\na\ny\na\n \nh\no\n \nu\nk\nu\nb\na\nl\ni\n \ny\ne\n \ns\nh\ne\no\n \ns\nh\na\nh\no\n \nw\no\n \nu\nb\ni"
-  specimen_32: "H\na\n \nm\nw\na\nk\ni\nn\ni\ns\nh\no\n \nu\nk\na\ny\na\n \nh\no\n \nu\nk\nu\nb\na\nl\ni\n \ny\ne\n \ns\nh\ne\no\n \ns\nh\na\nh\no\n \nw\no\n \nu\nb\ni\nn\na\nd\na\nm\nu\n \np\ni\ny\na\n \np\nv\na\nm\nw\ne\nd\nj"
-  specimen_21: "H\na\n \nm\nw\na\nk\ni\nn\ni\ns\nh\no\n \nu\nk\na\ny\na\n \nh\no\n \nu\nk\nu\nb\na\nl\ni\n \ny\ne\n \ns\nh\ne\no\n \ns\nh\na\nh\no\n \nw\no\n \nu\nb\ni\nn\na\nd\na\nm\nu\n \np\ni\ny\na\n \np\nv\na\nm\nw\ne\nd\nj\na\n \nn\ne\n \nz\ne\n \nh\na\nk\ni\n \nz\na\n \nw\na\nd\nj\ni\nb\nu\n \nz\na\nh\no\n \nu\ns\na\nw\na\n,\n \nz\na\nh\na\no\n,\n \nu\nw\no\n \nn\nd\no\n \nm\ns\nh\ni\nn\nd\nz\ni\n \nw\na\nh\no\n \nu\nh\nu\nr\ni\na\n,\n \nn\no\n \nl\ni\nd\nz\na"
-  specimen_16: "H\na\n \nm\nw\na\nk\ni\nn\ni\ns\nh\no\n \nu\nk\na\ny\na\n \nh\no\n \nu\nk\nu\nb\na\nl\ni\n \ny\ne\n \ns\nh\ne\no\n \ns\nh\na\nh\no\n \nw\no\n \nu\nb\ni\nn\na\nd\na\nm\nu\n \np\ni\ny\na\n \np\nv\na\nm\nw\ne\nd\nj\na\n \nn\ne\n \nz\ne\n \nh\na\nk\ni\n \nz\na\n \nw\na\nd\nj\ni\nb\nu\n \nz\na\nh\no\n \nu\ns\na\nw\na\n,\n \nz\na\nh\na\no\n,\n \nu\nw\no\n \nn\nd\no\n \nm\ns\nh\ni\nn\nd\nz\ni\n \nw\na\nh\no\n \nu\nh\nu\nr\ni\na\n,\n \nn\no\n \nl\ni\nd\nz\na\nn\ny\ni\ns\no\n \nh\na\nk\ni\n,\n \nn\ne\n \na\nm\na\nn\ni\n \ny\na\nh\ne\n \nd\nu\nn\ni\ny\na\n \nk\na\nm\ni\nl\ni\n.\nH\na\n \nm\nw\na\nk\ni\nn\ni\ns\nh\no\n \nu\nk\na\ny\na\n \nh\no\n \nu\nk\nu\nb\na\nl\ni\n \ny\ne\n \ns\nh\ne\no\n \ns\nh\na\nh\no\n \nw\no\n \nu\nb\ni\nn\na\nd\na\nm\nu\n \np\ni\ny\na\n \np\nv\na\nm\nw\ne\nd\nj\na\n \nn\ne\n \nz\ne\n \nh\na\nk\ni\n \nz\na"
-}
 historical: true

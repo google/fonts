@@ -9,18 +9,4 @@ exemplar_chars {
   base: "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Ю Є Ѕ Џ Ѥ Ѩ Ѭ Ҁ І Ї Ѡ Ѣ Ѧ Ѫ Ѯ Ѱ Ѳ Ѵ Ѷ Ѻ Ѽ Ѿ Ꙁ Ꙋ Ꙍ Ꙗ Ꙃ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ"
   marks: "◌́ ◌̆ ◌̈ ◌̏"
 }
-sample_text {
-  masthead_full: "ВвЬь"
-  masthead_partial: "Сс"
-  styles: "В\nь\nс\nи\n \nб\nо\n \nл\nю\nд\nи\nѥ\n \nр\nо\nд\nѧ\nт\nъ\n "
-  tester: "В\nь\nс\nи\n \nб\nо\n \nл\nю\nд\nи\nѥ\n \nр\nо\nд\nѧ\nт\nъ\n \nс\nѧ\n \nс\nв\nо\nб\nо\nд\nь"
-  poster_sm: "В\nь\nс\nи\n \nб"
-  poster_md: "В\nь\nс\nи\n "
-  poster_lg: "В\nь"
-  specimen_48: "В\nь\nс\nи\n \nб\nо\n \nл\nю\nд\nи\nѥ\n \nр\nо\nд\nѧ\nт\nъ\n \nс\nѧ\n \nс\nв\nо\nб\nо\nд\nь"
-  specimen_36: "В\nь\nс\nи\n \nб\nо\n \nл\nю\nд\nи\nѥ\n \nр\nо\nд\nѧ\nт\nъ\n \nс\nѧ\n \nс\nв\nо\nб\nо\nд\nь\nн\nи\n \nи\n \nр\nа\nв\nь\nн\nи\n \nв\nъ\n \nд\nо\nс\nт\nо"
-  specimen_32: "В\nь\nс\nи\n \nб\nо\n \nл\nю\nд\nи\nѥ\n \nр\nо\nд\nѧ\nт\nъ\n \nс\nѧ\n \nс\nв\nо\nб\nо\nд\nь\nн\nи\n \nи\n \nр\nа\nв\nь\nн\nи\n \nв\nъ\n \nд\nо\nс\nт\nо\nи\nн\nь\nс\nт\nв\nѣ\n \nи\n \nз\nа\nк\nо\nн\nѣ\n.\n \nО\nн"
-  specimen_21: "В\nь\nс\nи\n \nб\nо\n \nл\nю\nд\nи\nѥ\n \nр\nо\nд\nѧ\nт\nъ\n \nс\nѧ\n \nс\nв\nо\nб\nо\nд\nь\nн\nи\n \nи\n \nр\nа\nв\nь\nн\nи\n \nв\nъ\n \nд\nо\nс\nт\nо\nи\nн\nь\nс\nт\nв\nѣ\n \nи\n \nз\nа\nк\nо\nн\nѣ\n.\n \nО\nн\nи\n \nс\nѫ\nт\nъ\n \nо\nд\nа\nр\nѥ\nн\nи\n \nр\nа\nз\nо\nу\nм\nо\nм\nь\n \nи\n \nс\nъ\nв\nѣ\nд\nи\nѭ\n \nи\n \nд\nъ\nл\nж\nь\nн\nи\n \nс\nѫ\nт\nъ\n \nд\nѣ\n \nı\nа\nт\nи\n \nв\nъ\n \nд\nо\nу\nс\nѣ\n \nб\nр\nа\nт\nь\nс\nт\nв\nа\n.\nВ\nь\nс\nи"
-  specimen_16: "В\nь\nс\nи\n \nб\nо\n \nл\nю\nд\nи\nѥ\n \nр\nо\nд\nѧ\nт\nъ\n \nс\nѧ\n \nс\nв\nо\nб\nо\nд\nь\nн\nи\n \nи\n \nр\nа\nв\nь\nн\nи\n \nв\nъ\n \nд\nо\nс\nт\nо\nи\nн\nь\nс\nт\nв\nѣ\n \nи\n \nз\nа\nк\nо\nн\nѣ\n.\n \nО\nн\nи\n \nс\nѫ\nт\nъ\n \nо\nд\nа\nр\nѥ\nн\nи\n \nр\nа\nз\nо\nу\nм\nо\nм\nь\n \nи\n \nс\nъ\nв\nѣ\nд\nи\nѭ\n \nи\n \nд\nъ\nл\nж\nь\nн\nи\n \nс\nѫ\nт\nъ\n \nд\nѣ\n \nı\nа\nт\nи\n \nв\nъ\n \nд\nо\nу\nс\nѣ\n \nб\nр\nа\nт\nь\nс\nт\nв\nа\n.\nВ\nь\nс\nи\n \nб\nо\n \nл\nю\nд\nи\nѥ\n \nр\nо\nд\nѧ\nт\nъ\n \nс\nѧ\n \nс\nв\nо\nб\nо\nд\nь\nн\nи\n \nи\n \nр\nа\nв\nь\nн\nи\n \nв\nъ\n \nд\nо\nс\nт\nо\nи\nн\nь\nс\nт\nв\nѣ\n \nи\n \nз\nа\nк\nо\nн\nѣ\n.\n \nО\nн\nи\n \nс\nѫ\nт\nъ\n \nо\nд\nа\nр\nѥ\nн\nи\n \nр\nа\nз\nо\nу\nм\nо\nм\nь\n \nи\n \nс\nъ\nв\nѣ\nд\nи\nѭ\n \nи\n \nд\nъ\nл\nж\nь\nн\nи\n \nс\nѫ\nт\nъ\n \nд\nѣ\n \nı\nа\nт\nи\n "
-}
 historical: true

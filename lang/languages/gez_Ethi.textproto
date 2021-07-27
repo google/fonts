@@ -3,9 +3,6 @@ language: "gez"
 script: "Ethi"
 name: "Geez"
 population: 0
-region: "ER"
-region: "ET"
-region: "IL"
 sample_text {
   masthead_full: "ተወልዱ"
   masthead_partial: "ኵሉ"

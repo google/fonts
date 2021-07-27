@@ -3,7 +3,6 @@ language: "ett"
 script: "Ital"
 name: "Etruscan"
 population: 0
-region: "IT"
 sample_text {
   masthead_full: "𐌆𐌀𐌌𐌈"
   masthead_partial: "𐌉𐌂"

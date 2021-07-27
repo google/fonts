@@ -5,8 +5,6 @@ name: "Interlingua"
 preferred_name: "Interlingua"
 autonym: "Interlingua"
 population: 135
-region: "FR"
-region: "SE"
 exemplar_chars {
   base: "a b c {ch} d e f g h i j k l m n o p {ph} q r s t u v w x y z {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph} {ch} {ph}"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"

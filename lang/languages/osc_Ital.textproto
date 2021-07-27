@@ -3,7 +3,6 @@ language: "osc"
 script: "Ital"
 name: "Oscan"
 population: 0
-region: "IT"
 sample_text {
   masthead_full: "𐌉𐌆𐌊𐌚"
   masthead_partial: "𐌀𐌍"

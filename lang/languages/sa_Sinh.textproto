@@ -3,7 +3,6 @@ language: "sa"
 script: "Sinh"
 name: "Sanskrit, Sinhala"
 population: 0
-region: "LK"
 sample_text {
   masthead_full: "සරවම"
   masthead_partial: "නත"

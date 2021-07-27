@@ -48,6 +48,11 @@ fallbacks {
     max_value: 300
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
+  }
+  axis_target {
     tag: "ital"
     min_value: 0
     max_value: 0
@@ -64,6 +69,11 @@ fallbacks {
     tag: "wght"
     min_value: 400
     max_value: 400
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
   }
   axis_target {
     tag: "ital"
@@ -84,6 +94,11 @@ fallbacks {
     max_value: 600
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
+  }
+  axis_target {
     tag: "ital"
     min_value: 0
     max_value: 0
@@ -100,6 +115,11 @@ fallbacks {
     tag: "wght"
     min_value: 700
     max_value: 700
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
   }
   axis_target {
     tag: "ital"
@@ -120,6 +140,11 @@ fallbacks {
     max_value: 800
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
+  }
+  axis_target {
     tag: "ital"
     min_value: 0
     max_value: 0
@@ -136,6 +161,11 @@ fallbacks {
     tag: "wght"
     min_value: 300
     max_value: 300
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
   }
   axis_target {
     tag: "ital"
@@ -156,6 +186,11 @@ fallbacks {
     max_value: 400
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
+  }
+  axis_target {
     tag: "ital"
     min_value: 1
     max_value: 1
@@ -172,6 +207,11 @@ fallbacks {
     tag: "wght"
     min_value: 600
     max_value: 600
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
   }
   axis_target {
     tag: "ital"
@@ -192,6 +232,11 @@ fallbacks {
     max_value: 700
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
+  }
+  axis_target {
     tag: "ital"
     min_value: 1
     max_value: 1
@@ -208,6 +253,11 @@ fallbacks {
     tag: "wght"
     min_value: 800
     max_value: 800
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100
+    max_value: 100
   }
   axis_target {
     tag: "ital"

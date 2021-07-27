@@ -2,6 +2,7 @@ id: "knc_Latn"
 language: "knc"
 script: "Latn"
 name: "Kanuri, Central"
+autonym: "Kanuri (Latin)"
 sample_text {
   masthead_full: "AaDd"
   masthead_partial: "Mm"

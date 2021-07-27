@@ -3,6 +3,7 @@ language: "yue"
 script: "Hant"
 name: "Cantonese"
 preferred_name: "Yue"
+autonym: "粵語 (繁體)"
 population: 6524919
 region: "HK"
 exemplar_chars {

@@ -2,6 +2,7 @@ id: "azj_Cyrl"
 language: "azj"
 script: "Cyrl"
 name: "Azerbaijani, North, Cyrillic"
+autonym: "азәрбајҹан (Кирил, Азәрбајҹан)"
 sample_text {
   masthead_full: "БбҮү"
   masthead_partial: "Тт"

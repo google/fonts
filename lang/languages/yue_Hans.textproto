@@ -3,6 +3,7 @@ language: "yue"
 script: "Hans"
 name: "Cantonese (Simplified)"
 preferred_name: "Yue"
+autonym: "粤语（简体）"
 population: 72489040
 region: "CN"
 exemplar_chars {

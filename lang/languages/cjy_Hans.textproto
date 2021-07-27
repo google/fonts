@@ -2,6 +2,7 @@ id: "cjy_Hans"
 language: "cjy"
 script: "Hans"
 name: "Chinese, Jinyu"
+autonym: "Jinyu Chinese（Simplified）"
 sample_text {
   masthead_full: "人生而自"
   masthead_partial: "由在"

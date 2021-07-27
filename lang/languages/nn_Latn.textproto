@@ -2,6 +2,7 @@ id: "nn_Latn"
 language: "nn"
 script: "Latn"
 name: "Norwegian Nynorsk"
+autonym: "nynorsk"
 population: 1366860
 region: "NO"
 exemplar_chars {

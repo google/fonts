@@ -2,6 +2,7 @@ id: "emk_Latn"
 language: "emk"
 script: "Latn"
 name: "Maninkakan, Eastern"
+autonym: "Mandingo (Latin)"
 sample_text {
   masthead_full: "AaDd"
   masthead_partial: "Mm"

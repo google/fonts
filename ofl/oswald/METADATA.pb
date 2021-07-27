@@ -132,3 +132,112 @@ fallbacks {
   ascent_override_pct: 128.13
   local_src: "Impact"
 }
+
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 200
+    max_value: 200
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 75
+  ascent_override_pct: 175
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300
+    max_value: 300
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 76.95
+  ascent_override_pct: 162.5
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400
+    max_value: 400
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 80.08
+  ascent_override_pct: 162.5
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 500
+    max_value: 500
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 84.77
+  ascent_override_pct: 150
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 600
+    max_value: 600
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 87.11
+  ascent_override_pct: 145.31
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700
+    max_value: 700
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 87.5
+  ascent_override_pct: 146.88
+  local_src: "Roboto"
+}

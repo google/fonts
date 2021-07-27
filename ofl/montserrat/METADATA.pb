@@ -171,3 +171,328 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 100
+    max_value: 100
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 105.47
+  ascent_override_pct: 93.75
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 200
+    max_value: 200
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 106.25
+  ascent_override_pct: 90.63
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300
+    max_value: 300
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 106.64
+  ascent_override_pct: 89.06
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400
+    max_value: 400
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 108.59
+  ascent_override_pct: 100
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 500
+    max_value: 500
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 109.38
+  ascent_override_pct: 87.5
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 600
+    max_value: 600
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 110.94
+  ascent_override_pct: 87.5
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700
+    max_value: 700
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 112.89
+  ascent_override_pct: 82.81
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 800
+    max_value: 800
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 114.84
+  ascent_override_pct: 84.38
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 900
+    max_value: 900
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 0
+    max_value: 0
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 117.19
+  ascent_override_pct: 79.69
+  local_src: "Roboto"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 100
+    max_value: 100
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 109.38
+  ascent_override_pct: 87.5
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 200
+    max_value: 200
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 112.5
+  ascent_override_pct: 84.38
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 300
+    max_value: 300
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 110.55
+  ascent_override_pct: 85.94
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 400
+    max_value: 400
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 112.5
+  ascent_override_pct: 84.38
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 500
+    max_value: 500
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 113.28
+  ascent_override_pct: 82.81
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 600
+    max_value: 600
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 114.84
+  ascent_override_pct: 84.38
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 700
+    max_value: 700
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 117.19
+  ascent_override_pct: 79.69
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 800
+    max_value: 800
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 118.75
+  ascent_override_pct: 81.25
+  local_src: "Roboto Italic"
+}
+fallbacks {
+  axis_target {
+    tag: "wght"
+    min_value: 900
+    max_value: 900
+  }
+  axis_target {
+    tag: "ital"
+    min_value: 1
+    max_value: 1
+  }
+  target {
+    target_type: TARGET_OS_ANDROID
+  }
+  size_adjust_pct: 120.7
+  ascent_override_pct: 76.56
+  local_src: "Roboto Italic"
+}

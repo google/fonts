@@ -4,7 +4,6 @@ script: "Latn"
 name: "Esperanto"
 autonym: "Esperanto"
 population: 301
-region: "001"
 region: "SM"
 exemplar_chars {
   base: "a b c ĉ d e f g ĝ h ĥ i j ĵ k l m n o p r s ŝ t u ŭ v z"

@@ -3,7 +3,6 @@ language: "jbo"
 script: "Latn"
 name: "Lojban, Latin"
 autonym: "lojban (Latin)"
-region: "001"
 sample_text {
   masthead_full: "RrOo"
   masthead_partial: "Ee"

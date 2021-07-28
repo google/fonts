@@ -3,6 +3,7 @@ language: "mn"
 script: "Mong"
 name: "Mongolian (Mongolian)"
 population: 3624452
+region: "CN"
 sample_text {
   masthead_full: "ᠬᠦᠮᠨ"
   masthead_partial: "ᠪᠷ"

@@ -2,6 +2,7 @@ id: "amc_Latn"
 language: "amc"
 script: "Latn"
 name: "Amahuaca"
+region: "US"
 sample_text {
   masthead_full: "TtZz"
   masthead_partial: "Oo"

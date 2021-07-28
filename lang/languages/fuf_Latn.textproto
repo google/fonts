@@ -2,6 +2,7 @@ id: "fuf_Latn"
 language: "fuf"
 script: "Latn"
 name: "Pular"
+region: "GN"
 sample_text {
   masthead_full: "NnEe"
   masthead_partial: "Dd"

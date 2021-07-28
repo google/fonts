@@ -3,6 +3,7 @@ language: "goh"
 script: "Latn"
 name: "Old High German"
 population: 0
+region: "DE"
 sample_text {
   masthead_full: "AaLl"
   masthead_partial: "Ee"

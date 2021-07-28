@@ -2,6 +2,7 @@ id: "cni_Latn"
 language: "cni"
 script: "Latn"
 name: "Asháninka"
+region: "US"
 sample_text {
   masthead_full: "AaQq"
   masthead_partial: "Uu"

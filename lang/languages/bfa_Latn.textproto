@@ -2,6 +2,7 @@ id: "bfa_Latn"
 language: "bfa"
 script: "Latn"
 name: "Bari"
+region: "SS"
 sample_text {
   masthead_full: "ŊŋUu"
   masthead_partial: "Tt"

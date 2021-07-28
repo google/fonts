@@ -2,6 +2,7 @@ id: "lhm_Deva"
 language: "lhm"
 script: "Deva"
 name: "Lhomi, Devanagari"
+region: "NP"
 sample_text {
   masthead_full: "वङजय"
   masthead_partial: "धम"

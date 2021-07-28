@@ -3,6 +3,7 @@ language: "ale"
 script: "Latn"
 name: "Aleut"
 population: 0
+region: "US"
 sample_text {
   masthead_full: "AaNn"
   masthead_partial: "Ĝĝ"

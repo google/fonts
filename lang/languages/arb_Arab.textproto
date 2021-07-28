@@ -3,6 +3,7 @@ language: "arb"
 script: "Arab"
 name: "Arabic, Standard"
 autonym: "العربية"
+region: "EG"
 sample_text {
   masthead_full: "يولد"
   masthead_partial: "جم"

@@ -2,6 +2,7 @@ id: "str_Latn"
 language: "str"
 script: "Latn"
 name: "Straits Salish, Latin"
+region: "CA"
 sample_text {
   masthead_full: "SsIi"
   masthead_partial: "Oo"

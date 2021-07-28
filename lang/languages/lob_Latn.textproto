@@ -2,6 +2,7 @@ id: "lob_Latn"
 language: "lob"
 script: "Latn"
 name: "Lobi"
+region: "US"
 sample_text {
   masthead_full: "TtEe"
   masthead_partial: "Hh"

@@ -2,6 +2,7 @@ id: "io_Latn"
 language: "io"
 script: "Latn"
 name: "Ido"
+region: "001"
 sample_text {
   masthead_full: "OoMm"
   masthead_partial: "Nn"

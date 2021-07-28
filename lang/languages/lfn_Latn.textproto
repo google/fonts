@@ -3,6 +3,7 @@ language: "lfn"
 script: "Latn"
 name: "Lingua Franca Nova, Latin"
 population: 0
+region: "001"
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Aa"

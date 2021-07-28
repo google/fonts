@@ -3,6 +3,7 @@ language: "brh"
 script: "Latn"
 name: "Brahui, Latin"
 population: 0
+region: "PK"
 sample_text {
   masthead_full: "MmUu"
   masthead_partial: "Cc"

@@ -2,6 +2,7 @@ id: "zh_Hebr"
 language: "zh"
 script: "Hebr"
 name: "Chinese, Hebrew"
+region: "CN"
 sample_text {
   masthead_full: "עיןז"
   masthead_partial: "וש"

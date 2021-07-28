@@ -2,6 +2,7 @@ id: "koo_Latn"
 language: "koo"
 script: "Latn"
 name: "Konjo"
+region: "US"
 sample_text {
   masthead_full: "AaBb"
   masthead_partial: "Nn"

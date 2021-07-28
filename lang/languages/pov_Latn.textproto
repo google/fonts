@@ -2,6 +2,8 @@ id: "pov_Latn"
 language: "pov"
 script: "Latn"
 name: "Crioulo, Upper Guinea"
+region: "GW"
+region: "US"
 sample_text {
   masthead_full: "TtUu"
   masthead_partial: "Dd"

@@ -2,6 +2,7 @@ id: "tiw_Latn"
 language: "tiw"
 script: "Latn"
 name: "Tiwi, Latin"
+region: "AU"
 sample_text {
   masthead_full: "TtAa"
   masthead_partial: "Yy"

@@ -2,6 +2,7 @@ id: "hni_Latn"
 language: "hni"
 script: "Latn"
 name: "Hani"
+region: "US"
 sample_text {
   masthead_full: "AaQq"
   masthead_partial: "Ss"

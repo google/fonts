@@ -2,6 +2,7 @@ id: "lns_Latn"
 language: "lns"
 script: "Latn"
 name: "Lamnso\'"
+region: "CM"
 sample_text {
   masthead_full: "ÁáDd"
   masthead_partial: "Zz"

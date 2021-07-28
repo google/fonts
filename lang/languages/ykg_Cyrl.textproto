@@ -2,6 +2,7 @@ id: "ykg_Cyrl"
 language: "ykg"
 script: "Cyrl"
 name: "Yukaghir, Northern"
+region: "RU"
 sample_text {
   masthead_full: "КкӨө"
   masthead_partial: "Дд"

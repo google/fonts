@@ -2,6 +2,7 @@ id: "ppl_Latn"
 language: "ppl"
 script: "Latn"
 name: "Pipil"
+region: "US"
 sample_text {
   masthead_full: "MmUu"
   masthead_partial: "Cc"

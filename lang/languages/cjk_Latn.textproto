@@ -2,6 +2,8 @@ id: "cjk_Latn"
 language: "cjk"
 script: "Latn"
 name: "Chokwe"
+region: "AO"
+region: "CD"
 sample_text {
   masthead_full: "MmWw"
   masthead_partial: "Ee"

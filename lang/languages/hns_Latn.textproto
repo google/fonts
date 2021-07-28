@@ -2,6 +2,7 @@ id: "hns_Latn"
 language: "hns"
 script: "Latn"
 name: "Hindustani, Sarnami"
+region: "US"
 sample_text {
   masthead_full: "SsAa"
   masthead_partial: "Bb"

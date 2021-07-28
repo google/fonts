@@ -2,6 +2,7 @@ id: "yue_Hani"
 language: "yue"
 script: "Hani"
 name: "Chinese, Yue"
+region: "HK"
 sample_text {
   masthead_full: "人生而平"
   masthead_partial: "等喺"

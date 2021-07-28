@@ -2,6 +2,7 @@ id: "cbi_Latn"
 language: "cbi"
 script: "Latn"
 name: "Chachi"
+region: "US"
 sample_text {
   masthead_full: "NnAa"
   masthead_partial: "Jj"

@@ -2,6 +2,7 @@ id: "ktu_Latn"
 language: "ktu"
 script: "Latn"
 name: "Kituba"
+region: "US"
 sample_text {
   masthead_full: "BbAa"
   masthead_partial: "Nn"

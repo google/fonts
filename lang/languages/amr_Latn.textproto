@@ -2,6 +2,7 @@ id: "amr_Latn"
 language: "amr"
 script: "Latn"
 name: "Amarakaeri"
+region: "PE"
 sample_text {
   masthead_full: "AaYy"
   masthead_partial: "Dd"

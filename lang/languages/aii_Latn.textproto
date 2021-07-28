@@ -2,6 +2,7 @@ id: "aii_Latn"
 language: "aii"
 script: "Latn"
 name: "Assyrian Neo-Aramaic, Latin"
+region: "IQ"
 sample_text {
   masthead_full: "KkUu"
   masthead_partial: "Ll"

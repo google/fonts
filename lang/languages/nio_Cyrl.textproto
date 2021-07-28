@@ -2,6 +2,7 @@ id: "nio_Cyrl"
 language: "nio"
 script: "Cyrl"
 name: "Nganasan"
+region: "RU"
 sample_text {
   masthead_full: "БбӘә"
   masthead_partial: "Нн"

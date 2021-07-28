@@ -3,6 +3,7 @@ language: "lun"
 script: "Latn"
 name: "Lunda"
 population: 0
+region: "US"
 sample_text {
   masthead_full: "MmUu"
   masthead_partial: "Nn"

@@ -2,6 +2,7 @@ id: "crh_Latn"
 language: "crh"
 script: "Latn"
 name: "Crimean Turkish"
+region: "UA"
 sample_text {
   masthead_full: "BbÜü"
   masthead_partial: "Tt"

@@ -3,6 +3,7 @@ language: "liv"
 script: "Latn"
 name: "Livonian"
 population: 0
+region: "LV"
 sample_text {
   masthead_full: "AaMm"
   masthead_partial: "Āā"

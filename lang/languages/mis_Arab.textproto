@@ -2,6 +2,7 @@ id: "mis_Arab"
 language: "mis"
 script: "Arab"
 name: "Uncoded languages, Arabic"
+region: "KW"
 sample_text {
   masthead_full: "كلوا"
   masthead_partial: "نف"

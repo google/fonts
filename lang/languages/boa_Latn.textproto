@@ -2,6 +2,7 @@ id: "boa_Latn"
 language: "boa"
 script: "Latn"
 name: "Bora"
+region: "US"
 sample_text {
   masthead_full: "PpÁá"
   masthead_partial: "Mm"

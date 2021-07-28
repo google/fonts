@@ -2,6 +2,7 @@ id: "qud_Latn"
 language: "qud"
 script: "Latn"
 name: "Quechua, Unified Quichua, old Hispanic orthography"
+region: "PE"
 sample_text {
   masthead_full: "TtUu"
   masthead_partial: "Cc"

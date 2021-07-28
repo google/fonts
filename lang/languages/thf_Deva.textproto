@@ -2,6 +2,7 @@ id: "thf_Deva"
 language: "thf"
 script: "Deva"
 name: "Thangmi, Devanagari"
+region: "NP"
 sample_text {
   masthead_full: "सकखम"
   masthead_partial: "पर"

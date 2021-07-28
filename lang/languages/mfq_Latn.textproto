@@ -2,6 +2,7 @@ id: "mfq_Latn"
 language: "mfq"
 script: "Latn"
 name: "Moba"
+region: "TG"
 sample_text {
   masthead_full: "NnIi"
   masthead_partial: "Ff"

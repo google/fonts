@@ -3,6 +3,7 @@ language: "azj"
 script: "Cyrl"
 name: "Azerbaijani, North, Cyrillic"
 autonym: "азәрбајҹан (Кирил, Азәрбајҹан)"
+region: "AZ"
 sample_text {
   masthead_full: "БбҮү"
   masthead_partial: "Тт"

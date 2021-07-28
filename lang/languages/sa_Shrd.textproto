@@ -3,6 +3,7 @@ language: "sa"
 script: "Shrd"
 name: "Sanskrit, Sharada"
 population: 0
+region: "IN"
 sample_text {
   masthead_full: "𑆱𑆫𑆮𑆩"
   masthead_partial: "𑆤𑆠"

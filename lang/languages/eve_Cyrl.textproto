@@ -2,6 +2,7 @@ id: "eve_Cyrl"
 language: "eve"
 script: "Cyrl"
 name: "Even"
+region: "RU"
 sample_text {
   masthead_full: "БбЭэ"
   masthead_partial: "Йй"

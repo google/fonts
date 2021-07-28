@@ -2,6 +2,7 @@ id: "dip_Latn"
 language: "dip"
 script: "Latn"
 name: "Dinka, Northeastern"
+region: "US"
 sample_text {
   masthead_full: "RrAa"
   masthead_partial: "Nn"

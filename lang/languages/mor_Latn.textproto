@@ -2,6 +2,7 @@ id: "mor_Latn"
 language: "mor"
 script: "Latn"
 name: "Moro"
+region: "US"
 sample_text {
   masthead_full: "LlEe"
   masthead_partial: "Đđ"

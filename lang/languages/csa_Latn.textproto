@@ -2,6 +2,7 @@ id: "csa_Latn"
 language: "csa"
 script: "Latn"
 name: "Chinantec, Chiltepec"
+region: "US"
 sample_text {
   masthead_full: "LlEe"
   masthead_partial: "Jj"

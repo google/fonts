@@ -2,6 +2,7 @@ id: "rab_Deva"
 language: "rab"
 script: "Deva"
 name: "Camling, Devanagari"
+region: "NP"
 sample_text {
   masthead_full: "झरमन"
   masthead_partial: "चप"

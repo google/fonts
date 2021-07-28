@@ -2,6 +2,7 @@ id: "non_Latn"
 language: "non"
 script: "Latn"
 name: "Old Norse, Latin, Sweden"
+region: "SE"
 sample_text {
   masthead_full: "AaLl"
   masthead_partial: "Ii"

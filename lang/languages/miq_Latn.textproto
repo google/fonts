@@ -2,6 +2,7 @@ id: "miq_Latn"
 language: "miq"
 script: "Latn"
 name: "Mískito"
+region: "US"
 sample_text {
   masthead_full: "UuPp"
   masthead_partial: "Ll"

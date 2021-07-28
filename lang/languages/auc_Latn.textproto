@@ -2,6 +2,8 @@ id: "auc_Latn"
 language: "auc"
 script: "Latn"
 name: "Waorani, Latin, Ecuador"
+region: "EC"
+region: "US"
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Mm"

@@ -2,6 +2,7 @@ id: "cot_Latn"
 language: "cot"
 script: "Latn"
 name: "Caquinte"
+region: "US"
 sample_text {
   masthead_full: "AaQq"
   masthead_partial: "Uu"

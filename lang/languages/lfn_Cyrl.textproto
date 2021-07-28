@@ -3,6 +3,7 @@ language: "lfn"
 script: "Cyrl"
 name: "Lingua Franca Nova"
 population: 0
+region: "001"
 sample_text {
   masthead_full: "ТтОо"
   masthead_partial: "Аа"

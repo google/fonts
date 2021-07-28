@@ -2,6 +2,7 @@ id: "nnp_Deva"
 language: "nnp"
 script: "Deva"
 name: "Wancho Naga, Devanagari"
+region: "IN"
 sample_text {
   masthead_full: "खञकन"
   masthead_partial: "सम"

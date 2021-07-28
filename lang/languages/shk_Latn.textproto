@@ -2,6 +2,7 @@ id: "shk_Latn"
 language: "shk"
 script: "Latn"
 name: "Shilluk"
+region: "SS"
 sample_text {
   masthead_full: "DdHh"
   masthead_partial: "Aa"

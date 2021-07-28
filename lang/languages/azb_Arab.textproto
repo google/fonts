@@ -2,6 +2,7 @@ id: "azb_Arab"
 language: "azb"
 script: "Arab"
 name: "South Azerbaijani, Arabic"
+region: "IR"
 sample_text {
   masthead_full: "بوتن"
   masthead_partial: "اي"

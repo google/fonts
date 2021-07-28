@@ -2,6 +2,7 @@ id: "gyr_Latn"
 language: "gyr"
 script: "Latn"
 name: "Guarayu"
+region: "US"
 sample_text {
   masthead_full: "OoPp"
   masthead_partial: "Aa"

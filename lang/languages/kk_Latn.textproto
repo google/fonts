@@ -2,6 +2,7 @@ id: "kk_Latn"
 language: "kk"
 script: "Latn"
 name: "Kazakh, Latin"
+region: "TR"
 sample_text {
   masthead_full: "BbAa"
   masthead_partial: "Rr"

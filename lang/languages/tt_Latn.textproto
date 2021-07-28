@@ -2,6 +2,7 @@ id: "tt_Latn"
 language: "tt"
 script: "Latn"
 name: "Tatar, Latin"
+region: "RU"
 sample_text {
   masthead_full: "BbAa"
   masthead_partial: "Rr"

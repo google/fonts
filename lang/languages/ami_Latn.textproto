@@ -2,6 +2,7 @@ id: "ami_Latn"
 language: "ami"
 script: "Latn"
 name: "Amis"
+region: "US"
 sample_text {
   masthead_full: "CcHh"
   masthead_partial: "Ii"

@@ -2,6 +2,7 @@ id: "dag_Latn"
 language: "dag"
 script: "Latn"
 name: "Dagbani"
+region: "GH"
 sample_text {
   masthead_full: "SsAa"
   masthead_partial: "Ll"

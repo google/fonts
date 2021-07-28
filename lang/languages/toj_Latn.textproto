@@ -2,6 +2,7 @@ id: "toj_Latn"
 language: "toj"
 script: "Latn"
 name: "Tojolabal"
+region: "MX"
 sample_text {
   masthead_full: "SsPp"
   masthead_partial: "Ee"

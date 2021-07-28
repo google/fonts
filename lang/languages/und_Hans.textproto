@@ -3,6 +3,7 @@ language: "und"
 script: "Hans"
 name: "(Jinan"
 autonym: "Unknown language（Simplified，China）"
+region: "CN"
 sample_text {
   masthead_full: "是人都生"
   masthead_partial: "而自"

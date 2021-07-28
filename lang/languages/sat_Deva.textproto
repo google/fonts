@@ -3,6 +3,7 @@ language: "sat"
 script: "Deva"
 name: "Santali, Devanagari"
 population: 0
+region: "NP"
 sample_text {
   masthead_full: "जतलक"
   masthead_partial: "नम"

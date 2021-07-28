@@ -2,6 +2,7 @@ id: "rhg_Latn"
 language: "rhg"
 script: "Latn"
 name: "Rohingya, Latin"
+region: "MM"
 sample_text {
   masthead_full: "MmAa"
   masthead_partial: "Nn"

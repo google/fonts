@@ -2,6 +2,7 @@ id: "owl_Latn"
 language: "owl"
 script: "Latn"
 name: "Old Welsh, Latin"
+region: "GB"
 sample_text {
   masthead_full: "GgEe"
   masthead_partial: "Nn"

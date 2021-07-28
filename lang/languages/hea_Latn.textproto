@@ -3,6 +3,7 @@ language: "hea"
 script: "Latn"
 name: "Hmong, Northern Qiandong"
 autonym: "Hmong (Latin)"
+region: "US"
 sample_text {
   masthead_full: "LlAa"
   masthead_partial: "Ii"

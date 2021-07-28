@@ -3,6 +3,7 @@ language: "bug"
 script: "Bugi"
 name: "Buginese, Buginese"
 population: 0
+region: "ID"
 sample_text {
   masthead_full: "ᨔᨊᨑᨄ"
   masthead_partial: "ᨈᨕ"

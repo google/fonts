@@ -3,6 +3,7 @@ language: "sga"
 script: "Latn"
 name: "Old Irish"
 population: 0
+region: "IE"
 sample_text {
   masthead_full: "GgAa"
   masthead_partial: "Ii"

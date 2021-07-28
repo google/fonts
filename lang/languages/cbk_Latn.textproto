@@ -2,6 +2,7 @@ id: "cbk_Latn"
 language: "cbk"
 script: "Latn"
 name: "Chavacano, Latin, Philippines"
+region: "PH"
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Dd"

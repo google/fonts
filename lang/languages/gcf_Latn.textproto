@@ -2,6 +2,8 @@ id: "gcf_Latn"
 language: "gcf"
 script: "Latn"
 name: "Guadeloupean Creole French, Latin, Martinique"
+region: "GP"
+region: "MQ"
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Uu"

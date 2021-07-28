@@ -3,6 +3,7 @@ language: "tg"
 script: "Latn"
 name: "Tajik, Latin"
 population: 0
+region: "TJ"
 sample_text {
   masthead_full: "TtAa"
   masthead_partial: "Mm"

@@ -3,6 +3,7 @@ language: "quz"
 script: "Latn"
 name: "Quechua, Cusco"
 autonym: "Runasimi"
+region: "PE"
 sample_text {
   masthead_full: "LlAa"
   masthead_partial: "Pp"

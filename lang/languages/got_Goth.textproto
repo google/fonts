@@ -3,6 +3,7 @@ language: "got"
 script: "Goth"
 name: "Gothic"
 population: 0
+region: "UA"
 sample_text {
   masthead_full: "𐌰𐌻𐌹𐌼"
   masthead_partial: "𐌽𐍆"

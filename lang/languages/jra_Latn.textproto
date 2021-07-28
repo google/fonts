@@ -2,6 +2,7 @@ id: "jra_Latn"
 language: "jra"
 script: "Latn"
 name: "Jarai, Latin"
+region: "VN"
 sample_text {
   masthead_full: "AaBb"
   masthead_partial: "Ii"

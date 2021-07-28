@@ -2,6 +2,7 @@ id: "ojb_Cans"
 language: "ojb"
 script: "Cans"
 name: "Northwestern Ojibwa, Unified Canadian Aboriginal Syllabics, Canada"
+region: "CA"
 sample_text {
   masthead_full: "ᑲᐦᑭᓇ"
   masthead_partial: "ᐌᓀ"

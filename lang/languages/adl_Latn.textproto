@@ -2,6 +2,7 @@ id: "adl_Latn"
 language: "adl"
 script: "Latn"
 name: "Galo, Latin"
+region: "IN"
 sample_text {
   masthead_full: "LlEe"
   masthead_partial: "Mm"

@@ -3,6 +3,7 @@ language: "fil"
 script: "Tglg"
 name: "Filipino, Tagalog"
 population: 0
+region: "PH"
 sample_text {
   masthead_full: "ᜀᜅᜎᜑ"
   masthead_partial: "ᜆᜂ"

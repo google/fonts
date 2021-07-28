@@ -3,6 +3,7 @@ language: "pro"
 script: "Latn"
 name: "Old Provençal"
 population: 0
+region: "FR"
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Aa"

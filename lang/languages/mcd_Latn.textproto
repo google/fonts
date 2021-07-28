@@ -2,6 +2,7 @@ id: "mcd_Latn"
 language: "mcd"
 script: "Latn"
 name: "Sharanahua"
+region: "US"
 sample_text {
   masthead_full: "NnAa"
   masthead_partial: "Tt"

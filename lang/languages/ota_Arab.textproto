@@ -2,6 +2,7 @@ id: "ota_Arab"
 language: "ota"
 script: "Arab"
 name: "Ottoman Turkish, Arabic"
+region: "TR"
 sample_text {
   masthead_full: "بتون"
   masthead_partial: "اس"

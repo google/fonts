@@ -2,6 +2,7 @@ id: "taq_Tfng"
 language: "taq"
 script: "Tfng"
 name: "Tamasheq, Tifinagh"
+region: "ML"
 sample_text {
   masthead_full: "ⵎⴸⴰⵏ"
   masthead_partial: "ⵓⵜ"

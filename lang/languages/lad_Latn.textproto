@@ -2,6 +2,7 @@ id: "lad_Latn"
 language: "lad"
 script: "Latn"
 name: "Ladino"
+region: "IL"
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Dd"

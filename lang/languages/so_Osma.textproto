@@ -3,6 +3,7 @@ language: "so"
 script: "Osma"
 name: "Somali, Osmanya"
 population: 0
+region: "SO"
 sample_text {
   masthead_full: "𐒛𐒆𐒖𐒒"
   masthead_partial: "𐒔𐒊"

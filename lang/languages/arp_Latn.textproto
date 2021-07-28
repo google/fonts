@@ -3,6 +3,7 @@ language: "arp"
 script: "Latn"
 name: "Arapaho"
 population: 0
+region: "US"
 sample_text {
   masthead_full: "BbEe"
   masthead_partial: "Ii"

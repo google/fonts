@@ -4,6 +4,7 @@ script: "Latn"
 name: "Uyghur, Latin"
 autonym: "Uighur"
 population: 0
+region: "CN"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U W X Y Z Ë Ö Ü a b c d e f g h i j k l m n o p q r s t u w x y z ë ö ü"
   marks: "◌̈"

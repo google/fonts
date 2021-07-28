@@ -4,6 +4,7 @@ script: "Latn"
 name: "Old English"
 autonym: "Ænglisc (Latin)"
 population: 0
+region: "GB"
 sample_text {
   masthead_full: "EeAa"
   masthead_partial: "Ll"

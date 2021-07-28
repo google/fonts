@@ -2,6 +2,7 @@ id: "cnh_Latn"
 language: "cnh"
 script: "Latn"
 name: "Chin, Haka"
+region: "US"
 sample_text {
   masthead_full: "MmIi"
   masthead_partial: "Vv"

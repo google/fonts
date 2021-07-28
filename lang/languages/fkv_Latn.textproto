@@ -2,6 +2,7 @@ id: "fkv_Latn"
 language: "fkv"
 script: "Latn"
 name: "Finnish, Kven"
+region: "US"
 sample_text {
   masthead_full: "KkAa"
   masthead_partial: "Ii"

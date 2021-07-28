@@ -2,6 +2,7 @@ id: "bax_Latn"
 language: "bax"
 script: "Latn"
 name: "Bamun"
+region: "CM"
 sample_text {
   masthead_full: "PpEe"
   masthead_partial: "Nn"

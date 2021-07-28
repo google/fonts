@@ -2,6 +2,7 @@ id: "cfm_Latn"
 language: "cfm"
 script: "Latn"
 name: "Chin, Falam"
+region: "US"
 sample_text {
   masthead_full: "MmIi"
   masthead_partial: "Kk"

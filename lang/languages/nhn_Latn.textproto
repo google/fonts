@@ -2,6 +2,7 @@ id: "nhn_Latn"
 language: "nhn"
 script: "Latn"
 name: "Nahuatl, Central"
+region: "US"
 sample_text {
   masthead_full: "NnOo"
   masthead_partial: "Cc"

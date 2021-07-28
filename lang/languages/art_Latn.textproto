@@ -2,6 +2,7 @@ id: "art_Latn"
 language: "art"
 script: "Latn"
 name: "Artificial languages, Latin, World"
+region: "001"
 sample_text {
   masthead_full: "JjAa"
   masthead_partial: "Nn"

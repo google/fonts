@@ -2,6 +2,7 @@ id: "nan_Hant"
 language: "nan"
 script: "Hant"
 name: "Min Nan Chinese, Traditional"
+region: "TW"
 sample_text {
   masthead_full: "人皆生而"
   masthead_partial: "自由"

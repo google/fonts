@@ -2,6 +2,7 @@ id: "kdh_Latn"
 language: "kdh"
 script: "Latn"
 name: "Tem"
+region: "TG"
 sample_text {
   masthead_full: "BbÁá"
   masthead_partial: "Nn"

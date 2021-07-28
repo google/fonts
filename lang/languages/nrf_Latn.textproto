@@ -2,6 +2,7 @@ id: "nrf_Latn"
 language: "nrf"
 script: "Latn"
 name: "Jèrriais, Latin"
+region: "JE"
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Uu"

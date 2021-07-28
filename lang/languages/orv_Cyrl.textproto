@@ -2,6 +2,7 @@ id: "orv_Cyrl"
 language: "orv"
 script: "Cyrl"
 name: "Old Russian, Cyrillic"
+region: "RU"
 sample_text {
   masthead_full: "ВвЬь"
   masthead_partial: "Сс"

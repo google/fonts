@@ -3,6 +3,7 @@ language: "fro"
 script: "Latn"
 name: "Old French"
 population: 0
+region: "FR"
 sample_text {
   masthead_full: "TtUu"
   masthead_partial: "Ii"

@@ -2,6 +2,7 @@ id: "yad_Latn"
 language: "yad"
 script: "Latn"
 name: "Yagua"
+region: "US"
 sample_text {
   masthead_full: "NnEe"
   masthead_partial: "Ss"

@@ -2,6 +2,7 @@ id: "toi_Latn"
 language: "toi"
 script: "Latn"
 name: "Tonga"
+region: "US"
 sample_text {
   masthead_full: "BbAa"
   masthead_partial: "Nn"

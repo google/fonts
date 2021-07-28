@@ -2,6 +2,7 @@ id: "taq_Latn"
 language: "taq"
 script: "Latn"
 name: "Tamasheq, Latin"
+region: "ML"
 sample_text {
   masthead_full: "MmDd"
   masthead_partial: "Aa"

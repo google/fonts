@@ -2,6 +2,7 @@ id: "oaa_Cyrl"
 language: "oaa"
 script: "Cyrl"
 name: "Orok"
+region: "RU"
 sample_text {
   masthead_full: "ЧчИи"
   masthead_partial: "Пп"

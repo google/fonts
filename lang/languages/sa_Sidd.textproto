@@ -3,6 +3,7 @@ language: "sa"
 script: "Sidd"
 name: "Sanskrit, Siddham"
 population: 0
+region: "IN"
 sample_text {
   masthead_full: "𑖭𑖨𑖪𑖦"
   masthead_partial: "𑖡𑖝"

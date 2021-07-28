@@ -2,6 +2,7 @@ id: "sa_Khar"
 language: "sa"
 script: "Khar"
 name: "Sanskrit, Kharoshthi"
+region: "IN"
 sample_text {
   masthead_full: "𐨯𐨪𐨬𐨨"
   masthead_partial: "𐨣𐨟"

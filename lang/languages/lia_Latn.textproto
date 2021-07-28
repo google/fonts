@@ -2,6 +2,7 @@ id: "lia_Latn"
 language: "lia"
 script: "Latn"
 name: "Limba, West-Central"
+region: "ZZ"
 sample_text {
   masthead_full: "BbIi"
   masthead_partial: "Yy"

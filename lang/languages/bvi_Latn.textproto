@@ -2,6 +2,7 @@ id: "bvi_Latn"
 language: "bvi"
 script: "Latn"
 name: "Belanda Viri, Latin"
+region: "SS"
 sample_text {
   masthead_full: "AaJj"
   masthead_partial: "Oo"

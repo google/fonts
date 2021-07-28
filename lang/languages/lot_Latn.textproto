@@ -2,6 +2,8 @@ id: "lot_Latn"
 language: "lot"
 script: "Latn"
 name: "Otuho"
+region: "SS"
+region: "US"
 sample_text {
   masthead_full: "LlSs"
   masthead_partial: "Ii"

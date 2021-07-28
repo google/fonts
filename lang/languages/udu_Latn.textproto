@@ -2,6 +2,7 @@ id: "udu_Latn"
 language: "udu"
 script: "Latn"
 name: "Uduk"
+region: "US"
 sample_text {
   masthead_full: "AaRr"
   masthead_partial: "Ii"

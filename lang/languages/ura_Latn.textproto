@@ -2,6 +2,7 @@ id: "ura_Latn"
 language: "ura"
 script: "Latn"
 name: "Urarina"
+region: "US"
 sample_text {
   masthead_full: "IiTt"
   masthead_partial: "Aa"

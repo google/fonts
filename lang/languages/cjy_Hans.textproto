@@ -3,6 +3,7 @@ language: "cjy"
 script: "Hans"
 name: "Chinese, Jinyu"
 autonym: "Jinyu Chinese（Simplified）"
+region: "CN"
 sample_text {
   masthead_full: "人生而自"
   masthead_partial: "由在"

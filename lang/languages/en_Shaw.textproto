@@ -3,6 +3,7 @@ language: "en"
 script: "Shaw"
 name: "English, Shavian"
 population: 0
+region: "US"
 sample_text {
   masthead_full: "𐑷𐑤𐑣𐑿"
   masthead_partial: "𐑥𐑩"

@@ -4,6 +4,7 @@ script: "Tibt"
 name: "Eastern Tamang, Tibetan"
 autonym: "རྟ་དམག‎"
 population: 0
+region: "BT"
 exemplar_chars {
   base: "ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ"
   marks: "◌ི ◌ུ ◌ེ ◌ོ"

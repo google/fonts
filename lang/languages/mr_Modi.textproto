@@ -3,6 +3,7 @@ language: "mr"
 script: "Modi"
 name: "Marathi, Modi"
 population: 0
+region: "IN"
 sample_text {
   masthead_full: "𑘭𑘨𑘪𑘦"
   masthead_partial: "𑘡𑘧"

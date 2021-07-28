@@ -2,6 +2,8 @@ id: "acu_Latn"
 language: "acu"
 script: "Latn"
 name: "Achuar-Shiwiar, Latin, Ecuador"
+region: "EC"
+region: "US"
 sample_text {
   masthead_full: "PpEe"
   masthead_partial: "Nn"

@@ -2,6 +2,7 @@ id: "mam_Latn"
 language: "mam"
 script: "Latn"
 name: "Mam, Northern"
+region: "US"
 sample_text {
   masthead_full: "KkYy"
   masthead_partial: "Aa"

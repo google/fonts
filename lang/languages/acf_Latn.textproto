@@ -2,6 +2,7 @@ id: "acf_Latn"
 language: "acf"
 script: "Latn"
 name: "Saint Lucian Creole French, Latin"
+region: "LC"
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Uu"

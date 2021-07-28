@@ -2,6 +2,7 @@ id: "cu_Glag"
 language: "cu"
 script: "Glag"
 name: "Church Slavic, Glagolitic"
+region: "BG"
 sample_text {
   masthead_full: "ⰂⰲⰠⱐ"
   masthead_partial: "Ⱄⱄ"

@@ -2,6 +2,7 @@ id: "sa_Ahom"
 language: "sa"
 script: "Ahom"
 name: "Sanskrit, Ahom"
+region: "IN"
 sample_text {
   masthead_full: "𑜏𑜍𑜈𑜉"
   masthead_partial: "𑜃𑜑"

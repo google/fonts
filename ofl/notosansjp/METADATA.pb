@@ -60,3 +60,4 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "japanese"
+source_type: TYPE_OTF

@@ -60,3 +60,4 @@ fonts {
 subsets: "chinese-hongkong"
 subsets: "latin"
 subsets: "menu"
+source_type: TYPE_OTF

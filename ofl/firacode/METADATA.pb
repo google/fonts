@@ -1,5 +1,5 @@
 name: "Fira Code"
-designer: "Multiple Designers"
+designer: "The Mozilla Foundation, Telefonica S.A., Nikita Prokopov"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2019-03-25"

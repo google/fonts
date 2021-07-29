@@ -1,5 +1,5 @@
 name: "Markazi Text"
-designer: "Borna Izadpanah, Fiona Ross, Florian Runge"
+designer: "Borna Izadpanah, Florian Runge, Fiona Ross"
 license: "OFL"
 category: "SERIF"
 date_added: "2018-06-06"

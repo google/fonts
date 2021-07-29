@@ -28,7 +28,7 @@ languages: "crs_Latn"  # Seselwa Creole French
 languages: "ctd_Latn"  # Tedim Chin
 languages: "dav_Latn"  # Taita
 languages: "en_Latn"  # English
-languages: "_Latn"  # West Albay Bikol
+languages: "fbl_Latn"  # West Albay Bikol
 languages: "fj_Latn"  # Fijian
 languages: "gil_Latn"  # Gilbertese
 languages: "guz_Latn"  # Gusii

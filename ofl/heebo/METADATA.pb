@@ -1,5 +1,5 @@
 name: "Heebo"
-designer: "Multiple Designers"
+designer: "Oded Ezer, Meir Sadan"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2016-06-20"

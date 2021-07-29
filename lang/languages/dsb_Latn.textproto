@@ -13,3 +13,17 @@ exemplar_chars {
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ ‚ \" “ „ « » ( ) [ ] { } § @ * / & # { } { } { } { } { } { } { } { } { } { } { } { } { } { } { }"
   index: "A B C Č Ć D E F G H {Ch} I J K Ł L M N O P Q R S Š Ś T U V W X Y Z Ž Ź {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch} {Ch}"
 }
+sample_text {
+  masthead_full: "WwŠš"
+  masthead_partial: "Yy"
+  styles: "Wšykne luźe su lichotne roźone a jadnake"
+  tester: "Wšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach."
+  poster_sm: "Wšykne luźe"
+  poster_md: "Wšykne"
+  poster_lg: "Wšykne"
+  specimen_48: "Wšykne luźe su lichotne roźone a jadnake po dostojnosći"
+  specimen_36: "Wšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach. Woni maju rozym a ědobnosć a maju ze sobu w duchu bratšojstwa wobchadaś."
+  specimen_32: "Wšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach. Woni maju rozym a ědobnosć a maju ze sobu w duchu bratšojstwa wobchadaś."
+  specimen_21: "Wšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach. Woni maju rozym a ědobnosć a maju ze sobu w duchu bratšojstwa wobchadaś.\nWšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach. Woni maju rozym a ědobnosć a maju ze sobu w duchu bratšojstwa wobchadaś.\nWšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach. Woni maju rozym a ědobnosć a maju ze sobu w duchu bratšojstwa wobchadaś."
+  specimen_16: "Wšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach. Woni maju rozym a ědobnosć a maju ze sobu w duchu bratšojstwa wobchadaś.\nWšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach. Woni maju rozym a ědobnosć a maju ze sobu w duchu bratšojstwa wobchadaś.\nWšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach. Woni maju rozym a ědobnosć a maju ze sobu w duchu bratšojstwa wobchadaś.\nWšykne luźe su lichotne roźone a jadnake po dostojnosći a pšawach. Woni maju rozym a ědobnosć a maju ze sobu w duchu bratšojstwa wobchadaś."
+}

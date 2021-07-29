@@ -3,6 +3,7 @@ language: "gan"
 script: "Hans"
 name: "Gan Chinese"
 preferred_name: "Gan"
+autonym: "Gan Chinese（Simplified）"
 population: 23698340
 region: "CN"
 sample_text {

@@ -1,0 +1,18 @@
+id: "ie_Latn"
+language: "ie"
+script: "Latn"
+name: "Interlingue, Latin"
+sample_text {
+  masthead_full: "OoMm"
+  masthead_partial: "Nn"
+  styles: "Omni homes nasce líber e egal in dignitá"
+  tester: "Omni homes nasce líber e egal in dignitá e jures. Ili es dotat"
+  poster_sm: "Omni homes"
+  poster_md: "Omni"
+  poster_lg: "Omni"
+  specimen_48: "Omni homes nasce líber e egal in dignitá e jures. Ili es dotat de"
+  specimen_36: "Omni homes nasce líber e egal in dignitá e jures. Ili es dotat de rason e conscientie e deve acter vers unaltru in un spíritu de fraternitá."
+  specimen_32: "Omni homes nasce líber e egal in dignitá e jures. Ili es dotat de rason e conscientie e deve acter vers unaltru in un spíritu de fraternitá."
+  specimen_21: "Omni homes nasce líber e egal in dignitá e jures. Ili es dotat de rason e conscientie e deve acter vers unaltru in un spíritu de fraternitá.\nOmni homes nasce líber e egal in dignitá e jures. Ili es dotat de rason e conscientie e deve acter vers unaltru in un spíritu de fraternitá.\nOmni homes nasce líber e egal in dignitá e jures. Ili es dotat de rason e conscientie e deve acter vers unaltru in un spíritu de fraternitá."
+  specimen_16: "Omni homes nasce líber e egal in dignitá e jures. Ili es dotat de rason e conscientie e deve acter vers unaltru in un spíritu de fraternitá.\nOmni homes nasce líber e egal in dignitá e jures. Ili es dotat de rason e conscientie e deve acter vers unaltru in un spíritu de fraternitá.\nOmni homes nasce líber e egal in dignitá e jures. Ili es dotat de rason e conscientie e deve acter vers unaltru in un spíritu de fraternitá.\nOmni homes nasce líber e egal in dignitá e jures. Ili es dotat de rason e conscientie e deve acter vers unaltru in un spíritu de fraternitá."
+}

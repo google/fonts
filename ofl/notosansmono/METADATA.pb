@@ -1,7 +1,7 @@
 name: "Noto Sans Mono"
 designer: "Google"
 license: "OFL"
-category: "SANS_SERIF"
+category: "MONOSPACE"
 date_added: "2020-11-19"
 fonts {
   name: "Noto Sans Mono"
@@ -173,7 +173,7 @@ languages: "evn_Latn"  # Evenki
 languages: "ewo_Latn"  # Ewondo
 languages: "ext_Latn"  # Extremaduran
 languages: "fan_Latn"  # Fang
-languages: "_Latn"  # West Albay Bikol
+languages: "fbl_Latn"  # West Albay Bikol
 languages: "ff_Latn"  # Fulah
 languages: "ffm_Latn"  # Maasina Fulfulde
 languages: "fi_Latn"  # Finnish

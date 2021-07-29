@@ -3,6 +3,7 @@ language: "vi"
 script: "Hani"
 name: "Vietnamese, Han"
 population: 0
+region: "VN"
 sample_text {
   masthead_full: "畢哿每𠊛"
   masthead_partial: "生𠚢"

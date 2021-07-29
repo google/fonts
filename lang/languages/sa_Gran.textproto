@@ -3,6 +3,7 @@ language: "sa"
 script: "Gran"
 name: "Sanskrit, Grantha"
 population: 0
+region: "IN"
 sample_text {
   masthead_full: "𑌸𑌰𑌵𑌮"
   masthead_partial: "𑌨𑌤"

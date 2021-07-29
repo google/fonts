@@ -1,5 +1,5 @@
 name: "Dela Gothic One"
-designer: "Artakana"
+designer: "aratakana"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2020-12-14"

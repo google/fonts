@@ -10,7 +10,7 @@ fonts {
   filename: "LexendExa[wght].ttf"
   post_script_name: "LexendExa-Regular"
   full_name: "Lexend Exa Regular"
-  copyright: "Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)"
+  copyright: "Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)"
 }
 subsets: "latin"
 subsets: "latin-ext"

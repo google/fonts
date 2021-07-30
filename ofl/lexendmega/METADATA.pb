@@ -21,7 +21,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/lexend"
-  commit: "20491885ca2cf7ffc556432973e7bdbc701952b5"
-}

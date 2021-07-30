@@ -1,5 +1,5 @@
-branch: master
+branch: main
 files:
-  fonts/7families/peta/LexendPeta[wght].ttf: LexendPeta[wght].ttf
+  fonts/peta/variable/LexendPeta[wght].ttf: LexendPeta[wght].ttf
   OFL.txt: OFL.txt
-repository_url: https://github.com/RosaWagner/lexend
+repository_url: https://github.com/googlefonts/lexend

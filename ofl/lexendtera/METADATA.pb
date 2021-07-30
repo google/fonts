@@ -10,7 +10,7 @@ fonts {
   filename: "LexendTera[wght].ttf"
   post_script_name: "LexendTera-Regular"
   full_name: "Lexend Tera Regular"
-  copyright: "Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)"
+  copyright: "Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)"
 }
 subsets: "latin"
 subsets: "latin-ext"

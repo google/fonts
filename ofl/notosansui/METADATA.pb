@@ -1,6 +1,6 @@
 name: "Noto Sans UI"
 designer: "Google"
-license: "APACHE2"
+license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-02-27"
 fonts {

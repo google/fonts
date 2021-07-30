@@ -10,7 +10,7 @@ fonts {
   filename: "LexendDeca[wght].ttf"
   post_script_name: "LexendDeca-Regular"
   full_name: "Lexend Deca Regular"
-  copyright: "Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)"
+  copyright: "Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -20,4 +20,8 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/lexend"
+  commit: "20491885ca2cf7ffc556432973e7bdbc701952b5"
 }

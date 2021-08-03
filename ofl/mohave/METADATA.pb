@@ -10,7 +10,7 @@ fonts {
   filename: "Mohave[wght].ttf"
   post_script_name: "Mohave-Light"
   full_name: "Mohave Light"
-  copyright: "Copyright 2019 The Mohave Project Authors (https://github.com/bghryct/Mohave-Typefaces)"
+  copyright: "Copyright 2019 The Mohave Project Authors (https://github.com/tokotype/Mohave-Typefaces)"
 }
 fonts {
   name: "Mohave"
@@ -19,7 +19,7 @@ fonts {
   filename: "Mohave-Italic[wght].ttf"
   post_script_name: "Mohave-LightItalic"
   full_name: "Mohave Light Italic"
-  copyright: "Copyright 2019 The Mohave Project Authors (https://github.com/bghryct/Mohave-Typefaces)"
+  copyright: "Copyright 2019 The Mohave Project Authors (https://github.com/tokotype/Mohave-Typefaces)"
 }
 subsets: "latin"
 subsets: "latin-ext"

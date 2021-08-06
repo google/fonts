@@ -20,7 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "ii_Yiii"  # Sichuan Yi
+languages: "hmn_Hmnp"  # Hmong, Nyiakeng Puachue Hmong
 sample_glyphs {
   key: "Nyiakeng Puachue Hmong Decimal Numbers"
   value: "𞅀 𞅁 𞅂 𞅃 𞅄 𞅅 𞅆 𞅇 𞅈 𞅉"

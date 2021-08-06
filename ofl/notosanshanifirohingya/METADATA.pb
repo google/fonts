@@ -20,7 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "vi_Hani"  # Vietnamese, Han
+languages: "rhg_Rohg"  # Rohingya
 sample_glyphs {
   key: "Arabic Decimal Numbers"
   value: "٠"

@@ -15,9 +15,14 @@ fonts {
 subsets: "arabic"
 subsets: "cyrillic"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/Gue3bara/El-Messiri"
+  commit: "553b98d8e374318694b50862849af666268fd278"
 }

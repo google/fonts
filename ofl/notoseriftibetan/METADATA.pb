@@ -22,62 +22,26 @@ axes {
 is_noto: true
 languages: "taj_Tibt"  # Eastern Tamang, Tibetan
 sample_glyphs {
-  key: "Dash Punctuation"
-  value: "- ‐"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Miscellaneous"
-  value: "☸"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Basic Latin"
+  key: "Common Latin"
   value: "|"
 }
 sample_glyphs {
-  key: "Space Separators"
-  value: " "
+  key: "Marks"
+  value: "༘ ༙ ༵ ༷ ༹ ༾ ༿ ཱ ི ཱི ུ ཱུ ྲྀ ཷ ླྀ ཹ ེ ཻ ོ ཽ ཾ ཿ ྀ ཱྀ ྂ ྃ ྄ ྆ ྇ ྍ ྎ ྏ ྐ ྑ ྒ ྒྷ ྔ ྕ ྖ ྗ ྙ ྚ ྛ ྜ ྜྷ ྞ ྟ ྠ ྡ ྡྷ ྣ ྤ ྥ ྦ ྦྷ ྨ ྩ ྪ ྫ ྫྷ ྭ ྮ ྯ ྰ ྱ ྲ ླ ྴ ྵ ྶ ྷ ྸ ྐྵ ྺ ྻ ྼ ࿆"
 }
 sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
+  key: "Misc Symbols"
+  value: "☸"
 }
 sample_glyphs {
-  key: "Symbols, Tibetan"
-  value: "࿕ ࿖ ࿗ ࿘"
+  key: "Numbers"
+  value: "༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩ ༪ ༫ ༬ ༭ ༮ ༯ ༰ ༱ ༲ ༳"
 }
 sample_glyphs {
-  key: "Tibetan Close Punctuation"
-  value: "༻ ༽"
+  key: "Punctuation"
+  value: "༄ ༅ ༆ ༇ ༈ ༉ ༊ ་ ༌ ། ༎ ༏ ༐ ༑ ༒ ༔ ༺ ༻ ༼ ༽ ྅ ࿐ ࿑ ࿒ ࿓ ࿔ ࿙ ࿚ - ‐"
 }
 sample_glyphs {
-  key: "Tibetan Decimal Numbers"
-  value: "༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩"
-}
-sample_glyphs {
-  key: "Tibetan Letters"
-  value: "ༀ ཀ ཁ ག གྷ ང ཅ ཆ ཇ ཉ ཊ ཋ ཌ ཌྷ ཎ ཏ ཐ ད དྷ ན པ ཕ བ བྷ མ ཙ ཚ ཛ ཛྷ ཝ ཞ ཟ འ ཡ ར ལ ཤ ཥ ས ཧ ཨ ཀྵ ཪ ཫ ཬ ྈ ྉ ྊ ྋ ྌ"
-}
-sample_glyphs {
-  key: "Tibetan Nonspacing Marks"
-  value: "༘ ༙ ༵ ༷ ༹ ཱ ི ཱི ུ ཱུ ྲྀ ཷ ླྀ ཹ ེ ཻ ོ ཽ ཾ ྀ ཱྀ ྂ ྃ ྄ ྆ ྇ ྍ ྎ ྏ ྐ ྑ ྒ ྒྷ ྔ ྕ ྖ ྗ ྙ ྚ ྛ ྜ ྜྷ ྞ ྟ ྠ ྡ ྡྷ ྣ ྤ ྥ ྦ ྦྷ ྨ ྩ ྪ ྫ ྫྷ ྭ ྮ ྯ ྰ ྱ ྲ ླ ྴ ྵ ྶ ྷ ྸ ྐྵ ྺ ྻ ྼ ࿆"
-}
-sample_glyphs {
-  key: "Tibetan Numbers"
-  value: "༪ ༫ ༬ ༭ ༮ ༯ ༰ ༱ ༲ ༳"
-}
-sample_glyphs {
-  key: "Tibetan Open Punctuation"
-  value: "༺ ༼"
-}
-sample_glyphs {
-  key: "Tibetan Punctuation"
-  value: "༄ ༅ ༆ ༇ ༈ ༉ ༊ ་ ༌ ། ༎ ༏ ༐ ༑ ༒ ༔ ྅ ࿐ ࿑ ࿒ ࿓ ࿔ ࿙ ࿚"
-}
-sample_glyphs {
-  key: "Tibetan Spacing Marks"
-  value: "༾ ༿ ཿ"
-}
-sample_glyphs {
-  key: "Tibetan Symbols"
-  value: "༁ ༂ ༃ ༓ ༕ ༖ ༗ ༚ ༛ ༜ ༝ ༞ ༟ ༴ ༶ ༸ ྾ ྿ ࿀ ࿁ ࿂ ࿃ ࿄ ࿅ ࿇ ࿈ ࿉ ࿊ ࿋ ࿌ ࿎ ࿏"
+  key: "Tibetan"
+  value: "ༀ ཀ ཁ ག གྷ ང ཅ ཆ ཇ ཉ ཊ ཋ ཌ ཌྷ ཎ ཏ ཐ ད དྷ ན པ ཕ བ བྷ མ ཙ ཚ ཛ ཛྷ ཝ ཞ ཟ འ ཡ ར ལ ཤ ཥ ས ཧ ཨ ཀྵ ཪ ཫ ཬ ྈ ྉ ྊ ྋ ྌ ༁ ༂ ༃ ༓ ༕ ༖ ༗ ༚ ༛ ༜ ༝ ༞ ༟ ༴ ༶ ༸ ྾ ྿ ࿀ ࿁ ࿂ ࿃ ࿄ ࿅ ࿇ ࿈ ࿉ ࿊ ࿋ ࿌ ࿎ ࿏ ࿕ ࿖ ࿗ ࿘"
 }

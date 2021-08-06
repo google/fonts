@@ -22,34 +22,18 @@ axes {
 is_noto: true
 languages: "su_Sund"  # Sundanese, Sundanese
 sample_glyphs {
-  key: "Dash Punctuation"
-  value: "- ‐"
+  key: "Marks"
+  value: "ᮀ ᮁ ᮂ ᮡ ᮢ ᮣ ᮤ ᮥ ᮦ ᮧ ᮨ ᮩ ᮪ ᮫ ᮬ ᮭ"
 }
 sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Sundanese Decimal Numbers"
+  key: "Numbers"
   value: "᮰ ᮱ ᮲ ᮳ ᮴ ᮵ ᮶ ᮷ ᮸ ᮹"
 }
 sample_glyphs {
-  key: "Sundanese Letters"
+  key: "Punctuation"
+  value: "᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇ - ‐"
+}
+sample_glyphs {
+  key: "Sundanese"
   value: "ᮃ ᮄ ᮅ ᮆ ᮇ ᮈ ᮉ ᮊ ᮋ ᮌ ᮍ ᮎ ᮏ ᮐ ᮑ ᮒ ᮓ ᮔ ᮕ ᮖ ᮗ ᮘ ᮙ ᮚ ᮛ ᮜ ᮝ ᮞ ᮟ ᮠ ᮮ ᮯ ᮺ ᮻ ᮼ ᮽ ᮾ ᮿ"
-}
-sample_glyphs {
-  key: "Sundanese Nonspacing Marks"
-  value: "ᮀ ᮁ ᮢ ᮣ ᮤ ᮥ ᮨ ᮩ ᮫ ᮬ ᮭ"
-}
-sample_glyphs {
-  key: "Sundanese Punctuation"
-  value: "᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇"
-}
-sample_glyphs {
-  key: "Sundanese Spacing Marks"
-  value: "ᮂ ᮡ ᮦ ᮧ ᮪"
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
 }

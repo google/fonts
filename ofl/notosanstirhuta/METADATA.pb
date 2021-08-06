@@ -17,58 +17,18 @@ subsets: "tirhuta"
 is_noto: true
 languages: "mai_Tirh"  # Maithili, Tirhuta
 sample_glyphs {
-  key: "Bengali Numbers"
-  value: "৴ ৵ ৶ ৷"
+  key: "Marks"
+  value: "𑒰 𑒱 𑒲 𑒳 𑒴 𑒵 𑒶 𑒷 𑒸 𑒹 𑒺 𑒻 𑒼 𑒽 𑒾 𑒿 𑓀 𑓁 𑓂 𑓃 ॑ ॒"
 }
 sample_glyphs {
-  key: "Currency Symbols"
-  value: "꠸"
+  key: "Numbers"
+  value: "৴ ৵ ৶ ৷ 𑓐 𑓑 𑓒 𑓓 𑓔 𑓕 𑓖 𑓗 𑓘 𑓙 ꠰ ꠱ ꠲ ꠳ ꠴ ꠵ ꠶ ꠷ ꠸ ꠹"
 }
 sample_glyphs {
-  key: "Letters"
-  value: "ᳲ"
+  key: "Punctuation"
+  value: "𑓆 । ॥"
 }
 sample_glyphs {
-  key: "Nonspacing Marks, Devanagari"
-  value: "॑ ॒"
-}
-sample_glyphs {
-  key: "Numbers, Common Indic Number Forms"
-  value: "꠰ ꠱ ꠲ ꠳ ꠴ ꠵"
-}
-sample_glyphs {
-  key: "Punctuation, Devanagari"
-  value: "। ॥"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Common Indic Number Forms"
-  value: "꠶ ꠷ ꠹"
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
-}
-sample_glyphs {
-  key: "Tirhuta Decimal Numbers"
-  value: "𑓐 𑓑 𑓒 𑓓 𑓔 𑓕 𑓖 𑓗 𑓘 𑓙"
-}
-sample_glyphs {
-  key: "Tirhuta Letters"
+  key: "Tirhuta"
   value: "𑒀 𑒁 𑒂 𑒃 𑒄 𑒅 𑒆 𑒇 𑒈 𑒉 𑒊 𑒋 𑒌 𑒍 𑒎 𑒏 𑒐 𑒑 𑒒 𑒓 𑒔 𑒕 𑒖 𑒗 𑒘 𑒙 𑒚 𑒛 𑒜 𑒝 𑒞 𑒟 𑒠 𑒡 𑒢 𑒣 𑒤 𑒥 𑒦 𑒧 𑒨 𑒩 𑒪 𑒫 𑒬 𑒭 𑒮 𑒯 𑓄 𑓅 𑓇"
-}
-sample_glyphs {
-  key: "Tirhuta Nonspacing Marks"
-  value: "𑒳 𑒴 𑒵 𑒶 𑒷 𑒸 𑒺 𑒿 𑓀 𑓂 𑓃"
-}
-sample_glyphs {
-  key: "Tirhuta Punctuation"
-  value: "𑓆"
-}
-sample_glyphs {
-  key: "Tirhuta Spacing Marks"
-  value: "𑒰 𑒱 𑒲 𑒹 𑒻 𑒼 𑒽 𑒾 𑓁"
 }

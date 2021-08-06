@@ -17,26 +17,14 @@ subsets: "siddham"
 is_noto: true
 languages: "sa_Sidd"  # Sanskrit, Siddham
 sample_glyphs {
-  key: "Siddham Letters"
-  value: "𑖀 𑖁 𑖂 𑖃 𑖄 𑖅 𑖆 𑖇 𑖈 𑖉 𑖊 𑖋 𑖌 𑖍 𑖎 𑖏 𑖐 𑖑 𑖒 𑖓 𑖔 𑖕 𑖖 𑖗 𑖘 𑖙 𑖚 𑖛 𑖜 𑖝 𑖞 𑖟 𑖠 𑖡 𑖢 𑖣 𑖤 𑖥 𑖦 𑖧 𑖨 𑖩 𑖪 𑖫 𑖬 𑖭 𑖮 𑗘 𑗙 𑗚 𑗛"
+  key: "Marks"
+  value: "𑖯 𑖰 𑖱 𑖲 𑖳 𑖴 𑖵 𑖸 𑖹 𑖺 𑖻 𑖼 𑖽 𑖾 𑖿 𑗀 𑗜 𑗝"
 }
 sample_glyphs {
-  key: "Siddham Nonspacing Marks"
-  value: "𑖲 𑖳 𑖴 𑖵 𑖼 𑖽 𑖿 𑗀 𑗜 𑗝"
-}
-sample_glyphs {
-  key: "Siddham Punctuation"
+  key: "Punctuation"
   value: "𑗁 𑗂 𑗃 𑗄 𑗅 𑗆 𑗇 𑗈 𑗉 𑗊 𑗋 𑗌 𑗍 𑗎 𑗏 𑗐 𑗑 𑗒 𑗓 𑗔 𑗕 𑗖 𑗗"
 }
 sample_glyphs {
-  key: "Siddham Spacing Marks"
-  value: "𑖯 𑖰 𑖱 𑖸 𑖹 𑖺 𑖻 𑖾"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
+  key: "Siddham"
+  value: "𑖀 𑖁 𑖂 𑖃 𑖄 𑖅 𑖆 𑖇 𑖈 𑖉 𑖊 𑖋 𑖌 𑖍 𑖎 𑖏 𑖐 𑖑 𑖒 𑖓 𑖔 𑖕 𑖖 𑖗 𑖘 𑖙 𑖚 𑖛 𑖜 𑖝 𑖞 𑖟 𑖠 𑖡 𑖢 𑖣 𑖤 𑖥 𑖦 𑖧 𑖨 𑖩 𑖪 𑖫 𑖬 𑖭 𑖮 𑗘 𑗙 𑗚 𑗛"
 }

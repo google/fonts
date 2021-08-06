@@ -17,30 +17,18 @@ subsets: "lepcha"
 is_noto: true
 languages: "lep_Lepc"  # Lepcha
 sample_glyphs {
-  key: "Lepcha Decimal Numbers"
-  value: "᱀ ᱁ ᱂ ᱃ ᱄ ᱅ ᱆ ᱇ ᱈ ᱉"
-}
-sample_glyphs {
-  key: "Lepcha Letters"
+  key: "Lepcha"
   value: "ᰀ ᰁ ᰂ ᰃ ᰄ ᰅ ᰆ ᰇ ᰈ ᰉ ᰊ ᰋ ᰌ ᰍ ᰎ ᰏ ᰐ ᰑ ᰒ ᰓ ᰔ ᰕ ᰖ ᰗ ᰘ ᰙ ᰚ ᰛ ᰜ ᰝ ᰞ ᰟ ᰠ ᰡ ᰢ ᰣ ᱍ ᱎ ᱏ"
 }
 sample_glyphs {
-  key: "Lepcha Nonspacing Marks"
-  value: "ᰬ ᰭ ᰮ ᰯ ᰰ ᰱ ᰲ ᰳ ᰶ ᰷"
+  key: "Marks"
+  value: "ᰤ ᰥ ᰦ ᰧ ᰨ ᰩ ᰪ ᰫ ᰬ ᰭ ᰮ ᰯ ᰰ ᰱ ᰲ ᰳ ᰴ ᰵ ᰶ ᰷"
 }
 sample_glyphs {
-  key: "Lepcha Punctuation"
+  key: "Numbers"
+  value: "᱀ ᱁ ᱂ ᱃ ᱄ ᱅ ᱆ ᱇ ᱈ ᱉"
+}
+sample_glyphs {
+  key: "Punctuation"
   value: "᰻ ᰼ ᰽ ᰾ ᰿"
-}
-sample_glyphs {
-  key: "Lepcha Spacing Marks"
-  value: "ᰤ ᰥ ᰦ ᰧ ᰨ ᰩ ᰪ ᰫ ᰴ ᰵ"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
 }

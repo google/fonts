@@ -34,50 +34,22 @@ languages: "sou_Thai"  # Southern Thai
 languages: "th_Thai"  # Thai
 languages: "tts_Thai"  # Northeastern Thai
 sample_glyphs {
-  key: "Currency Symbols"
-  value: "฿"
+  key: "Marks"
+  value: "ั ิ ี ึ ื ุ ู ฺ ็ ่ ้ ๊ ๋ ์ ํ ๎ ̃ ̱"
 }
 sample_glyphs {
-  key: "Dash Punctuation"
-  value: "- ‐"
-}
-sample_glyphs {
-  key: "Modifier Letters"
-  value: "ʼ"
-}
-sample_glyphs {
-  key: "Modifier Symbols"
-  value: "˗"
-}
-sample_glyphs {
-  key: "Nonspacing Marks, Combining Diacritical Marks (U+0300–0362)"
-  value: "̃ ̱"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
-}
-sample_glyphs {
-  key: "Thai Decimal Numbers"
+  key: "Numbers"
   value: "๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙"
 }
 sample_glyphs {
-  key: "Thai Letters"
-  value: "ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ า ำ เ แ โ ใ ไ ๅ"
+  key: "Punctuation"
+  value: "๏ ๚ ๛ - ‐"
 }
 sample_glyphs {
-  key: "Thai Modifier Letters"
-  value: "ๆ"
+  key: "Spacing Modifiers"
+  value: "˗"
 }
 sample_glyphs {
-  key: "Thai Nonspacing Marks"
-  value: "ั ิ ี ึ ื ุ ู ฺ ็ ่ ้ ๊ ๋ ์ ํ ๎"
-}
-sample_glyphs {
-  key: "Thai Punctuation"
-  value: "๏ ๚ ๛"
+  key: "Thai"
+  value: "ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ า ำ เ แ โ ใ ไ ๅ ๆ ฿"
 }

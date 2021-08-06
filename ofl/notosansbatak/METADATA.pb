@@ -17,26 +17,14 @@ subsets: "batak"
 is_noto: true
 languages: "bbc_Batk"  # Batak Toba, Batak
 sample_glyphs {
-  key: "Batak Letters"
+  key: "Batak"
   value: "ᯀ ᯁ ᯂ ᯃ ᯄ ᯅ ᯆ ᯇ ᯈ ᯉ ᯊ ᯋ ᯌ ᯍ ᯎ ᯏ ᯐ ᯑ ᯒ ᯓ ᯔ ᯕ ᯖ ᯗ ᯘ ᯙ ᯚ ᯛ ᯜ ᯝ ᯞ ᯟ ᯠ ᯡ ᯢ ᯣ ᯤ ᯥ"
 }
 sample_glyphs {
-  key: "Batak Nonspacing Marks"
-  value: "᯦ ᯨ ᯩ ᯭ ᯯ ᯰ ᯱ"
+  key: "Marks"
+  value: "᯦ ᯧ ᯨ ᯩ ᯪ ᯫ ᯬ ᯭ ᯮ ᯯ ᯰ ᯱ ᯲ ᯳"
 }
 sample_glyphs {
-  key: "Batak Punctuation"
+  key: "Punctuation"
   value: "᯼ ᯽ ᯾ ᯿"
-}
-sample_glyphs {
-  key: "Batak Spacing Marks"
-  value: "ᯧ ᯪ ᯫ ᯬ ᯮ ᯲ ᯳"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
 }

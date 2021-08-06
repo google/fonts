@@ -17,46 +17,18 @@ subsets: "kaithi"
 is_noto: true
 languages: "bho_Kthi"  # Bhojpuri, Kaithi
 sample_glyphs {
-  key: "Currency Symbols"
-  value: "꠸"
-}
-sample_glyphs {
-  key: "Dash Punctuation"
-  value: "- ‐"
-}
-sample_glyphs {
-  key: "Devanagari Decimal Numbers"
-  value: "० १ २ ३ ४ ५ ६ ७ ८ ९"
-}
-sample_glyphs {
-  key: "Kaithi Letters"
+  key: "Kaithi"
   value: "𑂃 𑂄 𑂅 𑂆 𑂇 𑂈 𑂉 𑂊 𑂋 𑂌 𑂍 𑂎 𑂏 𑂐 𑂑 𑂒 𑂓 𑂔 𑂕 𑂖 𑂗 𑂘 𑂙 𑂚 𑂛 𑂜 𑂝 𑂞 𑂟 𑂠 𑂡 𑂢 𑂣 𑂤 𑂥 𑂦 𑂧 𑂨 𑂩 𑂪 𑂫 𑂬 𑂭 𑂮 𑂯"
 }
 sample_glyphs {
-  key: "Kaithi Nonspacing Marks"
-  value: "𑂀 𑂁 𑂳 𑂴 𑂵 𑂶 𑂹 𑂺"
+  key: "Marks"
+  value: "𑂀 𑂁 𑂂 𑂰 𑂱 𑂲 𑂳 𑂴 𑂵 𑂶 𑂷 𑂸 𑂹 𑂺"
 }
 sample_glyphs {
-  key: "Kaithi Punctuation"
-  value: "𑂻 𑂼 𑂾 𑂿 𑃀 𑃁"
+  key: "Numbers"
+  value: "० १ २ ३ ४ ५ ६ ७ ८ ९ ꠰ ꠱ ꠲ ꠳ ꠴ ꠵ ꠶ ꠷ ꠸ ꠹"
 }
 sample_glyphs {
-  key: "Kaithi Spacing Marks"
-  value: "𑂂 𑂰 𑂱 𑂲 𑂷 𑂸"
-}
-sample_glyphs {
-  key: "Numbers, Common Indic Number Forms"
-  value: "꠰ ꠱ ꠲ ꠳ ꠴ ꠵"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Common Indic Number Forms"
-  value: "꠶ ꠷ ꠹"
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
+  key: "Punctuation"
+  value: "𑂻 𑂼 𑂾 𑂿 𑃀 𑃁 - ‐"
 }

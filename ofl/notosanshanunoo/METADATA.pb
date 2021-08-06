@@ -17,22 +17,14 @@ subsets: "hanunoo"
 is_noto: true
 languages: "hnn_Hano"  # Hanunoo, Hanunoo
 sample_glyphs {
-  key: "Hanunoo Letters"
+  key: "Hanunoo"
   value: "ᜠ ᜡ ᜢ ᜣ ᜤ ᜥ ᜦ ᜧ ᜨ ᜩ ᜪ ᜫ ᜬ ᜭ ᜮ ᜯ ᜰ ᜱ"
 }
 sample_glyphs {
-  key: "Hanunoo Nonspacing Marks"
+  key: "Marks"
   value: "ᜲ ᜳ ᜴"
 }
 sample_glyphs {
-  key: "Punctuation, Hanunoo"
+  key: "Punctuation"
   value: "᜵ ᜶"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
 }

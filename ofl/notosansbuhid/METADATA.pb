@@ -17,22 +17,14 @@ subsets: "buhid"
 is_noto: true
 languages: "bku_Buhd"  # Buhid, Buhid
 sample_glyphs {
-  key: "Buhid Letters"
+  key: "Buhid"
   value: "ᝀ ᝁ ᝂ ᝃ ᝄ ᝅ ᝆ ᝇ ᝈ ᝉ ᝊ ᝋ ᝌ ᝍ ᝎ ᝏ ᝐ ᝑ"
 }
 sample_glyphs {
-  key: "Buhid Nonspacing Marks"
+  key: "Marks"
   value: "ᝒ ᝓ"
 }
 sample_glyphs {
-  key: "Punctuation, Hanunoo"
+  key: "Punctuation"
   value: "᜵ ᜶"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
 }

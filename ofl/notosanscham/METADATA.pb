@@ -23,46 +23,18 @@ is_noto: true
 languages: "cja_Cham"  # Western Cham, Cham
 languages: "cjm_Cham"  # Eastern Cham
 sample_glyphs {
-  key: "Cham Decimal Numbers"
-  value: "꩐ ꩑ ꩒ ꩓ ꩔ ꩕ ꩖ ꩗ ꩘ ꩙"
-}
-sample_glyphs {
-  key: "Cham Letters"
+  key: "Cham"
   value: "ꨀ ꨁ ꨂ ꨃ ꨄ ꨅ ꨆ ꨇ ꨈ ꨉ ꨊ ꨋ ꨌ ꨍ ꨎ ꨏ ꨐ ꨑ ꨒ ꨓ ꨔ ꨕ ꨖ ꨗ ꨘ ꨙ ꨚ ꨛ ꨜ ꨝ ꨞ ꨟ ꨠ ꨡ ꨢ ꨣ ꨤ ꨥ ꨦ ꨧ ꨨ ꩀ ꩁ ꩂ ꩄ ꩅ ꩆ ꩇ ꩈ ꩉ ꩊ ꩋ"
 }
 sample_glyphs {
-  key: "Cham Nonspacing Marks"
-  value: "ꨩ ꨪ ꨫ ꨬ ꨭ ꨮ ꨱ ꨲ ꨵ ꨶ ꩃ ꩌ"
+  key: "Marks"
+  value: "ꨩ ꨪ ꨫ ꨬ ꨭ ꨮ ꨯ ꨰ ꨱ ꨲ ꨳ ꨴ ꨵ ꨶ ꩃ ꩌ ꩍ"
 }
 sample_glyphs {
-  key: "Cham Punctuation"
-  value: "꩜ ꩝ ꩞ ꩟"
+  key: "Numbers"
+  value: "꩐ ꩑ ꩒ ꩓ ꩔ ꩕ ꩖ ꩗ ꩘ ꩙"
 }
 sample_glyphs {
-  key: "Cham Spacing Marks"
-  value: "ꨯ ꨰ ꨳ ꨴ ꩍ"
-}
-sample_glyphs {
-  key: "Close Punctuation"
-  value: ")"
-}
-sample_glyphs {
-  key: "Dash Punctuation"
-  value: "- ‐"
-}
-sample_glyphs {
-  key: "Open Punctuation"
-  value: "("
-}
-sample_glyphs {
-  key: "Punctuation, Basic Latin"
-  value: "! \" \' , . / : ; ?"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
+  key: "Punctuation"
+  value: "꩜ ꩝ ꩞ ꩟ ! \" \' ( ) , - . / : ; ? ‐"
 }

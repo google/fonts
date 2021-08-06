@@ -28,7 +28,7 @@ is_noto: true
 languages: "as_Beng"  # Assamese
 languages: "bn_Beng"  # Bengali
 languages: "bpy_Beng"  # Bishnupriya
-languages: "ccp_Beng"  # Chakma
+languages: "ccp_Beng"  # Chakma, Bengali
 languages: "grt_Beng"  # Garo
 languages: "kha_Beng"  # Khasi, Bengali
 languages: "mni_Beng"  # Manipuri
@@ -38,130 +38,30 @@ languages: "syl_Beng"  # Sylheti
 languages: "unr_Beng"  # Mundari
 languages: "unx_Beng"  # Munda
 sample_glyphs {
-  key: "Bengali Currency Symbols"
-  value: "৲ ৳ ৻"
+  key: "Bengali"
+  value: "ঀ অ আ ই ঈ উ ঊ ঋ ঌ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ ৎ ড় ঢ় য় ৠ ৡ ৰ ৱ ৼ ৲ ৳ ৺ ৻"
 }
 sample_glyphs {
-  key: "Bengali Decimal Numbers"
-  value: "০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯"
-}
-sample_glyphs {
-  key: "Bengali Letters"
-  value: "ঀ অ আ ই ঈ উ ঊ ঋ ঌ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ ৎ ড় ঢ় য় ৠ ৡ ৰ ৱ ৼ"
-}
-sample_glyphs {
-  key: "Bengali Nonspacing Marks"
-  value: "ঁ ় ু ূ ৃ ৄ ্ ৢ ৣ ৾"
-}
-sample_glyphs {
-  key: "Bengali Numbers"
-  value: "৴ ৵ ৶ ৷ ৸ ৹"
-}
-sample_glyphs {
-  key: "Bengali Punctuation"
-  value: "৽"
-}
-sample_glyphs {
-  key: "Bengali Spacing Marks"
-  value: "ং ঃ া ি ী ে ৈ ো ৌ ৗ"
-}
-sample_glyphs {
-  key: "Bengali Symbols"
-  value: "৺"
-}
-sample_glyphs {
-  key: "Close Punctuation"
-  value: ") ] }"
-}
-sample_glyphs {
-  key: "Connector Punctuation"
-  value: "_"
+  key: "Common Latin"
+  value: "+ < = > ^ | ~ × ÷"
 }
 sample_glyphs {
   key: "Currency Symbols"
   value: "₹"
 }
 sample_glyphs {
-  key: "Dash Punctuation"
-  value: "- ‐ – —"
+  key: "Marks"
+  value: "꣱ ঁ ং ঃ ় া ি ী ু ূ ৃ ৄ ে ৈ ো ৌ ্ ৗ ৢ ৣ ৾ ॑ ॒ ᳐ ᳒ ᳕ ᳖ ᳘ ᳭ ᳡ ᳷"
 }
 sample_glyphs {
-  key: "Devanagari Nonspacing Marks"
-  value: "꣱"
-}
-sample_glyphs {
-  key: "Emoji Decimal Numbers"
-  value: "0 1 2 3 4 5 6 7 8 9"
-}
-sample_glyphs {
-  key: "Emoji Punctuation"
-  value: "# *"
-}
-sample_glyphs {
-  key: "Final Punctuation"
-  value: "’ ”"
-}
-sample_glyphs {
-  key: "Initial Punctuation"
-  value: "‘ “"
-}
-sample_glyphs {
-  key: "Letters"
-  value: "ᳪ ᳲ ᳵ ᳶ"
-}
-sample_glyphs {
-  key: "Mathematical Modifier Symbols"
-  value: "^"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Basic Latin"
-  value: "+ < = > | ~"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Latin 1 Supplement"
-  value: "× ÷"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Operators (U+2200–2262)"
+  key: "Math Operators"
   value: "−"
 }
 sample_glyphs {
-  key: "Modifier Letters"
-  value: "ʼ"
+  key: "Numbers"
+  value: "০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ ৴ ৵ ৶ ৷ ৸ ৹ 0 1 2 3 4 5 6 7 8 9"
 }
 sample_glyphs {
-  key: "Nonspacing Marks, Devanagari"
-  value: "॑ ॒"
-}
-sample_glyphs {
-  key: "Nonspacing Marks, Vedic Extensions"
-  value: "᳐ ᳒ ᳕ ᳖ ᳘ ᳭"
-}
-sample_glyphs {
-  key: "Open Punctuation"
-  value: "( [ {"
-}
-sample_glyphs {
-  key: "Punctuation, Basic Latin"
-  value: "! \" % \' , . / : ; ? \\"
-}
-sample_glyphs {
-  key: "Punctuation, Devanagari"
-  value: "। ॥"
-}
-sample_glyphs {
-  key: "Punctuation, General"
-  value: "…"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Spacing Marks"
-  value: "᳡ ᳷"
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
+  key: "Punctuation"
+  value: "৽ ! \" % \' ( ) , - . / : ; ? [ \\ ] _ { } । ॥ ‐ – — ‘ ’ “ ” … # *"
 }

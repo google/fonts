@@ -17,26 +17,14 @@ subsets: "glagolitic"
 is_noto: true
 languages: "cu_Glag"  # Church Slavic, Glagolitic
 sample_glyphs {
-  key: "Cyrillic Nonspacing Marks"
-  value: "҄ ҇ ꙯"
-}
-sample_glyphs {
-  key: "Glagolitic Lowercase Letters"
+  key: "Glagolitic Lowercase"
   value: "ⰰ ⰱ ⰲ ⰳ ⰴ ⰵ ⰶ ⰷ ⰸ ⰹ ⰺ ⰻ ⰼ ⰽ ⰾ ⰿ ⱀ ⱁ ⱂ ⱃ ⱄ ⱅ ⱆ ⱇ ⱈ ⱉ ⱊ ⱋ ⱌ ⱍ ⱎ ⱏ ⱐ ⱑ ⱒ ⱓ ⱔ ⱕ ⱖ ⱗ ⱘ ⱙ ⱚ ⱛ ⱜ ⱝ ⱞ"
 }
 sample_glyphs {
-  key: "Glagolitic Nonspacing Marks"
-  value: "𞀀 𞀁 𞀂 𞀃 𞀄 𞀅 𞀆 𞀈 𞀉 𞀊 𞀋 𞀌 𞀍 𞀎 𞀏 𞀐 𞀑 𞀒 𞀓 𞀔 𞀕 𞀖 𞀗 𞀘 𞀛 𞀜 𞀝 𞀞 𞀟 𞀠 𞀡 𞀣 𞀤 𞀦 𞀧 𞀨 𞀩 𞀪"
-}
-sample_glyphs {
-  key: "Glagolitic Uppercase Letters"
+  key: "Glagolitic Uppercase"
   value: "Ⰰ Ⰱ Ⰲ Ⰳ Ⰴ Ⰵ Ⰶ Ⰷ Ⰸ Ⰹ Ⰺ Ⰻ Ⰼ Ⰽ Ⰾ Ⰿ Ⱀ Ⱁ Ⱂ Ⱃ Ⱄ Ⱅ Ⱆ Ⱇ Ⱈ Ⱉ Ⱊ Ⱋ Ⱌ Ⱍ Ⱎ Ⱏ Ⱐ Ⱑ Ⱒ Ⱓ Ⱔ Ⱕ Ⱖ Ⱗ Ⱘ Ⱙ Ⱚ Ⱛ Ⱜ Ⱝ Ⱞ"
 }
 sample_glyphs {
-  key: "Nonspacing Marks, Combining Diacritical Marks (U+0300–0362)"
-  value: "̃ ̅"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
+  key: "Marks"
+  value: "҄ ҇ ꙯ 𞀀 𞀁 𞀂 𞀃 𞀄 𞀅 𞀆 𞀈 𞀉 𞀊 𞀋 𞀌 𞀍 𞀎 𞀏 𞀐 𞀑 𞀒 𞀓 𞀔 𞀕 𞀖 𞀗 𞀘 𞀛 𞀜 𞀝 𞀞 𞀟 𞀠 𞀡 𞀣 𞀤 𞀦 𞀧 𞀨 𞀩 𞀪 ̃ ̅"
 }

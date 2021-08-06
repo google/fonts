@@ -17,26 +17,14 @@ subsets: "mandaic"
 is_noto: true
 languages: "myz_Mand"  # Mandaic
 sample_glyphs {
-  key: "Mandaic Letters"
+  key: "Mandaic"
   value: "ࡀ ࡁ ࡂ ࡃ ࡄ ࡅ ࡆ ࡇ ࡈ ࡉ ࡊ ࡋ ࡌ ࡍ ࡎ ࡏ ࡐ ࡑ ࡒ ࡓ ࡔ ࡕ ࡖ ࡗ ࡘ"
 }
 sample_glyphs {
-  key: "Mandaic Nonspacing Marks"
+  key: "Marks"
   value: "࡙ ࡚ ࡛"
 }
 sample_glyphs {
-  key: "Mandaic Punctuation"
+  key: "Punctuation"
   value: "࡞"
-}
-sample_glyphs {
-  key: "Modifier Letters"
-  value: "ـ"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
 }

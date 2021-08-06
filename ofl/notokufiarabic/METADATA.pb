@@ -88,86 +88,18 @@ languages: "uz_Arab"  # Uzbek (Arabic)
 languages: "wo_Arab"  # Wolof, Perso-Arabic
 languages: "zdj_Arab"  # Ngazidja Comorian
 sample_glyphs {
-  key: "Arabic Currency Symbols"
-  value: "؋ ﷼"
+  key: "Arabic"
+  value: "ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٮ ٯ ٱ ٲ ٳ ٵ ٶ ٷ ٸ ٹ ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڂ ڃ ڄ څ چ ڇ ڈ ډ ڊ ڋ ڌ ڍ ڎ ڏ ڐ ڑ ڒ ړ ڔ ڕ ږ ڗ ژ ڙ ښ ڛ ڜ ڝ ڞ ڟ ڠ ڡ ڢ ڣ ڤ ڥ ڦ ڧ ڨ ک ڪ ګ ڬ ڭ ڮ گ ڰ ڱ ڲ ڳ ڴ ڵ ڶ ڷ ڸ ڹ ں ڻ ڼ ڽ ھ ڿ ۀ ہ ۂ ۃ ۄ ۅ ۆ ۇ ۈ ۉ ۊ ۋ ی ۍ ێ ۏ ې ۑ ے ۓ ە ۥ ۦ ۮ ۯ ۺ ۻ ۼ ۿ ݐ ݑ ݒ ݓ ݔ ݕ ݖ ݗ ݘ ݙ ݚ ݛ ݜ ݝ ݞ ݟ ݠ ݡ ݢ ݣ ݤ ݥ ݦ ݧ ݨ ݩ ݪ ݫ ݬ ݭ ﭪ ﭫ ﭬ ﭭ ﱣ ﷲ ﹰ ﹲ ﹴ ﹶ ﹸ ﹺ ﹼ ﹾ ؋ ؎ ؏ ۞ ۩ ۽ ۾ ﷼"
 }
 sample_glyphs {
-  key: "Arabic Decimal Numbers"
-  value: "٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹"
+  key: "Marks"
+  value: "ؐ ؑ ؒ ؓ ؔ ؕ ٖ ٗ ٘ ٙ ٚ ٛ ٜ ٝ ٞ ٟ ۖ ۗ ۘ ۙ ۚ ۛ ۜ ۟ ۠ ۡ ۢ ۣ ۤ ۧ ۨ ۪ ۫ ۭ ً ٌ ٍ َ ُ ِ ّ ْ ٓ ٔ ٕ ٰ"
 }
 sample_glyphs {
-  key: "Arabic Letters (U+0620–06A7)"
-  value: "ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٮ ٯ ٱ ٲ ٳ ٵ ٶ ٷ ٸ ٹ ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڂ ڃ ڄ څ چ ڇ ڈ ډ ڊ ڋ ڌ ڍ ڎ ڏ ڐ ڑ ڒ ړ ڔ ڕ ږ ڗ ژ ڙ ښ ڛ ڜ ڝ ڞ ڟ ڠ ڡ ڢ ڣ ڤ ڥ ڦ ڧ"
+  key: "Numbers"
+  value: "٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9"
 }
 sample_glyphs {
-  key: "Arabic Letters (U+06A8–06FF)"
-  value: "ڨ ک ڪ ګ ڬ ڭ ڮ گ ڰ ڱ ڲ ڳ ڴ ڵ ڶ ڷ ڸ ڹ ں ڻ ڼ ڽ ھ ڿ ۀ ہ ۂ ۃ ۄ ۅ ۆ ۇ ۈ ۉ ۊ ۋ ی ۍ ێ ۏ ې ۑ ے ۓ ە ۮ ۯ ۺ ۻ ۼ ۿ"
-}
-sample_glyphs {
-  key: "Arabic Letters, Presentation Forms A (U+FB50–FBD3)"
-  value: "ﭪ ﭫ ﭬ ﭭ"
-}
-sample_glyphs {
-  key: "Arabic Letters, Presentation Forms A (U+FC37–FC99)"
-  value: "ﱣ"
-}
-sample_glyphs {
-  key: "Arabic Letters, Presentation Forms A (U+FD72–FDFB)"
-  value: "ﷲ"
-}
-sample_glyphs {
-  key: "Arabic Letters, Presentation Forms B (U+FE70–FED3)"
-  value: "ﹰ ﹲ ﹴ ﹶ ﹸ ﹺ ﹼ ﹾ"
-}
-sample_glyphs {
-  key: "Arabic Letters, Supplement"
-  value: "ݐ ݑ ݒ ݓ ݔ ݕ ݖ ݗ ݘ ݙ ݚ ݛ ݜ ݝ ݞ ݟ ݠ ݡ ݢ ݣ ݤ ݥ ݦ ݧ ݨ ݩ ݪ ݫ ݬ ݭ"
-}
-sample_glyphs {
-  key: "Arabic Modifier Letters"
-  value: "ۥ ۦ"
-}
-sample_glyphs {
-  key: "Arabic Nonspacing Marks"
-  value: "ؐ ؑ ؒ ؓ ؔ ؕ ٖ ٗ ٘ ٙ ٚ ٛ ٜ ٝ ٞ ٟ ۖ ۗ ۘ ۙ ۚ ۛ ۜ ۟ ۠ ۡ ۢ ۣ ۤ ۧ ۨ ۪ ۫ ۭ"
-}
-sample_glyphs {
-  key: "Arabic Punctuation"
-  value: "؍ ؞ ٪ ٫ ٬ ٭ ۔"
-}
-sample_glyphs {
-  key: "Arabic Symbols"
-  value: "؎ ؏ ۞ ۩ ۽ ۾"
-}
-sample_glyphs {
-  key: "Close Punctuation"
-  value: "﴾"
-}
-sample_glyphs {
-  key: "Emoji Decimal Numbers"
-  value: "0 1 2 3 4 5 6 7 8 9"
-}
-sample_glyphs {
-  key: "Modifier Letters"
-  value: "ـ"
-}
-sample_glyphs {
-  key: "Nonspacing Marks, Arabic"
-  value: "ً ٌ ٍ َ ُ ِ ّ ْ ٓ ٔ ٕ ٰ"
-}
-sample_glyphs {
-  key: "Open Punctuation"
-  value: "﴿"
-}
-sample_glyphs {
-  key: "Punctuation, Arabic"
-  value: "، ؛ ؟"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
+  key: "Punctuation"
+  value: "؍ ؞ ٪ ٫ ٬ ٭ ۔ ، ؛ ؟ ﴾ ﴿"
 }

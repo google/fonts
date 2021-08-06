@@ -36,34 +36,18 @@ sample_glyphs {
   value: "₪"
 }
 sample_glyphs {
-  key: "Dash Punctuation"
-  value: "- ‐"
-}
-sample_glyphs {
-  key: "Hebrew Dash Punctuation"
-  value: "־"
-}
-sample_glyphs {
-  key: "Hebrew Letters"
+  key: "Hebrew"
   value: "א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ יִ ײַ ﬠ ﬡ ﬢ ﬣ ﬤ ﬥ ﬦ ﬧ ﬨ שׁ שׂ שּׁ שּׂ אַ אָ אּ בּ גּ דּ הּ וּ זּ טּ יּ ךּ כּ לּ מּ נּ סּ ףּ פּ צּ קּ רּ שּ תּ וֹ בֿ כֿ פֿ ﭏ"
 }
 sample_glyphs {
-  key: "Hebrew Nonspacing Marks"
+  key: "Marks"
   value: "֑ ֒ ֓ ֔ ֕ ֖ ֗ ֘ ֙ ֚ ֛ ֜ ֝ ֞ ֟ ֠ ֡ ֢ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֺ ֻ ּ ֽ ֿ ׁ ׂ ׄ ׅ ׇ ﬞ"
 }
 sample_glyphs {
-  key: "Hebrew Punctuation"
-  value: "׀ ׃ ׆ ׳ ״"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Alphabetic Presentation Forms"
+  key: "Misc Symbols"
   value: "﬩"
 }
 sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
+  key: "Punctuation"
+  value: "־ ׀ ׃ ׆ ׳ ״ - ‐"
 }

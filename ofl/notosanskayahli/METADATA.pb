@@ -23,34 +23,18 @@ is_noto: true
 languages: "eky_Kali"  # Eastern Kayah
 languages: "kyu_Kali"  # Western Kayah
 sample_glyphs {
-  key: "Dash Punctuation"
-  value: "- ‐"
-}
-sample_glyphs {
-  key: "Kayah Li Decimal Numbers"
-  value: "꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉"
-}
-sample_glyphs {
-  key: "Kayah Li Letters"
+  key: "Kayah Li"
   value: "ꤊ ꤋ ꤌ ꤍ ꤎ ꤏ ꤐ ꤑ ꤒ ꤓ ꤔ ꤕ ꤖ ꤗ ꤘ ꤙ ꤚ ꤛ ꤜ ꤝ ꤞ ꤟ ꤠ ꤡ ꤢ ꤣ ꤤ ꤥ"
 }
 sample_glyphs {
-  key: "Kayah Li Nonspacing Marks"
+  key: "Marks"
   value: "ꤦ ꤧ ꤨ ꤩ ꤪ ꤫ ꤬ ꤭"
 }
 sample_glyphs {
-  key: "Kayah Li Punctuation"
-  value: "꤯"
+  key: "Numbers"
+  value: "꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉"
 }
 sample_glyphs {
-  key: "Punctuation, Kayah Li"
-  value: "꤮"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
+  key: "Punctuation"
+  value: "꤯ - ‐ ꤮"
 }

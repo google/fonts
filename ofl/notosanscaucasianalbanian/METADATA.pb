@@ -17,30 +17,14 @@ subsets: "caucasian-albanian"
 is_noto: true
 languages: "lez_Aghb"  # Lezghian, Caucasian Albanian
 sample_glyphs {
-  key: "Caucasian Albanian Letters"
+  key: "Caucasian Albanian"
   value: "𐔰 𐔱 𐔲 𐔳 𐔴 𐔵 𐔶 𐔷 𐔸 𐔹 𐔺 𐔻 𐔼 𐔽 𐔾 𐔿 𐕀 𐕁 𐕂 𐕃 𐕄 𐕅 𐕆 𐕇 𐕈 𐕉 𐕊 𐕋 𐕌 𐕍 𐕎 𐕏 𐕐 𐕑 𐕒 𐕓 𐕔 𐕕 𐕖 𐕗 𐕘 𐕙 𐕚 𐕛 𐕜 𐕝 𐕞 𐕟 𐕠 𐕡 𐕢 𐕣"
 }
 sample_glyphs {
-  key: "Caucasian Albanian Punctuation"
+  key: "Marks"
+  value: "︮ ︯ ̄ ̱ ︠ ︡ ︢ ︣ ︤ ︥ ︦ ︧ ︨ ︩ ︪ ︫ ︬ ︭"
+}
+sample_glyphs {
+  key: "Punctuation"
   value: "𐕯"
-}
-sample_glyphs {
-  key: "Cyrillic Nonspacing Marks"
-  value: "︮ ︯"
-}
-sample_glyphs {
-  key: "Nonspacing Marks, Combining Diacritical Marks (U+0300–0362)"
-  value: "̄ ̱"
-}
-sample_glyphs {
-  key: "Nonspacing Marks, Combining Half Marks"
-  value: "︠ ︡ ︢ ︣ ︤ ︥ ︦ ︧ ︨ ︩ ︪ ︫ ︬ ︭"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
 }

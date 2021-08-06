@@ -67,651 +67,179 @@ languages: "yue_Hant"  # Cantonese
 languages: "zh_Hans"  # Simplified Chinese
 languages: "zh_Hant"  # Chinese (Traditional)
 sample_glyphs {
-  key: "Bopomofo Letters"
-  value: "ㄅ ㄆ ㄇ ㄈ ㄉ ㄊ ㄋ ㄌ ㄍ ㄎ ㄏ ㄐ ㄑ ㄒ ㄓ ㄔ ㄕ ㄖ ㄗ ㄘ ㄙ ㄚ ㄛ ㄜ ㄝ ㄞ ㄟ ㄠ ㄡ ㄢ ㄣ ㄤ ㄥ ㄦ ㄧ ㄨ ㄩ ㄪ ㄫ ㄬ ㄭ ㄮ ㄯ ㆠ ㆡ ㆢ ㆣ ㆤ ㆥ ㆦ ㆧ ㆨ ㆩ ㆪ ㆫ ㆬ ㆭ ㆮ ㆯ ㆰ ㆱ ㆲ ㆳ ㆴ ㆵ ㆶ ㆷ ㆸ ㆹ ㆺ ㆻ"
-}
-sample_glyphs {
-  key: "Bopomofo Modifier Symbols"
-  value: "˪ ˫"
-}
-sample_glyphs {
-  key: "Close Punctuation"
-  value: ") ] } 〉 〉 》 」 』 】 〕 〗 〙 〛 〞 〟 ︘ ︶ ︸ ︺ ︼ ︾ ﹀ ﹂ ﹄ ﹈ ﹚ ﹜ ﹞ ） ］ ｝ ｠ ｣"
-}
-sample_glyphs {
-  key: "Connector Punctuation"
-  value: "_ ︳ ︴ ﹍ ﹎ ﹏ ＿"
-}
-sample_glyphs {
-  key: "Currency Symbols"
-  value: "$ ¢ £ ¤ ¥ ₩ ₫ € ﹩ ＄ ￠ ￡ ￥ ￦"
-}
-sample_glyphs {
-  key: "Cyrillic Lowercase Letters (U+0430–04CE)"
-  value: "а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё"
-}
-sample_glyphs {
-  key: "Cyrillic Uppercase Letters (U+0400–04CB)"
-  value: "Ё А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я"
-}
-sample_glyphs {
-  key: "Dash Punctuation"
-  value: "- ‐ ‑ ‒ – — ― ⸺ ⸻ 〜 ゠ ︱ ︲ ﹘ －"
-}
-sample_glyphs {
-  key: "Decimal Numbers"
-  value: "０ １ ２ ３ ４ ５ ６ ７ ８ ９"
-}
-sample_glyphs {
-  key: "Emoji Dash Punctuation"
-  value: "〰"
-}
-sample_glyphs {
-  key: "Emoji Decimal Numbers"
-  value: "0 1 2 3 4 5 6 7 8 9"
-}
-sample_glyphs {
-  key: "Emoji Mathematical Symbols"
-  value: "↔ ⤴ ⤵"
-}
-sample_glyphs {
-  key: "Emoji Punctuation"
-  value: "# * ‼ ⁉ 〽"
-}
-sample_glyphs {
-  key: "Emoji Symbols (U+23E9–1F6AB)"
-  value: "🆎 🆑 🆒 🆓 🆔 🆕 🆖 🆗 🆘 🆙 🆚 🈁 🈚 🈯 🈲 🈳 🈴 🈵 🈶 🈸 🈹 🈺 🉐 🉑"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Activities"
+  key: "Activities"
   value: "⚽ ⚾"
 }
 sample_glyphs {
-  key: "Emoji Symbols, Arrows"
-  value: "↕ ↖ ↗ ↘ ↙"
+  key: "Arrows"
+  value: "↸ ↹ ⇦ ⇧ ⇨ ⇩ ← ↑ → ↓ ⇄ ⇅ ⇆ ⇋ ⇌ ⇐ ⇒ ⇔ ⇵ ↔ ↕ ↖ ↗ ↘ ↙ ⤴ ⤵"
 }
 sample_glyphs {
-  key: "Emoji Symbols, Dingbats"
-  value: "✂ ➡"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Enclosed Alphanumeric Supplement"
-  value: "🅰 🅱 🅾 🅿"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Enclosed Alphanumerics"
-  value: "Ⓜ"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Enclosed CJK Letters and Months"
-  value: "㊗ ㊙"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Enclosed Ideographic Supplement"
-  value: "🈂 🈷"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Geometric Shapes"
-  value: "▪ ▫ ▶ ◀"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Latin 1 Supplement"
-  value: "© ®"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Letterlike"
-  value: "™"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Miscellaneous"
-  value: "☀ ☁ ☂ ☃ ☎ ☝ ☯ ♀ ♂ ♠ ♣ ♥ ♦ ♨ ♻ ⚠"
-}
-sample_glyphs {
-  key: "Emoji Symbols, Miscellaneous and Arrows"
-  value: "⬅ ⬆ ⬇"
-}
-sample_glyphs {
-  key: "Enclosing Marks"
-  value: "⃝ ⃞"
-}
-sample_glyphs {
-  key: "Final Punctuation"
-  value: "» ’ ” ›"
-}
-sample_glyphs {
-  key: "Greek Lowercase Letters, and Coptic"
-  value: "α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω"
-}
-sample_glyphs {
-  key: "Greek Uppercase Letters, Letterlike Symbols"
-  value: "Ω"
-}
-sample_glyphs {
-  key: "Greek Uppercase Letters, and Coptic"
-  value: "Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω"
-}
-sample_glyphs {
-  key: "Han CJK Compatibility Ideographs (U+F900–F962)"
-  value: "豈 更 車 賈 滑 串 句 龜 龜 喇 奈 懶 洛 珞 駱 濫 來 老 路 鷺 弄 磊 賂 壘 勒 丹 異"
-}
-sample_glyphs {
-  key: "Han CJK Compatibility Ideographs (U+F963–F9C5)"
-  value: "便 不 省 沈 略 兩 凉 糧 量 呂 閭 力 年 秊 列 劣 烈 例 僚 尿 料 暈"
-}
-sample_glyphs {
-  key: "Han CJK Compatibility Ideographs (U+F9C6–FA28)"
-  value: "阮 杻 類 律 慄 隆 利 吏 易 梨 泥 理 裏 里 林 淋 狀 什 刺 拓 洞 暴 輻 行 見 兀 嗀"
-}
-sample_glyphs {
-  key: "Han CJK Compatibility Ideographs (U+FA29–FA8D)"
-  value: "勉 勤 卑 墨 爫 碑 艹 艹"
-}
-sample_glyphs {
-  key: "Han CJK Compatibility Ideographs Supplement (U+2F800–2F862)"
-  value: "勇 吆 咢"
-}
-sample_glyphs {
-  key: "Han CJK Compatibility Ideographs Supplement (U+2F863–2F8C5)"
-  value: "屮 弢 慈"
-}
-sample_glyphs {
-  key: "Han CJK Compatibility Ideographs Supplement (U+2F8C6–2F928)"
-  value: "晉 杞"
-}
-sample_glyphs {
-  key: "Han CJK Compatibility Ideographs Supplement (U+2F98C–2F9EE)"
-  value: "芳 䕫 蜨 貫"
-}
-sample_glyphs {
-  key: "Han CJK Radicals Supplement (U+2E80–2EE3)"
-  value: "⺀ ⺁ ⺂ ⺃ ⺄ ⺅ ⺆ ⺇ ⺈ ⺉ ⺊ ⺋ ⺌ ⺍ ⺎ ⺏ ⺐ ⺑ ⺒ ⺓ ⺔ ⺕ ⺖ ⺗ ⺘ ⺙ ⺛ ⺜ ⺝ ⺞ ⺟ ⺠ ⺡ ⺢ ⺣ ⺤ ⺥ ⺦ ⺧ ⺨ ⺩ ⺪ ⺫ ⺬ ⺭ ⺮ ⺯ ⺰ ⺱ ⺲ ⺳ ⺴ ⺵ ⺶ ⺷ ⺸ ⺹ ⺺ ⺻ ⺼ ⺽ ⺾ ⺿ ⻀ ⻁ ⻂ ⻃ ⻄ ⻅ ⻆ ⻇ ⻈ ⻉ ⻊ ⻋ ⻌ ⻍ ⻎ ⻏ ⻐ ⻑ ⻒ ⻓ ⻔ ⻕ ⻖ ⻗ ⻘ ⻙ ⻚ ⻛ ⻜ ⻝ ⻞ ⻟ ⻠ ⻡ ⻢ ⻣"
-}
-sample_glyphs {
-  key: "Han CJK Radicals Supplement (U+2EE4–2EF3)"
-  value: "⻤ ⻥ ⻦ ⻧ ⻨ ⻩ ⻪ ⻫ ⻬ ⻭ ⻮ ⻯ ⻰ ⻱ ⻲ ⻳"
-}
-sample_glyphs {
-  key: "Han Ideographs (U+4E00–4E62)"
-  value: "一 丁 七 丄 万 丈 三 上 下 丌 不 与 丏 丐 丑 且 丕 世 丘 丙 业 东 丞 丟 両 丢 两 並 丨 个 丫 丬 中 丮 丯 丰 丱 串 丳 丶 丷 丸 丹 主 丼 丽 丿 乂 乃 久 乇 么 义 之 乍 乎 乏 乒 乓 乖 乘 乙 乚 乛 乜 九 乞 也"
-}
-sample_glyphs {
-  key: "Han Ideographs (U+5871–58D3)"
-  value: "塱 塲 塳 塴 塵 塶 塹 塺 塻 塼 塽 塾 塿 墀 墁 墂 境 墅 墆 墇 墈 墉 墊 墋 墎 墏 墐 墑 墒 墓 墔 墖 墘 墙 墚 墜 墝 增 墟 墠 墡 墣 墥 墦 墧 墨 墩 墪 墫 墬 墮 墯 墰 墱 墳 墵 墶 墺 墻 墼 墽 墾 墿 壁 壂 壅 壆 壇 壈 壉 壋 壎 壏 壐 壑 壒 壓"
-}
-sample_glyphs {
-  key: "Han Ideographs (U+7449–74AB)"
-  value: "瑉 瑊 瑋 瑌 瑍 瑎 瑏 瑐 瑑 瑒 瑓 瑔 瑕 瑖 瑗 瑙 瑚 瑛 瑜 瑝 瑞 瑟 瑠 瑡 瑢 瑣 瑤 瑥 瑧 瑨 瑩 瑪 瑫 瑬 瑭 瑮 瑯 瑰 瑱 瑲 瑳 瑴 瑵 瑶 瑹 瑺 瑼 瑽 瑾 瑿 璀 璁 璂 璃 璅 璆 璇 璈 璉 璊 璋 璌 璍 璐 璒 璔 璕 璗 璘 璙 璚 璛 璜 璝 璞 璟 璠 璡 璣 璤 璥 璦 璧 璨 璩 璪 璫"
-}
-sample_glyphs {
-  key: "Han Ideographs (U+82FB–835D)"
-  value: "苻 苼 苽 苾 苿 茀 茁 茂 范 茄 茅 茆 茇 茈 茉 茋 茌 茍 茖 茗 茘 茙 茚 茛 茜 茝 茞 茠 茢 茤 茥 茦 茧 茨 茩 茪 茫 茬 茭 茯 茱 茲 茳 茴 茵 茶 茷 茸 茹 茺 茻 茼 茽 茿 荀 荁 荂 荃 荄 荅 荇 荈 草 荊 荋 荌 荍 荎 荏 荐 荑 荒 荓 荔 荖 荗"
-}
-sample_glyphs {
-  key: "Han Ideographs (U+9F99–9FFB)"
-  value: "龙 龜 龟 龠 龢 龤 龥 龦 龧 龨 龩 龪 龫 龬 龭 龮 龯 龰 龱 龲 龳 鿇 鿈 鿉 鿊 鿋 鿐"
-}
-sample_glyphs {
-  key: "Han Ideographs Extension A (U+3400–3462)"
-  value: "㐵 㑀 㑊 㑌"
-}
-sample_glyphs {
-  key: "Han Ideographs Extension A (U+3652–36B4)"
-  value: "㙟 㙡 㙺 㚁 㚚 㚥 㚪 㚬 㚰 㚱"
-}
-sample_glyphs {
-  key: "Han Ideographs Extension A (U+3A93–3AF5)"
-  value: "㪗 㪫 㪽 㫞 㫠 㫰 㫲 㫵"
-}
-sample_glyphs {
-  key: "Han Ideographs Extension A (U+3D48–3DAA)"
-  value: "㵌 㵎 㵑 㵟 㵢 㵩 㵪 㵯 㵵 㵽 㶅 㶈 㶊 㶏 㶑 㶥"
-}
-sample_glyphs {
-  key: "Han Ideographs Extension A (U+3ED4–3F36)"
-  value: "㻖 㻗 㻚 㻛 㻞 㻡 㻢 㻧 㻩 㻫 㻬 㻰 㻳 㻴 㻺 㻼 㻿 㼀 㼄 㼆 㼇 㼎"
-}
-sample_glyphs {
-  key: "Han Ideographs Extension B (U+20000–20062)"
-  value: "𠀡 𠀾 𠁆 𠁎"
-}
-sample_glyphs {
-  key: "Han Ideographs Extension B (U+2037B–203DD)"
-  value: "𠍾 𠍿 𠎀 𠎠 𠎧 𠎵 𠏉 𠏋"
-}
-sample_glyphs {
-  key: "Han Ideographs Extension B (U+22DA2–22E04)"
-  value: "𢶣 𢶤 𢶷 𢷮"
-}
-sample_glyphs {
-  key: "Han Ideographs Extension B (U+268CD–2692F)"
-  value: "𦤎 𦤑 𦤦"
-}
-sample_glyphs {
-  key: "Han Kangxi Radicals (U+2F00–2F62)"
-  value: "⼀ ⼁ ⼂ ⼃ ⼄ ⼅ ⼆ ⼇ ⼈ ⼉ ⼊ ⼋ ⼌ ⼍ ⼎ ⼏ ⼐ ⼑ ⼒ ⼓ ⼔ ⼕ ⼖ ⼗ ⼘ ⼙ ⼚ ⼛ ⼜ ⼝ ⼞ ⼟ ⼠ ⼡ ⼢ ⼣ ⼤ ⼥ ⼦ ⼧ ⼨ ⼩ ⼪ ⼫ ⼬ ⼭ ⼮ ⼯ ⼰ ⼱ ⼲ ⼳ ⼴ ⼵ ⼶ ⼷ ⼸ ⼹ ⼺ ⼻ ⼼ ⼽ ⼾ ⼿ ⽀ ⽁ ⽂ ⽃ ⽄ ⽅ ⽆ ⽇ ⽈ ⽉ ⽊ ⽋ ⽌ ⽍ ⽎ ⽏ ⽐ ⽑ ⽒ ⽓ ⽔ ⽕ ⽖ ⽗ ⽘ ⽙ ⽚ ⽛ ⽜ ⽝ ⽞ ⽟ ⽠ ⽡ ⽢"
-}
-sample_glyphs {
-  key: "Han Kangxi Radicals (U+2F63–2FC5)"
-  value: "⽣ ⽤ ⽥ ⽦ ⽧ ⽨ ⽩ ⽪ ⽫ ⽬ ⽭ ⽮ ⽯ ⽰ ⽱ ⽲ ⽳ ⽴ ⽵ ⽶ ⽷ ⽸ ⽹ ⽺ ⽻ ⽼ ⽽ ⽾ ⽿ ⾀ ⾁ ⾂ ⾃ ⾄ ⾅ ⾆ ⾇ ⾈ ⾉ ⾊ ⾋ ⾌ ⾍ ⾎ ⾏ ⾐ ⾑ ⾒ ⾓ ⾔ ⾕ ⾖ ⾗ ⾘ ⾙ ⾚ ⾛ ⾜ ⾝ ⾞ ⾟ ⾠ ⾡ ⾢ ⾣ ⾤ ⾥ ⾦ ⾧ ⾨ ⾩ ⾪ ⾫ ⾬ ⾭ ⾮ ⾯ ⾰ ⾱ ⾲ ⾳ ⾴ ⾵ ⾶ ⾷ ⾸ ⾹ ⾺ ⾻ ⾼ ⾽ ⾾ ⾿ ⿀ ⿁ ⿂ ⿃ ⿄ ⿅"
-}
-sample_glyphs {
-  key: "Han Kangxi Radicals (U+2FC6–2FD5)"
-  value: "⿆ ⿇ ⿈ ⿉ ⿊ ⿋ ⿌ ⿍ ⿎ ⿏ ⿐ ⿑ ⿒ ⿓ ⿔ ⿕"
-}
-sample_glyphs {
-  key: "Han Letter Numbers"
-  value: "〇 〡 〢 〣 〤 〥 〦 〧 〨 〩 〸 〹 〺"
-}
-sample_glyphs {
-  key: "Han Modifier Letters"
-  value: "々 〻"
-}
-sample_glyphs {
-  key: "Hangul Letters, Compatibility Jamo"
-  value: "ㄱ ㄲ ㄳ ㄴ ㄵ ㄶ ㄷ ㄸ ㄹ ㄺ ㄻ ㄼ ㄽ ㄾ ㄿ ㅀ ㅁ ㅂ ㅃ ㅄ ㅅ ㅆ ㅇ ㅈ ㅉ ㅊ ㅋ ㅌ ㅍ ㅎ ㅏ ㅐ ㅑ ㅒ ㅓ ㅔ ㅕ ㅖ ㅗ ㅘ ㅙ ㅚ ㅛ ㅜ ㅝ ㅞ ㅟ ㅠ ㅡ ㅢ ㅣ ㅥ ㅦ ㅧ ㅨ ㅩ ㅪ ㅫ ㅬ ㅭ ㅮ ㅯ ㅰ ㅱ ㅲ ㅳ ㅴ ㅵ ㅶ ㅷ ㅸ ㅹ ㅺ ㅻ ㅼ ㅽ ㅾ ㅿ ㆀ ㆁ ㆂ ㆃ ㆄ ㆅ ㆆ ㆇ ㆈ ㆉ ㆊ ㆋ ㆌ ㆍ ㆎ"
-}
-sample_glyphs {
-  key: "Hangul Letters, Halfwidth and Fullwidth Forms"
-  value: "ﾡ ﾢ ﾣ ﾤ ﾥ ﾦ ﾧ ﾨ ﾩ ﾪ ﾫ ﾬ ﾭ ﾮ ﾯ ﾰ ﾱ ﾲ ﾳ ﾴ ﾵ ﾶ ﾷ ﾸ ﾹ ﾺ ﾻ ﾼ ﾽ ﾾ ￂ ￃ ￄ ￅ ￆ ￇ ￊ ￋ ￌ ￍ ￎ ￏ ￒ ￓ ￔ ￕ ￖ ￗ ￚ ￛ ￜ"
-}
-sample_glyphs {
-  key: "Hangul Spacing Marks"
-  value: "〮 〯"
-}
-sample_glyphs {
-  key: "Hangul Symbols"
-  value: "㈀ ㈁ ㈂ ㈃ ㈄ ㈅ ㈆ ㈇ ㈈ ㈉ ㈊ ㈋ ㈌ ㈍ ㈎ ㈏ ㈐ ㈑ ㈒ ㈓ ㈔ ㈕ ㈖ ㈗ ㈘ ㈙ ㈚ ㈛ ㈜ ㈝ ㈞ ㉠ ㉡ ㉢ ㉣ ㉤ ㉥ ㉦ ㉧ ㉨ ㉩ ㉪ ㉫ ㉬ ㉭ ㉮ ㉯ ㉰ ㉱ ㉲ ㉳ ㉴ ㉵ ㉶ ㉷ ㉸ ㉹ ㉺ ㉻ ㉼ ㉽ ㉾"
-}
-sample_glyphs {
-  key: "Hiragana Letters"
-  value: "ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ ゎ わ ゐ ゑ を ん ゔ ゕ ゖ ゟ"
-}
-sample_glyphs {
-  key: "Hiragana Modifier Letters"
-  value: "ゝ ゞ"
-}
-sample_glyphs {
-  key: "Hiragana Symbols"
-  value: "🈀"
-}
-sample_glyphs {
-  key: "Initial Punctuation"
-  value: "« ‘ “ ‹"
-}
-sample_glyphs {
-  key: "Katakana Letters"
-  value: "ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ヷ ヸ ヹ ヺ ヿ"
-}
-sample_glyphs {
-  key: "Katakana Letters, Halfwidth and Fullwidth Forms"
-  value: "ｦ ｧ ｨ ｩ ｪ ｫ ｬ ｭ ｮ ｯ ｱ ｲ ｳ ｴ ｵ ｶ ｷ ｸ ｹ ｺ ｻ ｼ ｽ ｾ ｿ ﾀ ﾁ ﾂ ﾃ ﾄ ﾅ ﾆ ﾇ ﾈ ﾉ ﾊ ﾋ ﾌ ﾍ ﾎ ﾏ ﾐ ﾑ ﾒ ﾓ ﾔ ﾕ ﾖ ﾗ ﾘ ﾙ ﾚ ﾛ ﾜ ﾝ"
-}
-sample_glyphs {
-  key: "Katakana Letters, Phonetic Extensions"
-  value: "ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ"
-}
-sample_glyphs {
-  key: "Katakana Modifier Letters"
-  value: "ヽ ヾ"
-}
-sample_glyphs {
-  key: "Katakana Symbols, CJK Compatibility"
-  value: "㌀ ㌁ ㌂ ㌃ ㌄ ㌅ ㌆ ㌇ ㌈ ㌉ ㌊ ㌋ ㌌ ㌍ ㌎ ㌏ ㌐ ㌑ ㌒ ㌓ ㌔ ㌕ ㌖ ㌗ ㌘ ㌙ ㌚ ㌛ ㌜ ㌝ ㌞ ㌟ ㌠ ㌡ ㌢ ㌣ ㌤ ㌥ ㌦ ㌧ ㌨ ㌩ ㌪ ㌫ ㌭ ㌮ ㌯ ㌰ ㌱ ㌲ ㌳ ㌴ ㌵ ㌶ ㌷ ㌸ ㌹ ㌺ ㌻ ㌼ ㌽ ㌾ ㌿ ㍀ ㍁ ㍂ ㍃ ㍄ ㍅ ㍆ ㍇ ㍈ ㍉ ㍊ ㍋ ㍌ ㍍ ㍎ ㍏ ㍐ ㍑ ㍒ ㍓ ㍔ ㍕ ㍖ ㍗"
-}
-sample_glyphs {
-  key: "Katakana Symbols, Enclosed CJK Letters and Months"
-  value: "㋐ ㋑ ㋒ ㋓ ㋔ ㋕ ㋖ ㋗ ㋘ ㋙ ㋚ ㋛ ㋜ ㋝ ㋞ ㋟ ㋠ ㋡ ㋢ ㋣ ㋤ ㋥ ㋦ ㋧ ㋨ ㋩ ㋪ ㋫ ㋬ ㋭ ㋮ ㋯ ㋰ ㋱ ㋲ ㋳ ㋴ ㋵ ㋶ ㋷ ㋸ ㋹ ㋺ ㋻ ㋼ ㋽ ㋾"
-}
-sample_glyphs {
-  key: "Latin Letter Numbers"
-  value: "Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ Ⅷ Ⅸ Ⅹ Ⅺ Ⅻ ⅰ ⅱ ⅲ ⅳ ⅴ ⅵ ⅶ ⅷ ⅸ ⅹ ⅺ ⅻ"
-}
-sample_glyphs {
-  key: "Latin Letters"
-  value: "ª º"
-}
-sample_glyphs {
-  key: "Latin Lowercase Letters, Alphabetic Presentation Forms"
-  value: "ﬀ ﬁ ﬂ ﬃ ﬄ"
-}
-sample_glyphs {
-  key: "Latin Lowercase Letters, Basic"
-  value: "a b c d e f g h i j k l m n o p q r s t u v w x y z"
-}
-sample_glyphs {
-  key: "Latin Lowercase Letters, Extended A"
-  value: "ā ă đ ē ě ĩ ī ń ň ō ŏ œ ũ ū ŭ"
-}
-sample_glyphs {
-  key: "Latin Lowercase Letters, Extended Additional (U+1E01–1EBD)"
-  value: "ḿ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ"
-}
-sample_glyphs {
-  key: "Latin Lowercase Letters, Extended Additional (U+1EBF–1EFF)"
-  value: "ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ"
-}
-sample_glyphs {
-  key: "Latin Lowercase Letters, Extended B"
-  value: "ƒ ơ ư ǎ ǐ ǒ ǔ ǖ ǘ ǚ ǜ ǹ"
-}
-sample_glyphs {
-  key: "Latin Lowercase Letters, Halfwidth and Fullwidth Forms"
-  value: "ａ ｂ ｃ ｄ ｅ ｆ ｇ ｈ ｉ ｊ ｋ ｌ ｍ ｎ ｏ ｐ ｑ ｒ ｓ ｔ ｕ ｖ ｗ ｘ ｙ ｚ"
-}
-sample_glyphs {
-  key: "Latin Lowercase Letters, IPA Extensions"
-  value: "ɑ ɡ"
-}
-sample_glyphs {
-  key: "Latin Lowercase Letters, Supplement"
-  value: "ß à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ø ù ú û ü ý þ ÿ"
-}
-sample_glyphs {
-  key: "Latin Uppercase Letters, Basic"
-  value: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
-}
-sample_glyphs {
-  key: "Latin Uppercase Letters, Extended A"
-  value: "Ā Ă Đ Ē Ě Ĩ Ī Ń Ň Ō Ŏ Œ Ũ Ū Ŭ"
-}
-sample_glyphs {
-  key: "Latin Uppercase Letters, Extended Additional (U+1E00–1ECC)"
-  value: "Ḿ Ạ Ả Ấ Ầ Ẩ Ẫ Ậ Ắ Ằ Ẳ Ẵ Ặ Ẹ Ẻ Ẽ Ế Ề Ể Ễ Ệ Ỉ Ị Ọ"
-}
-sample_glyphs {
-  key: "Latin Uppercase Letters, Extended Additional (U+1ECE–1EFE)"
-  value: "Ỏ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ụ Ủ Ứ Ừ Ử Ữ Ự Ỳ Ỵ Ỷ Ỹ"
-}
-sample_glyphs {
-  key: "Latin Uppercase Letters, Extended B (U+0181–0246)"
-  value: "Ơ Ư Ǎ Ǐ Ǒ Ǔ Ǖ Ǘ Ǚ Ǜ Ǹ"
-}
-sample_glyphs {
-  key: "Latin Uppercase Letters, Halfwidth and Fullwidth Forms"
-  value: "Ａ Ｂ Ｃ Ｄ Ｅ Ｆ Ｇ Ｈ Ｉ Ｊ Ｋ Ｌ Ｍ Ｎ Ｏ Ｐ Ｑ Ｒ Ｓ Ｔ Ｕ Ｖ Ｗ Ｘ Ｙ Ｚ"
-}
-sample_glyphs {
-  key: "Latin Uppercase Letters, Letterlike Symbols"
-  value: "Å"
-}
-sample_glyphs {
-  key: "Latin Uppercase Letters, Supplement"
-  value: "À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý Þ"
-}
-sample_glyphs {
-  key: "Letters"
-  value: "〆 〼"
-}
-sample_glyphs {
-  key: "Lowercase Letters"
-  value: "µ"
-}
-sample_glyphs {
-  key: "Mathematical Dash Punctuation"
-  value: "﹣"
-}
-sample_glyphs {
-  key: "Mathematical Letters, Letterlike Symbols"
-  value: "ℵ"
-}
-sample_glyphs {
-  key: "Mathematical Lowercase Letters, Letterlike Symbols"
-  value: "ℊ ℏ ℓ"
-}
-sample_glyphs {
-  key: "Mathematical Modifier Symbols"
-  value: "^ ＾"
-}
-sample_glyphs {
-  key: "Mathematical Punctuation"
-  value: "‖ ′ ″ ﹡ ﹨ ＼"
-}
-sample_glyphs {
-  key: "Mathematical Symbols"
-  value: "⇄ ⇅ ⇆ ⇋ ⇌ ⇐ ■ □ ▱ ▲ △ ▼ ▽ ◆ ◇ ◊ ○ ● ◐ ◑ ◒ ◓ ◢ ◤ ★ ☆ ♡ ♢ ♭ ♮"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Arrows"
-  value: "← ↑ → ↓ ⇒ ⇔ ⇵"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Basic Latin"
-  value: "+ < = > | ~"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Geometric Shapes"
-  value: "▷ ◁"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Halfwidth and Fullwidth Forms"
-  value: "＋ ＜ ＝ ＞ ｜ ～ ￢ ￩ ￪ ￫ ￬"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Latin 1 Supplement"
-  value: "¬ ± × ÷"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Miscellaneous"
-  value: "♯"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Miscellaneous B (U+2980–29FE)"
-  value: "⦿ ⧺ ⧻"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Miscellaneous Technical"
-  value: "⎰ ⎱"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Operators (U+2200–2262)"
-  value: "∀ ∂ ∃ ∅ ∆ ∇ ∈ ∉ ∊ ∋ ∏ ∑ − ∓ ∕ √ ∝ ∞ ∟ ∠ ∣ ∥ ∦ ∧ ∨ ∩ ∪ ∫ ∬ ∭ ∮ ∴ ∵ ∶ ∷ ∽ ≃ ≅ ≈ ≌ ≒ ≠ ≡ ≢"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Operators (U+2263–22C5)"
-  value: "≤ ≥ ≦ ≧ ≪ ≫ ≮ ≯ ≲ ≳ ≶ ≷ ⊂ ⊃ ⊄ ⊅ ⊆ ⊇ ⊊ ⊋ ⊕ ⊖ ⊗ ⊘ ⊙ ⊠ ⊥ ⊿"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Operators (U+22C6–22FF)"
-  value: "⋚ ⋛ ⋯"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Small Form Variants"
-  value: "﹢ ﹤ ﹥ ﹦"
-}
-sample_glyphs {
-  key: "Modifier Letters"
-  value: "ʻ ˇ ˉ ˊ ˋ 〱 〲 〳 〴 〵 ー ｰ ﾞ ﾟ"
-}
-sample_glyphs {
-  key: "Modifier Symbols"
-  value: "` ¨ ¯ ´ ¸ ˙ ゛ ゜ ｀ ￣"
-}
-sample_glyphs {
-  key: "Nonspacing Marks, CJK Symbols and Punctuation"
-  value: "〪 〫 〬 〭"
-}
-sample_glyphs {
-  key: "Nonspacing Marks, Combining Diacritical Marks (U+0300–0362)"
-  value: "̀ ́ ̄ ̇ ̌"
-}
-sample_glyphs {
-  key: "Nonspacing Marks, Hiragana"
-  value: "゙ ゚"
-}
-sample_glyphs {
-  key: "Numbers, Dingbats"
-  value: "❶ ❷ ❸ ❹ ❺ ❻ ❼ ❽ ❾ ❿ ➀ ➁ ➂ ➃ ➄ ➅ ➆ ➇ ➈ ➉ ➊ ➋ ➌ ➍ ➎ ➏ ➐ ➑ ➒ ➓"
-}
-sample_glyphs {
-  key: "Numbers, Enclosed Alphanumeric Supplement"
-  value: "🄀 🄁 🄂 🄃 🄄 🄅 🄆 🄇 🄈 🄉 🄊 🄋 🄌"
-}
-sample_glyphs {
-  key: "Numbers, Enclosed Alphanumerics"
-  value: "① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼ ⑽ ⑾ ⑿ ⒀ ⒁ ⒂ ⒃ ⒄ ⒅ ⒆ ⒇ ⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⒑ ⒒ ⒓ ⒔ ⒕ ⒖ ⒗ ⒘ ⒙ ⒚ ⒛ ⓪ ⓫ ⓬ ⓭ ⓮ ⓯ ⓰ ⓱ ⓲ ⓳ ⓴ ⓵ ⓶ ⓷ ⓸ ⓹ ⓺ ⓻ ⓼ ⓽ ⓾ ⓿"
-}
-sample_glyphs {
-  key: "Numbers, Enclosed CJK Letters and Months"
-  value: "㈠ ㈡ ㈢ ㈣ ㈤ ㈥ ㈦ ㈧ ㈨ ㈩ ㉈ ㉉ ㉊ ㉋ ㉌ ㉍ ㉎ ㉏ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚ ㉛ ㉜ ㉝ ㉞ ㉟ ㊀ ㊁ ㊂ ㊃ ㊄ ㊅ ㊆ ㊇ ㊈ ㊉ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿"
-}
-sample_glyphs {
-  key: "Numbers, Kanbun"
-  value: "㆒ ㆓ ㆔ ㆕"
-}
-sample_glyphs {
-  key: "Numbers, Latin 1 Supplement"
-  value: "² ³ ¹ ¼ ½ ¾"
-}
-sample_glyphs {
-  key: "Numbers, Superscripts and Subscripts"
-  value: "⁴"
-}
-sample_glyphs {
-  key: "Open Punctuation"
-  value: "( [ { ‚ „ 〈 〈 《 「 『 【 〔 〖 〘 〚 〝 ︗ ︵ ︷ ︹ ︻ ︽ ︿ ﹁ ﹃ ﹇ ﹙ ﹛ ﹝ （ ［ ｛ ｟ ｢"
-}
-sample_glyphs {
-  key: "Punctuation, Basic Latin"
-  value: "! \" % & \' , . / : ; ? @ \\"
-}
-sample_glyphs {
-  key: "Punctuation, CJK Compatibility Forms"
-  value: "︰ ﹅ ﹆ ﹉ ﹊ ﹋ ﹌"
-}
-sample_glyphs {
-  key: "Punctuation, CJK Symbols and"
-  value: "、 。 〃"
-}
-sample_glyphs {
-  key: "Punctuation, General"
-  value: "† ‡ • ‥ … ‧ ‰ ‵ ※ ⁂ ⁇ ⁈ ⁑"
-}
-sample_glyphs {
-  key: "Punctuation, Halfwidth and Fullwidth Forms"
-  value: "！ ＂ ＃ ％ ＆ ＇ ＊ ， ． ／ ： ； ？ ＠ ｡ ､ ･"
-}
-sample_glyphs {
-  key: "Punctuation, Katakana"
-  value: "・"
-}
-sample_glyphs {
-  key: "Punctuation, Latin 1 Supplement"
-  value: "¡ § ¶ · ¿"
-}
-sample_glyphs {
-  key: "Punctuation, Small Form Variants"
-  value: "﹐ ﹑ ﹒ ﹔ ﹕ ﹖ ﹗ ﹟ ﹠ ﹪ ﹫"
-}
-sample_glyphs {
-  key: "Punctuation, Vertical Forms"
-  value: "︐ ︑ ︒ ︓ ︔ ︕ ︖ ︙"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: "      　"
-}
-sample_glyphs {
-  key: "Symbols, Arrows"
-  value: "↸ ↹ ⇦ ⇧ ⇨ ⇩"
-}
-sample_glyphs {
-  key: "Symbols, Block Elements"
+  key: "Block Elements"
   value: "▀ ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▉ ▊ ▋ ▌ ▍ ▎ ▏ ▐ ░ ▒ ▓ ▔ ▕ ▖ ▗ ▘ ▙ ▚ ▛ ▜ ▝ ▞ ▟"
 }
 sample_glyphs {
-  key: "Symbols, Box Drawing (U+2500–2562)"
-  value: "─ ━ │ ┃ ┄ ┅ ┆ ┇ ┈ ┉ ┊ ┋ ┌ ┍ ┎ ┏ ┐ ┑ ┒ ┓ └ ┕ ┖ ┗ ┘ ┙ ┚ ┛ ├ ┝ ┞ ┟ ┠ ┡ ┢ ┣ ┤ ┥ ┦ ┧ ┨ ┩ ┪ ┫ ┬ ┭ ┮ ┯ ┰ ┱ ┲ ┳ ┴ ┵ ┶ ┷ ┸ ┹ ┺ ┻ ┼ ┽ ┾ ┿ ╀ ╁ ╂ ╃ ╄ ╅ ╆ ╇ ╈ ╉ ╊ ╋ ╌ ╍ ╎ ╏ ═ ║ ╒ ╓ ╔ ╕ ╖ ╗ ╘ ╙ ╚ ╛ ╜ ╝ ╞ ╟ ╠ ╡ ╢"
+  key: "Bopomofo"
+  value: "ㄅ ㄆ ㄇ ㄈ ㄉ ㄊ ㄋ ㄌ ㄍ ㄎ ㄏ ㄐ ㄑ ㄒ ㄓ ㄔ ㄕ ㄖ ㄗ ㄘ ㄙ ㄚ ㄛ ㄜ ㄝ ㄞ ㄟ ㄠ ㄡ ㄢ ㄣ ㄤ ㄥ ㄦ ㄧ ㄨ ㄩ ㄪ ㄫ ㄬ ㄭ ㄮ ㄯ ㆠ ㆡ ㆢ ㆣ ㆤ ㆥ ㆦ ㆧ ㆨ ㆩ ㆪ ㆫ ㆬ ㆭ ㆮ ㆯ ㆰ ㆱ ㆲ ㆳ ㆴ ㆵ ㆶ ㆷ ㆸ ㆹ ㆺ ㆻ"
 }
 sample_glyphs {
-  key: "Symbols, Box Drawing (U+2563–257F)"
-  value: "╣ ╤ ╥ ╦ ╧ ╨ ╩ ╪ ╫ ╬ ╭ ╮ ╯ ╰ ╱ ╲ ╳ ╴ ╵ ╶ ╷ ╸ ╹ ╺ ╻ ╼ ╽ ╾ ╿"
+  key: "Box Drawing"
+  value: "─ ━ │ ┃ ┄ ┅ ┆ ┇ ┈ ┉ ┊ ┋ ┌ ┍ ┎ ┏ ┐ ┑ ┒ ┓ └ ┕ ┖ ┗ ┘ ┙ ┚ ┛ ├ ┝ ┞ ┟ ┠ ┡ ┢ ┣ ┤ ┥ ┦ ┧ ┨ ┩ ┪ ┫ ┬ ┭ ┮ ┯ ┰ ┱ ┲ ┳ ┴ ┵ ┶ ┷ ┸ ┹ ┺ ┻ ┼ ┽ ┾ ┿ ╀ ╁ ╂ ╃ ╄ ╅ ╆ ╇ ╈ ╉ ╊ ╋ ╌ ╍ ╎ ╏ ═ ║ ╒ ╓ ╔ ╕ ╖ ╗ ╘ ╙ ╚ ╛ ╜ ╝ ╞ ╟ ╠ ╡ ╢ ╣ ╤ ╥ ╦ ╧ ╨ ╩ ╪ ╫ ╬ ╭ ╮ ╯ ╰ ╱ ╲ ╳ ╴ ╵ ╶ ╷ ╸ ╹ ╺ ╻ ╼ ╽ ╾ ╿"
 }
 sample_glyphs {
-  key: "Symbols, CJK Compatibility (U+3358–33BA)"
-  value: "㍘ ㍙ ㍚ ㍛ ㍜ ㍝ ㍞ ㍟ ㍠ ㍡ ㍢ ㍣ ㍤ ㍥ ㍦ ㍧ ㍨ ㍩ ㍪ ㍫ ㍬ ㍭ ㍮ ㍯ ㍰ ㍱ ㍲ ㍳ ㍴ ㍵ ㍶ ㍷ ㍸ ㍹ ㍺ ㍻ ㍼ ㍽ ㍾ ㍿ ㎀ ㎁ ㎂ ㎃ ㎄ ㎅ ㎆ ㎇ ㎈ ㎉ ㎊ ㎋ ㎌ ㎍ ㎎ ㎏ ㎐ ㎑ ㎒ ㎓ ㎔ ㎕ ㎖ ㎗ ㎘ ㎙ ㎚ ㎛ ㎜ ㎝ ㎞ ㎟ ㎠ ㎡ ㎢ ㎣ ㎤ ㎥ ㎦ ㎧ ㎨ ㎩ ㎪ ㎫ ㎬ ㎭ ㎮ ㎯ ㎰ ㎱ ㎲ ㎳ ㎴ ㎵ ㎶ ㎷ ㎸ ㎹ ㎺"
+  key: "CJK Compatibility"
+  value: "㌀ ㌁ ㌂ ㌃ ㌄ ㌅ ㌆ ㌇ ㌈ ㌉ ㌊ ㌋ ㌌ ㌍ ㌎ ㌏ ㌐ ㌑ ㌒ ㌓ ㌔ ㌕ ㌖ ㌗ ㌘ ㌙ ㌚ ㌛ ㌜ ㌝ ㌞ ㌟ ㌠ ㌡ ㌢ ㌣ ㌤ ㌥ ㌦ ㌧ ㌨ ㌩ ㌪ ㌫ ㌭ ㌮ ㌯ ㌰ ㌱ ㌲ ㌳ ㌴ ㌵ ㌶ ㌷ ㌸ ㌹ ㌺ ㌻ ㌼ ㌽ ㌾ ㌿ ㍀ ㍁ ㍂ ㍃ ㍄ ㍅ ㍆ ㍇ ㍈ ㍉ ㍊ ㍋ ㍌ ㍍ ㍎ ㍏ ㍐ ㍑ ㍒ ㍓ ㍔ ㍕ ㍖ ㍗ ㍘ ㍙ ㍚ ㍛ ㍜ ㍝ ㍞ ㍟ ㍠ ㍡ ㍢ ㍣ ㍤ ㍥ ㍦ ㍧ ㍨ ㍩ ㍪ ㍫ ㍬ ㍭ ㍮ ㍯ ㍰ ㍱ ㍲ ㍳ ㍴ ㍵ ㍶ ㍷ ㍸ ㍹ ㍺ ㍻ ㍼ ㍽ ㍾ ㍿ ㎀ ㎁ ㎂ ㎃ ㎄ ㎅ ㎆ ㎇ ㎈ ㎉ ㎊ ㎋ ㎌ ㎍ ㎎ ㎏ ㎐ ㎑ ㎒ ㎓ ㎔ ㎕ ㎖ ㎗ ㎘ ㎙ ㎚ ㎛ ㎜ ㎝ ㎞ ㎟ ㎠ ㎡ ㎢ ㎣ ㎤ ㎥ ㎦ ㎧ ㎨ ㎩ ㎪ ㎫ ㎬ ㎭ ㎮ ㎯ ㎰ ㎱ ㎲ ㎳ ㎴ ㎵ ㎶ ㎷ ㎸ ㎹ ㎺ ㎻ ㎼ ㎽ ㎾ ㎿ ㏀ ㏁ ㏂ ㏃ ㏄ ㏅ ㏆ ㏇ ㏈ ㏉ ㏊ ㏋ ㏌ ㏍ ㏎ ㏏ ㏐ ㏑ ㏒ ㏓ ㏔ ㏕ ㏖ ㏗ ㏘ ㏙ ㏚ ㏛ ㏜ ㏝ ㏞ ㏟ ㏠ ㏡ ㏢ ㏣ ㏤ ㏥ ㏦ ㏧ ㏨ ㏩ ㏪ ㏫ ㏬ ㏭ ㏮ ㏯ ㏰ ㏱ ㏲ ㏳ ㏴ ㏵ ㏶ ㏷ ㏸ ㏹ ㏺ ㏻ ㏼ ㏽ ㏾ ㏿"
 }
 sample_glyphs {
-  key: "Symbols, CJK Compatibility (U+33BB–33FF)"
-  value: "㎻ ㎼ ㎽ ㎾ ㎿ ㏀ ㏁ ㏂ ㏃ ㏄ ㏅ ㏆ ㏇ ㏈ ㏉ ㏊ ㏋ ㏌ ㏍ ㏎ ㏏ ㏐ ㏑ ㏒ ㏓ ㏔ ㏕ ㏖ ㏗ ㏘ ㏙ ㏚ ㏛ ㏜ ㏝ ㏞ ㏟ ㏠ ㏡ ㏢ ㏣ ㏤ ㏥ ㏦ ㏧ ㏨ ㏩ ㏪ ㏫ ㏬ ㏭ ㏮ ㏯ ㏰ ㏱ ㏲ ㏳ ㏴ ㏵ ㏶ ㏷ ㏸ ㏹ ㏺ ㏻ ㏼ ㏽ ㏾ ㏿"
-}
-sample_glyphs {
-  key: "Symbols, CJK Strokes"
-  value: "㇀ ㇁ ㇂ ㇃ ㇄ ㇅ ㇆ ㇇ ㇈ ㇉ ㇊ ㇋ ㇌ ㇍ ㇎ ㇏ ㇐ ㇑ ㇒ ㇓ ㇔ ㇕ ㇖ ㇗ ㇘ ㇙ ㇚ ㇛ ㇜ ㇝ ㇞ ㇟ ㇠ ㇡ ㇢ ㇣"
-}
-sample_glyphs {
-  key: "Symbols, CJK and Punctuation"
-  value: "〄 〒 〓 〠 〶 〷 〾 〿"
-}
-sample_glyphs {
-  key: "Symbols, Control Pictures"
-  value: "␣"
-}
-sample_glyphs {
-  key: "Symbols, Dingbats (U+2700–27AD)"
-  value: "✓ ✚ ✽ ✿ ❀ ❖"
-}
-sample_glyphs {
-  key: "Symbols, Enclosed Alphanumeric Supplement (U+1F10D–1F188)"
-  value: "🄐 🄑 🄒 🄓 🄔 🄕 🄖 🄗 🄘 🄙 🄚 🄛 🄜 🄝 🄞 🄟 🄠 🄡 🄢 🄤 🄥 🄦 🄧 🄩 🄪 🄫 🄬 🄮 🄯 🄰 🄱 🄳 🄴 🄵 🄶 🄸 🄹 🄺 🄻 🄽 🄾 🄿 🅀 🅂 🅃 🅄 🅅 🅇 🅈 🅉 🅊 🅌 🅍 🅎 🅏 🅑 🅒 🅓 🅔 🅖 🅗 🅘 🅙 🅛 🅜 🅝 🅞 🅠 🅡 🅢 🅣 🅥 🅦 🅧 🅨 🅪 🅫 🅬 🅲 🅴 🅵 🅶 🅷 🅹 🅺 🅻 🅼 🆀 🆁 🆃 🆄 🆅 🆆 🆈"
-}
-sample_glyphs {
-  key: "Symbols, Enclosed Alphanumeric Supplement (U+1F189–1F18C)"
-  value: "🆉 🆊 🆋 🆍 🆏 🆐 🆛 🆜 🆝 🆞 🆟 🆠 🆡 🆢 🆣 🆤 🆥 🆦 🆧 🆨 🆩 🆪 🆫 🆬 🄣 🄨 🄭 🄲 🄷 🄼 🅁 🅆 🅋 🅐 🅕 🅚 🅟 🅤 🅩 🅳 🅸 🅽 🆂 🆇 🆌"
-}
-sample_glyphs {
-  key: "Symbols, Enclosed Alphanumerics"
-  value: "⒜ ⒝ ⒞ ⒟ ⒠ ⒡ ⒢ ⒣ ⒤ ⒥ ⒦ ⒧ ⒨ ⒩ ⒪ ⒫ ⒬ ⒭ ⒮ ⒯ ⒰ ⒱ ⒲ ⒳ ⒴ ⒵ Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ ⓐ ⓑ ⓒ ⓓ ⓔ ⓕ ⓖ ⓗ ⓘ ⓙ ⓚ ⓛ ⓜ ⓝ ⓞ ⓟ ⓠ ⓡ ⓢ ⓣ ⓤ ⓥ ⓦ ⓧ ⓨ ⓩ"
-}
-sample_glyphs {
-  key: "Symbols, Enclosed CJK Letters and Months"
-  value: "㈪ ㈫ ㈬ ㈭ ㈮ ㈯ ㈰ ㈱ ㈲ ㈳ ㈴ ㈵ ㈶ ㈷ ㈸ ㈹ ㈺ ㈻ ㈼ ㈽ ㈾ ㈿ ㉀ ㉁ ㉂ ㉃ ㉄ ㉅ ㉆ ㉇ ㉐ ㉿ ㊊ ㊋ ㊌ ㊍ ㊎ ㊏ ㊐ ㊑ ㊒ ㊓ ㊔ ㊕ ㊖ ㊘ ㊚ ㊛ ㊜ ㊝ ㊞ ㊟ ㊠ ㊡ ㊢ ㊣ ㊤ ㊥ ㊦ ㊧ ㊨ ㊩ ㊪ ㊫ ㊬ ㊭ ㊮ ㊯ ㊰ ㋀ ㋁ ㋂ ㋃ ㋄ ㋅ ㋆ ㋇ ㋈ ㋉ ㋊ ㋋ ㋌ ㋍ ㋎ ㋏ ㋿"
-}
-sample_glyphs {
-  key: "Symbols, Enclosed Ideographic Supplement"
-  value: "🈐 🈑 🈒 🈓 🈔 🈕 🈖 🈗 🈘 🈙 🈛 🈜 🈝 🈞 🈟 🈠 🈡 🈢 🈣 🈤 🈥 🈦 🈧 🈨 🈩 🈪 🈫 🈬 🈭 🈮 🈰 🈱 🈻 🉀 🉁 🉂 🉃 🉄 🉅 🉆 🉇 🉈"
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "▢ ▣ ▤ ▥ ▦ ▧ ▨ ▩ ◈ ◉ ◌ ◎ ◣ ◥ ◦ ◯"
-}
-sample_glyphs {
-  key: "Symbols, Halfwidth and Fullwidth Forms"
-  value: "￤ ￨ ￭ ￮"
-}
-sample_glyphs {
-  key: "Symbols, Ideographic Description Characters"
+  key: "CJK Description"
   value: "⿰ ⿱ ⿲ ⿳ ⿴ ⿵ ⿶ ⿷ ⿸ ⿹ ⿺ ⿻"
 }
 sample_glyphs {
-  key: "Symbols, Kanbun"
+  key: "CJK Radicals Supplement"
+  value: "⺀ ⺁ ⺂ ⺃ ⺄ ⺅ ⺆ ⺇ ⺈ ⺉ ⺊ ⺋ ⺌ ⺍ ⺎ ⺏ ⺐ ⺑ ⺒ ⺓ ⺔ ⺕ ⺖ ⺗ ⺘ ⺙ ⺛ ⺜ ⺝ ⺞ ⺟ ⺠ ⺡ ⺢ ⺣ ⺤ ⺥ ⺦ ⺧ ⺨ ⺩ ⺪ ⺫ ⺬ ⺭ ⺮ ⺯ ⺰ ⺱ ⺲ ⺳ ⺴ ⺵ ⺶ ⺷ ⺸ ⺹ ⺺ ⺻ ⺼ ⺽ ⺾ ⺿ ⻀ ⻁ ⻂ ⻃ ⻄ ⻅ ⻆ ⻇ ⻈ ⻉ ⻊ ⻋ ⻌ ⻍ ⻎ ⻏ ⻐ ⻑ ⻒ ⻓ ⻔ ⻕ ⻖ ⻗ ⻘ ⻙ ⻚ ⻛ ⻜ ⻝ ⻞ ⻟ ⻠ ⻡ ⻢ ⻣ ⻤ ⻥ ⻦ ⻧ ⻨ ⻩ ⻪ ⻫ ⻬ ⻭ ⻮ ⻯ ⻰ ⻱ ⻲ ⻳"
+}
+sample_glyphs {
+  key: "CJK Strokes"
+  value: "㇀ ㇁ ㇂ ㇃ ㇄ ㇅ ㇆ ㇇ ㇈ ㇉ ㇊ ㇋ ㇌ ㇍ ㇎ ㇏ ㇐ ㇑ ㇒ ㇓ ㇔ ㇕ ㇖ ㇗ ㇘ ㇙ ㇚ ㇛ ㇜ ㇝ ㇞ ㇟ ㇠ ㇡ ㇢ ㇣"
+}
+sample_glyphs {
+  key: "CJK Symbols and Punctuation"
+  value: "〄 〒 〓 〠 〶 〷 〾 〿"
+}
+sample_glyphs {
+  key: "Common Latin"
+  value: "$ ` ¢ £ ¤ ¥ ¦ ¨ ¯ ° ´ ¸ + < = > ^ | ~ ¬ ± × ÷ © ®"
+}
+sample_glyphs {
+  key: "Control Pictures"
+  value: "␣"
+}
+sample_glyphs {
+  key: "Currency Symbols"
+  value: "₩ ₫ €"
+}
+sample_glyphs {
+  key: "Cyrillic Lowercase"
+  value: "а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё"
+}
+sample_glyphs {
+  key: "Cyrillic Uppercase"
+  value: "Ё А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я"
+}
+sample_glyphs {
+  key: "Dingbats"
+  value: "✓ ✚ ✽ ✿ ❀ ❖ ✂ ➡"
+}
+sample_glyphs {
+  key: "Enclosed"
+  value: "🈀 ㋐ ㋑ ㋒ ㋓ ㋔ ㋕ ㋖ ㋗ ㋘ ㋙ ㋚ ㋛ ㋜ ㋝ ㋞ ㋟ ㋠ ㋡ ㋢ ㋣ ㋤ ㋥ ㋦ ㋧ ㋨ ㋩ ㋪ ㋫ ㋬ ㋭ ㋮ ㋯ ㋰ ㋱ ㋲ ㋳ ㋴ ㋵ ㋶ ㋷ ㋸ ㋹ ㋺ ㋻ ㋼ ㋽ ㋾ ⒜ ⒝ ⒞ ⒟ ⒠ ⒡ ⒢ ⒣ ⒤ ⒥ ⒦ ⒧ ⒨ ⒩ ⒪ ⒫ ⒬ ⒭ ⒮ ⒯ ⒰ ⒱ ⒲ ⒳ ⒴ ⒵ Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ ⓐ ⓑ ⓒ ⓓ ⓔ ⓕ ⓖ ⓗ ⓘ ⓙ ⓚ ⓛ ⓜ ⓝ ⓞ ⓟ ⓠ ⓡ ⓢ ⓣ ⓤ ⓥ ⓦ ⓧ ⓨ ⓩ ㈪ ㈫ ㈬ ㈭ ㈮ ㈯ ㈰ ㈱ ㈲ ㈳ ㈴ ㈵ ㈶ ㈷ ㈸ ㈹ ㈺ ㈻ ㈼ ㈽ ㈾ ㈿ ㉀ ㉁ ㉂ ㉃ ㉄ ㉅ ㉆ ㉇ ㉐ ㉿ ㊊ ㊋ ㊌ ㊍ ㊎ ㊏ ㊐ ㊑ ㊒ ㊓ ㊔ ㊕ ㊖ ㊘ ㊚ ㊛ ㊜ ㊝ ㊞ ㊟ ㊠ ㊡ ㊢ ㊣ ㊤ ㊥ ㊦ ㊧ ㊨ ㊩ ㊪ ㊫ ㊬ ㊭ ㊮ ㊯ ㊰ ㋀ ㋁ ㋂ ㋃ ㋄ ㋅ ㋆ ㋇ ㋈ ㋉ ㋊ ㋋ ㋌ ㋍ ㋎ ㋏ ㋿ 🄐 🄑 🄒 🄓 🄔 🄕 🄖 🄗 🄘 🄙 🄚 🄛 🄜 🄝 🄞 🄟 🄠 🄡 🄢 🄤 🄥 🄦 🄧 🄩 🄪 🄫 🄬 🄮 🄯 🄰 🄱 🄳 🄴 🄵 🄶 🄸 🄹 🄺 🄻 🄽 🄾 🄿 🅀 🅂 🅃 🅄 🅅 🅇 🅈 🅉 🅊 🅌 🅍 🅎 🅏 🅑 🅒 🅓 🅔 🅖 🅗 🅘 🅙 🅛 🅜 🅝 🅞 🅠 🅡 🅢 🅣 🅥 🅦 🅧 🅨 🅪 🅫 🅬 🅲 🅴 🅵 🅶 🅷 🅹 🅺 🅻 🅼 🆀 🆁 🆃 🆄 🆅 🆆 🆈 🆉 🆊 🆋 🆍 🆏 🆐 🆛 🆜 🆝 🆞 🆟 🆠 🆡 🆢 🆣 🆤 🆥 🆦 🆧 🆨 🆩 🆪 🆫 🆬 🈐 🈑 🈒 🈓 🈔 🈕 🈖 🈗 🈘 🈙 🈛 🈜 🈝 🈞 🈟 🈠 🈡 🈢 🈣 🈤 🈥 🈦 🈧 🈨 🈩 🈪 🈫 🈬 🈭 🈮 🈰 🈱 🈻 🉀 🉁 🉂 🉃 🉄 🉅 🉆 🉇 🉈 🄣 🄨 🄭 🄲 🄷 🄼 🅁 🅆 🅋 🅐 🅕 🅚 🅟 🅤 🅩 🅳 🅸 🅽 🆂 🆇 🆌 Ⓜ ㊗ ㊙ 🅰 🅱 🅾 🅿 🈂 🈷 ㈀ ㈁ ㈂ ㈃ ㈄ ㈅ ㈆ ㈇ ㈈ ㈉ ㈊ ㈋ ㈌ ㈍ ㈎ ㈏ ㈐ ㈑ ㈒ ㈓ ㈔ ㈕ ㈖ ㈗ ㈘ ㈙ ㈚ ㈛ ㈜ ㈝ ㈞ ㉠ ㉡ ㉢ ㉣ ㉤ ㉥ ㉦ ㉧ ㉨ ㉩ ㉪ ㉫ ㉬ ㉭ ㉮ ㉯ ㉰ ㉱ ㉲ ㉳ ㉴ ㉵ ㉶ ㉷ ㉸ ㉹ ㉺ ㉻ ㉼ ㉽ ㉾"
+}
+sample_glyphs {
+  key: "Geometric Shapes"
+  value: "▢ ▣ ▤ ▥ ▦ ▧ ▨ ▩ ◈ ◉ ◎ ◣ ◥ ◦ ◯ ■ □ ▱ ▲ △ ▷ ▼ ▽ ◁ ◆ ◇ ◊ ○ ● ◐ ◑ ◒ ◓ ◢ ◤ ▪ ▫ ▶ ◀"
+}
+sample_glyphs {
+  key: "Greek Lowercase"
+  value: "α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω"
+}
+sample_glyphs {
+  key: "Greek Uppercase"
+  value: "Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ω"
+}
+sample_glyphs {
+  key: "Halfwidth & Fullwidth"
+  value: "＄ ｀ ￠ ￡ ￣ ￤ ￥ ￦ ￨ ￭ ￮ ＋ ＜ ＝ ＞ ＾ ｜ ～ ￢ ￩ ￪ ￫ ￬"
+}
+sample_glyphs {
+  key: "Han Ideograms"
+  value: "々 〻 㐵 㑀 㑊 㑌 㑤 㑳 㑺 㑽 㑾 㒓 㒖 㒥 㒯 㒼 㓁 㓈 㓟 㓤 㓦 㓻 㔆 㔾 㕑 㕓 㕙 㕡 㕭 㕰 㕲 㕷 㕸 㖄 㖗 㖘 㖡 㖥 㖭 㖿 㗁 㗅 㗇 㗊 㗎 㗒 㗖 㗛 㗝 㗱 㗲 㗳 㗻 㗾 㘉 㘘 㘚 㘣 㘥 㘭 㘵 㘹 㘾 㙇 㙈 㙉 㙎 㙟 㙡 㙺 㚁 㚚 㚥 㚪 㚬 㚰 㚱 㚵 㚹 㚼 㛁 㛃 㛄 㛅 㛇 㛈 㛓 㛔 㛖 㛝 㛡 㛢 㛥 㛦 㛵 㜁 㜃 㜈 㜊 㜍 㜜 㜢 㜣 㜥 㜬 㜭 㜰 㜲 㜳 㜺 㝀 㝃 㝢 㝯 㞗 㞠 㞹 㞾 㟖 㟲 㟸 㟻 㠏 㠙 㠠 㠭 㠶 㠸 㡣 㡵 㢠 㣃 㣌 㣑 㣔 㣺 㤈 㤔 㤧 㤲 㤿 㥍 㥣 㥸 㦀 㦉 㦊 㦒 㦙 㦛 㦡 㦤 㦸 㧜 㧢 㧥 㧬 㧸 㧻 㧾 㨁 㨃 㨆 㨗 㨘 㨩 㨪 㨴 㩋 㩒 㩗 㩜 㩞 㩦 㩧 㪗 㪫 㪽 㫞 㫠 㫰 㫲 㫵 㫻 㬎 㬙 㬢 㬫 㬹 㭂 㭘 㭠 㭱 㭲 㭻 㭼 㮀 㮕 㮖 㮙 㮡 㮼 㮾 㯂 㯄 㯗 㯝 㯬 㯲 㯳 㯴 㰍 㰑 㰕 㰘 㱔 㲋 㳋 㳍 㳑 㳖 㳜 㳫 㳯 㴒 㴓 㴝 㴲 㴻 㵆 㵌 㵎 㵑 㵟 㵢 㵩 㵪 㵯 㵵 㵽 㶅 㶈 㶊 㶏 㶑 㶥 㶭 㶴 㶿 㷆 㷇 㷉 㷌 㷍 㷓 㷛 㷧 㷨 㷫 㷳 㷴 㷷 㷼 㷽 㸆 㹀 㹃 㹈 㹕 㹴 㺨 㺩 㺪 㺭 㺱 㺸 㺿 㻂 㻇 㻊 㻌 㻐 㻑 㻖 㻗 㻚 㻛 㻞 㻡 㻢 㻧 㻩 㻫 㻬 㻰 㻳 㻴 㻺 㻼 㻿 㼀 㼄 㼆 㼇 㼎 㽓 㽘 㽙 㽣 㽼 㾓 㿀 㿈 㿗 㿜 㿥 㿭 㿹 㿺 䀄 䀉 䀝 䀹 䁅 䁓 䁗 䁢 䁥 䁪 䁯 䁱 䂨 䂴 䂻 䂿 䃈 䃘 䃟 䃸 䃺 䄂 䄃 䄄 䄉 䄎 䄱 䄲 䅧 䅬 䅮 䅼 䅿 䆁 䆐 䆲 䇄 䇊 䇏 䇛 䇭 䇯 䇹 䈑 䈣 䉀 䉠 䉪 䉶 䉺 䊌 䊔 䊢 䊵 䊹 䊼 䋴 䋻 䋼 䌊 䌫 䍮 䎗 䎚 䎺 䏁 䏙 䏟 䏭 䏰 䏲 䐁 䐂 䐓 䐥 䐭 䑺 䒏 䒑 䒟 䒠 䒢 䒰 䒷 䒽 䓀 䓃 䓅 䓎 䓝 䓞 䓟 䓡 䓤 䓩 䓪 䓫 䓬 䓴 䔃 䔄 䔉 䔋 䔖 䔛 䔝 䔧 䔮 䔳 䔶 䔻 䔽 䔿 䕃 䕑 䕒 䕕 䕘 䕜 䕡 䕢 䕪 䕭 䕷 䕸 䖅 䖦 䖳 䗚 䗩 䗪 䘃 䘆 䘏 䘕 䘗 䙛 䙺 䚀 䚡 䚮 䚻 䛏 䛐 䛵 䛷 䜓 䜘 䜶 䝄 䝎 䝏 䝼 䞘 䞦 䟕 䟭 䟴 䠀 䠋 䠷 䡝 䡱 䢛 䢭 䢮 䣐 䣝 䣭 䣳 䣺 䤆 䤑 䤞 䤥 䤪 䤭 䤯 䤰 䤵 䤼 䤾 䥅 䥑 䥓 䥥 䥪 䥲 䦉 䦡 䦧 䧟 䧥 䧧 䨏 䨝 䨤 䨵 䪖 䪤 䪴 䪸 䫑 䫤 䫿 䬐 䬙 䬠 䬬 䬷 䭯 䭰 䭲 䭻 䭾 䮎 䮐 䮓 䮖 䮗 䮝 䮽 䮾 䯀 䰄 䰇 䰎 䰲 䰻 䰾 䱀 䱇 䱗 䱛 䱭 䱷 䱻 䱽 䲁 䲅 䲤 䲮 䲰 䲷 䳍 䳡 䳢 䳭 䴇 䴉 䴐 䴴 䵶 䵷 䶉 䶑 䶜 一 丁 七 丄 万 丈 三 上 下 丌 不 与 丏 丐 丑 且 丕 世 丘 丙 业 东 丞 丟 両 丢 两 並 丨 个 丫 丬 中 丮 丯 丰 丱 串 丳 丶 丷 丸 丹 主 丼 丽 丿 乂 乃 久 乇 么 义 之 乍 乎 乏 乒 乓 乖 乘 乙 乚 乛 乜 九 乞 也 乩 乪 乳 乸 乾 乿 亀 亁 亂 亃 亄 亅 了 亇 予 争 事 二 亍 于 云 互 亓 五 井 亘 亙 亚 些 亞 亟 亠 亡 亢 亣 交 亥 亦 亨 享 京 亭 亮 亳 亶 亷 亹 人 亻 亼 亿 什 仁 仂 仃 仄 仆 仇 仈 仉 今 介 仍 从 仔 仕 他 仗 付 仙 仚 仜 仝 仞 仟 仡 代 令 以 仨 仩 仪 仫 仮 仰 仱 仲 仳 仴 仵 件 价 仸 任 份 仿 伀 企 伂 伃 伄 伅 伈 伉 伊 伋 伍 伎 伏 伐 休 伒 伓 伔 伕 众 优 伙 会 伝 伢 伨 伩 伬 伭 伯 估 伲 伳 伴 伶 伷 伸 伹 伺 伻 似 伽 伾 伿 佁 佂 佃 佅 但 佇 佈 佉 佋 佌 位 低 住 佐 佑 佒 体 佔 何 佖 佗 佘 余 佚 佛 作 佝 佞 佟 你 佡 佢 佣 佤 佧 佩 佪 佫 佬 佮 佯 佰 佲 佳 佴 併 佶 佷 佸 佹 佺 佻 佼 佽 佾 使 侀 侁 侂 侃 侄 侅 來 侇 侈 侉 侊 例 侍 侏 侐 侑 侒 侔 侕 侖 侗 侘 侚 供 侜 依 侞 侢 侨 侫 侮 侯 侰 侲 侳 侴 侵 侶 侷 侹 侺 侻 侽 便 俀 俁 係 促 俄 俅 俇 俈 俉 俊 俋 俌 俍 俎 俏 俐 俑 俓 俔 俖 俗 俘 俙 俚 俛 俜 保 俞 俟 俠 信 俤 俥 俬 修 俯 俰 俱 俲 俳 俴 俵 俶 俷 俸 俹 俺 俽 俾 倀 倃 倅 倆 倇 倈 倉 個 倌 倍 倎 倏 們 倒 倓 倔 倕 倖 倗 倘 候 倚 倛 倜 倞 借 倠 倡 倢 倣 倥 倦 倧 倨 倩 倪 倫 倬 倭 倮 倯 倰 倱 倳 倴 倵 倷 倻 值 偀 偁 偃 偅 偆 假 偈 偉 偊 偋 偌 偍 偎 偏 偑 偓 偕 偖 偗 偘 做 偛 停 偝 偞 偟 偠 偡 偢 偣 偤 健 偦 偨 偩 偪 偫 偬 偭 偮 偯 偰 偲 偳 側 偵 偶 偷 偺 偽 傀 傁 傂 傃 傅 傇 傈 傋 傌 傍 傎 傐 傑 傒 傔 傕 傖 傘 備 傚 傛 傜 傝 傞 傢 傣 傦 催 傭 傮 傯 傰 傱 傲 傳 傴 債 傶 傷 傸 傺 傻 傼 傽 傾 傿 僁 僂 僄 僅 僆 僇 僈 僉 僊 僋 働 僎 像 僐 僑 僓 僔 僕 僖 僗 僙 僚 僛 僝 僟 僠 僡 僣 僤 僥 僦 僧 僨 僩 僪 僬 僭 僮 僯 僰 僱 僳 僴 僵 僶 僸 價 僻 僼 僽 僾 僿 儀 儁 儂 儃 億 儅 儆 儇 儈 儉 儊 儋 儌 儍 儎 儐 儑 儒 儓 儔 儕 儗 儘 儚 儜 償 儠 儡 儢 儤 儥 儦 儩 優 儫 儭 儮 儰 儱 儲 儳 儴 儵 儷 儸 儹 儺 儻 儼 儽 儿 兀 允 元 兄 充 兆 兇 先 光 克 兌 免 兑 兒 兔 兕 兖 兗 兙 党 兛 兜 兝 兞 兟 兠 兡 兢 兣 入 內 全 兩 兪 八 公 六 兮 共 兴 兵 其 具 典 兹 兼 冀 冂 円 冇 冈 冉 冊 再 冏 冑 冒 冓 冔 冕 冖 冗 冘 冚 农 冞 冠 冢 冤 冥 冧 冨 冪 冫 冬 冮 冰 冱 冲 决 冴 况 冶 冷 冸 冹 冼 冽 冾 凃 凄 凅 准 凇 凈 凉 凊 凋 凌 凍 凎 减 凐 凑 凒 凓 凔 凗 凘 凛 凜 凝 凞 凟 几 凡 凢 凤 凭 凰 凱 凳 凴 凵 凶 凸 凹 出 凼 函 凾 刀 刁 刂 刃 刅 分 切 刈 刉 刊 刋 刌 刎 刐 刑 划 刓 刖 列 刜 初 刞 刟 删 刡 判 別 刦 刧 刨 利 刪 刮 到 刱 刲 刳 刴 刵 制 刷 券 刺 刻 刼 剁 剃 剄 剆 則 剉 削 剋 剌 前 剎 剏 剒 剔 剕 剖 剗 剙 剚 剛 剜 剝 剞 剟 剠 剡 剢 剨 剩 剪 剫 剬 剭 剮 副 割 剳 剴 創 剷 剸 剹 剺 剻 剼 剽 剿 劀 劁 劂 劃 劄 劇 劈 劉 劊 劋 劌 劍 劏 劐 劑 劓 劔 劖 劗 劘 劙 劚 力 功 加 务 劣 劤 劦 动 助 努 劫 劬 劭 劮 劵 効 劻 劼 劾 勀 勁 勂 勃 勅 勇 勉 勌 勍 勐 勑 勒 勓 動 勖 勗 勘 務 勛 勝 勞 募 勠 勡 勢 勣 勤 勦 勩 勫 勯 勰 勱 勳 勴 勵 勷 勸 勹 勺 勻 勼 勾 勿 匁 包 匆 匈 匉 匊 匋 匍 匎 匏 匐 匑 匒 匕 化 北 匙 匚 匜 匝 匟 匠 匡 匢 匣 匤 匧 匪 匬 匭 匯 匰 匱 匲 匳 匴 匷 匸 匹 医 匼 匽 匾 匿 區 十 卂 千 卄 卅 升 午 卉 半 卌 卍 华 卑 卒 卓 協 南 博 卜 卝 卞 卟 占 卡 卣 卤 卦 卧 卩 卬 卭 卮 卯 印 危 卲 即 却 卵 卷 卸 卹 卻 卼 卽 卾 卿 厂 厄 厊 厎 厏 厒 厓 厔 厖 厗 厘 厙 厚 厜 厝 厞 原 厠 厢 厤 厥 厦 厧 厨 厩 厪 厫 厬 厭 厮 厰 厲 厴 厶 厹 去 叁 参 參 叅 又 叉 及 友 双 反 叐 发 叒 叔 取 受 变 叙 叚 叛 叟 叠 叡 叢 口 古 句 另 叨 叩 只 叫 召 叭 叮 可 台 叱 史 右 叵 叶 号 司 叻 叼 叾 吁 吃 各 吆 吇 合 吉 吊 吋 同 名 后 吏 吐 向 吒 吓 吔 吖 吘 吙 吚 君 吜 吝 吞 吟 吠 吡 吣 吤 吥 否 吧 吨 吩 吪 含 听 吭 吮 启 吰 吱 吲 吳 吴 吵 吶 吷 吸 吹 吻 吼 吽 吾 吿 呀 呁 呂 呃 呅 呆 呇 呈 告 呋 呌 呍 呎 呏 呔 呠 呡 呢 呣 呤 呥 呦 呧 周 呩 呪 呫 呬 呭 呯 呰 呱 呲 味 呴 呵 呶 呷 呸 呺 呻 呼 命 呾 呿 咀 咁 咂 咄 咅 咆 咇 咈 咋 和 咍 咎 咏 咐 咑 咒 咓 咔 咕 咖 咗 咘 咚 咜 咞 咠 咡 咢 咣 咤 咥 咦 咧 咨 咩 咪 咫 咬 咭 咮 咯 咰 咱 咲 咳 咴 咶 咷 咸 咹 咺 咻 咼 咽 咾 咿 哀 品 哂 哃 哄 哅 哆 哇 哈 哉 哋 哌 响 哎 哏 哐 哖 哚 哞 哠 員 哢 哣 哤 哥 哦 哧 哨 哩 哪 哫 哭 哮 哯 哱 哲 哳 哷 哸 哺 哻 哼 哽 哿 唁 唂 唃 唄 唅 唆 唇 唈 唉 唊 唋 唌 唍 唎 唏 唐 唑 唒 唓 唔 唗 唘 唚 唞 唣 唥 唦 唧 唨 唪 唫 唬 唭 售 唯 唰 唱 唲 唳 唴 唵 唶 唷 唸 唹 唻 唼 唾 唿 啀 啁 啃 啄 啅 商 啇 啈 啉 啊 啋 啍 啎 問 啐 啑 啒 啓 啕 啖 啗 啜 啝 啞 啟 啡 啢 啣 啤 啥 啦 啩 啪 啫 啱 啲 啳 啵 啶 啷 啹 啻 啼 啽 啾 啿 喀 喁 喂 喃 善 喆 喇 喈 喉 喊 喋 喌 喍 喎 喏 喐 喑 喒 喓 喔 喕 喘 喙 喚 喜 喝 喟 喡 喢 喣 喤 喥 喦 喧 喨 喩 喪 喫 喬 喭 單 喰 喱 喲 喳 喴 喵 喹 喺 喻 喼 喿 嗀 嗁 嗂 嗃 嗄 嗅 嗆 嗇 嗈 嗉 嗊 嗋 嗌 嗍 嗎 嗏 嗐 嗑 嗒 嗓 嗔 嗕 嗖 嗗 嗘 嗙 嗚 嗛 嗜 嗝 嗞 嗟 嗡 嗢 嗣 嗤 嗥 嗦 嗧 嗨 嗩 嗪 嗬 嗮 嗯 嗰 嗱 嗲 嗵 嗶 嗷 嗹 嗺 嗻 嗼 嗽 嗾 嗿 嘀 嘁 嘂 嘄 嘅 嘆 嘈 嘉 嘌 嘍 嘎 嘏 嘐 嘑 嘒 嘓 嘔 嘕 嘖 嘗 嘛 嘜 嘝 嘞 嘟 嘠 嘡 嘢 嘣 嘥 嘧 嘩 嘪 嘬 嘭 嘮 嘯 嘰 嘲 嘳 嘴 嘵 嘶 嘷 嘸 嘹 嘺 嘻 嘽 嘾 嘿 噀 噁 噂 噃 噅 噆 噈 噉 噊 噌 噍 噎 噏 噐 噒 噓 噔 噗 噘 噙 噚 噝 噞 噠 噡 噢 噣 噤 噥 噦 器 噩 噪 噫 噬 噭 噮 噯 噰 噱 噲 噳 噴 噶 噷 噸 噹 噺 噻 噼 噾 噿 嚀 嚁 嚂 嚃 嚄 嚅 嚆 嚇 嚉 嚊 嚋 嚌 嚍 嚎 嚏 嚐 嚒 嚓 嚕 嚗 嚘 嚙 嚚 嚜 嚝 嚞 嚟 嚡 嚤 嚥 嚦 嚧 嚨 嚪 嚫 嚬 嚭 嚮 嚯 嚱 嚲 嚳 嚴 嚵 嚶 嚷 嚹 嚼 嚽 嚾 嚿 囀 囁 囂 囃 囅 囆 囈 囉 囊 囋 囌 囍 囑 囓 囔 囖 囗 囚 四 囝 回 囟 因 囡 团 囤 囥 囧 囪 囫 园 囮 囯 困 囱 囷 囹 固 囻 国 囿 圀 圁 圂 圃 圄 圇 圈 圉 圊 國 圌 圍 園 圓 圔 圕 圖 團 圚 圛 圜 圝 圞 土 圠 圢 圣 在 圩 圪 圬 圭 圮 圯 地 圲 圳 圴 圻 圽 圾 圿 址 坁 坂 坃 坅 坆 均 坉 坊 坋 坌 坍 坎 坏 坐 坑 坒 坔 块 坛 坟 坡 坢 坤 坦 坧 坨 坩 坪 坫 坭 坯 坰 坱 坲 坳 坴 坵 坶 坷 坺 坻 坼 坽 坾 坿 垀 垂 垃 垈 垊 型 垌 垍 垏 垐 垓 垔 垕 垗 垘 垙 垚 垛 垜 垝 垞 垟 垠 垡 垢 垣 垤 垥 垧 垪 垮 垳 垴 垵 垶 垸 垹 垺 垻 垼 垽 垾 垿 埁 埂 埃 埄 埆 埇 埈 埋 埌 城 埏 埐 埒 埔 埕 埗 埜 埝 埞 域 埠 埡 埢 埣 埤 埥 埦 埧 埩 埬 埭 埮 埯 埰 埱 埲 埳 埴 埵 埶 執 埸 培 基 埻 埼 埽 埾 堀 堁 堂 堃 堄 堅 堆 堇 堈 堉 堊 堋 堌 堍 堎 堐 堒 堔 堘 堙 堛 堜 堝 堞 堠 堡 堢 堣 堤 堥 堦 堧 堨 堩 堪 堬 堭 堮 堯 堰 報 堲 堳 場 堵 堶 堷 堸 堹 堺 堻 堽 堿 塀 塄 塇 塈 塉 塊 塋 塌 塍 塎 塏 塑 塒 塓 塔 塕 塗 塘 塙 塚 塛 塜 塝 塞 塟 塢 塣 塤 塥 塨 塩 填 塬 塭 塯 塱 塲 塳 塴 塵 塶 塹 塺 塻 塼 塽 塾 塿 墀 墁 墂 境 墅 墆 墇 墈 墉 墊 墋 墎 墏 墐 墑 墒 墓 墔 墖 墘 墙 墚 墜 墝 增 墟 墠 墡 墣 墥 墦 墧 墨 墩 墪 墫 墬 墮 墯 墰 墱 墳 墵 墶 墺 墻 墼 墽 墾 墿 壁 壂 壅 壆 壇 壈 壉 壋 壎 壏 壐 壑 壒 壓 壔 壕 壖 壘 壙 壚 壛 壜 壝 壞 壟 壠 壢 壣 壤 壧 壨 壩 士 壬 壯 声 売 壳 壴 壹 壺 壻 壼 壽 壾 壿 夂 夃 处 夅 夆 备 夊 夌 复 夎 夏 夑 夒 夔 夕 外 夗 夙 多 夜 夝 够 夠 夢 夤 夥 大 天 太 夫 夬 夭 央 夯 失 夲 头 夷 夸 夼 夾 奀 奄 奅 奇 奈 奉 奊 奎 奏 奐 契 奓 奔 奕 套 奘 奚 奜 奠 奡 奢 奥 奧 奩 奪 奫 奬 奭 奮 奰 奱 奲 女 奴 奵 奶 奷 奸 她 奻 奼 好 奾 奿 妀 妁 如 妃 妄 妅 妉 妊 妍 妎 妏 妐 妒 妓 妔 妖 妗 妘 妙 妚 妝 妞 妟 妠 妡 妢 妣 妤 妥 妦 妧 妨 妬 妮 妯 妰 妱 妲 妳 妴 妵 妶 妷 妸 妹 妺 妻 妼 妽 妾 妿 姀 姁 姃 姄 姅 姆 姇 姈 姉 姊 始 姌 姍 姎 姏 姐 姑 姒 姓 委 姖 姘 姙 姚 姛 姜 姝 姞 姠 姡 姣 姤 姥 姦 姨 姩 姪 姫 姬 姭 姮 姯 姰 姱 姲 姳 姴 姵 姶 姷 姸 姹 姺 姻 姼 姽 姾 姿 娀 威 娂 娃 娉 娊 娋 娌 娍 娏 娑 娒 娓 娕 娖 娗 娘 娙 娚 娛 娜 娞 娟 娠 娡 娣 娤 娥 娧 娩 娪 娫 娬 娭 娮 娳 娵 娶 娷 娸 娹 娼 娽 娾 婀 婁 婂 婃 婄 婅 婆 婇 婈 婉 婊 婌 婍 婐 婑 婒 婓 婔 婕 婖 婗 婘 婙 婚 婛 婜 婝 婞 婟 婠 婡 婢 婣 婤 婥 婦 婧 婨 婩 婪 婫 婬 婭 婮 婰 婱 婷 婸 婹 婺 婻 婼 婽 婾 婿 媁 媂 媃 媄 媆 媈 媊 媋 媌 媎 媏 媐 媑 媒 媓 媔 媕 媖 媗 媙 媚 媛 媜 媝 媞 媟 媠 媡 媢 媤 媥 媦 媧 媩 媪 媫 媬 媮 媯 媰 媱 媲 媳 媴 媵 媶 媷 媸 媹 媺 媻 媼 媽 媾 媿 嫀 嫁 嫂 嫃 嫄 嫆 嫇 嫈 嫉 嫊 嫋 嫌 嫍 嫎 嫏 嫑 嫓 嫕 嫖 嫗 嫘 嫙 嫚 嫛 嫜 嫝 嫞 嫟 嫠 嫡 嫢 嫣 嫤 嫥 嫦 嫨 嫩 嫪 嫫 嫬 嫭 嫮 嫰 嫲 嫳 嫴 嫵 嫶 嫷 嫸 嫹 嫺 嫻 嫽 嫾 嫿 嬁 嬂 嬃 嬅 嬇 嬈 嬉 嬋 嬌 嬍 嬏 嬐 嬑 嬓 嬔 嬕 嬖 嬗 嬙 嬚 嬛 嬝 嬞 嬟 嬠 嬡 嬣 嬤 嬥 嬦 嬧 嬨 嬪 嬫 嬬 嬭 嬮 嬯 嬰 嬲 嬴 嬸 嬼 嬽 嬾 嬿 孀 孁 孃 孄 孅 孆 孇 孈 孊 孋 孌 孍 孎 孏 子 孑 孓 孔 孕 孖 字 存 孚 孛 孜 孝 孟 孢 季 孤 孥 学 孨 孩 孫 孬 孭 孮 孰 孱 孲 孳 孴 孵 孶 孷 學 孺 孻 孼 孽 孿 宀 宁 宂 它 宄 宅 宇 守 安 宋 完 宎 宏 宐 宒 宓 宕 宖 宗 官 宙 定 宛 宜 宝 实 実 客 宣 室 宥 宦 宧 宨 宪 宬 宭 宮 宰 害 宴 宵 家 宷 宸 容 宿 寀 寁 寂 寃 寄 寅 密 寇 寊 寋 富 寍 寎 寐 寑 寒 寓 寔 寕 寖 寗 寘 寙 寛 寞 察 寠 寡 寢 寣 寤 寥 實 寧 寨 審 寪 寫 寬 寮 寯 寰 寱 寲 寳 寵 寶 寸 寺 寿 封 尃 射 尅 將 專 尉 尊 尋 尌 對 導 小 尐 少 尒 尓 尔 尕 尖 尚 尜 尞 尟 尠 尢 尣 尤 尥 尨 尪 尬 尰 就 尳 尷 尸 尹 尺 尻 尼 尾 尿 局 屁 屄 居 屆 屇 屈 屉 届 屋 屌 屍 屎 屏 屐 屑 屓 屔 展 屖 屘 屙 屜 屝 属 屠 屢 屣 層 履 屧 屨 屩 屪 屬 屭 屮 屯 山 屳 屴 屸 屹 屺 屻 屼 屾 岃 岅 岆 岈 岉 岊 岋 岌 岍 岏 岐 岑 岒 岓 岔 岕 岙 岚 岜 岝 岞 岟 岠 岡 岢 岣 岤 岥 岦 岧 岨 岩 岪 岫 岬 岭 岮 岯 岰 岱 岳 岵 岶 岷 岸 岺 峁 峂 峆 峇 峈 峉 峊 峋 峌 峎 峏 峐 峑 峒 峓 峔 峕 峖 峗 峘 峙 峚 峛 峞 峟 峥 峨 峩 峪 峬 峭 峮 峯 峰 峱 峴 峵 島 峷 峸 峹 峻 峼 峽 峿 崀 崁 崆 崇 崋 崌 崍 崎 崏 崐 崑 崒 崔 崕 崖 崗 崘 崙 崚 崛 崝 崞 崟 崠 崢 崣 崤 崥 崦 崧 崨 崩 崬 崮 崯 崰 崱 崲 崳 崴 崵 崶 崷 崸 崹 崺 崼 崽 崾 崿 嵀 嵁 嵂 嵃 嵅 嵆 嵇 嵈 嵉 嵊 嵋 嵌 嵎 嵐 嵑 嵒 嵕 嵖 嵗 嵙 嵛 嵞 嵢 嵣 嵥 嵧 嵨 嵩 嵫 嵬 嵯 嵰 嵱 嵲 嵴 嵷 嵸 嵹 嵺 嵻 嵼 嵽 嵾 嵿 嶀 嶁 嶂 嶄 嶅 嶆 嶇 嶈 嶉 嶊 嶋 嶍 嶎 嶒 嶓 嶔 嶕 嶗 嶙 嶚 嶜 嶝 嶞 嶟 嶠 嶡 嶢 嶤 嶧 嶨 嶩 嶪 嶫 嶬 嶭 嶮 嶯 嶰 嶱 嶲 嶴 嶵 嶶 嶷 嶸 嶹 嶺 嶼 嶽 巀 巁 巂 巃 巆 巇 巉 巋 巍 巏 巑 巒 巔 巕 巖 巗 巘 巛 川 州 巟 巠 巡 巢 工 左 巧 巨 巫 差 巰 己 已 巳 巴 巵 巷 巹 巽 巾 巿 市 布 帄 帆 帉 帊 帋 希 帎 帑 帒 帔 帕 帖 帗 帘 帙 帚 帛 帝 帟 帠 帡 帢 帣 帤 帥 帨 帩 師 席 帮 帳 帴 帶 帷 常 帽 帾 幀 幁 幂 幃 幄 幅 幈 幊 幋 幌 幍 幎 幏 幓 幔 幕 幗 幘 幙 幛 幜 幝 幞 幟 幠 幡 幢 幣 幦 幧 幨 幩 幪 幫 幬 幭 幮 幯 幰 干 平 年 幵 并 幸 幹 幺 幻 幼 幽 幾 广 庀 庂 広 庄 庆 庇 庈 庉 床 庋 庌 庍 序 庒 底 庖 店 庙 庚 庛 府 庠 庢 庣 庤 庥 度 座 庨 庪 庫 庬 庭 庮 庰 庱 庲 庳 庴 庵 庶 康 庸 庹 庽 庾 廁 廂 廄 廅 廆 廇 廈 廉 廊 廋 廌 廍 廎 廐 廑 廒 廓 廔 廕 廖 廗 廘 廙 廚 廛 廜 廝 廞 廟 廠 廡 廢 廣 廥 廦 廧 廨 廩 廬 廮 廯 廱 廲 廳 廴 延 廷 廸 廹 建 廻 廼 廾 廿 弁 异 弄 弅 弇 弈 弊 弋 弌 弍 弎 式 弒 弓 弔 引 弗 弘 弚 弛 弝 弟 弢 弣 弤 弥 弦 弧 弨 弩 弭 弮 弰 弱 弳 張 弶 強 弸 强 弻 弼 彀 彃 彄 彅 彆 彈 彉 彊 彋 彌 彍 彎 彏 彐 彑 彔 彖 彗 彘 彙 彜 彝 彞 彡 形 彣 彤 彥 彧 彩 彪 彫 彬 彭 彯 彰 影 彲 彳 彴 彶 彷 彸 役 彻 彼 彽 彾 彿 往 征 徂 徃 待 徆 徇 很 徉 徊 律 後 徐 徑 徒 徖 得 徘 徙 徛 徜 從 徟 徠 御 徤 徥 徦 徧 徨 復 循 徫 徬 徭 微 徯 徱 徲 徵 徶 德 徹 徺 徻 徼 徽 徾 徿 忀 忁 忂 心 忄 必 忉 忌 忍 忏 忐 忑 忒 忔 忕 忖 志 忘 忙 忛 忝 忞 忟 忠 忡 忣 忤 忥 忨 忪 快 忭 忮 忯 忱 忳 忴 念 忷 忸 忺 忻 忽 忿 怀 怉 怊 怋 怌 怍 怎 怏 怐 怑 怒 怓 怔 怕 怖 怗 怙 怚 怛 怜 思 怞 怠 怡 怢 怣 怤 急 怦 性 怨 怩 怪 怫 怬 怭 怮 怯 怱 怲 怳 怴 怵 怷 怹 总 恀 恁 恂 恃 恄 恅 恆 恇 恉 恊 恋 恌 恍 恐 恒 恓 恔 恕 恘 恙 恚 恛 恝 恞 恟 恢 恣 恤 恥 恦 恧 恨 恩 恪 恫 恬 恭 恮 息 恰 恲 恵 恷 恾 恿 悀 悁 悃 悄 悅 悆 悇 悈 悉 悊 悌 悍 悎 悐 悒 悔 悕 悖 悗 悚 悛 悜 悝 悞 悟 悠 悢 患 悤 悦 悧 您 悰 悱 悲 悳 悴 悵 悶 悷 悸 悹 悺 悻 悼 悽 悾 悿 惀 惁 惃 惄 情 惆 惇 惈 惉 惊 惋 惌 惍 惎 惏 惑 惓 惔 惕 惗 惘 惙 惚 惛 惜 惝 惞 惟 惠 惡 惢 惣 惤 惦 惧 惨 惩 惰 惱 惲 想 惴 惵 惶 惷 惸 惹 惺 惻 惼 惽 惾 惿 愀 愁 愃 愄 愅 愆 愇 愈 愉 愊 愋 愌 愍 愎 意 愐 愒 愓 愔 愕 愖 愘 愙 愚 愛 愜 愝 感 愠 愢 愣 愧 愨 愩 愫 愬 愮 愯 愰 愲 愴 愶 愷 愻 愽 愾 愿 慀 慁 慂 慄 慅 慆 慇 慈 慉 慊 態 慌 慍 慎 慏 慐 慒 慓 慔 慕 慖 慘 慙 慚 慛 慜 慝 慞 慟 慠 慡 慢 慣 慤 慥 慦 慧 慨 慪 慫 慬 慮 慯 慰 慱 慲 慳 慴 慵 慶 慷 慹 慺 慼 慽 慾 憀 憁 憂 憃 憇 憉 憊 憋 憌 憍 憎 憐 憑 憒 憓 憔 憕 憖 憘 憙 憚 憛 憜 憝 憟 憡 憢 憤 憧 憨 憩 憪 憫 憬 憭 憮 憯 憰 憱 憲 憳 憴 憵 憶 憷 憸 憹 憺 憼 憾 憿 懀 懁 懂 懃 懅 懆 懇 懈 應 懊 懋 懌 懍 懏 懐 懓 懖 懘 懚 懞 懟 懠 懢 懣 懤 懥 懦 懧 懨 懩 懪 懫 懭 懮 懰 懱 懲 懵 懶 懷 懸 懹 懺 懻 懼 懽 懾 懿 戀 戁 戃 戄 戇 戈 戉 戊 戌 戍 戎 成 我 戒 戔 戕 或 戙 戚 戛 戟 戠 戡 戢 戣 戤 戥 戧 戩 截 戫 戬 戭 戮 戰 戲 戳 戴 戶 户 戹 戺 戽 戾 房 所 扁 扂 扃 扆 扇 扈 扉 扊 手 扌 才 扎 扐 扑 扒 打 扔 托 扙 扚 扛 扜 扞 扠 扡 扢 扣 扤 扥 扦 扨 扭 扮 扯 扰 扱 扲 扳 扴 扶 扷 批 扺 扻 扼 扽 找 承 技 抁 抂 抃 抄 抅 抆 抇 抈 抉 把 抌 抎 抏 抐 抑 抒 抓 抔 投 抖 抗 折 抝 护 抦 抨 抩 抪 披 抬 抭 抮 抯 抰 抱 抳 抴 抵 抶 抸 抹 抻 押 抽 抾 抿 拁 拂 拃 拄 担 拆 拇 拈 拉 拊 拋 拌 拍 拎 拏 拐 拑 拒 拓 拔 拕 拖 拗 拘 拙 拚 招 拜 拟 拥 拫 括 拭 拮 拯 拰 拱 拲 拳 拴 拵 拶 拷 拸 拹 拺 拻 拼 拽 拾 拿 挀 持 挂 挃 指 挈 按 挋 挌 挍 挎 挏 挐 挑 挓 挔 挕 挖 挘 挨 挩 挪 挫 挬 挭 挮 振 挱 挲 挳 挴 挵 挶 挷 挸 挹 挺 挻 挼 挽 挾 捀 捁 捂 捃 捄 捅 捆 捇 捈 捉 捊 捋 捌 捍 捎 捏 捐 捑 捔 捕 捖 捗 捘 捙 捚 捝 捤 捥 捧 捨 捩 捫 捬 捭 据 捯 捰 捱 捲 捵 捶 捷 捸 捹 捺 捻 捼 捽 捿 掀 掁 掂 掃 掄 掅 掇 授 掉 掊 掋 掌 掍 掎 掏 掐 掑 排 掔 掖 掗 掘 掙 掛 掜 掝 掞 掟 掠 採 探 掣 掤 接 控 推 掩 措 掫 掬 掭 掮 掯 掰 掱 掹 掽 掾 揀 揁 揂 揃 揄 揅 揆 揇 揈 揉 揊 揋 揌 揍 揎 描 提 揑 插 揓 揕 揖 揗 揘 揙 揚 換 揜 揝 揞 揟 揠 握 揢 揣 揤 揥 揦 揧 揨 揩 揪 揫 揭 揮 揯 揰 揱 揲 揳 援 揵 揶 揸 揹 揻 揼 揾 搆 搇 搉 搊 搋 搌 損 搎 搏 搐 搒 搓 搔 搕 搖 搗 搘 搚 搛 搜 搞 搟 搠 搡 搢 搣 搤 搥 搦 搧 搨 搪 搫 搬 搭 搮 搯 搰 搲 搳 搴 搵 搶 搷 搸 搹 携 搻 搽 搾 搿 摀 摁 摃 摋 摍 摎 摐 摑 摒 摓 摔 摘 摙 摚 摛 摜 摝 摞 摟 摠 摡 摥 摦 摧 摨 摩 摫 摬 摭 摮 摯 摰 摱 摲 摳 摴 摵 摶 摷 摸 摹 摺 摻 摼 摽 摿 撂 撅 撇 撈 撉 撊 撋 撌 撍 撏 撐 撑 撒 撓 撕 撖 撗 撘 撙 撚 撜 撝 撞 撟 撠 撢 撣 撤 撥 撦 撩 撫 撬 播 撮 撯 撰 撱 撲 撳 撴 撶 撻 撼 撽 撾 撿 擀 擁 擂 擃 擄 擅 擇 擉 擊 擋 操 擎 擏 擐 擒 擓 擔 擖 擗 擘 擙 據 擛 擝 擠 擡 擢 擣 擤 擥 擦 擧 擨 擩 擪 擫 擬 擭 擯 擰 擱 擲 擳 擴 擷 擸 擺 擻 擼 擽 擾 擿 攀 攁 攃 攄 攆 攇 攉 攊 攌 攍 攎 攏 攐 攑 攓 攔 攕 攖 攗 攘 攙 攛 攜 攝 攞 攟 攠 攡 攢 攣 攤 攥 攦 攩 攪 攫 攬 攭 攮 支 攰 攲 攳 攴 攵 收 攷 攸 改 攻 攽 放 政 敁 敃 故 敆 效 敉 敊 敍 敏 救 敓 敔 敕 敖 敗 敘 教 敚 敜 敝 敞 敟 敢 散 敤 敥 敦 敧 敨 敪 敫 敬 敭 敯 敲 敳 整 敵 敶 敷 數 敹 敺 敻 敼 敿 斀 斁 斂 斃 斄 斅 斆 文 斈 斉 斋 斌 斐 斑 斒 斔 斕 斖 斗 料 斛 斜 斝 斞 斟 斠 斡 斢 斤 斥 斧 斨 斪 斫 斬 斮 斯 新 斲 斳 斵 斶 斷 斸 方 斻 於 施 斾 斿 旁 旂 旃 旄 旅 旆 旋 旌 旍 旎 族 旐 旑 旒 旓 旔 旖 旗 旚 旛 旝 旞 旟 无 旡 既 旣 日 旦 旨 早 旬 旭 旮 旯 旰 旱 旲 旳 旴 旵 旺 旻 旼 旽 旿 昀 昂 昃 昄 昅 昆 昇 昈 昉 昊 昋 昌 昍 明 昏 昐 昑 昒 易 昔 昕 昘 昜 昝 昞 星 映 昡 昢 昣 昤 春 昦 昧 昨 昫 昭 昮 是 昰 昱 昲 昳 昴 昵 昶 昹 昺 晁 時 晃 晄 晅 晇 晈 晉 晊 晋 晌 晍 晏 晑 晒 晓 晗 晙 晚 晛 晜 晝 晞 晟 晠 晡 晢 晣 晤 晥 晦 晧 晨 晪 晫 晬 普 景 晰 晱 晲 晳 晴 晶 晷 晸 晹 智 晻 晼 晽 晾 暀 暄 暅 暆 暇 暈 暉 暊 暋 暌 暍 暎 暐 暑 暒 暔 暕 暖 暗 暘 暙 暚 暝 暟 暠 暡 暢 暤 暨 暩 暪 暫 暭 暮 暯 暰 暱 暲 暳 暴 暵 暶 暷 暸 暹 暺 暻 暽 暾 暿 曀 曄 曆 曇 曈 曉 曊 曋 曌 曍 曎 曏 曒 曖 曘 曙 曚 曛 曜 曝 曞 曠 曣 曤 曦 曧 曨 曩 曫 曬 曭 曮 曰 曱 曲 曳 更 曶 曷 書 曹 曼 曾 替 最 朁 朂 會 朄 朅 月 有 朊 朋 朌 服 朎 朏 朐 朒 朓 朔 朕 朖 朗 朘 朙 望 朝 朞 期 朠 朡 朢 朣 朥 朦 朧 木 未 末 本 札 朮 朱 朳 朴 朵 朶 朸 朹 机 朻 朼 朽 朾 朿 杄 杅 杆 杇 杈 杉 杋 杌 杍 李 杏 材 村 杓 杕 杖 杗 杙 杚 杜 杝 杞 束 杠 条 杢 杧 杪 杫 杬 杭 杮 杯 杰 東 杲 杳 杴 杵 杶 杷 杸 杹 杺 杻 杼 杽 松 板 极 枂 枃 构 枅 枆 枇 枉 枋 枌 枍 枎 枏 析 枑 枒 枓 枔 枕 林 枘 枙 枚 果 枝 枟 枠 枤 枬 枮 枯 枰 枱 枲 枳 枴 枵 架 枷 枸 枹 枺 枻 枿 柀 柁 柂 柃 柄 柅 柆 柈 柉 柊 柋 柌 柍 柎 柏 某 柑 柒 染 柔 柖 柗 柘 柙 柚 柛 柜 柝 柞 柟 柢 柣 柤 查 柦 柧 柩 柪 柫 柬 柭 柮 柯 柰 柱 柲 柳 柴 柵 柶 柷 柸 柹 柺 柼 柾 柿 栀 栁 栂 栃 栄 栍 栐 栒 栓 栔 栖 栗 栘 栚 栛 栜 栝 栞 栟 栠 校 栢 栥 栦 栨 栩 株 栫 栭 栮 栯 栱 栲 栳 栴 栵 栶 样 核 根 栺 栻 格 栽 栾 桀 桁 桂 桃 桄 桅 框 桇 案 桉 桊 桋 桌 桍 桎 桏 桐 桑 桓 桔 桕 桖 桝 桥 桫 桭 桮 桯 桱 桲 桴 桵 桶 桷 桸 桹 桻 桼 桽 桾 桿 梀 梁 梂 梃 梄 梅 梆 梇 梈 梉 梊 梋 梌 梏 梐 梑 梒 梓 梔 梖 梗 梘 梛 梜 條 梟 梠 梡 梢 梣 梤 梦 梧 梨 梩 梪 梫 梬 梭 梮 梯 械 梱 梲 梳 梴 梵 梶 梹 梽 棁 棃 棄 棅 棆 棇 棈 棉 棊 棋 棌 棍 棎 棐 棑 棒 棓 棔 棕 棖 棗 棘 棚 棜 棝 棞 棟 棠 棡 棣 棤 棦 棧 棨 棩 棪 棫 棬 森 棯 棰 棱 棲 棳 棴 棵 棶 棷 棸 棹 棺 棻 棼 棽 椀 椁 椂 椃 椄 椅 椆 椇 椈 椉 椊 椋 椌 植 椎 椏 椐 椑 椒 椓 椔 椕 椗 椘 椙 椚 椛 椥 椪 椬 椯 椰 椲 椳 椴 椵 椶 椷 椸 椹 椻 椼 椽 椾 椿 楀 楁 楂 楃 楄 楅 楆 楈 楉 楊 楋 楌 楎 楏 楑 楒 楓 楔 楕 楖 楗 楘 楙 楚 楛 楜 楝 楞 楟 楠 楡 楢 楣 楤 楥 楦 楧 楨 楩 楪 楫 楬 業 楮 楯 楰 楱 楲 楳 楴 極 楶 楷 楸 楹 楺 楻 榀 概 榃 榅 榆 榊 榍 榎 榐 榑 榓 榔 榕 榖 榗 榘 榙 榚 榛 榜 榞 榟 榠 榡 榢 榣 榤 榥 榦 榧 榨 榩 榪 榫 榬 榭 榮 榯 榰 榱 榲 榳 榴 榵 榶 榷 榹 榻 榼 榽 榾 榿 槀 槁 槂 槃 槄 槆 槉 槊 構 槌 槍 槎 槏 槐 槑 槓 槔 槕 槖 槙 槡 槢 槤 槥 槦 槧 槨 槩 槫 槬 槭 槮 槱 槲 槳 槴 槶 槷 槸 槹 槺 槻 槼 槽 槾 槿 樀 樁 樂 樃 樄 樅 樆 樇 樈 樉 樊 樋 樌 樍 樏 樑 樓 樔 樕 樖 樗 樘 標 樚 樛 樜 樝 樞 樟 樠 模 樣 樥 樦 樧 樨 権 樫 樬 樭 樲 樳 樴 樵 樸 樹 樺 樻 樼 樽 樾 樿 橀 橁 橃 橄 橅 橆 橇 橈 橉 橋 橌 橍 橎 橏 橐 橑 橒 橓 橔 橕 橖 橗 橘 橙 橚 橛 橝 橞 機 橠 橡 橢 橣 橤 橥 橦 橧 橨 橩 橪 橫 橭 橯 橱 橴 橶 橺 橾 橿 檀 檁 檂 檃 檄 檅 檇 檉 檊 檌 檍 檎 檏 檐 檑 檒 檓 檔 檕 檖 檗 檙 檚 檛 檜 檝 檞 檟 檠 檡 檢 檣 檤 檥 檦 檧 檨 檫 檬 檭 檮 檯 檱 檲 檳 檴 檵 檶 檷 檸 檹 檺 檻 檽 檾 櫂 櫃 櫅 櫆 櫇 櫈 櫉 櫊 櫋 櫌 櫍 櫏 櫐 櫑 櫓 櫔 櫘 櫙 櫚 櫛 櫜 櫝 櫞 櫟 櫠 櫡 櫥 櫧 櫨 櫪 櫫 櫬 櫮 櫯 櫰 櫱 櫳 櫶 櫸 櫹 櫺 櫻 櫼 欀 欂 欃 欄 欅 欈 欉 權 欋 欏 欐 欑 欒 欓 欖 欗 欘 欙 欚 欝 欞 欠 次 欣 欥 欨 欬 欭 欯 欱 欲 欳 欴 欵 欶 欷 欸 欹 欺 欻 欼 欽 款 欿 歁 歂 歃 歅 歆 歇 歈 歉 歊 歋 歌 歍 歎 歐 歑 歒 歔 歕 歖 歗 歙 歛 歜 歞 歟 歠 歡 止 正 此 步 武 歧 歪 歭 歯 歲 歴 歶 歷 歸 歹 歺 死 歾 歿 殀 殁 殂 殃 殄 殆 殈 殉 殊 殌 殍 殎 殏 殑 殔 殕 殖 殗 殘 殙 殛 殞 殟 殠 殢 殣 殤 殥 殦 殧 殪 殫 殭 殮 殯 殰 殲 殳 段 殶 殷 殺 殼 殽 殿 毀 毁 毃 毄 毅 毆 毇 毈 毉 毊 毋 毌 母 每 毐 毒 毓 比 毖 毗 毘 毚 毛 毜 毞 毠 毡 毢 毣 毤 毦 毧 毨 毪 毫 毬 毯 毰 毲 毳 毷 毸 毹 毺 毻 毼 毽 毾 毿 氀 氁 氂 氃 氄 氅 氆 氈 氉 氋 氌 氍 氏 氐 民 氓 气 氕 氖 氘 氙 氚 氛 氜 氝 氟 氠 氡 氣 氤 氥 氦 氧 氨 氪 氫 氬 氮 氯 氰 氱 氲 氳 水 氵 氶 氷 永 氹 氺 氻 氽 氾 氿 汀 汁 求 汃 汆 汉 汊 汋 汌 汍 汎 汏 汐 汒 汔 汕 汗 汘 汙 汚 汛 汜 汝 汞 江 池 污 汥 汦 汧 汨 汩 汪 汫 汭 汮 汯 汰 汱 汲 汳 汴 汵 汶 汸 汹 決 汻 汽 汾 汿 沀 沁 沂 沃 沄 沅 沆 沇 沈 沉 沊 沋 沌 沍 沎 沏 沐 沒 沓 沔 沕 沖 沘 沙 沚 沛 沜 沝 沟 沢 沪 沫 沬 沭 沮 沯 沰 沱 沲 河 沴 沶 沷 沸 油 沺 治 沼 沽 沾 沿 泀 況 泂 泃 泄 泅 泆 泇 泉 泊 泋 泌 泍 泎 泏 泐 泑 泒 泓 泔 法 泖 泗 泙 泚 泛 泜 泝 泞 泟 泠 泡 波 泣 泥 泧 注 泩 泪 泫 泬 泭 泮 泯 泰 泱 泲 泳 泵 泹 泿 洀 洁 洂 洃 洄 洅 洆 洇 洈 洉 洊 洋 洌 洍 洎 洏 洐 洑 洒 洖 洗 洘 洙 洚 洛 洝 洞 洟 洠 洢 洤 津 洦 洧 洨 洩 洪 洫 洬 洭 洮 洯 洰 洱 洲 洳 洴 洵 洶 洷 洸 洹 洺 活 洼 洽 派 洿 浀 流 浂 济 浗 浘 浙 浚 浛 浜 浞 浟 浠 浡 浢 浣 浤 浥 浦 浧 浨 浩 浪 浬 浭 浮 浯 浰 浱 浲 浴 浵 浶 海 浸 浹 浺 浻 浼 浽 浾 浿 涀 涁 涂 涃 涄 涅 涆 涇 消 涉 涊 涋 涌 涍 涎 涏 涐 涑 涒 涓 涔 涕 涖 涗 涘 涚 涤 涥 涪 涫 涬 涮 涯 涱 液 涳 涴 涵 涷 涸 涹 涺 涻 涼 涽 涾 涿 淀 淂 淄 淅 淆 淇 淈 淉 淊 淋 淌 淍 淏 淐 淑 淒 淓 淔 淕 淖 淗 淘 淙 淚 淛 淜 淝 淞 淟 淠 淡 淢 淣 淤 淥 淦 淨 淩 淪 淫 淬 淭 淮 淯 淰 深 淲 淳 淴 淵 淶 混 淹 淺 添 淼 淽 淾 渀 渂 渃 渄 清 渊 渏 渕 渘 渙 渚 減 渜 渝 渟 渠 渡 渢 渣 渤 渥 渦 渧 渨 温 渪 渫 測 渭 渮 港 渰 渱 渲 渳 渴 渵 渶 游 渹 渺 渻 渼 渽 渾 渿 湀 湁 湃 湄 湅 湆 湇 湉 湊 湋 湍 湎 湏 湐 湑 湒 湓 湔 湕 湖 湗 湘 湙 湚 湛 湜 湝 湞 湟 湠 湡 湢 湣 湤 湥 湦 湧 湨 湩 湫 湮 湯 湱 湲 湳 湴 湶 湷 湸 湹 湼 溆 溈 溉 溋 溍 溎 溏 源 溒 溓 溔 準 溗 溘 溙 溚 溛 溜 溝 溞 溟 溠 溡 溢 溣 溤 溥 溦 溧 溪 溫 溮 溯 溰 溱 溲 溳 溴 溵 溶 溷 溸 溹 溺 溻 溼 溽 溾 溿 滀 滁 滂 滃 滄 滅 滆 滇 滈 滉 滊 滋 滌 滍 滎 滏 滐 滑 滒 滓 滔 滕 滖 滘 滙 滚 滛 滜 滝 滢 滨 滩 滫 滬 滭 滮 滯 滱 滲 滴 滵 滶 滷 滸 滹 滺 滻 滼 滽 滾 滿 漀 漁 漂 漃 漄 漅 漆 漇 漈 漉 漊 漋 漌 漍 漎 漏 漒 漓 演 漕 漖 漗 漘 漙 漚 漜 漞 漟 漠 漡 漢 漣 漤 漥 漦 漧 漩 漪 漫 漬 漭 漮 漯 漰 漱 漲 漳 漴 漵 漶 漷 漸 漹 漺 漻 漼 漽 漾 漿 潀 潁 潃 潄 潎 潏 潐 潑 潒 潓 潔 潕 潖 潗 潘 潚 潛 潜 潝 潞 潟 潠 潡 潢 潣 潤 潦 潧 潩 潪 潫 潬 潭 潮 潯 潰 潲 潳 潴 潶 潷 潸 潹 潺 潻 潼 潽 潾 潿 澀 澁 澂 澄 澅 澆 澇 澈 澉 澊 澋 澌 澍 澎 澐 澒 澓 澔 澕 澖 澗 澝 澞 澟 澠 澡 澢 澣 澤 澥 澦 澧 澨 澩 澪 澫 澬 澭 澮 澯 澰 澱 澲 澳 澴 澵 澶 澸 澹 澺 澻 澼 澽 澾 澿 激 濁 濂 濃 濄 濆 濇 濈 濉 濊 濋 濌 濍 濎 濏 濓 濔 濕 濘 濙 濚 濛 濜 濝 濞 濟 濠 濡 濢 濣 濤 濦 濧 濨 濩 濫 濬 濭 濮 濯 濰 濱 濲 濴 濶 濷 濸 濺 濻 濼 濾 濿 瀀 瀁 瀃 瀄 瀅 瀆 瀇 瀉 瀊 瀋 瀌 瀍 瀎 瀏 瀑 瀔 瀕 瀖 瀗 瀘 瀙 瀚 瀛 瀜 瀝 瀞 瀟 瀠 瀡 瀢 瀣 瀤 瀦 瀧 瀨 瀩 瀪 瀫 瀬 瀯 瀰 瀱 瀲 瀳 瀴 瀵 瀷 瀸 瀹 瀺 瀻 瀼 瀾 瀿 灀 灁 灂 灃 灄 灅 灆 灈 灉 灊 灋 灌 灍 灐 灑 灒 灔 灕 灖 灗 灘 灚 灛 灜 灝 灞 灟 灠 灡 灢 灣 灤 灥 灦 灧 灨 灩 灪 火 灬 灮 灯 灰 灱 灴 灵 灶 灷 灸 灹 灺 灼 災 灾 灿 炁 炂 炃 炄 炅 炆 炉 炊 炋 炎 炏 炑 炒 炓 炔 炕 炖 炘 炙 炚 炟 炠 炡 炣 炤 炥 炦 炧 炩 炫 炬 炭 炮 炯 炰 炱 炳 炴 炵 炷 炸 点 為 炻 炼 炽 炾 烀 烄 烅 烆 烇 烈 烊 烋 烌 烍 烎 烏 烐 烑 烒 烓 烔 烕 烖 烗 烘 烙 烚 烜 烝 烞 烟 烠 烡 烢 烤 烯 烰 烱 烳 烴 烵 烶 烷 烸 烹 烺 烻 烼 烽 烾 烿 焀 焂 焄 焅 焆 焉 焊 焋 焌 焍 焎 焐 焓 焗 焙 焚 焛 焜 焝 焞 焟 焠 無 焢 焣 焥 焦 焨 焩 焫 焬 焮 焯 焰 焱 焲 焳 焴 焵 然 焺 焻 焾 煀 煁 煂 煃 煄 煅 煆 煇 煉 煊 煋 煌 煍 煎 煏 煐 煑 煒 煓 煔 煖 煗 煘 煙 煚 煜 煝 煞 煟 煠 煡 煢 煣 煤 煥 煦 照 煨 煩 煪 煫 煬 煮 煰 煱 煲 煳 煴 煵 煶 煷 煸 煺 煻 煼 煽 煾 熀 熁 熂 熄 熅 熆 熇 熈 熉 熊 熌 熎 熏 熐 熑 熒 熔 熖 熗 熘 熙 熚 熛 熜 熝 熞 熟 熠 熡 熢 熣 熤 熥 熧 熨 熩 熪 熬 熭 熯 熰 熱 熲 熳 熴 熵 熷 熸 熹 熺 熼 熽 熾 熿 燀 燁 燂 燃 燄 燅 燆 燇 燈 燉 燊 燋 燎 燏 燐 燑 燒 燔 燕 燖 燘 燙 燚 燛 燜 燝 營 燠 燡 燢 燤 燥 燦 燧 燨 燫 燬 燭 燮 燰 燱 燲 燴 燵 燶 燸 燹 燻 燼 燽 燾 燿 爀 爁 爂 爃 爅 爆 爇 爉 爊 爌 爍 爎 爏 爐 爓 爔 爕 爖 爗 爙 爚 爛 爝 爞 爟 爢 爣 爤 爥 爦 爧 爨 爩 爪 爫 爬 爭 爮 爰 爵 父 爸 爹 爺 爻 爽 爾 爿 牀 牁 牂 牄 牆 片 版 牉 牊 牋 牌 牏 牐 牒 牓 牕 牖 牗 牘 牙 牚 牛 牜 牝 牞 牟 牠 牡 牢 牣 牦 牧 物 牪 牬 牮 牯 牰 牲 牳 牴 牶 牷 牸 特 牻 牼 牽 牾 牿 犀 犁 犂 犄 犅 犆 犇 犈 犉 犋 犌 犍 犎 犏 犐 犑 犒 犓 犔 犕 犖 犗 犘 犚 犛 犝 犞 犟 犡 犢 犣 犤 犥 犦 犧 犨 犩 犪 犬 犭 犮 犯 犰 犲 犴 犵 犺 犽 犿 狀 狁 狂 狃 狄 狅 狆 狉 狊 狋 狌 狍 狎 狐 狑 狒 狔 狖 狗 狘 狙 狚 狜 狟 狠 狡 狢 狣 狤 狦 狨 狩 狪 狫 狳 狴 狶 狷 狸 狹 狺 狻 狼 狽 狾 狿 猀 猁 猂 猄 猇 猈 猊 猋 猌 猏 猐 猑 猒 猓 猖 猗 猘 猙 猛 猜 猝 猞 猢 猣 猥 猦 猧 猨 猩 猪 猫 猬 猭 献 猰 猱 猲 猳 猴 猵 猶 猷 猸 猹 猺 猻 猼 猾 猿 獀 獁 獂 獃 獄 獅 獈 獉 獊 獌 獍 獎 獏 獐 獑 獒 獗 獘 獙 獚 獛 獝 獞 獟 獠 獡 獢 獥 獦 獧 獨 獩 獪 獫 獬 獮 獯 獰 獱 獲 獳 獴 獵 獶 獷 獸 獺 獻 獼 獽 獾 獿 玀 玁 玂 玃 玄 玅 玆 率 玈 玉 玊 王 玌 玎 玏 玒 玓 玔 玕 玖 玗 玘 玜 玝 玞 玟 玠 玡 玢 玤 玥 玦 玧 玨 玩 玪 玫 玬 玭 玲 玳 玴 玵 玶 玷 玸 玹 玺 玻 玼 玾 玿 珀 珂 珃 珄 珅 珆 珇 珈 珉 珊 珋 珌 珍 珎 珏 珐 珒 珓 珔 珕 珖 珗 珘 珙 珚 珛 珜 珝 珞 珠 珡 珢 珣 珤 珥 珦 珧 珨 珩 珪 珫 班 珮 珯 珳 珴 珵 珶 珷 珸 珹 珺 珻 珼 珽 現 珿 琀 琁 琂 球 琄 琅 理 琇 琈 琉 琊 琋 琌 琍 琑 琒 琔 琕 琖 琗 琙 琚 琛 琜 琝 琞 琟 琠 琡 琢 琣 琤 琥 琦 琨 琩 琪 琫 琬 琭 琮 琯 琰 琱 琲 琳 琴 琵 琶 琷 琸 琹 琺 琼 琿 瑀 瑁 瑂 瑃 瑄 瑅 瑆 瑇 瑈 瑉 瑊 瑋 瑌 瑍 瑎 瑏 瑐 瑑 瑒 瑓 瑔 瑕 瑖 瑗 瑙 瑚 瑛 瑜 瑝 瑞 瑟 瑠 瑡 瑢 瑣 瑤 瑥 瑧 瑨 瑩 瑪 瑫 瑬 瑭 瑮 瑯 瑰 瑱 瑲 瑳 瑴 瑵 瑶 瑹 瑺 瑼 瑽 瑾 瑿 璀 璁 璂 璃 璅 璆 璇 璈 璉 璊 璋 璌 璍 璐 璒 璔 璕 璗 璘 璙 璚 璛 璜 璝 璞 璟 璠 璡 璣 璤 璥 璦 璧 璨 璩 璪 璫 璭 璯 環 璱 璲 璴 璵 璶 璷 璸 璹 璺 璻 璽 璾 璿 瓀 瓁 瓂 瓃 瓅 瓆 瓈 瓊 瓋 瓌 瓏 瓐 瓓 瓔 瓕 瓖 瓗 瓘 瓙 瓚 瓛 瓜 瓝 瓞 瓟 瓠 瓡 瓢 瓣 瓤 瓥 瓦 瓧 瓨 瓩 瓬 瓮 瓰 瓱 瓲 瓴 瓵 瓶 瓷 瓸 瓻 瓽 瓾 瓿 甀 甂 甃 甄 甅 甇 甈 甋 甌 甍 甎 甏 甐 甑 甒 甓 甔 甕 甖 甗 甘 甙 甚 甜 甝 甞 生 甡 產 甥 甦 用 甩 甪 甫 甬 甭 甮 甯 田 由 甲 申 甴 电 男 甸 甹 町 画 甽 甾 甿 畀 畂 畆 畇 畈 畊 畋 界 畍 畎 畏 畑 畓 畔 畕 留 畚 畛 畜 畝 畟 畠 畢 畣 畤 略 畦 畧 番 畫 畬 畭 畮 畯 異 畲 當 畷 畸 畹 畺 畽 畾 畿 疀 疃 疄 疆 疇 疊 疋 疌 疍 疎 疏 疐 疑 疒 疔 疕 疘 疙 疚 疝 疞 疢 疣 疤 疥 疧 疪 疫 疰 疱 疲 疳 疴 疵 疶 疸 疹 疺 疻 疼 疽 疾 疿 痀 痁 痂 痃 痄 病 症 痈 痊 痋 痌 痍 痎 痏 痐 痑 痒 痔 痕 痗 痘 痙 痚 痛 痜 痝 痞 痟 痠 痡 痢 痣 痤 痦 痧 痭 痯 痰 痱 痲 痳 痴 痵 痶 痷 痸 痹 痺 痻 痼 痽 痾 痿 瘀 瘁 瘂 瘃 瘇 瘈 瘉 瘊 瘋 瘌 瘍 瘏 瘐 瘑 瘓 瘔 瘕 瘖 瘙 瘚 瘛 瘜 瘝 瘞 瘟 瘠 瘡 瘢 瘣 瘤 瘥 瘦 瘧 瘨 瘩 瘬 瘭 瘯 瘰 瘱 瘲 瘳 瘴 瘵 瘸 瘺 瘻 瘼 瘽 癀 療 癃 癆 癇 癈 癉 癌 癍 癎 癏 癐 癑 癒 癓 癔 癖 癗 癘 癙 癚 癜 癟 癠 癡 癢 癤 癥 癦 癧 癩 癪 癬 癭 癮 癯 癰 癱 癲 癳 癴 癵 癶 癸 癹 発 登 發 白 百 癿 皁 皂 的 皆 皇 皈 皉 皊 皋 皎 皏 皐 皒 皓 皕 皖 皙 皚 皛 皜 皝 皞 皡 皤 皥 皦 皪 皫 皭 皮 皯 皰 皴 皵 皷 皸 皺 皻 皽 皾 皿 盂 盃 盄 盅 盆 盈 盉 益 盌 盍 盎 盒 盓 盔 盖 盙 盚 盛 盜 盝 盞 盟 盡 監 盤 盥 盦 盧 盩 盪 盬 盭 目 盯 盰 盱 盲 盳 直 盵 盷 相 盹 盺 盻 盼 盾 省 眃 眄 眅 眇 眈 眉 眊 看 県 眎 眏 眐 眑 眒 眓 眕 眙 眚 眛 眝 眞 真 眠 眢 眣 眤 眥 眦 眧 眨 眩 眫 眭 眯 眱 眲 眳 眴 眵 眶 眷 眸 眹 眺 眻 眼 眽 眾 着 睃 睄 睅 睆 睇 睊 睋 睌 睍 睎 睏 睒 睔 睕 睖 睘 睙 睚 睛 睜 睞 睟 睠 睡 睢 督 睥 睦 睧 睨 睩 睪 睫 睬 睭 睮 睯 睲 睷 睸 睹 睺 睻 睼 睽 睾 睿 瞀 瞁 瞂 瞃 瞄 瞅 瞇 瞈 瞉 瞋 瞌 瞍 瞎 瞏 瞑 瞓 瞕 瞗 瞘 瞙 瞚 瞛 瞜 瞝 瞞 瞟 瞠 瞡 瞢 瞣 瞥 瞧 瞨 瞪 瞫 瞬 瞭 瞯 瞰 瞱 瞲 瞳 瞴 瞵 瞶 瞷 瞹 瞺 瞻 瞼 瞽 瞾 瞿 矂 矃 矄 矅 矇 矉 矊 矋 矌 矍 矎 矏 矐 矓 矔 矕 矗 矘 矙 矚 矛 矜 矝 矞 矠 矢 矣 知 矦 矧 矨 矩 矬 短 矮 矯 矰 矱 矲 石 矴 矷 矸 矹 矺 矻 矼 矽 矾 砂 砃 砅 砆 砈 砉 砌 砍 砎 砏 砐 砑 砒 砓 研 砘 砜 砝 砞 砟 砠 砡 砢 砣 砥 砦 砧 砨 砩 砪 砫 砬 砭 砮 砯 砰 砱 砲 砳 破 砵 砷 砸 砹 砼 砽 硂 硃 硄 硅 硇 硈 硉 硊 硋 硌 硍 硎 硐 硑 硒 硓 硔 硜 硝 硞 硠 硢 硤 硥 硦 硨 硩 硪 硫 硬 硭 确 硯 硰 硱 硹 硺 硻 硼 硾 硿 碀 碁 碃 碄 碅 碆 碇 碈 碉 碌 碍 碎 碏 碑 碓 碔 碕 碖 碗 碘 碙 碚 碞 碟 碠 碡 碢 碣 碤 碥 碧 碨 碩 碪 碫 碬 碭 碯 碰 碱 碲 碳 碴 碶 碸 碹 確 碻 碼 碾 磁 磃 磄 磅 磇 磈 磉 磊 磋 磌 磍 磎 磏 磐 磑 磒 磓 磔 磕 磗 磘 磚 磛 磝 磞 磟 磠 磡 磢 磣 磤 磥 磧 磨 磩 磪 磬 磭 磮 磯 磰 磱 磲 磳 磴 磵 磷 磹 磺 磻 磼 磽 磾 磿 礁 礂 礄 礅 礆 礉 礌 礎 礐 礑 礒 礓 礔 礗 礙 礛 礜 礝 礞 礡 礣 礤 礥 礦 礧 礨 礩 礪 礫 礬 礭 礮 礯 礱 礲 礳 礴 礵 礶 礸 礹 示 礻 礼 礽 社 礿 祀 祁 祂 祄 祅 祆 祇 祈 祉 祊 祋 祌 祏 祐 祑 祒 祓 祔 祕 祖 祗 祘 祙 祚 祛 祜 祝 神 祟 祠 祡 祢 祣 祤 祥 祧 票 祩 祪 祫 祭 祰 祱 祲 祳 祴 祹 祺 祼 祽 祾 祿 禀 禁 禂 禃 禆 禇 禈 禊 禋 禍 禎 福 禐 禑 禒 禓 禔 禕 禖 禗 禘 禙 禚 禛 禜 禝 禟 禠 禡 禢 禤 禥 禦 禧 禨 禩 禪 禫 禬 禭 禮 禰 禱 禲 禳 禴 禶 禷 禸 禹 禺 离 禽 禾 禿 秀 私 秄 秅 秆 秈 秉 秊 秋 秌 种 秎 秏 秐 科 秒 秔 秕 秖 秘 秜 秝 秞 租 秠 秢 秣 秤 秦 秧 秩 秪 秫 秬 秭 秮 秱 秴 秶 秷 秸 秺 移 稀 稂 稃 稄 稅 稆 稈 稊 程 稌 稍 税 稐 稑 稒 稓 稔 稕 稗 稘 稙 稚 稛 稜 稞 稟 稠 稢 稦 稨 稪 稫 稬 稭 種 稯 稰 稱 稲 稷 稹 稺 稻 稼 稽 稾 稿 穀 穃 穄 穅 穆 穇 穈 穉 穊 穋 穌 積 穎 穔 穖 穗 穘 穚 穛 穜 穟 穠 穡 穢 穥 穧 穨 穩 穫 穬 穭 穮 穰 穱 穲 穴 穵 究 穸 穹 空 穻 穽 穾 穿 窀 突 窃 窄 窅 窆 窇 窈 窉 窊 窋 窌 窏 窐 窑 窒 窓 窔 窕 窖 窗 窘 窙 窞 窟 窠 窢 窣 窨 窩 窪 窫 窬 窮 窯 窰 窱 窲 窳 窴 窵 窶 窷 窸 窺 窻 窼 窾 窿 竀 竁 竂 竃 竄 竅 竇 竈 竉 竊 立 竏 竑 竓 竘 站 竚 竛 竜 竝 竟 章 竢 竣 竤 童 竦 竧 竩 竪 竫 竭 竮 端 競 竷 竹 竺 竻 竼 竽 竾 竿 笀 笁 笄 笅 笆 笈 笉 笊 笋 笌 笎 笏 笐 笑 笒 笓 笔 笘 笙 笚 笛 笝 笞 笟 笠 笢 笣 笤 笥 符 笧 笨 笩 笪 笫 第 笭 笮 笯 笰 笱 笲 笳 笴 笵 笸 笹 笻 筀 筂 筃 筄 筅 筆 筇 筈 等 筊 筋 筌 筍 筎 筏 筐 筑 筒 答 筕 策 筘 筠 筡 筢 筣 筤 筥 筦 筧 筩 筬 筭 筮 筯 筰 筱 筲 筳 筴 筵 筶 筷 筸 筻 箂 箄 箅 箇 箈 箊 箋 箌 箍 箎 箏 箐 箑 箒 箔 箕 箖 算 箘 箙 箚 箛 箜 箝 箠 管 箢 箣 箤 箬 箭 箮 箯 箱 箲 箴 箵 箷 箸 箹 箾 節 篁 範 篅 篆 篇 築 篊 篋 篌 篎 篏 篐 篔 篕 篘 篙 篚 篛 篜 篝 篞 篟 篠 篡 篢 篣 篤 篥 篦 篧 篨 篩 篪 篫 篬 篰 篱 篲 篳 篴 篷 篸 篹 篺 篻 篼 篽 篾 篿 簀 簁 簂 簃 簅 簆 簇 簉 簊 簋 簌 簍 簎 簏 簐 簑 簒 簕 簙 簛 簜 簝 簞 簟 簠 簡 簢 簣 簥 簦 簧 簨 簩 簪 簫 簬 簭 簰 簳 簵 簷 簸 簹 簻 簼 簽 簾 簿 籀 籂 籃 籄 籅 籇 籈 籉 籊 籌 籍 籐 籑 籓 籔 籖 籗 籙 籚 籛 籜 籝 籟 籠 籣 籤 籥 籦 籧 籩 籪 籫 籬 籭 籮 籯 籰 籲 米 籴 籵 籸 籹 籺 类 籼 籽 籾 籿 粀 粁 粃 粄 粅 粆 粈 粉 粊 粌 粍 粎 粑 粒 粔 粕 粖 粗 粘 粜 粞 粟 粡 粢 粣 粥 粦 粧 粨 粬 粮 粯 粱 粲 粳 粴 粵 粸 粹 粺 粻 粼 粽 精 粿 糂 糃 糅 糇 糈 糉 糊 糋 糌 糍 糎 糐 糑 糒 糓 糔 糕 糖 糗 糙 糚 糜 糝 糞 糟 糠 糢 糦 糧 糨 糪 糬 糭 糮 糯 糰 糱 糲 糳 糴 糵 糶 糷 糸 糹 系 糼 糽 糾 紀 紁 紂 紃 約 紅 紆 紇 紈 紉 紊 紋 紌 納 紎 紏 紐 紑 紒 紓 純 紕 紖 紗 紘 紙 級 紛 紜 紝 紞 紟 素 紡 索 紥 紨 紩 紫 紬 紮 累 細 紱 紲 紳 紵 紶 紸 紹 紺 紻 紼 紽 紾 紿 絀 絁 終 絃 組 絅 絆 絇 絊 絍 絎 絏 結 絑 絒 絓 絔 絕 絖 絘 絚 絛 絜 絝 絞 絟 絡 絢 絣 給 絧 絨 絩 絪 絫 絭 絮 絯 絰 統 絲 絳 絹 絺 絻 絼 絽 絿 綀 綁 綃 綄 綅 綆 綈 綉 綋 綌 綍 綎 綏 綑 綒 經 綔 綕 綖 綗 綜 綝 綞 綟 綠 綡 綢 綣 綤 綦 綧 綨 綩 綪 綫 綬 維 綮 綯 綰 綱 網 綳 綴 綵 綷 綸 綹 綺 綻 綼 綽 綾 綿 緀 緁 緂 緄 緅 緆 緇 緉 緊 緋 緌 緍 緎 総 緐 緒 緓 緔 緗 緘 緙 線 緛 緜 緝 緞 緟 締 緡 緣 緤 緥 緦 緧 編 緩 緪 緬 緮 緯 緰 緱 緲 緳 練 緵 緶 緷 緹 緺 緻 緼 緽 緾 縃 縇 縈 縉 縊 縋 縌 縍 縎 縏 縐 縑 縒 縓 縔 縕 縖 縗 縚 縛 縜 縝 縞 縟 縠 縡 縢 縣 縤 縥 縧 縩 縪 縫 縭 縮 縯 縰 縱 縲 縳 縴 縵 縶 縷 縸 縹 縺 縻 縼 總 績 縿 繀 繁 繂 繃 繄 繅 繆 繇 繈 繉 繌 繐 繑 繒 繓 織 繕 繖 繗 繘 繙 繚 繛 繜 繞 繟 繠 繡 繢 繣 繥 繧 繨 繩 繪 繫 繬 繭 繮 繯 繰 繲 繳 繴 繵 繶 繷 繸 繹 繺 繻 繼 繽 繾 繿 纀 纁 纂 纆 纇 纈 纊 纋 續 纍 纎 纏 纑 纒 纓 纔 纕 纖 纗 纘 纙 纚 纛 纜 纟 纤 纬 纺 织 经 统 缆 缶 缷 缸 缹 缺 缽 缾 缿 罀 罁 罃 罄 罅 罇 罈 罉 罊 罋 罌 罍 罎 罏 罐 网 罒 罓 罔 罕 罘 罛 罜 罝 罞 罟 罠 罡 罣 罥 罦 罧 罨 罩 罪 罫 罬 罭 置 罰 罱 署 罳 罵 罶 罷 罸 罹 罺 罻 罼 罽 罾 罿 羃 羅 羆 羇 羈 羉 羊 羋 羌 羍 美 羏 羑 羒 羓 羔 羕 羖 羗 羚 羛 羜 羝 羞 羠 羡 羢 羣 群 羥 羦 羧 羨 義 羬 羭 羮 羯 羰 羱 羲 羳 羴 羵 羶 羷 羸 羹 羺 羻 羼 羽 羾 羿 翀 翁 翂 翃 翅 翇 翉 翊 翋 翌 翍 翎 翏 翐 翑 習 翔 翕 翗 翛 翜 翝 翞 翟 翠 翡 翢 翣 翥 翦 翧 翨 翩 翪 翫 翬 翭 翮 翯 翰 翱 翲 翳 翴 翵 翷 翸 翹 翺 翻 翼 翽 翾 翿 耀 老 耂 考 耄 者 耆 耇 耈 耋 而 耍 耎 耏 耐 耑 耒 耔 耕 耖 耗 耘 耙 耛 耜 耝 耞 耟 耠 耡 耤 耥 耦 耨 耩 耪 耬 耮 耯 耰 耱 耳 耴 耵 耶 耷 耹 耻 耼 耽 耾 耿 聃 聆 聇 聈 聊 聏 聐 聑 聒 联 聖 聘 聚 聛 聜 聝 聞 聡 聢 聣 聤 聦 聧 聬 聯 聰 聱 聲 聳 聵 聶 職 聸 聹 聽 聾 聿 肀 肂 肄 肅 肆 肇 肉 肊 肋 肌 肏 肐 肒 肓 肕 肖 肘 肙 肚 肛 肜 肝 肟 股 肢 肣 肥 肧 肩 肪 肫 肭 肮 肯 肱 育 肴 肵 肶 肷 肸 肺 肼 肽 胂 胃 胄 胅 胆 胇 胈 胉 胊 背 胍 胎 胏 胐 胑 胔 胕 胖 胗 胘 胙 胚 胛 胜 胝 胞 胠 胡 胣 胤 胥 胦 胩 胬 胭 胯 胰 胱 胲 胳 胴 胵 胶 胸 胹 胺 胻 胼 能 胾 脀 脁 脂 脃 脅 脆 脇 脈 脉 脊 脌 脎 脒 脔 脕 脖 脗 脘 脙 脚 脛 脝 脞 脟 脡 脢 脣 脤 脥 脧 脩 脪 脫 脬 脭 脯 脰 脱 脲 脴 脷 脹 脺 脽 脾 腂 腃 腄 腆 腇 腈 腊 腋 腌 腍 腎 腏 腐 腑 腒 腓 腔 腕 腖 腙 腚 腛 腜 腞 腠 腡 腢 腤 腥 腦 腧 腩 腫 腬 腭 腮 腯 腰 腱 腲 腳 腴 腶 腷 腸 腹 腺 腼 腽 腿 膀 膂 膃 膄 膆 膇 膈 膉 膊 膋 膌 膍 膏 膓 膕 膗 膘 膙 膚 膛 膜 膝 膞 膟 膠 膢 膣 膥 膦 膧 膨 膩 膪 膫 膬 膮 膰 膱 膲 膳 膴 膵 膶 膷 膹 膺 膻 膼 膽 膾 膿 臀 臁 臂 臃 臄 臅 臆 臇 臈 臉 臊 臌 臍 臏 臐 臑 臒 臕 臗 臘 臙 臚 臛 臝 臞 臟 臠 臡 臢 臣 臤 臥 臦 臧 臨 臩 自 臬 臭 臮 臯 臲 至 致 臶 臷 臸 臹 臺 臻 臼 臾 臿 舀 舁 舂 舄 舅 與 興 舉 舊 舋 舌 舍 舐 舑 舒 舔 舕 舖 舘 舚 舛 舜 舝 舞 舟 舠 舡 舢 舥 舦 舨 舩 航 舫 般 舭 舯 舲 舳 舴 舵 舶 舷 舸 船 舺 舼 舽 舾 舿 艀 艂 艄 艅 艇 艉 艋 艎 艏 艐 艑 艒 艓 艔 艕 艖 艗 艘 艙 艚 艛 艜 艞 艟 艡 艢 艣 艤 艥 艦 艨 艩 艫 艬 艭 艮 良 艱 色 艴 艵 艶 艷 艸 艹 艺 艻 艼 艽 艾 艿 芀 芃 芄 芅 芇 芊 芋 芍 芎 芏 芐 芑 芒 芓 芔 芘 芙 芚 芛 芝 芞 芟 芠 芡 芢 芣 芤 芥 芦 芧 芨 芩 芪 芫 芬 芭 芮 芯 芰 花 芳 芴 芵 芶 芷 芸 芹 芺 芻 芼 芽 芾 芿 苀 苂 苃 苄 苊 苏 苐 苑 苒 苓 苔 苕 苖 苗 苘 苙 苛 苜 苞 苟 苠 苡 苢 苣 苤 若 苦 苧 苨 苪 苫 苬 苭 苮 苯 苰 英 苲 苳 苴 苵 苶 苷 苸 苹 苺 苻 苼 苽 苾 苿 茀 茁 茂 范 茄 茅 茆 茇 茈 茉 茋 茌 茍 茖 茗 茘 茙 茚 茛 茜 茝 茞 茠 茢 茤 茥 茦 茧 茨 茩 茪 茫 茬 茭 茯 茱 茲 茳 茴 茵 茶 茷 茸 茹 茺 茻 茼 茽 茿 荀 荁 荂 荃 荄 荅 荇 荈 草 荊 荋 荌 荍 荎 荏 荐 荑 荒 荓 荔 荖 荗 荢 荣 荦 药 荳 荴 荵 荶 荷 荸 荺 荻 荼 荽 荾 荿 莁 莃 莅 莆 莇 莈 莉 莊 莋 莌 莍 莎 莏 莐 莑 莒 莓 莔 莕 莖 莗 莘 莙 莚 莛 莜 莝 莞 莠 莢 莣 莤 莥 莦 莧 莨 莩 莪 莫 莬 莮 莯 莰 莹 莽 莾 莿 菀 菁 菂 菃 菄 菅 菆 菇 菈 菉 菊 菋 菌 菍 菎 菏 菑 菓 菔 菕 菖 菗 菘 菙 菛 菜 菝 菞 菟 菠 菡 菢 菣 菤 菥 菧 菨 菩 菪 菫 菬 菭 菮 華 菰 菱 菲 菳 菴 菵 菶 菸 菹 菺 菻 菼 菽 菾 菿 萁 萃 萄 萅 萆 萇 萉 萊 萋 萌 萍 萎 萏 萐 萑 萒 萓 萔 萖 萘 萛 萜 萠 萡 萣 萤 萦 萩 萫 萬 萭 萮 萯 萰 萱 萲 萳 萴 萵 萶 萷 萸 萹 萺 萻 萼 落 萾 萿 葀 葂 葃 葄 葅 葆 葇 葈 葉 葊 葋 葌 葍 葎 葐 葑 葒 葓 葔 葕 葖 著 葘 葙 葚 葛 葜 葝 葞 葟 葠 葡 葢 董 葤 葥 葦 葧 葨 葩 葫 葬 葭 葮 葯 葰 葱 葲 葳 葴 葵 葶 葷 葸 葹 葺 葽 葾 葿 蒀 蒂 蒄 蒆 蒈 蒍 蒎 蒏 蒐 蒑 蒒 蒓 蒔 蒖 蒗 蒘 蒙 蒚 蒛 蒜 蒝 蒞 蒟 蒠 蒡 蒢 蒣 蒤 蒧 蒨 蒩 蒪 蒫 蒬 蒭 蒮 蒯 蒰 蒱 蒲 蒴 蒶 蒸 蒹 蒺 蒻 蒼 蒽 蒾 蒿 蓀 蓁 蓂 蓄 蓅 蓆 蓇 蓉 蓊 蓋 蓌 蓍 蓎 蓏 蓐 蓑 蓒 蓓 蓔 蓖 蓗 蓚 蓛 蓞 蓡 蓢 蓤 蓥 蓧 蓨 蓩 蓪 蓫 蓬 蓮 蓯 蓰 蓱 蓲 蓳 蓴 蓶 蓷 蓸 蓹 蓺 蓻 蓼 蓽 蓾 蓿 蔀 蔂 蔃 蔄 蔅 蔆 蔇 蔈 蔉 蔊 蔋 蔌 蔍 蔎 蔏 蔐 蔑 蔒 蔓 蔔 蔕 蔖 蔗 蔘 蔙 蔚 蔜 蔝 蔞 蔟 蔠 蔡 蔣 蔤 蔥 蔦 蔧 蔨 蔩 蔪 蔫 蔬 蔭 蔮 蔯 蔰 蔱 蔳 蔴 蔸 蔻 蔽 蔾 蕀 蕁 蕂 蕃 蕄 蕅 蕆 蕇 蕈 蕉 蕊 蕋 蕌 蕍 蕎 蕑 蕒 蕓 蕔 蕕 蕖 蕗 蕘 蕙 蕚 蕛 蕝 蕞 蕟 蕠 蕡 蕢 蕣 蕤 蕥 蕦 蕧 蕨 蕩 蕪 蕫 蕬 蕭 蕮 蕯 蕰 蕱 蕳 蕵 蕶 蕷 蕸 蕹 蕺 蕻 蕼 蕾 薀 薁 薂 薃 薄 薅 薆 薇 薈 薉 薊 薋 薌 薍 薎 薏 薐 薑 薓 薔 薕 薖 薗 薘 薙 薚 薛 薜 薝 薞 薟 薠 薡 薢 薣 薤 薦 薧 薨 薩 薪 薯 薰 薱 薳 薴 薵 薶 薷 薸 薹 薺 薽 薾 薿 藀 藁 藂 藃 藄 藅 藆 藇 藈 藉 藋 藍 藎 藏 藐 藑 藒 藕 藖 藗 藘 藙 藚 藜 藝 藞 藟 藠 藡 藢 藣 藤 藥 藦 藨 藩 藪 藫 藬 藭 藮 藯 藰 藱 藲 藴 藶 藷 藸 藹 藺 藻 藼 藽 藾 藿 蘀 蘁 蘂 蘄 蘅 蘆 蘇 蘉 蘊 蘋 蘌 蘍 蘏 蘐 蘑 蘓 蘔 蘖 蘗 蘘 蘙 蘚 蘛 蘜 蘞 蘟 蘠 蘡 蘢 蘣 蘤 蘥 蘦 蘧 蘨 蘩 蘪 蘬 蘭 蘮 蘯 蘱 蘲 蘳 蘴 蘵 蘶 蘸 蘹 蘺 蘻 蘼 蘾 蘿 虀 虂 虃 虅 虆 虇 虈 虋 虌 虍 虎 虐 虒 虓 虔 處 虖 虙 虛 虜 虞 號 虡 虢 虣 虤 虥 虧 虨 虩 虪 虫 虬 虭 虮 虯 虰 虱 虲 虳 虴 虷 虹 虺 虻 虼 虾 蚅 蚆 蚇 蚊 蚋 蚌 蚍 蚎 蚐 蚑 蚒 蚓 蚔 蚕 蚖 蚗 蚘 蚙 蚚 蚜 蚝 蚞 蚠 蚡 蚢 蚣 蚤 蚥 蚧 蚨 蚩 蚪 蚭 蚯 蚰 蚱 蚲 蚳 蚴 蚵 蚶 蚷 蚸 蚹 蚺 蚻 蚼 蚽 蚾 蚿 蛀 蛁 蛂 蛃 蛄 蛅 蛆 蛇 蛈 蛉 蛋 蛌 蛐 蛑 蛓 蛔 蛖 蛗 蛘 蛙 蛚 蛛 蛜 蛝 蛞 蛟 蛢 蛣 蛤 蛦 蛨 蛩 蛪 蛫 蛬 蛭 蛯 蛵 蛶 蛷 蛸 蛹 蛺 蛻 蛾 蜀 蜁 蜂 蜃 蜄 蜅 蜆 蜇 蜈 蜉 蜊 蜋 蜌 蜍 蜎 蜑 蜒 蜓 蜕 蜘 蜙 蜚 蜛 蜜 蜞 蜠 蜡 蜢 蜣 蜤 蜥 蜦 蜧 蜨 蜩 蜪 蜬 蜭 蜮 蜰 蜱 蜲 蜳 蜴 蜵 蜷 蜸 蜺 蜻 蜼 蜾 蜿 蝀 蝁 蝂 蝃 蝆 蝌 蝍 蝎 蝏 蝐 蝑 蝒 蝓 蝔 蝕 蝖 蝗 蝘 蝙 蝚 蝛 蝜 蝝 蝞 蝟 蝠 蝡 蝢 蝣 蝤 蝥 蝦 蝧 蝨 蝩 蝪 蝫 蝬 蝭 蝮 蝯 蝰 蝱 蝳 蝴 蝵 蝶 蝷 蝸 蝹 蝺 蝻 蝽 螁 螂 螃 螄 螅 螆 螇 螈 螉 螋 螌 融 螏 螐 螑 螒 螓 螔 螖 螗 螘 螚 螛 螜 螝 螞 螟 螢 螣 螤 螥 螩 螪 螫 螬 螭 螮 螯 螰 螱 螲 螳 螴 螵 螶 螷 螸 螹 螺 螻 螼 螽 螾 螿 蟀 蟁 蟂 蟃 蟄 蟅 蟆 蟈 蟉 蟊 蟋 蟌 蟎 蟑 蟒 蟓 蟔 蟖 蟗 蟘 蟙 蟚 蟛 蟜 蟝 蟞 蟟 蟠 蟡 蟢 蟣 蟤 蟥 蟦 蟧 蟨 蟪 蟫 蟬 蟭 蟮 蟯 蟲 蟳 蟴 蟵 蟶 蟷 蟹 蟺 蟻 蟼 蟾 蟿 蠀 蠁 蠂 蠃 蠄 蠅 蠆 蠈 蠉 蠊 蠋 蠌 蠍 蠏 蠐 蠑 蠓 蠔 蠕 蠖 蠗 蠘 蠙 蠛 蠜 蠝 蠟 蠠 蠡 蠢 蠣 蠤 蠥 蠦 蠧 蠨 蠩 蠪 蠫 蠬 蠭 蠮 蠯 蠰 蠱 蠲 蠳 蠵 蠶 蠷 蠸 蠹 蠻 蠼 蠽 蠾 蠿 血 衁 衂 衃 衄 衅 衆 衈 衊 衋 行 衍 衎 衏 衒 術 衕 衖 街 衙 衚 衛 衝 衞 衠 衡 衢 衣 衤 补 衧 表 衩 衪 衫 衭 衮 衯 衰 衱 衲 衴 衵 衶 衷 衹 衼 衽 衾 衿 袀 袁 袂 袃 袄 袇 袈 袉 袋 袌 袍 袎 袏 袐 袑 袒 袓 袕 袖 袗 袘 袙 袚 袛 袜 袝 袞 袟 袠 袡 袢 袤 袧 袨 袪 被 袬 袮 袱 袲 袴 袵 袶 袷 袸 袹 袺 袼 袽 袾 袿 裀 裁 裂 装 裇 裉 裊 裋 裌 裍 裎 裏 裐 裒 裔 裕 裖 裗 裘 裙 裚 裛 補 裝 裞 裟 裡 裦 裧 裨 裫 裬 裮 裯 裰 裱 裲 裳 裴 裵 裶 裷 裸 裹 裺 裻 裼 製 裾 裿 褀 褁 褂 褅 褆 複 褉 褊 褋 褌 褎 褐 褑 褒 褓 褔 褕 褖 褗 褘 褙 褚 褞 褟 褡 褢 褣 褤 褥 褦 褧 褩 褪 褫 褬 褭 褮 褯 褰 褱 褲 褳 褵 褶 褷 褸 褻 褼 褽 褾 襁 襂 襃 襄 襆 襇 襉 襋 襌 襍 襏 襐 襑 襒 襓 襔 襖 襗 襘 襙 襚 襛 襜 襝 襞 襟 襠 襡 襢 襣 襤 襥 襦 襩 襪 襫 襬 襭 襮 襯 襱 襲 襳 襴 襶 襷 襹 襺 襻 襼 襾 西 覀 要 覂 覃 覅 覆 覇 覈 覉 覊 見 規 覑 覓 覔 覕 視 覗 覘 覛 覜 覝 覞 覟 覡 覢 覣 覤 覥 覦 覧 覩 親 覬 覭 覮 覯 覲 覶 覷 覹 覺 覼 覽 覾 覿 觀 见 视 角 觓 觔 觕 觖 觙 觚 觛 觜 觝 觟 觠 觡 觢 解 觤 觥 触 觧 觨 觩 觫 觬 觭 觰 觱 觲 觳 觴 觶 觷 觸 觺 觻 觼 觾 觿 言 訂 訃 訄 訇 計 訊 訌 討 訏 訐 訑 訒 訓 訕 訖 託 記 訛 訜 訝 訞 訟 訢 訣 訥 訧 訩 訪 訫 訬 設 訰 許 訴 訶 訸 訹 診 註 証 訽 訾 訿 詀 詁 詄 詅 詆 詈 詉 詊 詌 詍 詎 詏 詐 詑 詒 詔 評 詖 詗 詘 詙 詛 詞 詠 詡 詢 詣 試 詧 詨 詩 詫 詬 詭 詮 詰 話 該 詳 詴 詵 詶 詷 詹 詺 詻 詼 詾 詿 誁 誂 誃 誄 誅 誆 誇 誋 誌 認 誏 誐 誑 誒 誓 誔 誕 誖 誘 誙 誚 誜 語 誠 誡 誣 誤 誥 誦 誧 誨 誩 說 誫 説 誯 誰 課 誴 誶 誸 誹 誺 誻 誼 誽 誾 調 諀 諂 諃 諄 諅 諆 談 諈 諉 請 諌 諍 諏 諑 諒 諓 諔 諕 論 諗 諘 諙 諚 諛 諜 諝 諞 諟 諠 諡 諢 諤 諦 諧 諨 諪 諫 諭 諮 諯 諰 諱 諲 諳 諴 諵 諶 諷 諸 諹 諺 諻 諼 諾 諿 謀 謁 謂 謄 謅 謆 謇 謈 謊 謋 謌 謍 謎 謏 謐 謑 謒 謓 謔 謕 謖 謗 謘 謙 謚 講 謜 謝 謞 謟 謠 謢 謣 謤 謥 謦 謧 謨 謪 謫 謬 謭 謮 謯 謰 謱 謳 謵 謶 謷 謹 謺 謻 謼 謽 謾 謿 譀 譁 譂 譃 譅 譆 譇 譈 證 譊 譋 譌 譍 譎 譏 譐 譑 譒 譓 譔 譕 譖 譗 識 譙 譚 譜 譝 譞 譟 譠 譢 譣 譥 警 譧 譨 譩 譪 譫 譬 譭 譯 議 譴 護 譸 譹 譺 譻 譽 譾 譿 讀 讁 讂 讃 讄 讅 讆 讈 變 讋 讌 讎 讏 讐 讒 讓 讔 讕 讖 讘 讙 讚 讛 讜 讞 讟 讠 设 询 谷 谹 谻 谼 谽 谾 谿 豁 豂 豃 豅 豆 豇 豈 豉 豊 豋 豌 豍 豎 豏 豐 豑 豔 豕 豖 豗 豚 豜 豝 豟 象 豢 豤 豥 豦 豨 豩 豪 豫 豬 豭 豯 豰 豱 豲 豳 豵 豶 豷 豸 豹 豺 豻 豽 貀 貁 貂 貄 貅 貆 貉 貊 貌 貍 貏 貐 貑 貒 貓 貔 貕 貗 貘 貙 貚 貛 貜 貝 貞 貟 負 財 貢 貣 貤 貥 貧 貨 販 貪 貫 責 貭 貯 貰 貲 貳 貴 貵 貶 買 貸 貹 貺 費 貼 貽 貾 貿 賀 賁 賂 賃 賄 賅 資 賈 賊 賌 賍 賏 賑 賒 賓 賔 賕 賖 賗 賙 賚 賛 賜 賝 賞 賟 賠 賡 賢 賣 賤 賥 賦 賧 賨 賩 質 賫 賬 賭 賮 賰 賱 賲 賳 賴 賵 賷 賸 賹 賺 賻 購 賽 賾 贀 贂 贃 贄 贅 贆 贇 贈 贉 贊 贋 贌 贍 贏 贐 贑 贒 贓 贔 贕 贖 贗 贘 贙 贛 贜 贝 赤 赦 赧 赨 赩 赫 赬 赭 赮 赯 走 赲 赳 赴 赶 起 赸 赹 赺 赻 赽 趀 趁 趂 趄 超 趉 越 趌 趍 趎 趏 趐 趑 趒 趓 趔 趕 趖 趙 趛 趜 趟 趠 趡 趣 趥 趦 趧 趨 趩 趪 趫 趬 趭 趮 趯 趲 足 趴 趵 趶 趷 趹 趺 趼 趾 趿 跀 跁 跂 跃 跅 跆 跇 跈 跋 跌 跍 跎 跏 跐 跑 跓 跔 跕 跖 跗 跘 跙 跚 跛 跜 距 跟 跠 跡 跢 跣 跤 跦 跧 跨 跩 跪 跫 跬 跮 路 跰 跱 跲 跳 跴 跺 跼 跽 跾 跿 踀 踁 踂 踃 踄 踅 踆 踇 踉 踊 踍 踎 踏 踐 踑 踒 踓 踔 踕 踖 踗 踘 踙 踚 踛 踜 踝 踞 踟 踠 踡 踢 踣 踤 踥 踦 踧 踨 踩 踪 踫 踭 踮 踰 踱 踳 踴 踵 踶 踸 踹 踺 踼 踽 踾 踿 蹀 蹁 蹂 蹄 蹅 蹆 蹇 蹈 蹉 蹊 蹋 蹌 蹍 蹎 蹏 蹐 蹓 蹔 蹕 蹖 蹗 蹙 蹚 蹛 蹜 蹝 蹞 蹟 蹠 蹡 蹢 蹣 蹤 蹥 蹦 蹧 蹨 蹩 蹪 蹬 蹭 蹯 蹱 蹲 蹳 蹴 蹵 蹶 蹷 蹸 蹺 蹻 蹼 蹾 躀 躁 躂 躄 躅 躆 躇 躈 躉 躊 躋 躌 躍 躎 躐 躑 躒 躓 躔 躕 躖 躗 躘 躚 躝 躞 躟 躠 躡 躣 躤 躥 躦 躧 躨 躩 躪 身 躬 躭 躰 躲 躶 躹 躺 躼 躽 軀 軂 軃 軉 車 軋 軌 軍 軎 軏 軑 軒 軓 軔 軗 軘 軚 軛 軜 軝 軞 軟 軠 軡 転 軤 軥 軦 軧 軨 軩 軫 軬 軭 軮 軯 軱 軲 軴 軵 軶 軷 軸 軹 軺 軻 軼 軾 軿 輀 輁 輂 較 輅 輆 輇 輈 載 輊 輋 輍 輎 輐 輑 輒 輓 輔 輕 輖 輗 輘 輙 輚 輛 輜 輝 輞 輟 輠 輣 輤 輥 輦 輩 輪 輬 輭 輮 輯 輰 輲 輳 輴 輵 輶 輷 輸 輹 輻 輼 輾 輿 轀 轁 轂 轃 轄 轅 轆 轇 轈 轉 轊 轋 轍 轎 轏 轐 轑 轒 轓 轔 轕 轖 轗 轘 轙 轚 轛 轜 轝 轞 轟 轠 轡 轢 轣 轤 车 轧 轮 输 辛 辜 辟 辠 辣 辥 辦 辧 辨 辭 辮 辯 辰 辱 農 辳 辴 辵 辶 辷 辸 边 辺 辻 込 达 辿 迁 迂 迄 迅 迆 迉 迊 迋 迌 迍 迎 迏 运 近 迒 迓 返 迕 迖 迗 迚 迠 迡 迢 迣 迤 迥 迦 迨 迪 迫 迭 迮 述 迴 迵 迶 迷 迸 迹 迺 迻 迼 追 迾 迿 退 送 适 逃 逄 逅 逆 逈 逋 逌 逍 透 逐 逑 递 途 逕 逖 逗 這 通 逛 逜 逝 逞 速 造 逡 逢 連 逤 逭 逮 逯 週 進 逳 逴 逵 逶 逷 逸 逼 逽 逾 逿 遁 遂 遄 遆 遇 遉 遊 運 遌 遍 過 遏 遐 遑 遒 道 達 違 遖 遘 遙 遛 遜 遝 遞 遠 遡 遢 遣 遤 遧 遨 適 遫 遬 遭 遮 遯 遰 遲 遳 遴 遵 遶 遷 選 遹 遺 遻 遼 遽 遾 避 邀 邁 邂 邃 還 邅 邆 邇 邈 邊 邋 邍 邏 邐 邑 邔 邕 邗 邘 邙 邛 邞 邟 邠 邡 邢 那 邥 邦 邧 邨 邪 邮 邯 邰 邱 邲 邳 邴 邵 邶 邸 邻 邽 邾 邿 郁 郃 郄 郅 郇 郈 郊 郋 郎 郔 郕 郖 郗 郘 郙 郚 郛 郜 郝 郟 郠 郡 郢 郣 郤 郥 部 郩 郪 郫 郬 郭 郯 郰 郱 郲 郳 郴 郵 郹 郺 郻 郼 都 郾 郿 鄀 鄁 鄂 鄃 鄄 鄅 鄆 鄇 鄈 鄉 鄋 鄍 鄎 鄏 鄐 鄑 鄒 鄔 鄖 鄗 鄘 鄙 鄚 鄛 鄜 鄝 鄞 鄟 鄠 鄡 鄢 鄣 鄤 鄦 鄧 鄨 鄩 鄪 鄫 鄬 鄭 鄮 鄯 鄰 鄱 鄲 鄳 鄴 鄵 鄶 鄸 鄹 鄺 鄻 鄾 鄿 酀 酁 酃 酄 酅 酆 酇 酈 酉 酊 酋 酌 配 酎 酏 酐 酑 酒 酓 酕 酖 酗 酘 酙 酚 酜 酞 酟 酠 酡 酢 酣 酤 酥 酧 酨 酩 酪 酬 酮 酯 酰 酲 酳 酴 酵 酶 酷 酸 酹 酺 酼 醀 醁 醂 醃 醄 醅 醆 醇 醉 醊 醋 醌 醍 醎 醏 醐 醑 醒 醓 醖 醙 醚 醛 醜 醝 醞 醟 醠 醡 醢 醣 醥 醧 醨 醩 醪 醫 醬 醭 醮 醯 醰 醱 醲 醳 醴 醵 醶 醷 醹 醺 醻 醼 醽 醾 釀 釁 釂 釃 釄 釅 釆 采 釉 釋 里 重 野 量 釐 金 釓 釔 釕 釖 釗 釘 釙 釚 釜 針 釟 釢 釣 釤 釥 釦 釧 釨 釩 釪 釫 釬 釭 釮 釱 釳 釴 釵 釶 釷 釸 釹 釺 釽 釾 釿 鈀 鈁 鈂 鈃 鈄 鈅 鈆 鈇 鈈 鈉 鈊 鈌 鈍 鈎 鈏 鈐 鈑 鈒 鈓 鈔 鈕 鈖 鈗 鈘 鈙 鈚 鈜 鈞 鈡 鈣 鈤 鈥 鈦 鈧 鈨 鈪 鈫 鈭 鈮 鈰 鈱 鈲 鈳 鈴 鈵 鈶 鈷 鈸 鈹 鈺 鈼 鈽 鈾 鈿 鉀 鉁 鉄 鉅 鉆 鉈 鉉 鉊 鉋 鉌 鉍 鉎 鉏 鉐 鉑 鉒 鉓 鉔 鉕 鉖 鉗 鉘 鉚 鉛 鉝 鉞 鉟 鉠 鉡 鉢 鉣 鉤 鉥 鉦 鉧 鉫 鉬 鉭 鉮 鉯 鉰 鉲 鉶 鉷 鉸 鉹 鉺 鉻 鉼 鉽 鉾 鉿 銀 銁 銂 銃 銄 銅 銆 銇 銈 銉 銊 銋 銌 銍 銎 銏 銑 銓 銔 銕 銖 銗 銘 銙 銚 銛 銜 銝 銠 銡 銢 銣 銤 銥 銦 銧 銨 銩 銪 銫 銬 銮 銱 銲 銳 銴 銵 銶 銷 銹 銺 銻 銼 銾 銿 鋀 鋁 鋂 鋃 鋄 鋅 鋆 鋇 鋈 鋉 鋊 鋋 鋌 鋍 鋎 鋏 鋐 鋑 鋒 鋓 鋔 鋕 鋗 鋘 鋙 鋛 鋝 鋞 鋟 鋠 鋡 鋣 鋤 鋥 鋦 鋧 鋨 鋩 鋪 鋫 鋬 鋭 鋮 鋯 鋰 鋱 鋲 鋳 鋴 鋶 鋷 鋸 鋹 鋺 鋻 鋼 鋽 鋾 鋿 錀 錁 錂 錃 錄 錆 錇 錈 錉 錋 錌 錍 錎 錏 錐 錒 錓 錔 錕 錖 錘 錙 錚 錛 錝 錞 錟 錠 錡 錢 錣 錤 錥 錦 錧 錨 錩 錪 錫 錬 錭 錮 錯 錰 錱 錳 錴 錵 錶 錸 錹 錼 鍀 鍁 鍂 鍃 鍄 鍅 鍆 鍇 鍈 鍉 鍊 鍋 鍌 鍍 鍎 鍏 鍐 鍑 鍒 鍔 鍕 鍖 鍗 鍘 鍙 鍚 鍛 鍜 鍞 鍟 鍠 鍡 鍢 鍣 鍤 鍥 鍦 鍧 鍨 鍩 鍪 鍫 鍬 鍭 鍮 鍰 鍱 鍳 鍴 鍵 鍶 鍷 鍸 鍹 鍺 鍻 鍼 鍽 鍾 鎀 鎁 鎂 鎃 鎄 鎅 鎆 鎇 鎈 鎉 鎊 鎌 鎍 鎎 鎏 鎐 鎑 鎒 鎔 鎕 鎖 鎗 鎘 鎙 鎚 鎛 鎜 鎝 鎞 鎟 鎠 鎡 鎢 鎣 鎤 鎥 鎦 鎧 鎨 鎩 鎪 鎬 鎭 鎮 鎯 鎰 鎱 鎲 鎳 鎴 鎵 鎷 鎸 鎻 鎽 鎿 鏀 鏂 鏃 鏄 鏆 鏇 鏈 鏊 鏋 鏌 鏍 鏎 鏏 鏐 鏑 鏒 鏓 鏔 鏕 鏖 鏗 鏘 鏙 鏚 鏛 鏜 鏝 鏞 鏟 鏠 鏡 鏢 鏣 鏤 鏦 鏧 鏨 鏬 鏮 鏰 鏱 鏳 鏴 鏵 鏶 鏷 鏸 鏹 鏺 鏻 鏼 鏽 鏾 鏿 鐀 鐁 鐃 鐄 鐆 鐇 鐈 鐉 鐊 鐋 鐌 鐍 鐎 鐏 鐐 鐑 鐒 鐓 鐔 鐕 鐖 鐗 鐘 鐙 鐛 鐝 鐠 鐤 鐥 鐦 鐧 鐨 鐩 鐪 鐫 鐬 鐭 鐮 鐯 鐰 鐱 鐲 鐳 鐵 鐶 鐷 鐸 鐹 鐺 鐻 鐼 鐽 鐾 鐿 鑀 鑂 鑃 鑄 鑅 鑆 鑇 鑈 鑉 鑊 鑋 鑌 鑍 鑏 鑐 鑑 鑒 鑔 鑕 鑗 鑘 鑛 鑝 鑞 鑠 鑢 鑣 鑤 鑥 鑧 鑨 鑩 鑪 鑫 鑬 鑭 鑮 鑯 鑰 鑱 鑲 鑳 鑴 鑵 鑶 鑷 鑸 鑹 鑻 鑼 鑽 鑾 鑿 钀 钁 钂 钃 钅 钟 钢 铁 铃 铜 银 锭 镇 長 镸 镺 镻 镼 镽 长 門 閂 閃 閅 閆 閈 閉 開 閌 閍 閎 閏 閐 閑 閒 間 閔 閖 閗 閘 閙 閛 閜 閞 閟 閠 閡 関 閣 閤 閥 閦 閧 閨 閩 閪 閫 閬 閭 閮 閰 閱 閲 閵 閶 閷 閹 閺 閻 閼 閽 閾 閿 闀 闃 闅 闆 闇 闈 闉 闊 闋 闌 闍 闐 闑 闒 闓 闔 闕 闖 闚 闛 關 闞 闟 闠 闡 闢 闣 闤 闥 门 间 阜 阝 阞 阠 阡 阢 阣 阤 阨 阪 阬 阭 阮 阯 阰 阱 防 阳 阸 阹 阺 阻 阼 阽 阿 陀 陁 陂 陃 附 际 陊 陋 陌 降 陎 陏 限 陑 陓 陔 陖 陘 陛 陜 陝 陞 陟 陡 院 陣 除 险 陪 陫 陬 陭 陯 陰 陱 陲 陳 陴 陵 陶 陷 陸 陻 陼 陽 陾 隀 隁 隃 隄 隅 隆 隇 隈 隉 隊 隋 隍 階 随 隑 隒 隓 隔 隕 隖 隗 隘 隙 際 障 隞 隡 隢 隣 隤 隥 隧 隨 隩 險 隬 隮 隰 隱 隳 隴 隶 隸 隹 隻 隼 隽 隿 雀 雁 雂 雃 雄 雅 集 雇 雈 雉 雊 雋 雌 雍 雎 雒 雓 雔 雕 雖 雗 雘 雙 雚 雛 雜 雝 雞 雟 雡 離 難 雥 雨 雩 雪 雯 雰 雱 雲 雴 雵 零 雷 雸 雹 雺 電 雽 雿 需 霂 霃 霄 霅 霆 震 霈 霉 霋 霍 霎 霏 霐 霑 霒 霓 霖 霘 霙 霛 霜 霝 霞 霟 霠 霡 霢 霣 霤 霥 霦 霧 霨 霩 霪 霫 霬 霮 霯 霰 霱 露 霴 霵 霶 霸 霹 霺 霽 霾 霿 靀 靁 靂 靃 靄 靆 靇 靈 靉 靊 靋 靑 青 靕 靖 靗 靘 靚 靛 靜 靝 非 靟 靠 靡 面 靦 靨 革 靪 靬 靭 靮 靰 靱 靲 靳 靴 靶 靷 靸 靺 靻 靼 靽 靾 靿 鞀 鞁 鞂 鞃 鞄 鞅 鞇 鞈 鞉 鞊 鞋 鞍 鞎 鞏 鞔 鞗 鞘 鞙 鞚 鞛 鞜 鞝 鞞 鞟 鞠 鞡 鞢 鞣 鞤 鞥 鞦 鞨 鞪 鞫 鞬 鞭 鞮 鞱 鞲 鞳 鞴 鞶 鞷 鞸 鞹 鞺 鞻 鞽 鞾 鞿 韀 韁 韂 韃 韄 韅 韆 韇 韈 韉 韋 韌 韍 韎 韏 韐 韒 韓 韔 韕 韖 韗 韘 韙 韜 韝 韞 韟 韠 韡 韣 韥 韦 韭 韮 韰 韱 韲 音 韵 韶 韸 韹 韺 韻 韽 韾 響 頀 頁 頂 頃 頄 項 順 頇 須 頊 頌 頍 頎 頏 預 頑 頒 頓 頔 頕 頖 頗 領 頛 頜 頝 頞 頟 頠 頡 頣 頤 頦 頧 頨 頩 頫 頭 頮 頯 頰 頲 頳 頴 頵 頷 頸 頹 頻 顁 顃 顄 顅 顆 顇 顈 顉 顊 顋 題 額 顎 顏 顐 顑 顒 顓 顖 顗 願 顙 顛 顜 顝 類 顟 顠 顢 顣 顤 顥 顦 顧 顨 顩 顪 顫 顬 顯 顰 顱 顲 顳 顴 页 風 颩 颬 颭 颮 颯 颱 颲 颳 颴 颶 颷 颸 颹 颺 颻 颼 颽 颾 颿 飀 飁 飂 飃 飄 飆 飇 飈 飉 飊 飋 飌 风 飛 飜 飞 食 飠 飡 飢 飣 飥 飦 飧 飩 飪 飫 飬 飭 飯 飱 飲 飴 飵 飶 飹 飺 飼 飽 飾 餀 餂 餃 餅 餇 餈 餉 養 餌 餎 餐 餑 餒 餓 餔 餕 餖 餗 餘 餙 餚 餛 餜 餞 餟 餡 餤 餥 餧 館 餩 餪 餫 餬 餭 餮 餯 餰 餱 餲 餳 餵 餷 餸 餹 餺 餻 餼 餽 餾 餿 饀 饁 饂 饃 饅 饇 饈 饉 饊 饋 饌 饍 饎 饐 饑 饒 饓 饔 饕 饖 饗 饘 饙 饛 饜 饝 饞 饟 饡 饢 饣 首 馗 馘 香 馛 馜 馝 馞 馡 馣 馤 馥 馦 馧 馨 馪 馫 馬 馭 馮 馯 馰 馱 馲 馳 馴 馵 馸 馹 馺 馻 馼 馽 駁 駂 駃 駄 駅 駇 駉 駋 駌 駍 駎 駏 駐 駑 駒 駓 駔 駕 駖 駗 駘 駙 駚 駛 駜 駝 駟 駠 駡 駢 駣 駤 駥 駦 駧 駩 駪 駬 駭 駮 駰 駱 駴 駵 駶 駷 駸 駹 駺 駻 駼 駽 駾 駿 騁 騂 騃 騄 騅 騆 騇 騉 騊 騋 騌 騍 騎 騏 騐 騑 騔 騕 騖 騙 騚 騛 騜 騝 騞 騟 騠 騡 騢 騣 騤 騥 騦 騧 騩 騪 騫 騬 騭 騮 騯 騰 騱 騲 騴 騵 騶 騷 騸 騹 騺 騻 騼 騽 騾 騿 驀 驁 驂 驃 驄 驅 驆 驈 驉 驊 驌 驍 驎 驏 驐 驒 驓 驔 驕 驖 驗 驘 驙 驚 驛 驜 驞 驟 驠 驢 驣 驤 驥 驦 驧 驨 驩 驪 驫 马 骏 骨 骫 骭 骯 骰 骱 骲 骳 骴 骶 骷 骸 骹 骺 骻 骼 骽 骾 骿 髀 髁 髂 髆 髇 髊 髍 髏 髐 髑 髒 髓 體 髕 髖 髗 高 髜 髟 髠 髡 髢 髣 髦 髧 髫 髬 髭 髮 髯 髱 髲 髳 髴 髶 髷 髹 髺 髻 髼 髽 髾 髿 鬁 鬂 鬃 鬄 鬅 鬆 鬈 鬉 鬊 鬋 鬌 鬍 鬎 鬏 鬐 鬑 鬒 鬔 鬕 鬖 鬗 鬘 鬙 鬚 鬞 鬟 鬠 鬢 鬣 鬤 鬥 鬧 鬨 鬩 鬪 鬫 鬭 鬮 鬯 鬱 鬲 鬳 鬴 鬵 鬷 鬹 鬺 鬻 鬼 鬾 鬿 魀 魁 魂 魃 魄 魅 魆 魈 魊 魋 魌 魍 魎 魏 魐 魑 魒 魔 魕 魖 魘 魙 魚 魛 魟 魠 魡 魤 魦 魧 魨 魩 魬 魯 魰 魱 魴 魵 魶 魷 魺 魻 魼 魽 魾 魿 鮀 鮁 鮂 鮃 鮅 鮆 鮇 鮈 鮋 鮍 鮎 鮏 鮐 鮑 鮒 鮓 鮕 鮗 鮚 鮛 鮝 鮞 鮟 鮠 鮡 鮢 鮤 鮥 鮦 鮨 鮪 鮫 鮭 鮮 鮯 鮰 鮵 鮶 鮸 鮹 鮽 鮿 鯀 鯁 鯃 鯄 鯆 鯇 鯈 鯉 鯊 鯏 鯓 鯔 鯕 鯖 鯗 鯙 鯚 鯛 鯜 鯝 鯞 鯠 鯡 鯢 鯤 鯥 鯦 鯧 鯨 鯩 鯪 鯫 鯬 鯭 鯰 鯱 鯴 鯷 鯸 鯽 鯿 鰂 鰅 鰆 鰇 鰈 鰉 鰊 鰋 鰌 鰍 鰎 鰐 鰒 鰓 鰔 鰕 鰗 鰛 鰜 鰝 鰟 鰠 鰡 鰣 鰤 鰥 鰦 鰨 鰩 鰫 鰬 鰭 鰯 鰱 鰲 鰳 鰴 鰵 鰶 鰷 鰹 鰺 鰻 鰼 鰽 鰾 鰿 鱀 鱁 鱄 鱅 鱆 鱇 鱈 鱉 鱊 鱋 鱌 鱍 鱎 鱏 鱐 鱒 鱓 鱔 鱕 鱖 鱗 鱘 鱙 鱝 鱞 鱟 鱠 鱢 鱣 鱦 鱧 鱨 鱭 鱮 鱱 鱲 鱳 鱴 鱵 鱷 鱸 鱹 鱺 鱻 鱼 鳥 鳦 鳧 鳩 鳪 鳭 鳱 鳲 鳳 鳴 鳵 鳶 鳷 鳹 鳺 鳻 鳼 鳽 鳿 鴀 鴂 鴃 鴄 鴅 鴆 鴇 鴈 鴉 鴌 鴐 鴒 鴔 鴕 鴖 鴗 鴘 鴙 鴛 鴝 鴞 鴟 鴠 鴡 鴢 鴣 鴥 鴦 鴨 鴩 鴭 鴮 鴯 鴰 鴱 鴳 鴴 鴶 鴷 鴸 鴹 鴻 鴽 鴾 鴿 鵀 鵁 鵂 鵃 鵄 鵅 鵉 鵊 鵋 鵌 鵎 鵏 鵐 鵑 鵒 鵓 鵔 鵖 鵗 鵘 鵙 鵚 鵛 鵜 鵝 鵞 鵟 鵠 鵡 鵧 鵨 鵩 鵪 鵫 鵬 鵭 鵮 鵯 鵰 鵱 鵲 鵳 鵴 鵵 鵷 鵸 鵹 鵻 鵼 鵽 鵾 鵿 鶀 鶁 鶂 鶃 鶄 鶅 鶆 鶇 鶈 鶉 鶊 鶋 鶌 鶐 鶒 鶓 鶔 鶖 鶗 鶘 鶙 鶚 鶛 鶜 鶝 鶞 鶟 鶠 鶡 鶢 鶣 鶤 鶥 鶦 鶧 鶨 鶩 鶪 鶫 鶬 鶭 鶯 鶱 鶲 鶳 鶴 鶵 鶶 鶷 鶸 鶹 鶺 鶻 鶼 鶽 鶾 鶿 鷀 鷁 鷂 鷃 鷄 鷅 鷇 鷈 鷉 鷊 鷋 鷌 鷍 鷎 鷏 鷐 鷑 鷒 鷓 鷔 鷕 鷖 鷗 鷘 鷙 鷚 鷛 鷜 鷝 鷞 鷟 鷡 鷢 鷣 鷤 鷥 鷦 鷨 鷩 鷫 鷬 鷭 鷮 鷯 鷰 鷲 鷳 鷴 鷵 鷶 鷷 鷸 鷹 鷺 鷻 鷼 鷽 鷾 鷿 鸀 鸁 鸂 鸃 鸄 鸅 鸆 鸇 鸉 鸊 鸋 鸌 鸍 鸎 鸏 鸐 鸑 鸒 鸓 鸔 鸕 鸗 鸘 鸙 鸚 鸛 鸜 鸝 鸞 鸟 鹵 鹹 鹺 鹻 鹼 鹽 鹿 麀 麁 麂 麃 麄 麅 麆 麇 麈 麉 麊 麋 麌 麍 麎 麐 麑 麒 麓 麔 麕 麖 麗 麘 麙 麚 麛 麜 麝 麞 麟 麠 麡 麢 麤 麥 麦 麧 麨 麩 麪 麫 麬 麭 麮 麯 麰 麱 麴 麵 麶 麷 麻 麼 麽 麾 麿 黀 黁 黂 黃 黄 黆 黇 黈 黌 黍 黎 黏 黐 黑 黓 黔 黕 黖 默 黚 黛 黜 黝 點 黟 黠 黢 黤 黥 黦 黧 黨 黫 黭 黮 黯 黰 黱 黲 黳 黴 黵 黶 黷 黸 黹 黺 黻 黼 黽 黾 黿 鼀 鼁 鼂 鼆 鼇 鼈 鼉 鼊 鼎 鼏 鼐 鼒 鼓 鼕 鼖 鼗 鼘 鼙 鼚 鼛 鼜 鼞 鼠 鼢 鼣 鼤 鼥 鼦 鼧 鼨 鼩 鼪 鼫 鼬 鼭 鼮 鼯 鼰 鼱 鼲 鼳 鼴 鼵 鼶 鼷 鼸 鼹 鼻 鼽 鼾 齀 齁 齂 齃 齄 齅 齆 齇 齈 齉 齊 齋 齌 齍 齎 齏 齐 齒 齓 齔 齕 齖 齗 齘 齙 齚 齛 齜 齝 齞 齟 齠 齡 齢 齣 齤 齥 齦 齧 齩 齪 齫 齬 齮 齯 齰 齱 齲 齴 齵 齶 齷 齸 齹 齺 齻 齾 齿 龍 龎 龐 龑 龒 龔 龕 龖 龗 龘 龙 龜 龟 龠 龢 龤 龥 龦 龧 龨 龩 龪 龫 龬 龭 龮 龯 龰 龱 龲 龳 鿇 鿈 鿉 鿊 鿋 鿐 豈 更 車 賈 滑 串 句 龜 龜 喇 奈 懶 洛 珞 駱 濫 來 老 路 鷺 弄 磊 賂 壘 勒 丹 異 便 不 省 沈 略 兩 凉 糧 量 呂 閭 力 年 秊 列 劣 烈 例 僚 尿 料 暈 阮 杻 類 律 慄 隆 利 吏 易 梨 泥 理 裏 里 林 淋 狀 什 刺 拓 洞 暴 輻 行 見 兀 嗀 勉 勤 卑 墨 爫 碑 艹 艹 𠀡 𠀾 𠁆 𠁎 𠁨 𠂆 𠂇 𠂊 𠂔 𠃊 𠃋 𠃌 𠃍 𠃑 𠃮 𠄌 𠄎 𠄘 𠆤 𠆩 𠆫 𠇁 𠇔 𠇲 𠈄 𠈌 𠈔 𠈹 𠉛 𠉴 𠉵 𠊙 𠊞 𠊠 𠊷 𠊿 𠋀 𠋥 𠌊 𠌥 𠍁 𠍅 𠍆 𠍇 𠍾 𠍿 𠎀 𠎠 𠎧 𠎵 𠏉 𠏋 𠏵 𠏼 𠐓 𠐔 𠐟 𠑥 𠒇 𠒎 𠒑 𠒒 𠒣 𠓗 𠓼 𠓾 𠕇 𠖎 𠖥 𠖳 𠗃 𠗊 𠗐 𠗕 𠗟 𠗠 𠗫 𠘑 𠘕 𠘙 𠘚 𠘨 𠘰 𠙖 𠙶 𠜎 𠜱 𠝹 𠠬 𠡳 𠣕 𠤖 𠤣 𠥔 𠥹 𠧧 𠨑 𠩐 𠩯 𠪊 𠪴 𠫂 𠫍 𠬍 𠮏 𠮟 𠮨 𠮩 𠮿 𠯆 𠯋 𠯢 𠯫 𠯻 𠯿 𠰋 𠰍 𠰠 𠰴 𠰺 𠰻 𠱁 𠱂 𠱃 𠱓 𠱥 𠱷 𠱸 𠱼 𠲍 𠲖 𠲜 𠲵 𠲸 𠳏 𠳓 𠳔 𠳕 𠳖 𠳝 𠳭 𠳿 𠴕 𠴨 𠴱 𠴲 𠵆 𠵇 𠵈 𠵉 𠵌 𠵍 𠵎 𠵯 𠵱 𠵴 𠵼 𠵾 𠵿 𠶖 𠶜 𠶧 𠶲 𠷈 𠸄 𠸉 𠸊 𠸍 𠸎 𠸏 𠸐 𠸑 𠸖 𠸝 𠹌 𠹭 𠹳 𠹵 𠹶 𠹷 𠹸 𠹹 𠹺 𠹻 𠺌 𠺖 𠺘 𠺝 𠺢 𠺪 𠺫 𠺬 𠺶 𠻗 𠻘 𠻝 𠻸 𠻹 𠻺 𠻻 𠼝 𠼦 𠼭 𠼮 𠼰 𠼱 𠼻 𠽌 𠽤 𠾍 𠾐 𠾭 𠾴 𠾵 𠾶 𠾼 𠿟 𠿪 𠿫 𠿬 𠿭 𡀔 𡀝 𡀞 𡁏 𡁜 𡁯 𡁵 𡁶 𡁷 𡁸 𡁻 𡂈 𡂖 𡂝 𡂴 𡂿 𡃀 𡃁 𡃇 𡃈 𡃉 𡃏 𡃓 𡃤 𡃴 𡃵 𡃶 𡄯 𡄻 𡄽 𡅅 𡅈 𡅏 𡆀 𡆇 𡇙 𡈼 𡉏 𡉼 𡊨 𡊩 𡊰 𡋣 𡋾 𡌂 𡌃 𡌄 𡌅 𡌶 𡌺 𡍵 𡍶 𡎎 𡎘 𡎜 𡏅 𡏆 𡏭 𡏾 𡐓 𡐖 𡐤 𡐿 𡑒 𡑔 𡑕 𡒊 𡒗 𡒶 𡓨 𡓽 𡕷 𡖂 𡖖 𡘊 𡘓 𡘙 𡘾 𡙡 𡚒 𡚸 𡚺 𡛀 𡛁 𡛂 𡛓 𡛕 𡛟 𡛦 𡛧 𡛨 𡛺 𡛻 𡛼 𡛾 𡜍 𡜐 𡜦 𡜺 𡜻 𡜼 𡝗 𡝬 𡝭 𡝮 𡝯 𡝰 𡝱 𡝳 𡝴 𡞫 𡞰 𡞱 𡞲 𡞳 𡞴 𡞵 𡟃 𡟇 𡟙 𡟚 𡟛 𡟜 𡟟 𡟯 𡟵 𡟶 𡟸 𡟹 𡟺 𡟻 𡟼 𡠠 𡠨 𡠩 𡠪 𡠭 𡠹 𡠺 𡠻 𡡀 𡡅 𡡒 𡡞 𡡡 𡡢 𡡣 𡡤 𡡷 𡡻 𡢃 𡢄 𡢅 𡢞 𡢟 𡢠 𡢡 𡢢 𡢾 𡢿 𡣑 𡣖 𡣗 𡣘 𡣙 𡣺 𡤃 𡤄 𡤅 𡤐 𡤑 𡤒 𡤕 𡤜 𡤢 𡤧 𡤻 𡥄 𡥘 𡥪 𡥼 𡦀 𡦃 𡦈 𡦖 𡧛 𡧳 𡨭 𡨴 𡩅 𡩋 𡩣 𡭄 𡯁 𡯂 𡰪 𡱰 𡲢 𡲥 𡲬 𡵆 𡵓 𡵞 𡶐 𡶶 𡶺 𡷊 𡷑 𡷫 𡷹 𡸜 𡸣 𡸷 𡸽 𡺉 𡺤 𡺨 𡻈 𡻕 𡼏 𡼕 𡽪 𡾞 𡾡 𡿨 𢁅 𢁉 𢁾 𢂚 𢃇 𢃼 𢄪 𢅛 𢅳 𢅺 𢆡 𢇁 𢇃 𢈈 𢉼 𢌡 𢌥 𢎽 𢏐 𢏗 𢏺 𢑥 𢑱 𢒋 𢒑 𢒰 𢒼 𢓁 𢓉 𢓌 𢓭 𢔓 𢔛 𢔰 𢕔 𢖍 𢖯 𢖾 𢘛 𢘜 𢘫 𢙨 𢙺 𢚖 𢚘 𢛴 𢛵 𢛶 𢜒 𢜔 𢜛 𢜟 𢜪 𢝵 𢞁 𢞖 𢞴 𢞵 𢟍 𢠃 𢡟 𢡠 𢡱 𢢭 𢣁 𢣷 𢤦 𢤹 𢥏 𢥧 𢥫 𢦀 𢦓 𢩦 𢫏 𢫕 𢫦 𢫨 𢬎 𢬢 𢬿 𢭃 𢭪 𢯊 𢯎 𢰦 𢰧 𢰸 𢱌 𢱑 𢱕 𢱢 𢲈 𢲛 𢲡 𢲩 𢲲 𢲷 𢳂 𢳆 𢳉 𢴇 𢴈 𢴒 𢵄 𢵌 𢵧 𢶍 𢶕 𢶠 𢶣 𢶤 𢶷 𢷮 𢸍 𢸶 𢹂 𢹸 𢺋 𢺳 𢻯 𢽴 𢿌 𢿣 𣀳 𣁄 𣁋 𣁦 𣁽 𣁾 𣂎 𣂷 𣂼 𣃚 𣄃 𣄽 𣅽 𣆂 𣆤 𣆥 𣆳 𣇈 𣇉 𣇪 𣇷 𣇸 𣇹 𣈏 𣈥 𣈯 𣈱 𣈲 𣈳 𣈴 𣉖 𣉞 𣉢 𣊁 𣊉 𣊊 𣊫 𣊬 𣊭 𣋒 𣋠 𣋡 𣌀 𣌊 𣌟 𣎴 𣏌 𣏞 𣏦 𣏴 𣏵 𣏹 𣏺 𣏾 𣐀 𣐿 𣑐 𣑯 𣑲 𣓥 𣔙 𣔰 𣕑 𣕚 𣕧 𣖕 𣖙 𣖜 𣖻 𣗍 𣗎 𣗏 𣗳 𣘀 𣘗 𣘚 𣘼 𣙀 𣙙 𣙟 𣙷 𣚎 𣚞 𣚦 𣚭 𣚺 𣛟 𣛮 𣜃 𣜖 𣜠 𣜭 𣜯 𣜿 𣝦 𣞁 𣞢 𣞼 𣟂 𣟕 𣟖 𣟗 𣠺 𣧂 𣪧 𣫛 𣫮 𣫺 𣬚 𣭚 𣱣 𣲙 𣲚 𣲛 𣲵 𣲷 𣳇 𣳈 𣳉 𣳼 𣳽 𣳾 𣳿 𣵀 𣵛 𣵾 𣶏 𣶶 𣶷 𣶸 𣶹 𣶺 𣶻 𣶼 𣶽 𣷣 𣷸 𣸆 𣸑 𣸬 𣸭 𣸮 𣸯 𣸰 𣸱 𣸹 𣺈 𣺉 𣺊 𣺋 𣺹 𣺿 𣻗 𣻷 𣻸 𣻹 𣻺 𣻻 𣻼 𣼵 𣽁 𣽊 𣽡 𣽿 𣾀 𣾁 𣾂 𣾏 𣾴 𣾷 𣿀 𣿅 𣿫 𣿬 𣿭 𣿮 𣿯 𣿰 𤀑 𤀹 𤀺 𤀻 𤀼 𤀽 𤁗 𤂅 𤂋 𤂌 𤂍 𤂑 𤃉 𤃡 𤃬 𤄄 𤄏 𤄙 𤄿 𤅀 𤅄 𤅎 𤅕 𤅖 𤅗 𤅜 𤅟 𤅡 𤅷 𤅺 𤆣 𤆤 𤆥 𤆬 𤆵 𤇍 𤇢 𤇼 𤈛 𤉋 𤉖 𤉙 𤉶 𤉷 𤉸 𤊄 𤊓 𤊕 𤊥 𤊿 𤋁 𤋉 𤋊 𤋮 𤋺 𤌍 𤌚 𤌴 𤍈 𤍢 𤍣 𤍤 𤍥 𤎌 𤎖 𤎜 𤎽 𤏁 𤏩 𤏪 𤏲 𤏸 𤐄 𤐵 𤐶 𤑚 𤑛 𤑳 𤒇 𤒈 𤒹 𤒼 𤓎 𤓓 𤓖 𤔅 𤔡 𤕸 𤗈 𤘘 𤘪 𤙥 𤙴 𤚗 𤛔 𤜆 𤜥 𤜯 𤞏 𤟠 𤠒 𤠣 𤢂 𤣩 𤣰 𤣱 𤣲 𤣳 𤣻 𤣿 𤤀 𤤁 𤤌 𤤖 𤤗 𤤙 𤤯 𤤳 𤤴 𤤾 𤤿 𤥀 𤥁 𤥂 𤥃 𤥢 𤥣 𤥴 𤥵 𤥶 𤥻 𤥿 𤦂 𤦈 𤦉 𤦊 𤦋 𤦌 𤦍 𤦎 𤦏 𤦔 𤦤 𤦧 𤦩 𤦫 𤦬 𤦭 𤦷 𤦸 𤦹 𤦺 𤦻 𤧅 𤧐 𤧚 𤧞 𤧟 𤧣 𤧥 𤧬 𤧭 𤧶 𤧷 𤧸 𤧹 𤧻 𤨎 𤨒 𤨓 𤨕 𤨡 𤨢 𤨣 𤨤 𤨥 𤨦 𤨧 𤨨 𤨩 𤨪 𤨾 𤩂 𤩅 𤩊 𤩎 𤩏 𤩐 𤩑 𤩝 𤩥 𤩦 𤩧 𤩱 𤩷 𤩸 𤩹 𤩺 𤪌 𤪓 𤪔 𤪕 𤪖 𤪤 𤪥 𤪦 𤪧 𤪱 𤪲 𤪳 𤪺 𤪻 𤪼 𤫀 𤫇 𤫊 𤫑 𤫟 𤫢 𤫩 𤬏 𤭮 𤯵 𤰉 𤲞 𤲟 𤳉 𤳙 𤴆 𤴓 𤶸 𤷪 𤷫 𤸻 𤹐 𤺥 𤺧 𤼎 𤽜 𤾂 𤾆 𤾗 𤾚 𤾩 𤾸 𤿂 𥀬 𥁒 𥂝 𥄫 𥅈 𥅽 𥅾 𥇍 𥇣 𥇦 𥇧 𥈠 𥈡 𥉐 𥊙 𥋇 𥋘 𥌎 𥌑 𥌓 𥐙 𥐥 𥐯 𥐰 𥑆 𥑬 𥑮 𥒚 𥔱 𥔵 𥔿 𥕛 𥕜 𥕝 𥕞 𥕢 𥕥 𥕦 𥖁 𥖄 𥖏 𥖹 𥗕 𥗛 𥗠 𥘅 𥘵 𥙑 𥚃 𥚕 𥛣 𥛶 𥜆 𥜝 𥜥 𥜽 𥝲 𥟇 𥟟 𥟠 𥟡 𥡗 𥡝 𥡲 𥣈 𥣞 𥣡 𥤃 𥥆 𥥖 𥦬 𥧌 𥩔 𥪕 𥪜 𥪮 𥪯 𥫗 𥫩 𥭴 𥮉 𥮳 𥮴 𥯆 𥯤 𥯨 𥰁 𥰆 𥰡 𥱊 𥱥 𥲑 𥲤 𥳀 𥳁 𥳾 𥴠 𥴰 𥵃 𥶙 𥶹 𥸎 𥹉 𥺁 𥺂 𥺃 𥺦 𥺼 𥻗 𥻘 𥼚 𥽋 𥿡 𥿢 𦀡 𦀩 𦁈 𦁤 𦂃 𦂗 𦂤 𦂥 𦄂 𦄡 𦅙 𦅚 𦅛 𦅜 𦆭 𦆮 𦆲 𦇝 𦉘 𦉡 𦉪 𦉫 𦋐 𦌵 𦍋 𦍌 𦍑 𦎾 𦏵 𦏸 𦐂 𦐐 𦐑 𦐒 𦑊 𦑩 𦒄 𦒈 𦒉 𦒍 𦒘 𦔒 𦕲 𦖠 𦖭 𦖿 𦘒 𦘦 𦚯 𦚱 𦚵 𦛚 𦛨 𦛼 𦜖 𦝁 𦞙 𦞳 𦞴 𦟌 𦠜 𦡆 𦡞 𦡮 𦢈 𦢊 𦢓 𦣇 𦤎 𦤑 𦤦 𦤹 𦥑 𦦨 𦦵 𦧲 𦧺 𦨭 𦨮 𦨴 𦩂 𦩑 𦩒 𦬅 𦬊 𦬓 𦬕 𦬣 𦬨 𦭐 𦭑 𦭒 𦭓 𦭛 𦭵 𦮂 𦮖 𦮗 𦮝 𦮳 𦯀 𦯷 𦰡 𦱀 𦱁 𦱆 𦱾 𦱿 𦲀 𦲁 𦲂 𦲤 𦲷 𦲸 𦲽 𦳀 𦳃 𦳑 𦴢 𦴣 𦴤 𦴥 𦴦 𦴧 𦴨 𦴩 𦴪 𦵑 𦵴 𦶠 𦶡 𦶢 𦶣 𦶤 𦶥 𦶦 𦶧 𦶮 𦷜 𦷪 𦷫 𦷰 𦸀 𦸅 𦸇 𦸒 𦹂 𦹃 𦹄 𦹅 𦹮 𦹲 𦹷 𦺄 𦺈 𦺋 𦺙 𦻐 𦻑 𦻒 𦻓 𦻔 𦻕 𦻖 𦻗 𦼦 𦽳 𦽴 𦾟 𦾡 𦾾 𦿞 𦿟 𧀎 𧁋 𧁒 𧁓 𧂈 𧂭 𧂮 𧂯 𧃍 𧃒 𧃰 𧃸 𧄉 𧄌 𧄍 𧄦 𧄧 𧅤 𧅥 𧅵 𧇍 𧈛 𧉧 𧊀 𧊅 𧊋 𧊲 𧊶 𧋦 𧍒 𧎚 𧏿 𧐢 𧑐 𧒄 𧒆 𧕴 𧖣 𧗠 𧗤 𧗽 𧗾 𧘇 𧘌 𧘲 𧘹 𧙕 𧙖 𧙗 𧚔 𧜏 𧜵 𧜶 𧝁 𧝞 𧞄 𧞅 𧟌 𧡘 𧡰 𧢝 𧢲 𧣈 𧤤 𧥧 𧥺 𧦠 𧧝 𧧽 𧨊 𧨎 𧨾 𧩓 𧩙 𧩹 𧪄 𧪽 𧪾 𧫴 𧬆 𧬋 𧬘 𧬸 𧬹 𧬺 𧭈 𧭥 𧯯 𧯴 𧰒 𧱬 𧲱 𧳅 𧴯 𧵓 𧵔 𧵦 𧵳 𧶄 𧶏 𧶘 𧶽 𧷜 𧹍 𧹏 𧼮 𧾷 𧿹 𨀂 𨀉 𨀞 𨀣 𨀤 𨁈 𨂃 𨂐 𨂽 𨂾 𨃨 𨃩 𨃴 𨄮 𨅏 𨅝 𨅯 𨆉 𨆯 𨆼 𨈇 𨈘 𨈚 𨉖 𨉼 𨊛 𨋍 𨋢 𨌆 𨌘 𨌯 𨌺 𨍥 𨍭 𨍽 𨎊 𨐒 𨑨 𨑬 𨑳 𨒂 𨔁 𨔼 𨔽 𨕬 𨗨 𨗴 𨘀 𨘋 𨘥 𨘻 𨚪 𨚫 𨚲 𨚼 𨛘 𨛦 𨜏 𨜓 𨠄 𨠫 𨤍 𨤳 𨥈 𨥉 𨥖 𨥤 𨥨 𨥬 𨥭 𨥾 𨦉 𨦨 𨦪 𨦫 𨦸 𨦼 𨧀 𨧜 𨧞 𨧡 𨧣 𨧤 𨧧 𨧨 𨧹 𨧺 𨧻 𨧼 𨨏 𨨖 𨨥 𨨩 𨨲 𨨶 𨩄 𨩅 𨩆 𨩇 𨩈 𨩉 𨩊 𨩋 𨩙 𨩚 𨪁 𨪂 𨪃 𨪚 𨪛 𨪜 𨫀 𨫆 𨫋 𨫌 𨫎 𨫞 𨫟 𨫠 𨫡 𨫢 𨫣 𨫥 𨫪 𨫼 𨬌 𨬓 𨬡 𨬢 𨬫 𨬬 𨬭 𨬯 𨭆 𨭌 𨭎 𨭐 𨭣 𨭤 𨭥 𨭦 𨭬 𨮏 𨮙 𨮜 𨮝 𨮹 𨯂 𨯅 𨯔 𨯗 𨯙 𨯚 𨯧 𨯨 𨯩 𨯪 𨯫 𨯬 𨯵 𨯿 𨰃 𨰉 𨰜 𨰝 𨰣 𨰦 𨰫 𨰰 𨰹 𨰻 𨳊 𨳍 𨳒 𨴴 𨶙 𨶹 𨸏 𨸶 𨸹 𨹥 𨹦 𨺗 𨺬 𨺲 𨺳 𨻙 𨻧 𨿅 𩁹 𩂈 𩂋 𩂓 𩂯 𩂰 𩂱 𩃀 𩃤 𩃥 𩃬 𩃭 𩄍 𩄐 𩄼 𩅍 𩅛 𩅞 𩅰 𩆜 𩆨 𩇕 𩇫 𩐝 𩐠 𩐳 𩐿 𩑈 𩓐 𩓙 𩓚 𩓥 𩓧 𩖞 𩖰 𩖸 𩗗 𩗩 𩗴 𩙿 𩜠 𩜲 𩟔 𩠐 𩡗 𩢤 𩣑 𩣪 𩣱 𩣺 𩤃 𩤅 𩤯 𩥅 𩥇 𩥈 𩥉 𩥝 𩥪 𩦝 𩧃 𩧉 𩨨 𩩍 𩬅 𩬎 𩯕 𩱳 𩲭 𩴾 𩵚 𩵼 𩶘 𩶛 𩷶 𩸆 𩸭 𩹨 𩺬 𩺰 𩻃 𩻸 𩼣 𩼰 𩾷 𩿞 𪀔 𪂇 𪂹 𪃡 𪃭 𪃳 𪃸 𪃾 𪄇 𪄣 𪄳 𪄴 𪅐 𪆒 𪆓 𪆫 𪆴 𪆵 𪇟 𪇵 𪈠 𪈳 𪊓 𪊟 𪊲 𪊴 𪊶 𪊺 𪊽 𪋟 𪋿 𪍑 𪎩 𪏭 𪐴 𪑛 𪗆 𪗋 𪘁 𪘲 𪙊 𪙛 𪚩 𪷿 𭕄 勇 吆 咢 屮 弢 慈 晉 杞 芳 䕫 蜨 貫 𰻞 𱁬"
+}
+sample_glyphs {
+  key: "Hangul Syllables"
+  value: "ㄱ ㄲ ㄳ ㄴ ㄵ ㄶ ㄷ ㄸ ㄹ ㄺ ㄻ ㄼ ㄽ ㄾ ㄿ ㅀ ㅁ ㅂ ㅃ ㅄ ㅅ ㅆ ㅇ ㅈ ㅉ ㅊ ㅋ ㅌ ㅍ ㅎ ㅏ ㅐ ㅑ ㅒ ㅓ ㅔ ㅕ ㅖ ㅗ ㅘ ㅙ ㅚ ㅛ ㅜ ㅝ ㅞ ㅟ ㅠ ㅡ ㅢ ㅣ ㅥ ㅦ ㅧ ㅨ ㅩ ㅪ ㅫ ㅬ ㅭ ㅮ ㅯ ㅰ ㅱ ㅲ ㅳ ㅴ ㅵ ㅶ ㅷ ㅸ ㅹ ㅺ ㅻ ㅼ ㅽ ㅾ ㅿ ㆀ ㆁ ㆂ ㆃ ㆄ ㆅ ㆆ ㆇ ㆈ ㆉ ㆊ ㆋ ㆌ ㆍ ㆎ ﾡ ﾢ ﾣ ﾤ ﾥ ﾦ ﾧ ﾨ ﾩ ﾪ ﾫ ﾬ ﾭ ﾮ ﾯ ﾰ ﾱ ﾲ ﾳ ﾴ ﾵ ﾶ ﾷ ﾸ ﾹ ﾺ ﾻ ﾼ ﾽ ﾾ ￂ ￃ ￄ ￅ ￆ ￇ ￊ ￋ ￌ ￍ ￎ ￏ ￒ ￓ ￔ ￕ ￖ ￗ ￚ ￛ ￜ"
+}
+sample_glyphs {
+  key: "Hiragana"
+  value: "ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ ゎ わ ゐ ゑ を ん ゔ ゕ ゖ ゝ ゞ ゟ ゛ ゜"
+}
+sample_glyphs {
+  key: "Kanbun"
   value: "㆐ ㆑ ㆖ ㆗ ㆘ ㆙ ㆚ ㆛ ㆜ ㆝ ㆞ ㆟"
 }
 sample_glyphs {
-  key: "Symbols, Latin 1 Supplement"
-  value: "¦ °"
+  key: "Kangxi Radicals"
+  value: "⼀ ⼁ ⼂ ⼃ ⼄ ⼅ ⼆ ⼇ ⼈ ⼉ ⼊ ⼋ ⼌ ⼍ ⼎ ⼏ ⼐ ⼑ ⼒ ⼓ ⼔ ⼕ ⼖ ⼗ ⼘ ⼙ ⼚ ⼛ ⼜ ⼝ ⼞ ⼟ ⼠ ⼡ ⼢ ⼣ ⼤ ⼥ ⼦ ⼧ ⼨ ⼩ ⼪ ⼫ ⼬ ⼭ ⼮ ⼯ ⼰ ⼱ ⼲ ⼳ ⼴ ⼵ ⼶ ⼷ ⼸ ⼹ ⼺ ⼻ ⼼ ⼽ ⼾ ⼿ ⽀ ⽁ ⽂ ⽃ ⽄ ⽅ ⽆ ⽇ ⽈ ⽉ ⽊ ⽋ ⽌ ⽍ ⽎ ⽏ ⽐ ⽑ ⽒ ⽓ ⽔ ⽕ ⽖ ⽗ ⽘ ⽙ ⽚ ⽛ ⽜ ⽝ ⽞ ⽟ ⽠ ⽡ ⽢ ⽣ ⽤ ⽥ ⽦ ⽧ ⽨ ⽩ ⽪ ⽫ ⽬ ⽭ ⽮ ⽯ ⽰ ⽱ ⽲ ⽳ ⽴ ⽵ ⽶ ⽷ ⽸ ⽹ ⽺ ⽻ ⽼ ⽽ ⽾ ⽿ ⾀ ⾁ ⾂ ⾃ ⾄ ⾅ ⾆ ⾇ ⾈ ⾉ ⾊ ⾋ ⾌ ⾍ ⾎ ⾏ ⾐ ⾑ ⾒ ⾓ ⾔ ⾕ ⾖ ⾗ ⾘ ⾙ ⾚ ⾛ ⾜ ⾝ ⾞ ⾟ ⾠ ⾡ ⾢ ⾣ ⾤ ⾥ ⾦ ⾧ ⾨ ⾩ ⾪ ⾫ ⾬ ⾭ ⾮ ⾯ ⾰ ⾱ ⾲ ⾳ ⾴ ⾵ ⾶ ⾷ ⾸ ⾹ ⾺ ⾻ ⾼ ⾽ ⾾ ⾿ ⿀ ⿁ ⿂ ⿃ ⿄ ⿅ ⿆ ⿇ ⿈ ⿉ ⿊ ⿋ ⿌ ⿍ ⿎ ⿏ ⿐ ⿑ ⿒ ⿓ ⿔ ⿕"
 }
 sample_glyphs {
-  key: "Symbols, Letterlike"
-  value: "℀ ℃ ℅ ℉ № ℡ ℧ ℮ ℻"
+  key: "Katakana"
+  value: "ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ヷ ヸ ヹ ヺ ヽ ヾ ヿ ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ ｦ ｧ ｨ ｩ ｪ ｫ ｬ ｭ ｮ ｯ ｱ ｲ ｳ ｴ ｵ ｶ ｷ ｸ ｹ ｺ ｻ ｼ ｽ ｾ ｿ ﾀ ﾁ ﾂ ﾃ ﾄ ﾅ ﾆ ﾇ ﾈ ﾉ ﾊ ﾋ ﾌ ﾍ ﾎ ﾏ ﾐ ﾑ ﾒ ﾓ ﾔ ﾕ ﾖ ﾗ ﾘ ﾙ ﾚ ﾛ ﾜ ﾝ"
 }
 sample_glyphs {
-  key: "Symbols, Miscellaneous (U+2607–269E)"
-  value: "☉ ☏ ☖ ☗ ☜ ☞ ☟ ♁ ♤ ♧ ♩ ♪ ♫ ♬ ♲ ♳ ♴ ♵ ♶ ♷ ♸ ♹ ♺ ♼ ♽"
+  key: "Latin"
+  value: "ª º"
 }
 sample_glyphs {
-  key: "Symbols, Miscellaneous Technical (U+2300–236D)"
-  value: "⌅ ⌆ ⌇ ⌒ ⌘"
+  key: "Latin Lowercase"
+  value: "a b c d e f g h i j k l m n o p q r s t u v w x y z ß à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ø ù ú û ü ý þ ÿ ā ă đ ē ě ĩ ī ń ň ō ŏ œ ũ ū ŭ ƒ ơ ư ǎ ǐ ǒ ǔ ǖ ǘ ǚ ǜ ǹ ɑ ɡ ḿ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ ﬀ ﬁ ﬂ ﬃ ﬄ ａ ｂ ｃ ｄ ｅ ｆ ｇ ｈ ｉ ｊ ｋ ｌ ｍ ｎ ｏ ｐ ｑ ｒ ｓ ｔ ｕ ｖ ｗ ｘ ｙ ｚ"
 }
 sample_glyphs {
-  key: "Symbols, Miscellaneous Technical (U+236E–23FF)"
-  value: "⎾ ⎿ ⏀ ⏁ ⏂ ⏃ ⏄ ⏅ ⏆ ⏇ ⏈ ⏉ ⏊ ⏋ ⏌ ⏎ ⏚ ⏛"
+  key: "Latin Uppercase"
+  value: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý Þ Ā Ă Đ Ē Ě Ĩ Ī Ń Ň Ō Ŏ Œ Ũ Ū Ŭ Ơ Ư Ǎ Ǐ Ǒ Ǔ Ǖ Ǘ Ǚ Ǜ Ǹ Ḿ Ạ Ả Ấ Ầ Ẩ Ẫ Ậ Ắ Ằ Ẳ Ẵ Ặ Ẹ Ẻ Ẽ Ế Ề Ể Ễ Ệ Ỉ Ị Ọ Ỏ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ụ Ủ Ứ Ừ Ử Ữ Ự Ỳ Ỵ Ỷ Ỹ Å Ａ Ｂ Ｃ Ｄ Ｅ Ｆ Ｇ Ｈ Ｉ Ｊ Ｋ Ｌ Ｍ Ｎ Ｏ Ｐ Ｑ Ｒ Ｓ Ｔ Ｕ Ｖ Ｗ Ｘ Ｙ Ｚ"
 }
 sample_glyphs {
-  key: "Symbols, Miscellaneous and Arrows (U+2B00–2B86)"
-  value: "⬚"
+  key: "Letterlike Symbols"
+  value: "℀ ℃ ℅ ℉ № ℡ ℧ ℮ ℻ ™"
 }
 sample_glyphs {
-  key: "Symbols, Miscellaneous and Arrows (U+2B87–2BEA)"
-  value: "⮕"
+  key: "Marks"
+  value: "̀ ́ ̄ ̇ ̌ ⃝ ⃞ 〪 〫 〬 〭 ゙ ゚ 〮 〯"
+}
+sample_glyphs {
+  key: "Math"
+  value: "ℵ"
+}
+sample_glyphs {
+  key: "Math Lowercase"
+  value: "ℊ ℏ ℓ"
+}
+sample_glyphs {
+  key: "Math Operators"
+  value: "∀ ∂ ∃ ∅ ∆ ∇ ∈ ∉ ∊ ∋ ∏ ∑ − ∓ ∕ √ ∝ ∞ ∟ ∠ ∣ ∥ ∦ ∧ ∨ ∩ ∪ ∫ ∬ ∭ ∮ ∴ ∵ ∶ ∷ ∽ ≃ ≅ ≈ ≌ ≒ ≠ ≡ ≢ ≤ ≥ ≦ ≧ ≪ ≫ ≮ ≯ ≲ ≳ ≶ ≷ ⊂ ⊃ ⊄ ⊅ ⊆ ⊇ ⊊ ⊋ ⊕ ⊖ ⊗ ⊘ ⊙ ⊠ ⊥ ⊿ ⋚ ⋛ ⋯"
+}
+sample_glyphs {
+  key: "Math Symbols"
+  value: "⦿ ⧺ ⧻"
+}
+sample_glyphs {
+  key: "Misc Symbols"
+  value: "☉ ☏ ☖ ☗ ☜ ☞ ☟ ♁ ♤ ♧ ♩ ♪ ♫ ♬ ♲ ♳ ♴ ♵ ♶ ♷ ♸ ♹ ♺ ♼ ♽ ★ ☆ ♡ ♢ ♭ ♮ ♯ ☀ ☁ ☂ ☃ ☎ ☝ ☯ ♀ ♂ ♠ ♣ ♥ ♦ ♨ ♻ ⚠"
+}
+sample_glyphs {
+  key: "Numbers"
+  value: "Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ Ⅷ Ⅸ Ⅹ Ⅺ Ⅻ ⅰ ⅱ ⅲ ⅳ ⅴ ⅵ ⅶ ⅷ ⅸ ⅹ ⅺ ⅻ ² ³ ¹ ¼ ½ ¾ ⁴ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼ ⑽ ⑾ ⑿ ⒀ ⒁ ⒂ ⒃ ⒄ ⒅ ⒆ ⒇ ⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⒑ ⒒ ⒓ ⒔ ⒕ ⒖ ⒗ ⒘ ⒙ ⒚ ⒛ ⓪ ⓫ ⓬ ⓭ ⓮ ⓯ ⓰ ⓱ ⓲ ⓳ ⓴ ⓵ ⓶ ⓷ ⓸ ⓹ ⓺ ⓻ ⓼ ⓽ ⓾ ⓿ ❶ ❷ ❸ ❹ ❺ ❻ ❼ ❽ ❾ ❿ ➀ ➁ ➂ ➃ ➄ ➅ ➆ ➇ ➈ ➉ ➊ ➋ ➌ ➍ ➎ ➏ ➐ ➑ ➒ ➓ ㆒ ㆓ ㆔ ㆕ ㈠ ㈡ ㈢ ㈣ ㈤ ㈥ ㈦ ㈧ ㈨ ㈩ ㉈ ㉉ ㉊ ㉋ ㉌ ㉍ ㉎ ㉏ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚ ㉛ ㉜ ㉝ ㉞ ㉟ ㊀ ㊁ ㊂ ㊃ ㊄ ㊅ ㊆ ㊇ ㊈ ㊉ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿ ０ １ ２ ３ ４ ５ ６ ７ ８ ９ 🄀 🄁 🄂 🄃 🄄 🄅 🄆 🄇 🄈 🄉 🄊 🄋 🄌 0 1 2 3 4 5 6 7 8 9 〇 〡 〢 〣 〤 〥 〦 〧 〨 〩 〸 〹 〺"
+}
+sample_glyphs {
+  key: "Punctuation"
+  value: "! \" % & \' ( ) , - . / : ; ? @ [ \\ ] _ { } ¡ § « ¶ · » ¿ ‐ ‑ ‒ – — ― ‘ ’ ‚ “ ” „ † ‡ • ‥ … ‧ ‰ ‵ ‹ › ※ ⁂ ⁇ ⁈ ⁑ 〈 〉 ⸺ ⸻ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〖 〗 〘 〙 〚 〛 〜 〝 〞 〟 ゠ ・ ︐ ︑ ︒ ︓ ︔ ︕ ︖ ︗ ︘ ︙ ︰ ︱ ︲ ︳ ︴ ︵ ︶ ︷ ︸ ︹ ︺ ︻ ︼ ︽ ︾ ︿ ﹀ ﹁ ﹂ ﹃ ﹄ ﹅ ﹆ ﹇ ﹈ ﹉ ﹊ ﹋ ﹌ ﹍ ﹎ ﹏ ﹐ ﹑ ﹒ ﹔ ﹕ ﹖ ﹗ ﹘ ﹙ ﹚ ﹛ ﹜ ﹝ ﹞ ﹟ ﹠ ﹪ ﹫ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ］ ＿ ｛ ｝ ｟ ｠ ｡ ｢ ｣ ､ ･ ‖ ′ ″ ﹡ ﹣ ﹨ ＼ # * ‼ ⁉ 〰 〽"
+}
+sample_glyphs {
+  key: "Small Form Variants"
+  value: "﹩ ﹢ ﹤ ﹥ ﹦"
+}
+sample_glyphs {
+  key: "Spacing Modifiers"
+  value: "˪ ˫ ˙"
+}
+sample_glyphs {
+  key: "Symbols & Arrows"
+  value: "⬚ ⮕ ⬅ ⬆ ⬇"
+}
+sample_glyphs {
+  key: "Symbols & Emoji"
+  value: "🆎 🆑 🆒 🆓 🆔 🆕 🆖 🆗 🆘 🆙 🆚 🈁 🈚 🈯 🈲 🈳 🈴 🈵 🈶 🈸 🈹 🈺 🉐 🉑"
+}
+sample_glyphs {
+  key: "Technical"
+  value: "⌅ ⌆ ⌇ ⌒ ⌘ ⎾ ⎿ ⏀ ⏁ ⏂ ⏃ ⏄ ⏅ ⏆ ⏇ ⏈ ⏉ ⏊ ⏋ ⏌ ⏎ ⏚ ⏛ ⎰ ⎱"
 }
 source_type: TYPE_OTF

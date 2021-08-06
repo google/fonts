@@ -17,70 +17,26 @@ subsets: "gunjala-gondi"
 is_noto: true
 languages: "gon_Gong"  # Gondi, Gunjala Gondi
 sample_glyphs {
-  key: "Close Punctuation"
-  value: ")"
+  key: "Common Latin"
+  value: "+ < = > × ÷"
 }
 sample_glyphs {
-  key: "Dash Punctuation"
-  value: "-"
-}
-sample_glyphs {
-  key: "Emoji Punctuation"
-  value: "*"
-}
-sample_glyphs {
-  key: "Final Punctuation"
-  value: "’ ”"
-}
-sample_glyphs {
-  key: "Gunjala Gondi Decimal Numbers"
-  value: "𑶠 𑶡 𑶢 𑶣 𑶤 𑶥 𑶦 𑶧 𑶨 𑶩"
-}
-sample_glyphs {
-  key: "Gunjala Gondi Letters"
+  key: "Gunjala Gondi"
   value: "𑵠 𑵡 𑵢 𑵣 𑵤 𑵥 𑵧 𑵨 𑵪 𑵫 𑵬 𑵭 𑵮 𑵯 𑵰 𑵱 𑵲 𑵳 𑵴 𑵵 𑵶 𑵷 𑵸 𑵹 𑵺 𑵻 𑵼 𑵽 𑵾 𑵿 𑶀 𑶁 𑶂 𑶃 𑶄 𑶅 𑶆 𑶇 𑶈 𑶉 𑶘"
 }
 sample_glyphs {
-  key: "Gunjala Gondi Nonspacing Marks"
-  value: "𑶐 𑶑 𑶕 𑶗"
+  key: "Marks"
+  value: "𑶊 𑶋 𑶌 𑶍 𑶎 𑶐 𑶑 𑶓 𑶔 𑶕 𑶖 𑶗"
 }
 sample_glyphs {
-  key: "Gunjala Gondi Spacing Marks"
-  value: "𑶊 𑶋 𑶌 𑶍 𑶎 𑶓 𑶔 𑶖"
-}
-sample_glyphs {
-  key: "Initial Punctuation"
-  value: "‘ “"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Basic Latin"
-  value: "+ < = >"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Latin 1 Supplement"
-  value: "× ÷"
-}
-sample_glyphs {
-  key: "Mathematical Symbols, Operators (U+2200–2262)"
+  key: "Math Operators"
   value: "−"
 }
 sample_glyphs {
-  key: "Open Punctuation"
-  value: "("
+  key: "Numbers"
+  value: "𑶠 𑶡 𑶢 𑶣 𑶤 𑶥 𑶦 𑶧 𑶨 𑶩"
 }
 sample_glyphs {
-  key: "Punctuation, Basic Latin"
-  value: "! % \' , . / : ?"
-}
-sample_glyphs {
-  key: "Punctuation, General"
-  value: "…"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
+  key: "Punctuation"
+  value: "! % \' ( ) , - . / : ? ‘ ’ “ ” … *"
 }

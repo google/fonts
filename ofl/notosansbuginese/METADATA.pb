@@ -19,30 +19,14 @@ languages: "bug_Bugi"  # Buginese, Buginese
 languages: "mak_Bugi"  # Makasar, Buginese
 languages: "mdr_Bugi"  # Mandar, Buginese
 sample_glyphs {
-  key: "Buginese Letters"
+  key: "Buginese"
   value: "ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ"
 }
 sample_glyphs {
-  key: "Buginese Nonspacing Marks"
-  value: "ᨗ ᨘ ᨛ"
+  key: "Marks"
+  value: "ᨗ ᨘ ᨙ ᨚ ᨛ"
 }
 sample_glyphs {
-  key: "Buginese Punctuation"
+  key: "Punctuation"
   value: "᨞ ᨟"
-}
-sample_glyphs {
-  key: "Buginese Spacing Marks"
-  value: "ᨙ ᨚ"
-}
-sample_glyphs {
-  key: "Modifier Letters"
-  value: "ꧏ"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
 }

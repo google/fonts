@@ -17,14 +17,10 @@ subsets: "inscriptional-parthian"
 is_noto: true
 languages: "xpr_Prti"  # Parthian
 sample_glyphs {
-  key: "Inscriptional Parthian Letters"
+  key: "Inscriptional Parthian"
   value: "𐭀 𐭁 𐭂 𐭃 𐭄 𐭅 𐭆 𐭇 𐭈 𐭉 𐭊 𐭋 𐭌 𐭍 𐭎 𐭏 𐭐 𐭑 𐭒 𐭓 𐭔 𐭕"
 }
 sample_glyphs {
-  key: "Inscriptional Parthian Numbers"
+  key: "Numbers"
   value: "𐭘 𐭙 𐭚 𐭛 𐭜 𐭝 𐭞 𐭟"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
 }

@@ -17,38 +17,18 @@ subsets: "manichaean"
 is_noto: true
 languages: "xmn_Mani"  # Manichaean Middle Persian
 sample_glyphs {
-  key: "Manichaean Letters"
-  value: "𐫀 𐫁 𐫂 𐫃 𐫄 𐫅 𐫆 𐫇 𐫉 𐫊 𐫋 𐫌 𐫍 𐫎 𐫏 𐫐 𐫑 𐫒 𐫓 𐫔 𐫕 𐫖 𐫗 𐫘 𐫙 𐫚 𐫛 𐫜 𐫝 𐫞 𐫟 𐫠 𐫡 𐫢 𐫣 𐫤"
+  key: "Manichaean"
+  value: "𐫀 𐫁 𐫂 𐫃 𐫄 𐫅 𐫆 𐫇 𐫉 𐫊 𐫋 𐫌 𐫍 𐫎 𐫏 𐫐 𐫑 𐫒 𐫓 𐫔 𐫕 𐫖 𐫗 𐫘 𐫙 𐫚 𐫛 𐫜 𐫝 𐫞 𐫟 𐫠 𐫡 𐫢 𐫣 𐫤 𐫈"
 }
 sample_glyphs {
-  key: "Manichaean Nonspacing Marks"
-  value: "𐫥 𐫦"
+  key: "Marks"
+  value: "𐫥 𐫦 ︀"
 }
 sample_glyphs {
-  key: "Manichaean Numbers"
+  key: "Numbers"
   value: "𐫫 𐫬 𐫭 𐫮 𐫯"
 }
 sample_glyphs {
-  key: "Manichaean Punctuation"
+  key: "Punctuation"
   value: "𐫰 𐫱 𐫲 𐫳 𐫴 𐫵 𐫶"
-}
-sample_glyphs {
-  key: "Manichaean Symbols"
-  value: "𐫈"
-}
-sample_glyphs {
-  key: "Modifier Letters"
-  value: "ـ"
-}
-sample_glyphs {
-  key: "Nonspacing Marks, Variation Selectors"
-  value: "︀"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Symbols, Geometric Shapes"
-  value: "◌"
 }

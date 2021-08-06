@@ -23,26 +23,14 @@ is_noto: true
 languages: "he_Hebr"  # Hebrew
 languages: "lad_Hebr"  # Ladino
 sample_glyphs {
-  key: "Dash Punctuation"
-  value: "-"
-}
-sample_glyphs {
-  key: "Hebrew Dash Punctuation"
-  value: "־"
-}
-sample_glyphs {
-  key: "Hebrew Letters"
+  key: "Hebrew"
   value: "א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ"
 }
 sample_glyphs {
-  key: "Hebrew Nonspacing Marks"
+  key: "Marks"
   value: "֑ ֒ ֓ ֔ ֕ ֖ ֗ ֘ ֙ ֚ ֛ ֜ ֝ ֞ ֟ ֠ ֡ ֢ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֺ ֻ ּ ֽ ֿ ׁ ׂ ׄ ׅ ׇ"
 }
 sample_glyphs {
-  key: "Hebrew Punctuation"
-  value: "׀ ׃ ׆ ׳ ״"
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
+  key: "Punctuation"
+  value: "־ ׀ ׃ ׆ ׳ ״ -"
 }

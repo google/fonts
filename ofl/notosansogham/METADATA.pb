@@ -17,22 +17,10 @@ subsets: "ogham"
 is_noto: true
 languages: "sga_Ogam"  # Old Irish, Ogham
 sample_glyphs {
-  key: "Ogham Close Punctuation"
-  value: "᚜"
-}
-sample_glyphs {
-  key: "Ogham Letters"
+  key: "Ogham"
   value: "ᚁ ᚂ ᚃ ᚄ ᚅ ᚆ ᚇ ᚈ ᚉ ᚊ ᚋ ᚌ ᚍ ᚎ ᚏ ᚐ ᚑ ᚒ ᚓ ᚔ ᚕ ᚖ ᚗ ᚘ ᚙ ᚚ"
 }
 sample_glyphs {
-  key: "Ogham Open Punctuation"
-  value: "᚛"
-}
-sample_glyphs {
-  key: "Ogham Space Separators"
-  value: " "
-}
-sample_glyphs {
-  key: "Space Separators"
-  value: " "
+  key: "Punctuation"
+  value: "᚛ ᚜"
 }

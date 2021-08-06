@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/caramel"
-  commit: "497341c437891ac272f8b3ac68b721f07031f3d3"
-}

@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/birthstone"
-  commit: "ee85ee98a3678333faaed450ed7533e707876691"
-}

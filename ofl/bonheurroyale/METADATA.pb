@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/bonheur-royale"
-  commit: "5437451c7ef27d37081b96d4f73c445ca1813b10"
-}

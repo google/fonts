@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/ephesis"
-  commit: "8b303b53193b302c8894fb4635bbd49d4420d433"
-}

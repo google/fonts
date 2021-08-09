@@ -1,9 +1,7 @@
 branch: master
 files:
-  OFL.txt: OFL.txt
-  fonts/variable/WorkSans[wght].ttf: WorkSans[wght].ttf
-  fonts/variable/WorkSans-Italic[wght].ttf: WorkSans-Italic[wght].ttf
   fonts/ttf/WorkSans-Thin.ttf: static/WorkSans-Thin.ttf
+  fonts/ttf/WorkSans-ThinItalic.ttf: static/WorkSans-ThinItalic.ttf
   fonts/ttf/WorkSans-ExtraLight.ttf: static/WorkSans-ExtraLight.ttf
   fonts/ttf/WorkSans-ExtraLightItalic.ttf: static/WorkSans-ExtraLightItalic.ttf
   fonts/ttf/WorkSans-Light.ttf: static/WorkSans-Light.ttf
@@ -20,4 +18,6 @@ files:
   fonts/ttf/WorkSans-ExtraBoldItalic.ttf: static/WorkSans-ExtraBoldItalic.ttf
   fonts/ttf/WorkSans-Black.ttf: static/WorkSans-Black.ttf
   fonts/ttf/WorkSans-BlackItalic.ttf: static/WorkSans-BlackItalic.ttf
-repository_url: https://github.com/weiweihuanghuang/Work-Sans
+  fonts/variable/WorkSans[wght].ttf: WorkSans[wght].ttf
+  fonts/variable/WorkSans-Italic[wght].ttf: WorkSans-Italic[wght].ttf
+  OFL.txt: OFL.txt

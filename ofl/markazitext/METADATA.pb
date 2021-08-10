@@ -10,7 +10,7 @@ fonts {
   filename: "MarkaziText[wght].ttf"
   post_script_name: "MarkaziText-Regular"
   full_name: "Markazi Text Regular"
-  copyright: "Copyright 2017 The Markazi Text Authors (https://github.com/BornaIz/markazitext)"
+  copyright: "Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)"
 }
 subsets: "arabic"
 subsets: "latin"

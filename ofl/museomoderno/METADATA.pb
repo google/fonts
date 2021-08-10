@@ -1,10 +1,10 @@
-name: "Museo Moderno"
+name: "MuseoModerno"
 designer: "Omnibus-Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2020-05-18"
 fonts {
-  name: "Museo Moderno"
+  name: "MuseoModerno"
   style: "normal"
   weight: 400
   filename: "MuseoModerno[wght].ttf"

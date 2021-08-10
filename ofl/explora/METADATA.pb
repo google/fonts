@@ -17,7 +17,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/explora"
-  commit: "b4dd93de15b0451de234df3aa3de61e20ba6116d"
-}

@@ -10,7 +10,7 @@ fonts {
   filename: "Dosis[wght].ttf"
   post_script_name: "Dosis-Regular"
   full_name: "Dosis Regular"
-  copyright: "Copyright 2011 The Dosis Project Authors (https://github.com/eliheuer/dosis-vf), with Reserved Font Names \"Dosis\"."
+  copyright: 'Copyright 2011 The Dosis Project Authors (https://github.com/eliheuer/dosis-vf), with Reserved Font Names "Dosis".'
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -6,11 +6,11 @@ date_added: "2011-02-02"
 fonts {
   name: "Kreon"
   style: "normal"
-  weight: 300
+  weight: 400
   filename: "Kreon[wght].ttf"
   post_script_name: "Kreon-Light"
   full_name: "Kreon Light"
-  copyright: "Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)"
+  copyright: 'Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon), with Reserved Font Name "Kreon"'
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -34,12 +34,12 @@ languages: "bgn_Arab"  # Western Balochi
 languages: "bqi_Arab"  # Bakhtiari
 languages: "brh_Arab"  # Brahui
 languages: "cja_Arab"  # Western Cham
-languages: "cjm_Arab"  # Eastern Cham, Perso-Arabic
+languages: "cjm_Arab"  # Eastern Cham, Arabic
 languages: "ckb_Arab"  # Central Kurdish
 languages: "cop_Arab"  # Coptic
 languages: "dcc_Arab"  # Deccan
-languages: "doi_Arab"  # Dogri, Perso-Arabic
-languages: "dyo_Arab"  # Jola-Fonyi, Perso-Arabic
+languages: "doi_Arab"  # Dogri, Arabic
+languages: "dyo_Arab"  # Jola-Fonyi, Arabic
 languages: "fa_Arab"  # Persian
 languages: "gbz_Arab"  # Zoroastrian Dari
 languages: "gjk_Arab"  # Kachi Koli
@@ -49,8 +49,8 @@ languages: "ha_Arab"  # Hausa (Arabic)
 languages: "haz_Arab"  # Hazaragi
 languages: "hnd_Arab"  # Southern Hindko
 languages: "hno_Arab"  # Northern Hindko
-languages: "id_Arab"  # Indonesian, Perso-Arabic
-languages: "inh_Arab"  # Ingush, Perso-Arabic
+languages: "id_Arab"  # Indonesian, Arabic
+languages: "inh_Arab"  # Ingush, Arabic
 languages: "kk_Arab"  # Kazakh (Arabic)
 languages: "kr_Arab"  # Kanuri
 languages: "ku_Arab"  # Kurdish (Arabic)
@@ -74,18 +74,18 @@ languages: "sd_Arab"  # Sindhi
 languages: "sdh_Arab"  # Southern Kurdish
 languages: "shi_Arab"  # Tachelhit
 languages: "skr_Arab"  # Saraiki
-languages: "so_Arab"  # Somali, Perso-Arabic
-languages: "sus_Arab"  # Susu, Perso-Arabic
+languages: "so_Arab"  # Somali, Arabic
+languages: "sus_Arab"  # Susu, Arabic
 languages: "swb_Arab"  # Comorian
 languages: "tg_Arab"  # Tajik (Arabic)
 languages: "tk_Arab"  # Turkmen
 languages: "tly_Arab"  # Talysh
-languages: "tr_Arab"  # Turkish, Perso-Arabic
-languages: "ttt_Arab"  # Muslim Tat, Perso-Arabic
+languages: "tr_Arab"  # Turkish, Arabic
+languages: "ttt_Arab"  # Muslim Tat, Arabic
 languages: "ug_Arab"  # Uyghur
 languages: "ur_Arab"  # Urdu
 languages: "uz_Arab"  # Uzbek (Arabic)
-languages: "wo_Arab"  # Wolof, Perso-Arabic
+languages: "wo_Arab"  # Wolof, Arabic
 languages: "zdj_Arab"  # Ngazidja Comorian
 sample_glyphs {
   key: "Arabic"

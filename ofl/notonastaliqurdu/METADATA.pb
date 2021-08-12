@@ -37,7 +37,7 @@ languages: "mzn_Arab"  # Mazanderani
 languages: "pa_Arab"  # Punjabi (Arabic)
 languages: "ps_Arab"  # Pashto
 languages: "skr_Arab"  # Saraiki
-languages: "so_Arab"  # Somali, Perso-Arabic
+languages: "so_Arab"  # Somali, Arabic
 languages: "ur_Arab"  # Urdu
 sample_glyphs {
   key: "Arabic"

@@ -23,4 +23,5 @@ fonts {
 }
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "arabic"
 subsets: "menu"

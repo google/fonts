@@ -1,5 +1,5 @@
 designer: "Eli Block"
-link: "https://eli-block.com/"
-avatar: {
+link: ""
+avatar {
   file_name: "eli_block.png"
 }

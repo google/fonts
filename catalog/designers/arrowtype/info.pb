@@ -1,5 +1,5 @@
 designer: "Arrow Type"
-link: "https://arrowtype.com"
-avatar: {
+link: ""
+avatar {
   file_name: "arrow_type.png"
 }

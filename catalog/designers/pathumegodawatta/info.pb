@@ -1,5 +1,5 @@
 designer: "Pathum Egodawatta"
-link: "https://plus.google.com"
-avatar: {
+link: ""
+avatar {
   file_name: "pathum_egodawatta.png"
 }

@@ -1,5 +1,5 @@
 designer: "Wael Morcos"
-link: "https://www.morcoskey.com/"
-avatar: {
+link: ""
+avatar {
   file_name: "wael_morcos.png"
 }

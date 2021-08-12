@@ -1,5 +1,5 @@
 designer: "The Northern Block"
-link: "https://thenorthernblock.co.uk/"
-avatar: {
+link: ""
+avatar {
   file_name: "thenorthernblock.png"
 }

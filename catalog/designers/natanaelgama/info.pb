@@ -1,5 +1,5 @@
 designer: "Natanael Gama"
 link: ""
-avatar: {
+avatar {
   file_name: "natanael_gama.png"
 }

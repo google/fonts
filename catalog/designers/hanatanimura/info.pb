@@ -1,5 +1,5 @@
 designer: "Hana Tanimura"
-link: "https://www.hanatanimura.com"
-avatar: {
+link: ""
+avatar {
   file_name: "hana_tanimura.png"
 }

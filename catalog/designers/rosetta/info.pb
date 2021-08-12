@@ -1,5 +1,5 @@
 designer: "Rosetta"
-link: "https://www.rosettatype.com/"
-avatar: {
+link: ""
+avatar {
   file_name: "rosetta.png"
 }

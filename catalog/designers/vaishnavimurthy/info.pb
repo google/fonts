@@ -1,5 +1,5 @@
 designer: "Vaishnavi Murthy"
-link: "https://twitter.com/vaishnavimurthy"
-avatar: {
+link: ""
+avatar {
   file_name: "vaishnavi_murthy.png"
 }

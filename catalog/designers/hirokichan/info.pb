@@ -1,5 +1,5 @@
 designer: "Hiroki-Chan"
 link: ""
-avatar: {
+avatar {
   file_name: "hirokichan.png"
 }

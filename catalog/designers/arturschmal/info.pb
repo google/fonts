@@ -1,5 +1,5 @@
 designer: "Artur Schmal"
-link: "https://originaltype.com"
-avatar: {
+link: ""
+avatar {
   file_name: "artur_schmal.png"
 }

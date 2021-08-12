@@ -1,5 +1,5 @@
 designer: "Santiago Orozco"
 link: ""
-avatar: {
+avatar {
   file_name: "santiagoorozco.png"
 }

@@ -1,5 +1,5 @@
 designer: "Tanukizamurai"
 link: ""
-avatar: {
+avatar {
   file_name: "tanukizamurai.png"
 }

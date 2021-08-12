@@ -1,5 +1,5 @@
 designer: "IBM Brand Experience & Design"
-link: "https://www.ibm.com/design/"
-avatar: {
+link: ""
+avatar {
   file_name: "ibmbxd.png"
 }

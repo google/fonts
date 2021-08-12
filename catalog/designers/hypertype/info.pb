@@ -1,5 +1,5 @@
 designer: "Hypertype"
 link: ""
-avatar: {
+avatar {
   file_name: "hypertype.png"
 }

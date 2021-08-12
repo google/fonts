@@ -1,5 +1,5 @@
 designer: "MCKL"
-link: "https://mckltype.com"
-avatar: {
+link: ""
+avatar {
   file_name: "mckl.png"
 }

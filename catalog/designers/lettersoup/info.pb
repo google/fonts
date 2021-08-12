@@ -1,5 +1,5 @@
 designer: "Lettersoup"
-link: "https://www.lettersoup.de"
-avatar: {
+link: ""
+avatar {
   file_name: "lettersoup.png"
 }

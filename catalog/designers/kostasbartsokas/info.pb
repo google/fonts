@@ -1,5 +1,5 @@
 designer: "Kostas Bartsokas"
-link: "http://www.kostasbartsokas.com"
-avatar: {
+link: ""
+avatar {
   file_name: "kostasbartsokas.png"
 }

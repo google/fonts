@@ -1,5 +1,5 @@
 designer: "Carrois Apostrophe"
-link: "https://plus.google.com"
-avatar: {
+link: ""
+avatar {
   file_name: "carrois_apostrophe.png"
 }

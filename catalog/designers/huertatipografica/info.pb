@@ -1,5 +1,5 @@
 designer: "Huerta Tipográfica"
-link: "https://plus.google.com/u/0/112473143573572123748/about"
-avatar: {
+link: ""
+avatar {
   file_name: "huerta_tipografica.png"
 }

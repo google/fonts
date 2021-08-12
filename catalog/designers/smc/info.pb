@@ -1,5 +1,5 @@
 designer: "SMC"
-link: "https://smc.org.in/"
-avatar: {
+link: ""
+avatar {
   file_name: "smc.png"
 }

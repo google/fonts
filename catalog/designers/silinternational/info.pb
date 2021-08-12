@@ -1,5 +1,5 @@
 designer: "SIL International"
 link: ""
-avatar: {
+avatar {
   file_name: "silinternational.png"
 }

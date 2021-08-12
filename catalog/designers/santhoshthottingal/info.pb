@@ -1,5 +1,5 @@
 designer: "Santhosh Thottingal"
-link: "https://thottingal.in/"
-avatar: {
+link: ""
+avatar {
   file_name: "santhosh_thottingal.png"
 }

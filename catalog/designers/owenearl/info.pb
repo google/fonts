@@ -1,5 +1,5 @@
 designer: "Owen Earl"
-link: "https://indestructibletype.com/Home.html"
-avatar: {
+link: ""
+avatar {
   file_name: "indestructibletype.png"
 }

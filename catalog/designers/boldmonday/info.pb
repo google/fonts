@@ -1,5 +1,5 @@
 designer: "Bold Monday"
-link: "https://www.boldmonday.com"
-avatar: {
+link: ""
+avatar {
   file_name: "boldmonday.png"
 }

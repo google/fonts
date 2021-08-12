@@ -1,5 +1,5 @@
 designer: "Anna Giedryś"
-link: "http://ancymonic.com/"
-avatar: {
+link: ""
+avatar {
   file_name: "anna_giedrys.png"
 }

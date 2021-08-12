@@ -1,5 +1,5 @@
 designer: "Google Design"
-link: "https://plus.google.com/+googledesign"
-avatar: {
+link: ""
+avatar {
   file_name: "google_design.png"
 }

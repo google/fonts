@@ -1,5 +1,5 @@
 designer: "Mooniak"
-link: "http://mooniak.com/"
-avatar: {
+link: ""
+avatar {
   file_name: "mooniak.png"
 }

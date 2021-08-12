@@ -1,5 +1,5 @@
 designer: "Rodrigo Fuenzalida"
-link: "https://www.behance.net/erreefe"
-avatar: {
+link: ""
+avatar {
   file_name: "rodrigofuenzalida.png"
 }

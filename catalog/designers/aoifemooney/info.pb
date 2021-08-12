@@ -1,5 +1,5 @@
 designer: "Aoife Mooney"
-link: "https://plus.google.com"
-avatar: {
+link: ""
+avatar {
   file_name: "aoife_mooney.png"
 }

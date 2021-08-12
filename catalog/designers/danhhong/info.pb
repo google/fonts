@@ -1,5 +1,5 @@
 designer: "Danh Hong"
-link: "https://khmertype.blogspot.com/"
-avatar: {
+link: ""
+avatar {
   file_name: "danh_hong.png"
 }

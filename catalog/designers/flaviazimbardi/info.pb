@@ -1,5 +1,5 @@
 designer: "Flavia Zimbardi"
-link: "https://www.undercase.xyz"
-avatar: {
+link: ""
+avatar {
   file_name: "flavia_zimbardi.jpg"
 }

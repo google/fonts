@@ -1,5 +1,5 @@
 designer: "Noemie Le Coz"
-link: "http://www.noemielecoz.com"
-avatar: {
+link: ""
+avatar {
   file_name: "noemie_lecoz.png"
 }

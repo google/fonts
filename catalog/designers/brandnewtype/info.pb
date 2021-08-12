@@ -1,5 +1,5 @@
 designer: "Brandnewtype"
-link: "https://plus.google.com"
-avatar: {
+link: ""
+avatar {
   file_name: "brandnewtype.png"
 }

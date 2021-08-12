@@ -1,5 +1,5 @@
 designer: "Cyreal"
-link: "http://www.cyreal.org/"
-avatar: {
+link: ""
+avatar {
   file_name: "cyreal.png"
 }

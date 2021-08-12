@@ -1,5 +1,5 @@
 designer: "Meir Sadan"
-link: "https://plus.google.com"
-avatar: {
+link: ""
+avatar {
   file_name: "meir_sadan.png"
 }

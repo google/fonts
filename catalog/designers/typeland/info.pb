@@ -1,5 +1,5 @@
 designer: "Typeland"
-link: "https://www.type.land/"
-avatar: {
+link: ""
+avatar {
   file_name: "Typeland.png"
 }

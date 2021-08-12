@@ -1,5 +1,5 @@
 designer: "Borys Kosmynka"
-link: "https://kosmynka.com"
-avatar: {
+link: ""
+avatar {
   file_name: "boryskosmynka.png"
 }

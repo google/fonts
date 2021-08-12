@@ -1,5 +1,5 @@
 designer: "Lucas Descroix"
-link: "https://www.lucasdescroix.fr"
-avatar: {
+link: ""
+avatar {
   file_name: "lucasdescroix.png"
 }

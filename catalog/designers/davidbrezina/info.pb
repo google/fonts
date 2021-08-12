@@ -1,5 +1,5 @@
 designer: "David Březina"
-link: "https://www.mrbrezina.com/"
-avatar: {
+link: ""
+avatar {
   file_name: "david_brezinas.png"
 }

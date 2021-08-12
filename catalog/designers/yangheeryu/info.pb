@@ -1,5 +1,5 @@
 designer: "Yanghee Ryu"
 link: ""
-avatar: {
+avatar {
   file_name: "yangheeryu.png"
 }

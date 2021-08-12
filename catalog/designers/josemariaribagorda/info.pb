@@ -1,5 +1,5 @@
 designer: "José María Ribagorda"
-link: "https://twitter.com/Jm_ribagorda"
-avatar: {
+link: ""
+avatar {
   file_name: "josemariaribagorda.png"
 }

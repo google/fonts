@@ -1,5 +1,5 @@
 designer: "Fontworks Inc."
 link: ""
-avatar: {
+avatar {
   file_name: "fontworksinc.png"
 }

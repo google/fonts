@@ -1,5 +1,5 @@
 designer: "Boutros Fonts"
-link: "https://www.boutrosfonts.com"
-avatar: {
+link: ""
+avatar {
   file_name: "boutrosfonts.png"
 }

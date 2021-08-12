@@ -1,5 +1,5 @@
 designer: "Tart Workshop"
-link: "https://profiles.google.com/tartworkshop/about"
-avatar: {
+link: ""
+avatar {
   file_name: "tart_workshop.png"
 }

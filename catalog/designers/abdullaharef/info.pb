@@ -1,5 +1,5 @@
 designer: "Abdullah Aref"
-link: "https://www.facebook.com/areffonts"
-avatar: {
+link: ""
+avatar {
   file_name: "abdullaharef.png"
 }

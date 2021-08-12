@@ -1,5 +1,5 @@
 designer: "ETC"
-link: "https://www.etceteratype.co"
-avatar: {
+link: ""
+avatar {
   file_name: "etc.png"
 }

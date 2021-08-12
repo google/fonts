@@ -1,5 +1,5 @@
 designer: "Kevin Burke"
-link: "https://plus.google.com"
-avatar: {
+link: ""
+avatar {
   file_name: "kevin_burke.png"
 }

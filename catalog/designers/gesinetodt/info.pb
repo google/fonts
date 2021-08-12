@@ -1,5 +1,5 @@
 designer: "Gesine Todt"
-link: "https://plus.google.com/+GesineTodt/about"
-avatar: {
+link: ""
+avatar {
   file_name: "gesine_todt.png"
 }

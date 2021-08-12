@@ -30,7 +30,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/weiweihuanghuang/Work-Sans"
-  commit: "aaa3779d0cc401372e0a5154d55362a4d9124e58"
-}

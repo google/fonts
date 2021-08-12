@@ -19,7 +19,6 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-foundry: "GOOGLE"
 axes {
   tag: "GRAD"
   min_value: -200.0

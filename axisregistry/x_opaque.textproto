@@ -7,7 +7,7 @@ default_value: 88
 precision: 0
 fallback {
   name: "Normal"
-  value: 0
+  value: 88
 }
 description:
   "Assigns a 'black' per mille value to each instance of the design space."

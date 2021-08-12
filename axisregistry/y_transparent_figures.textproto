@@ -3,11 +3,11 @@ tag: "YTFI"
 display_name: "Y transparent figures"
 min_value: -1000
 max_value: 2000
-default_value: 400
+default_value: 600 # this is NOT what TN defined, it's just a value that fits for Roboto Flex
 precision: 0
 fallback {
   name: "Normal"
-  value: 400
+  value: 600
 }
 description:
   "Assigns a 'white' per mille value to each instance of the design space."

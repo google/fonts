@@ -30,3 +30,7 @@ axes {
   min_value: 400.0
   max_value: 840.0
 }
+source {
+  repository_url: "https://github.com/huertatipografica/Andada-Pro"
+  commit: "a0b87b947003dee6c615809d3eebc8c1334dc575"
+}

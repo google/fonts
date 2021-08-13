@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/cherish"
-  commit: "fd3a5b6b7fa7865540892380eb94290c2d49227b"
-}

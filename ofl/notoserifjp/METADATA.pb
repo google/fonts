@@ -252,3 +252,4 @@ sample_glyphs {
   value: "⌅ ⌆ ⌇ ⌒ ⌘ ⎾ ⎿ ⏀ ⏁ ⏂ ⏃ ⏄ ⏅ ⏆ ⏇ ⏈ ⏉ ⏊ ⏋ ⏌ ⏎ ⏚ ⏛ ⎰ ⎱"
 }
 source_type: TYPE_OTF
+display_name: "Noto Serif Japanese"

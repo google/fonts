@@ -10,7 +10,7 @@ fonts {
   filename: "Changa[wght].ttf"
   post_script_name: "Changa-Regular"
   full_name: "Changa Regular"
-  copyright: "Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)"
+  copyright: "Copyright 2018 The Changa Project Authors (https://github.com/googlefonts/changa-vf)"
 }
 subsets: "arabic"
 subsets: "latin"

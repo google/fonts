@@ -7,15 +7,20 @@ fonts {
   name: "Signika"
   style: "normal"
   weight: 400
-  filename: "Signika[wght].ttf"
+  filename: "Signika[NEGA,wght].ttf"
   post_script_name: "Signika-Light"
-  full_name: "Signika"
+  full_name: "Signika Light"
   copyright: "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika)."
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "NEGA"
+  min_value: 0.0
+  max_value: 1.0
+}
 axes {
   tag: "wght"
   min_value: 300.0

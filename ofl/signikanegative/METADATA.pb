@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "SignikaNegative[wght].ttf"
   post_script_name: "SignikaNegative-Light"
-  full_name: "Signika Negative"
+  full_name: "Signika Negative Light"
   copyright: "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika)."
 }
 subsets: "latin"

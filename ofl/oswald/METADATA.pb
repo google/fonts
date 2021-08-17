@@ -23,6 +23,7 @@ axes {
   min_value: 200.0
   max_value: 700.0
 }
+
 fallbacks {
   axis_target {
     tag: "wght"

@@ -10,7 +10,7 @@ fonts {
   filename: "SawarabiMincho-Regular.ttf"
   post_script_name: "SawarabiMincho-Regular"
   full_name: "Sawarabi Mincho"
-  [google.fonts.copyright]: "Copyright 2016 The Sawarabi Mincho Project Authors."
+  copyright: "Copyright 2016 The Sawarabi Mincho Project Authors."
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -84,3 +84,7 @@ axes {
   min_value: 100.0
   max_value: 1000.0
 }
+registry_default_overrides {
+  key: "YTUC"
+  value: 528.0
+}

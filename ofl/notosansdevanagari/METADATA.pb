@@ -99,9 +99,15 @@ languages: "bjj_Deva"  # Kanauji
 languages: "bra_Deva"  # Braj
 languages: "brx_Deva"  # Bodo
 languages: "btv_Deva"  # Bateri
+languages: "byh_Deva"  # Bhujel, Devanagari
+languages: "chx_Deva"  # Chantyal, Devanagari
+languages: "dhi_Deva"  # Dhimal, Devanagari
+languages: "dhw_Deva"  # Dhanwar, Nepal, Devanagari
+languages: "doi_Deva"  # Dogri
 languages: "dty_Deva"  # Dotyali
 languages: "gbm_Deva"  # Garhwali
 languages: "ggn_Deva"  # Eastern Gurung
+languages: "gju_Deva"  # Gujari, Devanagari
 languages: "gom_Deva"  # Goan Konkani
 languages: "gon_Deva"  # Gondi
 languages: "gvr_Deva"  # Gurung
@@ -113,10 +119,13 @@ languages: "hoj_Deva"  # Hadothi
 languages: "jml_Deva"  # Jumli
 languages: "kfr_Deva"  # Kachhi
 languages: "kfy_Deva"  # Kumaoni
+languages: "kgj_Deva"  # Gamale Kham, Devanagari
 languages: "khn_Deva"  # Khandesi
+languages: "khr_Deva"  # Kharia, Devanagari
 languages: "kok_Deva"  # Konkani
 languages: "kru_Deva"  # Kurukh
 languages: "ks_Deva"  # Kashmiri, Devanagari
+languages: "lhm_Deva"  # Lhomi, Devanagari
 languages: "lif_Deva"  # Limbu
 languages: "mag_Deva"  # Magahi
 languages: "mai_Deva"  # Maithili
@@ -127,8 +136,10 @@ languages: "mtr_Deva"  # Mewari
 languages: "mwr_Deva"  # Marwari
 languages: "ne_Deva"  # Nepali
 languages: "new_Deva"  # Newari
+languages: "nnp_Deva"  # Wancho Naga, Devanagari
 languages: "noe_Deva"  # Nimadi
 languages: "pi_Deva"  # Pali
+languages: "rab_Deva"  # Camling, Devanagari
 languages: "raj_Deva"  # Rajasthani
 languages: "rjs_Deva"  # Rajbanshi
 languages: "sa_Deva"  # Sanskrit
@@ -140,9 +151,11 @@ languages: "swv_Deva"  # Shekhawati
 languages: "taj_Deva"  # Eastern Tamang
 languages: "tdg_Deva"  # Western Tamang
 languages: "tdh_Deva"  # Thulung
+languages: "thf_Deva"  # Thangmi, Devanagari
 languages: "thl_Deva"  # Dangaura Tharu
 languages: "thq_Deva"  # Kochila Tharu
 languages: "thr_Deva"  # Rana Tharu
+languages: "ths_Deva"  # Thakali, Devanagari
 languages: "tkt_Deva"  # Kathoriya Tharu
 languages: "tsf_Deva"  # Southwestern Tamang
 languages: "unr_Deva"  # Mundari (Devanagari)
@@ -151,6 +164,7 @@ languages: "wbr_Deva"  # Wagdi
 languages: "wtm_Deva"  # Mewati
 languages: "xnr_Deva"  # Kangri
 languages: "xsr_Deva"  # Sherpa
+languages: "ybh_Deva"  # Yakha, Devanagari
 sample_glyphs {
   key: "Common Latin"
   value: "+ < = > ^ | ~ × ÷"

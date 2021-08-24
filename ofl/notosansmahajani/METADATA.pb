@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "mahajani"
 is_noto: true
 languages: "hi_Mahj"  # Hindi, Mahajani
+languages: "sa_Mahj"  # Sanskrit, Mahajani
 sample_glyphs {
   key: "Mahajani"
   value: "𑅐 𑅑 𑅒 𑅓 𑅔 𑅕 𑅖 𑅗 𑅘 𑅙 𑅚 𑅛 𑅜 𑅝 𑅞 𑅟 𑅠 𑅡 𑅢 𑅣 𑅤 𑅥 𑅦 𑅧 𑅨 𑅩 𑅪 𑅫 𑅬 𑅭 𑅮 𑅯 𑅰 𑅱 𑅲 𑅶"

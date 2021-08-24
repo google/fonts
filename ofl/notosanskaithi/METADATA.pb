@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "kaithi"
 is_noto: true
 languages: "bho_Kthi"  # Bhojpuri, Kaithi
+languages: "sa_Kthi"  # Sanskrit, Kaithi
 sample_glyphs {
   key: "Kaithi"
   value: "𑂃 𑂄 𑂅 𑂆 𑂇 𑂈 𑂉 𑂊 𑂋 𑂌 𑂍 𑂎 𑂏 𑂐 𑂑 𑂒 𑂓 𑂔 𑂕 𑂖 𑂗 𑂘 𑂙 𑂚 𑂛 𑂜 𑂝 𑂞 𑂟 𑂠 𑂡 𑂢 𑂣 𑂤 𑂥 𑂦 𑂧 𑂨 𑂩 𑂪 𑂫 𑂬 𑂭 𑂮 𑂯"

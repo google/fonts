@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "kharoshthi"
 is_noto: true
 languages: "pra_Khar"  # Prakrit
+languages: "sa_Khar"  # Sanskrit, Kharoshthi
 sample_glyphs {
   key: "Kharoshthi"
   value: "𐨀 𐨐 𐨑 𐨒 𐨓 𐨕 𐨖 𐨗 𐨙 𐨚 𐨛 𐨜 𐨝 𐨞 𐨟 𐨠 𐨡 𐨢 𐨣 𐨤 𐨥 𐨦 𐨧 𐨨 𐨩 𐨪 𐨫 𐨬 𐨭 𐨮 𐨯 𐨰 𐨱 𐨲 𐨳 𐨴 𐨵"

@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "warang-citi"
 is_noto: true
 languages: "hoc_Wara"  # Ho, Warang Citi
+languages: "sa_Wara"  # Sanskrit, Varang Kshiti / Warang Citi
 sample_glyphs {
   key: "Numbers"
   value: "𑣠 𑣡 𑣢 𑣣 𑣤 𑣥 𑣦 𑣧 𑣨 𑣩 𑣪 𑣫 𑣬 𑣭 𑣮 𑣯 𑣰 𑣱 𑣲"

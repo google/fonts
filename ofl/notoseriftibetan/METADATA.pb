@@ -20,7 +20,12 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "bft_Tibt"  # Balti, Tibetan
+languages: "bo_Tibt"  # Tibetan
+languages: "dz_Tibt"  # Dzongkha
 languages: "taj_Tibt"  # Eastern Tamang, Tibetan
+languages: "tdg_Tibt"  # Western Tamang, Tibetan
+languages: "tsj_Tibt"  # Tshangla
 sample_glyphs {
   key: "Common Latin"
   value: "|"

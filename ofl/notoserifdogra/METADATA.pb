@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "dogra"
 is_noto: true
 languages: "doi_Dogr"  # Dogri, Dogra
+languages: "sa_Dogr"  # Sanskrit, Dogra
 sample_glyphs {
   key: "Dogra"
   value: "𑠀 𑠁 𑠂 𑠃 𑠄 𑠅 𑠆 𑠇 𑠈 𑠉 𑠊 𑠋 𑠌 𑠍 𑠎 𑠏 𑠐 𑠑 𑠒 𑠓 𑠔 𑠕 𑠖 𑠗 𑠘 𑠙 𑠚 𑠛 𑠜 𑠝 𑠞 𑠟 𑠠 𑠡 𑠢 𑠣 𑠤 𑠥 𑠦 𑠧 𑠨 𑠩 𑠪 𑠫"

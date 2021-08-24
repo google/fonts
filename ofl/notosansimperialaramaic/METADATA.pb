@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "imperial-aramaic"
 is_noto: true
+languages: "aii_Armi"  # Assyrian Neo-Aramaic, Imperial Aramaic
 languages: "arc_Armi"  # Aramaic
 sample_glyphs {
   key: "Imperial Aramaic"

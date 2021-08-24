@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "linear-b"
 is_noto: true
+languages: "gmy_Linb"  # Mycenaean Greek
 languages: "grc_Linb"  # Ancient Greek, Linear B
 sample_glyphs {
   key: "Linear B"

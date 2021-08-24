@@ -31,6 +31,7 @@ languages: "jrb_Hebr"  # Judeo-Arabic
 languages: "lad_Hebr"  # Ladino
 languages: "sam_Hebr"  # Samaritan Aramaic
 languages: "yi_Hebr"  # Yiddish
+languages: "zh_Hebr"  # Chinese, Hebrew
 sample_glyphs {
   key: "Currency Symbols"
   value: "₪"

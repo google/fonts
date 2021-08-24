@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "hanunoo"
 is_noto: true
 languages: "hnn_Hano"  # Hanunoo, Hanunoo
+languages: "sa_Hano"  # Sanskrit, Hanunoo
 sample_glyphs {
   key: "Hanunoo"
   value: "ᜠ ᜡ ᜢ ᜣ ᜤ ᜥ ᜦ ᜧ ᜨ ᜩ ᜪ ᜫ ᜬ ᜭ ᜮ ᜯ ᜰ ᜱ"

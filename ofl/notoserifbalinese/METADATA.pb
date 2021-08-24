@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "balinese"
 is_noto: true
 languages: "ban_Bali"  # Balinese, Balinese
+languages: "sa_Bali"  # Sanskrit, Balinese
 sample_glyphs {
   key: "Balinese"
   value: "ᬅ ᬆ ᬇ ᬈ ᬉ ᬊ ᬋ ᬌ ᬍ ᬎ ᬏ ᬐ ᬑ ᬒ ᬓ ᬔ ᬕ ᬖ ᬗ ᬘ ᬙ ᬚ ᬛ ᬜ ᬝ ᬞ ᬟ ᬠ ᬡ ᬢ ᬣ ᬤ ᬥ ᬦ ᬧ ᬨ ᬩ ᬪ ᬫ ᬬ ᬭ ᬮ ᬯ ᬰ ᬱ ᬲ ᬳ ᭅ ᭆ ᭇ ᭈ ᭉ ᭊ ᭋ ᭡ ᭢ ᭣ ᭤ ᭥ ᭦ ᭧ ᭨ ᭩ ᭪ ᭴ ᭵ ᭶ ᭷ ᭸ ᭹ ᭺ ᭻ ᭼"

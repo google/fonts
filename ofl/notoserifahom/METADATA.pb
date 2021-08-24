@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "ahom"
 is_noto: true
 languages: "aho_Ahom"  # Ahom
+languages: "sa_Ahom"  # Sanskrit, Ahom
 sample_glyphs {
   key: "Ahom"
   value: "𑜀 𑜁 𑜂 𑜃 𑜄 𑜅 𑜆 𑜇 𑜈 𑜉 𑜊 𑜋 𑜌 𑜍 𑜎 𑜏 𑜐 𑜑 𑜒 𑜓 𑜔 𑜕 𑜖 𑜗 𑜘 𑜙 𑜚 𑜿"

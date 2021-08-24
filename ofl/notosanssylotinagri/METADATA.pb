@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "syloti-nagri"
 is_noto: true
+languages: "sa_Sylo"  # Sanskrit, Syloti Nagri
 languages: "syl_Sylo"  # Sylheti, Syloti Nagri
 sample_glyphs {
   key: "Marks"

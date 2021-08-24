@@ -15,8 +15,10 @@ fonts {
 subsets: "menu"
 subsets: "brahmi"
 is_noto: true
+languages: "aii_Brah"  # Assyrian Neo-Aramaic, Brahmi
 languages: "pi_Brah"  # Pali, Brahmi
 languages: "pka_Brah"  # Ardhamagadhi Prakrit
+languages: "sa_Brah"  # Sanskrit, Brahmi
 sample_glyphs {
   key: "Brahmi"
   value: "𑀃 𑀄 𑀅 𑀆 𑀇 𑀈 𑀉 𑀊 𑀋 𑀌 𑀍 𑀎 𑀏 𑀐 𑀑 𑀒 𑀓 𑀔 𑀕 𑀖 𑀗 𑀘 𑀙 𑀚 𑀛 𑀜 𑀝 𑀞 𑀟 𑀠 𑀡 𑀢 𑀣 𑀤 𑀥 𑀦 𑀧 𑀨 𑀩 𑀪 𑀫 𑀬 𑀭 𑀮 𑀯 𑀰 𑀱 𑀲 𑀳 𑀴 𑀵 𑀶 𑀷"

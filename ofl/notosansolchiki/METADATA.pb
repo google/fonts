@@ -20,6 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
+languages: "sa_Olck"  # Sanskrit, Ol Chiki
 languages: "sat_Olck"  # Santali
 sample_glyphs {
   key: "Currency Symbols"

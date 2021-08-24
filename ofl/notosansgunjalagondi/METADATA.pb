@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "gunjala-gondi"
 is_noto: true
 languages: "gon_Gong"  # Gondi, Gunjala Gondi
+languages: "sa_Gong"  # Sanskrit, Gunjala Gondi
 sample_glyphs {
   key: "Common Latin"
   value: "+ < = > × ÷"

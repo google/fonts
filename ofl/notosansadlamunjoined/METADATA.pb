@@ -21,6 +21,7 @@ axes {
 }
 is_noto: true
 languages: "ff_Adlm"  # Fulah (Adlam)
+languages: "fuf_Adlm"  # Pular, Adlam
 sample_glyphs {
   key: "Adlam"
   value: "𞥋"

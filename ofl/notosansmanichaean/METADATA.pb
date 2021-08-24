@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "manichaean"
 is_noto: true
+languages: "aii_Mani"  # Assyrian Neo-Aramaic, Manichaean
 languages: "xmn_Mani"  # Manichaean Middle Persian
 sample_glyphs {
   key: "Manichaean"

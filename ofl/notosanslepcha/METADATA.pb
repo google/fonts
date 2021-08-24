@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "lepcha"
 is_noto: true
 languages: "lep_Lepc"  # Lepcha
+languages: "sa_Lepc"  # Sanskrit, Lepcha
 sample_glyphs {
   key: "Lepcha"
   value: "ᰀ ᰁ ᰂ ᰃ ᰄ ᰅ ᰆ ᰇ ᰈ ᰉ ᰊ ᰋ ᰌ ᰍ ᰎ ᰏ ᰐ ᰑ ᰒ ᰓ ᰔ ᰕ ᰖ ᰗ ᰘ ᰙ ᰚ ᰛ ᰜ ᰝ ᰞ ᰟ ᰠ ᰡ ᰢ ᰣ ᱍ ᱎ ᱏ"

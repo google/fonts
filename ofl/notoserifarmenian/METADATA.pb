@@ -26,6 +26,7 @@ axes {
 }
 is_noto: true
 languages: "hy_Armn"  # Armenian
+languages: "hyw_Armn"  # Western Armenian, Armenian
 sample_glyphs {
   key: "Armenian"
   value: "ՙ ֍ ֎ ֏"

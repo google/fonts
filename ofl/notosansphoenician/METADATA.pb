@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "phoenician"
 is_noto: true
+languages: "aii_Phnx"  # Assyrian Neo-Aramaic, Phoenician
 languages: "phn_Phnx"  # Phoenician
 sample_glyphs {
   key: "Numbers"

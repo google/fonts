@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "limbu"
 is_noto: true
 languages: "lif_Limb"  # Limbu, Limbu
+languages: "sa_Limb"  # Sanskrit, Limbu
 sample_glyphs {
   key: "Limbu"
   value: "ᤀ ᤁ ᤂ ᤃ ᤄ ᤅ ᤆ ᤇ ᤈ ᤉ ᤊ ᤋ ᤌ ᤍ ᤎ ᤏ ᤐ ᤑ ᤒ ᤓ ᤔ ᤕ ᤖ ᤗ ᤘ ᤙ ᤚ ᤛ ᤜ ᤝ ᤞ ᥀"

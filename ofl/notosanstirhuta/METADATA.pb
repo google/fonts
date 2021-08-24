@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "tirhuta"
 is_noto: true
 languages: "mai_Tirh"  # Maithili, Tirhuta
+languages: "sa_Tirh"  # Sanskrit, Tirhuta
 sample_glyphs {
   key: "Marks"
   value: "𑒰 𑒱 𑒲 𑒳 𑒴 𑒵 𑒶 𑒷 𑒸 𑒹 𑒺 𑒻 𑒼 𑒽 𑒾 𑒿 𑓀 𑓁 𑓂 𑓃 ॑ ॒"

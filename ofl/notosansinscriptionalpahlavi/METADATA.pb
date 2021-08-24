@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "inscriptional-pahlavi"
 is_noto: true
+languages: "aii_Phli"  # Assyrian Neo-Aramaic, Inscriptional Pahlavi
 languages: "pal_Phli"  # Pahlavi
 sample_glyphs {
   key: "Inscriptional Pahlavi"

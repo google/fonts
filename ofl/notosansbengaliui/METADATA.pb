@@ -25,8 +25,23 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "as_Beng"  # Assamese
+languages: "bn_Beng"  # Bengali
 languages: "bpy_Beng"  # Bishnupriya
+languages: "brx_Beng"  # Bodo, Bangla
+languages: "ccp_Beng"  # Chakma, Bengali
+languages: "grt_Beng"  # Garo
+languages: "kha_Beng"  # Khasi, Bengali
+languages: "khr_Beng"  # Kharia, Bangla
+languages: "kyw_Beng"  # Kudmali, Bangla
+languages: "lus_Beng"  # Mizo
+languages: "mni_Beng"  # Manipuri
 languages: "rkt_Beng"  # Rangpuri
+languages: "sat_Beng"  # Santali, Bengali
+languages: "syl_Beng"  # Sylheti
+languages: "trp_Beng"  # Kok Borok, Bangla
+languages: "unr_Beng"  # Mundari
+languages: "unx_Beng"  # Munda
 sample_glyphs {
   key: "Bengali"
   value: "ঀ অ আ ই ঈ উ ঊ ঋ ঌ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ ৎ ড় ঢ় য় ৠ ৡ ৰ ৱ ৼ ৲ ৳ ৺ ৻"

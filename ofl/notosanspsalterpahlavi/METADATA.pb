@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "psalter-pahlavi"
 is_noto: true
+languages: "aii_Phlp"  # Assyrian Neo-Aramaic, Psalter Pahlavi
 languages: "pal_Phlp"  # Pahlavi, Psalter Pahlavi
 sample_glyphs {
   key: "Numbers"

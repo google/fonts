@@ -20,6 +20,7 @@ axes {
   max_value: 700.0
 }
 is_noto: true
+languages: "sa_Sora"  # Sanskrit, Sora Sompeng
 languages: "srb_Sora"  # Sora, Sora Sompeng
 sample_glyphs {
   key: "Numbers"

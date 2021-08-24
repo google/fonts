@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "soyombo"
 is_noto: true
 languages: "cmg_Soyo"  # Classical Mongolian
+languages: "sa_Soyo"  # Sanskrit, Soyombo
 sample_glyphs {
   key: "Marks"
   value: "𑩑 𑩒 𑩓 𑩔 𑩕 𑩖 𑩗 𑩘 𑩙 𑩚 𑩛 𑪊 𑪋 𑪌 𑪍 𑪎 𑪏 𑪐 𑪑 𑪒 𑪓 𑪔 𑪕 𑪖 𑪗 𑪘 𑪙"

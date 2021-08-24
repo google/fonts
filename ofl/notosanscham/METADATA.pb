@@ -22,6 +22,7 @@ axes {
 is_noto: true
 languages: "cja_Cham"  # Western Cham, Cham
 languages: "cjm_Cham"  # Eastern Cham
+languages: "sa_Cham"  # Sanskrit, Cham
 sample_glyphs {
   key: "Cham"
   value: "ꨀ ꨁ ꨂ ꨃ ꨄ ꨅ ꨆ ꨇ ꨈ ꨉ ꨊ ꨋ ꨌ ꨍ ꨎ ꨏ ꨐ ꨑ ꨒ ꨓ ꨔ ꨕ ꨖ ꨗ ꨘ ꨙ ꨚ ꨛ ꨜ ꨝ ꨞ ꨟ ꨠ ꨡ ꨢ ꨣ ꨤ ꨥ ꨦ ꨧ ꨨ ꩀ ꩁ ꩂ ꩄ ꩅ ꩆ ꩇ ꩈ ꩉ ꩊ ꩋ"

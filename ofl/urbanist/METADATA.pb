@@ -29,3 +29,7 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/coreyhu/Urbanist"
+  commit: "32a1b6db67974cf0bcab2ee8aa35927e3d910670"
+}

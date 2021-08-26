@@ -22,7 +22,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/hyper-type/hahmlet"
-  commit: "106541144954a9b7037b8d3837097ba660312655"
-}

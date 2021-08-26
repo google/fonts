@@ -12,8 +12,6 @@ fonts {
   full_name: "M PLUS 1 Thin"
   copyright: "Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"

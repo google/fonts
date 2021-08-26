@@ -21,7 +21,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/Omnibus-Type/MuseoModerno"
-  commit: "c314c4b23e19574cf22f7a41890238ed390badd1"
-}

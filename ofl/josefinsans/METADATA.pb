@@ -10,7 +10,7 @@ fonts {
   filename: "JosefinSans[wght].ttf"
   post_script_name: "JosefinSans-Thin"
   full_name: "Josefin Sans Thin"
-  copyright: 'Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name "Josefin Sans".'
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 fonts {
   name: "Josefin Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "JosefinSans-Italic[wght].ttf"
   post_script_name: "JosefinSans-ThinItalic"
   full_name: "Josefin Sans Thin Italic"
-  copyright: 'Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name "Josefin Sans".'
+  copyright: "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\"."
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -1,7 +1,7 @@
 name: "MuseoModerno"
 designer: "Omnibus-Type"
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2020-05-18"
 fonts {
   name: "MuseoModerno"

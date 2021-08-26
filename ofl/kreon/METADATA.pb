@@ -10,7 +10,7 @@ fonts {
   filename: "Kreon[wght].ttf"
   post_script_name: "Kreon-Light"
   full_name: "Kreon Light"
-  copyright: 'Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon), with Reserved Font Name "Kreon"'
+  copyright: "Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon), with Reserved Font Name \"Kreon\""
 }
 subsets: "latin"
 subsets: "latin-ext"

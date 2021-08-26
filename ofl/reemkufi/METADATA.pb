@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "ReemKufi[wght].ttf"
-  post_script_name: "ReemKufi-Regular"
-  full_name: "Reem Kufi Regular"
+  post_script_name: "ReemKufi"
+  full_name: "Reem Kufi"
   copyright: "Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."
 }
 subsets: "arabic"

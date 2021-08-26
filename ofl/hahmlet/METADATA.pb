@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Hahmlet[wght].ttf"
   post_script_name: "Hahmlet-Regular"
-  full_name: "Hahmlet"
+  full_name: "Hahmlet Regular"
   copyright: "Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)"
 }
 subsets: "korean"
@@ -24,5 +24,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/hyper-type/hahmlet"
-  commit: "98a376949035fe079839c17ad95db7917ec35ef4"
+  commit: "106541144954a9b7037b8d3837097ba660312655"
 }

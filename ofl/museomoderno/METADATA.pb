@@ -1,15 +1,15 @@
 name: "MuseoModerno"
 designer: "Omnibus-Type"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2020-05-18"
 fonts {
   name: "MuseoModerno"
   style: "normal"
   weight: 400
   filename: "MuseoModerno[wght].ttf"
-  post_script_name: "MuseoModerno-SemiBold"
-  full_name: "MuseoModerno SemiBold"
+  post_script_name: "MuseoModerno-Thin"
+  full_name: "MuseoModerno Thin"
   copyright: "Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)"
 }
 subsets: "latin"
@@ -20,4 +20,8 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/Omnibus-Type/MuseoModerno"
+  commit: "c314c4b23e19574cf22f7a41890238ed390badd1"
 }

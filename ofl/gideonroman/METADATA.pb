@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/gideon"
-  commit: "c7220310f3d5a41af5c7906b3c33672a0a2146c8"
-}

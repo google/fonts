@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/carattere"
-  commit: "18fbebe0c73ec82068be167eb3e63a795bd814ac"
-}

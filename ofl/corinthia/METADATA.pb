@@ -25,7 +25,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/corinthia"
-  commit: "2f3ce236bc48c337e683dae25fb320cb6b40ebfe"
-}

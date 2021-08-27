@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/ruge-boogie"
-  commit: "9031c615c877101741a6535077e283aba9536919"
-}

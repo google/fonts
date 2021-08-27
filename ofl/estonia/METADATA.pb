@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/estonia"
-  commit: "dffcd97fe95d0766d2bd257be51c1a07de2fd4ea"
-}

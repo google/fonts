@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Exo[wght].ttf"
-  post_script_name: "Exo-Thin"
-  full_name: "Exo Thin"
+  post_script_name: "Exo-Regular"
+  full_name: "Exo Regular"
   copyright: "Copyright 2017 The Exo Project Authors (https://github.com/NDISCOVER/Exo-1.0)"
 }
 fonts {
@@ -17,8 +17,8 @@ fonts {
   style: "italic"
   weight: 400
   filename: "Exo-Italic[wght].ttf"
-  post_script_name: "Exo-ThinItalic"
-  full_name: "Exo Thin Italic"
+  post_script_name: "Exo-Italic"
+  full_name: "Exo Italic"
   copyright: "Copyright 2017 The Exo Project Authors (https://github.com/NDISCOVER/Exo-1.0)"
 }
 subsets: "latin"

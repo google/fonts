@@ -1,5 +1,5 @@
 name: "Ruge Boogie"
-designer: "TypeSETit"
+designer: "Robert Leuschke"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-12-19"
@@ -9,9 +9,10 @@ fonts {
   weight: 400
   filename: "RugeBoogie-Regular.ttf"
   post_script_name: "RugeBoogie-Regular"
-  full_name: "Ruge Boogie"
-  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Ruge Boogie\""
+  full_name: "Ruge Boogie Regular"
+  copyright: "Copyright 2015 The Ruge Boogie Project Authors (https://github.com/googlefonts/ruge-boogie)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"

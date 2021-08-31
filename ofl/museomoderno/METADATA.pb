@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "MuseoModerno[wght].ttf"
-  post_script_name: "MuseoModerno-SemiBold"
-  full_name: "MuseoModerno SemiBold"
+  post_script_name: "MuseoModerno-Thin"
+  full_name: "MuseoModerno Thin"
   copyright: "Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)"
 }
 subsets: "latin"

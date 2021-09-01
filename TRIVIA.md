@@ -137,3 +137,25 @@ Here is a list of some libre fonts made for special purposes (emoij, math, icon,
 
 * <https://material.io/icons>
 * <https://github.com/figs-lab/datalegreya>
+
+## Where were the homepage sample texts from?
+
+In 2016 to 2020, the Google Fonts catalog displayed one of a dozen or so different sample texts.
+Here they are and where they are from:
+
+* "A red flair silhouetted the jagged edge of a wing" – The Jewels of Aptor, Samuel R. Delany
+* "A shining crescent far beneath the flying vessel" – Triplanetary, E. E. Smith
+* "All their equipment and instruments are alive" – Mr. Spaceship, Philip K. Dick
+* "Almost before we knew it, we had left the ground" – A Trip to Venus, John Munro
+* "I watched the storm, so beautiful yet terrific" – Frankenstein, Mary Shelley
+* "It was going to be a lonely trip back" – Youth by Isaac Asimov
+* "Mist enveloped the ship three hours out from port" – The Jewels of Aptor, Samuel R. Delany
+* "My two natures had memory in common" – Strange Case of Dr Jekyll and Mr Hyde, Robert Louis Stevenson
+* "She stared through the window at the stars" – The Millionaire's Convenient Bride, Catherine George ????
+* "Silver mist suffused the deck of the ship" – The Jewels of Aptor, Samuel R. Delany
+* "The face of the moon was in shadow" – Mr. Spaceship, Philip K. Dick
+* "The recorded voice scratched in the speaker" – Deathworld, Harry Harrison
+* "The sky was cloudless and of a deep dark blue" – A Trip to Venus, John Munro
+* "The spectacle before us was indeed sublime" – A Trip to Venus, John Munro
+* "Then came the night of the first falling star" – The War of the Worlds, H. G. Wells
+* "Waves flung themselves at the blue evening" – The Jewels of Aptor, Samuel R. Delany"

@@ -12,8 +12,6 @@ fonts {
   full_name: "Reggae One Regular"
   copyright: "Copyright 2020 The Reggae Project Authors (https://github.com/fontworks-fonts/Reggae/), all rights reserved."
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"

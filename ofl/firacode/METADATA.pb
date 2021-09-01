@@ -6,11 +6,11 @@ date_added: "2019-03-25"
 fonts {
   name: "Fira Code"
   style: "normal"
-  weight: 300
+  weight: 400
   filename: "FiraCode[wght].ttf"
   post_script_name: "FiraCode-Light"
   full_name: "Fira Code Light"
-  copyright: "Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)"
+  copyright: "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

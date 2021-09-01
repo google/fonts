@@ -1,0 +1,40 @@
+# Generate report for google/fonts repo
+name: Google Fonts Report
+
+on:
+  schedule:
+    # Every Monday at 12am
+    - cron:  '0 0 * * 1'
+    # for testing every 5th minute e.g 1:05, 1:10, 1:15...
+    #- cron: '1/5 * * * *'
+
+
+jobs:
+  gen_report:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.8"
+    - name: Install dependencies
+      run: pip install gftools[qa]
+    - name: Generate report
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: gftools push-stats . index.html
+    - name: Rearrange
+      run: |
+          mkdir for-gh-pages
+          mv index.html for-gh-pages
+          git checkout -B gh-pages
+          cp -ar for-gh-pages/* .
+          rm -rf for-gh-pages
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      name: Commit to gh-pages
+      with:
+        branch: gh-pages
+        file_pattern: index.html

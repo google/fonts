@@ -21,7 +21,3 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/aaronbell/DancingScript"
-  commit: "d1b9b8b369e284006d1d0e03464693e6c895fba2"
-}

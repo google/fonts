@@ -25,7 +25,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/birthstone-bounce"
-  commit: "f45812daabb656a9d1d8c19c211fc19c26c95c07"
-}

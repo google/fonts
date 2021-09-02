@@ -21,7 +21,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/Etcetera-Type-Co/Gluten"
-  commit: "e795b999daf6103f003891d2696282bf54e76ca4"
-}

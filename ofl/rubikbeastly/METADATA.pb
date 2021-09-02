@@ -18,7 +18,3 @@ subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
-  commit: "a8be3274ad3963da04534aece3687c1d84bdddb8"
-}

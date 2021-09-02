@@ -61,22 +61,12 @@ subsets: "chinese-hongkong"
 subsets: "latin"
 subsets: "menu"
 is_noto: true
-languages: "cjy_Hans"  # Chinese, Jinyu
-languages: "gan_Hans"  # Gan Chinese
-languages: "hak_Hans"  # Hakka Chinese
 languages: "hak_Hant"  # Hakka Chinese, Traditional
-languages: "hsn_Hans"  # Xiang Chinese
-languages: "lzh_Hans"  # Literary Chinese
 languages: "lzh_Hant"  # Literary Chinese
-languages: "nan_Hans"  # Min Nan Chinese
 languages: "nan_Hant"  # Min Nan Chinese, Traditional
 languages: "vi_Hani"  # Vietnamese, Han
-languages: "wuu_Hans"  # Wu Chinese
 languages: "yue_Hani"  # Chinese, Yue
-languages: "yue_Hans"  # Cantonese (Simplified)
 languages: "yue_Hant"  # Cantonese
-languages: "za_Hans"  # Zhuang, Simplified Han
-languages: "zh_Hans"  # Simplified Chinese
 languages: "zh_Hant"  # Chinese (Traditional)
 sample_glyphs {
   key: "Activities"

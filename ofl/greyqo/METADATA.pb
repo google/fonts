@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/grey-qo"
-  commit: "33db197cb6b5c11851eee946d28a0380f9eced9d"
-}

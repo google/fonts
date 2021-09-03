@@ -12,6 +12,6 @@ fonts {
   full_name: "Dangrek Regular"
   copyright: "Copyright 2020 The Dangrek Project Authors (https://github.com/danhhong/Dangrek)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

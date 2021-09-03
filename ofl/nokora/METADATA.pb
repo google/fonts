@@ -48,6 +48,6 @@ fonts {
   full_name: "Nokora Black"
   copyright: "Copyright 2019 The Nokora Project Authors (https://github.com/danhhong/Nokora)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

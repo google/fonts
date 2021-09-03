@@ -48,5 +48,6 @@ fonts {
   full_name: "Hanuman Black"
   copyright: "Copyright 2019 The Hanuman Project Authors (https://github.com/danhhong/Hanuman)"
 }
+subsets: "latin"
 subsets: "khmer"
 subsets: "menu"

@@ -12,5 +12,6 @@ fonts {
   full_name: "Fasthand Regular"
   copyright: "Copyright 2020 The Fasthand Project Authors (https://github.com/danhhong/Fasthand)"
 }
+subsets: "latin"
 subsets: "khmer"
 subsets: "menu"

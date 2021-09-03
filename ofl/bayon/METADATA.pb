@@ -12,5 +12,6 @@ fonts {
   full_name: "Bayon Regular"
   copyright: "Copyright 2019 The Bayon Project Authors (https://github.com/danhhong/Bayon)"
 }
+subsets: "latin"
 subsets: "khmer"
 subsets: "menu"

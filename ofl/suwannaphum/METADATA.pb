@@ -48,6 +48,6 @@ fonts {
   full_name: "Suwannaphum Black"
   copyright: "Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

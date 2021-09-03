@@ -12,5 +12,6 @@ fonts {
   full_name: "Bokor Regular"
   copyright: "Copyright 2020 The Bokor Project Authors (https://github.com/danhhong/Bokor)"
 }
+subsets: "latin"
 subsets: "khmer"
 subsets: "menu"

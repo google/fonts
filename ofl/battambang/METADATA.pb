@@ -48,6 +48,6 @@ fonts {
   full_name: "Battambang Black"
   copyright: "Copyright 2019 The Battambang Khmer Project Authors (https://github.com/danhhong/Battambang)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

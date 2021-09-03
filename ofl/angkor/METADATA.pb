@@ -12,6 +12,6 @@ fonts {
   full_name: "Angkor Regular"
   copyright: "Copyright 2020 The Angkor Project Authors (https://github.com/danhhong/Angkor)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

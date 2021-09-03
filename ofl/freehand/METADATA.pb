@@ -12,5 +12,6 @@ fonts {
   full_name: "Freehand Regular"
   copyright: "Copyright 2020 The Freehand Project Authors (https://github.com/danhhong/Freehand)"
 }
+subsets: "latin"
 subsets: "khmer"
 subsets: "menu"

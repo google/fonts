@@ -12,14 +12,8 @@ fonts {
   full_name: "Kosugi Regular"
   copyright: "Copyright 2010 The Kosugi Project Authors (https://github.com/googlefonts/kosugi)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/kosugi"
-  commit: "fa74acb51508dcf2e3ac958aa6eb776a8e333108"
-}

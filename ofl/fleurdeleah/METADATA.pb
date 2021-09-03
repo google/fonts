@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/fleurdeleah"
-  commit: "69626faaf6a596ea822d4b0fd9521a506b9ffcc0"
-}

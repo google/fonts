@@ -12,6 +12,6 @@ fonts {
   full_name: "Koulen Regular"
   copyright: "Copyright 2019 The Koulen Project Authors (https://github.com/danhhong/Koulen)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

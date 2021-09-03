@@ -12,6 +12,6 @@ fonts {
   full_name: "Metal Regular"
   copyright: "Copyright 2019 The Metal Project Authors (https://github.com/danhhong/Metal)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

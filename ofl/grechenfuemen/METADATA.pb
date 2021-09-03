@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/grechen-fuemen"
-  commit: "4e4ac4caeac05708e6b3a05f0d91d1bb0476c045"
-}

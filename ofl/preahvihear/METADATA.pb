@@ -12,5 +12,6 @@ fonts {
   full_name: "Preahvihear Regular"
   copyright: "Copyright 2020 The Preahvihear Project Authors (https://github.com/danhhong/Preahvihear)"
 }
+subsets: "latin"
 subsets: "khmer"
 subsets: "menu"

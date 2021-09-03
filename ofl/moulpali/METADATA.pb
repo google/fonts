@@ -12,6 +12,6 @@ fonts {
   full_name: "Moulpali Regular"
   copyright: "Copyright 2020 The Moulpali Project Authors (https://github.com/danhhong/Moulpali)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

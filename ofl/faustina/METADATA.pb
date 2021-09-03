@@ -30,7 +30,3 @@ axes {
   min_value: 300.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/Omnibus-Type/Faustina"
-  commit: "eaed5823e55b6256571a2bb379b5203083cab452"
-}

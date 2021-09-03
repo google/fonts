@@ -12,6 +12,6 @@ fonts {
   full_name: "Moul Regular"
   copyright: "Copyright 2020 The Moul Project Authors (https://github.com/danhhong/Moul)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

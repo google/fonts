@@ -12,6 +12,6 @@ fonts {
   full_name: "Taprom Regular"
   copyright: "Copyright 2019 The Taprom Project Authors (https://github.com/danhhong/Taprom)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

@@ -12,8 +12,14 @@ fonts {
   full_name: "RocknRoll One Regular"
   copyright: "Copyright 2020 The RocknRoll Project Authors (https://github.com/fontworks-fonts/RocknRoll)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/fontworks-fonts/RocknRoll.git"
+  commit: "29a2aa8bb7ab10702dee769ee681a9baeeb52ec1"
+}

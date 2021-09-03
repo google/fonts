@@ -12,6 +12,6 @@ fonts {
   full_name: "Odor Mean Chey Regular"
   copyright: "Copyright 2019 The Odor Mean Chey Project Authors (https://github.com/danhhong/OdorMeanChey)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

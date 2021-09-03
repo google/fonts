@@ -48,6 +48,6 @@ fonts {
   full_name: "Koh Santepheap Black"
   copyright: "Copyright 2020 The Koh Santepheap Project Authors (https://github.com/danhhong/KohSantepheap)"
 }
-subsets: "latin"
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

@@ -19,7 +19,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/RocknRoll.git"
-  commit: "29a2aa8bb7ab10702dee769ee681a9baeeb52ec1"
-}

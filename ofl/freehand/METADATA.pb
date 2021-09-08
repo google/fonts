@@ -7,10 +7,11 @@ fonts {
   name: "Freehand"
   style: "normal"
   weight: 400
-  filename: "Freehand.ttf"
-  post_script_name: "Freehand"
-  full_name: "Freehand"
-  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS Freethand. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  filename: "Freehand-Regular.ttf"
+  post_script_name: "Freehand-Regular"
+  full_name: "Freehand Regular"
+  copyright: "Copyright 2020 The Freehand Project Authors (https://github.com/danhhong/Freehand)"
 }
-subsets: "menu"
 subsets: "khmer"
+subsets: "latin"
+subsets: "menu"

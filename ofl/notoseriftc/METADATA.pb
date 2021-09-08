@@ -73,7 +73,6 @@ is_noto: true
 languages: "hak_Hant"  # Hakka Chinese, Traditional
 languages: "lzh_Hant"  # Literary Chinese
 languages: "nan_Hant"  # Min Nan Chinese, Traditional
-languages: "yue_Hant"  # Cantonese
 languages: "zh_Hant"  # Chinese (Traditional)
 sample_glyphs {
   key: "Activities"

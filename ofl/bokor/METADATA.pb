@@ -10,7 +10,8 @@ fonts {
   filename: "Bokor-Regular.ttf"
   post_script_name: "Bokor-Regular"
   full_name: "Bokor Regular"
-  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com), with Reserved Font Name Bokor. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright 2020 The Bokor Project Authors (https://github.com/danhhong/Bokor)"
 }
 subsets: "khmer"
+subsets: "latin"
 subsets: "menu"

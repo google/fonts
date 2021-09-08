@@ -19,7 +19,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/kosugi"
-  commit: "fa74acb51508dcf2e3ac958aa6eb776a8e333108"
-}

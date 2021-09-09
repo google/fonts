@@ -1,6 +1,7 @@
 name: "Andada"
 designer: "Huerta Tipográfica"
 license: "OFL"
+visibility: "INTERNAL"
 category: "SERIF"
 date_added: "2011-10-05"
 fonts {

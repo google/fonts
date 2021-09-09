@@ -12,8 +12,8 @@ fonts {
   full_name: "Cherry Bomb Regular"
   copyright: "Copyright 2019 The Cherry Bomb Project Authors (https://github.com/satsuyako/CherryBomb)"
 }
+subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-subsets: "japanese"
 subsets: "vietnamese"

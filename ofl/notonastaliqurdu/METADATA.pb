@@ -60,31 +60,24 @@ languages: "hno_Arab"  # Northern Hindko
 languages: "id_Arab"  # Indonesian, Arabic
 languages: "inh_Arab"  # Ingush, Arabic
 languages: "khw_Arab"  # Khowar
-languages: "kk_Arab"  # Kazakh (Arabic)
 languages: "kr_Arab"  # Kanuri
 languages: "ks_Arab"  # Kashmiri
 languages: "ku_Arab"  # Kurdish (Arabic)
 languages: "kvx_Arab"  # Parkari Koli
 languages: "kxp_Arab"  # Wadiyara Koli
-languages: "ky_Arab"  # Kyrgyz (Arabic)
 languages: "lah_Arab"  # Lahnda
 languages: "lki_Arab"  # Laki
 languages: "lrc_Arab"  # Northern Luri
 languages: "luz_Arab"  # Southern Luri
 languages: "mfa_Arab"  # Pattani Malay
-languages: "min_Arab"  # Minangkabau, Arabic
 languages: "mis_Arab"  # Uncoded languages, Arabic
-languages: "mrw_Arab"  # Maranao, Arabic
-languages: "ms_Arab"  # Malay (Arabic)
 languages: "mvy_Arab"  # Indus Kohistani
 languages: "mzn_Arab"  # Mazanderani
-languages: "ota_Arab"  # Ottoman Turkish, Arabic
 languages: "pa_Arab"  # Punjabi (Arabic)
 languages: "prd_Arab"  # Parsi-Dari
 languages: "prs_Arab"  # Dari
 languages: "ps_Arab"  # Pashto
 languages: "rmt_Arab"  # Domari
-languages: "sd_Arab"  # Sindhi
 languages: "sdh_Arab"  # Southern Kurdish
 languages: "shi_Arab"  # Tachelhit
 languages: "skr_Arab"  # Saraiki
@@ -98,13 +91,10 @@ languages: "tr_Arab"  # Turkish, Arabic
 languages: "trw_Arab"  # Torwali
 languages: "tt_Arab"  # Tatar, Arabic
 languages: "ttt_Arab"  # Muslim Tat, Arabic
-languages: "ug_Arab"  # Uyghur
 languages: "ur_Arab"  # Urdu
-languages: "uz_Arab"  # Uzbek (Arabic)
 languages: "wni_Arab"  # Ndzwani Comorian
 languages: "wo_Arab"  # Wolof, Arabic
 languages: "zdj_Arab"  # Ngazidja Comorian
-languages: "zlm_Arab"  # Malay, Arabic
 sample_glyphs {
   key: "Arabic"
   value: "ؠ ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ػ ؼ ؽ ؾ ؿ ف ق ك ل م ن ه و ى ي ٮ ٯ ٱ ٲ ٳ ٹ ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڃ ڄ څ چ ڇ ڈ ډ ڊ ڋ ڌ ڍ ڎ ڏ ڑ ړ ږ ژ ڙ ښ ڞ ڡ ڤ ڦ ک ګ گ ڰ ڱ ڳ ڷ ں ڻ ڼ ھ ۀ ہ ۂ ۃ ۄ ۆ ۇ ۊ ی ۍ ې ے ۓ ە ۮ ۯ ۿ ݙ ݜ ݣ ݧ ݨ ݩ ݪ ݫ ݬ ݭ ݮ ݯ ݰ ݱ ݲ ݳ ݴ ݵ ݶ ݷ ݸ ݹ ݺ ݻ ݼ ݽ ﷲ ﷴ ﷺ ﷻ ؋ ؎ ؏ ۞ ۩ ﮲ ﮳ ﮴ ﮵ ﮶ ﮷ ﮸ ﮹ ﮺ ﮻ ﮼ ﮽ ﮾ ﮿ ﯀ ﯁ ﷼ ﷽"

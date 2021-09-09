@@ -6,11 +6,11 @@ date_added: "2019-01-23"
 fonts {
   name: "Dosis"
   style: "normal"
-  weight: 200
+  weight: 400
   filename: "Dosis[wght].ttf"
-  post_script_name: "Dosis-ExtraLight"
-  full_name: "Dosis ExtraLight"
-  copyright: "Copyright 2011 The Dosis Project Authors (impallari@gmail.com)"
+  post_script_name: "Dosis-Regular"
+  full_name: "Dosis Regular"
+  copyright: "Copyright 2011 The Dosis Project Authors (https://github.com/googlefonts/dosis-vf)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -20,4 +20,8 @@ axes {
   tag: "wght"
   min_value: 200.0
   max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/dosis-vf"
+  commit: "3407d52f1d1b1c36c14e756ad0b36561d8d44a3b"
 }

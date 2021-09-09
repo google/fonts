@@ -21,7 +21,3 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/dosis-vf"
-  commit: "3407d52f1d1b1c36c14e756ad0b36561d8d44a3b"
-}

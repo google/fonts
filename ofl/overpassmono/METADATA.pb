@@ -23,7 +23,3 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/RedHatOfficial/Overpass"
-  commit: "f7a1930721830fd0ba2eda5ce22d9aaa3680a944"
-}

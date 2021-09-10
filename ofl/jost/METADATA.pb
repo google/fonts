@@ -30,7 +30,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/aaronbell/Jost"
-  commit: "f5029c3f20e310ef9f7a9c9c08fd808fd707db82"
-}

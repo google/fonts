@@ -16,3 +16,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/allura"
+  commit: "a144870ceeeedca897965467ae54b2484098f873"
+}

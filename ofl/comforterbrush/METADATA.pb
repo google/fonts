@@ -17,7 +17,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/comforter-brush"
-  commit: "b766cd284bccca94e617e03b167e3a1dc0582779"
-}

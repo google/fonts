@@ -26,7 +26,3 @@ axes {
   min_value: 100.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/floriankarsten/montagu-slab"
-  commit: "317bc2344f39f20620fae2424afc645aff7ab0ef"
-}

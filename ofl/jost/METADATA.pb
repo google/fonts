@@ -10,7 +10,7 @@ fonts {
   filename: "Jost[wght].ttf"
   post_script_name: "Jost-Regular"
   full_name: "Jost Regular"
-  copyright: "Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type)"
+  copyright: "Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type/Jost)"
 }
 fonts {
   name: "Jost"
@@ -19,7 +19,7 @@ fonts {
   filename: "Jost-Italic[wght].ttf"
   post_script_name: "Jost-Italic"
   full_name: "Jost Italic"
-  copyright: "Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type)"
+  copyright: "Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type/Jost)"
 }
 subsets: "cyrillic"
 subsets: "latin"

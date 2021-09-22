@@ -6,12 +6,13 @@ date_added: "2018-09-19"
 fonts {
   name: "Hepta Slab"
   style: "normal"
-  weight: 200
+  weight: 400
   filename: "HeptaSlab[wght].ttf"
   post_script_name: "HeptaSlab-ExtraLight"
   full_name: "Hepta Slab ExtraLight"
   copyright: "Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)"
 }
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -20,4 +21,8 @@ axes {
   tag: "wght"
   min_value: 1.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/aaronbell/Hepta-Slab"
+  commit: "8dd0f95d35d6e691e3006e7a32aaef0cdb84acc9"
 }

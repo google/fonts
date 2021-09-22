@@ -22,7 +22,3 @@ axes {
   min_value: 1.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/aaronbell/Hepta-Slab"
-  commit: "8dd0f95d35d6e691e3006e7a32aaef0cdb84acc9"
-}

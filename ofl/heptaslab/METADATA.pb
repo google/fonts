@@ -12,7 +12,6 @@ fonts {
   full_name: "Hepta Slab ExtraLight"
   copyright: "Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)"
 }
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

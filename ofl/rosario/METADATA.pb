@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Rosario[wght].ttf"
-  post_script_name: "Rosario-Light"
-  full_name: "Rosario Light"
+  post_script_name: "Rosario-Regular"
+  full_name: "Rosario Regular"
   copyright: "Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)"
 }
 fonts {
@@ -17,8 +17,8 @@ fonts {
   style: "italic"
   weight: 400
   filename: "Rosario-Italic[wght].ttf"
-  post_script_name: "Rosario-LightItalic"
-  full_name: "Rosario Light Italic"
+  post_script_name: "Rosario-Italic"
+  full_name: "Rosario Italic"
   copyright: "Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)"
 }
 subsets: "latin"
@@ -29,4 +29,8 @@ axes {
   tag: "wght"
   min_value: 300.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/Omnibus-Type/Rosario"
+  commit: "d8bf83600979c82357d8023243d3d01a386fc7fe"
 }

@@ -21,7 +21,3 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/changa-vf"
-  commit: "6b01b524a87bded805a3de339d087da6e9fc310a"
-}

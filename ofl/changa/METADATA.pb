@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Changa[wght].ttf"
-  post_script_name: "Changa-ExtraLight"
-  full_name: "Changa ExtraLight"
-  copyright: "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)"
+  post_script_name: "Changa-Regular"
+  full_name: "Changa Regular"
+  copyright: "Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)"
 }
 subsets: "arabic"
 subsets: "latin"
@@ -20,4 +20,8 @@ axes {
   tag: "wght"
   min_value: 200.0
   max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/changa-vf"
+  commit: "6b01b524a87bded805a3de339d087da6e9fc310a"
 }

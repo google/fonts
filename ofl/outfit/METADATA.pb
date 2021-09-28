@@ -19,7 +19,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/Outfitio/Outfit-Fonts"
-  commit: "dcc810855e997afd5de73215566aebbe0f13506d"
-}

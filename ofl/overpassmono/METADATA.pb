@@ -1,7 +1,7 @@
 name: "Overpass Mono"
-designer: "Delve Withrington"
+designer: "Delve Withrington, Dave Bailey, Thomas Jockin"
 license: "OFL"
-category: "SANS_SERIF"
+category: "MONOSPACE"
 date_added: "2016-12-02"
 fonts {
   name: "Overpass Mono"

@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Signika[wght].ttf"
   post_script_name: "Signika-Light"
-  full_name: "Signika"
+  full_name: "Signika Light"
   copyright: "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika)."
 }
 subsets: "latin"
@@ -20,4 +20,8 @@ axes {
   tag: "wght"
   min_value: 300.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/aaronbell/signika"
+  commit: "cae278e3e6f615905abd9fea0f50285a7744a65d"
 }

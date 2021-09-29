@@ -12,8 +12,6 @@ fonts {
   full_name: "Yuji Boku Regular"
   copyright: "Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"

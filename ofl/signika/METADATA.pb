@@ -21,7 +21,3 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/aaronbell/signika"
-  commit: "cae278e3e6f615905abd9fea0f50285a7744a65d"
-}

@@ -6,7 +6,7 @@ date_added: "2018-09-19"
 fonts {
   name: "Hepta Slab"
   style: "normal"
-  weight: 200
+  weight: 400
   filename: "HeptaSlab[wght].ttf"
   post_script_name: "HeptaSlab-ExtraLight"
   full_name: "Hepta Slab ExtraLight"

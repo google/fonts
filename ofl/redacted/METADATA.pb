@@ -10,7 +10,8 @@ fonts {
   filename: "Redacted-Regular.ttf"
   post_script_name: "RedactedRegular"
   full_name: "Redacted Regular"
-  copyright: "Copyright (c) 2013, Christian Naths (christiannaths@gmail.com christiannaths.com)"
+  copyright: "Copyright © 2013 Christian Naths. All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"

@@ -10,7 +10,7 @@ fonts {
   filename: "KosugiMaru-Regular.ttf"
   post_script_name: "KosugiMaru-Regular"
   full_name: "Kosugi Maru Regular"
-  copyright: "Copyright 2010 The Kosugi Maru Project Authors \\(https://github.com/googlefonts/kosugi-maru\\)"
+  copyright: "Copyright 2010 The Kosugi Maru Project Authors (https://github.com/googlefonts/kosugi-maru)"
 }
 subsets: "cyrillic"
 subsets: "japanese"

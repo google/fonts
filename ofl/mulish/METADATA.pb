@@ -1,5 +1,5 @@
 name: "Mulish"
-designer: "Vernon Adams, Cyreal, Jacques Le Bailly"
+designer: "Vernon Adams"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-05-25"
@@ -31,4 +31,8 @@ axes {
   tag: "wght"
   min_value: 200.0
   max_value: 1000.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/mulish"
+  commit: "ab3f1c59394dafbc6cb55feec2135d6116476142"
 }

@@ -12,8 +12,6 @@ fonts {
   full_name: "Kosugi Maru Regular"
   copyright: "Copyright 2010 The Kosugi Maru Project Authors \\(https://github.com/googlefonts/kosugi-maru\\)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"

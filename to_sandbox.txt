@@ -1,23 +1,8 @@
-# New Fonts
-ofl/estonia
-ofl/corinthia
-ofl/readexpro
 
 # 10/4 held Montagu Slab due to:
 # opsz must declare an api default or support the axis registry default
 # fsSelection bold should be 0, is 1
 # ofl/montaguslab
-
-# Upgrade
-ofl/sourcesanspro
-ofl/exo2
-ofl/spartan
-ofl/allura
-ofl/dosis
-ofl/jost
-
-# Description, Metadata, OFL
-ofl/areyouserious
 
 # fix category 8/18/2021 held back to update axis registry first
 # ofl/sawarabimincho

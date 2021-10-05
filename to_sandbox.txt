@@ -1,8 +1,12 @@
 # New Fonts
 ofl/estonia
 ofl/corinthia
-ofl/montaguslab
 ofl/readexpro
+
+# 10/4 held Montagu Slab due to:
+# opsz must declare an api default or support the axis registry default
+# fsSelection bold should be 0, is 1
+# ofl/montaguslab
 
 # Upgrade
 ofl/sourcesanspro

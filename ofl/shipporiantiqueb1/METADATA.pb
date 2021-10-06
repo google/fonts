@@ -12,8 +12,6 @@ fonts {
   full_name: "Shippori Antique B1 Regular"
   copyright: "Copyright 2020 The Shippori Antique Project Authors (https://github.com/fontdasu/ShipporiAntique)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"

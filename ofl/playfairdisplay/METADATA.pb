@@ -10,7 +10,7 @@ fonts {
   filename: "PlayfairDisplay[wght].ttf"
   post_script_name: "PlayfairDisplay-Regular"
   full_name: "Playfair Display Regular"
-  copyright: "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
+  copyright: 'Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name "Playfair Display".'
 }
 fonts {
   name: "Playfair Display"
@@ -19,7 +19,7 @@ fonts {
   filename: "PlayfairDisplay-Italic[wght].ttf"
   post_script_name: "PlayfairDisplay-Italic"
   full_name: "Playfair Display Italic"
-  copyright: "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
+  copyright: 'Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name "Playfair Display".'
 }
 subsets: "cyrillic"
 subsets: "latin"

@@ -10,8 +10,9 @@ fonts {
   filename: "ReadexPro[wght].ttf"
   post_script_name: "ReadexPro-Regular"
   full_name: "Readex Pro Regular"
-  copyright: "Copyright 2019 The Readex PRo Project Authors (https://github.com/ThomasJockin/readexpro)"
+  copyright: "Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

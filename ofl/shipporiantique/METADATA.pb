@@ -12,7 +12,13 @@ fonts {
   full_name: "Shippori Antique Regular"
   copyright: "Copyright 2020 The Shippori Antique Project Authors (https://github.com/fontdasu/ShipporiAntique)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/fontdasu/ShipporiAntique.git"
+  commit: "5653d23ee96e457921b2dbec7692e8e5d243e5fe"
+}

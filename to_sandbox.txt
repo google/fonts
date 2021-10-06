@@ -1,8 +1,40 @@
+ofl/outfit
+ofl/mpluscodelatin
+ofl/mplus1code
+ofl/mplus1
+ofl/mplus2
+ofl/comforter
+ofl/comforterbrush
+ofl/yujimai
+ofl/yujisyuku
+ofl/yujiboku
+ofl/bakbakone
 
-# 10/4 held Montagu Slab due to:
-# opsz must declare an api default or support the axis registry default
-# fsSelection bold should be 0, is 1
-# ofl/montaguslab
+#Upgrade 
+apache/kosugi
+apache/kosugimaru
+apache/opensans
+ofl/cairo
+ofl/changa
+ofl/dancingscript
+ofl/ebgaramond
+ofl/heptaslab
+ofl/inter
+ofl/lora
+ofl/playfairdisplay
+ofl/rosario
+ofl/signika
+ofl/signikanegative
+ofl/yujihentaiganaakari
+ofl/yujihentaiganaakebono
+
+#Metadata/description/license
+ofl/manrope
+
+#Catalog
+catalog/designers/fionaross
+
+
 
 # fix category 8/18/2021 held back to update axis registry first
 # ofl/sawarabimincho

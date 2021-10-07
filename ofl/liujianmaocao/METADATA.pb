@@ -1,5 +1,5 @@
 name: "Liu Jian Mao Cao"
-designer: "Liu Zhengjiang"
+designer: "Liu Zhengjiang, Kimberly Geswein, ZhongQi"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2019-03-18"
@@ -13,5 +13,11 @@ fonts {
   copyright: "Copyright 2018 The Liu Jian Mao Cao Project Authors (https://www.github.com/googlefonts/liujianmaocao)"
 }
 subsets: "chinese-simplified"
+subsets: "chinese-traditional"
+subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/liujianmaocao"
+  commit: "e589ccd1fe37fa9d2076a52096a3e3992489ad2c"
+}

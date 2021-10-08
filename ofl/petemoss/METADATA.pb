@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/petemoss"
-  commit: "07a4c82219aac7cbbe03aee50ea52764ae609f7c"
-}

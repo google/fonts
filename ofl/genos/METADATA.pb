@@ -31,7 +31,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/genos"
-  commit: "707181862a0fe1ceecc334bb54c63ea4377e95d8"
-}

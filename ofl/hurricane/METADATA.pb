@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/hurricane"
-  commit: "8cc30aac85d0b3d1205cc9f99fe654a4bac316b6"
-}

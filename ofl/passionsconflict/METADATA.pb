@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/passions-conflict"
-  commit: "214cc2936ec1ec8fde1143ce215c0ec189a6638d"
-}

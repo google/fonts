@@ -1,3 +1,4 @@
+# New
 ofl/outfit
 ofl/mpluscodelatin
 ofl/mplus1code
@@ -10,7 +11,15 @@ ofl/yujisyuku
 ofl/yujiboku
 ofl/bakbakone
 
-#Upgrade 
+# 10/4 held Montagu Slab due to:
+#   opsz must declare an api default or support the axis registry default
+#   fsSelection bold should be 0, is 1
+# 10.14 trying again: 
+#   api default now declared; fsSelection is false negative per 
+#   https://github.com/google/fonts/pull/3858#issuecomment-939160803
+ofl/montaguslab
+
+# Upgraded fonts
 apache/kosugi
 apache/kosugimaru
 apache/opensans
@@ -28,13 +37,11 @@ ofl/signikanegative
 ofl/yujihentaiganaakari
 ofl/yujihentaiganaakebono
 
-#Metadata/description/license
+# Updated metadata/description/license
 ofl/manrope
 
-#Catalog
+# Catalog data
 catalog/designers/fionaross
-
-
 
 # fix category 8/18/2021 held back to update axis registry first
 # ofl/sawarabimincho

@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/praise-script"
-  commit: "978a26d5d9fe530898a84cb22b0fd4baed4f04dd"
-}

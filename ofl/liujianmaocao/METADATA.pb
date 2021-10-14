@@ -1,5 +1,5 @@
 name: "Liu Jian Mao Cao"
-designer: "Liu Zhengjiang"
+designer: "Liu Zhengjiang, Kimberly Geswein, ZhongQi"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2019-03-18"

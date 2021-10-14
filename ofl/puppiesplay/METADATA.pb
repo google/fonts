@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/puppies-play"
-  commit: "8e2a0252bd0fc1cad21bf46f98e959cefc26240a"
-}

@@ -7,7 +7,7 @@ fonts {
   name: "M PLUS 1 Code"
   style: "normal"
   weight: 400
-  filename: "Mplus1Code[wght].ttf"
+  filename: "MPLUS1Code[wght].ttf"
   post_script_name: "MPLUS1Code-Regular"
   full_name: "M PLUS 1 Code Regular"
   copyright: "Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)"

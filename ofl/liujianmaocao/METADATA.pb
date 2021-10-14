@@ -13,7 +13,5 @@ fonts {
   copyright: "Copyright 2018 The Liu Jian Mao Cao Project Authors (https://www.github.com/googlefonts/liujianmaocao)"
 }
 subsets: "chinese-simplified"
-subsets: "chinese-traditional"
-subsets: "japanese"
 subsets: "latin"
 subsets: "menu"

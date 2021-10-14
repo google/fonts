@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/sassy-frass"
-  commit: "9d93a3cc26cb069a2405362b45d95f0ddd4453a1"
-}

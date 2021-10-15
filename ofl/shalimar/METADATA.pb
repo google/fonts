@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/shalimar"
-  commit: "f071bc2cfa26969d846d9848b7b2f53e9fab16f9"
-}

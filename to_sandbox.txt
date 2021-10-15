@@ -1,4 +1,13 @@
 # New
+ofl/corinthia
+ofl/estonia
+ofl/genos
+ofl/hurricane
+ofl/passionsconflict
+ofl/petemoss
+ofl/praise
+ofl/puppiesplay
+ofl/sassyfrass
 ofl/outfit
 ofl/mpluscodelatin
 ofl/mplus1code
@@ -10,14 +19,6 @@ ofl/yujimai
 ofl/yujisyuku
 ofl/yujiboku
 ofl/bakbakone
-
-# 10/4 held Montagu Slab due to:
-#   opsz must declare an api default or support the axis registry default
-#   fsSelection bold should be 0, is 1
-# 10.14 trying again: 
-#   api default now declared; fsSelection is false negative per 
-#   https://github.com/google/fonts/pull/3858#issuecomment-939160803
-ofl/montaguslab
 
 # Upgraded fonts
 apache/kosugi
@@ -36,12 +37,39 @@ ofl/signika
 ofl/signikanegative
 ofl/yujihentaiganaakari
 ofl/yujihentaiganaakebono
+ofl/shipporiantique
+ofl/shipporiantiqueb1
+ofl/liujianmaocao
+ofl/mulish
+ofl/nokora
+ofl/overpass
+ofl/overpassmono
+ofl/readexpro
 
 # Updated metadata/description/license
 ofl/manrope
+ofl/montaguslab
+
+# 10/4 held Montagu Slab due to:
+#   opsz must declare an api default or support the axis registry default
+#   fsSelection bold should be 0, is 1
+# 10.14 trying again: 
+#   api default now declared; fsSelection is false negative per 
+#   https://github.com/google/fonts/pull/3858#issuecomment-939160803
+
 
 # Catalog data
 catalog/designers/fionaross
+catalog/designers/agustinamingote
+catalog/designers/boryskosmynka
+catalog/designers/ektype
+catalog/designers/erinmclaughlin
+catalog/designers/julietaulanovsky
+catalog/designers/maniackersdesign
+catalog/designers/mooniak
+catalog/designers/natsumimatsuba
+catalog/designers/sumanbhandary
+catalog/designers/takashifunayama
 
 # fix category 8/18/2021 held back to update axis registry first
 # ofl/sawarabimincho

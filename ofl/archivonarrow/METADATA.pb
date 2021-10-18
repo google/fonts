@@ -30,3 +30,7 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/Omnibus-Type/ArchivoNarrow"
+  commit: "b426cd5284c8171d4396f297c0c51ebf51095a7a"
+}

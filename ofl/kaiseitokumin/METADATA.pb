@@ -39,8 +39,6 @@ fonts {
   full_name: "Kaisei Tokumin ExtraBold"
   copyright: "Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"

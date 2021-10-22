@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/kings"
-  commit: "316326276cb919f88ac51dbe887958e50a3bba49"
-}

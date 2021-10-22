@@ -20,7 +20,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/zen-antique"
-  commit: "af987f5537d59874f18fa0797e64013eba31772a"
-}

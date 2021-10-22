@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/road-rage"
-  commit: "e55c939b96e80e4760f27d81d1abca714739e3fe"
-}

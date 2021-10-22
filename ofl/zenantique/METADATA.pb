@@ -12,8 +12,6 @@ fonts {
   full_name: "Zen Antique Regular"
   copyright: "Copyright 2021 The Zen Antique Project Authors (https://github.com/googlefonts/zen-antique)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"

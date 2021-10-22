@@ -56,7 +56,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/zen-marugothic"
-  commit: "a0ccd6f2fd3c9ccf7efc28bfdae3d2d57e61cee4"
-}

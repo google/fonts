@@ -20,7 +20,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/zen-kurenaido"
-  commit: "965c8adca85e247f8caa19fbe3ede6bef19485d7"
-}

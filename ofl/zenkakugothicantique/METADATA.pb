@@ -55,7 +55,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/zen-kakugothic"
-  commit: "d5ebbf07058572af638063d1fc8d389beee5303c"
-}

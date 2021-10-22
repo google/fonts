@@ -38,7 +38,3 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/zen-oldmincho"
-  commit: "d2e514349946ca8cf378d51f4dc3e523dd20247f"
-}

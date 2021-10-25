@@ -13,10 +13,12 @@ fonts {
   copyright: "Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)"
 }
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 200.0

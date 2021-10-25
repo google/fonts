@@ -12,6 +12,7 @@ fonts {
   full_name: "Yuji Hentaigana Akari Regular"
   copyright: "Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)"
 }
+subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

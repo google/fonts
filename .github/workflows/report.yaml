@@ -25,16 +25,12 @@ jobs:
     - name: Generate report
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      run: gftools push-stats . index.html
-    - name: Rearrange
       run: |
-          mkdir for-gh-pages
-          mv index.html for-gh-pages
-          git checkout -B gh-pages
-          cp -ar for-gh-pages/* .
-          rm -rf for-gh-pages
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      name: Commit to gh-pages
+        mkdir out
+        gftools push-stats . out/index.html
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: ${{ github.ref == 'refs/heads/main' }}
       with:
-        branch: gh-pages
-        file_pattern: index.html
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out

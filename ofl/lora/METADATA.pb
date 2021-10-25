@@ -10,7 +10,7 @@ fonts {
   filename: "Lora[wght].ttf"
   post_script_name: "Lora-Regular"
   full_name: "Lora Regular"
-  copyright: "Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\"."
+  copyright: 'Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name "Lora".'
 }
 fonts {
   name: "Lora"
@@ -19,7 +19,7 @@ fonts {
   filename: "Lora-Italic[wght].ttf"
   post_script_name: "Lora-Italic"
   full_name: "Lora Italic"
-  copyright: "Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\"."
+  copyright: 'Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name "Lora".'
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

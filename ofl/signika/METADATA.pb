@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Signika[wght].ttf"
   post_script_name: "Signika-Light"
-  full_name: "Signika"
+  full_name: "Signika Light"
   copyright: "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika)."
 }
 subsets: "latin"

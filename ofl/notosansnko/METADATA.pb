@@ -35,3 +35,4 @@ sample_glyphs {
   key: "Punctuation"
   value: "٪ ߷ ߸ ߹ ، ؛ ؟ ⸜ ⸝ ﴾ ﴿"
 }
+display_name: "Noto Sans N'Ko"

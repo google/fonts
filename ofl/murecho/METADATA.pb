@@ -23,7 +23,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/positype/Murecho-Project.git"
-  commit: "0efba44c1c504efe50edc3ae30da5840461e5d49"
-}

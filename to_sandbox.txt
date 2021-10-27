@@ -1,33 +1,4 @@
-# Internal request, should use Roboto for the menu subset:
-ofl/flowblock
-ofl/flowcircular
-ofl/flowrounded
-
-# New
-ofl/shalimar
-ofl/roadrage
-ofl/kings
-
-
-# Upgraded fonts
-ofl/worksans
-ofl/archivonarrow
-ofl/kaiseidecol
-ofl/kaiseiharunoumi
-ofl/kaiseiopti
-ofl/kaiseitokumin
-ofl/zenantique
-ofl/zenantiquesoft
-ofl/zenkakugothicantique
-ofl/zenkakugothicnew
-ofl/zenkurenaido
-ofl/zenmarugothic
-ofl/zenoldmincho
-
-
-# Updated metadata/description/license
 ofl/montaguslab
-
 # 10/4 held Montagu Slab due to:
 #   opsz must declare an api default or support the axis registry default
 #   fsSelection bold should be 0, is 1
@@ -35,14 +6,6 @@ ofl/montaguslab
 #   api default now declared; fsSelection is false negative per 
 #   https://github.com/google/fonts/pull/3858#issuecomment-939160803
 
-
-# Catalog data
-catalog/designers/fontkai
-catalog/designers/gutenberglabo
-catalog/designers/kinutafontfactory
-
-# update Iran population
-lang/languages
 
 # fix category 8/18/2021 held back to update axis registry first
 # ofl/sawarabimincho

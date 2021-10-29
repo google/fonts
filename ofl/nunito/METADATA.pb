@@ -32,7 +32,3 @@ axes {
   min_value: 200.0
   max_value: 1000.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/nunito.git"
-  commit: "0243cb7fe470b9f4114a8460a26443fb3d805beb"
-}

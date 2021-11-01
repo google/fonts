@@ -1,2 +1,0 @@
-designer: "Elena Albertoni"
-link: ""

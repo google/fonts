@@ -1,2 +1,0 @@
-designer: "Jonny Pinhorn"
-link: ""

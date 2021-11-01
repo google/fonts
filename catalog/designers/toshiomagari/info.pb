@@ -1,2 +1,0 @@
-designer: "Toshi Omagari"
-link: ""

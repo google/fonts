@@ -1,2 +1,0 @@
-designer: "JM Solé"
-link: ""

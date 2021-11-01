@@ -1,2 +1,0 @@
-designer: "Eduardo Tunni"
-link: ""

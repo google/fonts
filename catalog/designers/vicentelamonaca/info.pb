@@ -1,2 +1,0 @@
-designer: "Vicente Lamónaca"
-link: ""

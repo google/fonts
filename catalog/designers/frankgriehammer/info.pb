@@ -1,2 +1,0 @@
-designer: "Frank Grießhammer"
-link: ""

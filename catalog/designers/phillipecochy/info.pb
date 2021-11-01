@@ -1,2 +1,0 @@
-designer: "Phillipe Cochy"
-link: ""

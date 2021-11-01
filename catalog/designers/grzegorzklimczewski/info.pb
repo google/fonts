@@ -1,2 +1,0 @@
-designer: "Grzegorz Klimczewski"
-link: ""

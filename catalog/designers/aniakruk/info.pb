@@ -1,2 +1,0 @@
-designer: "Ania Kruk"
-link: ""

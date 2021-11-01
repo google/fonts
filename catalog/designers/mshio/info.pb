@@ -1,2 +1,0 @@
-designer: "mshio"
-link: ""

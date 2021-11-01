@@ -1,2 +1,0 @@
-designer: "Sandoll"
-link: ""

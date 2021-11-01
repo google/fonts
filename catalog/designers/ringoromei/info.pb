@@ -1,2 +1,0 @@
-designer: "Ringo Romei"
-link: ""

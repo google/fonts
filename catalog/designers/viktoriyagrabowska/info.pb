@@ -1,2 +1,0 @@
-designer: "Viktoriya Grabowska"
-link: ""

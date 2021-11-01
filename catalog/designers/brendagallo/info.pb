@@ -1,2 +1,0 @@
-designer: "Brenda Gallo"
-link: ""

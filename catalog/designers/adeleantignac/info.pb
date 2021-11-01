@@ -1,2 +1,0 @@
-designer: "Adèle Antignac"
-link: ""

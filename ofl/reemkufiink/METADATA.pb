@@ -1,5 +1,5 @@
 name: "Reem Kufi Ink"
-designer: "Khaled Hosny
+designer: "Khaled Hosny"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-11-02"

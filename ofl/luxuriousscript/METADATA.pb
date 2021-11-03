@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/luxurious"
-  commit: "884bf55ce7b09e8914b959481af6084cb09b1e75"
-}

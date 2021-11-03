@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/smooch"
-  commit: "90c4cbdfbb06bf83e05b0b690e73f9dc8a760d03"
-}

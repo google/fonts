@@ -25,7 +25,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/fuzzy-bubbles"
-  commit: "16d63fbca17f057559d0187fa7c07dd302d2276d"
-}

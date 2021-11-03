@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/meow-script"
-  commit: "6882d389cb287bd7b7716c125e9728b81ed0ab41"
-}

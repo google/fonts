@@ -15,3 +15,7 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Freehand.git"
+  commit: "43c90b514cfa24587b118a4819d975459e1d7d6d"
+}

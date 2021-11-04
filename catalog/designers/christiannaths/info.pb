@@ -1,5 +1,5 @@
 designer: "Christian Naths"
 link: ""
 avatar {
-  file_name: "Christiannaths.png"
+  file_name: "christiannaths.png"
 }

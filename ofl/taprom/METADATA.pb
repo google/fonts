@@ -15,7 +15,3 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Taprom.git"
-  commit: "9dac96ed769128b07cf9f0b8d03ed6932f640d7e"
-}

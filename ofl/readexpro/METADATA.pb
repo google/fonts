@@ -22,3 +22,7 @@ axes {
   min_value: 160.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/ThomasJockin/readexpro"
+  commit: "68e765f57c05e50a36aa26f9ec57e7e89acc47c4"
+}

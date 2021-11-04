@@ -51,7 +51,3 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Battambang.git"
-  commit: "b2350045aaa01ab6c4aa572d677432e25c338807"
-}

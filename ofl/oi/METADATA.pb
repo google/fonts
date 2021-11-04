@@ -17,3 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/kosbarts/Oi"
+  commit: "ba18491c4757debec466387e667aaacc6f95869d"
+}

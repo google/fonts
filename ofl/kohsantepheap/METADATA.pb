@@ -51,3 +51,7 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/KohSantepheap.git"
+  commit: "316be9428c2fa32b872cb298e2439d2293dc006f"
+}

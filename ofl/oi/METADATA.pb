@@ -12,8 +12,11 @@ fonts {
   full_name: "Oi Regular"
   copyright: "Copyright 2019 The Oi Project Authors (github.com/kosbarts/Oi)"
 }
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "tamil"
 subsets: "vietnamese"

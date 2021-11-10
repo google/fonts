@@ -33,3 +33,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/christiannaths/redacted-font"
+  commit: "c86d607ca8531631aeff4d3aacb44de05a2ed523"
+}

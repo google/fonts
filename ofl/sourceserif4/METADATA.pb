@@ -1,5 +1,5 @@
 name: "Source Serif 4"
-designer: "UNKNOWN"
+designer: "Frank Grießhammer"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-11-16"

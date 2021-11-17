@@ -12,6 +12,7 @@ fonts {
   full_name: "Fuggles Regular"
   copyright: "Copyright 2021 The Fuggles Pro Project Authors (https://github.com/googlefonts/fuggles)"
 }
+
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

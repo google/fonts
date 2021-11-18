@@ -25,7 +25,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/the-nautigal"
-  commit: "1d644f7cd792c5cc64a91e88f0ca568016f820aa"
-}

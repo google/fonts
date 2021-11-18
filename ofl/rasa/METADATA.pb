@@ -31,3 +31,7 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/rosettatype/yrsa-rasa.git"
+  commit: "ec1d6aa68525da0859a43048228aef2c5bff3b40"
+}

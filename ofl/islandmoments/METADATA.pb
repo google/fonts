@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/island-moments"
-  commit: "665d59f297c782358f09699fc2231c0eee293f25"
-}

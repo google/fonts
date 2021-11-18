@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/imperial-script"
-  commit: "01a1656c6ffebe306262129aafee029fe6a7f3f3"
-}

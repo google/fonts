@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/waterfall"
-  commit: "89e483e54f06bc487898d221f99c1050ad8154b6"
-}

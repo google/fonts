@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/moondance"
-  commit: "ebba2ffb57b1b7c23e9dd382605ab9c92119cc49"
-}

@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/vujahday"
-  commit: "37a8a215d0a4b152bf5acb1b04b1dc3eade51ced"
-}

@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/neonderthaw"
-  commit: "67e6f60e5addb09d39d7a36f908430cc508165fb"
-}

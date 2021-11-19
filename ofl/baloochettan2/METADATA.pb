@@ -22,7 +22,3 @@ axes {
   min_value: 400.0
   max_value: 800.0
 }
-source {
-  repository_url: "https://github.com/yanone/Baloo2-Variable"
-  commit: "ffd6308743a5829fe6980ce86f5629ba0250df98"
-}

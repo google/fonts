@@ -29,7 +29,3 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/Expletus-Sans"
-  commit: "b9dffadf9e98e7d1786699b93f39a6a8fc15ed67"
-}

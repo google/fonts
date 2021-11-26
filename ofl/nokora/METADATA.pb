@@ -1,6 +1,6 @@
 name: "Nokora"
 designer: "Danh Hong"
-license: "APACHE2"
+license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-11-09"
 fonts {

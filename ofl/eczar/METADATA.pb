@@ -1,5 +1,5 @@
 name: "Eczar"
-designer: "Rosetta"
+designer: "Rosetta, Vaibhav Singh"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-06-03"

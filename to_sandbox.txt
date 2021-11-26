@@ -1,11 +1,12 @@
-ofl/montaguslab
-# 10/4 held Montagu Slab due to:
-#   opsz must declare an api default or support the axis registry default
-#   fsSelection bold should be 0, is 1
-# 10.14 trying again: 
-#   api default now declared; fsSelection is false negative per 
-#   https://github.com/google/fonts/pull/3858#issuecomment-939160803
+# New
 
+# Upgrade
+
+# Metadata/desc/OFL
+ofl/fuggles
+
+# Designer profile
+catalog/designers/artakana
 
 # fix category 8/18/2021 held back to update axis registry first
 # ofl/sawarabimincho

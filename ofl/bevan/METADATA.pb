@@ -25,7 +25,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/BevanFont"
-  commit: "ab1035d7823b4c53400a6007ee077ecc9324c3e5"
-}

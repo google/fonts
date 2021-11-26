@@ -1,5 +1,5 @@
 name: "Lexend Giga"
-designer: "Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez"
+designer: "Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-08-01"

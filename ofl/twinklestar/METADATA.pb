@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/twinkle-star"
-  commit: "b91b9bb130e238e2ab91d1dfd855cfcbb74c5677"
-}

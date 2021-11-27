@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/oooh-baby"
-  commit: "f36e2452e1c1a793fcf49524ab392eb6a2cd1dce"
-}

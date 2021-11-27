@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/moolahlah"
-  commit: "ef0153966b76e4b4c136ed98e087607f71b75612"
-}

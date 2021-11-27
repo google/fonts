@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/kolker-brush"
-  commit: "03ba4eb35eb2801089ff9343695a1f54f9b8d5b7"
-}

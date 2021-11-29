@@ -10,7 +10,7 @@ fonts {
   filename: "FiraCode[wght].ttf"
   post_script_name: "FiraCode-Light"
   full_name: "Fira Code Light"
-  copyright: "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)"
+  copyright: "Copyright 2014-2021 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

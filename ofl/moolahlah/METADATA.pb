@@ -1,7 +1,7 @@
 name: "Moo Lah Lah"
 designer: "Robert Leuschke"
 license: "OFL"
-category: "HANDWRITING"
+category: "DISPLAY"
 date_added: "2021-11-26"
 fonts {
   name: "Moo Lah Lah"

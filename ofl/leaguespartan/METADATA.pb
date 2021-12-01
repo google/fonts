@@ -21,7 +21,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/theleagueof/league-spartan"
-  commit: "0558f0b876f42e44c3d68bc376c31b5851151e47"
-}

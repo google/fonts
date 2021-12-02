@@ -7,7 +7,7 @@ fonts {
   name: "Amiri Quran Colored"
   style: "normal"
   weight: 400
-  filename: "AmiriQuranColored-Regular.ttf"
+  filename: "AmiriQuranColored-Regular.otf"
   post_script_name: "AmiriQuranColored"
   full_name: "Amiri Quran Colored"
   copyright: "Copyright 2010-2021 The Amiri Project Authors (https://github.com/aliftype/amiri)."

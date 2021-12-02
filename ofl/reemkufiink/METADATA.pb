@@ -7,7 +7,7 @@ fonts {
   name: "Reem Kufi Ink"
   style: "normal"
   weight: 400
-  filename: "ReemKufiInk-Regular.otf"
+  filename: "ReemKufiInk-Regular.ttf"
   post_script_name: "ReemKufiInk-Regular"
   full_name: "Reem Kufi Ink Regular"
   copyright: "Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."
@@ -16,7 +16,7 @@ fonts {
   name: "Reem Kufi Ink"
   style: "normal"
   weight: 700
-  filename: "ReemKufiInk-Bold.otf"
+  filename: "ReemKufiInk-Bold.ttf"
   post_script_name: "ReemKufiInk-Bold"
   full_name: "Reem Kufi Ink Bold"
   copyright: "Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."

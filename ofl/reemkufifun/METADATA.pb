@@ -7,7 +7,7 @@ fonts {
   name: "Reem Kufi Fun"
   style: "normal"
   weight: 400
-  filename: "ReemKufiFun-Regular.ttf"
+  filename: "ReemKufiFun[wght].ttf"
   post_script_name: "ReemKufiFun-Regular"
   full_name: "Reem Kufi Fun Regular"
   copyright: "Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."

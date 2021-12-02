@@ -24,4 +24,3 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
-source_type: TYPE_OTF

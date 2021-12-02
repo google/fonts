@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/mea-culpa"
-  commit: "13dd5b66076ddc6706d85a30dfed8d007e2f8350"
-}

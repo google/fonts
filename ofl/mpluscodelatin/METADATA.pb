@@ -7,7 +7,7 @@ fonts {
   name: "M PLUS Code Latin"
   style: "normal"
   weight: 400
-  filename: "MplusCodeLatin[wdth,wght].ttf"
+  filename: "MPLUSCodeLatin[wdth,wght].ttf"
   post_script_name: "MPLUSCodeLatin-Regular"
   full_name: "M PLUS Code Latin Regular"
   copyright: "Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)"

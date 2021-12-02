@@ -2,6 +2,7 @@ name: "Inconsolata"
 designer: "Raph Levien"
 license: "OFL"
 category: "MONOSPACE"
+# category: "SANS_SERIF"
 date_added: "2010-02-19"
 fonts {
   name: "Inconsolata"

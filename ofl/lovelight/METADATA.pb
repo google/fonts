@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/love-light"
-  commit: "e4fc541136be7d2814ac542a930be1ebaa17b5e1"
-}

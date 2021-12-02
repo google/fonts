@@ -16,7 +16,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/ole"
-  commit: "fe77f34a3002bc4c2e26a8e27bee31cb45307846"
-}

@@ -1,8 +1,8 @@
 ---
 name: Add Font
-about: Request adding a font family to Google Fonts
-title: "Add [Font Name]"
-labels: "II New Font", "> Submission"
+about: Submit on OFL font to Google Fonts
+title: 'Add [Font Name]'
+labels: 'II New Font'
 assignees: ''
 
 ---

@@ -1,5 +1,5 @@
 name: "Alice"
-designer: "Cyreal"
+designer: "Ksenya Erulevich"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-08-10"
@@ -10,9 +10,14 @@ fonts {
   filename: "Alice-Regular.ttf"
   post_script_name: "Alice-Regular"
   full_name: "Alice Regular"
-  copyright: "Copyright 2011 The Alice Project Authors (contact@cyreal.org) with Reserved Font Name \"Alice\""
+  copyright: "Copyright 2011 The Alice Project Authors (https://github.com/cyrealtype/Alice)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/cyrealtype/Alice"
+  commit: "13be04734d33464e627bd201d35aa9697feed289"
+}

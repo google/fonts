@@ -1,5 +1,5 @@
 ---
-name: Font Bug report template
+name: Report a problem with a font
 about: Create an issue report to help us improve
 title: ''
 labels: 'II Font Bug'

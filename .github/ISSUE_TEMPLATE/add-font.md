@@ -2,7 +2,7 @@
 name: Add Font
 about: Request adding a font family to Google Fonts
 title: "Add [Font Name]"
-labels: "> Submission"
+labels: "II New Font", "> Submission"
 assignees: 
 
 ---
@@ -10,7 +10,7 @@ assignees:
 **Font Project Git Repo URL**
 
 
-**Super short description of the family**
+**Super short description of the Font Family**
 
 
 **Requirements**

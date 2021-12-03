@@ -2,18 +2,18 @@
 name: Add Font
 about: Submit on OFL font to Google Fonts
 title: 'Add [Font Name]'
-labels: 'II New Font'
+labels: 'II New Font, > Submission'
 assignees: ''
 
 ---
 
-**Font Project Git Repo URL**
+**Font Project Git Repo URL:**
 
 
-**Super short description of the Font Family**
+**Super short description of the Font Family:**
 
 
-**Requirements**
+**Requirements:**
 
 I can confirm the project meets these requirements:
 

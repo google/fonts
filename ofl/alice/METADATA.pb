@@ -17,7 +17,3 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/cyrealtype/Alice"
-  commit: "13be04734d33464e627bd201d35aa9697feed289"
-}

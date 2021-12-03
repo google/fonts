@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Precise the font name in title, if one font is concerned.
+Specify the font name in title with a short description of the bug
 
 **Describe the bug**
 A clear and concise description of what the bug is.

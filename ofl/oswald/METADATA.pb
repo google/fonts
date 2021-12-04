@@ -1,5 +1,5 @@
 name: "Oswald"
-designer: "Vernon Adams, Kalapi Gajjar, Cyreal"
+designer: "Vernon Adams, Kalapi Gajjar"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-29"

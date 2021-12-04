@@ -12,6 +12,15 @@ fonts {
   full_name: "Inter Regular"
   copyright: "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)"
 }
+fonts {
+  name: "Inter"
+  style: "italic"
+  weight: 400
+  filename: "Inter-Italic[wght].ttf"
+  post_script_name: "Inter-Italic"
+  full_name: "Inter Italic"
+  copyright: "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)"
+}
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"

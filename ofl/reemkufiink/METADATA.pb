@@ -21,6 +21,7 @@ fonts {
   full_name: "Reem Kufi Ink Bold"
   copyright: "Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."
 }
+
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"

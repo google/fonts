@@ -1,5 +1,5 @@
 name: "Alice"
-designer: "Ksenya Erulevich"
+designer: "Ksenya Erulevich, Cyreal"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-08-10"

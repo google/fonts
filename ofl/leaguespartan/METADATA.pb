@@ -1,5 +1,5 @@
 name: "League Spartan"
-designer: "Tyler Finck"
+designer: "Matt Bailey, Tyler Finck"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-12-01"

@@ -1,7 +1,7 @@
 name: "Bevan"
 designer: "Vernon Adams"
 license: "OFL"
-category: "SERIF"
+category: "DISPLAY"
 date_added: "2011-02-23"
 fonts {
   name: "Bevan"

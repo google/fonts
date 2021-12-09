@@ -14,5 +14,4 @@ fonts {
 }
 subsets: "arabic"
 subsets: "menu"
-
-source_type: TYPE_OTF 
+source_type: TYPE_OTF

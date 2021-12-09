@@ -2,7 +2,7 @@ name: "League Gothic"
 designer: "Tyler Finck, Caroline Hadilaksono, Micah Rich"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2020-01-30"
+date_added: "2021-12-09"
 fonts {
   name: "League Gothic"
   style: "normal"

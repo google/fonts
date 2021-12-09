@@ -2,7 +2,14 @@
 
 ## Feedback
 
-If you have any feedback on Google Fonts API, directory, or the fonts themselves, please create an issue at [github.com/google/fonts/issues](http://github.com/google/fonts/issues)
+If you have any feedback on Google Fonts API, directory, or the fonts themselves, please create an issue at [github.com/google/fonts/issues](http://github.com/google/fonts/issues). Don't forget to search in the issue tracker (using keywords) if your issue has already been raised before opening a new one :)
+
+- [Submit an OFL Font](https://github.com/google/fonts/issues/new?assignees=&labels=II+New+Font%2C+>+Submission&template=1_add-font.md&title=Add+%5BFont+Name%5D)
+- [Submit a font upgrade](https://github.com/google/fonts/issues/new?assignees=&labels=II+Font+Upgrade&template=2_update-font.md&title=Update+%5BFont+Name%5D)
+- [Report a problem with a font](https://github.com/google/fonts/issues/new?assignees=&labels=II+Font+Bug&template=3_font-bug.md&title=)
+- [Anything else](https://github.com/google/fonts/issues/new?assignees=&labels=II+API+%2F+Website+%2F+Platform%2C+II+Tools+%2F+workflow+%2F+repo&template=4_anything-else.md&title=)
+
+
 
 ## New Families
 

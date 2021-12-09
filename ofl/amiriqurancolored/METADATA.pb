@@ -13,7 +13,6 @@ fonts {
   copyright: "Copyright 2010-2021 The Amiri Project Authors (https://github.com/aliftype/amiri)."
 }
 subsets: "arabic"
-subsets: "latin"
 subsets: "menu"
 
 source_type: TYPE_OTF 

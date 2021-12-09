@@ -12,6 +12,7 @@ fonts {
   full_name: "Baloo Bhaijaan 2 Regular"
   copyright: "Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

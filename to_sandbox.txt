@@ -32,6 +32,13 @@ ofl/montserrat
 # Small fix/other
 ofl/alice
 ofl/baskervville
+ofl/vollkorn
+ofl/yrsa
+ofl/mplus1code
+ofl/mpluscodelatin
+ofl/rasa
+
+# Urgent khmer fixes
 ofl/battambang
 ofl/bokor
 ofl/dangrek
@@ -42,16 +49,15 @@ ofl/kohsantepheap
 ofl/metal
 ofl/moul
 ofl/moulpali
-ofl/mplus1code
-ofl/mpluscodelatin
 ofl/odormeanchey
 ofl/preahvihear
-ofl/rasa
 ofl/suwannaphum
 ofl/taprom
-ofl/vollkorn
-ofl/yrsa
-ofl/zenoldmincho
+
+# Commented out as the 5 ttf files combined are 27319544 bytes
+# and if a family is over 26214400 (25M) we prefer not to 
+# onboard it, or ensure it's hidden from docs
+# ofl/zenoldmincho
 
 # Metadata/desc/OFL
 ofl/eczar

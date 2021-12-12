@@ -14,3 +14,5 @@ fonts {
 }
 subsets: "menu"
 subsets: "tamil"
+languages: "bfq_Taml"
+languages: "ta_Taml"

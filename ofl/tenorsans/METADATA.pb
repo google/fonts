@@ -14,7 +14,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "cyrillic"
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 languages: "aa_Latn"  # Afar

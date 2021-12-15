@@ -14,7 +14,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
-#subsets: "latin-ext"
 languages: "aa_Latn"  # Afar
 languages: "ace_Latn"  # Achinese
 languages: "af_Latn"  # Afrikaans

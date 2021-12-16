@@ -16,7 +16,3 @@ subsets: "kannada"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/erinmclaughlin/Hubballi"
-  commit: "e5c909bedfc4a2395ea300f94acec0d245ff7635"
-}

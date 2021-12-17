@@ -2,7 +2,7 @@ name: "League Spartan"
 designer: "Matt Bailey, Tyler Finck"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2021-12-01"
+date_added: "2021-12-17"
 fonts {
   name: "League Spartan"
   style: "normal"

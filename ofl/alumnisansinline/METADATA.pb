@@ -25,7 +25,3 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/alumni-sans-inline"
-  commit: "43bd00d1daa048b82c2db34d3ad79a9f22acd5e1"
-}

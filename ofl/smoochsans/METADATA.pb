@@ -21,7 +21,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/googlefonts/smooch-sans"
-  commit: "0a0a405279f4a706e657e95d97fad245e327d5bd"
-}

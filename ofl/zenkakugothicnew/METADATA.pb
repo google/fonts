@@ -48,8 +48,6 @@ fonts {
   full_name: "Zen Kaku Gothic New Black"
   copyright: "Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"

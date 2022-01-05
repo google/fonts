@@ -206,4 +206,3 @@ languages: "yao_Latn"  # Yao
 languages: "yap_Latn"  # Yapese
 languages: "yua_Latn"  # Yucateco
 languages: "zu_Latn"  # Zulu
-

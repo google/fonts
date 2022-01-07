@@ -2,7 +2,14 @@
 
 ## Feedback
 
-If you have any feedback on Google Fonts API, directory, or the fonts themselves, please create an issue at [github.com/google/fonts/issues](http://github.com/google/fonts/issues)
+If you have any feedback on Google Fonts API, directory, or the fonts themselves, please create an issue at [github.com/google/fonts/issues](http://github.com/google/fonts/issues). Don't forget to search in the issue tracker (using keywords) if your issue has already been raised before opening a new one :)
+
+- [Submit an OFL Font](https://github.com/google/fonts/issues/new?assignees=&labels=II+New+Font%2C+>+Submission&template=1_add-font.md&title=Add+%5BFont+Name%5D)
+- [Submit a font upgrade](https://github.com/google/fonts/issues/new?assignees=&labels=II+Font+Upgrade&template=2_update-font.md&title=Update+%5BFont+Name%5D)
+- [Report a problem with a font](https://github.com/google/fonts/issues/new?assignees=&labels=II+Font+Bug&template=3_font-bug.md&title=)
+- [Anything else](https://github.com/google/fonts/issues/new?assignees=&labels=II+API+%2F+Website+%2F+Platform%2C+II+Tools+%2F+workflow+%2F+repo&template=4_anything-else.md&title=)
+
+
 
 ## New Families
 
@@ -19,8 +26,7 @@ If you would like to include a new font family in the Google Fonts collection, w
 * All font files should support the "Google Fonts 2016 Plus" glyph set. (Learn more about the Google Fonts 2016 glyph sets in the [gftools](https://github.com/googlefonts/gftools/blob/master/Lib/gftools/encodings/GF%20Glyph%20Sets/README.md) project.)
 * All font files within the family must have the same Unicode character set (unencoded glyphs can differ) and corresponding upper/lower case pairs  
 * All font files should pass the [Font Bakery](https://github.com/googlefonts/fontbakery) checks for the [`googlefonts` profile](https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html).
-* A `README.md` file must be included in the root of the source repository, and inside of that file we can read about the project with the kind of information suggested by SIL in their [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#43cecb44) recommendation (but no FONTLOG file itself is needed.)
-* A direct `DESCRIPTION.en_us.html` file, a `profile.txt` and a `your-name.jpg` avatar image, should be available to be copied into this repo ([example](https://github.com/google/fonts/blob/master/ofl/poppins/DESCRIPTION.en_us.html)) so that the fonts.google.com catalog can credit your project.  
+* A `README.md` file must be included in the root of the source repository, and inside of that file we can read about the project with the kind of information suggested by SIL in their [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#43cecb44) recommendation (but no FONTLOG file itself is needed). Get inspired by our repo template: https://github.com/googlefonts/Unified-Font-Repository, or by an existing repository: https://github.com/Omnibus-Type/Texturina.
 
 **More detailed design and production details are listed in our [Project Specification](https://github.com/googlefonts/gf-docs/tree/master/Spec)**
 

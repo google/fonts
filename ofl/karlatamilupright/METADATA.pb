@@ -10,7 +10,7 @@ fonts {
   filename: "KarlaTamilUpright-Regular.ttf"
   post_script_name: "KarlaTamilUpright-Regular"
   full_name: "Karla Tamil Upright"
-  copyright: "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+  copyright: "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names \'Karla\'"
 }
 fonts {
   name: "Karla Tamil Upright"
@@ -19,6 +19,8 @@ fonts {
   filename: "KarlaTamilUpright-Bold.ttf"
   post_script_name: "KarlaTamilUpright-Bold"
   full_name: "Karla Tamil Upright Bold"
-  copyright: "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names 'Karla'"
+  copyright: "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names \'Karla\'"
 }
 subsets: "tamil"
+languages: "bfq_Taml"
+languages: "ta_Taml"

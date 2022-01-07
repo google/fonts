@@ -1,6 +1,6 @@
 name: "Open Sans"
 designer: "Steve Matteson"
-license: "APACHE2"
+license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-02-02"
 fonts {

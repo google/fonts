@@ -23,12 +23,12 @@ If you would like to include a new font family in the Google Fonts collection, w
 * The project must be developed on Github or similar, with complete corresponding sources, [open to public participation](http://producingoss.com), and actively maintained. Complete corresponding sources means that the fonts are available in your preferred form of modification, the files you actually use to develop the project, along with all the build instructions or scripts needed to  reproduce the process of turning those source files into your released font binaries.  
 * All binary font files must be available in TTF format, and should have hinting (such as with [ttfautohint](http://www.freetype.org/ttfautohint/)).
 * All font files must be built with a scripted build process, and should use [fontmake](https://github.com/googlefonts/fontmake)
-* All font files should support the "Google Fonts 2016 Plus" glyph set. (Learn more about the Google Fonts 2016 glyph sets in the [gftools](https://github.com/googlefonts/gftools/blob/master/Lib/gftools/encodings/GF%20Glyph%20Sets/README.md) project.)
+* All font files should support the "Google Fonts 2016 Plus" glyph set. (Learn more about the Google Fonts 2016 glyph sets in the [googlefonts/glyphsets](https://github.com/googlefonts/glyphsets/blob/main/Lib/glyphsets/encodings/GF%20Glyph%20Sets/README.md) repository.)
 * All font files within the family must have the same Unicode character set (unencoded glyphs can differ) and corresponding upper/lower case pairs  
 * All font files should pass the [Font Bakery](https://github.com/googlefonts/fontbakery) checks for the [`googlefonts` profile](https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html).
 * A `README.md` file must be included in the root of the source repository, and inside of that file we can read about the project with the kind of information suggested by SIL in their [FONTLOG](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl-faq_web#43cecb44) recommendation (but no FONTLOG file itself is needed). Get inspired by our repo template: https://github.com/googlefonts/Unified-Font-Repository, or by an existing repository: https://github.com/Omnibus-Type/Texturina.
 
-**More detailed design and production details are listed in our [Project Specification](https://github.com/googlefonts/gf-docs/tree/master/Spec)**
+**More detailed design and production details are listed in our [Project Specification](https://github.com/googlefonts/gf-docs/tree/main/Spec)**
 
 When you are ready to meet these requirements, please [create a new issue](https://github.com/google/fonts/issues) with a link to the project's source repository.
 In special circumstances, you can request an exception to these requirements on your issue.

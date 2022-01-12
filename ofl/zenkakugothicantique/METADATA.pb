@@ -10,7 +10,7 @@ fonts {
   filename: "ZenKakuGothicAntique-Light.ttf"
   post_script_name: "ZenKakuGothicAntique-Light"
   full_name: "Zen Kaku Gothic Antique Light"
-  copyright: "Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)"
+  copyright: "Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)"
 }
 fonts {
   name: "Zen Kaku Gothic Antique"
@@ -19,7 +19,7 @@ fonts {
   filename: "ZenKakuGothicAntique-Regular.ttf"
   post_script_name: "ZenKakuGothicAntique-Regular"
   full_name: "Zen Kaku Gothic Antique Regular"
-  copyright: "Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)"
+  copyright: "Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)"
 }
 fonts {
   name: "Zen Kaku Gothic Antique"
@@ -28,7 +28,7 @@ fonts {
   filename: "ZenKakuGothicAntique-Medium.ttf"
   post_script_name: "ZenKakuGothicAntique-Medium"
   full_name: "Zen Kaku Gothic Antique Medium"
-  copyright: "Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)"
+  copyright: "Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)"
 }
 fonts {
   name: "Zen Kaku Gothic Antique"
@@ -37,7 +37,7 @@ fonts {
   filename: "ZenKakuGothicAntique-Bold.ttf"
   post_script_name: "ZenKakuGothicAntique-Bold"
   full_name: "Zen Kaku Gothic Antique Bold"
-  copyright: "Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)"
+  copyright: "Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)"
 }
 fonts {
   name: "Zen Kaku Gothic Antique"
@@ -46,7 +46,7 @@ fonts {
   filename: "ZenKakuGothicAntique-Black.ttf"
   post_script_name: "ZenKakuGothicAntique-Black"
   full_name: "Zen Kaku Gothic Antique Black"
-  copyright: "Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)"
+  copyright: "Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)"
 }
 subsets: "cyrillic"
 subsets: "japanese"

@@ -39,10 +39,6 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-source {
-  repository_url: "https://github.com/huertatipografica/piazzolla"
-  commit: "2c84615f45b98b75238401c53ef993e558082a63"
-}
 languages: "aa_Latn"
 languages: "ab_Cyrl"
 languages: "abq_Cyrl"

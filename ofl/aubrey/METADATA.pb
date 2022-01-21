@@ -10,10 +10,14 @@ fonts {
   filename: "Aubrey-Regular.ttf"
   post_script_name: "Aubrey-Regular"
   full_name: "Aubrey Regular"
-  copyright: "Copyright (c) 2011 by Gayaneh Bagdasaryan | Cyreal.org. All rights reserved."
+  copyright: "Copyright 2011 The Aubrey Project Authors (https://github.com/cyrealtype/Aubrey)"
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/cyrealtype/Aubrey"
+  commit: "1946b0d99c0fec87702a59afc8b5b941a32e0171"
+}
 languages: "aa_Latn"  # Afar
 languages: "ace_Latn"  # Achinese
 languages: "af_Latn"  # Afrikaans

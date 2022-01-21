@@ -1,7 +1,7 @@
 name: "Noto Serif Display"
 designer: "Google"
 license: "OFL"
-category: "SERIF"
+category: "DISPLAY"
 date_added: "2020-11-19"
 fonts {
   name: "Noto Serif Display"

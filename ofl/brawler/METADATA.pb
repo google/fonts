@@ -10,10 +10,23 @@ fonts {
   filename: "Brawler-Regular.ttf"
   post_script_name: "Brawler-Regular"
   full_name: "Brawler Regular"
-  copyright: "Copyright (c) 2011 by Oleg Frolov | Cyreal. All rights reserved."
+  copyright: "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)"
+}
+fonts {
+  name: "Brawler"
+  style: "normal"
+  weight: 700
+  filename: "Brawler-Bold.ttf"
+  post_script_name: "Brawler-Bold"
+  full_name: "Brawler Bold"
+  copyright: "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)"
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/cyrealtype/Brawler"
+  commit: "628e7189feb4a17dc20059f9346356e63d531eda"
+}
 languages: "aa_Latn"  # Afar
 languages: "ace_Latn"  # Achinese
 languages: "af_Latn"  # Afrikaans

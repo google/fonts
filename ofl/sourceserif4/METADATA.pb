@@ -1,7 +1,7 @@
 name: "Source Serif 4"
 designer: "Frank Grießhammer"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2021-11-16"
 fonts {
   name: "Source Serif 4"

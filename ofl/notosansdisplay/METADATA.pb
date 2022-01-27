@@ -1,8 +1,8 @@
 name: "Noto Sans Display"
 designer: "Google"
 license: "OFL"
-category: "SANS_SERIF"
 category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2020-11-19"
 fonts {
   name: "Noto Sans Display"

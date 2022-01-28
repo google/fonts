@@ -14,148 +14,144 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/cyrealtype/Wire-One"
-  commit: "16db96d77889d4a8de2015ca5f3fc965446437d4"
-}
-languages: "aa_Latn"  # Afar
-languages: "ace_Latn"  # Achinese
-languages: "af_Latn"  # Afrikaans
-languages: "aln_Latn"  # Gheg Albanian
-languages: "an_Latn"  # Aragonese
-languages: "aoz_Latn"  # Uab Meto
-languages: "arn_Latn"  # Mapuche
-languages: "asa_Latn"  # Asu
-languages: "ay_Latn"  # Aymara
-languages: "ban_Latn"  # Balinese
-languages: "bbc_Latn"  # Batak Toba
-languages: "bem_Latn"  # Bemba
-languages: "bez_Latn"  # Bena
-languages: "bi_Latn"  # Bislama
-languages: "bik_Latn"  # Bikol
-languages: "bto_Latn"  # Rinconada Bikol
-languages: "ca_Latn"  # Catalan
-languages: "ceb_Latn"  # Cebuano
-languages: "cgg_Latn"  # Chiga
-languages: "ch_Latn"  # Chamorro
-languages: "chk_Latn"  # Chuukese
-languages: "co_Latn"  # Corsican
-languages: "crs_Latn"  # Seselwa Creole French
-languages: "ctd_Latn"  # Tedim Chin
-languages: "da_Latn"  # Danish
-languages: "dav_Latn"  # Taita
-languages: "de_Latn"  # German
-languages: "en_Latn"  # English
-languages: "es_Latn"  # Spanish
-languages: "eu_Latn"  # Basque
-languages: "fbl_Latn"  # West Albay Bikol
-languages: "fil_Latn"  # Filipino
-languages: "fj_Latn"  # Fijian
-languages: "fo_Latn"  # Faroese
-languages: "fr_Latn"  # French
-languages: "fur_Latn"  # Friulian
-languages: "ga_Latn"  # Irish
-languages: "gd_Latn"  # Scottish Gaelic
-languages: "gil_Latn"  # Gilbertese
-languages: "gl_Latn"  # Galician
-languages: "gsw_Latn"  # Swiss German
-languages: "guc_Latn"  # Wayuu
-languages: "guz_Latn"  # Gusii
-languages: "gv_Latn"  # Manx
-languages: "hil_Latn"  # Hiligaynon
-languages: "hmn_Latn"  # Hmong
-languages: "hop_Latn"  # Hopi
-languages: "ht_Latn"  # Haitian Creole
-languages: "ia_Latn"  # Interlingua
-languages: "id_Latn"  # Indonesian
-languages: "ilo_Latn"  # Iloko
-languages: "is_Latn"  # Icelandic
-languages: "it_Latn"  # Italian
-languages: "jam_Latn"  # Jamaican Creole English
-languages: "jmc_Latn"  # Machame
-languages: "jv_Latn"  # Javanese
-languages: "kde_Latn"  # Makonde
-languages: "kea_Latn"  # Kabuverdianu
-languages: "kg_Latn"  # Kongo
-languages: "kha_Latn"  # Khasi
-languages: "kj_Latn"  # Kuanyama
-languages: "kl_Latn"  # Kalaallisut
-languages: "kln_Latn"  # Kalenjin
-languages: "kmb_Latn"  # Kimbundu
-languages: "ksb_Latn"  # Shambala
-languages: "kw_Latn"  # Cornish
-languages: "la_Latn"  # Latin
-languages: "lb_Latn"  # Luxembourgish
-languages: "lij_Latn"  # Ligurian
-languages: "lmo_Latn"  # Lombard
-languages: "lua_Latn"  # Luba-Lulua
-languages: "luo_Latn"  # Luo
-languages: "luy_Latn"  # Luyia
-languages: "mfe_Latn"  # Morisyen
-languages: "mg_Latn"  # Malagasy
-languages: "mgh_Latn"  # Makhuwa-Meetto
-languages: "min_Latn"  # Minangkabau
-languages: "moe_Latn"  # Innu
-languages: "moh_Latn"  # Mohawk
-languages: "ms_Latn"  # Malay
-languages: "nap_Latn"  # Neapolitan
-languages: "nd_Latn"  # North Ndebele
-languages: "nds_Latn"  # Low German
-languages: "ng_Latn"  # Ndonga
-languages: "njo_Latn"  # Ao Naga
-languages: "no_Latn"  # Norwegian
-languages: "nov_Latn"  # Novial
-languages: "nr_Latn"  # South Ndebele
-languages: "nyn_Latn"  # Nyankole
-languages: "oc_Latn"  # Occitan
-languages: "om_Latn"  # Oromo
-languages: "pam_Latn"  # Pampanga
-languages: "pap_Latn"  # Papiamento
-languages: "pko_Latn"  # Pökoot
-languages: "pms_Latn"  # Piedmontese
-languages: "pon_Latn"  # Pohnpeian
-languages: "pt_Latn"  # Portuguese
-languages: "quc_Latn"  # Kʼicheʼ
-languages: "qug_Latn"  # Chimborazo Highland Quichua
-languages: "rm_Latn"  # Romansh
-languages: "rn_Latn"  # Rundi
-languages: "rof_Latn"  # Rombo
-languages: "rw_Latn"  # Kinyarwanda
-languages: "rwk_Latn"  # Rwa
-languages: "saq_Latn"  # Samburu
-languages: "sbp_Latn"  # Sangu
-languages: "sc_Latn"  # Sardinian
-languages: "scn_Latn"  # Sicilian
-languages: "sdc_Latn"  # Sassarese Sardinian
-languages: "seh_Latn"  # Sena
-languages: "sei_Latn"  # Seri
-languages: "sg_Latn"  # Sango
-languages: "sma_Latn"  # Southern Sami
-languages: "sn_Latn"  # Shona
-languages: "snk_Latn"  # Soninke
-languages: "so_Latn"  # Somali
-languages: "sq_Latn"  # Albanian
-languages: "srn_Latn"  # Sranan Tongo
-languages: "ss_Latn"  # Swati
-languages: "su_Latn"  # Sundanese
-languages: "sv_Latn"  # Swedish
-languages: "sw_Latn"  # Swahili
-languages: "swb_Latn"  # Comorian, Latin
-languages: "teo_Latn"  # Teso
-languages: "tet_Latn"  # Tetum
-languages: "tiv_Latn"  # Tiv
-languages: "tpi_Latn"  # Tok Pisin
-languages: "ts_Latn"  # Tsonga
-languages: "tum_Latn"  # Tumbuka
-languages: "ug_Latn"  # Uyghur, Latin
-languages: "vmw_Latn"  # Makhuwa
-languages: "vo_Latn"  # Volapük
-languages: "vun_Latn"  # Vunjo
-languages: "wa_Latn"  # Walloon
-languages: "war_Latn"  # Waray
-languages: "wbp_Latn"  # Warlpiri
-languages: "xh_Latn"  # Xhosa
-languages: "xog_Latn"  # Soga
-languages: "yap_Latn"  # Yapese
-languages: "yua_Latn"  # Yucateco
-languages: "zu_Latn"  # Zulu
+languages: "aa_Latn"
+languages: "ace_Latn"
+languages: "af_Latn"
+languages: "aln_Latn"
+languages: "an_Latn"
+languages: "aoz_Latn"
+languages: "arn_Latn"
+languages: "asa_Latn"
+languages: "ay_Latn"
+languages: "ban_Latn"
+languages: "bbc_Latn"
+languages: "bem_Latn"
+languages: "bez_Latn"
+languages: "bi_Latn"
+languages: "bik_Latn"
+languages: "bto_Latn"
+languages: "ca_Latn"
+languages: "ceb_Latn"
+languages: "cgg_Latn"
+languages: "ch_Latn"
+languages: "chk_Latn"
+languages: "co_Latn"
+languages: "crs_Latn"
+languages: "ctd_Latn"
+languages: "da_Latn"
+languages: "dav_Latn"
+languages: "de_Latn"
+languages: "en_Latn"
+languages: "es_Latn"
+languages: "eu_Latn"
+languages: "fbl_Latn"
+languages: "fil_Latn"
+languages: "fj_Latn"
+languages: "fo_Latn"
+languages: "fr_Latn"
+languages: "fur_Latn"
+languages: "ga_Latn"
+languages: "gd_Latn"
+languages: "gil_Latn"
+languages: "gl_Latn"
+languages: "gsw_Latn"
+languages: "guc_Latn"
+languages: "guz_Latn"
+languages: "gv_Latn"
+languages: "hil_Latn"
+languages: "hmn_Latn"
+languages: "hop_Latn"
+languages: "ht_Latn"
+languages: "ia_Latn"
+languages: "id_Latn"
+languages: "ilo_Latn"
+languages: "is_Latn"
+languages: "it_Latn"
+languages: "jam_Latn"
+languages: "jmc_Latn"
+languages: "jv_Latn"
+languages: "kde_Latn"
+languages: "kea_Latn"
+languages: "kg_Latn"
+languages: "kha_Latn"
+languages: "kj_Latn"
+languages: "kl_Latn"
+languages: "kln_Latn"
+languages: "kmb_Latn"
+languages: "ksb_Latn"
+languages: "kw_Latn"
+languages: "la_Latn"
+languages: "lb_Latn"
+languages: "lij_Latn"
+languages: "lmo_Latn"
+languages: "lua_Latn"
+languages: "luo_Latn"
+languages: "luy_Latn"
+languages: "mfe_Latn"
+languages: "mg_Latn"
+languages: "mgh_Latn"
+languages: "min_Latn"
+languages: "moe_Latn"
+languages: "moh_Latn"
+languages: "ms_Latn"
+languages: "nap_Latn"
+languages: "nd_Latn"
+languages: "nds_Latn"
+languages: "ng_Latn"
+languages: "njo_Latn"
+languages: "no_Latn"
+languages: "nov_Latn"
+languages: "nr_Latn"
+languages: "nyn_Latn"
+languages: "oc_Latn"
+languages: "om_Latn"
+languages: "pam_Latn"
+languages: "pap_Latn"
+languages: "pko_Latn"
+languages: "pms_Latn"
+languages: "pon_Latn"
+languages: "pt_Latn"
+languages: "quc_Latn"
+languages: "qug_Latn"
+languages: "rm_Latn"
+languages: "rn_Latn"
+languages: "rof_Latn"
+languages: "rw_Latn"
+languages: "rwk_Latn"
+languages: "saq_Latn"
+languages: "sbp_Latn"
+languages: "sc_Latn"
+languages: "scn_Latn"
+languages: "sdc_Latn"
+languages: "seh_Latn"
+languages: "sei_Latn"
+languages: "sg_Latn"
+languages: "sma_Latn"
+languages: "sn_Latn"
+languages: "snk_Latn"
+languages: "so_Latn"
+languages: "sq_Latn"
+languages: "srn_Latn"
+languages: "ss_Latn"
+languages: "su_Latn"
+languages: "sv_Latn"
+languages: "sw_Latn"
+languages: "swb_Latn"
+languages: "teo_Latn"
+languages: "tet_Latn"
+languages: "tiv_Latn"
+languages: "tpi_Latn"
+languages: "ts_Latn"
+languages: "tum_Latn"
+languages: "ug_Latn"
+languages: "vmw_Latn"
+languages: "vo_Latn"
+languages: "vun_Latn"
+languages: "wa_Latn"
+languages: "war_Latn"
+languages: "wbp_Latn"
+languages: "xh_Latn"
+languages: "xog_Latn"
+languages: "yap_Latn"
+languages: "yua_Latn"
+languages: "zu_Latn"

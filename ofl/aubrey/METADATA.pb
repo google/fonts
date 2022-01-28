@@ -10,7 +10,7 @@ fonts {
   filename: "Aubrey-Regular.ttf"
   post_script_name: "Aubrey-Regular"
   full_name: "Aubrey Regular"
-  copyright: "Copyright (c) 2011 by Gayaneh Bagdasaryan | Cyreal.org. All rights reserved."
+  copyright: "Copyright 2011 The Aubrey Project Authors (https://github.com/cyrealtype/Aubrey)"
 }
 subsets: "latin"
 subsets: "menu"

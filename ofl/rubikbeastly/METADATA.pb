@@ -1,5 +1,5 @@
 name: "Rubik Beastly"
-designer: "NaN, Luke Prowse"
+designer: "Luke Prowse"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2021-09-02"

@@ -1,5 +1,5 @@
 designer: "Mirko Velimirović"
 link: ""
 avatar {
-  file_name: "mirkovelimirović.png"
+  file_name: "mirkovelimirovic.png"
 }

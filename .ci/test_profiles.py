@@ -43,6 +43,16 @@ def test_profile_dir_exists(profile_dir):
     assert os.path.exists(profile_dir)
 
 
+def test_profile_filenames_are_acscii(profile_dir):
+    failed = []
+    for filename in os.listdir(profile_dir) + [profile_dir]:
+        try:
+            filename.encode("ascii")
+        except:
+            failed.append(filename)
+    assert not failed, f"filenames {failed} must be ascii"
+
+
 def test_profile_dir_has_bio(profile_dir):
     assert "bio.html" in os.listdir(profile_dir), "bio.html is missing"
 

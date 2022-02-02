@@ -10,7 +10,7 @@ fonts {
   filename: "ABeeZee-Regular.ttf"
   post_script_name: "ABeeZee-Regular"
   full_name: "ABeeZee Regular"
-  copyright: "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name \'ABeeZee\'"
+  copyright: "Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee) with Reserved Font Name \'ABeeZee\'"
 }
 fonts {
   name: "ABeeZee"
@@ -19,10 +19,15 @@ fonts {
   filename: "ABeeZee-Italic.ttf"
   post_script_name: "ABeeZee-Italic"
   full_name: "ABeeZee Italic"
-  copyright: "Copyright (c) 2011 by Anja Meiners, with Reserved Font Name \'ABeeZee\'"
+  copyright: "Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee) with Reserved Font Name \'ABeeZee\'"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/abeezee"
+  commit: "a84aead1554a7adc09c6dd01161ac4a5a9f2c001"
+}
 languages: "aa_Latn"  # Afar
 languages: "ace_Latn"  # Achinese
 languages: "af_Latn"  # Afrikaans

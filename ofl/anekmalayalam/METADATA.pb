@@ -12,9 +12,9 @@ fonts {
   full_name: "Anek Malayalam Medium"
   copyright: "Copyright 2021 The Anek Project Authors (https://github.com/EkType/Anek)"
 }
+subsets: "malayalam"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "malayalam"
 subsets: "menu"
 axes {
   tag: "wdth"

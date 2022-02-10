@@ -16,5 +16,5 @@ assignees:
 **Super short description of the upgrade:**
 (expand style, expand glyphset, improve rendering, bug fix…)
 
-**Bugs reported in this repo which this upgrade woul fix:**
+**Bugs reported in this repo which this upgrade would fix:**
 Search in the [issue tracker](https://github.com/google/fonts/issues) if there is some opened issues containing the font name.

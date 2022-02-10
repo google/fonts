@@ -91,6 +91,7 @@ fallback {
   name: "144pt"
   value: 144
 }
+fallback_only: false
 description:
   "Adapt the style to specific text sizes, specified in Points. At smaller"
   " sizes, letters typically become optimized for more legibility, with loose"

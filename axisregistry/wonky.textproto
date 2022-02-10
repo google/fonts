@@ -13,6 +13,7 @@ fallback {
   name: "Wonky"
   value: 1
 }
+fallback_only: true
 description:
   "Binary axis to control the subsitution of wonky forms along the"
   " optical size axis. 'Off' (0) maintains more normalized letterforms,"

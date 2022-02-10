@@ -27,6 +27,8 @@ When the registry is updated here, a line like `axisregistry/axis_name.textproto
         For axes with CSS3 properties (such as [font-weight](https://drafts.csswg.org/css-fonts-3/#font-weight-prop)), the positions accessible
         to CSS3 should be specified. For axes lacking CSS3 properties a legacy browser is limited to a single position and that position must
         be at a fallback.
+*   `fallback_only`
+    *   Describes whether to only use fallback values when presenting to users.
 *   `description`   
     *   A description of the axis.
 

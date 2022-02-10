@@ -8,6 +8,7 @@ precision: -1
 fallback {
   name: "Roman"
   value: 0
+  display_name: "Off"
 }
 fallback {
   name: "Auto"
@@ -16,7 +17,9 @@ fallback {
 fallback {
   name: "Cursive"
   value: 1
+  display_name: "On"
 }
+fallback_only: true
 description:
   "Controls the substitution of cursive forms along the Slant axis. 'Off' (0)"
   " maintains Roman letterforms such as a double-story a and g, 'Auto' (0.5)"

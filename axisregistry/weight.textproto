@@ -41,6 +41,7 @@ fallback {
   name: "Black"
   value: 900
 }
+fallback_only: false
 description:
   "Adjust the style from lighter to bolder in typographic color, by varying"
   " stroke thicknesses or other forms. This typically changes overall width,"

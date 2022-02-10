@@ -14,6 +14,7 @@ fallback {
   name: "Monospace"
   value: 1
 }
+fallback_only: false
 description:
   "Adjust the style from proportional (natural widths, default) to"
   " monospace (fixed width). Monospace is when all glyphs have the same"

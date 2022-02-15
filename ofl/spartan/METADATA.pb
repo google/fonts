@@ -1,5 +1,5 @@
 name: "Spartan"
-designer: "Matt Bailey, Mirko Velimirovic"
+designer: "Matt Bailey, Mirko Velimirović"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-01-30"

@@ -1,5 +1,5 @@
 name: "Spline Sans"
-designer: "Eben Sorkin, Mirko Velimirovic"
+designer: "Eben Sorkin, Mirko Velimirović"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-11-22"

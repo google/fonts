@@ -1,0 +1,12 @@
+id: "ltg_Latn"
+language: "ltg"
+script: "Latn"
+name: "Latgalian"
+autonym: "Latgalīšu"
+population: 167429
+region: "LV"
+exemplar_chars {
+  base: "A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O Ō P R S Š T U Ū V Y Z Ž a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o ō p r s š t u ū v y z ž"
+  auxiliary: "Q W X q w x"
+  marks: "◌̄ ◌̌ ◌̧"
+}

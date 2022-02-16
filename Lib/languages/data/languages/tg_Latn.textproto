@@ -1,0 +1,20 @@
+id: "tg_Latn"
+language: "tg"
+script: "Latn"
+name: "Tajik, Latin"
+population: 0
+region: "TJ"
+sample_text {
+  masthead_full: "TtAa"
+  masthead_partial: "Mm"
+  styles: "Tamomi odamon ozod ba dunyo meojand va az"
+  tester: "Tamomi odamon ozod ba dunyo meojand va az lihozi manzilatu huquq"
+  poster_sm: "Tamomi odamon"
+  poster_md: "Tamomi"
+  poster_lg: "Tamomi"
+  specimen_48: "Tamomi odamon ozod ba dunyo meojand va az lihozi manzilatu"
+  specimen_36: "Tamomi odamon ozod ba dunyo meojand va az lihozi manzilatu huquq bo ham barobarand. Hama sohibi aqlu viçdonand, bojad nisbat ba jakdigar barodarvor munosabat namojand."
+  specimen_32: "Tamomi odamon ozod ba dunyo meojand va az lihozi manzilatu huquq bo ham barobarand. Hama sohibi aqlu viçdonand, bojad nisbat ba jakdigar barodarvor munosabat namojand."
+  specimen_21: "Tamomi odamon ozod ba dunyo meojand va az lihozi manzilatu huquq bo ham barobarand. Hama sohibi aqlu viçdonand, bojad nisbat ba jakdigar barodarvor munosabat namojand.\nTamomi odamon ozod ba dunyo meojand va az lihozi manzilatu huquq bo ham barobarand. Hama sohibi aqlu viçdonand, bojad nisbat ba jakdigar barodarvor munosabat namojand."
+  specimen_16: "Tamomi odamon ozod ba dunyo meojand va az lihozi manzilatu huquq bo ham barobarand. Hama sohibi aqlu viçdonand, bojad nisbat ba jakdigar barodarvor munosabat namojand.\nTamomi odamon ozod ba dunyo meojand va az lihozi manzilatu huquq bo ham barobarand. Hama sohibi aqlu viçdonand, bojad nisbat ba jakdigar barodarvor munosabat namojand.\nTamomi odamon ozod ba dunyo meojand va az lihozi manzilatu huquq bo ham barobarand. Hama sohibi aqlu viçdonand, bojad nisbat ba jakdigar barodarvor munosabat namojand.\nTamomi odamon ozod ba dunyo meojand va az lihozi manzilatu huquq bo ham barobarand. Hama sohibi aqlu viçdonand, bojad nisbat ba jakdigar barodarvor munosabat namojand."
+}

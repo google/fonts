@@ -1,0 +1,4 @@
+.eggs/*
+*.egg-info
+*__pycache__
+Lib/languages/_version.py

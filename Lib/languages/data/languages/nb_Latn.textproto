@@ -1,0 +1,22 @@
+id: "nb_Latn"
+language: "nb"
+script: "Latn"
+name: "Norwegian Bokmål"
+autonym: "norsk bokmål"
+population: 5468932
+region: "NO"
+region: "SJ"
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Ee"
+  styles: "Da anerkjennelsen av menneskeverd og like"
+  tester: "da tilsidesettelse av og forakt for menneskerettighetene har"
+  poster_sm: "da De Forente"
+  poster_md: "nå denne"
+  poster_lg: "Alle"
+  specimen_48: "Enhver har krav på alle de rettigheter og friheter som er nevnt"
+  specimen_36: "Enhver har rett til hvile og fritid, herunder rimelig begrensning av arbeidstiden og regelmessige ferier med lønn."
+  specimen_32: "Enhver har krav på en sosial og internasjonal orden som fullt ut kan virkeliggjøre de rettigheter og friheter som er nevnt i denne erklæring."
+  specimen_21: "Intet i denne erklæring skal tolkes slik at det gir noen stat, gruppe eller person rett til å ta del i noen virksomhet eller foreta noen handling som tar sikte på å ødelegge noen av de rettigheter og friheter som er nevnt i Erklæringen.\nDa anerkjennelsen av menneskeverd og like og umistelige rettigheter for alle medlemmer av menneskeslekten er grunnlaget for frihet, rettferdighet og fred i verden,"
+  specimen_16: "Da anerkjennelsen av menneskeverd og like og umistelige rettigheter for alle medlemmer av menneskeslekten er grunnlaget for frihet, rettferdighet og fred i verden,\nda tilsidesettelse av og forakt for menneskerettighetene har ført til barbariske handlinger som har rystet menneskehetens samvittighet, og da framveksten av en verden hvor menneskene har tale- og trosfrihet og frihet fra frykt og nød, er blitt kunngjort som folkenes høyeste mål,\nda det er nødvendig at menneskerettighetene blir beskyttet av loven for at menneskene ikke skal tvinges til som siste utvei å gjøre opprør mot tyranni og undertrykkelse,"
+}

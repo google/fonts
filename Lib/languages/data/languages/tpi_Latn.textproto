@@ -1,0 +1,24 @@
+id: "tpi_Latn"
+language: "tpi"
+script: "Latn"
+name: "Tok Pisin"
+autonym: "Tok Pisin"
+population: 5154216
+region: "PG"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "YyUu"
+  masthead_partial: "Mm"
+  styles: "Long luksave olsem olgeta manmeri mas igat"
+  tester: "Long ol hap nambaut taim manmeri i no luksave long raits bilong"
+  poster_sm: "Long wanem"
+  poster_md: "Long wanem,"
+  poster_lg: "Yumi"
+  specimen_48: "Long tingting bilong ol manmeri we i memba bilong Yunaited Nesens"
+  specimen_36: "Long dispela, olgeta manmeri mas save long raits na fridoms em i wanpela bikpela samting tru bilong wanwan manmeri."
+  specimen_32: "Maski yu wanem kain man o meri, yumi olgeta igat wankain raits tasol long lo. Sapos lo ino luksave long yumi wankain, yumi gat rait long tokaut long lo."
+  specimen_21: "Olgeta manmeri igat rait long kot, long sanap long kot na kisim kompensesen sapos narapela manmeri o gavman i no bihainim Mama Lo bilong kantri bilong yumi.\nNogat wanpela man o meri o polis igat pawa long holim yu nating o rausim yu long haus bilong yu o long rot na kalabusim yu long rumgat o rausim yu go stap long narapela ples o kantri."
+  specimen_16: "Ol manmeri igat rait long sanap na harim kot long ples klia, na husat i harim kot i mas stap fri long ol kainkain tingting long wokim gutpela tingting.\nNogat wanpela man o meri igat rait long go insait long haus bilong narapela man o meri, o nogat rait long lukim pas bilong narapela man o meri, o holim o lukim samting bilong narapela man o meri. Na tu i nogat man o meri igat rait long bagarapim nem bilong narapela man o meri o daunim nem bilong em. Na lo mas stap long banisim dispela kain ol hevi o pasin olsem.\nYumi olgeta igat rait long tingting na tokaut, na narapela man o meri nogat rait long stopim yu. Na tu, yumi gat rait long putim tingting long niuspepa, radio na tv."
+}

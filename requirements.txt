@@ -1,0 +1,5 @@
+--index-url https://pypi.python.org/simple/
+fontTools==4.29.1
+hyperglot==0.3.7
+protobuf==3.19.4
+-e .

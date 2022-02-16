@@ -1,0 +1,159 @@
+syntax = "proto2";
+
+/**
+ * Open Source'd font metadata proto formats.
+ */
+package google.fonts_public;
+
+option java_package = "com.google.fonts.proto";
+option java_outer_classname = "FontsPublic";
+
+message FamilyProto {
+  required string name = 1;
+  required string designer = 2;
+  required string license = 3;
+  repeated string category = 4;  // Only the LAST value is used by Google Fonts
+  required string date_added = 5;
+  repeated FontProto fonts = 6;
+  repeated string aliases = 7;
+  repeated string subsets = 8;
+  optional string ttf_autohint_args = 9;
+  repeated AxisSegmentProto axes = 10;
+  map<string, float> registry_default_overrides = 11;
+  optional SourceProto source = 12;
+  optional bool is_noto = 13;
+  repeated string languages = 14;
+  repeated FamilyFallbackProto fallbacks = 15;
+  repeated GlyphGroupProto sample_glyphs = 16;
+  optional SampleTextProto sample_text = 17;
+  optional string display_name = 18;
+  optional FontType source_type = 19 [default = TYPE_TTF];
+
+  // Next = 19
+}
+
+message FontProto {
+  required string name = 1;
+  required string style = 2;
+  required int32 weight = 3;
+  required string filename = 4;
+  required string post_script_name = 5;
+  required string full_name = 6;
+  optional string copyright = 7;
+}
+
+message AxisSegmentProto {
+  optional string tag = 1;
+  optional float min_value = 2;
+  reserved 3;
+  reserved "default_value";
+  optional float max_value = 4;
+  // Next = 5
+}
+
+message SourceProto {
+  optional string repository_url = 1;
+  optional string commit = 2;
+}
+
+enum TargetTypeProto {
+  TARGET_UNSPECIFIED = 0;
+  TARGET_OS_WINDOWS = 1;
+  TARGET_OS_MAC = 2;
+  TARGET_OS_LINUX = 3;
+  TARGET_OS_ANDROID = 4;
+  TARGET_OS_IOS = 5;
+}
+
+// Message so we can add additional fields like value in future
+message TargetProto {
+  optional TargetTypeProto target_type = 1;  //  e.g., OS
+}
+
+message FamilyFallbackProto {
+  repeated AxisSegmentProto axis_target = 1;  // activate for this region
+  repeated TargetProto target = 2;            // activate for any of these
+  optional float size_adjust_pct = 3;         // e.g. 90%
+  optional float ascent_override_pct = 5;     // e.g. 110%
+  repeated string local_src = 4;  // e.g. Impact; the local family to use
+  // Next = 6
+}
+
+//
+// LANG METADATA
+//
+
+// A region or territory as defined in the CLDR
+message RegionProto {
+  optional string id = 1;  // Region codes defined by CLDR
+  optional string name = 2;
+  optional int32 population = 3;
+  repeated string region_group = 4;
+
+  // Next = 5;
+}
+
+message ScriptProto {
+  optional string id = 1;  // Script codes defined by CLDR
+  optional string name = 2;
+
+  // Next = 3;
+}
+
+message LanguageProto {
+  optional string id = 1;  // Either ${lang} or ${lang}_${script}
+  optional string language = 2;  // BCP 47
+  optional string script = 3;
+  optional string name = 4;
+  optional string preferred_name = 5;
+  optional string autonym = 6;  // Name of language as written in that language
+  optional int32 population = 7;
+  repeated string region = 8;
+  optional ExemplarCharsProto exemplar_chars = 9;
+  optional SampleTextProto sample_text = 10;
+  optional bool historical = 11;
+
+  // Next = 12;
+}
+
+// Space-separated lists of characters representative of a given language.
+message ExemplarCharsProto {
+  optional string base = 1;
+  optional string auxiliary = 2;
+  optional string marks = 3;
+  optional string numerals = 4;
+  optional string punctuation = 5;
+  optional string index = 6;
+
+  // Next = 7;
+}
+
+message SampleTextProto {
+  optional string masthead_full = 1;
+  optional string masthead_partial = 2;
+  optional string styles = 3;
+  optional string tester = 4;
+  optional string poster_sm = 5;
+  optional string poster_md = 6;
+  optional string poster_lg = 7;
+  optional string specimen_48 = 8;
+  optional string specimen_36 = 9;
+  optional string specimen_32 = 10;
+  optional string specimen_21 = 11;
+  optional string specimen_16 = 12;
+}
+
+message GlyphGroupProto {
+  optional string name = 1;
+  optional string glyphs = 2;
+}
+
+enum FontType {
+  TYPE_TTF = 0;
+  TYPE_EOT = 1;
+  TYPE_SVG = 2;
+  TYPE_WOFF = 3;
+  TYPE_WOFF2 = 5;
+  TYPE_SWF = 4;
+  TYPE_OTF = 6;
+}

@@ -1,0 +1,24 @@
+id: "lua_Latn"
+language: "lua"
+script: "Latn"
+name: "Luba-Lulua"
+autonym: "Tshiluba"
+population: 9770880
+region: "CD"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P S T U V W Y Z a b c d e f g h i j k l m n o p s t u v w y z"
+}
+sample_text {
+  masthead_full: "BbAa"
+  masthead_partial: "Nn"
+  styles: "Pa kumona ne, kwitaba se bantu bonsu ba pa"
+  tester: "Pa kumona ne, dibenga kumanya ne dipepeja dya makokeshi a muntu"
+  poster_sm: "Pa kumona ne"
+  poster_md: "Pa kumona"
+  poster_lg: "Bantu"
+  specimen_48: "Pa kumona ne bwa kukumbaja mapangadika aa, bidi bimpe bantu bonsu"
+  specimen_36: "Muntu nansha umwe kena mwa kukwaciibwa ku bupika bwalu mushinga wa bapika mmukandikiibwe mu mishindu yawu yonsu."
+  specimen_32: "Muntu nansha umwe kena mwa kukengeshiibwa anyi kupeshibwa bibawu bya kanyawu bidi kabiyi byakanyina bantu anyi bidi mwa kubapwekesha mulongo."
+  specimen_21: "Muntu yonsu udi ne bukenji bwa kumanyibwa my myaba yonsu mu bumuntu bwende.\nBantu Bonsu badi momumwe kumpala kwa meyi ne kakuyi dishilangana ne bukenji bwa kukubibwa kudi diyi dya momumwe. Bonso badi ne bukenji bwa kukubibwa mushindu wa momumwe bumpala kwa kansungansunga kikala mwa kutupa ku Mpangadika aa ne kumpala kwa nkebelu yonsu wa kansungansunga ka mushindu ewu."
+  specimen_16: "Muntu onso udi ne bukokeshi bwa kunyemena ku tubadi tumanyike twa ditunga dyende padiye mumone maalu adi atupa ku makokeshi a nshindamenu adi mamwambika kudi meyi ne mikandu anyi kudi Diyi dikulu dya ditunga dyende.\nMuntu nansha umwe kena mwa kukwacibwa, kulamibwa anyi kwipacibwa cyanana ku diswa dya muntu.\nMuntu yonsu udi ne bukokeshi bwa kumona cilumbu cyende cikoshibwa byakane, mu bulelela kakuyi kansungansunga, kudi tubadi twa mu ditunga dyende ku mesu a bantu. Tubadi etu ne tujadike makokeshi ende ne bidiye ne bwa kwenza anyi bwimpe bwa kafundila."
+}

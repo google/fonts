@@ -14,17 +14,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-"""Helper API for interaction with languages/regions/scripts data on the Google Fonts collection.
 """
+Helper API for interaction with languages/regions/scripts
+data on the Google Fonts collection.
+"""
+
+import glob
+import os
 
 from fontTools.ttLib import TTFont
 from google.protobuf import text_format
 from hyperglot import parse as hyperglot_parse
-from languages import fonts_public_pb2
 from pkg_resources import resource_filename
 
-import os
-import glob
+from languages import fonts_public_pb2
+
 DATA_DIR = resource_filename("languages", "data")
 
 

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 #
+# Copyright 2022 The Google Fonts Tools Authors.
 # Copyright 2017,2022 Google Inc. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -60,6 +61,7 @@ def LoadLanguages(languages_dir=None):
 def LoadScripts(scripts_dir=None):
     if scripts_dir is None:
         scripts_dir = os.path.join(DATA_DIR, 'scripts')
+
     scripts = {}
     for textproto_file in glob.iglob(os.path.join(scripts_dir, '*.textproto')):
         with open(textproto_file, 'r', encoding='utf-8') as f:
@@ -71,6 +73,7 @@ def LoadScripts(scripts_dir=None):
 def LoadRegions(regions_dir=None):
     if regions_dir is None:
         regions_dir = os.path.join(DATA_DIR, 'regions')
+
     regions = {}
     for textproto_file in glob.iglob(os.path.join(regions_dir, '*.textproto')):
         with open(textproto_file, 'r', encoding='utf-8') as f:
@@ -80,6 +83,15 @@ def LoadRegions(regions_dir=None):
 
 
 def SupportedLanguages(font_path, languages=None):
+    """
+    Get languages supported by given font file.
+
+    Languages are pulled from the given set. Based on whether exemplar character
+    sets are present in the given font.
+
+    Logic based on Hyperglot:
+    https://github.com/rosettatype/hyperglot/blob/3172061ca05a62c0ff330eb802a17d4fad8b1a4d/lib/hyperglot/language.py#L273-L301
+    """
     if languages is None:
         languages = LoadLanguages()
 
@@ -87,8 +99,10 @@ def SupportedLanguages(font_path, languages=None):
 
     supported = []
     for lang in languages.values():
-        if not lang.HasField('exemplar_chars') or not lang.exemplar_chars.HasField('base'):
+        if not lang.HasField('exemplar_chars') or \
+           not lang.exemplar_chars.HasField('base'):
             continue
+
         base = hyperglot_parse.parse_chars(lang.exemplar_chars.base,
                                            decompose=False,
                                            retainDecomposed=False)

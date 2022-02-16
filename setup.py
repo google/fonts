@@ -24,9 +24,9 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(
-    name="languages",
-    use_scm_version={"write_to": "Lib/languages/_version.py"},
-    url='https://github.com/felipesanches/languages/',
+    name="gflanguages",
+    use_scm_version={"write_to": "Lib/gflanguages/_version.py"},
+    url='https://github.com/felipesanches/gflanguages/',
     description='A python API for evaluating language support in the Google Fonts collection.',
     long_description=long_description,
     long_description_content_type='text/markdown',  # This is important!
@@ -36,8 +36,8 @@ setup(
             'Roderick Sheeter'),
     author_email='dave@lab6.com',
     package_dir={'': 'Lib'},
-    packages=['languages'],
-    package_data={'languages': [
+    packages=['gflanguages'],
+    package_data={'gflanguages': [
                       "data/languages/*.textproto",
                       "data/regions/*.textproto",
                       "data/scripts/*.textproto"

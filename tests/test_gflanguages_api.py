@@ -1,6 +1,6 @@
 import os
 import pytest
-from languages import lang_support
+from gflanguages import lang_support
 
 def portable_path(p):
     return os.path.join(*p.split('/'))

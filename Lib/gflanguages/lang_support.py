@@ -28,9 +28,9 @@ from google.protobuf import text_format
 from hyperglot import parse as hyperglot_parse
 from pkg_resources import resource_filename
 
-from languages import fonts_public_pb2
+from gflanguages import fonts_public_pb2
 
-DATA_DIR = resource_filename("languages", "data")
+DATA_DIR = resource_filename("gflanguages", "data")
 
 
 def _ParseFontChars(path):

@@ -1,5 +1,13 @@
+import os
 import pytest
 from languages import lang_support
+
+def portable_path(p):
+    return os.path.join(*p.split('/'))
+
+
+def TEST_FILE(f):
+    return portable_path("data/test/" + f)
 
 
 def test_LoadLanguages():
@@ -20,8 +28,9 @@ def test_LoadRegions():
     assert br.region_group == ['Americas']
 
 
-# TODO:
-#def test_SupportedLanguages():
-#    supported = lang_support.SupportedLanguages(font)
-#    assert len(supported) > 0
-
+def test_SupportedLanguages():
+    font = TEST_FILE('nunito/Nunito-Regular.ttf')
+    supported = lang_support.SupportedLanguages(font)
+    langs = [supported[i].name for i, _ in enumerate(supported)]
+    assert len(langs) == 225
+    assert 'Lithuanian' in langs

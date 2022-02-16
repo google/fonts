@@ -32,6 +32,10 @@ axes {
   min_value: 200.0
   max_value: 1000.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/nunito.git"
+  commit: "43d16f963c5c341c10efa0bfe7a82aa1bea8a938"
+}
 languages: "aa_Latn"  # Afar
 languages: "ab_Cyrl"  # Abkhazian
 languages: "abq_Cyrl"  # Abaza

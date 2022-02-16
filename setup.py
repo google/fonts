@@ -16,7 +16,6 @@
 # limitations under the License.
 #
 # See AUTHORS.txt for the list of Authors and LICENSE.txt for the License.
-import os
 from setuptools import setup
 
 # Read the contents of the README file
@@ -38,11 +37,11 @@ setup(
     package_dir={'': 'Lib'},
     packages=['gflanguages'],
     package_data={'gflanguages': [
-                      "data/languages/*.textproto",
-                      "data/regions/*.textproto",
-                      "data/scripts/*.textproto"
-                  ]
-                 },
+                     "data/languages/*.textproto",
+                     "data/regions/*.textproto",
+                     "data/scripts/*.textproto"
+                 ]
+    },
     zip_safe=False,
     classifiers=[
         'Intended Audience :: Developers',

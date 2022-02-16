@@ -23,6 +23,6 @@ I understand that Google Fonts will publish only fonts that matches its requirem
 - [ ] The font supports at least [GF Latin Core glyphset](https://github.com/googlefonts/glyphsets/blob/main/Lib/glyphsets/encodings/GF%20Glyph%20Sets/GF-latin-core_unique-glyphs.nam)
 - [ ] The repository respect the [upstream repo structure](https://github.com/googlefonts/gf-docs/tree/main/Spec#upstream-repo-structure)
 - [ ] The source files are available in the repository
-- [ ] I read and agree with the full [contributing requirements](https://github.com/google/fonts/blob/main/CONTRIBUTING.md)
+- [ ] I read, agree and comply with the full [contributing requirements](https://github.com/google/fonts/blob/main/CONTRIBUTING.md)
 - [ ] I am the author of the font or the author agreed to this submission
 - [ ] I will maintain the repository

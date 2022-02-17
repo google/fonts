@@ -1,7 +1,7 @@
 name: "Roboto Serif"
 designer: "Commercial Type, Greg Gazdowicz"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2022-02-10"
 fonts {
   name: "Roboto Serif"

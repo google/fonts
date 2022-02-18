@@ -28,7 +28,7 @@ from google.protobuf import text_format
 from hyperglot import parse as hyperglot_parse
 from pkg_resources import resource_filename
 
-from gflanguages import fonts_public_pb2
+from gflanguages import languages_public_pb2
 
 DATA_DIR = resource_filename("gflanguages", "data")
 
@@ -53,7 +53,7 @@ def LoadLanguages(languages_dir=None):
     langs = {}
     for textproto_file in glob.iglob(os.path.join(languages_dir, '*.textproto')):
         with open(textproto_file, 'r', encoding='utf-8') as f:
-            language = text_format.Parse(f.read(), fonts_public_pb2.LanguageProto())
+            language = text_format.Parse(f.read(), languages_public_pb2.LanguageProto())
             langs[language.id] = language
     return langs
 
@@ -65,7 +65,7 @@ def LoadScripts(scripts_dir=None):
     scripts = {}
     for textproto_file in glob.iglob(os.path.join(scripts_dir, '*.textproto')):
         with open(textproto_file, 'r', encoding='utf-8') as f:
-            script = text_format.Parse(f.read(), fonts_public_pb2.ScriptProto())
+            script = text_format.Parse(f.read(), languages_public_pb2.ScriptProto())
             scripts[script.id] = script
     return scripts
 
@@ -77,7 +77,7 @@ def LoadRegions(regions_dir=None):
     regions = {}
     for textproto_file in glob.iglob(os.path.join(regions_dir, '*.textproto')):
         with open(textproto_file, 'r', encoding='utf-8') as f:
-            region = text_format.Parse(f.read(), fonts_public_pb2.RegionProto())
+            region = text_format.Parse(f.read(), languages_public_pb2.RegionProto())
             regions[region.id] = region
     return regions
 

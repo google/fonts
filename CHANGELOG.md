@@ -1,5 +1,10 @@
 Below are the most important changes from each release.
 
+## 0.1.1 (2022-Feb-18)
+### Bugfix
+  - updated and simplified the textproto definition to workaround this kind of problem when using the module on projects that also import `fonts_public_pb2.py`: https://github.com/protocolbuffers/protobuf/issues/3002
+
+
 ## 0.1.0 (2022-Feb-16)
 ### Release notes
   - Initial release of the `gflanguages` python module.

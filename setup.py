@@ -53,8 +53,6 @@ setup(
     python_requires=">=3.7",
     setup_requires=['setuptools_scm>=4,<6.1'],
     install_requires=[
-        'FontTools',
-        'hyperglot',
         'protobuf',
         'setuptools'
     ]

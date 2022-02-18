@@ -1,13 +1,4 @@
-import os
 from gflanguages import lang_support
-
-
-def portable_path(p):
-    return os.path.join(*p.split('/'))
-
-
-def TEST_FILE(f):
-    return portable_path("data/test/" + f)
 
 
 def test_LoadLanguages():
@@ -26,11 +17,3 @@ def test_LoadRegions():
     br = regions["BR"]
     assert br.name == 'Brazil'
     assert br.region_group == ['Americas']
-
-
-def test_SupportedLanguages():
-    font = TEST_FILE('nunito/Nunito-Regular.ttf')
-    supported = lang_support.SupportedLanguages(font)
-    langs = [supported[i].name for i, _ in enumerate(supported)]
-    assert len(langs) == 225
-    assert 'Lithuanian' in langs

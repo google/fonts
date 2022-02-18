@@ -23,27 +23,12 @@ data on the Google Fonts collection.
 import glob
 import os
 
-from fontTools.ttLib import TTFont
 from google.protobuf import text_format
-from hyperglot import parse as hyperglot_parse
 from pkg_resources import resource_filename
 
 from gflanguages import languages_public_pb2
 
 DATA_DIR = resource_filename("gflanguages", "data")
-
-
-def _ParseFontChars(path):
-    """
-    Open the provided font path and extract the codepoints encoded in the font
-    @return list of characters
-    """
-    font = TTFont(path, lazy=True)
-    cmap = font["cmap"].getBestCmap()
-    font.close()
-
-    # The cmap keys are int codepoints
-    return [chr(c) for c in cmap.keys()]
 
 
 def LoadLanguages(languages_dir=None):
@@ -80,33 +65,3 @@ def LoadRegions(regions_dir=None):
             region = text_format.Parse(f.read(), languages_public_pb2.RegionProto())
             regions[region.id] = region
     return regions
-
-
-def SupportedLanguages(font_path, languages=None):
-    """
-    Get languages supported by given font file.
-
-    Languages are pulled from the given set. Based on whether exemplar character
-    sets are present in the given font.
-
-    Logic based on Hyperglot:
-    https://github.com/rosettatype/hyperglot/blob/3172061ca05a62c0ff330eb802a17d4fad8b1a4d/lib/hyperglot/language.py#L273-L301
-    """
-    if languages is None:
-        languages = LoadLanguages()
-
-    chars = _ParseFontChars(font_path)
-
-    supported = []
-    for lang in languages.values():
-        if not lang.HasField('exemplar_chars') or \
-           not lang.exemplar_chars.HasField('base'):
-            continue
-
-        base = hyperglot_parse.parse_chars(lang.exemplar_chars.base,
-                                           decompose=False,
-                                           retainDecomposed=False)
-        if set(base).issubset(chars):
-            supported.append(lang)
-
-    return supported

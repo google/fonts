@@ -1,5 +1,13 @@
 Below are the most important changes from each release.
 
+## 0.2.0 (2022-Feb-18)
+### Release notes
+  - dropped hyperglot dependency due to licensing. See below.
+  - Removed SupportedLanguages method as it relies on hyperglot, which is under the GPLv3, to keep gftranslate under Apache 2.0
+  - The method is still available as a separate code-snippet (not part of gflanguages itself), and any program using that snippet will need to comply with the GPLv3.
+  - For more details, see: https://github.com/googlefonts/fontbakery/pull/3617#issuecomment-1044898812
+
+
 ## 0.1.1 (2022-Feb-18)
 ### Bugfix
   - updated and simplified the textproto definition to workaround this kind of problem when using the module on projects that also import `fonts_public_pb2.py`: https://github.com/protocolbuffers/protobuf/issues/3002

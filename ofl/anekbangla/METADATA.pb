@@ -26,6 +26,10 @@ axes {
   min_value: 100.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/EkType/Anek"
+  commit: "34074c6b406f4112e20c7ad10254a6e954d0324b"
+}
 languages: "aa_Latn"  # Afar
 languages: "ace_Latn"  # Achinese
 languages: "af_Latn"  # Afrikaans

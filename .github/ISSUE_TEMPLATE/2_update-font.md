@@ -2,7 +2,7 @@
 name: Update Font
 about: An upgraded version of one font is available
 title: "Update [Font Name]"
-labels: "II Font Upgrade"
+labels: "I Font Upgrade"
 assignees: 
 
 ---

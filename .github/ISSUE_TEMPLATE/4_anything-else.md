@@ -2,7 +2,7 @@
 name: Anything Else
 about: Submit an issue that is not related to a specific font (API, github repo, website…)
 title: ''
-labels: 'I API / Website / Platform, I Tools / workflow / repo'
+labels: 'I API / Website / Platform, I Tools / workflow / repo, I Request'
 assignees: ''
 
 ---

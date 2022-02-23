@@ -2,7 +2,7 @@
 name: Report a problem with a font
 about: Create an issue report to help us improve
 title: ''
-labels: 'II Font Bug'
+labels: 'I Font Bug'
 assignees: ''
 
 ---

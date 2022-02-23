@@ -2,7 +2,7 @@
 name: Add Font
 about: Submit an OFL font to Google Fonts
 title: 'Add [Font Name]'
-labels: 'II New Font, > Submission'
+labels: 'I New Font, > II Submission'
 assignees: ''
 
 ---

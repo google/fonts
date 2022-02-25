@@ -1,6 +1,7 @@
 name: "Alumni Sans Inline One"
 designer: "Robert Leuschke"
 license: "OFL"
+category: "SANS_SERIF"
 category: "DISPLAY"
 date_added: "2022-02-24"
 fonts {

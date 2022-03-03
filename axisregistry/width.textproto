@@ -49,7 +49,7 @@ fallback {
 fallback_only: false
 description:
   "Adjust the style from narrower to wider, by varying the proportions of"
-  " counters, stems, and other forms including overall spacinig and kerning."
+  " counters, stems, and other forms including overall spacing and kerning."
   " This typically changes the apparent weight (what typographers call"
   " 'typographic color') in a subtle way, and so may be used in conjunction"
   " with axes for Width and Grade (if present)."

@@ -36,6 +36,10 @@ axes {
   min_value: 1.0
   max_value: 1000.0
 }
+source {
+  repository_url: "https://github.com/vv-monsalve/Sofia-Sans"
+  commit: "a849e481fe767e946b74c59d4628d7cf896ed023"
+}
 languages: "aa_Latn"  # Afar
 languages: "abq_Cyrl"  # Abaza
 languages: "ace_Latn"  # Achinese

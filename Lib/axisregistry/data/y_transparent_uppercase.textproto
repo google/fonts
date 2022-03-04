@@ -1,0 +1,13 @@
+# YTUC based on https://variationsguide.typenetwork.com/#ytuc
+tag: "YTUC"
+display_name: "Y transparent uppercase"
+min_value: -1000
+max_value: 1000
+default_value: 500
+precision: 0
+fallback {
+  name: "Normal"
+  value: 725
+}
+description:
+  "Assigns a 'white' per mille value to each instance of the design space."

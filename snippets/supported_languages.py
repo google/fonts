@@ -22,7 +22,7 @@
 # =======   the GNU GPLv3.                                        =======
 # =======================================================================
 
-from gflanguages.lang_support import LoadLanguages
+from gflanguages import LoadLanguages
 from hyperglot import parse as hyperglot_parse
 
 

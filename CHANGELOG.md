@@ -1,5 +1,11 @@
 Below are the most important changes from each release.
 
+## 0.3.0 (2022-Mar-04)
+### Release notes
+  - Simplify API by removing the `lang_support` module. Now one does `from gflanguages import LoadLanguages` instead of `from gflanguages.lang_support import LoadLanguages` (issue #6)
+  - Also, all `Load_*` methods now accept base_dir as optional argument. (motivated by: https://github.com/googlefonts/gftools/pull/511#issuecomment-1059081028)
+
+
 ## 0.2.0 (2022-Feb-18)
 ### Release notes
   - dropped hyperglot dependency due to licensing. See below.

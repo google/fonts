@@ -25,6 +25,7 @@ DATA_DIR = resource_filename("gflanguages", "data")
 
 def test_LoadLanguages():
     for langs in [LoadLanguages(),
+                  LoadLanguages(None),
                   LoadLanguages(DATA_DIR)]:
         numerals = langs["yi_Hebr"].exemplar_chars.numerals
         assert numerals == '- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9'
@@ -32,6 +33,7 @@ def test_LoadLanguages():
 
 def test_LoadScripts():
     for scripts in [LoadScripts(),
+                    LoadScripts(None),
                     LoadScripts(DATA_DIR)]:
         scripts = LoadScripts()
         assert scripts["Tagb"].name == 'Tagbanwa'
@@ -39,6 +41,7 @@ def test_LoadScripts():
 
 def test_LoadRegions():
     for regions in [LoadRegions(),
+                    LoadRegions(None),
                     LoadRegions(DATA_DIR)]:
         regions = LoadRegions()
         br = regions["BR"]

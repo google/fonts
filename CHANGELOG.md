@@ -1,5 +1,10 @@
 Below are the most important changes from each release.
 
+## 0.4.0 (2022-Mar-09)
+### Release notes
+  - Use default `DATA_DIR` if user passes `base_dir=None`, to make it easier to use the API and to avoid problems like this: https://github.com/googlefonts/gftools/pull/511#issuecomment-1060398562
+
+
 ## 0.3.0 (2022-Mar-04)
 ### Release notes
   - Simplify API by removing the `lang_support` module. Now one does `from gflanguages import LoadLanguages` instead of `from gflanguages.lang_support import LoadLanguages` (issue #6)

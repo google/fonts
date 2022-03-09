@@ -36,8 +36,10 @@ DATA_DIR = resource_filename("gflanguages", "data")
 
 
 def LoadLanguages(base_dir=DATA_DIR):
-    languages_dir = os.path.join(base_dir, 'languages')
+    if base_dir is None:
+        base_dir = DATA_DIR
 
+    languages_dir = os.path.join(base_dir, 'languages')
     langs = {}
     for textproto_file in glob.iglob(os.path.join(languages_dir, '*.textproto')):
         with open(textproto_file, 'r', encoding='utf-8') as f:
@@ -47,8 +49,10 @@ def LoadLanguages(base_dir=DATA_DIR):
 
 
 def LoadScripts(base_dir=DATA_DIR):
-    scripts_dir = os.path.join(base_dir, 'scripts')
+    if base_dir is None:
+        base_dir = DATA_DIR
 
+    scripts_dir = os.path.join(base_dir, 'scripts')
     scripts = {}
     for textproto_file in glob.iglob(os.path.join(scripts_dir, '*.textproto')):
         with open(textproto_file, 'r', encoding='utf-8') as f:
@@ -58,8 +62,10 @@ def LoadScripts(base_dir=DATA_DIR):
 
 
 def LoadRegions(base_dir=DATA_DIR):
-    regions_dir = os.path.join(base_dir, 'regions')
+    if base_dir is None:
+        base_dir = DATA_DIR
 
+    regions_dir = os.path.join(base_dir, 'regions')
     regions = {}
     for textproto_file in glob.iglob(os.path.join(regions_dir, '*.textproto')):
         with open(textproto_file, 'r', encoding='utf-8') as f:

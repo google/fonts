@@ -4,3 +4,6 @@
 [submodule "axisregistry"]
 	path = axisregistry
 	url = https://github.com/googlefonts/axisregistry
+[submodule "lang"]
+	path = lang
+	url = https://github.com/googlefonts/lang

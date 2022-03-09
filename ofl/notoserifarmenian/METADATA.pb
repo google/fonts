@@ -27,23 +27,3 @@ axes {
 is_noto: true
 languages: "hy_Armn"  # Armenian
 languages: "hyw_Armn"  # Western Armenian, Armenian
-sample_glyphs {
-  key: "Armenian"
-  value: "ՙ ֍ ֎ ֏"
-}
-sample_glyphs {
-  key: "Armenian Lowercase"
-  value: "ՠ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ և ֈ ﬓ ﬔ ﬕ ﬖ ﬗ"
-}
-sample_glyphs {
-  key: "Armenian Uppercase"
-  value: "Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "̈"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "՚ ՛ ՜ ՝ ՞ ՟ ։ ֊ - ‐"
-}

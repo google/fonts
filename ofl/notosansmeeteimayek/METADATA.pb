@@ -22,19 +22,3 @@ axes {
 is_noto: true
 languages: "mni_Mtei"  # Manipuri, Meetei Mayek
 languages: "sa_Mtei"  # Sanskrit, Meetei Mayek / Meitei
-sample_glyphs {
-  key: "Marks"
-  value: "ꫫ ꫬ ꫭ ꫮ ꫯ ꫵ ꫶ ꯣ ꯤ ꯥ ꯦ ꯧ ꯨ ꯩ ꯪ ꯬ ꯭"
-}
-sample_glyphs {
-  key: "Meetei Mayek"
-  value: "ꫠ ꫡ ꫢ ꫣ ꫤ ꫥ ꫦ ꫧ ꫨ ꫩ ꫪ ꫲ ꫳ ꫴ ꯀ ꯁ ꯂ ꯃ ꯄ ꯅ ꯆ ꯇ ꯈ ꯉ ꯊ ꯋ ꯌ ꯍ ꯎ ꯏ ꯐ ꯑ ꯒ ꯓ ꯔ ꯕ ꯖ ꯗ ꯘ ꯙ ꯚ ꯛ ꯜ ꯝ ꯞ ꯟ ꯠ ꯡ ꯢ"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "꯰ ꯱ ꯲ ꯳ ꯴ ꯵ ꯶ ꯷ ꯸ ꯹"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "꫰ ꫱ ꯫"
-}

@@ -17,15 +17,3 @@ subsets: "phoenician"
 is_noto: true
 languages: "aii_Phnx"  # Assyrian Neo-Aramaic, Phoenician
 languages: "phn_Phnx"  # Phoenician
-sample_glyphs {
-  key: "Numbers"
-  value: "𐤖 𐤗 𐤘 𐤙 𐤚 𐤛"
-}
-sample_glyphs {
-  key: "Phoenician"
-  value: "𐤀 𐤁 𐤂 𐤃 𐤄 𐤅 𐤆 𐤇 𐤈 𐤉 𐤊 𐤋 𐤌 𐤍 𐤎 𐤏 𐤐 𐤑 𐤒 𐤓 𐤔 𐤕"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "𐤟"
-}

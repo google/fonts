@@ -42,31 +42,3 @@ languages: "syl_Beng"  # Sylheti
 languages: "trp_Beng"  # Kok Borok, Bangla
 languages: "unr_Beng"  # Mundari
 languages: "unx_Beng"  # Munda
-sample_glyphs {
-  key: "Bengali"
-  value: "ঀ অ আ ই ঈ উ ঊ ঋ ঌ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ ৎ ড় ঢ় য় ৠ ৡ ৰ ৱ ৼ ৲ ৳ ৺ ৻"
-}
-sample_glyphs {
-  key: "Common Latin"
-  value: "+ < = > ^ | ~ × ÷"
-}
-sample_glyphs {
-  key: "Currency Symbols"
-  value: "₹"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "꣱ ঁ ং ঃ ় া ি ী ু ূ ৃ ৄ ে ৈ ো ৌ ্ ৗ ৢ ৣ ৾ ॑ ॒ ᳐ ᳒ ᳕ ᳖ ᳘ ᳭ ᳡ ᳷"
-}
-sample_glyphs {
-  key: "Math Operators"
-  value: "−"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ ৴ ৵ ৶ ৷ ৸ ৹ 0 1 2 3 4 5 6 7 8 9"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "৽ ! \" % \' ( ) , - . / : ; ? [ \\ ] _ { } । ॥ ‐ – — ‘ ’ “ ” … # *"
-}

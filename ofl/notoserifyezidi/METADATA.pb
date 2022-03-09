@@ -21,15 +21,3 @@ axes {
 }
 is_noto: true
 languages: "ku_Yezi"  # Kurdish, Yezidi
-sample_glyphs {
-  key: "Marks"
-  value: "𐺫 𐺬"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "۔ 𐺭 ، ؛ ؟"
-}
-sample_glyphs {
-  key: "Yezidi"
-  value: "𐺀 𐺁 𐺂 𐺃 𐺄 𐺅 𐺆 𐺇 𐺈 𐺉 𐺊 𐺋 𐺌 𐺍 𐺎 𐺏 𐺐 𐺑 𐺒 𐺓 𐺔 𐺕 𐺖 𐺗 𐺘 𐺙 𐺚 𐺛 𐺜 𐺝 𐺞 𐺟 𐺠 𐺡 𐺢 𐺣 𐺤 𐺥 𐺦 𐺧 𐺨 𐺩 𐺰 𐺱"
-}

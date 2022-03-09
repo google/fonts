@@ -17,15 +17,3 @@ subsets: "batak"
 is_noto: true
 languages: "bbc_Batk"  # Batak Toba, Batak
 languages: "sa_Batk"  # Sanskrit, Batak
-sample_glyphs {
-  key: "Batak"
-  value: "ᯀ ᯁ ᯂ ᯃ ᯄ ᯅ ᯆ ᯇ ᯈ ᯉ ᯊ ᯋ ᯌ ᯍ ᯎ ᯏ ᯐ ᯑ ᯒ ᯓ ᯔ ᯕ ᯖ ᯗ ᯘ ᯙ ᯚ ᯛ ᯜ ᯝ ᯞ ᯟ ᯠ ᯡ ᯢ ᯣ ᯤ ᯥ"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "᯦ ᯧ ᯨ ᯩ ᯪ ᯫ ᯬ ᯭ ᯮ ᯯ ᯰ ᯱ ᯲ ᯳"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "᯼ ᯽ ᯾ ᯿"
-}

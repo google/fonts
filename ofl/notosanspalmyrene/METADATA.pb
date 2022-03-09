@@ -17,11 +17,3 @@ subsets: "palmyrene"
 is_noto: true
 languages: "aii_Palm"  # Assyrian Neo-Aramaic, Palmyrene
 languages: "arc_Palm"  # Aramaic, Palmyrene
-sample_glyphs {
-  key: "Numbers"
-  value: "𐡹 𐡺 𐡻 𐡼 𐡽 𐡾 𐡿"
-}
-sample_glyphs {
-  key: "Palmyrene"
-  value: "𐡠 𐡡 𐡢 𐡣 𐡤 𐡥 𐡦 𐡧 𐡨 𐡩 𐡪 𐡫 𐡬 𐡭 𐡮 𐡯 𐡰 𐡱 𐡲 𐡳 𐡴 𐡵 𐡶 𐡷 𐡸"
-}

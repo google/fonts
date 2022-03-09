@@ -16,15 +16,3 @@ subsets: "menu"
 subsets: "gothic"
 is_noto: true
 languages: "got_Goth"  # Gothic
-sample_glyphs {
-  key: "Gothic"
-  value: "𐌰 𐌱 𐌲 𐌳 𐌴 𐌵 𐌶 𐌷 𐌸 𐌹 𐌺 𐌻 𐌼 𐌽 𐌾 𐌿 𐍀 𐍂 𐍃 𐍄 𐍅 𐍆 𐍇 𐍈 𐍉"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "̄ ̅ ̈ ̱"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "𐍁 𐍊"
-}

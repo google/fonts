@@ -22,19 +22,3 @@ axes {
 is_noto: true
 languages: "sa_Olck"  # Sanskrit, Ol Chiki
 languages: "sat_Olck"  # Santali
-sample_glyphs {
-  key: "Currency Symbols"
-  value: "₹"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "᱐ ᱑ ᱒ ᱓ ᱔ ᱕ ᱖ ᱗ ᱘ ᱙"
-}
-sample_glyphs {
-  key: "Ol Chiki"
-  value: "ᱚ ᱛ ᱜ ᱝ ᱞ ᱟ ᱠ ᱡ ᱢ ᱣ ᱤ ᱥ ᱦ ᱧ ᱨ ᱩ ᱪ ᱫ ᱬ ᱭ ᱮ ᱯ ᱰ ᱱ ᱲ ᱳ ᱴ ᱵ ᱶ ᱷ ᱸ ᱹ ᱺ ᱻ ᱼ ᱽ"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "᱾ ᱿"
-}

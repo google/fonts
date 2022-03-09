@@ -17,11 +17,3 @@ subsets: "hatran"
 is_noto: true
 languages: "aii_Hatr"  # Assyrian Neo-Aramaic, Hatran
 languages: "mis_Hatr"  # Hatran Aramaic
-sample_glyphs {
-  key: "Hatran"
-  value: "𐣠 𐣡 𐣢 𐣣 𐣤 𐣥 𐣦 𐣧 𐣨 𐣩 𐣪 𐣫 𐣬 𐣭 𐣮 𐣯 𐣰 𐣱 𐣲 𐣴 𐣵"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "𐣻 𐣼 𐣽 𐣾 𐣿"
-}

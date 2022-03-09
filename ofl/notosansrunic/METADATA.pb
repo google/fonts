@@ -18,15 +18,3 @@ is_noto: true
 languages: "de_Runr"  # German, Runic
 languages: "got_Runr"  # Gothic, Runic
 languages: "non_Runr"  # Old Norse
-sample_glyphs {
-  key: "Numbers"
-  value: "ᛮ ᛯ ᛰ"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "᛫ ᛬ ᛭"
-}
-sample_glyphs {
-  key: "Runic"
-  value: "ᚠ ᚡ ᚢ ᚣ ᚤ ᚥ ᚦ ᚧ ᚨ ᚩ ᚪ ᚫ ᚬ ᚭ ᚮ ᚯ ᚰ ᚱ ᚲ ᚳ ᚴ ᚵ ᚶ ᚷ ᚸ ᚹ ᚺ ᚻ ᚼ ᚽ ᚾ ᚿ ᛀ ᛁ ᛂ ᛃ ᛄ ᛅ ᛆ ᛇ ᛈ ᛉ ᛊ ᛋ ᛌ ᛍ ᛎ ᛏ ᛐ ᛑ ᛒ ᛓ ᛔ ᛕ ᛖ ᛗ ᛘ ᛙ ᛚ ᛛ ᛜ ᛝ ᛞ ᛟ ᛠ ᛡ ᛢ ᛣ ᛤ ᛥ ᛦ ᛧ ᛨ ᛩ ᛪ ᛱ ᛲ ᛳ ᛴ ᛵ ᛶ ᛷ ᛸ"
-}

@@ -17,15 +17,3 @@ subsets: "mro"
 is_noto: true
 languages: "mro_Mroo"  # Mru, Mro
 languages: "sa_Mroo"  # Sanskrit, Mro
-sample_glyphs {
-  key: "Mro"
-  value: "𖩀 𖩁 𖩂 𖩃 𖩄 𖩅 𖩆 𖩇 𖩈 𖩉 𖩊 𖩋 𖩌 𖩍 𖩎 𖩏 𖩐 𖩑 𖩒 𖩓 𖩔 𖩕 𖩖 𖩗 𖩘 𖩙 𖩚 𖩛 𖩜 𖩝 𖩞"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "𖩠 𖩡 𖩢 𖩣 𖩤 𖩥 𖩦 𖩧 𖩨 𖩩"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "𖩮 𖩯"
-}

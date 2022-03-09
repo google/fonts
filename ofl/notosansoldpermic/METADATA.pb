@@ -17,14 +17,6 @@ subsets: "old-permic"
 is_noto: true
 languages: "koi_Perm"  # Komi-Permyak, Old Permic
 languages: "kv_Perm"  # Komi, Old Permic
-sample_glyphs {
-  key: "Marks"
-  value: "҃ 𐍶 𐍷 𐍸 𐍹 𐍺 ̀ ̆ ̇ ̈ ̓ ⃛"
-}
-sample_glyphs {
-  key: "Old Permic"
-  value: "𐍐 𐍑 𐍒 𐍓 𐍔 𐍕 𐍖 𐍗 𐍘 𐍙 𐍚 𐍛 𐍜 𐍝 𐍞 𐍟 𐍠 𐍡 𐍢 𐍣 𐍤 𐍥 𐍦 𐍧 𐍨 𐍩 𐍪 𐍫 𐍬 𐍭 𐍮 𐍯 𐍰 𐍱 𐍲 𐍳 𐍴 𐍵"
-}
 sample_text {
   masthead_full: "𐍒𐍟𐍦𐍘"
   masthead_partial: "𐍑𐍤"

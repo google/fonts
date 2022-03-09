@@ -17,15 +17,3 @@ subsets: "buhid"
 is_noto: true
 languages: "bku_Buhd"  # Buhid, Buhid
 languages: "sa_Buhd"  # Sanskrit, Buhid
-sample_glyphs {
-  key: "Buhid"
-  value: "ᝀ ᝁ ᝂ ᝃ ᝄ ᝅ ᝆ ᝇ ᝈ ᝉ ᝊ ᝋ ᝌ ᝍ ᝎ ᝏ ᝐ ᝑ"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "ᝒ ᝓ"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "᜵ ᜶"
-}

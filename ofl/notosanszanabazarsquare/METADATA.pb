@@ -18,15 +18,3 @@ is_noto: true
 languages: "bo_Zanb"  # Tibetan, Zanabazar
 languages: "mn_Zanb"  # Mongolian, Zanabazar
 languages: "sa_Zanb"  # Sanskrit, Zanabazar
-sample_glyphs {
-  key: "Marks"
-  value: "𑨁 𑨂 𑨃 𑨄 𑨅 𑨆 𑨇 𑨈 𑨉 𑨊 𑨳 𑨴 𑨵 𑨶 𑨷 𑨸 𑨹 𑨻 𑨼 𑨽 𑨾 𑩇"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "𑨿 𑩀 𑩁 𑩂 𑩃 𑩄 𑩅 𑩆"
-}
-sample_glyphs {
-  key: "Zanabazar Square"
-  value: "𑨀 𑨋 𑨌 𑨍 𑨎 𑨏 𑨐 𑨑 𑨒 𑨓 𑨔 𑨕 𑨖 𑨗 𑨘 𑨙 𑨚 𑨛 𑨜 𑨝 𑨞 𑨟 𑨠 𑨡 𑨢 𑨣 𑨤 𑨥 𑨦 𑨧 𑨨 𑨩 𑨪 𑨫 𑨬 𑨭 𑨮 𑨯 𑨰 𑨱 𑨲 𑨺"
-}

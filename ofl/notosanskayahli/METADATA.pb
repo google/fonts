@@ -22,19 +22,3 @@ axes {
 is_noto: true
 languages: "eky_Kali"  # Eastern Kayah
 languages: "kyu_Kali"  # Western Kayah
-sample_glyphs {
-  key: "Kayah Li"
-  value: "ꤊ ꤋ ꤌ ꤍ ꤎ ꤏ ꤐ ꤑ ꤒ ꤓ ꤔ ꤕ ꤖ ꤗ ꤘ ꤙ ꤚ ꤛ ꤜ ꤝ ꤞ ꤟ ꤠ ꤡ ꤢ ꤣ ꤤ ꤥ"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "ꤦ ꤧ ꤨ ꤩ ꤪ ꤫ ꤬ ꤭"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "꤯ - ‐ ꤮"
-}

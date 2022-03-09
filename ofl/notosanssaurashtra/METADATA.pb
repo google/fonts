@@ -17,19 +17,3 @@ subsets: "saurashtra"
 is_noto: true
 languages: "sa_Saur"  # Sanskrit, Saurashtra
 languages: "saz_Saur"  # Saurashtra
-sample_glyphs {
-  key: "Marks"
-  value: "ꢀ ꢁ ꢴ ꢵ ꢶ ꢷ ꢸ ꢹ ꢺ ꢻ ꢼ ꢽ ꢾ ꢿ ꣀ ꣁ ꣂ ꣃ ꣄ ꣅ"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "꣐ ꣑ ꣒ ꣓ ꣔ ꣕ ꣖ ꣗ ꣘ ꣙"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "꣎ ꣏"
-}
-sample_glyphs {
-  key: "Saurashtra"
-  value: "ꢂ ꢃ ꢄ ꢅ ꢆ ꢇ ꢈ ꢉ ꢊ ꢋ ꢌ ꢍ ꢎ ꢏ ꢐ ꢑ ꢒ ꢓ ꢔ ꢕ ꢖ ꢗ ꢘ ꢙ ꢚ ꢛ ꢜ ꢝ ꢞ ꢟ ꢠ ꢡ ꢢ ꢣ ꢤ ꢥ ꢦ ꢧ ꢨ ꢩ ꢪ ꢫ ꢬ ꢭ ꢮ ꢯ ꢰ ꢱ ꢲ ꢳ"
-}

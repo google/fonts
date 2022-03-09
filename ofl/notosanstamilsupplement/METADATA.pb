@@ -17,18 +17,6 @@ subsets: "tamil-supplement"
 is_noto: true
 languages: "bfq_Taml"  # Badaga
 languages: "ta_Taml"  # Tamil
-sample_glyphs {
-  key: "Numbers"
-  value: "𑿀 𑿁 𑿂 𑿃 𑿄 𑿅 𑿆 𑿇 𑿈 𑿉 𑿊 𑿋 𑿌 𑿍 𑿎 𑿏 𑿐 𑿑 𑿒 𑿓 𑿔"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "𑿿"
-}
-sample_glyphs {
-  key: "Tamil"
-  value: "𑿕 𑿖 𑿗 𑿘 𑿙 𑿚 𑿛 𑿜 𑿝 𑿞 𑿟 𑿠 𑿡 𑿢 𑿣 𑿤 𑿥 𑿦 𑿧 𑿨 𑿩 𑿪 𑿫 𑿬 𑿭 𑿮 𑿯 𑿰 𑿱"
-}
 sample_text {
   masthead_full: "𑿗𑿘𑿚𑿛"
   masthead_partial: "𑿖𑿛"

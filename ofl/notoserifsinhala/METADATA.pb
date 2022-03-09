@@ -28,27 +28,3 @@ is_noto: true
 languages: "pi_Sinh"  # Pali, Sinhala
 languages: "sa_Sinh"  # Sanskrit, Sinhala
 languages: "si_Sinh"  # Sinhala
-sample_glyphs {
-  key: "Common Latin"
-  value: "+ < = > ^ | ~ × ÷"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "ඁ ං ඃ ් ා ැ ෑ ි ී ු ූ ෘ ෙ ේ ෛ ො ෝ ෞ ෟ ෲ ෳ"
-}
-sample_glyphs {
-  key: "Math Operators"
-  value: "−"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "෦ ෧ ෨ ෩ ෪ ෫ ෬ ෭ ෮ ෯ 𑇡 𑇢 𑇣 𑇤 𑇥 𑇦 𑇧 𑇨 𑇩 𑇪 𑇫 𑇬 𑇭 𑇮 𑇯 𑇰 𑇱 𑇲 𑇳 𑇴 0 1 2 3 4 5 6 7 8 9"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "෴ ! \" % \' ( ) , - . / : ; ? [ \\ ] _ { } । ॥ – — ‘ ’ “ ” … # *"
-}
-sample_glyphs {
-  key: "Sinhala"
-  value: "අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ ඏ ඐ එ ඒ ඓ ඔ ඕ ඖ ක ඛ ග ඝ ඞ ඟ ච ඡ ජ ඣ ඤ ඥ ඦ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ශ ෂ ස හ ළ ෆ"
-}

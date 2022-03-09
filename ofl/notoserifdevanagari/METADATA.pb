@@ -103,31 +103,3 @@ languages: "wtm_Deva"  # Mewati
 languages: "xnr_Deva"  # Kangri
 languages: "xsr_Deva"  # Sherpa
 languages: "ybh_Deva"  # Yakha, Devanagari
-sample_glyphs {
-  key: "Common Latin"
-  value: "+ < = > ^ | ~ × ÷"
-}
-sample_glyphs {
-  key: "Currency Symbols"
-  value: "₹"
-}
-sample_glyphs {
-  key: "Devanagari"
-  value: "ऄ अ आ इ ई उ ऊ ऋ ऌ ऍ ऎ ए ऐ ऑ ऒ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न ऩ प फ ब भ म य र ऱ ल ळ ऴ व श ष स ह ऽ ॐ क़ ख़ ग़ ज़ ड़ ढ़ फ़ य़ ॠ ॡ ॱ ॲ ॳ ॴ ॵ ॶ ॷ ॸ ॹ ॺ ॻ ॼ ॽ ॾ ॿ ꣲ ꣳ ꣴ ꣵ ꣶ ꣷ ꣻ ꣽ ꣾ"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "ऀ ँ ं ः ऺ ऻ ़ ा ि ी ु ू ृ ॄ ॅ ॆ े ै ॉ ॊ ो ौ ् ॎ ॏ ॕ ॖ ॗ ॢ ॣ ꣠ ꣡ ꣢ ꣣ ꣤ ꣥ ꣦ ꣧ ꣨ ꣩ ꣪ ꣫ ꣬ ꣭ ꣮ ꣯ ꣰ ꣱ ꣿ ॑ ॒ ॓ ॔ ᳐ ᳑ ᳒ ᳔ ᳕ ᳖ ᳗ ᳘ ᳙ ᳚ ᳛ ᳜ ᳝ ᳞ ᳟ ᳠ ᳢ ᳣ ᳤ ᳥ ᳦ ᳧ ᳨ ᳭ ᳴ ᳸ ᳹ ⃰ ᳡"
-}
-sample_glyphs {
-  key: "Math Operators"
-  value: "−"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "० १ २ ३ ४ ५ ६ ७ ८ ९ ꠰ ꠱ ꠲ ꠳ ꠴ ꠵ 0 1 2 3 4 5 6 7 8 9 ꠶ ꠷ ꠸ ꠹"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "॰ ꣸ ꣹ ꣺ ꣼ ! \" % \' ( ) , - . / : ; ? [ \\ ] _ { } । ॥ ᳓ ‐ – — ‘ ’ “ ” … # *"
-}

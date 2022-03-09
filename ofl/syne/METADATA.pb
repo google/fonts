@@ -24,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://gitlab.com/bonjour-monde/fonderie/syne-typeface"
-  commit: "d9098c0a72125d411dbb225a2e5a61dc15265ffc"
+  commit: "e536e8f1a8724bf282da74bbae410f91231ce94c"
 }
 languages: "aa_Latn"  # Afar
 languages: "ace_Latn"  # Achinese

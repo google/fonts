@@ -25,7 +25,7 @@ with open('README.md') as f:
 setup(
     name="gflanguages",
     use_scm_version={"write_to": "Lib/gflanguages/_version.py"},
-    url='https://github.com/googlefonts/gflanguages/',
+    url='https://github.com/googlefonts/lang/',
     description='A python API for evaluating language support in the Google Fonts collection.',
     long_description=long_description,
     long_description_content_type='text/markdown',  # This is important!

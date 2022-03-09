@@ -1,9 +1,0 @@
-id: "din_Latn"
-language: "din"
-script: "Latn"
-name: "Dinka"
-population: 0
-exemplar_chars {
-  base: "A B C D E Ɛ G Ɣ I K L M N Ŋ O Ɔ P R S T U W Y Ä Ë Ï Ö a b c d e ɛ g ɣ i k l m n ŋ o ɔ p r s t u w y ä ë ï ö"
-  marks: "◌̈"
-}

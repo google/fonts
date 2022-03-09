@@ -21,6 +21,10 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/mavenproFont"
+  commit: "c3a3d38be5220456ba3ed0fe7698024ac862c3ab"
+}
 languages: "aa_Latn"  # Afar
 languages: "ace_Latn"  # Achinese
 languages: "af_Latn"  # Afrikaans

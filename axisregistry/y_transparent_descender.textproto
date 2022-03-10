@@ -1,0 +1,13 @@
+# YTDE based on https://variationsguide.typenetwork.com/#ytde
+tag: "YTDE"
+display_name: "Y transparent descender"
+min_value: -1000
+max_value: 0
+default_value: -250
+precision: 0
+fallback {
+  name: "Normal"
+  value: -250
+}
+description:
+  "Assigns a 'white' per mille value to each instance of the design space."

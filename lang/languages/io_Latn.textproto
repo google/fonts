@@ -1,0 +1,18 @@
+id: "io_Latn"
+language: "io"
+script: "Latn"
+name: "Ido"
+sample_text {
+  masthead_full: "OoMm"
+  masthead_partial: "Nn"
+  styles: "Omna homi naskas libera ed egala relate digneso"
+  tester: "Omna homi naskas libera ed egala relate digneso e yuri. Li es"
+  poster_sm: "Omna homi"
+  poster_md: "Omna homi"
+  poster_lg: "Omna"
+  specimen_48: "Omna homi naskas libera ed egala relate digneso e yuri. Li es dotita"
+  specimen_36: "Omna homi naskas libera ed egala relate digneso e yuri. Li es dotita per raciono e koncienco e devas agar vers l\'una l\'altra en spirito di frateso."
+  specimen_32: "Omna homi naskas libera ed egala relate digneso e yuri. Li es dotita per raciono e koncienco e devas agar vers l\'una l\'altra en spirito di frateso."
+  specimen_21: "Omna homi naskas libera ed egala relate digneso e yuri. Li es dotita per raciono e koncienco e devas agar vers l\'una l\'altra en spirito di frateso.\nOmna homi naskas libera ed egala relate digneso e yuri. Li es dotita per raciono e koncienco e devas agar vers l\'una l\'altra en spirito di frateso.\nOmna homi naskas libera ed egala relate digneso e yuri. Li es dotita per raciono e koncienco e devas agar vers l\'una l\'altra en spirito di frateso."
+  specimen_16: "Omna homi naskas libera ed egala relate digneso e yuri. Li es dotita per raciono e koncienco e devas agar vers l\'una l\'altra en spirito di frateso.\nOmna homi naskas libera ed egala relate digneso e yuri. Li es dotita per raciono e koncienco e devas agar vers l\'una l\'altra en spirito di frateso.\nOmna homi naskas libera ed egala relate digneso e yuri. Li es dotita per raciono e koncienco e devas agar vers l\'una l\'altra en spirito di frateso.\nOmna homi naskas libera ed egala relate digneso e yuri. Li es dotita per raciono e koncienco e devas agar vers l\'una l\'altra en spirito di frateso."
+}

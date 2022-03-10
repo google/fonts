@@ -1,0 +1,23 @@
+id: "hmn_Latn"
+language: "hmn"
+script: "Latn"
+name: "Hmong"
+autonym: "hveb Hmub"
+population: 0
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z -"
+}
+sample_text {
+  masthead_full: "LlAa"
+  masthead_partial: "Ii"
+  styles: "Cenf rent laib zaid naix taix laix maix zenb"
+  tester: "Hxid ax bongf dail naix bangf quaif lit, gux dox naix jub, dol"
+  poster_sm: "Dail naix bangf"
+  poster_md: "Laib laib"
+  poster_lg: "Laix"
+  specimen_48: "Jab ruf Lieef Hof Gof dol gof jab bangf naix id, sail niangb diot"
+  specimen_36: "Pux pieet lix gaix dol quaif lit sul dol zit yef nongd, duit ait vut laib hfud gid gid waix nongd sail hsat zongt yaot."
+  specimen_32: "Dail xid hut ax yens naix jub ait jangx nuf dit ghait yens luf yef; luf dit zit dut haib dad mail mais luf dit, yix diet xenf sit deis niangb hul, dail ax baib."
+  specimen_21: "Dail xid hul dail ax gid yens kuf xenf, yens ait dol gid caif renx, yens dol gid ax liek naix jub id ghait yens gux dox.\nLaix deis niangb diot bet deis hul dail maix quaif lit yens cenf rent niangb diot faf lif bangf gid mais dios dail naix.\nDail naix gheix xid hul, faf lif haib xeet faf baib nenx dol jib benx quaif lit id yens qenb bait yangx, nenx maix quaif lit yef laib gof jab faf tinf hof geef id naingb xaot dax dliuk bud nenx laib yens hait nongd."
+  specimen_16: "Dail naix deis hul, ax dent ghent yens kheib yens wil, yens qib lox, yens dias mongl naix jub fangb.\nLaix laix sail pinf denx maix quaif lit yef ib laib faf tinf lol gongb kaib haib gongb zent senx xunt, jef hangb gid lol qof dint nenx maix dol quaif lit gheix xid, maix dol yit wut gheix xid, fait dol zuit gheix xid, laib faf tinf nongd nongt duf lif haib dad ax ab gos mongl pit deis.\nDail naix gheix xid hul, nenx bangf sib senb hof, laib zaid naix, ghab diux zaid, des naix jub xit hxad xent, dol nongd ax yens diel gheix xid gaib seef, nenx bangf yongf wit haib minf wit ax baib gongb jif. Laix laix maix quaif lit xangx set faf lif baox fut, jef ax yens gaib seef haib gongb jif."
+}

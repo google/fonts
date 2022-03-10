@@ -1,0 +1,20 @@
+id: "stq_Latn"
+language: "stq"
+script: "Latn"
+name: "Saterland Frisian"
+population: 961
+region: "DE"
+sample_text {
+  masthead_full: "AaLl"
+  masthead_partial: "Dd"
+  styles: "Aal do Maanskene sunt fräi un gliek in Wöide"
+  tester: "Aal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren."
+  poster_sm: "Aal do Maanskene"
+  poster_md: "Aal do"
+  poster_lg: "Aal"
+  specimen_48: "Aal do Maanskene sunt fräi un gliek in Wöide un Gjuchte"
+  specimen_36: "Aal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren. Jo hääbe Fernunft un Gewieten meekriegen un schällen sik eenour as Broure ferhoolde."
+  specimen_32: "Aal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren. Jo hääbe Fernunft un Gewieten meekriegen un schällen sik eenour as Broure ferhoolde."
+  specimen_21: "Aal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren. Jo hääbe Fernunft un Gewieten meekriegen un schällen sik eenour as Broure ferhoolde.\nAal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren. Jo hääbe Fernunft un Gewieten meekriegen un schällen sik eenour as Broure ferhoolde.\nAal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren. Jo hääbe Fernunft un Gewieten meekriegen un schällen sik eenour as Broure ferhoolde."
+  specimen_16: "Aal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren. Jo hääbe Fernunft un Gewieten meekriegen un schällen sik eenour as Broure ferhoolde.\nAal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren. Jo hääbe Fernunft un Gewieten meekriegen un schällen sik eenour as Broure ferhoolde.\nAal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren. Jo hääbe Fernunft un Gewieten meekriegen un schällen sik eenour as Broure ferhoolde.\nAal do Maanskene sunt fräi un gliek in Wöide un Gjuchte gebooren. Jo hääbe Fernunft un Gewieten meekriegen un schällen sik eenour as Broure ferhoolde."
+}

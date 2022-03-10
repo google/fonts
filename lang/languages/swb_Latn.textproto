@@ -1,0 +1,26 @@
+id: "swb_Latn"
+language: "swb"
+script: "Latn"
+name: "Comorian, Latin"
+autonym: "Shikomori"
+population: 0
+region: "KM"
+region: "MG"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z"
+}
+sample_text {
+  masthead_full: "HhAa"
+  masthead_partial: "Mm"
+  styles: "Ha mwakinisho ukaya ho ukubali ye sheo shaho"
+  tester: "Ha mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya"
+  poster_sm: "Ha mwakinisho"
+  poster_md: "Ha mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya pvamwedja ne ze haki za wadjibu zaho usawa, zahao, uwo ndo mshindzi waho uhuria, no lidzanyiso haki, ne amani yahe duniya kamili"
+  poster_lg: "ukaya"
+  specimen_48: "Ha mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu"
+  specimen_36: "Ha mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya pvamwedja ne ze haki za wadjibu zaho usawa, zahao, uwo ndo mshindzi waho uhuria, no lidzanyiso haki, ne amani yahe duniya kamili."
+  specimen_32: "Ha mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya pvamwedja ne ze haki za wadjibu zaho usawa, zahao, uwo ndo mshindzi waho uhuria, no lidzanyiso haki, ne amani yahe duniya kamili."
+  specimen_21: "Ha mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya pvamwedja ne ze haki za wadjibu zaho usawa, zahao, uwo ndo mshindzi waho uhuria, no lidzanyiso haki, ne amani yahe duniya kamili.\nHa mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya pvamwedja ne ze haki za wadjibu zaho usawa, zahao, uwo ndo mshindzi waho uhuria, no lidzanyiso haki, ne amani yahe duniya kamili."
+  specimen_16: "Ha mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya pvamwedja ne ze haki za wadjibu zaho usawa, zahao, uwo ndo mshindzi waho uhuria, no lidzanyiso haki, ne amani yahe duniya kamili.\nHa mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya pvamwedja ne ze haki za wadjibu zaho usawa, zahao, uwo ndo mshindzi waho uhuria, no lidzanyiso haki, ne amani yahe duniya kamili.\nHa mwakinisho ukaya ho ukubali ye sheo shaho wo ubinadamu piya pvamwedja ne ze haki za wadjibu zaho usawa, zahao, uwo ndo mshindzi waho uhuria, no lidzanyiso haki, ne amani yahe duniya kamili."
+}
+historical: true

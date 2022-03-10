@@ -1,0 +1,25 @@
+id: "gag_Latn"
+language: "gag"
+script: "Latn"
+name: "Gagauz"
+autonym: "Gagauzça"
+population: 111028
+region: "MD"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ê Ö Ü Ğ Ş Ţ Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ ș ț"
+  marks: "◌̂ ◌̆ ◌̇ ◌̈ ◌̦ ◌̧"
+}
+sample_text {
+  masthead_full: "IiNn"
+  masthead_partial: "Ss"
+  styles: "ESABA ALARAK, ani insan aylesi azaların kişilik"
+  tester: "ESABA ALARAK, ani insan haklarına gösterilän saygısızlıktan hem"
+  poster_sm: "ESABA ALARAK,"
+  poster_md: "bildirer"
+  poster_lg: "Insannar"
+  specimen_48: "Insannar hepsi duuêrlar serbest hem birtakım kendi kıymetindä"
+  specimen_36: "Kimsey diil lääzım tutulsun esirliktä ya serbestsiz durumda; esirlik hem esir satılması hiçbirtürlü kabledilmeer."
+  specimen_32: "Herbir msanııı hakı var legal millet daavalarından haklarını efekivli geeri almaa, eer kostituţiya ya kanon tarafından ona verilän haklar korunmazsalar."
+  specimen_21: "Kimsey yok nasıl zakonsuz zorlan kapansın, tutulsun yada erindän kaldırılsın.\nHerbir insanın haklarını hem borçlarını belirtmäk için hem ona çıkarılan kabaatlamanın sebepli olup-olmadıını göstermäk için var hakı, cümlä birtakımnık temelindä, ıstemäa onun daavası bakılsın açık hem dooruluk kurallarına uygun olarak baalı olmayan hem tarafsız olan sudta."
+  specimen_16: "Kimseyin yok nasıl kanonsuz karışılsın kendi kişi hem aylä yaşamasına, kanonsuz dokunulsun onun eviııä, onun Yazışma saklılıına yada onun kıymetinä hem adına. Herbir insanın var hakı kanonnan korunmalı olmaa bölä karışmalardan eki bölä dokunmalardan.\nHerbir msanın var serbestli düşünmäk, üz hem din hakı; bu haka girer serbestlik diiştirmää kendi diııini ya inandıklarını hem tutmaa kendi dinini ya inandıklarını tek başına ekİ başkasınnan birliktä, halka açık üürenmää, duva etmää hem din ritual adetlerini kullanmaa.\nHerbir insanın var hakı dinnenmä hem boş vakıda, bu arada çalışma günün akıllıca sınırlanmasına hem periodik ödekli izinina (otpuskaya)."
+}

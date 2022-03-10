@@ -1,0 +1,26 @@
+id: "ve_Latn"
+language: "ve"
+script: "Latn"
+name: "Venda"
+autonym: "Tshivenḓa"
+population: 1391759
+region: "ZA"
+region: "ZW"
+exemplar_chars {
+  base: "A B D Ḓ E F G H I K L Ḽ M N Ṋ Ṅ O P R S T Ṱ U V W X Y Z a b d ḓ e f g h i k l ḽ m n ṋ ṅ o p r s t ṱ u v w x y z"
+  marks: "◌̇ ◌̭"
+}
+sample_text {
+  masthead_full: "VvHh"
+  masthead_partial: "Aa"
+  styles: "Sa izwo u ḓivhea ha u dzhiela nṱha lwa mvele"
+  tester: "Sa izwo u dzhielwa fhasi na u tsikeledzwa ha pfanelo dza vhathu"
+  poster_sm: "Sa izwo zwi"
+  poster_md: "Sa izwo u"
+  poster_lg: "Vhathu"
+  specimen_48: "sa tshone tshikalo tshine tsha nga shumiswa nga nnyi na nnyi"
+  specimen_36: "Sa izwo u pfeseswa ha pfanelo idzi na mbofholowo zwi zwa ndeme khulwane kha uri mbofho iyi i bveledzwe nga vhuḓalo,"
+  specimen_32: "Sa izwo u ḓivhea ha u dzhiela nṱha lwa mvele ya tshirunzi tsha muthu na ndingano na pfanelo dza vhathu vhoṱhe zwi murango wa mbofholowo, vhulamukanyi na mulalo ḽifhasini,"
+  specimen_21: "Sa izwo u ḓivhea ha u dzhiela nṱha lwa mvele ya tshirunzi tsha muthu na ndingano na pfanelo dza vhathu vhoṱhe zwi murango wa mbofholowo, vhulamukanyi na mulalo ḽifhasini,\nSa izwo u dzhielwa fhasi na u tsikeledzwa ha pfanelo dza vhathu ho bveledza zwiito zwa vhuveveru vhu fhandulaho luvalo lwa muthu, na u ḓa ha shango ḽine khaḽo vhathu vha ḓo ḓiphina nga mbofholowo ya u amba na u tenda kha zwine vha funa, na u vhofholowa kha nyofho na zwo dzhiiwa sa dzangalelo ḽihulwane ḽa vhathu zwavho,"
+  specimen_16: "Sa izwo u ḓivhea ha u dzhiela nṱha lwa mvele ya tshirunzi tsha muthu na ndingano na pfanelo dza vhathu vhoṱhe zwi murango wa mbofholowo, vhulamukanyi na mulalo ḽifhasini,\nSa izwo u dzhielwa fhasi na u tsikeledzwa ha pfanelo dza vhathu ho bveledza zwiito zwa vhuveveru vhu fhandulaho luvalo lwa muthu, na u ḓa ha shango ḽine khaḽo vhathu vha ḓo ḓiphina nga mbofholowo ya u amba na u tenda kha zwine vha funa, na u vhofholowa kha nyofho na zwo dzhiiwa sa dzangalelo ḽihulwane ḽa vhathu zwavho,\nSa izwo zwi zwa ndeme, arali muthu a sa ḓo kombetshedzwa nga u shaya iṅwe nḓila, u vutshela vhutambudzi na vhutsikeledzi, uri pfanelo dza vhuthu dzi tsireledzwe nga u shumisa mulayo,"
+}

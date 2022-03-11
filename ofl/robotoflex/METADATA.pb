@@ -1,8 +1,8 @@
 name: "Roboto Flex"
-designer: "Type Network"
+designer: "Font Bureau, David Berlow, Santiago Orozco, Christian Robertson"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2021-08-11"
+date_added: "2022-05-01"
 fonts {
   name: "Roboto Flex"
   style: "normal"
@@ -10,7 +10,7 @@ fonts {
   filename: "RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf"
   post_script_name: "RobotoFlex-Regular"
   full_name: "Roboto Flex Regular"
-  copyright: "Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)"
+  copyright: "Copyright 2017 The Roboto Flex Project Authors (https://github.com/googlefonts/roboto-flex)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

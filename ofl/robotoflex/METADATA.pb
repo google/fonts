@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf"
   post_script_name: "RobotoFlex-Regular"
-  full_name: "RobotoFlex Regular"
-  copyright: "Copyright 2011, 2017 Google Inc. All Rights Reserved."
+  full_name: "Roboto Flex Regular"
+  copyright: "Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -85,8 +85,32 @@ axes {
   max_value: 1000.0
 }
 registry_default_overrides {
+  key: "XTRA"
+  value: 468.0
+}
+registry_default_overrides {
+  key: "XOPQ"
+  value: 96.0
+}
+registry_default_overrides {
+  key: "YOPQ"
+  value: 79.0
+}
+registry_default_overrides {
+  key: "YTLC"
+  value: 514.0
+}
+registry_default_overrides {
   key: "YTUC"
-  value: 528.0
+  value: 712.0
+}
+registry_default_overrides {
+  key: "YTDE"
+  value: -203.0
+}
+registry_default_overrides {
+  key: "YTFI"
+  value: 738.0
 }
 languages: "aa_Latn"  # Afar
 languages: "abq_Cyrl"  # Abaza

@@ -19,11 +19,8 @@ def AxisRegistry():
         return message
 
     def append_AxisMessage(path):
-        axis_dict = {"message": get_Protobuf_Message(AxisProto, path),
-                     "fallbacks": {}}
-        for fb in axis_dict["message"].fallback:  # pylint: disable=E1101
-            axis_dict["fallbacks"][fb.name] = fb.value
-        registry[axis_dict["message"].tag] = axis_dict  # pylint: disable=E1101
+        axis = get_Protobuf_Message(AxisProto, path)
+        registry[axis.tag] = axis  # pylint: disable=E1101
 
     for axis in ["casual.textproto",
                  "cursive.textproto",

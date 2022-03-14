@@ -1,5 +1,8 @@
 Below are the most important changes from each release.
 
+## 0.2.0 (2022-Mar-14)
+  - Remove pre-processing of fallback names and simplify API
+
 ## 0.1.1 (2022-Mar-14)
   - Fix typos on cursive and monospace axes descriptions.
   - Remove space characteres from fallback name entries of all axes. (issue #7)

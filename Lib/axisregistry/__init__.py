@@ -18,14 +18,11 @@ def AxisRegistry():
             text_format.Merge(text_data.read(), message)
         return message
 
-    def normalize_name(name):
-        return ''.join(name.split(' '))
-
     def append_AxisMessage(path):
         axis_dict = {"message": get_Protobuf_Message(AxisProto, path),
                      "fallbacks": {}}
         for fb in axis_dict["message"].fallback:  # pylint: disable=E1101
-            axis_dict["fallbacks"][normalize_name(fb.name)] = fb.value
+            axis_dict["fallbacks"][fb.name] = fb.value
         registry[axis_dict["message"].tag] = axis_dict  # pylint: disable=E1101
 
     for axis in ["casual.textproto",

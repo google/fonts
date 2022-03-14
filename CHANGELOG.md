@@ -1,5 +1,11 @@
 Below are the most important changes from each release.
 
+## 0.1.1 (2022-Mar-14)
+  - Fix typos on cursive and monospace axes descriptions.
+  - Remove space characteres from fallback name entries of all axes. (issue #7)
+  - Update `min_value` and `default_value` on **y_transparent_uppercase**.
+
+
 ## 0.1.0 (2022-Mar-04)
 ### Release notes
   - Initial release of the `axisregistry` python module.

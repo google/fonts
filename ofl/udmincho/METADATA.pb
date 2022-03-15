@@ -12,15 +12,9 @@ fonts {
   full_name: "BIZ UDMincho "
   copyright: "Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek-ext"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/morisawa-biz-ud-mincho"
-  commit: "1b399eac443abb16ec5d4a4deb2d2b87bd811fea"
-}

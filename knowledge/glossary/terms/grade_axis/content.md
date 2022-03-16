@@ -1,5 +1,5 @@
 
-“Grade” (GRAD in CSS)  is an axis found in some variable fonts. Changing grade allows us to finesse the style from lighter to heavier in typographic color by varying stroke thicknesses (or other forms) without any changes to the type’s overall width, inter-letter spacing, or kerning—unlike altering weight. This means there are no changes to line breaks or page layout. 
+“Grade” (GRAD in CSS)  is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). Changing grade allows us to finesse the style from lighter to heavier in typographic color by varying stroke thicknesses (or other forms) without any changes to the type’s overall width, inter-letter spacing, or kerning—unlike altering weight. This means there are no changes to line breaks or page layout. 
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

@@ -1,5 +1,5 @@
 
-Slant (slnt in CSS) is an axis found in some variable fonts. It controls the font file’s slant parameter for oblique styles. 
+Slant (slnt in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). It controls the font file’s slant parameter for oblique styles. 
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

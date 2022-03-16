@@ -1,5 +1,5 @@
 
-Weight (wght in CSS) is an axis found in many variable fonts. It controls the font file’s weight parameter. 
+Weight (`wght` in CSS) is an axis found in many variable fonts. It controls the [font](INSERT_URL) file’s [weight](INSERT_URL) parameter.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
@@ -12,7 +12,7 @@ Default: 400     Min: 1     Max: 1000     Step: 1
 
 </figure>
 
-Weight is the overall thickness of a typeface’s strokes in any given font. The most common weights are regular and bold, but weights can cover extremes from the very light to the very heavy. With the weight axis in variable fonts, the number of instances or weights is effectively unlimited.
+Weight is the overall thickness of a [typeface](INSERT_URL)’s [strokes](INSERT_URL) in any given font. The most common weights are [regular](INSERT_URL) and [bold](INSERT_URL), but weights can cover extremes from the very light to the very heavy. With the weight axis in variable fonts, the number of instances or weights is effectively unlimited.
 
 In CSS, we can assign a variable weight property to an element of our choosing:
 
@@ -25,4 +25,4 @@ strong {
 }
 </pre>
 
-Unlike in non-variable fonts, the font-weight values no longer have to be declared in units of 100. Rather than have body copy set in a regular weight, which would usually sit at 400, we can set it a little lighter, at 350. Similarly, whereas strong text would usually be set in a bold weight, most often with a value of 700, we’re setting it at 780: heavier than a bold, but not quite as heavy as an extra bold.
+Unlike in non-variable fonts, the `font-weight` values no longer have to be declared in units of 100. Rather than have body copy set in a regular weight, which would usually sit at 400, we can set it a little lighter, at 350. Similarly, whereas `strong` text would usually be set in a bold weight, most often with a value of 700, we’re setting it at 780: heavier than a bold, but not quite as heavy as an extra bold.

@@ -1,11 +1,11 @@
 
-“Softness” (SOFT in CSS)  is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). At the end of this axis, letterforms become more soft and rounded.
+“Softness” (`SOFT` in CSS)  is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). At the end of this axis, [letterforms](INSERT_URL) become more soft and rounded.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 Default: 0     Min: 0     Max: 100     Step: 0.01
 
-In the Fraunces typeface, the softness axis can turn the sharpness and high-contrast serifs into bubble-like forms, and at its softest, the typeface starts to resemble the style of typefaces such as Souvenir or Bookman.
+In the [Fraunces](INSERT_URL) [typeface](INSERT_URL), the softness axis can turn the sharpness and [high-contrast](INSERT_URL) [serifs](INSERT_URL) into bubble-like forms, and at its softest, the typeface starts to resemble the style of typefaces such as Souvenir or Bookman.
 
 <figure>
 

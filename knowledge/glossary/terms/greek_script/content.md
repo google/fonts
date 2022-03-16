@@ -1,5 +1,5 @@
 
-Greek script is the writing system used for the Greek language. It should not be confused with the erroneously used “Greek” placeholder text.
+Greek script is the writing system used for the Greek language. It should not be confused with the erroneously used “Greek” [placeholder text](INSERT_URL).
 
 <figure>
 
@@ -8,7 +8,6 @@ Greek script is the writing system used for the Greek language. It should not be
 
 </figure>
 
-The first typefaces for the Greek script appeared in the 15th century. The lowercase letters closely followed key scribal hands of the period, while the capitals retained their inscriptional roots. Over time Greek typefaces evolved to maintain elements of their cursive roots in the lowercase, while developing a wider range of typographically appropriate forms.
+The first [typefaces](INSERT_URL) for the Greek script appeared in the 15th century. The [lowercase](INSERT_URL) letters closely followed key scribal hands of the period, while the capitals retained their inscriptional roots. Over time Greek typefaces evolved to maintain elements of their cursive roots in the lowercase, while developing a wider range of typographically appropriate forms.
 
-The original Cyrillic script was based on uppercase Greek letterforms.
-
+The original [Cyrillic script](INSERT_URL) was based on uppercase Greek [letterforms](INSERT_URL).

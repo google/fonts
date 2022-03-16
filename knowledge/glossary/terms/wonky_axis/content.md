@@ -1,7 +1,7 @@
 
 “Wonky” (WONK in CSS)  is an axis found in some variable fonts, and, like the italic axis, is binary. It’s used to control the substitution of “wonky” forms.
 
-The Google Fonts CSS v2 API defines the axis as:
+The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 Default: 0     Min: 0     Max: 1     Step: 1
 

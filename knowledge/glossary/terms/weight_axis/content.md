@@ -1,7 +1,7 @@
 
 Weight (wght in CSS) is an axis found in many variable fonts. It controls the font file’s weight parameter. 
 
-The Google Fonts CSS v2 API defines the axis as:
+The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 Default: 400     Min: 1     Max: 1000     Step: 1
 

@@ -1,7 +1,7 @@
 
 Italic (ital in CSS) is an axis found in some variable fonts. It controls the font file’s italic parameter, with italics either turned “off” or “on”, rather than gradually changing over a range.
 
-The Google Fonts CSS v2 API defines the axis as:
+The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 Default: 0     Min: 0     Max: 1     Step: 0.1
 

@@ -1,7 +1,7 @@
 
 “Softness” (SOFT in CSS)  is an axis found in some variable fonts. At the end of this axis, letterforms become more soft and rounded.
 
-The Google Fonts CSS v2 API defines the axis as:
+The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 Default: 0     Min: 0     Max: 100     Step: 0.01
 

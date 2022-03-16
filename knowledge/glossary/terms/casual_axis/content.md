@@ -2,7 +2,7 @@
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-Default: 0     Min: 0     Max: 1     Step: 0.01
+| Default: 0 | Min: 0 | Max: 1 | Step: 0.01 |
 
 <figure>
 

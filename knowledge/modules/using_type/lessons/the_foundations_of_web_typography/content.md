@@ -1,10 +1,10 @@
 
-The internet is so entrenched in our everyday lives, it can be easy to forget that it’s a relatively young medium, and that reading text on screen is actually a pretty new behavior. However, although web typography brings its own conventions, it’s based on long established practices of printed typography—a practice that has been evolving over the last several hundred years.
+The internet is so entrenched in our everyday lives, it can be easy to forget that it’s a relatively young medium, and that reading [text](INSERT_URL) on screen is actually a pretty new behavior. However, although web [typography](INSERT_URL) brings its own conventions, it’s based on long established practices of printed typography—a practice that has been evolving over the last several hundred years.
 
 ## Reading and writing on the web
 
-There are two main reasons why web typography—and reading on-screen as a whole—differs from the world of printed media. 
-The first is that web pages are inherently fluid: Content will fill the viewport, whether it’s narrow or wide, and the vertical height of each web page is dictated by the content itself, whether short or long. This is in direct contrast to the world of printed media, where the constraints are fixed by the pages themselves, and content is forced to work within those fixed parameters. (In the early 00s, some web designers attempted to mirror this approach, with technologies like Flash, but returned to its naturally fluid roots with the arrival of smartphones that required responsive web design in 2010.)
+There are two main reasons why web typography—and reading on-screen as a whole—differs from the world of printed media.
+The first is that web pages are inherently fluid: Content will fill the viewport, whether it’s narrow or wide, and the vertical height of each web page is dictated by the content itself, whether short or long. This is in direct contrast to the world of printed media, where the constraints are fixed by the pages themselves, and content is forced to work within those fixed parameters. (In the early 00s, some web designers attempted to mirror this approach, with technologies like Flash, but returned to its naturally fluid roots with the arrival of smartphones that required [responsive web design](INSERT_URL) in 2010.)
 
 <figure>
 
@@ -13,9 +13,9 @@ The first is that web pages are inherently fluid: Content will fill the viewport
 
 </figure>
 
-The second reason is that text flow is unpredictable, especially when a template design is finished before the text content is even written. Whether it’s a journalist writing a story in a newspaper website’s CMS, or a user leaving a comment on social media, there’s a limited notion of what the content actually is before it’s rendered on the page. This is unlike printed media, where content is edited to fit the page exactly, perhaps even being edited at a word-by-word level to make for a more harmonious appearance.
+The second reason is that text flow is unpredictable, especially when a template design is finished before the text content is even written. Whether it’s a journalist writing a story in a newspaper website’s [CMS](INSERT_URL), or a user leaving a comment on social media, there’s a limited notion of what the content actually is before it’s rendered on the page. This is unlike printed media, where content is edited to fit the page exactly, perhaps even being edited at a word-by-word level to make for a more harmonious appearance.
 
-Different viewports, the often subtle differences between different devices and platforms, and the growth of user-generated content together represent the inherent flexibility of the web: a thoroughly modern challenge in terms of typography. But again, the way that we treat type on screen is based on the well-developed typographic practices honed over time, and the typographer’s goal remains the same: Make text readable and carry the text’s message.
+Different viewports, the often subtle differences between different devices and platforms, and the growth of user-generated content together represent the inherent flexibility of the web: a thoroughly modern challenge in terms of typography. But again, the way that we treat type on screen is based on the well-developed typographic practices honed over time, and the [typographer](INSERT_URL)’s goal remains the same: Make text readable and carry the text’s message.
 
 ## A brief overview of HTML elements and hierarchy
 
@@ -29,7 +29,7 @@ blockquote
 cite
 </pre>
 
-All of these elements wrap around blocks of text, but we also have elements that can wrap around individual words or parts of text, from the core functionality of the link anchor a to the invisible span; or those more typographic in nature, most often used for emphasis.
+All of these elements wrap around blocks of text, but we also have elements that can wrap around individual words or parts of text, from the core functionality of the link anchor `a` to the invisible `span`; or those more typographic in nature, most often used for emphasis:
 
 <pre>
 a
@@ -38,9 +38,9 @@ strong
 em
 </pre>
 
-strong and em, like the heading elements, allow us to give more meaning to the text by providing further hierarchy and context. Both offer ways of differentiating certain parts of the text. And—assuming that the majority of our copy is set in a regular weight—the occasional word or phrase in a bold weight or italic style suggests emphasis, and therefore aids the reader in understanding the meaning of the text.
+`strong` and `em`, like the heading elements, allow us to give more meaning to the text by providing further hierarchy and context. Both offer ways of differentiating certain parts of the text. And—assuming that the majority of our copy is set in a regular weight—the occasional word or phrase in a bold weight or italic style suggests emphasis, and therefore aids the reader in understanding the meaning of the text.
 
-See our article “Introducing weights & styles” for more information.
+See our article [“Introducing weights & styles”](INSERT_URL) for more information.
 
 <figure>
 
@@ -49,7 +49,7 @@ See our article “Introducing weights & styles” for more information.
 
 </figure>
 
-With text marked up structurally, it will become readable as typography with a visual hierarchy in the browser’s default styles (i.e., without any of our own CSS) and be accessible to screen readers for users who make use of assistive technology.
+With text marked up structurally, it will become readable with a visual hierarchy in the browser’s default styles (i.e., without any of our own CSS) and be accessible to screen readers for users who make use of assistive technology.
 For the sake of a basic demonstration, let’s assume we have a very simple HTML document that resembles the following:
 
 <pre>
@@ -68,7 +68,7 @@ For the sake of a basic demonstration, let’s assume we have a very simple HTML
 </html>
 </pre>
 
-Paying attention to everything within the body element for now, what we have is a level one heading, followed by a paragraph of text, followed by a level two heading, and finally another paragraph. There’s a bit of text wrapped in a strong element in the first paragraph, and an element wrapped in em in the second.
+Paying attention to everything within the `body` element for now, what we have is a level one heading, followed by a paragraph of text, followed by a level two heading, and finally another paragraph. There’s a bit of text wrapped in a `strong` element in the first paragraph, and an element wrapped in `em` in the second.
 
 <figure>
 
@@ -79,13 +79,14 @@ Paying attention to everything within the body element for now, what we have is 
 
 ## Web typography essentials with CSS
 
-CSS is the second language we use to add typographic style and layout to HTML. It’s a large language, but everyone can learn the basics quickly from some simple examples. We can add CSS directly into the head of our HTML document inside a style element, but generally it’s best practice to put all of our CSS in a separate file (or files) and link to it, so that the styles can be used across multiple pages by linking them all to the same CSS file. To do that, we add this reference to a CSS file called style.css inside the head element:
+CSS is the second language we use to add typographic style and layout to HTML. It’s a large language, but everyone can learn the basics quickly from some simple examples. We can add CSS directly into the `head` of our HTML document inside a `style` element, but generally it’s best practice to put all of our CSS in a separate file (or files) and link to it, so that the styles can be used across multiple pages by linking them all to the same CSS file. To do that, we add this reference to a CSS file called `style.css` inside the `head` element:
 
 <pre>
 <link href="style.css" rel="stylesheet">
 </pre>
 
-Now, working in that separate CSS file, it’s time to apply our own typography to our text. Sticking with system fonts rather than web fonts for now, we’ll improve its overall appearance. 
+Now, working in that separate CSS file, it’s time to apply our own typography to our text. Sticking with [system fonts](INSERT_URL) rather than [web fonts](INSERT_URL) for now, we’ll improve its overall appearance.
+
 First, let’s increase the contrast in size between our headings and paragraph text:
 body {
     font-size: 16px;
@@ -105,9 +106,12 @@ body {
 </pre>
 
 (There are many units we can use for sizing type, but points and percentages work well for the purpose of this demonstration.)
-If we look at the website on a phone or tablet, the text should look pretty good, but on a laptop or desktop screen, the measure—the length of each line of text—is far too wide, and it’s harder for our eyes to move from one line to the next. 
-[NEW ILLO]
-Let’s counter this by adding a max-width value to the body element so that it doesn’t grow any wider than 20em:
+
+If we look at the website on a phone or tablet, the text should look pretty good, but on a laptop or desktop screen, the [measure](INSERT_URL)—the length of each line of text—is far too wide, and it’s harder for our eyes to move from one line to the next.
+
+[NEW ILLO DESCRIBING THE BEFORE]
+
+Let’s counter this by adding a `max-width` value to the body element so that it doesn’t grow any wider than 20em:
 
 <pre>
 body {
@@ -115,7 +119,7 @@ body {
 }
 </pre>
 
-We declare the width in a relative unit called ems, which is preferable to pixels because it enhances the inherent fluidity of the web medium. For an introduction to ems, see INSERT_LINK. For more—a lot more—on CSS as a whole, see “Learn CSS” on web.dev
+We declare the width in a relative unit called ems, which is preferable to pixels because it enhances the inherent fluidity of the web medium. For an introduction to ems, see **INSERT_LINK**. For more—a lot more—on CSS as a whole, see [“Learn CSS” on web.dev](INSERT_URL)
 
 <figure>
 
@@ -126,9 +130,9 @@ We declare the width in a relative unit called ems, which is preferable to pixel
 
 ## Using web fonts on websites
 
-We’ve made a few subtle adjustments to improve the way our text looks; now, let’s add a little personality to it by changing the typeface used on the page. 
+We’ve made a few subtle adjustments to improve the way our text looks; now, let’s add a little personality to it by changing the [typeface](INSERT_URL) used on the page.
 
-We’re going to go to Google Fonts, view the typeface DM Sans, and select the Regular, Regular Italic, Bold, and Bold Italic weights.
+We’re going to go to Google Fonts, view the typeface [DM Sans](INSERT_URL), and select the Regular, Regular Italic, Bold, and Bold Italic weights.
 
 <figure>
 
@@ -142,7 +146,8 @@ Then we’ll copy the CSS that appears in the drawer on the right and paste that
 <pre>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </pre>
-(You can read more about the specifics of this code on Google Fonts’ CSS API update and learn about best practices for fonts on web.dev.)
+
+(You can read more about the specifics of this code on [Google Fonts’ CSS API update](INSERT_URL) and learn about [best practices for fonts](INSERT_URL) on web.dev.)
 
 Now the fonts are connected to our website, we can reference them in our CSS, like so:
 
@@ -152,9 +157,9 @@ body {
 }
 </pre>
 
-This tells the browser to render all of the page’s text using the DM Sans font files served from Google Fonts, or fall back to the system’s default sans serif typeface if the font files don’t load.
+This tells the browser to render all of the page’s text using the DM Sans font files served from Google Fonts, or fall back to the system’s default [sans serif](INSERT_URL) typeface if the font files don’t load.
 
-The browser’s default styles will render headings in bold fonts (i.e. with a font-weight of 700), but to demonstrate how we can alter that, let’s tweak our CSS so that the h1 element actually uses the Regular (400) weight:
+The browser’s default styles will render headings in bold fonts (i.e. with a `font-weight` of 700), but to demonstrate how we can alter that, let’s tweak our CSS so that the `h1` element actually uses the Regular (400) weight:
 
 <pre>
 h1 {
@@ -162,7 +167,7 @@ h1 {
 }
 </pre>
 
-Note that the Bold (700) weight font will be used for the h2 element and any text in the paragraph that’s marked up with strong. The Regular (400) weight Italic font will be used for any text in the paragraph that’s marked up with em.
+Note that the Bold (700) weight font will be used for the `h2` element and any text in the paragraph that’s marked up with `strong`. The Regular (400) weight Italic font will be used for any text in the paragraph that’s marked up with `em`.
 
 <figure>
 
@@ -171,23 +176,22 @@ Note that the Bold (700) weight font will be used for the h2 element and any tex
 
 </figure>
 
-Note: It’s usually worth getting the Bold (700) Italic font file to avoid any scenarios where type styles might be incorrectly synthesized by the browser, such as when an editor might want text to be bold and italic (perhaps by adding an em around a word inside an h2 element). 
+Note: It’s usually worth getting the Bold (700) Italic font file to avoid any scenarios where type styles might be incorrectly synthesized by the browser, such as when an editor might want text to be bold and italic (perhaps by adding an em around a word inside an h2 element).
 
 ## Self-hosting web fonts
 
-If you’d prefer to host the web fonts you use on your own server, every font in the Google Fonts library is available to download. Self-hosting is also an option if fonts simply aren’t available on Google Fonts or your font delivery service of choice. We’ve prepared a quick guide on “Self-hosting web fonts”.
+If you’d prefer to host the web fonts you use on your own server, every font in the Google Fonts library is available to download. Self-hosting is also an option if fonts simply aren’t available on Google Fonts or your font delivery service of choice. We’ve prepared a quick guide on [“Self-hosting web fonts”](INSERT_URL).
 
 ## Optimizing the performance of web fonts
 
 It’s worth remembering that web fonts, just like all website assets, are resources that the browser downloads to a user’s computer, tablet, or phone when fetching a website; therefore, just as page loading times are affected by the file size of images used on a website, they're also affected by the size of the font files.
 
-At the simplest level, this is a valid argument for using only a small number of typefaces in our designs, but also it means limiting the number of weights and styles used within those type families to save on file size. This is a core advantage of variable fonts: If we’re using multiple weights and styles, all of them are contained in only one or two files—and that file is almost always considerably smaller than downloading many individual font files.
+At the simplest level, this is a valid argument for using only a small number of typefaces in our designs, but also it means limiting the number of weights and styles used within those type families to save on file size. This is a core advantage of [variable fonts](INSERT_URL): If we’re using multiple weights and styles, all of them are contained in only one or two files—and that file is almost always considerably smaller than downloading many individual font files.
 
-There’s more that we can do to optimize our web fonts, however. We can avoid a flash of invisible text—when a web page loads without the type appearing at all, before rendering to the intended typeface—and any undesirable re-rendering by combining <link rel="preload"> with font-display: optional. You can read more about this technique on the web.dev articles “Prevent layout shifting and flashes of invisible text (FOIT) by preloading optional fonts” and “Optimize WebFont loading and rendering”. 
+There’s more that we can do to optimize our web fonts, however. We can avoid a [flash of invisible text](INSERT_URL)—when a web page loads without the type appearing at all, before rendering to the intended typeface—and any undesirable re-rendering by combining `<link rel="preload">` with `font-display: optional`. You can read more about this technique on the web.dev articles [“Prevent layout shifting and flashes of invisible text (FOIT) by preloading optional fonts”](INSERT_URL) and [“Optimize WebFont loading and rendering”](INSERT_URL).
 
 ### Further reading
-https://fonts.google.com/knowledge/using_type/using_web_fonts 
+https://fonts.google.com/knowledge/using_type/using_web_fonts
 https://fonts.google.com/knowledge/using_type/using_web_fonts_from_a_font_delivery_service
 https://fonts.google.com/knowledge/using_type/styling_type_on_the_web_with_variable_fonts
-https://fonts.google.com/knowledge/topics/web_fonts 
-
+https://fonts.google.com/knowledge/topics/web_fonts

@@ -33,22 +33,22 @@ The emotional response to the shape of [letterforms](INSERT_URL) is a very perso
 <figure>
 
 ![1ALT_TEXT](images/a_checklist_for_choosing_type_1.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
 Readers needn’t know anything about type to have an emotive response to it. It’s fair to say that most people have a subliminal awareness of historical and cultural trends in design, of which type has played a part. This means we can use some of these conventions to our advantage—as long as we’re aware of how those associations might differ around the globe and change from audience to audience.
+
 Note that although it can be useful to consider emotive considerations as a way of making an initial selection, be sure to follow the rest of this checklist for the more practical ones.
+
 Comic Sans is perfect for setting children’s activity timetables that are displayed in a school playground. It’s perhaps not as appropriate for announcing scientific breakthroughs.
 
 <figure>
 
 ![2ALT_TEXT](images/a_checklist_for_choosing_type_2.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
-Read more in our article “Emotive considerations for choosing typefaces”
+Read more in our article [“Emotive considerations for choosing typefaces”](INSERT_URL)
 
 ### 1b. Its design fits the intended use.
 
@@ -57,7 +57,7 @@ An elaborate [script](INSERT_URL) typeface, full of flourishes and personality, 
 <figure>
 
 ![3ALT_TEXT](images/a_checklist_for_choosing_type_3.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>[Creepster](https://fonts.google.com/specimen/Creepster).</figure>
 
 </figure>
 
@@ -76,7 +76,7 @@ While a small [glyph](INSERT_URL) set might be fine for a logo, it’ll soon fal
 <figure>
 
 ![4ALT_TEXT](images/a_checklist_for_choosing_type_4.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>The glyphs with diacritics are missing from the font and are instead rendered in a fallback font—one that’s very different in style and proportion from the intended typeface.</figcaption>
 
 </figure>
 
@@ -89,7 +89,6 @@ When selecting a typeface—especially a [sans serif](INSERT_URL)—it’s usefu
 <figure>
 
 ![5ALT_TEXT](images/a_checklist_for_choosing_type_5.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -100,7 +99,7 @@ It’s entirely possible for a typeface to be suitable for a project—especiall
 <figure>
 
 ![6ALT_TEXT](images/a_checklist_for_choosing_type_6.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>[Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro).</figure>
 
 </figure>
 
@@ -117,9 +116,6 @@ There’s so much typographic power to unlock via OpenType if the features exist
 <figure>
 
 ![7ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
-
-</figure>
 
 Read more in our articles [“Introducing alternate glyphs”](INSERT_URL) and [“Implementing OpenType features on the web”](INSERT_URL)
 
@@ -131,7 +127,7 @@ However, having multiple weights—if not multiple styles—allows far greater f
 <figure>
 
 ![8ALT_TEXT](images/a_checklist_for_choosing_type_8.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>[Lato](https://fonts.google.com/specimen/Lato) and [Epilogue](https://fonts.google.com/specimen/Epilogue).</figcaption>
 
 </figure>
 
@@ -145,7 +141,7 @@ Like weights, different widths share the typeface’s skeletal structure, meanin
 <figure>
 
 ![9ALT_TEXT](images/a_checklist_for_choosing_type_9.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>Different widths of [Encode Sans](https://fonts.google.com/specimen/Encode+Sans)</figcaption>
 
 </figure>
 
@@ -160,7 +156,7 @@ If a project requires the use of just one typeface, it can be useful to employ d
 <figure>
 
 ![10ALT_TEXT](images/a_checklist_for_choosing_type_10.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>Manipulating the `opsz` variable axis in Amstelvar.</figcaption>
 
 </figure>
 
@@ -180,7 +176,6 @@ There are a number of reasons this could be the case, such as a “lite” or no
 <figure>
 
 ![11ALT_TEXT](images/a_checklist_for_choosing_type_11.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -193,7 +188,6 @@ While rare, it’s possible to have a font that checks all of our boxes, but lac
 <figure>
 
 ![12ALT_TEXT](images/a_checklist_for_choosing_type_12.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -209,7 +203,7 @@ The single biggest challenge we face when pairing type is choosing a secondary t
 <figure>
 
 ![13ALT_TEXT](images/a_checklist_for_choosing_type_13.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>Marcellus and Meddon. Although the x-height doesn’t match, note how the lavish ascenders and descenders makes up for it, and the stroke weight appears approximately the same.</figcaption>
 
 </figure>
 
@@ -228,7 +222,6 @@ Because price can vary depending on the fonts we choose and their end uses, affo
 <figure>
 
 ![14ALT_TEXT](images/a_checklist_for_choosing_type_14.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 

@@ -4,7 +4,6 @@ When talking about [type](INSERT_URL), it’s useful to have some familiarity wi
 <figure>
 
 ![A type specimen with horizontal lines in the background, illustrating the font’s vertical metrics: ascender, cap height, x-height, baseline, descender.](images/an_overview_of_latin_type_anatomy_1.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -13,7 +12,6 @@ We often discuss vertical proportions (or vertical metrics) when talking about o
 <figure>
 
 ![A type specimen with parts of the letterforms accentuated to highlight examples of uppercase and lowercase forms, a diacritic, a serif, a ligature, and a small cap.](images/an_overview_of_latin_type_anatomy_2.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -22,7 +20,6 @@ The Latin script has two cases, which means that each letter has an [uppercase a
 <figure>
 
 ![A type specimen with parts of the letterforms accentuated to highlight examples of the counter, diagonal stroke, hairline, ink trap, terminal, and stem.](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 

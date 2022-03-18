@@ -6,7 +6,6 @@ Each written language uses its own set of [characters](INSERT_URL). And if our U
 <figure>
 
 ![1ALT_TEXT](images/language_support_in_fonts_1.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -15,7 +14,6 @@ Word length can vary greatly across languages, even those that use the same [gly
 <figure>
 
 ![2ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -27,7 +25,6 @@ Some writing systems, such as Arabic and Hebrew, are displayed with characters a
 <figure>
 
 ![3ALT_TEXT](images/language_support_in_fonts_3.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -42,7 +39,6 @@ Many writing systems require more vertical space than English, so our UI should 
 <figure>
 
 ![4ALT_TEXT](images/language_support_in_fonts_4.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -56,7 +52,7 @@ More than one typeface may need to be used in the same UI to display multilingua
 <figure>
 
 ![5ALT_TEXT](images/language_support_in_fonts_5.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>Above: Type set left-to-right and top-to-bottom. Below: Type set vertically, top-to-bottom and right-to-left.</figcaption>
 
 </figure>
 
@@ -80,7 +76,6 @@ Noto Chinese, Japanese, and Korean (CJK) typefaces each have seven weights that 
 <figure>
 
 ![6ALT_TEXT](images/language_support_in_fonts_6.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -89,7 +84,6 @@ In CJK scripts, line height is slightly larger than Latin-based characters.
 <figure>
 
 ![7ALT_TEXT](images/language_support_in_fonts_7.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -100,7 +94,6 @@ Noto supports tall scripts used in South and Southeast Asian and Middle Eastern 
 <figure>
 
 ![8ALT_TEXT](images/language_support_in_fonts_8.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -109,7 +102,6 @@ In Thai and Devanagari, the tall script line height is slightly larger than Lati
 <figure>
 
 ![9ALT_TEXT](images/language_support_in_fonts_9.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 

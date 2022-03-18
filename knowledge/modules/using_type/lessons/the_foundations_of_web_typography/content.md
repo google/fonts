@@ -9,7 +9,7 @@ The first is that web pages are inherently fluid: Content will fill the viewport
 <figure>
 
 ![1ALT_TEXT](images/the_foundations_of_web_typography_1.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>The content naturally fills the width of the browser, and the height of the web page is dictated by the length of the content it contains.</figcaption>
 
 </figure>
 
@@ -45,7 +45,6 @@ See our article [“Introducing weights & styles”](INSERT_URL) for more inform
 <figure>
 
 ![2ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -73,7 +72,6 @@ Paying attention to everything within the `body` element for now, what we have i
 <figure>
 
 ![3ALT_TEXT](images/the_foundations_of_web_typography_3.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -119,12 +117,12 @@ body {
 }
 </pre>
 
-We declare the width in a relative unit called ems, which is preferable to pixels because it enhances the inherent fluidity of the web medium. For an introduction to ems, see **INSERT_LINK**. For more—a lot more—on CSS as a whole, see [“Learn CSS” on web.dev](INSERT_URL)
+We declare the width in a relative unit called ems, which is preferable to pixels because it enhances the inherent fluidity of the web medium. For an introduction to ems, see [Sizing Units](https://web.dev/learn/css/sizing/#relative-lengths) on web.dev. For more—a lot more—on CSS as a whole, see web.dev’s [“Learn CSS.”](https://web.dev/learn/css/)
 
 <figure>
 
 ![4ALT_TEXT](images/the_foundations_of_web_typography_4.svg)
-<figcaption>CAPTION</figcaption>
+<figcaption>The content now stops becoming too wide on bigger viewports.</figcaption>
 
 </figure>
 
@@ -137,7 +135,6 @@ We’re going to go to Google Fonts, view the typeface [DM Sans](INSERT_URL), an
 <figure>
 
 ![5ALT_TEXT](images/the_foundations_of_web_typography_5.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 
@@ -172,7 +169,6 @@ Note that the Bold (700) weight font will be used for the `h2` element and any t
 <figure>
 
 ![6ALT_TEXT](images/the_foundations_of_web_typography_6.svg)
-<figcaption>CAPTION</figcaption>
 
 </figure>
 

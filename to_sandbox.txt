@@ -6,7 +6,7 @@ ofl/bizudpmincho
 ofl/ingriddarling
 ofl/lavishlyyours
 ofl/radiocanada
-ofl/robotoflex
+# ofl/robotoflex  # disabled because flex can be quite slow, will handle separately
 ofl/sendflowers
 ofl/vazirmatn
 
@@ -18,7 +18,7 @@ ofl/zenkakugothicantique
 ofl/zenkakugothicnew
 
 # Metadata/desc/OFL
-ofl/opensans
+# ofl/opensans # disabled because changing license is exciting
 axisregistry/y_transparent_uppercase.textproto
 
 # Designer profile

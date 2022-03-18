@@ -21,7 +21,7 @@ The Latin script has two cases, which means that each letter has an [uppercase a
 
 <figure>
 
-![A type specimen with parts of the letterforms accentuated to highlight examples of the counter, diagonal stroke, hairline, ink trap, terminal, and stem.](images/an_overview_of_latin_type_anatomy_3.svg)
+![A type specimen with parts of the letterforms accentuated to highlight examples of the counter, diagonal stroke, hairline, ink trap, terminal, and stem.](images/thumbnail.svg)
 <figcaption>CAPTION</figcaption>
 
 </figure>

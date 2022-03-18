@@ -14,7 +14,7 @@ Word length can vary greatly across languages, even those that use the same [gly
 
 <figure>
 
-![2ALT_TEXT](images/language_support_in_fonts_2.svg)
+![2ALT_TEXT](images/thumbnail.svg)
 <figcaption>CAPTION</figcaption>
 
 </figure>

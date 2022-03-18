@@ -116,7 +116,7 @@ There’s so much typographic power to unlock via OpenType if the features exist
 
 <figure>
 
-![7ALT_TEXT](images/a_checklist_for_choosing_type_7.svg)
+![7ALT_TEXT](images/thumbnail.svg)
 <figcaption>CAPTION</figcaption>
 
 </figure>

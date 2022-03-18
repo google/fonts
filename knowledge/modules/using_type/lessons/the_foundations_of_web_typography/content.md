@@ -44,7 +44,7 @@ See our article [“Introducing weights & styles”](INSERT_URL) for more inform
 
 <figure>
 
-![2ALT_TEXT](images/the_foundations_of_web_typography_2.svg)
+![2ALT_TEXT](images/thumbnail.svg)
 <figcaption>CAPTION</figcaption>
 
 </figure>

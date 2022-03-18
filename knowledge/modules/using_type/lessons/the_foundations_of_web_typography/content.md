@@ -8,7 +8,7 @@ The first is that web pages are inherently fluid: Content will fill the viewport
 
 <figure>
 
-![1ALT_TEXT](images/the_foundations_of_web_typography_1.svg)
+![An approximation of four viewports, each of a different width and height.](images/the_foundations_of_web_typography_1.svg)
 <figcaption>The content naturally fills the width of the browser, and the height of the web page is dictated by the length of the content it contains.</figcaption>
 
 </figure>
@@ -44,7 +44,7 @@ See our article [“Introducing weights & styles”](INSERT_URL) for more inform
 
 <figure>
 
-![2ALT_TEXT](images/thumbnail.svg)
+![A sample of HTML, using lorem ipsum text, rendered to look like a code editor.](images/thumbnail.svg)
 
 </figure>
 
@@ -71,7 +71,7 @@ Paying attention to everything within the `body` element for now, what we have i
 
 <figure>
 
-![3ALT_TEXT](images/the_foundations_of_web_typography_3.svg)
+![An approximation of a mobile viewport and a desktop viewport, both showing the same content. The content takes up a different amount of space on each device and the text wraps differently on each, too.](images/the_foundations_of_web_typography_3.svg)
 
 </figure>
 
@@ -107,7 +107,7 @@ body {
 
 If we look at the website on a phone or tablet, the text should look pretty good, but on a laptop or desktop screen, the [measure](INSERT_URL)—the length of each line of text—is far too wide, and it’s harder for our eyes to move from one line to the next.
 
-[NEW ILLO DESCRIBING THE BEFORE]
+**[NEW ILLO DESCRIBING THE BEFORE]**
 
 Let’s counter this by adding a `max-width` value to the body element so that it doesn’t grow any wider than 20em:
 
@@ -121,7 +121,7 @@ We declare the width in a relative unit called ems, which is preferable to pixel
 
 <figure>
 
-![4ALT_TEXT](images/the_foundations_of_web_typography_4.svg)
+![An approximation of a desktop viewport, with the content’s width capped to stop line length from becoming too wide.](images/the_foundations_of_web_typography_4.svg)
 <figcaption>The content now stops becoming too wide on bigger viewports.</figcaption>
 
 </figure>
@@ -134,7 +134,7 @@ We’re going to go to Google Fonts, view the typeface [DM Sans](INSERT_URL), an
 
 <figure>
 
-![5ALT_TEXT](images/the_foundations_of_web_typography_5.svg)
+![An approximation of the Google Fonts user interface.](images/the_foundations_of_web_typography_5.svg)
 
 </figure>
 
@@ -168,7 +168,7 @@ Note that the Bold (700) weight font will be used for the `h2` element and any t
 
 <figure>
 
-![6ALT_TEXT](images/the_foundations_of_web_typography_6.svg)
+![An approximation of a mobile viewport and a desktop viewport, both showing the same content. The content takes up a different amount of space on each device and the text wraps differently on each, too. Unlike the earlier illustration, the content is now rendered in a web font and with the stylistic changes set in the CSS example.](images/the_foundations_of_web_typography_6.svg)
 
 </figure>
 

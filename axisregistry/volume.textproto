@@ -12,6 +12,7 @@ fallback {
   name: "Loud"
   value: 100.0
 }
+fallback_only: false
 description:
   "Transforms serifs from glyphic to wedge shapes,"
   " and adds a little more edge to other details."

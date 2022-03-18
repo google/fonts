@@ -19,5 +19,15 @@ ofl/zenkakugothicnew
 
 # Metadata/desc/OFL
 # ofl/opensans # disabled because changing license is exciting
+axisregistry/flair.textproto
+axisregistry/volume.textproto
+axisregistry/x_opaque.textproto
+axisregistry/x_transparent_figures.textproto
+axisregistry/x_transparent.textproto
+axisregistry/y_opaque.textproto
+axisregistry/y_transparent_ascender.textproto
+axisregistry/y_transparent_descender.textproto
+axisregistry/y_transparent_figures.textproto
+axisregistry/y_transparent_lowercase.textproto
 axisregistry/y_transparent_uppercase.textproto
 

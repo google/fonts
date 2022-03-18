@@ -32,7 +32,7 @@ The emotional response to the shape of [letterforms](INSERT_URL) is a very perso
 
 <figure>
 
-![1ALT_TEXT](images/a_checklist_for_choosing_type_1.svg)
+![A montage of different typefaces embodying different characteristics.](images/a_checklist_for_choosing_type_1.svg)
 
 </figure>
 
@@ -44,7 +44,7 @@ Comic Sans is perfect for setting children’s activity timetables that are disp
 
 <figure>
 
-![2ALT_TEXT](images/a_checklist_for_choosing_type_2.svg)
+![A press release for a scientific announcement, typeset in Comic Sans.](images/a_checklist_for_choosing_type_2.svg)
 
 </figure>
 
@@ -56,7 +56,7 @@ An elaborate [script](INSERT_URL) typeface, full of flourishes and personality, 
 
 <figure>
 
-![3ALT_TEXT](images/a_checklist_for_choosing_type_3.svg)
+![“The Thing” set very large in a horror-style typeface, then the same typeface used for a paragraph body copy, in which it appears hard to read.](images/a_checklist_for_choosing_type_3.svg)
 <figcaption>[Creepster](https://fonts.google.com/specimen/Creepster).</figure>
 
 </figure>
@@ -75,7 +75,7 @@ While a small [glyph](INSERT_URL) set might be fine for a logo, it’ll soon fal
 
 <figure>
 
-![4ALT_TEXT](images/a_checklist_for_choosing_type_4.svg)
+![“Schöne Grüße aus Kärnten” set in a handwritten-style typeface. The glyphs with diacritics are missing from the font and are instead rendered in a fallback font—one that’s very different in style and proportion from the intended typeface.](images/a_checklist_for_choosing_type_4.svg)
 <figcaption>The glyphs with diacritics are missing from the font and are instead rendered in a fallback font—one that’s very different in style and proportion from the intended typeface.</figcaption>
 
 </figure>
@@ -88,7 +88,7 @@ When selecting a typeface—especially a [sans serif](INSERT_URL)—it’s usefu
 
 <figure>
 
-![5ALT_TEXT](images/a_checklist_for_choosing_type_5.svg)
+![Various examples of glyphs that appear to be homoglyphs in one typeface, then rendered again in another typeface that intentionally varies their design: Hyphens and minus symbols in one example; “Il1” characters in another. Also shown: An English-language sentence using the “H” character and a Greek-language sentence using the identical-but-semantically-different “Η” character.](images/a_checklist_for_choosing_type_5.svg)
 
 </figure>
 
@@ -98,7 +98,7 @@ It’s entirely possible for a typeface to be suitable for a project—especiall
 
 <figure>
 
-![6ALT_TEXT](images/a_checklist_for_choosing_type_6.svg)
+![[A montage of Regular, Italic, Bold, and Bold Italic  weights and styles.](images/a_checklist_for_choosing_type_6.svg)
 <figcaption>[Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro).</figure>
 
 </figure>
@@ -115,7 +115,7 @@ There’s so much typographic power to unlock via OpenType if the features exist
 
 <figure>
 
-![7ALT_TEXT](images/thumbnail.svg)
+![A montage of OpenType features: The four different flavors of numerals, stylistic sets, fractions, and contextual alternates.](images/thumbnail.svg)
 
 Read more in our articles [“Introducing alternate glyphs”](INSERT_URL) and [“Implementing OpenType features on the web”](INSERT_URL)
 
@@ -126,7 +126,7 @@ However, having multiple weights—if not multiple styles—allows far greater f
 
 <figure>
 
-![8ALT_TEXT](images/a_checklist_for_choosing_type_8.svg)
+![On the left, a heading and paragraph using Bold and Regular weights, respectively. On the right, larger text set in two more extreme weight differences.](images/a_checklist_for_choosing_type_8.svg)
 <figcaption>[Lato](https://fonts.google.com/specimen/Lato) and [Epilogue](https://fonts.google.com/specimen/Epilogue).</figcaption>
 
 </figure>
@@ -140,7 +140,7 @@ Like weights, different widths share the typeface’s skeletal structure, meanin
 
 <figure>
 
-![9ALT_TEXT](images/a_checklist_for_choosing_type_9.svg)
+![Three different widths of the same typeface used for three different elements.](images/a_checklist_for_choosing_type_9.svg)
 <figcaption>Different widths of [Encode Sans](https://fonts.google.com/specimen/Encode+Sans)</figcaption>
 
 </figure>
@@ -155,7 +155,7 @@ If a project requires the use of just one typeface, it can be useful to employ d
 
 <figure>
 
-![10ALT_TEXT](images/a_checklist_for_choosing_type_10.svg)
+![On the left, text set in four different optical sizes at the intended font sizes for each. On the right, a close-up of each optical size, set at the same font size to emphasize the difference between each.](images/a_checklist_for_choosing_type_10.svg)
 <figcaption>Manipulating the `opsz` variable axis in Amstelvar.</figcaption>
 
 </figure>
@@ -175,7 +175,7 @@ There are a number of reasons this could be the case, such as a “lite” or no
 
 <figure>
 
-![11ALT_TEXT](images/a_checklist_for_choosing_type_11.svg)
+![An abstract depiction of font files being subset.](images/a_checklist_for_choosing_type_11.svg)
 
 </figure>
 
@@ -187,7 +187,7 @@ While rare, it’s possible to have a font that checks all of our boxes, but lac
 
 <figure>
 
-![12ALT_TEXT](images/a_checklist_for_choosing_type_12.svg)
+![The word “readable” with poor spacing, showing some characters too close and others too far away form each other.](images/a_checklist_for_choosing_type_12.svg)
 
 </figure>
 
@@ -202,7 +202,7 @@ The single biggest challenge we face when pairing type is choosing a secondary t
 
 <figure>
 
-![13ALT_TEXT](images/a_checklist_for_choosing_type_13.svg)
+![“If only there was a way we could emphasize it” set in a modern, semi-flared sans serif typeface, except for the word “emphasize”, set in a calligraphic face.](images/a_checklist_for_choosing_type_13.svg)
 <figcaption>Marcellus and Meddon. Although the x-height doesn’t match, note how the lavish ascenders and descenders makes up for it, and the stroke weight appears approximately the same.</figcaption>
 
 </figure>
@@ -221,7 +221,7 @@ Because price can vary depending on the fonts we choose and their end uses, affo
 
 <figure>
 
-![14ALT_TEXT](images/a_checklist_for_choosing_type_14.svg)
+![An abstract representation of licensing, showing a cycle with the foundry or font distributor on one side, and the user on one side, with money and fonts moving between them. Inside, a licensing document.](images/a_checklist_for_choosing_type_14.svg)
 
 </figure>
 

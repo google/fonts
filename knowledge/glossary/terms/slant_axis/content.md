@@ -3,12 +3,11 @@ Slant (`slnt` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in so
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-Default: 0     Min: -90     Max: 90     Step: 1
+| Default: 0 | Min: -90 | Max: 90 | Step: 1 |
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Two side-by-side type specimens of the word phrase “lean-to”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the right to represent a higher value on the axis, shows upright forms. The second specimen, with the slider more to the left to represent a low-to-mid value on the axis, shows more slanted forms.](images/thumbnail.svg)
 
 </figure>
 

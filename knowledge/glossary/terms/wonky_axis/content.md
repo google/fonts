@@ -3,14 +3,13 @@
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-Default: 0     Min: 0     Max: 1     Step: 1
+| Default: 0 | Min: 0 | Max: 1 | Step: 1 |
 
 In the [Fraunces](INSERT_URL) [typeface](INSERT_URL), setting wonky to “on” (1) introduces the quirkier leaning of the lowercase n/m/h upright characters, or the bulbous flags of the lowercase b/d/h/k/l italic characters. In static fonts, wonky is also available as an [OpenType stylistic set](INSERT_URL).
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Two side-by-side type specimens of the two-word phrase “song key”, each shown with a variable axis represented beneath as an on/off switch. The first specimen, with the switch to the left, uses the default forms. The second specimen, with the switch to the right, modified the “s”, “n”, and “k” to use a more unusual, off-kilter design.](images/thumbnail.svg)
 
 </figure>
 

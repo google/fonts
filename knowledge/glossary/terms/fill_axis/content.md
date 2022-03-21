@@ -2,14 +2,13 @@
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-Default: 0     Min: 0     Max: 1     Step: 0.01
+| Default: 0 | Min: 0 | Max: 1 | Step: 0.01 |
 
 This is currently implemented in Google’s Material icons:
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Two side-by-side icon specimens, each shown with a variable axis represented beneath as an on/off switch. The first specimen, with the switch to the left, shows the icon shapes outlined. The second specimen, with the switch to the right, shows the icon shapes filled with solid color.](images/thumbnail.svg)
 
 </figure>
 

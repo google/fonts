@@ -3,12 +3,11 @@ Optical size (controlled with `font-optical-sizing` or `font-variation-setting: 
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-Default: 14     Min: 6     Max: 144     Step: 0.1
+| Default: 14 | Min: 6 | Max: 144 | Step: 0.1 |
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Two side-by-side type specimens of the word “glaze”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a small (or body-like) optical size. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, shows a large (or display-like) optical size, with a shorter x-height and greater stroke contrast.](images/thumbnail.svg)
 
 </figure>
 

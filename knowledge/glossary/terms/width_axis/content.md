@@ -3,12 +3,11 @@ Width (`wdth` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in so
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-Default: 100     Min: 25     Max: 200     Step: 0.1
+| Default: 100 | Min: 25 | Max: 200 | Step: 0.1 |
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Two side-by-side type specimens of the word “spacious”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a very condensed version, taking up very little horziontal space. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, is very wide.](images/thumbnail.svg)
 
 </figure>
 

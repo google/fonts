@@ -3,12 +3,11 @@ Weight (`wght` in CSS) is an axis found in many variable fonts. It controls the 
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-Default: 400     Min: 1     Max: 1000     Step: 1
+| Default: 400 | Min: 1 | Max: 1000 | Step: 1 |
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Two side-by-side type specimens of the word “thicken”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a light weight with thin strokes. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, shows a heavy weight with thick strokes.](images/thumbnail.svg)
 
 </figure>
 

@@ -2,12 +2,11 @@
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-Default: 0.5     Min: 0     Max: 1     Step: 0.1
+| Default: 0.5 | Min: 0 | Max: 1 | Step: 0.1 |
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Two side-by-side type specimens of the characters “gwayvz”, each shown with a variable axis represented beneath as an on/off switch. The second specimen, with the switch to the right, uses different forms: A single-storey “g” and “a”, and curvier lines for “w”, “y”, “v”, and “z”.](images/thumbnail.svg)
 
 </figure>
 

@@ -6,8 +6,7 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Two side-by-side type specimens of the word “suited”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows straighter letterforms. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, exhibits curvier shapes.](images/thumbnail.svg)
 
 </figure>
 

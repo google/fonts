@@ -5,8 +5,7 @@ The purpose of these overshoots is to create the optical illusion that all lette
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![The characters “A”, “v”, and “o”, set alongside horizontal lines to indicate cap height, x-height, and baseline, with the overshoots accentuated.](images/thumbnail.svg)
 
 </figure>
 

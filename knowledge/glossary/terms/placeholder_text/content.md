@@ -3,8 +3,7 @@
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Two columns of placeholder text: The first uses actual lorem ipsum, and the second uses solid blocks to represent the illusion of type.](images/thumbnail.svg)
 
 </figure>
 

@@ -3,8 +3,7 @@ A script is a collective way of describing a writing system used by multiple lan
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![A montage of multiple scripts from around the world.](images/thumbnail.svg)
 
 </figure>
 

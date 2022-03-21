@@ -3,8 +3,7 @@ Hierarchy refers to the overall structure of a document and the relationship bet
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![An article-like layout, with each element wrapped in a bounding box, from the level-one heading that serves as a heading for the entire content, to the level-two heading that relates to the second paragraph, to the pullquote off to one side.](images/thumbnail.svg)
 
 </figure>
 

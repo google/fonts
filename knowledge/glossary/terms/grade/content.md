@@ -7,8 +7,7 @@ For screen reading, reversed (white on black or other light colors on dark backg
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![The words “Graduation Ceremony” set in the same typeface, but with two different grade settings applied to the fonts, revealed via a sliding doors-like visual representation. Highlights accentuate where details in the letterforms differ between the two versions.](images/thumbnail.svg)
 
 </figure>
 

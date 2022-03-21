@@ -5,8 +5,7 @@ An uppercase I, lowercase l, and numeral 1 can appear near-identical in some typ
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Various examples of glyphs that appear to be homoglyphs in one typeface, then rendered again in another typeface that intentionally varies their design: Hyphens and minus symbols in one example; “Il1” characters in another. Also shown: An English-language sentence using the “H” character and a Greek-language sentence using the identical-but-semantically-different “Η” character.](images/thumbnail.svg)
 
 </figure>
 

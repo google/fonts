@@ -3,8 +3,7 @@ Superscript is [text](INSERT_URL) formatted to appear smaller than the surroundi
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![Montage: A paragraph with a superscript reference to a footnote, a heading with a superscript trademark, and a chemical formula with subscript atomic numbers.](images/thumbnail.svg)
 
 </figure>
 
@@ -12,8 +11,7 @@ Superscript and subscript can be easily applied to text with controls in most us
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![An approximation of the superscript/subscript options often found in applications’ user interfaces.](images/superscript_subscript_2.svg)
 
 </figure>
 

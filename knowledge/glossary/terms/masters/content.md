@@ -5,8 +5,7 @@ Although it’s type designers who are most used to working with masters in font
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![An abstract representation of masters and instances: Two “a” characters rendered in light and heavy weights represent the masters at the top, with multiple “a” characters rendered beneath, indicating the full range of weights created as instances.](images/thumbnail.svg)
 
 </figure>
 

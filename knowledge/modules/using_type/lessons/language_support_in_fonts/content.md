@@ -5,7 +5,7 @@ Each written language uses its own set of [characters](INSERT_URL). And if our U
 
 <figure>
 
-![A collage of different scripts.](images/language_support_in_fonts_1.svg)
+![A montage of multiple scripts from around the world.](images/language_support_in_fonts_1.svg)
 
 </figure>
 

@@ -3,8 +3,7 @@ Greek script is the writing system used for the Greek language. It should not be
 
 <figure>
 
-![ALT_TEXT](images/thumbnail.svg)
-<figcaption>CAPTION</figcaption>
+![A Greek text specimen set in four different typefaces. The text reads “Μια νέα και συναρπαστική λήψη της παραδοσιακής κουζίνας στο κέντρο της πόλης”, which in English translates as, “A new and exciting take on traditional cuisine in the city center.” ](images/thumbnail.svg)
 
 </figure>
 

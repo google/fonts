@@ -1,5 +1,5 @@
 
-Weight (`wght` in CSS) is an axis found in many variable fonts. It controls the [font](INSERT_URL) file’s [weight](INSERT_URL) parameter.
+Weight (`wght` in CSS) is an axis found in many variable fonts. It controls the [font](/glossary/font) file’s [weight](/glossary/weight) parameter.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
@@ -11,7 +11,7 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-Weight is the overall thickness of a [typeface](INSERT_URL)’s [strokes](INSERT_URL) in any given font. The most common weights are [regular](INSERT_URL) and [bold](INSERT_URL), but weights can cover extremes from the very light to the very heavy. With the weight axis in variable fonts, the number of instances or weights is effectively unlimited.
+Weight is the overall thickness of a [typeface](/glossary/typeface)’s [strokes](/glossary/stroke) in any given font. The most common weights are [regular](/glossary/regular_upright) and [bold](/glossary/bold), but weights can cover extremes from the very light to the very heavy. With the weight axis in variable fonts, the number of instances or weights is effectively unlimited.
 
 In CSS, we can assign a variable weight property to an element of our choosing:
 

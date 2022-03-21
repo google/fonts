@@ -1,5 +1,5 @@
 
-Width (`wdth` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). It controls the [font](INSERT_URL) file’s [width](INSERT_URL) parameter.
+Width (`wdth` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [width](/glossary/width) parameter.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
@@ -11,7 +11,7 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-Width is the result of how much horizontal space is taken up by a [typeface](INSERT_URL)’s [characters](INSERT_URL). A [condensed](INSERT_URL) face takes up considerably less space than a [wide](INSERT_URL) one.
+Width is the result of how much horizontal space is taken up by a [typeface](/glossary/typeface)’s [characters](/glossary/character). A [condensed](/glossary/condensed_narrow_compressed) face takes up considerably less space than a [wide](/glossary/wide_extended) one.
 
 In CSS, we can assign a variable width to an element of our choosing using the `font-stretch` property. (Despite the name, note that the type is never literally “stretched” by browsers. This property name was chosen to make the concept more accessible to a general audience.)
 

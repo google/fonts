@@ -1,5 +1,5 @@
 
-Superscript is [text](INSERT_URL) formatted to appear smaller than the surrounding text and is usually aligned slightly above the top of the regular [type](INSERT_URL); subscript is similar, but aligned slightly below the baseline. In English, superscript is commonly used to add references (for footnotes), copyright or trademark symbols, and in equations for scientific and mathematical texts. Subscript is mainly reserved for chemical compounds.
+Superscript is [text](/glossary/text) formatted to appear smaller than the surrounding text and is usually aligned slightly above the top of the regular [type](/glossary/type); subscript is similar, but aligned slightly below the baseline. In English, superscript is commonly used to add references (for footnotes), copyright or trademark symbols, and in equations for scientific and mathematical texts. Subscript is mainly reserved for chemical compounds.
 
 <figure>
 
@@ -15,4 +15,4 @@ Superscript and subscript can be easily applied to text with controls in most us
 
 </figure>
 
-Although it’s possible for software to synthesize the smaller sizes, it’s best to use the correct superscript and subscript [glyphs](INSERT_URL) in a [font](INSERT_URL) file, if they exist—much like [avoiding faux small caps](INSERT_URL).
+Although it’s possible for software to synthesize the smaller sizes, it’s best to use the correct superscript and subscript [glyphs](/glossary/glyph) in a [font](/glossary/font) file, if they exist—much like [avoiding faux small caps](/lesson/choosing_type/choosing_reliable_typefaces).

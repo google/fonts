@@ -1,7 +1,7 @@
 
-Each written language uses its own set of [characters](INSERT_URL). And if our UI uses multiple languages, then our [typography](INSERT_URL) should vary depending on the language.
+Each written language uses its own set of [characters](/glossary/character). And if our UI uses multiple languages, then our [typography](/glossary/typography) should vary depending on the language.
 
-[Scripts, or writing systems](INSERT_URL), are groups that contain characters used by one or more languages. For instance, although English, French, German, Norwegian, and Portuguese are distinct languages—with their own alphabets, conventions, and [diacritic](INSERT_URL) usage—they all use the [Latin script](INSERT_URL). Other writing systems include Greek (upon which Latin is based), Cyrillic, Arabic, Korean, Thai, the various scripts of Africa, the closely related Devanagari and Bengali, and the Han characters in use in various Asian languages, including Chinese and also Japanese.
+[Scripts, or writing systems](/glossary/script_writing_system), are groups that contain characters used by one or more languages. For instance, although English, French, German, Norwegian, and Portuguese are distinct languages—with their own alphabets, conventions, and [diacritic](/glossary/diacritic_accent_marks) usage—they all use the [Latin script](/glossary/latin). Other writing systems include Greek (upon which Latin is based), Cyrillic, Arabic, Korean, Thai, the various scripts of Africa, the closely related Devanagari and Bengali, and the Han characters in use in various Asian languages, including Chinese and also Japanese.
 
 <figure>
 
@@ -9,7 +9,7 @@ Each written language uses its own set of [characters](INSERT_URL). And if our U
 
 </figure>
 
-Word length can vary greatly across languages, even those that use the same [glyphs](INSERT_URL), such as English and German.
+Word length can vary greatly across languages, even those that use the same [glyphs](/glossary/glyph), such as English and German.
 
 <figure>
 
@@ -28,9 +28,9 @@ Some writing systems, such as Arabic and Hebrew, are displayed with characters a
 
 </figure>
 
-UIs for languages that are read from right-to-left (RTL), such as Arabic and Hebrew, should be mirrored to ensure content is easy to understand. For more information, please read [Bidirectionality on Material Design](INSERT_URL).
+UIs for languages that are read from right-to-left (RTL), such as Arabic and Hebrew, should be mirrored to ensure content is easy to understand. For more information, please read [Bidirectionality on Material Design](https://material.io/design/usability/bidirectionality.html#mirroring-elements).
 
-Many writing systems might require different [line-height](INSERT_URL) and spacing adjustments. Line length, line spacing, and character spacing can vary within a script that is used for many languages.
+Many writing systems might require different [line-height](/glossary/line_height_leading) and spacing adjustments. Line length, line spacing, and character spacing can vary within a script that is used for many languages.
 
 ## Height
 
@@ -45,6 +45,7 @@ Many writing systems require more vertical space than English, so our UI should 
 ## Vertical typesetting
 
 Vertical typesetting, though less commonly used, can display characters vertically instead of horizontally.
+
 The typography of China, Japan, and Korea is typically monospaced, which means each letter occupies the same amount of space. It is often set left-to-right, top-to-bottom. It can also be set vertically: top-to-bottom and right-to-left.
 
 More than one typeface may need to be used in the same UI to display multilingual content when each language uses a different writing system.
@@ -56,13 +57,13 @@ More than one typeface may need to be used in the same UI to display multilingua
 
 </figure>
 
-For ease of internationalization, Google has categorized languages into three categories: | English-like |, tall, and dense.
+For ease of internationalization, Google has categorized languages into three categories: Latin or Latin-like, tall, and dense.
 
-**| English-like | typefaces:** The languages of Western, Central, and Eastern Europe and many parts of Africa are typically written in the Latin script. Vietnamese is a notable exception in that, while it uses a localized form of the Latin writing system, its accented glyphs can be much taller than those found in Western European languages. The Greek and Cyrillic writing systems are very similar to Latin in their vertical proportions.
+**Latin or Latin-like typefaces:** The languages of Western, Central, and Eastern Europe and many parts of Africa are typically written in the Latin script. Vietnamese is a notable exception in that, while it uses a localized form of the Latin writing system, its accented glyphs can be much taller than those found in Western European languages. The Greek and Cyrillic writing systems are very similar to Latin in their vertical proportions.
 
 **Tall typefaces:** These are the scripts that require extra line height to accommodate larger glyphs, including South and Southeast Asian and Middle-Eastern languages, like Arabic, Hindi, Telugu, Thai, and Vietnamese.
 
-**Dense typefaces:** These are the scripts that require extra line height to accommodate larger glyphs, including Chinese, Japanese, and Korean.
+**Dense typefaces:** These scripts, like the “Tall typefaces,” also require extra line height to accommodate larger glyphs, but additionally take into account the density of characters in languages such as Chinese, Japanese, and Korean.
 
 ## Noto
 
@@ -109,80 +110,80 @@ In Thai and Devanagari, the tall script line height is slightly larger than Lati
 
 |Code | Description | Category |
 | --- | --- | --- |
-| af | Afrikaans | English-like |
-| am | Amharic | English-like |
+| af | Afrikaans | Latin or Latin-like |
+| am | Amharic | Latin or Latin-like |
 | ar | Arabic (Modern Standard) | Tall |
-| az | Azerbaijani | English-like |
-| bg | Bulgarian | English-like |
+| az | Azerbaijani | Latin or Latin-like |
+| bg | Bulgarian | Latin or Latin-like |
 | bn | Bengali | Tall |
-| ca | Catalan | English-like |
-| cs | Czech | English-like |
-| cy | Welsh| English-like |
-| da | Danish | English-like |
-| de | German | English-like |
-| el | Greek | English-like |
-| en | English (US) | English-like |
-| en-GB | English (UK) | English-like |
-| es | Spanish (European) | English-like |
-| es-419 | Spanish (Latin American) | English-like |
-| et | Estonian | English-like |
-| eu | Basque | English-like |
+| ca | Catalan | Latin or Latin-like |
+| cs | Czech | Latin or Latin-like |
+| cy | Welsh| Latin or Latin-like |
+| da | Danish | Latin or Latin-like |
+| de | German | Latin or Latin-like |
+| el | Greek | Latin or Latin-like |
+| en | English (US) | Latin or Latin-like |
+| en-GB | English (UK) | Latin or Latin-like |
+| es | Spanish (European) | Latin or Latin-like |
+| es-419 | Spanish (Latin American) | Latin or Latin-like |
+| et | Estonian | Latin or Latin-like |
+| eu | Basque | Latin or Latin-like |
 | fa | Persian | Tall |
-| fi | Finnish | English-like |
-| fil | Filipino | English-like |
-| fr | French (European) | English-like |
-| fr-CA | French (Canadian) | English-like |
-| gl | Galician | English-like |
+| fi | Finnish | Latin or Latin-like |
+| fil | Filipino | Latin or Latin-like |
+| fr | French (European) | Latin or Latin-like |
+| fr-CA | French (Canadian) | Latin or Latin-like |
+| gl | Galician | Latin or Latin-like |
 | gu | Gujarati | Tall |
 | hi | Hindi | Tall |
-| hr | Croatian | English-like |
-| hu | Hungarian | English-like |
-| hy | Armenian | English-like |
-| id | Indonesian | English-like |
-| is | Icelandic | English-like |
-| it | Italian | English-like |
-| iw | Hebrew | English-like |
+| hr | Croatian | Latin or Latin-like |
+| hu | Hungarian | Latin or Latin-like |
+| hy | Armenian | Latin or Latin-like |
+| id | Indonesian | Latin or Latin-like |
+| is | Icelandic | Latin or Latin-like |
+| it | Italian | Latin or Latin-like |
+| iw | Hebrew | Latin or Latin-like |
 | ja | Japanese | Dense
-| ka | Georgian | English-like |
-| kk | Kazakh | English-like |
+| ka | Georgian | Latin or Latin-like |
+| kk | Kazakh | Latin or Latin-like |
 | km | Khmer | Tall |
 | kn | Kannada | Tall |
 | ko | Korean | Dense
-| ky | Kirghiz | English-like |
-| lo | Lao | English-like |
-| lt | Lithuanian | English-like |
-| lv | Latvian | English-like |
-| mk | Macedonian | English-like |
+| ky | Kirghiz | Latin or Latin-like |
+| lo | Lao | Latin or Latin-like |
+| lt | Lithuanian | Latin or Latin-like |
+| lv | Latvian | Latin or Latin-like |
+| mk | Macedonian | Latin or Latin-like |
 | ml | Malayalam | Tall |
-| mn | Mongolian | English-like |
+| mn | Mongolian | Latin or Latin-like |
 | mr | Marathi | Tall |
-| ms | Malay | English-like |
+| ms | Malay | Latin or Latin-like |
 | my | Burmese (Myanmar) | Tall |
 | ne | Nepali | Tall |
-| nl | Dutch | English-like |
-| no | Norwegian (Bokmål) | English-like |
+| nl | Dutch | Latin or Latin-like |
+| no | Norwegian (Bokmål) | Latin or Latin-like |
 | pa | Punjabi | Tall |
-| pl | Polish | English-like |
-| pt | Portuguese (Brazilian) | English-like |
-| pt-PT | Portuguese (European) | English-like |
-| ro | Romanian | English-like |
-| ru | Russian | English-like |
+| pl | Polish | Latin or Latin-like |
+| pt | Portuguese (Brazilian) | Latin or Latin-like |
+| pt-PT | Portuguese (European) | Latin or Latin-like |
+| ro | Romanian | Latin or Latin-like |
+| ru | Russian | Latin or Latin-like |
 | si | Sinhala | Tall |
-| sk | Slovak | English-like |
-| sl | Slovenian | English-like |
-| sq | Albanian | English-like |
-| sr | Serbian (Cyrillic) | English-like |
-| sr-Latn | Serbian (Latin) | English-like |
-| sv | Swedish | English-like |
-| sw | Swahili | English-like |
+| sk | Slovak | Latin or Latin-like |
+| sl | Slovenian | Latin or Latin-like |
+| sq | Albanian | Latin or Latin-like |
+| sr | Serbian (Cyrillic) | Latin or Latin-like |
+| sr-Latn | Serbian (Latin) | Latin or Latin-like |
+| sv | Swedish | Latin or Latin-like |
+| sw | Swahili | Latin or Latin-like |
 | ta | Tamil | Tall |
 | te | Telugu | Tall |
 | th | Thai | Tall |
-| tr | Turkish | English-like |
-| uk | Ukrainian | English-like |
+| tr | Turkish | Latin or Latin-like |
+| uk | Ukrainian | Latin or Latin-like |
 | ur | Urdu | Tall |
-| uz | Uzbek | English-like |
+| uz | Uzbek | Latin or Latin-like |
 | vi | Vietnamese | Tall |
 | zh-Hans | Chinese (Simplified) | Dense
 | zh-Hant | Chinese (Traditional) | Dense |
-| zu | Zulu | English-like |
+| zu | Zulu | Latin or Latin-like |

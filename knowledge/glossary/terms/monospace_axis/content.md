@@ -1,5 +1,5 @@
 
-“Monospace” (`MONO` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts), which adjusts the [glyphs](INSERT_URL) from a proportional width to a fixed [width](INSERT_URL). In [monospaced typefaces](INSERT_URL), or variable fonts set to a monospaced style, all glyphs take up the same amount of horizontal space.
+“Monospace” (`MONO` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts), which adjusts the [glyphs](/glossary/glyph) from a proportional width to a fixed [width](/glossary/width). In [monospaced typefaces](/glossary/monospaced), or variable fonts set to a monospaced style, all glyphs take up the same amount of horizontal space.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

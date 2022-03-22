@@ -1,9 +1,9 @@
 
-Originally conceived for printed newspapers to calibrate output from different presses, or different paper stocks, grade is an attempt to keep type appearing consistent across different media, or in certain contexts. Think of a newspaper (matte paper; more ink bleed) that also has a magazine-style weekend supplement (glossy paper; less ink bleed). This is a perfect use case for using different grades to achieve identical typographic [color](INSERT_URL) for the [body](INSERT_URL) [text](INSERT_URL) in both instances.
+Originally conceived for printed newspapers to calibrate output from different presses, or different paper stocks, grade is an attempt to keep type appearing consistent across different media, or in certain contexts. Think of a newspaper (matte paper; more ink bleed) that also has a magazine-style weekend supplement (glossy paper; less ink bleed). This is a perfect use case for using different grades to achieve identical typographic [color](/glossary/color) for the [body](/glossary/body) [text](/glossary/text) in both instances.
 
-Unlike [weight](INSERT_URL), which usually has an effect on [width](INSERT_URL) as well, grade alters only the thickness of the [letterforms](INSERT_URL)’ [strokes](INSERT_URL) without changing the width of the [glyph](INSERT_URL). Although grade can alter [contrast](INSERT_URL), it differs from [optical sizing](INSERT_URL) because its purpose is to compensate for differences in appearance and bring it back towards the intended design.
+Unlike [weight](/glossary/weight), which usually has an effect on [width](/glossary/width) as well, grade alters only the thickness of the [letterforms](/glossary/letterform)’ [strokes](/glossary/stroke) without changing the width of the [glyph](/glossary/glyph). Although grade can alter [contrast](/glossary/contrast), it differs from [optical sizing](/glossary/optical_sizes) because its purpose is to compensate for differences in appearance and bring it back towards the intended design.
 
-For screen reading, reversed (white on black or other light colors on dark background) type [appears bolder than normal dark text](INSERT_URL) on a light background. With printed text, the opposite is true (although the amount depends on the quality of the paper, as noted). In either case, a slight adjustment via grade can maintain the same visual effect.
+For screen reading, reversed (white on black or other light colors on dark background) type [appears bolder than normal dark text](/lesson/exploring_typefaces_with_multiple_weights_or_grades) on a light background. With printed text, the opposite is true (although the amount depends on the quality of the paper, as noted). In either case, a slight adjustment via grade can maintain the same visual effect.
 
 <figure>
 
@@ -11,4 +11,4 @@ For screen reading, reversed (white on black or other light colors on dark backg
 
 </figure>
 
-In [variable fonts](INSERT_URL), the [grade axis](INSERT_URL) allows for a level of granular control to create the optimal reading experience.
+In [variable fonts](/glossary/variable_fonts), the [grade axis](/glossary/grade_axis) allows for a level of granular control to create the optimal reading experience.

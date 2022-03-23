@@ -21,22 +21,18 @@ Different viewports, the often subtle differences between different devices and 
 
 HTML—the first language of web pages—gives us a number of elements to use when marking up content. Focussing on text specifically, we have the containing body element, as well as (six levels of) headings, paragraphs, blockquotes, and citations.
 
-<pre>
-body
-h1 – h6
-p
-blockquote
-cite
-</pre>
+* `body`
+* `h1` – `h6`
+* `p`
+* `blockquote`
+* `cite`
 
 All of these elements wrap around blocks of text, but we also have elements that can wrap around individual words or parts of text, from the core functionality of the link anchor `a` to the invisible `span`; or those more typographic in nature, most often used for emphasis:
 
-<pre>
-a
-span
-strong
-em
-</pre>
+* `a`
+* `span`
+* `strong`
+* `em`
 
 `strong` and `em`, like the heading elements, allow us to give more meaning to the text by providing further hierarchy and context. Both offer ways of differentiating certain parts of the text. And—assuming that the majority of our copy is set in a regular weight—the occasional word or phrase in a bold weight or italic style suggests emphasis, and therefore aids the reader in understanding the meaning of the text.
 
@@ -52,7 +48,7 @@ With text marked up structurally, it will become readable with a visual hierarch
 
 For the sake of a basic demonstration, let’s assume we have a very simple HTML document that resembles the following:
 
-<pre>
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -66,7 +62,7 @@ For the sake of a basic demonstration, let’s assume we have a very simple HTML
 <p>Proin vitae urna vitae leo finibus dictum vitae sit amet sem. Maecenas varius accumsan mauris, eu <em>sollicitudin neque</em>. Ut euismod dolor maximus facilisis consequat.</p>
   </body>
 </html>
-</pre>
+```
 
 Paying attention to everything within the `body` element for now, what we have is a level one heading, followed by a paragraph of text, followed by a level two heading, and finally another paragraph. There’s a bit of text wrapped in a `strong` element in the first paragraph, and an element wrapped in `em` in the second.
 
@@ -80,9 +76,9 @@ Paying attention to everything within the `body` element for now, what we have i
 
 CSS is the second language we use to add typographic style and layout to HTML. It’s a large language, but everyone can learn the basics quickly from some simple examples. We can add CSS directly into the `head` of our HTML document inside a `style` element, but generally it’s best practice to put all of our CSS in a separate file (or files) and link to it, so that the styles can be used across multiple pages by linking them all to the same CSS file. To do that, we add this reference to a CSS file called `style.css` inside the `head` element:
 
-<pre>
+```html
 <link href="style.css" rel="stylesheet">
-</pre>
+```
 
 Now, working in that separate CSS file, it’s time to apply our own typography to our text. Sticking with [system fonts](/glossary/system_font_web_safe_font) rather than [web fonts](/glossary/web_font) for now, we’ll improve its overall appearance.
 
@@ -98,11 +94,11 @@ h1 {
 }
 Now let’s make everything a bit more readable by opening up the line-height a bit:
 
-<pre>
+```css
 body {
     line-height: 125%;
 }
-</pre>
+```
 
 (There are many units we can use for sizing type, but points and percentages work well for the purpose of this demonstration.)
 
@@ -112,11 +108,11 @@ If we look at the website on a phone or tablet, the text should look pretty good
 
 Let’s counter this by adding a `max-width` value to the body element so that it doesn’t grow any wider than 20em:
 
-<pre>
+```css
 body {
     max-width: 20em;
 }
-</pre>
+```
 
 We declare the width in a relative unit called ems, which is preferable to pixels because it enhances the inherent fluidity of the web medium. For an introduction to ems, see [Sizing Units](https://web.dev/learn/css/sizing/#relative-lengths) on web.dev. For more—a lot more—on CSS as a whole, see web.dev’s [“Learn CSS.”](https://web.dev/learn/css/)
 
@@ -141,29 +137,29 @@ We’re going to go to Google Fonts, view the typeface [DM Sans](https://fonts.g
 
 Then we’ll copy the CSS that appears in the drawer on the right and paste that into the head of our HTML:
 
-<pre>
+```html
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-</pre>
+```
 
 (You can read more about the specifics of this code on [Google Fonts’ CSS API update](https://developers.google.com/fonts/docs/css2) and learn about [best practices for fonts](https://web.dev/font-best-practices) on web.dev.)
 
 Now the fonts are connected to our website, we can reference them in our CSS, like so:
 
-<pre>
+```css
 body {
     font-family: 'DM Sans', sans-serif;
 }
-</pre>
+```
 
 This tells the browser to render all of the page’s text using the DM Sans font files served from Google Fonts, or fall back to the system’s default [sans serif](/glossary/sans_serif) typeface if the font files don’t load.
 
 The browser’s default styles will render headings in bold fonts (i.e. with a `font-weight` of 700), but to demonstrate how we can alter that, let’s tweak our CSS so that the `h1` element actually uses the Regular (400) weight:
 
-<pre>
+```css
 h1 {
     font-weight: 400;
 }
-</pre>
+```
 
 Note that the Bold (700) weight font will be used for the `h2` element and any text in the paragraph that’s marked up with `strong`. The Regular (400) weight Italic font will be used for any text in the paragraph that’s marked up with `em`.
 

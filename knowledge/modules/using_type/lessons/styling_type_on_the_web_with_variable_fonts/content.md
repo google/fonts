@@ -14,15 +14,13 @@ https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap
 
 Now let’s consider other axes we can work with. The ones currently referenced in the CSS spec (i.e., widely supported in modern browsers) are [italic](/glossary/italic), [optical size](/glossary/optical_sizes), [slant](/glossary/oblique), [weight](/glossary/weight), and [width](/glossary/width). (When using the Google Fonts API, be sure to list them alphabetically.) They’re mapped to CSS proper like so:
 
-```
-Axis & Abbreviation:     CSS attribute:
-
-Italic (ital)            font-style
-Optical size (opsz)      font-optical-sizing
-Slant (slnt)             font-style
-Weight (wght)            font-weight
-Width (wdth)             font-stretch
-```
+| Axis & Abbreviation: | CSS attribute: |
+| --- | --- |
+| Italic (ital) | font-style |
+| Optical size (opsz) | font-optical-sizing |
+| Slant (slnt) | font-style |
+| Weight (wght) | font-weight |
+| Width (wdth) | font-stretch |
 
 As you can see, the registered axes correlate to standard CSS properties that we’re used to. But we’re in no way restricted to using these registered axes. As we’ve discussed before, the [type designer](/glossary/type_designer) can choose to make any aspect of a [typeface](/glossary/typeface) design variable, and these custom axes can be referenced using the new CSS property `font-variation-settings` (see “Working with custom axes” below). This property is also useful in certain scenarios for the registered axes.
 

@@ -1,0 +1,25 @@
+id: "krl_Latn"
+language: "krl"
+script: "Latn"
+name: "Karelian"
+autonym: "Karjala"
+population: 116212
+region: "RU"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Č Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö č š ž"
+  marks: "◌̈ ◌̌"
+}
+sample_text {
+  masthead_full: "KkAa"
+  masthead_partial: "Ii"
+  styles: "Huomivoh ottajen, ku kaikile ristikanzoin"
+  tester: "huomivoh ottajen, ku ristikanzan oigevuksien halveksindu da väheksindy"
+  poster_sm: "sanou julgi"
+  poster_md: "Kai rahvas"
+  poster_lg: "Kai"
+  specimen_48: "Jogahizel ristikanzal pidäy olla kai täs Deklaratsies julgi sanotut"
+  specimen_36: "Nikedä ei sua pidiä orjannu libo vallanalazennu; orjien piendy da\nmyöndy ollah kielletty kaikis muodolois."
+  specimen_32: "Jogahizel ristikanzal, olgah häi hos kus, ollah oigevukset da juriidizet\nvellallizuot, häi voibi käyttiä nenii oigevuksii da täyttiä juriidizii\nvellallizuksii."
+  specimen_21: "Kai rahvas ollah taza-arvozet zakonan ies da jogahizel on oigevus,\neroloi huolimata, taza-arvozeh oigevuksen puolistamizeh. Kaikil\nrahvahil on samanlaine oigevus samanarvozeh puolistamizeh mittumastahto tädä Deklaratsiedu rikkojas diskriminatsies da kuduastahto\ntämänmoizeh diskriminatsieh kuhkutandas.\nJogahizel ristikanzal on oigevus kanzallizien toimivaldusuudoloin\neffektiivizeh oigevuksien järilleh suandah, ku konstitutsieh libo zakonah\nkirjutetut perusoigevukset olla rikottu."
+  specimen_16: "Nikedä ei sua arestuija, ottua kiini libo ajua iäres omavaldazesti.\nJogahizel ristikanzal hänen oigevuksien da vellallizuksien miärittelemizekse\nda hänele azetetun pahanruadosyyttehen perustallizuon\nselvilesuandakse on oigevus tävvellizen tazaverdazuon\nperustehel sih, ku hänen dieluo kaččos julgi da kaikkii zakonanmugazuon\nvuadimuksii täyttäjes rippumatoi da tazapuoline suudo.\nNiken ei voi jouduo alazekse, ku hänen persounallizeh da perehelaigah\nsegavuttas, omavaldazesti opittas kuovata hänen eländysija,\nkyzymätä lugiettas hänen korrespondentsiedu libo yritettäs alendua\nhänen kunnivuo da rikkuo mainehtu. Jogahizel ristikanzal oli\noigevus suaha puolistustu zakonan mugah moizes segavumizes\nlibo sen yrityksis."
+}

@@ -1,0 +1,25 @@
+id: "min_Latn"
+language: "min"
+script: "Latn"
+name: "Minangkabau"
+autonym: "Baso Minangkabau"
+population: 8010780
+region: "ID"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W Y Z a b c d e f g h i j k l m n o p q r s t u v w y z"
+  auxiliary: "X x"
+}
+sample_text {
+  masthead_full: "SsAa"
+  masthead_partial: "Dd"
+  styles: "Sasungguahnyo pangakuan taradok martabat"
+  tester: "Sasungguahnyo sikap tak paduli dan malecehkan hak-hak asasi manusia"
+  poster_sm: "Sasungguahnyo"
+  poster_md: "Deklarasi"
+  poster_lg: "Sadonyo"
+  specimen_48: "Sadonyo manusia dilahiakan mardeka dan punyo martabat sarato"
+  specimen_36: "Indak surang pun buliah dianiayo atau dizalimi, atau dihukum sacaro kajam, tidak bakamanusiaan atau dihino."
+  specimen_32: "Tiok urang punyo hak untuak baistirahat dan liburan, tamasuak pambatasan nan layak taradok jam karajo, dan tatap dapek upah di hari perai atau katiko cuti."
+  specimen_21: "Tiok urang punyo hak mandapek katartiban sosial dan katartiban internasional untuak mawujudkan saluruah hak-hak dan kabebasan sasuai jo Deklarasi ko.\nIndak ciek pun pasal dari Deklarasi ko buliah ditafsirkan sabagai manyatujui adonyo hak suatu negara, kalompok atau sasaurang, untuak malakukan kagiatan apopun, atau malakukan sasuatu nan batujuan marusak hak-hak dan kabebasan-kabebasan nan diuraikan dalam Deklarasi ko."
+  specimen_16: "Sasungguahnyo pangakuan taradok martabat dasar dan hak-hak nan samo sarato mutlak dari tiok anggota kaluarga manusia adolah landasan dari kamardekaan, kaadilan dan pardamaian di dunia;\nSasungguahnyo sikap tak paduli dan malecehkan hak-hak asasi manusia tabukti mangakibatkan parilaku biadab nan sangat malukoi nurani umat manusia, dan alah dicanangkannyo suatu dunia di ma tiok urang dapek manikmati kabebasan manyampaikan pandapek, bakayakinan, dan kabebasan dari raso takuik dan dari kakurangan, sabagai cito-cito paliang tinggi dari sadonyo urang;\nSasungguahnyo supayo urang indak tapaso mamiliah barontak sabagai usaho pangabisan untuak manantang kazaliman dan panindasan, Hak-hak Asasi Manusia paralu dijamin malalui tartib hukum;"
+}

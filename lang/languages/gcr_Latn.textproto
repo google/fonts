@@ -1,0 +1,20 @@
+id: "gcr_Latn"
+language: "gcr"
+script: "Latn"
+name: "Guianese Creole French"
+population: 51872
+region: "GF"
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Uu"
+  styles: "Tout moun fèt libr é égal annan dignité é"
+  tester: "Tout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon"
+  poster_sm: "Tout moun fèt"
+  poster_md: "Tout moun"
+  poster_lg: "Tout"
+  specimen_48: "Tout moun fèt libr é égal annan dignité é en droi. Yé"
+  specimen_36: "Tout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité."
+  specimen_32: "Tout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité."
+  specimen_21: "Tout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité.\nTout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité.\nTout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité."
+  specimen_16: "Tout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité.\nTout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité.\nTout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité.\nTout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité.\nTout moun fèt libr é égal annan dignité é en droi. Yé dwé di rézon é di konsyians, é divet aji roun pou rôt annan oun lespri di fraternité."
+}

@@ -1,0 +1,23 @@
+id: "njo_Latn"
+language: "njo"
+script: "Latn"
+name: "Ao Naga"
+population: 305000
+region: "IN"
+exemplar_chars {
+  base: "A B C E I J K L M N O P R S T U Y Z a b c e i j k l m n o p r s t u y z"
+}
+sample_text {
+  masthead_full: "MmEe"
+  masthead_partial: "Ii"
+  styles: "Kechiaseralima rangben nung nung nisung ka"
+  tester: "Kechiaser mezüng meshitepba, aitsütepba, mashimalu mapa inyakba,"
+  poster_sm: "Kechiaserkodang"
+  poster_md: "Kechiaser"
+  poster_lg: "Meimchir"
+  specimen_48: "Kechiaser United Nations Temzüng nung meimchir temeten aser nüjiba"
+  specimen_36: "Nisung shinga alar mekümdaktsütsü mesüra alar tia nung mayutsü, yamala mapa ajak nungi nisung ajak kümzüka alitsü."
+  specimen_32: "Tim masüba maparen atema kari nisung ka temeten anema mesüra tejak ajia tim masüba mapa inyakra, ozüng meteter tsüngdang pei temeten rateta ashitsü melaa lir."
+  specimen_21: "Kija taküm, kibong mesüra kinunger kisüng atema, mesüra nisung pei kija atema kari tenüng menükdaktsütsü makok.Nisung ajak yamala mapa tamajung anema kümzüktsü iba ozüng dak tashi lir.\nTamangba yimsü atema nisung shia pei pei amangnüba yimsü dak amangtsü, mesüra melenshia amangtsü akok, ibai lokti nung mesüra kija taküm nung pei jurila temeten kübok amangtsü aser külemtsü akok."
+  specimen_16: "Nisung shia kechi jembinür tenokdangba kecha makai jembitsü akok. Idaki tebilemba mejangjungtepi lemsateptsü, osangtem agizüktsü aser agütsütsü tashi alitsü.\nNisung shia pei state nung rongsenketsüng, loktiliba aser sobaliba kümzüka alitsü atema pei litsü nung aser pei litsü atena or aliba lokti ajak nung kija nüjiso tentet ajak den kasa temeten alitsü.\nNisung shia pei tenzükba mapa nungi anizüngsük agitsü, mesüra mapa nungi sodi mapang telemtet kaa agitsü akok, saka aahzüka aliba nungi itasen agütsütsüla.\nIba telemtetba Sangdong nung kechi tashi aser temeten melaa ali, iba kübok sadoka alitsü nisung ajak kasa temeten kar."
+}

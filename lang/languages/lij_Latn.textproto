@@ -1,0 +1,25 @@
+id: "lij_Latn"
+language: "lij"
+script: "Latn"
+name: "Ligurian"
+autonym: "Ligure"
+population: 536663
+region: "IT"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ä Æ È É Ê Ë Ì Í Î Ï Ò Ó Ô Ö Ù Ú a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Ee"
+  styles: "Conscideròu che o riconoscimento da pròpia"
+  tester: "Conscideròu che a negaçion e o desprexo di driti de personn-e"
+  poster_sm: "Conscideròu"
+  poster_md: "a proclamma"
+  poster_lg: "Tutte"
+  specimen_48: "Tutte e personn-e nascian libere e pæge in dignitæ e driti. Son"
+  specimen_36: "Nisciun o saiâ sotomisso a scciavitù ni a servitù; a scciavitù e a træta de scciavi son proibie in tutte e forme."
+  specimen_32: "Ògni personn-a a gh’à drito a ’n ordine sociale e internaçionale into quæ i driti e e libertæ proclamæ inte questa Diciaraçion vegnan conpletamente efetivi."
+  specimen_21: "Ninte inte questa diciaraçion o poriâ ese interpretòu comme inplicante do drito, pe quæ se segge Stato, gruppo ò personn-a, a ezercitâ de ativitæ ò a portâ avanti di atti pe-a distruçion di driti ò de libertæ inte lê proclamæ.\nConscideròu che o riconoscimento da pròpia dignitæ e di driti pægi e inalienabili de tutti i menbri da famiggia umann-a o l’é o fondamento da libertæ, da giustiçia e da paxe into mondo,"
+  specimen_16: "Conscideròu che o riconoscimento da pròpia dignitæ e di driti pægi e inalienabili de tutti i menbri da famiggia umann-a o l’é o fondamento da libertæ, da giustiçia e da paxe into mondo,\nConscideròu che a negaçion e o desprexo di driti de personn-e an acaxonòu di atti de barbaritæ che an ofeizo a coscensa de l’umanitæ; e che l’é stæto proclamòu comme ciù erta aspiraçion de l’òmmo l’arivo de ’n mondo into quæ tutti, liberæ da-a poia e da-a mizeia, gödian da libertæ de paròlla e de creddo,\nConscideròu che l’é esensiale che i driti de personn-e segian protezui da de lezze giuridiche perché l’òmmo o no s’atreuve costreito, in urtima istansa, a-a rebelion contra a tirania e l’òprescion,"
+}

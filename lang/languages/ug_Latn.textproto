@@ -1,0 +1,26 @@
+id: "ug_Latn"
+language: "ug"
+script: "Latn"
+name: "Uyghur, Latin"
+autonym: "Uighur"
+population: 0
+region: "CN"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U W X Y Z Ë Ö Ü a b c d e f g h i j k l m n o p q r s t u w x y z ë ö ü"
+  marks: "◌̈"
+}
+sample_text {
+  masthead_full: "HhEe"
+  masthead_partial: "Mm"
+  styles: "insanlar ailisining barliq ezalirining özige"
+  tester: "kixilik hoquqigha étibarsiz qarash we haqaret kelturush ewj élip"
+  poster_sm: "insanlarning"
+  poster_md: "döletler"
+  poster_lg: "hemme"
+  specimen_48: "birleshken döletler teshkilatigha eza döletler xelqining"
+  specimen_36: "herqandaq ademini herqandaq shekilde qolgha élishqa, nezer bent qilishqa yaki sürgün qilishqa bolmaydu."
+  specimen_32: "hemme adem dem élish we bikar yürüsh hoquqidin, jumlidin ish waqtining chekini eqilge muwapiqlashturush hemde qerellik, maashliq dem élish hoquqidin behrimen bolidu."
+  specimen_21: "hemme adem mushu xitabnamide qeyt qilinghan hoquq we erkinlikning toluq ré\'allishishigha imkan béridighan bir xil ijtimaiy we xelq\'ara tertipni telep qilishqa hoquqluq.\nbu xitabnamining herqandaq bir maddisini herqandaq dölet, guruh yaki shexs mushu xitabnamide qeyt qilinghan herqandaq hoquq we erkinlikni buzush meqsitidiki pa\'aliyet yaki heriketlerni élip bérishqa hoquqluq dep sukut qilidighan menide chushendurushke bolmaydu."
+  specimen_16: "insanlar ailisining barliq ezalirining özige xas izzet-hörmitini shuningdek ularning barwer we tewrenmes hoquqini etrap qilishning dunyawi erkinlik, heqqaniyet we tinchliqning asasi ikenliki.\nkixilik hoquqigha étibarsiz qarash we haqaret kelturush ewj élip kixilerning wijdanini bulghaydighan yawuz zorawanliqqa aylan\'ghanliqi, hemme adem söz erkinliki we étikad erkinlikidin behrimen bolidighan hemde wehime we namratliqtin xaliy bolidighan dunyaning yetip kélishi addiy xelqning aliy arzusi dep élan qilin\'ghanliqi.\ninsanlarning ilajisizliqtin zorawanliq we zulum ustide isyan köturimiz dep tewekkulige heriket qilip yurmesliki üchün, kishilik hoquqini qanun arqiliq idare qilish yoli bilen qoghdash zörür bolghanliqi,"
+}
+historical: true

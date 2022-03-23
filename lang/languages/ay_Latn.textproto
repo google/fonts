@@ -1,0 +1,26 @@
+id: "ay_Latn"
+language: "ay"
+script: "Latn"
+name: "Aymara"
+autonym: "Aymar"
+population: 2838620
+region: "BO"
+region: "PE"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ï Ñ Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’"
+  marks: "◌̃ ◌̈"
+}
+sample_text {
+  masthead_full: "TtAa"
+  masthead_partial: "Qq"
+  styles: "UNANCHASA, aka pachana jaqejh munañanïsina,"
+  tester: "UNANCHASA, jaqen walinkañapataki wakisir arunaka armasna, yaqhep"
+  poster_sm: "UNANCHASA, jaqen"
+  poster_md: "UNANCHASA,"
+  poster_lg: "Taqpach"
+  specimen_48: "UNANCHASA, Mathapit Mayachat Markanakan Arupa taqjhatasna akham"
+  specimen_36: "UNANCHASA, Mathapit Markanakan amuyasitanakapa yatisina khuskat taqpachanipaw wayt\'asipjhañapa phoqasiñapataki."
+  specimen_32: "Ukhamaraki, janiw juk\'ampíkaspas ukhama uñjasispati jach\'a markanakaru isk\'a markanakat sipanjha; taqpacha markanakajh tinkusitäpjhew, jaqenakapasti chikasitapjharakiw."
+  specimen_21: "Sapaqat jaqejh jan khitirus ajhsarasa jakañapa, munañapa, amuyasiñapa, jaqe kankañapa taqjhatasiñapaw.\nJaniw j aqenakat maynikisa uywarj ama aljhatäkaspati, ukhamarus jan jupa munasin janiw kuna urañarus, irnaqañarus wayt\'asitäspati.\nJanirakiw taqe jaqenakat maynikis khuyaña mutuñanakampi chhojrinchatäñapati."
+  specimen_16: "Jaqejh, jaqëtapat layku, kauki markankipansa jaqe kankañapajh wali chaninchatëñapaw.\nJiliri p\'eqeñanakajh taqe mayniru khuskat uñjapjhañapaw. Taqe mayniw arjhatatäñapa; kunapachati markanakan hualinkañapataki inoqat arunaka khitis t\'unjaña munaspa ukajha, qhananchatäñapaw.\nKhititejh ñanqhachat uñjasisp ukajha, jach\'a j ilirinakaruwa yatiyasiñapa arjhatatäñapataki.\nJaniw khitis markapana mutuyatäniti, janirakiw khitis markapata alismukutäniti.\nTaqe mayniw juchanchata uñjasisa mä cheqa arun jilirimpi ist\'ayasiñap wakisi qhananchayasiñataki, uka qepatsti cheq cheqaru t \'aqayasiñataki."
+}

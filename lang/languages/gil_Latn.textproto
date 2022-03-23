@@ -1,0 +1,10 @@
+id: "gil_Latn"
+language: "gil"
+script: "Latn"
+name: "Gilbertese"
+autonym: "Kiribati"
+population: 67077
+region: "KI"
+exemplar_chars {
+  base: "A B E I K M N G O R T U W a b e i k m n g o r t u w"
+}

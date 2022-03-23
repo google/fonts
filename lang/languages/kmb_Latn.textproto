@@ -1,0 +1,23 @@
+id: "kmb_Latn"
+language: "kmb"
+script: "Latn"
+name: "Kimbundu"
+population: 8130575
+region: "AO"
+exemplar_chars {
+  base: "A B D E F H I J K L M N O P S T U V X Z a b d e f h i j k l m n o p s t u v x z"
+}
+sample_text {
+  masthead_full: "OoAa"
+  masthead_partial: "Tt"
+  styles: "Mu kutala kuma o ujitu wa kijingu wa tokala"
+  tester: "Mu kutala kuma o kukamba kwijya ni kudituna o itokelu ya muthu"
+  poster_sm: "Mu kutala kuma"
+  poster_md: "Mu kutala"
+  poster_lg: "athu"
+  specimen_48: "Mu kutala kuma o jixi jadisokeka asoto kikwatesu mu ku dibana"
+  specimen_36: "Kana muthu ukala kumuta mu ubika nê mu kibikilu, o ubika ni o kusumbisa abika yene a ifudisa kutandi dya ifa ye yoso."
+  specimen_32: "Kanba muthu utala hadi ya kufunisa kwa ngo mu mwenyu we wa mu tokala, mu mwiji we, mu inzu ye mba mu kudibana kwe, ne kwantala o kijingu ni ungana wê."
+  specimen_21: "Kana muthu utala hadi ya kufunisa kwa ngô mu mwenyu wê wa mu tokala, mu mwiji wê, mu inzu ye mba mukudibana kwe, ne kwendala o kijingu ni ungana wê, muthu oso wala ni kutoxala o kilangelu kya kijila kudita ku ifunisu ini mba o yandelu ini.\nMuthu oso wala kutokala o kubuluka mu kubanza, kilunji ni ngeleja.\nNgamba woso wala kutokala o kubuluka dya kubalula ni dya kuzwela."
+  specimen_16: "Muthu woso, kyoso mbanji dya kisangela, wala kutokala o kikwatesu kya kisangela, mwene mwa xikama mu kutena dya kisakidila dya itokelu ya wenji, wa isangela ni ya ifwa ni ibangelu yatokala o kijingu kye ni mu folo ya kukulisa dya kijinga kye, sakidila mu jinguzu ja ixi ni o kudibana mu ngongo, mukala mukwijya o kisangela ni o jimbote dya kala ixi.\nMuthu woso wala kutokala makuhemena ni makembu ni tutanga o kisukilu kimoxi kyabhexa kya thempu kya kikalakalu ni o kuhemena kwa futa mu ithangana.\nMuthu woso wala kutokala o ke kyala, mu mbandu ya kisangelu ni mu mbandu ya ngengo, kituninu kimoxi kyene kala o itokelu ni ufolo twa tange mu kizwelu kiki atokala mwene kusanga o kitala kya wika."
+}

@@ -1,0 +1,26 @@
+id: "aln_Latn"
+language: "aln"
+script: "Latn"
+name: "Gheg Albanian"
+autonym: "Gegnisht"
+population: 1430249
+region: "AL"
+region: "XK"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ë a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë"
+  marks: "◌̈ ◌̧"
+}
+sample_text {
+  masthead_full: "ZzHh"
+  masthead_partial: "Dd"
+  styles: "Zhdo njeri kan le t\'lir mê njãjit dinjitêt"
+  tester: "Zhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta. Ata jan"
+  poster_sm: "Zhdo njeri"
+  poster_md: "Zhdo njeri"
+  poster_lg: "Zhdo"
+  specimen_48: "Zhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta."
+  specimen_36: "Zhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta. Ata jan të pajisun mê mênjê edhê vet-dijê edhê duhën të veprôjn ka njãni-tjetrin mê nji shpirt vllâznimit."
+  specimen_32: "Zhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta. Ata jan të pajisun mê mênjê edhê vet-dijê edhê duhën të veprôjn ka njãni-tjetrin mê nji shpirt vllâznimit."
+  specimen_21: "Zhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta. Ata jan të pajisun mê mênjê edhê vet-dijê edhê duhën të veprôjn ka njãni-tjetrin mê nji shpirt vllâznimit.\nZhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta. Ata jan të pajisun mê mênjê edhê vet-dijê edhê duhën të veprôjn ka njãni-tjetrin mê nji shpirt vllâznimit."
+  specimen_16: "Zhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta. Ata jan të pajisun mê mênjê edhê vet-dijê edhê duhën të veprôjn ka njãni-tjetrin mê nji shpirt vllâznimit.\nZhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta. Ata jan të pajisun mê mênjê edhê vet-dijê edhê duhën të veprôjn ka njãni-tjetrin mê nji shpirt vllâznimit.\nZhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta. Ata jan të pajisun mê mênjê edhê vet-dijê edhê duhën të veprôjn ka njãni-tjetrin mê nji shpirt vllâznimit.\nZhdo njeri kan le t\'lir mê njãjit dinjitêt edhê dreta. Ata jan të pajisun mê mênjê edhê vet-dijê edhê duhën të veprôjn ka njãni-tjetrin mê nji shpirt vllâznimit."
+}

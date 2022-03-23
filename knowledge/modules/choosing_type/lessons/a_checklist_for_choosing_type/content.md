@@ -2,23 +2,23 @@ Every article in [our “Choosing type” section](/module/choosing_type) aims t
 
 We’ll start off with the checklist itself—which is also [available on GitHub](https://github.com/elliotjaystocks/choosing-type-checklist/blob/main/checklist.md)—and then spend some time diving into each part of it.
 
-- 1. The typeface suits the purpose of the project
--- 1a. Its personality will prompt the appropriate emotional response(s) from our audience
--- 1b. Its design fits the intended use
-- 2. The typeface’s design is comprehensive
--- 2a. It has enough multi-language support
--- 2b. It contains legible details
--- 2c. It has at least the basic weights and styles
--- 2d. Even better: It has alternate glyphs
--- 2e. Even better: It has additional weights and styles (or grades)
--- 2f. Even better: It has multiple widths
--- 2g. Even better: It has different optical sizes
-- 3. The font files are reliable
--- 3a. All of the design features checked above are actually included in the font files being used
--- 3b. The fonts are properly spaced
-- 4. The fonts are usable in the situation(s) required
--- 4a. If serving as a secondary typeface to a primary choice, there’s a suitable balance between distinction and harmony
--- 4b. We have, or our client has, the appropriate font license(s)
+1. The typeface suits the purpose of the project
+  a. Its personality will prompt the appropriate emotional response(s) from our audience
+  b. Its design fits the intended use
+2. The typeface’s design is comprehensive
+  a. It has enough multi-language support
+  b. It contains legible details
+  c. It has at least the basic weights and styles
+  d. Even better: It has alternate glyphs
+  e. Even better: It has additional weights and styles (or grades)
+  f. Even better: It has multiple widths
+  g. Even better: It has different optical sizes
+3. The font files are reliable
+  a. All of the design features checked above are actually included in the font files being used
+  b. The fonts are properly spaced
+4. The fonts are usable in the situation(s) required
+  a. If serving as a secondary typeface to a primary choice, there’s a suitable balance between distinction and harmony
+  b. We have, or our client has, the appropriate font license(s)
 
 Let’s explore each item on that list in a little more depth.
 

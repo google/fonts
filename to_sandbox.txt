@@ -1,4 +1,22 @@
+# New
 
-# Did not push because license change confuses things
-# ofl/opensans
+# Small fix/other
 
+# Metadata/desc/OFL
+
+
+# HELD BACK
+# ofl/radiocanada # disabled
+# ofl/robotoflex  # disabled because flex can be quite slow, will handle separately
+# ofl/opensans # disabled because changing license is exciting
+axisregistry/flair.textproto
+axisregistry/volume.textproto
+axisregistry/x_opaque.textproto
+axisregistry/x_transparent_figures.textproto
+axisregistry/x_transparent.textproto
+axisregistry/y_opaque.textproto
+axisregistry/y_transparent_ascender.textproto
+axisregistry/y_transparent_descender.textproto
+axisregistry/y_transparent_figures.textproto
+axisregistry/y_transparent_lowercase.textproto
+axisregistry/y_transparent_uppercase.textproto

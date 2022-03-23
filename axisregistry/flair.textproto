@@ -12,6 +12,7 @@ fallback {
   name: "Flair"
   value: 100.0
 }
+fallback_only: false
 description: 
   "As the flair axis grows, the straight sans serif terminals develop"
   " a swelling, and joints become more idiosyncratic. Originally referring"

@@ -21,8 +21,6 @@ fonts {
   full_name: "BIZ UDGothic Bold"
   copyright: "Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek-ext"
 subsets: "japanese"

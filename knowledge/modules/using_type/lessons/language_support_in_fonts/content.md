@@ -63,7 +63,7 @@ For ease of internationalization, Google has categorized languages into three ca
 
 **Tall typefaces:** These are the scripts that require extra line height to accommodate larger glyphs, including South and Southeast Asian and Middle-Eastern languages, like Arabic, Hindi, Telugu, Thai, and Vietnamese.
 
-**Dense typefaces:** These scripts, like the “Tall typefaces,” also require extra line height to accommodate larger glyphs, but additionally take into account the density of characters in languages such as Chinese, Japanese, and Korean.
+**Dense typefaces:** These scripts, like the “Tall typefaces,” also require extra line height to accommodate larger glyphs, but additionally take into account the higher density of characters in languages such as Chinese, Japanese, and Korean.
 
 ## Noto
 

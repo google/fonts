@@ -29,7 +29,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/morisawa-biz-ud-gothic"
-  commit: "c7d4cbc494c43b953e49a3e80a2460e83ea3adab"
+  commit: "ed0bb20ae36bb556c4f3de741f3ee95226c1dbbd"
 }
 languages: "aa_Latn"  # Afar
 languages: "abq_Cyrl"  # Abaza

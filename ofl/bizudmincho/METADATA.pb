@@ -20,7 +20,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/morisawa-biz-ud-mincho"
-  commit: "5a95d7bea58eff408edbee1067c1d1760dc1a157"
+  commit: "89dea71623040ec5dc2e3c54e7a86ed5171b3035"
 }
 languages: "aa_Latn"  # Afar
 languages: "abq_Cyrl"  # Abaza

@@ -28,7 +28,7 @@ subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wdth"
-  min_value: 50.0
+  min_value: 62.5
   max_value: 100.0
 }
 axes {
@@ -38,7 +38,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/vv-monsalve/Sofia-Sans"
-  commit: "a849e481fe767e946b74c59d4628d7cf896ed023"
+  commit: "0edd730d634463701f6d15ed4d4b018a7ecdc580"
 }
 languages: "aa_Latn"  # Afar
 languages: "abq_Cyrl"  # Abaza

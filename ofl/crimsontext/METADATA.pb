@@ -10,7 +10,7 @@ fonts {
   filename: "CrimsonText-Regular.ttf"
   post_script_name: "CrimsonText-Regular"
   full_name: "Crimson Text Regular"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -19,7 +19,7 @@ fonts {
   filename: "CrimsonText-Italic.ttf"
   post_script_name: "CrimsonText-Italic"
   full_name: "Crimson Text Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -28,7 +28,7 @@ fonts {
   filename: "CrimsonText-SemiBold.ttf"
   post_script_name: "CrimsonText-SemiBold"
   full_name: "Crimson Text SemiBold"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -37,7 +37,7 @@ fonts {
   filename: "CrimsonText-SemiBoldItalic.ttf"
   post_script_name: "CrimsonText-SemiBoldItalic"
   full_name: "Crimson Text SemiBold Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -46,7 +46,7 @@ fonts {
   filename: "CrimsonText-Bold.ttf"
   post_script_name: "CrimsonText-Bold"
   full_name: "Crimson Text Bold"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -55,10 +55,16 @@ fonts {
   filename: "CrimsonText-BoldItalic.ttf"
   post_script_name: "CrimsonText-BoldItalic"
   full_name: "Crimson Text Bold Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/Crimson"
+  commit: "f8b7d63dd515b63aa232857f76af3f9da048f239"
+}
 languages: "aa_Latn"  # Afar
 languages: "abq_Cyrl"  # Abaza
 languages: "ace_Latn"  # Achinese

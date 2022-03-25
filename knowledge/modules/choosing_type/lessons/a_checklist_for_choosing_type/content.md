@@ -57,7 +57,6 @@ An elaborate [script](/glossary/script_typeface_style) typeface, full of flouris
 <figure>
 
 ![“The Thing” set very large in a horror-style typeface, then the same typeface used for a paragraph body copy, in which it appears hard to read.](images/a_checklist_for_choosing_type_3.svg)
-<figcaption>Text set in Creepster</figure>
 
 </figure>
 
@@ -196,13 +195,13 @@ While rare, it’s possible to have a font that checks all of our boxes, but lac
 
 ## 4. The fonts are usable in the situation(s) required
 
-As well as features being technically present in the files, there are a couple more final considerations when it comes to [type pairing](INSERT_URL) and font licensing:
+As well as features being technically present in the files, there are a couple more final considerations when it comes to [pairing type](/topics/pairing_type) and font [licensing](/glossary/licensing):
 
 ### If serving as a secondary typeface to a primary choice, there’s a suitable balance between distinction and harmony
 
 The single biggest challenge we face when pairing type is choosing a secondary typeface that’s different enough from our primary choice, but not too different. Jason Santa Maria, in his book, “On Web Typography,” refers to this as the balance between distinction and harmony:
 
-“[...] you need to choose typefaces that don’t compete too much with each other, but aren’t so similar as to be indistinguishable. [...] When in doubt […] pair a serif and a sans serif. This provides you with what are likely the two most flexible kinds of typefaces, and nearly guarantees you have sufficient variation.”
+> “[...] you need to choose typefaces that don’t compete too much with each other, but aren’t so similar as to be indistinguishable. [...] When in doubt […] pair a serif and a sans serif. This provides you with what are likely the two most flexible kinds of typefaces, and nearly guarantees you have sufficient variation.”
 
 <figure>
 
@@ -217,7 +216,7 @@ Read more in our article [“Pairing typefaces.”](/lesson/pairing_typefaces)
 
 ### We have, or our client has, the appropriate font license(s)
 
-Whether fonts are sold or given away for free, each has an associated [license](/glossary/licensing) (and we should have a copy of the license for each font we have a copy of.) When we use a font, that implies we've agreed to those license terms.
+Whether fonts are sold or given away for free, each has an associated license (and we should have a copy of the license for each font we have a copy of.) When we use a font, that implies we've agreed to those license terms.
 
 We should always check that the end use of our type is covered by the font’s license. There's often a different license required for web fonts to desktop fonts, or even usage in apps and ebooks. The price to license a font for a personal logo may differ from the cost of using it on a news website served to millions of users and it is up to us or our client to confirm the correct usage.
 

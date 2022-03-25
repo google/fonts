@@ -48,7 +48,7 @@ Comic Sans is perfect for setting children’s activity timetables that are disp
 
 </figure>
 
-Read more in our article [“Emotive considerations for choosing typefaces”](/lesson/emotive_considerations_for_choosing_typefaces)
+Read more in our article [“Emotive considerations for choosing typefaces.”](/lesson/emotive_considerations_for_choosing_typefaces)
 
 ### Its design fits the intended use
 
@@ -65,7 +65,7 @@ An elaborate [script](/glossary/script_typeface_style) typeface, full of flouris
 
 Before we get into the specifics of actual font files, we need to consider the details in the design of the typeface itself. Has the [type designer](/glossary/type_designer) provided support for multiple languages, included legible details, and made the minimum [weights](/glossary/weight) and [styles](/glossary/style) necessary? Beyond that, does the typeface contain [alternate glyphs](/glossary/alternates), more weights and styles, different [widths](/glossary/width), and perhaps even [optical sizes](/glossary/optical_sizes)?
 
-Let’s explore each in turn and, for detail, be sure to read our article [“Choosing reliable typefaces”](/lesson/choosing_reliable_typefaces)
+Let’s explore each in turn and, for detail, be sure to read our article [“Choosing reliable typefaces.”](/lesson/choosing_reliable_typefaces)
 
 ### It has enough multi-language support
 
@@ -98,12 +98,12 @@ It’s entirely possible for a typeface to be suitable for a project—especiall
 
 <figure>
 
-![[A montage of Regular, Italic, Bold, and Bold Italic  weights and styles.](images/a_checklist_for_choosing_type_6.svg)
+![A montage of Regular, Italic, Bold, and Bold Italic  weights and styles.](images/a_checklist_for_choosing_type_6.svg)
 <figcaption>[Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro).</figure>
 
 </figure>
 
-Read more in our article [“Introducing weights & styles”](/lesson/introducing_weights_styles)
+Read more in our article [“Introducing weights & styles.”](/lesson/introducing_weights_styles)
 
 ### Even better: It has alternate glyphs
 
@@ -117,7 +117,7 @@ There’s so much typographic power to unlock via OpenType if the features exist
 
 ![A montage of OpenType features: The four different flavors of numerals, stylistic sets, fractions, and contextual alternates.](images/thumbnail.svg)
 
-Read more in our articles [“Introducing alternate glyphs”](/lesson/introducing_alternate_glyphs) and [“Implementing OpenType features on the web”](/lesson/implementing_open_type_features_on_the_web)
+Read more in our articles [“Introducing alternate glyphs”](/lesson/introducing_alternate_glyphs) and [“Implementing OpenType features on the web.”](/lesson/implementing_open_type_features_on_the_web)
 
 ### Even better: It has additional weights and styles (or grades)
 
@@ -131,7 +131,7 @@ However, having multiple weights—if not multiple styles—allows far greater f
 
 </figure>
 
-Read more in our article [“Exploring typefaces with multiple weights or grades”](/lesson/exploring_typefaces_with_multiple_weights_or_grades)
+Read more in our article [“Exploring typefaces with multiple weights or grades.”](/lesson/exploring_typefaces_with_multiple_weights_or_grades)
 
 ### Even better: It has multiple widths
 
@@ -142,11 +142,11 @@ Like weights, different widths share the typeface’s skeletal structure, meanin
 <figure>
 
 ![Three different widths of the same typeface used for three different elements.](images/a_checklist_for_choosing_type_9.svg)
-<figcaption>Different widths of [Encode Sans](https://fonts.google.com/specimen/Encode+Sans)</figcaption>
+<figcaption>Different widths of [Encode Sans](https://fonts.google.com/specimen/Encode+Sans) </figcaption>
 
 </figure>
 
-Read more in our article [“Exploring width in type”](/lesson/exploring_width_in_type)
+Read more in our article [“Exploring width in type.”](/lesson/exploring_width_in_type)
 
 ### Even better: It has different optical sizes
 
@@ -181,7 +181,7 @@ There are a number of reasons this could be the case, such as a “lite” or no
 
 </figure>
 
-Read more in our article [“OpenType features in practice”](/lesson/open_type_features_in_practice)
+Read more in our article [“OpenType features in practice.”](/lesson/open_type_features_in_practice)
 
 ### The fonts are properly-spaced
 
@@ -212,7 +212,7 @@ The single biggest challenge we face when pairing type is choosing a secondary t
 
 In music, harmonious sounds are created by notes with significant separation. Combining notes that are too close results in dissonance—just as with type.
 
-Read more in our article [“Pairing typefaces”](/lesson/pairing_typefaces)
+Read more in our article [“Pairing typefaces.”](/lesson/pairing_typefaces)
 
 ### We have, or our client has, the appropriate font license(s)
 
@@ -228,4 +228,4 @@ Because price can vary depending on the fonts we choose and their end uses, affo
 
 </figure>
 
-Read more in our glossary term [“Licensing”](/glossary/licensing)
+Read more in our glossary term [“Licensing.”](/glossary/licensing)

@@ -3,7 +3,8 @@ Slant (`slnt` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in so
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-| Default: 0 | Min: -90 | Max: 90 | Step: 1 |
+| Default: | Min: | Max: | Step: |
+| 0 | -90 | 90 | 1 |
 
 <figure>
 

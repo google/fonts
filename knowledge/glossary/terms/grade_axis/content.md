@@ -4,6 +4,7 @@
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
+| --- | --- | --- | --- |
 | 0 | -1000 | 1000 | 1 |
 
 Negative grade makes the style lighter, while positive grade makes it heavier. The units are the same as in the weight (`wght`) axis.

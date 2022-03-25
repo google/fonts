@@ -4,6 +4,7 @@ Optical size (controlled with `font-optical-sizing` or `font-variation-setting: 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
+| --- | --- | --- | --- |
 | 14 | 6 | 144 | 0.1 |
 
 <figure>

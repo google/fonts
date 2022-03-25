@@ -3,22 +3,22 @@ Every article in [our “Choosing type” section](/module/choosing_type) aims t
 We’ll start off with the checklist itself—which is also [available on GitHub](https://github.com/elliotjaystocks/choosing-type-checklist/blob/main/checklist.md)—and then spend some time diving into each part of it.
 
 1. The typeface suits the purpose of the project
-    1. Its personality will prompt the appropriate emotional response(s) from our audience
-    2. Its design fits the intended use
+    - Its personality will prompt the appropriate emotional response(s) from our audience
+    - Its design fits the intended use
 2. The typeface’s design is comprehensive
-    1. It has enough multi-language support
-    2. It contains legible details
-    3. It has at least the basic weights and styles
-    4. Even better: It has alternate glyphs
-    5. Even better: It has additional weights and styles (or grades)
-    6. Even better: It has multiple widths
-    7. Even better: It has different optical sizes
+    - It has enough multi-language support
+    - It contains legible details
+    - It has at least the basic weights and styles
+    - Even better: It has alternate glyphs
+    - Even better: It has additional weights and styles (or grades)
+    - Even better: It has multiple widths
+    - Even better: It has different optical sizes
 3. The font files are reliable
-    1. All of the design features checked above are actually included in the font files being used
-    2. The fonts are properly spaced
+    - All of the design features checked above are actually included in the font files being used
+    - The fonts are properly spaced
 4. The fonts are usable in the situation(s) required
-    1. If serving as a secondary typeface to a primary choice, there’s a suitable balance between distinction and harmony
-    2. We have, or our client has, the appropriate font license(s)
+    - If serving as a secondary typeface to a primary choice, there’s a suitable balance between distinction and harmony
+    - We have, or our client has, the appropriate font license(s)
 
 Let’s explore each item on that list in a little more depth.
 
@@ -26,7 +26,7 @@ Let’s explore each item on that list in a little more depth.
 
 It might sound obvious to say that our choice of typeface should suit the purpose of our project, but there are plenty of examples in the wild of designers using typefaces that just don’t work. So how do we tell what type does and doesn’t work? Let’s pick it apart:
 
-### 1a. Its personality will prompt the appropriate emotional response(s) from our audience
+### Its personality will prompt the appropriate emotional response(s) from our audience
 
 The emotional response to the shape of [letterforms](/glossary/letterform) is a very personal experience; when readers first see type, they react to it in an emotional way before anything else.
 
@@ -50,7 +50,7 @@ Comic Sans is perfect for setting children’s activity timetables that are disp
 
 Read more in our article [“Emotive considerations for choosing typefaces”](/lesson/emotive_considerations_for_choosing_typefaces)
 
-### 1b. Its design fits the intended use
+### Its design fits the intended use
 
 An elaborate [script](/glossary/script_typeface_style) typeface, full of flourishes and personality, might look great for a brand’s logo, but is unlikely to work well for [body text](/glossary/body). [Monospaced](/glossary/monospaced) fonts should probably be the only ones considered for typesetting code. Although we might not be aware of all a typeface’s end uses immediately, there are some we can be mindful of.
 
@@ -67,7 +67,7 @@ Before we get into the specifics of actual font files, we need to consider the d
 
 Let’s explore each in turn and, for detail, be sure to read our article [“Choosing reliable typefaces”](/lesson/choosing_reliable_typefaces)
 
-### 2a. It has enough multi-language support
+### It has enough multi-language support
 
 There’s no point falling in love with a typeface and using it for a brand if it doesn’t contain that one non-[Latin](/glossary/latin) [character](/glossary/character) we need for a regional office address in the website’s footer—it’ll get substituted, stand out, and stop the brand from looking professional.
 
@@ -80,7 +80,7 @@ While a small [glyph](/glossary/glyph) set might be fine for a logo, it’ll soo
 
 </figure>
 
-### 2b. It contains legible details
+### It contains legible details
 
 To state that type should be legible is obvious, of course. But, even so, in many popular typefaces, [some glyphs are remarkably similar](/glossary/homoglyph). And, because this similarity leads to potential ambiguity over what characters we’re reading, their design can be detrimental to the overall [legibility](/glossary/legibility_readability) of text set in these typefaces.
 
@@ -92,7 +92,7 @@ When selecting a typeface—especially a [sans serif](/glossary/sans_serif)—it
 
 </figure>
 
-### 2c. It has at least the basic weights and styles
+### It has at least the basic weights and styles
 
 It’s entirely possible for a typeface to be suitable for a project—especially something like a logo—even if it has only one weight. However, to be usable in most scenarios, having a range of weights and styles is preferable. [Regular](/glossary/regular_upright), [italic](/glossary/italic), and [bold](/glossary/bold) (and bold italic) cover the bases, but the more weights a typeface has, the more flexibility is given to the designer. If they’re contained in a variable font, which offers options in between the usual weights and styles, even better.
 
@@ -105,7 +105,7 @@ It’s entirely possible for a typeface to be suitable for a project—especiall
 
 Read more in our article [“Introducing weights & styles”](/lesson/introducing_weights_styles)
 
-### 2d. Even better: It has alternate glyphs
+### Even better: It has alternate glyphs
 
 The default characters we see in a typeface aren’t necessarily the only options available to us. Alternate glyphs are often created by type designers to provide a broader palette of typographic possibilities beyond what’s available in the “normal” styles.
 
@@ -119,7 +119,7 @@ There’s so much typographic power to unlock via OpenType if the features exist
 
 Read more in our articles [“Introducing alternate glyphs”](/lesson/introducing_alternate_glyphs) and [“Implementing OpenType features on the web”](/lesson/implementing_open_type_features_on_the_web)
 
-### 2e. Even better: It has additional weights and styles (or grades)
+### Even better: It has additional weights and styles (or grades)
 
 With most typefaces offering regular, bold, italic, and bold italic weights and styles, it’s reasonable to ask why we might need yet more variation. Those four are usually enough to convey emphasis and hierarchy, especially when paired with other typographic elements, such as changes in font size.
 However, having multiple weights—if not multiple styles—allows far greater flexibility when typesetting large amounts of text, with different typographic elements.
@@ -133,7 +133,7 @@ However, having multiple weights—if not multiple styles—allows far greater f
 
 Read more in our article [“Exploring typefaces with multiple weights or grades”](/lesson/exploring_typefaces_with_multiple_weights_or_grades)
 
-### 2f. Even better: It has multiple widths
+### Even better: It has multiple widths
 
 An often-overlooked variation within a single type family is width. From a [narrow](/glossary/condensed_narrow_compressed) typeface that allows us to fit more words per line, to an [extra wide](/glossary/wide_extended) face that adds personality, multiple widths offer the typographer more ways to work with type without the need to use more than one family.
 
@@ -148,7 +148,7 @@ Like weights, different widths share the typeface’s skeletal structure, meanin
 
 Read more in our article [“Exploring width in type”](/lesson/exploring_width_in_type)
 
-### 2g. Even better: It has different optical sizes
+### Even better: It has different optical sizes
 
 Optical sizing refers to the practice of type foundries creating slightly different versions of a typeface intended to be used at different sizes. Generally speaking, small (body or caption) optical sizes tend to have less [stroke](/glossary/stroke) [contrast](/glossary/contrast), larger [x-heights](/glossary/x_height), wider characters, and more open spacing. Their large (or [display](/glossary/display)) counterparts have refined features and tighter spacing—characteristics that would hinder their readability at small sizes.
 
@@ -169,7 +169,7 @@ Read more in our article [“Choosing typefaces that have optical sizes”](/les
 
 Having made a sensible (or adventurous!) typeface choice based on everything above, it’s important to ensure that all of those features are available in the font files we’ll be using — and ensure that all features are consistent across the font family.
 
-### 3a. All of the design features checked above are actually included in the font files being used.
+### All of the design features checked above are actually included in the font files being used.
 
 Even if we know that these features exist, the particular font file we’re using might not necessarily include the glyphs we need.
 
@@ -183,7 +183,7 @@ There are a number of reasons this could be the case, such as a “lite” or no
 
 Read more in our article [“OpenType features in practice”](/lesson/open_type_features_in_practice)
 
-### 3b. The fonts are properly-spaced
+### The fonts are properly-spaced
 
 While rare, it’s possible to have a font that checks all of our boxes, but lacks decent spacing, which means that it could still look terrible once we start actually setting text with it. Professional fonts should be properly spaced, and they should also contain [kerning pair data](/glossary/kerning_kerning_pairs) that tweaks the spacing between certain glyphs.
 
@@ -197,7 +197,7 @@ While rare, it’s possible to have a font that checks all of our boxes, but lac
 
 As well as features being technically present in the files, there are a couple more final considerations when it comes to [type pairing](INSERT_URL) and font licensing:
 
-### 4a. If serving as a secondary typeface to a primary choice, there’s a suitable balance between distinction and harmony
+### If serving as a secondary typeface to a primary choice, there’s a suitable balance between distinction and harmony
 
 The single biggest challenge we face when pairing type is choosing a secondary typeface that’s different enough from our primary choice, but not too different. Jason Santa Maria, in his book, “On Web Typography,” refers to this as the balance between distinction and harmony:
 
@@ -214,7 +214,7 @@ In music, harmonious sounds are created by notes with significant separation. Co
 
 Read more in our article [“Pairing typefaces”](/lesson/pairing_typefaces)
 
-### 4b. We have, or our client has, the appropriate font license(s)
+### We have, or our client has, the appropriate font license(s)
 
 Whether fonts are sold or given away for free, each has an associated [license](/glossary/licensing) (and we should have a copy of the license for each font we have a copy of.) When we use a font, that implies we've agreed to those license terms.
 

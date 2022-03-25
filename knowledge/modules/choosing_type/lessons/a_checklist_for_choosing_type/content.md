@@ -52,7 +52,7 @@ Read more in our article [“Emotive considerations for choosing typefaces.”](
 
 ### Its design fits the intended use
 
-An elaborate [script](/glossary/script_typeface_style) typeface, full of flourishes and personality, might look great for a brand’s logo, but is unlikely to work well for [body text](/glossary/body). [Monospaced](/glossary/monospaced) fonts should probably be the only ones considered for typesetting code. Although we might not be aware of all a typeface’s end uses immediately, there are some we can be mindful of.
+An elaborate [script](/glossary/script_typeface_style) typeface, full of flourishes and personality, might look great for a brand’s logo, but is unlikely to work well for [body text](/glossary/body). And [monospaced](/glossary/monospaced) fonts should probably be the only ones considered for typesetting code. Although we might not be aware of all a typeface’s end uses immediately, there are some we can be mindful of.
 
 <figure>
 
@@ -68,7 +68,7 @@ Let’s explore each in turn and, for detail, be sure to read our article [“Ch
 
 ### It has enough multi-language support
 
-There’s no point falling in love with a typeface and using it for a brand if it doesn’t contain that one non-[Latin](/glossary/latin) [character](/glossary/character) we need for a regional office address in the website’s footer—it’ll get substituted, stand out, and stop the brand from looking professional.
+There’s no point falling in love with a typeface and using it for a brand if it doesn’t contain that one non-[Latin](/glossary/latin) [character](/glossary/character) we need for a regional office address in the website’s footer—it’ll get substituted, stand out, and stop the company from looking professional.
 
 While a small [glyph](/glossary/glyph) set might be fine for a logo, it’ll soon fall apart if we try to use such a limited typeface for our main text—especially if we’re working on a digital product that allows for user input, or any website powered by a content management system.
 
@@ -93,12 +93,11 @@ When selecting a typeface—especially a [sans serif](/glossary/sans_serif)—it
 
 ### It has at least the basic weights and styles
 
-It’s entirely possible for a typeface to be suitable for a project—especially something like a logo—even if it has only one weight. However, to be usable in most scenarios, having a range of weights and styles is preferable. [Regular](/glossary/regular_upright), [italic](/glossary/italic), and [bold](/glossary/bold) (and bold italic) cover the bases, but the more weights a typeface has, the more flexibility is given to the designer. If they’re contained in a variable font, which offers options in between the usual weights and styles, even better.
+It’s entirely possible for a typeface to be suitable for a project—especially something like a logo—even if it has only one weight. However, to be usable in most scenarios, having a range of weights and styles is preferable. [Regular](/glossary/regular_upright), [italic](/glossary/italic), and [bold](/glossary/bold) (and bold italic) cover the bases, but the more weights a typeface has, the more flexibility is given to us as designers. And, if they’re contained in a variable font, which offers options in between the usual weights and styles, even better.
 
 <figure>
 
 ![A montage of Regular, Italic, Bold, and Bold Italic  weights and styles.](images/a_checklist_for_choosing_type_6.svg)
-<figcaption>Source Serif Pro.</figure>
 
 </figure>
 
@@ -108,9 +107,9 @@ Read more in our article [“Introducing weights & styles.”](/lesson/introduci
 
 The default characters we see in a typeface aren’t necessarily the only options available to us. Alternate glyphs are often created by type designers to provide a broader palette of typographic possibilities beyond what’s available in the “normal” styles.
 
-While sometimes these are available as separate sibling families, such as Montserrat and Montserrat Alternates, they’re typically made available to us as [OpenType](/glossary/open_type) features within a single font file.
+While sometimes these are available as separate sibling families, such as [Montserrat](https://fonts.google.com/specimen/Montserrat) and [Montserrat Alternates](https://fonts.google.com/specimen/Montserrat+Alternates), they’re typically made available to us as [OpenType](/glossary/open_type) features within a single font file.
 
-There’s so much typographic power to unlock via OpenType if the features exist within the font: From swash characters that add flourish to your [display](/glossary/display) type, to [fractions](/glossary/fractions) that enable legible recipe ingredients; from proper small caps that prevent abbreviations from appearing to shout at the reader, to intentional control over [the different flavors of numerals](/glossary/numerals_figures); an understanding of OpenType is arguably one of the greatest tools a designer can have.
+There’s so much typographic power to unlock via OpenType if the features exist within the font: From [swash glyphs](swash_glyph) that add flourish to your [display](/glossary/display) type, to [fractions](/glossary/fractions) that enable legible recipe ingredients; from proper [small caps](small_caps) that prevent abbreviations from appearing to shout at the reader, to intentional control over [the different flavors of numerals](/glossary/numerals_figures); an understanding of OpenType is arguably one of the greatest tools a designer can have.
 
 <figure>
 
@@ -150,7 +149,7 @@ Read more in our article [“Exploring width in type.”](/lesson/exploring_widt
 
 ### Even better: It has different optical sizes
 
-Optical sizing refers to the practice of type foundries creating slightly different versions of a typeface intended to be used at different sizes. Generally speaking, small (body or caption) optical sizes tend to have less [stroke](/glossary/stroke) [contrast](/glossary/contrast), larger [x-heights](/glossary/x_height), wider characters, and more open spacing. Their large (or [display](/glossary/display)) counterparts have refined features and tighter spacing—characteristics that would hinder their readability at small sizes.
+Optical sizing refers to the practice of [type foundries](/glossary/type_foundry) creating slightly different versions of a typeface intended to be used at different sizes. Generally speaking, small ([body](/glossary/body) or text) optical sizes tend to have less [stroke](/glossary/stroke) [contrast](/glossary/contrast), larger [x-heights](/glossary/x_height), wider characters, and more open spacing. Their large (or [display](/glossary/display)) counterparts have refined features and tighter spacing—characteristics that would hinder their readability at small sizes.
 
 If a project requires the use of just one typeface, it can be useful to employ different optical sizes for different scenarios, allowing the type to remain consistent across huge billboard ads and tiny website captions, each tweaked to look right in each scenario.
 
@@ -161,15 +160,15 @@ If a project requires the use of just one typeface, it can be useful to employ d
 
 </figure>
 
-Some foundries present their different optical sizes with names such as text (or caption), deck, headline, and display — although it’s worth remembering that such finite distinctions are blurred when using variable fonts. A variable font with an optical size axis can offer a smooth range of choices all the way from text to display.
+Some foundries present their different optical sizes with names such as text (or caption), deck, headline, and display—although it’s worth remembering that such finite distinctions are blurred when using [variable fonts](/glossary/variable_fonts). A variable font with an [optical size axis](/glossary/optical_size_axis) can offer a smooth range of choices all the way from text to display.
 
 Read more in our article [“Choosing typefaces that have optical sizes”](/lesson/choosing_typefaces_that_have_optical_sizes)
 
 ## 3. The font files are reliable
 
-Having made a sensible (or adventurous!) typeface choice based on everything above, it’s important to ensure that all of those features are available in the font files we’ll be using — and ensure that all features are consistent across the font family.
+Having made a sensible (or adventurous!) typeface choice based on everything above, it’s important to ensure that all of those features are available in the font files we’ll be using—and ensure that all features are consistent across the font family.
 
-### All of the design features checked above are actually included in the font files being used.
+### All of the design features checked above are actually included in the font files being used
 
 Even if we know that these features exist, the particular font file we’re using might not necessarily include the glyphs we need.
 
@@ -183,7 +182,7 @@ There are a number of reasons this could be the case, such as a “lite” or no
 
 Read more in our article [“OpenType features in practice.”](/lesson/open_type_features_in_practice)
 
-### The fonts are properly-spaced
+### The fonts are properly spaced
 
 While rare, it’s possible to have a font that checks all of our boxes, but lacks decent spacing, which means that it could still look terrible once we start actually setting text with it. Professional fonts should be properly spaced, and they should also contain [kerning pair data](/glossary/kerning_kerning_pairs) that tweaks the spacing between certain glyphs.
 
@@ -216,9 +215,9 @@ Read more in our article [“Pairing typefaces.”](/lesson/pairing_typefaces)
 
 ### We have, or our client has, the appropriate font license(s)
 
-Whether fonts are sold or given away for free, each has an associated license (and we should have a copy of the license for each font we have a copy of.) When we use a font, that implies we've agreed to those license terms.
+Whether fonts are sold or given away for free, each has an associated license (and we should have a copy of the license for each font we have a copy of.) When we use a font, that implies we’ve agreed to those license terms.
 
-We should always check that the end use of our type is covered by the font’s license. There's often a different license required for web fonts to desktop fonts, or even usage in apps and ebooks. The price to license a font for a personal logo may differ from the cost of using it on a news website served to millions of users and it is up to us or our client to confirm the correct usage.
+We should always check that the end use of our type is covered by the font’s license. There’s often a different license required for web fonts to desktop fonts, or even usage in apps and ebooks. The price to license a font for a personal logo may differ from the cost of using it on a news website served to millions of users, and it’s up to us or our client to confirm the correct usage.
 
 Because price can vary depending on the fonts we choose and their end uses, affordability should also be another constraint to help us narrow our choices.
 

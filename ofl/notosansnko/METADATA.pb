@@ -19,20 +19,4 @@ languages: "bm_Nkoo"  # Bambara, Nko
 languages: "dyu_Nkoo"  # Dyula, Nko
 languages: "man_Nkoo"  # Mandingo, Nko
 languages: "nqo_Nkoo"  # N’Ko
-sample_glyphs {
-  key: "Marks"
-  value: "߫ ߬ ߭ ߮ ߯ ߰ ߱ ߲ ߳ ߽"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉"
-}
-sample_glyphs {
-  key: "N’Ko"
-  value: "ߊ ߋ ߌ ߍ ߎ ߏ ߐ ߑ ߒ ߓ ߔ ߕ ߖ ߗ ߘ ߙ ߚ ߛ ߜ ߝ ߞ ߟ ߠ ߡ ߢ ߣ ߤ ߥ ߦ ߧ ߨ ߩ ߪ ߴ ߵ ߺ ߶ ߾ ߿"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "٪ ߷ ߸ ߹ ، ؛ ؟ ⸜ ⸝ ﴾ ﴿"
-}
-display_name: "Noto Sans N'Ko"
+display_name: "Noto Sans N\'Ko"

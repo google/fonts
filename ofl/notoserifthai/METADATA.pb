@@ -33,23 +33,3 @@ languages: "pi_Thai"  # Pali, Thai
 languages: "sou_Thai"  # Southern Thai
 languages: "th_Thai"  # Thai
 languages: "tts_Thai"  # Northeastern Thai
-sample_glyphs {
-  key: "Marks"
-  value: "ั ิ ี ึ ื ุ ู ฺ ็ ่ ้ ๊ ๋ ์ ํ ๎ ̃ ̱"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "๏ ๚ ๛ - ‐"
-}
-sample_glyphs {
-  key: "Spacing Modifiers"
-  value: "˗"
-}
-sample_glyphs {
-  key: "Thai"
-  value: "ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ า ำ เ แ โ ใ ไ ๅ ๆ ฿"
-}

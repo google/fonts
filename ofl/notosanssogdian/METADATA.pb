@@ -17,19 +17,3 @@ subsets: "sogdian"
 is_noto: true
 languages: "aii_Sogd"  # Assyrian Neo-Aramaic, Sogdian
 languages: "sog_Sogd"  # Sogdian
-sample_glyphs {
-  key: "Marks"
-  value: "𐽆 𐽇 𐽈 𐽉 𐽊 𐽋 𐽌 𐽍 𐽎 𐽏 𐽐"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "𐽑 𐽒 𐽓 𐽔"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "𐽕 𐽖 𐽗 𐽘 𐽙"
-}
-sample_glyphs {
-  key: "Sogdian"
-  value: "𐼰 𐼱 𐼲 𐼳 𐼴 𐼵 𐼶 𐼷 𐼸 𐼹 𐼺 𐼻 𐼼 𐼽 𐼾 𐼿 𐽀 𐽁 𐽂 𐽃 𐽄 𐽅"
-}

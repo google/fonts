@@ -17,15 +17,3 @@ subsets: "marchen"
 is_noto: true
 languages: "bo_Marc"  # Tibetan, Marchen
 languages: "sa_Marc"  # Sanskrit, Marchen
-sample_glyphs {
-  key: "Marchen"
-  value: "𑱲 𑱳 𑱴 𑱵 𑱶 𑱷 𑱸 𑱹 𑱺 𑱻 𑱼 𑱽 𑱾 𑱿 𑲀 𑲁 𑲂 𑲃 𑲄 𑲅 𑲆 𑲇 𑲈 𑲉 𑲊 𑲋 𑲌 𑲍 𑲎 𑲏"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "𑲒 𑲓 𑲔 𑲕 𑲖 𑲗 𑲘 𑲙 𑲚 𑲛 𑲜 𑲝 𑲞 𑲟 𑲠 𑲡 𑲢 𑲣 𑲤 𑲥 𑲦 𑲧 𑲩 𑲪 𑲫 𑲬 𑲭 𑲮 𑲯 𑲰 𑲱 𑲲 𑲳 𑲴 𑲵 𑲶"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "𑱰 𑱱"
-}

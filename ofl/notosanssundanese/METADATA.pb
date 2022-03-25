@@ -22,19 +22,3 @@ axes {
 is_noto: true
 languages: "sa_Sund"  # Sanskrit, Sundanese
 languages: "su_Sund"  # Sundanese, Sundanese
-sample_glyphs {
-  key: "Marks"
-  value: "ᮀ ᮁ ᮂ ᮡ ᮢ ᮣ ᮤ ᮥ ᮦ ᮧ ᮨ ᮩ ᮪ ᮫ ᮬ ᮭ"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "᮰ ᮱ ᮲ ᮳ ᮴ ᮵ ᮶ ᮷ ᮸ ᮹"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇ - ‐"
-}
-sample_glyphs {
-  key: "Sundanese"
-  value: "ᮃ ᮄ ᮅ ᮆ ᮇ ᮈ ᮉ ᮊ ᮋ ᮌ ᮍ ᮎ ᮏ ᮐ ᮑ ᮒ ᮓ ᮔ ᮕ ᮖ ᮗ ᮘ ᮙ ᮚ ᮛ ᮜ ᮝ ᮞ ᮟ ᮠ ᮮ ᮯ ᮺ ᮻ ᮼ ᮽ ᮾ ᮿ"
-}

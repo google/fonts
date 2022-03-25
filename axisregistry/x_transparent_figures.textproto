@@ -9,5 +9,6 @@ fallback {
   name: "Normal"
   value: 400
 }
+fallback_only: false
 description:
   "Assigns a 'white' per mille value to each instance of the design space."

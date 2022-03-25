@@ -25,19 +25,3 @@ subsets: "menu"
 subsets: "javanese"
 is_noto: true
 languages: "jv_Java"  # Javanese, Javanese
-sample_glyphs {
-  key: "Javanese"
-  value: "ꦄ ꦅ ꦆ ꦇ ꦈ ꦉ ꦊ ꦋ ꦌ ꦍ ꦎ ꦏ ꦐ ꦑ ꦒ ꦓ ꦔ ꦕ ꦖ ꦗ ꦘ ꦙ ꦚ ꦛ ꦜ ꦝ ꦞ ꦟ ꦠ ꦡ ꦢ ꦣ ꦤ ꦥ ꦦ ꦧ ꦨ ꦩ ꦪ ꦫ ꦬ ꦭ ꦮ ꦯ ꦰ ꦱ ꦲ"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "ꦀ ꦁ ꦂ ꦃ ꦳ ꦴ ꦵ ꦶ ꦷ ꦸ ꦹ ꦺ ꦻ ꦼ ꦽ ꦾ ꦿ ꧀"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "꧐ ꧑ ꧒ ꧓ ꧔ ꧕ ꧖ ꧗ ꧘ ꧙"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧇ ꧈ ꧉ ꧊ ꧋ ꧌ ꧍ ꧞ ꧟"
-}

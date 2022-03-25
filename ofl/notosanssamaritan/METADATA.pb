@@ -18,15 +18,3 @@ is_noto: true
 languages: "aii_Samr"  # Assyrian Neo-Aramaic, Samaritan
 languages: "sam_Samr"  # Samaritan Aramaic, Samaritan
 languages: "smp_Samr"  # Samaritan
-sample_glyphs {
-  key: "Marks"
-  value: "ࠖ ࠗ ࠘ ࠙ ࠛ ࠜ ࠝ ࠞ ࠟ ࠠ ࠡ ࠢ ࠣ ࠥ ࠦ ࠧ ࠩ ࠪ ࠫ ࠬ ࠭"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "࠰ ࠱ ࠲ ࠳ ࠴ ࠵ ࠶ ࠷ ࠸ ࠹ ࠺ ࠻ ࠼ ࠽ ࠾ ⸱"
-}
-sample_glyphs {
-  key: "Samaritan"
-  value: "ࠀ ࠁ ࠂ ࠃ ࠄ ࠅ ࠆ ࠇ ࠈ ࠉ ࠊ ࠋ ࠌ ࠍ ࠎ ࠏ ࠐ ࠑ ࠒ ࠓ ࠔ ࠕ ࠚ ࠤ ࠨ"
-}

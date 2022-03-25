@@ -7,11 +7,15 @@ default_value: 100
 precision: -1
 # Instance values based on https://docs.microsoft.com/en-us/typography/opentype/spec/os2#uswidthclass
 fallback {
-  name: "Ultra Condensed"
+  name: "SuperCondensed"
+  value: 25
+}
+fallback {
+  name: "UltraCondensed"
   value: 50
 }
 fallback {
-  name: "Extra Condensed"
+  name: "ExtraCondensed"
   value: 62.5
 }
 fallback {
@@ -19,7 +23,7 @@ fallback {
   value: 75
 }
 fallback {
-  name: "Semi Condensed"
+  name: "SemiCondensed"
   value: 87.5
 }
 fallback {
@@ -27,7 +31,7 @@ fallback {
   value: 100
 }
 fallback {
-  name: "Semi Expanded"
+  name: "SemiExpanded"
   value: 112.5
 }
 fallback {
@@ -35,16 +39,17 @@ fallback {
   value: 125
 }
 fallback {
-  name: "Extra Expanded"
+  name: "ExtraExpanded"
   value: 150
 }
 fallback {
-  name: "Ultra Expanded"
+  name: "UltraExpanded"
   value: 200
 }
+fallback_only: false
 description:
   "Adjust the style from narrower to wider, by varying the proportions of"
-  " counters, stems, and other forms including overall spacinig and kerning."
+  " counters, stems, and other forms including overall spacing and kerning."
   " This typically changes the apparent weight (what typographers call"
   " 'typographic color') in a subtle way, and so may be used in conjunction"
   " with axes for Width and Grade (if present)."

@@ -17,11 +17,3 @@ subsets: "inscriptional-pahlavi"
 is_noto: true
 languages: "aii_Phli"  # Assyrian Neo-Aramaic, Inscriptional Pahlavi
 languages: "pal_Phli"  # Pahlavi
-sample_glyphs {
-  key: "Inscriptional Pahlavi"
-  value: "𐭠 𐭡 𐭢 𐭣 𐭤 𐭥 𐭦 𐭧 𐭨 𐭩 𐭪 𐭫 𐭬 𐭭 𐭮 𐭯 𐭰 𐭱 𐭲"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "𐭸 𐭹 𐭺 𐭻 𐭼 𐭽 𐭾 𐭿"
-}

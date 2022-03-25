@@ -16,15 +16,3 @@ subsets: "menu"
 subsets: "mandaic"
 is_noto: true
 languages: "myz_Mand"  # Mandaic
-sample_glyphs {
-  key: "Mandaic"
-  value: "ࡀ ࡁ ࡂ ࡃ ࡄ ࡅ ࡆ ࡇ ࡈ ࡉ ࡊ ࡋ ࡌ ࡍ ࡎ ࡏ ࡐ ࡑ ࡒ ࡓ ࡔ ࡕ ࡖ ࡗ ࡘ"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "࡙ ࡚ ࡛"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "࡞"
-}

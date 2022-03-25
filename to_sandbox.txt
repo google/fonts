@@ -1,45 +1,95 @@
 # New
-ofl/imperialscript
-ofl/islandmoments
-ofl/licorice
-ofl/luxuriousroman
-ofl/moondance
-ofl/neonderthaw
-ofl/sourceserif4
-ofl/thenautigal
-ofl/vujahdayscript
-ofl/waterfall
+ofl/akshar
 
-# Upgrade
-ofl/baloo2
-ofl/baloochettan2
-ofl/balooda2
-ofl/baloothambi2
-ofl/expletussans
-ofl/yrsa
-ofl/rasa
-ofl/zenoldmincho
+# Small fix/other
+ofl/bizudgothic
+ofl/bizudmincho
+ofl/bizudpgothic
+ofl/bizudpmincho
 
 # Metadata/desc/OFL
-ofl/fuggles
-ofl/merriweather
-ofl/eczar
-ofl/scheherazadenew
-ofl/lexend
-ofl/lexenddeca
-ofl/lexendexa
-ofl/lexendgiga
-ofl/lexendmega
-ofl/lexendpeta
-ofl/lexendtera
-ofl/lexendzetta
+ofl/heebo
 
 # Designer profile
-catalog/designers/artakana
-catalog/designers/erinmclaughlin
-catalog/designers/gutenberglabo
-catalog/designers/superunion
-catalog/designers/vaibhavsingh
+catalog/designers/alexandresaumierdemers
+catalog/designers/charlesdaoud
+catalog/designers/coppersandbrasses
+catalog/designers/morisawainc
 
-# fix category 8/18/2021 held back to update axis registry first
-# ofl/sawarabimincho
+# Knowledge
+knowledge/glossary/terms/casual_axis
+knowledge/glossary/terms/casual_axis/images
+knowledge/glossary/terms/cursive_axis
+knowledge/glossary/terms/cursive_axis/images
+knowledge/glossary/terms/fill_axis
+knowledge/glossary/terms/fill_axis/images
+knowledge/glossary/terms/grade
+knowledge/glossary/terms/grade/images
+knowledge/glossary/terms/grade_axis
+knowledge/glossary/terms/grade_axis/images
+knowledge/glossary/terms/greek_script
+knowledge/glossary/terms/greek_script/images
+knowledge/glossary/terms/hierarchy
+knowledge/glossary/terms/hierarchy/images
+knowledge/glossary/terms/homoglyph
+knowledge/glossary/terms/homoglyph/images
+knowledge/glossary/terms/italic_axis
+knowledge/glossary/terms/italic_axis/images
+knowledge/glossary/terms/masters
+knowledge/glossary/terms/masters/images
+knowledge/glossary/terms/monospace_axis
+knowledge/glossary/terms/monospace_axis/images
+knowledge/glossary/terms/optical_size_axis
+knowledge/glossary/terms/optical_size_axis/images
+knowledge/glossary/terms/overshoot
+knowledge/glossary/terms/overshoot/images
+knowledge/glossary/terms/placeholder_text
+knowledge/glossary/terms/placeholder_text/images
+knowledge/glossary/terms/script_writing_system
+knowledge/glossary/terms/script_writing_system/images
+knowledge/glossary/terms/slant_axis
+knowledge/glossary/terms/slant_axis/images
+knowledge/glossary/terms/softness_axis
+knowledge/glossary/terms/softness_axis/images
+knowledge/glossary/terms/superscript_subscript
+knowledge/glossary/terms/superscript_subscript/images
+knowledge/glossary/terms/weight_axis
+knowledge/glossary/terms/weight_axis/images
+knowledge/glossary/terms/width_axis
+knowledge/glossary/terms/width_axis/images
+knowledge/glossary/terms/wonky_axis
+knowledge/glossary/terms/wonky_axis/images
+knowledge/modules/choosing_type
+knowledge/modules/choosing_type/lessons/a_checklist_for_choosing_type
+knowledge/modules/choosing_type/lessons/a_checklist_for_choosing_type/images
+knowledge/modules/choosing_type/lessons/emotive_considerations_for_choosing_typefaces
+knowledge/modules/introducing_type
+knowledge/modules/introducing_type/lessons/an_overview_of_latin_type_anatomy
+knowledge/modules/introducing_type/lessons/an_overview_of_latin_type_anatomy/images
+knowledge/modules/introducing_type/lessons/why_care_about_typography
+knowledge/modules/using_type
+knowledge/modules/using_type/lessons/choosing_a_suitable_line_height
+knowledge/modules/using_type/lessons/language_support_in_fonts
+knowledge/modules/using_type/lessons/language_support_in_fonts/images
+knowledge/modules/using_type/lessons/the_foundations_of_web_typography
+knowledge/modules/using_type/lessons/the_foundations_of_web_typography/images
+knowledge/modules/using_type/lessons/using_web_fonts
+knowledge/modules/using_type/lessons/using_web_fonts_from_a_font_delivery_service
+
+# HELD
+# ofl/opensans
+# ofl/radiocanada
+# ofl/robotoflex
+
+# Axis Registry
+axisregistry/flair.textproto
+axisregistry/volume.textproto
+axisregistry/x_opaque.textproto
+axisregistry/x_transparent.textproto
+axisregistry/x_transparent_figures.textproto
+axisregistry/y_opaque.textproto
+axisregistry/y_transparent_ascender.textproto
+axisregistry/y_transparent_descender.textproto
+axisregistry/y_transparent_figures.textproto
+axisregistry/y_transparent_lowercase.textproto
+axisregistry/y_transparent_uppercase.textproto

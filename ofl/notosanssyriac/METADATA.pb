@@ -38,35 +38,3 @@ languages: "ar_Syrc"  # Arabic, Syriac
 languages: "syc_Syrc"  # Classical Syriac
 languages: "syr_Syrc"  # Syriac
 languages: "tru_Syrc"  # Turoyo, Syriac
-sample_glyphs {
-  key: "Arabic"
-  value: "ء"
-}
-sample_glyphs {
-  key: "Common Latin"
-  value: "° + ="
-}
-sample_glyphs {
-  key: "Marks"
-  value: "ܑ ܰ ܱ ܲ ܳ ܴ ܵ ܶ ܷ ܸ ܹ ܺ ܻ ܼ ܽ ܾ ܿ ݀ ݁ ݂ ݃ ݄ ݅ ݆ ݇ ݈ ݉ ݊ ̃ ̄ ̇ ̈ ̊ ̠ ̣ ̤ ̥ ̭ ̮ ̰ ̱ ً ٌ ٍ َ ُ ِ ّ ْ ٓ ٔ ٕ ٰ"
-}
-sample_glyphs {
-  key: "Math Operators"
-  value: "−"
-}
-sample_glyphs {
-  key: "Misc Symbols"
-  value: "♰ ♱"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "٪ ٫ ٬ ܀ ܁ ܂ ܃ ܄ ܅ ܆ ܇ ܈ ܉ ܊ ܋ ܌ ܍ ! ( ) - . / : [ \\ ] « » ، ؛ ؟ … * ⁄"
-}
-sample_glyphs {
-  key: "Syriac"
-  value: "ܐ ܒ ܓ ܔ ܕ ܖ ܗ ܘ ܙ ܚ ܛ ܜ ܝ ܞ ܟ ܠ ܡ ܢ ܣ ܤ ܥ ܦ ܧ ܨ ܩ ܪ ܫ ܬ ܭ ܮ ܯ ݍ ݎ ݏ"
-}

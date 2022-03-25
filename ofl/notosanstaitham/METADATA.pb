@@ -22,23 +22,3 @@ axes {
 is_noto: true
 languages: "kkh_Lana"  # Tai Khün
 languages: "nod_Lana"  # Northern Thai
-sample_glyphs {
-  key: "Marks"
-  value: "ᩕ ᩖ ᩗ ᩘ ᩙ ᩚ ᩛ ᩜ ᩝ ᩞ ᩠ ᩡ ᩢ ᩣ ᩤ ᩥ ᩦ ᩧ ᩨ ᩩ ᩪ ᩫ ᩬ ᩭ ᩮ ᩯ ᩰ ᩱ ᩲ ᩳ ᩴ ᩵ ᩶ ᩷ ᩸ ᩹ ᩺ ᩻ ᩼ ᩿"
-}
-sample_glyphs {
-  key: "Math Operators"
-  value: "∙"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "᪀ ᪁ ᪂ ᪃ ᪄ ᪅ ᪆ ᪇ ᪈ ᪉ ᪐ ᪑ ᪒ ᪓ ᪔ ᪕ ᪖ ᪗ ᪘ ᪙"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "᪠ ᪡ ᪢ ᪣ ᪤ ᪥ ᪦ ᪨ ᪩ ᪪ ᪫ ᪬ ᪭"
-}
-sample_glyphs {
-  key: "Tai Tham"
-  value: "ᨠ ᨡ ᨢ ᨣ ᨤ ᨥ ᨦ ᨧ ᨨ ᨩ ᨪ ᨫ ᨬ ᨭ ᨮ ᨯ ᨰ ᨱ ᨲ ᨳ ᨴ ᨵ ᨶ ᨷ ᨸ ᨹ ᨺ ᨻ ᨼ ᨽ ᨾ ᨿ ᩀ ᩁ ᩂ ᩃ ᩄ ᩅ ᩆ ᩇ ᩈ ᩉ ᩊ ᩋ ᩌ ᩍ ᩎ ᩏ ᩐ ᩑ ᩒ ᩓ ᩔ ᪧ"
-}

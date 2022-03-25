@@ -16,15 +16,3 @@ subsets: "menu"
 subsets: "tagalog"
 is_noto: true
 languages: "fil_Tglg"  # Filipino, Tagalog
-sample_glyphs {
-  key: "Marks"
-  value: "ᜒ ᜓ ᜔"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "᜵ ᜶"
-}
-sample_glyphs {
-  key: "Tagalog"
-  value: "ᜀ ᜁ ᜂ ᜃ ᜄ ᜅ ᜆ ᜇ ᜈ ᜉ ᜊ ᜋ ᜌ ᜎ ᜏ ᜐ ᜑ"
-}

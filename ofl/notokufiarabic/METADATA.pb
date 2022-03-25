@@ -101,19 +101,3 @@ languages: "wni_Arab"  # Ndzwani Comorian
 languages: "wo_Arab"  # Wolof, Arabic
 languages: "zdj_Arab"  # Ngazidja Comorian
 languages: "zlm_Arab"  # Malay, Arabic
-sample_glyphs {
-  key: "Arabic"
-  value: "ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٮ ٯ ٱ ٲ ٳ ٵ ٶ ٷ ٸ ٹ ٺ ٻ ټ ٽ پ ٿ ڀ ځ ڂ ڃ ڄ څ چ ڇ ڈ ډ ڊ ڋ ڌ ڍ ڎ ڏ ڐ ڑ ڒ ړ ڔ ڕ ږ ڗ ژ ڙ ښ ڛ ڜ ڝ ڞ ڟ ڠ ڡ ڢ ڣ ڤ ڥ ڦ ڧ ڨ ک ڪ ګ ڬ ڭ ڮ گ ڰ ڱ ڲ ڳ ڴ ڵ ڶ ڷ ڸ ڹ ں ڻ ڼ ڽ ھ ڿ ۀ ہ ۂ ۃ ۄ ۅ ۆ ۇ ۈ ۉ ۊ ۋ ی ۍ ێ ۏ ې ۑ ے ۓ ە ۥ ۦ ۮ ۯ ۺ ۻ ۼ ۿ ݐ ݑ ݒ ݓ ݔ ݕ ݖ ݗ ݘ ݙ ݚ ݛ ݜ ݝ ݞ ݟ ݠ ݡ ݢ ݣ ݤ ݥ ݦ ݧ ݨ ݩ ݪ ݫ ݬ ݭ ﭪ ﭫ ﭬ ﭭ ﱣ ﷲ ﹰ ﹲ ﹴ ﹶ ﹸ ﹺ ﹼ ﹾ ؋ ؎ ؏ ۞ ۩ ۽ ۾ ﷼"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "ؐ ؑ ؒ ؓ ؔ ؕ ٖ ٗ ٘ ٙ ٚ ٛ ٜ ٝ ٞ ٟ ۖ ۗ ۘ ۙ ۚ ۛ ۜ ۟ ۠ ۡ ۢ ۣ ۤ ۧ ۨ ۪ ۫ ۭ ً ٌ ٍ َ ُ ِ ّ ْ ٓ ٔ ٕ ٰ"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "؍ ؞ ٪ ٫ ٬ ٭ ۔ ، ؛ ؟ ﴾ ﴿"
-}

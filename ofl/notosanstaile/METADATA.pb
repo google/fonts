@@ -16,19 +16,3 @@ subsets: "menu"
 subsets: "tai-le"
 is_noto: true
 languages: "tdd_Tale"  # Tai Nüa
-sample_glyphs {
-  key: "Marks"
-  value: "̀ ́ ̇ ̈ ̌"
-}
-sample_glyphs {
-  key: "Numbers"
-  value: "၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "、 。 〈 〉 《 》"
-}
-sample_glyphs {
-  key: "Tai Le"
-  value: "ᥐ ᥑ ᥒ ᥓ ᥔ ᥕ ᥖ ᥗ ᥘ ᥙ ᥚ ᥛ ᥜ ᥝ ᥞ ᥟ ᥠ ᥡ ᥢ ᥣ ᥤ ᥥ ᥦ ᥧ ᥨ ᥩ ᥪ ᥫ ᥬ ᥭ ᥰ ᥱ ᥲ ᥳ ᥴ"
-}

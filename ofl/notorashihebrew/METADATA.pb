@@ -27,15 +27,3 @@ languages: "lad_Hebr"  # Ladino
 languages: "sam_Hebr"  # Samaritan Aramaic
 languages: "yi_Hebr"  # Yiddish
 languages: "zh_Hebr"  # Chinese, Hebrew
-sample_glyphs {
-  key: "Hebrew"
-  value: "א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "֑ ֒ ֓ ֔ ֕ ֖ ֗ ֘ ֙ ֚ ֛ ֜ ֝ ֞ ֟ ֠ ֡ ֢ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֺ ֻ ּ ֽ ֿ ׁ ׂ ׄ ׅ ׇ"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "־ ׀ ׃ ׆ ׳ ״ -"
-}

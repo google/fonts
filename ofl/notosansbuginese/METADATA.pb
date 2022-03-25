@@ -19,15 +19,3 @@ languages: "bug_Bugi"  # Buginese, Buginese
 languages: "mak_Bugi"  # Makasar, Buginese
 languages: "mdr_Bugi"  # Mandar, Buginese
 languages: "sa_Bugi"  # Sanskrit, Buginese
-sample_glyphs {
-  key: "Buginese"
-  value: "ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ"
-}
-sample_glyphs {
-  key: "Marks"
-  value: "ᨗ ᨘ ᨙ ᨚ ᨛ"
-}
-sample_glyphs {
-  key: "Punctuation"
-  value: "᨞ ᨟"
-}

@@ -10,7 +10,7 @@ fallback {
   value: 100
 }
 fallback {
-  name: "Extra Light"
+  name: "ExtraLight"
   value: 200
 }
 fallback {
@@ -26,7 +26,7 @@ fallback {
   value: 500
 }
 fallback {
-  name: "Semi Bold"
+  name: "SemiBold"
   value: 600
 }
 fallback {
@@ -34,13 +34,14 @@ fallback {
   value: 700
 }
 fallback {
-  name: "Extra Bold"
+  name: "ExtraBold"
   value: 800
 }
 fallback {
   name: "Black"
   value: 900
 }
+fallback_only: false
 description:
   "Adjust the style from lighter to bolder in typographic color, by varying"
   " stroke thicknesses or other forms. This typically changes overall width,"

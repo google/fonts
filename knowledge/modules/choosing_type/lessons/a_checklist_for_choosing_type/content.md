@@ -57,7 +57,7 @@ An elaborate [script](/glossary/script_typeface_style) typeface, full of flouris
 <figure>
 
 ![“The Thing” set very large in a horror-style typeface, then the same typeface used for a paragraph body copy, in which it appears hard to read.](images/a_checklist_for_choosing_type_3.svg)
-<figcaption>[Creepster](https://fonts.google.com/specimen/Creepster).</figure>
+<figcaption>Text set in Creepster</figure>
 
 </figure>
 
@@ -99,7 +99,7 @@ It’s entirely possible for a typeface to be suitable for a project—especiall
 <figure>
 
 ![A montage of Regular, Italic, Bold, and Bold Italic  weights and styles.](images/a_checklist_for_choosing_type_6.svg)
-<figcaption>[Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro).</figure>
+<figcaption>Source Serif Pro.</figure>
 
 </figure>
 
@@ -122,12 +122,13 @@ Read more in our articles [“Introducing alternate glyphs”](/lesson/introduci
 ### Even better: It has additional weights and styles (or grades)
 
 With most typefaces offering regular, bold, italic, and bold italic weights and styles, it’s reasonable to ask why we might need yet more variation. Those four are usually enough to convey emphasis and hierarchy, especially when paired with other typographic elements, such as changes in font size.
+
 However, having multiple weights—if not multiple styles—allows far greater flexibility when typesetting large amounts of text, with different typographic elements.
 
 <figure>
 
 ![On the left, a heading and paragraph using Bold and Regular weights, respectively. On the right, larger text set in two more extreme weight differences.](images/a_checklist_for_choosing_type_8.svg)
-<figcaption>[Lato](https://fonts.google.com/specimen/Lato) and [Epilogue](https://fonts.google.com/specimen/Epilogue).</figcaption>
+<figcaption>Lato and Epilogue.</figcaption>
 
 </figure>
 
@@ -142,7 +143,7 @@ Like weights, different widths share the typeface’s skeletal structure, meanin
 <figure>
 
 ![Three different widths of the same typeface used for three different elements.](images/a_checklist_for_choosing_type_9.svg)
-<figcaption>Different widths of [Encode Sans](https://fonts.google.com/specimen/Encode+Sans) </figcaption>
+<figcaption>Different widths of Encode Sans.</figcaption>
 
 </figure>
 

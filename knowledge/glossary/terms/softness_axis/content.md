@@ -3,7 +3,9 @@
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-| Default: 0 | Min: 0 | Max: 100 | Step: 0.01 |
+| Default: | Min: | Max: | Step: |
+| --- | --- | --- | --- |
+| 0 | 0 | 100 | 0.1 |
 
 In the [Fraunces](https://fonts.google.com/specimen/Fraunces) [typeface](/glossary/typeface), the softness axis can turn the sharpness and [high-contrast](/glossary/contrast) [serifs](/glossary/serif) into bubble-like forms, and at its softest, the typeface starts to resemble the style of typefaces such as Souvenir or Bookman.
 

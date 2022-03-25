@@ -3,7 +3,9 @@
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
-| Default: 0 | Min: 0 | Max: 1 | Step: 1 |
+| Default: | Min: | Max: | Step: |
+| --- | --- | --- | --- |
+| 0 | 0 | 1 | 1 |
 
 In the [Fraunces](INSERT_URL) [typeface](/glossary/typeface), setting wonky to “on” (1) introduces the quirkier leaning of the lowercase n/m/h upright characters, or the bulbous flags of the lowercase b/d/h/k/l italic characters. In static fonts, wonky is also available as an [OpenType stylistic set](/glossary/stylistic_sets).
 

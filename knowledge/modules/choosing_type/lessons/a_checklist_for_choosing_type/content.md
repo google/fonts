@@ -117,6 +117,8 @@ There’s so much typographic power to unlock via OpenType if the features exist
 
 ![A montage of OpenType features: The four different flavors of numerals, stylistic sets, fractions, and contextual alternates.](images/thumbnail.svg)
 
+</figure>
+
 Read more in our articles [“Introducing alternate glyphs”](/lesson/introducing_alternate_glyphs) and [“Implementing OpenType features on the web”](/lesson/implementing_open_type_features_on_the_web)
 
 ### 2e. Even better: It has additional weights and styles (or grades)

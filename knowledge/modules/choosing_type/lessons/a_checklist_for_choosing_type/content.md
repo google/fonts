@@ -173,7 +173,7 @@ Having made a sensible (or adventurous!) typeface choice based on everything abo
 
 Even if we know that these features exist, the particular font file we’re using might not necessarily include the glyphs we need.
 
-There are a number of reasons this could be the case, such as a “lite” or non-“pro” version of the font that’s available at a lower price, or perhaps a version that’s coming from a content delivery network over which we have no control. [Web fonts](/glossary/web_fonts) sold directly from a foundry website aren’t necessarily the same versions that appear on font delivery services such as Google Fonts or Adobe Fonts, so double-check the completeness of your font file.
+There are a number of reasons this could be the case, such as a “lite” or non-“pro” version of the font that’s available at a lower price, or perhaps a version that’s coming from a content delivery network over which we have no control. [Web fonts](/glossary/web_font) sold directly from a foundry website aren’t necessarily the same versions that appear on font delivery services such as Google Fonts or Adobe Fonts, so double-check the completeness of your font file.
 
 <figure>
 

@@ -69,7 +69,7 @@ For ease of internationalization, Google has categorized languages into three ca
 
 In Android, Noto fonts are the default typefaces for all languages not covered by the original Roboto. The set is designed to be visually harmonious across languages and scripts, with compatible heights and stroke thicknesses. The project covers over 150 scripts, each defined in Unicode.
 
-For more about Noto, please visit [the Noto page on Google Fonts](INSERT_URL).
+For more about Noto, please visit [the Noto page on Google Fonts](https://fonts.google.com/noto).
 
 Noto Chinese, Japanese, and Korean (CJK) typefaces each have seven weights that match the original Roboto, with the same weight settings as English.
 

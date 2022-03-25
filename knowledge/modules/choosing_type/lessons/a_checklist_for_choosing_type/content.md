@@ -2,10 +2,10 @@ Every article in [our “Choosing type” section](/module/choosing_type) aims t
 
 We’ll start off with the checklist itself—which is also [available on GitHub](https://github.com/elliotjaystocks/choosing-type-checklist/blob/main/checklist.md)—and then spend some time diving into each part of it.
 
-1. The typeface suits the purpose of the project
+1. **The typeface suits the purpose of the project**
     - Its personality will prompt the appropriate emotional response(s) from our audience
     - Its design fits the intended use
-2. The typeface’s design is comprehensive
+2. **The typeface’s design is comprehensive**
     - It has enough multi-language support
     - It contains legible details
     - It has at least the basic weights and styles
@@ -13,10 +13,10 @@ We’ll start off with the checklist itself—which is also [available on GitHub
     - Even better: It has additional weights and styles (or grades)
     - Even better: It has multiple widths
     - Even better: It has different optical sizes
-3. The font files are reliable
+3. **The font files are reliable**
     - All of the design features checked above are actually included in the font files being used
     - The fonts are properly spaced
-4. The fonts are usable in the situation(s) required
+4. **The fonts are usable in the situation(s) required**
     - If serving as a secondary typeface to a primary choice, there’s a suitable balance between distinction and harmony
     - We have, or our client has, the appropriate font license(s)
 

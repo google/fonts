@@ -30,7 +30,7 @@ Some writing systems, such as Arabic and Hebrew, are displayed with characters a
 
 UIs for languages that are read from right-to-left (RTL), such as Arabic and Hebrew, should be mirrored to ensure content is easy to understand. For more information, please read [Bidirectionality on Material Design](https://material.io/design/usability/bidirectionality.html#mirroring-elements).
 
-Many writing systems might require different [line-height](/glossary/line_height_leading) and spacing adjustments. Line length, line spacing, and character spacing can vary within a script that is used for many languages.
+Many writing systems might require different [line height](/glossary/line_height_leading) and spacing adjustments. Line length, line spacing, and character spacing can vary within a script that is used for many languages.
 
 ## Height
 

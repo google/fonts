@@ -1,5 +1,5 @@
 
-A drop cap is a large, [uppercase](/glossary/uppercase_lowercase) letter used for decoration in the opening of a piece (or section) of [text](/glossary/text), most often employed in editorial scenarios. It’s a direct descendant of the “illuminated” initials that originated in hand-lettered (pre-[type](/glossary/type)) bibles.
+A drop cap is a large, [uppercase](/glossary/uppercase_lowercase) letter used for decoration in the opening of a piece (or section) of [text](/glossary/text_copy), most often employed in editorial scenarios. It’s a direct descendant of the “illuminated” initials that originated in hand-lettered (pre-[type](/glossary/type)) bibles.
 
 <figure>
 

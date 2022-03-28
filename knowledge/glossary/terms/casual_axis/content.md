@@ -1,4 +1,4 @@
-“Casual” (`CASL` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). Along this axis, letterforms adjust from a more serious style to a more casual style, in a manner determined by the type designer. This can mean adjustments in stroke curvature, contrast, and terminals to go from a sturdy, rational “linear” style to a friendly, energetic “casual” style.
+“Casual” (`CASL` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). Along this axis, [letterforms](/glossary/letterform) adjust from a more serious style to a more casual style, in a manner determined by the [type designer](/glossary/type_designer). This can mean adjustments in [stroke](/glossary/stroke) curvature, [contrast](/glossary/contrast), and [terminals](/glossary/terminal) to go from a sturdy, rational “linear” style to a friendly, energetic “casual” style.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

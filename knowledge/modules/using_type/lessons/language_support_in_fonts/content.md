@@ -30,7 +30,7 @@ Some writing systems, such as Arabic and Hebrew, are displayed with characters a
 
 UIs for languages that are read from right-to-left (RTL), such as Arabic and Hebrew, should be mirrored to ensure content is easy to understand. For more information, please read [Bidirectionality on Material Design](https://material.io/design/usability/bidirectionality.html#mirroring-elements).
 
-Many writing systems might require different [line-height](/glossary/line_height_leading) and spacing adjustments. Line length, line spacing, and character spacing can vary within a script that is used for many languages.
+Many writing systems might require different [line height](/glossary/line_height_leading) and spacing adjustments. Line length, line spacing, and character spacing can vary within a script that is used for many languages.
 
 ## Height
 
@@ -69,7 +69,7 @@ For ease of internationalization, Google has categorized languages into three ca
 
 In Android, Noto fonts are the default typefaces for all languages not covered by the original Roboto. The set is designed to be visually harmonious across languages and scripts, with compatible heights and stroke thicknesses. The project covers over 150 scripts, each defined in Unicode.
 
-For more about Noto, please visit [the Noto page on Google Fonts](INSERT_URL).
+For more about Noto, please visit [the Noto page on Google Fonts](https://fonts.google.com/noto).
 
 Noto Chinese, Japanese, and Korean (CJK) typefaces each have seven weights that match the original Roboto, with the same weight settings as English.
 

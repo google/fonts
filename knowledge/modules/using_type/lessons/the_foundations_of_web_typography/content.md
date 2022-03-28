@@ -1,9 +1,10 @@
 
-The internet is so entrenched in our everyday lives, it can be easy to forget that it’s a relatively young medium, and that reading [text](/glossary/text) on screen is actually a pretty new behavior. However, although web [typography](/glossary/typography) brings its own conventions, it’s based on long established practices of printed typography—a practice that has been evolving over the last several hundred years.
+The internet is so entrenched in our everyday lives, it can be easy to forget that it’s a relatively young medium, and that reading [text](/glossary/text_copy) on screen is actually a pretty new behavior. However, although web [typography](/glossary/typography) brings its own conventions, it’s based on long established practices of printed typography—a practice that has been evolving over the last several hundred years.
 
 ## Reading and writing on the web
 
 There are two main reasons why web typography—and reading on-screen as a whole—differs from the world of printed media.
+
 The first is that web pages are inherently fluid: Content will fill the viewport, whether it’s narrow or wide, and the vertical height of each web page is dictated by the content itself, whether short or long. This is in direct contrast to the world of printed media, where the constraints are fixed by the pages themselves, and content is forced to work within those fixed parameters. (In the early 00s, some web designers attempted to mirror this approach, with technologies like Flash, but returned to its naturally fluid roots with the arrival of smartphones that required [responsive web design](http://www.alistapart.com/articles/responsive-web-design/) in 2010.)
 
 <figure>
@@ -13,7 +14,7 @@ The first is that web pages are inherently fluid: Content will fill the viewport
 
 </figure>
 
-The second reason is that text flow is unpredictable, especially when a template design is finished before the text content is even written. Whether it’s a journalist writing a story in a newspaper website’s [CMS](https://en.wikipedia.org/wiki/Content_management_system), or a user leaving a comment on social media, there’s a limited notion of what the content actually is before it’s rendered on the page. This is unlike printed media, where content is edited to fit the page exactly, perhaps even being edited at a word-by-word level to make for a more harmonious appearance.
+The second reason is that text flow is unpredictable, especially when a template design is finished before the text content is even written. Whether it’s a journalist writing a story in a newspaper website’s content management system, or a user leaving a comment on social media, there’s a limited notion of what the content actually is before it’s rendered on the page. This is unlike printed media, where content is edited to fit the page exactly, perhaps even being edited at a word-by-word level to make for a more harmonious appearance.
 
 Different viewports, the often subtle differences between different devices and platforms, and the growth of user-generated content together represent the inherent flexibility of the web: a thoroughly modern challenge in terms of typography. But again, the way that we treat type on screen is based on the well-developed typographic practices honed over time, and the [typographer](/glossary/typographer)’s goal remains the same: Make text readable and carry the text’s message.
 
@@ -83,6 +84,8 @@ CSS is the second language we use to add typographic style and layout to HTML. I
 Now, working in that separate CSS file, it’s time to apply our own typography to our text. Sticking with [system fonts](/glossary/system_font_web_safe_font) rather than [web fonts](/glossary/web_font) for now, we’ll improve its overall appearance.
 
 First, let’s increase the contrast in size between our headings and paragraph text:
+
+```css
 body {
     font-size: 16px;
 }
@@ -92,6 +95,8 @@ h2 {
 h1 {
     font-size: 200%;
 }
+```
+
 Now let’s make everything a bit more readable by opening up the line-height a bit:
 
 ```css

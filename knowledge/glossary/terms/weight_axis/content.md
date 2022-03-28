@@ -1,5 +1,5 @@
 
-Weight (`wght` in CSS) is an axis found in many variable fonts. It controls the [font](/glossary/font) file’s [weight](/glossary/weight) parameter.
+Weight (`wght` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in many [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [weight](/glossary/weight) parameter.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

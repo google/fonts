@@ -11,7 +11,7 @@ Negative grade makes the style lighter, while positive grade makes it heavier. T
 
 <figure>
 
-![Two side-by-side type specimens of the word INSERT, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, INSERT. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, INSERT.](images/thumbnail.svg)
+![Two side-by-side type specimens of the word “slightly”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a negative value on the axis, shows more contrast. The second specimen, with the slider most of the way to the right to represent a positive value on the axis, shows less contrast.](images/thumbnail.svg)
 
 </figure>
 

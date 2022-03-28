@@ -1,4 +1,4 @@
-“Cursive” (`CRSV` in CSS)  is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts), and controls the substitution of cursive forms. “Off” (0) maintains upright letterforms such as a double-storey a and g, “auto” (0.5) allows for cursive substitution of cursive forms when combined with the [slant axis](/glossary/slant_axis), and “on” (1) asserts cursive forms even in upright text with a slant of 0.
+“Cursive” (`CRSV` in CSS)  is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts), and controls the substitution of cursive forms. “Off” (0) maintains upright [letterforms](/glossary/letterform) such as a double-storey a and g, “auto” (0.5) allows for cursive substitution of cursive forms when combined with the [slant axis](/glossary/slant_axis), and “on” (1) asserts cursive forms even in [upright](/glossary/regular_upright) text with a slant of 0.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

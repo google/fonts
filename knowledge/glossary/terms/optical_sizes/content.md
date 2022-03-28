@@ -14,4 +14,4 @@ Small (or [body](/glossary/body)) optical sizes tend to have:
 - more open spacing,
 - and taller [x-heights](/glossary/x_height)
 
-than those of their large (or [display](/glossary/display)) counterparts. Different optical sizes can be split into separate [font](/glossary/font) files or be assigned to an [axis](/glossary/axis_in_variable_fonts) within a [variable font](/glossary/variable_fonts).
+than those of their large (or [display](/glossary/display)) counterparts. Different optical sizes can be split into separate [font](/glossary/font) files or be assigned to the [optical size axis](/glossary/optical_size_axis) within a [variable font](/glossary/variable_fonts).

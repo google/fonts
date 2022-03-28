@@ -10,6 +10,7 @@ The first is that web pages are inherently fluid: Content will fill the viewport
 <figure>
 
 ![An approximation of four viewports, each of a different width and height.](images/the_foundations_of_web_typography_1.svg)
+
 <figcaption>The content naturally fills the width of the browser, and the height of the web page is dictated by the length of the content it contains.</figcaption>
 
 </figure>
@@ -124,6 +125,7 @@ We declare the width in a relative unit called ems, which is preferable to pixel
 <figure>
 
 ![An approximation of a desktop viewport, with the content’s width capped to stop line length from becoming too wide.](images/the_foundations_of_web_typography_5.svg)
+
 <figcaption>The content now stops becoming too wide on bigger viewports.</figcaption>
 
 </figure>
@@ -178,7 +180,7 @@ Note: It’s usually worth getting the Bold (700) Italic font file to avoid any 
 
 ## Self-hosting web fonts
 
-If you’d prefer to host the web fonts you use on your own server, every font in the Google Fonts library is available to download. Self-hosting is also an option if fonts simply aren’t available on Google Fonts or your font delivery service of choice. We’ve prepared a quick guide on [“Self-hosting web fonts”](/lesson/self_hosting_web_fonts).
+If you’d prefer to host the web fonts you use on your own server, every font in the Google Fonts library is available to download. Self-hosting is also an option if fonts simply aren’t available on Google Fonts or your font delivery service of choice. We’ve prepared a quick guide on [“Self-hosting web fonts.”](/lesson/self_hosting_web_fonts)
 
 ## Optimizing the performance of web fonts
 
@@ -186,4 +188,4 @@ It’s worth remembering that web fonts, just like all website assets, are resou
 
 At the simplest level, this is a valid argument for using only a small number of typefaces in our designs, but also it means limiting the number of weights and styles used within those type families to save on file size. This is a core advantage of [variable fonts](/glossary/variable_fonts): If we’re using multiple weights and styles, all of them are contained in only one or two files—and that file is almost always considerably smaller than downloading many individual font files.
 
-There’s more that we can do to optimize our web fonts, however. We can avoid a [flash of invisible text](/glossary/foit)—when a web page loads without the type appearing at all, before rendering to the intended typeface—and any undesirable re-rendering by combining `<link rel="preload">` with `font-display: optional`. You can read more about this technique on the web.dev articles [“Prevent layout shifting and flashes of invisible text (FOIT) by preloading optional fonts”](https://web.dev/preload-optional-fonts/) and [“Optimize WebFont loading and rendering”](https://web.dev/optimize-webfont-loading/).
+There’s more that we can do to optimize our web fonts, however. We can avoid a [flash of invisible text](/glossary/foit)—when a web page loads without the type appearing at all, before rendering to the intended typeface—and any undesirable re-rendering by combining `<link rel="preload">` with `font-display: optional`. You can read more about this technique on the web.dev articles [“Prevent layout shifting and flashes of invisible text (FOIT) by preloading optional fonts”](https://web.dev/preload-optional-fonts/) and [“Optimize WebFont loading and rendering.”](https://web.dev/optimize-webfont-loading/)

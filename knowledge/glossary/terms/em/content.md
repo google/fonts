@@ -14,7 +14,7 @@ The [em dash](/glossary/dashes) is so named because its width, in theory, is one
 
 <figure>
 
-![On the left, an “h” glyph sitting inside an em square, with arrows illustrating its total width. On the right, an em dash, occupying nearly the same width.](images/Em_2.svg)
+![On the left, an “h” glyph sitting inside an em square, with arrows illustrating its total width. On the right, an em dash, occupying nearly the same width.](images/em_2.svg)
 
 </figure>
 

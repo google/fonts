@@ -13,6 +13,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-Oblique [characters](/glossary/character) follow the structure of the [upright](/glossary/regular_upright) styles, while [italics](/glossary/italic) have a different structure, typically informed by cursive [writing](/glossary/handwriting). Obliques are not necessarily merely [digitally slanted](/lesson/introducing_weights_styles#avoiding-fake-weights-and-styles)—optical corrections are often made to avoid distortions and an incorrect distribution of weight. Generally, obliques are less common than italics.
+Oblique [characters](/glossary/character) follow the structure of the [upright](/glossary/regular_upright) styles, while [italics](/glossary/italic) have a different structure, typically informed by cursive [writing](/glossary/handwriting). Obliques are not necessarily merely [digitally slanted](https://fonts.google.com/knowledge/introducing_type/introducing_weights_styles#avoiding-fake-weights-and-styles)—optical corrections are often made to avoid distortions and an incorrect distribution of weight. Generally, obliques are less common than italics.
+
+[//]: # (TO-DO: Turn that article link above into a regular Markdown format URL once there’s support for heading IDs in Markdown URLs.)
 
 For variable fonts, the [italic axis](/glossary/italic_axis) and the slant axis are very closely related. For detailed descriptions on how to use both, please see our [“Styling type on the web with variable fonts”](/lesson/styling_type_on_the_web_with_variable_fonts) article.

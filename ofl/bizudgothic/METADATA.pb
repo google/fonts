@@ -21,6 +21,8 @@ fonts {
   full_name: "BIZ UDGothic Bold"
   copyright: "Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek-ext"
 subsets: "japanese"
@@ -29,7 +31,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/morisawa-biz-ud-gothic"
-  commit: "ed0bb20ae36bb556c4f3de741f3ee95226c1dbbd"
+  commit: "58f84ea09278fb886d40af50ed4d32a55517ca49"
 }
 languages: "aa_Latn"  # Afar
 languages: "abq_Cyrl"  # Abaza

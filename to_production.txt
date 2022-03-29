@@ -1,7 +1,5 @@
 # Small fix/other
 axisregistry/width.textproto
-knowledge/glossary/terms/axis_in_variable_fonts
-knowledge/glossary/terms/superfamily
 ofl/abeezee
 ofl/fredoka
 ofl/nunito
@@ -12,6 +10,11 @@ ofl/zenkakugothicnew
 # Metadata/desc/OFL
 ofl/aladin
 ofl/kufam
+ofl/sourceserif4
+ofl/spartan
+ofl/splinesans
+
+# Metadata/desc/OFL (Noto)
 ofl/notosansdisplay
 ofl/notosanshk
 ofl/notosansjp
@@ -23,6 +26,7 @@ ofl/notoserifjp
 ofl/notoserifkr
 ofl/notoserifsc
 ofl/notoseriftc
-ofl/sourceserif4
-ofl/spartan
-ofl/splinesans
+
+# On hold until all of Knowledge can be updated together
+# knowledge/glossary/terms/axis_in_variable_fonts
+# knowledge/glossary/terms/superfamily

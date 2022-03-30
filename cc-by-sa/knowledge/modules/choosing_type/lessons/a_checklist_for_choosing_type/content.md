@@ -58,6 +58,8 @@ An elaborate [script](/glossary/script_typeface_style) typeface, full of flouris
 
 ![“The Thing” set very large in a horror-style typeface, then the same typeface used for a paragraph body copy, in which it appears hard to read.](images/a_checklist_for_choosing_type_3.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Creepster">Creepster</a></figcaption>
+
 </figure>
 
 ## 2. The typeface’s design is comprehensive
@@ -99,6 +101,8 @@ It’s entirely possible for a typeface to be suitable for a project—especiall
 
 ![A montage of Regular, Italic, Bold, and Bold Italic  weights and styles.](images/a_checklist_for_choosing_type_6.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Source+Serif+Pro">Source Serif Pro</a></figcaption>
+
 </figure>
 
 Read more in our article [“Introducing weights & styles.”](/lesson/introducing_weights_styles)
@@ -128,7 +132,8 @@ However, having multiple weights—if not multiple styles—allows far greater f
 <figure>
 
 ![On the left, a heading and paragraph using Bold and Regular weights, respectively. On the right, larger text set in two more extreme weight differences.](images/a_checklist_for_choosing_type_8.svg)
-<figcaption>Lato and Epilogue.</figcaption>
+
+<figcaption>Typefaces: <a href="https://fonts.google.com/specimen/Lato">Lato</a>, <a href="https://fonts.google.com/specimen/Epilogue">Epilogue</a></figcaption>
 
 </figure>
 
@@ -143,7 +148,8 @@ Like weights, different widths share the typeface’s skeletal structure, meanin
 <figure>
 
 ![Three different widths of the same typeface used for three different elements.](images/a_checklist_for_choosing_type_9.svg)
-<figcaption>Different widths of Encode Sans.</figcaption>
+
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Encode+Sans">Encode Sans</a></figcaption>
 
 </figure>
 
@@ -158,7 +164,9 @@ If a project requires the use of just one typeface, it can be useful to employ d
 <figure>
 
 ![On the left, text set in four different optical sizes at the intended font sizes for each. On the right, a close-up of each optical size, set at the same font size to emphasize the difference between each.](images/a_checklist_for_choosing_type_10.svg)
-<figcaption>Manipulating the `opsz` variable axis in Amstelvar.</figcaption>
+
+<figcaption>Typeface: <a href="https://github.com/googlefonts/amstelvar">Amstelvar</a></figcaption>
+
 
 </figure>
 
@@ -207,7 +215,9 @@ The single biggest challenge we face when pairing type is choosing a secondary t
 <figure>
 
 ![“If only there was a way we could emphasize it” set in a modern, semi-flared sans serif typeface, except for the word “emphasize”, set in a calligraphic face.](images/a_checklist_for_choosing_type_13.svg)
-<figcaption>Marcellus and Meddon. Although the x-height doesn’t match, note how the lavish ascenders and descenders makes up for it, and the stroke weight appears approximately the same.</figcaption>
+
+<figcaption>Typefaces: <a href="https://fonts.google.com/specimen/Marcellus">Marcellus</a>, <a href="https://fonts.google.com/specimen/Meddon">Meddon</a>.Although the x-height doesn’t match, note how the lavish ascenders and descenders makes up for it, and the stroke weight appears approximately the same.</figcaption>
+
 
 </figure>
 

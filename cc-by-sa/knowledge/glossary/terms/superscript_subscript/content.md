@@ -5,6 +5,8 @@ Superscript is [text](/glossary/text) formatted to appear smaller than the surro
 
 ![Montage: A paragraph with a superscript reference to a footnote, a heading with a superscript trademark, and a chemical formula with subscript atomic numbers.](images/thumbnail.svg)
 
+<figcaption>Typefaces: <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a>, <a href="https://fonts.google.com/specimen/Space+Grotesk">Space Grotesk</a>, <a href="https://fonts.google.com/noto/fonts">Noto Sans</a></figcaption>
+
 </figure>
 
 Superscript and subscript can be easily applied to text with controls in most user interfaces, from word processors to design applications.

@@ -1,6 +1,6 @@
 Every article in [our “Choosing type” section](/module/choosing_type) aims to be a useful guide on a specific aspect of choosing type. For this article, we’re condensing all of that information into one handy checklist—a checklist that can be referenced every single time we ever need to choose a [typeface](/glossary/typeface). Whether you’re selecting the first typeface for a new project, [pairing](/topics/pairing_type) a secondary typeface after the primary selection has been made, updating a brand with something new that retains the feel of the original, or anything in between, this checklist can act as a universal guide.
 
-We’ll start off with the checklist itself—which is also [available on GitHub](https://github.com/elliotjaystocks/choosing-type-checklist/blob/main/checklist.md)—and then spend some time diving into each part of it.
+We’ll start off with the checklist itself—which is also [available on GitHub](https://github.com/elliotjaystocks/choosing-type-checklist)—and then spend some time diving into each part of it.
 
 1. **The typeface suits the purpose of the project**
     - Its personality will prompt the appropriate emotional response(s) from our audience

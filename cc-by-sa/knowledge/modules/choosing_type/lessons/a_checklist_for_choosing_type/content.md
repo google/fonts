@@ -44,7 +44,7 @@ Comic Sans is perfect for setting children’s activity timetables that are disp
 
 <figure>
 
-![A press release for a scientific announcement, typeset in Comic Sans.](images/a_checklist_for_choosing_type_2.svg)
+![A school playground announcement and press release for a scientific announcement, both typeset in Comic Sans.](images/a_checklist_for_choosing_type_2.svg)
 
 </figure>
 

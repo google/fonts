@@ -1,11 +1,12 @@
 # Check to_sandbox.txt and to_production.txt do not contain typos
-name: Google Fonts Test Server Files
+name: Continuous Test + Deploy
 
 on:
   push:
     branches: [main]
+    tags: ["v*.*.*"]
   pull_request:
-    branches: [main]
+    branches: ['**']
 
 jobs:
   test_server_files:
@@ -16,8 +17,10 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: "3.8"
-    - name: Install dependencies
+
+    # Check to_sandbox.txt and to_production.txt do not contain typos
+    - name: Install gftools
       run: pip install gftools[qa]
-    - name: Check server files
+    - name: Lint server files
       run: gftools push-status . --lint
 

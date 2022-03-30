@@ -10,6 +10,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 ![Two side-by-side type specimens of the characters “gwayvz”, each shown with a variable axis represented beneath as an on/off switch. The second specimen, with the switch to the right, uses different forms: A single-storey “g” and “a”, and curvier lines for “w”, “y”, “v”, and “z”.](images/thumbnail.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Recursive">Recursive</a></figcaption>
+
 </figure>
 
 In line with the current CSS spec, all custom axes should be referenced in UPPERCASE (only the officially registered variable axes should appear in lowercase). Also, when using the Google Fonts API, the uppercase axes have to appear first in the URL.

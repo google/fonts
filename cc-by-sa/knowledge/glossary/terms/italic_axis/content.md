@@ -11,6 +11,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 ![Two side-by-side type specimens of the word “jumpstart”, each shown with a variable axis represented beneath as an on/off switch. The first specimen, with the switch to the left, uses upright or regular forms. The second specimen, with the switch to the right, uses italic forms.](images/thumbnail.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a></figcaption>
+
 </figure>
 
 Italic is a [type](/glossary/type) [style](/glossary/style) that’s almost always slanted and is designed to create emphasis in [text](/glossary/text_copy). Originally based on semi-cursive forms, italics are a direct contrast to the [upright](/glossary/regular_upright) style. Unlike [obliques](/glossary/oblique), which are slanted versions of the upright forms, italics have a different structure informed by cursive [handwriting](/glossary/handwriting)—with their own nuances.

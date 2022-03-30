@@ -11,6 +11,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 ![Two side-by-side type specimens of the word “thicken”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a light weight with thin strokes. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, shows a heavy weight with thick strokes.](images/thumbnail.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Epilogue">Epilogue</a></figcaption>
+
 </figure>
 
 Weight is the overall thickness of a [typeface](/glossary/typeface)’s [strokes](/glossary/stroke) in any given font. The most common weights are [regular](/glossary/regular_upright) and [bold](/glossary/bold), but weights can cover extremes from the very light to the very heavy. With the weight axis in variable fonts, the number of instances or weights is effectively unlimited.

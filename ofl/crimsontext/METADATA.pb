@@ -10,7 +10,7 @@ fonts {
   filename: "CrimsonText-Regular.ttf"
   post_script_name: "CrimsonText-Regular"
   full_name: "Crimson Text Regular"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -19,7 +19,7 @@ fonts {
   filename: "CrimsonText-Italic.ttf"
   post_script_name: "CrimsonText-Italic"
   full_name: "Crimson Text Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -28,7 +28,7 @@ fonts {
   filename: "CrimsonText-SemiBold.ttf"
   post_script_name: "CrimsonText-SemiBold"
   full_name: "Crimson Text SemiBold"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -37,7 +37,7 @@ fonts {
   filename: "CrimsonText-SemiBoldItalic.ttf"
   post_script_name: "CrimsonText-SemiBoldItalic"
   full_name: "Crimson Text SemiBold Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -46,7 +46,7 @@ fonts {
   filename: "CrimsonText-Bold.ttf"
   post_script_name: "CrimsonText-Bold"
   full_name: "Crimson Text Bold"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -55,12 +55,17 @@ fonts {
   filename: "CrimsonText-BoldItalic.ttf"
   post_script_name: "CrimsonText-BoldItalic"
   full_name: "Crimson Text Bold Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/Crimson"
+  commit: "4f1458ae64c6c0d9c5fdfbf5095c7fabe0fa063f"
+}
 languages: "aa_Latn"  # Afar
-languages: "abq_Cyrl"  # Abaza
 languages: "ace_Latn"  # Achinese
 languages: "af_Latn"  # Afrikaans
 languages: "aln_Latn"  # Gheg Albanian
@@ -72,15 +77,11 @@ languages: "ast_Latn"  # Asturian
 languages: "ay_Latn"  # Aymara
 languages: "ban_Latn"  # Balinese
 languages: "bbc_Latn"  # Batak Toba
-languages: "be_Cyrl"  # Belarusian
 languages: "bem_Latn"  # Bemba
 languages: "bez_Latn"  # Bena
-languages: "bg_Cyrl"  # Bulgarian
 languages: "bi_Latn"  # Bislama
 languages: "bik_Latn"  # Bikol
 languages: "bin_Latn"  # Bini
-languages: "br_Latn"  # Breton
-languages: "bs_Cyrl"  # Bosnian (Cyrillic)
 languages: "bs_Latn"  # Bosnian
 languages: "bto_Latn"  # Rinconada Bikol
 languages: "ca_Latn"  # Catalan
@@ -89,7 +90,6 @@ languages: "cgg_Latn"  # Chiga
 languages: "ch_Latn"  # Chamorro
 languages: "chk_Latn"  # Chuukese
 languages: "co_Latn"  # Corsican
-languages: "crh_Cyrl"  # Crimean Turkish
 languages: "crs_Latn"  # Seselwa Creole French
 languages: "cs_Latn"  # Czech
 languages: "csb_Latn"  # Kashubian
@@ -102,7 +102,6 @@ languages: "del_Latn"  # Delaware
 languages: "dsb_Latn"  # Lower Sorbian
 languages: "dyo_Latn"  # Jola-Fonyi
 languages: "ebu_Latn"  # Embu
-languages: "el_Grek"  # Greek
 languages: "en_Latn"  # English
 languages: "eo_Latn"  # Esperanto
 languages: "es_Latn"  # Spanish
@@ -120,12 +119,10 @@ languages: "gag_Latn"  # Gagauz
 languages: "gd_Latn"  # Scottish Gaelic
 languages: "gil_Latn"  # Gilbertese
 languages: "gl_Latn"  # Galician
-languages: "grc_Grek"  # Ancient Greek, Greek
 languages: "gsw_Latn"  # Swiss German
 languages: "guc_Latn"  # Wayuu
 languages: "guz_Latn"  # Gusii
 languages: "gv_Latn"  # Manx
-languages: "haw_Latn"  # Hawaiian
 languages: "hil_Latn"  # Hiligaynon
 languages: "hmn_Latn"  # Hmong
 languages: "hop_Latn"  # Hopi
@@ -154,20 +151,17 @@ languages: "kl_Latn"  # Kalaallisut
 languages: "kln_Latn"  # Kalenjin
 languages: "kmb_Latn"  # Kimbundu
 languages: "knf_Latn"  # Mankanya
-languages: "krc_Cyrl"  # Karachay-Balkar
 languages: "krl_Latn"  # Karelian
 languages: "ksb_Latn"  # Shambala
 languages: "ksh_Latn"  # Colognian
 languages: "ku_Cyrl"  # Kurdish
 languages: "ku_Latn"  # Kurdish, Latin
-languages: "kum_Cyrl"  # Kumyk
 languages: "kw_Latn"  # Cornish
 languages: "la_Latn"  # Latin
 languages: "lb_Latn"  # Luxembourgish
 languages: "lg_Latn"  # Ganda
 languages: "lij_Latn"  # Ligurian
 languages: "lmo_Latn"  # Lombard
-languages: "loz_Latn"  # Lozi
 languages: "lt_Latn"  # Lithuanian
 languages: "ltg_Latn"  # Latgalian
 languages: "lua_Latn"  # Luba-Lulua
@@ -175,7 +169,6 @@ languages: "luo_Latn"  # Luo
 languages: "luy_Latn"  # Luyia
 languages: "lv_Latn"  # Latvian
 languages: "mad_Latn"  # Madurese
-languages: "mdf_Cyrl"  # Moksha
 languages: "mer_Latn"  # Meru
 languages: "mfe_Latn"  # Morisyen
 languages: "mfv_Latn"  # Mandjak
@@ -183,14 +176,12 @@ languages: "mg_Latn"  # Malagasy
 languages: "mgh_Latn"  # Makhuwa-Meetto
 languages: "mi_Latn"  # Maori
 languages: "min_Latn"  # Minangkabau
-languages: "mk_Cyrl"  # Macedonian
 languages: "moe_Latn"  # Innu
 languages: "moh_Latn"  # Mohawk
 languages: "ms_Latn"  # Malay
 languages: "mt_Latn"  # Maltese
 languages: "mus_Latn"  # Muscogee
 languages: "mwl_Latn"  # Mirandese
-languages: "myv_Cyrl"  # Erzya
 languages: "nap_Latn"  # Neapolitan
 languages: "nd_Latn"  # North Ndebele
 languages: "nds_Latn"  # Low German
@@ -198,7 +189,6 @@ languages: "ng_Latn"  # Ndonga
 languages: "niu_Latn"  # Niuean
 languages: "njo_Latn"  # Ao Naga
 languages: "no_Latn"  # Norwegian
-languages: "nog_Cyrl"  # Nogai
 languages: "nov_Latn"  # Novial
 languages: "nr_Latn"  # South Ndebele
 languages: "nso_Latn"  # Northern Sotho
@@ -216,7 +206,6 @@ languages: "pms_Latn"  # Piedmontese
 languages: "pon_Latn"  # Pohnpeian
 languages: "prg_Latn"  # Prussian
 languages: "pt_Latn"  # Portuguese
-languages: "qu_Latn"  # Quechua
 languages: "quc_Latn"  # Kʼicheʼ
 languages: "qug_Latn"  # Chimborazo Highland Quichua
 languages: "rar_Latn"  # Rarotongan
@@ -225,8 +214,6 @@ languages: "rn_Latn"  # Rundi
 languages: "ro_Latn"  # Romanian
 languages: "rof_Latn"  # Rombo
 languages: "rom_Latn"  # Romany
-languages: "ru_Cyrl"  # Russian
-languages: "rue_Cyrl"  # Rusyn
 languages: "rup_Latn"  # Aromanian
 languages: "rw_Latn"  # Kinyarwanda
 languages: "rwk_Latn"  # Rwa
@@ -249,7 +236,6 @@ languages: "sn_Latn"  # Shona
 languages: "snk_Latn"  # Soninke
 languages: "so_Latn"  # Somali
 languages: "sq_Latn"  # Albanian
-languages: "sr_Cyrl"  # Serbian
 languages: "sr_Latn"  # Serbian (Latin)
 languages: "srn_Latn"  # Sranan Tongo
 languages: "ss_Latn"  # Swati
@@ -265,7 +251,6 @@ languages: "tk_Arab"  # Turkmen
 languages: "tk_Latn"  # Turkmen, Latin
 languages: "tkl_Latn"  # Tokelau
 languages: "tn_Latn"  # Tswana
-languages: "to_Latn"  # Tongan
 languages: "tpi_Latn"  # Tok Pisin
 languages: "tr_Latn"  # Turkish
 languages: "ts_Latn"  # Tsonga
@@ -273,9 +258,7 @@ languages: "tum_Latn"  # Tumbuka
 languages: "tvl_Latn"  # Tuvalu
 languages: "ty_Latn"  # Tahitian
 languages: "ug_Latn"  # Uyghur, Latin
-languages: "uk_Cyrl"  # Ukrainian
 languages: "umb_Latn"  # Umbundu
-languages: "uz_Latn"  # Uzbek
 languages: "ve_Latn"  # Venda
 languages: "vec_Latn"  # Venetian
 languages: "vep_Latn"  # Veps
@@ -288,7 +271,6 @@ languages: "wa_Latn"  # Walloon
 languages: "wae_Latn"  # Walser
 languages: "war_Latn"  # Waray
 languages: "wbp_Latn"  # Warlpiri
-languages: "wls_Latn"  # Wallisian
 languages: "wo_Latn"  # Wolof
 languages: "xav_Latn"  # Xavánte
 languages: "xh_Latn"  # Xhosa
@@ -297,4 +279,3 @@ languages: "yao_Latn"  # Yao
 languages: "yap_Latn"  # Yapese
 languages: "yua_Latn"  # Yucateco
 languages: "zu_Latn"  # Zulu
-languages: "zun_Latn"  # Zuni

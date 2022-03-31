@@ -38,7 +38,7 @@ The emotional response to the shape of [letterforms](/glossary/letterform) is a 
 
 Readers needn’t know anything about type to have an emotive response to it. It’s fair to say that most people have a subliminal awareness of historical and cultural trends in design, of which type has played a part. This means we can use some of these conventions to our advantage—as long as we’re aware of how those associations might differ around the globe and change from audience to audience.
 
-Note that although it can be useful to consider emotive considerations as a way of making an initial selection, be sure to follow the rest of this checklist for the more practical ones.
+Note that although it can be useful to consider emotive considerations as a way of making an initial selection, we should be sure to follow the rest of this checklist for the more practical ones.
 
 Comic Sans is perfect for setting children’s activity timetables that are displayed in a school playground. It’s perhaps not as appropriate for announcing scientific breakthroughs.
 
@@ -158,7 +158,7 @@ If a project requires the use of just one typeface, it can be useful to employ d
 <figure>
 
 ![On the left, text set in four different optical sizes at the intended font sizes for each. On the right, a close-up of each optical size, set at the same font size to emphasize the difference between each.](images/a_checklist_for_choosing_type_10.svg)
-<figcaption>Manipulating the `opsz` variable axis in Amstelvar.</figcaption>
+<figcaption>Manipulating the Optical Size variable axis (opsz) in Amstelvar.</figcaption>
 
 </figure>
 
@@ -221,7 +221,7 @@ Whether fonts are sold or given away for free, each has an associated license (a
 
 We should always check that the end use of our type is covered by the font’s license. There’s often a different license required for web fonts to desktop fonts, or even usage in apps and ebooks. The price to license a font for a personal logo may differ from the cost of using it on a news website served to millions of users, and it’s up to us or our client to confirm the correct usage.
 
-Because price can vary depending on the fonts we choose and their end uses, affordability should also be another constraint to help us narrow our choices.
+Because price can vary depending on the fonts we choose and their end uses, affordability is another constraint that can help narrow our choices.
 
 <figure>
 

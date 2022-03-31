@@ -17,8 +17,8 @@ fonts {
   style: "italic"
   weight: 400
   filename: "SofiaSans-Italic[wdth,wght].ttf"
-  post_script_name: "SofiaSans-Italic"
-  full_name: "Sofia Sans Italic"
+  post_script_name: "SofiaSans-HairlineItalic"
+  full_name: "Sofia Sans Hairline Italic"
   copyright: "Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans)"
 }
 subsets: "cyrillic"
@@ -38,7 +38,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/vv-monsalve/Sofia-Sans"
-  commit: "0edd730d634463701f6d15ed4d4b018a7ecdc580"
+  commit: "888b575b900b10ab513a0ca94a7f71c60c7730f7"
 }
 languages: "aa_Latn"  # Afar
 languages: "abq_Cyrl"  # Abaza

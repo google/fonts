@@ -26,4 +26,4 @@ strong {
 }
 ```
 
-Here, our text will be quite narrow—50% is what the type designer has decided is half of the regular (100%) width—and the `strong` text will be almost twice the width of the regular. Width values are always above 0, with 100% being the regular width.
+Here, our text will be quite narrow—the type designer has set 50% as half of the regular (100%) width—and the `strong` text will be almost twice the width of the regular. Width values are always above 0, with 100% being the regular width.

@@ -7,12 +7,12 @@ We’ll start off with the checklist itself—which is also [available on GitHub
     - Its design fits the intended use
 2. **The typeface’s design is comprehensive**
     - It has enough multi-language support
-    - It contains legible details
-    - It has at least the basic weights and styles
-    - Even better: It has alternate glyphs
-    - Even better: It has additional weights and styles (or grades)
-    - Even better: It has multiple widths
-    - Even better: It has different optical sizes
+    - It contains [legible](/glossary/legibility_readability) details
+    - It has at least the basic [weights](/glossary/weight) and [styles](/glossary/style)
+    - Even better: It has [alternate glyphs](/glossary/alternates)
+    - Even better: It has additional weights and styles (or [grades](/glossary/grade))
+    - Even better: It has multiple [widths](/glossary/width)
+    - Even better: It has different [optical sizes](/glossary/optical_sizes)
 3. **The font files are reliable**
     - All of the design features checked above are actually included in the font files being used
     - The fonts are properly spaced
@@ -64,7 +64,7 @@ An elaborate [script](/glossary/script_typeface_style) typeface, full of flouris
 
 ## 2. The typeface’s design is comprehensive
 
-Before we get into the specifics of actual font files, we need to consider the details in the design of the typeface itself. Has the [type designer](/glossary/type_designer) provided support for multiple languages, included legible details, and made the minimum [weights](/glossary/weight) and [styles](/glossary/style) necessary? Beyond that, does the typeface contain [alternate glyphs](/glossary/alternates), more weights and styles, different [widths](/glossary/width), and perhaps even [optical sizes](/glossary/optical_sizes)?
+Before we get into the specifics of actual font files, we need to consider the details in the design of the typeface itself. Has the [type designer](/glossary/type_designer) provided support for multiple languages, included legible details, and made the minimum weights and styles necessary? Beyond that, does the typeface contain alternate glyphs, more weights and styles, different widths, and perhaps even optical sizes?
 
 Let’s explore each in turn and, for detail, be sure to read our article [“Choosing reliable typefaces.”](/lesson/choosing_reliable_typefaces)
 

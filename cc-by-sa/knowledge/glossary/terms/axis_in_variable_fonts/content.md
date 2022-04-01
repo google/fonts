@@ -1,5 +1,5 @@
 
-In [variable fonts](/glossary/variable_fonts), "axis" usually refers to a single aspect of a [typeface](/glossary/typeface)’s design that can be altered by the user.
+In [variable fonts](/glossary/variable_fonts), “axis” usually refers to a single aspect of a [typeface](/glossary/typeface)’s design that can be altered by the user.
 
 <figure>
 

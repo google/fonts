@@ -5,6 +5,8 @@ When talking about [type](/glossary/type), it’s useful to have some familiarit
 
 ![A type specimen with horizontal lines in the background, illustrating the font’s vertical metrics: ascender, cap height, x-height, baseline, descender.](images/an_overview_of_latin_type_anatomy_1.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Epilogue">Epilogue</a></figcaption>
+
 </figure>
 
 We often discuss vertical proportions (or vertical metrics) when talking about optimal typesetting. In multiple lines of text, one of the most important roles played by an appropriate [line height](/glossary/line_height_leading) is to ensure that there’s no clash between descenders in one line and ascenders in the following line. The varying proportions in different typefaces—and in particular their x-heights—[can cause type to appear larger or smaller than others](lesson/exploring_x_height_the_em_square), even when the font size isn’t changed.
@@ -13,6 +15,8 @@ We often discuss vertical proportions (or vertical metrics) when talking about o
 
 ![A type specimen with parts of the letterforms accentuated to highlight examples of uppercase and lowercase forms, a diacritic, a serif, a ligature, and a small cap.](images/an_overview_of_latin_type_anatomy_2.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a></figcaption>
+
 </figure>
 
 The Latin script has two cases, which means that each letter has an [uppercase and lowercase](/glossary/uppercase_lowercase) form. Some common building blocks of [characters](/glossary/character) include varying flavors of [diacritics or accent marks](/glossary/diacritic_accent_marks), commonly used in Latin alphabets other than English (although they do appear in some loan words, such as “café” or “naïve”). [Serifs](/glossary/serif) are the marks or lines that can appear at the end of a character’s stroke; they lend their name to the collective name for typefaces that use serifs in their design. A [ligature](/glossary/ligature) is a [glyph](/glossary/glyph) that combines the shapes of certain sequences of characters into a new form in order to make for a more harmonious reading experience. As in the illustration, the character sequence of “f” and “i” is often replaced with a “fi” ligature. [Small caps](/glossary/small_caps) are uppercase letterforms with their proportions adjusted for setting within lowercase type, used for acronyms, single words, or a few words at the start of a chapter.
@@ -20,6 +24,8 @@ The Latin script has two cases, which means that each letter has an [uppercase a
 <figure>
 
 ![A type specimen with parts of the letterforms accentuated to highlight examples of the counter, diagonal stroke, ink trap, terminal, and stem.](images/thumbnail.svg)
+
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Noto+Serif">Noto Serif</a></figcaption>
 
 </figure>
 

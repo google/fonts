@@ -5,6 +5,8 @@ A script is a collective way of describing a writing system used by multiple lan
 
 ![A montage of multiple scripts from around the world.](images/thumbnail.svg)
 
+<figcaption>Typefaces: <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a>, <a href="https://fonts.google.com/specimen/Roboto+Slab">Roboto Slab</a>, <a href="https://fonts.google.com/specimen/Comfortaa">Comfortaa</a>, <a href="https://fonts.google.com/specimen/Open+Sans">Open Sans</a>, <a href="https://fonts.google.com/noto/fonts">Noto Serif, Noto Sans</a></figcaption>
+
 </figure>
 
 Other writing systems include [Greek](/glossary/greek_script) (upon which Latin is based), [Cyrillic](/glossary/cyrillic) (originally based on uppercase Greek forms), Arabic, Korean, Indic scripts from South and South East Asia, Han characters, and the traditional scripts of Africa.

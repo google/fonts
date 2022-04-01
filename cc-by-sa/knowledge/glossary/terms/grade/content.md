@@ -9,6 +9,8 @@ For screen reading, reversed (white on black or other light colors on dark backg
 
 ![The words “Graduation Ceremony” set in the same typeface, but with two different grade settings applied to the fonts, revealed via a sliding doors-like visual representation. Highlights accentuate where details in the letterforms differ between the two versions.](images/thumbnail.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Roboto+Serif">Roboto Serif</a></figcaption>
+
 </figure>
 
 In [variable fonts](/glossary/variable_fonts), the [grade axis](/glossary/grade_axis) allows for a level of granular control to create the optimal reading experience.

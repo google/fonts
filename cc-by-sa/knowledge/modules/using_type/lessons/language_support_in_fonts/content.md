@@ -7,6 +7,9 @@ Each written language uses its own set of [characters](/glossary/character). And
 
 ![A montage of multiple scripts from around the world.](images/language_support_in_fonts_1.svg)
 
+<figcaption>Typefaces: <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a>, <a href="https://fonts.google.com/specimen/Roboto+Slab">Roboto Slab</a>, <a href="https://fonts.google.com/specimen/Comfortaa">Comfortaa</a>, <a href="https://fonts.google.com/specimen/Open+Sans">Open Sans</a>, <a href="https://fonts.google.com/noto/fonts">Noto Serif, Noto Sans</a></figcaption>
+
+
 </figure>
 
 Word length can vary greatly across languages, even those that use the same [glyphs](/glossary/glyph), such as English and German.
@@ -14,6 +17,8 @@ Word length can vary greatly across languages, even those that use the same [gly
 <figure>
 
 ![English text set alongside a translated German version, showing how German words are longer and therefore take up more vertical space.](images/thumbnail.svg)
+
+<figcaption>Typeface: <a href="https://fonts.google.com/noto/fonts">Noto Sans</a> in this and all following illustrations.</figcaption>
 
 </figure>
 

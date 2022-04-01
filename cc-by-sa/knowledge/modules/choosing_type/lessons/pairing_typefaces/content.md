@@ -79,5 +79,5 @@ While pairing typefaces usually refers to the combination of two, the same logic
 
 - [*On Web Typography* by Jason Santa Maria](https://abookapart.com/products/on-web-typography)
 - [*Upping Your Type Game* by Jessica Hische](https://www.jessicahische.is/talkingtype)
-- *Stop stealing sheep and find out how type works* by Erik Spiekermann
-- *Combining Typefaces* by Tim Brown
+- “Stop stealing sheep and find out how type works” by Erik Spiekermann
+- “Combining Typefaces” by Tim Brown

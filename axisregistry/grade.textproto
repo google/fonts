@@ -10,6 +10,7 @@ fallback {
   value: 0
 }
 fallback_only: false
+illustration_url: "GRAD.png"
 description:
   "Finesse the style from lighter to bolder in typographic color, by varying"
   " stroke thicknesses or other forms, without any changes overall width,"

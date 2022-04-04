@@ -14,6 +14,7 @@ fallback {
   value: 1
 }
 fallback_only: true
+illustration_url: "ital.png"
 description:
   "Adjust the style from roman to italic. This can be provided as"
   " a continuous range within a single font file, like most axes, or as a"

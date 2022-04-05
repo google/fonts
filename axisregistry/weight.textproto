@@ -42,7 +42,7 @@ fallback {
   value: 900
 }
 fallback_only: false
-illustration_url: "wght.png"
+illustration_url: "weight.svg"
 description:
   "Adjust the style from lighter to bolder in typographic color, by varying"
   " stroke thicknesses or other forms. This typically changes overall width,"

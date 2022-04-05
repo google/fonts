@@ -13,7 +13,7 @@ fallback {
   value: 1.0
 }
 fallback_only: false
-illustration_url: "FILL.png"
+illustration_url: "fill.svg"
 description: "The Fill axis is intended to provide a treatment of the design"
   " that fills in transparent forms with opaque ones (and sometimes interior"
   " opaque forms become transparent, to maintain contrasting shapes)."

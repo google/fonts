@@ -9,9 +9,23 @@ ofl/whisper
 
 # Small fix/other
 ofl/robotoserif
+axisregistry/width.textproto
 
 # Metadata/desc/OFL
 ofl/heebo
+
+# Metadata/desc/OFL (Noto)
+ofl/notosansdisplay
+ofl/notosanshk
+ofl/notosansjp
+ofl/notosanskr
+ofl/notosanssc
+ofl/notosanstc
+ofl/notoserifdisplay
+ofl/notoserifjp
+ofl/notoserifkr
+ofl/notoserifsc
+ofl/notoseriftc
 
 # Designer profile
 catalog/designers/morisawainc

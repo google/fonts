@@ -33,7 +33,10 @@ message AxisProto {
   // might have only three relevant positions: the min, the middle, and the max.
   optional bool fallback_only = 9;
 
-  // Next = 10
+  // The thumbnail image for this axis, if any.
+  optional string illustration_url = 10;
+
+  // Next = 11
 }
 
 message FallbackProto {

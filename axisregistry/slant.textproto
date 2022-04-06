@@ -10,6 +10,7 @@ fallback {
   value: 0
 }
 fallback_only: false
+illustration_url: "slant.svg"
 description:
   "Adjust the style from upright to slanted, also known to typographers"
   " as an 'oblique' style. Rarely, slant can work in the other direction,"

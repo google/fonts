@@ -1,45 +1,38 @@
 # New
-ofl/akshar
-ofl/msmadi
-ofl/mysoul
-ofl/plusjakartasans
-ofl/squarepeg
-ofl/updock
-ofl/whisper
-
-# Small fix/other
-ofl/bizudgothic
-ofl/bizudmincho
-ofl/bizudpgothic
-ofl/bizudpmincho
+ofl/radiocanada
+ofl/robotoflex
 
 # Metadata/desc/OFL
-ofl/heebo
+ofl/opensans
 
-# Designer profile
-catalog/designers/alexandresaumierdemers
-catalog/designers/charlesdaoud
-catalog/designers/coppersandbrasses
-catalog/designers/morisawainc
-catalog/designers/tokotype
+# Upgrade
+ofl/crimsontext
 
-# Knowledge: just push it all
-knowledge/
+# Knowledge
+cc-by-sa/knowledge
 
 # Axis Registry
-axisregistry/flair.textproto
-axisregistry/volume.textproto
-axisregistry/x_opaque.textproto
-axisregistry/x_transparent.textproto
-axisregistry/x_transparent_figures.textproto
-axisregistry/y_opaque.textproto
-axisregistry/y_transparent_ascender.textproto
-axisregistry/y_transparent_descender.textproto
-axisregistry/y_transparent_figures.textproto
-axisregistry/y_transparent_lowercase.textproto
-axisregistry/y_transparent_uppercase.textproto
-
-# HELD
-# ofl/opensans
-# ofl/radiocanada
-# ofl/robotoflex
+axisregistry/casual.svg
+axisregistry/cursive.svg
+axisregistry/fill.svg
+axisregistry/grade.svg
+axisregistry/italic.svg
+axisregistry/monospace.svg
+axisregistry/optical_size.svg
+axisregistry/slant.svg
+axisregistry/softness.svg
+axisregistry/weight.svg
+axisregistry/width.svg
+axisregistry/wonky.svg
+axisregistry/casual.textproto
+axisregistry/cursive.textproto
+axisregistry/fill.textproto
+axisregistry/grade.textproto
+axisregistry/italic.textproto
+axisregistry/monospace.textproto
+axisregistry/optical_size.textproto
+axisregistry/slant.textproto
+axisregistry/softness.textproto
+axisregistry/weight.textproto
+axisregistry/width.textproto
+axisregistry/wonky.textproto

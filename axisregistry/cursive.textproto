@@ -20,6 +20,7 @@ fallback {
   display_name: "On"
 }
 fallback_only: true
+illustration_url: "cursive.svg"
 description:
   "Controls the substitution of cursive forms along the Slant axis. 'Off' (0)"
   " maintains Roman letterforms such as a double-storey a and g, 'Auto' (0.5)"

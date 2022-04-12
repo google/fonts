@@ -7,7 +7,7 @@ fonts {
   name: "Amiri Quran Colored"
   style: "normal"
   weight: 400
-  filename: "AmiriQuranColored-Regular.otf"
+  filename: "AmiriQuranColored-Regular.ttf"
   post_script_name: "AmiriQuranColored"
   full_name: "Amiri Quran Colored"
   copyright: "Copyright 2010-2021 The Amiri Project Authors (https://github.com/aliftype/amiri)."
@@ -21,4 +21,3 @@ languages: "sd_Arab"  # Sindhi
 languages: "tk_Arab"  # Turkmen
 languages: "ug_Arab"  # Uyghur
 languages: "ur_Arab"  # Urdu
-source_type: TYPE_OTF

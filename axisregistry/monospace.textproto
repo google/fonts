@@ -15,6 +15,7 @@ fallback {
   value: 1
 }
 fallback_only: false
+illustration_url: "monospace.svg"
 description:
   "Adjust the style from proportional (natural widths, default) to"
   " monospace (fixed width). Monospace is when all glyphs have the same"

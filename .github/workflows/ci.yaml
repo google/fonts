@@ -1,0 +1,26 @@
+# Check to_sandbox.txt and to_production.txt do not contain typos
+name: Continuous Test
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*.*.*"]
+  pull_request:
+    branches: ['**']
+
+jobs:
+  test_server_files:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.8"
+
+    # Check to_sandbox.txt and to_production.txt do not contain typos
+    - name: Install gftools
+      run: pip install gftools[qa]
+    - name: Lint server files
+      run: gftools push-status . --lint
+

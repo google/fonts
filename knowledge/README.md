@@ -1,3 +1,0 @@
-# Knowledge
-
-Watch this space.

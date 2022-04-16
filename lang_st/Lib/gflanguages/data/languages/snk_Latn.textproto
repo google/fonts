@@ -1,0 +1,24 @@
+id: "snk_Latn"
+language: "snk"
+script: "Latn"
+name: "Soninke"
+autonym: "Sooninkanxanne"
+population: 1153650
+region: "ML"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U W X Y a b c d e f g h i j k l m n o p q r s t u w x y \'"
+}
+sample_text {
+  masthead_full: "HhAa"
+  masthead_partial: "Dd"
+  styles: "O ga na a faayi nan ti saran xabiilanun doronde"
+  tester: "O ga na a faayi nan ti soron taqun turvinbalaaxun do i roxomaxantaaxun"
+  poster_sm: "O ga na a taayi"
+  poster_md: "O ga na a"
+  poster_lg: "Haadama"
+  specimen_48: "O ga na a faayi nan ti Duna feddi xooren da sigira xerexerente"
+  specimen_36: "O ga na a faayi ti jamaanu ku ga kafim i ga da laayidun raga nan ti i wa sikki do haadama renmun taqun koroosinden batte."
+  specimen_32: "Killen kaaran ŋa, a su nan yekka, killen na a su tangana moxo baane ke ya. Fo wo fo su do ke dantaqiye ga bogu me wure, soron su nan baana i ga i tangana. Katta ken ŋa moxo be."
+  specimen_21: "Killen ma sariyanun saaxaman ga da taqu beenu kini seren ŋa, i ga ñi a mulla i na fo bagu i ya, sere so raawa deemande muurunu kiitiraanu.\nra nta sere su ragana, na texi kaso ma na a bagandi jamaanen ŋa xafu kanma.\nI ga na fo tiifi sere ya, a nan siri i xibaaren dantaqini kiitira be ga nta saafandini, soron su jon ŋa, kiitira ke na a taqun do a waajibinun koyi ma a na ko a ga boxu noqu be."
+  specimen_16: "Sere su ra nta roono, fo koono an funen bire moxo, a kore, a kan xibaare ma na a bataaxun xara selli a ga ma an ñamari, a ra nta a roxondini xadi. Sariyan nan siri sere su tangana katta kun baqe, ken xa wa kappa sere su taqu.\nSere su raawa sinmene moxo be gan liŋo an dan ŋa, na ro diina. Ken taqe yan sigi, a ga raawa gilli ke diina katta baane tana. A raawa i diina bagandi sellan ŋa, a baane ma a do soro tanani, ma a kan noxo, a raawa a xaraŋundini, nan bati.\nSere su raawa xibaare walla moxo be gan liŋo a dan ŋa, na kun wariyu bagandi sellan ŋa. Ken wure ni ya sere su raawa wariyu kitta, na a muuru, ma na a sanqi noqu su, moxo su, i ga nta an tanpindini."
+}

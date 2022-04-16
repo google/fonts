@@ -1,0 +1,25 @@
+id: "bin_Latn"
+language: "bin"
+script: "Latn"
+name: "Bini"
+autonym: "Ẹ̀dó"
+population: 1519598
+region: "NG"
+exemplar_chars {
+  base: "A B D E F G H I K L M N O P R S T U V W Y Z Á É È Ẹ Í Ó Ò Ọ Ú a b d e f g h i k l m n o p r s t u v w y z á é è ẹ í ó ò ọ ú \'"
+  marks: "◌̀ ◌́ ◌̣"
+}
+sample_text {
+  masthead_full: "EeMm"
+  masthead_partial: "Ww"
+  styles: "Vbene a na mie wee ayere ero wee etin ne"
+  tester: "Vbene a na mie wee etin emwin ne o kheke ne omwan ne a ma ka"
+  poster_sm: "Vbene a ne"
+  poster_md: "Vbene a na"
+  poster_lg: "Emwan"
+  specimen_48: "Vbene a na mie wee Akugbe Uhunmwun Evbo hia tae guobo vbe Ebe"
+  specimen_36: "Vbene a na mie wee okere na ru alaghodaro oghe ayin-kugbe vbe ose vbe adese uhunmwun evbo hia,\nRhunmwunda ona, nia"
+  specimen_32: "Vbene a mie wee agbon hia renren wee etin nii hia ne o kheke ne omwan gha mween kevbe arriegbe oro re emwin ne o kpolo se kpataki na ya ru amuse ye eyan na,"
+  specimen_21: "Vbene a na mie wee ayere ero wee etin ne o kheke emwan hia fere oro re eyato oghe arhiegbe, emwanta kevbe ofunmwengbe vbe agbon.\nVbene a na mie wee etin emwin ne o kheke ne omwan ne a ma ka yo, ne o si uyinmwen obuluku-obuluza, ne o rhu emwan aro ekhoe, kevbe agbon node ne emwan nagbon gha na ghao rhie orhienrhien arriegbe ne omwan ya ta emwen ne o ho ne o ta vbe uwu amuentinyan kevbe arhiegbe hin obo ohan ke aimwen rre, ne a ya wewe zeevbe ida-eho oghe emwan kekan hia,"
+  specimen_16: "Vbene a na mie wee ayere ero wee etin ne o kheke emwan hia fere oro re eyato oghe arhiegbe, emwanta kevbe ofunmwengbe vbe agbon.\nVbene a na mie wee etin emwin ne o kheke ne omwan ne a ma ka yo, ne o si uyinmwen obuluku-obuluza, ne o rhu emwan aro ekhoe, kevbe agbon node ne emwan nagbon gha na ghao rhie orhienrhien arriegbe ne omwan ya ta emwen ne o ho ne o ta vbe uwu amuentinyan kevbe arhiegbe hin obo ohan ke aimwen rre, ne a ya wewe zeevbe ida-eho oghe emwan kekan hia,\nVbene a ne mie wee emwin ne o kere ne o wee na ghe ye atua tua emwan, ne iran ghe ya gha gbodan ghe uyinmwen ne o wegbe kevbe oderhu emwan ne i mween ase serrio wee ne ilele, oghe uhi ru gue etin omwan ne o khekee,"
+}

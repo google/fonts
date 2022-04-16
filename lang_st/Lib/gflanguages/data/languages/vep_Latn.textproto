@@ -1,0 +1,25 @@
+id: "vep_Latn"
+language: "vep"
+script: "Latn"
+name: "Veps"
+autonym: "Vepsä"
+population: 3543
+region: "RU"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü Č Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü č š ž"
+  marks: "◌̈ ◌̌"
+}
+sample_text {
+  masthead_full: "KkAa"
+  masthead_partial: "Ii"
+  styles: "Ottes homaitusehe, miše mez’kundan kaikiden"
+  tester: "ottes homaitusehe, miše hondostamine i kacmatomuz’ mehen oiktuzihe"
+  poster_sm: "ezitab necen"
+  poster_md: "Kaik mehed"
+  poster_lg: "Kaik"
+  specimen_48: "Tariž, miše jogahižel mehel oližiba kaik oiktuded i valdad, miččed"
+  specimen_36: "Nikeda ei sa kovasüdaimelišesti mokita, kovin ustavzoitta, tehta mugomid tegoid, kudambad alenzoitaižiba hänen arvokahuden."
+  specimen_32: "Jogahižel mehel om oiktuz’ mugoižehe socialižehe i rahvazkeskeižehe järgendusehe, konz neciš deklaracijas ezitadud oiktuded i valdad voiba täudes todenzoittas."
+  specimen_21: "Nimidä neciš deklaracijas ei sa el’geta muga, miše mitte-ni valdkund, mehiden grupp vai üks’ mez’ voib oiktuziden pohjal tehta mugomid tegoid, kudambad om oigetud heitmaha ezitadud neciš deklaracijas oiktuzid i valdoid.\nOttes homaitusehe, miše mez’kundan kaikiden ühtnikoiden arvokahuden i ühthižiden oiktuziden tundustamine oma valdan, oiktuden, mirun alandusen; i"
+  specimen_16: "Ottes homaitusehe, miše mez’kundan kaikiden ühtnikoiden arvokahuden i ühthižiden oiktuziden tundustamine oma valdan, oiktuden, mirun alandusen; i\nottes homaitusehe, miše hondostamine i kacmatomuz’ mehen oiktuzihe tob varvaroiden tegoid, kudambad käregoitas mez’kundan mel’tundod, i mehiden suren tahton i takaindan om mugoman mirun tegend, kudambas mehil linneb sanavald, kacmusiden vald, ei linne varaidust i mairišt; i\nottes homaitusehe, miše tarbiž mehiden oiktuded kaita zakonan valdal, sen täht, miše mehele ei pidaiži lopuks libuda tiranijan i ahthištusen vasthapäi; i"
+}

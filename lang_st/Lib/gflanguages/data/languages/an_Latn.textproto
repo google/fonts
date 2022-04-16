@@ -1,0 +1,25 @@
+id: "an_Latn"
+language: "an"
+script: "Latn"
+name: "Aragonese"
+autonym: "Aragonés"
+population: 26008
+region: "ES"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ñ Ó Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú"
+  marks: "◌́ ◌̃"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Zz"
+  styles: "Toz os ombres naxen libres y iguals en dinidat"
+  tester: "Toz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos"
+  poster_sm: "Toz os ombres"
+  poster_md: "Toz os"
+  poster_lg: "Toz"
+  specimen_48: "Toz os ombres naxen libres y iguals en dinidat y en"
+  specimen_36: "Toz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d\'una manera freternal."
+  specimen_32: "Toz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d\'una manera freternal."
+  specimen_21: "Toz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d\'una manera freternal.\nToz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d\'una manera freternal.\nToz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d\'una manera freternal."
+  specimen_16: "Toz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d\'una manera freternal.\nToz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d\'una manera freternal.\nToz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d\'una manera freternal.\nToz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d\'una manera freternal."
+}

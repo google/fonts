@@ -1,0 +1,24 @@
+id: "crs_Latn"
+language: "crs"
+script: "Latn"
+name: "Seselwa Creole French"
+autonym: "Seselwa"
+population: 94061
+region: "SC"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "NnOo"
+  masthead_partial: "Uu"
+  styles: "An rekonnesans ki dignite imen e bann drwa"
+  tester: "An konsiderasyon ki mank konnesans e respe pou bann drwa imen"
+  poster_sm: "Alor, Lasanble"
+  poster_md: "Nou tou imen"
+  poster_lg: "Nou"
+  specimen_48: "Sakenn-de-nou ganny drwa zwir tou nou bann drwa ek nou bann liberte"
+  specimen_36: "Personn pa devret ganny arete, obyen ganny met an detansyon, obyen ganny anvoye an ekzile an bonnavini."
+  specimen_32: "Tou dimoun merit en lord sosyal e enternasyonal kot nou bann drwa ek nou bann liberte, dapre sa kiín ekri dan sa Deklarasyon, a vin en realite konplet."
+  specimen_21: "Napa narnyen dan sa Deklarasyon ki devret ganny enterprete komkwa en leta, an group obyen en dimoun annan en drwa kelkonk pou fer nenport ki aktivite obyen aksyon ki kapab detri bann drwa ek bann liberte kin ganny ekri ladan.\nAn rekonnesans ki dignite imen e bann drwa egal e enseparab pou tou manm lafanmiyr imen I fondasyon pou laliberte, lazistis e lape dan lemonn,"
+  specimen_16: "An rekonnesans ki dignite imen e bann drwa egal e enseparab pou tou manm lafanmiyr imen I fondasyon pou laliberte, lazistis e lape dan lemonn,\nAn konsiderasyon ki mank konnesans e respe pou bann drwa imen in okazyonn en bann aksyon barbar kiín boulvers konsyans limanite, e osi larive en monn kot imen a kapab eksprim zot lekor dan laliberte e dapre zot konsyans san okenn lafreyer obyen mank mwayen, parey in ganny proklanmen konman laspirasyon pli o pou tou imen,\nAn konsiderasyon ki I esansyel ki bann drwa imen I ganny proteze par en sistenm lalwa kot dimoun pa oblize, konman en dernyen rekour, pou revolte kont la tirani e lopresyon,"
+}

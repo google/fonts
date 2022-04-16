@@ -1,0 +1,25 @@
+id: "mus_Latn"
+language: "mus"
+script: "Latn"
+name: "Muscogee"
+autonym: "Mvskoke"
+population: 3991
+region: "US"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ē a b c d e f g h i j k l m n o p q r s t u v w x y z ē"
+  marks: "◌̄"
+}
+sample_text {
+  masthead_full: "EeSs"
+  masthead_partial: "Tt"
+  styles: "Este vtekat, estimv ton omestowis, svlvfkekot"
+  tester: "Este vtekat, estimv ton omestowis, svlvfkekot heckvkvtet omet, vrvkkuecvke"
+  poster_sm: "Este vtekat,"
+  poster_md: "Este vtekat,"
+  poster_lg: "Este"
+  specimen_48: "Este vtekat, estimv ton omestowis, svlvfkekot heckvkvtet"
+  specimen_36: "Este vtekat, estimv ton omestowis, svlvfkekot heckvkvtet omet, vrvkkuecvke tayat, momen enyekcetv este vtekat emete mowvlkoset omes. Hoporrenkv momen fvccetv emvkhoyvtet omekv este etvkv vtekat emetecvkketv empoyvfekcv ofvn etohecvkvranet omes."
+  specimen_32: "Este vtekat, estimv ton omestowis, svlvfkekot heckvkvtet omet, vrvkkuecvke tayat, momen enyekcetv este vtekat emete mowvlkoset omes. Hoporrenkv momen fvccetv emvkhoyvtet omekv este etvkv vtekat emetecvkketv empoyvfekcv ofvn etohecvkvranet omes."
+  specimen_21: "Este vtekat, estimv ton omestowis, svlvfkekot heckvkvtet omet, vrvkkuecvke tayat, momen enyekcetv este vtekat emete mowvlkoset omes. Hoporrenkv momen fvccetv emvkhoyvtet omekv este etvkv vtekat emetecvkketv empoyvfekcv ofvn etohecvkvranet omes.\nEste vtekat, estimv ton omestowis, svlvfkekot heckvkvtet omet, vrvkkuecvke tayat, momen enyekcetv este vtekat emete mowvlkoset omes. Hoporrenkv momen fvccetv emvkhoyvtet omekv este etvkv vtekat emetecvkketv empoyvfekcv ofvn etohecvkvranet omes."
+  specimen_16: "Este vtekat, estimv ton omestowis, svlvfkekot heckvkvtet omet, vrvkkuecvke tayat, momen enyekcetv este vtekat emete mowvlkoset omes. Hoporrenkv momen fvccetv emvkhoyvtet omekv este etvkv vtekat emetecvkketv empoyvfekcv ofvn etohecvkvranet omes.\nEste vtekat, estimv ton omestowis, svlvfkekot heckvkvtet omet, vrvkkuecvke tayat, momen enyekcetv este vtekat emete mowvlkoset omes. Hoporrenkv momen fvccetv emvkhoyvtet omekv este etvkv vtekat emetecvkketv empoyvfekcv ofvn etohecvkvranet omes.\nEste vtekat, estimv ton omestowis, svlvfkekot heckvkvtet omet, vrvkkuecvke tayat, momen enyekcetv este vtekat emete mowvlkoset omes. Hoporrenkv momen fvccetv emvkhoyvtet omekv este etvkv vtekat emetecvkketv empoyvfekcv ofvn etohecvkvranet omes."
+}

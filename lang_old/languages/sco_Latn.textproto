@@ -1,0 +1,24 @@
+id: "sco_Latn"
+language: "sco"
+script: "Latn"
+name: "Scots"
+autonym: "Scots Leid"
+population: 1775549
+region: "GB"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ȝ a b c d e f g h i j k l m n o p q r s t u v w x y z ȝ"
+}
+sample_text {
+  masthead_full: "AaWw"
+  masthead_partial: "Hh"
+  styles: "Forsameikle as kenning for the inherent dignity"
+  tester: "Forsameikle as misregaird and contemption for human richts hes"
+  poster_sm: "Forsameikle"
+  poster_md: "The General"
+  poster_lg: "human"
+  specimen_48: "Proclaims this Universal Declaration o Human Richts as a common"
+  specimen_36: "Naebody shal be hauden in thirldom or slavery; slavery and the slave trade shal be prohibit in aw their forms."
+  specimen_32: "Awbody hes the richt til an effective remeid aff o the competent national tribunals for acts that daes skaith til the fundamental richts grantit him o the constitution or by law."
+  specimen_21: "Naebody shal be gart thole wulsome arrest, detention nor exile.\nAwbody is entitelt in ful equality til a fair and public hearing frae a staund-alane and even-haundit tribunal in the determination o his richts and duties and o ony criminal chairge conter him.\nNaebody shal be gart thole wulsome intromission wi his privacy, faimily, hame or letters, nor tae onsets upon his honour and repute. Awbody hes the richt tae the beild o the law conter sic intromission or onsets."
+  specimen_16: "Awbody hes the richt tae freedom o thocht, conscience and religioun; this richt includes the freedom tae chynge his religioun or belief, and freedom, aither his lane or in commonty and in public or in quietie, tae witness his religioun or belief in teaching, practick, worship and observance.\nAwbody hes the richt tae freedom o opinioun and expression; this richt includes freedom tae haud opiniouns wi nae intermeddling and tae seek, come by and gie oot wittings and conceits throu ony media and tentless o frontiers.\nAwbody hes the richt tae saucht and leisure, includin wyce stents on wark-oors and periodic time aff wi pey."
+}

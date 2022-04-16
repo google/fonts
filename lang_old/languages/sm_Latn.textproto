@@ -1,0 +1,26 @@
+id: "sm_Latn"
+language: "sm"
+script: "Latn"
+name: "Samoan"
+autonym: "Sāmoa"
+population: 252716
+region: "AS"
+region: "WS"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū"
+  marks: "◌̄"
+}
+sample_text {
+  masthead_full: "OoTt"
+  masthead_partial: "Aa"
+  styles: "Ona o le taliaina aloaia o le tofi mamalu"
+  tester: "Ona o le le amanaiaina ma le manatu faatauvaa i aia tatau a tagata"
+  poster_sm: "Ona o ituaiga"
+  poster_md: "Ona o lenei"
+  poster_lg: "tagata"
+  specimen_48: "Ua na faailoa aloaia mai, o lenei Tautinoga Aoao o Aia Tatau a"
+  specimen_36: "O tagata uma taitoatasi e i ai lana aia tatau e soifua ma ola ai, o lona saolotoga faapea lona malu puipuia."
+  specimen_32: "E leai se tagata e tatau ona taofia faamalosi i se faiga taufaa-pologa po o le nofo pologa; o faiga faapologa ma le faatauina o tagata pologa e tatau ona faasaina i ona tulaga uma,"
+  specimen_21: "E leai se tagata e tatau ona faataugaina pe faia i ai ni faiga saua, faiga e le tusa ma tulaga faale-tagata soifua po o le faalumaina po o le faasalaina,\nO tagata taitoatasi uma e i ai lana aia tatau e aloaia ai o ia i nofoaga uma e avea ai o ia o se tagata amanaiaina i luma o le tulafono,\nE leai se tagata e tatau ona saisaitia faapagota i se faiga saua, taofia pe faaaunuua i se isi atunuu."
+  specimen_16: "O tagata taitoatasi uma e agavaa i itu tutusa uma i se tulaga tatau e faafofogaina ai faalauaitele e se faamasinoga tutoatasi , ma le le faaituau, i le fuafuaina o ana aia tatau ma tiute tauave faapea so o se moliaga o soligatulafono e faasaga ia te ia.\nE leai se tagata e tatau ona noatia i se faiga saua e faalavelavea ai lona nofo toatasi, lona aiga, nofoaga tumau po o se nofoaga tutusa, po o le osofaia o lona tulaga faaaloalogia e lauiloa ai o ia. O tagata taitoatasi uma e i ai lana aia tatau i le puipuiga o le tulafono e faasaga agai i ia faiga e faalavelave ai po o osofaiga."
+}

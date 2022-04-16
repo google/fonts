@@ -1,0 +1,26 @@
+id: "aa_Latn"
+language: "aa"
+script: "Latn"
+name: "Afar"
+autonym: "Qafar"
+population: 2119662
+region: "DJ"
+region: "ER"
+region: "ET"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
+}
+sample_text {
+  masthead_full: "KkAa"
+  masthead_partial: "Rr"
+  styles: "Seehada le karaamat kee garway inki gide"
+  tester: "Seehadayti garwah iggimaa kee bura aliinoh abtoy seehadaytiinô"
+  poster_sm: "Seehadayti"
+  poster_md: "Ummattah"
+  poster_lg: "Karaamat"
+  specimen_48: "Galli-Maroh ayyuntitte qusba addah kukti addal tan seehadayti"
+  specimen_36: "Kulli num ayyunti caddoo kee baad caddola kuktih addal tan garwah addal tanim dudda luk geyaamih gar le."
+  specimen_32: "Seehada le karaamat kee garway inki gide takke edde yaaqitoonu duude waana yaaxigeenim baadal curriyataay, qadlii kee wagari rakiiboh tanim kinnim cedak,"
+  specimen_21: "Seehada le karaamat kee garway inki gide takke edde yaaqitoonu duude waana yaaxigeenim baadal curriyataay, qadlii kee wagari rakiiboh tanim kinnim cedak,\nSeehadayti garwah iggimaa kee bura aliinoh abtoy seehadaytiinô kas cerissat sinam bahtem kee seehada yab kee diini curriyat elle leeh, gilic kee assommik elle tesseqqeh xintu dudda baadih geyto seehadaytuk inkih naba fayxi kinnim cedak,"
+  specimen_16: "Seehada le karaamat kee garway inki gide takke edde yaaqitoonu duude waana yaaxigeenim baadal curriyataay, qadlii kee wagari rakiiboh tanim kinnim cedak,\nSeehadayti garwah iggimaa kee bura aliinoh abtoy seehadaytiinô kas cerissat sinam bahtem kee seehada yab kee diini curriyat elle leeh, gilic kee assommik elle tesseqqeh xintu dudda baadih geyto seehadaytuk inkih naba fayxi kinnim cedak,\nSeehadayti dulmi kee xukkot koosituh ellecaboh eleytoh qeebi haysite wayuh seehadayti garwa garti xintoh dacayri geytam saqlah tanim cedak,\nUmmattah fanal qalliini dadal ilsiisaanam saqlah tanim kinnim cedak,"
+}

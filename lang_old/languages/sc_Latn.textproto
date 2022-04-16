@@ -1,0 +1,25 @@
+id: "sc_Latn"
+language: "sc"
+script: "Latn"
+name: "Sardinian"
+autonym: "Sardu"
+population: 1060845
+region: "IT"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È Ì Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù"
+  marks: "◌̀ ◌̧"
+}
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Uu"
+  styles: "Cunsiderende chi su reconnoschimentu de sa"
+  tester: "Cunsiderende chi su misconnoschimentu e su dispretziu de sos"
+  poster_sm: "Cunsiderende"
+  poster_md: "s\'Assemblea"
+  poster_lg: "Totu"
+  specimen_48: "custa decraratzione universale de sos deretos de s\'òmine comente"
+  specimen_36: "Nemos at a poder esser assuzetadu a sa tortura, ne a penas o a tratamentos crudeles, inumanos o degradantes."
+  specimen_32: "Onzi pessone tenet deretu a su pasu e a su disaogu e mescamente a unu lìmite zustu de su tempus de traballu e a lissèntzias periòdicas pagadas."
+  specimen_21: "Onzi pessone tenet deretu chi rennet, in àmbitu sotziale e in àmbitu internatzionale, un\'òrdine fatu a manera chi sos deretos e sas libertades proclamadas in sa Decraratzione presente bi podant agatare efetu cumpretu.\nCunsiderende chi su reconnoschimentu de sa dinnidade inerente a totu sos membros de sa famìlia umana e de sos deretos issoro eguales e inalienàbiles costìtuit su fundamentu de sa libertade, de sa zustìssia e de sa paghe in su mundu,"
+  specimen_16: "Cunsiderende chi su reconnoschimentu de sa dinnidade inerente a totu sos membros de sa famìlia umana e de sos deretos issoro eguales e inalienàbiles costìtuit su fundamentu de sa libertade, de sa zustìssia e de sa paghe in su mundu,\nCunsiderende chi su misconnoschimentu e su dispretziu de sos deretos de s\'òmine ant zutu a atziones de barbaridade chi bulluzant sa cussèntzia de s\'umanidade e chi sa bènnida de unu mundu in ue sos èsseres umanos ant a esser lìberos de faeddare e de creer, liberados dae su terrore e dae sa misèria, est proclamadu comente s\'isetu prus mannu de s\'òmine,"
+}

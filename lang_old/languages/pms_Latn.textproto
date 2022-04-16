@@ -1,0 +1,25 @@
+id: "pms_Latn"
+language: "pms"
+script: "Latn"
+name: "Piedmontese"
+autonym: "Piemontèis"
+population: 6177
+region: "IT"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ä È Ë Ì Ï Ò Ö Ù Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à ä è ë ì ï ò ö ù ü"
+  marks: "◌̀ ◌̈"
+}
+sample_text {
+  masthead_full: "TtÙù"
+  masthead_partial: "Ii"
+  styles: "Tùit j\'esse uman a nasso lìber e uguaj an"
+  tester: "Tùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A"
+  poster_sm: "Tùit j\'esse"
+  poster_md: "Tùit j\'esse"
+  poster_lg: "Tùit"
+  specimen_48: "Tùit j\'esse uman a nasso lìber e uguaj an dignità e"
+  specimen_36: "Tùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A son dotà ‘d sust e ‘d consiensa e a dëvo agì j’un con j’àutri ant n’ëspìrit ëd fradlansa."
+  specimen_32: "Tùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A son dotà ‘d sust e ‘d consiensa e a dëvo agì j’un con j’àutri ant n’ëspìrit ëd fradlansa."
+  specimen_21: "Tùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A son dotà ‘d sust e ‘d consiensa e a dëvo agì j’un con j’àutri ant n’ëspìrit ëd fradlansa.\nTùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A son dotà ‘d sust e ‘d consiensa e a dëvo agì j’un con j’àutri ant n’ëspìrit ëd fradlansa.\nTùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A son dotà ‘d sust e ‘d consiensa e a dëvo agì j’un con j’àutri ant n’ëspìrit ëd fradlansa."
+  specimen_16: "Tùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A son dotà ‘d sust e ‘d consiensa e a dëvo agì j’un con j’àutri ant n’ëspìrit ëd fradlansa.\nTùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A son dotà ‘d sust e ‘d consiensa e a dëvo agì j’un con j’àutri ant n’ëspìrit ëd fradlansa.\nTùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A son dotà ‘d sust e ‘d consiensa e a dëvo agì j’un con j’àutri ant n’ëspìrit ëd fradlansa.\nTùit j\'esse uman a nasso lìber e uguaj an dignità e an drit. A son dotà ‘d sust e ‘d consiensa e a dëvo agì j’un con j’àutri ant n’ëspìrit ëd fradlansa."
+}

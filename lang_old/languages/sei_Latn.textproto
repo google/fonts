@@ -1,0 +1,11 @@
+id: "sei_Latn"
+language: "sei"
+script: "Latn"
+name: "Seri"
+autonym: "Cmiique Iitom"
+population: 900
+region: "MX"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ö a b c d e f g h i j k l m n o p q r s t u v w x y z ö"
+  marks: "◌̈"
+}

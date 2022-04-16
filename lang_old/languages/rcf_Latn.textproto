@@ -1,0 +1,20 @@
+id: "rcf_Latn"
+language: "rcf"
+script: "Latn"
+name: "Réunion Creole French"
+population: 559184
+region: "RE"
+sample_text {
+  masthead_full: "TtOo"
+  masthead_partial: "Uu"
+  styles: "Toute bann zumin y né lib et égo dan la dignité"
+  tester: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann"
+  poster_sm: "Toute bann"
+  poster_md: "Toute"
+  poster_lg: "Toute"
+  specimen_48: "Toute bann zumin y né lib et égo dan la dignité ek"
+  specimen_36: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité"
+  specimen_32: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité"
+  specimen_21: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité\nToute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité"
+  specimen_16: "Toute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité\nToute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité\nToute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité\nToute bann zumin y né lib et égo dan la dignité ek dans le bann droi. Zot nana la rézon ek la conscians et zot y doi aji lé zin enver lé zot dan zin lespri de fraternité"
+}

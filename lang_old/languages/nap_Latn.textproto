@@ -1,0 +1,25 @@
+id: "nap_Latn"
+language: "nap"
+script: "Latn"
+name: "Neapolitan"
+autonym: "Napulitano"
+population: 605306
+region: "IT"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù ú û"
+  marks: "◌̀ ◌́ ◌̂"
+}
+sample_text {
+  masthead_full: "TtUu"
+  masthead_partial: "Ee"
+  styles: "Tutt\'\'e perzone ro munno nasciono liberi e"
+  tester: "Tutt\'\'e perzone ro munno nasciono liberi e cu\' e stess diritt e"
+  poster_sm: "Tutt\'\'e perzone"
+  poster_md: "Tutt\'\'e"
+  poster_lg: "Tutt\'\'e"
+  specimen_48: "Tutt\'\'e perzone ro munno nasciono liberi e cu\' e stess"
+  specimen_36: "Tutt\'\'e perzone ro munno nasciono liberi e cu\' e stess diritt e dignità. Tutt quant tenon \'a reggione e \'a cuscienza e s\'hann\' a cumpurtà l\'un cu ll\'ate cu nu spirito \'e fratellanza."
+  specimen_32: "Tutt\'\'e perzone ro munno nasciono liberi e cu\' e stess diritt e dignità. Tutt quant tenon \'a reggione e \'a cuscienza e s\'hann\' a cumpurtà l\'un cu ll\'ate cu nu spirito \'e fratellanza."
+  specimen_21: "Tutt\'\'e perzone ro munno nasciono liberi e cu\' e stess diritt e dignità. Tutt quant tenon \'a reggione e \'a cuscienza e s\'hann\' a cumpurtà l\'un cu ll\'ate cu nu spirito \'e fratellanza.\nTutt\'\'e perzone ro munno nasciono liberi e cu\' e stess diritt e dignità. Tutt quant tenon \'a reggione e \'a cuscienza e s\'hann\' a cumpurtà l\'un cu ll\'ate cu nu spirito \'e fratellanza."
+  specimen_16: "Tutt\'\'e perzone ro munno nasciono liberi e cu\' e stess diritt e dignità. Tutt quant tenon \'a reggione e \'a cuscienza e s\'hann\' a cumpurtà l\'un cu ll\'ate cu nu spirito \'e fratellanza.\nTutt\'\'e perzone ro munno nasciono liberi e cu\' e stess diritt e dignità. Tutt quant tenon \'a reggione e \'a cuscienza e s\'hann\' a cumpurtà l\'un cu ll\'ate cu nu spirito \'e fratellanza.\nTutt\'\'e perzone ro munno nasciono liberi e cu\' e stess diritt e dignità. Tutt quant tenon \'a reggione e \'a cuscienza e s\'hann\' a cumpurtà l\'un cu ll\'ate cu nu spirito \'e fratellanza.\nTutt\'\'e perzone ro munno nasciono liberi e cu\' e stess diritt e dignità. Tutt quant tenon \'a reggione e \'a cuscienza e s\'hann\' a cumpurtà l\'un cu ll\'ate cu nu spirito \'e fratellanza."
+}

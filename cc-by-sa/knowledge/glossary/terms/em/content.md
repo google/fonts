@@ -18,4 +18,4 @@ The [em dash](/glossary/dashes) is so named because its width, in theory, is one
 
 </figure>
 
-Historically, the em unit itself was named after the width of the capital M; however, in any digital font, the M may be wider or narrower than the em square of that font.
+Historically, the em unit itself was named after the width of the capital “M;” however, in any digital font, the “M” may be wider or narrower than the em square of that font.

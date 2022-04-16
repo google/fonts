@@ -1,5 +1,5 @@
 # Check to_sandbox.txt and to_production.txt do not contain typos
-name: Continuous Test + Deploy
+name: Continuous Test
 
 on:
   push:

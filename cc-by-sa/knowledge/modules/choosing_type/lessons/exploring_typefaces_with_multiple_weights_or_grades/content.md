@@ -1,11 +1,11 @@
 
-With most [typefaces](/glossary/typeface) offering [regular](/glossary/regular_upright), [bold](/glossary/bold), [italic](/glossary/italic), and bold italic [weights](/glossary/weight) and [styles](/glossary/style), it’s reasonable to ask why we might need yet more variation. Those four—as we’ve covered in [our introduction to weights and styles](/lesson/introducing_weights_styles)—are usually enough to convey the required emphasis and hierarchy, especially when paired with other typographic elements, such as changes in [font](/glossary/font) size.
+With most [typefaces](/glossary/typeface) offering [regular](/glossary/regular_upright), [bold](/glossary/bold), [italic](/glossary/italic), and bold italic [weights](/glossary/weight) and [styles](/glossary/style), it’s reasonable to ask why we might need yet more variation. Those four—as we’ve covered in [our introduction to weights and styles](/lesson/introducing_weights_styles)—are usually enough to convey the required emphasis and [hierarchy](/glossary/hierarchy), especially when paired with other typographic elements, such as changes in [font](/glossary/font) size.
 
 However, there are in fact many scenarios where multiple weights—if not multiple styles—are not just desired, but *essential.*
 
 ## Using weights for hierarchy, emphasis, and contrast
 
-The first and most obvious reason to switch to a different weight is to introduce contrast to a piece of text. This contrast can imply hierarchy, such as a heavier weight for headings; it can show emphasis, with bold type used to highlight particular words or sentences; or it can simply create visual interest, to catch the eye and stop the reader from getting bored as they read the text—a useful trick to employ for posters, magazine covers, or social media materials.
+The first and most obvious reason to switch to a different weight is to introduce [contrast](/glossary/contrast) to a piece of text. This contrast can imply hierarchy, such as a heavier weight for headings; it can show emphasis, with bold type used to highlight particular words or sentences; or it can simply create visual interest, to catch the eye and stop the reader from getting bored as they read the text—a useful trick to employ for posters, magazine covers, or social media materials.
 
 And while hierarchy, emphasis, and contrast can each be achieved with the basic regular and bold weights, far more freedom is afforded to us if we can employ more extreme differentiations, such as moving from a hairline to a black weight.
 
@@ -39,7 +39,7 @@ When working in print, we have the opposite problem. If, for instance, we’re d
 
 </figure>
 
-However, the less common type property known as grade is even more useful than weight in these scenarios. Weight usually has an effect on width as well, while grade alters only the thickness of the [stroke](/glossary/stroke) without changing the width of the [glyph](/glossary/glyph).
+However, the less-common type property known as [grade](/glossary/grade)  is even more useful than weight in these scenarios. [Weight](/glossary/weight)  usually has an effect on width as well, while grade alters only the thickness of the [stroke](/glossary/stroke) without changing the width of the [glyph](/glossary/glyph).
 
 Although grade can alter [contrast](/glossary/contrast), it differs from [optical sizing](/glossary/optical_sizes) because its purpose is to compensate for degradations in appearance and bring it back towards the intended design.
 

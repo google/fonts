@@ -7,12 +7,12 @@ We’ll start off with the checklist itself—which is also [available on GitHub
     - Its design fits the intended use
 2. **The typeface’s design is comprehensive**
     - It has enough multi-language support
-    - It contains legible details
-    - It has at least the basic weights and styles
-    - Even better: It has alternate glyphs
-    - Even better: It has additional weights and styles (or grades)
-    - Even better: It has multiple widths
-    - Even better: It has different optical sizes
+    - It contains [legible](/glossary/legibility_readability) details
+    - It has at least the basic [weights](/glossary/weight) and [styles](/glossary/style)
+    - Even better: It has [alternate glyphs](/glossary/alternates)
+    - Even better: It has additional weights and styles (or [grades](/glossary/grade))
+    - Even better: It has multiple [widths](/glossary/width)
+    - Even better: It has different [optical sizes](/glossary/optical_sizes)
 3. **The font files are reliable**
     - All of the design features checked above are actually included in the font files being used
     - The fonts are properly spaced
@@ -38,7 +38,7 @@ The emotional response to the shape of [letterforms](/glossary/letterform) is a 
 
 Readers needn’t know anything about type to have an emotive response to it. It’s fair to say that most people have a subliminal awareness of historical and cultural trends in design, of which type has played a part. This means we can use some of these conventions to our advantage—as long as we’re aware of how those associations might differ around the globe and change from audience to audience.
 
-Note that although it can be useful to consider emotive considerations as a way of making an initial selection, be sure to follow the rest of this checklist for the more practical ones.
+Note that although it can be useful to consider emotive considerations as a way of making an initial selection, we should be sure to follow the rest of this checklist for the more practical ones.
 
 Comic Sans is perfect for setting children’s activity timetables that are displayed in a school playground. It’s perhaps not as appropriate for announcing scientific breakthroughs.
 
@@ -64,7 +64,7 @@ An elaborate [script](/glossary/script_typeface_style) typeface, full of flouris
 
 ## 2. The typeface’s design is comprehensive
 
-Before we get into the specifics of actual font files, we need to consider the details in the design of the typeface itself. Has the [type designer](/glossary/type_designer) provided support for multiple languages, included legible details, and made the minimum [weights](/glossary/weight) and [styles](/glossary/style) necessary? Beyond that, does the typeface contain [alternate glyphs](/glossary/alternates), more weights and styles, different [widths](/glossary/width), and perhaps even [optical sizes](/glossary/optical_sizes)?
+Before we get into the specifics of actual font files, we need to consider the details in the design of the typeface itself. Has the [type designer](/glossary/type_designer) provided support for multiple languages, included legible details, and made the minimum weights and styles necessary? Beyond that, does the typeface contain alternate glyphs, more weights and styles, different widths, and perhaps even optical sizes?
 
 Let’s explore each in turn and, for detail, be sure to read our article [“Choosing reliable typefaces.”](/lesson/choosing_reliable_typefaces)
 
@@ -167,7 +167,6 @@ If a project requires the use of just one typeface, it can be useful to employ d
 
 <figcaption>Typeface: <a href="https://github.com/googlefonts/amstelvar">Amstelvar</a></figcaption>
 
-
 </figure>
 
 Some foundries present their different optical sizes with names such as text (or caption), deck, headline, and display—although it’s worth remembering that such finite distinctions are blurred when using [variable fonts](/glossary/variable_fonts). A variable font with an [optical size axis](/glossary/optical_size_axis) can offer a smooth range of choices all the way from text to display.
@@ -231,7 +230,7 @@ Whether fonts are sold or given away for free, each has an associated license (a
 
 We should always check that the end use of our type is covered by the font’s license. There’s often a different license required for web fonts to desktop fonts, or even usage in apps and ebooks. The price to license a font for a personal logo may differ from the cost of using it on a news website served to millions of users, and it’s up to us or our client to confirm the correct usage.
 
-Because price can vary depending on the fonts we choose and their end uses, affordability should also be another constraint to help us narrow our choices.
+Because price can vary depending on the fonts we choose and their end uses, affordability is another constraint that can help narrow our choices.
 
 <figure>
 

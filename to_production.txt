@@ -1,19 +1,26 @@
+# New
+ofl/librebodoni
+ofl/radiocanada
+ofl/tapestry
+ofl/waterbrush
+
+# Upgrade
+ofl/arizonia
+
 # Small fix/other
-axisregistry/width.textproto
+ofl/robotoserif
+ofl/vazirmatn
 
-# Metadata/desc/OFL (Noto)
-ofl/notosansdisplay
-ofl/notosanshk
-ofl/notosansjp
-ofl/notosanskr
-ofl/notosanssc
-ofl/notosanstc
-ofl/notoserifdisplay
-ofl/notoserifjp
-ofl/notoserifkr
-ofl/notoserifsc
-ofl/notoseriftc
+# Metadata/desc/OFL
+ofl/inconsolata
+ofl/opensans
 
-# On hold until all of Knowledge can be updated together
-# knowledge/glossary/terms/axis_in_variable_fonts
-# knowledge/glossary/terms/superfamily
+# Designer profile
+catalog/designers/alexandresaumierdemers
+catalog/designers/charlesdaoud
+catalog/designers/coppersandbrasses
+catalog/designers/familjensthlmab
+catalog/designers/tallchai
+
+# Knowledge
+cc-by-sa/knowledge/glossary/terms/regular_upright

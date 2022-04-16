@@ -2,7 +2,7 @@ name: "Bungee Color"
 designer: "David Jonathan Ross"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2021-12-01"
+date_added: "2022-04-05"
 fonts {
   name: "Bungee Color"
   style: "normal"

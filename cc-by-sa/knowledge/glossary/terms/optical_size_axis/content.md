@@ -1,5 +1,5 @@
 
-Optical size (controlled with `font-optical-sizing` or `font-variation-setting: ‘opsz’ VALUE` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [optical size](/glossary/optical_sizes) optimizations.
+“Optical size” (controlled with `font-optical-sizing` or `font-variation-setting: ‘opsz’ VALUE` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [optical size](/glossary/optical_sizes) optimizations.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

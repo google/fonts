@@ -112,6 +112,10 @@ registry_default_overrides {
   key: "YTFI"
   value: 738.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/Roboto-Flex"
+  archive_url: "https://github.com/googlefonts/roboto-flex/releases/download/3.100/roboto-flex-fonts.zip"
+}
 languages: "aa_Latn"  # Afar
 languages: "abq_Cyrl"  # Abaza
 languages: "ace_Latn"  # Achinese

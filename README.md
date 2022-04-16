@@ -1,4 +1,4 @@
-[![CI Status](https://github.com/google/fonts/workflows/Continuous%20Test%20+%20Deploy/badge.svg?branch=main)](https://github.com/google/fonts/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)
+[![CI Status](https://github.com/google/fonts/workflows/Continuous%20Test/badge.svg?branch=main)](https://github.com/google/fonts/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)
 
 
 # Google Fonts Files

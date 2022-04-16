@@ -14,7 +14,7 @@ Numbers, like letters, can be conveyed in different ways with typography to comm
 
 It’s advisable to have an understanding of how the four numeral variations compare, to ensure we’re working with the appropriate ones in any given scenario.
 
-Just because these four flavors exist, it doesn’t mean they’re present in every [font](/glossary/font). It’s common to find that the [type designer](/glossary/type_designer) only drew one of them. But if they’re present in the file, you can choose the one you want using [OpenType feature](/lesson/implementing_ot_features_in_desktop_apps) controls. If in doubt, use the figure style the type designer has chosen as the default. If they believe the typeface will be used primarily for [body copy](/glossary/body), they’ll make different choices than if they believe their typeface will be used to style financial data.
+Just because these four flavors exist, it doesn’t mean they’re present in every [font](/glossary/font). It’s common to find that the [type designer](/glossary/type_designer) only drew one of them. But if they’re present in the file, you can choose the one you want using [OpenType feature](/glossary/open_type) controls. If in doubt, use the figure style the type designer has chosen as the default. If they believe the typeface will be used primarily for [body copy](/glossary/body), they’ll make different choices than if they believe their typeface will be used to style financial data.
 
 <figure>
 

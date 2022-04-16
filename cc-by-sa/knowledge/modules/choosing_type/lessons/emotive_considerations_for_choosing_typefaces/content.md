@@ -9,9 +9,9 @@ So, for this article, we’ll explore the emotive considerations that come into 
 
 </figure>
 
-But first: A warning! Selecting a typeface based on the emotional reactions it stirs in us and our readers is perfectly valid, but it’s important to not base our decisions on them alone. By all means use emotive considerations as a way of making an initial selection, but be sure to quickly analyze against technical suitability—there’s no point in choosing something that feels perfect if it [only has one weight, or lacks character support for a language we need to cover](/lesson/choosing_reliable_typefaces).
+But first: A warning! Selecting a typeface based on the emotional reactions it stirs in us and our readers is perfectly valid, but it’s important to not base our decisions on them alone. By all means, use emotive considerations as a way of making an initial selection, but be sure to quickly analyze for technical suitability, too—there’s no point in choosing something that feels perfect if it [only has one weight, or lacks character support for a language we need to cover](/lesson/choosing_reliable_typefaces).
 
-In his book, "Stop Stealing Sheep and Find Out How Type Works," Erik Spiekermann shows a few examples of type set in appropriate typefaces that invoke either trust or distrust from the reader:
+In his book, “Stop Stealing Sheep and Find Out How Type Works,” Erik Spiekermann shows a few examples of type set in appropriate typefaces that invoke either trust or distrust from the reader:
 
 <figure>
 
@@ -20,7 +20,7 @@ In his book, "Stop Stealing Sheep and Find Out How Type Works," Erik Spiekermann
 
 </figure>
 
-And it’s not just about trust. It’s important to remember that readers needn’t know anything about type to have an emotive response to it. It’s fair to say that most people have at least some awareness of general cultural and design trends of which type has played a part, and this means we can use some of these shared cultural conventions to our advantage—as long as we’re aware of how those associations might differ around the globe, and change from audience to audience. These associations can change over time, too: Just a few years ago, calligraphic faces usually evoked a 70s or 80s design aesthetic, but today are enjoying a resurgence.
+And it’s not just about trust. It’s important to remember that readers needn’t know anything about type to have an emotive response to it. It’s fair to say that most people have at least some awareness of general cultural and design trends of which type has played a part, and this means we can use some of these shared cultural conventions to our advantage—as long as we’re aware of how those associations might differ around the globe and change from audience to audience. These associations can change over time, too: Just a few years ago, calligraphic faces usually evoked a 1970s or ’80s design aesthetic, but today are enjoying a resurgence.
 
 It’s our job as [typographers](/glossary/typographer)—as people who *do* know about type—to help guide our audience by invoking the most appropriate emotional response.
 
@@ -59,4 +59,4 @@ Lastly, let’s consider the work of David Carson, a designer known for challeng
 
 </figure>
 
-David Carson is known for saying, “Don’t mistake legibility for communication.” In other words, legible letterforms don’t convey meaning by themselves, their arrangement contributes to the message being conveyed. Whether his style is one we love or hate, it’s important for us to remember that typography is not technically about choosing typefaces—it is, in fact, their arrangement.
+David Carson is known for saying, “Don’t mistake legibility for communication.” In other words, [legible](/glossary/legible) letterforms don’t convey meaning by themselves, their arrangement contributes to the message being conveyed. Whether his style is one we love or hate, it’s important for us to remember that typography is not technically about choosing typefaces—it is, in fact, their arrangement.

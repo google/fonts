@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/rastikerdar/vazirmatn"
-  commit: "70f08bf38a50498bfb96f349f15f8b8ff74e6699"
+  commit: "b0119155f1e2404ae6c2528b7888225e9c92cadf"
 }
 languages: "aa_Latn"  # Afar
 languages: "ace_Latn"  # Achinese

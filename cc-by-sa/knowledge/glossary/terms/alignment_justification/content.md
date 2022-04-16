@@ -1,5 +1,5 @@
 
-In paragraphs of (western) [text](/glossary/text_copy), alignment refers to the invisible vertical line(s) implied by a block of [type](/glossary/type), which aids readability. When type is left-aligned, each new line begins from the same point on the X axis.
+In  paragraphs of (western) [text](/glossary/text_copy), alignment refers to the invisible vertical line(s) implied by a block of [type](/glossary/type), which aids readability. When type is left-aligned, each new line begins from the same point on the X axis.
 
 <figure>
 

@@ -20,3 +20,7 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/SorkinType/SplineSans"
+  commit: "d524ab0d587c5067a17284918cd5f144ac521ec9"
+}

@@ -1,5 +1,8 @@
+from copy import deepcopy
 from fontTools.ttLib import TTFont
 from fontTools.otlLib.builder import buildStatTable
+from fontTools.varLib.instancer.names import _updateUniqueIdNameRecord
+from fontTools.ttLib.tables._f_v_a_r import NamedInstance
 from pkg_resources import resource_filename
 from google.protobuf import text_format
 from collections import OrderedDict
@@ -10,6 +13,14 @@ try:
     from ._version import version as __version__  # type: ignore
 except ImportError:
     __version__ = "0.0.0+unknown"
+
+
+# TODO we may have more of these. Please note that some applications may not
+# implement variable font style linking.
+LINKED_VALUES = {
+    "wght": (400, 700),
+    "ital": (0.0, 1.0),
+}
 
 
 def AxisRegistry():
@@ -55,11 +66,11 @@ def AxisRegistry():
     return registry
 
 
-class NameBuilder:
-    def __init__(self, ttFont):
+class GFNameBuilder:
+    def __init__(self, ttFont, axis_registry=AxisRegistry()):
         self.ttFont = ttFont
         self.name_table = self.ttFont["name"]
-        self.axis_reg = AxisRegistry()
+        self.axis_reg = axis_registry
         self.weights = self.axis_reg["wght"].fallback
         self.family_name = self.ttFont["name"].getBestFamilyName()
         self.subfamily_name = self.ttFont["name"].getBestSubFamilyName()
@@ -95,7 +106,9 @@ class NameBuilder:
         # use fontTools build_stat
         # https://github.com/fonttools/fonttools/blob/a293606fc8c88af8510d0688a6a36271ff4ff350/Lib/fontTools/otlLib/builder.py#L2683
         # TODO add linked values
+        seen_axes = set()
         for axis, fallbacks in fallbacks_in_font.items():
+            seen_axes.add(axis)
             a = {
                 "tag": axis,
                 "name": self.axis_reg[axis].display_name,
@@ -112,15 +125,18 @@ class NameBuilder:
                 )
             res.append(a)
         
+        # doesn't feel like these should come last!
         if sibling_font_styles:
             for axis, fallback in sibling_font_styles:
+                if axis in seen_axes:
+                    continue
                 a = {
                     "tag": axis,
                     "name": self.axis_reg[axis].name,
                     "values": [
                         {
                             "name": fallback.name,
-                            "value": 0,
+                            "value": fallback.value,
                             "flags": 0x2 if fallback.value == self.axis_reg[axis].default_value else 0x0
                         }
                     ]
@@ -142,7 +158,7 @@ class NameBuilder:
 
     def _sibling_font_styles(self, sibling_ttFonts=None):
         if not sibling_ttFonts:
-            return
+            return []
         def name_in_axis_reg(name):
             for a in self.axis_reg:
                 for fallback in self.axis_reg[a].fallback:
@@ -155,7 +171,7 @@ class NameBuilder:
             name_table = sibling_ttFont["name"]
             tokens = name_table.getBestFamilyName().split() + name_table.getBestSubFamilyName().split()
 
-            fvar_axes_in_font = [a.AxisTag for a in sibling_ttFont["fvar"].axes]
+            fvar_axes_in_font = [a.axisTag for a in sibling_ttFont["fvar"].axes]
 
             for token in tokens:
                 axis, fallback = name_in_axis_reg(token)
@@ -173,6 +189,7 @@ class NameBuilder:
     
     def build_vf_name_table(self, family_name):
         # VF name table should reflect the 0 origin of the font!
+        assert self.is_variable(), "Not a VF!"
         print("building vf name table")
         style_name = self._vf_style_name()
         self.build_static_name_table(family_name, style_name)
@@ -186,9 +203,63 @@ class NameBuilder:
             res.append(v["name"])
         return " ".join(res)
 
+    def build_fvar_instances(self, axis_dflts={}):
+        """Replace a variable font's fvar instances with a set of new instances
+        that conform to the Google Fonts instance spec:
+        https://github.com/googlefonts/gf-docs/tree/main/Spec#fvar-instances
+        Args:
+            ttFont: a TTFont instance
+        """
+        assert self.is_variable(), "Not a VF!"
+
+        fvar = self.ttFont["fvar"]
+        fvar_dflts = self._fvar_dflts()
+        if not axis_dflts:
+            axis_dflts = fvar_dflts
+
+        is_italic = "Italic" in self.subfamily_name
+        is_roman_and_italic = any(a for a in ("slnt", "ital") if a in fvar_dflts)
+
+        if "wght" not in fvar_dflts:
+            raise NotImplementedError()
+        
+        fallbacks = self._fallbacks_in_font()
+        wght_fallbacks = fallbacks["wght"]
+
+        nametable = self.ttFont["name"]
+
+        def gen_instances(is_italic):
+            results = []
+            for fallback in wght_fallbacks:
+                name = (
+                    fallback.name
+                    if not is_italic
+                    else f"{fallback.name} Italic".strip()
+                )
+                name = name.replace("Regular Italic", "Italic")
+
+                coordinates = deepcopy(axis_dflts)
+                coordinates["wght"] = fallback.value
+
+                inst = NamedInstance()
+                inst.subfamilyNameID = nametable.addName(name)
+                inst.coordinates = coordinates
+                results.append(inst)
+            return results
+
+        instances = []
+        if is_roman_and_italic:
+            for bool_ in (False, True):
+                instances += gen_instances(is_italic=bool_)
+        elif is_italic:
+            instances += gen_instances(is_italic=True)
+        else:
+            instances += gen_instances(is_italic=False)
+        fvar.instances = instances
+
     def build_static_name_table(self, family_name, style_name):
         print("building static name table")
-        # TODO uniqueID and replace occurences in all records
+        # TODO replace occurences in all records
         # stip mac names
         self.name_table.removeNames(platformID=1)
 
@@ -228,6 +299,7 @@ class NameBuilder:
             for name_id in (21, 22):
                 self.name_table.removeNames(nameID=name_id)
         
+        names[(3, 3, 1, 0x409)] = _updateUniqueIdNameRecord(self.ttFont, {k[0]:v for k,v in names.items()}, (3, 1, 0x409))
         for k, v in names.items():
             self.name_table.setName(v, *k)
 
@@ -256,9 +328,12 @@ class NameBuilder:
 
 def main():
     f = TTFont("/Users/marcfoley/Type/upstream_repos/mavenproFont/fonts/variable/MavenPro[wght].ttf")
-    namer = NameBuilder(f)
-    namer.build_stat()
-    namer.build_name_table("Maven Pro Trial")
+    namer = GFNameBuilder(f)
+#    namer.build_stat()
+#    namer.build_name_table("Maven Pro Trial")
+    namer.build_fvar_instances()
+    import pdb
+    pdb.set_trace()
 
 
 if __name__ == "__main__":

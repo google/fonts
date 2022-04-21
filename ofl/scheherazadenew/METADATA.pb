@@ -21,7 +21,11 @@ fonts {
   full_name: "Scheherazade New Bold"
   copyright: "Copyright (c) 1994-2021, SIL International (http://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "arabic"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/silnrsi/font-scheherazade"
+  archive_url: "https://github.com/silnrsi/font-scheherazade/releases/download/v3.300/ScheherazadeNew-3.300.zip"
+}

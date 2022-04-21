@@ -1,5 +1,6 @@
 # New
 ofl/robotoflex
+ofl/splinesansmono
 ofl/tirobangla
 ofl/tirodevanagarihindi
 ofl/tirodevanagarimarathi
@@ -9,6 +10,11 @@ ofl/tirokannada
 ofl/tirotamil
 ofl/tirotelugu
 
+# Small fix/other
+ofl/splinesans
+
 # Upgrade
-ofl/crimsontext
-# to re-list cause new version to push to prod
+ofl/andika
+
+# Knowledge
+cc-by-sa/knowledge/glossary/terms/contrast

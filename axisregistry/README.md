@@ -1,4 +1,10 @@
-# GF Axis Registry
+# AxisRegistry Python Module
+
+This repository contains a python package providing easy access to the GF Axis Registry. Data was copied (and is kept is sync with) its original location at the `axisregistry` directory on the [`google/fonts`](https://github.com/google/fonts) git repo.
+
+As of March 4th, 2022, there's an ongoing plan to soon make this module the central place for updates on the data-set.
+
+## GF Axis Registry
 
 This package contains a collection of metadata source files that collectively form the Google Fonts Axis Registry.
 
@@ -29,7 +35,7 @@ When the registry is updated here, a line like `axisregistry/axis_name.textproto
         be at a fallback.
 *   `fallback_only`
     *   Describes whether to only use fallback values when presenting to users.
-*   `description`   
+*   `description`
     *   A description of the axis.
 
 ## Why does Google Fonts have its own Axis Registry?

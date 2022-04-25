@@ -1,5 +1,4 @@
-branch: master
+archive: https://github.com/googlefonts/roboto-flex/releases/download/3.100/roboto-flex-fonts.zip
+branch: main
 files:
-  Roboto-Flex/fonts/RobotoFlex[slnt,wdth,wght,opsz].ttf: RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf
-  OFL.txt: OFL.txt
-repository_url: https://github.com/TypeNetwork/Roboto-Flex
+  roboto-flex-fonts/fonts/variable/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf: RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf

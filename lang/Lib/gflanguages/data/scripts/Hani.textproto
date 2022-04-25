@@ -1,3 +1,6 @@
+# Hani is a set of characters, which includes not only Simplified and Traditional Chinese,
+# but also Japanese Kanji and Korean Hanja.
+# So to avoid unexpected characters users might see from sample texts,
+# please do not include '_hani' languages in any font's language list. 
 id: "Hani"
 name: "Han"
-

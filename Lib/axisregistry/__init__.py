@@ -18,8 +18,8 @@ except ImportError:
 # TODO we may have more of these. Please note that some applications may not
 # implement variable font style linking.
 LINKED_VALUES = {
-    "wght": (400, 700),
-    "ital": (0.0, 1.0),
+    "wght": {400.0: 700.0},
+    "ital": {0.0: 1.0},
 }
 
 
@@ -104,7 +104,8 @@ class GFNameBuilder:
         print("Building stat table")
         assert self.is_variable(), "not a VF!"
         fallbacks_in_font = self._fallbacks_in_font()
-        sibling_font_styles = self._sibling_font_styles(sibling_ttFonts)
+        sibling_font_styles = self.styles_in_name_table(sibling_ttFonts)
+        font_styles = self.styles_in_name_table([self.ttFont])
 
         res = []
         # use fontTools build_stat
@@ -125,27 +126,49 @@ class GFNameBuilder:
                         else 0x0,
                     }
                 )
+                if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:
+                    a["values"][-1]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
             res.append(a)
 
-        # doesn't feel like these should come last!
-        if sibling_font_styles:
-            for axis, fallback in sibling_font_styles:
+        if font_styles:
+            for axis, fallback in font_styles:
                 if axis in seen_axes:
                     continue
                 a = {
                     "tag": axis,
-                    "name": self.axis_reg[axis].name,
+                    "name": self.axis_reg[axis].display_name,
                     "values": [
                         {
                             "name": fallback.name,
                             "value": fallback.value,
-                            "flags": 0x2
-                            if fallback.value == self.axis_reg[axis].default_value
-                            else 0x0,
+                            "flags": 0x0
                         }
                     ],
                 }
+                if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:
+                    a["values"][0]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
                 res.append(a)
+        
+        if sibling_font_styles:
+            for axis, fallback in sibling_font_styles:
+                if axis in seen_axes:
+                    continue
+                value = 0.0
+                a = {
+                    "tag": axis,
+                    "name": self.axis_reg[axis].display_name,
+                    "values": [
+                        {
+                            "name": "Normal",
+                            "value": value,
+                            "flags": 0x2
+                        }
+                    ],
+                }
+                if axis in LINKED_VALUES and value in LINKED_VALUES[axis]:
+                    a["values"][0]["linkedValue"] = LINKED_VALUES[axis][value]
+                res.append(a)
+        # TODO, we need to get ordering done
         buildStatTable(self.ttFont, res, macNames=False)
 
     def _fallbacks_in_font(self):
@@ -166,7 +189,7 @@ class GFNameBuilder:
                 res[axis].append(fallback)
         return res
 
-    def _sibling_font_styles(self, sibling_ttFonts=None):
+    def styles_in_name_table(self, sibling_ttFonts=None):
         if not sibling_ttFonts:
             return []
 
@@ -219,7 +242,11 @@ class GFNameBuilder:
             if v["elided"]:
                 continue
             res.append(v["name"])
-        return " ".join(res)
+
+        font_styles = self.styles_in_name_table([self.ttFont])
+        for _, s in font_styles:
+            res.append(s.name)
+        return " ".join(res).replace("Regular Italic", "Italic")
 
     def build_fvar_instances(self, axis_dflts={}):
         """Replace a variable font's fvar instances with a set of new instances
@@ -256,7 +283,7 @@ class GFNameBuilder:
                 )
                 name = name.replace("Regular Italic", "Italic")
 
-                coordinates = deepcopy(axis_dflts)
+                coordinates = {k: v["value"] for k,v in axis_dflts.items()}
                 coordinates["wght"] = fallback.value
 
                 inst = NamedInstance()
@@ -347,16 +374,23 @@ class GFNameBuilder:
 
 
 def main():
-    f = TTFont(
-        "/Users/marcfoley/Type/upstream_repos/mavenproFont/fonts/variable/MavenPro[wght].ttf"
+    f1 = TTFont(
+        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSans-Roman-VF.ttf"
     )
-    namer = GFNameBuilder(f)
-    #    namer.build_stat()
-    #    namer.build_name_table("Maven Pro Trial")
-    namer.build_fvar_instances()
-    import pdb
+    f2 = TTFont(
+        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSans-Italic-VF.ttf"
+    )
+    namer1 = GFNameBuilder(f1)
+    namer1.build_name_table("Open Sans Neue")
+    namer1.build_fvar_instances()
+    namer1.build_stat([f2])
+    f1.save(f1.reader.file.name)
 
-    pdb.set_trace()
+    namer2 = GFNameBuilder(f2)
+    namer2.build_name_table("Open Sans Neue")
+    namer2.build_fvar_instances()
+    namer2.build_stat([f1])
+    f2.save(f2.reader.file.name)
 
 
 if __name__ == "__main__":

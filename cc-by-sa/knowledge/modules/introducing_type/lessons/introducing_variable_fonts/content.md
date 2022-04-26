@@ -21,7 +21,7 @@ The simplest way to think of variable fonts is to imagine a slider (actually cal
 
 However, the real power of variable fonts is that you can have *any* axis for any variable the type designer chooses, and *combine* them. Slant? Yes. Width? Yes. [Optical size](/glossary/optical_sizes)? Yes. *[Temperature?!?](https://codepen.io/mandymichael/pen/pxXNbr)* Yes! And all of the above, used in concert.
 
-By the way, it’s important to note that familiar style names—light, regular, bold, etc. for weight, or condensed, normal, wide etc. for width—still appear in font menus when variable font families are installed. (They’re referred to technically as “named [instances](/glossary/instance)”.) So, using variable fonts doesn’t mean waving goodbye to the labels and conveniently-shared styles that we’ve been used to.
+By the way, it’s important to note that familiar style names—light, regular, bold, etc. for weight, or condensed, normal, wide etc. for width—still appear in font menus when variable font families are installed. They’re referred to technically as “named [instances](/glossary/instance).” So, using variable fonts doesn’t mean waving goodbye to the labels and conveniently-shared styles that we’ve been used to.
 
 <figure>
 
@@ -71,19 +71,11 @@ Go to [fonts.google.com/specimen/EB+Garamond](https://fonts.google.com/specimen/
 
 </figure>
 
-Go to [recursive.design](https://www.recursive.design) and play with the [Casual][/glossary/casual_axis] axis of Recursive to see how the outlines become more curvy and playful. Note that this is an example of a [custom axis](/lesson/styling_type_on_the_web_with_variable_fonts).
+Go to [recursive.design](https://www.recursive.design) and play with the [Casual](/glossary/casual_axis) axis of Recursive to see how the outlines become more curvy and playful. Note that this is an example of a [custom axis](/lesson/styling_type_on_the_web_with_variable_fonts).
 
 <figure>
 
 ![The word “suited” is rendered twice: on the left, the strokes are straight; on the right, they flair out, with grater contrast between the thicks and thins—a much more playful style. Beneath both versions are representations of the variable axes.](images/1.8.9.svg)
-
-</figure>
-
-Go to [very-able-fonts.com](http://www.very-able-fonts.com/) and play with the “latin to braille” axis of Safari Braille to see how the type changes from—you guessed it—Latin to Braille. Note that this is another example of a [custom axis](/lesson/styling_type_on_the_web_with_variable_fonts), and, while more of a technical demonstration than something that could be used day-to-day, it’s a great illustration of what’s possible with variable fonts.
-
-<figure>
-
-![The letters “abcde” are rendered twice: on the left, they’re recognisable as their Latin forms; on the right, they resemble braille. Beneath both versions are representations of the variable axes.](images/1.8.10.svg)
 
 </figure>
 

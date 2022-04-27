@@ -1,4 +1,4 @@
-“Cursive” (`CRSV` in CSS)  is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts), and controls the substitution of cursive forms. “Off” (0) maintains upright [letterforms](/glossary/letterform) such as a double-storey a and g, “auto” (0.5) allows for cursive substitution of cursive forms when combined with the [slant axis](/glossary/slant_axis), and “on” (1) asserts cursive forms even in [upright](/glossary/regular_upright) text with a slant of 0.
+“Cursive” (`CRSV` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that controls the substitution of cursive forms. “Off” (0) maintains upright [letterforms](/glossary/letterform) such as the double-storey "a" and "g," “auto” (0.5) allows for cursive substitution of cursive forms when combined with the [slant axis](/glossary/slant_axis), and “on” (1) asserts cursive forms even in [upright](/glossary/regular_upright) text with a slant of 0.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
@@ -9,6 +9,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 <figure>
 
 ![Two side-by-side type specimens of the characters “gwayvz”, each shown with a variable axis represented beneath as an on/off switch. The second specimen, with the switch to the right, uses different forms: A single-storey “g” and “a”, and curvier lines for “w”, “y”, “v”, and “z”.](images/thumbnail.svg)
+
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Recursive">Recursive</a></figcaption>
 
 </figure>
 

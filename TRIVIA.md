@@ -94,6 +94,9 @@ Here is a list of 3rd party directories:
 * <https://logogenerator.website>
 * <http://www.ourownthing.co.uk/fontpairing/>
 * <https://goofonts.com>
+* <https://designmeme.github.io/finding-baseline>
+* <https://mikk3lro.github.io/vue-fontpicker>
+* <https://paulzi.github.io/google-fonts-loader>
 
 There are also handcrafted directories with rich samples:
 
@@ -108,6 +111,7 @@ There are also handcrafted directories with rich samples:
 * <http://fonts.greatsimple.io>
 * <https://digitalsynopsis.com/design/best-google-font-combinations-typeface-pairings/>
 * <https://www.fontsinthewild.com/google>
+* <https://stabla.github.io/good-google-fonts>
 
 ## Rightsholder contacts
 

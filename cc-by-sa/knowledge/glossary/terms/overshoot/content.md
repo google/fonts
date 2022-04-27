@@ -7,6 +7,9 @@ The purpose of these overshoots is to create the optical illusion that all lette
 
 ![The characters “A”, “v”, and “o”, set alongside horizontal lines to indicate cap height, x-height, and baseline, with the overshoots accentuated.](images/thumbnail.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/David+Libre">David Libre</a></figcaption>
+
+
 </figure>
 
 In practice, there are many elements of a [typeface](/glossary/typeface)’s design that could be considered overshoots, such as the cupped [serifs](/glossary/serif) present on some [old style](/glossary/humanist_old_style) serif typefaces.

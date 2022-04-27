@@ -11,6 +11,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 ![Two side-by-side type specimens of the word phrase “lean-to”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the right to represent a higher value on the axis, shows upright forms. The second specimen, with the slider more to the left to represent a low-to-mid value on the axis, shows more slanted forms.](images/thumbnail.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Recursive">Recursive</a></figcaption>
+
 </figure>
 
 Oblique [characters](/glossary/character) follow the structure of the [upright](/glossary/regular_upright) styles, while [italics](/glossary/italic) have a different structure, typically informed by cursive [writing](/glossary/handwriting). Obliques are not necessarily merely [digitally slanted](https://fonts.google.com/knowledge/introducing_type/introducing_weights_styles#avoiding-fake-weights-and-styles)—optical corrections are often made to avoid distortions and an incorrect distribution of weight. Generally, obliques are less common than italics.

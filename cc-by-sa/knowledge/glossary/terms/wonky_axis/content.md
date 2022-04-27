@@ -13,6 +13,8 @@ In the [Fraunces](https://fonts.google.com/specimen/Fraunces) [typeface](/glossa
 
 ![Two side-by-side type specimens of the two-word phrase “song key”, each shown with a variable axis represented beneath as an on/off switch. The first specimen, with the switch to the left, uses the default forms. The second specimen, with the switch to the right, modified the “s”, “n”, and “k” to use a more unusual, off-kilter design.](images/thumbnail.svg)
 
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Fraunces">Fraunces</a></figcaption>
+
 </figure>
 
 In line with the current CSS spec, all custom axes should be referenced in UPPERCASE (only the officially registered variable axes should appear in lowercase). Also, when using the Google Fonts API, the uppercase axes have to appear first in the URL.

@@ -1,5 +1,5 @@
 
-Width (`wdth` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [width](/glossary/width) parameter.
+“Width” (`wdth` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [width](/glossary/width) parameter.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
@@ -26,4 +26,4 @@ strong {
 }
 ```
 
-Here, our text will be quite narrow—50% is what the type designer has decided is half of the regular (100%) width—and the `strong` text will be almost twice the width of the regular. Width values are always above 0, with 100% being the regular width.
+Here, our text will be quite narrow—the type designer has set 50% as half of the regular (100%) width—and the `strong` text will be almost twice the width of the regular. Width values are always above 0, with 100% being the regular width.

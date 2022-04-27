@@ -16,13 +16,13 @@ Phototypesetting and early digital type ignored optical sizing for expediency. A
 
 <figure>
 
-![The characters “A” and “a” are rendered twice: on the left, they appears in a “display“ optical size; on the right, a “body” one. The stroke contrast on the left is considerably greater. Beneath both versions are representations of the variable axes.](images/2.5.2.svg)
+![The characters “A” and “a” are rendered twice: On the left, they appear in a “display“ optical size; on the right, a “body” one. The stroke contrast on the left is considerably greater. Beneath both versions are representations of the variable axes.](images/2.5.2.svg)
 
 </figure>
 
-For the novice [typographer](/glossary/typographer), the need for different optical sizes might not be immediately apparent, but taking it on board as a technical consideration in the type-choosing process can have a very strong influence on your choice of typeface or [type family](/glossary/family_or_type_family_or_font_family).
+For the novice [typographer](/glossary/typographer), the need for different optical sizes might not be immediately apparent, but once you better understand their role, this is a technical consideration that can have a very strong influence on your choice of typeface or [type family](/glossary/family_or_type_family_or_font_family).
 
-Regardless of media, if we’re creating a brand that will require text to be set very small and also very large, optical sizes will undoubtedly be useful to employ. The small body type can focus on enhanced legibility; the large display type can show off the intricacies of the letterforms; both will sit better alongside each other.
+Regardless of media, if we’re creating a brand that will require text to be set very small and also very large, optical sizes will undoubtedly be useful. The small body type can focus on enhanced legibility; the large display type can show off the intricacies of the letterforms; both will sit better alongside each other.
 
 <figure>
 
@@ -30,7 +30,7 @@ Regardless of media, if we’re creating a brand that will require text to be se
 
 </figure>
 
-And it’s not just relevant for those of us creating large-scale graphics, either. Consider the humble television set: If we’re designing something to appear primarily on TVs, we could easily be forgiven for thinking that we have a large viewport to work with and therefore can afford to use our type’s “display” version, which is optimized for rendering at huge sizes. But hang on: While the average TV might indeed be quite large, its position in the average sitting room relative to the person watching the TV means its perceived size is more like a mobile device.
+And it’s not just relevant for those of us creating large-scale graphics, either. Consider the humble television set: If we’re designing something to appear primarily on TVs, we could easily be forgiven for thinking that we have a large viewport to work with—and therefore can afford to use our type’s “display” version, which is optimized for rendering at huge sizes. But hang on: While the average TV might indeed be quite large, its position in the average sitting room relative to the person watching the TV means its perceived size is more like a mobile device.
 
 <figure>
 
@@ -38,6 +38,6 @@ And it’s not just relevant for those of us creating large-scale graphics, eith
 
 </figure>
 
-With this in mind, it’s generally more appropriate to design for TVs as you would for mobile, and use a body optical size for your type (i.e., one that with lower contrast and more generous spacing). And, although mobile phones and TVs are constantly improving their resolution and pixel density, we can never assume that all of our users will have access to the higher-quality screens, or that their vision will be unimpaired.
+With this in mind, it’s generally more appropriate to design for TVs as you would for mobile and use a body optical size for your type (i.e., one with lower contrast and more generous spacing). And, although mobile phones and TVs are constantly improving their resolution and pixel density, we can never assume that all of our users will have access to the higher-quality screens, or that their vision will be unimpaired.
 
 When designing for film (and TV), we also have a huge range of screen sizes to consider: from the massive, such as movie theaters, to the tiny, such as low-resolution, in-seat airplane screens. Employing optical sizes, if available, will lead to a better reading experience in these different scenarios.

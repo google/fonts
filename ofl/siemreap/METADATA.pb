@@ -14,4 +14,3 @@ fonts {
 }
 subsets: "menu"
 subsets: "khmer"
-languages: "km_Khmr"

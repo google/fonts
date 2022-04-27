@@ -1,5 +1,5 @@
 
-Weight (`wght` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in many [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [weight](/glossary/weight) parameter.
+“Weight” (`wght` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in many [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [weight](/glossary/weight) parameter.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
@@ -10,6 +10,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 <figure>
 
 ![Two side-by-side type specimens of the word “thicken”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a light weight with thin strokes. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, shows a heavy weight with thick strokes.](images/thumbnail.svg)
+
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Epilogue">Epilogue</a></figcaption>
 
 </figure>
 
@@ -26,4 +28,4 @@ strong {
 }
 ```
 
-Unlike in non-variable fonts, the `font-weight` values no longer have to be declared in units of 100. Rather than have [body copy](/glossary/text_copy) set in a Regular weight, which would usually sit at 400, we can set it a little lighter, at 350. Similarly, whereas `strong` text would usually be set in a Bold weight, most often with a value of 700, we’re setting it at 780: heavier than a Bold, but not quite as heavy as an Extra Bold.
+Unlike in non-variable fonts, the `font-weight` values no longer have to be declared in units of 100. Rather than have [body copy](/glossary/text_copy) set in a regular weight, which would usually sit at 400, we can set it a little lighter, at 350. Similarly, whereas `strong` text would usually be set in a bold weight, most often with a value of 700, we’re setting it at 780: heavier than a bold, but not quite as heavy as an extra bold.

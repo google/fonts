@@ -14,9 +14,3 @@ fonts {
 }
 subsets: "menu"
 subsets: "myanmar"
-languages: "kht_Mymr"
-languages: "ksw_Mymr"
-languages: "mnw_Mymr"
-languages: "my_Mymr"
-languages: "pwo_Mymr"
-languages: "shn_Mymr"

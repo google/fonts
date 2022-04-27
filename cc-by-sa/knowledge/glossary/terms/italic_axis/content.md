@@ -1,5 +1,5 @@
 
-Italic (`ital` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [italic](/glossary/italic) parameter, with italics either turned “off” or “on”, rather than gradually changing over a range.
+“Italic” (`ital` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts). It controls the [font](/glossary/font) file’s [italic](/glossary/italic) parameter, with italics either turned “off” or “on”, rather than gradually changing over a range.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
@@ -10,6 +10,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 <figure>
 
 ![Two side-by-side type specimens of the word “jumpstart”, each shown with a variable axis represented beneath as an on/off switch. The first specimen, with the switch to the left, uses upright or regular forms. The second specimen, with the switch to the right, uses italic forms.](images/thumbnail.svg)
+
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a></figcaption>
 
 </figure>
 

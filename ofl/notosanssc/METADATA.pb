@@ -67,9 +67,7 @@ languages: "hak_Hans"  # Hakka Chinese
 languages: "hsn_Hans"  # Xiang Chinese
 languages: "lzh_Hans"  # Literary Chinese
 languages: "nan_Hans"  # Min Nan Chinese
-languages: "vi_Hani"  # Vietnamese, Han
 languages: "wuu_Hans"  # Wu Chinese
-languages: "yue_Hani"  # Chinese, Yue
 languages: "yue_Hans"  # Cantonese (Simplified)
 languages: "za_Hans"  # Zhuang, Simplified Han
 languages: "zh_Hans"  # Simplified Chinese

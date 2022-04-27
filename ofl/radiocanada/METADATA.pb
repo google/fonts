@@ -12,6 +12,15 @@ fonts {
   full_name: "Radio Canada Regular"
   copyright: "Copyright 2017 The Radio-Canada Project Authors (https://github.com/cbcrc/radiocanadafonts)"
 }
+fonts {
+  name: "Radio Canada"
+  style: "italic"
+  weight: 400
+  filename: "RadioCanada-Italic[wdth,wght].ttf"
+  post_script_name: "RadioCanada-Italic"
+  full_name: "Radio Canada Italic"
+  copyright: "Copyright 2017 The Radio-Canada Project Authors (https://github.com/cbcrc/radiocanadafonts)"
+}
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -28,5 +37,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/cbcrc/radiocanadafonts"
-  commit: "f40b2082cbcce000c4ca673bce6c996b998088db"
+  commit: "bc71c6b9400bfa19ccca38a5a6d69f9a2ec9f72e"
 }

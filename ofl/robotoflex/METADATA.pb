@@ -1,5 +1,5 @@
 name: "Roboto Flex"
-designer: "Font Bureau, David Berlow, Santiago Orozco, Christian Robertson"
+designer: "Font Bureau, David Berlow, Santiago Orozco, Irene Vlachou, Ilya Ruderman, Yury Ostromentsky, Mikhail Strukov"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2022-05-01"

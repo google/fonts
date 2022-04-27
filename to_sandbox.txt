@@ -1,4 +1,7 @@
 # New
+ofl/blaka
+ofl/blakahollow
+ofl/nuosu
 ofl/robotoflex
 ofl/splinesansmono
 ofl/tirobangla
@@ -11,20 +14,6 @@ ofl/tirotamil
 ofl/tirotelugu
 
 # Metadata/desc/OFL
-ofl/notosanssc
-ofl/notoserifsc
-
-# Small fix/other
-ofl/splinesans
-ofl/mavenpro
-
-# Upgrade
-ofl/andika
-
-# Knowledge
-cc-by-sa/knowledge/glossary/terms/contrast
-
-# Profiles
 catalog/designers/davidberlow
 catalog/designers/fontbureau
 catalog/designers/ilyaruderman
@@ -32,6 +21,22 @@ catalog/designers/irenevlachou
 catalog/designers/mikhailstrukov
 catalog/designers/santiagoorozco
 catalog/designers/yuryostromentsky
+ofl/notosanssc
+ofl/notoserifsc
+# note to self: changes to noto are TC lang removed (not in a PR)
+
+# Upgrade
+ofl/andika
+ofl/radiocanada
+ofl/scheherazadenew
+
+# Small fix/other
+ofl/mavenpro
+ofl/splinesans
+
+# Knowledge
+cc-by-sa/knowledge/glossary/terms/contrast
+cc-by-sa/knowledge/modules/introducing_type/lessons/introducing_variable_fonts
 
 # Sample Text
 lang/Lib/gflanguages/data/languages/ar_Arab.textproto

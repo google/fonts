@@ -8,7 +8,7 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 | 600 | -1000 | 2000 | 0 |
 <figure>
 
-![INSERT_ALT_TEXT](images/thumbnail.svg)
+![Three type specimens, each demonstrating the lowest setting, default setting, and highest setting of the YTFI axis, with an approximation of a variable slider shown beneath each. Blocks of color highlight the measurement affected by the axis.](images/thumbnail.svg)
 
 </figure>
 

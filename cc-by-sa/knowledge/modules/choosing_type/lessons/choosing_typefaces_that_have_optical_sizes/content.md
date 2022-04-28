@@ -20,10 +20,9 @@ Phototypesetting and early digital type ignored optical sizing for expediency. A
 
 </figure>
 
-It’s worth noting that on the web, there’s a file-size cost for using each additional axis in a variable font. Generally, any time we add an [Optical Size axis](/glossary/optical_size_axis), the font file-size will typically double, although this depends on the family and the other axes used–it can range between 1.2× and 2.6×.
-
-
 For the novice [typographer](/glossary/typographer), the need for different optical sizes might not be immediately apparent, but once you better understand their role, this is a technical consideration that can have a very strong influence on your choice of typeface or [type family](/glossary/family_or_type_family_or_font_family).
+
+It’s worth noting that on the web, there’s a file-size cost for using each additional axis in a variable font. Generally, any time we add an [Optical Size axis](/glossary/optical_size_axis), the font file-size will typically double, although this depends on the family and the other axes used–it can range between 1.2× and 2.6×.
 
 Regardless of media, if we’re creating a brand that will require text to be set very small and also very large, optical sizes will undoubtedly be useful. The small body type can focus on enhanced legibility; the large display type can show off the intricacies of the letterforms; both will sit better alongside each other.
 

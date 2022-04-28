@@ -1,11 +1,11 @@
 
-INSERT_PRE_ILLUSTRATION_TEXT
+“Parametric Lowercase Height” (YTLC in CSS) is a parametric axis, found in some variable fonts, for specifying and varying the height of counters and other spaces between the baseline and x-height.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
 | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 |
+| 500 | 0 | 1000 | 0 |
 
 <figure>
 
@@ -13,4 +13,9 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-INSERT_POST_ILLUSTRATION_TEXT
+
+It’s important to recognize that this axis does not control the x-height proportions of the typeface, but only the vertical space in lowercase letters; to adjust the x-height, it’s better to adjust several settings in concert, such as parametric cap height, parametric ascender height, parametric descender depth, and parametric figure height.
+
+Its four-letter abbreviation, YTLC, is a reference to its logical name, “Y-Transparency for Lower Case.” It may be used in conjunction with other axes controlling X- and Y-Transparencies (parametric counters and vertical alignment zones).
+
+In line with the current CSS spec, the four-character code for this axis should be referenced in UPPERCASE (only the five axes registered in the OpenType format specification should appear in lowercase). Also, when using the Google Fonts API, the uppercase axes have to appear first in the URL.

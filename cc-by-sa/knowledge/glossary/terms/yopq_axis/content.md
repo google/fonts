@@ -1,5 +1,5 @@
 
-“Parametric Thin Strokes” (`YOPQ` in CSS) is a [parametric axis](/glossary/TERM), found in some [variable fonts](/glossary/TERM), for specifying and varying thin [stroke](/glossary/TERM) weights, such as bars and hairlines.
+“Parametric Thin Strokes” (`YOPQ` in CSS) is a [parametric axis](/glossary/parametric_axis), found in some [variable fonts](/glossary/variable_fonts), for specifying and varying thin [stroke](/glossary/TERM) weights, such as bars and hairlines.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

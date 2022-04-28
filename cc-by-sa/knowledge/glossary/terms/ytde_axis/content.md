@@ -1,5 +1,5 @@
 
-“Parametric Descender Depth” (`YTDE` in CSS) is a [parametric axis](/glossary/TERM), found in some [variable fonts](/glossary/TERM), for specifying and varying the depth of [lowercase](/glossary/TERM) [descenders](/glossary/TERM), scaled as negative height.
+“Parametric Descender Depth” (`YTDE` in CSS) is a [parametric axis](/glossary/parametric_axis), found in some [variable fonts](/glossary/variable_fonts), for specifying and varying the depth of [lowercase](/glossary/TERM) [descenders](/glossary/TERM), scaled as negative height.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

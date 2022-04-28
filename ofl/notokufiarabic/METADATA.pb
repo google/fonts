@@ -10,10 +10,11 @@ fonts {
   filename: "NotoKufiArabic[wght].ttf"
   post_script_name: "NotoKufiArabic-Regular"
   full_name: "Noto Kufi Arabic Regular"
-  copyright: "Copyright 2019 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2019-2022 Google LLC. All Rights Reserved."
 }
-subsets: "menu"
 subsets: "arabic"
+subsets: "latin"
+subsets: "menu"
 axes {
   tag: "wght"
   min_value: 100.0

@@ -21,7 +21,7 @@ However, [fonts](/glossary/variable_fonts) with parametric axes typically offer 
 
 <figure>
 
-![Two rows of type specimens, showing the lowest setting, default setting, and highest setting of the YTUC axis (top) and YTLC axis (bottom) in Roboto Flex.](images/introducing_parametric_axes_3.svg)
+![Two rows of type specimens, showing the lowest setting, default setting, and highest setting of the YTUC axis (top) and YTLC axis (bottom) in Roboto Flex.](images/thumbnail.svg)
 <figcaption>The lowest setting, default setting, and highest setting of the YTUC axis (top) and YTLC axis (bottom) in Roboto Flex.</figcaption>
 
 </figure>
@@ -34,7 +34,7 @@ Consequently, in theory, if a broad range of parametric axes are created by a ty
 
 <figure>
 
-![Two type specimens shown in very small and very large sizes to demonstrate the subtle difference in YOPQ settings.](images/introducing_parametric_axes_4.svg)
+![Two type specimens shown in very small and very large sizes to demonstrate the subtle difference in YOPQ settings.](images/introducing_parametric_axes_3.svg)
 <figcaption>Amstelvar, set at a very small point size, using its minimum optical size, can be subtly improved (right) by slightly increasing its YOPQ setting, along with some more open tracking.</figcaption>
 
 </figure>
@@ -43,7 +43,7 @@ Another consequence of axes not being interrelated in OpenType is that the minim
 
 <figure>
 
-![Roboto Flex with an undesirably extreme setting.](images/introducing_parametric_axes_5.svg)
+![Roboto Flex with an undesirably extreme setting.](images/introducing_parametric_axes_4.svg)
 <figcaption>Manipulating just one parametric axis to an extreme—in this case, the maximum value for YOPQ in Roboto Flex—rarely achieves desirable results.</figcaption>
 
 </figure>

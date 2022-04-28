@@ -1,14 +1,7 @@
 
 In [variable fonts](/glossary/variable_fonts), [axes](/glossary/axis_in_variable_fonts) control the different aspects of a [typeface](/glossary/typeface)’s design, such as [weight](/glossary/weight_axis), [width](/glossary/width_axis), [optical size](/glossary/optical_size_axis), [italic](/glossary/italic_axis), [slant](/glossary/slant_axis), or indeed any change dreamed up by the [type designer](/glossary/type_designer). A [parametric axis](/glossary/parametric_axis) takes this concept further by allowing the fine tuning of just one singular aspect of a typeface, which makes it possible for expert users to finesse a typeface in ways that were previously reserved for [type foundries](/glossary/type_foundry).
 
-<figure>
-
-![ALT](images/introducing_parametric_axes_1.svg)
-<figcaption>CAPTION TBC</figcaption>
-
-</figure>
-
-They are useful by themselves to tune a single aspect of weight, width or height, and can often be modified in concert with other axes or settings. Knowing what the desirable changes are, and which sets of adjustments to make, requires experience and expertise, and we’ll attempt to cover the basics in this introductory article.
+They are useful by themselves to tune a single aspect of weight, width or height, and can often be modified in concert with other axes or settings. Knowing what the desirable changes are, and which sets of adjustments to make, requires experience and expertise—and we’ll attempt to cover the basics in this introductory article.
 
 There are four fundamental parameters to any typeface:
 
@@ -19,8 +12,8 @@ There are four fundamental parameters to any typeface:
 
 <figure>
 
-![ALT](images/introducing_parametric_axes_2.svg)
-<figcaption>CAPTION TBC</figcaption>
+![The lowercase “o” in Amstelvar, manipulated to the extreme ends of four parametric axes.](images/introducing_parametric_axes_2.svg)
+<figcaption>The lowercase “o” in Amstelvar, manipulated to the extreme ends of the XTRA (top left), XOPQ (top right), YOPQ (bottom left), and YTLC (bottom right) parametric axes. The default setting is shown in blue.</figcaption>
 
 </figure>
 
@@ -28,8 +21,8 @@ However, [fonts](/glossary/variable_fonts) with parametric axes typically offer 
 
 <figure>
 
-![ALT](images/introducing_parametric_axes_3.svg)
-<figcaption>CAPTION TBC</figcaption>
+![Two rows of type specimens, showing the lowest setting, default setting, and highest setting of the YTUC axis (top) and YTLC axis (bottom) in Roboto Flex.](images/introducing_parametric_axes_3.svg)
+<figcaption>The lowest setting, default setting, and highest setting of the YTUC axis (top) and YTLC axis (bottom) in Roboto Flex.</figcaption>
 
 </figure>
 
@@ -41,8 +34,8 @@ Consequently, in theory, if a broad range of parametric axes are created by a ty
 
 <figure>
 
-![ALT](images/introducing_parametric_axes_4.svg)
-<figcaption>CAPTION TBC</figcaption>
+![Two type specimens shown in very small and very large sizes to demonstrate the subtle difference in YOPQ settings.](images/introducing_parametric_axes_4.svg)
+<figcaption>Amstelvar, set at a very small point size, using its minimum optical size, can be subtly improved (right) by slightly increasing its YOPQ setting, along with some more open tracking.</figcaption>
 
 </figure>
 
@@ -50,8 +43,8 @@ Another consequence of axes not being interrelated in OpenType is that the minim
 
 <figure>
 
-![ALT](images/introducing_parametric_axes_5.svg)
-<figcaption>CAPTION TBC</figcaption>
+![Roboto Flex with an undesirably extreme setting.](images/introducing_parametric_axes_5.svg)
+<figcaption>Manipulating just one parametric axis to an extreme—in this case, the maximum value for YOPQ in Roboto Flex—rarely achieves desirable results.</figcaption>
 
 </figure>
 

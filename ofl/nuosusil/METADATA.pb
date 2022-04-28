@@ -1,10 +1,10 @@
-name: "Nuosu"
+name: "Nuosu SIL"
 designer: "SIL International"
 license: "OFL"
 category: "SERIF"
-date_added: "2022-04-21"
+date_added: "2022-04-28"
 fonts {
-  name: "Nuosu"
+  name: "Nuosu SIL"
   style: "normal"
   weight: 400
   filename: "NuosuSIL-Regular.ttf"

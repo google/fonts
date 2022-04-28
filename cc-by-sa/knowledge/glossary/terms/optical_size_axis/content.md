@@ -15,7 +15,7 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-Optical sizes in a variable font are different versions of a [typeface](INSERT_URL) optimized for use at singular specific sizes, such as 14 pt or 144 pt. Small (or [body](/glossary/body)) optical sizes tend to have less [stroke](/glossary/stroke) [contrast](/glossary/contrast), more open spacing, and taller [x-heights](/glossary/x_height) than those of their large (or [display](/glossary/display)) counterparts.
+Optical sizes in a variable font are different versions of a [typeface](/glossary/typeface) optimized for use at singular specific sizes, such as 14 pt or 144 pt. Small (or [body](/glossary/body)) optical sizes tend to have less [stroke](/glossary/stroke) [contrast](/glossary/contrast), more open spacing, and taller [x-heights](/glossary/x_height) than those of their large (or [display](/glossary/display)) counterparts.
 
 The concept is that the numeric value for this axis should match the rendered font size in typographic points (1/72nd of an inch) in print, although browsers instead match it to the CSS px unit, since they have no concept of physical size. A new CSS attribute was introduced to go along with it: `font-optical-sizing`. The default is `auto` (or we can force it to `none` if we’d prefer to turn it off), and this is supported behavior in all modern browsers.
 

@@ -1,0 +1,23 @@
+# FOR TESTING ONLY [for now anyway]
+# MONO based on https://github.com/arrowtype/Recursive#variable-axes
+tag: "MONO"
+display_name: "Monospace"
+min_value: 0
+max_value: 1
+default_value: 0
+precision: -2
+fallback {
+  name: "Proportional"
+  value: 0
+}
+fallback {
+  name: "Monospace"
+  value: 1
+}
+fallback_only: false
+illustration_url: "monospace.svg"
+description:
+  "Adjust the style from Proportional (natural widths, default) to"
+  " Monospace (fixed width). With proportional spacing, each glyph"
+  " takes up a unique amount of space on a line, while monospace"
+  " is when all glyphs have the same total character width."

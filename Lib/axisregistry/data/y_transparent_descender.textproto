@@ -1,0 +1,14 @@
+# YTDE based on https://variationsguide.typenetwork.com/#ytde
+tag: "YTDE"
+display_name: "Descender Depth"
+min_value: -1000
+max_value: 0
+default_value: -250
+precision: 0
+fallback {
+  name: "Normal"
+  value: -250
+}
+fallback_only: false
+description:
+  "A parametric axis for varying the height of lowercase descenders."

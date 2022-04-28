@@ -1,0 +1,28 @@
+# CRSV based on https://github.com/arrowtype/Recursive#variable-axes
+tag: "CRSV"
+display_name: "Cursive"
+min_value: 0
+max_value: 1
+default_value: 0.5
+precision: -1
+fallback {
+  name: "Roman"
+  value: 0
+  display_name: "Off"
+}
+fallback {
+  name: "Auto"
+  value: 0.5
+}
+fallback {
+  name: "Cursive"
+  value: 1
+  display_name: "On"
+}
+fallback_only: true
+illustration_url: "cursive.svg"
+description:
+  "Control the substitution of cursive forms along the Slant axis. 'Off' (0)"
+  " maintains Roman letterforms such as a double-storey a and g, 'Auto' (0.5)"
+  " allows for Cursive substitution, and 'On' (1) asserts cursive forms even"
+  " in upright text with a Slant of 0."

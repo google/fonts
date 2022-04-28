@@ -1,6 +1,8 @@
 
 [Optical sizing](/glossary/optical_sizes) refers to the practice of [type foundries](/glossary/type_foundry) creating slightly different versions of a [typeface](/glossary/typeface) intended to be used at different sizes. Generally speaking, small ([body](/glossary/body) or caption) optical sizes tend to have less stroke [contrast](/glossary/contrast), larger [x-heights](/glossary/x_height), wider [characters](/glossary/character), and more open spacing. Their large (or [display](/glossary/display)) counterparts have refined features and tighter spacing—characteristics that would hinder their readability at small sizes.
 
+On the web, there is a file-size cost for using each addition axis in a variable font. Generally, any time you add an Optical Size axis, the font file-size will typically double, but this depends on the family and the other axes used – it can range between 1.2× and 2.6×. 
+
 <figure>
 
 ![On the left, text set in four different optical sizes—display, subhead, body, and caption—at the intended font sizes for each. On the right, a close-up of each optical size, set at the same font size to emphasize the difference between each.](images/thumbnail.svg)

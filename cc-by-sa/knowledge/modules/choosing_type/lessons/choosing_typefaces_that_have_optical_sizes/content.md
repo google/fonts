@@ -1,8 +1,6 @@
 
 [Optical sizing](/glossary/optical_sizes) refers to the practice of [type foundries](/glossary/type_foundry) creating slightly different versions of a [typeface](/glossary/typeface) intended to be used at different sizes. Generally speaking, small ([body](/glossary/body) or caption) optical sizes tend to have less stroke [contrast](/glossary/contrast), larger [x-heights](/glossary/x_height), wider [characters](/glossary/character), and more open spacing. Their large (or [display](/glossary/display)) counterparts have refined features and tighter spacing—characteristics that would hinder their readability at small sizes.
 
-On the web, there is a file-size cost for using each addition axis in a variable font. Generally, any time you add an Optical Size axis, the font file-size will typically double, but this depends on the family and the other axes used – it can range between 1.2× and 2.6×. 
-
 <figure>
 
 ![On the left, text set in four different optical sizes—display, subhead, body, and caption—at the intended font sizes for each. On the right, a close-up of each optical size, set at the same font size to emphasize the difference between each.](images/thumbnail.svg)
@@ -21,6 +19,9 @@ Phototypesetting and early digital type ignored optical sizing for expediency. A
 ![The characters “A” and “a” are rendered twice: On the left, they appear in a “display“ optical size; on the right, a “body” one. The stroke contrast on the left is considerably greater. Beneath both versions are representations of the variable axes.](images/2.5.2.svg)
 
 </figure>
+
+It’s worth noting that on the web, there’s a file-size cost for using each additional axis in a variable font. Generally, any time we add an [Optical Size axis](/glossary/optical_size_axis), the font file-size will typically double, although this depends on the family and the other axes used–it can range between 1.2× and 2.6×.
+
 
 For the novice [typographer](/glossary/typographer), the need for different optical sizes might not be immediately apparent, but once you better understand their role, this is a technical consideration that can have a very strong influence on your choice of typeface or [type family](/glossary/family_or_type_family_or_font_family).
 

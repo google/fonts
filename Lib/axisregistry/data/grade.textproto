@@ -12,8 +12,7 @@ fallback {
 fallback_only: false
 illustration_url: "grade.svg"
 description:
-  "Finesse the style from lighter to bolder in typographic color, by varying"
-  " stroke thicknesses or other forms, without any changes overall width,"
-  " inter-letter spacing, or kerning, so there are no changes to line breaks"
-  " or page layout. Negative grade makes the style lighter, while positive"
-  " grade makes it bolder. The units are the same as in the Weight axis."
+  "Finesse the style from lighter to bolder in typographic color, without"
+  " any changes overall width, line breaks or page layout. Negative grade"
+  " makes the style lighter, while positive grade makes it bolder."
+  " The units are the same as in the Weight axis."

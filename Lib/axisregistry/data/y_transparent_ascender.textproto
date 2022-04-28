@@ -1,6 +1,6 @@
 # YTAS based on https://variationsguide.typenetwork.com/#ytas
 tag: "YTAS"
-display_name: "Y transparent ascender"
+display_name: "Ascender Height"
 min_value: 0
 max_value: 1000
 default_value: 750
@@ -11,4 +11,4 @@ fallback {
 }
 fallback_only: false
 description:
-  "Assigns a 'white' per mille value to each instance of the design space."
+  "A parametric axis for varying the height of lowercase ascenders."

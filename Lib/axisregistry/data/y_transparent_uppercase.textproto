@@ -1,6 +1,6 @@
 # YTUC based on https://variationsguide.typenetwork.com/#ytuc
 tag: "YTUC"
-display_name: "Y transparent uppercase"
+display_name: "Uppercase Height"
 min_value: 0
 max_value: 1000
 default_value: 725
@@ -11,4 +11,4 @@ fallback {
 }
 fallback_only: false
 description:
-  "Assigns a 'white' per mille value to each instance of the design space."
+  "A parametric axis for varying the heights of uppercase letterforms."

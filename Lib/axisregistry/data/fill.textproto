@@ -1,3 +1,4 @@
+# FILL based on https://github.com/google/material-design-icons
 tag: "FILL"
 display_name: "Fill"
 min_value: 0.0
@@ -14,10 +15,8 @@ fallback {
 }
 fallback_only: false
 illustration_url: "fill.svg"
-description: "The Fill axis is intended to provide a treatment of the design"
-  " that fills in transparent forms with opaque ones (and sometimes interior"
-  " opaque forms become transparent, to maintain contrasting shapes)."
-  " Transitions often occur from the center, a side, or a corner,"
-  " but can be in any direction. This can be useful in animation or"
-  " interaction to convey a state transition. The numbers indicate"
-  " proportion filled, from 0 (no treatment) to 1 (completely filled)." 
+description:
+  "Fill in transparent forms with opaque ones. Sometimes interior opaque"
+  " forms become transparent, to maintain contrasting shapes. This can"
+  " be useful in animation or interaction to convey a state transition."
+  " Ranges from 0 (no treatment) to 1 (completely filled)."

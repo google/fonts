@@ -94,10 +94,7 @@ fallback {
 fallback_only: false
 illustration_url: "optical_size.svg"
 description:
-  "Adapt the style to specific text sizes, specified in Points. At smaller"
-  " sizes, letters typically become optimized for more legibility, with loose"
-  " spacing/kerning and thicker strokes with less detail. At larger sizes,"
-  " letters are typically optimized for headlines with thinner strokes and"
-  " more detailed forms, and more extreme weights and widths. When used in"
-  " CSS, this axis is activated by default, but not all products/platforms"
-  " use it automatically."
+  "Adapt the style to specific text sizes. At smaller sizes, letters"
+  " typically become optimized for more legibility. At larger sizes,"
+  " optimized for headlines, with more extreme weights and widths."
+  " In CSS this axis is activated by automatically when available."

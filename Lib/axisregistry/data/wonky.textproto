@@ -16,8 +16,8 @@ fallback {
 fallback_only: true
 illustration_url: "wonky.svg"
 description:
-  "Binary axis to control the subsitution of wonky forms along the"
-  " optical size axis. 'Off' (0) maintains more normalized letterforms,"
-  " such as the leaning n/m/h in roman, or the bulbous flags in the"
-  " b/d/h/k/l of the italic."
-  " In static fonts, this is also available as an OpenType Stylistic Set."
+  "Toggle the subsitution of wonky forms. 'Off' (0) maintains more"
+  " conventional letterforms, while 'On' (1) maintains wonky"
+  " letterforms, such as leaning stems in roman, or flagged"
+  " ascenders in italic. These forms are also controlled by"
+  " Optical Size."

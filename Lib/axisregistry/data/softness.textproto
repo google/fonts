@@ -19,4 +19,5 @@ fallback {
 }
 fallback_only: false
 illustration_url: "softness.svg"
-description: "Letterforms become more soft and rounded."
+description:
+  "Adjust letterforms to become more and more soft and rounded."

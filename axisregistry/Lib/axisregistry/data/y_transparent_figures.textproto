@@ -10,5 +10,6 @@ fallback {
   value: 600
 }
 fallback_only: false
+illustration_url: "y_transparent_figures.svg"
 description:
   "A parametric axis for varying the height of figures."

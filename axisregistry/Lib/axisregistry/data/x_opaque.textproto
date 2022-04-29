@@ -10,5 +10,6 @@ fallback {
   value: 88
 }
 fallback_only: false
+illustration_url: "x_opaque.svg"
 description:
   "A parametric axis for varying thick stroke weights, such as stems."

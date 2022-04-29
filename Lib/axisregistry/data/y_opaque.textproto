@@ -10,5 +10,6 @@ fallback {
   value: 116
 }
 fallback_only: false
+illustration_url: "y_opaque.svg"
 description:
   "A parametric axis for varying thin stroke weights, such as bars and hairlines."

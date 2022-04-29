@@ -10,5 +10,6 @@ fallback {
   value: 400
 }
 fallback_only: false
+illustration_url: "x_transparent.svg"
 description:
   "A parametric axis for varying counter widths in the X dimension."

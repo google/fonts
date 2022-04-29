@@ -10,5 +10,6 @@ fallback {
   value: 725
 }
 fallback_only: false
+illustration_url: "y_transparent_uppercase.svg"
 description:
   "A parametric axis for varying the heights of uppercase letterforms."

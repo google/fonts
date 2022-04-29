@@ -10,5 +10,6 @@ fallback {
   value: 500
 }
 fallback_only: false
+illustration_url: "y_transparent_lowercase.svg"
 description:
   "A parametric axis for varying the height of the lowercase."

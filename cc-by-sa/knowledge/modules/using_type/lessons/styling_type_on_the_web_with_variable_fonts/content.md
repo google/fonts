@@ -12,7 +12,7 @@ As we mentioned in our article [“Loading variable fonts on the web,”](/lesso
 https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap
 ```
 
-Now let’s consider other axes we can work with. The ones currently referenced in the CSS spec (i.e., widely supported in modern browsers) are [italic](/glossary/italic), [optical size](/glossary/optical_sizes), [slant](/glossary/oblique), [weight](/glossary/weight), and [width](/glossary/width). (When using the Google Fonts API, be sure to list them alphabetically.) They’re mapped to CSS proper like so:
+Now let’s consider other axes we can work with. The ones currently referenced in the CSS spec (i.e., widely supported in modern browsers) are [Italic](/glossary/italic_axis), [Optical Size](/glossary/optical_size_axis), [Slant](/glossary/slant_axis), [Weight](/glossary/weight_axis), and [Width](/glossary/width_axis). (When using the Google Fonts API, be sure to list them alphabetically.) They’re mapped to CSS proper like so:
 
 | Axis & Abbreviation: | CSS attribute: |
 | --- | --- |
@@ -104,7 +104,7 @@ It’s fair to say that the close relationship between the italic and slant axes
 
 ## Registered axis: optical size
 
-The last registered axis we’ll look at is **optical size**. The concept is that the numeric value for this axis should match the rendered font size in px, and a new CSS attribute was introduced to go along with it: `font-optical-sizing`. The default is `auto` (or we can force it to `none`), and this is supported behavior in all modern browsers.
+The last registered axis we’ll look at is **optical size**. The concept is that the numeric value for this axis should match the rendered font size in px, and a new CSS attribute was introduced to go along with it: `font-optical-sizing`. The default is `auto`, so this CSS is already pre-loaded behavior in all modern browsers:
 
 ```css
 body {
@@ -112,7 +112,7 @@ body {
 }
 ```
 
-Alternatively, we can set an explicit value by using `font-variation-settings`, like so:
+We can change it to `none`, but it is more common to leave that property on and instead set an explicit value by using `font-variation-settings`, like so:
 
 ```css
 body {
@@ -140,7 +140,7 @@ span {
 }
 ```
 
-We should always refer to the documentation provided by our chosen font’s [foundry](/glossary/type_foundry) for the correct four-character axis name, and be sure to reference any custom axis in UPPERCASE. In line with the current CSS spec, only the officially registered variable axes (those five demonstrated in the first part of this article) should appear in lowercase. Also, if we’re using the Google Fonts API, the uppercase axes have to appear first in the URL.
+We should always refer to the documentation provided by our chosen font’s [foundry](/glossary/type_foundry) for the correct four-character axis name, and be sure to reference any custom axis in UPPERCASE. In line with the current CSS spec, only the OpenType registered variable axes (those five demonstrated in the first part of this article) should appear in lowercase. Also, if we’re using the Google Fonts API, the uppercase axes have to appear first in the URL.
 
 [//]: # (TO-DO: Move the sentence above to the “Loading variable fonts on the web” article.)
 

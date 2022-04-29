@@ -17,4 +17,4 @@ In the [Fraunces](https://fonts.google.com/specimen/Fraunces) [typeface](/glossa
 
 </figure>
 
-In line with the current CSS spec, all custom axes should be referenced in UPPERCASE (only the officially registered variable axes should appear in lowercase). Also, when using the Google Fonts API, the uppercase axes have to appear first in the URL.
+In line with the current CSS spec, all custom axes should be referenced in UPPERCASE (only the OpenType registered variable axes should appear in lowercase). Also, when using the Google Fonts API, the uppercase axes have to appear first in the URL.

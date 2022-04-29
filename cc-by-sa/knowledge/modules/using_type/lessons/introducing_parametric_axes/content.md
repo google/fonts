@@ -12,7 +12,7 @@ There are four fundamental parameters latent in any typeface:
 
 <figure>
 
-![Two lowercase “o” letters in the Amstelvar variable typeface, each with 4 more "o" above and below showing the minimum and maximum variations of opaque and transparent parametric axes.](images/introducing_parametric_axes_1.svg)
+![Two lowercase “o” letters in the Amstelvar variable typeface, each with 4 more "o" above and below showing the minimum and maximum variations of opaque and transparent parametric axes.](images/thumbnail.svg)
 <figcaption>Amstelvar's lowercase “o” shown at the extreme ends of four parametric axes, showing opaque axes on the left and transparent axes on the right, with the default design in blue.</figcaption>
 
 </figure>

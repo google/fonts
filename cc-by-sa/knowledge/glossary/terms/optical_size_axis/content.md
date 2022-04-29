@@ -36,4 +36,4 @@ h1 {
 }
 ```
 
-The changes made across an optical design axis are intended by typeface designers to optimize the type, but parametric axes can be used to further adjust and fine-tune things. Explore more in our article, [“Introducing parametric axes.”](/lessons/using_type/introducing_parametric_axes)
+The changes made across an optical design axis are intended by typeface designers to optimize the type, but parametric axes can be used to further adjust and fine-tune things. Explore more in our article, [“Introducing parametric axes.”](/lesson/using_type/introducing_parametric_axes)

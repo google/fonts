@@ -12,7 +12,7 @@ There are four fundamental parameters to any typeface:
 
 <figure>
 
-![The lowercase “o” in Amstelvar, manipulated to the extreme ends of four parametric axes.](images/introducing_parametric_axes_2.svg)
+![The lowercase “o” in Amstelvar, manipulated to the extreme ends of four parametric axes.](images/thumbnail.svg)
 <figcaption>The lowercase “o” in Amstelvar, manipulated to the extreme ends of the XTRA (top left), XOPQ (top right), YOPQ (bottom left), and YTLC (bottom right) parametric axes. The default setting is shown in blue.</figcaption>
 
 </figure>

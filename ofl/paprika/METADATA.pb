@@ -9,8 +9,13 @@ fonts {
   weight: 400
   filename: "Paprika-Regular.ttf"
   post_script_name: "Paprika-Regular"
-  full_name: "Paprika"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Paprika\'"
+  full_name: "Paprika Regular"
+  copyright: "Copyright 2012 The Paprika Project Authors (https://github.com/etunni/paprika)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/paprika"
+  commit: "4297101a8717fd9ee5795b693f37f3c80bdd3d68"
+}

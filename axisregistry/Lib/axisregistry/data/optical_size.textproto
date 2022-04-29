@@ -2,7 +2,7 @@
 # fallbacks based on https://en.wikipedia.org/wiki/Traditional_point-size_names
 # plus discussion with dcrossland@
 tag: "opsz"
-display_name: "Optical Size"
+display_name: "Optical size"
 min_value: 6
 max_value: 144
 default_value: 14

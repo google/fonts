@@ -5,15 +5,15 @@ They are useful by themselves to tune a single aspect of weight, width or height
 
 There are four fundamental parameters latent in any typeface:
 
-1. The opaque [stroke](/glossary/stroke) widths that typically exist along the X dimension, such as in the thicker vertical stems in H; or the thicker strokes of the [glyph](/glossary/glyph) when not aligned to a cartesian grid, such as in X or O when the type design has slanted angle of [stroke contrast, or stress](/glossary/axis_in_type_design). Opaque shapes are also known as positive shapes.
-2. The opaque stroke widths that typically exist along the Y dimension, such as the thin bar stroke across the H, or the thinner strokes of a glyph, such as X or O.
-3. The transparent spaces that change in X dimension, where there are no strokes (and are known as negative shapes, or counters).
-4. The transparent spaces that change in the Y dimension (and are known as vertical alignment zones, such as [x-height](/glossary/x_height) or [cap height](/glossary/cap_height)).
+1. The opaque [stroke](/glossary/stroke) widths that typically exist along the X dimension, such as in the thicker vertical stems in H; or the thicker strokes of the [glyph](/glossary/glyph) when not aligned to a cartesian grid, such as in X or O when the type design has slanted angle of [stroke contrast, or stress](/glossary/axis_in_type_design). Opaque shapes are also known as positive shapes. (Shown below, left, above and below.)
+2. The opaque stroke widths that typically exist along the Y dimension, such as the thin bar stroke across the H, or the thinner strokes of a glyph, such as X or O. (Shown below, left, left and right)
+3. The transparent spaces that change in the X dimension, effecting width. These spaces are also known as negative shapes, or counters. (Shown below, right, above and below.)
+4. The transparent spaces that change in the Y dimension, effecting height. These spaces are also known as vertical alignment zones, such as [x-height](/glossary/x_height) or [cap height](/glossary/cap_height). (Shown below, right, left and right.)
 
 <figure>
 
 ![Two lowercase “o” letters in the Amstelvar variable typeface, each with 4 more "o" above and below showing the minimum and maximum variations of opaque and transparent parametric axes.](images/thumbnail.svg)
-<figcaption>Amstelvar's lowercase “o” shown at the extreme ends of four parametric axes, showing opaque axes on the left and transparent axes on the right, with the default design in blue.</figcaption>
+<figcaption>Amstelvar's lowercase “o” shown at the extreme ends of four parametric axes, showing opaque axes (left) and transparent axes (right), with the default design in blue.</figcaption>
 
 </figure>
 

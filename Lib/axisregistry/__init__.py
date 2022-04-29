@@ -70,7 +70,8 @@ class GFNameBuilder:
         self.ttFont = ttFont
         self.name_table = self.ttFont["name"]
         self.axis_reg = axis_registry
-        self.weights = self.axis_reg["wght"].fallback
+        self.weights = [i.name for i in self.axis_reg["wght"].fallback]
+        self.v1_styles = self.weights + [f"{i} Italic".replace("Regular Italic", "Italic") for i in self.weights]
         self.family_name = self.ttFont["name"].getBestFamilyName()
         self.subfamily_name = self.ttFont["name"].getBestSubFamilyName()
 
@@ -217,7 +218,7 @@ class GFNameBuilder:
                 res.append((axis, fallback))
         return res
 
-    def build_name_table(self, family_name=None, style_name=None):
+    def build_name_table(self, family_name=None, style_name=None, siblings=[]):
         family_name = (
             family_name if family_name else self.name_table.getBestFamilyName()
         )
@@ -225,15 +226,23 @@ class GFNameBuilder:
             style_name if style_name else self.name_table.getBestSubFamilyName()
         )
         if self.is_variable():
-            return self.build_vf_name_table(family_name)
+            return self.build_vf_name_table(family_name, siblings=siblings)
         return self.build_static_name_table_v1(family_name, style_name)
 
-    def build_vf_name_table(self, family_name):
+    def build_vf_name_table(self, family_name, siblings=[]):
         # VF name table should reflect the 0 origin of the font!
         assert self.is_variable(), "Not a VF!"
         print("building vf name table")
         style_name = self._vf_style_name()
-        self.build_static_name_table(family_name, style_name)
+        # if there are sibling fonts and the style name isn't wght+ital, use the v1 static method
+        if siblings and style_name not in self.v1_styles:
+            self.build_static_name_table_v1(family_name, style_name)
+        else:
+            self.build_static_name_table(family_name, style_name)
+        
+        # todo nameID 25
+        import pdb
+        pdb.set_trace()
 
     def _vf_style_name(self):
         fvar_dflts = self._fvar_dflts()
@@ -245,6 +254,8 @@ class GFNameBuilder:
 
         font_styles = self.styles_in_name_table([self.ttFont])
         for _, s in font_styles:
+            if s.name in res:
+                continue
             res.append(s.name)
         return " ".join(res).replace("Regular Italic", "Italic")
 
@@ -354,22 +365,26 @@ class GFNameBuilder:
         """Pre VF name tables, this version can only accept wght + ital"""
         print("building static name table")
         non_weight_tokens = []
+        v1_tokens = []
         tokens = style_name.split()
         for t in tokens:
             if t not in self.weights + ["Italic"]:
                 non_weight_tokens.append(t)
+            else:
+                v1_tokens.append(t)
 
         family_tokens = family_name.split()
         new_family_name = []
         for t in family_tokens:
-            if t in non_weight_tokens:
+            if t in non_weight_tokens or t in new_family_name:
                 continue
             new_family_name.append(t)
-
         for t in non_weight_tokens:
             new_family_name.append(t)
 
         family_name = " ".join(new_family_name)
+        style_name = " ".join(v1_tokens)
+
         self.build_static_name_table(family_name, style_name)
 
 
@@ -380,17 +395,20 @@ def main():
     f2 = TTFont(
         "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSans-Italic-VF.ttf"
     )
-    namer1 = GFNameBuilder(f1)
-    namer1.build_name_table("Open Sans Neue")
-    namer1.build_fvar_instances()
-    namer1.build_stat([f2])
-    f1.save(f1.reader.file.name)
-
-    namer2 = GFNameBuilder(f2)
-    namer2.build_name_table("Open Sans Neue")
-    namer2.build_fvar_instances()
-    namer2.build_stat([f1])
-    f2.save(f2.reader.file.name)
+    f3 = TTFont(
+       "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Roman-VF.ttf"
+    )
+#    f4 = TTFont(
+#        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Italic-VF.ttf"
+#    )
+    fonts = [f1, f2, f3,]# f4]
+    for idx, f in enumerate(fonts):
+        siblings = fonts[idx+1:]+fonts[:idx]
+        namer = GFNameBuilder(f)
+        namer.build_name_table("Open Sans Neue", siblings=siblings)
+        namer.build_fvar_instances()
+        namer.build_stat()
+        f.save(f.reader.file.name)
 
 
 if __name__ == "__main__":

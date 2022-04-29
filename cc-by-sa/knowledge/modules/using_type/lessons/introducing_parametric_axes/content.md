@@ -12,7 +12,7 @@ There are four fundamental parameters to any typeface:
 
 <figure>
 
-![The lowercase “o” in Amstelvar, manipulated to the extreme ends of four parametric axes.](images/thumbnail.svg)
+![The lowercase “o” in Amstelvar, manipulated to the extreme ends of four parametric axes.](images/introducing_parametric_axes_1.svg)
 <figcaption>The lowercase “o” in Amstelvar, manipulated to the extreme ends of the XTRA (top left), XOPQ (top right), YOPQ (bottom left), and YTLC (bottom right) parametric axes. The default setting is shown in blue.</figcaption>
 
 </figure>
@@ -34,7 +34,7 @@ Consequently, in theory, if a broad range of parametric axes are created by a ty
 
 <figure>
 
-![Two type specimens shown in very small and very large sizes to demonstrate the subtle difference in YOPQ settings.](images/introducing_parametric_axes_3.svg)
+![Two type specimens shown in very small and very large sizes to demonstrate the subtle difference in YOPQ settings.](images/introducing_parametric_axes_2.svg)
 
 <figcaption>Amstelvar, set at a very small point size, using its minimum optical size, can be subtly improved (right) by slightly increasing its YOPQ setting, along with some more open tracking.</figcaption>
 
@@ -44,7 +44,7 @@ Another consequence of axes not being interrelated in OpenType is that the minim
 
 <figure>
 
-![Roboto Flex with an undesirably extreme setting.](images/introducing_parametric_axes_4.svg)
+![Roboto Flex with an undesirably extreme setting.](images/introducing_parametric_axes_3.svg)
 <figcaption>Manipulating just one parametric axis to an extreme—in this case, the maximum value for YOPQ in Roboto Flex—rarely achieves desirable results.</figcaption>
 
 </figure>

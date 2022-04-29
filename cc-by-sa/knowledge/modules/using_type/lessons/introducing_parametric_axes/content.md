@@ -12,7 +12,7 @@ There are four fundamental parameters to any typeface:
 
 <figure>
 
-![The lowercase “o” in Amstelvar, manipulated to the extreme ends of four parametric axes.](images/introducing_parametric_axes_1.svg)
+![The lowercase “o” in Amstelvar, manipulated to the extreme ends of four parametric axes.](images/thumbnail.svg)
 <figcaption>The lowercase “o” in Amstelvar, manipulated to the extreme ends of the XTRA (top left), XOPQ (top right), YOPQ (bottom left), and YTLC (bottom right) parametric axes. The default setting is shown in blue.</figcaption>
 
 </figure>
@@ -21,7 +21,7 @@ However, [fonts](/glossary/variable_fonts) with parametric axes typically offer 
 
 <figure>
 
-![Two rows of type specimens, showing the lowest setting, default setting, and highest setting of the YTUC axis (top) and YTLC axis (bottom) in Roboto Flex.](images/thumbnail.svg)
+![Two rows of type specimens, showing the lowest setting, default setting, and highest setting of the YTUC axis (top) and YTLC axis (bottom) in Roboto Flex.](images/introducing_parametric_axes_2.svg)
 <figcaption>The lowest setting, default setting, and highest setting of the YTUC axis (top) and YTLC axis (bottom) in Roboto Flex.</figcaption>
 
 </figure>

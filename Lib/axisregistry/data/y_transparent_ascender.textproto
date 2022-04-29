@@ -10,5 +10,6 @@ fallback {
   value: 750
 }
 fallback_only: false
+illustration_url: "y_transparent_ascender.svg"
 description:
   "A parametric axis for varying the height of lowercase ascenders."

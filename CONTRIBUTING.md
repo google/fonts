@@ -9,8 +9,6 @@ If you have any feedback on Google Fonts API, directory, or the fonts themselves
 - [Report a problem with a font](https://github.com/google/fonts/issues/new?assignees=&labels=II+Font+Bug&template=3_font-bug.md&title=)
 - [Anything else](https://github.com/google/fonts/issues/new?assignees=&labels=II+API+%2F+Website+%2F+Platform%2C+II+Tools+%2F+workflow+%2F+repo&template=4_anything-else.md&title=)
 
-
-
 ## New Families
 
 If you would like to include a new font family in the Google Fonts collection, we'll be happy to include it if it meets the following criteria:
@@ -30,8 +28,11 @@ If you would like to include a new font family in the Google Fonts collection, w
 
 **More detailed design and production details are listed in our [Project Specification](https://github.com/googlefonts/gf-docs/tree/main/Spec)**
 
-When you are ready to meet these requirements, please [create a new issue](https://github.com/google/fonts/issues) with a link to the project's source repository.
+If you are able to meet these requirements yourself, please [create a new issue](https://github.com/google/fonts/issues) with a link to the project's source repository.
 In special circumstances, you can request an exception to these requirements on your issue.
+
+If you are a non-technical person who has developed a high quality typeface in a GUI application and are happy to meet all these requirements in spirit but need someone else to take care of all the technical stuff, Google Fonts also accepts submissions via email.
+Send an email to fonts@google.com with an attachment that includes complete source files, along with a clear statement you are the sole original author and are licensing the source files under OFL, with a request that we take care of everything else. 
 
 From time to time, Google Fonts provides financial and design assistance for projects. 
 If you would like to discuss this, please mention that you would like someone to contact you privately when filing an issue (and have contact details on your Github profile page.)

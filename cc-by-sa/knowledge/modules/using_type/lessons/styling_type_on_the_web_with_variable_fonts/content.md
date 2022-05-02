@@ -26,7 +26,7 @@ As you can see, the registered axes correlate to standard CSS properties that we
 
 ## Registered axis: weight
 
-Let’s assign a variable **weight** property to some of our paragraph type and anything marked up as `strong`:
+Let’s assign a variable **[weight](/glossary/weight_axis)** property to some of our paragraph type and anything marked up as `strong`:
 
 ```css
 p {
@@ -44,7 +44,7 @@ Similarly, whereas `strong` text would usually be set in a bold weight, most oft
 
 ## Registered axis: width
 
-Assigning a variable **width** property follows much the same pattern:
+Assigning a variable **[width](/glossary/width_axis)** property follows much the same pattern:
 
 ```css
 p {
@@ -60,7 +60,7 @@ Here, our paragraph text will be quite narrow—50% is what the type designer ha
 
 ## Registered axes: italic and slant
 
-For setting variable italic and slant values, things are a little different, as these two properties are closely related.
+For setting variable **[italic](/glossary/italic_axis)** and **[slant](/glossary/slant_axis)** values, things are a little different, as these two properties are closely related.
 
 First, let’s deal with italics. Because true italics are original drawings rather than just slanted versions of the upright typeface, and some characters (e.g., a and g) have notably different italic forms, it often makes no sense to offer smooth variation between them. Therefore, the italic axis is usually effectively an on/off switch that links two separate font files.
 
@@ -104,7 +104,7 @@ It’s fair to say that the close relationship between the italic and slant axes
 
 ## Registered axis: optical size
 
-The last registered axis we’ll look at is **optical size**. The concept is that the numeric value for this axis should match the rendered font size in px, and a new CSS attribute was introduced to go along with it: `font-optical-sizing`. The default is `auto`, so this CSS is already pre-loaded behavior in all modern browsers:
+The last registered axis we’ll look at is **[optical size](/glossary/optical_size_axis)**. The concept is that the numeric value for this axis should match the rendered font size in px, and a new CSS attribute was introduced to go along with it: `font-optical-sizing`. The default is `auto`, so this CSS is already pre-loaded behavior in all modern browsers:
 
 ```css
 body {

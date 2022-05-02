@@ -26,6 +26,14 @@ As you can see, the registered axes correlate to standard CSS properties that we
 
 ## Registered axis: weight
 
+<figure>
+
+![Two side-by-side type specimens of the word “thicken”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a light weight with thin strokes. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, shows a heavy weight with thick strokes.](images/weight.svg)
+
+<figcaption>The Weight axis in the typeface <a href="https://fonts.google.com/specimen/Epilogue">Epilogue</a></figcaption>
+
+</figure>
+
 Let’s assign a variable **[weight](/glossary/weight_axis)** property to some of our paragraph type and anything marked up as `strong`:
 
 ```css
@@ -44,6 +52,14 @@ Similarly, whereas `strong` text would usually be set in a bold weight, most oft
 
 ## Registered axis: width
 
+<figure>
+
+![Two side-by-side type specimens of the word “spacious”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a very condensed version, taking up very little horziontal space. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, is very wide.](images/width.svg)
+
+<figcaption>The Width axis in the typeface <a href="https://fonts.google.com/specimen/Anybody">Anybody</a></figcaption>
+
+</figure>
+
 Assigning a variable **[width](/glossary/width_axis)** property follows much the same pattern:
 
 ```css
@@ -59,6 +75,14 @@ strong {
 Here, our paragraph text will be quite narrow—50% is what the type designer has decided is half of the regular (100%) width—and the strong text will almost twice the width of the regular. Width values are always above 0, with 100% being the regular width.
 
 ## Registered axes: italic and slant
+
+<figure>
+
+![Two side-by-side type specimens of the word phrase “lean-to”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the right to represent a higher value on the axis, shows upright forms. The second specimen, with the slider more to the left to represent a low-to-mid value on the axis, shows more slanted forms.](images/slant.svg)
+
+<figcaption>The Slant axis in the typeface <a href="https://fonts.google.com/specimen/Recursive">Recursive</a></figcaption>
+
+</figure>
 
 For setting variable **[italic](/glossary/italic_axis)** and **[slant](/glossary/slant_axis)** values, things are a little different, as these two properties are closely related.
 
@@ -103,6 +127,14 @@ body {
 It’s fair to say that the close relationship between the italic and slant axes, the differences between the high-level and low-level syntaxes, and the (currently) inconsistent browser implementation of the CSS spec mean there are more than a few nuances! Fortunately, Stephen Nixon, designer of the [Recursive](https://www.recursive.design) typeface, has put together a test page on [arrowtype.github.io](https://arrowtype.github.io/vf-slnt-test/slnt-ital-tests/index.html).
 
 ## Registered axis: optical size
+
+<figure>
+
+![Two side-by-side type specimens of the word “glaze”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a small (or body-like) optical size. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, shows a large (or display-like) optical size, with a shorter x-height and greater stroke contrast.](images/optical_size.svg)
+
+<figcaption>The Optical Size axis in the typeface <a href="https://github.com/googlefonts/amstelvar">Amstelvar</a></figcaption>
+
+</figure>
 
 The last registered axis we’ll look at is **[optical size](/glossary/optical_size_axis)**. The concept is that the numeric value for this axis should match the rendered font size in px, and a new CSS attribute was introduced to go along with it: `font-optical-sizing`. The default is `auto`, so this CSS is already pre-loaded behavior in all modern browsers:
 

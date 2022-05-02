@@ -96,7 +96,7 @@ body {
 }
 
 .oblique {
-  font-variation-settings: 'slnt' 12;
+  font-variation-settings: 'slnt' -12;
 }
 ```
 

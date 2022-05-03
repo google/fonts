@@ -12,7 +12,7 @@ As we mentioned in our article [“Loading variable fonts on the web,”](/lesso
 https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap
 ```
 
-Now let’s consider other axes we can work with. The ones currently referenced in the CSS spec (i.e., widely supported in modern browsers) are [italic](/glossary/italic), [optical size](/glossary/optical_sizes), [slant](/glossary/oblique), [weight](/glossary/weight), and [width](/glossary/width). (When using the Google Fonts API, be sure to list them alphabetically.) They’re mapped to CSS proper like so:
+Now let’s consider other axes we can work with. The ones currently referenced in the CSS spec (i.e., widely supported in modern browsers) are [Italic](/glossary/italic_axis), [Optical Size](/glossary/optical_size_axis), [Slant](/glossary/slant_axis), [Weight](/glossary/weight_axis), and [Width](/glossary/width_axis). (When using the Google Fonts API, be sure to list them alphabetically.) They’re mapped to CSS proper like so:
 
 | Axis & Abbreviation: | CSS attribute: |
 | --- | --- |
@@ -26,7 +26,15 @@ As you can see, the registered axes correlate to standard CSS properties that we
 
 ## Registered axis: weight
 
-Let’s assign a variable **weight** property to some of our paragraph type and anything marked up as `strong`:
+<figure>
+
+![Two side-by-side type specimens of the word “thicken”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a light weight with thin strokes. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, shows a heavy weight with thick strokes.](images/weight.svg)
+
+<figcaption>The Weight axis in the typeface <a href="https://fonts.google.com/specimen/Epilogue">Epilogue</a></figcaption>
+
+</figure>
+
+Let’s assign a variable **[weight](/glossary/weight_axis)** property to some of our paragraph type and anything marked up as `strong`:
 
 ```css
 p {
@@ -44,7 +52,15 @@ Similarly, whereas `strong` text would usually be set in a bold weight, most oft
 
 ## Registered axis: width
 
-Assigning a variable **width** property follows much the same pattern:
+<figure>
+
+![Two side-by-side type specimens of the word “spacious”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a very condensed version, taking up very little horziontal space. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, is very wide.](images/width.svg)
+
+<figcaption>The Width axis in the typeface <a href="https://fonts.google.com/specimen/Anybody">Anybody</a></figcaption>
+
+</figure>
+
+Assigning a variable **[width](/glossary/width_axis)** property follows much the same pattern:
 
 ```css
 p {
@@ -60,7 +76,15 @@ Here, our paragraph text will be quite narrow—50% is what the type designer ha
 
 ## Registered axes: italic and slant
 
-For setting variable italic and slant values, things are a little different, as these two properties are closely related.
+<figure>
+
+![Two side-by-side type specimens of the word phrase “lean-to”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the right to represent a higher value on the axis, shows upright forms. The second specimen, with the slider more to the left to represent a low-to-mid value on the axis, shows more slanted forms.](images/slant.svg)
+
+<figcaption>The Slant axis in the typeface <a href="https://fonts.google.com/specimen/Recursive">Recursive</a></figcaption>
+
+</figure>
+
+For setting variable **[italic](/glossary/italic_axis)** and **[slant](/glossary/slant_axis)** values, things are a little different, as these two properties are closely related.
 
 First, let’s deal with italics. Because true italics are original drawings rather than just slanted versions of the upright typeface, and some characters (e.g., a and g) have notably different italic forms, it often makes no sense to offer smooth variation between them. Therefore, the italic axis is usually effectively an on/off switch that links two separate font files.
 
@@ -96,7 +120,7 @@ body {
 }
 
 .oblique {
-  font-variation-settings: 'slnt' 12;
+  font-variation-settings: 'slnt' -12;
 }
 ```
 
@@ -104,7 +128,15 @@ It’s fair to say that the close relationship between the italic and slant axes
 
 ## Registered axis: optical size
 
-The last registered axis we’ll look at is **optical size**. The concept is that the numeric value for this axis should match the rendered font size in px, and a new CSS attribute was introduced to go along with it: `font-optical-sizing`. The default is `auto` (or we can force it to `none`), and this is supported behavior in all modern browsers.
+<figure>
+
+![Two side-by-side type specimens of the word “glaze”, each shown with a variable axis represented beneath as a horizontal slider. The first specimen, with the slider most of the way to the left to represent a lower value on the axis, shows a small (or body-like) optical size. The second specimen, with the slider most of the way to the right to represent a higher value on the axis, shows a large (or display-like) optical size, with a shorter x-height and greater stroke contrast.](images/optical_size.svg)
+
+<figcaption>The Optical Size axis in the typeface <a href="https://github.com/googlefonts/amstelvar">Amstelvar</a></figcaption>
+
+</figure>
+
+The last registered axis we’ll look at is **[optical size](/glossary/optical_size_axis)**. The concept is that the numeric value for this axis should match the rendered font size in px, and a new CSS attribute was introduced to go along with it: `font-optical-sizing`. The default is `auto`, so this CSS is already pre-loaded behavior in all modern browsers:
 
 ```css
 body {
@@ -112,7 +144,7 @@ body {
 }
 ```
 
-Alternatively, we can set an explicit value by using `font-variation-settings`, like so:
+We can change it to `none`, but it is more common to leave that property on and instead set an explicit value by using `font-variation-settings`, like so:
 
 ```css
 body {
@@ -140,7 +172,7 @@ span {
 }
 ```
 
-We should always refer to the documentation provided by our chosen font’s [foundry](/glossary/type_foundry) for the correct four-character axis name, and be sure to reference any custom axis in UPPERCASE. In line with the current CSS spec, only the officially registered variable axes (those five demonstrated in the first part of this article) should appear in lowercase. Also, if we’re using the Google Fonts API, the uppercase axes have to appear first in the URL.
+We should always refer to the documentation provided by our chosen font’s [foundry](/glossary/type_foundry) for the correct four-character axis name, and be sure to reference any custom axis in UPPERCASE. In line with the current CSS spec, only the OpenType registered variable axes (those five demonstrated in the first part of this article) should appear in lowercase. Also, if we’re using the Google Fonts API, the uppercase axes have to appear first in the URL.
 
 [//]: # (TO-DO: Move the sentence above to the “Loading variable fonts on the web” article.)
 

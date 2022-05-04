@@ -384,31 +384,3 @@ class GFNameBuilder:
         style_name = " ".join(v1_tokens)
 
         self.build_static_name_table(family_name, style_name)
-
-
-def main():
-    f1 = TTFont(
-        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSans-Roman-VF.ttf"
-    )
-    f2 = TTFont(
-        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSans-Italic-VF.ttf"
-    )
-    f3 = TTFont(
-        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Roman-VF.ttf"
-    )
-    f4 = TTFont(
-        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Italic-VF.ttf"
-    )
-    fonts = [f1, f2, f3, f4]
-    for idx, f in enumerate(fonts):
-        print("ficing")
-        siblings = fonts[idx + 1 :] + fonts[:idx]
-        namer = GFNameBuilder(f)
-        namer.build_name_table("Open Sans Neue", siblings=siblings)
-        namer.build_fvar_instances()
-        namer.build_stat()
-        f.save(f.reader.file.name)
-
-
-if __name__ == "__main__":
-    main()

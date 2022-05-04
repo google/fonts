@@ -6,65 +6,29 @@ date_added: "2015-01-29"
 fonts {
   name: "Noto Sans JP"
   style: "normal"
-  weight: 100
-  filename: "NotoSansJP-Thin.otf"
-  post_script_name: "NotoSansJapanese-Thin"
-  full_name: "Noto Sans Japanese Thin"
-  copyright: "Copyright 2014-2020 Adobe (http://www.adobe.com/)."
-}
-fonts {
-  name: "Noto Sans JP"
-  style: "normal"
-  weight: 300
-  filename: "NotoSansJP-Light.otf"
-  post_script_name: "NotoSansJapanese-Light"
-  full_name: "Noto Sans Japanese Light"
-  copyright: "Copyright 2014-2020 Adobe (http://www.adobe.com/)."
-}
-fonts {
-  name: "Noto Sans JP"
-  style: "normal"
   weight: 400
-  filename: "NotoSansJP-Regular.otf"
-  post_script_name: "NotoSansJapanese-Regular"
-  full_name: "Noto Sans Japanese Regular"
-  copyright: "Copyright 2014-2020 Adobe (http://www.adobe.com/)."
+  filename: "NotoSansJP[wght].ttf"
+  post_script_name: "NotoSansJP-Thin"
+  full_name: "Noto Sans JP"
+  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'."
 }
-fonts {
-  name: "Noto Sans JP"
-  style: "normal"
-  weight: 500
-  filename: "NotoSansJP-Medium.otf"
-  post_script_name: "NotoSansJapanese-Medium"
-  full_name: "Noto Sans Japanese Medium"
-  copyright: "Copyright 2014-2020 Adobe (http://www.adobe.com/)."
-}
-fonts {
-  name: "Noto Sans JP"
-  style: "normal"
-  weight: 700
-  filename: "NotoSansJP-Bold.otf"
-  post_script_name: "NotoSansJapanese-Bold"
-  full_name: "Noto Sans Japanese Bold"
-  copyright: "Copyright 2014-2020 Adobe (http://www.adobe.com/)."
-}
-fonts {
-  name: "Noto Sans JP"
-  style: "normal"
-  weight: 900
-  filename: "NotoSansJP-Black.otf"
-  post_script_name: "NotoSansJapanese-Black"
-  full_name: "Noto Sans Japanese Black"
-  copyright: "Copyright 2014-2020 Adobe (http://www.adobe.com/)."
-}
-subsets: "menu"
-subsets: "latin"
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
+subsets: "cyrillic"
 subsets: "japanese"
+subsets: "korean"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
 is_noto: true
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}
 languages: "ain_Kana"  # Ainu
 languages: "ja_Jpan"  # Japanese
 languages: "ja_Kana"  # Japanese, Katakana
 languages: "ryu_Jpan"  # Central Okinawan, Japanese
 languages: "ryu_Kana"  # Central Okinawan
-display_name: "Noto Sans Japanese"
-source_type: TYPE_OTF

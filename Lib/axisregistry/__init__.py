@@ -240,9 +240,12 @@ class GFNameBuilder:
         else:
             self.build_static_name_table(family_name, style_name)
         
-        # todo nameID 25
-        import pdb
-        pdb.set_trace()
+        font_styles = self.styles_in_name_table([self.ttFont])
+        if font_styles:
+            vf_ps = family_name.replace(" ", "") + "".join([s[1].name for s in font_styles])
+        else:
+            vf_ps = family_name.replace(" ", "")
+        self.ttFont["name"].setName(vf_ps, 25, 3, 1, 0x409)
 
     def _vf_style_name(self):
         fvar_dflts = self._fvar_dflts()
@@ -398,11 +401,12 @@ def main():
     f3 = TTFont(
        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Roman-VF.ttf"
     )
-#    f4 = TTFont(
-#        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Italic-VF.ttf"
-#    )
-    fonts = [f1, f2, f3,]# f4]
+    f4 = TTFont(
+        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Italic-VF.ttf"
+    )
+    fonts = [f1, f2, f3, f4]
     for idx, f in enumerate(fonts):
+        print("ficing")
         siblings = fonts[idx+1:]+fonts[:idx]
         namer = GFNameBuilder(f)
         namer.build_name_table("Open Sans Neue", siblings=siblings)

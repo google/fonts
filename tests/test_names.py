@@ -158,3 +158,41 @@ def test_static_name_table(static_font, family_name, style_name, expected):
     builder = GFNameBuilder(static_font)
     builder.build_name_table(family_name, style_name)
     _test_names(static_font, expected)
+
+
+opensans_roman_vf = TTFont(os.path.join(CWD, "data", "OpenSans[wdth,wght].ttf"))
+opensans_italic_vf = TTFont(os.path.join(CWD, "data", "OpenSans-Italic[wdth,wght].ttf"))
+opensans_cond_roman_vf = TTFont(os.path.join(CWD, "data", "OpenSansCondensed[wght].ttf"))
+opensans_cond_italic_vf = TTFont(os.path.join(CWD, "data", "OpenSansCondensed-Italic[wght].ttf"))
+
+
+@pytest.mark.parametrize(
+    "font, dflt_coords",
+    [
+        (opensans_roman_vf, {"wdth": 100}),
+        (opensans_roman_vf, {"wdth": 75}),
+        (opensans_roman_vf, {"wdth": 82.5}),
+        (opensans_italic_vf, {"wdth": 100}),
+        (opensans_italic_vf, {"wdth": 75}),
+        (opensans_italic_vf, {"wdth": 82.5}),
+        # Condensed variants
+        (opensans_cond_roman_vf, {}),
+        (opensans_cond_italic_vf, {}),
+    ]
+)
+def test_fvar_instances(font, dflt_coords):
+    builder = GFNameBuilder(font)
+    builder.build_fvar_instances(dflt_coords)
+    fvar = font["fvar"]
+    wght_axis = next((a for a in fvar.axes if a.axisTag == "wght"), None)
+    wght_min = wght_axis.minValue
+    wght_max = wght_axis.maxValue
+    instances = fvar.instances
+    for idx, wght in enumerate(range(int(wght_min), int(wght_max)+100, 100)):
+        inst = instances[idx]
+        inst_name = font["name"].getName(inst.subfamilyNameID, 3, 1, 0x409).toUnicode()
+        
+        expected_coords = dflt_coords
+        expected_coords["wght"] = wght
+        assert inst.coordinates == expected_coords
+        assert inst_name in builder.v1_styles, f"{inst_name} not in {builder.v1_styles}"

@@ -292,7 +292,7 @@ class GFNameBuilder:
                 )
                 name = name.replace("Regular Italic", "Italic")
 
-                coordinates = {k: v["value"] for k, v in axis_dflts.items()}
+                coordinates = {k: v for k, v in axis_dflts.items()}
                 coordinates["wght"] = fallback.value
 
                 inst = NamedInstance()

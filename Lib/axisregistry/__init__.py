@@ -71,7 +71,9 @@ class GFNameBuilder:
         self.name_table = self.ttFont["name"]
         self.axis_reg = axis_registry
         self.weights = [i.name for i in self.axis_reg["wght"].fallback]
-        self.v1_styles = self.weights + [f"{i} Italic".replace("Regular Italic", "Italic") for i in self.weights]
+        self.v1_styles = self.weights + [
+            f"{i} Italic".replace("Regular Italic", "Italic") for i in self.weights
+        ]
         self.family_name = self.ttFont["name"].getBestFamilyName()
         self.subfamily_name = self.ttFont["name"].getBestSubFamilyName()
 
@@ -139,17 +141,13 @@ class GFNameBuilder:
                     "tag": axis,
                     "name": self.axis_reg[axis].display_name,
                     "values": [
-                        {
-                            "name": fallback.name,
-                            "value": fallback.value,
-                            "flags": 0x0
-                        }
+                        {"name": fallback.name, "value": fallback.value, "flags": 0x0}
                     ],
                 }
                 if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:
                     a["values"][0]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
                 res.append(a)
-        
+
         if sibling_font_styles:
             for axis, fallback in sibling_font_styles:
                 if axis in seen_axes:
@@ -158,13 +156,7 @@ class GFNameBuilder:
                 a = {
                     "tag": axis,
                     "name": self.axis_reg[axis].display_name,
-                    "values": [
-                        {
-                            "name": "Normal",
-                            "value": value,
-                            "flags": 0x2
-                        }
-                    ],
+                    "values": [{"name": "Normal", "value": value, "flags": 0x2}],
                 }
                 if axis in LINKED_VALUES and value in LINKED_VALUES[axis]:
                     a["values"][0]["linkedValue"] = LINKED_VALUES[axis][value]
@@ -239,10 +231,12 @@ class GFNameBuilder:
             self.build_static_name_table_v1(family_name, style_name)
         else:
             self.build_static_name_table(family_name, style_name)
-        
+
         font_styles = self.styles_in_name_table([self.ttFont])
         if font_styles:
-            vf_ps = family_name.replace(" ", "") + "".join([s[1].name for s in font_styles])
+            vf_ps = family_name.replace(" ", "") + "".join(
+                [s[1].name for s in font_styles]
+            )
         else:
             vf_ps = family_name.replace(" ", "")
         self.ttFont["name"].setName(vf_ps, 25, 3, 1, 0x409)
@@ -297,7 +291,7 @@ class GFNameBuilder:
                 )
                 name = name.replace("Regular Italic", "Italic")
 
-                coordinates = {k: v["value"] for k,v in axis_dflts.items()}
+                coordinates = {k: v["value"] for k, v in axis_dflts.items()}
                 coordinates["wght"] = fallback.value
 
                 inst = NamedInstance()
@@ -399,7 +393,7 @@ def main():
         "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSans-Italic-VF.ttf"
     )
     f3 = TTFont(
-       "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Roman-VF.ttf"
+        "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Roman-VF.ttf"
     )
     f4 = TTFont(
         "/Users/marcfoley/Type/upstream_repos/opensans/sources/variable_ttf/OpenSansCondensed-Italic-VF.ttf"
@@ -407,7 +401,7 @@ def main():
     fonts = [f1, f2, f3, f4]
     for idx, f in enumerate(fonts):
         print("ficing")
-        siblings = fonts[idx+1:]+fonts[:idx]
+        siblings = fonts[idx + 1 :] + fonts[:idx]
         namer = GFNameBuilder(f)
         namer.build_name_table("Open Sans Neue", siblings=siblings)
         namer.build_fvar_instances()

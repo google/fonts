@@ -232,6 +232,7 @@ class GFNameBuilder:
         else:
             self.build_static_name_table(family_name, style_name)
 
+        # set nameID25
         font_styles = self.styles_in_name_table([self.ttFont])
         if font_styles:
             vf_ps = family_name.replace(" ", "") + "".join(
@@ -323,7 +324,7 @@ class GFNameBuilder:
 
         if is_ribbi:
             full_name = f"{family_name} {style_name}"
-            ps_name = full_name.replace(" ", "")
+            ps_name = f"{family_name}-{style_name}".replace(" ", "")
             names[(1, 3, 1, 0x409)] = family_name
             names[(2, 3, 1, 0x409)] = style_name
             names[(4, 3, 1, 0x409)] = full_name
@@ -335,13 +336,13 @@ class GFNameBuilder:
             new_family_name = family_name.split()
             is_italic = "Italic" in style_tokens
             for t in style_tokens:
-                if t == "Italic":
+                if t in ["Regular", "Italic"]:
                     continue
                 new_family_name.append(t)
             new_family_name = " ".join(new_family_name)
             new_style_name = "Italic" if is_italic else "Regular"
-            full_name = f"{new_family_name} {new_style_name}"
-            ps_name = full_name.replace(" ", "")
+            full_name = f"{family_name} {style_name}"
+            ps_name = f"{family_name}-{style_name}".replace(" ", "")
 
             names[(1, 3, 1, 0x409)] = new_family_name
             names[(2, 3, 1, 0x409)] = new_style_name

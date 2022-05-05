@@ -9,7 +9,7 @@ When talking about [type](/glossary/type), it’s useful to have some familiarit
 
 </figure>
 
-We often discuss vertical proportions (or vertical metrics) when talking about optimal typesetting. In multiple lines of text, one of the most important roles played by an appropriate [line height](/glossary/line_height_leading) is to ensure that there’s no clash between descenders in one line and ascenders in the following line. The varying proportions in different typefaces—and in particular their x-heights—[can cause type to appear larger or smaller than others](lesson/exploring_x_height_the_em_square), even when the font size isn’t changed.
+We often discuss vertical proportions (or vertical metrics) when talking about optimal typesetting. In multiple lines of text, one of the most important roles played by an appropriate [line height](/glossary/line_height_leading) is to ensure that there’s no clash between descenders in one line and ascenders in the following line. The varying proportions in different typefaces—and in particular their x-heights—[can cause type to appear larger or smaller than others](/lesson/exploring_x_height_the_em_square), even when the font size isn’t changed.
 
 <figure>
 

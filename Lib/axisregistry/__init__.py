@@ -269,13 +269,16 @@ class GFNameBuilder:
         fvar = self.ttFont["fvar"]
         fvar_dflts = self._fvar_dflts()
         if not axis_dflts:
-            axis_dflts = fvar_dflts
+            axis_dflts = {k: v["value"] for k, v in fvar_dflts.items()}
 
         is_italic = "Italic" in self.subfamily_name
         is_roman_and_italic = any(a for a in ("slnt", "ital") if a in fvar_dflts)
 
         if "wght" not in fvar_dflts:
             raise NotImplementedError()
+
+        ital_axis = next((a for a in fvar.axes if a.axisTag == "ital"), None)
+        slnt_axis = next((a for a in fvar.axes if a.axisTag == "slnt"), None)
 
         fallbacks = self._fallbacks_in_font()
         wght_fallbacks = fallbacks["wght"]
@@ -294,6 +297,11 @@ class GFNameBuilder:
 
                 coordinates = {k: v for k, v in axis_dflts.items()}
                 coordinates["wght"] = fallback.value
+                if is_italic:
+                    if ital_axis:
+                        coordinates["ital"] = ital_axis.minValue
+                    elif slnt_axis:
+                        coordinates["slnt"] = slnt_axis.minValue
 
                 inst = NamedInstance()
                 inst.subfamilyNameID = nametable.addName(name)

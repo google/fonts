@@ -1,14 +1,27 @@
 from fontTools.ttLib import TTFont
+from fontTools.misc.testTools import getXML, parseXML
 from axisregistry import GFNameBuilder
 import pytest
 import os
 
 CWD = os.path.dirname(__file__)
+DATA_DIR = os.path.join(CWD, "data")
+
+roboto_flex_fp = os.path.join(
+    DATA_DIR,
+    "RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
+)
+opensans_roman_fp = os.path.join(DATA_DIR, "OpenSans[wdth,wght].ttf")
+opensans_italic_fp = os.path.join(DATA_DIR, "OpenSans-Italic[wdth,wght].ttf")
+opensans_cond_roman_fp = os.path.join(DATA_DIR, "OpenSansCondensed[wght].ttf")
+opensans_cond_italic_fp = os.path.join(DATA_DIR, "OpenSansCondensed-Italic[wght].ttf")
+
 
 @pytest.fixture
 def static_font():
-    fp = os.path.join(CWD, "data", "MavenPro-Regular.ttf")
+    fp = os.path.join(DATA_DIR, "MavenPro-Regular.ttf")
     return TTFont(fp)
+
 
 def _test_names(ttFont, expected):
     name_table = ttFont["name"]
@@ -18,8 +31,9 @@ def _test_names(ttFont, expected):
             assert record == v, f"{k} record is incorrect, expected {v} got {record}"
         else:
             record_string = record.toUnicode()
-            assert record_string == v, f"{k} record is incorrect, expected {v} got {record}" 
-
+            assert (
+                record_string == v
+            ), f"{k} record is incorrect, expected {v} got {record}"
 
 
 @pytest.mark.parametrize(
@@ -27,7 +41,7 @@ def _test_names(ttFont, expected):
     [
         # Maven Pro Regular
         (
-            "Maven Pro", 
+            "Maven Pro",
             "Regular",
             {
                 (1, 3, 1, 0x409): "Maven Pro",
@@ -41,7 +55,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Italic
         (
-            "Maven Pro", 
+            "Maven Pro",
             "Italic",
             {
                 (1, 3, 1, 0x409): "Maven Pro",
@@ -55,7 +69,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Bold
         (
-            "Maven Pro", 
+            "Maven Pro",
             "Bold",
             {
                 (1, 3, 1, 0x409): "Maven Pro",
@@ -69,7 +83,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Bold Italic
         (
-            "Maven Pro", 
+            "Maven Pro",
             "Bold Italic",
             {
                 (1, 3, 1, 0x409): "Maven Pro",
@@ -83,7 +97,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Black
         (
-            "Maven Pro", 
+            "Maven Pro",
             "Black",
             {
                 (1, 3, 1, 0x409): "Maven Pro Black",
@@ -97,7 +111,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Black Italic
         (
-            "Maven Pro", 
+            "Maven Pro",
             "Black Italic",
             {
                 (1, 3, 1, 0x409): "Maven Pro Black",
@@ -111,7 +125,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro ExtraLight Italic
         (
-            "Maven Pro", 
+            "Maven Pro",
             "ExtraLight Italic",
             {
                 (1, 3, 1, 0x409): "Maven Pro ExtraLight",
@@ -126,7 +140,7 @@ def _test_names(ttFont, expected):
         # check non-weight styles get appended to family name
         # Maven Pro UltraExpanded Regular
         (
-            "Maven Pro", 
+            "Maven Pro",
             "UltraExpanded Regular",
             {
                 (1, 3, 1, 0x409): "Maven Pro UltraExpanded",
@@ -140,7 +154,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Condensed ExtraLight Italic
         (
-            "Maven Pro", 
+            "Maven Pro",
             "Condensed ExtraLight Italic",
             {
                 (1, 3, 1, 0x409): "Maven Pro Condensed ExtraLight",
@@ -152,7 +166,7 @@ def _test_names(ttFont, expected):
                 (17, 3, 1, 0x409): "ExtraLight Italic",
             },
         ),
-    ]
+    ],
 )
 def test_static_name_table(static_font, family_name, style_name, expected):
     builder = GFNameBuilder(static_font)
@@ -160,27 +174,101 @@ def test_static_name_table(static_font, family_name, style_name, expected):
     _test_names(static_font, expected)
 
 
-opensans_roman_vf = TTFont(os.path.join(CWD, "data", "OpenSans[wdth,wght].ttf"))
-opensans_italic_vf = TTFont(os.path.join(CWD, "data", "OpenSans-Italic[wdth,wght].ttf"))
-opensans_cond_roman_vf = TTFont(os.path.join(CWD, "data", "OpenSansCondensed[wght].ttf"))
-opensans_cond_italic_vf = TTFont(os.path.join(CWD, "data", "OpenSansCondensed-Italic[wght].ttf"))
-
-
 @pytest.mark.parametrize(
-    "font, dflt_coords",
+    "font_fp, dflt_coords, expected",
     [
-        (opensans_roman_vf, {"wdth": 100}),
-        (opensans_roman_vf, {"wdth": 75}),
-        (opensans_roman_vf, {"wdth": 82.5}),
-        (opensans_italic_vf, {"wdth": 100}),
-        (opensans_italic_vf, {"wdth": 75}),
-        (opensans_italic_vf, {"wdth": 82.5}),
         # Condensed variants
-        (opensans_cond_roman_vf, {}),
-        (opensans_cond_italic_vf, {}),
-    ]
+        (
+            opensans_cond_roman_fp,
+            {},
+            [
+                ("Thin", {"wght": 100.0}),
+                ("ExtraLight", {"wght": 200.0}),
+                ("Light", {"wght": 300.0}),
+                ("Regular", {"wght": 400.0}),
+                ("Medium", {"wght": 500.0}),
+                ("SemiBold", {"wght": 600.0}),
+                ("Bold", {"wght": 700.0}),
+                ("ExtraBold", {"wght": 800.0}),
+            ],
+        ),
+        (
+            opensans_cond_italic_fp,
+            {},
+            [
+                ("Thin Italic", {"wght": 100.0}),
+                ("ExtraLight Italic", {"wght": 200.0}),
+                ("Light Italic", {"wght": 300.0}),
+                ("Italic", {"wght": 400.0}),
+                ("Medium Italic", {"wght": 500.0}),
+                ("SemiBold Italic", {"wght": 600.0}),
+                ("Bold Italic", {"wght": 700.0}),
+                ("ExtraBold Italic", {"wght": 800.0}),
+            ],
+        ),
+        # Multi axis + roman & ital with dflt coords
+        (
+            roboto_flex_fp,
+            {},
+            [
+                ("Thin", {"wght": 100.0}),
+                ("ExtraLight", {"wght": 200.0}),
+                ("Light", {"wght": 300.0}),
+                ("Regular", {"wght": 400.0}),
+                ("Medium", {"wght": 500.0}),
+                ("SemiBold", {"wght": 600.0}),
+                ("Bold", {"wght": 700.0}),
+                ("ExtraBold", {"wght": 800.0}),
+                ("Black", {"wght": 900.0}),
+                ("Thin Italic", {"wght": 100.0, "slnt": -10}),
+                ("ExtraLight Italic", {"wght": 200.0, "slnt": -10}),
+                ("Light Italic", {"wght": 300.0, "slnt": -10}),
+                ("Italic", {"wght": 400.0, "slnt": -10}),
+                ("Medium Italic", {"wght": 500.0, "slnt": -10}),
+                ("SemiBold Italic", {"wght": 600.0, "slnt": -10}),
+                ("Bold Italic", {"wght": 700.0, "slnt": -10}),
+                ("ExtraBold Italic", {"wght": 800.0, "slnt": -10}),
+                ("Black Italic", {"wght": 900.0, "slnt": -10}),
+            ],
+        ),
+        # multi axis withMETADATA.pb registry_default_overrides
+        # https://github.com/google/fonts/blob/main/ofl/robotoflex/METADATA.pb
+        (
+            roboto_flex_fp,
+            {
+                "XOPQ": 96.0,
+                "XTRA": 468.0,
+                "YOPQ": 79.0,
+                "YTDE": -203.0,
+                "YTFI": 738.0,
+                "YTLC": 514.0,
+                "YTUC": 712.0,
+            },
+            [
+                ("Thin", {"wght": 100.0}),
+                ("ExtraLight", {"wght": 200.0}),
+                ("Light", {"wght": 300.0}),
+                ("Regular", {"wght": 400.0}),
+                ("Medium", {"wght": 500.0}),
+                ("SemiBold", {"wght": 600.0}),
+                ("Bold", {"wght": 700.0}),
+                ("ExtraBold", {"wght": 800.0}),
+                ("Black", {"wght": 900.0}),
+                ("Thin Italic", {"wght": 100.0, "slnt": -10}),
+                ("ExtraLight Italic", {"wght": 200.0, "slnt": -10}),
+                ("Light Italic", {"wght": 300.0, "slnt": -10}),
+                ("Italic", {"wght": 400.0, "slnt": -10}),
+                ("Medium Italic", {"wght": 500.0, "slnt": -10}),
+                ("SemiBold Italic", {"wght": 600.0, "slnt": -10}),
+                ("Bold Italic", {"wght": 700.0, "slnt": -10}),
+                ("ExtraBold Italic", {"wght": 800.0, "slnt": -10}),
+                ("Black Italic", {"wght": 900.0, "slnt": -10}),
+            ],
+        ),
+    ],
 )
-def test_fvar_instances(font, dflt_coords):
+def test_fvar_instances(font_fp, dflt_coords, expected):
+    font = TTFont(font_fp)
     builder = GFNameBuilder(font)
     builder.build_fvar_instances(dflt_coords)
     fvar = font["fvar"]
@@ -188,11 +276,37 @@ def test_fvar_instances(font, dflt_coords):
     wght_min = wght_axis.minValue
     wght_max = wght_axis.maxValue
     instances = fvar.instances
-    for idx, wght in enumerate(range(int(wght_min), int(wght_max)+100, 100)):
-        inst = instances[idx]
+    if not dflt_coords:
+        dflt_coords = {k: v["value"] for k, v in builder._fvar_dflts().items()}
+
+    assert len(instances) == len(expected)
+    for inst, (expected_name, coords) in zip(instances, expected):
         inst_name = font["name"].getName(inst.subfamilyNameID, 3, 1, 0x409).toUnicode()
-        
-        expected_coords = dflt_coords
-        expected_coords["wght"] = wght
-        assert inst.coordinates == expected_coords
-        assert inst_name in builder.v1_styles, f"{inst_name} not in {builder.v1_styles}"
+        assert inst_name == expected_name
+        for tag, val in coords.items():
+            dflt_coords[tag] = val
+        assert inst.coordinates == dflt_coords
+
+
+def dump(table, ttFont=None):
+    return "\n".join(getXML(table.toXML, ttFont))
+
+
+#@pytest.mark.parametrize(
+#    "fp, sibling_fps",
+#    [
+#        (roboto_flex_fp, []),
+#        (opensans_roman_fp, [opensans_italic_fp]),
+#    ],
+#)
+#def test_stat(fp, sibling_fps):
+#    font = TTFont(fp)
+#    siblings = [TTFont(f) for f in sibling_fps]
+#    builder = GFNameBuilder(font)
+#    builder.build_stat(siblings)
+#    stat_fp = fp.replace(".ttf", "_STAT.ttx")
+#    with open(stat_fp) as doc:
+#        expected = doc.read()
+#        got = dump(font["STAT"], font)
+#        assert got == expected
+#

@@ -29,42 +29,42 @@
   </Axis>
   <Axis index="5">
     <AxisTag value="XOPQ"/>
-    <AxisNameID value="351"/>  <!-- X opaque -->
+    <AxisNameID value="351"/>  <!-- Thick Stroke -->
     <AxisOrdering value="5"/>
   </Axis>
   <Axis index="6">
     <AxisTag value="XTRA"/>
-    <AxisNameID value="352"/>  <!-- X transparent -->
+    <AxisNameID value="352"/>  <!-- Counter Width -->
     <AxisOrdering value="6"/>
   </Axis>
   <Axis index="7">
     <AxisTag value="YOPQ"/>
-    <AxisNameID value="353"/>  <!-- Y opaque -->
+    <AxisNameID value="353"/>  <!-- Thin Stroke -->
     <AxisOrdering value="7"/>
   </Axis>
   <Axis index="8">
     <AxisTag value="YTAS"/>
-    <AxisNameID value="354"/>  <!-- Y transparent ascender -->
+    <AxisNameID value="354"/>  <!-- Ascender Height -->
     <AxisOrdering value="8"/>
   </Axis>
   <Axis index="9">
     <AxisTag value="YTDE"/>
-    <AxisNameID value="355"/>  <!-- Y transparent descender -->
+    <AxisNameID value="355"/>  <!-- Descender Depth -->
     <AxisOrdering value="9"/>
   </Axis>
   <Axis index="10">
     <AxisTag value="YTFI"/>
-    <AxisNameID value="356"/>  <!-- Y transparent figures -->
+    <AxisNameID value="356"/>  <!-- Figure Height -->
     <AxisOrdering value="10"/>
   </Axis>
   <Axis index="11">
     <AxisTag value="YTLC"/>
-    <AxisNameID value="357"/>  <!-- Y transparent lowercase -->
+    <AxisNameID value="357"/>  <!-- Lowercase Height -->
     <AxisOrdering value="11"/>
   </Axis>
   <Axis index="12">
     <AxisTag value="YTUC"/>
-    <AxisNameID value="358"/>  <!-- Y transparent uppercase -->
+    <AxisNameID value="358"/>  <!-- Uppercase Height -->
     <AxisOrdering value="12"/>
   </Axis>
 </DesignAxisRecord>

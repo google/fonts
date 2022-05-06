@@ -59,4 +59,4 @@ Lastly, let’s consider the work of David Carson, a designer known for challeng
 
 </figure>
 
-David Carson is known for saying, “Don’t mistake legibility for communication.” In other words, [legible](/glossary/legible) letterforms don’t convey meaning by themselves, their arrangement contributes to the message being conveyed. Whether his style is one we love or hate, it’s important for us to remember that typography is not technically about choosing typefaces—it is, in fact, their arrangement.
+David Carson is known for saying, “Don’t mistake legibility for communication.” In other words, [legible](/glossary/legibility_readability) letterforms don’t convey meaning by themselves, their arrangement contributes to the message being conveyed. Whether his style is one we love or hate, it’s important for us to remember that typography is not technically about choosing typefaces—it is, in fact, their arrangement.

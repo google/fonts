@@ -11,6 +11,7 @@ roboto_flex_fp = os.path.join(
     DATA_DIR,
     "RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
 )
+mavenpro_fp = os.path.join(DATA_DIR, "MavenPro-Regular.ttf")
 opensans_roman_fp = os.path.join(DATA_DIR, "OpenSans[wdth,wght].ttf")
 opensans_italic_fp = os.path.join(DATA_DIR, "OpenSans-Italic[wdth,wght].ttf")
 opensans_cond_roman_fp = os.path.join(DATA_DIR, "OpenSansCondensed[wght].ttf")
@@ -19,8 +20,7 @@ opensans_cond_italic_fp = os.path.join(DATA_DIR, "OpenSansCondensed-Italic[wght]
 
 @pytest.fixture
 def static_font():
-    fp = os.path.join(DATA_DIR, "MavenPro-Regular.ttf")
-    return TTFont(fp)
+    return TTFont(mavenpro_fp)
 
 
 def _test_names(ttFont, expected):
@@ -231,7 +231,7 @@ def test_static_name_table(static_font, family_name, style_name, expected):
                 ("Black Italic", {"wght": 900.0, "slnt": -10}),
             ],
         ),
-        # multi axis withMETADATA.pb registry_default_overrides
+        # multi axis with METADATA.pb registry_default_overrides
         # https://github.com/google/fonts/blob/main/ofl/robotoflex/METADATA.pb
         (
             roboto_flex_fp,
@@ -292,21 +292,29 @@ def dump(table, ttFont=None):
     return "\n".join(getXML(table.toXML, ttFont))
 
 
-#@pytest.mark.parametrize(
-#    "fp, sibling_fps",
-#    [
-#        (roboto_flex_fp, []),
-#        (opensans_roman_fp, [opensans_italic_fp]),
-#    ],
-#)
-#def test_stat(fp, sibling_fps):
-#    font = TTFont(fp)
-#    siblings = [TTFont(f) for f in sibling_fps]
-#    builder = GFNameBuilder(font)
-#    builder.build_stat(siblings)
-#    stat_fp = fp.replace(".ttf", "_STAT.ttx")
-#    with open(stat_fp) as doc:
-#        expected = doc.read()
+@pytest.mark.parametrize(
+    "fp, sibling_fps",
+    [
+        (roboto_flex_fp, []),
+        (opensans_roman_fp, [opensans_italic_fp, opensans_cond_roman_fp, opensans_cond_italic_fp]),
+        (opensans_italic_fp, [opensans_roman_fp, opensans_cond_roman_fp, opensans_cond_italic_fp]),
+        (opensans_cond_roman_fp, [opensans_roman_fp, opensans_italic_fp, opensans_cond_italic_fp]),
+        (opensans_cond_italic_fp, [opensans_roman_fp, opensans_italic_fp, opensans_cond_roman_fp])
+    ],
+)
+def test_stat(fp, sibling_fps):
+    font = TTFont(fp)
+    siblings = [TTFont(f) for f in sibling_fps]
+    builder = GFNameBuilder(font)
+    builder.build_stat(siblings)
+    stat_fp = fp.replace(".ttf", "_STAT.ttx")
+
+### output good files
+#    with open(stat_fp, "w") as doc:
 #        got = dump(font["STAT"], font)
-#        assert got == expected
-#
+#        doc.write(got)
+
+    with open(stat_fp) as doc:
+        expected = doc.read()
+        got = dump(font["STAT"], font)
+        assert got == expected

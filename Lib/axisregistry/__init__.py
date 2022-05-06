@@ -109,6 +109,18 @@ class GFNameBuilder:
         fallbacks_in_font = self._fallbacks_in_font()
         sibling_font_styles = self.styles_in_name_table(sibling_ttFonts)
         font_styles = self.styles_in_name_table([self.ttFont])
+        nametable = self.ttFont["name"]
+
+        # rm old name table records and STAT table
+        if "STAT" in self.ttFont:
+            stat = self.ttFont["STAT"]
+            axis_values = stat.table.AxisValueArray.AxisValue
+            axes = stat.table.DesignAxisRecord.Axis
+            for ax in axis_values:
+                nametable.removeNames(nameID=ax.ValueNameID)
+            for ax in axes:
+                nametable.removeNames(nameID=ax.AxisNameID)
+            del self.ttFont["STAT"]
 
         res = []
         # use fontTools build_stat
@@ -259,14 +271,21 @@ class GFNameBuilder:
 
     def build_fvar_instances(self, axis_dflts={}):
         """Replace a variable font's fvar instances with a set of new instances
-        that conform to the Google Fonts instance spec:
+        which conform to the Google Fonts instance spec:
         https://github.com/googlefonts/gf-docs/tree/main/Spec#fvar-instances
         Args:
             ttFont: a TTFont instance
         """
         assert self.is_variable(), "Not a VF!"
-
         fvar = self.ttFont["fvar"]
+        nametable = self.ttFont["name"]
+
+        # rm old fvar subfamily and ps name records
+        for inst in fvar.instances:
+            nametable.removeNames(nameID=inst.subfamilyNameID)
+            if inst.postscriptNameID != 65535:
+                nametable.removeNames(nameID=inst.postscriptNameID)
+
         fvar_dflts = self._fvar_dflts()
         if not axis_dflts:
             axis_dflts = {k: v["value"] for k, v in fvar_dflts.items()}
@@ -282,8 +301,6 @@ class GFNameBuilder:
 
         fallbacks = self._fallbacks_in_font()
         wght_fallbacks = fallbacks["wght"]
-
-        nametable = self.ttFont["name"]
 
         def gen_instances(is_italic):
             results = []

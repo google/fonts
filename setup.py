@@ -18,35 +18,30 @@
 from setuptools import setup
 
 # Read the contents of the README file
-with open('README.md') as f:
+with open("README.md") as f:
     long_description = f.read()
 
 setup(
     name="axisregistry",
     use_scm_version={"write_to": "Lib/axisregistry/_version.py"},
-    url='https://github.com/googlefonts/axisregistry/',
-    description='A python API to access data from the Google Fonts variable fonts axis registry.',
+    url="https://github.com/googlefonts/axisregistry/",
+    description="A python API to access data from the Google Fonts variable fonts axis registry.",
     long_description=long_description,
-    long_description_content_type='text/markdown',  # This is important!
-    author=('Felipe Sanches'),
-    author_email='juca@members.fsf.org',
-    package_dir={'': 'Lib'},
-    packages=['axisregistry'],
-    package_data={'axisregistry': [
-                     "data/*.textproto"
-                 ]
-    },
+    long_description_content_type="text/markdown",  # This is important!
+    author=("Felipe Sanches"),
+    author_email="juca@members.fsf.org",
+    package_dir={"": "Lib"},
+    packages=["axisregistry"],
+    package_data={"axisregistry": ["data/*.textproto"]},
     zip_safe=False,
     classifiers=[
-        'Intended Audience :: Developers',
-        'Topic :: Text Processing :: Fonts',
-        'License :: OSI Approved :: Apache Software License',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python :: 3'
+        "Intended Audience :: Developers",
+        "Topic :: Text Processing :: Fonts",
+        "License :: OSI Approved :: Apache Software License",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3",
     ],
     python_requires=">=3.7",
-    setup_requires=['setuptools_scm>=4,<6.1'],
-    install_requires=[
-        'protobuf'
-    ]
+    setup_requires=["setuptools_scm>=4,<6.1"],
+    install_requires=["protobuf"],
 )

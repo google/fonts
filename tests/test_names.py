@@ -296,10 +296,22 @@ def dump(table, ttFont=None):
     "fp, sibling_fps",
     [
         (roboto_flex_fp, []),
-        (opensans_roman_fp, [opensans_italic_fp, opensans_cond_roman_fp, opensans_cond_italic_fp]),
-        (opensans_italic_fp, [opensans_roman_fp, opensans_cond_roman_fp, opensans_cond_italic_fp]),
-        (opensans_cond_roman_fp, [opensans_roman_fp, opensans_italic_fp, opensans_cond_italic_fp]),
-        (opensans_cond_italic_fp, [opensans_roman_fp, opensans_italic_fp, opensans_cond_roman_fp])
+        (
+            opensans_roman_fp,
+            [opensans_italic_fp, opensans_cond_roman_fp, opensans_cond_italic_fp],
+        ),
+        (
+            opensans_italic_fp,
+            [opensans_roman_fp, opensans_cond_roman_fp, opensans_cond_italic_fp],
+        ),
+        (
+            opensans_cond_roman_fp,
+            [opensans_roman_fp, opensans_italic_fp, opensans_cond_italic_fp],
+        ),
+        (
+            opensans_cond_italic_fp,
+            [opensans_roman_fp, opensans_italic_fp, opensans_cond_roman_fp],
+        ),
     ],
 )
 def test_stat(fp, sibling_fps):
@@ -309,10 +321,10 @@ def test_stat(fp, sibling_fps):
     builder.build_stat(siblings)
     stat_fp = fp.replace(".ttf", "_STAT.ttx")
 
-### output good files
-#    with open(stat_fp, "w") as doc:
-#        got = dump(font["STAT"], font)
-#        doc.write(got)
+    ### output good files
+    #    with open(stat_fp, "w") as doc:
+    #        got = dump(font["STAT"], font)
+    #        doc.write(got)
 
     with open(stat_fp) as doc:
         expected = doc.read()

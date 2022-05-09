@@ -9,6 +9,8 @@ from collections import OrderedDict
 from axisregistry.axes_pb2 import AxisProto
 from collections import defaultdict
 import logging
+from glob import glob
+import os
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -49,46 +51,34 @@ GF_STATIC_STYLES = OrderedDict(
 )
 
 
-def AxisRegistry():
-    registry = {}
+def load_protobuf(klass, path):
+    message = klass()
+    with open(path, "rb") as text_data:
+        text_format.Merge(text_data.read(), message)
+    return message
 
-    def get_Protobuf_Message(klass, path):
-        message = klass()
-        with open(path, "rb") as text_data:
-            text_format.Merge(text_data.read(), message)
-        return message
 
-    def append_AxisMessage(path):
-        axis = get_Protobuf_Message(AxisProto, path)
-        registry[axis.tag] = axis  # pylint: disable=E1101
+class AxisRegistry:
+    def __init__(self, fp=resource_filename("axisregistry", "data")):
+        axis_fps = [fp for fp in glob(os.path.join(fp, "*.textproto"))]
+        self._data = {}
+        for fp in axis_fps:
+            axis = load_protobuf(AxisProto, fp)
+            self._data[axis.tag] = axis
 
-    for axis in [
-        "casual.textproto",
-        "cursive.textproto",
-        "fill.textproto",
-        "flair.textproto",
-        "grade.textproto",
-        "italic.textproto",
-        "monospace.textproto",
-        "optical_size.textproto",
-        "slant.textproto",
-        "softness.textproto",
-        "volume.textproto",
-        "weight.textproto",
-        "width.textproto",
-        "wonky.textproto",
-        "x_opaque.textproto",
-        "x_transparent_figures.textproto",
-        "x_transparent.textproto",
-        "y_opaque.textproto",
-        "y_transparent_ascender.textproto",
-        "y_transparent_descender.textproto",
-        "y_transparent_figures.textproto",
-        "y_transparent_lowercase.textproto",
-        "y_transparent_uppercase.textproto",
-    ]:
-        append_AxisMessage(resource_filename("axisregistry", "data/" + axis))
-    return registry
+    def __getitem__(self, k):
+        return self._data[k]
+
+    def __iter__(self):
+        for i in self._data:
+            yield i
+
+    def get_fallback(self, name):
+        for a in self:
+            for fallback in self[a].fallback:
+                if name == fallback.name:
+                    return a, fallback
+        return None, None
 
 
 class GFNameBuilder:
@@ -220,13 +210,6 @@ class GFNameBuilder:
         if not sibling_ttFonts:
             return []
 
-        def name_in_axis_reg(name):
-            for a in self.axis_reg:
-                for fallback in self.axis_reg[a].fallback:
-                    if name == fallback.name:
-                        return a, fallback
-            return None, None
-
         res = []
         for sibling_ttFont in sibling_ttFonts:
             name_table = sibling_ttFont["name"]
@@ -238,7 +221,7 @@ class GFNameBuilder:
             fvar_axes_in_font = [a.axisTag for a in sibling_ttFont["fvar"].axes]
 
             for token in tokens:
-                axis, fallback = name_in_axis_reg(token)
+                axis, fallback = self.axis_reg.get_fallback(token)
                 if not axis or axis in fvar_axes_in_font:
                     continue
                 res.append((axis, fallback))

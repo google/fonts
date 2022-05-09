@@ -8,12 +8,14 @@ from google.protobuf import text_format
 from collections import OrderedDict
 from axisregistry.axes_pb2 import AxisProto
 from collections import defaultdict
+import logging
 
 try:
     from ._version import version as __version__  # type: ignore
 except ImportError:
     __version__ = "0.0.0+unknown"
 
+log = logging.getLogger(__file__)
 
 # TODO we may have more of these. Please note that some applications may not
 # implement variable font style linking.
@@ -104,7 +106,7 @@ class GFNameBuilder:
         return res
 
     def build_stat(self, sibling_ttFonts=None):
-        print("Building stat table")
+        log.info("Building STAT table")
         assert self.is_variable(), "not a VF!"
         fallbacks_in_font = self._fallbacks_in_font()
         sibling_font_styles = self.styles_in_name_table(sibling_ttFonts)
@@ -223,6 +225,7 @@ class GFNameBuilder:
         return res
 
     def build_name_table(self, family_name=None, style_name=None, siblings=[]):
+        log.info("Building name table")
         family_name = (
             family_name if family_name else self.name_table.getBestFamilyName()
         )
@@ -236,7 +239,6 @@ class GFNameBuilder:
     def build_vf_name_table(self, family_name, siblings=[]):
         # VF name table should reflect the 0 origin of the font!
         assert self.is_variable(), "Not a VF!"
-        print("building vf name table")
         style_name = self._vf_style_name()
         # if there are sibling fonts and the style name isn't wght+ital, use the v1 static method
         if siblings and style_name not in self.v1_styles:
@@ -267,7 +269,9 @@ class GFNameBuilder:
             if s.name in res:
                 continue
             res.append(s.name)
-        return " ".join(res).replace("Regular Italic", "Italic")
+        name = " ".join(res).replace("Regular Italic", "Italic")
+        log.debug(f"Built VF style name: '{name}'")
+        return name
 
     def build_fvar_instances(self, axis_dflts={}):
         """Replace a variable font's fvar instances with a set of new instances
@@ -277,6 +281,7 @@ class GFNameBuilder:
             ttFont: a TTFont instance
         """
         assert self.is_variable(), "Not a VF!"
+        log.info("Building fvar instances")
         fvar = self.ttFont["fvar"]
         nametable = self.ttFont["name"]
 
@@ -323,6 +328,7 @@ class GFNameBuilder:
                 inst = NamedInstance()
                 inst.subfamilyNameID = nametable.addName(name)
                 inst.coordinates = coordinates
+                log.debug(f"Adding fvar instance: {name}: {coordinates}")
                 results.append(inst)
             return results
 
@@ -337,7 +343,6 @@ class GFNameBuilder:
         fvar.instances = instances
 
     def build_static_name_table(self, family_name, style_name):
-        print("building static name table")
         # TODO replace occurences in all records
         # stip mac names
         self.name_table.removeNames(platformID=1)
@@ -382,11 +387,11 @@ class GFNameBuilder:
             self.ttFont, {k[0]: v for k, v in names.items()}, (3, 1, 0x409)
         )
         for k, v in names.items():
+            log.debug(f"Adding name record {k}: {v}")
             self.name_table.setName(v, *k)
 
     def build_static_name_table_v1(self, family_name, style_name):
         """Pre VF name tables, this version can only accept wght + ital"""
-        print("building static name table")
         non_weight_tokens = []
         v1_tokens = []
         tokens = style_name.split()
@@ -407,5 +412,6 @@ class GFNameBuilder:
 
         family_name = " ".join(new_family_name)
         style_name = " ".join(v1_tokens).replace("Regular Italic", "Italic").strip()
-
+        log.debug(f"New family name: {family_name}")
+        log.debug(f"New style name: {style_name}")
         self.build_static_name_table(family_name, style_name)

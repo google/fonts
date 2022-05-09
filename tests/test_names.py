@@ -37,13 +37,14 @@ def _test_names(ttFont, expected):
 
 
 @pytest.mark.parametrize(
-    "fp, family_name, style_name, expected",
+    "fp, family_name, style_name, siblings, expected",
     [
         # Maven Pro Regular
         (
             mavenpro_fp,
             "Maven Pro",
             "Regular",
+            [],
             {
                 (1, 3, 1, 0x409): "Maven Pro",
                 (2, 3, 1, 0x409): "Regular",
@@ -59,6 +60,7 @@ def _test_names(ttFont, expected):
             mavenpro_fp,
             "Maven Pro",
             "Italic",
+            [],
             {
                 (1, 3, 1, 0x409): "Maven Pro",
                 (2, 3, 1, 0x409): "Italic",
@@ -74,6 +76,7 @@ def _test_names(ttFont, expected):
             mavenpro_fp,
             "Maven Pro",
             "Bold",
+            [],
             {
                 (1, 3, 1, 0x409): "Maven Pro",
                 (2, 3, 1, 0x409): "Bold",
@@ -89,6 +92,7 @@ def _test_names(ttFont, expected):
             mavenpro_fp,
             "Maven Pro",
             "Bold Italic",
+            [],
             {
                 (1, 3, 1, 0x409): "Maven Pro",
                 (2, 3, 1, 0x409): "Bold Italic",
@@ -104,6 +108,7 @@ def _test_names(ttFont, expected):
             mavenpro_fp,
             "Maven Pro",
             "Black",
+            [],
             {
                 (1, 3, 1, 0x409): "Maven Pro Black",
                 (2, 3, 1, 0x409): "Regular",
@@ -119,6 +124,7 @@ def _test_names(ttFont, expected):
             mavenpro_fp,
             "Maven Pro",
             "Black Italic",
+            [],
             {
                 (1, 3, 1, 0x409): "Maven Pro Black",
                 (2, 3, 1, 0x409): "Italic",
@@ -134,6 +140,7 @@ def _test_names(ttFont, expected):
             mavenpro_fp,
             "Maven Pro",
             "ExtraLight Italic",
+            [],
             {
                 (1, 3, 1, 0x409): "Maven Pro ExtraLight",
                 (2, 3, 1, 0x409): "Italic",
@@ -150,6 +157,7 @@ def _test_names(ttFont, expected):
             mavenpro_fp,
             "Maven Pro",
             "UltraExpanded Regular",
+            [],
             {
                 (1, 3, 1, 0x409): "Maven Pro UltraExpanded",
                 (2, 3, 1, 0x409): "Regular",
@@ -165,6 +173,7 @@ def _test_names(ttFont, expected):
             mavenpro_fp,
             "Maven Pro",
             "Condensed ExtraLight Italic",
+            [],
             {
                 (1, 3, 1, 0x409): "Maven Pro Condensed ExtraLight",
                 (2, 3, 1, 0x409): "Italic",
@@ -175,12 +184,77 @@ def _test_names(ttFont, expected):
                 (17, 3, 1, 0x409): "ExtraLight Italic",
             },
         ),
+        ## VFs
+        # Open Sans Roman
+        (
+            opensans_roman_fp,
+            "Open Sans",
+            None,
+            [opensans_italic_fp, opensans_cond_roman_fp, opensans_cond_italic_fp],
+            {
+                (1, 3, 1, 0x409): "Open Sans",
+                (2, 3, 1, 0x409): "Regular",
+                (3, 3, 1, 0x409): "3.000;GOOG;OpenSans-Regular",
+                (4, 3, 1, 0x409): "Open Sans Regular",
+                (6, 3, 1, 0x409): "OpenSans-Regular",
+                (16, 3, 1, 0x409): None,
+                (17, 3, 1, 0x409): None,
+            },
+        ),
+        # Open Sans Italic
+        (
+            opensans_italic_fp,
+            "Open Sans",
+            None,
+            [opensans_roman_fp, opensans_cond_roman_fp, opensans_cond_italic_fp],
+            {
+                (1, 3, 1, 0x409): "Open Sans",
+                (2, 3, 1, 0x409): "Italic",
+                (3, 3, 1, 0x409): "3.000;GOOG;OpenSans-Italic",
+                (4, 3, 1, 0x409): "Open Sans Italic",
+                (6, 3, 1, 0x409): "OpenSans-Italic",
+                (16, 3, 1, 0x409): None,
+                (17, 3, 1, 0x409): None,
+            },
+        ),
+        # Open Sans Cond Roman
+        (
+            opensans_cond_roman_fp,
+            "Open Sans Condensed",
+            None,
+            [opensans_roman_fp, opensans_italic_fp, opensans_cond_italic_fp],
+            {
+                (1, 3, 1, 0x409): "Open Sans Condensed",
+                (2, 3, 1, 0x409): "Regular",
+                (3, 3, 1, 0x409): "3.000;GOOG;OpenSansCondensed-Regular",
+                (4, 3, 1, 0x409): "Open Sans Condensed Regular",
+                (6, 3, 1, 0x409): "OpenSansCondensed-Regular",
+                (16, 3, 1, 0x409): None,
+                (17, 3, 1, 0x409): None,
+            },
+        ),
+        # Open Sans Cond Italic
+        (
+            opensans_cond_italic_fp,
+            "Open Sans Condensed",
+            None,
+            [opensans_roman_fp, opensans_italic_fp, opensans_cond_roman_fp],
+            {
+                (1, 3, 1, 0x409): "Open Sans Condensed",
+                (2, 3, 1, 0x409): "Italic",
+                (3, 3, 1, 0x409): "3.000;GOOG;OpenSansCondensed-Italic",
+                (4, 3, 1, 0x409): "Open Sans Condensed Italic",
+                (6, 3, 1, 0x409): "OpenSansCondensed-Italic",
+                (16, 3, 1, 0x409): None,
+                (17, 3, 1, 0x409): None,
+            },
+        ),
     ],
 )
-def test_name_table(fp, family_name, style_name, expected):
+def test_name_table(fp, family_name, style_name, siblings, expected):
     font = TTFont(fp)
     builder = GFNameBuilder(font)
-    builder.build_name_table(family_name, style_name)
+    builder.build_name_table(family_name, style_name, siblings)
     _test_names(font, expected)
 
 

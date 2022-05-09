@@ -406,6 +406,6 @@ class GFNameBuilder:
             new_family_name.append(t)
 
         family_name = " ".join(new_family_name)
-        style_name = " ".join(v1_tokens)
+        style_name = " ".join(v1_tokens).replace("Regular Italic", "Italic").strip()
 
         self.build_static_name_table(family_name, style_name)

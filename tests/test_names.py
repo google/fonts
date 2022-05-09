@@ -405,11 +405,11 @@ def test_stat(fp, sibling_fps):
     builder.build_stat(siblings)
     stat_fp = fp.replace(".ttf", "_STAT.ttx")
 
-### output good files
-#    with open(stat_fp, "w") as doc:
-#        got = dump(font["STAT"], font)
-#        doc.write(got)
-#
+    ### output good files
+    #    with open(stat_fp, "w") as doc:
+    #        got = dump(font["STAT"], font)
+    #        doc.write(got)
+    #
     with open(stat_fp) as doc:
         expected = doc.read()
         got = dump(font["STAT"], font)

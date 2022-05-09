@@ -45,5 +45,6 @@ fallback_only: false
 illustration_url: "weight.svg"
 description:
   "Adjust the style from lighter to bolder in typographic color, by varying"
-  " stroke thicknesses or other forms. This typically changes overall width,"
-  " and so may be used in conjunction with Width and Grade axes."
+  " stroke weights, spacing and kerning, and other aspects of the type."
+  " This typically changes overall width, and so may be used in conjunction"
+  " with Width and Grade axes."

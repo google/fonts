@@ -410,7 +410,10 @@ class GFNameBuilder:
             current = r.toUnicode()
             if existing_name not in current:
                 continue
-            replacement = current.replace(existing_name, family_name)
+            if " " not in current:
+                replacement = current.replace(existing_name, family_name).replace(" ", "")
+            else:
+                replacement = current.replace(existing_name, family_name)
             self.ttFont["name"].setName(
                 replacement, r.nameID, r.platformID, r.platEncID, r.langID
             )

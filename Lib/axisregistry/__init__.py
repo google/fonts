@@ -347,6 +347,7 @@ class GFNameBuilder:
         # TODO replace occurences in all records
         # stip mac names
         self.name_table.removeNames(platformID=1)
+        existing_name = self.ttFont["name"].getBestFamilyName()
 
         names = {}
         is_ribbi = False
@@ -372,7 +373,7 @@ class GFNameBuilder:
             new_family_name = family_name.split()
             is_italic = "Italic" in style_tokens
             for t in style_tokens:
-                if t in ["Regular", "Italic"]:
+                if t in ["Regular", "Italic"] or t in new_family_name:
                     continue
                 new_family_name.append(t)
             new_family_name = " ".join(new_family_name)
@@ -396,6 +397,19 @@ class GFNameBuilder:
         for k, v in names.items():
             log.debug(f"Adding name record {k}: {v}")
             self.name_table.setName(v, *k)
+
+        # Replace occurences of old family name in untouched records
+        skip_ids = [i.numerator for i in NameID]
+        for r in self.ttFont["name"].names:
+            if r.nameID in skip_ids:
+                continue
+            current = r.toUnicode()
+            if existing_name not in current:
+                continue
+            replacement = current.replace(existing_name, family_name)
+            self.ttFont["name"].setName(
+                replacement, r.nameID, r.platformID, r.platEncID, r.langID
+            )
 
     def build_static_name_table_v1(self, family_name, style_name):
         """Pre VF name tables, this version can only accept wght + ital"""

@@ -37,10 +37,11 @@ def _test_names(ttFont, expected):
 
 
 @pytest.mark.parametrize(
-    "family_name, style_name, expected",
+    "fp, family_name, style_name, expected",
     [
         # Maven Pro Regular
         (
+            mavenpro_fp,
             "Maven Pro",
             "Regular",
             {
@@ -55,6 +56,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Italic
         (
+            mavenpro_fp,
             "Maven Pro",
             "Italic",
             {
@@ -69,6 +71,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Bold
         (
+            mavenpro_fp,
             "Maven Pro",
             "Bold",
             {
@@ -83,6 +86,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Bold Italic
         (
+            mavenpro_fp,
             "Maven Pro",
             "Bold Italic",
             {
@@ -97,6 +101,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Black
         (
+            mavenpro_fp,
             "Maven Pro",
             "Black",
             {
@@ -111,6 +116,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Black Italic
         (
+            mavenpro_fp,
             "Maven Pro",
             "Black Italic",
             {
@@ -125,6 +131,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro ExtraLight Italic
         (
+            mavenpro_fp,
             "Maven Pro",
             "ExtraLight Italic",
             {
@@ -140,6 +147,7 @@ def _test_names(ttFont, expected):
         # check non-weight styles get appended to family name
         # Maven Pro UltraExpanded Regular
         (
+            mavenpro_fp,
             "Maven Pro",
             "UltraExpanded Regular",
             {
@@ -154,6 +162,7 @@ def _test_names(ttFont, expected):
         ),
         # Maven Pro Condensed ExtraLight Italic
         (
+            mavenpro_fp,
             "Maven Pro",
             "Condensed ExtraLight Italic",
             {
@@ -168,10 +177,11 @@ def _test_names(ttFont, expected):
         ),
     ],
 )
-def test_static_name_table(static_font, family_name, style_name, expected):
-    builder = GFNameBuilder(static_font)
+def test_name_table(fp, family_name, style_name, expected):
+    font = TTFont(fp)
+    builder = GFNameBuilder(font)
     builder.build_name_table(family_name, style_name)
-    _test_names(static_font, expected)
+    _test_names(font, expected)
 
 
 @pytest.mark.parametrize(

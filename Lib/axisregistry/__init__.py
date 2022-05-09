@@ -249,11 +249,11 @@ class GFNameBuilder:
         else:
             self.build_static_name_table(family_name, style_name)
 
-        # set nameID25
+        # set nameID25.
         font_styles = self._fallbacks_in_name_table([self.ttFont])
         if font_styles:
             vf_ps = family_name.replace(" ", "") + "".join(
-                [s[1].name for s in font_styles]
+                [fallback.name for _, fallback in font_styles]
             )
         else:
             vf_ps = family_name.replace(" ", "")
@@ -280,8 +280,6 @@ class GFNameBuilder:
         """Replace a variable font's fvar instances with a set of new instances
         which conform to the Google Fonts instance spec:
         https://github.com/googlefonts/gf-docs/tree/main/Spec#fvar-instances
-        Args:
-            ttFont: a TTFont instance
         """
         assert self.is_variable(), "Not a VF!"
         log.info("Building fvar instances")
@@ -347,7 +345,6 @@ class GFNameBuilder:
 
     def build_static_name_table(self, family_name, style_name):
         # TODO replace occurences in all records
-        # stip mac names
         self.name_table.removeNames(platformID=1)
 
         names = {}

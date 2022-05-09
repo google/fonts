@@ -24,6 +24,30 @@ LINKED_VALUES = {
     "ital": {0.0: 1.0},
 }
 
+# Static font styles. The GF api only support the following static font styles
+GF_STATIC_STYLES = OrderedDict(
+    [
+        ("Thin", 100),
+        ("ExtraLight", 200),
+        ("Light", 300),
+        ("Regular", 400),
+        ("Medium", 500),
+        ("SemiBold", 600),
+        ("Bold", 700),
+        ("ExtraBold", 800),
+        ("Black", 900),
+        ("Thin Italic", 100),
+        ("ExtraLight Italic", 200),
+        ("Light Italic", 300),
+        ("Italic", 400),
+        ("Medium Italic", 500),
+        ("SemiBold Italic", 600),
+        ("Bold Italic", 700),
+        ("ExtraBold Italic", 800),
+        ("Black Italic", 900),
+    ]
+)
+
 
 def AxisRegistry():
     registry = {}
@@ -72,10 +96,6 @@ class GFNameBuilder:
         self.ttFont = ttFont
         self.name_table = self.ttFont["name"]
         self.axis_reg = axis_registry
-        self.weights = [i.name for i in self.axis_reg["wght"].fallback]
-        self.v1_styles = self.weights + [
-            f"{i} Italic".replace("Regular Italic", "Italic") for i in self.weights
-        ]
         self.family_name = self.ttFont["name"].getBestFamilyName()
         self.subfamily_name = self.ttFont["name"].getBestSubFamilyName()
 
@@ -108,12 +128,12 @@ class GFNameBuilder:
     def build_stat(self, sibling_ttFonts=None):
         log.info("Building STAT table")
         assert self.is_variable(), "not a VF!"
-        fallbacks_in_font = self._fallbacks_in_font()
-        sibling_font_styles = self.styles_in_name_table(sibling_ttFonts)
-        font_styles = self.styles_in_name_table([self.ttFont])
+        fallbacks_in_fvar = self._fallbacks_in_font()
+        fallbacks_in_siblings = self._fallbacks_in_name_table(sibling_ttFonts)
+        fallbacks_in_names = self._fallbacks_in_name_table([self.ttFont])
         nametable = self.ttFont["name"]
 
-        # rm old name table records and STAT table
+        # rm old STAT table and associated name table records
         if "STAT" in self.ttFont:
             stat = self.ttFont["STAT"]
             axis_values = stat.table.AxisValueArray.AxisValue
@@ -127,9 +147,8 @@ class GFNameBuilder:
         res = []
         # use fontTools build_stat
         # https://github.com/fonttools/fonttools/blob/a293606fc8c88af8510d0688a6a36271ff4ff350/Lib/fontTools/otlLib/builder.py#L2683
-        # TODO add linked values
         seen_axes = set()
-        for axis, fallbacks in fallbacks_in_font.items():
+        for axis, fallbacks in fallbacks_in_fvar.items():
             seen_axes.add(axis)
             a = {"tag": axis, "name": self.axis_reg[axis].display_name, "values": []}
             for fallback in fallbacks:
@@ -147,8 +166,8 @@ class GFNameBuilder:
                     a["values"][-1]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
             res.append(a)
 
-        if font_styles:
-            for axis, fallback in font_styles:
+        if fallbacks_in_names:
+            for axis, fallback in fallbacks_in_names:
                 if axis in seen_axes:
                     continue
                 a = {
@@ -162,8 +181,8 @@ class GFNameBuilder:
                     a["values"][0]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
                 res.append(a)
 
-        if sibling_font_styles:
-            for axis, fallback in sibling_font_styles:
+        if fallbacks_in_siblings:
+            for axis, fallback in fallbacks_in_siblings:
                 if axis in seen_axes:
                     continue
                 value = 0.0
@@ -175,7 +194,7 @@ class GFNameBuilder:
                 if axis in LINKED_VALUES and value in LINKED_VALUES[axis]:
                     a["values"][0]["linkedValue"] = LINKED_VALUES[axis][value]
                 res.append(a)
-        # TODO, we need to get ordering done
+        # TODO what about axis ordering?
         buildStatTable(self.ttFont, res, macNames=False)
 
     def _fallbacks_in_font(self):
@@ -186,6 +205,7 @@ class GFNameBuilder:
         }
         for axis in self.axis_reg:
             if axis not in axes_in_font:
+                log.warn(f"Axis {axis} not found in GF Axis Registry!")
                 continue
             for fallback in self.axis_reg[axis].fallback:
                 if (
@@ -196,7 +216,7 @@ class GFNameBuilder:
                 res[axis].append(fallback)
         return res
 
-    def styles_in_name_table(self, sibling_ttFonts=None):
+    def _fallbacks_in_name_table(self, sibling_ttFonts=None):
         if not sibling_ttFonts:
             return []
 
@@ -241,13 +261,13 @@ class GFNameBuilder:
         assert self.is_variable(), "Not a VF!"
         style_name = self._vf_style_name()
         # if there are sibling fonts and the style name isn't wght+ital, use the v1 static method
-        if siblings and style_name not in self.v1_styles:
+        if siblings and style_name not in GF_STATIC_STYLES:
             self.build_static_name_table_v1(family_name, style_name)
         else:
             self.build_static_name_table(family_name, style_name)
 
         # set nameID25
-        font_styles = self.styles_in_name_table([self.ttFont])
+        font_styles = self._fallbacks_in_name_table([self.ttFont])
         if font_styles:
             vf_ps = family_name.replace(" ", "") + "".join(
                 [s[1].name for s in font_styles]
@@ -264,7 +284,7 @@ class GFNameBuilder:
                 continue
             res.append(v["name"])
 
-        font_styles = self.styles_in_name_table([self.ttFont])
+        font_styles = self._fallbacks_in_name_table([self.ttFont])
         for _, s in font_styles:
             if s.name in res:
                 continue
@@ -396,7 +416,7 @@ class GFNameBuilder:
         v1_tokens = []
         tokens = style_name.split()
         for t in tokens:
-            if t not in self.weights + ["Italic"]:
+            if t not in GF_STATIC_STYLES:
                 non_weight_tokens.append(t)
             else:
                 v1_tokens.append(t)

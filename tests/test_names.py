@@ -249,6 +249,22 @@ def _test_names(ttFont, expected):
                 (17, 3, 1, 0x409): None,
             },
         ),
+        # Bad names
+        (
+            mavenpro_fp,
+            "Maven Pro",
+            "Fat", # this should get appended to the family name
+            [],
+            {
+                (1, 3, 1, 0x409): "Maven Pro Fat",
+                (2, 3, 1, 0x409): "Regular",
+                (3, 3, 1, 0x409): "2.003;NONE;MavenProFat-Regular",
+                (4, 3, 1, 0x409): "Maven Pro Fat Regular",
+                (6, 3, 1, 0x409): "MavenProFat-Regular",
+                (16, 3, 1, 0x409): None,
+                (17, 3, 1, 0x409): None,
+            },
+        ),
     ],
 )
 def test_name_table(fp, family_name, style_name, siblings, expected):

@@ -8,9 +8,13 @@ fonts {
   style: "normal"
   weight: 400
   filename: "AmiriQuranColored-Regular.ttf"
-  post_script_name: "AmiriQuranColored"
-  full_name: "Amiri Quran Colored"
-  copyright: "Copyright 2010-2021 The Amiri Project Authors (https://github.com/aliftype/amiri)."
+  post_script_name: "AmiriQuranColored-Regular"
+  full_name: "Amiri Quran Colored Regular"
+  copyright: "Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri)."
 }
 subsets: "arabic"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/aliftype/amiri"
+  commit: "4e06c7950304fdadd7180b85201e6eb0407ea380"
+}

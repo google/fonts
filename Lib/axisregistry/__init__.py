@@ -1,7 +1,7 @@
 from copy import deepcopy
 from fontTools.ttLib import TTFont
 from fontTools.otlLib.builder import buildStatTable
-from fontTools.varLib.instancer.names import _updateUniqueIdNameRecord
+from fontTools.varLib.instancer.names import _updateUniqueIdNameRecord, NameID
 from fontTools.ttLib.tables._f_v_a_r import NamedInstance
 from pkg_resources import resource_filename
 from google.protobuf import text_format
@@ -345,6 +345,7 @@ class GFNameBuilder:
 
     def build_static_name_table(self, family_name, style_name):
         # TODO replace occurences in all records
+        # stip mac names
         self.name_table.removeNames(platformID=1)
 
         names = {}
@@ -355,11 +356,16 @@ class GFNameBuilder:
         if is_ribbi:
             full_name = f"{family_name} {style_name}"
             ps_name = f"{family_name}-{style_name}".replace(" ", "")
-            names[(1, 3, 1, 0x409)] = family_name
-            names[(2, 3, 1, 0x409)] = style_name
-            names[(4, 3, 1, 0x409)] = full_name
-            names[(6, 3, 1, 0x409)] = ps_name
-            for name_id in (16, 17, 21, 22):
+            names[(NameID.FAMILY_NAME, 3, 1, 0x409)] = family_name
+            names[(NameID.SUBFAMILY_NAME, 3, 1, 0x409)] = style_name
+            names[(NameID.FULL_FONT_NAME, 3, 1, 0x409)] = full_name
+            names[(NameID.POSTSCRIPT_NAME, 3, 1, 0x409)] = ps_name
+            for name_id in (
+                NameID.TYPOGRAPHIC_FAMILY_NAME,
+                NameID.TYPOGRAPHIC_SUBFAMILY_NAME,
+                21,
+                22,
+            ):
                 self.name_table.removeNames(nameID=name_id)
         else:
             style_tokens = style_name.split()
@@ -374,16 +380,17 @@ class GFNameBuilder:
             full_name = f"{family_name} {style_name}"
             ps_name = f"{family_name}-{style_name}".replace(" ", "")
 
-            names[(1, 3, 1, 0x409)] = new_family_name
-            names[(2, 3, 1, 0x409)] = new_style_name
-            names[(4, 3, 1, 0x409)] = full_name
-            names[(6, 3, 1, 0x409)] = ps_name
-            names[(16, 3, 1, 0x409)] = family_name
-            names[(17, 3, 1, 0x409)] = style_name
+            names[(NameID.FAMILY_NAME, 3, 1, 0x409)] = new_family_name
+            names[(NameID.SUBFAMILY_NAME, 3, 1, 0x409)] = new_style_name
+            names[(NameID.FULL_FONT_NAME, 3, 1, 0x409)] = full_name
+            names[(NameID.POSTSCRIPT_NAME, 3, 1, 0x409)] = ps_name
+            names[(NameID.TYPOGRAPHIC_FAMILY_NAME, 3, 1, 0x409)] = family_name
+            names[(NameID.TYPOGRAPHIC_SUBFAMILY_NAME, 3, 1, 0x409)] = style_name
+            # we do not use WWS names since we use the RIBBI naming schema
             for name_id in (21, 22):
                 self.name_table.removeNames(nameID=name_id)
 
-        names[(3, 3, 1, 0x409)] = _updateUniqueIdNameRecord(
+        names[(NameID.UNIQUE_FONT_IDENTIFIER, 3, 1, 0x409)] = _updateUniqueIdNameRecord(
             self.ttFont, {k[0]: v for k, v in names.items()}, (3, 1, 0x409)
         )
         for k, v in names.items():

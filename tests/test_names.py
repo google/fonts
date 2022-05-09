@@ -434,3 +434,19 @@ def test_stat(fp, sibling_fps):
         expected = doc.read()
         got = dump(font["STAT"], font)
         assert got == expected
+
+
+@pytest.mark.parametrize(
+    "fp, expected",
+    [
+        (mavenpro_fp, "MavenPro-Regular.ttf"),
+        (opensans_roman_fp, "OpenSans[wdth,wght].ttf"),
+        (opensans_italic_fp, "OpenSans-Italic[wdth,wght].ttf"),
+        (opensans_cond_roman_fp, "OpenSansCondensed[wght].ttf"),
+        (opensans_cond_italic_fp, "OpenSansCondensed-Italic[wght].ttf"),
+    ]
+)
+def test_filename(fp, expected):
+    font = TTFont(fp)
+    builder = GFNameBuilder(font)
+    assert builder.build_filename() == expected

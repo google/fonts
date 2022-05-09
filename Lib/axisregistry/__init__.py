@@ -441,3 +441,19 @@ class GFNameBuilder:
         log.debug(f"New family name: {family_name}")
         log.debug(f"New style name: {style_name}")
         self.build_static_name_table(family_name, style_name)
+
+    def build_filename(self):
+        name_table = self.ttFont["name"]
+        family_name = name_table.getBestFamilyName()
+        style_name = name_table.getBestSubFamilyName()
+        _, ext = os.path.splitext(self.ttFont.reader.file.name)
+        if self.is_variable():
+            is_italic = "Italic" in style_name
+            axes = self._fvar_dflts().keys()
+            axes = sorted([a for a in axes if a.isupper()]) + sorted(
+                [a for a in axes if a.islower()]
+            )
+            if is_italic:
+                return f"{family_name}-Italic[{','.join(axes)}]{ext}".replace(" ", "")
+            return f"{family_name}[{','.join(axes)}]{ext}".replace(" ", "")
+        return f"{family_name}-{style_name}{ext}".replace(" ", "")

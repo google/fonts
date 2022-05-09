@@ -253,7 +253,11 @@ class GFNameBuilder:
         font_styles = self._fallbacks_in_name_table([self.ttFont])
         if font_styles:
             vf_ps = family_name.replace(" ", "") + "".join(
-                [fallback.name for _, fallback in font_styles]
+                [
+                    fallback.name
+                    for _, fallback in font_styles
+                    if fallback.name not in family_name
+                ]
             )
         else:
             vf_ps = family_name.replace(" ", "")

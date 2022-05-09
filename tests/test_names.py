@@ -199,6 +199,7 @@ def _test_names(ttFont, expected):
                 (6, 3, 1, 0x409): "OpenSans-Regular",
                 (16, 3, 1, 0x409): None,
                 (17, 3, 1, 0x409): None,
+                (25, 3, 1, 0x409): "OpenSans",
             },
         ),
         # Open Sans Italic
@@ -215,6 +216,7 @@ def _test_names(ttFont, expected):
                 (6, 3, 1, 0x409): "OpenSans-Italic",
                 (16, 3, 1, 0x409): None,
                 (17, 3, 1, 0x409): None,
+                (25, 3, 1, 0x409): "OpenSansItalic",
             },
         ),
         # Open Sans Cond Roman
@@ -231,6 +233,7 @@ def _test_names(ttFont, expected):
                 (6, 3, 1, 0x409): "OpenSansCondensed-Regular",
                 (16, 3, 1, 0x409): None,
                 (17, 3, 1, 0x409): None,
+                (25, 3, 1, 0x409): "OpenSansCondensed",
             },
         ),
         # Open Sans Cond Italic
@@ -247,13 +250,14 @@ def _test_names(ttFont, expected):
                 (6, 3, 1, 0x409): "OpenSansCondensed-Italic",
                 (16, 3, 1, 0x409): None,
                 (17, 3, 1, 0x409): None,
+                (25, 3, 1, 0x409): "OpenSansCondensedItalic",
             },
         ),
         # Bad names
         (
             mavenpro_fp,
             "Maven Pro",
-            "Fat", # this should get appended to the family name
+            "Fat",  # this should get appended to the family name
             [],
             {
                 (1, 3, 1, 0x409): "Maven Pro Fat",

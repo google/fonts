@@ -1,6 +1,12 @@
 from fontTools.ttLib import TTFont
-from fontTools.misc.testTools import getXML, parseXML
-from axisregistry import GFNameBuilder
+from fontTools.misc.testTools import getXML
+from axisregistry import (
+    build_name_table,
+    build_filename,
+    build_fvar_instances,
+    build_stat,
+    _fvar_dflts,
+)
 import pytest
 import os
 
@@ -273,8 +279,7 @@ def _test_names(ttFont, expected):
 )
 def test_name_table(fp, family_name, style_name, siblings, expected):
     font = TTFont(fp)
-    builder = GFNameBuilder(font)
-    builder.build_name_table(family_name, style_name, siblings)
+    build_name_table(font, family_name, style_name, siblings)
     _test_names(font, expected)
 
 
@@ -373,15 +378,14 @@ def test_name_table(fp, family_name, style_name, siblings, expected):
 )
 def test_fvar_instances(font_fp, dflt_coords, expected):
     font = TTFont(font_fp)
-    builder = GFNameBuilder(font)
-    builder.build_fvar_instances(dflt_coords)
+    builder = build_fvar_instances(font, dflt_coords)
     fvar = font["fvar"]
     wght_axis = next((a for a in fvar.axes if a.axisTag == "wght"), None)
     wght_min = wght_axis.minValue
     wght_max = wght_axis.maxValue
     instances = fvar.instances
     if not dflt_coords:
-        dflt_coords = {k: v["value"] for k, v in builder._fvar_dflts().items()}
+        dflt_coords = {k: v["value"] for k, v in _fvar_dflts(font).items()}
 
     assert len(instances) == len(expected)
     for inst, (expected_name, coords) in zip(instances, expected):
@@ -421,8 +425,7 @@ def dump(table, ttFont=None):
 def test_stat(fp, sibling_fps):
     font = TTFont(fp)
     siblings = [TTFont(f) for f in sibling_fps]
-    builder = GFNameBuilder(font)
-    builder.build_stat(siblings)
+    build_stat(font, siblings)
     stat_fp = fp.replace(".ttf", "_STAT.ttx")
 
     ### output good files
@@ -444,9 +447,8 @@ def test_stat(fp, sibling_fps):
         (opensans_italic_fp, "OpenSans-Italic[wdth,wght].ttf"),
         (opensans_cond_roman_fp, "OpenSansCondensed[wght].ttf"),
         (opensans_cond_italic_fp, "OpenSansCondensed-Italic[wght].ttf"),
-    ]
+    ],
 )
 def test_filename(fp, expected):
     font = TTFont(fp)
-    builder = GFNameBuilder(font)
-    assert builder.build_filename() == expected
+    assert build_filename(font) == expected

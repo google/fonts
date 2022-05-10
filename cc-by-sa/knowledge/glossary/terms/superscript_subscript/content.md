@@ -1,5 +1,5 @@
 
-Superscript is [text](/glossary/text) formatted to appear smaller than the surrounding text and is usually aligned slightly above the top of the regular [type](/glossary/type); subscript is similar, but aligned slightly below the baseline. In English, superscript is commonly used to add references (for footnotes), copyright or trademark symbols, and in equations for scientific and mathematical texts. Subscript is mainly reserved for chemical compounds.
+Superscript is [text](/glossary/text_copy) formatted to appear smaller than the surrounding text and is usually aligned slightly above the top of the regular [type](/glossary/type); subscript is similar, but aligned slightly below the baseline. In English, superscript is commonly used to add references (for footnotes), copyright or trademark symbols, and in equations for scientific and mathematical texts. Subscript is mainly reserved for chemical compounds.
 
 <figure>
 

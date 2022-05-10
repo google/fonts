@@ -95,7 +95,7 @@ def _link_target_to_path(names: Mapping[str, str], target: str) -> Path:
 
 
 def main(_):
-    knowledge_dir = Path(__file__).parent.parent / "cc-by-sa" / "knowledge"
+    knowledge_dir = Path(__file__).parent.parent.parent / "cc-by-sa" / "knowledge"
     assert knowledge_dir.is_dir(), f"No dir {knowledge_dir}"
 
     md_files = list(knowledge_dir.glob("**/*.md"))

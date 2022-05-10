@@ -4,6 +4,7 @@ import itertools
 import mistune  # markdown => ast
 from pathlib import Path
 import re
+import sys
 from typing import Callable, Iterable, List, Mapping, Set, Union
 
 
@@ -14,6 +15,11 @@ def _topic_target_to_path(_: Set[str], target: str) -> str:
 
 def _topics_target_to_path(_: Set[str], target: str) -> str:
     return Path(target.replace("/topics/", "topics/")) / "topic.textproto"
+
+
+def _module_target_to_path(_: Set[str], target: str) -> str:
+    # in the actual FE this seems to refer to topics
+    return Path(target.replace("/module/", "topics/")) / "topic.textproto"
 
 
 def _content_md(path: str) -> Path:
@@ -50,6 +56,7 @@ _LINK_TO_PATH = [
     (re.compile("^/topic/"), _topic_target_to_path),
     (re.compile("^/topics/"), _topics_target_to_path),
     (re.compile("^/lesson/"), _lesson_target_to_path),
+    (re.compile("^/module/"), _module_target_to_path),
     (re.compile("[^/]+"), _any_unique_name_to_path)
 ]
 
@@ -90,7 +97,6 @@ def _link_target_to_path(names: Mapping[str, str], target: str) -> Path:
 def main(_):
     knowledge_dir = Path(__file__).parent.parent / "cc-by-sa" / "knowledge"
     assert knowledge_dir.is_dir(), f"No dir {knowledge_dir}"
-    print(knowledge_dir)
 
     md_files = list(knowledge_dir.glob("**/*.md"))
     unambiguous_names = {}
@@ -101,6 +107,7 @@ def main(_):
             continue
         unambiguous_names[name] = str(entries[0].relative_to(knowledge_dir).parent)
 
+    return_code = 0
     for md_file in md_files:
         ast = _markdown_ast(md_file)
         for link in _ast_iter(ast, lambda v: v.get("type", None) == "link"):
@@ -118,10 +125,13 @@ def main(_):
                 should_print = FLAGS.print_valid
             else:
                 result = "INVALID "
+                return_code = 1
 
             if should_print:
                 print(result, target, "=>", target_path)
                 print("  in", md_file.relative_to(knowledge_dir))
+
+    sys.exit(return_code)
 
 
 if __name__ == "__main__":

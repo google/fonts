@@ -9,4 +9,4 @@ Contrast is the difference between the thick and thin parts of a [letterform](/g
 
 [Serif](/glossary/serif) typefaces tend to have higher contrast strokes than [sans serif](/glossary/sans_serif) designs.
 
-Contrast can be controlled and fine-tuned in [variable fonts](/glossary/variable_fonts) with [parametric axes](/glossary/parametric_axes) that adjust [thick strokes (XOPQ)](/glossary/xopq_axis) and [thin strokes (YOPQ)](/glossary/yopq_axis) independently.
+Contrast can be controlled and fine-tuned in [variable fonts](/glossary/variable_fonts) with parametric axes that adjust [thick strokes (XOPQ)](/glossary/xopq_axis) and [thin strokes (YOPQ)](/glossary/yopq_axis) independently.

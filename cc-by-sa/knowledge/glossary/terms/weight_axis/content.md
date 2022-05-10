@@ -28,4 +28,6 @@ strong {
 }
 ```
 
-Unlike in non-variable fonts, the `font-weight` values no longer have to be declared in units of 100. Rather than have [body copy](/glossary/text_copy) set in a regular weight, which would usually sit at 400, we can set it a little lighter, at 350. Similarly, whereas `strong` text would usually be set in a bold weight, most often with a value of 700, we’re setting it at 780: heavier than a bold, but not quite as heavy as an extra bold.
+Unlike in non-variable fonts, the `font-weight` values no longer have to be declared in units of 100. Rather than have [body copy](/glossary/text_copy) set in a Regular weight, which would usually sit at 400, we can set it a little lighter, at 350. Similarly, whereas `strong` text would usually be set in a Bold weight, we’re setting it at 780: heavier than a Bold (700), but not quite as heavy as an ExtraBold (800).
+
+In line with the current CSS spec, the four-character code for this axis should be referenced in UPPERCASE (as only the five axes registered in the OpenType format specification should appear in lowercase). Also, when using the Google Fonts API, the lowercase axes have to appear first in the URL, followed by the uppercase, each in alphabetical order.

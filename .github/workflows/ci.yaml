@@ -24,3 +24,8 @@ jobs:
     - name: Lint server files
       run: gftools push-status . --lint
 
+    # Check Knowledge link graph
+    - name: Install dependencies
+      run: pip install absl-py mistune
+    - name: Check Knowledge graph
+      run: python3 .github/workflows/knowledge_graphy.py

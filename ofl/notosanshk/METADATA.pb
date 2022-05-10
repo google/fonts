@@ -28,8 +28,14 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-languages: "hak_Hant"  # Hakka Chinese, Traditional
-languages: "lzh_Hant"  # Literary Chinese, Traditional
-languages: "nan_Hant"  # Min Nan Chinese, Traditional
-languages: "zh_Hant"  # Chinese (Traditional)
+languages: "cjy_Hant" # Chinese, Jinyu, Traditional
+languages: "gan_Hant" # Gan Chinese, Traditional
+languages: "hak_Hant" # Hakka Chinese, Traditional
+languages: "hsn_Hant" # Xiang Chinese, Traditional
+languages: "lzh_Hant" # Literary Chinese, Traditional
+languages: "nan_Hant" # Min Nan Chinese, Traditional
+languages: "wuu_Hant" # Wu Chinese, Traditional
+languages: "yue_Hant" # Cantonese, Traditional
+languages: "za_Hant" # Zhuang, Traditional
+languages: "zh_Hant" # Mandarin Chinese, Traditional
 display_name: "Noto Sans Hong Kong"

@@ -22,6 +22,7 @@ opensans_roman_fp = os.path.join(DATA_DIR, "OpenSans[wdth,wght].ttf")
 opensans_italic_fp = os.path.join(DATA_DIR, "OpenSans-Italic[wdth,wght].ttf")
 opensans_cond_roman_fp = os.path.join(DATA_DIR, "OpenSansCondensed[wght].ttf")
 opensans_cond_italic_fp = os.path.join(DATA_DIR, "OpenSansCondensed-Italic[wght].ttf")
+wonky_fp = os.path.join(DATA_DIR, "Wonky[wdth,wght].ttf")
 
 
 @pytest.fixture
@@ -275,6 +276,21 @@ def _test_names(ttFont, expected):
                 (17, 3, 1, 0x409): None,
             },
         ),
+        (
+            wonky_fp,
+            "Wonky",  # name exists in axis reg!
+            None,
+            [],
+            {
+                (1, 3, 1, 0x409): "Wonky",
+                (2, 3, 1, 0x409): "Regular",
+                (3, 3, 1, 0x409): "3.000;GOOG;Wonky-Regular",
+                (4, 3, 1, 0x409): "Wonky Regular",
+                (6, 3, 1, 0x409): "Wonky-Regular",
+                (16, 3, 1, 0x409): None,
+                (17, 3, 1, 0x409): None,
+            },
+        ),
     ],
 )
 def test_name_table(fp, family_name, style_name, siblings, expected):
@@ -420,6 +436,7 @@ def dump(table, ttFont=None):
             opensans_cond_italic_fp,
             [opensans_roman_fp, opensans_italic_fp, opensans_cond_roman_fp],
         ),
+        (wonky_fp, []),
     ],
 )
 def test_stat(fp, sibling_fps):
@@ -429,9 +446,9 @@ def test_stat(fp, sibling_fps):
     stat_fp = fp.replace(".ttf", "_STAT.ttx")
 
     ### output good files
-    #    with open(stat_fp, "w") as doc:
-    #        got = dump(font["STAT"], font)
-    #        doc.write(got)
+    # with open(stat_fp, "w") as doc:
+    #    got = dump(font["STAT"], font)
+    #    doc.write(got)
 
     with open(stat_fp) as doc:
         expected = doc.read()

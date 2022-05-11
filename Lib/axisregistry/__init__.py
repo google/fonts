@@ -1,5 +1,6 @@
 from copy import deepcopy
 from fontTools.ttLib import TTFont
+from fontTools.misc.testTools import getXML
 from fontTools.otlLib.builder import buildStatTable
 from fontTools.varLib.instancer.names import _updateUniqueIdNameRecord, NameID
 from fontTools.ttLib.tables._f_v_a_r import NamedInstance
@@ -107,13 +108,13 @@ class AxisRegistry:
         res = []
         name_table = ttFont["name"]
         tokens = (
-            name_table.getBestFamilyName().split()
+            name_table.getBestFamilyName().split()[1:]
             + name_table.getBestSubFamilyName().split()
         )
         fvar_axes_in_font = [a.axisTag for a in ttFont["fvar"].axes]
         for token in tokens:
             axis, fallback = axis_registry.get_fallback(token)
-            if not axis or axis in fvar_axes_in_font:
+            if any([not axis, axis in fvar_axes_in_font, fallback in res]):
                 continue
             res.append((axis, fallback))
         return res
@@ -150,7 +151,7 @@ def _fvar_dflts(ttFont):
     return res
 
 
-def build_stat(ttFont, sibling_ttFonts=None):
+def build_stat(ttFont, sibling_ttFonts=[]):
     log.info("Building STAT table")
     assert is_variable(ttFont), "not a VF!"
     fallbacks_in_fvar = axis_registry.fallbacks_in_fvar(ttFont)
@@ -235,7 +236,7 @@ def build_name_table(ttFont, family_name=None, style_name=None, siblings=[]):
 def build_vf_name_table(ttFont, family_name, siblings=[]):
     # VF name table should reflect the 0 origin of the font!
     assert is_variable(ttFont), "Not a VF!"
-    style_name = _vf_style_name(ttFont)
+    style_name = _vf_style_name(ttFont, family_name)
     # if there are sibling fonts and the style name isn't wght+ital, use the v1 static method
     if siblings and style_name not in GF_STATIC_STYLES:
         build_static_name_table_v1(ttFont, family_name, style_name)
@@ -257,17 +258,18 @@ def build_vf_name_table(ttFont, family_name, siblings=[]):
     ttFont["name"].setName(vf_ps, NameID.VARIATIONS_POSTSCRIPT_NAME_PREFIX, 3, 1, 0x409)
 
 
-def _vf_style_name(ttFont):
+def _vf_style_name(ttFont, family_name):
     fvar_dflts = _fvar_dflts(ttFont)
     res = []
     for k, v in fvar_dflts.items():
         if not v["elided"]:
             res.append(v["name"])
 
+    family_name_tokens = family_name.split()
     font_styles = axis_registry.fallbacks_in_name_table(ttFont)
-    for _, s in font_styles:
-        if s.name not in res:
-            res.append(s.name)
+    for _, fallback in font_styles:
+        if fallback.name not in res and fallback.name not in family_name_tokens:
+            res.append(fallback.name)
 
     name = " ".join(res).replace("Regular Italic", "Italic")
     log.debug(f"Built VF style name: '{name}'")
@@ -454,3 +456,7 @@ def build_filename(ttFont):
             return f"{family_name}-Italic[{','.join(axes)}]{ext}".replace(" ", "")
         return f"{family_name}[{','.join(axes)}]{ext}".replace(" ", "")
     return f"{family_name}-{style_name}{ext}".replace(" ", "")
+
+
+def dump(table, ttFont=None):
+    return "\n".join(getXML(table.toXML, ttFont))

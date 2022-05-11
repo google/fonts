@@ -5,6 +5,10 @@ In your design app of choice that supports variable fonts, the settings can be f
 
 Because it’s still possible to select from various named [instances](/glossary/instance) within a typeface—essentially as a way of shortcutting to the more traditional selections of weight and style—you’ll find controls for that as well. Importantly, jumping into a particular named instance will effectively override any custom positions on the axes that you’ve explored.
 
+Figma’s support of variable fonts is superlative. When a variable font is selected from the menu, an additional “Variable” tab appears beside “Basics” and “Details” in Type settings, allowing for control of the variable axes.
+
+ [//]: # (TO-DO: illustration of Figma UI)
+
 In Sketch and Adobe Creative Cloud apps (InDesign, Illustrator, Photoshop, etc.), an additional icon appears to the right of the font weight dropdown, indicating that variable font controls are available. Clicking that will then open up the variable axes you can work with:
 
 <figure>
@@ -14,9 +18,7 @@ In Sketch and Adobe Creative Cloud apps (InDesign, Illustrator, Photoshop, etc.)
 
 </figure>
 
-Corel Draw also supports variable fonts, although its UI is slightly different to the approach of Sketch and Adobe.
-
-At the time of writing, Figma doesn’t currently support variable fonts. However, the [Variable Fonts plugin by Toni Gemayel](https://www.figma.com/community/plugin/966184368629063440/Variable-Fonts) acts as a useful stop-gap.
+Corel Draw also supports variable fonts, although its UI is slightly different to the approach of Figma, Sketch, and Adobe.
 
 [Nick Sherman](https://nicksherman.com) maintains a list of app, browser, and system support for variable fonts at [v-fonts.com/support](https://v-fonts.com/support/).
 

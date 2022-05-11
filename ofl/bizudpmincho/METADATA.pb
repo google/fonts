@@ -20,5 +20,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/morisawa-biz-ud-mincho"
-  commit: "082d773cc5658d39cc50c489a31e2938a27119e8"
+  commit: "7a76a4cc15a6d30b55aa6cdcb279e092796d756a"
 }

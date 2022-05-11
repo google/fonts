@@ -14,4 +14,4 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-In line with the current CSS spec, all custom axes should be referenced in UPPERCASE (only the OpenType registered variable axes should appear in lowercase). Also, when using the Google Fonts API, the uppercase axes have to appear first in the URL.
+In line with the current CSS spec, all custom axes should be referenced in UPPERCASE (only the OpenType registered variable axes should appear in lowercase). Also, when using the Google Fonts API, the lowercase axes have to appear first in the URL, followed by the uppercase.

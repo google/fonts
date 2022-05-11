@@ -71,8 +71,11 @@ class AxisRegistry:
         return self._data[k]
 
     def __iter__(self):
-        for i in self._data:
+        for i in self._data.keys():
             yield i
+
+    def keys(self):
+        return self._data.keys()
 
     def get_fallback(self, name):
         for a in self:
@@ -87,8 +90,8 @@ class AxisRegistry:
             a.axisTag: {"min": a.minValue, "max": a.maxValue}
             for a in ttFont["fvar"].axes
         }
-        for axis in self:
-            if axis not in axes_in_font:
+        for axis in axes_in_font:
+            if axis not in self.keys():
                 log.warn(f"Axis {axis} not found in GF Axis Registry!")
                 continue
             for fallback in self[axis].fallback:
@@ -115,6 +118,14 @@ class AxisRegistry:
             res.append((axis, fallback))
         return res
 
+    def fallback_for_value(self, axis_tag, value):
+        if axis_tag in axis_registry:
+            return next(
+                (f for f in axis_registry[axis_tag].fallback if f.value == value),
+                None,
+            )
+        return None
+
 
 axis_registry = AxisRegistry()
 
@@ -126,23 +137,15 @@ def is_variable(ttFont):
 def _fvar_dflts(ttFont):
     res = OrderedDict()
     for a in ttFont["fvar"].axes:
-        # find name and elision
-        if a.axisTag in axis_registry:
-            name = next(
-                (
-                    f.name
-                    for f in axis_registry[a.axisTag].fallback
-                    if f.value == a.defaultValue
-                ),
-                None,
-            )
-            elided = a.defaultValue == axis_registry[
+        fallback = axis_registry.fallback_for_value(a.axisTag, a.defaultValue)
+        if fallback:
+            name = fallback.name
+            elided = fallback.value == axis_registry[
                 a.axisTag
             ].default_value and name not in ["Regular", "Italic"]
         else:
             name = None
             elided = True  # since we can't find a name for it, keep it elided
-
         res[a.axisTag] = {"value": a.defaultValue, "name": name, "elided": elided}
     return res
 
@@ -171,7 +174,7 @@ def build_stat(ttFont, sibling_ttFonts=None):
         del ttFont["STAT"]
 
     res = []
-    # use fontTools build_stat
+    # use fontTools build_stat. Link contains function params and usage example
     # https://github.com/fonttools/fonttools/blob/a293606fc8c88af8510d0688a6a36271ff4ff350/Lib/fontTools/otlLib/builder.py#L2683
     seen_axes = set()
     for axis, fallbacks in fallbacks_in_fvar.items():
@@ -192,34 +195,30 @@ def build_stat(ttFont, sibling_ttFonts=None):
                 a["values"][-1]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
         res.append(a)
 
-    if fallbacks_in_names:
-        for axis, fallback in fallbacks_in_names:
-            if axis in seen_axes:
-                continue
-            a = {
-                "tag": axis,
-                "name": axis_registry[axis].display_name,
-                "values": [
-                    {"name": fallback.name, "value": fallback.value, "flags": 0x0}
-                ],
-            }
-            if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:
-                a["values"][0]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
-            res.append(a)
+    for axis, fallback in fallbacks_in_names:
+        if axis in seen_axes:
+            continue
+        a = {
+            "tag": axis,
+            "name": axis_registry[axis].display_name,
+            "values": [{"name": fallback.name, "value": fallback.value, "flags": 0x0}],
+        }
+        if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:
+            a["values"][0]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
+        res.append(a)
 
-    if fallbacks_in_siblings:
-        for axis, fallback in fallbacks_in_siblings:
-            if axis in seen_axes:
-                continue
-            value = 0.0
-            a = {
-                "tag": axis,
-                "name": axis_registry[axis].display_name,
-                "values": [{"name": "Normal", "value": value, "flags": 0x2}],
-            }
-            if axis in LINKED_VALUES and value in LINKED_VALUES[axis]:
-                a["values"][0]["linkedValue"] = LINKED_VALUES[axis][value]
-            res.append(a)
+    for axis, fallback in fallbacks_in_siblings:
+        if axis in seen_axes:
+            continue
+        value = 0.0
+        a = {
+            "tag": axis,
+            "name": axis_registry[axis].display_name,
+            "values": [{"name": "Normal", "value": value, "flags": 0x2}],
+        }
+        if axis in LINKED_VALUES and value in LINKED_VALUES[axis]:
+            a["values"][0]["linkedValue"] = LINKED_VALUES[axis][value]
+        res.append(a)
     buildStatTable(ttFont, res, macNames=False)
 
 
@@ -262,15 +261,14 @@ def _vf_style_name(ttFont):
     fvar_dflts = _fvar_dflts(ttFont)
     res = []
     for k, v in fvar_dflts.items():
-        if v["elided"]:
-            continue
-        res.append(v["name"])
+        if not v["elided"]:
+            res.append(v["name"])
 
     font_styles = axis_registry.fallbacks_in_name_table(ttFont)
     for _, s in font_styles:
-        if s.name in res:
-            continue
-        res.append(s.name)
+        if s.name not in res:
+            res.append(s.name)
+
     name = " ".join(res).replace("Regular Italic", "Italic")
     log.debug(f"Built VF style name: '{name}'")
     return name

@@ -432,7 +432,7 @@ def test_stat(fp, sibling_fps):
     #    with open(stat_fp, "w") as doc:
     #        got = dump(font["STAT"], font)
     #        doc.write(got)
-    #
+
     with open(stat_fp) as doc:
         expected = doc.read()
         got = dump(font["STAT"], font)

@@ -12,8 +12,11 @@ fonts {
   full_name: "Noto Sans TC"
   copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'."
 }
+subsets: "chinese-simplified"
 subsets: "chinese-traditional"
 subsets: "cyrillic"
+subsets: "japanese"
+subsets: "korean"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -28,3 +31,8 @@ languages: "hak_Hant"  # Hakka Chinese, Traditional
 languages: "lzh_Hant"  # Literary Chinese, Traditional
 languages: "nan_Hant"  # Min Nan Chinese, Traditional
 languages: "zh_Hant"  # Chinese (Traditional)
+languages: "za_Hant"  # Zhuang, Traditional Han
+languages: "wuu_Hant"  # Wu Chinese
+languages: "hsn_Hant"  # Xiang Chinese
+languages: "gan_Hant"  # Gan Chinese
+languages: "cjy_Hant"  # Chinese, Jinyu

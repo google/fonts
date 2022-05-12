@@ -1,5 +1,5 @@
 name: "Andika"
-designer: "SIL International, Victor Gaultney, Annie Olsen, Julie Remington, Don Collingsworth, Eric Hays, Becca Hirsbrunner"
+designer: "SIL International"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-10"

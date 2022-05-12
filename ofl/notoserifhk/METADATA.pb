@@ -12,6 +12,7 @@ fonts {
   full_name: "Noto Serif HK"
   copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
 }
+subsets: "chinese-hongkong"
 subsets: "chinese-simplified"
 subsets: "chinese-traditional"
 subsets: "cyrillic"

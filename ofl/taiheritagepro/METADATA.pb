@@ -1,5 +1,5 @@
 name: "Tai Heritage Pro"
-designer: "SIL International, Faah Baccam, Walt Agee, Victor Gaultney, Annie Olsen"
+designer: "SIL International"
 license: "OFL"
 category: "SERIF"
 date_added: "2022-05-12"

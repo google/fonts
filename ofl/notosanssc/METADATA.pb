@@ -37,3 +37,4 @@ languages: "wuu_Hans"  # Wu Chinese
 languages: "yue_Hans"  # Cantonese (Simplified)
 languages: "za_Hans"  # Zhuang, Simplified Han
 languages: "zh_Hans"  # Simplified Chinese
+display_name: "Noto Sans Simplified Chinese"

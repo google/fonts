@@ -21,15 +21,20 @@ subsets: "korean"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-is_noto: true
 subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
 }
+is_noto: true
+languages: "cjy_Hant"  # Chinese, Jinyu
+languages: "gan_Hant"  # Gan Chinese
 languages: "hak_Hant"  # Hakka Chinese, Traditional
+languages: "hsn_Hant"  # Xiang Chinese
 languages: "lzh_Hant"  # Literary Chinese, Traditional
 languages: "nan_Hant"  # Min Nan Chinese, Traditional
+languages: "wuu_Hant"  # Wu Chinese
+languages: "yue_Hant"  # Cantonese
 languages: "zh_Hant"  # Chinese (Traditional)
 display_name: "Noto Sans Hong Kong"

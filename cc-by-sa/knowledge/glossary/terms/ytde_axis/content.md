@@ -15,4 +15,4 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 Its four-letter abbreviation, YTDE, is a reference to its logical name, “Y-Transparency for Descenders.” It may be used in conjunction with other axes controlling Y-transparencies (vertical alignment zones), especially the [Parametric Ascender Height axis (YTAS)](/glossary/ytas_axis).
 
-In line with the current CSS spec, the four-character code for this axis should be referenced in UPPERCASE (only the five axes registered in the OpenType format specification should appear in lowercase). Also, when using the Google Fonts API, the uppercase axes have to appear first in the URL.
+In line with the current CSS spec, the four-character code for this axis should be referenced in UPPERCASE (as only the five axes registered in the OpenType format specification should appear in lowercase). Also, when using the Google Fonts API, the lowercase axes have to appear first in the URL, followed by the uppercase, each in alphabetical order.

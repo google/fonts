@@ -88,7 +88,7 @@ The spacing in front of each character might be especially noticeable in [displa
 
 ## Customize drop caps
 
-If we employ [drop caps](/lesson/drop_caps) in our design system, but we have a piece of content that starts with an opening quotation, that mark will become the drop-cap and will probably look a little strange. If possible, let’s take that opening quotation mark outside of the usual text box and manually align it to the “proper” drop-cap; i.e., the first actual letter in our content.
+If we employ [drop caps](/glossary/drop_cap) in our design system, but we have a piece of content that starts with an opening quotation, that mark will become the drop-cap and will probably look a little strange. If possible, let’s take that opening quotation mark outside of the usual text box and manually align it to the “proper” drop-cap; i.e., the first actual letter in our content.
 
 <figure>
 

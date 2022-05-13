@@ -1,5 +1,5 @@
 
-Ordinals are the small letters that appear next to a [numeral](/glossary/numeral). English examples include the “st” in “1st” (“first”), or “nd” in “2nd” (“second”).
+Ordinals are the small letters that appear next to a [numeral](/glossary/numerals_figures). English examples include the “st” in “1st” (“first”), or “nd” in “2nd” (“second”).
 
 In English, deciding whether to use ordinals is a matter of a publisher’s house style. In French and Spanish, usage is much more common.
 

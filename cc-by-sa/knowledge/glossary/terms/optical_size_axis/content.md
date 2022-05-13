@@ -37,3 +37,5 @@ h1 {
 ```
 
 The changes made across an Optical Size axis are intended by typeface designers to optimize the type, but parametric axes can be used to further adjust and fine-tune things. Explore more in our article, [“Introducing parametric axes.”](/lesson/introducing_parametric_axes)
+
+In line with the current CSS spec, the four-character code for this axis should be referenced in lowercase (as only the five axes registered in the OpenType format specification should appear in lowercase). Also, when using the Google Fonts API, the lowercase axes have to appear first in the URL, followed by the uppercase, each in alphabetical order.

@@ -1,5 +1,5 @@
 
-“Grade” (`GRAD` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to alter [stroke](/glossary/stroke) thicknesses (or other forms) without affecting the [type](/glossary/type)’s overall [width](width), inter-letter spacing, or [kerning](/glossary/kerning)—unlike altering [weight](/glossary/weight). This means there are no changes to line breaks or page layout.
+“Grade” (`GRAD` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to alter [stroke](/glossary/stroke) thicknesses (or other forms) without affecting the [type](/glossary/type)’s overall [width](/glossary/width), inter-letter spacing, or [kerning](/glossary/kerning_kerning_pairs)—unlike altering [weight](/glossary/weight). This means there are no changes to line breaks or page layout.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
@@ -17,4 +17,4 @@ Negative grade makes the style lighter, while positive grade makes it heavier. T
 
 </figure>
 
-In line with the current CSS spec, all custom axes should be referenced in UPPERCASE (only the OpenType registered variable axes should appear in lowercase). Also, when using the Google Fonts API, the uppercase axes have to appear first in the URL.
+In line with the current CSS spec, the four-character code for this axis should be referenced in UPPERCASE (as only the five axes registered in the OpenType format specification should appear in lowercase). Also, when using the Google Fonts API, the lowercase axes have to appear first in the URL, followed by the uppercase, each in alphabetical order.

@@ -12,20 +12,25 @@ fonts {
   full_name: "Noto Sans JP"
   copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'."
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
+subsets: "korean"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-is_noto: true
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
 }
+is_noto: true
 languages: "ain_Kana"  # Ainu
 languages: "ja_Jpan"  # Japanese
+languages: "ja_Hira"  # Japanese, Hiragana
 languages: "ja_Kana"  # Japanese, Katakana
 languages: "ryu_Jpan"  # Central Okinawan, Japanese
 languages: "ryu_Kana"  # Central Okinawan
+display_name: "Noto Sans Japanese"

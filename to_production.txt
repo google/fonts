@@ -2,8 +2,6 @@
 ofl/blaka
 ofl/blakahollow
 ofl/librebodoni
-ofl/radiocanada
-ofl/robotoflex
 ofl/splinesansmono
 ofl/tapestry
 ofl/tirobangla
@@ -13,35 +11,29 @@ ofl/tirotamil
 ofl/tirotelugu
 ofl/waterbrush
 
-# Metadata/desc/OFL
-ofl/opensans
-
 # Upgrade
 ofl/andika
 ofl/arizonia
-ofl/crimsontext
+ofl/crimsontext # to re-list in prod
 ofl/radiocanada
 ofl/scheherazadenew
 
 # Small fix/other
 ofl/mavenpro
-ofl/robotoserif
 ofl/splinesans
 ofl/vazirmatn
+
+# Metadata/desc/OFL
+ofl/opensans
 
 # Designer profile
 catalog/designers/alexandresaumierdemers
 catalog/designers/charlesdaoud
 catalog/designers/coppersandbrasses
 catalog/designers/familjensthlmab
+catalog/designers/fernandomello
+catalog/designers/neelakashkshetrimayum
 catalog/designers/tallchai
-catalog/designers/davidberlow
-catalog/designers/fontbureau
-catalog/designers/ilyaruderman
-catalog/designers/irenevlachou
-catalog/designers/mikhailstrukov
-catalog/designers/santiagoorozco
-catalog/designers/yuryostromentsky
 
 # Knowledge
 cc-by-sa/knowledge/glossary/terms/contrast

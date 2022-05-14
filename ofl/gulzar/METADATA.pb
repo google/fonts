@@ -165,6 +165,4 @@ languages: "wbp_Latn"  # Warlpiri
 languages: "xh_Latn"  # Xhosa
 languages: "xog_Latn"  # Soga
 languages: "yao_Latn"  # Yao
-languages: "yap_Latn"  # Yapese
-languages: "yua_Latn"  # Yucateco
 languages: "zu_Latn"  # Zulu

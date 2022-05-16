@@ -22,3 +22,5 @@ fonts {
   copyright: "Copyright (c) 2011-2012, Jonathan Pinhorn (jonpinhorn.typedesign@gmail.com), with Reserved Font Names \'Karla\'"
 }
 subsets: "tamil"
+languages: "bfq_Taml"
+languages: "ta_Taml"

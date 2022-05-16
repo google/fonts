@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+languages: "gon_Telu"
+languages: "lmn_Telu"
+languages: "te_Telu"
+languages: "wbq_Telu"

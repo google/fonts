@@ -14,3 +14,10 @@ fonts {
 }
 subsets: "arabic"
 subsets: "menu"
+languages: "ckb_Arab"  # Central Kurdish
+languages: "ks_Arab"  # Kashmiri
+languages: "pa_Arab"  # Punjabi (Arabic)
+languages: "sd_Arab"  # Sindhi
+languages: "tk_Arab"  # Turkmen
+languages: "ug_Arab"  # Uyghur
+languages: "ur_Arab"  # Urdu

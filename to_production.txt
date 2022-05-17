@@ -41,21 +41,65 @@ cc-by-sa/knowledge/glossary/terms/regular_upright
 cc-by-sa/knowledge/modules/introducing_type/lessons/introducing_variable_fonts
 
 # Sample Text
-lang/Lib/gflanguages/data/languages/ar_Arab.textproto
-lang/Lib/gflanguages/data/languages/arb_Arab.textproto
-lang/Lib/gflanguages/data/languages/arz_Arab.textproto
-lang/Lib/gflanguages/data/languages/azb_Arab.textproto
-lang/Lib/gflanguages/data/languages/fa_Arab.textproto
-lang/Lib/gflanguages/data/languages/gbz_Arab.textproto
-lang/Lib/gflanguages/data/languages/kk_Arab.textproto
-lang/Lib/gflanguages/data/languages/ks_Arab.textproto
-lang/Lib/gflanguages/data/languages/ky_Arab.textproto
-lang/Lib/gflanguages/data/languages/min_Arab.textproto
-lang/Lib/gflanguages/data/languages/mis_Arab.textproto
-lang/Lib/gflanguages/data/languages/ms_Arab.textproto
-lang/Lib/gflanguages/data/languages/ota_Arab.textproto
-lang/Lib/gflanguages/data/languages/sd_Arab.textproto
-lang/Lib/gflanguages/data/languages/tg_Arab.textproto
-lang/Lib/gflanguages/data/languages/tt_Arab.textproto
-lang/Lib/gflanguages/data/languages/ug_Arab.textproto
-lang/Lib/gflanguages/data/languages/zlm_Arab.textproto
+# New
+ofl/blaka
+ofl/blakahollow
+ofl/librebodoni
+ofl/splinesansmono
+ofl/tapestry
+ofl/tirobangla
+ofl/tirogurmukhi
+ofl/tirokannada
+ofl/tirotamil
+ofl/tirotelugu
+ofl/waterbrush
+
+# Upgrade
+ofl/andika
+ofl/arizonia
+ofl/crimsontext # to re-list in prod
+ofl/radiocanada
+ofl/scheherazadenew
+
+# Small fix/other
+ofl/mavenpro
+ofl/splinesans
+ofl/vazirmatn
+
+# Metadata/desc/OFL
+ofl/opensans
+
+# Designer profile
+catalog/designers/alexandresaumierdemers
+catalog/designers/charlesdaoud
+catalog/designers/coppersandbrasses
+catalog/designers/familjensthlmab
+catalog/designers/fernandomello
+catalog/designers/neelakashkshetrimayum
+catalog/designers/tallchai
+
+# Knowledge
+cc-by-sa/knowledge/glossary/terms/contrast
+cc-by-sa/knowledge/glossary/terms/regular_upright
+cc-by-sa/knowledge/modules/introducing_type/lessons/introducing_variable_fonts
+
+# Sample Text
+lang/languages/ar_Arab.textproto
+lang/languages/arb_Arab.textproto
+lang/languages/arz_Arab.textproto
+lang/languages/azb_Arab.textproto
+lang/languages/fa_Arab.textproto
+lang/languages/gbz_Arab.textproto
+lang/languages/kk_Arab.textproto
+lang/languages/ks_Arab.textproto
+lang/languages/ky_Arab.textproto
+lang/languages/min_Arab.textproto
+lang/languages/mis_Arab.textproto
+lang/languages/ms_Arab.textproto
+lang/languages/ota_Arab.textproto
+lang/languages/sd_Arab.textproto
+lang/languages/tg_Arab.textproto
+lang/languages/tt_Arab.textproto
+lang/languages/ug_Arab.textproto
+lang/languages/zlm_Arab.textproto
+

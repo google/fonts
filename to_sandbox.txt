@@ -1,40 +1,14 @@
 # New
-ofl/abyssinicasil
-ofl/arefruqaaink
-ofl/blaka
-ofl/charissil
-ofl/finlandica
-ofl/gentiumplus
-ofl/gentiumplusbook
-ofl/joan
-ofl/kantumruypro
-ofl/kdamthmorpro
-ofl/nuosusil
-ofl/taiheritagepro
-ofl/tirodevanagarihindi
-ofl/tirodevanagarimarathi
-ofl/tirodevanagarisanskrit
 
-# Upgrade
-ofl/bizudgothic
-ofl/bizudmincho
-ofl/bizudpgothic
-ofl/bizudpmincho
+# held back due to fiename errors: GentiumBookPlus-blah.ttf when it should be GentiumPlusBook-blah.ttf
+# based on metadata.pb the post script name and full name may agree; not sure which way round is correct
+# ofl/gentiumplusbook
+
+# held back due to size, questions around visibility to workspace
 ofl/notosanshk
 ofl/notosansjp
 ofl/notosanskr
 ofl/notosanssc
 ofl/notosanstc
-ofl/paprika
-ofl/publicsans
-
-# Metadata/desc/OFL
-ofl/andika
-ofl/notoserifsc
-ofl/blakahollow
-ofl/blakaink
-
-# Small fix/other
-ofl/radiocanada
 
 

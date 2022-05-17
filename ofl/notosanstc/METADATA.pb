@@ -12,11 +12,8 @@ fonts {
   full_name: "Noto Sans TC"
   copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'."
 }
-subsets: "chinese-simplified"
 subsets: "chinese-traditional"
 subsets: "cyrillic"
-subsets: "japanese"
-subsets: "korean"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

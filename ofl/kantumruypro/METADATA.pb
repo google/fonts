@@ -32,5 +32,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/sovichet/kantumruy-pro"
-  commit: "616348b40134e959d3c3df8a2b841435db347dff"
+  commit: "8bf831210d27c1eda0129aa991d12af9e4c16632"
 }

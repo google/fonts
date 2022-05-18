@@ -12,6 +12,7 @@ fonts {
   full_name: "Gulzar Regular"
   copyright: "Copyright 2021 The Gulzar Project Authors (http://github.com/googlefonts/gulzar/)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

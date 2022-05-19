@@ -1,10 +1,10 @@
-name: "Gentium Plus Book"
+name: "Gentium Book Plus"
 designer: "SIL International"
 license: "OFL"
 category: "SERIF"
-date_added: "2022-05-13"
+date_added: "2022-05-19"
 fonts {
-  name: "Gentium Plus Book"
+  name: "Gentium Book Plus"
   style: "normal"
   weight: 400
   filename: "GentiumBookPlus-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2003-2022 SIL International"
 }
 fonts {
-  name: "Gentium Plus Book"
+  name: "Gentium Book Plus"
   style: "italic"
   weight: 400
   filename: "GentiumBookPlus-Italic.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright (c) 2003-2022 SIL International"
 }
 fonts {
-  name: "Gentium Plus Book"
+  name: "Gentium Book Plus"
   style: "normal"
   weight: 700
   filename: "GentiumBookPlus-Bold.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright (c) 2003-2022 SIL International"
 }
 fonts {
-  name: "Gentium Plus Book"
+  name: "Gentium Book Plus"
   style: "italic"
   weight: 700
   filename: "GentiumBookPlus-BoldItalic.ttf"

@@ -13,6 +13,15 @@ fonts {
   full_name: "Spline Sans Mono Regular"
   copyright: "Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)"
 }
+fonts {
+  name: "Spline Sans Mono"
+  style: "italic"
+  weight: 400
+  filename: "SplineSansMono-Italic[wght].ttf"
+  post_script_name: "SplineSansMono-Italic"
+  full_name: "Spline Sans Mono Italic"
+  copyright: "Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)"
+}
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -23,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/SorkinType/SplineSansMono"
-  commit: "635218dc887e4f8f39f4c0ee8b95462df1be4866"
+  commit: "97fed7e4bc166ad9c93d3af9c4c7ebf3104a57ed"
 }
 languages: "aa_Latn"  # Afar
 languages: "ace_Latn"  # Achinese

@@ -24,4 +24,14 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+languages: "cjy_Hans"  # Chinese, Jinyu
+languages: "gan_Hans"  # Gan Chinese
+languages: "hak_Hans"  # Hakka Chinese
+languages: "hsn_Hans"  # Xiang Chinese
+languages: "lzh_Hans"  # Literary Chinese
+languages: "nan_Hans"  # Min Nan Chinese
+languages: "wuu_Hans"  # Wu Chinese
+languages: "yue_Hans"  # Cantonese (Simplified)
+languages: "za_Hans"  # Zhuang, Simplified Han
+languages: "zh_Hans"  # Simplified Chinese
 display_name: "Noto Sans Simplified Chinese"

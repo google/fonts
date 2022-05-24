@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "wancho"
 is_noto: true
+languages: "nnp_Wcho"  # Wancho Naga
+languages: "sa_Wcho"  # Sanskrit, Wancho

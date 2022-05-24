@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "runic"
 is_noto: true
+languages: "de_Runr"  # German, Runic
+languages: "got_Runr"  # Gothic, Runic
+languages: "non_Runr"  # Old Norse

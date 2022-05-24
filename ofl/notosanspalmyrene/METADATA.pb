@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "palmyrene"
 is_noto: true
+languages: "aii_Palm"  # Assyrian Neo-Aramaic, Palmyrene
+languages: "arc_Palm"  # Aramaic, Palmyrene

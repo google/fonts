@@ -87,3 +87,9 @@ fonts {
 subsets: "menu"
 subsets: "myanmar"
 is_noto: true
+languages: "kht_Mymr"  # Khamti
+languages: "ksw_Mymr"  # S'gaw Karen, Myanmar
+languages: "mnw_Mymr"  # Mon
+languages: "my_Mymr"  # Burmese
+languages: "pwo_Mymr"  # Pwo Western Karen, Myanmar
+languages: "shn_Mymr"  # Shan

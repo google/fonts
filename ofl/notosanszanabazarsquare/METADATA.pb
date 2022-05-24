@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "zanabazar-square"
 is_noto: true
+languages: "bo_Zanb"  # Tibetan, Zanabazar
+languages: "mn_Zanb"  # Mongolian, Zanabazar
+languages: "sa_Zanb"  # Sanskrit, Zanabazar

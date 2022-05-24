@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "pau-cin-hau"
 is_noto: true
+languages: "ctd_Pauc"  # Tedim Chin, Pau Cin Hau
 sample_text {
   masthead_full: "𑫂𑫱𑫪𑫜"
   masthead_partial: "𑫁𑫶"

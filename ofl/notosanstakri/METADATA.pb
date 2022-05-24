@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "takri"
 is_noto: true
+languages: "doi_Takr"  # Dogri, Takri
+languages: "sa_Takr"  # Sanskrit, Takri

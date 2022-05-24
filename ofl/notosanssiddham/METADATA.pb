@@ -15,4 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "siddham"
 is_noto: true
-languages: "sa_Sidd"  # Sanskrit, Siddham

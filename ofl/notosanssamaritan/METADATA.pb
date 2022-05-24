@@ -15,6 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "samaritan"
 is_noto: true
-languages: "aii_Samr"  # Assyrian Neo-Aramaic, Samaritan
-languages: "sam_Samr"  # Samaritan Aramaic, Samaritan
-languages: "smp_Samr"  # Samaritan

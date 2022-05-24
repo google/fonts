@@ -15,4 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "osage"
 is_noto: true
-languages: "osa_Osge"  # Osage

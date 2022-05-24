@@ -15,4 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "old-hungarian"
 is_noto: true
-languages: "ohu_Hung"  # Old Hungarian

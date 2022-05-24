@@ -15,4 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "ogham"
 is_noto: true
-languages: "sga_Ogam"  # Old Irish, Ogham

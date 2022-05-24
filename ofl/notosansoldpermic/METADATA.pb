@@ -15,8 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "old-permic"
 is_noto: true
-languages: "koi_Perm"  # Komi-Permyak, Old Permic
-languages: "kv_Perm"  # Komi, Old Permic
 sample_text {
   masthead_full: "𐍒𐍟𐍦𐍘"
   masthead_partial: "𐍑𐍤"

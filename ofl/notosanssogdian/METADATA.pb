@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "sogdian"
 is_noto: true
-languages: "aii_Sogd"  # Assyrian Neo-Aramaic, Sogdian
-languages: "sog_Sogd"  # Sogdian

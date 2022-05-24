@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "old-south-arabian"
 is_noto: true
-languages: "aii_Sarb"  # Assyrian Neo-Aramaic, Old South Arabian
-languages: "xsa_Sarb"  # Sabaean

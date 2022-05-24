@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "old-north-arabian"
 is_noto: true
-languages: "aii_Narb"  # Assyrian Neo-Aramaic, Old North Arabian
-languages: "xna_Narb"  # Ancient North Arabian

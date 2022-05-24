@@ -24,12 +24,3 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-languages: "hak_Hant"  # Hakka Chinese, Traditional
-languages: "lzh_Hant"  # Literary Chinese, Traditional
-languages: "nan_Hant"  # Min Nan Chinese, Traditional
-languages: "zh_Hant"  # Chinese (Traditional)
-languages: "za_Hant"  # Zhuang, Traditional Han
-languages: "wuu_Hant"  # Wu Chinese
-languages: "hsn_Hant"  # Xiang Chinese
-languages: "gan_Hant"  # Gan Chinese
-languages: "cjy_Hant"  # Chinese, Jinyu

@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "warang-citi"
 is_noto: true
-languages: "hoc_Wara"  # Ho, Warang Citi
-languages: "sa_Wara"  # Sanskrit, Varang Kshiti / Warang Citi

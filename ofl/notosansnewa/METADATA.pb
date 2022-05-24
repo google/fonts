@@ -15,9 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "newa"
 is_noto: true
-languages: "bn_Newa"  # Bengali, Newa
-languages: "hi_Newa"  # Hindi, Newa
-languages: "mai_Newa"  # Maithili, Newa
-languages: "ne_Newa"  # Nepali, Newa
-languages: "new_Newa"  # Newari, Newa
-languages: "sa_Newa"  # Sanskrit, Newa

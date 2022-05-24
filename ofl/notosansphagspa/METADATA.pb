@@ -15,7 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "phags-pa"
 is_noto: true
-languages: "lzh_Phag"  # Literary Chinese, Phags-pa
-languages: "mn_Phag"  # Mongolian, Phags-pa
-languages: "sa_Phag"  # Sanskrit, Phags-pa
-languages: "zh_Phag"  # Chinese, Phags-pa

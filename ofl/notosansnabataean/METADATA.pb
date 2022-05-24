@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "nabataean"
 is_noto: true
-languages: "aii_Nbat"  # Assyrian Neo-Aramaic, Nabataean
-languages: "arc_Nbat"  # Aramaic, Nabataean

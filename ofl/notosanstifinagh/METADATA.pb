@@ -15,11 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "tifinagh"
 is_noto: true
-languages: "ber_Tfng"  # Berber, Tifinagh
-languages: "kab_Tfng"  # Kabyle, Tifinagh
-languages: "rif_Tfng"  # Riffian
-languages: "shi_Tfng"  # Tachelhit, Tifinagh
-languages: "taq_Tfng"  # Tamasheq, Tifinagh
-languages: "tzm_Tfng"  # Central Atlas Tamazight, Tifinagh
-languages: "zen_Tfng"  # Zenaga
-languages: "zgh_Tfng"  # Standard Moroccan Tamazight

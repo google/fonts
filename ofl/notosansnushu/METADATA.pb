@@ -15,5 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "nushu"
 is_noto: true
-languages: "mis_Nshu"  # Xiangnan Tuhua
 display_name: "Noto Sans Nüshu"

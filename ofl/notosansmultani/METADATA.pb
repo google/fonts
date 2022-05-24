@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "multani"
 is_noto: true
-languages: "sa_Mult"  # Sanskrit, Multani
-languages: "skr_Mult"  # Saraiki, Multani

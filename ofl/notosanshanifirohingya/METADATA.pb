@@ -20,3 +20,4 @@ axes {
   max_value: 700.0
 }
 is_noto: true
+languages: "rhg_Rohg"  # Rohingya

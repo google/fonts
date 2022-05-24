@@ -20,3 +20,6 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "cja_Cham"  # Western Cham, Cham
+languages: "cjm_Cham"  # Eastern Cham
+languages: "sa_Cham"  # Sanskrit, Cham

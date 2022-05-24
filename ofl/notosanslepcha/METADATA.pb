@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "lepcha"
 is_noto: true
+languages: "lep_Lepc"  # Lepcha
+languages: "sa_Lepc"  # Sanskrit, Lepcha

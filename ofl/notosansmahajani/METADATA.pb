@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "mahajani"
 is_noto: true
+languages: "hi_Mahj"  # Hindi, Mahajani
+languages: "sa_Mahj"  # Sanskrit, Mahajani

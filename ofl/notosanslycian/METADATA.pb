@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "lycian"
 is_noto: true
+languages: "xlc_Lyci"  # Lycian

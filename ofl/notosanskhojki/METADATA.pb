@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "khojki"
 is_noto: true
+languages: "sa_Khoj"  # Sanskrit, Khojki
+languages: "sd_Khoj"  # Sindhi, Khojki

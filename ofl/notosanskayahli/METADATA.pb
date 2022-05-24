@@ -20,3 +20,5 @@ axes {
   max_value: 700.0
 }
 is_noto: true
+languages: "eky_Kali"  # Eastern Kayah
+languages: "kyu_Kali"  # Western Kayah

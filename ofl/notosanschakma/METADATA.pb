@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "chakma"
 is_noto: true
+languages: "ccp_Cakm"  # Chakma

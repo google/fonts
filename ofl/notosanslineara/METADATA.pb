@@ -15,6 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "linear-a"
 is_noto: true
+languages: "lab_Lina"  # Linear A
+languages: "omn_Lina"  # Minoan
 sample_text {
   masthead_full: "𐘂𐚰𐚩𐛌"
   masthead_partial: "𐘁𐚵"

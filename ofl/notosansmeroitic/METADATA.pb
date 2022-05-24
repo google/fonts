@@ -15,6 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "meroitic"
 is_noto: true
+languages: "xmr_Mero"  # Meroitic, Meroitic Hieroglyphs
 sample_text {
   masthead_full: "𐦂𐦝𐦤𐦿"
   masthead_partial: "𐦁𐦐"

@@ -15,3 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "mongolian"
 is_noto: true
+languages: "mn_Mong"  # Mongolian (Mongolian)
+languages: "mnc_Mong"  # Manchu
+languages: "sa_Mong"  # Sanskrit, Mongolian

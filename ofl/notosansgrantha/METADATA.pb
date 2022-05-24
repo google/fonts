@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "grantha"
 is_noto: true
+languages: "sa_Gran"  # Sanskrit, Grantha

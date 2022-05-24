@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "elbasan"
 is_noto: true
+languages: "sq_Elba"  # Albanian, Elbasan

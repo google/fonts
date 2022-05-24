@@ -25,3 +25,10 @@ axes {
   max_value: 900.0
 }
 is_noto: true
+languages: "am_Ethi"  # Amharic
+languages: "byn_Ethi"  # Blin
+languages: "gez_Ethi"  # Geez
+languages: "om_Ethi"  # Oromo, Ethiopic
+languages: "ti_Ethi"  # Tigrinya
+languages: "tig_Ethi"  # Tigre
+languages: "wal_Ethi"  # Wolaytta

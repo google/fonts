@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "batak"
 is_noto: true
+languages: "bbc_Batk"  # Batak Toba, Batak
+languages: "sa_Batk"  # Sanskrit, Batak

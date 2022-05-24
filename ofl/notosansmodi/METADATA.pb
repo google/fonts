@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "modi"
 is_noto: true
-languages: "mr_Modi"  # Marathi, Modi
-languages: "sa_Modi"  # Sanskrit, Modi

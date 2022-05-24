@@ -15,7 +15,6 @@ fonts {
 subsets: "menu"
 subsets: "caucasian-albanian"
 is_noto: true
-languages: "lez_Aghb"  # Lezghian, Caucasian Albanian
 sample_text {
   masthead_full: "𐔲𐕢𐔼𐕊"
   masthead_partial: "𐔱𐕁"

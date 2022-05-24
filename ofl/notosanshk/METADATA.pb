@@ -24,8 +24,4 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "hak_Hant"
-languages: "lzh_Hant"
-languages: "nan_Hant"
-languages: "zh_Hant"
 display_name: "Noto Sans Hong Kong"

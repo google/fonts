@@ -25,5 +25,3 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "hy_Armn"  # Armenian
-languages: "hyw_Armn"  # Western Armenian, Armenian

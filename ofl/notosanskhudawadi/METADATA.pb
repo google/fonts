@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "khudawadi"
 is_noto: true
-languages: "sa_Sind"  # Sanskrit, Khudawadi
-languages: "sd_Sind"  # Sindhi, Khudawadi

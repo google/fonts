@@ -15,4 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "mende-kikakui"
 is_noto: true
-languages: "men_Mend"  # Mende, Mende

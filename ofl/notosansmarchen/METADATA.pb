@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "marchen"
 is_noto: true
-languages: "bo_Marc"  # Tibetan, Marchen
-languages: "sa_Marc"  # Sanskrit, Marchen

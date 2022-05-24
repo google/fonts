@@ -20,7 +20,6 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "bax_Bamu"  # Bamun
 sample_text {
   masthead_full: "ꚢ𖠤ꚴ𖠏"
   masthead_partial: "ꚡ𖠩"

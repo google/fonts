@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "inscriptional-parthian"
 is_noto: true
-languages: "aii_Prti"  # Assyrian Neo-Aramaic, Inscriptional Parthian
-languages: "xpr_Prti"  # Parthian

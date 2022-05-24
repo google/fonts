@@ -15,5 +15,3 @@ fonts {
 subsets: "egyptian-hieroglyphs"
 subsets: "menu"
 is_noto: true
-languages: "aii_Egyp"  # Assyrian Neo-Aramaic, Egyptian hieroglyphs
-languages: "egy_Egyp"  # Ancient Egyptian

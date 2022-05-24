@@ -24,4 +24,3 @@ fonts {
 subsets: "menu"
 subsets: "javanese"
 is_noto: true
-languages: "jv_Java"  # Javanese, Javanese

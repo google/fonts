@@ -24,5 +24,4 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "ko_Kore"  # Korean
 display_name: "Noto Sans Korean"

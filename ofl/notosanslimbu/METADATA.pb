@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "limbu"
 is_noto: true
-languages: "lif_Limb"  # Limbu, Limbu
-languages: "sa_Limb"  # Sanskrit, Limbu

@@ -20,15 +20,3 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "chp_Cans"  # Chipewyan, Unified Canadian Aboriginal Syllabics
-languages: "cr_Cans"  # Cree
-languages: "crj_Cans"  # Southern East Cree
-languages: "crk_Cans"  # Plains Cree
-languages: "crl_Cans"  # Northern East Cree
-languages: "crm_Cans"  # Moose Cree
-languages: "csw_Cans"  # Swampy Cree
-languages: "den_Cans"  # Slave, Unified Canadian Aboriginal Syllabics
-languages: "iu_Cans"  # Inuktitut
-languages: "nsk_Cans"  # Naskapi
-languages: "oj_Cans"  # Ojibwa
-languages: "ojb_Cans"  # Northwestern Ojibwa, Unified Canadian Aboriginal Syllabics, Canada

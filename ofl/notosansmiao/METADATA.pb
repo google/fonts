@@ -15,4 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "miao"
 is_noto: true
-languages: "hmd_Plrd"  # A-Hmao

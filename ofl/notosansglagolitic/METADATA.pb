@@ -15,4 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "glagolitic"
 is_noto: true
-languages: "cu_Glag"  # Church Slavic, Glagolitic

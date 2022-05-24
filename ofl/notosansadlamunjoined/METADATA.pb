@@ -20,5 +20,3 @@ axes {
   max_value: 700.0
 }
 is_noto: true
-languages: "ff_Adlm"  # Fulah (Adlam)
-languages: "fuf_Adlm"  # Pular, Adlam

@@ -15,4 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "bhaiksuki"
 is_noto: true
-languages: "sa_Bhks"  # Sanskrit, Bhaiksuki

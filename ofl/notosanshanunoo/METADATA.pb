@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "hanunoo"
 is_noto: true
-languages: "hnn_Hano"  # Hanunoo, Hanunoo
-languages: "sa_Hano"  # Sanskrit, Hanunoo

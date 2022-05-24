@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "elymaic"
 is_noto: true
-languages: "aii_Elym"  # Assyrian Neo-Aramaic, Elymaic
-languages: "xly_Elym"  # Elymian

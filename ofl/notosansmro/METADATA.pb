@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "mro"
 is_noto: true
+languages: "mro_Mroo"  # Mru, Mro
+languages: "sa_Mroo"  # Sanskrit, Mro

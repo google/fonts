@@ -15,3 +15,7 @@ fonts {
 subsets: "menu"
 subsets: "pahawh-hmong"
 is_noto: true
+languages: "hmd_Hmng"  # A-Hmao, Pahawh Hmong
+languages: "hmn_Hmng"  # Hmong, Pahawh Hmong
+languages: "hnj_Hmng"  # Mong Njua, Pahawh Hmong
+languages: "mww_Hmng"  # Hmong Daw

@@ -87,3 +87,11 @@ fonts {
 subsets: "menu"
 subsets: "thai"
 is_noto: true
+languages: "kdt_Thai"  # Kuy
+languages: "kxm_Thai"  # Northern Khmer
+languages: "lcp_Thai"  # Western Lawa
+languages: "lwl_Thai"  # Eastern Lawa
+languages: "pi_Thai"  # Pali, Thai
+languages: "sou_Thai"  # Southern Thai
+languages: "th_Thai"  # Thai
+languages: "tts_Thai"  # Northeastern Thai

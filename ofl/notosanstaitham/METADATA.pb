@@ -20,3 +20,5 @@ axes {
   max_value: 700.0
 }
 is_noto: true
+languages: "kkh_Lana"  # Tai Khün
+languages: "nod_Lana"  # Northern Thai

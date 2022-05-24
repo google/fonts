@@ -33,3 +33,8 @@ fonts {
 subsets: "menu"
 subsets: "syriac"
 is_noto: true
+languages: "aii_Syrc"  # Assyrian Neo-Aramaic
+languages: "ar_Syrc"  # Arabic, Syriac
+languages: "syc_Syrc"  # Classical Syriac
+languages: "syr_Syrc"  # Syriac
+languages: "tru_Syrc"  # Turoyo, Syriac

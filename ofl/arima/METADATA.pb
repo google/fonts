@@ -1,5 +1,5 @@
 name: "Arima"
-designer: "Natanael Gama, Joana Correia"
+designer: "Natanael Gama, Joana Correia, Rosalie Wagner"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2022-05-25"

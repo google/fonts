@@ -1,5 +1,5 @@
 name: "Gantari"
-designer: "Anugrah Pasau"
+designer: "Lafontype"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2022-05-26"

@@ -1,28 +1,3 @@
-# Sample Text
-lang/Lib/gflanguages/data/languages/ar_Arab.textproto
-lang/Lib/gflanguages/data/languages/arb_Arab.textproto
-lang/Lib/gflanguages/data/languages/arz_Arab.textproto
-lang/Lib/gflanguages/data/languages/azb_Arab.textproto
-lang/Lib/gflanguages/data/languages/cjy_Hant.textproto
-lang/Lib/gflanguages/data/languages/fa_Arab.textproto
-lang/Lib/gflanguages/data/languages/gan_Hant.textproto
-lang/Lib/gflanguages/data/languages/gbz_Arab.textproto
-lang/Lib/gflanguages/data/languages/hsn_Hant.textproto
-lang/Lib/gflanguages/data/languages/kk_Arab.textproto
-lang/Lib/gflanguages/data/languages/ks_Arab.textproto
-lang/Lib/gflanguages/data/languages/ky_Arab.textproto
-lang/Lib/gflanguages/data/languages/min_Arab.textproto
-lang/Lib/gflanguages/data/languages/mis_Arab.textproto
-lang/Lib/gflanguages/data/languages/ms_Arab.textproto
-lang/Lib/gflanguages/data/languages/ota_Arab.textproto
-lang/Lib/gflanguages/data/languages/sd_Arab.textproto
-lang/Lib/gflanguages/data/languages/tg_Arab.textproto
-lang/Lib/gflanguages/data/languages/tt_Arab.textproto
-lang/Lib/gflanguages/data/languages/ug_Arab.textproto
-lang/Lib/gflanguages/data/languages/wuu_Hant.textproto
-lang/Lib/gflanguages/data/languages/za_Hant.textproto
-lang/Lib/gflanguages/data/languages/zlm_Arab.textproto
-
 # New
 ofl/charissil
 ofl/gentiumplus
@@ -43,11 +18,37 @@ ofl/bizudpmincho
 ofl/paprika
 ofl/publicsans
 
-# Metadata/desc/OFL
-ofl/opensans
-
 # Small fix/other
 ofl/vazirmatn
+
+# Sample Text
+lang/languages/ar_Arab.textproto
+lang/languages/arb_Arab.textproto
+lang/languages/arz_Arab.textproto
+lang/languages/azb_Arab.textproto
+lang/languages/cjy_Hant.textproto
+lang/languages/fa_Arab.textproto
+lang/languages/gan_Hant.textproto
+lang/languages/gbz_Arab.textproto
+lang/languages/hsn_Hant.textproto
+lang/languages/kk_Arab.textproto
+lang/languages/ks_Arab.textproto
+lang/languages/ky_Arab.textproto
+lang/languages/min_Arab.textproto
+lang/languages/mis_Arab.textproto
+lang/languages/ms_Arab.textproto
+lang/languages/ota_Arab.textproto
+lang/languages/sd_Arab.textproto
+lang/languages/tg_Arab.textproto
+lang/languages/tt_Arab.textproto
+lang/languages/ug_Arab.textproto
+lang/languages/wuu_Hant.textproto
+lang/languages/za_Hant.textproto
+lang/languages/zlm_Arab.textproto
+
+
+# Metadata/desc/OFL
+ofl/opensans
 
 # Designer profile
 catalog/designers/lukeprowse
@@ -55,7 +56,10 @@ catalog/designers/mohamedgaber
 
 # Knowledge
 cc-by-sa/knowledge/glossary/terms/contrast
+cc-by-sa/knowledge/glossary/terms/grade_axis
+cc-by-sa/knowledge/glossary/terms/optical_size_axis
 cc-by-sa/knowledge/glossary/terms/ordinals
+cc-by-sa/knowledge/glossary/terms/parametric_axis
 cc-by-sa/knowledge/glossary/terms/regular_upright
 cc-by-sa/knowledge/glossary/terms/x_height
 cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_typefaces_that_have_optical_sizes

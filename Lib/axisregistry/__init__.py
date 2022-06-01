@@ -168,14 +168,20 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     fvar_nameids = set(i.subfamilyNameID for i in fvar.instances)
     if "STAT" in ttFont:
         stat = ttFont["STAT"]
-        axis_values = stat.table.AxisValueArray.AxisValue
-        axes = stat.table.DesignAxisRecord.Axis
-        for ax in axis_values:
-            if ax.ValueNameID not in fvar_nameids:
-                nametable.removeNames(nameID=ax.ValueNameID)
-        for ax in axes:
-            if ax.AxisNameID not in fvar_nameids:
-                nametable.removeNames(nameID=ax.AxisNameID)
+        try:
+            axis_values = stat.table.AxisValueArray.AxisValue
+            for ax in axis_values:
+                if ax.ValueNameID not in fvar_nameids:
+                    nametable.removeNames(nameID=ax.ValueNameID)
+        except:
+            pass
+        try:
+            axes = stat.table.DesignAxisRecord.Axis
+            for ax in axes:
+                if ax.AxisNameID not in fvar_nameids:
+                    nametable.removeNames(nameID=ax.AxisNameID)
+        except:
+            pass
         del ttFont["STAT"]
 
     res = []
@@ -293,8 +299,9 @@ def build_fvar_instances(ttFont, axis_dflts={}):
 
     # rm old fvar subfamily and ps name records
     for inst in fvar.instances:
-        name_table.removeNames(nameID=inst.subfamilyNameID)
-        if inst.postscriptNameID != 65535:
+        if inst.subfamilyNameID not in [2, 17]:
+            name_table.removeNames(nameID=inst.subfamilyNameID)
+        if inst.postscriptNameID not in [65535, 6]:
             name_table.removeNames(nameID=inst.postscriptNameID)
 
     fvar_dflts = _fvar_dflts(ttFont)

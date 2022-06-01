@@ -8,7 +8,7 @@ fonts {
   style: "normal"
   weight: 400
   filename: "NotoSerifJP[wght].ttf"
-  post_script_name: "NotoSerifjp-ExtraLight"
+  post_script_name: "NotoSerifJP-ExtraLight"
   full_name: "Noto Serif JP"
   copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
 }

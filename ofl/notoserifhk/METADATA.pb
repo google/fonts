@@ -8,7 +8,7 @@ fonts {
   style: "normal"
   weight: 400
   filename: "NotoSerifHK[wght].ttf"
-  post_script_name: "NotoSerifhk-ExtraLight"
+  post_script_name: "NotoSerifHK-ExtraLight"
   full_name: "Noto Serif HK"
   copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
 }

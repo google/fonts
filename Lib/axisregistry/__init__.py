@@ -162,16 +162,20 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     )
     fallbacks_in_names = axis_registry.fallbacks_in_name_table(ttFont)
     nametable = ttFont["name"]
+    fvar = ttFont["fvar"]
 
     # rm old STAT table and associated name table records
+    fvar_nameids = set(i.subfamilyNameID for i in fvar.instances)
     if "STAT" in ttFont:
         stat = ttFont["STAT"]
         axis_values = stat.table.AxisValueArray.AxisValue
         axes = stat.table.DesignAxisRecord.Axis
         for ax in axis_values:
-            nametable.removeNames(nameID=ax.ValueNameID)
+            if ax.ValueNameID not in fvar_nameids:
+                nametable.removeNames(nameID=ax.ValueNameID)
         for ax in axes:
-            nametable.removeNames(nameID=ax.AxisNameID)
+            if ax.AxisNameID not in fvar_nameids:
+                nametable.removeNames(nameID=ax.AxisNameID)
         del ttFont["STAT"]
 
     res = []

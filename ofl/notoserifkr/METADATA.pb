@@ -8,7 +8,7 @@ fonts {
   style: "normal"
   weight: 400
   filename: "NotoSerifKR[wght].ttf"
-  post_script_name: "NotoSerifkr-ExtraLight"
+  post_script_name: "NotoSerifKR-ExtraLight"
   full_name: "Noto Serif KR"
   copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
 }

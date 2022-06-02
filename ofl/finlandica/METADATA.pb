@@ -1,5 +1,5 @@
 name: "Finlandica"
-designer: "Helsinki Type Studio"
+designer: "Helsinki Type Studio, Niklas Ekholm, Juho Hiilivirta, Jaakko Suomalainen"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2022-05-13"

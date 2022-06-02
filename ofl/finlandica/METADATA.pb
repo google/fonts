@@ -1,5 +1,5 @@
 name: "Finlandica"
-designer: "Helsinki Type Studio"
+designer: "Helsinki Type Studio, Niklas Ekholm, Juho Hiilivirta, Jaakko Suomalainen"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2022-05-13"
@@ -33,5 +33,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/HelsinkiTypeStudio/Finlandica"
-  commit: "24c1334e9c4559efc297dee980cb4c365ab05f85"
+  commit: "9da70dc1ce8cda37cbe3fd488b239156b097ef40"
 }

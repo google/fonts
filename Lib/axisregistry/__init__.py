@@ -168,20 +168,16 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     fvar_nameids = set(i.subfamilyNameID for i in fvar.instances)
     if "STAT" in ttFont:
         stat = ttFont["STAT"]
-        try:
+        if stat.table.AxisValueCount > 0:
             axis_values = stat.table.AxisValueArray.AxisValue
             for ax in axis_values:
                 if ax.ValueNameID not in fvar_nameids:
                     nametable.removeNames(nameID=ax.ValueNameID)
-        except:
-            pass
-        try:
+        if stat.table.DesignAxisCount > 0:
             axes = stat.table.DesignAxisRecord.Axis
             for ax in axes:
                 if ax.AxisNameID not in fvar_nameids:
                     nametable.removeNames(nameID=ax.AxisNameID)
-        except:
-            pass
         del ttFont["STAT"]
 
     res = []

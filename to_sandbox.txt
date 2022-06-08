@@ -6,18 +6,28 @@ ofl/gantari
 ofl/gentiumbookplus
 ofl/gulzar
 ofl/mingzat
+ofl/notoserifhk
 ofl/splash
 
 # Upgrade
-# ofl/commissioner (broken in dev-sandbox)
+# ofl/commissioner (broken in sandbox) 
 ofl/akshar
 ofl/cormorant
 ofl/gluten
+ofl/notoserifjp
+ofl/notoserifkr
+ofl/notoserifsc
+ofl/notoseriftc
 ofl/splinesansmono
 
 # Small fix/other
 ofl/familjengrotesk
 ofl/kantumruypro
+
+# Metadata / Description / License
+ofl/notosanshk
+ofl/notosanssc
+ofl/notosanstc
 
 # Designer profile
 catalog/designers/alicesavoie
@@ -27,7 +37,7 @@ catalog/designers/lafontype
 catalog/designers/niklasekholm
 catalog/designers/paolobiagini
 catalog/designers/simoncozens
-catalog/jaakkosuomalainen
+catalog/designers/jaakkosuomalainen
 
 # Knowledge
 cc-by-sa/knowledge/glossary/terms/axis_in_variable_fonts

@@ -12,10 +12,7 @@ fonts {
   full_name: "Noto Serif KR"
   copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
-subsets: "japanese"
 subsets: "korean"
 subsets: "latin"
 subsets: "latin-ext"

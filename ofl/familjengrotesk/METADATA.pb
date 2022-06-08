@@ -32,5 +32,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/Familjen-Sthlm/Familjen-Grotesk"
-  commit: "2bd3741f28d2d8840cda9cbf580e7d882bddbe31"
+  commit: "58b0bedd187c76ebff2b59dfebe014affbca30ab"
 }

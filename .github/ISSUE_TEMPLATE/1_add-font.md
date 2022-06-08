@@ -26,3 +26,7 @@ I understand that Google Fonts will publish only fonts that matches its requirem
 - [ ] I read, agree and comply with the full [contributing requirements](https://github.com/google/fonts/blob/main/CONTRIBUTING.md)
 - [ ] I am the author of the font or the author agreed to this submission
 - [ ] I will maintain the repository
+
+**Image:**
+
+Attach here a pic or a screenshot of the font; one is enough, it can be few letters, to give a quick overview.

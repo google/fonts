@@ -17,4 +17,4 @@ Negative grade makes the style lighter, while positive grade makes it heavier. T
 
 </figure>
 
-In line with the current CSS spec, all custom axes should be referenced in UPPERCASE (only the OpenType registered variable axes should appear in lowercase). Also, when using the Google Fonts API, the uppercase axes have to appear first in the URL.
+In line with the current CSS spec, the four-character code for this axis should be referenced in UPPERCASE (as only the five axes registered in the OpenType format specification should appear in lowercase). Also, when using the Google Fonts API, the lowercase axes have to appear first in the URL, followed by the uppercase, each in alphabetical order.

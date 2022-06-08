@@ -18,10 +18,11 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-is_noto: true
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
 }
+is_noto: true
 languages: "ko_Kore"  # Korean
+display_name: "Noto Sans Korean"

@@ -20,3 +20,5 @@ Oblique [characters](/glossary/character) follow the structure of the [upright](
 [//]: # (TO-DO: Turn that article link above into a regular Markdown format URL once there’s support for heading IDs in Markdown URLs.)
 
 For variable fonts, the [italic axis](/glossary/italic_axis) and the slant axis are very closely related. For detailed descriptions on how to use both, please see our [“Styling type on the web with variable fonts”](/lesson/styling_type_on_the_web_with_variable_fonts) article.
+
+In line with the current CSS spec, the four-character code for this axis should be referenced in lowercase (as only the five axes registered in the OpenType format specification should appear in lowercase). Also, when using the Google Fonts API, the lowercase axes have to appear first in the URL, followed by the uppercase, each in alphabetical order.

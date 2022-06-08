@@ -6,74 +6,31 @@ date_added: "2018-08-22"
 fonts {
   name: "Noto Serif JP"
   style: "normal"
-  weight: 200
-  filename: "NotoSerifJP-ExtraLight.otf"
-  post_script_name: "NotoSerifJP-ExtraLight"
-  full_name: "Noto Serif JP ExtraLight"
-  copyright: "Copyright 2017 Adobe Systems Incorporated (http://www.adobe.com/)."
-}
-fonts {
-  name: "Noto Serif JP"
-  style: "normal"
-  weight: 300
-  filename: "NotoSerifJP-Light.otf"
-  post_script_name: "NotoSerifJP-Light"
-  full_name: "Noto Serif JP Light"
-  copyright: "Copyright 2017 Adobe Systems Incorporated (http://www.adobe.com/)."
-}
-fonts {
-  name: "Noto Serif JP"
-  style: "normal"
   weight: 400
-  filename: "NotoSerifJP-Regular.otf"
-  post_script_name: "NotoSerifJP-Regular"
+  filename: "NotoSerifJP[wght].ttf"
+  post_script_name: "NotoSerifJP-ExtraLight"
   full_name: "Noto Serif JP"
-  copyright: "Copyright 2017 Adobe Systems Incorporated (http://www.adobe.com/)."
+  copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
 }
-fonts {
-  name: "Noto Serif JP"
-  style: "normal"
-  weight: 500
-  filename: "NotoSerifJP-Medium.otf"
-  post_script_name: "NotoSerifJP-Medium"
-  full_name: "Noto Serif JP Medium"
-  copyright: "Copyright 2017 Adobe Systems Incorporated (http://www.adobe.com/)."
-}
-fonts {
-  name: "Noto Serif JP"
-  style: "normal"
-  weight: 600
-  filename: "NotoSerifJP-SemiBold.otf"
-  post_script_name: "NotoSerifJP-SemiBold"
-  full_name: "Noto Serif JP SemiBold"
-  copyright: "Copyright 2017 Adobe Systems Incorporated (http://www.adobe.com/)."
-}
-fonts {
-  name: "Noto Serif JP"
-  style: "normal"
-  weight: 700
-  filename: "NotoSerifJP-Bold.otf"
-  post_script_name: "NotoSerifJP-Bold"
-  full_name: "Noto Serif JP Bold"
-  copyright: "Copyright 2017 Adobe Systems Incorporated (http://www.adobe.com/)."
-}
-fonts {
-  name: "Noto Serif JP"
-  style: "normal"
-  weight: 900
-  filename: "NotoSerifJP-Black.otf"
-  post_script_name: "NotoSerifJP-Black"
-  full_name: "Noto Serif JP Black"
-  copyright: "Copyright 2017 Adobe Systems Incorporated (http://www.adobe.com/)."
-}
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
+subsets: "cyrillic"
 subsets: "japanese"
+subsets: "korean"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 200.0
+  max_value: 900.0
+}
 is_noto: true
 languages: "ain_Kana"  # Ainu
 languages: "ja_Jpan"  # Japanese
+languages: "ja_Hira"  # Japanese, Hiragana
 languages: "ja_Kana"  # Japanese, Katakana
 languages: "ryu_Jpan"  # Central Okinawan, Japanese
 languages: "ryu_Kana"  # Central Okinawan
 display_name: "Noto Serif Japanese"
-source_type: TYPE_OTF

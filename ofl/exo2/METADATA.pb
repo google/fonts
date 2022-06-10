@@ -32,3 +32,7 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/NDISCOVER/Exo-2.0"
+  commit: "182060cd38adf3cde0d22add3f8009d30bd48cde"
+}

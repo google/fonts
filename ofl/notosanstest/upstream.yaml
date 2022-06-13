@@ -1,0 +1,6 @@
+archive: https://github.com/notofonts/test/releases/download/NotoSansTest-v1.000/NotoSansTest-v1.000.zip
+branch: main
+files:
+  OFL.txt: OFL.txt
+  NotoSansTest/full/variable-ttf/NotoSansTest[wght].ttf: NotoSansTest[wght].ttf
+  NotoSansTest/unhinted/variable-ttf/NotoSansTest[wght].ttf: NotoSansTest[wght].ttf

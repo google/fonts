@@ -2,4 +2,4 @@
 
 Some icons that were once literal representations have, over time, come to take on a more symbolic form, such as the floppy disk that’s usually used as a “save” icon in software. Even more abstract is the symbol consisting of three stacked horizontal lines, which has come to represent a navigation menu.
 
-Icons and symbols are combined in the icon fonts provided by Google Fonts.
+Icons and symbols are combined in the [icon fonts](/glossary/icon_font) provided by Google Fonts.

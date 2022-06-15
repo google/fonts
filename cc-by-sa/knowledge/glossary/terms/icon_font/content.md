@@ -1,5 +1,11 @@
 An icon [font](/glossary/font) is a font that exclusively contains icon [glyphs](/glossary/glyph) rather than alphanumeric glyphs. A couple of examples are [Material Icons](https://fonts.google.com/icons?icon.set=Material+Icons) and [Material Symbols](https://fonts.google.com/icons?icon.set=Material+Symbols)—both are icon fonts, although Material Symbols is a [variable font](/glossary/variable_fonts), allowing for fine-tuning via variable [axes](/glossary/axis_in_variable_fonts).
 
+<figure>
+
+![INSERT_ALT](images/thumbnail.svg)
+
+</figure>
+
 Using fonts to render icons has multiple benefits:
 
 - Being vector-based, they’re infinitely scalable, unlike rasterized images.

@@ -15,6 +15,14 @@ If you have any feedback on Google Fonts API, directory, or the fonts themselves
 
 The online documentation dedicates a chapter to [requirements for font submission and upgrade suggestion](https://googlefonts.github.io/gf-guide/onboarding.html). Please read it carefully.
 
+If you are able to meet these requirements yourself, please [create a new issue](https://github.com/google/fonts/issues) with a link to the project's source repository. In special circumstances, you can request an exception to these requirements on your issue.
+
+If you are a non-technical person who has developed a high quality typeface in a GUI application and are happy to meet all these requirements in spirit but need someone else to take care of all the technical stuff, Google Fonts also accepts submissions via email.
+Send an email to fonts@google.com with an attachment that includes complete source files, along with a clear statement you are the sole original author and are licensing the source files under OFL, with a request that we take care of everything else. 
+
+From time to time, Google Fonts provides financial and design assistance for projects. 
+If you would like to discuss this, please mention that you would like someone to contact you privately when filing an issue (and have contact details on your Github profile page.)
+
 ## Contributor License Agreement
 
 We love to accept all good patches and contributions to this project. 

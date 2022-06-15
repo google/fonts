@@ -1,5 +1,11 @@
 Building and maintaining a font collection on the computer you use for design work is an important part of life as a designer. However, there are a number of ways this process can be optimized—primarily by understanding where font files live, but also by proactively organizing your collection with font management software. If you’ve embraced the world of variable fonts, there are a few additional considerations. We’ll cover all of that in this article, which is intended to serve as a universal guide for managing fonts, whether you’re working with static fonts, variable fonts, or a combination of both.
 
+<figure>
+
+![INSERT_ALT](images/installing_managing_1.svg)
+
+</figure>
+
 ## Acquiring & installing fonts
 
 Whether you’ve downloaded a font from somewhere like Google Fonts or purchased a license from an independent type foundry, you’ll need to know where your font files are. And, unless you’re using fonts already included in the font menu of an app (or using a font manager—see below), you’ll need to move them to the directory required by your system so that they will show up in all apps’ font menus.
@@ -43,7 +49,11 @@ Also, support for variable fonts can differ between apps, falling into one of th
 
 1. Variable fonts are supported with full integration into the typography engine. For example, the Optical Size axis (opsz) is applied automatically based on the font size in points, with a way to change the ratio or manually set the size; or, when adding a stroke to text, the app correctly applies the stroke only to only the outer shape of each glyph (and not the inner contours used to construct it). Within an app’s scripting or type preferences, we can define contextual rules to apply axis values to character or paragraph styles, rather than only setting axes directly in a GUI.
 
+![INSERT_ALT](images/installing_managing_2.svg)
+
 2. Variable fonts are supported with direct control over axes (usually shown as sliders and number inputs). Many design apps now allow for this, including Figma, Sketch, and Adobe’s Photoshop, InDesign, and Illustrator apps. v-fonts.com/support actively maintains a list of supporting software.
+
+![INSERT_ALT](images/installing_managing_3.svg)
 
 3. Variable fonts are presented as a set of static fonts. In this case, we can’t set any axis value, but we can access the named instances. Current examples include Apple’s Keynote, Numbers, and Pages apps, and Microsoft’s Word and Powerpoint. In Affinity’s suite of apps, variable fonts’ metrics remain at their default values, which means they’re currently unusable.
 
@@ -53,6 +63,8 @@ Also, support for variable fonts can differ between apps, falling into one of th
 With your variable font acquired and installed, it should be ready to use in your (supported) app of choice. But it’s not always that straightforward.
 
 Perhaps the most common hurdle when using variable fonts in desktop apps is the conflict between variable and non-variable versions of the same typeface, if they have the same family name. It’s not uncommon to install both versions to cover all bases, only to find things looking confusing in apps’ font menus. And what happens if you have a static font installed locally, but the variable version is being served via your design app of choice? Some apps, such as Figma, include built-in static font replacement features.
+
+![INSERT_ALT](images/installing_managing_4.svg)
 
 This is where font managers can be especially useful. Instead of deleting or moving files locally to resolve conflict issues, you can simply deactivate any local fonts that might be causing the problem.
 

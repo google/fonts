@@ -1,5 +1,5 @@
 name: "Noto Sans Ethiopic"
-designer: "Google"
+designer: "Monotype Design Team"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
@@ -10,9 +10,10 @@ fonts {
   filename: "NotoSansEthiopic[wdth,wght].ttf"
   post_script_name: "NotoSansEthiopic-Regular"
   full_name: "Noto Sans Ethiopic Regular"
-  copyright: "Copyright 2015 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 Google LLC. All Rights Reserved."
 }
 subsets: "ethiopic"
+subsets: "latin"
 subsets: "menu"
 axes {
   tag: "wdth"
@@ -23,6 +24,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/ethiopic.git"
+  archive_url: "https://github.com/notofonts/ethiopic/releases/download/NotoSansEthiopic-v2.100/NotoSansEthiopic-v2.100.zip"
 }
 is_noto: true
 languages: "am_Ethi"  # Amharic

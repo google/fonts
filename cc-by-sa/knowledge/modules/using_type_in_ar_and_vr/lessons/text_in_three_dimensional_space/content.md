@@ -6,6 +6,8 @@ And now, the next transition is arriving, with the immersive worlds of augmented
 
 Text is an integral part of these experiences. During the initial years of AR/VR, creators did their best to use as little text as possible, due to the challenge of ensuring readability at the resolution and processing power of early devices. However, the complexity of information in immersive experiences is growing, and the need for text is rising with it.
 
+## A new design space for text
+
 How is text in AR/VR different to text in any other digital experience? In printed media, we have full control over the surfaces where our text is being read. On the web, we have learned to work within the constraints of responsive surfaces. Now with AR, we will have to design text that is readable and legible in countless scenarios **(article 4)**. One of the biggest challenges is unpredictable backgrounds: We might read the text using AR glasses while sitting in front of a blank wall, or in a busy cafe with people moving around. If the letterforms cannot stand out against the background, we won’t be able to read them.
 
 As we traverse through these new mediums, we’re no longer just thinking about size (height and width) but also depth—where in the three-dimensional world does our text live? But that doesn't mean adding depth to our text solves our problems. Instead, it brings up numerous readability and legibility issues (we discuss these in detail in the next article).
@@ -17,8 +19,6 @@ A series of studies conducted by [Gabbard et al](https://vtechworks.lib.vt.edu/b
 While AR/VR might conjure ideas of video games and entertainment, devices are already being used in critical domains such as industrial maintenance, construction, military hardware, and medical applications. These are highly sensitive areas, where slight errors can be life-threatening. This shift towards text-rich interfaces makes it essential to focus on legibility and readability. For example, in an industrial setting, a small mistake in reading boiler pressure can lead to a catastrophe.
 
 With time, some of AR/VR’s limitations will be resolved, but how text is experienced in these environments may well represent a shift far greater than the transition from printed books to desktop screens. Starting to think about these issues now will help us shape engaging, effective, and safe reading experiences in this new medium.
-
-## [INSERT HEADING]
 
 In AR/VR, the whole world is our design space. Therefore, a good understanding of the different ways in which we can set text can have a huge impact on the reading experience. This understanding starts with the reader’s head and its placement in space, which provides our frame of reference. Do we intend to keep the text accessible to the user all the time, or do we want it to be visible only when it is required, depending on head movement? Is the text context-specific, with no relation to the space around the reader, like an important notification or warning? Or is it something that directly relates to the user's surroundings, like text highlighting the keys someone was searching for? Let’s explore each of these concepts in detail.
 
@@ -63,8 +63,6 @@ This is the ideal region for texts to be placed for the most comfortable viewing
 The final region houses all the elements anchored to space on objects, such as the surface of a building that are usually out of the subject’s control, or with limited potential for interaction, such as the surface of a building. Virtual signage or location markers that give people information about real-world objects are typical uses of text here. The augmented information in this region can extend to infinity, so it’s up to the designers to decide how far to extend the experience and the amount of information on display. Then, the density of this information can help determine the right typefaces and optimal typesetting parameters. For example, if the subject is wearing AR glasses, they can see information from a few meters away to several blocks in front of them. The potential information density in such cases increases with distance, so this presents an interesting challenge for content creators.
 
 We also need to remember that the person’s movement can potentially bring the text from the environment region into the interaction region. This will increase the complexity in the design, since multiple interaction scenarios need to be envisaged.
-
-In the next article, we’ll learn how to use these parameters to spatially classify text and use it in different scenarios.
 
 Further Reading:
 

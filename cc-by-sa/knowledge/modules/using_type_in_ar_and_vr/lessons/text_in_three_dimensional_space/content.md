@@ -2,7 +2,7 @@ The world of typography is constantly evolving and adapting to technological adv
 
 And now, the next transition is arriving, with the immersive worlds of augmented reality (AR) and virtual reality (VR), where digital experiences extend beyond a flat, two-dimensional world. Instead, we interact with text in the three-dimensional space around us. Augmented reality enhances our experience by adding digital layers on top of the real world. Virtual reality is about fully immersive, computer-generated digital experiences that may or may not be related to the real world.
 
-Image 1: (Left) Example of VR, Mozilla Hubs, (Right) Screen capture from an AR demo by Ultraleap.
+[CAPTION] Left: Example of VR, Mozilla Hubs. Right: Screen capture from an AR demo by Ultraleap.
 
 Text is an integral part of these experiences. During the initial years of AR/VR, creators did their best to use as little text as possible, due to the challenge of ensuring readability at the resolution and processing power of early devices. However, the complexity of information in immersive experiences is growing, and the need for text is rising with it.
 
@@ -18,15 +18,7 @@ While AR/VR might conjure ideas of video games and entertainment, devices are al
 
 With time, some of AR/VR’s limitations will be resolved, but how text is experienced in these environments may well represent a shift far greater than the transition from printed books to desktop screens. Starting to think about these issues now will help us shape engaging, effective, and safe reading experiences in this new medium.
 
-Further Reading:
-
-- [Preparing for the better typography in Augmented Reality](https://niteeshyadav.com/blog/preparing-for-the-better-typography-in-augmented-reality-6232/)
-- [Understand display techniques in augmented reality](https://niteeshyadav.com/blog/understanding-display-techniques-in-augmented-reality-7485/)
-- [Approaching Spatially Adaptive Type](https://www.aetherpoint.com/blogpost/approaching-spatially-adaptive-type/)
-
----
-
-So far, we’ve explored the transition of typography in augmented and virtual reality and its impact on design. Now let’s review how text will be used in this new medium.
+## [INSERT HEADING]
 
 In AR/VR, the whole world is our design space. Therefore, a good understanding of the different ways in which we can set text can have a huge impact on the reading experience. This understanding starts with the reader’s head and its placement in space, which provides our frame of reference. Do we intend to keep the text accessible to the user all the time, or do we want it to be visible only when it is required, depending on head movement? Is the text context-specific, with no relation to the space around the reader, like an important notification or warning? Or is it something that directly relates to the user's surroundings, like text highlighting the keys someone was searching for? Let’s explore each of these concepts in detail.
 
@@ -74,5 +66,9 @@ We also need to remember that the person’s movement can potentially bring the 
 
 In the next article, we’ll learn how to use these parameters to spatially classify text and use it in different scenarios.
 
-Useful Links:
-- Variables that affect the experience in augmented reality
+Further Reading:
+
+- [Preparing for the better typography in Augmented Reality](https://niteeshyadav.com/blog/preparing-for-the-better-typography-in-augmented-reality-6232/)
+- [Understand display techniques in augmented reality](https://niteeshyadav.com/blog/understanding-display-techniques-in-augmented-reality-7485/)
+- [Approaching Spatially Adaptive Type](https://www.aetherpoint.com/blogpost/approaching-spatially-adaptive-type/)
+- [Variables that affect the experience in augmented reality](https://niteeshyadav.com/blog/variables-that-affect-the-experience-in-ar-8618/)

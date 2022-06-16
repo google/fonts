@@ -26,13 +26,7 @@ Here are some quick tips:
 
 Ensure that the difference in color on the face of your text vs depth provides enough contrast against its depth to aid legibility.At the time of writing, typography in AR/VR applications is in the early stages of development **(read more about it in our next article)**, and it will take time to reach the level of typographic refinement we’re used to on the web. However, considering these new possibilities will help us prepare for what’s next in the evolution of wearable technology.
 
-Useful links:
-
-- Future of Typography in Augmented Reality
-- Breaking Boxes – Typography and Augmented Reality
-- Approaching Spatially Adaptive Type
-
----
+## [INSERT HEADING]
 
 We’ve moved past the time when designers and typographers had full control over the medium in which people read. Today, we have limited control over how and where (device, platform, window size) the text is going to be read. Responsive layouts have helped in gaining more control. However, in browsers and mobile applications, text often has to be rendered twice—once when the text is loaded, and again when there’s a change in parameters, such as layout.
 
@@ -68,3 +62,6 @@ Further Reading:
 - [Text in Unreal Engine](https://docs.unrealengine.com/4.27/en-US/Basics/Actors/3DText/)
 - [Playing around with distance field font rendering](https://lambdacube3d.wordpress.com/2014/11/12/playing-around-with-font-rendering/)
 - [Techniques for rendering text with WebGL](https://css-tricks.com/techniques-for-rendering-text-with-webgl/)
+- [Future of Typography in Augmented Reality](https://youtu.be/lFO5A8-FzlI?t=3554)
+- [Breaking Boxes – Typography and Augmented Reality](https://www.aetherpoint.com/blogpost/breaking-boxes-typography-and-augmented-reality/)
+- [Approaching Spatially Adaptive Type](https://www.aetherpoint.com/blogpost/approaching-spatially-adaptive-type/)

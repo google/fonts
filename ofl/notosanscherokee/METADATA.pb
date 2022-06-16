@@ -1,5 +1,5 @@
 name: "Noto Sans Cherokee"
-designer: "Google"
+designer: "Monotype Design Team"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
@@ -12,12 +12,17 @@ fonts {
   full_name: "Noto Sans Cherokee Regular"
   copyright: "Copyright 2016 Google Inc. All Rights Reserved."
 }
-subsets: "menu"
 subsets: "cherokee"
+subsets: "latin"
+subsets: "menu"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/cherokee.git"
+  archive_url: "https://github.com/notofonts/cherokee/releases/download/NotoSansCherokee-v2.000/NotoSansCherokee-v2.000.zip"
 }
 is_noto: true
 languages: "chr_Cher"  # Cherokee

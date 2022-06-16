@@ -12,6 +12,7 @@ fonts {
   full_name: "Alkalami"
   copyright: "Copyright (c) SIL International, 2015-2022"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

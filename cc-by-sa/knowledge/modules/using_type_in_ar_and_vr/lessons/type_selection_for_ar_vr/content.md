@@ -5,7 +5,12 @@ So far in this series, we’ve discussed various aspects of typography in VR/AR.
 Counters are the enclosed or partially enclosed circular or curved negative space (white space) in characters such as “c”, “d”, and “o.”
 Aperture: The partially enclosed, somewhat rounded negative space in some characters such as “n,” “C,” “S,” the lower part of “e,” or the upper part of a double-storey “a.” Specifically, it’s the opening of the counter space.
 
-[CAPTION] Small apertures appear as closed counters due to the rendering and glow/chromatic aberration resulting in misrecognition in shapes like “c” and “e.” Chivo regular 72 pt (in AR scene), magnified view.
+<figure>
+
+![INSERT_ALT](images/type_selection_for_ar_vr_1.png)
+<figcaption>Small apertures appear as closed counters due to the rendering and glow/chromatic aberration resulting in misrecognition in shapes like “c” and “e.” Chivo regular 72 pt (in AR scene), magnified view.</figcaption>
+
+</figure>
 
 The counters in letters have a crucial role in the performance of text viewed at a distance.
 
@@ -31,7 +36,12 @@ Font weight plays a crucial role when designing for devices with varying resolut
 
 High contrast typefaces have strokes that change in thickness significantly within a letter. (See the image on the left below). Low contrast typefaces usually appear to have strokes of a similar thickness throughout. However, this is not absolute; all letter shapes are optically corrected to appear the same size (see the image on the right below).
 
-[CAPTION] Left: Playfair Display Regular at 72 pt seen through an AR headset, showing the loss in details in the thin strokes. On top is the actual design of Playfair Display Regular at 30 pt for comparison. Right: Source Serif Pro at 72 pt in AR, demonstrating the change of appearance of serifs from wedge serif to slab serif. On top is the actual design of Source Serif Pro Regular at 30 pt for comparison.
+<figure>
+
+![INSERT_ALT](images/type_selection_for_ar_vr_2.png)
+<figcaption>Left: Playfair Display Regular at 72 pt seen through an AR headset, showing the loss in details in the thin strokes. On top is the actual design of Playfair Display Regular at 30 pt for comparison. Right: Source Serif Pro at 72 pt in AR, demonstrating the change of appearance of serifs from wedge serif to slab serif. On top is the actual design of Source Serif Pro Regular at 30 pt for comparison.</figcaption>
+
+</figure>
 
 The higher the contrast, the more pixels are required to render details properly. This in turn requires either the text to be larger in size, or the resolution of the headset to be higher.
 Low-to-moderate contrast typefaces are ideal for a wide range of headsets. A common myth is that serif typefaces are not ideal for VR/AR. This isn’t true; only high-contrast serif typefaces suffer from legibility and distortion issues.
@@ -39,9 +49,15 @@ Low-to-moderate contrast typefaces are ideal for a wide range of headsets. A com
 ## Width
 
 In AR, unlike conventional screens, the text is not always positioned squarely in front of the user. Text can be integrated in the environment around the user to make it more immersive, but this introduces the issue of perspective distortion.
+
 Viewing text at an angle sometimes merges the adjacent strokes and affects the visibility of counters in narrow typefaces, making it very hard to distinguish individual letters. Traffic signs present a similar example of information parsed at an acute angle. However, AR presents a more complicated challenge since the text can be sentences or paragraphs, instead of a few words or symbols.
 
-[CAPTION] Archivo Narrow at 72pt (in AR scene), magnified view. (Top) 0°, straight in front of the viewer, (middle) 30°, in front of the viewer, (bottom) 50° in front of the viewer. The increased angle causes letters to merge into each other, and counter spaces become smaller.
+<figure>
+
+![INSERT_ALT](images/type_selection_for_ar_vr_3.png)
+<figcaption>Archivo Narrow at 72pt (in AR scene), magnified view. (Top) 0°, straight in front of the viewer, (middle) 30°, in front of the viewer, (bottom) 50° in front of the viewer. The increased angle causes letters to merge into each other, and counter spaces become smaller.</figcaption>
+
+</figure>
 
 Typefaces with wider letter shapes perform well in terms of legibility, as most of the text in VR/AR is placed at a distance, unlike conventional mediums.
 - In condensed typefaces, letters become too narrow when viewed at an angle. This brings vertical strokes together and causes legibility issues. However, this can be offset by ample letter spacing. Serif typefaces—and well-designed sans serif typefaces—tend to have vertical strokes that are further apart. This aids legibility, especially when seen from an angle.
@@ -61,7 +77,13 @@ In the case of letters with two horizontal strokes (o,z,b,d,p,q) a large x-heigh
 The use of a large x-height in some cases might lead to misrecognition of letters, if the x-height is too close to the ascender height (see image), which usually gets suppressed by rounding at the edges because of irradiation—thereby decreasing the legibility.
 Ascenders play a bigger role in letter recognition as compared to descenders.
 
-[CAPTION] A lowercase “h” with a large x-height (left) sometimes loses its details after deterioration in AR and appears more like “n” on the right (magnified view).
+<figure>
+
+![INSERT_ALT](images/type_selection_for_ar_vr_4.png)
+<figcaption>A lowercase “h” with a large x-height (left) sometimes loses its details after deterioration in AR and appears more like “n” on the right (magnified view).</figcaption>
+
+</figure>
+
 
 ## Joints/Intersections
 
@@ -84,7 +106,12 @@ Typefaces with sturdy stroke endings tend to perform better over those with less
 - Characters such as “l” appear to float above the baseline, affecting the rhythm, especially next to curved letters (such as “c,” “s,” and “o”). This is because halation weakens the tip of the stroke resting on the baseline, while round letters have more pixels near the baseline, and position them to lower with an overshoot. Such issues can be resolved by using typefaces that have slightly flared stroke endings.
 - The shapes of terminals are also distorted and can appear to be smaller than the actual design because of the apparent rounding of shapes. For similar characters, such as “f” and “t,” or “i” and “j,” the rounding of distinguishing features creates confusion. This means that typefaces need to have details that allow such letters to be clearly distinguished when rendered in the headset.
 
-[CAPTION] The images above show two typefaces, Open Sans (a) and Nunito (b), which have straight and round endings respectively, but render similarly in AR. Both Open Sans and Nunito Regular have 72 pt size in AR and 30pt in the reference string at the top.
+<figure>
+
+![INSERT_ALT](images/type_selection_for_ar_vr_5.png)
+<figcaption>The images above show two typefaces, Open Sans (a) and Nunito (b), which have straight and round endings respectively, but render similarly in AR. Both Open Sans and Nunito Regular have 72 pt size in AR and 30pt in the reference string at the top.</figcaption>
+
+</figure>
 
 ## Letter spacing
 

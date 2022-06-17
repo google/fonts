@@ -2,7 +2,12 @@ The world of typography is constantly evolving and adapting to technological adv
 
 And now, the next transition is arriving, with the immersive worlds of augmented reality (AR) and virtual reality (VR), where digital experiences extend beyond a flat, two-dimensional world. Instead, we interact with text in the three-dimensional space around us. Augmented reality enhances our experience by adding digital layers on top of the real world. Virtual reality is about fully immersive, computer-generated digital experiences that may or may not be related to the real world.
 
-[CAPTION] Left: Example of VR, Mozilla Hubs. Right: Screen capture from an AR demo by Ultraleap.
+<figure>
+
+![INSERT_ALT](images/introducing_ar_vr_1.png)
+<figcaption>Left: Example of VR, Mozilla Hubs. Right: Screen capture from an AR demo by Ultraleap.</figcaption>
+
+</figure>
 
 Text is an integral part of these experiences. During the initial years of AR/VR, creators did their best to use as little text as possible, due to the challenge of ensuring readability at the resolution and processing power of early devices. However, the complexity of information in immersive experiences is growing, and the need for text is rising with it.
 
@@ -30,7 +35,12 @@ The placement of text in 3D space in reference to the reader’s head is crucial
 
 In this case, the information moves with the person’s head so it’s always in front of them. It’s more intrusive and, in AR, this might create dangerous scenarios by limiting the visibility of the real world. This is recommended only for crucial information and for short texts.
 
-[CAPTION] The virtual objects follow head movement and stay in view all the time.
+<figure>
+
+![INSERT_ALT](images/introducing_ar_vr_2.png)
+<figcaption>The virtual objects follow head movement and stay in view all the time.</figcaption>
+
+</figure>
 
 It’s not advisable to anchor long-running text (i.e., paragraphs) to the head. In most headsets, the ends of long lines will be harder to read due to distortion close to the edges of the lens, so users might face legibility issues. Our heads tend to move a few degrees at most times, even if we are not aware of this. When reading text anchored to the head, these slight head movements result in jitter, which is not a good reading experience. In VR, to reduce jitter, UI elements may ease back into view when someone’s head moves past the UI.
 
@@ -38,19 +48,34 @@ It’s not advisable to anchor long-running text (i.e., paragraphs) to the head.
 
 In this case, virtual elements are anchored to real-world coordinates in 3D space around the subject. Therefore, the information stays at a particular position, and they see it only when they’re looking in that direction. Information anchored in space seems more immersive and realistic, and is similar to how we observe text in our physical surroundings.
 
-[CAPTION] The virtual object stays in a specific position and doesn’t follow head movement.
+<figure>
+
+![INSERT_ALT](images/introducing_ar_vr_3.png)
+<figcaption>The virtual object stays in a specific position and doesn’t follow head movement.</figcaption>
+
+</figure>
 
 ## Placement Zones
 
 We can also decide on text placement based on its perceived distance from the user. Consider these three regions based on the distance and priority of information that can be displayed in each:
 
-[CAPTION] The distances are approximations based on different studies and guidelines for AR displays.
+<figure>
+
+![INSERT_ALT](images/introducing_ar_vr_4.png)
+<figcaption>The distances are approximations based on different studies and guidelines for AR displays.</figcaption>
+
+</figure>
 
 ### Heads-up display (HUD) region
 
 This region is reserved for user interface (UI) elements that are anchored to the head and stay in their view no matter where someone’s looking (as shown by the first image). It can be used for showing essential information, such as time, or notifications, similar to the status bar in smartphones. However, this space should be used sparingly for absolutely necessary elements. It’s recommended not to place objects too close to the subject as it results in the accommodation-vergence conflict, which causes visual fatigue.
 
-[CAPTION] The red area shows the HUD region that requires eye movement to see the information. The information placed outside the red region requires head movement.
+<figure>
+
+![INSERT_ALT](images/introducing_ar_vr_5.png)
+<figcaption>The red area shows the HUD region that requires eye movement to see the information. The information placed outside the red region requires head movement.</figcaption>
+
+</figure>
 
 The placement in this region closer to the eyes enables a quick view of  essential info by shifting focus from the real world to the information in the HUD region. Moving through our depth of field, shifting focus with our eye muscles rather than moving our heads is something we perform naturally in our physical surroundings.
 

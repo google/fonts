@@ -4,12 +4,22 @@ In **the previous article**, we discussed the rendering of text in VR/AR applica
 
 FoV is the range of the observable world at a given point in time, measured in degrees. Humans have a FoV of approximately 120° when looking directly ahead and about 200°–270° with eye rotation. In AR, FoV is further distinguished into “overlay FoV” (FoV of the headset) and “peripheral FoV” (FoV of the human eye). The overlay FoV is where all computer-generated graphics are shown, whereas the peripheral FoV contains the natural, non-augmented section of the observed environment.
 
-[CAPTION] Human FoV during straight gaze in front, approximately 120° (shown in blue) and extended FOV on head movement in the range of 200–270° (shown in light blue).
+<figure>
+
+![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_1.png)
+<figcaption>Human FoV during straight gaze in front, approximately 120° (shown in blue) and extended FOV on head movement in the range of 200–270° (shown in light blue).</figcaption>
+
+</figure>
 
 From a typographic perspective, the FoV limits the width of the paragraphs we can display, in order to provide a better experience.
 At the time of writing, current AR headsets have FoVs between 40° and 100°, which is relatively low compared to the human eye. This means objects closer to the eye appear cropped (see the image below). To see the full object, they either have to step back, or move their head around. Therefore, a wider FOV is preferred for better immersion.
 
-[CAPTION] A comparison between the real FoV of human eyes on the left vs. the FoV present in AR devices.
+<figure>
+
+![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_2.png)
+<figcaption>A comparison between the real FoV of human eyes on the left vs. the FoV present in AR devices.</figcaption>
+
+</figure>
 
 ## Brightness and contrast
 
@@ -30,13 +40,23 @@ The refresh rate influences how the display renders motion and is critical for t
 
 Halation, also known as irradiation, is the spreading of light beyond its proper boundaries to form a fog around the edges of a rendered text. The excessive glow around the letters sometimes fills up small negative spaces in the text resulting in legibility issues. It also causes rounding at the corners of the text, which distorts the actual shape of the letterforms.
 
-[CAPTION] A simulated example of halation (bottom) as compared to regular text (top).
+<figure>
+
+![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_3.png)
+<figcaption>A simulated example of halation (bottom) as compared to regular text (top).</figcaption>
+
+</figure>
 
 ## Chromatic aberration
 
 Chromatic aberration is caused by lens dispersion, with different colors of light traveling at different speeds while passing through a lens. As a result, the image can look blurred, or noticeable colored edges (red, green, blue, yellow, purple, magenta) can appear around objects, especially in high-contrast situations.
 
-[CAPTION] Extreme effect of chromatic aberration on text. Image Source: [Oculus Forums](https://forums.oculusvr.com/t5/Support/Chromatic-Aberration-Issues/td-p/167845/page/5)
+<figure>
+
+![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_4.png)
+<figcaption>Extreme effect of chromatic aberration on text. Image Source: [Oculus Forums](https://forums.oculusvr.com/t5/Support/Chromatic-Aberration-Issues/td-p/167845/page/5)</figcaption>
+
+</figure>
 
 When chromatic aberration occurs in VR, a viewer faces two issues: On one hand, the simple presence of this optical distortion can break the suspension of disbelief, as it serves as a constant reminder of the artificial nature of the virtual environment. On the other hand, it can lead to discomfort and headaches that hinder longer VR sessions.
 
@@ -44,7 +64,12 @@ When chromatic aberration occurs in VR, a viewer faces two issues: On one hand, 
 
 This refers to the visible fine lines between pixels on a display, as if the user is looking through a screen door.
 
-[CAPTION] Screen door effect comparison between Oculus Quest 1(left) and Quest 2. Image Source: [Reddit](https://www.reddit.com/r/virtualreality/comments/oo6mgg/comparison_of_the_screen_door_effect_in_the_quest/)
+<figure>
+
+![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_5.png)
+<figcaption>Screen door effect comparison between Oculus Quest 1(left) and Quest 2. Image Source: [Reddit](https://www.reddit.com/r/virtualreality/comments/oo6mgg/comparison_of_the_screen_door_effect_in_the_quest/)</figcaption>
+
+</figure>
 
 The display in headsets is made up of pixels that light up to render the text that we see. In between every pixel, there’s space that doesn’t light up and remains black—and it’s this space that produces the black mesh appearance in headsets, which in turn creates the screen door effect. It occurs not because of individual pixel size or density, but because of how large the spaces between the pixels are.
 

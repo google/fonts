@@ -6,7 +6,12 @@ In AR/VR, texts are no longer experienced in a static form. Movement, rotation, 
 
 Working in a three-dimensional AR/VR space might entice you to go fully 3D by adding depth to your text. It might feel like the right thing to do, but it has severe consequences on its utility. However, two-dimensional or flat text is recommended when it comes to longer paragraphs and sentences over 3D text. (See the image below.)
 
-[CAPTION] Comparison between flat, 2D text (left) vs 3D text with depth (right). Note how the profiles of letters in the 3D text are less distinguishable and appear to clash into one another.
+<figure>
+
+![INSERT_ALT](images/designing_for_ar_vr_1.png)
+<figcaption>Comparison between flat, 2D text (left) vs 3D text with depth (right). Note how the profiles of letters in the 3D text are less distinguishable and appear to clash into one another.</figcaption>
+
+</figure>
 
 In fact, depth in text hinders both readability and legibility. It adds to the letter shapes, intervenes with the space between them, and, in certain situations, may make letters unrecognizable, requiring extra effort from the user to read the text. This problem is amplified if the user is looking at the text from an angle.
 
@@ -36,15 +41,30 @@ These issues have conventionally been solved by using pre-rendered (bitmap) glyp
 
 Applications like the game engine [Unity](https://unity.com/) have gone one step further and adopted a signed-distance-field-based (SDF) text rendering method: Every pixel indicates its distance from the closest boundary of a shape, which is then used to generate a smooth continuous render by nearest-neighbor interpolation. For example, let’s assume that the black shape in the image below on the left is our reference form. The visual representation of the distance field in a 16×16 grid will appear like the image on the right. Every value is the distance of that pixel to the closest edge point of our reference shape (marked with lines across the grid). These values can be used to reconstruct the same shape in different sizes. Even though it produces better results, this method is prone to rounding at the corners of text if the text size exceeds the size of the generated texture used to render it.
 
-[CAPTION] (a) A 2D shape (b)Signed values representing the distance from the closest edge point. Source: Chlumsky, V. Shape Decomposition for Multi-channel Distance Fields. Master’s thesis, Czech Technical University, 2015
+<figure>
+
+![INSERT_ALT](images/designing_for_ar_vr_2.png)
+<figcaption>(a) A 2D shape (b)Signed values representing the distance from the closest edge point. Source: Chlumsky, V. Shape Decomposition for Multi-channel Distance Fields. Master’s thesis, Czech Technical University, 2015</figcaption>
+
+</figure>
 
 How can the text size increase while running an app? Imagine using a navigation app with AR overlays, or playing a first-person shooter game in VR, where there is signage in front of the player. As they move closer to it, the size of the text on the signage will increase to emulate real-life behavior. With every step the player takes towards the signage, the app has to generate (render) new frames of text to emulate that effect.
 
-[CAPTION] The text on the left looks crisp when viewed at a distance, but it starts looking blurred and loses details on the right when the subject goes too close. Note: This is a simulated rendering to illustrate the concept of loss of detail.
+<figure>
+
+![INSERT_ALT](images/designing_for_ar_vr_3.png)
+<figcaption>The text on the left looks crisp when viewed at a distance, but it starts looking blurred and loses details on the right when the subject goes too close. Note: This is a simulated rendering to illustrate the concept of loss of detail.</figcaption>
+
+</figure>
 
 While designing a VR/AR  app or experience, the designer sets a standard optimum distance—e.g. one meter—from where the signage is supposed to be viewed, and then specifies the text size accordingly—e.g. 30pt. Based on that size, a text atlas (font texture) is then created. But if the subject gets closer than one meter, the letterforms will start appearing blurred and distorted. Assuming the subject is at a distance where the perceived text size is 70pt, at this stage the text is being generated using a 30pt text atlas—i.e., similar to enlarging a 30pt bitmap image to 70pt (like in the first image, above). Similarly, in the SDF-based method, once the subject walks closer to the text, it’s generated using an extrapolation of the generated texture, corners lose detail as they become rounded.
 
-[CAPTION] The “n” on the left shows the base glyph; the “n” on the right has various interpolated instances of the glyph generated from the base glyph. After a certain range, the loss of detail becomes prominent around the corners.
+<figure>
+
+![INSERT_ALT](images/designing_for_ar_vr_4.png)
+<figcaption>The “n” on the left shows the base glyph; the “n” on the right has various interpolated instances of the glyph generated from the base glyph. After a certain range, the loss of detail becomes prominent around the corners.</figcaption>
+
+</figure>
 
 If we compare this to the rendering of text in current browsers, it’s a primitive method that’s on par with bitmap font rendering technology in the ‘90s. In today’s world, text in browsers is rendered directly from the vector shapes in the OTF/ TTF font files.
 

@@ -118,5 +118,3 @@ Typefaces with sturdy stroke endings tend to perform better over those with less
 Compared to other mediums, spacing in VR/AR plays a decisive factor. Tightly spaced letters cause significant legibility issues, as they crowd and interfere with each other, making it hard to recognise individual letters. Therefore, it becomes necessary to have generous spacing between letters to compensate for the merging of strokes in perspective view. The ideal spacing must take into consideration the perceived width of individual strokes and whole letterforms due to irradiation and chromatic aberration.
 
 The spacing in VR/AR should balance internal and external spaces without compromising the reading speed Therefore the weight and width of the typeface needs to be considered in combination with the optimal letter spacing for each text environment.
-
-All images in this article are based on the research/analysis of typeface features in augmented reality by Niteesh Yadav while pursuing his masters at the University of Reading.

@@ -54,7 +54,7 @@ Chromatic aberration is caused by lens dispersion, with different colors of ligh
 <figure>
 
 ![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_4.png)
-<figcaption>Extreme effect of chromatic aberration on text. Image Source: [Oculus Forums](https://forums.oculusvr.com/t5/Support/Chromatic-Aberration-Issues/td-p/167845/page/5)</figcaption>
+<figcaption>Extreme effect of chromatic aberration on text. Image Source: <a href="https://forums.oculusvr.com/t5/Support/Chromatic-Aberration-Issues/td-p/167845/page/5">Oculus Forums</a>.</figcaption>
 
 </figure>
 
@@ -67,7 +67,7 @@ This refers to the visible fine lines between pixels on a display, as if the use
 <figure>
 
 ![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_5.png)
-<figcaption>Screen door effect comparison between Oculus Quest 1(left) and Quest 2. Image Source: [Reddit](https://www.reddit.com/r/virtualreality/comments/oo6mgg/comparison_of_the_screen_door_effect_in_the_quest/)</figcaption>
+<figcaption>Screen door effect comparison between Oculus Quest 1(left) and Quest 2. Image Source: <a href="https://www.reddit.com/r/virtualreality/comments/oo6mgg/comparison_of_the_screen_door_effect_in_the_quest/">Reddit</a>.</figcaption>
 
 </figure>
 

@@ -1,0 +1,6 @@
+archive: https://github.com/notofonts/test/releases/download/NotoSerifTest-v1.000/NotoSerifTest-v1.000.zip
+branch: main
+files:
+  OFL.txt: OFL.txt
+  NotoSerifTest/full/slim-variable-ttf/NotoSerifTest[wght].ttf: NotoSerifTest[wght].ttf
+  NotoSerifTest/full/variable-ttf/NotoSerifTest[wght].ttf: NotoSerifTest[wght].ttf

@@ -1,10 +1,13 @@
 # Contribute to Google Fonts
 
-There is a detailed documentation online aiming to help people contributing to Google Fonts. Please refer to the [Google Fonts Guide](https://googlefonts.github.io/gf-guide/) before contributing to this repository.
+In June 2022, we introduced new detailed documentation to help people contribute to Google Fonts, the [Google Fonts Guide](https://googlefonts.github.io/gf-guide/).
 
 ## Feedback
 
-If you have any feedback on Google Fonts API, directory, or the fonts themselves, please create an issue at [github.com/google/fonts/issues](http://github.com/google/fonts/issues). Don't forget to search in the issue tracker (using keywords) if your issue has already been raised before opening a new one :)
+If you have any feedback on Google Fonts API, catalog website, or the fonts themselves, please create an issue at [github.com/google/fonts/issues](http://github.com/google/fonts/issues).
+Don't forget to search in the issue tracker (using keywords) to check if your topic has already been raised, before opening a new one.
+
+We have some issue templates for common topics:
 
 - [Submit an OFL Font](https://github.com/google/fonts/issues/new?assignees=&labels=II+New+Font%2C+>+Submission&template=1_add-font.md&title=Add+%5BFont+Name%5D)
 - [Submit a font upgrade](https://github.com/google/fonts/issues/new?assignees=&labels=II+Font+Upgrade&template=2_update-font.md&title=Update+%5BFont+Name%5D)
@@ -13,12 +16,14 @@ If you have any feedback on Google Fonts API, directory, or the fonts themselves
 
 ## Adding and Upgrading families
 
-The online documentation dedicates a chapter to [requirements for font submission and upgrade suggestion](https://googlefonts.github.io/gf-guide/onboarding.html). Please read it carefully.
+The Google Fonts Guide has a chapter dedicated to the [requirements for font submissions and upgrade suggestions](https://googlefonts.github.io/gf-guide/onboarding.html).
+Please read it carefully.
 
-If you are able to meet these requirements yourself, please [create a new issue](https://github.com/google/fonts/issues) with a link to the project's source repository. In special circumstances, you can request an exception to these requirements on your issue.
+If you are able to meet these requirements yourself, please [create a new issue](https://github.com/google/fonts/issues) with a link to the project's source repository.
+In special circumstances, you can request an exception to these requirements on your issue.
 
 If you are a non-technical person who has developed a high quality typeface in a GUI application and are happy to meet all these requirements in spirit but need someone else to take care of all the technical stuff, Google Fonts also accepts submissions via email.
-Send an email to fonts@google.com with an attachment that includes complete source files, along with a clear statement you are the sole original author and are licensing the source files under OFL, with a request that we take care of everything else. 
+Send an email to <fonts@google.com> with an attachment that includes complete source files, along with a clear statement you are the sole original author and are licensing the source files under OFL, with a request that we take care of everything else. 
 
 From time to time, Google Fonts provides financial and design assistance for projects. 
 If you would like to discuss this, please mention that you would like someone to contact you privately when filing an issue (and have contact details on your Github profile page.)
@@ -36,4 +41,4 @@ This is not a copyright assignment, it simply gives Google permission to use and
 You generally only need to submit the Google CLA once, so if you've already submitted one for a different project, you probably don't need to do it again.
 
 After your contribution is included, you will be listed in [CONTRIBUTORS](CONTRIBUTORS) and/or [AUTHORS](AUTHORS) files; 
-CONTRIBUTORS is the official list of people who can contribute (and typically have contributed) code to this repository, while the AUTHORS file lists the copyright holders.
+`CONTRIBUTORS` is the official list of people who can contribute (and typically have contributed) code to this repository, while the `AUTHORS` file lists the copyright holders.

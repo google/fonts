@@ -40,5 +40,5 @@ This is not a copyright assignment, it simply gives Google permission to use and
 
 You generally only need to submit the Google CLA once, so if you've already submitted one for a different project, you probably don't need to do it again.
 
-After your contribution is included, you will be listed in [CONTRIBUTORS](CONTRIBUTORS) and/or [AUTHORS](AUTHORS) files; 
-`CONTRIBUTORS` is the official list of people who can contribute (and typically have contributed) code to this repository, while the `AUTHORS` file lists the copyright holders.
+After your contribution is included, you can be listed in [CONTRIBUTORS](CONTRIBUTORS.txt) and/or [AUTHORS](AUTHORS.txt) files; 
+`CONTRIBUTORS.txt` is the official list of people who can contribute (and typically have contributed) code to this repository, while the `AUTHORS.txt` file lists the copyright holders.

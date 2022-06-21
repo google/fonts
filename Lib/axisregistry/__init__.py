@@ -307,15 +307,20 @@ def build_fvar_instances(ttFont, axis_dflts={}):
     is_italic = "Italic" in style_name
     is_roman_and_italic = any(a for a in ("slnt", "ital") if a in fvar_dflts)
 
+    fallbacks = axis_registry.fallbacks_in_fvar(ttFont)
+    # some families may not have a wght axis e.g
+    # https://fonts.google.com/specimen/League+Gothic
+    # these families just have a single weight which is Regular
     if "wght" not in fvar_dflts:
-        # TODO
-        raise NotImplementedError()
+        fallback = next(
+            (f for f in axis_registry["wght"].fallback if f.value == 400.0), None
+        )
+        fallbacks["wght"] = [fallback]
+
+    wght_fallbacks = fallbacks["wght"]
 
     ital_axis = next((a for a in fvar.axes if a.axisTag == "ital"), None)
     slnt_axis = next((a for a in fvar.axes if a.axisTag == "slnt"), None)
-
-    fallbacks = axis_registry.fallbacks_in_fvar(ttFont)
-    wght_fallbacks = fallbacks["wght"]
 
     def gen_instances(is_italic):
         results = []
@@ -324,7 +329,8 @@ def build_fvar_instances(ttFont, axis_dflts={}):
             name = name.replace("Regular Italic", "Italic")
 
             coordinates = {k: v for k, v in axis_dflts.items()}
-            coordinates["wght"] = fallback.value
+            if "wght" in fvar_dflts:
+                coordinates["wght"] = fallback.value
             if is_italic:
                 if ital_axis:
                     coordinates["ital"] = ital_axis.minValue

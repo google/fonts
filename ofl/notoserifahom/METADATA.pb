@@ -1,5 +1,5 @@
 name: "Noto Serif Ahom"
-designer: "Google"
+designer: "Monotype Design Team"
 license: "OFL"
 category: "SERIF"
 date_added: "2020-11-19"
@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSerifAhom-Regular.ttf"
   post_script_name: "NotoSerifAhom-Regular"
   full_name: "Noto Serif Ahom Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ahom)"
 }
-subsets: "menu"
 subsets: "ahom"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/ahom.git"
+  archive_url: "https://github.com/notofonts/ahom/releases/download/NotoSerifAhom-v2.005/NotoSerifAhom-v2.005.zip"
+}
 is_noto: true
 languages: "aho_Ahom"  # Ahom
 languages: "sa_Ahom"  # Sanskrit, Ahom

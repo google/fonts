@@ -2,9 +2,10 @@
 ofl/aboreto
 ofl/albertsans
 ofl/alkalami
+ofl/alumnisanspinstripe
 ofl/arima
 ofl/edunswactfoundation
-ofl/eduqldbeginners
+ofl/eduqldbeginner
 ofl/edusabeginner
 ofl/edutasbeginner
 ofl/eduvicwantbeginner
@@ -75,7 +76,11 @@ cc-by-sa/knowledge/modules/choosing_type/lessons/pairing_typefaces_within_a_fami
 cc-by-sa/knowledge/modules/introducing_type/lessons/introducing_alternate_glyphs
 cc-by-sa/knowledge/modules/introducing_type/lessons/why_care_about_typography
 cc-by-sa/knowledge/modules/using_type/lessons/choosing_a_suitable_line_height
+cc-by-sa/knowledge/modules/using_type/lessons/designing_with_variable_fonts_in_desktop_apps
 cc-by-sa/knowledge/modules/using_type/lessons/language_support_in_fonts
 cc-by-sa/knowledge/modules/using_type/lessons/styling_type_on_the_web_with_variable_fonts
 cc-by-sa/knowledge/modules/using_type/lessons/the_foundations_of_web_typography
 cc-by-sa/knowledge/modules/using_type/lessons/using_web_fonts_from_a_font_delivery_service
+
+# API Stuff
+lang/Lib/gflanguages/data/languages/th_Thai.textproto # not the correct path I know (correct one breaks the CI)

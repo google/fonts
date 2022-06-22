@@ -84,4 +84,4 @@ cc-by-sa/knowledge/modules/using_type/lessons/the_foundations_of_web_typography
 cc-by-sa/knowledge/modules/using_type/lessons/using_web_fonts_from_a_font_delivery_service
 
 # API Stuff
-lang/Lib/gflanguages/data/languages/th_Thai.textproto
+lang/Lib/gflanguages/data/languages/th_Thai.textproto # not the correct path I know (correct one breaks the CI)

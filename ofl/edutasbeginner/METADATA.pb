@@ -21,5 +21,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/MezMerrit/AU-School-Handwriting-Fonts"
-  commit: "80ca0a06c9dc07efb3993d422d9d8a08f746319d"
+  commit: "0dbdee65c92d10e24e5d634719054f4f96b69133"
 }

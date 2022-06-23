@@ -1,19 +1,12 @@
 # New
-ofl/aboreto
 ofl/albertsans
 ofl/alkalami
 ofl/alumnisanspinstripe
-ofl/arima
 ofl/edunswactfoundation
 ofl/eduqldbeginner
 ofl/edusabeginner
 ofl/edutasbeginner
 ofl/eduvicwantbeginner
-ofl/finlandica
-ofl/gantari
-ofl/gentiumbookplus
-ofl/gulzar
-ofl/mingzat
 ofl/notoserifhk
 ofl/rubikburned
 ofl/rubikdirt
@@ -21,24 +14,15 @@ ofl/rubikdistressed
 ofl/rubikiso
 ofl/rubikmarkerhatch
 ofl/rubikmaze
-ofl/splash
 
 # Upgrade
-# ofl/commissioner (broken in sandbox) 
-ofl/akshar
+# ofl/commissioner (broken in sandbox)
 ofl/belleza
-ofl/cormorant
 ofl/gelasio
-ofl/gluten
 ofl/notoserifjp
 ofl/notoserifkr
 ofl/notoserifsc
 ofl/notoseriftc
-ofl/splinesansmono
-
-# Small fix/other
-ofl/familjengrotesk
-ofl/kantumruypro
 
 # Metadata / Description / License
 ofl/notosanshk
@@ -46,41 +30,7 @@ ofl/notosanssc
 ofl/notosanstc
 
 # Designer profile
-catalog/designers/alicesavoie
 catalog/designers/andreasrasmussen
-catalog/designers/helsinkitypestudio
-catalog/designers/jaakkosuomalainen
-catalog/designers/juhohiilivirta
-catalog/designers/lafontype
-catalog/designers/niklasekholm
-catalog/designers/paolobiagini
-catalog/designers/simoncozens
-
-# Knowledge
-cc-by-sa/knowledge/glossary/terms/axis_in_variable_fonts
-cc-by-sa/knowledge/glossary/terms/cyrillic
-cc-by-sa/knowledge/glossary/terms/font
-cc-by-sa/knowledge/glossary/terms/greek_script
-cc-by-sa/knowledge/glossary/terms/ligature
-cc-by-sa/knowledge/glossary/terms/line_height_leading
-cc-by-sa/knowledge/glossary/terms/open_type
-cc-by-sa/knowledge/glossary/terms/script_writing_system
-cc-by-sa/knowledge/glossary/terms/text_copy
-cc-by-sa/knowledge/glossary/terms/typeface
-cc-by-sa/knowledge/glossary/terms/variable_fonts
-cc-by-sa/knowledge/glossary/terms/web_font
-cc-by-sa/knowledge/modules/choosing_type/lessons/a_checklist_for_choosing_type
-cc-by-sa/knowledge/modules/choosing_type/lessons/pairing_typefaces
-cc-by-sa/knowledge/modules/choosing_type/lessons/pairing_typefaces_by_the_same_type_designer_or_type_foundry
-cc-by-sa/knowledge/modules/choosing_type/lessons/pairing_typefaces_within_a_family_superfamily
-cc-by-sa/knowledge/modules/introducing_type/lessons/introducing_alternate_glyphs
-cc-by-sa/knowledge/modules/introducing_type/lessons/why_care_about_typography
-cc-by-sa/knowledge/modules/using_type/lessons/choosing_a_suitable_line_height
-cc-by-sa/knowledge/modules/using_type/lessons/designing_with_variable_fonts_in_desktop_apps
-cc-by-sa/knowledge/modules/using_type/lessons/language_support_in_fonts
-cc-by-sa/knowledge/modules/using_type/lessons/styling_type_on_the_web_with_variable_fonts
-cc-by-sa/knowledge/modules/using_type/lessons/the_foundations_of_web_typography
-cc-by-sa/knowledge/modules/using_type/lessons/using_web_fonts_from_a_font_delivery_service
 
 # API Stuff
 lang/Lib/gflanguages/data/languages/th_Thai.textproto # not the correct path I know (correct one breaks the CI)

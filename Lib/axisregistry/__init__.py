@@ -78,6 +78,9 @@ class AxisRegistry:
     def keys(self):
         return self._data.keys()
 
+    def items(self):
+        return self._data.items()
+
     def get_fallback(self, name):
         for a in self:
             for fallback in self[a].fallback:

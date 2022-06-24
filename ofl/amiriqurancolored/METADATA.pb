@@ -13,8 +13,9 @@ fonts {
   copyright: "Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri)."
 }
 subsets: "arabic"
+subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/aliftype/amiri"
-  commit: "4e06c7950304fdadd7180b85201e6eb0407ea380"
+  commit: "4eb5fa2ec54df5d025644e571eb396e2c8229a28"
 }

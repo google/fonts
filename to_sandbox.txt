@@ -2,6 +2,7 @@
 ofl/albertsans
 ofl/alkalami
 ofl/alumnisanspinstripe
+ofl/dynapuff
 ofl/edunswactfoundation
 ofl/eduqldbeginner
 ofl/edusabeginner
@@ -33,4 +34,4 @@ ofl/notosanstc
 catalog/designers/andreasrasmussen
 
 # API Stuff
-lang/Lib/gflanguages/data/languages/th_Thai.textproto # not the correct path I know (correct one breaks the CI)
+lang/Lib/gflanguages/data/languages/th_Thai.textproto

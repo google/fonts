@@ -245,15 +245,15 @@ def build_name_table(ttFont, family_name=None, style_name=None, siblings=[]):
 
 
 def _fvar_instance_collisions(ttFont, siblings=[]):
-    """Check if a collection of fonts are going to have the same fvar instances."""
-    fallbacks = axis_registry.fallbacks_in_fvar(ttFont)
-    is_italic = ttFont['post'].italicAngle != 0.0
-    for sibling in siblings:
-        sibling_fallbacks = axis_registry.fallbacks_in_fvar(sibling)
-        sibling_italic = sibling['post'].italicAngle != 0.0
-        if sibling_fallbacks == fallbacks and is_italic == sibling_italic:
-            return True
-    return False
+    """Check if a font family is going to have colliding fvar instances.
+
+    Collision occur when a family has has 2+ roman styles or 2+ italic
+    styles."""
+    def is_italic(font):
+        return font['post'].italicAngle != 0.0
+    family_styles = [is_italic(f) for f in siblings + [ttFont]]
+
+    return len(family_styles) != len(set(family_styles))
 
 
 def build_vf_name_table(ttFont, family_name, siblings=[]):

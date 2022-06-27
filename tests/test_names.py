@@ -295,6 +295,7 @@ def _test_names(ttFont, expected):
 )
 def test_name_table(fp, family_name, style_name, siblings, expected):
     font = TTFont(fp)
+    siblings = [TTFont(fp) for fp in siblings]
     build_name_table(font, family_name, style_name, siblings)
     _test_names(font, expected)
 

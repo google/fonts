@@ -242,12 +242,23 @@ def build_name_table(ttFont, family_name=None, style_name=None, siblings=[]):
     return build_static_name_table_v1(ttFont, family_name, style_name)
 
 
+def _fvar_instance_collisions(ttFont, siblings=[]):
+    """Check if a collection of fonts are going to have the same fvar instances."""
+    fallbacks = axis_registry.fallbacks_in_fvar(ttFont)
+    is_italic = ttFont['post'].italicAngle != 0.0
+    for sibling in siblings:
+        sibling_fallbacks = axis_registry.fallbacks_in_fvar(sibling)
+        sibling_italic = sibling['post'].italicAngle != 0.0
+        if sibling_fallbacks == fallbacks and is_italic == sibling_italic:
+            return True
+    return False
+
+
 def build_vf_name_table(ttFont, family_name, siblings=[]):
     # VF name table should reflect the 0 origin of the font!
     assert is_variable(ttFont), "Not a VF!"
     style_name = _vf_style_name(ttFont, family_name)
-    # if there are sibling fonts and the style name isn't wght+ital, use the v1 static method
-    if siblings and style_name not in GF_STATIC_STYLES:
+    if _fvar_instance_collisions(ttFont, siblings):
         build_static_name_table_v1(ttFont, family_name, style_name)
     else:
         build_static_name_table(ttFont, family_name, style_name)

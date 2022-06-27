@@ -132,6 +132,14 @@ class AxisRegistry:
 
 
 axis_registry = AxisRegistry()
+# sort user axes by alphabetical order and append presorted registered axes
+AXIS_ORDER = sorted([i for i in axis_registry if i.isupper()]) + [
+    "opsz",
+    "wdth",
+    "wght",
+    "ital",
+    "slnt",
+]
 
 
 def is_variable(ttFont):
@@ -242,12 +250,25 @@ def build_name_table(ttFont, family_name=None, style_name=None, siblings=[]):
     return build_static_name_table_v1(ttFont, family_name, style_name)
 
 
+def _fvar_instance_collisions(ttFont, siblings=[]):
+    """Check if a font family is going to have colliding fvar instances.
+
+    Collision occur when a family has has 2+ roman styles or 2+ italic
+    styles."""
+
+    def is_italic(font):
+        return font["post"].italicAngle != 0.0
+
+    family_styles = [is_italic(f) for f in siblings + [ttFont]]
+
+    return len(family_styles) != len(set(family_styles))
+
+
 def build_vf_name_table(ttFont, family_name, siblings=[]):
     # VF name table should reflect the 0 origin of the font!
     assert is_variable(ttFont), "Not a VF!"
     style_name = _vf_style_name(ttFont, family_name)
-    # if there are sibling fonts and the style name isn't wght+ital, use the v1 static method
-    if siblings and style_name not in GF_STATIC_STYLES:
+    if _fvar_instance_collisions(ttFont, siblings):
         build_static_name_table_v1(ttFont, family_name, style_name)
     else:
         build_static_name_table(ttFont, family_name, style_name)
@@ -270,9 +291,12 @@ def build_vf_name_table(ttFont, family_name, siblings=[]):
 def _vf_style_name(ttFont, family_name):
     fvar_dflts = _fvar_dflts(ttFont)
     res = []
-    for k, v in fvar_dflts.items():
-        if not v["elided"]:
-            res.append(v["name"])
+    for axis_name in AXIS_ORDER:
+        if axis_name not in fvar_dflts:
+            continue
+        value = fvar_dflts[axis_name]
+        if not value["elided"]:
+            res.append(value["name"])
 
     family_name_tokens = family_name.split()
     font_styles = axis_registry.fallbacks_in_name_table(ttFont)

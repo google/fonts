@@ -6,6 +6,7 @@ from axisregistry import (
     build_fvar_instances,
     build_stat,
     _fvar_dflts,
+    _fvar_instance_collisions,
 )
 import pytest
 import os
@@ -295,6 +296,7 @@ def _test_names(ttFont, expected):
 )
 def test_name_table(fp, family_name, style_name, siblings, expected):
     font = TTFont(fp)
+    siblings = [TTFont(fp) for fp in siblings]
     build_name_table(font, family_name, style_name, siblings)
     _test_names(font, expected)
 
@@ -469,3 +471,38 @@ def test_stat(fp, sibling_fps):
 def test_filename(fp, expected):
     font = TTFont(fp)
     assert build_filename(font) == expected
+
+
+@pytest.mark.parametrize(
+    "fp, sibling_fps, result",
+    [
+        (roboto_flex_fp, [], False),
+        (
+            opensans_roman_fp,
+            [opensans_italic_fp, opensans_cond_roman_fp, opensans_cond_italic_fp],
+            True,
+        ),
+        (
+            opensans_italic_fp,
+            [opensans_roman_fp, opensans_cond_roman_fp, opensans_cond_italic_fp],
+            True,
+        ),
+        (
+            opensans_cond_roman_fp,
+            [opensans_roman_fp, opensans_italic_fp, opensans_cond_italic_fp],
+            True,
+        ),
+        (
+            opensans_cond_italic_fp,
+            [opensans_roman_fp, opensans_italic_fp, opensans_cond_roman_fp],
+            True,
+        ),
+        (opensans_roman_fp, [opensans_cond_roman_fp], True),
+        (opensans_roman_fp, [opensans_italic_fp], False),
+        (wonky_fp, [], False),
+    ]
+)
+def test_fvar_instance_collisions(fp, sibling_fps, result):
+    ttFont = TTFont(fp)
+    siblings = [TTFont(fp) for fp in sibling_fps]
+    assert _fvar_instance_collisions(ttFont, siblings) == result

@@ -132,6 +132,8 @@ class AxisRegistry:
 
 
 axis_registry = AxisRegistry()
+# sort user axes by alphabetical order and append presorted registered axes
+AXIS_ORDER = sorted([i for i in axis_registry if i.isupper()]) + ["opsz", "wdth", "wght", "ital", "slnt"]
 
 
 def is_variable(ttFont):
@@ -281,9 +283,12 @@ def build_vf_name_table(ttFont, family_name, siblings=[]):
 def _vf_style_name(ttFont, family_name):
     fvar_dflts = _fvar_dflts(ttFont)
     res = []
-    for k, v in fvar_dflts.items():
-        if not v["elided"]:
-            res.append(v["name"])
+    for axis_name in AXIS_ORDER:
+        if axis_name not in fvar_dflts:
+            continue
+        value = fvar_dflts[axis_name]
+        if not value["elided"]:
+            res.append(value["name"])
 
     family_name_tokens = family_name.split()
     font_styles = axis_registry.fallbacks_in_name_table(ttFont)

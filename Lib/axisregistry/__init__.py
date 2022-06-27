@@ -133,7 +133,13 @@ class AxisRegistry:
 
 axis_registry = AxisRegistry()
 # sort user axes by alphabetical order and append presorted registered axes
-AXIS_ORDER = sorted([i for i in axis_registry if i.isupper()]) + ["opsz", "wdth", "wght", "ital", "slnt"]
+AXIS_ORDER = sorted([i for i in axis_registry if i.isupper()]) + [
+    "opsz",
+    "wdth",
+    "wght",
+    "ital",
+    "slnt",
+]
 
 
 def is_variable(ttFont):
@@ -249,8 +255,10 @@ def _fvar_instance_collisions(ttFont, siblings=[]):
 
     Collision occur when a family has has 2+ roman styles or 2+ italic
     styles."""
+
     def is_italic(font):
-        return font['post'].italicAngle != 0.0
+        return font["post"].italicAngle != 0.0
+
     family_styles = [is_italic(f) for f in siblings + [ttFont]]
 
     return len(family_styles) != len(set(family_styles))

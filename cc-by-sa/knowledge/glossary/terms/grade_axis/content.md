@@ -9,7 +9,7 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 Negative grade makes the style lighter, while positive grade makes it heavier.
 
-The units are the same as in the weight (`wght`) axis. This is important to use the two axes together, systematically. For example, where Material Design or accessibility guidelines recommend to use a Medium (500) weight for a button label to obtain a certain contrast level, using Regular (400) weight with grade +100, if your grade axis goes up to 100, will produce the same level of contrast - but without any reflow.
+The units are the same as in the [weight (`wght`) axis](/glossary/weight_axis) and it’s important to use the two axes together, systematically. For example, where accessibility guidelines recommend using a Medium (500) weight for a button label to obtain a certain contrast level, using a Regular (400) weight with grade +100 (if the grade axis goes up to 100) will produce the same level of contrast—but without any reflow.
 
 <figure>
 

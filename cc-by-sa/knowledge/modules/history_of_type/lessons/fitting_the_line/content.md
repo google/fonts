@@ -65,7 +65,7 @@ The numbering system was [adapted **MISSING_URL**](INSERT_URL) from the one Frut
 
 The result was a coherent system: “For the first time in the history of letterpress printing,” writes Emil Ruder in Frutiger’s “Type, sign, symbol,” a foundry had “built up an extensive family of typefaces, not as a consequence of the first successful font but in accordance with a plan from the beginning.” (Rudefr advised Frutiger on the design of Univers.)
 
-While not planned out with the rigor of Univers, [Cheltenham](https://en.wikipedia.org/wiki/Cheltenham_(typeface)) was perhaps the first extensive family of metal types. By the turn of the twentieth century, typefaces like De Vinne and Philadelphia Lining Gothic had demonstrated the viability of the “type family” idea, but it was with Cheltenham, according to Alexander Lawson in “Anatomy of a Typeface,” that it “really blossomed.”**10**
+While not planned out with the rigor of Univers, [Cheltenham](https://en.wikipedia.org/wiki/Cheltenham_(typeface)) was perhaps the first extensive family of metal types. By the turn of the twentieth century, typefaces like De Vinne and Philadelphia Lining Gothic had demonstrated the viability of the “type family” idea, but it was with Cheltenham, according to Alexander Lawson in “Anatomy of a Typeface,” that it “really blossomed.”
 
 <figure>
 
@@ -83,9 +83,9 @@ Designed by architect [Bertram Grosvenor Goodhue](https://en.wikipedia.org/wiki/
 
 </figure>
 
-“The Helvetica of its time,”**11** Cheltenham fell victim to its own ubiquity. It came to be seen as overused and out-of-date. By 1925, although it continued to be a bestseller, J.L. Frazier was not alone in saying that Cheltenham was dying.**12** But Cheltenham remains with us, and has been revived many times, notably in 1975 for ITC by Tony Stan, who made major changes in the design; he approached the project “with the eyes of a 70’s designer, and with the freedom of modern film typesetting at his disposal.”13 A custom version of Cheltenham [continues to be used](https://www.nytimes.com/2003/10/21/business/the-media-business-a-face-lift-for-the-times-typographically-that-is.html) for headlines by the New York Times.
+Called “The Helvetica of its time” by type designer Charles Bigelow, Cheltenham fell victim to its own ubiquity. It came to be seen as overused and out-of-date. But Cheltenham remains with us, and has been revived many times—notably in 1975 for ITC by Tony Stan, who made major changes in the design. “Upper and Lower Case, the International Journal of Typographics” said that he approached the project “with the eyes of a 70’s designer, and with the freedom of modern film typesetting at his disposal.” A custom version of Cheltenham [continues to be used](https://www.nytimes.com/2003/10/21/business/the-media-business-a-face-lift-for-the-times-typographically-that-is.html) for headlines by the New York Times.
 
-Decades before Cheltenham, though, manufacturers of wood display type were cutting their antiques, romans, and gothics in a whole series of additional weights and widths. They even had standardized naming conventions: Condensed, Extra Condensed, Double Extra Condensed, Treble Extra Condensed, as well as Extended and Expanded.14
+Decades before Cheltenham, though, manufacturers of wood display type were cutting their antiques, romans, and gothics in a whole series of additional weights and widths. They even had standardized naming conventions: Condensed, Extra Condensed, Double Extra Condensed, Treble Extra Condensed, as well as Extended and Expanded.
 
 <figure>
 
@@ -142,7 +142,7 @@ In the computer age, of course, changing the width of letters is a snap. For dec
 
 </figure>
 
-The problem with this sort of photographic or digital manipulation is that it deforms the letters, redistributing weight in an awkward way, and at its worst, makes text truly unreadable. But that hasn’t stopped users of page layout programs from availing themselves of this feature. Horizontal and vertical scaling was abused so frequently in the era of desktop publishing that Ellen Lupton included it among the “type crimes” in her textbook “Thinking with Type:” “Instead of torturing a letterform,” she advised her readers, “choose a typeface that has the proportions you are looking for, such as condensed, compressed, wide, or extended.”**19**
+The problem with this sort of photographic or digital manipulation is that it deforms the letters, redistributing weight in an awkward way, and at its worst, makes text truly unreadable. But that hasn’t stopped users of page layout programs from availing themselves of this feature. Horizontal and vertical scaling was abused so frequently in the era of desktop publishing that Ellen Lupton included it among the “type crimes” in her textbook “Thinking with Type:” “Instead of torturing a letterform,” she advised her readers, “choose a typeface that has the proportions you are looking for, such as condensed, compressed, wide, or extended.”
 
 ## Fitting the line today
 

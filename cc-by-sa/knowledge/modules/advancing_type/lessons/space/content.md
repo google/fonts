@@ -1,7 +1,5 @@
 
-1. Space—where typography begins
-
-Type is, in essence,  a series of shapes, in various combinations, hanging onto a framework of rectangles. Typography can contain a lot of different elements, beyond text and space, like symbols, icons, rules, ornaments, and effects. But for the most part, it contains just the marks of glyphs and the spaces within and around them. And the majority of the fonts we use today contain mostly space.
+[Type](/glossary/type) is, in essence,  a series of shapes, in various combinations, hanging onto a framework of rectangles. [Typography](/glossary/typography) can contain a lot of different elements, beyond text and space, like symbols, icons, rules, ornaments, and effects. But for the most part, it contains just the marks of glyphs and the spaces within and around them. And the majority of the fonts we use today contain mostly space.
 
 So let’s take a closer look at the  roles of these spaces, the interplay of their roles, and how some of their roles change with the addition of variable fonts.
 
@@ -16,7 +14,7 @@ The em square
 
 In type, this square represents to the type designer two things that are important links to the reader:
 
-1. Vertically, the space represents where the vertical intersection is between lines of text when the font is composed at any size, without additional vertical space.
+One: Vertically, the space represents where the vertical intersection is between lines of text when the font is composed at any size, without additional vertical space.
 
 [ILLO]
 The vertical dimensions of a font’s main glyph groups
@@ -26,7 +24,7 @@ So the type designer plans the vertical metrics of all the characters of a typef
 [ILLO]
 Length of text/various ways to see it  
 
-2. Horizontally, the measure of the height is where “em square” comes from, though when the font of a script and design are proportionally spaced (as in many Latin scripts), the horizontal dimension of each glyph represents the default spacing of each character. This allows them the best spacing solution in consideration with all the other characters in the font. (So far, this is true of all scripts, and all designs.)
+Two: Horizontally, the measure of the height is where “em square” comes from, though when the font of a script and design are proportionally spaced (as in many Latin scripts), the horizontal dimension of each glyph represents the default spacing of each character. This allows them the best spacing solution in consideration with all the other characters in the font. (So far, this is true of all scripts, and all designs.)
 
 [ILLO]
 Glyphs of different widths. Monospaced all one width.

@@ -43,7 +43,7 @@ The 1970’s to 1990’s merger of the office and large-publication editorial de
 
 This was luckily saved by variable fonts. Long ago, the needs of web design for type responsive to portal, size, resolution, and the many preferences for the weight of types opened up the possibility of—and need for—fluid, micro-manageable weight axes.
 
-How they are defined in the weight axes of Roboto Flex, for example, reflects a very broad spectrum of possibilities over a wide range of sizes and widths. This gives us the chance to either use the whole design, or constrain its use to show how fonts with only weight variations, or substantially less range, compare in functionality, i.e.; they’re apples to apples with only different ways of slicing them to compare.
+How they are defined in the weight axes of [Roboto Flex](https://fonts.google.com/specimen/Roboto+Flex), for example, reflects a very broad spectrum of possibilities over a wide range of sizes and widths. This gives us the chance to either use the whole design, or constrain its use to show how fonts with only weight variations, or substantially less range, compare in functionality, i.e.; they’re apples to apples with only different ways of slicing them to compare.
 
 [ILLO]
 Fig. 6

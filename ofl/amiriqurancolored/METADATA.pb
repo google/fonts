@@ -17,5 +17,5 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/aliftype/amiri"
-  commit: "4eb5fa2ec54df5d025644e571eb396e2c8229a28"
+  archive_url: "https://github.com/aliftype/amiri/releases/download/0.116/Amiri-0.116.zip"
 }

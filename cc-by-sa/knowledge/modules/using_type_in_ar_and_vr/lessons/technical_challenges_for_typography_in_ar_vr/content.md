@@ -1,4 +1,4 @@
-In **the previous article**, we discussed the rendering of text in AR/VR applications, which still follows models from  the ‘90s. The challenges for good typography don’t end there, so let’s discuss some of these further technical considerations. Understanding them can help in designing better experiences for AR/VR; it can also help type designers create typefaces specifically intended for AR/VR.
+In [“Designing for AR/VR”](/lesson/designing_for_ar_vr), we explored how the rendering of text in AR/VR applications still follows models from  the ’90s. The challenges for good typography don’t end there, so let’s discuss some of these further technical considerations. Understanding them can help in designing better experiences for AR/VR; it can also help type designers create typefaces specifically intended for AR/VR.
 
 ## Field of view (FoV)
 

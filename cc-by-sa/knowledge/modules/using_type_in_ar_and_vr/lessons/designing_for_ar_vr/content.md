@@ -1,6 +1,6 @@
 As we develop and experience more sophisticated augmented reality and virtual reality (AR/VR) applications, the introduction of more features and functions increases the complexity of information in front of the reader. Our existing typographic rules are not sufficient to address these new variables.
 
-The careful consideration of typography in this new medium doesn’t end with dimensionality. How does text behave when we’re looking at it? Does it follow our head movements, or is it fixed somewhere in the 3D space? How does it behave when we’re looking at it from an angle? Does it have to be stationary, or should it move with our gaze? Should these behaviors be different if the user is moving? **(This is discussed in detail in article 4)**
+The careful consideration of typography in this new medium doesn’t end with dimensionality. How does text behave when we’re looking at it? Does it follow our head movements, or is it fixed somewhere in the 3D space? How does it behave when we’re looking at it from an angle? Does it have to be stationary, or should it move with our gaze? Should these behaviors be different if the user is moving? This is discussed in detail in [“Spatial classification of typography in AR/VR.”](/lesson/spatial_classification_of_typography_in_ar_vr)
 
 In AR/VR, texts are no longer experienced in a static form. Movement, rotation, and rendering factors (frame rate, resolution) create challenges for text display like perspective distortion, distance reading, distortion of letter shapes, etc. Some of these challenges are not new at all, but the three-dimensional medium changes the context and introduces new complexities. For example, learnings from highway signages typography can be applied to scenarios where we want to convey quick information to a user wearing AR glasses while walking on the road. In this case, directly translating the guidelines might not work well enough because there are limitations in text rendering, the brightness of displays, the contrast of letters and their background, and so on. This is where typography for AR/VR has to evolve and solve these novel challenges.
 
@@ -29,13 +29,13 @@ Here are some quick tips:
 - Use 2D text for sentences and paragraphs.
 - If 3D text is absolutely necessary, adjust the letter spacing to ensure legibility
 
-Ensure that the difference in color on the face of your text vs depth provides enough contrast against its depth to aid legibility.At the time of writing, typography in AR/VR applications is in the early stages of development **(read more about it in our next article)**, and it will take time to reach the level of typographic refinement we’re used to on the web. However, considering these new possibilities will help us prepare for what’s next in the evolution of wearable technology.
+Ensure that the difference in color on the face of your text vs depth provides enough contrast against its depth to aid legibility. At the time of writing, typography in AR/VR applications is in the early stages of development, and it will take time to reach the level of typographic refinement we’re used to on the web. However, considering these new possibilities will help us prepare for what’s next in the evolution of wearable technology.
 
 ## [INSERT HEADING]
 
 We’ve moved past the time when designers and typographers had full control over the medium in which people read. Today, we have limited control over how and where (device, platform, window size) the text is going to be read. Responsive layouts have helped in gaining more control. However, in browsers and mobile applications, text often has to be rendered twice—once when the text is loaded, and again when there’s a change in parameters, such as layout.
 
-In AR/VR, where the point of view (POV) is constantly moving, we have dynamic text rendering. The glyphs in these cases are rendered continuously based on movement, and the size of the text is never the same from one frame to another. This necessitates the use of dynamic rendering of text with high-quality output on the fly to accommodate the changes in size and position of the text. (This applies to spatial applications, where text floats in free space as opposed to text sticking to the HUD [heads-up display]). In HUDs, the text remains in one place and there is no change in size or position, as discussed in **article 3**.
+In AR/VR, where the point of view (POV) is constantly moving, we have dynamic text rendering. The glyphs in these cases are rendered continuously based on movement, and the size of the text is never the same from one frame to another. This necessitates the use of dynamic rendering of text with high-quality output on the fly to accommodate the changes in size and position of the text. (This applies to spatial applications, where text floats in free space as opposed to text sticking to the HUD [heads-up display]). In HUDs, the text remains in one place and there is no change in size or position, as discussed in [“Introducing AR/VR.”](/lesson/introducing_ar_vr)
 
 These issues have conventionally been solved by using pre-rendered (bitmap) glyphs stored as texture maps for rendering text. Though this is a fast way of rendering letters, it causes blurring and other text-related issues once the size of the glyph increases beyond the size originally rendered. Similarly, [FreeType](https://freetype.org/freetype2/docs/index.html) is also becoming a popular alternative where rasterized images of fonts are generated from the vector data of TrueType fonts.
 
@@ -66,9 +66,9 @@ While designing a AR/VR  app or experience, the designer sets a standard optimum
 
 </figure>
 
-If we compare this to the rendering of text in current browsers, it’s a primitive method that’s on par with bitmap font rendering technology in the ‘90s. In today’s world, text in browsers is rendered directly from the vector shapes in the OTF/ TTF font files.
+If we compare this to the rendering of text in current browsers, it’s a primitive method that’s on par with bitmap font rendering technology in the ’90s. In today’s world, text in browsers is rendered directly from the vector shapes in the OTF/ TTF font files.
 
-This means extra care is required while designing AR/VR applications. The typefaces we select must be able to withstand these limitations. **(More limitations are discussed in the next article)**.
+This means extra care is required while designing AR/VR applications. The typefaces we select must be able to withstand these limitations. More limitations are discussed in [“Type selection for AR/VR.”](/lesson/type_selection_for_ar_vr)
 
 While both the hardware and software aspects of AR/VR implementation are advancing rapidly, type within them have a lot of catching up to do. For a long time, the need for extra processing power to render text properly has hampered progress. This pushes AR/VR designers to resort to the least CPU-intensive methods to render text, thereby degrading the quality of the text. It also keeps designers from considering rich text applications, thus limiting the potential of AR/VR environments.
 

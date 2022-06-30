@@ -33,7 +33,7 @@ The placement of text in 3D space in reference to the reader’s head is crucial
 
 ### Anchored to head
 
-In this case, the information moves with the person’s head so it’s always in front of them. It’s more intrusive and, in AR, this might create dangerous scenarios by limiting the visibility of the real world. This is recommended only for crucial information and for short texts.
+In this case, the information moves with the person’s head so it’s always in the reader’s view. It’s more intrusive and, in AR, this might create dangerous scenarios by limiting the visibility of the real world. This is recommended only for crucial information and for short texts.
 
 <figure>
 
@@ -42,7 +42,7 @@ In this case, the information moves with the person’s head so it’s always in
 
 </figure>
 
-It’s not advisable to anchor long-running text (i.e., paragraphs) to the head. In most headsets, the ends of long lines will be harder to read due to distortion close to the edges of the lens, so users might face legibility issues. Our heads tend to move a few degrees at most times, even if we are not aware of this. When reading text anchored to the head, these slight head movements result in jitter, which is not a good reading experience. In VR, to reduce jitter, UI elements may ease back into view when someone’s head moves past the UI.
+It’s not advisable to anchor long-running text (i.e., paragraphs) to the head. In most headsets, the ends of long lines will be harder to read due to distortion close to the edges of the lens, so users might face legibility issues. Our heads tend to move a few degrees at most times, even if we are not aware of this. When reading text anchored to the head, these slight head movements might potentially result in jitter, which is not a good reading experience. In AR/VR, to reduce jitter, UI elements may ease back into view when someone’s head moves past the UI.
 
 ### Anchored to space
 
@@ -68,7 +68,7 @@ We can also decide on text placement based on its perceived distance from the us
 
 ### Heads-up display (HUD) region
 
-This region is reserved for user interface (UI) elements that are anchored to the head and stay in their view no matter where someone’s looking (as shown by the first image). It can be used for showing essential information, such as time, or notifications, similar to the status bar in smartphones. However, this space should be used sparingly for absolutely necessary elements. It’s recommended not to place objects too close to the subject as it results in the accommodation-vergence conflict, which causes visual fatigue.
+This region is reserved for user interface (UI) elements that are anchored to the head and stay in their view no matter where someone’s looking (as shown by the first image). It can be used for showing essential information, such as time, or notifications, similar to the status bar in smartphones. However, this space should be used sparingly for important elements. It’s recommended not to place objects too close to the subject as it results in the accommodation-vergence conflict, which causes visual fatigue.
 
 <figure>
 

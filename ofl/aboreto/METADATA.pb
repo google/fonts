@@ -17,5 +17,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/domija/Aboreto"
-  commit: "1e95874acc78d09b7766c398ba5514ebdb365db0"
+  commit: "07795db7fb5cf9029f1bac1ae0b130bbae6c5feb"
 }

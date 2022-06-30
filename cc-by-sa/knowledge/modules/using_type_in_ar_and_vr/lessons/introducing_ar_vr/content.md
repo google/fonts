@@ -62,7 +62,7 @@ We can also decide on text placement based on its perceived distance from the us
 <figure>
 
 ![INSERT_ALT](images/introducing_ar_vr_4.png)
-<figcaption>The distances are approximations based on different studies and guidelines for AR displays.</figcaption>
+<figcaption>The distances are approximations based on different studies and guidelines for AR/VR displays.</figcaption>
 
 </figure>
 
@@ -85,7 +85,7 @@ This is the ideal region for texts to be placed for the most comfortable viewing
 
 ### Environment (world) region
 
-The final region houses all the elements anchored to space on objects, such as the surface of a building that are usually out of the subject’s control, or with limited potential for interaction, such as the surface of a building. Virtual signage or location markers that give people information about real-world objects are typical uses of text here. The augmented information in this region can extend to infinity, so it’s up to the designers to decide how far to extend the experience and the amount of information on display. Then, the density of this information can help determine the right typefaces and optimal typesetting parameters. For example, if the subject is wearing AR glasses, they can see information from a few meters away to several blocks in front of them. The potential information density in such cases increases with distance, so this presents an interesting challenge for content creators.
+The final region houses all the elements anchored to space on objects, such as the surface of a building that are usually out of the subject’s control, or with limited potential for interaction, such as the surface of a building. Virtual signage or location markers that give people information about real-world objects are typical uses of text here. The augmented information in this region can extend to infinity, so it’s up to the designers to decide how far to extend the experience and the amount of information on display. Then, the density of this information can help determine the right typefaces and optimal typesetting parameters. For example, if the subject is wearing AR/VR glasses, they can see information from a few meters away to several blocks in front of them. The potential information density in such cases increases with distance, so this presents an interesting challenge for content creators.
 
 We also need to remember that the person’s movement can potentially bring the text from the environment region into the interaction region. This will increase the complexity in the design, since multiple interaction scenarios need to be envisaged.
 

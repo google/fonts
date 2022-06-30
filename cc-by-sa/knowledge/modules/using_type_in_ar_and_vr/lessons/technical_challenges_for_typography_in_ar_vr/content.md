@@ -1,4 +1,4 @@
-In **the previous article**, we discussed the rendering of text in VR/AR applications, which still follows models from  the ‘90s. The challenges for good typography don’t end there, so let’s discuss some of these further technical considerations. Understanding them can help in designing better experiences for VR/AR; it can also help type designers create typefaces specifically intended for VR/AR.
+In **the previous article**, we discussed the rendering of text in AR/VR applications, which still follows models from  the ‘90s. The challenges for good typography don’t end there, so let’s discuss some of these further technical considerations. Understanding them can help in designing better experiences for AR/VR; it can also help type designers create typefaces specifically intended for AR/VR.
 
 ## Field of view (FoV)
 
@@ -12,12 +12,13 @@ FoV is the range of the observable world at a given point in time, measured in d
 </figure>
 
 From a typographic perspective, the FoV limits the width of the paragraphs we can display, in order to provide a better experience.
-At the time of writing, current AR headsets have FoVs between 40° and 100°, which is relatively low compared to the human eye. This means objects closer to the eye appear cropped (see the image below). To see the full object, they either have to step back, or move their head around. Therefore, a wider FOV is preferred for better immersion.
+
+At the time of writing, current AR/VR headsets have FoVs between 40° and 100°, which is relatively low compared to the human eye. This means objects closer to the eye appear cropped (see the image below). To see the full object, they either have to step back, or move their head around. Therefore, a wider FOV is preferred for better immersion.
 
 <figure>
 
 ![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_2.png)
-<figcaption>A comparison between the real FoV of human eyes on the left vs. the FoV present in AR devices.</figcaption>
+<figcaption>A comparison between the real FoV of human eyes on the left vs. the FoV present in AR/VR devices.</figcaption>
 
 </figure>
 
@@ -27,7 +28,7 @@ It’s hard to produce sufficient brightness to achieve good contrast in see-thr
 
 ## Resolution
 
-The resolution of a display affects the level of details perceived by the human eye more than anything else. In AR devices, the useful metric for resolution is pixels per degree (PPD). This is the number of pixels within 1° of vision in front of the eye. We can calculate the PPD by dividing the number of pixels in the horizontal display line by the horizontal FoV that’s provided by the optics of the display lens. In a display with 1280x800px, there are 640x800  pixels per eye; with a FoV of 90°, the PPD comes out at 7.1 (640/90). This is far too low compared to the resolution of the human eye, which is approximately 60 PPD.
+The resolution of a display affects the level of details perceived by the human eye more than anything else. In AR/VR devices, the useful metric for resolution is pixels per degree (PPD). This is the number of pixels within 1° of vision in front of the eye. We can calculate the PPD by dividing the number of pixels in the horizontal display line by the horizontal FoV that’s provided by the optics of the display lens. In a display with 1280x800px, there are 640x800  pixels per eye; with a FoV of 90°, the PPD comes out at 7.1 (640/90). This is far too low compared to the resolution of the human eye, which is approximately 60 PPD.
 
 Lower pixel density can cause blurring of text, pixelation, and the screen door effect: the visible fine lines between pixels on a display when seen up close (discussed below). A higher PPD results in sharper and more realistic images. But note that a higher pixel density in the display is not necessarily sufficient, because the pixels on the screen are magnified through lenses in the headset. Devices may have varying optics, which results in different pixel magnification—which creates different pixel densities presented to the eye.
 

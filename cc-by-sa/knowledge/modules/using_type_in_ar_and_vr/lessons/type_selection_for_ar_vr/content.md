@@ -1,4 +1,4 @@
-So far in this series, we’ve discussed various aspects of typography in VR/AR. Now let's focus on considerations to keep in mind when selecting Latin typefaces and setting type in VR/AR applications. This information can also feed into the design of new typefaces that are better suited for VR/AR.
+So far in this series, we’ve discussed various aspects of typography in AR/VR. Now let's focus on considerations to keep in mind when selecting Latin typefaces and setting type in AR/VR applications. This information can also feed into the design of new typefaces that are better suited for AR/VR.
 
 ## Counters
 
@@ -44,7 +44,7 @@ High contrast typefaces have strokes that change in thickness significantly with
 </figure>
 
 The higher the contrast, the more pixels are required to render details properly. This in turn requires either the text to be larger in size, or the resolution of the headset to be higher.
-Low-to-moderate contrast typefaces are ideal for a wide range of headsets. A common myth is that serif typefaces are not ideal for VR/AR. This isn’t true; only high-contrast serif typefaces suffer from legibility and distortion issues.
+Low-to-moderate contrast typefaces are ideal for a wide range of headsets. A common myth is that serif typefaces are not ideal for AR/VR. This isn’t true; only high-contrast serif typefaces suffer from legibility and distortion issues.
 
 ## Width
 
@@ -59,7 +59,7 @@ Viewing text at an angle sometimes merges the adjacent strokes and affects the v
 
 </figure>
 
-Typefaces with wider letter shapes perform well in terms of legibility, as most of the text in VR/AR is placed at a distance, unlike conventional mediums.
+Typefaces with wider letter shapes perform well in terms of legibility, as most of the text in AR/VR is placed at a distance, unlike conventional mediums.
 - In condensed typefaces, letters become too narrow when viewed at an angle. This brings vertical strokes together and causes legibility issues. However, this can be offset by ample letter spacing. Serif typefaces—and well-designed sans serif typefaces—tend to have vertical strokes that are further apart. This aids legibility, especially when seen from an angle.
 - Condensed typefaces perform poorly in distance viewing, too.
 - Wider typefaces perform better in a variety of use cases. But, they occupy more space, and therefore fit a smaller number of characters per line.
@@ -87,16 +87,16 @@ Ascenders play a bigger role in letter recognition as compared to descenders.
 
 ## Joints/Intersections
 
-The thinning of strokes at joints is a standard practice in type design, to visually compensate for heavy spots at stroke junctions. In VR/AR headsets, the excessive glow of pixels (halation) distorts the shape of the letterforms, and this hampers legibility. Monolinear typefaces with very low stroke modulation suffer from distortion and excess glow at the joints.
+The thinning of strokes at joints is a standard practice in type design, to visually compensate for heavy spots at stroke junctions. In AR/VR headsets, the excessive glow of pixels (halation) distorts the shape of the letterforms, and this hampers legibility. Monolinear typefaces with very low stroke modulation suffer from distortion and excess glow at the joints.
 While selecting the typefaces, be sure to perform thorough tests on the headsets paying particular attention to the joints of strokes.
 Check if the strokes become thinner at the joints (observe with bare eyes).
 See if they appear heavy at the junctions (on headsets).
 Observe the change in the shape of the letters (on headsets).
-Look for typefaces that compensate for heaviness in joints via stroke modulation or ink traps (or, VR/AR, light traps, since the text is rendered by light instead of ink.)
+Look for typefaces that compensate for heaviness in joints via stroke modulation or ink traps (or, AR/VR, light traps, since the text is rendered by light instead of ink.)
 
 ## Stroke Endings
 
-Halation and chromatic aberration in VR/AR headsets spreads the light in all directions, causing the boundaries of the letters to disappear and give an impression of rounded edges. In some cases, the size of the letters is also affected, as rounded edges reduce the size perceived by the user.
+Halation and chromatic aberration in AR/VR headsets spreads the light in all directions, causing the boundaries of the letters to disappear and give an impression of rounded edges. In some cases, the size of the letters is also affected, as rounded edges reduce the size perceived by the user.
 
 This rounding effect significantly impacts legibility, readability, and aesthetic issues at a typographic level.
 
@@ -115,6 +115,6 @@ Typefaces with sturdy stroke endings tend to perform better over those with less
 
 ## Letter spacing
 
-Compared to other mediums, spacing in VR/AR plays a decisive factor. Tightly spaced letters cause significant legibility issues, as they crowd and interfere with each other, making it hard to recognise individual letters. Therefore, it becomes necessary to have generous spacing between letters to compensate for the merging of strokes in perspective view. The ideal spacing must take into consideration the perceived width of individual strokes and whole letterforms due to irradiation and chromatic aberration.
+Compared to other mediums, spacing in AR/VR plays a decisive factor. Tightly spaced letters cause significant legibility issues, as they crowd and interfere with each other, making it hard to recognise individual letters. Therefore, it becomes necessary to have generous spacing between letters to compensate for the merging of strokes in perspective view. The ideal spacing must take into consideration the perceived width of individual strokes and whole letterforms due to irradiation and chromatic aberration.
 
-The spacing in VR/AR should balance internal and external spaces without compromising the reading speed Therefore the weight and width of the typeface needs to be considered in combination with the optimal letter spacing for each text environment.
+The spacing in AR/VR should balance internal and external spaces without compromising the reading speed Therefore the weight and width of the typeface needs to be considered in combination with the optimal letter spacing for each text environment.

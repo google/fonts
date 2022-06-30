@@ -1,12 +1,13 @@
 Let’s group some of the concepts we’ve discussed in previous articles from this module into spatial classifications. This can help with considerations for choosing typefaces, setting text, and even designing typefaces for different applications. This classification may also help with picking the most appropriate rendering methods **(article 5)** for displaying text in AR/VR experiences. For example, text belonging to the “Text in HUD” category remains fixed in size, so the standard textures of each size can be used without a loss in resolution as people move closer to the text. On the other hand, text in the “Sticky info text” category requires a higher resolution, since people have control over their distance from the text and can move toward or away from it. This classification can also help with exploring the application of variable fonts across different cases **(article 2)**.
 
-[THIS TABLE ILLUSTRATION WILL BECOME ACTUAL TEXT, NOT AN IMAGE]
-
-<figure>
-
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_0.png)
-
-</figure>
+| Type of text: | Position: | Viewing angle: | Text state: | User’s state: | Examples: |
+| --- | --- | --- | --- | --- | --- |
+| “Text in HUD” | HUD region | Fixed | Stationary, moving | Still, moving | Time, notifications, text updates, music track name |
+| “Text for long reading” | UI/interaction region | Fixed, variable | Stationary | Still | Descriptions, articles, long-form reading |
+| “Sticky info text” | UI/interaction region | Variable | Stationary | Still | Info over real-world objects |
+| “Signage text” | Environment region | Variable | Stationary | Still, moving | Signages, billboards |
+| “Responsive text” | UI/interaction region, environment region | Variable | Stationary, moving | Still, moving | Navigation markers, responsive ads |
+| “Ticker text” | HUD region, environment region | Fixed, variable | Moving | Still, moving | News, long-running info, ads |
 
 ## Text in HUD
 

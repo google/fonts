@@ -17,9 +17,12 @@ ofl/rubikmarkerhatch
 ofl/rubikmaze
 
 # Upgrade
-# ofl/commissioner (broken in sandbox)
 ofl/belleza
 ofl/gelasio
+ofl/notosansavestan
+ofl/notosansbuhid
+ofl/notoserifahom
+ofl/notoserifdogra
 ofl/notoserifjp
 ofl/notoserifkr
 ofl/notoserifsc
@@ -32,6 +35,7 @@ ofl/notosanstc
 
 # Designer profile
 catalog/designers/andreasrasmussen
+catalog/designers/bornaizadpanah
 
 # API Stuff
-lang/Lib/gflanguages/data/languages/th_Thai.textproto
+lang/languages/th_Thai.textproto

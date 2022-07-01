@@ -320,9 +320,14 @@ def build_fvar_instances(ttFont, axis_dflts={}):
     name_table = ttFont["name"]
     style_name = name_table.getBestSubFamilyName()
 
+    # Protect name IDs which are shared with the STAT table
+    stat_nameids = []
+    if "STAT" in ttFont:
+        stat_nameids = [av.ValueNameID for av in ttFont["STAT"].table.AxisValueArray.AxisValue]
+
     # rm old fvar subfamily and ps name records
     for inst in fvar.instances:
-        if inst.subfamilyNameID not in [2, 17]:
+        if inst.subfamilyNameID not in [2, 17] + stat_nameids:
             name_table.removeNames(nameID=inst.subfamilyNameID)
         if inst.postscriptNameID not in [65535, 6]:
             name_table.removeNames(nameID=inst.postscriptNameID)

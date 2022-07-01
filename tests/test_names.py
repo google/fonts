@@ -500,7 +500,7 @@ def test_filename(fp, expected):
         (opensans_roman_fp, [opensans_cond_roman_fp], True),
         (opensans_roman_fp, [opensans_italic_fp], False),
         (wonky_fp, [], False),
-    ]
+    ],
 )
 def test_fvar_instance_collisions(fp, sibling_fps, result):
     ttFont = TTFont(fp)

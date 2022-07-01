@@ -1,0 +1,5 @@
+pytest>=4.5.0
+coverage>=5
+black
+isort
+flake8-bugbear

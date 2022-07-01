@@ -522,7 +522,6 @@ def test_fvar_instance_collisions(fp, sibling_fps, result):
 )
 def test_build_variations_ps_name(fp, result):
     ttFont = TTFont(fp)
-    family_name = ttFont["name"].getBestFamilyName()
-    build_variations_ps_name(ttFont, family_name)
+    build_variations_ps_name(ttFont)
     variation_ps_name = ttFont["name"].getName(25, 3, 1, 0x409).toUnicode()
     assert variation_ps_name == result

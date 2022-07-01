@@ -275,8 +275,10 @@ def build_vf_name_table(ttFont, family_name, siblings=[]):
     build_variations_ps_name(ttFont, family_name)
 
 
-def build_variations_ps_name(ttFont, family_name):
+def build_variations_ps_name(ttFont, family_name=None):
     assert is_variable(ttFont), "Not a VF!"
+    if not family_name:
+        family_name = ttFont["name"].getBestFamilyName()
     font_styles = axis_registry.fallbacks_in_name_table(ttFont)
     if font_styles:
         vf_ps = family_name.replace(" ", "") + "".join(

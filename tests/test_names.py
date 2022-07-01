@@ -5,6 +5,7 @@ from axisregistry import (
     build_filename,
     build_fvar_instances,
     build_stat,
+    build_variations_ps_name,
     _fvar_dflts,
     _fvar_instance_collisions,
 )
@@ -506,3 +507,21 @@ def test_fvar_instance_collisions(fp, sibling_fps, result):
     ttFont = TTFont(fp)
     siblings = [TTFont(fp) for fp in sibling_fps]
     assert _fvar_instance_collisions(ttFont, siblings) == result
+
+
+@pytest.mark.parametrize(
+    "fp, result",
+    [
+        (roboto_flex_fp, "RobotoFlex"),
+        (opensans_roman_fp, "OpenSans"),
+        (opensans_italic_fp, "OpenSansItalic"),
+        (opensans_cond_roman_fp, "OpenSansCondensed"),
+        (opensans_cond_italic_fp, "OpenSansCondensedItalic"),
+        (wonky_fp, "Wonky"),
+    ],
+)
+def test_build_variations_ps_name(fp, result):
+    ttFont = TTFont(fp)
+    build_variations_ps_name(ttFont)
+    variation_ps_name = ttFont["name"].getName(25, 3, 1, 0x409).toUnicode()
+    assert variation_ps_name == result

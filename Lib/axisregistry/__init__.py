@@ -323,7 +323,8 @@ def build_fvar_instances(ttFont, axis_dflts={}):
     # Protect name IDs which are shared with the STAT table
     stat_nameids = []
     if "STAT" in ttFont:
-        stat_nameids = [av.ValueNameID for av in ttFont["STAT"].table.AxisValueArray.AxisValue]
+        if stat.table.AxisValueCount > 0:
+            stat_nameids = [av.ValueNameID for av in ttFont["STAT"].table.AxisValueArray.AxisValue]
 
     # rm old fvar subfamily and ps name records
     for inst in fvar.instances:

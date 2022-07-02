@@ -8,6 +8,6 @@ Measure is the name given to the length of a line of [text](/glossary/text_copy)
 
 </figure>
 
-Measure is an important factor in creating [readable](/glossary/legibility_readability) text. Lines that are too *narrow* disrupt the reading experience by forcing the reader to jump to a new line too often; lines that are too *wide* disrupt the reading experience by making it more difficult for the reader to effortlessly move their eye to the next line. This can result in lines being missed or repeated unnecessarily.
+Measure is an important factor in creating [readable](/glossary/readability) text. Lines that are too *narrow* disrupt the reading experience by forcing the reader to jump to a new line too often; lines that are too *wide* disrupt the reading experience by making it more difficult for the reader to effortlessly move their eye to the next line. This can result in lines being missed or repeated unnecessarily.
 
 It’s also worth noting that changes to the measure should also influence [line height](/glossary/line_height_leading). Generally, longer lines need more generous line spacing.

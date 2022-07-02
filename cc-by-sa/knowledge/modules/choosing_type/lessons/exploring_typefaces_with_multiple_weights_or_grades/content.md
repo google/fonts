@@ -19,7 +19,7 @@ When using weight for emphasis, we must ensure that the weights are different en
 
 ## Using weights—or grades—for readability
 
-When working on screen, light type on a dark background appears to glare and its letterforms become bloated. This is a concept known as “halation”, which also presents itself in illuminated signage at night. As such, multiple studies have been conducted on [legibility](/glossary/legibility_readability) for roadsigns (see the NHTSA’s [“Nighttime Glare and Driving Performance” report](https://www.cortezlawfirmpllc.com/wp-content/uploads/sites/1600711/2020/05/glare_congressional_report.pdf) and [“Overhead Guide Sign Retroreflectivity and Illumination” from the Kansas State University Transportation Center](https://rosap.ntl.bts.gov/view/dot/28555)).
+When working on screen, light type on a dark background appears to glare and its letterforms become bloated. This is a concept known as “halation”, which also presents itself in illuminated signage at night. As such, multiple studies have been conducted on [legibility](/glossary/legibility) for roadsigns (see the NHTSA’s [“Nighttime Glare and Driving Performance” report](https://www.cortezlawfirmpllc.com/wp-content/uploads/sites/1600711/2020/05/glare_congressional_report.pdf) and [“Overhead Guide Sign Retroreflectivity and Illumination” from the Kansas State University Transportation Center](https://rosap.ntl.bts.gov/view/dot/28555)).
 
 If we want to mix light-on-dark type with dark-on-light type, we need to counter this halation problem with a little optical trickery: by selecting different weights so that both versions of the type *feel* the same.
 

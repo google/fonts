@@ -7,7 +7,7 @@ Line height is the vertical distance between two lines of [type](/glossary/type)
 
 </figure>
 
-Line height has a direct impact on the [readability](/glossary/legibility_readability) of [text](/glossary/text_copy), so understanding it is one of the most fundamental [typographic](/glossary/typography) practices.
+Line height has a direct impact on the [readability](/glossary/readability) of [text](/glossary/text_copy), so understanding it is one of the most fundamental [typographic](/glossary/typography) practices.
 
 It’s possible to set the line height value in a number of [units](/glossary/unit), as with font size, although those units could be different. For instance, we might set our `font-size` in pixels, but then declare the `line height` with a percentage value:
 

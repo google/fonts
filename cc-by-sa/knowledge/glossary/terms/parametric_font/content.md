@@ -8,4 +8,4 @@ A parametric [font](/glossary/font) is a [variable font](/glossary/variable_font
 
 Because many axis settings in parametric fonts result in visually unappealing fonts, it is recommended that users adjust parametric fonts by using the expressive variation axes first, then fine-tune using the parametric axes.
 
-For more information, please read our article, [“Introducing parametric axes.”](/INSERT/introducing_parametric_axes)
+For more information, please read our article, [“Introducing parametric axes.”](/lesson/introducing_parametric_axes)

@@ -34,7 +34,7 @@ If we have a word in our copy that requires a footnote, its reference should app
 
 When we [italicize](/glossary/italic) a word and then follow it with punctation—perhaps a comma, a period, or a closing parenthesis—the reduced space caused by the slanted [letterforms](/glossary/letterform) will make it look like the punctuation is nudging up against the italicized word too tightly. Instead, italicize the punctuation as well, and it’ll look considerably better.
 
-While we’re at it, if there’s a space after the punctuation mark, let’s include that space in our italic selection, too. It’s more subtle, but will still improve the [readability](/glossary/legibility_readability) overall because of the spacing in italic forms.
+While we’re at it, if there’s a space after the punctuation mark, let’s include that space in our italic selection, too. It’s more subtle, but will still improve the [readability](/glossary/readability) overall because of the spacing in italic forms.
 
 Interestingly, this doesn’t apply to [bold](/glossary/bold) type. Leave any punctuation and spaces un-bolded.
 

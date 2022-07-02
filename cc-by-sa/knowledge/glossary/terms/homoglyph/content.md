@@ -1,7 +1,7 @@
 
 A homoglyph is a [glyph](/glossary/glyph) with a design that can appear indistinguishable from—or least very similar to—another glyph with a separate meaning.
 
-An uppercase I, lowercase l, and numeral 1 can appear near-identical in some typefaces, which presents a [legibility](/glossary/legibility_readability) problem. If the wrong [character](/glossary/character) is used, it can confuse screen reading software and cause potential issues with searching and sorting. In some typefaces, there can be too subtle a distinction between different [dashes](/glossary/dashes) and the minus character.
+An uppercase I, lowercase l, and numeral 1 can appear near-identical in some typefaces, which presents a [legibility](/glossary/legibility) problem. If the wrong [character](/glossary/character) is used, it can confuse screen reading software and cause potential issues with searching and sorting. In some typefaces, there can be too subtle a distinction between different [dashes](/glossary/dashes) and the minus character.
 
 <figure>
 

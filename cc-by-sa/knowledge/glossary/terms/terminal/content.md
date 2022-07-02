@@ -1,5 +1,5 @@
 
-In type design, a terminal refers to the ending of the [stroke](/glossary/stroke). The way a [type designer](/glossary/type_designer) treats terminals is a key factor in the overall [typeface](/glossary/typeface) design, and has significant effects on [legibility](/glossary/legibility_readability) as well as stylistic expression.
+In type design, a terminal refers to the ending of the [stroke](/glossary/stroke). The way a [type designer](/glossary/type_designer) treats terminals is a key factor in the overall [typeface](/glossary/typeface) design, and has significant effects on [legibility](/glossary/legibility) as well as stylistic expression.
 
 <figure>
 

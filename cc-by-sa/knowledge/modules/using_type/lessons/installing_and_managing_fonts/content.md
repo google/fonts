@@ -2,7 +2,7 @@ Building and maintaining a font collection on the computer you use for design wo
 
 <figure>
 
-![INSERT_ALT](images/installing_managing_1.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

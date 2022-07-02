@@ -7,7 +7,7 @@ We’ll start off with the checklist itself—which is also [available on GitHub
     - Its design fits the intended use
 2. **The typeface’s design is comprehensive**
     - It has enough multi-language support
-    - It contains [legible](/glossary/legibility_readability) details
+    - It contains [legible](/glossary/legibility) details
     - It has at least the basic [weights](/glossary/weight) and [styles](/glossary/style)
     - Even better: It has [alternate glyphs](/glossary/alternates)
     - Even better: It has additional weights and styles (or [grades](/glossary/grade))
@@ -83,7 +83,7 @@ While a small [glyph](/glossary/glyph) set might be fine for a logo, it’ll soo
 
 ### It contains legible details
 
-To state that type should be legible is obvious, of course. But, even so, in many popular typefaces, [some glyphs are remarkably similar](/glossary/homoglyph). And, because this similarity leads to potential ambiguity over what characters we’re reading, their design can be detrimental to the overall [legibility](/glossary/legibility_readability) of text set in these typefaces.
+To state that type should be legible is obvious, of course. But, even so, in many popular typefaces, [some glyphs are remarkably similar](/glossary/homoglyph). And, because this similarity leads to potential ambiguity over what characters we’re reading, their design can be detrimental to the overall [legibility](/glossary/legibility) of text set in these typefaces.
 
 When selecting a typeface—especially a [sans serif](/glossary/sans_serif)—it’s useful to assess the similarities between the uppercase “I”, lowercase “l”, and numeral “1” characters. Because the underlying structure of these letters is very close, it’s up to the type designer to distinguish them from one another.
 

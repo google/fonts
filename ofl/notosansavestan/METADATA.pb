@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansAvestan-Regular.ttf"
   post_script_name: "NotoSansAvestan-Regular"
   full_name: "Noto Sans Avestan Regular"
-  copyright: "Copyright 2019 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/avestan)"
 }
-subsets: "menu"
 subsets: "avestan"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/avestan.git"
+  archive_url: "https://github.com/notofonts/avestan/releases/download/NotoSansAvestan-v2.002/NotoSansAvestan-v2.002.zip"
+}
 is_noto: true
 languages: "ae_Avst"  # Avestan
 languages: "sa_Avst"  # Sanskrit, Avestan

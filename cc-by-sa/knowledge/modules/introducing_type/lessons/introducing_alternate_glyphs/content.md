@@ -9,7 +9,7 @@ There’s so much potential typographic power to unlock via OpenType if the feat
 
 ## Ligatures
 
-A [ligature](/glossary/ligature) joins commonly combined [characters](/glossary/character) into a single [glyph](/glossary/glyph) that typically makes for a more harmonious [reading](/glossary/legibility_readability) experience. A common example is the “fi” ligature, which combines a lowercase “f” and a lowercase “i” into a single character so that the shoulder of the f doesn’t clash with the dot of the i.
+A [ligature](/glossary/ligature) joins commonly combined [characters](/glossary/character) into a single [glyph](/glossary/glyph) that typically makes for a more harmonious [reading](/glossary/readability) experience. A common example is the “fi” ligature, which combines a lowercase “f” and a lowercase “i” into a single character so that the shoulder of the f doesn’t clash with the dot of the i.
 
 <figure>
 

@@ -36,7 +36,7 @@ The [Noto fonts](https://fonts.google.com/noto) are an effort to enable harmonio
 
 ## Legible details
 
-To state that type should be [legible](/glossary/legibility_readability) is obvious, of course. But, even so, in many regarded and well-known typefaces, some glyphs are remarkably similar (these are sometimes called *homoglyphs).* And, because this similarity leads to potential ambiguity over what characters we’re reading, their design can be detrimental to the overall legibility of [text](/glossary/text_copy) set in these typefaces.
+To state that type should be [legible](/glossary/legibility) is obvious, of course. But, even so, in many regarded and well-known typefaces, some glyphs are remarkably similar (these are sometimes called *homoglyphs).* And, because this similarity leads to potential ambiguity over what characters we’re reading, their design can be detrimental to the overall legibility of [text](/glossary/text_copy) set in these typefaces.
 
 When selecting a typeface—especially a [sans serif](/glossary/sans_serif)—it’s useful to assess the similarities between the [uppercase](/glossary/uppercase_lowercase) “I”, lowercase “l”, and [numeral](/glossary/numerals_figures) “1” characters. Because the underlying structure of these letters is very close, it’s up to the type designer to distinguish them adequately from one another.
 
@@ -80,7 +80,7 @@ And, as so many of these features can be manipulated with [variable fonts](/glos
 
 ## Alternate characters and other OpenType features
 
-Multiple versions of characters (accessed via [OpenType](/glossary/open_type)) help make a typeface more robust. Some of those can certainly be [legibility and readability](/glossary/legibility_readability) aids, such as [ligatures](/glossary/ligature), [contextual alternates](/glossary/alternates), the aforementioned small caps, [fractions](/glossary/fractions), and different numeral forms; others can be purely aesthetic, such as [swashes](/glossary/swash_glyph), or [stylistic sets](/glossary/stylistic_sets). And let’s not forget [kerning](/glossary/kerning_kerning_pairs)! A well-spaced font file, with thorough kerning-pair data built in, is often what can separate good fonts from bad fonts.
+Multiple versions of characters (accessed via [OpenType](/glossary/open_type)) help make a typeface more robust. Some of those can certainly be [legibility](/glossary/legibility) and [readability](/glossary/readability) aids, such as [ligatures](/glossary/ligature), [contextual alternates](/glossary/alternates), the aforementioned small caps, [fractions](/glossary/fractions), and different numeral forms; others can be purely aesthetic, such as [swashes](/glossary/swash_glyph), or [stylistic sets](/glossary/stylistic_sets). And let’s not forget [kerning](/glossary/kerning_kerning_pairs)! A well-spaced font file, with thorough kerning-pair data built in, is often what can separate good fonts from bad fonts.
 
 <figure>
 

@@ -156,4 +156,4 @@ A couple tools that help make it even easier are [Wakamai Fondue](https://wakama
 
 </figure>
 
-If you’re new to variable fonts but are interested in using them to help you fit the line, a good place to start is [“Introducing variable fonts”](lesson/introducing_variable_fonts) on Google Fonts Knowledge.
+If you’re new to variable fonts but are interested in using them to help you fit the line, a good place to start is [“Introducing variable fonts”](/lesson/introducing_variable_fonts) on Google Fonts Knowledge.

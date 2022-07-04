@@ -10,8 +10,12 @@ fonts {
   filename: "Belleza-Regular.ttf"
   post_script_name: "Belleza-Regular"
   full_name: "Belleza Regular"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \"Belleza\""
+  copyright: "Copyright 2012 The Belleza Project Authors (https://github.com/etunni/belleza)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/belleza"
+  commit: "af3974fe84e2cfd236455a14d2c708264b692167"
+}

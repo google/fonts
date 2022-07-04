@@ -13,7 +13,7 @@ In this article, we’ll focus on the x-height—the height of a typeface’s [l
 
 </figure>
 
-X-height is an important factor in [readability](/glossary/legibility_readability) because, at any given [font](/glossary/font) size, it determines how large or small the typeface actually looks. Put simply: When the x-height is large, the typeface will probably be easier to read at small sizes.
+X-height is an important factor in [readability](/glossary/readability) because, at any given [font](/glossary/font) size, it determines how large or small the typeface actually looks. Put simply: When the x-height is large, the typeface will probably be easier to read at small sizes.
 
 The term itself was established because while the height of each lowercase letter varies slightly, the flat edges at the top and bottom of the x character make it a good representative for the typical height of *all* lowercase letters. As x-heights become taller, white space is redistributed from outside the letters to inside letters (e.g. the counters become larger). To offset or balance this redistribution of white space, it’s usually a good idea to increase the [line height](/glossary/line_height_leading).
 

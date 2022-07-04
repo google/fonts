@@ -1,5 +1,5 @@
 
-A ligature is a [glyph](/glossary/glyph) that combines the shapes of certain sequences of [characters](/glossary/character) into a new form that makes for a more harmonious [reading](/glossary/legibility_readability) experience. A common example is the “fi” ligature, which combines a lowercase “f” and a lowercase “i” into a single glyph so that the shoulder of the f doesn’t clash with the dot of the i.
+A ligature is a [glyph](/glossary/glyph) that combines the shapes of certain sequences of [characters](/glossary/character) into a new form that makes for a more harmonious [reading](/glossary/readability) experience. A common example is the “fi” ligature, which combines a lowercase “f” and a lowercase “i” into a single glyph so that the shoulder of the f doesn’t clash with the dot of the i.
 
 <figure>
 

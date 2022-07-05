@@ -54,3 +54,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/CatharsisFonts/Cormorant"
+  commit: "cc1bfb51ce6568cb3abf9199ab718d543f6fa189"
+}

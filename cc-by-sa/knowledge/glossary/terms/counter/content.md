@@ -2,7 +2,7 @@ A counter, or counterform, is the transparent (negative or white) space enclosed
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![The lowercase letters “odcu” with their counter highlighted.](images/thumbnail.svg)
 
 </figure>
 

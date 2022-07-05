@@ -2,7 +2,7 @@ Readability describes how comfortable it is for a person to engage with [text](/
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![Two paragraphs of identical text, with the left paragraph set with negative tracking and tight leading—both of which make it much harder to read. The paragraph on the right, with default tracking and more generous leading, is much more readable.](images/thumbnail.svg)
 
 </figure>
 

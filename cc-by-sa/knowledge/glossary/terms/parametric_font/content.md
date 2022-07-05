@@ -2,7 +2,7 @@ A parametric [font](/glossary/font) is a [variable font](/glossary/variable_font
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![The lowercase characters “para”, shown in black, with the values from the YTDE, XOPQ, YOPQ, and XTRA parametric axes shown close by. Minimum values are shown with a blue stroke; maximum values with pink.](images/thumbnail.svg)
 
 </figure>
 

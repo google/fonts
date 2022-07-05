@@ -2,7 +2,7 @@ Legibility describes how a [typeface](/glossary/typeface)’s [glyphs](/glossary
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![“1Il 0Oo” set in four different typefaces. Many of these characters in two typefaces on the left are indistinguishable, whereas the two examples on the right are far more legible.](images/thumbnail.svg)
 
 </figure>
 

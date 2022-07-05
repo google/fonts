@@ -2,7 +2,7 @@ An icon [font](/glossary/font) is a font that exclusively contains icon [glyphs]
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![A representation of font files, with the weight of the Material Symbols font matching the weight of the type shown on the Google Sans font files.](images/thumbnail.svg)
 
 </figure>
 

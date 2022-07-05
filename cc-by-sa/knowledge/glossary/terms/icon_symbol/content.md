@@ -2,7 +2,7 @@
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![A collection of glyphs from Google’s Material Icons icon set.](images/thumbnail.svg)
 
 </figure>
 

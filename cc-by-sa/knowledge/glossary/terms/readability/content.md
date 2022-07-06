@@ -1,4 +1,4 @@
-Readability describes how comfortable it is for a person to engage with [text](/glossary/text_copy) created with [legible](/glossary/legibility) [type](/glossary/type). Three factors determine readability: The person’s unique attributes (visual acuity, disabilities, and other health factors), what the text itself says, and the [typography](/glossary/typography)—both the choice of [typeface](/glossary/typeface) and how it’s used. Readability should not be confused with [legibility](/glossary/legibility), although legibility does affect readability.
+Readability describes how comfortable it is for a person to engage with [text](/glossary/text_copy) created with [legible](/glossary/legibility) [type](/glossary/type). Three factors determine readability: The person’s unique attributes (visual acuity, disabilities, and other health factors), what the text itself says, and the [typography](/glossary/typography)—both the choice of [typeface](/glossary/typeface) and how it’s used. Readability should not be confused with [legibility](/glossary/legibility), although legibility does *affect* readability.
 
 <figure>
 

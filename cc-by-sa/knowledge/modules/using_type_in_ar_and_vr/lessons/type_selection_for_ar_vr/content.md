@@ -1,8 +1,8 @@
-So far in this series, we’ve discussed various aspects of typography in AR/VR. Now let's focus on considerations to keep in mind when selecting Latin typefaces and setting type in AR/VR applications. This information can also feed into the design of new typefaces that are better suited for AR/VR.
+So far in [this series](../), we’ve discussed various aspects of [typography](/glossary/terms/typography) in AR/VR. Now let's focus on considerations to keep in mind when selecting [Latin](/glossary/terms/latin) [typefaces](/glossary/terms/typeface) and [setting type](/glossary/terms/typesetting) in AR/VR applications. This information can also feed into the design of new typefaces that are better suited for AR/VR.
 
 ## Counters
 
-Counters are the enclosed or partially enclosed circular or curved negative space (white space) in characters such as “c”, “d”, and “o.”
+[Counters](/glossary/terms/counter) are the enclosed or partially enclosed circular or curved negative space (white space) in [characters](/glossary/terms/character) such as “c”, “d”, and “o.”
 Aperture: The partially enclosed, somewhat rounded negative space in some characters such as “n,” “C,” “S,” the lower part of “e,” or the upper part of a double-storey “a.” Specifically, it’s the opening of the counter space.
 
 <figure>
@@ -14,15 +14,15 @@ Aperture: The partially enclosed, somewhat rounded negative space in some charac
 
 The counters in letters have a crucial role in the performance of text viewed at a distance.
 
-Typefaces with small counters and closed apertures perform low in legibility tests, and in smaller sizes can appear unreadable.
+Typefaces with small counters and closed apertures perform low in [legibility](/glossary/legibility) tests, and in smaller sizes can appear unreadable.
 
 - The phenomenon of irradiation and chromatic aberration around the outlines of the letters fills up the counters and small apertures, which can make letters like “c” and “e” appear as “o” (see image).
 - Many typefaces used heavily in screen and print, such as Helvetica and Univers, are unsuitable for distance viewing.
-- A large x-height has a direct impact on counter size, but wider letter shapes are a better way to control the counter size. It reduces perspective distortion and makes it easy to read text at different angles.
+- A large [x-height](/glossary/x_height) has a direct impact on counter size, but wider letter shapes are a better way to control the counter size. It reduces perspective distortion and makes it easy to read text at different angles.
 
 ## Font weight
 
-Font weight plays a crucial role when designing for devices with varying resolutions. Here, low-resolution headsets pose the greatest challenge, since letterforms tend to get distorted a lot. This happens because there are not enough pixels to reproduce essential details.
+Font [weight](/glossary/weight) plays a crucial role when designing for devices with varying resolutions. Here, low-resolution headsets pose the greatest challenge, since letterforms tend to get distorted a lot. This happens because there are not enough pixels to reproduce essential details.
 
 - Avoid thin and light weights, as they are harder to render.
 - Lighter weights are prone to flicker and vibrations. Slight head movements can amplify the flickering, making it hard for the user to read text.

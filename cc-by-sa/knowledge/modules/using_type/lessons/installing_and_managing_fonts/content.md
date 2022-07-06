@@ -49,7 +49,7 @@ Some font manager apps, such as FontBase, Typeface, and RightFont allow the Goog
 
 Also, support for variable fonts can differ between apps, falling into one of these four scenarios:
 
-1. Variable fonts are supported with full integration into the typography engine. For example, the [Optical Size axis (opsz)](/glossary/optical_size_axis) is applied automatically based on the font size in points, with a way to change the ratio or manually set the size; or, when adding a stroke to text, the app correctly applies the stroke only to only the outer shape of each glyph (and not the inner contours used to construct it). Within an app’s scripting or type preferences, we can define contextual rules to apply [axis](/glossary/terms/axis_in_variable_fonts) values to character or paragraph styles, rather than only setting axes directly in a GUI.
+1. Variable fonts are supported with full integration into the typography engine. For example, the [Optical Size axis (opsz)](/glossary/optical_size_axis) is applied automatically based on the font size in points, with a way to change the ratio or manually set the size; or, when adding a stroke to text, the app correctly applies the stroke only to only the outer shape of each glyph (and not the inner contours used to construct it). Within an app’s scripting or type preferences, we can define contextual rules to apply [axis](/glossary/axis_in_variable_fonts) values to character or paragraph styles, rather than only setting axes directly in a GUI.
 
 ![Two type specimens, with the top set in the small optical size and the bottom set in the large optical size. Next to each are variable axes and a “set optical size manually” checkbox. It is unchecked in the top example, which is why the text appears to be set at the wrong optical size.](images/installing_managing_2.svg)
 
@@ -57,7 +57,7 @@ Also, support for variable fonts can differ between apps, falling into one of th
 
 ![A representation of common user interface controls for fonts—a family name followed by a style name—with a sub-menu showing additional sliders for controlling variable axes.](images/installing_managing_3.svg)
 
-3. Variable fonts are presented as a set of static fonts. In this case, we can’t set any axis value, but we can access the named [instances](/glossary/terms/instance). Current examples include Apple’s Keynote, Numbers, and Pages apps, and Microsoft’s Word and Powerpoint. In Affinity’s suite of apps, variable fonts’ metrics remain at their default values, which means they’re currently unusable.
+3. Variable fonts are presented as a set of static fonts. In this case, we can’t set any axis value, but we can access the named [instances](/glossary/instance). Current examples include Apple’s Keynote, Numbers, and Pages apps, and Microsoft’s Word and Powerpoint. In Affinity’s suite of apps, variable fonts’ metrics remain at their default values, which means they’re currently unusable.
 
 4. Variable fonts are occasionally not supported at all, in which case only the default style can be used.
 

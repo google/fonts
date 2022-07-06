@@ -1,4 +1,4 @@
-A counter, or counterform, is the transparent (negative or white) space enclosed inside a [letterform](/glossary/terms/letterform). Counters can be closed, as in “o” and “d”, or open, as in “c” and “u.”
+A counter, or counterform, is the transparent (negative or white) space enclosed inside a [letterform](/glossary/letterform). Counters can be closed, as in “o” and “d”, or open, as in “c” and “u.”
 
 <figure>
 

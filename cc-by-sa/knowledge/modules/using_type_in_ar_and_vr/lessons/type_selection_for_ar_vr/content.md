@@ -1,8 +1,8 @@
-So far in [this series](../), we’ve discussed various aspects of [typography](/glossary/terms/typography) in AR/VR. Now let's focus on considerations to keep in mind when selecting [Latin](/glossary/terms/latin) [typefaces](/glossary/terms/typeface) and [setting type](/glossary/terms/typesetting) in AR/VR applications. This information can also feed into the design of new typefaces that are better suited for AR/VR.
+So far in [this series](../), we’ve discussed various aspects of [typography](/glossary/typography) in AR/VR. Now let's focus on considerations to keep in mind when selecting [Latin](/glossary/latin) [typefaces](/glossary/typeface) and [setting type](/glossary/typesetting) in AR/VR applications. This information can also feed into the design of new typefaces that are better suited for AR/VR.
 
 ## Counters
 
-[Counters](/glossary/terms/counter) are the enclosed or partially enclosed circular or curved negative space (white space) in [characters](/glossary/terms/character) such as “c”, “d”, and “o.”
+[Counters](/glossary/counter) are the enclosed or partially enclosed circular or curved negative space (white space) in [characters](/glossary/character) such as “c”, “d”, and “o.”
 Aperture: The partially enclosed, somewhat rounded negative space in some characters such as “n,” “C,” “S,” the lower part of “e,” or the upper part of a double-storey “a.” Specifically, it’s the opening of the counter space.
 
 <figure>

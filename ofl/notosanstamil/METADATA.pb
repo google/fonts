@@ -10,8 +10,10 @@ fonts {
   filename: "NotoSansTamil[wdth,wght].ttf"
   post_script_name: "NotoSansTamil-Regular"
   full_name: "Noto Sans Tamil Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tamil)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil"
 axes {
@@ -23,6 +25,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/tamil.git"
+  archive_url: "https://github.com/notofonts/tamil/releases/download/NotoSansTamil-v2.003/NotoSansTamil-v2.003.zip"
 }
 is_noto: true
 languages: "bfq_Taml"  # Badaga

@@ -4,7 +4,7 @@ And now, the next transition is arriving, with the immersive worlds of augmented
 
 <figure>
 
-![INSERT_ALT](images/introducing_ar_vr_1.png)
+![A screen showing a virtual reality experience and a screen showing an augmented reality experience.](images/introducing_ar_vr_1.png)
 <figcaption>Left: Example of VR, Mozilla Hubs. Right: Screen capture from an AR demo by Ultraleap.</figcaption>
 
 </figure>
@@ -37,7 +37,7 @@ In this case, the information moves with the person’s head so it’s always in
 
 <figure>
 
-![INSERT_ALT](images/introducing_ar_vr_2.png)
+![A human head with a field of view projected in front. The content viewed appears to move with the turning head.](images/introducing_ar_vr_2.png)
 <figcaption>The virtual objects follow head movement and stay in view all the time.</figcaption>
 
 </figure>
@@ -50,7 +50,7 @@ In this case, virtual elements are anchored to real-world coordinates in 3D spac
 
 <figure>
 
-![INSERT_ALT](images/introducing_ar_vr_3.png)
+![A human head with a field of view projected in front. The content viewed stays stationary, while the human head turns away.](images/introducing_ar_vr_3.png)
 <figcaption>The virtual object stays in a specific position and doesn’t follow head movement.</figcaption>
 
 </figure>
@@ -61,7 +61,7 @@ We can also decide on text placement based on its perceived distance from the us
 
 <figure>
 
-![INSERT_ALT](images/introducing_ar_vr_4.png)
+![An overhead view of a human, with segmented circular bars moving away from their head to indicate different regions.](images/introducing_ar_vr_4.png)
 <figcaption>The distances are approximations based on different studies and guidelines for AR/VR displays.</figcaption>
 
 </figure>
@@ -72,7 +72,7 @@ This region is reserved for user interface (UI) elements that are anchored to th
 
 <figure>
 
-![INSERT_ALT](images/introducing_ar_vr_5.png)
+![A human figure in front of a region representing information that only requires eye movement to see.](images/introducing_ar_vr_5.png)
 <figcaption>The red area shows the HUD region that requires eye movement to see the information. The information placed outside the red region requires head movement.</figcaption>
 
 </figure>

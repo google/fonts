@@ -34,7 +34,7 @@ Font [weight](/glossary/weight) plays a crucial role when designing for devices 
 
 ## Stroke Contrast
 
-High contrast typefaces have strokes that change in thickness significantly within a letter. (See the image on the left below). Low contrast typefaces usually appear to have strokes of a similar thickness throughout. However, this is not absolute; all letter shapes are optically corrected to appear the same size (see the image on the right below).
+High [contrast](/glossary/contrast) typefaces have [strokes](/glossary/stroke) that change in thickness significantly within a letter. (See the image on the left below). Low contrast typefaces usually appear to have strokes of a similar thickness throughout. However, this is not absolute; all letter shapes are optically corrected to appear the same size (see the image on the right below).
 
 <figure>
 
@@ -50,7 +50,7 @@ Low-to-moderate contrast typefaces are ideal for a wide range of headsets. A com
 
 In AR, unlike conventional screens, the text is not always positioned squarely in front of the user. Text can be integrated in the environment around the user to make it more immersive, but this introduces the issue of perspective distortion.
 
-Viewing text at an angle sometimes merges the adjacent strokes and affects the visibility of counters in narrow typefaces, making it very hard to distinguish individual letters. Traffic signs present a similar example of information parsed at an acute angle. However, AR presents a more complicated challenge since the text can be sentences or paragraphs, instead of a few words or symbols.
+Viewing text at an angle sometimes merges the adjacent strokes and affects the visibility of counters in [narrow](/glossary/condensed_narrow_compressed) typefaces, making it very hard to distinguish individual letters. Traffic signs present a similar example of information parsed at an acute angle. However, AR presents a more complicated challenge since the text can be sentences or paragraphs, instead of a few words or symbols.
 
 <figure>
 
@@ -59,7 +59,7 @@ Viewing text at an angle sometimes merges the adjacent strokes and affects the v
 
 </figure>
 
-Typefaces with wider letter shapes perform well in terms of legibility, as most of the text in AR/VR is placed at a distance, unlike conventional mediums.
+- Typefaces with wider letter shapes perform well in terms of legibility, as most of the text in AR/VR is placed at a distance, unlike conventional mediums.
 - In condensed typefaces, letters become too narrow when viewed at an angle. This brings vertical strokes together and causes legibility issues. However, this can be offset by ample letter spacing. Serif typefaces—and well-designed sans serif typefaces—tend to have vertical strokes that are further apart. This aids legibility, especially when seen from an angle.
 - Condensed typefaces perform poorly in distance viewing, too.
 - Wider typefaces perform better in a variety of use cases. But, they occupy more space, and therefore fit a smaller number of characters per line.
@@ -72,10 +72,10 @@ Typefaces with large x-heights render well in busy backgrounds because their lar
 
 Although typefaces with large x-heights are more legible when viewed at a distance, an excessive x-height can lead to the misrecognition of letters. The x-height should be optimized to get the right balance between ascenders and the area of counters, keeping in mind the deterioration caused by rounding and irradiation.
 
-The impact of x-height diminishes with narrow character widths. Therefore, these two factors should be considered in tandem.
-In the case of letters with two horizontal strokes (o,z,b,d,p,q) a large x-height has less impact on the legibility.
-The use of a large x-height in some cases might lead to misrecognition of letters, if the x-height is too close to the ascender height (see image), which usually gets suppressed by rounding at the edges because of irradiation—thereby decreasing the legibility.
-Ascenders play a bigger role in letter recognition as compared to descenders.
+- The impact of x-height diminishes with narrow character widths. Therefore, these two factors should be considered in tandem.
+- In the case of letters with two horizontal strokes (o,z,b,d,p,q) a large x-height has less impact on the legibility.
+- The use of a large x-height in some cases might lead to misrecognition of letters, if the x-height is too close to the ascender height (see image), which usually gets suppressed by rounding at the edges because of irradiation—thereby decreasing the legibility.
+- Ascenders play a bigger role in letter recognition as compared to descenders.
 
 <figure>
 
@@ -88,11 +88,13 @@ Ascenders play a bigger role in letter recognition as compared to descenders.
 ## Joints/Intersections
 
 The thinning of strokes at joints is a standard practice in type design, to visually compensate for heavy spots at stroke junctions. In AR/VR headsets, the excessive glow of pixels (halation) distorts the shape of the letterforms, and this hampers legibility. Monolinear typefaces with very low stroke modulation suffer from distortion and excess glow at the joints.
+
 While selecting the typefaces, be sure to perform thorough tests on the headsets paying particular attention to the joints of strokes.
-Check if the strokes become thinner at the joints (observe with bare eyes).
-See if they appear heavy at the junctions (on headsets).
-Observe the change in the shape of the letters (on headsets).
-Look for typefaces that compensate for heaviness in joints via stroke modulation or ink traps (or, AR/VR, light traps, since the text is rendered by light instead of ink.)
+
+- Check if the strokes become thinner at the joints (observe with bare eyes).
+- See if they appear heavy at the junctions (on headsets).
+- Observe the change in the shape of the letters (on headsets).
+- Look for typefaces that compensate for heaviness in joints via stroke modulation or ink traps (or, AR/VR, light traps, since the text is rendered by light instead of ink.)
 
 ## Stroke Endings
 
@@ -103,7 +105,7 @@ This rounding effect significantly impacts legibility, readability, and aestheti
 Typefaces with sturdy stroke endings tend to perform better over those with less well-defined stroke endings. Slab serifs perform well on low-resolution screens. Alternatively, rounded typefaces can also produce acceptable results.
 
 - Sans-serif typefaces are affected the most by rounding due to the absence of a serif that reinforces the stroke endings.
-- Characters such as “l” appear to float above the baseline, affecting the rhythm, especially next to curved letters (such as “c,” “s,” and “o”). This is because halation weakens the tip of the stroke resting on the baseline, while round letters have more pixels near the baseline, and position them to lower with an overshoot. Such issues can be resolved by using typefaces that have slightly flared stroke endings.
+- Characters such as “l” appear to float above the [baseline](/glossary/baseline), affecting the [rhythm](/glossary/rhythm), especially next to curved letters (such as “c,” “s,” and “o”). This is because halation weakens the tip of the stroke resting on the baseline, while round letters have more pixels near the baseline, and position them to lower with an overshoot. Such issues can be resolved by using typefaces that have slightly flared stroke endings.
 - The shapes of terminals are also distorted and can appear to be smaller than the actual design because of the apparent rounding of shapes. For similar characters, such as “f” and “t,” or “i” and “j,” the rounding of distinguishing features creates confusion. This means that typefaces need to have details that allow such letters to be clearly distinguished when rendered in the headset.
 
 <figure>
@@ -115,6 +117,6 @@ Typefaces with sturdy stroke endings tend to perform better over those with less
 
 ## Letter spacing
 
-Compared to other mediums, spacing in AR/VR plays a decisive factor. Tightly spaced letters cause significant legibility issues, as they crowd and interfere with each other, making it hard to recognise individual letters. Therefore, it becomes necessary to have generous spacing between letters to compensate for the merging of strokes in perspective view. The ideal spacing must take into consideration the perceived width of individual strokes and whole letterforms due to irradiation and chromatic aberration.
+Compared to other mediums, [spacing](/glossary/tracking_letter_spacing) in AR/VR plays a decisive factor. Tightly spaced letters cause significant legibility issues, as they crowd and interfere with each other, making it hard to recognise individual letters. Therefore, it becomes necessary to have generous spacing between letters to compensate for the merging of strokes in perspective view. The ideal spacing must take into consideration the perceived width of individual strokes and whole letterforms due to irradiation and chromatic aberration.
 
 The spacing in AR/VR should balance internal and external spaces without compromising the reading speed Therefore the weight and width of the typeface needs to be considered in combination with the optimal letter spacing for each text environment.

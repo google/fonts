@@ -1,4 +1,4 @@
-So far in [this series](../), we’ve discussed various aspects of [typography](/glossary/typography) in AR/VR. Now let's focus on considerations to keep in mind when selecting [Latin](/glossary/latin) [typefaces](/glossary/typeface) and [setting type](/glossary/typesetting) in AR/VR applications. This information can also feed into the design of new typefaces that are better suited for AR/VR.
+So far in [this series](/module/using_type_in_ar_and_vr), we’ve discussed various aspects of [typography](/glossary/typography) in AR/VR. Now let's focus on considerations to keep in mind when selecting [Latin](/glossary/latin) [typefaces](/glossary/typeface) and [setting type](/glossary/typesetting) in AR/VR applications. This information can also feed into the design of new typefaces that are better suited for AR/VR.
 
 ## Counters
 

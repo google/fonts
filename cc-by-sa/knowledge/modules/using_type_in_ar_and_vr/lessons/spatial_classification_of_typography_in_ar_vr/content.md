@@ -17,7 +17,7 @@ In this case, text sticks to the field of the view and moves with head movement.
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_1.png)
+![A simulation of an AR/VR experience, with text-based information overlaid on top of the real and/or virtual environment.](images/spatial_classification_of_typography_in_ar_vr_1.png)
 
 </figure>
 
@@ -27,7 +27,7 @@ Text should, ideally, be placed in the UI region for a better reading experience
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_2.png)
+![A simulation of a person wearing AR goggles, reading long-form text inside the AR experience.](images/spatial_classification_of_typography_in_ar_vr_2.png)
 
 </figure>
 
@@ -37,7 +37,7 @@ Text that’s anchored to real-world objects (usually in a close range—up to a
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_3.png)
+![A simulation of text-based information overlaid on a real-world object (a box held by a human hand) in an AR experience.](images/spatial_classification_of_typography_in_ar_vr_3.png)
 
 </figure>
 
@@ -47,7 +47,7 @@ Similar to the sticky info text, this is anchored to real-world objects, but in 
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_4.png)
+![A simulation of an AR experience, with interactive restaurant information (including a “see menu” button) overlaid on the real-world environment.](images/spatial_classification_of_typography_in_ar_vr_4.png)
 
 </figure>
 
@@ -57,7 +57,7 @@ This can be placed in both UI and environment regions where the text changes its
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_5.png)
+![A simulation of an AR experience, where a moving arrow (with text labels) is overlaid on top of the real-world environment.](images/spatial_classification_of_typography_in_ar_vr_5.png)
 
 </figure>
 
@@ -67,7 +67,7 @@ The term “ticker” comes from news tickers: an element with moving text that�
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_6.png)
+![A simulation of an AR/VR experience, with text-based information overlaid on top of the real and/or virtual environment, with ticket text highlighted.](images/spatial_classification_of_typography_in_ar_vr_6.png)
 
 </figure>
 

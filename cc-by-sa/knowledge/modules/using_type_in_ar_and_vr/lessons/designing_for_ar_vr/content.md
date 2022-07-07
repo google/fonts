@@ -8,7 +8,7 @@ Working in a three-dimensional AR/VR space might entice you to go fully 3D by ad
 
 <figure>
 
-![INSERT_ALT](images/designing_for_ar_vr_1.png)
+![Two paragraphs, one rendered face-on and the other slanted for perspective.](images/designing_for_ar_vr_1.png)
 <figcaption>Comparison between flat, 2D text (left) vs 3D text with depth (right). Note how the profiles of letters in the 3D text are less distinguishable and appear to clash into one another.</figcaption>
 
 </figure>
@@ -43,8 +43,8 @@ Applications like the game engine [Unity](https://unity.com/) have gone one step
 
 <figure>
 
-![INSERT_ALT](images/designing_for_ar_vr_2.png)
-<figcaption>(a) A 2D shape (b)Signed values representing the distance from the closest edge point. Source: Chlumsky, V. Shape Decomposition for Multi-channel Distance Fields. Master’s thesis, Czech Technical University, 2015</figcaption>
+![A two-dimensional shape and the same shape rendered with numerical values that represent edge points.](images/designing_for_ar_vr_2.png)
+<figcaption>Left: A 2D shape. Right: Signed values representing the distance from the closest edge point. Source: Chlumsky, V. Shape Decomposition for Multi-channel Distance Fields. Master’s thesis, Czech Technical University, 2015</figcaption>
 
 </figure>
 
@@ -52,7 +52,7 @@ How can the text size increase while running an app? Imagine using a navigation 
 
 <figure>
 
-![INSERT_ALT](images/designing_for_ar_vr_3.png)
+![A sign rendered twice: The first appears to be focussed, but the second, much larger, is blurred.](images/designing_for_ar_vr_3.png)
 <figcaption>The text on the left looks crisp when viewed at a distance, but it starts looking blurred and loses details on the right when the subject goes too close. Note: This is a simulated rendering to illustrate the concept of loss of detail.</figcaption>
 
 </figure>
@@ -61,7 +61,7 @@ While designing a AR/VR  app or experience, the designer sets a standard optimum
 
 <figure>
 
-![INSERT_ALT](images/designing_for_ar_vr_4.png)
+![A lowercase “n” character, rendered twice, with the second blurred to simulate interpolation.](images/designing_for_ar_vr_4.png)
 <figcaption>The “n” on the left shows the base glyph; the “n” on the right has various interpolated instances of the glyph generated from the base glyph. After a certain range, the loss of detail becomes prominent around the corners.</figcaption>
 
 </figure>

@@ -10,9 +10,11 @@ fonts {
   filename: "NotoSerifArmenian[wdth,wght].ttf"
   post_script_name: "NotoSerifArmenian-Regular"
   full_name: "Noto Serif Armenian Regular"
-  copyright: "Copyright 2015-2019 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/armenian)"
 }
 subsets: "armenian"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wdth"
@@ -23,6 +25,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/armenian.git"
+  archive_url: "https://github.com/notofonts/armenian/releases/download/NotoSerifArmenian-v2.006/NotoSerifArmenian-v2.006.zip"
 }
 is_noto: true
 languages: "hy_Armn"  # Armenian

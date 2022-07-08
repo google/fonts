@@ -1,4 +1,4 @@
-In [“Designing for AR/VR”](/lesson/designing_for_ar_vr), we explored how the rendering of text in AR/VR applications still follows models from  the ’90s. The challenges for good [typography](/glossary/typography) don’t end there, so let’s discuss some of these further technical considerations. Understanding them can help in designing better experiences for AR/VR; it can also help type designers create typefaces specifically intended for AR/VR.
+In [“Designing for AR/VR,”](/lesson/designing_for_ar_vr) we explored how the rendering of text in AR/VR applications still follows models from  the ’90s. The challenges for good [typography](/glossary/typography) don’t end there, so let’s discuss some of these further technical considerations. Understanding them can help in designing better experiences for AR/VR; it can also help type designers create typefaces specifically intended for AR/VR.
 
 ## Field of view (FoV)
 
@@ -6,7 +6,7 @@ FoV is the range of the observable world at a given point in time, measured in d
 
 <figure>
 
-![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_1.png)
+![An overhead representation of a human’s field of view, with semi-circles and lines representing the difference in fields between straight gaze and head movement.](images/technical_challenges_for_typography_in_ar_vr_1.png)
 <figcaption>Human FoV during straight gaze in front, approximately 120° (shown in blue) and extended FOV on head movement in the range of 200–270° (shown in light blue).</figcaption>
 
 </figure>
@@ -17,7 +17,7 @@ At the time of writing, current AR/VR headsets have FoVs between 40° and 100°,
 
 <figure>
 
-![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_2.png)
+![Two representations of eye glasses, each with a paragraph of long-form text shown in the lens. The second shows the text cropped significantly to simulate the field of view in AR/VR devices.](images/technical_challenges_for_typography_in_ar_vr_2.png)
 <figcaption>A comparison between the real FoV of human eyes on the left vs. the FoV present in AR/VR devices.</figcaption>
 
 </figure>
@@ -43,7 +43,7 @@ Halation, also known as irradiation, is the spreading of light beyond its proper
 
 <figure>
 
-![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_3.png)
+![The word “conversation” shown twice, with the second one appearing to glow as a simulation of halation.](images/technical_challenges_for_typography_in_ar_vr_3.png)
 <figcaption>A simulated example of halation (bottom) as compared to regular text (top).</figcaption>
 
 </figure>
@@ -54,7 +54,7 @@ Chromatic aberration is caused by lens dispersion, with different colors of ligh
 
 <figure>
 
-![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_4.png)
+![A representation of chromatic abberation, where text appears to be separated into differently colored layers, each slightly misaligned.](images/technical_challenges_for_typography_in_ar_vr_4.png)
 <figcaption>Extreme effect of chromatic aberration on text. Image Source: <a href="https://forums.oculusvr.com/t5/Support/Chromatic-Aberration-Issues/td-p/167845/page/5">Oculus Forums</a>.</figcaption>
 
 </figure>
@@ -67,7 +67,7 @@ This refers to the visible fine lines between pixels on a display, as if the use
 
 <figure>
 
-![INSERT_ALT](images/technical_challenges_for_typography_in_ar_vr_5.png)
+![Two examples of the word “you”, shown zoomed in, where pixels are visible. The example on the left shows the lines between pixels appearing more obvious.](images/technical_challenges_for_typography_in_ar_vr_5.png)
 <figcaption>Screen door effect comparison between Oculus Quest 1(left) and Quest 2. Image Source: <a href="https://www.reddit.com/r/virtualreality/comments/oo6mgg/comparison_of_the_screen_door_effect_in_the_quest/">Reddit</a>.</figcaption>
 
 </figure>

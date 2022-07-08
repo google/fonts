@@ -61,7 +61,7 @@ The Univers family included twenty-one numbered variants, which were arrayed in 
 
 </figure>
 
-The numbering system was [adapted **MISSING_URL**](https://inserturl.com) from the one Frutiger devised for the other Lumitype faces: A two­-digit number indicates width, weight and slant. The first digit is for weight, from 3 (extra-light) to 8 (black), and the second digit denotes width and slant, from 3 (extended) to 9 (extra-condensed), with odd numbers reserved for roman, and even numbers for italics. At the center of the system is Univers 55, the regular weight/width, and 56, its corresponding italic.
+The numbering system was adapted from the one Frutiger devised for the other Lumitype faces: A two­-digit number indicates width, weight and slant. The first digit is for weight, from 3 (extra-light) to 8 (black), and the second digit denotes width and slant, from 3 (extended) to 9 (extra-condensed), with odd numbers reserved for roman, and even numbers for italics. At the center of the system is Univers 55, the regular weight/width, and 56, its corresponding italic.
 
 The result was a coherent system: “For the first time in the history of letterpress printing,” writes Emil Ruder in Frutiger’s “Type, sign, symbol,” a foundry had “built up an extensive family of typefaces, not as a consequence of the first successful font but in accordance with a plan from the beginning.” (Rudefr advised Frutiger on the design of Univers.)
 

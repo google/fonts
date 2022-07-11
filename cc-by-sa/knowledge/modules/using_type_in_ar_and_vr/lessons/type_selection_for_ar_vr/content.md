@@ -1,9 +1,9 @@
-So far in [this series](/module/using_type_in_ar_and_vr), we’ve discussed various aspects of [typography](/glossary/typography) in AR/VR. Now let's focus on considerations to keep in mind when selecting [Latin](/glossary/latin) [typefaces](/glossary/typeface) and [setting type](/glossary/typesetting) in AR/VR applications. This information can also feed into the design of new typefaces that are better suited for AR/VR.
+So far in [this series](/module/using_type_in_ar_and_vr), we’ve discussed various aspects of [typography](/glossary/typography) in AR/VR. Now let’s focus on considerations to keep in mind when selecting [Latin](/glossary/latin) [typefaces](/glossary/typeface) and [setting type](/glossary/typesetting) in AR/VR applications. This information can also feed into the design of new typefaces that are better suited for AR/VR.
 
 ## Counters
 
-[Counters](/glossary/counter) are the enclosed or partially enclosed circular or curved negative space (white space) in [characters](/glossary/character) such as “c”, “d”, and “o.”
-Aperture: The partially enclosed, somewhat rounded negative space in some characters such as “n,” “C,” “S,” the lower part of “e,” or the upper part of a double-storey “a.” Specifically, it’s the opening of the counter space.
+[Counters](/glossary/counter) are the enclosed or partially enclosed circular or curved negative spaces (white space) in [characters](/glossary/character) such as “c”, “d”, and “o.”
+Apertures are the partially enclosed, somewhat rounded negative spaces in some characters such as “n,” “C,” “S,” the lower part of “e,” or the upper part of a double-storey “a;” essentially, the opening of the counter space.
 
 <figure>
 
@@ -12,9 +12,7 @@ Aperture: The partially enclosed, somewhat rounded negative space in some charac
 
 </figure>
 
-The counters in letters have a crucial role in the performance of text viewed at a distance.
-
-Typefaces with small counters and closed apertures perform low in [legibility](/glossary/legibility) tests, and in smaller sizes can appear unreadable.
+The counters in letters have a crucial role in the performance of text viewed at a distance. Typefaces with small counters and closed apertures perform low in [legibility](/glossary/legibility) tests, and in smaller sizes can appear unreadable.
 
 - The phenomenon of irradiation and chromatic aberration around the outlines of the letters fills up the counters and small apertures, which can make letters like “c” and “e” appear as “o” (see image).
 - Many typefaces used heavily in screen and print, such as Helvetica and Univers, are unsuitable for distance viewing.
@@ -24,10 +22,10 @@ Typefaces with small counters and closed apertures perform low in [legibility](/
 
 Font [weight](/glossary/weight) plays a crucial role when designing for devices with varying resolutions. Here, low-resolution headsets pose the greatest challenge, since letterforms tend to get distorted a lot. This happens because there are not enough pixels to reproduce essential details.
 
-- Avoid thin and light weights, as they are harder to render.
-- Lighter weights are prone to flicker and vibrations. Slight head movements can amplify the flickering, making it hard for the user to read text.
+- Avoid thin and light weights, as they’re harder to render.
+- Lighter weights are prone to flicker and vibrations. Slight head movements can amplify the flickering, making it hard for the user to read the text.
 - In outdoor environments, lighter weights tend to blend with the surroundings, reducing legibility.
-- Light type also suffers from rendering issues. Overshoots and other important details can be lost, especially in low-resolution screens and smaller sizes.
+- Light type also suffers from rendering issues. [Overshoots](/glossary/overshoot) and other important details can be lost, especially in low-resolution screens and smaller sizes.
 - In AR, the legibility of text depends on its ability to stand out against the background. Regular, medium, semibold, and bold weights are a better choice. However, this needs to be tested as these weights differ across typefaces.
 - As you move to bolder weights, the counters and apertures start closing and reducing in size, which impacts legibility. For example, the reduction of the aperture in a “c” can make it appear like an “o.” So, there needs to be a balance between the weight of the strokes and the clarity of spaces within letters.
 - Ultrabold and black weights should be avoided unless they’re used in bigger sizes or have been thoroughly tested.
@@ -50,7 +48,7 @@ Low-to-moderate contrast typefaces are ideal for a wide range of headsets. A com
 
 In AR, unlike conventional screens, the text is not always positioned squarely in front of the user. Text can be integrated in the environment around the user to make it more immersive, but this introduces the issue of perspective distortion.
 
-Viewing text at an angle sometimes merges the adjacent strokes and affects the visibility of counters in [narrow](/glossary/condensed_narrow_compressed) typefaces, making it very hard to distinguish individual letters. Traffic signs present a similar example of information parsed at an acute angle. However, AR presents a more complicated challenge since the text can be sentences or paragraphs, instead of a few words or symbols.
+Viewing text at an angle sometimes merges the adjacent strokes and affects the visibility of counters in [narrow](/glossary/condensed_narrow_compressed) typefaces, making it very hard to distinguish individual letters. Traffic signs present a similar example of information parsed at an acute angle. However, AR presents a more complicated challenge, since the text can be sentences or paragraphs instead of a few words or symbols.
 
 <figure>
 
@@ -70,7 +68,7 @@ The x-height is the height of the lowercase letters (disregarding ascenders or d
 
 Typefaces with large x-heights render well in busy backgrounds because their larger counters aid legibility. Characters with three horizontal strokes, such as “a,” “e,” and “s” benefit from a higher x-height.
 
-Although typefaces with large x-heights are more legible when viewed at a distance, an excessive x-height can lead to the misrecognition of letters. The x-height should be optimized to get the right balance between ascenders and the area of counters, keeping in mind the deterioration caused by rounding and irradiation.
+Although typefaces with large x-heights are more legible when viewed at a distance, an excessive x-height can lead to the misrecognition of letters. The x-height should be optimized to get the right balance between [ascenders](/glossary/ascenders_descenders) and the area of counters, keeping in mind the deterioration caused by rounding and irradiation.
 
 - The impact of x-height diminishes with narrow character widths. Therefore, these two factors should be considered in tandem.
 - In the case of letters with two horizontal strokes (o,z,b,d,p,q) a large x-height has less impact on the legibility.

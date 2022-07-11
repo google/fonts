@@ -71,6 +71,6 @@ The term “ticker” comes from news tickers: an element with moving text that�
 
 </figure>
 
-Useful Links:
+Useful links:
 - [Future of Typography in Augmented Reality](https://youtu.be/lFO5A8-FzlI?t=1636)
 - [Typography Classification in Augmented Reality v1.1](https://niteeshyadav.com/blog/typography-classification-in-augmented-reality-v1-1-8760/)

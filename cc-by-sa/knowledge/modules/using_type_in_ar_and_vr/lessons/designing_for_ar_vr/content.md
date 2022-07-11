@@ -52,7 +52,7 @@ How can the text size increase while running an app? Imagine using a navigation 
 
 <figure>
 
-![A sign rendered twice: The first appears to be focussed, but the second, much larger, is blurred.](images/designing_for_ar_vr_3.png)
+![A sign rendered twice: The first appears to be focussed, but the second, much larger, is blurred.](images/designing_for_ar_vr_3.svg)
 <figcaption>The text on the left looks crisp when viewed at a distance, but it starts looking blurred and loses details on the right when the subject goes too close. Note: This is a simulated rendering to illustrate the concept of loss of detail.</figcaption>
 
 </figure>
@@ -61,7 +61,7 @@ While designing a AR/VR  app or experience, the designer sets a standard optimum
 
 <figure>
 
-![A lowercase “n” character, rendered twice, with the second blurred to simulate interpolation.](images/designing_for_ar_vr_4.png)
+![A lowercase “n” character, rendered twice, with the second blurred to simulate interpolation.](images/designing_for_ar_vr_4.svg)
 <figcaption>The “n” on the left shows the base glyph; the “n” on the right has various interpolated instances of the glyph generated from the base glyph. After a certain range, the loss of detail becomes prominent around the corners.</figcaption>
 
 </figure>

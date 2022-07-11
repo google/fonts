@@ -17,7 +17,7 @@ In this case, text sticks to the field of the view and moves with head movement.
 
 <figure>
 
-![A simulation of an AR/VR experience, with text-based information overlaid on top of the real and/or virtual environment.](images/spatial_classification_of_typography_in_ar_vr_1.png)
+![A simulation of an AR/VR experience, with text-based information overlaid on top of the real and/or virtual environment.](images/spatial_classification_of_typography_in_ar_vr_1.svg)
 
 </figure>
 
@@ -67,7 +67,7 @@ The term “ticker” comes from news tickers: an element with moving text that�
 
 <figure>
 
-![A simulation of an AR/VR experience, with text-based information overlaid on top of the real and/or virtual environment, with ticket text highlighted.](images/spatial_classification_of_typography_in_ar_vr_6.png)
+![A simulation of an AR/VR experience, with text-based information overlaid on top of the real and/or virtual environment, with ticket text highlighted.](images/spatial_classification_of_typography_in_ar_vr_6.svg)
 
 </figure>
 

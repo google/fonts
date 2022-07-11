@@ -7,7 +7,7 @@ Apertures are the partially enclosed, somewhat rounded negative spaces in some c
 
 <figure>
 
-![A zoomed in view of type rendering “abcdefghijklmn”, with “c” and “e” highlighted for their counters.](images/type_selection_for_ar_vr_1.png)
+![A zoomed in view of type rendering “abcdefghijklmn”, with “c” and “e” highlighted for their counters.](images/type_selection_for_ar_vr_1.jpg)
 <figcaption>Small apertures appear as closed counters due to the rendering and glow/chromatic aberration resulting in misrecognition in shapes like “c” and “e.” Chivo regular 72 pt (in AR scene), magnified view.</figcaption>
 
 </figure>
@@ -36,7 +36,7 @@ High [contrast](/glossary/contrast) typefaces have [strokes](/glossary/stroke) t
 
 <figure>
 
-![A zoomed-in view of two renderings of the alphabet, each using a different font.](images/type_selection_for_ar_vr_2.png)
+![A zoomed-in view of two renderings of the alphabet, each using a different font.](images/type_selection_for_ar_vr_2.jpg)
 <figcaption>Left: Playfair Display Regular at 72 pt seen through an AR headset, showing the loss in details in the thin strokes. On top is the actual design of Playfair Display Regular at 30 pt for comparison. Right: Source Serif Pro at 72 pt in AR, demonstrating the change of appearance of serifs from wedge serif to slab serif. On top is the actual design of Source Serif Pro Regular at 30 pt for comparison.</figcaption>
 
 </figure>
@@ -52,7 +52,7 @@ Viewing text at an angle sometimes merges the adjacent strokes and affects the v
 
 <figure>
 
-![Three zoomed-in views of type in an AR scene, each shown at a different viewing angle.](images/type_selection_for_ar_vr_3.png)
+![Three zoomed-in views of type in an AR scene, each shown at a different viewing angle.](images/type_selection_for_ar_vr_3.jpg)
 <figcaption>Archivo Narrow at 72pt (in AR scene), magnified view. (Top) 0°, straight in front of the viewer, (middle) 30°, in front of the viewer, (bottom) 50° in front of the viewer. The increased angle causes letters to merge into each other, and counter spaces become smaller.</figcaption>
 
 </figure>
@@ -77,7 +77,7 @@ Although typefaces with large x-heights are more legible when viewed at a distan
 
 <figure>
 
-![Two renderings of a lowercase “h”, each shown both zoomed-in and zoomed-out, with one of the renderings highlighting lost details in the ascender.](images/type_selection_for_ar_vr_4.png)
+![Two renderings of a lowercase “h”, each shown both zoomed-in and zoomed-out, with one of the renderings highlighting lost details in the ascender.](images/type_selection_for_ar_vr_4.jpg)
 <figcaption>A lowercase “h” with a large x-height (left) sometimes loses its details after deterioration in AR and appears more like “n” on the right (magnified view).</figcaption>
 
 </figure>
@@ -108,7 +108,7 @@ Typefaces with sturdy stroke endings tend to perform better over those with less
 
 <figure>
 
-![The English alphabet rendered in the typefaces Open Sans and Nunito, with screenshots of the AR scene showing how similar they appear in that environment.](images/type_selection_for_ar_vr_5.png)
+![The English alphabet rendered in the typefaces Open Sans and Nunito, with screenshots of the AR scene showing how similar they appear in that environment.](images/type_selection_for_ar_vr_5.jpg)
 <figcaption>The images above show two typefaces, Open Sans (a) and Nunito (b), which have straight and round endings respectively, but render similarly in AR. Both Open Sans and Nunito Regular have 72 pt size in AR and 30pt in the reference string at the top.</figcaption>
 
 </figure>

@@ -9,13 +9,13 @@ And now, the next transition is arriving, with the immersive worlds of augmented
 
 </figure>
 
-Text is an integral part of these experiences. During the initial years of AR/VR, creators did their best to use as little text as possible, due to the challenge of ensuring readability at the resolution and processing power of early devices. However, the complexity of information in immersive experiences is growing, and the need for text is rising with it.
+Text is an integral part of these experiences. During the initial years of AR/VR, creators did their best to use as little text as possible, due to the challenge of ensuring [readability](/glossary/readability) at the resolution and processing power of early devices. However, the complexity of information in immersive experiences is growing, and the need for text is rising with it.
 
 ## A new design space for text
 
-How is text in AR/VR different to text in any other digital experience? In printed media, we have full control over the surfaces where our text is being read. On the web, we have learned to work within the constraints of responsive surfaces. Now with AR, we will have to design text that is readable and legible in countless scenarios (see [“Spatial classification of typography in AR/VR”](spatial_classification_of_typography_in_ar_vr)). One of the biggest challenges is unpredictable backgrounds: We might read the text using AR glasses while sitting in front of a blank wall, or in a busy cafe with people moving around. If the letterforms cannot stand out against the background, we won’t be able to read them.
+How is text in AR/VR different to text in any other digital experience? In printed media, we have full control over the surfaces where our text is being read. On the web, we’ve learned to work within the constraints of responsive surfaces. Now, with AR/VR, we have to design text that is readable and legible in countless scenarios (see [“Spatial classification of typography in AR/VR”](spatial_classification_of_typography_in_ar_vr)). One of the biggest challenges is unpredictable backgrounds: We might read the text using AR glasses while sitting in front of a blank wall, or in a busy cafe with people moving around. If the letterforms cannot stand out against the background, we won’t be able to read them.
 
-As we traverse through these new mediums, we’re no longer just thinking about size (height and width) but also depth—where in the three-dimensional world does our text live? But that doesn't mean adding depth to our text solves our problems. Instead, it brings up numerous readability and legibility issues (we discuss these in detail in the next article).
+As we traverse through these new mediums, we’re no longer just thinking about size (height and width) but also depth—where in the three-dimensional world does our text live? But that doesn't mean adding depth to our text solves our problems. Instead, it brings up numerous readability and [legibility](/glossary/legibility) issues (we discuss these in detail in the next article, [“Designing for AR/VR”](/lesson/designing_for_ar_vr)).
 
 There are additional technical challenges, like halation (excess glow around the text), limited resolution, distortion, chromatic aberration, vibrating text, etc. The list of challenges doesn’t end here: If the reader is moving, the text is also moving; and then the text could be viewed at an angle. Learn more in our article, [“Technical challenges for typography in AR/VR.”](/lesson/technical_challenges_for_typography_in_ar_vr)
 
@@ -25,11 +25,11 @@ While AR/VR might conjure ideas of video games and entertainment, devices are al
 
 With time, some of AR/VR’s limitations will be resolved, but how text is experienced in these environments may well represent a shift far greater than the transition from printed books to desktop screens. Starting to think about these issues now will help us shape engaging, effective, and safe reading experiences in this new medium.
 
-In AR/VR, the whole world is our design space. Therefore, a good understanding of the different ways in which we can set text can have a huge impact on the reading experience. This understanding starts with the reader’s head and its placement in space, which provides our frame of reference. Do we intend to keep the text accessible to the user all the time, or do we want it to be visible only when it is required, depending on head movement? Is the text context-specific, with no relation to the space around the reader, like an important notification or warning? Or is it something that directly relates to the user's surroundings, like text highlighting the keys someone was searching for? Let’s explore each of these concepts in detail.
+In AR/VR, the whole world is our design space. Therefore, a good understanding of the different ways in which we can set text can have a huge impact on the reading experience. This understanding starts with the reader’s head and its placement in space, which provides our frame of reference. Do we intend to keep the text visible all the time, or only when it’s required, depending on head movement? Is the text context-specific, with no relation to the space around the reader, like an important notification or warning? Or is it something that directly relates to the surroundings, like text highlighting the keys someone was searching for? Let’s explore each of these concepts in detail.
 
 ## Anchoring of Information
 
-The placement of text in 3D space in reference to the reader’s head is crucial for determining how the text will be read, and for defining its behavior. Knowing this will help choose the parameters to look for while selecting and setting type.
+The placement of text in 3D space in reference to the reader’s head is crucial for determining how the text will be read, and for defining its behavior. Knowing this will help us choose the parameters to look for while selecting and setting type.
 
 ### Anchored to head
 
@@ -68,7 +68,7 @@ We can also decide on text placement based on its perceived distance from the us
 
 ### Heads-up display (HUD) region
 
-This region is reserved for user interface (UI) elements that are anchored to the head and stay in their view no matter where someone’s looking (as shown by the first image). It can be used for showing essential information, such as time, or notifications, similar to the status bar in smartphones. However, this space should be used sparingly for important elements. It’s recommended not to place objects too close to the subject as it results in the accommodation-vergence conflict, which causes visual fatigue.
+This region is reserved for user interface (UI) elements that are anchored to the head and stay in their view no matter where someone’s looking (as shown by the first image). It can be used for showing essential information, such as time, or notifications, similar to the status bar in smartphones. However, this space should be used sparingly for important elements. It’s recommended not to place objects too close to the subject as it results in the [vergence-accommodation conflict](https://xinreality.com/wiki/Vergence-Accommodation_Conflict), which causes visual fatigue.
 
 <figure>
 
@@ -77,7 +77,7 @@ This region is reserved for user interface (UI) elements that are anchored to th
 
 </figure>
 
-The placement in this region closer to the eyes enables a quick view of  essential info by shifting focus from the real world to the information in the HUD region. Moving through our depth of field, shifting focus with our eye muscles rather than moving our heads is something we perform naturally in our physical surroundings.
+The placement in this region closer to the eyes enables a quick view of  essential info by shifting focus from the real world to the information in the HUD region. Moving through our depth of field, shifting focus with our eye muscles rather than moving our heads, is something we perform naturally in our physical surroundings.
 
 ### User interface/interaction (UI) region
 

@@ -89,7 +89,7 @@ The final region houses all the elements anchored to space on objects, such as t
 
 We also need to remember that the person’s movement can potentially bring the text from the environment region into the interaction region. This will increase the complexity in the design, since multiple interaction scenarios need to be envisaged.
 
-Further Reading:
+Useful links:
 
 - [Preparing for the better typography in Augmented Reality](https://niteeshyadav.com/blog/preparing-for-the-better-typography-in-augmented-reality-6232/)
 - [Understand display techniques in augmented reality](https://niteeshyadav.com/blog/understanding-display-techniques-in-augmented-reality-7485/)

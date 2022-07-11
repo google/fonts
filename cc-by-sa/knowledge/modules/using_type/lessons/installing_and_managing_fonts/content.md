@@ -31,13 +31,13 @@ Here are some popular font managers:
 - [RightFont](https://rightfontapp.com) (macOS)
 - [Font-Manager](https://github.com/FontManager/font-manager) (GNU+Linux)
 
-Each font manager is unique, but all share core functionality: You choose where to store your font library and select which fonts should be activated or deactivated. Most also offer additional ways of managing fonts such as grouping or tagging, either automatically or manually. Those that support variable fonts may also offer interactive previews of the variable axes.
+Each font manager is unique, but all share core functionality: You choose where to store your font library and select which fonts should be activated or deactivated. Most also offer additional ways of managing fonts such as grouping or tagging, either automatically or manually. Those that support variable fonts may also offer interactive previews of the variable [axes](/glossary/axis_in_variable_fonts).
 
 Some font managers are designed to manage only those fonts available from a particular service rather than control all fonts on your system. These include Adobe’s Creative Cloud application, Monotype Fonts, and FontStand.
 
 ## Considerations for variable fonts
 
-If you intend to work with variable fonts, the first thing you’ll need to do when acquiring the files is to make sure you’ve actually got variable fonts.
+If you intend to work with variable fonts, the first thing you’ll need to do when acquiring the files is to make sure you’ve actually *got* variable fonts.
 
 The file extension variable fonts use is usually .ttf and, rarely, .otf, but sadly that doesn’t distinguish them from their non-variable kin. Many foundries and distributors choose to include an indication of variation in the filename, such as the way Google Fonts lists the axes tags (`RobotoSerif[grad,opsz,wdth,wgth].ttf`). This makes it easier to see that it’s definitely a variable font, and which axes are available at a glance.
 
@@ -45,7 +45,7 @@ Using variable fonts on the web is relatively straightforward, especially with a
 
 One important thing to note is that not all desktop apps populate their font menu in the same way. Sketch, for instance, uses fonts installed locally on your system, whereas Figma combines local fonts with a selection of fonts served from the Google Fonts library—which now includes hundreds of variable fonts. Adobe’s various Creative Cloud apps also combine local fonts with a selection of fonts bundled with the apps (including a few variable fonts). The Adobe Fonts library does not yet provide any variable fonts.
 
-Some font manager apps, such as FontBase, Typeface, and RightFont allow the Google Fonts library to be synced to your computer, which means they should show up in all font menus. However, note that variable fonts are not currently included in Google Fonts’ Developer API, which means that font manager apps that pick up Google Fonts from the web *do not* currently include Google Fonts’ variable fonts.
+Some font manager apps, such as FontBase, Typeface, and RightFont, allow the Google Fonts library to be synced to your computer, which means they should show up in all font menus. However, note that variable fonts are not currently included in Google Fonts’ Developer API, which means that font manager apps that pick up Google Fonts from the web *do not* currently include Google Fonts’ variable fonts.
 
 Also, support for variable fonts can differ between apps, falling into one of these four scenarios:
 

@@ -7,13 +7,13 @@ FoV is the range of the observable world at a given point in time, measured in d
 <figure>
 
 ![An overhead representation of a human’s field of view, with semi-circles and lines representing the difference in fields between straight gaze and head movement.](images/technical_challenges_for_typography_in_ar_vr_1.png)
-<figcaption>Human FoV during straight gaze in front, approximately 120° (shown in blue) and extended FOV on head movement in the range of 200–270° (shown in light blue).</figcaption>
+<figcaption>Human FoV during straight gaze in front, approximately 120° (shown in blue) and extended FoV on head movement in the range of 200–270° (shown in light blue).</figcaption>
 
 </figure>
 
-From a typographic perspective, the FoV limits the width of the paragraphs we can display, in order to provide a better experience.
+From a typographic perspective, the FoV limits the width of the paragraphs we can display in order to provide a better experience.
 
-At the time of writing, current AR/VR headsets have FoVs between 40° and 100°, which is relatively low compared to the human eye. This means objects closer to the eye appear cropped (see the image below). To see the full object, they either have to step back, or move their head around. Therefore, a wider FOV is preferred for better immersion.
+At the time of writing, current AR/VR headsets have FoVs between 40° and 100°, which is relatively low compared to the human eye. This means objects closer to the eye appear cropped (see the image below). To see the full object, they either have to step back, or move their head around. Therefore, a wider FoV is preferred for better immersion.
 
 <figure>
 
@@ -24,22 +24,21 @@ At the time of writing, current AR/VR headsets have FoVs between 40° and 100°,
 
 ## Brightness and contrast
 
-It’s hard to produce sufficient brightness to achieve good contrast in see-through displays, especially outdoors where the ambient light is strong. Since OSTs (optical see-through headsets; learn more about headset display types [here](https://niteeshyadav.com/blog/understanding-display-techniques-in-augmented-reality-7485/)) allow the users to see the world directly, maximum brightness is required to compete with the brightness of the real world, and make the virtual objects blend in or stand out in the scene. The contrast levels directly affect the text and its readability.
+It’s hard to produce sufficient brightness to achieve good contrast in see-through displays, especially outdoors where the ambient light is strong. Since OSTs ([optical see-through headsets](https://niteeshyadav.com/blog/understanding-display-techniques-in-augmented-reality-7485/)) allow the users to see the world directly, maximum brightness is required to compete with the brightness of the real world, and make the virtual objects blend in or stand out in the scene. The contrast levels directly affect the text and its readability.
 
 ## Resolution
 
 The resolution of a display affects the level of details perceived by the human eye more than anything else. In AR/VR devices, the useful metric for resolution is pixels per degree (PPD). This is the number of pixels within 1° of vision in front of the eye. We can calculate the PPD by dividing the number of pixels in the horizontal display line by the horizontal FoV that’s provided by the optics of the display lens. In a display with 1280x800px, there are 640x800  pixels per eye; with a FoV of 90°, the PPD comes out at 7.1 (640/90). This is far too low compared to the resolution of the human eye, which is approximately 60 PPD.
 
-Lower pixel density can cause blurring of text, pixelation, and the screen door effect: the visible fine lines between pixels on a display when seen up close (discussed below). A higher PPD results in sharper and more realistic images. But note that a higher pixel density in the display is not necessarily sufficient, because the pixels on the screen are magnified through lenses in the headset. Devices may have varying optics, which results in different pixel magnification—which creates different pixel densities presented to the eye.
+Lower pixel density can cause blurring of text, pixelation, and the screen door effect: the visible fine lines between pixels on a display when seen up close (discussed below). A higher PPD results in sharper and more realistic images. But note that a higher pixel density in the display is not necessarily sufficient, because the pixels on the screen are magnified through lenses in the headset. Devices may have varying optics, which results in different pixel magnification—and that means different pixel densities presented to the eye.
 
 ## Refresh Rate
 
-Another related component is refresh rate: the number of times per second a display grabs a new image from the GPU (graphics processing unit) and shows it to the viewer.
-The refresh rate influences how the display renders motion and is critical for text rendering in a scene where the text is not stationary. A higher refresh rate produces better text.
+Another related component is refresh rate: the number of times per second a display grabs a new image from the GPU (graphics processing unit) and shows it to the viewer. The refresh rate influences how the display renders motion and is critical for text rendering in a scene where the text is not stationary. A higher refresh rate produces better text.
 
 ## Halation
 
-Halation, also known as irradiation, is the spreading of light beyond its proper boundaries to form a fog around the edges of a rendered text. The excessive glow around the letters sometimes fills up small negative spaces in the text resulting in legibility issues. It also causes rounding at the corners of the text, which distorts the actual shape of the letterforms.
+Halation, also known as irradiation, is the spreading of light beyond its proper boundaries to form a fog around the edges of a rendered text. The excessive glow around the letters sometimes fills up small negative spaces in the text, resulting in [legibility](/glossary/legibility) issues. It also causes rounding at the corners of the text, which distorts the actual shape of the letterforms.
 
 <figure>
 
@@ -76,7 +75,7 @@ The display in headsets is made up of pixels that light up to render the text th
 
 The term screen door effect was not coined with the advent of virtual reality. It was, and still is, a common issue with LCD and DLP projectors.
 
-Useful Links:
+Useful links:
 - [Factors influencing the reading experience in augmented reality](https://niteeshyadav.com/blog/factors-that-influence-the-reading-experience-in-ar-8677/)
 - [Understand display techniques in augmented reality](https://niteeshyadav.com/blog/understanding-display-techniques-in-augmented-reality-7485/)
 - [Why We Need New Typefaces for Augmented Reality](https://www.youtube.com/watch?v=WTFjjyV1mnk&t=2084s)

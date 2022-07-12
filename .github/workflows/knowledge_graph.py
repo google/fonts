@@ -18,8 +18,7 @@ def _topics_target_to_path(_: Set[str], target: str) -> str:
 
 
 def _module_target_to_path(_: Set[str], target: str) -> str:
-    # in the actual FE this seems to refer to topics
-    return Path(target.replace("/module/", "topics/")) / "topic.textproto"
+    return Path(target) / "module.textproto"
 
 
 def _content_md(path: str) -> Path:

@@ -34,7 +34,7 @@ For Linux, macOS, FreeBSD, or HaikuOS you can also use [fnt](https://github.com/
 
 ## Download All Google Fonts
 
-You can download all Google Fonts in a simple ZIP snapshot (over 600MB) from <https://github.com/google/fonts/archive/main.zip>
+You can download all Google Fonts in a simple ZIP snapshot (over 1GB) from <https://github.com/google/fonts/archive/main.zip>
 
 #### Sync With Git
 

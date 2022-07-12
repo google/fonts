@@ -6,7 +6,7 @@ The letterforms we use today have taken on particular proportions over the centu
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_1.jpg)
+![Book scan showing Jenson’s roman](images/fitting_the_line_1.jpg)
 <figcaption>Jenson’s roman, from Eusebius’s De evangelica praeparatione (1470).</figcaption>
 
 </figure>
@@ -19,7 +19,7 @@ It’s been suggested that the first italic, also cut by Francesco Griffo for Al
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_2.jpg)
+![Book scan showing Griffo’s italic](images/fitting_the_line_2.jpg)
 <figcaption>Griffo’s italic, from Pietro Bembo’s Gli asolani (1505).</figcaption>
 
 </figure>
@@ -30,7 +30,7 @@ In his “Manuel typographique,” the prolific French punchcutter, typefounder,
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_3.jpg)
+![Book scan from Manuel typographique](images/fitting_the_line_3.jpg)
 <figcaption>Fournier’s regular, condensed, and poetry faces, from his Manuel typographique (1764).</figcaption>
 
 </figure>
@@ -43,7 +43,7 @@ Today, it’s not unusual for typefaces to be released in “families'' comprisi
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_4.svg)
+![Three lines of type set in three different widths of Fira Sans.](images/fitting_the_line_4.svg)
 <figcaption>Three widths of Fira Sans.</figcaption>
 
 </figure>
@@ -56,12 +56,12 @@ The Univers family included twenty-one numbered variants, which were arrayed in 
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_5.jpg)
+![A grid of weights and widths for Univers, with lightest to heaviest, top to bottom, and widest to narrowest, left to right.](images/fitting_the_line_5.jpg)
 <figcaption>Univers diagram from ATF type specimen (1965).</figcaption>
 
 </figure>
 
-The numbering system was [adapted **MISSING_URL**](https://inserturl.com) from the one Frutiger devised for the other Lumitype faces: A two­-digit number indicates width, weight and slant. The first digit is for weight, from 3 (extra-light) to 8 (black), and the second digit denotes width and slant, from 3 (extended) to 9 (extra-condensed), with odd numbers reserved for roman, and even numbers for italics. At the center of the system is Univers 55, the regular weight/width, and 56, its corresponding italic.
+The numbering system was adapted from the one Frutiger devised for the other Lumitype faces: A two­-digit number indicates width, weight and slant. The first digit is for weight, from 3 (extra-light) to 8 (black), and the second digit denotes width and slant, from 3 (extended) to 9 (extra-condensed), with odd numbers reserved for roman, and even numbers for italics. At the center of the system is Univers 55, the regular weight/width, and 56, its corresponding italic.
 
 The result was a coherent system: “For the first time in the history of letterpress printing,” writes Emil Ruder in Frutiger’s “Type, sign, symbol,” a foundry had “built up an extensive family of typefaces, not as a consequence of the first successful font but in accordance with a plan from the beginning.” (Rudefr advised Frutiger on the design of Univers.)
 
@@ -69,7 +69,7 @@ While not planned out with the rigor of Univers, [Cheltenham](https://en.wikiped
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_6.jpg)
+![Book scan from ATF type specimen showing the Cheltenham typeface.](images/fitting_the_line_6.jpg)
 <figcaption>Cheltenham promotional copy, from ATF specimen book (1923).</figcaption>
 
 </figure>
@@ -78,7 +78,7 @@ Designed by architect [Bertram Grosvenor Goodhue](https://en.wikipedia.org/wiki/
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_7.jpg)
+![Book scan from ATF type specimen showing four widths of the Cheltenham typeface.](images/fitting_the_line_7.jpg)
 <figcaption>Five widths of Cheltenham, from ATF specimen book (1923).</figcaption>
 
 </figure>
@@ -89,8 +89,8 @@ Decades before Cheltenham, though, manufacturers of wood display type were cutti
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_8.jpg)
-<figcaption>Various widths, from Rob Roy Kelly’s American Wood Type (1969).</figcaption>
+![Book scan from American Wood Type, showing the letter “R” from three different typefaces in various widths.](images/fitting_the_line_8.jpg)
+<figcaption>**CHECK LICENSE** Various widths, from Rob Roy Kelly’s American Wood Type (1969).</figcaption>
 
 </figure>
 
@@ -102,7 +102,7 @@ This profusion of design variations was made possible by the [pantograph](https:
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_9.jpg)
+![Scan from F.W. Devoe & C.T. Raynolds Co. catalog showing illustration of a pantograph.](images/fitting_the_line_9.jpg)
 <figcaption>Drafting pantograph, from F.W. Devoe & C.T. Raynolds Co. catalog (1914).</figcaption>
 
 </figure>
@@ -111,7 +111,7 @@ Pantographs had already been used to transfer patterns to wood for cutting, but 
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_10.jpg)
+![Book scan from De Vinne’s Plain Printing Types, showing illustration of a pantograph.](images/fitting_the_line_10.jpg)
 <figcaption>Leavenworth’s pantograph for wood type, from De Vinne’s Plain Printing Types (1900).</figcaption>
 
 </figure>
@@ -128,7 +128,7 @@ In the phototypesetting era, when metal type was replaced by designs stored as p
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_11.jpg)
+![A diagram showing how a plus lens adds to a glyph’s height or width, and how a minus lens reduces a glyph’s height or width.](images/fitting_the_line_11.jpg)
 <figcaption>The effects possible with two Phototypositor distortion lenses.</figcaption>
 
 </figure>
@@ -137,7 +137,7 @@ In the computer age, of course, changing the width of letters is a snap. For dec
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_12.jpg)
+![Type that is artificially scaled.](images/fitting_the_line_12.jpg)
 <figcaption>Monotype Plantin. Above: horizontally scaled 250% Below: vertically scaled 250%.</figcaption>
 
 </figure>
@@ -152,7 +152,7 @@ A couple tools that help make it even easier are [Wakamai Fondue](https://wakama
 
 <figure>
 
-![INSERT_ALT](images/fitting_the_line_13_ANIMA.gif)
+![An animated GIF showing how the combined use of the Weight and Width variable axes allows two lines of type to stay horizontally in sync, even though the text on each line contains different characters.](images/fitting_the_line_13_ANIMA.gif)
 
 </figure>
 

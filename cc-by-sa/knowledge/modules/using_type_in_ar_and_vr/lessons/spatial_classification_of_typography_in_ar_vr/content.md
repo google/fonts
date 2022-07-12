@@ -1,4 +1,6 @@
-Let’s group some of the concepts we’ve discussed in previous articles from this module into spatial classifications. This can help with considerations for choosing typefaces, setting text, and even designing typefaces for different applications. This classification may also help with picking the most appropriate rendering methods (see [“Designing for AR/VR”](/lesson/designing_for_ar_vr)) for displaying text in AR/VR experiences. For example, text belonging to the “Text in HUD” category remains fixed in size, so the standard textures of each size can be used without a loss in resolution as people move closer to the text. On the other hand, text in the “Sticky info text” category requires a higher resolution, since people have control over their distance from the text and can move toward or away from it. This classification can also help with exploring the application of variable fonts across different cases (again, for more, see [“Designing for AR/VR”](/lesson/designing_for_ar_vr)).
+Let’s group some of the concepts we’ve discussed in previous articles from [this module](/module/using_type_in_ar_and_vr) into spatial classifications. This can help with considerations for choosing [typefaces](/glossary/typeface), [setting text](/glossary/typesetting), and even designing typefaces for different applications. This classification may also help with picking the most appropriate rendering methods (see [“Designing for AR/VR”](/lesson/designing_for_ar_vr)) for displaying text in AR/VR experiences.
+
+For example, [text](/glossary/text_copy) belonging to the “Text in HUD” category remains fixed in size, so the standard textures of each size can be used without a loss in resolution as people move closer to the text. On the other hand, text in the “Sticky info text” category requires a higher resolution, since people have control over their distance from the text and can move toward or away from it. This classification can also help with exploring the application of [variable fonts](/glossary/variable_fonts) across different cases (again, for more, see [“Designing for AR/VR”](/lesson/designing_for_ar_vr)).
 
 | Type of text: | Position: | Viewing angle: | Text state: | User’s state: | Examples: |
 | --- | --- | --- | --- | --- | --- |
@@ -15,7 +17,7 @@ In this case, text sticks to the field of the view and moves with head movement.
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_1.png)
+![A simulation of an AR/VR experience, with text-based information overlaid on top of the real and/or virtual environment.](images/spatial_classification_of_typography_in_ar_vr_1.svg)
 
 </figure>
 
@@ -25,7 +27,7 @@ Text should, ideally, be placed in the UI region for a better reading experience
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_2.png)
+![A simulation of a person wearing AR goggles, reading long-form text inside the AR experience.](images/spatial_classification_of_typography_in_ar_vr_2.png)
 
 </figure>
 
@@ -35,7 +37,7 @@ Text that’s anchored to real-world objects (usually in a close range—up to a
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_3.png)
+![A simulation of text-based information overlaid on a real-world object (a box held by a human hand) in an AR experience.](images/spatial_classification_of_typography_in_ar_vr_3.png)
 
 </figure>
 
@@ -45,7 +47,7 @@ Similar to the sticky info text, this is anchored to real-world objects, but in 
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_4.png)
+![A simulation of an AR experience, with interactive restaurant information (including a “see menu” button) overlaid on the real-world environment.](images/spatial_classification_of_typography_in_ar_vr_4.png)
 
 </figure>
 
@@ -55,7 +57,7 @@ This can be placed in both UI and environment regions where the text changes its
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_5.png)
+![A simulation of an AR experience, where a moving arrow (with text labels) is overlaid on top of the real-world environment.](images/spatial_classification_of_typography_in_ar_vr_5.png)
 
 </figure>
 
@@ -65,10 +67,10 @@ The term “ticker” comes from news tickers: an element with moving text that�
 
 <figure>
 
-![INSERT_ALT](images/spatial_classification_of_typography_in_ar_vr_6.png)
+![A simulation of an AR/VR experience, with text-based information overlaid on top of the real and/or virtual environment, with ticket text highlighted.](images/spatial_classification_of_typography_in_ar_vr_6.svg)
 
 </figure>
 
-Useful Links:
+Useful links:
 - [Future of Typography in Augmented Reality](https://youtu.be/lFO5A8-FzlI?t=1636)
 - [Typography Classification in Augmented Reality v1.1](https://niteeshyadav.com/blog/typography-classification-in-augmented-reality-v1-1-8760/)

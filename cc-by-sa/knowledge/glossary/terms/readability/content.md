@@ -1,8 +1,8 @@
-Readability describes how comfortable it is for a person to engage with [text](/glossary/text_copy) created with [legible](/glossary/legibility) [type](/glossary/type). Three factors determine readability: The person’s unique attributes (visual acuity, disabilities, and other health factors), what the text itself says, and the [typography](/glossary/typography)—both the choice of [typeface](/glossary/typeface) and how it’s used. Readability should not be confused with [legibility](/glossary/legibility), although legibility does affect readability.
+Readability describes how comfortable it is for a person to engage with [text](/glossary/text_copy) created with [legible](/glossary/legibility) [type](/glossary/type). Three factors determine readability: The person’s unique attributes (visual acuity, disabilities, and other health factors), what the text itself says, and the [typography](/glossary/typography)—both the choice of [typeface](/glossary/typeface) and how it’s used. Readability should not be confused with [legibility](/glossary/legibility), although legibility does *affect* readability.
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![Two paragraphs of identical text, with the left paragraph set with negative tracking and tight leading—both of which make it much harder to read. The paragraph on the right, with default tracking and more generous leading, is much more readable.](images/thumbnail.svg)
 
 </figure>
 

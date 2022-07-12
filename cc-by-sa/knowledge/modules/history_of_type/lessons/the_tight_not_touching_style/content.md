@@ -14,7 +14,7 @@ There are many factors involved in optical scaling, but here are some of the mos
 
 <figure>
 
-![Blackletter type on a white background.](images/the_tight_not_touching_style_1.jpg)
+![Blackletter type “K” on a white background.](images/the_tight_not_touching_style_1.jpg)
 <figcaption>Caption: Comparison of optical sizes in the metal version of Rudolf Koch's Wilhelm-Klingspor-Gotisch, from Size-Specific Adjustments to Type Designs (2014); looking at the smallest size, it’s easy to see the widened letterforms, increased weight, lower contrast, and suppression of details.</figcaption>
 
 </figure>
@@ -41,7 +41,7 @@ Before the pantograph, optical scaling didn’t call for any special technology.
 
 <figure>
 
-![INSERT_ALT](images/the_tight_not_touching_style_2.jpg)
+![An approximation of metal type glyphs.](images/the_tight_not_touching_style_2.jpg)
 <figcaption>Patterns for different sizes of type: from top to bottom, 12 pt., 9 pt., and 6 pt. From Typographical Printing-Surfaces (1916).</figcaption>
 
 </figure>
@@ -82,7 +82,7 @@ The designer of a Multiple Master typeface could also define a non-linear “axi
 
 <figure>
 
-![INSERT_ALT](images/the_tight_not_touching_style_3.jpg)
+![A graph showing how interpolation differs as point size and master design size increase.](images/the_tight_not_touching_style_3.jpg)
 <figcaption>Optical size axis map, from Designing Multiple Master Typefaces (1997).</figcaption>
 
 </figure>
@@ -99,7 +99,7 @@ Each “letter” (the “face,” or actual printing surface, of the type), alo
 
 <figure>
 
-![INSERT_ALT](images/the_tight_not_touching_style_4.jpg)
+![Manually kernin between an “f” and “n” with metal type by having the letterform extend beyond the face of the type block.](images/the_tight_not_touching_style_4.jpg)
 <figcaption>Kerned type.</figcaption>
 
 </figure>
@@ -108,7 +108,7 @@ It was easy to add letter spacing to metal type; spacing material of the desired
 
 <figure>
 
-![INSERT_ALT](images/the_tight_not_touching_style_5.jpg)
+![A diagram showing the difference between mortised and unmortised type.](images/the_tight_not_touching_style_5.jpg)
 <figcaption>Above: mortised type. Below: unmortised type. From ad for Rouse type mortiser, Western Newspaper Union Catalogue of Printing Machinery and Supplies (1953).</figcaption>
 
 </figure>
@@ -119,7 +119,7 @@ Photo-typesetting did away with many of the spacing constraints of metal type. F
 
 <figure>
 
-![INSERT_ALT](images/the_tight_not_touching_style_6.jpg)
+![“Cardinal Type” set three times, each with different tracking values, tight to loose.](images/the_tight_not_touching_style_6.jpg)
 <figcaption>Spacing options, from Cardinal Type Service catalog (1983).</figcaption>
 
 </figure>
@@ -136,7 +136,7 @@ And variable fonts can now automatically map optical size to font size. For exam
 
 <figure>
 
-![INSERT_ALT](images/the_tight_not_touching_style_7_ANIMA.gif)
-<figcaption>Adjustments to font size, the Optical Size axis (OPSZ), and letter spacing when setting Fraunces at different sizes.</figcaption>
+![An animated GIF showing how font size, optical size, and tracking interact to appropriately manipulate type for its intended size.](images/the_tight_not_touching_style_7_ANIMA.gif)
+<figcaption>Adjustments to font size, the Optical Size axis (OPSZ), and letter spacing when setting [Fraunces](https://fonts.google.com/specimen/Fraunces?) at different sizes.</figcaption>
 
 </figure>

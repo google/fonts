@@ -2,7 +2,7 @@ Google Fonts offers two collections as [icon fonts](/glossary/icon_font): [Mater
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![On the left, four horizontal sliders to control the variable axes Weight, Fill, Grade, and Optical Size. On the right, a glyph from the Material Symbols font, affected by each control.](images/thumbnail.svg)
 
 </figure>
 

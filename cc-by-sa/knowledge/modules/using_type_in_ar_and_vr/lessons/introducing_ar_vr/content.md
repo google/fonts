@@ -5,7 +5,7 @@ And now, the next transition is arriving, with the immersive worlds of augmented
 <figure>
 
 ![A screen showing a virtual reality experience and a screen showing an augmented reality experience.](images/introducing_ar_vr_1.jpg)
-<figcaption>Left: Example of VR, Mozilla Hubs. Right: Screen capture from an AR demo by Ultraleap.</figcaption>
+<figcaption>Left: Example of VR. Right: Example of AR.</figcaption>
 
 </figure>
 

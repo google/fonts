@@ -18,7 +18,7 @@ def _topics_target_to_path(_: Set[str], target: str) -> str:
 
 
 def _module_target_to_path(_: Set[str], target: str) -> str:
-    return Path(target) / "module.textproto"
+    return Path(target.replace("/module/", "modules/")) / "module.textproto"
 
 
 def _content_md(path: str) -> Path:

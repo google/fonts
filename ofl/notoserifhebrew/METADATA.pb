@@ -10,9 +10,11 @@ fonts {
   filename: "NotoSerifHebrew[wdth,wght].ttf"
   post_script_name: "NotoSerifHebrew-Regular"
   full_name: "Noto Serif Hebrew Regular"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hebrew)"
 }
 subsets: "hebrew"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wdth"
@@ -23,6 +25,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/hebrew.git"
+  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSerifHebrew-v2.003/NotoSerifHebrew-v2.003.zip"
 }
 is_noto: true
 languages: "he_Hebr"  # Hebrew

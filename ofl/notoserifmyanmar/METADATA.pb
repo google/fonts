@@ -6,86 +6,30 @@ date_added: "2020-11-19"
 fonts {
   name: "Noto Serif Myanmar"
   style: "normal"
-  weight: 100
-  filename: "NotoSerifMyanmar-Thin.ttf"
-  post_script_name: "NotoSerifMyanmar-Thin"
-  full_name: "Noto Serif Myanmar Thin"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
-}
-fonts {
-  name: "Noto Serif Myanmar"
-  style: "normal"
-  weight: 200
-  filename: "NotoSerifMyanmar-ExtraLight.ttf"
-  post_script_name: "NotoSerifMyanmar-ExtraLight"
-  full_name: "Noto Serif Myanmar ExtraLight"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
-}
-fonts {
-  name: "Noto Serif Myanmar"
-  style: "normal"
-  weight: 300
-  filename: "NotoSerifMyanmar-Light.ttf"
-  post_script_name: "NotoSerifMyanmar-Light"
-  full_name: "Noto Serif Myanmar Light"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
-}
-fonts {
-  name: "Noto Serif Myanmar"
-  style: "normal"
   weight: 400
-  filename: "NotoSerifMyanmar-Regular.ttf"
+  filename: "NotoSerifMyanmar[wdth,wght].ttf"
   post_script_name: "NotoSerifMyanmar-Regular"
   full_name: "Noto Serif Myanmar Regular"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/myanmar)"
 }
-fonts {
-  name: "Noto Serif Myanmar"
-  style: "normal"
-  weight: 500
-  filename: "NotoSerifMyanmar-Medium.ttf"
-  post_script_name: "NotoSerifMyanmar-Medium"
-  full_name: "Noto Serif Myanmar Medium"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
-}
-fonts {
-  name: "Noto Serif Myanmar"
-  style: "normal"
-  weight: 600
-  filename: "NotoSerifMyanmar-SemiBold.ttf"
-  post_script_name: "NotoSerifMyanmar-SemiBold"
-  full_name: "Noto Serif Myanmar SemiBold"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
-}
-fonts {
-  name: "Noto Serif Myanmar"
-  style: "normal"
-  weight: 700
-  filename: "NotoSerifMyanmar-Bold.ttf"
-  post_script_name: "NotoSerifMyanmar-Bold"
-  full_name: "Noto Serif Myanmar Bold"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
-}
-fonts {
-  name: "Noto Serif Myanmar"
-  style: "normal"
-  weight: 800
-  filename: "NotoSerifMyanmar-ExtraBold.ttf"
-  post_script_name: "NotoSerifMyanmar-ExtraBold"
-  full_name: "Noto Serif Myanmar ExtraBold"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
-}
-fonts {
-  name: "Noto Serif Myanmar"
-  style: "normal"
-  weight: 900
-  filename: "NotoSerifMyanmar-Black.ttf"
-  post_script_name: "NotoSerifMyanmar-Black"
-  full_name: "Noto Serif Myanmar Black"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
-}
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "myanmar"
+axes {
+  tag: "wdth"
+  min_value: 62.5
+  max_value: 100.0
+}
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/myanmar.git"
+  archive_url: "https://github.com/notofonts/myanmar/releases/download/NotoSerifMyanmar-v2.106/NotoSerifMyanmar-v2.106.zip"
+}
 is_noto: true
 languages: "kht_Mymr"  # Khamti
 languages: "ksw_Mymr"  # S'gaw Karen, Myanmar

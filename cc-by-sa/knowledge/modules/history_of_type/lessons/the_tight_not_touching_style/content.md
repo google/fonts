@@ -1,6 +1,10 @@
 In the 1960s, the introduction of photo-typesetting made it possible to set type tighter than ever before. Over the next two decades, designers like Herb Lubalin and Tom Carnase used this new ability in letter spacing to create a (very cool) new aesthetic called tight-not-touching. Read on to find out how this style came to be and how variable fonts make it easier to achieve the look today.
 
-**MISSING: Caption: Look how cool the work of 1960s designers like Herb Lubalin and Tom Carnase is. (Image courtesy of Flat File) Alt text: The word “fact:” in white on a black background**
+<figure>
+
+![The word “tight”, set in the “tight not touching” style.](images/the_tight_not_touching_style_EXTRA.svg)
+<figcaption>A modern interpretation of the “tight not touching” style, set in <a href="https://fonts.google.com/specimen/Fraunces">Fraunces</a>.</figcaption>
+</figure>
 
 ## Letter spacing—linear scaling vs. optical scaling
 

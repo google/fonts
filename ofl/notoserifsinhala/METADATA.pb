@@ -10,8 +10,10 @@ fonts {
   filename: "NotoSerifSinhala[wdth,wght].ttf"
   post_script_name: "NotoSerifSinhala-Regular"
   full_name: "Noto Serif Sinhala Regular"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sinhala)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "sinhala"
 axes {
@@ -23,6 +25,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/sinhala.git"
+  archive_url: "https://github.com/notofonts/sinhala/releases/download/NotoSerifSinhala-v2.005/NotoSerifSinhala-v2.005.zip"
 }
 is_noto: true
 languages: "pi_Sinh"  # Pali, Sinhala

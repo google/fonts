@@ -2,7 +2,7 @@ name: "M PLUS 1p"
 designer: "Coji Morishita, M+ Fonts Project"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: 2017-06-12
+date_added: "2017-06-12"
 fonts {
   name: "M PLUS 1p"
   style: "normal"

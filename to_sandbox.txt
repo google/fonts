@@ -9,7 +9,9 @@ ofl/silkscreen
 ofl/cormorantgaramond
 ofl/cormorantinfant
 ofl/cormorantsc
-ofl/cormorantunicase 
+#lint_server_files check thinks this is not a valid path. 
+#Comment out until we figure out why.
+#ofl/cormorantunicase 
 ofl/notonaskharabic
 ofl/notorashihebrew
 ofl/notosansarmenian

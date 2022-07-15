@@ -89,8 +89,8 @@ Decades before Cheltenham, though, manufacturers of wood display type were cutti
 
 <figure>
 
-![Book scan from American Wood Type, showing the letter “R” from three different typefaces in various widths.](images/fitting_the_line_8.jpg)
-<figcaption>**CHECK LICENSE** Various widths, from Rob Roy Kelly’s American Wood Type (1969).</figcaption>
+![Various widths of the letter “R” from two different typefaces.](images/fitting_the_line_8.svg)
+<figcaption>A modern approximation of an illustration from Rob Roy Kelly’s American Wood Type (1969), using the variable widths of <a href="https://fonts.google.com/specimen/Roboto+Flex">Roboto Flex</a> (top) and <a href="https://github.com/TypeNetwork/fb-Amstelvar">Amstelvar</a> (bottom).</figcaption>
 
 </figure>
 

@@ -109,7 +109,7 @@ Typefaces with sturdy stroke endings tend to perform better over those with less
 <figure>
 
 ![The English alphabet rendered in the typefaces Open Sans and Nunito, with screenshots of the AR scene showing how similar they appear in that environment.](images/type_selection_for_ar_vr_5.jpg)
-<figcaption>The images above show two typefaces, Open Sans (a) and Nunito (b), which have straight and round endings respectively, but render similarly in AR. Both Open Sans and Nunito Regular have 72 pt size in AR and 30pt in the reference string at the top.</figcaption>
+<figcaption>The images above show two typefaces, Open Sans (left) and Nunito (right), which have straight and round endings respectively, but render similarly in AR. Both Open Sans and Nunito Regular have 72 pt size in AR and 30pt in the reference string at the top.</figcaption>
 
 </figure>
 

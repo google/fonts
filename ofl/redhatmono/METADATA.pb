@@ -1,5 +1,5 @@
 name: "Red Hat Mono"
-designer: "Jeremy Mickel"
+designer: "MCKL"
 license: "OFL"
 category: "SANS_SERIF"
 category: "MONOSPACE"

@@ -1,5 +1,5 @@
 name: "Red Hat Text"
-designer: "MCKL"
+designer: "Jeremy Mickel"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-04-10"
@@ -28,4 +28,8 @@ axes {
   tag: "wght"
   min_value: 300.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/jeremymickel/RedHatFonts"
+  commit: "d20968c93b62cedcc5ca4d2de2d8063c7efe35d1"
 }

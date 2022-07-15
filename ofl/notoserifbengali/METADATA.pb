@@ -10,9 +10,11 @@ fonts {
   filename: "NotoSerifBengali[wdth,wght].ttf"
   post_script_name: "NotoSerifBengali-Regular"
   full_name: "Noto Serif Bengali Regular"
-  copyright: "Copyright 2019 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bengali)"
 }
 subsets: "bengali"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wdth"
@@ -23,6 +25,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/bengali.git"
+  archive_url: "https://github.com/notofonts/bengali/releases/download/NotoSerifBengali-v2.003/NotoSerifBengali-v2.003.zip"
 }
 is_noto: true
 languages: "as_Beng"  # Assamese

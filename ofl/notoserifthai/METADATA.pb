@@ -10,8 +10,10 @@ fonts {
   filename: "NotoSerifThai[wdth,wght].ttf"
   post_script_name: "NotoSerifThai-Regular"
   full_name: "Noto Serif Thai Regular"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/thai)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 axes {
@@ -23,6 +25,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/thai.git"
+  archive_url: "https://github.com/notofonts/thai/releases/download/NotoSerifThai-v2.001/NotoSerifThai-v2.001.zip"
 }
 is_noto: true
 languages: "kdt_Thai"  # Kuy

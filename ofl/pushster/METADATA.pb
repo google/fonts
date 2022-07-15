@@ -15,3 +15,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+minisite_url: "https://fonts.google.com/icons"
+primary_script: "Thai"

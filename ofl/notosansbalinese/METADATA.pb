@@ -10,14 +10,20 @@ fonts {
   filename: "NotoSansBalinese[wght].ttf"
   post_script_name: "NotoSansBalinese-Regular"
   full_name: "Noto Sans Balinese Regular"
-  copyright: "Copyright 2020 Noto Sans Balinese Google"
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)"
 }
-subsets: "menu"
 subsets: "balinese"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/notofonts/balinese.git"
+  archive_url: "https://github.com/notofonts/balinese/releases/download/NotoSansBalinese-v2.003/NotoSansBalinese-v2.003.zip"
 }
 is_noto: true
 languages: "ban_Bali"  # Balinese, Balinese

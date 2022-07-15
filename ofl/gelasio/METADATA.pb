@@ -10,7 +10,7 @@ fonts {
   filename: "Gelasio-Regular.ttf"
   post_script_name: "Gelasio-Regular"
   full_name: "Gelasio Regular"
-  copyright: "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
+  copyright: "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
 }
 fonts {
   name: "Gelasio"
@@ -19,7 +19,7 @@ fonts {
   filename: "Gelasio-Italic.ttf"
   post_script_name: "Gelasio-Italic"
   full_name: "Gelasio Italic"
-  copyright: "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
+  copyright: "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
 }
 fonts {
   name: "Gelasio"
@@ -28,7 +28,7 @@ fonts {
   filename: "Gelasio-Medium.ttf"
   post_script_name: "Gelasio-Medium"
   full_name: "Gelasio Medium"
-  copyright: "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
+  copyright: "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
 }
 fonts {
   name: "Gelasio"
@@ -37,7 +37,7 @@ fonts {
   filename: "Gelasio-MediumItalic.ttf"
   post_script_name: "Gelasio-MediumItalic"
   full_name: "Gelasio Medium Italic"
-  copyright: "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
+  copyright: "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
 }
 fonts {
   name: "Gelasio"
@@ -46,7 +46,7 @@ fonts {
   filename: "Gelasio-SemiBold.ttf"
   post_script_name: "Gelasio-SemiBold"
   full_name: "Gelasio SemiBold"
-  copyright: "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
+  copyright: "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
 }
 fonts {
   name: "Gelasio"
@@ -55,7 +55,7 @@ fonts {
   filename: "Gelasio-SemiBoldItalic.ttf"
   post_script_name: "Gelasio-SemiBoldItalic"
   full_name: "Gelasio SemiBold Italic"
-  copyright: "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
+  copyright: "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
 }
 fonts {
   name: "Gelasio"
@@ -64,7 +64,7 @@ fonts {
   filename: "Gelasio-Bold.ttf"
   post_script_name: "Gelasio-Bold"
   full_name: "Gelasio Bold"
-  copyright: "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
+  copyright: "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
 }
 fonts {
   name: "Gelasio"
@@ -73,9 +73,13 @@ fonts {
   filename: "Gelasio-BoldItalic.ttf"
   post_script_name: "Gelasio-BoldItalic"
   full_name: "Gelasio Bold Italic"
-  copyright: "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
+  copyright: "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/SorkinType/Gelasio"
+  commit: "bb66c796b8c2491c2b5e78e65ce9c6035eed405e"
+}

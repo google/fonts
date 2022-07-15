@@ -10,8 +10,10 @@ fonts {
   filename: "NotoSansTelugu[wdth,wght].ttf"
   post_script_name: "NotoSansTelugu-Regular"
   full_name: "Noto Sans Telugu Regular"
-  copyright: "Copyright 2019 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/telugu)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "telugu"
 axes {
@@ -23,6 +25,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/telugu.git"
+  archive_url: "https://github.com/notofonts/telugu/releases/download/NotoSansTelugu-v2.003/NotoSansTelugu-v2.003.zip"
 }
 is_noto: true
 languages: "gon_Telu"  # Gondi, Telugu

@@ -10,7 +10,7 @@ fonts {
   filename: "Akshar[wght].ttf"
   post_script_name: "Akshar-Light"
   full_name: "Akshar Light"
-  copyright: "Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)"
+  copyright: "Copyright 2022 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)"
 }
 subsets: "devanagari"
 subsets: "latin"
@@ -23,5 +23,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/tallchai/akshar-type"
-  commit: "eef9a27a802495276ade842ce255b9833af6a30f"
+  commit: "0c6de5ef9cef264b3b3f958e772b3a371f92d083"
 }

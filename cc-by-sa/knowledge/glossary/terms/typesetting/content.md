@@ -1,5 +1,5 @@
 
-Typesetting is the act of setting [type](/glossary/type); that is, arranging [characters](/glossary/character) and making informed [typographic decisions](/glossary/typography) that will optimize the [readability](/glossary/legibility_readability) of that [text](/glossary/text_copy).
+Typesetting is the act of setting [type](/glossary/type); that is, arranging [characters](/glossary/character) and making informed [typographic decisions](/glossary/typography) that will optimize the [readability](/glossary/readability) of that [text](/glossary/text_copy).
 
 <figure>
 

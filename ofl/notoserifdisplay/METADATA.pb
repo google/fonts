@@ -1,7 +1,6 @@
 name: "Noto Serif Display"
 designer: "Google"
 license: "OFL"
-category: "DISPLAY"
 category: "SERIF"
 date_added: "2020-11-19"
 fonts {
@@ -11,7 +10,7 @@ fonts {
   filename: "NotoSerifDisplay[wdth,wght].ttf"
   post_script_name: "NotoSerifDisplay-Regular"
   full_name: "Noto Serif Display Regular"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)"
 }
 fonts {
   name: "Noto Serif Display"
@@ -20,7 +19,7 @@ fonts {
   filename: "NotoSerifDisplay-Italic[wdth,wght].ttf"
   post_script_name: "NotoSerifDisplay-Italic"
   full_name: "Noto Serif Display Italic"
-  copyright: "Copyright 2016 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -39,6 +38,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/latin-greek-cyrillic.git"
+  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerifDisplay-v2.009/NotoSerifDisplay-v2.009.zip"
 }
 is_noto: true
 languages: "aa_Latn"  # Afar

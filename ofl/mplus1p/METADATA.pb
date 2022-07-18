@@ -25,7 +25,7 @@ fonts {
   name: "M PLUS 1p"
   style: "normal"
   weight: 400
-  filename: "MPLUS1p-Regular.ttf"
+  filename: "Mplus1p-Regular.ttf"
   post_script_name: "MPLUS1p-Regular"
   full_name: "M PLUS 1p"
   copyright: "Copyright 2016 The M+ Project Authors."
@@ -34,7 +34,7 @@ fonts {
   name: "M PLUS 1p"
   style: "normal"
   weight: 500
-  filename: "MPLUS1p-Medium.ttf"
+  filename: "Mplus1p-Medium.ttf"
   post_script_name: "MPLUS1p-Medium"
   full_name: "M PLUS 1p Medium"
   copyright: "Copyright 2016 The M+ Project Authors."

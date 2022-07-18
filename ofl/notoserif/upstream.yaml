@@ -1,0 +1,6 @@
+archive: https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.009/NotoSerif-v2.009.zip
+branch: main
+files:
+  OFL.txt: OFL.txt
+  NotoSerif/googlefonts/variable-ttf/NotoSerif-Italic[wdth,wght].ttf: NotoSerif-Italic[wdth,wght].ttf
+  NotoSerif/googlefonts/variable-ttf/NotoSerif[wdth,wght].ttf: NotoSerif[wdth,wght].ttf

@@ -17,3 +17,5 @@ subsets: "latin-ext"
 subsets: "menu"
 minisite_url: "https://fonts.google.com/icons"
 primary_script: "Thai"
+languages: "en_Latn"  # English
+languages: "eo_Latn"  # Esperanto

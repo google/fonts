@@ -1,15 +1,15 @@
 
-Size wise, [typefaces](INSERT_URL) have a long history of small [families](INSERT_URL): [Style](INSERT_URL)-wise, many sizes of metal type gave way to digital systems of multiple [masters](INSERT_URL) for various resolutions. Then came a flourishing of families with a broad range of styles and few size masters in PostScript, followed by [OpenType](INSERT_URL) continuing the PostScript tradition. And then, finally, [variable fonts](INSERT_URL).
+Size wise, [typefaces](/glossary/typeface) have a long history of small [families](/glossary/family_or_type_family_or_font_family): [Style](/glossary/style)-wise, many sizes of metal type gave way to digital systems of multiple [masters](/glossary/masters) for various resolutions. Then came a flourishing of families with a broad range of styles and few size masters in PostScript, followed by [OpenType](/glossary/opentype) continuing the PostScript tradition. And then, finally, [variable fonts](/glossary/variable_fonts).
 
-In early metal types, a set of matrices that covered a short span of sizes from 6 to 11 points was common for a [text](INSERT_URL) typeface family. In later hand-set metal types, a family could be so useful and popular as to receive a wide range of sizes, such as from 10 to 96 points.
+In early metal types, a set of matrices that covered a short span of sizes from 6 to 11 points was common for a [text](/glossary/text_copy) typeface family. In later hand-set metal types, a family could be so useful and popular as to receive a wide range of sizes, such as from 10 to 96 points.
 
-For most of the 20th century, one kind of typesetting machine specific to rapid setting of text was used exclusively for the smaller sizes, six to 14 point. Meanwhile, [typesetting](INSERT_URL) machines of a different kind (from other manufacturers) offered a similar typeface in a range of larger sizes, such as from 18 to 96 points.
+For most of the 20th century, one kind of typesetting machine specific to rapid setting of text was used exclusively for the smaller sizes, six to 14 point. Meanwhile, [typesetting](/glossary/typesetting) machines of a different kind (from other manufacturers) offered a similar typeface in a range of larger sizes, such as from 18 to 96 points.
 
 But the phototypesetting—and then PostScript desktop—publishing revolutions reduced, and then removed, size-specific designs from common availability and use. These technologies allowed a single typeface design to be scaled uniformly to any size, and even scaled narrower or wider with some distortion.
 
 This created a typographic era where typefaces with specific characteristics were able to flourish across all boundaries of size, dot/pixel resolutions and scripts. And they continue to flourish today, in the forms of the mono-weight san serif, that’s been accepted as a de facto standard regardless of size, resolution, or sensitivity to internationalization. It is possible that the famous faces of the phototypesetting and desktop eras would not be popular if they were launched today, as they became famous when they had size specific designs.
 
-During this period where PostScript, TrueType, and then OpenType standards did not widely support [optical sizes](INSERT_URL), a small number of foundries developed sets of sibling fonts that offered typefaces each intended for a range of sizes, such as “Text” or [“Display.”](INSERT_URL) With real variable fonts, optical size designs are smoothly interpolated, removing the previous boundaries between designs.
+During this period where PostScript, TrueType, and then OpenType standards did not widely support [optical sizes](/glossary/optical_sizes), a small number of foundries developed sets of sibling fonts that offered typefaces each intended for a range of sizes, such as “Text” or [“Display”.](/glossary/display) With real variable fonts, optical size designs are smoothly interpolated, removing the previous boundaries between designs.
 
 <figure>
 
@@ -18,9 +18,9 @@ During this period where PostScript, TrueType, and then OpenType standards did n
 
 </figure>
 
-As a fluid range of sizes, with precision in fractions of points from the smallest size to the largest, type designers can now make whatever changes are required for the design over the size range being offered. With this they have a new and important opportunity to assure users that every style of a font family will work, and work just as well as the [“Regular”](INSERT_URL) style, at every size.
+As a fluid range of sizes, with precision in fractions of points from the smallest size to the largest, type designers can now make whatever changes are required for the design over the size range being offered. With this they have a new and important opportunity to assure users that every style of a font family will work, and work just as well as the [“Regular”](/glossary/regular_upright) style, at every size.
 
-A quick overview of how a range of type sizes looks can be shown with a typical “ramp” of type sizes. By comparing a family’s legacy static fonts in a ramp to a variable version of the family with an [optical size axis (`opsz`)](INSERT_URL), we’ll show how optical size makes it easier to use a family, and how precise, per-point, size-specific design can improve performance and the overall experience for readers. Then, we’ll go into the details of how optical sizes in Font Bureau fonts are designed to help, and how we recommend they be designed by other foundries and type designers.
+A quick overview of how a range of type sizes looks can be shown with a typical “ramp” of type sizes. By comparing a family’s legacy static fonts in a ramp to a variable version of the family with an [optical size axis (`opsz`)](/glossary/optical_size_axis), we’ll show how optical size makes it easier to use a family, and how precise, per-point, size-specific design can improve performance and the overall experience for readers. Then, we’ll go into the details of how optical sizes in Font Bureau fonts are designed to help, and how we recommend they be designed by other foundries and type designers.
 
 <figure>
 
@@ -36,7 +36,7 @@ A quick overview of how a range of type sizes looks can be shown with a typical 
 
 </figure>
 
-This ramp improves further still with a set of optical sizes that are all of Regular weight. This shows that an optical size axis can simplify the specification of type, comfort the user in their ability to just use the weight they want, and to know what the [“bold”](INSERT_URL) and [“italic”](INSERT_URL) of every style is — without hesitation. The “bold” of every 400 weight is simply always 700.
+This ramp improves further still with a set of optical sizes that are all of Regular weight. This shows that an optical size axis can simplify the specification of type, comfort the user in their ability to just use the weight they want, and to know what the [“bold”](/glossary/bold) and [“italic”](/glossary/italic) of every style is — without hesitation. The “bold” of every 400 weight is simply always 700.
 
 Instead of supplying the user with multiple font files to approximate one weight at different sizes, and also to be sorted out into other pairings for many other emphasis styles, `opsz` is typically bundled with at least a weight axis in one file. This takes up less space and downloads faster.
 
@@ -50,7 +50,7 @@ Instead of supplying the user with multiple font files to approximate one weight
 <figure>
 
 ![INSERT_ALT](images/size_5.svg)
-<figcaption>The top set of text uses [Roboto](INSERT_URL) 14pt design scaled to 48, 14 and 8 pt. The bottom set uses [Roboto Flex](INSERT_URL) with the 48pt design at 48 pt, the 14pt at 14 pt, and the 8pt at 8 pt. The design of the single master being 14 pt, used at size in the middle rows, it’s important to note that just 6 points of difference at 8pt, on the 3rd rows, can make the feeling of comfortable reading enjoyed at 14 points fade quickly. Similarly, at 48 point, Regular has become an over-consumer of space on the page, for the amount of information carried by the type.</figcaption>
+<figcaption>The top set of text uses [Roboto](/glossary/INSERT_URL) 14pt design scaled to 48, 14 and 8 pt. The bottom set uses [Roboto Flex](/glossary/INSERT_URL) with the 48pt design at 48 pt, the 14pt at 14 pt, and the 8pt at 8 pt. The design of the single master being 14 pt, used at size in the middle rows, it’s important to note that just 6 points of difference at 8pt, on the 3rd rows, can make the feeling of comfortable reading enjoyed at 14 points fade quickly. Similarly, at 48 point, Regular has become an over-consumer of space on the page, for the amount of information carried by the type.</figcaption>
 
 </figure>
 
@@ -64,7 +64,7 @@ But type designs have a few general guidelines to follow, if they choose. Smalle
 
 The second guideline, general to most type design, is the need for slight variations in weights, in spaces and in alignments across the glyphs of a style. This is in essence, “making everything as different as it needs to be, so that it all looks the same.” This has special application along the size axis, as the scaling of type does not affect all the parts of each glyph equally. So the design challenge in optical sizes is to add areas of light as the size master decreases to make it easier on the reader, and remove the light as the size increases, to make room for more content for the reader.
 
-If we could sculpt the head via a different scale than the body, it is an example of just what we do with lowercase “i” on [Latin](INSERT_URL) types. Smaller sizes need a larger dot, carefully sized to be thicker than the stroke below, without becoming so large as to confuse the letter for an “l” at small  sizes, While capable at larger bold sizes of nearly completely filling in the usual transparency between the two parts of the letter.
+If we could sculpt the head via a different scale than the body, it is an example of just what we do with lowercase “i” on [Latin](/glossary/latin) types. Smaller sizes need a larger dot, carefully sized to be thicker than the stroke below, without becoming so large as to confuse the letter for an “l” at small  sizes, While capable at larger bold sizes of nearly completely filling in the usual transparency between the two parts of the letter.
 
 <figure>
 

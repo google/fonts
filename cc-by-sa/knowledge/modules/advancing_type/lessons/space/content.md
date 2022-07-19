@@ -1,11 +1,11 @@
 
 [Type](/glossary/type) is, in essence, a series of shapes, in various combinations, hanging onto a framework of rectangles. [Typography](/glossary/typography) can contain a lot of different elements, beyond text and space, like symbols, icons, rules, ornaments, and effects. But for the most part, it contains just the marks of [glyphs](/glossary/glyph) and the spaces within and around them. And the majority of the fonts we use today contain mostly space.
 
-So let’s take a closer look at the  roles of these spaces, the interplay of their roles, and how some of their roles change with the addition of [variable fonts](INSERT_URL).
+So let’s take a closer look at the  roles of these spaces, the interplay of their roles, and how some of their roles change with the addition of [variable fonts](/glossary/variable_fonts).
 
 ## The em square
 
-Typography starts with the “imaginary” [em square](INSERT_URL).
+Typography starts with the “imaginary” [em square](/glossary/em).
 
 This is a rectangle of equal sides and angles, making it a square:
 
@@ -27,7 +27,7 @@ One: Vertically, the space represents where the vertical intersection is between
 
 </figure>
 
-So the [type designer](INSERT_URL) plans the vertical metrics of all the [characters](INSERT_URL) of a [typeface](INSERT_URL), based on how the designer wants collections of characters, words usually, to be glimpsed, seen, viewed, skimmed, read, or read for a long time.
+So the [type designer](/glossary/type_designer) plans the vertical metrics of all the [characters](/glossary/character) of a [typeface](/glossary/typeface), based on how the designer wants collections of characters, words usually, to be glimpsed, seen, viewed, skimmed, read, or read for a long time.
 
 <figure>
 
@@ -36,7 +36,7 @@ So the [type designer](INSERT_URL) plans the vertical metrics of all the [charac
 
 </figure>
 
-Two: Horizontally, the measure of the height is where “em square” comes from, though when the font of a script and design are proportionally spaced (as in many [Latin scripts](INSERT_URL)), the horizontal dimension of each glyph represents the default spacing of each character. This allows them the best spacing solution in consideration with all the other characters in the font. (So far, this is true of all scripts, and all designs.)
+Two: Horizontally, the measure of the height is where “em square” comes from, though when the font of a script and design are proportionally spaced (as in many [Latin scripts](/glossary/latin)), the horizontal dimension of each glyph represents the default spacing of each character. This allows them the best spacing solution in consideration with all the other characters in the font. (So far, this is true of all scripts, and all designs.)
 
 <figure>
 
@@ -89,7 +89,7 @@ The type designer’s task, then, is to create a default word space and default 
 
 ## The Counter
 
-There’s only one other kind of space left in type and it’s inside the letters. [Counters](INSERT_URL) may be fully enclosed, like the interior of “o,” trapped along the [baseline](INSERT_URL) and [cap height](INSERT_URL), like “K,” or swirling amidst the stem of the “S,” but it’s what gives a typeface the start on all the other spaces we’ve covered.
+There’s only one other kind of space left in type and it’s inside the letters. [Counters](/glossary/counter) may be fully enclosed, like the interior of “o,” trapped along the [baseline](/glossary/baseline) and [cap height](/glossary/cap_height), like “K,” or swirling amidst the stem of the “S,” but it’s what gives a typeface the start on all the other spaces we’ve covered.
 
 <figure>
 
@@ -98,7 +98,7 @@ There’s only one other kind of space left in type and it’s inside the letter
 
 </figure>
 
-The user has three kinds of control over this space: Type size, applied to a single style of type, makes them grow and shrink linearly(?) to the change of size; changing to the use of different styles within a regular font [family](INSERT_URL) alters the internal white spaces according to the style change from one to the next; variable fonts technology, which can provide both of the above, can also provide [optical sizes](INSERT_URL) that adjust the internal white spaces over a range of sizes, as well as add fluid ranges of weight and width axes.
+The user has three kinds of control over this space: Type size, applied to a single style of type, makes them grow and shrink linearly(?) to the change of size; changing to the use of different styles within a regular font [family](/glossary/family_or_type_family_or_font_family) alters the internal white spaces according to the style change from one to the next; variable fonts technology, which can provide both of the above, can also provide [optical sizes](/glossary/optical_sizes) that adjust the internal white spaces over a range of sizes, as well as add fluid ranges of weight and width axes.
 
 <figure>
 

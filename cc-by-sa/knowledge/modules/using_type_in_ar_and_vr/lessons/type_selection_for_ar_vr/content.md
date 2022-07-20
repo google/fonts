@@ -2,7 +2,7 @@ So far in [this series](/module/using_type_in_ar_and_vr), we’ve discussed vari
 
 ## Counters
 
-[Counters](/glossary/counter) are the enclosed or partially enclosed circular or curved negative spaces (white space) in [characters](/glossary/character) such as “c”, “d”, and “o.”
+[Counters](/glossary/counter) are the enclosed or partially enclosed circular or curved negative spaces (white space) in [characters](/glossary/character) such as “c,” “d,” and “o.”
 Apertures are the partially enclosed, somewhat rounded negative spaces in some characters such as “n,” “C,” “S,” the lower part of “e,” or the upper part of a double-storey “a;” essentially, the opening of the counter space.
 
 <figure>
@@ -15,7 +15,7 @@ Apertures are the partially enclosed, somewhat rounded negative spaces in some c
 The counters in letters have a crucial role in the performance of text viewed at a distance. Typefaces with small counters and closed apertures perform low in [legibility](/glossary/legibility) tests, and in smaller sizes can appear unreadable.
 
 - The phenomenon of irradiation and chromatic aberration around the outlines of the letters fills up the counters and small apertures, which can make letters like “c” and “e” appear as “o” (see image).
-- Many typefaces used heavily in screen and print, such as Helvetica and Univers, are unsuitable for distance viewing.
+- Many typefaces popular in screen and print, such as Helvetica and Univers, can be difficult to read from a distance because of their small counters and closed apertures.
 - A large [x-height](/glossary/x_height) has a direct impact on counter size, but wider letter shapes are a better way to control the counter size. It reduces perspective distortion and makes it easy to read text at different angles.
 
 ## Font weight
@@ -64,14 +64,14 @@ Viewing text at an angle sometimes merges the adjacent strokes and affects the v
 
 ## X-height
 
-The x-height is the height of the lowercase letters (disregarding ascenders or descenders), typically exemplified by the letter x. The relationship of the x-height to the nominal body of the typeface defines the perceived type size. A typeface with a large x-height looks much bigger than a typeface with a small x-height at the same size. Learn more in our lesson, [“Exploring x-height & the em square.”](/lesson/exploring_x_height_the_em_square)
+The x-height is the height of the lowercase letters (disregarding ascenders or descenders), typically exemplified by the letter “x”. The relationship of the x-height to the nominal body of the typeface defines the perceived type size. A typeface with a large x-height looks much bigger than a typeface with a small x-height at the same size. Learn more in our lesson, [“Exploring x-height & the em square.”](/lesson/exploring_x_height_the_em_square)
 
 Typefaces with large x-heights render well in busy backgrounds because their larger counters aid legibility. Characters with three horizontal strokes, such as “a,” “e,” and “s” benefit from a higher x-height.
 
 Although typefaces with large x-heights are more legible when viewed at a distance, an excessive x-height can lead to the misrecognition of letters. The x-height should be optimized to get the right balance between [ascenders](/glossary/ascenders_descenders) and the area of counters, keeping in mind the deterioration caused by rounding and irradiation.
 
 - The impact of x-height diminishes with narrow character widths. Therefore, these two factors should be considered in tandem.
-- In the case of letters with two horizontal strokes (o,z,b,d,p,q) a large x-height has less impact on the legibility.
+- In the case of letters with two horizontal strokes (o,z,b,d,p,q), a large x-height has less impact on the legibility.
 - The use of a large x-height in some cases might lead to misrecognition of letters, if the x-height is too close to the ascender height (see image), which usually gets suppressed by rounding at the edges because of irradiation—thereby decreasing the legibility.
 - Ascenders play a bigger role in letter recognition as compared to descenders.
 
@@ -115,6 +115,6 @@ Typefaces with sturdy stroke endings tend to perform better over those with less
 
 ## Letter spacing
 
-Compared to other mediums, [spacing](/glossary/tracking_letter_spacing) in AR/VR plays a decisive factor. Tightly spaced letters cause significant legibility issues, as they crowd and interfere with each other, making it hard to recognise individual letters. Therefore, it becomes necessary to have generous spacing between letters to compensate for the merging of strokes in perspective view. The ideal spacing must take into consideration the perceived width of individual strokes and whole letterforms due to irradiation and chromatic aberration.
+Compared to other mediums, [spacing](/glossary/tracking_letter_spacing) in AR/VR plays a critical role for legibility and readability. Tightly spaced letters cause significant legibility issues, as they crowd and interfere with each other, making it hard to recognise individual letters. Therefore, it becomes necessary to have generous spacing between letters to compensate for the merging of strokes in perspective view. The ideal spacing must take into consideration the perceived width of individual strokes and whole letterforms due to irradiation and chromatic aberration.
 
-The spacing in AR/VR should balance internal and external spaces without compromising the reading speed Therefore the weight and width of the typeface needs to be considered in combination with the optimal letter spacing for each text environment.
+The spacing in AR/VR should balance internal and external spaces without compromising the reading speed. Therefore the weight and width of the typeface needs to be considered in combination with the optimal letter spacing for each text environment.

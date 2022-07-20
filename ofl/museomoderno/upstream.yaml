@@ -1,5 +1,6 @@
 branch: master
 files:
-  fonts/variable/MuseoModerno[wght].ttf: MuseoModerno[wght].ttf
   OFL.txt: OFL.txt
-repository_url: https://github.com/Omnibus-Type/MuseoModerno
+  fonts/variable/MuseoModerno[wght].ttf: MuseoModerno[wght].ttf
+  fonts/variable/MuseoModerno-Italic[wght].ttf: MuseoModerno-Italic[wght].ttf
+archive:

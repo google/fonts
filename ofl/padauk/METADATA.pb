@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Padauk-Regular.ttf"
   post_script_name: "Padauk-Regular"
-  full_name: "Padauk Regular"
-  copyright: "Copyright SIL International, all rights reserved"
+  full_name: "Padauk"
+  copyright: "Copyright (c) 2002-2022 SIL International"
 }
 fonts {
   name: "Padauk"
@@ -19,8 +19,13 @@ fonts {
   filename: "Padauk-Bold.ttf"
   post_script_name: "Padauk-Bold"
   full_name: "Padauk Bold"
-  copyright: "Copyright SIL International, all rights reserved"
+  copyright: "Copyright (c) 2002-2022 SIL International"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "myanmar"
+source {
+  repository_url: "https://github.com/silnrsi/font-padauk"
+  archive_url: "https://github.com/silnrsi/font-padauk/releases/download/v5.001/Padauk-5.001.zip"
+}

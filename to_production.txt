@@ -35,7 +35,6 @@ cc-by-sa/knowledge/glossary/terms/homoglyph
 cc-by-sa/knowledge/glossary/terms/icon_font
 cc-by-sa/knowledge/glossary/terms/icon_symbol
 cc-by-sa/knowledge/glossary/terms/legibility
-cc-by-sa/knowledge/glossary/terms/legibility_readability
 cc-by-sa/knowledge/glossary/terms/ligature
 cc-by-sa/knowledge/glossary/terms/line_height_leading
 cc-by-sa/knowledge/glossary/terms/material_symbols
@@ -49,10 +48,6 @@ cc-by-sa/knowledge/glossary/terms/tracking_letter_spacing
 cc-by-sa/knowledge/glossary/terms/typesetting
 cc-by-sa/knowledge/glossary/terms/uppercase_lowercase
 cc-by-sa/knowledge/glossary/terms/x_height
-cc-by-sa/knowledge/modules/advancing_type
-cc-by-sa/knowledge/modules/advancing_type/lessons/size
-cc-by-sa/knowledge/modules/advancing_type/lessons/space
-cc-by-sa/knowledge/modules/advancing_type/lessons/weight
 cc-by-sa/knowledge/modules/choosing_type/lessons/a_checklist_for_choosing_type
 cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_reliable_typefaces
 cc-by-sa/knowledge/modules/choosing_type/lessons/emotive_considerations_for_choosing_typefaces
@@ -77,4 +72,4 @@ cc-by-sa/knowledge/topics/ar_vr
 cc-by-sa/knowledge/topics/type_design
 
 # API Stuff
-lang/Lib/gflanguages/data/languages/th_Thai.textproto
+lang/languages/th_Thai.textproto

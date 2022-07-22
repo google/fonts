@@ -8,11 +8,13 @@ fonts {
   style: "normal"
   weight: 400
   filename: "NotoSansHebrew[wdth,wght].ttf"
-  post_script_name: "NotoSansHebrew-Light"
-  full_name: "Noto Sans Hebrew Light"
-  copyright: "Copyright 2019 Google Inc. All Rights Reserved."
+  post_script_name: "NotoSansHebrew-Regular"
+  full_name: "Noto Sans Hebrew Regular"
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hebrew)"
 }
 subsets: "hebrew"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wdth"
@@ -23,6 +25,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/hebrew.git"
+  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSansHebrew-v2.003/NotoSansHebrew-v2.003.zip"
 }
 is_noto: true
 languages: "he_Hebr"  # Hebrew

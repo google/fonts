@@ -26,3 +26,9 @@ source {
   archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSerifOriya-v1.051/NotoSerifOriya-v1.051.zip"
 }
 is_noto: true
+languages: "khr_Orya"  # Kharia, Odia
+languages: "kyw_Orya"  # Kudmali, Odia
+languages: "or_Orya"  # Odia
+languages: "sa_Orya"  # Sanskrit, Odia / Oriya
+languages: "sat_Orya"  # Santali, Odia
+languages: "unr_Orya"  # Mundari, Odia

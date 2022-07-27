@@ -1,7 +1,7 @@
 name: "Noto Rashi Hebrew"
 designer: "Google"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2020-11-19"
 fonts {
   name: "Noto Rashi Hebrew"
@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/hebrew.git"
-  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoRashiHebrew-v1.005/NotoRashiHebrew-v1.005.zip"
+  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoRashiHebrew-v1.006/NotoRashiHebrew-v1.006.zip"
 }
 is_noto: true
 languages: "he_Hebr"  # Hebrew

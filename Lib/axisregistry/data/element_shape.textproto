@@ -1,0 +1,9 @@
+#Element Shape, based on https://github.com/rosettatype/handjet
+tag: "ESHP"
+display_name: "Element Shape"
+min_value: 0.0
+default_value: 0.0
+max_value: 100.0
+precision: -1
+description: 
+    "Controls the shape of the element"

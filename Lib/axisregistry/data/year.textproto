@@ -1,3 +1,4 @@
+# YEAR based on https://github.com/dancoull/ClimateCrisis
 tag: "YEAR"
 display_name: "Year"
 min_value: -4000
@@ -5,4 +6,5 @@ default_value: 2000
 max_value: 4000
 precision: 0
 
-description: "Axis that shows in a metaphoric way the effect of time on a chosen topic."
+description: 
+  "Axis that shows in a metaphoric way the effect of time on a chosen topic."

@@ -9,7 +9,7 @@ Until recently, “Times Roman” meant what “Times Roman Regular” meant in 
 
 <figure>
 
-![INSERT_ALT](images/weight_1.svg)
+![INSERT_ALT](images/weight_1.png)
 <figcaption>INSERT_CAPTION</figcaption>
 
 </figure>
@@ -18,21 +18,28 @@ Until recently, “Times Roman” meant what “Times Roman Regular” meant in 
 
 <figure>
 
-![INSERT_ALT](images/weight_2.svg)
+![INSERT_ALT](images/weight_2.png)
+<figcaption>INSERT_CAPTION</figcaption>
+
+</figure>
+
+<figure>
+
+![INSERT_ALT](images/weight_3.png)
 <figcaption>Changes to weight also occur over the [width](/glossary/width) axis, as a [condensed](/glossary/condensed_narrow_compressed) regular style should become lighter in weight, with the opposite variation in wider styles. And of course the [grade](/glossary/grade) axis changes the weight of any style and design space.</figcaption>
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/weight_3.svg)
+![INSERT_ALT](images/weight_4.png)
 <figcaption>Weight also behaves differently in Latin serif versus sans, with the weight and shape of serifs and contrast to thinner stems playing a role in the visual appearance of that class.</figcaption>
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/weight_4.svg)
+![INSERT_ALT](images/weight_5.png)
 <figcaption>INSERT_CAPTION</figcaption>
 
 </figure>
@@ -41,7 +48,7 @@ Finally, script complexity changes weight, as the contrast between more complex 
 
 <figure>
 
-![INSERT_ALT](images/weight_5.svg)
+![INSERT_ALT](images/weight_6.png)
 <figcaption>INSERT_CAPTION</figcaption>
 
 </figure>
@@ -62,7 +69,7 @@ How they are defined in the weight axes of [Roboto Flex](https://fonts.google.co
 
 <figure>
 
-![INSERT_ALT](images/weight_6.svg)
+![INSERT_ALT](images/weight_7.png)
 <figcaption>INSERT_CAPTION</figcaption>
 
 </figure>
@@ -71,7 +78,7 @@ and
 
 <figure>
 
-![INSERT_ALT](images/weight_7.svg)
+![INSERT_ALT](images/weight_8.png)
 <figcaption>INSERT_CAPTION</figcaption>
 
 </figure>

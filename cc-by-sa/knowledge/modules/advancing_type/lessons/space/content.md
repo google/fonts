@@ -11,7 +11,7 @@ This is a rectangle of equal sides and angles, making it a square:
 
 <figure>
 
-![INSERT_ALT](images/space_1.svg)
+![INSERT_ALT](images/space_1.png)
 <figcaption>The em square.</figcaption>
 
 </figure>
@@ -22,7 +22,7 @@ One: Vertically, the space represents where the vertical intersection is between
 
 <figure>
 
-![INSERT_ALT](images/space_2.svg)
+![INSERT_ALT](images/space_2.png)
 <figcaption>The vertical dimensions of a font’s main glyph groups.</figcaption>
 
 </figure>
@@ -31,7 +31,7 @@ So the [type designer](/glossary/type_designer) plans the vertical metrics of al
 
 <figure>
 
-![INSERT_ALT](images/space_3.svg)
+![INSERT_ALT](images/space_3.png)
 <figcaption>Length of text/various ways to see it. </figcaption>
 
 </figure>
@@ -40,7 +40,7 @@ Two: Horizontally, the measure of the height is where “em square” comes from
 
 <figure>
 
-![INSERT_ALT](images/space_4.svg)
+![INSERT_ALT](images/space_4.png)
 <figcaption>Glyphs of different widths. Monospaced all one width.</figcaption>
 
 </figure>
@@ -49,7 +49,7 @@ Add to all this the direction of reading (at the behest of whichever direction, 
 
 <figure>
 
-![INSERT_ALT](images/space_5.svg)
+![INSERT_ALT](images/space_5.png)
 <figcaption>Beginnings and ends of transparencies.</figcaption>
 
 </figure>
@@ -58,7 +58,7 @@ The em square (called an em quad in metal type), can be seen typographically as 
 
 <figure>
 
-![INSERT_ALT](images/space_6.svg)
+![INSERT_ALT](images/space_6.png)
 <figcaption>Em square with/without additional line spacing and letter spacing..</figcaption>
 
 </figure>
@@ -71,7 +71,7 @@ The largest key on most keyboards, and the most important character to spacing i
 
 <figure>
 
-![INSERT_ALT](images/space_7.svg)
+![INSERT_ALT](images/space_7.png)
 <figcaption>Word space and its adjustment.</figcaption>
 
 </figure>
@@ -82,7 +82,7 @@ The type designer’s task, then, is to create a default word space and default 
 
 <figure>
 
-![INSERT_ALT](images/space_8.svg)
+![INSERT_ALT](images/space_8.png)
 <figcaption>Default letter spacing and Kerning vs word space.</figcaption>
 
 </figure>
@@ -93,7 +93,7 @@ There’s only one other kind of space left in type and it’s inside the letter
 
 <figure>
 
-![INSERT_ALT](images/space_9.svg)
+![INSERT_ALT](images/space_9.png)
 <figcaption>Counters.</figcaption>
 
 </figure>
@@ -102,7 +102,7 @@ The user has three kinds of control over this space: Type size, applied to a sin
 
 <figure>
 
-![INSERT_ALT](images/space_10.svg)
+![INSERT_ALT](images/space_10.png)
 <figcaption>Counter changes via size, style and opsz.</figcaption>
 
 </figure>

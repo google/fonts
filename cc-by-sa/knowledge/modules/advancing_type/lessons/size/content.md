@@ -13,7 +13,7 @@ During this period where PostScript, TrueType, and then OpenType standards did n
 
 <figure>
 
-![INSERT_ALT](images/size_1.svg)
+![INSERT_ALT](images/size_1.png)
 <figcaption>Freight’s sibling fonts, by Darden Studio.</figcaption>
 
 </figure>
@@ -24,32 +24,37 @@ A quick overview of how a range of type sizes looks can be shown with a typical 
 
 <figure>
 
-![INSERT_ALT](images/size_2.svg)
+![INSERT_ALT](images/size_2.png)
 <figcaption>Ramp with one Regular weight (400), used for all sizes from 8 pt to 96 pt, appears smooth, but at the top and bottom it appears darker and lighter respectively.</figcaption>
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/size_3.svg)
+![INSERT_ALT](images/size_3.png)
 <figcaption>This ramp improves on the prior one with a set of weights switching to “preserve” appearance of ‘regular’ weight, which is typically done when multiple weights are available. The largest size is switched to Light (300), the smallest to Medium (500), and the rest left at Regular (400).</figcaption>
 
 </figure>
 
-This ramp improves further still with a set of optical sizes that are all of Regular weight. This shows that an optical size axis can simplify the specification of type, comfort the user in their ability to just use the weight they want, and to know what the [“bold”](/glossary/bold) and [“italic”](/glossary/italic) of every style is — without hesitation. The “bold” of every 400 weight is simply always 700.
+<figure>
+
+![INSERT_ALT](images/size_4.png)
+<figure>This ramp improves further still with a set of optical sizes that are all of Regular weight. This shows that an optical size axis can simplify the specification of type, comfort the user in their ability to just use the weight they want, and to know what the [“bold”](/glossary/bold) and [“italic”](/glossary/italic) of every style is — without hesitation. The “bold” of every 400 weight is simply always 700.</figcaption>
+
+</figure>
 
 Instead of supplying the user with multiple font files to approximate one weight at different sizes, and also to be sorted out into other pairings for many other emphasis styles, `opsz` is typically bundled with at least a weight axis in one file. This takes up less space and downloads faster.
 
 <figure>
 
-![INSERT_ALT](images/size_4.svg)
+![INSERT_ALT](images/size_5.png)
 <figcaption>This ramp changes tack, to show how the entire group of text styles in Fig. 3 can be changed at once, so all styles change from 400 to 700, while the smooth and even typographic color is retained. This interplay between size and weight is important for type designers to get right to assure users that optical size variations improve the efficiency and accuracy of their typography.</figcaption>
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/size_5.svg)
+![INSERT_ALT](images/size_6.png)
 <figcaption>The top set of text uses [Roboto](/glossary/INSERT_URL) 14pt design scaled to 48, 14 and 8 pt. The bottom set uses [Roboto Flex](/glossary/INSERT_URL) with the 48pt design at 48 pt, the 14pt at 14 pt, and the 8pt at 8 pt. The design of the single master being 14 pt, used at size in the middle rows, it’s important to note that just 6 points of difference at 8pt, on the 3rd rows, can make the feeling of comfortable reading enjoyed at 14 points fade quickly. Similarly, at 48 point, Regular has become an over-consumer of space on the page, for the amount of information carried by the type.</figcaption>
 
 </figure>
@@ -68,7 +73,7 @@ If we could sculpt the head via a different scale than the body, it is an exampl
 
 <figure>
 
-![INSERT_ALT](images/size_6.svg)
+![INSERT_ALT](images/size_7.png)
 <figcaption>Over a range of sizes being rendered to pixels by modern computers, the type is designed so that the small sizes gather extra pixels into the details, both opaque and transparent, while on the other end, in large sizes, they shed unnecessary pixels, both opaque and transparent.</figcaption>
 
 </figure>
@@ -89,7 +94,7 @@ Stay tuned for part II that describes how uppercase, figures and punctuation wor
 
 <figure>
 
-![INSERT_ALT](images/size_7.svg)
+![INSERT_ALT](images/size_8.png)
 <figcaption>Roboto Flex `opsz` 144 wght 1000 and `opsz` 8 wght 100. The thinnest smallest size (pink), and the boldest largest size (black).</figcaption>
 
 </figure>

@@ -1,5 +1,5 @@
 name: "Black Ops One"
-designer: "James Grieshaber"
+designer: "James Grieshaber, Eben Sorkin"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-07-27"
@@ -10,8 +10,14 @@ fonts {
   filename: "BlackOpsOne-Regular.ttf"
   post_script_name: "BlackOpsOne-Regular"
   full_name: "Black Ops One Regular"
-  copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Names \"Black Ops\" and \"Black Ops One\"."
+  copyright: "Copyright 2022 The PinyonScript Project Authors (https://github.com/SorkinType/Black-Ops)"
 }
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/SorkinType/Black-Ops"
+  commit: "c955bed3517ad3d8606a8b0105d27538309fb70d"
+}

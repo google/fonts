@@ -32,3 +32,7 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/cyrealtype/Lora-Cyrillic"
+  commit: "42418d965083aa5471c6d9aa5f5c4051cba29384"
+}

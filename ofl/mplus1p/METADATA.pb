@@ -27,7 +27,7 @@ fonts {
   weight: 400
   filename: "MPLUS1p-Regular.ttf"
   post_script_name: "MPLUS1p-Regular"
-  full_name: "M PLUS 1p"
+  full_name: "M PLUS 1p Regular"
   copyright: "Copyright 2016 The M+ Project Authors."
 }
 fonts {

@@ -29,3 +29,4 @@ source {
   repository_url: "https://github.com/aliftype/aref-ruqaa"
   archive_url: "https://github.com/aliftype/aref-ruqaa/releases/download/v1.005/ArefRuqaa-1.005.zip"
 }
+

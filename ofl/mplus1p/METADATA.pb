@@ -7,7 +7,7 @@ fonts {
   name: "M PLUS 1p"
   style: "normal"
   weight: 100
-  filename: "Mplus1p-Thin.ttf"
+  filename: "MPLUS1p-Thin.ttf"
   post_script_name: "MPLUS1p-Thin"
   full_name: "M PLUS 1p Thin"
   copyright: "Copyright 2016 The M+ Project Authors."
@@ -16,7 +16,7 @@ fonts {
   name: "M PLUS 1p"
   style: "normal"
   weight: 300
-  filename: "Mplus1p-Light.ttf"
+  filename: "MPLUS1p-Light.ttf"
   post_script_name: "MPLUS1p-Light"
   full_name: "M PLUS 1p Light"
   copyright: "Copyright 2016 The M+ Project Authors."
@@ -25,16 +25,16 @@ fonts {
   name: "M PLUS 1p"
   style: "normal"
   weight: 400
-  filename: "Mplus1p-Regular.ttf"
+  filename: "MPLUS1p-Regular.ttf"
   post_script_name: "MPLUS1p-Regular"
-  full_name: "M PLUS 1p"
+  full_name: "M PLUS 1p Regular"
   copyright: "Copyright 2016 The M+ Project Authors."
 }
 fonts {
   name: "M PLUS 1p"
   style: "normal"
   weight: 500
-  filename: "Mplus1p-Medium.ttf"
+  filename: "MPLUS1p-Medium.ttf"
   post_script_name: "MPLUS1p-Medium"
   full_name: "M PLUS 1p Medium"
   copyright: "Copyright 2016 The M+ Project Authors."
@@ -43,7 +43,7 @@ fonts {
   name: "M PLUS 1p"
   style: "normal"
   weight: 700
-  filename: "Mplus1p-Bold.ttf"
+  filename: "MPLUS1p-Bold.ttf"
   post_script_name: "MPLUS1p-Bold"
   full_name: "M PLUS 1p Bold"
   copyright: "Copyright 2016 The M+ Project Authors."
@@ -52,7 +52,7 @@ fonts {
   name: "M PLUS 1p"
   style: "normal"
   weight: 800
-  filename: "Mplus1p-ExtraBold.ttf"
+  filename: "MPLUS1p-ExtraBold.ttf"
   post_script_name: "MPLUS1p-ExtraBold"
   full_name: "M PLUS 1p ExtraBold"
   copyright: "Copyright 2016 The M+ Project Authors."
@@ -61,7 +61,7 @@ fonts {
   name: "M PLUS 1p"
   style: "normal"
   weight: 900
-  filename: "Mplus1p-Black.ttf"
+  filename: "MPLUS1p-Black.ttf"
   post_script_name: "MPLUS1p-Black"
   full_name: "M PLUS 1p Black"
   copyright: "Copyright 2016 The M+ Project Authors."

@@ -12,7 +12,7 @@ This is a rectangle of equal sides and angles, making it a square:
 <figure>
 
 ![INSERT_ALT](images/space_1.png)
-<figcaption>The em square.</figcaption>
+<figcaption>The em square</figcaption>
 
 </figure>
 

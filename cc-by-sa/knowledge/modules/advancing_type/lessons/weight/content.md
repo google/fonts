@@ -53,6 +53,13 @@ Finally, script complexity changes weight, as the contrast between more complex 
 
 </figure>
 
+<figure>
+
+![INSERT_ALT](images/weight_7.png)
+<figcaption>INSERT_CAPTION</figcaption>
+
+</figure>
+
 Confining ourselves to Latin [typography](/glossary/typography), a multi-weight font’s weight can be approached in a variety of ways to affect the appearance of a document. The three major strategies are:
 
 1. Do nothing except to use 400 and 700
@@ -69,7 +76,7 @@ How they are defined in the weight axes of [Roboto Flex](https://fonts.google.co
 
 <figure>
 
-![INSERT_ALT](images/weight_7.png)
+![INSERT_ALT](images/weight_8.png)
 <figcaption>INSERT_CAPTION</figcaption>
 
 </figure>
@@ -78,7 +85,7 @@ and
 
 <figure>
 
-![INSERT_ALT](images/weight_8.png)
+![INSERT_ALT](images/weight_9.png)
 <figcaption>INSERT_CAPTION</figcaption>
 
 </figure>

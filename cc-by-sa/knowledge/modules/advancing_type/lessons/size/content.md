@@ -55,7 +55,7 @@ Instead of supplying the user with multiple font files to approximate one weight
 <figure>
 
 ![INSERT_ALT](images/size_6.png)
-<figcaption>The top set of text uses [Roboto](/glossary/INSERT_URL) 14pt design scaled to 48, 14 and 8 pt. The bottom set uses [Roboto Flex](/glossary/INSERT_URL) with the 48pt design at 48 pt, the 14pt at 14 pt, and the 8pt at 8 pt. The design of the single master being 14 pt, used at size in the middle rows, it’s important to note that just 6 points of difference at 8pt, on the 3rd rows, can make the feeling of comfortable reading enjoyed at 14 points fade quickly. Similarly, at 48 point, Regular has become an over-consumer of space on the page, for the amount of information carried by the type.</figcaption>
+<figcaption>The left set of text uses <a href="glossary/INSERT_URL">Roboto</a> 14pt design scaled to 48, 14 and 8 pt. The right set uses <a href="/glossary/INSERT_URL">Roboto Flex</a> with the 48pt design at 48 pt, the 14pt at 14 pt, and the 8pt at 8 pt. The design of the single master being 14 pt, used at size in the middle rows, it’s important to note that just 6 points of difference at 8pt, on the 3rd rows, can make the feeling of comfortable reading enjoyed at 14 points fade quickly. Similarly, at 48 point, Regular has become an over-consumer of space on the page, for the amount of information carried by the type.</figcaption>
 
 </figure>
 

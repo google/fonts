@@ -22,11 +22,18 @@ axes {
   min_value: 0.0
   max_value: 1.0
 }
+
 axes {
   tag: "wght"
   min_value: 200.0
   max_value: 800.0
 }
+
+registry_default_overrides {
+  key: "MONO"
+  value: 1
+}
+
 source {
   repository_url: "https://github.com/sursly/sono"
   commit: "0e7274983bb034e232c9903f9d827ba4d595a888"

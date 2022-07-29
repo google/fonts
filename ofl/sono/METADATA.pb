@@ -8,7 +8,7 @@ fonts {
   name: "Sono"
   style: "normal"
   weight: 400
-  filename: "sono[MONO,wght].ttf"
+  filename: "Sono[MONO,wght].ttf"
   post_script_name: "Sono-ExtraLight"
   full_name: "Sono ExtraLight"
   copyright: "Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)"

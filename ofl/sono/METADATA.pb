@@ -1,0 +1,33 @@
+name: "Sono"
+designer: "Tyler Finck"
+license: "OFL"
+category: "SANS_SERIF"
+category: "MONOSPACE"
+date_added: "2022-07-29"
+fonts {
+  name: "Sono"
+  style: "normal"
+  weight: 400
+  filename: "sono[MONO,wght].ttf"
+  post_script_name: "Sono-ExtraLight"
+  full_name: "Sono ExtraLight"
+  copyright: "Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)"
+}
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "MONO"
+  min_value: 0.0
+  max_value: 1.0
+}
+axes {
+  tag: "wght"
+  min_value: 200.0
+  max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/sursly/sono"
+  commit: "0e7274983bb034e232c9903f9d827ba4d595a888"
+}

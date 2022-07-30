@@ -18,6 +18,10 @@ The `/axisregistry` subdirectory contains metadata for the GF Axis Registry, con
 
 If you find a problem with a font file or have a request for the future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/google/fonts/issues).
 
+## Contribute Fonts
+
+If you need more context on how to create issues in a GitHub issue tracker, or if you want to contribute a font directly, see [CONTRIBUTING](https://github.com/google/fonts/blob/main/CONTRIBUTING.md)
+
 ## Contributor Code of Conduct
 
 However you choose to contribute, please abide by our [code of conduct](CODE_OF_CONDUCT.md) to keep our community a healthy and welcoming place.

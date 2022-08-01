@@ -1,0 +1,6 @@
+archive: https://github.com/googlefonts/roboto-classic/releases/download/v3.005/Roboto_v3.005.zip
+branch: main
+files:
+  LICENSE.txt: LICENSE.txt
+  web/split/Roboto[wdth,wght].ttf: Roboto[wdth,wght].ttf
+  web/split/Roboto-Italic[wdth,wght].ttf: Roboto-Italic[wdth,wght].ttf

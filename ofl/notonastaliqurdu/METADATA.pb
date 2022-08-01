@@ -7,21 +7,23 @@ fonts {
   name: "Noto Nastaliq Urdu"
   style: "normal"
   weight: 400
-  filename: "NotoNastaliqUrdu-Regular.ttf"
+  filename: "NotoNastaliqUrdu[wght].ttf"
   post_script_name: "NotoNastaliqUrdu-Regular"
   full_name: "Noto Nastaliq Urdu Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)"
 }
-fonts {
-  name: "Noto Nastaliq Urdu"
-  style: "normal"
-  weight: 700
-  filename: "NotoNastaliqUrdu-Bold.ttf"
-  post_script_name: "NotoNastaliqUrdu-Bold"
-  full_name: "Noto Nastaliq Urdu Bold"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
-}
-subsets: "menu"
 subsets: "arabic"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/notofonts/nastaliq.git"
+  archive_url: "https://github.com/notofonts/nastaliq/releases/download/NotoNastaliqUrdu-v3.007/NotoNastaliqUrdu-v3.007.zip"
+}
 is_noto: true
 languages: "ur_Arab"  # Urdu

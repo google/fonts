@@ -10,14 +10,20 @@ fonts {
   filename: "NotoNaskhArabicUI[wght].ttf"
   post_script_name: "NotoNaskhArabicUI-Regular"
   full_name: "Noto Naskh Arabic UI Regular"
-  copyright: "Copyright 2019 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)"
 }
 subsets: "arabic"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/notofonts/arabic.git"
+  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabicUI-v2.014/NotoNaskhArabicUI-v2.014.zip"
 }
 is_noto: true
 languages: "aeb_Arab"  # Tunisian Arabic

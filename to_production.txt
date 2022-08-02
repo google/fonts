@@ -26,17 +26,8 @@ ofl/notosansavestan # https://github.com/google/fonts/pull/4839
 ofl/notosansbalinese # https://github.com/google/fonts/pull/4919
 ofl/notosansbengali # https://github.com/google/fonts/pull/4888
 ofl/notosanshebrew # https://github.com/google/fonts/pull/4944
-ofl/notosanshk # https://github.com/google/fonts/pull/4588
-ofl/notosansjp # https://github.com/google/fonts/pull/4590
-ofl/notosanskr # https://github.com/google/fonts/pull/4594
-ofl/notosanssc # https://github.com/google/fonts/pull/4602
 ofl/notosanstamil # https://github.com/google/fonts/pull/4899
-ofl/notosanstc # https://github.com/google/fonts/pull/4603
 ofl/notoserifgurmukhi # https://github.com/google/fonts/pull/4907
-ofl/notoserifjp # https://github.com/google/fonts/pull/4653
-ofl/notoserifkr # https://github.com/google/fonts/pull/4654
-ofl/notoserifsc # https://github.com/google/fonts/pull/4655
-ofl/notoseriftc # https://github.com/google/fonts/pull/4657
 ofl/padauk # https://github.com/google/fonts/pull/4970
 ofl/pinyonscript # https://github.com/google/fonts/pull/4755
 ofl/vazirmatn # https://github.com/google/fonts/pull/4850
@@ -59,3 +50,15 @@ lang/languages/th_Thai.textproto # https://github.com/google/fonts/pull/4668
 cc-by-sa/knowledge/glossary/terms/grade_axis # https://github.com/google/fonts/pull/4840
 cc-by-sa/knowledge/modules/history_of_type/lessons/the_tight_not_touching_style # https://github.com/google/fonts/pull/4967
 cc-by-sa/knowledge/modules/using_type_in_ar_and_vr/lessons/type_selection_for_ar_vr # https://github.com/google/fonts/pull/4965
+
+# Noto CJK is blocked on a prod issue.  These projects should
+# not be uncommented until approved by Fonts Eng
+# ofl/notosanshk # https://github.com/google/fonts/pull/4588
+# ofl/notosansjp # https://github.com/google/fonts/pull/4590
+# ofl/notosanskr # https://github.com/google/fonts/pull/4594
+# ofl/notosanssc # https://github.com/google/fonts/pull/4602
+# ofl/notosanstc # https://github.com/google/fonts/pull/4603
+# ofl/notoserifjp # https://github.com/google/fonts/pull/4653
+# ofl/notoserifkr # https://github.com/google/fonts/pull/4654
+# ofl/notoserifsc # https://github.com/google/fonts/pull/4655
+# ofl/notoseriftc # https://github.com/google/fonts/pull/4657

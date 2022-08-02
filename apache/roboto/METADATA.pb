@@ -39,3 +39,7 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/roboto-classic"
+  archive_url: "https://github.com/googlefonts/roboto-classic/releases/download/v3.005/Roboto_v3.005.zip"
+}

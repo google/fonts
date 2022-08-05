@@ -1,12 +1,3 @@
-# Designer profile
-catalog/designers/coreyanderson # https://github.com/google/fonts/pull/4861
-catalog/designers/tinaanderson # https://github.com/google/fonts/pull/4860
-
-# API Stuff
-lang/Lib/gflanguages/data/languages/ff_Adlm.textproto # https://github.com/google/fonts/pull/4975
-lang/Lib/gflanguages/data/languages/fuf_Adlm.textproto # https://github.com/google/fonts/pull/4975
-lang/Lib/gflanguages/data/languages/unr_Orya.textproto # https://github.com/google/fonts/pull/4991
-
 # Upgrade
 ofl/blackopsone # https://github.com/google/fonts/pull/4995
 ofl/notosansbuhid # https://github.com/google/fonts/pull/4838
@@ -44,6 +35,15 @@ ofl/notonaskharabicui # https://github.com/google/fonts/pull/5025
 ofl/redhatdisplay # https://github.com/google/fonts/pull/4946
 ofl/redhatmono # https://github.com/google/fonts/pull/4945
 ofl/redhattext # https://github.com/google/fonts/pull/4947
+
+# Designer profile
+catalog/designers/coreyanderson # https://github.com/google/fonts/pull/4861
+catalog/designers/tinaanderson # https://github.com/google/fonts/pull/4860
+
+# API Stuff
+lang/Lib/gflanguages/data/languages/ff_Adlm.textproto # https://github.com/google/fonts/pull/4975
+lang/Lib/gflanguages/data/languages/fuf_Adlm.textproto # https://github.com/google/fonts/pull/4975
+lang/Lib/gflanguages/data/languages/unr_Orya.textproto # https://github.com/google/fonts/pull/4991
 
 # Knowledge
 cc-by-sa/knowledge/modules/using_type_in_ar_and_vr/lessons/introducing_ar_vr # https://github.com/google/fonts/pull/5035

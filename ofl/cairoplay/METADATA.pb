@@ -1,5 +1,5 @@
 name: "Cairo Play"
-designer: ""
+designer: "Mohamed Gaber, Accademia di Belle Arti di Urbino"
 license: "OFL"
 category: "SANS_SERIF"
 category: "DISPLAY"

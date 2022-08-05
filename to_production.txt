@@ -1,66 +1,49 @@
-# New
-ofl/aboreto # https://github.com/google/fonts/pull/4832
-ofl/alumnisanscollegiateone # https://github.com/google/fonts/pull/4855
-ofl/alumnisanspinstripe # https://github.com/google/fonts/pull/4759
-ofl/dynapuff # https://github.com/google/fonts/pull/4670
-ofl/figtree # https://github.com/google/fonts/pull/4968
-ofl/notoserifhk # https://github.com/google/fonts/pull/4652
-ofl/rubikburned # https://github.com/google/fonts/pull/4793
-ofl/rubikdirt # https://github.com/google/fonts/pull/4794
-ofl/rubikdistressed # https://github.com/google/fonts/pull/4795
-ofl/rubikiso # https://github.com/google/fonts/pull/4796
-ofl/rubikmarkerhatch # https://github.com/google/fonts/pull/4797
-ofl/rubikmaze # https://github.com/google/fonts/pull/4798
-ofl/silkscreen # https://github.com/google/fonts/pull/4828
-
-# Upgrade
-ofl/belleza # https://github.com/google/fonts/pull/4770
-ofl/cormorantgaramond # https://github.com/google/fonts/pull/4890
-ofl/cormorantinfant # https://github.com/google/fonts/pull/4891
-ofl/cormorantsc # https://github.com/google/fonts/pull/4892
-ofl/cormorantunicase # https://github.com/google/fonts/pull/4893
-ofl/gelasio # https://github.com/google/fonts/pull/4758
-ofl/museomoderno # https://github.com/google/fonts/pull/4803
-ofl/notorashihebrew # https://github.com/google/fonts/pull/4983
-ofl/notosansavestan # https://github.com/google/fonts/pull/4839
-ofl/notosansbalinese # https://github.com/google/fonts/pull/4919
-ofl/notosansbengali # https://github.com/google/fonts/pull/4888
-ofl/notosanstamil # https://github.com/google/fonts/pull/4899
-ofl/notoserifgurmukhi # https://github.com/google/fonts/pull/4907
-ofl/padauk # https://github.com/google/fonts/pull/4970
-ofl/pinyonscript # https://github.com/google/fonts/pull/4755
-ofl/vazirmatn # https://github.com/google/fonts/pull/4850
-
-# Metadata / Description
-ofl/gulzar # https://github.com/google/fonts/pull/4964
-
-# License changed
-# HELD BACK, changing licenses requires bonus gymnastics
-# ofl/opensans # https://github.com/google/fonts/pull/4206
-
 # Designer profile
-catalog/designers/andreasrasmussen # https://github.com/google/fonts/pull/4792
-catalog/designers/bornaizadpanah # https://github.com/google/fonts/pull/4842
-catalog/designers/dominikjager # https://github.com/google/fonts/pull/4939
-catalog/designers/erikkennedy # https://github.com/google/fonts/pull/4969
-catalog/designers/paolobiagini # https://github.com/google/fonts/pull/4948
+catalog/designers/coreyanderson # https://github.com/google/fonts/pull/4861
+catalog/designers/tinaanderson # https://github.com/google/fonts/pull/4860
 
 # API Stuff
-lang/languages/th_Thai.textproto # https://github.com/google/fonts/pull/4668
+lang/Lib/gflanguages/data/languages/ff_Adlm.textproto # https://github.com/google/fonts/pull/4975
+lang/Lib/gflanguages/data/languages/fuf_Adlm.textproto # https://github.com/google/fonts/pull/4975
+lang/Lib/gflanguages/data/languages/unr_Orya.textproto # https://github.com/google/fonts/pull/4991
+
+# Upgrade
+ofl/blackopsone # https://github.com/google/fonts/pull/4995
+ofl/notosansbuhid # https://github.com/google/fonts/pull/4838
+ofl/notosansdevanagari # https://github.com/google/fonts/pull/4917
+ofl/notosansgeorgian # https://github.com/google/fonts/pull/4864
+ofl/notosansgujarati # https://github.com/google/fonts/pull/4909
+ofl/notosanskannada # https://github.com/google/fonts/pull/4912
+ofl/notosanskhmer # https://github.com/google/fonts/pull/4884
+ofl/notosanslao # https://github.com/google/fonts/pull/4886
+ofl/notosanslisu # https://github.com/google/fonts/pull/4931
+ofl/notosansmalayalam # https://github.com/google/fonts/pull/4901
+ofl/notosanstelugu # https://github.com/google/fonts/pull/4895
+ofl/notosansthai # https://github.com/google/fonts/pull/4896
+ofl/notoserifahom # https://github.com/google/fonts/pull/4822
+ofl/notoserifbalinese # https://github.com/google/fonts/pull/4982
+ofl/notoserifbengali # https://github.com/google/fonts/pull/4889
+ofl/notoserifdevanagari # https://github.com/google/fonts/pull/4916
+ofl/notoserifethiopic # https://github.com/google/fonts/pull/4865
+ofl/notoserifgeorgian # https://github.com/google/fonts/pull/4866
+ofl/notoserifgujarati # https://github.com/google/fonts/pull/4910
+ofl/notoserifhebrew # https://github.com/google/fonts/pull/4932
+ofl/notoserifkannada # https://github.com/google/fonts/pull/4911
+ofl/notoserifkhmer # https://github.com/google/fonts/pull/4883
+ofl/notoseriflao # https://github.com/google/fonts/pull/4887
+ofl/notoserifmalayalam # https://github.com/google/fonts/pull/4902
+ofl/notoserifsinhala # https://github.com/google/fonts/pull/4989
+ofl/notoseriftamil # https://github.com/google/fonts/pull/4929
+ofl/notoseriftelugu # https://github.com/google/fonts/pull/4894
+ofl/notoserifthai # https://github.com/google/fonts/pull/4897
+
+# Small fix/other
+ofl/lora # https://github.com/google/fonts/pull/4996
+ofl/mplus1p # https://github.com/google/fonts/pull/4981
+ofl/notonaskharabicui # https://github.com/google/fonts/pull/5025
+ofl/redhatdisplay # https://github.com/google/fonts/pull/4946
+ofl/redhatmono # https://github.com/google/fonts/pull/4945
+ofl/redhattext # https://github.com/google/fonts/pull/4947
 
 # Knowledge
-cc-by-sa/knowledge/glossary/terms/grade_axis # https://github.com/google/fonts/pull/4840
-cc-by-sa/knowledge/modules/history_of_type/lessons/the_tight_not_touching_style # https://github.com/google/fonts/pull/4967
-cc-by-sa/knowledge/modules/using_type_in_ar_and_vr/lessons/type_selection_for_ar_vr # https://github.com/google/fonts/pull/4965
-
-# Noto CJK is blocked on a prod issue.  These projects should
-# not be uncommented until approved by Fonts Eng
-# ofl/notosanshk # https://github.com/google/fonts/pull/4588
-# ofl/notosansjp # https://github.com/google/fonts/pull/4590
-# ofl/notosanskr # https://github.com/google/fonts/pull/4594
-# ofl/notosanssc # https://github.com/google/fonts/pull/4602
-# ofl/notosanstc # https://github.com/google/fonts/pull/4603
-# ofl/notoserifjp # https://github.com/google/fonts/pull/4653
-# ofl/notoserifkr # https://github.com/google/fonts/pull/4654
-# ofl/notoserifsc # https://github.com/google/fonts/pull/4655
-# ofl/notoseriftc # https://github.com/google/fonts/pull/4657
+cc-by-sa/knowledge/modules/using_type_in_ar_and_vr/lessons/introducing_ar_vr # https://github.com/google/fonts/pull/5035

@@ -1,5 +1,5 @@
 name: "Gulzar"
-designer: "Borna Izadpanah, Alice Savoie, Simon Cozens"
+designer: "Borna Izadpanah, Fiona Ross, Alice Savoie, Simon Cozens"
 license: "OFL"
 category: "SERIF"
 date_added: "2022-05-14"

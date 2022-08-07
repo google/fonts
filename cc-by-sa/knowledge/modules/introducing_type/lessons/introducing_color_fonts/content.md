@@ -1,5 +1,5 @@
-[Color fonts](/glossary/color-fonts) allow the font to take more control over the drawing process than just "ink goes here," with the color 
-of the ink set by some external entity.
+[Color fonts](/glossary/color_fonts) allow the font to take more control over the drawing process than just "ink of unknown color goes here,"
+with the color of the ink set by some external entity.
 
 On the web text is generally drawn in a color specified in CSS. In a document editor the user can typically choose a color
 to use for text. The font has no input into the color beyond where to fill and where not to. The font cannot manipulate the color,

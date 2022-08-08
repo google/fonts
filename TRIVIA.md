@@ -17,7 +17,7 @@ The contents of the wiki are now available here:
 From time to time, families have been renamed or updated in a way that the existing styles had to change substantially.
 Until April 2020, the initial family was retained, creating similarly named pairs of directories and often duplicate/redundant, files.
 The initial families are kept in the API so that people already using them can continue to do so. 
-They are no longer listed in the [fonts.google.com](https://fonts.google.com) catalog, or in the HEAD of the master branch, but the files exist still exist in the commit history.
+They are no longer listed in the [fonts.google.com](https://fonts.google.com) catalog, or in the HEAD of the master branch, but the files still exist in the commit history.
 
 | Initial Family           | Current Family           | Category |
 |:-------------------------|:-------------------------|:---------|

@@ -12,7 +12,11 @@ Each family subdirectory contains the `.ttf` font files served by Google Fonts, 
 
 The `/catalog` subdirectory contains additional metadata, such as profile texts and portrait/avatar images of font designers, and this is open for contributions and corrections from anyone via Github.
 
-The `/axisregistry` subdirectory contains metadata for the GF Axis Registry, containing information on variable font axes that can be found in the collection, including experimental axes.
+The `/axisregistry` subtree contains metadata for the GF Axis Registry, containing information on variable font axes that can be found in the collection, including experimental axes.
+As a subtree, no changes should be made directly to this repo, instead please use the upstream, [github.com/googlefonts/axisregistry](http://github.com/googlefonts/axisregistry)
+
+The `/lang` subtree contains language support data, and should also not be changed here but instead upstream.
+[github.com/googlefonts/lang](https://github.com/googlefonts/lang)
 
 ## Bug Reports and Improvement Requests
 

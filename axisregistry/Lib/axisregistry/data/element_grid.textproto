@@ -1,0 +1,9 @@
+#Element Grid, based on https://github.com/rosettatype/handjet
+tag: "EGRD"
+display_name: "Element Grid"
+min_value: 1.0
+default_value: 1.0
+max_value: 2.0
+precision: -1
+description:
+  "Controls how many elements are used per one grid unit."

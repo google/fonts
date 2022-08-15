@@ -10,17 +10,14 @@ fonts {
   filename: "ReemKufiInk-Regular.ttf"
   post_script_name: "ReemKufiInk-Regular"
   full_name: "Reem Kufi Ink Regular"
-  copyright: "Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."
-}
-fonts {
-  name: "Reem Kufi Ink"
-  style: "normal"
-  weight: 700
-  filename: "ReemKufiInk-Bold.ttf"
-  post_script_name: "ReemKufiInk-Bold"
-  full_name: "Reem Kufi Ink Bold"
-  copyright: "Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."
+  copyright: "Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi)."
 }
 subsets: "arabic"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/aliftype/reem-kufi"
+  commit: "7fa8e8f02e948f3a0d9b9164f52683d5beb94d35"
+}

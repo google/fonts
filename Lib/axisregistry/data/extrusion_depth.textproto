@@ -1,0 +1,9 @@
+# Extrusion Depth, based on https://github.com/justvanrossum/nabla
+tag: "EDPT"
+display_name: "Extrusion Depth"
+min_value: 0
+default_value: 0
+max_value: 1000
+precision: 0
+description:
+  "Controls extrustion depth."

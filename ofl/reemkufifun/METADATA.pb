@@ -1,5 +1,5 @@
 name: "Reem Kufi Fun"
-designer: "Khaled Hosny"
+designer: "Khaled Hosny, Santiago Orozco"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-11-02"
@@ -8,16 +8,21 @@ fonts {
   style: "normal"
   weight: 400
   filename: "ReemKufiFun[wght].ttf"
-  post_script_name: "ReemKufiFun-Regular"
-  full_name: "Reem Kufi Fun Regular"
-  copyright: "Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."
+  post_script_name: "ReemKufiFun"
+  full_name: "Reem Kufi Fun"
+  copyright: "Copyright 2015-2022 The Reem Kufi Fun Project Authors (https://github.com/aliftype/reem-kufi)."
 }
 subsets: "arabic"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
 }
-
+source {
+  repository_url: "https://github.com/aliftype/reem-kufi"
+  archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.3/ReemKufi-1.3.zip"
+}

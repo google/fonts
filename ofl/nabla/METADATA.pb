@@ -12,7 +12,6 @@ fonts {
   full_name: "Nabla Normal"
   copyright: "Copyright 2022 The Nabla Project Authors (https://github.com/justvanrossum/nabla)"
 }
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

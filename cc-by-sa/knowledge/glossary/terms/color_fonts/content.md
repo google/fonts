@@ -10,7 +10,9 @@ Contrast with a non-color, or monochromatic font which:
 1. Cannot specify what the color is, only where "ink" goes
    * Some outside entity, such as CSS or a document editor sets the ink color
 
-**TODO: SVG of the Am I not color? example from IUC45 deck**
+![A monochromatic font with color assigned to each glyph](images/am-i-not-colorful.svg)
+<figcaption>A monochromatic font can be colorized by defining the color of the ink, such as in CSS or a document editor. The font has no
+input into this, it **only** defines where ink of unknown color should be placed</figcaption>
 
 **TODO: SVG of color examples**
 

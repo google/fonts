@@ -7,3 +7,7 @@ max_value: 2.0
 precision: -1
 description:
   "Controls how many elements are used per one grid unit."
+fallback {
+  name: "Default"
+  value: 1.0
+}

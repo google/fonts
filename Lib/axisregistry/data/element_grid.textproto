@@ -8,6 +8,6 @@ precision: -1
 description:
   "Controls how many elements are used per one grid unit."
 fallback {
-  name: "Default"
+  name: "Single element"
   value: 1.0
 }

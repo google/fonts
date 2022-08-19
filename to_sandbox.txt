@@ -11,8 +11,10 @@ ofl/notonastaliqurdu # https://github.com/google/fonts/pull/4859
 ofl/notosansadlam # https://github.com/google/fonts/pull/4934
 ofl/notosansadlamunjoined # https://github.com/google/fonts/pull/4933
 ofl/notosansarmenian # https://github.com/google/fonts/pull/5006
+ofl/notosansgurmukhi # https://github.com/google/fonts/pull/4906
 ofl/notosansmono # https://github.com/google/fonts/pull/4955
 ofl/notosansmyanmar # https://github.com/google/fonts/pull/4938
+ofl/notosansoriya # https://github.com/google/fonts/pull/5100
 ofl/notosanssinhala # https://github.com/google/fonts/pull/4879
 ofl/notoserifarmenian # https://github.com/google/fonts/pull/5007
 ofl/recursive # https://github.com/google/fonts/pull/4988
@@ -21,14 +23,14 @@ ofl/recursive # https://github.com/google/fonts/pull/4988
 ofl/notokufiarabic # https://github.com/google/fonts/pull/4560
 
 # API Stuff
+axisregistry/Lib/axisregistry/data/element_grid.textproto # https://github.com/google/fonts/pull/5094
 lang/languages/hak_Hant.textproto # https://github.com/google/fonts/pull/5088
 lang/languages/lzh_Hant.textproto # https://github.com/google/fonts/pull/5088
 lang/languages/yue_Hant.textproto # https://github.com/google/fonts/pull/5088
 lang/languages/za_Hant.textproto # https://github.com/google/fonts/pull/5088
 
 # Metadata / Description / License
-ofl/notosanslimbu/article # https://github.com/google/fonts/pull/5047
-ofl/gulzar # https://github.com/google/fonts/pull/5040
+ # https://github.com/google/fonts/pull/5031
 lang/languages/ar_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/arb_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/arz_Arab.textproto # https://github.com/google/fonts/pull/5049
@@ -47,7 +49,6 @@ lang/languages/tg_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/tt_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/ug_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/zlm_Arab.textproto # https://github.com/google/fonts/pull/5049
-# Update descriptions (article links)
 ofl/atkinsonhyperlegible # https://github.com/google/fonts/pull/5031
 ofl/bizudgothic # https://github.com/google/fonts/pull/5031
 ofl/bizudmincho # https://github.com/google/fonts/pull/5031
@@ -59,7 +60,10 @@ ofl/flowblock # https://github.com/google/fonts/pull/5031
 ofl/flowcircular # https://github.com/google/fonts/pull/5031
 ofl/flowrounded # https://github.com/google/fonts/pull/5031
 ofl/fraunces # https://github.com/google/fonts/pull/5031
+ofl/gulzar # https://github.com/google/fonts/pull/5040
 ofl/lexend # https://github.com/google/fonts/pull/5031
+ofl/notosanslimbu # https://github.com/google/fonts/pull/5047
+ofl/notosanslimbu/article # https://github.com/google/fonts/pull/5047
 ofl/radiocanada # https://github.com/google/fonts/pull/5031
 ofl/redacted # https://github.com/google/fonts/pull/5031
 ofl/redactedscript # https://github.com/google/fonts/pull/5031

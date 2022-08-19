@@ -43,4 +43,4 @@ Sometimes we need color and gradients to make the best brackets ever made:
 ![The world's best ornate brackets](images/ornate-brackets.svg)
 <figcaption>The world's best ornate brackets</figcaption>
 
-Google Fonts offers a [collection](/?coloronly=true) of color fonts, including emoji, for you to play with.
+Google Fonts offers a collection of color fonts, including emoji, for you to play with.

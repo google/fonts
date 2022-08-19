@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/oriya.git"
-  archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSansOriya-v2.002/NotoSansOriya-v2.002.zip"
+  archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSansOriya-v2.003/NotoSansOriya-v2.003.zip"
 }
 is_noto: true
 languages: "khr_Orya"  # Kharia, Odia

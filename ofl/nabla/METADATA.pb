@@ -15,6 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
+subsets: "vietnamese"
 subsets: "menu"
 
 axes {

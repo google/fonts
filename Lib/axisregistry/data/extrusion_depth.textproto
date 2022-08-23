@@ -7,3 +7,7 @@ max_value: 1000
 precision: 0
 description:
   "Controls extrusion depth."
+fallback {
+  name: "Default"
+  value: 100
+}

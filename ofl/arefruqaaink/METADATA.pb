@@ -3,6 +3,7 @@ designer: "Abdullah Aref, Khaled Hosny, Hermann Zapf"
 license: "OFL"
 category: "SERIF"
 date_added: "2022-02-26"
+
 fonts {
   name: "Aref Ruqaa Ink"
   style: "normal"

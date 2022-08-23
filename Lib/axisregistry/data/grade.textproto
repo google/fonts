@@ -1,0 +1,18 @@
+# GRAD based on https://github.com/TypeNetwork/Opentype-1.8-Axis-Proposal/blob/gh-pages/proposal/Grade/ProposalSummary.md
+tag: "GRAD"
+display_name: "Grade"
+min_value: -1000
+max_value: 1000
+default_value: 0
+precision: 0
+fallback {
+  name: "Normal"
+  value: 0
+}
+fallback_only: false
+illustration_url: "grade.svg"
+description:
+  "Finesse the style from lighter to bolder in typographic color, without"
+  " any changes overall width, line breaks or page layout. Negative grade"
+  " makes the style lighter, while positive grade makes it bolder."
+  " The units are the same as in the Weight axis."

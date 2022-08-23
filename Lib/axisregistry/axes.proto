@@ -1,0 +1,46 @@
+syntax = "proto2";
+// GF Axis Registry Protos
+
+// An axis in the GF Axis Registry
+message AxisProto {
+  // Axis tag
+  optional string tag = 1;
+
+  // Display name for axis, e.g. "Optical size" for 'opsz'
+  // Like 'Name' in
+  // https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_opsz
+  optional string display_name = 7;
+
+  // Lower bound for the axis
+  optional float min_value = 2;
+
+  // The default position to use and to prefer for exemplars
+  optional float default_value = 3;
+
+  // Upper bound for the axis
+  optional float max_value = 4;
+
+  // Input values for this axis must aligned to 10^precision
+  optional int32 precision = 5;
+
+  // Fallback positions along the axis
+  repeated FallbackProto fallback = 6;
+
+  // Short descriptive paragraph
+  optional string description = 8;
+
+  // Whether only the fallback positions should be used, for example, an axis
+  // might have only three relevant positions: the min, the middle, and the max.
+  optional bool fallback_only = 9;
+
+  // The thumbnail image for this axis, if any.
+  optional string illustration_url = 10;
+
+  // Next = 11
+}
+
+message FallbackProto {
+  optional string name = 1;
+  optional float value = 2;
+  optional string display_name = 3;
+}

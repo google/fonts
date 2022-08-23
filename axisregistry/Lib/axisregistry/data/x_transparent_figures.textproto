@@ -1,0 +1,14 @@
+# XTFI based on https://variationsguide.typenetwork.com/#xtfi
+tag: "XTFI"
+display_name: "X transparent figures"
+min_value: -1000
+max_value: 2000
+default_value: 400
+precision: 0
+fallback {
+  name: "Normal"
+  value: 400
+}
+fallback_only: false
+description:
+  "Assigns a 'white' per mille value to each instance of the design space."

@@ -1,0 +1,17 @@
+# slnt based on https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_slnt
+tag: "slnt"
+display_name: "Slant"
+min_value: -90
+max_value: 90
+default_value: 0
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+illustration_url: "slant.svg"
+description:
+  "Adjust the style from upright to slanted, also known to typographers"
+  " as an 'oblique' style. Rarely, slant can work in the other direction,"
+  " called a 'backslanted' or 'reverse oblique' style."

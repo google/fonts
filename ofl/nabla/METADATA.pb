@@ -12,10 +12,12 @@ fonts {
   full_name: "Nabla Regular"
   copyright: "Copyright 2022 The Nabla Project Authors (https://github.com/justvanrossum/nabla)"
 }
+
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+
 axes {
   tag: "EDPT"
   min_value: 0.0

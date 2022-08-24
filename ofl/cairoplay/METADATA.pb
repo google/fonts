@@ -13,6 +13,7 @@ fonts {
   full_name: "Cairo Play Regular"
   copyright: "Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)"
 }
+
 subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"

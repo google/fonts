@@ -6,6 +6,7 @@ def test_AxisRegistry():
     assert "GRAD" in registry.keys()
     for axis_tag in registry.keys():
         assert len(axis_tag) == 4
+        assert len(registry[axis_tag].fallback) > 0
         for f in range(len(registry[axis_tag].fallback)):
             fallback = registry[axis_tag].fallback[f]
 

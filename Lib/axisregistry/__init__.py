@@ -53,6 +53,32 @@ GF_STATIC_STYLES = OrderedDict(
 )
 
 
+    for axis in [
+        "casual.textproto",
+        "cursive.textproto",
+        "fill.textproto",
+        "flair.textproto",
+        "grade.textproto",
+        "italic.textproto",
+        "monospace.textproto",
+        "optical_size.textproto",
+        "slant.textproto",
+        "softness.textproto",
+        "volume.textproto",
+        "weight.textproto",
+        "width.textproto",
+        "wonky.textproto",
+        "x_opaque.textproto",
+        "x_transparent_figures.textproto",
+        "x_transparent.textproto",
+        "y_opaque.textproto",
+        "y_transparent_ascender.textproto",
+        "y_transparent_descender.textproto",
+        "y_transparent_figures.textproto",
+        "y_transparent_lowercase.textproto",
+        "y_transparent_uppercase.textproto",
+    ]:
+        append_AxisMessage(resource_filename("axisregistry", "data/" + axis))
 def load_protobuf(klass, path):
     message = klass()
     with open(path, "rb") as text_data:

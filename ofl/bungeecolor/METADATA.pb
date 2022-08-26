@@ -16,4 +16,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-
+source {
+  repository_url: "https://github.com/djrrb/Bungee"
+  commit: "bb29250eb071b59c4e48f44cf146943e2aafae61"
+}

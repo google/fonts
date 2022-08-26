@@ -12,7 +12,6 @@ fonts {
   full_name: "Amiri Quran Regular"
   copyright: "Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri)."
 }
-
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"

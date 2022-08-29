@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansPahawhHmong-Regular.ttf"
   post_script_name: "NotoSansPahawhHmong-Regular"
   full_name: "Noto Sans Pahawh Hmong Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/pahawh-hmong)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "pahawh-hmong"
+source {
+  repository_url: "https://github.com/notofonts/pahawh-hmong.git"
+  archive_url: "https://github.com/notofonts/pahawh-hmong/releases/download/NotoSansPahawhHmong-v2.001/NotoSansPahawhHmong-v2.001.zip"
+}
 is_noto: true
 languages: "hmd_Hmng"  # A-Hmao, Pahawh Hmong
 languages: "hmn_Hmng"  # Hmong, Pahawh Hmong

@@ -10,9 +10,15 @@ fonts {
   filename: "NotoSansMiao-Regular.ttf"
   post_script_name: "NotoSansMiao-Regular"
   full_name: "Noto Sans Miao Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/miao)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "miao"
+source {
+  repository_url: "https://github.com/notofonts/miao.git"
+  archive_url: "https://github.com/notofonts/miao/releases/download/NotoSansMiao-v2.003/NotoSansMiao-v2.003.zip"
+}
 is_noto: true
 languages: "hmd_Plrd"  # A-Hmao

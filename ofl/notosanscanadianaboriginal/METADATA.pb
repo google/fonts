@@ -10,14 +10,20 @@ fonts {
   filename: "NotoSansCanadianAboriginal[wght].ttf"
   post_script_name: "NotoSansCanadianAboriginal-Regular"
   full_name: "Noto Sans Canadian Aboriginal Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/canadian-aboriginal)"
 }
-subsets: "menu"
 subsets: "canadian-aboriginal"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/canadian-aboriginal.git"
+  archive_url: "https://github.com/notofonts/canadian-aboriginal/releases/download/NotoSansCanadianAboriginal-v2.002/NotoSansCanadianAboriginal-v2.002.zip"
 }
 is_noto: true
 languages: "chp_Cans"  # Chipewyan, Unified Canadian Aboriginal Syllabics

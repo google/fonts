@@ -17,6 +17,7 @@ subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+primary_script: "Arab"
 axes {
   tag: "slnt"
   min_value: -11.0

@@ -11,3 +11,4 @@ fallback {
   name: "Default"
   value: 12
 }
+fallback_only: false

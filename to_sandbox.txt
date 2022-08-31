@@ -15,7 +15,7 @@ ofl/notosansthailooped # https://github.com/google/fonts/pull/5111
 lang/languages/vi_Latn.textproto # https://github.com/google/fonts/pull/5105
 
 # API Stuff
-axisregistry/Lib/axisregistry/data/element_grid.textproto # https://github.com/google/fonts/pull/5094
+axisregistry/element_grid.textproto # https://github.com/google/fonts/pull/5094
 lang/languages/hak_Hant.textproto # https://github.com/google/fonts/pull/5088
 lang/languages/lzh_Hant.textproto # https://github.com/google/fonts/pull/5088
 lang/languages/yue_Hant.textproto # https://github.com/google/fonts/pull/5088
@@ -27,6 +27,6 @@ ofl/nabla # https://github.com/google/fonts/pull/5095
 ofl/notosanslimbu # https://github.com/google/fonts/pull/5047
 
 # Axis Metadata
-axisregistry/Lib/axisregistry/data/element_grid.textproto #https://github.com/google/fonts/pull/5149
-axisregistry/Lib/axisregistry/data/edge_highlight.textproto #https://github.com/google/fonts/pull/5149
-axisregistry/Lib/axisregistry/data/extrusion_depth.textproto #https://github.com/google/fonts/pull/5149
+axisregistry/element_grid.textproto #https://github.com/google/fonts/pull/5149
+axisregistry/edge_highlight.textproto #https://github.com/google/fonts/pull/5149
+axisregistry/extrusion_depth.textproto #https://github.com/google/fonts/pull/5149

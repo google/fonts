@@ -9,6 +9,7 @@ fallback {
   name: "Default"
   value: 0
 }
+fallback_only: false
 description:
   "Letters rotate around the Y axis."
 

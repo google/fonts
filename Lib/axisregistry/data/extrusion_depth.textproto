@@ -6,7 +6,7 @@ default_value: 100 # Taken from Nabla, but expected to be per-family
 max_value: 1000
 precision: 0
 description:
-  "Controls extrusion depth."
+  "Controls the 3D depth on contours."
 fallback {
   name: "Default"
   value: 100

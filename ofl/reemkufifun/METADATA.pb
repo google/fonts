@@ -25,5 +25,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/aliftype/reem-kufi"
-  archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.3/ReemKufi-1.3.zip"
+  archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.4/ReemKufi-1.4.zip"
 }

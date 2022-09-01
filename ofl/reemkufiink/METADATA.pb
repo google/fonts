@@ -17,9 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-primary_script: "Arab"
 source {
   repository_url: "https://github.com/aliftype/reem-kufi"
-  commit: "7fa8e8f02e948f3a0d9b9164f52683d5beb94d35"
+  archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.4/ReemKufi-1.4.zip"
 }
-
+primary_script: "Arab"

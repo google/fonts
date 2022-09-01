@@ -9,6 +9,7 @@ fallback {
   name: "Default"
   value: 2000
 }
+fallback_only: false
 description: 
   "Axis that shows in a metaphoric way the effect of time on a chosen topic."
 

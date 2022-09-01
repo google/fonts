@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+primary_script: "Arab"
 axes {
   tag: "wght"
   min_value: 400.0

@@ -10,14 +10,20 @@ fonts {
   filename: "NotoSansSoraSompeng[wght].ttf"
   post_script_name: "NotoSansSoraSompeng-Regular"
   full_name: "Noto Sans Sora Sompeng Regular"
-  copyright: "Copyright 2019 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "sora-sompeng"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/notofonts/sora-sompeng.git"
+  archive_url: "https://github.com/notofonts/sora-sompeng/releases/download/NotoSansSoraSompeng-v2.101/NotoSansSoraSompeng-v2.101.zip"
 }
 is_noto: true
 languages: "sa_Sora"  # Sanskrit, Sora Sompeng

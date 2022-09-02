@@ -1,4 +1,4 @@
-archive: https://github.com/justvanrossum/nabla/releases/download/v1.000-beta1/nabla-fonts.zip
+archive: https://github.com/justvanrossum/nabla/releases/download/v1.002/nabla-fonts.zip
 branch: main
 files:
-  Nabla[EDPT,EHLT].ttf: Nabla[EDPT,EHLT].ttf
+  nabla-fonts/Nabla[EDPT,EHLT].ttf: Nabla[EDPT,EHLT].ttf

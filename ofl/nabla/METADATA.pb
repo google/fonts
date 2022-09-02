@@ -12,14 +12,12 @@ fonts {
   full_name: "Nabla Regular"
   copyright: "Copyright 2022 The Nabla Project Authors (https://github.com/justvanrossum/nabla)"
 }
-
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
-subsets: "vietnamese"
 subsets: "menu"
-
+subsets: "vietnamese"
 axes {
   tag: "EDPT"
   min_value: 0.0
@@ -32,5 +30,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/justvanrossum/nabla"
-  archive_url: "https://github.com/justvanrossum/nabla/releases/download/v1.000-beta1/nabla-fonts.zip"
+  archive_url: "https://github.com/justvanrossum/nabla/releases/download/v1.002/nabla-fonts.zip"
 }

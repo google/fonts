@@ -10,14 +10,20 @@ fonts {
   filename: "NotoSansThaana[wght].ttf"
   post_script_name: "NotoSansThaana-Regular"
   full_name: "Noto Sans Thaana Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/thaana)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "thaana"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/thaana.git"
+  archive_url: "https://github.com/notofonts/thaana/releases/download/NotoSansThaana-v2.001/NotoSansThaana-v2.001.zip"
 }
 is_noto: true
 languages: "dv_Thaa"  # Divehi

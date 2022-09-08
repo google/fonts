@@ -10,14 +10,20 @@ fonts {
   filename: "NotoSansCham[wght].ttf"
   post_script_name: "NotoSansCham-Regular"
   full_name: "Noto Sans Cham Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)"
 }
-subsets: "menu"
 subsets: "cham"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/cham.git"
+  archive_url: "https://github.com/notofonts/cham/releases/download/NotoSansCham-v2.002/NotoSansCham-v2.002.zip"
 }
 is_noto: true
 languages: "cja_Cham"  # Western Cham, Cham

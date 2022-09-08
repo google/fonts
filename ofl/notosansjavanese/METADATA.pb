@@ -7,21 +7,23 @@ fonts {
   name: "Noto Sans Javanese"
   style: "normal"
   weight: 400
-  filename: "NotoSansJavanese-Regular.ttf"
+  filename: "NotoSansJavanese[wght].ttf"
   post_script_name: "NotoSansJavanese-Regular"
   full_name: "Noto Sans Javanese Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/javanese)"
 }
-fonts {
-  name: "Noto Sans Javanese"
-  style: "normal"
-  weight: 700
-  filename: "NotoSansJavanese-Bold.ttf"
-  post_script_name: "NotoSansJavanese-Bold"
-  full_name: "Noto Sans Javanese Bold"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
-}
-subsets: "menu"
 subsets: "javanese"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/notofonts/javanese.git"
+  archive_url: "https://github.com/notofonts/javanese/releases/download/NotoSansJavanese-v2.004/NotoSansJavanese-v2.004.zip"
+}
 is_noto: true
 languages: "jv_Java"  # Javanese, Javanese

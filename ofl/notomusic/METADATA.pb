@@ -10,17 +10,14 @@ fonts {
   filename: "NotoMusic-Regular.ttf"
   post_script_name: "NotoMusic-Regular"
   full_name: "Noto Music Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/music)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "music"
-is_noto: true
-sample_text {
-  masthead_full: "𝄆𝄞♭𝅘𝅥𝅯"
-  masthead_partial: "𝄞𝅘𝅥𝅮"
-  styles: "𝄆 𝄙𝆏 𝅗𝅘𝅥𝅘𝅥𝅯𝅘𝅥𝅱 𝄞𝄟𝄢 𝄾𝄿𝄎 𝄴 𝄶𝅁 𝄭𝄰 𝇛𝇜 𝄊 𝄇 𝀸𝀹𝀺𝀻𝀼𝀽 𝈀𝈁𝈂𝈃𝈄𝈅"
-  tester: "𝄃 𝄚𝆑 𝅘𝅗𝅥𝅘𝅥𝅮𝅘𝅥𝅰𝆺𝅥𝅮𝆹𝅥𝅯 𝄞𝄠𝄡𝄽𝄣 𝄽𝅀𝄏𝆄 𝄵𝄑 𝆮𝄸𝅂 𝄬𝄯𝆵𝄫 𝇥𝇦𝇧𝇚 𝄜𝆦 𝄋𝄉𝆙 ♩♪♫♬ 𝄂 𝀁𝀂𝀋𝀌𝁭𝀷𝀪𝀫𝀬𝀭𝀮𝀯 𝈮𝈯𝈠𝈡𝈢𝈿𝉀"
-  poster_sm: "𝄃 𝄞♯ 𝅘𝅥𝄾 𝄀 ♭𝅗𝅥♫ 𝆑𝆏 𝄂"
-  poster_md: "𝄆 𝄞𝄰 𝅗𝅥𝅘𝅥𝅮𝅘𝅥𝅮𝅘𝅥 𝄇"
-  poster_lg: "𝄞𝅘𝅥𝅯"
+source {
+  repository_url: "https://github.com/notofonts/music.git"
+  archive_url: "https://github.com/notofonts/music/releases/download/NotoMusic-v2.002/NotoMusic-v2.002.zip"
 }
+is_noto: true

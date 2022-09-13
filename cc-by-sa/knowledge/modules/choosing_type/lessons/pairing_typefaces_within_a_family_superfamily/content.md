@@ -81,4 +81,4 @@ A superfamily like Breve offers so many options, in many scenarios it would make
 
 </figure>
 
-However, as we’ve emphasised in all [type pairing articles](/topic/pairing_type), we should only introduce a secondary typeface if it can do something our primary typeface cannot.
+However, as we’ve emphasised in all [type pairing articles](/topics/pairing_type), we should only introduce a secondary typeface if it can do something our primary typeface cannot.

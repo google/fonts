@@ -57,4 +57,4 @@ The first is when choosing a primary typeface for a project. When assessing its 
 
 </figure>
 
-The second common scenario that benefits from an awareness of historical classification is when we’re [pairing type](/topic/pairing_type). If a particular period in time is alluded to in the style of the primary typeface, that theme should probably be continued in additional typeface choices, too, unless we’re intentionally attempting to contrast that style.
+The second common scenario that benefits from an awareness of historical classification is when we’re [pairing type](/topics/pairing_type). If a particular period in time is alluded to in the style of the primary typeface, that theme should probably be continued in additional typeface choices, too, unless we’re intentionally attempting to contrast that style.

@@ -1,51 +1,50 @@
-# New
-ofl/reemkufiink # https://github.com/google/fonts/pull/5170
-
 # Upgrade
+ofl/baloobhaijaan2 # https://github.com/google/fonts/pull/5216
 ofl/notosanscham # https://github.com/google/fonts/pull/5122
 ofl/notosansjavanese # https://github.com/google/fonts/pull/5204
 ofl/notosansmeeteimayek # https://github.com/google/fonts/pull/5209
 ofl/notoserifgrantha # https://github.com/google/fonts/pull/5203
 
 # Metadata / Description / License
+ofl/amiriquran # https://github.com/google/fonts/pull/5155
+
+# Sample texts
+lang/languages/ace_Latn.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/af_Latn.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/alt_Cyrl.textproto # https://github.com/google/fonts/pull/5211
 lang/languages/ar_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/arb_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/arz_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/azb_Arab.textproto # https://github.com/google/fonts/pull/5049
+lang/languages/bg_Cyrl.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/en_Dsrt.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/eve_Cyrl.textproto # https://github.com/google/fonts/pull/5211
 lang/languages/fa_Arab.textproto # https://github.com/google/fonts/pull/5049
+lang/languages/fa_Arab.textproto # https://github.com/google/fonts/pull/5211
 lang/languages/gbz_Arab.textproto # https://github.com/google/fonts/pull/5049
+lang/languages/ig_Latn.textproto # https://github.com/google/fonts/pull/5211
 lang/languages/kk_Arab.textproto # https://github.com/google/fonts/pull/5049
+lang/languages/kk_Arab.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/kk_Cyrl.textproto # https://github.com/google/fonts/pull/5211
 lang/languages/ks_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/ky_Arab.textproto # https://github.com/google/fonts/pull/5049
+lang/languages/ky_Cyrl.textproto # https://github.com/google/fonts/pull/5211
 lang/languages/min_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/mis_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/ms_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/ota_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/sd_Arab.textproto # https://github.com/google/fonts/pull/5049
+lang/languages/ss_Latn.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/tem_Latn.textproto # https://github.com/google/fonts/pull/5211
 lang/languages/tg_Arab.textproto # https://github.com/google/fonts/pull/5049
+lang/languages/tk_Cyrl.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/tk_Latn.textproto # https://github.com/google/fonts/pull/5211
 lang/languages/tt_Arab.textproto # https://github.com/google/fonts/pull/5049
 lang/languages/ug_Arab.textproto # https://github.com/google/fonts/pull/5049
+lang/languages/uz_Cyrl.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/uz_Latn.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/xh_Latn.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/yap_Latn.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/yo_Latn.textproto # https://github.com/google/fonts/pull/5211
+lang/languages/yua_Latn.textproto # https://github.com/google/fonts/pull/5211
 lang/languages/zlm_Arab.textproto # https://github.com/google/fonts/pull/5049
-
-# Update sample text
-lang/languages/ace_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/af_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/alt_Cyrl.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/bg_Cyrl.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/en_Dsrt.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/eve_Cyrl.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/fa_Arab.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/ig_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/kk_Arab.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/kk_Cyrl.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/ky_Cyrl.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/ss_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/tem_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/tk_Cyrl.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/tk_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/uz_Cyrl.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/uz_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/xh_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/yap_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/yo_Latn.textproto #https://github.com/google/fonts/pull/5211
-lang/languages/yua_Latn.textproto #https://github.com/google/fonts/pull/5211

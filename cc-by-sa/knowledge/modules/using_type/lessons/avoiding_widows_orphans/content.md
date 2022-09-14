@@ -10,7 +10,7 @@ Because they occur frequently when setting long-form text, it’s useful to know
 
 </figure>
 
-Like so many things in [typography](/glossary/typography), avoiding widows and orphans means [breaking the rules](/lesson/using_type/breaking_the_rules) a little. For instance, while it might be technically correct to have just one word at the end of a line, it creates an undesirable amount of whitespace to the right of that word (in left-aligned text). It's more pleasing to the eye if we push one more word from the penultimate line down to the last.
+Like so many things in [typography](/glossary/typography), avoiding widows and orphans means [breaking the rules](/lesson/breaking_the_rules) a little. For instance, while it might be technically correct to have just one word at the end of a line, it creates an undesirable amount of whitespace to the right of that word (in left-aligned text). It's more pleasing to the eye if we push one more word from the penultimate line down to the last.
 
 Beware, though: Creating a line break like this inserts a break character permanently, meaning it will come along for the ride if a user copies and pastes our text. So we need to choose between a hard line break or a non-breaking space. We’ll use a hard line break if we intend the line to break at that very point in all circumstances, or a non-breaking space if we intend the last two words in a paragraph to stay together.
 

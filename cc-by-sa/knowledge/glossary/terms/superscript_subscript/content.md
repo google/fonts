@@ -17,4 +17,4 @@ Superscript and subscript can be easily applied to text with controls in most us
 
 </figure>
 
-Although it’s possible for software to synthesize the smaller sizes, it’s best to use the correct superscript and subscript [glyphs](/glossary/glyph) in a [font](/glossary/font) file, if they exist—much like [avoiding faux small caps](/lesson/choosing_type/choosing_reliable_typefaces).
+Although it’s possible for software to synthesize the smaller sizes, it’s best to use the correct superscript and subscript [glyphs](/glossary/glyph) in a [font](/glossary/font) file, if they exist—much like [avoiding faux small caps](/lesson/choosing_reliable_typefaces).

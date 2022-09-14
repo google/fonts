@@ -113,7 +113,7 @@ The default characters we see in a typeface aren’t necessarily the only option
 
 While sometimes these are available as separate sibling families, such as [Montserrat](https://fonts.google.com/specimen/Montserrat) and [Montserrat Alternates](https://fonts.google.com/specimen/Montserrat+Alternates), they’re typically made available to us as [OpenType](/glossary/open_type) features within a single font file.
 
-There’s so much typographic power to unlock via OpenType if the features exist within the font: From [swash glyphs](swash_glyph) that add flourish to your [display](/glossary/display) type, to [fractions](/glossary/fractions) that enable legible recipe ingredients; from proper [small caps](small_caps) that prevent abbreviations from appearing to shout at the reader, to intentional control over [the different flavors of numerals](/glossary/numerals_figures); an understanding of OpenType is arguably one of the greatest tools a designer can have.
+There’s so much typographic power to unlock via OpenType if the features exist within the font: From [swash glyphs](/glossary/swash_glyph) that add flourish to your [display](/glossary/display) type, to [fractions](/glossary/fractions) that enable legible recipe ingredients; from proper [small caps](/glossary/small_caps) that prevent abbreviations from appearing to shout at the reader, to intentional control over [the different flavors of numerals](/glossary/numerals_figures); an understanding of OpenType is arguably one of the greatest tools a designer can have.
 
 <figure>
 

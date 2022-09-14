@@ -9,4 +9,4 @@ The term can also mean display of placeholder text that is rendered as gray bars
 
 </figure>
 
-The purpose of any placeholder text, including lorem ipsum, is to indicate that the text is not there to be read, which is why it’s used in design mockups, where the viewer should be focussing on the overall design, and in type specimens, where the reader should be focussing on the [characters](/glossary/character)’s personality and design, and overall [typographic color](color).
+The purpose of any placeholder text, including lorem ipsum, is to indicate that the text is not there to be read, which is why it’s used in design mockups, where the viewer should be focussing on the overall design, and in type specimens, where the reader should be focussing on the [characters](/glossary/character)’s personality and design, and overall [typographic color](/glossary/color).

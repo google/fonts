@@ -10,9 +10,15 @@ fonts {
   filename: "NotoSansCoptic-Regular.ttf"
   post_script_name: "NotoSansCoptic-Regular"
   full_name: "Noto Sans Coptic Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/coptic)"
 }
-subsets: "menu"
 subsets: "coptic"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/coptic.git"
+  archive_url: "https://github.com/notofonts/coptic/releases/download/NotoSansCoptic-v2.002/NotoSansCoptic-v2.002.zip"
+}
 is_noto: true
 languages: "cop_Copt"  # Coptic, Coptic

@@ -10,9 +10,15 @@ fonts {
   filename: "NotoSansLydian-Regular.ttf"
   post_script_name: "NotoSansLydian-Regular"
   full_name: "Noto Sans Lydian Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lydian)"
 }
-subsets: "menu"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "lydian"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/lydian.git"
+  archive_url: "https://github.com/notofonts/lydian/releases/download/NotoSansLydian-v2.001/NotoSansLydian-v2.001.zip"
+}
 is_noto: true
 languages: "xld_Lydi"  # Lydian

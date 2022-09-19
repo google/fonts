@@ -13,6 +13,7 @@ fonts {
   full_name: "Noto Serif NP Hmong Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nyiakeng-puachue-hmong)"
 }
+subsets: "latin"
 subsets: "menu"
 subsets: "nyiakeng-puachue-hmong"
 axes {

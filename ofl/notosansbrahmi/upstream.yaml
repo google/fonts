@@ -1,0 +1,7 @@
+archive: https://github.com/notofonts/brahmi/releases/download/NotoSansBrahmi-v2.003/NotoSansBrahmi-v2.003.zip
+branch: main
+files:
+  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  NotoSansBrahmi/googlefonts/ttf/NotoSansBrahmi-Regular.ttf: NotoSansBrahmi-Regular.ttf

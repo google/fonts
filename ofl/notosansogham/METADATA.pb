@@ -10,9 +10,15 @@ fonts {
   filename: "NotoSansOgham-Regular.ttf"
   post_script_name: "NotoSansOgham-Regular"
   full_name: "Noto Sans Ogham Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ogham)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "ogham"
+source {
+  repository_url: "https://github.com/notofonts/ogham.git"
+  archive_url: "https://github.com/notofonts/ogham/releases/download/NotoSansOgham-v2.001/NotoSansOgham-v2.001.zip"
+}
 is_noto: true
 languages: "sga_Ogam"  # Old Irish, Ogham

@@ -10,9 +10,15 @@ fonts {
   filename: "NotoSansAnatolianHieroglyphs-Regular.ttf"
   post_script_name: "NotoSansAnatolianHieroglyphs-Regular"
   full_name: "Noto Sans Anatolian Hieroglyphs Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/anatolian-hieroglyphs)"
 }
-subsets: "menu"
 subsets: "anatolian-hieroglyphs"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/anatolian-hieroglyphs.git"
+  archive_url: "https://github.com/notofonts/anatolian-hieroglyphs/releases/download/NotoSansAnatolianHieroglyphs-v2.001/NotoSansAnatolianHieroglyphs-v2.001.zip"
+}
 is_noto: true
 languages: "hlu_Hluw"  # Hieroglyphic Luwian

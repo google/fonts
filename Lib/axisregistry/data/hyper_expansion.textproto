@@ -1,0 +1,37 @@
+tag: "HEXP"
+display_name: "Hyper Expansion"
+min_value: 0.0
+default_value: 0.0
+max_value: 100.0
+precision: 1
+fallback {
+  name: "Deca"
+  value: 0.0
+}
+fallback {
+  name: "Exa"
+  value: 40.0
+}
+fallback {
+  name: "Giga"
+  value: 56.0
+}
+fallback {
+  name: "Mega"
+  value: 64.0
+}
+fallback {
+  name: "Peta"
+  value: 72.0
+}
+fallback {
+  name: "Tera"
+  value: 80.0
+}
+fallback {
+  name: "Zetta"
+  value: 100.0
+}
+fallback_only: false
+illustration_url: ""
+description: "Expansion of inner and outer space of glyphs."

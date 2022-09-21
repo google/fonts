@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansImperialAramaic-Regular.ttf"
   post_script_name: "NotoSansImperialAramaic-Regular"
   full_name: "Noto Sans Imperial Aramaic Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/imperial-aramaic)"
 }
-subsets: "menu"
 subsets: "imperial-aramaic"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/imperial-aramaic.git"
+  archive_url: "https://github.com/notofonts/imperial-aramaic/releases/download/NotoSansImperialAramaic-v2.001/NotoSansImperialAramaic-v2.001.zip"
+}
 is_noto: true
 languages: "aii_Armi"  # Assyrian Neo-Aramaic, Imperial Aramaic
 languages: "arc_Armi"  # Aramaic

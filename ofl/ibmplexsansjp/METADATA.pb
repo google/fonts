@@ -66,8 +66,6 @@ fonts {
   full_name: "IBM Plex Sans JP Bold"
   copyright: "Copyright 2018 IBM Corp. All rights reserved."
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"

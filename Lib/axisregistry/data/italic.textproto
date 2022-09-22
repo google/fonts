@@ -4,7 +4,7 @@ display_name: "Italic"
 min_value: 0
 max_value: 1
 default_value: 0
-precision: -1
+precision: 0
 fallback {
   name: "Roman"
   value: 0

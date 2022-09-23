@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Cantarell-Regular.ttf"
   post_script_name: "Cantarell-Regular"
-  full_name: "Cantarell"
+  full_name: "Cantarell Regular"
   copyright: "Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)"
 }
 fonts {

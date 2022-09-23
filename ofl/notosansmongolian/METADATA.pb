@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansMongolian-Regular.ttf"
   post_script_name: "NotoSansMongolian-Regular"
   full_name: "Noto Sans Mongolian Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "mongolian"
+source {
+  repository_url: "https://github.com/notofonts/mongolian.git"
+  archive_url: "https://github.com/notofonts/mongolian/releases/download/NotoSansMongolian-v2.003/NotoSansMongolian-v2.003.zip"
+}
 is_noto: true
 languages: "mn_Mong"  # Mongolian (Mongolian)
 languages: "mnc_Mong"  # Manchu

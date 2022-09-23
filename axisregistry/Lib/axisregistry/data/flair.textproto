@@ -3,7 +3,7 @@ display_name: "Flair"
 min_value: 0.0
 default_value: 0.0
 max_value: 100.0
-precision: 1
+precision: -1
 fallback {
   name: "Normal"
   value: 0.0

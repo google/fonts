@@ -10,9 +10,15 @@ fonts {
   filename: "NotoSansTagalog-Regular.ttf"
   post_script_name: "NotoSansTagalog-Regular"
   full_name: "Noto Sans Tagalog Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tagalog)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "tagalog"
+source {
+  repository_url: "https://github.com/notofonts/tagalog.git"
+  archive_url: "https://github.com/notofonts/tagalog/releases/download/NotoSansTagalog-v2.001/NotoSansTagalog-v2.001.zip"
+}
 is_noto: true
 languages: "fil_Tglg"  # Filipino, Tagalog

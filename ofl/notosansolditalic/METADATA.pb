@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansOldItalic-Regular.ttf"
   post_script_name: "NotoSansOldItalic-Regular"
   full_name: "Noto Sans Old Italic Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-italic)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "old-italic"
+source {
+  repository_url: "https://github.com/notofonts/old-italic.git"
+  archive_url: "https://github.com/notofonts/old-italic/releases/download/NotoSansOldItalic-v2.003/NotoSansOldItalic-v2.003.zip"
+}
 is_noto: true
 languages: "ett_Ital"  # Etruscan
 languages: "osc_Ital"  # Oscan

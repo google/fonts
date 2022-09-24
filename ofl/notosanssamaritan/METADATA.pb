@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansSamaritan-Regular.ttf"
   post_script_name: "NotoSansSamaritan-Regular"
   full_name: "Noto Sans Samaritan Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/samaritan)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "samaritan"
+source {
+  repository_url: "https://github.com/notofonts/samaritan.git"
+  archive_url: "https://github.com/notofonts/samaritan/releases/download/NotoSansSamaritan-v2.001/NotoSansSamaritan-v2.001.zip"
+}
 is_noto: true
 languages: "aii_Samr"  # Assyrian Neo-Aramaic, Samaritan
 languages: "sam_Samr"  # Samaritan Aramaic, Samaritan

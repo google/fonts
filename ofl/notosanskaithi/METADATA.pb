@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansKaithi-Regular.ttf"
   post_script_name: "NotoSansKaithi-Regular"
   full_name: "Noto Sans Kaithi Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)"
 }
-subsets: "menu"
 subsets: "kaithi"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/kaithi.git"
+  archive_url: "https://github.com/notofonts/kaithi/releases/download/NotoSansKaithi-v2.004/NotoSansKaithi-v2.004.zip"
+}
 is_noto: true
 languages: "bho_Kthi"  # Bhojpuri, Kaithi
 languages: "sa_Kthi"  # Sanskrit, Kaithi

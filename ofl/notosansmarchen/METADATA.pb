@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansMarchen-Regular.ttf"
   post_script_name: "NotoSansMarchen-Regular"
   full_name: "Noto Sans Marchen Regular"
-  copyright: "Copyright 2020 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/marchen)"
 }
-subsets: "menu"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "marchen"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/marchen.git"
+  archive_url: "https://github.com/notofonts/marchen/releases/download/NotoSansMarchen-v2.003/NotoSansMarchen-v2.003.zip"
+}
 is_noto: true
 languages: "bo_Marc"  # Tibetan, Marchen
 languages: "sa_Marc"  # Sanskrit, Marchen

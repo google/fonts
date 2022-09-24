@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansNabataean-Regular.ttf"
   post_script_name: "NotoSansNabataean-Regular"
   full_name: "Noto Sans Nabataean Regular"
-  copyright: "Copyright 2018 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nabataean)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "nabataean"
+source {
+  repository_url: "https://github.com/notofonts/nabataean.git"
+  archive_url: "https://github.com/notofonts/nabataean/releases/download/NotoSansNabataean-v2.001/NotoSansNabataean-v2.001.zip"
+}
 is_noto: true
 languages: "aii_Nbat"  # Assyrian Neo-Aramaic, Nabataean
 languages: "arc_Nbat"  # Aramaic, Nabataean

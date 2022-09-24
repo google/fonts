@@ -10,19 +10,17 @@ fonts {
   filename: "NotoSansOldPermic-Regular.ttf"
   post_script_name: "NotoSansOldPermic-Regular"
   full_name: "Noto Sans Old Permic Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-permic)"
 }
+subsets: "cyrillic-ext"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "old-permic"
+source {
+  repository_url: "https://github.com/notofonts/old-permic.git"
+  archive_url: "https://github.com/notofonts/old-permic/releases/download/NotoSansOldPermic-v2.001/NotoSansOldPermic-v2.001.zip"
+}
 is_noto: true
 languages: "koi_Perm"  # Komi-Permyak, Old Permic
 languages: "kv_Perm"  # Komi, Old Permic
-sample_text {
-  masthead_full: "𐍒𐍟𐍦𐍘"
-  masthead_partial: "𐍑𐍤"
-  styles: "𐍐𐍑𐍒𐍓𐍔𐍕𐍖 𐍞𐍟𐍠𐍡𐍢𐍣𐍤 𐍥𐍦𐍧𐍨𐍩𐍪𐍫 𐍗𐍘𐍙𐍚𐍛𐍜𐍝 𐍬𐍭𐍮𐍯𐍰𐍱𐍲"
-  tester: "𐍐𐍑𐍒𐍓𐍔𐍕𐍖 𐍞𐍟𐍠𐍡𐍢𐍣𐍤 𐍥𐍦𐍧𐍨𐍩𐍪𐍫 𐍗𐍘𐍙𐍚𐍛𐍜𐍝 𐍬𐍭𐍮𐍯𐍰𐍱𐍲"
-  poster_sm: "𐍐𐍑𐍒𐍢𐍣𐍤 𐍥𐍦𐍧𐍛𐍜𐍝"
-  poster_md: "𐍥𐍦𐍧𐍨𐍩𐍪𐍫 𐍗𐍘𐍙"
-  poster_lg: "𐍐𐍑𐍒"
-}

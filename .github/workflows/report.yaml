@@ -9,8 +9,13 @@ on:
     #- cron: '1/5 * * * *'
 
 
+permissions: {}
 jobs:
   gen_report:
+    permissions:
+      contents: write # to push pages branch (peaceiris/actions-gh-pages)
+      issues: read # to list issues for report
+
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2

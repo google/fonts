@@ -8,6 +8,9 @@ on:
   pull_request:
     branches: ['**']
 
+permissions:
+  contents: read # to fetch code (actions/checkout)
+
 jobs:
   test_server_files:
     runs-on: ubuntu-latest

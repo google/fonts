@@ -7,9 +7,16 @@ on:
     branches:
     - main
 
+permissions:
+  contents: read # to fetch code (actions/checkout)
+
 jobs:
 
   build:
+    permissions:
+      actions: write # to cancel/stop running workflows (styfle/cancel-workflow-action)
+      contents: read # to fetch code (actions/checkout)
+
     name: Build Google Fonts
     runs-on: ubuntu-latest
     steps:

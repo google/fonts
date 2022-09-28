@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansBuginese-Regular.ttf"
   post_script_name: "NotoSansBuginese-Regular"
   full_name: "Noto Sans Buginese Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/buginese)"
 }
-subsets: "menu"
 subsets: "buginese"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/buginese.git"
+  archive_url: "https://github.com/notofonts/buginese/releases/download/NotoSansBuginese-v2.002/NotoSansBuginese-v2.002.zip"
+}
 is_noto: true
 languages: "bug_Bugi"  # Buginese, Buginese
 languages: "mak_Bugi"  # Makasar, Buginese

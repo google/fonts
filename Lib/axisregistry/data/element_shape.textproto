@@ -10,5 +10,6 @@ fallback {
     value: 0.0
   }
 fallback_only: false
-description: 
-    "Controls the shape of the element"
+description:     
+  "In modular fonts, where glyphs are composed using multiple copies of"
+  " the same element, this axis controls the shape of the element"

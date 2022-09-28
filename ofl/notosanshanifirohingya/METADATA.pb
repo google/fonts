@@ -10,14 +10,20 @@ fonts {
   filename: "NotoSansHanifiRohingya[wght].ttf"
   post_script_name: "NotoSansHanifiRohingya-Regular"
   full_name: "Noto Sans Hanifi Rohingya Regular"
-  copyright: "Copyright 2020 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)"
 }
-subsets: "menu"
 subsets: "hanifi-rohingya"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/notofonts/hanifi-rohingya.git"
+  archive_url: "https://github.com/notofonts/hanifi-rohingya/releases/download/NotoSansHanifiRohingya-v2.101/NotoSansHanifiRohingya-v2.101.zip"
 }
 is_noto: true
 languages: "rhg_Rohg"  # Rohingya

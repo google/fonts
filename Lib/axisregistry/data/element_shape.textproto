@@ -1,0 +1,15 @@
+#Element Shape, based on https://github.com/rosettatype/handjet
+tag: "ELSH"
+display_name: "Element Shape"
+min_value: 0.0
+default_value: 0.0
+max_value: 100.0
+precision: -1
+fallback {
+    name: "Default"
+    value: 0.0
+  }
+fallback_only: false
+description:     
+  "In modular fonts, where glyphs are composed using multiple copies of"
+  " the same element, this axis controls the shape of the element"

@@ -33,5 +33,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/HelsinkiTypeStudio/Finlandica"
-  commit: "9da70dc1ce8cda37cbe3fd488b239156b097ef40"
+  commit: "f18a892e62bdcd80839549c04e3572e2bdca435e"
 }

@@ -10,14 +10,20 @@ fonts {
   filename: "NotoSansTaiTham[wght].ttf"
   post_script_name: "NotoSansTaiTham-Regular"
   full_name: "Noto Sans Tai Tham Regular"
-  copyright: "Copyright 2020 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "tai-tham"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/notofonts/tai-tham.git"
+  archive_url: "https://github.com/notofonts/tai-tham/releases/download/NotoSansTaiTham-v2.002/NotoSansTaiTham-v2.002.zip"
 }
 is_noto: true
 languages: "kkh_Lana"  # Tai Khün

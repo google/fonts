@@ -18,7 +18,7 @@ subsets: "limbu"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/limbu.git"
-  archive_url: "https://github.com/notofonts/limbu/releases/download/NotoSansLimbu-v2.003/NotoSansLimbu-v2.003.zip"
+  archive_url: "https://github.com/notofonts/limbu/releases/download/NotoSansLimbu-v2.004/NotoSansLimbu-v2.004.zip"
 }
 is_noto: true
 languages: "lif_Limb"  # Limbu, Limbu

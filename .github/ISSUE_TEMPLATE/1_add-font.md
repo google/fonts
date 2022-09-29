@@ -21,9 +21,9 @@ I understand that Google Fonts will publish only fonts that matches its requirem
 - [ ] There is no "Reserved Font Name" mention in the OFL license
 - [ ] Family name is unique according to namecheck.fontdata.com
 - [ ] The font supports at least [GF Latin Core glyphset](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin/)
-- [ ] The repository respect the [upstream repo structure](https://github.com/googlefonts/gf-docs/tree/main/Spec#upstream-repo-structure)
+- [ ] The repository respect the [upstream repo structure](https://googlefonts.github.io/gf-guide/upstream.html)
 - [ ] The source files are available in the repository
-- [ ] I read, agree and comply with the full [contributing requirements](https://github.com/google/fonts/blob/main/CONTRIBUTING.md)
+- [ ] I read, agree and comply with the full [contributing requirements](https://googlefonts.github.io/gf-guide/onboarding.html)
 - [ ] I am the author of the font or the author agreed to this submission
 - [ ] I will maintain the repository
 

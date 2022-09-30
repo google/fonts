@@ -20,6 +20,10 @@ axes {
   min_value: 1979.0
   max_value: 2050.0
 }
+registry_default_overrides {
+  key: "YEAR"
+  value: 1979.0
+}
 source {
   repository_url: "https://github.com/dancoull/ClimateCrisis"
   commit: "e0398e2d7e84a9f08cf7ec67bb463e4e2bb35431"

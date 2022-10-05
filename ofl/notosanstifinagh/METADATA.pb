@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansTifinagh-Regular.ttf"
   post_script_name: "NotoSansTifinagh-Regular"
   full_name: "Noto Sans Tifinagh Regular"
-  copyright: "Copyright 2019 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tifinagh)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "tifinagh"
+source {
+  repository_url: "https://github.com/notofonts/tifinagh.git"
+  archive_url: "https://github.com/notofonts/tifinagh/releases/download/NotoSansTifinagh-v2.004/NotoSansTifinagh-v2.004.zip"
+}
 is_noto: true
 languages: "ber_Tfng"  # Berber, Tifinagh
 languages: "kab_Tfng"  # Kabyle, Tifinagh

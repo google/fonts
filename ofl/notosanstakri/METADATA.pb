@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansTakri-Regular.ttf"
   post_script_name: "NotoSansTakri-Regular"
   full_name: "Noto Sans Takri Regular"
-  copyright: "Copyright 2020 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/takri)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "takri"
+source {
+  repository_url: "https://github.com/notofonts/takri.git"
+  archive_url: "https://github.com/notofonts/takri/releases/download/NotoSansTakri-v2.003/NotoSansTakri-v2.003.zip"
+}
 is_noto: true
 languages: "doi_Takr"  # Dogri, Takri
 languages: "sa_Takr"  # Sanskrit, Takri

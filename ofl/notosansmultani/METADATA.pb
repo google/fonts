@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "multani"
 source {
   repository_url: "https://github.com/notofonts/multani.git"
-  archive_url: "https://github.com/notofonts/multani/releases/download/NotoSansMultani-v2.001/NotoSansMultani-v2.001.zip"
+  archive_url: "https://github.com/notofonts/multani/releases/download/NotoSansMultani-v2.002/NotoSansMultani-v2.002.zip"
 }
 is_noto: true
 languages: "sa_Mult"  # Sanskrit, Multani

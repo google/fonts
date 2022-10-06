@@ -1,8 +1,8 @@
 name: "Cairo"
 designer: "Mohamed Gaber, Accademia di Belle Arti di Urbino"
 license: "OFL"
-category: "SANS_SERIF"
 category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2019-03-21"
 fonts {
   name: "Cairo"

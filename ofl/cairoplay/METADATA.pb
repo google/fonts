@@ -17,7 +17,6 @@ subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-primary_script: "Arab"
 axes {
   tag: "slnt"
   min_value: -11.0
@@ -30,5 +29,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/Gue3bara/Cairo"
-  commit: "78a8a4def71f06a4460fc5807777acd1672d51cb"
+  commit: "f596f41991bc01d5865cdfb9fd751b8de04b6753"
 }
+primary_script: "Arab"

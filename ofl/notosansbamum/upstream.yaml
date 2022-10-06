@@ -1,0 +1,7 @@
+archive: https://github.com/notofonts/bamum/releases/download/NotoSansBamum-v2.001/NotoSansBamum-v2.001.zip
+branch: main
+files:
+  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  NotoSansBamum/googlefonts/variable-ttf/NotoSansBamum[wght].ttf: NotoSansBamum[wght].ttf

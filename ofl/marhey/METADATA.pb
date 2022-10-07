@@ -12,6 +12,7 @@ fonts {
   full_name: "Marhey Light"
   copyright: "Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -24,3 +25,4 @@ source {
   repository_url: "https://github.com/namelatype/Marhey"
   commit: "535eeb5a3f4dee825fdaf13d84075b212d969f8d"
 }
+primary_script: "Arab"

@@ -31,3 +31,4 @@ source {
   repository_url: "https://github.com/ThomasJockin/readexpro"
   commit: "6a4f24e40e424ec77badb04c101af81da96ed157"
 }
+primary_script: "Arab"

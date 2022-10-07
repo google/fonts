@@ -31,3 +31,4 @@ source {
   repository_url: "https://github.com/Gue3bara/Cairo"
   commit: "f596f41991bc01d5865cdfb9fd751b8de04b6753"
 }
+primary_script: "Arab"

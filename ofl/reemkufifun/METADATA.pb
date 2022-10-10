@@ -17,7 +17,6 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-primary_script: "Arab"
 axes {
   tag: "wght"
   min_value: 400.0
@@ -25,5 +24,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/aliftype/reem-kufi"
-  archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.4/ReemKufi-1.4.zip"
+  archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.5/ReemKufi-1.5.zip"
 }
+primary_script: "Arab"

@@ -176,7 +176,9 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     fvar = ttFont["fvar"]
 
     # rm old STAT table and associated name table records
-    fvar_nameids = set(i.subfamilyNameID for i in fvar.instances)
+    fvar_instance_nameids = set(i.subfamilyNameID for i in fvar.instances)
+    fvar_axis_nameids = set(a.axisNameID for a in fvar.axes)
+    fvar_nameids = fvar_axis_nameids | fvar_instance_nameids
     if "STAT" in ttFont:
         stat = ttFont["STAT"]
         if stat.table.AxisValueCount > 0:

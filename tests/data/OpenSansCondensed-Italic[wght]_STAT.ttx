@@ -88,7 +88,7 @@
   <AxisValue index="9" Format="1">
     <AxisIndex value="2"/>
     <Flags value="0"/>
-    <ValueNameID value="17"/>  <!-- Italic -->
+    <ValueNameID value="2"/>  <!-- Italic -->
     <Value value="1.0"/>
   </AxisValue>
   <AxisValue index="10" Format="3">
@@ -105,4 +105,4 @@
     <Value value="0.0"/>
   </AxisValue>
 </AxisValueArray>
-<ElidedFallbackNameID value="2"/>  <!-- missing from name table -->
+<ElidedFallbackNameID value="2"/>  <!-- Italic -->

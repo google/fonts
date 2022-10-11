@@ -28,7 +28,7 @@ strong {
 }
 ```
 
-![switching_to_vfs_1.png](%5BDONE%5D%20Switching%20from%20static%20to%20variable%20fonts%2083c393925fd04f3e8719cbd12211308a/switching_to_vfs_1.png)
+![switching_to_vfs_1.png](images/switching_to_vfs_1.png)
 
 Well, good news, because they *still* look like that! Although specialized variable axes require us to use `font-variation-settings` to control them, the weight axis has been mapped to the `font-weight` property we all know and love.
 
@@ -44,7 +44,7 @@ strong {
 }
 ```
 
-![switching_to_vfs_2.png](%5BDONE%5D%20Switching%20from%20static%20to%20variable%20fonts%2083c393925fd04f3e8719cbd12211308a/switching_to_vfs_2.png)
+![switching_to_vfs_2.png](images/switching_to_vfs_2.png)
 
 Note: It’s not just the `strong` element that needs to be updated, but also any HTML element where the browser stylesheet is applying a bold weight. Typically, unless they’ve been overridden already, this includes `b`, `h1` to `h6`, and several other elements, including table headings (`th`) and dictionary definitions (`dd`). These will all need the setting of 663, too (or their own custom weight if you’d prefer).
 
@@ -58,7 +58,7 @@ em {
 }
 ```
 
-![switching_to_vfs_3.png](%5BDONE%5D%20Switching%20from%20static%20to%20variable%20fonts%2083c393925fd04f3e8719cbd12211308a/switching_to_vfs_3.png)
+![switching_to_vfs_3.png](images/switching_to_vfs_3.png)
 
 Switching italics on and off in this case is very easy because it essentially just swaps between the two files. When uprights and italics (or [obliques](https://fonts.google.com/knowledge/glossary/oblique)) are bundled within the same variable font file, we need to employ `font-variation-settings` use the `slnt` axis—see below.
 
@@ -74,7 +74,7 @@ span {
 }
 ```
 
-![switching_to_vfs_4.png](%5BDONE%5D%20Switching%20from%20static%20to%20variable%20fonts%2083c393925fd04f3e8719cbd12211308a/switching_to_vfs_4.png)
+![switching_to_vfs_4.png](images/switching_to_vfs_4.png)
 
 And while we’re at it, why not make everything *but* the `span` a little more condensed with a font-stretch value of 72%? 
 
@@ -84,7 +84,7 @@ body {
 }
 ```
 
-![switching_to_vfs_5.png](%5BDONE%5D%20Switching%20from%20static%20to%20variable%20fonts%2083c393925fd04f3e8719cbd12211308a/switching_to_vfs_5.png)
+![switching_to_vfs_5.png](images/switching_to_vfs_5.png)
 
 With some very subtle tweaks to some already familiar code, we’ve switched from the static to variable version of Anybody, and used the power of variable fonts to give our text more stylistic variation that wouldn’t have been possible before, and all without loading multiple font files. Let’s review our final CSS:
 

@@ -1,10 +1,3 @@
-# [DONE] Switching from static to variable fonts
-
-<aside>
-👨‍💻 [https://codepen.io/elliotjaystocks/pen/LYmWYWG?editors=0100](https://codepen.io/elliotjaystocks/pen/LYmWYWG?editors=0100)
-
-</aside>
-
 For many designers, implementing [variable fonts](https://fonts.google.com/knowledge/glossary/variable_fonts) on a website might mean treating the project as a blank canvas, and using a brand new [typeface](https://fonts.google.com/knowledge/glossary/typeface) to experiment with the possibilities variable fonts offer. However, swapping out our static fonts for variable ones can be a useful way of dipping your toes into this new world. Plus, moving from a typeface’s static fonts to its variable cousins offers some advantages: With the overall typographic system tried and tested, we’re not actually changing that much; it’s more of a case of finessing our [typography](https://fonts.google.com/knowledge/glossary/typography)—and saving some data while we’re at it.
 
 ## Manipulating the first axis

@@ -7,4 +7,4 @@ Calligraphy
 # Glossary terms linked in article
 Script # https://fonts.google.com/knowledge/glossary/script_writing_system
 
-# Article also links to A Note About Terminology in 1-introduction-to-hangeul.md
+# Article also links to A Note About Terminology in 1_introduction_to_hangeul.md

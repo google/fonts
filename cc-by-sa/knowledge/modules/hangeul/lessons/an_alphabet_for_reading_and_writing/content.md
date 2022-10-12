@@ -1,6 +1,6 @@
 # An Alphabet for Reading and Writing
 
-Korea during the reign of King Sejong (1418---1450 CE) was similar to nearly all other literate societies throughout history in that learning and using an [alphabet](../1-introduction-to-hangeul.md#a-note-about-terminology) was a privilege reserved for relatively few people.
+Korea during the reign of King Sejong (1418---1450 CE) was similar to nearly all other literate societies throughout history in that learning and using an [alphabet](../1_introduction_to_hangeul.md#a-note-about-terminology) was a privilege reserved for relatively few people.
 
 As a consequence, alphabets have rarely been designed or optimized to make reading and writing easier.
 
@@ -8,7 +8,7 @@ In designing Hangeul, however, King Sejong found several opportunities to improv
 
 ## Syllable Blocks for Readers
 
-Alphabets can differ not only in terms of the designs and functions of individual [letters](../1-introduction-to-hangeul.md#a-note-about-terminology), but also in terms of how the letters are combined to capture human speech.
+Alphabets can differ not only in terms of the designs and functions of individual [letters](../1_introduction_to_hangeul.md#a-note-about-terminology), but also in terms of how the letters are combined to capture human speech.
 
 For example, as you're reading this sentence in English, you'll recognize that the letters are placed one after another, with [spaces](https://fonts.google.com/knowledge/glossary/spaces) and punctuation used to demarcate word boundaries.
 

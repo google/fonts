@@ -12,4 +12,4 @@ Emotive Considerations for Choosing Typefaces #https://fonts.google.com/knowledg
 Lowercase # https://fonts.google.com/knowledge/glossary/uppercase_lowercase
 Alternates https://fonts.google.com/knowledge/glossary/alternates
 
-# Article also links to A Note About Terminology in 1-introduction-to-hangeul.md
+# Article also links to A Note About Terminology in 1_introduction_to_hangeul.md

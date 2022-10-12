@@ -11,4 +11,4 @@ Diacritics # https://fonts.google.com/knowledge/glossary/diacritic_accent_marks
 Lowercase # https://fonts.google.com/knowledge/glossary/uppercase_lowercase
 Letters # https://fonts.google.com/knowledge/glossary/letters
 
-# Article also links to A Note About Terminology in 1-introduction-to-hangeul.md
+# Article also links to A Note About Terminology in 1_introduction_to_hangeul.md

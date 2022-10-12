@@ -1,5 +1,3 @@
-# Part two: What have the Romans ever done for us?
-
 We can be thankful to the Romans for a number of technological innovations and inventions, including aqueducts, sanitation, irrigation, medicine, education, calendar reform, and even underfloor heating. However, there is yet another Roman invention that is even more familiar and ubiquitous. Adapted from the [Greek](/glossary/greek_script) alphabet, in turn borrowed from the Phoenicians, it’s the [Latin](/glossary/latin) or Roman alphabet. Take a trip to Rome, and you can still see one of the finest examples of these letters inscribed on the base of Trajan’s Column, completed in 113 CE. But these letterforms, or ‘monumental capitals’, went the way of the Roman empire, and eventually fell out of use, evolving into numerous entirely different regional scripts.
 
 

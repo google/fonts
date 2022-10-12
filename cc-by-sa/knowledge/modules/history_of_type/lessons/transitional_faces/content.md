@@ -1,5 +1,3 @@
-# Part three: Transitional faces
-
 In Europe, by the seventeenth century roman fonts outnumbered [blackletter](/glossary/blackletter). And throughout most of Europe, besides in German speaking lands and parts of Northern Europe, roman fonts were now the natural first choice for most kinds of documents and books.
 
 The seventeenth century marked an explosion in printed matter, from broadsides and standalone art prints to books and pamphlets, leading some to complain that this glut would ultimately devalue books. Gottfried Leibniz, the famed seventeenth-century polymath, famously bemoaned the “horrible mass of books which keeps on growing.” However, this flood of books not only got people thinking about how to better catalog and categorize books (leading eventually to the discipline of bibliography), but it also affected book design and drove the demand for new typefaces.

@@ -15,3 +15,4 @@ fonts {
 subsets: "bengali"
 subsets: "latin"
 subsets: "menu"
+primary_script: "Beng"

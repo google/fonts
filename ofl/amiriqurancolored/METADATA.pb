@@ -14,4 +14,4 @@ fonts {
 }
 subsets: "arabic"
 subsets: "menu"
-
+primary_script: "Arab"

@@ -19,3 +19,4 @@ source {
   repository_url: "https://github.com/alif-type/qahiri"
   commit: "2fbfe8ca2e5ed04b0455e15c717774766f174ad1"
 }
+primary_script: "Arab"

@@ -30,3 +30,4 @@ source {
   repository_url: "https://github.com/EkType/Anek"
   commit: "34074c6b406f4112e20c7ad10254a6e954d0324b"
 }
+primary_script: "Telu"

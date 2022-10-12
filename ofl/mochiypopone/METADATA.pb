@@ -15,3 +15,4 @@ fonts {
 subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
+primary_script: "Hani"

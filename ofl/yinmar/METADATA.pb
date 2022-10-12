@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "myanmar"
+primary_script: "Mymr"

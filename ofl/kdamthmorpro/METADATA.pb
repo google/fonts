@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/sovichet/kdam-thmor-pro"
   commit: "a78a9ff035108630f42ae15a04b4ab8150298786"
 }
+primary_script: "Khmr"

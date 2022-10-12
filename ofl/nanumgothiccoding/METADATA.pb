@@ -23,3 +23,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "korean"
+primary_script: "Hang"

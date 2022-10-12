@@ -74,3 +74,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-lateef"
   archive_url: "https://github.com/silnrsi/font-lateef/releases/download/v2.000/Lateef-2.000.zip"
 }
+primary_script: "Arab"

@@ -15,8 +15,8 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
-primary_script: "Arab"
 source {
   repository_url: "https://github.com/aliftype/amiri"
   commit: "066b49c136a42ef75f9317187e1b3d3a630032cb"
 }
+primary_script: "Arab"

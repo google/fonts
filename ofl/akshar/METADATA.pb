@@ -25,3 +25,4 @@ source {
   repository_url: "https://github.com/tallchai/akshar-type"
   commit: "0c6de5ef9cef264b3b3f958e772b3a371f92d083"
 }
+primary_script: "Deva"

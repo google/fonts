@@ -34,3 +34,4 @@ source {
   repository_url: "https://github.com/sovichet/kantumruy-pro"
   commit: "8bf831210d27c1eda0129aa991d12af9e4c16632"
 }
+primary_script: "Khmr"

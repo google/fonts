@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-nuosu"
   archive_url: "https://github.com/silnrsi/font-nuosu/releases/download/v2.200/NuosuSIL-2.200.zip"
 }
+primary_script: "Yiii"

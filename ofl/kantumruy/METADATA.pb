@@ -32,3 +32,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "khmer"
+primary_script: "Khmr"

@@ -15,3 +15,4 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+primary_script: "Khmr"

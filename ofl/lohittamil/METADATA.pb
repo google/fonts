@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "tamil"
+primary_script: "Taml"

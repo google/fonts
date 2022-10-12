@@ -1,25 +1,15 @@
-type history
-italic
-blackletter
-printing
-sixteenth century
-Aldus Manutius
-Claude Garamont
-Garamond
-Renaissance
-Transitional
-Neoclassical
-
-
-blackletter
-contrast
-italic
-latin
-letterform
-transitional_neo_classical
-typography
-type
-type_designer
-
-
-
+name: "Transitional faces"
+authors: "John Boardley"
+reviewers: "Gerry Leonidas"
+reviewers: "Ben Weiner"
+topics: "type_history"
+prev_lessons: "history-of-type-part-2"
+next_lessons: "fitting_the_line"
+related_terms: "blackletter"
+related_terms: "contrast"
+related_terms: "italic"
+related_terms: "latin"
+related_terms: "letterform"
+related_terms: "transitional_neo_classical"
+related_terms: "type_design"
+excerpt: "INSERT_EXCERPT"

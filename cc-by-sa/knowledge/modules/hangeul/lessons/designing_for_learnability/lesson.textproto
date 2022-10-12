@@ -1,14 +1,16 @@
-# Article topics
-Hangeul
-Korean alphabet
-Learnability
-Character design
-
-# Glossary terms linked in article
-Geometric # https://fonts.google.com/knowledge/glossary/geometric
-Monospaced # https://fonts.google.com/knowledge/glossary/monospaced
-Diacritics # https://fonts.google.com/knowledge/glossary/diacritic_accent_marks
-Lowercase # https://fonts.google.com/knowledge/glossary/uppercase_lowercase
-Letters # https://fonts.google.com/knowledge/glossary/letters
-
-# Article also links to A Note About Terminology in 1_introduction_to_hangeul.md
+name: "Designing for Learnability"
+authors: "Darrell Penta"
+reviewers: "Cassidy Curtis"
+reviewers: "Minjoo Ham"
+reviewers: "Min-Young Kim"
+reviewers: "Piper Haywood"
+reviewers: "SeHee Lee"
+topics: "hangeul"
+prev_lessons: "introduction_to_hangeul"
+next_lessons: "making_the_details_matter"
+related_terms: "geometric"
+related_terms: "monospaced"
+related_terms: "diacritic_accent_marks"
+related_terms: "uppercase_lowercase"
+related_terms: "letters"
+excerpt: "INSERT"

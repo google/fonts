@@ -1,6 +1,6 @@
 # Designing for Learnability
 
-Nearly 600 years ago, King Sejong the Great of Korea undertook a design challenge for which there was little precedent in human history: He set out to create a new [alphabet](../1_introduction_to_hangeul.md#a-note-about-terminology) for the common people of his nation.
+Nearly 600 years ago, King Sejong the Great of Korea undertook a design challenge for which there was little precedent in human history: He set out to create a new [alphabet](../introduction_to_hangeul.md#a-note-about-terminology) for the common people of his nation.
 
 Working against King Sejong was the reality that alphabets take significant time and effort to learn, even under the best conditions. While the privileged members of society had ample time and opportunity to become literate, the vast majority of citizens had no such advantages.
 

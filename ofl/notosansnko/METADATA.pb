@@ -1,10 +1,10 @@
-name: "Noto Sans NKo"
+name: "Noto Sans N Ko"
 designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
 fonts {
-  name: "Noto Sans NKo"
+  name: "Noto Sans N Ko"
   style: "normal"
   weight: 400
   filename: "NotoSansNKo-Regular.ttf"

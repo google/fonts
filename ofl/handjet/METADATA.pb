@@ -37,6 +37,10 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+registry_default_overrides {
+  key: "ELSH"
+  value: 2.0
+}
 source {
   repository_url: "https://github.com/rosettatype/handjet"
   commit: "3918b7798e06c81da6bc558e88dfddd5a6b49807"

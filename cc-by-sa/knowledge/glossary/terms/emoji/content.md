@@ -1,20 +1,13 @@
+An emoji is a pictogram intended to convey emotional meaning, usually used as a supplement to text in order to clarify intent (for example, a “winking face” emoji to signify sarcasm) or instead of emotive text (for example, a “thumbs up” emoji as an affirmative response). Although sometimes referred to as “smileys” due to the many facial expressions available as emoji, the full range of emoji is much larger than facial expressions.
 
-In  paragraphs of (western) [text](/glossary/text_copy), alignment refers to the invisible vertical line(s) implied by a block of [type](/glossary/type), which aids readability. When type is left-aligned, each new line begins from the same point on the X axis.
-
-<figure>
-
-![Three blocks of text, each with different alignment: The first is left-aligned, the second center-aligned, and the third right-aligned. Each block has a line showing where the alignment resides.](images/thumbnail.svg)
-
-</figure>
-
-If the text is right-aligned, the invisible vertical line sits to the right-hand side of the paragraph; if the text is center-aligned, the line sits in the center of the paragraph. It’s possible to have the text aligned to both left *and* right; this is known as justified text.
+The emoji are successors to the original smileys, or emoticons: A sequence of punctuation glyphs to imitate an expression, such as a semi-colon and right parenthesis used to convey a wink ;)
 
 <figure>
 
-![A justified block of text, with lines showing how the text aligns to both left and right sides. The last line, consisting of just one word, is an orphan and is highlighted.](images/Alignment_justification_2.svg)
+![ALT](images/thumbnail.svg)
 
 </figure>
 
-Because justification adds space between words, it often creates unsightly gaps and rivers in the text. This can be avoided with the liberal use of [hyphenation](/glossary/hyphenation) to avoid word spaces that are too wide or too long.
+The complete set (over 1,874 in version 15) is defined by the Unicode Consortium with contributions from hardware and software makers, as well as communications specialists. Unicode assigns each emoji a number known as a code point, allowing devices to treat emoji as characters in a font — and indeed modern operating systems have emoji fonts built in. Each maker designs emoji in their own style, so the smiley face character on an Apple device is different from the smiley face in Windows or Android.
 
-Justified text can appear neater because of its uniform alignment. However, the last line of a paragraph in justified text will not be justified; this makes the occurrence of [orphans](/glossary/widows_orphans) more problematic, since they interrupt this perceived neatness.
+Depending on the system, it may be possible to override the default emoji font and achieve cross-platform consistency. For example, on a website with a monochrome style, a designer might choose the black and white [Noto Emoji](https://fonts.google.com/noto/specimen/Noto+Emoji).

@@ -1,8 +1,8 @@
-For many designers, implementing [variable fonts](https://fonts.google.com/knowledge/glossary/variable_fonts) on a website might mean treating the project as a blank canvas, and using a brand new [typeface](https://fonts.google.com/knowledge/glossary/typeface) to experiment with the possibilities variable fonts offer. However, swapping out our static fonts for variable ones can be a useful way of dipping your toes into this new world. Plus, moving from a typeface’s static fonts to its variable cousins offers some advantages: With the overall typographic system tried and tested, we’re not actually changing that much; it’s more of a case of finessing our [typography](https://fonts.google.com/knowledge/glossary/typography)—and saving some data while we’re at it.
+For many designers, implementing [variable fonts](/glossary/variable_fonts) on a website might mean treating the project as a blank canvas, and using a brand new [typeface](/glossary/typeface) to experiment with the possibilities variable fonts offer. However, swapping out our static fonts for variable ones can be a useful way of dipping your toes into this new world. Plus, moving from a typeface’s static fonts to its variable cousins offers some advantages: With the overall typographic system tried and tested, we’re not actually changing that much; it’s more of a case of finessing our [typography](/glossary/typography)—and saving some data while we’re at it.
 
 ## Manipulating the first axis
 
-Let’s test this out and make the move from the static version of [Anybody](https://fonts.google.com/specimen/Anybody/), by Tyler Finck, to its newer, variable version. This font contains three variable axes: [Weight](https://fonts.google.com/knowledge/glossary/weight_axis) (`wght`), [Italic](https://fonts.google.com/knowledge/glossary/italic_axis) (`ital`), and [Width](https://fonts.google.com/knowledge/glossary/width_axis) (`wdth`). But before we get into the axes themselves, we first need to actually load the variable fonts. Assuming we’re using the Google Fonts API (of course, we could always download the font files and [self-host](https://fonts.google.com/knowledge/using_type/self_hosting_web_fonts) them), we’ll update the line in our HTML’s `head`—which is currently using the Regular (400), Regular Italic, Bold (700), and Bold Italic styles—from this:
+Let’s test this out and make the move from the static version of [Anybody](https://fonts.google.com/specimen/Anybody/), by Tyler Finck, to its newer, variable version. This font contains three variable axes: [Weight](/glossary/weight_axis) (`wght`), [Italic](/glossary/italic_axis) (`ital`), and [Width](/glossary/width_axis) (`wdth`). But before we get into the axes themselves, we first need to actually load the variable fonts. Assuming we’re using the Google Fonts API (of course, we could always download the font files and [self-host](https://fonts.google.com/knowledge/using_type/self_hosting_web_fonts) them), we’ll update the line in our HTML’s `head`—which is currently using the Regular (400), Regular Italic, Bold (700), and Bold Italic styles—from this:
 
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@ strong {
 }
 ```
 
-![switching_to_vfs_1.png](images/switching_to_vfs_1.png)
+![INSERT_ALT](images/switching_to_vfs_1.svg)
 
 Well, good news, because they *still* look like that! Although specialized variable axes require us to use `font-variation-settings` to control them, the weight axis has been mapped to the `font-weight` property we all know and love.
 
@@ -44,7 +44,7 @@ strong {
 }
 ```
 
-![switching_to_vfs_2.png](images/switching_to_vfs_2.png)
+![INSERT_ALT](images/switching_to_vfs_2.svg)
 
 Note: It’s not just the `strong` element that needs to be updated, but also any HTML element where the browser stylesheet is applying a bold weight. Typically, unless they’ve been overridden already, this includes `b`, `h1` to `h6`, and several other elements, including table headings (`th`) and dictionary definitions (`dd`). These will all need the setting of 663, too (or their own custom weight if you’d prefer).
 
@@ -58,9 +58,9 @@ em {
 }
 ```
 
-![switching_to_vfs_3.png](images/switching_to_vfs_3.png)
+![INSERT_ALT](images/switching_to_vfs_3.svg)
 
-Switching italics on and off in this case is very easy because it essentially just swaps between the two files. When uprights and italics (or [obliques](https://fonts.google.com/knowledge/glossary/oblique)) are bundled within the same variable font file, we need to employ `font-variation-settings` use the `slnt` axis—see below.
+Switching italics on and off in this case is very easy because it essentially just swaps between the two files. When uprights and italics (or [obliques](/glossary/oblique)) are bundled within the same variable font file, we need to employ `font-variation-settings` use the `slnt` axis—see below.
 
 ## Manipulating an additional axis
 
@@ -74,7 +74,7 @@ span {
 }
 ```
 
-![switching_to_vfs_4.png](images/switching_to_vfs_4.png)
+![switching_to_vfs_4.svg](images/switching_to_vfs_4.svg)
 
 And while we’re at it, why not make everything *but* the `span` a little more condensed with a font-stretch value of 72%? 
 
@@ -84,7 +84,7 @@ body {
 }
 ```
 
-![switching_to_vfs_5.png](images/switching_to_vfs_5.png)
+![INSERT_ALT](images/thumbnail.svg)
 
 With some very subtle tweaks to some already familiar code, we’ve switched from the static to variable version of Anybody, and used the power of variable fonts to give our text more stylistic variation that wouldn’t have been possible before, and all without loading multiple font files. Let’s review our final CSS:
 
@@ -122,4 +122,4 @@ em {
 }
 ```
 
-`font-variation-settings` is also required for any custom axes. For more information, please see [“Styling type on the web with variable fonts.”](https://fonts.google.com/knowledge/using_type/styling_type_on_the_web_with_variable_fonts)
+`font-variation-settings` is also required for any custom axes. For more information, please see [“Styling type on the web with variable fonts.”](/lesson/styling_type_on_the_web_with_variable_fonts)

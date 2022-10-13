@@ -60,13 +60,13 @@ em {
 
 ![INSERT_ALT](images/switching_to_vfs_3.svg)
 
-Switching italics on and off in this case is very easy because it essentially just swaps between the two files. When uprights and italics (or [obliques](/glossary/oblique)) are bundled within the same variable font file, we need to employ `font-variation-settings` use the `slnt` axis—see below.
+Switching italics on and off in this case is very easy because it essentially just swaps between the two files. When uprights and italics (or [obliques](/glossary/oblique)) are bundled within the same variable font file, we need to employ `font-variation-settings` and use the `slnt` axis—see below.
 
 ## Manipulating an additional axis
 
 It’s time to move onto our third axis: Width (`wdth`). In this font in particular, width wasn’t exposed until the release of this variable version, so it’s a great excuse to make use of variable fonts’ powers of further refinement. 
 
-Once again, the width axis has been mapped to familiar CSS: we can manipulate it using the `font-stretch` property. The only difference is that, unlike weight, we need to declare it as a percentage. Let’s give our `span` element the maximum width value of 150%:
+Once again, the Width axis has been mapped to familiar CSS: we can manipulate it using the `font-stretch` property. The only difference is that, unlike weight, we need to declare it as a percentage. Let’s give our `span` element the maximum width value of 150%:
 
 ```css
 span {
@@ -122,4 +122,4 @@ em {
 }
 ```
 
-`font-variation-settings` is also required for any custom axes. For more information, please see [“Styling type on the web with variable fonts.”](/lesson/styling_type_on_the_web_with_variable_fonts)
+Note that `font-variation-settings` is also required for any custom axes. For more information, please see [“Styling type on the web with variable fonts.”](/lesson/styling_type_on_the_web_with_variable_fonts)

@@ -29,3 +29,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-scheherazade"
   archive_url: "https://github.com/silnrsi/font-scheherazade/releases/download/v3.300/ScheherazadeNew-3.300.zip"
 }
+primary_script: "Arab"

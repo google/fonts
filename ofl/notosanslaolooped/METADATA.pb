@@ -31,3 +31,6 @@ source {
   archive_url: "https://github.com/notofonts/lao/releases/download/NotoSansLaoLooped-v1.001/NotoSansLaoLooped-v1.001.zip"
 }
 is_noto: true
+languages: "hnj_Laoo"  # Mong Njua
+languages: "kjg_Laoo"  # Khmu
+languages: "lo_Laoo"  # Lao

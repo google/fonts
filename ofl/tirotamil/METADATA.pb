@@ -29,3 +29,4 @@ source {
   repository_url: "https://github.com/TiroTypeworks/Indigo"
   commit: "98b5d3a01c534b7029af04a59d31e0d7d90be15a"
 }
+primary_script: "Taml"

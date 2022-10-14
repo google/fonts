@@ -3,33 +3,64 @@ First, let’s make sure we define legibility and readability. Both are measures
 Legibility is the measure of how distinguishable individual characters and words are to the eye of the reader. 
 Readability is the measure of how easy it is to read the text overall. 
 
-[FIGCAPTION: Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.]
+<figure>
+
+![ALT](images/thumbnail.svg)
+
+</figure>
+
+<figcaption>Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.</figcaption>
 Alt text: Two columns of text in red and black 
 
 Choosing accessible type
+
 Accessible typography considerations start with choosing type. Select typefaces that have legibility built into their designs. There is no single answer about which fonts are most accessible. There are some indications of what could make a typeface more accessible to some people. 
+
 The examples in this section are for languages using the Latin writing system. However, the same principles of choosing typefaces with distinct letterforms (the unique shape of a letter), numerals, punctuation marks, and symbols should apply to other writing systems. 
 
 The type designers who created Lexend and Atkinson Hyperlegible created these typefaces to be easier to read. Some popularly available fonts, such as Poppins, have proven to be readable with individuals who have cognitive disabilities.
+
 Checking readability
+
 Mirroring, or flipping, occurs when readers flip or mirror letters and numbers that are the same form when flipped horizontally. For example, a reader could mistake a lowercase letter “b” for a lowercase “d”. Instead of reading the word “bog,” the reader will think the word is “dog.” 
+
 A different and more pervasive issue among people with dyslexia and other reading difficulties is the transpositioning of letters. For example, a reader may mistake the word “lion” for “loin,” “line” or “lien.” Transposition is a common experience for people with dyslexia and other reading difficulties, and does not disappear with age. 
+
 To reduce the chances of a reader confusing letters, words and numbers, consider checking the following character pairs to make sure they are distinct enough from each other: qp db 0O nu il1I a8 a6 6g rn m.
+
 When selecting a typeface—especially a sans serif—it’s useful to assess the similarities or differences between the uppercase “L”, lowercase “l”, and numeral “1” characters because these letters and numbers look very similar. 
+
 Many shapes are simply mirrored without any further alteration. Lowercase “b,” “d,” “p,” and “q” are the most commonly confused letters. Subtle edits to the letterforms may help to differentiate them as the correct characters. 
 
-[FIGCAPTION: Left: Mirroring of letterforms is employed in Helvetica (top) and Public Sans (bottom). Right: The non-mirrored letterforms used in Andika (top) and Atkinson Hyperlegible (bottom) help the reader avoid confusion with potentially similar characters.]
+<figure>
+
+![ALT](images/accessibility_2.svg)
+
+</figure>
+
+<figcaption>Left: Mirroring of letterforms is employed in Helvetica (top) and Public Sans (bottom). Right: The non-mirrored letterforms used in Andika (top) and Atkinson Hyperlegible (bottom) help the reader avoid confusion with potentially similar characters.</figcaption>
 
 Alt text: b, d, q, and p characters set in different typefaces.
 
-[FIGCAPTION: Comparison of “b,” ”d,” “q,” “p,” “a,” “8,” “6,” “g,” “a,” “6,” “1,” “I,” and “l”
-in Roboto, Abyssinica SIL, Intern Tights, Open Sans, Noto Sans Mono, and Noto Sans Japanese.]
+<figure>
+
+![ALT](images/accessibility_3.svg)
+
+</figure>
+
+<figcaption>Comparison of “b,” ”d,” “q,” “p,” “a,” “8,” “6,” “g,” “a,” “6,” “1,” “I,” and “l” in Roboto, Abyssinica SIL, Intern Tights, Open Sans, Noto Sans Mono, and Noto Sans Japanese.</figcaption>
  
 Alt text: Google Fonts website screenshot with six boxes of glyphs
 
 Look for letters that can be clearly distinguished. For people with moderate to more severe vision impairment, the characters “o,” ”c,” “e,” or “a” can be easily confused, which in turn makes words harder to identify.
 
-[FIGCAPTION: From left to right: The typefaces Andika, Lexend, and Atkinson Hyperlegible show how effective they are in differentiating potentially confusing character combinations.]
+<figure>
+
+![ALT](images/accessibility_4.svg)
+
+</figure>
+
+<figcaption>From left to right: The typefaces Andika, Lexend, and Atkinson Hyperlegible show how effective they are in differentiating potentially confusing character combinations.</figcaption>
 Alt text: Three columns of r, n, m, i, !, I, l, o, c, 0, O, C, a, 8, 6, g, a, 6
 
 With our typeface(s) chosen, let’s move on to accessibility considerations for typesetting. The first place to start is to look at the structure of our content. For web typography, that means ensuring that the HTML is marked up with the most appropriate elements, headings have the right level (h1, h2, etc.), and that the hierarchy looks as expected with the default styles used by the browser before we dive into any bespoke CSS.
@@ -37,22 +68,38 @@ Semantically structured HTML is not only good general practice, but it also mean
 
 The HTML reflects the visual hierarchy by reading the content from the top left (Step 1) to the top right (Step 2), bottom left (Step 3) to bottom right (Step 4).
 
-[FIGCAPTION: Example code for displaying the images in a screen reader-friendly hierarchy]
+<figure>
 
-Alt text: Arrows showing zig-zag direction, HTML code:    
+![ALT](images/accessibility_5.svg)
+
+</figure>
+
+<figcaption> Example code for displaying the images in a screen reader-friendly hierarchy</figcaption>
+
+Alt text: Arrows showing zig-zag direction, HTML code:  
+
 For more information on hierarchy, read  Material Design Accessible Design Basics, Material Design Accessible Design to Implementation, W3C Headings, and the  Document Object Model (DOM) order matters articles.
+
 Color 
+
 Color contrast is important for users to distinguish various text and non-text elements. Higher contrast makes the imagery easier to see. Low-contrast images or text may be hard for some users to differentiate in bright or low light conditions, such as on a very sunny day or at night. 
 
 Contrast ratios represent how different one color is from another color, commonly written as 1:1 or 21:1. The contrast ratio between a color and its background ranges from 1-21 based on its luminance (the intensity of light emitted). The greater the difference is between the two numbers in the ratio, the greater the difference in relative luminance between the colors. As the absolute bare minimum, the W3C Web Content Accessibility Guidelines (WCAG) recommends the following contrast ratios for body and image text for an AA rating:
-Large text (at 14 pt bold/18 pt regular and up) and graphics: 3:1 against the background
-Small text: 4.5:1 against the background
+
+- Large text (at 14 pt bold/18 pt regular and up) and graphics: 3:1 against the background
+- Small text: 4.5:1 against the background
 
 The issue with color contrast can be complicated as some people with cognitive disabilities are sensitive to light and could experience eye fatigue or feel distracted when looking at high contrast text and images, such as black text on a white background at a 21:1 contrast ratio. A good middle ground is to aim for a 7:1 contrast ratio, the AAA rating for WCAG. 
 
 These lines of text follow the color contrast ratio recommendations and are legible against their background colors.
 
-[FIGCAPTION: The black text on the white background and the white text on the black background meet color contrast standards.]
+<figure>
+
+![ALT](images/accessibility_6.svg)
+
+</figure>
+
+<figcaption>The black text on the white background and the white text on the black background meet color contrast standards.</figcaption>
 
 Alt text: “The woodman set to work at once” text on two lines
 
@@ -64,18 +111,35 @@ For more info on color and contrast and color blindness, visit Material Design A
 Note that the concept of contrast discussed here is different to contrast in type design, which addresses the differences between the thickest and thinnest parts of strokes in a letterform.
 
 Text size and spacing
+
 Make sure your text isn’t too small. The exact dimensions of font sizes can vary depending on the unit used, the size of the viewport (if units are relative), and the pixel density of the device’s screen, but a safe bet would be to use 16px or 1em or 1rem as the smallest size for body type.
+
 Employ generous line heights (although not so generous as to detach lines from each other), and don’t allow measures (line lengths) to become too wide. 
+
 Mobile devices and browsers include features to allow users to adjust their font size system-wide. To enable system font size in an Android app, mark text and their associated containers to be measured in scalable pixels (sp). For iOS, Dynamic Type is the accessibility feature that enables app to adjust font size. Be sure to not hard set the line heights when coding text as dynamic and adjustable. Otherwise, a reader may choose a large text size but be unable to read it because the lines of content overlap. 
 
-[FIGCAPTION: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.]
+<figure>
+
+![ALT](images/accessibility_7.svg)
+
+</figure>
+
+<figcaption>A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.</figcaption>
 Alt text: Two columns of text 
 
 Ensure that there is sufficient space for large fonts and other writing systems. 
+
 Make sure that there is enough spacing between characters. Fonts have different widths. If a font looks too tightly packed, letters may appear to crowd or overlap one another resulting in letter confusion. Crowding occurs when too many letters are too close to each other. Some words may become too hard to read. Words may blur or seem to disappear. Increasing spacing for letters, words and lines may help to reduce, or alleviate, these effects.
+
 When selecting a font on Google Fonts, go to the Type Tester to try out different widths. See which one is most visually comfortable, reduces any sensation of eyestrain, and increases your overall reading satisfaction.
 
-[FIGCAPTION: TBC] Type Tester showing text with variable axes for weight, width, slant and ascender height. 
+<figure>
+
+![ALT](images/accessibility_8.svg)
+
+</figure>
+
+<figcaption>Type Tester showing text with variable axes for weight, width, slant and ascender height.</figcaption>
 
 Alt text: Three text samples in text area, variable axes controls
 
@@ -105,13 +169,13 @@ Online menus or price sheets that are images or PDF files of a restaurant menu o
 
 Resources: 
 
-A few resources to help understand fonts and their impact on readability in the cognitive space:
-British Dyslexia Association: A Dyslexia-friendly Style Guide 
-Reading Well: Dyslexia Fonts
-Hating Comic Sans is Ableist
-WebAIM: Customizable Text 
-APA Style, American Psychological Association: Accessible Typography 
-FS Me: 'The accessible type' (a font codesigned with individuals with cognitive disabilities)
-What’s in a Word? Font preferences
-What makes a typeface accessible 
-Material Design accessibility guidelines 
+- A few resources to help understand fonts and their impact on readability in the cognitive space:
+- British Dyslexia Association: A Dyslexia-friendly Style Guide 
+- Reading Well: Dyslexia Fonts
+- Hating Comic Sans is Ableist
+- WebAIM: Customizable Text 
+- APA Style, American Psychological Association: Accessible Typography 
+- FS Me: 'The accessible type' (a font codesigned with individuals with cognitive disabilities)
+- What’s in a Word? Font preferences
+- What makes a typeface accessible 
+- Material Design accessibility guidelines 

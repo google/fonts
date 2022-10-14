@@ -46,7 +46,7 @@ The very earliest roman typefaces still displayed some Gothic characteristics, b
 
 <figure>
 
-![ALT](images/GFKhistoftype1_jenson.svg)
+![ALT](images/GFKhistoftype1_jenson_new.svg)
 
 </figure>
 

@@ -20,7 +20,11 @@ In fact, as a species, we've been surprisingly unimaginative when it comes to ou
 
 Since the invention of writing in Mesopotamia more than 5000 years ago, there have only been maybe three other occasions in which a culture independently invented an alphabet on its own.
 
-![](images/figure-1.svg)
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
 
 **Article 1 - Figure 1 Caption: A montage of texts written in Sumerian, Egyptian, Chinese, and Meso-American [scripts](https://fonts.google.com/knowledge/glossary/script_writing_system), intended to show the our species' creativity and ingenuity in devising alphabets.]**
 

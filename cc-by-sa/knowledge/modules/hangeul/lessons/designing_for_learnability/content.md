@@ -24,6 +24,12 @@ One of the first things a person might notice about Hangeul is how [geometricall
 
 In crafting the 28 basic letters of the alphabet (many of which are preserved in the 24 letters of today's Korean alphabet), King Sejong made extensive use of consistent-weight, straight lines, parallel lines, right angles, and circles, emphasizing a natural box-like uniformity that anticipates modern-day [monospacing](https://fonts.google.com/knowledge/glossary/monospaced) principles.
 
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
+
 **[Article 2 - Figure 1 Caption: An example of 28 different Hangeul letters, similar in appearance to what they would have looked like when originally created.]**
 
 **[Article 2 - Figure 1 Alt-Text: 28 different Hangeul letters]**
@@ -44,6 +50,12 @@ In essence, the majority of the alphabet's consonant letters are complex, consis
 
 The vowel letters, on the other hand, are simpler, consisting of a single vertical or horizontal line, complemented with one or two dots placed together on either side of the line (not [diacritics](https://fonts.google.com/knowledge/glossary/diacritic_accent_marks), but somewhat similar in concept).
 
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
+
 **[Article 2 - Figure 2 Caption: Examples of Korean Consonant and Vowel letters illustrating visual distinction.]**
 
 **[Article 2 - Figure 2 Alt-Text:Some Korean Consonant and Vowel letters]**
@@ -61,6 +73,12 @@ While focusing on simplistic geometric letter designs for Hangeul, King Sejong w
 According to some scholars, he seems to have rejected several candidates that would have otherwise fit perfectly well into the geometric aesthetic of Hangeul, but that could have been easily confused by learners (Lee, 2021).
 
 In particular, he avoided letters that were vertical or horizontal mirror images of each other.
+
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
 
 **[Article 2 - Figure 3 Caption: Top row showing existing Hangeul letters; bottom row showing mirrored versions that were rejected.]**
 

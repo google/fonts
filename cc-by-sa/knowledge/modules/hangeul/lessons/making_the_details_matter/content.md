@@ -22,6 +22,12 @@ But again, by modern UX standards, it's not hard to see why most alphabets fall 
 
 For example, in a [recent study](https://psycnet.apa.org/record/2018-13691-001) involving college students at a well-known American university, less than 30% of participants could correctly identify the [lowercase](https://fonts.google.com/knowledge/glossary/uppercase_lowercase) "looptail" letter *G* ([g]{style="font-family:\"Times New Roman\";"}) when it was presented in a set that included three other incorrect versions. (Note that the letter *G* has two distinct lowercase allographs, or, in the context of type, [alternates](https://fonts.google.com/knowledge/glossary/alternates): g\|[g]{style="font-family:\"Times New Roman\";"})
 
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
+
 **[Article 3 - Figure 1 Caption: Example of a stimulus used in an experiment, showing a lowercase looptail letter *G* ([g]{style="font-family:\"Times New Roman\";"}), along with three additional incorrect versions in which various parts of the correct letter are subtly transformed.]**
 
 **[Article 3 - Figure 1 Alt-Text: Correct and incorrect versions of a lowercase looptail letter *G.*]**
@@ -36,6 +42,12 @@ One of the most innovative design properties of Hangeul is that it provides its 
 
 That is, the shapes of the consonant letters were designed to work as iconic representations of the major speech organs involved in producing their corresponding sounds, including the lips, tongue, and teeth.
 
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
+
 **[Article 3 - Figure 2 Caption: Five letters from the Korean alphabet superimposed over line drawings of human speech organs, with each letter corresponding to a different speech organ. Below each letter, the approximate sound in English is given.]**
 
 **[Article 3 - Figure 2 Alt-Text: Korean letters and their relevant speech organs]**
@@ -49,6 +61,12 @@ Within this framework, it might be argued that Hangeul uses a visual reminder of
 ## Building Off of a Base
 
 King Sejong's approach of mapping important speech details to visual details didn't stop at modeling letters after speech organs; rather, Hangeul incorporates a principle in which sounds that share similar vocalization properties are modeled on a common base letter.
+
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
 
 **[Article 3 - Figure 3 Caption: The Korean letters corresponding to the English sounds "N", "D", and "T". The *N* letter is considered the base shape, and the *D* and *T* letters add one and two lines respectively to the base.]**
 

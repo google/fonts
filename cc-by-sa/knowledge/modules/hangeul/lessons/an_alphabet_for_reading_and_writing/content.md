@@ -18,6 +18,12 @@ When considering how the letters of Hangeul should be combined, King Sejong ulti
 
 To offer an oversimplified explanation: A typical syllable block contains a consonant letter placed at the top-left of the block, followed by a vowel letter placed directly to the right or below it, which is followed (where needed) by another consonant letter placed at the bottom of the block.
 
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
+
 **[Article 4 - Figure 1 Caption: An example of the English sentence, *The puppy is soft*, using a syllable-block approach.]**
 
 **[Article 4 - Figure 1 Alt-Text: An English sentence using syllable blocks]**
@@ -38,6 +44,12 @@ Among other potential advantages, Hangeul's syllable blocks therefore provide re
 
 For writers, King Sejong was no less innovative in incorporating usability into his designs.
 
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
+
 **[Article 4 - Figure 2 Caption: Three Korean words of 2, 3, and 4 syllables shown with their corresponding English translations, each with 10 letters but with varying syllable lengths.]**
 
 **[Article 4 - Figure 2 Alt-Text: Three Korean words with English translations.]**
@@ -51,6 +63,12 @@ Throughout history, available technologies have directly influenced how alphabet
 During King Sejong's lifetime, writers followed in the Chinese tradition of using brush, ink, and paper. With the use of these tools as a natural constraint, King Sejong appears to have considered the relationship between the effort required to produce a brush stroke, and the frequency of the letter being written.
 
 Specifically, he designed Hangeul so that the most frequent vowel sounds are produced using a vertical stroke, while less frequent vowel sounds are produced using a horizontal stroke.
+
+<figure>
+
+![ALT](images/INSERT.svg)
+
+</figure>
 
 **[Article 4 - Figure 3 Caption: Three high-frequency Korean vowels constructed from vertical lines are contrasted with three low-frequency vowels constructed from horizontal lines.]**
 

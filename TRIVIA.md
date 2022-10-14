@@ -37,6 +37,15 @@ They are no longer listed in the [fonts.google.com](https://fonts.google.com) ca
 | `balootamma`             | `balootamma2`            | expanded |
 | `balootammudu`           | `balootammudu2`          | expanded |
 | `baloothambi`            | `baloothambi2`           | expanded |
+| `bevietnam`              | `bevietnampro`           | expanded |
+| `spartan`                | `leaguespartan`          | expanded |
+| `scheherazade`           | `scheherazadenew`        | expanded |
+| `kdamthmor`              | `kdamthmorpro`           | expanded |
+| `andikanewbasic          | `andika`                 | expanded |
+| `gentiumbasic`           | `gentiumplus`            | expanded |
+| `andada`                 | `andadapro`              | expanded |
+| `muli`                   | `mulish`                 | expanded |
+
 
 ## Missing METADATA.pb files
 

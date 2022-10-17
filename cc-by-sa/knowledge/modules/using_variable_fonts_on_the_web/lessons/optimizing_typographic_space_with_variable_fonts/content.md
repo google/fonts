@@ -1,6 +1,6 @@
 # Optimizing typographic space with variable fonts
 
-In addition to their [technical benefits](#), variable fonts offer much more flexibility for typesetting in both printed and digital media. This flexibility is especially beneficial in the context of responsive design where the presentation of content adapts to different formats and contexts.
+In addition to their [technical benefits](https://fonts.google.com/knowledge/), variable fonts offer much more flexibility for typesetting in both printed and digital media. This flexibility is especially beneficial in the context of responsive design where the presentation of content adapts to different formats and contexts.
 
 The most common considerations for designing a responsive composition are tied to the availability of space. When space is limited (e.g. on small screens), the content’s presentation must be optimized accordingly—line lengths are constrained, whitespace is minimized, and the potential contrast in size between small and large elements is reduced. In these situations, even very small changes in formatting can provide significant improvements in readability and visual hierarchy.
 
@@ -24,7 +24,7 @@ A smoother and more seamless approach is to reduce the reliance on such queries,
 <figcaption>INSERT_CAPTION</figcaption>
 [Figure 2: Demo similar to Figure 1 but relies more on `%`, `vw`, `calc(`), etc.]
 
-Variable fonts allow for seamless adaptation to extend even further down to the lowest-level details in the typeface. Typographic glyphs that would otherwise be fixed in [static fonts](#) can now fluidly morph to better fit their containers.
+Variable fonts allow for seamless adaptation to extend even further down to the lowest-level details in the typeface. Typographic glyphs that would otherwise be fixed in [static fonts](https://fonts.google.com/knowledge/) can now fluidly morph to better fit their containers.
 
 ## Width
 

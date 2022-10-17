@@ -2,7 +2,7 @@
 
 Throughout his lifetime (1397–1450), King Sejong the Great of Korea was both passionate and vocal about his conviction that every person, regardless of their position in society, should have the opportunity to become literate.
 
-Because he understood the usability limitations of existing [alphabets](../introduction_to_hangeul.md#a-note-about-terminology), he saw an opportunity to completely re-imagine how a writing system could work.
+Because he understood the usability limitations of existing [alphabets](/glossary/alphabet), he saw an opportunity to completely re-imagine how a writing system could work.
 
 Specifically, in designing Hangeul, he broke from thousands of years of tradition by purposefully creating an alphabet that was easy to learn, easy to read, and easy to write---and he defied the strict societal norms of his day by using his creation to help common citizens become literate.
 
@@ -12,7 +12,7 @@ The story of King Sejong and the creation of the Korean alphabet surely offers s
 
 The first lesson for human-centered design is to be principled and predictable.
 
-What is clear from an examination of Hangeul is that King Sejong had a firm grasp on the principles he wanted to employ for his alphabet, and he consistently incorporated these principles into his designs---for example, using different visual treatments to help differentiate consonant [letters](../introduction_to_hangeul.md#a-note-about-terminology) from vowel letters.
+What is clear from an examination of Hangeul is that King Sejong had a firm grasp on the principles he wanted to employ for his alphabet, and he consistently incorporated these principles into his designs---for example, using different visual treatments to help differentiate consonant [letters](/glossary/letters) from vowel letters.
 
 When learning a new technology, there may be nothing less helpful than arbitrary design; on the other hand, good design affords us the benefit of predictability, and good design is (almost!) always principled.
 

@@ -1,6 +1,6 @@
 # Making the Details Matter
 
-King Sejong the Great began designing a new [alphabet](../introduction_to_hangeul.md#a-note-about-terminology) for the Korean language in the mid-15th century in the hopes of bringing literacy to common citizens.
+King Sejong the Great began designing a new [alphabet](/glossary/alphabet) for the Korean language in the mid-15th century in the hopes of bringing literacy to common citizens.
 
 Although he was inspired by the design of Chinese, Tibetan Phags-Pa, and other alphabets, he understood that learning any alphabet is inherently difficult, and that to realize his goal, he would need to create a system that was radically different from all the others.
 
@@ -8,7 +8,7 @@ Looking through a modern-day User Experience (UX) lens, we can say that King Sej
 
 ## Attention to the Details
 
-Being an alphabet designer is similar in some respects to being a [type designer](https://fonts.google.com/knowledge/glossary/type_designer) or [typographer](https://fonts.google.com/knowledge/glossary/typographer) in that much of the job means focusing on all the small details that define [letters](../introduction_to_hangeul.md#a-note-about-terminology), both as individual units and as members of a set.
+Being an alphabet designer is similar in some respects to being a [type designer](https://fonts.google.com/knowledge/glossary/type_designer) or [typographer](https://fonts.google.com/knowledge/glossary/typographer) in that much of the job means focusing on all the small details that define [letters](/glossary/letters), both as individual units and as members of a set.
 
 But there's an important distinction.
 

@@ -1,6 +1,6 @@
 # Lessons from Hangeul
 
-Throughout his lifetime (1397---1450), King Sejong the Great of Korea was both passionate and vocal about his conviction that every person, regardless of their position in society, should have the opportunity to become literate.
+Throughout his lifetime (1397–1450), King Sejong the Great of Korea was both passionate and vocal about his conviction that every person, regardless of their position in society, should have the opportunity to become literate.
 
 Because he understood the usability limitations of existing [alphabets](../introduction_to_hangeul.md#a-note-about-terminology), he saw an opportunity to completely re-imagine how a writing system could work.
 

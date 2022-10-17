@@ -4,7 +4,7 @@
 <DesignAxisRecord>
   <Axis index="0">
     <AxisTag value="wght"/>
-    <AxisNameID value="466"/>  <!-- Weight -->
+    <AxisNameID value="256"/>  <!-- Weight -->
     <AxisOrdering value="0"/>
   </Axis>
   <Axis index="1">
@@ -51,7 +51,7 @@
   <AxisValue index="3" Format="3">
     <AxisIndex value="0"/>
     <Flags value="2"/>  <!-- ElidableAxisValueName -->
-    <ValueNameID value="260"/>  <!-- Regular -->
+    <ValueNameID value="2"/>  <!-- Regular -->
     <Value value="400.0"/>
     <LinkedValue value="700.0"/>
   </AxisValue>
@@ -106,4 +106,4 @@
     <LinkedValue value="1.0"/>
   </AxisValue>
 </AxisValueArray>
-<ElidedFallbackNameID value="2"/>  <!-- missing from name table -->
+<ElidedFallbackNameID value="2"/>  <!-- Regular -->

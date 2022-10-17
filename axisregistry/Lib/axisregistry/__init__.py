@@ -176,18 +176,24 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     fvar = ttFont["fvar"]
 
     # rm old STAT table and associated name table records
-    fvar_nameids = set(i.subfamilyNameID for i in fvar.instances)
+    fvar_instance_nameids = set(i.subfamilyNameID for i in fvar.instances)
+    fvar_axis_nameids = set(a.axisNameID for a in fvar.axes)
+    fvar_nameids = fvar_axis_nameids | fvar_instance_nameids
+    # These NameIDs are required for applications to work correctly so
+    # they cannot be deleted.
+    # https://learn.microsoft.com/en-us/typography/opentype/spec/name
+    keep_nameids = set(range(26)) | fvar_nameids
     if "STAT" in ttFont:
         stat = ttFont["STAT"]
         if stat.table.AxisValueCount > 0:
             axis_values = stat.table.AxisValueArray.AxisValue
             for ax in axis_values:
-                if ax.ValueNameID not in fvar_nameids:
+                if ax.ValueNameID not in keep_nameids:
                     nametable.removeNames(nameID=ax.ValueNameID)
         if stat.table.DesignAxisCount > 0:
             axes = stat.table.DesignAxisRecord.Axis
             for ax in axes:
-                if ax.AxisNameID not in fvar_nameids:
+                if ax.AxisNameID not in keep_nameids:
                     nametable.removeNames(nameID=ax.AxisNameID)
         del ttFont["STAT"]
 

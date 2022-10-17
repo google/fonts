@@ -5,12 +5,8 @@ default_value: 0.0
 max_value: 100.0
 precision: -1
 fallback {
-  name: "Normal"
+  name: "Default"
   value: 0.0
-}
-fallback {
-  name: "Flair"
-  value: 100.0
 }
 fallback_only: false
 description: 

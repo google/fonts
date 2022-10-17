@@ -1,5 +1,3 @@
-# An Alphabet for Reading and Writing
-
 Korea during the reign of King Sejong (1418---1450 CE) was similar to nearly all other literate societies throughout history in that learning and using an [alphabet](/glossary/alphabet) was a privilege reserved for relatively few people.
 
 As a consequence, alphabets have rarely been designed or optimized to make reading and writing easier.

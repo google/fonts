@@ -1,5 +1,3 @@
-# Introduction to Hangeul, the Korean Alphabet
-
 In most societies throughout history, the ability to read and write was an exclusive privilege of the elite, who wielded literacy as an "instrument of social control" over the non-literate population of common people (Coulmas, 1989).
 
 In the mid-15th century, King Sejong the Great of Korea publicly expressed his distress with this imbalance of power, recognizing that, without literacy, the majority of his country's citizens had no way to advocate for themselves.

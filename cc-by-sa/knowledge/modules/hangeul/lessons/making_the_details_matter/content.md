@@ -1,5 +1,3 @@
-# Making the Details Matter
-
 King Sejong the Great began designing a new [alphabet](/glossary/alphabet) for the Korean language in the mid-15th century in the hopes of bringing literacy to common citizens.
 
 Although he was inspired by the design of Chinese, Tibetan Phags-Pa, and other alphabets, he understood that learning any alphabet is inherently difficult, and that to realize his goal, he would need to create a system that was radically different from all the others.

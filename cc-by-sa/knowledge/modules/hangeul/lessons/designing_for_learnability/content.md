@@ -26,13 +26,10 @@ In crafting the 28 basic letters of the alphabet (many of which are preserved in
 
 <figure>
 
-![ALT](images/INSERT.svg)
+![28 different Hangeul letters.](images/hangeul_2_fig_1.svg)
 
 </figure>
-
-**[Article 2 - Figure 1 Caption: An example of 28 different Hangeul letters, similar in appearance to what they would have looked like when originally created.]**
-
-**[Article 2 - Figure 1 Alt-Text: 28 different Hangeul letters]**
+<figcaption>An example of 28 different Hangeul letters, similar in appearance to what they would have looked like when originally created.</figcaption>
 
 Geometry certainly isn't a requirement for letter design, and it's fair to say that humankind has produced alphabets that are aesthetically marvelous.
 
@@ -52,13 +49,10 @@ The vowel letters, on the other hand, are simpler, consisting of a single vertic
 
 <figure>
 
-![ALT](images/INSERT.svg)
+![Some Korean Consonant and Vowel letters.](images/hangeul_2_fig_1.svg)
 
 </figure>
-
-**[Article 2 - Figure 2 Caption: Examples of Korean Consonant and Vowel letters illustrating visual distinction.]**
-
-**[Article 2 - Figure 2 Alt-Text:Some Korean Consonant and Vowel letters]**
+<figcaption>Examples of Korean Consonant and Vowel letters illustrating visual distinction.</figcaption>
 
 This visual treatment has the effect of signaling differences between the groups of vowel and consonant letters.
 
@@ -76,13 +70,10 @@ In particular, he avoided letters that were vertical or horizontal mirror images
 
 <figure>
 
-![ALT](images/INSERT.svg)
+![Example of existing and rejected letters.](images/thumbnail.svg)
 
 </figure>
-
-**[Article 2 - Figure 3 Caption: Top row showing existing Hangeul letters; bottom row showing mirrored versions that were rejected.]**
-
-**[Article 2 - Figure 3 Alt-Text: Example of existing and rejected letters]**
+<figcaption>Top row showing existing Hangeul letters; bottom row showing mirrored versions that were rejected.</figcaption>
 
 People who have learned the English alphabet might not be surprised to discover that among the most commonly confused letters are those that seem to be mirrored copies, including the [lowercase](https://fonts.google.com/knowledge/glossary/uppercase_lowercase) letters *d*, *b*, *p*, and *q* (Ehri & Roberts, 2006).
 

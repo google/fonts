@@ -24,13 +24,10 @@ For example, in a [recent study](https://psycnet.apa.org/record/2018-13691-001) 
 
 <figure>
 
-![ALT](images/INSERT.svg)
+![Correct and incorrect versions of a lowercase looptail letter G.](images/hangeul_3_fig_1.svg)
 
 </figure>
-
-**[Article 3 - Figure 1 Caption: Example of a stimulus used in an experiment, showing a lowercase looptail letter *G* ([g]{style="font-family:\"Times New Roman\";"}), along with three additional incorrect versions in which various parts of the correct letter are subtly transformed.]**
-
-**[Article 3 - Figure 1 Alt-Text: Correct and incorrect versions of a lowercase looptail letter *G.*]**
+<figcaption>Example of a stimulus used in an experiment, showing a lowercase looptail letter *G* ([g]{style="font-family:\"Times New Roman\";"}), along with three additional incorrect versions in which various parts of the correct letter are subtly transformed.</figcaption>
 
 Although people routinely encounter (and successfully use) the letters and letter variants of their alphabet, this study highlights an important point: When you're learning an alphabet, there are lots of details to keep track of, but they don't always matter in meaningful ways.
 
@@ -44,13 +41,10 @@ That is, the shapes of the consonant letters were designed to work as iconic rep
 
 <figure>
 
-![ALT](images/INSERT.svg)
+![Korean letters and their relevant speech organs.](images/hangeul_3_fig_2.svg)
 
 </figure>
-
-**[Article 3 - Figure 2 Caption: Five letters from the Korean alphabet superimposed over line drawings of human speech organs, with each letter corresponding to a different speech organ. Below each letter, the approximate sound in English is given.]**
-
-**[Article 3 - Figure 2 Alt-Text: Korean letters and their relevant speech organs]**
+<figcaption>Five letters from the Korean alphabet superimposed over line drawings of human speech organs, with each letter corresponding to a different speech organ. Below each letter, the approximate sound in English is given.</figcaption>
 
 Although people are unlikely to reference this blueprint once they've become proficient in the alphabet, to the learner, it could be quite beneficial.
 
@@ -64,13 +58,10 @@ King Sejong's approach of mapping important speech details to visual details did
 
 <figure>
 
-![ALT](images/INSERT.svg)
+![Three Korean letter from one base letter.](images/thumbnail.svg)
 
 </figure>
-
-**[Article 3 - Figure 3 Caption: The Korean letters corresponding to the English sounds "N", "D", and "T". The *N* letter is considered the base shape, and the *D* and *T* letters add one and two lines respectively to the base.]**
-
-**[Article 3 - Figure 3 Alt-Text: Three Korean letter from one base letter]**
+<figcaption>The Korean letters corresponding to the English sounds "N", "D", and "T". The *N* letter is considered the base shape, and the *D* and *T* letters add one and two lines respectively to the base.</figcaption>
 
 For example, if you focus on what's happening in your mouth as you pronounce the "N" sound (i.e., as though you were slowly saying the word *Nice*), you'll notice that you're making a continuous vibration while your tongue is placed somewhere behind the top row of teeth.
 

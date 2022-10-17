@@ -49,7 +49,7 @@ The vowel letters, on the other hand, are simpler, consisting of a single vertic
 
 <figure>
 
-![Some Korean Consonant and Vowel letters.](images/hangeul_2_fig_1.svg)
+![Some Korean Consonant and Vowel letters.](images/hangeul_2_fig_2.svg)
 
 </figure>
 <figcaption>Examples of Korean Consonant and Vowel letters illustrating visual distinction.</figcaption>

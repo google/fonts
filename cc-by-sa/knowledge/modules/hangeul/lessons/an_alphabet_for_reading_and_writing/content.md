@@ -20,13 +20,10 @@ To offer an oversimplified explanation: A typical syllable block contains a cons
 
 <figure>
 
-![ALT](images/INSERT.svg)
+![An English sentence using syllable blocks.](images/hangeul_4_fig_1.svg)
 
 </figure>
-
-**[Article 4 - Figure 1 Caption: An example of the English sentence, *The puppy is soft*, using a syllable-block approach.]**
-
-**[Article 4 - Figure 1 Alt-Text: An English sentence using syllable blocks]**
+<figcaption>An example of the English sentence, *The puppy is soft*, using a syllable-block approach.</figcaption>
 
 The use of syllable blocks has several benefits for the reader.
 
@@ -46,13 +43,10 @@ For writers, King Sejong was no less innovative in incorporating usability into 
 
 <figure>
 
-![ALT](images/INSERT.svg)
+![Three Korean words with English translations.](images/thumbnail.svg)
 
 </figure>
-
-**[Article 4 - Figure 2 Caption: Three Korean words of 2, 3, and 4 syllables shown with their corresponding English translations, each with 10 letters but with varying syllable lengths.]**
-
-**[Article 4 - Figure 2 Alt-Text: Three Korean words with English translations.]**
+<figcaption>Three Korean words of 2, 3, and 4 syllables shown with their corresponding English translations, each with 10 letters but with varying syllable lengths.</figcaption>
 
 ## Efficiency for Writers
 
@@ -66,13 +60,10 @@ Specifically, he designed Hangeul so that the most frequent vowel sounds are pro
 
 <figure>
 
-![ALT](images/INSERT.svg)
+![Vertical and horizontal Korean letters.](images/hangeul_4_fig_3.svg)
 
 </figure>
-
-**[Article 4 - Figure 3 Caption: Three high-frequency Korean vowels constructed from vertical lines are contrasted with three low-frequency vowels constructed from horizontal lines.]**
-
-**[Article 4 - Figure 3 Alt-Text: Vertical and horizontal Korean letters]**
+<figcaption>Three high-frequency Korean vowels constructed from vertical lines are contrasted with three low-frequency vowels constructed from horizontal lines.</figcaption>
 
 According to some scholars (e.g., Lee, q997), because it's easier to move our fingers vertically than horizontally (whether using a brush or other similar instrument), less effort is required when producing vertical versus horizontal strokes.
 

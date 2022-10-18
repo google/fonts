@@ -38,8 +38,6 @@ p {
 
 </figure>
 
-[FRO: see also https://codepen.io/elliotjaystocks/pen/xxjNgrv]
-
 The number 3 here is the index ID of the fifth (numbering starts at 0) color palette provided by the font itself.
 Of course, if we wish to use colors not defined by the type designer in the base palettes, we can completely customize them ourselves using the [`override-colors`](https://caniuse.com/mdn-css_at-rules_font-palette-values_override-colors) property:
 

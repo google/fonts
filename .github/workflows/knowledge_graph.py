@@ -9,7 +9,7 @@ import sys
 from typing import Callable, Iterable, List, Mapping, Set, Union
 
 
-MAX_IMAGE_SIZE_KB = 900
+MAX_IMAGE_SIZE_KB = 800
 
 
 def _topic_target_to_path(_: Set[str], target: str) -> str:
@@ -147,7 +147,7 @@ def main(_):
         if not has_view_box and not has_width_and_height:
           print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge_dir))
           return_code = 1
-      if image_file.stat().st_size > MAX_IMAGE_SIZE_KB * 1024:
+      if image_file.suffix != ".svg" and image_file.stat().st_size > MAX_IMAGE_SIZE_KB * 1024:
         print("File exceeds max size of %s KB:" % MAX_IMAGE_SIZE_KB, image_file.relative_to(knowledge_dir))
         return_code = 1
 

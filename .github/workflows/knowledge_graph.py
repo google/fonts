@@ -9,7 +9,7 @@ import sys
 from typing import Callable, Iterable, List, Mapping, Set, Union
 
 
-MAX_IMAGE_SIZE_KB = 750
+MAX_IMAGE_SIZE_KB = 900
 
 
 def _topic_target_to_path(_: Set[str], target: str) -> str:

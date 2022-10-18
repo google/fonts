@@ -8,9 +8,9 @@ In designing Hangeul, however, King Sejong found several opportunities to improv
 
 Alphabets can differ not only in terms of the designs and functions of individual [letters](/glossary/letters), but also in terms of how the letters are combined to capture human speech.
 
-For example, as you're reading this sentence in English, you'll recognize that the letters are placed one after another, with [spaces](https://fonts.google.com/knowledge/glossary/spaces) and punctuation used to demarcate word boundaries.
+For example, as you're reading this sentence in English, you'll recognize that the letters are placed one after another, with [spaces](/glossary/spaces) and punctuation used to demarcate word boundaries.
 
-While these [orthogrpahic](https://fonts.google.com/knowledge/glossary/script_writing_system) conventions may seem intuitive for those who are literate in English, other alphabets use a variety of approaches when cominbing letters into larger units.
+While these [orthogrpahic](/glossary/script_writing_system) conventions may seem intuitive for those who are literate in English, other alphabets use a variety of approaches when cominbing letters into larger units.
 
 When considering how the letters of Hangeul should be combined, King Sejong ultimately decided that they should be assembled into syllable blocks, with one block equal to one syllable for any word.
 

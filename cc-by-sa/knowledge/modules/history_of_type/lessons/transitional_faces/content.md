@@ -8,7 +8,7 @@ In 1692, during the reign of Louis XIV, the French Royal Academy of Sciences  co
 
 <figure>
 
-![ALT](images/GFKhistoftype3.svg)
+![INSERT_ALT](images/GFKhistoftype3.svg)
 
 </figure>
 
@@ -18,7 +18,7 @@ When we say ‘rational’ or ‘rationalized’ with regard to type design, we 
 
 <figure>
 
-![ALT](images/GFKhistoftype3_bracketedserifs.svg)
+![INSERT_ALT](images/GFKhistoftype3_bracketedserifs.svg)
 
 </figure>
 
@@ -34,7 +34,7 @@ In the eighteenth century, two other type designers appeared who would leave a l
 
 <figure>
 
-![ALT](images/GFKmetaltype3_romananditalicofwilliamcaslon.svg)
+![INSERT_ALT](images/GFKmetaltype3_romananditalicofwilliamcaslon.svg)
 
 </figure>
 
@@ -44,7 +44,7 @@ After making his fortune in japanning (varnished lacquerware), John Baskerville,
 
 <figure>
 
-![ALT](images/GFKhistoftype3_baskerville.svg)
+![INSERT_ALT](images/GFKhistoftype3_baskerville.svg)
 
 </figure>
 
@@ -54,7 +54,7 @@ Typically, rougher paper requires more pressure from the printing press to ensur
 
 <figure>
 
-![ALT](images/GFKhistoftype3_evolutionofstress.svg)
+![INSERT_ALT](images/GFKhistoftype3_evolutionofstress.svg)
 
 </figure>
 

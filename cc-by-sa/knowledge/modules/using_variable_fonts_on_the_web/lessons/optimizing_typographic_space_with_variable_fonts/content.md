@@ -1,6 +1,4 @@
-# Optimizing typographic space with variable fonts
-
-In addition to their [technical benefits](https://fonts.google.com/knowledge/), variable fonts offer much more flexibility for typesetting in both printed and digital media. This flexibility is especially beneficial in the context of responsive design where the presentation of content adapts to different formats and contexts.
+In addition to their [technical benefits](/lesson/web_font_comparisons_variable_vs_static), variable fonts offer much more flexibility for typesetting in both printed and digital media. This flexibility is especially beneficial in the context of responsive design where the presentation of content adapts to different formats and contexts.
 
 The most common considerations for designing a responsive composition are tied to the availability of space. When space is limited (e.g. on small screens), the content’s presentation must be optimized accordingly—line lengths are constrained, whitespace is minimized, and the potential contrast in size between small and large elements is reduced. In these situations, even very small changes in formatting can provide significant improvements in readability and visual hierarchy.
 
@@ -8,45 +6,41 @@ Higher-level properties like `font-size`, `width`, `padding`, and `line-height` 
 
 <figure>
 
-![INSERT_ALT](images/INSERT_SVG.svg)
+![INSERT_ALT](images/3_1.gif)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
-[Figure 1: Demo of responsive headline + paragraph using media queries.]
+<figcaption>Static fonts with a layout breakpoint: A single breakpoint changes padding, font sizes, and line-height.</figcaption>
 
 A smoother and more seamless approach is to reduce the reliance on such queries, and instead try to make use of relative values that scale fluidly.
 
 <figure>
 
-![INSERT_ALT](images/INSERT_SVG.svg)
+![INSERT_ALT](images/3_2.gif)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
-[Figure 2: Demo similar to Figure 1 but relies more on `%`, `vw`, `calc(`), etc.]
+<figcaption>Static fonts with intrinsic layout: The widths of the fonts remain fixed, but padding, font sizes, and line-heights change more smoothly with relative units.</figcaption>
 
-Variable fonts allow for seamless adaptation to extend even further down to the lowest-level details in the typeface. Typographic glyphs that would otherwise be fixed in [static fonts](https://fonts.google.com/knowledge/) can now fluidly morph to better fit their containers.
+Variable fonts allow for seamless adaptation to extend even further down to the lowest-level details in the typeface. Typographic glyphs that would otherwise be fixed in traditional static fonts can now fluidly morph to better fit their containers.
 
 ## Width
 
-The most obvious approach for optimizing a typeface’s spatial proportions is tied to a fairly common design axis in variable fonts: Width. Even small changes in the width of a typeface can allow for more characters per line, and thus more words per line and more even line breaks—especially when dealing with narrow [line lengths](https://fonts.google.com/knowledge/glossary/measure_line_length).
+The most obvious approach for optimizing a typeface’s spatial proportions is tied to a fairly common design axis in variable fonts: Width. Even small changes in the width of a typeface can allow for more characters per line, and thus more words per line and more even line breaks—especially when dealing with narrow [line lengths](/glossary/measure_line_length).
 
 <figure>
 
-![INSERT_ALT](images/INSERT_SVG.svg)
+![INSERT_ALT](images/3_3.gif)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
-[Figure 3: Illustration showing how even small changes in width can result in significant improvements.]
+<figcaption>Breakpoint for static fonts with intrinsic layout: Now the font widths also change, but only at a single breakpoint.</figcaption>
 
 Static typeface families that offer multiple widths sometimes have large differences between one width and the next, but variable fonts allow for intermediate variants so adjustments can be more fine-tuned and subtle.
 
 <figure>
 
-![INSERT_ALT](images/INSERT_SVG.svg)
+![INSERT_ALT](images/3_4.gif)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
-[Figure 4: Build on previous demos by responsively adjusting font widths.]
+<figcaption>Gradual variable font changes with intrinsic layout: Everything changes smoothly thanks to relative units and the fine-tuning flexibility of variable fonts.</figcaption>
 
 (As of October 2022, the lack of support for [interpolated values and unit division](https://css.oddbird.net/rwd/interpolation/) in CSS means smooth control over variable font width still requires either a series of closely-spaced breakpoints to adjust the font variations incrementally, or a dash of JavaScript to help set font width values seamlessly with a single intrinsic formula. Tools like [Typetura](https://typetura.com) can be helpful for this kind of intrinsic control.)
 
@@ -54,11 +48,10 @@ Special care should be taken when adjusting the width of a typeface, particularl
 
 <figure>
 
-![INSERT_ALT](images/INSERT_SVG.svg)
+![INSERT_ALT](images/3_5.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
-[Figure 5: Illustration showing the upper and lower limits of acceptable widths for body text.]
+<figcaption>Avoid extremely narrow or wide font variants for paragraph text, as they can harm readability when typesetting anything more than a few words at a time.</figcaption>
 
 ## Line-filling
 
@@ -66,23 +59,21 @@ Speaking of width, variable fonts with adjustable widths can be used to make dif
 
 <figure>
 
-![INSERT_ALT](images/INSERT_SVG.svg)
+![INSERT_ALT](images/3_6.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
-[Figure 6: Illustration of different-length words filling the same width at the same size.]
+<figcaption>Variable fonts can be automatically condensed or expanded to fit different pieces of text on the same line length without changing the font size or resorting to synthetic squooshing.</figcaption>
 
 ## Extenders
 
-Another approach for optimizing the spatial efficiency of a typeface is related to the clearance needed for minimal [line space](https://fonts.google.com/knowledge/glossary/line_height_leading). This is typically limited by the distance the [cap height](https://fonts.google.com/knowledge/glossary/cap_height) and [ascenders/descenders](https://fonts.google.com/knowledge/glossary/ascenders_descenders) extend beyond the bounds of the [x-height](https://fonts.google.com/knowledge/glossary/x_height). Shorter extenders allow for a smaller line space by preventing glyphs from colliding between lines.
+Another approach for optimizing the spatial efficiency of a typeface is related to the clearance needed for minimal [line space](/glossary/line_height_leading). This is typically limited by the distance the [cap height](/glossary/cap_height) and [ascenders/descenders](/glossary/ascenders_descenders) extend beyond the bounds of the [x-height](/glossary/x_height). Shorter extenders allow for a smaller line space by preventing glyphs from colliding between lines.
 
 <figure>
 
-![INSERT_ALT](images/INSERT_SVG.svg)
+![INSERT_ALT](images/3_7.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
-[Figure 7: Illustration showing how smaller extenders avoid inter-line crashes.]
+<figcaption>Fonts with retractable ascenders and descenders can be used to avoid collisions for tight line spacing.</figcaption>
 
 Some typefaces address this by simply minimizing the length of extenders across the board. It may look slightly unusual in settings where a small line space isn’t needed, but it allows for tighter settings when needed.
 
@@ -90,11 +81,10 @@ A technique that is much less common is to use variable fonts with an axis for a
 
 <figure>
 
-![INSERT_ALT](images/INSERT_SVG.svg)
+![INSERT_ALT](images/3_8.gif)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
-[Figure 8: Build on previous demos by responsively adjusting extenders.]
+<figcaption>Variable fonts allow for extenders that shrink or grow as space allows to prevent glyphs from colliding between lines.</figcaption>
 
 (As with the adjustment to font widths mentioned above, this technique also requires the use of breakpoints or some minimal JavaScript.)
 

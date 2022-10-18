@@ -1,10 +1,10 @@
-# Web font comparisons: variable vs. static
-
 How efficient are variable web fonts when compared to static fonts? As with most questions related to typography, the answer—for better or worse—is “it depends”.
 
-Though exact numbers will vary for every project, examining a few typical scenarios can be useful for general reference. Below are examples of fairly standard typographic palettes along with comparative statistics about the effects on file sizes and loading times.
+Though exact numbers will vary for every project, examining a few typical scenarios can be useful for general reference. Below are examples of fairly standard typographic palettes along with comparative estimates about the effects on file sizes and loading times.
 
 The test results below are based on a fairly standard sans-serif typeface ([HEX Franklin](https://hex.xyz/HEX_Franklin/)) with about 325 glyphs and fairly basic OpenType features and auto-hinting. The static fonts were CFF-flavored and the variable fonts were TTF-flavored. (CFF-flavored variable fonts provide even smaller file sizes comparatively, but weren’t used for the test because they aren’t as widely supported.) All the test fonts were compressed in the WOFF2 web font format.
+
+Load time estimates are based on a standard of 500 kB per second for transfer times and 0.1 second per file for additional latency. These are ballpark numbers that won’t be as relevant for every project, but can be used as a starting point for other estimates.
 
 ## Type Palette #1
 Regular, Bold

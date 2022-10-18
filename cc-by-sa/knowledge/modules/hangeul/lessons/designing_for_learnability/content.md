@@ -6,7 +6,7 @@ Therefore, rather than simply creating a new alphabet, King Sejong understood th
 
 ## Making Information Helpful
 
-Learning any alphabet is difficult, in part, because it requires learners to memorize the associations between the alphabet's [letters](https://fonts.google.com/knowledge/glossary/letters) and the sounds or other parts of language that they represent.
+Learning any alphabet is difficult, in part, because it requires learners to memorize the associations between the alphabet's [letters](/glossary/letters) and the sounds or other parts of language that they represent.
 
 Contributing to difficulty is that these associations, along with other design features of alphabets, tend to be rather arbitrary.
 
@@ -18,9 +18,9 @@ What distinguishes King Sejong from the alphabet creators that came before him w
 
 ## Relying on Geometry
 
-One of the first things a person might notice about Hangeul is how [geometrically](https://fonts.google.com/knowledge/glossary/geometric) patterned the letters are. In fact, by comparison to most of the world's alphabets, Hangeul may be the most geometric in nature.
+One of the first things a person might notice about Hangeul is how [geometrically](/glossary/geometric) patterned the letters are. In fact, by comparison to most of the world's alphabets, Hangeul may be the most geometric in nature.
 
-In crafting the 28 basic letters of the alphabet (many of which are preserved in the 24 letters of today's Korean alphabet), King Sejong made extensive use of consistent-weight, straight lines, parallel lines, right angles, and circles, emphasizing a natural box-like uniformity that anticipates modern-day [monospacing](https://fonts.google.com/knowledge/glossary/monospaced) principles.
+In crafting the 28 basic letters of the alphabet (many of which are preserved in the 24 letters of today's Korean alphabet), King Sejong made extensive use of consistent-weight, straight lines, parallel lines, right angles, and circles, emphasizing a natural box-like uniformity that anticipates modern-day [monospacing](/glossary/monospaced) principles.
 
 <figure>
 
@@ -43,7 +43,7 @@ A second feature of Hangeul related to the letter shapes was used to signal a ke
 
 In essence, the majority of the alphabet's consonant letters are complex, consisting of multiple lines that meet at right angles or lines that converge in triangular configurations.
 
-The vowel letters, on the other hand, are simpler, consisting of a single vertical or horizontal line, complemented with one or two dots placed together on either side of the line (not [diacritics](https://fonts.google.com/knowledge/glossary/diacritic_accent_marks), but somewhat similar in concept).
+The vowel letters, on the other hand, are simpler, consisting of a single vertical or horizontal line, complemented with one or two dots placed together on either side of the line (not [diacritics](/glossary/diacritic_accent_marks), but somewhat similar in concept).
 
 <figure>
 
@@ -73,7 +73,7 @@ In particular, he avoided letters that were vertical or horizontal mirror images
 </figure>
 <figcaption>Top row showing existing Hangeul letters; bottom row showing mirrored versions that were rejected.</figcaption>
 
-People who have learned the English alphabet might not be surprised to discover that among the most commonly confused letters are those that seem to be mirrored copies, including the [lowercase](https://fonts.google.com/knowledge/glossary/uppercase_lowercase) letters *d*, *b*, *p*, and *q* (Ehri & Roberts, 2006).
+People who have learned the English alphabet might not be surprised to discover that among the most commonly confused letters are those that seem to be mirrored copies, including the [lowercase](/glossary/uppercase_lowercase) letters *d*, *b*, *p*, and *q* (Ehri & Roberts, 2006).
 
 Once again, King Sejong's design decision to emphasize letter distinguishability reflects his intentions of making Hangeul as user-friendly as possible.
 

@@ -6,11 +6,11 @@ Looking through a modern-day User Experience (UX) lens, we can say that King Sej
 
 ## Attention to the Details
 
-Being an alphabet designer is similar in some respects to being a [type designer](https://fonts.google.com/knowledge/glossary/type_designer) or [typographer](https://fonts.google.com/knowledge/glossary/typographer) in that much of the job means focusing on all the small details that define [letters](/glossary/letters), both as individual units and as members of a set.
+Being an alphabet designer is similar in some respects to being a [type designer](/glossary/type_designer) or [typographer](/glossary/typographer) in that much of the job means focusing on all the small details that define [letters](/glossary/letters), both as individual units and as members of a set.
 
 But there's an important distinction.
 
-While type specialists can manipulate letter details and employ stylistic variations to achieve various effects, including improving [legibility and readability](https://fonts.google.com/knowledge/glossary/legibility_readability) or evoking [emotive responses](https://fonts.google.com/knowledge/choosing_type/emotive_considerations_for_choosing_typefaces), they still need to preserve the basic forms of individual letters; by comparison, an alphabet designer must, ideally, decide how all the small details to should be combined to *create* a set of usable letters.
+While type specialists can manipulate letter details and employ stylistic variations to achieve various effects, including improving [legibility](/glossary/legibility) and [readability](/glossary/readability) or evoking [emotive responses](https://fonts.google.com/knowledge/choosing_type/emotive_considerations_for_choosing_typefaces), they still need to preserve the basic forms of individual letters; by comparison, an alphabet designer must, ideally, decide how all the small details to should be combined to *create* a set of usable letters.
 
 In the case of King Sejong specifically, the challenge at hand was in how to make these details matter.
 
@@ -18,7 +18,7 @@ It can be easy to overlook the importance of solving this problem, because once 
 
 But again, by modern UX standards, it's not hard to see why most alphabets fall short on providing useful details to learners.
 
-For example, in a [recent study](https://psycnet.apa.org/record/2018-13691-001) involving college students at a well-known American university, less than 30% of participants could correctly identify the [lowercase](https://fonts.google.com/knowledge/glossary/uppercase_lowercase) "looptail" letter *G* ([g]{style="font-family:\"Times New Roman\";"}) when it was presented in a set that included three other incorrect versions. (Note that the letter *G* has two distinct lowercase allographs, or, in the context of type, [alternates](https://fonts.google.com/knowledge/glossary/alternates): g\|[g]{style="font-family:\"Times New Roman\";"})
+For example, in a [recent study](https://psycnet.apa.org/record/2018-13691-001) involving college students at a well-known American university, less than 30% of participants could correctly identify the [lowercase](/glossary/uppercase_lowercase) "looptail" letter *G* ([g]{style="font-family:\"Times New Roman\";"}) when it was presented in a set that included three other incorrect versions. (Note that the letter *G* has two distinct lowercase allographs, or, in the context of type, [alternates](/glossary/alternates): g\|[g]{style="font-family:\"Times New Roman\";"})
 
 <figure>
 

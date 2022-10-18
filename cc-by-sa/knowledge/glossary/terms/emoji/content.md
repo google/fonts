@@ -4,7 +4,7 @@ The emoji are successors to the original smileys, or emoticons: A sequence of pu
 
 <figure>
 
-![ALT](images/thumbnail.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

@@ -142,8 +142,10 @@ def main(_):
         if root.tagName != "svg":
           print("Root element must be <svg>:", image_file.relative_to(knowledge_dir))
           return_code = 1
-        if "viewBox" not in root.attributes:
-          print("Required attribute viewBox not present on <svg>:", image_file.relative_to(knowledge_dir))
+        has_view_box = "viewBox" in root.attributes
+        has_width_and_height = "width" in root.attributes and "height" in root.attributes
+        if not has_view_box and not has_width_and_height:
+          print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge_dir))
           return_code = 1
       if image_file.stat().st_size > MAX_IMAGE_SIZE_KB * 1024:
         print("File exceeds max size of %s KB:" % MAX_IMAGE_SIZE_KB, image_file.relative_to(knowledge_dir))

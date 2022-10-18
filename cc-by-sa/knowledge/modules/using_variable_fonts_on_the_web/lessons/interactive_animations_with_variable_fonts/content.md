@@ -37,12 +37,6 @@ For more demanding situations where shifts in positioning aren’t acceptable at
 
 <figure>
 
-![INSERT_ALT](images/4_4a.gif)
-
-</figure>
-
-<figure>
-
 ![INSERT_ALT](images/4_4b.gif)
 
 </figure>
@@ -64,11 +58,5 @@ Multiplexing isn’t limited to just standard variations in weight or grades eit
 <figcaption>Multiplexed hover animations with variations other than standard weight.</figcaption>
 
 Finally, for other special interactive effects, keep in mind that `:hover` isn’t limited to just hyperlinks. For example, you can wrap arbitrary elements in their own `span` elements and use that for triggering hover effects. You can also tweak the timing of a transition to make it faster or slower:
-
-<figure>
-
-![INSERT_ALT](images/4_6.gif)
-
-<figcaption>Multiplexed hover effects with more expressive variations, on a letter-by-letter basis.</figcaption>
 
 Interactivity is a virtually infinite space for experience design, and variable fonts offer that much more room for exploration. For more ideas on using variable fonts, see the [other articles listed under the topic of variable fonts](https://fonts.google.com/knowledge/topics/variable_fonts).

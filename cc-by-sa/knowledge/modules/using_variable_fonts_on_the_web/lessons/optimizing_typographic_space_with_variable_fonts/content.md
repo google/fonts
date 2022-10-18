@@ -20,7 +20,7 @@ Variable fonts allow for seamless adaptation to extend even further down to the 
 
 ## Width
 
-The most obvious approach for optimizing a typeface’s spatial proportions is tied to a fairly common design axis in variable fonts: Width. Even small changes in the width of a typeface can allow for more characters per line, and thus more words per line and more even line breaks—especially when dealing with narrow [line lengths](https://fonts.google.com/knowledge/glossary/measure_line_length).
+The most obvious approach for optimizing a typeface’s spatial proportions is tied to a fairly common design axis in variable fonts: Width. Even small changes in the width of a typeface can allow for more characters per line, and thus more words per line and more even line breaks—especially when dealing with narrow [line lengths](/glossary/measure_line_length).
 
 <figure>
 	[Figure 3]
@@ -54,7 +54,7 @@ Speaking of width, variable fonts with adjustable widths can be used to make dif
 
 ## Extenders
 
-Another approach for optimizing the spatial efficiency of a typeface is related to the clearance needed for minimal [line space](https://fonts.google.com/knowledge/glossary/line_height_leading). This is typically limited by the distance the [cap height](https://fonts.google.com/knowledge/glossary/cap_height) and [ascenders/descenders](https://fonts.google.com/knowledge/glossary/ascenders_descenders) extend beyond the bounds of the [x-height](https://fonts.google.com/knowledge/glossary/x_height). Shorter extenders allow for a smaller line space by preventing glyphs from colliding between lines.
+Another approach for optimizing the spatial efficiency of a typeface is related to the clearance needed for minimal [line space](/glossary/line_height_leading). This is typically limited by the distance the [cap height](/glossary/cap_height) and [ascenders/descenders](/glossary/ascenders_descenders) extend beyond the bounds of the [x-height](/glossary/x_height). Shorter extenders allow for a smaller line space by preventing glyphs from colliding between lines.
 
 <figure>
 	[Figure 7]

@@ -2,7 +2,7 @@ In most societies throughout history, the ability to read and write was an exclu
 
 In the mid-15th century, King Sejong the Great of Korea publicly expressed his distress with this imbalance of power, recognizing that, without literacy, the majority of his country's citizens had no way to advocate for themselves.
 
-Despite being at the top of the power structure in Korea, King Sejong was determined to solve this problem by designing a revolutionary [alphabet](https://fonts.google.com/knowledge/glossary/alphabet), called Hangeul (See [A Note About Terminology]).
+Despite being at the top of the power structure in Korea, King Sejong was determined to solve this problem by designing a revolutionary [alphabet](/glossary/alphabet), called Hangeul (See [A Note About Terminology]).
 
 By modern User Experience (UX) standards, Hangeul might be the most user-friendly alphabet ever created, and it's surely the only one to have been purposefully designed with a systematic focus on usability.
 
@@ -23,7 +23,7 @@ Since the invention of writing in Mesopotamia more than 5000 years ago, there ha
 ![Texts in four scripts.](images/thumbnail.svg)
 
 </figure>
-<figcaption>A montage of texts written in Sumerian, Egyptian, Chinese, and Meso-American [scripts](https://fonts.google.com/knowledge/glossary/script_writing_system), intended to show the our species' creativity and ingenuity in devising alphabets.</figcaption>
+<figcaption>A montage of texts written in Sumerian, Egyptian, Chinese, and Meso-American [scripts](/glossary/script_writing_system), intended to show the our species' creativity and ingenuity in devising alphabets.</figcaption>
 
 All the world's subsequent alphabets have, at a minimum, been informed by these early examples, and nearly all have been direct adaptations.
 
@@ -49,7 +49,7 @@ In the next article, we'll explore how rose to meet this challenge.
 
 ## A Note About Terminology
 
-For the sake of simplicity, I refer to all [writing systems](https://fonts.google.com/knowledge/glossary/script_writing_system) as [alphabets](https://fonts.google.com/knowledge/glossary/alphabet), and to the graphic symbols of writing systems as [*letters*](https://fonts.google.com/knowledge/glossary/letters), even in cases where these terms are technically incorrect.
+For the sake of simplicity, I refer to all [writing systems](/glossary/script_writing_system) as [alphabets](/glossary/alphabet), and to the graphic symbols of writing systems as [*letters*](/glossary/letters), even in cases where these terms are technically incorrect.
 
 My goal in doing so is to illustrate the story of Hangeul without having introduce too much linguistic terminology, especially because the main ideas I'd like to share do not depend critically on making distinctions that might otherwise be important to scholars.
 

@@ -27,7 +27,7 @@ It’s very common for bolder weights of a typeface to occupy more space, which 
 
 ## Multiplexed Weight and Grades
 
-For more demanding situations where shifts in positioning aren’t acceptable at all, you can use “[multiplexed](https://fonts.google.com/knowledge/glossary/multiplexed_duplexed_uniwidth)” fonts, designed specifically to occupy the same amount of space across a range of variants. When the Regular and Bold weights occupy the same amount of horizontal spacing, the hover effect feels more seamless. It is also crucial for use within paragraphs of body text where layout shifts would be too distracting otherwise.
+For more demanding situations where shifts in positioning aren’t acceptable at all, you can use “[multiplexed](/glossary/multiplexed_duplexed_uniwidth)” fonts, designed specifically to occupy the same amount of space across a range of variants. When the Regular and Bold weights occupy the same amount of horizontal spacing, the hover effect feels more seamless. It is also crucial for use within paragraphs of body text where layout shifts would be too distracting otherwise.
 
 <figure>
 	[Figure 4a]
@@ -39,13 +39,13 @@ For more demanding situations where shifts in positioning aren’t acceptable at
 	<figcaption>Multiplexed fonts prevent shifts in the layout by maintaining the same width requirements across variants.</figcaption>
 </figure>
 
-On a related note, some variable fonts also offer a “[grade](https://fonts.google.com/knowledge/glossary/grade_axis)” axis separate from (and often in addition to) the standard [weight](https://fonts.google.com/knowledge/glossary/weight_axis) axis. This allows for multiplexed adjustments to a typeface’s apparent weight even if its standard weight axis would otherwise affect spacing.
+On a related note, some variable fonts also offer a “[grade](/glossary/grade_axis)” axis separate from (and often in addition to) the standard [weight](/glossary/weight_axis) axis. This allows for multiplexed adjustments to a typeface’s apparent weight even if its standard weight axis would otherwise affect spacing.
 
-Not all variable fonts offer multiplexed variations, but there is a [growing selection](https://v-fonts.com/tags/C9) available. And it’s worth noting that almost all [monospaced](https://fonts.google.com/knowledge/glossary/monospaced) variable fonts are naturally multiplexed.
+Not all variable fonts offer multiplexed variations, but there is a [growing selection](https://v-fonts.com/tags/C9) available. And it’s worth noting that almost all [monospaced](/glossary/monospaced) variable fonts are naturally multiplexed.
 
 ## Multiplexing Beyond Weight
 
-Multiplexing isn’t limited to just standard variations in weight or grades either. For example, some variable fonts have an adjustable [italic](https://fonts.google.com/knowledge/glossary/italic_axis) axis that doesn’t affect spacing. Other variable fonts may offer multiplexed variations that are much more unusual, allowing for more stylized special effects:
+Multiplexing isn’t limited to just standard variations in weight or grades either. For example, some variable fonts have an adjustable [italic](/glossary/italic_axis) axis that doesn’t affect spacing. Other variable fonts may offer multiplexed variations that are much more unusual, allowing for more stylized special effects:
 
 <figure>
 	[Figure 5]

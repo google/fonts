@@ -5,39 +5,48 @@ Variable fonts allow for seamless, fluid blending between stylistic variants, ma
 For a simple example of hover interaction, let’s consider hyperlinks that change weight on hover:
 
 <figure>
-	[Figure 1]
-	<figcaption>Basic weight change on hover.</figcaption>
+
+![INSERT_ALT](images/4_1.gif)
+
 </figure>
+<figcaption>Basic weight change on hover.</figcaption>
 
 The effect is rather sudden, switching between weights instantly on hover. With variable fonts, though, it’s possible smooth the effect using a simple transition:
 
 <figure>
-	[Figure 2]
-	<figcaption>Subtle hover animation with variable fonts.</figcaption>
+
+![INSERT_ALT](images/4_2.gif)
+
 </figure>
+<figcaption>Subtle hover animation with variable fonts.</figcaption>
 
 Instead of jumping between static weights, the change is continuous. Just be careful not to make animations too long—even one-second animations can feel tedious for quick hover interactions.
 
 It’s very common for bolder weights of a typeface to occupy more space, which causes subtle shifts in positioning. For menus and other small pieces of text, such shifts can be minimized by isolating elements from each other in separate fixed containers:
 
 <figure>
-	[Figure 3]
-	<figcaption>Hover animation with each element in separate fixed containers to prevent layout shift.</figcaption>
+
+![INSERT_ALT](images/4_3.gif)
+
 </figure>
+<figcaption>Hover animation with each element in separate fixed containers to prevent layout shift.</figcaption>
 
 ## Multiplexed Weight and Grades
 
 For more demanding situations where shifts in positioning aren’t acceptable at all, you can use “[multiplexed](/glossary/multiplexed_duplexed_uniwidth)” fonts, designed specifically to occupy the same amount of space across a range of variants. When the Regular and Bold weights occupy the same amount of horizontal spacing, the hover effect feels more seamless. It is also crucial for use within paragraphs of body text where layout shifts would be too distracting otherwise.
 
 <figure>
-	[Figure 4a]
-	<figcaption>Changing weight on hover in a paragraph when each weight occupies different amounts of space.</figcaption>
+
+![INSERT_ALT](images/4_4a.gif)
+
 </figure>
 
 <figure>
-	[Figure 4b]
-	<figcaption>Multiplexed fonts prevent shifts in the layout by maintaining the same width requirements across variants.</figcaption>
+
+![INSERT_ALT](images/4_4b.gif)
+
 </figure>
+<figcaption>Multiplexed fonts prevent shifts in the layout by maintaining the same width requirements across variants.</figcaption>
 
 On a related note, some variable fonts also offer a “[grade](/glossary/grade_axis)” axis separate from (and often in addition to) the standard [weight](/glossary/weight_axis) axis. This allows for multiplexed adjustments to a typeface’s apparent weight even if its standard weight axis would otherwise affect spacing.
 
@@ -48,15 +57,18 @@ Not all variable fonts offer multiplexed variations, but there is a [growing sel
 Multiplexing isn’t limited to just standard variations in weight or grades either. For example, some variable fonts have an adjustable [italic](/glossary/italic_axis) axis that doesn’t affect spacing. Other variable fonts may offer multiplexed variations that are much more unusual, allowing for more stylized special effects:
 
 <figure>
-	[Figure 5]
-	<figcaption>Multiplexed hover animations with variations other than standard weight.</figcaption>
+
+![INSERT_ALT](images/4_5.gif)
+
 </figure>
+<figcaption>Multiplexed hover animations with variations other than standard weight.</figcaption>
 
 Finally, for other special interactive effects, keep in mind that `:hover` isn’t limited to just hyperlinks. For example, you can wrap arbitrary elements in their own `span` elements and use that for triggering hover effects. You can also tweak the timing of a transition to make it faster or slower:
 
 <figure>
-	[Figure 6]
-	<figcaption>Multiplexed hover effects with more expressive variations, on a letter-by-letter basis.</figcaption>
-</figure>
+
+![INSERT_ALT](images/4_6.gif)
+
+<figcaption>Multiplexed hover effects with more expressive variations, on a letter-by-letter basis.</figcaption>
 
 Interactivity is a virtually infinite space for experience design, and variable fonts offer that much more room for exploration. For more ideas on using variable fonts, see the [other articles listed under the topic of variable fonts](https://fonts.google.com/knowledge/topics/variable_fonts).

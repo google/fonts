@@ -3,9 +3,11 @@
 To use a color font from Google Fonts, simply reference the family as you would any other font:
 
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-.classname {
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice);
+
+p {
   font-family: "Bungee Spice";
+  font-palette: --elliot1;
 }
 ```
 
@@ -16,23 +18,29 @@ This should render the font with its default color values, which are contained w
 The type designer has the power to include not just one, but a whole set of default color palettes within the font file. We can make use of these with the base-palette declaration, as in this example, where we select the a particular palette option:
 
 ```css
-.classname {
-  base-palette: 4;
- }
+@font-palette-values --elliot1 {
+  font-family: "Bungee Spice";
+  base-palette: 3; /* WHY IS THIS NOT DOING ANYTHING? */
+}
 ```
 
 [ILLO showing output of code]
 
-[FRO: see also https://codepen.io/jh3y/pen/XWqNoEV]
+[FRO: see also https://codepen.io/elliotjaystocks/pen/xxjNgrv]
 
-The number 4 here is the index ID of the fifth (numbering starts at 0) color palette provided by the font itself.
+The number 3 here is the index ID of the fifth (numbering starts at 0) color palette provided by the font itself.
 Of course, if we wish to use colors not defined by the type designer in the base palettes, we can completely customize them ourselves using the [`override-colors`](https://caniuse.com/mdn-css_at-rules_font-palette-values_override-colors) property:
 
 ```css
-.classname {
-  base-palette: 4;
-  override-colors: 0 #00ffbb, 1 #007744, 2 #004433;   
- }
+.alt {
+  font-palette: --elliot2;
+}
+
+@font-palette-values --elliot2 {
+  font-family: "Bungee Spice";
+  base-palette: 3;
+  override-colors: 0 #FF6D7F, 1 #1A73E8, 2 #3C4043;
+}
 ```
 
 The numbers 0, 1, and 2 here are the index IDs for the color swatches within the palette.

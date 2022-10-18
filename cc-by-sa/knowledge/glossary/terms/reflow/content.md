@@ -4,7 +4,7 @@ In print, when a document has already been edited and designed, reflow can be pr
 
 <figure>
 
-![ALT](images/thumbnail.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

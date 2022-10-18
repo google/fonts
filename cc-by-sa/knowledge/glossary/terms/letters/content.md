@@ -2,7 +2,7 @@ The set of graphical symbols used to represent speech sounds in an [alphabetic](
 
 <figure>
 
-![ALT](images/thumbnail.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

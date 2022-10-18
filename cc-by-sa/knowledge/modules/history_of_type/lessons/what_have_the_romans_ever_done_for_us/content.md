@@ -2,7 +2,7 @@ We can be thankful to the Romans for a number of technological innovations and i
 
 <figure>
 
-![ALT](images/GFKhistoftype2_romansquarecapitals.svg)
+![INSERT_ALT](images/GFKhistoftype2_romansquarecapitals.svg)
 
 </figure>
 
@@ -22,7 +22,7 @@ By the end of the fifteenth century, not only did the cities of the Italian Peni
 
 <figure>
 
-![ALT](images/GFKhistoftype2_garamond.svg)
+![INSERT_ALT](images/GFKhistoftype2_garamond.svg)
 
 </figure>
 
@@ -36,7 +36,7 @@ The sixteenth century also gave us [italic](/glossary/italic). The great Venetia
 
 <figure>
 
-![ALT](images/GFKhistoftype2_aldusandgriffoitalic.svg)
+![INSERT_ALT](images/GFKhistoftype2_aldusandgriffoitalic.svg)
 
 </figure>
 

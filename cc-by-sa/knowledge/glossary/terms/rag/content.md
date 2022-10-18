@@ -2,7 +2,7 @@ The rag refers to the irregular edge of an unjustified text block. “Ragged rig
 
 <figure>
 
-![ALT](images/thumbnail.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

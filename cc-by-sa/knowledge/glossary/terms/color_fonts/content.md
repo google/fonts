@@ -2,7 +2,7 @@ Color fonts (also known as chromatic fonts) can use multiple colors in a single 
 
 <figure>
 
-![ALT](images/thumbnail.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

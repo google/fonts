@@ -6,7 +6,7 @@ Johannes Gutenberg, some time in the 1440s, found a way, using an ingenious hand
 
 <figure>
 
-![ALT](images/GFKhistoftype1_metaltype.svg)
+![INSERT_ALT](images/GFKhistoftype1_metaltype.svg)
 
 </figure>
 
@@ -18,7 +18,7 @@ The very first fonts in Europe were modeled on contemporary gothic calligraphyâ€
 
 <figure>
 
-![ALT](images/GFKhistoftype1_gutenberggothic.svg)
+![INSERT_ALT](images/GFKhistoftype1_gutenberggothic.svg)
 
 </figure>
 
@@ -30,7 +30,7 @@ Printing soon spread from Germany to neighboring countries, even crossing the Al
 
 <figure>
 
-![ALT](images/GFKhistoftype1_earlyroman.svg)
+![INSERT_ALT](images/GFKhistoftype1_earlyroman.svg)
 
 </figure>
 
@@ -46,7 +46,7 @@ The very earliest roman typefaces still displayed some Gothic characteristics, b
 
 <figure>
 
-![ALT](images/GFKhistoftype1_jenson_new.svg)
+![INSERT_ALT](images/GFKhistoftype1_jenson_new.svg)
 
 </figure>
 

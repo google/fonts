@@ -2,7 +2,7 @@ When a character is not present in a font, and no fallback option is available, 
 
 <figure>
 
-![ALT](images/thumbnail.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

@@ -22,7 +22,7 @@ With so many moving parts involved—for both font technology and web design/dev
 
 - **What kind of compression is used for the fonts?** Uncompressed .otf or .ttf fonts will have much larger file sizes before they’ve been converted to the [.woff or .woff2 web font formats](https://en.wikipedia.org/wiki/Web_Open_Font_Format). (Side note: All browsers that support variable fonts also support the .woff2 format, so variable web fonts should almost always be delivered as .woff2 files.)
 
-To see how some of these factors play out in real-world comparisons between static and variable fonts, check out the [tables of web font comparisons](#Article02).
+To see how some of these factors play out in real-world comparisons between static and variable fonts, check out the [tables of web font comparisons](/lesson/web_font_comparisons_variable_vs_static).
 
 Some web font services like Google Fonts incorporate intelligent functionality to detect specifics about a user’s system or a page’s design and serve font data in the most efficient way accordingly. For example, if weight and width axes are available but only weight variants are used, a different font with limited functionality and a smaller file size can be served. Or if a page is being viewed in an environment where hinting data is ignored and is thus irrelevant (as is typically the case in macOS web browsers), a font file can be delivered with all hinting removed to minimize data transfer. These kinds of file optimizations and serving techniques can be impractical (or impossible) to set up on your own without access to the fonts’ original source files, but web font services like Google Fonts include them automatically without any extra effort.
 

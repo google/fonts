@@ -6,7 +6,7 @@ This article outlines some techniques for using variable fonts from a practical 
 
 Before we even discuss the typographic implications of variable fonts, it’s worth taking a moment to review some of the technological benefits they provide compared to traditional “static” web fonts.
 
-- **[Increased efficiency](#Article02)**: Perhaps the most significant benefit of variable fonts from a technical perspective is that they offer improved efficiency in [many ways](#Article05), increasing the speed of loading and rendering a web page by reducing requirements for [file size](/glossary/file_size), [server requests](https://gigapress.net/reduce-http-requests/), etc. compared to a comparable collection of static fonts.
+- **[Increased efficiency](/lesson/web_font_comparisons_variable_vs_static)**: Perhaps the most significant benefit of variable fonts from a technical perspective is that they offer improved efficiency in [many ways](/lesson/factors_that_influence_the_efficiency_of_variable_web_fonts), increasing the speed of loading and rendering a web page by reducing requirements for [file size](/glossary/file_size), [server requests](https://gigapress.net/reduce-http-requests/), etc. compared to a comparable collection of static fonts.
 
 - **Simplified file management**: While it’s still recommended to implement variable fonts as a [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement) (with static fallback fonts for the small percentage of users on browsers that don’t support the technology), having a wide range of stylistic variation contained in a single font file, with a single [@font-face rule](https://css-tricks.com/snippets/css/using-font-face-in-css/), makes it much faster and simpler to experiment with design variations than it would be with static fonts. Want to see how the headlines will look if they’re slightly narrower? You can check quickly by changing a single number, instead of having to set up references for entirely separate font files.
 
@@ -18,9 +18,9 @@ Before we even discuss the typographic implications of variable fonts, it’s wo
 
 In addition to their technical benefits, variable fonts also provide designers with the power to fine-tune typographic compositions in ways that were previously impractical or impossible. This is especially useful for web design and other dynamic media.
 
-- **[Adjusting to tight spaces](#Article03)**: In the world of responsive design, block-level elements can stretch and squeeze to better fit their containers. With variable fonts, it’s now much easier to also allow the typefaces to shapeshift according to the available space.
+- **[Adjusting to tight spaces](/lesson/optimizing_typographic_space_with_variable_fonts)**: In the world of responsive design, block-level elements can stretch and squeeze to better fit their containers. With variable fonts, it’s now much easier to also allow the typefaces to shapeshift according to the available space.
 
-- **[Animating interactions](#Article04)**: Because variable fonts offer seamless transitions between stylistic variants, they can be used for simple animations to smooth out effects for user interactions, like making a link bolder when someone hovers over it.
+- **[Animating interactions](/lesson/interactive_animations_with_variable_fonts)**: Because variable fonts offer seamless transitions between stylistic variants, they can be used for simple animations to smooth out effects for user interactions, like making a link bolder when someone hovers over it.
 
 - **Compensating for different reading conditions**: With the rise of [dark mode](https://en.wikipedia.org/wiki/Light-on-dark_color_scheme) and user preferences for alternate color schemes, plus sensors for ambient light conditions, typographic compositions can be improved by compensating for differences in how our computers (and our eyes) handle text in different reading environments. Variable fonts offer much more flexibility to fine-tune these adjustments.
 

@@ -1,4 +1,4 @@
-In addition to their [technical benefits](#Article02), variable fonts offer much more flexibility for typesetting in both printed and digital media. This flexibility is especially beneficial in the context of responsive design where the presentation of content adapts to different formats and contexts.
+In addition to their [technical benefits](/lesson/web_font_comparisons_variable_vs_static), variable fonts offer much more flexibility for typesetting in both printed and digital media. This flexibility is especially beneficial in the context of responsive design where the presentation of content adapts to different formats and contexts.
 
 The most common considerations for designing a responsive composition are tied to the availability of space. When space is limited (e.g. on small screens), the content’s presentation must be optimized accordingly—line lengths are constrained, whitespace is minimized, and the potential contrast in size between small and large elements is reduced. In these situations, even very small changes in formatting can provide significant improvements in readability and visual hierarchy.
 

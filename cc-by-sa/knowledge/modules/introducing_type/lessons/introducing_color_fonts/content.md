@@ -3,9 +3,9 @@
 To use a color font from Google Fonts, simply reference the family as you would any other font:
 
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 .classname {
-  font-family: "Blaka Ink";
+  font-family: "Bungee Spice";
 }
 ```
 

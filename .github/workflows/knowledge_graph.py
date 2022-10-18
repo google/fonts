@@ -138,14 +138,14 @@ def main(_):
     image_files = list(knowledge_dir.glob("**/images/*"))
     for image_file in image_files:
       if image_file.name == "thumbnail.svg":
-        root = minidom.parse(image_file)
+        root = minidom.parseString(image_file.read_text())
         if root.tagName != "svg":
           print("Root element must be <svg>:", image_file.relative_to(knowledge_dir))
           return_code = 1
         if "viewBox" not in root.attributes:
           print("Require attribute viewBox not present on <svg>:", image_file.relative_to(knowledge_dir))
           return_code = 1
-      if image_file.stat().st_size > MAX_IMAGE_SIZE_KB:
+      if image_file.stat().st_size > MAX_IMAGE_SIZE_KB * 1024:
         print("File exceeds max size of %s KB:" % MAX_IMAGE_SIZE_KB, image_file.relative_to(knowledge_dir))
         return_code = 1
 

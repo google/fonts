@@ -138,7 +138,7 @@ def main(_):
     image_files = list(knowledge_dir.glob("**/images/*"))
     for image_file in image_files:
       if image_file.name == "thumbnail.svg":
-        root = minidom.parseString(image_file.read_text())
+        root = minidom.parseString(image_file.read_text()).documentElement
         if root.tagName != "svg":
           print("Root element must be <svg>:", image_file.relative_to(knowledge_dir))
           return_code = 1

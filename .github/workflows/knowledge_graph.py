@@ -2,10 +2,14 @@ from absl import app
 from absl import flags
 import itertools
 import mistune  # markdown => ast
+from xml.dom import minidom
 from pathlib import Path
 import re
 import sys
 from typing import Callable, Iterable, List, Mapping, Set, Union
+
+
+MAX_IMAGE_SIZE_KB = 800
 
 
 def _topic_target_to_path(_: Set[str], target: str) -> str:
@@ -94,6 +98,8 @@ def _link_target_to_path(names: Mapping[str, str], target: str) -> Path:
 
 
 def main(_):
+    return_code = 0
+
     knowledge_dir = Path(__file__).parent.parent.parent / "cc-by-sa" / "knowledge"
     assert knowledge_dir.is_dir(), f"No dir {knowledge_dir}"
 
@@ -106,7 +112,6 @@ def main(_):
             continue
         unambiguous_names[name] = str(entries[0].relative_to(knowledge_dir).parent)
 
-    return_code = 0
     for md_file in md_files:
         ast = _markdown_ast(md_file)
         for link in _ast_iter(ast, lambda v: v.get("type", None) == "link"):
@@ -129,6 +134,22 @@ def main(_):
             if should_print:
                 print(result, target, "=>", target_path)
                 print("  in", md_file.relative_to(knowledge_dir))
+
+    image_files = list(knowledge_dir.glob("**/images/*"))
+    for image_file in image_files:
+      if image_file.name == "thumbnail.svg":
+        root = minidom.parseString(image_file.read_text()).documentElement
+        if root.tagName != "svg":
+          print("Root element must be <svg>:", image_file.relative_to(knowledge_dir))
+          return_code = 1
+        has_view_box = "viewBox" in root.attributes
+        has_width_and_height = "width" in root.attributes and "height" in root.attributes
+        if not has_view_box and not has_width_and_height:
+          print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge_dir))
+          return_code = 1
+      if image_file.suffix != ".svg" and image_file.stat().st_size > MAX_IMAGE_SIZE_KB * 1024:
+        print("File exceeds max size of %s KB:" % MAX_IMAGE_SIZE_KB, image_file.relative_to(knowledge_dir))
+        return_code = 1
 
     sys.exit(return_code)
 

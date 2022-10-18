@@ -6,7 +6,7 @@ Higher-level properties like `font-size`, `width`, `padding`, and `line-height` 
 
 <figure>
 
-![INSERT_ALT](images/3_1.gif)
+images/3_1.gif
 
 </figure>
 <figcaption>Static fonts with a layout breakpoint: A single breakpoint changes padding, font sizes, and line-height.</figcaption>
@@ -15,7 +15,7 @@ A smoother and more seamless approach is to reduce the reliance on such queries,
 
 <figure>
 
-![INSERT_ALT](images/3_2.gif)
+images/3_2.gif
 
 </figure>
 <figcaption>Static fonts with intrinsic layout: The widths of the fonts remain fixed, but padding, font sizes, and line-heights change more smoothly with relative units.</figcaption>
@@ -28,7 +28,7 @@ The most obvious approach for optimizing a typeface’s spatial proportions is t
 
 <figure>
 
-![INSERT_ALT](images/3_3.gif)
+images/3_3.gif
 
 </figure>
 <figcaption>Breakpoint for static fonts with intrinsic layout: Now the font widths also change, but only at a single breakpoint.</figcaption>
@@ -37,7 +37,7 @@ Static typeface families that offer multiple widths sometimes have large differe
 
 <figure>
 
-![INSERT_ALT](images/3_4.gif)
+images/3_4.gif
 
 </figure>
 <figcaption>Gradual variable font changes with intrinsic layout: Everything changes smoothly thanks to relative units and the fine-tuning flexibility of variable fonts.</figcaption>
@@ -48,7 +48,7 @@ Special care should be taken when adjusting the width of a typeface, particularl
 
 <figure>
 
-![INSERT_ALT](images/3_5.svg)
+images/3_5.svg
 
 </figure>
 <figcaption>Avoid extremely narrow or wide font variants for paragraph text, as they can harm readability when typesetting anything more than a few words at a time.</figcaption>
@@ -81,7 +81,7 @@ A technique that is much less common is to use variable fonts with an axis for a
 
 <figure>
 
-![INSERT_ALT](images/3_8.gif)
+images/3_8.gif
 
 </figure>
 <figcaption>Variable fonts allow for extenders that shrink or grow as space allows to prevent glyphs from colliding between lines.</figcaption>

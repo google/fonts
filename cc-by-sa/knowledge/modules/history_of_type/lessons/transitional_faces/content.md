@@ -8,7 +8,7 @@ In 1692, during the reign of Louis XIV, the French Royal Academy of Sciences  co
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype3.svg)
+![A traced scan of Dürer’s “A” character.](images/GFKhistoftype3.svg)
 
 </figure>
 
@@ -18,7 +18,7 @@ When we say ‘rational’ or ‘rationalized’ with regard to type design, we 
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype3_bracketedserifs.svg)
+![Bracketed and non-bracketed serifs overlaid to highlight their differing forms.](images/GFKhistoftype3_bracketedserifs.svg)
 
 </figure>
 
@@ -34,7 +34,7 @@ In the eighteenth century, two other type designers appeared who would leave a l
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![A scan of typefaces designed by Caslon.](images/thumbnail.svg)
 
 </figure>
 
@@ -44,7 +44,7 @@ After making his fortune in japanning (varnished lacquerware), John Baskerville,
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype3_baskerville.svg)
+![The word “Baskerville” set in upright and italic versions of a modern Baskerville-style typeface.](images/GFKhistoftype3_baskerville.svg)
 
 </figure>
 
@@ -54,7 +54,7 @@ Typically, rougher paper requires more pressure from the printing press to ensur
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype3_evolutionofstress.svg)
+![Two “o” characters, with lines overlaid to show the different angle of stress.](images/GFKhistoftype3_evolutionofstress.svg)
 
 </figure>
 

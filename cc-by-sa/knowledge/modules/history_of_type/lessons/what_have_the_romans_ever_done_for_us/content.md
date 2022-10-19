@@ -2,7 +2,7 @@ We can be thankful to the Romans for a number of technological innovations and i
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![A scan of an image showing the engravings on Trajan’s Column.](images/thumbnail.svg)
 
 </figure>
 
@@ -22,7 +22,7 @@ By the end of the fifteenth century, not only did the cities of the Italian Peni
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype2_garamond.svg)
+![“The word Garamonts set in upright and italic versions of the modern EB Garamond typeface.”](images/GFKhistoftype2_garamond.svg)
 
 </figure>
 
@@ -36,7 +36,7 @@ The sixteenth century also gave us [italic](/glossary/italic). The great Venetia
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype2_aldusandgriffoitalic.svg)
+![A scan of an image showing an early italic typeface.](images/GFKhistoftype2_aldusandgriffoitalic.svg)
 
 </figure>
 

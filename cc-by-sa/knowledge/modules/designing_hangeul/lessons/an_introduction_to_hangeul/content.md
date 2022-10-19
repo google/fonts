@@ -8,7 +8,7 @@ By modern User Experience (UX) standards, Hangeul might be the most user-friendl
 
 As we’ll see throughout the course of several articles, Hangeul reflects King Sejong’s profound desire to overcome the design flaws that are inherent to most other alphabets, making him one of the first genuine UX practitioners in history.
 
-## Where Do Alphabets Come From?
+## Where do alphabets come from?
 
 Scholars have long recognized King Sejong’s alphabet for its technological innovations—it’s even been called ”one of the great intellectual achievements of [humankind]” (Sampson, 2015).
 
@@ -35,7 +35,7 @@ In most cases, these changes make the modified alphabet functional, but still im
 
 Of course, history tells us that the inconveniences of using an imperfect alphabet don’t ordinarily result in a total redesign. So what was different about King Sejong?
 
-## The Need for a New Alphabet
+## The need for a new alphabet
 
 In essence, King Sejong recognized that legacy writing systems, no matter how modified they are, have a critical usability issue: They take a long time to learn.
 
@@ -47,7 +47,7 @@ Thus, to realize his grand and radical vision of bringing literacy to the masses
 
 In the next article, we’ll explore how rose to meet this challenge.
 
-## A Note About Terminology
+## A note about terminology
 
 For the sake of simplicity, I refer to all [writing systems](/glossary/script_writing_system) as [alphabets](/glossary/alphabet), and to the graphic symbols of writing systems as [*letters*](/glossary/letters), even in cases where these terms are technically incorrect.
 

@@ -4,7 +4,7 @@ As a consequence, alphabets have rarely been designed or optimized to make readi
 
 In designing Hangeul, however, King Sejong found several opportunities to improve the user experience for both of these activities, reflecting his intention to make the Korean alphabet as user-friendly as possible.
 
-## Syllable Blocks for Readers
+## Syllable blocks for readers
 
 Alphabets can differ not only in terms of the designs and functions of individual [letters](/glossary/letters), but also in terms of how the letters are combined to capture human speech.
 
@@ -46,7 +46,7 @@ For writers, King Sejong was no less innovative in incorporating usability into 
 </figure>
 <figcaption>Three Korean words of 2, 3, and 4 syllables shown with their corresponding English translations, each with 10 letters but with varying syllable lengths.</figcaption>
 
-## Efficiency for Writers
+## Efficiency for writers
 
 Given the convenience of technology, many of us are likely to spend more time writing with a keyboard or keypad than with a pen and paper.
 
@@ -69,8 +69,7 @@ By reserving easier strokes for the most frequent vowels, King Sejong found a th
 
 Such insight may seem inconsequential in the grand scheme of things, but taken together with the many other innovations of Hangeul, it provides additional evidence that the Korean alphabet was designed with a genuine focus on meeting the needs of the people who would use it.
 
-## References
+### References
 
-Kim, C. W., & Sohn, H. (1986). *A phonetic model for reading: Evidence from Korean.* Studies in the Linguistic Sciences, 16(2), 95--105.
-
-Lee, S.-O. (1997). Graphical ingenuity in the Korean writing system: With new reference to calligraphy. In Kim-Renaud, Y.-K. (Ed.),*The Korean alphabet: Its history and structure* (pp. 107-116). University of Hawaii Press.
+- Kim, C. W., & Sohn, H. (1986). *A phonetic model for reading: Evidence from Korean.* Studies in the Linguistic Sciences, 16(2), 95--105.
+- Lee, S.-O. (1997). Graphical ingenuity in the Korean writing system: With new reference to calligraphy. In Kim-Renaud, Y.-K. (Ed.),*The Korean alphabet: Its history and structure* (pp. 107-116). University of Hawaii Press.

@@ -4,7 +4,7 @@ Although he was inspired by the design of Chinese, Tibetan Phags-Pa, and other a
 
 Looking through a modern-day User Experience (UX) lens, we can say that King Sejong found his solution through Information Architecture, or the structuring of information in a way that supports the end-users’ goals.
 
-## Attention to the Details
+## Attention to the details
 
 Being an alphabet designer is similar in some respects to being a [type designer](/glossary/type_designer) or [typographer](/glossary/typographer) in that much of the job means focusing on all the small details that define [letters](/glossary/letters), both as individual units and as members of a set.
 
@@ -31,7 +31,7 @@ Although people routinely encounter (and successfully use) the letters and lette
 
 When King Sejong approached the design of Hangeul, he focused his attention on including details that would make it easier for folks to learn the alphabet.
 
-## A Blueprint for Articulation
+## A blueprint for articulation
 
 One of the most innovative design properties of Hangeul is that it provides its users with a basic blueprint for articulation.
 
@@ -50,7 +50,7 @@ Evidence from modern cognitive science, for example, suggests that many aspects 
 
 Within this framework, it might be argued that Hangeul uses a visual reminder of the body’s role in producing speech sounds, which could facilitate learning by engaging the learner’s physical being.
 
-## Building Off of a Base
+## Building off of a base
 
 King Sejong’s approach of mapping important speech details to visual details didn’t stop at modeling letters after speech organs; rather, Hangeul incorporates a principle in which sounds that share similar vocalization properties are modeled on a common base letter.
 

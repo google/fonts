@@ -4,7 +4,7 @@ Working against King Sejong was the reality that alphabets take significant time
 
 Therefore, rather than simply creating a new alphabet, King Sejong understood that realizing his vision of mass literacy would depend on creating an alphabet that could be learned quickly and with minimal effort.
 
-## Making Information Helpful
+## Making information helpful
 
 Learning any alphabet is difficult, in part, because it requires learners to memorize the associations between the alphabet’s [letters](/glossary/letters) and the sounds or other parts of language that they represent.
 
@@ -16,7 +16,7 @@ Stated simply, alphabets include a lot of information, but most of the time, tha
 
 What distinguishes King Sejong from the alphabet creators that came before him was that he made helpfulness a central part of his design approach.
 
-## Relying on Geometry
+## Relying on geometry
 
 One of the first things a person might notice about Hangeul is how [geometrically](/glossary/geometric) patterned the letters are. In fact, by comparison to most of the world’s alphabets, Hangeul may be the most geometric in nature.
 
@@ -37,7 +37,7 @@ Modern professionals know that incorporating familiarity into the design of tech
 
 Almost six centuries ago, King Sejong seems to have arrived at this insight on his own, and in sacrificing ornate beauty for geometric simplicity, King Sejong likely lowered a barrier of entry for the people his alphabet was intended to serve.
 
-## Emphasizing Distinction
+## Emphasizing distinction
 
 A second feature of Hangeul related to the letter shapes was used to signal a key distinction between consonants and vowels, which are the two primary classes of speech sounds.
 
@@ -58,7 +58,7 @@ Like many other alphabets, English doesn’t rely on different visual cues to ca
 
 Again, King Sejong appears to have known that this design decision could serve as a useful affordance to the learner of Hangeul, who could rely solely on basic visual cues to differentiate consonants and vowels.
 
-## Reducing Confusability
+## Reducing confusability
 
 While focusing on simplistic geometric letter designs for Hangeul, King Sejong was also aware that the letters should be easily distinguishable from each other.
 
@@ -81,10 +81,8 @@ Today, designers understand that presenting people with clear and relevant infor
 
 In the next article, we’ll examine several more design features of Hangeul that brilliantly solve problems for the people who use it.
 
-## References
+### References
 
-Coulmas, F. (1989). *The writing systems of the world*. Blackwell Publishing.
-
-Ehri, L. C. & Roberts, T. (2006). *The roots of learning to read and write: Acquisition of letters and phonemic awareness*. In D.K. Dickinson & S. B. Neuman (Eds.) *Handbook of early literacy research* (Vol. 2, pp. 113–34). Guilford Publications.
-
-Lee, S.-O. (1997). Graphical ingenuity in the Korean writing system: With new reference to calligraphy. In Kim-Renaud, Y.-K. (Ed.),*The Korean alphabet: Its history and structure* (pp. 107-116). University of Hawaii Press.
+- Coulmas, F. (1989). *The writing systems of the world*. Blackwell Publishing.
+- Ehri, L. C. & Roberts, T. (2006). *The roots of learning to read and write: Acquisition of letters and phonemic awareness*. In D.K. Dickinson & S. B. Neuman (Eds.) *Handbook of early literacy research* (Vol. 2, pp. 113–34). Guilford Publications.
+- Lee, S.-O. (1997). Graphical ingenuity in the Korean writing system: With new reference to calligraphy. In Kim-Renaud, Y.-K. (Ed.),*The Korean alphabet: Its history and structure* (pp. 107-116). University of Hawaii Press.

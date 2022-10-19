@@ -4,7 +4,7 @@ Because he understood the usability limitations of existing [alphabets](/glossar
 
 The story of King Sejong and the creation of the Korean alphabet surely offers some lessons for today’s design challenges, whether our intention is to make a website more readable or to transform the lives of those around us.
 
-## Solving for the People
+## Solving for the people
 
 The first lesson for human-centered design is to be principled and predictable.
 
@@ -26,7 +26,7 @@ This point leads us finally to our last lesson, which is to work with empathy.
 
 King Sejong spent years of his life laboring to solve a problem that he personally did not experience. That is, although he was literate, he believed deeply in the importance of bringing literacy to his people, even though such an outcome would threaten the very power structure of which he was at the top. Empathy is central to the philosophy of modern-day UX design, but there’s never a bad time to remind ourselves of just why this is so important.
 
-## From the Past to the Future
+## From the past to the future
 
 We don’t often think of alphabets as tools that are capable of harming or helping others, but looking back in history at the creation of Hangeul, we can see that this is very much the case.
 

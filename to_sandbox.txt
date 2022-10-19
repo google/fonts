@@ -1,6 +1,4 @@
 # New
-ofl/climatecrisis # https://github.com/google/fonts/pull/5350
-ofl/handjet # https://github.com/google/fonts/pull/5376
 ofl/marhey # https://github.com/google/fonts/pull/5374
 ofl/notosansmendekikakui # https://github.com/google/fonts/pull/5143
 ofl/notoserifkhojki # https://github.com/google/fonts/pull/5152
@@ -24,3 +22,9 @@ catalog/designers/sophiatai # https://github.com/google/fonts/pull/5408
 
 # Metadata / Description / License
 ofl/notosansbamum # https://github.com/google/fonts/pull/5412
+
+# Hold List
+#  The following projects are on hold until their axis registrations
+#  have been pushed to production.
+# ofl/climatecrisis # https://github.com/google/fonts/pull/5350
+# ofl/handjet # https://github.com/google/fonts/pull/5376

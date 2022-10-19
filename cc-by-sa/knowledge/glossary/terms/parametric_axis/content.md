@@ -3,7 +3,7 @@ A parametric [axis](/glossary/axis_in_variable_fonts) in a [variable font](/glos
 
 <figure>
 
-![ALT](images/thumbnail.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

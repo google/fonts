@@ -37,7 +37,7 @@ For more demanding situations where shifts in positioning arenâ€™t acceptable at
 
 <figure>
 
-![INSERT_ALT](images/4_4a.gif)
+images/4_4a.gif
 
 </figure>
 
@@ -67,7 +67,7 @@ Finally, for other special interactive effects, keep in mind that `:hover` isnâ€
 
 <figure>
 
-![INSERT_ALT](images/4_6.gif)
+images/4_6.gif
 
 <figcaption>Multiplexed hover effects with more expressive variations, on a letter-by-letter basis.</figcaption>
 

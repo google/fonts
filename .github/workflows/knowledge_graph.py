@@ -257,10 +257,10 @@ def _check_image_files(knowledge: KnowledgeContent) -> bool:
         has_view_box = "viewBox" in root.attributes
         has_width_and_height = "width" in root.attributes and "height" in root.attributes
         if not has_view_box and not has_width_and_height:
-            print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge_dir))
+            print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge.knowledge_dir))
             result = False
         if image_file.suffix != ".svg" and image_file.stat().st_size > MAX_IMAGE_SIZE_KB * 1024:
-            print("File exceeds max size of %s KB:" % MAX_IMAGE_SIZE_KB, image_file.relative_to(knowledge_dir))
+            print("File exceeds max size of %s KB:" % MAX_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))
             result = False
     return result
 

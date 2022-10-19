@@ -11,4 +11,5 @@ fallback {
 }
 fallback_only: false
 description:
-  "Adjust shapes to increasingly rounded forms."
+  "Adjust shapes from angular defaults (0%) to" 
+  " become increasingly rounded (up to 100%)."

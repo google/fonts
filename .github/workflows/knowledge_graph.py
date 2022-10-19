@@ -1,12 +1,14 @@
 from absl import app
 from absl import flags
+from gftools import knowledge_pb2
+from google.protobuf import text_format
 import itertools
 import mistune  # markdown => ast
 from xml.dom import minidom
 from pathlib import Path
 import re
 import sys
-from typing import Callable, Iterable, List, Mapping, Set, Union
+from typing import Callable, Iterable, List, Mapping, NamedTuple, Optional, Tuple, Set, Union
 
 
 MAX_IMAGE_SIZE_KB = 800
@@ -73,6 +75,54 @@ flags.DEFINE_bool("print_valid", False, "Whether to print valid links")
 MdValue = Union[Mapping[str, "MdValue"]]
 
 
+class KnowledgeContent(NamedTuple):
+    repo_root: Path
+    knowledge_dir: Path
+    md_files: Tuple[Path, ...]
+    textproto_files: Tuple[Path, ...]
+    unambiguous_names: Mapping[str, Path]
+
+    def module_name_to_path(self: "KnowledgeContent", name: str) -> Path:
+        return self.knowledge_dir / "modules" / name.lower().replace(" ", "_") / "module.textproto"
+
+    def lesson_target_to_path(self: "KnowledgeContent", target: str) -> Path:
+        return self.knowledge_dir / _link_target_to_path(self.unambiguous_names, "/lesson/" + target)
+
+    def term_target_to_path(self: "KnowledgeContent", target: str) -> Path:
+        return self.knowledge_dir / _link_target_to_path(self.unambiguous_names, "/glossary/" + target)
+
+    def topic_target_to_path(self: "KnowledgeContent", target: str) -> Path:
+        return self.knowledge_dir / _link_target_to_path(self.unambiguous_names, "/topic/" + target)
+
+    def link_target_to_path(self: "KnowledgeContent", target: str) -> Path:
+        return self.knowledge_dir / _link_target_to_path(self.unambiguous_names, target)
+
+    @classmethod
+    def load(cls, repo_root: Path) -> "KnowledgeContent":
+        knowledge_dir =  repo_root / "cc-by-sa" / "knowledge"
+        assert knowledge_dir.is_dir(), f"No dir {knowledge_dir}"
+
+        md_files = []
+        textproto_files = []
+        for file in knowledge_dir.rglob("*"):
+            if file.suffix.lower() == ".md":
+                md_files.append(file)
+            elif file.suffix.lower() == ".textproto":
+                textproto_files.append(file)
+            else:
+                pass
+
+        unambiguous_names = {}
+        for name, entries in itertools.groupby(sorted(md_files, key=lambda p: p.parent.name), key=lambda p: p.parent.name):
+            entries = list(entries)
+            if len(entries) != 1:
+                print(name, "is ambiguous")
+                continue
+            unambiguous_names[name] = str(entries[0].relative_to(knowledge_dir).parent)
+
+        return cls(repo_root, knowledge_dir, tuple(md_files), tuple(textproto_files), unambiguous_names)
+
+
 def _markdown_ast(md_file: Path) -> List[MdValue]:
     return mistune.create_markdown(renderer=mistune.AstRenderer())(md_file.read_text())
 
@@ -90,29 +140,43 @@ def _ast_iter(root: List[MdValue], filter_fn: Callable[[MdValue], bool]) -> Iter
                 frontier.extend(entry)
 
 
-def _link_target_to_path(names: Mapping[str, str], target: str) -> Path:
+def _link_target_to_path(names: Mapping[str, Path], target: str) -> Path:
     for matcher, link_to_path_fn in _LINK_TO_PATH:
         if matcher.search(target):
             return link_to_path_fn(names, target)
     raise ValueError(f"Unrecognized target {target}")
 
 
-def main(_):
-    return_code = 0
+def _safe_relative_to(parent: Path, child: Path) -> Path:
+    try:
+        return child.relative_to(parent)
+    except ValueError:
+        return child
 
-    knowledge_dir = Path(__file__).parent.parent.parent / "cc-by-sa" / "knowledge"
-    assert knowledge_dir.is_dir(), f"No dir {knowledge_dir}"
 
-    md_files = list(knowledge_dir.glob("**/*.md"))
-    unambiguous_names = {}
-    for name, entries in itertools.groupby(sorted(md_files, key=lambda p: p.parent.name), key=lambda p: p.parent.name):
-        entries = list(entries)
-        if len(entries) != 1:
-            print(name, "is ambiguous")
-            continue
-        unambiguous_names[name] = str(entries[0].relative_to(knowledge_dir).parent)
+def _maybe_print_check(result: bool, repo_root: Path, referrer: Path, ref: str, target: Optional[Path]) -> bool:
+    if FLAGS.print_valid or not result:
+        message = "valid   "
+        if not result:
+            message = "INVALID "
+        suffix = ""
+        if target is not None:
+            suffix = " => " + str(_safe_relative_to(repo_root, target))
+        print(message, _safe_relative_to(repo_root, referrer), f"\"{ref}\"{suffix}")
+    return result
 
-    for md_file in md_files:
+
+def _check_file_present(repo_root: Path, referrer: Path, ref: str, target: Path) -> bool:
+    return _maybe_print_check(target.is_file(), repo_root, referrer, ref, target)
+
+
+def _check_contributor(repo_root: Path, referrer: Path, ref: str, contributors: Set[str]) -> bool:
+    return _maybe_print_check(ref in contributors, repo_root, referrer, ref, None)
+
+
+def _check_md_files(knowledge: KnowledgeContent) -> bool:
+    result = True
+    for md_file in knowledge.md_files:
         ast = _markdown_ast(md_file)
         for link in _ast_iter(ast, lambda v: v.get("type", None) == "link"):
             target = link.get("link", "")
@@ -121,35 +185,94 @@ def main(_):
             if re.search("^http(s)?://", target.lower()):
                 continue  # we aren't in the business of validating outbound links
 
-            target_path = knowledge_dir / _link_target_to_path(unambiguous_names, target)
+            target_path = knowledge.link_target_to_path(target)
+            result = _check_file_present(knowledge.repo_root, md_file, target, target_path) and result
 
-            should_print = True
-            result = "valid   "
-            if target_path.is_file():
-                should_print = FLAGS.print_valid
-            else:
-                result = "INVALID "
-                return_code = 1
+    return result
 
-            if should_print:
-                print(result, target, "=>", target_path)
-                print("  in", md_file.relative_to(knowledge_dir))
 
-    image_files = list(knowledge_dir.glob("**/images/*"))
+def _check_proto_files(knowledge: KnowledgeContent) -> bool:
+    # TODO support alt_ids, many Knowledge constructs have them
+
+    # The set of valid contributors is useful in upcoming validations
+    contributors_file = knowledge.knowledge_dir / "contributors.textproto"
+    assert contributors_file.is_file(), contributors_file
+    contributors = {c.name for c in text_format.Parse(contributors_file.read_text(), knowledge_pb2.ContributorsProto()).contributors}
+
+    result = True
+    for textproto_file in knowledge.textproto_files:
+        expected_files = set()
+
+        if textproto_file.stem == "contributors":
+            pass  # handled above
+
+        elif textproto_file.stem == "knowledge":
+            proto = text_format.Parse(textproto_file.read_text(), knowledge_pb2.KnowledgeProto())
+            expected_files |= {(m, knowledge.module_name_to_path(m)) for m in proto.modules}
+
+        elif textproto_file.stem == "term":
+            proto = text_format.Parse(textproto_file.read_text(), knowledge_pb2.TermProto())
+            expected_files |= {(n, knowledge.lesson_target_to_path(n)) for n in proto.related_lessons}
+
+        elif textproto_file.stem == "lesson":
+            proto = text_format.Parse(textproto_file.read_text(), knowledge_pb2.LessonProto())
+            for author in set(proto.authors) | set(proto.reviewers):
+                result = _check_contributor(knowledge.repo_root, textproto_file, author, contributors) and result
+            expected_files |= {(n, knowledge.topic_target_to_path(n)) for n in proto.topics}
+            expected_files |= {(n, knowledge.lesson_target_to_path(n)) for n in proto.prev_lessons}
+            expected_files |= {(n, knowledge.lesson_target_to_path(n)) for n in proto.next_lessons}
+            expected_files |= {(n, knowledge.term_target_to_path(n)) for n in proto.related_terms}
+
+            # thumbnail is mandatory
+            expected_files.add(("thumbnail", textproto_file.parent / "images" / "thumbnail.svg"))
+
+
+        elif textproto_file.stem == "module":
+            proto = text_format.Parse(textproto_file.read_text(), knowledge_pb2.ModuleProto())
+            expected_files |= {(n, knowledge.lesson_target_to_path(n)) for n in proto.lessons}
+
+        elif textproto_file.stem == "topic":
+            # The Topic parses. And that's enough.
+            text_format.Parse(textproto_file.read_text(), knowledge_pb2.TopicProto())
+
+        else:
+            raise ValueError("No handler for " + textproto_file.relative_to(knowledge.repo_root))
+
+        for ref, expected_file in expected_files:
+            result = _check_file_present(knowledge.repo_root, textproto_file, ref, expected_file) and result
+
+
+    return result
+
+
+def _check_image_files(knowledge: KnowledgeContent) -> bool:
+    result = True
+    image_files = list(knowledge.knowledge_dir.glob("**/images/*"))
     for image_file in image_files:
-      if image_file.name == "thumbnail.svg":
-        root = minidom.parseString(image_file.read_text()).documentElement
-        if root.tagName != "svg":
-          print("Root element must be <svg>:", image_file.relative_to(knowledge_dir))
-          return_code = 1
+        if image_file.name == "thumbnail.svg":
+            root = minidom.parseString(image_file.read_text()).documentElement
+            if root.tagName != "svg":
+                print("Root element must be <svg>:", image_file.relative_to(knowledge.repo_root))
+                result = False
         has_view_box = "viewBox" in root.attributes
         has_width_and_height = "width" in root.attributes and "height" in root.attributes
         if not has_view_box and not has_width_and_height:
-          print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge_dir))
-          return_code = 1
-      if image_file.suffix != ".svg" and image_file.stat().st_size > MAX_IMAGE_SIZE_KB * 1024:
-        print("File exceeds max size of %s KB:" % MAX_IMAGE_SIZE_KB, image_file.relative_to(knowledge_dir))
-        return_code = 1
+            print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge_dir))
+            result = False
+        if image_file.suffix != ".svg" and image_file.stat().st_size > MAX_IMAGE_SIZE_KB * 1024:
+            print("File exceeds max size of %s KB:" % MAX_IMAGE_SIZE_KB, image_file.relative_to(knowledge_dir))
+            result = False
+    return result
+
+
+def main(_):
+    knowledge = KnowledgeContent.load(Path(__file__).parent.parent.parent)
+
+    return_code = 1
+    if (_check_md_files(knowledge)
+        and _check_proto_files(knowledge)
+        and _check_image_files(knowledge)):
+        return_code = 0
 
     sys.exit(return_code)
 

@@ -34,7 +34,7 @@ In the eighteenth century, two other type designers appeared who would leave a l
 
 <figure>
 
-![INSERT_ALT](images/GFKmetaltype3_romananditalicofwilliamcaslon.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

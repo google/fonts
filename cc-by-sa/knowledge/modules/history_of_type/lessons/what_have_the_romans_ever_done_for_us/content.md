@@ -2,7 +2,7 @@ We can be thankful to the Romans for a number of technological innovations and i
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype2_romansquarecapitals.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

@@ -6,7 +6,7 @@ Johannes Gutenberg, some time in the 1440s, found a way, using an ingenious hand
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype1_metaltype.svg)
+![INSERT_ALT](images/thumbnail.svg)
 
 </figure>
 

@@ -75,3 +75,4 @@ source {
   repository_url: "https://github.com/googlefonts/plex"
   commit: "80fcb676509354caa75c6bfc7f9db598545d466f"
 }
+primary_script: "Hani"

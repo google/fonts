@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-abyssinica"
   archive_url: "https://github.com/silnrsi/font-abyssinica/releases/download/v2.100/AbyssinicaSIL-2.100.zip"
 }
+primary_script: "Ethi"

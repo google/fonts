@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-alkalami"
   archive_url: "https://github.com/silnrsi/font-alkalami/releases/download/v2.000/Alkalami-2.000.zip"
 }
+primary_script: "Arab"

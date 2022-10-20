@@ -15,4 +15,3 @@ fonts {
 subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"
-primary_script: "Hani"

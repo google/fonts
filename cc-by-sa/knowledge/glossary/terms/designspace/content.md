@@ -2,7 +2,7 @@ A designspace (sometimes written as “design space”) is a system specified du
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![A representation of designspace, showing the “a” character rendered in different widths and weights.](images/thumbnail.svg)
 
 </figure>
 

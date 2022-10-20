@@ -2,7 +2,7 @@ The set of graphical symbols used to represent speech sounds in an [alphabetic](
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![The word “letters” set in both uppercase and lowercase, with the two cases of each letter linked together by a bounding box to signify that they are the same letter despite their different appearances.](images/thumbnail.svg)
 
 </figure>
 

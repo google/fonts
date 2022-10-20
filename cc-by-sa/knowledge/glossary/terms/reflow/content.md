@@ -4,7 +4,7 @@ In print, when a document has already been edited and designed, reflow can be pr
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![Three text boxes of different widths. The second box is narrower than the first and therefore words have moved down to new lines. The third box is very narrow and the bottom line of text has disappeared outside of the frame.](images/thumbnail.svg)
 
 </figure>
 

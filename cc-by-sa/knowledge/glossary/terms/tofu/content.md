@@ -2,7 +2,7 @@ When a character is not present in a font, and no fallback option is available, 
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![The phrase “Say no to tofu”, with the “o” in “tofu” replaced with the rectangular tofu symbol.](images/thumbnail.svg)
 
 </figure>
 

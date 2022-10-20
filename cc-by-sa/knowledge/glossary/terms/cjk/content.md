@@ -2,7 +2,7 @@ CJK is the shorthand collective name for the Chinese, Japanese, and Korean writi
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![Characters from Traditional Chinese, Simplified Chinese, Korean, and Japanese, set in Noto Sans.](images/thumbnail.svg)
 
 </figure>
 

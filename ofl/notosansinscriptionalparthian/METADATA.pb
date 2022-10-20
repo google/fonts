@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansInscriptionalParthian-Regular.ttf"
   post_script_name: "NotoSansInscriptionalParthian-Regular"
   full_name: "Noto Sans Inscriptional Parthian Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-parthian)"
 }
-subsets: "menu"
 subsets: "inscriptional-parthian"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/inscriptional-parthian.git"
+  archive_url: "https://github.com/notofonts/inscriptional-parthian/releases/download/NotoSansInscriptionalParthian-v2.003/NotoSansInscriptionalParthian-v2.003.zip"
+}
 is_noto: true
 languages: "aii_Prti"  # Assyrian Neo-Aramaic, Inscriptional Parthian
 languages: "xpr_Prti"  # Parthian

@@ -22,3 +22,4 @@ source {
   repository_url: "https://github.com/googlefonts/morisawa-biz-ud-mincho"
   commit: "7a76a4cc15a6d30b55aa6cdcb279e092796d756a"
 }
+primary_script: "Jpan"

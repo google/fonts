@@ -28,7 +28,7 @@ strong {
 }
 ```
 
-![INSERT_ALT](images/switching_to_vfs_1.svg)
+![A representation of the type as controlled by the preceding CSS. All of the text is set in its default weight, except for the word “weight”, which is bold.](images/switching_to_vfs_1.svg)
 
 Well, good news, because they *still* look like that! Although specialized variable axes require us to use `font-variation-settings` to control them, the weight axis has been mapped to the `font-weight` property we all know and love.
 
@@ -44,7 +44,7 @@ strong {
 }
 ```
 
-![INSERT_ALT](images/switching_to_vfs_2.svg)
+![A representation of the type as controlled by the preceding CSS. All of the text is set in a very light weight, except for the word “weight”, which is slightly lighter than the default bold.](images/switching_to_vfs_2.svg)
 
 Note: It’s not just the `strong` element that needs to be updated, but also any HTML element where the browser stylesheet is applying a bold weight. Typically, unless they’ve been overridden already, this includes `b`, `h1` to `h6`, and several other elements, including table headings (`th`) and dictionary definitions (`dd`). These will all need the setting of 663, too (or their own custom weight if you’d prefer).
 
@@ -58,7 +58,7 @@ em {
 }
 ```
 
-![INSERT_ALT](images/switching_to_vfs_3.svg)
+![A representation of the type as controlled by the preceding CSS. The word “italics” is now italicized.](images/switching_to_vfs_3.svg)
 
 Switching italics on and off in this case is very easy because it essentially just swaps between the two files. When uprights and italics (or [obliques](/glossary/oblique)) are bundled within the same variable font file, we need to employ `font-variation-settings` and use the `slnt` axis—see below.
 
@@ -84,7 +84,7 @@ body {
 }
 ```
 
-![INSERT_ALT](images/thumbnail.svg)
+![A representation of the type as controlled by the preceding CSS. The word “width” is now set in a wider width.](images/thumbnail.svg)
 
 With some very subtle tweaks to some already familiar code, we’ve switched from the static to variable version of Anybody, and used the power of variable fonts to give our text more stylistic variation that wouldn’t have been possible before, and all without loading multiple font files. Let’s review our final CSS:
 

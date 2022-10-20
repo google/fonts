@@ -6,7 +6,7 @@ For a simple example of hover interaction, let’s consider hyperlinks that chan
 
 <figure>
 
-![INSERT_ALT](images/4_1.gif)
+![An animated loop showing the effects of the styling discussed in the preceding text.](images/4_1.gif)
 
 </figure>
 <figcaption>Basic weight change on hover.</figcaption>
@@ -15,7 +15,7 @@ The effect is rather sudden, switching between weights instantly on hover. With 
 
 <figure>
 
-![INSERT_ALT](images/4_2.gif)
+![An animated loop showing the effects of font weight being animated, and how it affects elements around it.](images/4_2.gif)
 
 </figure>
 <figcaption>Subtle hover animation with variable fonts.</figcaption>
@@ -26,7 +26,7 @@ It’s very common for bolder weights of a typeface to occupy more space, which 
 
 <figure>
 
-![INSERT_ALT](images/4_3.gif)
+![An animated loop showing how the text still grows in horizontal space, but doesn’t affect the other elements around it.](images/4_3.gif)
 
 </figure>
 <figcaption>Hover animation with each element in separate fixed containers to prevent layout shift.</figcaption>
@@ -43,7 +43,7 @@ images/4_4a.gif
 
 <figure>
 
-![INSERT_ALT](images/4_4b.gif)
+![An animated loop showing how no text shifts when using multiplexed fonts.](images/4_4b.gif)
 
 </figure>
 <figcaption>Multiplexed fonts prevent shifts in the layout by maintaining the same width requirements across variants.</figcaption>
@@ -58,7 +58,7 @@ Multiplexing isn’t limited to just standard variations in weight or grades eit
 
 <figure>
 
-![INSERT_ALT](images/4_5.gif)
+![An animated loop showing the way different elements of the type’s design can be manipulated.](images/4_5.gif)
 
 </figure>
 <figcaption>Multiplexed hover animations with variations other than standard weight.</figcaption>

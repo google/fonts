@@ -1,0 +1,55 @@
+on:
+  push:
+    tags:
+      - "v*" # Push events to matching `v*` version srings. e.g. v1.0, v20.15.10
+
+name: Create and Publish Release
+
+jobs:
+  build:
+    name: Create and Publish Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install release dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade setuptools wheel twine
+      - name: Get release notes
+        id: release_notes
+        run: |
+          # By default, GH Actions checkout will only fetch a single commit.
+          # For us to extract the release notes, we need to fetch the tags
+          # and tag annotations as well.
+          # https://github.com/actions/checkout/issues/290
+          git fetch --tags --force
+          TAG_NAME=${GITHUB_REF/refs\/tags\//}
+          echo "$(git tag -l --format='%(contents)' $TAG_NAME)" > "${{ runner.temp }}/CHANGELOG.md"
+      - name: Create GitHub release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
+          body_path: "${{ runner.temp }}/CHANGELOG.md"
+          draft: false
+          prerelease: false
+
+      - name: Build and publish to PyPI
+        env:
+          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+        run: |
+          python setup.py sdist bdist_wheel
+          twine upload dist/gflanguages*

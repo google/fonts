@@ -59,7 +59,7 @@ Speaking of width, variable fonts with adjustable widths can be used to make dif
 
 <figure>
 
-![Five lines of type, with a different U.S. city name on each line. All use different widths, but all perfectly fill the same horizontal space.](images/3_6.svg)
+images/3_6.svg
 
 </figure>
 <figcaption>Variable fonts can be automatically condensed or expanded to fit different pieces of text on the same line length without changing the font size or resorting to synthetic squooshing.</figcaption>
@@ -70,7 +70,7 @@ Another approach for optimizing the spatial efficiency of a typeface is related 
 
 <figure>
 
-![First, a specimen using the word “Glyphs collide”, set over two lines, showing the descenders of “Glyphs” touching the ascenders of “collide”. Then, the same specimen with the ascenders and descenders reduced vertically to avoid the clash.](images/3_7.svg)
+images/3_7.svg
 
 </figure>
 <figcaption>Fonts with retractable ascenders and descenders can be used to avoid collisions for tight line spacing.</figcaption>

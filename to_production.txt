@@ -10,6 +10,7 @@ ofl/cantarell # https://github.com/google/fonts/pull/5213
 ofl/cantoraone # https://github.com/google/fonts/pull/5355
 ofl/finlandica # https://github.com/google/fonts/pull/5334
 ofl/nabla # https://github.com/google/fonts/pull/5245
+ofl/notosansbamum # https://github.com/google/fonts/pull/5115
 ofl/notosansbassavah # https://github.com/google/fonts/pull/5113
 ofl/notosansbuginese # https://github.com/google/fonts/pull/5116
 ofl/notosanschakma # https://github.com/google/fonts/pull/5118
@@ -35,6 +36,19 @@ ofl/reemkufiink # https://github.com/google/fonts/pull/5170
 # Designer profile
 catalog/designers/inhousetype # https://github.com/google/fonts/pull/5354
 
+# Axis Registry
+axisregistry/element_grid.textproto # https://github.com/google/fonts/pull/5333
+axisregistry/element_shape.textproto # https://github.com/google/fonts/pull/5333
+axisregistry/flair.textproto # https://github.com/google/fonts/pull/5301
+axisregistry/hyper_expansion.textproto # https://github.com/google/fonts/pull/5301
+axisregistry/italic.textproto # https://github.com/google/fonts/pull/5301
+axisregistry/year.textproto # https://github.com/google/fonts/pull/5333
+
 # Metadata / Description / License
 ofl/solway # https://github.com/google/fonts/pull/5353
 ofl/zcoolxiaowei # https://github.com/google/fonts/pull/5013
+
+# Hold List
+#  The following projects are on hold until their axis registrations
+#  have been pushed to production.
+# ofl/readexpro # https://github.com/google/fonts/pull/5331

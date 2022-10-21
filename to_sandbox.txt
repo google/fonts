@@ -79,6 +79,11 @@ ofl/zenoldmincho # https://github.com/google/fonts/pull/5410
 lang/languages/vi_Latn.textproto # https://github.com/google/fonts/pull/5451
 lang/languages/yo_Latn.textproto # https://github.com/google/fonts/pull/5451
 
+# Axis Registry
+axisregistry/x_rotation.textproto # https://github.com/google/fonts/pull/5448
+axisregistry/y_rotation.textproto # https://github.com/google/fonts/pull/5448
+axisregistry/roundness.textproto # https://github.com/google/fonts/pull/5454
+
 # Hold List
 #  The following projects are on hold until their axis registrations
 #  have been pushed to production.

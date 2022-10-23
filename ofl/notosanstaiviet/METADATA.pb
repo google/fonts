@@ -10,9 +10,15 @@ fonts {
   filename: "NotoSansTaiViet-Regular.ttf"
   post_script_name: "NotoSansTaiViet-Regular"
   full_name: "Noto Sans Tai Viet Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-viet)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "tai-viet"
+source {
+  repository_url: "https://github.com/notofonts/tai-viet.git"
+  archive_url: "https://github.com/notofonts/tai-viet/releases/download/NotoSansTaiViet-v2.003/NotoSansTaiViet-v2.003.zip"
+}
 is_noto: true
 languages: "blt_Tavt"  # Tai Dam

@@ -1,0 +1,15 @@
+#Rotation in Y, based on https://github.com/andyclymer/Tilt-Typeface
+tag: "YROT"
+display_name: "Rotation in Y"
+min_value: -180
+default_value: 0
+max_value: 180
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Letters rotate around the Y axis."
+

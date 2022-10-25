@@ -1,4 +1,4 @@
-Color fonts (also known as chromatic fonts) can use multiple colors in a single glyph, rather than a flat single color used by non-color (monochromatic) fonts. The default color values are also contained within the font file itself, although these can be overridden by the designer.
+Color [fonts](/glossary/font) (also known as chromatic fonts) can use multiple colors in a single [glyph](/glossary/glyph), rather than a flat single color used by non-color (monochromatic) fonts. The default color values are also contained within the font file itself, although these can be overridden by the designer.
 
 <figure>
 

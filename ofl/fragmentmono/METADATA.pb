@@ -2,6 +2,7 @@ name: "Fragment Mono"
 designer: "Wei Huang, URW Design Studio"
 license: "OFL"
 category: "SANS_SERIF"
+category: "MONOSPACE"
 date_added: "2022-10-24"
 fonts {
   name: "Fragment Mono"

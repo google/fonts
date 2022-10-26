@@ -26,9 +26,12 @@ jobs:
           python-version: 3.8
 
       - name: Install dependencies
+        # The --pre flag below will ensure we use the latest Font Bakery pre-releases
+        # and benefit from its newest checks:
         run: |
           sudo apt install libharfbuzz-dev libharfbuzz-bin libfreetype6-dev libglib2.0-dev libcairo2-dev
           python -m pip install --upgrade pip
+          pip install --pre fontbakery
           pip install gftools[qa] pytest
           
       - name: Check fonts

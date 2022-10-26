@@ -1,8 +1,13 @@
+# New
+ofl/notosansmendekikakui # https://github.com/google/fonts/pull/5143
+
+# Upgrade
+ofl/notosanstakri # https://github.com/google/fonts/pull/5228
+
 # Axis Registry
+axisregistry/roundness.textproto # https://github.com/google/fonts/pull/5454
 axisregistry/x_rotation.textproto # https://github.com/google/fonts/pull/5448
 axisregistry/y_rotation.textproto # https://github.com/google/fonts/pull/5448
-axisregistry/roundness.textproto # https://github.com/google/fonts/pull/5454
-
 # Hold List
 #  The following projects are on hold until their axis registrations
 #  have been pushed to production.

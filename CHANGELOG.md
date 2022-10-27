@@ -1,6 +1,10 @@
 Below are the most important changes from each release.
 
-## Upcoming release: 0.3.9 (2022-Oct-??)
+## Upcoming release: 0.3.10 (2022-Nov-??)
+  - ...
+
+
+## 0.3.9 (2022-Oct-27)
   - loosen protobuf dependency on setup.py so that it is easier to install axisregistry as a dependency of other projects (such as fontbakery) (https://github.com/googlefonts/axisregistry/commit/bb213824f9b8a6215b9b78c28f59773e0bd93515)
   - #91 Added ROND axis
   - #55 Added YROT axis

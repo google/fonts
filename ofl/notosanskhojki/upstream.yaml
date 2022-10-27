@@ -1,0 +1,7 @@
+archive: https://github.com/notofonts/khojki/releases/download/NotoSansKhojki-v2.003/NotoSansKhojki-v2.003.zip
+branch: main
+files:
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  OFL.txt: OFL.txt
+  NotoSansKhojki/googlefonts/ttf/NotoSansKhojki-Regular.ttf: NotoSansKhojki-Regular.ttf

@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/bamum.git"
-  archive_url: "https://github.com/notofonts/bamum/releases/download/NotoSansBamum-v2.001/NotoSansBamum-v2.001.zip"
+  archive_url: "https://github.com/notofonts/bamum/releases/download/NotoSansBamum-v2.002/NotoSansBamum-v2.002.zip"
 }
 is_noto: true
 languages: "bax_Bamu"  # Bamun

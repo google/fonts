@@ -10,14 +10,20 @@ fonts {
   filename: "NotoSansSundanese[wght].ttf"
   post_script_name: "NotoSansSundanese-Regular"
   full_name: "Noto Sans Sundanese Regular"
-  copyright: "Copyright 2017 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "sundanese"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/notofonts/sundanese.git"
+  archive_url: "https://github.com/notofonts/sundanese/releases/download/NotoSansSundanese-v2.003/NotoSansSundanese-v2.003.zip"
 }
 is_noto: true
 languages: "sa_Sund"  # Sanskrit, Sundanese

@@ -12,7 +12,7 @@ p {
 
 <figure>
 
-![INSERT_ALT](images/color_fonts_1.png)
+![A color font specimen showing the word “metal” rendered as intended.](images/color_fonts_1.png)
 
 </figure>
 
@@ -34,7 +34,7 @@ p {
 
 <figure>
 
-![INSERT_ALT](images/color_fonts_2.png)
+![A color font specimen showing the word “metal” rendered in one of the alternate built-in color palettes.](images/color_fonts_2.png)
 
 </figure>
 
@@ -52,7 +52,7 @@ The Nabla font contains multiple index IDs for the color swatches within its pal
 
 <figure>
 
-![INSERT_ALT](images/color_fonts_3.png)
+![A color font specimen showing the word “metal” rendered as intended, with additional color customizations included to add a different color gradient to the bottom of the main face of the type.](images/color_fonts_3.png)
 
 </figure>
 

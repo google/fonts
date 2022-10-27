@@ -6,7 +6,7 @@ Higher-level properties like `font-size`, `width`, `padding`, and `line-height` 
 
 <figure>
 
-images/3_1.gif
+![An animated loop showing how the content adapts when the container changes in width. The change in text size for the heading appears to jump.](images/3_1.gif)
 
 </figure>
 <figcaption>Static fonts with a layout breakpoint: A single breakpoint changes padding, font sizes, and line-height.</figcaption>
@@ -15,7 +15,7 @@ A smoother and more seamless approach is to reduce the reliance on such queries,
 
 <figure>
 
-images/3_2.gif
+![An animated loop showing how the content adapts when the container changes in width. The change in text size for the heading is more fluid.](images/3_2.gif)
 
 </figure>
 <figcaption>Static fonts with intrinsic layout: The widths of the fonts remain fixed, but padding, font sizes, and line-heights change more smoothly with relative units.</figcaption>
@@ -28,7 +28,7 @@ The most obvious approach for optimizing a typeface’s spatial proportions is t
 
 <figure>
 
-images/3_3.gif
+![An animated loop showing how the content adapts when the container changes in width. The more fluid shift in font size is omplimented with a change in width at certain breakpoints, although that change results in a noticeable jump.](images/3_3.gif)
 
 </figure>
 <figcaption>Breakpoint for static fonts with intrinsic layout: Now the font widths also change, but only at a single breakpoint.</figcaption>
@@ -37,7 +37,7 @@ Static typeface families that offer multiple widths sometimes have large differe
 
 <figure>
 
-images/3_4.gif
+![An animated loop showing how the content adapts when the container changes in width. The more fluid shift in font size is omplimented with a change in width at certain breakpoints, which now also changes fluidly.](images/3_4.gif)
 
 </figure>
 <figcaption>Gradual variable font changes with intrinsic layout: Everything changes smoothly thanks to relative units and the fine-tuning flexibility of variable fonts.</figcaption>
@@ -48,7 +48,7 @@ Special care should be taken when adjusting the width of a typeface, particularl
 
 <figure>
 
-images/3_5.svg
+![Four paragraphs set in the same typeface, but using a different width setting for each.](images/3_5.svg)
 
 </figure>
 <figcaption>Avoid extremely narrow or wide font variants for paragraph text, as they can harm readability when typesetting anything more than a few words at a time.</figcaption>
@@ -59,7 +59,7 @@ Speaking of width, variable fonts with adjustable widths can be used to make dif
 
 <figure>
 
-images/3_6.svg
+![Five lines of type, with a different U.S. city name on each line. All use different widths, but all perfectly fill the same horizontal space.](images/3_6.svg)
 
 </figure>
 <figcaption>Variable fonts can be automatically condensed or expanded to fit different pieces of text on the same line length without changing the font size or resorting to synthetic squooshing.</figcaption>
@@ -70,7 +70,7 @@ Another approach for optimizing the spatial efficiency of a typeface is related 
 
 <figure>
 
-images/3_7.svg
+![First, a specimen using the word “Glyphs collide”, set over two lines, showing the descenders of “Glyphs” touching the ascenders of “collide”. Then, the same specimen with the ascenders and descenders reduced vertically to avoid the clash.](images/3_7.svg)
 
 </figure>
 <figcaption>Fonts with retractable ascenders and descenders can be used to avoid collisions for tight line spacing.</figcaption>
@@ -81,7 +81,7 @@ A technique that is much less common is to use variable fonts with an axis for a
 
 <figure>
 
-images/3_8.gif
+![An animated loop showing how the content adapts when the container changes in width. When the container becomes narrow and the lin-height is decreased, the ascenders and descenders shorten accordingly to avoid clashes.](images/3_8.gif)
 
 </figure>
 <figcaption>Variable fonts allow for extenders that shrink or grow as space allows to prevent glyphs from colliding between lines.</figcaption>

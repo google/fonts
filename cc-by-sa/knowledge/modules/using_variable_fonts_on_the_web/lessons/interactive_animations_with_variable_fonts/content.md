@@ -37,7 +37,7 @@ For more demanding situations where shifts in positioning arenâ€™t acceptable at
 
 <figure>
 
-images/4_4a.gif
+![An animated loop showing how text shifts when using non-multiplexed fonts.](images/4_4a.gif)
 
 </figure>
 
@@ -67,7 +67,7 @@ Finally, for other special interactive effects, keep in mind that `:hover` isnâ€
 
 <figure>
 
-images/4_6.gif
+![An animated loop showing how each letter drips with a slime-like effect when the user hovers over them.](images/4_6.gif)
 
 <figcaption>Multiplexed hover effects with more expressive variations, on a letter-by-letter basis.</figcaption>
 

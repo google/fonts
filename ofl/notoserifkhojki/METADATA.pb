@@ -12,6 +12,7 @@ fonts {
   full_name: "Noto Serif Khojki Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)"
 }
+subsets: "khojki"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

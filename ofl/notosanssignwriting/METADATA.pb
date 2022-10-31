@@ -20,3 +20,10 @@ source {
   archive_url: "https://github.com/notofonts/sign-writing/releases/download/NotoSansSignWriting-v2.004/NotoSansSignWriting-v2.004.zip"
 }
 is_noto: true
+sample_text {
+  masthead_full: "𝡝𝪩𝡝𝪡𝤅"
+  masthead_partial: "𝧿𝨔"
+  poster_sm: "𝧿𝨊𝡝𝪜𝦦𝪬𝡝𝪩𝡝𝪡𝤅"
+  poster_md: "𝡝𝪜𝦦𝪬"
+  poster_lg: "𝡝𝪩𝡝𝪡𝤅"
+}

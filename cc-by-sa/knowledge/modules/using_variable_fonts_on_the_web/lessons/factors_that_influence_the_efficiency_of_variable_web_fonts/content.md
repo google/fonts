@@ -2,25 +2,45 @@ Variable fonts are often more efficient than their static counterparts in terms 
 
 With so many moving parts involved—for both font technology and web design/development—the most significant factors may change from one project to the next. Having said that, here is a general overview of the most noteworthy aspects involved:
 
-- **What is the quality of the internet connection?** [File sizes](/glossary/file_size) are obviously a major factor in optimizing the speed of any web page. However, another factor that is often overlooked is the *number* of files and [server requests](https://gigapress.net/reduce-http-requests/) involved. Depending on the specifics of a visitor’s internet connection and the settings of the server where the files live, it can sometimes be faster to load a single variable font even if its file size is slightly larger than the total size for a matching set of static fonts.
+### What is the quality of the internet connection?
 
-- **How many glyphs are in the fonts?** It’s no surprise that fonts containing more glyphs will have larger file sizes. The increases are typically less severe for variable fonts though than for a set of matching static fonts.
+[File sizes](/glossary/file_size) are obviously a major factor in optimizing the speed of any web page. However, another factor that is often overlooked is the *number* of files and [server requests](https://gigapress.net/reduce-http-requests/) involved. Depending on the specifics of a visitor’s internet connection and the settings of the server where the files live, it can sometimes be faster to load a single variable font even if its file size is slightly larger than the total size for a matching set of static fonts.
 
-- **How many stylistic variants are used on the page?** A page that only uses one or two variants (e.g. Regular & Bold) will probably see smaller benefits from variable fonts than a page with multiple weights, widths, italics, etc.
+## How many glyphs are in the fonts?
 
-- **How many variable font files are required to match a similar selection of static fonts?** Some typeface families can be stored entirely in a single variable font file, but some must be split into separate files (e.g. for upright and italic variants). And of course separate typeface families will almost always require separate variable fonts.
+It’s no surprise that fonts containing more glyphs will have larger file sizes. The increases are typically less severe for variable fonts though than for a set of matching static fonts.
 
-- **How irregular is the typeface?** Different typeface designs require different amounts of font data. A simple sans-serif typeface can be represented with fewer data points than an elaborate serif typeface. These differences affect the compression and efficiency of font file sizes for static and variable fonts differently.
+## How many stylistic variants are used on the page?
 
-- **How many axes of variation are involved?** Every [axis](/glossary/axis_in_variable_fonts) of stylistic variation increases file size requirements. A variable font with both weight and width axes will have a larger file size than if it only offered a single weight axis. It is worth noting, however, that fonts with multiple axes of variation typically provide much more efficiency in terms of potential variants per kilobyte.
+A page that only uses one or two variants (e.g. Regular & Bold) will probably see smaller benefits from variable fonts than a page with multiple weights, widths, italics, etc.
 
-- **How many source designs were used to produce the variable font?** Almost all variable fonts work by interpolating multiple underlying [source designs](/glossary/masters) that were drawn to be compatible with each other. Some typeface families require more source designs to complete their intended [designspace](https://superpolator.com/designspace.html), which usually results in larger variable font files.
+## How many variable font files are required to match a similar selection of static fonts?
 
-- **How much [hinting](/glossary/hinting) data is included in the fonts, if any?** Minimal hinting for typical modern rendering environments will likely require less data than intense hinting for low-resolution screens and old operating systems.
+Some typeface families can be stored entirely in a single variable font file, but some must be split into separate files (e.g. for upright and italic variants). And of course separate typeface families will almost always require separate variable fonts.
 
-- **What “flavor” of OpenType font data is used?** Modern variable fonts are generated in the [OpenType](/glossary/open_type) font format. But there are two major standards (or “flavors”) for outline data in OpenType—CFF and TTF—each with different implications for font file sizes, among other things. CFF-flavored variable fonts typically have smaller sizes than their TTF-flavored equivalents, but they aren’t supported quite as widely.
+## How irregular is the typeface?
 
-- **What kind of compression is used for the fonts?** Uncompressed .otf or .ttf fonts will have much larger file sizes before they’ve been converted to the [.woff or .woff2 web font formats](https://en.wikipedia.org/wiki/Web_Open_Font_Format). (Side note: All browsers that support variable fonts also support the .woff2 format, so variable web fonts should almost always be delivered as .woff2 files.)
+Different typeface designs require different amounts of font data. A simple sans-serif typeface can be represented with fewer data points than an elaborate serif typeface. These differences affect the compression and efficiency of font file sizes for static and variable fonts differently.
+
+## How many axes of variation are involved?
+
+Every [axis](/glossary/axis_in_variable_fonts) of stylistic variation increases file size requirements. A variable font with both weight and width axes will have a larger file size than if it only offered a single weight axis. It is worth noting, however, that fonts with multiple axes of variation typically provide much more efficiency in terms of potential variants per kilobyte.
+
+## How many source designs were used to produce the variable font?
+
+Almost all variable fonts work by interpolating multiple underlying [source designs](/glossary/masters) that were drawn to be compatible with each other. Some typeface families require more source designs to complete their intended [designspace](https://superpolator.com/designspace.html), which usually results in larger variable font files.
+
+## How much [hinting](/glossary/hinting) data is included in the fonts, if any?
+
+Minimal hinting for typical modern rendering environments will likely require less data than intense hinting for low-resolution screens and old operating systems.
+
+## What “flavor” of OpenType font data is used?
+
+Modern variable fonts are generated in the [OpenType](/glossary/open_type) font format. But there are two major standards (or “flavors”) for outline data in OpenType—CFF and TTF—each with different implications for font file sizes, among other things. CFF-flavored variable fonts typically have smaller sizes than their TTF-flavored equivalents, but they aren’t supported quite as widely.
+
+## What kind of compression is used for the fonts?
+
+Uncompressed .otf or .ttf fonts will have much larger file sizes before they’ve been converted to the [.woff or .woff2 web font formats](https://en.wikipedia.org/wiki/Web_Open_Font_Format). (Side note: All browsers that support variable fonts also support the .woff2 format, so variable web fonts should almost always be delivered as .woff2 files.)
 
 To see how some of these factors play out in real-world comparisons between static and variable fonts, check out the [tables of web font comparisons](/lesson/web_font_comparisons_variable_vs_static).
 

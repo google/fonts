@@ -6,7 +6,7 @@ autonym: "Luganda"
 population: 5622890
 region: "UG"
 exemplar_chars {
-  base: "a b c d e f g i j k l m n {ny} ŋ o p r s t u v w y z {ny} {ny} {ny} {ny} {ny} {ny} {ny} {ny} {ny} {ny} {ny} {ny} {ny} {ny} {ny}"
+  base: "a b c d e f g i j k l m n {ny} ŋ o p r s t u v w y z"
   auxiliary: "h q x"
   index: "A B C D E F G I J K L M N Ŋ O P R S T U V W Y Z"
 }

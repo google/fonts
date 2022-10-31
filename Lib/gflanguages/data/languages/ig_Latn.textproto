@@ -6,10 +6,10 @@ autonym: "Igbo"
 population: 27823640
 region: "NG"
 exemplar_chars {
-  base: "a b {ch} d e ẹ f g {gb} {gh} {gw} h i ị j k {kp} {kw} l m n ṅ {nw} {ny} o ọ p r s {sh} t u ụ v w y z {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh} {ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh}"
-  auxiliary: "á à ā c é è ē í ì ī {ị́} {ị̀} ḿ {m̀} ń ǹ ó ò ō {ọ́} {ọ̀} q ú ù ū {ụ́} {ụ̀} x {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀} {ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀}"
+  base: "a b {ch} d e ẹ f g {gb} {gh} {gw} h i ị j k {kp} {kw} l m n ṅ {nw} {ny} o ọ p r s {sh} t u ụ v w y z"
+  auxiliary: "á à ā c é è ē í ì ī {ị́} {ị̀} ḿ {m̀} ń ǹ ó ò ō {ọ́} {ọ̀} q ú ù ū {ụ́} {ụ̀} x"
   marks: "◌̀ ◌́ ◌̄ ◌̇ ◌̣"
-  punctuation: "- ‑ , ; : ! ? . ‘ ’ “ ” ( ) [ ] { } { } { } { } { } { } { } { } { } { } { } { } { } { } { } { }"
+  punctuation: "- ‑ , ; : ! ? . ‘ ’ “ ” ( ) [ ] { }"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }
 sample_text {

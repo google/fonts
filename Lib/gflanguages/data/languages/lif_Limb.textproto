@@ -3,6 +3,10 @@ language: "lif"
 script: "Limb"
 name: "Limbu, Limbu"
 population: 0
+
+# This sample text appears to be taken from two sources: "The Crab's Dream"
+# by Purna Kumari Lingden, and the Limbu Wikipedia Incubator at
+# https://incubator.wikimedia.org/wiki/Wp/lif/Main_Page
 sample_text {
   masthead_full: "ᤂᤗᤕᤒ"
   masthead_partial: "ᤆᤁ"

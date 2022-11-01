@@ -6,9 +6,9 @@ autonym: "Chibemba"
 population: 5402246
 region: "ZM"
 exemplar_chars {
-  base: "a b c e f g i j k l m n o p s {sh} t u w y {sh} {sh} {sh} {sh} {sh} {sh} {sh} {sh} {sh} {sh} {sh} {sh} {sh} {sh} {sh}"
+  base: "a b c e f g i j k l m n o p s {sh} t u w y"
   auxiliary: "d h q r v x z"
-  index: "A B C E F G I J K L M N O P S {SH} T U W Y {SH} {SH} {SH} {SH} {SH} {SH} {SH} {SH} {SH} {SH} {SH} {SH} {SH} {SH} {SH}"
+  index: "A B C E F G I J K L M N O P S {SH} T U W Y"
 }
 sample_text {
   masthead_full: "AaBb"

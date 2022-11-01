@@ -7,6 +7,8 @@ region: "MM"
 exemplar_chars {
   base: "𖩰 𖩱 𖩲 𖩳 𖩴 𖩵 𖩶 𖩷 𖩸 𖩹 𖩺 𖩻 𖩼 𖩽 𖩾 𖩿 𖪀 𖪁 𖪂 𖪃 𖪄 𖪅 𖪆 𖪇 𖪈 𖪉 𖪊 𖪋 𖪌 𖪍 𖪎 𖪏 𖪐 𖪑 𖪒 𖪓 𖪔 𖪕 𖪖 𖪗 𖪘 𖪙 𖪚 𖪛 𖪜 𖪝 𖪞 𖪟 𖪠 𖪡 𖪢 𖪣 𖪤 𖪥 𖪦 𖪧 𖪨 𖪩 𖪪 𖪫 𖪬 𖪭 𖪮 𖪯 𖪰 𖪱 𖪲 𖪳 𖪴 𖪵 𖪶 𖪷 𖪸 𖪹 𖪺 𖪻 𖪼 𖪽 𖪾"
 }
+# This sample text is taken from the "Writing Story", a legend about the creation of Tangsa script,
+# collected by Stephen Morey.
 sample_text {
   masthead_full: "𖩴𖩵𖩶𖩷"
   masthead_partial: "𖩰𖩱"

@@ -9,11 +9,11 @@ region: "CD"
 region: "CF"
 region: "CG"
 exemplar_chars {
-  base: "a á â ǎ b c d e é ê ě ɛ {ɛ́} {ɛ̂} {ɛ̌} f g {gb} h i í î ǐ k l m {mb} {mp} n {nd} {ng} {nk} {ns} {nt} {ny} {nz} o ó ô ǒ ɔ {ɔ́} {ɔ̂} {ɔ̌} p r s t u ú v w y z {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌} {ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz} {ɔ́} {ɔ̂} {ɔ̌}"
+  base: "a á â ǎ b c d e é ê ě ɛ {ɛ́} {ɛ̂} {ɛ̌} f g {gb} h i í î ǐ k l m {mb} {mp} n {nd} {ng} {nk} {ns} {nt} {ny} {nz} o ó ô ǒ ɔ {ɔ́} {ɔ̂} {ɔ̌} p r s t u ú v w y z"
   auxiliary: "j q x"
   marks: "◌́ ◌̂ ◌̌"
   numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
-  index: "A B C D E Ɛ F G {Gb} H I K L M {Mb} {Mp} N {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} O Ɔ P R S T U V W Y Z {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} {Gb} {Mb} {Mp} {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz}"
+  index: "A B C D E Ɛ F G {Gb} H I K L M {Mb} {Mp} N {Nd} {Ng} {Nk} {Ns} {Nt} {Ny} {Nz} O Ɔ P R S T U V W Y Z"
 }
 sample_text {
   masthead_full: "BbAa"

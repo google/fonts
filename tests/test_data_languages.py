@@ -14,8 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-from collections import Counter
+from collections import defaultdict, Counter
 import re
+import unicodedata
 
 from gflanguages import LoadLanguages, languages_public_pb2, LoadScripts
 import pytest
@@ -39,6 +40,25 @@ SKIP_EXEMPLARS = {
     "aii_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
     "sel_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
 }
+
+
+@pytest.mark.parametrize("lang_code", LANGUAGES)
+@pytest.mark.parametrize(
+    "exemplar_name", ["base", "auxiliary", "marks", "numerals", "punctuation", "index"]
+)
+def test_languages_exemplars_canonical_duplicates(lang_code, exemplar_name):
+    lang = LANGUAGES[lang_code]
+    exemplar = getattr(lang.exemplar_chars, exemplar_name).split()
+    normalized = defaultdict(set)
+
+    for g in exemplar:
+        if g[0] == "{" and g[-1] == "}":
+            g = g.lstrip("{").rstrip("}")
+        normalized[unicodedata.normalize("NFC", g)].add(g)
+
+    result = [(len(gs), gs) for n, gs in normalized.items()]
+    expected = [(1, {n}) for n, gs in normalized.items()]
+    assert result == expected
 
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)

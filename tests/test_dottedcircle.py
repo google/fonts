@@ -3,6 +3,9 @@ import gflanguages
 import pytest
 
 langs = gflanguages.LoadLanguages()
+xfail_langs = {
+    "kkh_Lana": "Tai Tham encoding is over-differentiated (see L2/19-365)"
+}
 
 
 @pytest.fixture
@@ -19,6 +22,8 @@ def hb_font():
 
 @pytest.mark.parametrize("lang", langs.keys())
 def test_dotted_circle(lang, hb_font):
+    if lang in xfail_langs:
+        pytest.xfail("Language is expected to fail: "+xfail_langs[lang])
     item = langs[lang]
     samples = item.sample_text.ListFields()
     for sample_name, sample in sorted(samples, key=lambda x:len(x[1])):

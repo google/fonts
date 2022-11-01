@@ -16,11 +16,10 @@
 #
 import pytest
 from collections import Counter
-from gflanguages import LoadLanguages
+from gflanguages import LoadLanguages,languages_public_pb2
 
 
 LANGUAGES = LoadLanguages()
-
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
 @pytest.mark.parametrize(
@@ -34,3 +33,19 @@ def test_languages_exemplars_duplicates(lang_code, exemplar_name):
     counts = sorted(counter.most_common(), key=lambda pair:
                     exemplar.index(pair[0]))
     assert (counts == [(v, 1) for v in exemplar])
+
+
+SampleText = languages_public_pb2.SampleTextProto().DESCRIPTOR
+
+@pytest.mark.parametrize("lang_code", LANGUAGES.keys())
+def test_language_samples(lang_code):
+    # Although marked as optional in the protobuf file, all
+    # SampleText fields are required, so make sure they are
+    # present.
+    lang = LANGUAGES[lang_code]
+    if not lang.sample_text.ListFields():
+        pytest.skip("No sample text for language " + lang_code)
+        return
+
+    for field in SampleText.fields:
+        assert(getattr(lang.sample_text, field.name))

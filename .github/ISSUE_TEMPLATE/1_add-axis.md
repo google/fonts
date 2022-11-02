@@ -23,7 +23,9 @@ Attach here a pic or a gif showing the axis behavior.
 
 ## Why is the axis needed
 
-Please provide an expected case of use from the user’s point of view, reasoning on why or how the users might use or would benefit from the axis. This explanation will also help to create additional educational content.
+Please provide an expected case of use from the user’s point of view, reasoning on why or how the users might use or would benefit from the axis. 
+
+This explanation would help to discern the validity of the axis itself and its definitions such as the ranges. This information could be used to create additional educational content.
 
 ## Axis Metadata fields
 

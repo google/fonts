@@ -1,5 +1,5 @@
 name: "Sahitya"
-designer: "Juan Pablo del Peral, Huerta Tipográfica"
+designer: "Juan Pablo del Peral"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-06-17"

@@ -12,6 +12,7 @@ fonts {
   full_name: "Noto Serif Khojki Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)"
 }
+subsets: "khojki"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -22,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/khojki.git"
-  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.002/NotoSerifKhojki-v2.002.zip"
+  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.003/NotoSerifKhojki-v2.003.zip"
 }
 is_noto: true
 languages: "sa_Khoj"  # Sanskrit, Khojki

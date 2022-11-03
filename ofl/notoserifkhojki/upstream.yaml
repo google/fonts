@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.002/NotoSerifKhojki-v2.002.zip
+archive: https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.003/NotoSerifKhojki-v2.003.zip
 branch: main
 files:
-  OFL.txt: OFL.txt
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  OFL.txt: OFL.txt
   NotoSerifKhojki/googlefonts/variable-ttf/NotoSerifKhojki[wght].ttf: NotoSerifKhojki[wght].ttf

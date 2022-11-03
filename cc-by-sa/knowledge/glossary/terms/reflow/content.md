@@ -1,4 +1,4 @@
-When a typographic change is made to text—such as increasing the font size, switching to a different weight, or moving to an entirely new font—it’s likely the lines of type will re-flow; that is, words that were set on one line prior to the change may then move to the line above or below.
+When a [typographic change](/glossary/typography) is made to [text](/glossary/text_copy)—such as increasing the [font](/glossary/font) size, switching to a different [weight](/glossary/weight), or moving to an entirely new font—it’s likely the lines of [type](/glossary/type) will re-flow; that is, words that were set on one line prior to the change may then move to the line above or below.
 
 In print, when a document has already been edited and designed, reflow can be problematic, such as text being cropped from the page when it no longer fits in its containing block.
 

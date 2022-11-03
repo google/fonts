@@ -16,10 +16,11 @@
 #
 import pytest
 from collections import Counter
-from gflanguages import LoadLanguages, languages_public_pb2
+from gflanguages import LoadLanguages, languages_public_pb2, LoadScripts
 
 
 LANGUAGES = LoadLanguages()
+SCRIPTS = LoadScripts()
 
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
@@ -49,3 +50,10 @@ def test_language_samples(lang_code):
 
     for field in SampleText.fields:
         assert getattr(lang.sample_text, field.name)
+
+
+@pytest.mark.parametrize("lang_code", LANGUAGES.keys())
+def test_script_is_known(lang_code):
+    lang = LANGUAGES[lang_code]
+    script = lang.script
+    assert script in SCRIPTS, f"{lang_code} used unknown script {lang.script}"

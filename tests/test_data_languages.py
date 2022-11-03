@@ -55,4 +55,5 @@ def test_language_samples(lang_code):
 @pytest.mark.parametrize("lang_code", LANGUAGES.keys())
 def test_script_is_known(lang_code):
     lang = LANGUAGES[lang_code]
-    assert lang.script in SCRIPTS, f"{lang} used unknown script {lang.script}"
+    script = lang.script
+    assert script in SCRIPTS, f"{lang_code} used unknown script {lang.script}"

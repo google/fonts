@@ -1,5 +1,5 @@
 name: "Calistoga"
-designer: "Yvonne Schüttler, Eben Sorkin"
+designer: "Yvonne Schüttler, Sorkin Type, Eben Sorkin"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2019-11-04"

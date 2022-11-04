@@ -1,5 +1,3 @@
-<h1>How typefaces are designed & fonts are made</h1>
-
 With so many typefaces to choose from, you may have wondered where they come from, how they are made, and if we really need to continue making more of them. In this article, we’ll explore the origin of contemporary typefaces and take a look at the motivation and process for making fonts.
 
 <h2>Who makes typefaces?</h2>

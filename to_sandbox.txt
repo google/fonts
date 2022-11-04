@@ -1,13 +1,37 @@
 # New
+ofl/alexandria # https://github.com/google/fonts/pull/5506
+ofl/chivomono # https://github.com/google/fonts/pull/5349
 
 # Upgrade
-
-# Axis Registry
+ofl/alatsi # https://github.com/google/fonts/pull/5501
+ofl/asap # https://github.com/google/fonts/pull/5452
+ofl/asapcondensed # https://github.com/google/fonts/pull/5492
+ofl/calistoga # https://github.com/google/fonts/pull/5502
+ofl/chivo # https://github.com/google/fonts/pull/5348
+ofl/figtree # https://github.com/google/fonts/pull/5505
+ofl/notosansjp # https://github.com/google/fonts/pull/5469
+ofl/notosanssharada # https://github.com/google/fonts/pull/5224
+ofl/notoserifkhojki # https://github.com/google/fonts/pull/5493
+ofl/voltaire # https://github.com/google/fonts/pull/5500
 
 # Metadata / Description / License
+ofl/edunswactfoundation # https://github.com/google/fonts/pull/5482
+ofl/eduqldbeginner # https://github.com/google/fonts/pull/5482
+ofl/edusabeginner # https://github.com/google/fonts/pull/5482
+ofl/edutasbeginner # https://github.com/google/fonts/pull/5482
+ofl/eduvicwantbeginner # https://github.com/google/fonts/pull/5482
 
-# Hold List
-#  The following projects are on hold until their axis registrations
-#  have been pushed to production.
-# ofl/climatecrisis # https://github.com/google/fonts/pull/5350
-# ofl/handjet # https://github.com/google/fonts/pull/5376
+# Sample texts
+#https://github.com/google/fonts/pull/5489
+lang/scripts/Toto.textproto
+lang/scripts/Tnsa.textproto
+lang/languages/txo_Toto.textproto
+lang/languages/nst_Tnsa.textproto
+lang/languages/hmn_Hmnp.textproto
+lang/languages/sa_Limb.textproto
+lang/languages/lif_Limb.textproto
+lang/languages/gon_Gong.textproto
+lang/languages/pwo_Mymr.textproto
+lang/languages/ksw_Mymr.textproto
+lang/languages/ccp_Cakm.textproto
+lang/languages/sa_Zanb.textproto

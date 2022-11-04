@@ -1,8 +1,11 @@
 # New
+ofl/fragmentmono # https://github.com/google/fonts/pull/5461
 ofl/ibmplexsansjp # https://github.com/google/fonts/pull/5226
 ofl/marhey # https://github.com/google/fonts/pull/5374
 ofl/notosanslaolooped # https://github.com/google/fonts/pull/5202
+ofl/notosansmendekikakui # https://github.com/google/fonts/pull/5143
 ofl/notoseriforiya # https://github.com/google/fonts/pull/4878
+ofl/sono # https://github.com/google/fonts/pull/5003
 
 # Upgrade
 ofl/average # https://github.com/google/fonts/pull/5292
@@ -15,17 +18,21 @@ ofl/mansalva # https://github.com/google/fonts/pull/5373
 ofl/merienda # https://github.com/google/fonts/pull/5291
 ofl/nabla # https://github.com/google/fonts/pull/5245
 ofl/notomusic # https://github.com/google/fonts/pull/5218
+ofl/notosansbamum # https://github.com/google/fonts/pull/5472
 ofl/notosansbassavah # https://github.com/google/fonts/pull/5113
 ofl/notosansbuginese # https://github.com/google/fonts/pull/5116
 ofl/notosanschakma # https://github.com/google/fonts/pull/5118
 ofl/notosanshanunoo # https://github.com/google/fonts/pull/5139
 ofl/notosanskayahli # https://github.com/google/fonts/pull/5140
+ofl/notosanskhojki # https://github.com/google/fonts/pull/5153
+ofl/notosanslepcha # https://github.com/google/fonts/pull/5206
 ofl/notosanslimbu # https://github.com/google/fonts/pull/5332
 ofl/notosansmasaramgondi # https://github.com/google/fonts/pull/5207
 ofl/notosansmedefaidrin # https://github.com/google/fonts/pull/5142
 ofl/notosansmodi # https://github.com/google/fonts/pull/5372
 ofl/notosansmongolian # https://github.com/google/fonts/pull/5251
 ofl/notosansmultani # https://github.com/google/fonts/pull/5371
+ofl/notosansnewa # https://github.com/google/fonts/pull/5165
 ofl/notosansnewtailue # https://github.com/google/fonts/pull/5222
 ofl/notosansolchiki # https://github.com/google/fonts/pull/5181
 ofl/notosansosage # https://github.com/google/fonts/pull/5182
@@ -36,12 +43,17 @@ ofl/notosansrejang # https://github.com/google/fonts/pull/5184
 ofl/notosanssaurashtra # https://github.com/google/fonts/pull/5187
 ofl/notosanssiddham # https://github.com/google/fonts/pull/5225
 ofl/notosanssorasompeng # https://github.com/google/fonts/pull/5186
+ofl/notosanssundanese # https://github.com/google/fonts/pull/5219
+ofl/notosanssylotinagri # https://github.com/google/fonts/pull/5235
 ofl/notosanstagalog # https://github.com/google/fonts/pull/5250
 ofl/notosanstagbanwa # https://github.com/google/fonts/pull/5190
 ofl/notosanstaile # https://github.com/google/fonts/pull/5239
 ofl/notosanstaitham # https://github.com/google/fonts/pull/5242
+ofl/notosanstaiviet # https://github.com/google/fonts/pull/5241
+ofl/notosanstakri # https://github.com/google/fonts/pull/5228
 ofl/notosansthaana # https://github.com/google/fonts/pull/5191
 ofl/notosansyi # https://github.com/google/fonts/pull/5197
+ofl/notosanszanabazarsquare # https://github.com/google/fonts/pull/5199
 ofl/notoseriftibetan # https://github.com/google/fonts/pull/5253
 ofl/reemkufifun # https://github.com/google/fonts/pull/5384
 ofl/reemkufiink # https://github.com/google/fonts/pull/5170
@@ -59,6 +71,9 @@ axisregistry/element_shape.textproto # https://github.com/google/fonts/pull/5333
 axisregistry/flair.textproto # https://github.com/google/fonts/pull/5301
 axisregistry/hyper_expansion.textproto # https://github.com/google/fonts/pull/5301
 axisregistry/italic.textproto # https://github.com/google/fonts/pull/5301
+axisregistry/roundness.textproto # https://github.com/google/fonts/pull/5454
+axisregistry/x_rotation.textproto # https://github.com/google/fonts/pull/5448
+axisregistry/y_rotation.textproto # https://github.com/google/fonts/pull/5448
 axisregistry/year.textproto # https://github.com/google/fonts/pull/5333
 
 # Metadata / Description / License
@@ -78,6 +93,7 @@ ofl/bizudgothic # https://github.com/google/fonts/pull/5410
 ofl/bizudmincho # https://github.com/google/fonts/pull/5410
 ofl/bizudpgothic # https://github.com/google/fonts/pull/5410
 ofl/bizudpmincho # https://github.com/google/fonts/pull/5410
+ofl/davidlibre # https://github.com/google/fonts/pull/5478
 ofl/harmattan # https://github.com/google/fonts/pull/5410
 ofl/ibmplexsansarabic # https://github.com/google/fonts/pull/5410
 ofl/ibmplexsansdevanagari # https://github.com/google/fonts/pull/5410
@@ -87,10 +103,12 @@ ofl/ibmplexsanskr # https://github.com/google/fonts/pull/5410
 ofl/ibmplexsansthai # https://github.com/google/fonts/pull/5410
 ofl/ibmplexsansthailooped # https://github.com/google/fonts/pull/5410
 ofl/lateef # https://github.com/google/fonts/pull/5410
+ofl/mingzat # https://github.com/google/fonts/pull/5478
 ofl/nuosusil # https://github.com/google/fonts/pull/5410
 ofl/padauk # https://github.com/google/fonts/pull/5410
 ofl/scheherazadenew # https://github.com/google/fonts/pull/5410
 ofl/solway # https://github.com/google/fonts/pull/5353
+ofl/taiheritagepro # https://github.com/google/fonts/pull/5478
 ofl/tirobangla # https://github.com/google/fonts/pull/5410
 ofl/tirodevanagarihindi # https://github.com/google/fonts/pull/5410
 ofl/tirodevanagarimarathi # https://github.com/google/fonts/pull/5410
@@ -114,8 +132,3 @@ ofl/zenoldmincho # https://github.com/google/fonts/pull/5410
 # Sample texts
 lang/languages/vi_Latn.textproto # https://github.com/google/fonts/pull/5451
 lang/languages/yo_Latn.textproto # https://github.com/google/fonts/pull/5451
-
-# Hold List
-#  The following projects are on hold until their axis registrations
-#  have been pushed to production.
-# ofl/readexpro # https://github.com/google/fonts/pull/5331

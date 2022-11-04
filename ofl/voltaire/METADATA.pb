@@ -1,5 +1,5 @@
 name: "Voltaire"
-designer: "Yvonne Schüttler"
+designer: "Yvonne Schüttler, Sorkin Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-17"

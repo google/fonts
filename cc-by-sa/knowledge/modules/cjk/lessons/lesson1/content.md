@@ -10,15 +10,39 @@ In China, the situation is a little different. They call the serif Song Ti (宋�
 
 In terms of type classifications, Japanese and Korean have more similarities than with Chinese. All CJK fonts also have display style as one of the classifications, but in Japan and Korea they call the display fonts “design fonts”, and in China “decorative fonts.” 
 
+# Chinese type classification
 
-## #Chinese type classification
+The categories in Chinese type classification can be seen as a set of names from the most popular styles that appeared throughout Chinese type history all the way to our contemporary times. Even with the digital technologies, and the multiple mechanical printing techniques that came a bit earlier, there is (and has been) always a strong connection to hand written calligraphy. Thus, Chinese typeface categories with styles related to calligraphy are still popular even today, due to the very nature of the characters (more organic than mechanical). Styles that are less linked to calligraphy appeared very late in history (first with woodblock printing with Songti and Mingti), as ways to respond to the needs of their time and follow the contemporary trends (Yuanti and Heiti).
 
-Blindtextblindtext
-Blindtextblindtext
-Blindtextblindtext
+Note: As Chinese type evolved for most of its history independently from that of Latin, the groups or styles are different, as isthe impression given to users of the few that may look alike. 
+
+Chinese (digital) type classification can be presented in seven categories, from the most “traditional” style to the most “modern”, here are the major categories:
+Kaiti (楷体), also called “Regular style”
+Kaiti style is related to the calligraphic Regular Script (楷书), with “regular” denoting “official” or “formal”. Regular Script is the last calligraphic style that appeared in the history of Chinese calligraphy (around the 7th century). Other than carrying the movements of the brush (traditionality, warmth, liveliness), it is a separate category to the Handwritten one because Kaiti styles obey a number of proportions and details that make it more “standardized”.
+[image: Sample of Kaiti style Chinese typefaces - Kaiti, Kai, both Macintosh system fonts]
+Handwritten style or Cursive style (手写体, 行书)
+Typefaces with a handwritten style in Chinese can vary significantly depending on the tool influencing the shapes or the speed of the movements. 
+[image: Sample of Handwritten style Chinese typefaces - Liu Jian Mao Cao (GF), Xingkai SC, HanziPen (Mac OS)]
 
 
-## #Japanese type classification
+Songti (宋体)
+Songti style typefaces have design features made to be fit for woodblock carving (straight lines, diamond shaped serifs, accentuated contrast). It was the dominant style used for woodblock printing, which was the main technique used for Chinese printing since the Song dynasty (960–1279) all the way until the Ming dynasty (1368–1644). As it is the style used for the biggest part of Chinese typography history, it is the most familiar and popular one for texts, even today. 
+[image: Sample of Songti style Chinese typeface - Noto Serif CJK (GF)]FangSongti (仿宋体)
+FangSongti means “pseudo-Songti”. It is a style derived from Songti, but with slightly more movement than its precursor (subtle slant of horizontal strokes, sharper serifs and endings, stiffer curves), and is most often usedfor classical editorial usage as of the last couple of decades.
+[image: Sample of FangSongti style Chinese typeface - STFangsong (Mac OS)]
+Heiti (黑体)
+With 黑 [hei] meaning “black” or “dark”, and 体 [ti] meaning “style”, this is the equivalent of the Sans Serif in Latin script. The first Heiti typefaces appeared recently in Chinese type history (very early 20th century), with the influence of typefaces imported from Europe. Contemporary digital designs made Heiti one of the most popular styles in the digital realm.
+[image: Sample of Heiti style Chinese typeface - Noto Sans CJK (GF)]
+Yuanti (圆体) is a sub-group of Heiti, because even though it is a rounded style (rounded tips and corners), it is the only other style without any serifs.[image: Sample of Yuanti style Chinese typeface - Yuanti (Mac OS)]
+Decorative or Artistic (展示体, 美术体)
+This category can be related as “Display” or “Titling” styles in Latin, with all kinds of playfulness, personality, and quirkiness allowed by the versatility of Chinese characters (remember that it is an organic writing system first!).
+[image: Sample of Decorative style Chinese typefaces - ZCOOL QingKe HuangYou, ZCOOL KuaiLe (GF)]
+
+
+About the names: 
+You might have noticed how some names start the same but end up with either “-ti” or “-shu”. In Chinese, 书 [shu] means “calligraphic style” in the context of 书法 [shufa] for calligraphy. And 体 [ti] means “typographic style” in the context of 字体 [ziti] for typography. A typographic style is very often named after its calligraphic style, or contains a reference to its style directly in the name. 
+
+# Japanese type classification
 
 When you learn Latin typography, there’s a basic history of the classification development: old-style serif, transitional serif, didone, slab serif, grotesque sans serif, humanist sans serif…and so on. 
 

@@ -26,3 +26,4 @@ source {
   repository_url: "https://github.com/Gue3bara/Alexandria"
   commit: "cee89798e4b38c8df61477a646aa9c111314e6ae"
 }
+primary_script: "Arab"

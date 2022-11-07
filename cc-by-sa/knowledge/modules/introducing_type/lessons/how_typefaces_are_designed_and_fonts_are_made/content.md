@@ -8,7 +8,12 @@ Fonts now tend to have more extensive character sets due to increased language s
 
 While font creation usually follows a common set of methods and formats, the parameters and quality of typefaces can vary greatly. For example, fonts created by enthusiasts may not have the same range of [characters](https://fonts.google.com/knowledge/glossary/character) or features as those created by professional type designers. Many fonts are produced by specialized businesses known as type foundries.
 
-**[ILLUSTRATION 1 Montage of typefaces]**
+<figure>
+
+![Multiple typefaces](images/1MontageofTypefaces.svg)
+
+</figure>
+<figcaption>Multiple typefaces</figcaption>
 
 <h2>How do new typefaces come into existence?</h2>
 
@@ -24,15 +29,18 @@ Typefaces also allow documents to present visual hierarchies, for example throug
 
 To ensure their time and skill is used efficiently, and they meet the needs of their client or audience, experienced type designers usually seek to define the requirements and set the parameters of a type design project in its early stages with a “typeface design brief”:
 
-
-
 * What will the typeface be used for? Is its primary purpose for immersive texts, or for short display headlines?
 * What are its specific requirements? Does the typeface need to perform a certain function, such as to read clearly in very small sizes, or to operate in a particular environment such as an e-reader, or within virtual reality?
 * What languages and characters should it support? Which countries will the font be used in and what written languages are used there? Does the typeface need to include characters such as [small caps](https://fonts.google.com/knowledge/glossary/small_caps) or extended math symbols?
 * How many [styles](https://fonts.google.com/knowledge/glossary/style) are needed? Regular, italic, bold and bold italic are four individual styles that most designers expect, would more [weights](https://fonts.google.com/knowledge/glossary/weight) or [widths](https://fonts.google.com/knowledge/glossary/width) be required?
 * What existing fonts are already available and how do they compare? Is the new typeface distinct enough from already available designs to warrant its production, both commercially and creatively?
 
-**[ILLUSTRATION 2 Checklist]**
+<figure>
+
+![A list of typeface requirements](images/2Checklist.svg)
+
+</figure>
+<figcaption>The importance of a brief</figcaption>
 
 The answers to these questions are usually distilled into a well-defined project brief. Even if setting their own brief, writing everything down enables the type designer to steer their creative and technical decisions to match the project’s requirements. This may also help avoid the temptation of allowing the project to creep beyond its intended goals, which can lead to a dramatic increase in production time.
 
@@ -40,7 +48,12 @@ The answers to these questions are usually distilled into a well-defined project
 
 Although a font’s final form will be a digital file, conceptual explorations often begin with hand-drawn sketches. Type designers initially draw key letters that exemplify the common shapes and attributes of the overall typeface. Through these they explore the structural and stylistic relationships required to produce a harmonious group of letters. 
 
-**[ILLUSTRATION 3 Sketched Type]**
+<figure>
+
+![Hand-drawn characters](images/3SketchedType.svg)
+
+</figure>
+<figcaption>Sketching Type</figcaption>
 
 Designers often start with a few letters for the lowercase, such as "n" and "o", or words such as adhesion or videospan. Capitals follow, with "H" and "O" providing key dimensions. These determine the proportionate construction, height, width, weight, and contrast of lowercase letters with flat shade and round sides. Consistency is the key to making type easy to understand for the reader and should be the goal of most typefaces. As the type designer expands the number of glyphs drawn, adjustments may need to be made to previously drawn characters to better integrate particular shapes.
 
@@ -48,7 +61,12 @@ Designers often start with a few letters for the lowercase, such as "n" and "o",
 
 Once the conceptual phase is complete, the sketches can be digitized. The drawings are most often converted to digital form using Bézier curves. These are line drawings where each line is defined by points at its beginning and end, and off-curve control points that adjust the shape. These line drawings, referred to as vector graphics, form the shape of each [glyph](https://fonts.google.com/knowledge/glossary/glyph).  
 
-**[ILLUSTRATION 4 Bézier curve]**
+<figure>
+
+![A close-up view of Bézier curves](images/4Beziercurve.svg)
+
+</figure>
+<figcaption>Bézier curves</figcaption>
 
 These drawings are usually created within a font software program. These specialist applications provide tools for drawing the glyphs as well as defining metrics such as spacing, and code that controls how they will appear and function. [FontLab](https://www.fontlab.com/font-editor/fontlab/), [Glyphs](https://glyphsapp.com), and [Robofont](https://robofont.com/) are popular applications.
 
@@ -56,7 +74,12 @@ These drawings are usually created within a font software program. These special
 
 Early in the drawing phase, designers group the initial letters into words to determine how they relate to each other. Each glyph must be assigned a volume of [space](https://fonts.google.com/knowledge/glossary/spaces) on either side (known as “sidebearings”) to separate them from each other. The intention is for each character to be assigned a proportional amount of space, so that when different glyphs are grouped together, all are spaced with a matching rhythm.
 
-**[ILLUSTRATION 5 Sidebearings]**
+<figure>
+
+![Sidebearings on either side of each character](images/5Sidebearings.svg)
+
+</figure>
+<figcaption>Sidebearings</figcaption>
 
 Once the drawing and spacing of all glyphs is complete, type designers check every conceivable combination of glyphs for individual spacing requirements. When particular shapes interact, such as the VA combination, specific adjustments, called [kerning](https://fonts.google.com/knowledge/glossary/kerning_kerning_pairs), may need to be made to improve the spacing between them. This kerning data is contained within the finished font file. 
 
@@ -64,13 +87,23 @@ Once the drawing and spacing of all glyphs is complete, type designers check eve
 
 If a type family contains two or more [styles](https://fonts.google.com/knowledge/glossary/style) within an [axis](https://fonts.google.com/knowledge/glossary/axis_in_variable_fonts), such as [weight](https://fonts.google.com/knowledge/glossary/weight) or [width](https://fonts.google.com/knowledge/glossary/width), intermediate styles between two extremes can be generated automatically—a process known as “interpolation.” For example, If the typeface requires five weights, the type designer could draw only the lightest and the heaviest styles and Variable fonts technology can automatically generate intermediate weights between them. The extreme styles that have actual outlines are called [masters](https://fonts.google.com/knowledge/glossary/masters). Drawings for in-between weights are optional.  
 
-**[ILLUSTRATION —EXISTING— of [Masters](https://fonts.google.com/knowledge/glossary/masters)]**
+<figure>
+
+![INSERT_ALT](images/existing_masters.svg)
+
+</figure>
+<figcaption>INSERT_CAPTION</figcaption>
 
 <h2>Programming</h2>
 
 Type designers can code layout features in font editing software to control how the font operates for the end user. Using [OpenType] (https://fonts.google.com/knowledge/glossary/open_type) font technology, designers can program glyphs to be substituted or adjusted. This can be performed automatically, or by user control. For example, the font can be programmed to swap certain accented glyphs automatically when the font is used with particular language settings. The font can also be programmed to substitute individual glyphs or a group of glyphs for [stylistic alternates](https://fonts.google.com/knowledge/glossary/alternates) when the relevant feature is turned on.
 
-**[ILLUSTRATION—EXISTING— montage of [alternates](https://fonts.google.com/knowledge/glossary/alternates)]**
+<figure>
+
+![INSERT_ALT](images/existing_alternates.svg)
+
+</figure>
+<figcaption>INSERT_CAPTION</figcaption>
 
 <h2>Mastering, distribution, and usage</h2>
 
@@ -82,7 +115,12 @@ Whether a font is offered free or for purchase, it’s always subject to a [lice
 
 Like any other consumer product, typefaces need marketing to let people know about them. Designers and foundries often create visual materials, called specimens, to show off their designs and attract users. Effective specimens detail the features of the typeface, provide examples of how it might be used, and describe the sort of text it is most suitable for. 
 
-**[ILLUSTRATION 6 Specimen Example]**
+<figure>
+
+![An example of a typeface specimen](images/6SpecimenExample.svg)
+
+</figure>
+<figcaption>Typeface specimen</figcaption>
 
 As we’ve seen, there are many facets to designing a typeface and making a font. Each step in the process requires a broad understanding of the task’s context and skill in implementing it.  If you would like to know more, here are a few links to get you started:
 

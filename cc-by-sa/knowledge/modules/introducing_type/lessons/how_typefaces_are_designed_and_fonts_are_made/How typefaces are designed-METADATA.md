@@ -1,36 +1,4 @@
 
-<h1>Meta tag 1 sentence:</h1>
-
-How typefaces are designed and fonts are made.
-
-<h2>Topics:</h2>
-
-Essentials
-
-Open Type
-
-Style
-
-Licensing
-
-Creating Fonts
-
-Drawing Type
-
-<h2>Glossary:</h2>
-
-Typeface
-
-Character
-
-Style
-
-Spaces
-
-Masters
-
-Licensing
-
 <h2>Image, Captions, Alt (in order):</h2>
 
 **1 Montage of typefaces**

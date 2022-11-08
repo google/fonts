@@ -1,5 +1,3 @@
-# Type Development of Hangeul
-
 Hangeul, the Korean script, was created in 1443 and published in 1446. Until then Korea borrowed Chinese characters to apply them on Korean sounds, same as Japan did (**_Japanese Type Anatomy for more stories on Japanese_**). 
 
 

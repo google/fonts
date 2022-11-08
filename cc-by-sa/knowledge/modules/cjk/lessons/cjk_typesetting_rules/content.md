@@ -1,5 +1,3 @@
-# CJK Typesetting Rules
-
 There are four big differences in rules of typesetting between Latin and CJK fonts. 
 
 

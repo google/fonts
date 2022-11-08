@@ -1,5 +1,3 @@
-# Type classifications in CJK
-
 Typefaces have various classification categories—from sans serif, serif,rounded, to old-style, humanistic, geometric, and so on. Do these classification all equally apply to other scripts too? We must expect no, because each script has its own culture and these classifications were made based on Latin typefaces. 
 
 Then, what is it like in CJK?

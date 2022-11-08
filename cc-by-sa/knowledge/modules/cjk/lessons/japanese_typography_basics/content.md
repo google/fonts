@@ -1,5 +1,3 @@
-# Japanese Typography Basics
-
 A lot of scripts in the world use one script per language. But that’s not the case in Japan. When you write a sentence in Japanese, there will be three different scripts being used: _Hiragana_, _Katakana_, and _Kanji_, a Japanified version of Chinese characters. And if you’re trying to develop a Japanese typeface, you also need to include the Latin alphabet and figures in addition. Japanese is the only script among CJK that uses multiple scripts to form their language. How did it become such a melting pot of scripts? And what kind of unique aspects do they have?
 
 [IMAGE: Comparison of Hiragana, Katakana, and Kanji]

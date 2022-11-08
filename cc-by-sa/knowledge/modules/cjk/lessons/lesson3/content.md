@@ -11,11 +11,11 @@ While Latin and Japanese developed its type design from brush and pen based lett
 
 The design of the first Hangeul published in 1446 is already in a sans serif style with rounded elements. This is where the type development of the Hangeul starts. King Sejong, the director of the Hangeul creation, intended this design for citizens to be able to learn the new script easily by drawing on the ground with a stick. (_For more story, go to **The Design of Hangeul** by Darrell Penta)_
 
-However, after Hangeul was widely spread in the country, the letterforms naturally developed into script style with a use of pointed brush, and this style is called “Gung-chae” in Korean. The name Goong-chae means “the typeface for the palace,” because the style was popular among the people in the palace. And this script type goes on for a long time before the Korean serif style was designed by the type designer Kyungseo Park and Jeongho Choi in the 1900s.
+However, after Hangeul was widely spread in the country, the letterforms naturally developed into script style with a use of pointed brush, and this style is called “Gung” in Korean. The name Goong-chae means “the typeface for the palace,” because the style was popular among the people in the palace. And this script type goes on for a long time before the Korean serif style was designed by the type designer Kyungseo Park and Jeongho Choi in the 1900s.
 
-[Image: Example of Gungchae]
+[Image: Example of Gung]
 
-Gungseo font in Mac system, designed to express the Gung-chae style back in the 16th century
+Gungseo font in Mac system, designed to express the Gung style back in the 16th century
 
 Although Jeongho Choi defined the Korean serif style that is now, Kyungseo Park built the important structure of the Korean serif. Jeongho Choi also designed a lot of Korean serif typefaces for the type foundries in Japan, and his designs are still a huge inspiration for many type designers in Korea.
 

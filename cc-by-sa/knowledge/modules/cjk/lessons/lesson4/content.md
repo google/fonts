@@ -20,7 +20,7 @@ In Japanese, full-width punctuation is used by default, and don’t use Latin pu
 
 In Chinese, both Latin and full-width punctuations are used, but in Hong Kong and Taiwan with Traditional Chinese, commas are placed in the middle of the letter height. Latin punctuation and full-width punctuations are all used in a different meaning and purpose.
 
-In Korean, the default punctuation is Latin, and no full-width punctuations. Only for brackets, the full-width punctuations are allowed but in limited special scenes. For example, when noting bibliography and references, both 「」and『』are being used from full-width punctuation. However, commas and periods are strictly Latin (shape-wise), and full-width punctuations are never used in that position. And for the wordspaces and Latin punctuations, most Korean fonts have a Korean version of it with a better size and baseline, because using Latin punctuation as it is does not fit with Hangeul well; they are too low or too small.
+In Korean, the default punctuation is Latin, and no full-width punctuations. Only for brackets, the full-width punctuations are allowed but in limited special scenes. For example, when noting bibliography and references, both 「」and『』are being used from full-width punctuation. However, commas and periods are strictly Latin (shape-wise), and full-width punctuations are never used in that position. And for the wordspaces and Latin punctuations, most Korean fonts have a Korean version of it with a better size and baseline, because using Latin punctuation as it is does not fit with Hangeul well; they are not aligned well.
 
 [IMAGE: Comparison of Latin and CJK punctuations]
 

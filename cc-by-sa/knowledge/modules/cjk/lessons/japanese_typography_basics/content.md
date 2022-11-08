@@ -1,4 +1,4 @@
-A lot of scripts in the world use one script per language. But that’s not the case in Japan. When you write a sentence in Japanese, there will be three different scripts being used: _Hiragana_, _Katakana_, and _Kanji_, a Japanified version of Chinese characters. And if you’re trying to develop a Japanese typeface, you also need to include the Latin alphabet and figures in addition. Japanese is the only script among CJK that uses multiple scripts to form their language. How did it become such a melting pot of scripts? And what kind of unique aspects do they have?
+A lot of [writing systems](/glossary/scripts_writing_system) in the world use one script per language. But that’s not the case in Japan. When you write a sentence in Japanese, there will be three different scripts being used: _Hiragana,_ _Katakana,_ and _Kanji,_ a Japanified version of Chinese characters. And if you’re trying to develop a Japanese [typeface](/glossary/typeface), you also need to include the [Latin](/glossary/latin) alphabet and [figures](/glossary/numerals_figures) in addition. Japanese is the only script among CJK that uses multiple scripts to form its language. How did it become such a melting pot of scripts? And what kind of unique aspects does it have?
 
 <figure>
 
@@ -8,9 +8,9 @@ A lot of scripts in the world use one script per language. But that’s not the 
 
 ## Development of Kana
 
-Back in the days Japan was using Chinese characters to communicate in a written form, like other typical Asian countries did. In some cases they substituted the Chinese characters into the Japanese sound, and in others they used Kanji as ideogram, to communicate the context. Sometime around the 700s, Japan started to use their own Japanified version of Chinese characters, which is now called _Kanji_. And around the 800s, they invented _Hiragana_ and _Katakana_. They are called _Kana_ altogether.
+Years ago, Japan used Chinese characters to communicate in written form, as did many other Asian countries. Sometime around the 8th century, Japan started to use a Japanified version of Chinese characters, which is now called _Kanji._ In some cases, Chinese characters were converted into a Japanese sound, and in others, Kanji was used as an ideogram to communicate the context. And around the 9th century, _Hiragana_ and _Katakana_ were invented. Together, they are called _Kana._
 
-_Hiragana_ is a simplified version of _Kanji_—it uses simple curvy lines to write Kanji easier. It started as a cursive script of Kanji, and became the Hiragana letterform we use now. It was developed among women at first, because back in the days many women couldn’t have opportunities for education, and were not allowed in an official post which needed the use of Kanji-based writing. Hiragana was such a huge creative development and afterwards it became more and more popular regardless of gender and social status, and now a main script for Japanese.
+_Hiragana_ is a simplified version of _Kanji_—it uses simple curvy lines to write Kanji easier. It started as a cursive script of Kanji, and later became the Hiragana letterform we use now. It was developed among women at first, because many women didn’t have opportunities for education and were not allowed to work in an official post, which needed the use of Kanji-based writing. Hiragana was such a huge creative development, and lster it became more popular, regardless of gender and social status. It is now a main script for Japanese.
 
 <figure>
 
@@ -18,7 +18,7 @@ _Hiragana_ is a simplified version of _Kanji_—it uses simple curvy lines to wr
 
 </figure>
 
-_Katakana_, on the other hand, was developed in a different way. It is an alternative form of _Hiragana_, and in modern times it’s often used to write foreign words. Katakana is also a simpler form of Kanji, but the difference from Hiragana is that while Hiragana simplifies the whole Kanji, Katakana takes only a part of Kanji and makes it into a new character. 
+_Katakana,_ on the other hand, was developed in a different way. It is an alternative form of _Hiragana,_ and in modern times it’s often used to write foreign words. Katakana is also a simpler form of Kanji, but the difference from Hiragana is that while Hiragana simplifies the whole Kanji, Katakana takes only a part of Kanji and makes it into a new character. 
 
 Katakana was created by monks; they needed an easier and less packed form of letters for their scriptures to write _Ruby_ next to Kanji. 
 
@@ -28,16 +28,16 @@ Katakana was created by monks; they needed an easier and less packed form of let
 
 </figure>
 
-## Why still use Chinese characters “Kanji” in Japan?
+## Why still use Chinese characters, or “Kanji”, in Japan?
 
-In Korea, the usage of Chinese characters are fading away, and most of the news only use Hangeul, without any Chinese characters. Then, why does Japan still use Kanji? Many non-Japanese speaking readers will find this curious. 
+In Korea, the usage of Chinese characters are fading away, with most people only using Hangeul. Why does Japan still use Kanji? Many non-Japanese speaking readers will find this curious. 
 
-The important thing we must not forget is that Hiragana and Katakana are phonograms, and Kanji is ideogram. Japanese words have many homonyms—words that sounds the same but mean completely different things—, so by using ideogram Kanji, it helps a lot in avoiding miscommunications. There’s another fact that Japanese doesn't have word spacing system, so without Kanji, it would be very hard to figure out where to cut the sentence. Also, by using Kanji in between, the sentence will be much shorter too. 
+The important thing we must not forget is that Hiragana and Katakana are phonograms, and Kanji is an ideogram. Japanese words have many homonyms—words that sounds the same but mean completely different things—so by using Kanji, it helps a lot in avoiding miscommunication. There’s another fact that Japanese doesn't have a word spacing system, so without Kanji, it would be very hard to figure out where to cut the sentence. Also, by using Kanji in between, the sentence will be much shorter, too. 
 
 
 ## Development of the letterform
 
-Before the metal typesetting, Japanese was written in a script style due to the use of pointed brush. This meant that Hiragana was written in unbroken forms—in other words, every character was written connected, like Latin calligraphy. When they first started using the metal type in the 1500s, their Hiragana types had two or more characters altogether in one type like Latin ligatures, as you can see in the example below on the left. In the 1800s, after the seclusion policy in Japan was lifted, they imported Chinese metal types. Chinese metal types had one letter on each metal, and to adapted in this way, Japan started to develop “disconnected” Hiragana and Katakana that fit in the square embox. 
+Before metal typesetting, Japanese was written in a script style due to the use of pointed brushes. This meant that Hiragana was written in unbroken forms—in other words, every character was written connected, like Latin calligraphy. When Japanese printers first started using the metal type in the 1500s, their Hiragana types had two or more characters together in a single block of type—much like Latin ligatures. In the 1800s, after the seclusion policy in Japan was lifted, they imported Chinese metal type. Chinese metal type had one letter on each block, and Japan adapted to this by developing disconnected Hiragana and Katakana that fit in the em square. 
 
 <figure>
 
@@ -45,9 +45,9 @@ Before the metal typesetting, Japanese was written in a script style due to the 
 
 </figure>
 
-And there’s more—an _alternative Kanji_. Some of the Kanji characters have several slightly different forms for the same meaning, but different usage. Alternative Kanjis have many names—“old forms” and “new forms”, “Gakusan” meaning educational purpose, or systematic names given by JIS (Japanese Industrial Standards).
+And there’s more—an _alternative Kanji_. Some of the Kanji characters have several slightly different forms for the same meaning, but different usage. Alternative Kanjis have many names—“old forms” and “new forms,” “Gakusan” (meaning for educational purpose), or systematic names given by JIS (Japanese Industrial Standards).
 
-There are a couple of reasons for using alternative Kanji. As written above, Kanji and Kana had a long journey of transformation over centuries, and while we transfer from analog manuscript, incunable, phototypesetting to digital font, some Kanji characters were accidentally drawn wrong, or developed in a few different forms, which ended up with alternative Kanji. In this case it’s mainly used for names of people or place, or on some publications they prefer the old letterform alternative Kanji on purpose. The Kanji 辺 has 23 alternatives in Adobe-Japan 1-6!
+There are a couple of reasons for using alternative Kanji. As written above, Kanji and Kana had a long journey of transformation over centuries, and as we transfered from analog manuscript to incunable to phototypesetting to digital fonts, some Kanji characters were accidentally drawn wrong, or developed in a few different forms, which ended up with alternative Kanji. In this case, it’s mainly used for names of people or place, or on some publications they prefer the old letterform alternative Kanji on purpose. The Kanji 辺 has 23 alternatives in Adobe-Japan 1-6! **[WHAT DOES THIS LAST SENTENCE MEAN?]**
 
 <figure>
 
@@ -55,7 +55,7 @@ There are a couple of reasons for using alternative Kanji. As written above, Kan
 
 </figure>
 
-Kanji letterforms in typefaces are not the same as how we hand-write; letterforms were optimized to make them fit for metal type designs. However, its simpler structures and elements are not the best to learn the anatomy of Kanji especially for learners. To resolve this, Japanese ministry of education is giving “curriculum guideline” to follow an alternative letterform, and it also includes very few Kana too. These alternative letterforms, sometimes called as _Gakusan style_, are designed with brush-like elements and expressions, which is also known as “humanistic style” in Latin. These design details allow readers to see more familiar Kanji forms and may enable children to learn Kanji more easily. 
+Kanji letterforms in typefaces are not the same as how we hand-write; letterforms were optimized to make them fit metal type designs. However, its simpler structures and elements are not the best to learn the anatomy of Kanji especially for learners. To resolve this, the Japanese ministry of education provides guidelines to follow an alternative letterform, and this also includes very few Kana. These alternative letterforms, sometimes called as _Gakusan style,_ are designed with brush-like elements and expressions, known as a [humanist](/glossary/humanist_old_style) style in Latin. These design details allow readers to see more familiar Kanji forms and may enable children to learn Kanji more easily. 
 
 <figure>
 
@@ -65,7 +65,7 @@ Kanji letterforms in typefaces are not the same as how we hand-write; letterform
 
 ## Tsume and Proportional Metrics (palt) 
 
-Although Japanese fonts are designed full-width, some characters inevitably end up having more whitespace on both sides of the letter. This is because Japanese Kana used to be written vertically, so both the letter width and height varied back then. Therefore when typesetting, especially in the narrow textbox, the line would look jaggedly due to the inconsistent whitespace. To resolve this problem, Japanese typography uses its own setting called _Tsume_, in other words _Proportional Metrics_, instead of tracking or kerning. Tsume enables the font to tighten its typesetting. The difference between Tsume and Kerning is that Tsume shrinks the whitespace on both sides of the letter, while kerning goes in between two letters. Tsume values are defined by the type designers when designing the font, and users can’t set their own value. Some Japanese type foundries are updating their flagship fonts with Japanese kerning values in addition to the Tsume. Tracking is rarely used. “Betagumi” typesetting is also very popular—it means block typesetting with no Tsume or kerning.
+Although Japanese fonts are designed full-width, some characters inevitably end up having more whitespace on both sides of the letter. This is because Japanese Kana used to be written vertically, so both the letter width and height varied. Therefore, when typesetting, especially in the narrow textbox, the line would appear jagged due to the inconsistent whitespace. To resolve this problem, Japanese typography uses its own setting called _Tsume,_ or _Proportional Metrics_, instead of tracking or kerning. Tsume enables the font to tighten its typesetting. The difference between Tsume and kerning is that Tsume shrinks the whitespace on both sides of the letter, while kerning goes in between two letters. Tsume values are defined by the type designer when designing the font, and users can’t set their own value. Some Japanese type foundries are updating their flagship fonts with Japanese kerning values in addition to the Tsume. Tracking is rarely used. “Betagumi” typesetting is also very popular—it means block typesetting with no Tsume or kerning.
 
 <figure>
 

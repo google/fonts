@@ -1,22 +1,22 @@
-Typefaces have various classification categories—[sans serif](/glossary/sans_serif), [serif](/glossary/serif), rounded, [humanist](/glossary/humanist_old_style), [geometric](/glossary/geometric), and so on. Do these classification equally apply to other scripts too? The short answer is: No, because each script has its own culture, and these classifications were created for Latin typefaces. So what is it like in CJK?
+**[THIS VERSION IS NOW READY FOR CHECKING]**
 
-In Japan and Korea, the same words are used—but different phonetics—for serif and sans serif. Mincho (Japanese) and Myeongjo (Korean) for serif, and Gothic for sans serif in both Japanese and Korean. For the past couple of decades there have been few trials in Korea to create original Korean words for serif and sans serif, such as Batang and Buri for serif, and Dotum and Minburi for sans, but still Myeongjo and Gothic remains the popular choice. 
+[Typefaces](/glossary/typeface) have various classification categories—[sans serif](/glossary/sans_serif), [serif](/glossary/serif), rounded, [humanist](/glossary/humanist_old_style), [geometric](/glossary/geometric), and so on. Do these classifications apply equally to other scripts too? The short answer is: No, because each script has its own culture, and these classifications were created for Latin typefaces. So what is it like in CJK?
 
-In China, the situation is a little different, where the serif is called Song Ti (宋体), or sometimes Mingchao Ti or Ming Ti (明朝体 or 明体) to go together with the Japanese and Korean names. The sans is called Hei Ti (黑体). 
+In Japan and Korea, the same words are used—but different phonetics—for serif and sans serif. Mincho (Japanese) and Myeongjo (Korean) for serif, and Gothic for sans serif in both Japanese and Korean. For the past couple of decades, there have been few trials in Korea to create original Korean words for serif and sans serif, such as Batang and Buri for serif, and Dotum and Minburi for sans, but still Myeongjo and Gothic remains the popular choice. 
 
-In terms of type classifications, Japanese and Korean have more similarities than with Chinese. All CJK fonts also have display style as one of the classifications, but in Japan and Korea, this style is know as “design fonts”, and in China “decorative fonts.” 
+In China, the situation is a little different, where the serif is called Song Ti (宋体), or sometimes Mingchao Ti or Ming Ti (明朝体 or 明体), to go together with the Japanese and Korean names. The sans is called Hei Ti (黑体). 
+
+In terms of type classifications, Japanese and Korean have more similarities than with Chinese. All CJK fonts also have display style as one of the classifications, but in Japan and Korea, this style is know as “design fonts” and in China “decorative fonts.” 
 
 ## Chinese type classification
 
-The categories in Chinese type classification can be seen as a set of names from the most popular styles that appeared throughout Chinese type history, all the way to our contemporary times. Even with the digital technologies, and the multiple mechanical printing techniques, there is—and always has been—a strong connection to handwritten calligraphy. Thus, Chinese typeface categories with styles related to calligraphy are still popular even today, due to the very nature of the characters (more organic than mechanical). Styles that are less linked to calligraphy appeared very late in history (first in woodblock printing with Songti and Mingti), as ways to respond to the needs of their time and follow the contemporary trends (Yuanti and Heiti).
+The categories in Chinese type classification can be seen as a set of names from the most popular styles that appeared throughout Chinese type history, all the way to our contemporary times. Even with digital technologies, and the multiple mechanical printing techniques, there is—and always has been—a strong connection to handwritten calligraphy. Thus, Chinese typeface categories with styles related to calligraphy are still popular even today, due to the very nature of the characters (more organic than mechanical). Styles that are less calligraphic appeared very late in history (first in woodblock printing with Songti and Mingti), as ways to respond to the needs of their time and follow the contemporary trends (Yuanti and Heiti).
 
-Note: As Chinese type evolved mostly independently from Latin, the groups or styles are different, as is the impression given to users of the few that may look alike. 
+As Chinese type evolved mostly independently from Latin, the groups or styles are different. Chinese (digital) type classification can be presented in seven categories, from the most “traditional” style to the most “modern.” Here are the major categories:
 
-Chinese (digital) type classification can be presented in seven categories, from the most “traditional” style to the most “modern.” Here are the major categories:
+### Kaiti (楷体) or “Regular style”
 
-### Kaiti (楷体), also called “Regular style”
-
-Kaiti style is related to the calligraphic Regular Script (楷书), with “regular” denoting “official” or “formal.” Regular Script is the last calligraphic style that appeared in the history of Chinese calligraphy (around the 7th century). Other than carrying the movements of the brush (traditionality, warmth, liveliness), it is a separate category to the Handwritten one because Kaiti styles obey a number of proportions and details that make it more “standardized”.
+Kaiti style is related to the calligraphic Regular Script (楷书), with “regular” denoting “official” or “formal.” Regular Script is the last calligraphic style that appeared in the history of Chinese calligraphy (around the 7th century). Other than carrying the movements of the brush (traditionality, warmth, liveliness), it’s a separate category to the Handwritten one because Kaiti obeys a number of proportions and details that make it more “standardized.”
 
 <figure>
 
@@ -36,7 +36,7 @@ Typefaces with a handwritten style in Chinese can vary significantly depending o
 
 ### Songti (宋体)
 
-Songti style typefaces have design features made to fit woodblock carving (straight lines, diamond shaped serifs, accentuated contrast). It was the dominant style used for woodblock printing, which was the main technique used for Chinese printing since the Song dynasty (960–1279) all the way until the Ming dynasty (1368–1644). As it is the style used for the biggest part of Chinese typography history, it is the most familiar and popular one for texts, even today. 
+Songti style typefaces have design features made to fit woodblock carving (straight lines, diamond shaped serifs, accentuated contrast). It was the dominant style used for woodblock printing, which was the main technique used for Chinese printing since the Song dynasty (960–1279) all the way until the Ming dynasty (1368–1644). As it’s the style used for the biggest part of Chinese typography history, it’s the most familiar and popular one for texts, even today. 
 
 <figure>
 
@@ -46,7 +46,7 @@ Songti style typefaces have design features made to fit woodblock carving (strai
 
 ### FangSongti (仿宋体)
 
-FangSongti means “pseudo-Songti”. It is a style derived from Songti, but with slightly more movement than its precursor (subtle slant of horizontal strokes, sharper serifs and endings, stiffer curves), and is most often suited to classical editorial usage as of the last couple of decades.
+FangSongti means “pseudo-Songti”. It’s a style derived from Songti, but with slightly more movement than its precursor (subtle slant of horizontal strokes, sharper serifs and endings, stiffer curves), and is most often suited to classical editorial usage as of the last couple of decades.
 
 <figure>
 
@@ -74,7 +74,7 @@ Yuanti (圆体) is a sub-group of Heiti, because even though it is a rounded sty
 
 ### Decorative or Artistic (展示体, 美术体)
 
-This category can be related as “Display” or “Titling” styles in Latin, with all kinds of playfulness, personality, and quirkiness allowed by the versatility of Chinese characters (remember that it is an organic writing system first!).
+This category can be related as “Display” or “Titling” styles in Latin, with all kinds of playfulness, personality, and quirkiness allowed by the versatility of Chinese characters (remember that this is an organic writing system first!).
 
 <figure>
 
@@ -84,11 +84,11 @@ This category can be related as “Display” or “Titling” styles in Latin, 
 
 ### About the names
 
-You might have noticed how some names start the same but end up with either “-ti” or “-shu”. In Chinese, 书 [shu] means “calligraphic style” in the context of 书法 [shufa] for calligraphy. And 体 [ti] means “typographic style” in the context of 字体 [ziti] for typography. A typographic style is very often named after its calligraphic style, or contains a reference to its style directly in the name. 
+You may have noticed how some names start the same, but end up with either “-ti” or “-shu”. In Chinese, 书 [shu] means “calligraphic style” in the context of 书法 [shufa] for calligraphy. And 体 [ti] means “typographic style” in the context of 字体 [ziti] for typography. A typographic style is very often named after its calligraphic style, or contains a reference to its style directly in the name. 
 
 ## Japanese type classification
 
-The term “modern serif” in Latin type refers to a classification called _didone,_ such as Bodoni and Didot. However, in Japanese typography, the definition of a modern serif is a little different. Let’s first look at an old-style serif, which is a good starting point for type classification development.
+The term “modern serif” in Latin type refers to a classification called _didone,_ such as Bodoni and Didot. However, in Japanese typography, the definition of a modern serif is a little different. Let’s first look at an old-style serif:
 
 <figure>
 
@@ -106,7 +106,7 @@ The characteristics of a traditional Japanese old-style serif has a lot in commo
 
 </figure>
 
-Modern serif classification in Japanese typography is on the opposite side from the old-style serif. It has relatively large and dynamic counter size, simpler strokes, clean elements, and sometimes low contrast between vertical and horizontal strokes. For example, Noto Serif JP, while it respects the traditional letterform, is designed with low contrast and distinctive elements, employing wider counters to improve readability on screen.
+Modern serif classification in Japanese typography is on the opposite side from the old-style serif. It has relatively large and dynamic counter size, simpler strokes, clean elements, and sometimes low contrast between vertical and horizontal strokes. For example, [Noto Serif JP](https://fonts.google.com/noto/specimen/Noto+Serif+JP), while it respects the traditional letterform, is designed with low contrast and distinctive elements, employing wider counters to improve readability on screen.
 
 <figure>
 
@@ -134,7 +134,7 @@ As we covered earlier, Noto JP pursues modern elements and strokes while honorin
 
 The basic type classification of serif and sans for Korean has a lot in common with Japanese, but since Korean letterforms are fundamentally geometric and have less variety in terms of curves than Japanese, the characteristics to look when understanding the classification is a little different.
 
-Korean old-style serifs also have small counters, but not always the small letter size. However, the strokes could be more brush-like and lingering, rather than systematic modules. The unique part is that although usually old-style serifs in Latin and Japanese would have humanist brush strokes, because it is developed from brush writing, Korean old-style serifs are the other way around: They follow the original geometric letterform of the Hangeul from Hunminjeongum. For more information, read our [Designing Hangeul](/designing_hangeul) collection of articles by Darrell Penta.
+Korean old-style serifs also have small counters, but not always the small letter size. However, the strokes could be more brush-like and lingering, rather than systematic. The unique part is that although most old-style serifs in Latin and Japanese would have humanist brush strokes, because they developed from brush writing, Korean old-style serifs are the other way around: They follow the original geometric letterform of the Hangeul from Hunminjeongum. For more information, read our [Designing Hangeul](/designing_hangeul) collection of articles by Darrell Penta.
 
 <figure>
 
@@ -142,9 +142,9 @@ Korean old-style serifs also have small counters, but not always the small lette
 
 </figure>
 
-Modern serifs in Korean could have several different characteristics. Noto Serif KR is a classic modern serif, with humanist letterforms and distinctive elements. Nanum Myeongjo is a more unusual modern serif, with stiff elements, and larger than Noto Serif KR. Even though the typeface has strong uniqueness, as long as the typeface is intended for text usage, it is considered a modern serif, not a display.
+Modern serifs in Korean could have several different characteristics. [Noto Serif KR](https://fonts.google.com/noto/specimen/Noto+Serif+KR) is a classic modern serif, with humanist letterforms and distinctive elements. Nanum Myeongjo is a more unusual modern serif, with stiff elements, and larger than Noto Serif KR. Even though the typeface has a strong uniqueness, as long as it’s intended for text usage, it’s considered a modern serif, not a display.
 
-The sans serif classification in Korean is more of a development of the design rather than a classification category. Typical old-style Korean sans serif will have full-width square letterform, and each component has a wider range of different sizing to forcibly fit the square form. 
+The sans serif classification in Korean is more of a development of the design rather than a classification category. Typical old-style Korean sans serifs will have full-width square letterform, and each component has a wider range of different sizing to forcibly fit the square form. 
 
 <figure>
 
@@ -152,7 +152,7 @@ The sans serif classification in Korean is more of a development of the design r
 
 </figure>
 
-Modern sans serifs, or any sans serifs designed and released in the past couple of decades, have narrow letter width between 850–970 units (85–97%), for smoother reading experience and solid typography. The components are not forcibly stretched or stuffed in; instead the sizing of components changes within a sensible range to respect the original form of the Hangeul component, while keeping monospaced letterform. 
+Modern sans serifs, or any sans serifs designed and released in the past couple of decades, have narrow letter width between 850–970 units (85–97%), for a smoother reading experience and more modern feel. The components are not forcibly stretched or stuffed in; instead, the sizing of components changes within a sensible range to respect the original form of the Hangeul component, while keeping the monospaced letterforms. 
 
 <figure>
 
@@ -160,10 +160,12 @@ Modern sans serifs, or any sans serifs designed and released in the past couple 
 
 </figure>
 
-Most Korean fonts are monospaced by default, but very rarely there are also proportional and kerned sans serif. Also, there is a Korean-only classification called “Talnemo,” meaning out-of-the-box or non-square, and this is also a proportional and kerned Korean type classification. Please sreadee [Type development of Hangeul](/lesson/type_development_of_hangeul) for more details.
+Most Korean fonts are monospaced by default, but very rarely there are also proportional and kerned sans serifs. Also, there is a Korean-only classification called “Talnemo,” meaning out-of-the-box or non-square, and this is also a proportional and kerned Korean type classification.
 
 <figure>
 
 ![Sample of non-square KR font - Dongle](images/09.svg)
 
 </figure>
+
+ Please read [Type development of Hangeul](/lesson/type_development_of_hangeul) for more details.

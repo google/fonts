@@ -25,7 +25,7 @@ Although Jeongho Choi defined the Korean serif style that is now, Kyungseo Park 
 
 <figure>
 
-![Scan of Jeongho Choi’s sketches](images/03.svg)
+![Scan of Jeongho Choi’s sketches](images/03.jpg)
 
 </figure>
 

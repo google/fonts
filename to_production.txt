@@ -1,18 +1,25 @@
 # New
+ofl/alexandria # https://github.com/google/fonts/pull/5506
 ofl/fragmentmono # https://github.com/google/fonts/pull/5461
 ofl/ibmplexsansjp # https://github.com/google/fonts/pull/5226
 ofl/marhey # https://github.com/google/fonts/pull/5374
 ofl/notosanslaolooped # https://github.com/google/fonts/pull/5202
 ofl/notosansmendekikakui # https://github.com/google/fonts/pull/5143
+ofl/notoserifkhojki # https://github.com/google/fonts/pull/5152
 ofl/notoseriforiya # https://github.com/google/fonts/pull/4878
 ofl/sono # https://github.com/google/fonts/pull/5003
 
 # Upgrade
+ofl/alatsi # https://github.com/google/fonts/pull/5501
+ofl/asap # https://github.com/google/fonts/pull/5452
+ofl/asapcondensed # https://github.com/google/fonts/pull/5492
 ofl/average # https://github.com/google/fonts/pull/5292
 ofl/cairo # https://github.com/google/fonts/pull/5328
 ofl/cairoplay # https://github.com/google/fonts/pull/5327
 ofl/cantarell # https://github.com/google/fonts/pull/5213
 ofl/cantoraone # https://github.com/google/fonts/pull/5355
+ofl/chivo # https://github.com/google/fonts/pull/5348
+ofl/figtree # https://github.com/google/fonts/pull/5505
 ofl/finlandica # https://github.com/google/fonts/pull/5334
 ofl/mansalva # https://github.com/google/fonts/pull/5373
 ofl/merienda # https://github.com/google/fonts/pull/5291
@@ -41,6 +48,7 @@ ofl/notosanspahawhhmong # https://github.com/google/fonts/pull/5148
 ofl/notosanspaucinhau # https://github.com/google/fonts/pull/5185
 ofl/notosansrejang # https://github.com/google/fonts/pull/5184
 ofl/notosanssaurashtra # https://github.com/google/fonts/pull/5187
+ofl/notosanssharada # https://github.com/google/fonts/pull/5224
 ofl/notosanssiddham # https://github.com/google/fonts/pull/5225
 ofl/notosanssorasompeng # https://github.com/google/fonts/pull/5186
 ofl/notosanssundanese # https://github.com/google/fonts/pull/5219
@@ -94,6 +102,11 @@ ofl/bizudmincho # https://github.com/google/fonts/pull/5410
 ofl/bizudpgothic # https://github.com/google/fonts/pull/5410
 ofl/bizudpmincho # https://github.com/google/fonts/pull/5410
 ofl/davidlibre # https://github.com/google/fonts/pull/5478
+ofl/edunswactfoundation # https://github.com/google/fonts/pull/5482
+ofl/eduqldbeginner # https://github.com/google/fonts/pull/5482
+ofl/edusabeginner # https://github.com/google/fonts/pull/5482
+ofl/edutasbeginner # https://github.com/google/fonts/pull/5482
+ofl/eduvicwantbeginner # https://github.com/google/fonts/pull/5482
 ofl/harmattan # https://github.com/google/fonts/pull/5410
 ofl/ibmplexsansarabic # https://github.com/google/fonts/pull/5410
 ofl/ibmplexsansdevanagari # https://github.com/google/fonts/pull/5410
@@ -132,3 +145,15 @@ ofl/zenoldmincho # https://github.com/google/fonts/pull/5410
 # Sample texts
 lang/languages/vi_Latn.textproto # https://github.com/google/fonts/pull/5451
 lang/languages/yo_Latn.textproto # https://github.com/google/fonts/pull/5451
+lang/languages/txo_Toto.textproto # https://github.com/google/fonts/pull/5489
+lang/languages/nst_Tnsa.textproto # https://github.com/google/fonts/pull/5489
+lang/languages/hmn_Hmnp.textproto # https://github.com/google/fonts/pull/5489
+lang/languages/sa_Limb.textproto # https://github.com/google/fonts/pull/5489
+lang/languages/lif_Limb.textproto # https://github.com/google/fonts/pull/5489
+lang/languages/gon_Gong.textproto # https://github.com/google/fonts/pull/5489
+lang/languages/pwo_Mymr.textproto # https://github.com/google/fonts/pull/5489
+lang/languages/ksw_Mymr.textproto # https://github.com/google/fonts/pull/5489
+lang/languages/ccp_Cakm.textproto # https://github.com/google/fonts/pull/5489
+lang/languages/sa_Zanb.textproto # https://github.com/google/fonts/pull/5489
+lang/scripts/Toto.textproto # https://github.com/google/fonts/pull/5489
+lang/scripts/Tnsa.textproto # https://github.com/google/fonts/pull/5489

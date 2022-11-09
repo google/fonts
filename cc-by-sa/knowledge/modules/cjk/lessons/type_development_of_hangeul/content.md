@@ -1,4 +1,4 @@
-Hangeul, the Korean script, was created in 1443 and published in 1446. Until then Korea borrowed Chinese characters to apply them on Korean sounds, same as Japan did (**_Japanese Type Anatomy for more stories on Japanese_**). 
+Hangeul, the Korean [script](/glossary/script_writing_system), was created in 1443 and published in 1446. Until then, Korea borrowed Chinese characters to apply them to Korean sounds, did as Japan. Please read [“Type classification in CJK”](/lesson/type_classification_in_cjk) for more information.
 
 ## Sans serif from the beginning
 
@@ -8,21 +8,20 @@ Hangeul, the Korean script, was created in 1443 and published in 1446. Until the
 
 </figure>
 
-While Latin and Japanese developed its type design from brush and pen based letterforms, Korean was developed completely the other way around.
+While Latin and Japanese developed its [type](/glossary/type) design from brush and pen based letterforms, Korean was developed completely the other way around.
 
-The design of the first Hangeul published in 1446 is already in a sans serif style with rounded elements. This is where the type development of the Hangeul starts. King Sejong, the director of the Hangeul creation, intended this design for citizens to be able to learn the new script easily by drawing on the ground with a stick. (_For more story, go to **The Design of Hangeul** by Darrell Penta)_
+The first Hangeul design was a [sans serif](/glossary/sans_serif) style, with rounded elements, and this is where the type development of Hangeul starts. King Sejong, the director of Hangeul’s creation, intended this design for citizens to be able to learn the new script easily by drawing on the ground with a stick. For more information, read our [Designing Hangeul](/designing_hangeul) collection of articles by Darrell Penta.
 
-However, after Hangeul was widely spread in the country, the letterforms naturally developed into script style with a use of pointed brush, and this style is called “Gung” in Korean. The name Goong-chae means “the typeface for the palace,” because the style was popular among the people in the palace. And this script type goes on for a long time before the Korean serif style was designed by the type designer Kyungseo Park and Jeongho Choi in the 1900s.
+However, after Hangeul was widely spread in the country, the [letterforms](/glossary/letterform) naturally developed into [script](/glossary/script_typeface_style) style with a use of pointed brush, and this style is called “Gung” in Korean. The name Goong-chae **[CHECK SPELLING?]** means “the typeface for the palace,” because the style was popular among the people in the palace. And this script type goes on for a long time before the Korean [serif](/glossary/serif) style was designed by the [type designers](/glossary/type_designer) Kyungseo Park and Jeongho Choi in the 1900s.
 
 <figure>
 
 ![Example of Gung](images/02.svg)
 
 </figure>
+<figcaption>Gungseo font in Mac system, designed to express the Gung style back in the 16th century.</figcaption>
 
-Gungseo font in Mac system, designed to express the Gung style back in the 16th century
-
-Although Jeongho Choi defined the Korean serif style that is now, Kyungseo Park built the important structure of the Korean serif. Jeongho Choi also designed a lot of Korean serif typefaces for the type foundries in Japan, and his designs are still a huge inspiration for many type designers in Korea.
+Although Jeongho Choi defined the Korean serif style that is now, Kyungseo Park built the important structure of the Korean serif. Jeongho Choi also designed a lot of Korean serif typefaces for type foundries in Japan, and his designs are still a huge inspiration for many type designers in Korea.
 
 <figure>
 
@@ -38,9 +37,9 @@ Although Jeongho Choi defined the Korean serif style that is now, Kyungseo Park 
 
 ## Non-square style
 
-In the 80s, type designers started to experiment with the font. Sangcheol Lee and Sang-soo Ahn designed a “non-square” Hangeul font called _Saemmulchae_ and _Ahn Sang Soo chae_, and Ahn received the Gutenberg Prize later in the 2000s for his work. Most Hangeul fonts back then were only designed to fit in the embox, or “square,” and monospaced, but these non-square typefaces were fully proportional and “out of the box,” and it broke the stereotype that the Korean type design had until then. The non-square structure also gives efficiency on type designing, since it doesn’t have to be fit in the box, components could be reused instead of adjusting and squishing. It soon became the new unique classification that is Korean-only, and various designers also started to design non-square fonts.
+In the 1980s, type designers started to experiment. Sangcheol Lee and Sang-soo Ahn designed a “non-square” Hangeul font called _Saemmulchae_ and _Ahn Sang Soo chae,_ and Ahn received the Gutenberg Prize later in the 2000s for his work. Most Hangeul fonts back then were square and monospaced, but these non-square typefaces were fully proportional, and it broke the stereotype that Korean type design had until then. The non-square structure is also more efficient when designing the type, since it doesn’t have to be fit the full width of a square, so components can be reused instead of adjusting and squishing. “Non-square” soon became a new classification, unique to Korean, and more designers started to design non-square fonts.
 
-(**_CJK typesetting rules _**for more detail about CJK monospaced and full-width fonts)
+Please read [“CJK typesetting rules”](/lesson/cjk_typesetting_rules) for more detail about CJK monospaced and full-width fonts.
 
 <figure>
 
@@ -48,11 +47,11 @@ In the 80s, type designers started to experiment with the font. Sangcheol Lee an
 
 </figure>
 
-## Fast trend and various type design trials
+## Recent trends and experiments
 
-In the 90s and early 2000s, the first generation of social media and blogs were in a big trend, and Korean type foundries found a new business opportunity in it. Several social media services back then in Korea started to sell fonts that you can apply on your blogs or phones. Some fonts called Action Font had GIF-ish movements which made them more special for web usage. The social media trend back then didn’t survive till today, but the culture of choosing fonts just for your phone remains, even globally.
+In the 1990s and early 2000s, the first generation of social media and blogs became popular, and Korean type foundries found a new business opportunity. Several social media services in Korea started to sell fonts that you could apply on your blogs or phones. Some, called “action fonts”, had GIF-like animations which made them more suitable for web usage. The social media trend back then didn’t survive to today, but the culture of choosing fonts just for your phone remains, even globally.
 
-Another Korean trend in the early 2000s is the handwriting fonts. Most of movie posters and book covers had handwritten style letterings, and the trend went on long for several years. Because people were fond of handwritten style so much, type foundries started to commissioned professional calligraphers to design handwritten style fonts that are casual and pop. 
+Another Korean trend in the early 2000s—particularly on movie posters and book covers—was handwriting fonts. Because people were fond of the handwritten style, many type foundries started to commissioned professional calligraphers to design casual, handwritten-style typefaces.
 
 <figure>
 
@@ -60,7 +59,7 @@ Another Korean trend in the early 2000s is the handwriting fonts. Most of movie 
 
 </figure>
 
-From the late 2000s, the trend of retro type movement kicked in, and took over the movie posters and book covers instead of handwritten fonts. The definition of retro type is brief—something that feels old but stylish, nostalgic but new somehow, looks rough but also executed gently. Retro types gave a familiar and friendly atmosphere and these fonts were used in various scenes everywhere from restaurants to pickets.
+From the late 2000s, the trend of retro type kicked in, and took over the movie posters and book covers instead of handwritten type. Retro type could be said to be something that feels old but stylish, nostalgic but new, rough but also executed gently. Retro typefaces give a familiar and friendly atmosphere, and these fonts were used in various settings, from restaurants to pickets.
 
 <figure>
 
@@ -68,8 +67,6 @@ From the late 2000s, the trend of retro type movement kicked in, and took over t
 
 </figure>
 
-In this past decade, the biggest change in Hangeul type design is letter width. Hangeul fonts are designed to fit in the embox and monospaced by default, except for the “non-square” fonts, which meant that Hangeul glyphs had 1000 units for the letter width. However, because Hangeul is a composition letter of syllable blocks, when the block has as many components as possible, the letter is likely to pile up. Inevitably, some characters would look squished down. By slimming the letter width, the letters would look slightly narrower, resulting in a smoother and smarter reading experience. Most Hangeul fonts designed and released now have narrow letter width around 850~950 units, including Noto Sans KR.
+In this past decade, the biggest change in Hangeul type design is letter width. Hangeul fonts are monospaced by default, except for the “non-square” fonts, which meant that Hangeul glyphs had 1000 units for the letter width. However, because Hangeul is a composition letter of syllable blocks, when the block has as many components as possible, the letter is likely to pile up. Inevitably, some characters would look squished. By slimming the letter width, the letters would look slightly narrower, resulting in a smoother and smarter reading experience. Most Hangeul fonts designed and released now have a narrow letter width—around 850–950 units—including Noto Sans KR.
 
-## And next
-
-Hangeul was created in 1400s, and the first Korean serif was designed in 1900s, which are both fairly later than other scripts. Both the Hangeul type design and typography are still growing, and there are so many potentials and possibilities that are waiting to be tested. In the near future, we might have to revisit and redefine the type development of Hangeul with new history written.
+Hangeul was created in 1400s, and the first Korean serif was designed in 1900s, which are both relatively later than other scripts. Both Hangeul type design typography are still evolving, and there are so many potentials and possibilities waiting to be tested.

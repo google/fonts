@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "NotoSansTC[wght].ttf"
   post_script_name: "NotoSansTC-Thin"
-  full_name: "Noto Sans TC"
-  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+  full_name: "Noto Sans TC Thin"
+  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
 }
 subsets: "chinese-traditional"
 subsets: "cyrillic"

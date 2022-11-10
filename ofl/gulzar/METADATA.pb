@@ -16,8 +16,8 @@ subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-primary_script: "Arab"
 source {
   repository_url: "https://github.com/simoncozens/Gulzar"
-  commit: "7f736710573840523e68ea977843f7af7239632b"
+  commit: "229b53b8941dfac262f24f2ef3b06b9832e12763"
 }
+primary_script: "Arab"

@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "NotoSansHK[wght].ttf"
   post_script_name: "NotoSansHK-Thin"
-  full_name: "Noto Sans HK"
-  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+  full_name: "Noto Sans HK Thin"
+  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
 }
 subsets: "chinese-hongkong"
 subsets: "cyrillic"

@@ -1,6 +1,6 @@
 ---
 name: Add Axis
-about: Submit a custom Axis Google Fonts
+about: Submit a custom axis to Google Fonts Axis Registry.
 title: 'Add [Axis (TAG) Name]'
 labels: '--new-axis'
 assignees: ''
@@ -9,13 +9,15 @@ assignees: ''
 
 ## Font Project introducing the axis
 
-(Provide the name and github repo of the font introducing the axis)
+(Provide the name and GitHub repo of the font introducing the axis)
 
 ## Validate the incoming custom axis against the Axis Registry
 
-Please inspect the current [Axis Registry](https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data) and verify if there is already a custom axis that could be used for the variation purpose on the font. We should look to ensure it's not a duplicated concept.
+Please inspect the current [Axis Registry](https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data) and determine if there is already a custom axis that could be used for the variation purpose on the font. We should ensure it's not a duplicated concept.
 
-## Super short description of what the axis does
+## Short description of what the axis does
+
+Describe the effect of the axis in the font. Over what does it operates (stems, terminals, serifs, etc) how changes happen. 
 
 ## Image
 
@@ -27,12 +29,15 @@ Please provide an expected case of use from the user’s point of view, reasonin
 
 This explanation would help to discern the validity of the axis itself and its definitions such as the ranges. This information could be used to create additional educational content.
 
-## Axis Metadata fields
+## Axis metadata fields
 
-Complete the following metadata field for the axis. You could read about the [Axis Metadata Fields](https://github.com/googlefonts/axisregistry#axis-metadata-fields) in the Readme section of this repository.
+Complete the following metadata field for the axis. You can read about the [Axis Metadata Fields](https://github.com/googlefonts/axisregistry#axis-metadata-fields) in the Readme section of this repository.
+
+- For the time being every custom axis is registered with only one fallback, which should be named "Default" and the value should match the axis `default_value`.
+- The description gives users more context about what the axis does or how it can be used. It should be written in a general way allowing it to make sense for other cases and should include a clarificacion of the range. This text is used on the Type Tester tab of the font specimen page, under the info button (i) next to the axis name.
 
 ```
-#[TAG] based on (url of the font's repository introducing the axis)
+#[Four letter axis TAG] based on (url of the font's repository introducing the axis)
 tag: ""
 display_name: ""
 min_value: 

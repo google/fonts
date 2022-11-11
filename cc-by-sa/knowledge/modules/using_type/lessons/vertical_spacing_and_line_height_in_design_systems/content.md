@@ -1,5 +1,3 @@
-# Vertical spacing & line height in design systems
-
 Digital designers will typically spend hours meticulously fine-tuning their components and pages to look pixel perfect with consistent padding, a beautiful and cohesive color system, and most importantly the [fonts](/glossary/font) we choose to display our content. But as we all know, designs and trends change—and our systems need to update to match these. A proper design system will scale easily with colors and spacing variables, but when it comes to switching out our fonts, all that hard work goes to waste and we need to start from scratch again. This all comes down to inconsistent vertical spacing from [typeface](/glossary/typeface) to typeface, and how the platforms we’re designing for render text.
 
 ## Let’s start with some history

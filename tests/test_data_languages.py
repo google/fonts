@@ -34,6 +34,12 @@ CLDR_SCRIPT_TO_UCD_SCRIPT = {
     "Ol Chiki": "Ol_Chiki",
 }
 
+SKIP_EXEMPLARS = {
+    "ja_Jpan": "Contains multiple scripts",
+    "aii_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
+    "sel_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
+}
+
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
 @pytest.mark.parametrize(
@@ -80,12 +86,12 @@ def test_exemplars_are_in_script(lang_code):
     if not lang.exemplar_chars.ListFields():
         pytest.skip("No exemplars for language " + lang_code)
         return
-    if "Jpan" in lang.id:
-        pytest.skip("Too tricky")
+    if lang.id in SKIP_EXEMPLARS:
+        pytest.skip(SKIP_EXEMPLARS[lang.id])
         return
     out_of_script = {}
     for field in ExemplarChars.fields:
-        if field.name == "auxiliary":
+        if field.name == "auxiliary" or field.name == "index":
             continue
         exemplars = getattr(lang.exemplar_chars, field.name)
         group_of_chars = re.findall(r"(\{[^}]+\}|\S+)", exemplars)

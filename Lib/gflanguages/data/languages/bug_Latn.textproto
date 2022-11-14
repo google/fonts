@@ -7,7 +7,7 @@ population: 4298211
 region: "ID"
 region: "MY"
 exemplar_chars {
-  base: "A B C D E G I J K L M N O P R S T U W Y Ә a b c d e g i j k l m n o p r s t u w y \' ә"
+  base: "A B C D E G I J K L M N O P R S T U W Y Ə a b c d e g i j k l m n o p r s t u w y \' ə"
 }
 sample_text {
   masthead_full: "SsIi"

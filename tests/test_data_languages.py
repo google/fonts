@@ -14,13 +14,31 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-import pytest
 from collections import Counter
+import re
+
 from gflanguages import LoadLanguages, languages_public_pb2, LoadScripts
+import pytest
+import youseedee
 
 
 LANGUAGES = LoadLanguages()
 SCRIPTS = LoadScripts()
+
+CLDR_SCRIPT_TO_UCD_SCRIPT = {
+    "Bangla": "Bengali",
+    "Traditional Han": "Han",
+    "Simplified Han": "Han",
+    "Korean": "Hangul",
+    "Odia": "Oriya",
+    "Ol Chiki": "Ol_Chiki",
+}
+
+SKIP_EXEMPLARS = {
+    "ja_Jpan": "Contains multiple scripts",
+    "aii_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
+    "sel_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
+}
 
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
@@ -36,6 +54,7 @@ def test_languages_exemplars_duplicates(lang_code, exemplar_name):
 
 
 SampleText = languages_public_pb2.SampleTextProto().DESCRIPTOR
+ExemplarChars = languages_public_pb2.ExemplarCharsProto().DESCRIPTOR
 
 
 @pytest.mark.parametrize("lang_code", LANGUAGES.keys())
@@ -57,3 +76,35 @@ def test_script_is_known(lang_code):
     lang = LANGUAGES[lang_code]
     script = lang.script
     assert script in SCRIPTS, f"{lang_code} used unknown script {lang.script}"
+
+
+@pytest.mark.parametrize("lang_code", LANGUAGES.keys())
+def test_exemplars_are_in_script(lang_code):
+    lang = LANGUAGES[lang_code]
+    script_name = SCRIPTS[lang.script].name
+    script_name = CLDR_SCRIPT_TO_UCD_SCRIPT.get(script_name, script_name)
+    if not lang.exemplar_chars.ListFields():
+        pytest.skip("No exemplars for language " + lang_code)
+        return
+    if lang.id in SKIP_EXEMPLARS:
+        pytest.skip(SKIP_EXEMPLARS[lang.id])
+        return
+    out_of_script = {}
+    for field in ExemplarChars.fields:
+        if field.name == "auxiliary" or field.name == "index":
+            continue
+        exemplars = getattr(lang.exemplar_chars, field.name)
+        group_of_chars = re.findall(r"(\{[^}]+\}|\S+)", exemplars)
+        for chars in group_of_chars:
+            for char in chars:
+                char_script = youseedee.ucd_data(ord(char)).get("Script")
+                if char_script == "Common" or char_script == "Inherited":
+                    continue
+                if char_script != script_name:
+                    out_of_script[chars] = char_script
+                    break
+    assert not out_of_script, (
+        f"{lang_code} exemplars contained out-of-script characters"
+        f": {', '.join(out_of_script.keys())}"
+        f" from scripts {', '.join(set(out_of_script.values()))}"
+    )

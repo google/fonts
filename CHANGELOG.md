@@ -1,7 +1,10 @@
 Below are the most important changes from each release.
 
 ## Next release
-- Chorasmian #47
+
+## 0.4.3 (2022-Nov-14)
+- Add missing script to Chorasmian #47
+- Pin protobuf>=3.7.0, <=3.20.3 like fontbakery
 
 ## 0.4.2 (2022-Nov-09)
 - Add new script definitions and language samples for the Tangsa and Toto scripts #29 #25
@@ -14,7 +17,7 @@ Below are the most important changes from each release.
     -  Zanabazar Square #39 .
 - Remove duplicate characters from languages exemplar_chars #18
 
-## 0.4.1 (2022-Oct-*)
+## 0.4.1 (2022-Oct-20)
 - "CN" region added to Chinese languages #13
 - Vietnamese specimen sample text fixes #14
 - replace U+2010 HYPHEN with U+002D Hyphen-Minus in sample texts #15

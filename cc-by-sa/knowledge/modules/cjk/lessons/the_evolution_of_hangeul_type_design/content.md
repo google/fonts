@@ -1,5 +1,3 @@
-**[THIS VERSION IS NOW READY FOR CHECKING]**
-
 Hangeul, the Korean [script](/glossary/script_writing_system), was created in 1443 and published in 1446. Until then, Korea borrowed Chinese characters to apply them to Korean sounds, as did Japan. Please read [“Type classification in CJK”](/lesson/type_classification_in_cjk) for more information.
 
 ## A sans serif origin
@@ -14,7 +12,7 @@ While Latin and Japanese developed its [type](/glossary/type) design from brush 
 
 The first Hangeul design was a [sans serif](/glossary/sans_serif) style, with rounded elements, and this is where the type development of Hangeul starts. King Sejong, the director of Hangeul’s creation, intended this design for citizens to be able to learn the new script easily by drawing on the ground with a stick. For more information, read our [Designing Hangeul](/designing_hangeul) collection of articles by Darrell Penta.
 
-However, after Hangeul was widely spread in the country, the [letterforms](/glossary/letterform) naturally developed into a [script](/glossary/script_typeface_style) style with a use of pointed brush, and this style is called “Gung” in Korean. The name Goong-chae **[TO-DO: CHECK GOONG / GANG SPELLING?]** means “the typeface for the palace,” because the style was popular among the people in the palace. And this script type enjoyed ubiquity until the Korean [serif](/glossary/serif) style was designed by the [type designers](/glossary/type_designer) Kyungseo Park and Jeongho Choi in the 1900s.
+However, after Hangeul was widely spread in the country, the [letterforms](/glossary/letterform) naturally developed into a [script](/glossary/script_typeface_style) style with a use of pointed brush, and this style is called “Gung” in Korean. The name Gung-chae means “the typeface for the palace,” because the style was popular among the people in the palace. And this script type enjoyed ubiquity until the Korean [serif](/glossary/serif) style was designed by the [type designers](/glossary/type_designer) Kyungseo Park and Jeongho Choi in the 1900s.
 
 <figure>
 
@@ -30,6 +28,7 @@ Although Jeongho Choi defined the Korean serif style that we know now, Kyungseo 
 ![Scan of Jeongho Choi’s sketches](images/03.jpg)
 
 </figure>
+<figcaption>Jeongho Choi’s sketch. From “Hangeul designer Choi JeongHo,” written by Ahn, Sangsoo and Noh, Eunyou. Ahn Graphics 2014.</figcaption>
 
 <figure>
 

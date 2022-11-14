@@ -1,5 +1,3 @@
-**[THIS VERSION IS NOW READY FOR CHECKING]**
-
 There are four main differences between [Latin](/glossary/latin) and [CJK](/glossary/cjk) [fonts](/glossary/font) that are important to  consider when typesetting:
 
 ## 1. Full-width, monospaced
@@ -44,7 +42,7 @@ CJK fonts do not have a concept of a baseline. The idea is that the balance of t
 
 ## 4. No italics
 
-In CJK scripts—and therefore CJK fonts—there are no italics. Type is sometimes [faux-ialicized](/glossary/faux_fake_pseudo_synthesized) for design purposes, but originally, italics do not exist. Instead, designers come up with creative solutions. Most of the time, single and double quotation marks or full-width brackets are the common and easy way used to indicate emphasis. Little dots above the letters are also used a lot, but only when there is no Ruby (small text written above Kanji or foreign letters to indicate phonetics or pronunciations in Japanese). 
+In CJK scripts—and therefore CJK fonts—there are no italics. Type is sometimes [faux-italicized](/glossary/faux_fake_pseudo_synthesized) for design purposes, but originally, italics do not exist. Instead, designers come up with creative solutions. Most of the time, single and double quotation marks or full-width brackets are the common and easy way used to indicate emphasis. Little dots above the letters are also used a lot, but only when there is no Ruby (small text written above Kanji or foreign letters to indicate phonetics or pronunciations in Japanese). In Japanese, use of Katakana is also sometimes used as a way of emphasis.
 
 <figure>
 

@@ -1,5 +1,3 @@
-**[THIS VERSION IS NOW READY FOR CHECKING]**
-
 [Typefaces](/glossary/typeface) have various classification categories—[sans serif](/glossary/sans_serif), [serif](/glossary/serif), rounded, [humanist](/glossary/humanist_old_style), [geometric](/glossary/geometric), and so on. Do these classifications apply equally to other scripts too? The short answer is: No, because each script has its own culture, and these classifications were created for Latin typefaces. So what is it like in CJK?
 
 In Japan and Korea, the same words are used—but different phonetics—for serif and sans serif. Mincho (Japanese) and Myeongjo (Korean) for serif, and Gothic for sans serif in both Japanese and Korean. For the past couple of decades, there have been few trials in Korea to create original Korean words for serif and sans serif, such as Batang and Buri for serif, and Dotum and Minburi for sans, but still Myeongjo and Gothic remains the popular choice. 

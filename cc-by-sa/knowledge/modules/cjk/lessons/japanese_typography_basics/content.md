@@ -1,5 +1,3 @@
-**[THIS VERSION IS NOW READY FOR CHECKING]**
-
 A lot of [writing systems](/glossary/scripts_writing_system) in the world use one script per language. But that’s not the case in Japan: When you write a sentence in Japanese, three different scripts can be used: _Hiragana,_ _Katakana,_ and _Kanji,_ a Japanified version of Chinese characters. And if you’re trying to develop a Japanese [typeface](/glossary/typeface), you also need to include the [Latin](/glossary/latin) alphabet and [figures](/glossary/numerals_figures), too. Japanese is the only script among [CJK](/glossary/cjk) that uses multiple scripts to form its language. 
 
 So how did it become such a melting pot of scripts? And what kind of unique aspects does Japanese have?
@@ -51,7 +49,7 @@ Before metal typesetting, Japanese was written in a script style due to the use 
 
 And there’s more: an _alternative Kanji_. Some of the Kanji characters have several slightly different forms for the same meaning, but different usage. Alternative Kanjis have many names—“old forms” and “new forms,” “Gakusan” (meaning for educational purpose), or systematic names given by JIS (Japanese Industrial Standards).
 
-There are a couple of reasons for using alternative Kanji. As written above, Kanji and Kana had a long journey of transformation over centuries, and as we transfered from analog manuscript to incunable to phototypesetting to digital fonts, some Kanji characters were accidentally drawn wrong, or developed in a few different forms, which ended up with alternative Kanji. In this case, it’s mainly used for names of people or place, or on some publications they prefer the old letterform alternative Kanji on purpose. The Kanji 辺 has 23 alternatives in Adobe-Japan 1-6! **[TO-DO: WHAT DOES THIS LAST SENTENCE MEAN?]**
+There are a couple of reasons for using alternative Kanji. As written above, Kanji and Kana had a long journey of transformation over centuries, and as we transfered from analog manuscript to incunable to phototypesetting to digital fonts, some Kanji characters were accidentally drawn wrong, or developed in a few different forms, which ended up with alternative Kanji. In this case, it’s mainly used for names of people or place, or on some publications they prefer the old letterform alternative Kanji on purpose. The Kanji 辺 has 23 alternative forms! (When using a font with Adobe-Japan 1-6 character set.)
 
 <figure>
 

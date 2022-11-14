@@ -4,7 +4,7 @@ Below are the most important changes from each release.
 
 ## 0.4.3 (2022-Nov-14)
 - Add missing script to Chorasmian #47
-- Pin protobuf>=3.7.0, <=3.20.3 like fontbakery
+- Pin protobuf>=3.7.0, <4 like fontbakery
 
 ## 0.4.2 (2022-Nov-09)
 - Add new script definitions and language samples for the Tangsa and Toto scripts #29 #25

@@ -1,28 +1,28 @@
-The single biggest challenge we face when pairing type is choosing a secondary typeface that’s different enough from our primary choice, but not _too_ different, as described in our article “[Pairing typefaces](/lesson/pairing_typefaces)”. This can be a challenge, because it’s not always clear where the similarities and the differences should lie.
+The single biggest challenge we face when [pairing type](/topic/pairing_type) is choosing a secondary [typeface](/glossary/typeface) that’s different enough from our primary choice, but not _too_ different, as described in our article “[Pairing typefaces](/lesson/pairing_typefaces)”. This can be a challenge, because it’s not always clear where the similarities and the differences should lie.
 
-In this article, we want to share with you the concept of the font matrix—an approach based on the work of German typography professor Indra Kupferschmid. Understanding it can change your perception of type and give you a framework to make better decisions when pairing typefaces.
+In this article, we want to share with you the concept of the font matrix—an approach based on the work of typography professor [Indra Kupferschmid](https://de.wikipedia.org/wiki/Indra_Kupferschmid). Understanding it can change your perception of type and give you a framework to make better decisions when pairing typefaces.
 
 Please bear in mind that combining type is not a science, with hard and fast rules. It’s a creative discipline, and you can do whatever you think feels right for your project. Take the ideas shared in this article as guidelines to make your own decisions in the great adventure of pairing type.
 
 ## The problem with the current models for classifying type
 
-Before we dive into this different way of describing type, let’s see what’s not ideal with the current models. Organizing typefaces is important to make it easier to narrow down our selections. Simple [genre classifications](/introducing_type/making_sense_of_typographic_classifications#genre-classifications-for-latin-type), like serif, or sans serif, are a good starting point. But they still leave you with a lot of typefaces to choose from.
+Before we dive into this different way of describing type, let’s see what’s not ideal with the current models. Organizing typefaces is important to make it easier to narrow down our selections. Simple [genre classifications](/lesson/making_sense_of_typographic_classifications#genre-classifications-for-latin-type), like [serif](/glossary/serif), or [sans serif](/glossary/sans_serif), are a good starting point. But they still leave you with a lot of typefaces to choose from.
 
 <figure>
 
 ![The word “Ragstone“ shown in three different sans serif typefaces.](images/all-sans-serif.svg)
 
 </figure>
-<figcaption>These are all sans-serif typefaces (ltr: Source Sans Pro, Helvetica, Outfit). Same genre, but they leave a quite different impression.</figcaption>
+<figcaption>These are all sans-serif typefaces (Source Sans Pro, Helvetica, Outfit). Same genre, but they leave a quite different impression.</figcaption>
 
 <figure>
 
 ![The word “Ragstone“ shown in three different serif typefaces.](images/all-serif.svg)
 
 </figure>
-<figcaption>These serif typefaces share the same genre classification as well, and still they appear quite diverse (ltr: Alegreya, Bodoni Moda, Memphis).</figcaption>
+<figcaption>These serif typefaces share the same genre classification as well, and still they appear quite diverse (Alegreya, Bodoni Moda, Memphis).</figcaption>
 
-On the other hand, [historical classifications](/introducing_type/making_sense_of_typographic_classifications#historical-classifications-for-latin-type) can be more fine-grained, but require a little background knowledge. They can be confusing in their terminology and have plenty of regional variations. Focusing on details, such as the exact shape of serifs, which are not necessarily crucial to the overall impression of a typeface, makes them less practical. In fact, the historic approach can become less useful in an age where type designs mix influences from various periods of time.
+On the other hand, [historical classifications](/lesson/making_sense_of_typographic_classifications#historical-classifications-for-latin-type) can be more fine-grained, but require a little background knowledge. They can be confusing in their terminology and have plenty of regional variations. Focusing on details, such as the exact shape of serifs, which are not necessarily crucial to the overall impression of a typeface, makes them less practical. In fact, the historic approach can become less useful in an age where type designs mix influences from various periods of time.
 
 So how can we describe typefaces more accurately than with the genre classifications, but without being dependent on historic background knowledge? Kupferschmid approaches it with a three-layer system:
 
@@ -41,22 +41,22 @@ Let’s take a look at each individual layer to understand what it means, and ho
 
 ## Layer 1: Skeleton (form model)
 
-This is the most crucial part, referring to the structure underneath a typeface. There are **three basic form models:**
+This is the most crucial part, referring to the structure underneath a typeface. There are three basic form models:
 
-* the dynamic,
-* the rational, and
-* the geometric.
+* Dynamic
+* Rational
+* Geometric
 
-Dynamic forms show open apertures, while the rational form model has closed apertures. The geometric form model is represented with constructed letter shapes. These shapes can be explained by different writing tools, but let’s not go that much into detail, here.
+Dynamic forms show open apertures, while the rational form model has closed apertures. The geometric form model is represented with constructed letter shapes. These shapes can be explained by different writing tools, but we won’t focus on that here.
 
 <figure>
 
 ![A double-story lower case “a” displayed in three different form models in a serif typeface. The dynamic form model has an open aperture. In the rational form model the aperture is closed. The geometric single-story lower case a appears constructed with a circular shape.](images/form-model-serif.svg)
 
 </figure>
-<figcaption>The three different form models shown with serif typefaces</figcaption>
+<figcaption>The three different form models shown with serif typefaces.</figcaption>
 
-It’s easier to distinguish the form models with [contrast](/glossary/contrast) and [serif](/glossary/serif). But you can still see them in [sans serif](/glossary/sans_serif) shapes, too:
+It’s easier to distinguish the form models with [contrast](/glossary/contrast) in serif typefaces. But you can still see them in sans serif shapes, too:
 
 <figure>
 
@@ -65,32 +65,32 @@ It’s easier to distinguish the form models with [contrast](/glossary/contrast)
 </figure>
 <figcaption>The three different form models shown with sans-serif typefaces</figcaption>
 
-Let’s take a closer look at each form model and make it more obvious by setting a word. Let’s write “Ragstone_”_, because it contains various letter shapes.
+Let’s take a closer look at each form model and make it more obvious by setting a word. We’ll use the word “Ragstone” because it contains various letter shapes:
 
 <figure>
 
 ![A dynamic linear sans serif typeface showing the word “Ragstone”. The open apertures of the lower case a and the diagonal axis in the lower case o are shown.](images/dynamic--linear-sans.svg)
 
 </figure>
-<figcaption>The dynamic form model comes with open apertures of the e, a, and s, the o diagonally angled (hard to see in sans-serif, set in Source Sans Pro).</figcaption>
+<figcaption>The dynamic form model comes with open apertures of the “e,” “a,” and “s,” as well as the diagonally angled “o” (hard to see in sans-serif, set in Source Sans Pro).</figcaption>
 
-Looking at the **dynamic form model,** you can see the open shapes, and a very subtle [diagonal axis](/glossary/axis_in_type_design). This all adds to the friendly, open, and approachable feeling that a dynamic typeface creates. Indra Kupferschmid [associated](https://kupferschrift.de/cms/2012/03/on-classifications/) the form models with certain adjectives. They can be helpful when picking a typeface that should follow a certain mood. Naturally, this mood might shift when there are serifs or no serifs, or other stylistic features, but it’s a good starting point.
+Looking at the **dynamic form model,** you can see the open shapes, and a very subtle [diagonal axis](/glossary/axis_in_type_design). This all adds to the friendly, open, and approachable feeling that a dynamic typeface creates. [Kupferschmid associated the form models with certain adjectives](https://kupferschrift.de/cms/2012/03/on-classifications/). They can be helpful when picking a typeface that should follow a certain mood. Naturally, this mood might shift when there are serifs or no serifs, or other stylistic features, but it’s a good starting point.
 
 <figure>
 
 ![A rational linear sans serif typeface showing the word “Ragstone”. The closed apertures of the lower case a and the vertical axis in the lower case o are shown.](images/rational--linear-sans.svg)
 
 </figure>
-<figcaption>The shapes of the e, a and s are rather closed, the o shows vertical axis (again, not very obvious in sans serif, set in Helvetica).</figcaption>
+<figcaption>The shapes of the “e,” “a,” and “s” are rather closed, and the “o” shows vertical axis (again, not very obvious in sans serif, set in Helvetica).</figcaption>
 
-With a **rational typeface,** we can see that these apertures are closed, which then creates a more orderly, reserved, or serious feeling.
+With a **rational** typeface, we can see that these apertures are closed, which then creates a more orderly, reserved, or serious feeling.
 
 <figure>
 
 ![A geometric linear sans serif typeface showing the word “Ragstone”. The constructed circular shapes of the lower case a, g, o and e are shown, also the cross shaped lower case t.](images/geometric--linear-sans.svg)
 
 </figure>
-<figcaption>Very constructed letter shapes, like the circular o and e, the t is a simple cross (set in Outfit).</figcaption>
+<figcaption>Very constructed letter shapes, like the circular “o” and “e.” The “t” is a simple cross (set in Outfit).</figcaption>
 
 And with the **[geometric](/glossary/geometric) typefaces,** the apertures are not that relevant for determining the form model. Also, there is no obvious axis either. It is more about how constructed the letter shapes are. Like the circular e, g, a, and o, or the simple t. This creates a clean, modern, and functional appearance.
 

@@ -1,5 +1,34 @@
 Below are the most important changes from each release.
 
+## Next release
+
+## 0.4.3 (2022-Nov-14)
+- Add missing script to Chorasmian #47
+- Pin protobuf>=3.7.0, <4 like fontbakery
+
+## 0.4.2 (2022-Nov-09)
+- Add new script definitions and language samples for the Tangsa and Toto scripts #29 #25
+- Fixes to broken circles in sample texts for: 
+    -  NP Hmong #34
+    -  Limbu #40 #36
+    -  Gonjala Gondi #37
+    -  Chakma #43
+    -  Myanmar (Pwo + S'gaw Karen) #38
+    -  Zanabazar Square #39 .
+- Remove duplicate characters from languages exemplar_chars #18
+
+## 0.4.1 (2022-Oct-20)
+- "CN" region added to Chinese languages #13
+- Vietnamese specimen sample text fixes #14
+- replace U+2010 HYPHEN with U+002D Hyphen-Minus in sample texts #15
+- U+0323 instead of U+329 in yo_Latn #16
+- Update README.md, used in gftools and google/fonts #17
+- Pin protobuf to 3.19.4 #19
+- Corrected a breve dot below with proper codepoint. #21
+- Fix Mundari sample text #22
+- Add sample_text to bax_Bamu.textproto #27
+- actions: add publish-release #28
+
 ## 0.4.0 (2022-Mar-09)
 ### Release notes
   - Use default `DATA_DIR` if user passes `base_dir=None`, to make it easier to use the API and to avoid problems like this: https://github.com/googlefonts/gftools/pull/511#issuecomment-1060398562

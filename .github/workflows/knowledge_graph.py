@@ -250,6 +250,10 @@ def _is_svg(image_file: Path) -> bool:
   return image_file.suffix == '.svg'
 
 
+def _is_svg(image_file: Path) -> bool:
+  return image_file.suffix == '.svg'
+
+
 def _check_image_files(knowledge: KnowledgeContent) -> bool:
     result = True
     image_files = list(knowledge.knowledge_dir.glob("**/images/*"))

@@ -1,5 +1,5 @@
 
-Choosing [typefaces](/glossary/typeface) designed by the same [type designer](/glossary/type_designer) or [type foundry](/glossary/type_foundry) makes life a little easier when [pairing type](/topics/pairing_type). While it’s certainly a generalization, we often find that type designers have certain stylistic ways of drawing [letterforms](/glossary/letterform), and certain technical ways of creating [font](/glossary/font) files.
+Choosing [typefaces](/glossary/typeface) designed by the same [type designer](/glossary/type_designer) or [type foundry](/glossary/type_foundry) makes life a little easier when [pairing type](/topic/pairing_type). While it’s certainly a generalization, we often find that type designers have certain stylistic ways of drawing [letterforms](/glossary/letterform), and certain technical ways of creating [font](/glossary/font) files.
 
 If two artists are drawing the same exact object—for instance, an apple—in the same exact medium, they will still produce very different results because of the micro decisions they make as they try to accurately render the apple. Those familiar with the artists’ work would be able to tell their work apart. The same is true for type designers, whose “hand” is possible to spot in their typefaces.
 

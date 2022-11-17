@@ -16,7 +16,7 @@ There are many scientific models of how motivated people convert the written wor
 
 Individual differences in reading are not only attributable to differences in our physiology.  Our experience of the world, what we have learned, and our preferences can all affect how we see.
 
-Find out more about text accessibility **[TO-DO]here**.  
+Find out more about text accessibility in [“Introducing accessibility in typography.”](/lesson/introducing_accessibility_in_typography)
 
 ## Legibility is seeing the text clearly
 
@@ -25,8 +25,7 @@ Find out more about text accessibility **[TO-DO]here**.
 ![INSERT_ALT](images/readability_01.svg)
 
 </figure>
-
-FIGCAPTION: Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.
+<figcaption>Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.</figcaption>
 
 Legibility is being able to clearly see the structure of the text. Legibility is achieved when the text is not fuzzy or blurred and the reader can  see all the details without any visual stress such as squinting or rereading. 
 
@@ -61,8 +60,6 @@ The heart of typography focuses on the reader’s interactions with the words as
 
 </figure>
 
-Illustration 3 (example idea): outline of a word in lower case is more distinctive than outline of the word shape in upper-case (maybe image linked to photo or illustration ‘cases’ of moveable type)
-
 The word superiority effect also describes why it is easier to read a string of words that are meaningfully related in a sentence rather than reading a string of words that are not in a grammatical structure. Syntax, the way the words are arranged in phrases to create sentences, has a strong impact on readability.
 
 <figure>
@@ -70,8 +67,6 @@ The word superiority effect also describes why it is easier to read a string of 
 ![INSERT_ALT](images/readability_04.svg)
 
 </figure>
-
-Illustration 4 (example idea): An example of an English language sentence syntax that is easy to read and the same words placed in a way that is difficult to read.
 
 Readers are surprisingly flexible in their ability to read text that is not spelled correctly and has poor syntax. It requires more effort, but if they are motivated, they can successfully read very inaccurate texts. For example, a reader can understand that this sentence with mistakes: “I yesterday red book.” means “I read the book yesterday.”
 
@@ -102,12 +97,9 @@ To explore settings that might work for your texts, when selecting a font on Goo
 ![INSERT_ALT](images/readability_07.png)
 
 </figure>
+<figcaption>Google Fonts’ Type Tester, showing text with variable axes.</figcaption>
 
-FIGCAPTION: Type Tester showing text with variable axes for weight, width, slant and ascender height.
-
-Alt text: Three text samples in text area, variable axes controls
-
-**It’s easier to read, learn, and remember meaningful texts**
+## It’s easier to read, learn, and remember meaningful texts
 
 Reading is more than seeing the words and understanding the content based on syntax. The typography itself can convey messages like  “this is meant to be easy to read” or “this is a playful message” to the reader. Just as a sentence can tell of happiness or anger, typefaces too can convey the lightness of happiness, or the boldness of anger. 
 
@@ -138,8 +130,7 @@ The shortest form of reading is called glancing, when the reader briefly looks a
 ![INSERT_ALT](images/readability_09.svg)
 
 </figure>
-
-[FIGCAPTION: Time to read a source impacts the way in which people read, and what they do while they read. Reading at-a-glance is often done alongside some other task, while reading a long form document generally requires dedication to the reading itself. Most reading is done opportunistically in interludes; while waiting or taking a break.]
+<figcaption>Time to read a source impacts the way in which people read, and what they do while they read. Reading at-a-glance is often done alongside some other task, while reading a long form document generally requires dedication to the reading itself. Most reading is done opportunistically in interludes; while waiting or taking a break.</figcaption>
 
 Interlude reading covers everything between glanceable and long form reading.  There is a wide range including text messaging, navigating through headers and labels, reading some news headlines, summaries, or scanning search results.  The motivations for this type of reading also vary widely,  and includeing learning new things, being with friends,  and finding things.
 

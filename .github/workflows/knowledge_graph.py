@@ -20,10 +20,6 @@ def _topic_target_to_path(_: Set[str], target: str) -> str:
     return Path(target.replace("/topic/", "topics/")) / "topic.textproto"
 
 
-def _topics_target_to_path(_: Set[str], target: str) -> str:
-    return Path(target.replace("/topics/", "topics/")) / "topic.textproto"
-
-
 def _module_target_to_path(_: Set[str], target: str) -> str:
     return Path(target.replace("/module/", "modules/")) / "module.textproto"
 
@@ -58,9 +54,7 @@ def _any_unique_name_to_path(names: Mapping[str, str], target: str) -> str:
 
 _LINK_TO_PATH = [
     (re.compile("^/glossary/"), _glossary_target_to_path),
-    # TODO accept only one of /topic and /topics
     (re.compile("^/topic/"), _topic_target_to_path),
-    (re.compile("^/topics/"), _topics_target_to_path),
     (re.compile("^/lesson/"), _lesson_target_to_path),
     (re.compile("^/module/"), _module_target_to_path),
     (re.compile("[^/]+"), _any_unique_name_to_path)

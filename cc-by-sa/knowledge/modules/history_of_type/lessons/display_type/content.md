@@ -1,8 +1,10 @@
-# Part five: Display type
-
 The nineteenth century witnessed rapid changes in society and industry, which led to an explosive proliferation of new [typefaces](/glossary/typeface). The Modern types designed by Bodoni and Didot in the previous century had continued the trend toward increased contrast and finer details, influenced, in part, by new calligraphic styles. Similarly, some of the typefaces of the early 19th century took existing designs and exaggerated some of their features. An early example, and one of the first [display](/glossary/display) typefaces, was the Fat Face, a style that in some respects is a parody of the Modern style, with [contrast](/glossary/contrast) taken to new extremes.
 
-<!-- GFK hist of type 5.1 -->
+<figure>
+
+![INSERT_ALT](images/GFKhistoftype5.1.svg)
+
+</figure>
 
 Another early example of the new display type was the [Slab Serif](/glossary/slab_serif_egyptian_clarendon). Modern types had reduced serifs to hairline strokes, but in the Slab Serif we see the opposite extreme — very heavy serifs attached to low-contrast, robust, and [bold](/glossary/bold) [letterforms](/glossary/letterform). By the mid-1800s, out of these forms evolved a sub-genre called Clarendon, a style of Slab Serif more suited to text settings — lighter, with more contrast, and larger [x-heights](/glossary/x_height). The Slab Serif, a term coined much later, was at first known as Egyptian. Discoveries in Egypt, at the turn of the 19th century, had led to a period of Egyptomania, and it appears that type founders simply exploited this fashion, borrowing ‘Egyptian’ to convey exotic and different, and also to convey a feeling of incised or inscriptional forms.
 
@@ -15,15 +17,27 @@ Type on a poster or billboard needs to be readable from across the street, and s
 
 However, casting very large letters in lead is impossible. Large volumes of molten type metal cool at different rates resulting in deformed, cracked, or uneven type. The solution to manufacturing big type was wood. It was ideally suited to larger sizes of letter as it was light, durable, and typically only half the cost  of metal type. Although wood type was not entirely new, its use really took off when in 1827, Darius Wells, in New York, invented a router, a mechanized wood-cutting tool enabling mass production. The rapid adoption of wood type was also helped by the ease with which it could be copied. If the  router was attached to a pantograph, any wood type could easily be traced around and reproduced at a variety of sizes — often by wily competitors.
 
-<!-- GFK hist of type 5.2 -->
+<figure>
+
+![INSERT_ALT](images/GFKhistoftype5.2.svg)
+
+</figure>
 
 When designing typefaces for reading, one works within fairly narrow parameters. Altering the structure and proportions of letterforms or adding novel or unusual accouterments interrupts the rhythm of the text — even if the individual letters are [legible](/glossary/legibility), readers will be distracted by unfamiliar details, and [readability](/glossary/readability)  suffers. But when it comes to typefaces for advertising, where the whole purpose is to stand out , then there is much more room for innovation with both the structure and detail of letterforms. Unhindered by the exigencies of readability, typefounders (both metal and wood type) experimented with every aspect of letter design. One experiment by William Caslon IV even turned type inside out, producing the ‘Reverse Contrast’ typeface, perhaps one of the most unusual designs of the early 19th century. From these typefaces that suffered from poor eligibility evolved a less extreme variant of reverse contrast design based on the Clarendons, and named French Clarendon. [Serifs](/glossary/serif) too were experimented with — from slabs of different lengths and thicknesses to wedged, curved, and other highly ornamental forms like the bifurcated Tuscans.
 
-<!-- GFK hist of type 5.3 -->
+<figure>
+
+![INSERT_ALT](images/GFKhistoftype5.3.svg)
+
+</figure>
 
 The arrival of the modern advertising poster roughly coincided with the invention of new color printing technologies, like chromolithography, which for the first time ever made color printing practical and affordable. The use of several colors became another way to stand out from the crowd, and the first chromatic wood type appeared in the 1840s, printed or overprinted from several blocks.
 
-<!-- GFK hist of type 5.4 -->
+<figure>
+
+![INSERT_ALT](images/GFKhistoftype5.4.svg)
+
+</figure>
 
 ## The arrival of the sans serif style
 

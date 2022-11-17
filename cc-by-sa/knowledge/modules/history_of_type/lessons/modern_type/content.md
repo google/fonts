@@ -1,8 +1,10 @@
-# Part four: Modern type
-
 When John Baskerville introduced his roman [typefaces](/glossary/typeface) in the 1750s, some complained that their contrast was so high that reading them could damage your eyes. During Baskerville’s lifetime, his types were more popular abroad than in England, particularly in France and Italy. And it was there that his typefaces proved most influential. But the persistent trend towards higher contrast typefaces,** **that had begun long before Baskerville, was by no means over. By the 1780s, contrast would be taken to greater extremes with a new style of typeface now termed Modern — in contrast to what we now call Old Style typefaces and their various descendants. They are also known as Didone, a term coined in 1954 as part of the Vox-ATypI typeface [classification](/introducing_type/making_sense_of_typographic_classifications) system — a fusion of the names of the style’s most famous proponents, Didot and Bodoni.
 
-<!-- GFK hist of type 4.3 -->
+<figure>
+
+![INSERT_ALT](images/GFKhistoftype4.3.svg)
+
+</figure>
 
 ## The first Moderns
 
@@ -14,21 +16,27 @@ Reproduction of the fine details in Bodoni’s type was made possible by excepti
 
 As an interesting historical aside, Bodoni and the Didots did not get along. Unable to fault Bodoni’s typefaces and typography, the brothers Didot, Firmin and his older brother Pierre, chose to attack the textual accuracy of Bodoni’s editions, jumping on even the smallest typos. In 1799 Firmin Didot wrote, “As a literary man, I condemn his editions, as a typographer I admire them.” The snub was fueled by national rivalry, snobbery, and no doubt a good amount of jealousy too.
 
-
 ## Modern features
 
 In Modern typefaces, the extreme contrast between thick and thin strokes was also carried through to the serifs which were typically very thin (sometimes called hairline) and unbracketed, or very nearly so. Those features, plus their slightly condensed forms and upright axis, all contribute to their verticality or upright stance and has led to them being described as cold and rigid. Nowadays, it is suggested that this characteristic coldness and verticality disqualifies them for use in setting extended texts; however, during the 19th century they were very much book faces.
 
-<!-- GFK hist of type 4.1 -->
+<figure>
+
+![INSERT_ALT](images/GFKhistoftype4.1.svg)
+
+</figure>
 
 In the earliest Modern style capital letters one would be hard-pressed to find any explicit calligraphic influence, except perhaps in the modulation of the strokes — that is the speed with which thick strokes turn into thin strokes — a modulation characterized by the steel pointed pen calligraphy. However, in the lowercase italics, there are more explicit references to calligraphy; for example, the hairline entry and exit strokes and ball or teardrop shaped terminals — again, these are features already present in contemporary writing manuals.
 
-<!-- GFK hist of type 4.2 -->
+<figure>
+
+![INSERT_ALT](images/GFKhistoftype4.2.svg)
+
+</figure>
 
 Comparing the Moderns of Didot and Bodoni is difficult because there are so many of them, especially from Bodoni, who produced hundreds. Although typically, there is a little more symmetry or geometry in the letters of Bodoni than in Didot’s Moderns; for example, some of Didot’s romans tend to have asymmetrical or slightly lopsided [counters](/glossary/counter).
 
 The types of Didot and Bodoni were widely copied. The latter more so, owing to Bodoni’s skill for self promotion and his attendant international fame.
-
 
 ## Modern-day Moderns
 

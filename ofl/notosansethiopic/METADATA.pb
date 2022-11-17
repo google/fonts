@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/ethiopic.git"
-  archive_url: "https://github.com/notofonts/ethiopic/releases/download/NotoSansEthiopic-v2.101/NotoSansEthiopic-v2.101.zip"
+  archive_url: "https://github.com/notofonts/ethiopic/releases/download/NotoSansEthiopic-v2.102/NotoSansEthiopic-v2.102.zip"
 }
 is_noto: true
 languages: "am_Ethi"  # Amharic

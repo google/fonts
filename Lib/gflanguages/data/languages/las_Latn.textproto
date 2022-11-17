@@ -1,9 +1,14 @@
 id: "las_Latn"
 language: "las"
 script: "Latn"
-name: "Lama"
+name: "Lama (Togo)"
+autonym: "lamʋ"
+population: 260000
+region: "TG"
 exemplar_chars {
-  base: "a A c C ɖ Ɖ ǝ Ǝ e E ɛ Ɛ f F h H i I ɨ Ɨ ɩ Ɩ k K l L m M n N ñ Ñ ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U ʋ Ʋ w W y Y"
+  base: "a A c C d D ɖ Ɖ e E ǝ Ǝ ɛ Ɛ f F h H i I ɨ Ɨ ɩ Ɩ k K {kp} {Kp} l L m M n N ñ Ñ ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U ʋ Ʋ w W y Y"
+  auxiliary: "ə Ə"
   marks: "◌̃"
-  auxiliary: "b B d D g G j J q Q v V x X z Z"
 }
+source: "Wikipedia"
+source: "https://www.webonary.org/lama"

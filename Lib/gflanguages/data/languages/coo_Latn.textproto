@@ -1,0 +1,14 @@
+id: "coo_Latn"
+language: "coo"
+script: "Latn"
+name: "Comox"
+autonym: "ayʔaǰuθɛm"
+population: 50
+region: "CA"
+exemplar_chars {
+  base: "a æ č e ə ɛ g h i ɩ ǰ k l ɬ ƛ m n o ɔ p q s š t u ʊ w ʷ x y ʸ ʔ θ ᶿ χ"
+  auxiliary: "A Æ b B c C Č d D E Ə Ɛ f F G H I Ɩ j J {J̌} K L Ɬ M N O Ɔ P Q r R S Š T U Ʊ v V W X ꭓ Ꭓ Y z Z Θ Χ"
+  marks: "◌̌ ◌̓"
+}
+source: "FirstVoices"
+source: "Wikipedia"

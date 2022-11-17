@@ -1,0 +1,14 @@
+id: "hur_Latn"
+language: "hur"
+script: "Latn"
+name: "Halkomelem"
+autonym: "hən̓q̓əmin̓əm̓"
+population: 260
+region: "CA"
+exemplar_chars {
+  base: "a c e h i k l m n p q s t u w x y č š ƛ ə ɬ ʔ ʷ θ χ ᶿ"
+  auxiliary: "A b B C d D E f F g G H I j J K L M N o O P Q r R S T U v V W X Y z Z Č Š Ə Ɬ Θ Χ Ꭓ ꭓ"
+  marks: "◌̓ ◌̌"
+}
+source: "Musqueam First Nation and MOA, hən̓q̓əmin̓əm̓ Alphabet, https://www2.moa.ubc.ca/musqueamteachingkit/alphabet.php"
+source: "Wikipedia"

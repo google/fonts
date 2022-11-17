@@ -1,0 +1,14 @@
+id: "thp_Latn"
+language: "thp"
+script: "Latn"
+name: "Thompson"
+autonym: "nłeʔkepmxcin"
+population: 600
+region: "CA"
+exemplar_chars {
+  base: "a c e h i k l m n p q s t u w x y z á é í ó ú ł ƛ ə ɣ ʔ ʕ ʷ θ ḷ ṣ ị"
+  auxiliary: "A b B C d D E f F g G H I j J K L M N o O P Q r R S T U v V W X Y Z Á É Í Ó Ú Ł Ə Ɣ Θ Ḷ Ṣ Ị"
+  marks: "◌́ ◌̓ ◌̣"
+}
+source: "FirstVoices"
+source: "Wikipedia"

@@ -1,0 +1,14 @@
+id: "kwk_Latn"
+language: "kwk"
+script: "Latn"
+name: "Kwak’wala"
+autonym: "Kwak̓wala"
+population: 450
+region: "CA"
+exemplar_chars {
+  base: "a b c d e g h i k l m n o p q s t u w x y ł ƛ ǧ ə ʔ ʷ λ ᶻ"
+  auxiliary: "A B C D E f F G H I j J K L M N O P Q r R S T U v V W X Y z Z Ł Ə Ǧ Λ"
+  marks: "◌̓ ◌̱ ◌̌"
+}
+source: "FirstVoices"
+source: "Wikipedia"

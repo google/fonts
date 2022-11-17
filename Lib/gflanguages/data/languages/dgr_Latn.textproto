@@ -4,3 +4,9 @@ script: "Latn"
 name: "Dogrib"
 population: 2638
 region: "CA"
+exemplar_chars {
+    base: "ɂ Ɂ a A à À ą Ą {ą̀} {Ą̀} b B {ch} {CH} {ch’} {CH’} d D {dl} {DL} {dz} {DZ} e E è È ę Ę {ę̀} {Ę̀} g G {gh} {GH} {gw} {GW} h H ı I {ı̀} Ì {ı̨} Į {ı̨̀} {Į̀} j J k K {k’} {K’} {kw} {KW} {kw’} {KW’} l L ł Ł m M {mb} {MB} n N {nd} {ND} o O ò Ò ǫ Ǫ {ǫ̀} {Ǫ̀} r R s S {sh} {SH} t T {t’} {T’} {tł} {TŁ} {tł’} {TŁ’} {ts} {TS} {ts’} {TS’} w W {wh} {WH} x X y Y z Z {zh} {ZH}"
+    marks: "◌̀ ◌̨"
+    auxiliary: "c C f F p P q Q u U v V"
+}
+source: "Leslie Saxon and Mary Siemens, Tłıchǫ Yatıì Enı̨htł’è – A Dogrib Dictionary, Rae-Edzo, Dogrib Divisional Board of Education, 1996"

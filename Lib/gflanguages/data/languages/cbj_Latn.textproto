@@ -2,6 +2,8 @@ id: "cbj_Latn"
 language: "cbj"
 script: "Latn"
 name: "Ede Cabe"
+population: 2240
+region: "BJ"
 exemplar_chars {
   base: "a A b B d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N o O ɔ Ɔ r R s S t T u U w W y Y"
   marks: "◌́ ◌̀"

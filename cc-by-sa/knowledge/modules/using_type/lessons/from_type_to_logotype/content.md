@@ -40,7 +40,7 @@ With the brief set, I begin the creation process by doodling and sketching conce
 
 <figure>
 
-![INSERT_ALT](images/01_exploration.svg)
+![Sketches of the word “LUNA” in all caps.](images/01_exploration.svg)
 
 </figure>
 
@@ -61,7 +61,7 @@ When I’m sketching, I’m aiming for a few things:
 
 <figure>
 
-![INSERT_ALT](images/02_schematic.svg)
+![Sketches of the word “LUNA” in all caps, with circles representing the earth and moon within the word, connected with a line.](images/02_schematic.svg)
 
 </figure>
 
@@ -69,7 +69,7 @@ As you can see, most of the sketches are mainly a variation of writing the word 
 
 <figure>
 
-![INSERT_ALT](images/03_ligature.svg)
+![A sketch of the word “LUNA” connecting the letters U and N into one shape.](images/03_ligature.svg)
 
 </figure>
 
@@ -77,7 +77,7 @@ As I’m sketching I’m also considering potential stylistic treatments such as
 
 <figure>
 
-![INSERT_ALT](images/04_holdingdevice.svg)
+![A sketch of the word “LUNA” within a lozenge shaped graphic.](images/04_holdingdevice.svg)
 
 </figure>
 
@@ -85,7 +85,7 @@ Another idea involves redrawing all letters at an angle pointing upwards—also 
 
 <figure>
 
-![INSERT_ALT](images/05_angular.svg)
+![A sketch of the word “LUNA” drawn in geometric way, with all letters at an upward angle.](images/05_angular.svg)
 
 </figure>
 
@@ -93,13 +93,13 @@ Once I feel I’m getting to a conceptual place I like, I begin to translate my 
 
 <figure>
 
-![INSERT_ALT](images/06_refining.svg)
+![A final sketch showing the word “LUNA” underlined with dots nestled within the U and A.](images/06_refining.svg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/07_avatar.svg)
+![A sketch of the “A” in a circle.](images/07_avatar.svg)
 
 </figure>
 
@@ -109,7 +109,7 @@ Now that I’m confident that I have a good set of sketched concepts, I start to
 
 <figure>
 
-![INSERT_ALT](images/08_typetest.svg)
+![The text “LUNA 2035 MISSION 01” typeset in different contempirary fonts.](images/08_typetest.svg)
 
 </figure>
 
@@ -119,7 +119,7 @@ One thing I know for sure is I want to use a secondary [monospaced](/glossary/mo
 
 <figure>
 
-![INSERT_ALT](images/09_typefaces.svg)
+![A text sample of two fonts, one bold sans-serif, the other monospaced.](images/09_typefaces.svg)
 
 </figure>
 
@@ -127,7 +127,7 @@ Adapting the sketches into digital designs—and aiming for the modern, timeless
 
 <figure>
 
-![INSERT_ALT](images/10_fontweights.svg)
+![The text “LUNA 2035” and “Mission 01” set in different font weights, from bold to thin.](images/10_fontweights.svg)
 
 </figure>
 
@@ -135,7 +135,7 @@ Sometimes typeface choices really come down to “does it evoke the right feelin
 
 <figure>
 
-![INSERT_ALT](images/11_fontchoices.svg)
+![Example of “LUNA 2035” set in a bold font, and “MISSION 01” in a monospaced font.](images/11_fontchoices.svg)
 
 </figure>
 
@@ -143,13 +143,13 @@ With my typeface choices made, I can now work at speed, creating iterations of t
 
 <figure>
 
-![INSERT_ALT](images/12_customisation.svg)
+![Image showing how the “U” and “A” in “LUNA” are customised to be more geometric.](images/12_customisation.svg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/13_construction.svg)
+![Image showing the geometric construction of the “LUNA” wordmark.](images/13_construction.svg)
 
 </figure>
 
@@ -157,7 +157,7 @@ My original idea is to create an updated idea of that graphic and construct a lo
 
 <figure>
 
-![INSERT_ALT](images/14_earthmoon.svg)
+![Image showing evolution from sketch to design.](images/14_earthmoon.svg)
 
 </figure>
 
@@ -165,7 +165,7 @@ Similarly, the ligature idea ends up going nowhere—it breaks the visual balanc
 
 <figure>
 
-![INSERT_ALT](images/15_ligature.svg)
+![Image showing evolution of ligature sketch to design.](images/15_ligature.svg)
 
 </figure>
 
@@ -173,7 +173,7 @@ But this gives me another idea: instead of placing the “Earth–Moon” dots a
 
 <figure>
 
-![INSERT_ALT](images/16_logotype.svg)
+![Image showing the Earth and Moon icon placed in the “U” and “A” of the “LUNA” logotype.](images/16_logotype.svg)
 
 </figure>
 
@@ -181,7 +181,7 @@ Initially I nestle the element within the “U”, and within the “A” as a r
 
 <figure>
 
-![INSERT_ALT](images/17_icon.svg)
+![Image of two circles partially overlapping showing the Moon passing in front of the Earth.](images/17_icon.svg)
 
 </figure>
 
@@ -193,7 +193,7 @@ Having iterated the designs I arrive at the final results of the logo and logoty
 
 <figure>
 
-![INSERT_ALT](images/18_luna.svg)
+![The final “LUNA” logotype, with the Earth & Moon icon within the “A”.](images/18_luna.svg)
 
 </figure>
 
@@ -201,13 +201,13 @@ The final result is a contemporary and (hopefully) timeless **LUNA 2035** logo t
 
 <figure>
 
-![INSERT_ALT](images/19_horizontal.svg)
+![Image showing horizontal lockups of “LUNA Mission 01—2035” logo.](images/19_horizontal.svg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/20_vertical.svg)
+![Image showing vertical lockups of “LUNA Mission 01—2035” logo.](images/20_vertical.svg)
 
 </figure>
 
@@ -215,13 +215,13 @@ Keeping flexibility of usage in mind I create both horizontal and vertical logo 
 
 <figure>
 
-![INSERT_ALT](images/21_A.svg)
+![Image of the “LUNA” “A” mark.](images/21_A.svg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/22_scaling.svg)
+![Image showing the LUNA logotype and logomark in different sizes.](images/22_scaling.svg)
 
 </figure>
 
@@ -229,13 +229,13 @@ While the horizontal logo lockup can be seen as the “master logo”—it conta
 
 <figure>
 
-![INSERT_ALT](images/23_roundels.svg)
+![Image of the vertical LUNA logo set in roundels.](images/23_roundels.svg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/24_avatar.svg)
+![The “LUNA” “A” mark in a circle and a square.](images/24_avatar.svg)
 
 </figure>
 
@@ -243,19 +243,19 @@ I’ve created a set of presentation hero graphics to show how the logo can be b
 
 <figure>
 
-![INSERT_ALT](images/25_hero.jpg)
+![The “LUNA” vertical logo superimposed over an image of the Moon.](images/25_hero.jpg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/26_overlay.jpg)
+![The “LUNA” horizontal mark repeated in bands across an image of the Moon.](images/26_overlay.jpg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/27_moonmission.jpg)
+![The “LUNA” vertical logo set in a circle superimposed over an image of the Moon’s horizon.](images/27_moonmission.jpg)
 
 </figure>
 
@@ -263,37 +263,37 @@ The fun here, of course, is to look at potential use cases, and imagine how the 
 
 <figure>
 
-![INSERT_ALT](images/28_environmental.jpg)
+![Image of an office building showing the “LUNA Mission 01–2035” signage.](images/28_environmental.jpg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/29_supergraphics.jpg)
+![Image of the “LUNA” logo and graphics on the walls of an industrial looking building.](images/29_supergraphics.jpg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/30_apparel.jpg)
+![The “LUNA” logo and logomark embroidered on a black snapback cap.](images/30_apparel.jpg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/31_gear.jpg)
+![ The vertical “LUNA” logo on a white safety helmet.](images/31_gear.jpg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/32_food.jpg)
+![The “LUNA” logo and graphics applied to silver foiled space food packets.](images/32_food.jpg)
 
 </figure>
 
 <figure>
 
-![INSERT_ALT](images/33_typography.jpg)
+![Image showing a detail of the typography of the “LUNA” identity.](images/33_typography.jpg)
 
 </figure>
 
@@ -303,7 +303,7 @@ I used to firmly believe that all logos (and especially the ones I designed) nee
 
 <figure>
 
-![INSERT_ALT](images/34_patch.jpg)
+![The “LUNA” logo embroidered on a round space mission patch superimposed on an image of a space suit.](images/34_patch.jpg)
 
 </figure>
 

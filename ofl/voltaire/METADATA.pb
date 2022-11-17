@@ -1,5 +1,5 @@
 name: "Voltaire"
-designer: "Yvonne Schüttler"
+designer: "Yvonne Schüttler, Sorkin Type"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-17"
@@ -8,9 +8,15 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Voltaire-Regular.ttf"
-  post_script_name: "Voltaire"
-  full_name: "Voltaire"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Names \"Voltaire\" and \"Voltaire One\"."
+  post_script_name: "Voltaire-Regular"
+  full_name: "Voltaire Regular"
+  copyright: "Copyright 2011 The Voltaire Project Authors (https://github.com/SorkinType/Voltaire)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/SorkinType/Voltaire"
+  commit: "f93bf0e036b9c4d2e2e42aaa9ee7f3fa58eaf5b1"
+}

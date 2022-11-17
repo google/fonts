@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "NotoSansJP[wght].ttf"
   post_script_name: "NotoSansJP-Thin"
-  full_name: "Noto Sans JP"
-  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+  full_name: "Noto Sans JP Thin"
+  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
 }
 subsets: "cyrillic"
 subsets: "japanese"

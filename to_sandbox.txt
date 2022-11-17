@@ -1,31 +1,29 @@
 # New
-ofl/fragmentmono # https://github.com/google/fonts/pull/5461
-ofl/notosansmendekikakui # https://github.com/google/fonts/pull/5143
+ofl/unbounded # https://github.com/google/fonts/pull/5519
 
 # Upgrade
-ofl/notosansbamum # https://github.com/google/fonts/pull/5472
-ofl/notosanskhojki # https://github.com/google/fonts/pull/5153
-ofl/notosanslepcha # https://github.com/google/fonts/pull/5206
-ofl/notosansnewa # https://github.com/google/fonts/pull/5165
-ofl/notosanssundanese # https://github.com/google/fonts/pull/5219
-ofl/notosanssylotinagri # https://github.com/google/fonts/pull/5235
-ofl/notosanstaiviet # https://github.com/google/fonts/pull/5241
-ofl/notosanstakri # https://github.com/google/fonts/pull/5228
-ofl/notosanszanabazarsquare # https://github.com/google/fonts/pull/5199
+ofl/calistoga # https://github.com/google/fonts/pull/5502
+ofl/chivomono # https://github.com/google/fonts/pull/5539
+ofl/ibmplexmono # https://github.com/google/fonts/pull/5524
+ofl/khand # https://github.com/google/fonts/pull/5507
+ofl/notosansethiopic # https://github.com/google/fonts/pull/5509
+ofl/notosanshanifirohingya # https://github.com/google/fonts/pull/5114
+ofl/notosansmro # https://github.com/google/fonts/pull/5158
+ofl/notoserifethiopic # https://github.com/google/fonts/pull/5510
 
-# Axis Registry
-axisregistry/roundness.textproto # https://github.com/google/fonts/pull/5454
-axisregistry/x_rotation.textproto # https://github.com/google/fonts/pull/5448
-axisregistry/y_rotation.textproto # https://github.com/google/fonts/pull/5448
+# Designer profile
+catalog/designers/nan # https://github.com/google/fonts/pull/5517
 
 # Metadata / Description / License
-ofl/davidlibre # https://github.com/google/fonts/pull/5478
-ofl/mingzat # https://github.com/google/fonts/pull/5478
-ofl/notoserifkhojki # https://github.com/google/fonts/pull/5476
-ofl/taiheritagepro # https://github.com/google/fonts/pull/5478
-
-# Hold List
-#  The following projects are on hold until their axis registrations
-#  have been pushed to production.
-# ofl/climatecrisis # https://github.com/google/fonts/pull/5350
-# ofl/handjet # https://github.com/google/fonts/pull/5376
+ofl/acme # https://github.com/google/fonts/pull/5450
+ofl/alegreya # https://github.com/google/fonts/pull/5450
+ofl/alegreyasans # https://github.com/google/fonts/pull/5450
+ofl/alegreyasanssc # https://github.com/google/fonts/pull/5450
+ofl/alegreyasc # https://github.com/google/fonts/pull/5450
+ofl/andadapro # https://github.com/google/fonts/pull/5450
+ofl/bitter # https://github.com/google/fonts/pull/5450
+ofl/bitter # https://github.com/google/fonts/pull/5555
+ofl/cambo # https://github.com/google/fonts/pull/5450
+ofl/gochihand # https://github.com/google/fonts/pull/5450
+ofl/piazzolla # https://github.com/google/fonts/pull/5450
+ofl/telex # https://github.com/google/fonts/pull/5450

@@ -12,7 +12,7 @@ from typing import Callable, Iterable, List, Mapping, NamedTuple, Optional, Tupl
 
 
 MAX_RASTER_IMAGE_SIZE_KB = 800
-MAX_VECTOR_IMAGE_SIZE_KB = 1500
+MAX_VECTOR_IMAGE_SIZE_KB = 1600
 
 
 def _topic_target_to_path(_: Set[str], target: str) -> str:

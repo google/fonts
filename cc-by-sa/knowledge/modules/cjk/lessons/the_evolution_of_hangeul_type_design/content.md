@@ -10,7 +10,7 @@ Hangeul, the Korean [script](/glossary/script_writing_system), was created in 14
 
 While Latin and Japanese developed its [type](/glossary/type) design from brush and pen based letterforms, Korean was developed completely the other way around.
 
-The first Hangeul design was a [sans serif](/glossary/sans_serif) style, with rounded elements, and this is where the type development of Hangeul starts. King Sejong, the director of Hangeul’s creation, intended this design for citizens to be able to learn the new script easily by drawing on the ground with a stick. For more information, read our [Designing Hangeul](/designing_hangeul) collection of articles by Darrell Penta.
+The first Hangeul design was a [sans serif](/glossary/sans_serif) style, with rounded elements, and this is where the type development of Hangeul starts. King Sejong, the director of Hangeul’s creation, intended this design for citizens to be able to learn the new script easily by drawing on the ground with a stick. For more information, read our [Designing Hangeul](/lesson/an_introduction_to_hangeul) collection of articles by Darrell Penta.
 
 However, after Hangeul was widely spread in the country, the [letterforms](/glossary/letterform) naturally developed into a [script](/glossary/script_typeface_style) style with a use of pointed brush, and this style is called “Gung” in Korean. The name Gung-chae means “the typeface for the palace,” because the style was popular among the people in the palace. And this script type enjoyed ubiquity until the Korean [serif](/glossary/serif) style was designed by the [type designers](/glossary/type_designer) Kyungseo Park and Jeongho Choi in the 1900s.
 

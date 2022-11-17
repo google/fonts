@@ -6,7 +6,7 @@ Please bear in mind that combining type is not a science, with hard and fast rul
 
 ## The problem with the current models for classifying type
 
-Before we dive into this different way of describing type, let’s see what’s not ideal with the current models. Organizing typefaces is important to make it easier to narrow down our selections. Simple [genre classifications](/lesson/making_sense_of_typographic_classifications#genre-classifications-for-latin-type), like [serif](/glossary/serif), or [sans serif](/glossary/sans_serif), are a good starting point. But they still leave you with a lot of typefaces to choose from.
+Before we dive into this different way of describing type, let’s see what’s not ideal with the current models. Organizing typefaces is important to make it easier to narrow down our selections. Simple [genre classifications](/lesson/making_sense_of_typographic_classifications), like [serif](/glossary/serif), or [sans serif](/glossary/sans_serif), are a good starting point. But they still leave you with a lot of typefaces to choose from.
 
 <figure>
 
@@ -22,7 +22,7 @@ Before we dive into this different way of describing type, let’s see what’s 
 </figure>
 <figcaption>These serif typefaces share the same genre classification as well, and still they appear quite diverse (Alegreya, Bodoni Moda, Memphis).</figcaption>
 
-On the other hand, [historical classifications](/lesson/making_sense_of_typographic_classifications#historical-classifications-for-latin-type) can be more fine-grained, but require a little background knowledge. They can be confusing in their terminology and have plenty of regional variations. Focusing on details, such as the exact shape of serifs, which are not necessarily crucial to the overall impression of a typeface, makes them less practical. In fact, the historic approach can become less useful in an age where type designs mix influences from various periods of time.
+On the other hand, [historical classifications](/lesson/making_sense_of_typographic_classifications) can be more fine-grained, but require a little background knowledge. They can be confusing in their terminology and have plenty of regional variations. Focusing on details, such as the exact shape of serifs, which are not necessarily crucial to the overall impression of a typeface, makes them less practical. In fact, the historic approach can become less useful in an age where type designs mix influences from various periods of time.
 
 So how can we describe typefaces more accurately than with the genre classifications, but without being dependent on historic background knowledge? Kupferschmid approaches it with a three-layer system:
 
@@ -206,7 +206,7 @@ The most crucial part of this system is recognizing the form model underneath a 
 
 When it comes to combining typefaces, this is the process we recommend, using the ideas behind the font matrix:
 
-1. Decide on a primary typeface (for more on this subject, please see “[A checklist for choosing type](/choosing_type/a_checklist_for_choosing_type)”). What role has the primary typeface? Is it [body text](/glossary/text_copy), headings, or for something else?
+1. Decide on a primary typeface (for more on this subject, please see “[A checklist for choosing type](/lesson/a_checklist_for_choosing_type)”). What role has the primary typeface? Is it [body text](/glossary/text_copy), headings, or for something else?
 2. Describe the first two layers of your primary typeface.
 3. Decide on a role for your secondary typeface. What should it add to your primary typeface?
 4. Decide if you want the same or a or contrasting form model for the secondary typeface.

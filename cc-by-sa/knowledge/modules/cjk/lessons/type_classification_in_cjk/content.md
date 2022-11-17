@@ -132,7 +132,7 @@ As we covered earlier, Noto JP pursues modern elements and strokes while honorin
 
 The basic type classification of serif and sans for Korean has a lot in common with Japanese, but since Korean letterforms are fundamentally geometric and have less variety in terms of curves than Japanese, the characteristics to look when understanding the classification is a little different.
 
-Korean old-style serifs also have small counters, but not always the small letter size. However, the strokes could be more brush-like and lingering, rather than systematic. The unique part is that although most old-style serifs in Latin and Japanese would have humanist brush strokes, because they developed from brush writing, Korean old-style serifs are the other way around: They follow the original geometric letterform of the Hangeul from Hunminjeongum. For more information, read our [Designing Hangeul](/designing_hangeul) collection of articles by Darrell Penta.
+Korean old-style serifs also have small counters, but not always the small letter size. However, the strokes could be more brush-like and lingering, rather than systematic. The unique part is that although most old-style serifs in Latin and Japanese would have humanist brush strokes, because they developed from brush writing, Korean old-style serifs are the other way around: They follow the original geometric letterform of the Hangeul from Hunminjeongum. For more information, read our [Designing Hangeul](/lesson/an_introduction_to_hangeul) collection of articles by Darrell Penta.
 
 <figure>
 
@@ -166,4 +166,4 @@ Most Korean fonts are monospaced by default, but very rarely there are also prop
 
 </figure>
 
- Please read [Type development of Hangeul](/lesson/type_development_of_hangeul) for more details.
+ Please read [“The evolution of Hangeul type design”](/lesson/the_evolution_of_hangeul_type_design) for more details.

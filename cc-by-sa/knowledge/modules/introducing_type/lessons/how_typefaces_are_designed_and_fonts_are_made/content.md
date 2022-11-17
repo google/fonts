@@ -6,7 +6,7 @@ People who create typefaces and fonts are called type designers. Improvements in
 
 Fonts now tend to have more extensive character sets due to increased language support and added typographic features. Such fonts offer far more capabilities than those of the 20th century, but also create far more work for the type designer.
 
-While font creation usually follows a common set of methods and formats, the parameters and quality of typefaces can vary greatly. For example, fonts created by enthusiasts may not have the same range of [characters](/glossary/character) or features as those created by professional type designers. Many fonts are produced by specialized businesses known as [type foundries](/glossary/foundry).
+While font creation usually follows a common set of methods and formats, the parameters and quality of typefaces can vary greatly. For example, fonts created by enthusiasts may not have the same range of [characters](/glossary/character) or features as those created by professional type designers. Many fonts are produced by specialized businesses known as [type foundries](/glossary/type_foundry).
 
 <figure>
 

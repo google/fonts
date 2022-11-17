@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/arabic.git"
-  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.014/NotoNaskhArabic-v2.014.zip"
+  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.016/NotoNaskhArabic-v2.016.zip"
 }
 is_noto: true
 languages: "aeb_Arab"  # Tunisian Arabic

@@ -1,4 +1,4 @@
-The single biggest challenge we face when [pairing type](/topic/pairing_type) is choosing a secondary [typeface](/glossary/typeface) that’s different enough from our primary choice, but not _too_ different, as described in our article “[Pairing typefaces](/lesson/pairing_typefaces)”. This can be a challenge, because it’s not always clear where the similarities and the differences should lie.
+The single biggest challenge we face when pairing type is choosing a secondary [typeface](/glossary/typeface) that’s different enough from our primary choice, but not _too_ different, as described in our article “[Pairing typefaces](/lesson/pairing_typefaces)”. This can be a challenge, because it’s not always clear where the similarities and the differences should lie.
 
 In this article, we want to share with you the concept of the font matrix—an approach based on the work of typography professor [Indra Kupferschmid](https://de.wikipedia.org/wiki/Indra_Kupferschmid). Understanding it can change your perception of type and give you a framework to make better decisions when pairing typefaces.
 

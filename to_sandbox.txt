@@ -1,11 +1,15 @@
 # New
+ofl/hankengrotesk # https://github.com/google/fonts/pull/5527
 ofl/unbounded # https://github.com/google/fonts/pull/5519
 
 # Upgrade
+ofl/archivonarrow # https://github.com/google/fonts/pull/5559
 ofl/calistoga # https://github.com/google/fonts/pull/5502
 ofl/chivomono # https://github.com/google/fonts/pull/5539
+ofl/frankruhllibre # https://github.com/google/fonts/pull/5528
 ofl/ibmplexmono # https://github.com/google/fonts/pull/5524
 ofl/khand # https://github.com/google/fonts/pull/5507
+ofl/notonaskharabic # https://github.com/google/fonts/pull/5009
 ofl/notosansethiopic # https://github.com/google/fonts/pull/5509
 ofl/notosanshanifirohingya # https://github.com/google/fonts/pull/5114
 ofl/notosansmro # https://github.com/google/fonts/pull/5158
@@ -27,3 +31,12 @@ ofl/cambo # https://github.com/google/fonts/pull/5450
 ofl/gochihand # https://github.com/google/fonts/pull/5450
 ofl/piazzolla # https://github.com/google/fonts/pull/5450
 ofl/telex # https://github.com/google/fonts/pull/5450
+
+# Sample texts
+lang/languages/bug_Latn.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/ccp_Beng.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/ku_Cyrl.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/shi_Arab.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/shi_Tfng.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/tk_Arab.textproto # https://github.com/google/fonts/pull/5557
+lang/scripts/Chrs.textproto # https://github.com/google/fonts/pull/5557

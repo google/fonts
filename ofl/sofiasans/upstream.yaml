@@ -1,6 +1,7 @@
 branch: master
 files:
   OFL.txt: OFL.txt
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-  fonts/variable/SofiaSans-Italic[wdth,wght].ttf: SofiaSans-Italic[wdth,wght].ttf
-  fonts/variable/SofiaSans[wdth,wght].ttf: SofiaSans[wdth,wght].ttf
+  documentation/DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/variable/Normal/SofiaSans[wght].ttf: SofiaSans[wght].ttf
+  fonts/variable/Normal/SofiaSans-Italic[wght].ttf: SofiaSans-Italic[wght].ttf
+archive:

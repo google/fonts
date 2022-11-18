@@ -17,6 +17,7 @@ subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+primary_script: "Arab"
 axes {
   tag: "wght"
   min_value: 400.0

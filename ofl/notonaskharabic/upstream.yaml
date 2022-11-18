@@ -1,5 +1,7 @@
-archive: https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.013/NotoNaskhArabic-v2.013.zip
+archive: https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.016/NotoNaskhArabic-v2.016.zip
 branch: main
 files:
-  NotoNaskhArabic/googlefonts/variable-ttf/NotoNaskhArabic[wght].ttf: NotoNaskhArabic[wght].ttf
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  NotoNaskhArabic/googlefonts/variable-ttf/NotoNaskhArabic[wght].ttf: NotoNaskhArabic[wght].ttf

@@ -1,7 +1,7 @@
 name: "Noto Naskh Arabic"
 designer: "Google"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2020-11-19"
 fonts {
   name: "Noto Naskh Arabic"
@@ -22,8 +22,8 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com//notofonts/arabic.git"
-  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.013/NotoNaskhArabic-v2.013.zip"
+  repository_url: "https://github.com/notofonts/arabic.git"
+  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.016/NotoNaskhArabic-v2.016.zip"
 }
 is_noto: true
 languages: "aeb_Arab"  # Tunisian Arabic

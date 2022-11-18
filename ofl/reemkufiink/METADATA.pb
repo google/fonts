@@ -1,5 +1,5 @@
 name: "Reem Kufi Ink"
-designer: "Khaled Hosny"
+designer: "Khaled Hosny, Santiago Orozco"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-11-02"
@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
-  repository_url: "https://github.com/aliftype/reem-kufi"
-  archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.4/ReemKufi-1.4.zip"
+  repository_url: "https://github.com/aliftype/reem-kufi.git"
+  archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.7/ReemKufi-1.7.zip"
 }
 primary_script: "Arab"

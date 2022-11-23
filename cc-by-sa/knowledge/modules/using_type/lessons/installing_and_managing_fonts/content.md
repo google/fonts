@@ -45,7 +45,7 @@ Using variable fonts on the web is relatively straightforward, especially with a
 
 One important thing to note is that not all desktop apps populate their font menu in the same way. Sketch, for instance, uses fonts installed locally on your system, whereas Figma combines local fonts with a selection of fonts served from the Google Fonts library—which now includes hundreds of variable fonts. Adobe’s various Creative Cloud apps also combine local fonts with a selection of fonts bundled with the apps (including a few variable fonts). The Adobe Fonts library does not yet provide any variable fonts.
 
-Some font manager apps allow the Google Fonts library to be synced to your computer, which means they should show up in all font menus. At the time of writing, Typeface is the only app to sync the entire Google Fonts library *including* variable fonts. Other apps sync the library, but without variable fonts included.
+Some font manager apps allow the Google Fonts library to be synced to your computer, which means they should show up in all font menus. At the time of writing, Typeface is the only app to sync the entire Google Fonts library, *including* variable fonts. Other apps sync the library, but without variable fonts included.
 
 Also, support for variable fonts can differ between apps, falling into one of these four scenarios:
 

@@ -25,3 +25,4 @@ source {
   repository_url: "https://github.com/aliftype/mada.git"
   archive_url: "https://github.com/aliftype/mada/releases/download/v1.4/Mada-1.4.zip"
 }
+primary_script: "Arab"

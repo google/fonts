@@ -1,6 +1,9 @@
 Making [text](/glossary/text_copy) [accessible](https://www.google.com/accessibility/) should be part of everyday practice. However, general [typographic](/glossary/typography) practices of optimizing [legibility](/glossary/legibility) and [readability](/glossary/readability) don’t necessarily go all the way towards making text accessible. 
 
-First, let’s make sure we define legibility and readability. Both are measures of clarity. Legibility is the measure of how distinguishable individual characters and words are to the eye of the reader. Readability is the measure of how easy it is to read the text overall. 
+First, let’s make sure we define **legibility** and **readability**. Both are measures of clarity. 
+
+- **Legibility** is the measure of how distinguishable individual characters and words are to the eye of the reader.
+- **Readability** is the measure of how easy it is to read the text overall. 
 
 <figure>
 
@@ -21,11 +24,21 @@ The type designers who created [Lexend](https://design.google/library/lexend-rea
 
 Mirroring, or flipping, occurs when readers flip or mirror letters and numbers that are the same form when flipped horizontally. For example, a reader could mistake a lowercase letter “b” for a lowercase “d”. Instead of reading the word “bog,” the reader will think the word is “dog.” 
 
-A different and more pervasive issue among people with dyslexia and other reading difficulties is the transpositioning of letters. For example, a reader may mistake the word “lion” for “loin,” “line” or “lien.” Transposition is a common experience for people with dyslexia and other reading difficulties, and does not disappear with age. 
+A different and more pervasive issue among people with dyslexia and other reading difficulties is the transpositioning of letters. For example, a reader may mistake the words “lion” for “loin,” or “line” for “lien.” Transposition is a common experience for people with dyslexia and other reading difficulties, and does not disappear with age. 
 
-To reduce the chances of a reader confusing letters, words and numbers, consider checking the following character pairs to make sure they are distinct enough from each other: qp db 0O nu il1I a8 a6 6g rn m.
+To reduce the chances of a reader confusing letters, words and numbers, consider checking the following character pairs to make sure they are distinct enough from each other: 
 
-When selecting a typeface—especially a [sans serif](/glossary/sans_serif)—it’s useful to assess the similarities or differences between the uppercase “L”, lowercase “l”, and numeral “1” characters because these letters and numbers look very similar. 
+- qp
+- db
+- 0O
+- nu
+- il1I
+- a8
+- a6
+- 6g
+- rn, m
+
+When selecting a typeface—especially a [sans serif](/glossary/sans_serif)—it’s useful to assess the similarities or differences between the uppercase “L,” lowercase “l,” and numeral “1” characters because these letters and numbers look very similar. 
 
 Many shapes are simply mirrored without any further alteration. Lowercase “b,” “d,” “p,” and “q” are the most commonly confused letters. Subtle edits to the letterforms may help to differentiate them as the correct characters. 
 
@@ -151,8 +164,8 @@ Follow these guidelines for hyperlinks:
 - Change the color of links that have been accessed. Usually, unvisited links are in blue and visited links are in pink. This helps people see which links they have already accessed. 
 - Embedded content (like documents, spreadsheets, videos, or decks) should have a sentence/link near the embedded content that reads, “Open the [insert content name] in a new window.”
 - All hyperlinks are descriptive. Screen reading software often reads links out of context from the surrounding text. Links should clearly describe where the user will be taken or what action it triggers. 
-    - Incorrect: “It’s important to meet accessibility standards. Learn more.”
-    - Correct: “It’s important to meet accessibility standards.”
+    - Incorrect: “It’s important to meet accessibility standards. [Learn more](https://fonts.google.com/knowledge).”
+    - Correct: “It’s important to meet [accessibility standards](https://fonts.google.com/knowledge).”
 
 ## Non-text elements and text in images
 

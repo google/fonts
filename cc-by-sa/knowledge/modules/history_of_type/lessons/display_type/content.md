@@ -5,6 +5,7 @@ The nineteenth century witnessed rapid changes in society and industry, which le
 ![INSERT_ALT](images/GFKhistoftype5.1.svg)
 
 </figure>
+<figcaption>Abril Fatface, a modern interpretation of the Fat Face style that first appeared in the early 19th century.</figcaption>
 
 Another early example of the new display type was the [Slab Serif](/glossary/slab_serif_egyptian_clarendon). Modern types had reduced serifs to hairline strokes, but in the Slab Serif we see the opposite extreme — very heavy serifs attached to low-contrast, robust, and [bold](/glossary/bold) [letterforms](/glossary/letterform). By the mid-1800s, out of these forms evolved a sub-genre called Clarendon, a style of Slab Serif more suited to text settings — lighter, with more contrast, and larger [x-heights](/glossary/x_height). The Slab Serif, a term coined much later, was at first known as Egyptian. Discoveries in Egypt, at the turn of the 19th century, had led to a period of Egyptomania, and it appears that type founders simply exploited this fashion, borrowing ‘Egyptian’ to convey exotic and different, and also to convey a feeling of incised or inscriptional forms.
 
@@ -22,6 +23,7 @@ However, casting very large letters in lead is impossible. Large volumes of molt
 ![INSERT_ALT](images/GFKhistoftype5.2.svg)
 
 </figure>
+<figcaption>Early 19th-century reverse contrast typeface in wood.</figcaption>
 
 When designing typefaces for reading, one works within fairly narrow parameters. Altering the structure and proportions of letterforms or adding novel or unusual accouterments interrupts the rhythm of the text — even if the individual letters are [legible](/glossary/legibility), readers will be distracted by unfamiliar details, and [readability](/glossary/readability)  suffers. But when it comes to typefaces for advertising, where the whole purpose is to stand out , then there is much more room for innovation with both the structure and detail of letterforms. Unhindered by the exigencies of readability, typefounders (both metal and wood type) experimented with every aspect of letter design. One experiment by William Caslon IV even turned type inside out, producing the ‘Reverse Contrast’ typeface, perhaps one of the most unusual designs of the early 19th century. From these typefaces that suffered from poor eligibility evolved a less extreme variant of reverse contrast design based on the Clarendons, and named French Clarendon. [Serifs](/glossary/serif) too were experimented with — from slabs of different lengths and thicknesses to wedged, curved, and other highly ornamental forms like the bifurcated Tuscans.
 
@@ -30,6 +32,7 @@ When designing typefaces for reading, one works within fairly narrow parameters.
 ![INSERT_ALT](images/GFKhistoftype5.3.svg)
 
 </figure>
+<figcaption>The 19th century witnessed the invention of many new styles of typefaces — and serif designs.</figcaption>
 
 The arrival of the modern advertising poster roughly coincided with the invention of new color printing technologies, like chromolithography, which for the first time ever made color printing practical and affordable. The use of several colors became another way to stand out from the crowd, and the first chromatic wood type appeared in the 1840s, printed or overprinted from several blocks.
 
@@ -38,6 +41,7 @@ The arrival of the modern advertising poster roughly coincided with the inventio
 ![INSERT_ALT](images/GFKhistoftype5.4.svg)
 
 </figure>
+<figcaption>Bottom line: William Caslon’s ‘sans serif’, c. 1816.</figcaption>
 
 ## The arrival of the sans serif style
 

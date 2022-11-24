@@ -20,5 +20,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
-  commit: "ce04d776b395e0f8dc68984778a1a467680f4c7e"
+  commit: "3a1ee9007cf7a5a4d2991fb4e6404ca97b141925"
 }

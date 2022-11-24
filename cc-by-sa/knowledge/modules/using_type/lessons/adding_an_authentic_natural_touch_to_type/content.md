@@ -92,9 +92,11 @@ Here’s our final lockup:
 
 </figure>
 
+Here’s a mockup of our finished piece:
+
 <figure>
 
-[INSERT illo of lockup in actual poster context]
+![INSERT_ALT](images/authenticity_ex2_mock.jpg)
 
 </figure>
 

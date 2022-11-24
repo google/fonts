@@ -17,7 +17,6 @@ This scenario requires a touch of the human hand, and the good news is that we d
 [INSERT illo of type control UI in Figma]
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
 
 This [font](/glossary/font) actually comes with a number of stylistic sets. To experiment with them, try switching different sets on for different parts of the text. But beware! Not all play nicely together:
 
@@ -26,7 +25,6 @@ This [font](/glossary/font) actually comes with a number of stylistic sets. To e
 ![INSERT_ALT](images/authenticity_ex1_2.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
 
 Our text is now a bit of a mess, for several reasons:
 
@@ -44,14 +42,14 @@ Here’s our finished example, which balances the fluidity of the human hand wit
 ![INSERT_ALT](images/authenticity_ex1_3.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
+
+Here’s a mockup of our finished piece:
 
 <figure>
 
-[INSERT illo of lockup in actual magazine cover context]
+![INSERT_ALT](images/authenticity_ex1_mock.jpg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
 
 The result is an authentic touch that goes much further than simply typing with the font’s defaults. For more on turning type into a logo, be sure to read Tom Muller’s “[INSERT].” And to learn how to work with stylistic sets using CSS, see [“Implementing OpenType features on the web.”](https://fonts.google.com/knowledge/using_type/implementing_open_type_features_on_the_web)
 
@@ -73,7 +71,6 @@ Just look at how repeating [characters](/glossary/character)—or repeating sequ
 ![INSERT_ALT](images/authenticity_ex2_2.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
 
 Let’s look at how we can introduce some variations here, and this time we won’t be using alternate glyphs via OpenType; instead, we’re going to employ a slightly different version of the same typeface. 
 
@@ -84,7 +81,6 @@ Here are the different versions of the T, S, and E characters we’re going to u
 ![INSERT_ALT](images/authenticity_ex2_3.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
 
 Using different versions of the same typeface, we keep the underlying structure and familiarity of the letterforms, but introduce enough uneven, rough, imperfect variations to remind the reader that these may very well have been hand-carved into old stone buildings. 
 
@@ -95,13 +91,11 @@ Here’s our final lockup:
 ![INSERT_ALT](images/authenticity_ex2_4.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
 
 <figure>
 
 [INSERT illo of lockup in actual poster context]
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
 
 Again, with just a little extra care, we’ve given our type much more authenticity and created an end result that more accurately conveys the feel of the subject the type is attempting to represent.

@@ -1,6 +1,6 @@
-[Typefaces](/glossary/typeface) have various classification categories—[sans serif](/glossary/sans_serif), [serif](/glossary/serif), rounded, [humanist](/glossary/humanist_old_style), [geometric](/glossary/geometric), and so on. Do these classifications apply equally to other scripts too? The short answer is: No, because each script has its own culture, and these classifications were created for Latin typefaces. So what is it like in CJK?
+[Typefaces](/glossary/typeface) have various classification categories—[sans serif](/glossary/sans_serif), [serif](/glossary/serif), rounded, [humanist](/glossary/humanist_old_style), [geometric](/glossary/geometric), and so on. Do these classifications apply equally to other scripts too? The short answer is: No, because each script has its own culture, and these classifications were created for Latin typefaces. So what is it like in [CJK](/glossary/cjk)?
 
-In Japan and Korea, the same words are used—but different phonetics—for serif and sans serif. Mincho (Japanese) and Myeongjo (Korean) for serif, and Gothic for sans serif in both Japanese and Korean. For the past couple of decades, there have been few trials in Korea to create original Korean words for serif and sans serif, such as Batang and Buri for serif, and Dotum and Minburi for sans, but still Myeongjo and Gothic remains the popular choice. 
+In Japan and Korea, the same words—but different phonetics—are used for serif and sans serif. Mincho (Japanese) and Myeongjo (Korean) for serif, and Gothic for sans serif in both Japanese and Korean. For the past couple of decades, there have been few trials in Korea to create original Korean words for serif and sans serif, such as Batang and Buri for serif, and Dotum and Minburi for sans, but still Myeongjo and Gothic remains the popular choice. 
 
 In China, the situation is a little different, where the serif is called Song Ti (宋体), or sometimes Mingchao Ti or Ming Ti (明朝体 or 明体), to go together with the Japanese and Korean names. The sans is called Hei Ti (黑体). 
 
@@ -10,7 +10,7 @@ In terms of type classifications, Japanese and Korean have more similarities tha
 
 The categories in Chinese type classification can be seen as a set of names from the most popular styles that appeared throughout Chinese type history, all the way to our contemporary times. Even with digital technologies, and the multiple mechanical printing techniques, there is—and always has been—a strong connection to handwritten calligraphy. Thus, Chinese typeface categories with styles related to calligraphy are still popular even today, due to the very nature of the characters (more organic than mechanical). Styles that are less calligraphic appeared very late in history (first in woodblock printing with Songti and Mingti), as ways to respond to the needs of their time and follow the contemporary trends (Yuanti and Heiti).
 
-As Chinese type evolved mostly independently from Latin, the groups or styles are different. Chinese (digital) type classification can be presented in seven categories, from the most “traditional” style to the most “modern.” Here are the major categories:
+As Chinese type evolved mostly independently from Latin, the groups or styles are different. Chinese (digital) type classification can be presented in seven categories, from the most “traditional” style to the most “modern.” Let’s explore the major categories:
 
 ### Kaiti (楷体) or “Regular style”
 
@@ -44,7 +44,7 @@ Songti style typefaces have design features made to fit woodblock carving (strai
 
 ### FangSongti (仿宋体)
 
-FangSongti means “pseudo-Songti”. It’s a style derived from Songti, but with slightly more movement than its precursor (subtle slant of horizontal strokes, sharper serifs and endings, stiffer curves), and is most often suited to classical editorial usage as of the last couple of decades.
+FangSongti means “pseudo-Songti.” It’s a style derived from Songti, but with slightly more movement than its precursor (subtle slant of horizontal strokes, sharper serifs and endings, stiffer curves), and is most often suited to classical editorial usage as of the last couple of decades.
 
 <figure>
 

@@ -448,7 +448,7 @@ def test_stat(fp, sibling_fps):
     build_stat(font, siblings)
     stat_fp = fp.replace(".ttf", "_STAT.ttx")
 
-    ### output good files
+    ## output good files
     # with open(stat_fp, "w") as doc:
     #    got = dump(font["STAT"], font)
     #    doc.write(got)

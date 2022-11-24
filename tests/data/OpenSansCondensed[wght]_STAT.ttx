@@ -88,7 +88,7 @@
   <AxisValue index="9" Format="3">
     <AxisIndex value="2"/>
     <Flags value="2"/>  <!-- ElidableAxisValueName -->
-    <ValueNameID value="280"/>  <!-- Normal -->
+    <ValueNameID value="466"/>  <!-- Roman -->
     <Value value="0.0"/>
     <LinkedValue value="1.0"/>
   </AxisValue>
@@ -96,12 +96,12 @@
     <AxisIndex value="3"/>
     <Flags value="2"/>  <!-- ElidableAxisValueName -->
     <ValueNameID value="280"/>  <!-- Normal -->
-    <Value value="0.0"/>
+    <Value value="100.0"/>
   </AxisValue>
   <AxisValue index="11" Format="3">
     <AxisIndex value="4"/>
     <Flags value="2"/>  <!-- ElidableAxisValueName -->
-    <ValueNameID value="280"/>  <!-- Normal -->
+    <ValueNameID value="466"/>  <!-- Roman -->
     <Value value="0.0"/>
     <LinkedValue value="1.0"/>
   </AxisValue>

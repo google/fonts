@@ -1,5 +1,5 @@
 name: "Marmelad"
-designer: "Cyreal"
+designer: "Cyreal, Manvel Shmavonyan"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-07"

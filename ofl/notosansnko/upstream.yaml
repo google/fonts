@@ -1,0 +1,7 @@
+archive: https://github.com/notofonts/nko/releases/download/NotoSansNKo-v2.003/NotoSansNKo-v2.003.zip
+branch: main
+files:
+  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  NotoSansNKo/googlefonts/ttf/NotoSansNKo-Regular.ttf: NotoSansNKo-Regular.ttf

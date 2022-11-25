@@ -13,7 +13,7 @@ This scenario requires a touch of the human hand, and the good news is that we d
 
 <figure>
 
-[INSERT illo of type control UI in Figma]
+![An approximation of Stylistic Set control in popular design apps’ UI.](images/authenticity_ex1_EXTRA.svg)
 
 </figure>
 

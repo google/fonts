@@ -5,10 +5,9 @@ Consider a magazine cover, where the display [typography](/glossary/typography) 
 
 <figure>
 
-![INSERT_ALT](images/authenticity_ex1_1.svg)
+![The words “The Autumn Issue” set in a script typeface.](images/authenticity_ex1_1.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
 
 This scenario requires a touch of the human hand, and the good news is that we don’t need to manually manipulate the outlines of our type—we can add a more hand-lettered feel by using alternate glyphs with the power of [stylistic sets](/glossary/stylistic_sets) via [OpenType](/glossary/open_type) controls. (Head over to [“Introducing alternate glyphs”](https://fonts.google.com/knowledge/introducing_type/introducing_alternate_glyphs) for an overview.)
 
@@ -22,7 +21,7 @@ This [font](/glossary/font) actually comes with a number of stylistic sets. To e
 
 <figure>
 
-![INSERT_ALT](images/authenticity_ex1_2.svg)
+![The words “The Autumn Issue” set in a script typeface, but using different glyphs for some of the characters, which then clash.](images/authenticity_ex1_2.svg)
 
 </figure>
 
@@ -39,7 +38,7 @@ Here’s our finished example, which balances the fluidity of the human hand wit
 
 <figure>
 
-![INSERT_ALT](images/authenticity_ex1_3.svg)
+![The words “The Autumn Issue” set in a script typeface, rearranged and resized to sit harmoniously together, without clashes.](images/authenticity_ex1_3.svg)
 
 </figure>
 
@@ -47,7 +46,7 @@ Here’s a mockup of our finished piece:
 
 <figure>
 
-![INSERT_ALT](images/authenticity_ex1_mock.jpg)
+![A mockup of a fictional magazine cover using the type as set in the previous image.](images/authenticity_ex1_mock.jpg)
 
 </figure>
 
@@ -57,10 +56,9 @@ For our second example, let’s consider a film logo, where the title is meant t
 
 <figure>
 
-![INSERT_ALT](images/authenticity_ex2_1.svg)
+![The words “Twenty Seventh Street” set in a distressed serif typeface.](images/authenticity_ex2_1.svg)
 
 </figure>
-<figcaption>INSERT_CAPTION</figcaption>
 
 This typeface, [IM Fell English](https://fonts.google.com/specimen/IM+Fell+English?query=im+fell), conveys the feel we’re after really well, but because this is going on a poster that’s going to be reproduced at large sizes, some of the intentional wearing is going to appear obviously repetitive.
 
@@ -68,7 +66,7 @@ Just look at how repeating [characters](/glossary/character)—or repeating sequ
 
 <figure>
 
-![INSERT_ALT](images/authenticity_ex2_2.svg)
+![Three settings of the words “Twenty Seventh Street” set in a distressed serif typeface, with the similar letterforms highlighted.](images/authenticity_ex2_2.svg)
 
 </figure>
 
@@ -78,7 +76,7 @@ Here are the different versions of the T, S, and E characters we’re going to u
 
 <figure>
 
-![INSERT_ALT](images/authenticity_ex2_3.svg)
+![The characters “TTT,” “SS,” and “EEE,” each set in slightly different versions of the typeface to show the subtle differences.](images/authenticity_ex2_3.svg)
 
 </figure>
 
@@ -88,7 +86,7 @@ Here’s our final lockup:
 
 <figure>
 
-![INSERT_ALT](images/authenticity_ex2_4.svg)
+![The words “Twenty Seventh Street”, set with a mix of different fonts to avoid repetition of letetrforms.](images/authenticity_ex2_4.svg)
 
 </figure>
 
@@ -96,7 +94,7 @@ Here’s a mockup of our finished piece:
 
 <figure>
 
-![INSERT_ALT](images/authenticity_ex2_mock.jpg)
+![A mockup of a fictional poster using the type as set in the previous image.](images/authenticity_ex2_mock.jpg)
 
 </figure>
 

@@ -6,7 +6,7 @@ Although the [sans serif](/glossary/sans_serif) [typeface](/glossary/typeface) f
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype6.3.svg)
+![Type specimen for Akzidenz-Grotesk.](images/GFKhistoftype6.3.svg)
 
 </figure>
 <figcaption>Akzidenz-Grotesk released by the Berthold type foundry in 1898, inspired the popular Neo-grotesque style.</figcaption>
@@ -15,7 +15,7 @@ The trend toward simplified or industrial letters, or letters that appear machin
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype6.4.svg)
+![Type specimen for DIN 1451.](images/GFKhistoftype6.4.svg)
 
 </figure>
 <figcaption>DIN 1451, produced by Deutsches Institut für Normung (German Institute for Standardization) in 1931.</figcaption>
@@ -30,7 +30,7 @@ For the first generations of digital graphic designers, low resolution screens, 
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype6.2.svg)
+![Type specimen for Oakland.](images/GFKhistoftype6.2.svg)
 
 </figure>
 <figcaption>Zuzana Licko’s Oakland (1985) designed on the first Apple Macintosh 128K computer.</figcaption>
@@ -39,7 +39,7 @@ In 1984, the Macintosh computer went on sale and it was quickly exploited by a n
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype6.1.svg)
+![Type specimen for Wim Crouwel’s New Alphabet.](images/GFKhistoftype6.1.svg)
 
 </figure>
 <figcaption>Wim Crouwel’s New Alphabet, 1967.</figcaption>

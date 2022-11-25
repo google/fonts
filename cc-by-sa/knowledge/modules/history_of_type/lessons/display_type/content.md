@@ -2,10 +2,10 @@ The nineteenth century witnessed rapid changes in society and industry, which le
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype5.1.svg)
+![A specimen for Abril Fatface.](images/GFKhistoftype5.1.svg)
 
 </figure>
-<figcaption>Abril Fatface, a modern interpretation of the Fat Face style that first appeared in the early 19th century.</figcaption>
+<figcaption><a href="https://fonts.google.com/specimen/Abril+Fatface">Abril Fatface</a>, a modern interpretation of the Fat Face style that first appeared in the early 19th century.</figcaption>
 
 Another early example of the new display type was the [Slab Serif](/glossary/slab_serif_egyptian_clarendon). Modern types had reduced serifs to hairline strokes, but in the Slab Serif we see the opposite extreme—very heavy serifs attached to low-contrast, robust, and [bold](/glossary/bold) [letterforms](/glossary/letterform). By the mid-1800s, out of these forms evolved a sub-genre called Clarendon, a style of Slab Serif more suited to text settings—lighter, with more contrast, and larger [x-heights](/glossary/x_height). The Slab Serif, a term coined much later, was at first known as Egyptian. Discoveries in Egypt, at the turn of the 19th century, had led to a period of Egyptomania, and it appears that type founders simply exploited this fashion, borrowing “Egyptian” to convey exotic and different, and also to convey a feeling of incised or inscriptional forms.
 
@@ -19,7 +19,7 @@ However, casting very large letters in lead is impossible. Large volumes of molt
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype5.2.svg)
+![A scan of a wood type specimen.](images/GFKhistoftype5.2.svg)
 
 </figure>
 <figcaption>Early 19th-century reverse contrast typeface in wood.</figcaption>
@@ -28,7 +28,7 @@ When designing typefaces for reading, one works within fairly narrow parameters.
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype5.3.svg)
+![A selection of different styles of Tuscan.](images/GFKhistoftype5.3.svg)
 
 </figure>
 <figcaption>The 19th century witnessed the invention of many new styles of typefaces—and serif designs.</figcaption>
@@ -37,7 +37,7 @@ The arrival of the modern advertising poster roughly coincided with the inventio
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype5.4.svg)
+![Scan of a specimen showing four faces, including William Caslon’s ‘sans serif’ design.](images/GFKhistoftype5.4.svg)
 
 </figure>
 <figcaption>Bottom line: William Caslon’s ‘sans serif’, c. 1816.</figcaption>

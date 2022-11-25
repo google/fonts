@@ -2,7 +2,7 @@ When John Baskerville introduced his roman [typefaces](/glossary/typeface) in th
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype4.3.svg)
+![The word “hamburger” set in Baskerville and Bodoni.](images/GFKhistoftype4.3.svg)
 
 </figure>
 <figcaption>Comparing transitional (Baskerville, top) and Modern  (Bodoni, below) style. They share similar proportions and an upright axis, but the Modern has a much simplified serif structure and considerably higher contrast.</figcaption>
@@ -23,7 +23,7 @@ In Modern typefaces, the extreme contrast between thick and thin strokes was als
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype4.1.svg)
+![The word “Didone” with its bracketed serifs highlighted.](images/GFKhistoftype4.1.svg)
 
 </figure>
 
@@ -31,7 +31,7 @@ In the earliest Modern style, capital letters one would be hard-pressed to find 
 
 <figure>
 
-![INSERT_ALT](images/GFKhistoftype4.2.svg)
+![Scan of Bodoni roman and italic specimen.](images/GFKhistoftype4.2.svg)
 
 </figure>
 <figcaption>Bodoni roman and italic. Note, in the italic, the calligraphic influence in the hairline in-strokes.</figcaption>

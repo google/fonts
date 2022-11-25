@@ -1,4 +1,4 @@
-Hangeul, the Korean [script](/glossary/script_writing_system), was created in 1443 and published in 1446. Until then, Korea borrowed Chinese characters to apply them to Korean sounds, as did Japan. Please read [“Type classification in CJK”](/lesson/type_classification_in_cjk) for more information.
+Hangeul, the Korean [script](/glossary/script_writing_system), was created in 1443 and published in 1446. Until then, Korea borrowed Chinese characters to apply them to Korean sounds, as did Japan. Please read [“Type classification in CJK”](/lesson/type_classification_in_cjk_korean) for more information.
 
 ## A sans serif origin
 

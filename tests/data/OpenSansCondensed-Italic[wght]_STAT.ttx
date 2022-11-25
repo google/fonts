@@ -94,15 +94,15 @@
   <AxisValue index="10" Format="3">
     <AxisIndex value="3"/>
     <Flags value="2"/>  <!-- ElidableAxisValueName -->
-    <ValueNameID value="529"/>  <!-- Normal -->
+    <ValueNameID value="529"/>  <!-- Roman -->
     <Value value="0.0"/>
     <LinkedValue value="1.0"/>
   </AxisValue>
   <AxisValue index="11" Format="1">
     <AxisIndex value="4"/>
     <Flags value="2"/>  <!-- ElidableAxisValueName -->
-    <ValueNameID value="529"/>  <!-- Normal -->
-    <Value value="0.0"/>
+    <ValueNameID value="530"/>  <!-- Normal -->
+    <Value value="100.0"/>
   </AxisValue>
 </AxisValueArray>
 <ElidedFallbackNameID value="2"/>  <!-- Italic -->

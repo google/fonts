@@ -83,14 +83,14 @@
   <AxisValue index="9" Format="3">
     <AxisIndex value="2"/>
     <Flags value="2"/>  <!-- ElidableAxisValueName -->
-    <ValueNameID value="283"/>  <!-- Normal -->
+    <ValueNameID value="285"/>  <!-- Roman -->
     <Value value="0.0"/>
     <LinkedValue value="1.0"/>
   </AxisValue>
   <AxisValue index="10" Format="3">
     <AxisIndex value="3"/>
     <Flags value="2"/>  <!-- ElidableAxisValueName -->
-    <ValueNameID value="283"/>  <!-- Normal -->
+    <ValueNameID value="285"/>  <!-- Roman -->
     <Value value="0.0"/>
     <LinkedValue value="1.0"/>
   </AxisValue>

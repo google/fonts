@@ -22,7 +22,7 @@ Find out more about text accessibility in [“Introducing accessibility in typog
 
 <figure>
 
-![INSERT_ALT](images/readability_01.svg)
+![Two columns of text, with the left column showing examples of indistinct letter shapes and tight line height that causes clashes, and the right showing better distinguishable shapes (to show legibility) and a more open line height (to show readability).](images/readability_01.svg)
 
 </figure>
 <figcaption>Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.</figcaption>
@@ -33,7 +33,7 @@ There are physiological mechanisms that  determine how well a person can see tex
 
 <figure>
 
-![INSERT_ALT](images/readability_02.svg)
+![A diagram showing how light is processed by the eye.](images/readability_02.svg)
 
 </figure>
 
@@ -56,7 +56,7 @@ The heart of typography focuses on the reader’s interactions with the words as
 
 <figure>
 
-![INSERT_ALT](images/readability_03.svg)
+![A sentence with the word shapes outlined, then the same shapes repeated below, but without the words, showing how uppercase text creates word shapes that are indistinct.](images/readability_03.svg)
 
 </figure>
 
@@ -64,7 +64,7 @@ The word superiority effect also describes why it is easier to read a string of 
 
 <figure>
 
-![INSERT_ALT](images/readability_04.svg)
+![The sentence “The word printed on the paper” with annotations showing where the nouns, articles, verbs, etc. appear.](images/readability_04.svg)
 
 </figure>
 
@@ -74,7 +74,7 @@ Readers are surprisingly flexible in their ability to read text that is not spel
 
 <figure>
 
-![INSERT_ALT](images/readability_05.svg)
+![On the right side, an approximation of a blog post: a heading in large type, then some tags set in small, uppercase type, followed by a paragraph of text. To the left of all of this text, labels show the different font sizes used by each text element.](images/readability_05.svg)
 
 </figure>
 
@@ -84,7 +84,7 @@ Some people will experience [crowding](https://www.sciencedirect.com/science/art
 
 <figure>
 
-![INSERT_ALT](images/readability_06.svg)
+![Four columns of the same text, but with different line height settings. The first is way too tight and causes clashes between letterforms; the last is too open and each line becoems disconnected. The middle two settings, although different from each other, show the approximate range of readable line heights.](images/readability_06.svg)
 
 </figure>
 
@@ -94,7 +94,7 @@ To explore settings that might work for your texts, when selecting a font on Goo
 
 <figure>
 
-![INSERT_ALT](images/readability_07.png)
+![A screenshot of Google Fonts’ Type Tester.](images/readability_07.png)
 
 </figure>
 <figcaption>Google Fonts’ Type Tester, showing text with variable axes.</figcaption>
@@ -105,7 +105,7 @@ Reading is more than seeing the words and understanding the content based on syn
 
 <figure>
 
-![INSERT_ALT](images/readability_08.svg)
+![“Peace at last” and “Oh, come on! really?!?” set in typefaces that reflect the emotional sentiment of the text.](images/readability_08.svg)
 
 </figure>
 
@@ -127,7 +127,7 @@ The shortest form of reading is called glancing, when the reader briefly looks a
 
 <figure>
 
-![INSERT_ALT](images/readability_09.svg)
+![A diagram showing types of reading—from glanceable to interlude to long form—over an axis of shortest time to longest time.](images/readability_09.svg)
 
 </figure>
 <figcaption>Time to read a source impacts the way in which people read, and what they do while they read. Reading at-a-glance is often done alongside some other task, while reading a long form document generally requires dedication to the reading itself. Most reading is done opportunistically in interludes; while waiting or taking a break.</figcaption>

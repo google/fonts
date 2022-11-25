@@ -7,7 +7,7 @@ First, let’s make sure we define **legibility** and **readability**. Both are 
 
 <figure>
 
-![Two columns of text in red and black ](images/thumbnail.svg)
+![Two columns of text, with the left column showing examples of indistinct letter shapes and tight line height that causes clashes, and the right showing better distinguishable shapes (to show legibility) and a more open line height (to show readability).](images/thumbnail.svg)
 
 </figure>
 <figcaption>Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.</figcaption>

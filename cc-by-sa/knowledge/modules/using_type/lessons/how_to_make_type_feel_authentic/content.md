@@ -50,7 +50,7 @@ Here’s a mockup of our finished piece:
 
 </figure>
 
-The result is an authentic touch that goes much further than simply typing with the font’s defaults. For more on turning type into a logo, be sure to read Tom Muller’s “[INSERT].” And to learn how to work with stylistic sets using CSS, see [“Implementing OpenType features on the web.”](https://fonts.google.com/knowledge/using_type/implementing_open_type_features_on_the_web)
+The result is an authentic touch that goes much further than simply typing with the font’s defaults. For more on turning type into a logo, be sure to read Tom Muller’s [“From type to logotype”](/lessons/from_type_to_logotype) article. And to learn how to work with stylistic sets using CSS, see [“Implementing OpenType features on the web.”](https://fonts.google.com/knowledge/using_type/implementing_open_type_features_on_the_web)
 
 For our second example, let’s consider a film logo, where the title is meant to be reminiscent of old street signs. A common faux pas is to use a typeface that has a distressed or worn aesthetic, which then loses its impact when we see repeated characters having identical forms:
 

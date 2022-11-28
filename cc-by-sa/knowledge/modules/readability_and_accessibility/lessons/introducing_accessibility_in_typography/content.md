@@ -162,7 +162,7 @@ Read more about [visual acuity and text size](https://www.teachingvisuallyimpair
 Follow these guidelines for hyperlinks:
 - Allow user preferences to change the fonts and colors
 - Change the color of links that have been accessed. Usually, unvisited links are in blue and visited links are in pink. This helps people see which links they have already accessed. 
-- Embedded content (like documents, spreadsheets, videos, or decks) should have a sentence/link near the embedded content that reads, “Open the [insert content name] in a new window.”
+- Embedded content (like documents, spreadsheets, videos, or decks) should have a sentence/link near the embedded content that reads, “Open the [content name] in a new window.”
 - All hyperlinks are descriptive. Screen reading software often reads links out of context from the surrounding text. Links should clearly describe where the user will be taken or what action it triggers. 
     - Incorrect: “It’s important to meet accessibility standards. [Learn more](https://fonts.google.com/knowledge).”
     - Correct: “It’s important to meet [accessibility standards](https://fonts.google.com/knowledge).”

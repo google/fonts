@@ -3,8 +3,8 @@
 # plus discussion with dcrossland@
 tag: "opsz"
 display_name: "Optical size"
-min_value: 6
-max_value: 144
+min_value: 5
+max_value: 1200
 default_value: 14
 precision: -1
 fallback {

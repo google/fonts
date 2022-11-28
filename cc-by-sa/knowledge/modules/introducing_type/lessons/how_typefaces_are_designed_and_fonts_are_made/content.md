@@ -84,7 +84,7 @@ If a type family contains two or more [styles](/glossary/style) within an [axis]
 
 <figure>
 
-![INSERT_ALT](images/existing_masters.svg)
+![An abstract representation of masters and instances: Two “a” characters rendered in light and heavy weights represent the masters at the top, with multiple “a” characters rendered beneath, indicating the full range of weights created as instances.](images/existing_masters.svg)
 
 </figure>
 
@@ -94,7 +94,7 @@ Type designers can code layout features in font editing software to control how 
 
 <figure>
 
-![INSERT_ALT](images/existing_alternates.svg)
+![The phrase “ziggy, meet ziggy” set in a sans serif typeface that has alternate glyphs enabled for the z and g characters in the second version of “ziggy.”](images/existing_alternates.svg)
 
 </figure>
 

@@ -252,23 +252,22 @@ def _check_image_files(knowledge: KnowledgeContent) -> bool:
     result = True
     image_files = list(knowledge.knowledge_dir.glob("**/images/*"))
     for image_file in image_files:
-        if image_file.name == "thumbnail.svg":
+        if _is_svg(image_file):
+            if image_file.stat().st_size > MAX_VECTOR_IMAGE_SIZE_KB * 1024:
+                print("File exceeds max size of %s KB:" % MAX_VECTOR_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))
+                result = False
             root = minidom.parseString(image_file.read_text()).documentElement
             if root.tagName != "svg":
                 print("Root element must be <svg>:", image_file.relative_to(knowledge.repo_root))
                 result = False
-        has_view_box = "viewBox" in root.attributes
-        has_width_and_height = "width" in root.attributes and "height" in root.attributes
-        if not has_view_box and not has_width_and_height:
-            print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge.knowledge_dir))
-            result = False
-        if not _is_svg(image_file):
-            if image_file.stat().st_size > MAX_RASTER_IMAGE_SIZE_KB * 1024:
-                print("File exceeds max size of %s KB:" % MAX_RASTER_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))
+            has_view_box = "viewBox" in root.attributes
+            has_width_and_height = "width" in root.attributes and "height" in root.attributes
+            if not has_view_box and not has_width_and_height:
+                print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge.knowledge_dir))
                 result = False
         else:
-            if image_file.stat().st_size > MAX_VECTOR_IMAGE_SIZE_KB * 1024:
-                print("File exceeds max size of %s KB:" % MAX_VECTOR_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))
+            if image_file.stat().st_size > MAX_RASTER_IMAGE_SIZE_KB * 1024:
+                print("File exceeds max size of %s KB:" % MAX_RASTER_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))
                 result = False
     return result
 

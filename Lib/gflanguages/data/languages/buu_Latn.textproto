@@ -1,0 +1,8 @@
+id: "buu_Latn"
+language: "buu"
+script: "Latn"
+name: "Budu"
+exemplar_chars {
+  base: "a A b B d D e E ɛ Ɛ f F g G h H i I ɨ Ɨ j J k K l L m M n N o O ɔ Ɔ p P s S t T u U ʉ Ʉ v V w W y Y z Z"
+  auxiliary: "c C q Q r R x X"
+}

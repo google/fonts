@@ -36,7 +36,6 @@ In Korea, the use of Chinese characters is fading away; most people only use Han
 
 The important thing we must not forget is that Hiragana and Katakana are phonograms, and Kanji is an ideogram. Japanese words have many homonyms—words that sounds the same but mean completely different things—so, by using Kanji, it helps a lot in avoiding miscommunication. Also, Japanese doesn’t have a word spacing system, so without Kanji, it would be very difficult to figure out where to cut the sentence. Also, by using Kanji in between, the sentence is much shorter.
 
-
 ## Development of the letterform
 
 Before metal typesetting, Japanese was written in a script style due to the use of pointed brushes. This meant that Hiragana was written in unbroken forms. In other words, every character was written connected, much like Latin calligraphy. When Japanese printers first started using the metal type in the 1500s, their Hiragana types had two or more characters together in a single block of type—much like Latin ligatures. In the 1800s, after the seclusion policy in Japan was lifted, they imported Chinese metal type, which had one letter on each block, and Japan adapted to this by developing disconnected Hiragana and Katakana that fit in the em square. 

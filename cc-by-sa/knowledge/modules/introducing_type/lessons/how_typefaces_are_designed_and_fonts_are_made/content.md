@@ -22,11 +22,11 @@ Many typefaces are conceived by type designers who have had a spark of inspirati
 
 Don't we have enough fonts already? Well, imagine we decided we had all the songs we ever needed, and stopped writing more. Just as music conveys and enhances a song, a typeface embeds a visual layer into text and communicates in conjunction with it. Each typeface provides a unique, visual tone of voice to written language.
 
-Typefaces also allow documents to present visual hierarchies, for example through darker headings. They also enable document designers to represent meaningful structures, by differentiating annotations, captions, and other parts of textual communication.
+Typefaces also allow documents to present visual hierarchies, for example, through darker headings. And, they enable graphic designers to represent meaningful structures by differentiating annotations, captions, and other parts of textual communication.
 
 <h2>The importance of a brief</h2>
 
-To ensure their time and skill is used efficiently, and they meet the needs of their client or audience, experienced type designers usually seek to define the requirements and set the parameters of a type design project in its early stages with a typeface design brief:
+To ensure their time and skill is used efficiently, and that they meet the needs of their client or audience, experienced type designers usually seek to define the requirements and set the parameters of a type design project in its early stages with a typeface design brief:
 
 * What will the typeface be used for? Is its primary purpose for immersive texts, or for short display headlines?
 * What are its specific requirements? Does the typeface need to perform a certain function, such as to read clearly in very small sizes, or to operate in a particular environment such as an e-reader, or within virtual reality?

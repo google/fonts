@@ -1,6 +1,6 @@
-Reading is a complex cognitive process that involves working out what meanings are represented by a set of symbols in a [writing system](https://fonts.google.com/knowledge/glossary/script_writing_system), such as the [Latin alphabet](https://fonts.google.com/knowledge/glossary/latin). Scholars who are trying to understand how people read can have expertise in a broad range of areas such as psychology, linguistics, semiotics, literary critics, vision sciences, and anthropology. This article is a brief overview of how people read focusing on how those with normal or corrected vision (with glasses/spectacles or contact lenses) read letters, words, phrases and longer texts. This article does not cover how people read by touch with braille. This overview also introduces how typographic decisions can influence the process of reading.
+Reading is a complex cognitive process that involves working out what meanings are represented by a set of symbols in a [writing system](https://fonts.google.com/knowledge/glossary/script_writing_system), such as the [Latin alphabet](https://fonts.google.com/knowledge/glossary/latin). Scholars researching how people read can have expertise in a broad range of areas such as psychology, linguistics, semiotics, literary critics, vision sciences, and anthropology. This article is a brief overview of how people read focusing on how those with normal or corrected vision (with glasses/spectacles or contact lenses) read letters, words, phrases and longer texts. (It does not cover the use of braille.) This overview also introduces how typographic decisions can influence the process of reading.
 
-Reading is what we do, and [readability](https://fonts.google.com/knowledge/glossary/readability) refers to qualities of a text that make reading easier. This includes content decisions, or format decisions, which help a reader to easily engage with and comprehend the message intended by the author. Poor readability can obscure, change, or convince the reader never even engage with the author's message.
+Reading is what we do, while [readability](https://fonts.google.com/knowledge/glossary/readability) refers to qualities of a text that make reading easier. This includes content decisions, or format decisions, which help a reader to easily engage with and comprehend the message intended by the author. Poor readability can obscure, change, or convince the reader never even engage with the author's message.
 
 Readability describes how easily a reader engages with and understands the message intended by the author(s). 
 
@@ -37,22 +37,23 @@ There are physiological mechanisms that  determine how well a person can see tex
 
 </figure>
 
-This process is too complex for the goals of this article, but a wealth of academic literature is available to learn about this (see [this article](https://visionlab.neuroscience.barnard.edu/sites/default/files/content/Yeatman%2C%20White_Annual%20Review%20of%20Vision%20Science_2021.pdf) for a recent review). The incredible range of individual differences in the ability to process written text, both in typical and atypical readers (e.g. low-vision patients, dyslexia in its multiple forms, etc.) are proxies of the complexity of our cognitive and neural machinery supporting the act of Reading. Every little road bump at each point of this processing hierarchy would generate a different reading style and propagate to a broad range of limitations of the reading experience.
+This process is too complex for the goals of this article, but a wealth of academic literature is available if you're interested in learning more (see [this article](https://visionlab.neuroscience.barnard.edu/sites/default/files/content/Yeatman%2C%20White_Annual%20Review%20of%20Vision%20Science_2021.pdf) for a recent review). The incredible range of individual differences in the ability to process written text, both in typical and atypical readers (e.g. low-vision patients, dyslexia in its multiple forms, etc.) are proxies of the complexity of our cognitive and neural machinery supporting the act of Reading. Every little road bump at each point of this processing hierarchy would generate a different reading style and propagate to a broad range of limitations of the reading experience.
 
-There are several free tools that provide the ability to see how your typography will look to people with varying color vision capabilities. Visit [Material Design Accessibility Color Contrast Guidelines](https://m3.material.io/foundations/accessible-design/patterns), [Material Design Color and Accessibility,](https://m3.material.io/styles/color/the-color-system/accessibility) [The Perception of Color](https://www.britannica.com/science/color/The-perception-of-colour), and [Colour Blindness Awareness](https://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/). To see what the 3 main  types of color blindness look like, try out the [Chromatic Vision Simulator](https://play.google.com/store/apps/details?id=asada0.android.cvsimulator&hl=en_US&gl=US) application. To see if your choice of background and text colors meet color contrast guidelines, try the free [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/) tool.  
+There are several free tools that provide the ability to see how your typography will look to people with varying color vision capabilities. Visit [Material Design Accessibility Color Contrast Guidelines](https://m3.material.io/foundations/accessible-design/patterns), [Material Design Color and Accessibility,](https://m3.material.io/styles/color/the-color-system/accessibility) [The Perception of Color](https://www.britannica.com/science/color/The-perception-of-colour), and [Colour Blindness Awareness](https://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/). To see what the three main types of color blindness look like, try out the [Chromatic Vision Simulator](https://play.google.com/store/apps/details?id=asada0.android.cvsimulator&hl=en_US&gl=US) application. To see if your choice of background and text colors meet color contrast guidelines, try the free [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/) tool.  
 
 ## Learning to read
 
-Written language is a complex code that we learn where combinations of letters, or characters, systematically represent certain sounds. 
+Written language is a complex code in which combinations of letters, or characters, systematically represent certain sounds. 
 
 For children, learning to read normally starts with becoming aware of how words sound, known as phonological processing. This awareness is coupled with matching sounds and letters. A beginner English reader learns the connections between the 26 letters of the alphabet and the approximately 44 sounds of spoken English (the phonemes). Learners actively explore different ways of reading as they become expert readers. Successful readers build the ability to recognize most words automatically and read fluently, by paying attention to grammar, punctuation, and sentence structure.
 
-Adults who are learning a new language or a new [script (writing system)](https://fonts.google.com/knowledge/glossary/script_writing_system) go through a similar process of learning the relationship between the symbols, sounds, and syntax for constructing relationships between ideas. People who are learning to read are often simultaneously learning to write. As people learn to read and recognize words, they practice producing letters and words in written form.
+Adults  learning a new language or a new [script (writing system)](https://fonts.google.com/knowledge/glossary/script_writing_system) go through a similar process of learning the relationship between the symbols, sounds, and syntax for constructing relationships between ideas. People  learning to read are often simultaneously learning to write. As people learn to read and recognize words, they practice producing letters and words in written form.
+
 To choose a typeface that supports people learning to read and write, find out if there are any fonts that are approved by local educational authorities, such as the [Foundation Fonts for Australian Schools](https://fonts.googleblog.com/) and [Japanese Universal Design fonts](https://fonts.googleblog.com/2022/04/morisawa-biz-universal-design-ud.html).
 
 ## Reading words for labels, titles, sentences, and paragraphs
 
-The heart of typography focuses on the reader’s interactions with the words as they are seen and not the meanings of the words. Readability is a combination of typography (how words appear on screen or in print) and the actual difficulty and meanings of the words. For expert readers, word recognition and legibility happen at the same time. Sometimes people recognize a word before they recognize the letters in the word! Cognitive psychologists call this the “[word superiority effect.](https://en.wikipedia.org/wiki/Word_superiority_effect)” The outline shape of words in lowercase text are more distinctive than the outline in uppercase letters. This may also explain why people read Latin texts in lowercase faster than in uppercase and frequently prefer to read in lowercase. 
+The heart of typography focuses on the reader’s interactions with the words as they are seen, not the meanings of the words. Readability is a combination of typography (how words appear on screen or in print) and the actual difficulty and meanings of the words. For expert readers, word recognition and legibility happen at the same time. Sometimes people recognize a word before they recognize the letters in the word! Cognitive psychologists call this the “[word superiority effect.](https://en.wikipedia.org/wiki/Word_superiority_effect)” The outline shape of words in lowercase text are more distinctive than the outline in uppercase letters. This may also explain why people read Latin texts in lowercase faster than in uppercase and frequently prefer to read in lowercase. 
 
 <figure>
 
@@ -60,7 +61,7 @@ The heart of typography focuses on the reader’s interactions with the words as
 
 </figure>
 
-The word superiority effect also describes why it is easier to read a string of words that are meaningfully related in a sentence rather than reading a string of words that are not in a grammatical structure. Syntax, the way the words are arranged in phrases to create sentences, has a strong impact on readability.
+The word superiority effect also describes why it's easier to read a string of words that are meaningfully related in a sentence rather than reading a string of words that are not in a grammatical structure. Syntax, which is the way the words are arranged in phrases to create sentences, has a strong impact on readability.
 
 <figure>
 
@@ -113,13 +114,14 @@ Along with this, the visual design of the typeface always expresses a message in
 
 Choosing a typeface that conveys the same emotion as the content and is meaningful to your readers’ lived experience involves building an understanding of their recent and current type experiences.
 
-Try to discover:
+Take note of:
+
 * The typefaces used in printed novels and school books, as well as popular online publications, magazines, and newspapers
 * The current type design trends in the places your readers visit, both online and in the physical world
 
 ## Motivation to read
 
-There are different motivations behind why and how people read. 
+There are different motivations for why and how people read. 
 
 When asked about what they read, most people think of what researchers call “long form” reading such as reading a novel, a school book, or several pages of formatted text. People might be reading these for pleasure or to learn new things. 
 
@@ -130,17 +132,18 @@ The shortest form of reading is called glancing, when the reader briefly looks a
 ![A diagram showing types of reading—from glanceable to interlude to long form—over an axis of shortest time to longest time.](images/readability_09.svg)
 
 </figure>
-<figcaption>Time to read a source impacts the way in which people read, and what they do while they read. Reading at-a-glance is often done alongside some other task, while reading a long form document generally requires dedication to the reading itself. Most reading is done opportunistically in interludes; while waiting or taking a break.</figcaption>
+<figcaption>The time someone has to read a source impacts the way they read it, and what they do while they read. Reading at-a-glance is often done alongside some other task, while reading a long form document generally requires dedication to the reading itself. Most reading is done opportunistically in interludes; while waiting or taking a break.</figcaption>
 
 Interlude reading covers everything between glanceable and long form reading.  There is a wide range including text messaging, navigating through headers and labels, reading some news headlines, summaries, or scanning search results.  The motivations for this type of reading also vary widely,  and includeing learning new things, being with friends,  and finding things.
 
 ## Try things with your readers
 
-The best solution for choosing a readable typeface will always be dependent on who your readers are, their motivations, and the message that you want them to take from your type choices.  This article has provided some tools to help you make good choices for your readers, and we’ve added a few more resources below, best wishes for your creative journey!
+The best solution for choosing a readable typeface will always be dependent on who your readers are, their motivations, and the message that you want them to take from your type choices.  This article has provided some tools to help you make good choices for your readers, and we’ve added a few more resources below. Best wishes for your creative journey!
 
 ## Resources 
 
-You might find these sources valuable to explore for more information on different aspects of reading:
+You might find these sources valuable for more information on readability and accessibility:
+
 * Web Usability [https://www.nngroup.com/articles/how-users-read-on-the-web/](https://www.nngroup.com/articles/how-users-read-on-the-web/) (1997)
 * Glanceable fonts  [https://www.nngroup.com/articles/glanceable-fonts/](https://www.nngroup.com/articles/glanceable-fonts/) (2017)
 * Interlude reading [https://www.bendsawyer.com/project/towards-individuated-reading-experiences/](https://www.bendsawyer.com/project/towards-individuated-reading-experiences/) (2022)

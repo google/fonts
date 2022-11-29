@@ -1,8 +1,8 @@
-The single biggest challenge we face when [pairing type](/topic/pairing_type) is choosing a secondary [typeface](/glossary/typeface) that’s different enough from our primary choice, but not _too_ different, as described in our article “[Pairing typefaces](/lesson/pairing_typefaces)”. This can be a challenge, because it’s not always clear where the similarities and the differences should lie.
+The single biggest challenge we face when [pairing type](/topic/pairing_type) is choosing a secondary [typeface](/glossary/typeface) that’s different enough from our primary choice, but not _too_ different, as described in our article “[Pairing typefaces](/lesson/pairing_typefaces)." This can be a challenge, because it’s not always clear where the similarities and the differences should lie.
 
 In this article, we want to share with you the concept of the font matrix—an approach based on the work of typography professor [Indra Kupferschmid](https://de.wikipedia.org/wiki/Indra_Kupferschmid). Understanding it can change your perception of type and give you a framework to make better decisions when pairing typefaces.
 
-Please bear in mind that combining type is not a science, with hard and fast rules. It’s a creative discipline, and you can do whatever you think feels right for your project. Take the ideas shared in this article as guidelines to make your own decisions in the great adventure of pairing type.
+Please bear in mind that combining type is not a science with hard and fast rules. It’s a creative discipline and you can do whatever you think feels right for your project. Take the ideas shared in this article as guidelines to make your own decisions in the great adventure of pairing type.
 
 ## The problem with the current models for classifying type
 
@@ -37,11 +37,11 @@ So how can we describe typefaces more accurately than with the genre classificat
 </figure>
 <figcaption>A three-layer approach for describing typefaces based upon the work of Indra Kupferschmid.</figcaption>
 
-Let’s take a look at each individual layer to understand what it means, and how it can help us choose and pair typefaces.
+Let’s take a look at each individual layer to understand what it means and how it can help us choose and pair typefaces.
 
 ## Layer 1: Skeleton (form model)
 
-This is the most crucial part, referring to the structure underneath a typeface. There are three basic form models:
+This is the most crucial part: referring to the structure underneath a typeface. There are three basic form models:
 
 * Dynamic
 * Rational
@@ -60,7 +60,7 @@ It’s easier to distinguish the form models with [contrast](/glossary/contrast)
 
 <figure>
 
-![A double-story lower case “a” displayed in three different form models in a sans serif typeface. The dynamic form model has an open aperture. In the rational form model the aperture is closed. The geometric single-story lower case a appears constructed with a circular shape.](images/form-model-sans serif.svg)
+![A double-storey lower case “a” displayed in three different form models in a sans serif typeface. The dynamic form model has an open aperture. In the rational form model the aperture is closed. The geometric single-storey lowercase "a" appears constructed with a circular shape.](images/form-model-sans serif.svg)
 
 </figure>
 <figcaption>The three different form models shown with sans serif typefaces.</figcaption>
@@ -92,7 +92,7 @@ With a **rational** typeface, we can see that these apertures are closed, which 
 </figure>
 <figcaption>Very constructed letter shapes, like the circular “o” and “e.” The “t” is a simple cross (set in Outfit).</figcaption>
 
-And with the **[geometric](/glossary/geometric) typefaces,** the apertures are not that relevant for determining the form model. Also, there is no obvious axis either. It’s more about how constructed the letter shapes are. Like the circular “e,” “g,” “a,“ and “o,” or the simple “t.” This creates a clean, modern, and functional appearance.
+And with the **[geometric](/glossary/geometric) typefaces,** the apertures are not that relevant for determining the form model. Also, there is no obvious axis. It’s more about how constructed the letter shapes are. Like the circular “e,” “g,” “a,“ and “o,” or the simple “t.” This creates a clean, modern, and functional appearance.
 
 Now, knowing about these underlying form models should make it easier for you to pinpoint the differences between the three sans serif and serif typefaces from the beginning of the article, and take you one step closer towards to differentiating type.
 
@@ -227,12 +227,12 @@ Now we look for a secondary typeface for inline code in the body text. Bitter do
 
 <figure>
 
-![On the left, the typeface “Bitter” is shown as the primary choice used for body text and labeled as “dynamic”. On the right side, the briefing for a secondary typeface used for inline code is written. The typeface should be dynamic linear, and monospace.](images/combine-fonts-example-step-3-to-5.svg)
+![On the left, the typeface “Bitter” is shown as the primary choice used for body text and labeled as “dynamic”. On the right side, the briefing for a secondary typeface used for inline code is written. The typeface should be dynamic linear, and monospaced.](images/combine-fonts-example-step-3-to-5.svg)
 
 </figure>
-<figcaption>Steps 3 to 5: We look for a secondary typeface for inline code, that’s, dynamic, linear and monospace.</figcaption>
+<figcaption>Steps 3 to 5: We look for a secondary typeface for inline code that’s dynamic, linear and monospace.</figcaption>
 
-Let’s only browse the monospaced typefaces on Google Fonts, and pick some candidates. When we take a look at our first selection, and evaluate their form model, we see that Fira Sans might fit best to what we’re looking for.
+Let’s only browse the monospaced typefaces on Google Fonts and pick some candidates. When we take a look at our first selection and evaluate their form model, we see that Fira Sans might fit best to what we’re looking for.
 
 <figure>
 
@@ -268,6 +268,6 @@ This is not a perfect system. Not every typeface fits into it, and you won’t b
 </figure>
 <figcaption>When it comes to more striking display typefaces, script, handwritten, or blackletter, don’t spend too much energy training to put them into the matrix. They will most likely be very contrasting anyway.</figcaption>
 
-When applying it to your design, other factors come into play, depending on how close the combination is, such as a similar [x-height](/glossary/x_height), or a similar or different [width](/glossary/width). Also, by using different [weights](/glossary/weight) or [styles](/glossary/style), you can hide a less-than-ideal combination.
+When applying it to your design, other factors come into play, depending on how close the combination is, such as a similar [x-height](/glossary/x_height), or a similar or different [width](/glossary/width). Also, you can improve a less-than-ideal combination by using different [weights](/glossary/weight) or [styles](/glossary/style).
 
-So see the font matrix as a guideline to make a decision, but don’t drive yourself crazy. Even Indra Kupferschmid says that it is not binding and should not limit your creativity. It is one way—not the only way—and hopefully this will support you in finding _your_ way.
+So see the font matrix as a guideline to make pairing decisions, but don’t drive yourself crazy. Even Indra Kupferschmid says that it is not binding and should not limit your creativity. It is one way—not the only way—and hopefully this will support you in finding _your_ way.

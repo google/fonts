@@ -14,19 +14,20 @@ First, let’s make sure we define **legibility** and **readability**. Both are 
 
 ## Choosing accessible type
 
-[Accessible typography](https://www.visionaustralia.org/business-consulting/digital-access/blog/typography-in-inclusive-design-part-1#2) considerations start with choosing [type](/glossary/type). Select [typefaces](/glossary/typeface) that have legibility built into their designs. There is no single answer about which fonts are most accessible. There are some indications of what could make a typeface more accessible to some people. 
+[Accessible typography](https://www.visionaustralia.org/business-consulting/digital-access/blog/typography-in-inclusive-design-part-1#2) considerations start with choosing [type](/glossary/type). There is no single answer for which fonts are most accessible, but there *are* some indications of what could make a typeface more accessible to some people.
 
-The examples in this section are for languages using the [Latin](/glossary/latin) [writing system](/glossary/script_writing_system). However, the same principles of choosing typefaces with distinct [letterforms](/glossary/letterform) (the unique shape of a letter), [numerals](/glossary/numerals_figures), punctuation marks, and [symbols](/glossary/icon_symbol) should apply to other writing systems. 
+Some popular fonts, such as [Poppins](https://fonts.google.com/specimen/Poppins), have proven to be readable with individuals who have cognitive disabilities. Of course, you can also select a [typeface](/glossary/typeface) that has legibility built into its design, like [Lexend](https://design.google/library/lexend-readability/), or [Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible), for example. 
 
-The type designers who created [Lexend](https://design.google/library/lexend-readability/) and [Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible) created these typefaces to be easier to read. Some popularly available fonts, such as [Poppins](https://fonts.google.com/specimen/Poppins), have proven to be readable with individuals who have cognitive disabilities.
+(The examples in this section are for languages using the [Latin](/glossary/latin) [writing system](/glossary/script_writing_system). However, the same principles of choosing typefaces with distinct [letterforms](/glossary/letterform) (the unique shape of a letter), [numerals](/glossary/numerals_figures), punctuation marks, and [symbols](/glossary/icon_symbol) should apply to other writing systems.) 
+
 
 ## Checking readability
 
-Mirroring, or flipping, occurs when readers flip or mirror letters and numbers that are the same form when flipped horizontally. For example, a reader could mistake a lowercase letter “b” for a lowercase “d”. Instead of reading the word “bog,” the reader will think the word is “dog.” 
+Mirroring, or flipping, occurs when readers flip or mirror letters and numbers that are the same form when flipped horizontally. For example, a reader could mistake a lowercase letter “b” for a lowercase “d." Instead of reading the word “bog,” the reader will think the word is “dog.” 
 
 A different and more pervasive issue among people with dyslexia and other reading difficulties is the transpositioning of letters. For example, a reader may mistake the words “lion” for “loin,” or “line” for “lien.” Transposition is a common experience for people with dyslexia and other reading difficulties, and does not disappear with age. 
 
-To reduce the chances of a reader confusing letters, words and numbers, consider checking the following character pairs to make sure they are distinct enough from each other: 
+To reduce the chances of a reader confusing letters, words and numbers, check the following character pairs to make sure they are distinct enough from each other: 
 
 - qp
 - db
@@ -169,7 +170,7 @@ Follow these guidelines for hyperlinks:
 
 ## Non-text elements and text in images
 
-When designing content with images, it’s important to have captions and alt text for informative images. Decorative images that do not add information don’t need captions or alt text. Captions are the text that appear below an asset. They explain an asset’s contextual information–the who, what, when, and where. Both sighted and screen reader users rely on captions for descriptions of assets. Alt text describes what the image or video is showing. This information is important for people who can’t see the image or video. When an asset doesn’t load on a website, the alt text will appear for people to know what is missing. 
+When designing content with images, it’s important to have captions and alt text for informative images. Decorative images that do not add information don’t need captions or alt text. Captions are the text that appear below an asset (e.g. an image or video). They explain the asset’s contextual information–the who, what, when, and where. Both sighted and screen reader users rely on captions for descriptions of assets. Alt text describes what the image or video is showing. This information is important for people who can’t see the image or video. When an asset doesn’t load on a website, the alt text will appear for people to know what is missing. 
 
 Learn about how to write alt text and captions in [Material Design’s Accessibility Basics](https://m3.material.io/foundations/accessible-design/accessibility-basics) (scroll to the “Writing” section). To learn about which images need captions, visit [Material Design’s From Design to Implementation](https://m3.material.io/foundations/accessible-design/design-to-implementation), the W3C [decorative](https://www.w3.org/WAI/tutorials/images/decorative/), [functional](https://www.w3.org/WAI/tutorials/images/functional/), and [informative](https://www.w3.org/WAI/tutorials/images/informative/) images articles. 
 
@@ -177,7 +178,7 @@ Online menus or price sheets that are images or PDF files of a restaurant menu o
 
 ## Resources: 
 
-A few resources to help understand fonts and their impact on readability in the cognitive space:
+Here are a few resources to learn more about fonts and their impact on readability in the cognitive space:
 
 - [British Dyslexia Association: A Dyslexia-friendly Style Guide](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide)
 - [Reading Well: Dyslexia Fonts](https://www.dyslexia-reading-well.com/dyslexia-font.html)

@@ -9,7 +9,7 @@ Consider a magazine cover, where the display [typography](/glossary/typography) 
 
 </figure>
 
-This scenario requires a touch of the human hand, and the good news is that we don’t need to manually manipulate the outlines of our type—we can add a more hand-lettered feel by using alternate glyphs with the power of [stylistic sets](/glossary/stylistic_sets) via [OpenType](/glossary/open_type) controls. (Head over to [“Introducing alternate glyphs”](https://fonts.google.com/knowledge/introducing_type/introducing_alternate_glyphs) for an overview.)
+This scenario requires a touch of the human hand. The good news is that we don’t need to manually manipulate the outlines of our type—we can add a hand-lettered feel by using alternate glyphs with the power of [stylistic sets](/glossary/stylistic_sets) via [OpenType](/glossary/open_type) controls. (Head over to [“Introducing alternate glyphs”](https://fonts.google.com/knowledge/introducing_type/introducing_alternate_glyphs) for an overview.)
 
 <figure>
 
@@ -70,7 +70,7 @@ Just look at how repeating [characters](/glossary/character)—or repeating sequ
 
 </figure>
 
-Let’s look at how we can introduce some variations here, and this time we won’t be using alternate glyphs via OpenType; instead, we’re going to employ a slightly different version of the same typeface. 
+Let’s fix this by introducing some variations here. This time we won’t be using alternate glyphs via OpenType; instead, we’re going to employ a slightly different version of the same typeface. 
 
 Here are the different versions of the T, S, and E characters we’re going to use, set in IM FELL English, [IM FELL DW Pica](https://fonts.google.com/specimen/IM+Fell+DW+Pica?query=im+fell), and [IM FELL Great Primer](https://fonts.google.com/specimen/IM+Fell+Great+Primer?query=im+fell):
 

@@ -1,59 +1,62 @@
 # New
 ofl/hankengrotesk # https://github.com/google/fonts/pull/5527
-ofl/notosansnko # https://github.com/google/fonts/pull/5608
-ofl/notoserifnphmong # https://github.com/google/fonts/pull/5609
-ofl/rubik80sfade # https://github.com/google/fonts/pull/5612
-ofl/rubikgemstones # https://github.com/google/fonts/pull/5611
-ofl/rubikspraypaint # https://github.com/google/fonts/pull/5613
-ofl/rubikstorm # https://github.com/google/fonts/pull/5615
-ofl/rubikvinyl # https://github.com/google/fonts/pull/5614
-ofl/unbounded # https://github.com/google/fonts/pull/5519
+#
+# Don't import yet, working out details around renaming.
+# ofl/notosansnko # https://github.com/google/fonts/pull/5608
+#
+#ofl/notoserifnphmong # https://github.com/google/fonts/pull/5609
+#ofl/rubik80sfade # https://github.com/google/fonts/pull/5612
+#ofl/rubikgemstones # https://github.com/google/fonts/pull/5611
+#ofl/rubikspraypaint # https://github.com/google/fonts/pull/5613
+#ofl/rubikstorm # https://github.com/google/fonts/pull/5615
+#ofl/rubikvinyl # https://github.com/google/fonts/pull/5614
+#ofl/unbounded # https://github.com/google/fonts/pull/5519
 
 # Upgrade
-ofl/abyssinicasil # https://github.com/google/fonts/pull/5622
-ofl/archivonarrow # https://github.com/google/fonts/pull/5559
-ofl/calistoga # https://github.com/google/fonts/pull/5502
-ofl/chivomono # https://github.com/google/fonts/pull/5539
-ofl/frankruhllibre # https://github.com/google/fonts/pull/5528
-ofl/ibmplexmono # https://github.com/google/fonts/pull/5524
-ofl/khand # https://github.com/google/fonts/pull/5507
-ofl/marmelad # https://github.com/google/fonts/pull/5529
-ofl/notonaskharabic # https://github.com/google/fonts/pull/5009
-ofl/notosansethiopic # https://github.com/google/fonts/pull/5509
-ofl/notosanshanifirohingya # https://github.com/google/fonts/pull/5114
-ofl/notosansmro # https://github.com/google/fonts/pull/5158
-ofl/notosanssymbols2 # https://github.com/google/fonts/pull/5238
-ofl/notosanstifinagh # https://github.com/google/fonts/pull/5604
-ofl/notoserifethiopic # https://github.com/google/fonts/pull/5510
-ofl/reemkufi # https://github.com/google/fonts/pull/5601
-ofl/reemkufiink # https://github.com/google/fonts/pull/5602
-ofl/rubik # https://github.com/google/fonts/pull/5623
+#ofl/abyssinicasil # https://github.com/google/fonts/pull/5622
+#ofl/archivonarrow # https://github.com/google/fonts/pull/5559
+#ofl/calistoga # https://github.com/google/fonts/pull/5502
+#ofl/chivomono # https://github.com/google/fonts/pull/5539
+#ofl/frankruhllibre # https://github.com/google/fonts/pull/5528
+#ofl/ibmplexmono # https://github.com/google/fonts/pull/5524
+#ofl/khand # https://github.com/google/fonts/pull/5507
+#ofl/marmelad # https://github.com/google/fonts/pull/5529
+#ofl/notonaskharabic # https://github.com/google/fonts/pull/5009
+#ofl/notosansethiopic # https://github.com/google/fonts/pull/5509
+#ofl/notosanshanifirohingya # https://github.com/google/fonts/pull/5114
+#ofl/notosansmro # https://github.com/google/fonts/pull/5158
+#ofl/notosanssymbols2 # https://github.com/google/fonts/pull/5238
+#ofl/notosanstifinagh # https://github.com/google/fonts/pull/5604
+#ofl/notoserifethiopic # https://github.com/google/fonts/pull/5510
+#ofl/reemkufi # https://github.com/google/fonts/pull/5601
+#ofl/reemkufiink # https://github.com/google/fonts/pull/5602
+#ofl/rubik # https://github.com/google/fonts/pull/5623
 
 # Designer profile
-catalog/designers/nan # https://github.com/google/fonts/pull/5517
-catalog/designers/solmatas # https://github.com/google/fonts/pull/5610
+#catalog/designers/nan # https://github.com/google/fonts/pull/5517
+#catalog/designers/solmatas # https://github.com/google/fonts/pull/5610
 
 # Metadata / Description / License
-ofl/acme # https://github.com/google/fonts/pull/5450
-ofl/alegreya # https://github.com/google/fonts/pull/5450
-ofl/alegreyasans # https://github.com/google/fonts/pull/5450
-ofl/alegreyasanssc # https://github.com/google/fonts/pull/5450
-ofl/alegreyasc # https://github.com/google/fonts/pull/5450
-ofl/amiri # https://github.com/google/fonts/pull/5593
-ofl/andadapro # https://github.com/google/fonts/pull/5450
-ofl/arefruqaa # https://github.com/google/fonts/pull/5593
-ofl/bitter # https://github.com/google/fonts/pull/5450
-ofl/bitter # https://github.com/google/fonts/pull/5555
-ofl/blaka # https://github.com/google/fonts/pull/5593
-ofl/blakahollow # https://github.com/google/fonts/pull/5593
-ofl/cambo # https://github.com/google/fonts/pull/5450
-ofl/elmessiri # https://github.com/google/fonts/pull/5593
-ofl/gochihand # https://github.com/google/fonts/pull/5450
-ofl/lemonada # https://github.com/google/fonts/pull/5593
-ofl/mada # https://github.com/google/fonts/pull/5593
-ofl/piazzolla # https://github.com/google/fonts/pull/5450
-ofl/qahiri # https://github.com/google/fonts/pull/5593
-ofl/telex # https://github.com/google/fonts/pull/5450
+#ofl/acme # https://github.com/google/fonts/pull/5450
+#ofl/alegreya # https://github.com/google/fonts/pull/5450
+#ofl/alegreyasans # https://github.com/google/fonts/pull/5450
+#ofl/alegreyasanssc # https://github.com/google/fonts/pull/5450
+#ofl/alegreyasc # https://github.com/google/fonts/pull/5450
+#ofl/amiri # https://github.com/google/fonts/pull/5593
+#ofl/andadapro # https://github.com/google/fonts/pull/5450
+#ofl/arefruqaa # https://github.com/google/fonts/pull/5593
+#ofl/bitter # https://github.com/google/fonts/pull/5450
+#ofl/bitter # https://github.com/google/fonts/pull/5555
+#ofl/blaka # https://github.com/google/fonts/pull/5593
+#ofl/blakahollow # https://github.com/google/fonts/pull/5593
+#ofl/cambo # https://github.com/google/fonts/pull/5450
+#ofl/elmessiri # https://github.com/google/fonts/pull/5593
+#ofl/gochihand # https://github.com/google/fonts/pull/5450
+#ofl/lemonada # https://github.com/google/fonts/pull/5593
+#ofl/mada # https://github.com/google/fonts/pull/5593
+#ofl/piazzolla # https://github.com/google/fonts/pull/5450
+#ofl/qahiri # https://github.com/google/fonts/pull/5593
+#ofl/telex # https://github.com/google/fonts/pull/5450
 
 # Sample texts
 lang/languages/bug_Latn.textproto # https://github.com/google/fonts/pull/5557

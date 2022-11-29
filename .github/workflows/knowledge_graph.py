@@ -241,11 +241,11 @@ def _check_proto_files(knowledge: KnowledgeContent) -> bool:
 
 
 def _is_svg(image_file: Path) -> bool:
-  return image_file.suffix == '.svg'
+  return image_file.suffix == ".svg"
 
 
 def _is_svg(image_file: Path) -> bool:
-  return image_file.suffix == '.svg'
+  return image_file.suffix == ".svg"
 
 
 def _check_image_files(knowledge: KnowledgeContent) -> bool:
@@ -265,6 +265,10 @@ def _check_image_files(knowledge: KnowledgeContent) -> bool:
             if not has_view_box and not has_width_and_height:
                 print("Must specify viewBox and/or width+height on <svg>:", image_file.relative_to(knowledge.knowledge_dir))
                 result = False
+            for stopEl in root.getElementsByTagName("stop"):
+                if "offset" not in stopEl.attributes:
+                    print("Must specify offset on <stop>:", image_file.relative_to(knowledge.knowledge_dir))
+                    result = False
         else:
             if image_file.stat().st_size > MAX_RASTER_IMAGE_SIZE_KB * 1024:
                 print("File exceeds max size of %s KB:" % MAX_RASTER_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))

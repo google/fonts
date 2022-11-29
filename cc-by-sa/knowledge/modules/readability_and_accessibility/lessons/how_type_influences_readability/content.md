@@ -48,6 +48,7 @@ Written language is a complex code in which combinations of letters, or characte
 For children, learning to read normally starts with becoming aware of how words sound, known as phonological processing. This awareness is coupled with matching sounds and letters. A beginner English reader learns the connections between the 26 letters of the alphabet and the approximately 44 sounds of spoken English (the phonemes). Learners actively explore different ways of reading as they become expert readers. Successful readers build the ability to recognize most words automatically and read fluently, by paying attention to grammar, punctuation, and sentence structure.
 
 Adults  learning a new language or a new [script (writing system)](https://fonts.google.com/knowledge/glossary/script_writing_system) go through a similar process of learning the relationship between the symbols, sounds, and syntax for constructing relationships between ideas. People  learning to read are often simultaneously learning to write. As people learn to read and recognize words, they practice producing letters and words in written form.
+
 To choose a typeface that supports people learning to read and write, find out if there are any fonts that are approved by local educational authorities, such as the [Foundation Fonts for Australian Schools](https://fonts.googleblog.com/) and [Japanese Universal Design fonts](https://fonts.googleblog.com/2022/04/morisawa-biz-universal-design-ud.html).
 
 ## Reading words for labels, titles, sentences, and paragraphs
@@ -114,6 +115,7 @@ Along with this, the visual design of the typeface always expresses a message in
 Choosing a typeface that conveys the same emotion as the content and is meaningful to your readers’ lived experience involves building an understanding of their recent and current type experiences.
 
 Take note of:
+
 * The typefaces used in printed novels and school books, as well as popular online publications, magazines, and newspapers
 * The current type design trends in the places your readers visit, both online and in the physical world
 
@@ -141,6 +143,7 @@ The best solution for choosing a readable typeface will always be dependent on w
 ## Resources 
 
 You might find these sources valuable for more information on readability and accessibility:
+
 * Web Usability [https://www.nngroup.com/articles/how-users-read-on-the-web/](https://www.nngroup.com/articles/how-users-read-on-the-web/) (1997)
 * Glanceable fonts  [https://www.nngroup.com/articles/glanceable-fonts/](https://www.nngroup.com/articles/glanceable-fonts/) (2017)
 * Interlude reading [https://www.bendsawyer.com/project/towards-individuated-reading-experiences/](https://www.bendsawyer.com/project/towards-individuated-reading-experiences/) (2022)

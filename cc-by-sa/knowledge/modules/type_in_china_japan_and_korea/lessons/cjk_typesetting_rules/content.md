@@ -20,9 +20,9 @@ CJK scripts have a special punctuation in common called “full-width punctuatio
 
 </figure>
 
-In Chinese, both Latin and full-width punctuation is used, but with Traditional Chinese usage in Hong Kong and Taiwan, commas are placed in the middle of the letter height. Latin punctuation and full-width punctuation are all used for a different meaning and purpose.
+In Chinese, both Latin and full-width punctuation are used, but with Traditional Chinese usage in Hong Kong and Taiwan, commas are placed in the middle of the letter height. Latin punctuation and full-width punctuation are all used for a different meaning and purpose.
 
-In Korean, the default punctuation is Latin, and no full-width punctuation. For brackets, full-width punctuation is allowed, but only in limited special scenarios. For example, when noting bibliographic references, both 「」and『』are used. However, commas and periods are strictly Latin, shape-wise, and full-width punctuation is never used in that position. And for the wordspaces and Latin punctuation, most Korean fonts have a Korean version of those characters, with a better size and baseline, because regular Latin punctuation does not usually align well with Hangeul.
+In Korean, the default punctuation is Latin, and there's no full-width punctuation. For brackets, full-width punctuation is allowed, but only in limited special scenarios. For example, when noting bibliographic references, both 「」and『』are used. However, commas and periods are strictly Latin, shape-wise, and full-width punctuation is never used in that position. And for the wordspaces and Latin punctuation, most Korean fonts have a Korean version of those characters, with a better size and baseline, because regular Latin punctuation does not usually align well with Hangeul.
 
 <figure>
 
@@ -32,7 +32,7 @@ In Korean, the default punctuation is Latin, and no full-width punctuation. For 
 
 ## 3. Balance: the center of gravity, not the baseline
 
-CJK fonts do not have a concept of a baseline. The idea is that the balance of the type exists roughly in the center of the em square (remembering that that box is not necessarily a square if the font is proportional), and therefore the right center of gravity depends on the design of the typeface and the writing direction. Usually the balance is set at the center, but sometimes gravity shifts up and down. Usually when the gravity is high, the font is likely to look more sophisticated and elegant; when it’s low, more casual.
+CJK fonts do not have a concept of a baseline. The idea is that the balance of the type exists roughly in the center of the em square (remembering that that box is not necessarily a square if the font is proportional), and therefore the right center of gravity depends on the design of the typeface and the writing direction. Usually the balance is set at the middle, but it can shift up or down. Usually when the center of gravity is high, the font is likely to look more sophisticated and elegant; when it’s low, more casual.
 
 <figure>
 
@@ -42,7 +42,7 @@ CJK fonts do not have a concept of a baseline. The idea is that the balance of t
 
 ## 4. No italics
 
-In CJK scripts—and therefore CJK fonts—there are no italics. Type is sometimes [faux-italicized](/glossary/faux_fake_pseudo_synthesized) for design purposes, but originally, italics do not exist. Instead, designers come up with creative solutions. Most of the time, single and double quotation marks or full-width brackets are the common and easy way used to indicate emphasis. Little dots above the letters are also used a lot, but only when there is no Ruby (small text written above Kanji or foreign letters to indicate phonetics or pronunciations in Japanese). In Japanese, use of Katakana is also sometimes used as a way of emphasis.
+In CJK scripts—and therefore CJK fonts—there are no italics. Type is sometimes [faux-italicized](/glossary/faux_fake_pseudo_synthesized) for design purposes, but true italics do not exist. Instead, designers come up with creative solutions. Most of the time, single and double quotation marks or full-width brackets are the common and easy way to indicate emphasis. Little dots above the letters are also used a lot when there is no Ruby (small text written above Kanji or foreign letters to indicate phonetics or pronunciations in Japanese). In Japanese, use of Katakana is sometimes used for emphasis.
 
 <figure>
 
@@ -50,4 +50,4 @@ In CJK scripts—and therefore CJK fonts—there are no italics. Type is sometim
 
 </figure>
 
-Underlines are also used, but more for subtitles than emphasis in the middle of the paragraph. If the design allows, wavy or highlighted underlines are also used. Bold or coloring the words are preferred solutions, too.
+Underlines are also used, but more for subtitles than emphasis in the middle of a paragraph. If the design allows, wavy or highlighted underlines are also used. Bolding and coloring of words are good solutions, too.

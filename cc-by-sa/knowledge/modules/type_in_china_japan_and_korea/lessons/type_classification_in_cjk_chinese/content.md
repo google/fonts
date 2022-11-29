@@ -1,4 +1,4 @@
-The categories in Chinese type classification can be seen as a set of names from the most popular styles that appeared throughout Chinese type history, all the way to our contemporary times. Even with digital technologies, and the multiple mechanical printing techniques, there is—and always has been—a strong connection to handwritten calligraphy. Thus, Chinese typeface categories with styles related to calligraphy are still popular even today, due to the very nature of the characters (more organic than mechanical). Styles that are less calligraphic appeared very late in history (first in woodblock printing with Songti and Mingti), as ways to respond to the needs of their time and follow the contemporary trends (Yuanti and Heiti).
+The categories in Chinese type classification can be seen as a set of names from the most popular styles that appeared throughout Chinese type history, all the way to our contemporary times. Even with digital technologies and the multiple mechanical printing techniques, there is—and always has been—a strong connection to handwritten calligraphy. Thus, Chinese typeface categories with styles related to calligraphy are still popular even today, due to the very nature of the characters (which are more organic than mechanical). Styles that are less calligraphic appeared very late in history (first in woodblock printing with Songti and Mingti), as ways to respond to the needs of their times and follow contemporary trends (e.g. Yuanti and Heiti).
 
 As Chinese type evolved mostly independently from Latin, the groups or styles are different. Chinese (digital) type classification can be presented in seven categories, from the most “traditional” style to the most “modern.” Let’s explore the major categories:
 
@@ -8,7 +8,7 @@ Kaiti style is related to the calligraphic Regular Script (楷书), with “regu
 
 <figure>
 
-![Sample of Kaiti style Chinese typefaces - Kaiti, Kai, both Macintosh system fonts](images/A_kaiti.svg)
+![Sample of Kaiti style Chinese typefaces Kaiti and Kai, both Macintosh system fonts](images/A_kaiti.svg)
 
 </figure>
 
@@ -18,13 +18,13 @@ Typefaces with a handwritten style in Chinese can vary significantly depending o
 
 <figure>
 
-![Sample of Handwritten style Chinese typefaces - Liu Jian Mao Cao (GF), Xingkai SC, HanziPen (Mac OS)](images/B_handwritten_cursive.svg)
+![Sample of Handwritten style Chinese typefaces Liu Jian Mao Cao (GF), Xingkai SC, and HanziPen (Mac OS)](images/B_handwritten_cursive.svg)
 
 </figure>
 
 ### Songti (宋体)
 
-Songti style typefaces have design features made to fit woodblock carving (straight lines, diamond shaped serifs, accentuated contrast). It was the dominant style used for woodblock printing, which was the main technique used for Chinese printing since the Song dynasty (960–1279) all the way until the Ming dynasty (1368–1644). As it’s the style used for the biggest part of Chinese typography history, it’s the most familiar and popular one for texts, even today. 
+Songti style typefaces have design features made to fit woodblock carving, like straight lines, diamond shaped serifs, and accentuated contrast. Songti was the dominant style used for woodblock printing, which was the main technique used for Chinese printing from the Song dynasty (960–1279) all the way until the Ming dynasty (1368–1644). As it’s the style used for the biggest part of Chinese typography history, it’s the most familiar and popular one for texts, even today. 
 
 <figure>
 
@@ -34,11 +34,11 @@ Songti style typefaces have design features made to fit woodblock carving (strai
 
 ### FangSongti (仿宋体)
 
-FangSongti means “pseudo-Songti.” It’s a style derived from Songti, but with slightly more movement than its precursor (subtle slant of horizontal strokes, sharper serifs and endings, stiffer curves), and is most often suited to classical editorial usage as of the last couple of decades.
+FangSongti means “pseudo-Songti.” It’s a style derived from Songti, but with slightly more movement than its precursor (with a subtle slant of horizontal strokes, sharper serifs and endings, and stiffer curves). It's most often suited to classical editorial usage as of the last couple of decades.
 
 <figure>
 
-![Sample of FangSongti style Chinese typeface - STFangsong (Mac OS)](images/D_fangsongti.svg)
+![Sample of FangSongti style Chinese typeface STFangsong (Mac OS)](images/D_fangsongti.svg)
 
 </figure>
 
@@ -48,11 +48,11 @@ With 黑 [hei] meaning “black” or “dark” and 体 [ti] meaning “style,�
 
 <figure>
 
-![Sample of Heiti style Chinese typeface - Noto Sans CJK (GF)](images/E_heiti.svg)
+![Sample of Heiti style Chinese typeface Noto Sans CJK (GF)](images/E_heiti.svg)
 
 </figure>
 
-Yuanti (圆体) is a sub-group of Heiti, because even though it is a rounded style (rounded tips and corners), it is the only other style without any serifs.
+Yuanti (圆体) is a sub-group of Heiti because, even though it is a rounded style (rounded tips and corners), it is the only other style without any serifs.
 
 <figure>
 
@@ -62,11 +62,11 @@ Yuanti (圆体) is a sub-group of Heiti, because even though it is a rounded sty
 
 ### Decorative or Artistic (展示体, 美术体)
 
-This category can be related as “Display” or “Titling” styles in Latin, with all kinds of playfulness, personality, and quirkiness allowed by the versatility of Chinese characters (remember that this is an organic writing system first!).
+This category can be compared to “Display” or “Titling” styles in Latin, with all kinds of playfulness, personality, and quirkiness allowed by the versatility of Chinese characters (remember that this is an organic writing system first!).
 
 <figure>
 
-![Sample of Decorative style Chinese typefaces - ZCOOL QingKe HuangYou, ZCOOL KuaiLe (GF)](images/G_decorative_artistic.svg)
+![Sample of Decorative style Chinese typefaces ZCOOL QingKe HuangYou and ZCOOL KuaiLe (GF)](images/G_decorative_artistic.svg)
 
 </figure>
 

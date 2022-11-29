@@ -15,7 +15,7 @@ Because physical blocks were used, there wasn’t much room for manipulation of 
 
 ### So what’s the big deal?
 
-What all of this means in practice is a lot of discrepancies between different fonts. The one rule nearly all fonts (in [Latin](/glossary/latin) type) follow is to have every [glyph](/glossary/glyph) sitting on the ‘[baseline](/glossary/baseline).’ There are no rules about where the [cap-height](/glossary/cap_height), [x-height](/glossary/x_height) or [descenders](/glossary/ascenders_descenders) should be drawn in relation to the line-height, so you get inconsistencies that make vertical alignment tricky. This vertical alignment is necessary to create consistent, scalable designs, but aligning type perfectly can be time-consuming, especially when mixing typefaces.
+What all of this means in practice is there are a lot of discrepancies between different fonts. The one rule nearly all fonts (in [Latin](/glossary/latin) type) follow is to have every [glyph](/glossary/glyph) sitting on the "[baseline](/glossary/baseline)." There are no rules about where the [cap-height](/glossary/cap_height), [x-height](/glossary/x_height) or [descenders](/glossary/ascenders_descenders) should be drawn in relation to the line-height, so you get inconsistencies that make vertical alignment tricky. This vertical alignment is necessary to create consistent, scalable designs, but aligning type perfectly can be time-consuming, especially when mixing typefaces.
 
 <figure>
 
@@ -35,7 +35,7 @@ To complicate matters further, different digital platforms render text in differ
 </figure>
 <figcaption>The web renders text with half-leading above and below the 100% line-height for a font.</figcaption>
 
-iOS platforms followed suit with same method, and neither the web nor iOS have changed the way they render text to this day. Android devices, however, mostly render a paragraph clipped to the default line-height for the first and last line. Total line-height will still be respected via the `lineSpacingMultiplier` property, so every line of text still has the correct spacing from baseline to baseline.
+iOS platforms followed suit with the same method and neither the web nor iOS have changed the way they render text to this day. Android devices, however, mostly render a paragraph clipped to the default line-height for the first and last line. Total line-height will still be respected via the `lineSpacingMultiplier` property, so every line of text still has the correct spacing from baseline to baseline.
 
 <figure>
 
@@ -53,7 +53,7 @@ Within common design tools such as Sketch or Figma, text will be rendered in the
 
 ### Manual spacing
 
-To ensure consistent design across your applications, the most common method would be to just space everything manually. You can look into all of your components and designs, and ensure that any text node is spaced to the exact pixel. It removes all the guesswork out of the equation, but becomes a very manual process. Misaligning spacing becomes inevitable with all the work needed, and there is no way to truly systemise your process. Finally, it becomes particularly tricky when you need to update your typeface to a new one, and you have to go through the whole process again.
+To ensure consistent design across your applications, the most common method would be to just space everything manually. You can look into all of your components and designs, and ensure that any text node is spaced to the exact pixel. It removes all the guesswork out of the equation, but becomes a very tedious process. Misaligning spacing becomes inevitable with all the work needed, and there is no way to truly systemize your process. Finally, it becomes particularly tricky when you need to update your typeface to a new one and have to go through the whole process again.
 
 <figure>
 
@@ -64,7 +64,7 @@ To ensure consistent design across your applications, the most common method wou
 
 ### Equally spaced font files
 
-One way to combat a lot of the issues with vertical spacing is to ensure you choose a typeface that has equal spacing above and below the [characters](/glossary/character). A lot of fonts won’t be spaced centrally within their default line height, and the larger the font size, the more this becomes obvious. Choosing one that is exactly centered within its default line height means that no matter the line height, it will always be centered, making it much easier to create a vertical [rhythm](/glossary/rhythm) within your text.
+One way to combat a lot of the issues with vertical spacing is to ensure you choose a typeface that has equal spacing above and below the [characters](/glossary/character). A lot of fonts won’t be spaced centrally within their default line height. And the larger the font size, the more this becomes obvious. Choosing one that is exactly centered within its default line height means it will always be centered, no matter the line height. This makes it much easier to create a vertical [rhythm](/glossary/rhythm) within your text.
 
 Choosing such a font can be difficult, but luckily most design tools will show the bounding box of any text layer. Some fonts are obviously misaligned from the start, but others will need a little more investigation. Simply reduce the line-height of any text layer bit by bit until the bounding box matches your [glyph](/glossary/glyph) height. A general rule of thumb for a vertically centered font is to align to the cap-height and baseline. This will ensure your text looks centered to other elements within your designs. Read more about the idea of “equal” metrics in [this twitter thread by Roman Shamin](https://twitter.com/romanshamin_en/status/1562801657691672576).
 
@@ -86,7 +86,7 @@ There are two main benefits to choosing a font like this: first, centering the t
 
 ### Upcoming CSS feature, leading-trim
 
-For the web, a CSS feature called [leading-trim](https://www.w3.org/TR/css-inline-3/#propdef-leading-trim) is currently in proposal that actually trims a text node to pre-defined properties. You can choose from cap-height, x-height, baseline, [descender](/glossary/ascenders_descenders), or default line-height to clip the top and bottom of the node to these values, much like you can on Android. This will help ensure consistent spacing and even introduce the ability for better baseline alignment within the web. For more information, please read [“Leading-Trim: The Future of Digital Typesetting”](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202) by Ethan Wang.
+For the web, a CSS feature called [leading-trim](https://www.w3.org/TR/css-inline-3/#propdef-leading-trim) is currently in proposal that actually trims a text node to pre-defined properties. You'll be able to choose from cap-height, x-height, baseline, [descender](/glossary/ascenders_descenders), or default line-height to clip the top and bottom of the node to these values, much like you can on Android. This will help ensure consistent spacing and even introduce the ability for better baseline alignment within the web. For more information, please read [“Leading-Trim: The Future of Digital Typesetting”](https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202) by Ethan Wang.
 
 <figure>
 

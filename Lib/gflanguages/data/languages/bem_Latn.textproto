@@ -6,8 +6,8 @@ autonym: "Chibemba"
 population: 5402246
 region: "ZM"
 exemplar_chars {
-  base: "a b c e f g i j k l m n o p s {sh} t u w y"
-  auxiliary: "d h q r v x z"
+  base: "a A b B c C e E f F g G i I j J k K l L m M n N o O p P s S {sh} {SH} t T u U w W y Y"
+  auxiliary: "d D h H q Q r R v V x X z Z"
   index: "A B C E F G I J K L M N O P S {SH} T U W Y"
 }
 sample_text {

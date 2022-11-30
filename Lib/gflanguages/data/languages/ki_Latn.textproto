@@ -6,8 +6,8 @@ autonym: "Gĩgĩkũyũ"
 population: 9099743
 region: "KE"
 exemplar_chars {
-  base: "a b c d e g h i ĩ j k m n o r t u ũ w y"
-  auxiliary: "f l p q s v x z"
+  base: "a A b B c C d D e E g G h H i I ĩ Ĩ j J k K m M n N o O r R t T u U ũ Ũ w W y Y"
+  auxiliary: "f F l L p P q Q s S v V x X z Z"
   marks: "◌̃"
   index: "A B C D E G H I J K M N O R T U W Y"
 }

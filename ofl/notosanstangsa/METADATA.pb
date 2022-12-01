@@ -15,6 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "tangsa"
 axes {
   tag: "wght"
   min_value: 400.0
@@ -25,3 +26,4 @@ source {
   archive_url: "https://github.com/notofonts/tangsa/releases/download/NotoSansTangsa-v1.504/NotoSansTangsa-v1.504.zip"
 }
 is_noto: true
+languages: "nst_Tnsa"  # Tangsa

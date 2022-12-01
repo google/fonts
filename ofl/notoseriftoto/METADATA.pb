@@ -15,6 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "toto"
 axes {
   tag: "wght"
   min_value: 400.0
@@ -25,3 +26,4 @@ source {
   archive_url: "https://github.com/notofonts/toto/releases/download/NotoSerifToto-v2.001/NotoSerifToto-v2.001.zip"
 }
 is_noto: true
+languages: "txo_Toto"  # Toto

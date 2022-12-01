@@ -32,6 +32,6 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/vv-monsalve/Sofia-Sans"
-  commit: "8cbfd2d7b5bd03c78e3c3045a2e426687f941cc6"
+  repository_url: "https://github.com/lettersoup/Sofia-Sans"
+  commit: "38ac1a6201f60638038ffcf169bc4d7659667004"
 }

@@ -15,6 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "signwriting"
 source {
   repository_url: "https://github.com/notofonts/sign-writing.git"
   archive_url: "https://github.com/notofonts/sign-writing/releases/download/NotoSansSignWriting-v2.004/NotoSansSignWriting-v2.004.zip"

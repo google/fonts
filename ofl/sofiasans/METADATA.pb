@@ -2,7 +2,7 @@ name: "Sofia Sans"
 designer: "Lettersoup, Botio Nikoltchev, Ani Petrova"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2021-01-13"
+date_added: "2022-11-17"
 fonts {
   name: "Sofia Sans"
   style: "normal"

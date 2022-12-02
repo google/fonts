@@ -24,6 +24,7 @@ is_noto: true
 sample_text {
   masthead_full: "𝡝𝪩𝡝𝪡𝤅"
   masthead_partial: "𝧿𝨔"
+  styles: "𝧿𝨊𝡝𝪜𝦦𝪬𝡝𝪩𝡝𝪡𝤅"
   tester: "𝧿𝨊𝡝𝪜𝦦𝪬𝡝𝪩𝡝𝪡𝤅"
   poster_sm: "𝧿𝨊𝡝𝪜𝦦𝪬𝡝𝪩𝡝𝪡𝤅"
   poster_md: "𝡝𝪜𝦦𝪬"

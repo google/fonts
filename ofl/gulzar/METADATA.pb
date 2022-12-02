@@ -21,3 +21,4 @@ source {
   repository_url: "https://github.com/simoncozens/Gulzar"
   commit: "7f736710573840523e68ea977843f7af7239632b"
 }
+minisite_url: "https://gulzarfont.org"

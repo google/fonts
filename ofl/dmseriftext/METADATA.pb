@@ -1,5 +1,5 @@
 name: "DM Serif Text"
-designer: "Colophon Foundry, Frank Grießhammer"
+designer: "Colophon Foundry"
 license: "OFL"
 category: "SERIF"
 date_added: "2019-06-12"

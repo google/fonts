@@ -26,6 +26,10 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+registry_default_overrides {
+  key: "YOPQ"
+  value: 300
+}
 source {
   repository_url: "https://github.com/xconsau/KumbhSans"
   commit: "07b9138758d865763846adab4ee02a3c45a30daa"

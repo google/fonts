@@ -24,4 +24,3 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-minisite_url: "https://arapey.xyz"

@@ -144,11 +144,10 @@ The best solution for choosing a readable typeface will always be dependent on w
 
 You might find these sources valuable for more information on readability and accessibility:
 
-* Web Usability [https://www.nngroup.com/articles/how-users-read-on-the-web/](https://www.nngroup.com/articles/how-users-read-on-the-web/) (1997)
-* Glanceable fonts  [https://www.nngroup.com/articles/glanceable-fonts/](https://www.nngroup.com/articles/glanceable-fonts/) (2017)
-* Interlude reading [https://www.bendsawyer.com/project/towards-individuated-reading-experiences/](https://www.bendsawyer.com/project/towards-individuated-reading-experiences/) (2022)
-* Handwriting in education around the world: [https://www.type-together.com/new-research-handwritting](https://www.type-together.com/new-research-handwritting)
-* Experiencing crowding: [https://www.sciencedirect.com/science/article/pii/S0042698907005561](https://www.sciencedirect.com/science/article/pii/S0042698907005561) 
-* Accessibility considerations 
-* Individualising reading formats research provided by The Readability Consortium  [https://www.thereadabilityconsortium.org/research](https://www.thereadabilityconsortium.org/research) 
+* [Web Usability](https://www.nngroup.com/articles/how-users-read-on-the-web/)
+* [Glanceable fonts](https://www.nngroup.com/articles/glanceable-fonts/)
+* [Interlude reading](https://www.bendsawyer.com/project/towards-individuated-reading-experiences/)
+* [Handwriting in education around the world](https://www.type-together.com/new-research-handwritting)
+* [Experiencing crowding](https://www.sciencedirect.com/science/article/pii/S0042698907005561) 
+* [Individualising reading formats research provided by The Readability Consortium](https://www.thereadabilityconsortium.org/research) 
 * The Science of Reading Progresses: Communicating Advances Beyond the Simple View of Reading.  Duke, N.K., and Cartwright, K.B. (2021). The Science of Reading Progresses: Communicating Advances Beyond the Simple View of Reading. Reading Research Quarterly 56(S1), S25– S44. [https://doi.org/10.1002/rrq.411](https://doi.org/10.1002/rrq.411)

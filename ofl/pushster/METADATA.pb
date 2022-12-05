@@ -10,7 +10,7 @@ fonts {
   filename: "Pushster-Regular.ttf"
   post_script_name: "Pushster-Regular"
   full_name: "Pushster Regular"
-  copyright: "Copyright 2010 abcd The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font), with Reserved Font Name \"Lobster\".4"
+  copyright: "Copyright 2010 abc The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font), with Reserved Font Name \"Lobster\".4"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -19,3 +19,4 @@ minisite_url: "https://fonts.google.com/icons"
 primary_script: "Thai"
 languages: "en_Latn"  # English
 languages: "eo_Latn"  # Esperanto
+primary_language: "eo_Latn"  # Esperanto

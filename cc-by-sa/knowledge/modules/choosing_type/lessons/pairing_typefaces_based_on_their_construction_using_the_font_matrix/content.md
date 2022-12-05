@@ -10,7 +10,7 @@ Before we dive into this different way of describing type, let’s see what’s 
 
 <figure>
 
-![The word “Ragstone“ shown in three different sans serif typefaces.](images/all-sans serif.svg)
+![The word “Ragstone“ shown in three different sans serif typefaces.](images/all-sans-serif.svg)
 
 </figure>
 <figcaption>These are all sans serif typefaces (Source Sans Pro, Helvetica, Outfit). Same genre, but they leave a quite different impression.</figcaption>
@@ -60,7 +60,7 @@ It’s easier to distinguish the form models with [contrast](/glossary/contrast)
 
 <figure>
 
-![A double-storey lower case “a” displayed in three different form models in a sans serif typeface. The dynamic form model has an open aperture. In the rational form model the aperture is closed. The geometric single-storey lowercase "a" appears constructed with a circular shape.](images/form-model-sans serif.svg)
+![A double-storey lower case “a” displayed in three different form models in a sans serif typeface. The dynamic form model has an open aperture. In the rational form model the aperture is closed. The geometric single-storey lowercase "a" appears constructed with a circular shape.](images/form-model-sans-serif.svg)
 
 </figure>
 <figcaption>The three different form models shown with sans serif typefaces.</figcaption>
@@ -98,7 +98,7 @@ Now, knowing about these underlying form models should make it easier for you to
 
 <figure>
 
-![The word “Ragstone“ shown in three different sans serif typefaces next to each other in the first line, and three different serif typefaces in the second line. They are arranged in three columns labeled dynamic, rational and geometric.](images/all-serif-all-sans serif--with-form-models.svg)
+![The word “Ragstone“ shown in three different sans serif typefaces next to each other in the first line, and three different serif typefaces in the second line. They are arranged in three columns labeled dynamic, rational and geometric.](images/all-serif-all-sans-serif--with-form-models.svg)
 
 </figure>
 <figcaption>Knowing about the different form models makes it easier to describe and distinguish the typefaces from before.</figcaption>

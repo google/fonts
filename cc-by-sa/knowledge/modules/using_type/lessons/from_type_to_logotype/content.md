@@ -282,7 +282,7 @@ The fun here, of course, is to look at potential use cases, and imagine how the 
 
 <figure>
 
-![ The vertical “LUNA” logo on a white safety helmet.](images/31_gear.jpg)
+![The vertical “LUNA” logo on a white safety helmet.](images/31_gear.jpg)
 
 </figure>
 

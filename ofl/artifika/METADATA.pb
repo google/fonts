@@ -10,7 +10,11 @@ fonts {
   filename: "Artifika-Regular.ttf"
   post_script_name: "Artifika-Regular"
   full_name: "Artifika Regular"
-  copyright: "Copyright (c) 2011 by Yulya Zhdanova | Cyreal. All rights reserved."
+  copyright: "Copyright 2010 The Artifika Project Authors (https://github.com/cyrealtype/Artifika)"
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/cyrealtype/Artifika"
+  commit: "50137a4bf13c4918f78d4b566d14ae3dde703456"
+}

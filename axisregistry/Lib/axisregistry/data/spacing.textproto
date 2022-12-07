@@ -1,0 +1,16 @@
+# SPAC based on https://github.com/gferreira/roboto-flex-spac
+tag: "SPAC"
+display_name: "Spacing"
+min_value: -100.0
+default_value: 0.0
+max_value: 100.0
+precision: -1
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Adjusts the overall letter spacing of a font. "
+  "The range is a relative percentage change from "
+  "the family’s default spacing, so the default value is 0."

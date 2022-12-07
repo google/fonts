@@ -234,14 +234,17 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     for axis, fallback in fallbacks_in_siblings:
         if axis in seen_axes:
             continue
-        value = 0.0
+        elided_value = axis_registry[axis].default_value
+        elided_fallback = axis_registry.fallback_for_value(axis, elided_value)
         a = {
             "tag": axis,
             "name": axis_registry[axis].display_name,
-            "values": [{"name": "Normal", "value": value, "flags": 0x2}],
+            "values": [
+                {"name": elided_fallback.name, "value": elided_value, "flags": 0x2}
+            ],
         }
-        if axis in LINKED_VALUES and value in LINKED_VALUES[axis]:
-            a["values"][0]["linkedValue"] = LINKED_VALUES[axis][value]
+        if axis in LINKED_VALUES and elided_value in LINKED_VALUES[axis]:
+            a["values"][0]["linkedValue"] = LINKED_VALUES[axis][elided_value]
         res.append(a)
     buildStatTable(ttFont, res, macNames=False)
 

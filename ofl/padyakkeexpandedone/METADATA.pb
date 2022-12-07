@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/DunwichType/Padyakke_Libre"
   commit: "6b18f969591fb9d4767478137061cdd5b727a6b4"
 }
+primary_script: "Knda"

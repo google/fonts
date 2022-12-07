@@ -1,4 +1,4 @@
-#Rotation in Y, based on https://github.com/andyclymer/Tilt-Typeface
+# Rotation in Y, based on https://github.com/googlefonts/Tilt-Fonts
 tag: "YROT"
 display_name: "Rotation in Y"
 min_value: -180
@@ -11,5 +11,5 @@ fallback {
 }
 fallback_only: false
 description:
-  "Letters rotate around the Y axis."
-
+  "Letters rotate up and down, negative values tilt down"
+  " and positive values tilt up, in the Y dimension."

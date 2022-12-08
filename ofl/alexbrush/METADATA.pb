@@ -16,3 +16,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/alex-brush"
+  commit: "1a50bd10383f6c5416f5b4806a9368fd2009ea8c"
+}

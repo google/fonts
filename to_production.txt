@@ -2,16 +2,28 @@
 ofl/chivomono # https://github.com/google/fonts/pull/5349
 ofl/hankengrotesk # https://github.com/google/fonts/pull/5527
 ofl/martianmono # https://github.com/google/fonts/pull/5624
+ofl/notosansnko # https://github.com/google/fonts/pull/5608
+ofl/notosanssignwriting # https://github.com/google/fonts/pull/5221
+ofl/notosanstangsa # https://github.com/google/fonts/pull/5220
 ofl/notoserifnphmong # https://github.com/google/fonts/pull/5609
+ofl/notoseriftoto # https://github.com/google/fonts/pull/5194
 ofl/rubik80sfade # https://github.com/google/fonts/pull/5612
 ofl/rubikgemstones # https://github.com/google/fonts/pull/5611
 ofl/rubikspraypaint # https://github.com/google/fonts/pull/5613
 ofl/rubikstorm # https://github.com/google/fonts/pull/5615
 ofl/rubikvinyl # https://github.com/google/fonts/pull/5614
+ofl/sofiasans # https://github.com/google/fonts/pull/5580
+ofl/sofiasanscondensed # https://github.com/google/fonts/pull/5577
+ofl/sofiasansextracondensed # https://github.com/google/fonts/pull/5578
+ofl/sofiasanssemicondensed # https://github.com/google/fonts/pull/5579
+ofl/tiltneon # https://github.com/google/fonts/pull/5650
+ofl/tiltprism # https://github.com/google/fonts/pull/5651
+ofl/tiltwarp # https://github.com/google/fonts/pull/5652
 ofl/unbounded # https://github.com/google/fonts/pull/5519
 
 # Upgrade
 ofl/abyssinicasil # https://github.com/google/fonts/pull/5622
+ofl/adventpro # https://github.com/google/fonts/pull/5522
 ofl/archivonarrow # https://github.com/google/fonts/pull/5559
 ofl/calistoga # https://github.com/google/fonts/pull/5502
 ofl/frankruhllibre # https://github.com/google/fonts/pull/5528
@@ -50,10 +62,26 @@ ofl/bitter # https://github.com/google/fonts/pull/5555
 ofl/blaka # https://github.com/google/fonts/pull/5593
 ofl/blakahollow # https://github.com/google/fonts/pull/5593
 ofl/cambo # https://github.com/google/fonts/pull/5450
+ofl/dmserifdisplay # https://github.com/google/fonts/pull/5660
+ofl/dmseriftext # https://github.com/google/fonts/pull/5661
 ofl/elmessiri # https://github.com/google/fonts/pull/5593
+ofl/fraunces # https://github.com/google/fonts/pull/5570
 ofl/gochihand # https://github.com/google/fonts/pull/5450
+ofl/gulzar # https://github.com/google/fonts/pull/5570
+ofl/hankengrotesk # https://github.com/google/fonts/pull/5663
 ofl/lemonada # https://github.com/google/fonts/pull/5593
 ofl/mada # https://github.com/google/fonts/pull/5593
 ofl/piazzolla # https://github.com/google/fonts/pull/5450
 ofl/qahiri # https://github.com/google/fonts/pull/5593
+ofl/recursive # https://github.com/google/fonts/pull/5570
+ofl/spacegrotesk # https://github.com/google/fonts/pull/5570
 ofl/telex # https://github.com/google/fonts/pull/5450
+
+# Sample texts
+lang/languages/bug_Latn.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/ccp_Beng.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/ku_Cyrl.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/shi_Arab.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/shi_Tfng.textproto # https://github.com/google/fonts/pull/5557
+lang/languages/tk_Arab.textproto # https://github.com/google/fonts/pull/5557
+lang/scripts/Chrs.textproto # https://github.com/google/fonts/pull/5557

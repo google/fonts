@@ -36,5 +36,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/rsms/inter-gf-tight"
-  commit: "ced22577412a18bd28ad410f56bde27f208be4b0"
+  commit: "c194f94c60b569b47876811321f5ef1f0c2614a2"
 }

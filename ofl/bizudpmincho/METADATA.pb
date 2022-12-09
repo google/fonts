@@ -21,8 +21,6 @@ fonts {
   full_name: "BIZ UDPMincho Bold"
   copyright: "Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)"
 }
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek-ext"
 subsets: "japanese"

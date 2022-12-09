@@ -7,9 +7,6 @@ ofl/sofiasans # https://github.com/google/fonts/pull/5580
 ofl/sofiasanscondensed # https://github.com/google/fonts/pull/5577
 ofl/sofiasansextracondensed # https://github.com/google/fonts/pull/5578
 ofl/sofiasanssemicondensed # https://github.com/google/fonts/pull/5579
-ofl/tiltneon # https://github.com/google/fonts/pull/5650
-ofl/tiltprism # https://github.com/google/fonts/pull/5651
-ofl/tiltwarp # https://github.com/google/fonts/pull/5652
 
 # Upgrade
 ofl/adventpro # https://github.com/google/fonts/pull/5522
@@ -31,3 +28,8 @@ lang/languages/shi_Arab.textproto # https://github.com/google/fonts/pull/5557
 lang/languages/shi_Tfng.textproto # https://github.com/google/fonts/pull/5557
 lang/languages/tk_Arab.textproto # https://github.com/google/fonts/pull/5557
 lang/scripts/Chrs.textproto # https://github.com/google/fonts/pull/5557
+
+# Hold for decision on scheduled release
+# ofl/tiltneon # https://github.com/google/fonts/pull/5650
+# ofl/tiltprism # https://github.com/google/fonts/pull/5651
+# ofl/tiltwarp # https://github.com/google/fonts/pull/5652

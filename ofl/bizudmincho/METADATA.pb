@@ -12,6 +12,17 @@ fonts {
   full_name: "BIZ UDMincho"
   copyright: "Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)"
 }
+fonts {
+  name: "BIZ UDMincho"
+  style: "normal"
+  weight: 700
+  filename: "BIZUDMincho-Bold.ttf"
+  post_script_name: "BIZUDMincho-Bold"
+  full_name: "BIZ UDMincho Bold"
+  copyright: "Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)"
+}
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek-ext"
 subsets: "japanese"
@@ -19,7 +30,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/googlefonts/morisawa-biz-ud-mincho"
-  commit: "7a76a4cc15a6d30b55aa6cdcb279e092796d756a"
+  repository_url: "https://github.com/googlefonts/morisawa-biz-ud-mincho.git"
+  commit: "c30a6221b1f3d09afae9137ffe73c7cbec649947"
 }
 primary_script: "Jpan"

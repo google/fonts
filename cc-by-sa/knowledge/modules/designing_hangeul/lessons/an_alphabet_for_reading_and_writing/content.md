@@ -63,7 +63,7 @@ Specifically, he designed Hangeul so that the most frequent vowel sounds are pro
 </figure>
 <figcaption>Three high-frequency Korean vowels constructed from vertical lines are contrasted with three low-frequency vowels constructed from horizontal lines.</figcaption>
 
-According to some scholars (e.g., Lee, q997), because it’s easier to move our fingers vertically than horizontally (whether using a brush or other similar instrument), less effort is required when producing vertical versus horizontal strokes.
+According to some scholars (e.g., Lee, 1997), because it’s easier to move our fingers vertically than horizontally (whether using a brush or other similar instrument), less effort is required when producing vertical versus horizontal strokes.
 
 By reserving easier strokes for the most frequent vowels, King Sejong found a thoughtful way of addressing the needs of the writer.
 

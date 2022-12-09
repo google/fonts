@@ -1,9 +1,9 @@
 This python module provides an API with data about languages/regions/scripts for use in the language-support categorization of the font families in the Google Fonts collection.
 
 You can also directly access the raw **textproto** files on the `Lib/gflanguages/data` directory:
-* [`languages`](https://github.com/felipesanches/gflanguages/tree/main/Lib/gflanguages/data/languages)
-* [`regions`](https://github.com/felipesanches/gflanguages/tree/main/Lib/gflanguages/data/regions)
-* [`scripts`](https://github.com/felipesanches/gflanguages/tree/main/Lib/gflanguages/data/scripts)
+* [`languages`](https://github.com/googlefonts/lang/tree/main/Lib/gflanguages/data/languages)
+* [`regions`](https://github.com/googlefonts/lang/tree/main/Lib/gflanguages/data/regions)
+* [`scripts`](https://github.com/googlefonts/lang/tree/main/Lib/gflanguages/data/scripts)
 
 Most of the code in this project was copied from the `gftools` repository (https://github.com/googlefonts/gftools/) so that language/region/script data can be easily available to all our tools without having to also get the large dependency tree of `gftools`. The most immediate user of this module is `Font Bakery`, which needs to validate language support on font binaries being checked. (see https://github.com/googlefonts/fontbakery/issues/3605)
 

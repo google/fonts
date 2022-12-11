@@ -13,4 +13,4 @@ Language/region/script definitions and the `gflanguages` modules are used as a s
 
 This module is the main place to update these definitions, avoiding data duplication and guaranteeing uniformity across tools.
 
-To learn more about how *lang* metadata affects downstream, see [gf-guide/lang](https://github.com/googlefonts/googlefonts.github.io/blob/main/gf-guide/lang.md).
+To learn more about how *lang* metadata affects downstream, see [gf-guide/lang](https://googlefonts.github.io/gf-guide/lang).

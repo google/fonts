@@ -12,3 +12,5 @@ The second obvious user of this `gflanguages` module is `gftools` itself.
 Language/region/script definitions and the `gflanguages` modules are used as a subtree in the `google/fonts` repo, on its **lang/** directory (https://github.com/google/fonts/tree/main/lang).
 
 This module is the main place to update these definitions, avoiding data duplication and guaranteeing uniformity across tools.
+
+To learn more about how *lang* metadata affects downstream, see [gf-guide/lang](https://github.com/googlefonts/googlefonts.github.io/blob/main/gf-guide/lang.md).

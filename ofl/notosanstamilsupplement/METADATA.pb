@@ -10,19 +10,16 @@ fonts {
   filename: "NotoSansTamilSupplement-Regular.ttf"
   post_script_name: "NotoSansTamilSupplement-Regular"
   full_name: "Noto Sans Tamil Supplement Regular"
-  copyright: "Copyright 2019 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tamil)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil-supplement"
+source {
+  repository_url: "https://github.com/notofonts/tamil.git"
+  archive_url: "https://github.com/notofonts/tamil/releases/download/NotoSansTamilSupplement-v2.001/NotoSansTamilSupplement-v2.001.zip"
+}
 is_noto: true
 languages: "bfq_Taml"  # Badaga
 languages: "ta_Taml"  # Tamil
-sample_text {
-  masthead_full: "𑿗𑿘𑿚𑿛"
-  masthead_partial: "𑿖𑿛"
-  styles: "𑿕𑿖𑿗𑿘𑿙𑿚𑿛 𑿱𑿪𑿫𑿬𑿭𑿮𑿯 𑿰𑿣𑿤𑿥𑿦𑿧𑿨 𑿩𑿜𑿝𑿞𑿟𑿠𑿡"
-  tester: "𑿕𑿖𑿗𑿘𑿙𑿚𑿛 𑿱𑿪𑿫𑿬𑿭𑿮𑿯 𑿰𑿣𑿤𑿥𑿦𑿧𑿨 𑿩𑿜𑿝𑿞𑿟𑿠𑿡"
-  poster_sm: "𑿕𑿖𑿗𑿭𑿮𑿯 𑿙𑿚𑿛𑿱𑿪𑿫"
-  poster_md: "𑿕𑿖𑿗𑿘𑿙𑿚𑿛 𑿱𑿪"
-  poster_lg: "𑿗𑿘𑿚𑿛"
-}

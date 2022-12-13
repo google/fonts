@@ -2,8 +2,8 @@
 # contain font binaries.
 
 # Find directories which contain files that have been altered or added. Also
-# Skip /static directories.
-CHANGED_DIRS=$(git diff origin/main --dirstat=files --diff-filter d | sed "s/[0-9. ].*%//g" | grep -v "static")
+# Skip /static, axisregistry, cc-by-sa and lang directories.
+CHANGED_DIRS=$(git diff origin/main --dirstat=files --diff-filter d | sed "s/[0-9. ].*%//g" | grep -v "static\|axisregistry\|cc-by-sa\|lang")
 OUT=out
 
 PR_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/pull/$PR_NUMBER"

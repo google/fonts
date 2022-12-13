@@ -1,5 +1,7 @@
 
-A script is a collective way of describing a writing system used by multiple languages (and shouldn’t be confused with the [“script” classification](/glossary/script_typeface_style) of [typefaces](/glossary/typeface)). For instance, although English, French, German, Norwegian, and Portuguese are distinct languages—with their own alphabets, conventions, and [diacritic](/glossary/diacritic_accent_marks) usage—they all use the [Latin](/glossary/latin) script.
+A script (not to be confused with the [“script” classification](/glossary/script_typeface_style) of [typefaces](/glossary/typeface)) is the visual representation of verbal speech, and when combined with a set of conventions (known as an orthography), represents the main component of a writing system. 
+
+Scripts can be used by one or more languages. For instance, although English, French, German, Norwegian, and Portuguese are distinct languages—with their own alphabets, conventions, and [diacritic](/glossary/diacritic_accent_marks) usage—they all use the [Latin](/glossary/latin) script.
 
 <figure>
 
@@ -9,6 +11,4 @@ A script is a collective way of describing a writing system used by multiple lan
 
 </figure>
 
-Other writing systems include [Greek](/glossary/greek_script) (upon which Latin is based), [Cyrillic](/glossary/cyrillic) (originally based on uppercase Greek forms), Arabic, Korean, Indic scripts from South and South East Asia, Han characters, and the traditional scripts of Africa.
-
-The combination of a script and a set of conventions for a particular language is referred to as an orthography.
+Other scripts systems include [Greek](/glossary/greek_script) (upon which Latin is based), [Cyrillic](/glossary/cyrillic) (originally based on uppercase Greek forms), Arabic, Korean, Indic scripts from South and South East Asia, Han characters, and the traditional scripts of Africa.

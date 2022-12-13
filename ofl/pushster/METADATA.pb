@@ -15,7 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-primary_script: "Thai"
+# primary_script: "Thai"
 languages: "en_Latn"  # English
 languages: "eo_Latn"  # Esperanto
 primary_language: "en_Latn"  # English

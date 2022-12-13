@@ -73,4 +73,4 @@ While the letter designs in every alphabet might be considered arbitrary to some
 
 This attention to the small details of letter design exemplifies King Sejong’s desire to solve problems for the benefit of his intended audience.
 
-In the next article, we’ll take a look at how King Sejong approached the creation of Hangeul with an understanding of different use cases.
+In [the next article](/lesson/an_alphabet_for_reading_and_writing), we’ll take a look at how King Sejong approached the creation of Hangeul with an understanding of different use cases.

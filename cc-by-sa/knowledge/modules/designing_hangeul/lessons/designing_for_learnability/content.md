@@ -79,7 +79,7 @@ Once again, King Sejong’s design decision to emphasize letter distinguishabili
 
 Today, designers understand that presenting people with clear and relevant information is critically important for learnability and usability. In many respects, King Sejong was remarkably ahead of his time in creating Hangeul with this principle in mind.
 
-In the next article, we’ll examine several more design features of Hangeul that brilliantly solve problems for the people who use it.
+In [the next article](/lesson/making_the_details_matter), we’ll examine several more design features of Hangeul that brilliantly solve problems for the people who use it.
 
 ### References
 

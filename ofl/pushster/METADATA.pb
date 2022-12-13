@@ -10,7 +10,7 @@ fonts {
   filename: "Pushster-Regular.ttf"
   post_script_name: "Pushster-Regular"
   full_name: "Pushster Regular"
-  copyright: "Copyright 2010 wxyz The L Project Authors"
+  copyright: "Test font xyz."
 }
 subsets: "latin"
 subsets: "latin-ext"

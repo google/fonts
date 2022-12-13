@@ -15,8 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-minisite_url: "https://fonts.google.com/icons"
 primary_script: "Thai"
 languages: "en_Latn"  # English
 languages: "eo_Latn"  # Esperanto
-primary_language: "en_Latn"  # Esperanto
+primary_language: "en_Latn"  # English

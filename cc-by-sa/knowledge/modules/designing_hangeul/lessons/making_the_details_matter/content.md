@@ -10,7 +10,7 @@ Being an alphabet designer is similar in some respects to being a [type designer
 
 But there’s an important distinction.
 
-While type specialists can manipulate letter details and employ stylistic variations to achieve various effects, including improving [legibility](/glossary/legibility) and [readability](/glossary/readability) or evoking [emotive responses](https://fonts.google.com/knowledge/choosing_type/emotive_considerations_for_choosing_typefaces), they still need to preserve the basic forms of individual letters; by comparison, an alphabet designer must, ideally, decide how all the small details to should be combined to *create* a set of usable letters.
+While type specialists can manipulate letter details and employ stylistic variations to achieve various effects, including improving [legibility](/glossary/legibility) and [readability](/glossary/readability) or evoking [emotive responses](https://fonts.google.com/knowledge/choosing_type/emotive_considerations_for_choosing_typefaces), they still need to preserve the basic forms of individual letters; by comparison, an alphabet designer must, ideally, decide how all the small details should be combined to *create* a set of usable letters.
 
 In the case of King Sejong specifically, the challenge at hand was in how to make these details matter.
 

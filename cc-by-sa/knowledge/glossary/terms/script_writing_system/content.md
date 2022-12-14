@@ -1,5 +1,4 @@
-
-A script (not to be confused with the [“script” classification](/glossary/script_typeface_style) of [typefaces](/glossary/typeface)) is the visual representation of verbal speech, and when combined with a set of conventions (known as an orthography), represents the main component of a writing system. 
+A script (not to be confused with the [“script” classification](/glossary/script_typeface_style) of [typefaces](/glossary/typeface)) is a visual representation of verbal speech, and, when combined with a set of usage conventions (known as an orthography), is one of the main components of a writing system.
 
 Scripts can be used by one or more languages. For instance, although English, French, German, Norwegian, and Portuguese are distinct languages—with their own alphabets, conventions, and [diacritic](/glossary/diacritic_accent_marks) usage—they all use the [Latin](/glossary/latin) script.
 

@@ -1,5 +1,5 @@
 name: "Hanken Grotesk"
-designer: "Hanken Design Co., Alfredo Marco Pradil"
+designer: "Alfredo Marco Pradil, Hanken Design Co."
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2022-11-16"

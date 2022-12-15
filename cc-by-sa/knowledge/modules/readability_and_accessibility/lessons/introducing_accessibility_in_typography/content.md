@@ -52,7 +52,7 @@ Many shapes are simply mirrored without any further alteration. Lowercase “b,�
 
 <figure>
 
-![Google Fonts website screenshot with six boxes of glyphs](images/accessibility_3.svg)
+![Google Fonts website screenshot with six boxes of glyphs](images/accessibility_3.png)
 
 </figure>
 <figcaption>Comparison of “b,” ”d,” “q,” “p,” “a,” “8,” “6,” “g,” “a,” “6,” “1,” “I,” and “l” in Roboto, Abyssinica SIL, Intern Tights, Open Sans, Noto Sans Mono, and Noto Sans Japanese.</figcaption>
@@ -149,7 +149,7 @@ When selecting a font on Google Fonts, go to the Type Tester to try out differen
 
 <figure>
 
-![Three text samples in text area, variable axes controls](images/accessibility_8.svg)
+![Three text samples in text area, variable axes controls](images/accessibility_8.png)
 
 </figure>
 <figcaption>Type Tester showing text with variable axes for weight, width, slant and ascender height.</figcaption>

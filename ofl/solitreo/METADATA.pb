@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/ladinoprojects/solitreo.git"
   commit: "9b03239708d7d37e86cb2594cf9360121be0740e"
 }
+primary_script: "Hebr"

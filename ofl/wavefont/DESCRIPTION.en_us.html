@@ -1,1 +1,11 @@
-N/A
+<p>Wavefont is a variable font with a weight and round axis for rendering data: waveforms, spectrums, diagrams, bars etc.</p>
+
+<p>Wavefont bars correspond to values from 0 to 100, assigned to different characters:<br/>
+- 0-9 chars are for simplified manual input with step 10.<br/>
+- a-zA-Z for extended manual input with step 2, softened at edges a and Z.<br/>
+- Unicode range U+0100-016F for 0..100 bottom aligned values (convert as char = String.fromCharCode(0x100 + value)).<br/>
+- Unicode range U+0400-046F for 0..100 center aligned values (convert as char = String.fromCharCode(0x400 + value)).</p>
+
+<p>letter-spacing CSS property with ch units is useful to adjust distance between bars, 1ch === 1 bar width.</p>
+
+<p>To contribute, see <a href="https://github.com/dy/wavefont">github.com/dy/wavefont</a>.</p>

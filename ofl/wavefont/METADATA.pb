@@ -40,3 +40,4 @@ sample_text {
   poster_md: "123456789"
   poster_lg: "ĶĮĦĞĖĐĊĆĂ"
 }
+minisite_url: "https://dy.github.io/wavefont/out/"

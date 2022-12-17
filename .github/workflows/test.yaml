@@ -9,43 +9,55 @@ on:
 
 jobs:
 
-  build:
+  diffbrowsers:
     name: Build Google Fonts
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        python-version: ['3.10']
+        os: [windows-latest, macos-latest, linux-latest] 
     steps:
       - name: Cancel previous
-        uses: styfle/cancel-workflow-action@0.8.0
+        uses: styfle/cancel-workflow-action@0.11.0
         with:
           access_token: ${{ github.token }}
     
       - uses: actions/checkout@v1
-      - name: Setup python
-        uses: actions/setup-python@v1
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4.4.0
         with:
-          # TODO use build matrix?
-          python-version: 3.8
+          python-version: '3.10'
+      - name: Install packages
+        run: |
+          pip install "gftools[qa]@git+https://github.com/googlefonts/gftools@main"
+        shell: bash
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+      - name: Setup Chrome Driver
+        uses: nanasess/setup-chromedriver@master
 
-      - name: Install dependencies
-        # The --pre flag below will ensure we use the latest Font Bakery pre-releases
-        # and benefit from its newest checks:
+      - name: Setup Firefox
+        uses: m4rc1e/setup-firefox@master
+        with:
+          firefox-version: '84.0'
+      - name: Setup Firefox Driver
+        uses: m4rc1e/setup-geckodriver@master
+
+      - name: Run Diffbrowsers
         run: |
-          sudo apt install libharfbuzz-dev libharfbuzz-bin libfreetype6-dev libglib2.0-dev libcairo2-dev
-          python -m pip install --upgrade pip
-          pip install --pre fontbakery
-          pip install gftools[qa] pytest
-          
-      - name: Check fonts
-        env:
-          GF_API_KEY: ${{ secrets.GF_API_KEY }}
-          BSTACK_ACCESS_KEY: ${{ secrets.BSTACK_ACCESS_KEY }}
-          BSTACK_USERNAME: ${{ secrets.BSTACK_USERNAME }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          PR_NUMBER: ${{ github.event.number }}
-        run: |
+          mkdir out
+          python -m youseedee 0x078A
+          chromedriver --url-base=/wd/hub &
           sh .ci/run.sh
+        env:
+          PYTHONIOENCODING: 'utf-8'
+          PYTHONUTF8: '1'
+          SCREENSHOTS: true
+        shell: bash
+
       - name: Check file existence
         id: check_files
-        uses: andstor/file-existence-action@v1
+        uses: andstor/file-existence-action@v2.0.0
         with:
           files: "out"
 
@@ -56,3 +68,48 @@ jobs:
           name: qa
           path: out/
 
+  diffenator:
+    name: Diffenate fonts
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cancel previous
+        uses: styfle/cancel-workflow-action@0.11.0
+        with:
+          access_token: ${{ github.token }}
+    
+      - uses: actions/checkout@v1
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4.4.0
+        with:
+          python-version: '3.10'
+      - name: Install packages
+        run: |
+          pip install --upgrade pip
+          pip install "gftools[qa]@git+https://github.com/googlefonts/gftools@main"
+        shell: bash
+
+      - name: Run Diffenator
+        run: |
+          mkdir out
+          python -m youseedee 0x078A
+          sh .ci/run.sh
+        env:
+          PYTHONIOENCODING: 'utf-8'
+          PYTHONUTF8: '1'
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.number }}
+        shell: bash
+      
+      - name: Check file existence
+        id: check_files
+        uses: andstor/file-existence-action@v2.0.0
+        with:
+          files: "out"
+
+      - name: Upload check results
+        if: steps.check_files.outputs.files_exists == 'true'
+        uses: actions/upload-artifact@v1
+        with:
+          name: qa
+          path: out/

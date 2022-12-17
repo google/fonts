@@ -15,25 +15,29 @@ do
     is_designer_dir=$(echo $dir | grep "designers")
     if [ $font_count != 0 ]
     then
-	echo "Checking $dir"
-	mkdir -p $OUT
-	# If pr contains modified fonts, check with Fontbakery, Diffenator and DiffBrowsers.
-	# If pr doesn't contain modified fonts, just check with Fontbakery.
-	modified_fonts=$(git diff --name-only origin/main HEAD $dir*.ttf)
-	if [ -n "$modified_fonts" ]
-	then
-	    echo "Fonts have been modified. Checking fonts with all tools"
-	    gftools qa -f $dir*.ttf -gfb -a -o $OUT/$(basename $dir)_qa --out-url $PR_URL
-	else
-	    echo "Fonts have not been modified. Checking fonts with Fontbakery only"
-	    gftools qa -f $dir*.ttf --fontbakery -o $OUT/$(basename $dir)_qa --out-url $PR_URL
-	fi
-    elif [ ! -z $is_designer_dir ]
-    then
-        echo "Checking designer profile"
-        pytest .ci/test_profiles.py $dir
-    else
-	echo "Skipping $dir. Directory does not contain fonts"
+		echo "Checking $dir"
+		mkdir -p $OUT
+		# If pr contains modified fonts, check with Fontbakery, Diffenator and DiffBrowsers.
+		# If pr doesn't contain modified fonts, just check with Fontbakery.
+		modified_fonts=$(git diff --name-only origin/main HEAD $dir*.ttf)
+		if [ -n "$modified_fonts" ]
+		then
+			echo "Fonts have been modified. Checking fonts with all tools"
+			if [ "$SCREENSHOTS" = true ]; then
+				gftools qa -f $dir*.ttf -gfb --diffbrowsers --imgs -o $OUT/$(basename $dir)_qa
+			else
+				gftools qa -f $dir*.ttf -gfb --diffenator --fontbakery -o $OUT/$(basename $dir)_qa --out-url $PR_URL
+			fi
+		else
+			echo "Fonts have not been modified. Checking fonts with Fontbakery only"
+				gftools qa -f $dir*.ttf --fontbakery -o $OUT/$(basename $dir)_qa --out-url $PR_URL
+		fi
+		elif [ ! -z $is_designer_dir ]
+		then
+			echo "Checking designer profile"
+			pytest .ci/test_profiles.py $dir
+		else
+			echo "Skipping $dir. Directory does not contain fonts"
     fi
 done
 

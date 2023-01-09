@@ -18,7 +18,7 @@ axisregistry/spacing.textproto # https://github.com/google/fonts/pull/5677
 axisregistry/x_rotation.textproto # https://github.com/google/fonts/pull/5677
 axisregistry/y_rotation.textproto # https://github.com/google/fonts/pull/5677
 
-# Hold for decision on scheduled release
-# ofl/tiltneon # https://github.com/google/fonts/pull/5650
-# ofl/tiltprism # https://github.com/google/fonts/pull/5651
-# ofl/tiltwarp # https://github.com/google/fonts/pull/5652
+# Tilt is rigged for scheduled release
+ofl/tiltneon # https://github.com/google/fonts/pull/5650
+ofl/tiltprism # https://github.com/google/fonts/pull/5651
+ofl/tiltwarp # https://github.com/google/fonts/pull/5652

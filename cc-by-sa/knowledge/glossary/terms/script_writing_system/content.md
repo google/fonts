@@ -10,4 +10,4 @@ Scripts can be used by one or more languages. For instance, although English, Fr
 
 </figure>
 
-Other scripts systems include [Greek](/glossary/greek_script) (upon which Latin is based), [Cyrillic](/glossary/cyrillic) (originally based on uppercase Greek forms), Arabic, Korean, Indic scripts from South and South East Asia, Han characters, and the traditional scripts of Africa.
+Other scripts include [Greek](/glossary/greek_script) (upon which Latin is based), [Cyrillic](/glossary/cyrillic) (originally based on uppercase Greek forms), Arabic, Korean, Indic scripts from South and South East Asia, Han characters, and the traditional scripts of Africa.

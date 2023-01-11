@@ -27,6 +27,6 @@ subsets: "menu"
 subsets: "telugu"
 source {
   repository_url: "https://github.com/TiroTypeworks/Indigo"
-  commit: "98b5d3a01c534b7029af04a59d31e0d7d90be15a"
+  commit: "24f67ca20ca4720eb4302592f2e0f6ec21042a5d"
 }
 primary_script: "Telu"

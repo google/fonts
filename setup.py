@@ -43,8 +43,8 @@ setup(
     ],
     python_requires=">=3.7",
     setup_requires=[
-        'setuptools>=61.2',
-        'setuptools_scm[toml]>=6.2',
+        "setuptools>=61.2",
+        "setuptools_scm[toml]>=6.2",
     ],
     install_requires=["protobuf>=3.19.4, <4", "fonttools"],
 )

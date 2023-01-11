@@ -42,6 +42,9 @@ setup(
         "Programming Language :: Python :: 3",
     ],
     python_requires=">=3.7",
-    setup_requires=["setuptools_scm>=4,<6.1"],
-    install_requires=["protobuf>=3.19.4", "fonttools"],
+    setup_requires=[
+        'setuptools>=61.2',
+        'setuptools_scm[toml]>=6.2',
+    ],
+    install_requires=["protobuf>=3.19.4, <4", "fonttools"],
 )

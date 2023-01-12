@@ -7,41 +7,52 @@ First, let’s make sure we define **legibility** and **readability**. Both are 
 
 <figure>
 
-![Two columns of text, with the left column showing examples of indistinct letter shapes and tight line height that causes clashes, and the right showing better distinguishable shapes (to show legibility) and a more open line height (to show readability).](images/thumbnail.svg)
+![Two columns of text in red and black.](images/thumbnail.svg)
 
 </figure>
-<figcaption>Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.</figcaption>
+<figcaption>Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same absolute value of line-height for 9 lines, but different font-size values.</figcaption>
 
 ## Choosing accessible type
 
-[Accessible typography](https://www.visionaustralia.org/business-consulting/digital-access/blog/typography-in-inclusive-design-part-1#2) considerations start with choosing [type](/glossary/type). There is no single answer for which fonts are most accessible, but there *are* some indications of what could make a typeface more accessible to some people.
+[Accessible typography](https://www.visionaustralia.org/business-consulting/digital-access/blog/typography-in-inclusive-design-part-1#2) considerations start with choosing type. When selecting typefaces, seek out designs that have legibility built in alongside the other attributes you like. There is no single answer about which fonts are most accessible for everyone, but there are some things that can make a typeface more accessible to some people. 
 
-Some popular fonts, such as [Poppins](https://fonts.google.com/specimen/Poppins), have proven to be readable with individuals who have cognitive disabilities. Of course, you can also select a [typeface](/glossary/typeface) that has legibility built into its design, like [Lexend](https://design.google/library/lexend-readability/), or [Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible), for example. 
+The examples in this section are for languages using the Latin writing system. However, the same principles of choosing typefaces where similar shapes in two or more characters are made more different or even unique do apply to other writing systems, especially within character groups like letterforms, numerals, punctuation marks, and symbols. 
 
-(The examples in this section are for languages using the [Latin](/glossary/latin) [writing system](/glossary/script_writing_system). However, the same principles of choosing typefaces with distinct [letterforms](/glossary/letterform) (the unique shape of a letter), [numerals](/glossary/numerals_figures), punctuation marks, and [symbols](/glossary/icon_symbol) should apply to other writing systems.) 
+The type designers who created [Lexend](https://design.google/library/lexend-readability/) and [Atkinson Hyperlegible](https://material.io/blog/atkinson-hyperlegible-design) created these typefaces with specific designs that are intended to be easier to read. Other fonts, such as Poppins, have also become popular with individuals who have visual or cognitive disabilities.
 
+## Checking legibility
+
+[Counters](/glossary/counter), the white space within letters such as “o,” “e,” and “c,” can play a role in legibility. When the counters are open, there is more white space inside the letter and the letters may appear larger. Open counters can make it easier for the reader to differentiate similarly shaped letters, such as the “c” and “e”. 
+
+<figure>
+
+![The letters “c,”, “o,” and “e” in different typefaces, showing the varying counter shapes.](images/accessibility_extra.svg)
+
+</figure>
+<figcaption>Left (in red lines): Lowercase “c,” “o,” and “e” with closed counters. Right (in blue lines): Lowercase “c,” “o,” and “e” with open counters.</figcaption>
 
 ## Checking readability
 
-Mirroring, or flipping, occurs when readers flip or mirror letters and numbers that are the same form when flipped horizontally. For example, a reader could mistake a lowercase letter “b” for a lowercase “d." Instead of reading the word “bog,” the reader will think the word is “dog.” 
+Mirroring or flipping is when readers find it difficult to read a character because it looks like another when flipped or rotated. For example, a reader could mistake a lowercase letter “b” for a lowercase “d” or “6” for “9”. Instead of reading the word “bog,” the reader will think the word is “dog.” 
 
-A different and more pervasive issue among people with dyslexia and other reading difficulties is the transpositioning of letters. For example, a reader may mistake the words “lion” for “loin,” or “line” for “lien.” Transposition is a common experience for people with dyslexia and other reading difficulties, and does not disappear with age. 
+A different and more pervasive challenge among people with dyslexia and other reading difficulties is the transpositioning of letters. For example, the word “loin” may appear as “lion” or the word “lien” may appear as “line.” 
 
-To reduce the chances of a reader confusing letters, words and numbers, check the following character pairs to make sure they are distinct enough from each other: 
+To reduce mirroring and transpositioning, check character pairs like these to make sure they are distinct enough from each other: 
 
 - qp
 - db
 - 0O
 - nu
 - il1I
+- 69
 - a8
 - a6
 - 6g
 - rn, m
 
-When selecting a typeface—especially a [sans serif](/glossary/sans_serif)—it’s useful to assess the similarities or differences between the uppercase “L,” lowercase “l,” and numeral “1” characters because these letters and numbers look very similar. 
+When selecting a typeface—especially a [sans serif](/glossary/sans_serif)—it’s useful to assess the similarities or differences between the uppercase “L,” lowercase “l,” and numeral “1” characters because these letters and numbers all have the same simple structure of a single vertical stem. In addition to structural changes like serifs on the “1” or a tail on the “l”, subtle differences in height or stroke width can also improve legibility. 
 
-Many shapes are simply mirrored without any further alteration. Lowercase “b,” “d,” “p,” and “q” are the most commonly confused letters. Subtle edits to the letterforms may help to differentiate them as the correct characters. 
+Many shapes are simply mirrored without any further alteration. Lowercase “b,” “d,” “p,” and “q” are the most commonly confused letters. Subtle edits to these letterforms help to differentiate them, such as changes to stroke contrast or counter width. Structural changes are even better. 
 
 <figure>
 
@@ -57,7 +68,7 @@ Many shapes are simply mirrored without any further alteration. Lowercase “b,�
 </figure>
 <figcaption>Comparison of “b,” ”d,” “q,” “p,” “a,” “8,” “6,” “g,” “a,” “6,” “1,” “I,” and “l” in Roboto, Abyssinica SIL, Intern Tights, Open Sans, Noto Sans Mono, and Noto Sans Japanese.</figcaption>
  
-Look for letters that can be clearly distinguished. For people with moderate to more severe vision impairment, the characters “o,” ”c,” “e,” or “a” can be easily confused, which in turn makes words harder to identify.
+Look for letters that can be clearly distinguished. For people with moderate to severe vision impairment, the characters “o,” ”c,” “e,” or “a” can be easily confused, which in turn makes words harder to identify.
 
 <figure>
 
@@ -66,9 +77,11 @@ Look for letters that can be clearly distinguished. For people with moderate to 
 </figure>
 <figcaption>From left to right: The typefaces Andika, Lexend, and Atkinson Hyperlegible show how effective they are in differentiating potentially confusing character combinations.</figcaption>
 
-With our typeface(s) chosen, let’s move on to accessibility considerations for typesetting. The first place to start is to look at the structure of our content. For web typography, that means ensuring that the HTML is marked up with the most appropriate elements, headings have the right level (h1, h2, etc.), and that the hierarchy looks as expected with the default styles used by the browser before we dive into any bespoke CSS.
+## Accessible typography beyond typefaces
 
-Semantically structured HTML is not only good general practice, but it also means we’ll be making our content readable by assistive technologies that take advantage of the markup. For example, [screen readers](https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers)—assistive software that allows text to be dictated to users with visual or cognitive impairments, such as Google’s TalkBack on Android, Apple’s VoiceOver on iOS, and Freedom Scientific’s JAWS on desktop—rely on the semantic HTML to give the reader critical information about structure that they cannot see visually. Many text-to-speech tools, such as Microsoft Immersive Reader and Snap & Read, provide visual and audio supports together. These products rely on semantic information for determining how these supports look and sound. These software programs use either a [braille display](https://www.afb.org/node/16207/refreshable-braille-displays) or read text aloud.
+With our typeface(s) chosen, let’s move on to accessibility considerations for typesetting. The first place to start is to look at the structure of our content. For web typography, that means ensuring that the HTML is marked up with the most appropriate elements, such as headings with the right levels (h1, h2, etc.), and that the hierarchy looks as expected with the default styles used by the browser before we dive into any bespoke CSS.
+
+Semantically structured HTML is not only good general practice, but it also means we’ll be making our content readable by assistive technologies that take advantage of the markup. For example, [screen readers](https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers)—assistive software that allows text to be dictated to users with visual or cognitive impairments, such as Google’s TalkBack on Android, Apple’s VoiceOver on iOS, and Freedom Scientific’s JAWS for Microsoft Windows—rely on the semantic HTML to give the reader critical information about structure that they cannot see visually. Many text-to-speech tools, such as Microsoft Immersive Reader and Snap & Read, provide visual and audio support together. These products rely on semantic information for determining how these supports look and sound. These software programs use either a [braille display](https://www.afb.org/node/16207/refreshable-braille-displays) or read text aloud.
 
 The HTML reflects the visual hierarchy by reading the content from the top left (Step 1) to the top right (Step 2), bottom left (Step 3) to bottom right (Step 4).
 
@@ -77,7 +90,7 @@ The HTML reflects the visual hierarchy by reading the content from the top left 
 ![Arrows showing zig-zag direction.](images/accessibility_5.svg)
 
 </figure>
-<figcaption> Example code for displaying the images in a screen reader-friendly hierarchy</figcaption>
+<figcaption> Example code for displaying the images in a screen reader-friendly hierarchy.</figcaption>
 
 ```html
 <section id="instructions">

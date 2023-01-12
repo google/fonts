@@ -23,6 +23,7 @@ fonts {
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
+subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -35,3 +36,4 @@ source {
   repository_url: "https://github.com/lettersoup/Sofia-Sans"
   commit: "185877d082cebb40facd65143326147431863688"
 }
+minisite_url: "https://www.lettersoup.de/sofia-sans/"

@@ -23,15 +23,17 @@ fonts {
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
+subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"
-  min_value: 100.0
-  max_value: 900.0
+  min_value: 1.0
+  max_value: 1000.0
 }
 source {
   repository_url: "https://github.com/lettersoup/Sofia-Sans"
-  commit: "38ac1a6201f60638038ffcf169bc4d7659667004"
+  commit: "185877d082cebb40facd65143326147431863688"
 }
+minisite_url: "https://www.lettersoup.de/sofia-sans/"

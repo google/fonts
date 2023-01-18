@@ -1,16 +1,18 @@
-# AxisRegistry Python Module
+# Google Fonts Axis Registry
 
-This repository contains a python package providing easy access to the GF Axis Registry. Data was copied (and is kept is sync with) its original location at the `axisregistry` directory on the [`google/fonts`](https://github.com/google/fonts) git repo.
+This repository is the official Google Fonts **Axis Registry.**
 
-As of March 4th, 2022, there's an ongoing plan to soon make this module the central place for updates on the data-set.
+It is structured as a Python package/module, providing easy access to the registry data-set from Python programs.
 
-## GF Axis Registry
+This data-set is synced into the `axisregistry` directory of the central [github.com/google/fonts](https://github.com/google/fonts) git repo, through which all Google Fonts assets are onboarded.
 
-This package contains a collection of metadata source files that collectively form the Google Fonts Axis Registry.
+## The AxisRegistry Python Module
 
-The live Axis Registry is at [fonts.google.com/variablefonts](https://fonts.google.com/variablefonts), and axis definitions are only final when they appear on that page.
+This Python package contains a collection of metadata source files that collectively form the Google Fonts Axis Registry.
 
-When the registry is updated here, a line like `axisregistry/axis_name.textproto` should be added to the `to_sandbox.txt` file.
+The live Axis Registry within the actual Gogole Fonts product is surfaced at [fonts.google.com/variablefonts#axis-definitions](https://fonts.google.com/variablefonts#axis-definitions), and axis definitions are only final when they appear on that page.
+
+When the registry is updated here, a line like `axisregistry/axis_name.textproto` should be added to the `to_sandbox.txt` file of the central repo.
 
 ## Axis Metadata Fields
 
@@ -46,5 +48,5 @@ Axes present in a font file but not in this registry will not function via our A
 No variable font is expected to support all of the axes here.
 
 Any font foundry or distributor library that offers variable fonts has a implicit, latent, de-facto axis registry, which can be extracted by scanning the library for axes' tags, labels, and min/def/max values.
-While in 2016 Microsoft originally offered to include more axes in the OpenType 1.8 specification ([github.com/microsoft/OpenTypeDesignVariationAxisTags](https://github.com/microsoft/OpenTypeDesignVariationAxisTags)), as of August 2020, this effort has stalled.
+While in 2016 Microsoft originally offered to include more axes in the OpenType 1.8 specification ([github.com/microsoft/OpenTypeDesignVariationAxisTags](https://github.com/microsoft/OpenTypeDesignVariationAxisTags)), by August 2020 this effort had stalled.
 We hope more foundries and distributors will publish documents like this that make their axes explicit, to encourage of adoption of variable fonts throughout the industry, and provide source material for a future update to the OpenType specification's axis registry.

@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "lis_Lisu"  # Lisu
+primary_script: "Lisu"

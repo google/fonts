@@ -1,23 +1,26 @@
 # Google Fonts Axis Registry
 
-This repository is the official Google Fonts **Axis Registry.**
+This repository is the official **upstream** Google Fonts **Axis Registry.**
 
-It is structured as a Python package/module, providing easy access to the registry data-set from Python programs.
+This data-set is synced into the central [github.com/google/fonts](https://github.com/google/fonts) git repo, through which all Google Fonts assets are onboarded.
 
-This data-set is synced into the `axisregistry` directory of the central [github.com/google/fonts](https://github.com/google/fonts) git repo, through which all Google Fonts assets are onboarded.
+The **actual** Axis Registry lives within the actual live Google Fonts product, surfaced at [fonts.google.com/variablefonts#axis-definitions](https://fonts.google.com/variablefonts#axis-definitions) – so axis definitions are only final when they appear on that page, and this repository will from time to time contain fresh data not in the live system, and subject to change. 
 
 ## The AxisRegistry Python Module
 
-This Python package contains a collection of metadata source files that collectively form the Google Fonts Axis Registry.
+This repo is structured as a Python package/module, providing easy access to the registry data-set from Python programs.
 
-The live Axis Registry within the actual Gogole Fonts product is surfaced at [fonts.google.com/variablefonts#axis-definitions](https://fonts.google.com/variablefonts#axis-definitions), and axis definitions are only final when they appear on that page.
+The Python package contains a collection of metadata source files that collectively form the Google Fonts Axis Registry.
 
-This module is the central place for dataset updates. When the registry is updated here, the subtree located at google/fonts/axisregistry should, in turn, be updated by the maintainers to include those changes in the API. For more detailed information refer to the [Axis Registry](https://googlefonts.github.io/gf-guide/googlefonts.html#axis-registry) section under the *google/fonts repository explained* in the GF Guide.
+This module is the central place for dataset updates.
+After updates are made here on the `main` branch, the maintainers of the central repo will update subtree located at `google/fonts/axisregistry` and then work to push those changes through to the live Google Fonts API via sandbox servers, according to the typical push process.
+For more detailed information, please see the [Axis Registry](https://googlefonts.github.io/gf-guide/googlefonts.html#axis-registry) section of the _`google/fonts` repository explained_ article in the GF Guide.
 
-<!-- ## Registering new custom axes
+<!--
+## Registering New Axes
 
-Font projects that need to introduce a new custom axis to be published in the Catalog should follow the [Axis Registry Protocol](https://googlefonts.github.io/gf-guide/axis-registry.html) included in the GF Guide. -->
-
+Font projects that need to introduce a new axis to Google Fonts must follow the [Axis Registry Protocol](https://googlefonts.github.io/gf-guide/axis-registry.html) article in the GF Guide.
+-->
 
 ## Axis Metadata Fields
 

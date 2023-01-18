@@ -12,7 +12,8 @@ This Python package contains a collection of metadata source files that collecti
 
 The live Axis Registry within the actual Gogole Fonts product is surfaced at [fonts.google.com/variablefonts#axis-definitions](https://fonts.google.com/variablefonts#axis-definitions), and axis definitions are only final when they appear on that page.
 
-When the registry is updated here, a line like `axisregistry/axis_name.textproto` should be added to the `to_sandbox.txt` file of the central repo.
+This module is the central place for dataset updates. When the registry is updated here, the subtree located at google/fonts/axisregistry should, in turn, be updated by the maintainers to include those changes in the API. For more detailed information refer to the [Axis Registry](https://googlefonts.github.io/gf-guide/googlefonts.html#axis-registry) section under the *google/fonts repository explained* in the GF Guide.
+
 
 ## Axis Metadata Fields
 

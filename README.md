@@ -14,6 +14,10 @@ The live Axis Registry within the actual Gogole Fonts product is surfaced at [fo
 
 This module is the central place for dataset updates. When the registry is updated here, the subtree located at google/fonts/axisregistry should, in turn, be updated by the maintainers to include those changes in the API. For more detailed information refer to the [Axis Registry](https://googlefonts.github.io/gf-guide/googlefonts.html#axis-registry) section under the *google/fonts repository explained* in the GF Guide.
 
+<!-- ## Registering new custom axes
+
+Font projects that need to introduce a new custom axis to be published in the Catalog should follow the [Axis Registry Protocol](https://googlefonts.github.io/gf-guide/axis-registry.html) included in the GF Guide. -->
+
 
 ## Axis Metadata Fields
 

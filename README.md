@@ -38,7 +38,7 @@ This module is the central place for dataset updates. When the registry is updat
         be at a fallback.
         <br>In case an axis doesn't include predefined positions, it is mandatory to define at least one fallback position. It should be called `Default` and its value should correspond to the `default_value` position of the axis.
 *   `fallback_only`
-    *   Describes whether to only use fallback values when presenting to users.
+    *   Describes whether to only use fallback values when presenting to users in the UI. Currently, default to `true`, for continuous range axes should be set to `false.`
 *   `description`
     *   A description of the axis.
 

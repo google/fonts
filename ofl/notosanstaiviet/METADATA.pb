@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "blt_Tavt"  # Tai Dam
+primary_script: "Tavt"

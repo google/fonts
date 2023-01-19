@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "lif_Limb"  # Limbu, Limbu
 languages: "sa_Limb"  # Sanskrit, Limbu
+primary_script: "Limb"

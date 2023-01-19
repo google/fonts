@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "fil_Tglg"  # Filipino, Tagalog
+primary_script: "Tglg"

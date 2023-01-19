@@ -25,3 +25,4 @@ languages: "hmd_Hmng"  # A-Hmao, Pahawh Hmong
 languages: "hmn_Hmng"  # Hmong, Pahawh Hmong
 languages: "hnj_Hmng"  # Mong Njua, Pahawh Hmong
 languages: "mww_Hmng"  # Hmong Daw
+primary_script: "Hmng"

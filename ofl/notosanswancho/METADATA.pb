@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "nnp_Wcho"  # Wancho Naga
 languages: "sa_Wcho"  # Sanskrit, Wancho
+primary_script: "Wcho"

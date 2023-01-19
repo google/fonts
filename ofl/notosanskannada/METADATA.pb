@@ -33,3 +33,4 @@ source {
 is_noto: true
 languages: "kn_Knda"  # Kannada
 languages: "tcy_Knda"  # Tulu
+primary_script: "Knda"

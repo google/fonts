@@ -38,3 +38,4 @@ languages: "iu_Cans"  # Inuktitut
 languages: "nsk_Cans"  # Naskapi
 languages: "oj_Cans"  # Ojibwa
 languages: "ojb_Cans"  # Northwestern Ojibwa, Unified Canadian Aboriginal Syllabics, Canada
+primary_script: "Cans"

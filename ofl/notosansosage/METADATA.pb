@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "osa_Osge"  # Osage
+primary_script: "Osge"

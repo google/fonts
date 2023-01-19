@@ -33,3 +33,4 @@ source {
 is_noto: true
 languages: "bfq_Taml"  # Badaga
 languages: "ta_Taml"  # Tamil
+primary_script: "Taml"

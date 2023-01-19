@@ -23,3 +23,4 @@ axes {
 is_noto: true
 display_name: "Noto Serif Nyiakeng Puachue Hmong"
 languages: "hmn_Hmnp"  # Hmong, NP Hmong
+primary_script: "Hmnp"

@@ -1,5 +1,5 @@
 name: "Labrada"
-designer: "Omnibus-Type"
+designer: "Mercedes Jáuregui, Omnibus-Type"
 license: "OFL"
 category: "SERIF"
 date_added: "2023-01-19"

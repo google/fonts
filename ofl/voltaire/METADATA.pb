@@ -1,5 +1,5 @@
 name: "Voltaire"
-designer: "Yvonne Schüttler, Sorkin Type"
+designer: "Yvonne Schüttler"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-17"
@@ -18,5 +18,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Voltaire"
-  commit: "f93bf0e036b9c4d2e2e42aaa9ee7f3fa58eaf5b1"
+  commit: "0954355156a43a9dc7d53c32a7bedc63a187d456"
 }

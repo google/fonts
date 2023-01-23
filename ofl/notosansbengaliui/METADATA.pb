@@ -42,4 +42,3 @@ languages: "syl_Beng"  # Sylheti
 languages: "trp_Beng"  # Kok Borok, Bangla
 languages: "unr_Beng"  # Mundari
 languages: "unx_Beng"  # Munda
-primary_script: "Beng"

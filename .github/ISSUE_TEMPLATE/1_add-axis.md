@@ -15,6 +15,15 @@ assignees: ''
 
 Describe the effect of the axis in the font. Over what does it operates (stems, terminals, serifs, etc) how changes happen. 
 
+### Requirements
+
+Before creating a new issue to propose a new custom axis, you should read the [Axis Registry Protocol](https://googlefonts.github.io/gf-guide/axis-registry.html) in the Production chapter of the GF-Guide. It provides the required steps for including a new axis (prior to creating this Issue), as well as detailed information on the axis requirements and the type of axes that would inform your decisions on the required Metadata Fields.
+
+By ticking the cases (or putting x between the square brackets in text mode), you confirm the following:
+
+- [ ] I have inspected the current [Axis Registry](https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data) and there is not a registered custom axis that could be used for the variation purpose on the upcoming font project.
+- [ ] The metadata fields of the proposed axis meet the *Axis Requirements* as specified in the Protocol (linked above).
+
 ### Image
 
 Attach here a pic or a gif showing the axis behavior.

@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "bbc_Batk"  # Batak Toba, Batak
 languages: "sa_Batk"  # Sanskrit, Batak
+primary_script: "Batk"

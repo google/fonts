@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "sa_Shrd"  # Sanskrit, Sharada
+primary_script: "Shrd"

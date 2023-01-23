@@ -32,3 +32,4 @@ source {
 }
 is_noto: true
 languages: "pa_Guru"  # Punjabi
+primary_script: "Guru"

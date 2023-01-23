@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "doi_Dogr"  # Dogri, Dogra
 languages: "sa_Dogr"  # Sanskrit, Dogra
+primary_script: "Dogr"

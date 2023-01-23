@@ -34,3 +34,4 @@ languages: "wuu_Hant"  # Wu Chinese
 languages: "yue_Hant"  # Cantonese
 languages: "zh_Hant"  # Chinese (Traditional)
 display_name: "Noto Serif Hong Kong"
+primary_script: "Hant"

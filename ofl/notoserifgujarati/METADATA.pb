@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "gu_Gujr"  # Gujarati
+primary_script: "Gujr"

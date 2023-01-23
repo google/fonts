@@ -109,3 +109,4 @@ languages: "wtm_Deva"  # Mewati
 languages: "xnr_Deva"  # Kangri
 languages: "xsr_Deva"  # Sherpa
 languages: "ybh_Deva"  # Yakha, Devanagari
+primary_script: "Deva"

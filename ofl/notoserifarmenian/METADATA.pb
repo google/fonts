@@ -33,3 +33,4 @@ source {
 is_noto: true
 languages: "hy_Armn"  # Armenian
 languages: "hyw_Armn"  # Western Armenian, Armenian
+primary_script: "Armn"

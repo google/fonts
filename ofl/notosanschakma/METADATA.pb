@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "ccp_Cakm"  # Chakma
+primary_script: "Cakm"

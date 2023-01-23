@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "ae_Avst"  # Avestan
 languages: "sa_Avst"  # Sanskrit, Avestan
+primary_script: "Avst"

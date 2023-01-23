@@ -28,3 +28,4 @@ source {
 is_noto: true
 languages: "ban_Bali"  # Balinese, Balinese
 languages: "sa_Bali"  # Sanskrit, Balinese
+primary_script: "Bali"

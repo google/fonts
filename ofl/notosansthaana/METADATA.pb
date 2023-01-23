@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "dv_Thaa"  # Divehi
+primary_script: "Thaa"

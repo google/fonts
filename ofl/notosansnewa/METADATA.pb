@@ -27,3 +27,4 @@ languages: "mai_Newa"  # Maithili, Newa
 languages: "ne_Newa"  # Nepali, Newa
 languages: "new_Newa"  # Newari, Newa
 languages: "sa_Newa"  # Sanskrit, Newa
+primary_script: "Newa"

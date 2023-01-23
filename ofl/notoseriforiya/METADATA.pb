@@ -32,3 +32,4 @@ languages: "or_Orya"  # Odia
 languages: "sa_Orya"  # Sanskrit, Odia / Oriya
 languages: "sat_Orya"  # Santali, Odia
 languages: "unr_Orya"  # Mundari, Odia
+primary_script: "Orya"

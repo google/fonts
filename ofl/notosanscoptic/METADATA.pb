@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "cop_Copt"  # Coptic, Coptic
+primary_script: "Copt"

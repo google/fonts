@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aho_Ahom"  # Ahom
 languages: "sa_Ahom"  # Sanskrit, Ahom
+primary_script: "Ahom"

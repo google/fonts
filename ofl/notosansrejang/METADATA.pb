@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "rej_Rjng"  # Rejang, Rejang
 languages: "sa_Rjng"  # Sanskrit, Rejang
+primary_script: "Rjng"

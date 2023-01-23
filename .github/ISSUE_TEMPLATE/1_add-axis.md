@@ -26,7 +26,7 @@ By ticking the cases (or putting x between the square brackets in text mode), yo
 
 ### Image
 
-Attach here a pic or a gif showing the axis behavior.
+Include here an gif or a video showing the axis behavior.
 
 ### Why is the axis needed
 

@@ -10,8 +10,6 @@ In digital fonts, every glyph sits on its own invisible box, or body. The body e
 
 ![INSERT_ALT](images/xheights.png)
 
-<figcaption>INSERT_FIGCAPTION</figcaption>
-
 </figure>
 
 The problem is that the metrics that most affect how large a typeface appears—like its [cap height](https://fonts.google.com/knowledge/glossary/cap_height) or its [x-height](https://fonts.google.com/knowledge/glossary/x_height)—can vary quite a bit between different fonts with the same em size. For example, let’s compare two standard-issue versions of Verdana and Baskerville: Verdana’s x-height takes up about 55% of the font’s em. But Baskerville’s x-height only takes up about 40% of them em. As a result, Baskerville appears noticeably smaller than Verdana when set at the same font size. To achieve a similar visual size as Verdana, Baskerville must actually be set to a larger font size.
@@ -25,8 +23,6 @@ Even young children understand that the closer something is to your eyes, the la
 <figure>
 
 ![INSERT_ALT](images/angular.svg)
-
-<figcaption>INSERT_FIGCAPTION</figcaption>
 
 </figure>
 
@@ -45,8 +41,6 @@ It may seem counterintuitive, but using CSS to specify “absolute” physical u
 <figure>
 
 ![INSERT_ALT](images/ruler.jpg)
-
-<figcaption>INSERT_FIGCAPTION</figcaption>
 
 </figure>
 
@@ -75,8 +69,6 @@ As if all of that wasn’t already tricky enough, it’s also worth considering 
 <figure>
 
 ![INSERT_ALT](images/widths.svg)
-
-<figcaption>INSERT_FIGCAPTION</figcaption>
 
 </figure>
 

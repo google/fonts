@@ -1,7 +1,7 @@
 ---
 name: Add Axis
 about: Submit a custom axis to Google Fonts Axis Registry.
-title: 'Add [Axis (TAG) Name]'
+title: 'Add Axis name [Axis TAG] axis'
 labels: '--new-axis'
 assignees: ''
 

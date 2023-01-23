@@ -1,0 +1,1 @@
+Tsume is also known as proportional metrics, or "palt" in OpenType. When you set up tsume, or turn on the proportional metrics, whitespace on both sides of the glyphs shrinks for tighter typesetting. The type designer defines the Tsume value when designing the font, and it’s not possible to change the Tsume value via OpenType controls—only in the source file.

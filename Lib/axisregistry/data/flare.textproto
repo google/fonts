@@ -6,9 +6,9 @@ max_value: 100
 precision: 0
 fallback {
   name: "Default"
-  value: 0.0
+  value: 0
 }
 fallback_only: false
 description: 
-  "As the flare axis grows the sans serif stem terminals go from straight (0%)"
-  " developing a swelling with joints becoming more idiosyncratic (100%)."
+  "As the flare axis grows, the stem terminals go from straight (0%)"
+  " to develop a swelling (100%)."

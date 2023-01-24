@@ -86,7 +86,7 @@ jobs:
       - name: Install packages
         run: |
           pip install --upgrade pip
-          pip install "gftools[qa]@git+https://github.com/googlefonts/gftools@main" pytest
+          pip install gftools[qa] pytest
         shell: bash
 
       - name: Run Diffenator

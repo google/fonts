@@ -10,7 +10,7 @@ fonts {
   filename: "GildaDisplay-Regular.ttf"
   post_script_name: "GildaDisplay-Regular"
   full_name: "Gilda Display Regular"
-  copyright: "Copyright 2012 The Gilda Display Project Authors (https://github.com/etunni/gilda-display) with Reserved Font Name \'Gilda\'."
+  copyright: "Copyright 2012 The Gilda Display Project Authors (https://github.com/etunni/gilda-display) with Reserved Font Name \Gilda\."
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -31,3 +31,4 @@ source {
   archive_url: "https://github.com/silnrsi/font-taiheritagepro/releases/download/v2.600/TaiHeritagePro-2.600.zip"
 }
 primary_script: "Tavt"
+languages: "blt_Tavt"

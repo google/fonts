@@ -29,7 +29,7 @@ jobs:
           python-version: '3.10'
       - name: Install packages
         run: |
-          pip install "gftools[qa]@git+https://github.com/googlefonts/gftools@main" pytest
+          pip install gftools[qa] pytest
         shell: bash
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@latest
@@ -48,11 +48,10 @@ jobs:
           mkdir out
           python -m youseedee 0x078A
           chromedriver --url-base=/wd/hub &
-          sh .ci/run.sh
+          python3 .ci/run.py --render
         env:
           PYTHONIOENCODING: 'utf-8'
           PYTHONUTF8: '1'
-          SCREENSHOTS: true
         shell: bash
 
       - name: Check file existence
@@ -89,11 +88,11 @@ jobs:
           pip install gftools[qa] pytest
         shell: bash
 
-      - name: Run Diffenator
+      - name: Run Diffenator and Fontbakery
         run: |
           mkdir out
           python -m youseedee 0x078A
-          sh .ci/run.sh
+          python3 .ci/run.py --pr-number $PR_NUMBER --pr-url-body https://www.github.com/m4rc1e/fonts/pull/
         env:
           PYTHONIOENCODING: 'utf-8'
           PYTHONUTF8: '1'

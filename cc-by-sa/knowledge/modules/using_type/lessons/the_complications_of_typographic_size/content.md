@@ -8,7 +8,7 @@ In digital fonts, every glyph sits on its own invisible box, or body. The body e
 
 <figure>
 
-![INSERT_ALT](images/xheights.png)
+![INSERT_ALT](images/xheights.svg)
 
 </figure>
 

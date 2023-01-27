@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2022 The Alkatra Project Authors (https://github.com/suman51284/Alkatra)"
 }
 subsets: "bengali"
+subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

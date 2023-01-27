@@ -51,3 +51,4 @@ source {
   repository_url: "https://github.com/arrowtype/shantell-sans"
   commit: "eb212fc669479ba32740440fab2e4207057c37b2"
 }
+minisite_url: "https://www.shantellsans.com"

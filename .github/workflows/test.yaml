@@ -92,7 +92,7 @@ jobs:
         run: |
           mkdir out
           python -m youseedee 0x078A
-          python3 .ci/run.py --pr-number $PR_NUMBER --pr-url-body https://www.github.com/m4rc1e/fonts/pull/
+          python3 .ci/run.py --pr-number $PR_NUMBER --pr-url-body https://www.github.com/google/fonts/pull/
         env:
           PYTHONIOENCODING: 'utf-8'
           PYTHONUTF8: '1'

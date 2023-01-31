@@ -1,6 +1,6 @@
-branch: main
+branch: master
 files:
-  fonts/variable/Rokkitt[wght].ttf: Rokkitt[wght].ttf
   OFL.txt: OFL.txt
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-repository_url: https://github.com/googlefonts/RokkittFont
+  fonts/variable/Rokkitt-Italic[wght].ttf: Rokkitt-Italic[wght].ttf
+  fonts/variable/Rokkitt[wght].ttf: Rokkitt[wght].ttf
+archive:

@@ -9,9 +9,13 @@ fonts {
   weight: 400
   filename: "FaunaOne-Regular.ttf"
   post_script_name: "FaunaOne-Regular"
-  full_name: "Fauna One"
-  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Fauna\'"
+  full_name: "Fauna One Regular"
+  copyright: "Copyright 2013 The Fauna One Project Authors (https://github.com/etunni/fauna-one) with Reserved Font Name \'Fauna\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/fauna-one"
+  commit: "ed89976413a322f9d84aae5d97c17cfe5cf0d95d"
+}

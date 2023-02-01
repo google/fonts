@@ -7,10 +7,10 @@ fonts {
   name: "Commissioner"
   style: "normal"
   weight: 400
-  filename: "Commissioner[slnt,wght].ttf"
+  filename: "Commissioner[FLAR,VOLM,slnt,wght].ttf"
   post_script_name: "Commissioner-Thin"
   full_name: "Commissioner Thin"
-  copyright: "Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)"
+  copyright: "Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -20,6 +20,16 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 axes {
+  tag: "FLAR"
+  min_value: 0.0
+  max_value: 100.0
+}
+axes {
+  tag: "VOLM"
+  min_value: 0.0
+  max_value: 100.0
+}
+axes {
   tag: "slnt"
   min_value: -12.0
   max_value: 0.0
@@ -28,4 +38,8 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/m4rc1e/Commissioner"
+  commit: "9bf35952a56ff7ba7d7fa1b0380e4bf2a63fcc35"
 }

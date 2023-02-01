@@ -1,5 +1,5 @@
 name: "Solway"
-designer: "Mariya Lish, Inhouse Type"
+designer: "Nothern Block, Mariya Lish"
 license: "OFL"
 category: "SERIF"
 date_added: "2018-08-06"

@@ -338,9 +338,13 @@ def build_fvar_instances(ttFont, axis_dflts={}):
     stat_nameids = []
     if "STAT" in ttFont:
         if ttFont["STAT"].table.AxisValueCount > 0:
-            stat_nameids = [
+            stat_nameids.extend(
                 av.ValueNameID for av in ttFont["STAT"].table.AxisValueArray.AxisValue
-            ]
+            )
+        if ttFont["STAT"].table.DesignAxisCount > 0:
+            stat_nameids.extend(
+                av.AxisNameID for av in ttFont["STAT"].table.DesignAxisRecord.Axis
+            )
 
     # rm old fvar subfamily and ps name records
     for inst in fvar.instances:

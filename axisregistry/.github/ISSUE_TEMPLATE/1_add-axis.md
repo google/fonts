@@ -1,43 +1,43 @@
 ---
 name: Add Axis
 about: Submit a custom axis to Google Fonts Axis Registry.
-title: 'Add [Axis (TAG) Name]'
+title: 'Add (axis name here) [ (AXIS tag here) ] axis'
 labels: '--new-axis'
 assignees: ''
 
 ---
 
-## Font Project introducing the axis
+### Requirements
 
-(Provide the name and GitHub repo of the font introducing the axis)
+Before creating this new issue to propose a new custom axis, you should read the [Axis Registry Protocol](https://googlefonts.github.io/gf-guide/axis-registry.html) in the Production chapter of the GF-Guide. It provides the required steps for including a new axis (prior to creating this Issue), as well as detailed information on the axis requirements and the type of axes that would inform your decisions on the required Metadata Fields.
 
-## Validate the incoming custom axis against the Axis Registry
+By ticking the cases (or putting x between the square brackets in text mode), you confirm the following:
 
-Please inspect the current [Axis Registry](https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data) and determine if there is already a custom axis that could be used for the variation purpose on the font. We should ensure it's not a duplicated concept.
+- [ ] I have inspected the current [Axis Registry](https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data) and there is not a registered custom axis that could be used for the variation purpose on the upcoming font project.
+- [ ] The metadata fields of the proposed axis meet the *Axis Requirements* as specified in the Protocol (linked above).
 
-## Short description of what the axis does
+### Font project(s) using the axis
 
-Describe the effect of the axis in the font. Over what does it operates (stems, terminals, serifs, etc) how changes happen. 
+(Replace this line with a line or list of the font name(s) and GitHub repo links that already use the axis)
 
-## Image
+### Short description of what the axis does
 
-Attach here a pic or a gif showing the axis behavior.
+(Replace this line with a description of the effect of the axis in the font: What does it operate on (stems, terminals, serifs, etc) and how do changes happen along it?)
 
-## Why is the axis needed
+### Image
 
-Please provide an expected case of use from the user’s point of view, reasoning on why or how the users might use or would benefit from the axis. 
+(Replace this line with a GIF showing the axis behavior from default to min to max to default in a loop)
 
-This explanation would help to discern the validity of the axis itself and its definitions such as the ranges. This information could be used to create additional educational content.
+### Why is the axis needed
 
-## Axis metadata fields
+(Replace this line with 1 or more expected cases, from the user’s point of view, with reasoning on why or how the users can benefit from the axis. This explanation helps the Google Fonts team to discern the validity of the axis itself, and its definitions, such as the ranges. This information could be used to create additional educational content.)
 
-Complete the following metadata field for the axis. You can read about the [Axis Metadata Fields](https://github.com/googlefonts/axisregistry#axis-metadata-fields) in the Readme section of this repository.
+### Axis metadata fields
 
-- For the time being every custom axis is registered with only one fallback, which should be named "Default" and the value should match the axis `default_value`.
-- The description gives users more context about what the axis does or how it can be used. It should be written in a general way allowing it to make sense for other cases and should include a clarificacion of the range. This text is used on the Type Tester tab of the font specimen page, under the info button (i) next to the axis name.
+(Remove this line and fill out the mock of the data structure of the axis)
 
 ```
-#[Four letter axis TAG] based on (url of the font's repository introducing the axis)
+#(replaced this with the four letter AXIS tag) based on (replace this with a URL of the font project repository)
 tag: ""
 display_name: ""
 min_value: 

@@ -1,5 +1,5 @@
 name: "Solway"
-designer: "Nothern Block, Mariya Lish"
+designer: "Mariya Lish, The Northern Block"
 license: "OFL"
 category: "SERIF"
 date_added: "2018-08-06"

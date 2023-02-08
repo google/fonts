@@ -9,8 +9,13 @@ fonts {
   weight: 400
   filename: "FasterOne-Regular.ttf"
   post_script_name: "FasterOne-Regular"
-  full_name: "Faster One"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Faster\'"
+  full_name: "Faster One Regular"
+  copyright: "Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster), with Reserved Font Name \'Faster\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/faster"
+  commit: "c1eb445af08bcc5ce66380f65e56d9d3135cca3c"
+}

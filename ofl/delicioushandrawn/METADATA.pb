@@ -10,12 +10,12 @@ fonts {
   filename: "DeliciousHandrawn-Regular.ttf"
   post_script_name: "DeliciousHandrawn-Regular"
   full_name: "Delicious Handrawn Regular"
-  copyright: "Copyright 2022 The Delicious Handrawn Project Authors (https://github.com/duartp/gloock)"
+  copyright: "Copyright 2022 The Delicious Handrawn Project Authors (https://github.com/alphArtype/Delicious-Handrawn)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/alphArtype/Delicious-Handrawn"
-  commit: "b4bc06828c04da4ef07518386cc77bbdfdba1e20"
+  commit: "d32722cd629ea4d6f48c63d5f4387a9441db3c6c"
 }

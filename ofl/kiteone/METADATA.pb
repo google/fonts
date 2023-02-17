@@ -9,8 +9,13 @@ fonts {
   weight: 400
   filename: "KiteOne-Regular.ttf"
   post_script_name: "KiteOne-Regular"
-  full_name: "Kite One"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Kite\'"
+  full_name: "Kite One Regular"
+  copyright: "Copyright 2011 The Kite One Project Authors (https://github.com/etunni/Kite-One) with Reserved Font Name is \"Kite\""
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/Kite-One"
+  commit: "be1d4f26c91c29993c47fa4b4857337b0d94e2f2"
+}

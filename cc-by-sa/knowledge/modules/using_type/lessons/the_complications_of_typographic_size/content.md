@@ -1,4 +1,4 @@
-The process of establishing an appropriate [font](/glossary/font) size for different elements is more complicated than it might seem. In the context of web design, it can be especially tricky to weigh all the factors involved for an ideal reader experience. Let’s go through some of the most relevant considerations.
+The process of establishing an appropriate [font](/glossary/font) size for different elements is more complicated than it might seem at first. In the context of web design, it can be especially tricky to weigh all the factors involved for an ideal reader experience. While keeping track of all these issues can sometimes cause headaches, it’s helpful to at least be aware of them and approach the job of setting type with as much knowledge as possible. Let’s go through some of the most relevant considerations.
 
 ## A font’s body size only says so much about the actual size of its glyphs
 
@@ -75,3 +75,15 @@ As if all of that wasn’t already tricky enough, it’s also worth considering 
 Condensed typefaces may benefit from a slight increase in size compared to wider counterparts, and typefaces with open apertures can perform better than others with tighter closed-in forms. Unusual design features can also cause legibility problems at small sizes.
 
 While keeping track of all these issues can cause headaches, it’s helpful to at least be aware of them and approach the job of setting type on the web with as much knowledge as possible.
+
+## Sizing up
+
+Despite some of the limitations and complications mentioned above, there’s still more flexibility and control with digital typesetting than ever before. Those looking to move beyond the most basic handling of typographic size on the web can:
+- Experiment with API technologies like [DisplayID](https://en.wikipedia.org/wiki/DisplayID) and [RawDpi](https://learn.microsoft.com/en-us/uwp/api/windows.graphics.display.displayinformation.rawdpix) for working with actual physical size and resolution, even if it’s beyond the context of typical web browsers where they aren’t supported yet.
+- Try setting font sizes according to internal font measurements like x-height, and/or even more complex [fluid sizing calculations](https://css-tricks.com/simplified-fluid-typography/) based on a variety of interrelated factors.
+- Submit or support [feature requests](https://github.com/w3c/csswg-drafts/issues/614) for app developers and standards organizations to improve functionality for working with sizes based on physical measurements and/or internal font metrics.
+- Get more comfortable thinking about [viewing distance and angular units of measure](https://sizecalc.com) when calculating type sizes.
+- Be more observant about how different typefaces may require changes in size specifications due to differences in their design or production.
+- Perhaps more important than anything, test the sizing logic on a variety of screens and devices to ensure it works reasonably well in as many environments as possible.
+
+The more knowledgeable and thoughtful designers are to the intricacies of typographics size, the better the experience can be for readers.

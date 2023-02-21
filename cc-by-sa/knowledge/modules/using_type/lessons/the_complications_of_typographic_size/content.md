@@ -26,7 +26,7 @@ Even young children understand that the closer something is to your eyes, the la
 
 </figure>
 
-For example, [type](/glossary/type) with a physical size of 72pts viewed from a distance of 10" has [a perceived size](https://sizecalc.com/#distance=10inches&physical-size=72points&perceived-size-units=arcminutes) of about 5.72°, or 343 arcminutes. To match that same perceived size from 1.5 times the distance (15 inches away), you’d have to also [increase the physical size](https://sizecalc.com/#distance=15inches&perceived-size=343.488627arcminutes&physical-size-units=points) by 1.5 times (to 108 pts).
+For example, [type](/glossary/type) with a physical size of 72pts viewed from a distance of 10 inches has [a perceived size](https://sizecalc.com/#distance=10inches&physical-size=72points&perceived-size-units=arcminutes) of about 5.72°, or 343 arcminutes. To match that same perceived size from 1.5 times the distance (15 inches away), you’d have to also [increase the physical size](https://sizecalc.com/#distance=15inches&perceived-size=343.488627arcminutes&physical-size-units=points) by 1.5 times (to 108 pts).
 
 Angular measurements like this are the basis of [visual acuity](https://en.wikipedia.org/wiki/Visual_acuity) tests you may be familiar with from the [eye charts](https://en.wikipedia.org/wiki/Eye_chart) at your optician’s office. They also inform standards about the design of traffic signs and other critical text-based information. This way of measuring perceived size is among the most relevant when it comes to how we experience text in the real world because it’s directly related to how quickly and easily we can decipher letters and words.
 
@@ -36,7 +36,7 @@ CSS media queries and responsive design go a long way toward compensating for al
 
 ## It is currently impossible to confidently work with exact physical sizes on the web
 
-It may seem counterintuitive, but using CSS to specify “absolute” physical units like [points](/glossary/point), centimeters, or inches will not allow you to work with actual physical sizes in most cases. You can set the width of an element to `12in` in CSS, but if you measure the result as rendered on any given device it may not (and very likely won’t) be exactly 12" wide. And, in fact, it will probably be rendered at a different physical sizes between different devices.
+It may seem counterintuitive, but using CSS to specify “absolute” physical units like [points](/glossary/point), centimeters, or inches will not allow you to work with actual physical sizes in most cases. You can set the width of an element to `12in` in CSS, but if you measure the result as rendered on any given device it may not (and very likely won’t) be exactly 12 inches wide. And, in fact, it will probably be rendered at a different physical sizes between different devices.
 
 <figure>
 
@@ -44,7 +44,7 @@ It may seem counterintuitive, but using CSS to specify “absolute” physical u
 
 </figure>
 
-The same goes for media queries. You can technically specify that you want the design of your web page to change when the reader’s browser window is, say, 20cm wide. But that measurement of 20cm won’t actually relate to a real-world length as measured with a ruler. The ability to confidently detect the actual physical size of a reader’s device or [viewport](/glossary/viewport) would be an immense benefit when it comes to the previously-mentioned necessity for estimation and assumption. Knowing a display’s width is 10' instead of 1' would help a lot with inferring how it’s likely being used.
+The same goes for media queries. You can technically specify that you want the design of your web page to change when the reader’s browser window is, say, 20cm wide. But that measurement of 20cm won’t actually relate to a real-world length as measured with a ruler. The ability to confidently detect the actual physical size of a reader’s device or [viewport](/glossary/viewport) would be an immense benefit when it comes to the previously-mentioned necessity for estimation and assumption. Knowing a display’s width is 10 feet instead of 1 inch would help a lot with inferring how it’s likely being used.
 
 The “absolute” units are so unreliable for physical sizing because, at the end of the line, they are all just multipliers for pixels. And in web design, [pixels aren’t tied to any reliable physical size](https://alistapart.com/column/responsive-typography-is-a-physical-discipline/). This isn’t because the technology doesn’t exist to allow for such calculations. Most computer displays [can provide information about their physical attributes](https://en.wikipedia.org/wiki/DisplayID) to operating systems. Some design apps and PDF readers take advantage of this by allowing you to preview print layouts at actual scale.
 
@@ -58,7 +58,7 @@ In the early days of digital displays, when you specified the size of something 
 
 In the context of web design, the pixel’s definition is now related to a visual angle of measure along the lines of the arcminutes discussed above. Specifically, the W3C specification [defines](https://www.w3.org/TR/css-values-3/#reference-pixel) a reference pixel as “the visual angle of one pixel on a device with a pixel density of 96dpi and a distance from the reader of an arm’s length. For a nominal arm’s length of 28 inches, the visual angle is therefore about 0.0213 degrees”.
 
-This approach of having an angular unit of measure is really great in theory, and partly addresses the issue mentioned earlier about perceived size. Unfortunately, the practical reality involves some compromises. The W3C’s own explanation describes how the definition was changed from a previous model, “because too much existing content relies on the assumption of 96dpi, and breaking that assumption broke the content." The focus on backwards compatibility meant other values that may have otherwise been more intuitive, logical, or convenient weren’t used in the W3C’s updated definition of a pixel.
+This approach of having an angular unit of measure is really great in theory, and partly addresses the issue mentioned earlier about perceived size. Unfortunately, the practical reality involves some compromises. The W3C’s own explanation describes how the definition was changed from a previous model, “because too much existing content relies on the assumption of 96dpi, and breaking that assumption broke the content.” The focus on backwards compatibility meant other values that may have otherwise been more intuitive, logical, or convenient weren’t used in the W3C’s updated definition of a pixel.
 
 Perhaps a bigger issue, though, is how inconsistently the newer definition of a pixel stands up (or doesn’t) across multiple devices. Even devices from the same manufacturer show fairly large variations in the angular measure for pixels when viewed at typical reading distances. It probably doesn’t help that most designers still (understandably) don’t identify pixels as an angular unit of measure.
 
@@ -73,8 +73,6 @@ As if all of that wasn’t already tricky enough, it’s also worth considering 
 </figure>
 
 Condensed typefaces may benefit from a slight increase in size compared to wider counterparts, and typefaces with open apertures can perform better than others with tighter closed-in forms. Unusual design features can also cause legibility problems at small sizes.
-
-While keeping track of all these issues can cause headaches, it’s helpful to at least be aware of them and approach the job of setting type on the web with as much knowledge as possible.
 
 ## Sizing up
 

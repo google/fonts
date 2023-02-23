@@ -48,10 +48,16 @@ fonts {
   full_name: "Zen Maru Gothic Black"
   copyright: "Copyright 2021 The Zen Maru Gothic Authors (https://github.com/googlefonts/zen-marugothic)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/zen-marugothic.git"
+  commit: "decae11c15a25910ded2a06a9d27ee01c4addc76"
+}
 primary_script: "Jpan"

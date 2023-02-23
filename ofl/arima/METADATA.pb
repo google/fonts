@@ -27,5 +27,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/NDISCOVER/Arima-Font"
-  commit: "4c3fd1735c57ef4a2ad620140cbc0e59033ba162"
+  commit: "c5fd72960f129076fbf3759d6d777cedcbceb468"
 }

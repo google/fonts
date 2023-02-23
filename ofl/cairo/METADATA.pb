@@ -1,8 +1,8 @@
 name: "Cairo"
 designer: "Mohamed Gaber, Accademia di Belle Arti di Urbino"
 license: "OFL"
-category: "DISPLAY"
 category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2019-03-21"
 fonts {
   name: "Cairo"
@@ -29,6 +29,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/Gue3bara/Cairo"
-  commit: "f596f41991bc01d5865cdfb9fd751b8de04b6753"
+  commit: "617ed31e442f2be1ae31bdd7f3a88693fc41ae8b"
 }
 primary_script: "Arab"

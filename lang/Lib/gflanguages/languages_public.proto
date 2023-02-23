@@ -34,6 +34,8 @@ message LanguageProto {
   optional ExemplarCharsProto exemplar_chars = 9;
   optional SampleTextProto sample_text = 10;
   optional bool historical = 11;
+  repeated string source = 12;
+  optional string note = 13;
 
   // Next = 12;
 }
@@ -63,4 +65,5 @@ message SampleTextProto {
   optional string specimen_32 = 10;
   optional string specimen_21 = 11;
   optional string specimen_16 = 12;
+  optional string note = 13;
 }

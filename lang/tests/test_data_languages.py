@@ -60,14 +60,16 @@ ExemplarChars = languages_public_pb2.ExemplarCharsProto().DESCRIPTOR
 @pytest.mark.parametrize("lang_code", LANGUAGES.keys())
 def test_language_samples(lang_code):
     # Although marked as optional in the protobuf file, all
-    # SampleText fields are required, so make sure they are
-    # present.
+    # SampleText fields (except note) are required, so make
+    # sure they are present.
     lang = LANGUAGES[lang_code]
     if not lang.sample_text.ListFields():
         pytest.skip("No sample text for language " + lang_code)
         return
 
     for field in SampleText.fields:
+        if field.name == "note":
+            continue
         assert getattr(lang.sample_text, field.name)
 
 

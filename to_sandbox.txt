@@ -1,11 +1,11 @@
 # New
 ofl/akatab # https://github.com/google/fonts/pull/5895
 ofl/alkatra # https://github.com/google/fonts/pull/5560
+ofl/anuphan # https://github.com/google/fonts/pull/5927
 ofl/pathwayextreme # https://github.com/google/fonts/pull/5780
-# ofl/wixmadefordisplay # https://github.com/google/fonts/pull/5865 blocked due to api issues
-# ofl/wixmadefortext # https://github.com/google/fonts/pull/5878 blocked due to api issues
 
 # Upgrade
+ofl/arima # https://github.com/google/fonts/pull/5914
 ofl/delicioushandrawn # https://github.com/google/fonts/pull/5896
 ofl/diplomatasc # https://github.com/google/fonts/pull/5904
 ofl/diplomata # https://github.com/google/fonts/pull/5903
@@ -20,11 +20,11 @@ ofl/offside # https://github.com/google/fonts/pull/5860
 ofl/orienta # https://github.com/google/fonts/pull/5891
 ofl/paytoneone # https://github.com/google/fonts/pull/5859
 ofl/pontanosans # https://github.com/google/fonts/pull/5874
-ofl/shantellsans # https://github.com/google/fonts/pull/5830
 ofl/strait # https://github.com/google/fonts/pull/5907
 ofl/unlock # https://github.com/google/fonts/pull/5908
 ofl/voltaire # https://github.com/google/fonts/pull/5813
 ofl/warnes # https://github.com/google/fonts/pull/5871
+ofl/zenmarugothic # https://github.com/google/fonts/pull/5923
 
 # Designer profile
 catalog/designers/duongtran # https://github.com/google/fonts/pull/5844
@@ -35,5 +35,5 @@ ofl/ibmplexmono # https://github.com/google/fonts/pull/5843
 ofl/ibmplexsans # https://github.com/google/fonts/pull/5843
 ofl/ibmplexserif # https://github.com/google/fonts/pull/5843
 
-# Lang
-lang/languages/th_Thai.textproto
+# Sample texts
+lang/languages/th_Thai.textproto # https://github.com/google/fonts/pull/5925

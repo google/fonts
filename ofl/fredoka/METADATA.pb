@@ -1,5 +1,5 @@
 name: "Fredoka"
-designer: "Hafontia"
+designer: "Milena Brandao, Hafontia"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-12-15"

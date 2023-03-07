@@ -37,5 +37,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/cbcrc/radiocanadafonts"
-  commit: "1e095388644ae96c1edf0d104872222bbeff371d"
+  commit: "497fa492b666c82eba3bcfcbbd6261ab594fa551"
 }

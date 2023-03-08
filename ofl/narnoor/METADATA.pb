@@ -19,3 +19,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-narnoor"
   archive_url: "https://github.com/silnrsi/font-narnoor/releases/download/v2.000/Narnoor-2.000.zip"
 }
+primary_script: "Gong"

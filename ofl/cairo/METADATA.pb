@@ -29,6 +29,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/Gue3bara/Cairo"
-  commit: "f596f41991bc01d5865cdfb9fd751b8de04b6753"
+  commit: "73d16933c6a0f341c27a69e401da83dcb0d53114"
 }
 primary_script: "Arab"

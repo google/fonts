@@ -65,3 +65,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-akatab"
   archive_url: "https://github.com/silnrsi/font-akatab/releases/download/v3.000/Akatab-3.000.zip"
 }
+primary_script: "Tfng"

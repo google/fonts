@@ -41,11 +41,7 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
-registry_default_overrides {
-  key: "opsz"
-  value: 12
-}
 source {
   repository_url: "https://github.com/etunni/Pathway-Variable-Font"
-  commit: "5419de943e3ec92e19c7f6343a2a80c47ea6ca48"
+  commit: "4fa691f3898690d1f485839743ace01c5e6410da"
 }

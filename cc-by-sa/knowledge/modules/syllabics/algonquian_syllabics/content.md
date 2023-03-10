@@ -3,6 +3,12 @@ The Algonquian Syllabics were—as the name suggests—used for the Algonquian l
 An early and major printing center for the Algonquian Syllabics was Moose Factory, Ontario, where a printing press overseen by John Horden printed works in the local Moose Cree (ᐃᓕᓖᒧᐎᓐ) dialect and in the northern dialects of Ojibway. Horden made a significant change to the Algonquian Syllabics orthography by instituting the method of using finals characters in a series, which were superscript versions of the a vowel syllabic in a given series. This pattern was in stark contrast to the Western Algonquian pattern of using distinct finals characters, separate from the syllabic character forms in the series (see Finals section). This divergence in finals between eastern and western Algonquian Syllabics-using communities forms the main stylistic divide, and in particular led to a significant amount of variation in the Ojibway Syllabics of northern Ontario.
 
 ! [Difference between Western and Eastern Cree Syllabics finals character forms](/article_02_figure_01)
+<figure>
+
+![INSERT_ALT](images/INSERT_IMG.svg)
+
+</figure>
+<figcaption>INSERT_FIGCAPTION</figcaption>
 
 ###### Above, showing the difference between the western and eastern Cree traditions in finals characters.
 
@@ -12,6 +18,12 @@ An early and major printing center for the Algonquian Syllabics was Moose Factor
 ​​​​The northern dialects of Ojibway—the only Ojibway language communities to use Syllabics as their primary writing system—are noted as having a high degree of variability in the form of the finals characters that several respective communities prefer to use. The northern dialects of Ojibway that use Syllabics comprise Oji-Cree, Northwestern Ojibway and Berens River Ojibway. All of these communities utilize a Syllabics orthography, although the local preference for the form of the finals characters varies.
 
 ! [A map showing Manitoba and Ontario Ojibwe communities](/article_02_figure_02)
+<figure>
+
+![INSERT_ALT](images/INSERT_IMG.svg)
+
+</figure>
+<figcaption>INSERT_FIGCAPTION</figcaption>
 
 ##### Anishinaabe (Ojibwe) communities (red)
 ##### Nêhiyawak (Cree) communities (blue)
@@ -24,6 +36,12 @@ An early and major printing center for the Algonquian Syllabics was Moose Factor
 This divide manifests in finals characters that a) appear different in form from the base syllabic character in “a series”, and “b”) appear as a superscript version of the base syllabic in a series, commonly the a vowel orientation position in the series.
 
 ! [Northern Ontario Ojibwe Syllabics finals variation between communities](/article_02_figure_03)
+<figure>
+
+![INSERT_ALT](images/INSERT_IMG.svg)
+
+</figure>
+<figcaption>INSERT_FIGCAPTION</figcaption>
 
 ###### A comparison of the finals preferences for the different Ojibwe communities across the dialects in Northern Ontario that use Syllabics. Note that all Oji-Cree communities follow the same pattern as Western Cree Syllabics, which use finals characters that are different in shape than their base syllabic shape in a given series. The only variation in this pattern occurs in the Neskantaga community, which places the w dot on the left of the syllable in the Eastern Syllabics tradition. The primary variation occurs within Northwestern Ojibwe communities, where the Eastern Cree Syllabics tradition is largely followed, with the Eastern pattern of using superscript versions of the base syllabic in a series, in the “a vowel” orientation position. Within this preference for superscript finals, further variation occurs in the preference for the orientation scheme and vertical position of certain finals. In the Lac Seul community, either the “a position” or “i vowel” position orientation scheme is followed. In the Red Lake community, the standard a-position orientation pattern is followed, with the exception of the n final consonant being vertically positioned centered at the midline.
 
@@ -35,6 +53,12 @@ The high degree of variation in Syllabics typographic preferences in Northern On
 There is variation within Plains Cree communities in terms of the use of different forms for the “y series” final character. The common form of this in Plains Cree is a plus mark (ᐩ); however, some communities prefer to use a superposed dot mark (ᐝ), which is graphically distinct from the common “y final”. It should be noted that this alternative “y final” form should take the shape of a closed “w dot” mark, as well as an open, small ring character, rather than two open ring characters.
 
 ! [Showing Plains Cree y final variations](/article_02_figure_04)
+<figure>
+
+![INSERT_ALT](images/INSERT_IMG.svg)
+
+</figure>
+<figcaption>INSERT_FIGCAPTION</figcaption>
 
 ###### Showing the two variations in the form of the Plains Cree y final.
 
@@ -42,6 +66,12 @@ There is variation within Plains Cree communities in terms of the use of differe
 Further, when the y-final follows a w-dot modifier mark in these communities using the superposed (ᐝ) “y final”, the double dots combine to form a colon character. There is variation in terms of the shaping of this combination “w + y” final sequence. Some texts show this character as the same superposed sequence as the alternative “y final”, while others distinguish the sequence by rendering it as a ‘kerned’ colon-style symbol.
 
 ! [Showing Plains Cree w + y final variations](/article_02_figure_05)
+<figure>
+
+![INSERT_ALT](images/INSERT_IMG.svg)
+
+</figure>
+<figcaption>INSERT_FIGCAPTION</figcaption>
 
 ###### An example, above, of the combination sequence that some Plains Cree communities prefer when pure consonant "w" is followed by pure consonant “y”.
 
@@ -52,6 +82,12 @@ Further, when the y-final follows a w-dot modifier mark in these communities usi
 The Naskapi language community follows the Eastern Cree Syllabics pattern, which sees it used as a basis for the Algonquian Syllabics structures, with finals characters being superscript versions of the a vowel orientation scheme.
 
 ! [Showing the preferred form of Naskapi spwaa syllable construction sequence](/article_02_figure_06)
+<figure>
+
+![INSERT_ALT](images/INSERT_IMG.svg)
+
+</figure>
+<figcaption>INSERT_FIGCAPTION</figcaption>
 
 ###### Demonstrating two compositions of the Naskapi “spwaa” syllabic sequence. Although many typefaces compose this sequence as in example 1, above (U+150B ᔋ CANADIAN SYLLABICS NASKAPI S-W + U+1438 ᐸ CANADIAN SYLLABICS PA), the Naskapi community prefers the singular, composed glyph as in example 2, above.
 

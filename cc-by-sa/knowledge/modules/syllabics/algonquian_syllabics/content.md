@@ -8,10 +8,7 @@ An early and major printing center for the Algonquian Syllabics was Moose Factor
 ![INSERT_ALT](images/INSERT_IMG.svg)
 
 </figure>
-<figcaption>INSERT_FIGCAPTION</figcaption>
-
-###### Above, showing the difference between the western and eastern Cree traditions in finals characters.
-
+<figcaption>Above, showing the difference between the western and eastern Cree traditions in finals characters.</figcaption>
 
 ## Finals variation across Ojibway communities
 
@@ -23,15 +20,7 @@ An early and major printing center for the Algonquian Syllabics was Moose Factor
 ![INSERT_ALT](images/INSERT_IMG.svg)
 
 </figure>
-<figcaption>INSERT_FIGCAPTION</figcaption>
-
-##### Anishinaabe (Ojibwe) communities (red)
-##### Nêhiyawak (Cree) communities (blue)
-
-
-###### The above map shows the distribution of Ojibway dialects in Northern Ontario that use Syllabics as their primary writing system, depicting their preference for the form of finals (ᐊᓄᑭᐧᐃᓐ, ᐊᓄᑭᐧᐃᐣ, etc.), as well as the placement of the “w dot”. Neighboring Cree communities have been shown in order to show the relationship in preferences with the Ojibway.
-
-
+<figcaption>Anishinaabe (Ojibwe) communities (red); Nêhiyawak (Cree) communities (blue). The above map shows the distribution of Ojibway dialects in Northern Ontario that use Syllabics as their primary writing system, depicting their preference for the form of finals (ᐊᓄᑭᐧᐃᓐ, ᐊᓄᑭᐧᐃᐣ, etc.), as well as the placement of the “w dot”. Neighboring Cree communities have been shown in order to show the relationship in preferences with the Ojibway.</figcaption>
 
 This divide manifests in finals characters that a) appear different in form from the base syllabic character in “a series”, and “b”) appear as a superscript version of the base syllabic in a series, commonly the a vowel orientation position in the series.
 
@@ -41,13 +30,9 @@ This divide manifests in finals characters that a) appear different in form from
 ![INSERT_ALT](images/INSERT_IMG.svg)
 
 </figure>
-<figcaption>INSERT_FIGCAPTION</figcaption>
-
-###### A comparison of the finals preferences for the different Ojibwe communities across the dialects in Northern Ontario that use Syllabics. Note that all Oji-Cree communities follow the same pattern as Western Cree Syllabics, which use finals characters that are different in shape than their base syllabic shape in a given series. The only variation in this pattern occurs in the Neskantaga community, which places the w dot on the left of the syllable in the Eastern Syllabics tradition. The primary variation occurs within Northwestern Ojibwe communities, where the Eastern Cree Syllabics tradition is largely followed, with the Eastern pattern of using superscript versions of the base syllabic in a series, in the “a vowel” orientation position. Within this preference for superscript finals, further variation occurs in the preference for the orientation scheme and vertical position of certain finals. In the Lac Seul community, either the “a position” or “i vowel” position orientation scheme is followed. In the Red Lake community, the standard a-position orientation pattern is followed, with the exception of the n final consonant being vertically positioned centered at the midline.
-
+<figcaption>A comparison of the finals preferences for the different Ojibwe communities across the dialects in Northern Ontario that use Syllabics. Note that all Oji-Cree communities follow the same pattern as Western Cree Syllabics, which use finals characters that are different in shape than their base syllabic shape in a given series. The only variation in this pattern occurs in the Neskantaga community, which places the w dot on the left of the syllable in the Eastern Syllabics tradition. The primary variation occurs within Northwestern Ojibwe communities, where the Eastern Cree Syllabics tradition is largely followed, with the Eastern pattern of using superscript versions of the base syllabic in a series, in the “a vowel” orientation position. Within this preference for superscript finals, further variation occurs in the preference for the orientation scheme and vertical position of certain finals. In the Lac Seul community, either the “a position” or “i vowel” position orientation scheme is followed. In the Red Lake community, the standard a-position orientation pattern is followed, with the exception of the n final consonant being vertically positioned centered at the midline.</figcaption>
 
 The high degree of variation in Syllabics typographic preferences in Northern Ontario Ojibwe communities is a result of the lack of any formal standardization, such as is seen in Inuktut and Cree Syllabics communities. Despite this lack of standardization, all of the local form variants are encoded in the Unicode Standard.
-
 
 ## Plains Cree *y + w* dot transformation preference
 There is variation within Plains Cree communities in terms of the use of different forms for the “y series” final character. The common form of this in Plains Cree is a plus mark (ᐩ); however, some communities prefer to use a superposed dot mark (ᐝ), which is graphically distinct from the common “y final”. It should be noted that this alternative “y final” form should take the shape of a closed “w dot” mark, as well as an open, small ring character, rather than two open ring characters.
@@ -58,10 +43,7 @@ There is variation within Plains Cree communities in terms of the use of differe
 ![INSERT_ALT](images/INSERT_IMG.svg)
 
 </figure>
-<figcaption>INSERT_FIGCAPTION</figcaption>
-
-###### Showing the two variations in the form of the Plains Cree y final.
-
+<figcaption>Showing the two variations in the form of the Plains Cree y final.</figcaption>
 
 Further, when the y-final follows a w-dot modifier mark in these communities using the superposed (ᐝ) “y final”, the double dots combine to form a colon character. There is variation in terms of the shaping of this combination “w + y” final sequence. Some texts show this character as the same superposed sequence as the alternative “y final”, while others distinguish the sequence by rendering it as a ‘kerned’ colon-style symbol.
 
@@ -71,11 +53,7 @@ Further, when the y-final follows a w-dot modifier mark in these communities usi
 ![INSERT_ALT](images/INSERT_IMG.svg)
 
 </figure>
-<figcaption>INSERT_FIGCAPTION</figcaption>
-
-###### An example, above, of the combination sequence that some Plains Cree communities prefer when pure consonant "w" is followed by pure consonant “y”.
-
-
+<figcaption>An example, above, of the combination sequence that some Plains Cree communities prefer when pure consonant "w" is followed by pure consonant “y”.</figcaption>
 
 ## Naskapi *spwaa* preferred form
 
@@ -87,24 +65,16 @@ The Naskapi language community follows the Eastern Cree Syllabics pattern, which
 ![INSERT_ALT](images/INSERT_IMG.svg)
 
 </figure>
-<figcaption>INSERT_FIGCAPTION</figcaption>
-
-###### Demonstrating two compositions of the Naskapi “spwaa” syllabic sequence. Although many typefaces compose this sequence as in example 1, above (U+150B ᔋ CANADIAN SYLLABICS NASKAPI S-W + U+1438 ᐸ CANADIAN SYLLABICS PA), the Naskapi community prefers the singular, composed glyph as in example 2, above.
-
+<figcaption>Demonstrating two compositions of the Naskapi “spwaa” syllabic sequence. Although many typefaces compose this sequence as in example 1, above (U+150B ᔋ CANADIAN SYLLABICS NASKAPI S-W + U+1438 ᐸ CANADIAN SYLLABICS PA), the Naskapi community prefers the singular, composed glyph as in example 2, above.</figcaption>
 
 The primary local preference that Naskapi requires is the combination of the syllabic for the spwaa (ᔌ) syllable. Many commonly available pan-Syllabics and Algonquian Syllabics typefaces provide this syllabic composed as a separated inline sequence. The Naskapi user community prefers the composite version of this syllabic form, with the “spw” modifier stacked on top of the base “pa” syllabic. While this form is intelligible in either composition, stylistically the local community prefers the composite form.
-
 
 ## In summary
 
 The typography of the Syllabics may lack a formal body of literature that users can consult; however, professional typographic implementations can be achieved by observing the practices of local communities in both historical and contemporary documents. By adding to the understanding of the inherent conventions that govern the Syllabics across all of the orthographies that use the script, it is possible to deliver solutions that accommodate the best possible typographic experiences for all readers of this writing system, in their respective languages.
 
-
-
 ## Image Sources:
 Base of map vector artwork designed by Freepik, accessed 7 May 2020, https://www.freepik.com/free-photos-vectors/travel
-
-
 
 ## Works Sourced:
 The following sources were consulted in the analysis and preparation of illustration materials in this article:
@@ -122,8 +92,6 @@ John Maclean, *James Evans: Inventor of the Syllabic system of the Cree language
 [Wawatay News], *ᐗᐗᑌ ᐊᒋᒧᐎᓇᐣ / Wawatay News*, 17 July, 2020 Vol.47, No. 7, PM#0382659799
 
 Arok Wolvengrey, *ᐊᐎᔹᑖᒋᐏᓂᓴ / wawiyatācimowinisa / Funny little stories*. University of Regina Press, 2007.
-
-
 
 ## Acknolwedgements
 The author owes much gratitude to ᓂᓚᐅᓛᖅ ᐊᒡᓘᒃᑲᖅ (Miriam Nilaulaaq Aglukkaq), ᑕᒪᓕᒃ (Janet Tamalik McGrath), ᐊᕐᓇᐅᔪᖅ ᐊᓗᑭ (Arnaoyok Alookee), ᕿ’ᖓᖅᑐᖅ ᐃᑦᑐᓗᒃ (Qi’ngaqtuq Kevin Eetoolook), ᐊᑏᒪ 𑪴ᓪᓚᕆ (Attima Hadlari), ᗮᘧᐣᙒᔆ ᗮᘦᐣᙆ (Francois (Guy) Prince), ᑓᐣᘆᔆ ᗷᒼᗫᐩᘧᐣᐪ (Dennis Cumberland), and Bill Jancewicz, who kindly shared their knowledge and discussed the concepts, local preferences and requirments, and best practices for Syllabics typography presented in this module with the author.

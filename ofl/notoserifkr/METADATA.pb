@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "NotoSerifKR[wght].ttf"
   post_script_name: "NotoSerifKR-ExtraLight"
-  full_name: "Noto Serif KR"
+  full_name: "Noto Serif KR ExtraLight"
   copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
 }
 subsets: "cyrillic"

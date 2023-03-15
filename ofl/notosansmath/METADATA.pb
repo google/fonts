@@ -10,9 +10,11 @@ fonts {
   filename: "NotoSansMath-Regular.ttf"
   post_script_name: "NotoSansMath-Regular"
   full_name: "Noto Sans Math Regular"
-  copyright: "Copyright 2018 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 Google LLC. All Rights Reserved."
 }
-subsets: "menu"
+subsets: "cyrillic"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "math"
 is_noto: true
 sample_text {
@@ -23,4 +25,9 @@ sample_text {
   poster_sm: "⊰⊱⊲⊳⊴⊵⫕ 𝚢𝚣𝚤𝖿𝗀𝗁𝗂"
   poster_md: "𝑻𝑼𝑽𝗔𝗕𝗖𝗗 𝞉𝞩𝟃"
   poster_lg: "ϑϕϰ"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/math.git"
+  archive_url: "https://github.com/notofonts/math/releases/download/NotoSansMath-v2.539/NotoSansMath-v2.539.zip"
 }
+is_noto: true

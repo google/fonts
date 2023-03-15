@@ -6,7 +6,7 @@ To do this, click on the menu showing the name of the font that’s currently se
 
 <figure>
 
-![INSERT_ALT](images/adding_fonts_1.svg)
+![An approximation of the Fonts menu in Google Docs, etc.](images/adding_fonts_1.svg)
 
 </figure>
 
@@ -16,7 +16,7 @@ Added fonts also appear in the “My fonts” list on the right sidebar. From he
 
 <figure>
 
-![INSERT_ALT](images/adding_fonts_2.svg)
+![An approximation of the “More fonts” modal interface in Google Docs, etc., with Montserrat selected.](images/adding_fonts_2.svg)
 
 </figure>
 
@@ -24,7 +24,7 @@ There are a few ways to add a new font. If you know the name, you can search for
 
 <figure>
 
-![INSERT_ALT](images/adding_fonts_3.svg)
+![An approximation of the “More fonts” modal interface in Google Docs, etc., with the Serif classification filter selected.](images/adding_fonts_3.svg)
 
 </figure>
 
@@ -32,7 +32,7 @@ Note that the search box and those options work together, so if you’d like to 
 
 <figure>
 
-![INSERT_ALT](images/adding_fonts_4.svg)
+![An approximation of the “More fonts” modal interface in Google Docs, etc., with the Greek script filter selected, and “Source” in the search box, resulting in matches in the main window.](images/adding_fonts_4.svg)
 
 </figure>
 

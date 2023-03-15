@@ -1,8 +1,11 @@
 In responsive design, the viewport usually refers to the size of the browser window, although it can be any area that a website or app uses as its display surface, not including any “chrome” (for instance, tabs, address bar, status bars, etc.).
 
-IMG
+<figure>
 
-[Figcaption: The viewport size can be the same as the screen size, but only if viewed in full-screen, and only if there’s no other chrome. In most scenarios, the viewport is slightly smaller than the total available screen space.]
+![INSERT_ALT](images/thumbnail.svg)
+
+</figure>
+<figcaption>The viewport size can be the same as the screen size, but only if viewed in full-screen, and only if there’s no other chrome. In most scenarios, the viewport is slightly smaller than the total available screen space.</figcaption>
 
 The horizontal and vertical dimensions of a viewport are more important than the overall screen size of the device, since that would also include any chrome and also assume that the website or app is always interacted with in fullscreen, which is not usually the case.
 

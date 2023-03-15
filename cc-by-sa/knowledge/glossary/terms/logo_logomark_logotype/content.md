@@ -1,8 +1,11 @@
 A logo is a unique combination of elements—usually graphics and type—that creates a reproducible and recognizable design. Depending on the brand and the context, these elements can also exist on their own.
 
-IMG
+<figure>
 
-[Figcaption: 1 shows the full logo: a unique lockup of the logomark and logotype for a fictional brand, created using a customized version of <a href="https://fonts.google.com/specimen/Anybody">Anybody</a>. 2 shows the isolated logomark, suitable for use on social media avatars. 3 shows a logotype with a different arrangement to the one in the main logo, intended to be used when the logomark is absent. Note that the customized diacritics remain—this is not merely the brand name typed out in that font.]
+![INSERT_ALT](images/thumbnail.svg)
+
+</figure>
+<figcaption>1 shows the full logo: a unique lockup of the logomark and logotype for a fictional brand, created using a customized version of <a href="https://fonts.google.com/specimen/Anybody">Anybody</a>. 2 shows the isolated logomark, suitable for use on social media avatars. 3 shows a logotype with a different arrangement to the one in the main logo, intended to be used when the logomark is absent. Note that the customized diacritics remain—this is not merely the brand name typed out in that font.</figcaption>
 
 A logomark is the graphic element, symbol, or icon (for example, Nike’s Swoosh, Starbucks’ siren, or Apple’s apple) that represents the company or brand. 
 

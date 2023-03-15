@@ -2,7 +2,7 @@ An abugida (often also referred to as an alphasyllabary) is a writing system tha
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![Glyphs from a Syllabic script with Latin-specific pronunciation guides.](images/thumbnail.svg)
 
 </figure>
 <figcaption>A diagram depicting syllabics characters, which represent syllables within the Canadian Aboriginal Syllabics writing system scheme. A consonant is represented by a base form, with the vowel in a syllable being inflected depending on the orientation of the base symbol. In the above example, the first line shows the pure vowel series, with subsequent syllable series’ on lines two and three, made up of syllabic base characters across their four rotations.</figcaption>

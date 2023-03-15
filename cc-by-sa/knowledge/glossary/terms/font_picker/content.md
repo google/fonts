@@ -2,7 +2,7 @@ The font picker is the part of a user interface that specifically allows the use
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![An abstract representation of the Font menu user interfaces in popular apps.](images/thumbnail.svg)
 
 <figcaption>On the left: A Font menu similar to the one in many design applications, with a dropdown for the typeface on the top, followed by a dropdown for weights and styles beneath. On the right: A pop-out sub-menu for weights and styles, as seen in Google Workspace apps.</figcaption>
 

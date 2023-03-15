@@ -2,7 +2,7 @@ In type design, spacing refers to the act of setting the horizontal space around
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![The word “axe” with the baseline and x-height shown, and the “x” character highlighted to demonstrate the horizontal spaces inside and outside the glyph.](images/thumbnail.svg)
 
 </figure>
 <figcaption>The blue box illustrates the internal spacing within the “x” glyph; the red boxes illustrate the external spacing. Note how the left and right values are intentionally unequal.</figcaption>

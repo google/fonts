@@ -2,7 +2,7 @@ A logo is a unique combination of elements—usually graphics and type—that cr
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![A full logo on the left, followed by just its logomark in the center, then just a logotype (arranged differently to the main logo) on the right.](images/thumbnail.svg)
 
 </figure>
 <figcaption>1 shows the full logo: a unique lockup of the logomark and logotype for a fictional brand, created using a customized version of <a href="https://fonts.google.com/specimen/Anybody">Anybody</a>. 2 shows the isolated logomark, suitable for use on social media avatars. 3 shows a logotype with a different arrangement to the one in the main logo, intended to be used when the logomark is absent. Note that the customized diacritics remain—this is not merely the brand name typed out in that font.</figcaption>

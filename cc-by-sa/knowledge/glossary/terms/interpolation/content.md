@@ -4,7 +4,7 @@ When a typeface has more than one axis of variation (for example, both weight an
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![Four lowercase “a” characters, each shown in a different weight or width. One of them is highlighted to show that it was generate by a combination of the widest width and heaviest weight.](images/thumbnail.svg)
 
 </figure>
 <figcaption>A light master (top left), a bold master (top right), and a light extended master (bottom left) can be used to create a bold extended style (bottom right) thanks to vector addition.</figcaption>

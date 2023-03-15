@@ -2,7 +2,7 @@ The fixed arrangement of two or more individual elements (e.g. a logomark togeth
 
 <figure>
 
-![INSERT_ALT](images/thumbnail.svg)
+![A fictional logo for a brand called Bespoké Poké, with the customized parts of the logo highlighted, along with guidelines that show how elements are aligned to each other.](images/thumbnail.svg)
 
 </figure>
 <figcaption>A logo for a fictional brand. Note the customized diacritics, highlighted here in blue—made more prominent to fit with the overall weight of the type—and the guidelines, highlighted here in red, to show alignments and spacing specific to this lockup.</figcaption>

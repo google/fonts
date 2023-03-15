@@ -8,7 +8,7 @@ In digital fonts, every [glyph](/glossary/glyph) sits on its own invisible box, 
 
 <figure>
 
-![INSERT_ALT](images/xheights.svg)
+![Two typefaces, Verdana and Baskerville, compared side-by-side, with annotations showing the percentage of the font size taken up by their respective x-heights.](images/xheights.svg)
 
 </figure>
 
@@ -22,7 +22,7 @@ Even young children understand that the closer something is to your eyes, the la
 
 <figure>
 
-![INSERT_ALT](images/angular.svg)
+![Characters shown at different sizes, at different distances, to demonstrate how larger type, furtehr from the eye, is not that different from smaller type, viewed at a closer range.](images/angular.svg)
 
 </figure>
 
@@ -40,7 +40,7 @@ It may seem counterintuitive, but using CSS to specify “absolute” physical u
 
 <figure>
 
-![INSERT_ALT](images/ruler.jpg)
+![A physical ruler in front of a laptop screen, showing that inch-based measurements in CSS don’t acttually correlate to real-world measurements.](images/ruler.jpg)
 
 </figure>
 
@@ -68,7 +68,7 @@ As if all of that wasn’t already tricky enough, it’s also worth considering 
 
 <figure>
 
-![INSERT_ALT](images/widths.svg)
+![Two columns of identical text, both set in the same typeface, but with different width settings. The wider type on the left appears optically larger than the narrower text on the right, even though their actual font size is the same.](images/widths.svg)
 
 </figure>
 

@@ -2,7 +2,7 @@ Most of the time when we set [type](/glossary/type), we do so on a straight line
 
 <figure>
 
-![INSERT_ALT](images/curved_1.svg)
+![Wrapped text on a watch-like interface, and zoomed in to show the curved baseline.](images/curved_1.svg)
 
 </figure>
 
@@ -12,14 +12,14 @@ The first method, warping, is where the actual geometry of the [glyphs](/glossar
 
 <figure>
 
-![INSERT_ALT](images/curved_2a.svg)
+![Three settings of the word “Warped”, on the same sized circular path, but each at a different font size. The distortion increases from left to right.](images/curved_2a.svg)
 
 </figure>
 <figcaption>Warping. Circle path remains the same; font size changes. Typeface: <a href="https://fonts.google.com/specimen/Roboto+Flex?query=Roboto+Flex&vfonly=true">Roboto Flex</a>.</figcaption>
 
 <figure>
 
-![INSERT_ALT](images/curved_2b.svg)
+![Three settings of the word “Warped”, on three circles of a different size, but each at the same font size. The distortion increases from top to bottom.](images/curved_2b.svg)
 
 </figure>
 <figcaption>Warping. Circle path changes; font size remains the same. Typeface: <a href="https://fonts.google.com/specimen/Roboto+Flex?query=Roboto+Flex&vfonly=true">Roboto Flex</a>.</figcaption>
@@ -30,14 +30,14 @@ The second method, wrapping, is where we set text along a path so that each glyp
 
 <figure>
 
-![INSERT_ALT](images/curved_3a.svg)
+![Three settings of the word “Wraparound”, on the same sized circular path, but each at a different font size. The distortion increases from left to right.](images/curved_3a.svg)
 
 </figure>
 <figcaption>Wrapping. Circle path remains the same; font size changes. Typeface: <a href="https://fonts.google.com/specimen/Roboto+Flex?query=Roboto+Flex&vfonly=true">Roboto Flex</a>.</figcaption>
 
 <figure>
 
-![INSERT_ALT](images/curved_3b.svg)
+![Three settings of the word “Wraparound”, on three circles of a different size, but each at the same font size. The distortion increases from top to bottom.](images/curved_3b.svg)
 
 </figure>
 <figcaption>Wrapping. Circle path changes; font size remains the same. Typeface: <a href="https://fonts.google.com/specimen/Roboto+Flex?query=Roboto+Flex&vfonly=true">Roboto Flex</a>.</figcaption>
@@ -46,7 +46,7 @@ Despite this, when setting type around a full circle, it usually looks better to
 
 <figure>
 
-![INSERT_ALT](images/curved_4.svg)
+![“House Plant Heaven” set around a circle, with the first two words around the top and the word “Heaven” at the bottom. Then, the same again, but without the word “House”.](images/curved_4.svg)
 
 </figure>
 <figcaption>The hypothetical logo on the left looks better, as it helps imply the whole circle. Typeface: <a href="https://fonts.google.com/specimen/Anybody">Anybody</a>.</figcaption>
@@ -55,7 +55,7 @@ However, the wrapping or rotation-based option will potentially introduce notice
 
 <figure>
 
-![INSERT_ALT](images/curved_5.svg)
+![“Lazy dogs” set around two circles of the same size, at the same font size, but with different width settings for the type. The wider type takes up more space around the cirle.](images/curved_5.svg)
 
 </figure>
 <figcaption>Experimenting with the width axis in <a href="https://fonts.google.com/specimen/Anybody">Anybody</a>.</figcaption>
@@ -66,7 +66,7 @@ With this in mind, it’s advisable to experiment with different widths and diff
 
 <figure>
 
-![INSERT_ALT](images/curved_6.svg)
+![An approximation of a map, with curved text denoting street names. There are two examples, each using the same road shapes, but with the text set in uppercase in the first example, and sentence case in the second.](images/curved_6.svg)
 
 </figure>
 
@@ -74,7 +74,7 @@ To an extent, [serifs](/glossary/serif) can help to minimize the distorted space
 
 <figure>
 
-![INSERT_ALT](images/curved_7.svg)
+![“Mind the gaps” set on identical paths, but in a sans serif typeface on the left and its slab serif counterpart on the right. Then, beneath, the same type with the spaces between the letterforms highlighted.](images/curved_7.svg)
 
 </figure>
 <figcaption>With the sans serif, the triangular gaps become more consistent and obvious, and potentially more distracting. Typefaces: <a href="https://fonts.google.com/specimen/Roboto">Roboto</a> and <a href="https://fonts.google.com/specimen/Roboto+Slab">Roboto Slab</a>.</figcaption>

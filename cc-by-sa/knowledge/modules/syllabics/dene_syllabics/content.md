@@ -4,10 +4,9 @@ The Dene (Athabaskan) Syllabics faced orthographic requirements that differed fr
 
 The Dene Syllabics use the square form style, with all communities preferring this form over the round form. It can even be argued that the square form use in the Dene Syllabics is a requirement for these orthographies, due to the required behaviors of the finals marks in these systems. In contrast to the Algonquian and Inuktut Syllabics, the Dene Syllabics needed to represent in their orthographies a much greater range of consonants and their corresponding syllables. As a result, finals characters were designed to sit at varying vertical positions in relation to the baseline and topline. This meant that having a uniform height for the syllabic characters was essential in order that readers were able to distinguish these finals marks.
 
-! [Showing a comparison of the same words in the Square form and Round form Syllabics styles](/article_04_figure_01)
 <figure>
 
-![INSERT_ALT](images/INSERT_IMG.svg)
+![Showing a comparison of the same words in the Square form and Round form Syllabics styles](images/article_04_figure_01.svg)
 
 </figure>
 <figcaption>A comparison of Sayisi Dene Syllabics in the round form style (top) and the square form style (bottom). Note that the square form style in the bottom sample allows for the variation in the vertical positioning of the finals characters to be more clearly distinguished than in the round form style showing of the same text.</figcaption>
@@ -18,10 +17,9 @@ The vertical positioning of finals is largely stylistic in many Syllabics orthog
 
 The UCAS code charts use the topline position for all finals characters, and as a result, all commonly available typefaces (especially those at the system level, which are the most accessible to these communities) have finals marks rendered at the topline position. This results in many northern Dene Syllabics communities not being able to render their finals at the vertical positions they require in the typefaces to which they have access. **1**
 
-! [Syllabics-using languages community map](/article_04_figure_02)
 <figure>
 
-![INSERT_ALT](images/INSERT_IMG.svg)
+![Syllabics-using languages community map](images/article_04_figure_02.svg)
 
 </figure>
 <figcaption>A showing of the vertical positioning variation for finals characters across four separate Athabaskan languages that use the Dene Syllabics.</figcaption>
@@ -29,6 +27,7 @@ The UCAS code charts use the topline position for all finals characters, and as 
 As a result of these preferences, Syllabics fonts wishing to support the Dene Syllabics should provide the correct vertical positioning schemes for all Dene Syllabics orthographies by offering midline and baseline finals.
 
 ## In summary
+
 The typography of the Syllabics may lack a formal body of literature that users can consult; however, professional typographic implementations can be achieved by observing the practices of local communities in both historical and contemporary documents. By adding to the understanding of the inherent conventions that govern the Syllabics across all of the orthographies that use the script, it is possible to deliver solutions that accommodate the best possible typographic experiences for all readers of this writing system, in their respective languages.
 
 ## Endnotes:
@@ -38,9 +37,11 @@ The typography of the Syllabics may lack a formal body of literature that users 
 accessed 8 June 2021, http://www.languagegeek.com/typography/syllabics/syllabic_variation.pdf 
 
 ## Image Sources:
+
 Base of map vector artwork designed by Freepik, accessed 7 May 2020, https://www.freepik.com/free-photos-vectors/travel
 
 ## Works Sourced:
+
 The following sources were consulted in the analysis and preparation of illustration materials in this article:
 
 William Carpenter Bompass, *Prayers, lessons, and hymns in the Tenni or Slavi language of the Indians of Mackenzie River in the North-West Territory of Canada*. London, Society for Promoting Christian Knowledge, 1900
@@ -58,4 +59,5 @@ Louise Perrault, *Prières, cantiques et catechisme en langue Montagnaise ou Chi
 Jean Baptiste Thibault, *ᐊᔭᒥᐁ ᓀᐃᔭᐁᐧᒪᓯᓇᐃᑲᐣ ᐊᔭᒥᐊᐃᐧᓇ ᓇᑲᒧᓇ ᒥᓇ ᑭᐢᑭᓄᐊᒪᑐᐃᐧᓇ / Prières, cantiques, catéchisme, etc., en langue crise*, Imprimerie de Louis Perrault, Montréal, 1866
 
 ## Acknolwedgements
+
 The author owes much gratitude to ᓂᓚᐅᓛᖅ ᐊᒡᓘᒃᑲᖅ (Miriam Nilaulaaq Aglukkaq), ᑕᒪᓕᒃ (Janet Tamalik McGrath), ᐊᕐᓇᐅᔪᖅ ᐊᓗᑭ (Arnaoyok Alookee), ᕿ’ᖓᖅᑐᖅ ᐃᑦᑐᓗᒃ (Qi’ngaqtuq Kevin Eetoolook), ᐊᑏᒪ 𑪴ᓪᓚᕆ (Attima Hadlari), ᗮᘧᐣᙒᔆ ᗮᘦᐣᙆ (Francois (Guy) Prince), ᑓᐣᘆᔆ ᗷᒼᗫᐩᘧᐣᐪ (Dennis Cumberland), and Bill Jancewicz, who kindly shared their knowledge and discussed the concepts, local preferences and requirments, and best practices for Syllabics typography presented in this module with the author.

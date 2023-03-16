@@ -1,81 +1,91 @@
 The Syllabics—sometimes referred to as the Canadian Aboriginal Syllabics—is a writing system used by several Indigenous language communities in Canada and the United States, including nêhiyawêwin (Cree), Anishinaabemowin (Ojibwe), Inuktut (Inuktitut), Dakelh (Carrier), iyuw iyimuun (Naskapi), and Saı́yısı́ dëne (Sayisi Dene). Syllabics represent the phonetic structure of Indigenous languages through a unique system of rotation in which vowels are indicated by the orientation of the base character across four possible positions (ᕓ=fe, ᕗ=fo, ᕙ=fa, ᕕ=fi). Consonants are represented by small, raised characters, which may or may not be superscript versions of the base syllable (ᓇᓂᓄᓀᐣ or ᓇᓂᓄᓀᓐ). A range of full-size Syllabic characters and its corresponding final character are called a series. Diacritics are placed above syllables mark vowel extensions, which take the form of a dot or ring mark, depending on the orthography (ᕖ ᕔ).
 
-! [Syllabics-using languages community map](/article_01_figure_01)
 <figure>
 
-![INSERT_ALT](images/INSERT_IMG.svg)
+![Syllabics-using languages community map](images/article_01_figure_01_png.png)
 
 </figure>
-<figcaption>INSERT_FIGCAPTION</figcaption>
+<figcaption>Above, a map depicting the geographic distribution of the three major Syllabics orthographic / typographic traditions: the Algonquian Syllabics, Inuktut Syllabics, and Dene Syllabics. Additionally, the historical Blackfoot Syllabics system—while based on the pattern of Cree Syllabics orthographically—deviates visually enough from these three major systems to be considered a graphic isolate.</figcaption>
 
-##### **Algonquian Syllabics**
-##### *Ojibwe / Anishinaabemowin Syllabics (ᐊᓂᔑᓇᐯᒧᐎᐣ)*
-- ##### Oji-Cree (ᐊᓂᐦᔑᓂᓃᒧᐏᐣ)
-- ##### Berens River Ojibwe (ᐊᓂᔑᓇᐯᒧᐎᓐ)
-- ##### Northwestern Ojibwe (ᓂᐊᑲᐤᐁᒧᐎᓐ)
-- ##### Western Ojibwe (ᓇᐦᑲᐍᒧᐏᐣ)
-- ##### Western Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
-##### *Plains Cree (ᓀᐦᐃᔭᐍᐏᐣ)*
-- ##### Saskatchewan Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
-- ##### Manitoba Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
-- ##### Maskwacis Plains Cree (ᓀᐦᐃᔭᐌᐎᐣ)
-- ##### Northern Plains Cree (ᓀᐦᐃᔭᐍᒧᐏᐣ)
-- ##### Woods Cree (ᓀᐦᐃᖬᐍᐏᐣ)
-- ##### Western Swampy Cree (ᐃᓂᓃᒧᐏᐣ)
-- ##### Eastern Swampy Cree (ᐃᓂᓂᐎ ᐃᔑᑭᔗᐎᐣ)
+### Algonquian Syllabics
 
-##### *Eastern Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)**
-- ##### Moose Cree (ᐃᓕᓖᒧᐎᓐ)
-- ##### Southern East Cree (ᐄᓅ ᐊᔨᒨᓐ)
-- ##### Northern East Cree (ᐄᔨᔫ ᐊᔨᒨᓐ)
-- ##### Naskapi / Iyuw Iyimuun (ᐃᔪᐤ ᐃᔨᒧᐅᓐ)
+Ojibwe / Anishinaabemowin Syllabics (ᐊᓂᔑᓇᐯᒧᐎᐣ)
 
-##### **Inuktut syllabics**
-##### *Eastern Canadian Inuktut (ᐃᓄᒃᑎᑐᑦ)*
-- ##### Aivilingmiutut
-- ##### Sagliq (ᓴᒡᓕᖅ)
-- ##### Qangiqłiniq (ᑲᖏᖅᖠᓂᖅ) 
-- ##### Kivallirmiutut (ᑭᕙᓪᓕᖅ)
-- ##### Qairnirmiut (ᖃᒪᓂᑦᑐᐊᖅ)
-- ##### Hauniqturmiut (ᑎᑭᕋᕐᔭᖅ)
-- ##### Paallirmiut (ᑎᑭᕋᕐᔭᖅ)
-- ##### Ahiarmiut
-- ##### Nunavimmiuttitut (ᓄᓇᕕᒻᒥᐅᑎᑐᑦ)
-- ##### Itivimiut
-- ##### Tarramiut
-- ##### Qikiqtaaluk nigiani (ᕿᑭᖅᑖᓗᒃ ᓂᒋᐊᓂ)
-- ##### Southeast Baffin
-- ##### Southwest Baffin
-- ##### Qikiqtaaluk uannangani
-- ##### Iglulingmiut (ᐃᒡᓗᓕᒃ)
-- ##### Tununirmiut
-##### *Western Canadian Inuktut*
-- ##### Nattilingmiutut (ᓇᑦᑎᓕᖕᒥᐅᑐᑦ)
+- Oji-Cree (ᐊᓂᐦᔑᓂᓃᒧᐏᐣ)
+- Berens River Ojibwe (ᐊᓂᔑᓇᐯᒧᐎᓐ)
+- Northwestern Ojibwe (ᓂᐊᑲᐤᐁᒧᐎᓐ)
+- Western Ojibwe (ᓇᐦᑲᐍᒧᐏᐣ)
+- Western Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
 
-##### **Dene Syllabics**
-##### *Dulk wah'ke (ᑐᑊᘁᗕᑋᗸ)*
-- ##### Dakelh / Carrier (ᑕᗸᒡ)
-- ##### Nadot’en (ᘇᑎᗥᐣ)
-- ##### Witsuwit’en (ᗘᙢᗥᐣ)
-- ##### Tsek’ ene (ᒡᗧᗥᐣ)
-##### *General Dene Syllabics*
-- ##### Beaver (ᑕᓀᖚ ᖚᗀᐥ)
-- ##### Chipewyan / Denesųłiné Yatíe (ᑌᓀ ᓱᒼᕄᓀ ᔭᕠᐁ)
-- ##### Saı́yısı́ dëne
-- ##### North Slavey / Sahtúot’ı˛nę Yat’í˛ (ᓴᑋᕲᖌᑎᑊᐠᓀᐠ ᔭᕱ)
-- ##### K’áshogot’ıné / K’ásho (ᑲᑊᗱᑯᑎᑊᓀ)
-- ##### Sahtúgot’ıné / Délįne (ᓴᑋᕲᒼᑯᑎᑊᓀ)
-- ##### Shıhgot’ıne / Shúhta (ᗰᑋᑯᑎᑊᓀ)
-- ##### South Slavey / Dene K'e (ᑌᓀ ᒐ)
+Plains Cree (ᓀᐦᐃᔭᐍᐏᐣ)
+- Saskatchewan Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
+- Manitoba Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
+- Maskwacis Plains Cree (ᓀᐦᐃᔭᐌᐎᐣ)
+- Northern Plains Cree (ᓀᐦᐃᔭᐍᒧᐏᐣ)
+- Woods Cree (ᓀᐦᐃᖬᐍᐏᐣ)
+- Western Swampy Cree (ᐃᓂᓃᒧᐏᐣ)
+- Eastern Swampy Cree (ᐃᓂᓂᐎ ᐃᔑᑭᔗᐎᐣ)
 
-##### **Graphic Isolate**
-##### *Blackfoot / Siksiká (ᓱᖽᐧᖿ)*
-- ##### Kainai (ᖿᐟᖻ) 
-- ##### Piikani / Brocket (ᑯᖾᖹ)
-- ##### Aapátohsipikani / Northern Piegan
-- ##### Aamsskáápipikani / Southern Piegan
+Eastern Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
+- Moose Cree (ᐃᓕᓖᒧᐎᓐ)
+- Southern East Cree (ᐄᓅ ᐊᔨᒨᓐ)
+- Northern East Cree (ᐄᔨᔫ ᐊᔨᒨᓐ)
+- Naskapi / Iyuw Iyimuun (ᐃᔪᐤ ᐃᔨᒧᐅᓐ)
 
-###### Above, a map depicting the geographic distribution of the three major Syllabics orthographic / typographic traditions: the Algonquian Syllabics, Inuktut Syllabics, and Dene Syllabics. Additionally, the historical Blackfoot Syllabics system—while based on the pattern of Cree Syllabics orthographically—deviates visually enough from these three major systems to be considered a graphic isolate.
+### Inuktut syllabics
+
+Eastern Canadian Inuktut (ᐃᓄᒃᑎᑐᑦ)
+
+- Aivilingmiutut
+- Sagliq (ᓴᒡᓕᖅ)
+- Qangiqłiniq (ᑲᖏᖅᖠᓂᖅ) 
+- Kivallirmiutut (ᑭᕙᓪᓕᖅ)
+- Qairnirmiut (ᖃᒪᓂᑦᑐᐊᖅ)
+- Hauniqturmiut (ᑎᑭᕋᕐᔭᖅ)
+- Paallirmiut (ᑎᑭᕋᕐᔭᖅ)
+- Ahiarmiut
+- Nunavimmiuttitut (ᓄᓇᕕᒻᒥᐅᑎᑐᑦ)
+- Itivimiut
+- Tarramiut
+- Qikiqtaaluk nigiani (ᕿᑭᖅᑖᓗᒃ ᓂᒋᐊᓂ)
+- Southeast Baffin
+- Southwest Baffin
+- Qikiqtaaluk uannangani
+- Iglulingmiut (ᐃᒡᓗᓕᒃ)
+- Tununirmiut
+
+Western Canadian Inuktut
+
+- Nattilingmiutut (ᓇᑦᑎᓕᖕᒥᐅᑐᑦ)
+
+### Dene Syllabics
+
+Dulk wah'ke (ᑐᑊᘁᗕᑋᗸ)
+
+- Dakelh / Carrier (ᑕᗸᒡ)
+- Nadot’en (ᘇᑎᗥᐣ)
+- Witsuwit’en (ᗘᙢᗥᐣ)
+- Tsek’ ene (ᒡᗧᗥᐣ)
+
+General Dene Syllabics
+
+- Beaver (ᑕᓀᖚ ᖚᗀᐥ)
+- Chipewyan / Denesųłiné Yatíe (ᑌᓀ ᓱᒼᕄᓀ ᔭᕠᐁ)
+- Saı́yısı́ dëne
+- North Slavey / Sahtúot’ı˛nę Yat’í˛ (ᓴᑋᕲᖌᑎᑊᐠᓀᐠ ᔭᕱ)
+- K’áshogot’ıné / K’ásho (ᑲᑊᗱᑯᑎᑊᓀ)
+- Sahtúgot’ıné / Délįne (ᓴᑋᕲᒼᑯᑎᑊᓀ)
+- Shıhgot’ıne / Shúhta (ᗰᑋᑯᑎᑊᓀ)
+- South Slavey / Dene K'e (ᑌᓀ ᒐ)
+
+### Graphic Isolate
+
+Blackfoot / Siksiká (ᓱᖽᐧᖿ)
+
+- Kainai (ᖿᐟᖻ) 
+- Piikani / Brocket (ᑯᖾᖹ)
+- Aapátohsipikani / Northern Piegan
+- Aamsskáápipikani / Southern Piegan
 
 In order to grasp the scope of local typographic variation in the Syllabics script, we need to first understand the fundamental styles that exist within the system, how Syllabics spread to communities across the continent, the uses of the Syllabics in these communities—both historical and contemporary—and the encoding practice that was undertaken by the original script encoding committee that developed the Unified Canadian Syllabics repertoire within the Unicode Standard. By exploring these factors, and the context behind them, we can begin to see why particular typographic preferences exist across various communities. This also helps explain why some communities’ preferences are clearly met within the current digital text standards (Unicode), and why others are not.
 

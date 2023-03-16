@@ -1,5 +1,5 @@
 name: "Julee"
-designer: "Julian Tunni"
+designer: "Juliàn Tunni"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-09-07"

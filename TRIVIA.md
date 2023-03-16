@@ -41,10 +41,14 @@ They are no longer listed in the [fonts.google.com](https://fonts.google.com) ca
 | `spartan`                | `leaguespartan`          | expanded |
 | `scheherazade`           | `scheherazadenew`        | expanded |
 | `kdamthmor`              | `kdamthmorpro`           | expanded |
-| `andikanewbasic          | `andika`                 | expanded |
+| `andikanewbasic`         | `andika`                 | expanded |
 | `gentiumbasic`           | `gentiumplus`            | expanded |
 | `andada`                 | `andadapro`              | expanded |
-| `muli`                   | `mulish`                 | expanded |
+| `fredokaone`             | `fredoka`                | expanded |
+| `gentiumbookbasic`       | `gentiumbookplus`        | expanded |
+| `arimamadurai`           | `arima`                  | expanded |
+| `meriendaone`            | `merienda`               | expanded |
+| `codacaption`            | `coda`                   | expanded |
 
 
 ## Missing METADATA.pb files

@@ -28,7 +28,7 @@ There are a few ways to add a new font. If you know the name, you can search for
 
 </figure>
 
-Note that the search box and those options work together, so if you’d like to search for a font called “Source” that, for instance, contains glyphs for the Greek script, you could do so. This is also a handy way to quickly check [language support](/lesson/a_checklist_for_choosing_type).
+Note that the search box and those options work together, so if you’d like to search for a font called “Source” that, for instance, contains glyphs for the Greek script, you could do so. This is also a handy way to quickly check [language support](lesson/a_checklist_for_choosing_type).
 
 <figure>
 

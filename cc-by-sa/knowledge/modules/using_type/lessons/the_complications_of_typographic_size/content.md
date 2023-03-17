@@ -36,7 +36,7 @@ CSS media queries and responsive design go a long way toward compensating for al
 
 ## It is currently impossible to confidently work with exact physical sizes on the web
 
-It may seem counterintuitive, but using CSS to specify “absolute” physical units like [points](/glossary/point), centimeters, or inches will not allow you to work with actual physical sizes in most cases. You can set the width of an element to `12in` in CSS, but if you measure the result as rendered on any given device it may not (and very likely won’t) be exactly 12 inches wide. And, in fact, it will probably be rendered at a different physical sizes between different devices.
+It may seem counterintuitive, but using CSS to specify “absolute” physical units like [points](/glossary/point_size), centimeters, or inches will not allow you to work with actual physical sizes in most cases. You can set the width of an element to `12in` in CSS, but if you measure the result as rendered on any given device it may not (and very likely won’t) be exactly 12 inches wide. And, in fact, it will probably be rendered at a different physical sizes between different devices.
 
 <figure>
 

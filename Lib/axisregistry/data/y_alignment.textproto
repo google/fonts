@@ -12,5 +12,5 @@ fallback {
 fallback_only: false
 description:
   "Align glyphs from their default position (0%),"
-  " usually the baseline, to a lower (-100%)"
-  " or upper (100%) bound."
+  " usually the baseline, to an upper (100%)"
+  " or lower (-100%) position."

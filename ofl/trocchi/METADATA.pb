@@ -10,8 +10,12 @@ fonts {
   filename: "Trocchi-Regular.ttf"
   post_script_name: "Trocchi-Regular"
   full_name: "Trocchi Regular"
-  copyright: "Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)"
+  copyright: "Copyright 2012 The Trocchi Project Authors (https://github.com/m4rc1e/Trocchi)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/m4rc1e/Trocchi"
+  commit: "543ac4fee3173ed80706c4caf5398b8bb3439ae1"
+}

@@ -28,7 +28,7 @@ There are a few ways to add a new font. If you know the name, you can search for
 
 </figure>
 
-Note that the search box and those options work together, so if you’d like to search for a font called “Source” that, for instance, contains glyphs for the Greek script, you could do so. This is also a handy way to quickly check [language support](lesson/a_checklist_for_choosing_type).
+Note that the search box and those options work together, so if you’d like to search for a font called “Source” that, for instance, contains glyphs for the Greek script, you could do so. This is also a handy way to quickly check [language support](/lesson/a_checklist_for_choosing_type).
 
 <figure>
 
@@ -40,4 +40,4 @@ Tip: If you’re not able to find what you want via this interface, just open up
 
 Note that any fonts you add here will persist within that Workspace app, so once you’ve added a font once, you won’t need to do it again next time you open that app.
 
-Not sure where to start when it comes to choosing a typeface for your document? Check out our article, [“A checklist for choosing type.”](lesson/a_checklist_for_choosing_type)
+Not sure where to start when it comes to choosing a typeface for your document? Check out our article, [“A checklist for choosing type.”](/lesson/a_checklist_for_choosing_type)

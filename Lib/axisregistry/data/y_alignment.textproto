@@ -1,0 +1,16 @@
+#YALN based on [Wavefont](https://github.com/dy/wavefont)
+tag: "YALN"
+display_name: "Y Alignment"
+min_value: -100
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Align glyphs from their default position (0%),"
+  " usually the baseline, to a lower (-100%)"
+  " or upper (100%) bound."

@@ -91,11 +91,3 @@ Multiple versions of characters (accessed via [OpenType](/glossary/open_type)) h
 We explore OpenType in more depth in our article [“OpenType features in practice.”](/lesson/open_type_features_in_practice)
 
 Thanks to the work of professional [type designers](/glossary/type_designer), who often invest years of work in creating truly robust typefaces, many of the fonts we have at our disposal offer us a great deal of versatility. Understanding all that can potentially be found in a typeface lets us properly assess how reliable (or unreliable) they can be for our projects.
-
-## A note on fonts named “Pro”
-
-You might notice that some fonts have the “Pro” suffix. This was a naming convention that was developed by Adobe around the year 2000 as a way of differentiating between older PostScript versions of their fonts (no suffix), and newer OpenType versions: Either “Std” for standard, which might have merged supplemental fonts, but with no additional characters or language support), or “Pro” versions which were reworked with bigger character sets. A similar system was adopted by Monotype at around the same time. 
-
-Since then, however, the idea of what “Pro” actually means has evolved as it’s been adopted by other foundries and font distributors. In practice, any type designer can add “Pro” to the name of their font and use it as a marketing tactic, so it pays to be aware of what the name convention can and cannot mean. 
-
-We also often use the words “professional” or “pro” to talk about how well-made a font is, and that level of quality has nothing to do with how the font is named. For more information, please read Mary Catherine Pflug’s article [“What’s in a name? The perception of Pro”](https://medium.com/@mcpflug/whats-in-a-name-the-perception-of-pro-7fffa6cddcb8) and [“Quality type: how to spot fonts worth your money”](https://www.type-together.com/font-quality) from TypeTogether.

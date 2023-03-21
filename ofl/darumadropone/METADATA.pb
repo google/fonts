@@ -16,3 +16,7 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/ManiackersDesign/darumadrop"
+  commit: "ddbe82834bdab1ecc24adad09cc122d6e8678a81"
+}

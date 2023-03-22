@@ -10,11 +10,14 @@ fonts {
   filename: "NotoSansNagMundari[wght].ttf"
   post_script_name: "NotoSansNagMundari-Regular"
   full_name: "Noto Sans Nag Mundari Regular"
-  copyright: "\"Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)"
+  copyright: "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "nag-mundari"
+primary_script: "Nagm"
+languages: "unr_Nagm"  # Mundari (Nag Mundari)
 axes {
   tag: "wght"
   min_value: 400.0

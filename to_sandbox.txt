@@ -20,6 +20,7 @@ ofl/pathwaygothicone # https://github.com/google/fonts/pull/6006
 ofl/trocchi # https://github.com/google/fonts/pull/6047
 
 # Designer profile
+catalog/designers/clauseggerssorensen # https://github.com/google/fonts/pull/6063
 catalog/designers/jordanegstad # https://github.com/google/fonts/pull/6030
 catalog/designers/juliantunni # https://github.com/google/fonts/pull/5982
 catalog/designers/nguyentype # https://github.com/google/fonts/pull/6043
@@ -44,3 +45,7 @@ ofl/julee # https://github.com/google/fonts/pull/6038
 ofl/limelight # https://github.com/google/fonts/pull/6031
 ofl/limelight # https://github.com/google/fonts/pull/6032
 ofl/merriweathersans # https://github.com/google/fonts/pull/6031
+
+# Sample texts
+lang/languages/unr_Nagm.textproto # https://github.com/google/fonts/pull/6059
+lang/scripts/Nagm.textproto # https://github.com/google/fonts/pull/6059

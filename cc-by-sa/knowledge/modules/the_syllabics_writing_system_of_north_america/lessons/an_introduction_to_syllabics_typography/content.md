@@ -1,4 +1,4 @@
-The Syllabics—sometimes referred to as the Canadian Aboriginal Syllabics—is a writing system used by several Indigenous language communities in Canada and the United States, including nêhiyawêwin (Cree), Anishinaabemowin (Ojibwe), Inuktut (Inuktitut), Dakelh (Carrier), iyuw iyimuun (Naskapi), and Saı́yısı́ dëne (Sayisi Dene). Syllabics represent the phonetic structure of Indigenous languages through a unique system of rotation in which vowels are indicated by the orientation of the base character across four possible positions (ᕓ=fe, ᕗ=fo, ᕙ=fa, ᕕ=fi). Consonants are represented by small, raised characters, which may or may not be superscript versions of the base syllable (ᓇᓂᓄᓀᐣ or ᓇᓂᓄᓀᓐ). A range of full-size Syllabic characters and its corresponding final character are called a series. Diacritics are placed above syllables mark vowel extensions, which take the form of a dot or ring mark, depending on the orthography (ᕖ ᕔ).
+The Syllabics—sometimes referred to as the Canadian Aboriginal Syllabics—is a writing system used by several Indigenous language communities in Canada and the United States, including nêhiyawêwin (Cree), Anishinaabemowin (Ojibwe), Inuktut (Inuktitut), Dakelh (Carrier), iyuw iyimuun (Naskapi), and Saı́yısı́ dëne (Sayisi Dene). 
 
 <figure>
 
@@ -7,7 +7,7 @@ The Syllabics—sometimes referred to as the Canadian Aboriginal Syllabics—is 
 </figure>
 <figcaption>Above, a map depicting the geographic distribution of the three major Syllabics orthographic / typographic traditions: the Algonquian Syllabics, Inuktut Syllabics, and Dene Syllabics. Additionally, the historical Blackfoot Syllabics system—while based on the pattern of Cree Syllabics orthographically—deviates visually enough from these three major systems to be considered a graphic isolate.</figcaption>
 
-### Algonquian Syllabics
+#### Algonquian Syllabics
 
 Ojibwe / Anishinaabemowin Syllabics (ᐊᓂᔑᓇᐯᒧᐎᐣ)
 
@@ -32,7 +32,7 @@ Eastern Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
 - Northern East Cree (ᐄᔨᔫ ᐊᔨᒨᓐ)
 - Naskapi / Iyuw Iyimuun (ᐃᔪᐤ ᐃᔨᒧᐅᓐ)
 
-### Inuktut syllabics
+#### Inuktut syllabics
 
 Eastern Canadian Inuktut (ᐃᓄᒃᑎᑐᑦ)
 
@@ -58,7 +58,7 @@ Western Canadian Inuktut
 
 - Nattilingmiutut (ᓇᑦᑎᓕᖕᒥᐅᑐᑦ)
 
-### Dene Syllabics
+#### Dene Syllabics
 
 Dulk wah'ke (ᑐᑊᘁᗕᑋᗸ)
 
@@ -78,7 +78,7 @@ General Dene Syllabics
 - Shıhgot’ıne / Shúhta (ᗰᑋᑯᑎᑊᓀ)
 - South Slavey / Dene K'e (ᑌᓀ ᒐ)
 
-### Graphic Isolate
+#### Graphic Isolate
 
 Blackfoot / Siksiká (ᓱᖽᐧᖿ)
 
@@ -86,6 +86,10 @@ Blackfoot / Siksiká (ᓱᖽᐧᖿ)
 - Piikani / Brocket (ᑯᖾᖹ)
 - Aapátohsipikani / Northern Piegan
 - Aamsskáápipikani / Southern Piegan
+
+## The fundamentals of Syllabics‘ construction
+
+Syllabics represent the phonetic structure of Indigenous languages through a unique system of rotation in which vowels are indicated by the orientation of the base character across four possible positions (ᕓ=fe, ᕗ=fo, ᕙ=fa, ᕕ=fi). Consonants are represented by small, raised characters, which may or may not be superscript versions of the base syllable (ᓇᓂᓄᓀᐣ or ᓇᓂᓄᓀᓐ). A range of full-size Syllabic characters and its corresponding final character are called a series. Diacritics are placed above syllables mark vowel extensions, which take the form of a dot or ring mark, depending on the orthography (ᕖ ᕔ).
 
 In order to grasp the scope of local typographic variation in the Syllabics script, we need to first understand the fundamental styles that exist within the system, how Syllabics spread to communities across the continent, the uses of the Syllabics in these communities—both historical and contemporary—and the encoding practice that was undertaken by the original script encoding committee that developed the Unified Canadian Syllabics repertoire within the Unicode Standard. By exploring these factors, and the context behind them, we can begin to see why particular typographic preferences exist across various communities. This also helps explain why some communities’ preferences are clearly met within the current digital text standards (Unicode), and why others are not.
 
@@ -167,7 +171,7 @@ The “square” form style is characterized by the uniformity of all character 
 
 ## Word space
 
-In order for Syllabics word images to be legible and easily read in text settings of any kind, the word space character must be much wider in comparison to the conventional Latin word space. **1**
+In order for Syllabics word images to be legible and easily read in text settings of any kind, the word space character must be much wider in comparison to the conventional Latin word space.<a id="back-1" href="#1"><sup>1</sup></a>
 
 This wider word space is required primarily due to the very wide stance of the Syllabics system, exacerbated by the frequency of large, open counter spaces that result in pockets of whitespace throughout paragraphs of text. The space glyph in the Syllabics text must be roughly as wide as the width of the largest counterspaces (commonly, characters such as ᐃᐊᑎᑕ), allowing for word images to be clearly distinguished from one another.
 
@@ -333,15 +337,16 @@ Often, analyses of the Syllabics as a writing system focus on the major and mino
 
 The typography of the Syllabics may lack a formal body of literature that users can consult; however, professional typographic implementations can be achieved by observing the practices of local communities in both historical and contemporary documents. By adding to the understanding of the inherent conventions that govern the Syllabics across all of the orthographies that use the script, it is possible to deliver solutions that accommodate the best possible typographic experiences for all readers of this writing system, in their respective languages.
 
-## Endnotes:
+## Endnotes
 
-**1** Bill Jancewicz, Algonquian Syllabics expert, notes that ‘Much more difficulty has been experienced however with the whitespace, in particular the word-space character, which is encoded in BJCree UNI at somewhat wider than an em. The Euphemia word space is much too narrow for legible reading of syllabics.’
-> Bill Jancewicz; in email correspondence with the author, Jancewicz described several issues surrounding digital Syllabics typography, including the space character. He describes in the above quote excerpt his solution for the space character in his BJCree UNI typeface, a freely available Syllabics typeface. ‘Proposal for additions to UCAS’, 24 August 2020, 9:40pm EST.
+<a id="1" href="#back-1">1.</a> Bill Jancewicz, Algonquian Syllabics expert, notes (in email correspondence with the author) that “Much more difficulty has been experienced however with the whitespace, in particular the word-space character, which is encoded in BJCree UNI at somewhat wider than an em. The Euphemia word space is much too narrow for legible reading of syllabics.”
 
-## Image Sources:
-Base of map vector artwork designed by Freepik, accessed 7 May 2020, https://www.freepik.com/free-photos-vectors/travel
+The author owes much gratitude to ᓂᓚᐅᓛᖅ ᐊᒡᓘᒃᑲᖅ (Miriam Nilaulaaq Aglukkaq), ᑕᒪᓕᒃ (Janet Tamalik McGrath), ᐊᕐᓇᐅᔪᖅ ᐊᓗᑭ (Arnaoyok Alookee), ᕿ’ᖓᖅᑐᖅ ᐃᑦᑐᓗᒃ (Qi’ngaqtuq Kevin Eetoolook), ᐊᑏᒪ 𑪴ᓪᓚᕆ (Attima Hadlari), ᗮᘧᐣᙒᔆ ᗮᘦᐣᙆ (Francois (Guy) Prince), ᑓᐣᘆᔆ ᗷᒼᗫᐩᘧᐣᐪ (Dennis Cumberland), and Bill Jancewicz, who kindly shared their knowledge and discussed the concepts, local preferences and requirments, and best practices for Syllabics typography presented in this module with the author.
 
-## Works Sourced:
+### Works sourced
+
+Base of map vector artwork designed by [Freepik](https://www.freepik.com/free-photos-vectors/travel), accessed 7 May 2020.
+
 The following sources were consulted in the analysis and preparation of illustration materials in this article:
 
 William Carpenter Bompass, *Prayers, lessons, and hymns in the Tenni or Slavi language of the Indians of Mackenzie River in the North-West Territory of Canada*. London, Society for Promoting Christian Knowledge, 1900
@@ -377,6 +382,3 @@ Jean Baptiste Thibault, *ᐊᔭᒥᐁ ᓀᐃᔭᐁᐧᒪᓯᓇᐃᑲᐣ ᐊᔭ�
 [Wawatay News], *ᐗᐗᑌ ᐊᒋᒧᐎᓇᐣ / Wawatay News*, 17 July, 2020 Vol.47, No. 7, PM#0382659799
 
 Arok Wolvengrey, *ᐊᐎᔹᑖᒋᐏᓂᓴ / wawiyatācimowinisa / Funny little stories*. University of Regina Press, 2007.
-
-## Acknolwedgements
-The author owes much gratitude to ᓂᓚᐅᓛᖅ ᐊᒡᓘᒃᑲᖅ (Miriam Nilaulaaq Aglukkaq), ᑕᒪᓕᒃ (Janet Tamalik McGrath), ᐊᕐᓇᐅᔪᖅ ᐊᓗᑭ (Arnaoyok Alookee), ᕿ’ᖓᖅᑐᖅ ᐃᑦᑐᓗᒃ (Qi’ngaqtuq Kevin Eetoolook), ᐊᑏᒪ 𑪴ᓪᓚᕆ (Attima Hadlari), ᗮᘧᐣᙒᔆ ᗮᘦᐣᙆ (Francois (Guy) Prince), ᑓᐣᘆᔆ ᗷᒼᗫᐩᘧᐣᐪ (Dennis Cumberland), and Bill Jancewicz, who kindly shared their knowledge and discussed the concepts, local preferences and requirments, and best practices for Syllabics typography presented in this module with the author.

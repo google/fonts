@@ -1,5 +1,5 @@
 
-Cyrillic is a [writing system](/glossary/script_writing_system), named after the missionary work of St. Cyril in the first Bulgarian Empire. The original Cyrillic script was based on uppercase [Greek](/glossary/greek_script) [letterforms](/glossary/letterform).
+Cyrillic is a [writing system](/glossary/writing_system), named after the missionary work of St. Cyril in the first Bulgarian Empire. The original Cyrillic script was based on uppercase [Greek](/glossary/greek_script) [letterforms](/glossary/letterform).
 
 <figure>
 

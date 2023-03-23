@@ -1,4 +1,4 @@
-A writing system is the combination of a script (a visual representation of verbal speech, not to be confused with the [“script” classification](/glossary/script_typeface_style) of [typefaces](/glossary/typeface)) and a set of usage conventions (known as an orthography).
+A writing system is the combination of a [script](/glossary/script) (a visual representation of verbal speech, not to be confused with the [“script” classification](/glossary/script_typeface_style) of [typefaces](/glossary/typeface)) and a set of usage conventions (known as an orthography).
 
 Scripts can be used by one or more languages. For instance, although English, French, German, Norwegian, and Portuguese are distinct languages—with their own alphabets, conventions, and [diacritic](/glossary/diacritic_accent_marks) usage—they all use the [Latin](/glossary/latin) script.
 

@@ -31,3 +31,4 @@ languages: "ja_Kana"  # Japanese, Katakana
 languages: "ryu_Jpan"  # Central Okinawan, Japanese
 languages: "ryu_Kana"  # Central Okinawan
 display_name: "Noto Sans Japanese"
+primary_script: "Jpan"

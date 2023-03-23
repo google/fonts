@@ -22,10 +22,9 @@ data on the Google Fonts collection.
 import glob
 import os
 
+from gflanguages import languages_public_pb2
 from google.protobuf import text_format
 from pkg_resources import resource_filename
-
-from gflanguages import languages_public_pb2
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -39,10 +38,10 @@ def LoadLanguages(base_dir=DATA_DIR):
     if base_dir is None:
         base_dir = DATA_DIR
 
-    languages_dir = os.path.join(base_dir, 'languages')
+    languages_dir = os.path.join(base_dir, "languages")
     langs = {}
-    for textproto_file in glob.iglob(os.path.join(languages_dir, '*.textproto')):
-        with open(textproto_file, 'r', encoding='utf-8') as f:
+    for textproto_file in glob.iglob(os.path.join(languages_dir, "*.textproto")):
+        with open(textproto_file, "r", encoding="utf-8") as f:
             language = text_format.Parse(f.read(), languages_public_pb2.LanguageProto())
             langs[language.id] = language
     return langs
@@ -52,10 +51,10 @@ def LoadScripts(base_dir=DATA_DIR):
     if base_dir is None:
         base_dir = DATA_DIR
 
-    scripts_dir = os.path.join(base_dir, 'scripts')
+    scripts_dir = os.path.join(base_dir, "scripts")
     scripts = {}
-    for textproto_file in glob.iglob(os.path.join(scripts_dir, '*.textproto')):
-        with open(textproto_file, 'r', encoding='utf-8') as f:
+    for textproto_file in glob.iglob(os.path.join(scripts_dir, "*.textproto")):
+        with open(textproto_file, "r", encoding="utf-8") as f:
             script = text_format.Parse(f.read(), languages_public_pb2.ScriptProto())
             scripts[script.id] = script
     return scripts
@@ -65,10 +64,10 @@ def LoadRegions(base_dir=DATA_DIR):
     if base_dir is None:
         base_dir = DATA_DIR
 
-    regions_dir = os.path.join(base_dir, 'regions')
+    regions_dir = os.path.join(base_dir, "regions")
     regions = {}
-    for textproto_file in glob.iglob(os.path.join(regions_dir, '*.textproto')):
-        with open(textproto_file, 'r', encoding='utf-8') as f:
+    for textproto_file in glob.iglob(os.path.join(regions_dir, "*.textproto")):
+        with open(textproto_file, "r", encoding="utf-8") as f:
             region = text_format.Parse(f.read(), languages_public_pb2.RegionProto())
             regions[region.id] = region
     return regions

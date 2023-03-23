@@ -26,3 +26,4 @@ languages: "dyu_Nkoo"  # Dyula, Nko
 languages: "man_Nkoo"  # Mandingo, Nko
 languages: "nqo_Nkoo"  # N’Ko
 display_name: "Noto Sans N\'Ko"
+primary_script: "Nkoo"

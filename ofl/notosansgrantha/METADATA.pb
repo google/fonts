@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "sa_Gran"  # Sanskrit, Grantha
+primary_script: "Gran"

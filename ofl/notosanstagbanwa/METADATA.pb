@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "sa_Tagb"  # Sanskrit, Tagbanwa
 languages: "tbw_Tagb"  # Tagbanwa, Tagbanwa
+primary_script: "Tagb"

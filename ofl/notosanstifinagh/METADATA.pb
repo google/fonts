@@ -29,3 +29,4 @@ languages: "taq_Tfng"  # Tamasheq, Tifinagh
 languages: "tzm_Tfng"  # Central Atlas Tamazight, Tifinagh
 languages: "zen_Tfng"  # Zenaga
 languages: "zgh_Tfng"  # Standard Moroccan Tamazight
+primary_script: "Tfng"

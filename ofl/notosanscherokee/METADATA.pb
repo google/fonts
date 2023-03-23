@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "chr_Cher"  # Cherokee
+primary_script: "Cher"

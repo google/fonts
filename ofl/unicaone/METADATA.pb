@@ -9,9 +9,14 @@ fonts {
   weight: 400
   filename: "UnicaOne-Regular.ttf"
   post_script_name: "UnicaOne-Regular"
-  full_name: "Unica One"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Unica\'"
+  full_name: "Unica One Regular"
+  copyright: "Copyright 2012 The Unica One Project Authors (https://github.com/etunni/unica)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/etunni/unica"
+  commit: "e92da87539ff465aab50b7767512080bf71e39f1"
+}

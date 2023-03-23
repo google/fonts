@@ -32,4 +32,4 @@ source {
   repository_url: "https://github.com/justvanrossum/nabla"
   archive_url: "https://github.com/justvanrossum/nabla/releases/download/v1.002/nabla-fonts.zip"
 }
-
+minisite_url: "https://nabla.typearture.com/"

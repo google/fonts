@@ -28,3 +28,4 @@ source {
 is_noto: true
 languages: "kkh_Lana"  # Tai Khün
 languages: "nod_Lana"  # Northern Thai
+primary_script: "Lana"

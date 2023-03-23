@@ -11,5 +11,5 @@ fallback {
 }
 fallback_only: false
 description:
-  "Letters rotate left and right, negative values to the left"
+  "Glyphs rotate left and right, negative values to the left"
   " and positive values to the right, in the X dimension."

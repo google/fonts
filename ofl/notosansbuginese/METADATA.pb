@@ -25,3 +25,4 @@ languages: "bug_Bugi"  # Buginese, Buginese
 languages: "mak_Bugi"  # Makasar, Buginese
 languages: "mdr_Bugi"  # Mandar, Buginese
 languages: "sa_Bugi"  # Sanskrit, Buginese
+primary_script: "Bugi"

@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "khb_Talu"  # Lü
+primary_script: "Talu"

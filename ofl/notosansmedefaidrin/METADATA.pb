@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "dmf_Medf"  # Medefaidrin
+primary_script: "Medf"

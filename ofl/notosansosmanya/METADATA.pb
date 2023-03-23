@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "so_Osma"  # Somali, Osmanya
+primary_script: "Osma"

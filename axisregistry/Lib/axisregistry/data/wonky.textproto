@@ -16,7 +16,7 @@ fallback {
 fallback_only: true
 illustration_url: "wonky.svg"
 description:
-  "Toggle the subsitution of wonky forms. 'Off' (0) maintains more"
+  "Toggle the substitution of wonky forms. 'Off' (0) maintains more"
   " conventional letterforms, while 'On' (1) maintains wonky"
   " letterforms, such as leaning stems in roman, or flagged"
   " ascenders in italic. These forms are also controlled by"

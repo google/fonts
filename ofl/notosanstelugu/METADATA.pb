@@ -28,10 +28,11 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/telugu.git"
-  archive_url: "https://github.com/notofonts/telugu/releases/download/NotoSansTelugu-v2.003/NotoSansTelugu-v2.003.zip"
+  archive_url: "https://github.com/notofonts/telugu/releases/download/NotoSansTelugu-v2.004/NotoSansTelugu-v2.004.zip"
 }
 is_noto: true
 languages: "gon_Telu"  # Gondi, Telugu
 languages: "lmn_Telu"  # Lambadi
 languages: "te_Telu"  # Telugu
 languages: "wbq_Telu"  # Waddar
+primary_script: "Telu"

@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "vai_Vaii"  # Vai
+primary_script: "Vaii"

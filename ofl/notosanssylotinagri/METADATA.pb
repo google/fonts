@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "sa_Sylo"  # Sanskrit, Syloti Nagri
 languages: "syl_Sylo"  # Sylheti, Syloti Nagri
+primary_script: "Sylo"

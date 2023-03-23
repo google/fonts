@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "txo_Toto"  # Toto
+primary_script: "Toto"

@@ -25,3 +25,4 @@ languages: "esg_Gonm"  # Aheri Gondi
 languages: "gon_Gonm"  # Gondi, Masaram Gondi
 languages: "sa_Gonm"  # Sanskrit, Masaram Gondi
 languages: "wsg_Gonm"  # Adilabad Gondi
+primary_script: "Gonm"

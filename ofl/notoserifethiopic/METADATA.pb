@@ -38,3 +38,4 @@ languages: "om_Ethi"  # Oromo, Ethiopic
 languages: "ti_Ethi"  # Tigrinya
 languages: "tig_Ethi"  # Tigre
 languages: "wal_Ethi"  # Wolaytta
+primary_script: "Ethi"

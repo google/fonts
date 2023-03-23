@@ -13,6 +13,8 @@ fonts {
   full_name: "Martian Mono SemiExpanded Regular"
   copyright: "Copyright 2020 The Martian Mono Project Authors (https://github.com/evilmartians/mono)"
 }
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -28,5 +30,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/evilmartians/mono"
-  commit: "3b0c3a32c1c1e0d1f67ca8e0044568a6f25ef883"
+  commit: "17865aac562a1a800888de6604f7251f135cf3b5"
 }

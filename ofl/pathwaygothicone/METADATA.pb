@@ -10,8 +10,12 @@ fonts {
   filename: "PathwayGothicOne-Regular.ttf"
   post_script_name: "PathwayGothicOne-Regular"
   full_name: "Pathway Gothic One Regular"
-  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Pathway\'"
+  copyright: "Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic), with Reserved Font Name \'Pathway\'"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/pathway-gothic"
+  commit: "cb77ed5f79d4572096191b7c7dfb157b65abf748"
+}

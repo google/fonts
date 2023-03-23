@@ -35,3 +35,4 @@ languages: "yue_Hant"  # Cantonese
 languages: "za_Hant"   # Zhuang, Traditional Han
 languages: "zh_Hant"   # Chinese (Traditional)
 display_name: "Noto Sans Hong Kong"
+primary_script: "Hant"

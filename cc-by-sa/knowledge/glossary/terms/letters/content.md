@@ -1,4 +1,4 @@
-The set of graphical symbols used to represent speech sounds in an [alphabetic](/glossary/alphabet) [writing system](/glossary/script_writing_system) are generally referred to as letters. 
+The set of graphical symbols used to represent speech sounds in an [alphabetic](/glossary/alphabet) [writing system](/glossary/writing_system) are generally referred to as letters. 
 
 <figure>
 

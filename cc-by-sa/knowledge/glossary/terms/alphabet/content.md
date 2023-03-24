@@ -1,4 +1,4 @@
-An alphabet typically refers to a [writing system](/glossary/script_writing_system) in which the elemental speech sounds of a language (phonemes) are represented by a set of graphical units, called [letters](/glossary/letters). An individual member of the set is called a letter.
+An alphabet typically refers to a [writing system](/glossary/writing_system) in which the elemental speech sounds of a language (phonemes) are represented by a set of graphical units, called [letters](/glossary/letters). An individual member of the set is called a letter.
 
 <figure>
 

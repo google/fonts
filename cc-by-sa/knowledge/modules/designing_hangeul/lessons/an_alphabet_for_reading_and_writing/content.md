@@ -10,7 +10,7 @@ Alphabets can differ not only in terms of the designs and functions of individua
 
 For example, as you’re reading this sentence in English, you’ll recognize that the letters are placed one after another, with [spaces](/glossary/spaces) and punctuation used to demarcate word boundaries.
 
-While these [orthographic](/glossary/script_writing_system) conventions may seem intuitive for those who are literate in English, other alphabets use a variety of approaches when combining letters into larger units.
+While these [orthographic](/glossary/writing_system) conventions may seem intuitive for those who are literate in English, other alphabets use a variety of approaches when combining letters into larger units.
 
 When considering how the letters of Hangeul should be combined, King Sejong ultimately decided that they should be assembled into syllable blocks, with one block equal to one syllable for any word.
 

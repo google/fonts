@@ -1,4 +1,4 @@
-A script (not to be confused with the [“script” classification](/glossary/script_typeface_style) of [typefaces](/glossary/typeface)) is a visual representation of verbal speech, and, when combined with a set of usage conventions (known as an orthography), is one of the main components of a writing system.
+A writing system is the combination of a [script](/glossary/script) (a visual representation of verbal speech, not to be confused with the [“script” classification](/glossary/script_typeface_style) of [typefaces](/glossary/typeface)) and a set of usage conventions (known as an orthography).
 
 Scripts can be used by one or more languages. For instance, although English, French, German, Norwegian, and Portuguese are distinct languages—with their own alphabets, conventions, and [diacritic](/glossary/diacritic_accent_marks) usage—they all use the [Latin](/glossary/latin) script.
 
@@ -10,4 +10,4 @@ Scripts can be used by one or more languages. For instance, although English, Fr
 
 </figure>
 
-Other scripts systems include [Greek](/glossary/greek_script) (upon which Latin is based), [Cyrillic](/glossary/cyrillic) (originally based on uppercase Greek forms), Arabic, Korean, Indic scripts from South and South East Asia, Han characters, and the traditional scripts of Africa.
+Other scripts include [Greek](/glossary/greek_script) (upon which Latin is based), [Cyrillic](/glossary/cyrillic) (originally based on uppercase Greek forms), Arabic, Korean, Indic scripts from South and South East Asia, Han characters, and the traditional scripts of Africa.

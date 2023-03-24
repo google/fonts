@@ -23,7 +23,7 @@ Since the invention of writing in Mesopotamia more than 5000 years ago, there ha
 ![Texts in four scripts.](images/thumbnail.svg)
 
 </figure>
-<figcaption>A montage of texts written in Sumerian, Egyptian, Chinese, and Meso-American [scripts](/glossary/script_writing_system), intended to show the our species’ creativity and ingenuity in devising alphabets.</figcaption>
+<figcaption>A montage of texts written in Sumerian, Egyptian, Chinese, and Meso-American [scripts](/glossary/script), intended to show the our species’ creativity and ingenuity in devising alphabets.</figcaption>
 
 All the world’s subsequent alphabets have, at a minimum, been informed by these early examples, and nearly all have been direct adaptations.
 
@@ -49,7 +49,7 @@ In [the next article](/lesson/designing_for_learnability), we’ll explore how r
 
 ## A note about terminology
 
-For the sake of simplicity, I refer to all [writing systems](/glossary/script_writing_system) as [alphabets](/glossary/alphabet), and to the graphic symbols of writing systems as [*letters*](/glossary/letters), even in cases where these terms are technically incorrect.
+For the sake of simplicity, I refer to all [writing systems](/glossary/writing_system) as [alphabets](/glossary/alphabet), and to the graphic symbols of writing systems as [*letters*](/glossary/letters), even in cases where these terms are technically incorrect.
 
 My goal in doing so is to illustrate the story of Hangeul without having introduce too much linguistic terminology, especially because the main ideas I’d like to share do not depend critically on making distinctions that might otherwise be important to scholars.
 

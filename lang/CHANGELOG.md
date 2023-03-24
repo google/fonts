@@ -2,6 +2,12 @@ Below are the most important changes from each release.
 
 ## Next release
 
+## 0.4.6 (2023-Mar-24)
+- #52 Addition of exemplar character sets for Latin-based African Lang
+uages
+- #53 Adding caps letters to Latin-based African languages that have gflang profiles
+- #67 Add kana sample text
+
 ## 0.4.5 (2023-Mars-22)
 - #65 Add Nag Mundari script
 

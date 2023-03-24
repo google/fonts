@@ -1,0 +1,9 @@
+id: "bom_Latn"
+language: "bom"
+script: "Latn"
+name: "Berom"
+exemplar_chars {
+  base: "a A à À á Á ã Ã b B c C d D e E è È é É ẹ Ẹ ẽ Ẽ f F g G h H i I ì Ì í Í ĩ Ĩ j J k K l L m M ḿ Ḿ n N ǹ Ǹ ń Ń o O ò Ò ó Ó ọ Ọ õ Õ"
+  marks: "◌̀ ◌́ ◌̃ ◌̣ ◌̄"
+  auxiliary: "q Q x X"
+}

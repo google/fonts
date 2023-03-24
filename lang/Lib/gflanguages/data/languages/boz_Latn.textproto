@@ -1,0 +1,8 @@
+id: "boz_Latn"
+language: "boz"
+script: "Latn"
+name: "Bozo, Tieyaxo"
+exemplar_chars {
+  base: "a A b B d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ɲ Ɲ ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U w W x X y Y"
+  auxiliary: "c C v V z Z"
+}

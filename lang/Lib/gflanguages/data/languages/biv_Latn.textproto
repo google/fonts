@@ -1,0 +1,8 @@
+id: "biv_Latn"
+language: "biv"
+script: "Latn"
+name: "Birifor, Southern"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y ŋ Ŋ ɔ Ɔ ɛ Ɛ ɩ Ɩ ʊ Ʊ"
+  marks: "◌̃"
+}

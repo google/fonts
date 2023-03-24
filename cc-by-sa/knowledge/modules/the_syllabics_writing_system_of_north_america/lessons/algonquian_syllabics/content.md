@@ -14,7 +14,7 @@ An early and major printing center for the Algonquian Syllabics was Moose Factor
 
 <figure>
 
-![A map showing Manitoba and Ontario Ojibwe communities](images/article_02_figure_02.svg)
+![A map showing Manitoba and Ontario Ojibwe communities](images/article_02_figure_02_png.png)
 
 </figure>
 <figcaption>Anishinaabe (Ojibwe) communities (red); Nêhiyawak (Cree) communities (blue). The above map shows the distribution of Ojibway dialects in Northern Ontario that use Syllabics as their primary writing system, depicting their preference for the form of finals (ᐊᓄᑭᐧᐃᓐ, ᐊᓄᑭᐧᐃᐣ, etc.), as well as the placement of the “w dot”. Neighboring Cree communities have been shown in order to show the relationship in preferences with the Ojibway.</figcaption>

@@ -16,7 +16,7 @@ Both forms are mutually intelligible between either community, with the only dif
 
 <figure>
 
-![A map of the Nunavut and Nunavik regions and their respective communities who use Syllabics](images/article_03_figure_01.svg)
+![A map of the Nunavut and Nunavik regions and their respective communities who use Syllabics](images/article_03_figure_01_png.png)
 
 </figure>
 <figcaption>Inuktut communities across Nunavik & Nunavut (blue), Cree communites** (red), Naskapi communites** (red). The above map shows Nunavik and Nunavut communities with their preferred form of ng depicted above the community place name (ᐊᖓᒃᑯᓄᑦ,  ᐊᖓᒃᑯᓄᑦ). The Nunavik region—while complying with the ICI orthographic standards—prefers an "ng" form that is different than that of the Nunavut region.</figcaption>

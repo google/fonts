@@ -1,0 +1,9 @@
+id: "bsq_Latn"
+language: "bsq"
+script: "Latn"
+name: "Bassa"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ č Č d D ɖ Ɖ e E ɛ Ɛ f F g G h H i I j J k K m M n N o O ɔ Ɔ p P s S t T u U v V w W"
+  marks: "◌̌"
+  auxiliary: "l L q Q r R x X y Y z Z"
+}

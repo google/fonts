@@ -1,0 +1,9 @@
+id: "ntm_Latn"
+language: "ntm"
+script: "Latn"
+name: "Nateni"
+exemplar_chars {
+  base: "á Á b B c C d D e E è È é É ɛ Ɛ f F h H i I ì Ì í Í ḭ Ḭ k K m M n N ǹ Ǹ ń Ń o O ò Ò ó Ó ɔ Ɔ p P s S t T u U ù Ù ú Ú ṵ Ṵ w W y Y"
+  marks: "◌́ ◌̰ ◌̀"
+  auxiliary: "l L q Q r R v V x X z Z"
+}

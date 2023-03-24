@@ -6,8 +6,8 @@ autonym: "Bamanankan"
 population: 8994564
 region: "ML"
 exemplar_chars {
-  base: "a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u w y z"
-  auxiliary: "q v x"
+  base: "a A b B c C d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ɲ Ɲ ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U w W y Y z Z"
+  auxiliary: "q Q v V x X"
   index: "A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U W Y Z"
 }
 sample_text {

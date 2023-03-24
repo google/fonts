@@ -6,5 +6,7 @@ population: 83151
 region: "GW"
 region: "SN"
 exemplar_chars {
-  base: "a b c d e ë f g h i j k l m n ñ ŋ o p r s ş t ŧ ţ u w y"
+  base: "a A b B c C d D e E ë Ë f F g G h H i I j J k K l L m M n N ñ Ñ ŋ Ŋ o O p P r R ş Ş t T ţ Ţ ŧ Ŧ u U ú Ú w W y Y"
+  marks: "◌̈ ◌̃ ◌̧ ◌́"
+  auxiliary: "q Q s S v V x X z Z"
 }

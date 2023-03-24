@@ -1,0 +1,9 @@
+id: "igb_Latn"
+language: "igb"
+script: "Latn"
+name: "Ebira"
+exemplar_chars {
+  base: "a A á Á ā Ā à À â Â b B c C d D e E é É ē Ē è È ê Ê ẹ Ẹ ệ Ệ f F g G h H i I í Í ī Ī ì Ì î Î ị Ị j J k K l L m M n N o O ó Ó ō Ō ò Ò ô Ô ọ Ọ ộ Ộ p P r R s S t T u U ú Ú ū Ū ù Ù û Û ụ Ụ v V w W y Y z Z"
+  marks: "◌́ ◌̄ ◌̀ ◌̂ ◌̣"
+  auxiliary: "q Q x X"
+}

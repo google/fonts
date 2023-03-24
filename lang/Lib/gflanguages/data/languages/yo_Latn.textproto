@@ -7,8 +7,8 @@ population: 28685568
 region: "BJ"
 region: "NG"
 exemplar_chars {
-  base: "a á à b d e é è ẹ {ẹ́} {ẹ̀} f g {gb} h i í ì j k l m ḿ {m̀} n ń ǹ o ó ò ọ {ọ́} {ọ̀} p r s ṣ t u ú ù w y"
-  auxiliary: "c q v x z"
+  base: "a A á Á à À b B d D e E é É è È ẹ Ẹ {ẹ́} {Ẹ́} {ẹ̀} {Ẹ̀} f F g G {gb} {GB} h H i I í Í ì Ì j J k K l L m M ḿ Ḿ {m̀} {M̀} n N ń Ń ǹ Ǹ o O ó Ó ò Ò ọ Ọ {ọ́} {Ọ́} {ọ̀} {Ọ̀} p P r R s S ṣ Ṣ t T u U ú Ú ù Ù w W y Y"
+  auxiliary: "c C q Q v V x X z Z"
   marks: "◌̀ ◌́ ◌̄ ◌̣"
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) @ * / & # † ‡ ′ ″"
   index: "A B D E F G H I J K L M N O P R S T U W Y"

@@ -1,0 +1,8 @@
+id: "bdh_Latn"
+language: "bdh"
+script: "Latn"
+name: "Baka"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I ị Ị k K l L m M n N ṇ Ṇ o O p P r R ṛ Ṛ s S t T u U ụ Ụ v V ṿ Ṿ w W y Y z Z ɨ Ɨ ꞌ Ꞌ"
+  marks: "◌̣ ◌́"
+}

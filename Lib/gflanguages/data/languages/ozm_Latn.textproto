@@ -1,0 +1,8 @@
+id: "ozm_Latn"
+language: "ozm"
+script: "Latn"
+name: "Koonzime"
+exemplar_chars {
+  base: "a A b B c C d D e E ɛ Ɛ f F g G h H i I ɨ Ɨ j J k K l L m M n N ŋ Ŋ o O ø Ø ɔ Ɔ œ Œ p P r R s S t T u U ʉ Ʉ v V w W y Y z Z"
+  auxiliary: "q Q x X"
+}

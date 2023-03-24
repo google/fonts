@@ -1,0 +1,8 @@
+id: "bwr_Latn"
+language: "bwr"
+script: "Latn"
+name: "Bura-Pabir"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E ə Ə f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y z Z"
+  auxiliary: "q Q x X"
+}

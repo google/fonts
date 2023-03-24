@@ -1,0 +1,9 @@
+id: "nmz_Latn"
+language: "nmz"
+script: "Latn"
+name: "Nawdm"
+exemplar_chars {
+  base: "a A à À á Á b B d D e E ɛ Ɛ f F g G h H ɦ Ɦ i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ r R s S t T u U v V w W y Y"
+  marks: "◌̀ ◌́ ◌̈"
+  auxiliary: "c C p P q Q x X z Z"
+}

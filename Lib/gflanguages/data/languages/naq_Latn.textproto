@@ -6,8 +6,8 @@ autonym: "Khoekhoe"
 population: 289307
 region: "NA"
 exemplar_chars {
-  base: "a â b c d e f g h i î k m n o ô p q r s t u û w x y z ǀ ǁ ǂ ǃ"
-  auxiliary: "j l v"
+  base: "a A â Â b B c C d D e E f F g G h H i I î Î k K m M n N o O ô Ô p P q Q r R s S t T u U û Û w W x X y Y z Z ǀ ǁ ǂ ǃ"
+  auxiliary: "j J l L v V"
   marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̈"
   index: "A B C D E F G H I K M N O P Q R S T U W X Y Z"
 }

@@ -1,5 +1,7 @@
 The Syllabics—sometimes referred to as the Canadian Aboriginal Syllabics—is a [writing system](/glossary/script_writing_system) used by several Indigenous language communities in Canada and the United States, including nêhiyawêwin (Cree), Anishinaabemowin (Ojibwe), Inuktut (Inuktitut), Dakelh (Carrier), iyuw iyimuun (Naskapi), and Saı́yısı́ dëne (Sayisi Dene). 
 
+Before we start looking at the construction of the script, let’s first look at the geographic distribution of the various groups and sub-groups of the Syllabics:
+
 <figure>
 
 ![Syllabics-using languages community map](images/article_01_figure_01_png.png)
@@ -91,7 +93,7 @@ Blackfoot / Siksiká (ᓱᖽᐧᖿ)
 
 Syllabics represent the phonetic structure of Indigenous languages through a unique system of rotation in which vowels are indicated by the orientation of the base [character](/glossary/character) across four possible positions (ᕓ=fe, ᕗ=fo, ᕙ=fa, ᕕ=fi). Consonants are represented by small, raised characters, which may or may not be superscript versions of the base syllable (ᓇᓂᓄᓀᐣ or ᓇᓂᓄᓀᓐ). A range of full-size Syllabic characters and its corresponding final character are called a series. Diacritics are placed above syllables mark vowel extensions, which take the form of a dot or ring mark, depending on the orthography (ᕖ ᕔ).
 
-In order to grasp the scope of local typographic variation in the Syllabics script, we need to first understand the fundamental styles that exist within the system, how Syllabics spread to communities across the continent, the uses of the Syllabics in these communities—both historical and contemporary—and the encoding practice that was undertaken by the original script encoding committee that developed the Unified Canadian Syllabics repertoire within the Unicode Standard. By exploring these factors, and the context behind them, we can begin to see why particular typographic preferences exist across various communities. This also helps explain why some communities’ preferences are clearly met within the current digital text standards (Unicode), and why others are not.
+In order to grasp the scope of local typographic variation in the Syllabics script, we need to first understand the fundamental styles that exist within the system, how Syllabics spread to communities across the continent, the uses of the Syllabics in these communities—both historical and contemporary—and the encoding practice that was undertaken by the original script encoding committee that developed the Unified Canadian Syllabics repertoire within the [Unicode](/glossary/unicode) Standard. By exploring these factors, and the context behind them, we can begin to see why particular typographic preferences exist across various communities. This also helps explain why some communities’ preferences are clearly met within the current digital text standards (Unicode), and why others are not.
 
 The Syllabics system—even given its great variability in local preferences and conventions—is still anchored by general typographic conventions that are present across all orthographies, and that are Syllabics-specific. In order to implement them correctly, we need to respect both the core typographic principles and variations in local typographies:
 

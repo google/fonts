@@ -10,7 +10,7 @@ One of the most notable localisation preferences in all of Syllabics typography 
 
 The Nunavut preferred form (ᖕ) is the default representative form for ng in the Unified Canadian Aboriginal Syllabics code chart, and it is also the most common variant of the form. Nunavik communities deal with this preference by implementing localized typefaces that have their preferred ng shape (ᖕ) in the code point position for this character (U+1595).
 
-While readers in Nunavik encounter the Nunavut ng form more frequently, due to it being the default in many system-level Syllabics typefaces, Nunavut readers occasionally also encounter this form in materials from Nunavik, and refer to it as ᐃᒡᒑᙳᐊᒃ  *iggaannguak* (“little eye glasses”). **1**
+While readers in Nunavik encounter the Nunavut ng form more frequently, due to it being the default in many system-level Syllabics typefaces, Nunavut readers occasionally also encounter this form in materials from Nunavik, and refer to it as ᐃᒡᒑᙳᐊᒃ  *iggaannguak* (“little eye glasses”).<a id="back-1" href="#1"><sup>1</sup></a>
 
 Both forms are mutually intelligible between either community, with the only difference being that texts set with the preferred “ng” form for Nunavik (ᖕ) have a graphic distinction that alerts the reader to the fact that it is notably a text from the Nunavik region.
 
@@ -35,11 +35,11 @@ The typography of the Syllabics may lack a formal body of literature that users 
 
 ## Endnotes
 
-**1** Janet Tamalik McGrath—an Inuktut language consultant familiar with the range of Inuktut dialects of Canada– notes (in email correspondence with the author) that “ICI Nunavut uses a combo of ᓐ + ᒡ (ᖕ) and Nunavik uses what we call iggaannguak (little eye glasses, i.e. two little circles) … For me, I just use the Nunavut ICI keyboard and when reading Nunavik material, I understand it fine and don’t think about style.”
+<a id="1" href="#back-1">1.</a> Janet Tamalik McGrath—an Inuktut language consultant familiar with the range of Inuktut dialects of Canada– notes (in email correspondence with the author) that “ICI Nunavut uses a combo of ᓐ + ᒡ (ᖕ) and Nunavik uses what we call iggaannguak (little eye glasses, i.e. two little circles) … For me, I just use the Nunavut ICI keyboard and when reading Nunavik material, I understand it fine and don’t think about style.”
 
 ### Works sourced
 
-Base of map vector artwork designed by Freepik, accessed 7 May 2020, https://www.freepik.com/free-photos-vectors/travel
+Base of map vector artwork designed by [Freepik](https://www.freepik.com/free-photos-vectors/travel), accessed 7 May 2020.
 
 James Evans, *Swampy Cree Hymn book (ᓇᑲᒧᐏᓇ ᐅᒪᐢᑮᑯᐘ ᐅᑎᑘᐏᓂᐘᐤ)*. Norway House, 1841. Image from the James Evans Fonds, University of Victoria library, University of Toronto
 

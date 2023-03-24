@@ -32,9 +32,7 @@ The typography of the Syllabics may lack a formal body of literature that users 
 
 ## Endnotes:
 
-**3** Chris Harvey notes in his article ‘Syllabic glyph variation’, ‘While final placement in most syllabics languages may be stylistically conventional, it would in no circumstances impede legibility. In northern Dene languages on the other hand, the location of the final indicates pronunciation.’
-> Chris Harvey, ‘Syllabic glyph variation’. From *Languagegeek*, 2005, 
-accessed 8 June 2021, http://www.languagegeek.com/typography/syllabics/syllabic_variation.pdf 
+<a id="1" href="#back-1">1.</a> Chris Harvey notes in his article _[Syllabic glyph variation](http://www.languagegeek.com/typography/syllabics/syllabic_variation.pdf ),_ “While final placement in most syllabics languages may be stylistically conventional, it would in no circumstances impede legibility. In northern Dene languages on the other hand, the location of the final indicates pronunciation.”
 
 ## Endnotes
 

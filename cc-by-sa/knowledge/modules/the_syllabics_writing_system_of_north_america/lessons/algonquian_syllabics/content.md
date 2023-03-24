@@ -40,7 +40,7 @@ There is variation within Plains Cree communities in terms of the use of differe
 </figure>
 <figcaption>Showing the two variations in the form of the Plains Cree y final.</figcaption>
 
-Further, when the y-final follows a w-dot modifier mark in these communities using the superposed (ᐝ) “y final”, the double dots combine to form a colon character. There is variation in terms of the shaping of this combination “w + y” final sequence. Some texts show this character as the same superposed sequence as the alternative “y final”, while others distinguish the sequence by rendering it as a ‘kerned’ colon-style symbol.
+Further, when the y-final follows a w-dot modifier mark in these communities using the superposed (ᐝ) “y final”, the double dots combine to form a colon character. There is variation in terms of the shaping of this combination “w + y” final sequence. Some texts show this character as the same superposed sequence as the alternative “y final”, while others distinguish the sequence by rendering it as a kerned colon-style symbol.
 
 <figure>
 

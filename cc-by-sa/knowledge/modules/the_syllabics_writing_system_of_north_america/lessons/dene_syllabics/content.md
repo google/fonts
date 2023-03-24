@@ -15,7 +15,7 @@ The Dene Syllabics use the square form style, with all communities preferring th
 
 The vertical positioning of finals is largely stylistic in many Syllabics orthographies; however, in the northern Dene Syllabics orthographies (North and South Slavey, and Chipewyan), this positioning is required for the correct pronunciation of the language. This requirement—although important to these orthographies and languages—creates issues in representation in the current UCAS repertoire in the Unicode Standard. This is because the finals characters required for northern Dene Syllabics are used by other Syllabics orthographies within UCAS, which require these same forms to be rendered at the topline position.
 
-The UCAS code charts use the topline position for all finals characters, and as a result, all commonly available typefaces (especially those at the system level, which are the most accessible to these communities) have finals marks rendered at the topline position. This results in many northern Dene Syllabics communities not being able to render their finals at the vertical positions they require in the typefaces to which they have access. **1**
+The UCAS code charts use the topline position for all finals characters, and as a result, all commonly available typefaces (especially those at the system level, which are the most accessible to these communities) have finals marks rendered at the topline position. This results in many northern Dene Syllabics communities not being able to render their finals at the vertical positions they require in the typefaces to which they have access.<a id="back-1" href="#1"><sup>1</sup></a>
 
 <figure>
 
@@ -32,17 +32,11 @@ The typography of the Syllabics may lack a formal body of literature that users 
 
 ## Endnotes:
 
-**3** Chris Harvey notes in his article ‘Syllabic glyph variation’, ‘While final placement in most syllabics languages may be stylistically conventional, it would in no circumstances impede legibility. In northern Dene languages on the other hand, the location of the final indicates pronunciation.’
-> Chris Harvey, ‘Syllabic glyph variation’. From *Languagegeek*, 2005, 
-accessed 8 June 2021, http://www.languagegeek.com/typography/syllabics/syllabic_variation.pdf 
+<a id="1" href="#back-1">1.</a> Chris Harvey notes in his article _[Syllabic glyph variation](http://www.languagegeek.com/typography/syllabics/syllabic_variation.pdf ),_ “While final placement in most syllabics languages may be stylistically conventional, it would in no circumstances impede legibility. In northern Dene languages on the other hand, the location of the final indicates pronunciation.”
 
-## Image Sources:
+## Endnotes
 
-Base of map vector artwork designed by Freepik, accessed 7 May 2020, https://www.freepik.com/free-photos-vectors/travel
-
-## Works Sourced:
-
-The following sources were consulted in the analysis and preparation of illustration materials in this article:
+## Works sourced
 
 William Carpenter Bompass, *Prayers, lessons, and hymns in the Tenni or Slavi language of the Indians of Mackenzie River in the North-West Territory of Canada*. London, Society for Promoting Christian Knowledge, 1900
 
@@ -57,7 +51,3 @@ Louise Perrault, *Prières, cantiques et catéchisme en langue Montagnaise ou Ch
 Louise Perrault, *Prières, cantiques et catechisme en langue Montagnaise ou Chipeweyan*. Montréal, 1857.
 
 Jean Baptiste Thibault, *ᐊᔭᒥᐁ ᓀᐃᔭᐁᐧᒪᓯᓇᐃᑲᐣ ᐊᔭᒥᐊᐃᐧᓇ ᓇᑲᒧᓇ ᒥᓇ ᑭᐢᑭᓄᐊᒪᑐᐃᐧᓇ / Prières, cantiques, catéchisme, etc., en langue crise*, Imprimerie de Louis Perrault, Montréal, 1866
-
-## Acknolwedgements
-
-The author owes much gratitude to ᓂᓚᐅᓛᖅ ᐊᒡᓘᒃᑲᖅ (Miriam Nilaulaaq Aglukkaq), ᑕᒪᓕᒃ (Janet Tamalik McGrath), ᐊᕐᓇᐅᔪᖅ ᐊᓗᑭ (Arnaoyok Alookee), ᕿ’ᖓᖅᑐᖅ ᐃᑦᑐᓗᒃ (Qi’ngaqtuq Kevin Eetoolook), ᐊᑏᒪ 𑪴ᓪᓚᕆ (Attima Hadlari), ᗮᘧᐣᙒᔆ ᗮᘦᐣᙆ (Francois (Guy) Prince), ᑓᐣᘆᔆ ᗷᒼᗫᐩᘧᐣᐪ (Dennis Cumberland), and Bill Jancewicz, who kindly shared their knowledge and discussed the concepts, local preferences and requirments, and best practices for Syllabics typography presented in this module with the author.

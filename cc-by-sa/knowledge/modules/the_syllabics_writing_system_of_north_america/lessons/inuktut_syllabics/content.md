@@ -10,13 +10,13 @@ One of the most notable localisation preferences in all of Syllabics typography 
 
 The Nunavut preferred form (ᖕ) is the default representative form for ng in the Unified Canadian Aboriginal Syllabics code chart, and it is also the most common variant of the form. Nunavik communities deal with this preference by implementing localized typefaces that have their preferred ng shape (ᖕ) in the code point position for this character (U+1595).
 
-While readers in Nunavik encounter the Nunavut ng form more frequently, due to it being the default in many system-level Syllabics typefaces, Nunavut readers occasionally also encounter this form in materials from Nunavik, and refer to it as ᐃᒡᒑᙳᐊᒃ  *iggaannguak* (“little eye glasses”). **1**
+While readers in Nunavik encounter the Nunavut ng form more frequently, due to it being the default in many system-level Syllabics typefaces, Nunavut readers occasionally also encounter this form in materials from Nunavik, and refer to it as ᐃᒡᒑᙳᐊᒃ  *iggaannguak* (“little eye glasses”).<a id="back-1" href="#1"><sup>1</sup></a>
 
 Both forms are mutually intelligible between either community, with the only difference being that texts set with the preferred “ng” form for Nunavik (ᖕ) have a graphic distinction that alerts the reader to the fact that it is notably a text from the Nunavik region.
 
 <figure>
 
-![A map of the Nunavut and Nunavik regions and their respective communities who use Syllabics](images/article_03_figure_01.svg)
+![A map of the Nunavut and Nunavik regions and their respective communities who use Syllabics](images/article_03_figure_01_png.png)
 
 </figure>
 <figcaption>Inuktut communities across Nunavik & Nunavut (blue), Cree communites** (red), Naskapi communites** (red). The above map shows Nunavik and Nunavut communities with their preferred form of ng depicted above the community place name (ᐊᖓᒃᑯᓄᑦ,  ᐊᖓᒃᑯᓄᑦ). The Nunavik region—while complying with the ICI orthographic standards—prefers an "ng" form that is different than that of the Nunavut region.</figcaption>
@@ -33,18 +33,13 @@ This preference is satisfied in Typotheque’s November and Lava Syllabics typef
 ## In summary
 The typography of the Syllabics may lack a formal body of literature that users can consult; however, professional typographic implementations can be achieved by observing the practices of local communities in both historical and contemporary documents. By adding to the understanding of the inherent conventions that govern the Syllabics across all of the orthographies that use the script, it is possible to deliver solutions that accommodate the best possible typographic experiences for all readers of this writing system, in their respective languages.
 
-## Endnotes:
+## Endnotes
 
-**1** Janet Tamalik McGrath—an Inuktut language consultant familiar with the range of Inuktut dialects of Canada– notes that “‘ICI Nunavut uses a combo of ᓐ + ᒡ (ᖕ) and Nunavik uses what we call iggaannguak (little eye glasses, i.e. two little circles) … For me, I just use the Nunavut ICI keyboard and when reading Nunavik material, I understand it fine and don’t think about style.”’ 
-> Janet Tamalik McGrath; in email correspondence with the author, Tamalik answered a question regarding her stance on the Nunavik preferred form of ng, and how it is received by herself and members of the Nunavut linguistic community. From ‘“Inuktitut—A Multi-dialectal Outline Dictionary” by Alex Spalding’. 29 March, 2021, 2.26pm EST.
+<a id="1" href="#back-1">1.</a> Janet Tamalik McGrath—an Inuktut language consultant familiar with the range of Inuktut dialects of Canada– notes (in email correspondence with the author) that “ICI Nunavut uses a combo of ᓐ + ᒡ (ᖕ) and Nunavik uses what we call iggaannguak (little eye glasses, i.e. two little circles) … For me, I just use the Nunavut ICI keyboard and when reading Nunavik material, I understand it fine and don’t think about style.”
 
-## Image Sources:
+### Works sourced
 
-Base of map vector artwork designed by Freepik, accessed 7 May 2020, https://www.freepik.com/free-photos-vectors/travel
-
-## Works Sourced:
-
-The following sources were consulted in the analysis and preparation of illustration materials in this article:
+Base of map vector artwork designed by [Freepik](https://www.freepik.com/free-photos-vectors/travel), accessed 7 May 2020.
 
 James Evans, *Swampy Cree Hymn book (ᓇᑲᒧᐏᓇ ᐅᒪᐢᑮᑯᐘ ᐅᑎᑘᐏᓂᐘᐤ)*. Norway House, 1841. Image from the James Evans Fonds, University of Victoria library, University of Toronto
 
@@ -55,7 +50,3 @@ James Evans, *Swampy Cree Hymn book (ᓇᑲᒧᐏᓇ ᐅᒪᐢᑮᑯᐘ ᐅᑎ�
 John Maclean, *James Evans: Inventor of the Syllabic system of the Cree language*, William Briggs, Toronto, 1890
 
 Janet Tamalik McGrath, *Letter of support to the Unicode Technical Committee*, 3 September 2020.
-
-## Acknolwedgements
-
-The author owes much gratitude to ᓂᓚᐅᓛᖅ ᐊᒡᓘᒃᑲᖅ (Miriam Nilaulaaq Aglukkaq), ᑕᒪᓕᒃ (Janet Tamalik McGrath), ᐊᕐᓇᐅᔪᖅ ᐊᓗᑭ (Arnaoyok Alookee), ᕿ’ᖓᖅᑐᖅ ᐃᑦᑐᓗᒃ (Qi’ngaqtuq Kevin Eetoolook), ᐊᑏᒪ 𑪴ᓪᓚᕆ (Attima Hadlari), ᗮᘧᐣᙒᔆ ᗮᘦᐣᙆ (Francois (Guy) Prince), ᑓᐣᘆᔆ ᗷᒼᗫᐩᘧᐣᐪ (Dennis Cumberland), and Bill Jancewicz, who kindly shared their knowledge and discussed the concepts, local preferences and requirments, and best practices for Syllabics typography presented in this module with the author.

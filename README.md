@@ -1,5 +1,4 @@
 [![CI Status](https://github.com/google/fonts/workflows/Continuous%20Test/badge.svg?branch=main)](https://github.com/google/fonts/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/fonts/badge)](https://api.securityscorecards.dev/projects/github.com/google/fonts)
 
 # Google Fonts Files
 

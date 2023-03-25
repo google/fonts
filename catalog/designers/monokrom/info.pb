@@ -1,5 +1,5 @@
-designer: "Colophon"
+designer: "Monokrom"
 link: ""
 avatar {
-  file_name: "colophon.png"
+  file_name: "monokrom.png"
 }

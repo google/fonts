@@ -169,10 +169,20 @@ def _check_contributor(repo_root: Path, referrer: Path, ref: str, contributors: 
     return _maybe_print_check(ref in contributors, repo_root, referrer, ref, None)
 
 
+def _check_md_file_contents(repo_root: Path, md_file: Path, ast: List[MdValue]) -> bool:
+    for el in _ast_iter(ast, lambda v: v.get("type", None) == "inline_html"):
+        text = el.get("text", "")
+        if re.search(' id="[^"]+"', text):
+            print("INVALID ", _safe_relative_to(repo_root, md_file), "attr.id not allowed:", text)
+            return False
+    return True
+
+
 def _check_md_files(knowledge: KnowledgeContent) -> bool:
     result = True
     for md_file in knowledge.md_files:
         ast = _markdown_ast(md_file)
+        result = _check_md_file_contents(knowledge.repo_root, md_file, ast) and result
         for link in _ast_iter(ast, lambda v: v.get("type", None) == "link"):
             target = link.get("link", "")
             if not target:

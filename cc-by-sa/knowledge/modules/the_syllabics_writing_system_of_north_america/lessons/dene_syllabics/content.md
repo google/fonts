@@ -15,7 +15,7 @@ The Dene Syllabics use the square form style, with all communities preferring th
 
 The vertical positioning of finals is largely stylistic in many Syllabics orthographies; however, in the northern Dene Syllabics orthographies (North and South Slavey, and Chipewyan), this positioning is required for the correct pronunciation of the language. This requirement—although important to these orthographies and languages—creates issues in representation in the current UCAS repertoire in the Unicode Standard. This is because the finals characters required for northern Dene Syllabics are used by other Syllabics orthographies within UCAS, which require these same forms to be rendered at the topline position.
 
-The UCAS code charts use the topline position for all finals characters, and as a result, all commonly available typefaces (especially those at the system level, which are the most accessible to these communities) have finals marks rendered at the topline position. This results in many northern Dene Syllabics communities not being able to render their finals at the vertical positions they require in the typefaces to which they have access.<a id="back-1" href="#1"><sup>1</sup></a>
+The UCAS code charts use the topline position for all finals characters, and as a result, all commonly available typefaces (especially those at the system level, which are the most accessible to these communities) have finals marks rendered at the topline position. This results in many northern Dene Syllabics communities not being able to render their finals at the vertical positions they require in the typefaces to which they have access.<sup>1</sup>
 
 <figure>
 
@@ -32,7 +32,7 @@ The typography of the Syllabics may lack a formal body of literature that users 
 
 ## Endnotes:
 
-<a id="1" href="#back-1">1.</a> Chris Harvey notes in his article _[Syllabic glyph variation](http://www.languagegeek.com/typography/syllabics/syllabic_variation.pdf ),_ “While final placement in most syllabics languages may be stylistically conventional, it would in no circumstances impede legibility. In northern Dene languages on the other hand, the location of the final indicates pronunciation.”
+<sup>1</sup> Chris Harvey notes in his article _[Syllabic glyph variation](http://www.languagegeek.com/typography/syllabics/syllabic_variation.pdf ),_ “While final placement in most syllabics languages may be stylistically conventional, it would in no circumstances impede legibility. In northern Dene languages on the other hand, the location of the final indicates pronunciation.”
 
 ## Endnotes
 

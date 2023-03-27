@@ -1,5 +1,7 @@
-archive: https://github.com/notofonts/gujarati/releases/download/NotoSansGujarati-v2.102/NotoSansGujarati-v2.102.zip
+archive: https://github.com/notofonts/gujarati/releases/download/NotoSansGujarati-v2.103/NotoSansGujarati-v2.103.zip
 branch: main
 files:
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   NotoSansGujarati/googlefonts/variable-ttf/NotoSansGujarati[wdth,wght].ttf: NotoSansGujarati[wdth,wght].ttf

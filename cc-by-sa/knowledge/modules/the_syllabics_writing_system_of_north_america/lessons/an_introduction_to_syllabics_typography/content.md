@@ -1,4 +1,4 @@
-The Syllabics—sometimes referred to as the Canadian Aboriginal Syllabics—is a [writing system](/glossary/script_writing_system) used by several Indigenous language communities in Canada and the United States, including nêhiyawêwin (Cree), Anishinaabemowin (Ojibwe), Inuktut (Inuktitut), Dakelh (Carrier), iyuw iyimuun (Naskapi), and Saı́yısı́ dëne (Sayisi Dene). 
+The Syllabics—sometimes referred to as the Canadian Aboriginal Syllabics—is a [writing system](/glossary/writing_system) used by several Indigenous language communities in Canada and the United States, including nêhiyawêwin (Cree), Anishinaabemowin (Ojibwe), Inuktut (Inuktitut), Dakelh (Carrier), iyuw iyimuun (Naskapi), and Saı́yısı́ dëne (Sayisi Dene).
 
 Before we start looking at the construction of the script, let’s first look at the geographic distribution of the various groups and sub-groups of the Syllabics:
 

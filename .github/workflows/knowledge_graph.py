@@ -252,9 +252,10 @@ def _check_image_files(knowledge: KnowledgeContent) -> bool:
     result = True
     image_files = list(knowledge.knowledge_dir.glob("**/images/*"))
     for image_file in image_files:
+        st_size = image_file.stat().st_size
         if _is_svg(image_file):
-            if image_file.stat().st_size > MAX_VECTOR_IMAGE_SIZE_KB * 1024:
-                print("File exceeds max size of %s KB:" % MAX_VECTOR_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))
+            if st_size > MAX_VECTOR_IMAGE_SIZE_KB * 1024:
+                print("File exceeds max size of %s KB (%s KB):" % (MAX_VECTOR_IMAGE_SIZE_KB, st_size // 1024), image_file.relative_to(knowledge.knowledge_dir))
                 result = False
             root = minidom.parseString(image_file.read_text()).documentElement
             if root.tagName != "svg":
@@ -270,8 +271,8 @@ def _check_image_files(knowledge: KnowledgeContent) -> bool:
                     print("Must specify offset on <stop>:", image_file.relative_to(knowledge.knowledge_dir))
                     result = False
         else:
-            if image_file.stat().st_size > MAX_RASTER_IMAGE_SIZE_KB * 1024:
-                print("File exceeds max size of %s KB:" % MAX_RASTER_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))
+            if st_size > MAX_RASTER_IMAGE_SIZE_KB * 1024:
+                print("File exceeds max size of %s KB (%s KB):" % (MAX_RASTER_IMAGE_SIZE_KB, st_size // 1024), image_file.relative_to(knowledge.knowledge_dir))
                 result = False
     return result
 

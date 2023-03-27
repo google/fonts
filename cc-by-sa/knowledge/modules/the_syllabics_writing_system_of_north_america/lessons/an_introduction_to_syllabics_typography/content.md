@@ -173,7 +173,7 @@ The “square” form style is characterized by the uniformity of all character 
 
 ## Word space
 
-In order for Syllabics word images to be legible and easily read in text settings of any kind, the word space character must be much wider in comparison to the conventional Latin word space.<sup>1</sup>
+In order for Syllabics word images to be legible and easily read in text settings of any kind, the word space character must be much wider in comparison to the conventional Latin word space. \[1\]
 
 This wider word space is required primarily due to the very wide stance of the Syllabics system, exacerbated by the frequency of large, open counter spaces that result in pockets of whitespace throughout paragraphs of text. The space glyph in the Syllabics text must be roughly as wide as the width of the largest counterspaces (commonly, characters such as ᐃᐊᑎᑕ), allowing for word images to be clearly distinguished from one another.
 
@@ -341,7 +341,7 @@ The typography of the Syllabics may lack a formal body of literature that users 
 
 ## Endnotes
 
-<sup>1</sup> Bill Jancewicz, Algonquian Syllabics expert, notes (in email correspondence with the author) that “Much more difficulty has been experienced however with the whitespace, in particular the word-space character, which is encoded in BJCree UNI at somewhat wider than an em. The Euphemia word space is much too narrow for legible reading of syllabics.”
+\[1\] Bill Jancewicz, Algonquian Syllabics expert, notes (in email correspondence with the author) that “Much more difficulty has been experienced however with the whitespace, in particular the word-space character, which is encoded in BJCree UNI at somewhat wider than an em. The Euphemia word space is much too narrow for legible reading of syllabics.”
 
 The author owes much gratitude to ᓂᓚᐅᓛᖅ ᐊᒡᓘᒃᑲᖅ (Miriam Nilaulaaq Aglukkaq), ᑕᒪᓕᒃ (Janet Tamalik McGrath), ᐊᕐᓇᐅᔪᖅ ᐊᓗᑭ (Arnaoyok Alookee), ᕿ’ᖓᖅᑐᖅ ᐃᑦᑐᓗᒃ (Qi’ngaqtuq Kevin Eetoolook), ᐊᑏᒪ 𑪴ᓪᓚᕆ (Attima Hadlari), ᗮᘧᐣᙒᔆ ᗮᘦᐣᙆ (Francois (Guy) Prince), ᑓᐣᘆᔆ ᗷᒼᗫᐩᘧᐣᐪ (Dennis Cumberland), and Bill Jancewicz, who kindly shared their knowledge and discussed the concepts, local preferences and requirments, and best practices for Syllabics typography presented in this module with the author.
 

@@ -15,7 +15,7 @@ The Dakelh Syllabics prefer all syllabic characters to be of a uniform height (f
 </figure>
 <figcaption>The above example on line one shows incorrect Carrier Syllabics forms, as rendered in Google’s Noto Sans Canadian Aboriginal Syllabics. The second line shows the correct glyph shapes for these characters, rendered in November Syllabics.</figcaption>
 
-In addition to the preferences noted above, Dakelh users have a preference for the contemporary design of certain finals characters, particularly ᑋ  ᔆ  ᘁ  ᙆ . Historically, these characters were rendered as serifed, Latin-script form characters, which intentionally appeared distinct from other Syllabics finals characters. Francois Prince and Dennis Cumberland confirmed with the author that the contemporary community prefers monolinear shapes for these characters, which they feel better harmonize with the total Syllabics orthography, and which remain legible in text settings.<a id="back-1" href="#1"><sup>1</sup></a>
+In addition to the preferences noted above, Dakelh users have a preference for the contemporary design of certain finals characters, particularly ᑋ  ᔆ  ᘁ  ᙆ . Historically, these characters were rendered as serifed, Latin-script form characters, which intentionally appeared distinct from other Syllabics finals characters. Francois Prince and Dennis Cumberland confirmed with the author that the contemporary community prefers monolinear shapes for these characters, which they feel better harmonize with the total Syllabics orthography, and which remain legible in text settings.<sup>1</sup>
 
 ## Vertical positioning of finals
 
@@ -36,7 +36,7 @@ Dakelh Syllabics uses a raised dot (graphically similar to the dot diacritic mar
 
 ## Representation of foreign consonants
 
-The sound “r” is not found in the Dakelh language, and is only featured in foreign loan words—primarily from French and English. This sound is rendered in the Dakelh Syllabics system by two separate marks. Morice initially indicated “r” with a cross mark ᕀ (U+1540), which was rendered proportionally as a final consonant character, and positioned similarly at the midline. In the contemporary Syllabics, two marks are used based on the context in which they occur. Latin lowercase “r” (U+0072) has been integrated into the modern system to mark “r” when the consonant is followed by a vowel. The cross mark ᕀ is used to mark all other instances of “r” in conjunction with other syllables (2). Although this contemporary method is common, some users continue the practice of using cross mark ᕀ exclusively to mark all instances of “r”, regardless of the context in which it occurs.<a id="back-2" href="#2"><sup>2</sup></a>
+The sound “r” is not found in the Dakelh language, and is only featured in foreign loan words—primarily from French and English. This sound is rendered in the Dakelh Syllabics system by two separate marks. Morice initially indicated “r” with a cross mark ᕀ (U+1540), which was rendered proportionally as a final consonant character, and positioned similarly at the midline. In the contemporary Syllabics, two marks are used based on the context in which they occur. Latin lowercase “r” (U+0072) has been integrated into the modern system to mark “r” when the consonant is followed by a vowel. The cross mark ᕀ is used to mark all other instances of “r” in conjunction with other syllables (2). Although this contemporary method is common, some users continue the practice of using cross mark ᕀ exclusively to mark all instances of “r”, regardless of the context in which it occurs.<sup>2</sup>
 
 <figure>
 
@@ -60,11 +60,11 @@ The typography of the Syllabics may lack a formal body of literature that users 
 
 ## Endnotes
 
-<a id="1" href="#back-1">1.</a> In an email conversation on 21 April, 2021, Cumberland shared further that “… Morice used a couple of different printing presses as he upgraded [his equipment] … it is possible he made adjustments [to the orthography as he worked] … and he might of also made errors in some type sets [that he chose to work with] …”. 
+<sup>1</sup> In an email conversation on 21 April, 2021, Cumberland shared further that “… Morice used a couple of different printing presses as he upgraded [his equipment] … it is possible he made adjustments [to the orthography as he worked] … and he might of also made errors in some type sets [that he chose to work with] …”.
 
-Dennis Cumberland and Francois Prince; in email correspondence with the author discussing issues relating the Unicode proposal prepared to revise the Carrier representative glyphs in the Unified Canadian Aboriginal Syllabics code charts, Cumberland and Prince confirmed that all members of the Dakelh (Carrier) Nation preferred a unified construction for the finals characters in contemporary typefaces, as opposed to versions of some finals characters featuring a serif construction. 
+Dennis Cumberland and Francois Prince; in email correspondence with the author discussing issues relating the Unicode proposal prepared to revise the Carrier representative glyphs in the Unified Canadian Aboriginal Syllabics code charts, Cumberland and Prince confirmed that all members of the Dakelh (Carrier) Nation preferred a unified construction for the finals characters in contemporary typefaces, as opposed to versions of some finals characters featuring a serif construction.
 
-<a id="2" href="#back-2">2.</a> Dennis Cumberland; in a telephone interview with the author, Cumberland described many aspects pertaining to the history of the Dakelh (Carrier) Syllabics, including details on the equipment that Father Adrien-Gabriel Morice had available to print texts in the Syllabics. 
+<sup>2</sup> Dennis Cumberland; in a telephone interview with the author, Cumberland described many aspects pertaining to the history of the Dakelh (Carrier) Syllabics, including details on the equipment that Father Adrien-Gabriel Morice had available to print texts in the Syllabics.
 
 ### Works sourced
 

@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/tamil.git"
-  archive_url: "https://github.com/notofonts/tamil/releases/download/NotoSansTamil-v2.003/NotoSansTamil-v2.003.zip"
+  archive_url: "https://github.com/notofonts/tamil/releases/download/NotoSansTamil-v2.004/NotoSansTamil-v2.004.zip"
 }
 is_noto: true
 languages: "bfq_Taml"  # Badaga

@@ -1,5 +1,5 @@
 name: "Outfit"
-designer: "On Brand Investments Pty Ltd, Rodrigo Fuenzalida"
+designer: "Rodrigo Fuenzalida, Andy Fitzsimon"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-09-28"
@@ -13,9 +13,14 @@ fonts {
   copyright: "Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/Outfitio/Outfit-Fonts"
+  commit: "902773808eb372f70fb34e8946dd1ffe604efc79"
 }

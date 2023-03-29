@@ -31,3 +31,4 @@ languages: "ar_Syrc"  # Arabic, Syriac
 languages: "syc_Syrc"  # Classical Syriac
 languages: "syr_Syrc"  # Syriac
 languages: "tru_Syrc"  # Turoyo, Syriac
+primary_script: "Syrc"

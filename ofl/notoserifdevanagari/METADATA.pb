@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/devanagari.git"
-  archive_url: "https://github.com/notofonts/devanagari/releases/download/NotoSerifDevanagari-v2.003/NotoSerifDevanagari-v2.003.zip"
+  archive_url: "https://github.com/notofonts/devanagari/releases/download/NotoSerifDevanagari-v2.004/NotoSerifDevanagari-v2.004.zip"
 }
 is_noto: true
 languages: "anp_Deva"  # Angika

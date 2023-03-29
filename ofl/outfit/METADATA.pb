@@ -1,5 +1,5 @@
 name: "Outfit"
-designer: "Rodrigo Fuenzalida, Andy Fitzsimon"
+designer: "Smartsheet Inc, Rodrigo Fuenzalida"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-09-28"

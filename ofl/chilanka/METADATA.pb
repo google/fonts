@@ -1,5 +1,5 @@
 name: "Chilanka"
-designer: "Santhosh Thottingal"
+designer: "SMC, Santhosh Thottingal"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2019-06-10"

@@ -1,0 +1,8 @@
+id: "ayb_Latn"
+language: "ayb"
+script: "Latn"
+name: "Ayizo-Gbe"
+exemplar_chars {
+  base: "a A b B d D ɗ Ɗ e E ɛ Ɛ f F g G h H i I j J k K l L m M n N o O ɔ Ɔ p P r R s S t T u U v V w W x X z Z"
+  auxiliary: "c C q Q y Y"
+}

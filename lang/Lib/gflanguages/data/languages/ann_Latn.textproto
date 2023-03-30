@@ -1,0 +1,9 @@
+id: "ann_Latn"
+language: "ann"
+script: "Latn"
+name: "Obolo"
+exemplar_chars {
+  base: "a A à À â Â b B c C d D e E è È ê Ê f F g G h H i I ì Ì î Î j J k K l L m M n N ǹ Ǹ o O ò Ò ô Ô ọ Ọ ộ Ộ p P r R s S t T u U ù Ù û Û v V w W"
+  marks: "◌̀ ◌̂ ◌̄ ◌̣"
+  auxiliary: "q Q x X"
+}

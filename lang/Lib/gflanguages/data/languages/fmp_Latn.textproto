@@ -1,0 +1,8 @@
+id: "fmp_Latn"
+language: "fmp"
+script: "Latn"
+name: "Fe’fe’"
+exemplar_chars {
+  base: "a A ɑ Ɑ b B c C d D e E ə Ə f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U ʉ Ʉ v V w W y Y z Z"
+  auxiliary: "q Q r R x X"
+}

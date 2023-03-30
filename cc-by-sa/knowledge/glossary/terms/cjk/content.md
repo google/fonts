@@ -1,4 +1,4 @@
-CJK is the shorthand collective name for the Chinese, Japanese, and Korean [writing systems](/glossary/script_writing_system), all of which include Chinese [characters](/glossary/character) and derivatives. The “C” represents both the traditional version and simplified version of Chinese; the “J” represents Japanese Hiragana, Katakana, and Kanji (the latter being Chinese characters used in Japanese); and the “K” represents the Korean Hangeul and Hanja (the latter being Chinese characters used in Korean).
+CJK is the shorthand collective name for the Chinese, Japanese, and Korean [writing systems](/glossary/writing_system), all of which include Chinese [characters](/glossary/character) and derivatives. The “C” represents both the traditional version and simplified version of Chinese; the “J” represents Japanese Hiragana, Katakana, and Kanji (the latter being Chinese characters used in Japanese); and the “K” represents the Korean Hangeul and Hanja (the latter being Chinese characters used in Korean).
 
 <figure>
 

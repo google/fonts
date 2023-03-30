@@ -2,6 +2,20 @@ Below are the most important changes from each release.
 
 ## Next release
 
+## 0.4.6 (2023-Mar-24)
+- #52 Addition of exemplar character sets for Latin-based African Lang
+uages
+- #53 Adding caps letters to Latin-based African languages that have gflang profiles
+- #67 Add kana sample text
+
+## 0.4.5 (2023-Mars-22)
+- #65 Add Nag Mundari script
+
+## 0.4.4 (2023-Feb-24)
+- #51 Add source and note fields
+- #59 Updated Thai specimen
+- #60 Fixed CI
+
 ## 0.4.3 (2022-Nov-14)
 - Add missing script to Chorasmian #47
 - Pin protobuf>=3.7.0, <4 like fontbakery

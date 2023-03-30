@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/xconsau/GajrajOne"
   commit: "5768aa3d4522b402ead302e5bb8697e965da694f"
 }
+primary_script: "Deva"

@@ -1,0 +1,9 @@
+id: "apd_Latn"
+language: "apd"
+script: "Latn"
+name: "Sudanese Arabic"
+exemplar_chars {
+  base: "a A b B d D ḍ Ḍ f F g G h H ḥ Ḥ i I j J k K x X l L m M n N r R s S ṣ Ṣ t T ṭ Ṭ u U w W y Y z Z ẓ Ẓ"
+  marks: "◌̣ ◌͟"
+  auxiliary: "c C e E o O p P q Q v V"
+}

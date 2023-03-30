@@ -3,6 +3,11 @@ language: "kbp"
 script: "Latn"
 name: "Kabiyé"
 region: "TG"
+exemplar_chars {
+	base: "a A b B c C d D ɖ Ɖ e E ɛ Ɛ f F g G h H i I ɩ Ɩ j J k K l L m M n N ñ Ñ ŋ Ŋ o O ɔ Ɔ p P s S t T u U ʋ Ʋ v V w W y Y z Z ɣ Ɣ"
+	marks: "◌̃"
+	auxiliary: "q Q r R x X"
+}
 sample_text {
   masthead_full: "PpAa"
   masthead_partial: "Ll"

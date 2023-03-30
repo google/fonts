@@ -17,5 +17,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/alphArtype/Delicious-Handrawn"
-  commit: "d32722cd629ea4d6f48c63d5f4387a9441db3c6c"
+  commit: "0a9b42f98d6f2ee40563a406b1cdd9bb5a58fe57"
 }

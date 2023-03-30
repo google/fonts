@@ -1,5 +1,5 @@
 designer: "Binoy Dominic"
 link: ""
 avatar {
-  file_name: "binoy_dominic.png"
+  file_name: "binoydominic.png"
 }

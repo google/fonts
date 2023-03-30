@@ -20,8 +20,9 @@ To offer an oversimplified explanation: A typical syllable block contains a cons
 
 ![An English sentence using syllable blocks.](images/hangeul_4_fig_1.svg)
 
-</figure>
 <figcaption>An example of the English sentence, “The puppy is soft,” using a syllable-block approach.</figcaption>
+
+</figure>
 
 The use of syllable blocks has several benefits for the reader.
 
@@ -43,8 +44,9 @@ For writers, King Sejong was no less innovative in incorporating usability into 
 
 ![Three Korean words with English translations.](images/thumbnail.svg)
 
-</figure>
 <figcaption>Three Korean words of 2, 3, and 4 syllables shown with their corresponding English translations, each with 10 letters but with varying syllable lengths.</figcaption>
+
+</figure>
 
 ## Efficiency for writers
 
@@ -60,8 +62,9 @@ Specifically, he designed Hangeul so that the most frequent vowel sounds are pro
 
 ![Vertical and horizontal Korean letters.](images/hangeul_4_fig_3.svg)
 
-</figure>
 <figcaption>Three high-frequency Korean vowels constructed from vertical lines are contrasted with three low-frequency vowels constructed from horizontal lines.</figcaption>
+
+</figure>
 
 According to some scholars (e.g., Lee, 1997), because it’s easier to move our fingers vertically than horizontally (whether using a brush or other similar instrument), less effort is required when producing vertical versus horizontal strokes.
 

@@ -9,8 +9,9 @@ First, let’s make sure we define **legibility** and **readability**. Both are 
 
 ![Two columns of text in red and black.](images/thumbnail.svg)
 
-</figure>
 <figcaption>Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same absolute value of line-height for 9 lines, but different font-size values.</figcaption>
+
+</figure>
 
 ## Choosing accessible type
 
@@ -28,8 +29,9 @@ The type designers who created [Lexend](https://design.google/library/lexend-rea
 
 ![The letters “c,”, “o,” and “e” in different typefaces, showing the varying counter shapes.](images/accessibility_extra.svg)
 
-</figure>
 <figcaption>Left (in red lines): Lowercase “c,” “o,” and “e” with closed counters. Right (in blue lines): Lowercase “c,” “o,” and “e” with open counters.</figcaption>
+
+</figure>
 
 ## Checking readability
 
@@ -58,15 +60,17 @@ Many shapes are simply mirrored without any further alteration. Lowercase “b,�
 
 ![b, d, q, and p characters set in different typefaces.](images/accessibility_2.svg)
 
-</figure>
 <figcaption>Left: Mirroring of letterforms is employed in Helvetica (top) and Public Sans (bottom). Right: The non-mirrored letterforms used in Andika (top) and Atkinson Hyperlegible (bottom) help the reader avoid confusion with potentially similar characters.</figcaption>
+
+</figure>
 
 <figure>
 
 ![Google Fonts website screenshot with six boxes of glyphs](images/accessibility_3.png)
 
-</figure>
 <figcaption>Comparison of “b,” ”d,” “q,” “p,” “a,” “8,” “6,” “g,” “a,” “6,” “1,” “I,” and “l” in Roboto, Abyssinica SIL, Intern Tights, Open Sans, Noto Sans Mono, and Noto Sans Japanese.</figcaption>
+
+</figure>
  
 Look for letters that can be clearly distinguished. For people with moderate to severe vision impairment, the characters “o,” ”c,” “e,” or “a” can be easily confused, which in turn makes words harder to identify.
 
@@ -74,8 +78,9 @@ Look for letters that can be clearly distinguished. For people with moderate to 
 
 ![Three columns of r, n, m, i, !, I, l, o, c, 0, O, C, a, 8, 6, g, a, 6](images/accessibility_4.svg)
 
-</figure>
 <figcaption>From left to right: The typefaces Andika, Lexend, and Atkinson Hyperlegible show how effective they are in differentiating potentially confusing character combinations.</figcaption>
+
+</figure>
 
 ## Accessible typography beyond typefaces
 
@@ -89,8 +94,9 @@ The HTML reflects the visual hierarchy by reading the content from the top left 
 
 ![Arrows showing zig-zag direction.](images/accessibility_5.svg)
 
-</figure>
 <figcaption> Example code for displaying the images in a screen reader-friendly hierarchy.</figcaption>
+
+</figure>
 
 ```html
 <section id="instructions">
@@ -128,8 +134,9 @@ These lines of text follow the color contrast ratio recommendations and are legi
 
 ![“The woodman set to work at once” text on two lines](images/accessibility_6.svg)
 
-</figure>
 <figcaption>The black text on the white background and the white text on the black background meet color contrast standards.</figcaption>
+
+</figure>
 
 When picking up several colors for background, text, and other components, consider how readers perceive your choice of colors in addition to color contrast. 
 
@@ -151,8 +158,9 @@ Mobile devices and browsers include features to allow users to adjust their font
 
 ![Two columns of text ](images/accessibility_7.svg)
 
-</figure>
 <figcaption>A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.</figcaption>
+
+</figure>
 
 Ensure that there is sufficient space for large fonts and other writing systems. 
 
@@ -164,8 +172,9 @@ When selecting a font on Google Fonts, go to the Type Tester to try out differen
 
 ![Three text samples in text area, variable axes controls](images/accessibility_8.png)
 
-</figure>
 <figcaption>Type Tester showing text with variable axes for weight, width, slant and ascender height.</figcaption>
+
+</figure>
 
 There are various resources to learn about [text spacing](https://www.w3.org/TR/WCAG21/#text-spacing), [crowding](https://www.sciencedirect.com/science/article/pii/S0042698907005561), [line heights (for foreign languages)](/lesson/language_support_in_fonts), [choosing line height](https://www.youtube.com/watch?v=ponRmWSzpDg&t=42s), [hierarchy of type sizes, weights, line heights and spacing](https://m3.material.io/styles/typography/applying-type), [type scale and units](https://material.io/design/typography/the-type-system.html#type-scale), [Android text scaling](https://support.google.com/accessibility/android/answer/12159181?hl=en), and [iOS Typography guidelines](https://developer.apple.com/design/human-interface-guidelines/foundations/typography/). 
 

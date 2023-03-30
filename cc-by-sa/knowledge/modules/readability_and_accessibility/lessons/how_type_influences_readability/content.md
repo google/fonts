@@ -24,8 +24,9 @@ Find out more about text accessibility in [“Introducing accessibility in typog
 
 ![Two columns of text, with the left column showing examples of indistinct letter shapes and tight line height that causes clashes, and the right showing better distinguishable shapes (to show legibility) and a more open line height (to show readability).](images/readability_01.svg)
 
-</figure>
 <figcaption>Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.</figcaption>
+
+</figure>
 
 Legibility is being able to clearly see the structure of the text. Legibility is achieved when the text is not fuzzy or blurred and the reader can  see all the details without any visual stress such as squinting or rereading. 
 
@@ -97,8 +98,9 @@ To explore settings that might work for your texts, when selecting a font on Goo
 
 ![A screenshot of Google Fonts’ Type Tester.](images/readability_07.png)
 
-</figure>
 <figcaption>Google Fonts’ Type Tester, showing text with variable axes.</figcaption>
+
+</figure>
 
 ## It’s easier to read, learn, and remember meaningful texts
 
@@ -131,8 +133,9 @@ The shortest form of reading is called glancing, when the reader briefly looks a
 
 ![A diagram showing types of reading—from glanceable to interlude to long form—over an axis of shortest time to longest time.](images/readability_09.svg)
 
-</figure>
 <figcaption>The time someone has to read a source impacts the way they read it, and what they do while they read. Reading at-a-glance is often done alongside some other task, while reading a long form document generally requires dedication to the reading itself. Most reading is done opportunistically in interludes; while waiting or taking a break.</figcaption>
+
+</figure>
 
 Interlude reading covers everything between glanceable and long form reading.  There is a wide range including text messaging, navigating through headers and labels, reading some news headlines, summaries, or scanning search results.  The motivations for this type of reading also vary widely,  and includeing learning new things, being with friends,  and finding things.
 

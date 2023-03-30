@@ -8,8 +8,9 @@ Although the [sans serif](/glossary/sans_serif) [typeface](/glossary/typeface) f
 
 ![Type specimen for Akzidenz-Grotesk.](images/GFKhistoftype6.3.svg)
 
-</figure>
 <figcaption>Akzidenz-Grotesk released by the Berthold type foundry in 1898, inspired the popular Neo-grotesque style.</figcaption>
+
+</figure>
 
 The trend toward simplified or industrial letters, or letters that appear machine-made or constructed, can be seen in typefaces like Paul Renner’s Futura, a [Geometric](/glossary/geometric) sans designed in 1927. But this concept was more fully realized in the typeface DIN 1451, released by Deutsches Institut für Normung (German Institute for Standardization). Just as the [Transitional](/glossary/transitional_neo_classical) typefaces of the 18th century had rationalized their Old Style predecessors, so too, in DIN was an attempt to design a modern standard or template alphabet—a rationalization of the sans serif style. DIN appeared on road signage throughout Germany and even on vehicle license plates. It is the precursor to countless modern sans serif designs.
 
@@ -17,8 +18,9 @@ The trend toward simplified or industrial letters, or letters that appear machin
 
 ![Type specimen for DIN 1451.](images/GFKhistoftype6.4.svg)
 
-</figure>
 <figcaption>DIN 1451, produced by Deutsches Institut für Normung (German Institute for Standardization) in 1931.</figcaption>
+
+</figure>
 
 ## Light, digital, and postmodern type
 
@@ -32,8 +34,9 @@ For the first generations of digital graphic designers, low resolution screens, 
 
 ![Type specimen for Oakland.](images/GFKhistoftype6.2.svg)
 
-</figure>
 <figcaption>Zuzana Licko’s Oakland (1985) designed on the first Apple Macintosh 128K computer.</figcaption>
+
+</figure>
 
 In 1984, the Macintosh computer went on sale and it was quickly exploited by a new generation of talented and enthusiastic digital designers. Among them was Zuzana Licko, who—rather than being put off by the inherent limitations imposed by low resolution—experimented with bitmap typefaces that embraced it. Licko‘s Emperor, Oakland, and Universal font families, designed in 1985 on the Apple Macintosh 128K computer (and re-released in 2011 as Lo-Res), celebrated these limitations. Later she went on to produce popular digital revivals of Baskerville (Mrs Eaves) and Bodoni (Filosofia), among others.
 
@@ -41,8 +44,9 @@ In 1984, the Macintosh computer went on sale and it was quickly exploited by a n
 
 ![Type specimen for Wim Crouwel’s New Alphabet.](images/GFKhistoftype6.1.svg)
 
-</figure>
 <figcaption>Wim Crouwel’s New Alphabet, 1967.</figcaption>
+
+</figure>
 
 Wim Crouwel’s ‘new alphabet’ of 1967 was one of the  most reductionist experiments, constructing the alphabet from combinations of horizontal and vertical [strokes](/glossary/stroke) only. Although it was not particularly [legible](/glossary/legibility), it inspired new and novel ways of approaching type design.
 

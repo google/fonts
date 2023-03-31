@@ -4,7 +4,8 @@ In type design, spacing refers to the act of setting the horizontal space around
 
 ![The word “axe” with the baseline and x-height shown, and the “x” character highlighted to demonstrate the horizontal spaces inside and outside the glyph.](images/thumbnail.svg)
 
-</figure>
 <figcaption>The blue box illustrates the internal spacing within the “x” glyph; the red boxes illustrate the external spacing. Note how the left and right values are intentionally unequal.</figcaption>
+
+</figure>
 
 When *setting* type, spacing can also refer to the act of making any typographic adjustment that affects space, such as [leading](/glossary/line_height_leading) (the vertical space between two lines of type), [tracking](/glossary/tracking_letter_spacing) (the overall horizontal spacing between glyphs in a block of text), or kerning (the specific horizontal spacing between two or more glyphs).

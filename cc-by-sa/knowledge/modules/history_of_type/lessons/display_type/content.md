@@ -4,8 +4,9 @@ The nineteenth century witnessed rapid changes in society and industry, which le
 
 ![A specimen for Abril Fatface.](images/GFKhistoftype5.1.svg)
 
-</figure>
 <figcaption><a href="https://fonts.google.com/specimen/Abril+Fatface">Abril Fatface</a>, a modern interpretation of the Fat Face style that first appeared in the early 19th century.</figcaption>
+
+</figure>
 
 Another early example of the new display type was the [slab serif](/glossary/slab_serif_egyptian_clarendon). Modern types had reduced serifs to hairline strokes, but in the slab serif we see the opposite extreme—very heavy serifs attached to low-contrast, robust, and [bold](/glossary/bold) [letterforms](/glossary/letterform). By the mid-1800s, out of these forms evolved a sub-genre called Clarendon, a style of slab serif more suited to text settings—lighter, with more contrast, and larger [x-heights](/glossary/x_height). The "slab serif," a term coined much later, was at first known as Egyptian. Discoveries in Egypt, at the turn of the 19th century, had led to a period of Egyptomania, and it appears that type founders simply exploited this fashion, borrowing “Egyptian” to convey exotic and different, and also to convey a feeling of incised or inscriptional forms.
 
@@ -21,8 +22,9 @@ However, casting very large letters in lead is impossible. Large volumes of molt
 
 ![A scan of a wood type specimen.](images/GFKhistoftype5.2.svg)
 
-</figure>
 <figcaption>Early 19th-century reverse contrast typeface in wood.</figcaption>
+
+</figure>
 
 When designing typefaces for reading, one works within fairly narrow parameters. Altering the structure and proportions of letterforms or adding novel or unusual accouterments interrupts the rhythm of the text. Even if the individual letters are [legible](/glossary/legibility), readers will be distracted by unfamiliar details, and [readability](/glossary/readability)  suffers. But when it comes to typefaces for advertising, where the whole purpose is to stand out , then there is much more room for innovation with both the structure and detail of letterforms. 
 
@@ -32,8 +34,9 @@ Unhindered by the exigencies of readability, typefounders (both metal and wood t
 
 ![A selection of different styles of Tuscan.](images/GFKhistoftype5.3.svg)
 
-</figure>
 <figcaption>The 19th century witnessed the invention of many new styles of typefaces—and serif designs.</figcaption>
+
+</figure>
 
 The arrival of the modern advertising poster roughly coincided with the invention of new color printing technologies, like chromolithography, which for the first time ever made color printing practical and affordable. The use of several colors became another way to stand out from the crowd, and the first chromatic wood type appeared in the 1840s, printed or overprinted from several blocks.
 
@@ -41,8 +44,9 @@ The arrival of the modern advertising poster roughly coincided with the inventio
 
 ![Scan of a specimen showing four faces, including William Caslon’s sans serif design.](images/GFKhistoftype5.4.svg)
 
-</figure>
 <figcaption>Bottom line: William Caslon’s sans serif, c. 1816.</figcaption>
+
+</figure>
 
 ## The arrival of the sans serif style
 

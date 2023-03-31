@@ -8,8 +8,9 @@ Higher-level properties like `font-size`, `width`, `padding`, and `line-height` 
 
 ![An animated loop showing how the content adapts when the container changes in width. The change in text size for the heading appears to jump.](images/3_1.gif)
 
-</figure>
 <figcaption>Static fonts with a layout breakpoint: A single breakpoint changes padding, font sizes, and line-height.</figcaption>
+
+</figure>
 
 A smoother and more seamless approach is to reduce the reliance on such queries, and instead try to make use of relative values that scale fluidly.
 
@@ -17,8 +18,9 @@ A smoother and more seamless approach is to reduce the reliance on such queries,
 
 ![An animated loop showing how the content adapts when the container changes in width. The change in text size for the heading is more fluid.](images/3_2.gif)
 
-</figure>
 <figcaption>Static fonts with intrinsic layout: The widths of the fonts remain fixed, but padding, font sizes, and line-heights change more smoothly with relative units.</figcaption>
+
+</figure>
 
 Variable fonts allow for seamless adaptation to extend even further down to the lowest-level details in the typeface. Typographic glyphs that would otherwise be fixed in traditional static fonts can now fluidly morph to better fit their containers.
 
@@ -39,8 +41,9 @@ Static typeface families that offer multiple widths sometimes have large differe
 
 ![An animated loop showing how the content adapts when the container changes in width. The more fluid shift in font size is omplimented with a change in width at certain breakpoints, which now also changes fluidly.](images/3_4.gif)
 
-</figure>
 <figcaption>Gradual variable font changes with intrinsic layout: Everything changes smoothly thanks to relative units and the fine-tuning flexibility of variable fonts.</figcaption>
+
+</figure>
 
 (As of October 2022, the lack of support for [interpolated values and unit division](https://css.oddbird.net/rwd/interpolation/) in CSS means smooth control over variable font width still requires either a series of closely-spaced breakpoints to adjust the font variations incrementally, or a dash of JavaScript to help set font width values seamlessly with a single intrinsic formula. Tools like [Typetura](https://typetura.com) can be helpful for this kind of intrinsic control.)
 
@@ -50,8 +53,9 @@ Special care should be taken when adjusting the width of a typeface, particularl
 
 ![Four paragraphs set in the same typeface, but using a different width setting for each.](images/3_5.svg)
 
-</figure>
 <figcaption>Avoid extremely narrow or wide font variants for paragraph text, as they can harm readability when typesetting anything more than a few words at a time.</figcaption>
+
+</figure>
 
 ## Line-filling
 
@@ -61,8 +65,9 @@ Speaking of width, variable fonts with adjustable widths can be used to make dif
 
 ![Five lines of type, with a different U.S. city name on each line. All use different widths, but all perfectly fill the same horizontal space.](images/3_6.svg)
 
-</figure>
 <figcaption>Variable fonts can be automatically condensed or expanded to fit different pieces of text on the same line length without changing the font size or resorting to synthetic squooshing.</figcaption>
+
+</figure>
 
 ## Extenders
 
@@ -72,8 +77,9 @@ Another approach for optimizing the spatial efficiency of a typeface is related 
 
 ![First, a specimen using the word “Glyphs collide”, set over two lines, showing the descenders of “Glyphs” touching the ascenders of “collide”. Then, the same specimen with the ascenders and descenders reduced vertically to avoid the clash.](images/3_7.svg)
 
-</figure>
 <figcaption>Fonts with retractable ascenders and descenders can be used to avoid collisions for tight line spacing.</figcaption>
+
+</figure>
 
 Some typefaces address this by simply minimizing the length of extenders across the board. It may look slightly unusual in settings where a small line space isn’t needed, but it allows for tighter settings when needed.
 
@@ -83,8 +89,9 @@ A technique that is much less common is to use variable fonts with an axis for a
 
 ![An animated loop showing how the content adapts when the container changes in width. When the container becomes narrow and the lin-height is decreased, the ascenders and descenders shorten accordingly to avoid clashes.](images/3_8.gif)
 
-</figure>
 <figcaption>Variable fonts allow for extenders that shrink or grow as space allows to prevent glyphs from colliding between lines.</figcaption>
+
+</figure>
 
 (As with the adjustment to font widths mentioned above, this technique also requires the use of breakpoints or some minimal JavaScript.)
 

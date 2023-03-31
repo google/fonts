@@ -1,3 +1,4 @@
+from pprint import pprint
 from absl import app
 from absl import flags
 from gftools import knowledge_pb2
@@ -175,6 +176,12 @@ def _check_md_file_contents(repo_root: Path, md_file: Path, ast: List[MdValue]) 
         if re.search(' id="[^"]+"', text):
             print("INVALID ", _safe_relative_to(repo_root, md_file), "attr.id not allowed:", text)
             return False
+    f = open(md_file,"r")
+    content = "".join(f.readlines())
+    if re.search('</figcaption>(?!.*</figure>)', content, re.MULTILINE | re.DOTALL):
+        print("INVALID ", _safe_relative_to(repo_root, md_file), "Cannot have a <figcaption> outside of a <figure>")
+        return False
+    f.close()
     return True
 
 

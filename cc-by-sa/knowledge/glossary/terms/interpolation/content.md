@@ -6,7 +6,8 @@ When a typeface has more than one axis of variation (for example, both weight an
 
 ![Four lowercase “a” characters, each shown in a different weight or width. One of them is highlighted to show that it was generate by a combination of the widest width and heaviest weight.](images/thumbnail.svg)
 
-</figure>
 <figcaption>A light master (top left), a bold master (top right), and a light extended master (bottom left) can be used to create a bold extended style (bottom right) thanks to vector addition.</figcaption>
+
+</figure>
 
 Interpolation and vector addition are tools type designers use to create a larger set of static fonts from fewer initial masters, and are also the mechanisms behind [variable fonts](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts), working on-the-fly as the end user manipulates variable axes.

@@ -22,8 +22,9 @@ Since the invention of writing in Mesopotamia more than 5000 years ago, there ha
 
 ![Texts in four scripts.](images/thumbnail.svg)
 
-</figure>
 <figcaption>A montage of texts written in Sumerian, Egyptian, Chinese, and Meso-American [scripts](/glossary/script), intended to show the our species’ creativity and ingenuity in devising alphabets.</figcaption>
+
+</figure>
 
 All the world’s subsequent alphabets have, at a minimum, been informed by these early examples, and nearly all have been direct adaptations.
 

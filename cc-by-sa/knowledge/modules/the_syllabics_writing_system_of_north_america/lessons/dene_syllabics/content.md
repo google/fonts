@@ -8,8 +8,9 @@ The Dene Syllabics use the square form style, with all communities preferring th
 
 ![Showing a comparison of the same words in the Square form and Round form Syllabics styles](images/article_04_figure_01.svg)
 
-</figure>
 <figcaption>A comparison of Sayisi Dene Syllabics in the round form style (top) and the square form style (bottom). Note that the square form style in the bottom sample allows for the variation in the vertical positioning of the finals characters to be more clearly distinguished than in the round form style showing of the same text.</figcaption>
+
+</figure>
 
 ## Vertical positioning variation for finals
 
@@ -21,8 +22,9 @@ The UCAS code charts use the topline position for all finals characters, and as 
 
 ![Syllabics-using languages community map](images/article_04_figure_02.svg)
 
-</figure>
 <figcaption>A showing of the vertical positioning variation for finals characters across four separate Athabaskan languages that use the Dene Syllabics.</figcaption>
+
+</figure>
 
 As a result of these preferences, Syllabics fonts wishing to support the Dene Syllabics should provide the correct vertical positioning schemes for all Dene Syllabics orthographies by offering midline and baseline finals.
 

@@ -18,15 +18,17 @@ Both forms are mutually intelligible between either community, with the only dif
 
 ![A map of the Nunavut and Nunavik regions and their respective communities who use Syllabics](images/article_03_figure_01_png.png)
 
-</figure>
 <figcaption>Inuktut communities across Nunavik & Nunavut (blue), Cree communites** (red), Naskapi communites** (red). The above map shows Nunavik and Nunavut communities with their preferred form of ng depicted above the community place name (ᐊᖓᒃᑯᓄᑦ,  ᐊᖓᒃᑯᓄᑦ). The Nunavik region—while complying with the ICI orthographic standards—prefers an "ng" form that is different than that of the Nunavut region.</figcaption>
+
+</figure>
 
 <figure>
 
 ![Comparing the preferred representation of the Nunavut and Nunavik ng final form](images/article_03_figure_02.svg)
 
-</figure>
 <figcaption>A comparison of the same text using the Nunavut and Nunavik local preferences for the ng final glyph shape composition, respectively.</figcaption>
+
+</figure>
 
 This preference is satisfied in Typotheque’s November and Lava Syllabics typefaces through the implementation of OpenType Stylistic Set substitutions, which allows for switching between these two preferred character variants for these user communities.
 

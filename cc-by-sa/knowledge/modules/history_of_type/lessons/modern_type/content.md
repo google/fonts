@@ -4,8 +4,9 @@ When John Baskerville introduced his roman [typefaces](/glossary/typeface) in th
 
 ![The word “hamburger” set in Baskerville and Bodoni.](images/GFKhistoftype4.3.svg)
 
-</figure>
 <figcaption>Comparing transitional (Baskerville, top) and Modern  (Bodoni, below) style. They share similar proportions and an upright axis, but the Modern has a much simplified serif structure and considerably higher contrast.</figcaption>
+
+</figure>
 
 ## The first Moderns
 
@@ -33,8 +34,9 @@ In the earliest Modern style, capital letters one would be hard-pressed to find 
 
 ![Scan of Bodoni roman and italic specimen.](images/GFKhistoftype4.2.svg)
 
-</figure>
 <figcaption>Bodoni roman and italic. Note, in the italic, the calligraphic influence in the hairline in-strokes.</figcaption>
+
+</figure>
 
 Comparing the Moderns of Didot and Bodoni is difficult because there are so many of them, especially from Bodoni, who produced hundreds. Although typically, there is a little more symmetry or geometry in the letters of Bodoni than in Didot’s Moderns; for example, some of Didot’s romans tend to have asymmetrical or slightly lopsided [counters](/glossary/counter).
 

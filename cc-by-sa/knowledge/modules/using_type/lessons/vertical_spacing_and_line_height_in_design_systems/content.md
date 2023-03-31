@@ -10,8 +10,9 @@ Because physical blocks were used, there wasn’t much room for manipulation of 
 
 ![Three fonts with their default bounding boxes. One cursive font that sits high, one block font that also sits high, and a basic sans-serif that sits central.](images/default-line-heights.svg)
 
-</figure>
 <figcaption>Positioning of letters from different typefaces within their default bounding box heights. All of the examples are set to the same font size.</figcaption>
+
+</figure>
 
 ### So what’s the big deal?
 
@@ -21,8 +22,9 @@ What all of this means in practice is there are a lot of discrepancies between d
 
 ![Three examples of vertical alignment with fonts. Buttons with a non-centered and centered font, alignment of different font sizes to the baseline, and spacing within a simple card component.](images/examples.svg)
 
-</figure>
 <figcaption>An overview of various problems that arise from vertical alignment within digital typography.</figcaption>
+
+</figure>
 
 ## Rendering text on different platforms
 
@@ -32,8 +34,9 @@ To complicate matters further, different digital platforms render text in differ
 
 ![Four lines of text, with the default line height highlighted, and 2 half-leading highlights added above and below the default line height.](images/web-render.svg)
 
-</figure>
 <figcaption>The web renders text with half-leading above and below the 100% line-height for a font.</figcaption>
+
+</figure>
 
 iOS platforms followed suit with the same method and neither the web nor iOS have changed the way they render text to this day. Android devices, however, mostly render a paragraph clipped to the default line-height for the first and last line. Total line-height will still be respected via the `lineSpacingMultiplier` property, so every line of text still has the correct spacing from baseline to baseline.
 
@@ -41,9 +44,9 @@ iOS platforms followed suit with the same method and neither the web nor iOS hav
 
 ![Two text boxes side-by-side highlighting the clipped text box rendering found on Android platforms.](images/native-render.svg)
 
-</figure>
-
 <figcaption>iOS and Android render text nodes slightly differently, causing confusion within design tools.</figcaption>
+
+</figure>
 
 To add to this, web developers don’t (yet) have access to the inner metrics of a typeface when it’s loaded. This means they can’t know where the [glyphs](/glossary/glyph) are positioned, in order to align elements to any diacritics, cap-height, x-height, or default line-height. In theory, this shouldn’t be a problem for native platforms, as the files are pre-loaded within an application. In fact, both iOS and Android platforms have the ability to create padding or space according to the baseline of a font, but this is rarely used. On top of all of this, we must also remember that all devices, browsers, and platforms will render in slightly different ways across the board, and so no two implementations of a design are likely to be the same.
 
@@ -59,8 +62,9 @@ To ensure consistent design across your applications, the most common method wou
 
 ![A simple card component with equal vertical spacing, shown with visual spacing values, and text-box spacing values.](images/manual-spacing.svg)
 
-</figure>
 <figcaption>Vertical rhythm by aligning to cap-height and baseline becomes a very manual, and non-systematic process.</figcaption>
+
+</figure>
 
 ### Equally spaced font files
 
@@ -72,8 +76,9 @@ Choosing such a font can be difficult, but luckily most design tools will show t
 
 ![Two example fonts with their default line height and vertical centering highlighted. One font is rendered high within it's line-height, and the other is perfectly centered.](images/equal-spacing.svg)
 
-</figure>
 <figcaption>An example of how letters can and can’t be aligned to the true center of a default line-height.</figcaption>
+
+</figure>
 
 There are two main benefits to choosing a font like this: first, centering the text vertically to other objects, and second, ensuring a consistent space above and below a text node. It’s common to include text next to an icon or shape in plenty of components, and so no matter the line-height used, the text can always be easily aligned to the same center line. With equal spacing there is also a more reliable space between elements when changing font size. This makes vertical rhythm within a page or component—and aligning to a baseline grid—much more achievable.
 
@@ -81,8 +86,9 @@ There are two main benefits to choosing a font like this: first, centering the t
 
 ![Examples of two fonts, one with equal metrics, and the other without. One example is a button, the other example is text with an icon.](images/equal-spacing-benefits.svg)
 
-</figure>
 <figcaption>The benefits of choosing a font that is equally centered to its line-height.</figcaption>
+
+</figure>
 
 ### Upcoming CSS feature, leading-trim
 
@@ -92,8 +98,9 @@ For the web, a CSS feature called [leading-trim](https://www.w3.org/TR/css-inlin
 
 ![A line of text with it's line-height highlighted, and a line denoting where leading-trim would trim to the cap-height and baseline.](images/equal-spacing-benefits-1.svg)
 
-</figure>
 <figcaption>How leading-trim can cut a text node on the web, to allow for better cap-height and baseline positioning.</figcaption>
+
+</figure>
 
 ### Be specific with calculations
 
@@ -103,8 +110,9 @@ Finally, you could even calculate the clipping needed to apply to any text node 
 
 ![Two sizes of the same font with cap-height and baseline to line-height ratios highlighted to be the same for both sizes.](images/ratio.svg)
 
-</figure>
 <figcaption>The ratio of cap-height and baseline to a line-height will always be the same no matter what text-size is used.</figcaption>
+
+</figure>
 
 ## Takeaways
 

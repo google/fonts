@@ -24,8 +24,9 @@ For example, in a [recent study](https://psycnet.apa.org/record/2018-13691-001) 
 
 ![Correct and incorrect versions of a lowercase looptail letter G.](images/hangeul_3_fig_1.svg)
 
-</figure>
 <figcaption>Example of a stimulus used in an experiment, showing a lowercase looptail letter G, along with three additional incorrect versions in which various parts of the correct letter are subtly transformed.</figcaption>
+
+</figure>
 
 Although people routinely encounter (and successfully use) the letters and letter variants of their alphabet, this study highlights an important point: When you’re learning an alphabet, there are lots of details to keep track of, but they don’t always matter in meaningful ways.
 
@@ -41,8 +42,9 @@ That is, the shapes of the consonant letters were designed to work as iconic rep
 
 ![Korean letters and their relevant speech organs.](images/hangeul_3_fig_2.svg)
 
-</figure>
 <figcaption>Five letters from the Korean alphabet superimposed over line drawings of human speech organs, with each letter corresponding to a different speech organ. Below each letter, the approximate sound in English is given.</figcaption>
+
+</figure>
 
 Although people are unlikely to reference this blueprint once they’ve become proficient in the alphabet, to the learner, it could be quite beneficial.
 
@@ -58,8 +60,9 @@ King Sejong’s approach of mapping important speech details to visual details d
 
 ![Three Korean letter from one base letter.](images/thumbnail.svg)
 
-</figure>
 <figcaption>The Korean letters corresponding to the English sounds “N”, “D”, and “T”. The N letter is considered the base shape, and the D and T letters add one and two lines respectively to the base.</figcaption>
+
+</figure>
 
 For example, if you focus on what’s happening in your mouth as you pronounce the “N” sound (i.e., as though you were slowly saying the word *Nice*), you’ll notice that you’re making a continuous vibration while your tongue is placed somewhere behind the top row of teeth.
 

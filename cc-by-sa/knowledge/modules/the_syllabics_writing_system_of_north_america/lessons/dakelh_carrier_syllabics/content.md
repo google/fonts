@@ -12,8 +12,9 @@ The Dakelh Syllabics prefer all syllabic characters to be of a uniform height (f
 
 ![Comparision of incorrect and correct Dakelh (Carrier) Syllabics representative glyphs](images/article_05_figure_01.svg)
 
-</figure>
 <figcaption>The above example on line one shows incorrect Carrier Syllabics forms, as rendered in Google’s Noto Sans Canadian Aboriginal Syllabics. The second line shows the correct glyph shapes for these characters, rendered in November Syllabics.</figcaption>
+
+</figure>
 
 In addition to the preferences noted above, Dakelh users have a preference for the contemporary design of certain finals characters, particularly ᑋ  ᔆ  ᘁ  ᙆ . Historically, these characters were rendered as serifed, Latin-script form characters, which intentionally appeared distinct from other Syllabics finals characters. Francois Prince and Dennis Cumberland confirmed with the author that the contemporary community prefers monolinear shapes for these characters, which they feel better harmonize with the total Syllabics orthography, and which remain legible in text settings. \[1\]
 
@@ -25,8 +26,9 @@ The final pure consonant marks for Dakelh Syllabics are all vertically positione
 
 ![Showing the correct vertical positioning of Dakelh (Carrier) finals glyphs](images/article_05_figure_02.svg)
 
-</figure>
 <figcaption>Above, an example of the preferred vertical positioning for the finals characters in the Carrier Syllabics.</figcaption>
+
+</figure>
 
 Although there are disunified finals characters for Dakelh within the UCAS main block (ᑋ ᔆ ᓑ ᗮ ᘁ ᙆ ᙇ ᙚ ᣵ), the majority of the finals the orthography uses are unified with characters shared with other orthographies – notably the Inuktut and Algonquian Syllabics orthographies. This produces a conflict with the vertical positioning preferences and requirements for the respective finals glyphs ᐦ ᒡ ᑊ ᐡ ᒼ ᐣ ᐟ ᐠ in most commonly available typefaces for the Carrier community.
 
@@ -42,8 +44,9 @@ The sound “r” is not found in the Dakelh language, and is only featured in f
 
 ![Showing variations in the representation of pure consonant r in Dakelh (Carrier) Syllabics](images/article_05_figure_03.svg)
 
-</figure>
 <figcaption>Showing the two variations in the graphic representation of the pure consonant "r" in the Carrier Syllabics, both of which are employed today.</figcaption>
+
+</figure>
 
 The sound “f”—as “r”—is also not encountered in the Dakelh language, with it normally being found in French or English loan words. The shape used for marking the “f” consonant in Dakelh Syllabics texts is the UPTURNED H character, which functions in the same manner as other finals characters in the orthography. It should be noted that the upturned h (U+1DA3) is not within the UCAS repertoire. This may create rendering conflicts if this code point is shared with another orthography within a type family that has differing requirements for this character.
 
@@ -51,8 +54,9 @@ The sound “f”—as “r”—is also not encountered in the Dakelh language,
 
 ![Showing variations in the representation of pure consonant f in Dakelh (Carrier) Syllabics](images/article_05_figure_04.svg)
 
-</figure>
 <figcaption>A showing of the representation of consonant “f” in the Dakelh Syllabics, which is encoded using U+1DA3 ᶣ MODIFIER LETTER SMALL TURNED H, a character encoded in Unicode, but outside of the UCAS range. While the encoding location of this character within the Unicode Standard is not important, it is necessary to ensure that the typeface being used to compose Dakelh Syllabics texts contains this code point, which many pan-UCAS typefaces do not include within their glyph sets.</figcaption>
+
+</figure>
 
 ## In summary
 

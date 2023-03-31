@@ -8,9 +8,9 @@ Johannes Gutenberg, some time in the 1440s, found a way, using an ingenious hand
 
 ![A representation of metal type.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>Movable type reproduces individual characters or glyphs as discrete pieces of metal type (also called sorts), printed in relief.</figcaption>
+
+</figure>
 
 ## The first European fonts
 
@@ -20,9 +20,9 @@ The very first fonts in Europe were modeled on contemporary gothic calligraphyâ€
 
 ![A traced scan of a Gutenberb Bible.](images/GFKhistoftype1_gutenberggothic.svg)
 
-</figure>
-
 <figcaption>Typeface of the Gutenberg Bible, c. 1454</figcaption>
+
+</figure>
 
 ## The first roman fonts
 
@@ -32,9 +32,9 @@ Printing soon spread from Germany to neighboring countries, even crossing the Al
 
 ![A traced scan of an early Roman typeface.](images/GFKhistoftype1_earlyroman.svg)
 
-</figure>
-
 <figcaption>A typical 15th-century roman typeface</figcaption>
+
+</figure>
 
 This new typeface was based on contemporary humanist script which was a hybrid that modeled its lowercase alphabet on the Carolingian minuscule, first developed in the eighth and ninth centuries under the rule of Charlemagne, but that really came of age during the twelfth-century. This particular late style of Carolingian minuscule was to prove incredibly influential as it was the style copied, developed, and promoted by the founder of the Italian Renaissance, Petrarch. From the 1450s, this lowercase alphabet was increasingly paired with Roman capitals based on those used in first-century Roman inscriptions. By the next decade, the two alphabets had evolved into a unified script, with the lowercase alphabet even taking on some of the characteristics of the Roman capitals, like [serifs](/glossary/serif), for example.
 
@@ -48,9 +48,9 @@ The very earliest roman typefaces still displayed some Gothic characteristics, b
 
 ![A traced scan of a Roman typeface designed by Jenson.](images/GFKhistoftype1_jenson_new.svg)
 
-</figure>
-
 <figcaption>Roman typeface by Nicholas Jenson (1476)</figcaption>
+
+</figure>
 
 ## Aldus Manutius
 

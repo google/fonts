@@ -72,7 +72,7 @@ Dennis Cumberland and Francois Prince; in email correspondence with the author d
 
 ### Works sourced
 
-[International Organization for Standardization], *Information technology—Universal Multiple-Octet Coded Character Set (UCS): Part 1: Architecture and Basic Multilingual Plane: Amendment 11: Unified Canadian Aboriginal Syllabics*. From ISO/IEC 10646–1:1993, FDAM 11, L2/98–128, 1998
+International Organization for Standardization, *Information technology—Universal Multiple-Octet Coded Character Set (UCS): Part 1: Architecture and Basic Multilingual Plane: Amendment 11: Unified Canadian Aboriginal Syllabics*. From ISO/IEC 10646–1:1993, FDAM 11, L2/98–128, 1998
 
 Louise Perrault, *Prières, cantiques et catéchisme en langue Montagnaise ou Chipeweyan*. Montréal, 1857.
 

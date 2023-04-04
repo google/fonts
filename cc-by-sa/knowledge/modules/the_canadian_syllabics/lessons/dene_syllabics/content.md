@@ -42,11 +42,11 @@ The typography of the Syllabics may lack a formal body of literature that users 
 
 William Carpenter Bompass, *Prayers, lessons, and hymns in the Tenni or Slavi language of the Indians of Mackenzie River in the North-West Territory of Canada*. London, Society for Promoting Christian Knowledge, 1900
 
-[British and Foreign Bible Society], *The four Gospels and the Acts of the Apostles*. British and Foreign Bible Society, London, 1903
+British and Foreign Bible Society, *The four Gospels and the Acts of the Apostles*. British and Foreign Bible Society, London, 1903
 
 Ervin Bird Glass, John McDougall, *The ritual of the Methodist Church, with forms of prayer*. Methodist Missionary Society, Toronto, 1899
 
-[International Organization for Standardization], *Information technology—Universal Multiple-Octet Coded Character Set (UCS): Part 1: Architecture and Basic Multilingual Plane: Amendment 11: Unified Canadian Aboriginal Syllabics*. From ISO/IEC 10646–1:1993, FDAM 11, L2/98–128, 1998
+International Organization for Standardization, *Information technology—Universal Multiple-Octet Coded Character Set (UCS): Part 1: Architecture and Basic Multilingual Plane: Amendment 11: Unified Canadian Aboriginal Syllabics*. From ISO/IEC 10646–1:1993, FDAM 11, L2/98–128, 1998
 
 Louise Perrault, *Prières, cantiques et catéchisme en langue Montagnaise ou Chipeweyan*. Montréal, 1857.
 

@@ -1,4 +1,4 @@
-The font picker is the part of a user interface that specifically allows the user to choose a font. Most commonly, this incorporates a scrollable dropdown list of available fonts, often with a sub-menu or secondary dropdown for picking particular instances, such as weights and styles.
+The [font](/glossary/font) picker is the part of a user interface that specifically allows the user to choose a font. Most commonly, this incorporates a scrollable dropdown list of available fonts, often with a sub-menu or secondary dropdown for picking particular instances, such as [weights](/glossary/weight) and [styles](/glossary/style).
 
 <figure>
 
@@ -8,4 +8,4 @@ The font picker is the part of a user interface that specifically allows the use
 
 </figure>
 
-Depending on the software, the font picker may show the list of fonts with their names set in either the standard typeface for that UI, each in their own typeface, or a combination of a regular list augmented with a preview. Some apps, such as those in Adobe’s Creative Cloud and Microsoft Word, also have the ability to automatically update the selected text on the canvas, as the user scrolls through the list in the font picker.
+Depending on the software, the font picker may show the list of fonts with their names set in either the standard [typeface](/glossary/typeface) for that UI, each in their own typeface, or a combination of a regular list augmented with a preview. Some apps, such as those in Adobe’s Creative Cloud and Microsoft Word, also have the ability to automatically update the selected text on the canvas, as the user scrolls through the list in the font picker.

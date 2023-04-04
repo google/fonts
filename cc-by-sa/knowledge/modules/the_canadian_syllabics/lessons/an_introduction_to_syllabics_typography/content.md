@@ -1,94 +1,12 @@
 The Syllabics—sometimes referred to as the Canadian Aboriginal Syllabics—is a [writing system](/glossary/writing_system) used by several Indigenous language communities in Canada and the United States, including nêhiyawêwin (Cree), Anishinaabemowin (Ojibwe), Inuktut (Inuktitut), Dakelh (Carrier), iyuw iyimuun (Naskapi), and Saı́yısı́ dëne (Sayisi Dene).
 
-Before we start looking at the construction of the script, let’s first look at the geographic distribution of the various groups and sub-groups of the Syllabics:
-
 <figure>
 
 ![Syllabics-using languages community map](images/article_01_figure_01_png.png)
 
-<figcaption>A map depicting the geographic distribution of the three major Syllabics orthographic / typographic traditions: the Algonquian Syllabics, Inuktut Syllabics, and Dene Syllabics. Additionally, the historical Blackfoot Syllabics system—while based on the pattern of Cree Syllabics orthographically—deviates visually enough from these three major systems to be considered a graphic isolate.</figcaption>
+<figcaption>A map depicting the geographic distribution of the three major Syllabics orthographic / typographic traditions: the Algonquian Syllabics, Inuktut Syllabics, and Dene Syllabics. Additionally, the historical Blackfoot Syllabics system—while based on the pattern of Cree Syllabics orthographically—deviates visually enough from these three major systems to be considered a graphic isolate. For a detailed breakdown of those shown in the map, please refer to the end of this article.</figcaption>
 
 </figure>
-
-#### Algonquian Syllabics
-
-Ojibwe / Anishinaabemowin Syllabics (ᐊᓂᔑᓇᐯᒧᐎᐣ)
-
-- Oji-Cree (ᐊᓂᐦᔑᓂᓃᒧᐏᐣ)
-- Berens River Ojibwe (ᐊᓂᔑᓇᐯᒧᐎᓐ)
-- Northwestern Ojibwe (ᓂᐊᑲᐤᐁᒧᐎᓐ)
-- Western Ojibwe (ᓇᐦᑲᐍᒧᐏᐣ)
-- Western Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
-
-Plains Cree (ᓀᐦᐃᔭᐍᐏᐣ)
-- Saskatchewan Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
-- Manitoba Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
-- Maskwacis Plains Cree (ᓀᐦᐃᔭᐌᐎᐣ)
-- Northern Plains Cree (ᓀᐦᐃᔭᐍᒧᐏᐣ)
-- Woods Cree (ᓀᐦᐃᖬᐍᐏᐣ)
-- Western Swampy Cree (ᐃᓂᓃᒧᐏᐣ)
-- Eastern Swampy Cree (ᐃᓂᓂᐎ ᐃᔑᑭᔗᐎᐣ)
-
-Eastern Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
-- Moose Cree (ᐃᓕᓖᒧᐎᓐ)
-- Southern East Cree (ᐄᓅ ᐊᔨᒨᓐ)
-- Northern East Cree (ᐄᔨᔫ ᐊᔨᒨᓐ)
-- Naskapi / Iyuw Iyimuun (ᐃᔪᐤ ᐃᔨᒧᐅᓐ)
-
-#### Inuktut syllabics
-
-Eastern Canadian Inuktut (ᐃᓄᒃᑎᑐᑦ)
-
-- Aivilingmiutut
-- Sagliq (ᓴᒡᓕᖅ)
-- Qangiqłiniq (ᑲᖏᖅᖠᓂᖅ) 
-- Kivallirmiutut (ᑭᕙᓪᓕᖅ)
-- Qairnirmiut (ᖃᒪᓂᑦᑐᐊᖅ)
-- Hauniqturmiut (ᑎᑭᕋᕐᔭᖅ)
-- Paallirmiut (ᑎᑭᕋᕐᔭᖅ)
-- Ahiarmiut
-- Nunavimmiuttitut (ᓄᓇᕕᒻᒥᐅᑎᑐᑦ)
-- Itivimiut
-- Tarramiut
-- Qikiqtaaluk nigiani (ᕿᑭᖅᑖᓗᒃ ᓂᒋᐊᓂ)
-- Southeast Baffin
-- Southwest Baffin
-- Qikiqtaaluk uannangani
-- Iglulingmiut (ᐃᒡᓗᓕᒃ)
-- Tununirmiut
-
-Western Canadian Inuktut
-
-- Nattilingmiutut (ᓇᑦᑎᓕᖕᒥᐅᑐᑦ)
-
-#### Dene Syllabics
-
-Dulk wah'ke (ᑐᑊᘁᗕᑋᗸ)
-
-- Dakelh / Carrier (ᑕᗸᒡ)
-- Nadot’en (ᘇᑎᗥᐣ)
-- Witsuwit’en (ᗘᙢᗥᐣ)
-- Tsek’ ene (ᒡᗧᗥᐣ)
-
-General Dene Syllabics
-
-- Beaver (ᑕᓀᖚ ᖚᗀᐥ)
-- Chipewyan / Denesųłiné Yatíe (ᑌᓀ ᓱᒼᕄᓀ ᔭᕠᐁ)
-- Saı́yısı́ dëne
-- North Slavey / Sahtúot’ı˛nę Yat’í˛ (ᓴᑋᕲᖌᑎᑊᐠᓀᐠ ᔭᕱ)
-- K’áshogot’ıné / K’ásho (ᑲᑊᗱᑯᑎᑊᓀ)
-- Sahtúgot’ıné / Délįne (ᓴᑋᕲᒼᑯᑎᑊᓀ)
-- Shıhgot’ıne / Shúhta (ᗰᑋᑯᑎᑊᓀ)
-- South Slavey / Dene K'e (ᑌᓀ ᒐ)
-
-#### Graphic Isolate
-
-Blackfoot / Siksiká (ᓱᖽᐧᖿ)
-
-- Kainai (ᖿᐟᖻ) 
-- Piikani / Brocket (ᑯᖾᖹ)
-- Aapátohsipikani / Northern Piegan
-- Aamsskáápipikani / Southern Piegan
 
 ## The fundamentals of Syllabics‘ construction
 
@@ -363,6 +281,89 @@ Often, analyses of the Syllabics as a writing system focus on the major and mino
 
 The typography of the Syllabics may lack a formal body of literature that users can consult; however, professional typographic implementations can be achieved by observing the practices of local communities in both historical and contemporary documents. By adding to the understanding of the inherent conventions that govern the Syllabics across all of the orthographies that use the script, it is possible to deliver solutions that accommodate the best possible typographic experiences for all readers of this writing system, in their respective languages.
 
+## Syllabics groupings, as per map
+
+#### Algonquian Syllabics
+
+Ojibwe / Anishinaabemowin Syllabics (ᐊᓂᔑᓇᐯᒧᐎᐣ)
+
+- Oji-Cree (ᐊᓂᐦᔑᓂᓃᒧᐏᐣ)
+- Berens River Ojibwe (ᐊᓂᔑᓇᐯᒧᐎᓐ)
+- Northwestern Ojibwe (ᓂᐊᑲᐤᐁᒧᐎᓐ)
+- Western Ojibwe (ᓇᐦᑲᐍᒧᐏᐣ)
+- Western Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
+
+Plains Cree (ᓀᐦᐃᔭᐍᐏᐣ)
+- Saskatchewan Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
+- Manitoba Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
+- Maskwacis Plains Cree (ᓀᐦᐃᔭᐌᐎᐣ)
+- Northern Plains Cree (ᓀᐦᐃᔭᐍᒧᐏᐣ)
+- Woods Cree (ᓀᐦᐃᖬᐍᐏᐣ)
+- Western Swampy Cree (ᐃᓂᓃᒧᐏᐣ)
+- Eastern Swampy Cree (ᐃᓂᓂᐎ ᐃᔑᑭᔗᐎᐣ)
+
+Eastern Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
+- Moose Cree (ᐃᓕᓖᒧᐎᓐ)
+- Southern East Cree (ᐄᓅ ᐊᔨᒨᓐ)
+- Northern East Cree (ᐄᔨᔫ ᐊᔨᒨᓐ)
+- Naskapi / Iyuw Iyimuun (ᐃᔪᐤ ᐃᔨᒧᐅᓐ)
+
+#### Inuktut syllabics
+
+Eastern Canadian Inuktut (ᐃᓄᒃᑎᑐᑦ)
+
+- Aivilingmiutut
+- Sagliq (ᓴᒡᓕᖅ)
+- Qangiqłiniq (ᑲᖏᖅᖠᓂᖅ) 
+- Kivallirmiutut (ᑭᕙᓪᓕᖅ)
+- Qairnirmiut (ᖃᒪᓂᑦᑐᐊᖅ)
+- Hauniqturmiut (ᑎᑭᕋᕐᔭᖅ)
+- Paallirmiut (ᑎᑭᕋᕐᔭᖅ)
+- Ahiarmiut
+- Nunavimmiuttitut (ᓄᓇᕕᒻᒥᐅᑎᑐᑦ)
+- Itivimiut
+- Tarramiut
+- Qikiqtaaluk nigiani (ᕿᑭᖅᑖᓗᒃ ᓂᒋᐊᓂ)
+- Southeast Baffin
+- Southwest Baffin
+- Qikiqtaaluk uannangani
+- Iglulingmiut (ᐃᒡᓗᓕᒃ)
+- Tununirmiut
+
+Western Canadian Inuktut
+
+- Nattilingmiutut (ᓇᑦᑎᓕᖕᒥᐅᑐᑦ)
+
+#### Dene Syllabics
+
+Dulk wah'ke (ᑐᑊᘁᗕᑋᗸ)
+
+- Dakelh / Carrier (ᑕᗸᒡ)
+- Nadot’en (ᘇᑎᗥᐣ)
+- Witsuwit’en (ᗘᙢᗥᐣ)
+- Tsek’ ene (ᒡᗧᗥᐣ)
+
+General Dene Syllabics
+
+- Beaver (ᑕᓀᖚ ᖚᗀᐥ)
+- Chipewyan / Denesųłiné Yatíe (ᑌᓀ ᓱᒼᕄᓀ ᔭᕠᐁ)
+- Saı́yısı́ dëne
+- North Slavey / Sahtúot’ı˛nę Yat’í˛ (ᓴᑋᕲᖌᑎᑊᐠᓀᐠ ᔭᕱ)
+- K’áshogot’ıné / K’ásho (ᑲᑊᗱᑯᑎᑊᓀ)
+- Sahtúgot’ıné / Délįne (ᓴᑋᕲᒼᑯᑎᑊᓀ)
+- Shıhgot’ıne / Shúhta (ᗰᑋᑯᑎᑊᓀ)
+- South Slavey / Dene K'e (ᑌᓀ ᒐ)
+
+#### Graphic Isolate
+
+Blackfoot / Siksiká (ᓱᖽᐧᖿ)
+
+- Kainai (ᖿᐟᖻ) 
+- Piikani / Brocket (ᑯᖾᖹ)
+- Aapátohsipikani / Northern Piegan
+- Aamsskáápipikani / Southern Piegan
+
+
 ## Endnotes
 
 \[1\] Bill Jancewicz, Algonquian Syllabics expert, notes (in email correspondence with the author) that “Much more difficulty has been experienced however with the whitespace, in particular the word-space character, which is encoded in BJCree UNI at somewhat wider than an em. The Euphemia word space is much too narrow for legible reading of syllabics.”
@@ -375,9 +376,9 @@ Base of map vector artwork designed by [Freepik](https://www.freepik.com/free-ph
 
 William Carpenter Bompass, *Prayers, lessons, and hymns in the Tenni or Slavi language of the Indians of Mackenzie River in the North-West Territory of Canada*. London, Society for Promoting Christian Knowledge, 1900
 
-[British and Foreign Bible Society], *The four Gospels and the Acts of the Apostles*. British and Foreign Bible Society, London, 1903
+British and Foreign Bible Society, *The four Gospels and the Acts of the Apostles*. British and Foreign Bible Society, London, 1903
 
-[Canadian Bible Society], *ᑲᐅᔅᑭᒋᒋᐱᒡ ᐊᑎᐸᒋᒪᑭᓄᐅᑦ ᒋᓴᔅ / The Beginning of the Story of Jesus*. Naskapi Development Corporation, Kawawachikamach, Québec, 2014
+Canadian Bible Society, *ᑲᐅᔅᑭᒋᒋᐱᒡ ᐊᑎᐸᒋᒪᑭᓄᐅᑦ ᒋᓴᔅ / The Beginning of the Story of Jesus*. Naskapi Development Corporation, Kawawachikamach, Québec, 2014
 
 James Evans, *Swampy Cree Hymn book (ᓇᑲᒧᐏᓇ ᐅᒪᐢᑮᑯᐘ ᐅᑎᑘᐏᓂᐘᐤ)*. Norway House, 1841. Image from the James Evans Fonds, University of Victoria library, University of Toronto
 
@@ -385,9 +386,9 @@ Ervin Bird Glass, John McDougall, *The ritual of the Methodist Church, with form
 
 John Horden, *Bible and Gospel history, in Saulteux*. Society for Promoting Christian Knowledge, London, 1860
 
-[International Organization for Standardization], *Information technology—Universal Multiple-Octet Coded Character Set (UCS): Part 1: Architecture and Basic Multilingual Plane: Amendment 11: Unified Canadian Aboriginal Syllabics*. From ISO/IEC 10646–1:1993, FDAM 11, L2/98–128, 1998
+International Organization for Standardization, *Information technology—Universal Multiple-Octet Coded Character Set (UCS): Part 1: Architecture and Basic Multilingual Plane: Amendment 11: Unified Canadian Aboriginal Syllabics*. From ISO/IEC 10646–1:1993, FDAM 11, L2/98–128, 1998
 
-[ᐃᓕᓴᕐᓂᓕᕆᒥᖅ / Kativik Ilisarniliriniq], *ᐋᕐᕐᑭᓯᒪᑎᑦᓯᓂᕐᓄᑦ ᐸᕐᒣᓀᒍᑏᑦ 2016–2023 / Strategic plan 2016–2023*. from ᑲᑎᕕᒃ ᐃᓕᓴᕐᓂᓕᕆᒥᖅ / Kativik Ilisarniliriniq, 2016.
+ᐃᓕᓴᕐᓂᓕᕆᒥᖅ / Kativik Ilisarniliriniq, *ᐋᕐᕐᑭᓯᒪᑎᑦᓯᓂᕐᓄᑦ ᐸᕐᒣᓀᒍᑏᑦ 2016–2023 / Strategic plan 2016–2023*. from ᑲᑎᕕᒃ ᐃᓕᓴᕐᓂᓕᕆᒥᖅ / Kativik Ilisarniliriniq, 2016.
 
 Louise Perrault, *Prières, cantiques et catéchisme en langue Montagnaise ou Chipeweyan*. Montréal, 1857.
 
@@ -403,6 +404,6 @@ Louise Perrault, *Prières, cantiques et catechisme en langue Montagnaise ou Chi
 
 Jean Baptiste Thibault, *ᐊᔭᒥᐁ ᓀᐃᔭᐁᐧᒪᓯᓇᐃᑲᐣ ᐊᔭᒥᐊᐃᐧᓇ ᓇᑲᒧᓇ ᒥᓇ ᑭᐢᑭᓄᐊᒪᑐᐃᐧᓇ / Prières, cantiques, catéchisme, etc., en langue crise*, Imprimerie de Louis Perrault, Montréal, 1866
 
-[Wawatay News], *ᐗᐗᑌ ᐊᒋᒧᐎᓇᐣ / Wawatay News*, 17 July, 2020 Vol.47, No. 7, PM#0382659799
+Wawatay News, *ᐗᐗᑌ ᐊᒋᒧᐎᓇᐣ / Wawatay News*, 17 July, 2020 Vol.47, No. 7, PM#0382659799
 
 Arok Wolvengrey, *ᐊᐎᔹᑖᒋᐏᓂᓴ / wawiyatācimowinisa / Funny little stories*. University of Regina Press, 2007.

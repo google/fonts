@@ -1,94 +1,12 @@
 The Syllabics—sometimes referred to as the Canadian Aboriginal Syllabics—is a [writing system](/glossary/writing_system) used by several Indigenous language communities in Canada and the United States, including nêhiyawêwin (Cree), Anishinaabemowin (Ojibwe), Inuktut (Inuktitut), Dakelh (Carrier), iyuw iyimuun (Naskapi), and Saı́yısı́ dëne (Sayisi Dene).
 
-Before we start looking at the construction of the script, let’s first look at the geographic distribution of the various groups and sub-groups of the Syllabics:
-
 <figure>
 
 ![Syllabics-using languages community map](images/article_01_figure_01_png.png)
 
-<figcaption>A map depicting the geographic distribution of the three major Syllabics orthographic / typographic traditions: the Algonquian Syllabics, Inuktut Syllabics, and Dene Syllabics. Additionally, the historical Blackfoot Syllabics system—while based on the pattern of Cree Syllabics orthographically—deviates visually enough from these three major systems to be considered a graphic isolate.</figcaption>
+<figcaption>A map depicting the geographic distribution of the three major Syllabics orthographic / typographic traditions: the Algonquian Syllabics, Inuktut Syllabics, and Dene Syllabics. Additionally, the historical Blackfoot Syllabics system—while based on the pattern of Cree Syllabics orthographically—deviates visually enough from these three major systems to be considered a graphic isolate. For a detailed breakdown of those shown in the map, please refer to the end of this article.</figcaption>
 
 </figure>
-
-#### Algonquian Syllabics
-
-Ojibwe / Anishinaabemowin Syllabics (ᐊᓂᔑᓇᐯᒧᐎᐣ)
-
-- Oji-Cree (ᐊᓂᐦᔑᓂᓃᒧᐏᐣ)
-- Berens River Ojibwe (ᐊᓂᔑᓇᐯᒧᐎᓐ)
-- Northwestern Ojibwe (ᓂᐊᑲᐤᐁᒧᐎᓐ)
-- Western Ojibwe (ᓇᐦᑲᐍᒧᐏᐣ)
-- Western Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
-
-Plains Cree (ᓀᐦᐃᔭᐍᐏᐣ)
-- Saskatchewan Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
-- Manitoba Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
-- Maskwacis Plains Cree (ᓀᐦᐃᔭᐌᐎᐣ)
-- Northern Plains Cree (ᓀᐦᐃᔭᐍᒧᐏᐣ)
-- Woods Cree (ᓀᐦᐃᖬᐍᐏᐣ)
-- Western Swampy Cree (ᐃᓂᓃᒧᐏᐣ)
-- Eastern Swampy Cree (ᐃᓂᓂᐎ ᐃᔑᑭᔗᐎᐣ)
-
-Eastern Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
-- Moose Cree (ᐃᓕᓖᒧᐎᓐ)
-- Southern East Cree (ᐄᓅ ᐊᔨᒨᓐ)
-- Northern East Cree (ᐄᔨᔫ ᐊᔨᒨᓐ)
-- Naskapi / Iyuw Iyimuun (ᐃᔪᐤ ᐃᔨᒧᐅᓐ)
-
-#### Inuktut syllabics
-
-Eastern Canadian Inuktut (ᐃᓄᒃᑎᑐᑦ)
-
-- Aivilingmiutut
-- Sagliq (ᓴᒡᓕᖅ)
-- Qangiqłiniq (ᑲᖏᖅᖠᓂᖅ) 
-- Kivallirmiutut (ᑭᕙᓪᓕᖅ)
-- Qairnirmiut (ᖃᒪᓂᑦᑐᐊᖅ)
-- Hauniqturmiut (ᑎᑭᕋᕐᔭᖅ)
-- Paallirmiut (ᑎᑭᕋᕐᔭᖅ)
-- Ahiarmiut
-- Nunavimmiuttitut (ᓄᓇᕕᒻᒥᐅᑎᑐᑦ)
-- Itivimiut
-- Tarramiut
-- Qikiqtaaluk nigiani (ᕿᑭᖅᑖᓗᒃ ᓂᒋᐊᓂ)
-- Southeast Baffin
-- Southwest Baffin
-- Qikiqtaaluk uannangani
-- Iglulingmiut (ᐃᒡᓗᓕᒃ)
-- Tununirmiut
-
-Western Canadian Inuktut
-
-- Nattilingmiutut (ᓇᑦᑎᓕᖕᒥᐅᑐᑦ)
-
-#### Dene Syllabics
-
-Dulk wah'ke (ᑐᑊᘁᗕᑋᗸ)
-
-- Dakelh / Carrier (ᑕᗸᒡ)
-- Nadot’en (ᘇᑎᗥᐣ)
-- Witsuwit’en (ᗘᙢᗥᐣ)
-- Tsek’ ene (ᒡᗧᗥᐣ)
-
-General Dene Syllabics
-
-- Beaver (ᑕᓀᖚ ᖚᗀᐥ)
-- Chipewyan / Denesųłiné Yatíe (ᑌᓀ ᓱᒼᕄᓀ ᔭᕠᐁ)
-- Saı́yısı́ dëne
-- North Slavey / Sahtúot’ı˛nę Yat’í˛ (ᓴᑋᕲᖌᑎᑊᐠᓀᐠ ᔭᕱ)
-- K’áshogot’ıné / K’ásho (ᑲᑊᗱᑯᑎᑊᓀ)
-- Sahtúgot’ıné / Délįne (ᓴᑋᕲᒼᑯᑎᑊᓀ)
-- Shıhgot’ıne / Shúhta (ᗰᑋᑯᑎᑊᓀ)
-- South Slavey / Dene K'e (ᑌᓀ ᒐ)
-
-#### Graphic Isolate
-
-Blackfoot / Siksiká (ᓱᖽᐧᖿ)
-
-- Kainai (ᖿᐟᖻ) 
-- Piikani / Brocket (ᑯᖾᖹ)
-- Aapátohsipikani / Northern Piegan
-- Aamsskáápipikani / Southern Piegan
 
 ## The fundamentals of Syllabics‘ construction
 
@@ -362,6 +280,89 @@ Often, analyses of the Syllabics as a writing system focus on the major and mino
 ## In summary
 
 The typography of the Syllabics may lack a formal body of literature that users can consult; however, professional typographic implementations can be achieved by observing the practices of local communities in both historical and contemporary documents. By adding to the understanding of the inherent conventions that govern the Syllabics across all of the orthographies that use the script, it is possible to deliver solutions that accommodate the best possible typographic experiences for all readers of this writing system, in their respective languages.
+
+## Syllabics groupings, as per map
+
+#### Algonquian Syllabics
+
+Ojibwe / Anishinaabemowin Syllabics (ᐊᓂᔑᓇᐯᒧᐎᐣ)
+
+- Oji-Cree (ᐊᓂᐦᔑᓂᓃᒧᐏᐣ)
+- Berens River Ojibwe (ᐊᓂᔑᓇᐯᒧᐎᓐ)
+- Northwestern Ojibwe (ᓂᐊᑲᐤᐁᒧᐎᓐ)
+- Western Ojibwe (ᓇᐦᑲᐍᒧᐏᐣ)
+- Western Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
+
+Plains Cree (ᓀᐦᐃᔭᐍᐏᐣ)
+- Saskatchewan Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
+- Manitoba Plains Cree (ᒐᐦᑭᐯᐦᐃᑲᓇ)
+- Maskwacis Plains Cree (ᓀᐦᐃᔭᐌᐎᐣ)
+- Northern Plains Cree (ᓀᐦᐃᔭᐍᒧᐏᐣ)
+- Woods Cree (ᓀᐦᐃᖬᐍᐏᐣ)
+- Western Swampy Cree (ᐃᓂᓃᒧᐏᐣ)
+- Eastern Swampy Cree (ᐃᓂᓂᐎ ᐃᔑᑭᔗᐎᐣ)
+
+Eastern Cree Syllabics (ᓀᐦᐃᔭᐍᐏᐣ)
+- Moose Cree (ᐃᓕᓖᒧᐎᓐ)
+- Southern East Cree (ᐄᓅ ᐊᔨᒨᓐ)
+- Northern East Cree (ᐄᔨᔫ ᐊᔨᒨᓐ)
+- Naskapi / Iyuw Iyimuun (ᐃᔪᐤ ᐃᔨᒧᐅᓐ)
+
+#### Inuktut syllabics
+
+Eastern Canadian Inuktut (ᐃᓄᒃᑎᑐᑦ)
+
+- Aivilingmiutut
+- Sagliq (ᓴᒡᓕᖅ)
+- Qangiqłiniq (ᑲᖏᖅᖠᓂᖅ) 
+- Kivallirmiutut (ᑭᕙᓪᓕᖅ)
+- Qairnirmiut (ᖃᒪᓂᑦᑐᐊᖅ)
+- Hauniqturmiut (ᑎᑭᕋᕐᔭᖅ)
+- Paallirmiut (ᑎᑭᕋᕐᔭᖅ)
+- Ahiarmiut
+- Nunavimmiuttitut (ᓄᓇᕕᒻᒥᐅᑎᑐᑦ)
+- Itivimiut
+- Tarramiut
+- Qikiqtaaluk nigiani (ᕿᑭᖅᑖᓗᒃ ᓂᒋᐊᓂ)
+- Southeast Baffin
+- Southwest Baffin
+- Qikiqtaaluk uannangani
+- Iglulingmiut (ᐃᒡᓗᓕᒃ)
+- Tununirmiut
+
+Western Canadian Inuktut
+
+- Nattilingmiutut (ᓇᑦᑎᓕᖕᒥᐅᑐᑦ)
+
+#### Dene Syllabics
+
+Dulk wah'ke (ᑐᑊᘁᗕᑋᗸ)
+
+- Dakelh / Carrier (ᑕᗸᒡ)
+- Nadot’en (ᘇᑎᗥᐣ)
+- Witsuwit’en (ᗘᙢᗥᐣ)
+- Tsek’ ene (ᒡᗧᗥᐣ)
+
+General Dene Syllabics
+
+- Beaver (ᑕᓀᖚ ᖚᗀᐥ)
+- Chipewyan / Denesųłiné Yatíe (ᑌᓀ ᓱᒼᕄᓀ ᔭᕠᐁ)
+- Saı́yısı́ dëne
+- North Slavey / Sahtúot’ı˛nę Yat’í˛ (ᓴᑋᕲᖌᑎᑊᐠᓀᐠ ᔭᕱ)
+- K’áshogot’ıné / K’ásho (ᑲᑊᗱᑯᑎᑊᓀ)
+- Sahtúgot’ıné / Délįne (ᓴᑋᕲᒼᑯᑎᑊᓀ)
+- Shıhgot’ıne / Shúhta (ᗰᑋᑯᑎᑊᓀ)
+- South Slavey / Dene K'e (ᑌᓀ ᒐ)
+
+#### Graphic Isolate
+
+Blackfoot / Siksiká (ᓱᖽᐧᖿ)
+
+- Kainai (ᖿᐟᖻ) 
+- Piikani / Brocket (ᑯᖾᖹ)
+- Aapátohsipikani / Northern Piegan
+- Aamsskáápipikani / Southern Piegan
+
 
 ## Endnotes
 

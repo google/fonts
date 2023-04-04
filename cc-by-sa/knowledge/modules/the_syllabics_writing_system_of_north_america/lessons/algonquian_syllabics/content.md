@@ -79,9 +79,9 @@ The typography of the Syllabics may lack a formal body of literature that users 
 
 Base of map vector artwork designed by [Freepik](https://www.freepik.com/free-photos-vectors/travel), accessed 7 May 2020.
 
-[British and Foreign Bible Society], *The four Gospels and the Acts of the Apostles*. British and Foreign Bible Society, London, 1903
+British and Foreign Bible Society, *The four Gospels and the Acts of the Apostles*. British and Foreign Bible Society, London, 1903
 
-[Canadian Bible Society], *ᑲᐅᔅᑭᒋᒋᐱᒡ ᐊᑎᐸᒋᒪᑭᓄᐅᑦ ᒋᓴᔅ / The Beginning of the Story of Jesus*. Naskapi Development Corporation, Kawawachikamach, Québec, 2014
+Canadian Bible Society, *ᑲᐅᔅᑭᒋᒋᐱᒡ ᐊᑎᐸᒋᒪᑭᓄᐅᑦ ᒋᓴᔅ / The Beginning of the Story of Jesus*. Naskapi Development Corporation, Kawawachikamach, Québec, 2014
 
 James Evans, *Swampy Cree Hymn book (ᓇᑲᒧᐏᓇ ᐅᒪᐢᑮᑯᐘ ᐅᑎᑘᐏᓂᐘᐤ)*. Norway House, 1841. Image from the James Evans Fonds, University of Victoria library, University of Toronto
 
@@ -89,6 +89,6 @@ John Horden, *Bible and Gospel history, in Saulteux*. Society for Promoting Chri
 
 John Maclean, *James Evans: Inventor of the Syllabic system of the Cree language*, William Briggs, Toronto, 1890
 
-[Wawatay News], *ᐗᐗᑌ ᐊᒋᒧᐎᓇᐣ / Wawatay News*, 17 July, 2020 Vol.47, No. 7, PM#0382659799
+Wawatay News, *ᐗᐗᑌ ᐊᒋᒧᐎᓇᐣ / Wawatay News*, 17 July, 2020 Vol.47, No. 7, PM#0382659799
 
 Arok Wolvengrey, *ᐊᐎᔹᑖᒋᐏᓂᓴ / wawiyatācimowinisa / Funny little stories*. University of Regina Press, 2007.

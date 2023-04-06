@@ -27,3 +27,4 @@ source {
   repository_url: "https://github.com/cadsondemak/Anuphan"
   commit: "1d795ec6bd23806049aa4bf8cfe01c2f609402a9"
 }
+primary_script: "Thai"

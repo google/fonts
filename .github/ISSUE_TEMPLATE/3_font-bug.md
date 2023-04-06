@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 Specify the font name in title with a short description of the bug. 
-Please report any issue related to Noto fonts in this repository: https://github.com/googlefonts/noto-fonts/issues.
+Please report any issue related to Noto fonts [here](https://notofonts.github.io/reporter.html).
 
 **Describe the bug**
 A clear and concise description of what the bug is.

@@ -26,5 +26,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/unbounded"
-  commit: "78f2d464776c37200bd2dc8437c1cf4eb2c6fc94"
+  commit: "f3ec43228a864a72487e41552e2140efab9884ea"
 }

@@ -525,3 +525,23 @@ def test_build_variations_ps_name(fp, result):
     build_variations_ps_name(ttFont)
     variation_ps_name = ttFont["name"].getName(25, 3, 1, 0x409).toUnicode()
     assert variation_ps_name == result
+
+
+@pytest.mark.parametrize(
+    "fp, style_name, result",
+    [
+        (mavenpro_fp, "Regular", 400),
+        (mavenpro_fp, "Italic", 400),
+        (mavenpro_fp, "Black Italic", 900),
+        (mavenpro_fp, "ExtraBold Italic", 800),
+        (mavenpro_fp, "ExtraBold", 800),
+        (mavenpro_fp, "Bold", 700),
+        (mavenpro_fp, "Bold Italic", 700),
+        (mavenpro_fp, "Thin Italic", 100),
+        (mavenpro_fp, "Thin", 100),
+    ],
+)
+def test_us_weight_class(fp, style_name, result):
+    ttFont = TTFont(fp)
+    build_name_table(ttFont, style_name=style_name)
+    assert ttFont["OS/2"].usWeightClass == result

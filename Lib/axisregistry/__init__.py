@@ -250,13 +250,31 @@ def build_stat(ttFont, sibling_ttFonts=[]):
 
 
 def build_name_table(ttFont, family_name=None, style_name=None, siblings=[]):
+    from fontTools.varLib.instancer import setRibbiBits
+
     log.info("Building name table")
     name_table = ttFont["name"]
     family_name = family_name if family_name else name_table.getBestFamilyName()
     style_name = style_name if style_name else name_table.getBestSubFamilyName()
     if is_variable(ttFont):
-        return build_vf_name_table(ttFont, family_name, siblings=siblings)
-    return build_static_name_table_v1(ttFont, family_name, style_name)
+        build_vf_name_table(ttFont, family_name, siblings=siblings)
+    else:
+        build_static_name_table_v1(ttFont, family_name, style_name)
+
+    # Set bits
+    style_name = name_table.getBestSubFamilyName()
+    # usWeightClass
+    weight_seen = False
+    for weight in sorted(GF_STATIC_STYLES, key=lambda k: len(k), reverse=True):
+        if weight in style_name:
+            weight_seen = True
+            ttFont["OS/2"].usWeightClass = GF_STATIC_STYLES[weight]
+            break
+    if not weight_seen:
+        log.warning(
+            f"No known weight found for stylename {style_name}. Cannot set OS2.usWeightClass"
+        )
+    setRibbiBits(ttFont)
 
 
 def _fvar_instance_collisions(ttFont, siblings=[]):

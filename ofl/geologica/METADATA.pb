@@ -39,6 +39,10 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+registry_default_overrides {
+  key: "CRSV"
+  value: 0
+}
 source {
   repository_url: "https://github.com/googlefonts/geologica"
   commit: "685f38d7c9e86b0c8530204c97ddcaf6558dd17b"

@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "pra_Khar"  # Prakrit
 languages: "sa_Khar"  # Sanskrit, Kharoshthi
+primary_script: "Khar"

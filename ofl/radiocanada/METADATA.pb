@@ -1,5 +1,5 @@
 name: "Radio Canada"
-designer: "Charles Daoud, Coppers and Brasses, Alexandre Saumier Demers"
+designer: "Charles Daoud, Coppers and Brasses, Alexandre Saumier Demers, Jacques Le Bailly"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2022-03-18"

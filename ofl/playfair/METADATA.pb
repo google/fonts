@@ -1,8 +1,8 @@
 name: "Playfair"
 designer: "Claus Eggers Sørensen"
 license: "OFL"
-category: "SERIF"
 category: "DISPLAY"
+category: "SERIF"
 date_added: "2023-04-13"
 fonts {
   name: "Playfair"
@@ -42,6 +42,10 @@ axes {
   tag: "wght"
   min_value: 300.0
   max_value: 900.0
+}
+registry_default_overrides {
+  key: "opsz"
+  value: 12
 }
 source {
   repository_url: "https://github.com/googlefonts/Playfair"

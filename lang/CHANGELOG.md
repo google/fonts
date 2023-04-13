@@ -2,6 +2,9 @@ Below are the most important changes from each release.
 
 ## Next release
 
+## 0.4.7
+- #70 Add Nandinagari
+
 ## 0.4.6 (2023-Mar-24)
 - #52 Addition of exemplar character sets for Latin-based African Lang
 uages

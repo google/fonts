@@ -26,6 +26,7 @@ opensans_cond_roman_fp = os.path.join(DATA_DIR, "OpenSansCondensed[wght].ttf")
 opensans_cond_italic_fp = os.path.join(DATA_DIR, "OpenSansCondensed-Italic[wght].ttf")
 wonky_fp = os.path.join(DATA_DIR, "Wonky[wdth,wght].ttf")
 playfair_fp = os.path.join(DATA_DIR, "Playfair[opsz,wdth,wght].ttf")
+wavefont_fp = os.path.join(DATA_DIR, "Wavefont[ROND,YALN,wght].ttf")
 
 
 @pytest.fixture
@@ -294,7 +295,8 @@ def _test_names(ttFont, expected):
                 (17, 3, 1, 0x409): None,
             },
         ),
-        # Test opsz particle is kept
+        # Test opsz particle is kept.
+        # Fixes https://github.com/googlefonts/axisregistry/issues/130
         (
             playfair_fp,
             "Playfair",
@@ -457,6 +459,9 @@ def dump(table, ttFont=None):
             [opensans_roman_fp, opensans_italic_fp, opensans_cond_roman_fp],
         ),
         (wonky_fp, []),
+        # don't add a linkedValue for Regular to Bold since Bold doensn't exist
+        # Fixes https://github.com/googlefonts/axisregistry/issues/104
+        (wavefont_fp, []),
     ],
 )
 def test_stat(fp, sibling_fps):

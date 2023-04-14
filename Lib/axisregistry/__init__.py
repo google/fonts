@@ -219,7 +219,9 @@ def build_stat(ttFont, sibling_ttFonts=[]):
                 }
             )
             if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:
-                a["values"][-1]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
+                linked_value = LINKED_VALUES[axis][fallback.value]
+                if any(f.value == linked_value for f in fallbacks):
+                    a["values"][-1]["linkedValue"] = linked_value
         res.append(a)
 
     for axis, fallback in fallbacks_in_names:
@@ -231,7 +233,8 @@ def build_stat(ttFont, sibling_ttFonts=[]):
             "values": [{"name": fallback.name, "value": fallback.value, "flags": 0x0}],
         }
         if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:
-            a["values"][0]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
+            linked_value = LINKED_VALUES[axis][fallback.value]
+            a["values"][0]["linkedValue"] = linked_value
         res.append(a)
 
     for axis, fallback in fallbacks_in_siblings:

@@ -310,8 +310,8 @@ def _test_names(ttFont, expected):
                 (6, 3, 1, 0x409): "Playfair-5ptSemiExpandedLight",
                 (16, 3, 1, 0x409): "Playfair",
                 (17, 3, 1, 0x409): "5pt SemiExpanded Light",
-            }
-        )
+            },
+        ),
     ],
 )
 def test_name_table(fp, family_name, style_name, siblings, expected):
@@ -459,7 +459,7 @@ def dump(table, ttFont=None):
             [opensans_roman_fp, opensans_italic_fp, opensans_cond_roman_fp],
         ),
         (wonky_fp, []),
-        # don't add a linkedValue for Regular to Bold since Bold doensn't exist
+        # don't add a linkedValue for Regular to Bold since Bold doesn't exist
         # Fixes https://github.com/googlefonts/axisregistry/issues/104
         (wavefont_fp, []),
     ],

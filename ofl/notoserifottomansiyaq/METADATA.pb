@@ -15,6 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "ottoman-siyaq-numbers"
 source {
   repository_url: "https://github.com/notofonts/ottoman-siyaq-numbers.git"
   archive_url: "https://github.com/notofonts/ottoman-siyaq-numbers/releases/download/NotoSerifOttomanSiyaq-v1.005/NotoSerifOttomanSiyaq-v1.005.zip"

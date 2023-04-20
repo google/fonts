@@ -20,3 +20,12 @@ source {
   archive_url: "https://github.com/notofonts/ottoman-siyaq-numbers/releases/download/NotoSerifOttomanSiyaq-v1.005/NotoSerifOttomanSiyaq-v1.005.zip"
 }
 is_noto: true
+sample_text {
+  masthead_full: "𞴝𞴋𞴃"
+  masthead_partial: "𞴋𞴃"
+  styles: "𞴜𞴛𞴐𞴈"
+  tester: "𞴁𞴂𞴃𞴄𞴅𞴆𞴇𞴈𞴉𞴊 𞴊𞴋𞴌𞴍𞴎𞴏𞴐𞴑𞴒𞴓 𞴓𞴔𞴕𞴖𞴗𞴘𞴙𞴚𞴛𞴜"
+  poster_sm: "𞴁𞴂𞴃𞴄𞴅𞴆𞴇𞴈𞴉𞴊 𞴁𞴂𞴃𞴄𞴅𞴆𞴇𞴈𞴉𞴊"
+  poster_md: "𞴊𞴋𞴌𞴍𞴎𞴏𞴐𞴑𞴒𞴓 𞴓𞴔𞴕𞴖𞴗𞴘𞴙𞴚𞴛𞴜"
+  poster_lg: "𞴜𞴛𞴐𞴈"
+}

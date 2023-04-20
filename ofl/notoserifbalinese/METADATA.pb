@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/balinese.git"
-  archive_url: "https://github.com/notofonts/balinese/releases/download/NotoSerifBalinese-v2.004/NotoSerifBalinese-v2.004.zip"
+  archive_url: "https://github.com/notofonts/balinese/releases/download/NotoSerifBalinese-v2.005/NotoSerifBalinese-v2.005.zip"
 }
 is_noto: true
 languages: "ban_Bali"  # Balinese, Balinese

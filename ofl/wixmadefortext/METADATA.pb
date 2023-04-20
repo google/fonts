@@ -1,5 +1,5 @@
 name: "Wix Madefor Text"
-designer: "UNKNOWN"
+designer: "Dalton Maag"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2023-01-11"

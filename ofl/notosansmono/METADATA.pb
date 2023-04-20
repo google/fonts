@@ -1,7 +1,7 @@
 name: "Noto Sans Mono"
 designer: "Google"
 license: "OFL"
-category: "MONOSPACE"
+category: "SANS_SERIF"
 date_added: "2020-11-19"
 fonts {
   name: "Noto Sans Mono"
@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/latin-greek-cyrillic.git"
-  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSansMono-v2.010/NotoSansMono-v2.010.zip"
+  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSansMono-v2.013/NotoSansMono-v2.013.zip"
 }
 is_noto: true
 languages: "aa_Latn"  # Afar

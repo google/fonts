@@ -12,7 +12,7 @@ In digital fonts, every [glyph](/glossary/glyph) sits on its own invisible box, 
 
 </figure>
 
-The problem is that the metrics that most affect how large a [typeface](/glossary/typeface) appears—like its [cap height](/glossary/cap_height) or [x-height](/glossary/x_height)—can vary quite a bit between different fonts with the same em size. For example, let’s compare two standard-issue versions of Verdana and Baskerville: Verdana’s x-height takes up about 55% of the font’s em. But Baskerville’s x-height only takes up about 40% of them em. As a result, Baskerville appears noticeably smaller than Verdana when set at the same font size. To achieve a similar visual size as Verdana, Baskerville must actually be set to a larger font size.
+The problem is that the metrics that most affect how large a [typeface](/glossary/typeface) appears—like its [cap height](/glossary/cap_height) or [x-height](/glossary/x_height)—can vary quite a bit between different fonts with the same em size. For example, let’s compare two standard-issue versions of Verdana and Baskerville: Verdana’s x-height takes up about 55% of the font’s em. But Baskerville’s x-height only takes up about 40% of the em. As a result, Baskerville appears noticeably smaller than Verdana when set at the same font size. To achieve a similar visual size as Verdana, Baskerville must actually be set to a larger font size.
 
 Some design apps like Adobe Illustrator allow for font sizes to be specified according to metrics other than the em, like x-height or cap-height. This can be helpful for normalizing font sizes visually. Unfortunately, doing something similar in the context of CSS would currently require access to each font’s internal metadata, as well as some custom math calculations.
 

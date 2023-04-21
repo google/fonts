@@ -15,6 +15,9 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "makasar"
+primary_script: "Maka"
+languages: "mak_Maka"  # Makasar, Old Makasar
 source {
   repository_url: "https://github.com/notofonts/makasar.git"
   archive_url: "https://github.com/notofonts/makasar/releases/download/NotoSerifMakasar-v1.001/NotoSerifMakasar-v1.001.zip"

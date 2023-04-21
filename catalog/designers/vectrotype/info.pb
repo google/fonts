@@ -1,5 +1,5 @@
-designer: "Vectro Type"
+designer: "Vectro Type Foundry"
 link: ""
 avatar {
-  file_name: "vectrotype.png"
+  file_name: "vectrotypefoundry.png"
 }

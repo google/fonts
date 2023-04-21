@@ -15,6 +15,9 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "chorasmian"
+primary_script: "Chrs"
+languages: "aii_Chrs"  # Assyrian Neo-Aramaic, Chorasmian
 source {
   repository_url: "https://github.com/notofonts/chorasmian.git"
   archive_url: "https://github.com/notofonts/chorasmian/releases/download/NotoSansChorasmian-v1.002/NotoSansChorasmian-v1.002.zip"

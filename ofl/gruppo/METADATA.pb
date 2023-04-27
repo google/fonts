@@ -1,6 +1,7 @@
 name: "Gruppo"
 designer: "Vernon Adams"
 license: "OFL"
+category: "SANS_SERIF"
 category: "DISPLAY"
 date_added: "2010-12-20"
 fonts {
@@ -8,10 +9,14 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Gruppo-Regular.ttf"
-  post_script_name: "Gruppo"
-  full_name: "Gruppo"
-  copyright: "Copyright (c) 2010 Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name \'Gruppo\'. Available under the terms of the SIL OFL v1.1 from http://scripts.sil.org/OFL"
+  post_script_name: "Gruppo-Regular"
+  full_name: "Gruppo Regular"
+  copyright: "Copyright 2010 The Gruppo Project Authors (https://github.com/googlefonts/GruppoFont)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/GruppoFont"
+  commit: "20e1bc8c76ee1d692c5645b8aaf971cc58ca2e51"
+}

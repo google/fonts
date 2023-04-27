@@ -1,4 +1,5 @@
 # New
+catalog/designers/suonmaysophanith # https://github.com/google/fonts/pull/5855
 ofl/comme # https://github.com/google/fonts/pull/6081
 ofl/darumadropone # https://github.com/google/fonts/pull/2864
 ofl/foldit # https://github.com/google/fonts/pull/5361
@@ -55,6 +56,15 @@ catalog/designers/maniackersdesign # https://github.com/google/fonts/pull/3909
 catalog/designers/smartsheetinc # https://github.com/google/fonts/pull/6129
 catalog/designers/suonmaysophanith # https://github.com/google/fonts/pull/6077
 
+# Axis Registry
+axisregistry/flare.textproto # https://github.com/google/fonts/pull/5853
+axisregistry/optical_size.textproto # https://github.com/google/fonts/pull/5853
+axisregistry/volume.textproto # https://github.com/google/fonts/pull/5853
+axisregistry/width.textproto # https://github.com/google/fonts/pull/5853
+axisregistry/wonky.textproto # https://github.com/google/fonts/pull/5853
+axisregistry/x_rotation.textproto # https://github.com/google/fonts/pull/5853
+axisregistry/y_rotation.textproto # https://github.com/google/fonts/pull/5853
+
 # Knowledge
 cc-by-sa/knowledge/modules/using_type/lessons/the_complications_of_typographic_size # https://github.com/google/fonts/pull/6192
 
@@ -93,3 +103,6 @@ ofl/andika # https://github.com/google/fonts/pull/6159
 ofl/mingzat # https://github.com/google/fonts/pull/6159
 ofl/nuosusil # https://github.com/google/fonts/pull/6159
 ofl/taiheritagepro # https://github.com/google/fonts/pull/6159
+
+# To add once Kablammo can go to prod
+# axisregistry/morph.textproto # https://github.com/google/fonts/pull/5853

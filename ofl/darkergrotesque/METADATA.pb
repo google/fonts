@@ -1,5 +1,5 @@
 name: "Darker Grotesque"
-designer: "Gabriel Lam"
+designer: "Gabriel Lam, Vietanh Nguyen"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-06-19"

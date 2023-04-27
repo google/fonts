@@ -1,59 +1,17 @@
 # New
 catalog/designers/suonmaysophanith # https://github.com/google/fonts/pull/5855
-ofl/comme # https://github.com/google/fonts/pull/6081
-ofl/darumadropone # https://github.com/google/fonts/pull/2864
-ofl/foldit # https://github.com/google/fonts/pull/5361
 ofl/instrumentsans # https://github.com/google/fonts/pull/6160
-ofl/konkhmersleokchher # https://github.com/google/fonts/pull/5855
 ofl/notosansnagmundari # https://github.com/google/fonts/pull/6039
 ofl/notosansnandinagari # https://github.com/google/fonts/pull/5700
 ofl/playfair # https://github.com/google/fonts/pull/6026
 
 # Upgrade
-ofl/alkalami # https://github.com/google/fonts/pull/5956
-ofl/blakaink # https://github.com/google/fonts/pull/6055
-ofl/cairoplay # https://github.com/google/fonts/pull/5972
-ofl/castoro # https://github.com/google/fonts/pull/6035
-ofl/chilanka # https://github.com/google/fonts/pull/6144
-ofl/delicioushandrawn # https://github.com/google/fonts/pull/6068
-ofl/frankruhllibre # https://github.com/google/fonts/pull/6178
-ofl/gabriela # https://github.com/google/fonts/pull/5995
 ofl/karla # https://github.com/google/fonts/pull/6203
-ofl/matesc # https://github.com/google/fonts/pull/5931
-ofl/notosansdevanagari # https://github.com/google/fonts/pull/6130
-ofl/notosansgujarati # https://github.com/google/fonts/pull/6157
-ofl/notosansgurmukhi # https://github.com/google/fonts/pull/6117
-ofl/notosansjp # https://github.com/google/fonts/pull/5469
-ofl/notosanskannada # https://github.com/google/fonts/pull/6113
-ofl/notosanskharoshthi # https://github.com/google/fonts/pull/5736
-ofl/notosansmalayalam # https://github.com/google/fonts/pull/6112
-ofl/notosansnushu # https://github.com/google/fonts/pull/5703
 ofl/notosanssymbols2 # https://github.com/google/fonts/pull/6053
-ofl/notosanssyriac # https://github.com/google/fonts/pull/5739
-ofl/notosanstamil # https://github.com/google/fonts/pull/6109
-ofl/notosansthailooped # https://github.com/google/fonts/pull/5111
-ofl/notoserifahom # https://github.com/google/fonts/pull/6098
 ofl/notoserifbalinese # https://github.com/google/fonts/pull/5759
-ofl/notoserifdevanagari # https://github.com/google/fonts/pull/6131
-ofl/notoserifgujarati # https://github.com/google/fonts/pull/6122
-ofl/notoserifgurmukhi # https://github.com/google/fonts/pull/6118
-ofl/notoserifkannada # https://github.com/google/fonts/pull/6114
-ofl/notoserifmalayalam # https://github.com/google/fonts/pull/6111
-ofl/notoserifsinhala # https://github.com/google/fonts/pull/6115
-ofl/notoseriftamil # https://github.com/google/fonts/pull/6116
-ofl/nunitosans # https://github.com/google/fonts/pull/6149
-ofl/outfit # https://github.com/google/fonts/pull/6126
-ofl/pathwaygothicone # https://github.com/google/fonts/pull/6006
 ofl/radiocanada # https://github.com/google/fonts/pull/6184
-ofl/trocchi # https://github.com/google/fonts/pull/6047
-ofl/unbounded # https://github.com/google/fonts/pull/6148
-ofl/zenmarugothic # https://github.com/google/fonts/pull/5923
 
 # Designer profile
-catalog/designers/binoydominic # https://github.com/google/fonts/pull/6145
-catalog/designers/juliantunni # https://github.com/google/fonts/pull/5982
-catalog/designers/maniackersdesign # https://github.com/google/fonts/pull/3909
-catalog/designers/smartsheetinc # https://github.com/google/fonts/pull/6129
 catalog/designers/suonmaysophanith # https://github.com/google/fonts/pull/6077
 
 # Axis Registry
@@ -69,40 +27,14 @@ axisregistry/y_rotation.textproto # https://github.com/google/fonts/pull/5853
 cc-by-sa/knowledge/modules/using_type/lessons/the_complications_of_typographic_size # https://github.com/google/fonts/pull/6192
 
 # Metadata / Description / License
-ofl/anuphan # https://github.com/google/fonts/pull/6169
 ofl/bebasneue # https://github.com/google/fonts/pull/6200
-ofl/denkone # https://github.com/google/fonts/pull/6031
-ofl/fjallaone # https://github.com/google/fonts/pull/6031
-ofl/fruktur # https://github.com/google/fonts/pull/6031
-ofl/gajrajone # https://github.com/google/fonts/pull/6069
-ofl/ibmplexmono # https://github.com/google/fonts/pull/5843
-ofl/ibmplexsans # https://github.com/google/fonts/pull/5843
-ofl/ibmplexsansarabic # https://github.com/google/fonts/pull/5843
-ofl/ibmplexsanscondensed # https://github.com/google/fonts/pull/5843
-ofl/ibmplexsansdevanagari # https://github.com/google/fonts/pull/5843
-ofl/ibmplexsanshebrew # https://github.com/google/fonts/pull/5843
-ofl/ibmplexsansjp # https://github.com/google/fonts/pull/5843
-ofl/ibmplexsanskr # https://github.com/google/fonts/pull/5843
-ofl/ibmplexsansthai # https://github.com/google/fonts/pull/5843
-ofl/ibmplexsansthailooped # https://github.com/google/fonts/pull/5843
-ofl/ibmplexserif # https://github.com/google/fonts/pull/5843
-ofl/julee # https://github.com/google/fonts/pull/6171
-ofl/limelight # https://github.com/google/fonts/pull/6031
-ofl/limelight # https://github.com/google/fonts/pull/6032
-ofl/merriweathersans # https://github.com/google/fonts/pull/6031
 ofl/tirotamil # https://github.com/google/fonts/pull/6205
 
 # Sample texts
-lang/languages/sa_Nand.textproto # https://github.com/google/fonts/pull/6183
 lang/languages/unr_Nagm.textproto # https://github.com/google/fonts/pull/6059
 lang/scripts/Nagm.textproto # https://github.com/google/fonts/pull/6059
-lang/scripts/Nand.textproto # https://github.com/google/fonts/pull/6183
 
 # Article updates
-ofl/andika # https://github.com/google/fonts/pull/6159
-ofl/mingzat # https://github.com/google/fonts/pull/6159
-ofl/nuosusil # https://github.com/google/fonts/pull/6159
-ofl/taiheritagepro # https://github.com/google/fonts/pull/6159
 
 # To add once Kablammo can go to prod
 # axisregistry/morph.textproto # https://github.com/google/fonts/pull/5853

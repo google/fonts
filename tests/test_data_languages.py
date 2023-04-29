@@ -56,8 +56,8 @@ def test_languages_exemplars_canonical_duplicates(lang_code, exemplar_name):
             g = g.lstrip("{").rstrip("}")
         normalized[unicodedata.normalize("NFC", g)].add(g)
 
-    result = [(len(gs), gs) for n, gs in normalized.items()]
-    expected = [(1, {n}) for n, gs in normalized.items()]
+    result = [(len(gs), n) for n, gs in normalized.items()]
+    expected = [(1, n) for n, _ in normalized.items()]
     assert result == expected
 
 

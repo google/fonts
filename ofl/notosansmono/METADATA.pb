@@ -2,6 +2,7 @@ name: "Noto Sans Mono"
 designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
+category: "MONOSPACE"
 date_added: "2020-11-19"
 fonts {
   name: "Noto Sans Mono"

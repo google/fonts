@@ -1,8 +1,8 @@
 name: "Gruppo"
 designer: "Vernon Adams"
 license: "OFL"
-category: "SANS_SERIF"
 category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2010-12-20"
 fonts {
   name: "Gruppo"

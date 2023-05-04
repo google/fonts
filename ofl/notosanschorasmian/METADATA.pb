@@ -12,12 +12,12 @@ fonts {
   full_name: "Noto Sans Chorasmian Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/chorasmian)"
 }
+subsets: "chorasmian"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-subsets: "chorasmian"
-primary_script: "Chrs"
 languages: "aii_Chrs"  # Assyrian Neo-Aramaic, Chorasmian
+primary_script: "Chrs"
 source {
   repository_url: "https://github.com/notofonts/chorasmian.git"
   archive_url: "https://github.com/notofonts/chorasmian/releases/download/NotoSansChorasmian-v1.002/NotoSansChorasmian-v1.002.zip"

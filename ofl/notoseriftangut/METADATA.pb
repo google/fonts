@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "txg_Tang"  # Tangut
+primary_script: "Tang"

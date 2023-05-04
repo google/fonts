@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "sa_Bhks"  # Sanskrit, Bhaiksuki
+primary_script: "Bhks"

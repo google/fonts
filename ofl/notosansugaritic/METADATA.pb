@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aii_Ugar"  # Assyrian Neo-Aramaic, Ugaritic
 languages: "uga_Ugar"  # Ugaritic
+primary_script: "Ugar"

@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "sq_Elba"  # Albanian, Elbasan
+primary_script: "Elba"

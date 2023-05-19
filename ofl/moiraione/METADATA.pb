@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Moirai"
   commit: "3220f0c211c8d3a3bb989896cf7ea66d16a925e6"
 }
+primary_script: "Kore"

@@ -34,3 +34,4 @@ source {
   repository_url: "https://github.com/kosmynkab/Poltawski-Nowy"
   commit: "6e5631b27a50d7f63bf0d1528060c34d882e1f40"
 }
+display_name: "Półtawski Nowy"

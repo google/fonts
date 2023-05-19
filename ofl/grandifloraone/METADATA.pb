@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Grandiflora"
   commit: "b016ca716dade21cb890efc78b9349275c4e7c99"
 }
+primary_script: "Kore"

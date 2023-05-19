@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Gasoek"
   commit: "f3beadd65b93b5f43e9381a546d065253d6e655a"
 }
+primary_script: "Kore"

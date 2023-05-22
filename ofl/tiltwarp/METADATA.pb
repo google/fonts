@@ -30,3 +30,4 @@ source {
   repository_url: "https://github.com/googlefonts/Tilt-Fonts"
   commit: "0773dc9f490aabba0c19c15d290b575b62245970"
 }
+minisite_url: "https://fonts.withgoogle.com/tilt"

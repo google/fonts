@@ -1,5 +1,5 @@
 name: "Orbit"
-designer: "Sooun Cho"
+designer: "Sooun Cho, JAMO"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2023-05-18"

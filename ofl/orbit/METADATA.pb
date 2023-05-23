@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Orbit"
   commit: "9f58ea557b9b3fd068f61f355f742fb58e741966"
 }
+primary_script: "Kore"

@@ -1,5 +1,5 @@
 name: "Diphylleia"
-designer: "Minha Hyung"
+designer: "Minha Hyung, JAMO"
 license: "OFL"
 category: "SERIF"
 date_added: "2023-05-18"

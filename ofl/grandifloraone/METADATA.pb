@@ -1,5 +1,5 @@
 name: "Grandiflora One"
-designer: "Haesung Cho"
+designer: "Haesung Cho, JAMO"
 license: "OFL"
 category: "SERIF"
 date_added: "2023-05-18"

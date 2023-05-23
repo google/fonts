@@ -1,5 +1,5 @@
 name: "Moirai One"
-designer: "Jiyeon Park"
+designer: "Jiyeon Park, JAMO"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2023-05-18"

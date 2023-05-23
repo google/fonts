@@ -1,5 +1,5 @@
 name: "Bagel Fat One"
-designer: "Kyungwon Kim"
+designer: "Kyungwon Kim, JAMO"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2023-05-18"

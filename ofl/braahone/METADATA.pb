@@ -19,6 +19,6 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/artandtype/Braah"
-  commit: "d10ec8d1efc1d3ed756348ea4b94f71849f6ec26"
+  commit: "2b7ba2ea006af5a55313158531b6f0b71eca5ff8"
 }
 primary_script: "Guru"

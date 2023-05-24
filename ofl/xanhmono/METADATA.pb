@@ -1,5 +1,5 @@
 name: "Xanh Mono"
-designer: "Yellow Type, Lam Bao, Duy Dao"
+designer: "Yellow Type, Lâm Bảo, Duy Dao"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2020-08-11"

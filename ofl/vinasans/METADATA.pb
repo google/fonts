@@ -18,5 +18,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/nguyentype/vinasans"
-  commit: "1083785fc42264704e4cab9b19b3ca139a8b7dc0"
+  commit: "e99f043b3542ccaf24a21f04601942ca8bc28d53"
 }

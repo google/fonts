@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/JAMO-TYPEFACE/BagelFat"
   commit: "5ff1333d3384611f499419a844e2b3006dc7cacd"
 }
+primary_script: "Kore"

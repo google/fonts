@@ -20,3 +20,4 @@ source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Diphylleia"
   commit: "d481ed1f2dc17d2457f9788351a1d4e886cdc221"
 }
+primary_script: "Kore"

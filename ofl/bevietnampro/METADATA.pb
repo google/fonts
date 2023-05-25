@@ -1,5 +1,5 @@
 name: "Be Vietnam Pro"
-designer: "Lâm Bảo, Tony Le, Vietanh Nguyen"
+designer: "Lâm Bảo, Tony Le, ViệtAnh Nguyễn"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2021-06-13"

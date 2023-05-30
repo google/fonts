@@ -63,7 +63,7 @@ def directory_check_types(branch="origin/main"):
         if path.endswith((".ttf", ".otf")) and state == "A":
             dir_tokens.add(CheckToken.NEW_FONT)
 
-        if path.endswith((".ttf", ".otf")) and state == "M":
+        if path.endswith((".ttf", ".otf")) and (state == "M" or state == "D"):
             dir_tokens.add(CheckToken.MODIFIED_FONTS)
 
         if path.endswith((".txt", ".pb", ".html")) and state == "M":

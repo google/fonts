@@ -3,7 +3,7 @@ designer: "Isa Ozler"
 license: "OFL"
 category: "SANS_SERIF"
 category: "MONOSPACE"
-date_added: "2023-05-04"
+date_added: "2023-05-19"
 fonts {
   name: "Kode Mono"
   style: "normal"
@@ -23,5 +23,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/isaozler/kode-mono"
-  commit: "15b36a40179d3678e0fe8bff19903af09c0fc0f7"
+  commit: "e979faace969560910a0b984334bf4a0afff7e49"
 }

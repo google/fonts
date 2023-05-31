@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aii_Phlp"  # Assyrian Neo-Aramaic, Psalter Pahlavi
 languages: "pal_Phlp"  # Pahlavi, Psalter Pahlavi
+primary_script: "Phlp"

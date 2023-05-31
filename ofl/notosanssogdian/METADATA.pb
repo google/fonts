@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aii_Sogd"  # Assyrian Neo-Aramaic, Sogdian
 languages: "sog_Sogd"  # Sogdian
+primary_script: "Sogd"

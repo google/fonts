@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aii_Nbat"  # Assyrian Neo-Aramaic, Nabataean
 languages: "arc_Nbat"  # Aramaic, Nabataean
+primary_script: "Nbat"

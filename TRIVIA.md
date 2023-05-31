@@ -21,12 +21,12 @@ They are no longer listed in the [fonts.google.com](https://fonts.google.com) ca
 
 | Initial Family           | Current Family           | Category |
 |:-------------------------|:-------------------------|:---------|
-| `ofl/alefhebrew`         | `ofl/alef`               | renamed  |
-| `ofl/mrbedford`          | `ofl/mrbedfort`          | renamed  |
-| `ofl/misssaintdelafield` | `ofl/mrssaintdelafield`  | renamed  |
-| `ofl/siamreap`           | `ofl/siemreap`           | renamed  |
-| `ofl/terminaldosis`      | `ofl/dosis`              | renamed  |
-| `ofl/terminaldosislight` | `ofl/dosis`              | expanded |
+| `alefhebrew`             | `alef`                   | renamed  |
+| `mrbedford`              | `mrbedfort`              | renamed  |
+| `misssaintdelafield`     | `mrssaintdelafield`      | renamed  |
+| `siamreap`               | `siemreap`               | renamed  |
+| `terminaldosis`          | `dosis`                  | renamed  |
+| `terminaldosislight`     | `dosis`                  | expanded |
 | `baloo`                  | `baloo2`                 | expanded |
 | `baloobhai`              | `baloobhai2`             | expanded |
 | `baloobhaijaan`          | `baloobhaijaan2`         | expanded |
@@ -49,6 +49,8 @@ They are no longer listed in the [fonts.google.com](https://fonts.google.com) ca
 | `arimamadurai`           | `arima`                  | expanded |
 | `meriendaone`            | `merienda`               | expanded |
 | `codacaption`            | `coda`                   | expanded |
+| `sourceserifpro`         | `sourceserif4`           | renamed  |
+| `sourcesanspro`          | `sourcesans3`            | renamed  |
 
 
 ## Missing METADATA.pb files

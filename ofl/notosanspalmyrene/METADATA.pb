@@ -10,10 +10,17 @@ fonts {
   filename: "NotoSansPalmyrene-Regular.ttf"
   post_script_name: "NotoSansPalmyrene-Regular"
   full_name: "Noto Sans Palmyrene Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/palmyrene)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "palmyrene"
+source {
+  repository_url: "https://github.com/notofonts/palmyrene.git"
+  archive_url: "https://github.com/notofonts/palmyrene/releases/download/NotoSansPalmyrene-v2.001/NotoSansPalmyrene-v2.001.zip"
+}
 is_noto: true
 languages: "aii_Palm"  # Assyrian Neo-Aramaic, Palmyrene
 languages: "arc_Palm"  # Aramaic, Palmyrene
+primary_script: "Palm"

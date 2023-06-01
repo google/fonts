@@ -46,7 +46,7 @@ But King Sejong knew that his intended audience of common people had little time
 
 Thus, to realize his grand and radical vision of bringing literacy to the masses, he knew that he would need to devise an alphabet unlike any other—one that put the needs of the user first.
 
-In [the next article](/lesson/designing_for_learnability), we’ll explore how rose to meet this challenge.
+In [the next article](/lesson/designing_for_learnability), we’ll explore how he rose to meet this challenge.
 
 ## A note about terminology
 

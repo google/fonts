@@ -28,7 +28,7 @@ def test_LoadLanguages():
                   LoadLanguages(None),
                   LoadLanguages(DATA_DIR)]:
         numerals = langs["yi_Hebr"].exemplar_chars.numerals
-        assert numerals == '- ‑ , . %  + 0 1 2 3 4 5 6 7 8 9'
+        assert numerals == '-  , . %  + 0 1 2 3 4 5 6 7 8 9'
 
 
 def test_LoadScripts():

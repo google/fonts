@@ -7,7 +7,7 @@ population: 1366860
 region: "NO"
 exemplar_chars {
   auxiliary: "á ǎ č ç đ è ê ń ñ ŋ š ŧ ü ž ä ö"
-  punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] § @ * / & # ″"
+  punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] § @ * / & #"
 }
 sample_text {
   masthead_full: "AaLl"

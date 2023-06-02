@@ -10,8 +10,6 @@ Below are the most important changes from each release.
 * Add Makassarese in Old Makasar script by @simoncozens in https://github.com/googlefonts/lang/pull/74
 * West Frisian [fy]: remove {ij} and {íj́} from base by @moyogo in https://github.com/googlefonts/lang/pull/78
 
-
-**Full Changelog**: https://github.com/googlefonts/lang/compare/v0.4.7...v.0.4.8
 ## 0.4.7 (2023-Apr-17)
 - #70 Add Nandinagari
 

@@ -2,7 +2,17 @@ Below are the most important changes from each release.
 
 ## Next release
 
-## 0.4.7
+## 0.4.8 (2023-Jun-02)
+* Test languages exemplars canonical duplicates by @moyogo in https://github.com/googlefonts/lang/pull/41
+* fixup test_canonical_duplicates by @moyogo in https://github.com/googlefonts/lang/pull/75
+* Remove U+030D U+030E from Thai marks by @simoncozens in https://github.com/googlefonts/lang/pull/76
+* grc_Cprt: add source for samples by @moyogo in https://github.com/googlefonts/lang/pull/79
+* Add Makassarese in Old Makasar script by @simoncozens in https://github.com/googlefonts/lang/pull/74
+* West Frisian [fy]: remove {ij} and {íj́} from base by @moyogo in https://github.com/googlefonts/lang/pull/78
+
+
+**Full Changelog**: https://github.com/googlefonts/lang/compare/v0.4.7...v.0.4.8
+## 0.4.7 (2023-Apr-17)
 - #70 Add Nandinagari
 
 ## 0.4.6 (2023-Mar-24)

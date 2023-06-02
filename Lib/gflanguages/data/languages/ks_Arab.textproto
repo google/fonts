@@ -10,7 +10,7 @@ region: "PK"
 exemplar_chars {
   base: "ء آ أ ٲ ؤ ا ب پ ت ث ٹ ج چ ح خ د ذ ڈ ر ز ڑ ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں ھ ہ و ۄ ۆ ی ۍ ؠ ے"
   auxiliary: "‎‏ َ ُ ِ ٔ ٕ ٟ ٖ ٗ"
-  numerals: "‎ - ‑ , . % ‰ + 0۰ 1۱ 2۲ 3۳ 4۴ 5۵ 6۶ 7۷ 8۸ 9۹"
+  numerals: "‎ - ‑ , . %  + 0۰ 1۱ 2۲ 3۳ 4۴ 5۵ 6۶ 7۷ 8۸ 9۹"
 }
 sample_text {
   masthead_full: "سریل"

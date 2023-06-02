@@ -70,7 +70,7 @@ exemplar_chars {
   base: "a à â æ b c ç d e é è ê ë f g h i î ï j k l m n o ô œ p q r s t u ù û ü v w x y ÿ z"
   auxiliary: "á å ä ã ā ć ē í ì ī ĳ ñ ó ò ö õ ø ř š ſ ß ú ǔ"
   marks: "◌̀ ◌́ ◌̂ ◌̈ ◌̧"
-  numerals: "  - ‑ , . % ‰ + − 0 1 2 3 4 5 6 7 8 9"
+  numerals: "  - ‑ , . %  + − 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … ’ \" “ ” « » ( ) [ ] § @ * / & # "
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }

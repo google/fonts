@@ -14,7 +14,7 @@ exemplar_chars {
   base: "a ă â b c d e f g h i î j k l m n o p r s ș t ț u v w x y z"
   auxiliary: "á à å ä ç é è ê ë ñ ö q ş ţ ü"
   marks: "◌̂ ◌̆ ◌̦ ◌̧"
-  numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  numerals: "- ‑ , . %  + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … \' ‘ \" “ ” „ « » ( ) [ ] @ * /"
   index: "A Ă Â B C D E F G H I Î J K L M N O P Q R S Ș T Ț U V W X Y Z"
 }

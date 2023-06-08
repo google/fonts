@@ -14,8 +14,8 @@ fonts {
 }
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
 subsets: "makasar"
+subsets: "menu"
 primary_script: "Maka"
 languages: "mak_Maka"  # Makasar, Old Makasar
 source {

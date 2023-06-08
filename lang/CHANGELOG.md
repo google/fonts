@@ -1,6 +1,8 @@
 Below are the most important changes from each release.
 
 ## Next release
+## 0.4.9 (2023-Jun-08)
+* Replace Sanskrit Gunjala Gondi transliteration with new sample by @simoncozens in https://github.com/googlefonts/lang/pull/85
 
 ## 0.4.8 (2023-Jun-02)
 * Test languages exemplars canonical duplicates by @moyogo in https://github.com/googlefonts/lang/pull/41

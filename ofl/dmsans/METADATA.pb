@@ -34,6 +34,10 @@ axes {
   min_value: 100.0
   max_value: 1000.0
 }
+registry_default_overrides {
+  key: "opsz"
+  value: 12
+}
 source {
   repository_url: "https://github.com/googlefonts/dm-fonts"
   commit: "7c79670d4033c3b4e07ce7a54bce94f8794aa558"

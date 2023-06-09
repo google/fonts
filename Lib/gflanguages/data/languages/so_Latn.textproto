@@ -11,7 +11,7 @@ region: "SO"
 exemplar_chars {
   base: "b B c C d D f F g G h H j J k K l L m M n N q Q r R s S t T w W x X y Y"
   auxiliary: "a A e E i I o O p P u U v V z Z"
-  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] § @ * / & #"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ]  @ * / & #"
   index: "B C D F G H J K L M N Q R S T W X Y"
 }
 sample_text {

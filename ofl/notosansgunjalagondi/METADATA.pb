@@ -12,8 +12,8 @@ fonts {
   full_name: "Noto Sans Gunjala Gondi Regular"
   copyright: "Copyright 2019 Google LLC. All Rights Reserved."
 }
-subsets: "menu"
 subsets: "gunjala-gondi"
+subsets: "menu"
 is_noto: true
 languages: "gon_Gong"  # Gondi, Gunjala Gondi
-languages: "sa_Gong"  # Sanskrit, Gunjala Gondi
+languages: "wsg_Gong"  # Adilabad Gondi, Gunjala Gondi

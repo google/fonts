@@ -1,6 +1,6 @@
 #YALN based on [Wavefont](https://github.com/dy/wavefont)
-tag: "YALN"
-display_name: "Y Alignment"
+tag: "YELA"
+display_name: "Vertical Element Alignment"
 min_value: -100
 default_value: 0
 max_value: 100

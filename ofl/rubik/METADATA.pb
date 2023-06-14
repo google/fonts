@@ -1,5 +1,5 @@
 name: "Rubik"
-designer: "Hubert and Fischer, Meir Sadan, Cyreal"
+designer: "Hubert and Fischer, Meir Sadan, Cyreal, Daniel Grumer, Omaima Dajani"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-07-22"
@@ -34,5 +34,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/rubik"
-  commit: "bfad6be1331a45f40f92868c9bfafac9b46b5fd8"
+  commit: "e337a5f69a9bea30e58d05bd40184d79cc099628"
 }

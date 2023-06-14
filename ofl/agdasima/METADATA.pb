@@ -26,5 +26,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/docrepair-fonts/agdasima-fonts"
-  commit: "d83c2c23b82cf160044b1afa1a789f720e72a4bb"
+  commit: "c971400d774dfd6d28e7a8e34aedc3b3dfdce6f9"
 }

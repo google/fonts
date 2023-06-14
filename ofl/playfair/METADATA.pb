@@ -43,11 +43,7 @@ axes {
   min_value: 300.0
   max_value: 900.0
 }
-registry_default_overrides {
-  key: "opsz"
-  value: 12
-}
 source {
   repository_url: "https://github.com/googlefonts/Playfair"
-  commit: "209226cb60e266cbe061819e2336ed5c4259f026"
+  commit: "beae63554370252f8d45c3eb95f809fcba56af9c"
 }

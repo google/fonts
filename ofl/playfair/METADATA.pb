@@ -1,8 +1,8 @@
 name: "Playfair"
 designer: "Claus Eggers Sørensen"
 license: "OFL"
-category: "SERIF"
 category: "DISPLAY"
+category: "SERIF"
 date_added: "2023-04-13"
 fonts {
   name: "Playfair"

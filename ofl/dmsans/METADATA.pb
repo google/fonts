@@ -36,5 +36,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/dm-fonts"
-  commit: "7c79670d4033c3b4e07ce7a54bce94f8794aa558"
+  commit: "d0520ba03bd780f5dccb3024854463d44f699b78"
 }

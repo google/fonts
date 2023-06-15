@@ -10,14 +10,30 @@ fonts {
   filename: "NotoSansDuployan-Regular.ttf"
   post_script_name: "NotoSansDuployan-Regular"
   full_name: "Noto Sans Duployan Regular"
-  copyright: "Copyright 2018 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
 }
-subsets: "menu"
+fonts {
+  name: "Noto Sans Duployan"
+  style: "normal"
+  weight: 700
+  filename: "NotoSansDuployan-Bold.ttf"
+  post_script_name: "NotoSansDuployan-Bold"
+  full_name: "Noto Sans Duployan Bold"
+  copyright: "Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
+}
 subsets: "duployan"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/duployan.git"
+  archive_url: "https://github.com/notofonts/duployan/releases/download/NotoSansDuployan-v3.001/NotoSansDuployan-v3.001.zip"
+}
 is_noto: true
 languages: "chn_Dupl"  # Chinook Jargon, Duployan
-languages: "de_Dupl"  # German, Duployan
 languages: "fr_Dupl"  # French, Duployan
+# This is not real text. It needs replacing, ideally with
+# language-specific samples in the lang repo.
 sample_text {
   masthead_full: "𛰳𛱰𛱘𛱢"
   masthead_partial: "𛰠𛰏"
@@ -27,3 +43,4 @@ sample_text {
   poster_md: "𛰷𛰓𛰆𛲜𛲗 𛰶𛱗𛱖"
   poster_lg: "𛰞𛰆"
 }
+primary_script: "Dupl"

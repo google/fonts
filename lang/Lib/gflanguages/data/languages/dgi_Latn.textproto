@@ -1,0 +1,9 @@
+id: "dgi_Latn"
+language: "dgi"
+script: "Latn"
+name: "Dagara, Northern"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D e E ɛ Ɛ f F g G h H ɦ Ɦ i I ɩ Ɩ j J k K l L m M n N ñ Ñ ŋ Ŋ o O ɔ Ɔ p P r R ɾ s S t T u U ʋ Ʋ v V w W y Y ƴ Ƴ z Z"
+  marks: "◌̃"
+  auxiliary: "q Q x X"
+}

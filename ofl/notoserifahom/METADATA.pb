@@ -18,8 +18,9 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/ahom.git"
-  archive_url: "https://github.com/notofonts/ahom/releases/download/NotoSerifAhom-v2.005/NotoSerifAhom-v2.005.zip"
+  archive_url: "https://github.com/notofonts/ahom/releases/download/NotoSerifAhom-v2.006/NotoSerifAhom-v2.006.zip"
 }
 is_noto: true
 languages: "aho_Ahom"  # Ahom
 languages: "sa_Ahom"  # Sanskrit, Ahom
+primary_script: "Ahom"

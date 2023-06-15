@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "jv_Java"  # Javanese, Javanese
+primary_script: "Java"

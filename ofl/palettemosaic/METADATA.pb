@@ -15,3 +15,6 @@ fonts {
 subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
+primary_script: "Hira"
+languages: "ja_Kana"
+languages: "ja_Hira"

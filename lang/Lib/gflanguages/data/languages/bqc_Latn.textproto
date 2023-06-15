@@ -1,0 +1,9 @@
+id: "bqc_Latn"
+language: "bqc"
+script: "Latn"
+name: "Boko"
+exemplar_chars {
+  base: "a A á Á ã Ã b B d D e E è È ɛ Ɛ f F g G i I í Í ĩ Ĩ k K l L m M n N o O ó Ó ɔ Ɔ p P s S t T u U ú Ú ũ Ũ ṹ Ṹ v V w W y Y z Z"
+  marks: "◌́ ◌̃ ◌̀"
+  auxiliary: "c C h H j J q Q r R x X"
+}

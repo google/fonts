@@ -28,9 +28,10 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/sinhala.git"
-  archive_url: "https://github.com/notofonts/sinhala/releases/download/NotoSerifSinhala-v2.006/NotoSerifSinhala-v2.006.zip"
+  archive_url: "https://github.com/notofonts/sinhala/releases/download/NotoSerifSinhala-v2.007/NotoSerifSinhala-v2.007.zip"
 }
 is_noto: true
 languages: "pi_Sinh"  # Pali, Sinhala
 languages: "sa_Sinh"  # Sanskrit, Sinhala
 languages: "si_Sinh"  # Sinhala
+primary_script: "Sinh"

@@ -28,8 +28,9 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/kannada.git"
-  archive_url: "https://github.com/notofonts/kannada/releases/download/NotoSansKannada-v2.003/NotoSansKannada-v2.003.zip"
+  archive_url: "https://github.com/notofonts/kannada/releases/download/NotoSansKannada-v2.004/NotoSansKannada-v2.004.zip"
 }
 is_noto: true
 languages: "kn_Knda"  # Kannada
 languages: "tcy_Knda"  # Tulu
+primary_script: "Knda"

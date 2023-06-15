@@ -1,0 +1,9 @@
+id: "gux_Latn"
+language: "gux"
+script: "Latn"
+name: "Gourmanchéma"
+exemplar_chars {
+  base: "a A á Á ā Ā b B c C d D e E é É ē Ē f F g G h H i I í Í ī Ī j J k K l L m M n N ŋ Ŋ o O ó Ó ō Ō ɔ Ɔ p P s S t T u U ú Ú ū Ū w W y Y"
+  marks: "◌́ ◌̄ ◌̃"
+  auxiliary: "q Q r R v V x X z Z"
+}

@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "rhg_Rohg"  # Rohingya
+primary_script: "Rohg"

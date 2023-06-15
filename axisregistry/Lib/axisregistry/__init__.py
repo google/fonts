@@ -154,7 +154,10 @@ def _fvar_dflts(ttFont):
             name = fallback.name
             elided = fallback.value == axis_registry[
                 a.axisTag
-            ].default_value and name not in ["Regular", "Italic"]
+            ].default_value and name not in ["Regular", "Italic", "14pt"]
+        elif a.axisTag == "opsz":
+            name = f"{int(a.defaultValue)}pt"
+            elided = False
         else:
             name = None
             elided = True  # since we can't find a name for it, keep it elided
@@ -216,7 +219,9 @@ def build_stat(ttFont, sibling_ttFonts=[]):
                 }
             )
             if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:
-                a["values"][-1]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
+                linked_value = LINKED_VALUES[axis][fallback.value]
+                if any(f.value == linked_value for f in fallbacks):
+                    a["values"][-1]["linkedValue"] = linked_value
         res.append(a)
 
     for axis, fallback in fallbacks_in_names:
@@ -228,7 +233,8 @@ def build_stat(ttFont, sibling_ttFonts=[]):
             "values": [{"name": fallback.name, "value": fallback.value, "flags": 0x0}],
         }
         if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:
-            a["values"][0]["linkedValue"] = LINKED_VALUES[axis][fallback.value]
+            linked_value = LINKED_VALUES[axis][fallback.value]
+            a["values"][0]["linkedValue"] = linked_value
         res.append(a)
 
     for axis, fallback in fallbacks_in_siblings:
@@ -250,13 +256,31 @@ def build_stat(ttFont, sibling_ttFonts=[]):
 
 
 def build_name_table(ttFont, family_name=None, style_name=None, siblings=[]):
+    from fontTools.varLib.instancer import setRibbiBits
+
     log.info("Building name table")
     name_table = ttFont["name"]
     family_name = family_name if family_name else name_table.getBestFamilyName()
     style_name = style_name if style_name else name_table.getBestSubFamilyName()
     if is_variable(ttFont):
-        return build_vf_name_table(ttFont, family_name, siblings=siblings)
-    return build_static_name_table_v1(ttFont, family_name, style_name)
+        build_vf_name_table(ttFont, family_name, siblings=siblings)
+    else:
+        build_static_name_table_v1(ttFont, family_name, style_name)
+
+    # Set bits
+    style_name = name_table.getBestSubFamilyName()
+    # usWeightClass
+    weight_seen = False
+    for weight in sorted(GF_STATIC_STYLES, key=lambda k: len(k), reverse=True):
+        if weight in style_name:
+            weight_seen = True
+            ttFont["OS/2"].usWeightClass = GF_STATIC_STYLES[weight]
+            break
+    if not weight_seen:
+        log.warning(
+            f"No known weight found for stylename {style_name}. Cannot set OS2.usWeightClass"
+        )
+    setRibbiBits(ttFont)
 
 
 def _fvar_instance_collisions(ttFont, siblings=[]):
@@ -338,9 +362,13 @@ def build_fvar_instances(ttFont, axis_dflts={}):
     stat_nameids = []
     if "STAT" in ttFont:
         if ttFont["STAT"].table.AxisValueCount > 0:
-            stat_nameids = [
+            stat_nameids.extend(
                 av.ValueNameID for av in ttFont["STAT"].table.AxisValueArray.AxisValue
-            ]
+            )
+        if ttFont["STAT"].table.DesignAxisCount > 0:
+            stat_nameids.extend(
+                av.AxisNameID for av in ttFont["STAT"].table.DesignAxisRecord.Axis
+            )
 
     # rm old fvar subfamily and ps name records
     for inst in fvar.instances:

@@ -28,3 +28,4 @@ source {
 is_noto: true
 languages: "eky_Kali"  # Eastern Kayah
 languages: "kyu_Kali"  # Western Kayah
+primary_script: "Kali"

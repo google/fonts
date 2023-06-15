@@ -28,3 +28,4 @@ source {
 is_noto: true
 languages: "sa_Olck"  # Sanskrit, Ol Chiki
 languages: "sat_Olck"  # Santali
+primary_script: "Olck"

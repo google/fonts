@@ -1,5 +1,5 @@
 name: "Radio Canada"
-designer: "Charles Daoud, Coppers and Brasses, Alexandre Saumier Demers"
+designer: "Charles Daoud, Coppers and Brasses, Alexandre Saumier Demers, Jacques Le Bailly"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2022-03-18"
@@ -21,6 +21,7 @@ fonts {
   full_name: "Radio Canada Italic"
   copyright: "Copyright 2017 The Radio-Canada Project Authors (https://github.com/cbcrc/radiocanadafonts)"
 }
+subsets: "canadian-aboriginal"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -37,5 +38,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/cbcrc/radiocanadafonts"
-  commit: "1e095388644ae96c1edf0d104872222bbeff371d"
+  commit: "61a4efa847d6361be8e9cd3c656b3256b29d4ff4"
 }

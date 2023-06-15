@@ -4,9 +4,9 @@ We can be thankful to the Romans for a number of technological innovations and i
 
 ![A scan of an image showing the engravings on Trajan’s Column.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>Roman square capitals from the base of Trajan’s Column in Rome, c. 113 CE.</figcaption>
+
+</figure>
 
 ## Renaissance influencers
 
@@ -24,9 +24,9 @@ By the end of the fifteenth century, not only did the cities of the Italian Peni
 
 ![“The word Garamonts set in upright and italic versions of the modern EB Garamond typeface.”](images/GFKhistoftype2_garamond.svg)
 
-</figure>
-
 <figcaption>EB Garamond, a modern revival of Claude Garamont’s roman and italic.</figcaption>
+
+</figure>
 
 The designs of Garamont and his talented French contemporaries soon replaced those of Aldus, first in France and eventually even in the Italian Peninsula. They would prove remarkably influential, spawning scores of roman typefaces in the new French Renaissance style. They differed most markedly from their predecessors by having higher [contrast](/glossary/contrast) and more refined modulation. This feature combined with looser letterspacing affects the overall typographic [color](/glossary/color) of the page, making it lighter in appearance. Again it’s an example of a deliberate move away from the gothic aesthetic to a lighter, airier, more ‘classical’ typographic page.
 
@@ -38,9 +38,9 @@ The sixteenth century also gave us [italic](/glossary/italic). The great Venetia
 
 ![A scan of an image showing an early italic typeface.](images/GFKhistoftype2_aldusandgriffoitalic.svg)
 
-</figure>
-
 <figcaption>Italic typeface by Francesco Griffo and Aldus Manutius.</figcaption>
+
+</figure>
 
 The first italic typefaces were paired with upright Roman capitals, but within a couple of decades, they were typically paired with newly designed sloping capitals, which soon became the norm.
 

@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "mro_Mroo"  # Mru, Mro
 languages: "sa_Mroo"  # Sanskrit, Mro
+primary_script: "Mroo"

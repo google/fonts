@@ -1,5 +1,5 @@
 name: "Limelight"
-designer: "Nicole Fally"
+designer: "Nicole Fally, Sorkin Type"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-05-25"

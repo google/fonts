@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "bsq_Bass"  # Bassa
+primary_script: "Bass"

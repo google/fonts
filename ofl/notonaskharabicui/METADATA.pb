@@ -101,3 +101,4 @@ languages: "wni_Arab"  # Ndzwani Comorian
 languages: "wo_Arab"  # Wolof, Arabic
 languages: "zdj_Arab"  # Ngazidja Comorian
 languages: "zlm_Arab"  # Malay, Arabic
+primary_script: "Arab"

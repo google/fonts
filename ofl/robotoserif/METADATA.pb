@@ -21,6 +21,7 @@ fonts {
   full_name: "Roboto Serif 20pt Italic"
   copyright: "Copyright 2020 The Roboto Serif Project Authors (https://github.com/googlefonts/RobotoSerif)"
 }
+subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
@@ -45,4 +46,8 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/roboto-serif"
+  archive_url: "https://github.com/googlefonts/roboto-serif/releases/download/v1.008/RobotoSerifFonts-v1.008.zip"
 }

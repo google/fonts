@@ -9,9 +9,13 @@ fonts {
   weight: 400
   filename: "Orienta-Regular.ttf"
   post_script_name: "Orienta-Regular"
-  full_name: "Orienta"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Orienta\'"
+  full_name: "Orienta Regular"
+  copyright: "Copyright 2012 The Orienta Project Authors (https://github.com/etunni/orienta) with Reserved Font Name \'Orienta\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/orienta"
+  commit: "18d3b4ce823c8a5b374023c559cf6d2b2bd505a2"
+}

@@ -1,6 +1,33 @@
 Below are the most important changes from each release.
 
 ## Next release
+## 0.4.9 (2023-Jun-08)
+* Replace Sanskrit Gunjala Gondi transliteration with new sample by @simoncozens in https://github.com/googlefonts/lang/pull/85
+
+## 0.4.8 (2023-Jun-02)
+* Test languages exemplars canonical duplicates by @moyogo in https://github.com/googlefonts/lang/pull/41
+* fixup test_canonical_duplicates by @moyogo in https://github.com/googlefonts/lang/pull/75
+* Remove U+030D U+030E from Thai marks by @simoncozens in https://github.com/googlefonts/lang/pull/76
+* grc_Cprt: add source for samples by @moyogo in https://github.com/googlefonts/lang/pull/79
+* Add Makassarese in Old Makasar script by @simoncozens in https://github.com/googlefonts/lang/pull/74
+* West Frisian [fy]: remove {ij} and {íj́} from base by @moyogo in https://github.com/googlefonts/lang/pull/78
+
+## 0.4.7 (2023-Apr-17)
+- #70 Add Nandinagari
+
+## 0.4.6 (2023-Mar-24)
+- #52 Addition of exemplar character sets for Latin-based African Lang
+uages
+- #53 Adding caps letters to Latin-based African languages that have gflang profiles
+- #67 Add kana sample text
+
+## 0.4.5 (2023-Mars-22)
+- #65 Add Nag Mundari script
+
+## 0.4.4 (2023-Feb-24)
+- #51 Add source and note fields
+- #59 Updated Thai specimen
+- #60 Fixed CI
 
 ## 0.4.3 (2022-Nov-14)
 - Add missing script to Chorasmian #47

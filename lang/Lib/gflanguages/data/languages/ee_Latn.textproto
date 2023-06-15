@@ -7,8 +7,8 @@ population: 4690856
 region: "GH"
 region: "TG"
 exemplar_chars {
-  base: "a á à ã b d ɖ e é è ẽ ɛ {ɛ́} {ɛ̀} {ɛ̃} f ƒ g ɣ h x i í ì ĩ k l m n ŋ o ó ò õ ɔ {ɔ́} {ɔ̀} {ɔ̃} p r s t u ú ù ũ v ʋ w y z"
-  auxiliary: "ă â å ä ā æ c ç ĕ ê ë ĭ î ï j ñ ŏ ô ö ø œ q ŭ û ü ÿ"
+  base: "a A á Á à À ã Ã b B d D ɖ Ɖ e E é É è È ẽ Ẽ ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} {ɛ̃} {Ɛ̃} f F ƒ Ƒ g G ɣ Ɣ h H x X i I í Í ì Ì ĩ Ĩ k K l L m M n N ŋ Ŋ o O ó Ó ò Ò õ Õ ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̃} {Ɔ̃} p P r R s S t T u U ú Ú ù Ù ũ Ũ v V ʋ Ʋ w W y Y z Z"
+  auxiliary: "ă Ă â Â å Å ä Ä ā Ā æ Æ c C ç Ç ĕ Ĕ ê Ê ë Ë ĭ Ĭ î Î ï Ï j J ñ Ñ ŏ Ŏ ô Ô ö Ö ø Ø œ Œ q Q ŭ Ŭ û Û ü Ü ÿ Ÿ"
   marks: "◌̀ ◌́ ◌̃ ◌̂ ◌̄ ◌̆ ◌̈ ◌̊ ◌̧"
   numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- ‐ ‑ – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] { } § @ * / & # † ‡ ′ ″"

@@ -7,56 +7,34 @@ fonts {
   name: "DM Sans"
   style: "normal"
   weight: 400
-  filename: "DMSans-Regular.ttf"
-  post_script_name: "DMSans-Regular"
-  full_name: "DM Sans Regular"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com) with Reserved Font Name \'Poppins\'. Copyright 2019 Google LLC."
+  filename: "DMSans[opsz,wght].ttf"
+  post_script_name: "DMSans-9ptRegular"
+  full_name: "DM Sans 9pt Regular"
+  copyright: "Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)"
 }
 fonts {
   name: "DM Sans"
   style: "italic"
   weight: 400
-  filename: "DMSans-Italic.ttf"
-  post_script_name: "DMSans-Italic"
-  full_name: "DM Sans Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com) with Reserved Font Name \'Poppins\'. Copyright 2019 Google LLC."
-}
-fonts {
-  name: "DM Sans"
-  style: "normal"
-  weight: 500
-  filename: "DMSans-Medium.ttf"
-  post_script_name: "DMSans-Medium"
-  full_name: "DM Sans Medium"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com) with Reserved Font Name \'Poppins\'. Copyright 2019 Google LLC."
-}
-fonts {
-  name: "DM Sans"
-  style: "italic"
-  weight: 500
-  filename: "DMSans-MediumItalic.ttf"
-  post_script_name: "DMSans-MediumItalic"
-  full_name: "DM Sans Medium Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com) with Reserved Font Name \'Poppins\'. Copyright 2019 Google LLC."
-}
-fonts {
-  name: "DM Sans"
-  style: "normal"
-  weight: 700
-  filename: "DMSans-Bold.ttf"
-  post_script_name: "DMSans-Bold"
-  full_name: "DM Sans Bold"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com) with Reserved Font Name \'Poppins\'. Copyright 2019 Google LLC."
-}
-fonts {
-  name: "DM Sans"
-  style: "italic"
-  weight: 700
-  filename: "DMSans-BoldItalic.ttf"
-  post_script_name: "DMSans-BoldItalic"
-  full_name: "DM Sans Bold Italic"
-  copyright: "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com) with Reserved Font Name \'Poppins\'. Copyright 2019 Google LLC."
+  filename: "DMSans-Italic[opsz,wght].ttf"
+  post_script_name: "DMSans-9ptItalic"
+  full_name: "DM Sans 9pt Italic"
+  copyright: "Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "opsz"
+  min_value: 9.0
+  max_value: 40.0
+}
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 1000.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/dm-fonts"
+  commit: "d0520ba03bd780f5dccb3024854463d44f699b78"
+}

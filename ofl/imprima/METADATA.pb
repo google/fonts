@@ -9,9 +9,13 @@ fonts {
   weight: 400
   filename: "Imprima-Regular.ttf"
   post_script_name: "Imprima-Regular"
-  full_name: "Imprima"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Imprima\""
+  full_name: "Imprima Regular"
+  copyright: "Copyright 2012 The Imprima Project Authors (https://github.com/etunni/imprima), with Reserved Font Name \"Imprima\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/imprima"
+  commit: "efec6ee25d2ba461487c391b62ae26817614741a"
+}

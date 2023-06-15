@@ -28,3 +28,4 @@ source {
 is_noto: true
 languages: "mni_Mtei"  # Manipuri, Meetei Mayek
 languages: "sa_Mtei"  # Sanskrit, Meetei Mayek / Meitei
+primary_script: "Mtei"

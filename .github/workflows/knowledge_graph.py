@@ -1,3 +1,4 @@
+from pprint import pprint
 from absl import app
 from absl import flags
 from gftools import knowledge_pb2
@@ -169,10 +170,26 @@ def _check_contributor(repo_root: Path, referrer: Path, ref: str, contributors: 
     return _maybe_print_check(ref in contributors, repo_root, referrer, ref, None)
 
 
+def _check_md_file_contents(repo_root: Path, md_file: Path, ast: List[MdValue]) -> bool:
+    for el in _ast_iter(ast, lambda v: v.get("type", None) == "inline_html"):
+        text = el.get("text", "")
+        if re.search(' id="[^"]+"', text):
+            print("INVALID ", _safe_relative_to(repo_root, md_file), "attr.id not allowed:", text)
+            return False
+    f = open(md_file,"r")
+    content = "".join(f.readlines())
+    if re.search('</figcaption>(?!.*</figure>)', content, re.MULTILINE | re.DOTALL):
+        print("INVALID ", _safe_relative_to(repo_root, md_file), "Cannot have a <figcaption> outside of a <figure>")
+        return False
+    f.close()
+    return True
+
+
 def _check_md_files(knowledge: KnowledgeContent) -> bool:
     result = True
     for md_file in knowledge.md_files:
         ast = _markdown_ast(md_file)
+        result = _check_md_file_contents(knowledge.repo_root, md_file, ast) and result
         for link in _ast_iter(ast, lambda v: v.get("type", None) == "link"):
             target = link.get("link", "")
             if not target:
@@ -252,9 +269,10 @@ def _check_image_files(knowledge: KnowledgeContent) -> bool:
     result = True
     image_files = list(knowledge.knowledge_dir.glob("**/images/*"))
     for image_file in image_files:
+        st_size = image_file.stat().st_size
         if _is_svg(image_file):
-            if image_file.stat().st_size > MAX_VECTOR_IMAGE_SIZE_KB * 1024:
-                print("File exceeds max size of %s KB:" % MAX_VECTOR_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))
+            if st_size > MAX_VECTOR_IMAGE_SIZE_KB * 1024:
+                print("File exceeds max size of %s KB (%s KB):" % (MAX_VECTOR_IMAGE_SIZE_KB, st_size // 1024), image_file.relative_to(knowledge.knowledge_dir))
                 result = False
             root = minidom.parseString(image_file.read_text()).documentElement
             if root.tagName != "svg":
@@ -270,8 +288,8 @@ def _check_image_files(knowledge: KnowledgeContent) -> bool:
                     print("Must specify offset on <stop>:", image_file.relative_to(knowledge.knowledge_dir))
                     result = False
         else:
-            if image_file.stat().st_size > MAX_RASTER_IMAGE_SIZE_KB * 1024:
-                print("File exceeds max size of %s KB:" % MAX_RASTER_IMAGE_SIZE_KB, image_file.relative_to(knowledge.knowledge_dir))
+            if st_size > MAX_RASTER_IMAGE_SIZE_KB * 1024:
+                print("File exceeds max size of %s KB (%s KB):" % (MAX_RASTER_IMAGE_SIZE_KB, st_size // 1024), image_file.relative_to(knowledge.knowledge_dir))
                 result = False
     return result
 

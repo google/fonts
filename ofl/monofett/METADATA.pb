@@ -1,16 +1,21 @@
 name: "Monofett"
 designer: "Vernon Adams"
 license: "OFL"
-category: "DISPLAY"
+category: "MONOSPACE"
 date_added: "2011-05-04"
 fonts {
   name: "Monofett"
   style: "normal"
   weight: 400
-  filename: "Monofett.ttf"
-  post_script_name: "Monofett"
-  full_name: "Monofett"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name \'Monofett\'. All rights reserved."
+  filename: "Monofett-Regular.ttf"
+  post_script_name: "Monofett-Regular"
+  full_name: "Monofett Regular"
+  copyright: "Copyright 2010 The Monofett Project Authors (https://github.com/googlefonts/monofett), with Reserved Font Name Monofett."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/monofett"
+  commit: "a1a60166b5db2c6676d0a0a7751fe378fff1af9e"
+}

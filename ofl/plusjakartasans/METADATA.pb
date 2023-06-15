@@ -33,5 +33,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/tokotype/PlusJakartaSans"
-  commit: "cf4e61fbcb16d543d39c91330b774827becca95e"
+  commit: "163c006ff169bbb932757276b98a26f36a1409d8"
 }

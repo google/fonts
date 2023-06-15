@@ -1,4 +1,4 @@
-Reading is a complex cognitive process that involves working out what meanings are represented by a set of symbols in a [writing system](https://fonts.google.com/knowledge/glossary/script_writing_system), such as the [Latin alphabet](https://fonts.google.com/knowledge/glossary/latin). Scholars researching how people read can have expertise in a broad range of areas such as psychology, linguistics, semiotics, literary critics, vision sciences, and anthropology. This article is a brief overview of how people read focusing on how those with normal or corrected vision (with glasses/spectacles or contact lenses) read letters, words, phrases and longer texts. (It does not cover the use of braille.) This overview also introduces how typographic decisions can influence the process of reading.
+Reading is a complex cognitive process that involves working out what meanings are represented by a set of symbols in a [writing system](https://fonts.google.com/knowledge/glossary/writing_system), such as the [Latin alphabet](https://fonts.google.com/knowledge/glossary/latin). Scholars researching how people read can have expertise in a broad range of areas such as psychology, linguistics, semiotics, literary critics, vision sciences, and anthropology. This article is a brief overview of how people read focusing on how those with normal or corrected vision (with glasses/spectacles or contact lenses) read letters, words, phrases and longer texts. (It does not cover the use of braille.) This overview also introduces how typographic decisions can influence the process of reading.
 
 Reading is what we do, while [readability](https://fonts.google.com/knowledge/glossary/readability) refers to qualities of a text that make reading easier. This includes content decisions, or format decisions, which help a reader to easily engage with and comprehend the message intended by the author. Poor readability can obscure, change, or convince the reader never even engage with the author's message.
 
@@ -24,8 +24,9 @@ Find out more about text accessibility in [“Introducing accessibility in typog
 
 ![Two columns of text, with the left column showing examples of indistinct letter shapes and tight line height that causes clashes, and the right showing better distinguishable shapes (to show legibility) and a more open line height (to show readability).](images/readability_01.svg)
 
-</figure>
 <figcaption>Top row: A comparison between less legible type set in Gill Sans and Prosto One (left) with more legible type set in Raleway and Noto Sans (right). Bottom row: A comparison between less readable type (left) with more readable type (right). Both paragraphs are set in Roboto and share the same line-height value, but different font-size values.</figcaption>
+
+</figure>
 
 Legibility is being able to clearly see the structure of the text. Legibility is achieved when the text is not fuzzy or blurred and the reader can  see all the details without any visual stress such as squinting or rereading. 
 
@@ -47,7 +48,7 @@ Written language is a complex code in which combinations of letters, or characte
 
 For children, learning to read normally starts with becoming aware of how words sound, known as phonological processing. This awareness is coupled with matching sounds and letters. A beginner English reader learns the connections between the 26 letters of the alphabet and the approximately 44 sounds of spoken English (the phonemes). Learners actively explore different ways of reading as they become expert readers. Successful readers build the ability to recognize most words automatically and read fluently, by paying attention to grammar, punctuation, and sentence structure.
 
-Adults  learning a new language or a new [script (writing system)](https://fonts.google.com/knowledge/glossary/script_writing_system) go through a similar process of learning the relationship between the symbols, sounds, and syntax for constructing relationships between ideas. People  learning to read are often simultaneously learning to write. As people learn to read and recognize words, they practice producing letters and words in written form.
+Adults  learning a new language or a new [writing system](https://fonts.google.com/knowledge/glossary/writing_system) go through a similar process of learning the relationship between the symbols, sounds, and syntax for constructing relationships between ideas. People  learning to read are often simultaneously learning to write. As people learn to read and recognize words, they practice producing letters and words in written form.
 
 To choose a typeface that supports people learning to read and write, find out if there are any fonts that are approved by local educational authorities, such as the [Foundation Fonts for Australian Schools](https://fonts.googleblog.com/) and [Japanese Universal Design fonts](https://fonts.googleblog.com/2022/04/morisawa-biz-universal-design-ud.html).
 
@@ -97,8 +98,9 @@ To explore settings that might work for your texts, when selecting a font on Goo
 
 ![A screenshot of Google Fonts’ Type Tester.](images/readability_07.png)
 
-</figure>
 <figcaption>Google Fonts’ Type Tester, showing text with variable axes.</figcaption>
+
+</figure>
 
 ## It’s easier to read, learn, and remember meaningful texts
 
@@ -131,8 +133,9 @@ The shortest form of reading is called glancing, when the reader briefly looks a
 
 ![A diagram showing types of reading—from glanceable to interlude to long form—over an axis of shortest time to longest time.](images/readability_09.svg)
 
-</figure>
 <figcaption>The time someone has to read a source impacts the way they read it, and what they do while they read. Reading at-a-glance is often done alongside some other task, while reading a long form document generally requires dedication to the reading itself. Most reading is done opportunistically in interludes; while waiting or taking a break.</figcaption>
+
+</figure>
 
 Interlude reading covers everything between glanceable and long form reading.  There is a wide range including text messaging, navigating through headers and labels, reading some news headlines, summaries, or scanning search results.  The motivations for this type of reading also vary widely,  and includeing learning new things, being with friends,  and finding things.
 

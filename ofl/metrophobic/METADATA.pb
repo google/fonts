@@ -16,3 +16,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/MetrophobicFont"
+  commit: "c834ca0e9188d756627252ae510266ed5e8d2416"
+}

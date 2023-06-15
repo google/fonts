@@ -7,10 +7,15 @@ fonts {
   name: "Michroma"
   style: "normal"
   weight: 400
-  filename: "Michroma.ttf"
-  post_script_name: "Michroma"
-  full_name: "Michroma"
-  copyright: "Copyright (c) 2011, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \'Michroma\'"
+  filename: "Michroma-Regular.ttf"
+  post_script_name: "Michroma-Regular"
+  full_name: "Michroma Regular"
+  copyright: "Copyright 2011 The Michroma Project Authors (https://github.com/googlefonts/Michroma-font)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/Michroma-font"
+  commit: "07893d1b85a537a6ed4b96fdb091bee45eabe65f"
+}

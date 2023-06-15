@@ -23,7 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/malayalam.git"
-  archive_url: "https://github.com/notofonts/malayalam/releases/download/NotoSerifMalayalam-v2.103/NotoSerifMalayalam-v2.103.zip"
+  archive_url: "https://github.com/notofonts/malayalam/releases/download/NotoSerifMalayalam-v2.104/NotoSerifMalayalam-v2.104.zip"
 }
 is_noto: true
 languages: "ml_Mlym"  # Malayalam
+primary_script: "Mlym"

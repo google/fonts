@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "sa_Sidd"  # Sanskrit, Siddham
+primary_script: "Sidd"

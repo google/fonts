@@ -14,8 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-from collections import Counter
+from collections import defaultdict, Counter
 import re
+import unicodedata
 
 from gflanguages import LoadLanguages, languages_public_pb2, LoadScripts
 import pytest
@@ -45,6 +46,25 @@ SKIP_EXEMPLARS = {
 @pytest.mark.parametrize(
     "exemplar_name", ["base", "auxiliary", "marks", "numerals", "punctuation", "index"]
 )
+def test_languages_exemplars_canonical_duplicates(lang_code, exemplar_name):
+    lang = LANGUAGES[lang_code]
+    exemplar = getattr(lang.exemplar_chars, exemplar_name).split()
+    normalized = defaultdict(set)
+
+    for g in exemplar:
+        if g[0] == "{" and g[-1] == "}":
+            g = g.lstrip("{").rstrip("}")
+        normalized[unicodedata.normalize("NFC", g)].add(g)
+
+    result = [(len(gs), n) for n, gs in normalized.items()]
+    expected = [(1, n) for n, _ in normalized.items()]
+    assert result == expected
+
+
+@pytest.mark.parametrize("lang_code", LANGUAGES)
+@pytest.mark.parametrize(
+    "exemplar_name", ["base", "auxiliary", "marks", "numerals", "punctuation", "index"]
+)
 def test_languages_exemplars_duplicates(lang_code, exemplar_name):
     lang = LANGUAGES[lang_code]
     exemplar = getattr(lang.exemplar_chars, exemplar_name).split()
@@ -60,14 +80,16 @@ ExemplarChars = languages_public_pb2.ExemplarCharsProto().DESCRIPTOR
 @pytest.mark.parametrize("lang_code", LANGUAGES.keys())
 def test_language_samples(lang_code):
     # Although marked as optional in the protobuf file, all
-    # SampleText fields are required, so make sure they are
-    # present.
+    # SampleText fields (except note) are required, so make
+    # sure they are present.
     lang = LANGUAGES[lang_code]
     if not lang.sample_text.ListFields():
         pytest.skip("No sample text for language " + lang_code)
         return
 
     for field in SampleText.fields:
+        if field.name == "note":
+            continue
         assert getattr(lang.sample_text, field.name)
 
 

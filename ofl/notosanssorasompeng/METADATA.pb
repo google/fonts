@@ -28,3 +28,4 @@ source {
 is_noto: true
 languages: "sa_Sora"  # Sanskrit, Sora Sompeng
 languages: "srb_Sora"  # Sora, Sora Sompeng
+primary_script: "Sora"

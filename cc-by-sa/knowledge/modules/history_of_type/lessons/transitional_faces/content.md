@@ -10,9 +10,9 @@ In 1692, during the reign of Louis XIV, the French Royal Academy of Sciences  co
 
 ![A traced scan of Dürer’s “A” character.](images/GFKhistoftype3.svg)
 
-</figure>
-
 <figcaption>From a geometrically constructed alphabet by Albrecht Dürer (1525).</figcaption>
+
+</figure>
 
 When we say ‘rational’ or ‘rationalized’ with regard to type design, we are describing the underlying or guiding design principles behind the design of the letterforms. So, for example, in earlier romans, we can still see the influence of the broad-nib pen. Rationalization is about removing or turning down the dial on these calligraphic or [handwritten](/glossary/handwriting) features of the design. The resulting typefaces then appear rather more machine-made than hand-made.
 
@@ -20,9 +20,9 @@ When we say ‘rational’ or ‘rationalized’ with regard to type design, we 
 
 ![Bracketed and non-bracketed serifs overlaid to highlight their differing forms.](images/GFKhistoftype3_bracketedserifs.svg)
 
-</figure>
-
 <figcaption>Bracketed serifs.</figcaption>
+
+</figure>
 
 ## Dutch type
 
@@ -36,9 +36,9 @@ In the eighteenth century, two other type designers appeared who would leave a l
 
 ![A scan of typefaces designed by Caslon.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>Roman and italic typefaces by William Caslon, c. 1734.</figcaption>
+
+</figure>
 
 After making his fortune in japanning (varnished lacquerware), John Baskerville, from the emerging industrial city of Birmingham, also in the West Midlands, turned to printing in the 1750s. He was an exceptional typographer and had very clear ideas about how his pages should appear: High contrast letters, plenty of white space, and very crisp printing. He achieved his typographically light, bright, and spacious pages not only by designing his own typefaces, but also by producing new inks and papers.
 
@@ -46,9 +46,9 @@ After making his fortune in japanning (varnished lacquerware), John Baskerville,
 
 ![The word “Baskerville” set in upright and italic versions of a modern Baskerville-style typeface.](images/GFKhistoftype3_baskerville.svg)
 
-</figure>
-
 <figcaption>A modern revival of Baskerville’s roman and italic.</figcaption>
+
+</figure>
 
 Typically, rougher paper requires more pressure from the printing press to ensure even printing. However, higher pressures also means more ‘ink squeeze’ (the amount ink bleeds into and spreads across the paper). Baskerville collaborated with paper maker James Whatman to produce a new kind of smooth paper often called ‘wove paper.’ We can think of smoother paper in letterpress printing as analogous to higher screen resolution, with smoother paper being able to support printing of finer or sharper detail in much the same way as more pixels are able to reproduce finer details on screen. With new inks and very smooth new paper only gentle pressure from the press (called a kiss impression) was required, thus reducing ink squeeze and making for a beautifully crisp print. Benjamin Franklin, at the time living in England and paying frequent visits to Baskerville, was among Baskerville’s most enthusiastic patrons and advocates. Others, however, were critical of Baskerville’s type, complaining that the contrast in his typefaces was so high that reading them could hurt your eyes! In overall design, Caslon’s were more influenced by Dutch designs, whereas Baskerville owes more to Garamont and his contemporaries, and to pioneering [Transitional](/glossary/transitional_neo_classical) typefaces like the King’s Roman. 
 
@@ -56,8 +56,8 @@ Typically, rougher paper requires more pressure from the printing press to ensur
 
 ![Two “o” characters, with lines overlaid to show the different angle of stress.](images/GFKhistoftype3_evolutionofstress.svg)
 
-</figure>
-
 <figcaption>From the fifteenth century the stress of letters moved from oblique to upright.</figcaption>
+
+</figure>
 
 The King’s Roman and Baskerville are known as ‘Transitional’ typefaces because they sit between Old Style and Modern typefaces. From the first romans of the fifteenth century to those of eighteenth, the predominant design trend was a move to upright stress ([axis](/glossary/axis_in_type_design) of rounded letters moved to the perpendicular), and higher [contrast](/glossary/contrast) letterforms with sharper details—a trend that would be further exploited by the likes of Giambattista Bodoni and Firmin Didot in their so-called Modern typeface designs.

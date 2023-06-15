@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/symbols.git"
-  archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols2-v2.005/NotoSansSymbols2-v2.005.zip"
+  archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols2-v2.006/NotoSansSymbols2-v2.006.zip"
 }
 is_noto: true
 sample_text {

@@ -7,46 +7,42 @@ fonts {
   name: "Noto Serif"
   style: "normal"
   weight: 400
-  filename: "NotoSerif-Regular.ttf"
-  post_script_name: "NotoSerif"
-  full_name: "Noto Serif"
-  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
+  filename: "NotoSerif[wdth,wght].ttf"
+  post_script_name: "NotoSerif-Regular"
+  full_name: "Noto Serif Regular"
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)"
 }
 fonts {
   name: "Noto Serif"
   style: "italic"
   weight: 400
-  filename: "NotoSerif-Italic.ttf"
+  filename: "NotoSerif-Italic[wdth,wght].ttf"
   post_script_name: "NotoSerif-Italic"
   full_name: "Noto Serif Italic"
-  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)"
 }
-fonts {
-  name: "Noto Serif"
-  style: "normal"
-  weight: 700
-  filename: "NotoSerif-Bold.ttf"
-  post_script_name: "NotoSerif-Bold"
-  full_name: "Noto Serif Bold"
-  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
-}
-fonts {
-  name: "Noto Serif"
-  style: "italic"
-  weight: 700
-  filename: "NotoSerif-BoldItalic.ttf"
-  post_script_name: "NotoSerif-BoldItalic"
-  full_name: "Noto Serif Bold Italic"
-  copyright: "Copyright 2012 Google Inc. All Rights Reserved."
-}
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "wdth"
+  min_value: 62.5
+  max_value: 100.0
+}
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/latin-greek-cyrillic.git"
+  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.012/NotoSerif-v2.012.zip"
+}
 is_noto: true
 languages: "aa_Latn"  # Afar
 languages: "ab_Cyrl"  # Abkhazian

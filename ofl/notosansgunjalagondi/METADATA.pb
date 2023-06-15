@@ -27,5 +27,5 @@ source {
 }
 is_noto: true
 languages: "gon_Gong"  # Gondi, Gunjala Gondi
-languages: "sa_Gong"  # Sanskrit, Gunjala Gondi
+languages: "wsg_Gong"  # Adilabad Gondi, Gunjala Gondi
 primary_script: "Gong"

@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "nst_Tnsa"  # Tangsa
+primary_script: "Tnsa"

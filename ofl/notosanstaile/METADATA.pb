@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "tdd_Tale"  # Tai Nüa
+primary_script: "Tale"

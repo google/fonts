@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "ur_Arab"  # Urdu
+primary_script: "Arab"

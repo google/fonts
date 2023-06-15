@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "peo_Xpeo"  # Old Persian
 languages: "sa_Xpeo"  # Sanskrit, Old Persian
+primary_script: "Xpeo"

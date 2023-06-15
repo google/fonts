@@ -24,3 +24,13 @@ source {
 is_noto: true
 languages: "koi_Perm"  # Komi-Permyak, Old Permic
 languages: "kv_Perm"  # Komi, Old Permic
+primary_script: "Perm"
+sample_text {
+  masthead_full: "𐍒𐍟𐍦𐍘"
+  masthead_partial: "𐍑𐍤"
+  styles: "𐍐𐍑𐍒𐍓𐍔𐍕𐍖 𐍞𐍟𐍠𐍡𐍢𐍣𐍤 𐍥𐍦𐍧𐍨𐍩𐍪𐍫 𐍗𐍘𐍙𐍚𐍛𐍜𐍝 𐍬𐍭𐍮𐍯𐍰𐍱𐍲"
+  tester: "𐍐𐍑𐍒𐍓𐍔𐍕𐍖 𐍞𐍟𐍠𐍡𐍢𐍣𐍤 𐍥𐍦𐍧𐍨𐍩𐍪𐍫 𐍗𐍘𐍙𐍚𐍛𐍜𐍝 𐍬𐍭𐍮𐍯𐍰𐍱𐍲"
+  poster_sm: "𐍐𐍑𐍒𐍢𐍣𐍤 𐍥𐍦𐍧𐍛𐍜𐍝"
+  poster_md: "𐍥𐍦𐍧𐍨𐍩𐍪𐍫 𐍗𐍘𐍙"
+  poster_lg: "𐍐𐍑𐍒"
+}

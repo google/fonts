@@ -10,12 +10,19 @@ fonts {
   filename: "NotoSansMeroitic-Regular.ttf"
   post_script_name: "NotoSansMeroitic-Regular"
   full_name: "Noto Sans Meroitic Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/meroitic)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "meroitic"
+source {
+  repository_url: "https://github.com/notofonts/meroitic.git"
+  archive_url: "https://github.com/notofonts/meroitic/releases/download/NotoSansMeroitic-v2.001/NotoSansMeroitic-v2.001.zip"
+}
 is_noto: true
 languages: "xmr_Mero"  # Meroitic, Meroitic Hieroglyphs
+primary_script: "Mero"
 sample_text {
   masthead_full: "𐦂𐦝𐦤𐦿"
   masthead_partial: "𐦁𐦐"

@@ -1,13 +1,36 @@
+# New
+ofl/agdasima # https://github.com/google/fonts/pull/6249
+ofl/akatab # https://github.com/google/fonts/pull/5895
+ofl/bacasimeantique # https://github.com/google/fonts/pull/6252
+ofl/belanosima # https://github.com/google/fonts/pull/6158
+ofl/caprasimo # https://github.com/google/fonts/pull/6255
+ofl/notoserifmakasar # https://github.com/google/fonts/pull/5397
+ofl/notoserifottomansiyaq # https://github.com/google/fonts/pull/6025
+ofl/ysabeauinfant # https://github.com/google/fonts/pull/6341
+ofl/ysabeauoffice # https://github.com/google/fonts/pull/6340
+ofl/ysabeausc # https://github.com/google/fonts/pull/6342
+
 # Upgrade
+ofl/aleo # https://github.com/google/fonts/pull/6345
+ofl/dmsans # https://github.com/google/fonts/pull/6318
+ofl/frankruhllibre # https://github.com/google/fonts/pull/6355
+ofl/notosansduployan # https://github.com/google/fonts/pull/5756
+ofl/notosansmeroitic # https://github.com/google/fonts/pull/5316
 ofl/notosansnabataean # https://github.com/google/fonts/pull/5320
+ofl/notosansoldsogdian # https://github.com/google/fonts/pull/5318
 ofl/notosanspalmyrene # https://github.com/google/fonts/pull/5321
 ofl/notosanspsalterpahlavi # https://github.com/google/fonts/pull/5322
 ofl/notosanssamaritan # https://github.com/google/fonts/pull/5319
 ofl/notosanssogdian # https://github.com/google/fonts/pull/5365
+ofl/playfair # https://github.com/google/fonts/pull/6374
+ofl/plusjakartasans # https://github.com/google/fonts/pull/6372
 ofl/secularone # https://github.com/google/fonts/pull/6335
 
 # Designer profile
 catalog/designers/colophonfoundry # https://github.com/google/fonts/pull/6331
+
+# Axis Registry
+axisregistry/y_element_alignment.textproto # https://github.com/google/fonts/pull/6358
 
 # Metadata / Description / License
 ofl/spacemono # https://github.com/google/fonts/pull/6332
@@ -19,6 +42,8 @@ lang/languages/gld_Cyrl.textproto # https://github.com/google/fonts/pull/6338
 lang/languages/grc_Cprt.textproto # https://github.com/google/fonts/pull/6338
 lang/languages/mak_Maka.textproto # https://github.com/google/fonts/pull/6338
 lang/languages/sa_Deva.textproto # https://github.com/google/fonts/pull/6338
+# Deleted: lang/languages/sa_Gong.textproto # https://github.com/google/fonts/pull/6352
 lang/languages/st_Latn.textproto # https://github.com/google/fonts/pull/6338
 lang/languages/th_Thai.textproto # https://github.com/google/fonts/pull/6338
+lang/languages/wsg_Gong.textproto # https://github.com/google/fonts/pull/6352
 lang/scripts/Maka.textproto # https://github.com/google/fonts/pull/6338

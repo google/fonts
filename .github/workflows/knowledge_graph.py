@@ -120,7 +120,7 @@ class KnowledgeContent(NamedTuple):
 
 
 def _markdown_ast(md_file: Path) -> List[MdValue]:
-    return mistune.create_markdown(renderer=mistune.AstRenderer())(md_file.read_text())
+    return mistune.create_markdown(renderer='ast')(md_file.read_text())
 
 
 def _ast_iter(root: List[MdValue], filter_fn: Callable[[MdValue], bool]) -> Iterable[MdValue]:

@@ -30,7 +30,12 @@ axes {
   min_value: 1.0
   max_value: 400.0
 }
+registry_default_overrides {
+  key: "ROND"
+  value: 100
+}
 source {
   repository_url: "https://github.com/dy/wavefont"
   commit: "9eb7f500992b970bab0e695254f09e2a21801cf7"
 }
+minisite_url: "https://dy.github.io/wavefont/out"

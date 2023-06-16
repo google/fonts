@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: "3.8"
+        python-version: "3.10"
 
     # Check to_sandbox.txt and to_production.txt do not contain typos
     - name: Install gftools
@@ -31,7 +31,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: "3.8"
+        python-version: "3.10"
 
     # Check Knowledge link graph
     - name: Install dependencies

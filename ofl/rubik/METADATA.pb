@@ -21,6 +21,7 @@ fonts {
   full_name: "Rubik Light Italic"
   copyright: "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)"
 }
+subsets: "arabic"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "hebrew"

@@ -21,3 +21,7 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/mavenproFont"
+  commit: "1c21ee500b7b87a4871696519fc84107a1a001df"
+}

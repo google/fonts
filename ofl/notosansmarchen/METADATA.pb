@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "bo_Marc"  # Tibetan, Marchen
 languages: "sa_Marc"  # Sanskrit, Marchen
+primary_script: "Marc"

@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aii_Narb"  # Assyrian Neo-Aramaic, Old North Arabian
 languages: "xna_Narb"  # Ancient North Arabian
+primary_script: "Narb"

@@ -24,3 +24,4 @@ is_noto: true
 languages: "ett_Ital"  # Etruscan
 languages: "osc_Ital"  # Oscan
 languages: "xum_Ital"  # Umbrian
+primary_script: "Ital"

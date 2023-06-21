@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "takri"
 source {
   repository_url: "https://github.com/notofonts/takri.git"
-  archive_url: "https://github.com/notofonts/takri/releases/download/NotoSansTakri-v2.003/NotoSansTakri-v2.003.zip"
+  archive_url: "https://github.com/notofonts/takri/releases/download/NotoSansTakri-v2.004/NotoSansTakri-v2.004.zip"
 }
 is_noto: true
 languages: "doi_Takr"  # Dogri, Takri

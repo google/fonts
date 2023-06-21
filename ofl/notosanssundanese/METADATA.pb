@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/sundanese.git"
-  archive_url: "https://github.com/notofonts/sundanese/releases/download/NotoSansSundanese-v2.003/NotoSansSundanese-v2.003.zip"
+  archive_url: "https://github.com/notofonts/sundanese/releases/download/NotoSansSundanese-v2.004/NotoSansSundanese-v2.004.zip"
 }
 is_noto: true
 languages: "sa_Sund"  # Sanskrit, Sundanese

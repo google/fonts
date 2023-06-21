@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/gunjala-gondi.git"
-  archive_url: "https://github.com/notofonts/gunjala-gondi/releases/download/NotoSansGunjalaGondi-v1.003/NotoSansGunjalaGondi-v1.003.zip"
+  archive_url: "https://github.com/notofonts/gunjala-gondi/releases/download/NotoSansGunjalaGondi-v1.004/NotoSansGunjalaGondi-v1.004.zip"
 }
 is_noto: true
 languages: "gon_Gong"  # Gondi, Gunjala Gondi

@@ -10,10 +10,17 @@ fonts {
   filename: "NotoSansHatran-Regular.ttf"
   post_script_name: "NotoSansHatran-Regular"
   full_name: "Noto Sans Hatran Regular"
-  copyright: "Copyright 2018 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hatran)"
 }
-subsets: "menu"
 subsets: "hatran"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/hatran.git"
+  archive_url: "https://github.com/notofonts/hatran/releases/download/NotoSansHatran-v2.001/NotoSansHatran-v2.001.zip"
+}
 is_noto: true
 languages: "aii_Hatr"  # Assyrian Neo-Aramaic, Hatran
 languages: "mis_Hatr"  # Hatran Aramaic
+primary_script: "Hatr"

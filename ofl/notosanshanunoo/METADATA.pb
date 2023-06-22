@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/hanunoo.git"
-  archive_url: "https://github.com/notofonts/hanunoo/releases/download/NotoSansHanunoo-v2.003/NotoSansHanunoo-v2.003.zip"
+  archive_url: "https://github.com/notofonts/hanunoo/releases/download/NotoSansHanunoo-v2.004/NotoSansHanunoo-v2.004.zip"
 }
 is_noto: true
 languages: "hnn_Hano"  # Hanunoo, Hanunoo

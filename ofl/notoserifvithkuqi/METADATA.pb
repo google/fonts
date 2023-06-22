@@ -16,7 +16,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vithkuqi"
-languages: "sq_Vith"
+languages: "sq_Vith" # Albanian, Vithkuqi
 primary_script: "Vith"
 axes {
   tag: "wght"

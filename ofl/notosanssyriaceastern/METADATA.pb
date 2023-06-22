@@ -15,6 +15,13 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "syriac"
+languages: "aii_Syrc"  # Assyrian Neo-Aramaic
+languages: "ar_Syrc"  # Arabic, Syriac
+languages: "syc_Syrc"  # Classical Syriac
+languages: "syr_Syrc"  # Syriac
+languages: "tru_Syrc"  # Turoyo, Syriac
+primary_script: "Syrc"
 axes {
   tag: "wght"
   min_value: 100.0

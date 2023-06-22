@@ -15,6 +15,9 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vithkuqi"
+languages: "sq_Vith"
+primary_script: "Vith"
 axes {
   tag: "wght"
   min_value: 400.0

@@ -12,10 +12,10 @@ fonts {
   full_name: "Noto Sans Cypro Minoan Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cypro-minoan)"
 }
+subsets: "cypro-minoan"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-subsets: "cypro-minoan"
 source {
   repository_url: "https://github.com/notofonts/cypro-minoan.git"
   archive_url: "https://github.com/notofonts/cypro-minoan/releases/download/NotoSansCyproMinoan-v1.503/NotoSansCyproMinoan-v1.503.zip"

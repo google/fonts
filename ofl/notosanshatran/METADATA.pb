@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aii_Hatr"  # Assyrian Neo-Aramaic, Hatran
 languages: "mis_Hatr"  # Hatran Aramaic
+primary_script: "Hatr"

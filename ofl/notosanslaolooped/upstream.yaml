@@ -1,5 +1,7 @@
-archive: https://github.com/notofonts/lao/releases/download/NotoSansLaoLooped-v1.001/NotoSansLaoLooped-v1.001.zip
+archive: https://github.com/notofonts/lao/releases/download/NotoSansLaoLooped-v1.002/NotoSansLaoLooped-v1.002.zip
 branch: main
 files:
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   NotoSansLaoLooped/googlefonts/variable-ttf/NotoSansLaoLooped[wdth,wght].ttf: NotoSansLaoLooped[wdth,wght].ttf

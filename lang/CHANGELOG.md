@@ -1,8 +1,10 @@
-Below are the most important changes from each release.
+### Check the [releases notes](https://github.com/googlefonts/lang/releases), they are up to date and complete. 
 
-## Next release
+## 0.5.0 (2023-Jun-22)
+Add Vithkuqi script/language by @simoncozens in #88
+
 ## 0.4.9 (2023-Jun-08)
-* Replace Sanskrit Gunjala Gondi transliteration with new sample by @simoncozens in https://github.com/googlefonts/lang/pull/85
+Replace Sanskrit Gunjala Gondi transliteration with new sample by @simoncozens in https://github.com/googlefonts/lang/pull/85
 
 ## 0.4.8 (2023-Jun-02)
 * Test languages exemplars canonical duplicates by @moyogo in https://github.com/googlefonts/lang/pull/41

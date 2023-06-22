@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "rejang"
 source {
   repository_url: "https://github.com/notofonts/rejang.git"
-  archive_url: "https://github.com/notofonts/rejang/releases/download/NotoSansRejang-v2.001/NotoSansRejang-v2.001.zip"
+  archive_url: "https://github.com/notofonts/rejang/releases/download/NotoSansRejang-v2.002/NotoSansRejang-v2.002.zip"
 }
 is_noto: true
 languages: "rej_Rjng"  # Rejang, Rejang

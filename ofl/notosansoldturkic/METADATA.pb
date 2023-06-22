@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "otk_Orkh"  # Old Turkish
+primary_script: "Orkh"

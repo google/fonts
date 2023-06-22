@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/tangsa.git"
-  archive_url: "https://github.com/notofonts/tangsa/releases/download/NotoSansTangsa-v1.504/NotoSansTangsa-v1.504.zip"
+  archive_url: "https://github.com/notofonts/tangsa/releases/download/NotoSansTangsa-v1.505/NotoSansTangsa-v1.505.zip"
 }
 is_noto: true
 languages: "nst_Tnsa"  # Tangsa

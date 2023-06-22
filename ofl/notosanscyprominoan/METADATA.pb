@@ -15,8 +15,18 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "cypro-minoan"
 source {
   repository_url: "https://github.com/notofonts/cypro-minoan.git"
   archive_url: "https://github.com/notofonts/cypro-minoan/releases/download/NotoSansCyproMinoan-v1.503/NotoSansCyproMinoan-v1.503.zip"
 }
 is_noto: true
+sample_text {
+  masthead_full: "𒾙𒾚𒾛𒾜"
+  masthead_partial: "𒾙𒾚"
+  styles: "𒾙𒾚𒾛𒾜𒾝𒾞𒾟𒾠𒾡𒾢𒾣𒾤𒾥𒾦𒾧𒾨𒾩𒾪𒾫𒾬𒾭𒾮𒾯𒾰𒾱𒾲𒾳𒾴𒾵𒾶𒾷𒾸𒾹𒾺𒾻𒾼𒾽𒾾𒾿𒿀𒿁𒿂𒿃𒿄𒿅𒿆𒿇𒿈"
+  tester: "𒾙𒾚𒾛𒾜𒾝𒾞𒾟𒾠𒾡𒾢𒾣𒾤𒾥𒾦𒾧𒾨𒾩𒾪𒾫𒾬𒾭𒾮𒾯𒾰𒾱𒾲𒾳𒾴𒾵𒾶𒾷𒾸𒾹𒾺𒾻𒾼𒾽𒾾𒾿𒿀𒿁𒿂𒿃𒿄𒿅𒿆𒿇𒿈𒿉𒿊𒿋𒿌𒿍𒿎𒿏𒿐𒿑𒿒𒿓𒿔𒿕𒿖𒿗𒿘𒿙𒿚𒿛𒿜𒿝𒿞𒿟𒿠𒿡𒿢""
+  poster_sm: "𒾔 𒾕 𒾖 𒾗 𒾘"
+  poster_md: "𒾑 𒾒 𒾓"
+  poster_lg: "𒾐"
+}

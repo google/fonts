@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/khojki.git"
-  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.003/NotoSerifKhojki-v2.003.zip"
+  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.004/NotoSerifKhojki-v2.004.zip"
 }
 is_noto: true
 languages: "sa_Khoj"  # Sanskrit, Khojki

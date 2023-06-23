@@ -1,6 +1,7 @@
-archive: https://github.com/notofonts/hanifi-rohingya/releases/download/NotoSansHanifiRohingya-v2.101/NotoSansHanifiRohingya-v2.101.zip
+archive: https://github.com/notofonts/hanifi-rohingya/releases/download/NotoSansHanifiRohingya-v2.102/NotoSansHanifiRohingya-v2.102.zip
 branch: main
 files:
-  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  OFL.txt: OFL.txt
   NotoSansHanifiRohingya/googlefonts/variable-ttf/NotoSansHanifiRohingya[wght].ttf: NotoSansHanifiRohingya[wght].ttf

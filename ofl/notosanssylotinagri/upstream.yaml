@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/syloti-nagri/releases/download/NotoSansSylotiNagri-v2.003/NotoSansSylotiNagri-v2.003.zip
+archive: https://github.com/notofonts/syloti-nagri/releases/download/NotoSansSylotiNagri-v2.004/NotoSansSylotiNagri-v2.004.zip
 branch: main
 files:
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
   NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf: NotoSansSylotiNagri-Regular.ttf

@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "syloti-nagri"
 source {
   repository_url: "https://github.com/notofonts/syloti-nagri.git"
-  archive_url: "https://github.com/notofonts/syloti-nagri/releases/download/NotoSansSylotiNagri-v2.003/NotoSansSylotiNagri-v2.003.zip"
+  archive_url: "https://github.com/notofonts/syloti-nagri/releases/download/NotoSansSylotiNagri-v2.004/NotoSansSylotiNagri-v2.004.zip"
 }
 is_noto: true
 languages: "sa_Sylo"  # Sanskrit, Syloti Nagri

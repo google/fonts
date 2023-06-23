@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/khojki.git"
-  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSansKhojki-v2.003/NotoSansKhojki-v2.003.zip"
+  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSansKhojki-v2.004/NotoSansKhojki-v2.004.zip"
 }
 is_noto: true
 languages: "sa_Khoj"  # Sanskrit, Khojki

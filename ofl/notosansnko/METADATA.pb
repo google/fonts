@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "nko"
 source {
   repository_url: "https://github.com/notofonts/nko.git"
-  archive_url: "https://github.com/notofonts/nko/releases/download/NotoSansNKo-v2.003/NotoSansNKo-v2.003.zip"
+  archive_url: "https://github.com/notofonts/nko/releases/download/NotoSansNKo-v2.004/NotoSansNKo-v2.004.zip"
 }
 is_noto: true
 languages: "bm_Nkoo"  # Bambara, Nko

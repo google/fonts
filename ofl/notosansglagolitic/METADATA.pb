@@ -23,3 +23,4 @@ source {
 }
 is_noto: true
 languages: "cu_Glag"  # Church Slavic, Glagolitic
+primary_script: "Glag"

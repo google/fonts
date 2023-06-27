@@ -21,5 +21,14 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/symbols.git"
   archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols2-v2.007/NotoSansSymbols2-v2.007.zip"
+sample_text {
+  masthead_full: "♠🖫🙥👍"
+  masthead_partial: "🏆🡽"
+  styles: "🌍✄✎ 🏔🏕🏌🏍🎭🎮 🯅🯆🯇🯉 🡢🡭🡱🡼 🯱🯲🯳🯴🯵🯶 🂮🂱🂲🂳"
+  tester: "✷✺✻✽ ⯮⮊⮫⬈⇨🡲 ♠♣🖪🖫 🨀🨁🨂🨃🨄🨅 🗪🗮🗰 ⯞⯟⯠⬥⬦⬧ ⢈⢉⢊⢋⣋⣌⣍ ◻◼🞔🞕🞖 𐇠𐇡𐇢𐇣𐇤𐇗𐇘"
+  poster_sm: "🡢🡱🏠💻🐿👁📽"
+  poster_md: "⌚✋⯧☔🛪🏟⛅🞽🕖🚲"
+  poster_lg: "🡽🨄"
+}
 }
 is_noto: true

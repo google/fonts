@@ -27,3 +27,4 @@ source {
 }
 is_noto: true
 languages: "ku_Yezi"  # Kurdish, Yezidi
+primary_script: "Yezi"

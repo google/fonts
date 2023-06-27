@@ -18,15 +18,6 @@ subsets: "menu"
 subsets: "signwriting"
 source {
   repository_url: "https://github.com/notofonts/sign-writing.git"
-  archive_url: "https://github.com/notofonts/sign-writing/releases/download/NotoSansSignWriting-v2.004/NotoSansSignWriting-v2.004.zip"
+  archive_url: "https://github.com/notofonts/sign-writing/releases/download/NotoSansSignWriting-v2.005/NotoSansSignWriting-v2.005.zip"
 }
 is_noto: true
-sample_text {
-  masthead_full: "𝡝𝪩𝡝𝪡𝤅"
-  masthead_partial: "𝧿𝨔"
-  styles: "𝧿𝨊𝡝𝪜𝦦𝪬𝡝𝪩𝡝𝪡𝤅"
-  tester: "𝧿𝨊𝡝𝪜𝦦𝪬𝡝𝪩𝡝𝪡𝤅"
-  poster_sm: "𝧿𝨊𝡝𝪜𝦦𝪬𝡝𝪩𝡝𝪡𝤅"
-  poster_md: "𝡝𝪜𝦦𝪬"
-  poster_lg: "𝡝𝪩𝡝𝪡𝤅"
-}

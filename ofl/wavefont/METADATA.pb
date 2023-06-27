@@ -38,4 +38,13 @@ source {
   repository_url: "https://github.com/dy/wavefont"
   commit: "9eb7f500992b970bab0e695254f09e2a21801cf7"
 }
+sample_text {
+  masthead_full: "111198765432111987654432111"
+  masthead_partial: "123456789"
+  styles: "čćŜĘķŌŎļĺļġđĦŊōōĤķňŅĦĽĜėċĥĭİŐĬĝęŉŉĿħĲŁŠŀğĭōĦŚĦĠŢČ"
+  tester: "ıĐđœăĉĔĠĪĈĤīąĖńļŖĻĔćĦĭĿăŚŃĖāğŋġŀőġīĚĹĿŞĄĉŁăėŇčćŜĘķŌŎļĺļġđĦŊōōĤķňŅĦĽĜėċĥĭİŐĬĝęŉŉĿħĲŁŠŀğĭōĦŚĦĠŢČŉĦĦęğķĮĘĘńĒĬĠŁ"
+  poster_sm: "0123456789"
+  poster_md: "0123456789"
+  poster_lg: "0123456789"
+}
 minisite_url: "https://dy.github.io/wavefont/out"

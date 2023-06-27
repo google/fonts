@@ -24,3 +24,4 @@ is_noto: true
 languages: "de_Runr"  # German, Runic
 languages: "got_Runr"  # Gothic, Runic
 languages: "non_Runr"  # Old Norse
+primary_script: "Runr"

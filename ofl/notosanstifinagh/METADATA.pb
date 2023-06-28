@@ -1,5 +1,5 @@
 name: "Noto Sans Tifinagh"
-designer: "Google"
+designer: ""
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"
@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "tifinagh"
 source {
   repository_url: "https://github.com/notofonts/tifinagh.git"
-  archive_url: "https://github.com/notofonts/tifinagh/releases/download/NotoSansTifinagh-v2.005/NotoSansTifinagh-v2.005.zip"
+  archive_url: "https://github.com/notofonts/tifinagh/releases/download/NotoSansTifinagh-v2.006/NotoSansTifinagh-v2.006.zip"
 }
 is_noto: true
 languages: "ber_Tfng"  # Berber, Tifinagh

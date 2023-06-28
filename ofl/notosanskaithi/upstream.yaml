@@ -1,0 +1,7 @@
+archive: https://github.com/notofonts/kaithi/releases/download/NotoSansKaithi-v2.004/NotoSansKaithi-v2.004.zip
+branch: main
+files:
+  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  NotoSansKaithi/googlefonts/ttf/NotoSansKaithi-Regular.ttf: NotoSansKaithi-Regular.ttf

@@ -29,8 +29,8 @@ def main(args=None):
 
                 if clean_values != values:
                     if {len(set(values))} != {len(set(clean_values))}:
-                        print("before: " + " ".join(values))
-                        print("after: " + " ".join(clean_values))
+                        print("before: "+ " ".join(values))
+                        print("after: "+ " ".join(clean_values))
                         sys.exit("Failed fixing exemplar.")
                     setattr(language.exemplar_chars, attr, " ".join(clean_values))
                     changed = True

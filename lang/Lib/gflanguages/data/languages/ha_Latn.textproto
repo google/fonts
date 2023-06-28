@@ -11,7 +11,7 @@ exemplar_chars {
   base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E f F g G h H i I j J k K ƙ Ƙ l L m M n N o O r R s S {sh} {SH} t T {ts} {TS} u U w W y Y ƴ Ƴ z Z ʼ"
   auxiliary: "á Á à À â Â é É è È ê Ê í Í ì Ì î Î ó Ó ò Ò ô Ô p P q Q {r̃} {R̃} ú Ú ù Ù û Û v V x X"
   marks: "◌̃ ◌̀ ◌́ ◌̂"
-  punctuation: "- ‑ , ; : ! ? . \' ‘ ’ \" “ ” ( ) [ ] { } ′ ″"
+  punctuation: "- , ; : ! ? . \' ‘ ’ \" “ ” ( ) [ ] { }"
   index: "A B Ɓ C D Ɗ E F G H I J K Ƙ L M N O R S T U W Y Ƴ Z"
 }
 sample_text {

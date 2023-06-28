@@ -9,8 +9,8 @@ exemplar_chars {
   base: "a à b ċ d e è f ġ g {għ} h ħ i ì j k l m n o ò p q r s t u ù v w x ż z"
   auxiliary: "c y"
   marks: "◌̀ ◌̂ ◌̇"
-  numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
-  punctuation: "- ‑ , ; : ! ? . \' ‘ ’ \" “ ” ( ) [ ] { }"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- , ; : ! ? . \' ‘ ’ \" “ ” ( ) [ ] { }"
   index: "A B Ċ C D E F Ġ G {GĦ} H Ħ I {IE*} J K L M N O P Q R S T U V W X Y Ż Z"
 }
 sample_text {

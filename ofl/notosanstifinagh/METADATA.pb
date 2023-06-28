@@ -1,5 +1,5 @@
 name: "Noto Sans Tifinagh"
-designer: ""
+designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2020-11-19"

@@ -15,7 +15,7 @@ assignees: ''
 
 **Requirements:**
 
-I understand that Google Fonts will publish only fonts that matches its requirements, and I can confirm the project meets them (by ticking the cases, or putting x between the square brackets in text mode):
+I understand that Google Fonts will publish only fonts that matches [its requirements](https://googlefonts.github.io/gf-guide/), and I can confirm the project meets them (by ticking the cases, or putting x between the square brackets in text mode):
 
 - [ ] The entire font project is licensed under the [OFL](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 - [ ] There is no "Reserved Font Name" mention in the OFL license

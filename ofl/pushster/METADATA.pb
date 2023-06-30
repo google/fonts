@@ -1,5 +1,5 @@
 name: "Pushster"
-designer: "Mr Andyj"
+designer: "Sir Andyj"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2019-04-01"

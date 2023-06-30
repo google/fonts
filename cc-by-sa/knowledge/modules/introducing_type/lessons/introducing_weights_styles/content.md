@@ -53,7 +53,7 @@ Many italics—especially those found in [grotesques](/glossary/grotesque_neo_gr
 
 ![Two paragraphs of identical text, with the first set in an upright typeface and the second in its oblique form.](images/1.4.oblique.svg)
 
-Note, however, that italics and obliques are not mutually exclusive: Although less common, it’s possible for a typeface to have both italic *and* oblique forms, such as such as those in Erik Spiekermann’s FF Real.
+Note, however, that italics and obliques are not mutually exclusive: Although less common, it’s possible for a typeface to have both italic *and* oblique forms, such as those in Erik Spiekermann’s FF Real.
 
 And then we have [small caps](/glossary/small_caps): small, uppercase letterforms designed to sit alongside lowercase type. Just like italics and obliques, small caps offer an alternate form of the alphabet within the same type family.
 

@@ -25,3 +25,4 @@ languages: "aii_Brah"  # Assyrian Neo-Aramaic, Brahmi
 languages: "pi_Brah"  # Pali, Brahmi
 languages: "pka_Brah"  # Ardhamagadhi Prakrit
 languages: "sa_Brah"  # Sanskrit, Brahmi
+primary_script: "Brah"

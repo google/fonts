@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "en_Dsrt"  # English, Deseret
+primary_script: "Dsrt"

@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "gmy_Linb"  # Mycenaean Greek
 languages: "grc_Linb"  # Ancient Greek, Linear B
+primary_script: "Linb"

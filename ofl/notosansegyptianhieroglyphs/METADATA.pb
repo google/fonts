@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aii_Egyp"  # Assyrian Neo-Aramaic, Egyptian hieroglyphs
 languages: "egy_Egyp"  # Ancient Egyptian
+primary_script: "Egyp"

@@ -7,29 +7,20 @@ fonts {
   name: "Sen"
   style: "normal"
   weight: 400
-  filename: "Sen-Regular.ttf"
+  filename: "Sen[wght].ttf"
   post_script_name: "Sen-Regular"
   full_name: "Sen Regular"
-  copyright: "Copyright 2015 The Sen Project Authors (https://github.com/philatype/Sen)"
-}
-fonts {
-  name: "Sen"
-  style: "normal"
-  weight: 700
-  filename: "Sen-Bold.ttf"
-  post_script_name: "Sen-Bold"
-  full_name: "Sen Bold"
-  copyright: "Copyright 2015 The Sen Project Authors (https://github.com/philatype/Sen)"
-}
-fonts {
-  name: "Sen"
-  style: "normal"
-  weight: 800
-  filename: "Sen-ExtraBold.ttf"
-  post_script_name: "Sen-ExtraBold"
-  full_name: "Sen ExtraBold"
-  copyright: "Copyright 2015 The Sen Project Authors (https://github.com/philatype/Sen)"
+  copyright: "Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/philatype/Sen/"
+  commit: "8a0a0d7648fb466ebbab3a00b0e07046b0814727"
+}

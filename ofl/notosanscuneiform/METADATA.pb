@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "akk_Xsux"  # Akkadian
 languages: "hit_Xsux"  # Hittite
+primary_script: "Xsux"

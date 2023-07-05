@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "xld_Lydi"  # Lydian
+primary_script: "Lydi"

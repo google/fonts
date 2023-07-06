@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "sga_Ogam"  # Old Irish, Ogham
+primary_script: "Ogam"

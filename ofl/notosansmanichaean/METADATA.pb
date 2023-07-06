@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aii_Mani"  # Assyrian Neo-Aramaic, Manichaean
 languages: "xmn_Mani"  # Manichaean Middle Persian
+primary_script: "Mani"

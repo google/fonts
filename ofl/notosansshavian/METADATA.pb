@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "en_Shaw"  # English, Shavian
+primary_script: "Shaw"

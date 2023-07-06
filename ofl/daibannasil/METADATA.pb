@@ -101,3 +101,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-daibannasil"
   archive_url: "https://github.com/silnrsi/font-daibannasil/releases/download/v4.000/DaiBannaSIL-4.000.zip"
 }
+primary_script: "Talu"

@@ -155,3 +155,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-lisu-bosa"
   archive_url: "https://github.com/silnrsi/font-lisu-bosa/releases/download/v2.000/LisuBosa-2.000.zip"
 }
+primary_script: "Lisu"

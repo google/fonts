@@ -10,10 +10,17 @@ fonts {
   filename: "NotoSansMahajani-Regular.ttf"
   post_script_name: "NotoSansMahajani-Regular"
   full_name: "Noto Sans Mahajani Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mahajani)"
 }
-subsets: "menu"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "mahajani"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/mahajani.git"
+  archive_url: "https://github.com/notofonts/mahajani/releases/download/NotoSansMahajani-v2.003/NotoSansMahajani-v2.003.zip"
+}
 is_noto: true
 languages: "hi_Mahj"  # Hindi, Mahajani
 languages: "sa_Mahj"  # Sanskrit, Mahajani
+primary_script: "Mahj"

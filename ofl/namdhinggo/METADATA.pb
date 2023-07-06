@@ -56,3 +56,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-namdhinggo"
   archive_url: "https://github.com/silnrsi/font-namdhinggo/releases/download/v3.001/Namdhinggo-3.001.zip"
 }
+primary_script: "Limb"

@@ -17,5 +17,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/RosaWagner/Borel"
-  commit: "88f60465c9328cb9f83b48a0e325f1f25388aa2b"
+  commit: "f6e1e35c95b7af91a6be7294e5e9a2b38858b8bb"
 }

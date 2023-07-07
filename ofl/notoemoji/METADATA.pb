@@ -14,7 +14,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "emoji"
-foundry: "GOOGLE"
 is_noto: true
 axes {
   tag: "wght"

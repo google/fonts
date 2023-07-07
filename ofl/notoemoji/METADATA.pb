@@ -10,7 +10,7 @@ fonts {
   filename: "NotoEmoji[wght].ttf"
   post_script_name: "NotoEmoji-Regular"
   full_name: "Noto Emoji Regular"
-  [google.fonts.copyright]: "Copyright  Google Inc. All Rights Reserved."
+  copyright: "Copyright 2013, 2022 Google Inc. All Rights Reserved."
 }
 subsets: "menu"
 subsets: "emoji"

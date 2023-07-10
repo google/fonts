@@ -19,3 +19,4 @@ source {
   repository_url: "https://github.com/microsoft/ADLaM-Display"
   commit: "879176243e9f7161a8aefdab8c36a4a7318ebe15"
 }
+primary_script: "Adlm"

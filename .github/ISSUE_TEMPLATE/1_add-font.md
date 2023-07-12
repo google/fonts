@@ -28,7 +28,7 @@ By filling this issue, you can confirm the project meets the  requirements (by t
 - [ ] The repository respect the [upstream repo structure](https://googlefonts.github.io/gf-guide/upstream.html)
 - [ ] The source files are available in the repository
 - [ ] I am the author of the font, or the author agreed to this submission
-- [ ] I will respond for the additional job required on the font for publishing it and will maintain the repository
+- [ ] I will maintain the repository and participate in the onboarding process (addressing, solving, and responding to issues, merging pull requests, etc)
 
 **Image:**
 

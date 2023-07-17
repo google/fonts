@@ -1,5 +1,5 @@
 {
-    "last_run": "2023-07-10",
+    "last_run": "2023-07-17",
     "issues": [
         {
             "date": "2015-03-16",
@@ -4054,7 +4054,7 @@
         {
             "date": "2018-05-25",
             "title": "Add Objective",
-            "closed": true
+            "closed": false
         },
         {
             "date": "2018-05-25",
@@ -5929,7 +5929,7 @@
         {
             "date": "2020-02-06",
             "title": "Please add Bronova font to Google Fonts",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2020-02-10",
@@ -13414,7 +13414,7 @@
         {
             "date": "2023-05-15",
             "title": "Adinkra",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-05-19",
@@ -13840,9 +13840,47 @@
             "date": "2023-07-08",
             "title": "Add Kreadon",
             "closed": false
+        },
+        {
+            "date": "2023-07-10",
+            "title": "Download Is Corrupted at the source.",
+            "closed": false
+        },
+        {
+            "date": "2023-07-10",
+            "title": "No English language selection?",
+            "closed": false
+        },
+        {
+            "date": "2023-07-12",
+            "title": "Add Page Tittle",
+            "closed": false
+        },
+        {
+            "date": "2023-07-12",
+            "title": "Why is there still no way to download all animated emojis?",
+            "closed": false
+        },
+        {
+            "date": "2023-07-16",
+            "title": "Add Comic Relief",
+            "closed": false
+        },
+        {
+            "date": "2023-07-16",
+            "title": "Kelson",
+            "closed": false
         }
     ],
     "commits": [
+        {
+            "date": "2023-07-13T13:02:50",
+            "title": "Updating the Add template  (#6525)",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "db26f49713066df13005c1ca99f546beb3d9997e"
+        },
         {
             "date": "2023-07-07T15:13:26",
             "title": "Merge pull request #6517 from google/gftools_packager_ofl_borel",

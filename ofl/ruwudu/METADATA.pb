@@ -39,6 +39,7 @@ fonts {
   full_name: "Ruwudu Bold"
   copyright: "Copyright (c) SIL International, 2015-2023"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

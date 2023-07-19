@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "xcr_Cari"  # Carian
+primary_script: "Cari"

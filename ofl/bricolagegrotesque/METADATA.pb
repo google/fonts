@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "BricolageGrotesque[opsz,wdth,wght].ttf"
-  post_script_name: "BricolageGrotesque-48ptCondensedExtraBold"
-  full_name: "Bricolage Grotesque 48pt Condensed ExtraBold"
+  post_script_name: "BricolageGrotesque-96ptExtraBold"
+  full_name: "Bricolage Grotesque 96pt ExtraBold"
   copyright: "Copyright 2022 The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)"
 }
 subsets: "cyrillic-ext"
@@ -19,8 +19,8 @@ subsets: "menu"
 subsets: "vietnamese"
 axes {
   tag: "opsz"
-  min_value: 10.0
-  max_value: 48.0
+  min_value: 12.0
+  max_value: 96.0
 }
 axes {
   tag: "wdth"
@@ -34,5 +34,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/ateliertriay/bricolage"
-  commit: "95ddb0da9087a5f49f4616faea519e9e27d80a99"
+  commit: "84745e5b96261ae5f8c6c856e262fe78d1d6efdd"
 }

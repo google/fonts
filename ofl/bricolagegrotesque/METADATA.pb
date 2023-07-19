@@ -36,4 +36,4 @@ source {
   repository_url: "https://github.com/ateliertriay/bricolage"
   commit: "84745e5b96261ae5f8c6c856e262fe78d1d6efdd"
 }
-  minisite_url: "https://ateliertriay.github.io/bricolage/
+minisite_url: "https://ateliertriay.github.io/bricolage/"

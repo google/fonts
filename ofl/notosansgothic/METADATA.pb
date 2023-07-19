@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "got_Goth"  # Gothic
+primary_script: "Goth"

@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "hlu_Hluw"  # Hieroglyphic Luwian
+primary_script: "Hluw"

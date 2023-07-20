@@ -47,4 +47,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-ruwudu"
   archive_url: "https://github.com/silnrsi/font-ruwudu/releases/download/v3.000/Ruwudu-3.000.zip"
 }
-primary_script: "arab"
+primary_script: "Arab"

@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "grc_Cprt"  # Ancient Greek
+primary_script: "Cprt"

@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "myz_Mand"  # Mandaic
+primary_script: "Mand"

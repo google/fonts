@@ -1,6 +1,7 @@
 # New
 ofl/borel # https://github.com/google/fonts/pull/6503
 ofl/daibannasil # https://github.com/google/fonts/pull/6509
+ofl/handjet # https://github.com/google/fonts/pull/5376
 ofl/lisubosa # https://github.com/google/fonts/pull/6510
 ofl/notosansvithkuqi # https://github.com/google/fonts/pull/5393
 ofl/notoserifvithkuqi # https://github.com/google/fonts/pull/5394
@@ -11,12 +12,16 @@ ofl/bangers # https://github.com/google/fonts/pull/6421
 ofl/baskervville # https://github.com/google/fonts/pull/6482
 ofl/figtree # https://github.com/google/fonts/pull/6465
 ofl/notosans # https://github.com/google/fonts/pull/5789
+ofl/notosansanatolianhieroglyphs # https://github.com/google/fonts/pull/5276
 ofl/notosansbrahmi # https://github.com/google/fonts/pull/5258
+ofl/notosanscarian # https://github.com/google/fonts/pull/5277
 ofl/notosanscuneiform # https://github.com/google/fonts/pull/5260
 ofl/notosansdeseret # https://github.com/google/fonts/pull/5259
 ofl/notosansegyptianhieroglyphs # https://github.com/google/fonts/pull/5261
 ofl/notosansglagolitic # https://github.com/google/fonts/pull/5303
+ofl/notosansgothic # https://github.com/google/fonts/pull/5270
 ofl/notosanskaithi # https://github.com/google/fonts/pull/5302
+ofl/notosanskhudawadi # https://github.com/google/fonts/pull/5271
 ofl/notosanslineara # https://github.com/google/fonts/pull/5263
 ofl/notosanslinearb # https://github.com/google/fonts/pull/5262
 ofl/notosanslydian # https://github.com/google/fonts/pull/5264
@@ -27,10 +32,12 @@ ofl/notosansphoenician # https://github.com/google/fonts/pull/5267
 ofl/notosansrunic # https://github.com/google/fonts/pull/5304
 ofl/notosansshavian # https://github.com/google/fonts/pull/5269
 ofl/notosanssoyombo # https://github.com/google/fonts/pull/5305
+ofl/notosanstirhuta # https://github.com/google/fonts/pull/5272
 ofl/notoserifyezidi # https://github.com/google/fonts/pull/5306
 ofl/nuosusil # https://github.com/google/fonts/pull/6423
 ofl/sen # https://github.com/google/fonts/pull/6415
 ofl/signika # https://github.com/google/fonts/pull/6474
+ofl/kanit # manual addition to fix issue 6542
 
 # Designer profile
 catalog/designers/adamjagosz # https://github.com/google/fonts/pull/6511

@@ -23,3 +23,4 @@ source {
 is_noto: true
 languages: "aii_Armi"  # Assyrian Neo-Aramaic, Imperial Aramaic
 languages: "arc_Armi"  # Aramaic
+primary_script: "Armi"

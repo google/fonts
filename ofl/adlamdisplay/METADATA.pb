@@ -12,6 +12,7 @@ fonts {
   full_name: "ADLaM Display Regular"
   copyright: "Copyright (c) 2022 by Microsoft. All rights reserved."
 }
+subsets: "adlam"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

@@ -23,6 +23,10 @@ axes {
   min_value: 200.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/OswaldFont"
+  commit: "6e65651c229e897dc55fb8d17097ee7f75b2769b"
+}
 fallbacks {
   axis_target {
     tag: "wght"

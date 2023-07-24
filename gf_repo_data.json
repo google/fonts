@@ -1,5 +1,5 @@
 {
-    "last_run": "2023-07-17",
+    "last_run": "2023-07-24",
     "issues": [
         {
             "date": "2015-03-16",
@@ -12969,7 +12969,7 @@
         {
             "date": "2023-03-13",
             "title": "Upgrade Tier 1 Noto fonts (summary)",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-03-13",
@@ -13108,8 +13108,8 @@
         },
         {
             "date": "2023-03-24",
-            "title": "Add new handwriting families",
-            "closed": false
+            "title": "Add Playpen and Playpen Sans (new how-to-write families)",
+            "closed": true
         },
         {
             "date": "2023-03-24",
@@ -13424,7 +13424,7 @@
         {
             "date": "2023-05-19",
             "title": "Montserrat VF TTF name issue with Font Book & LaTeX",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-05-19",
@@ -13579,7 +13579,7 @@
         {
             "date": "2023-06-16",
             "title": "Add ADLaM Display",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-06-16",
@@ -13769,7 +13769,7 @@
         {
             "date": "2023-07-04",
             "title": "Add Namdhinggo (SIL)",
-            "closed": true
+            "closed": false
         },
         {
             "date": "2023-07-04",
@@ -13789,7 +13789,7 @@
         {
             "date": "2023-07-05",
             "title": "Update Oswald [Vernon Adams]",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-07-05",
@@ -13844,22 +13844,22 @@
         {
             "date": "2023-07-10",
             "title": "Download Is Corrupted at the source.",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-07-10",
             "title": "No English language selection?",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-07-12",
             "title": "Add Page Tittle",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-07-12",
             "title": "Why is there still no way to download all animated emojis?",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-07-16",
@@ -13869,17 +13869,552 @@
         {
             "date": "2023-07-16",
             "title": "Kelson",
+            "closed": true
+        },
+        {
+            "date": "2023-07-17",
+            "title": "Update Noto Serif CJK to address the GB18030-2022 revision",
+            "closed": false
+        },
+        {
+            "date": "2023-07-17",
+            "title": "Update Noto Sans CJK to address the GB18030-2022 revision",
+            "closed": false
+        },
+        {
+            "date": "2023-07-18",
+            "title": "Add Dreamscape",
+            "closed": true
+        },
+        {
+            "date": "2023-07-18",
+            "title": "Macron position not correct in Kanit Regular 400 weight only",
+            "closed": false
+        },
+        {
+            "date": "2023-07-18",
+            "title": "Update Tier 2 Noto Fonts (summary)",
+            "closed": false
+        },
+        {
+            "date": "2023-07-19",
+            "title": "Issue with displaying the Piazzolla font on its specimen page ",
+            "closed": false
+        },
+        {
+            "date": "2023-07-20",
+            "title": "Noto Serif SC webfont misses glyphs for U+2018 and U+2019",
+            "closed": false
+        },
+        {
+            "date": "2023-07-20",
+            "title": "Nuosu SIL - Apostrophe Space",
+            "closed": true
+        },
+        {
+            "date": "2023-07-21",
+            "title": "Issue getting Mitr and Barlow fonts",
+            "closed": false
+        },
+        {
+            "date": "2023-07-23",
+            "title": "Full List of Google Fonts",
+            "closed": false
+        },
+        {
+            "date": "2023-07-23",
+            "title": "Torus Pro Regular",
             "closed": false
         }
     ],
     "commits": [
         {
+            "date": "2023-07-21T10:54:53",
+            "title": "Merge pull request #6522 from google/gftools_packager_ofl_adlamdisplay",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "family",
+            "id": "96b2d2526ceb8bc9220b98071041d9a8e5443eab"
+        },
+        {
+            "date": "2023-07-21T10:34:56",
+            "title": "Merge pull request #6514 from google/gftools_packager_ofl_oswald",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "fcfcbf0131a62de4681e1535ce5b8302aada6d9f"
+        },
+        {
+            "date": "2023-07-21T10:29:10",
+            "title": "Adlam Display: added adlam subset",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "b09d1790e4d598479ab9ccda209407a073519970"
+        },
+        {
+            "date": "2023-07-20T14:50:50",
+            "title": "description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "d9b9162569c6819868a3d233e32a11a5bc7371f0"
+        },
+        {
+            "date": "2023-07-20T14:49:31",
+            "title": "[gftools-packager] Oswald: Version 4.103;gftools[0.9.33.dev8+g029e19f] added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "b6f0fe1740573b70ee367fbaba04b7586be85af3"
+        },
+        {
+            "date": "2023-07-20T14:38:50",
+            "title": "Merge pull request #6551 from google/tolists",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8d60aab04cc7b78aa979f83a3382182284e69dd4"
+        },
+        {
+            "date": "2023-07-20T14:29:02",
+            "title": "Added ruwudu",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0e76df7279f3af2001ebcdd802ce00e6a2279d2f"
+        },
+        {
+            "date": "2023-07-20T14:28:04",
+            "title": "Merge pull request #6549 from google/gftools_packager_ofl_ruwudu",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "97d405b9aa34e5ab048a446e8be2a8e44c08327c"
+        },
+        {
+            "date": "2023-07-20T14:27:25",
+            "title": "updated lists",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4f4cda99da93053c8b34d5f520e176064c35389a"
+        },
+        {
+            "date": "2023-07-20T14:02:16",
+            "title": "Add a cap to primary script \"Arab\"",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c8f12c6893a6dc830fdb6db25034474dbadf2e2e"
+        },
+        {
+            "date": "2023-07-20T14:01:06",
+            "title": "[gftools-packager] ",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a59edd0e76dd1dad2034662f68462431f4f42d4b"
+        },
+        {
+            "date": "2023-07-20T13:46:26",
+            "title": "Merge pull request #6548 from google/lang-v053",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "34534c83d16ab32a22b5d589bef5cdbbc3eb4eb4"
+        },
+        {
+            "date": "2023-07-20T13:19:33",
+            "title": "Merge commit '23958a0ab9a838943eaf1aee633d260afe53e696' into lang-v053",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "37e0d4173327dc46bd62e279b3f3d0f0f181cb68"
+        },
+        {
+            "date": "2023-07-20T13:04:15",
+            "title": "Merge pull request #97 from SKing-2003/main",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "23958a0ab9a838943eaf1aee633d260afe53e696"
+        },
+        {
+            "date": "2023-07-20T12:23:34",
+            "title": "Updating population statistics.",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "family",
+            "id": "02e7084804e8b73d205ec91683b77ba6858e3357"
+        },
+        {
+            "date": "2023-07-20T12:02:52",
+            "title": "Merge pull request #5284 from google/gftools_packager_ofl_notosansimperialaramaic",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "2104b9f8f90285364be693699ff64da217fc5011"
+        },
+        {
+            "date": "2023-07-20T12:01:36",
+            "title": "Merge pull request #5282 from google/gftools_packager_ofl_notosansmandaic",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "9451b651b171a241e14545ad11989c14a9b877e9"
+        },
+        {
+            "date": "2023-07-20T11:33:15",
+            "title": "Merge pull request #6484 from google/gftools_packager_ofl_robotoflex",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "85d2fb7b60878732b7e96c8ffe565747daa1259c"
+        },
+        {
+            "date": "2023-07-20T11:27:55",
+            "title": "Noto Sans Imperial Aramaic: primary script",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "edf620dbf11ddad959307946821edb177dfc7774"
+        },
+        {
+            "date": "2023-07-20T11:26:48",
+            "title": "Noto Sans Mandaic: primary script",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "3c0cadac6b6453a89a90e87b8fcd2542f376d00c"
+        },
+        {
+            "date": "2023-07-19T23:32:14",
+            "title": "Update to_sandbox.txt with pushes. (#6546)",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c56795a1aa65dab2e7c9564c63635ded1485cb7c"
+        },
+        {
+            "date": "2023-07-19T18:23:50",
+            "title": "Subtree pull Axis Registry introducing `ZROT` (#6527)",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "afd759624b89227aafa972868ce8ef6f33470347"
+        },
+        {
+            "date": "2023-07-19T14:50:41",
+            "title": "Merge pull request #6468 from google/lang-v051",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "801f8c3e7bfa4485f7da10a3385cb0e134c85ae6"
+        },
+        {
+            "date": "2023-07-19T14:38:11",
+            "title": "Merge commit '3a2e9cb91da7aaab06339cbc393a684f167d75a4' into lang-v051",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "dda4f931ee292f27d0bc9d71a20c6f667c02ea56"
+        },
+        {
+            "date": "2023-07-19T14:32:17",
+            "title": "Merge pull request #95 from googlefonts/remove-turned-comma",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "3a2e9cb91da7aaab06339cbc393a684f167d75a4"
+        },
+        {
+            "date": "2023-07-19T14:27:35",
+            "title": "Merge pull request #6544 from google/tolists",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "d488641be1643a4c522bdc5942ed5efdb5aa64fb"
+        },
+        {
+            "date": "2023-07-19T13:53:04",
+            "title": "Updated lists",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5c00501faa2ae7bbe7202225228e8db6109ed8bf"
+        },
+        {
+            "date": "2023-07-19T12:56:15",
+            "title": "Merge pull request #5272 from google/gftools_packager_ofl_notosanstirhuta",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "da32619b7536e11d8af79b8e53186748df5688ff"
+        },
+        {
+            "date": "2023-07-19T12:54:30",
+            "title": "Merge pull request #5271 from google/gftools_packager_ofl_notosanskhudawadi",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "a159ed038a1625af433e49c44d49262515f3a12d"
+        },
+        {
+            "date": "2023-07-19T12:52:44",
+            "title": "Merge pull request #5270 from google/gftools_packager_ofl_notosansgothic",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "d6bf896885b6c6deaad5078c1450abbfbee270e7"
+        },
+        {
+            "date": "2023-07-19T12:51:31",
+            "title": "Merge pull request #5277 from google/gftools_packager_ofl_notosanscarian",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "2b90da67c4259484916feb919a54cafa5760c006"
+        },
+        {
+            "date": "2023-07-19T12:50:05",
+            "title": "Merge pull request #5276 from google/gftools_packager_ofl_notosansanatolianhieroglyphs",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "baa5b3828349394ce490de6b6228bfb0897c6ef8"
+        },
+        {
+            "date": "2023-07-19T10:41:42",
+            "title": "Lepcha Examples",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "family",
+            "id": "7612423b43911e450b1efe9397cf9b1c8278c713"
+        },
+        {
+            "date": "2023-07-19T10:38:48",
+            "title": "Noto Sans Anatolian Hieroglyphs: primary script",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "c85f7ff6fd083b7d2ee8755b23e8eb00a9d95d9a"
+        },
+        {
+            "date": "2023-07-19T10:37:52",
+            "title": "Noto Sans Carian: primary script",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "d79dbe69b8fa1f265e302a83093af2facead60ba"
+        },
+        {
+            "date": "2023-07-19T10:36:58",
+            "title": "Noto Sans Tirhuta: primary script",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "a900cb559aa1bf2c477b7462d4f120f2c10b638e"
+        },
+        {
+            "date": "2023-07-19T10:36:18",
+            "title": "Noto Sans Khudawadi: primary script",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "da77078f94c3204f53a044585de328a2bd02a2c1"
+        },
+        {
+            "date": "2023-07-19T10:35:16",
+            "title": "Noto Sans Gothic: primary script",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "2103eac39c9bd3616637bca81c384c86c2cd9ad1"
+        },
+        {
+            "date": "2023-07-19T10:33:47",
+            "title": "Hindi Mahajani Examples",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ec5c39265ee9724918cc4edb9322e93247037be2"
+        },
+        {
+            "date": "2023-07-19T10:28:43",
+            "title": "Sindhi Khojki and Khudawadi",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b8195dc4734d769551b280a80496c153eae83be7"
+        },
+        {
+            "date": "2023-07-19T10:11:36",
+            "title": "Add Santali Ol Chiki Sample Text",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "family",
+            "id": "e08435a638c66e50a637a2521bd68a9f952d96e4"
+        },
+        {
+            "date": "2023-07-18T16:07:11",
+            "title": "Merge pull request #6541 from google/tolists",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "e9eea851fa26b4ca829d9c769030b73f6a42f528"
+        },
+        {
+            "date": "2023-07-18T16:00:43",
+            "title": "updated lists",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "30c2f3751297816b342d77b980f64230637bd8af"
+        },
+        {
+            "date": "2023-07-18T15:17:05",
+            "title": "Update doi_Dogr.textproto",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "family",
+            "id": "90d4757108b0a27159b1028219eb7eca87191e3c"
+        },
+        {
+            "date": "2023-07-18T15:11:08",
+            "title": "Merge pull request #6480 from google/davelab6-notoemoji",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "family",
+            "id": "43a025d3143fdef046c3ddb8d984c63f619b7105"
+        },
+        {
+            "date": "2023-07-18T15:07:48",
+            "title": "Merge pull request #6539 from google/handjet-description",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "1ee4f1a5c58730cfc4c22497ab11f1406cf7c9ef"
+        },
+        {
+            "date": "2023-07-18T14:21:28",
+            "title": "Handjet: updated description",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "d9afbc3a8ae90cb524f319dc8b74c71be9cee287"
+        },
+        {
+            "date": "2023-07-18T14:07:38",
+            "title": "Merge pull request #6538 from google/gftools_packager_ofl_ruwudu",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "22e7619df7141f2f676b7e5128dd232cde703489"
+        },
+        {
+            "date": "2023-07-18T14:04:03",
+            "title": "Merge pull request #96 from googlefonts/use-space-kaithi",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0217ccf0677728fe68b1b7bcee84d983f9104c08"
+        },
+        {
+            "date": "2023-07-18T13:59:00",
+            "title": "Replace middle dot with space",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d086869fd685aa6503ecdf239ed1e1b3caeddcf4"
+        },
+        {
+            "date": "2023-07-18T13:26:42",
+            "title": "remove comma turned above from lv ltg and prg fixes #92",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "913f71e9f2625a07fe43c29ca611ac5abcae1d3f"
+        },
+        {
+            "date": "2023-07-18T13:17:00",
+            "title": "Vithquki sample typo",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "82f5636deccffcdc4642c617310fa5f824389264"
+        },
+        {
+            "date": "2023-07-18T11:53:52",
+            "title": "updated subsets in metadata",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "519276cb557785543edbc4292e4aeb0b89300438"
+        },
+        {
+            "date": "2023-07-18T11:52:46",
+            "title": "[gftools-packager] ",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "dffcf894c2eb89e4d0d6a8f1291956613d510198"
+        },
+        {
+            "date": "2023-07-17T23:02:13",
+            "title": "Updated to_sandbox.txt file. (#6537)",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "32863220e903ed6eee88aecafc195b53a0a374df"
+        },
+        {
+            "date": "2023-07-17T16:48:54",
+            "title": "Update to_production.txt with pushed items. (#6535)",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8989cf5d25d6c89ff5d2ff5bab405538ca6c388b"
+        },
+        {
             "date": "2023-07-13T13:02:50",
             "title": "Updating the Add template  (#6525)",
             "author": "Viviana Monsalve",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "db26f49713066df13005c1ca99f546beb3d9997e"
+        },
+        {
+            "date": "2023-07-10T20:00:35",
+            "title": "Update METADATA.pb",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1373e61b33bfd83b88874def9f163535c1bf6190"
+        },
+        {
+            "date": "2023-07-10T19:48:26",
+            "title": "[gftools-packager] ADLaM Display: Version 2.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28] added",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "40699510e6bfc5b1ad881d2de31761450d91c90f"
+        },
+        {
+            "date": "2023-07-07T15:22:47",
+            "title": "Update METADATA.pb",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "632d319f4403a94832ba496af94729fa24f1b9ab"
+        },
+        {
+            "date": "2023-07-07T15:22:23",
+            "title": "Update METADATA.pb",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "family",
+            "id": "6e4367eaee4e77310a80400410826b7f99c5577d"
         },
         {
             "date": "2023-07-07T15:13:26",
@@ -14434,6 +14969,14 @@
             "id": "c39b9fc635a9069c9b1c7c4c64e7547767b19c24"
         },
         {
+            "date": "2023-06-30T14:07:44",
+            "title": "[gftools-packager] Roboto Flex: Version 3.200;gftools[0.9.32] added",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "8426394c2031cb9b07b7e4ffe6fd3953fcf9db08"
+        },
+        {
             "date": "2023-06-30T11:01:24",
             "title": "Merge pull request #6474 from google/gftools_packager_ofl_signika",
             "author": "Rosalie Wagner",
@@ -14456,6 +14999,14 @@
             "status": "modified",
             "kind": "family",
             "id": "113702a9486605ce4c59dc9f37fd174f442eee23"
+        },
+        {
+            "date": "2023-06-29T21:52:51",
+            "title": "Add Noto Emoji files",
+            "author": "Dave Crossland",
+            "status": "new",
+            "kind": "family",
+            "id": "a73b9ab0a5df191bcfed817159a903911ea7958a"
         },
         {
             "date": "2023-06-29T19:01:08",
@@ -14594,6 +15145,14 @@
             "id": "da52f73be8c735f3abacc2ee7d7bfac04195e167"
         },
         {
+            "date": "2023-06-28T12:53:57",
+            "title": "Merge commit '7237c81744f78b3cbf9999f6f2467d76b1025b3e' into lang-v051",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d1f21388a056d5d35ce8a9be915ec21aea31e4a3"
+        },
+        {
             "date": "2023-06-28T12:45:46",
             "title": "Merge pull request #5305 from google/gftools_packager_ofl_notosanssoyombo",
             "author": "Rosalie Wagner",
@@ -14608,6 +15167,206 @@
             "status": "modified",
             "kind": "family",
             "id": "7e178bbd8d4241b28e3148b25d6fcd7774bc1380"
+        },
+        {
+            "date": "2023-06-28T12:17:44",
+            "title": "Merge pull request #90 from googlefonts/vithkuqi-typo",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7237c81744f78b3cbf9999f6f2467d76b1025b3e"
+        },
+        {
+            "date": "2023-06-28T11:01:03",
+            "title": "lt_Latn: remove duplicates",
+            "author": "Denis Moyogo Jacquerye",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "06bbc263eb53cda64f033de4cebfc74e51209f18"
+        },
+        {
+            "date": "2023-06-28T11:01:03",
+            "title": "lv: fix auxiliary",
+            "author": "Denis Moyogo Jacquerye",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f1418071ba3c4630fc0ee3154cb6aa1893a6f042"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "fixup test_LoadLanguages: extra space",
+            "author": "Denis Moyogo Jacquerye",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "81ed49740a8fc7c3a690ed6be1ea53ab50d48f69"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed all double whitespace in definitions",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d87b73e6f9fdf71edd03bd0c02ae1823761e4487"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed section sign",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b107964a62e7fff917b7fe5489b2901e00bf7508"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed ij and IJ ligatures from Dutch again",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fc32eec3322a5c0908cafa4f266a5b168f2025ad"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed narrow non-breaking space",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ac4779f23aa8bd7924f8291324d9df6b346a6455"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Remove from Hungarian",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c5fbd1516b798b2935c891b0fc48062a313fae48"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed non-breaking hyphen",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c4ab39dc9b510f6b34ecdc1073d8aab94c81c1d9"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed permille and commercial minus sign",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9966a3b258df542ed11670b7edf1557417899ee4"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Remove non-breaking hyphen",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a4ad841bb4f6d2592dab7c1bee11760fc3882489"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Remove uncommon hyphen",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "26b617e8e256d4c7afe0c1b5c1f95765f44a074a"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed double prime",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "115907a5a5437b961502a3e978e5a550c68d482a"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed prime",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7d3425b6a2c12052ffc9578dddf2caa2fabb16b2"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed double dagger",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2d24568c3dd5d56e1ff8891599c1b7336b0cc3a3"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed dagger",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8f90dcac68595a9b477449536d1a32e07b1f3514"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Removed small letters and numbers from French",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1264ac17dabd50a566955f58c02ef8285ef127ac"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Added  \u017f to German",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b6f4d8d246ea5024d67205c9a7f921af4ecce08c"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Moved some uppercase letters to index",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "aad3a29741512c5a4694c7e194d21377ff1f26dd"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Added separate {\u00edj} (without stress on j)",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5314aba07f5cd91d2c1a3c31f022f5cfa7646eec"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Added encoded ij and IJ to Dutch",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "92c89d08cb24810c4ddd432ef0b17ec399efd576"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Update .gitignore",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ad66049cf4cc1e403081349579b1331ecdb5ab82"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Added \u1e9e to German and \u00df to Lower German",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5dd723fdea9069ce8d16ba4ea59c82248e780487"
+        },
+        {
+            "date": "2023-06-28T09:53:27",
+            "title": "Added 0x0312 COMBINING TURNED COMMA ABOVE to Latvian, Latgalian, Prussian",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "d14ffbd14983fc3274da5820e8c12175fd25e48f"
         },
         {
             "date": "2023-06-28T07:52:47",
@@ -14768,6 +15527,14 @@
             "status": "modified",
             "kind": "family",
             "id": "f43993923e28906a05dd8cfe87430f7d145bece0"
+        },
+        {
+            "date": "2023-06-22T13:28:59",
+            "title": "Vithquki sample typo",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "0a79dbc0a8fd705e3735d104d578300ea2cad8fd"
         },
         {
             "date": "2023-06-22T13:21:22",
@@ -23072,6 +23839,62 @@
             "status": "modified",
             "kind": "family",
             "id": "ae71993f4bb61ebb6295cace4414e6b279553a85"
+        },
+        {
+            "date": "2023-01-11T10:23:03",
+            "title": "[gftools-packager] Noto Sans Imperial Aramaic: Version 2.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "70c2f55ddfd4362c2ab497c10c992c26c7e6a387"
+        },
+        {
+            "date": "2023-01-11T10:22:36",
+            "title": "[gftools-packager] Noto Sans Mandaic: Version 2.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "5250b19f06d73978467acb234f02a71c5085ff64"
+        },
+        {
+            "date": "2023-01-11T10:21:54",
+            "title": "[gftools-packager] Noto Sans Carian: Version 2.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "bf9c9d387e00b8425bc8772656bab25969af0d9e"
+        },
+        {
+            "date": "2023-01-11T10:21:26",
+            "title": "[gftools-packager] Noto Sans Anatolian Hieroglyphs: Version 2.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "44cd4014a063106de1de27e9f04223bedceed2f5"
+        },
+        {
+            "date": "2023-01-11T10:21:12",
+            "title": "[gftools-packager] Noto Sans Tirhuta: Version 2.003; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "0b6cd615bf7c55113fe95fb3ed3bca9452917c1d"
+        },
+        {
+            "date": "2023-01-11T10:20:53",
+            "title": "[gftools-packager] Noto Sans Khudawadi: Version 2.003; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "3adbcd5ab0dd311dc8352776a4a117a77a446cba"
+        },
+        {
+            "date": "2023-01-11T10:20:38",
+            "title": "[gftools-packager] Noto Sans Gothic: Version 2.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "0423e9f6625093d00a8d2ffd829d7deb5e6b13b6"
         },
         {
             "date": "2023-01-11T10:20:09",
@@ -59589,6 +60412,668 @@
     "pushes": {
         "sandbox": [
             {
+                "path": "ofl/notosansimperialaramaic",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5284"
+            },
+            {
+                "path": "ofl/notosansmandaic",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5282"
+            },
+            {
+                "path": "ofl/robotoflex",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6484"
+            },
+            {
+                "path": "ofl/ruwudu",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6549"
+            },
+            {
+                "path": "axisregistry/z_rotation.textproto",
+                "category": "Axis Registry",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6527"
+            },
+            {
+                "path": "lang/languages/af_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/agq_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ak_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/alt_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/am_Ethi.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ar_Arab.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/as_Beng.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ast_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/az_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/az_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/bas_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/be_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/bg_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/blt_Tavt.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/bn_Beng.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/bo_Tibt.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/br_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/brx_Deva.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/bs_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/bs_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ca_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ccp_Cakm.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ce_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ceb_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/chr_Cher.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/cjs_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ckb_Arab.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/cs_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/cy_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/da_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/de_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/dje_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/doi_Deva.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/doi_Dogr.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6548"
+            },
+            {
+                "path": "lang/languages/dsb_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/dua_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/dyo_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/dz_Tibt.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ee_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/el_Grek.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/en_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/en_Shaw.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/eo_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/es_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/et_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/eu_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/evn_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ewo_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/fa_Arab.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ff_Adlm.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ff_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/fi_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/fil_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/fo_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/fr_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/fur_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/fy_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ga_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/gd_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/gl_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/gmy_Linb.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/gsw_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/gu_Gujr.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/gv_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ha_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/haw_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/he_Hebr.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/hi_Deva.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/hi_Mahj.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6548"
+            },
+            {
+                "path": "lang/languages/hr_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/hsb_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/hu_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/hy_Armn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/id_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ig_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ii_Yiii.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/is_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/it_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ja_Jpan.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/jgo_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ka_Geor.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/kab_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/kea_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/kha_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/khq_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/kjh_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/kk_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/kkj_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/kl_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/km_Khmr.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/kn_Knda.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ko_Kore.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/koi_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/kok_Deva.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ks_Arab.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ksf_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ksh_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ku_Yezi.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/ky_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/lb_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/lep_Lepc.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6548"
+            },
+            {
+                "path": "lang/languages/lkt_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6468"
+            },
+            {
+                "path": "lang/languages/sat_Olck.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6548"
+            },
+            {
+                "path": "lang/languages/sd_Khoj.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6548"
+            },
+            {
+                "path": "lang/languages/sd_Khud.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6548"
+            }
+        ],
+        "production": [
+            {
                 "path": "ofl/borel",
                 "category": "New",
                 "status": null,
@@ -59601,34 +61086,34 @@
                 "url": "https://github.com/google/fonts/pull/6509"
             },
             {
+                "path": "ofl/handjet",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5376"
+            },
+            {
                 "path": "ofl/lisubosa",
                 "category": "New",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6510"
             },
             {
-                "path": "ofl/namdhinggo",
+                "path": "ofl/notosansvithkuqi",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/6508"
+                "url": "https://github.com/google/fonts/pull/5393"
+            },
+            {
+                "path": "ofl/notoserifvithkuqi",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5394"
             },
             {
                 "path": "ofl/rem",
                 "category": "New",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6229"
-            },
-            {
-                "path": "ofl/ruwudu",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6501"
-            },
-            {
-                "path": "ofl/wavefont",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6185"
             },
             {
                 "path": "ofl/bangers",
@@ -59655,10 +61140,22 @@
                 "url": "https://github.com/google/fonts/pull/5789"
             },
             {
+                "path": "ofl/notosansanatolianhieroglyphs",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5276"
+            },
+            {
                 "path": "ofl/notosansbrahmi",
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/5258"
+            },
+            {
+                "path": "ofl/notosanscarian",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5277"
             },
             {
                 "path": "ofl/notosanscuneiform",
@@ -59685,10 +61182,22 @@
                 "url": "https://github.com/google/fonts/pull/5303"
             },
             {
+                "path": "ofl/notosansgothic",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5270"
+            },
+            {
                 "path": "ofl/notosanskaithi",
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/5302"
+            },
+            {
+                "path": "ofl/notosanskhudawadi",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5271"
             },
             {
                 "path": "ofl/notosanslineara",
@@ -59727,12 +61236,6 @@
                 "url": "https://github.com/google/fonts/pull/5268"
             },
             {
-                "path": "ofl/notosansoldhungarian",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5307"
-            },
-            {
                 "path": "ofl/notosansphoenician",
                 "category": "Upgrade",
                 "status": null,
@@ -59755,6 +61258,12 @@
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/5305"
+            },
+            {
+                "path": "ofl/notosanstirhuta",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5272"
             },
             {
                 "path": "ofl/notoserifyezidi",
@@ -59781,6 +61290,12 @@
                 "url": "https://github.com/google/fonts/pull/6474"
             },
             {
+                "path": "ofl/kanit",
+                "category": "Upgrade",
+                "status": null,
+                "url": "manual addition to fix issue 6542"
+            },
+            {
                 "path": "catalog/designers/adamjagosz",
                 "category": "Designer profile",
                 "status": null,
@@ -59793,162 +61308,10 @@
                 "url": "https://github.com/google/fonts/pull/6504"
             },
             {
-                "path": "cc-by-sa/knowledge/modules/introducing_type/lessons/introducing_weights_styles/content.md",
-                "category": "Knowledge",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6486"
-            },
-            {
                 "path": "ofl/akatab",
                 "category": "Metadata / Description / License",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6457"
-            }
-        ],
-        "production": [
-            {
-                "path": "ofl/lugrasimo",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6251"
-            },
-            {
-                "path": "ofl/lumanosimo",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6250"
-            },
-            {
-                "path": "ofl/lunasima",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6253"
-            },
-            {
-                "path": "ofl/notosanscyprominoan",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5702"
-            },
-            {
-                "path": "ofl/notosanssyriaceastern",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5740"
-            },
-            {
-                "path": "ofl/notosansvithkuqi",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5393"
-            },
-            {
-                "path": "ofl/notoserifkhitansmallscript",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5767"
-            },
-            {
-                "path": "ofl/notoserifvithkuqi",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5394"
-            },
-            {
-                "path": "ofl/tektur",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6395"
-            },
-            {
-                "path": "ofl/victormono",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6396"
-            },
-            {
-                "path": "ofl/dmsans",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6318"
-            },
-            {
-                "path": "ofl/joan",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6416"
-            },
-            {
-                "path": "ofl/notosanshatran",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5309"
-            },
-            {
-                "path": "ofl/notosansmarchen",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5310"
-            },
-            {
-                "path": "ofl/notosansolditalic",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5311"
-            },
-            {
-                "path": "ofl/notosansoldnortharabian",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5312"
-            },
-            {
-                "path": "ofl/notosansoldpermic",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5314"
-            },
-            {
-                "path": "ofl/notosansoldpersian",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5313"
-            },
-            {
-                "path": "ofl/notosansoldsoutharabian",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5315"
-            },
-            {
-                "path": "catalog/designers/danielgrumer",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6347"
-            },
-            {
-                "path": "catalog/designers/omaimadajani",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6370"
-            },
-            {
-                "path": "catalog/designers/runebjorneras",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6397"
-            },
-            {
-                "path": "lang/languages/sq_Vith.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6417"
-            },
-            {
-                "path": "lang/scripts/Vith.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6417"
             }
         ]
     }

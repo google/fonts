@@ -22,6 +22,6 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/googlefonts/teko"
+  repository_url: "https://www.github.com/googlefonts/teko"
   commit: "6715caf853f342eef57ea367b6c2991cd3928398"
 }

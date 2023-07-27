@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansIndicSiyaqNumbers-Regular.ttf"
   post_script_name: "NotoSansIndicSiyaqNumbers-Regular"
   full_name: "Noto Sans Indic Siyaq Numbers Regular"
-  copyright: "Copyright 2019 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/indic-siyaq-numbers)"
 }
-subsets: "menu"
 subsets: "indic-siyaq-numbers"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/indic-siyaq-numbers.git"
+  archive_url: "https://github.com/notofonts/indic-siyaq-numbers/releases/download/NotoSansIndicSiyaqNumbers-v2.002/NotoSansIndicSiyaqNumbers-v2.002.zip"
+}
 is_noto: true
 sample_text {
   masthead_full: "٠𞲇𞱿𞱸"

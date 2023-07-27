@@ -21,3 +21,12 @@ source {
   archive_url: "https://github.com/notofonts/indic-siyaq-numbers/releases/download/NotoSansIndicSiyaqNumbers-v2.002/NotoSansIndicSiyaqNumbers-v2.002.zip"
 }
 is_noto: true
+sample_text {
+  masthead_full: "٠𞲇𞱿𞱸"
+  masthead_partial: "ا𞲆"
+  styles: "𞲝𞲞𞲟𞲠𞲡 𞲆𞲇𞲈𞲉𞲊𞲋𞲌 𞱸𞲂𞲃𞲄𞲅 𞲘 ا٠١٢٣٤٥"
+  tester: "٦٧٨٩۰۱۲ 𞲝𞲞𞲟𞲠𞲡 𞲆𞲇𞲈𞲉𞲊𞲋𞲌 𞱱𞱲𞱳𞱴𞱵𞱶𞱷 𞲢𞲣𞲤𞲥𞲦𞲧𞲨"
+  poster_sm: "𞲘𞲆𞲇𞲈𞲞𞲟𞲠𞲡"
+  poster_md: "𞲝𞲉𞲊𞲋𞲃𞲄𞲅"
+  poster_lg: "ا٠١"
+}

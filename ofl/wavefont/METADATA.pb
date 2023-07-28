@@ -30,6 +30,14 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+registry_default_overrides {
+  key: "ROND"
+  value: 100
+}
+registry_default_overrides {
+  key: "YELA"
+  value: -100
+}
 source {
   repository_url: "https://github.com/dy/wavefont"
   commit: "20f0a856753f1ce2f3a307fe704654779888084b"

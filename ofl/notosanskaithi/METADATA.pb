@@ -22,5 +22,4 @@ source {
 }
 is_noto: true
 languages: "bho_Kthi"  # Bhojpuri, Kaithi
-languages: "sa_Kthi"  # Sanskrit, Kaithi
 primary_script: "Kthi"

@@ -26,6 +26,5 @@ source {
   archive_url: "https://github.com/notofonts/ol-chiki/releases/download/NotoSansOlChiki-v2.003/NotoSansOlChiki-v2.003.zip"
 }
 is_noto: true
-languages: "sa_Olck"  # Sanskrit, Ol Chiki
 languages: "sat_Olck"  # Santali
 primary_script: "Olck"

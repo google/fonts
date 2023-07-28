@@ -22,4 +22,3 @@ source {
 }
 primary_script: "Lepc"
 languages: "lep_Lepc"  # Lepcha
-languages: "sa_Lepc"  # Sanskrit, Lepcha

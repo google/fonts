@@ -22,5 +22,4 @@ source {
 }
 is_noto: true
 languages: "hnn_Hano"  # Hanunoo, Hanunoo
-languages: "sa_Hano"  # Sanskrit, Hanunoo
 primary_script: "Hano"

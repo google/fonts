@@ -111,7 +111,7 @@ def main():
 
         if args.render and check_type == CheckType.NEW_FAMILY:
             print(f"Rendering new family: {directory}")
-            subprocess.run(qa_cmd_prefix + ["--render", "--imgs"])
+            subprocess.run(qa_cmd_prefix + ["-gfb", "--render", "--imgs"])
 
         elif args.render and check_type == CheckType.MODIFIED_FAMILY:
             print(f"Rendering modified family: {directory}")

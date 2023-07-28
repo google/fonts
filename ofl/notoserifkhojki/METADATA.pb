@@ -26,6 +26,5 @@ source {
   archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.004/NotoSerifKhojki-v2.004.zip"
 }
 is_noto: true
-languages: "sa_Khoj"  # Sanskrit, Khojki
 languages: "sd_Khoj"  # Sindhi, Khojki
 primary_script: "Khoj"

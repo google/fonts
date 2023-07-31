@@ -1,5 +1,5 @@
 {
-    "last_run": "2023-07-24",
+    "last_run": "2023-07-31",
     "issues": [
         {
             "date": "2015-03-16",
@@ -7229,7 +7229,7 @@
         {
             "date": "2020-12-02",
             "title": "How to manage new custom Axes in Variable fonts?",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2020-12-05",
@@ -13059,7 +13059,7 @@
         {
             "date": "2023-03-21",
             "title": "Add Bricolage Grotesque",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-03-21",
@@ -13739,7 +13739,7 @@
         {
             "date": "2023-06-29",
             "title": "/ofl/notoemoji is missing",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-06-29",
@@ -13919,15 +13919,496 @@
         {
             "date": "2023-07-23",
             "title": "Full List of Google Fonts",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-07-23",
             "title": "Torus Pro Regular",
+            "closed": true
+        },
+        {
+            "date": "2023-07-25",
+            "title": "Issue on font \"Black Han Sans\"",
+            "closed": false
+        },
+        {
+            "date": "2023-07-27",
+            "title": "Problem with the kerning of the font Inter greek. ",
+            "closed": false
+        },
+        {
+            "date": "2023-07-28",
+            "title": "Update Noto Emoji BW for Unicode 15.1 release",
+            "closed": false
+        },
+        {
+            "date": "2023-07-28",
+            "title": "Add Sector",
+            "closed": false
+        },
+        {
+            "date": "2023-07-28",
+            "title": "Londrina Solid Font",
             "closed": false
         }
     ],
     "commits": [
+        {
+            "date": "2023-07-28T16:31:39",
+            "title": "Merge pull request #6579 from google/to_lists",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "25eaecbae770620f7df306d61f3e400b0caf0562"
+        },
+        {
+            "date": "2023-07-28T16:23:58",
+            "title": "updated to_lists",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5f0cd29f8f7575a8ce1fd6f16915c007898aa8dd"
+        },
+        {
+            "date": "2023-07-28T15:59:40",
+            "title": "Merge pull request #6574 from google/remove-sa-languages",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3850d836e3e4c5e2f29b9f174f3b96abd5d7fd32"
+        },
+        {
+            "date": "2023-07-28T15:59:20",
+            "title": "Merge pull request #6576 from google/dogra-lang",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b9dd40beb52a64d49438980691bdef54e4fe5f47"
+        },
+        {
+            "date": "2023-07-28T15:59:04",
+            "title": "Merge pull request #6575 from google/hanunoo-lang",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "714cf1d24231dfdc0523409281f916b8844803b1"
+        },
+        {
+            "date": "2023-07-28T15:13:12",
+            "title": "Remove Sanskrit sample text from Dogra",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "92a2320a27d452715e18b3006fb38ed76be4cb70"
+        },
+        {
+            "date": "2023-07-28T15:12:07",
+            "title": "Remove Sanskrit sample from Hanunoo",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "46ed2d039f06a2bd0fb7530ad82888f52e657ccf"
+        },
+        {
+            "date": "2023-07-28T14:58:43",
+            "title": "Merge pull request #6572 from google/gftools_packager_ofl_wavefont",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "3d0af93d46626d13e73686ab5c74318947ac71d4"
+        },
+        {
+            "date": "2023-07-28T14:49:22",
+            "title": "Merge pull request #6409 from google/gftools_packager_ofl_notosanstakri",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "5ddc5cf91c6e0b2e3558254e883b9cb97d6c910e"
+        },
+        {
+            "date": "2023-07-28T14:45:46",
+            "title": "Merge pull request #6427 from google/gftools_packager_ofl_notosanskhojki",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "aa834c259c3c3bf7bf77d39427861eece47e2d6a"
+        },
+        {
+            "date": "2023-07-28T14:45:30",
+            "title": "Merge pull request #6426 from google/gftools_packager_ofl_notoserifkhojki",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "e7c1d7954b1a177942b5a75f2dd3e45fbf3ca148"
+        },
+        {
+            "date": "2023-07-28T14:18:26",
+            "title": "Merge remote-tracking branch 'upstream/main' into remove-sa-languages",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1c944321f95962cc0f356b552666ee27a5ed6bba"
+        },
+        {
+            "date": "2023-07-28T14:13:47",
+            "title": "Merge pull request #6573 from google/lang-v054",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "80a8c2839617a2c32302cfcdf034b08d0cd35284"
+        },
+        {
+            "date": "2023-07-28T13:56:50",
+            "title": "REmoved fake sanskrit from METADATA.pb",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "9820e120432355412e9679520d438a6146a6b65b"
+        },
+        {
+            "date": "2023-07-28T13:50:21",
+            "title": "Noto Sans Takri: removed sa_Takr",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "52dceec05d311b55c0603e5ad0df652f8d99ce1e"
+        },
+        {
+            "date": "2023-07-28T13:41:19",
+            "title": "Noto Serif Khojki: removed sa_Khoj",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "51b69447a45ead2b0f0f98ba25a3ec578d543c8e"
+        },
+        {
+            "date": "2023-07-28T13:37:47",
+            "title": "Noto Sans Khojki: removed sa_Khoj",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "4d207e4a19231761386ad572385e984e28a6b655"
+        },
+        {
+            "date": "2023-07-28T13:10:59",
+            "title": "Merge commit 'b5e33c61f333ece9314ae4461dcb86cccdbbf66d' into lang-v054",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "5a2654c60c7a5ea53cb7e01da9fb6a1e29ab6d35"
+        },
+        {
+            "date": "2023-07-28T12:53:25",
+            "title": "Merge remote-tracking branch 'upstream/gftools_packager_ofl_wavefont' into gftools_packager_ofl_wavefont",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "ab3c34dac5405b0de6b48b4803fe7571bd282e42"
+        },
+        {
+            "date": "2023-07-28T12:52:30",
+            "title": "Wavefont: reinstanted sample test attempt 2",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "034aabc2e68bcc7fba78ff261d85f506a2c8e82e"
+        },
+        {
+            "date": "2023-07-28T12:40:16",
+            "title": "Wavefont: re-instated sample text ans minisite URL",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "73e4a1b26b3a388361aca38a2a8efd0fd6faab57"
+        },
+        {
+            "date": "2023-07-28T12:37:14",
+            "title": "Wavefont: axis registry overrides",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b65a52b60347584756a8e8f3d0af2a74cf1798e3"
+        },
+        {
+            "date": "2023-07-28T12:34:24",
+            "title": "[gftools-packager] Wavefont: Version 3.004;gftools[0.9.33] added",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "29b37dc5df9a5ea60b8c4078c5967631c4f5c7ff"
+        },
+        {
+            "date": "2023-07-28T12:29:05",
+            "title": "Merge pull request #99 from googlefonts/remove-pseudo-sanskrit",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b5e33c61f333ece9314ae4461dcb86cccdbbf66d"
+        },
+        {
+            "date": "2023-07-28T12:09:34",
+            "title": "Merge pull request #98 from SKing-2003/main",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "1d2743c0536aa71bccb4b9f7cfc0eb9a1f38220e"
+        },
+        {
+            "date": "2023-07-28T12:08:33",
+            "title": "Merge pull request #6554 from google/ZROT-fallbackonly",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "289de8955b911b2120d9730452ed268bb43bdfe9"
+        },
+        {
+            "date": "2023-07-28T11:38:10",
+            "title": "Merge pull request #6571 from google/ci-render",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "65608d8251bc15ac80eea083ce88606b7310d92f"
+        },
+        {
+            "date": "2023-07-28T11:29:09",
+            "title": "ci: check if family exists on Google Fonts when running --render",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8da017019aaa8780d56ef3b181e24267503819d3"
+        },
+        {
+            "date": "2023-07-28T00:42:48",
+            "title": "Update to_delist.txt (#6567)",
+            "author": "Nathan Williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ad55a94d98a984ae0a90dd9ecfb63f33ffa1529f"
+        },
+        {
+            "date": "2023-07-27T16:52:00",
+            "title": "Merge pull request #6562 from shailenpatel2/update-gulzar-article",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "69ddc9bbb2656539a4978644e9e5ac8ba63be2d7"
+        },
+        {
+            "date": "2023-07-27T12:03:05",
+            "title": "Merge pull request #5287 from google/gftools_packager_ofl_notosanslycian",
+            "author": "Rosalie Wagner",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "21ee5c7df0a189201805a0d0e12747fc916688c6"
+        },
+        {
+            "date": "2023-07-27T11:40:16",
+            "title": "[gftools-packager] Noto Sans Lycian: Version 2.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "ce5d3e4e64912879f26d1ae79825047e737752ff"
+        },
+        {
+            "date": "2023-07-27T11:24:06",
+            "title": "Remove Sanskrit text now we have real text",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "58185593a39e8c1863f24219650a56e747fea1b4"
+        },
+        {
+            "date": "2023-07-27T10:44:37",
+            "title": "Merge pull request #5285 from google/gftools_packager_ofl_notosansindicsiyaqnumbers",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "fd11d265e66752d4fb460d4a360c8556aaaed686"
+        },
+        {
+            "date": "2023-07-27T10:43:02",
+            "title": "Merge pull request #5288 from google/gftools_packager_ofl_notosansmayannumerals",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "e945114d6f43296fdd3926c6f9692aceb79b23ec"
+        },
+        {
+            "date": "2023-07-27T09:49:33",
+            "title": "Merge pull request #5286 from google/gftools_packager_ofl_notosansinscriptionalpahlavi",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "524cc10c5274a7a109d1ef37ac07edf42211ac9e"
+        },
+        {
+            "date": "2023-07-27T09:44:21",
+            "title": "Noto Sans Indic Siyaq Numbers: reinstated sample text",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "50ffd11fe0e3a7a089f0325fe58a93f903a7287c"
+        },
+        {
+            "date": "2023-07-27T09:36:47",
+            "title": "Noto Sans Mayan Numerals: reinstated sample text",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "4ed7cd33c417a751e50109ce61b8d345362d8016"
+        },
+        {
+            "date": "2023-07-27T09:27:34",
+            "title": "Noto Sans Inscriptional Pahlavi: primary script",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "3e55d260e57a5b4555879429b72ec41fe573876e"
+        },
+        {
+            "date": "2023-07-27T09:24:24",
+            "title": "Merge pull request #6523 from google/gftools_packager_ofl_bricolagegrotesque",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "796250a009a56d0542f98b3b00b123f5add41cab"
+        },
+        {
+            "date": "2023-07-26T21:56:22",
+            "title": "Remove remaining references to sd_Sind (#6563)",
+            "author": "Nathan Williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "30184bd9a2683b93d085a468351bcd45bd186586"
+        },
+        {
+            "date": "2023-07-26T20:39:56",
+            "title": "update Gulzar article",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "family",
+            "id": "46dd229dd35e157dcefeb628615a54434d91cbf0"
+        },
+        {
+            "date": "2023-07-26T14:00:52",
+            "title": "Buhid, Buhid",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "family",
+            "id": "f550e9df025b20f939c48cf0bb3c87e4c2a2976c"
+        },
+        {
+            "date": "2023-07-26T13:58:34",
+            "title": "Merge pull request #6560 from google/gftools_packager_ofl_teko",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "270c7019c4f88f09ce1fcff1540410ebbac57046"
+        },
+        {
+            "date": "2023-07-26T13:36:20",
+            "title": "wip chromediver pin",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "4bfe86f60b84620dc34610a10997b2727c3ecbce"
+        },
+        {
+            "date": "2023-07-26T13:22:28",
+            "title": "Update bho_Kthi.textproto",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ed82e068821fad8a70a2e04651bbe7b4c790e677"
+        },
+        {
+            "date": "2023-07-26T13:10:36",
+            "title": "Batak Toba, Batak",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "family",
+            "id": "869721cf25e82f7e34f3b262dc896f9e59fa6195"
+        },
+        {
+            "date": "2023-07-26T09:45:29",
+            "title": "update metadata",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "31521648909ab679fcebb33f5e3a6509adca48a2"
+        },
+        {
+            "date": "2023-07-25T13:49:26",
+            "title": "[gftools-packager] Teko: Version 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707] added",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "5a4e6a81aad60ed70e591092ffac7fb30cfa4cfb"
+        },
+        {
+            "date": "2023-07-24T18:31:55",
+            "title": "Update to_production.txt (#6558)",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0fb293bc72b8989beb931c1cc8d528e6597a820a"
+        },
+        {
+            "date": "2023-07-24T17:39:34",
+            "title": "Update to_sandbox.txt. (#6557)",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "family",
+            "id": "918990e4b7c9000d92302e6c87c28c5c58aab9dd"
+        },
+        {
+            "date": "2023-07-24T13:42:49",
+            "title": "Bhojpuri, Kaithi Samples",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5913a41da5455a1be96d42789e4ae350ca1a118c"
+        },
+        {
+            "date": "2023-07-24T11:44:16",
+            "title": "Avestan Fix",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3f9cbec7ab787789d7eaa2d4d2417bf2f25ab4c4"
+        },
+        {
+            "date": "2023-07-24T11:42:05",
+            "title": "Avestan Text Samples",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "family",
+            "id": "1a1af17cdcbc556270ceb3b47c6d94e142a50185"
+        },
+        {
+            "date": "2023-07-21T22:20:46",
+            "title": "ZROT updated with fallback-only",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "e5c95c2fe0ceebc3e757b82deeebda7704af738e"
+        },
+        {
+            "date": "2023-07-21T14:32:50",
+            "title": "Hanunoo Sample Texts",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "43884bddb46b9e5406e08f74125a5615924fef02"
+        },
+        {
+            "date": "2023-07-21T12:55:21",
+            "title": "Saurashtra Sample Text",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "family",
+            "id": "5ece22fb547115a3b41cd96ee0624ab828a3c608"
+        },
         {
             "date": "2023-07-21T10:54:53",
             "title": "Merge pull request #6522 from google/gftools_packager_ofl_adlamdisplay",
@@ -13951,6 +14432,38 @@
             "status": "modified",
             "kind": "family",
             "id": "b09d1790e4d598479ab9ccda209407a073519970"
+        },
+        {
+            "date": "2023-07-20T19:00:01",
+            "title": "Merge pull request #140 from googlefonts/chrissimpkins-zrot-edit",
+            "author": "Chris Simpkins",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "781ab8463b0bf038436588eda2b17197229d75ab"
+        },
+        {
+            "date": "2023-07-20T18:58:20",
+            "title": "Update z_rotation.textproto with fallback_only field",
+            "author": "Chris Simpkins",
+            "status": "modified",
+            "kind": "family",
+            "id": "798b64a3d512c9b618b46e5d1f8ba31c6801f962"
+        },
+        {
+            "date": "2023-07-20T16:09:58",
+            "title": "Update doi_Takr.textproto",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0f34e109db81b71035c2e16ae161511430d29b83"
+        },
+        {
+            "date": "2023-07-20T16:07:46",
+            "title": "Sample Text for Dogri, Takri",
+            "author": "Ffion King",
+            "status": "modified",
+            "kind": "family",
+            "id": "d5f24f9e4958043b531b1ed24dd2f8a37f2dec46"
         },
         {
             "date": "2023-07-20T14:50:50",
@@ -14089,6 +14602,22 @@
             "id": "3c0cadac6b6453a89a90e87b8fcd2542f376d00c"
         },
         {
+            "date": "2023-07-20T10:21:29",
+            "title": "Bricolage Grotesque: Update DESCRIPTION.en_us.html",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "110790b58f0ab4acc0c9a5d07db0d1ee2e60a42e"
+        },
+        {
+            "date": "2023-07-20T08:22:25",
+            "title": "Added Mayenne in description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "2157e9fdbca593b4d8edd5a62f645c04cc755276"
+        },
+        {
             "date": "2023-07-19T23:32:14",
             "title": "Update to_sandbox.txt with pushes. (#6546)",
             "author": "Garret Rieger",
@@ -14141,8 +14670,16 @@
             "title": "Updated lists",
             "author": "Rosalie Wagner",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "5c00501faa2ae7bbe7202225228e8db6109ed8bf"
+        },
+        {
+            "date": "2023-07-19T13:24:49",
+            "title": "Bricolage Grotesque: remove / at the end of URL",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "5155a1f465166f5727ee9877808ed96c7d71b3d5"
         },
         {
             "date": "2023-07-19T12:56:15",
@@ -14245,8 +14782,16 @@
             "title": "Sindhi Khojki and Khudawadi",
             "author": "Ffion King",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "b8195dc4734d769551b280a80496c153eae83be7"
+        },
+        {
+            "date": "2023-07-19T10:11:43",
+            "title": "corrected metadata",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "bb42ec1bf53ad5f8cb7ba8296205311f819f37f9"
         },
         {
             "date": "2023-07-19T10:11:36",
@@ -14255,6 +14800,30 @@
             "status": "modified",
             "kind": "family",
             "id": "e08435a638c66e50a637a2521bd68a9f952d96e4"
+        },
+        {
+            "date": "2023-07-19T10:10:22",
+            "title": "corrected metadata",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c300561db1c786557936c5664cbbf3da4ca20ce3"
+        },
+        {
+            "date": "2023-07-19T10:06:40",
+            "title": "Added minisite url in metadata",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7b61b0545ea664a6d9c75340d4cf773c5678d155"
+        },
+        {
+            "date": "2023-07-19T10:01:30",
+            "title": "[gftools-packager] Bricolage Grotesque: Version 1.001;gftools[0.9.33.dev8+g029e19f] added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "b9f6c712059d72742282ebdf06eadfc264c827f3"
         },
         {
             "date": "2023-07-18T16:07:11",
@@ -14373,8 +14942,16 @@
             "title": "Update to_production.txt with pushed items. (#6535)",
             "author": "Garret Rieger",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "8989cf5d25d6c89ff5d2ff5bab405538ca6c388b"
+        },
+        {
+            "date": "2023-07-13T13:36:13",
+            "title": "Merge pull request #137 from googlefonts/ZROT",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "643773c96d48a155f9edc16ab5bd83f156cceed6"
         },
         {
             "date": "2023-07-13T13:02:50",
@@ -14895,6 +15472,22 @@
             "status": "modified",
             "kind": "family",
             "id": "ca6538cc621c87ea374fde4f897b660fb7e4f839"
+        },
+        {
+            "date": "2023-07-04T16:39:16",
+            "title": "updating metadata values with agreed values",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d2980e0e289d58178e72560d89d6589aae8cfb4f"
+        },
+        {
+            "date": "2023-07-04T16:31:27",
+            "title": "ZROT custom axis added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "be665dc36f65a20b6fb1b2fda6e97d35f0cf4fb5"
         },
         {
             "date": "2023-07-04T08:56:46",
@@ -15505,6 +16098,22 @@
             "id": "653d2e47e4419fabf07ef176aa05520b75a4a3de"
         },
         {
+            "date": "2023-06-23T07:38:32",
+            "title": "[gftools-packager] Noto Sans Khojki: Version 2.004; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "8f0a0f5edf43e56935bb85e916f0323aeb5e1ecb"
+        },
+        {
+            "date": "2023-06-23T07:36:29",
+            "title": "[gftools-packager] Noto Serif Khojki: Version 2.004 added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "aacb2d5ed887f8fc86a889b8bed09f77473c503c"
+        },
+        {
             "date": "2023-06-22T21:56:17",
             "title": "Update to_production.txt (#6425)",
             "author": "nyshadhr9",
@@ -15828,9 +16437,17 @@
             "date": "2023-06-22T09:00:45",
             "title": "Merge pull request #6378 from google/gftools_packager_ofl_bricolagegrotesque",
             "author": "Rosalie Wagner",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "1f8380f99a0ee310ab50e867e0586c345c09aa65"
+        },
+        {
+            "date": "2023-06-21T20:50:14",
+            "title": "[gftools-packager] Noto Sans Takri: Version 2.004; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "c3a2a5e6258becf8bb808ee4437fd527a0c00408"
         },
         {
             "date": "2023-06-21T13:11:34",
@@ -23839,6 +24456,30 @@
             "status": "modified",
             "kind": "family",
             "id": "ae71993f4bb61ebb6295cace4414e6b279553a85"
+        },
+        {
+            "date": "2023-01-11T10:24:04",
+            "title": "[gftools-packager] Noto Sans Mayan Numerals: Version 2.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "f6b73ff0b361d674f0701befb7f29d6d4a77591c"
+        },
+        {
+            "date": "2023-01-11T10:23:33",
+            "title": "[gftools-packager] Noto Sans Inscriptional Pahlavi: Version 2.003; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "f0f3f8a07735af1d709dc87f995e99b85fceffde"
+        },
+        {
+            "date": "2023-01-11T10:23:16",
+            "title": "[gftools-packager] Noto Sans Indic Siyaq Numbers: Version 2.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "27d48cccb67bf041d338253cc12ea00c1e76353c"
         },
         {
             "date": "2023-01-11T10:23:03",
@@ -60412,6 +61053,218 @@
     "pushes": {
         "sandbox": [
             {
+                "path": "ofl/adlamdisplay",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6522"
+            },
+            {
+                "path": "ofl/bricolagegrotesque",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6523"
+            },
+            {
+                "path": "ofl/notosansindicsiyaqnumbers",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5285"
+            },
+            {
+                "path": "ofl/notosansinscriptionalpahlavi",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5286"
+            },
+            {
+                "path": "ofl/notosanskhojki",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6427"
+            },
+            {
+                "path": "ofl/notosanslycian",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5287"
+            },
+            {
+                "path": "ofl/notosansmayannumerals",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5288"
+            },
+            {
+                "path": "ofl/notosanstakri",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6409"
+            },
+            {
+                "path": "ofl/notoserifkhojki",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6426"
+            },
+            {
+                "path": "ofl/oswald",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6514"
+            },
+            {
+                "path": "ofl/teko",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6560"
+            },
+            {
+                "path": "ofl/wavefont",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6572"
+            },
+            {
+                "path": "axisregistry/z_rotation.textproto",
+                "category": "Axis Registry",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6554"
+            },
+            {
+                "path": "ofl/gulzar",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6562"
+            },
+            {
+                "path": "ofl/mingzat",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6574"
+            },
+            {
+                "path": "ofl/notosansavestan",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6574"
+            },
+            {
+                "path": "ofl/notosansbatak",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6574"
+            },
+            {
+                "path": "ofl/notosansbuhid",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6574"
+            },
+            {
+                "path": "ofl/notosanshanunoo",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6575"
+            },
+            {
+                "path": "ofl/notosanskaithi",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6574"
+            },
+            {
+                "path": "ofl/notosanskhudawadi",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6563"
+            },
+            {
+                "path": "ofl/notosanslepcha",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6574"
+            },
+            {
+                "path": "ofl/notosansmahajani",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6574"
+            },
+            {
+                "path": "ofl/notosansolchiki",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6574"
+            },
+            {
+                "path": "ofl/notosanssaurashtra",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6574"
+            },
+            {
+                "path": "ofl/notoserifdogra",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6576"
+            },
+            {
+                "path": "lang/languages/ae_Avst.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/bbc_Batk.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/bho_Kthi.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/bku_Buhd.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/doi_Takr.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/hnn_Hano.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/saz_Saur.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            }
+        ],
+        "production": [
+            {
+                "path": "ofl/ruwudu",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6549"
+            },
+            {
+                "path": "ofl/notosans",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5789"
+            },
+            {
                 "path": "ofl/notosansimperialaramaic",
                 "category": "Upgrade",
                 "status": null,
@@ -60428,18 +61281,6 @@
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6484"
-            },
-            {
-                "path": "ofl/ruwudu",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6549"
-            },
-            {
-                "path": "axisregistry/z_rotation.textproto",
-                "category": "Axis Registry",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6527"
             },
             {
                 "path": "lang/languages/af_Latn.textproto",
@@ -61070,248 +61911,6 @@
                 "category": "Sample texts",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6548"
-            }
-        ],
-        "production": [
-            {
-                "path": "ofl/borel",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6503"
-            },
-            {
-                "path": "ofl/daibannasil",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6509"
-            },
-            {
-                "path": "ofl/handjet",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5376"
-            },
-            {
-                "path": "ofl/lisubosa",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6510"
-            },
-            {
-                "path": "ofl/notosansvithkuqi",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5393"
-            },
-            {
-                "path": "ofl/notoserifvithkuqi",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5394"
-            },
-            {
-                "path": "ofl/rem",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6229"
-            },
-            {
-                "path": "ofl/bangers",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6421"
-            },
-            {
-                "path": "ofl/baskervville",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6482"
-            },
-            {
-                "path": "ofl/figtree",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6465"
-            },
-            {
-                "path": "ofl/notosans",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5789"
-            },
-            {
-                "path": "ofl/notosansanatolianhieroglyphs",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5276"
-            },
-            {
-                "path": "ofl/notosansbrahmi",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5258"
-            },
-            {
-                "path": "ofl/notosanscarian",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5277"
-            },
-            {
-                "path": "ofl/notosanscuneiform",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5260"
-            },
-            {
-                "path": "ofl/notosansdeseret",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5259"
-            },
-            {
-                "path": "ofl/notosansegyptianhieroglyphs",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5261"
-            },
-            {
-                "path": "ofl/notosansglagolitic",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5303"
-            },
-            {
-                "path": "ofl/notosansgothic",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5270"
-            },
-            {
-                "path": "ofl/notosanskaithi",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5302"
-            },
-            {
-                "path": "ofl/notosanskhudawadi",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5271"
-            },
-            {
-                "path": "ofl/notosanslineara",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5263"
-            },
-            {
-                "path": "ofl/notosanslinearb",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5262"
-            },
-            {
-                "path": "ofl/notosanslydian",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5264"
-            },
-            {
-                "path": "ofl/notosansmahajani",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5265"
-            },
-            {
-                "path": "ofl/notosansmanichaean",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5266"
-            },
-            {
-                "path": "ofl/notosansogham",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5268"
-            },
-            {
-                "path": "ofl/notosansphoenician",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5267"
-            },
-            {
-                "path": "ofl/notosansrunic",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5304"
-            },
-            {
-                "path": "ofl/notosansshavian",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5269"
-            },
-            {
-                "path": "ofl/notosanssoyombo",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5305"
-            },
-            {
-                "path": "ofl/notosanstirhuta",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5272"
-            },
-            {
-                "path": "ofl/notoserifyezidi",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5306"
-            },
-            {
-                "path": "ofl/nuosusil",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6423"
-            },
-            {
-                "path": "ofl/sen",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6415"
-            },
-            {
-                "path": "ofl/signika",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6474"
-            },
-            {
-                "path": "ofl/kanit",
-                "category": "Upgrade",
-                "status": null,
-                "url": "manual addition to fix issue 6542"
-            },
-            {
-                "path": "catalog/designers/adamjagosz",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6511"
-            },
-            {
-                "path": "catalog/designers/rosaliewagner",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6504"
-            },
-            {
-                "path": "ofl/akatab",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6457"
             }
         ]
     }

@@ -1,5 +1,7 @@
-archive: https://github.com/notofonts/ottoman-siyaq-numbers/releases/download/NotoSerifOttomanSiyaq-v1.005/NotoSerifOttomanSiyaq-v1.005.zip
+archive: https://github.com/notofonts/ottoman-siyaq-numbers/releases/download/NotoSerifOttomanSiyaq-v1.006/NotoSerifOttomanSiyaq-v1.006.zip
 branch: main
 files:
   OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   NotoSerifOttomanSiyaq/googlefonts/ttf/NotoSerifOttomanSiyaq-Regular.ttf: NotoSerifOttomanSiyaq-Regular.ttf

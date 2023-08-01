@@ -8,7 +8,7 @@ fallback {
   name: "Default"
   value: 10.0
 }
-fallback_olny: false
+fallback_only: false
 description: 
   " Resolution-specific enhancements in AR/VR typefaces to optimize"
   " rendering across the different resolutions of the headsets"

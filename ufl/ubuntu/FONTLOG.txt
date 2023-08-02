@@ -21,10 +21,27 @@ History
 The Ubuntu Font Family has been creating during 2010 and 2011.  As of
 September 2011 coverage is provided for Latin, Cyrillic and Greek across
 Regular, Italic, Bold and Bold-Italic.  Further work was uptaken during
-2015.
+2015, as well as in 2022–2023.
 
 
 ChangeLog
+
+2023-08-02 (Type Network, DJR, Dual Type) Ubuntu Font Family version 1.001
+
+  Note: This release culminates the family’s significant expansion 
+  and conversion to variable fonts during 2022–2023. Significant 
+  changes include:
+  * Variable Weight (wght) and Width (wdth) axes
+  * Regular (400) weight made lighter, and other weights shifted
+  * Condensed variants added for all Proportional styles
+  * Small caps added for upright Proportional styles
+  * Oldstyle figures added
+  * Monospace rescaled to match proportional fonts
+  * Monospace Thin added (upright only)
+  * Vertical metrics reset to meet with Fontbakery standards
+  * Sources converted to UFO format with human-readable glyph names
+  * Automated build process using gftools builder
+
 
 2015-08-21 (Paul Sladen) Ubuntu Font Family version 0.83
 
@@ -183,9 +200,18 @@ D: Arabic testing
 N: Cody Boisclair
 D: Monospace low-level debugging and patching ('fixboxdrawing-ft.py')
 
+N: Maria Glenda Bellarosa
+W: http://typenetwork.com/
+D: Quality assurance, 2022-2023 expansion
+
 N: Amélie Bonet
 W: http://ameliebonet.com/
 D: Type design with Dalton Maag, particularly Ubuntu Mono and Ubuntu Condensed
+
+N: Zrinka Buljubašić
+W: http://dualtype.design
+D: Type design for 2022–2023 expansion (new Condensed weights, 
+   Monospace Thin, Small Caps, and Old Style Figures)
 
 N: Jason Campbell
 W: http://www.campbellgraphics.com/design/fonts.shtml
@@ -221,6 +247,10 @@ D: font.ubuntu.com revamp implementation with Canonical Web Team
 N: Iain Farrell
 W: http://www.flickr.com/photos/iain
 D: Ubuntu Font Family delivery for the Ubuntu UX team at Canonical
+
+N: Guido Ferreyra
+W: http://typenetwork.com
+D: Font engineering, creation of automated build process in 2022–2023
 
 N: Marc Foley
 W: http://www.marcfoley.co/
@@ -258,11 +288,24 @@ N: Lukas Paltram
 W: http://www.daltonmaag.com/
 D: Type design with Dalton Maag
 
+N: Lyubomir Popov
+W: http://www.canonical.com
+D: Lead visual designer, 2022–2023 expansion
+
+N: Gen Ramirez
+W: http://dualtype.design
+D: type design for 2022–2023 expansion (new Condensed weights, 
+   Monospace Thin, Small Caps, and Old Style Figures)
+
 N: Júlio Reis
 D: Date fixes to the documentation
 
 N: Rodrigo Rivas
 D: Indian Rupee Sign glyph
+
+N: David Jonathan Ross (DJR)
+W: http://djr.com
+D: Variable font compatibility, type design and production for 2022–2023 expansion
 
 N: Mark Shuttleworth
 E: mark@ubuntu.com
@@ -279,12 +322,25 @@ W: http://planet.open-fonts.org
 D: Continuous guidance on libre/open font licensing, best practises in source
    tree layout, release and packaging (pkg-fonts Debian team)
 
+N: Dyana Weissman
+W: http://typenetwork.com
+D: Project manager, 2022–2023 expansion
+
 N: Kenneth Wimer
 D: Initial PPA packaging
+
+N: Ege Zeytun
+W: http://canonical.com
+D: Project manager, 2022–2023 expansion
 
 * Canonical Ltd is the primary commercial sponsor of the Ubuntu and
   Kubuntu operating systems
 * Dalton Maag are a custom type foundry headed by Bruno Maag
+* Type Network is a growing alliance of independent type designers 
+  and foundries
+* DJR is a typeface designer based in Western Massachusetts
+* DualType is a Mexican–Croatian studio tailoring type, 
+  editorial, branding and digital design
 
 For further documentation, information on contributors, source code
 downloads and those involved with the Ubuntu Font Family, visit:

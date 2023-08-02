@@ -1,6 +1,6 @@
 name: "Roboto Condensed"
 designer: "Christian Robertson"
-license: "APACHE2"
+license: "OFL"
 category: "SANS_SERIF"
 date_added: "2023-07-28"
 fonts {

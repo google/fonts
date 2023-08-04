@@ -2,6 +2,7 @@
 ofl/ruwudu # https://github.com/google/fonts/pull/6549
 
 # Upgrade
+ofl/bricolagegrotesque # https://github.com/google/fonts/pull/6523
 ofl/notosans # https://github.com/google/fonts/pull/5789
 ofl/notosansimperialaramaic # https://github.com/google/fonts/pull/5284
 ofl/notosansmandaic # https://github.com/google/fonts/pull/5282
@@ -113,3 +114,4 @@ lang/languages/lkt_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/sat_Olck.textproto # https://github.com/google/fonts/pull/6548
 lang/languages/sd_Khoj.textproto # https://github.com/google/fonts/pull/6548
 lang/languages/sd_Khud.textproto # https://github.com/google/fonts/pull/6548
+# Deleted: lang/languages/sd_Sind.textproto # https://github.com/google/fonts/pull/6548

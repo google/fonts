@@ -1,5 +1,5 @@
 {
-    "last_run": "2023-07-31",
+    "last_run": "2023-08-07",
     "issues": [
         {
             "date": "2015-03-16",
@@ -12474,7 +12474,7 @@
         {
             "date": "2023-01-14",
             "title": "Monofett: Poor diacritics, \"dcaron\" and \"tcaron\" totally useless",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-01-15",
@@ -13644,7 +13644,7 @@
         {
             "date": "2023-06-23",
             "title": "Update Mako [Vernon Adams]",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-06-23",
@@ -13950,9 +13950,126 @@
             "date": "2023-07-28",
             "title": "Londrina Solid Font",
             "closed": false
+        },
+        {
+            "date": "2023-07-31",
+            "title": "Add Quaaykop",
+            "closed": false
+        },
+        {
+            "date": "2023-08-01",
+            "title": "Noto Nastaliq Urdu not working as embedded font in PDF",
+            "closed": false
+        },
+        {
+            "date": "2023-08-01",
+            "title": "Add Gabarito",
+            "closed": false
+        },
+        {
+            "date": "2023-08-01",
+            "title": "Maven Pro - Romanian \"T-comma\" (\u021a) not working correctly",
+            "closed": false
+        },
+        {
+            "date": "2023-08-02",
+            "title": "Update UbuntuMono",
+            "closed": false
+        },
+        {
+            "date": "2023-08-02",
+            "title": "Update Ubuntu",
+            "closed": false
+        },
+        {
+            "date": "2023-08-03",
+            "title": "Font WorkSans difference on lettter g italic and regular",
+            "closed": false
+        },
+        {
+            "date": "2023-08-05",
+            "title": "IBM Plex Sans Arabic Problem rendering \u06bb word.",
+            "closed": false
+        },
+        {
+            "date": "2023-08-06",
+            "title": "A LETRA DO REINO",
+            "closed": false
         }
     ],
     "commits": [
+        {
+            "date": "2023-08-04T14:23:57",
+            "title": "Merge pull request #6599 from eliheuer/elih-to-lists-aug-4",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "5162122748503a23892443691ea942ab801b0963"
+        },
+        {
+            "date": "2023-08-04T13:43:31",
+            "title": "Update to_prod & to_sand lists for fri aug 4th",
+            "author": "Eli Heuer",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f690c23e80da25eb06315c55c27f906b95d60f0e"
+        },
+        {
+            "date": "2023-08-03T23:49:41",
+            "title": "First update to optionally add stroke and classification fields",
+            "author": "Evan Adams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bae7d2f579e7a7f6d0785b8848ca7648294d3464"
+        },
+        {
+            "date": "2023-08-03T09:31:35",
+            "title": "Merge pull request #6570 from google/gftools_packager_apache_robotocondensed",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "ee9e5b3d8cbaa153b435da07057e52dbf245909c"
+        },
+        {
+            "date": "2023-08-03T09:20:44",
+            "title": "robotocondened: Update DESCRIPTION.en_us.html",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "e34fb13dca6e24cf266677b3f0a14754431196ea"
+        },
+        {
+            "date": "2023-08-03T00:52:37",
+            "title": "Reduce `styles` length in Noto Serif Khitan SS METADATA.pb (#6586)",
+            "author": "Chris Simpkins",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4dc39029650b6e54739e9af29a6dbd1d701a2c17"
+        },
+        {
+            "date": "2023-08-02T17:55:35",
+            "title": "Update method of installing FontBakery",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "family",
+            "id": "eb24eb672ad7866fe41fc09ed61ec12cb2f665d2"
+        },
+        {
+            "date": "2023-08-02T09:09:45",
+            "title": "move to ofl dir",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "ae50998cbcab558ae1f047ad5c724ec7261980ca"
+        },
+        {
+            "date": "2023-08-01T08:58:53",
+            "title": "Merge pull request #6565 from google/gftools_packager_ofl_mako",
+            "author": "Rosalie Wagner",
+            "status": "modified",
+            "kind": "family",
+            "id": "ee1c9282564534edc6982add059ff3dd282a7925"
+        },
         {
             "date": "2023-07-28T16:31:39",
             "title": "Merge pull request #6579 from google/to_lists",
@@ -14158,8 +14275,16 @@
             "title": "Merge pull request #6554 from google/ZROT-fallbackonly",
             "author": "Rosalie Wagner",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "289de8955b911b2120d9730452ed268bb43bdfe9"
+        },
+        {
+            "date": "2023-07-28T11:39:12",
+            "title": "[gftools-packager] Roboto Condensed: Version 3.008; 2023 added",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "e3aff982c7d919bee351abf3b6ca83cf578ae578"
         },
         {
             "date": "2023-07-28T11:38:10",
@@ -14190,8 +14315,24 @@
             "title": "Merge pull request #6562 from shailenpatel2/update-gulzar-article",
             "author": "shailenpatel2",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "69ddc9bbb2656539a4978644e9e5ac8ba63be2d7"
+        },
+        {
+            "date": "2023-07-27T16:22:22",
+            "title": "Description updated",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "622d077113515912a2c128fde56eb4fd523b8793"
+        },
+        {
+            "date": "2023-07-27T16:18:39",
+            "title": "[gftools-packager] Mako: Version 1.100; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33] added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "d181d97abba0e323917be15de60bd38b4f47ea86"
         },
         {
             "date": "2023-07-27T12:03:05",
@@ -61059,12 +61200,6 @@
                 "url": "https://github.com/google/fonts/pull/6522"
             },
             {
-                "path": "ofl/bricolagegrotesque",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6523"
-            },
-            {
                 "path": "ofl/notosansindicsiyaqnumbers",
                 "category": "Upgrade",
                 "status": null,
@@ -61123,6 +61258,12 @@
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6572"
+            },
+            {
+                "path": "ofl/robotocondensed",
+                "category": "Other",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6570"
             },
             {
                 "path": "axisregistry/z_rotation.textproto",
@@ -61209,6 +61350,12 @@
                 "url": "https://github.com/google/fonts/pull/6576"
             },
             {
+                "path": "ofl/notoserifkhitansmallscript",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6586"
+            },
+            {
                 "path": "lang/languages/ae_Avst.textproto",
                 "category": "Sample texts",
                 "status": null,
@@ -61245,6 +61392,78 @@
                 "url": "https://github.com/google/fonts/pull/6573"
             },
             {
+                "path": "lang/languages/sa_Avst.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Batk.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Buhd.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Dogr.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Hano.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Khoj.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Kthi.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Lepc.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Mahj.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Olck.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Saur.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
+                "path": "lang/languages/sa_Takr.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6573"
+            },
+            {
                 "path": "lang/languages/saz_Saur.textproto",
                 "category": "Sample texts",
                 "status": null,
@@ -61257,6 +61476,12 @@
                 "category": "New",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6549"
+            },
+            {
+                "path": "ofl/bricolagegrotesque",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6523"
             },
             {
                 "path": "ofl/notosans",
@@ -61909,6 +62134,12 @@
             {
                 "path": "lang/languages/sd_Khud.textproto",
                 "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6548"
+            },
+            {
+                "path": "lang/languages/sd_Sind.textproto",
+                "category": "Deleted",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6548"
             }

@@ -1,7 +1,7 @@
 name: "Maiden Orange"
 designer: "Astigmatic"
 license: "APACHE2"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2010-12-20"
 fonts {
   name: "Maiden Orange"
@@ -14,3 +14,5 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

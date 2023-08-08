@@ -22,3 +22,5 @@ fonts {
   copyright: "Copyright (c) 2012, Sebastian Salazar (sebotas26@hotmail.com), with Reserved Font Name \'Sedan\'"
 }
 subsets: "latin"
+stroke: "SERIF"
+classifications: "DISPLAY"

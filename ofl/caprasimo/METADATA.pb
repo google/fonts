@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/docrepair-fonts/caprasimo-fonts"
   commit: "9f11e8fd4e8a4bdf069612a275a40103c5337ccf"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

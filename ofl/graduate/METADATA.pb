@@ -1,7 +1,7 @@
 name: "Graduate"
 designer: "Eduardo Tunni"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2012-03-14"
 fonts {
   name: "Graduate"
@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

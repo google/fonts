@@ -23,3 +23,5 @@ sample_text {
   poster_md: "abcdefghij x012345678"
   poster_lg: "23456789"
 }
+classifications: "DISPLAY"
+classifications: "SYMBOLS"

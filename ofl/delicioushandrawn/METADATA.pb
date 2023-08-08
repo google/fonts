@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/alphArtype/Delicious-Handrawn"
   commit: "0a9b42f98d6f2ee40563a406b1cdd9bb5a58fe57"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

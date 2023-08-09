@@ -1,0 +1,5 @@
+archive: https://github.com/canonical/Ubuntu-fonts/releases/download/v.1001/Ubuntu-fonts-1.001.zip
+branch: main
+files:
+  Ubuntu-fonts-1.001/variable/Ubuntu[wdth,wght].ttf: Ubuntu[wdth,wght].ttf
+  Ubuntu-fonts-1.001/variable/Ubuntu-Italic[wdth,wght].ttf: Ubuntu-Italic[wdth,wght].ttf

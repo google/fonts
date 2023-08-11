@@ -22,4 +22,5 @@ source {
 }
 is_noto: true
 languages: "sa_Sind"  # Sanskrit, Khudawadi
+languages: "sd_Sind"  # Sindhi, Khudawadi
 primary_script: "Sind"

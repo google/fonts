@@ -1,5 +1,5 @@
 {
-    "last_run": "2023-08-07",
+    "last_run": "2023-08-14",
     "issues": [
         {
             "date": "2015-03-16",
@@ -534,7 +534,7 @@
         {
             "date": "2015-10-13",
             "title": "New subset: IPA (for Voces, Judson, etc)",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2015-10-21",
@@ -2179,7 +2179,7 @@
         {
             "date": "2017-04-18",
             "title": "arabic: Add Kurdish language support",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2017-04-24",
@@ -2834,12 +2834,12 @@
         {
             "date": "2017-09-20",
             "title": "latin-ext: Add Hawaiian language support",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2017-09-22",
             "title": "nam file for Armenian",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2017-09-22",
@@ -3234,7 +3234,7 @@
         {
             "date": "2017-11-23",
             "title": "latin: Add \u1e9e and \u2020",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2017-11-23",
@@ -3359,7 +3359,7 @@
         {
             "date": "2017-12-19",
             "title": "latin-ext: Add superscripts and subscripts unicode characters",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2017-12-19",
@@ -12579,7 +12579,7 @@
         {
             "date": "2023-01-26",
             "title": "LT Funk Font ",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-01-26",
@@ -12909,7 +12909,7 @@
         {
             "date": "2023-03-07",
             "title": "Add Pitagon Sans Text",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-03-07",
@@ -12929,12 +12929,12 @@
         {
             "date": "2023-03-08",
             "title": "Add Pitagon Serif",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-03-08",
             "title": "Add Pitagon Sans",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-03-09",
@@ -13599,7 +13599,7 @@
         {
             "date": "2023-06-20",
             "title": "Add t-ck sans",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-06-21",
@@ -13984,7 +13984,7 @@
         {
             "date": "2023-08-03",
             "title": "Font WorkSans difference on lettter g italic and regular",
-            "closed": false
+            "closed": true
         },
         {
             "date": "2023-08-05",
@@ -13995,9 +13995,115 @@
             "date": "2023-08-06",
             "title": "A LETRA DO REINO",
             "closed": false
+        },
+        {
+            "date": "2023-08-07",
+            "title": "Heebo - Glyph Reversed for U+05F1 HEBREW LIGATURE YIDDISH VAV YOD",
+            "closed": false
+        },
+        {
+            "date": "2023-08-08",
+            "title": "Add Pitagon Sans Mono",
+            "closed": true
+        },
+        {
+            "date": "2023-08-08",
+            "title": "Add TASA Typeface Collection",
+            "closed": false
+        },
+        {
+            "date": "2023-08-08",
+            "title": "Add Libre Caslon Condensed",
+            "closed": false
+        },
+        {
+            "date": "2023-08-09",
+            "title": "Add Radio-Canada Display",
+            "closed": false
+        },
+        {
+            "date": "2023-08-10",
+            "title": "Inter: interpolation issue with acutedblcomb",
+            "closed": false
+        },
+        {
+            "date": "2023-08-12",
+            "title": "Repo Update [zinc]",
+            "closed": false
+        },
+        {
+            "date": "2023-08-12",
+            "title": "Update [Meta]",
+            "closed": false
+        },
+        {
+            "date": "2023-08-12",
+            "title": "UpdateUpdate [Etherium]",
+            "closed": false
+        },
+        {
+            "date": "2023-08-13",
+            "title": "[Noto Serif Hebrew] lack of JSTF prevents good justification",
+            "closed": false
         }
     ],
     "commits": [
+        {
+            "date": "2023-08-11T18:02:14",
+            "title": "Update to_prod & to_sand lists for fri aug 11th (#6614)",
+            "author": "Eli Heuer",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fd95b9bd17a2f2dc7ff1f86e8c8a1842c498ac17"
+        },
+        {
+            "date": "2023-08-09T17:13:04",
+            "title": "Batch of 200 METADATA.pb file changes for stroke and classifications",
+            "author": "Evan Adams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "47a6c224b3e0287b2e48e3ffef8c9ce2ca4931f4"
+        },
+        {
+            "date": "2023-08-09T14:08:59",
+            "title": "Merge pull request #6608 from google/wixmadefortext",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "85ac8d3b57ca217b3eaf519191ef3161873d688b"
+        },
+        {
+            "date": "2023-08-09T13:53:31",
+            "title": "wixmadefortext: add license",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "ff4e951f15fc71f4e8dd46e04b6fed519703cd0a"
+        },
+        {
+            "date": "2023-08-09T13:21:36",
+            "title": "Merge pull request #6607 from google/gftools_packager_ofl_wixmadefordisplay",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "a38a27153d040bf05617a95cf99d3e7da56395eb"
+        },
+        {
+            "date": "2023-08-09T13:07:37",
+            "title": "wixmadefortext: v3.100 added",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "30c23ec18b0a187c102a78bbdbda6239eeb726a4"
+        },
+        {
+            "date": "2023-08-09T13:05:27",
+            "title": "[gftools-packager] Wix Madefor Display: Version 3.100 added",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "4ce7daac53b62e2939b18f3a7ff07f7ca133ebaa"
+        },
         {
             "date": "2023-08-04T14:23:57",
             "title": "Merge pull request #6599 from eliheuer/elih-to-lists-aug-4",
@@ -61194,24 +61300,6 @@
     "pushes": {
         "sandbox": [
             {
-                "path": "ofl/adlamdisplay",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6522"
-            },
-            {
-                "path": "ofl/notosansindicsiyaqnumbers",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5285"
-            },
-            {
-                "path": "ofl/notosansinscriptionalpahlavi",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5286"
-            },
-            {
                 "path": "ofl/notosanskhojki",
                 "category": "Upgrade",
                 "status": null,
@@ -61224,40 +61312,16 @@
                 "url": "https://github.com/google/fonts/pull/5287"
             },
             {
-                "path": "ofl/notosansmayannumerals",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/5288"
-            },
-            {
-                "path": "ofl/notosanstakri",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6409"
-            },
-            {
                 "path": "ofl/notoserifkhojki",
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6426"
             },
             {
-                "path": "ofl/oswald",
+                "path": "ofl/wixmadefordisplay",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/6514"
-            },
-            {
-                "path": "ofl/teko",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6560"
-            },
-            {
-                "path": "ofl/wavefont",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6572"
+                "url": "https://github.com/google/fonts/pull/6607"
             },
             {
                 "path": "ofl/robotocondensed",
@@ -61266,16 +61330,16 @@
                 "url": "https://github.com/google/fonts/pull/6570"
             },
             {
+                "path": "ofl/wixmadefortext",
+                "category": "Other",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6608"
+            },
+            {
                 "path": "axisregistry/z_rotation.textproto",
                 "category": "Axis Registry",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6554"
-            },
-            {
-                "path": "ofl/gulzar",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6562"
             },
             {
                 "path": "ofl/mingzat",
@@ -61348,12 +61412,6 @@
                 "category": "Metadata / Description / License",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6576"
-            },
-            {
-                "path": "ofl/notoserifkhitansmallscript",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6586"
             },
             {
                 "path": "lang/languages/ae_Avst.textproto",
@@ -61472,10 +61530,10 @@
         ],
         "production": [
             {
-                "path": "ofl/ruwudu",
+                "path": "ofl/adlamdisplay",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/6549"
+                "url": "https://github.com/google/fonts/pull/6522"
             },
             {
                 "path": "ofl/bricolagegrotesque",
@@ -61490,22 +61548,88 @@
                 "url": "https://github.com/google/fonts/pull/5789"
             },
             {
-                "path": "ofl/notosansimperialaramaic",
+                "path": "ofl/notosanshk",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/5284"
+                "url": "https://github.com/google/fonts/pull/5531"
             },
             {
-                "path": "ofl/notosansmandaic",
+                "path": "ofl/notosansindicsiyaqnumbers",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/5282"
+                "url": "https://github.com/google/fonts/pull/5285"
+            },
+            {
+                "path": "ofl/notosansinscriptionalpahlavi",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5286"
+            },
+            {
+                "path": "ofl/notosanskr",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5532"
+            },
+            {
+                "path": "ofl/notosansmayannumerals",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5288"
+            },
+            {
+                "path": "ofl/notosanssc",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5533"
+            },
+            {
+                "path": "ofl/notosanstakri",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6409"
+            },
+            {
+                "path": "ofl/notosanstc",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/5534"
+            },
+            {
+                "path": "ofl/oswald",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6514"
             },
             {
                 "path": "ofl/robotoflex",
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/6484"
+            },
+            {
+                "path": "ofl/teko",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6560"
+            },
+            {
+                "path": "ofl/wavefont",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6572"
+            },
+            {
+                "path": "ofl/gulzar",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6562"
+            },
+            {
+                "path": "ofl/notoserifkhitansmallscript",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6586"
             },
             {
                 "path": "lang/languages/af_Latn.textproto",

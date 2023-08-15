@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/updock"
   commit: "392c2404f3860e8f06f63aa4dfc91eec3831d294"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

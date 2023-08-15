@@ -1,7 +1,7 @@
 name: "Voces"
 designer: "Ana Paula Megda, Pablo Ugerman"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2012-02-22"
 fonts {
   name: "Voces"

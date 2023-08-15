@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/paytoneFont"
   commit: "b1438bc11966d48a1e9e8943b7b8a32dcb0c533c"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

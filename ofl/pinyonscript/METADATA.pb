@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/SorkinType/Pinyon"
   commit: "1a078122d06789407cc9bcb4c0dae058d6950730"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/ingrid-darling"
   commit: "ea2b4893cf8dc8cd0e7fb2b89f9631b38fde4ed3"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

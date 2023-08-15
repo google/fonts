@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/water-brush"
   commit: "b7a36104b4ba7d489ba4f34a14c7e39dccbab86f"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

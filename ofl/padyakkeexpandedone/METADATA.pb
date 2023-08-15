@@ -1,7 +1,7 @@
 name: "Padyakke Expanded One"
 designer: "James Puckett"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2022-12-06"
 fonts {
   name: "Padyakke Expanded One"
@@ -21,3 +21,5 @@ source {
   commit: "6b18f969591fb9d4767478137061cdd5b727a6b4"
 }
 primary_script: "Knda"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

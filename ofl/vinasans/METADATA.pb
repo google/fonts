@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/nguyentype/vinasans"
   commit: "e99f043b3542ccaf24a21f04601942ca8bc28d53"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

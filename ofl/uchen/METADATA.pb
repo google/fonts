@@ -15,3 +15,5 @@ fonts {
 subsets: "latin"
 subsets: "menu"
 subsets: "tibetan"
+stroke: "SERIF"
+classifications: "DISPLAY"

@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/etunni/lemon"
   commit: "88027507a29de7878336812a328d25245c106e9b"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/docrepair-fonts/lugrasimo-fonts"
   commit: "40395a6877a6bcdfe74deb2a7e355c0a4c7228e7"
 }
+stroke: "SERIF"
+classifications: "HANDWRITING"

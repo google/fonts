@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/etunni/offside"
   commit: "025804545334bb6270119f43fb8fe7d05b31cd7d"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

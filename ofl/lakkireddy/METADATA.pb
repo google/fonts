@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+stroke: "SERIF"
+classifications: "DISPLAY"

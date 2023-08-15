@@ -20,6 +20,9 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/notofonts/nyiakeng-puachue-hmong"
+}
 is_noto: true
 display_name: "Noto Serif Nyiakeng Puachue Hmong"
 languages: "hmn_Hmnp"  # Hmong, NP Hmong

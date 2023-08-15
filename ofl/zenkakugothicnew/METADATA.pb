@@ -53,4 +53,7 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/zen-kakugothic"
+}
 primary_script: "Jpan"

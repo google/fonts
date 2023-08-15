@@ -15,6 +15,9 @@ fonts {
 subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/shibuyafont/shizuru-font"
+}
 primary_script: "Hira"
 languages: "ja_Kana"
 languages: "ja_Hira"

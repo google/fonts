@@ -16,6 +16,9 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/matsuba723/Aoboshi"
+}
 primary_script: "Hira"
 languages: "ja_Kana"
 languages: "ja_Hira"

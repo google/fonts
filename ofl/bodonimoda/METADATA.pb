@@ -38,3 +38,6 @@ registry_default_overrides {
   key: "opsz"
   value: 11.0
 }
+source {
+  repository_url: "https://github.com/indestructible-type/Bodoni"
+}

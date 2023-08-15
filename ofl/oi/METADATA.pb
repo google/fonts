@@ -20,3 +20,6 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/kosbarts/Oi"
+}

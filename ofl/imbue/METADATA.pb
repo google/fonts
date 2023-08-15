@@ -30,3 +30,6 @@ registry_default_overrides {
   key: "opsz"
   value: 10.0
 }
+source {
+  repository_url: "https://github.com/Etcetera-Type-Co/Imbue"
+}

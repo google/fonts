@@ -25,3 +25,6 @@ registry_default_overrides {
   key: "opsz"
   value: 16.0
 }
+source {
+  repository_url: "https://github.com/Omnibus-Type/Ballet"
+}

@@ -21,3 +21,6 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/mooniak/stick-no-bills-font"
+}

@@ -52,6 +52,9 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/mt-funa/Tsukimi-Rounded"
+}
 primary_script: "Hira"
 languages: "ja_Kana"
 languages: "ja_Hira"

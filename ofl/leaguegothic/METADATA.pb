@@ -21,3 +21,6 @@ axes {
   min_value: 75.0
   max_value: 100.0
 }
+source {
+  repository_url: "https://github.com/sursly/league-gothic"
+}

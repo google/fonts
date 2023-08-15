@@ -21,3 +21,6 @@ axes {
   min_value: 200.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/mooniak/yaldevi-font"
+}

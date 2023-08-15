@@ -14,3 +14,6 @@ fonts {
 }
 subsets: "arabic"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/aliftype/amiri"
+}

@@ -15,3 +15,6 @@ fonts {
 subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/fontdasu/Mochiypop"
+}

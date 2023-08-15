@@ -17,6 +17,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/satsuyako/CherryBomb"
+}
 primary_script: "Hira"
 languages: "ja_Kana"
 languages: "ja_Hira"

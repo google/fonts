@@ -30,3 +30,6 @@ registry_default_overrides {
   key: "opsz"
   value: 144.0
 }
+source {
+  repository_url: "https://github.com/floriankarsten/montagu-slab"
+}

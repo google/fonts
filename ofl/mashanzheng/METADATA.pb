@@ -15,6 +15,3 @@ fonts {
 subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/googlefonts/mashanzheng"
-}

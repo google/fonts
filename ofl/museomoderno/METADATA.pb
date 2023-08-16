@@ -34,3 +34,5 @@ source {
   repository_url: "https://github.com/Omnibus-Type/MuseoModerno"
   commit: "ad2f135bea4525cf6d1f14d488593c0fc6ef82db"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

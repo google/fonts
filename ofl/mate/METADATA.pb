@@ -28,3 +28,5 @@ source {
   repository_url: "https://github.com/etunni/mate"
   commit: "2ea8febc952610379af663b1651411493d34beea"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

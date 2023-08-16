@@ -25,3 +25,5 @@ source {
   repository_url: "https://www.github.com/googlefonts/teko"
   commit: "6715caf853f342eef57ea367b6c2991cd3928398"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

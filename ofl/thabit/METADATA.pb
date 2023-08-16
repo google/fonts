@@ -42,3 +42,5 @@ fonts {
 subsets: "menu"
 subsets: "arabic"
 subsets: "latin"
+stroke: "SERIF"
+classifications: "DISPLAY"

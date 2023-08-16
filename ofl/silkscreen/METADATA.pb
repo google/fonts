@@ -28,3 +28,5 @@ source {
   repository_url: "https://github.com/googlefonts/silkscreen"
   commit: "8f254a7d67a37f8da1f4f82d9c4281458f5c554c"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

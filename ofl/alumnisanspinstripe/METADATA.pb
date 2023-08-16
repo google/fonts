@@ -32,3 +32,5 @@ source {
   repository_url: "https://github.com/googlefonts/alumni-sans-pinstripe"
   commit: "26cf834f2eca219b017478be9ea1387c78756e78"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

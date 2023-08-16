@@ -1,7 +1,7 @@
 name: "Share"
 designer: "Carrois Apostrophe"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2012-02-08"
 fonts {
   name: "Share"

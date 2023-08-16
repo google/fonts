@@ -2,7 +2,6 @@ name: "Unbounded"
 designer: "NaN"
 license: "OFL"
 category: "SANS_SERIF"
-category: "DISPLAY"
 date_added: "2022-11-07"
 fonts {
   name: "Unbounded"

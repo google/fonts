@@ -1,7 +1,7 @@
 name: "Black And White Picture"
 designer: "AsiaSoft Inc."
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2018-02-27"
 fonts {
   name: "Black And White Picture"

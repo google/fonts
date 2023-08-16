@@ -33,3 +33,5 @@ fonts {
 subsets: "latin"
 subsets: "malayalam"
 subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

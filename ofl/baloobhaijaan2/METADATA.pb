@@ -27,3 +27,5 @@ source {
   commit: "da4090c1dd5798a3e72d7138e379ee1f94d6349c"
 }
 primary_script: "Arab"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

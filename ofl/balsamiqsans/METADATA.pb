@@ -48,3 +48,5 @@ source {
   repository_url: "https://github.com/balsamiq/balsamiqsans"
   archive_url: "https://github.com/balsamiq/balsamiqsans/releases/download/1.020/balsamiqsans-fonts.zip"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

@@ -29,3 +29,5 @@ source {
 }
 sample_text {
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

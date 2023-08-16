@@ -38,3 +38,5 @@ source {
   repository_url: "https://github.com/docrepair-fonts/belanosima-fonts"
   commit: "b772e9b7c44f32e17230f255fac9cac4bfaaa07f"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

@@ -30,3 +30,5 @@ registry_default_overrides {
   key: "opsz"
   value: 144.0
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

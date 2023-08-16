@@ -30,3 +30,5 @@ source {
   repository_url: "https://github.com/Etcetera-Type-Co/Gluten"
   commit: "c8525e6a8d31dde1795485cc66f622beed3e5e80"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

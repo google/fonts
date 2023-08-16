@@ -38,3 +38,5 @@ source {
   repository_url: "https://github.com/rsms/inter-gf-tight"
   commit: "c194f94c60b569b47876811321f5ef1f0c2614a2"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

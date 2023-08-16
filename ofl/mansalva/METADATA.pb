@@ -21,3 +21,5 @@ source {
   repository_url: "https://github.com/carolinashort/mansalva"
   commit: "192d65ff2d1560ff6399abde05904d910965d483"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

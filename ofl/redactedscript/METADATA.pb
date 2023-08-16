@@ -33,3 +33,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+classifications: "HANDWRITING"
+classifications: "SYMBOLS"

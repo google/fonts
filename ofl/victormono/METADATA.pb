@@ -39,3 +39,5 @@ source {
   archive_url: "https://github.com/rubjo/victor-mono-font/releases/download/v1.561/victor-mono-font-fonts.zip"
 }
 minisite_url: "https://rubjo.github.io/victor-mono"
+stroke: "SANS_SERIF"
+classifications: "MONOSPACE"

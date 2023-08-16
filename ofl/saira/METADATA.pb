@@ -35,3 +35,5 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

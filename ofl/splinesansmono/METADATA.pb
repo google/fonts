@@ -34,3 +34,5 @@ source {
   repository_url: "https://github.com/SorkinType/SplineSansMono"
   commit: "97fed7e4bc166ad9c93d3af9c4c7ebf3104a57ed"
 }
+stroke: "SANS_SERIF"
+classifications: "MONOSPACE"

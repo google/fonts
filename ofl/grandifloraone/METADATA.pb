@@ -21,3 +21,5 @@ source {
   commit: "b016ca716dade21cb890efc78b9349275c4e7c99"
 }
 primary_script: "Kore"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

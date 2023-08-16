@@ -22,3 +22,5 @@ source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "50fec619b373f40dfd839408e77c5b3a616e972d"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

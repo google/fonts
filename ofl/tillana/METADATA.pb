@@ -1,7 +1,7 @@
 name: "Tillana"
 designer: "Indian Type Foundry"
 license: "OFL"
-category: "HANDWRITING"
+category: "DISPLAY"
 date_added: "2015-06-03"
 fonts {
   name: "Tillana"

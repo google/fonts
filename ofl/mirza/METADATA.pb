@@ -1,7 +1,7 @@
 name: "Mirza"
 designer: "KB Studio"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2016-06-20"
 fonts {
   name: "Mirza"

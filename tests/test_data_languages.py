@@ -39,6 +39,10 @@ SKIP_EXEMPLARS = {
     "ja_Jpan": "Contains multiple scripts",
     "aii_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
     "sel_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
+    "coo_Latn": "Does indeed use Greek glyphs while writing Latin",
+    "hur_Latn": "Does indeed use Greek glyphs while writing Latin",
+    "kwk_Latn": "Does indeed use Greek glyphs while writing Latin",
+    "thp_Latn": "Does indeed use Greek glyphs while writing Latin",
 }
 
 

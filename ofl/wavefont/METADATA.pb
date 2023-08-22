@@ -51,6 +51,6 @@ sample_text {
   poster_md: "0123456789"
   poster_lg: "0123456789"
 }
-minisite_url: "https://dy.github.io/wavefont/out"
+minisite_url: "https://dy.github.io/wavefont/scripts/"
 classifications: "DISPLAY"
 classifications: "SYMBOLS"

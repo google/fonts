@@ -77,6 +77,21 @@ def test_languages_exemplars_duplicates(lang_code, exemplar_name):
     assert counts == [(v, 1) for v in exemplar]
 
 
+@pytest.mark.parametrize("lang_code", LANGUAGES.keys())
+@pytest.mark.parametrize(
+    "exemplar_name", ["base", "auxiliary", "numerals", "punctuation", "index"]
+)
+def test_exemplars_bracketed_sequences(lang_code, exemplar_name):
+    lang = LANGUAGES[lang_code]
+    if lang.script != "Latn":
+        return
+    exemplar = getattr(lang.exemplar_chars, exemplar_name).split()
+    for chars in exemplar:
+        if len(chars) > 1:
+            assert chars.startswith("{") and chars.endswith("}")
+            assert len(chars[1:-1]) > 1
+
+
 SampleText = languages_public_pb2.SampleTextProto().DESCRIPTOR
 ExemplarChars = languages_public_pb2.ExemplarCharsProto().DESCRIPTOR
 

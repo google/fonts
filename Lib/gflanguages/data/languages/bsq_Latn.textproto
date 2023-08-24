@@ -2,8 +2,13 @@ id: "bsq_Latn"
 language: "bsq"
 script: "Latn"
 name: "Bassa"
+population: 410000
+region: "LR"
+region: "SL"
 exemplar_chars {
-  base: "a A b B ɓ Ɓ č Č d D ɖ Ɖ e E ɛ Ɛ f F g G h H i I j J k K m M n N o O ɔ Ɔ p P s S t T u U v V w W"
-  marks: "◌̌"
+  base: "a A á Á à À ã Ã ǎ Ǎ {ã́} {Ã́} {ã̀} {Ã̀} {ã̌} {Ã̌} b B ɓ Ɓ c C d D ɖ Ɖ e E ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} {ɛ̃} {Ɛ̃} {ɛ̌} {Ɛ̌} {ɛ̃́} {Ɛ̃́} {ɛ̃̀} {Ɛ̃̀} {ɛ̃̌} {Ɛ̃̌} f F g G {gb} {GB} {gm} {GM} h H {hw} {HW} i I í Í ì Ì ĩ Ĩ ǐ Ǐ {ĩ́} {Ĩ́} {ĩ̀} {Ĩ̀} {ĩ̌} {Ĩ̌} j J k K {kp} {KP} m M n N {ny} {NY} o O ó Ó ò Ò ǒ Ǒ ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̃} {Ɔ̃} {ɔ̌} {Ɔ̌} {ɔ̃́} {Ɔ̃́} {ɔ̃̀} {Ɔ̃̀} {ɔ̃̌} {Ɔ̃̌} p P s S t T u U ú Ú ù Ù ũ Ũ ǔ Ǔ ṹ Ṹ {ũ̀} {Ũ̀} {ũ̌} {Ũ̌} v V w W {xw} {XW}"
+  marks: "◌́ ◌̀ ◌̃ ◌̌"
   auxiliary: "l L q Q r R x X y Y z Z"
 }
+source: "“Bassa dictionary”, Christian Education Foundation in Liberia (CEFL), https://cefliberia.org/bassa/bassa-dictionary/"
+source: "Ɓǎsɔ́ɔ̀ Báɓòɔ̀, Bible Society Liberia, 2002"

@@ -3,6 +3,8 @@ language: "bsq"
 script: "Bass"
 name: "Bassa"
 population: 410000
+region: "LR"
+region: "SL"
 sample_text {
   masthead_full: "𖫞𖫫𖫐𖫭"
   masthead_partial: "𖫗𖫑"

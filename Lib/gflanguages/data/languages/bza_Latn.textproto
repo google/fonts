@@ -2,6 +2,9 @@ id: "bza_Latn"
 language: "bza"
 script: "Latn"
 name: "Bandi"
+population: 160000
+region: "GN"
+region: "LR"
 exemplar_chars {
   base: "a A b B d D e E ɛ Ɛ f F g G ɣ Ɣ h H i I k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U v V w W y Y"
   auxiliary: "c C j J q Q r R x X z Z"

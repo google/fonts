@@ -6,7 +6,7 @@ population: 1300000
 region: "BJ"
 region: "NG"
 exemplar_chars {
-  base: "a ã Ã A b B d D e E ɛ Ɛ ɛ̃ Ɛ̃ f F g G gb {GB} i I ĩ Ĩ k K kp {KP} l L m M n N o O ɔ Ɔ {ɔ̃} {Ɔ̃} p P r R s S t T u U ũ Ũ w W y Y"
+  base: "a ã Ã A b B d D e E ɛ Ɛ {ɛ̃} {Ɛ̃} f F g G {gb} {GB} i I ĩ Ĩ k K {kp} {KP} l L m M n N o O ɔ Ɔ {ɔ̃} {Ɔ̃} p P r R s S t T u U ũ Ũ w W y Y"
   auxiliary: "c C h H j J q Q v V z Z"
   marks: "◌̃"
   index: "A B D E Ɛ F G {Gb} I K {Kp} L M N O Ɔ P R S T U W Y"

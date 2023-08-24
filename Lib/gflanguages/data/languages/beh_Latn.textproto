@@ -2,6 +2,8 @@ id: "beh_Latn"
 language: "beh"
 script: "Latn"
 name: "Baka"
+population: 100000
+region: "BJ"
 exemplar_chars {
   base: "a A b B c C d D e E ə Ə f F g G h H i I k K l L m M n N o O p P r R s S t T u U w W y Y"
   auxiliary: "j J q Q v V x X z Z"

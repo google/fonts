@@ -2,6 +2,8 @@ id: "ekm_Latn"
 language: "ekm"
 script: "Latn"
 name: "Elip"
+population: 20000
+region: "CM"
 exemplar_chars {
   base: "a A b B c C d D e E ɛ Ɛ f F g G h H i I k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U w W y Y"
   auxiliary: "j J q Q r R v V x X z Z"

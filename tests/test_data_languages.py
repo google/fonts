@@ -18,13 +18,14 @@ from collections import defaultdict, Counter
 import re
 import unicodedata
 
-from gflanguages import LoadLanguages, languages_public_pb2, LoadScripts
+from gflanguages import LoadLanguages, languages_public_pb2, LoadScripts, LoadRegions
 import pytest
 import youseedee
 
 
 LANGUAGES = LoadLanguages()
 SCRIPTS = LoadScripts()
+REGIONS = LoadRegions()
 
 CLDR_SCRIPT_TO_UCD_SCRIPT = {
     "Bangla": "Bengali",
@@ -43,6 +44,17 @@ SKIP_EXEMPLARS = {
     "hur_Latn": "Does indeed use Greek glyphs while writing Latin",
     "kwk_Latn": "Does indeed use Greek glyphs while writing Latin",
     "thp_Latn": "Does indeed use Greek glyphs while writing Latin",
+}
+
+SKIP_REGION = {
+    "cpf_Latn": "French-based creole languages is a group of languages.",
+    "gem_Latn": "Germanic languages is a group of languages.",
+    "sla_Latn": "Slavic languages is a group of languages.",
+    "hmn_Latn": "Homnic languages is a group of languages.",
+    "ie_Latn": "Interlingue is an artifical language.",
+    "io_Latn": "Ido is an artifical language.",
+    "jbo_Latn": "Lobjan is an artifical language.",
+    "tlh_Latn": "Klingon is an artifical language.",
 }
 
 
@@ -117,6 +129,17 @@ def test_script_is_known(lang_code):
     lang = LANGUAGES[lang_code]
     script = lang.script
     assert script in SCRIPTS, f"{lang_code} used unknown script {lang.script}"
+
+
+@pytest.mark.parametrize("lang_code", LANGUAGES)
+def test_region_is_known(lang_code):
+    lang = LANGUAGES[lang_code]
+    if lang.id in SKIP_REGION:
+        pytest.skip(SKIP_REGION[lang.id])
+        return
+    regions = lang.region
+    for region in regions:
+        assert region in REGIONS.keys()
 
 
 @pytest.mark.parametrize("lang_code", LANGUAGES.keys())

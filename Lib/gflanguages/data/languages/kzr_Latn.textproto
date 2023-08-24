@@ -2,6 +2,9 @@ id: "kzr_Latn"
 language: "kzr"
 script: "Latn"
 name: "Karang"
+population: 17000
+region: "CM"
+region: "TD"
 exemplar_chars {
   base: "a A b B ɓ Ɓ d D ɗ Ɗ e E f F g G h H i I k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V w W y Y ƴ Ƴ z Z"
   auxiliary: "c C j J q Q x X"

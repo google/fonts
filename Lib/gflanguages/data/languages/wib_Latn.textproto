@@ -2,6 +2,8 @@ id: "wib_Latn"
 language: "wib"
 script: "Latn"
 name: "Toussian, Southern"
+population: 39000
+region: "BF"
 exemplar_chars {
   base: "a A b B d D e E ɛ Ɛ f F h H i I ɩ Ɩ k K l L m M n N o O ɔ Ɔ p P r R s S t T u U v V w W y Y"
   marks: "◌̀ ◌́ ◌̂ ◌̃ ◌̌"

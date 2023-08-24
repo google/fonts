@@ -2,6 +2,8 @@ id: "ikw_Latn"
 language: "ikw"
 script: "Latn"
 name: "Ikwere"
+population: 2000000
+region: "NG"
 exemplar_chars {
   base: "a A á Á b B c C d D e E é É ẹ Ẹ f F g G h H i I í Í ị Ị j J k K l L m M n N o O ó Ó ọ Ọ p P r R s S t T u U ú Ú ụ Ụ v V w W y Y z Z"
   marks: "◌́ ◌̣ ◌̄"

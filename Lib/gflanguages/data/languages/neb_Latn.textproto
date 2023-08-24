@@ -2,6 +2,8 @@ id: "neb_Latn"
 language: "neb"
 script: "Latn"
 name: "Toura"
+population: 67000
+region: "CI"
 exemplar_chars {
   base: "a A b B d D e E ɛ Ɛ f F g G i I ɩ Ɩ k K l L o O ɔ Ɔ p P s S t T u U ʋ Ʋ v V w W y Y z Z"
   auxiliary: "c C j J m M q Q r R x X"

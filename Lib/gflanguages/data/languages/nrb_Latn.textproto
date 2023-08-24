@@ -2,6 +2,8 @@ id: "nrb_Latn"
 language: "nrb"
 script: "Latn"
 name: "Nara"
+population: 81000
+region: "ER"
 exemplar_chars {
   base: "a A b B d D e E f F g G h H i I j J k K l L m M n N o O r R s S t T u U v V w W y Y"
   auxiliary: "c C p P q Q x X z Z"

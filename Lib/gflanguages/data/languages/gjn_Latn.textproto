@@ -2,6 +2,8 @@ id: "gjn_Latn"
 language: "gjn"
 script: "Latn"
 name: "Gonja"
+population: 300000
+region: "GH"
 sample_text {
   masthead_full: "BbUu"
   masthead_partial: "Kk"

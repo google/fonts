@@ -2,6 +2,9 @@ id: "lia_Latn"
 language: "lia"
 script: "Latn"
 name: "Limba, West-Central"
+population: 446000
+region: "GN"
+region: "SL"
 sample_text {
   masthead_full: "BbIi"
   masthead_partial: "Yy"

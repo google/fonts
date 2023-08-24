@@ -2,6 +2,8 @@ id: "mcp_Latn"
 language: "mcp"
 script: "Latn"
 name: "Makaa"
+population: 80000
+region: "CM"
 exemplar_chars {
   base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P s S t T u U v V w W y Y z Z ŋ Ŋ ɔ Ɔ ə Ə ɛ Ɛ ɨ Ɨ ʉ Ʉ"
   marks: "◌̧ ◌́ ◌̂ ◌̌"

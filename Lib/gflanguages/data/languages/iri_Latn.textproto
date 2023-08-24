@@ -2,6 +2,8 @@ id: "iri_Latn"
 language: "iri"
 script: "Latn"
 name: "Rigwe"
+population: 40000
+region: "NG"
 exemplar_chars {
   base: "a A á Á b B c C d D e E é É ē Ē è È f F g G h H i I í Í j J k K l L m M n N o O ó Ó p P r R s S t T u U ú Ú v V w W y Y z Z"
   marks: "◌́ ◌̱ ◌̄ ◌̀ ◌̂"

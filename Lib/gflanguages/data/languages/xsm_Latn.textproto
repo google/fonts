@@ -2,6 +2,9 @@ id: "xsm_Latn"
 language: "xsm"
 script: "Latn"
 name: "Kasem"
+population: 250000
+region: "BF"
+region: "GH"
 sample_text {
   masthead_full: "BbAa"
   masthead_partial: "Ll"

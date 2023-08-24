@@ -2,6 +2,9 @@ id: "kun_Latn"
 language: "kun"
 script: "Latn"
 name: "Kunama"
+population: 240000
+region: "ET"
+region: "ER"
 exemplar_chars {
   base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N ñ Ñ o O r R s S š Š t T u U w W y Y"
   marks: "◌̃ ◌̌"

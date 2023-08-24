@@ -2,6 +2,8 @@ id: "gnd_Latn"
 language: "gnd"
 script: "Latn"
 name: "Zulgo-Gemzek"
+population: 26000
+region: "CM"
 exemplar_chars {
   base: "a A b B ɓ Ɓ d D ɗ Ɗ e E ə Ə f F g G h H i I k K l L m M n N ŋ Ŋ p P r R s S t T u U v V w W y Y z Z"
   auxiliary: "c C j J o O q Q x X"

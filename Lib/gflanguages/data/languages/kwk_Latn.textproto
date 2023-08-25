@@ -6,8 +6,8 @@ autonym: "Kwak̓wala"
 population: 450
 region: "CA"
 exemplar_chars {
-  base: "a b c d e g h i k l m n o p q s t u w x y ł ƛ ǧ ə ʔ ʷ λ ᶻ"
-  auxiliary: "A B C D E f F G H I j J K L M N O P Q r R S T U v V W X Y z Z Ł Ə Ǧ Λ"
+  base: "a b c {c̓} d e ə g ǧ h i k {k̓} l {l̓} ł ƛ {ƛ̓} m {m̓} n {n̓} o p {p̓} q {q̓} s t u w {w̓} ʷ x y {y̓} ᶻ ʔ λ"
+  auxiliary: "A B C {C̓} D E Ə f F G Ǧ ǥ Ǥ {g̱} {G̱} H I j J K {K̓} Ḵ ḵ L {L̓} Ł ƚ Ƚ M {M̓} N {N̓} O P {P̓} Q {Q̓} r R S T U v V W {W̓} X Y {Y̓} z Z Λ"
   marks: "◌̓ ◌̱ ◌̌"
 }
 source: "FirstVoices"

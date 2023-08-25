@@ -2,7 +2,12 @@ id: "jra_Latn"
 language: "jra"
 script: "Latn"
 name: "Jarai, Latin"
+population: 530000
 region: "VN"
+exemplar_chars {
+  base: "a A ă Ă â Â b B ƀ Ƀ č Č d D đ Đ e E ĕ Ĕ ê Ê {ê̆} {Ê̆} g G h H i I ĭ Ĭ j J {dj} {DJ} k K l L m M n N ñ Ñ {ng} {NG} o O ŏ Ŏ ô Ô {ô̆} {Ô̆} ơ Ơ {ơ̆} {Ơ̆} p P r R s S t T u U ŭ Ŭ ư Ư {ư̆} {Ư̆} w W y Y"
+  marks: "◌̂ ◌̃ ◌̆ ◌̛"
+}
 sample_text {
   masthead_full: "AaBb"
   masthead_partial: "Ii"
@@ -17,3 +22,4 @@ sample_text {
   specimen_21: "Abih bang mơnuih-mơnam tơkeng rai rơngai laih anŭn mơdơ̆-mơđơr amăng tơlơi pơpŭ-pơyôm hăng tơlơi dưi. Ƀing gơñu tŭ hơmâo tơlơi pơmĭn hăng tơlơi thâo djơ̆-glaĭ laih anŭn brơi ngă kơ tơdruă amăng tơlơi khăp ayŏng adơi.\nAbih bang mơnuih-mơnam tơkeng rai rơngai laih anŭn mơdơ̆-mơđơr amăng tơlơi pơpŭ-pơyôm hăng tơlơi dưi. Ƀing gơñu tŭ hơmâo tơlơi pơmĭn hăng tơlơi thâo djơ̆-glaĭ laih anŭn brơi ngă kơ tơdruă amăng tơlơi khăp ayŏng adơi."
   specimen_16: "Abih bang mơnuih-mơnam tơkeng rai rơngai laih anŭn mơdơ̆-mơđơr amăng tơlơi pơpŭ-pơyôm hăng tơlơi dưi. Ƀing gơñu tŭ hơmâo tơlơi pơmĭn hăng tơlơi thâo djơ̆-glaĭ laih anŭn brơi ngă kơ tơdruă amăng tơlơi khăp ayŏng adơi.\nAbih bang mơnuih-mơnam tơkeng rai rơngai laih anŭn mơdơ̆-mơđơr amăng tơlơi pơpŭ-pơyôm hăng tơlơi dưi. Ƀing gơñu tŭ hơmâo tơlơi pơmĭn hăng tơlơi thâo djơ̆-glaĭ laih anŭn brơi ngă kơ tơdruă amăng tơlơi khăp ayŏng adơi.\nAbih bang mơnuih-mơnam tơkeng rai rơngai laih anŭn mơdơ̆-mơđơr amăng tơlơi pơpŭ-pơyôm hăng tơlơi dưi. Ƀing gơñu tŭ hơmâo tơlơi pơmĭn hăng tơlơi thâo djơ̆-glaĭ laih anŭn brơi ngă kơ tơdruă amăng tơlơi khăp ayŏng adơi."
 }
+source: "Lap Minh Siu, Developing the First Preliminary Dictionary of North American Jarai, Texas Tech University, 2009"

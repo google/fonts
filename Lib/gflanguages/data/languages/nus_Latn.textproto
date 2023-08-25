@@ -8,6 +8,7 @@ region: "SS"
 exemplar_chars {
   base: "a A ä Ä {a̱} {A̱} b B c C d D e E ë Ë {e̱} {E̱} ɛ Ɛ {ɛ̈} {Ɛ̈} {ɛ̱} {Ɛ̱} {ɛ̱̈} {Ɛ̱̈} f F g G ɣ Ɣ h H i I ï Ï {i̱} {I̱} j J k K l L m M n N ŋ Ŋ o O ö Ö {o̱} {O̱} ɔ Ɔ {ɔ̈} {Ɔ̈} {ɔ̱} {Ɔ̱} p P q Q r R s S t T u U v V w W x X y Y z Z"
   marks: "◌̈ ◌̱"
+  auxiliary : "ʈ Ʈ"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   index: "A B C D E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P Q R S T U V W X Y Z"
 }

@@ -7,6 +7,7 @@ population: 1600361
 region: "UG"
 exemplar_chars {
   base: "A B C D E G I J K L M N Ŋ O P R T U W Y a b c d e g i j k l m n ŋ o p r t u w y"
+  auxiliary: "ʈ Ʈ"
 }
 sample_text {
   masthead_full: "AaŊŋ"

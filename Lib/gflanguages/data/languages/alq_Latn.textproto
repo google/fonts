@@ -1,0 +1,13 @@
+id: "alq_Latn"
+language: "alq"
+script: "Latn"
+name: "Algonquin"
+population: 3300
+region: "CA"
+exemplar_chars {
+  base: "a A à À b B {ch} {CH} d D {dj} {DJ} e E è È g G h H i I ì Ì j J k K m M n N o O ò Ò p P s S {sh} {SH} t T w W 8 ȣ Ȣ y Y z Z"
+  auxiliary: "c C f F l L q Q r R u U v V x X"
+  marks: "◌̀"
+}
+note: "Some communites use j instead of dj, tc instead of tch or ch, zh instead of j, c instead of ch or sh, w instead of 8 or ȣ. 8 is used in modern instead of ȣ Ȣ."
+source: "Wikipedia"

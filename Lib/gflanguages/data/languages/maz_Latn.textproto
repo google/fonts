@@ -6,8 +6,9 @@ autonym: "Jñatrjo"
 population: 437410
 region: "MX"
 exemplar_chars {
-  base: "A B C D E G H I J L M N Ñ O P R S T U V X Z Ⱥ Ɇ Ʉ a b c d e g h i j l m n ñ o p r s t u v x z \' ⱥ ɇ ʉ"
-  marks: "◌̃ ◌̱ ◌̵"
+  base: "a A ⱥ Ⱥ {a̱} {A̱} b B c C d D e E ɇ Ɇ {e̱} {E̱} g G h H i I {i̱} {I̱} j J l L m M n N ñ Ñ o O {o̱} {O̱} p P r R s S t T u U ꞹ Ꞹ {u̱} {U̱} {ꞹ̱} {Ꞹ̱} v V x X z Z \'"
+  marks: "◌́ ◌̃ ◌̈ ◌̱ ◌̷ ◌̸"
+  auxiliary: "á Á ä Ä ë Ë ï Ï {ï̱} {Ï̱} ö Ö ø Ø ú Ú ü Ü"
 }
 sample_text {
   masthead_full: "TtEe"
@@ -23,3 +24,4 @@ sample_text {
   specimen_21: "Panru̸ji k\'u̸ mara mimiji na joo texe yo nte̱\'e̱ in dya ra chu̱nji, numa so\'o k\'u̸ ra mamu̸ji k\'u̸ ri chjekjoji texezgoji.\nPanru̸ji k\'u̸ ma dya ri pjechiji texto yo jña\'a nuyo nrra pjosu̸ ye nte̱\'e̱, nudyama so\'o k\'u̸ ra potr\'u̸ji yo in Kjuarma; ngek\'ua nesta nura mbaraji k\'u̸ ye nte̱\'e̱, ma sa̸ja̸ kja ne xoñi jomu̸, na kjuana k\'u̸ rambesi nura zi\'i, ra so\'o mamu̸ nu in jña\'a ñeje ra eme nu K\'inchi angeze."
   specimen_16: "Panru̸ji k\'u̸ mara mimiji na joo texe yo nte̱\'e̱ in dya ra chu̱nji, numa so\'o k\'u̸ ra mamu̸ji k\'u̸ ri chjekjoji texezgoji.\nPanru̸ji k\'u̸ ma dya ri pjechiji texto yo jña\'a nuyo nrra pjosu̸ ye nte̱\'e̱, nudyama so\'o k\'u̸ ra potr\'u̸ji yo in Kjuarma; ngek\'ua nesta nura mbaraji k\'u̸ ye nte̱\'e̱, ma sa̸ja̸ kja ne xoñi jomu̸, na kjuana k\'u̸ rambesi nura zi\'i, ra so\'o mamu̸ nu in jña\'a ñeje ra eme nu K\'inchi angeze.\nPanru̸ji k\'u̸ nuyo jña\'a yo pjosu̸ ye nte̱\'e̱ ximi nesta ra k\'uatr\'u̸ kja xiskuama, ngek\'ua dya ra chu̱\'u̱nji.\nPanru̸ji k\'u̸ nesta ra mimi na jo\'o texto ye tr\'ajñiñi.\nPanru̸ji k\'u̸ yo jñiñi ye jmuru̸ kja nu tr\'angumu̸ a xoñijomu̸, o dyu̸su̸ji ye jña\'a kja naja xiskuama, jango mamu̸ yo nrra pjosu̸ yo nte̱\'e̱ ñeje mamu̸ k\'u̸ yo b\'ezo ñe ye nrrixo chjetroji, kjana xits\'iji k\'u̸ ra mbox k\'u̸ji nura jok\'u̸ji jango ri mimiji nu padya."
 }
+note: "The are various orthographies for Mazahua. The 1989 standard is used in the UDHR translation. Orthographies were proposed in 2002, 2015 and 2017 and are used in education."

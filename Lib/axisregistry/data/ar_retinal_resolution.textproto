@@ -6,7 +6,7 @@ max_value: 60
 precision: 0
 fallback {
   name: "Default"
-  value: 10.0
+  value: 10
 }
 fallback_only: false
 description: 

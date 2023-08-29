@@ -1,11 +1,23 @@
+# New
+ofl/inclusivesans # https://github.com/google/fonts/pull/6359
+
 # Upgrade
-ofl/notosanskhojki # https://github.com/google/fonts/pull/6427
-ofl/notosanslycian # https://github.com/google/fonts/pull/5287
-ofl/notoserifkhojki # https://github.com/google/fonts/pull/6426
+ofl/mako # https://github.com/google/fonts/pull/6565
+ofl/norican # https://github.com/google/fonts/pull/6594
+ofl/notosansoldhungarian # https://github.com/google/fonts/pull/5307
+ofl/notosansoldturkic # https://github.com/google/fonts/pull/5317
+ofl/notoserifottomansiyaq # https://github.com/google/fonts/pull/6581
 ofl/robotocondensed # https://github.com/google/fonts/pull/6570
 ofl/robotoflex # https://github.com/google/fonts/pull/6484
 ofl/wixmadefordisplay # https://github.com/google/fonts/pull/6607
 ofl/wixmadefortext # https://github.com/google/fonts/pull/6608
+
+# To re-push to upgrade subset
+ofl/notosansethiopic
+ofl/notoserifethiopic
+
+# Designer profile
+catalog/designers/oliviaking # https://github.com/google/fonts/pull/6471
 
 # Metadata / Description / License
 ofl/mingzat # https://github.com/google/fonts/pull/6574
@@ -15,7 +27,6 @@ ofl/notosansbatak # https://github.com/google/fonts/pull/6574
 ofl/notosansbuhid # https://github.com/google/fonts/pull/6574
 ofl/notosanshanunoo # https://github.com/google/fonts/pull/6575
 ofl/notosanskaithi # https://github.com/google/fonts/pull/6574
-ofl/notosanskhudawadi # https://github.com/google/fonts/pull/6563
 ofl/notosanslepcha # https://github.com/google/fonts/pull/6574
 ofl/notosansmahajani # https://github.com/google/fonts/pull/6574
 ofl/notosansolchiki # https://github.com/google/fonts/pull/6574
@@ -30,16 +41,5 @@ lang/languages/bho_Kthi.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/bku_Buhd.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/doi_Takr.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/hnn_Hano.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Avst.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Batk.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Buhd.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Dogr.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Hano.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Khoj.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Kthi.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Lepc.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Mahj.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Olck.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Saur.textproto # https://github.com/google/fonts/pull/6573
-# Deleted: lang/languages/sa_Takr.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/saz_Saur.textproto # https://github.com/google/fonts/pull/6573
+ofl/notosanskhudawadi # https://github.com/google/fonts/pull/6612

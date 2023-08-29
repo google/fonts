@@ -42,5 +42,3 @@ source {
   repository_url: "https://github.com/canonical/Ubuntu-fonts"
   archive_url: "https://github.com/canonical/Ubuntu-fonts/releases/download/v.1001/Ubuntu-fonts-1.001.zip"
 }
-sample_text {
-}

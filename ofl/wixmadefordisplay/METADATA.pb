@@ -27,7 +27,5 @@ source {
   repository_url: "https://github.com/wix/wixmadefor"
   archive_url: "https://github.com/wix/wixmadefor/releases/download/3.100/wixmadefor-fonts.zip"
 }
-sample_text {
-}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

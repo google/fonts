@@ -19,3 +19,4 @@ source {
   repository_url: "https://github.com/noirblancrouge/YoungSerif"
   commit: "8d67638d5ae1aa9e339d53326cd608e186d03dbd"
 }
+stroke: "SERIF"

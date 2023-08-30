@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/lavishly-yours"
   commit: "06ea77a251dc2d763d199995ec06da0a0c1a85f1"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

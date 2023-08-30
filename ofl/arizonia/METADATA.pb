@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/arizonia"
   commit: "e135e3351c17de6f0f12066e98d7af9abe1cd76e"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

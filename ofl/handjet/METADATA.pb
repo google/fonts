@@ -45,3 +45,5 @@ source {
   repository_url: "https://github.com/rosettatype/handjet"
   commit: "3918b7798e06c81da6bc558e88dfddd5a6b49807"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

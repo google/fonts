@@ -72,6 +72,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-lateef"
-  archive_url: "https://github.com/silnrsi/font-lateef/releases/download/v4.000/Lateef-4.000.zip"
+  archive_url: "https://github.com/silnrsi/font-lateef/releases/download/v4.200/Lateef-4.200.zip"
 }
 primary_script: "Arab"

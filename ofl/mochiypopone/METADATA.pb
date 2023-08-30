@@ -15,3 +15,5 @@ fonts {
 subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

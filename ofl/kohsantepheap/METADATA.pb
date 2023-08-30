@@ -1,7 +1,7 @@
 name: "Koh Santepheap"
 designer: "Danh Hong"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2021-06-10"
 fonts {
   name: "Koh Santepheap"

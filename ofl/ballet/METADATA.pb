@@ -25,3 +25,5 @@ registry_default_overrides {
   key: "opsz"
   value: 16.0
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

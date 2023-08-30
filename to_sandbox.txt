@@ -1,36 +1,38 @@
 # New
-ofl/adlamdisplay # https://github.com/google/fonts/pull/6522
-ofl/bricolagegrotesque # https://github.com/google/fonts/pull/6523
+ofl/inclusivesans # https://github.com/google/fonts/pull/6359
 
 # Upgrade
-ofl/notosansindicsiyaqnumbers # https://github.com/google/fonts/pull/5285
-ofl/notosansinscriptionalpahlavi # https://github.com/google/fonts/pull/5286
-ofl/notosanskhojki # https://github.com/google/fonts/pull/6427
-ofl/notosanslycian # https://github.com/google/fonts/pull/5287
-ofl/notosansmayannumerals # https://github.com/google/fonts/pull/5288
-ofl/notosanstakri # https://github.com/google/fonts/pull/6409
-ofl/notoserifkhojki # https://github.com/google/fonts/pull/6426
-ofl/oswald # https://github.com/google/fonts/pull/6514
-ofl/teko # https://github.com/google/fonts/pull/6560
-ofl/wavefont # https://github.com/google/fonts/pull/6572
+ofl/mako # https://github.com/google/fonts/pull/6565
+ofl/norican # https://github.com/google/fonts/pull/6594
+ofl/notosansoldhungarian # https://github.com/google/fonts/pull/5307
+ofl/notosansoldturkic # https://github.com/google/fonts/pull/5317
+ofl/notoserifottomansiyaq # https://github.com/google/fonts/pull/6581
+ofl/robotocondensed # https://github.com/google/fonts/pull/6570
+ofl/robotoflex # https://github.com/google/fonts/pull/6484
+ofl/wixmadefordisplay # https://github.com/google/fonts/pull/6607
+ofl/wixmadefortext # https://github.com/google/fonts/pull/6608
 
-# Axis Registry
-axisregistry/z_rotation.textproto # https://github.com/google/fonts/pull/6554
+# To re-push to upgrade subset
+ofl/notosansethiopic
+ofl/notoserifethiopic
+
+# Designer profile
+catalog/designers/oliviaking # https://github.com/google/fonts/pull/6471
 
 # Metadata / Description / License
-ofl/gulzar # https://github.com/google/fonts/pull/6562
 ofl/mingzat # https://github.com/google/fonts/pull/6574
+ofl/notoemoji # https://github.com/google/fonts/pull/6637
 ofl/notosansavestan # https://github.com/google/fonts/pull/6574
 ofl/notosansbatak # https://github.com/google/fonts/pull/6574
 ofl/notosansbuhid # https://github.com/google/fonts/pull/6574
 ofl/notosanshanunoo # https://github.com/google/fonts/pull/6575
 ofl/notosanskaithi # https://github.com/google/fonts/pull/6574
-ofl/notosanskhudawadi # https://github.com/google/fonts/pull/6563
 ofl/notosanslepcha # https://github.com/google/fonts/pull/6574
 ofl/notosansmahajani # https://github.com/google/fonts/pull/6574
 ofl/notosansolchiki # https://github.com/google/fonts/pull/6574
 ofl/notosanssaurashtra # https://github.com/google/fonts/pull/6574
 ofl/notoserifdogra # https://github.com/google/fonts/pull/6576
+ofl/wavefont # https://github.com/google/fonts/pull/6635
 
 # Sample texts
 lang/languages/ae_Avst.textproto # https://github.com/google/fonts/pull/6573
@@ -40,3 +42,4 @@ lang/languages/bku_Buhd.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/doi_Takr.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/hnn_Hano.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/saz_Saur.textproto # https://github.com/google/fonts/pull/6573
+ofl/notosanskhudawadi # https://github.com/google/fonts/pull/6612

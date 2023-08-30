@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/etunni/warnes"
   commit: "ec72daae3a0a1542706f636b9165f70874599cc5"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

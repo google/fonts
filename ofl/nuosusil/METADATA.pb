@@ -1,7 +1,7 @@
 name: "Nuosu SIL"
 designer: "SIL International"
 license: "OFL"
-category: "SERIF"
+category: "SANS_SERIF"
 date_added: "2022-04-28"
 fonts {
   name: "Nuosu SIL"

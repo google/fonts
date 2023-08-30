@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/whisper"
   commit: "e546c2e4c06f4d04a8e5400ac64aba88b1cca511"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

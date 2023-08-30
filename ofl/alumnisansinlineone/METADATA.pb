@@ -30,3 +30,5 @@ source {
   repository_url: "https://github.com/googlefonts/alumni-sans-inline"
   commit: "81ea544e0ce487475c75df9545cd3df946c7ba26"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

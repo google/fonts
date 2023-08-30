@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/googlefonts/Bruno-ace"
   commit: "4eb5f7fc38a1548b353b4ee03b1f7043b48ae181"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

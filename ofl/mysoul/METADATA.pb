@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/my-soul"
   commit: "13b1f37605ab5bd23b9c71be2d8f639810996236"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

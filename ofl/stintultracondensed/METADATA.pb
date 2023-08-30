@@ -1,7 +1,7 @@
 name: "Stint Ultra Condensed"
 designer: "Astigmatic"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2011-12-07"
 fonts {
   name: "Stint Ultra Condensed"
@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

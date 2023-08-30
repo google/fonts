@@ -1,7 +1,7 @@
 name: "Narnoor"
 designer: "SIL International"
 license: "OFL"
-category: "SERIF"
+category: "SANS_SERIF"
 date_added: "2023-03-03"
 fonts {
   name: "Narnoor"
@@ -20,5 +20,5 @@ source {
   repository_url: "https://github.com/silnrsi/font-narnoor"
   archive_url: "https://github.com/silnrsi/font-narnoor/releases/download/v2.000/Narnoor-2.000.zip"
 }
-languages: "wsg_Gong"  # Adilabad Gondi, Gunjala Gondi
+languages: "wsg_Gong"
 primary_script: "Gong"

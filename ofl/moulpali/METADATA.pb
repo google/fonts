@@ -1,7 +1,7 @@
 name: "Moulpali"
 designer: "Danh Hong"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2011-03-02"
 fonts {
   name: "Moulpali"

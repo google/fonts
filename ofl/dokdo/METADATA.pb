@@ -1,7 +1,7 @@
 name: "Dokdo"
 designer: "FONTRIX"
 license: "OFL"
-category: "HANDWRITING"
+category: "DISPLAY"
 date_added: "2018-02-23"
 fonts {
   name: "Dokdo"

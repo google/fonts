@@ -28,3 +28,5 @@ axes {
   min_value: 100.0
   max_value: 700.0
 }
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

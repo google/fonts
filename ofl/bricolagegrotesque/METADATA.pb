@@ -37,3 +37,5 @@ source {
   commit: "84745e5b96261ae5f8c6c856e262fe78d1d6efdd"
 }
 minisite_url: "https://ateliertriay.github.io/bricolage"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

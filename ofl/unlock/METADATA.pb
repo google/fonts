@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/etunni/unlock"
   commit: "cf3defaec0849f2d59a9db60eb810ffa32d07eee"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

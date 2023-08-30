@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/PaoloBiagini/Joan"
   commit: "981cb73299f7d9164eedcb647e57fb34c9dc1139"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

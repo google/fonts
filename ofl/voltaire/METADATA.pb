@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/SorkinType/Voltaire"
   commit: "0954355156a43a9dc7d53c32a7bedc63a187d456"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

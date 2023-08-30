@@ -47,3 +47,5 @@ source {
   repository_url: "https://github.com/googlefonts/Playfair"
   commit: "beae63554370252f8d45c3eb95f809fcba56af9c"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

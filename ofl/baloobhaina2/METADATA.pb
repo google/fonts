@@ -23,3 +23,5 @@ axes {
   max_value: 800.0
 }
 primary_script: "Orya"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

@@ -15,3 +15,5 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

@@ -29,3 +29,5 @@ source {
   commit: "e0398e2d7e84a9f08cf7ec67bb463e4e2bb35431"
 }
 minisite_url: "https://kampanjat.hs.fi/climatefont/index.html"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

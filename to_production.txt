@@ -1,11 +1,12 @@
-# New
-ofl/ruwudu # https://github.com/google/fonts/pull/6549
-
 # Upgrade
 ofl/notosans # https://github.com/google/fonts/pull/5789
-ofl/notosansimperialaramaic # https://github.com/google/fonts/pull/5284
-ofl/notosansmandaic # https://github.com/google/fonts/pull/5282
-ofl/robotoflex # https://github.com/google/fonts/pull/6484
+
+# Designer profile
+catalog/designers/dmitryivanov # https://github.com/google/fonts/pull/6382
+catalog/designers/mathieutriay # https://github.com/google/fonts/pull/6386
+
+# Axis Registry
+axisregistry/z_rotation.textproto # https://github.com/google/fonts/pull/6527
 
 # Sample texts
 lang/languages/af_Latn.textproto # https://github.com/google/fonts/pull/6468

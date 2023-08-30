@@ -1,7 +1,7 @@
 name: "Siemreap"
 designer: "Danh Hong"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2011-04-20"
 fonts {
   name: "Siemreap"

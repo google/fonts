@@ -1,7 +1,7 @@
 name: "Noto Serif Khitan Small Script"
 designer: "Google"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2023-01-11"
 fonts {
   name: "Noto Serif Khitan Small Script"

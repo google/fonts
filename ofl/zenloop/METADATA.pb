@@ -24,3 +24,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

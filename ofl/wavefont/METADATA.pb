@@ -32,11 +32,11 @@ axes {
 }
 registry_default_overrides {
   key: "ROND"
-  value: 100
+  value: 100.0
 }
 registry_default_overrides {
   key: "YELA"
-  value: -100
+  value: -100.0
 }
 source {
   repository_url: "https://github.com/dy/wavefont"
@@ -51,4 +51,6 @@ sample_text {
   poster_md: "0123456789"
   poster_lg: "0123456789"
 }
-minisite_url: "https://dy.github.io/wavefont/out"
+minisite_url: "https://dy.github.io/wavefont/scripts/"
+classifications: "DISPLAY"
+classifications: "SYMBOLS"

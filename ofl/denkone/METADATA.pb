@@ -21,3 +21,5 @@ source {
   repository_url: "https://github.com/SorkinType/Denk-One"
   commit: "95da30b8aa7bd5fb3045afb2fe054bf1b2e4e029"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

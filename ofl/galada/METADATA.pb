@@ -15,3 +15,5 @@ fonts {
 subsets: "bengali"
 subsets: "latin"
 subsets: "menu"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

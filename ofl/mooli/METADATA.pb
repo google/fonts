@@ -19,3 +19,4 @@ source {
   repository_url: "https://github.com/googlefonts/mooliFont"
   commit: "ecf6cc6fe2cb9c9d61f243f673c9181188f81499"
 }
+stroke: "SANS_SERIF"

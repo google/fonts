@@ -21,5 +21,4 @@ source {
   archive_url: "https://github.com/notofonts/khudawadi/releases/download/NotoSansKhudawadi-v2.003/NotoSansKhudawadi-v2.003.zip"
 }
 is_noto: true
-languages: "sd_Sind"  # Sindhi, Khudawadi
-primary_script: "Sind"
+languages: "sd_Khud"  # Sindhi, Khudawadi

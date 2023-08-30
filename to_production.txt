@@ -8,6 +8,9 @@ catalog/designers/mathieutriay # https://github.com/google/fonts/pull/6386
 # Axis Registry
 axisregistry/z_rotation.textproto # https://github.com/google/fonts/pull/6527
 
+# Metadata / Description / License
+ofl/notoserifkhitansmallscript # https://github.com/google/fonts/pull/6586
+
 # Sample texts
 lang/languages/af_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/agq_Latn.textproto # https://github.com/google/fonts/pull/6468
@@ -113,4 +116,3 @@ lang/languages/lep_Lepc.textproto # https://github.com/google/fonts/pull/6548
 lang/languages/lkt_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/sat_Olck.textproto # https://github.com/google/fonts/pull/6548
 lang/languages/sd_Khoj.textproto # https://github.com/google/fonts/pull/6548
-lang/languages/sd_Khud.textproto # https://github.com/google/fonts/pull/6548

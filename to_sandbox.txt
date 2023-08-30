@@ -1,7 +1,10 @@
 # New
 ofl/inclusivesans # https://github.com/google/fonts/pull/6359
+ofl/mooli # https://github.com/google/fonts/pull/6585
 
 # Upgrade
+ofl/bricolagegrotesque # https://github.com/google/fonts/pull/6523
+ofl/lateef # https://github.com/google/fonts/pull/6627
 ofl/mako # https://github.com/google/fonts/pull/6565
 ofl/norican # https://github.com/google/fonts/pull/6594
 ofl/notosansoldhungarian # https://github.com/google/fonts/pull/5307
@@ -9,6 +12,7 @@ ofl/notosansoldturkic # https://github.com/google/fonts/pull/5317
 ofl/notoserifottomansiyaq # https://github.com/google/fonts/pull/6581
 ofl/robotocondensed # https://github.com/google/fonts/pull/6570
 ofl/robotoflex # https://github.com/google/fonts/pull/6484
+ofl/seymourone # https://github.com/google/fonts/pull/6598
 ofl/wixmadefordisplay # https://github.com/google/fonts/pull/6607
 ofl/wixmadefortext # https://github.com/google/fonts/pull/6608
 
@@ -42,3 +46,4 @@ lang/languages/bku_Buhd.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/doi_Takr.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/hnn_Hano.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/saz_Saur.textproto # https://github.com/google/fonts/pull/6573
+lang/languages/sd_Sind.textproto # https://github.com/google/fonts/pull/6648

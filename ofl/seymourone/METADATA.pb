@@ -19,5 +19,6 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/seymourFont"
   commit: "67aa8dc604b252424e431a73ff50011cc474d881"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -31,5 +31,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/karla"
-  commit: "e04a98d57933cf18a8e4913506aa9aac99a1756c"
+  commit: "69b25f663101efb4113dd7ed416c120dd2dce56a"
 }

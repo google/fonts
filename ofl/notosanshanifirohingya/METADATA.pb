@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/hanifi-rohingya.git"
-  archive_url: "https://github.com/notofonts/hanifi-rohingya/releases/download/NotoSansHanifiRohingya-v2.101/NotoSansHanifiRohingya-v2.101.zip"
+  archive_url: "https://github.com/notofonts/hanifi-rohingya/releases/download/NotoSansHanifiRohingya-v2.102/NotoSansHanifiRohingya-v2.102.zip"
 }
 is_noto: true
 languages: "rhg_Rohg"  # Rohingya

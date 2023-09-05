@@ -26,3 +26,9 @@ source {
   archive_url: "https://github.com/notofonts/nko/releases/download/NotoSansNKoUnjoined-v2.004/NotoSansNKoUnjoined-v2.004.zip"
 }
 is_noto: true
+languages: "bm_Nkoo"  # Bambara, Nko
+languages: "dyu_Nkoo"  # Dyula, Nko
+languages: "man_Nkoo"  # Mandingo, Nko
+languages: "nqo_Nkoo"  # N’Ko
+display_name: "Noto Sans N\'Ko Unjoined"
+primary_script: "Nkoo"

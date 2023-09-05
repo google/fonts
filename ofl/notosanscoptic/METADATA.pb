@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/coptic.git"
-  archive_url: "https://github.com/notofonts/coptic/releases/download/NotoSansCoptic-v2.002/NotoSansCoptic-v2.002.zip"
+  archive_url: "https://github.com/notofonts/coptic/releases/download/NotoSansCoptic-v2.003/NotoSansCoptic-v2.003.zip"
 }
 is_noto: true
 languages: "cop_Copt"  # Coptic, Coptic

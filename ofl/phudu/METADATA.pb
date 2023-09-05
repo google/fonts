@@ -26,3 +26,5 @@ source {
   repository_url: "https://github.com/duongtrtype/DTPhudu"
   commit: "338aed71470e70e6d00a919489ca7da21792e7e6"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

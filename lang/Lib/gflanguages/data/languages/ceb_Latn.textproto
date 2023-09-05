@@ -8,7 +8,7 @@ region: "PH"
 exemplar_chars {
   base: "a b d e g h i k l m n o p r s t u w y"
   auxiliary: "c f j ñ q v x z"
-  punctuation: "- ‑ , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & # ′ ″"
+  punctuation: "- , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }
 sample_text {

@@ -40,3 +40,5 @@ source {
   repository_url: "https://github.com/Etcetera-Type-Co/Anybody"
   commit: "fe7b55cf9d1563348ad95ac8e05f43b81a420c31"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

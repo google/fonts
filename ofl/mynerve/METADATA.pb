@@ -21,3 +21,5 @@ source {
   repository_url: "https://github.com/carolinashort/MyNerve"
   commit: "4220ec76c588d97b43757c5332b0aa45ed9a52f3"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

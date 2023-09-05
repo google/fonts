@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/etunni/joti"
   commit: "7feedf8bad69029e82ae281c7a100fb639d946e1"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

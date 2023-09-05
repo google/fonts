@@ -21,3 +21,5 @@ source {
   repository_url: "https://github.com/duartp/gloock"
   commit: "de92978ce821ae0cba86954b4c46abc70486981d"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

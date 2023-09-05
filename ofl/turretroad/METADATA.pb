@@ -60,3 +60,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

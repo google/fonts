@@ -31,5 +31,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/erikdkennedy/figtree"
-  commit: "200de49f71e1dd2b01290bc3bc2c98118e10c62d"
+  commit: "efdedb2a9337b5baa897771e91ac9203f99e2084"
 }

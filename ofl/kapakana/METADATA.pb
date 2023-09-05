@@ -21,6 +21,8 @@ axes {
   min_value: 300.0
   max_value: 400.0
 }
-primary_script: "Hira"
 languages: "ja_Kana"
 languages: "ja_Hira"
+primary_script: "Hira"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

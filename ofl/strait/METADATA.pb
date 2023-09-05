@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/etunni/Strait"
   commit: "527c8d122601563758492117058d6727aa58cd32"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

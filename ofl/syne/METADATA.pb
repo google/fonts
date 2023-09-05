@@ -26,3 +26,5 @@ source {
   repository_url: "https://gitlab.com/bonjour-monde/fonderie/syne-typeface"
   commit: "d9098c0a72125d411dbb225a2e5a61dc15265ffc"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

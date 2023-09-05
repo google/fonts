@@ -21,3 +21,5 @@ source {
   repository_url: "https://github.com/etunni/Gabriela"
   commit: "961e4fb89c38cbe8ddcc3c9268c42d94c834d5da"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

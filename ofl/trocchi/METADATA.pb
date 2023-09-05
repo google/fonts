@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/m4rc1e/Trocchi"
   commit: "543ac4fee3173ed80706c4caf5398b8bb3439ae1"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

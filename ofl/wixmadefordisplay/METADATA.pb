@@ -25,5 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/wix/wixmadefor"
-  archive_url: "https://github.com/wix/wixmadefor/releases/download/1.200/wixmadefor-fonts.zip"
+  archive_url: "https://github.com/wix/wixmadefor/releases/download/3.100/wixmadefor-fonts.zip"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

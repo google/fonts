@@ -41,3 +41,5 @@ source {
   repository_url: "https://github.com/googlefonts/Advent"
   commit: "d206a139ee9045993fbd1e530b93f28f8bf4e3b1"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

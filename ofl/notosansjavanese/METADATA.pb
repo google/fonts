@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/javanese.git"
-  archive_url: "https://github.com/notofonts/javanese/releases/download/NotoSansJavanese-v2.004/NotoSansJavanese-v2.004.zip"
+  archive_url: "https://github.com/notofonts/javanese/releases/download/NotoSansJavanese-v2.005/NotoSansJavanese-v2.005.zip"
 }
 is_noto: true
 languages: "jv_Java"  # Javanese, Javanese

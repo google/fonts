@@ -10,8 +10,8 @@ exemplar_chars {
   base: "a A à À b B c C d D e E é É ë Ë f F g G i I j J k K l L m M n N ñ Ñ ŋ Ŋ o O ó Ó p P q Q r R s S t T u U w W x X y Y"
   auxiliary: "ã Ã h H v V z Z"
   marks: "◌̀ ◌́ ◌̃ ◌̈"
-  numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
-  punctuation: "- ‑ , ; : ! ? . ( ) [ ] { }"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+  punctuation: "- , ; : ! ? . ( ) [ ] { }"
   index: "A B C D E F G H I J K L M N Ŋ O P Q R S T U V W X Y Z"
 }
 sample_text {

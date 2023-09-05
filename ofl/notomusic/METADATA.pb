@@ -30,3 +30,5 @@ sample_text {
   poster_md: "𝄆 𝄞𝄰 𝅗𝅥𝅘𝅥𝅮𝅘𝅥𝅮𝅘𝅥 𝄇"
   poster_lg: "𝄞𝅘𝅥𝅯"
 }
+stroke: "SANS_SERIF"
+classifications: "SYMBOLS"

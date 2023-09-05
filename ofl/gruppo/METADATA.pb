@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/GruppoFont"
   commit: "20e1bc8c76ee1d692c5645b8aaf971cc58ca2e51"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

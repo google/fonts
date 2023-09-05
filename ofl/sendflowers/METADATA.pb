@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/send-flowers"
   commit: "5cee2ce8a5ce832b12d409fee214f54164916e92"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

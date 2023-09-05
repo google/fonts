@@ -34,3 +34,4 @@ source {
   repository_url: "https://github.com/Fonthausen/RokkittFont"
   commit: "762d1439aaa7cf4a590f604451dfc2e1c6970b9f"
 }
+stroke: "SLAB_SERIF"

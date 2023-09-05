@@ -28,3 +28,5 @@ source {
   repository_url: "https://github.com/docrepair-fonts/agdasima-fonts"
   commit: "c971400d774dfd6d28e7a8e34aedc3b3dfdce6f9"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

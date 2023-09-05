@@ -1,7 +1,7 @@
 name: "Dhyana"
 designer: "Vernon Adams"
 license: "OFL"
-category: "SERIF"
+category: "SANS_SERIF"
 date_added: "2011-12-15"
 fonts {
   name: "Dhyana"

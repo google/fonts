@@ -23,3 +23,5 @@ axes {
   max_value: 800.0
 }
 primary_script: "Deva"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

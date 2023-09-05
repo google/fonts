@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/etunni/diplomata"
   commit: "32dc35e6b420631acc10808e1f92f74e3048e81d"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

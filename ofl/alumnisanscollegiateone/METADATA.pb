@@ -31,3 +31,5 @@ source {
   repository_url: "https://github.com/googlefonts/alumni-sans-collegiate"
   commit: "9dc96be1ead732fb1677c88632665e0bbf2e4ee2"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

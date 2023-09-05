@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/splash"
   commit: "7653a0b5fcccd37a920ba9a4da8f1680c0203af2"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

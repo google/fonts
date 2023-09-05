@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/etunni/unica"
   commit: "e92da87539ff465aab50b7767512080bf71e39f1"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

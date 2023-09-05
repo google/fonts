@@ -22,5 +22,4 @@ source {
 }
 is_noto: true
 languages: "bku_Buhd"  # Buhid, Buhid
-languages: "sa_Buhd"  # Sanskrit, Buhid
 primary_script: "Buhd"

@@ -33,3 +33,5 @@ source {
   repository_url: "https://github.com/jeremymickel/RedHatFonts"
   commit: "d20968c93b62cedcc5ca4d2de2d8063c7efe35d1"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

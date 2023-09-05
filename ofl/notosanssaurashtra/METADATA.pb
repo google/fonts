@@ -21,6 +21,5 @@ source {
   archive_url: "https://github.com/notofonts/saurashtra/releases/download/NotoSansSaurashtra-v2.002/NotoSansSaurashtra-v2.002.zip"
 }
 is_noto: true
-languages: "sa_Saur"  # Sanskrit, Saurashtra
 languages: "saz_Saur"  # Saurashtra
 primary_script: "Saur"

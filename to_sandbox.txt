@@ -1,40 +1,49 @@
 # New
-ofl/bricolagegrotesque # https://github.com/google/fonts/pull/6378
-ofl/lugrasimo # https://github.com/google/fonts/pull/6251
-ofl/lumanosimo # https://github.com/google/fonts/pull/6250
-ofl/lunasima # https://github.com/google/fonts/pull/6253
-ofl/notosanscyprominoan # https://github.com/google/fonts/pull/5702
-ofl/notosanssyriaceastern # https://github.com/google/fonts/pull/5740
-ofl/notosansvithkuqi # https://github.com/google/fonts/pull/5393
-ofl/notoserifkhitansmallscript # https://github.com/google/fonts/pull/5767
-ofl/notoserifvithkuqi # https://github.com/google/fonts/pull/5394
-ofl/victormono # https://github.com/google/fonts/pull/6396
-ofl/wavefont # https://github.com/google/fonts/pull/6185
+ofl/inclusivesans # https://github.com/google/fonts/pull/6359
+ofl/mooli # https://github.com/google/fonts/pull/6585
 
 # Upgrade
-ofl/joan # https://github.com/google/fonts/pull/6416
-ofl/notosans # https://github.com/google/fonts/pull/5789
-ofl/notosansgunjalagondi # https://github.com/google/fonts/pull/5701
-ofl/notosanshatran # https://github.com/google/fonts/pull/5309
-ofl/notosansmarchen # https://github.com/google/fonts/pull/5310
-ofl/notosansolditalic # https://github.com/google/fonts/pull/5311
-ofl/notosansoldnortharabian # https://github.com/google/fonts/pull/5312
-ofl/notosansoldpermic # https://github.com/google/fonts/pull/5314
-ofl/notosansoldpersian # https://github.com/google/fonts/pull/5313
-ofl/notosansoldsoutharabian # https://github.com/google/fonts/pull/5315
+ofl/bricolagegrotesque # https://github.com/google/fonts/pull/6523
+ofl/lateef # https://github.com/google/fonts/pull/6627
+ofl/mako # https://github.com/google/fonts/pull/6565
+ofl/norican # https://github.com/google/fonts/pull/6594
+ofl/notosansoldhungarian # https://github.com/google/fonts/pull/5307
 ofl/notosansoldturkic # https://github.com/google/fonts/pull/5317
-ofl/tektur # https://github.com/google/fonts/pull/6395
+ofl/notoserifottomansiyaq # https://github.com/google/fonts/pull/6581
+ofl/robotocondensed # https://github.com/google/fonts/pull/6570
+ofl/robotoflex # https://github.com/google/fonts/pull/6484
+ofl/seymourone # https://github.com/google/fonts/pull/6598
+ofl/wixmadefordisplay # https://github.com/google/fonts/pull/6607
+ofl/wixmadefortext # https://github.com/google/fonts/pull/6608
+
+# To re-push to upgrade subset
+ofl/notosansethiopic
+ofl/notoserifethiopic
 
 # Designer profile
-catalog/designers/danielgrumer # https://github.com/google/fonts/pull/6347
-catalog/designers/dmitryivanov # https://github.com/google/fonts/pull/6382
-catalog/designers/mathieutriay # https://github.com/google/fonts/pull/6386
-catalog/designers/omaimadajani # https://github.com/google/fonts/pull/6370
-catalog/designers/runebjorneras # https://github.com/google/fonts/pull/6397
+catalog/designers/oliviaking # https://github.com/google/fonts/pull/6471
 
 # Metadata / Description / License
-ofl/rubik # https://github.com/google/fonts/pull/6383
+ofl/mingzat # https://github.com/google/fonts/pull/6574
+ofl/notoemoji # https://github.com/google/fonts/pull/6637
+ofl/notosansavestan # https://github.com/google/fonts/pull/6574
+ofl/notosansbatak # https://github.com/google/fonts/pull/6574
+ofl/notosansbuhid # https://github.com/google/fonts/pull/6574
+ofl/notosanshanunoo # https://github.com/google/fonts/pull/6575
+ofl/notosanskaithi # https://github.com/google/fonts/pull/6574
+ofl/notosanslepcha # https://github.com/google/fonts/pull/6574
+ofl/notosansmahajani # https://github.com/google/fonts/pull/6574
+ofl/notosansolchiki # https://github.com/google/fonts/pull/6574
+ofl/notosanssaurashtra # https://github.com/google/fonts/pull/6574
+ofl/notoserifdogra # https://github.com/google/fonts/pull/6576
+ofl/wavefont # https://github.com/google/fonts/pull/6635
 
 # Sample texts
-lang/languages/sq_Vith.textproto # https://github.com/google/fonts/pull/6417
-lang/scripts/Vith.textproto # https://github.com/google/fonts/pull/6417
+lang/languages/ae_Avst.textproto # https://github.com/google/fonts/pull/6573
+lang/languages/bbc_Batk.textproto # https://github.com/google/fonts/pull/6573
+lang/languages/bho_Kthi.textproto # https://github.com/google/fonts/pull/6573
+lang/languages/bku_Buhd.textproto # https://github.com/google/fonts/pull/6573
+lang/languages/doi_Takr.textproto # https://github.com/google/fonts/pull/6573
+lang/languages/hnn_Hano.textproto # https://github.com/google/fonts/pull/6573
+lang/languages/saz_Saur.textproto # https://github.com/google/fonts/pull/6573
+lang/languages/sd_Sind.textproto # https://github.com/google/fonts/pull/6648

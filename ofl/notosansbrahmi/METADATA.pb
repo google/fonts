@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansBrahmi-Regular.ttf"
   post_script_name: "NotoSansBrahmi-Regular"
   full_name: "Noto Sans Brahmi Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/brahmi)"
 }
-subsets: "menu"
 subsets: "brahmi"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/brahmi.git"
+  archive_url: "https://github.com/notofonts/brahmi/releases/download/NotoSansBrahmi-v2.003/NotoSansBrahmi-v2.003.zip"
+}
 is_noto: true
 languages: "aii_Brah"  # Assyrian Neo-Aramaic, Brahmi
 languages: "pi_Brah"  # Pali, Brahmi

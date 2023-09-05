@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/docrepair-fonts/lumanosimo-fonts"
   commit: "a7395fda4d79523ae6f0a798e2ea2d8ed524fc80"
 }
+stroke: "SERIF"
+classifications: "HANDWRITING"

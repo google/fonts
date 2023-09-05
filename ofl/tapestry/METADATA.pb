@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/tapestry"
   commit: "b38b62f1a12633abf4c2a11fad398afdd162427b"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

@@ -24,3 +24,4 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SLAB_SERIF"

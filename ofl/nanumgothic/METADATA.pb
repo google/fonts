@@ -1,7 +1,7 @@
 name: "Nanum Gothic"
 designer: "Sandoll Communication"
 license: "OFL"
-category: "HANDWRITING"
+category: "SANS_SERIF"
 date_added: "2012-05-09"
 fonts {
   name: "Nanum Gothic"

@@ -1,7 +1,7 @@
 name: "Amiri Quran Colored"
 designer: "Khaled Hosny, Sebastian Kosch"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2021-12-01"
 fonts {
   name: "Amiri Quran Colored"
@@ -14,4 +14,3 @@ fonts {
 }
 subsets: "arabic"
 subsets: "menu"
-

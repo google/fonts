@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/SorkinType/Calistoga"
   commit: "29e91526013f0d5b53862fee3c5ce6c108394812"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

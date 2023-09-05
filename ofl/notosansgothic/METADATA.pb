@@ -10,9 +10,16 @@ fonts {
   filename: "NotoSansGothic-Regular.ttf"
   post_script_name: "NotoSansGothic-Regular"
   full_name: "Noto Sans Gothic Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gothic)"
 }
-subsets: "menu"
 subsets: "gothic"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/gothic.git"
+  archive_url: "https://github.com/notofonts/gothic/releases/download/NotoSansGothic-v2.001/NotoSansGothic-v2.001.zip"
+}
 is_noto: true
 languages: "got_Goth"  # Gothic
+primary_script: "Goth"

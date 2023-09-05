@@ -35,3 +35,5 @@ source {
   repository_url: "https://github.com/Omnibus-Type/Chivo"
   commit: "dc61c468d79781eb5183426e88e844af16cdc3e5"
 }
+stroke: "SANS_SERIF"
+classifications: "MONOSPACE"

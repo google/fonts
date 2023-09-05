@@ -10,9 +10,16 @@ fonts {
   filename: "NotoSansDeseret-Regular.ttf"
   post_script_name: "NotoSansDeseret-Regular"
   full_name: "Noto Sans Deseret Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/deseret)"
 }
-subsets: "menu"
 subsets: "deseret"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/deseret.git"
+  archive_url: "https://github.com/notofonts/deseret/releases/download/NotoSansDeseret-v2.001/NotoSansDeseret-v2.001.zip"
+}
 is_noto: true
 languages: "en_Dsrt"  # English, Deseret
+primary_script: "Dsrt"

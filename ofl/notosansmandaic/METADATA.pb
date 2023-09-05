@@ -10,9 +10,16 @@ fonts {
   filename: "NotoSansMandaic-Regular.ttf"
   post_script_name: "NotoSansMandaic-Regular"
   full_name: "Noto Sans Mandaic Regular"
-  copyright: "Copyright 2020 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mandaic)"
 }
-subsets: "menu"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "mandaic"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/mandaic.git"
+  archive_url: "https://github.com/notofonts/mandaic/releases/download/NotoSansMandaic-v2.002/NotoSansMandaic-v2.002.zip"
+}
 is_noto: true
 languages: "myz_Mand"  # Mandaic
+primary_script: "Mand"

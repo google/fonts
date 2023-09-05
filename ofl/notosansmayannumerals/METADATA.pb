@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansMayanNumerals-Regular.ttf"
   post_script_name: "NotoSansMayanNumerals-Regular"
   full_name: "Noto Sans Mayan Numerals Regular"
-  copyright: "Copyright 2019 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mayan-numerals)"
 }
-subsets: "menu"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "mayan-numerals"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/mayan-numerals.git"
+  archive_url: "https://github.com/notofonts/mayan-numerals/releases/download/NotoSansMayanNumerals-v2.001/NotoSansMayanNumerals-v2.001.zip"
+}
 is_noto: true
 sample_text {
   masthead_full: "𝋢𝋣𝋥𝋦"

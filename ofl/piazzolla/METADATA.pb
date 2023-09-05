@@ -43,3 +43,5 @@ source {
   repository_url: "https://github.com/huertatipografica/piazzolla"
   commit: "2c84615f45b98b75238401c53ef993e558082a63"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

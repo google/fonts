@@ -20,30 +20,3 @@ ofl/wixmadefortext # https://github.com/google/fonts/pull/6608
 ofl/notosansethiopic
 ofl/notoserifethiopic
 
-# Designer profile
-catalog/designers/oliviaking # https://github.com/google/fonts/pull/6471
-
-# Metadata / Description / License
-ofl/mingzat # https://github.com/google/fonts/pull/6574
-ofl/notoemoji # https://github.com/google/fonts/pull/6637
-ofl/notosansavestan # https://github.com/google/fonts/pull/6574
-ofl/notosansbatak # https://github.com/google/fonts/pull/6574
-ofl/notosansbuhid # https://github.com/google/fonts/pull/6574
-ofl/notosanshanunoo # https://github.com/google/fonts/pull/6575
-ofl/notosanskaithi # https://github.com/google/fonts/pull/6574
-ofl/notosanslepcha # https://github.com/google/fonts/pull/6574
-ofl/notosansmahajani # https://github.com/google/fonts/pull/6574
-ofl/notosansolchiki # https://github.com/google/fonts/pull/6574
-ofl/notosanssaurashtra # https://github.com/google/fonts/pull/6574
-ofl/notoserifdogra # https://github.com/google/fonts/pull/6576
-ofl/wavefont # https://github.com/google/fonts/pull/6635
-
-# Sample texts
-lang/languages/ae_Avst.textproto # https://github.com/google/fonts/pull/6573
-lang/languages/bbc_Batk.textproto # https://github.com/google/fonts/pull/6573
-lang/languages/bho_Kthi.textproto # https://github.com/google/fonts/pull/6573
-lang/languages/bku_Buhd.textproto # https://github.com/google/fonts/pull/6573
-lang/languages/doi_Takr.textproto # https://github.com/google/fonts/pull/6573
-lang/languages/hnn_Hano.textproto # https://github.com/google/fonts/pull/6573
-lang/languages/saz_Saur.textproto # https://github.com/google/fonts/pull/6573
-lang/languages/sd_Sind.textproto # https://github.com/google/fonts/pull/6648

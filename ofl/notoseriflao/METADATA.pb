@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/lao.git"
-  archive_url: "https://github.com/notofonts/lao/releases/download/NotoSerifLao-v2.002/NotoSerifLao-v2.002.zip"
+  archive_url: "https://github.com/notofonts/lao/releases/download/NotoSerifLao-v2.003/NotoSerifLao-v2.003.zip"
 }
 is_noto: true
 languages: "hnj_Laoo"  # Mong Njua

@@ -1,5 +1,7 @@
-archive: https://github.com/notofonts/lao/releases/download/NotoSerifLao-v2.002/NotoSerifLao-v2.002.zip
+archive: https://github.com/notofonts/lao/releases/download/NotoSerifLao-v2.003/NotoSerifLao-v2.003.zip
 branch: main
 files:
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   NotoSerifLao/googlefonts/variable-ttf/NotoSerifLao[wdth,wght].ttf: NotoSerifLao[wdth,wght].ttf

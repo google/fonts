@@ -30,4 +30,4 @@ source {
   repository_url: "https://github.com/niteeshy/ar-one-sans"
   commit: "a463b112ca9393f1904765e0f32891b849eb9cf1"
 }
-primary_script: "Zinh"
+

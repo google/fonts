@@ -33,3 +33,4 @@ source {
   repository_url: "https://github.com/hans-thiessen/Rethink-Sans"
   commit: "6ac9d7c3a1e47e390772174331bd953b4a824e64"
 }
+stroke: "SANS_SERIF"

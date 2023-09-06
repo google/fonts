@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "music"
 source {
   repository_url: "https://github.com/notofonts/music.git"
-  archive_url: "https://github.com/notofonts/music/releases/download/NotoMusic-v2.002/NotoMusic-v2.002.zip"
+  archive_url: "https://github.com/notofonts/music/releases/download/NotoMusic-v2.003/NotoMusic-v2.003.zip"
 }
 is_noto: true
 sample_text {

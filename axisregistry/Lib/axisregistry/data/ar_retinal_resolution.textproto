@@ -1,0 +1,15 @@
+tag: "ARRR"
+display_name: "AR Retinal Resolution"
+min_value: 10
+default_value: 10
+max_value: 60
+precision: 0
+fallback {
+  name: "Default"
+  value: 10
+}
+fallback_only: false
+description: 
+  " Resolution-specific enhancements in AR/VR typefaces to optimize"
+  " rendering across the different resolutions of the headsets"
+  " making designs accessible and easy to read."

@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "zanabazar-square"
 source {
   repository_url: "https://github.com/notofonts/zanabazar-square.git"
-  archive_url: "https://github.com/notofonts/zanabazar-square/releases/download/NotoSansZanabazarSquare-v2.005/NotoSansZanabazarSquare-v2.005.zip"
+  archive_url: "https://github.com/notofonts/zanabazar-square/releases/download/NotoSansZanabazarSquare-v2.006/NotoSansZanabazarSquare-v2.006.zip"
 }
 is_noto: true
 languages: "bo_Zanb"  # Tibetan, Zanabazar

@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/tai-viet/releases/download/NotoSansTaiViet-v2.003/NotoSansTaiViet-v2.003.zip
+archive: https://github.com/notofonts/tai-viet/releases/download/NotoSansTaiViet-v2.004/NotoSansTaiViet-v2.004.zip
 branch: main
 files:
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   NotoSansTaiViet/googlefonts/ttf/NotoSansTaiViet-Regular.ttf: NotoSansTaiViet-Regular.ttf

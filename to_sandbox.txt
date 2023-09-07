@@ -1,7 +1,5 @@
 # New
 ofl/aronesans # https://github.com/google/fonts/pull/6662
-ofl/inclusivesans # https://github.com/google/fonts/pull/6359
-ofl/mooli # https://github.com/google/fonts/pull/6585
 ofl/notosansnkounjoined # https://github.com/google/fonts/pull/6428
 ofl/onest # https://github.com/google/fonts/pull/6661
 ofl/rethinksans # https://github.com/google/fonts/pull/6651
@@ -9,11 +7,7 @@ ofl/youngserif # https://github.com/google/fonts/pull/6561
 
 # Upgrade
 ofl/bizudpgothic # https://github.com/google/fonts/pull/6664
-ofl/bricolagegrotesque # https://github.com/google/fonts/pull/6523
 ofl/karla # https://github.com/google/fonts/pull/6654
-ofl/lateef # https://github.com/google/fonts/pull/6627
-ofl/mako # https://github.com/google/fonts/pull/6565
-ofl/norican # https://github.com/google/fonts/pull/6594
 ofl/notomusic # https://github.com/google/fonts/pull/6400
 ofl/notosanscham # https://github.com/google/fonts/pull/6458
 ofl/notosanscoptic # https://github.com/google/fonts/pull/6431
@@ -35,18 +29,9 @@ ofl/notosanstangsa # https://github.com/google/fonts/pull/6410
 ofl/notosanstifinagh # https://github.com/google/fonts/pull/6467
 ofl/notosanszanabazarsquare # https://github.com/google/fonts/pull/6413
 ofl/notoseriflao # https://github.com/google/fonts/pull/6411
-ofl/notoserifottomansiyaq # https://github.com/google/fonts/pull/6581
-ofl/robotocondensed # https://github.com/google/fonts/pull/6570
 ofl/robotoflex # https://github.com/google/fonts/pull/6484
-ofl/seymourone # https://github.com/google/fonts/pull/6598
-ofl/wixmadefordisplay # https://github.com/google/fonts/pull/6607
 ofl/wixmadefortext # https://github.com/google/fonts/pull/6608
 
-# To re-push to upgrade subset
-ofl/notosansethiopic
-ofl/notoserifethiopic
-ofl/notosansoldhungarian # https://github.com/google/fonts/pull/5307
-ofl/notosansoldturkic # https://github.com/google/fonts/pull/5317
 
 # Designer profile
 catalog/designers/bastiensozeau # https://github.com/google/fonts/pull/6568

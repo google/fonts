@@ -1,5 +1,5 @@
 name: "Playpen Sans"
-designer: "TypeTogether, Laura Meseguer, Veronika Burian, José Scaglione"
+designer: "TypeTogether, Veronika Burian, Laura Meseguer, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2023-09-07"

@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/modi/releases/download/NotoSansModi-v2.003/NotoSansModi-v2.003.zip
+archive: https://github.com/notofonts/modi/releases/download/NotoSansModi-v2.004/NotoSansModi-v2.004.zip
 branch: main
 files:
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
   OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   NotoSansModi/googlefonts/ttf/NotoSansModi-Regular.ttf: NotoSansModi-Regular.ttf

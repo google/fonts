@@ -33,7 +33,22 @@ CLDR_SCRIPT_TO_UCD_SCRIPT = {
     "Simplified Han": "Han",
     "Korean": "Hangul",
     "Odia": "Oriya",
-    "Ol Chiki": "Ol_Chiki",
+    "Makasar": "Buginese",
+    "Lanna": "Tai Tham",
+    "Unified Canadian Aboriginal Syllabics": "Canadian Aboriginal",
+    "S-A Cuneiform": "Cuneiform",
+    "Pollard Phonetic": "Miao",
+    "Egyptian hieroglyphs": "Egyptian Hieroglyphs",
+    "Zanabazar": "Zanabazar Square",
+    "Nüshu": "Nushu",
+    "Mandaean": "Mandaic",
+    "N’Ko": "Nko",
+    "Varang Kshiti": "Warang Citi",
+    "Mende": "Mende Kikakui",
+    "Phags-pa": "Phags Pa",
+    "Fraser": "Lisu",
+    "Georgian Khutsuri": "Georgian",
+    "Orkhon": "Old Turkic",
 }
 
 SKIP_EXEMPLARS = {
@@ -58,7 +73,6 @@ SKIP_REGION = {
     "jbo_Latn": "Lobjan is an artifical language.",
     "tlh_Latn": "Klingon is an artifical language.",
 }
-
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
 @pytest.mark.parametrize(
@@ -173,4 +187,40 @@ def test_exemplars_are_in_script(lang_code):
         f"{lang_code} exemplars contained out-of-script characters"
         f": {', '.join(out_of_script.keys())}"
         f" from scripts {', '.join(set(out_of_script.values()))}"
+    )
+
+
+@pytest.mark.parametrize("lang_code", LANGUAGES.keys())
+def test_sample_texts_are_in_script(lang_code):
+    lang = LANGUAGES[lang_code]
+    script_name = SCRIPTS[lang.script].name
+    script_name = CLDR_SCRIPT_TO_UCD_SCRIPT.get(script_name, script_name)
+    if not lang.sample_text.ListFields():
+        pytest.skip("No sample text for language " + lang_code)
+        return
+    if lang.id in SKIP_EXEMPLARS:
+        pytest.skip(SKIP_EXEMPLARS[lang.id])
+        return
+    out_of_script = defaultdict(set)
+    for field in SampleText.fields:
+        if field.name == "note":
+            continue
+        samples = getattr(lang.sample_text, field.name)
+        chars = set(samples)
+        for char in chars:
+            char_script = youseedee.ucd_data(ord(char)).get("Script", "").replace("_", " ")
+            if char_script == "Common" or char_script == "Inherited":
+                continue
+            if char_script != script_name:
+                extensions = youseedee.ucd_data(ord(char)).get("Script_Extensions", "").split(" ")
+                if any(ext == lang.script for ext in extensions):
+                    continue
+                out_of_script[char_script].add(char)
+                break
+    msg = []
+    for script, chars in out_of_script.items():
+        msg.append(f"'{''.join(chars)}' ({script} != {script_name})")
+    assert not out_of_script, (
+        f"{lang_code} sample text contained out-of-script characters"
+        f": {', '.join(msg)}"
     )

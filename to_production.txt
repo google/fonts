@@ -1,5 +1,7 @@
 # Upgrade
 ofl/notosans # https://github.com/google/fonts/pull/5789
+ofl/notosanskhojki # https://github.com/google/fonts/pull/6427
+ofl/notoserifkhojki # https://github.com/google/fonts/pull/6426
 
 # Designer profile
 catalog/designers/dmitryivanov # https://github.com/google/fonts/pull/6382
@@ -9,9 +11,23 @@ catalog/designers/mathieutriay # https://github.com/google/fonts/pull/6386
 axisregistry/z_rotation.textproto # https://github.com/google/fonts/pull/6527
 
 # Metadata / Description / License
+ofl/mingzat # https://github.com/google/fonts/pull/6574
+ofl/notoemoji # https://github.com/google/fonts/pull/6637
+ofl/notosansavestan # https://github.com/google/fonts/pull/6574
+ofl/notosansbatak # https://github.com/google/fonts/pull/6574
+ofl/notosansbuhid # https://github.com/google/fonts/pull/6574
+ofl/notosanshanunoo # https://github.com/google/fonts/pull/6575
+ofl/notosanskaithi # https://github.com/google/fonts/pull/6574
+ofl/notosanslepcha # https://github.com/google/fonts/pull/6574
+ofl/notosansmahajani # https://github.com/google/fonts/pull/6574
+ofl/notosansolchiki # https://github.com/google/fonts/pull/6574
+ofl/notosanssaurashtra # https://github.com/google/fonts/pull/6574
+ofl/notoserifdogra # https://github.com/google/fonts/pull/6576
 ofl/notoserifkhitansmallscript # https://github.com/google/fonts/pull/6586
+ofl/wavefont # https://github.com/google/fonts/pull/6635
 
 # Sample texts
+lang/languages/ae_Avst.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/af_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/agq_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/ak_Latn.textproto # https://github.com/google/fonts/pull/6468
@@ -23,8 +39,11 @@ lang/languages/ast_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/az_Cyrl.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/az_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/bas_Latn.textproto # https://github.com/google/fonts/pull/6468
+lang/languages/bbc_Batk.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/be_Cyrl.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/bg_Cyrl.textproto # https://github.com/google/fonts/pull/6468
+lang/languages/bho_Kthi.textproto # https://github.com/google/fonts/pull/6573
+lang/languages/bku_Buhd.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/blt_Tavt.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/bn_Beng.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/bo_Tibt.textproto # https://github.com/google/fonts/pull/6468
@@ -46,6 +65,7 @@ lang/languages/de_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/dje_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/doi_Deva.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/doi_Dogr.textproto # https://github.com/google/fonts/pull/6548
+lang/languages/doi_Takr.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/dsb_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/dua_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/dyo_Latn.textproto # https://github.com/google/fonts/pull/6468
@@ -81,6 +101,7 @@ lang/languages/haw_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/he_Hebr.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/hi_Deva.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/hi_Mahj.textproto # https://github.com/google/fonts/pull/6548
+lang/languages/hnn_Hano.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/hr_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/hsb_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/hu_Latn.textproto # https://github.com/google/fonts/pull/6468
@@ -115,4 +136,19 @@ lang/languages/lb_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/lep_Lepc.textproto # https://github.com/google/fonts/pull/6548
 lang/languages/lkt_Latn.textproto # https://github.com/google/fonts/pull/6468
 lang/languages/sat_Olck.textproto # https://github.com/google/fonts/pull/6548
+lang/languages/saz_Saur.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/sd_Khoj.textproto # https://github.com/google/fonts/pull/6548
+lang/languages/sd_Sind.textproto # https://github.com/google/fonts/pull/6648
+# Deleted: lang/languages/sa_Avst.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Batk.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Buhd.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Dogr.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Hano.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Khoj.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Kthi.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Lepc.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Mahj.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Olck.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Saur.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sa_Takr.textproto # https://github.com/google/fonts/pull/6573
+# Deleted: lang/languages/sd_Khud.textproto # https://github.com/google/fonts/pull/6648

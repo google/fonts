@@ -55,6 +55,9 @@ SKIP_EXEMPLARS = {
     "ja_Jpan": "Contains multiple scripts",
     "aii_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
     "sel_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
+    "ykg_Cyrl": "Does indeed use Latin glyphs (w) while writing Cyrillic",
+    "ady_Cyrl": "Does indeed use Latin glyphs (w) while writing Cyrillic",
+    "sla_Latn": "Does indeed use Cyrillic glyphs (ь) when written in Latin",
     "coo_Latn": "Does indeed use Greek glyphs while writing Latin",
     "hur_Latn": "Does indeed use Greek glyphs while writing Latin",
     "kwk_Latn": "Does indeed use Greek glyphs while writing Latin",
@@ -73,6 +76,7 @@ SKIP_REGION = {
     "jbo_Latn": "Lobjan is an artifical language.",
     "tlh_Latn": "Klingon is an artifical language.",
 }
+
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
 @pytest.mark.parametrize(
@@ -208,11 +212,17 @@ def test_sample_texts_are_in_script(lang_code):
         samples = getattr(lang.sample_text, field.name)
         chars = set(samples)
         for char in chars:
-            char_script = youseedee.ucd_data(ord(char)).get("Script", "").replace("_", " ")
+            char_script = (
+                youseedee.ucd_data(ord(char)).get("Script", "").replace("_", " ")
+            )
             if char_script == "Common" or char_script == "Inherited":
                 continue
             if char_script != script_name:
-                extensions = youseedee.ucd_data(ord(char)).get("Script_Extensions", "").split(" ")
+                extensions = (
+                    youseedee.ucd_data(ord(char))
+                    .get("Script_Extensions", "")
+                    .split(" ")
+                )
                 if any(ext == lang.script for ext in extensions):
                     continue
                 out_of_script[char_script].add(char)

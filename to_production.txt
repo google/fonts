@@ -1,13 +1,30 @@
+# New
+ofl/inclusivesans # https://github.com/google/fonts/pull/6359
+ofl/mooli # https://github.com/google/fonts/pull/6585
+
 # Upgrade
+ofl/bricolagegrotesque # https://github.com/google/fonts/pull/6523
+ofl/lateef # https://github.com/google/fonts/pull/6627
+ofl/mako # https://github.com/google/fonts/pull/6565
+ofl/norican # https://github.com/google/fonts/pull/6594
 ofl/notosans # https://github.com/google/fonts/pull/5789
 ofl/notosanskhojki # https://github.com/google/fonts/pull/6427
+ofl/notosansoldhungarian # https://github.com/google/fonts/pull/5307
+ofl/notosansoldturkic # https://github.com/google/fonts/pull/5317
 ofl/notoserifkhojki # https://github.com/google/fonts/pull/6426
+ofl/notoserifottomansiyaq # https://github.com/google/fonts/pull/6581
+ofl/robotocondensed # https://github.com/google/fonts/pull/6570
+ofl/seymourone # https://github.com/google/fonts/pull/6598
+ofl/wixmadefordisplay # https://github.com/google/fonts/pull/6607
+ofl/notosansethiopic # https://github.com/google/fonts/pull/5509
+ofl/notoserifethiopic # https://github.com/google/fonts/pull/5510
 
 # Designer profile
 catalog/designers/dmitryivanov # https://github.com/google/fonts/pull/6382
 catalog/designers/mathieutriay # https://github.com/google/fonts/pull/6386
 
 # Axis Registry
+axisregistry/ar_retinal_resolution.textproto # https://github.com/google/fonts/pull/6663
 axisregistry/z_rotation.textproto # https://github.com/google/fonts/pull/6527
 
 # Metadata / Description / License
@@ -152,3 +169,4 @@ lang/languages/sd_Sind.textproto # https://github.com/google/fonts/pull/6648
 # Deleted: lang/languages/sa_Saur.textproto # https://github.com/google/fonts/pull/6573
 # Deleted: lang/languages/sa_Takr.textproto # https://github.com/google/fonts/pull/6573
 # Deleted: lang/languages/sd_Khud.textproto # https://github.com/google/fonts/pull/6648
+

@@ -10,9 +10,16 @@ fonts {
   filename: "NotoSansBhaiksuki-Regular.ttf"
   post_script_name: "NotoSansBhaiksuki-Regular"
   full_name: "Noto Sans Bhaiksuki Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bhaiksuki)"
 }
-subsets: "menu"
 subsets: "bhaiksuki"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/bhaiksuki.git"
+  archive_url: "https://github.com/notofonts/bhaiksuki/releases/download/NotoSansBhaiksuki-v2.002/NotoSansBhaiksuki-v2.002.zip"
+}
 is_noto: true
 languages: "sa_Bhks"  # Sanskrit, Bhaiksuki
+primary_script: "Bhks"

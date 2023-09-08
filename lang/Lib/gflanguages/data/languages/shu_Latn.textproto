@@ -1,0 +1,9 @@
+id: "shu_Latn"
+language: "shu"
+script: "Latn"
+name: "Arabic, Chadian Spoken"
+exemplar_chars {
+  base: "a A b B d D e E f F g G h H i I j J k K l L m M n N o O r R s S t T u U w W y Y z Z"
+  marks: "◌̂ ◌̧ ◌́ ◌̀ ◌̈"
+  auxiliary: "â Â æ Æ c C ç Ç é É è È ê Ê ë Ë î Î ï Ï ô Ô œ Œ p P q Q ù Ù û Û ü Ü v V x X ÿ Ÿ"
+}

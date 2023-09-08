@@ -1,5 +1,5 @@
 name: "Space Mono"
-designer: "Colophon"
+designer: "Colophon Foundry"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2016-06-20"

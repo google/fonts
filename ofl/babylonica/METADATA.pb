@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/babylonica"
   commit: "7b1c733f74a11604a711e87f840010e0746cfcd1"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

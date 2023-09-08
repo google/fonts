@@ -29,3 +29,4 @@ source {
   repository_url: "https://github.com/silnrsi/font-padauk"
   archive_url: "https://github.com/silnrsi/font-padauk/releases/download/v5.001/Padauk-5.001.zip"
 }
+primary_script: "Mymr"

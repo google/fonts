@@ -1,5 +1,5 @@
 name: "Bitter"
-designer: "Huerta Tipográfica"
+designer: "Sol Matas"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"

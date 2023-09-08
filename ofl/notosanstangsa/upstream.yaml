@@ -1,0 +1,7 @@
+archive: https://github.com/notofonts/tangsa/releases/download/NotoSansTangsa-v1.505/NotoSansTangsa-v1.505.zip
+branch: main
+files:
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  OFL.txt: OFL.txt
+  NotoSansTangsa/googlefonts/variable-ttf/NotoSansTangsa[wght].ttf: NotoSansTangsa[wght].ttf

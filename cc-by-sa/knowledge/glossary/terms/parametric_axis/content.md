@@ -3,7 +3,7 @@ A parametric [axis](/glossary/axis_in_variable_fonts) in a [variable font](/glos
 
 <figure>
 
-![ALT](images/thumbnail.svg)
+![A representation of a parametric font, with the vertical proportions of an “H” crossbar changing over three different settings.](images/thumbnail.svg)
 
 </figure>
 

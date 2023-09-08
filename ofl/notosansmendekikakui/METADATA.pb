@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "men_Mend"  # Mende, Mende
+primary_script: "Mend"

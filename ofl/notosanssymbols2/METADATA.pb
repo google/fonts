@@ -9,12 +9,19 @@ fonts {
   weight: 400
   filename: "NotoSansSymbols2-Regular.ttf"
   post_script_name: "NotoSansSymbols2-Regular"
-  full_name: "Noto Sans Symbols2 Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  full_name: "Noto Sans Symbols 2 Regular"
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)"
 }
+subsets: "braille"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "mayan-numerals"
 subsets: "menu"
 subsets: "symbols"
-is_noto: true
+source {
+  repository_url: "https://github.com/notofonts/symbols.git"
+  archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols2-v2.007/NotoSansSymbols2-v2.007.zip"
+}
 sample_text {
   masthead_full: "♠🖫🙥👍"
   masthead_partial: "🏆🡽"
@@ -24,3 +31,6 @@ sample_text {
   poster_md: "⌚✋⯧☔🛪🏟⛅🞽🕖🚲"
   poster_lg: "🡽🨄"
 }
+is_noto: true
+stroke: "SANS_SERIF"
+classifications: "SYMBOLS"

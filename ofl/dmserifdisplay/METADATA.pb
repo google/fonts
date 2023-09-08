@@ -1,5 +1,5 @@
 name: "DM Serif Display"
-designer: "Colophon Foundry, Frank Grießhammer"
+designer: "Colophon Foundry"
 license: "OFL"
 category: "SERIF"
 date_added: "2019-06-12"
@@ -24,3 +24,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SERIF"
+classifications: "DISPLAY"

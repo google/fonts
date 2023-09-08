@@ -2,6 +2,7 @@ name: "Bebas Neue"
 designer: "Ryoichi Tsunekawa"
 license: "OFL"
 category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2019-10-16"
 fonts {
   name: "Bebas Neue"
@@ -15,3 +16,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

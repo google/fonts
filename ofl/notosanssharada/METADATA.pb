@@ -10,9 +10,16 @@ fonts {
   filename: "NotoSansSharada-Regular.ttf"
   post_script_name: "NotoSansSharada-Regular"
   full_name: "Noto Sans Sharada Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sharada)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "sharada"
+source {
+  repository_url: "https://github.com/notofonts/sharada.git"
+  archive_url: "https://github.com/notofonts/sharada/releases/download/NotoSansSharada-v2.006/NotoSansSharada-v2.006.zip"
+}
 is_noto: true
 languages: "sa_Shrd"  # Sanskrit, Sharada
+primary_script: "Shrd"

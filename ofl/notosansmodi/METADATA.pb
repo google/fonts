@@ -18,8 +18,9 @@ subsets: "menu"
 subsets: "modi"
 source {
   repository_url: "https://github.com/notofonts/modi.git"
-  archive_url: "https://github.com/notofonts/modi/releases/download/NotoSansModi-v2.003/NotoSansModi-v2.003.zip"
+  archive_url: "https://github.com/notofonts/modi/releases/download/NotoSansModi-v2.004/NotoSansModi-v2.004.zip"
 }
 is_noto: true
 languages: "mr_Modi"  # Marathi, Modi
 languages: "sa_Modi"  # Sanskrit, Modi
+primary_script: "Modi"

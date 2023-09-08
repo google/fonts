@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "NotoSansSC[wght].ttf"
   post_script_name: "NotoSansSC-Thin"
-  full_name: "Noto Sans SC"
-  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+  full_name: "Noto Sans SC Thin"
+  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
 }
 subsets: "chinese-simplified"
 subsets: "cyrillic"
@@ -35,3 +35,4 @@ languages: "yue_Hans"  # Cantonese
 languages: "za_Hans"   # Zhuang, Simplified Han
 languages: "zh_Hans"   # Chinese (Simplified)
 display_name: "Noto Sans Simplified Chinese"
+primary_script: "Hans"

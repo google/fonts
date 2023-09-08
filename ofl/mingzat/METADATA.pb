@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/silnrsi/font-mingzat"
   archive_url: "https://github.com/silnrsi/font-mingzat/releases/download/v1.100/Mingzat-1.100.zip"
 }
+primary_script: "Lepc"
+languages: "lep_Lepc"  # Lepcha

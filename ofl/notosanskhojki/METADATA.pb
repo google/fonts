@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansKhojki-Regular.ttf"
   post_script_name: "NotoSansKhojki-Regular"
   full_name: "Noto Sans Khojki Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)"
 }
-subsets: "menu"
 subsets: "khojki"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/khojki.git"
+  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSansKhojki-v2.004/NotoSansKhojki-v2.004.zip"
+}
 is_noto: true
-languages: "sa_Khoj"  # Sanskrit, Khojki
 languages: "sd_Khoj"  # Sindhi, Khojki
+primary_script: "Khoj"

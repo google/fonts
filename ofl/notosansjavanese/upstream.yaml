@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/javanese/releases/download/NotoSansJavanese-v2.004/NotoSansJavanese-v2.004.zip
+archive: https://github.com/notofonts/javanese/releases/download/NotoSansJavanese-v2.005/NotoSansJavanese-v2.005.zip
 branch: main
 files:
-  OFL.txt: OFL.txt
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  OFL.txt: OFL.txt
   NotoSansJavanese/googlefonts/variable-ttf/NotoSansJavanese[wght].ttf: NotoSansJavanese[wght].ttf

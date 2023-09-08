@@ -5,7 +5,7 @@ To start, it’s important to know that when [typefaces](/glossary/typeface) are
 
 ![A diagram showing the different vertical metrics in a typeface.](images/2.9.1.svg)
 
-In this article, we’ll focus on the x-height—the height of a typeface’s [lowercase](/glossary/uppercase_lowercase) [letterforms](/glossary/letterform) relative to the em square—and look at how it relates to the em square when considering [type pairings](/topics/pairing_type).
+In this article, we’ll focus on the x-height—the height of a typeface’s [lowercase](/glossary/uppercase_lowercase) [letterforms](/glossary/letterform) relative to the em square—and look at how it relates to the em square when considering [type pairings](/topic/pairing_type).
 
 <figure>
 

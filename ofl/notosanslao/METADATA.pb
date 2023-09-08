@@ -28,9 +28,10 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/lao.git"
-  archive_url: "https://github.com/notofonts/lao/releases/download/NotoSansLao-v2.002/NotoSansLao-v2.002.zip"
+  archive_url: "https://github.com/notofonts/lao/releases/download/NotoSansLao-v2.003/NotoSansLao-v2.003.zip"
 }
 is_noto: true
 languages: "hnj_Laoo"  # Mong Njua
 languages: "kjg_Laoo"  # Khmu
 languages: "lo_Laoo"  # Lao
+primary_script: "Laoo"

@@ -25,6 +25,8 @@ opensans_italic_fp = os.path.join(DATA_DIR, "OpenSans-Italic[wdth,wght].ttf")
 opensans_cond_roman_fp = os.path.join(DATA_DIR, "OpenSansCondensed[wght].ttf")
 opensans_cond_italic_fp = os.path.join(DATA_DIR, "OpenSansCondensed-Italic[wght].ttf")
 wonky_fp = os.path.join(DATA_DIR, "Wonky[wdth,wght].ttf")
+playfair_fp = os.path.join(DATA_DIR, "Playfair[opsz,wdth,wght].ttf")
+wavefont_fp = os.path.join(DATA_DIR, "Wavefont[ROND,YALN,wght].ttf")
 
 
 @pytest.fixture
@@ -293,6 +295,23 @@ def _test_names(ttFont, expected):
                 (17, 3, 1, 0x409): None,
             },
         ),
+        # Test opsz particle is kept.
+        # Fixes https://github.com/googlefonts/axisregistry/issues/130
+        (
+            playfair_fp,
+            "Playfair",
+            None,
+            [],
+            {
+                (1, 3, 1, 0x409): "Playfair 5pt SemiExpanded Light",
+                (2, 3, 1, 0x409): "Regular",
+                (3, 3, 1, 0x409): "2.000;FTH;Playfair-5ptSemiExpandedLight",
+                (4, 3, 1, 0x409): "Playfair 5pt SemiExpanded Light",
+                (6, 3, 1, 0x409): "Playfair-5ptSemiExpandedLight",
+                (16, 3, 1, 0x409): "Playfair",
+                (17, 3, 1, 0x409): "5pt SemiExpanded Light",
+            },
+        ),
     ],
 )
 def test_name_table(fp, family_name, style_name, siblings, expected):
@@ -440,6 +459,9 @@ def dump(table, ttFont=None):
             [opensans_roman_fp, opensans_italic_fp, opensans_cond_roman_fp],
         ),
         (wonky_fp, []),
+        # don't add a linkedValue for Regular to Bold since Bold doesn't exist
+        # Fixes https://github.com/googlefonts/axisregistry/issues/104
+        (wavefont_fp, []),
     ],
 )
 def test_stat(fp, sibling_fps):
@@ -448,7 +470,7 @@ def test_stat(fp, sibling_fps):
     build_stat(font, siblings)
     stat_fp = fp.replace(".ttf", "_STAT.ttx")
 
-    ### output good files
+    ## output good files
     # with open(stat_fp, "w") as doc:
     #    got = dump(font["STAT"], font)
     #    doc.write(got)
@@ -525,3 +547,23 @@ def test_build_variations_ps_name(fp, result):
     build_variations_ps_name(ttFont)
     variation_ps_name = ttFont["name"].getName(25, 3, 1, 0x409).toUnicode()
     assert variation_ps_name == result
+
+
+@pytest.mark.parametrize(
+    "fp, style_name, result",
+    [
+        (mavenpro_fp, "Regular", 400),
+        (mavenpro_fp, "Italic", 400),
+        (mavenpro_fp, "Black Italic", 900),
+        (mavenpro_fp, "ExtraBold Italic", 800),
+        (mavenpro_fp, "ExtraBold", 800),
+        (mavenpro_fp, "Bold", 700),
+        (mavenpro_fp, "Bold Italic", 700),
+        (mavenpro_fp, "Thin Italic", 100),
+        (mavenpro_fp, "Thin", 100),
+    ],
+)
+def test_us_weight_class(fp, style_name, result):
+    ttFont = TTFont(fp)
+    build_name_table(ttFont, style_name=style_name)
+    assert ttFont["OS/2"].usWeightClass == result

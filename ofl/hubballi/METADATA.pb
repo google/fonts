@@ -1,7 +1,7 @@
 name: "Hubballi"
 designer: "Erin McLaughlin"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2021-12-16"
 fonts {
   name: "Hubballi"

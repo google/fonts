@@ -1,8 +1,8 @@
 name: "Cairo Play"
 designer: "Mohamed Gaber, Accademia di Belle Arti di Urbino"
 license: "OFL"
-category: "SANS_SERIF"
 category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2022-08-05"
 fonts {
   name: "Cairo Play"
@@ -17,7 +17,6 @@ subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-primary_script: "Arab"
 axes {
   tag: "slnt"
   min_value: -11.0
@@ -30,5 +29,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/Gue3bara/Cairo"
-  commit: "78a8a4def71f06a4460fc5807777acd1672d51cb"
+  commit: "73d16933c6a0f341c27a69e401da83dcb0d53114"
 }
+primary_script: "Arab"

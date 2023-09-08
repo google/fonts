@@ -24,3 +24,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/anrt-type/ANRT-Baskervville"
+  commit: "11a43fe1ef8b4c23aff9f24c218412d15cca54fd"
+}

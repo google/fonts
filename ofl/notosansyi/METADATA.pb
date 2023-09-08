@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "ii_Yiii"  # Sichuan Yi
+primary_script: "Yiii"

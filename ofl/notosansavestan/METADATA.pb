@@ -18,8 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/avestan.git"
-  archive_url: "https://github.com/notofonts/avestan/releases/download/NotoSansAvestan-v2.002/NotoSansAvestan-v2.002.zip"
+  archive_url: "https://github.com/notofonts/avestan/releases/download/NotoSansAvestan-v2.003/NotoSansAvestan-v2.003.zip"
 }
 is_noto: true
 languages: "ae_Avst"  # Avestan
-languages: "sa_Avst"  # Sanskrit, Avestan
+primary_script: "Avst"

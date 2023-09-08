@@ -10,11 +10,18 @@ fonts {
   filename: "NotoSansRunic-Regular.ttf"
   post_script_name: "NotoSansRunic-Regular"
   full_name: "Noto Sans Runic Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/runic)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "runic"
+source {
+  repository_url: "https://github.com/notofonts/runic.git"
+  archive_url: "https://github.com/notofonts/runic/releases/download/NotoSansRunic-v2.002/NotoSansRunic-v2.002.zip"
+}
 is_noto: true
 languages: "de_Runr"  # German, Runic
 languages: "got_Runr"  # Gothic, Runic
 languages: "non_Runr"  # Old Norse
+primary_script: "Runr"

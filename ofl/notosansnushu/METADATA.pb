@@ -10,10 +10,16 @@ fonts {
   filename: "NotoSansNushu-Regular.ttf"
   post_script_name: "NotoSansNushu-Regular"
   full_name: "Noto Sans Nushu Regular"
-  copyright: "Copyright 2020 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "nushu"
+source {
+  repository_url: "https://github.com/notofonts/nushu.git"
+  archive_url: "https://github.com/notofonts/nushu/releases/download/NotoSansNushu-v1.003/NotoSansNushu-v1.003.zip"
+}
 is_noto: true
 languages: "mis_Nshu"  # Xiangnan Tuhua
 display_name: "Noto Sans Nüshu"

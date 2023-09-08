@@ -1,10 +1,10 @@
-name: "Bio Rhyme"
+name: "BioRhyme"
 designer: "Aoife Mooney"
 license: "OFL"
 category: "SERIF"
 date_added: "2016-06-20"
 fonts {
-  name: "Bio Rhyme"
+  name: "BioRhyme"
   style: "normal"
   weight: 200
   filename: "BioRhyme-ExtraLight.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
 }
 fonts {
-  name: "Bio Rhyme"
+  name: "BioRhyme"
   style: "normal"
   weight: 300
   filename: "BioRhyme-Light.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
 }
 fonts {
-  name: "Bio Rhyme"
+  name: "BioRhyme"
   style: "normal"
   weight: 400
   filename: "BioRhyme-Regular.ttf"
@@ -31,7 +31,7 @@ fonts {
   copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
 }
 fonts {
-  name: "Bio Rhyme"
+  name: "BioRhyme"
   style: "normal"
   weight: 700
   filename: "BioRhyme-Bold.ttf"
@@ -40,7 +40,7 @@ fonts {
   copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
 }
 fonts {
-  name: "Bio Rhyme"
+  name: "BioRhyme"
   style: "normal"
   weight: 800
   filename: "BioRhyme-ExtraBold.ttf"
@@ -51,3 +51,4 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SLAB_SERIF"

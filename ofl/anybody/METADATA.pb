@@ -9,8 +9,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Anybody[wdth,wght].ttf"
-  post_script_name: "Anybody-UltraCondensedThin"
-  full_name: "Anybody UltraCondensed Thin"
+  post_script_name: "Anybody-Thin"
+  full_name: "Anybody Thin"
   copyright: "Copyright 2020 The Anybody Project Authors (https://github.com/Etcetera-Type-Co/Anybody)"
 }
 fonts {
@@ -18,8 +18,8 @@ fonts {
   style: "italic"
   weight: 400
   filename: "Anybody-Italic[wdth,wght].ttf"
-  post_script_name: "Anybody-UltraCondensedThinItalic"
-  full_name: "Anybody UltraCondensed Thin Italic"
+  post_script_name: "Anybody-ThinItalic"
+  full_name: "Anybody Thin Italic"
   copyright: "Copyright 2020 The Anybody Project Authors (https://github.com/Etcetera-Type-Co/Anybody)"
 }
 subsets: "latin"
@@ -38,5 +38,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Etcetera-Type-Co/Anybody"
-  commit: "e6a6362d1fde93d5bd964cca6a4527d4a39225e2"
+  commit: "fe7b55cf9d1563348ad95ac8e05f43b81a420c31"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

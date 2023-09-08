@@ -6,7 +6,7 @@ autonym: "Māori"
 population: 137913
 region: "NZ"
 exemplar_chars {
-  base: "a ā e ē h i ī k m n {ng} o ō p r t u ū w {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh} {ng} {wh}"
+  base: "a ā e ē h i ī k m n {ng} o ō p r t u ū w {wh}"
   auxiliary: "b c d f g j l q s v x y z"
   marks: "◌̄"
   index: "A E H I K M N O P R T U W"

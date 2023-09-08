@@ -10,8 +10,12 @@ fonts {
   filename: "Norican-Regular.ttf"
   post_script_name: "Norican-Regular"
   full_name: "Norican Regular"
-  copyright: "Copyright (c) 2011 by vernon adams (www.newtypography.co.uk vern@newtypography.co.uk), with Reserved Font Names \"Norican\""
+  copyright: "Copyright 2011 The Norican Project Authors (https://github.com/googlefonts/NoricanFont)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/NoricanFont"
+  commit: "c8f871d4dd2a00f17ba95783a3bd41c296188faf"
+}

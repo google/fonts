@@ -10,13 +10,20 @@ fonts {
   filename: "NotoSansLinearA-Regular.ttf"
   post_script_name: "NotoSansLinearA-Regular"
   full_name: "Noto Sans Linear A Regular"
-  copyright: "Copyright 2017 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/linear-a)"
 }
-subsets: "menu"
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "linear-a"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/linear-a.git"
+  archive_url: "https://github.com/notofonts/linear-a/releases/download/NotoSansLinearA-v2.002/NotoSansLinearA-v2.002.zip"
+}
 is_noto: true
 languages: "lab_Lina"  # Linear A
 languages: "omn_Lina"  # Minoan
+primary_script: "Lina"
 sample_text {
   masthead_full: "𐘂𐚰𐚩𐛌"
   masthead_partial: "𐘁𐚵"

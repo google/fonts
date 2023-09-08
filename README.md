@@ -1,6 +1,5 @@
 [![CI Status](https://github.com/google/fonts/workflows/Continuous%20Test/badge.svg?branch=main)](https://github.com/google/fonts/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)
 
-
 # Google Fonts Files
 
 This project mainly contains the binary font files served by Google Fonts ([fonts.google.com](https://fonts.google.com))

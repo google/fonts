@@ -1,7 +1,7 @@
 name: "M PLUS 1 Code"
 designer: "Coji Morishita"
 license: "OFL"
-category: "SANS_SERIF"
+category: "MONOSPACE"
 date_added: "2021-09-22"
 fonts {
   name: "M PLUS 1 Code"

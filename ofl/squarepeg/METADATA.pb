@@ -20,3 +20,5 @@ source {
   repository_url: "https://github.com/googlefonts/square-peg"
   commit: "ec1628592761b8b9e7713b6d2b463fb9724c6e8e"
 }
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

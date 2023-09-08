@@ -23,7 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/gurmukhi.git"
-  archive_url: "https://github.com/notofonts/gurmukhi/releases/download/NotoSerifGurmukhi-v2.003/NotoSerifGurmukhi-v2.003.zip"
+  archive_url: "https://github.com/notofonts/gurmukhi/releases/download/NotoSerifGurmukhi-v2.004/NotoSerifGurmukhi-v2.004.zip"
 }
 is_noto: true
 languages: "pa_Guru"  # Punjabi
+primary_script: "Guru"

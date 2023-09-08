@@ -1,0 +1,8 @@
+id: "tod_Latn"
+language: "tod"
+script: "Latn"
+name: "Toma"
+exemplar_chars {
+  base: "a A á Á b B d D e E é É f F g G i I k K l L m M n N o O p P s S t T u U v V w W y Y z Z ɓ Ɓ ɔ Ɔ ɗ Ɗ ɛ Ɛ ɠ Ɠ ɲ Ɲ ʋ Ʋ"
+  marks: "◌́ ◌̀"
+}

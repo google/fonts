@@ -1,4 +1,4 @@
-Every article in [our “Choosing type” section](/module/choosing_type) aims to be a useful guide on a specific aspect of choosing type. For this article, we’re condensing all of that information into one handy checklist—a checklist that can be referenced every single time we ever need to choose a [typeface](/glossary/typeface). Whether you’re selecting the first typeface for a new project, [pairing](/topics/pairing_type) a secondary typeface after the primary selection has been made, updating a brand with something new that retains the feel of the original, or anything in between, this checklist can act as a universal guide.
+Every article in [our “Choosing type” section](/module/choosing_type) aims to be a useful guide on a specific aspect of choosing type. For this article, we’re condensing all of that information into one handy checklist—a checklist that can be referenced every single time we ever need to choose a [typeface](/glossary/typeface). Whether you’re selecting the first typeface for a new project, [pairing](/topic/pairing_type) a secondary typeface after the primary selection has been made, updating a brand with something new that retains the feel of the original, or anything in between, this checklist can act as a universal guide.
 
 We’ll start off with the checklist itself—which is also [available on GitHub](https://github.com/elliotjaystocks/choosing-type-checklist)—and then spend some time diving into each part of it.
 
@@ -203,7 +203,7 @@ While rare, it’s possible to have a font that checks all of our boxes, but lac
 
 ## 4. The fonts are usable in the situation(s) required
 
-As well as features being technically present in the files, there are a couple more final considerations when it comes to [pairing type](/topics/pairing_type) and font [licensing](/glossary/licensing):
+As well as features being technically present in the files, there are a couple more final considerations when it comes to [pairing type](/topic/pairing_type) and font [licensing](/glossary/licensing):
 
 ### If serving as a secondary typeface to a primary choice, there’s a suitable balance between distinction and harmony
 

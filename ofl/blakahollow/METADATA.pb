@@ -16,6 +16,7 @@ subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+primary_script: "Arab"
 source {
   repository_url: "https://github.com/Gue3bara/Blaka"
   commit: "c3cbce1cfcc77b06bdf2b68a2ed098ed10c7cf75"

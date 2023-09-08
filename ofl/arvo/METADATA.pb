@@ -41,3 +41,4 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+stroke: "SLAB_SERIF"

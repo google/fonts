@@ -10,10 +10,17 @@ fonts {
   filename: "NotoSansTirhuta-Regular.ttf"
   post_script_name: "NotoSansTirhuta-Regular"
   full_name: "Noto Sans Tirhuta Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tirhuta)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
 subsets: "tirhuta"
+source {
+  repository_url: "https://github.com/notofonts/tirhuta.git"
+  archive_url: "https://github.com/notofonts/tirhuta/releases/download/NotoSansTirhuta-v2.003/NotoSansTirhuta-v2.003.zip"
+}
 is_noto: true
 languages: "mai_Tirh"  # Maithili, Tirhuta
 languages: "sa_Tirh"  # Sanskrit, Tirhuta
+primary_script: "Tirh"

@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "hmd_Plrd"  # A-Hmao
+primary_script: "Plrd"

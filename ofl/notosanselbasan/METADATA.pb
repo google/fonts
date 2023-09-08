@@ -10,9 +10,16 @@ fonts {
   filename: "NotoSansElbasan-Regular.ttf"
   post_script_name: "NotoSansElbasan-Regular"
   full_name: "Noto Sans Elbasan Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/elbasan)"
 }
-subsets: "menu"
 subsets: "elbasan"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/elbasan.git"
+  archive_url: "https://github.com/notofonts/elbasan/releases/download/NotoSansElbasan-v2.004/NotoSansElbasan-v2.004.zip"
+}
 is_noto: true
 languages: "sq_Elba"  # Albanian, Elbasan
+primary_script: "Elba"

@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "NotoSansKR[wght].ttf"
   post_script_name: "NotoSansKR-Thin"
-  full_name: "Noto Sans KR"
-  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'."
+  full_name: "Noto Sans KR Thin"
+  copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
 }
 subsets: "cyrillic"
 subsets: "korean"
@@ -26,3 +26,4 @@ axes {
 is_noto: true
 languages: "ko_Kore"  # Korean
 display_name: "Noto Sans Korean"
+primary_script: "Kore"

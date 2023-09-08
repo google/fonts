@@ -1,27 +1,59 @@
-[Color fonts](/glossary/color_fonts) allow the font to take more control over the drawing process than just "ink of unknown color goes here,"
-with the color of the ink set by some external entity.
+[Color fonts](/glossary/color_fonts) (also known as chromatic fonts) can use multiple colors, including gradients, in a single glyph, rather than the flat, single color used by typical, non-color (monochromatic) fonts. This relatively new technology allows designers to set the color palette within the font to express themselves with color in a way that would previously not be possible outside of advanced graphics applications. 
 
-On the web text is generally drawn in a color specified in CSS. In a document editor the user can typically choose a color
-to use for text. The font has no input into the color beyond where to fill and where not to. The font cannot manipulate the color,
-such as to define a gradient, it is strictly binary "ink here or not."
+To use a color font from Google Fonts, simply reference the family as you would any other font:
 
-We call fonts that only define where ink of an undefined color goes monochromatic or "non-color."
+```css
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 
-**TODO: should we have a glossary entry for non-color fonts? Switch to Chromatic and Monochromatic?**
+p {
+  font-family: "Nabla";
+}
+```
 
-Color fonts can draw in many colors and can specify what those colors should be. Often they add additional drawing capabilities like
-gradients or partial opacity. The most common example most users interact with is emoji.
+<figure>
 
-**TODO a nice emoji example**
+![A color font specimen showing the word “metal” rendered as intended.](images/color_fonts_1.png)
 
-Color can be used for so much more than emoji!
+</figure>
 
-**TODO examples from https://developer.chrome.com/blog/colrv1-fonts/ and IUC45**
+This should render the font with its default color values, which are contained within the font file itself. At the time of writing, browser support for color fonts is not yet universal. This means that the type should always be rendered, but the colors or variable font axes may not appear as intended in browsers that don’t support the [COLRv1](https://caniuse.com/colr-v1) standard. However, the Google Fonts API supports these browsers with SVG fonts and attempts to get as close to the original intent as possible. You can read more about this implementation on [“COLRv1 Color Gradient Vector Fonts in Chrome 98.”](https://developer.chrome.com/blog/colrv1-fonts/)
 
-**TODO talk about changing colors**
+The type designer has the power to include not just one, but a whole set of default color palettes within the font file. We can make use of these with the `base-palette` declaration, as in this example, where we select the the 3rd palette option:
 
-Unfortunately, there are many ways to construct color fonts and no single approach is widely supported by browsers or
-operating systems. The Google Fonts Web API looks at the [User-Agent](https://caniuse.com/mdn-http_headers_user-agent)
-header and sends font in the best supported color font format to try to make color fonts "Just Work."
+```css
+p {
+  font-family: "Nabla";
+  font-palette: --myPalette;
+}
 
-**TODO: go into detail? Link out? ...just don't?**
+@font-palette-values --myPalette {
+  font-family: "Nabla";
+  base-palette: 3;
+}
+```
+
+<figure>
+
+![A color font specimen showing the word “metal” rendered in one of the alternate built-in color palettes.](images/color_fonts_2.png)
+
+</figure>
+
+The number 3 here is the index ID of the 3rd color palette provided by the font itself. (Note that numbering starts at 0.) Of course, if we wish to use colors not defined by the type designer in the base palettes, we can completely customize them ourselves using the [`override-colors`](https://caniuse.com/mdn-css_at-rules_font-palette-values_override-colors) property, or even choose to just override one at a time.
+
+The Nabla font contains multiple index IDs for the color swatches within its palette. Here, we’re using the 3rd base palette and just changing the 6th color swatch:
+
+```css
+@font-palette-values --myPalette {
+  font-family: "Nabla";
+  base-palette: 3;
+  override-colors: 6 #FFB978;
+}
+```
+
+<figure>
+
+![A color font specimen showing the word “metal” rendered as intended, with additional color customizations included to add a different color gradient to the bottom of the main face of the type.](images/color_fonts_3.png)
+
+</figure>
+
+Google Fonts now supports a growing number of color fonts in its library. To narrow the library selection to color fonts, visit [fonts.google.com/?coloronly=true](https://fonts.google.com/?coloronly=true) or press the “Show only color fonts” toggle.

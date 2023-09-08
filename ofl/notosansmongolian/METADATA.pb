@@ -24,3 +24,4 @@ is_noto: true
 languages: "mn_Mong"  # Mongolian (Mongolian)
 languages: "mnc_Mong"  # Manchu
 languages: "sa_Mong"  # Sanskrit, Mongolian
+primary_script: "Mong"

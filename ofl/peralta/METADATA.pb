@@ -1,7 +1,7 @@
 name: "Peralta"
 designer: "Astigmatic"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2012-07-11"
 fonts {
   name: "Peralta"
@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

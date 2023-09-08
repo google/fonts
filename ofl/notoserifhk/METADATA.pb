@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "NotoSerifHK[wght].ttf"
   post_script_name: "NotoSerifHK-ExtraLight"
-  full_name: "Noto Serif HK"
-  copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
+  full_name: "Noto Serif HK ExtraLight"
+  copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
 }
 subsets: "chinese-hongkong"
 subsets: "cyrillic"
@@ -34,3 +34,4 @@ languages: "wuu_Hant"  # Wu Chinese
 languages: "yue_Hant"  # Cantonese
 languages: "zh_Hant"  # Chinese (Traditional)
 display_name: "Noto Serif Hong Kong"
+primary_script: "Hant"

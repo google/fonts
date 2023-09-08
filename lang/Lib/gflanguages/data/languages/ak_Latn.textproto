@@ -6,9 +6,9 @@ autonym: "Fante"
 population: 11442678
 region: "GH"
 exemplar_chars {
-  base: "a b d e ɛ f g h i k l m n o ɔ p r s t u w y"
-  auxiliary: "c j q v z"
-  numerals: "- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9"
+  base: "a A b B d D e E ɛ Ɛ f F g G h H i I k K l L m M n N o O ɔ Ɔ p P r R s S t T u U w W y Y"
+  auxiliary: "c C j J q Q v V z Z"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   index: "A B C D E Ɛ F G H I J K L M N O Ɔ P Q R S T U V W X Y Z"
 }
 sample_text {

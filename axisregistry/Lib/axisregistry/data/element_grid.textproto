@@ -12,5 +12,4 @@ fallback {
 fallback_only: false
 description:
   "In modular fonts, where glyphs are composed using multiple copies"
-  " of the same element, this axis controls how many elements"
-  " are used per one grid unit."
+  " of the same element, this axis controls how many elements are used per one grid unit."

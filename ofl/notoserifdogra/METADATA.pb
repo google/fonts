@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 languages: "doi_Dogr"  # Dogri, Dogra
+primary_script: "Dogr"

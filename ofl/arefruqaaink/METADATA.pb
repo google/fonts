@@ -3,7 +3,6 @@ designer: "Abdullah Aref, Khaled Hosny, Hermann Zapf"
 license: "OFL"
 category: "SERIF"
 date_added: "2022-02-26"
-
 fonts {
   name: "Aref Ruqaa Ink"
   style: "normal"
@@ -26,9 +25,10 @@ subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-primary_script: "Arab"
 source {
   repository_url: "https://github.com/aliftype/aref-ruqaa"
   archive_url: "https://github.com/aliftype/aref-ruqaa/releases/download/v1.005/ArefRuqaa-1.005.zip"
 }
-
+primary_script: "Arab"
+stroke: "SERIF"
+classifications: "DISPLAY"

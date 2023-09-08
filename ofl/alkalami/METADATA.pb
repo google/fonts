@@ -10,7 +10,7 @@ fonts {
   filename: "Alkalami-Regular.ttf"
   post_script_name: "Alkalami-Regular"
   full_name: "Alkalami"
-  copyright: "Copyright (c) SIL International, 2015-2022"
+  copyright: "Copyright (c) SIL International, 2015-2023"
 }
 subsets: "arabic"
 subsets: "latin"
@@ -18,5 +18,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-alkalami"
-  archive_url: "https://github.com/silnrsi/font-alkalami/releases/download/v2.000/Alkalami-2.000.zip"
+  archive_url: "https://github.com/silnrsi/font-alkalami/releases/download/v3.000/Alkalami-3.000.zip"
 }
+primary_script: "Arab"

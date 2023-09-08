@@ -10,13 +10,20 @@ fonts {
   filename: "ReemKufi[wght].ttf"
   post_script_name: "ReemKufi"
   full_name: "Reem Kufi"
-  copyright: "Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."
+  copyright: "Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi)."
 }
 subsets: "arabic"
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/aliftype/reem-kufi.git"
+  archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.6/ReemKufi-1.6.zip"
+}
+primary_script: "Arab"

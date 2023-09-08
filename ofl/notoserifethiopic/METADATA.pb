@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/ethiopic.git"
-  archive_url: "https://github.com/notofonts/ethiopic/releases/download/NotoSerifEthiopic-v2.101/NotoSerifEthiopic-v2.101.zip"
+  archive_url: "https://github.com/notofonts/ethiopic/releases/download/NotoSerifEthiopic-v2.102/NotoSerifEthiopic-v2.102.zip"
 }
 is_noto: true
 languages: "am_Ethi"  # Amharic
@@ -38,3 +38,4 @@ languages: "om_Ethi"  # Oromo, Ethiopic
 languages: "ti_Ethi"  # Tigrinya
 languages: "tig_Ethi"  # Tigre
 languages: "wal_Ethi"  # Wolaytta
+primary_script: "Ethi"

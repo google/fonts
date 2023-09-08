@@ -29,3 +29,7 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/karla"
+  commit: "69b25f663101efb4113dd7ed416c120dd2dce56a"
+}

@@ -9,8 +9,15 @@ fonts {
   weight: 400
   filename: "Strait-Regular.ttf"
   post_script_name: "Strait-Regular"
-  full_name: "Strait"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \'Strait\'"
+  full_name: "Strait Regular"
+  copyright: "Copyright 2012 The Strait Project Authors (https://github.com/etunni/strait), with Reserved Font Name \'Strait\'"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/Strait"
+  commit: "527c8d122601563758492117058d6727aa58cd32"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

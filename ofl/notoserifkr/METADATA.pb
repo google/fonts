@@ -26,3 +26,4 @@ axes {
 is_noto: true
 languages: "ko_Kore"  # Korean
 display_name: "Noto Serif Korean"
+primary_script: "Kore"

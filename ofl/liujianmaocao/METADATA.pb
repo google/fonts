@@ -15,3 +15,5 @@ fonts {
 subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

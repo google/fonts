@@ -32,3 +32,4 @@ languages: "dz_Tibt"  # Dzongkha
 languages: "taj_Tibt"  # Eastern Tamang, Tibetan
 languages: "tdg_Tibt"  # Western Tamang, Tibetan
 languages: "tsj_Tibt"  # Tshangla
+primary_script: "Tibt"

@@ -32,5 +32,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/Libre-Bodoni"
-  commit: "1f06b4544f846b1a9cafd855a5b767483d536f34"
+  commit: "37d048938a8a32e6ba3992072cb3857659a7828f"
 }

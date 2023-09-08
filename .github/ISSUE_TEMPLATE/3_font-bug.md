@@ -8,7 +8,8 @@ assignees: ''
 ---
 
 Specify the font name in title with a short description of the bug. 
-Please report any issue related to Noto fonts in this repository: https://github.com/googlefonts/noto-fonts/issues.
+Please report any issue related to Noto fonts [here](https://notofonts.github.io/reporter.html).
+Report any issue with Google Icon/Symbols [here](https://github.com/google/material-design-icons)
 
 **Describe the bug**
 A clear and concise description of what the bug is.

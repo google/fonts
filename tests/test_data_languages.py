@@ -77,6 +77,7 @@ SKIP_REGION = {
     "tlh_Latn": "Klingon is an artifical language.",
 }
 
+
 @pytest.mark.parametrize("lang_code", LANGUAGES)
 @pytest.mark.parametrize(
     "exemplar_name", ["base", "auxiliary", "marks", "numerals", "punctuation", "index"]

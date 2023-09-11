@@ -10,7 +10,7 @@ fonts {
   filename: "NotoSerifKR[wght].ttf"
   post_script_name: "NotoSerifKR-ExtraLight"
   full_name: "Noto Serif KR"
-  copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
+  copyright: "(c) 2017-2023 Adobe (http://www.adobe.com/)."
 }
 subsets: "cyrillic"
 subsets: "korean"

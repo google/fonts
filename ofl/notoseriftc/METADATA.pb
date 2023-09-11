@@ -10,7 +10,7 @@ fonts {
   filename: "NotoSerifTC[wght].ttf"
   post_script_name: "NotoSerifTC-ExtraLight"
   full_name: "Noto Serif TC"
-  copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
+  copyright: "(c) 2017-2023 Adobe (http://www.adobe.com/)."
 }
 subsets: "chinese-traditional"
 subsets: "cyrillic"

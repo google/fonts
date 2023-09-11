@@ -10,7 +10,7 @@ fonts {
   filename: "NotoSerifJP[wght].ttf"
   post_script_name: "NotoSerifJP-ExtraLight"
   full_name: "Noto Serif JP"
-  copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
+  copyright: "(c) 2017-2023 Adobe (http://www.adobe.com/)."
 }
 subsets: "cyrillic"
 subsets: "japanese"

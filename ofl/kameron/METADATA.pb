@@ -24,4 +24,4 @@ source {
   repository_url: "https://github.com/googlefonts/kameronFont"
   commit: "4c36d3f42f93806b911562d50927406fbb043f89"
 }
-stroke: "SERIF"
+stroke: "SLAB_SERIF"

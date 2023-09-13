@@ -25,3 +25,5 @@ source {
   repository_url: "https://github.com/eifetx/Pixelify-Sans"
   commit: "b862e0925f58e77583ddb2e056a2d667f2f3544a"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

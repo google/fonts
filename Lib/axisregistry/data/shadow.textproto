@@ -1,0 +1,13 @@
+# SHDW based on https://github.com/EkType/Honk
+tag: "SHDW"
+display_name: "Shadow"
+min_value: 0 
+default_value: 100
+max_value: 1000
+precision: 0
+fallback {
+  name: "Default"
+  value: 100
+}
+fallback_only: false
+description: "Adjust the extrusion depth of a shadowed font."

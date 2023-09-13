@@ -24,3 +24,4 @@ source {
   repository_url: "https://github.com/naipefoundry/gabarito"
   commit: "1f3fb39d6449eefa880543f109f33ede0cd4064f"
 }
+stroke: "SANS_SERIF"

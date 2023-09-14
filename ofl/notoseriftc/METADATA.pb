@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "NotoSerifTC[wght].ttf"
   post_script_name: "NotoSerifTC-ExtraLight"
-  full_name: "Noto Serif TC"
+  full_name: "Noto Serif TC ExtraLight"
   copyright: "(c) 2017-2023 Adobe (http://www.adobe.com/)."
 }
 subsets: "chinese-traditional"

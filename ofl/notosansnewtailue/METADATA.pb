@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/new-tai-lue.git"
-  archive_url: "https://github.com/notofonts/new-tai-lue/releases/download/NotoSansNewTaiLue-v2.003/NotoSansNewTaiLue-v2.003.zip"
+  archive_url: "https://github.com/notofonts/new-tai-lue/releases/download/NotoSansNewTaiLue-v2.004/NotoSansNewTaiLue-v2.004.zip"
 }
 is_noto: true
 languages: "khb_Talu"  # Lü

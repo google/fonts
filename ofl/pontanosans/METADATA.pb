@@ -10,7 +10,7 @@ fonts {
   filename: "PontanoSans[wght].ttf"
   post_script_name: "PontanoSans-Regular"
   full_name: "Pontano Sans Regular"
-  copyright: "Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSans) with Reserved Font Names \"Pontano\""
+  copyright: "Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -21,6 +21,7 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/emmamarichal/PontanoSansFont"
-  commit: "9b35392760293f1016d0b6f82f87e61269db8c66"
+  repository_url: "https://github.com/googlefonts/PontanoSansFont"
+  commit: "240072e22db75e84578dc80b757f589792f9e723"
 }
+stroke: "SANS_SERIF"

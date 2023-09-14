@@ -24,3 +24,4 @@ source {
   repository_url: "https://github.com/googlefonts/PontanoSansFont"
   commit: "240072e22db75e84578dc80b757f589792f9e723"
 }
+stroke: "SANS_SERIF"

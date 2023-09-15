@@ -19,3 +19,4 @@ source {
   repository_url: "https://github.com/googlefonts/ShantiFont"
   commit: "511bc905381c9863b3dc241fc47523d1c3ba382f"
 }
+stroke:"SANS_SERIF"

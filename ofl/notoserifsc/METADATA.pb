@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "NotoSerifSC[wght].ttf"
   post_script_name: "NotoSerifSC-ExtraLight"
-  full_name: "Noto Serif SC"
-  copyright: "(c) 2017-2022 Adobe (http://www.adobe.com/)."
+  full_name: "Noto Serif SC ExtraLight"
+  copyright: "(c) 2017-2023 Adobe (http://www.adobe.com/)."
 }
 subsets: "chinese-simplified"
 subsets: "cyrillic"

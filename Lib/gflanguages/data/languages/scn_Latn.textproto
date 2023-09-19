@@ -3,7 +3,7 @@ language: "scn"
 script: "Latn"
 name: "Sicilian"
 autonym: "Sicilianu"
-population: 9999999
+population: 4700000
 region: "IT"
 exemplar_chars {
   base: "A B C D Ḍ E F G H I J K L M N O P Q R S T U V W X Y Z À Â È Ê Ì Î Ò Ô Ù Û a b c d ḍ e f g h i j k l m n o p q r s t u v w x y z à â è ê ì î ò ô ù û"

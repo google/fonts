@@ -6,49 +6,27 @@ date_added: "2016-06-20"
 fonts {
   name: "BioRhyme"
   style: "normal"
-  weight: 200
-  filename: "BioRhyme-ExtraLight.ttf"
-  post_script_name: "BioRhyme-ExtraLight"
-  full_name: "BioRhyme ExtraLight"
-  copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
-}
-fonts {
-  name: "BioRhyme"
-  style: "normal"
-  weight: 300
-  filename: "BioRhyme-Light.ttf"
-  post_script_name: "BioRhyme-Light"
-  full_name: "BioRhyme Light"
-  copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
-}
-fonts {
-  name: "BioRhyme"
-  style: "normal"
   weight: 400
-  filename: "BioRhyme-Regular.ttf"
-  post_script_name: "BioRhyme-Regular"
-  full_name: "BioRhyme Regular"
-  copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
-}
-fonts {
-  name: "BioRhyme"
-  style: "normal"
-  weight: 700
-  filename: "BioRhyme-Bold.ttf"
-  post_script_name: "BioRhyme-Bold"
-  full_name: "BioRhyme Bold"
-  copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
-}
-fonts {
-  name: "BioRhyme"
-  style: "normal"
-  weight: 800
-  filename: "BioRhyme-ExtraBold.ttf"
+  filename: "BioRhyme[wdth,wght].ttf"
   post_script_name: "BioRhyme-ExtraBold"
   full_name: "BioRhyme ExtraBold"
-  copyright: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)"
+  copyright: "Copyright 2016 The BioRhyme Project Authors (https://github.com/aoifemooney/makingbiorhyme)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "wdth"
+  min_value: 100.0
+  max_value: 125.0
+}
+axes {
+  tag: "wght"
+  min_value: 200.0
+  max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/aoifemooney/makingbiorhyme"
+  commit: "b3c0488559ad7c42e11b71e65d255344faff63b9"
+}
 stroke: "SLAB_SERIF"

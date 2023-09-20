@@ -7,56 +7,31 @@ fonts {
   name: "Sometype Mono"
   style: "normal"
   weight: 400
-  filename: "SometypeMono-Regular.ttf"
+  filename: "SometypeMono[wght].ttf"
   post_script_name: "SometypeMono-Regular"
   full_name: "Sometype Mono Regular"
-  copyright: "Copyright 2018 The Sometype Mono Project Authors (https://github.com/dharmatype/Sometype-Mono)"
+  copyright: "Copyright 2018 The Sometype Mono Project Authors (https://github.com/googlefonts/sometype-mono)"
 }
 fonts {
   name: "Sometype Mono"
   style: "italic"
   weight: 400
-  filename: "SometypeMono-Italic.ttf"
+  filename: "SometypeMono-Italic[wght].ttf"
   post_script_name: "SometypeMono-Italic"
   full_name: "Sometype Mono Italic"
-  copyright: "Copyright 2018 The Sometype Mono Project Authors (https://github.com/dharmatype/Sometype-Mono)"
-}
-fonts {
-  name: "Sometype Mono"
-  style: "normal"
-  weight: 500
-  filename: "SometypeMono-Medium.ttf"
-  post_script_name: "SometypeMono-Medium"
-  full_name: "Sometype Mono Medium"
-  copyright: "Copyright 2018 The Sometype Mono Project Authors (https://github.com/dharmatype/Sometype-Mono)"
-}
-fonts {
-  name: "Sometype Mono"
-  style: "italic"
-  weight: 500
-  filename: "SometypeMono-MediumItalic.ttf"
-  post_script_name: "SometypeMono-MediumItalic"
-  full_name: "Sometype Mono Medium Italic"
-  copyright: "Copyright 2018 The Sometype Mono Project Authors (https://github.com/dharmatype/Sometype-Mono)"
-}
-fonts {
-  name: "Sometype Mono"
-  style: "normal"
-  weight: 700
-  filename: "SometypeMono-Bold.ttf"
-  post_script_name: "SometypeMono-Bold"
-  full_name: "Sometype Mono Bold"
-  copyright: "Copyright 2018 The Sometype Mono Project Authors (https://github.com/dharmatype/Sometype-Mono)"
-}
-fonts {
-  name: "Sometype Mono"
-  style: "italic"
-  weight: 700
-  filename: "SometypeMono-BoldItalic.ttf"
-  post_script_name: "SometypeMono-BoldItalic"
-  full_name: "Sometype Mono Bold Italic"
-  copyright: "Copyright 2018 The Sometype Mono Project Authors (https://github.com/dharmatype/Sometype-Mono)"
+  copyright: "Copyright 2018 The Sometype Mono Project Authors (https://github.com/googlefonts/sometype-mono)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/sometype-mono"
+  commit: "cf583c22bc6279d23e587e3ca310e131dd277286"
+}
+stroke: "SANS_SERIF"
+classifications: "MONOSPACE"

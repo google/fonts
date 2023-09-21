@@ -26,3 +26,5 @@ source {
   archive_url: "https://github.com/notofonts/kawi/releases/download/NotoSansKawi-v1.000/NotoSansKawi-v1.000.zip"
 }
 is_noto: true
+languages: "kaw_Kawi"  # Old Javanese, Kawi
+primary_script: "Kawi"

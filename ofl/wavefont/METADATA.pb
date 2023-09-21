@@ -27,8 +27,8 @@ axes {
 }
 axes {
   tag: "wght"
-  min_value: 100.0
-  max_value: 900.0
+  min_value: 4.0
+  max_value: 1000.0
 }
 registry_default_overrides {
   key: "ROND"
@@ -40,7 +40,7 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/dy/wavefont"
-  commit: "20f0a856753f1ce2f3a307fe704654779888084b"
+  commit: "91649d7bede2a302b8b820dbccc2401672400cdd"
 }
 sample_text {
   masthead_full: "111198765432111987654432111"

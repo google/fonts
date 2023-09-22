@@ -1,5 +1,5 @@
 name: "Playpen Sans"
-designer: "TypeTogether, Laura Meseguer, Veronika Burian, José Scaglione"
+designer: "TypeTogether, Veronika Burian, Laura Meseguer, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2023-09-07"
@@ -15,7 +15,8 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-subsets: "vietnamese"
+subsets: "Vietnamese"
+subsets: "symbols"
 axes {
   tag: "wght"
   min_value: 100.0
@@ -25,3 +26,4 @@ source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
   commit: "de384a1c4e7fd55f020dedeba4a87740d4ad6ef1"
 }
+stroke: "SANS_SERIF"

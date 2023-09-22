@@ -1,5 +1,5 @@
 name: "Playpen Sans"
-designer: "TypeTogether, Veronika Burian, Laura Meseguer, José Scaglione"
+designer: "TypeTogether, Laura Meseguer, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2023-09-07"
@@ -23,5 +23,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "114342f694edaa1f63a51cbb216a10120fc271b5"
+  commit: "de384a1c4e7fd55f020dedeba4a87740d4ad6ef1"
 }

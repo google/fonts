@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/khojki.git"
-  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.004/NotoSerifKhojki-v2.004.zip"
+  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.005/NotoSerifKhojki-v2.005.zip"
 }
 is_noto: true
 languages: "sd_Khoj"  # Sindhi, Khojki

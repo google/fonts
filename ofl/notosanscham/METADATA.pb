@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/cham.git"
-  archive_url: "https://github.com/notofonts/cham/releases/download/NotoSansCham-v2.003/NotoSansCham-v2.003.zip"
+  archive_url: "https://github.com/notofonts/cham/releases/download/NotoSansCham-v2.004/NotoSansCham-v2.004.zip"
 }
 is_noto: true
 languages: "cja_Cham"  # Western Cham, Cham

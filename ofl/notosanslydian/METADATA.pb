@@ -18,7 +18,7 @@ subsets: "lydian"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/lydian.git"
-  archive_url: "https://github.com/notofonts/lydian/releases/download/NotoSansLydian-v2.001/NotoSansLydian-v2.001.zip"
+  archive_url: "https://github.com/notofonts/lydian/releases/download/NotoSansLydian-v2.002/NotoSansLydian-v2.002.zip"
 }
 is_noto: true
 languages: "xld_Lydi"  # Lydian

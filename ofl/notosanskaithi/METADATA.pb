@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/kaithi.git"
-  archive_url: "https://github.com/notofonts/kaithi/releases/download/NotoSansKaithi-v2.004/NotoSansKaithi-v2.004.zip"
+  archive_url: "https://github.com/notofonts/kaithi/releases/download/NotoSansKaithi-v2.005/NotoSansKaithi-v2.005.zip"
 }
 is_noto: true
 languages: "bho_Kthi"  # Bhojpuri, Kaithi

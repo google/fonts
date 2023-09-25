@@ -1,6 +1,7 @@
-archive: https://github.com/notofonts/batak/releases/download/NotoSansBatak-v2.002/NotoSansBatak-v2.002.zip
+archive: https://github.com/notofonts/batak/releases/download/NotoSansBatak-v2.003/NotoSansBatak-v2.003.zip
 branch: main
 files:
-  OFL.txt: OFL.txt
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf: NotoSansBatak-Regular.ttf

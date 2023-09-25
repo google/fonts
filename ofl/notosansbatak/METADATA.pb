@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/batak.git"
-  archive_url: "https://github.com/notofonts/batak/releases/download/NotoSansBatak-v2.002/NotoSansBatak-v2.002.zip"
+  archive_url: "https://github.com/notofonts/batak/releases/download/NotoSansBatak-v2.003/NotoSansBatak-v2.003.zip"
 }
 is_noto: true
 languages: "bbc_Batk"  # Batak Toba, Batak

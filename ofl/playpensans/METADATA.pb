@@ -14,6 +14,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
 subsets: "symbols"
 subsets: "vietnamese"

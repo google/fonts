@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/nandinagari/releases/download/NotoSansNandinagari-v1.001/NotoSansNandinagari-v1.001.zip
+archive: https://github.com/notofonts/nandinagari/releases/download/NotoSansNandinagari-v1.002/NotoSansNandinagari-v1.002.zip
 branch: main
 files:
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf: NotoSansNandinagari-Regular.ttf

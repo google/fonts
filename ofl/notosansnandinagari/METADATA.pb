@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "nandinagari"
 source {
   repository_url: "https://github.com/notofonts/nandinagari.git"
-  archive_url: "https://github.com/notofonts/nandinagari/releases/download/NotoSansNandinagari-v1.001/NotoSansNandinagari-v1.001.zip"
+  archive_url: "https://github.com/notofonts/nandinagari/releases/download/NotoSansNandinagari-v1.002/NotoSansNandinagari-v1.002.zip"
 }
 is_noto: true
 languages: "sa_Nand"  # Sanskrit

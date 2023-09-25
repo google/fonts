@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/manichaean/releases/download/NotoSansManichaean-v2.004/NotoSansManichaean-v2.004.zip
+archive: https://github.com/notofonts/manichaean/releases/download/NotoSansManichaean-v2.005/NotoSansManichaean-v2.005.zip
 branch: main
 files:
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   NotoSansManichaean/googlefonts/ttf/NotoSansManichaean-Regular.ttf: NotoSansManichaean-Regular.ttf

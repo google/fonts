@@ -18,7 +18,7 @@ subsets: "manichaean"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/manichaean.git"
-  archive_url: "https://github.com/notofonts/manichaean/releases/download/NotoSansManichaean-v2.004/NotoSansManichaean-v2.004.zip"
+  archive_url: "https://github.com/notofonts/manichaean/releases/download/NotoSansManichaean-v2.005/NotoSansManichaean-v2.005.zip"
 }
 is_noto: true
 languages: "aii_Mani"  # Assyrian Neo-Aramaic, Manichaean

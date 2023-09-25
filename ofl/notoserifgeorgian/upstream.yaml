@@ -1,4 +1,7 @@
-archive: https://github.com/notofonts/georgian/releases/download/NotoSerifGeorgian-v2.002/NotoSerifGeorgian-v2.002.zip
+archive: https://github.com/notofonts/georgian/releases/download/NotoSerifGeorgian-v2.003/NotoSerifGeorgian-v2.003.zip
 branch: main
 files:
-  NotoSerifGeorgian/googlefonts/variable-ttf/NotoSerifGeorgian[wdth,wght].ttf: NotoSerifGeorgian[wdth,wght].ttf
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  NotoSerifGeorgian/googlefonts/variable/NotoSerifGeorgian[wdth,wght].ttf: NotoSerifGeorgian[wdth,wght].ttf

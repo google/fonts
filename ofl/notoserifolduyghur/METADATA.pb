@@ -22,3 +22,4 @@ source {
 }
 is_noto: true
 primary_script: "Ougr"
+languages: "oui_Ougr"  # Old Uyghur, Old Uyghur

@@ -2,6 +2,8 @@ id: "shu_Latn"
 language: "shu"
 script: "Latn"
 name: "Arabic, Chadian Spoken"
+population: 2000000 
+region: "TD"
 exemplar_chars {
   base: "a A b B d D e E f F g G h H i I j J k K l L m M n N o O r R s S t T u U w W y Y z Z"
   marks: "◌̂ ◌̧ ◌́ ◌̀ ◌̈"

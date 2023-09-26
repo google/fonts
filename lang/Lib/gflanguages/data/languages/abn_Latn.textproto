@@ -1,0 +1,13 @@
+id: "abn_Latn"
+language: "abn"
+script: "Latn"
+name: "Abua"
+autonym: "Abua"
+population: 25000
+region: "NG"
+exemplar_chars {
+  base: "A Ạ B Ḅ D Ḍ E Ẹ F G H I Ị J K L M N O Ọ P R S T U Ụ V W Y Z a ạ b ḅ d ḍ e ẹ f g h i ị j k l m n o ọ p r s t u ụ v w y z"
+  marks: "◌̣"
+}
+source: "Ethelbert Emmanuel Kari, Kiikpoye Johnny Joshua, \"Abuan orthography\", in Tony Enyia, Orthographies of Nigerian Languages: Manual IX, Nigerian Educational Research and Development Council (NERDC), 2011, p. 1–12"
+source: "Wikipedia"

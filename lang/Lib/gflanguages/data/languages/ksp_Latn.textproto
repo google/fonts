@@ -2,6 +2,9 @@ id: "ksp_Latn"
 language: "ksp"
 script: "Latn"
 name: "Kabba"
+population: 83000
+region: "CF"
+region: "TD"
 exemplar_chars {
   base: "a A b B d D e E g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W y Y ɔ Ɔ"
   marks: "◌̍ ◌̠ ◌̂"

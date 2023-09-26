@@ -2,6 +2,8 @@ id: "naw_Latn"
 language: "naw"
 script: "Latn"
 name: "Nawuri"
+population: 14000
+region: "GH"
 exemplar_chars {
   base: "a A á Á b B d D e E f F g G h H i I k K l L m M n N o O p P r R s S t T u U w W y Y ŋ Ŋ ɔ Ɔ ɛ Ɛ ɩ Ɩ ʋ Ʋ"
   marks: "◌́"

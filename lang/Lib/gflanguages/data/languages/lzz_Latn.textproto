@@ -2,4 +2,13 @@ id: "lzz_Latn"
 language: "lzz"
 script: "Latn"
 name: "Laz, Latin"
-population: 0
+population: 22000
+region: "GE"
+region: "TR"
+exemplar_chars {
+    base: "a A b B c C ç Ç {ç̌} {Ç̌} d D e E f F g G ğ Ğ h H i I j J k K ǩ Ǩ l L m M n N o O q Q p P {p̌} {P̌} r R s S ş Ş t T ť Ť u U v V y Y x X z Z ž Ž ʒ Ʒ ǯ Ǯ"
+    marks: "◌̌ ◌̆ ◌̧"
+    auxiliary: ""
+}
+source: "İsmail Avci, Lazuri 5: doguroni materyali – lazca öğretim matryali, Ankara, Milli Eğitim Bakanlığı Yayınları, 2019"
+source: "K’lemurişi Ramazan Kosanoğlu, “Lazla ve Lazca”, Kiana, April 2016"

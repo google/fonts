@@ -5,9 +5,10 @@ name: "Lakota"
 autonym: "Lakȟótiyapi"
 population: 8315
 region: "US"
+region: "CA"
 exemplar_chars {
-  base: "a á {aŋ} b č {čh} {čʼ} e é g ǧ h ȟ i í {iŋ} k {kh} {kȟ} {kʼ} l m n ŋ o ó p {ph} {pȟ} {pʼ} s š t {th} {tȟ} {tʼ} u ú {uŋ} w y z ž ʼ"
-  auxiliary: "c d f {ȟʼ} j q r {sʼ} {šʼ} v x"
+  base: "a A á Á {aŋ} {AŊ} b B č Č {čh} {ČH} {čʼ} {Čʼ} e E é É g G ǧ Ǧ h H ȟ Ȟ i I í Í {iŋ} {IŊ} k K {kh} {KH} {kȟ} {KȞ} {kʼ} {Kʼ} l L m M n N ŋ Ŋ o O ó Ó p P {ph} {PH} {pȟ} {PȞ} {pʼ} {Pʼ} s S š Š t T {th} {TH} {tȟ} {TȞ} {tʼ} {Tʼ} u U ú Ú {uŋ} {UŊ} w W y Y z Z ž Ž ʼ"
+  auxiliary: "c C d D f F {ȟʼ} {Ȟʼ} j J ƞ Ƞ q Q r R {sʼ} {Sʼ} {šʼ} {Šʼ} v V x X"
   marks: "◌́ ◌̌"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . \" “ ” ( ) [ ] @ * / & #"
@@ -27,3 +28,4 @@ sample_text {
   specimen_21: "Wičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha."
   specimen_16: "Wičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha.\nWičháša na wíŋyaŋ otóiyohi iglúhapi na iyéhaŋyaŋ wówažapi. Tȟaŋmáhel slol\'íč\'iyapi na kičhíwičhowepi s\'e kičhíčhuwapi kta héčha."
 }
+note: "The 1982 orthography uses ƞ Ƞ and is used in some communities. The nasalization is indicated with ŋ Ŋ in the 2008 New Lakota Dictionary and is used by Sitting Bull College, Standing Rock Sioux and Cheyenne River Sioux tribes, and schools in Pine Ridge and Rosebud"

@@ -2,8 +2,13 @@ id: "bud_Latn"
 language: "bud"
 script: "Latn"
 name: "Ntcham"
+autonym: "ncam"
+population: 280000
+region: "GH"
+region: "TG"
 exemplar_chars {
-  base: "a A à À á Á b B c C d D e E è È é É f F g G i I ì Ì í Í j J k K l L ĺ Ĺ m M ḿ Ḿ n N ǹ Ǹ ń Ń ŋ Ŋ o O ò Ò ó Ó ɔ Ɔ p P s S t T u U ù Ù ú Ú w W y Y ÿ Ÿ"
+  base: "a A à À á Á b B {b̀} {B̀} {b́} {B́} c C d D e E è È é É f F g G i I ì Ì í Í j J k K l L {l̀} {L̀} ĺ Ĺ m M {m̀} {M̀} ḿ Ḿ n N ǹ Ǹ ń Ń ŋ Ŋ o O ò Ò ó Ó ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} p P s S t T u U ù Ù ú Ú w W y Y ÿ Ÿ"
   marks: "◌̀ ◌́ ◌̈"
   auxiliary: "h H q Q r R v V x X z Z"
 }
+source: "Jonas Poadi, Waké Ninkabou et Emmanuel Djeri Gnonwaye, Guide de transition français – ncam, Bassar, Association chrétienne des églises de Bassar (ACEB), 2013"

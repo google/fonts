@@ -2,6 +2,8 @@ id: "gby_Latn"
 language: "gby"
 script: "Latn"
 name: "Gbari"
+population: 350000
+region: "NG"
 exemplar_chars {
   base: "á Á a A à À â Â ǎ Ǎ b B ɓ Ɓ d D ɗ Ɗ é É e E è È ê Ê ě Ě f F g G h H í Í i I ì Ì î Î ǐ Ǐ j J k K l L m M n N ó Ó o O ò Ò ô Ô ǒ Ǒ p P r R s S t T ú Ú u U ù Ù û Û ǔ Ǔ v V w W y Y z Z"
   marks: "◌́ ◌̀ ◌̂ ◌̌"

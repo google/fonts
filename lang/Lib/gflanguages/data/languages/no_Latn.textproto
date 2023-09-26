@@ -3,7 +3,8 @@ language: "no"
 script: "Latn"
 name: "Norwegian"
 autonym: "Norsk"
-population: 0
+population: 4320000
+region: "NO"
 exemplar_chars {
   base: "a à b c d e é f g h i j k l m n o ó ò ô p q r s t u v w x y z æ ø å"
   auxiliary: "á ǎ ã č ç đ è ê í ń ñ ŋ š ŧ ú ü ž ä ö"

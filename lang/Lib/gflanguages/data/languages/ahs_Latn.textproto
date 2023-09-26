@@ -2,6 +2,8 @@ id: "ahs_Latn"
 language: "ahs"
 script: "Latn"
 name: "Ashe"
+population: 53000
+region: "NG"
 exemplar_chars {
   base: "a A á Á ã Ã b B c C d D e E é É ẽ Ẽ ɛ Ɛ f F g G h H i I í Í j J k K l L m M n N ŋ Ŋ o O ó Ó õ Õ ɔ Ɔ p P r R t T u U ú Ú ũ Ũ v V w W y Y"
   marks: "◌́ ◌̃"

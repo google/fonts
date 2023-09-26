@@ -2,6 +2,8 @@ id: "bav_Latn"
 language: "bav"
 script: "Latn"
 name: "Vengo"
+population: 27000
+region: "CM"
 exemplar_chars {
   base: "a A b B d D e E f F g G h H i I j J k K l L m M n N o O s S t T u U ú Ú v V w W y Y z Z ŋ Ŋ ɔ Ɔ ə Ə ɨ Ɨ ꞌ Ꞌ"
   marks: "◌̰ ◌́ ◌̀"

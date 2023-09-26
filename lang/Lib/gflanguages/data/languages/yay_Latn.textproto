@@ -2,6 +2,8 @@ id: "yay_Latn"
 language: "yay"
 script: "Latn"
 name: "Agwagwune"
+population: 20000
+region: "NG"
 exemplar_chars {
   base: "a A b B ɓ Ɓ d D ɗ Ɗ e E ẹ Ẹ g G h H i I j J k K l L m M n N o O ọ Ọ p P r R s S t T u U w W y Y"
   marks: "◌̣"

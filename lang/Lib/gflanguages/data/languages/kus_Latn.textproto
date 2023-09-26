@@ -2,7 +2,15 @@ id: "kus_Latn"
 language: "kus"
 script: "Latn"
 name: "Kusaal"
+autonym: "kusaal"
+population: 549000
+region: "BF"
+region: "GH"
 exemplar_chars {
-  base: "a A b B d D e E f F g G h H i I k K l L m M n N ŋ Ŋ o O p P r R s S t T u U v V w W y Y z Z"
+  base: "a A ã Ã b B d D e E ẽ Ẽ ɛ Ɛ f F g G h H i I ĩ Ĩ ɩ Ɩ k K l L m M n N ŋ Ŋ o O õ Õ ɔ Ɔ p P r R s S t T u U ũ Ũ ʋ Ʋ w W y Y z Z ʼ"
   auxiliary: "c C j J q Q x X"
+  marks: "◌̃"
 }
+source: "Wikipedia"
+source: "https://www.webonary.org/kusaal-bf"
+source: "https://www.webonary.org/kusaal-gh"

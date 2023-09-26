@@ -2,8 +2,9 @@ id: "zap_Latn"
 language: "zap"
 script: "Latn"
 name: "Zapotec"
-population: 0
+population: 490000
+region: "MX"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À È É Ë Ì Ü Ñ S̨ Ž Z̨ a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü ñ s̨ ž z̨"
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À È É Ë Ì Ü Ñ {S̨} Ž {Z̨} a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü ñ {s̨} ž {z̨}"
   marks: "◌̀ ◌́ ◌̃ ◌̈ ◌̌ ◌̨"
 }

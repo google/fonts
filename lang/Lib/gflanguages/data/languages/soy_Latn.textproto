@@ -2,8 +2,11 @@ id: "soy_Latn"
 language: "soy"
 script: "Latn"
 name: "Miyobe"
+population: 22000
+region: "BJ"
+region: "TG"
 exemplar_chars {
-  base: "a A á Á c C e E é É ẽ Ẽ ɛ Ɛ f F h H i I í Í ĩ Ĩ k K l L m M n N ŋ Ŋ o O ó Ó õ Õ ṍ Ṍ ɔ Ɔ p P r R s S t T u U ú Ú ũ Ũ ṹ Ṹ w W y Y"
+  base: "a A á Á c C e E é É ẽ Ẽ {ẽ́} {Ẽ́} ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̃} {Ɛ̃} {ɛ̃́} {Ɛ̃́} f F h H i I í Í ĩ Ĩ {ĩ́} {Ĩ́} k K l L m M n N ŋ Ŋ o O ó Ó õ Õ ṍ Ṍ ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̃} {Ɔ̃} {ɔ̃́} {Ɔ̃́} p P r R s S t T u U ú Ú ũ Ũ ṹ Ṹ w W y Y"
   marks: "◌́ ◌̃"
   auxiliary: "b B d D g G j J q Q v V x X z Z"
 }

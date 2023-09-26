@@ -2,6 +2,9 @@ id: "gej_Latn"
 language: "gej"
 script: "Latn"
 name: "Gen"
+population: 600000
+region: "BJ"
+region: "TG"
 exemplar_chars {
   base: "a A b B c C d D ɖ Ɖ e E ɛ Ɛ f F g G ɣ Ɣ h H x X i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U v V w W y Y z Z"
   auxiliary: "q Q r R"

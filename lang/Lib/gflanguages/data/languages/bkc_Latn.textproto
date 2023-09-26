@@ -2,6 +2,9 @@ id: "bkc_Latn"
 language: "bkc"
 script: "Latn"
 name: "Baka"
+population: 71000
+region: "CM"
+region: "GA"
 exemplar_chars {
   base: "a A b B ɓ Ɓ d D ɗ Ɗ e E ɛ Ɛ f F g G h H i I j J k K l L m M n N o O ɔ Ɔ s S t T u U w W y Y"
   auxiliary: "c C p P q Q r R v V x X z Z"

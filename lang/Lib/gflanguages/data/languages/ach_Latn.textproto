@@ -2,5 +2,27 @@ id: "ach_Latn"
 language: "ach"
 script: "Latn"
 name: "Acoli"
+autonym: "Acoli"
 population: 1600361
 region: "UG"
+exemplar_chars {
+  base: "A B C D E G I J K L M N Ŋ O P R T U W Y a b c d e g i j k l m n ŋ o p r t u w y"
+  auxiliary: "ʈ Ʈ"
+}
+sample_text {
+  masthead_full: "AaŊŋ"
+  masthead_partial: "Oo"
+  styles: "Abicamo gweno, muraŋa, layata ki mucele."
+  tester: "Amaro cammo capat, obakado, moyeme, pot dek, mucuŋwa."
+  poster_sm: "Mugati ma giŋolo"
+  poster_md: "Ŋo manyen?"
+  poster_lg: "Laŋogo"
+  specimen_48: "Amaro cammo riŋo, layata munu, layata. Muraŋa, pot dek ki rec."
+  specimen_36: "Wacit wayeny tic. Ah, cawa tye marac. Cawa adi? Cawa aŋwen me odiko. Eh, eh! Watye lacen! Aya. Waciti."
+  specimen_32: "Wurii wunu maber, anyira? Warii maber, ladit. Kono in? Atye maber. Dano gaŋ tye niniŋ? Gitye gire maber, ento Mary aye kome lit. Two aŋo? Two aona apio. Pwod wanen! Wek koŋ wacit watere i ot yat. Ber Aya. Pwod wanen."
+  specimen_21: "Abidwogo ceŋ moo. Amiye buk mukene mapat. Latin munyoo aobala jammi. Abi kum apar donyo waŋ aryoo. Dyel tyene aŋwen calo meja, ci meja ibe pee. Aneno acekere elfu acel ki miya abic. Caa adii? Caa abicel litak. Kunno anoŋo dano pyeradek kulu. Atye ki dyegi apar wi aryoo. Dano apar kulu mito tic. Dano ma tye i tic gin apar adek moo."
+  specimen_16: "Iceŋ adek ii otyeno, mama odwogo ki iot yat ma tye ka bwonyo matek. Onoŋo ocwalo kare malac me neno en ka bunyu. I acaki en onoŋo obedo ma cwinye cwee pien onoŋo en peke ki tic me atima, kun gwoko lutino aboro kulu. Onoŋo en peke ki cente me gaŋ kwan pa lotino, wilo yat ki me wilo cam pi jo ma i gaŋe. Kama en bedo i iye ni onoŋo pe ceko cam tutwal kadi bed en opur. I otyeno me ceŋ adek ni, en bene onoŋo yat mo me konyo two ne me nono. En bene oyee ni etye ki two cilim ki bene me kanyo peko me mwonyo yat. Me medo ikom meno bene kimiye  mucele, uŋa, muraŋa ki moo dek. Bene kimiye net ki jeriken me mato pi maleŋ. Lami tam  ocike bote me bedo ka roto kit ma yot kome tye kwede kicel i cabit ace."
+  note: "Sample specimen from Malandra 1955 and Peace Corps 2009."
+}
+source: "Alfred Malandra, A New Acholi Grammar, Nairobi (Kenya), Eagle Press, 1955, 153 p."
+source: "Peace Corps, Acholi Language Manual, 2009"

@@ -2,6 +2,8 @@ id: "fod_Latn"
 language: "fod"
 script: "Latn"
 name: "Foodo"
+population: 21000
+region: "BJ"
 exemplar_chars {
   base: "a A á Á b B c C d D e E é É ɛ Ɛ f F g G h H i I í Í ɩ Ɩ j J k K l L m M n N ŋ Ŋ o O ó Ó ɔ Ɔ p P s S t T u U ú Ú ʊ Ʊ v V w W y Y z Z"
   marks: "◌́"

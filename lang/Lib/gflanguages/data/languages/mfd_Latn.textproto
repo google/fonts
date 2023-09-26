@@ -1,0 +1,26 @@
+id: "mfd_Latn"
+language: "mfd"
+script: "Latn"
+name: "Mendankwe-Nkwen"
+population: 28000
+region: "CM"
+exemplar_chars {
+  base: "a A b B {ch} {CH} d D e E ə Ə ɛ Ɛ f F g G {gh} {GH} i I j J k K l L m M n N ŋ Ŋ o O r R s S {sh} {SH} t T u U w W y Y z Z {zh} {ZH} ɂ Ɂ"
+  auxiliary: "c C d D h H q Q v V x X ʼ ˀ"
+}
+sample_text {
+  masthead_full: "ƏəŊŋ"
+  masthead_partial: "Ee"
+  styles: "Mə̀ghəmə nə̀kwà nə ǹchə̀-mòɂo"
+  tester: "Lamshì nə ə̀boɂo bə̌ əduŋə ma ə̀boo nə njyə."
+  poster_sm: "Njinjìɂì"
+  poster_md: "A afàɂa"
+  poster_lg: "Ə̀boɂo"
+  specimen_48: "Boŋə ò nyesə̀ ndyâ zhə̀ nə mə̀ngòɂò bwo waŋsə-nshye."
+  specimen_36: "Ŋorə nə nùŋə̀ nə ndə̀-fə̀ɂə̀ bə̌ ədzuŋə də̀sə fəɂə̀. Lamshì nə ə̀boɂo bə̌ əduŋə ma ə̀boo nə njyə. Boŋə ò nyesə̀ ndyâ zhə̀ nə mə̀ngòɂò bwo waŋsə-nshye. Sama, a zhi wwo ghə̀rə a waŋsə-nshye ku nəli wwò. Talà zhwe àbaɂatə-kaŋə atyə àkəɂətə̀."
+  specimen_32: "Bamə nə ghəghənə nə njinjìɂì bə̌ bə̀səɂə. Tòɂòrə̀ bikakə seŋe bə. Dədoɂo bwo ǹnà-mə̀karə nə forə nə tòɂòrə̀ bə̌ mə̀nà. Chɛ̀kə̀rə̀ nə àkə̀ɂətə nə fəkəbə nə mə̀saŋə àshìshì nə àzarə nə ǹzhà bə̌ ə̀dzuŋə məmə̀ ndyâ. Àbàà nə fɛrə nə yɛ̀rə̀ bə̀̌ ə̀dzuŋə nyèsə nnu."
+  specimen_21: "Bamə nə ghəghənə nə njinjìɂì bə̌ bə̀səɂə. Tòɂòrə̀ bikakə seŋe bə. Dədoɂo bwo ǹnà-mə̀karə nə forə nə tòɂòrə̀ bə̌ mə̀nà. Chɛ̀kə̀rə̀ nə àkə̀ɂətə nə fəkəbə nə mə̀saŋə àshìshì nə àzarə nə ǹzhà bə̌ ə̀dzuŋə məmə̀ ndyâ. Àbàà nə fɛrə nə yɛ̀rə̀ bə̀̌ ə̀dzuŋə nyèsə nnu. Ŋorə nə nùŋə̀ nə ndə̀-fə̀ɂə̀ bə̌ ədzuŋə də̀sə fəɂə̀. Lamshì nə ə̀boɂo bə̌ əduŋə ma ə̀boo nə njyə."
+  specimen_16: "Bamə nə ghəghənə nə njinjìɂì bə̌ bə̀səɂə. Tòɂòrə̀ bikakə seŋe bə. Dədoɂo bwo ǹnà-mə̀karə nə forə nə tòɂòrə̀ bə̌ mə̀nà. Chɛ̀kə̀rə̀ nə àkə̀ɂətə nə fəkəbə nə mə̀saŋə àshìshì nə àzarə nə ǹzhà bə̌ ə̀dzuŋə məmə̀ ndyâ. Àbàà nə fɛrə nə yɛ̀rə̀ bə̀̌ ə̀dzuŋə nyèsə nnu. Ŋorə nə nùŋə̀ nə ndə̀-fə̀ɂə̀ bə̌ ədzuŋə də̀sə fəɂə̀. Lamshì nə ə̀boɂo bə̌ əduŋə ma ə̀boo nə njyə. Boŋə ò nyesə̀ ndyâ zhə̀ nə mə̀ngòɂò bwo waŋsə-nshye. Sama, a zhi wwo ghə̀rə a waŋsə-nshye ku nəli wwò. Talà zhwe àbaɂatə-kaŋə atyə àkəɂətə̀."
+}
+source: "“Nkwen Language Alphabet, General Education For All And Entertainment”, 8 January 2020, https://nwufortherese.education/archives/1864"
+source: "“NKWEN LANGUAGE LESSONS Greetings, family, Alphabet, Tone Marks, Numbers”, General Education For All And Entertainment, 25 February 2021, https://nwufortherese.education/archives/1366"

@@ -2,7 +2,11 @@ id: "kr_Latn"
 language: "kr"
 script: "Latn"
 name: "Kanuri"
-population: 0
+population: 8845500
+region: "NG"
+region: "NE"
+region: "TD"
+region: "CM"
 exemplar_chars {
   base: "A B C D E Ǝ F G H I J K L M N O P R Ɍ S T U W Y Z a b c d e ǝ f g h i j k l m n o p r ɍ s t u w y z"
 }

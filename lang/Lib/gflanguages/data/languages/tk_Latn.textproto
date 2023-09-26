@@ -3,7 +3,7 @@ language: "tk"
 script: "Latn"
 name: "Turkmen, Latin"
 autonym: "Türkmençe"
-population: 0
+population: 11000000
 region: "TM"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ö Ü Ý Ň Ş Ž Ș a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș"

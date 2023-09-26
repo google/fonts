@@ -2,6 +2,13 @@ id: "idu_Latn"
 language: "idu"
 script: "Latn"
 name: "Idoma"
+autonym: "Idoma"
+population: 980000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á ā Ā b B c C d D e E é É ē Ē ẹ Ẹ ɛ Ɛ f F g G h H i I í Í ī Ī j J k K l L m M n N ŋ Ŋ o O ó Ó ō Ō ọ Ọ ɔ Ɔ p P r R s S t T u U ú Ú ū Ū v V w W y Y z Z"
+  marks: "◌́ ◌̄ ◌̣"
+}
 sample_text {
   masthead_full: "ĘęGg"
   masthead_partial: "Nn"
@@ -16,3 +23,5 @@ sample_text {
   specimen_21: "Ęgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgͻ ma acę duu jonjilę ipu kocęgba nͻcę cęgba męml’ojonjilę ipu ͻdah ni yabͻ ͻcę nya. Odudu acę kwu ђwule ml’ohili otu męml’ocai kęla jͻcę ͻha ni yipu ͻtu ͻcę aa, higbͻ ma ͻcę higbo yͻda męml’ ͻmpa gunu lę bͻinę nu ma."
   specimen_16: "Ęgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgͻ ma acę duu jonjilę ipu kocęgba nͻcę cęgba męml’ojonjilę ipu ͻdah ni yabͻ ͻcę nya. Odudu acę kwu ђwule ml’ohili otu męml’ocai kęla jͻcę ͻha ni yipu ͻtu ͻcę aa, higbͻ ma ͻcę higbo yͻda męml’ ͻmpa gunu lę bͻinę nu ma.\nĘgę ni modudu acę kęcę nya bęcę ęhehi aa ,hibi ęgͻ ma acę duu jonjilę ipu kocęgba nͻcę cęgba męml’ojonjilę ipu ͻdah ni yabͻ ͻcę nya. Odudu acę kwu ђwule ml’ohili otu męml’ocai kęla jͻcę ͻha ni yipu ͻtu ͻcę aa, higbͻ ma ͻcę higbo yͻda męml’ ͻmpa gunu lę bͻinę nu ma."
 }
+source: "R.C. Abraham, Idoma orthography, in Ayo Banjo, Orthographies of Nigerian Languages: Manual III, Lagos, National Language Center, 1985"
+source: "Wikipedia"

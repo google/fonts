@@ -2,8 +2,13 @@ id: "lee_Latn"
 language: "lee"
 script: "Latn"
 name: "Lyélé"
+population: 130000
+region: "BF"
 exemplar_chars {
-  base: "a A â Â b B c C d D e E ê Ê f F g G h H i I j J k K l L m M n N o O ô Ô p P r R s S t T u U v V w W y Y z Z ŋ Ŋ ɔ Ɔ ə Ə ɛ Ɛ"
-  marks: "◌̂ ◌̀ ◌́ ◌̃ ◌̌"
+  base: "a A b B c C d D e E ə Ə ɛ Ɛ f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V w W y Y z Z À È {Ə̀} {Ɛ̀} Ì Ǹ Ò {Ɔ̀} Ù Á É {Ə́} {Ɛ́} Í Ń Ó {Ɔ́} Ú Ǎ Ě {Ə̌} {Ɛ̌} Ǐ Ǒ {Ɔ̌} Ǔ Â Ê {Ə̂} {Ɛ̂} Î Ô {Ɔ̂} Û Ã Ẽ {Ɛ̃} Ĩ Õ Ũ {Ã̀} {Ẽ̀} {Ɛ̃̀} {Ĩ̀} {Õ̀} {Ũ̀} {Ã́} {Ẽ́} {Ɛ̃́} {Ĩ́} Ṍ Ṹ {Ã̌} {Ẽ̌} {Ɛ̃̌} {Ĩ̌} {Õ̌} {Ũ̌} à è {ə̀} {ɛ̀} ì ǹ ò {ɔ̀} ù á é {ə́} {ɛ́} í ń ó {ɔ́} ú ǎ ě {ə̌} {ɛ̌} ǐ ǒ {ɔ̌} ǔ â ê {ə̂} {ɛ̂} î ô {ɔ̂} û ã ẽ {ɛ̃} ĩ õ ũ {ã̀} {ẽ̀} {ɛ̃̀} {ĩ̀} {õ̀} {ũ̀} {ã́} {ẽ́} {ɛ̃́} {ĩ́} ṍ ṹ {ã̌} {ẽ̌} {ɛ̃̌} {ĩ̌} {õ̌} {ũ̌}"
+  marks: "◌́ ◌̀ ◌̂ ◌̃ ◌̌"
   auxiliary: "q Q x X"
 }
+source: "Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 50."
+source: "https://www.bible.com/versions/1772"
+source: "https://scriptsource.org/cms/scripts/page.php?item_id=language_detail&key=lee"

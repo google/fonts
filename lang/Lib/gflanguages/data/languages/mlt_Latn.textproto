@@ -2,6 +2,8 @@ id: "mlt_Latn"
 language: "mlt"
 script: "Latn"
 name: "Maltese"
+population: 530000
+region: "MT"
 exemplar_chars {
   base: "a A à À b B ċ Ċ d D e E è È f F ġ Ġ g G h H ħ Ħ i I ì Ì j J k K l L m M n N o O ò Ò p P q Q r R s S t T u U ù Ù v V w W x X ż Ż z Z"
   marks: "◌̀ ◌̇"

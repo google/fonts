@@ -2,6 +2,8 @@ id: "dts_Latn"
 language: "dts"
 script: "Latn"
 name: "Dogon, Toro So"
+population: 113
+region: "ML"
 exemplar_chars {
   base: "a A b B c C d D e E è È f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ò Ò p P r R s S t T u U ü Ü w W y Y z Z"
   marks: "◌̀ ◌̈"

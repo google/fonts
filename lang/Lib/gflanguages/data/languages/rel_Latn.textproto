@@ -2,6 +2,8 @@ id: "rel_Latn"
 language: "rel"
 script: "Latn"
 name: "Rendille"
+population: 96300
+region: "KE"
 exemplar_chars {
   base: "a A b B d D e E f F g G h H i I j J k K l L m M n N o O r R s S t T u U w W y Y"
   auxiliary: "c C p P q Q v V x X z Z"

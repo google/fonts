@@ -4,3 +4,10 @@ script: "Latn"
 name: "Dan"
 population: 1099244
 region: "CI"
+exemplar_chars {
+    base: "a A ȁ Ȁ à À ā Ā á Á {a̋} {A̋} â Â æ Æ {æ̏} {Æ̏} {æ̀} {Æ̀} ǣ Ǣ ǽ Ǽ {æ̋} {Æ̋} {æ̂} {Æ̂} ʌ Ʌ {ʌ̏} {Ʌ̏} {ʌ̀} {Ʌ̀} {ʌ̄} {Ʌ̄} {ʌ́} {Ʌ́} {ʌ̋} {Ʌ̋} {ʌ̂} {Ʌ̂} b B d D e E ȅ Ȅ è È ē Ē é É {e̋} {E̋} ê Ê ɛ Ɛ {ɛ̏} {Ɛ̏} {ɛ̀} {Ɛ̀} {ɛ̄} {Ɛ̄} {ɛ́} {Ɛ́} {ɛ̋} {Ɛ̋} {ɛ̂} {Ɛ̂} f F i I ȉ Ȉ ì Ì ī Ī í Í {i̋} {I̋} î Î g G h H k K l L n N ŋ Ŋ o O ȍ Ȍ ò Ò ō Ō ó Ó ő Ő ô Ô ɔ Ɔ ɤ {ɤ̏} {ɤ̀} {ɤ̄} {ɤ́} {ɤ̋} {ɤ̂} œ Œ {œ̏} {Œ̏} {œ̀} {Œ̀} {œ̄} {Œ̄} {œ́} {Œ́} {œ̋} {Œ̋} {œ̂} {Œ̂} p P s S t T u U ȕ Ȕ ù Ù ū Ū ú Ú ű Ű û Û ɯ Ɯ {ɯ̏} {Ɯ̏} {ɯ̀} {Ɯ̀} {ɯ̄} {Ɯ̄} {ɯ́} {Ɯ́} {ɯ̋} {Ɯ̋} {ɯ̂} {Ɯ̂} v V w W y Y z Z ʼ"
+    marks: "◌̋ ◌́ ◌̄ ◌̀ ◌̏ ◌̂ ◌̈"
+    auxiliary: "ë Ë ö Ö ü Ü {ʋ̈} {Ʋ̈} ˗ ꞊ ˮ"
+}
+note: "TODO: add uppercase of ɤ and accented forms once it is in Unicode 16.0."
+source: "Gué Nestor, Kpan Joséphine, Vydrin Valentin & Zeh Emmanuel, Syllabaire dan de l’Est Livre d’enseignants, Man – Abidjan: Pȁbhɛ̄nbhȁbhɛ̏n - EDILIS, 2020"

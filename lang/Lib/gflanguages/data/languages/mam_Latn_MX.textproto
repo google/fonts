@@ -1,0 +1,23 @@
+id: "mam_Latn"
+language: "mam"
+script: "Latn"
+name: "Mam"
+region: "MX"
+exemplar_chars {
+  base: "a A {bꞌ} {BꞋ} {ch} {CH} {chꞌ} {CHꞋ} d D e E g G i I j J k K {kꞌ} {KꞋ} {ky} {KY} {kyꞌ} {KYꞋ} l L m M n N o O p P q Q {qꞌ} {QꞋ} r R s S t T {tꞌ} {TꞋ} {ts} {TS} {tsꞌ} {TSꞋ} {tx} {TX} {txꞌ} {TXꞋ} u U w W x X {xh} {XH} y Y ꞌ Ꞌ"
+}
+sample_text {
+  masthead_full: "KkYy"
+  masthead_partial: "Aa"
+  styles: "Kyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx"
+  tester: "Kyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix"
+  poster_sm: "Kyaqiilqe winaq"
+  poster_md: "Kyaqiilqe"
+  poster_lg: "winaq"
+  specimen_48: "Kyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen,"
+  specimen_36: "Kyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool."
+  specimen_32: "Kyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool."
+  specimen_21: "Kyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool.\nKyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool.\nKyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool."
+  specimen_16: "Kyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool.\nKyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool.\nKyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool.\nKyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool.\nKyaqiilqe winaq nchi itz\'aj tuj kopib\'il, juunx kychuwiinqal b\'ix kyokleen, kyja\'tzan tuj tb\'aanal xiinv\'il tu\'n kyanq\'iin tuj b\'ank\'u\'j kyxool."
+}
+source: "Nicacio Ramos Ortiz, Juan Rodríguez Pérez and Juan Rolando Morales de León, TXolil ta tsi'b'enj te ta yol mam, México: Instituto Nacional de Lenguas Indígenas; Gobierno del Estado de Chiapas, Secretaría de Educación: Universidad Intercultural de Chiapas, 2011"

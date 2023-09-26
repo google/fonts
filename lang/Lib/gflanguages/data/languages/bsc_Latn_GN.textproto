@@ -1,0 +1,12 @@
+id: "bsc_Latn_GN"
+language: "bsc"
+script: "Latn"
+name: "Bassari"
+autonym: "oneyan"
+population: 18000
+region: "GN"
+exemplar_chars {
+  base: "A B Ɓ C D Ɗ E Ǝ Ɛ F G H I J Ɉ K L M N Ŋ Ɲ O Ɔ P R S Ʃ T U V W Y Ƴ a b ɓ c d ɗ e ǝ ɛ f g h i j ɉ k l m n ŋ ɲ o ɔ p r s ʃ t u v w y ƴ"
+}
+source: "Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015"
+source: "Wikipedia"

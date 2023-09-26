@@ -1,0 +1,12 @@
+id: "dnj_Latn_LR"
+language: "dnj"
+script: "Latn"
+name: "Dan"
+autonym: "Gio"
+population: 1099244
+region: "LR"
+exemplar_chars {
+    base: "a A à À á Á â Â b B ɓ Ɓ d D ɗ Ɗ e E è È é É ê Ê f F g G h H i I ì Ì í Í î Î j J k K l L m M n N o O ò Ò ó Ó ô Ô ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} ə Ə {ə̀} {Ə̀} {ə́} {Ə́} {ə̂} {Ə̂} ɵ Ɵ {ɵ̀} {Ɵ̀} {ɵ́} {Ɵ́} {ɵ̂} {Ɵ̂} p P r R s S t T u U ù Ù ú Ú û Û ɥ Ɥ {ɥ̀} {Ɥ̀} {ɥ́} {Ɥ́} {ɥ̂} {Ɥ̂} v V w W x X y Y z Z"
+    marks: "◌́ ◌̀ ◌̂"
+}
+source: "Lorna A. Priest, Proposal to Encode Additional Latin and Cyrillic Characters, 2008"

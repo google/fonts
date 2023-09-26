@@ -2,6 +2,8 @@ id: "mbo_Latn"
 language: "mbo"
 script: "Latn"
 name: "Mbo"
+population: 99000
+region: "CM"
 exemplar_chars {
   base: "a A b B ɓ Ɓ d D e E ɛ Ɛ g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U w W y Y z Z"
   auxiliary: "c C f F q Q r R v V x X"

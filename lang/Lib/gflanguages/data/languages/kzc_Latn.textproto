@@ -1,0 +1,10 @@
+id: "kzc_Latn"
+language: "kzc"
+script: "Latn"
+name: "Bondoukou Kulango"
+population: 204000
+region: "CI"
+exemplar_chars {
+  base: "a A ã Ã b B d D e E ɛ Ɛ f F g G {gb} {GB} {gy} {GY} h H i I ĩ Ĩ ɪ Ɪ {ɪ̃} {Ɪ̃} k K {kp} {KP} {ky} {KY} l L m M n N {ny} {NY} ŋ Ŋ {ŋm} {ŊM} o O ɔ Ɔ ꞷ Ꞷ {ꞷ̃} {Ꞷ̃} p P r R s S t T u U ũ Ũ v V w W y Y z Z"
+  marks: "◌̃" }
+source: "Syllabaire koulango : réservé aux élèves des cours bibliques en Koulango, Nassian, Diocèse de Bondouko, 1992."

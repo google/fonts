@@ -2,8 +2,12 @@ id: "uth_Latn"
 language: "uth"
 script: "Latn"
 name: "ut-Hun"
+autonym: "u̱t-Hun"
+population: 50000
+region: "NG"
 exemplar_chars {
-  base: "ɑ Ɑ a A à À á Á b B c C d D e E è È é É f F g G h H i I ì Ì í Í j J k K l L m M n N o O ò Ò ó Ó p P r R s S t T u U ù Ù ú Ú v V w W y Y z Z"
-  marks: "◌̀ ◌́"
-  auxiliary: "q Q x X"
+  base: "a A b B c C d D e E {e̱} {E̱} g G h H ' i I j J k K l L m M n N o O {o̱} {O̱} p P r R s S t T u U {u̱} {U̱} w W y Y z Z"
+  marks: "◌̱"
+  auxiliary: "f F q Q v V x X"
 }
+source: "u̱t-Hun Dictionary, Webonary"

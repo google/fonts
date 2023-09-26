@@ -2,8 +2,10 @@ id: "god_Latn"
 language: "god"
 script: "Latn"
 name: "Godié"
+population: 26400
+region: "CI"
 exemplar_chars {
-  base: "a A ä Ä b B d D e E ɛ Ɛ f F g G i I ï Ï ɩ Ɩ k K l L m M n N ŋ Ŋ o O ö Ö ɔ Ɔ p P s S t T u U ü Ü ʋ Ʋ v V w W y Y z Z"
+  base: "a A ä Ä b B d D e E ɛ Ɛ f F g G i I ï Ï ɩ Ɩ k K l L m M n N ŋ Ŋ o O ö Ö ɔ Ɔ p P s S t T u U ü Ü ʋ Ʋ v V w W y Y z Z ʼ ˗"
   marks: "◌̈"
   auxiliary: "c C j J q Q r R x X"
 }

@@ -2,6 +2,8 @@ id: "nko_Latn"
 language: "nko"
 script: "Latn"
 name: "Nkonya"
+population: 20000
+region: "GH"
 exemplar_chars {
   base: "a A á Á b B d D e E é É ɛ Ɛ f F g G h H i I í Í ɩ Ɩ k K l L m M n N ŋ Ŋ o O ó Ó ɔ Ɔ p P r R s S t T u U ú Ú ʋ Ʋ v V w W y Y z Z"
   marks: "◌́"

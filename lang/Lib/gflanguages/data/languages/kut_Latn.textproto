@@ -2,4 +2,13 @@ id: "kut_Latn"
 language: "kut"
 script: "Latn"
 name: "Kutenai"
-population: 0
+population: 345
+region: "CA"
+region: "US"
+exemplar_chars {
+    base: "a A {a·} {A·} ȼ Ȼ {ȼ̓} {Ȼ̓} h H i I {i·} {I·} k K {k̓} {K̓} l L ⱡ Ⱡ m M {m̓} {M̓} n N {n̓} {N̓} p P {p̓} {P̓} q Q {q̓} {Q̓} s S t T {t̓} {T̓} u U {u·} {U·} w W x X y Y ʔ ʾ"
+    marks: "◌̓ ◌̌"
+    auxiliary: "b B c C č Č d D e E f F g G j J o O r R v V z Z"
+}
+source: "FirstVoices.ca"
+source: "Chris Harvey, Languagegeek.com"

@@ -2,7 +2,8 @@ id: "agr_Latn"
 language: "agr"
 script: "Latn"
 name: "Aguaruna"
-region: "US"
+population: 65000
+region: "PE"
 sample_text {
   masthead_full: "AaSs"
   masthead_partial: "Hh"

@@ -3,8 +3,13 @@ language: "rup"
 script: "Latn"
 name: "Aromanian"
 autonym: "Armani"
-population: 0
-region: "US"
+population: 210000
+region: "AL"
+region: "BG"
+region: "GR"
+region: "MK"
+region: "RO"
+region: "RS"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ã Ă Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z â ã ă ș ț"
   marks: "◌̂ ◌̃ ◌̆ ◌̦"

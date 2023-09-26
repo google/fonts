@@ -1,0 +1,13 @@
+id: "nuk_Latn"
+language: "nuk"
+script: "Latn"
+name: "Nuuchahnulth"
+autonym: "nuučaan̓uɫ"
+population: 800
+region: "CA"
+exemplar_chars {
+  base: "A C E H I K M N O P Q S T U W X Y a c e h i k m n o p q s t u w x y Č č Ł ł Š š ƛ ʔ ʕ ʷ Ḥ ḥ"
+  marks: "◌̌ ◌̓ ◌̣"
+}
+source: "FirstVoices"
+source: "Wikipedia"

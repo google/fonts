@@ -2,8 +2,15 @@ id: "any_Latn"
 language: "any"
 script: "Latn"
 name: "Anyin"
+autonym: "anyi"
+population: 1506400
+region: "CI"
+region: "GH"
 exemplar_chars {
   base: "a A â Â b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P s S t T u U v V w W y Y z Z ɔ Ɔ ɛ Ɛ ɩ Ɩ ʋ Ʋ"
   marks: "◌̂ ◌́"
   auxiliary: "q Q r R x X"
 }
+source: "Rhonda L. Hartell, Alphabets of Africa, 1993, p. 118"
+source: "Ettien N. Koffi, Guide d’orthographe et de lecture de l’agni morofou — Anyin Mɔlɔfʋ Ngɛlɛlɩɛ nɩn Nince Kɩnngalɛ Fuluwa, Bongouanou, CATA (Centre d’alphabétisation et de traduction en agni, 2009"
+source: "Wikipedia"

@@ -2,6 +2,9 @@ id: "fue_Latn"
 language: "fue"
 script: "Latn"
 name: "Fulfulde, Borgu"
+population: 842000
+region: "BJ"
+region: "TG"
 exemplar_chars {
   base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E f F g G h H i I j J k K l L m M n N ŋ Ŋ o O p P r R s S t T u U w W y Y ƴ Ƴ"
   auxiliary: "q Q v V x X z Z"

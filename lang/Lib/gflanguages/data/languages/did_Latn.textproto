@@ -2,6 +2,8 @@ id: "did_Latn"
 language: "did"
 script: "Latn"
 name: "Didinga"
+population: 100000
+region: "SS"
 exemplar_chars {
   base: "a A á Á b B c C d D e E ẽ Ẽ g G h H i I ĩ Ĩ j J k K l L m M n N o O õ Õ p P r R s S t T u U ú Ú ũ Ũ v V w W y Y ꞌ Ꞌ"
   marks: "◌́ ◌̃"

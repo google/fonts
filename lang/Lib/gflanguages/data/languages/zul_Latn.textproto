@@ -1,9 +1,0 @@
-id: "zul_Latn"
-language: "zul"
-script: "Latn"
-name: "Zulu"
-exemplar_chars {
-  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z"
-  marks: "◌́ ◌̀ ◌̆ ◌̂ ◌̊ ◌̈ ◌̃ ◌̄ ◌̧"
-  auxiliary: "á Á à À ă Ă â Â å Å ä Ä ã Ã ā Ā æ Æ ç Ç é É è È ĕ Ĕ ê Ê ë Ë ē Ē í Í ì Ì ĭ Ĭ î Î ï Ï ī Ī ñ Ñ ó Ó ò Ò ŏ Ŏ ô Ô ö Ö ø Ø ō Ō œ Œ ú Ú ù Ù ŭ Ŭ û Û ü Ü ū Ū ÿ Ÿ"
-}

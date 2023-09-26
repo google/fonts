@@ -2,13 +2,14 @@ id: "mh_Latn"
 language: "mh"
 script: "Latn"
 name: "Marshallese"
-autonym: "Kajin M̧ajeļ"
+autonym: "Kajin Ṃajeḷ"
 population: 56879
 region: "MH"
 exemplar_chars {
-  base: "A Ā B D E I J K L Ļ M M̧ N Ņ N̄ O Ō O̧ P R T U Ū W a ā b d e i j k l ļ m m̧ n ņ n̄ o ō o̧ p r t u ū w"
-  marks: "◌̄ ◌̦ ◌̧ ◌̨"
+  base: "A Ā B D E I J K L Ļ Ḷ M {M̧} Ṃ N Ņ Ṇ {N̄} O Ō {O̧} Ọ P R T U Ū W a ā b d e i j k l ļ ḷ m {m̧} ṃ n ņ ṇ {n̄} o ō {o̧} ọ p r t u ū w"
+  marks: "◌̄ ◌̦ ◌̧ ◌̨ ◌̣"
 }
+note: "Letters with cedilla have been replaced by letters with dot below as in the Marshallese-English Online Dictionary. Nevertheless, they should have a consistent cedilla when used."
 sample_text {
   masthead_full: "AaRr"
   masthead_partial: "Mm"

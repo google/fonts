@@ -2,6 +2,8 @@ id: "mnf_Latn"
 language: "mnf"
 script: "Latn"
 name: "Mundani"
+population: 34000
+region: "CM"
 exemplar_chars {
   base: "a A b B d D e E ə Ə f F g G i I ɨ Ɨ k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U v V w W y Y z Z"
   auxiliary: "c C h H j J q Q r R x X"

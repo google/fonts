@@ -2,8 +2,10 @@ id: "ntm_Latn"
 language: "ntm"
 script: "Latn"
 name: "Nateni"
+population: 100000
+region: "BJ"
 exemplar_chars {
-  base: "á Á b B c C d D e E è È é É ɛ Ɛ f F h H i I ì Ì í Í ḭ Ḭ k K m M n N ǹ Ǹ ń Ń o O ò Ò ó Ó ɔ Ɔ p P s S t T u U ù Ù ú Ú ṵ Ṵ w W y Y"
+  base: "a A à À á Á {a̰} {A̰} {à̰} {À̰} {á̰} {Á̰} b B c C d D e E è È é É ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̰} {Ɛ̰} {ɛ̰̀} {Ɛ̰̀} {ɛ̰́} {Ɛ̰́} f F h H i I ì Ì í Í ḭ Ḭ {ḭ̀} {Ḭ̀} {ḭ́} {Ḭ́} k K m M n N ǹ Ǹ ń Ń o O ò Ò ó Ó ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̰} {Ɔ̰} {ɔ̰̀} {Ɔ̰̀} {ɔ̰́} {Ɔ̰́} p P s S t T u U ù Ù ú Ú ṵ Ṵ {ṵ̀} {Ṵ̀} {ṵ́} {Ṵ́} w W y Y"
   marks: "◌́ ◌̰ ◌̀"
   auxiliary: "l L q Q r R v V x X z Z"
 }

@@ -2,6 +2,8 @@ id: "ldb_Latn"
 language: "ldb"
 script: "Latn"
 name: "Duya"
+population: 78000
+region: "NG"
 exemplar_chars {
   base: "a A ã Ã b B c C d D e E ẽ Ẽ ɛ Ɛ f F g G h H i I ĩ Ĩ j J k K l L m M n N o O õ Õ ɔ Ɔ p P r R s S t T u U ũ Ũ v V w W y Y z Z"
   marks: "◌̃"

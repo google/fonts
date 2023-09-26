@@ -4,3 +4,12 @@ script: "Latn"
 name: "Chipewyan"
 population: 753
 region: "CA"
+exemplar_chars {
+    base: "ʔ ɂ Ɂ a A ą Ą á Á {ą́} {Ą́} b B {ch} {CH} {chʼ} {CHʼ} d D {dh} {DH} {ddh} {DDH} {dl} {DL} {dz} {DZ} e E ę Ę é É {ę́} {Ę́} ë Ë {ë́} {Ë́} g G {gh} {GH} h H ı I {ı̨} Į {ı́} Í {ı̨́} {Į́} ł Ł m M n N o O ǫ Ǫ ó Ó {ǫ́} {Ǫ́} r R s S {sh} {SH} t T {tʼ} {Tʼ} {th} {TH} {tł} {TŁ} {tłʼ} {TŁʼ} {ts} {TS} {tsʼ} {TSʼ} {tth} {TTH} {tthʼ} {TTHʼ} u U ų Ų ú Ú {ų́} {Ų́} w W x X y Y z Z"
+    marks: "◌́ ◌̈ ◌̨"
+    auxiliary: "i"
+}
+note: "The unicameral ʔ or the bicameral ɂ Ɂ are used depending on the province: unicameral Ɂ in Saskatchewan, bicameral ɂ Ɂ in Northwest Territories."
+source: "Canada (SCC) and Ireland (NSAI), Proposal to add LATIN SMALL LETTER GLOTTAL STOP to the UCS, N2962R, L2/05-194R, 2005, https://www.unicode.org/L2/L2005/05194r-n2962r-glottal.pdf"
+source: "Dëne Dédlıné Yatıé: Ɂerehtł’ı́scho: Denínu Kuę́ Yatıé: Chipewyan Dictionary, Fort Smith, South Slave Divisional Education Council, 2012"
+source: "Brent Kaulback, Bertha Catholique and Dennis Drygeese, Dëné Sǫłıné Yatıé, Ɂerehtł’ı́s, Łuskëlk’e T’ıné Yatıé, Chipewyan Dictionary, South Slave Divisional Education Council, 2014"

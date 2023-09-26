@@ -2,6 +2,8 @@ id: "mbu_Latn"
 language: "mbu"
 script: "Latn"
 name: "Mbula-Bwazza"
+population: 100000
+region: "NG"
 exemplar_chars {
   base: "a A â Â b B ɓ Ɓ ā Ā ǎ Ǎ c C d D ɗ Ɗ e E ǝ Ǝ ê Ê f F ě Ě g G h H i I j J k K ƙ Ƙ î Î l L m M n N o O p P r R ô Ô s S ǒ Ǒ t T u U v V w W y Y z Z û Û ū Ū ǔ Ǔ ŋ Ŋ"
   marks: "◌̂ ◌̄ ◌̌ ◌̀ ◌́"

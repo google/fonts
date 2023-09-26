@@ -3,7 +3,8 @@ language: "mic"
 script: "Latn"
 name: "Mi\'kmaq"
 autonym: "Míkmawísimk"
-population: 0
+population: 7140
+region: "CA"
 region: "US"
 exemplar_chars {
   base: "A E I J K L M N O P Q S T U W Y Á É Í Ɨ Ó Ú a e i j k l m n o p q s t u w y \' á é í ɨ ó ú"

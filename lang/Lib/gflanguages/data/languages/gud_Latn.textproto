@@ -2,6 +2,8 @@ id: "gud_Latn"
 language: "gud"
 script: "Latn"
 name: "Dida, Yocoboué"
+population: 200000
+region: "CI"
 exemplar_chars {
   base: "a A b B c C d D e E ɛ Ɛ f F g G i I ɩ Ɩ j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U ʋ Ʋ v V w W y Y z Z"
   auxiliary: "q Q r R x X"

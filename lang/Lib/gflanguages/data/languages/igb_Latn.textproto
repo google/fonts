@@ -2,8 +2,12 @@ id: "igb_Latn"
 language: "igb"
 script: "Latn"
 name: "Ebira"
+population: 2200000
+region: "NG"
 exemplar_chars {
-  base: "a A á Á ā Ā à À â Â b B c C d D e E é É ē Ē è È ê Ê ẹ Ẹ ệ Ệ f F g G h H i I í Í ī Ī ì Ì î Î ị Ị j J k K l L m M n N o O ó Ó ō Ō ò Ò ô Ô ọ Ọ ộ Ộ p P r R s S t T u U ú Ú ū Ū ù Ù û Û ụ Ụ v V w W y Y z Z"
+  base: "a A á Á à À â Â ā Ā b B c C d D e E é É ē Ē è È ê Ê ẹ Ẹ {ẹ́} {Ẹ́} {ẹ̀} {Ẹ̀} ệ Ệ {ẹ̄} {Ẹ̄} f F g G h H i I í Í ì Ì î Î ī Ī ị Ị {ị́} {Ị́} {ị̀} {Ị̀} {ị̂} {Ị̂} {ị̄} {Ị̄} j J k K l L m M n N o O ó Ó ò Ò ô Ô ō Ō ọ Ọ {ọ́} {Ọ́} {ọ̀} {Ọ̀} ộ Ộ {ọ̄} {Ọ̄} p P r R s S t T u U ú Ú ù Ù û Û ū Ū ụ Ụ {ụ́} {Ụ́} {ụ̀} {Ụ̀} {ụ̂} {Ụ̂} {ụ̄} {Ụ̄} v V w W y Y z Z"
   marks: "◌́ ◌̄ ◌̀ ◌̂ ◌̣"
   auxiliary: "q Q x X"
 }
+source: "John R. Adive, “Ebira orthography”, in R. G. Armstrong, Orthographies of Nigerian languages: manual IV, Lagos, Federal Ministry of Education, National Language Center, 1986, 1-31"
+source: "Iwe Ọnịnị, Bible Society of Nigeria, 2014"

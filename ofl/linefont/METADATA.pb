@@ -29,5 +29,6 @@ source {
   repository_url: "https://github.com/dy/linefont"
   commit: "347effeda6955b1aa7febc34e17dcce3e04f5e15"
 }
-primary_script: "Ogam"
 classifications: "SYMBOLS"
+classifications: "DISPLAY"
+minisite_url: "https://dy.github.io/linefont/scripts/"

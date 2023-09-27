@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/thaana/releases/download/NotoSansThaana-v2.001/NotoSansThaana-v2.001.zip
+archive: https://github.com/notofonts/thaana/releases/download/NotoSansThaana-v3.001/NotoSansThaana-v3.001.zip
 branch: main
 files:
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-  NotoSansThaana/googlefonts/variable-ttf/NotoSansThaana[wght].ttf: NotoSansThaana[wght].ttf
+  NotoSansThaana/googlefonts/variable/NotoSansThaana[wght].ttf: NotoSansThaana[wght].ttf

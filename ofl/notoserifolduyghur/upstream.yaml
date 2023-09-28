@@ -1,0 +1,7 @@
+archive: https://github.com/notofonts/old-uyghur/releases/download/NotoSerifOldUyghur-v1.003/NotoSerifOldUyghur-v1.003.zip
+branch: main
+files:
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  NotoSerifOldUyghur/googlefonts/ttf/NotoSerifOldUyghur-Regular.ttf: NotoSerifOldUyghur-Regular.ttf

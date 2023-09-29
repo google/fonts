@@ -1,5 +1,5 @@
 name: "Alike"
-designer: "Cyreal"
+designer: "Sveta Sebyakina, Cyreal"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-08-24"

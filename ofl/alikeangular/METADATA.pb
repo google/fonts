@@ -1,5 +1,5 @@
 name: "Alike Angular"
-designer: "Cyreal"
+designer: "Sveta Sebyakina, Cyreal"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-09-28"

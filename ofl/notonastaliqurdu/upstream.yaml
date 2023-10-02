@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/nastaliq/releases/download/NotoNastaliqUrdu-v3.007/NotoNastaliqUrdu-v3.007.zip
+archive: https://github.com/notofonts/nastaliq/releases/download/NotoNastaliqUrdu-v3.009/NotoNastaliqUrdu-v3.009.zip
 branch: main
 files:
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
-  OFL.txt: OFL.txt
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-  NotoNastaliqUrdu/googlefonts/variable-ttf/NotoNastaliqUrdu[wght].ttf: NotoNastaliqUrdu[wght].ttf
+  OFL.txt: OFL.txt
+  NotoNastaliqUrdu/googlefonts/variable/NotoNastaliqUrdu[wght].ttf: NotoNastaliqUrdu[wght].ttf

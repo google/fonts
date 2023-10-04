@@ -48,3 +48,4 @@ source {
   archive_url: "https://github.com/silnrsi/font-kayphodu/releases/download/v3.000/KayPhoDu-3.000.zip"
 }
 primary_script: "Kali"
+stroke: "SLAB_SERIF"

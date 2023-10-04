@@ -1,8 +1,8 @@
-archive: https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.012/NotoSerif-v2.012.zip
+archive: https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.013/NotoSerif-v2.013.zip
 branch: main
 files:
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
-  ARTICLE.en_us.html: article/ARTICLE.en_us.html
-  NotoSerif/googlefonts/variable-ttf/NotoSerif-Italic[wdth,wght].ttf: NotoSerif-Italic[wdth,wght].ttf
-  NotoSerif/googlefonts/variable-ttf/NotoSerif[wdth,wght].ttf: NotoSerif[wdth,wght].ttf
+  NotoSerif/googlefonts/variable/NotoSerif[wdth,wght].ttf: NotoSerif[wdth,wght].ttf
+  NotoSerif/googlefonts/variable/NotoSerif-Italic[wdth,wght].ttf: NotoSerif-Italic[wdth,wght].ttf

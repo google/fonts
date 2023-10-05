@@ -42,7 +42,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/latin-greek-cyrillic.git"
-  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v2.012/NotoSans-v2.012.zip"
+  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v2.013/NotoSans-v2.013.zip"
 }
 is_noto: true
 languages: "aa_Latn"  # Afar
@@ -52,7 +52,7 @@ languages: "abr_Latn"  # Abron
 languages: "ace_Latn"  # Achinese
 languages: "acf_Latn"  # Saint Lucian Creole French, Latin
 languages: "ach_Latn"  # Acoli
-languages: "acu_Latn"  # Achuar-Shiwiar, Latin, Ecuador
+languages: "acu_Latn"  # Achuar-Shiwiar
 languages: "ada_Latn"  # Adangme
 languages: "adl_Latn"  # Galo, Latin
 languages: "ady_Cyrl"  # Adyghe
@@ -86,7 +86,7 @@ languages: "arw_Latn"  # Arawak
 languages: "asa_Latn"  # Asu
 languages: "ast_Latn"  # Asturian
 languages: "atj_Latn"  # Atikamekw
-languages: "auc_Latn"  # Waorani, Latin, Ecuador
+languages: "auc_Latn"  # Waorani
 languages: "av_Cyrl"  # Avaric
 languages: "avk_Latn"  # Kotava
 languages: "awa_Deva"  # Awadhi
@@ -501,7 +501,7 @@ languages: "maf_Latn"  # Mafa
 languages: "mag_Deva"  # Magahi
 languages: "mai_Deva"  # Maithili
 languages: "mak_Latn"  # Makasar
-languages: "mam_Latn"  # Mam, Northern
+languages: "mam_Latn"  # Mam
 languages: "man_Latn"  # Mandingo
 languages: "mas_Latn"  # Masai
 languages: "maz_Latn"  # Central Mazahua
@@ -707,7 +707,7 @@ languages: "sc_Latn"  # Sardinian
 languages: "sck_Deva"  # Sadri
 languages: "scn_Latn"  # Sicilian
 languages: "sco_Latn"  # Scots
-languages: "scs_Latn"  # North Slavey
+languages: "scs_Latn"  # South Slavey
 languages: "sd_Deva"  # Sindhi (Devanagari)
 languages: "sdc_Latn"  # Sassarese Sardinian
 languages: "se_Cyrl"  # Northern Sami, Cyrillic

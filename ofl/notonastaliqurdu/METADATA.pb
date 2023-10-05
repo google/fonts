@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/nastaliq.git"
-  archive_url: "https://github.com/notofonts/nastaliq/releases/download/NotoNastaliqUrdu-v3.007/NotoNastaliqUrdu-v3.007.zip"
+  archive_url: "https://github.com/notofonts/nastaliq/releases/download/NotoNastaliqUrdu-v3.009/NotoNastaliqUrdu-v3.009.zip"
 }
 is_noto: true
 languages: "ur_Arab"  # Urdu

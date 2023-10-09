@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/khmer.git"
-  archive_url: "https://github.com/notofonts/khmer/releases/download/NotoSerifKhmer-v2.003/NotoSerifKhmer-v2.003.zip"
+  archive_url: "https://github.com/notofonts/khmer/releases/download/NotoSerifKhmer-v2.004/NotoSerifKhmer-v2.004.zip"
 }
 is_noto: true
 languages: "km_Khmr"  # Khmer

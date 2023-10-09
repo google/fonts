@@ -1,5 +1,5 @@
 name: "Onest"
-designer: "Andrey Kudryavtsev, Dmitri Voloshin"
+designer: "Dmitri Voloshin, Andrey Kudryavtsev"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2023-09-06"

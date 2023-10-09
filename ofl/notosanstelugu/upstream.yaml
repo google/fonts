@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/telugu/releases/download/NotoSansTelugu-v2.004/NotoSansTelugu-v2.004.zip
+archive: https://github.com/notofonts/telugu/releases/download/NotoSansTelugu-v2.005/NotoSansTelugu-v2.005.zip
 branch: main
 files:
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
-  NotoSansTelugu/googlefonts/variable-ttf/NotoSansTelugu[wdth,wght].ttf: NotoSansTelugu[wdth,wght].ttf
+  NotoSansTelugu/googlefonts/variable/NotoSansTelugu[wdth,wght].ttf: NotoSansTelugu[wdth,wght].ttf

@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/telugu.git"
-  archive_url: "https://github.com/notofonts/telugu/releases/download/NotoSerifTelugu-v2.004/NotoSerifTelugu-v2.004.zip"
+  archive_url: "https://github.com/notofonts/telugu/releases/download/NotoSerifTelugu-v2.005/NotoSerifTelugu-v2.005.zip"
 }
 is_noto: true
 languages: "gon_Telu"  # Gondi, Telugu

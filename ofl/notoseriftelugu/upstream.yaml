@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/telugu/releases/download/NotoSerifTelugu-v2.004/NotoSerifTelugu-v2.004.zip
+archive: https://github.com/notofonts/telugu/releases/download/NotoSerifTelugu-v2.005/NotoSerifTelugu-v2.005.zip
 branch: main
 files:
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
-  NotoSerifTelugu/googlefonts/variable-ttf/NotoSerifTelugu[wght].ttf: NotoSerifTelugu[wght].ttf
+  NotoSerifTelugu/googlefonts/variable/NotoSerifTelugu[wght].ttf: NotoSerifTelugu[wght].ttf

@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/thai.git"
-  archive_url: "https://github.com/notofonts/thai/releases/download/NotoSerifThai-v2.001/NotoSerifThai-v2.001.zip"
+  archive_url: "https://github.com/notofonts/thai/releases/download/NotoSerifThai-v2.002/NotoSerifThai-v2.002.zip"
 }
 is_noto: true
 languages: "kdt_Thai"  # Kuy

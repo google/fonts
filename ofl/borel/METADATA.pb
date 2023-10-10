@@ -14,9 +14,9 @@ fonts {
 }
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
 subsets: "symbols"
-subsets: "math"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/RosaWagner/Borel"

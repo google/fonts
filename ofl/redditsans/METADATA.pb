@@ -1,5 +1,5 @@
 name: "Reddit Sans"
-designer: "Stephen Hutchings"
+designer: "Reddit Inc., Stephen Hutchings"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2023-10-11"

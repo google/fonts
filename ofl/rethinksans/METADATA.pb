@@ -31,6 +31,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/hans-thiessen/Rethink-Sans"
-  commit: "6ac9d7c3a1e47e390772174331bd953b4a824e64"
+  commit: "20d5980cd14ce827e82d7fc58d758f7cc5086c91"
 }
 stroke: "SANS_SERIF"

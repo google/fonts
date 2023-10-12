@@ -25,4 +25,8 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/robotoslab"
+  commit: "67af3ce9c4ca574419e1295b6165a2eeee112e6e"
+}
 stroke: "SLAB_SERIF"

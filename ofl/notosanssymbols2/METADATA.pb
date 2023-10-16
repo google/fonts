@@ -15,13 +15,15 @@ fonts {
 subsets: "braille"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "mayan-numerals"
 subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/symbols.git"
-  archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols2-v2.007/NotoSansSymbols2-v2.007.zip"
+  archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols2-v2.008/NotoSansSymbols2-v2.008.zip"
 }
+is_noto: true
 sample_text {
   masthead_full: "♠🖫🙥👍"
   masthead_partial: "🏆🡽"
@@ -31,6 +33,5 @@ sample_text {
   poster_md: "⌚✋⯧☔🛪🏟⛅🞽🕖🚲"
   poster_lg: "🡽🨄"
 }
-is_noto: true
 stroke: "SANS_SERIF"
 classifications: "SYMBOLS"

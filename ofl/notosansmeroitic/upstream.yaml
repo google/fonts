@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/meroitic/releases/download/NotoSansMeroitic-v2.001/NotoSansMeroitic-v2.001.zip
+archive: https://github.com/notofonts/meroitic/releases/download/NotoSansMeroitic-v2.002/NotoSansMeroitic-v2.002.zip
 branch: main
 files:
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   OFL.txt: OFL.txt
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
   NotoSansMeroitic/googlefonts/ttf/NotoSansMeroitic-Regular.ttf: NotoSansMeroitic-Regular.ttf

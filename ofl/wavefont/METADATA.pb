@@ -12,8 +12,6 @@ fonts {
   full_name: "Wavefont Thin"
   copyright: "Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)"
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "ROND"

@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/thaana.git"
-  archive_url: "https://github.com/notofonts/thaana/releases/download/NotoSansThaana-v2.001/NotoSansThaana-v2.001.zip"
+  archive_url: "https://github.com/notofonts/thaana/releases/download/NotoSansThaana-v3.001/NotoSansThaana-v3.001.zip"
 }
 is_noto: true
 languages: "dv_Thaa"  # Divehi

@@ -12,8 +12,6 @@ fonts {
   full_name: "Linefont Thin"
   copyright: "Copyright 2022 The Linefont Project Authors (https://github.com/dy/linefont)"
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
 axes {
   tag: "wdth"

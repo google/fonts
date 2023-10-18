@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/armenian/releases/download/NotoSansArmenian-v2.007/NotoSansArmenian-v2.007.zip
+archive: https://github.com/notofonts/armenian/releases/download/NotoSansArmenian-v2.008/NotoSansArmenian-v2.008.zip
 branch: main
 files:
-  ARTICLE.en_us.html: article/ARTICLE.en_us.html
-  OFL.txt: OFL.txt
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-  NotoSansArmenian/googlefonts/variable-ttf/NotoSansArmenian[wdth,wght].ttf: NotoSansArmenian[wdth,wght].ttf
+  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  NotoSansArmenian/googlefonts/variable/NotoSansArmenian[wdth,wght].ttf: NotoSansArmenian[wdth,wght].ttf

@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/armenian.git"
-  archive_url: "https://github.com/notofonts/armenian/releases/download/NotoSansArmenian-v2.007/NotoSansArmenian-v2.007.zip"
+  archive_url: "https://github.com/notofonts/armenian/releases/download/NotoSansArmenian-v2.008/NotoSansArmenian-v2.008.zip"
 }
 is_noto: true
 languages: "hy_Armn"  # Armenian

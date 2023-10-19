@@ -10,4 +10,6 @@ fallback {
   value: 100
 }
 fallback_only: false
-description: "Adjust the length of a shadowed font."
+description: 
+  "Adjusts the font's shadow length from no shadow visible (0 %)"
+  " to a maximum shadow applied (100%) relative to each family design."

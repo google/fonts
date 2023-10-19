@@ -14,6 +14,7 @@ fonts {
 }
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
 axes {
   tag: "wdth"
@@ -29,3 +30,5 @@ source {
   repository_url: "https://github.com/fridamedrano/Kalnia-Typeface"
   commit: "22e2d855245c5a4f94aa12461e1b1be5c0da841b"
 }
+stroke: "SERIF"
+classifications: "DISPLAY"

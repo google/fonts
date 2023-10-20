@@ -37,3 +37,4 @@ source {
   repository_url: "https://github.com/Dicotype/Afacad"
   commit: "d7e973f5d3f17f54662ed9a18b130dcbf7a0e709"
 }
+stroke: "SANS_SERIF"

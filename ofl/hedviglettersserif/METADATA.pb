@@ -22,6 +22,10 @@ axes {
   min_value: 12.0
   max_value: 24.0
 }
+registry_default_overrides {
+  key: "opsz"
+  value: 24
+}
 source {
   repository_url: "https://github.com/KanonFoundry/HedvigLetters"
   commit: "345b4d9015af6a26eb05e436460ca41fc42784df"

@@ -1,0 +1,15 @@
+# SHLN based on https://github.com/EkType/Honk
+tag: "SHLN"
+display_name: "Shadow Length"
+min_value: 0.0 
+default_value: 50.0 
+max_value: 100.0
+precision: -1
+fallback {
+  name: "Default"
+  value: 50.0
+}
+fallback_only: false
+description: 
+  "Adjusts the font's shadow length from no shadow visible (0 %)"
+  " to a maximum shadow applied (100%) relative to each family design."

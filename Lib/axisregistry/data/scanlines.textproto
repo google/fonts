@@ -13,5 +13,4 @@ fallback_only: false
 description:
   "Break up shapes into horizontal segments without any changes in overall width,"
   " letter spacing, or kerning, so there are no line breaks or page layout changes."
-  " Negative values cause the glyphs to become visually segmented, while positive"
-  " values may cause the segments to overlap and create a bold effect."
+  " Negative values make the scanlines thinner, and positive values make them thicker."

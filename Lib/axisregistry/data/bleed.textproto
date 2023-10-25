@@ -13,5 +13,4 @@ fallback_only: false
 description: 
   "Bleed adjusts the overall darkness in the typographic color of strokes or other forms, without"
   " any changes in overall width, line breaks, or page layout. Negative values make the font appearance"
-  " lighter, while positive values make it darker, similarly to ink bleed or dot gain on paper, commonly"
-  " seen in printed and typewritten materials."
+  " lighter, while positive values make it darker, similarly to ink bleed or dot gain on paper."

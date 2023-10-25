@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/khojki.git"
-  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSansKhojki-v2.004/NotoSansKhojki-v2.004.zip"
+  archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSansKhojki-v2.005/NotoSansKhojki-v2.005.zip"
 }
 is_noto: true
 languages: "sd_Khoj"  # Sindhi, Khojki

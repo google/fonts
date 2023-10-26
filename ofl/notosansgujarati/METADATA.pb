@@ -15,7 +15,9 @@ fonts {
 subsets: "gujarati"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wdth"
   min_value: 62.5
@@ -28,7 +30,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/gujarati.git"
-  archive_url: "https://github.com/notofonts/gujarati/releases/download/NotoSansGujarati-v2.104/NotoSansGujarati-v2.104.zip"
+  archive_url: "https://github.com/notofonts/gujarati/releases/download/NotoSansGujarati-v2.106/NotoSansGujarati-v2.106.zip"
 }
 is_noto: true
 languages: "gu_Gujr"  # Gujarati

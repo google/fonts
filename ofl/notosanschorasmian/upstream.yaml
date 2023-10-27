@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/chorasmian/releases/download/NotoSansChorasmian-v1.002/NotoSansChorasmian-v1.002.zip
+archive: https://github.com/notofonts/chorasmian/releases/download/NotoSansChorasmian-v1.003/NotoSansChorasmian-v1.003.zip
 branch: main
 files:
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   NotoSansChorasmian/googlefonts/ttf/NotoSansChorasmian-Regular.ttf: NotoSansChorasmian-Regular.ttf

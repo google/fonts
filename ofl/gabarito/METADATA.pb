@@ -1,5 +1,5 @@
 name: "Gabarito"
-designer: "Leandro Assis, Álvaro Franca, Felipe Casaprima"
+designer: "Naipe Foundry, Leandro Assis, Álvaro Franca, Felipe Casaprima"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2023-09-13"

@@ -21,3 +21,4 @@ source {
   repository_url: "https://github.com/cyrealtype/Alike"
   commit: "2de9216949bad46e02460fcb9e455be87d75462d"
 }
+stroke: "SERIF"

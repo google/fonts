@@ -1,5 +1,5 @@
 name: "Sixtyfour"
-designer: "Jens Kutilek"
+designer: "Jens Kutílek"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2023-11-02"

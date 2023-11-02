@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/georgian.git"
-  archive_url: "https://github.com/notofonts/georgian/releases/download/NotoSerifGeorgian-v2.002/NotoSerifGeorgian-v2.002.zip"
+  archive_url: "https://github.com/notofonts/georgian/releases/download/NotoSerifGeorgian-v2.003/NotoSerifGeorgian-v2.003.zip"
 }
 is_noto: true
 languages: "ka_Geor"  # Georgian

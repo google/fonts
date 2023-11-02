@@ -60,3 +60,4 @@ source {
 }
 languages: "wsg_Gong"  # Adilabad Gondi, Gunjala Gondi
 primary_script: "Gong"
+stroke: "SERIF"

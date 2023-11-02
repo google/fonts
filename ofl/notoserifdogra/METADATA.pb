@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/dogra.git"
-  archive_url: "https://github.com/notofonts/dogra/releases/download/NotoSerifDogra-v1.006/NotoSerifDogra-v1.006.zip"
+  archive_url: "https://github.com/notofonts/dogra/releases/download/NotoSerifDogra-v1.007/NotoSerifDogra-v1.007.zip"
 }
 is_noto: true
 languages: "doi_Dogr"  # Dogri, Dogra

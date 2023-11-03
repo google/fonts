@@ -28,7 +28,9 @@ subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 subsets: "vietnamese"
 axes {
   tag: "wdth"
@@ -39,6 +41,10 @@ axes {
   tag: "wght"
   min_value: 300.0
   max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/opensans"
+  commit: "3d45774008254746e09bce4f8922b515a7b6a26b"
 }
 fallbacks {
   axis_target {

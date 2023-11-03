@@ -11,9 +11,10 @@ ofl/notosanssymbols2 # https://github.com/google/fonts/pull/6861
 ofl/notosansthaana # https://github.com/google/fonts/pull/6792
 ofl/notoserifahom # https://github.com/google/fonts/pull/6756
 ofl/notoserifarmenian # https://github.com/google/fonts/pull/6758
-ofl/robotoflex # https://github.com/google/fonts/pull/6484
 ofl/notosanshanunoo # https://github.com/google/fonts/pull/6418
 ofl/notoserifdogra # https://github.com/google/fonts/pull/5377
+
+# ofl/robotoflex # https://github.com/google/fonts/pull/6484 (on hold for hb partial instancing support per Garret)
 
 # Designer profile
 catalog/designers/hansthiessen # https://github.com/google/fonts/pull/6317

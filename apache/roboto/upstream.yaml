@@ -1,26 +1,5 @@
-archive: https://github.com/googlefonts/roboto-classic/releases/download/v3.005/Roboto_v3.005.zip
+archive: https://github.com/googlefonts/roboto-classic/releases/download/v3.008/Roboto_v3.008.zip
 branch: main
 files:
-  LICENSE.txt: LICENSE.txt
-  web/split/Roboto[wdth,wght].ttf: Roboto[wdth,wght].ttf
-  web/split/Roboto-Italic[wdth,wght].ttf: Roboto-Italic[wdth,wght].ttf
-  web/static/Roboto-Black.ttf: static/Roboto-Black.ttf
-  web/static/Roboto-BlackItalic.ttf: static/Roboto-BlackItalic.ttf
-  web/static/Roboto-Bold.ttf: static/Roboto-Bold.ttf
-  web/static/Roboto-BoldItalic.ttf: static/Roboto-BoldItalic.ttf
-  web/static/Roboto-Italic.ttf: static/Roboto-Italic.ttf
-  web/static/Roboto-Light.ttf: static/Roboto-Light.ttf
-  web/static/Roboto-LightItalic.ttf: static/Roboto-LightItalic.ttf
-  web/static/Roboto-Medium.ttf: static/Roboto-Medium.ttf
-  web/static/Roboto-MediumItalic.ttf: static/Roboto-MediumItalic.ttf
-  web/static/Roboto-Regular.ttf: static/Roboto-Regular.ttf
-  web/static/Roboto-Thin.ttf: static/Roboto-Thin.ttf
-  web/static/Roboto-ThinItalic.ttf: static/Roboto-ThinItalic.ttf
-  web/static/RobotoCondensed-Bold.ttf: static/RobotoCondensed-Bold.ttf
-  web/static/RobotoCondensed-BoldItalic.ttf: static/RobotoCondensed-BoldItalic.ttf
-  web/static/RobotoCondensed-Italic.ttf: static/RobotoCondensed-Italic.ttf
-  web/static/RobotoCondensed-Light.ttf: static/RobotoCondensed-Light.ttf
-  web/static/RobotoCondensed-LightItalic.ttf: static/RobotoCondensed-LightItalic.ttf
-  web/static/RobotoCondensed-Medium.ttf: static/RobotoCondensed-Medium.ttf
-  web/static/RobotoCondensed-MediumItalic.ttf: static/RobotoCondensed-MediumItalic.ttf
-  web/static/RobotoCondensed-Regular.ttf: static/RobotoCondensed-Regular.ttf
+  Roboto_v3.008/web/split/Roboto[wdth,wght].ttf: Roboto[wdth,wght].ttf
+  Roboto_v3.008/web/split/Roboto-Italic[wdth,wght].ttf: Roboto-Italic[wdth,wght].ttf

@@ -1,0 +1,14 @@
+id: "pnz_Latn"
+language: "pnz"
+script: "Latn"
+name: "Pana (Central African Republic)"
+population: 153000
+region: "CF"
+region: "CM"
+region: "TD"
+exemplar_chars {
+  base: "a A á Á â Â {a̧} {A̧} {á̧} {Á̧} {â̧} {Â̧} b B ɓ Ɓ d D ɗ Ɗ e E é É ê Ê ȩ Ȩ {ȩ́} {Ȩ́} {ȩ̂} {Ȩ̂} ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̧} {Ɛ̧} {ɛ̧́} {Ɛ̧́} {ɛ̧̂} {Ɛ̧̂} f F g G {gb} {GB} h H i I í Í î Î {i̧} {I̧} {í̧} {Í̧} {î̧} {Î̧} k K {kp} {KP} l L m M n N {ny} {NY} ŋ Ŋ o O ó Ó ô Ô {o̧} {O̧} {ó̧} {Ó̧} {ô̧} {Ô̧} ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̧} {Ɔ̧} {ɔ̧́} {Ɔ̧́} {ɔ̧̂} {Ɔ̧̂} p P r R s S t T {ts} {TS} u U ú Ú û Û {u̧} {U̧} {ú̧} {Ú̧} {û̧} {Û̧} v V {vb} {VB} w W y Y z Z"
+  marks: "◌́ ◌̂ ◌̧"
+  auxiliary: "c C j J q Q x X"
+}
+source: "Ibirahim Njoya, Précis d’orthographe pour la langue pana, Yaoundé, Cameroun, Association Camerounaise pour la Traduction de la Bible et l’Alphabétisation, 2010"

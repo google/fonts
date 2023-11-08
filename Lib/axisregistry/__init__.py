@@ -484,11 +484,12 @@ def build_static_name_table(ttFont, family_name, style_name):
 
     # If STAT table was using any removed names, add then back with a new ID
     if "STAT" in ttFont and removed_names:
-        for av in ttFont["STAT"].table.AxisValueArray.AxisValue:
-            if av.ValueNameID in removed_names:
-                av.ValueNameID = name_table.addMultilingualName(
-                    {"en": removed_names[av.ValueNameID]}
-                )
+        if ttFont["STAT"].table.AxisValueArray:
+            for av in ttFont["STAT"].table.AxisValueArray.AxisValue:
+                if av.ValueNameID in removed_names:
+                    av.ValueNameID = name_table.addMultilingualName(
+                        {"en": removed_names[av.ValueNameID]}
+                    )
         for av in ttFont["STAT"].table.DesignAxisRecord.Axis:
             if av.AxisNameID in removed_names:
                 av.AxisNameID = name_table.addMultilingualName(

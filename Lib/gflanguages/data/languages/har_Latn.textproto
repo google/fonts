@@ -1,0 +1,11 @@
+id: "har_Latn"
+language: "ha"
+script: "Latn"
+name: "Harari"
+population: 26000
+region: "ET"
+exemplar_chars {
+  base: "a A b B t T j J g G h H {kh} {KH} d D r R z Z {zh} {ZH} s S {sh} {SH} {ch} {CH} x X c C f F q Q k K {xh} {XH} l L m M n N {gn} {GN} w W y Y e E i I o O u U â Â ê Ê î Î ô Ô û Û"
+  auxiliary: "ṫ Ṫ {dh} {DH} ṡ Ṡ ḋ Ḋ ż Ż ȧ Ȧ {gh} {GH} ḣ Ḣ p P v V"
+}
+source: "Awustirâliya Sây Harari Afôcha Qurân Gêy, Harari harfi kitâb, Awustirâliya Sây Harari Afôcha (Australian Saay Harari Association), 2010"

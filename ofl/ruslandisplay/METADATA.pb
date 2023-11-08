@@ -1,5 +1,5 @@
 name: "Ruslan Display"
-designer: "Denis Masharov"
+designer: "Oleg Snarsky, Denis Masharov, Vladimir Rabdu"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-05-18"

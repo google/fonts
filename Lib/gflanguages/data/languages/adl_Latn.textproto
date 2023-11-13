@@ -1,8 +1,9 @@
-id: "adl_Latn"
-language: "adl"
+id: "fr-gallo_Latn"
+language: "fr-gallo"
 script: "Latn"
-name: "Galo, Latin"
-region: "IN"
+name: "Gallo"
+region: "FR"
+population: 200000
 sample_text {
   masthead_full: "LlEe"
   masthead_partial: "Mm"

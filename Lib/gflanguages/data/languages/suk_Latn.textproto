@@ -2,11 +2,12 @@ id: "suk_Latn"
 language: "suk"
 script: "Latn"
 name: "Sukuma"
-autonym: "Kɪsukuma"
+autonym: "Kisukuma"
 population: 5094093
 region: "TZ"
 exemplar_chars {
-  base: "A B C D E F G H I J K L M N O P R S T U V W Y Z Ɪ a b c d e f g h i j k l m n o p r s t u v w y z \' ɪ"
+  base: "A B {CH} D E F G H I Ī J K L M N O Ó P S T U Ū V W Y Z a b c d e f g h i ī j k l m n o ó p s t u ū v w y z ’"
+  auxiliary: "Q q R r Á á À à Ò ò Ĩ ĩ Ũ ũ"
 }
 sample_text {
   masthead_full: "BbAa"
@@ -22,3 +23,6 @@ sample_text {
   specimen_21: "Nduhu munhu uyo adugije gutung’wa (gutulwa mkandulumu) ku nzila yoseyose hanze ya Jilagilo ja nsi.\nBuli munhu adakililwe gudegelekwa mu mhangilo na bulenganila habutongi ya kajile ka nsi akatinabusolonhya umukajile kabo nulu umu mihayo ya minala.\nNduhu munhu uyo adakililwe kwingililwa sagala mu mbisila yakwe yoseyose, budugu, kaya yakwe na nduhu munhu uyo adugije kwingijiwa ikujo lyakwe ilo alinalyo. Buli munhu adakililwe gulanghanwa na Jilagilo ja nsi atizingililwa sheniko."
   specimen_16: "Buli munhu alinayo Sekge ya gwiganika na gubi na kiganikile ga miganiko ayo alikola g’wenekili nulu mu Luganda. Alinayo Sekge ya gugalucha wiganiki bokwe munhu alinayo Sekge ya guleka wiganiki nulu kahayile kakwe na buzunya bokwe, yaya gwingililwa.\nBuli munhu alinayo Sekge ya kubi na gufunya miganiko gakwe na gugayomba miganiko genayo na nduhu gwingililwa. Munhu alinayo Sekge ya gwinhwa miganiko ga bangi gubitila mu bandiki na bahayi ba mihayo.\nBuli munhu abize na wisunhya mu milimo yakwe na manongho gakwe apandike mu wisunhya bokwe.\nbuli munhu alinyo Sekge ya sele mu Luganda lokwe na mahanga agose."
 }
+source: "Sukuma writers, James C. Kigamwa, Edward Kamwela, Mishagi 1, Dodoma & Nairobi: The Bible Society of Tanzania & Partners in Literacy Ministries (PALM), 1999"
+source: "Paul Joseph Luhende, Lexical-semantic and morpho-syntactic properties of English loanwords in Sukuma, Stellenbosch University, 2018"
+note: "Luhende 2018 notes the digraphs and trigraphs ch, mh, nh, nyh, ny, ngh, ng’, fw, bh, sh are used. Some reference like Omniglot do not distinguish phonetic transcription from orthography. Some references use tilde instead of macron, like in adjecent languages."

@@ -2,6 +2,7 @@ id: "ngh_Latn"
 language: "ngh"
 script: "Latn"
 region: "ZA"
+population: 1
 name: "Nǁng"
 exemplar_chars {
   base: "A a E e G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u X x Y y Â â Î î Ô ô Û û ǀ ǁ ǂ ǃ ʘ ’"

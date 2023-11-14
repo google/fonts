@@ -22,7 +22,9 @@ jobs:
     - name: Install gftools
       run: pip install gftools[qa]
     - name: Lint server files
-      run: gftools push-status . --lint
+      run: |
+        gftools push-status . --lint
+        gftools font-tags lint .
 
   check_knowledge_graph:
     runs-on: ubuntu-latest

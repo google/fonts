@@ -6,7 +6,9 @@ autonym: "nynorsk"
 population: 1366860
 region: "NO"
 exemplar_chars {
-  auxiliary: "á ǎ č ç đ è ê ń ñ ŋ š ŧ ü ž ä ö"
+  base: "A À B C D E É F G H I J K L M N O Ó Ò Ô P Q R S T U V W X Y Z Æ Ø Å a à b c d e é f g h i j k l m n o ó ò ô p q r s t u v w x y z æ ø å"
+  auxiliary: "Á Ǎ Ã Č Ç Đ È Ê Í Ń Ñ Ŋ Š Ŧ Ú Ü Ž Ä Ö á ǎ ã č ç đ è ê í ń ñ ŋ š ŧ ú ü ž ä ö"
+  marks: "◌̀ ◌́ ◌̂ ◌̈ ◌̊"
   punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
 }
 sample_text {

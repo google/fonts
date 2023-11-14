@@ -3,6 +3,7 @@ language: "nku"
 script: "Latn"
 name: "Kulango, Bouna"
 region: "CI"
+population: 325000
 exemplar_chars {
   base: "a A b B c C d D e E ɛ Ɛ f F g G {gb} {GB} h H i I ɩ Ɩ j J k K l L m M n N ŋ Ŋ {ŋm} {ŊM} ɲ Ɲ o O ɔ Ɔ p P r R s S t T u U ʋ Ʋ w W y Y z Z"
 }

@@ -1,0 +1,30 @@
+id: "yo_Latn"
+language: "yo"
+script: "Latn"
+name: "Yoruba"
+autonym: "Èdè Yorùbá"
+population: 200000
+region: "BJ"
+exemplar_chars {
+  base: "a A á Á à À b B d D e E é É è È ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} f F g G {gb} {GB} h H i I í Í ì Ì j J k K {kp} {KP} l L m M ḿ Ḿ {m̀} {M̀} n N ń Ń ǹ Ǹ o O ó Ó ò Ò ọ Ọ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} r R s S {sh} {SH} t T u U ú Ú ù Ù w W y Y"
+  auxiliary: "c C q Q v V x X z Z"
+  marks: "◌̀ ◌́ ◌̄ ◌̣"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) @ * / & #"
+  index: "A B D E F G H I J K L M N O P R S T U W Y"
+}
+sample_text {
+  masthead_full: "GgBb"
+  masthead_partial: "Oo"
+  styles: "Bí ó ti jɛ́ kpé shíshe àkíyèsí iyì tó jɛ́ àbímɔ́"
+  tester: "Bí ó ti jɛ́ kpé àìka àwɔn ɛ̀tɔ́ ɔmɔnìyàn sí àti ìkɛ́gàn àwɔn ɛ̀tɔ́ wɔ̀nyí"
+  poster_sm: "Bí ó ti jɛ́"
+  poster_md: "Àkpakpɔ̀ ìgbìmɔ̀"
+  poster_lg: "Gbogbo"
+  specimen_48: "Gbogbo ènìyàn ni a bí ní òmìnira; iyì àti ɛ̀tɔ́ kɔ̀ɔ̀kan sì dɔ́gba."
+  specimen_36: "A kò gbɔdɔ̀ mú ɛnikɛ́ni ní ɛrú tàbí kí a mú un sìn; ɛrú níní àti ò wò ɛrú ni a gbɔdɔ̀ fi òfin dè ní gbogbo ɔ̀nà."
+  specimen_32: "Ɛnì kɔ̀ɔ̀kan lórílɛ̀-èdè, ló ní ɛ̀tɔ́ sí àtúnshe tó jɔjú ní ilé-ɛjɔ́ fún ìwà tó lòdì sí ɛ̀tɔ́ ɔmɔnìyàn, tó jɛ́ kò-sheé-má-nìí gɛ́gɛ́ bó she wà lábɛ́ òfin àti bí òfin-ìkpìlɛ̀ she là á sílɛ̀."
+  specimen_21: "A kò gbɔdɔ̀ shàdédé fi òfin mú ènìyàn tàbí kí a kàn gbé ènìyàn tì mɔ́lé, tàbí kí a lé ènìyàn jáde ní ìlú láìnídìí.\nƐnì kɔ̀ɔ̀kan tí a bá fi ɛ̀sùn kàn ló ní ɛ̀tɔ́ tó dɔ́gba, tó sì kún, láti shàlàyé ara rɛ̀ ní gban̄gba, níwájú ilé-ɛjɔ́ tí kò shègbè, kí wɔn lè she ìkpinnu lórí ɛ̀tɔ́ àti ojúshe rɛ̀ níkpa irú ɛ̀sùn ɔ̀ràn dídá tí a fi kàn án."
+  specimen_16: "Ɛnì kɔ̀ɔ̀kan ló ní ɛ̀tɔ́ kpé kí a má shàdédé she àyɔjúràn sí ɔ̀rɔ̀ ìgbésí ayé rɛ̀, tàbí sí ɔ̀rɔ̀ɛbí rɛ̀ tàbí sí ɔ̀rɔ̀ ìdílé rɛ̀ tàbí ìwé tí a kɔ sí i; a kò sì gbɔdɔ̀ ba iyì àti orúkɔ rɛ̀ jɛ́. Ɛnì kɔ̀ɔ̀kan ló ní ɛ̀tɔ́ sí ààbò lábɛ́ òfin kúrò lɔ́wɔ́ irú àyɔjúràn tàbí ìbanijɛ́ bɛ́ɛ̀.\nƐnì kɔ̀ɔ̀kan ló ní ɛ̀tɔ́ sí òmìnira èrò, òmìnira ɛ̀rí-ɔkàn àti òmìnira ɛ sìn. Ɛtɔ́ yìí sì gbani láàyè láti kpààrɔ̀ ɛ sìn tàbí ìgbàgbɔ́ ɛni. Ó sì fún ɛyɔ ɛnì kan tàbí àkójɔkpɔ̀ ènìyàn láàyè láti she ɛ̀sìn wɔn àti ìgbàgbɔ́ wɔn bó she jɛ mɔ́ ti ìkɔ́ni, ìshesí, ìjɔ́sìn àti ìmúshe ohun tí wɔ́n gbàgbɔ́ yálà ní ìkɔ̀kɔ̀ tàbí ní gban̄gba.\nƐnì kɔ̀ɔ̀kan ló ní ɛ̀tɔ́ sí ìsinmi àti fàájì kpɛ̀lú àkókò tí kò kpɔ̀ jù lɛ́nu ishɛ́ àti àsìkò ìsinmi lɛ́nu ishɛ́ láti ìgbà dé ìgbà tí a ó sanwó fún."
+}
+source: "Centre national de linguistique appliquée (CENALA), Alphabet des langues nationales béninoises, Cotonou: CENALA avec le concours de l’Initiative francophone pour la formation à distance des maîtres (IFADEM), 2008, 6th ed."
+note: "Yoruba (Benin) uses ɛ ɔ kp sh instead of Yoruba (Nigeria) ẹ ọ p ṣ."

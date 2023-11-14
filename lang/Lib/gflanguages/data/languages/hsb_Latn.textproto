@@ -6,8 +6,8 @@ autonym: "Hornjoserbšćina"
 population: 12825
 region: "DE"
 exemplar_chars {
-  base: "a b c č ć d {dź} e ě f g h {ch} i j k ł l m n ń o ó p q r ř s š t u v w x y z ž"
-  auxiliary: "á à ă â å ä ã ą ā æ ç ď đ é è ĕ ê ë ė ę ē ğ í ì ĭ î ï İ ī ı ĺ ľ ň ñ ò ŏ ô ö ő ø ō œ ŕ ś ş ß ť ú ù ŭ û ů ü ű ū ý ÿ ż ź"
+  base: "A B C Č Ć D {DŹ} E Ě F G H {CH} I J K Ł L M N Ń O Ó P Q R Ř S Š T U V W X Y Z Ž a b c č ć d {dź} e ě f g h {ch} i j k ł l m n ń o ó p q r ř s š t u v w x y z ž"
+  auxiliary: "Á À Ă Â Å Ä Ã Ą Ā Æ Ç Ď Đ É È Ĕ Ê Ë Ė Ę Ē Ğ Í Ì Ĭ Î Ï İ Ī I Ĺ Ľ Ň Ñ Ò Ŏ Ô Ö Ő Ø Ō Œ Ŕ Ś Ş ẞ Ť Ú Ù Ŭ Û Ů Ü Ű Ū Ý Ÿ Ż Ź á à ă â å ä ã ą ā æ ç ď đ é è ĕ ê ë ė ę ē ğ í ì ĭ î ï ī ı ĺ ľ ň ñ ò ŏ ô ö ő ø ō œ ŕ ś ş ß ť ú ù ŭ û ů ü ű ū ý ÿ ż ź"
   marks: "◌́ ◌̌"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … \' ‘ ’ ‚ \" “ „ « » ( ) [ ] { } @ * / & #"

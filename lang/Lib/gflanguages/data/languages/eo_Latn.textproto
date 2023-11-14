@@ -6,8 +6,8 @@ autonym: "Esperanto"
 population: 301
 region: "SM"
 exemplar_chars {
-  base: "a b c ĉ d e f g ĝ h ĥ i j ĵ k l m n o p r s ŝ t u ŭ v z"
-  auxiliary: "q w x y"
+  base: "A B C Ĉ D E F G Ĝ H Ĥ I J Ĵ K L M N O P R S Ŝ T U Ŭ V Z a b c ĉ d e f g ĝ h ĥ i j ĵ k l m n o p r s ŝ t u ŭ v z"
+  auxiliary: "Q W X Y q w x y"
   marks: "◌̂ ◌̆"
   numerals: ", % + − 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] { } /"

@@ -1,0 +1,20 @@
+id: "fr-gallo_Latn"
+language: "fr-gallo"
+script: "Latn"
+name: "Gallo"
+region: "FR"
+population: 200000
+sample_text {
+  masthead_full: "LlEe"
+  masthead_partial: "Mm"
+  styles: "Le monde vienent su la térre librs tertous"
+  tester: "Le monde vienent su la térre librs tertous e s’ent’valent en drets"
+  poster_sm: "Le monde"
+  poster_md: "Le monde"
+  poster_lg: "monde"
+  specimen_48: "Le monde vienent su la térre librs tertous e s’ent’valent en drets e"
+  specimen_36: "Le monde vienent su la térre librs tertous e s’ent’valent en drets e dignitë. Il lou apartient d’avaer de la réson e de la conscience e il ont de s’ent’enchevi conme feraen dés freres."
+  specimen_32: "Le monde vienent su la térre librs tertous e s’ent’valent en drets e dignitë. Il lou apartient d’avaer de la réson e de la conscience e il ont de s’ent’enchevi conme feraen dés freres."
+  specimen_21: "Le monde vienent su la térre librs tertous e s’ent’valent en drets e dignitë. Il lou apartient d’avaer de la réson e de la conscience e il ont de s’ent’enchevi conme feraen dés freres.\nLe monde vienent su la térre librs tertous e s’ent’valent en drets e dignitë. Il lou apartient d’avaer de la réson e de la conscience e il ont de s’ent’enchevi conme feraen dés freres."
+  specimen_16: "Le monde vienent su la térre librs tertous e s’ent’valent en drets e dignitë. Il lou apartient d’avaer de la réson e de la conscience e il ont de s’ent’enchevi conme feraen dés freres.\nLe monde vienent su la térre librs tertous e s’ent’valent en drets e dignitë. Il lou apartient d’avaer de la réson e de la conscience e il ont de s’ent’enchevi conme feraen dés freres.\nLe monde vienent su la térre librs tertous e s’ent’valent en drets e dignitë. Il lou apartient d’avaer de la réson e de la conscience e il ont de s’ent’enchevi conme feraen dés freres.\nLe monde vienent su la térre librs tertous e s’ent’valent en drets e dignitë. Il lou apartient d’avaer de la réson e de la conscience e il ont de s’ent’enchevi conme feraen dés freres."
+}

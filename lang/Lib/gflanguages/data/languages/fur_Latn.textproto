@@ -6,8 +6,8 @@ autonym: "Furlan"
 population: 37441
 region: "IT"
 exemplar_chars {
-  base: "a à â b c ç d e è ê f g h i ì î j k l m n o ò ô p q r s t u ù û v w x y z"
-  auxiliary: "å č é ë ğ ï ñ ó š ü"
+  base: "A À Â B C Ç D E È Ê F G H I Ì Î J K L M N O Ò Ô P Q R S T U Ù Û V W X Y Z a à â b c ç d e è ê f g h i ì î j k l m n o ò ô p q r s t u ù û v w x y z"
+  auxiliary: "Å Č É Ë Ğ Ï Ñ Ó Š Ü å č é ë ğ ï ñ ó š ü"
   marks: "◌̀ ◌̂ ◌̧"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   index: "A B C Ç D E F G H I J K L M N O P Q R S T U V W X Y Z"

@@ -7,8 +7,8 @@ population: 55440
 region: "DK"
 region: "GL"
 exemplar_chars {
-  base: "a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å"
-  auxiliary: "á â ã é ê ẽ í î ĩ ô õ ĸ ú û ũ"
+  base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å"
+  auxiliary: "Á Â Ã É Ê Ẽ Í Î Ĩ Ô Õ {K’} Ú Û Ũ á â ã é ê ẽ í î ĩ ô õ ĸ ú û ũ"
   marks: "◌́ ◌̂ ◌̃ ◌̊ ◌̀"
   numerals: ", . % + − 0 1 2 3 4 5 6 7 8 9"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å"

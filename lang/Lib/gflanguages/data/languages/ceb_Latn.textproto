@@ -6,8 +6,8 @@ autonym: "Binisaya"
 population: 26203440
 region: "PH"
 exemplar_chars {
-  base: "a b d e g h i k l m n o p r s t u w y"
-  auxiliary: "c f j ñ q v x z"
+  base: "A B D E G H I K L M N O P R S T U W Y a b d e g h i k l m n o p r s t u w y"
+  auxiliary: "C F J Ñ Q V X Z c f j ñ q v x z"
   punctuation: "- , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 }

@@ -4,6 +4,7 @@ script: "Latn"
 name: "Uduk"
 region: "ET"
 region: "SS"
+population: 22000
 exemplar_chars {
   base: "a A b B {ʼb} {ʼB} c C {c̱} {C̱} {ʼc} {ʼC} d D {ʼd} {ʼD} {dh} {DH} e E g G h H i I j J k K ḵ Ḵ {ʼk} {ʼK} l L m M n N ŋ Ŋ {ny} {NY} o O p P {p̱} {P̱} {ʼp} {ʼP} r R s S {sh} {SH} t T ṯ Ṯ {ʼt} {ʼT} {th} {TH} {t͟h} {T͟H} {ʼth} {ʼTH} u U w W y Y /"
   marks: "◌̱ ◌͟"

@@ -7,8 +7,8 @@ population: 71350
 region: "DK"
 region: "FO"
 exemplar_chars {
-  base: "a á b d ð e f g h i í j k l m n o ó p r s t u ú v y ý æ ø"
-  auxiliary: "c q w x z"
+  base: "A Á B D Ð E F G H I Í J K L M N O Ó P R S T U Ú V Y Ý Æ Ø a á b d ð e f g h i í j k l m n o ó p r s t u ú v y ý æ ø"
+  auxiliary: "C Q W X Z c q w x z"
   marks: "◌́ ◌̊"
   numerals: ", . % + − 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"

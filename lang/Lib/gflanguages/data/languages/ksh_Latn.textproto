@@ -6,8 +6,8 @@ autonym: "Kölsch"
 population: 240479
 region: "DE"
 exemplar_chars {
-  base: "a å ä æ b c d e ë ė f g h i j k l m n o ö œ p q r s ß t u ů ü v w x y z"
-  auxiliary: "á à ă â ã ā ç é è ĕ ê ē ğ í ì ĭ î ï ī ĳ ı ł ñ ó ò ŏ ô ø ō ú ù ŭ û ū ÿ"
+  base: "A Å Ä Æ B C D E Ë Ė F G H I J K L M N O Ö Œ P Q R S ẞ T U Ů Ü V W X Y Z a å ä æ b c d e ë ė f g h i j k l m n o ö œ p q r s ß t u ů ü v w x y z"
+  auxiliary: "Á À Ă Â Ã Ā Ç É È Ĕ Ê Ē Ğ Í Ì Ĭ Î Ï Ī Ĳ I Ł Ñ Ó Ò Ŏ Ô Ø Ō Ú Ù Ŭ Û Ū Ÿ á à ă â ã ā ç é è ĕ ê ē ğ í ì ĭ î ï ī ĳ ı ł ñ ó ò ŏ ô ø ō ú ù ŭ û ū ÿ"
   marks: "◌̇ ◌̈ ◌̊ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̧"
   numerals: ", % + − 0 1 2 3 4 5 6 7 8 9"
   punctuation: "_ – — ⸗ , ; : ! ? . … \' ‘ ‚ \" “ „ ( ) [ ] { } @ * / & # % ° < = > ~"

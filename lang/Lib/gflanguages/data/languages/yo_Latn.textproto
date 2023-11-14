@@ -4,7 +4,6 @@ script: "Latn"
 name: "Yoruba"
 autonym: "Èdè Yorùbá"
 population: 28685568
-region: "BJ"
 region: "NG"
 exemplar_chars {
   base: "a A á Á à À b B d D e E é É è È ẹ Ẹ {ẹ́} {Ẹ́} {ẹ̀} {Ẹ̀} f F g G {gb} {GB} h H i I í Í ì Ì j J k K l L m M ḿ Ḿ {m̀} {M̀} n N ń Ń ǹ Ǹ o O ó Ó ò Ò ọ Ọ {ọ́} {Ọ́} {ọ̀} {Ọ̀} p P r R s S ṣ Ṣ t T u U ú Ú ù Ù w W y Y"
@@ -27,3 +26,5 @@ sample_text {
   specimen_21: "A kò gbọdọ̀ ṣàdédé fi òfin mú ènìyàn tàbí kí a kàn gbé ènìyàn tì mọ́lé, tàbí kí a lé ènìyàn jáde ní ìlú láìnídìí.\nẸnì kọ̀ọ̀kan tí a bá fi ẹ̀sùn kàn ló ní ẹ̀tọ́ tó dọ́gba, tó sì kún, láti ṣàlàyé ara rẹ̀ ní gban̄gba, níwájú ilé-ẹjọ́ tí kò ṣègbè, kí wọn lè ṣe ìpinnu lórí ẹ̀tọ́ àti ojúṣe rẹ̀ nípa irú ẹ̀sùn ọ̀ràn dídá tí a fi kàn án."
   specimen_16: "Ẹnì kọ̀ọ̀kan ló ní ẹ̀tọ́ pé kí a má ṣàdédé ṣe àyọjúràn sí ọ̀rọ̀ ìgbésí ayé rẹ̀, tàbí sí ọ̀rọ̀ẹbí rẹ̀ tàbí sí ọ̀rọ̀ ìdílé rẹ̀ tàbí ìwé tí a kọ sí i; a kò sì gbọdọ̀ ba iyì àti orúkọ rẹ̀ jẹ́. Ẹnì kọ̀ọ̀kan ló ní ẹ̀tọ́ sí ààbò lábẹ́ òfin kúrò lọ́wọ́ irú àyọjúràn tàbí ìbanijẹ́ bẹ́ẹ̀.\nẸnì kọ̀ọ̀kan ló ní ẹ̀tọ́ sí òmìnira èrò, òmìnira ẹ̀rí-ọkàn àti òmìnira ẹ sìn. Ẹtọ́ yìí sì gbani láàyè láti pààrọ̀ ẹ sìn tàbí ìgbàgbọ́ ẹni. Ó sì fún ẹyọ ẹnì kan tàbí àkójọpọ̀ ènìyàn láàyè láti ṣe ẹ̀sìn wọn àti ìgbàgbọ́ wọn bó ṣe jẹ mọ́ ti ìkọ́ni, ìṣesí, ìjọ́sìn àti ìmúṣe ohun tí wọ́n gbàgbọ́ yálà ní ìkọ̀kọ̀ tàbí ní gban̄gba.\nẸnì kọ̀ọ̀kan ló ní ẹ̀tọ́ sí ìsinmi àti fàájì pẹ̀lú àkókò tí kò pọ̀ jù lẹ́nu iṣẹ́ àti àsìkò ìsinmi lẹ́nu iṣẹ́ láti ìgbà dé ìgbà tí a ó sanwó fún."
 }
+source: "Okon E. Essien, “Yoruba Orthography”, Ayo Bamgbose, Orthographies of Nigerian Languages, Manual I, Lagos: Federal Ministry of Education, National Language Center, 1982"
+note: "Some authors use circumflex and caron on single vowels instead of using doubled vowels with acute and grave."

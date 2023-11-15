@@ -437,6 +437,7 @@ def build_static_name_table(ttFont, family_name, style_name):
     name_table = ttFont["name"]
     name_table.removeNames(platformID=1)
     existing_name = ttFont["name"].getBestFamilyName()
+    removed_names = {}
 
     names = {}
     is_ribbi = (
@@ -455,6 +456,7 @@ def build_static_name_table(ttFont, family_name, style_name):
             21,
             22,
         ):
+            removed_names[name_id] = name_table.getDebugName(name_id)
             name_table.removeNames(nameID=name_id)
     else:
         style_tokens = style_name.split()
@@ -477,7 +479,22 @@ def build_static_name_table(ttFont, family_name, style_name):
         names[(NameID.TYPOGRAPHIC_SUBFAMILY_NAME, 3, 1, 0x409)] = style_name
         # we do not use WWS names since we use the RIBBI naming schema
         for name_id in (21, 22):
+            removed_names[name_id] = name_table.getDebugName(name_id)
             name_table.removeNames(nameID=name_id)
+
+    # If STAT table was using any removed names, add then back with a new ID
+    if "STAT" in ttFont and removed_names:
+        if ttFont["STAT"].table.AxisValueArray:
+            for av in ttFont["STAT"].table.AxisValueArray.AxisValue:
+                if av.ValueNameID in removed_names:
+                    av.ValueNameID = name_table.addMultilingualName(
+                        {"en": removed_names[av.ValueNameID]}
+                    )
+        for av in ttFont["STAT"].table.DesignAxisRecord.Axis:
+            if av.AxisNameID in removed_names:
+                av.AxisNameID = name_table.addMultilingualName(
+                    {"en": removed_names[av.AxisNameID]}
+                )
 
     names[(NameID.UNIQUE_FONT_IDENTIFIER, 3, 1, 0x409)] = _updateUniqueIdNameRecord(
         ttFont, {k[0]: v for k, v in names.items()}, (3, 1, 0x409)

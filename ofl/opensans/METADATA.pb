@@ -44,7 +44,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/opensans"
-  commit: "3d45774008254746e09bce4f8922b515a7b6a26b"
+  commit: "bd7e37632246368c60fdcbd374dbf9bad11969b6"
 }
 fallbacks {
   axis_target {

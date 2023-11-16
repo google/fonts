@@ -1,9 +1,22 @@
 # New
+ofl/honk # https://github.com/google/fonts/pull/6961
+ofl/sixtyfour # https://github.com/google/fonts/pull/6919
+ofl/workbench # https://github.com/google/fonts/pull/6917
 
 # Upgrade
+ofl/alike # https://github.com/google/fonts/pull/6929
+ofl/alikeangular # https://github.com/google/fonts/pull/6930
+ofl/notosanslydian # https://github.com/google/fonts/pull/6771
 
 # Designer profile
+catalog/designers/andreykudryavtsev # https://github.com/google/fonts/pull/6952
+catalog/designers/jenskutilek # https://github.com/google/fonts/pull/6935
 
-# Metadata / Description / License
+# Axis Registry
+axisregistry/bleed.textproto # https://github.com/google/fonts/pull/6953
+axisregistry/scanlines.textproto # https://github.com/google/fonts/pull/6953
+axisregistry/shadow_length.textproto # https://github.com/google/fonts/pull/6953
+axisregistry/sharpness.textproto # https://github.com/google/fonts/pull/6953
 
 # Sample texts
+lang/languages/sd_Khoj.textproto # https://github.com/google/fonts/pull/6970

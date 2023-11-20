@@ -32,3 +32,4 @@ source {
 }
 stroke: "SERIF"
 classifications: "DISPLAY"
+minisite_url: "http://www.fridamedrano.com/kalnia.html"

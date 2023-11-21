@@ -1,5 +1,5 @@
 name: "Hedvig Letters Serif"
-designer: "Kanon Foundry, Alexander Örn, Tor Weibull"
+designer: "Kanon Foundry, Alexander Örn, Tor Weibull, Hedvig"
 license: "OFL"
 category: "SERIF"
 date_added: "2023-10-24"

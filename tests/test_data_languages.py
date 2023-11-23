@@ -44,6 +44,7 @@ SKIP_EXEMPLARS = {
     "hur_Latn": "Does indeed use Greek glyphs while writing Latin",
     "kwk_Latn": "Does indeed use Greek glyphs while writing Latin",
     "thp_Latn": "Does indeed use Greek glyphs while writing Latin",
+    "dnj_Latn": "Does use future Unicode 16 Latin glyphs",
 }
 
 SKIP_REGION = {

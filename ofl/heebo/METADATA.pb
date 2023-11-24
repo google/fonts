@@ -14,9 +14,16 @@ fonts {
 }
 subsets: "hebrew"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/OdedEzer/heebo"
+  commit: "76c7d538568d3e6d7f052a12c5675c84430df25f"
 }

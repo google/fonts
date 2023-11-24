@@ -1,16 +1,24 @@
 # New
 ofl/honk # https://github.com/google/fonts/pull/6961
-ofl/sixtyfour # https://github.com/google/fonts/pull/6919
-ofl/workbench # https://github.com/google/fonts/pull/6917
-ofl/opensans # https://github.com/google/fonts/pull/6969
+ofl/rubikbrokenfax # https://github.com/google/fonts/pull/6998
+ofl/rubikdoodleshadow # https://github.com/google/fonts/pull/6999
+ofl/rubikdoodletriangles # https://github.com/google/fonts/pull/7000
+ofl/rubiklines # https://github.com/google/fonts/pull/7003
+ofl/rubikmaps # https://github.com/google/fonts/pull/7005
+ofl/rubikscribble # https://github.com/google/fonts/pull/7004
 
 # Upgrade
 ofl/alike # https://github.com/google/fonts/pull/6929
 ofl/alikeangular # https://github.com/google/fonts/pull/6930
+ofl/notosanscoptic # https://github.com/google/fonts/pull/6762
 ofl/notosanslydian # https://github.com/google/fonts/pull/6771
+ofl/notosansmongolian # https://github.com/google/fonts/pull/6938
+ofl/opensans # https://github.com/google/fonts/pull/6969
 
 # Designer profile
 catalog/designers/andreykudryavtsev # https://github.com/google/fonts/pull/6952
+catalog/designers/denismasharov # https://github.com/google/fonts/pull/6992
+catalog/designers/hedvig # https://github.com/google/fonts/pull/6995
 catalog/designers/jenskutilek # https://github.com/google/fonts/pull/6935
 
 # Axis Registry
@@ -18,6 +26,13 @@ axisregistry/bleed.textproto # https://github.com/google/fonts/pull/6953
 axisregistry/scanlines.textproto # https://github.com/google/fonts/pull/6953
 axisregistry/shadow_length.textproto # https://github.com/google/fonts/pull/6953
 axisregistry/sharpness.textproto # https://github.com/google/fonts/pull/6953
+
+# Metadata / Description / License
+ofl/hedvigletterssans # https://github.com/google/fonts/pull/6994
+ofl/hedviglettersserif # https://github.com/google/fonts/pull/6994
+ofl/kalnia # https://github.com/google/fonts/pull/7008
+ofl/linefont # https://github.com/google/fonts/pull/6985
+ofl/wavefont # https://github.com/google/fonts/pull/6984
 
 # Sample texts
 lang/languages/sd_Khoj.textproto # https://github.com/google/fonts/pull/6970

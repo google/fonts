@@ -1,0 +1,12 @@
+id: "pid_Latn"
+language: "pid"
+script: "Latn"
+name: "Piaroa"
+preferred_name: "Piaroa (Venezuela)"
+population: 13000
+region: "VE"
+exemplar_chars {
+  base: "a A ä Ä b B {ch} {CH} {’ch} {’CH} d D e E i I j J {jw} {JW} k K {kj} {KJ} {’k} {’K} {kw} {KW} {’kw} {’KW} m M n N o O p P {pj} {PJ} {’p} {’P} r R s S t T {tj} {TJ} {’t} {’T} u U ü Ü w W y Y ’"
+  marks: "◌̈"
+}
+source: "Esteban Emilio Mosonyi, “Elementos de gramática piaroa: algunas consideraciones sobre sus clases nominales”, Boletín de Lingüística, vol. 18, 2002, p. 71-103"

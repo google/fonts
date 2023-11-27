@@ -3,6 +3,7 @@ language: "fuf"
 script: "Latn"
 name: "Pular"
 region: "GN"
+population: 5443000
 sample_text {
   masthead_full: "NnEe"
   masthead_partial: "Dd"

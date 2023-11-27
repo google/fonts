@@ -3,6 +3,7 @@ language: "fuc"
 script: "Latn"
 name: "Pulaar"
 region: "GN"
+population: 5778000
 sample_text {
   masthead_full: "IiNn"
   masthead_partial: "Aa"

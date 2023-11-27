@@ -3,6 +3,7 @@ language: "cri"
 script: "Latn"
 name: "Sãotomense"
 region: "ST"
+population: 70000
 sample_text {
   masthead_full: "TtUu"
   masthead_partial: "Dd"

@@ -3,6 +3,7 @@ language: "ddn"
 script: "Latn"
 name: "Dendi"
 region: "BJ"
+population: 270000
 sample_text {
   masthead_full: "AaDd"
   masthead_partial: "Uu"

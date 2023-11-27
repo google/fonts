@@ -3,6 +3,7 @@ language: "gkp"
 script: "Latn"
 name: "Kpelle, Guinea"
 region: "GN"
+population: 622000
 sample_text {
   masthead_full: "NnUu"
   masthead_partial: "Kk"

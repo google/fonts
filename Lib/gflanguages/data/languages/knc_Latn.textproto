@@ -6,7 +6,7 @@ autonym: "Kanuri (Latin)"
 region: "NG"
 population: 8819000
 exemplar_chars {
-  base: "a A b B c C d D e E ǝ Ǝ f F g G h H i I j J k K l L m M n N ny NY o O p P r R ɍ Ɍ s S sh SH t T u U w W y Y z Z"
+  base: "a A b B c C d D e E ǝ Ǝ f F g G h H i I j J k K l L m M n N {ny} {NY} o O p P r R ɍ Ɍ s S {sh} {SH} t T u U w W y Y z Z"
 }
 sample_text {
   masthead_full: "AaDd"

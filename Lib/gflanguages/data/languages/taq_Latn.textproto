@@ -3,6 +3,13 @@ language: "taq"
 script: "Latn"
 name: "Tamasheq, Latin"
 region: "ML"
+population: 914000
+exemplar_chars {
+  base: "a A ă Ă b B c C d D ḍ Ḍ e E ə Ə f F g G ɣ Ɣ h H ḥ Ḥ i I j J k K l L ḷ Ḷ m M n N ŋ Ŋ o O p P q Q r R s S š Š ṣ Ṣ t T ṭ Ṭ u U v V w W x X y Y z Z ẓ Ẓ"
+  base: "a A â Â ă Ă ǝ Ǝ b B c C d D ḍ Ḍ e E ê Ê f F g G ǧ Ǧ h H ʔ i I î Î j J ǰ J̌ ɣ Ɣ k K l L ḷ Ḷ m M n N ŋ Ŋ o O ô Ô q Q r R s S ṣ Ṣ š Š t T ṭ Ṭ u U û Û w W x X y Y z Z ž Ž ẓ Ẓ"
+  marks: "◌̌ ◌̆ ◌̣"
+  auxiliary: "ñ Ñ"
+}
 sample_text {
   masthead_full: "MmDd"
   masthead_partial: "Aa"
@@ -17,3 +24,8 @@ sample_text {
   specimen_21: "Mdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət."
   specimen_16: "Mdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət.\nMdan ddunt tiwen llullin, ulan s lhəq. Ǧrawən tayətte d man full ed nmərtayən s taññət."
 }
+source: "Chantal Enguehard, “Alphabet tamajaq – arrêté no 214-99 de la République du Niger”, 2007"
+source: "République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d'orthographe des langues nationales, Bamako, DNAFLA, 1993"
+source: "République du Niger, Ministère de l’Éducation nationale, arrêté no 0214/MEN/SPCNRE du 19 octobre 1999 fixant l’orthographe de la langue tamajaq, 1999"
+source: "Issak Oukafi Cheikh, Déclaration universelle des droits de l’Homme = Tamule n amḍal n lxəqqən n awadəm = Universal Declaration of Human Rights, Association Tagazt, 2006
+note: "Mali’s DNAFLA 1993 and Niger’s arrêté no 0214/MEN/SPCNRE differ and have slightly different orders. In Mali ʔ ž are used (ə or ǝ as only lowercase is shown in DNAFLA 1993), in Niger â ê ǝ/Ǝ  ǧ î ǰ ô û are used.\nThe UDHR translation (Cheikh 2006) uses ə/Ə ñ."

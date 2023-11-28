@@ -6,7 +6,7 @@ region: "GN"
 population: 5778000
 exemplar_chars {
   base: "a A b B ɓ Ɓ d D ɗ Ɗ e E f F g G h H i I j J k K l L m M ñ Ñ n N ŋ Ŋ o O p P r R s S t T u U w W y Y ƴ Ƴ ’"
-  auxiliary: "ʼc C q Q v V x X z Z"
+  auxiliary: "c C q Q v V x X z Z ʼ"
 }
 sample_text {
   masthead_full: "IiNn"

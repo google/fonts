@@ -10,10 +10,14 @@ fonts {
   filename: "NotoSansArabic[wdth,wght].ttf"
   post_script_name: "NotoSansArabic-Regular"
   full_name: "Noto Sans Arabic Regular"
-  copyright: "Copyright 2015-2020 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)"
 }
 subsets: "arabic"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wdth"
   min_value: 62.5
@@ -23,6 +27,10 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/arabic.git"
+  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoSansArabic-v2.012/NotoSansArabic-v2.012.zip"
 }
 is_noto: true
 languages: "aeb_Arab"  # Tunisian Arabic

@@ -15,7 +15,9 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wght"
   min_value: 400.0
@@ -23,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/arabic.git"
-  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.016/NotoNaskhArabic-v2.016.zip"
+  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.018/NotoNaskhArabic-v2.018.zip"
 }
 is_noto: true
 languages: "aeb_Arab"  # Tunisian Arabic

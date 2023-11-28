@@ -7,14 +7,18 @@ fonts {
   name: "Ruslan Display"
   style: "normal"
   weight: 400
-  filename: "RuslanDisplay.ttf"
+  filename: "RuslanDisplay-Regular.ttf"
   post_script_name: "RuslanDisplay"
-  full_name: "Ruslan Display"
-  copyright: "Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>, Vladimir Rabdu. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  full_name: "Ruslan Display Regular"
+  copyright: "Copyright 2011 Oleg Snarsky, Denis Masharov, Vladimir Rabdu."
 }
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
+subsets: "menu"
+subsets: "symbols"
+source {
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

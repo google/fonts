@@ -5,7 +5,7 @@ name: "Saho"
 population: 218923
 region: "ER"
 exemplar_chars {
-  base: "a A ä Ä b B c C c C {ch} {CH} ç Ç d D {dh} {DH} e E ë Ë f F g G {gn} {GN} h H i I j J k K {kh} {KH} l L m M n N o O ö Ö p P q Q {qh} {QH} r R {rh} {RH} s S {sh} {SH} t T {th} {TH} {ts} {TS} u U v V w W x X y Y z Z"
+  base: "a A ä Ä b B c C {ch} {CH} ç Ç d D {dh} {DH} e E ë Ë f F g G {gn} {GN} h H i I j J k K {kh} {KH} l L m M n N o O ö Ö p P q Q {qh} {QH} r R {rh} {RH} s S {sh} {SH} t T {th} {TH} {ts} {TS} u U v V w W x X y Y z Z"
   marks: "◌̈ ◌̧"
 }
 source: "Giorgio Banti & Moreno Vergari, “A sketch of Saho grammar”, Journal of Eritrean Studies, vol. 4, no. 1-2, May-December 2005, pp. 100-131"

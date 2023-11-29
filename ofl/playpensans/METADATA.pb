@@ -12,11 +12,11 @@ fonts {
   full_name: "Playpen Sans Regular"
   copyright: "Copyright 2023 The Playpen Sans Project Authors (https://github.com/TypeTogether/Playpen-Sans)"
 }
+subsets: "emoji"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
-subsets: "symbols"
 subsets: "vietnamese"
 axes {
   tag: "wght"

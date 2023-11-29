@@ -29,7 +29,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/jenskutilek/homecomputer-fonts"
-  commit: "9a28003a6419e7ebd9d81469288a80e436866823"
+  commit: "09b2f79d686453d3bc160d04a687488e66962c43"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

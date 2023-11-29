@@ -32,3 +32,4 @@ source {
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+minisite_url: "https://jenskutilek.github.io/homecomputer-fonts/documentation/demo-workbench.html"

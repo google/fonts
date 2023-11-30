@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 subsets: "vietnamese"
 axes {
   tag: "wght"
@@ -25,6 +26,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "5f1828480be5843503a4f55e8b6094637370d795"
+  commit: "0de440c9453a4f2f971d89506df4ed1ba9124cb4"
 }
 stroke: "SANS_SERIF"

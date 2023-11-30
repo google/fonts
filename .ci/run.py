@@ -123,11 +123,11 @@ def main():
 
         elif check_type == CheckType.NEW_FAMILY:
             print(f"Checking new family: {directory}")
-            subprocess.run(qa_cmd_prefix + ["--fontbakery"])
+            subprocess.run(qa_cmd_prefix + ["--fontbakery", "--interpolations"])
 
         elif check_type == CheckType.MODIFIED_FAMILY:
             print(f"Checking modified family: {directory}")
-            subprocess.run(qa_cmd_prefix + ["-gfb", "--fontbakery", "--diffenator"])
+            subprocess.run(qa_cmd_prefix + ["-gfb", "--fontbakery", "--diffenator", "--interpolations"])
 
         elif check_type == CheckType.MODIFIED_FAMILY_METADATA:
             print(f"Checking modified family metadata: {directory}")

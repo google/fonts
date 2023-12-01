@@ -5,9 +5,9 @@ name: "Bamun, Latin"
 region: "CM"
 population: 673000
 exemplar_chars {
-  base: "a A à À á Á â Â ā Ā ǎ Ǎ b B ɓ Ɓ d D {gb} {GB} {mb} {MB} e E è È é É ê Ê ē Ē ě Ě ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̄} {Ɛ̄} {ɛ̌} {Ɛ̌} ə Ə {ə̀} {Ə̀} {ə́} {Ə́} {ə̂} {Ə̂} {ə̄} {Ə̄} {ə̌} {Ə̌} f F g G {gh} {GH} i I ì Ì í Í î Î ī Ī ǐ Ǐ j J k K {kp} {KP} l L m M ŋ Ŋ n N o O ò Ò ó Ó ô Ô ō Ō ǒ Ǒ {ʉ̀} {Ʉ̀} {ʉ́} {Ʉ́} {ʉ̂} {Ʉ̂} {ʉ̄} {Ʉ̄} {ʉ̌} {Ʉ̌} ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̄} {Ɔ̄} {ɔ̌} {Ɔ̌} p P r R s S {sh} {SH} t T u U ù Ù ú Ú û Û ū Ū ǔ Ǔ ü Ü ʉ Ʉ v V w W y Y {ny} {NY} z Z ’"
+  base: "a A à À á Á â Â ǎ Ǎ b B ɓ Ɓ d D {gb} {GB} {mb} {MB} e E è È é É ê Ê ě Ě ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} ə Ə {ə̀} {Ə̀} {ə́} {Ə́} {ə̂} {Ə̂} {ə̌} {Ə̌} f F g G {gh} {GH} i I ì Ì í Í î Î j J k K {kp} {KP} l L m M n N {ny} {NY} ŋ Ŋ o O ò Ò ó Ó ô Ô ǒ Ǒ ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} p P r R s S {sh} {SH} t T u U ù Ù ú Ú û Û ǔ Ǔ ü Ü ʉ Ʉ {ʉ̀} {Ʉ̀} {ʉ́} {Ʉ́} {ʉ̂} {Ʉ̂} {ʉ̌} {Ʉ̌} v V w W y Y z Z ’"
   marks: "◌̀ ◌́ ◌̂ ◌̄ ◌̌"
-  auxiliary: "ʼ"
+  auxiliary: "ʼ ā Ā ē Ē {ɛ̄} {Ɛ̄} {ə̄} {Ə̄} ī Ī ǐ Ǐ ō Ō {ɔ̄} {Ɔ̄} ū Ū {ʉ̄} {Ʉ̄}"
 }
 sample_text {
   masthead_full: "PpEe"
@@ -23,6 +23,10 @@ sample_text {
   specimen_21: "Mo’ nshié me yúe’ne lo’ te yire yi nsa’ ngam mâ njetni suo kú nshié nsa’ ngu, lap lap pùen ké ndî mún ne, ne yi ngét nshié mféé kêt te ghét pesa’kúe yúe pe fa a nyé’re pa mféé kêt puo kú ghétkét ngam’ùe pe ntanke ntúúm ma.\nLo’ te ka kúmshe nga wûme, yúe a njit ne gú púen te ngúet púen nyütu pua pa mféé kêr’ap ngúenengúe sebe, pe na yire mbe map(ureyúe’ne) kú ghét ngam pua sappé ne fúeshe te njú na, lo’ te ka fét kwen pua tâne pa mféé kêt mún nyütu kpa’ nkiére gû ngétne nga pâre yúe a mfiébe"
   specimen_16: "Lo’ te ka kúmshe nga wûme, yúe a njit ne gú púen te ngúet púen nyütu pua pa mféé kêr’ap ngúenengúe sebe, pe na yire mbe map(ureyúe’ne) kú ghét ngam pua sappé ne fúeshe te njú na, lo’ te ka fét kwen pua tâne pa mféé kêt mún nyütu kpa’ nkiére gû ngétne nga pâre yúe a mfiébe\nWupme pa te njú na, pua ka tuo tuo njú mfé ira yúe púen nyütu ntuo pe ne kú shúkét pua kú wûshe te túm túme puô pua ngúe’, shi na mbe pô yi nsa’ me pum yu sha’ múm nyütu na,\nLo’ te ka a nta’ mi pa mféékêt mún nyütu kpa’ mbe yu shî te nsa’ngu mféékêt me shi’ mi a me yétne yi njit mún nyütu me ndînî ne pi’ tu te nsa’kpen pua yit mún te ngu na,"
 }
-source: "Fifen Abdou Salam & Shck Tchamna, Guide de conversation trilingue français-anglais-shüpamom = French-Shüpǎmәm-English Phrasebook, 2023"
+source: "Mi Ndalérewu, Alliance Biblique du Cameroun, 1988"
+source: "Syllabaire en langue bamoun = Lérewa meshi’ yinjanke ne yintuete me shü pamom, Douala: Mission protestante française, 1952
 source: "Emmanuel Matateyou, Parlons bamoun, Paris: L’Harmattan, 2002"
-note: "There are at least two common orthographies, one used in the Bible translation by the Bible Society and one that follows the General Alphabet of Cameroon Languages (GACL).\nOne should verify if ǜ Ǜ ǘ Ǘ {ü̂} {Ü̂} ǖ Ǖ ǚ Ǚ are used in the GACL-based orthography."
+source: "R. Péchandon & J.-P. Njoya Mounga, Précis grammatical de la langue bamoun, 1999"
+source: "Resurrection des Langues Maternelles-Ancestrales (RESULAM), Mes 500 premiers mots et expressions en langue shupamom (Bamoun)-français, YouTube, 2023"
+source: "Fifen Abdou Salam & Shck Tchamna, Guide de conversation trilingue français-anglais-shüpamom = French-Shüpǎmәm-English Phrasebook, 2023"
+note: "There are at least two common orthographies in Latin script, the pre-1979 orthography with 5 vowel letters plus accented ones and the General Alphabet of Cameroon Languages (GACL) with 9 vowel letters plus tone marks.\nMatateyou 2002 uses ü along with GACL vowels and tones marks, including macron for mid tone otherwise and ǜ ǘ ü̂ but, it seems, not ǖ ǚ.\nMission protestante française 1952 and Péchandon & Njoya 1999 use ṅ and Alliance Biblique du Cameroun 1988 use ng instead of ŋ of the GACL. RESULAM 2023 and Salam & Tchamna 2023 use the GACL."

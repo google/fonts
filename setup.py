@@ -32,7 +32,8 @@ setup(
     author=('Dave Crossland, '
             'Felipe Sanches, '
             'Marc Foley, '
-            'Roderick Sheeter'),
+            'Roderick Sheeter, '
+            'Denis Moyogo Jacquerye '),
     author_email='dave@lab6.com',
     package_dir={'': 'Lib'},
     packages=['gflanguages'],

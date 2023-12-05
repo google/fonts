@@ -32,10 +32,6 @@ jobs:
         uses: browser-actions/setup-chrome@latest
       - name: Setup Chrome Driver
         uses: nanasess/setup-chromedriver@master
-        with:
-          # TODO: Unpin when nanasess/setup-chromedriver#190 is fixed:
-          #       https://github.com/nanasess/setup-chromedriver/issues/190
-          chromedriver-version: 114.0.5735.90
 
       - name: Setup Firefox
         uses: m4rc1e/setup-firefox@master

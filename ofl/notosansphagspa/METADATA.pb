@@ -23,6 +23,7 @@ source {
   archive_url: "https://github.com/notofonts/phags-pa/releases/download/NotoSansPhagsPa-v2.004/NotoSansPhagsPa-v2.004.zip"
 }
 is_noto: true
+display_name: "Noto Sans Phags-pa"
 languages: "lzh_Phag"  # Literary Chinese, Phags-pa
 languages: "mn_Phag"  # Mongolian, Phags-pa
 languages: "sa_Phag"  # Sanskrit, Phags-pa

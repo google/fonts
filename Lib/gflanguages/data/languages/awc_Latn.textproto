@@ -1,0 +1,13 @@
+id: "awc_Latn"
+language: "awc"
+script: "Latn"
+name: "Cicipu"
+population: 44000
+region: "NG"
+exemplar_chars {
+  base: "a A ã Ã b B ɓ Ɓ c C d D ɗ Ɗ e E ẽ Ẽ g G {gw} {GW} h H {hw} {HW} {hy} {HY} i I ĩ Ĩ j J k K {kw} {KW} l L m M n N o O õ Õ ø Ø {ø̃} {Ø̃} p P r R s S t T u U ũ Ũ v V w W y Y z Z ʼ ʼ {ʼw} {ʼW} {ʼy} {ʼY}"
+  auxiliary: "f F q Q x X"
+}
+source: "Yadda za a karanta a kuma rubuta Cicipu = How to read and write Cicipu, 2011"
+source: "Stuart McGill, “Cicipu”, Journal of the International Phonetic Association, vol. 44, no. 3, 2014, p. 303-318"
+

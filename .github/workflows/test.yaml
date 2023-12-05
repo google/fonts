@@ -34,11 +34,9 @@ jobs:
         uses: nanasess/setup-chromedriver@master
 
       - name: Setup Firefox
-        uses: m4rc1e/setup-firefox@master
-        with:
-          firefox-version: '84.0'
+        uses: browser-actions/setup-firefox@latest
       - name: Setup Firefox Driver
-        uses: m4rc1e/setup-geckodriver@master
+        uses: browser-actions/setup-geckodriver@latest
 
       - name: Run Diffbrowsers
         run: |

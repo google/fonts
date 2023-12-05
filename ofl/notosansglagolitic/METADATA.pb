@@ -16,10 +16,12 @@ subsets: "cyrillic-ext"
 subsets: "glagolitic"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/glagolitic.git"
-  archive_url: "https://github.com/notofonts/glagolitic/releases/download/NotoSansGlagolitic-v2.002/NotoSansGlagolitic-v2.002.zip"
+  archive_url: "https://github.com/notofonts/glagolitic/releases/download/NotoSansGlagolitic-v2.004/NotoSansGlagolitic-v2.004.zip"
 }
 is_noto: true
 languages: "cu_Glag"  # Church Slavic, Glagolitic

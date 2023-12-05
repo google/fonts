@@ -4,10 +4,10 @@ name: Font tagging structure
 on:
   push:
     paths:
-    - 'tags/*/*'
+    - 'tags/all/families.csv'
   pull_request:
     paths:
-    - 'tags/*/*'
+    - 'tags/all/families.csv'
 
 jobs:
   test_server_files:

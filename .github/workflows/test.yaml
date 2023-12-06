@@ -37,6 +37,8 @@ jobs:
         uses: browser-actions/setup-firefox@latest
       - name: Setup Firefox Driver
         uses: browser-actions/setup-geckodriver@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run Diffbrowsers
         run: |

@@ -30,3 +30,4 @@ axes {
   min_value: 400.0
   max_value: 840.0
 }
+minisite_url: "https://huertatipografica.com/en/fonts/andada-ht-pro"

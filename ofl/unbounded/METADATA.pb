@@ -27,4 +27,4 @@ source {
   repository_url: "https://github.com/googlefonts/unbounded"
   commit: "f3ec43228a864a72487e41552e2140efab9884ea"
 }
-minsite_url: "https://unbounded.polkadot.network/"
+minisite_url: "https://unbounded.polkadot.network/"

@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Roboto[wdth,wght].ttf"
   post_script_name: "Roboto-Regular"
-  full_name: "Roboto"
+  full_name: "Roboto Regular"
   copyright: "Copyright 2011 Google Inc. All Rights Reserved."
 }
 fonts {
@@ -27,7 +27,9 @@ subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 subsets: "vietnamese"
 axes {
   tag: "wdth"
@@ -41,5 +43,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/roboto-classic"
-  archive_url: "https://github.com/googlefonts/roboto-classic/releases/download/v3.005/Roboto_v3.005.zip"
+  archive_url: "https://github.com/googlefonts/roboto-classic/releases/download/v3.008/Roboto_v3.008.zip"
 }

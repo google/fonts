@@ -4,7 +4,7 @@ license: "OFL"
 category: "SANS_SERIF"
 date_added: "2010-05-11"
 fonts {
-  name: "Yanone Kaffeesatz"
+  name: "Yanone Kaffeesatz ExtraLight"
   style: "normal"
   weight: 400
   filename: "YanoneKaffeesatz[wght].ttf"

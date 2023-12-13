@@ -22,3 +22,4 @@ source {
   repository_url: "https://github.com/octaviopardo/Protest"
   commit: "094e74050a0547c8decd760b4f926321a5e72c6e"
 }
+stroke:"SANS_SERIF"

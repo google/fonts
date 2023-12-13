@@ -27,3 +27,4 @@ source {
   repository_url: "https://github.com/TypeTogether/Playwrite/"
   commit: "7e7e3b8aa4d42f683a46a9941da81a2c132ba02f"
 }
+display_name: "Playwrite Colombia"

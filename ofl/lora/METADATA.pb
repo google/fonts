@@ -25,7 +25,9 @@ subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 subsets: "vietnamese"
 axes {
   tag: "wght"
@@ -34,5 +36,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/cyrealtype/Lora-Cyrillic"
-  commit: "42418d965083aa5471c6d9aa5f5c4051cba29384"
+  commit: "403b1a66ca2e79f81d749c5299559e168591a4df"
 }

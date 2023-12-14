@@ -16,6 +16,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/majormono"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
 classifications: "MONOSPACE"

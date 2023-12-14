@@ -38,3 +38,4 @@ source {
   repository_url: "https://github.com/cyrealtype/Lora-Cyrillic"
   commit: "403b1a66ca2e79f81d749c5299559e168591a4df"
 }
+stroke:"SERIF"

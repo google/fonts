@@ -1,5 +1,5 @@
 name: "Pacifico"
-designer: "Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova"
+designer: "Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova, Raphael Alegbeleye"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-03-09"
@@ -16,5 +16,11 @@ subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/Black-sage/Pacifico"
+  commit: "5274c9289ddd16381a671cf6805f7e5c0f9ac4ae"
+}

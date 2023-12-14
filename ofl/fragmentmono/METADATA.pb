@@ -26,5 +26,8 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/weiweihuanghuang/fragment-mono"
+}
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

@@ -16,5 +16,8 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/dharmatype/Bebas-Neue"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

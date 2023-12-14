@@ -15,5 +15,8 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/Omnibus-Type/ArchivoBlack"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -16,5 +16,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/Omnibus-Type/Saira"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

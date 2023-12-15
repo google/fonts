@@ -6,6 +6,7 @@ region: "BJ"
 population: 270000
 exemplar_chars {
   base: "a A à À á Á ā Ā b B c C d D e E è È é É ē Ē ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̄} {Ɛ̄} f F g G {gb} {GB} h H i I ì Ì í Í ī Ī j J k K {kp} {KP} l L m M n N {ny} {NY} ŋ Ŋ {ŋw} {ŊW} {ŋm} {ŊM} o O ò Ò ó Ó ō Ō ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̄} {Ɔ̄} p P r R s S t T w W y Y z Z"
+  marks: "◌̀ ◌́ ◌̄"
 }
 sample_text {
   masthead_full: "AaDd"

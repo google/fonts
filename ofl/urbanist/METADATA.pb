@@ -10,7 +10,7 @@ fonts {
   filename: "Urbanist[wght].ttf"
   post_script_name: "Urbanist-Regular"
   full_name: "Urbanist Regular"
-  copyright: "Copyright 2021 The Urbanist Project Authors (https://github.com/coreyhu/Urbanist)"
+  copyright: "Copyright 2024 The Urbanist Project Authors (https://github.com/coreyhu/Urbanist)"
 }
 fonts {
   name: "Urbanist"
@@ -19,15 +19,21 @@ fonts {
   filename: "Urbanist-Italic[wght].ttf"
   post_script_name: "Urbanist-Italic"
   full_name: "Urbanist Italic"
-  copyright: "Copyright 2021 The Urbanist Project Authors (https://github.com/coreyhu/Urbanist)"
+  copyright: "Copyright 2024 The Urbanist Project Authors (https://github.com/coreyhu/Urbanist)"
 }
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/coreyhu/Urbanist"
+  commit: "6996d75fa887c93075c82f4edfdf2788487765ec"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

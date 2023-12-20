@@ -30,6 +30,9 @@ fonts {
   full_name: "Amiko Bold"
   copyright: "Copyright (c) 2014, Impallari Type (www.impallari.com)."
 }
+source {
+  repository_url: "https://github.com/impallari/Amiko-Devanagari"
+}
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"

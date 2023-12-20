@@ -48,6 +48,9 @@ fonts {
   full_name: "Abhaya Libre ExtraBold"
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
+source {
+  repository_url: "https://github.com/mooniak/abhaya-libre-font"
+}
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

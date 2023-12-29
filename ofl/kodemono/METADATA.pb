@@ -23,5 +23,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/isaozler/kode-mono"
-  commit: "3bfbe0e5eb746c04a53571e65af786d186cd412e"
+  commit: "fa268cd0e3085b8139092648e2dc6946a2061633"
 }

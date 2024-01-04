@@ -4,6 +4,11 @@ script: "Latn"
 name: "Kituba"
 region: "CD"
 region: "CA"
+population: 12326000
+exemplar_chars {
+  base: "a A b B d D e E f F g G i I j J k K l L m M n N o O p P s S t T u U v V w W y Y z Z"
+  auxiliary: "c C h H q Q r R x X"
+}
 sample_text {
   masthead_full: "BbAa"
   masthead_partial: "Nn"

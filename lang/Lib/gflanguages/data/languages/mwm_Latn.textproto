@@ -1,0 +1,15 @@
+id: "mwm_Latn"
+language: "mwm"
+script: "Latn"
+name: "Sar"
+population: 500000
+region: "TD"
+exemplar_chars {
+  base: "a A á Á ā Ā {a̰} {A̰} {á̰} {Á̰} {ā̰} {Ā̰} b B ɓ Ɓ d D ɗ Ɗ e E é É ē Ē ḛ Ḛ {ḛ́} {Ḛ́} {ḛ̄} {Ḛ̄} ə Ə {ə́} {Ə́} {ə̄} {Ə̄} g G h H i I í Í ī Ī ḭ Ḭ {ḭ́} {Ḭ́} {ḭ̄} {Ḭ̄} ɨ Ɨ j J k K l L ĺ Ĺ m M ḿ Ḿ {m̄} {M̄} {mb} {MB} n N ń Ń {n̄} {N̄} {nd} {ND} {ng} {NG} {nj} {NJ} o O ó Ó ō Ō {o̰} {O̰} {ó̰} {Ó̰} {ō̰} {Ō̰} ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̄} {Ɔ̄} p P r R ŕ Ŕ {r̄} {R̄} s S t T u U ú Ú ū Ū ṵ Ṵ {ṵ́} {Ṵ́} {ṵ̄} {Ṵ̄} v V w W {w̄} {W̄} y Y ý Ý ȳ Ȳ"
+  auxiliary: "c C f F q Q ŗ Ŗ x X z Z"
+  marks: "◌̄ ◌̧ ◌̰"
+}
+note: "ŗ was used in Palayer 1992, Gotengaye & Keen 2016 uses it (represented by ᶉ likely because of comma below instead of cedilla shape in some fonts) but indicated young Sar do not distinguish it from r. OSSEC 2015 does not use it. ABT uses accented letters but not as many as dictionaries and doesn’t use ŗ."
+source: "Alliance Biblique du Tchad, Bibəl ta Sar̄, Alliance Biblique du Tchad, 2006, 2010"
+source: "Gotengaye Constant & John M. Keegan, Dictionnaire Sar, The Sara-Bagirmi Language Project, Cuenca: Morkeg Books, 2016"
+source: "OSSEC, Ta ra dora̰ kə donang (La cosmogonie sar), Organisation Sara pour la Science, l’Éducation et la Culture (OSSEC), 2015"

@@ -21,6 +21,9 @@ fonts {
   full_name: "Alegreya Italic"
   copyright: "Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)"
 }
+source {
+  repository_url: "https://github.com/huertatipografica/Alegreya"
+}
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"

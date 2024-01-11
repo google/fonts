@@ -1,0 +1,12 @@
+id: "ktz_Latn"
+language: "ktz"
+script: "Latn"
+name: "Juǀʼhoan"
+region: "NA"
+population: 4000
+exemplar_chars {
+  base: "a A à À á Á b B c C d D e E è È é É g G h H i I ì Ì í Í j J k K m M n N o O ò Ò ó Ó p P r R s S t T u U ù Ù ú Ú w W x X y Y z Z ǀ ǁ ǂ ǃ ʼ"
+  marks: "◌̀ ◌́"
+}
+source: "Patrick Dickens, “Juǀʼhoan orthography in practice”, South African Journal of African Languages, vol. 11, no. 3, 1991"
+source: "Patrick Dickens, A concise grammar of Ju|’hoan, with a Ju|’hoan-English glossary and a subject index, Cologne: Rüdiger Köppe. 2005"

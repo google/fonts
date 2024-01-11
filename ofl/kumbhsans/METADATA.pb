@@ -16,6 +16,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "YOPQ"
   min_value: 40.0
@@ -28,9 +29,9 @@ axes {
 }
 registry_default_overrides {
   key: "YOPQ"
-  value: 300
+  value: 300.0
 }
 source {
   repository_url: "https://github.com/xconsau/KumbhSans"
-  commit: "07b9138758d865763846adab4ee02a3c45a30daa"
+  commit: "b1c41a8ff0916a5421bd3976c361f1980c0e7cfc"
 }

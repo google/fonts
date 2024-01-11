@@ -8,6 +8,11 @@ region: "SN"
 region: "US"
 region: "NL"
 region: "PT"
+population: 541000
+exemplar_chars {
+  base: "a A b B {ch} {CH} d D {dj} {DJ} e E f F g G {gu} {GU} i I j J k K l L {li} {LI} m M n N {nh} {NH} {n’} {N’} o O p P r R s S t T {tch} {TCH} u U v V x X z Z"
+  auxiliary: "h H q Q w W y Y"
+}
 sample_text {
   masthead_full: "TtUu"
   masthead_partial: "Dd"
@@ -22,3 +27,4 @@ sample_text {
   specimen_21: "Tudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons.\nTudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons."
   specimen_16: "Tudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons.\nTudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons.\nTudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons.\nTudu pekaduris ta padidu libri i igual na balur suma na diritus. Suma e dadu kapasidadi di pensa, e tene tambi konsiensia, e dibi di trata ñutru suma ermons."
 }
+source: "Luigi Scantamburlo, Proposta de Grafia para o Crioulo Guineense, 1999"

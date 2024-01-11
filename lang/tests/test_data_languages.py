@@ -44,6 +44,8 @@ SKIP_EXEMPLARS = {
     "hur_Latn": "Does indeed use Greek glyphs while writing Latin",
     "kwk_Latn": "Does indeed use Greek glyphs while writing Latin",
     "thp_Latn": "Does indeed use Greek glyphs while writing Latin",
+    "dnj_Latn": "Does use future Unicode 16 Latin glyphs",
+    "gov_Latn": "Does use future Unicode 16 Latin glyphs",
 }
 
 SKIP_REGION = {
@@ -164,7 +166,7 @@ def test_exemplars_are_in_script(lang_code):
                 char_script = youseedee.ucd_data(ord(char)).get("Script")
                 if char_script == "Common" or char_script == "Inherited":
                     continue
-                if char_script != script_name:
+                if char_script is not None and char_script != script_name:
                     out_of_script[chars] = char_script
                     break
     assert not out_of_script, (

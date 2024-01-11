@@ -12,5 +12,13 @@ lang/languages/sa_Saur.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/sa_Takr.textproto # https://github.com/google/fonts/pull/6573
 lang/languages/sd_Khud.textproto # https://github.com/google/fonts/pull/6648
 lang/languages/zul_Latn.textproto # https://github.com/google/fonts/pull/6787
+lang/languages/adl_Latn.textproto # https://github.com/google/fonts/pull/6962
 
+# is replaced by ofl/amiriquran
 ofl/amiriqurancolored # https://github.com/google/fonts/pull/6659
+
+# will be replaced by https://fonts.google.com/noto/specimen/Noto+Sans+PhagsPa (no space)
+https://fonts.google.com/noto/specimen/Noto+Sans+Phags+Pa 
+
+# Apache license will be replaced by ofl
+apache/roboto # https://github.com/google/fonts/pull/6943

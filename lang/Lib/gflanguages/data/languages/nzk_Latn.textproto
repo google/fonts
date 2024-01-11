@@ -1,0 +1,13 @@
+id: "nzk_Latn"
+language: "nzk"
+script: "Latn"
+name: "Nzakara"
+population: 50000
+region: "CF"
+region: "CD"
+exemplar_chars {
+  base: "a A â Â ä Ä b B d D e E ê Ê ë Ë f F g G {gb} {GB} i I î Î ï Ï ɨ Ɨ {ɨ̂} {Ɨ̂} {ɨ̈} {Ɨ̈} k K {kp} {KP} l L m M {mb} {MB} {mv} {MV} n N {nd} {ND} {ng} {NG} {ngb} {NGB} {ny} {NY} {nz} {NZ} o O ô Ô ö Ö p P s S t T u U û Û ü Ü ʉ Ʉ {ʉ̂} {Ʉ̂} {ʉ̈} {Ʉ̈} v V w W y Y z Z"
+  marks: "◌̂ ◌̈"
+  auxiliary: "c C h H j J q Q r R x X"
+}
+source: "Association centrafricaine pour la traduction de la Bible et l’alphabétisation (ACATBA), La phonologie et l’orthographe de la langue Nzakara, ACATBA, 2005"

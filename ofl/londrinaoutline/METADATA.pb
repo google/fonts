@@ -14,5 +14,8 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/marcelommp/Londrina-Typeface"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -51,3 +51,4 @@ source {
   repository_url: "https://github.com/googlefonts/roboto-serif"
   archive_url: "https://github.com/googlefonts/roboto-serif/releases/download/v1.008/RobotoSerifFonts-v1.008.zip"
 }
+minisite_url: "https://fonts.withgoogle.com/roboto-serif"

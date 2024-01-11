@@ -28,3 +28,4 @@ source {
   commit: "0de440c9453a4f2f971d89506df4ed1ba9124cb4"
 }
 stroke: "SANS_SERIF"
+minisite_url: "https://www.type-together.com/making-playpen-sans"

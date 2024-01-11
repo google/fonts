@@ -14,5 +14,8 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/notable"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -33,3 +33,4 @@ axes {
 source {
   repository_url: "https://github.com/rsms/inter"
 }
+minisite_url: "https://rsms.me/inter/"

@@ -12,5 +12,8 @@ fonts {
   full_name: "Amethysta Regular"
   copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Amethysta\".  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
+source {
+  repository_url: "https://github.com/cyrealtype/Amethysta"
+}
 subsets: "latin"
 subsets: "menu"

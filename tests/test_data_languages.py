@@ -184,7 +184,8 @@ def test_exemplars_are_in_script(lang_code):
                 char_script = youseedee.ucd_data(ord(char)).get("Script")
                 if char_script == "Common" or char_script == "Inherited":
                     continue
-                if char_script is not None and char_script != script_name:
+                char_script = char_script.replace("_", " ")
+                if char_script != script_name:
                     out_of_script[chars] = char_script
                     break
     assert not out_of_script, (

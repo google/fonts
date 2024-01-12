@@ -18,5 +18,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/impallari/The-Lobster-Font"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

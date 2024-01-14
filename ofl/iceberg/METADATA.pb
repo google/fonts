@@ -14,5 +14,8 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/cyrealtype/Iceberg"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

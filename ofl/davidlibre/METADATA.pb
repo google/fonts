@@ -35,4 +35,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/meirsadan/david-libre"
+}
 primary_script: "Hebr"

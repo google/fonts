@@ -17,5 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/itim"
+}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

@@ -34,4 +34,6 @@ axes {
   min_value: 400.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/octaviopardo/EBGaramond12"
 minisite_url: "https://googlefonts.github.io/ebgaramond-specimen/"

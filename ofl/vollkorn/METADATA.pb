@@ -33,3 +33,4 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
+minisite_url: "http://vollkorn-typeface.com/"

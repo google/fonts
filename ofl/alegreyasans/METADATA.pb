@@ -140,3 +140,5 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/huertatipografica/Alegreya-Sans"
 }
+minisite_url: "https://huertatipografica.com/en/fonts/alegreya-sans-ht"
+

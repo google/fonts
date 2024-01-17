@@ -1,5 +1,5 @@
 name: "Advent Pro"
-designer: "Andreas Kalpakidis"
+designer: "VivaRado"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2012-02-29"

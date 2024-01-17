@@ -34,3 +34,4 @@ source {
   repository_url: "https://github.com/uswds/public-sans"
   commit: "c7923167a592d941646f99fb7b5fba17aa7d69e1"
 }
+minisite_url: "https://public-sans.digital.gov/"

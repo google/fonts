@@ -5,6 +5,9 @@ name: "Japanese, Hiragana"
 autonym: "日本語"
 region: "BR"
 region: "JP"
+exemplar_chars {
+  base: "あ い う え お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ わ を ん"
+}
 sample_text {
   masthead_full: "すべて の"
   masthead_partial: "にんげん"

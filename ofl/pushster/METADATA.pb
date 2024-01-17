@@ -15,8 +15,11 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-languages: "en_Latn"
-languages: "eo_Latn"
+source {
+  repository_url: "https://github.com/impallari/The-Lobster-Font"
+}
+languages: "en_Latn"  # English
+languages: "eo_Latn"  # Esperanto
 minisite_url: "https://fonts.google.com/icons"
 primary_script: "Thai"
 primary_language: "en_Latn"

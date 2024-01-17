@@ -1,0 +1,27 @@
+# Check font tagging spreadsheet is correctly structured
+name: Font tagging structure
+
+on:
+  push:
+    paths:
+    - 'tags/all/families.csv'
+  pull_request:
+    paths:
+    - 'tags/all/families.csv'
+
+jobs:
+  test_server_files:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    # Check font tags data is correct
+    - name: Install gftools
+      run: pip install gftools[qa]
+    - name: Test font tagging spreadsheet
+      run: |
+        gftools font-tags lint .

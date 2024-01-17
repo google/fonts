@@ -33,3 +33,4 @@ source {
   repository_url: "https://github.com/erikdkennedy/figtree"
   commit: "efdedb2a9337b5baa897771e91ac9203f99e2084"
 }
+minisite_url: "https://www.erikdkennedy.com/projects/figtree.html"

@@ -13,6 +13,6 @@ Generally speaking, “licensing type” or “licensing fonts” refers to the 
 
 Most licenses are written by lawyers for other lawyers to read, and often there is an accompanying “Frequently Asked Questions” (FAQ) document intended to clarify the meaning of the license. Type foundries are often quick to respond if you contact them to clarify your particular use-cases, for both retail and open source licenses.
 
-The majority of open source fonts use the [SIL Open Font License](https://scripts.sil.org/ofl), which is written for a more general audience to read and understand, and also has an [extensive FAQ](https://scripts.sil.org/OFL-FAQ_web). 
+The majority of open source fonts use the [SIL Open Font License](https://openfontlicense.org), which is written for a more general audience to read and understand, and also has an [extensive FAQ](https://openfontlicense.org/ofl-faq). 
 
 This isn't legal advice, and if you do need legal advice please consider consulting a lawyer and always refer to the full license text for all details.

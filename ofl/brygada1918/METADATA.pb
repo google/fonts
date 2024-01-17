@@ -33,3 +33,4 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+minisite_url: "https://brygada1918.eu/"

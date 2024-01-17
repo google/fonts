@@ -21,6 +21,9 @@ fonts {
   full_name: "Raleway Thin Italic"
   copyright: "Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name \"Raleway\"."
 }
+source {
+  repository_url: "https://github.com/theleagueof/raleway"
+}
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "latin"

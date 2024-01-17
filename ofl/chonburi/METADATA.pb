@@ -17,5 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "thai"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/cadsondemak/chonburi"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

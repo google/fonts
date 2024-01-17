@@ -1,0 +1,11 @@
+id: "goa_Latn"
+language: "goa"
+script: "Latn"
+name: "Guro"
+population: 700000
+region: "CI"
+exemplar_chars {
+  base: "a A á Á à À â Â ǎ Ǎ {an} {AN} b B {bh} {BH} c C d D e E é É è È ê Ê ě Ě ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} {ɛ̂} {Ɛ̂} {ɛ̌} {Ɛ̌} {ɛn} {ƐN} f F g G i I í Í ì Ì î Î ǐ Ǐ {in} {IN} ɩ Ɩ {ɩ́} {Ɩ́} {ɩ̀} {Ɩ̀} {ɩ̂} {Ɩ̂} {ɩ̌} {Ɩ̌} j J k K {kp} {KP} l L m M n N {nw} {NW} {ny} {NY} o O ó Ó ò Ò ô Ô ǒ Ǒ ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} {ɔ̂} {Ɔ̂} {ɔ̌} {Ɔ̌} {ɔn} {ƆN} p P s S t T u U ú Ú ù Ù û Û ǔ Ǔ {un} {UN} ʋ Ʋ {ʋ́} {Ʋ́} {ʋ̀} {Ʋ̀} {ʋ̂} {Ʋ̂} {ʋ̌} {Ʋ̌} w W y Y z Z"
+  marks: "◌́ ◌̀ ◌̂ ◌̌"
+}
+source: "Natalie Kuznetsova & Olga Kuznetsova, “Dictionnaire gouro-français”, Mandenkan, no. 66, 2021, pp. 3-186"

@@ -12,5 +12,8 @@ fonts {
   full_name: "Adamina Regular"
   copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \'Adamina\'"
 }
+source {
+  repository_url: "github.com/cyrealtype/Adamina"
+}
 subsets: "latin"
 subsets: "menu"

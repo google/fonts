@@ -31,3 +31,4 @@ source {
 minisite_url: "https://kampanjat.hs.fi/climatefont/index.html"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+minisite_url: "https://kampanjat.hs.fi/climatefont/"

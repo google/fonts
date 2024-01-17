@@ -32,3 +32,4 @@ axes {
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
+minisite_url: "https://etceteratype.co/grandstander"

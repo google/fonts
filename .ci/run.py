@@ -100,6 +100,12 @@ def main():
 
     for directory, check_type in directory_check_types(args.branch):
         out = os.path.join("out", os.path.basename(directory))
+        fontbakery = ["--fontbakery"]
+        fbconfig = os.path.join(directory, "fontbakery.yml")
+        if os.path.exists(fbconfig):
+            fontbakery += ["--extra-fontbakery-args=--configuration",
+                           f"--extra-fontbakery-args={fbconfig}"]
+
         fonts = glob(os.path.join(directory, "*.ttf"))
 
         qa_cmd_prefix = ["gftools", "qa", "-f"] + fonts + ["-o", out]
@@ -123,15 +129,15 @@ def main():
 
         elif check_type == CheckType.NEW_FAMILY:
             print(f"Checking new family: {directory}")
-            subprocess.run(qa_cmd_prefix + ["--fontbakery", "--interpolations"])
+            subprocess.run(qa_cmd_prefix + fontbakery + ["--interpolations"])
 
         elif check_type == CheckType.MODIFIED_FAMILY:
             print(f"Checking modified family: {directory}")
-            subprocess.run(qa_cmd_prefix + ["-gfb", "--fontbakery", "--diffenator", "--interpolations"])
+            subprocess.run(qa_cmd_prefix + ["-gfb"] + fontbakery + ["--diffenator", "--interpolations"])
 
         elif check_type == CheckType.MODIFIED_FAMILY_METADATA:
             print(f"Checking modified family metadata: {directory}")
-            subprocess.run(qa_cmd_prefix + ["--fontbakery", "-o", out])
+            subprocess.run(qa_cmd_prefix + fontbakery + ["-o", out])
 
         elif check_type == CheckType.DESIGNER:
             print(f"Checking designer profile: {directory}")

@@ -1,0 +1,7 @@
+exclude_checks:
+    - com.google.fonts/check/soft_dotted
+    - com.google.fonts/check/glyphsets/shape_languages
+
+overrides:
+    com.google.fonts/check/outline_jaggy_segments:
+        found-jaggy-segments: INFO

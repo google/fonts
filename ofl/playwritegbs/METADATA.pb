@@ -1,0 +1,38 @@
+name: "Playwrite GB S"
+designer: "Veronika Burian, José Scaglione"
+license: "OFL"
+category: "HANDWRITING"
+date_added: "2024-01-18"
+fonts {
+  name: "Playwrite GB S"
+  style: "normal"
+  weight: 400
+  filename: "PlaywriteGBS[wght].ttf"
+  post_script_name: "PlaywriteGBS-Regular"
+  full_name: "Playwrite GB S Regular"
+  copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
+}
+fonts {
+  name: "Playwrite GB S"
+  style: "italic"
+  weight: 400
+  filename: "PlaywriteGBS-Italic[wght].ttf"
+  post_script_name: "PlaywriteGBS-Italic"
+  full_name: "Playwrite GB S Italic"
+  copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
+}
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "math"
+subsets: "menu"
+subsets: "symbols"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 400.0
+}
+source {
+  repository_url: "https://github.com/TypeTogether/Playwrite/"
+  commit: "7f0e083357d763db855e665a5d4e58c002b61943"
+}

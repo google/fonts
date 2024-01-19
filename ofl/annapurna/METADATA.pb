@@ -1,10 +1,10 @@
-name: "Annapurna"
+name: "Annapurna SIL"
 designer: "SIL International"
 license: "OFL"
 category: "SERIF"
 date_added: "2024-01-03"
 fonts {
-  name: "Annapurna"
+  name: "Annapurna SIL"
   style: "normal"
   weight: 400
   filename: "AnnapurnaSIL-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright (c) 2007-2023 by SIL International"
 }
 fonts {
-  name: "Annapurna"
+  name: "Annapurna SIL"
   style: "normal"
   weight: 700
   filename: "AnnapurnaSIL-Bold.ttf"

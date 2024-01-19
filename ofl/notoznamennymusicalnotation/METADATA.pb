@@ -22,3 +22,12 @@ source {
   archive_url: "https://github.com/notofonts/znamenny/releases/download/NotoZnamennyMusicalNotation-v1.003/NotoZnamennyMusicalNotation-v1.003.zip"
 }
 is_noto: true
+sample_text {
+  masthead_full: "𜽐𜽑"
+  masthead_partial: "𜽒"
+  styles: "𜿁𜾒 𜼰𜼇 𜾓𜼱𜼳𜼇𜼣 𜾢𜼄𜼤"
+  tester: "𜿁𜾒 𜼰𜼇 𜾓𜼱𜼳𜼇𜼣 𜾢𜼄𜼤"
+  poster_sm: "𜽜𜼽 𜽱 𜽲𜼆 𜽳 𜽯𜼼𜼅 𜾒𜼰𜼻𜼅𜼢𜼪"
+  poster_md: "𜾔𜼰𜼺𜼆 𜾒𜼱𜼻𜼇𜼤"
+  poster_lg: "𜾒𜼱𜼻𜼇𜼤"
+}

@@ -17,6 +17,7 @@ subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
 subsets: "symbols"
+subsets: "znamenny"
 source {
   repository_url: "https://github.com/notofonts/znamenny.git"
   archive_url: "https://github.com/notofonts/znamenny/releases/download/NotoZnamennyMusicalNotation-v1.003/NotoZnamennyMusicalNotation-v1.003.zip"

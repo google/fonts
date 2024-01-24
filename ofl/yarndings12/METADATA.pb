@@ -13,7 +13,6 @@ fonts {
   copyright: "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)"
 }
 subsets: "latin"
-subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
 subsets: "symbols"

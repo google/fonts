@@ -1,0 +1,7 @@
+branch: main
+files:
+  LICENCE.txt: LICENSE.txt
+  fonts/variable/UbuntuSans[wdth,wght].ttf: UbuntuSans[wdth,wght].ttf
+  fonts/variable/UbuntuSans-Italic[wdth,wght].ttf: UbuntuSans-Italic[wdth,wght].ttf
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+archive:

@@ -12,6 +12,8 @@ fonts {
   full_name: "Yarndings 12 Regular"
   copyright: "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
 subsets: "symbols"
@@ -19,3 +21,5 @@ source {
   repository_url: "https://github.com/scfried/soft-type-yarndings"
   commit: "200cc40a30ffbe590807cdfc8b8e17d0d63c43ff"
 }
+classifications: "DISPLAY"
+classifications: "SYMBOLS"

@@ -15,3 +15,4 @@ fonts {
 subsets: "korean"
 subsets: "latin"
 subsets: "menu"
+primary_script: "Kore"

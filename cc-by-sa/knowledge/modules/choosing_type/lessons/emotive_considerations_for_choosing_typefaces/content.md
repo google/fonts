@@ -24,8 +24,6 @@ And it’s not just about trust. It’s important to remember that readers needn
 
 It’s our job as [typographers](/glossary/typographer)—as people who *do* know about type—to help guide our audience by invoking the most appropriate emotional response.
 
-For an interactive example, Adobe Fonts created a light-hearted game with type educator Sarah Hyndman to explore some of the traits associated with certain typefaces. You can play the game online at [game.fonts.adobe.com](https://game.fonts.adobe.com/).
-
 [//]: # (1st content drop: This would actually be a great place to get Sarah Hyndman to share on overview of her work in this area, which could be used as a key summary on emotive responses to type.)
 
 Although most readers are unlikely to have a detailed knowledge of typographic history, the shared cultural understanding they bring to type is frequently based on history: Type can often evoke a feeling from a certain era, from [blackletter](/glossary/blackletter) type that depicts medieval contexts, to curvacious, bell-bottomed display faces that instantly conjure the feel of the 1970s.

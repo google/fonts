@@ -25,3 +25,5 @@ source {
   repository_url: "https://github.com/isaozler/kode-mono"
   commit: "593a07e443531d8cdf2c62fb3ee4b44b42c3da1e"
 }
+classification: "MONOSPACE"
+stroke: "SANS_SERIF"

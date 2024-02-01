@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/isaozler/kode-mono"
-  commit: "49be73d857b553851c288eaf2f849d5562476db2"
+  commit: "94d565d4b6164cee482c68ee706e51135d6691ad"
 }
 classification: "MONOSPACE"
 stroke: "SANS_SERIF"

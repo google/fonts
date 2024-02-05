@@ -213,9 +213,11 @@ def build_stat(ttFont, sibling_ttFonts=[]):
                     "name": fallback.name,
                     "value": fallback.value,
                     # include flags and linked values
-                    "flags": 0x2
-                    if fallback.value == axis_registry[axis].default_value
-                    else 0x0,
+                    "flags": (
+                        0x2
+                        if fallback.value == axis_registry[axis].default_value
+                        else 0x0
+                    ),
                 }
             )
             if axis in LINKED_VALUES and fallback.value in LINKED_VALUES[axis]:

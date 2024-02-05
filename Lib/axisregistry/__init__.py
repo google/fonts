@@ -150,14 +150,14 @@ def _fvar_dflts(ttFont):
     res = OrderedDict()
     for a in ttFont["fvar"].axes:
         fallback = axis_registry.fallback_for_value(a.axisTag, a.defaultValue)
-        if fallback:
+        if a.axisTag == "opsz":
+            name = f"{int(a.defaultValue)}pt"
+            elided = True
+        elif fallback:
             name = fallback.name
             elided = fallback.value == axis_registry[
                 a.axisTag
             ].default_value and name not in ["Regular", "Italic", "14pt"]
-        elif a.axisTag == "opsz":
-            name = f"{int(a.defaultValue)}pt"
-            elided = False
         else:
             name = None
             elided = True  # since we can't find a name for it, keep it elided

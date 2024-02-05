@@ -2,6 +2,7 @@
 Regenerate ttx dumps. Run this is the axis registry files in
 Lib/axisregistry/data/*.textproto have been updated.
 """
+
 from fontTools.ttLib import TTFont
 from fontTools.misc.testTools import getXML, parseXML
 from glob import glob

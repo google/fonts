@@ -28,7 +28,6 @@ source {
   repository_url: "https://github.com/dancoull/ClimateCrisis"
   commit: "e0398e2d7e84a9f08cf7ec67bb463e4e2bb35431"
 }
-minisite_url: "https://kampanjat.hs.fi/climatefont/index.html"
+minisite_url: "https://kampanjat.hs.fi/climatefont"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
-minisite_url: "https://kampanjat.hs.fi/climatefont/"

@@ -1,6 +1,6 @@
 name: "Roboto"
 designer: "Christian Robertson, Paratype, Font Bureau"
-license: "APACHE2"
+license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-01-09"
 fonts {
@@ -10,7 +10,7 @@ fonts {
   filename: "Roboto[wdth,wght].ttf"
   post_script_name: "Roboto-Regular"
   full_name: "Roboto Regular"
-  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)"
 }
 fonts {
   name: "Roboto"
@@ -19,7 +19,7 @@ fonts {
   filename: "Roboto-Italic[wdth,wght].ttf"
   post_script_name: "Roboto-Italic"
   full_name: "Roboto Italic"
-  copyright: "Copyright 2011 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -43,5 +43,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/roboto-classic"
-  archive_url: "https://github.com/googlefonts/roboto-classic/releases/download/v3.008/Roboto_v3.008.zip"
+  archive_url: "https://github.com/googlefonts/roboto-classic/releases/download/v3.009/Roboto_v3.009.zip"
 }

@@ -13,12 +13,21 @@ fonts {
   copyright: "Copyright 2019-2022 Google LLC. All Rights Reserved."
 }
 subsets: "arabic"
+subsets: "cyrillic-ext"
+subsets: "greek-ext"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/notofonts/arabic.git"
+  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoKufiArabic-v2.109/NotoKufiArabic-v2.109.zip"
 }
 is_noto: true
 languages: "aeb_Arab"  # Tunisian Arabic
@@ -87,7 +96,7 @@ languages: "shi_Arab"  # Tachelhit
 languages: "skr_Arab"  # Saraiki
 languages: "so_Arab"  # Somali, Arabic
 languages: "sus_Arab"  # Susu, Arabic
-languages: "swb_Arab"  # Comorian
+languages: "swb_Arab"  # Maore Comorian, Arabic
 languages: "tg_Arab"  # Tajik (Arabic)
 languages: "tk_Arab"  # Turkmen
 languages: "tly_Arab"  # Talysh

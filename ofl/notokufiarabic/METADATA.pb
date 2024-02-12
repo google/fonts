@@ -13,8 +13,6 @@ fonts {
   copyright: "Copyright 2019-2022 Google LLC. All Rights Reserved."
 }
 subsets: "arabic"
-subsets: "cyrillic-ext"
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"

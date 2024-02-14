@@ -15,10 +15,12 @@ fonts {
 subsets: "brahmi"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/brahmi.git"
-  archive_url: "https://github.com/notofonts/brahmi/releases/download/NotoSansBrahmi-v2.003/NotoSansBrahmi-v2.003.zip"
+  archive_url: "https://github.com/notofonts/brahmi/releases/download/NotoSansBrahmi-v2.004/NotoSansBrahmi-v2.004.zip"
 }
 is_noto: true
 languages: "aii_Brah"  # Assyrian Neo-Aramaic, Brahmi

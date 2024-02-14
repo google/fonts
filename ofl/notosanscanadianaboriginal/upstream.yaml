@@ -1,6 +1,7 @@
-archive: https://github.com/notofonts/canadian-aboriginal/releases/download/NotoSansCanadianAboriginal-v2.002/NotoSansCanadianAboriginal-v2.002.zip
+archive: https://github.com/notofonts/canadian-aboriginal/releases/download/NotoSansCanadianAboriginal-v2.004/NotoSansCanadianAboriginal-v2.004.zip
 branch: main
 files:
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   OFL.txt: OFL.txt
   DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-  NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf: NotoSansCanadianAboriginal[wght].ttf
+  NotoSansCanadianAboriginal/googlefonts/variable/NotoSansCanadianAboriginal[wght].ttf: NotoSansCanadianAboriginal[wght].ttf

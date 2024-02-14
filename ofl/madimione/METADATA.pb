@@ -12,8 +12,6 @@ fonts {
   full_name: "Madimi One Regular"
   copyright: "Copyright 2024 The Madimi One Project Authors (https://github.com/TaVaTake/madimi)"
 }
-subsets: "cyrillic-ext"
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"

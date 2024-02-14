@@ -12,8 +12,6 @@ fonts {
   full_name: "Ojuju ExtraLight"
   copyright: "Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)"
 }
-subsets: "cyrillic-ext"
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"

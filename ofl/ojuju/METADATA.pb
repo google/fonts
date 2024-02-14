@@ -1,5 +1,5 @@
 name: "Ojuju"
-designer: "Chisaokwu Joboson, Mirko Velimirovic"
+designer: "Ụdị Foundry, Chisaokwu Joboson, Mirko Velimirović"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-02-14"

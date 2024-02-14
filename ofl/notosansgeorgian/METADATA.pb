@@ -12,10 +12,14 @@ fonts {
   full_name: "Noto Sans Georgian Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/georgian)"
 }
+subsets: "cyrillic-ext"
 subsets: "georgian"
+subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wdth"
   min_value: 62.5
@@ -28,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/georgian.git"
-  archive_url: "https://github.com/notofonts/georgian/releases/download/NotoSansGeorgian-v2.002/NotoSansGeorgian-v2.002.zip"
+  archive_url: "https://github.com/notofonts/georgian/releases/download/NotoSansGeorgian-v2.005/NotoSansGeorgian-v2.005.zip"
 }
 is_noto: true
 languages: "ka_Geor"  # Georgian

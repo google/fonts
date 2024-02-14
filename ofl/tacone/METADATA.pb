@@ -12,8 +12,6 @@ fonts {
   full_name: "Tac One Regular"
   copyright: "Copyright 2024 The Tac One Project Authors (https://github.com/Afrotype/tac)"
 }
-subsets: "cyrillic-ext"
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"

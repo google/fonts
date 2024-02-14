@@ -84,7 +84,7 @@ jobs:
         # and benefit from its newest checks:
         run: |
           pip install --upgrade pip
-          pip install --pre fontbakery[googlefonts] glyphsets==0.6.11
+          pip install --pre fontbakery[googlefonts]
           pip install gftools[qa] pytest
         shell: bash
 

@@ -38,4 +38,4 @@ jobs:
     - name: Install dependencies
       run: pip install absl-py mistune gftools
     - name: Check Knowledge graph
-      run: python3 .github/workflows/knowledge_graph.py
+      run: python3 .github/workflows/knowledge_graph.py --check_outbound_links

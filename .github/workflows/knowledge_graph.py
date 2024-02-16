@@ -68,6 +68,7 @@ FLAGS = flags.FLAGS
 
 
 flags.DEFINE_bool("print_valid", False, "Whether to print valid links")
+flags.DEFINE_bool("check_outbound_links", False, "Check outbound urls")
 
 
 MdValue = Union[Mapping[str, "MdValue"]]
@@ -222,7 +223,8 @@ def _check_md_files(knowledge: KnowledgeContent) -> bool:
             if not target:
                 continue  # TODO: are empty links bad
             if re.search("^http(s)?://", target.lower()):
-                result = _check_outbound_link(target) and result
+                if FLAGS.check_outbound_links:
+                    result = _check_outbound_link(target) and result
             else:
                 target_path = knowledge.link_target_to_path(target)
                 result = _check_file_present(knowledge.repo_root, md_file, target, target_path) and result

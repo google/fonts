@@ -10,6 +10,8 @@ from pathlib import Path
 import re
 import sys
 from typing import Callable, Iterable, List, Mapping, NamedTuple, Optional, Tuple, Set, Union
+import requests
+from functools import lru_cache
 
 
 MAX_RASTER_IMAGE_SIZE_KB = 800
@@ -185,21 +187,45 @@ def _check_md_file_contents(repo_root: Path, md_file: Path, ast: List[MdValue]) 
     return True
 
 
+@lru_cache()
+def _check_outbound_link(url: str):
+    # Following urls work correctly on a web browser but 404 when using python requests
+    whitelist = frozenset(["https://www.jessicahische.is/talkingtype"])
+    if url in whitelist:
+        return True
+
+    try:
+        url_status_code = requests.get(url).status_code
+    except requests.exceptions.SSLError:
+        print(f"INVALID SSL '{url}'")
+        # The url does exist but the cert is expired. I'm going to claim this is ok.
+        return True
+    if url_status_code == 404:
+        print(f"INVALID url '{url}' returned response status code '{url_status_code}'")
+        return False
+    return True
+
+
 def _check_md_files(knowledge: KnowledgeContent) -> bool:
     result = True
     for md_file in knowledge.md_files:
         ast = _markdown_ast(md_file)
         result = _check_md_file_contents(knowledge.repo_root, md_file, ast) and result
         for link in _ast_iter(ast, lambda v: v.get("type", None) == "link"):
-            target = link.get("link", "")
+            target = link["attrs"]["url"]
+            # mistune cannot parse urls that end with a closing parenthesis,
+            # https://github.com/lepture/mistune/issues/355
+            # A possible fix is to do some regex acrobatics in:
+            # https://github.com/lepture/mistune/blob/master/src/mistune/helpers.py#L12-L18,
+            if "(" in target:
+                target += ")"
             if not target:
                 continue  # TODO: are empty links bad
             if re.search("^http(s)?://", target.lower()):
-                continue  # we aren't in the business of validating outbound links
-
-            target_path = knowledge.link_target_to_path(target)
-            result = _check_file_present(knowledge.repo_root, md_file, target, target_path) and result
-
+                result = _check_outbound_link(target) and result
+            else:
+                target_path = knowledge.link_target_to_path(target)
+                result = _check_file_present(knowledge.repo_root, md_file, target, target_path) and result
     return result
 
 

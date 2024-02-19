@@ -321,6 +321,37 @@ def test_name_table(fp, family_name, style_name, siblings, expected):
     _test_names(font, expected)
 
 
+def test_name_table_aggression():
+    font = TTFont(mavenpro_fp)
+    build_name_table(font, "Raven Am", "Regular", aggressive=True)
+    _test_names(
+        font,
+        {
+            (
+                0,
+                3,
+                1,
+                0x409,
+            ): 'Copyright 2011 The Raven Am Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name "Raven Am".',
+            (4, 3, 1, 0x409): "Raven Am Regular",
+        },
+    )
+    font = TTFont(mavenpro_fp)
+    build_name_table(font, "Raven Am", "Regular", aggressive=False)
+    _test_names(
+        font,
+        {
+            (
+                0,
+                3,
+                1,
+                0x409,
+            ): 'Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name "Maven Pro".',
+            (4, 3, 1, 0x409): "Raven Am Regular",
+        },
+    )
+
+
 @pytest.mark.parametrize(
     "font_fp, dflt_coords, expected",
     [

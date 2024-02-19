@@ -192,18 +192,18 @@ def _check_md_file_contents(repo_root: Path, md_file: Path, ast: List[MdValue]) 
 def _check_outbound_link(url: str):
     # Following urls work correctly on a web browser but 404 when using python requests
     whitelist = frozenset(["https://www.jessicahische.is/talkingtype"])
-    if url in whitelist:
+    # Following urls will be fixed at a later date. If the CI is failing and a suitable
+    # replacement url cannot be found, please add them to this set.
+    to_fix = frozenset()
+    if url in whitelist | to_fix:
         return True
 
-    try:
-        url_status_code = requests.get(url).status_code
-    except requests.exceptions.SSLError:
-        print(f"INVALID SSL '{url}'")
-        # The url does exist but the cert is expired. I'm going to claim this is ok.
-        return True
-    if url_status_code == 404:
-        print(f"INVALID url '{url}' returned response status code '{url_status_code}'")
+    response = requests.get(url, allow_redirects=True)
+    if response.status_code == 404:
+        print(f"INVALID url '{url}' returned response status code '{response.status_code}'")
         return False
+    elif response.status_code == 495:
+        print(f"INVALID SSL '{url}'")
     return True
 
 

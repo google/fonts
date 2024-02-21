@@ -21,7 +21,7 @@ subsets: "menu"
 subsets: "symbols"
 subsets: "vietnamese"
 source {
-  repository_url: "https://github.com/Black-sage/Pacifico"
+  repository_url: "https://github.com/googlefonts/Pacifico"
   commit: "5274c9289ddd16381a671cf6805f7e5c0f9ac4ae"
 }
 stroke:"SANS_SERIF"

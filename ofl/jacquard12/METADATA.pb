@@ -12,8 +12,6 @@ fonts {
   full_name: "Jacquard 12 Regular"
   copyright: "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-jacquard)"
 }
-subsets: "cyrillic-ext"
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"

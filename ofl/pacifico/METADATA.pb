@@ -1,5 +1,5 @@
 name: "Pacifico"
-designer: "Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova, Raphael Alegbeleye"
+designer: "Vernon Adams, Jacques Le Bailly, Raphael Alẹ́gbẹ́lẹ́yẹ̀, Botjo Nikoltchev, Ani Petrova"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-03-09"

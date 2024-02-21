@@ -1,0 +1,17 @@
+id: "pid_Latn"
+language: "pid"
+script: "Latn"
+name: "Piaroa"
+preferred_name: "Piaroa"
+population: 13770
+region: "CO"
+region: "VE"
+exemplar_chars {
+  base: "a A {a̧} {A̧} ä Ä {ä̧} {Ä̧} b B c C {ch} {CH} {’ch} {’CH} {cu} {CU} {’cu} {’CU} d D e E ȩ Ȩ {hu} {HU} i I {i̧} {I̧} j J {ju} {JU} m M n N o O {o̧} {O̧} ö Ö {ö̧} {Ö̧} p P {pp} {PP} {’p} {’P} {qu} {QU} {’qu} {’QU} r R s S t T {tt} {TT} {’t} {’T} u U {u̧} {U̧} ü Ü {ü̧} {Ü̧} y Y ’"
+  marks: "◌̈ ◌̧ ◌̃"
+  auxiliary: "ñ Ñ ʼ"
+}
+source: "Germán Nicolás Freire & Stanford Rhode Zent, “Los Piaroa ((Huǫttü̧ją/De’aruhua)”, in Germán Nicolás Freire & Aimé Tillett, Salud Indígena en Venezuela, vol. 1, GEA, 2007, p. 133-208"
+source: "Esteban Emilio Mosonyi, “Elementos de gramática piaroa: algunas consideraciones sobre sus clases nominales”, Boletín de Lingüística, vol. 18, 2002, p. 71-103"
+source: "Piaroa keyboard 1.2.0, Keyman, 2023"
+note: "Some documents use both ö ü and ö̧ or ü̧, for example in Huǫttö̧ją or Huǫttü̧ją. Freire & Zent 2007 uses ü, not ö.\nMosonyi 2002 proposed jw kj kw ’kw pj tj and not cu ’cu hu ju pp qu ’qu tt."

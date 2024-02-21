@@ -52,3 +52,6 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "sinhala"
+source {
+  repository_url: "https://github.com/itfoundry/hind-colombo"
+}

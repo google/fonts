@@ -101,7 +101,7 @@ It’s entirely possible for a typeface to be suitable for a project—especiall
 
 ![A montage of Regular, Italic, Bold, and Bold Italic  weights and styles.](images/a_checklist_for_choosing_type_6.svg)
 
-<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Source+Serif+Pro">Source Serif Pro</a></figcaption>
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Source+Serif+4">Source Serif 4</a></figcaption>
 
 </figure>
 

@@ -62,5 +62,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/kemie/Bellota-Font"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -52,3 +52,6 @@ subsets: "menu"
 subsets: "kannada"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/itfoundry/hind-mysuru"
+}

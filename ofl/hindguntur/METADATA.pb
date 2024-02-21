@@ -52,3 +52,6 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/itfoundry/hind-guntur"
+}

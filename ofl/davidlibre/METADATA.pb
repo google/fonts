@@ -30,8 +30,6 @@ fonts {
   full_name: "David Libre Bold"
   copyright: "Copyright 2016 The David Libre Project Authors (https://github.com/meirsadan/david-libre), with reserved font name \"Hadash\", \"Gentium\" and \'SIL\'."
 }
-subsets: "cyrillic-ext"
-subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"

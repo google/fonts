@@ -1,5 +1,5 @@
 name: "Pacifico"
-designer: "Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova"
+designer: "Vernon Adams, Jacques Le Bailly, Raphael Alẹ́gbẹ́lẹ́yẹ̀, Botjo Nikoltchev, Ani Petrova"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-03-09"
@@ -20,4 +20,5 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/Pacifico"
+  commit: "423e7cb2b036ead2624c05197e17a83ddf5c6068"
 }

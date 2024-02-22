@@ -20,7 +20,7 @@ subsets: "symbols"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/Afrotype/tac"
-  commit: "ca41d1c7f58548d370dee9aa3c2c4d92c7be3ff6"
+  commit: "5e8ff11215e3c3abfaffb94557c623a3ce5a5a07"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -10,7 +10,7 @@ fonts {
   filename: "BodoniModa[opsz,wght].ttf"
   post_script_name: "BodoniModa-Regular"
   full_name: "Bodoni Moda Regular"
-  copyright: "Copyright 2020 The Bodoni Moda Project Authors (https://github.com/indestructible-type)"
+  copyright: "Copyright 2020 The Bodoni Moda Project Authors (https://github.com/indestructible-type/Bodoni)"
 }
 fonts {
   name: "Bodoni Moda"
@@ -19,11 +19,13 @@ fonts {
   filename: "BodoniModa-Italic[opsz,wght].ttf"
   post_script_name: "BodoniModa-Italic"
   full_name: "Bodoni Moda Italic"
-  copyright: "Copyright 2020 The Bodoni Moda Project Authors (https://github.com/indestructible-type)"
+  copyright: "Copyright 2020 The Bodoni Moda Project Authors (https://github.com/indestructible-type/Bodoni)"
 }
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "opsz"
   min_value: 6.0
@@ -38,3 +40,8 @@ registry_default_overrides {
   key: "opsz"
   value: 11.0
 }
+source {
+  repository_url: "https://github.com/indestructible-type/Bodoni"
+  commit: "30ce6cdc354ef179a3b72ba0f0e71826e599348c"
+}
+stroke:"SERIF"

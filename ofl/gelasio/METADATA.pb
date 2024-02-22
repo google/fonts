@@ -21,8 +21,6 @@ fonts {
   full_name: "Gelasio Italic"
   copyright: "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)"
 }
-subsets: "cyrillic-ext"
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

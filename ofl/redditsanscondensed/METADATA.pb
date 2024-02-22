@@ -12,7 +12,6 @@ fonts {
   full_name: "Reddit Sans Condensed Regular"
   copyright: "Copyright (c) 2020-2023, Reddit, Inc. (https://github.com/reddit/redditsans)"
 }
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

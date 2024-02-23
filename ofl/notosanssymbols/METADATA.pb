@@ -26,3 +26,5 @@ source {
   archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols-v2.003/NotoSansSymbols-v2.003.zip"
 }
 is_noto: true
+stroke: "SANS_SERIF"
+classifications: "SYMBOLS"

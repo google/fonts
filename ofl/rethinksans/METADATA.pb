@@ -1,5 +1,5 @@
 name: "Rethink Sans"
-designer: "Hans Thiessen, Colophon Foundry, Jonny Pinhorn"
+designer: "Hans Thiessen"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2023-09-06"

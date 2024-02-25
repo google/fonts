@@ -9,13 +9,13 @@ Subdirectories are named according to the family name of the fonts within.
 
 Each family subdirectory contains the `.ttf` font files served by Google Fonts, plus a `METADATA.pb` file with metadata for the family (such as information on the project designer(s), genre category, and license - [learn more](https://github.com/googlefonts/gf-docs/tree/master/METADATA)) and a `DESCRIPTION.en_us.html` with a description of the family in US English.
 
-The `/catalog` subdirectory contains additional metadata, such as profile texts and portrait/avatar images of font designers, and this is open for contributions and corrections from anyone via Github.
+The `/catalog` subdirectory contains additional metadata, such as profile texts and portrait/avatar images of font designers, and this is open for contributions and corrections from anyone via GitHub.
 
 The `/axisregistry` subtree contains metadata for the GF Axis Registry, containing information on variable font axes that can be found in the collection, including experimental axes.
 As a subtree, no changes should be made directly to this repo, instead please use the upstream, [github.com/googlefonts/axisregistry](http://github.com/googlefonts/axisregistry)
 
 The `/lang` subtree contains language support data, and should also not be changed here but instead upstream.
-[github.com/googlefonts/lang](https://github.com/googlefonts/lang)
+[.com/googlefonts/lang](https://.com/googlefonts/lang)
 
 ## Bug Reports and Improvement Requests
 
@@ -45,7 +45,7 @@ You can download all Google Fonts in a simple ZIP snapshot (over 1GB) from <http
 
 #### Sync With Git
 
-You can also sync the collection with git so that you can update by only fetching what has changed. To learn how to use git, Github provides [illustrated guides](https://guides.github.com), a [youtube channel](https://www.youtube.com/user/GitHubGuides), and an [interactive learning site](https://skills.github.com/).
+You can also sync the collection with git so that you can update by only fetching what has changed. To learn how to use git, GitHub provides [illustrated guides](https://guides.github.com), a [youtube channel](https://www.youtube.com/user/GitHubGuides), and an [interactive learning site](https://skills.github.com/).
 Free, open-source git applications are available for [Windows](https://git-scm.com/download/gui/windows) and [Mac OS X](https://git-scm.com/download/gui/mac).
 
 ## License

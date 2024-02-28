@@ -25,3 +25,4 @@ source {
   repository_url: "https://github.com/fontef/frankruhllibre"
   commit: "2372d1998e51dc011f86554c0d23f1ccf44afddf"
 }
+stroke: "SERIF"

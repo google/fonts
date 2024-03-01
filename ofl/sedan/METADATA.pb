@@ -21,6 +21,7 @@ fonts {
   full_name: "Sedan Italic"
   copyright: "Copyright 2023 The Sedan Project Authors (https://github.com/googlefonts/sedan)"
 }
+subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {

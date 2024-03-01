@@ -19,3 +19,5 @@ source {
   repository_url: "https://github.com/scfried/soft-type-jersey"
   commit: "1e98ec50907b66062a3da4b8aaf63bb37b2542f2"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

@@ -1,5 +1,5 @@
 name: "Sedan SC"
-designer: "Sebastian Salazar"
+designer: "Sebastián Salazar"
 license: "OFL"
 category: "SERIF"
 date_added: "2012-10-31"
@@ -9,11 +9,15 @@ fonts {
   weight: 400
   filename: "SedanSC-Regular.ttf"
   post_script_name: "SedanSC-Regular"
-  full_name: "Sedan SC"
-  copyright: "Copyright (c) 2012, Sebastian Salazar (sebotas26@hotmail.com), with Reserved Font Name \'Sedan\'"
+  full_name: "Sedan SC Regular"
+  copyright: "Copyright 2023 The Sedan SC Project Authors (https://github.com/googlefonts/sedan)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/sedan"
+  commit: "35a4019d7c2547b58177cff9a65b91e47dd79546"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

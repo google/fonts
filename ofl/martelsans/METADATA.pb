@@ -70,3 +70,7 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/typeoff/martel_sans"
+}
+primary_script: "Deva"

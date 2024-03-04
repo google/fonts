@@ -15,5 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/antonxheight/Lancelot"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

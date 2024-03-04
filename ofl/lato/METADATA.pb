@@ -173,6 +173,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/LatoGFVersion"
+}
 fallbacks {
   axis_target {
     tag: "wght"

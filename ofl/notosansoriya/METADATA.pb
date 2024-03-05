@@ -12,6 +12,8 @@ fonts {
   full_name: "Noto Sans Oriya Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/oriya)"
 }
+subsets: "cyrillic-ext"
+subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -28,7 +30,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/oriya.git"
-  archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSansOriya-v2.005/NotoSansOriya-v2.005.zip"
+  archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSansOriya-v2.006/NotoSansOriya-v2.006.zip"
 }
 is_noto: true
 languages: "khr_Orya"  # Kharia, Odia

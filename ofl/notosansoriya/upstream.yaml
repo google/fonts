@@ -1,7 +1,7 @@
-archive: https://github.com/notofonts/oriya/releases/download/NotoSansOriya-v2.005/NotoSansOriya-v2.005.zip
+archive: https://github.com/notofonts/oriya/releases/download/NotoSansOriya-v2.006/NotoSansOriya-v2.006.zip
 branch: main
 files:
-  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
-  OFL.txt: OFL.txt
   ARTICLE.en_us.html: article/ARTICLE.en_us.html
-  NotoSansOriya/googlefonts/variable-ttf/NotoSansOriya[wdth,wght].ttf: NotoSansOriya[wdth,wght].ttf
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  NotoSansOriya/googlefonts/variable/NotoSansOriya[wdth,wght].ttf: NotoSansOriya[wdth,wght].ttf

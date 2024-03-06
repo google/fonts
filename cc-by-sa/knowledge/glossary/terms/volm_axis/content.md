@@ -1,11 +1,11 @@
 
-PARA1_TBC
+“Volume” (VOLM in CSS) is an axis found in some variable fonts that can be used to exaggerate details of a typeface in order to emphasize its personality.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
 | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 |
+| 0 | 0 | 100 | 1 |
 
 <figure>
 
@@ -13,4 +13,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-PARA2_TBC
+<figcaption>The letter ‘h’ in the Commissioner typeface is shown twice, once with a minimum value of the Volume axis applied, and again with the maximum value applied.</figcaption>
+
+Changes along the Volume axis expand the surface area or volume of the letterforms, and typically interact with the effects of other axes. For example, in the Commissioner typeface, the Volume axis exaggerates the effects of the Flare (FLAR) axis, which controls stroke modulation.
+
+The number system of the axis is a percentage that starts from a neutral state at 0% and expands the volume to a maximum level of 100%.

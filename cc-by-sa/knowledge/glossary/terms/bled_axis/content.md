@@ -1,16 +1,18 @@
 
-“Bounce” (BNCE in CSS) is an axis found in some variable fonts that can be used to reposition letterforms vertically, away from the baseline, creating a more handwritten or organic style.
+“Bleed” (BLED in CSS) is an axis found in some variable fonts that can be used to adjust the text’s overall darkness or typographic color by altering its glyphs’ shapes such as strokes (or other forms). Because it’s only the individual shapes that are changed, there are no changes to the type’s overall width, letter spacing, or kerning. Therefore, manipulating this axis will not result in altered line breaks or page layout changes.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
 | --- | --- | --- | --- |
-| 0 | -100 | 100 | 1 |
+| 0 | 0 | 100 | 1 |
 
 <figure>
 
-![The letters ‘sha’ shown three times, with the central instance showing a default baseline position and the axis range shown below it at a default value of 50%, and then to the left with ‘s’ below the baseline and ‘a’ above, with the axis value shown decreased to 0%, and then to the right with ‘s’ above the baseline and ‘a’ below, with the axis value shown increased to 95%.](images/thumbnail.svg)
+![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
 </figure>
 
-How the letters bounce will relate to each typeface's needs or concept. For example, in Shantell Sans, adjusting the axis to its minimum value shifts the “s” character down, but the “a” character up; the “h” character moves only slightly in each direction. This semi-unpredictable behaviour results in the type appearing more like handwriting, and the effect can be further exaggerated by manipulating other axes (in the case of Shantell Sans, Informality (INFM) and Spacing (SPAC)) in tandem.
+<figcaption>In the typeface Workbench, note how moving the Bleed axis towards its maximum value expands the width of each individual scanline without altering the actual glyph width or spacing of the letters.</figcaption>
+
+Negative values make the text appear lighter, while positive values make it darker, similarly to the effects of ink bleed or dot gain on paper.

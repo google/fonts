@@ -1,11 +1,11 @@
 
-PARA1_TBC
+“Vertical Element Alignment” (YELA in CSS) is an axis found in some variable fonts that can be used to align elements within modular typefaces’ glyphs to different positions in the Y dimension.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
 | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 |
+| 0 | -100 | 100 | 1 |
 
 <figure>
 
@@ -13,4 +13,6 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-PARA2_TBC
+<figcaption>In the Wavefont typeface, 3 sets of 4 vertical stroke elements with varying lengths are shown aligned to the bottom of the em, symmetrically center-aligned, and aligned to the top of the em.</figcaption>
+
+“Vertical Element Alignment” (YELA in CSS) is an axis found in some variable fonts that can be used to align elements within modular typefaces’ glyphs to different positions in the Y dimension.

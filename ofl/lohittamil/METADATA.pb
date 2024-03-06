@@ -14,3 +14,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "tamil"
+source {
+  repository_url: "https://github.com/pravins/lohit"
+}

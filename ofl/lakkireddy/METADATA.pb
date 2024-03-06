@@ -15,5 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/appajid/lakkireddy"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

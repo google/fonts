@@ -14,5 +14,8 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/theleagueof/league-script-number-one"
+}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

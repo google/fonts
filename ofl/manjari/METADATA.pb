@@ -34,5 +34,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "malayalam"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/smc/manjari"
+}
+primary_script: "Mlym"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

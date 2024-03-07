@@ -13,8 +13,6 @@ fonts {
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/canadian-aboriginal)"
 }
 subsets: "canadian-aboriginal"
-subsets: "cyrillic-ext"
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"

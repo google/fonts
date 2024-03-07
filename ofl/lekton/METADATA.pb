@@ -1,7 +1,7 @@
 name: "Lekton"
 designer: "ISIA Urbino"
 license: "OFL"
-category: "SANS_SERIF"
+category: "MONOSPACE"
 date_added: "2010-12-20"
 fonts {
   name: "Lekton"

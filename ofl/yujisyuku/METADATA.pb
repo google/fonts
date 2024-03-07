@@ -12,8 +12,28 @@ fonts {
   full_name: "Yuji Syuku Regular"
   copyright: "Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)"
 }
+subsets: "chinese-hongkong"
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/Kinutafontfactory/Yuji"
+  commit: "efec977b14b57c19eb85d468edcfbbad13139e67"
+  files {
+    source_file: "fonts/ttf/YujiSyuku-Regular.ttf"
+    dest_file: "YujiSyuku-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "syuku_DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}

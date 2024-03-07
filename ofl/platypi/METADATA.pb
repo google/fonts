@@ -34,3 +34,4 @@ source {
   repository_url: "https://github.com/d-sargent/platypi"
   commit: "8574bbbc965e398a8c3da7edd926edda82b63113"
 }
+stroke:"SERIF"

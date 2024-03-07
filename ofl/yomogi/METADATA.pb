@@ -12,7 +12,11 @@ fonts {
   full_name: "Yomogi Regular"
   copyright: "Copyright 2020 The Yomogi Project Authors (https://github.com/satsuyako/YomogiFont), all rights reserved."
 }
+subsets: "chinese-hongkong"
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
+subsets: "greek-ext"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
@@ -20,5 +24,19 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/satsuyako/YomogiFont"
+  commit: "8551d68706679b88ce6ff40e093a993e546e593e"
+  files {
+    source_file: "fonts/ttf/Yomogi-Regular.ttf"
+    dest_file: "Yomogi-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "ver3.00"
 }
 primary_script: "Hira"

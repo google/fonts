@@ -1,4 +1,3 @@
-
 “Sharpness” (SHRP in CSS) is an axis found in some variable fonts that can be used to adjust the shape of the letterforms’ terminals. At its default value of 0, terminals are blunt, but they become sharper in appearance as the axis moves towards its maximum value of 100%.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:

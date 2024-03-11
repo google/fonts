@@ -1,5 +1,5 @@
 
-“AR Retinal Resolution” (ARRR in CSS) is an axis found in some variable fonts that can be used to optimize text Text rendering across different resolutions. The axis range values represent PPD (Pixels Per Degree) units, which are directly related to the resolution of different AR headsets.
+“AR Retinal Resolution” (ARRR in CSS) is an axis found in some variable fonts that can be used to optimize text rendering across different resolutions. The axis range values represent PPD (Pixels Per Degree) units, which are directly related to the resolution of different AR headsets.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

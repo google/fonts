@@ -1,4 +1,3 @@
-
 “Roundness” (ROND in CSS) is an axis found in some variable fonts that can be used to change shapes from sharp and angular defaults to rounded versions.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:

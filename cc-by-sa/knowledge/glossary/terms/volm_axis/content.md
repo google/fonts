@@ -1,4 +1,3 @@
-
 “Volume” (VOLM in CSS) is an axis found in some variable fonts that can be used to exaggerate details of a typeface in order to emphasize its personality.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:

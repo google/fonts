@@ -216,12 +216,13 @@ def _check_outbound_link(url: str):
         'support.google.com',
         'twitter.com',
         'typetura.com',
-        'webmd.com'
+        'webmd.com',
+        "jessicahische.is",
     ])
     # Following urls will be fixed at a later date. If the CI is failing and a suitable
     # replacement url cannot be found, please add them to this set.
     to_fix = frozenset([
-        "jessicahische.is",
+        "type.method.ac"
     ])
     if urlparse(url).netloc.replace("www.", "") in whitelist | to_fix:
         return True

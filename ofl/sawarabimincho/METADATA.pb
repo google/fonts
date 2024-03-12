@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://www.github.com/googlefonts/sawarabi-mincho"
+  repository_url: "https://github.com/googlefonts/sawarabi-mincho"
   commit: "8bd1525717e74e24943d30e07b0ae56ee60c0915"
   archive_url: "https://github.com/googlefonts/sawarabi-mincho/releases/download/v1.082/sawarabi-mincho-v1.082.zip"
   files {

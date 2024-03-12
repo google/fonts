@@ -218,11 +218,13 @@ def _check_outbound_link(url: str):
         'typetura.com',
         'webmd.com',
         "jessicahische.is",
+        "type.method.ac",
     ])
     # Following urls will be fixed at a later date. If the CI is failing and a suitable
     # replacement url cannot be found, please add them to this set.
     to_fix = frozenset([
-        "type.method.ac"
+        # bad SSL cert
+        "clagnut.com"
     ])
     if urlparse(url).netloc.replace("www.", "") in whitelist | to_fix:
         return True

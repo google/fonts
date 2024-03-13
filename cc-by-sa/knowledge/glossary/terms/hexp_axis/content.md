@@ -12,4 +12,6 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-Although at first glance Hyper Expansion may appear similar to the Width axis (wdth in CSS), its chief concern is legibility, and specifically with the Arabic script. For detailed information, please read “The Design of Readex Pro” on the Material Design blog.
+<figcaption>Typeface: [Readex Pro](https://fonts.google.com/specimen/Readex+Pro)</figcaption>
+
+Although at first glance Hyper Expansion may appear similar to the Width axis (wdth in CSS), its chief concern is legibility, and specifically with the Arabic script. For detailed information, please read [“The Design of Readex Pro” on the Material Design blog](https://material.io/blog/readex-pro-legibility-arabic-type-design).

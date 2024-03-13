@@ -12,4 +12,6 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
+<figcaption>Typeface: [Commissioner](https://fonts.google.com/specimen/Commissioner)</figcaption>
+
 Left at the minimum value, the strokes are monolinear; at the maximum value, more contrast is introduced to the letterforms. The effect is more noticeable in heavier font weights.

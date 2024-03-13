@@ -12,4 +12,6 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
+<figcaption>Typeface: [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans)</figcaption>
+
 Note that the increased or decreased height of the letterform is context-aware, meaning that an “e”, for example, might shrink when next to some glyphs, and grow when next to others. This semi-unpredictable behaviour results in the type appearing more like handwriting, and — as with the Shantell Sans font — the effect can be further exaggerated by manipulating axes like Bounce (BNCE) and Spacing (SPAC) in tandem. 

@@ -13,4 +13,6 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
+<figcaption>Typeface: [AR One Sans](https://fonts.google.com/specimen/AR+One+Sans)</figcaption>
+
 In practice, this means that parts of the letterforms’ strokes are tapered — either flaring out at the ends of stems, or (much like ink traps) indenting where strokes meet. The primary goal of this axis is to ensure the quality of the reading experience is the same for users with low- and high-resolution headsets. Therefore, all adjustments are intended to make the text render appear equal to all users.

@@ -8,8 +8,8 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 <figure>
 
-![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
+![In the Wavefont typeface, 2 sets of 4 vertical stroke elements with varying lengths are shown, once with a minimum value of the Roundness axis applied, and again with the maximum value applied so that the terminals of the strokes are fully rounded.](images/thumbnail.svg)
 
 </figure>
 
-In Wavefont, manipulating this axis results in changing the rectangular bar chart style to one that has a large border radius at the top and bottom of each bar. This axis is similar, but subtly different, to the Softness axis.
+In [Wavefont](https://fonts.google.com/specimen/Wavefont), manipulating this axis results in changing the rectangular bar chart style to one that has a large border radius at the top and bottom of each bar. This axis is similar, but subtly different, to the Softness axis.

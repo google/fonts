@@ -13,6 +13,6 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-<figcaption>In the Wavefont typeface, 3 sets of 4 vertical stroke elements with varying lengths are shown aligned to the bottom of the em, symmetrically center-aligned, and aligned to the top of the em.</figcaption>
+<figcaption>In the [Wavefont](https://fonts.google.com/specimen/Wavefont) typeface, 3 sets of 4 vertical stroke elements with varying lengths are shown aligned to the bottom of the em, symmetrically center-aligned, and aligned to the top of the em.</figcaption>
 
 “Vertical Element Alignment” (YELA in CSS) is an axis found in some variable fonts that can be used to align elements within modular typefaces’ glyphs to different positions in the Y dimension.

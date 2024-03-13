@@ -8,11 +8,11 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 <figure>
 
-![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
+![The letters “nib” in the Geologica typeface are shown twice, once with a minimum value of the Sharpness axis applied, and again with the maximum value applied.](images/thumbnail.svg)
 
 </figure>
 
-<figcaption>Illustration alt: The letters ‘nib’ in the Geologica typeface are shown twice, once with a minimum value of the Sharpness axis applied, and again with the maximum value applied.</figcaption>
+<figcaption>Typeface: [Geologica](https://fonts.google.com/specimen/Geologica)</figcaption>
 
 Typeface designers can increase the sharpness of their designs in obvious ways, but also with subtle attention to detail. For example, in the Geologica typeface, it’s not just one terminal’s extreme point that gets moved up or down as a result of this sharpening — the adjacent point also shifts down ever so slightly to compensate for this new form, which is especially noticeable in the undershoot at the bottom of the stem of the “b” in the illustration above.
 

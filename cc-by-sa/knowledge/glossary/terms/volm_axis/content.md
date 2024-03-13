@@ -12,7 +12,7 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-<figcaption>The letter ‘h’ in the Commissioner typeface is shown twice, once with a minimum value of the Volume axis applied, and again with the maximum value applied.</figcaption>
+<figcaption>The letter ‘h’ in the [Commissioner](https://fonts.google.com/specimen/Commissioner) typeface is shown twice, once with a minimum value of the Volume axis applied, and again with the maximum value applied.</figcaption>
 
 Changes along the Volume axis expand the surface area or volume of the letterforms, and typically interact with the effects of other axes. For example, in the Commissioner typeface, the Volume axis exaggerates the effects of the Flare (FLAR) axis, which controls stroke modulation.
 

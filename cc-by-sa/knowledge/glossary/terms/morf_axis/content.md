@@ -12,4 +12,4 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-In the Kablammo font, moving along the axis from its minimum to maximum value animates the elements that are changing. Some glyphs use this to suggest actual movement as the axis is altered.
+In the [Kablammo](https://fonts.google.com/specimen/Kablammo) font, moving along the axis from its minimum to maximum value animates the elements that are changing. Some glyphs use this to suggest actual movement as the axis is altered.

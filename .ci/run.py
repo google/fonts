@@ -52,6 +52,9 @@ def directory_check_types(branch="origin/main"):
             if path not in ("to_sandbox.txt", "to_production.txt")
             else path
         )
+        # skip article directories. These should be checked on github
+        if os.path.basename(dirpath) == "article":
+            continue
 
         dir_tokens = directories_to_check[dirpath]
         if path.startswith("catalog"):

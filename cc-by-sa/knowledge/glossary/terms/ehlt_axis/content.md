@@ -1,5 +1,5 @@
 
-“Edge Highlight” (EHLT in CSS) is an axis found in some variable fonts that can be used to control the thickness of the highlighted part of edges in three-dimensional letterforms. Values are in thousandths of an em (the current font size). For example, setting Extrusion Depth to 500 will result in a 50%-of-the-em extrusion, which would be 20 px if the font size is set to 40 px.
+“Edge Highlight” (EHLT in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that can be used to control the thickness of the highlighted part of edges in three-dimensional letterforms. Values are in thousandths of an em (the current font size). For example, setting Extrusion Depth to 500 will result in a 50%-of-the-em extrusion, which would be 20 px if the font size is set to 40 px.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

@@ -1,4 +1,4 @@
-“Morph” (MORF in CSS) is an axis found in some variable fonts that can be used to unconventionally change the shape, size, and position of elements that make up a letterform. 
+“Morph” (MORF in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that can be used to unconventionally change the shape, size, and position of elements that make up a letterform. 
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

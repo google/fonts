@@ -1,4 +1,4 @@
-“Flare” (FLAR in CSS) is an axis found in some variable fonts that can be used to control how the strokes modulate from their upright parts to their flared extremes.
+“Flare” (FLAR in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that can be used to control how the strokes modulate from their upright parts to their flared extremes.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

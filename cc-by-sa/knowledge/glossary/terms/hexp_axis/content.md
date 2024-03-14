@@ -1,4 +1,4 @@
-“Hyper Expansion” (HEXP in CSS) is an axis found in some variable fonts that can be used to stretch the distance among glyphs by increasing the width of the glyphs themselves and also their connections (in joined writing models) or the spacing (in disconnected writing models).
+“Hyper Expansion” (HEXP in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that can be used to stretch the distance among glyphs by increasing the width of the glyphs themselves and also their connections (in joined writing models) or the spacing (in disconnected writing models).
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

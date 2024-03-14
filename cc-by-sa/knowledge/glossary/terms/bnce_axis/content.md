@@ -1,4 +1,4 @@
-“Bounce” (BNCE in CSS) is an axis found in some variable fonts that can be used to reposition letterforms vertically, away from the baseline, creating a more handwritten or organic style.
+“Bounce” (BNCE in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that can be used to reposition letterforms vertically, away from the baseline, creating a more handwritten or organic style.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

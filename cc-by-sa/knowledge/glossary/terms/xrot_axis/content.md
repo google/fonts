@@ -1,5 +1,5 @@
 
-“Rotation in X” (XROT in CSS) is an axis found in some variable fonts that can be used to alter the letterforms so that they appear to rotate in the X dimension, giving the impression that they can interact in a three-dimensional space.
+“Rotation in X” (XROT in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that can be used to alter the letterforms so that they appear to rotate in the X dimension, giving the impression that they can interact in a three-dimensional space.
 
 The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

@@ -1,5 +1,5 @@
 
-“Extrusion Depth” (EDPT in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to control the depth of three-dimensional letterforms. Values are in thousandths of an [em](/glossary/em) (the current font size). For example, setting Extrusion Depth to 500 will result in a 50%-of-the-em extrusion, which would be 20 px if the font size is set to 40 px.
+“Extrusion Depth” (`EDPT` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to control the depth of three-dimensional letterforms. Values are in thousandths of an [em](/glossary/em) (the current font size). For example, setting Extrusion Depth to 500 will result in a 50%-of-the-em extrusion, which would be 20 px if the font size is set to 40 px.
 
 The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

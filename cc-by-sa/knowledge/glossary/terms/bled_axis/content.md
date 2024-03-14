@@ -1,5 +1,5 @@
 
-“Bleed” (BLED in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to adjust the text’s overall darkness or [typographic color](/glossary/color) by altering its [glyphs](/glossary/glyph)’ shapes such as [strokes](/glossary/stroke) (or other forms). Because it’s only the individual shapes that are changed, there are no changes to the type’s overall [width](/glossary/width), [letter spacing](/glossary/tracking_letter_spacing), or [kerning](/glossary/kerning). Therefore, manipulating this axis will not result in altered line breaks or page layout changes.
+“Bleed” (`BLED` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to adjust the text’s overall darkness or [typographic color](/glossary/color) by altering its [glyphs](/glossary/glyph)’ shapes such as [strokes](/glossary/stroke) (or other forms). Because it’s only the individual shapes that are changed, there are no changes to the type’s overall [width](/glossary/width), [letter spacing](/glossary/tracking_letter_spacing), or [kerning](/glossary/kerning). Therefore, manipulating this axis will not result in altered line breaks or page layout changes.
 
 The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

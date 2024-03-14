@@ -1,5 +1,5 @@
 
-“Element Grid” (ELGR in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some modular [variable fonts](/glossary/variable_fonts) where [letterforms](/glossary/letterform) are composed using multiple copies of the same element. In these fonts, the Element Grid axis can be used to control how many of the elements are used.
+“Element Grid” (`ELGR` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some modular [variable fonts](/glossary/variable_fonts) where [letterforms](/glossary/letterform) are composed using multiple copies of the same element. In these fonts, the Element Grid axis can be used to control how many of the elements are used.
 
 The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

@@ -1,5 +1,5 @@
 
-“Vertical Element Alignment” (YELA in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to align elements within modular typefaces’ glyphs to different positions in the Y dimension.
+“Vertical Element Alignment” (`YELA` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to align elements within modular typefaces’ glyphs to different positions in the Y dimension.
 
 The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

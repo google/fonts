@@ -1,5 +1,5 @@
 
-“Spacing” (SPAC in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to adjust the spacing among characters overall, as a percentage from the default spacing.
+“Spacing” (`SPAC` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to adjust the spacing among characters overall, as a percentage from the default spacing.
 
 The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

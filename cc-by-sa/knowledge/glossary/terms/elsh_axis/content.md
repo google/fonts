@@ -1,4 +1,4 @@
-“Element Shape” (ELSH in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some modular [variable fonts](/glossary/variable_fonts) where letterforms are composed using multiple copies of the same element. In these fonts, the Element Shape axis controls the shape of the element. The element can “snap” from one shape to another, or gradually morph between each one.
+“Element Shape” (`ELSH` in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some modular [variable fonts](/glossary/variable_fonts) where letterforms are composed using multiple copies of the same element. In these fonts, the Element Shape axis controls the shape of the element. The element can “snap” from one shape to another, or gradually morph between each one.
 
 The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 

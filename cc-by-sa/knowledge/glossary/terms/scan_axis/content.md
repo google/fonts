@@ -1,7 +1,7 @@
 
-“Scanlines” (SCAN in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that control the thickness of the scanlines that make up the glyph shapes. Because it’s only the scanlines that are changed, there are no changes to the type’s overall width, letter spacing, or kerning. Therefore, Manipulating this axis will not result in altered line breaks or page layout changes.
+“Scanlines” (SCAN in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that control the thickness of the scanlines that make up the [glyph](/glossary/glyph) shapes. Because it’s only the scanlines that are changed, there are no changes to the type’s overall [width](/glossary/width), [letter spacing](/glossary/tracking_letter_spacing), or [kerning](/glossary/kerning). Therefore, Manipulating this axis will not result in altered line breaks or page layout changes.
 
-The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
+The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
 | --- | --- | --- | --- |
@@ -13,6 +13,6 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 </figure>
 
-<figcaption>In the typeface Workbench, note how moving the Scanline axis towards its maximum value expands the height of each individual scanline.</figcaption>
+<figcaption>In the [Workbench](https://fonts.google.com/specimen/Workbench) typeface, note how moving the Scanline axis towards its maximum value expands the height of each individual scanline.</figcaption>
 
 Negative values make the scanlines thinner, and positive values make them thicker.

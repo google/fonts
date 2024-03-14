@@ -1,6 +1,6 @@
-“Flare” (FLAR in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that can be used to control how the strokes modulate from their upright parts to their flared extremes.
+“Flare” (FLAR in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to control how the strokes modulate from their upright parts to their flared extremes.
 
-The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
+The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
 | --- | --- | --- | --- |
@@ -14,4 +14,4 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 <figcaption>Typeface: [Commissioner](https://fonts.google.com/specimen/Commissioner)</figcaption>
 
-Left at the minimum value, the strokes are monolinear; at the maximum value, more contrast is introduced to the letterforms. The effect is more noticeable in heavier font weights.
+Left at the minimum value, the [strokes](/glossary/stroke) are [monolinear](/glossary/monolinear); at the maximum value, more contrast is introduced to the letterforms. The effect is more noticeable in heavier font weights.

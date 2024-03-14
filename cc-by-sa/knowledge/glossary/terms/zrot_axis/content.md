@@ -1,7 +1,7 @@
 
-“Rotation in Z” (ZROT in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that can be used to alter the letterforms so that they appear to rotate in the Z dimension, giving the impression that they can interact in a three-dimensional space.
+“Rotation in Z” (ZROT in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to alter the letterforms so that they appear to rotate in the Z dimension, giving the impression that they can interact in a three-dimensional space.
 
-The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
+The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
 | --- | --- | --- | --- |
@@ -15,4 +15,4 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 Leaving the axis at its default value of 0 results in the character appearing face-on; manipulating it to its minimum value results in it appearing to rotate to the left; manipulating it to its maximum value results in it appearing to rotate to the right.
 
-It may be used in conjunction with other axes controlling Y-transparencies (vertical alignment zones), especially the Parametric Uppercase Height axis (YTUC) and Parametric Descender Depth axis (YTDE).
+It may be used in conjunction with other axes controlling Y-transparencies (vertical alignment zones), especially the [Parametric Uppercase Height axis](/glossary/ytuc_axis) (`YTUC`) and [Parametric Descender Depth axis](/glossary/ytde_axis) (`YTDE`).

@@ -1,6 +1,6 @@
-“Informality” (INFM in CSS) is an axis found in some [variable fonts](/glossary/variable_fonts) that can be used to introduce irregular shaping (some letters being smaller or larger than others) or adjusted proportions to mimic natural handwriting.
+“Informality” (INFM in CSS) is an [axis](/glossary/axis_in_variable_fonts) found in some [variable fonts](/glossary/variable_fonts) that can be used to introduce irregular shaping (some letters being smaller or larger than others) or adjusted proportions to mimic natural handwriting.
 
-The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
+The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
 | --- | --- | --- | --- |
@@ -14,4 +14,4 @@ The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) de
 
 <figcaption>Typeface: [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans)</figcaption>
 
-Note that the increased or decreased height of the letterform is context-aware, meaning that an “e”, for example, might shrink when next to some glyphs, and grow when next to others. This semi-unpredictable behaviour results in the type appearing more like handwriting, and — as with the Shantell Sans font — the effect can be further exaggerated by manipulating axes like Bounce (BNCE) and Spacing (SPAC) in tandem. 
+Note that the increased or decreased height of the letterform is context-aware, meaning that an “e”, for example, might shrink when next to some glyphs, and grow when next to others. This semi-unpredictable behaviour results in the type appearing more like handwriting, and — as with the [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans) font — the effect can be further exaggerated by manipulating axes like [Bounce](/glossary/bnce_axis) (`BNCE`) and [Spacing](/glossary/spac_axis) (`SPAC`) in tandem. 

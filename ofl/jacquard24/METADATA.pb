@@ -19,3 +19,4 @@ source {
   repository_url: "https://github.com/scfried/soft-type-jacquard"
   commit: "0ef57f102270194f4e41ce609ad5888f14983b8e"
 }
+classifications: "DISPLAY"

@@ -1,5 +1,7 @@
-archive: https://github.com/notofonts/balinese/releases/download/NotoSansBalinese-v2.003/NotoSansBalinese-v2.003.zip
+archive: https://github.com/notofonts/balinese/releases/download/NotoSansBalinese-v2.005/NotoSansBalinese-v2.005.zip
 branch: main
 files:
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
   OFL.txt: OFL.txt
-  NotoSansBalinese/googlefonts/variable-ttf/NotoSansBalinese[wght].ttf: NotoSansBalinese[wght].ttf
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  NotoSansBalinese/googlefonts/variable/NotoSansBalinese[wght].ttf: NotoSansBalinese[wght].ttf

@@ -24,7 +24,7 @@ jobs:
         with:
           access_token: ${{ github.token }}
     
-      - uses: actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e # v1.2.0
+      - uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
       - name: Set up Python 3.10
         uses: actions/setup-python@5ccb29d8773c3f3f653e1705f474dfaa8a06a912 # v4.4.0
         with:
@@ -84,7 +84,7 @@ jobs:
         with:
           access_token: ${{ github.token }}
     
-      - uses: actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e # v1.2.0
+      - uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
       - name: Set up Python 3.10
         uses: actions/setup-python@5ccb29d8773c3f3f653e1705f474dfaa8a06a912 # v4.4.0
         with:

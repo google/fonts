@@ -14,14 +14,19 @@ jobs:
         python-version: ['3.10']
         os: [windows-latest, macos-latest, ubuntu-latest]
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          egress-policy: audit
+
       - name: Cancel previous
-        uses: styfle/cancel-workflow-action@0.11.0
+        uses: styfle/cancel-workflow-action@b173b6ec0100793626c2d9e6b90435061f4fc3e5 # 0.11.0
         with:
           access_token: ${{ github.token }}
     
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e # v1.2.0
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4.4.0
+        uses: actions/setup-python@5ccb29d8773c3f3f653e1705f474dfaa8a06a912 # v4.4.0
         with:
           python-version: '3.10'
       - name: Install packages
@@ -29,14 +34,14 @@ jobs:
           pip install gftools[qa] pytest
         shell: bash
       - name: Setup Chrome
-        uses: browser-actions/setup-chrome@latest
+        uses: browser-actions/setup-chrome@97349de5c98094d4fc9412f31c524d7697115ad8 # latest
       - name: Setup Chrome Driver
-        uses: nanasess/setup-chromedriver@master
+        uses: nanasess/setup-chromedriver@42cc2998329f041de87dc3cfa33a930eacd57eaa # master
 
       - name: Setup Firefox
-        uses: browser-actions/setup-firefox@latest
+        uses: browser-actions/setup-firefox@233224b712fc07910ded8c15fb95a555c86da76f # latest
       - name: Setup Firefox Driver
-        uses: browser-actions/setup-geckodriver@latest
+        uses: browser-actions/setup-geckodriver@43a66ae697b28edeb8c6fa3995fad360713e6ef6 # latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -53,13 +58,13 @@ jobs:
 
       - name: Check file existence
         id: check_files
-        uses: andstor/file-existence-action@v2.0.0
+        uses: andstor/file-existence-action@20b4d2e596410855db8f9ca21e96fbe18e12930b # v2.0.0
         with:
           files: "out"
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@3446296876d12d4e3a0f3145a3c87e67bf0a16b5 # v1.0.0
         with:
           name: qa
           path: out/
@@ -69,14 +74,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          egress-policy: audit
+
       - name: Cancel previous
-        uses: styfle/cancel-workflow-action@0.11.0
+        uses: styfle/cancel-workflow-action@b173b6ec0100793626c2d9e6b90435061f4fc3e5 # 0.11.0
         with:
           access_token: ${{ github.token }}
     
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e # v1.2.0
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4.4.0
+        uses: actions/setup-python@5ccb29d8773c3f3f653e1705f474dfaa8a06a912 # v4.4.0
         with:
           python-version: '3.10'
       - name: Install packages
@@ -102,13 +112,13 @@ jobs:
       
       - name: Check file existence
         id: check_files
-        uses: andstor/file-existence-action@v2.0.0
+        uses: andstor/file-existence-action@20b4d2e596410855db8f9ca21e96fbe18e12930b # v2.0.0
         with:
           files: "out"
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@3446296876d12d4e3a0f3145a3c87e67bf0a16b5 # v1.0.0
         with:
           name: qa
           path: out/

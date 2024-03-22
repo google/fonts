@@ -27,6 +27,7 @@ subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 axes {
   tag: "wdth"
   min_value: 75.0

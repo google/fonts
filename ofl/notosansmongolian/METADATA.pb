@@ -12,7 +12,6 @@ fonts {
   full_name: "Noto Sans Mongolian Regular"
   copyright: "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/mongolian)"
 }
-subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"

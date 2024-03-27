@@ -1,38 +1,68 @@
 # New
+ofl/danfo # https://github.com/google/fonts/pull/7389
+ofl/jacquard24 # https://github.com/google/fonts/pull/7305
+ofl/jacquard24charted # https://github.com/google/fonts/pull/7307
 ofl/jersey10 # https://github.com/google/fonts/pull/7319
 ofl/jersey10charted # https://github.com/google/fonts/pull/7320
 ofl/jersey15 # https://github.com/google/fonts/pull/7335
 ofl/jersey15charted # https://github.com/google/fonts/pull/7336
-ofl/sedan/ # https://github.com/google/fonts/pull/7340
-ofl/sedansc/ # https://github.com/google/fonts/pull/7341
+ofl/jersey20 # https://github.com/google/fonts/pull/7384
+ofl/jersey20charted # https://github.com/google/fonts/pull/7385
+ofl/jersey25 # https://github.com/google/fonts/pull/7386
+ofl/micro5charted # https://github.com/google/fonts/pull/7082
+ofl/platypi # https://github.com/google/fonts/pull/7321
+ofl/redditsans # https://github.com/google/fonts/pull/7310
+ofl/redditsanscondensed # https://github.com/google/fonts/pull/7314
+ofl/sedan # https://github.com/google/fonts/pull/7340
+ofl/sedansc # https://github.com/google/fonts/pull/7341
 
 # Upgrade
 ofl/dohyeon # https://github.com/google/fonts/pull/7207
 ofl/frankruhllibre # https://github.com/google/fonts/pull/7332
 ofl/jua # https://github.com/google/fonts/pull/7207
 ofl/kiranghaerang # https://github.com/google/fonts/pull/7207
+ofl/notonaskharabic # https://github.com/google/fonts/pull/6857
+ofl/notosansoriya # https://github.com/google/fonts/pull/7347
+ofl/notoserifhk # https://github.com/google/fonts/pull/6691
+ofl/notoserifjp # https://github.com/google/fonts/pull/6692
+ofl/notoserifkr # https://github.com/google/fonts/pull/6693
+ofl/notoserifsc # https://github.com/google/fonts/pull/6694
+ofl/notoseriftc # https://github.com/google/fonts/pull/6695
 ofl/yeonsung # https://github.com/google/fonts/pull/7207
+ofl/ubuntusans # https://github.com/google/fonts/pull/7352
 
 # Designer profile
+catalog/designers/andreasrasmussen # https://github.com/google/fonts/pull/7379
 catalog/designers/davidsargent # https://github.com/google/fonts/pull/7330
+catalog/designers/sebastiansalazar # https://github.com/google/fonts/pull/7339
+catalog/designers/seyiolusanya # https://github.com/google/fonts/pull/7369
 catalog/designers/stephenhutchings # https://github.com/google/fonts/pull/7331
-catalog/designers/orangered # https://github.com/google/fonts/pull/7337
-catalog/designers/sebastiansalazar/ # https://github.com/google/fonts/pull/7339
 
 # Metadata / Description / License
+ofl/creteround # https://github.com/google/fonts/pull/7362
+ofl/domine # https://github.com/google/fonts/pull/7365
+ofl/gabriela # https://github.com/google/fonts/pull/7360
+ofl/gfsdidot # https://github.com/google/fonts/pull/7357
 ofl/jacquard12 # https://github.com/google/fonts/pull/7302
+ofl/joan # https://github.com/google/fonts/pull/7351
+ofl/kaushanscript # https://github.com/google/fonts/pull/7377
+ofl/kurale # https://github.com/google/fonts/pull/7360
+ofl/lekton # https://github.com/google/fonts/pull/7356
+ofl/loveyalikeasister # https://github.com/google/fonts/pull/7346
+ofl/mallanna # https://github.com/google/fonts/pull/7344
+ofl/mandali # https://github.com/google/fonts/pull/7344
+ofl/manjari # https://github.com/google/fonts/pull/7344
+ofl/markoone # https://github.com/google/fonts/pull/7344
+ofl/martel # https://github.com/google/fonts/pull/7344
+ofl/martelsans # https://github.com/google/fonts/pull/7344
+ofl/mavenpro # https://github.com/google/fonts/pull/7344
 ofl/ojuju # https://github.com/google/fonts/pull/7333
-ofl/loveyalikeasister/ # https://github.com/google/fonts/pull/7346
-ofl/joan/ # https://github.com/google/fonts/pull/7351
-ofl/maitree/ # https://github.com/google/fonts/pull/7343
-ofl/mallanna/ # https://github.com/google/fonts/pull/7344
-ofl/mandali/ # https://github.com/google/fonts/pull/7344
-ofl/manjari/ # https://github.com/google/fonts/pull/7344
-ofl/martel/ # https://github.com/google/fonts/pull/7344 
-ofl/martelsans/ # https://github.com/google/fonts/pull/7344
-
-# Tags
-tags/all/families.csv
+ofl/poetsenone # https://github.com/google/fonts/pull/7377
+ofl/quattrocento # https://github.com/google/fonts/pull/7377
+ofl/quattrocentosans # https://github.com/google/fonts/pull/7377
+ofl/raleway # https://github.com/google/fonts/pull/7377
+ofl/ralewaydots # https://github.com/google/fonts/pull/7377
+ofl/rocknrollone # https://github.com/google/fonts/pull/7372
 
 # Sample texts
 # Deleted: lang/languages/sa_Sylo.textproto # https://github.com/google/fonts/pull/7248

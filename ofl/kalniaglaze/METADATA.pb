@@ -12,9 +12,8 @@ fonts {
   full_name: "Kalnia Glaze Thin"
   copyright: "Copyright 2022 The Kalnia Project Authors (https://github.com/fridamedrano/Kalnia-Typeface.git)"
 }
-subsets: "greek-ext"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"
 axes {
   tag: "wdth"
   min_value: 100.0

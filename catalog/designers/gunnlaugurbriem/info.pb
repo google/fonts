@@ -1,5 +1,5 @@
-designer: "Gunnlaugur Briem"
+designer: "Gunnlaugur SE Briem"
 link: ""
 avatar {
-  file_name: "gunnlaugurbriem.png"
+  file_name: "gunnlaugursebriem.png"
 }

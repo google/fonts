@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/SorkinType/Briem-Hand"
-  commit: "24564101f1b8b5bd66ead0edf82c2bbef0d2ff3a"
+  commit: "bd68ecf84950b0c2e975716cce88c1b43b99d138"
   archive_url: "https://github.com/SorkinType/Briem-Hand/releases/download/v1.003/Briem-Hand-v1.003.zip"
   files {
     source_file: "OFL.txt"

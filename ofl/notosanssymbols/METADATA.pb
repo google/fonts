@@ -12,6 +12,15 @@ fonts {
   full_name: "Noto Sans Symbols Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)"
 }
+sample_text {
+  masthead_full: "☺🜻⚛🅰"
+  masthead_partial: "⚓♻"
+  styles: "⛾⛿☯☸ ⛩⛰⛱⛴⛷⛸⛹ ♸⚥☊☍☓☤ 🄰🄱🆈🆉 ⚖♇♪♬"
+  tester: "⚓⛲⛵⛺⛽ ⎈⎉⎊⎋⎌⎍⎎ 🜈🜉🜌🜍🜪🝥🜴🜻🜟🝂↕ ♷⚱⚑⚲🝆🝍🜎 ♻♾⚒⚕🜲🜳🜴🜶🜷🜸 ☺⚺⚻⚼ ⎁⎗⏙⏒⏧🅫☽⛩⛯⚖🜕🝰🝗🝬🝞"
+  poster_sm: "☺⚓🜖🝃⚻ ⚗⛰♸⚘⏚ ⎉⎐☊⎘🝭🆎"
+  poster_md: "♻⚚⚖⛱⎙⛯🝈⏃⎃"
+  poster_lg: "⛲🝃♪"
+}
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

@@ -1,5 +1,5 @@
 name: "Briem Hand"
-designer: "Gunnlaugur Briem, Eben Sorkin"
+designer: "Gunnlaugur SE Briem, Eben Sorkin"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-03-27"

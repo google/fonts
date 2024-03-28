@@ -41,3 +41,4 @@ source {
   }
   branch: "main"
 }
+classifications: "HANDWRITING"

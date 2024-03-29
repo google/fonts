@@ -1,5 +1,5 @@
 name: "Danfo"
-designer: "Seyi Olusanya, Eyiyemi Adegbite, David Udoh, Mirko Velimirović"
+designer: "Afrotype, Seyi Olusanya, Eyiyemi Adegbite, David Udoh, Mirko Velimirović"
 license: "OFL"
 category: "SERIF"
 date_added: "2024-03-15"

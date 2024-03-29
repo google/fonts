@@ -1,5 +1,5 @@
 name: "Reddit Mono"
-designer: "Stephen Hutchings"
+designer: "Stephen Hutchings, OrangeRed"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2024-02-22"

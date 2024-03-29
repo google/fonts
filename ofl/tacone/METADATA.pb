@@ -1,5 +1,5 @@
 name: "Tac One"
-designer: "Seyi Olusanya, Eyiyemi Adegbite, David Udoh, Mirko Velimirović"
+designer: "Afrotype, Seyi Olusanya, Eyiyemi Adegbite, David Udoh, Mirko Velimirović"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-02-14"

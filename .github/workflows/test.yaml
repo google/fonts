@@ -1,4 +1,5 @@
 name: Google Fonts QA
+permissions: read-all
 on:
   pull_request:
     branches:

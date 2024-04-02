@@ -9,6 +9,7 @@ fallback {
   name: "Default"
   value: 0.0
 }
+fallback_only: false
 description: 
   "The position of the paint moves left and right. Negative values"
   " move to the left and positive values move to the right, in the X dimension."

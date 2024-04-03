@@ -38,4 +38,24 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/kosmynkab/Bona-Nova"
+  files {
+    source_file: "fonts/ttf/BonaNova-Regular.ttf"
+    dest_file: "BonaNova-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BonaNova-Bold.ttf"
+    dest_file: "BonaNova-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BonaNova-Italic.ttf"
+    dest_file: "BonaNova-Italic.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
+}
 minisite_url: "http://bonanova.wtf/"

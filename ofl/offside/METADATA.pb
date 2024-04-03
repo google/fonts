@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/offside"
   commit: "025804545334bb6270119f43fb8fe7d05b31cd7d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Offside-Regular.ttf"
+    dest_file: "Offside-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

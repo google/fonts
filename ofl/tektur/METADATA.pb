@@ -33,6 +33,15 @@ axes {
 source {
   repository_url: "https://github.com/hyvyys/Tektur"
   commit: "0313e9612ed814c7a480fa54c7b295452b966954"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Tektur[wdth,wght].ttf"
+    dest_file: "Tektur[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

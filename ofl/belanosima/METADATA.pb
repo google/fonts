@@ -37,6 +37,27 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/docrepair-fonts/belanosima-fonts"
   commit: "b772e9b7c44f32e17230f255fac9cac4bfaaa07f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Belanosima-Regular.ttf"
+    dest_file: "Belanosima-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Belanosima-SemiBold.ttf"
+    dest_file: "Belanosima-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Belanosima-Bold.ttf"
+    dest_file: "Belanosima-Bold.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

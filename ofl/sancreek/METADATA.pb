@@ -20,6 +20,15 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/googlefonts/sancreek"
   commit: "6a26130542b916d49c5ed3e06ec5edfe68743d8a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Sancreek-Regular.ttf"
+    dest_file: "Sancreek-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

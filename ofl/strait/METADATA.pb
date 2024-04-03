@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/Strait"
   commit: "527c8d122601563758492117058d6727aa58cd32"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Strait-Regular.ttf"
+    dest_file: "Strait-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

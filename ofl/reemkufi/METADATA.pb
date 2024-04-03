@@ -23,7 +23,16 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/aliftype/reem-kufi.git"
+  repository_url: "https://github.com/aliftype/reem-kufi"
   archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.6/ReemKufi-1.6.zip"
+  files {
+    source_file: "ReemKufi-1.6/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ReemKufi-1.6/ttf/ReemKufi.ttf"
+    dest_file: "ReemKufi[wght].ttf"
+  }
+  branch: "main"
 }
 primary_script: "Arab"

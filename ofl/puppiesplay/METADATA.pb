@@ -16,5 +16,21 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/puppies-play"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/PuppiesPlay-Regular.ttf"
+    dest_file: "PuppiesPlay-Regular.ttf"
+  }
+  branch: "master"
+}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

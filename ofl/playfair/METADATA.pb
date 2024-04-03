@@ -46,6 +46,19 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/Playfair"
   commit: "beae63554370252f8d45c3eb95f809fcba56af9c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Playfair-Italic[opsz,wdth,wght].ttf"
+    dest_file: "Playfair-Italic[opsz,wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Playfair[opsz,wdth,wght].ttf"
+    dest_file: "Playfair[opsz,wdth,wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

@@ -21,5 +21,21 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/mooniak/gemunu-libre-font"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/GemunuLibre[wght].ttf"
+    dest_file: "GemunuLibre[wght].ttf"
+  }
+  branch: "main"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

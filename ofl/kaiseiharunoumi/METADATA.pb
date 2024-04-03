@@ -35,3 +35,27 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/FontKai-Kaisei/Kaisei"
+  files {
+    source_file: "fonts/ttf/haruno/KaiseiHarunoUmi-Regular.ttf"
+    dest_file: "KaiseiHarunoUmi-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/haruno/KaiseiHarunoUmi-Medium.ttf"
+    dest_file: "KaiseiHarunoUmi-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/haruno/KaiseiHarunoUmi-Bold.ttf"
+    dest_file: "KaiseiHarunoUmi-Bold.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "haruno_DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}

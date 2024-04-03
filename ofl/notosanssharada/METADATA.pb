@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "sharada"
 source {
-  repository_url: "https://github.com/notofonts/sharada.git"
+  repository_url: "https://github.com/notofonts/sharada"
   archive_url: "https://github.com/notofonts/sharada/releases/download/NotoSansSharada-v2.006/NotoSansSharada-v2.006.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansSharada/googlefonts/ttf/NotoSansSharada-Regular.ttf"
+    dest_file: "NotoSansSharada-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "sa_Shrd"  # Sanskrit, Sharada

@@ -19,6 +19,19 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/water-brush"
   commit: "b7a36104b4ba7d489ba4f34a14c7e39dccbab86f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/WaterBrush-Regular.ttf"
+    dest_file: "WaterBrush-Regular.ttf"
+  }
+  branch: "master"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

@@ -19,6 +19,19 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/babylonica"
   commit: "7b1c733f74a11604a711e87f840010e0746cfcd1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Babylonica-Regular.ttf"
+    dest_file: "Babylonica-Regular.ttf"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

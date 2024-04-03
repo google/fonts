@@ -20,6 +20,15 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Denk-One"
   commit: "95da30b8aa7bd5fb3045afb2fe054bf1b2e4e029"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DenkOne-Regular.ttf"
+    dest_file: "DenkOne-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -33,4 +33,17 @@ axes {
 source {
   repository_url: "https://github.com/sovichet/kantumruy-pro"
   commit: "8bf831210d27c1eda0129aa991d12af9e4c16632"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/KantumruyPro[wght].ttf"
+    dest_file: "KantumruyPro[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/KantumruyPro-Italic[wght].ttf"
+    dest_file: "KantumruyPro-Italic[wght].ttf"
+  }
+  branch: "main"
 }

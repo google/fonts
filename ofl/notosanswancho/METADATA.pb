@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "wancho"
 source {
-  repository_url: "https://github.com/notofonts/wancho.git"
+  repository_url: "https://github.com/notofonts/wancho"
   archive_url: "https://github.com/notofonts/wancho/releases/download/NotoSansWancho-v2.001/NotoSansWancho-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansWancho/googlefonts/ttf/NotoSansWancho-Regular.ttf"
+    dest_file: "NotoSansWancho-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "nnp_Wcho"  # Wancho Naga

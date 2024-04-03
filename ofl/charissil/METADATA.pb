@@ -48,4 +48,25 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/silnrsi/font-charis"
   archive_url: "https://github.com/silnrsi/font-charis/releases/download/v6.101/CharisSIL-6.101.zip"
+  files {
+    source_file: "CharisSIL-6.101/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "CharisSIL-6.101/CharisSIL-Regular.ttf"
+    dest_file: "CharisSIL-Regular.ttf"
+  }
+  files {
+    source_file: "CharisSIL-6.101/CharisSIL-Italic.ttf"
+    dest_file: "CharisSIL-Italic.ttf"
+  }
+  files {
+    source_file: "CharisSIL-6.101/CharisSIL-Bold.ttf"
+    dest_file: "CharisSIL-Bold.ttf"
+  }
+  files {
+    source_file: "CharisSIL-6.101/CharisSIL-BoldItalic.ttf"
+    dest_file: "CharisSIL-BoldItalic.ttf"
+  }
+  branch: "master"
 }

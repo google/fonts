@@ -15,5 +15,21 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/zen-dots"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/ZenDots-Regular.ttf"
+    dest_file: "ZenDots-Regular.ttf"
+  }
+  branch: "main"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -20,8 +20,25 @@ subsets: "mayan-numerals"
 subsets: "menu"
 subsets: "symbols"
 source {
-  repository_url: "https://github.com/notofonts/symbols.git"
+  repository_url: "https://github.com/notofonts/symbols"
   archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols2-v2.008/NotoSansSymbols2-v2.008.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf"
+    dest_file: "NotoSansSymbols2-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 sample_text {

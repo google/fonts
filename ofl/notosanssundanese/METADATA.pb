@@ -22,8 +22,25 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/sundanese.git"
+  repository_url: "https://github.com/notofonts/sundanese"
   archive_url: "https://github.com/notofonts/sundanese/releases/download/NotoSansSundanese-v2.005/NotoSansSundanese-v2.005.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansSundanese/googlefonts/variable/NotoSansSundanese[wght].ttf"
+    dest_file: "NotoSansSundanese[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "sa_Sund"  # Sanskrit, Sundanese

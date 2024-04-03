@@ -19,5 +19,18 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/JAMO-TYPEFACE/BagelFat"
   commit: "5ff1333d3384611f499419a844e2b3006dc7cacd"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Fonts/ttf/BagelFatOne-Regular.ttf"
+    dest_file: "BagelFatOne-Regular.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Kore"

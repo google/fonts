@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/m4rc1e/Trocchi"
   commit: "543ac4fee3173ed80706c4caf5398b8bb3439ae1"
+  files {
+    source_file: "fonts/ttf/Trocchi-Regular.ttf"
+    dest_file: "Trocchi-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

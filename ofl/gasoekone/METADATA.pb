@@ -19,6 +19,19 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Gasoek"
   commit: "f3beadd65b93b5f43e9381a546d065253d6e655a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Fonts/ttf/GasoekOne-Regular.ttf"
+    dest_file: "GasoekOne-Regular.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Kore"
 stroke: "SANS_SERIF"

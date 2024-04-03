@@ -27,6 +27,23 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/docrepair-fonts/agdasima-fonts"
   commit: "c971400d774dfd6d28e7a8e34aedc3b3dfdce6f9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Agdasima-Regular.ttf"
+    dest_file: "Agdasima-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Agdasima-Bold.ttf"
+    dest_file: "Agdasima-Bold.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

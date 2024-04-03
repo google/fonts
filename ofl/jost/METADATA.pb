@@ -30,4 +30,16 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/indestructible-type/Jost"
+  files {
+    source_file: "fonts/variable/Jost[wght].ttf"
+    dest_file: "Jost[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Jost-Italic[wght].ttf"
+    dest_file: "Jost-Italic[wght].ttf"
+  }
+  branch: "master"
+}
 minisite_url: "https://indestructibletype.com/Jost.html"

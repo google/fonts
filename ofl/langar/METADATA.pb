@@ -16,3 +16,19 @@ subsets: "gurmukhi"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/typeland/Langar"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Fonts/TTF/Langar-Regular.ttf"
+    dest_file: "Langar-Regular.ttf"
+  }
+  branch: "master"
+}

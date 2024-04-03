@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/Michroma-font"
   commit: "07893d1b85a537a6ed4b96fdb091bee45eabe65f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Michroma-Regular.ttf"
+    dest_file: "Michroma-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

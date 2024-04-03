@@ -28,4 +28,17 @@ axes {
 source {
   repository_url: "https://github.com/NDISCOVER/Arima-Font"
   commit: "c5fd72960f129076fbf3759d6d777cedcbceb468"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Arima[wght].ttf"
+    dest_file: "Arima[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
 }

@@ -22,6 +22,22 @@ axes {
   min_value: 400.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/EkType/Baloo2-Variable"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/BalooChettan2[wght].ttf"
+    dest_file: "BalooChettan2[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}
 primary_script: "Mlym"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

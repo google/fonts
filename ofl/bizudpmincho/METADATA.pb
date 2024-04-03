@@ -28,7 +28,16 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/googlefonts/morisawa-biz-ud-mincho.git"
+  repository_url: "https://github.com/googlefonts/morisawa-biz-ud-mincho"
   commit: "c30a6221b1f3d09afae9137ffe73c7cbec649947"
+  files {
+    source_file: "fonts/ttf/BIZUDPMincho-Regular.ttf"
+    dest_file: "BIZUDPMincho-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BIZUDPMincho-Bold.ttf"
+    dest_file: "BIZUDPMincho-Bold.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Jpan"

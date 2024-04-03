@@ -30,3 +30,91 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/TypeNetwork/Libre-Franklin"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/LibreFranklin-Italic[wght].ttf"
+    dest_file: "LibreFranklin-Italic[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/LibreFranklin[wght].ttf"
+    dest_file: "LibreFranklin[wght].ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-Black.ttf"
+    dest_file: "static/LibreFranklin-Black.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-BlackItalic.ttf"
+    dest_file: "static/LibreFranklin-BlackItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-Bold.ttf"
+    dest_file: "static/LibreFranklin-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-BoldItalic.ttf"
+    dest_file: "static/LibreFranklin-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-ExtraBold.ttf"
+    dest_file: "static/LibreFranklin-ExtraBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-ExtraBoldItalic.ttf"
+    dest_file: "static/LibreFranklin-ExtraBoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-ExtraLight.ttf"
+    dest_file: "static/LibreFranklin-ExtraLight.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-ExtraLightItalic.ttf"
+    dest_file: "static/LibreFranklin-ExtraLightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-Italic.ttf"
+    dest_file: "static/LibreFranklin-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-Light.ttf"
+    dest_file: "static/LibreFranklin-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-LightItalic.ttf"
+    dest_file: "static/LibreFranklin-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-Medium.ttf"
+    dest_file: "static/LibreFranklin-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-MediumItalic.ttf"
+    dest_file: "static/LibreFranklin-MediumItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-Regular.ttf"
+    dest_file: "static/LibreFranklin-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-SemiBold.ttf"
+    dest_file: "static/LibreFranklin-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-SemiBoldItalic.ttf"
+    dest_file: "static/LibreFranklin-SemiBoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-Thin.ttf"
+    dest_file: "static/LibreFranklin-Thin.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LibreFranklin-ThinItalic.ttf"
+    dest_file: "static/LibreFranklin-ThinItalic.ttf"
+  }
+  branch: "master"
+}

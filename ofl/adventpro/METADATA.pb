@@ -40,6 +40,23 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/Advent"
   commit: "d206a139ee9045993fbd1e530b93f28f8bf4e3b1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/split/AdventPro[wdth,wght].ttf"
+    dest_file: "AdventPro[wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/split/AdventPro-Italic[wdth,wght].ttf"
+    dest_file: "AdventPro-Italic[wdth,wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

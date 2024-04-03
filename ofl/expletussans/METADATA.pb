@@ -29,5 +29,21 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/Expletus-Sans"
+  files {
+    source_file: "fonts/variable/ExpletusSans[wght].ttf"
+    dest_file: "ExpletusSans[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/ExpletusSans-Italic[wght].ttf"
+    dest_file: "ExpletusSans-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

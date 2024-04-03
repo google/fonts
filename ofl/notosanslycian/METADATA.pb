@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "lycian"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/lycian.git"
+  repository_url: "https://github.com/notofonts/lycian"
   archive_url: "https://github.com/notofonts/lycian/releases/download/NotoSansLycian-v2.002/NotoSansLycian-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansLycian/googlefonts/ttf/NotoSansLycian-Regular.ttf"
+    dest_file: "NotoSansLycian-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "xlc_Lyci"  # Lycian

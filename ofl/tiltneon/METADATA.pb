@@ -29,6 +29,19 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/Tilt-Fonts"
   commit: "0773dc9f490aabba0c19c15d290b575b62245970"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/TiltNeon[XROT,YROT].ttf"
+    dest_file: "TiltNeon[XROT,YROT].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
 }
 minisite_url: "https://fonts.withgoogle.com/tilt"
 stroke: "SANS_SERIF"

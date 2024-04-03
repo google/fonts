@@ -36,4 +36,17 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/rubik"
   commit: "e337a5f69a9bea30e58d05bd40184d79cc099628"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Rubik-Italic[wght].ttf"
+    dest_file: "Rubik-Italic[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Rubik[wght].ttf"
+    dest_file: "Rubik[wght].ttf"
+  }
+  branch: "main"
 }

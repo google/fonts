@@ -24,6 +24,19 @@ axes {
 source {
   repository_url: "https://github.com/namelatype/Marhey"
   commit: "535eeb5a3f4dee825fdaf13d84075b212d969f8d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Marhey[wght].ttf"
+    dest_file: "Marhey[wght].ttf"
+  }
+  files {
+    source_file: "DESCRITION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }
 primary_script: "Arab"
 stroke: "SANS_SERIF"

@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "nandinagari"
 source {
-  repository_url: "https://github.com/notofonts/nandinagari.git"
+  repository_url: "https://github.com/notofonts/nandinagari"
   archive_url: "https://github.com/notofonts/nandinagari/releases/download/NotoSansNandinagari-v1.002/NotoSansNandinagari-v1.002.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf"
+    dest_file: "NotoSansNandinagari-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "sa_Nand"  # Sanskrit

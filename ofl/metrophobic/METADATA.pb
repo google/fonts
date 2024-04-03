@@ -19,4 +19,13 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/MetrophobicFont"
   commit: "c834ca0e9188d756627252ae510266ed5e8d2416"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Metrophobic-Regular.ttf"
+    dest_file: "Metrophobic-Regular.ttf"
+  }
+  branch: "main"
 }

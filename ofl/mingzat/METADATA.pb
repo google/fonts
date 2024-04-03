@@ -19,6 +19,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-mingzat"
   archive_url: "https://github.com/silnrsi/font-mingzat/releases/download/v1.100/Mingzat-1.100.zip"
+  files {
+    source_file: "Mingzat-1.100/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Mingzat-1.100/Mingzat-Regular.ttf"
+    dest_file: "Mingzat-Regular.ttf"
+  }
+  branch: "master"
 }
-primary_script: "Lepc"
 languages: "lep_Lepc"  # Lepcha
+primary_script: "Lepc"

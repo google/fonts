@@ -30,3 +30,15 @@ axes {
   min_value: 300.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/Omnibus-Type/Faustina"
+  files {
+    source_file: "fonts/variable/Faustina[wght].ttf"
+    dest_file: "Faustina[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Faustina-Italic[wght].ttf"
+    dest_file: "Faustina-Italic[wght].ttf"
+  }
+  branch: "master"
+}

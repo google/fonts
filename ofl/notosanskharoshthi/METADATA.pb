@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/kharoshthi.git"
+  repository_url: "https://github.com/notofonts/kharoshthi"
   archive_url: "https://github.com/notofonts/kharoshthi/releases/download/NotoSansKharoshthi-v2.004/NotoSansKharoshthi-v2.004.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansKharoshthi/googlefonts/ttf/NotoSansKharoshthi-Regular.ttf"
+    dest_file: "NotoSansKharoshthi-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "pra_Khar"  # Prakrit

@@ -33,5 +33,25 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/christiannaths/redacted-font"
+  files {
+    source_file: "RedactedScript/fonts/ttf/RedactedScript-Regular.ttf"
+    dest_file: "RedactedScript-Regular.ttf"
+  }
+  files {
+    source_file: "RedactedScript/fonts/ttf/RedactedScript-Light.ttf"
+    dest_file: "RedactedScript-Light.ttf"
+  }
+  files {
+    source_file: "RedactedScript/fonts/ttf/RedactedScript-Bold.ttf"
+    dest_file: "RedactedScript-Bold.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 classifications: "HANDWRITING"
 classifications: "SYMBOLS"

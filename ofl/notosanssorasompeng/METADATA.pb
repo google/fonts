@@ -22,8 +22,25 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/sora-sompeng.git"
+  repository_url: "https://github.com/notofonts/sora-sompeng"
   archive_url: "https://github.com/notofonts/sora-sompeng/releases/download/NotoSansSoraSompeng-v2.101/NotoSansSoraSompeng-v2.101.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansSoraSompeng/googlefonts/variable-ttf/NotoSansSoraSompeng[wght].ttf"
+    dest_file: "NotoSansSoraSompeng[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "sa_Sora"  # Sanskrit, Sora Sompeng

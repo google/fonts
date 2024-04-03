@@ -34,4 +34,17 @@ axes {
 source {
   repository_url: "https://github.com/tokotype/PlusJakartaSans"
   commit: "163c006ff169bbb932757276b98a26f36a1409d8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/PlusJakartaSans[wght].ttf"
+    dest_file: "PlusJakartaSans[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/PlusJakartaSans-Italic[wght].ttf"
+    dest_file: "PlusJakartaSans-Italic[wght].ttf"
+  }
+  branch: "master"
 }

@@ -1,7 +1,0 @@
-branch: tags/Version1.6
-build: mkdir -p build; python3 -m venv build/venv; source build/venv/bin/activate;
-  pip install -r requirements.txt; make ttf
-files:
-  OFL.txt: OFL.txt
-  build/Chilanka-Regular.ttf: Chilanka-Regular.ttf
-archive:

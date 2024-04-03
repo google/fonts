@@ -19,6 +19,19 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/whisper"
   commit: "e546c2e4c06f4d04a8e5400ac64aba88b1cca511"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Whisper-Regular.ttf"
+    dest_file: "Whisper-Regular.ttf"
+  }
+  branch: "master"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

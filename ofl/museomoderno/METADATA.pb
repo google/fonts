@@ -33,6 +33,19 @@ axes {
 source {
   repository_url: "https://github.com/Omnibus-Type/MuseoModerno"
   commit: "ad2f135bea4525cf6d1f14d488593c0fc6ef82db"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/MuseoModerno[wght].ttf"
+    dest_file: "MuseoModerno[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/MuseoModerno-Italic[wght].ttf"
+    dest_file: "MuseoModerno-Italic[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

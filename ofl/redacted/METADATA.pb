@@ -15,5 +15,17 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/christiannaths/redacted-font"
+  files {
+    source_file: "Redacted/fonts/ttf/Redacted-Regular.ttf"
+    dest_file: "Redacted-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 classifications: "DISPLAY"
 classifications: "SYMBOLS"

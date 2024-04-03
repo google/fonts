@@ -21,6 +21,19 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/Afrotype/tac"
   commit: "5e8ff11215e3c3abfaffb94557c623a3ce5a5a07"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/TacOne-Regular.ttf"
+    dest_file: "TacOne-Regular.ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

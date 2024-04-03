@@ -25,5 +25,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/birthstone-bounce"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/BirthstoneBounce-Regular.ttf"
+    dest_file: "BirthstoneBounce-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BirthstoneBounce-Medium.ttf"
+    dest_file: "BirthstoneBounce-Medium.ttf"
+  }
+  branch: "main"
+}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

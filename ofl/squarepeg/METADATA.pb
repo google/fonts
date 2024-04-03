@@ -19,6 +19,19 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/square-peg"
   commit: "ec1628592761b8b9e7713b6d2b463fb9724c6e8e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/SquarePeg-Regular.ttf"
+    dest_file: "SquarePeg-Regular.ttf"
+  }
+  branch: "master"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

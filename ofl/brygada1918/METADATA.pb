@@ -33,4 +33,20 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/kosmynkab/Brygada-1918"
+  files {
+    source_file: "fonts/variable/Brygada1918[wght].ttf"
+    dest_file: "Brygada1918[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Brygada1918-Italic[wght].ttf"
+    dest_file: "Brygada1918-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
+}
 minisite_url: "https://brygada1918.eu/"

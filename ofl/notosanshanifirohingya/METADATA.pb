@@ -22,8 +22,25 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/hanifi-rohingya.git"
+  repository_url: "https://github.com/notofonts/hanifi-rohingya"
   archive_url: "https://github.com/notofonts/hanifi-rohingya/releases/download/NotoSansHanifiRohingya-v2.102/NotoSansHanifiRohingya-v2.102.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansHanifiRohingya/googlefonts/variable-ttf/NotoSansHanifiRohingya[wght].ttf"
+    dest_file: "NotoSansHanifiRohingya[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "rhg_Rohg"  # Rohingya

@@ -21,4 +21,12 @@ axes {
   min_value: 1.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/mjlagattuta/Hepta-Slab"
+  files {
+    source_file: "fonts/variable/HeptaSlab[wght].ttf"
+    dest_file: "HeptaSlab[wght].ttf"
+  }
+  branch: "master"
+}
 stroke: "SLAB_SERIF"

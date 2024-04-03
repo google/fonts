@@ -28,6 +28,19 @@ axes {
 source {
   repository_url: "https://github.com/yanone/kaffeesatz"
   commit: "104c0ced99e8390bf5b138c5ca6065c0f5fcc333"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/YanoneKaffeesatz[wght].ttf"
+    dest_file: "YanoneKaffeesatz[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

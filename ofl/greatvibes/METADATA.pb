@@ -35,6 +35,18 @@ source {
     source_file: "fonts/ttf/GreatVibes-Regular.ttf"
     dest_file: "GreatVibes-Regular.ttf"
   }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/GreatVibes-Regular.ttf"
+    dest_file: "GreatVibes-Regular.ttf"
+  }
   branch: "master"
 }
 classifications: "DISPLAY"

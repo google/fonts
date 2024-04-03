@@ -30,5 +30,18 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/morisawa-biz-ud-gothic"
   commit: "38953aa0afd6937b9caa899e18f4550db7298d69"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BIZUDGothic-Regular.ttf"
+    dest_file: "BIZUDGothic-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BIZUDGothic-Bold.ttf"
+    dest_file: "BIZUDGothic-Bold.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Jpan"

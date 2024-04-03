@@ -35,5 +35,18 @@ axes {
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite/"
   commit: "7f0e083357d763db855e665a5d4e58c002b61943"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts-models/fonts-GB_S/variable/PlaywriteGBS[wght].ttf"
+    dest_file: "PlaywriteGBS[wght].ttf"
+  }
+  files {
+    source_file: "fonts-models/fonts-GB_S/variable/PlaywriteGBS-Italic[wght].ttf"
+    dest_file: "PlaywriteGBS-Italic[wght].ttf"
+  }
+  branch: "lang-build"
 }
 display_name: "Playwrite England Semijoin"

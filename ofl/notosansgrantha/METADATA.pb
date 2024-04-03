@@ -17,8 +17,21 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/grantha.git"
+  repository_url: "https://github.com/notofonts/grantha"
   archive_url: "https://github.com/notofonts/grantha/releases/download/NotoSansGrantha-v2.003/NotoSansGrantha-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansGrantha/googlefonts/ttf/NotoSansGrantha-Regular.ttf"
+    dest_file: "NotoSansGrantha-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "sa_Gran"  # Sanskrit, Grantha

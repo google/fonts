@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/alphArtype/Delicious-Handrawn"
   commit: "0a9b42f98d6f2ee40563a406b1cdd9bb5a58fe57"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DeliciousHandrawn-Regular.ttf"
+    dest_file: "DeliciousHandrawn-Regular.ttf"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

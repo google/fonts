@@ -34,4 +34,21 @@ axes {
 source {
   repository_url: "https://github.com/marcologous/hanken-grotesk"
   commit: "e6e3c4df55acfe44333c587e3d97ae3c44b7dce5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/HankenGrotesk[wght].ttf"
+    dest_file: "HankenGrotesk[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/HankenGrotesk-Italic[wght].ttf"
+    dest_file: "HankenGrotesk-Italic[wght].ttf"
+  }
+  branch: "master"
 }

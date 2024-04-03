@@ -29,4 +29,17 @@ axes {
 source {
   repository_url: "https://github.com/CatharsisFonts/Ysabeau"
   commit: "8e2ca3573545176256d370f891604bc453029568"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/googlefonts/variable/YsabeauSC[wght].ttf"
+    dest_file: "YsabeauSC[wght].ttf"
+  }
+  branch: "master"
 }

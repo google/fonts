@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "zanabazar-square"
 source {
-  repository_url: "https://github.com/notofonts/zanabazar-square.git"
+  repository_url: "https://github.com/notofonts/zanabazar-square"
   archive_url: "https://github.com/notofonts/zanabazar-square/releases/download/NotoSansZanabazarSquare-v2.006/NotoSansZanabazarSquare-v2.006.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansZanabazarSquare/googlefonts/ttf/NotoSansZanabazarSquare-Regular.ttf"
+    dest_file: "NotoSansZanabazarSquare-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "bo_Zanb"  # Tibetan, Zanabazar

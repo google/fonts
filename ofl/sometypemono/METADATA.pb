@@ -32,6 +32,19 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/sometype-mono"
   commit: "cf583c22bc6279d23e587e3ca310e131dd277286"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/SometypeMono[wght].ttf"
+    dest_file: "SometypeMono[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/SometypeMono-Italic[wght].ttf"
+    dest_file: "SometypeMono-Italic[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

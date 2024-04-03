@@ -18,5 +18,14 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/ShantiFont"
   commit: "511bc905381c9863b3dc241fc47523d1c3ba382f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Shanti-Regular.ttf"
+    dest_file: "Shanti-Regular.ttf"
+  }
+  branch: "master"
 }
-stroke:"SANS_SERIF"
+stroke: "SANS_SERIF"

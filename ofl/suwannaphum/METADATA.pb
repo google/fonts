@@ -51,3 +51,31 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Suwannaphum"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Suwannaphum-Thin.ttf"
+    dest_file: "Suwannaphum-Thin.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Suwannaphum-Light.ttf"
+    dest_file: "Suwannaphum-Light.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Suwannaphum-Regular.ttf"
+    dest_file: "Suwannaphum-Regular.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Suwannaphum-Bold.ttf"
+    dest_file: "Suwannaphum-Bold.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Suwannaphum-Black.ttf"
+    dest_file: "Suwannaphum-Black.ttf"
+  }
+  branch: "master"
+}

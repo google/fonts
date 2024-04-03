@@ -26,6 +26,15 @@ axes {
 source {
   repository_url: "https://github.com/OdedEzer/heebo"
   commit: "76c7d538568d3e6d7f052a12c5675c84430df25f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Heebo[wght].ttf"
+    dest_file: "Heebo[wght].ttf"
+  }
+  branch: "master"
 }
 primary_script: "Hebr"
 stroke: "SANS_SERIF"

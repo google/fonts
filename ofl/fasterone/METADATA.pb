@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/faster"
   commit: "c1eb445af08bcc5ce66380f65e56d9d3135cca3c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/FasterOne-Regular.ttf"
+    dest_file: "FasterOne-Regular.ttf"
+  }
+  branch: "master"
 }

@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/Kite-One"
   commit: "be1d4f26c91c29993c47fa4b4857337b0d94e2f2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/KiteOne-Regular.ttf"
+    dest_file: "KiteOne-Regular.ttf"
+  }
+  branch: "master"
 }

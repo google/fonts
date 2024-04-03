@@ -17,8 +17,21 @@ subsets: "latin-ext"
 subsets: "mende-kikakui"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/mende-kikakui.git"
+  repository_url: "https://github.com/notofonts/mende-kikakui"
   archive_url: "https://github.com/notofonts/mende-kikakui/releases/download/NotoSansMendeKikakui-v2.003/NotoSansMendeKikakui-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansMendeKikakui/googlefonts/ttf/NotoSansMendeKikakui-Regular.ttf"
+    dest_file: "NotoSansMendeKikakui-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "men_Mend"  # Mende, Mende

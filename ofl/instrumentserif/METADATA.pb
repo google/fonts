@@ -27,4 +27,17 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/Instrument/instrument-serif"
   commit: "9aefd76b9b96dffbdc7b65d38c0dc5bcae2717a9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/InstrumentSerif-Regular.ttf"
+    dest_file: "InstrumentSerif-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/InstrumentSerif-Italic.ttf"
+    dest_file: "InstrumentSerif-Italic.ttf"
+  }
+  branch: "main"
 }

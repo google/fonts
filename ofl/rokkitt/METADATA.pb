@@ -33,5 +33,18 @@ axes {
 source {
   repository_url: "https://github.com/Fonthausen/RokkittFont"
   commit: "762d1439aaa7cf4a590f604451dfc2e1c6970b9f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Rokkitt-Italic[wght].ttf"
+    dest_file: "Rokkitt-Italic[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Rokkitt[wght].ttf"
+    dest_file: "Rokkitt[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SLAB_SERIF"

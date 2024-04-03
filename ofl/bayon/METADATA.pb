@@ -15,6 +15,18 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Bayon"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Bayon-Regular.ttf"
+    dest_file: "Bayon-Regular.ttf"
+  }
+  branch: "master"
+}
+primary_script: "Khmr"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
-primary_script: "Khmr"

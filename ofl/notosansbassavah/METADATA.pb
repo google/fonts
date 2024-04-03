@@ -22,8 +22,21 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/bassa-vah.git"
+  repository_url: "https://github.com/notofonts/bassa-vah"
   archive_url: "https://github.com/notofonts/bassa-vah/releases/download/NotoSansBassaVah-v2.002/NotoSansBassaVah-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansBassaVah/googlefonts/variable-ttf/NotoSansBassaVah[wght].ttf"
+    dest_file: "NotoSansBassaVah[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "bsq_Bass"  # Bassa

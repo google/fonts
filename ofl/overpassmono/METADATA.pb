@@ -23,3 +23,15 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/RedHatOfficial/Overpass"
+  files {
+    source_file: "fonts/variable_mono/OverpassMono[wght].ttf"
+    dest_file: "OverpassMono[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}

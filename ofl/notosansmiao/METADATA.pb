@@ -17,8 +17,21 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "miao"
 source {
-  repository_url: "https://github.com/notofonts/miao.git"
+  repository_url: "https://github.com/notofonts/miao"
   archive_url: "https://github.com/notofonts/miao/releases/download/NotoSansMiao-v2.003/NotoSansMiao-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansMiao/googlefonts/ttf/NotoSansMiao-Regular.ttf"
+    dest_file: "NotoSansMiao-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "hmd_Plrd"  # A-Hmao

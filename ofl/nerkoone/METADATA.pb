@@ -15,3 +15,23 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/nermink99/Nerko"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "FONTLOG.txt"
+    dest_file: "FONTLOG.txt"
+  }
+  files {
+    source_file: "fonts/ttf/NerkoOne-Regular.ttf"
+    dest_file: "NerkoOne-Regular.ttf"
+  }
+  branch: "master"
+}

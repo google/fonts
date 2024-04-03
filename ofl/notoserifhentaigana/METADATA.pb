@@ -21,8 +21,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/hentaigana.git"
+  repository_url: "https://github.com/notofonts/hentaigana"
   archive_url: "https://github.com/notofonts/hentaigana/releases/download/NotoSerifHentaigana-v1.000/NotoSerifHentaigana-v1.000.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSerifHentaigana/googlefonts/variable/NotoSerifHentaigana[wght].ttf"
+    dest_file: "NotoSerifHentaigana[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 primary_script: "Hira"

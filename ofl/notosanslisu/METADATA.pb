@@ -22,8 +22,17 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/lisu.git"
+  repository_url: "https://github.com/notofonts/lisu"
   archive_url: "https://github.com/notofonts/lisu/releases/download/NotoSansLisu-v2.102/NotoSansLisu-v2.102.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansLisu/googlefonts/variable-ttf/NotoSansLisu[wght].ttf"
+    dest_file: "NotoSansLisu[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "lis_Lisu"  # Lisu

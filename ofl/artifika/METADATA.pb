@@ -17,4 +17,17 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/cyrealtype/Artifika"
   commit: "50137a4bf13c4918f78d4b566d14ae3dde703456"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Artifika-Regular.ttf"
+    dest_file: "Artifika-Regular.ttf"
+  }
+  branch: "master"
 }

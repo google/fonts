@@ -20,6 +20,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/Gabriela"
   commit: "961e4fb89c38cbe8ddcc3c9268c42d94c834d5da"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Gabriela-Regular.ttf"
+    dest_file: "Gabriela-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

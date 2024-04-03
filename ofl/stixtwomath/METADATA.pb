@@ -19,3 +19,19 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/stipub/stixfonts"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/static_ttf/STIXTwoMath-Regular.ttf"
+    dest_file: "STIXTwoMath-Regular.ttf"
+  }
+  branch: "master"
+}

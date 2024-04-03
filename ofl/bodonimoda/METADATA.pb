@@ -43,5 +43,18 @@ registry_default_overrides {
 source {
   repository_url: "https://github.com/indestructible-type/Bodoni"
   commit: "30ce6cdc354ef179a3b72ba0f0e71826e599348c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/BodoniModa[opsz,wght].ttf"
+    dest_file: "BodoniModa[opsz,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/BodoniModa-Italic[opsz,wght].ttf"
+    dest_file: "BodoniModa-Italic[opsz,wght].ttf"
+  }
+  branch: "master"
 }
-stroke:"SERIF"
+stroke: "SERIF"

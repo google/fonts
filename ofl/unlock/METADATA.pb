@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/unlock"
   commit: "cf3defaec0849f2d59a9db60eb810ffa32d07eee"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Unlock-Regular.ttf"
+    dest_file: "Unlock-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

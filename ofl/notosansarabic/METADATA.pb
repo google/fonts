@@ -29,8 +29,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/arabic.git"
+  repository_url: "https://github.com/notofonts/arabic"
   archive_url: "https://github.com/notofonts/arabic/releases/download/NotoSansArabic-v2.012/NotoSansArabic-v2.012.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansArabic/googlefonts/variable/NotoSansArabic[wdth,wght].ttf"
+    dest_file: "NotoSansArabic[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aeb_Arab"  # Tunisian Arabic
@@ -99,7 +116,7 @@ languages: "shi_Arab"  # Tachelhit
 languages: "skr_Arab"  # Saraiki
 languages: "so_Arab"  # Somali, Arabic
 languages: "sus_Arab"  # Susu, Arabic
-languages: "swb_Arab"  # Comorian
+languages: "swb_Arab"  # Maore Comorian, Arabic
 languages: "tg_Arab"  # Tajik (Arabic)
 languages: "tk_Arab"  # Turkmen
 languages: "tly_Arab"  # Talysh

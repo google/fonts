@@ -31,5 +31,25 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/rosettatype/yrsa-rasa"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/Rasa-DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/RasaVariable/RasaVF-Ups.ttf"
+    dest_file: "Rasa[wght].ttf"
+  }
+  files {
+    source_file: "fonts/RasaVariable/RasaVF-Its.ttf"
+    dest_file: "Rasa-Italic[wght].ttf"
+  }
+  branch: "master"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

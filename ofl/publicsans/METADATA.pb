@@ -33,5 +33,18 @@ axes {
 source {
   repository_url: "https://github.com/uswds/public-sans"
   commit: "c7923167a592d941646f99fb7b5fba17aa7d69e1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/PublicSans[wght].ttf"
+    dest_file: "PublicSans[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/PublicSans-Italic[wght].ttf"
+    dest_file: "PublicSans-Italic[wght].ttf"
+  }
+  branch: "main"
 }
 minisite_url: "https://public-sans.digital.gov/"

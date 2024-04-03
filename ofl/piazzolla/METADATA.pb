@@ -42,7 +42,20 @@ axes {
 source {
   repository_url: "https://github.com/huertatipografica/piazzolla"
   commit: "2c84615f45b98b75238401c53ef993e558082a63"
+  files {
+    source_file: "fonts/variable/ttf/Piazzolla[opsz,wght].ttf"
+    dest_file: "Piazzolla[opsz,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/ttf/Piazzolla-Italic[opsz,wght].ttf"
+    dest_file: "Piazzolla-Italic[opsz,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "google_prs"
 }
+minisite_url: "https://piazzolla.huertatipografica.com/"
 stroke: "SERIF"
 classifications: "DISPLAY"
-minisite_url: "https://piazzolla.huertatipografica.com/"

@@ -17,5 +17,21 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/JapanYoshi/Orelega"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ttf/OrelegaOne-Regular.ttf"
+    dest_file: "OrelegaOne-Regular.ttf"
+  }
+  branch: "master"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

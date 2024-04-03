@@ -14,12 +14,21 @@ fonts {
 }
 subsets: "menu"
 subsets: "emoji"
-is_noto: true
 axes {
   tag: "wght"
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: ""
+  archive_url: "https://github.com/googlefonts/emoji-bw/releases/download/v3.000/NotoEmoji.wght.ttf.zip"
+  files {
+    source_file: "NotoEmoji[wght].ttf"
+    dest_file: "NotoEmoji[wght].ttf"
+  }
+  branch: "main"
+}
+is_noto: true
 sample_text {
   masthead_full: "🎶🎷🐛"
   masthead_partial: "🍪"

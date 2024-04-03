@@ -57,6 +57,31 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/silnrsi/font-narnoor"
   archive_url: "https://github.com/silnrsi/font-narnoor/releases/download/v3.000/Narnoor-3.000.zip"
+  files {
+    source_file: "Narnoor-3.000/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Narnoor-3.000/Narnoor-Regular.ttf"
+    dest_file: "Narnoor-Regular.ttf"
+  }
+  files {
+    source_file: "Narnoor-3.000/Narnoor-Medium.ttf"
+    dest_file: "Narnoor-Medium.ttf"
+  }
+  files {
+    source_file: "Narnoor-3.000/Narnoor-SemiBold.ttf"
+    dest_file: "Narnoor-SemiBold.ttf"
+  }
+  files {
+    source_file: "Narnoor-3.000/Narnoor-Bold.ttf"
+    dest_file: "Narnoor-Bold.ttf"
+  }
+  files {
+    source_file: "Narnoor-3.000/Narnoor-ExtraBold.ttf"
+    dest_file: "Narnoor-ExtraBold.ttf"
+  }
+  branch: "master"
 }
 languages: "wsg_Gong"  # Adilabad Gondi, Gunjala Gondi
 primary_script: "Gong"

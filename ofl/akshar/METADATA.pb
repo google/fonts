@@ -24,4 +24,17 @@ axes {
 source {
   repository_url: "https://github.com/tallchai/akshar-type"
   commit: "0c6de5ef9cef264b3b3f958e772b3a371f92d083"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Akshar[wght].ttf"
+    dest_file: "Akshar[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }

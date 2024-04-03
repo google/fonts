@@ -29,6 +29,23 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/alumni-sans-inline"
   commit: "81ea544e0ce487475c75df9545cd3df946c7ba26"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/AlumniSansInlineOne-Regular.ttf"
+    dest_file: "AlumniSansInlineOne-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AlumniSansInlineOne-Italic.ttf"
+    dest_file: "AlumniSansInlineOne-Italic.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

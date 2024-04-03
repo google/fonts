@@ -20,5 +20,17 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/kosbarts/Oi"
+  files {
+    source_file: "fonts/ttf/Oi-Regular.ttf"
+    dest_file: "Oi-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

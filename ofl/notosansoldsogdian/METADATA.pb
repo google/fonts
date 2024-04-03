@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "old-sogdian"
 source {
-  repository_url: "https://github.com/notofonts/old-sogdian.git"
+  repository_url: "https://github.com/notofonts/old-sogdian"
   archive_url: "https://github.com/notofonts/old-sogdian/releases/download/NotoSansOldSogdian-v2.002/NotoSansOldSogdian-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansOldSogdian/googlefonts/ttf/NotoSansOldSogdian-Regular.ttf"
+    dest_file: "NotoSansOldSogdian-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aii_Sogo"  # Assyrian Neo-Aramaic, Old Sogdian

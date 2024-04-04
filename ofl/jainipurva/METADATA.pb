@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2023 The Jaini Project Authors (https://github.com/EkType/Jaini)"
 }
 subsets: "devanagari"
+subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 source {

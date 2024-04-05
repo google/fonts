@@ -39,4 +39,4 @@ source {
   }
   branch: "main"
 }
-display_name: "Edu QLD Hand Precursivecursive"
+display_name: "Edu QLD Hand Precursive"

@@ -64,4 +64,33 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/Crimson"
   commit: "4f1458ae64c6c0d9c5fdfbf5095c7fabe0fa063f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-Bold.ttf"
+    dest_file: "CrimsonText-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-BoldItalic.ttf"
+    dest_file: "CrimsonText-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-Italic.ttf"
+    dest_file: "CrimsonText-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-Regular.ttf"
+    dest_file: "CrimsonText-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-SemiBold.ttf"
+    dest_file: "CrimsonText-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-SemiBoldItalic.ttf"
+    dest_file: "CrimsonText-SemiBoldItalic.ttf"
+  }
+  branch: "master"
 }

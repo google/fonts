@@ -15,5 +15,21 @@ fonts {
 subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/liujianmaocao"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/LiuJianMaoCao-Regular.ttf"
+    dest_file: "LiuJianMaoCao-Regular.ttf"
+  }
+  branch: "master"
+}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

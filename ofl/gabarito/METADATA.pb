@@ -23,5 +23,14 @@ axes {
 source {
   repository_url: "https://github.com/naipefoundry/gabarito"
   commit: "1f3fb39d6449eefa880543f109f33ede0cd4064f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Gabarito[wght].ttf"
+    dest_file: "Gabarito[wght].ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"

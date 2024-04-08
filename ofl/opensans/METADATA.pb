@@ -45,6 +45,19 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/opensans"
   commit: "bd7e37632246368c60fdcbd374dbf9bad11969b6"
+  files {
+    source_file: "fonts/variable/OpenSans[wdth,wght].ttf"
+    dest_file: "OpenSans[wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/OpenSans-Italic[wdth,wght].ttf"
+    dest_file: "OpenSans-Italic[wdth,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
 }
 fallbacks {
   axis_target {

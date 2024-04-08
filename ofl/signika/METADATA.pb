@@ -29,4 +29,13 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/Signika"
   commit: "7361a224d1d77274af1ea11dd06448c54c16f598"
+  files {
+    source_file: "fonts/variable/Signika[GRAD,wght].ttf"
+    dest_file: "Signika[GRAD,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
 }

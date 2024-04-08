@@ -15,8 +15,17 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
-primary_script: "Arab"
 source {
   repository_url: "https://github.com/aliftype/amiri"
   commit: "066b49c136a42ef75f9317187e1b3d3a630032cb"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "gf_fonts/AmiriQuran-Regular.ttf"
+    dest_file: "AmiriQuran-Regular.ttf"
+  }
+  branch: "main"
 }
+primary_script: "Arab"

@@ -19,6 +19,19 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Grandiflora"
   commit: "b016ca716dade21cb890efc78b9349275c4e7c99"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Fonts/ttf/GrandifloraOne-Regular.ttf"
+    dest_file: "GrandifloraOne-Regular.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Kore"
 classifications: "DISPLAY"

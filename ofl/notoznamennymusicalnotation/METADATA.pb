@@ -19,8 +19,25 @@ subsets: "menu"
 subsets: "symbols"
 subsets: "znamenny"
 source {
-  repository_url: "https://github.com/notofonts/znamenny.git"
+  repository_url: "https://github.com/notofonts/znamenny"
   archive_url: "https://github.com/notofonts/znamenny/releases/download/NotoZnamennyMusicalNotation-v1.003/NotoZnamennyMusicalNotation-v1.003.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoZnamennyMusicalNotation/googlefonts/ttf/NotoZnamennyMusicalNotation-Regular.ttf"
+    dest_file: "NotoZnamennyMusicalNotation-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 sample_text {

@@ -33,5 +33,18 @@ axes {
 source {
   repository_url: "https://github.com/d-sargent/platypi"
   commit: "8574bbbc965e398a8c3da7edd926edda82b63113"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Platypi[wght].ttf"
+    dest_file: "Platypi[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Platypi-Italic[wght].ttf"
+    dest_file: "Platypi-Italic[wght].ttf"
+  }
+  branch: "main"
 }
-stroke:"SERIF"
+stroke: "SERIF"

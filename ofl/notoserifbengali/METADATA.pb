@@ -27,8 +27,17 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/bengali.git"
+  repository_url: "https://github.com/notofonts/bengali"
   archive_url: "https://github.com/notofonts/bengali/releases/download/NotoSerifBengali-v2.003/NotoSerifBengali-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf"
+    dest_file: "NotoSerifBengali[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "as_Beng"  # Assamese

@@ -19,5 +19,18 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Orbit"
   commit: "9f58ea557b9b3fd068f61f355f742fb58e741966"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Fonts/ttf/Orbit-Regular.ttf"
+    dest_file: "Orbit-Regular.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Kore"

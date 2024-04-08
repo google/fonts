@@ -27,8 +27,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/telugu.git"
+  repository_url: "https://github.com/notofonts/telugu"
   archive_url: "https://github.com/notofonts/telugu/releases/download/NotoSansTelugu-v2.005/NotoSansTelugu-v2.005.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansTelugu/googlefonts/variable/NotoSansTelugu[wdth,wght].ttf"
+    dest_file: "NotoSansTelugu[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "gon_Telu"  # Gondi, Telugu

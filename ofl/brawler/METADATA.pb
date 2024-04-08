@@ -23,3 +23,23 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/cyrealtype/Brawler"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/TTF/Brawler-Regular.ttf"
+    dest_file: "Brawler-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/TTF/Brawler-Bold.ttf"
+    dest_file: "Brawler-Bold.ttf"
+  }
+  branch: "master"
+}

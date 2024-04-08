@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/buginese.git"
+  repository_url: "https://github.com/notofonts/buginese"
   archive_url: "https://github.com/notofonts/buginese/releases/download/NotoSansBuginese-v2.002/NotoSansBuginese-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansBuginese/googlefonts/ttf/NotoSansBuginese-Regular.ttf"
+    dest_file: "NotoSansBuginese-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "bug_Bugi"  # Buginese, Buginese

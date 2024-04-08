@@ -46,6 +46,27 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-kayphodu"
   archive_url: "https://github.com/silnrsi/font-kayphodu/releases/download/v3.000/KayPhoDu-3.000.zip"
+  files {
+    source_file: "KayPhoDu-3.000/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "KayPhoDu-3.000/KayPhoDu-Regular.ttf"
+    dest_file: "KayPhoDu-Regular.ttf"
+  }
+  files {
+    source_file: "KayPhoDu-3.000/KayPhoDu-Medium.ttf"
+    dest_file: "KayPhoDu-Medium.ttf"
+  }
+  files {
+    source_file: "KayPhoDu-3.000/KayPhoDu-SemiBold.ttf"
+    dest_file: "KayPhoDu-SemiBold.ttf"
+  }
+  files {
+    source_file: "KayPhoDu-3.000/KayPhoDu-Bold.ttf"
+    dest_file: "KayPhoDu-Bold.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Kali"
 stroke: "SLAB_SERIF"

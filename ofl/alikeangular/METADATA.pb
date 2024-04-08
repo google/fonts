@@ -20,6 +20,15 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/cyrealtype/Alike-Angular"
   commit: "20765691758ef999907b9a20950d4f57f62de1d1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AlikeAngular-Regular.ttf"
+    dest_file: "AlikeAngular-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

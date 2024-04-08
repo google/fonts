@@ -30,6 +30,23 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/alumni-sans-collegiate"
   commit: "9dc96be1ead732fb1677c88632665e0bbf2e4ee2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/AlumniSansCollegiateOne-Regular.ttf"
+    dest_file: "AlumniSansCollegiateOne-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AlumniSansCollegiateOne-Italic.ttf"
+    dest_file: "AlumniSansCollegiateOne-Italic.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

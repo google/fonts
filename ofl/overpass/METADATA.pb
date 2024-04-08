@@ -32,4 +32,20 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/RedHatOfficial/Overpass"
+  files {
+    source_file: "fonts/variable/Overpass[wght].ttf"
+    dest_file: "Overpass[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Overpass-Italic[wght].ttf"
+    dest_file: "Overpass-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 minisite_url: "https://overpassfont.org/"

@@ -32,6 +32,19 @@ axes {
 source {
   repository_url: "https://github.com/jeremymickel/RedHatFonts"
   commit: "d20968c93b62cedcc5ca4d2de2d8063c7efe35d1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/proportional/RedHatDisplay[wght].ttf"
+    dest_file: "RedHatDisplay[wght].ttf"
+  }
+  files {
+    source_file: "fonts/proportional/RedHatDisplay-Italic[wght].ttf"
+    dest_file: "RedHatDisplay-Italic[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

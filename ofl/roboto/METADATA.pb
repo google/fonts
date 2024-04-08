@@ -44,4 +44,13 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/roboto-classic"
   archive_url: "https://github.com/googlefonts/roboto-classic/releases/download/v3.009/Roboto_v3.009.zip"
+  files {
+    source_file: "web/split/Roboto[wdth,wght].ttf"
+    dest_file: "Roboto[wdth,wght].ttf"
+  }
+  files {
+    source_file: "web/split/Roboto-Italic[wdth,wght].ttf"
+    dest_file: "Roboto-Italic[wdth,wght].ttf"
+  }
+  branch: "main"
 }

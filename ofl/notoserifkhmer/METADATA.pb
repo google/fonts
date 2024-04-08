@@ -27,8 +27,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/khmer.git"
+  repository_url: "https://github.com/notofonts/khmer"
   archive_url: "https://github.com/notofonts/khmer/releases/download/NotoSerifKhmer-v2.004/NotoSerifKhmer-v2.004.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSerifKhmer/googlefonts/variable/NotoSerifKhmer[wdth,wght].ttf"
+    dest_file: "NotoSerifKhmer[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "km_Khmr"  # Khmer

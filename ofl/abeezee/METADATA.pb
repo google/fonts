@@ -24,3 +24,19 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/abeezee"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/ABeeZee-Regular.ttf"
+    dest_file: "ABeeZee-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ABeeZee-Italic.ttf"
+    dest_file: "ABeeZee-Italic.ttf"
+  }
+  branch: "main"
+}

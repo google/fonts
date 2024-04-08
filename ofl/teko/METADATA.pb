@@ -24,6 +24,15 @@ axes {
 source {
   repository_url: "https://www.github.com/googlefonts/teko"
   commit: "6715caf853f342eef57ea367b6c2991cd3928398"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Teko[wght].ttf"
+    dest_file: "Teko[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

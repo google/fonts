@@ -33,5 +33,18 @@ axes {
 source {
   repository_url: "https://github.com/AlessioLaiso/aleo"
   commit: "ce875e48d9983031648e87f38b7a269f4fbf5eb5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Aleo[wght].ttf"
+    dest_file: "Aleo[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Aleo-Italic[wght].ttf"
+    dest_file: "Aleo-Italic[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SLAB_SERIF"

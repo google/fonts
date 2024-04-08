@@ -19,6 +19,15 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/scfried/soft-type-yarndings"
   commit: "200cc40a30ffbe590807cdfc8b8e17d0d63c43ff"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Yarndings20-Regular.ttf"
+    dest_file: "Yarndings20-Regular.ttf"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"
 classifications: "SYMBOLS"

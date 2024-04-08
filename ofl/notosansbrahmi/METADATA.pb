@@ -19,8 +19,25 @@ subsets: "math"
 subsets: "menu"
 subsets: "symbols"
 source {
-  repository_url: "https://github.com/notofonts/brahmi.git"
+  repository_url: "https://github.com/notofonts/brahmi"
   archive_url: "https://github.com/notofonts/brahmi/releases/download/NotoSansBrahmi-v2.004/NotoSansBrahmi-v2.004.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansBrahmi/googlefonts/ttf/NotoSansBrahmi-Regular.ttf"
+    dest_file: "NotoSansBrahmi-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aii_Brah"  # Assyrian Neo-Aramaic, Brahmi

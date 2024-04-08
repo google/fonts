@@ -23,5 +23,18 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "df817f272b98fb24d9c3b10323ac08ab74c08227"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "brokenfax/fonts/ttf/RubikBrokenFax-Regular.ttf"
+    dest_file: "RubikBrokenFax-Regular.ttf"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"

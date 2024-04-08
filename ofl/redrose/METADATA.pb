@@ -21,5 +21,33 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/magictype/redrose"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/RedRose[wght].ttf"
+    dest_file: "RedRose[wght].ttf"
+  }
+  files {
+    source_file: "fonts/ttf/RedRose-Regular.ttf"
+    dest_file: "static/RedRose-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/RedRose-Bold.ttf"
+    dest_file: "static/RedRose-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/RedRose-Light.ttf"
+    dest_file: "static/RedRose-Light.ttf"
+  }
+  branch: "master"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

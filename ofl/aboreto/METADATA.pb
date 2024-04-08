@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/domija/Aboreto"
   commit: "07795db7fb5cf9029f1bac1ae0b130bbae6c5feb"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Aboreto-Regular.ttf"
+    dest_file: "Aboreto-Regular.ttf"
+  }
+  branch: "main"
 }

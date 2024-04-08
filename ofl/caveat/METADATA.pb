@@ -22,3 +22,23 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/caveat"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Caveat[wght].ttf"
+    dest_file: "Caveat[wght].ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Caveat-Regular.ttf"
+    dest_file: "static/Caveat-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Caveat-Bold.ttf"
+    dest_file: "static/Caveat-Bold.ttf"
+  }
+  branch: "master"
+}

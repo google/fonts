@@ -17,5 +17,17 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/explora"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Explora-Regular.ttf"
+    dest_file: "Explora-Regular.ttf"
+  }
+  branch: "master"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

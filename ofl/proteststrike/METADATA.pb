@@ -21,5 +21,14 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/octaviopardo/Protest"
   commit: "094e74050a0547c8decd760b4f926321a5e72c6e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ProtestStrike/ttf/ProtestStrike-Regular.ttf"
+    dest_file: "ProtestStrike-Regular.ttf"
+  }
+  branch: "master"
 }
-stroke:"SANS_SERIF"
+stroke: "SANS_SERIF"

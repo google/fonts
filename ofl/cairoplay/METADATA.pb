@@ -30,5 +30,14 @@ axes {
 source {
   repository_url: "https://github.com/Gue3bara/Cairo"
   commit: "73d16933c6a0f341c27a69e401da83dcb0d53114"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf"
+    dest_file: "CairoPlay[slnt,wght].ttf"
+  }
+  branch: "master"
 }
 primary_script: "Arab"

@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "modi"
 source {
-  repository_url: "https://github.com/notofonts/modi.git"
+  repository_url: "https://github.com/notofonts/modi"
   archive_url: "https://github.com/notofonts/modi/releases/download/NotoSansModi-v2.004/NotoSansModi-v2.004.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansModi/googlefonts/ttf/NotoSansModi-Regular.ttf"
+    dest_file: "NotoSansModi-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "mr_Modi"  # Marathi, Modi

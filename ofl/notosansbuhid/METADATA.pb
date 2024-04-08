@@ -17,8 +17,17 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/buhid.git"
+  repository_url: "https://github.com/notofonts/buhid"
   archive_url: "https://github.com/notofonts/buhid/releases/download/NotoSansBuhid-v2.001/NotoSansBuhid-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansBuhid/full/ttf/NotoSansBuhid-Regular.ttf"
+    dest_file: "NotoSansBuhid-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "bku_Buhd"  # Buhid, Buhid

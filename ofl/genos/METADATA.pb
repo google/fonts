@@ -31,5 +31,25 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/genos"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/Genos[wght].ttf"
+    dest_file: "Genos[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Genos-Italic[wght].ttf"
+    dest_file: "Genos-Italic[wght].ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

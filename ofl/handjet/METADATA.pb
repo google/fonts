@@ -44,6 +44,15 @@ registry_default_overrides {
 source {
   repository_url: "https://github.com/rosettatype/handjet"
   commit: "3918b7798e06c81da6bc558e88dfddd5a6b49807"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/Handjet[ELGR,ELSH,wght].ttf"
+    dest_file: "Handjet[ELGR,ELSH,wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

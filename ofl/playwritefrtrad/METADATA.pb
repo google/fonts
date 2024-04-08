@@ -26,5 +26,14 @@ axes {
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite/"
   commit: "7e7e3b8aa4d42f683a46a9941da81a2c132ba02f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts-models/fonts-FR_Trad/variable/PlaywriteFRTrad[wght].ttf"
+    dest_file: "PlaywriteFRTrad[wght].ttf"
+  }
+  branch: "lang-build"
 }
 display_name: "Playwrite France Traditional"

@@ -17,3 +17,19 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/Kinutafontfactory/Yuji"
+  files {
+    source_file: "fonts/ttf/YujiSyuku-Regular.ttf"
+    dest_file: "YujiSyuku-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "syuku_DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}

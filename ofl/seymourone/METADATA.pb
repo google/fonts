@@ -19,6 +19,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/seymourFont"
   commit: "67aa8dc604b252424e431a73ff50011cc474d881"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/SeymourOne-Regular.ttf"
+    dest_file: "SeymourOne-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

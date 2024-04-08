@@ -32,5 +32,18 @@ axes {
 source {
   repository_url: "https://github.com/hans-thiessen/Rethink-Sans"
   commit: "20d5980cd14ce827e82d7fc58d758f7cc5086c91"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/RethinkSans[wght].ttf"
+    dest_file: "RethinkSans[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/RethinkSans-Italic[wght].ttf"
+    dest_file: "RethinkSans-Italic[wght].ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"

@@ -29,6 +29,15 @@ axes {
 source {
   repository_url: "https://github.com/Etcetera-Type-Co/Gluten"
   commit: "c8525e6a8d31dde1795485cc66f622beed3e5e80"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Gluten[slnt,wght].ttf"
+    dest_file: "Gluten[slnt,wght].ttf"
+  }
+  branch: "master"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

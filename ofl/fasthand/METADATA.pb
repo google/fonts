@@ -15,5 +15,17 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Fasthand"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Fasthand-Regular.ttf"
+    dest_file: "Fasthand-Regular.ttf"
+  }
+  branch: "master"
+}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

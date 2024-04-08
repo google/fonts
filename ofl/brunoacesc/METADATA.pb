@@ -18,6 +18,19 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/Bruno-ace"
   commit: "4eb5f7fc38a1548b353b4ee03b1f7043b48ae181"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/BrunoAceSC-Regular.ttf"
+    dest_file: "BrunoAceSC-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

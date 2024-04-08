@@ -25,5 +25,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/fuzzy-bubbles"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/FuzzyBubbles-Regular.ttf"
+    dest_file: "FuzzyBubbles-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/FuzzyBubbles-Bold.ttf"
+    dest_file: "FuzzyBubbles-Bold.ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

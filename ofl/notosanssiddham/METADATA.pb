@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "siddham"
 source {
-  repository_url: "https://github.com/notofonts/siddham.git"
+  repository_url: "https://github.com/notofonts/siddham"
   archive_url: "https://github.com/notofonts/siddham/releases/download/NotoSansSiddham-v2.005/NotoSansSiddham-v2.005.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansSiddham/googlefonts/ttf/NotoSansSiddham-Regular.ttf"
+    dest_file: "NotoSansSiddham-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "sa_Sidd"  # Sanskrit, Siddham

@@ -1,7 +1,0 @@
-archive:
-branch: main
-build: python3 -m venv venv && source venv/bin/activate  && pip install -r requirements.txt
-  && python fix-gf.py
-files:
-  OFL.txt: OFL.txt
-  gf_fonts/AmiriQuran-Regular.ttf: AmiriQuran-Regular.ttf

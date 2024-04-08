@@ -31,6 +31,23 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/alumni-sans-pinstripe"
   commit: "26cf834f2eca219b017478be9ea1387c78756e78"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/AlumniSansPinstripe-Regular.ttf"
+    dest_file: "AlumniSansPinstripe-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AlumniSansPinstripe-Italic.ttf"
+    dest_file: "AlumniSansPinstripe-Italic.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -17,8 +17,21 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/caucasian-albanian.git"
+  repository_url: "https://github.com/notofonts/caucasian-albanian"
   archive_url: "https://github.com/notofonts/caucasian-albanian/releases/download/NotoSansCaucasianAlbanian-v2.005/NotoSansCaucasianAlbanian-v2.005.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansCaucasianAlbanian/googlefonts/ttf/NotoSansCaucasianAlbanian-Regular.ttf"
+    dest_file: "NotoSansCaucasianAlbanian-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "lez_Aghb"  # Lezghian, Caucasian Albanian

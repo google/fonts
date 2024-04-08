@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "tifinagh"
 source {
-  repository_url: "https://github.com/notofonts/tifinagh.git"
+  repository_url: "https://github.com/notofonts/tifinagh"
   archive_url: "https://github.com/notofonts/tifinagh/releases/download/NotoSansTifinagh-v2.006/NotoSansTifinagh-v2.006.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansTifinagh/googlefonts/ttf/NotoSansTifinagh-Regular.ttf"
+    dest_file: "NotoSansTifinagh-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ber_Tfng"  # Berber, Tifinagh

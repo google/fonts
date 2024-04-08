@@ -25,5 +25,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/corinthia"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Corinthia-Regular.ttf"
+    dest_file: "Corinthia-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Corinthia-Bold.ttf"
+    dest_file: "Corinthia-Bold.ttf"
+  }
+  branch: "master"
+}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

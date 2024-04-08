@@ -34,6 +34,15 @@ registry_default_overrides {
 source {
   repository_url: "https://github.com/sursly/sono"
   commit: "0e7274983bb034e232c9903f9d827ba4d595a888"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/sono[MONO,wght].ttf"
+    dest_file: "sono[MONO,wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

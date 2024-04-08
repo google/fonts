@@ -73,5 +73,38 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-lateef"
   archive_url: "https://github.com/silnrsi/font-lateef/releases/download/v4.200/Lateef-4.200.zip"
+  files {
+    source_file: "Lateef-4.200/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Lateef-4.200/Lateef-ExtraLight.ttf"
+    dest_file: "Lateef-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Lateef-4.200/Lateef-Light.ttf"
+    dest_file: "Lateef-Light.ttf"
+  }
+  files {
+    source_file: "Lateef-4.200/Lateef-Regular.ttf"
+    dest_file: "Lateef-Regular.ttf"
+  }
+  files {
+    source_file: "Lateef-4.200/Lateef-Medium.ttf"
+    dest_file: "Lateef-Medium.ttf"
+  }
+  files {
+    source_file: "Lateef-4.200/Lateef-SemiBold.ttf"
+    dest_file: "Lateef-SemiBold.ttf"
+  }
+  files {
+    source_file: "Lateef-4.200/Lateef-Bold.ttf"
+    dest_file: "Lateef-Bold.ttf"
+  }
+  files {
+    source_file: "Lateef-4.200/Lateef-ExtraBold.ttf"
+    dest_file: "Lateef-ExtraBold.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Arab"

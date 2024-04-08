@@ -102,4 +102,49 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/CatharsisFonts/Cormorant"
   commit: "cc1bfb51ce6568cb3abf9199ab718d543f6fa189"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-Bold.ttf"
+    dest_file: "CormorantGaramond-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-BoldItalic.ttf"
+    dest_file: "CormorantGaramond-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-Italic.ttf"
+    dest_file: "CormorantGaramond-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-Light.ttf"
+    dest_file: "CormorantGaramond-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-LightItalic.ttf"
+    dest_file: "CormorantGaramond-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-Medium.ttf"
+    dest_file: "CormorantGaramond-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-MediumItalic.ttf"
+    dest_file: "CormorantGaramond-MediumItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-Regular.ttf"
+    dest_file: "CormorantGaramond-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-SemiBold.ttf"
+    dest_file: "CormorantGaramond-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantGaramond-SemiBoldItalic.ttf"
+    dest_file: "CormorantGaramond-SemiBoldItalic.ttf"
+  }
+  branch: "master"
 }

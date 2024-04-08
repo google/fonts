@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/average"
   commit: "6583341221fb0625ba1b9c3ee2a7490d57df951f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Average-Regular.ttf"
+    dest_file: "Average-Regular.ttf"
+  }
+  branch: "master"
 }

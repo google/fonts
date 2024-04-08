@@ -46,5 +46,26 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-harmattan"
   archive_url: "https://github.com/silnrsi/font-harmattan/releases/download/v4.000/Harmattan-4.000.zip"
+  files {
+    source_file: "Harmattan-4.000/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Harmattan-4.000/Harmattan-Regular.ttf"
+    dest_file: "Harmattan-Regular.ttf"
+  }
+  files {
+    source_file: "Harmattan-4.000/Harmattan-Medium.ttf"
+    dest_file: "Harmattan-Medium.ttf"
+  }
+  files {
+    source_file: "Harmattan-4.000/Harmattan-SemiBold.ttf"
+    dest_file: "Harmattan-SemiBold.ttf"
+  }
+  files {
+    source_file: "Harmattan-4.000/Harmattan-Bold.ttf"
+    dest_file: "Harmattan-Bold.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Arab"

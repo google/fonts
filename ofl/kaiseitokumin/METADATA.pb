@@ -44,3 +44,31 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/FontKai-Kaisei/Kaisei"
+  files {
+    source_file: "fonts/ttf/tokumin/KaiseiTokumin-Regular.ttf"
+    dest_file: "KaiseiTokumin-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/tokumin/KaiseiTokumin-Medium.ttf"
+    dest_file: "KaiseiTokumin-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/tokumin/KaiseiTokumin-Bold.ttf"
+    dest_file: "KaiseiTokumin-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/tokumin/KaiseiTokumin-ExtraBold.ttf"
+    dest_file: "KaiseiTokumin-ExtraBold.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "tokumin_DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}

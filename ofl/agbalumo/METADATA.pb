@@ -18,7 +18,20 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
-  repository_url: "https://github.com/SorkinType/Agbalumo.git"
+  repository_url: "https://github.com/SorkinType/Agbalumo"
   commit: "c6c381d3704ef794dde69b80489d0cde36fb6f9b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Agbalumo-Regular.ttf"
+    dest_file: "Agbalumo-Regular.ttf"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"

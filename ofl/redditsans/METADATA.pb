@@ -33,5 +33,18 @@ axes {
 source {
   repository_url: "https://github.com/reddit/redditsans"
   commit: "60e19b50bde6de34b695591a8a047a6a3618a37c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/sans/variable/RedditSans[wght].ttf"
+    dest_file: "RedditSans[wght].ttf"
+  }
+  files {
+    source_file: "fonts/sans/variable/RedditSans-Italic[wght].ttf"
+    dest_file: "RedditSans-Italic[wght].ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"

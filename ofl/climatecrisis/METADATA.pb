@@ -27,6 +27,15 @@ registry_default_overrides {
 source {
   repository_url: "https://github.com/dancoull/ClimateCrisis"
   commit: "e0398e2d7e84a9f08cf7ec67bb463e4e2bb35431"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/ClimateCrisis[YEAR].ttf"
+    dest_file: "ClimateCrisis[YEAR].ttf"
+  }
+  branch: "main"
 }
 minisite_url: "https://kampanjat.hs.fi/climatefont"
 stroke: "SANS_SERIF"

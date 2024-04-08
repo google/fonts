@@ -29,4 +29,13 @@ axes {
 source {
   repository_url: "https://github.com/hafontia-zz/Fredoka-One"
   commit: "35c584ff23450c9bcdf8819706e12fcdeefe1712"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Fredoka[wdth,wght].ttf"
+    dest_file: "Fredoka[wdth,wght].ttf"
+  }
+  branch: "gh-pages"
 }

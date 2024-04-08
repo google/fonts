@@ -17,9 +17,26 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "old-uyghur"
 source {
-  repository_url: "https://github.com/notofonts/old-uyghur.git"
+  repository_url: "https://github.com/notofonts/old-uyghur"
   archive_url: "https://github.com/notofonts/old-uyghur/releases/download/NotoSerifOldUyghur-v1.003/NotoSerifOldUyghur-v1.003.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSerifOldUyghur/googlefonts/ttf/NotoSerifOldUyghur-Regular.ttf"
+    dest_file: "NotoSerifOldUyghur-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
-primary_script: "Ougr"
 languages: "oui_Ougr"  # Old Uyghur, Old Uyghur
+primary_script: "Ougr"

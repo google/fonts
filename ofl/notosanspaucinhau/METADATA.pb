@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "pau-cin-hau"
 source {
-  repository_url: "https://github.com/notofonts/pau-cin-hau.git"
+  repository_url: "https://github.com/notofonts/pau-cin-hau"
   archive_url: "https://github.com/notofonts/pau-cin-hau/releases/download/NotoSansPauCinHau-v2.002/NotoSansPauCinHau-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansPauCinHau/googlefonts/ttf/NotoSansPauCinHau-Regular.ttf"
+    dest_file: "NotoSansPauCinHau-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ctd_Pauc"  # Tedim Chin, Pau Cin Hau

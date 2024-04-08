@@ -23,5 +23,18 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "c89f25696f8c15d3c180b087256591d43d6f46db"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "glitchpop/fonts/ttf/RubikGlitchPop-Regular.ttf"
+    dest_file: "RubikGlitchPop-Regular.ttf"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"

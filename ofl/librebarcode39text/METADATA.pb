@@ -14,5 +14,17 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/graphicore/librebarcode"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/LibreBarcode39Text-Regular.ttf"
+    dest_file: "LibreBarcode39Text-Regular.ttf"
+  }
+  branch: "master"
+}
 classifications: "DISPLAY"
 classifications: "SYMBOLS"

@@ -20,6 +20,15 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/artandtype/Braah"
   commit: "2b7ba2ea006af5a55313158531b6f0b71eca5ff8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BraahOne-Regular.ttf"
+    dest_file: "BraahOne-Regular.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Guru"
 stroke: "SANS_SERIF"

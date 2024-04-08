@@ -33,6 +33,19 @@ axes {
 source {
   repository_url: "https://github.com/SorkinType/SplineSansMono"
   commit: "97fed7e4bc166ad9c93d3af9c4c7ebf3104a57ed"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/SplineSansMono[wght].ttf"
+    dest_file: "SplineSansMono[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/SplineSansMono-Italic[wght].ttf"
+    dest_file: "SplineSansMono-Italic[wght].ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

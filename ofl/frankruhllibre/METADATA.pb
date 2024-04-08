@@ -24,5 +24,14 @@ axes {
 source {
   repository_url: "https://github.com/fontef/frankruhllibre"
   commit: "2372d1998e51dc011f86554c0d23f1ccf44afddf"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/FrankRuhlLibre[wght].ttf"
+    dest_file: "FrankRuhlLibre[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SERIF"

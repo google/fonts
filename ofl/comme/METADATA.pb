@@ -23,4 +23,13 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/comme"
   commit: "45a6e22afc31eb55a46c9b4da4a25ed374886ebf"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Comme[wght].ttf"
+    dest_file: "Comme[wght].ttf"
+  }
+  branch: "main"
 }

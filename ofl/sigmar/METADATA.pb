@@ -19,6 +19,15 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/sigmarone"
   commit: "1fb4311d78953da0f943e0e4b806acdd076af81b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Sigmar-Regular.ttf"
+    dest_file: "Sigmar-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -35,5 +35,21 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/Etcetera-Type-Co/Tourney"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Tourney-Italic[wdth,wght].ttf"
+    dest_file: "Tourney-Italic[wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Tourney[wdth,wght].ttf"
+    dest_file: "Tourney[wdth,wght].ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

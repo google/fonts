@@ -22,8 +22,25 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/nko.git"
+  repository_url: "https://github.com/notofonts/nko"
   archive_url: "https://github.com/notofonts/nko/releases/download/NotoSansNKoUnjoined-v2.004/NotoSansNKoUnjoined-v2.004.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansNKoUnjoined/googlefonts/variable-ttf/NotoSansNKoUnjoined[wght].ttf"
+    dest_file: "NotoSansNKoUnjoined[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "bm_Nkoo"  # Bambara, Nko

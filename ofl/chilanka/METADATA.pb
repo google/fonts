@@ -17,6 +17,15 @@ subsets: "latin-ext"
 subsets: "malayalam"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/smc/Chilanka.git"
+  repository_url: "https://github.com/smc/Chilanka"
   commit: "bbc2c94ae7af008975c81e509911b609444b3902"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "build/Chilanka-Regular.ttf"
+    dest_file: "Chilanka-Regular.ttf"
+  }
+  branch: "tags/Version1.6"
 }

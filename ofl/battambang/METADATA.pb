@@ -51,3 +51,31 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Battambang"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Battambang-Thin.ttf"
+    dest_file: "Battambang-Thin.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Battambang-Light.ttf"
+    dest_file: "Battambang-Light.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Battambang-Regular.ttf"
+    dest_file: "Battambang-Regular.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Battambang-Bold.ttf"
+    dest_file: "Battambang-Bold.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Battambang-Black.ttf"
+    dest_file: "Battambang-Black.ttf"
+  }
+  branch: "master"
+}

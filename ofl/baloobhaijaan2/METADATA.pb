@@ -25,6 +25,19 @@ axes {
 source {
   repository_url: "https://github.com/EkType/Baloo2-Variable"
   commit: "da4090c1dd5798a3e72d7138e379ee1f94d6349c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/BalooBhaijaan2[wght].ttf"
+    dest_file: "BalooBhaijaan2[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
 }
 primary_script: "Arab"
 stroke: "SANS_SERIF"

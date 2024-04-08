@@ -32,4 +32,17 @@ axes {
 source {
   repository_url: "https://github.com/schibsted/schibsted-grotesk"
   commit: "d485f61f105e1b3935f4d21dfb4d371359798603"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/SchibstedGrotesk[wght].ttf"
+    dest_file: "SchibstedGrotesk[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/SchibstedGrotesk-Italic[wght].ttf"
+    dest_file: "SchibstedGrotesk-Italic[wght].ttf"
+  }
+  branch: "main"
 }

@@ -33,4 +33,17 @@ axes {
 source {
   repository_url: "https://github.com/Omnibus-Type/Labrada"
   commit: "b15424f8840bda81f5dfa88f97bb634598faeadc"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Labrada-Italic[wght].ttf"
+    dest_file: "Labrada-Italic[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Labrada[wght].ttf"
+    dest_file: "Labrada[wght].ttf"
+  }
+  branch: "main"
 }

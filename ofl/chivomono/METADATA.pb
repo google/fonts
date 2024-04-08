@@ -34,6 +34,19 @@ axes {
 source {
   repository_url: "https://github.com/Omnibus-Type/Chivo"
   commit: "dc61c468d79781eb5183426e88e844af16cdc3e5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/Chivo Mono/variable/ChivoMono[wght].ttf"
+    dest_file: "ChivoMono[wght].ttf"
+  }
+  files {
+    source_file: "fonts/Chivo Mono/variable/ChivoMono-Italic[wght].ttf"
+    dest_file: "ChivoMono-Italic[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

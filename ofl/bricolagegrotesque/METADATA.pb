@@ -35,6 +35,15 @@ axes {
 source {
   repository_url: "https://github.com/ateliertriay/bricolage"
   commit: "84745e5b96261ae5f8c6c856e262fe78d1d6efdd"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/BricolageGrotesque[opsz,wdth,wght].ttf"
+    dest_file: "BricolageGrotesque[opsz,wdth,wght].ttf"
+  }
+  branch: "main"
 }
 minisite_url: "https://ateliertriay.github.io/bricolage"
 stroke: "SANS_SERIF"

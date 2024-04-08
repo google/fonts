@@ -26,4 +26,17 @@ axes {
 source {
   repository_url: "https://github.com/rosettatype/eczar"
   commit: "f248ec9c0c5e3a9442d22824cc1cba6c713725d5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "release/variable/Eczar[wght].ttf"
+    dest_file: "Eczar[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
 }

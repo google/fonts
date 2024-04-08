@@ -25,6 +25,15 @@ axes {
 source {
   repository_url: "https://gitlab.com/bonjour-monde/fonderie/syne-typeface"
   commit: "d9098c0a72125d411dbb225a2e5a61dc15265ffc"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Syne[wght].ttf"
+    dest_file: "Syne[wght].ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

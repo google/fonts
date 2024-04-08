@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/hatran.git"
+  repository_url: "https://github.com/notofonts/hatran"
   archive_url: "https://github.com/notofonts/hatran/releases/download/NotoSansHatran-v2.001/NotoSansHatran-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansHatran/googlefonts/ttf/NotoSansHatran-Regular.ttf"
+    dest_file: "NotoSansHatran-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aii_Hatr"  # Assyrian Neo-Aramaic, Hatran

@@ -33,6 +33,19 @@ axes {
   max_value: 1000.0
 }
 source {
-  repository_url: "https://github.com/googlefonts/nunito.git"
+  repository_url: "https://github.com/googlefonts/nunito"
   commit: "43d16f963c5c341c10efa0bfe7a82aa1bea8a938"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Nunito[wght].ttf"
+    dest_file: "Nunito[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Nunito-Italic[wght].ttf"
+    dest_file: "Nunito-Italic[wght].ttf"
+  }
+  branch: "main"
 }

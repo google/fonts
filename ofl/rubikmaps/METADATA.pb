@@ -23,5 +23,18 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "112698043433bee2d652b8fa1943ea2c19854550"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "maps/fonts/ttf/RubikMaps-Regular.ttf"
+    dest_file: "RubikMaps-Regular.ttf"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"

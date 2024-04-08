@@ -22,8 +22,25 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/tai-tham.git"
+  repository_url: "https://github.com/notofonts/tai-tham"
   archive_url: "https://github.com/notofonts/tai-tham/releases/download/NotoSansTaiTham-v2.002/NotoSansTaiTham-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansTaiTham/googlefonts/variable-ttf/NotoSansTaiTham[wght].ttf"
+    dest_file: "NotoSansTaiTham[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "kkh_Lana"  # Tai Khün

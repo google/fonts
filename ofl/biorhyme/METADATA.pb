@@ -28,5 +28,14 @@ axes {
 source {
   repository_url: "https://github.com/aoifemooney/makingbiorhyme"
   commit: "b3c0488559ad7c42e11b71e65d255344faff63b9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/BioRhyme[wdth,wght].ttf"
+    dest_file: "BioRhyme[wdth,wght].ttf"
+  }
+  branch: "gh-pages"
 }
 stroke: "SLAB_SERIF"

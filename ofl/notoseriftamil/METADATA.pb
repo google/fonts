@@ -36,8 +36,29 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/tamil.git"
+  repository_url: "https://github.com/notofonts/tamil"
   archive_url: "https://github.com/notofonts/tamil/releases/download/NotoSerifTamil-v2.004/NotoSerifTamil-v2.004.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSerifTamil/googlefonts/variable-ttf/NotoSerifTamil[wdth,wght].ttf"
+    dest_file: "NotoSerifTamil[wdth,wght].ttf"
+  }
+  files {
+    source_file: "NotoSerifTamil/googlefonts/variable-ttf/NotoSerifTamil-Italic[wdth,wght].ttf"
+    dest_file: "NotoSerifTamil-Italic[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "bfq_Taml"  # Badaga

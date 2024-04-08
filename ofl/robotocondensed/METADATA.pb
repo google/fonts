@@ -37,4 +37,13 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/roboto-classic"
   archive_url: "https://github.com/googlefonts/roboto-classic/releases/download/v3.008/Roboto_v3.008.zip"
+  files {
+    source_file: "Roboto_v3.008/web/condensed/RobotoCondensed[wght].ttf"
+    dest_file: "RobotoCondensed[wght].ttf"
+  }
+  files {
+    source_file: "Roboto_v3.008/web/condensed/RobotoCondensed-Italic[wght].ttf"
+    dest_file: "RobotoCondensed-Italic[wght].ttf"
+  }
+  branch: "main"
 }

@@ -102,4 +102,49 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/CatharsisFonts/Cormorant"
   commit: "cc1bfb51ce6568cb3abf9199ab718d543f6fa189"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-Bold.ttf"
+    dest_file: "CormorantInfant-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-BoldItalic.ttf"
+    dest_file: "CormorantInfant-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-Italic.ttf"
+    dest_file: "CormorantInfant-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-Light.ttf"
+    dest_file: "CormorantInfant-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-LightItalic.ttf"
+    dest_file: "CormorantInfant-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-Medium.ttf"
+    dest_file: "CormorantInfant-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-MediumItalic.ttf"
+    dest_file: "CormorantInfant-MediumItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-Regular.ttf"
+    dest_file: "CormorantInfant-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-SemiBold.ttf"
+    dest_file: "CormorantInfant-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantInfant-SemiBoldItalic.ttf"
+    dest_file: "CormorantInfant-SemiBoldItalic.ttf"
+  }
+  branch: "master"
 }

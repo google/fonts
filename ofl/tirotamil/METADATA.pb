@@ -28,5 +28,22 @@ subsets: "tamil"
 source {
   repository_url: "https://github.com/TiroTypeworks/Indigo"
   commit: "98b5d3a01c534b7029af04a59d31e0d7d90be15a"
+  files {
+    source_file: "fonts/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "docs/descriptions/TiroTamil/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/TiroTamil/TTF/TiroTamil-Regular.ttf"
+    dest_file: "TiroTamil-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/TiroTamil/TTF/TiroTamil-Italic.ttf"
+    dest_file: "TiroTamil-Italic.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Taml"

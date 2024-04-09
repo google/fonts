@@ -37,6 +37,23 @@ axes {
 source {
   repository_url: "https://github.com/rubjo/victor-mono-font"
   archive_url: "https://github.com/rubjo/victor-mono-font/releases/download/v1.561/victor-mono-font-fonts.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/VictorMono[wght].ttf"
+    dest_file: "VictorMono[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/VictorMono-Italic[wght].ttf"
+    dest_file: "VictorMono-Italic[wght].ttf"
+  }
+  branch: "main"
 }
 minisite_url: "https://rubjo.github.io/victor-mono"
 stroke: "SANS_SERIF"

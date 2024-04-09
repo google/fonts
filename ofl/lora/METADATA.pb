@@ -37,5 +37,18 @@ axes {
 source {
   repository_url: "https://github.com/cyrealtype/Lora-Cyrillic"
   commit: "403b1a66ca2e79f81d749c5299559e168591a4df"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Lora[wght].ttf"
+    dest_file: "Lora[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Lora-Italic[wght].ttf"
+    dest_file: "Lora-Italic[wght].ttf"
+  }
+  branch: "main"
 }
-stroke:"SERIF"
+stroke: "SERIF"

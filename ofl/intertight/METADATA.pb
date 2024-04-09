@@ -37,6 +37,19 @@ axes {
 source {
   repository_url: "https://github.com/rsms/inter-gf-tight"
   commit: "c194f94c60b569b47876811321f5ef1f0c2614a2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/InterTight[wght].ttf"
+    dest_file: "InterTight[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/InterTight-Italic[wght].ttf"
+    dest_file: "InterTight-Italic[wght].ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

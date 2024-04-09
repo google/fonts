@@ -21,4 +21,17 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "f61d39563df1f583122af0866fc827666c2b385b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "dirt/fonts/ttf/RubikDirt-Regular.ttf"
+    dest_file: "RubikDirt-Regular.ttf"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }

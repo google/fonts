@@ -23,4 +23,13 @@ axes {
 source {
   repository_url: "https://github.com/Outfitio/Outfit-Fonts"
   commit: "902773808eb372f70fb34e8946dd1ffe604efc79"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Outfit[wght].ttf"
+    dest_file: "Outfit[wght].ttf"
+  }
+  branch: "main"
 }

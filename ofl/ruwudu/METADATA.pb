@@ -46,5 +46,26 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-ruwudu"
   archive_url: "https://github.com/silnrsi/font-ruwudu/releases/download/v3.000/Ruwudu-3.000.zip"
+  files {
+    source_file: "Ruwudu-3.000/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Ruwudu-3.000/Ruwudu-Regular.ttf"
+    dest_file: "Ruwudu-Regular.ttf"
+  }
+  files {
+    source_file: "Ruwudu-3.000/Ruwudu-Medium.ttf"
+    dest_file: "Ruwudu-Medium.ttf"
+  }
+  files {
+    source_file: "Ruwudu-3.000/Ruwudu-SemiBold.ttf"
+    dest_file: "Ruwudu-SemiBold.ttf"
+  }
+  files {
+    source_file: "Ruwudu-3.000/Ruwudu-Bold.ttf"
+    dest_file: "Ruwudu-Bold.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Arab"

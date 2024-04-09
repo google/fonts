@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/scfried/soft-type-jersey"
   commit: "f32179dbeffdb64d0401f34bf9e4e38a768f4cfb"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Jersey20-Regular.ttf"
+    dest_file: "Jersey20-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -19,6 +19,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/sovichet/kdam-thmor-pro"
   commit: "a78a9ff035108630f42ae15a04b4ab8150298786"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/KdamThmorPro-Regular.ttf"
+    dest_file: "KdamThmorPro-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

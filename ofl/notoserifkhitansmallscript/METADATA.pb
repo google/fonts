@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/khitan-small-script.git"
+  repository_url: "https://github.com/notofonts/khitan-small-script"
   archive_url: "https://github.com/notofonts/khitan-small-script/releases/download/NotoSerifKhitanSmallScript-v1.000/NotoSerifKhitanSmallScript-v1.000.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSerifKhitanSmallScript/googlefonts/ttf/NotoSerifKhitanSmallScript-Regular.ttf"
+    dest_file: "NotoSerifKhitanSmallScript-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 sample_text {

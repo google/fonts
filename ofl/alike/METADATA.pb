@@ -20,5 +20,14 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/cyrealtype/Alike"
   commit: "2de9216949bad46e02460fcb9e455be87d75462d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Alike-Regular.ttf"
+    dest_file: "Alike-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"

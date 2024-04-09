@@ -34,4 +34,13 @@ registry_default_overrides {
 source {
   repository_url: "https://github.com/xconsau/KumbhSans"
   commit: "b1c41a8ff0916a5421bd3976c361f1980c0e7cfc"
+  files {
+    source_file: "fonts/variable/KumbhSans[YOPQ,wght].ttf"
+    dest_file: "KumbhSans[YOPQ,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
 }

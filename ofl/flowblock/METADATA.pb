@@ -18,5 +18,17 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/HYPD/flow-typeface"
+  files {
+    source_file: "Block/fonts/ttf/FlowBlock-Regular.ttf"
+    dest_file: "FlowBlock-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
+}
 classifications: "DISPLAY"
 classifications: "SYMBOLS"

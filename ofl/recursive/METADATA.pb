@@ -45,5 +45,14 @@ axes {
 source {
   repository_url: "https://github.com/arrowtype/recursive"
   commit: "071fc21f217781110d67e8d0bf5021f31cbdcb85"
+  files {
+    source_file: "fonts/recursive_for_googlefonts/Recursive[CASL,CRSV,MONO,slnt,wght].ttf"
+    dest_file: "Recursive[CASL,CRSV,MONO,slnt,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
 }
 minisite_url: "https://recursive.design"

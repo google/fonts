@@ -28,5 +28,14 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/robotoslab"
   commit: "67af3ce9c4ca574419e1295b6165a2eeee112e6e"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/variable/RobotoSlab[wght].ttf"
+    dest_file: "RobotoSlab[wght].ttf"
+  }
+  branch: "main"
 }
 stroke: "SLAB_SERIF"

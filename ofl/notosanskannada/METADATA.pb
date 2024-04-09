@@ -27,8 +27,21 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/kannada.git"
+  repository_url: "https://github.com/notofonts/kannada"
   archive_url: "https://github.com/notofonts/kannada/releases/download/NotoSansKannada-v2.005/NotoSansKannada-v2.005.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansKannada/googlefonts/variable/NotoSansKannada[wdth,wght].ttf"
+    dest_file: "NotoSansKannada[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "kn_Knda"  # Kannada

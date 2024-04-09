@@ -20,4 +20,17 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/Typedesigners/Anta-Regular"
   commit: "7ef14d1901946d317cb3bc136a895ff6c74c246c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Anta-Regular.ttf"
+    dest_file: "Anta-Regular.ttf"
+  }
+  branch: "main"
 }

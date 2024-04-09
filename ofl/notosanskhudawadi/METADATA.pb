@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/khudawadi.git"
+  repository_url: "https://github.com/notofonts/khudawadi"
   archive_url: "https://github.com/notofonts/khudawadi/releases/download/NotoSansKhudawadi-v2.003/NotoSansKhudawadi-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansKhudawadi/googlefonts/ttf/NotoSansKhudawadi-Regular.ttf"
+    dest_file: "NotoSansKhudawadi-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "sd_Sind"  # Sindhi, Khudawadi

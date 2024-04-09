@@ -21,3 +21,39 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/TypeNetwork/Assistant"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Assistant[wght].ttf"
+    dest_file: "Assistant[wght].ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Assistant-Bold.ttf"
+    dest_file: "static/Assistant-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Assistant-ExtraBold.ttf"
+    dest_file: "static/Assistant-ExtraBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Assistant-ExtraLight.ttf"
+    dest_file: "static/Assistant-ExtraLight.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Assistant-Light.ttf"
+    dest_file: "static/Assistant-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Assistant-Regular.ttf"
+    dest_file: "static/Assistant-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Assistant-SemiBold.ttf"
+    dest_file: "static/Assistant-SemiBold.ttf"
+  }
+  branch: "master"
+}

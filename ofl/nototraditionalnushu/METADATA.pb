@@ -22,8 +22,21 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/nushu.git"
+  repository_url: "https://github.com/notofonts/nushu"
   archive_url: "https://github.com/notofonts/nushu/releases/download/NotoTraditionalNushu-v2.003/NotoTraditionalNushu-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoTraditionalNushu/googlefonts/variable-ttf/NotoTraditionalNushu[wght].ttf"
+    dest_file: "NotoTraditionalNushu[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "mis_Nshu"  # Xiangnan Tuhua

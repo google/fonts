@@ -29,4 +29,17 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Fruktur"
   commit: "a2277f91aebc0e5e70062bdd7f17f15d2a787cd2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Fruktur-Regular.ttf"
+    dest_file: "Fruktur-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Fruktur-Italic.ttf"
+    dest_file: "Fruktur-Italic.ttf"
+  }
+  branch: "main"
 }

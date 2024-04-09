@@ -27,6 +27,23 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/sedan"
   commit: "35a4019d7c2547b58177cff9a65b91e47dd79546"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Sedan-Regular.ttf"
+    dest_file: "Sedan-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Sedan-Italic.ttf"
+    dest_file: "Sedan-Italic.ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

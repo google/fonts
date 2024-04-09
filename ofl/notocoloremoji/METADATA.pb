@@ -14,6 +14,15 @@ fonts {
 }
 subsets: "menu"
 subsets: "emoji"
+source {
+  repository_url: ""
+  archive_url: "https://github.com/googlefonts/noto-emoji/archive/refs/heads/main.zip"
+  files {
+    source_file: "noto-emoji-main/fonts/Noto-COLRv1.ttf"
+    dest_file: "NotoColorEmoji-Regular.ttf"
+  }
+  branch: "main"
+}
 is_noto: true
 sample_text {
   masthead_full: "🎶🎷🐛"

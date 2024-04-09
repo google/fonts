@@ -40,5 +40,22 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/meirsadan/david-libre"
   commit: "15496c1be77e35f3fa3d0df14a2c2c6f9adfd297"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/DavidLibre-Regular.ttf"
+    dest_file: "DavidLibre-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/DavidLibre-Medium.ttf"
+    dest_file: "DavidLibre-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/DavidLibre-Bold.ttf"
+    dest_file: "DavidLibre-Bold.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Hebr"

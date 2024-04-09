@@ -16,15 +16,32 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "nag-mundari"
-primary_script: "Nagm"
-languages: "unr_Nagm"  # Mundari (Nag Mundari)
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/nag-mundari.git"
+  repository_url: "https://github.com/notofonts/nag-mundari"
   archive_url: "https://github.com/notofonts/nag-mundari/releases/download/NotoSansNagMundari-v1.000/NotoSansNagMundari-v1.000.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansNagMundari/googlefonts/variable-ttf/NotoSansNagMundari[wght].ttf"
+    dest_file: "NotoSansNagMundari[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
+languages: "unr_Nagm"  # Mundari (Nag Mundari)
+primary_script: "Nagm"

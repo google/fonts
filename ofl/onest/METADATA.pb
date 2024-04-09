@@ -25,4 +25,13 @@ axes {
 source {
   repository_url: "https://github.com/simpals/onest"
   commit: "838e8c63a8e9efd5cb81cddcc7ffacb15bd9a596"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Onest[wght].ttf"
+    dest_file: "Onest[wght].ttf"
+  }
+  branch: "main"
 }

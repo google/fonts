@@ -54,4 +54,36 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/zen-oldmincho"
+  files {
+    source_file: "fonts/ttf/ZenOldMincho-Regular.ttf"
+    dest_file: "ZenOldMincho-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ZenOldMincho-Medium.ttf"
+    dest_file: "ZenOldMincho-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ZenOldMincho-SemiBold.ttf"
+    dest_file: "ZenOldMincho-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ZenOldMincho-Bold.ttf"
+    dest_file: "ZenOldMincho-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ZenOldMincho-Black.ttf"
+    dest_file: "ZenOldMincho-Black.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
+}
 primary_script: "Jpan"

@@ -18,6 +18,19 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/docrepair-fonts/caprasimo-fonts"
   commit: "9f11e8fd4e8a4bdf069612a275a40103c5337ccf"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Caprasimo-Regular.ttf"
+    dest_file: "Caprasimo-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

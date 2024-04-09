@@ -27,8 +27,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/lao.git"
+  repository_url: "https://github.com/notofonts/lao"
   archive_url: "https://github.com/notofonts/lao/releases/download/NotoSansLao-v2.003/NotoSansLao-v2.003.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansLao/googlefonts/variable-ttf/NotoSansLao[wdth,wght].ttf"
+    dest_file: "NotoSansLao[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "hnj_Laoo"  # Mong Njua

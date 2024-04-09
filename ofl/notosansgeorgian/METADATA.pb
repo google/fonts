@@ -31,8 +31,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/georgian.git"
+  repository_url: "https://github.com/notofonts/georgian"
   archive_url: "https://github.com/notofonts/georgian/releases/download/NotoSansGeorgian-v2.005/NotoSansGeorgian-v2.005.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansGeorgian/googlefonts/variable/NotoSansGeorgian[wdth,wght].ttf"
+    dest_file: "NotoSansGeorgian[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ka_Geor"  # Georgian

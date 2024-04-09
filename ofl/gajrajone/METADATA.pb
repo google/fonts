@@ -19,6 +19,19 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/xconsau/GajrajOne"
   commit: "5768aa3d4522b402ead302e5bb8697e965da694f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/GajrajOne-Regular.ttf"
+    dest_file: "GajrajOne-Regular.ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }
 primary_script: "Deva"
 stroke: "SANS_SERIF"

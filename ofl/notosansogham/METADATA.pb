@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "ogham"
 source {
-  repository_url: "https://github.com/notofonts/ogham.git"
+  repository_url: "https://github.com/notofonts/ogham"
   archive_url: "https://github.com/notofonts/ogham/releases/download/NotoSansOgham-v2.001/NotoSansOgham-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansOgham/googlefonts/ttf/NotoSansOgham-Regular.ttf"
+    dest_file: "NotoSansOgham-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "sga_Ogam"  # Old Irish, Ogham

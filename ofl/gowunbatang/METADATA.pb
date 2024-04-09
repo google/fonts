@@ -26,3 +26,23 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/yangheeryu/Gowun-Batang"
+  files {
+    source_file: "fonts/ttf/GowunBatang-Regular.ttf"
+    dest_file: "GowunBatang-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/GowunBatang-Bold.ttf"
+    dest_file: "GowunBatang-Bold.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}

@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "tirhuta"
 source {
-  repository_url: "https://github.com/notofonts/tirhuta.git"
+  repository_url: "https://github.com/notofonts/tirhuta"
   archive_url: "https://github.com/notofonts/tirhuta/releases/download/NotoSansTirhuta-v2.003/NotoSansTirhuta-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansTirhuta/googlefonts/ttf/NotoSansTirhuta-Regular.ttf"
+    dest_file: "NotoSansTirhuta-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "mai_Tirh"  # Maithili, Tirhuta

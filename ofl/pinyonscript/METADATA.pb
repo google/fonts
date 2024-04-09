@@ -19,6 +19,15 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Pinyon"
   commit: "1a078122d06789407cc9bcb4c0dae058d6950730"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/PinyonScript-Regular.ttf"
+    dest_file: "PinyonScript-Regular.ttf"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

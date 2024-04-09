@@ -25,5 +25,21 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/BevanFont"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Bevan-Regular.ttf"
+    dest_file: "Bevan-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Bevan-Italic.ttf"
+    dest_file: "Bevan-Italic.ttf"
+  }
+  branch: "main"
+}
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"

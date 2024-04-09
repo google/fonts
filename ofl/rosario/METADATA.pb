@@ -30,3 +30,19 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/Omnibus-Type/Rosario"
+  files {
+    source_file: "fonts/variable/Rosario[wght].ttf"
+    dest_file: "Rosario[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Rosario-Italic[wght].ttf"
+    dest_file: "Rosario-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}

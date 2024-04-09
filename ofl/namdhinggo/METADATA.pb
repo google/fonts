@@ -55,5 +55,30 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-namdhinggo"
   archive_url: "https://github.com/silnrsi/font-namdhinggo/releases/download/v3.001/Namdhinggo-3.001.zip"
+  files {
+    source_file: "Namdhinggo-3.001/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Namdhinggo-3.001/Namdhinggo-Regular.ttf"
+    dest_file: "Namdhinggo-Regular.ttf"
+  }
+  files {
+    source_file: "Namdhinggo-3.001/Namdhinggo-Medium.ttf"
+    dest_file: "Namdhinggo-Medium.ttf"
+  }
+  files {
+    source_file: "Namdhinggo-3.001/Namdhinggo-SemiBold.ttf"
+    dest_file: "Namdhinggo-SemiBold.ttf"
+  }
+  files {
+    source_file: "Namdhinggo-3.001/Namdhinggo-Bold.ttf"
+    dest_file: "Namdhinggo-Bold.ttf"
+  }
+  files {
+    source_file: "Namdhinggo-3.001/Namdhinggo-ExtraBold.ttf"
+    dest_file: "Namdhinggo-ExtraBold.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Limb"

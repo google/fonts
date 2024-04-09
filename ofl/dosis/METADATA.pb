@@ -21,5 +21,17 @@ axes {
   min_value: 200.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/dosis-vf"
+  files {
+    source_file: "fonts/variable/Dosis[wght].ttf"
+    dest_file: "Dosis[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

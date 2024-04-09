@@ -27,5 +27,22 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/TiroTypeworks/Indigo"
+  files {
+    source_file: "fonts/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "docs/descriptions/TiroDevaSanskrit/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/TiroDevaSanskrit/TTF/TiroDevaSanskrit-Regular.ttf"
+    dest_file: "TiroDevaSanskrit-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/TiroDevaSanskrit/TTF/TiroDevaSanskrit-Italic.ttf"
+    dest_file: "TiroDevaSanskrit-Italic.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Deva"

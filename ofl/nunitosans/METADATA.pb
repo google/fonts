@@ -54,4 +54,17 @@ registry_default_overrides {
 source {
   repository_url: "https://github.com/googlefonts/NunitoSans"
   commit: "058bd7a2f33d6ad5ef1df985b3db403622016a8c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/NunitoSans[YTLC,opsz,wdth,wght].ttf"
+    dest_file: "NunitoSans[YTLC,opsz,wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/NunitoSans-Italic[YTLC,opsz,wdth,wght].ttf"
+    dest_file: "NunitoSans-Italic[YTLC,opsz,wdth,wght].ttf"
+  }
+  branch: "main"
 }

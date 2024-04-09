@@ -17,3 +17,19 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/go108go/Potta"
+  files {
+    source_file: "fonts/ttf/PottaOne-Regular.ttf"
+    dest_file: "PottaOne-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}

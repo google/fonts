@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "pahawh-hmong"
 source {
-  repository_url: "https://github.com/notofonts/pahawh-hmong.git"
+  repository_url: "https://github.com/notofonts/pahawh-hmong"
   archive_url: "https://github.com/notofonts/pahawh-hmong/releases/download/NotoSansPahawhHmong-v2.001/NotoSansPahawhHmong-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansPahawhHmong/googlefonts/ttf/NotoSansPahawhHmong-Regular.ttf"
+    dest_file: "NotoSansPahawhHmong-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "hmd_Hmng"  # A-Hmao, Pahawh Hmong

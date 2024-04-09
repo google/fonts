@@ -25,6 +25,19 @@ axes {
 source {
   repository_url: "https://github.com/duongtrtype/DTPhudu"
   commit: "338aed71470e70e6d00a919489ca7da21792e7e6"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Phudu[wght].ttf"
+    dest_file: "Phudu[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

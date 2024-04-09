@@ -20,6 +20,15 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/carolinashort/MyNerve"
   commit: "4220ec76c588d97b43757c5332b0aa45ed9a52f3"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Mynerve-Regular.ttf"
+    dest_file: "Mynerve-Regular.ttf"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

@@ -30,5 +30,25 @@ axes {
   min_value: 100.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/glory"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/Glory-Italic[wght].ttf"
+    dest_file: "Glory-Italic[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Glory[wght].ttf"
+    dest_file: "Glory[wght].ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

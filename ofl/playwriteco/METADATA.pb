@@ -26,5 +26,14 @@ axes {
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite/"
   commit: "7e7e3b8aa4d42f683a46a9941da81a2c132ba02f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts-models/fonts-CO/variable/PlaywriteCO[wght].ttf"
+    dest_file: "PlaywriteCO[wght].ttf"
+  }
+  branch: "lang-build"
 }
 display_name: "Playwrite Colombia"

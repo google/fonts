@@ -100,5 +100,50 @@ subsets: "new-tai-lue"
 source {
   repository_url: "https://github.com/silnrsi/font-daibannasil"
   archive_url: "https://github.com/silnrsi/font-daibannasil/releases/download/v4.000/DaiBannaSIL-4.000.zip"
+  files {
+    source_file: "DaiBannaSIL-4.000/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-Light.ttf"
+    dest_file: "DaiBannaSIL-Light.ttf"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-LightItalic.ttf"
+    dest_file: "DaiBannaSIL-LightItalic.ttf"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-Regular.ttf"
+    dest_file: "DaiBannaSIL-Regular.ttf"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-Italic.ttf"
+    dest_file: "DaiBannaSIL-Italic.ttf"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-Medium.ttf"
+    dest_file: "DaiBannaSIL-Medium.ttf"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-MediumItalic.ttf"
+    dest_file: "DaiBannaSIL-MediumItalic.ttf"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-SemiBold.ttf"
+    dest_file: "DaiBannaSIL-SemiBold.ttf"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-SemiBoldItalic.ttf"
+    dest_file: "DaiBannaSIL-SemiBoldItalic.ttf"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-Bold.ttf"
+    dest_file: "DaiBannaSIL-Bold.ttf"
+  }
+  files {
+    source_file: "DaiBannaSIL-4.000/DaiBannaSIL-BoldItalic.ttf"
+    dest_file: "DaiBannaSIL-BoldItalic.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Talu"

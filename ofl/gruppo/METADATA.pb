@@ -19,6 +19,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/GruppoFont"
   commit: "20e1bc8c76ee1d692c5645b8aaf971cc58ca2e51"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Gruppo-Regular.ttf"
+    dest_file: "Gruppo-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

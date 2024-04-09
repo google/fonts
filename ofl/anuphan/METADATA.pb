@@ -26,5 +26,18 @@ axes {
 source {
   repository_url: "https://github.com/cadsondemak/Anuphan"
   commit: "1d795ec6bd23806049aa4bf8cfe01c2f609402a9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Fonts/variable/Anuphan[wght].ttf"
+    dest_file: "Anuphan[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
 }
 primary_script: "Thai"

@@ -16,5 +16,21 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/moolahlah"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/MooLahLah-Regular.ttf"
+    dest_file: "MooLahLah-Regular.ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -18,6 +18,19 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/docrepair-fonts/lumanosimo-fonts"
   commit: "a7395fda4d79523ae6f0a798e2ea2d8ed524fc80"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Lumanosimo-Regular.ttf"
+    dest_file: "Lumanosimo-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"
 classifications: "HANDWRITING"

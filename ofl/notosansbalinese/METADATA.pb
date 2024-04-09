@@ -22,8 +22,17 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/balinese.git"
+  repository_url: "https://github.com/notofonts/balinese"
   archive_url: "https://github.com/notofonts/balinese/releases/download/NotoSansBalinese-v2.003/NotoSansBalinese-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansBalinese/googlefonts/variable-ttf/NotoSansBalinese[wght].ttf"
+    dest_file: "NotoSansBalinese[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ban_Bali"  # Balinese, Balinese

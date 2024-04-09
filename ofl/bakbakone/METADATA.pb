@@ -16,5 +16,17 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/bakbak"
+  files {
+    source_file: "fonts/ttf/BakbakOne-Regular.ttf"
+    dest_file: "BakbakOne-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -19,5 +19,18 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/microsoft/ADLaM-Display"
   commit: "879176243e9f7161a8aefdab8c36a4a7318ebe15"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Fonts/ttf/ADLaMDisplay-Regular.ttf"
+    dest_file: "ADLaMDisplay-Regular.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Adlm"

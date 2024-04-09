@@ -26,5 +26,18 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/unbounded"
   commit: "f3ec43228a864a72487e41552e2140efab9884ea"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/Unbounded[wght].ttf"
+    dest_file: "Unbounded[wght].ttf"
+  }
+  branch: "main"
 }
 minisite_url: "https://unbounded.polkadot.network/"

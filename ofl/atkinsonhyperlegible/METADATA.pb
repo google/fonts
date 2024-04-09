@@ -42,3 +42,31 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/atkinson-hyperlegible"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/AtkinsonHyperlegible-Regular.ttf"
+    dest_file: "AtkinsonHyperlegible-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AtkinsonHyperlegible-Bold.ttf"
+    dest_file: "AtkinsonHyperlegible-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AtkinsonHyperlegible-Italic.ttf"
+    dest_file: "AtkinsonHyperlegible-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AtkinsonHyperlegible-BoldItalic.ttf"
+    dest_file: "AtkinsonHyperlegible-BoldItalic.ttf"
+  }
+  branch: "main"
+}

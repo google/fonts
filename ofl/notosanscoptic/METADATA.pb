@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/coptic.git"
+  repository_url: "https://github.com/notofonts/coptic"
   archive_url: "https://github.com/notofonts/coptic/releases/download/NotoSansCoptic-v2.004/NotoSansCoptic-v2.004.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansCoptic/googlefonts/ttf/NotoSansCoptic-Regular.ttf"
+    dest_file: "NotoSansCoptic-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "cop_Copt"  # Coptic, Coptic

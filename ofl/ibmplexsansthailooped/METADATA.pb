@@ -71,4 +71,44 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
+source {
+  repository_url: "https://github.com/googlefonts/plex"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/descriptions/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai-Looped/fonts/complete/ttf/IBMPlexSansThaiLooped-Bold.ttf"
+    dest_file: "IBMPlexSansThaiLooped-Bold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai-Looped/fonts/complete/ttf/IBMPlexSansThaiLooped-ExtraLight.ttf"
+    dest_file: "IBMPlexSansThaiLooped-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai-Looped/fonts/complete/ttf/IBMPlexSansThaiLooped-Light.ttf"
+    dest_file: "IBMPlexSansThaiLooped-Light.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai-Looped/fonts/complete/ttf/IBMPlexSansThaiLooped-Medium.ttf"
+    dest_file: "IBMPlexSansThaiLooped-Medium.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai-Looped/fonts/complete/ttf/IBMPlexSansThaiLooped-Regular.ttf"
+    dest_file: "IBMPlexSansThaiLooped-Regular.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai-Looped/fonts/complete/ttf/IBMPlexSansThaiLooped-SemiBold.ttf"
+    dest_file: "IBMPlexSansThaiLooped-SemiBold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai-Looped/fonts/complete/ttf/IBMPlexSansThaiLooped-Thin.ttf"
+    dest_file: "IBMPlexSansThaiLooped-Thin.ttf"
+  }
+  branch: "master"
+}
 primary_script: "Thai"

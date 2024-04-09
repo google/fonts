@@ -26,6 +26,15 @@ axes {
 source {
   repository_url: "https://github.com/dy/linefont"
   commit: "347effeda6955b1aa7febc34e17dcce3e04f5e15"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Linefont[wdth,wght].ttf"
+    dest_file: "Linefont[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 sample_text {
   masthead_full: "ĀŤĀŤĀŤĀŤĀŤĀŤĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤŤŤĀĀĀĀŤŤŤŤĀĀĀĀŤŤŤŤĀĀ"
@@ -33,6 +42,6 @@ sample_text {
   styles: "ĀŤĀŤĀŤĀŤĀŤĀŤĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤŤŤĀĀĀĀŤŤŤŤĀĀĀĀŤŤŤŤĀĀŤŤŤŤĀĀĀĀŤŤŤŤŤŤŤŤĀĀĀĀĀĀĀĀŤŤŤŤŤŤŤŤĀĀĀĀ"
   tester: "ĀŤĀŤĀŤĀŤĀŤĀŤĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤŤŤĀĀĀĀŤŤŤŤĀĀĀĀŤŤŤŤĀĀŤŤŤŤĀĀĀĀŤŤŤŤŤŤŤŤĀĀĀĀĀĀĀĀŤŤŤŤŤŤŤŤĀĀĀĀĀĀĀĀĀĀĀŤŤŤŤŤŤŤŤŤŤŤŤŤŤŤŤĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀŤŤŤŤŤŤŤŤŤŤŤŤŤŤŤŤĀĀĀĀĀĀĀĀ"
 }
+minisite_url: "https://dy.github.io/linefont/scripts/"
 classifications: "SYMBOLS"
 classifications: "DISPLAY"
-minisite_url: "https://dy.github.io/linefont/scripts/"

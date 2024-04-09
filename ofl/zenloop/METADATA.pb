@@ -24,5 +24,25 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/zen-loop"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/ZenLoop-Regular.ttf"
+    dest_file: "ZenLoop-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ZenLoop-Italic.ttf"
+    dest_file: "ZenLoop-Italic.ttf"
+  }
+  branch: "main"
+}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

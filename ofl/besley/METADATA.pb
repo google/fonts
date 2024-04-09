@@ -29,5 +29,21 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
-stroke: "SLAB_SERIF"
+source {
+  repository_url: "https://github.com/indestructible-type/Besley"
+  files {
+    source_file: "fonts/variable/Besley[wght].ttf"
+    dest_file: "Besley[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Besley-Italic[wght].ttf"
+    dest_file: "Besley-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 minisite_url: "https://indestructibletype.com/Besley.html"
+stroke: "SLAB_SERIF"

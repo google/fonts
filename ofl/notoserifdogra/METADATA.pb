@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/dogra.git"
+  repository_url: "https://github.com/notofonts/dogra"
   archive_url: "https://github.com/notofonts/dogra/releases/download/NotoSerifDogra-v1.007/NotoSerifDogra-v1.007.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSerifDogra/googlefonts/ttf/NotoSerifDogra-Regular.ttf"
+    dest_file: "NotoSerifDogra-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "doi_Dogr"  # Dogri, Dogra

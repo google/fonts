@@ -20,6 +20,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/duartp/gloock"
   commit: "de92978ce821ae0cba86954b4c46abc70486981d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Gloock-Regular.ttf"
+    dest_file: "Gloock-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

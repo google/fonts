@@ -28,11 +28,24 @@ axes {
   min_value: 0.0
   max_value: 100.0
 }
+registry_default_overrides {
+  key: "MORF"
+  value: 15.0
+}
 source {
   repository_url: "https://github.com/EkType/Honk"
   commit: "964739fca4b7f5485b21525df1e803fffbe6da99"
-}
-registry_default_overrides {
-  key: "MORF"
-  value: 15
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Honk[MORF,SHLN].ttf"
+    dest_file: "Honk[MORF,SHLN].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }

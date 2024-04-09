@@ -19,6 +19,15 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Calistoga"
   commit: "29e91526013f0d5b53862fee3c5ce6c108394812"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Calistoga-Regular.ttf"
+    dest_file: "Calistoga-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

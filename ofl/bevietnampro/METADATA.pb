@@ -169,3 +169,83 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/bettergui/BeVietnamPro"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-Black.ttf"
+    dest_file: "BeVietnamPro-Black.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-BlackItalic.ttf"
+    dest_file: "BeVietnamPro-BlackItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-Bold.ttf"
+    dest_file: "BeVietnamPro-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-BoldItalic.ttf"
+    dest_file: "BeVietnamPro-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-ExtraBold.ttf"
+    dest_file: "BeVietnamPro-ExtraBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-ExtraBoldItalic.ttf"
+    dest_file: "BeVietnamPro-ExtraBoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-ExtraLight.ttf"
+    dest_file: "BeVietnamPro-ExtraLight.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-ExtraLightItalic.ttf"
+    dest_file: "BeVietnamPro-ExtraLightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-Italic.ttf"
+    dest_file: "BeVietnamPro-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-Light.ttf"
+    dest_file: "BeVietnamPro-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-LightItalic.ttf"
+    dest_file: "BeVietnamPro-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-Medium.ttf"
+    dest_file: "BeVietnamPro-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-MediumItalic.ttf"
+    dest_file: "BeVietnamPro-MediumItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-Regular.ttf"
+    dest_file: "BeVietnamPro-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-SemiBold.ttf"
+    dest_file: "BeVietnamPro-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-SemiBoldItalic.ttf"
+    dest_file: "BeVietnamPro-SemiBoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-Thin.ttf"
+    dest_file: "BeVietnamPro-Thin.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/BeVietnamPro-ThinItalic.ttf"
+    dest_file: "BeVietnamPro-ThinItalic.ttf"
+  }
+  branch: "main"
+}

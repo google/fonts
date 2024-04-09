@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "osmanya"
 source {
-  repository_url: "https://github.com/notofonts/osmanya.git"
+  repository_url: "https://github.com/notofonts/osmanya"
   archive_url: "https://github.com/notofonts/osmanya/releases/download/NotoSansOsmanya-v2.001/NotoSansOsmanya-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansOsmanya/googlefonts/ttf/NotoSansOsmanya-Regular.ttf"
+    dest_file: "NotoSansOsmanya-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "so_Osma"  # Somali, Osmanya

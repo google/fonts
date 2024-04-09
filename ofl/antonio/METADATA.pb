@@ -20,5 +20,21 @@ axes {
   min_value: 100.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/antonioFont"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Fonts/VF/Antonio[wght].ttf"
+    dest_file: "Antonio[wght].ttf"
+  }
+  branch: "main"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

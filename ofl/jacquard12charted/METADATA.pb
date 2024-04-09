@@ -20,5 +20,14 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/scfried/soft-type-jacquard"
   commit: "9c5c14889fd148d385536658cc2d320be294f32d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Jacquard12Charted-Regular.ttf"
+    dest_file: "Jacquard12Charted-Regular.ttf"
+  }
+  branch: "main"
 }
 classifications: "DISPLAY"

@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/diplomata"
   commit: "32dc35e6b420631acc10808e1f92f74e3048e81d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/diplomata/ttf/Diplomata-Regular.ttf"
+    dest_file: "Diplomata-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

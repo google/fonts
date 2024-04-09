@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "rejang"
 source {
-  repository_url: "https://github.com/notofonts/rejang.git"
+  repository_url: "https://github.com/notofonts/rejang"
   archive_url: "https://github.com/notofonts/rejang/releases/download/NotoSansRejang-v2.002/NotoSansRejang-v2.002.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansRejang/googlefonts/ttf/NotoSansRejang-Regular.ttf"
+    dest_file: "NotoSansRejang-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "rej_Rjng"  # Rejang, Rejang

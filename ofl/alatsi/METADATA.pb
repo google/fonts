@@ -20,4 +20,13 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Alatsi/"
   commit: "d6b4c8127bbd4bb13f9abf0f77504d8bae3269fd"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Alatsi-Regular.ttf"
+    dest_file: "Alatsi-Regular.ttf"
+  }
+  branch: "main"
 }

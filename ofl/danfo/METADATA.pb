@@ -1,5 +1,5 @@
 name: "Danfo"
-designer: "Seyi Olusanya, Eyiyemi Adegbite, David Udoh, Mirko Velimirović"
+designer: "Afrotype, Seyi Olusanya, Eyiyemi Adegbite, David Udoh, Mirko Velimirović"
 license: "OFL"
 category: "SERIF"
 date_added: "2024-03-15"
@@ -24,6 +24,15 @@ axes {
 source {
   repository_url: "https://github.com/Afrotype/danfo"
   commit: "a66fc9ded8f42ad2d39b91c9cd8a1960737ad02a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Danfo[ELSH].ttf"
+    dest_file: "Danfo[ELSH].ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

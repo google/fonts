@@ -47,6 +47,23 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/balsamiq/balsamiqsans"
   archive_url: "https://github.com/balsamiq/balsamiqsans/releases/download/1.020/balsamiqsans-fonts.zip"
+  files {
+    source_file: "balsamiqsans-fonts/fonts/ttf/BalsamiqSans-Bold.ttf"
+    dest_file: "BalsamiqSans-Bold.ttf"
+  }
+  files {
+    source_file: "balsamiqsans-fonts/fonts/ttf/BalsamiqSans-BoldItalic.ttf"
+    dest_file: "BalsamiqSans-BoldItalic.ttf"
+  }
+  files {
+    source_file: "balsamiqsans-fonts/fonts/ttf/BalsamiqSans-Italic.ttf"
+    dest_file: "BalsamiqSans-Italic.ttf"
+  }
+  files {
+    source_file: "balsamiqsans-fonts/fonts/ttf/BalsamiqSans-Regular.ttf"
+    dest_file: "BalsamiqSans-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

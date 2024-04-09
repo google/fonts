@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "yi"
 source {
-  repository_url: "https://github.com/notofonts/yi.git"
+  repository_url: "https://github.com/notofonts/yi"
   archive_url: "https://github.com/notofonts/yi/releases/download/NotoSansYi-v2.002/NotoSansYi-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansYi/googlefonts/ttf/NotoSansYi-Regular.ttf"
+    dest_file: "NotoSansYi-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ii_Yiii"  # Sichuan Yi

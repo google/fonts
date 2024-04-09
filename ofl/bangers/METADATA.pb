@@ -19,4 +19,13 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/bangers"
   commit: "7b1747307aeb617957a216213de28b14d3281d9d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Bangers-Regular.ttf"
+    dest_file: "Bangers-Regular.ttf"
+  }
+  branch: "main"
 }

@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/fauna-one"
   commit: "ed89976413a322f9d84aae5d97c17cfe5cf0d95d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/FaunaOne-Regular.ttf"
+    dest_file: "FaunaOne-Regular.ttf"
+  }
+  branch: "master"
 }

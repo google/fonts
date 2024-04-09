@@ -28,5 +28,18 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/LivKing/Inclusive-Sans"
   commit: "97577e1a7c08db105c19bae35ea17b1a8f81ec5e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/InclusiveSans-Regular.ttf"
+    dest_file: "InclusiveSans-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/InclusiveSans-Italic.ttf"
+    dest_file: "InclusiveSans-Italic.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Zinh"

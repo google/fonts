@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "osage"
 source {
-  repository_url: "https://github.com/notofonts/osage.git"
+  repository_url: "https://github.com/notofonts/osage"
   archive_url: "https://github.com/notofonts/osage/releases/download/NotoSansOsage-v2.002/NotoSansOsage-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansOsage/googlefonts/ttf/NotoSansOsage-Regular.ttf"
+    dest_file: "NotoSansOsage-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "osa_Osge"  # Osage

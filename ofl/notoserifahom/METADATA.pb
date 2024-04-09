@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/ahom.git"
+  repository_url: "https://github.com/notofonts/ahom"
   archive_url: "https://github.com/notofonts/ahom/releases/download/NotoSerifAhom-v2.007/NotoSerifAhom-v2.007.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSerifAhom/googlefonts/ttf/NotoSerifAhom-Regular.ttf"
+    dest_file: "NotoSerifAhom-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aho_Ahom"  # Ahom

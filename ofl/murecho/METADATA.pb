@@ -24,4 +24,16 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/positype/Murecho-Project"
+  files {
+    source_file: "fonts/variable/Murecho[wght].ttf"
+    dest_file: "Murecho[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 primary_script: "Hira"

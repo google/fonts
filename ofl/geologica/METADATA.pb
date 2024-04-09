@@ -41,9 +41,22 @@ axes {
 }
 registry_default_overrides {
   key: "CRSV"
-  value: 0
+  value: 0.0
 }
 source {
   repository_url: "https://github.com/googlefonts/geologica"
   commit: "685f38d7c9e86b0c8530204c97ddcaf6558dd17b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/Geologica[CRSV,SHRP,slnt,wght].ttf"
+    dest_file: "Geologica[CRSV,SHRP,slnt,wght].ttf"
+  }
+  branch: "main"
 }

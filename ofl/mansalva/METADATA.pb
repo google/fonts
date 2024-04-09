@@ -20,6 +20,15 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/carolinashort/mansalva"
   commit: "192d65ff2d1560ff6399abde05904d910965d483"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Mansalva-Regular.ttf"
+    dest_file: "Mansalva-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

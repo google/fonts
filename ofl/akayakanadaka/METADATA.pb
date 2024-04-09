@@ -16,3 +16,19 @@ subsets: "kannada"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/vaishnavimurthy/Akaya-Kanadaka"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "TTF/AkayaKanadaka-Regular.ttf"
+    dest_file: "AkayaKanadaka-Regular.ttf"
+  }
+  branch: "master"
+}

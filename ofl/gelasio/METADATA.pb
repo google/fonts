@@ -33,5 +33,18 @@ axes {
 source {
   repository_url: "https://github.com/SorkinType/Gelasio"
   commit: "a6ee02d6ba3d3a038610aa0972f0d4c39b251539"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Gelasio[wght].ttf"
+    dest_file: "Gelasio[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Gelasio-Italic[wght].ttf"
+    dest_file: "Gelasio-Italic[wght].ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"

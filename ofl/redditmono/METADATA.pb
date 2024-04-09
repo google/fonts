@@ -1,5 +1,5 @@
 name: "Reddit Mono"
-designer: "Stephen Hutchings"
+designer: "Stephen Hutchings, OrangeRed"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2024-02-22"
@@ -24,6 +24,15 @@ axes {
 source {
   repository_url: "https://github.com/reddit/redditsans"
   commit: "60e19b50bde6de34b695591a8a047a6a3618a37c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/mono/variable/RedditMono[wght].ttf"
+    dest_file: "RedditMono[wght].ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

@@ -22,8 +22,25 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/bamum.git"
+  repository_url: "https://github.com/notofonts/bamum"
   archive_url: "https://github.com/notofonts/bamum/releases/download/NotoSansBamum-v2.002/NotoSansBamum-v2.002.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansBamum/googlefonts/variable-ttf/NotoSansBamum[wght].ttf"
+    dest_file: "NotoSansBamum[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "bax_Bamu"  # Bamun

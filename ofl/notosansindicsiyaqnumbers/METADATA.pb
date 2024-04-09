@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/indic-siyaq-numbers.git"
+  repository_url: "https://github.com/notofonts/indic-siyaq-numbers"
   archive_url: "https://github.com/notofonts/indic-siyaq-numbers/releases/download/NotoSansIndicSiyaqNumbers-v2.002/NotoSansIndicSiyaqNumbers-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansIndicSiyaqNumbers/googlefonts/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf"
+    dest_file: "NotoSansIndicSiyaqNumbers-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 sample_text {

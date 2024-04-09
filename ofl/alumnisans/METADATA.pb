@@ -32,5 +32,21 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/alumni"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/AlumniSans[wght].ttf"
+    dest_file: "AlumniSans[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/AlumniSans-Italic[wght].ttf"
+    dest_file: "AlumniSans-Italic[wght].ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

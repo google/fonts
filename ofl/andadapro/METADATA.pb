@@ -30,4 +30,20 @@ axes {
   min_value: 400.0
   max_value: 840.0
 }
+source {
+  repository_url: "https://github.com/huertatipografica/Andada-Pro"
+  files {
+    source_file: "fonts/variable/AndadaPro[wght].ttf"
+    dest_file: "AndadaPro[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/AndadaPro-Italic[wght].ttf"
+    dest_file: "AndadaPro-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 minisite_url: "https://huertatipografica.com/en/fonts/andada-ht-pro"

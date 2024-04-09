@@ -51,3 +51,31 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Nokora"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Nokora-Thin.ttf"
+    dest_file: "Nokora-Thin.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Nokora-Light.ttf"
+    dest_file: "Nokora-Light.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Nokora-Regular.ttf"
+    dest_file: "Nokora-Regular.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Nokora-Bold.ttf"
+    dest_file: "Nokora-Bold.ttf"
+  }
+  files {
+    source_file: "Release/ttf/Nokora-Black.ttf"
+    dest_file: "Nokora-Black.ttf"
+  }
+  branch: "master"
+}

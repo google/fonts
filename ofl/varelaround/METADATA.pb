@@ -20,4 +20,13 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/m4rc1e/Varela-Round-Hebrew"
   commit: "9bb2c89690095dd41f0f74d4954d3196eeaed68e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/VarelaRound-Regular.ttf"
+    dest_file: "VarelaRound-Regular.ttf"
+  }
+  branch: "gf-mastering"
 }

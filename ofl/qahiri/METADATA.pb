@@ -15,8 +15,17 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
-primary_script: "Arab"
 source {
   repository_url: "https://github.com/alif-type/qahiri"
   commit: "2fbfe8ca2e5ed04b0455e15c717774766f174ad1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Qahiri-Regular.ttf"
+    dest_file: "Qahiri-Regular.ttf"
+  }
+  branch: "main"
 }
+primary_script: "Arab"

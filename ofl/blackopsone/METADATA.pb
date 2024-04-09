@@ -20,4 +20,13 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Black-Ops"
   commit: "c955bed3517ad3d8606a8b0105d27538309fb70d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BlackOpsOne-Regular.ttf"
+    dest_file: "BlackOpsOne-Regular.ttf"
+  }
+  branch: "main"
 }

@@ -21,5 +21,17 @@ axes {
   min_value: 75.0
   max_value: 100.0
 }
+source {
+  repository_url: "https://github.com/sursly/league-gothic"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/LeagueGothic[wdth].ttf"
+    dest_file: "LeagueGothic[wdth].ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

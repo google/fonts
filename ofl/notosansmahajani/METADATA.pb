@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "mahajani"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/mahajani.git"
+  repository_url: "https://github.com/notofonts/mahajani"
   archive_url: "https://github.com/notofonts/mahajani/releases/download/NotoSansMahajani-v2.003/NotoSansMahajani-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansMahajani/googlefonts/ttf/NotoSansMahajani-Regular.ttf"
+    dest_file: "NotoSansMahajani-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "hi_Mahj"  # Hindi, Mahajani

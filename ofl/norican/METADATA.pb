@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/NoricanFont"
   commit: "c8f871d4dd2a00f17ba95783a3bd41c296188faf"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Norican-Regular.ttf"
+    dest_file: "Norican-Regular.ttf"
+  }
+  branch: "master"
 }

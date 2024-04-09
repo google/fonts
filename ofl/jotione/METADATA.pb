@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/joti"
   commit: "7feedf8bad69029e82ae281c7a100fb639d946e1"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/JotiOne-Regular.ttf"
+    dest_file: "JotiOne-Regular.ttf"
+  }
+  branch: "master"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

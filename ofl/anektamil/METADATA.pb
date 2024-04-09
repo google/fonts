@@ -29,4 +29,17 @@ axes {
 source {
   repository_url: "https://github.com/EkType/Anek"
   commit: "34074c6b406f4112e20c7ad10254a6e954d0324b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/AnekTamil/variable/AnekTamil[wdth,wght].ttf"
+    dest_file: "AnekTamil[wdth,wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }

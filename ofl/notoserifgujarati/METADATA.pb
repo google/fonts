@@ -24,8 +24,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/gujarati.git"
+  repository_url: "https://github.com/notofonts/gujarati"
   archive_url: "https://github.com/notofonts/gujarati/releases/download/NotoSerifGujarati-v2.106/NotoSerifGujarati-v2.106.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSerifGujarati/googlefonts/variable/NotoSerifGujarati[wght].ttf"
+    dest_file: "NotoSerifGujarati[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "gu_Gujr"  # Gujarati

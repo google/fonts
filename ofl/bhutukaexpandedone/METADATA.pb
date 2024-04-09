@@ -16,5 +16,21 @@ subsets: "gurmukhi"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/erinmclaughlin/BhuTuka-Extended-One"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/BhuTukaExpandedOne-Regular.ttf"
+    dest_file: "BhuTukaExpandedOne-Regular.ttf"
+  }
+  branch: "master"
+}
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"

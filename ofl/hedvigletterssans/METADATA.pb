@@ -20,5 +20,14 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/KanonFoundry/HedvigLetters"
   commit: "345b4d9015af6a26eb05e436460ca41fc42784df"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/HedvigLettersSans/ttf/HedvigLettersSans-Regular.ttf"
+    dest_file: "HedvigLettersSans-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SANS_SERIF"

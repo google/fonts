@@ -35,5 +35,25 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/productiontype/Georama"
+  files {
+    source_file: "ofl.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/Georama[wdth,wght].ttf"
+    dest_file: "Georama[wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Georama-Italic[wdth,wght].ttf"
+    dest_file: "Georama-Italic[wdth,wght].ttf"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

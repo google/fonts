@@ -18,5 +18,14 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/PaoloBiagini/Joan"
   commit: "981cb73299f7d9164eedcb647e57fb34c9dc1139"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Joan-Regular.ttf"
+    dest_file: "Joan-Regular.ttf"
+  }
+  branch: "main"
 }
 stroke: "SERIF"

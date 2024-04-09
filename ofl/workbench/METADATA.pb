@@ -29,7 +29,20 @@ axes {
 source {
   repository_url: "https://github.com/jenskutilek/homecomputer-fonts"
   commit: "09b2f79d686453d3bc160d04a687488e66962c43"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Workbench/fonts/variable/Workbench[BLED,SCAN].ttf"
+    dest_file: "Workbench[BLED,SCAN].ttf"
+  }
+  branch: "master"
 }
+minisite_url: "https://jenskutilek.github.io/homecomputer-fonts/documentation/demo-workbench.html"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
-minisite_url: "https://jenskutilek.github.io/homecomputer-fonts/documentation/demo-workbench.html"

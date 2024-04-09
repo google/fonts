@@ -35,4 +35,17 @@ axes {
 source {
   repository_url: "https://github.com/NDISCOVER/Exo-2.0"
   commit: "182060cd38adf3cde0d22add3f8009d30bd48cde"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Exo2[wght].ttf"
+    dest_file: "Exo2[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Exo2-Italic[wght].ttf"
+    dest_file: "Exo2-Italic[wght].ttf"
+  }
+  branch: "master"
 }

@@ -15,5 +15,21 @@ fonts {
 subsets: "japanese"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/fontdasu/Mochiypop"
+  files {
+    source_file: "fonts/ttf/MochiyPopPOne-Regular.ttf"
+    dest_file: "MochiyPopPOne-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "P_DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

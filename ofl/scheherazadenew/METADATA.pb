@@ -46,5 +46,26 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-scheherazade"
   archive_url: "https://github.com/silnrsi/font-scheherazade/releases/download/v4.000/ScheherazadeNew-4.000.zip"
+  files {
+    source_file: "ScheherazadeNew-4.000/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf"
+    dest_file: "ScheherazadeNew-Regular.ttf"
+  }
+  files {
+    source_file: "ScheherazadeNew-4.000/ScheherazadeNew-Medium.ttf"
+    dest_file: "ScheherazadeNew-Medium.ttf"
+  }
+  files {
+    source_file: "ScheherazadeNew-4.000/ScheherazadeNew-SemiBold.ttf"
+    dest_file: "ScheherazadeNew-SemiBold.ttf"
+  }
+  files {
+    source_file: "ScheherazadeNew-4.000/ScheherazadeNew-Bold.ttf"
+    dest_file: "ScheherazadeNew-Bold.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Arab"

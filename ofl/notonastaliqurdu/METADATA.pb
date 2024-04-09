@@ -22,8 +22,25 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/nastaliq.git"
+  repository_url: "https://github.com/notofonts/nastaliq"
   archive_url: "https://github.com/notofonts/nastaliq/releases/download/NotoNastaliqUrdu-v3.009/NotoNastaliqUrdu-v3.009.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoNastaliqUrdu/googlefonts/variable/NotoNastaliqUrdu[wght].ttf"
+    dest_file: "NotoNastaliqUrdu[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ur_Arab"  # Urdu

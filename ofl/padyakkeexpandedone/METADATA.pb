@@ -19,6 +19,19 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/DunwichType/Padyakke_Libre"
   commit: "6b18f969591fb9d4767478137061cdd5b727a6b4"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/PadyakkeExpandedOne-Regular.ttf"
+    dest_file: "PadyakkeExpandedOne-Regular.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Knda"
 stroke: "SLAB_SERIF"

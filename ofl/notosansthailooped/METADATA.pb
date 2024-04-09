@@ -89,8 +89,49 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
 source {
-  repository_url: "https://github.com/notofonts/thai.git"
+  repository_url: "https://github.com/notofonts/thai"
   archive_url: "https://github.com/notofonts/thai/releases/download/NotoSansThaiLooped-v1.001/NotoSansThaiLooped-v1.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansThaiLooped/googlefonts/ttf/NotoSansThaiLooped-Regular.ttf"
+    dest_file: "NotoSansThaiLooped-Regular.ttf"
+  }
+  files {
+    source_file: "NotoSansThaiLooped/googlefonts/ttf/NotoSansThaiLooped-Medium.ttf"
+    dest_file: "NotoSansThaiLooped-Medium.ttf"
+  }
+  files {
+    source_file: "NotoSansThaiLooped/googlefonts/ttf/NotoSansThaiLooped-Thin.ttf"
+    dest_file: "NotoSansThaiLooped-Thin.ttf"
+  }
+  files {
+    source_file: "NotoSansThaiLooped/googlefonts/ttf/NotoSansThaiLooped-Black.ttf"
+    dest_file: "NotoSansThaiLooped-Black.ttf"
+  }
+  files {
+    source_file: "NotoSansThaiLooped/googlefonts/ttf/NotoSansThaiLooped-ExtraLight.ttf"
+    dest_file: "NotoSansThaiLooped-ExtraLight.ttf"
+  }
+  files {
+    source_file: "NotoSansThaiLooped/googlefonts/ttf/NotoSansThaiLooped-ExtraBold.ttf"
+    dest_file: "NotoSansThaiLooped-ExtraBold.ttf"
+  }
+  files {
+    source_file: "NotoSansThaiLooped/googlefonts/ttf/NotoSansThaiLooped-Bold.ttf"
+    dest_file: "NotoSansThaiLooped-Bold.ttf"
+  }
+  files {
+    source_file: "NotoSansThaiLooped/googlefonts/ttf/NotoSansThaiLooped-Light.ttf"
+    dest_file: "NotoSansThaiLooped-Light.ttf"
+  }
+  files {
+    source_file: "NotoSansThaiLooped/googlefonts/ttf/NotoSansThaiLooped-SemiBold.ttf"
+    dest_file: "NotoSansThaiLooped-SemiBold.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "kdt_Thai"  # Kuy

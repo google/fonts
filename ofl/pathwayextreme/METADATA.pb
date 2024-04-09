@@ -43,9 +43,22 @@ axes {
 }
 registry_default_overrides {
   key: "opsz"
-  value: 12
+  value: 12.0
 }
 source {
   repository_url: "https://github.com/etunni/Pathway-Variable-Font"
   commit: "4fa691f3898690d1f485839743ace01c5e6410da"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/PathwayExtreme[opsz,wdth,wght].ttf"
+    dest_file: "PathwayExtreme[opsz,wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/PathwayExtreme-Italic[opsz,wdth,wght].ttf"
+    dest_file: "PathwayExtreme-Italic[opsz,wdth,wght].ttf"
+  }
+  branch: "master"
 }

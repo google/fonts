@@ -50,5 +50,14 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/roboto-serif"
   archive_url: "https://github.com/googlefonts/roboto-serif/releases/download/v1.008/RobotoSerifFonts-v1.008.zip"
+  files {
+    source_file: "variable/RobotoSerif[GRAD,opsz,wdth,wght].ttf"
+    dest_file: "RobotoSerif[GRAD,opsz,wdth,wght].ttf"
+  }
+  files {
+    source_file: "variable/RobotoSerif-Italic[GRAD,opsz,wdth,wght].ttf"
+    dest_file: "RobotoSerif-Italic[GRAD,opsz,wdth,wght].ttf"
+  }
+  branch: "main"
 }
 minisite_url: "https://fonts.withgoogle.com/roboto-serif"

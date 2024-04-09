@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/MakoFont"
   commit: "493c8535e2ae836eea478f167b7c05755818360f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Mako-Regular.ttf"
+    dest_file: "Mako-Regular.ttf"
+  }
+  branch: "master"
 }

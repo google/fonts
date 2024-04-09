@@ -17,8 +17,25 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/avestan.git"
+  repository_url: "https://github.com/notofonts/avestan"
   archive_url: "https://github.com/notofonts/avestan/releases/download/NotoSansAvestan-v2.003/NotoSansAvestan-v2.003.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansAvestan/googlefonts/ttf/NotoSansAvestan-Regular.ttf"
+    dest_file: "NotoSansAvestan-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ae_Avst"  # Avestan

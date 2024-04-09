@@ -19,6 +19,19 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/updock"
   commit: "392c2404f3860e8f06f63aa4dfc91eec3831d294"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Updock-Regular.ttf"
+    dest_file: "Updock-Regular.ttf"
+  }
+  branch: "master"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

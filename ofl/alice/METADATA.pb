@@ -17,3 +17,15 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/cyrealtype/Alice"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Alice-Regular.ttf"
+    dest_file: "Alice-Regular.ttf"
+  }
+  branch: "master"
+}

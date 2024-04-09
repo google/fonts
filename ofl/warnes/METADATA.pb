@@ -18,6 +18,15 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/warnes"
   commit: "ec72daae3a0a1542706f636b9165f70874599cc5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Warnes-Regular.ttf"
+    dest_file: "Warnes-Regular.ttf"
+  }
+  branch: "master"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

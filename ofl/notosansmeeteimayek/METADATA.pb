@@ -22,25 +22,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/meetei-mayek"
+  repository_url: "https://github.com/notofonts/meetei-mayek.git"
   archive_url: "https://github.com/notofonts/meetei-mayek/releases/download/NotoSansMeeteiMayek-v2.002/NotoSansMeeteiMayek-v2.002.zip"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "NotoSansMeeteiMayek/googlefonts/variable-ttf/NotoSansMeeteiMayek[wght].ttf"
-    dest_file: "NotoSansMeeteiMayek[wght].ttf"
-  }
-  branch: "main"
 }
 is_noto: true
 languages: "mni_Mtei"  # Manipuri, Meetei Mayek

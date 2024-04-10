@@ -17,15 +17,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/scfried/soft-type-jacquard"
-  commit: "ff555eb48673d04b64e451d84d77b8742bc37544"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "fonts/ttf/Jacquard24Charted-Regular.ttf"
-    dest_file: "Jacquard24Charted-Regular.ttf"
-  }
-  branch: "main"
+  commit: "0ef57f102270194f4e41ce609ad5888f14983b8e"
 }
 classifications: "DISPLAY"

@@ -1,0 +1,7 @@
+archive: https://github.com/notofonts/elymaic/releases/download/NotoSansElymaic-v1.002/NotoSansElymaic-v1.002.zip
+branch: main
+files:
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  OFL.txt: OFL.txt
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  NotoSansElymaic/googlefonts/ttf/NotoSansElymaic-Regular.ttf: NotoSansElymaic-Regular.ttf

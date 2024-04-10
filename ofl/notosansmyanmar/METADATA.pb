@@ -27,21 +27,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/myanmar"
+  repository_url: "https://github.com/notofonts/myanmar.git"
   archive_url: "https://github.com/notofonts/myanmar/releases/download/NotoSansMyanmar-v2.107/NotoSansMyanmar-v2.107.zip"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "NotoSansMyanmar/googlefonts/variable-ttf/NotoSansMyanmar[wdth,wght].ttf"
-    dest_file: "NotoSansMyanmar[wdth,wght].ttf"
-  }
-  branch: "main"
 }
 is_noto: true
 languages: "kht_Mymr"  # Khamti

@@ -1,0 +1,16 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  fonts/variable/JosefinSlab-Italic[wght].ttf: JosefinSlab-Italic[wght].ttf
+  fonts/variable/JosefinSlab[wght].ttf: JosefinSlab[wght].ttf
+  fonts/ttf/JosefinSlab-Bold.ttf: static/JosefinSlab-Bold.ttf
+  fonts/ttf/JosefinSlab-BoldItalic.ttf: static/JosefinSlab-BoldItalic.ttf
+  fonts/ttf/JosefinSlab-Italic.ttf: static/JosefinSlab-Italic.ttf
+  fonts/ttf/JosefinSlab-Light.ttf: static/JosefinSlab-Light.ttf
+  fonts/ttf/JosefinSlab-LightItalic.ttf: static/JosefinSlab-LightItalic.ttf
+  fonts/ttf/JosefinSlab-Regular.ttf: static/JosefinSlab-Regular.ttf
+  fonts/ttf/JosefinSlab-SemiBold.ttf: static/JosefinSlab-SemiBold.ttf
+  fonts/ttf/JosefinSlab-SemiBoldItalic.ttf: static/JosefinSlab-SemiBoldItalic.ttf
+  fonts/ttf/JosefinSlab-Thin.ttf: static/JosefinSlab-Thin.ttf
+  fonts/ttf/JosefinSlab-ThinItalic.ttf: static/JosefinSlab-ThinItalic.ttf
+repository_url: https://github.com/TypeNetwork/Josefinslab

@@ -33,21 +33,4 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/docrepair-fonts/lunasima-fonts"
   commit: "88f44d7a6c3693aa455dc7194c6e5a01cb2a39ae"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "fonts/ttf/Lunasima-Regular.ttf"
-    dest_file: "Lunasima-Regular.ttf"
-  }
-  files {
-    source_file: "fonts/ttf/Lunasima-Bold.ttf"
-    dest_file: "Lunasima-Bold.ttf"
-  }
-  branch: "main"
 }

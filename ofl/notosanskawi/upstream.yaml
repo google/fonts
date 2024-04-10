@@ -1,0 +1,7 @@
+archive: https://github.com/notofonts/kawi/releases/download/NotoSansKawi-v1.000/NotoSansKawi-v1.000.zip
+branch: main
+files:
+  ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  OFL.txt: OFL.txt
+  NotoSansKawi/googlefonts/variable-ttf/NotoSansKawi[wght].ttf: NotoSansKawi[wght].ttf

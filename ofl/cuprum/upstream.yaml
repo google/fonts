@@ -1,0 +1,10 @@
+branch: master
+files:
+  OFL.txt: OFL.txt
+  fonts/variable/Cuprum-Italic[wght].ttf: Cuprum-Italic[wght].ttf
+  fonts/variable/Cuprum[wght].ttf: Cuprum[wght].ttf
+  fonts/ttf/Cuprum-Regular.ttf: static/Cuprum-Regular.ttf
+  fonts/ttf/Cuprum-Bold.ttf: static/Cuprum-Bold.ttf
+  fonts/ttf/Cuprum-Italic.ttf: static/Cuprum-Italic.ttf
+  fonts/ttf/Cuprum-BoldItalic.ttf: static/Cuprum-BoldItalic.ttf
+repository_url: https://github.com/alexeiva/cuprum

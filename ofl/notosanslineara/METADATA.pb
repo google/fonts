@@ -17,29 +17,13 @@ subsets: "latin-ext"
 subsets: "linear-a"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/linear-a"
+  repository_url: "https://github.com/notofonts/linear-a.git"
   archive_url: "https://github.com/notofonts/linear-a/releases/download/NotoSansLinearA-v2.002/NotoSansLinearA-v2.002.zip"
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "NotoSansLinearA/googlefonts/ttf/NotoSansLinearA-Regular.ttf"
-    dest_file: "NotoSansLinearA-Regular.ttf"
-  }
-  branch: "main"
 }
 is_noto: true
 languages: "lab_Lina"  # Linear A
 languages: "omn_Lina"  # Minoan
+primary_script: "Lina"
 sample_text {
   masthead_full: "𐘂𐚰𐚩𐛌"
   masthead_partial: "𐘁𐚵"
@@ -49,4 +33,3 @@ sample_text {
   poster_md: "𐚨𐚩𐚪𐚫𐚬𐚭𐚮 𐛋𐛌𐛍"
   poster_lg: "𐘀𐘁𐘂"
 }
-primary_script: "Lina"

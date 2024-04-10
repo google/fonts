@@ -15,17 +15,5 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Freehand"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "Release/ttf/Freehand-Regular.ttf"
-    dest_file: "Freehand-Regular.ttf"
-  }
-  branch: "master"
-}
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

@@ -18,16 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
-  repository_url: "https://github.com/aliftype/reem-kufi"
+  repository_url: "https://github.com/aliftype/reem-kufi.git"
   archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v1.7/ReemKufi-1.7.zip"
-  files {
-    source_file: "ReemKufi-1.7/OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "ReemKufi-1.7/ttf/ReemKufiInk-Regular.ttf"
-    dest_file: "ReemKufiInk-Regular.ttf"
-  }
-  branch: "main"
 }
 primary_script: "Arab"

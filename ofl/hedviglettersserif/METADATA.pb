@@ -24,19 +24,10 @@ axes {
 }
 registry_default_overrides {
   key: "opsz"
-  value: 24.0
+  value: 24
 }
 source {
   repository_url: "https://github.com/KanonFoundry/HedvigLetters"
   commit: "345b4d9015af6a26eb05e436460ca41fc42784df"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "fonts/HedvigLettersSerif/variable/HedvigLettersSerif[opsz].ttf"
-    dest_file: "HedvigLettersSerif[opsz].ttf"
-  }
-  branch: "main"
 }
 stroke: "SERIF"

@@ -22,25 +22,8 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/kawi"
+  repository_url: "https://github.com/notofonts/kawi.git"
   archive_url: "https://github.com/notofonts/kawi/releases/download/NotoSansKawi-v1.000/NotoSansKawi-v1.000.zip"
-  files {
-    source_file: "ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "NotoSansKawi/googlefonts/variable-ttf/NotoSansKawi[wght].ttf"
-    dest_file: "NotoSansKawi[wght].ttf"
-  }
-  branch: "main"
 }
 is_noto: true
 languages: "kaw_Kawi"  # Old Javanese, Kawi

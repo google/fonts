@@ -22,25 +22,8 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/tangsa"
+  repository_url: "https://github.com/notofonts/tangsa.git"
   archive_url: "https://github.com/notofonts/tangsa/releases/download/NotoSansTangsa-v1.506/NotoSansTangsa-v1.506.zip"
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "NotoSansTangsa/googlefonts/variable/NotoSansTangsa[wght].ttf"
-    dest_file: "NotoSansTangsa[wght].ttf"
-  }
-  branch: "main"
 }
 is_noto: true
 languages: "nst_Tnsa"  # Tangsa

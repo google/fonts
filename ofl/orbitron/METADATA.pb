@@ -20,7 +20,7 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/googlefonts/orbitron-vf"
+  repository_url: "https://github.com/theleagueof/orbitron"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

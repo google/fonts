@@ -17,21 +17,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "nushu"
 source {
-  repository_url: "https://github.com/notofonts/nushu"
+  repository_url: "https://github.com/notofonts/nushu.git"
   archive_url: "https://github.com/notofonts/nushu/releases/download/NotoSansNushu-v1.003/NotoSansNushu-v1.003.zip"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "NotoSansNushu/googlefonts/ttf/NotoSansNushu-Regular.ttf"
-    dest_file: "NotoSansNushu-Regular.ttf"
-  }
-  branch: "main"
 }
 is_noto: true
 languages: "mis_Nshu"  # Xiangnan Tuhua

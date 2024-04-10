@@ -15,17 +15,5 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Moul"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "Release/ttf/Moul-Regular.ttf"
-    dest_file: "Moul-Regular.ttf"
-  }
-  branch: "master"
-}
 stroke: "SERIF"
 classifications: "DISPLAY"

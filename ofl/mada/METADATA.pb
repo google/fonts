@@ -24,14 +24,5 @@ axes {
 source {
   repository_url: "https://github.com/aliftype/mada"
   archive_url: "https://github.com/aliftype/mada/releases/download/v1.5/Mada-1.5.zip"
-  files {
-    source_file: "Mada-1.5/OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "Mada-1.5/Mada.ttf"
-    dest_file: "Mada[wght].ttf"
-  }
-  branch: "main"
 }
 primary_script: "Arab"

@@ -22,26 +22,9 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/ol-chiki"
+  repository_url: "https://github.com/notofonts/ol-chiki.git"
   archive_url: "https://github.com/notofonts/ol-chiki/releases/download/NotoSansOlChiki-v2.003/NotoSansOlChiki-v2.003.zip"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "NotoSansOlChiki/googlefonts/variable-ttf/NotoSansOlChiki[wght].ttf"
-    dest_file: "NotoSansOlChiki[wght].ttf"
-  }
-  branch: "main"
 }
 is_noto: true
-languages: "sat_Olck"  # Santali, Ol Chiki
+languages: "sat_Olck"  # Santali
 primary_script: "Olck"

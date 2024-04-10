@@ -17,27 +17,10 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "syloti-nagri"
 source {
-  repository_url: "https://github.com/notofonts/syloti-nagri"
+  repository_url: "https://github.com/notofonts/syloti-nagri.git"
   archive_url: "https://github.com/notofonts/syloti-nagri/releases/download/NotoSansSylotiNagri-v2.004/NotoSansSylotiNagri-v2.004.zip"
-  files {
-    source_file: "ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf"
-    dest_file: "NotoSansSylotiNagri-Regular.ttf"
-  }
-  branch: "main"
 }
 is_noto: true
-languages: "sa_Sylo"
+languages: "sa_Sylo"  # Sanskrit, Syloti Nagri
 languages: "syl_Sylo"  # Sylheti, Syloti Nagri
 primary_script: "Sylo"

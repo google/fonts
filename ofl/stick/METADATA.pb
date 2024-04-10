@@ -17,21 +17,5 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/fontworks-fonts/Stick"
-  files {
-    source_file: "fonts/ttf/Stick-Regular.ttf"
-    dest_file: "Stick-Regular.ttf"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  branch: "master"
-}
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

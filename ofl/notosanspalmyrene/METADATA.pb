@@ -17,25 +17,8 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "palmyrene"
 source {
-  repository_url: "https://github.com/notofonts/palmyrene"
+  repository_url: "https://github.com/notofonts/palmyrene.git"
   archive_url: "https://github.com/notofonts/palmyrene/releases/download/NotoSansPalmyrene-v2.001/NotoSansPalmyrene-v2.001.zip"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "NotoSansPalmyrene/googlefonts/ttf/NotoSansPalmyrene-Regular.ttf"
-    dest_file: "NotoSansPalmyrene-Regular.ttf"
-  }
-  branch: "main"
 }
 is_noto: true
 languages: "aii_Palm"  # Assyrian Neo-Aramaic, Palmyrene

@@ -17,25 +17,8 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/bhaiksuki"
+  repository_url: "https://github.com/notofonts/bhaiksuki.git"
   archive_url: "https://github.com/notofonts/bhaiksuki/releases/download/NotoSansBhaiksuki-v2.002/NotoSansBhaiksuki-v2.002.zip"
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "NotoSansBhaiksuki/googlefonts/ttf/NotoSansBhaiksuki-Regular.ttf"
-    dest_file: "NotoSansBhaiksuki-Regular.ttf"
-  }
-  branch: "main"
 }
 is_noto: true
 languages: "sa_Bhks"  # Sanskrit, Bhaiksuki

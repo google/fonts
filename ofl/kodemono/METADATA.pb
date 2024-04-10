@@ -24,20 +24,6 @@ axes {
 source {
   repository_url: "https://github.com/isaozler/kode-mono"
   commit: "94d565d4b6164cee482c68ee706e51135d6691ad"
-  files {
-    source_file: "fonts/variable/KodeMono[wght].ttf"
-    dest_file: "KodeMono[wght].ttf"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  branch: "main"
 }
-stroke: "SANS_SERIF"
 classifications: "MONOSPACE"
-minisite_url: "https://kodemono.com"
+stroke: "SANS_SERIF"

@@ -22,17 +22,8 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/oriya"
+  repository_url: "https://github.com/notofonts/oriya.git"
   archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSerifOriya-v1.051/NotoSerifOriya-v1.051.zip"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "NotoSerifOriya/googlefonts/variable-ttf/NotoSerifOriya[wght].ttf"
-    dest_file: "NotoSerifOriya[wght].ttf"
-  }
-  branch: "main"
 }
 is_noto: true
 languages: "khr_Orya"  # Kharia, Odia

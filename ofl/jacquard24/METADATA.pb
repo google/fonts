@@ -18,14 +18,5 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/scfried/soft-type-jacquard"
   commit: "0ef57f102270194f4e41ce609ad5888f14983b8e"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "fonts/ttf/Jacquard24-Regular.ttf"
-    dest_file: "Jacquard24-Regular.ttf"
-  }
-  branch: "main"
 }
 classifications: "DISPLAY"

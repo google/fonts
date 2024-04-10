@@ -40,3 +40,4 @@ source {
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"
+minisite_url: "https://kodemono.com"

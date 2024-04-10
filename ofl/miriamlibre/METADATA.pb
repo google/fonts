@@ -21,6 +21,21 @@ fonts {
   full_name: "Miriam Libre Bold"
   copyright: "Copyright 2016 Michal Sahar. All rights reserved."
 }
+source {
+  repository_url: "https://github.com/MichalSahar/Miriam-Libre"
+  files {
+    source_file: "fonts/ttf/MiriamLibre-Regular.ttf"
+    dest_file: "MiriamLibre-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/MiriamLibre-Bold.ttf"
+    dest_file: "MiriamLibre-Bold.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+}
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"

@@ -19,7 +19,7 @@ fonts {
   filename: "Unkempt-Bold.ttf"
   post_script_name: "Unkempt-Bold"
   full_name: "Unkempt Bold"
-  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reseved Font Name \"Unkempt Bold\""
+  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reserved Font Name \"Unkempt Bold\""
 }
 subsets: "latin"
 subsets: "menu"

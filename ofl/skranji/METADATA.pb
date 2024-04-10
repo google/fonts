@@ -10,7 +10,7 @@ fonts {
   filename: "Skranji-Regular.ttf"
   post_script_name: "Skranji"
   full_name: "Skranji"
-  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Skranji\""
+  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reserved Font Name \"Skranji\""
 }
 fonts {
   name: "Skranji"
@@ -19,7 +19,7 @@ fonts {
   filename: "Skranji-Bold.ttf"
   post_script_name: "Skranji-Bold"
   full_name: "Skranji Bold"
-  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Skranji Bold\""
+  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reserved Font Name \"Skranji Bold\""
 }
 subsets: "menu"
 subsets: "latin"

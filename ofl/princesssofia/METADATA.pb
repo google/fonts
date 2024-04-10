@@ -10,7 +10,7 @@ fonts {
   filename: "PrincessSofia-Regular.ttf"
   post_script_name: "PrincessSofia"
   full_name: "Princess Sofia"
-  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reseved Font Name \"Princess Sofia\""
+  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Princess Sofia\""
 }
 subsets: "menu"
 subsets: "latin"

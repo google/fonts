@@ -10,7 +10,7 @@ fonts {
   filename: "FrederickatheGreat-Regular.ttf"
   post_script_name: "FrederickatheGreat"
   full_name: "Fredericka the Great"
-  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reseved Font Name \"Fredericka the Great\""
+  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Fredericka the Great\""
 }
 subsets: "menu"
 subsets: "latin"

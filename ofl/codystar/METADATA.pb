@@ -10,7 +10,7 @@ fonts {
   filename: "Codystar-Light.ttf"
   post_script_name: "Codystar-Light"
   full_name: "Codystar Light"
-  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Codystar Light\""
+  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reserved Font Name \"Codystar Light\""
 }
 fonts {
   name: "Codystar"
@@ -19,7 +19,7 @@ fonts {
   filename: "Codystar-Regular.ttf"
   post_script_name: "Codystar"
   full_name: "Codystar"
-  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Codystar\""
+  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reserved Font Name \"Codystar\""
 }
 subsets: "menu"
 subsets: "latin"

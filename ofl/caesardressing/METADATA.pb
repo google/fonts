@@ -10,7 +10,7 @@ fonts {
   filename: "CaesarDressing-Regular.ttf"
   post_script_name: "CaesarDressing-Regular"
   full_name: "Caesar Dressing"
-  copyright: "Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Caesar Dressing\""
+  copyright: "Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reserved Font Name \"Caesar Dressing\""
 }
 subsets: "menu"
 subsets: "latin"

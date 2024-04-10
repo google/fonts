@@ -10,7 +10,7 @@ fonts {
   filename: "MetalMania-Regular.ttf"
   post_script_name: "MetalMania-Regular"
   full_name: "Metal Mania"
-  copyright: "Copyright (c) 2012 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Metal Mania\""
+  copyright: "Copyright (c) 2012 by Open Window (dathanboardman@gmail.com) with Reserved Font Name \"Metal Mania\""
 }
 subsets: "menu"
 subsets: "latin"

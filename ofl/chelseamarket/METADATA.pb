@@ -10,7 +10,7 @@ fonts {
   filename: "ChelseaMarket-Regular.ttf"
   post_script_name: "ChelseaMarket-Regular"
   full_name: "Chelsea Market"
-  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reseved Font Name \"Chelsea Market\""
+  copyright: "Copyright (c) 2011 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Chelsea Market\""
 }
 subsets: "menu"
 subsets: "latin"

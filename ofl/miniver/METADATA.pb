@@ -10,7 +10,7 @@ fonts {
   filename: "Miniver-Regular.ttf"
   post_script_name: "Miniver"
   full_name: "Miniver"
-  copyright: "Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Miniver\""
+  copyright: "Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reserved Font Name \"Miniver\""
 }
 subsets: "menu"
 subsets: "latin"

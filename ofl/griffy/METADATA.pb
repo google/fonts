@@ -10,7 +10,7 @@ fonts {
   filename: "Griffy-Regular.ttf"
   post_script_name: "Griffy-Regular"
   full_name: "Griffy"
-  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Griffy\""
+  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reserved Font Name \"Griffy\""
 }
 subsets: "menu"
 subsets: "latin"

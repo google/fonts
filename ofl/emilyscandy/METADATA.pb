@@ -10,7 +10,7 @@ fonts {
   filename: "EmilysCandy-Regular.ttf"
   post_script_name: "EmilysCandy-Regular"
   full_name: "Emilys Candy"
-  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name \"Emilys Candy\""
+  copyright: "Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reserved Font Name \"Emilys Candy\""
 }
 subsets: "menu"
 subsets: "latin"

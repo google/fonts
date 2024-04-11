@@ -14,6 +14,8 @@ On macOS, the system font location is `Macintosh HD > Library > Fonts`. (If you 
 
 On Windows, the location is `C:\Windows\Fonts`. (If you can’t move fonts there, use `C: \Users\Username\AppData\Local\Microsoft\Windows\Fonts\` to install fonts that can only be accessed by your own username.)
 
+On GNU+Linux, the system font location is `/usr/share/fonts`. (If you can't move fonts there, instead use `~/.local/share/fonts`, folder to install fonts that can only be accessed by your own username.)
+
 For more information, see [Adobe’s help documentation](https://www.adobe.com/products/type/install-instructions.html) on installing fonts for all kinds of operating systems.
 
 Once the new font files are in the correct location, they should be ready to use in every app, although often you’ll need to restart an app if it was already running before you installed a font.

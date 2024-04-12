@@ -12,7 +12,6 @@ fonts {
   full_name: "Monda Regular"
   copyright: "Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)"
 }
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

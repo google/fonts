@@ -1,5 +1,5 @@
 name: "Buenard"
-designer: "Gustavo Ibarra"
+designer: "FontFuror"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"

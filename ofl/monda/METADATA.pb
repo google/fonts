@@ -36,12 +36,8 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   files {
-    source_file: "fonts/ttf/Monda-Bold.ttf"
-    dest_file: "Monda-Bold.ttf"
-  }
-  files {
-    source_file: "fonts/ttf/Monda-Regular.ttf"
-    dest_file: "Monda-Regular.ttf"
+    source_file: "fonts/variable/Monda[wght].ttf"
+    dest_file: "Monda[wght].ttf"
   }
   branch: "master"
 }

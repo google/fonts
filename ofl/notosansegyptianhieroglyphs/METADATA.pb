@@ -12,9 +12,7 @@ fonts {
   full_name: "Noto Sans Egyptian Hieroglyphs Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/egyptian-hieroglyphs)"
 }
-subsets: "cyrillic-ext"
 subsets: "egyptian-hieroglyphs"
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

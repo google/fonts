@@ -12,13 +12,16 @@ fonts {
   full_name: "Noto Sans Egyptian Hieroglyphs Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/egyptian-hieroglyphs)"
 }
+subsets: "cyrillic-ext"
 subsets: "egyptian-hieroglyphs"
+subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/egyptian-hieroglyphs"
-  archive_url: "https://github.com/notofonts/egyptian-hieroglyphs/releases/download/NotoSansEgyptianHieroglyphs-v2.001/NotoSansEgyptianHieroglyphs-v2.001.zip"
+  commit: "08dec90190624040743ebb4e28d5552ae3d60862"
+  archive_url: "https://github.com/notofonts/egyptian-hieroglyphs/releases/download/NotoSansEgyptianHieroglyphs-v2.002/NotoSansEgyptianHieroglyphs-v2.002.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

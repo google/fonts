@@ -5082,10 +5082,6 @@ Noto Serif HK,/Serif/Transitional,100
 Noto Serif Hebrew,/Expressive/Business,99
 Noto Serif Hebrew,/Expressive/Sincere,99
 Noto Serif Hebrew,/Serif/Transitional,100
-Noto Serif Hentaigana,/Expressive/Sincere,20
-Noto Serif Hentaigana,/Expressive/Sophisticated,10
-Noto Serif Hentaigana,/Script/Formal,20
-Noto Serif Hentaigana,/Serif/Old Style Garalde,20
 Noto Serif JP,/Expressive/Business,99
 Noto Serif JP,/Expressive/Loud,25
 Noto Serif JP,/Expressive/Sincere,99
@@ -5618,20 +5614,6 @@ Plaster,/Expressive/Vintage,92
 Plaster,/Theme/Art Deco,10
 Plaster,/Theme/Stencil,100
 Plaster,/Theme/Woodtype,80
-Platypi,/Expressive/Business,60
-Platypi,/Expressive/Futuristic,5
-Platypi,/Expressive/Loud,20
-Platypi,/Expressive/Playful,5
-Platypi,/Expressive/Sincere,90
-Platypi,/Expressive/Sophisticated,10
-Platypi,/Expressive/Vintage,10
-Platypi,/Serif/Fat Face,25
-Platypi,/Serif/Humanist Venetian,20
-Platypi,/Serif/Modern,10
-Platypi,/Serif/Old Style Garalde,90
-Platypi,/Serif/Transitional,20
-Platypi,/Theme/Art Nouveau,5
-Platypi,/Theme/Woodtype,10
 Play,/Expressive/Artistic,91
 Play,/Expressive/Loud,100
 Play,/Expressive/Rugged,100
@@ -6584,18 +6566,6 @@ Secular One,/Expressive/Business,66
 Secular One,/Expressive/Stiff,60
 Secular One,/Expressive/Vintage,37
 Secular One,/Sans/Humanist,100
-Sedan,/Expressive/Business,50
-Sedan,/Expressive/Calm,96
-Sedan,/Expressive/Sincere,92
-Sedan,/Expressive/Vintage,77
-Sedan,/Serif/Humanist Venetian,100
-Sedan,/Serif/Old Style Garalde,90
-Sedan SC,/Expressive/Business,50
-Sedan SC,/Expressive/Calm,96
-Sedan SC,/Expressive/Sincere,94
-Sedan SC,/Expressive/Vintage,75
-Sedan SC,/Serif/Humanist Venetian,100
-Sedan SC,/Serif/Old Style Garalde,90
 Sedgwick Ave,/Expressive/Active,66
 Sedgwick Ave,/Expressive/Artistic,12
 Sedgwick Ave,/Expressive/Awkward,32
@@ -8250,6 +8220,22 @@ jsMath-cmti10,/Expressive/Sincere,98
 jsMath-cmti10,/Expressive/Vintage,80
 jsMath-cmti10,/Serif/Modern,100
 jsMath-cmti10,/Slab/Clarendon,100
+Briem Hand,/Expressive/Active,30
+Briem Hand,/Expressive/Calm,20
+Briem Hand,/Expressive/Childlike,20
+Briem Hand,/Expressive/Cute,10
+Briem Hand,/Expressive/Sophisticated,60
+Briem Hand,/Script/Handwritten,70
+Briem Hand,/Script/Informal,30
+Briem Hand,/Theme/Brush,50
+Briem Hand Guidelines,/Expressive/Active,30
+Briem Hand Guidelines,/Expressive/Calm,20
+Briem Hand Guidelines,/Expressive/Childlike,20
+Briem Hand Guidelines,/Expressive/Cute,10
+Briem Hand Guidelines,/Expressive/Sophisticated,60
+Briem Hand Guidelines,/Script/Handwritten,70
+Briem Hand Guidelines,/Script/Informal,30
+Briem Hand Guidelines,/Theme/Brush,50
 Danfo,/Expressive/Awkward,50
 Danfo,/Expressive/Excited,100
 Danfo,/Expressive/Happy,70
@@ -8510,6 +8496,24 @@ Freeman,/Sans/Humanist,80
 Freeman,/Sans/Neo Grotesque,20
 Freeman,/Theme/Brush,20
 Freeman,/Theme/Wacky,20
+Jaini,/Expressive/Excited,20
+Jaini,/Expressive/Innovative,20
+Jaini,/Expressive/Loud,20
+Jaini,/Expressive/Playful,20
+Jaini,/Expressive/Sincere,20
+Jaini,/Expressive/Vintage,20
+Jaini,/Indic/Sign Painting,20
+Jaini,/Indic/Traditional,40
+Jaini,/Theme/Blackletter,40
+Jaini Purva,/Expressive/Excited,20
+Jaini Purva,/Expressive/Innovative,20
+Jaini Purva,/Expressive/Loud,20
+Jaini Purva,/Expressive/Playful,20
+Jaini Purva,/Expressive/Sincere,20
+Jaini Purva,/Expressive/Vintage,20
+Jaini Purva,/Indic/Sign Painting,20
+Jaini Purva,/Indic/Traditional,40
+Jaini Purva,/Theme/Blackletter,40
 Jaro,/Expressive/Artistic,60
 Jaro,/Expressive/Calm,25
 Jaro,/Expressive/Competent,50
@@ -8625,6 +8629,11 @@ Jersey 25 Charted,/Sans/Grotesque,20
 Jersey 25 Charted,/Sans/Humanist,20
 Jersey 25 Charted,/Sans/Neo Grotesque,60
 Jersey 25 Charted,/Theme/Pixel,100
+Kalnia Glaze,/Expressive/Innovative,100
+Kalnia Glaze,/Expressive/Loud,50
+Kalnia Glaze,/Serif/Fat Face,100
+Kalnia Glaze,/Theme/Inline,100
+Meaty,/Serif/Humanist Venetian,100
 Micro 5 Charted,/Expressive/Competent,50
 Micro 5 Charted,/Expressive/Futuristic,60
 Micro 5 Charted,/Expressive/Innovative,70
@@ -8633,6 +8642,37 @@ Micro 5 Charted,/Expressive/Stiff,70
 Micro 5 Charted,/Sans/Geometric,70
 Micro 5 Charted,/Theme/Pixel,100
 Micro 5 Charted,/Theme/Techno,50
+Noto Serif Hentaigana,/Expressive/Sincere,20
+Noto Serif Hentaigana,/Expressive/Sophisticated,10
+Noto Serif Hentaigana,/Script/Formal,20
+Noto Serif Hentaigana,/Serif/Old Style Garalde,20
+Platypi,/Expressive/Business,60
+Platypi,/Expressive/Futuristic,5
+Platypi,/Expressive/Loud,20
+Platypi,/Expressive/Playful,5
+Platypi,/Expressive/Sincere,90
+Platypi,/Expressive/Sophisticated,10
+Platypi,/Expressive/Vintage,10
+Platypi,/Serif/Fat Face,25
+Platypi,/Serif/Humanist Venetian,20
+Platypi,/Serif/Modern,10
+Platypi,/Serif/Old Style Garalde,90
+Platypi,/Serif/Transitional,20
+Platypi,/Theme/Art Nouveau,5
+Platypi,/Theme/Woodtype,10
+Playwrite VN,/Expressive/Active,100
+Playwrite VN,/Expressive/Childlike,100
+Playwrite VN,/Script/Upright Script,100
+Radio Canada Big,/Expressive/Business,30
+Radio Canada Big,/Expressive/Calm,70
+Radio Canada Big,/Expressive/Competent,30
+Radio Canada Big,/Sans/Grotesque,90
+Radio Canada Big,/Sans/Humanist,20
+Radio Canada Big,/Sans/Neo Grotesque,90
+Sedan,/Expressive/Sincere,80
+Sedan,/Serif/Old Style Garalde,90
+Sedan SC,/Expressive/Sincere,80
+Sedan SC,/Serif/Old Style Garalde,90
 Teachers,/Expressive/Artistic,5
 Teachers,/Expressive/Business,30
 Teachers,/Expressive/Calm,95

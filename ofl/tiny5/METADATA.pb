@@ -1,16 +1,16 @@
-name: "tiny 5"
+name: "Tiny 5"
 designer: "Stefan Schmidt"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-04-19"
 fonts {
-  name: "tiny 5"
+  name: "Tiny 5"
   style: "normal"
   weight: 500
-  filename: "tiny5-Medium.ttf"
+  filename: "Tiny5-Medium.ttf"
   post_script_name: "Tiny5-Medium"
   full_name: "Tiny5 Medium"
-  copyright: "Copyright 2024 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)"
+  copyright: "Copyright 2024 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -31,7 +31,7 @@ source {
   }
   files {
     source_file: "fonts/ttf/tiny5-Medium.ttf"
-    dest_file: "tiny5-Medium.ttf"
+    dest_file: "Tiny5-Medium.ttf"
   }
   branch: "main"
 }

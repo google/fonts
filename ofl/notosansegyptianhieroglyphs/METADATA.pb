@@ -18,8 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/egyptian-hieroglyphs"
-  commit: "08dec90190624040743ebb4e28d5552ae3d60862"
-  archive_url: "https://github.com/notofonts/egyptian-hieroglyphs/releases/download/NotoSansEgyptianHieroglyphs-v2.002/NotoSansEgyptianHieroglyphs-v2.002.zip"
+  archive_url: "https://github.com/notofonts/egyptian-hieroglyphs/releases/download/NotoSansEgyptianHieroglyphs-v2.001/NotoSansEgyptianHieroglyphs-v2.001.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

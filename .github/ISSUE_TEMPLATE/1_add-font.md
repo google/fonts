@@ -21,7 +21,7 @@ Google Fonts will publish only fonts that match its requirements. Please familia
 By filling this issue, you can confirm the project meets the  requirements (by ticking the cases or putting x between the square brackets in text mode):
 
 - [ ] I read, agree, and comply with the full [contributing requirements](https://googlefonts.github.io/gf-guide/index#pre-production-getting-your-fonts-ready-for-gf)
-- [ ] The entire font project is licensed under the [OFL](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+- [ ] The entire font project is licensed under the [OFL](https://openfontlicense.org/open-font-license-official-text/)
 - [ ] There is no "Reserved Font Name" mention in the OFL license
 - [ ] Family name is unique according to [namecheck.fontdata.com](https://namecheck.fontdata.com/)
 - [ ] The font supports at least [GF Latin Core glyphset](https://github.com/googlefonts/glyphsets/blob/main/data/results/txt/nice-names/GF_Latin_Core.txt)

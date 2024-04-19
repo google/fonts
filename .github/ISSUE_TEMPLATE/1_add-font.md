@@ -24,7 +24,7 @@ By filling this issue, you can confirm the project meets the  requirements (by t
 - [ ] The entire font project is licensed under the [OFL](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 - [ ] There is no "Reserved Font Name" mention in the OFL license
 - [ ] Family name is unique according to [namecheck.fontdata.com](https://namecheck.fontdata.com/)
-- [ ] The font supports at least [GF Latin Core glyphset](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin/)
+- [ ] The font supports at least [GF Latin Core glyphset](https://github.com/googlefonts/glyphsets/blob/main/data/results/txt/nice-names/GF_Latin_Core.txt)
 - [ ] The repository respect the [upstream repo structure](https://googlefonts.github.io/gf-guide/upstream.html)
 - [ ] The source files are available in the repository
 - [ ] I am the author of the font, or the author agreed to this submission

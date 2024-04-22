@@ -12,6 +12,8 @@ fonts {
   full_name: "Noto Serif Hebrew Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hebrew)"
 }
+subsets: "cyrillic-ext"
+subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
@@ -28,13 +30,14 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/hebrew"
-  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSerifHebrew-v2.003/NotoSerifHebrew-v2.003.zip"
+  commit: "02fcd18e295ebadcda7bcaa774c107538fe2a5ee"
+  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSerifHebrew-v2.004/NotoSerifHebrew-v2.004.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "NotoSerifHebrew/googlefonts/variable-ttf/NotoSerifHebrew[wdth,wght].ttf"
+    source_file: "NotoSerifHebrew/googlefonts/variable/NotoSerifHebrew[wdth,wght].ttf"
     dest_file: "NotoSerifHebrew[wdth,wght].ttf"
   }
   branch: "main"

@@ -18,4 +18,14 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Alata"
+  commit: "3b051d2a6181deba154717cfd6be409effe32ffa"
+  files {
+    source_file: "fonts/ttf/Alata-Regular.ttf"
+    dest_file: "Alata-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
 }

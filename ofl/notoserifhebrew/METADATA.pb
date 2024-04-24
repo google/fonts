@@ -12,8 +12,6 @@ fonts {
   full_name: "Noto Serif Hebrew Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hebrew)"
 }
-subsets: "cyrillic-ext"
-subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"

@@ -7,12 +7,26 @@ fonts {
   name: "Holtwood One SC"
   style: "normal"
   weight: 400
-  filename: "HoltwoodOneSC.ttf"
-  post_script_name: "HoltwoodOneSC"
-  full_name: "Holtwood One SC"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name \'Holtwood\'. All rights reserved."
+  filename: "HoltwoodOneSC-Regular.ttf"
+  post_script_name: "HoltwoodOneSC-Regular"
+  full_name: "Holtwood One SC Regular"
+  copyright: "Copyright 2011 The Holtwood Project Authors (https://github.com/googlefonts/HoltwoodFont)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/HoltwoodFont"
+  commit: "4e8e360635badb21940ad39fa97a495bf879e89b"
+  files {
+    source_file: "fonts/ttf/HoltwoodOneSC-Regular.ttf"
+    dest_file: "HoltwoodOneSC-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"

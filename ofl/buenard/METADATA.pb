@@ -21,7 +21,7 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://www.github.com/googlefonts/buenard"
+  repository_url: "https://github.com/googlefonts/buenard"
   commit: "4e9ae114c1180a9093d310e7985aa4e024e4901e"
   files {
     source_file: "fonts/variable/Buenard[wght].ttf"

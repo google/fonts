@@ -11,8 +11,7 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 ![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>In the [Workbench](https://fonts.google.com/specimen/Workbench) typeface, note how moving the Bleed axis towards its maximum value expands the width of each individual scanline without altering the actual glyph width or spacing of the letters.</figcaption>
+</figure>
 
 Negative values make the text appear lighter, while positive values make it darker, similarly to the effects of ink bleed or dot gain on paper.

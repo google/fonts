@@ -10,9 +10,8 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 ![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>The letter ‘h’ in the [Commissioner](https://fonts.google.com/specimen/Commissioner) typeface is shown twice, once with a minimum value of the Volume axis applied, and again with the maximum value applied.</figcaption>
+</figure>
 
 Changes along the Volume axis expand the surface area or volume of the letterforms, and typically interact with the effects of other axes. For example, in the Commissioner typeface, the Volume axis exaggerates the effects of the [Flare (`FLAR`) axis](/glossary/flar_axis), which controls stroke modulation.
 

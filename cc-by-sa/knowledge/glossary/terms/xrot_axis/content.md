@@ -11,9 +11,8 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 ![An image showing three type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen in the middle shows the effects of the axis’ default value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>Typeface: [Tilt Prism](https://fonts.google.com/specimen/Tilt+Prism)</figcaption>
+</figure>
 
 Leaving the axis at its default value of 0 results in the character appearing face-on; manipulating it to its minimum value results in it appearing to turn to the left; manipulating it to its maximum value results in it appearing to turn to the right.
 

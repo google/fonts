@@ -10,8 +10,7 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 ![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>Typeface: [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans)</figcaption>
+</figure>
 
 Note that the increased or decreased height of the letterform is context-aware, meaning that an “e”, for example, might shrink when next to some glyphs, and grow when next to others. This semi-unpredictable behaviour results in the type appearing more like handwriting, and — as with the [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans) font — the effect can be further exaggerated by manipulating axes like [Bounce](/glossary/bnce_axis) (`BNCE`) and [Spacing](/glossary/spac_axis) (`SPAC`) in tandem. 

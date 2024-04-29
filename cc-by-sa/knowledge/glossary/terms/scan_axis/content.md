@@ -11,8 +11,7 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 ![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>In the [Workbench](https://fonts.google.com/specimen/Workbench) typeface, note how moving the Scanline axis towards its maximum value expands the height of each individual scanline.</figcaption>
+</figure>
 
 Negative values make the scanlines thinner, and positive values make them thicker.

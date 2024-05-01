@@ -1,11 +1,19 @@
 # New
 ofl/briemhand # https://github.com/google/fonts/pull/7040
+ofl/freeman # https://github.com/google/fonts/pull/7548
+ofl/jacquard24charted # https://github.com/google/fonts/pull/7525
+ofl/jaini # https://github.com/google/fonts/pull/7208
+ofl/jainipurva # https://github.com/google/fonts/pull/7209
 ofl/jaro # https://github.com/google/fonts/pull/7391
+ofl/jersey25charted # https://github.com/google/fonts/pull/7536
+ofl/radiocanadabig # https://github.com/google/fonts/pull/7562
 ofl/teachers # https://github.com/google/fonts/pull/7392
 
 # Upgrade
+ofl/bubblerone # https://github.com/google/fonts/pull/7513
 ofl/greatvibes # https://github.com/google/fonts/pull/7464
 ofl/notosanscanadianaboriginal # https://github.com/google/fonts/pull/6407
+ofl/notosansegyptianhieroglyphs # https://github.com/google/fonts/pull/7556
 ofl/notoserifhk # https://github.com/google/fonts/pull/6691
 ofl/notoserifjp # https://github.com/google/fonts/pull/6692
 ofl/notoserifkr # https://github.com/google/fonts/pull/6693
@@ -15,15 +23,35 @@ ofl/roboto # https://github.com/google/fonts/pull/7231
 ufl/ubuntusans # https://github.com/google/fonts/pull/7353
 ufl/ubuntusansmono # https://github.com/google/fonts/pull/7353
 
-# Other
-ofl/notosanssymbols # https://github.com/google/fonts/pull/7480
-ofl/playpensans # https://github.com/google/fonts/pull/7073
-
 # Designer profile
 catalog/designers/afrotype # https://github.com/google/fonts/pull/7499
+catalog/designers/celinehurka # https://github.com/google/fonts/pull/7477
 catalog/designers/chankdiesel # https://github.com/google/fonts/pull/7462
+catalog/designers/etienneaubertbonn # https://github.com/google/fonts/pull/7524
 catalog/designers/gunnlaugurbriem # https://github.com/google/fonts/pull/7475
 catalog/designers/orangered # https://github.com/google/fonts/pull/7337
+
+# Metadata / Description / License
+ofl/joan # https://github.com/google/fonts/pull/7351
+ofl/kaushanscript # https://github.com/google/fonts/pull/7377
+ofl/kodemono # https://github.com/google/fonts/pull/7538
+ofl/lekton # https://github.com/google/fonts/pull/7356
+ofl/loveyalikeasister # https://github.com/google/fonts/pull/7346
+ofl/notosansmongolian # https://github.com/google/fonts/pull/7472
+ofl/notosanssundanese # https://github.com/google/fonts/pull/7559
+ofl/notosanssymbols # https://github.com/google/fonts/pull/7480
+ofl/playpensans # https://github.com/google/fonts/pull/7073
+ofl/poetsenone # https://github.com/google/fonts/pull/7377
+ofl/quattrocento # https://github.com/google/fonts/pull/7377
+ofl/quattrocentosans # https://github.com/google/fonts/pull/7377
+ofl/raleway # https://github.com/google/fonts/pull/7377
+ofl/ralewaydots # https://github.com/google/fonts/pull/7377
+ofl/redditmono # https://github.com/google/fonts/pull/7497
+ofl/redditsans # https://github.com/google/fonts/pull/7497
+ofl/redditsanscondensed # https://github.com/google/fonts/pull/7497
+ofl/rocknrollone # https://github.com/google/fonts/pull/7372
+ofl/sedansc # https://github.com/google/fonts/pull/7500
+ofl/tacone # https://github.com/google/fonts/pull/7576
 
 # Sample texts
 lang/languages/ar_Arab.textproto # https://github.com/google/fonts/pull/7146
@@ -40,6 +68,7 @@ lang/languages/bqv_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/btt_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/bvb_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/bvi_Latn.textproto # https://github.com/google/fonts/pull/7146
+# Deleted: lang/languages/bwy_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/bzx_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/cae_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/cri_Latn.textproto # https://github.com/google/fonts/pull/7146
@@ -134,6 +163,7 @@ lang/languages/ps_Arab.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/rcf_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/rng_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/rub_Latn.textproto # https://github.com/google/fonts/pull/7146
+# Deleted: lang/languages/sa_Limb.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/sad_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/saf_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/sba_Latn.textproto # https://github.com/google/fonts/pull/7146

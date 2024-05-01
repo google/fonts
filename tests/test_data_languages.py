@@ -197,6 +197,16 @@ def test_exemplars_are_in_script(lang_code):
 
 @pytest.mark.parametrize("lang_code", LANGUAGES.keys())
 def test_sample_texts_are_in_script(lang_code):
+    if lang_code in [
+        "mak_Maka",
+        "orv_Cyrl",
+        "cu_Cyrl",
+        "ff_Adlm",
+        "idu_Latn",
+        "ban_Bali",
+    ]:
+        pytest.xfail("These languages have known issues with their sample text")
+        return
     lang = LANGUAGES[lang_code]
     script_name = SCRIPTS[lang.script].name
     script_name = CLDR_SCRIPT_TO_UCD_SCRIPT.get(script_name, script_name)

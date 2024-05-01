@@ -21,7 +21,6 @@ data on the Google Fonts collection.
 """
 import glob
 import os
-import unicodedata
 
 from gflanguages import languages_public_pb2
 from google.protobuf import text_format
@@ -72,18 +71,3 @@ def LoadRegions(base_dir=DATA_DIR):
             region = text_format.Parse(f.read(), languages_public_pb2.RegionProto())
             regions[region.id] = region
     return regions
-
-
-def parse(exemplars: str):
-    """Parses a list of exemplar characters into a set of codepoints."""
-    codepoints = set()
-    for chars in exemplars.split():
-        if len(chars) > 1:
-            chars = chars.lstrip("{").rstrip("}")
-        normalized_chars = unicodedata.normalize("NFC", chars)
-        if normalized_chars != chars:
-            for char in normalized_chars:
-                codepoints.add(char)
-        for char in chars:
-            codepoints.add(char)
-    return codepoints

@@ -18,7 +18,13 @@ from collections import defaultdict, Counter
 import re
 import unicodedata
 
-from gflanguages import LoadLanguages, languages_public_pb2, LoadScripts, LoadRegions
+from gflanguages import (
+    LoadLanguages,
+    languages_public_pb2,
+    LoadScripts,
+    LoadRegions,
+    parse,
+)
 import pytest
 import youseedee
 
@@ -245,3 +251,17 @@ def test_sample_texts_are_in_script(lang_code):
         f"{lang_code} sample text contained out-of-script characters"
         f": {', '.join(msg)}"
     )
+
+
+def test_exemplar_parser():
+    bases = "a A ā Ā {a̍} {A̍} {kl}"
+    parsed_bases = parse(bases)
+    assert parsed_bases == {
+        "a",
+        "A",
+        "ā",
+        "Ā",
+        "k",
+        "l",
+        "̍",
+    }

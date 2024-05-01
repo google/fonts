@@ -24,3 +24,10 @@ authors = [
 dependencies = [
    "protobuf>=3.7.0, <4"
 ]
+
+[project.optional-dependencies]
+dev = [
+   "uharfbuzz",
+   "youseedee",
+   "pytest"
+]

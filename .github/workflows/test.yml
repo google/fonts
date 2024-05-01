@@ -30,7 +30,7 @@ jobs:
         run: |
           pip install '.[dev]'
           pip install black pylint
-      - name: Check formatting:
+      - name: Check formatting
         run: |
           black --diff --check Lib --exclude ".*_pb2.*|_version.py"
       - name: Run Tests

@@ -10,7 +10,7 @@ fonts {
   filename: "EduAUVICWANTHand[wght].ttf"
   post_script_name: "EduAUVICWANTHand-Regular"
   full_name: "Edu AU VIC WA NT Hand Regular"
-  copyright: "Copyright 2023 The VIC WA NT School Hand Australia Project Authors (https://github.com/SorkinType/VICWANTSchoolHandAustralia)"
+  copyright: "Copyright 2023 The VIC WA NT School Hand Australia Project Authors (https://github.com/SorkinType/VICWANTSchoolhandAustralia)"
 }
 subsets: "latin"
 subsets: "latin-ext"

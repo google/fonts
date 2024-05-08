@@ -52,4 +52,4 @@ source {
   branch: "main"
 }
 display_name: "Playwrite Việt Nam"
-minisite_url: "https://primarium.info/countries/vietnam/"
+minisite_url: "https://primarium.info/countries/vietnam"

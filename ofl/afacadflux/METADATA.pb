@@ -10,7 +10,7 @@ fonts {
   filename: "AfacadFlux[slnt,wght].ttf"
   post_script_name: "AfacadFlux-Regular"
   full_name: "Afacad Flux Regular"
-  copyright: "Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacade)"
+  copyright: "Copyright 2023 The Afacad Flux Project Authors (https://github.com/Dicotype/Afacade)"
 }
 subsets: "latin"
 subsets: "latin-ext"

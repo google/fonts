@@ -1,5 +1,5 @@
 name: "Playwrite VN"
-designer: "Veronika Burian, José Scaglione"
+designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-04-03"

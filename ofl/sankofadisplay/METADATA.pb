@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
-  repository_url: "https://www.github.com/batsimadz/Sankofa-Display"
+  repository_url: "https://github.com/batsimadz/Sankofa-Display"
   commit: "ee4cefac12dd65aff8be308854b717f374a2d89b"
   files {
     source_file: "OFL.txt"

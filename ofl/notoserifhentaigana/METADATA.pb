@@ -15,6 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "kana-extended"
 axes {
   tag: "wght"
   min_value: 200.0

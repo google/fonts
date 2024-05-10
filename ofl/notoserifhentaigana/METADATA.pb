@@ -12,10 +12,10 @@ fonts {
   full_name: "Noto Serif Hentaigana ExtraLight"
   copyright: "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/hentaigana)"
 }
+subsets: "kana-extended"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-subsets: "kana-extended"
 axes {
   tag: "wght"
   min_value: 200.0

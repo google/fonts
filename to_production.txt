@@ -1,16 +1,28 @@
 # New
 ofl/danfo # https://github.com/google/fonts/pull/7389
 ofl/jacquard12 # https://github.com/google/fonts/pull/7152
+ofl/tiny5 # https://github.com/google/fonts/pull/7583
 
 # Upgrade
+ofl/alata # https://github.com/google/fonts/pull/7595
+ofl/anaheim # https://github.com/google/fonts/pull/7569
+ofl/calistoga # https://github.com/google/fonts/pull/7567
+ofl/damion # https://github.com/google/fonts/pull/7580
+ofl/holtwoodonesc # https://github.com/google/fonts/pull/7599
+ofl/monda # https://github.com/google/fonts/pull/7549
+ofl/notorashihebrew # https://github.com/google/fonts/pull/7590
 ofl/notoserifhk # https://github.com/google/fonts/pull/6691
 ofl/notoserifjp # https://github.com/google/fonts/pull/6692
 ofl/notoserifkr # https://github.com/google/fonts/pull/6693
 ofl/notoserifsc # https://github.com/google/fonts/pull/6694
 ofl/notoseriftc # https://github.com/google/fonts/pull/6695
-# ofl/roboto # https://github.com/google/fonts/pull/7231
+ofl/pinyonscript # https://github.com/google/fonts/pull/7602
+
+# Other
+ofl/lekton # https://github.com/google/fonts/pull/7356
 
 # Designer profile
+catalog/designers/agyeiarcher # https://github.com/google/fonts/pull/7601
 catalog/designers/andreasrasmussen # https://github.com/google/fonts/pull/7379
 catalog/designers/gustavoibarra # https://github.com/google/fonts/pull/7547
 
@@ -24,6 +36,7 @@ lang/languages/bjt_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/bqv_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/bvb_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/bvi_Latn.textproto # https://github.com/google/fonts/pull/7146
+# Deleted: lang/languages/bwy_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/bzx_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/cae_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/cri_Latn.textproto # https://github.com/google/fonts/pull/7146
@@ -100,6 +113,7 @@ lang/languages/pkb_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/pov_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/rcf_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/rng_Latn.textproto # https://github.com/google/fonts/pull/7146
+# Deleted: lang/languages/sa_Limb.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/sad_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/saf_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/sco_Latn.textproto # https://github.com/google/fonts/pull/7146
@@ -130,7 +144,3 @@ lang/languages/zap_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/zdj_Latn.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/zlm_Arab.textproto # https://github.com/google/fonts/pull/7146
 lang/languages/zlm_Latn.textproto # https://github.com/google/fonts/pull/7146
-
-# Deleted
-# Deleted: lang/languages/bwy_Latn.textproto # https://github.com/google/fonts/pull/7146
-# Deleted: lang/languages/sa_Limb.textproto # https://github.com/google/fonts/pull/7146

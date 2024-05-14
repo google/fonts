@@ -29,4 +29,4 @@ source {
   }
   branch: "main"
 }
-minisite_url: "https://www.sankofadisplay.com/"
+minisite_url: "https://www.sankofadisplay.com"

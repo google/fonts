@@ -16,7 +16,7 @@ textproto_files = [
 def test_parsable(lang_code):
     with open(os.path.join(languages_dir, lang_code), "r", encoding="utf-8") as f:
         msg = text_format.Parse(f.read(), languages_public_pb2.LanguageProto())
-        assert msg.id is not None
-        assert msg.language is not None
-        assert msg.script is not None
+        assert msg.id
+        assert msg.language
+        assert msg.script
         assert msg.population is not None

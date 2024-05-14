@@ -265,3 +265,10 @@ def test_exemplar_parser():
         "l",
         "̍",
     }
+
+
+def test_language_uniqueness():
+    names = Counter([lang.name for lang in LANGUAGES.values()])
+    if any(count > 1 for count in names.values()):
+        duplicates = {name: count for name, count in names.items() if count > 1}
+        pytest.fail(f"Duplicate language names: {duplicates}")

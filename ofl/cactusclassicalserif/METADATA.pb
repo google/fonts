@@ -10,7 +10,7 @@ fonts {
   filename: "CactusClassicalSerif-Regular.ttf"
   post_script_name: "CactusClassicalSerif-Regular"
   full_name: "Cactus Classical Serif Regular"
-  copyright: "Copyright 2024 The Caactus Classical Serif Project Authors (https://github.com/MoonlitOwen/CactusSerif)"
+  copyright: "Copyright 2024 The Cactus Classical Serif Project Authors (https://github.com/MoonlitOwen/CactusSerif)"
 }
 subsets: "chinese-hongkong"
 subsets: "chinese-simplified"

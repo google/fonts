@@ -268,7 +268,15 @@ def test_exemplar_parser():
 
 
 def test_language_uniqueness():
-    names = Counter([lang.name for lang in LANGUAGES.values()])
+    names = Counter([])
+    for lang in LANGUAGES.values():
+        # We check that names are unique *within a script* since
+        # when we display them in a menu we segment that menu by
+        # script and then by language
+        if lang.preferred_name:
+            names[lang.script + "/" + lang.preferred_name] += 1
+        else:
+            names[lang.name + "/" + lang.preferred_name] += 1
     if any(count > 1 for count in names.values()):
         duplicates = {name: count for name, count in names.items() if count > 1}
         pytest.fail(f"Duplicate language names: {duplicates}")

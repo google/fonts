@@ -28,7 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/devanagari"
-  archive_url: "https://github.com/notofonts/devanagari/releases/download/NotoSansDevanagari-v2.004/NotoSansDevanagari-v2.004.zip"
+  commit: "edcf14f1a2ba6e781f9942fe1670bb692c4ede65"
+  archive_url: "https://github.com/notofonts/devanagari/releases/download/NotoSansDevanagari-v2.005/NotoSansDevanagari-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"

@@ -36,3 +36,4 @@ source {
 }
 stroke: "SERIF"
 classifications: "DISPLAY"
+minisite_url: "https://www.afrotype.com/danfo"

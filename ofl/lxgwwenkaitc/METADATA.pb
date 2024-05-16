@@ -1,10 +1,10 @@
-name: "LXGW Wen Kai TC"
+name: "LXGW WenKai TC"
 designer: "LXGW"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-05-16"
 fonts {
-  name: "LXGW Wen Kai TC"
+  name: "LXGW WenKai TC"
   style: "normal"
   weight: 300
   filename: "LXGWWenKaiTC-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright 2024 The LXGW WenKai Project Authors (https://github.com/lxgw/LxgwWenkaiTC)"
 }
 fonts {
-  name: "LXGW Wen Kai TC"
+  name: "LXGW WenKai TC"
   style: "normal"
   weight: 400
   filename: "LXGWWenKaiTC-Regular.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright 2024 The LXGW WenKai Project Authors (https://github.com/lxgw/LxgwWenkaiTC)"
 }
 fonts {
-  name: "LXGW Wen Kai TC"
+  name: "LXGW WenKai TC"
   style: "normal"
   weight: 700
   filename: "LXGWWenKaiTC-Bold.ttf"

@@ -34,6 +34,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/solmatas/BitterPro"
+  commit: "cd40ea8b9d4cf7f5f11bc62a156136258465dc9e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

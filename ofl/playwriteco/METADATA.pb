@@ -14,6 +14,8 @@ fonts {
 }
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
+subsets: "menu"
 subsets: "vietnamese"
 axes {
   tag: "wght"

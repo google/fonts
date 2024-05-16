@@ -2,7 +2,7 @@ name: "Playwrite FR Trad"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
-date_added: ""
+date_added: "2023-12-12"
 fonts {
   name: "Playwrite FR Trad"
   style: "normal"

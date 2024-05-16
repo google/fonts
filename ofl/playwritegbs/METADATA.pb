@@ -1,5 +1,5 @@
 name: "Playwrite GB S"
-designer: "Veronika Burian, José Scaglione"
+designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-01-18"
@@ -25,7 +25,6 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
-subsets: "symbols"
 subsets: "vietnamese"
 axes {
   tag: "wght"
@@ -34,19 +33,40 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite/"
-  commit: "7f0e083357d763db855e665a5d4e58c002b61943"
+  commit: "30b5a7b7466274c296058dd889b097434d5d6eb9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts-models/fonts-GB_S/variable/PlaywriteGBS[wght].ttf"
+    source_file: "fonts/variable/PlaywriteGBS[wght].ttf"
     dest_file: "PlaywriteGBS[wght].ttf"
   }
   files {
-    source_file: "fonts-models/fonts-GB_S/variable/PlaywriteGBS-Italic[wght].ttf"
+    source_file: "fonts/variable/PlaywriteGBS-Italic[wght].ttf"
     dest_file: "PlaywriteGBS-Italic[wght].ttf"
   }
-  branch: "lang-build"
+  files {
+    source_file: "documentation/about/GB_S/ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "documentation/about/GB_S/Playwrite-England-SemiJoined-1.png"
+    dest_file: "article/Playwrite-England-SemiSemiJoined-1.png"
+  }
+  files {
+    source_file: "documentation/about/GB_S/Playwrite-England-SemiJoined-2.png"
+    dest_file: "article/Playwrite-England-SemiSemiJoined-2.png"
+  }
+  files {
+    source_file: "documentation/about/GB_S/Playwrite-England-SemiJoined-3.png"
+    dest_file: "article/Playwrite-England-SemiSemiJoined-3.png"
+  }
+  files {
+    source_file: "documentation/about/GB_S/Playwrite-England-SemiJoined-4.png"
+    dest_file: "article/Playwrite-England-SemiSemiJoined-4.png"
+  }
+  branch: "main"
 }
-display_name: "Playwrite England Semijoin"
+display_name: "Playwrite England SemiJoined"
+minisite_url: "https://primarium.info/countries/england"

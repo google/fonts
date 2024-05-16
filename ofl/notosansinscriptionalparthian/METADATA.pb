@@ -18,7 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/inscriptional-parthian"
-  archive_url: "https://github.com/notofonts/inscriptional-parthian/releases/download/NotoSansInscriptionalParthian-v2.003/NotoSansInscriptionalParthian-v2.003.zip"
+  commit: "893003503fb689e1b2a3d8810b7ee67d8ab98bf7"
+  archive_url: "https://github.com/notofonts/inscriptional-parthian/releases/download/NotoSansInscriptionalParthian-v2.004/NotoSansInscriptionalParthian-v2.004.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"

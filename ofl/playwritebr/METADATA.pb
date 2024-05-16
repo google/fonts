@@ -2,7 +2,7 @@ name: "Playwrite BR"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
-date_added: ""
+date_added: "2024-05-15"
 fonts {
   name: "Playwrite BR"
   style: "normal"

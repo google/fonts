@@ -1,10 +1,10 @@
-name: "LXGW Wen Kai Mono TC"
+name: "LXGW WenKai Mono TC"
 designer: "LXGW"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2024-05-16"
 fonts {
-  name: "LXGW Wen Kai Mono TC"
+  name: "LXGW WenKai Mono TC"
   style: "normal"
   weight: 300
   filename: "LXGWWenKaiMonoTC-Light.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright 2024 The LXGW WenKai Project Authors (https://github.com/lxgw/LxgwWenkaiTC)"
 }
 fonts {
-  name: "LXGW Wen Kai Mono TC"
+  name: "LXGW WenKai Mono TC"
   style: "normal"
   weight: 400
   filename: "LXGWWenKaiMonoTC-Regular.ttf"
@@ -22,7 +22,7 @@ fonts {
   copyright: "Copyright 2024 The LXGW WenKai Project Authors (https://github.com/lxgw/LxgwWenkaiTC)"
 }
 fonts {
-  name: "LXGW Wen Kai Mono TC"
+  name: "LXGW WenKai Mono TC"
   style: "normal"
   weight: 700
   filename: "LXGWWenKaiMonoTC-Bold.ttf"

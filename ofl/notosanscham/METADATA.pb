@@ -23,7 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/cham"
-  archive_url: "https://github.com/notofonts/cham/releases/download/NotoSansCham-v2.004/NotoSansCham-v2.004.zip"
+  commit: "1688bf8b8c53fbc07d363c5ab31610a1a65f16f9"
+  archive_url: "https://github.com/notofonts/cham/releases/download/NotoSansCham-v2.005/NotoSansCham-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
@@ -37,7 +38,7 @@ source {
     dest_file: "article/ARTICLE.en_us.html"
   }
   files {
-    source_file: "NotoSansCham/googlefonts/variable/NotoSansCham[wght].ttf"
+    source_file: "NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf"
     dest_file: "NotoSansCham[wght].ttf"
   }
   branch: "main"

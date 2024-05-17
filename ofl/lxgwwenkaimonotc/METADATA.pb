@@ -65,4 +65,4 @@ source {
   branch: "main"
 }
 primary_script: "Hant"
-stroke: "MONOSPACE"
+classifications: "MONOSPACE"

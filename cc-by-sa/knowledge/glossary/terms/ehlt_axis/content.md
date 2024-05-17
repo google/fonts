@@ -13,8 +13,8 @@ Note that the default value is expected to differ per family, rather than be uni
 
 ![An image showing three type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>Note the total lack of an edge when the axis is set to 0 when using the [Nabla font](https://fonts.google.com/specimen/Nabla).</figcaption>
+
+</figure>
 
 The axis was first used in the [Nabla font](https://fonts.google.com/specimen/Nabla) [color font](/glossary/color_fonts), which uses isometric perspective to achieve its three-dimensional look. The highlighted edge, at its maximum setting, creates greater contrast between the face of the letterform and its extrusion. And, like all components of a color font, can be recolored from its white default.

@@ -13,8 +13,8 @@ Note that the default value is expected to differ per family, rather than be uni
 
 ![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-</figure>
-
 <figcaption>Note the two-dimensional appearance when the axis is set to 0 when using the [Nabla font](https://fonts.google.com/specimen/Nabla).</figcaption>
+
+</figure>
 
 The axis was first used in the [Nabla font](https://fonts.google.com/specimen/Nabla) [color font](/glossary/color_fonts), which uses isometric perspective to achieve its three-dimensional look. The extrusion depth, at its maximum setting, creates a deeper or thicker letterform. At its minimum setting, the letterform appears only two-dimensional.

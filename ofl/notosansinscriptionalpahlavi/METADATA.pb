@@ -18,7 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/inscriptional-pahlavi"
-  archive_url: "https://github.com/notofonts/inscriptional-pahlavi/releases/download/NotoSansInscriptionalPahlavi-v2.003/NotoSansInscriptionalPahlavi-v2.003.zip"
+  commit: "ccf6d043ac12c7817b7934f8fb98d217b8081762"
+  archive_url: "https://github.com/notofonts/inscriptional-pahlavi/releases/download/NotoSansInscriptionalPahlavi-v2.004/NotoSansInscriptionalPahlavi-v2.004.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

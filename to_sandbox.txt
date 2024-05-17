@@ -1,7 +1,25 @@
+# Upgrade
+ofl/alatsi # https://github.com/google/fonts/pull/7600
+ofl/cutivemono # https://github.com/google/fonts/pull/7630
+ofl/notosanshebrew # https://github.com/google/fonts/pull/7588
+ofl/notoserifhebrew # https://github.com/google/fonts/pull/7589
 
+# Designer profile
+catalog/designers/celinehurka # https://github.com/google/fonts/pull/7477
 
-# Deleted
+# Sample texts
 # Deleted: lang/languages/sa_Sylo.textproto # https://github.com/google/fonts/pull/7248
+
+# Other
+ofl/bethellen # https://github.com/google/fonts/pull/7627
 # Deleted: ofl/eduvicwantguide # https://github.com/google/fonts/pull/7557
 # Deleted: ofl/eduvicwantpreguide # https://github.com/google/fonts/pull/7557
+ofl/elsieswashcaps # https://github.com/google/fonts/pull/7522
+ofl/gabarito # https://github.com/google/fonts/pull/7571
+ofl/jaro # https://github.com/google/fonts/pull/7603
+ofl/platypi # https://github.com/google/fonts/pull/7571
+ofl/rethinksans # https://github.com/google/fonts/pull/7571
+ofl/teachers # https://github.com/google/fonts/pull/7571
 
+# Tags
+tags/all/families.csv

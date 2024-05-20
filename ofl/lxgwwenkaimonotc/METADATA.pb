@@ -30,7 +30,7 @@ fonts {
   full_name: "LXGW WenKai Mono TC Bold"
   copyright: "Copyright 2024 The LXGW WenKai Project Authors (https://github.com/lxgw/LxgwWenkaiTC)"
 }
-subsets: "chinese-traditional"
+subsets: "chinese-hongkong"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"

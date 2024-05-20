@@ -10,7 +10,7 @@ fonts {
   filename: "NotoSansDuployan-Regular.ttf"
   post_script_name: "NotoSansDuployan-Regular"
   full_name: "Noto Sans Duployan Regular"
-  copyright: "Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2018-2019, 2022-2023 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
 }
 fonts {
   name: "Noto Sans Duployan"
@@ -19,7 +19,7 @@ fonts {
   filename: "NotoSansDuployan-Bold.ttf"
   post_script_name: "NotoSansDuployan-Bold"
   full_name: "Noto Sans Duployan Bold"
-  copyright: "Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2018-2019, 2022-2023 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
 }
 subsets: "duployan"
 subsets: "latin"
@@ -27,7 +27,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/duployan"
-  archive_url: "https://github.com/notofonts/duployan/releases/download/NotoSansDuployan-v3.001/NotoSansDuployan-v3.001.zip"
+  commit: "dcec488da5e9c16d48051fe8d20b1b615bf8c9be"
+  archive_url: "https://github.com/notofonts/duployan/releases/download/NotoSansDuployan-v3.002/NotoSansDuployan-v3.002.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

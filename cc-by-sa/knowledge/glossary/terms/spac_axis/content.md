@@ -11,10 +11,10 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 ![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-<figcaption>The letters “tel” with default spacing and the axis range shown below it at a default value of zero, and then to the right the same letter again but spaced far apart, with the axis value shown increased around 33%.</figcaption>
+<figcaption>The letters “tel” in <a href="https://fonts.google.com/specimen/Shantell+Sans">Shantell Sans</a>, with default spacing and the axis range shown below it at a default value of zero, and then to the right the same letter again but spaced far apart, with the axis value shown increased around 33%.</figcaption>
 </figure>
 
-Manipulating this axis has the same effect as adjusting the tracking value (called letter-spacing in CSS); therefore it can alter the personality of the type in the same way as tracking can, and — as with the [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans) font — that effect can be further exaggerated by manipulating axes like [Bounce](/glossary/bnce_axis) (`BNCE`) and [Spacing](/glossary/spac_axis) (`SPAC`) in tandem. 
+Manipulating this axis has the same effect as adjusting the tracking value (called letter-spacing in CSS); therefore it can alter the personality of the type in the same way as tracking can, and — as with the [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans) font — that effect can be further exaggerated by manipulating axes like [Bounce](/glossary/bnce_axis) (`BNCE`) and Spacing in tandem. 
 
 The number system of the axis is a relative percentage, where the default spacing is zero,the minimum spacing is -100%, and the maximum (widest) spacing is 100%, with values up to one decimal place (e.g. 97.5%).
 

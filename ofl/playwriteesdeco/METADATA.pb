@@ -52,4 +52,4 @@ source {
   branch: "main"
 }
 display_name: "Playwrite España Decorativa"
-minisite_url: "Playwrite España"
+minisite_url: "https://primarium.info/countries/spain"

@@ -7,7 +7,7 @@ If you’d prefer to host the [web fonts](/glossary/web_font) you use on your ow
 
 </figure>
 
-First, let’s choose our [typeface](/glossary/typeface)(s). If it’s available for free from a service such as Google Fonts, downloading the files means agreeing to the terms of the font [license](/glossary/licensing)(s). For fonts that aren’t free, we’ll need to purchase the licence(s) we need. Usually, licenses are for a specific number of unique visitors to our website per month, so we should purchase the one that most accurately reflects our anticipated traffic. (If our traffic grows, we’ll need to buy a new license.) Once we’ve completed the purchase, we’ll be given font files to download.
+First, let’s choose our [typeface](/glossary/typeface)(s). If it’s available for free from a service such as Google Fonts, downloading the files means agreeing to the terms of the font [license](/glossary/licensing)(s). For fonts that aren’t free, we’ll need to purchase the license(s) we need. Usually, licenses are for a specific number of unique visitors to our website per month, so we should purchase the one that most accurately reflects our anticipated traffic. (If our traffic grows, we’ll need to buy a new license.) Once we’ve completed the purchase, we’ll be given font files to download.
 
 Once we’ve downloaded our font files, we’ll move them to our local development project, and make a note of their location (specifically, relative to the CSS file in which we’ll reference them).
 

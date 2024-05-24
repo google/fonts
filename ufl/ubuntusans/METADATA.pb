@@ -1,5 +1,5 @@
 name: "Ubuntu Sans"
-designer: "Dalton Maag"
+designer: "Dalton Maag, David Jonathan Ross, Dual Type"
 license: "UFL"
 category: "SANS_SERIF"
 date_added: "2024-03-22"

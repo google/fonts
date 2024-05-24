@@ -1,5 +1,5 @@
 name: "Playwrite VN"
-designer: "Veronika Burian, José Scaglione"
+designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-04-03"
@@ -12,12 +12,10 @@ fonts {
   full_name: "Playwrite VN Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
-subsets: "symbols"
 subsets: "vietnamese"
 axes {
   tag: "wght"
@@ -25,17 +23,33 @@ axes {
   max_value: 400.0
 }
 source {
-  repository_url: "https://github.com/vv-monsalve/Playwrite"
-  commit: "4ac6c583b5baf24d3448974200bdd242aac3d655"
+  repository_url: "https://github.com/TypeTogether/Playwrite"
+  commit: "30b5a7b7466274c296058dd889b097434d5d6eb9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "Playwrite-fonts-GHA-c283cf9/variable/PlaywriteVN[wght].ttf"
+    source_file: "fonts/variable/PlaywriteVN[wght].ttf"
     dest_file: "PlaywriteVN[wght].ttf"
   }
-  branch: "b2-test-PR"
+  files {
+    source_file: "documentation/about/VN/ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "documentation/about/VN/Playwrite-Viet-Nam-1.png"
+    dest_file: "article/Playwrite-Viet-Nam-1.png"
+  }
+  files {
+    source_file: "documentation/about/VN/Playwrite-Viet-Nam-2.png"
+    dest_file: "article/Playwrite-Viet-Nam-2.png"
+  }
+  files {
+    source_file: "documentation/about/VN/Playwrite-Viet-Nam-3.png"
+    dest_file: "article/Playwrite-Viet-Nam-3.png"
+  }
+  branch: "main"
 }
 display_name: "Playwrite Việt Nam"
-minisite_url: "https://primarium.info/countries/vietnam/"
+minisite_url: "https://primarium.info/countries/vietnam"

@@ -10,7 +10,7 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 ![An image showing three type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen in the middle shows the effects of the axis’ middle value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-<figcaption> The letters “tak” in the [Handjet](https://fonts.google.com/specimen/Handjet) typeface are shown three times, with different Element Shape axis locations shaping the elements that construct the letterforms into triangles, ovals, and hearts.</figcaption> 
+<figcaption> The letters “tak” in the <a href="https://fonts.google.com/specimen/Handjet">Handjet</a> typeface are shown three times, with different Element Shape axis locations shaping the elements that construct the letterforms into triangles, ovals, and hearts.</figcaption> 
 </figure>
 
 As with the [Element Grid](/glossary/elgr_axis) axis, Element Shape alters the structure of the letterforms in a way that may change the minimum font size at which the typeface is legible.

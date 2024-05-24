@@ -12,7 +12,6 @@ fonts {
   full_name: "Bricolage Grotesque 96pt ExtraBold"
   copyright: "Copyright 2022 The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)"
 }
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

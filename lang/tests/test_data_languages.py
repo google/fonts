@@ -18,7 +18,13 @@ from collections import defaultdict, Counter
 import re
 import unicodedata
 
-from gflanguages import LoadLanguages, languages_public_pb2, LoadScripts, LoadRegions
+from gflanguages import (
+    LoadLanguages,
+    languages_public_pb2,
+    LoadScripts,
+    LoadRegions,
+    parse,
+)
 import pytest
 import youseedee
 
@@ -33,13 +39,31 @@ CLDR_SCRIPT_TO_UCD_SCRIPT = {
     "Simplified Han": "Han",
     "Korean": "Hangul",
     "Odia": "Oriya",
-    "Ol Chiki": "Ol_Chiki",
+    "Makasar": "Buginese",
+    "Lanna": "Tai Tham",
+    "Unified Canadian Aboriginal Syllabics": "Canadian Aboriginal",
+    "S-A Cuneiform": "Cuneiform",
+    "Pollard Phonetic": "Miao",
+    "Egyptian hieroglyphs": "Egyptian Hieroglyphs",
+    "Zanabazar": "Zanabazar Square",
+    "Nüshu": "Nushu",
+    "Mandaean": "Mandaic",
+    "N’Ko": "Nko",
+    "Varang Kshiti": "Warang Citi",
+    "Mende": "Mende Kikakui",
+    "Phags-pa": "Phags Pa",
+    "Fraser": "Lisu",
+    "Georgian Khutsuri": "Georgian",
+    "Orkhon": "Old Turkic",
 }
 
 SKIP_EXEMPLARS = {
     "ja_Jpan": "Contains multiple scripts",
     "aii_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
     "sel_Cyrl": "Does indeed use Latin glyphs while writing Cyrillic",
+    "ykg_Cyrl": "Does indeed use Latin glyphs (w) while writing Cyrillic",
+    "ady_Cyrl": "Does indeed use Latin glyphs (w) while writing Cyrillic",
+    "sla_Latn": "Does indeed use Cyrillic glyphs (ь) when written in Latin",
     "coo_Latn": "Does indeed use Greek glyphs while writing Latin",
     "hur_Latn": "Does indeed use Greek glyphs while writing Latin",
     "kwk_Latn": "Does indeed use Greek glyphs while writing Latin",
@@ -166,7 +190,8 @@ def test_exemplars_are_in_script(lang_code):
                 char_script = youseedee.ucd_data(ord(char)).get("Script")
                 if char_script == "Common" or char_script == "Inherited":
                     continue
-                if char_script is not None and char_script != script_name:
+                char_script = char_script.replace("_", " ")
+                if char_script != script_name:
                     out_of_script[chars] = char_script
                     break
     assert not out_of_script, (
@@ -174,3 +199,84 @@ def test_exemplars_are_in_script(lang_code):
         f": {', '.join(out_of_script.keys())}"
         f" from scripts {', '.join(set(out_of_script.values()))}"
     )
+
+
+@pytest.mark.parametrize("lang_code", LANGUAGES.keys())
+def test_sample_texts_are_in_script(lang_code):
+    if lang_code in [
+        "mak_Maka",
+        "orv_Cyrl",
+        "cu_Cyrl",
+        "ff_Adlm",
+        "idu_Latn",
+        "ban_Bali",
+    ]:
+        pytest.xfail("These languages have known issues with their sample text")
+        return
+    lang = LANGUAGES[lang_code]
+    script_name = SCRIPTS[lang.script].name
+    script_name = CLDR_SCRIPT_TO_UCD_SCRIPT.get(script_name, script_name)
+    if not lang.sample_text.ListFields():
+        pytest.skip("No sample text for language " + lang_code)
+        return
+    if lang.id in SKIP_EXEMPLARS:
+        pytest.skip(SKIP_EXEMPLARS[lang.id])
+        return
+    out_of_script = defaultdict(set)
+    for field in SampleText.fields:
+        if field.name == "note":
+            continue
+        samples = getattr(lang.sample_text, field.name)
+        chars = set(samples)
+        for char in chars:
+            char_script = (
+                youseedee.ucd_data(ord(char)).get("Script", "").replace("_", " ")
+            )
+            if char_script == "Common" or char_script == "Inherited":
+                continue
+            if char_script != script_name:
+                extensions = (
+                    youseedee.ucd_data(ord(char))
+                    .get("Script_Extensions", "")
+                    .split(" ")
+                )
+                if any(ext == lang.script for ext in extensions):
+                    continue
+                out_of_script[char_script].add(char)
+                break
+    msg = []
+    for script, chars in out_of_script.items():
+        msg.append(f"'{''.join(chars)}' ({script} != {script_name})")
+    assert not out_of_script, (
+        f"{lang_code} sample text contained out-of-script characters"
+        f": {', '.join(msg)}"
+    )
+
+
+def test_exemplar_parser():
+    bases = "a A ā Ā {a̍} {A̍} {kl}"
+    parsed_bases = parse(bases)
+    assert parsed_bases == {
+        "a",
+        "A",
+        "ā",
+        "Ā",
+        "k",
+        "l",
+        "̍",
+    }
+
+
+def test_language_uniqueness():
+    names = Counter([])
+    for lang in LANGUAGES.values():
+        # We check that names are unique *within a script* since
+        # when we display them in a menu we segment that menu by
+        # script and then by language
+        if lang.preferred_name:
+            names[lang.script + "/" + lang.preferred_name] += 1
+        else:
+            names[lang.name + "/" + lang.preferred_name] += 1
+    if any(count > 1 for count in names.values()):
+        duplicates = {name: count for name, count in names.items() if count > 1}
+        pytest.fail(f"Duplicate language names: {duplicates}")

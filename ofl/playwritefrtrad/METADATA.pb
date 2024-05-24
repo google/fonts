@@ -1,5 +1,5 @@
 name: "Playwrite FR Trad"
-designer: "Veronika Burian, José Scaglione"
+designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2023-12-12"
@@ -16,7 +16,6 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
-subsets: "symbols"
 subsets: "vietnamese"
 axes {
   tag: "wght"
@@ -24,16 +23,33 @@ axes {
   max_value: 400.0
 }
 source {
-  repository_url: "https://github.com/TypeTogether/Playwrite/"
-  commit: "7e7e3b8aa4d42f683a46a9941da81a2c132ba02f"
+  repository_url: "https://github.com/TypeTogether/Playwrite"
+  commit: "30b5a7b7466274c296058dd889b097434d5d6eb9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts-models/fonts-FR_Trad/variable/PlaywriteFRTrad[wght].ttf"
+    source_file: "fonts/variable/PlaywriteFRTrad[wght].ttf"
     dest_file: "PlaywriteFRTrad[wght].ttf"
   }
-  branch: "lang-build"
+  files {
+    source_file: "documentation/about/FR_Trad/ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "documentation/about/FR_Trad/Playwrite-France-Traditionnelle-1.png"
+    dest_file: "article/Playwrite-France-Traditionnelle-1.png"
+  }
+  files {
+    source_file: "documentation/about/FR_Trad/Playwrite-France-Traditionnelle-2.png"
+    dest_file: "article/Playwrite-France-Traditionnelle-2.png"
+  }
+  files {
+    source_file: "documentation/about/FR_Trad/Playwrite-France-Traditionnelle-3.png"
+    dest_file: "article/Playwrite-France-Traditionnelle-3.png"
+  }
+  branch: "main"
 }
-display_name: "Playwrite France Traditional"
+display_name: "Playwrite France Traditionnelle"
+minisite_url: "https://primarium.info/countries/france"

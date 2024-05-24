@@ -224,7 +224,8 @@ def _check_outbound_link(url: str):
     # replacement url cannot be found, please add them to this set.
     to_fix = frozenset([
         # bad SSL cert
-        "clagnut.com"
+        "clagnut.com",
+        "xinreality.com"
     ])
     if urlparse(url).netloc.replace("www.", "") in whitelist | to_fix:
         return True

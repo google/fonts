@@ -1,0 +1,33 @@
+[build-system]
+requires = [
+   "setuptools>=45",
+   "setuptools_scm[toml]>=6.2"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["Lib"]
+
+[tool.setuptools_scm]
+git_describe_command = "git describe --match 'v*' --tags"
+
+[project]
+dynamic = ["version"]
+
+name = "gflanguages"
+description = "A python API for evaluating language support in the Google Fonts collection."
+readme = "README.md"
+authors = [ 
+   { name = "Simon Cozens", email = "simon@simon-cozens.org" }
+]
+
+dependencies = [
+   "protobuf>=3.7.0, <4"
+]
+
+[project.optional-dependencies]
+dev = [
+   "uharfbuzz",
+   "youseedee",
+   "pytest"
+]

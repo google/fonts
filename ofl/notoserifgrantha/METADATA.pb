@@ -18,7 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/grantha"
-  archive_url: "https://github.com/notofonts/grantha/releases/download/NotoSerifGrantha-v2.004/NotoSerifGrantha-v2.004.zip"
+  commit: "6bb911fa061ee18766c677ffcbd844ac1041eb81"
+  archive_url: "https://github.com/notofonts/grantha/releases/download/NotoSerifGrantha-v2.005/NotoSerifGrantha-v2.005.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

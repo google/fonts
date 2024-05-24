@@ -18,7 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/imperial-aramaic"
-  archive_url: "https://github.com/notofonts/imperial-aramaic/releases/download/NotoSansImperialAramaic-v2.001/NotoSansImperialAramaic-v2.001.zip"
+  commit: "f32017cb2dba233b0a09565037af84f12016b0c8"
+  archive_url: "https://github.com/notofonts/imperial-aramaic/releases/download/NotoSansImperialAramaic-v2.002/NotoSansImperialAramaic-v2.002.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

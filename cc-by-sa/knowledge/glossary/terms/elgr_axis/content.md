@@ -11,7 +11,7 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 ![An image showing three type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen in the middle shows the effects of the axis’ middle value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-<figcaption> The letters ‘thx’ in the [Handjet](https://fonts.google.com/specimen/Handjet) typeface are shown three times, with different Element Grid axis locations positioning the elements that construct the letterforms as one per grid unit, two elements overlapping, and two-by-two per grid unit.</figcaption> 
+<figcaption> The letters ‘thx’ in the <a href="https://fonts.google.com/specimen/Handjet">Handjet</a> typeface are shown three times, with different Element Grid axis locations positioning the elements that construct the letterforms as one per grid unit, two elements overlapping, and two-by-two per grid unit.</figcaption> 
 </figure>
 
 As with the [Element Shape](/glossary/elsh_axis) axis, Element Grid alters the structure of the letterforms in a way that may change the minimum font size at which the typeface is legible. These two axes can be combined to produce unique patterns and pleasant visual effects.

@@ -11,7 +11,7 @@ The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) def
 
 ![An image showing two type specimens, each with an axis slider underneath. The specimen on the left shows the effects of the axis’ lowest value. The specimen on the right shows the effects of the axis’ highest value.](images/thumbnail.svg)
 
-<figcaption>In the [Wavefont](https://fonts.google.com/specimen/Wavefont) typeface, 3 sets of 4 vertical stroke elements with varying lengths are shown aligned to the bottom of the em, symmetrically center-aligned, and aligned to the top of the em.</figcaption>
+<figcaption>In the <a href="https://fonts.google.com/specimen/Wavefont">Wavefont</a> typeface, 3 sets of 4 vertical stroke elements with varying lengths are shown aligned to the bottom of the em, symmetrically center-aligned, and aligned to the top of the em.</figcaption>
 </figure>
 
 The number system is a percentage and can be understood on a relative basis: The default value is zero, which center-aligns the letterforms; the minimum value of -100% aligns them to the bottom of the em square; the maximum value of 100% aligns them to the top of the em square. 

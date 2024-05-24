@@ -1,7 +1,85 @@
+# New
+ofl/playwriteaunsw # https://github.com/google/fonts/pull/7697
+ofl/playwriteauqld # https://github.com/google/fonts/pull/7698
+ofl/playwriteausa # https://github.com/google/fonts/pull/7699
+ofl/playwriteautas # https://github.com/google/fonts/pull/7700
+ofl/playwriteauvic # https://github.com/google/fonts/pull/7701
+ofl/playwritebr # https://github.com/google/fonts/pull/7646
+ofl/playwriteca # https://github.com/google/fonts/pull/7704
+ofl/playwriteco # https://github.com/google/fonts/pull/7669
+ofl/playwritedegrund # https://github.com/google/fonts/pull/7647
+ofl/playwritedela # https://github.com/google/fonts/pull/7708
+ofl/playwritedesas # https://github.com/google/fonts/pull/7709
+ofl/playwritedeva # https://github.com/google/fonts/pull/7710
+ofl/playwritees # https://github.com/google/fonts/pull/7714
+ofl/playwriteesdeco # https://github.com/google/fonts/pull/7713
+ofl/playwritefrmoderne # https://github.com/google/fonts/pull/7715
+ofl/playwritefrtrad # https://github.com/google/fonts/pull/7670
+ofl/playwritegbj # https://github.com/google/fonts/pull/7716
+ofl/playwritegbs # https://github.com/google/fonts/pull/7643
+ofl/playwriteid # https://github.com/google/fonts/pull/7720
+ofl/playwriteie # https://github.com/google/fonts/pull/7721
+ofl/playwritein # https://github.com/google/fonts/pull/7722
+ofl/playwriteitmoderna # https://github.com/google/fonts/pull/7724
+ofl/playwriteittrad # https://github.com/google/fonts/pull/7725
+ofl/playwritemx # https://github.com/google/fonts/pull/7726
+ofl/playwritengmodern # https://github.com/google/fonts/pull/7727
+ofl/playwritenz # https://github.com/google/fonts/pull/7730
+ofl/playwritetz # https://github.com/google/fonts/pull/7736
+ofl/playwriteusmodern # https://github.com/google/fonts/pull/7737
+ofl/playwriteustrad # https://github.com/google/fonts/pull/7738
+ofl/playwritevn # https://github.com/google/fonts/pull/7668
+ofl/playwriteza # https://github.com/google/fonts/pull/7739
 
+# Upgrade
+ofl/alatsi # https://github.com/google/fonts/pull/7600
+ofl/bitter # https://github.com/google/fonts/pull/7649
+ofl/cutivemono # https://github.com/google/fonts/pull/7630
+ofl/notosansdevanagari # https://github.com/google/fonts/pull/7692
+ofl/notosansduployan # https://github.com/google/fonts/pull/7751
+ofl/notosansgrantha # https://github.com/google/fonts/pull/7753
+ofl/notosanshebrew # https://github.com/google/fonts/pull/7588
+ofl/notosansimperialaramaic # https://github.com/google/fonts/pull/7686
+ofl/notosansinscriptionalpahlavi # https://github.com/google/fonts/pull/7688
+ofl/notosanskhudawadi # https://github.com/google/fonts/pull/7765
+ofl/notoserifdevanagari # https://github.com/google/fonts/pull/7693
+ofl/notoserifgrantha # https://github.com/google/fonts/pull/7754
+ofl/notoserifhebrew # https://github.com/google/fonts/pull/7589
+
+# Designer profile
+catalog/designers/celinehurka # https://github.com/google/fonts/pull/7477
+
+# Sample texts
+lang/languages/bdh_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/beh_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bgn_Arab.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bkc_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bsc_Latn_GN.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bsq_Bass.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bsq_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/crh_Cyrl.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/evn_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/kr_Arab.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/sa_Nand.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/uma_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/wal_Ethi.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/wal_Latn.textproto # https://github.com/google/fonts/pull/7680
+
+# Other
+ofl/bethellen # https://github.com/google/fonts/pull/7627
+ofl/bricolagegrotesque # https://github.com/google/fonts/pull/7761
+ofl/elsieswashcaps # https://github.com/google/fonts/pull/7522
+ofl/gabarito # https://github.com/google/fonts/pull/7571
+ofl/jaro # https://github.com/google/fonts/pull/7603
+ofl/platypi # https://github.com/google/fonts/pull/7571
+ofl/rethinksans # https://github.com/google/fonts/pull/7571
+ofl/teachers # https://github.com/google/fonts/pull/7571
 
 # Deleted
+# Deleted: lang/languages/mlt_Latn.textproto # https://github.com/google/fonts/pull/7680
 # Deleted: lang/languages/sa_Sylo.textproto # https://github.com/google/fonts/pull/7248
 # Deleted: ofl/eduvicwantguide # https://github.com/google/fonts/pull/7557
 # Deleted: ofl/eduvicwantpreguide # https://github.com/google/fonts/pull/7557
 
+# Tags
+tags/all/families.csv

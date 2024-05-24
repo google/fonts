@@ -18,7 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/khudawadi"
-  archive_url: "https://github.com/notofonts/khudawadi/releases/download/NotoSansKhudawadi-v2.003/NotoSansKhudawadi-v2.003.zip"
+  commit: "77a425be0b41864390f3b973dbd41c9ad47922b9"
+  archive_url: "https://github.com/notofonts/khudawadi/releases/download/NotoSansKhudawadi-v2.004/NotoSansKhudawadi-v2.004.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

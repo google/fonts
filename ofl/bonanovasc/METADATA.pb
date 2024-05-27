@@ -59,4 +59,4 @@ source {
   }
   branch: "main"
 }
-minisite_url: "http://bonanova.wtf/"
+minisite_url: "http://bonanova.wtf"

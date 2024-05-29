@@ -1,8 +1,11 @@
 id: "nan_Hant"
 language: "nan"
 script: "Hant"
-name: "Min Nan Chinese, Traditional"
+name: "Southern Min Chinese"
+preferred_name: "Southern Min Chinese"
+autonym: "閩南語"
 region: "TW"
+region: "CN"
 sample_text {
   masthead_full: "人皆生而"
   masthead_partial: "自由"

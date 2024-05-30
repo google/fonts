@@ -24,15 +24,16 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "cjy_Hant"  # Chinese, Jinyu
+languages: "cjy_Hant"  # Jin Chinese
 languages: "gan_Hant"  # Gan Chinese
-languages: "hak_Hant"  # Hakka Chinese, Traditional
+languages: "hak_Hant"  # Hakka Chinese
 languages: "hsn_Hant"  # Xiang Chinese
-languages: "lzh_Hant"  # Literary Chinese, Traditional
-languages: "nan_Hant"  # Min Nan Chinese, Traditional
+languages: "lzh_Hant"  # Literary Chinese
+languages: "nan_Hant"  # Southern Min Chinese
 languages: "wuu_Hant"  # Wu Chinese
 languages: "yue_Hant"  # Cantonese
 languages: "za_Hant"   # Zhuang, Traditional Han
 languages: "zh_Hant"   # Chinese (Traditional)
 display_name: "Noto Serif Traditional Chinese"
 primary_script: "Hant"
+primary_language: "zh_Hant"

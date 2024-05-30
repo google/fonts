@@ -31,5 +31,16 @@ source {
   }
   branch: "main"
 }
+languages: "cjy_Hant"  # Chinese, Jinyu
+languages: "gan_Hant"  # Gan Chinese
+languages: "hak_Hant"  # Hakka Chinese, Traditional
+languages: "hsn_Hant"  # Xiang Chinese
+languages: "lzh_Hant"  # Literary Chinese, Traditional
+languages: "nan_Hant"  # Min Nan Chinese, Traditional
+languages: "wuu_Hant"  # Wu Chinese
+languages: "yue_Hant"  # Cantonese
+languages: "za_Hant"   # Zhuang, Traditional Han
+languages: "zh_Hant"   # Chinese (Traditional)
 primary_script: "Hant"
+primary_language: "yue_Hant"
 stroke: "SANS_SERIF"

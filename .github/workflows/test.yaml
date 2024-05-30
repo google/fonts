@@ -30,6 +30,8 @@ jobs:
         shell: bash
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1.6.2
+        with:
+          chrome-version: '127.0.6509.0'
       - name: Setup Chrome Driver
         uses: nanasess/setup-chromedriver@v2.2.2
 

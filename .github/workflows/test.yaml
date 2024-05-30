@@ -29,9 +29,9 @@ jobs:
           pip install gftools[qa] pytest
         shell: bash
       - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v1.6.2
+        uses: browser-actions/setup-chrome@latest
       - name: Setup Chrome Driver
-        uses: nanasess/setup-chromedriver@v2.2.2
+        uses: nanasess/setup-chromedriver@master
 
       - name: Setup Firefox
         uses: browser-actions/setup-firefox@latest

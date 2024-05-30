@@ -23,7 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/adlam"
-  archive_url: "https://github.com/notofonts/adlam/releases/download/NotoSansAdlamUnjoined-v3.001/NotoSansAdlamUnjoined-v3.001.zip"
+  commit: "66c3f0126b2a54f51f6a902d5a33106a833c91d8"
+  archive_url: "https://github.com/notofonts/adlam/releases/download/NotoSansAdlamUnjoined-v3.003/NotoSansAdlamUnjoined-v3.003.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

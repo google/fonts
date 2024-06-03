@@ -61,16 +61,5 @@ source {
   }
   branch: "main"
 }
-languages: "cjy_Hant"  # Jin Chinese
-languages: "gan_Hant"  # Gan Chinese
-languages: "hak_Hant"  # Hakka Chinese
-languages: "hsn_Hant"  # Xiang Chinese
-languages: "lzh_Hant"  # Literary Chinese
-languages: "nan_Hant"  # Southern Min Chinese
-languages: "wuu_Hant"  # Wu Chinese
-languages: "yue_Hant"  # Cantonese
-languages: "za_Hant"   # Zhuang, Traditional Han
-languages: "zh_Hant"   # Chinese (Traditional)
 primary_script: "Hant"
-primary_language: "zh_Hant"
 classifications: "HANDWRITING"

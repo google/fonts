@@ -25,7 +25,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/arabic"
-  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.018/NotoNaskhArabic-v2.018.zip"
+  commit: "136d96955b0581da8718eb4cdb2e700a723aefc6"
+  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.019/NotoNaskhArabic-v2.019.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -39,7 +40,7 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   files {
-    source_file: "NotoNaskhArabic/googlefonts/variable/NotoNaskhArabic[wght].ttf"
+    source_file: "NotoNaskhArabic/googlefonts/variable-ttf/NotoNaskhArabic[wght].ttf"
     dest_file: "NotoNaskhArabic[wght].ttf"
   }
   branch: "main"

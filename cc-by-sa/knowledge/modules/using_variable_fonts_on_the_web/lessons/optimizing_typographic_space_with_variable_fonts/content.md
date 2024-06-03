@@ -59,7 +59,7 @@ Special care should be taken when adjusting the width of a typeface, particularl
 
 ## Line-filling
 
-Speaking of width, variable fonts with adjustable widths can be used to make different pieces of text fill their containers without changing the font size. Long words can be condensed to fill the same line length as short words without resorting to artificial transformations. (For a real-world example of this effect in use, see [the 2019 Typographics website](https://2019.typographics.com)). Options for achieving this automatically still require some JavaScript, but tools like [Font-To-Width](http://font-to-width.com) or [fit-to-width](https://github.com/Lorp/fit-to-width) can make it relatively easy.
+Speaking of width, variable fonts with adjustable widths can be used to make different pieces of text fill their containers without changing the font size. Long words can be condensed to fill the same line length as short words without resorting to artificial transformations. (For a real-world example of this effect in use, see [the 2019 Typographics website](https://2019.typographics.com)). Options for achieving this automatically still require some JavaScript, but tools like [Font-To-Width](https://web.archive.org/web/20240425214330/http://font-to-width.com) or [fit-to-width](https://github.com/Lorp/fit-to-width) can make it relatively easy.
 
 <figure>
 

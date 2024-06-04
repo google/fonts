@@ -32,4 +32,5 @@ source {
   branch: "main"
 }
 primary_script: "Hant"
+primary_language: "yue_Hant"
 stroke: "SERIF"

@@ -1,8 +1,9 @@
 id: "wuu_Hans"
 language: "wuu"
 script: "Hans"
-name: "Wu Chinese"
-autonym: "Wu Chinese（Simplified）"
+name: "Wu Chinese (Simplified)"
+preferred_name: "Shanghainese (Simplified)"
+autonym: "吴语（简体）"
 population: 83641200
 region: "CN"
 sample_text {

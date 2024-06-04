@@ -36,3 +36,4 @@ languages: "za_Hans"   # Zhuang, Simplified Han
 languages: "zh_Hans"   # Chinese (Simplified)
 display_name: "Noto Serif Simplified Chinese"
 primary_script: "Hans"
+primary_language: "zh_Hans"

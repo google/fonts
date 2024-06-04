@@ -62,4 +62,5 @@ source {
   branch: "main"
 }
 primary_script: "Hant"
+primary_language: "zh_Hant"
 classifications: "HANDWRITING"

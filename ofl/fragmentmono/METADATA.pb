@@ -28,6 +28,19 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/weiweihuanghuang/fragment-mono"
+  branch: "main"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/FragmentMono-Regular.ttf"
+    dest_file: "FragmentMono-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/FragmentMono-Italic.ttf"
+    dest_file: "FragmentMono-Italic.ttf"
+  }
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

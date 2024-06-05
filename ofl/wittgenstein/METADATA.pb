@@ -31,7 +31,11 @@ axes {
 }
 source {
   repository_url: "https://github.com/jrgdrs/Wittgenstein"
+<<<<<<< HEAD
   commit: "56c1cf1b4a9f5127d4621f1e167f6415b0a284e9"
+=======
+  commit: "40616b6ad7adff0e242fba10c0b88c2c8c84b3fc"
+>>>>>>> ce3aa208824d1d4fa51c4d6c01e9cf2ce7575b24
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

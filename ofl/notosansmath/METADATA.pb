@@ -10,10 +10,30 @@ fonts {
   filename: "NotoSansMath-Regular.ttf"
   post_script_name: "NotoSansMath-Regular"
   full_name: "Noto Sans Math Regular"
-  copyright: "Copyright 2018 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 Google LLC. All Rights Reserved."
 }
-subsets: "menu"
+subsets: "cyrillic"
+subsets: "latin"
 subsets: "math"
+subsets: "menu"
+source {
+  repository_url: "https://www.github.com/notofonts/math"
+  commit: "00e9941d95b2a355399a66f3990ffde6e4985676"
+  archive_url: "https://github.com/notofonts/math/releases/download/NotoSansMath-v3.000/NotoSansMath-v3.000.zip"
+  files {
+    source_file: "fonts/ttf/NotoSansMath-Regular.ttf"
+    dest_file: "NotoSansMath-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
+}
 is_noto: true
 sample_text {
   masthead_full: "ϰ𞹵𝑼𝞩"

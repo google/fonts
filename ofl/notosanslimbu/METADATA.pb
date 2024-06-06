@@ -18,7 +18,8 @@ subsets: "limbu"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/limbu"
-  archive_url: "https://github.com/notofonts/limbu/releases/download/NotoSansLimbu-v2.004/NotoSansLimbu-v2.004.zip"
+  commit: "912b8113bbabaf7322956fe80a0ad18575e77d7e"
+  archive_url: "https://github.com/notofonts/limbu/releases/download/NotoSansLimbu-v2.005/NotoSansLimbu-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"

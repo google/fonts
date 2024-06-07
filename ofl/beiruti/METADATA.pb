@@ -12,6 +12,7 @@ fonts {
   full_name: "Beiruti"
   copyright: "Copyright 2024 The Beiruti Project Authors (https://github.com/googlefonts/beiruti)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

@@ -49,7 +49,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/arrowtype/shantell-sans"
-  commit: "eb212fc669479ba32740440fab2e4207057c37b2"
+  commit: "68f5eca1490a58973b2a814d3a7d0f61291fd0c9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

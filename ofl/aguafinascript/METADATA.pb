@@ -12,8 +12,8 @@ fonts {
   full_name: "Aguafina Script Regular"
   copyright: "Copyright (c) 2007 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2007 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Aguafina Script\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

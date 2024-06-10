@@ -57,6 +57,7 @@ fonts {
   full_name: "Zain Black"
   copyright: "Copyright 2024 The Zain Project Authors (https://github.com/googlefonts/zain)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
 source {

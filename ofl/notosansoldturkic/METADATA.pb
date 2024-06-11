@@ -18,7 +18,8 @@ subsets: "menu"
 subsets: "old-turkic"
 source {
   repository_url: "https://github.com/notofonts/old-turkic"
-  archive_url: "https://github.com/notofonts/old-turkic/releases/download/NotoSansOldTurkic-v2.003/NotoSansOldTurkic-v2.003.zip"
+  commit: "b9616aba12e777d230e9fd4e52a049477c862e59"
+  archive_url: "https://github.com/notofonts/old-turkic/releases/download/NotoSansOldTurkic-v2.004/NotoSansOldTurkic-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

@@ -18,7 +18,8 @@ subsets: "menu"
 subsets: "old-italic"
 source {
   repository_url: "https://github.com/notofonts/old-italic"
-  archive_url: "https://github.com/notofonts/old-italic/releases/download/NotoSansOldItalic-v2.003/NotoSansOldItalic-v2.003.zip"
+  commit: "51420632db471f800592bd0f03617585b0f7734d"
+  archive_url: "https://github.com/notofonts/old-italic/releases/download/NotoSansOldItalic-v2.004/NotoSansOldItalic-v2.004.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

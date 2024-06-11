@@ -23,7 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/nag-mundari"
-  archive_url: "https://github.com/notofonts/nag-mundari/releases/download/NotoSansNagMundari-v1.000/NotoSansNagMundari-v1.000.zip"
+  commit: "aa14d2df1a500fe504b250182c6aa64822c8d441"
+  archive_url: "https://github.com/notofonts/nag-mundari/releases/download/NotoSansNagMundari-v1.001/NotoSansNagMundari-v1.001.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"

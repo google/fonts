@@ -1,5 +1,5 @@
 name: "Fustat"
-designer: "Mohamed Gaber, Khaled Hosny, Laura Garcia Mut"
+designer: "Mohamed Gaber, Laura Garcia Mut, Khaled Hosny"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-06-05"
@@ -12,6 +12,7 @@ fonts {
   full_name: "Fustat Regular"
   copyright: "Copyright 2022 The Fustat Project Authors (https://github.com/Kief-Type-Foundry/Fustat)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

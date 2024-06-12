@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite España Decorativa"
 minisite_url: "https://primarium.info/countries/spain"
+primary_language: "es_Latn"

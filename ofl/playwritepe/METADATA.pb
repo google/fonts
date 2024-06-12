@@ -53,3 +53,4 @@ source {
 }
 display_name: "Playwrite Perú"
 minisite_url: "https://primarium.info/countries/peru"
+primary_language: "es_Latn"

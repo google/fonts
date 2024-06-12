@@ -53,3 +53,4 @@ source {
 }
 display_name: "Playwrite Chile"
 minisite_url: "https://primarium.info/countries/chile"
+primary_language: "es_Latn"

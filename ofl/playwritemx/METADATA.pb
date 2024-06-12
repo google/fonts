@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite México"
 minisite_url: "https://primarium.info/countries/mexico"
+primary_language: "es_Latn"

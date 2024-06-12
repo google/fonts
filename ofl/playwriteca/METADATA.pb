@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Canada"
 minisite_url: "https://primarium.info/countries/canada"
+primary_language: "en_Latn"

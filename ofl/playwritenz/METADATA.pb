@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite New Zealand"
 minisite_url: "https://primarium.info/countries/new-zealand"
+primary_language: "en_Latn"

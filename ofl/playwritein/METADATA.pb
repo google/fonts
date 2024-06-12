@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite India"
 minisite_url: "https://primarium.info/countries/india"
+primary_language: "en_Latn"

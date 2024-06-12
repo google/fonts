@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite South Africa"
 minisite_url: "https://primarium.info/countries/south-africa"
+primary_language: "en_Latn"

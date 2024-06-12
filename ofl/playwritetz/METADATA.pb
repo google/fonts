@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Tanzania"
 minisite_url: "https://primarium.info/countries/tanzania"
+primary_language: "en_Latn"

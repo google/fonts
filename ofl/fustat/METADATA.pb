@@ -1,5 +1,5 @@
 name: "Fustat"
-designer: "Mohamed Gaber, Khaled Hosny, Laura Garcia Mut"
+designer: "Mohamed Gaber, Laura Garcia Mut, Khaled Hosny"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-06-05"

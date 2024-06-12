@@ -12,6 +12,7 @@ fonts {
   full_name: "Fustat Regular"
   copyright: "Copyright 2022 The Fustat Project Authors (https://github.com/Kief-Type-Foundry/Fustat)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

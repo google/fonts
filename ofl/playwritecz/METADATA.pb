@@ -53,3 +53,4 @@ source {
 }
 display_name: "Playwrite Česko"
 minisite_url: "https://primarium.info/countries/czech-republic"
+primary_language: "cs_Latn"

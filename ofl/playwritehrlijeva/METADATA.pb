@@ -53,3 +53,4 @@ source {
 }
 display_name: "Playwrite Hrvatska Lijeva"
 minisite_url: "https://primarium.info/countries/croatia"
+primary_language: "hr_Latn"

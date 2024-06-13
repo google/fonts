@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Netherland"
 minisite_url: "https://primarium.info/countries/the-netherlands"
+primary_language: "nl_Latn"

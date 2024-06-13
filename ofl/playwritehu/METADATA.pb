@@ -53,3 +53,4 @@ source {
 }
 display_name: "Playwrite Magyarország"
 minisite_url: "https://primarium.info/countries/hungary"
+primary_language: "hu_Latn"

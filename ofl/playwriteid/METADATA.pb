@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Indonesia"
 minisite_url: "https://primarium.info/countries/indonesia"
+primary_language: "id_Latn"

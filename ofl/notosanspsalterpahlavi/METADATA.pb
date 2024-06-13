@@ -18,7 +18,8 @@ subsets: "menu"
 subsets: "psalter-pahlavi"
 source {
   repository_url: "https://github.com/notofonts/psalter-pahlavi"
-  archive_url: "https://github.com/notofonts/psalter-pahlavi/releases/download/NotoSansPsalterPahlavi-v2.002/NotoSansPsalterPahlavi-v2.002.zip"
+  commit: "67ed6002f772c9b7cea9c8d56c28e2fe65bd114d"
+  archive_url: "https://github.com/notofonts/psalter-pahlavi/releases/download/NotoSansPsalterPahlavi-v2.003/NotoSansPsalterPahlavi-v2.003.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

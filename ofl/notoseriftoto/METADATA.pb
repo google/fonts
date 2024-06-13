@@ -23,7 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/toto"
-  archive_url: "https://github.com/notofonts/toto/releases/download/NotoSerifToto-v2.001/NotoSerifToto-v2.001.zip"
+  commit: "3ea8167782a839042453dec5d164f1a5f801a8e1"
+  archive_url: "https://github.com/notofonts/toto/releases/download/NotoSerifToto-v2.002/NotoSerifToto-v2.002.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

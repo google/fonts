@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Việt Nam"
 minisite_url: "https://primarium.info/countries/vietnam"
+primary_language: "vi_Latn"

@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Ísland"
 minisite_url: "https://primarium.info/countries/iceland"
+primary_language: "is_Latn"

@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Slovensko"
 minisite_url: "https://primarium.info/countries/slovakia"
+primary_language: "sk_Latn"

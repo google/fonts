@@ -27,8 +27,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/fridamedrano/Kalnia-Glaze"
-  commit: "65e7c785d950985a8936a35c8c525db44fb63965"
-  archive_url: "https://github.com/fridamedrano/Kalnia-Glaze/releases/download/v1.107/Kalnia-Glaze-v1.107.zip"
+  commit: "1da962604705abc74467d29d5ca74e0f371f7dd5"
+  archive_url: "https://github.com/fridamedrano/Kalnia-Glaze/releases/download/v1.110/Kalnia-Glaze-v1.110.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

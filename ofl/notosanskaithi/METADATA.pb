@@ -18,7 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/kaithi"
-  archive_url: "https://github.com/notofonts/kaithi/releases/download/NotoSansKaithi-v2.005/NotoSansKaithi-v2.005.zip"
+  commit: "a439d16c5fd54cce21f4a46ee6cb18813c3d5112"
+  archive_url: "https://github.com/notofonts/kaithi/releases/download/NotoSansKaithi-v2.006/NotoSansKaithi-v2.006.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"

@@ -10,7 +10,7 @@ fonts {
   filename: "LifeSavers-Regular.ttf"
   post_script_name: "LifeSavers-Regular"
   full_name: "Life Savers Regular"
-  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),  Copyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com), with Reserved Font Name Life Savers."
+  copyright: "Copyright 2012 The Life Savers Project Authors (https://github.com/googlefonts/life-savers)"
 }
 fonts {
   name: "Life Savers"
@@ -19,7 +19,7 @@ fonts {
   filename: "LifeSavers-Bold.ttf"
   post_script_name: "LifeSavers-Bold"
   full_name: "Life Savers Bold"
-  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),  Copyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com), with Reserved Font Name Life Savers."
+  copyright: "Copyright 2012 The Life Savers Project Authors (https://github.com/googlefonts/life-savers)"
 }
 fonts {
   name: "Life Savers"
@@ -28,10 +28,31 @@ fonts {
   filename: "LifeSavers-ExtraBold.ttf"
   post_script_name: "LifeSavers-ExtraBold"
   full_name: "Life Savers ExtraBold"
-  copyright: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),\nCopyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), \nCopyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com),\nwith Reserved Font Name Life Savers."
+  copyright: "Copyright 2012 The Life Savers Project Authors (https://github.com/googlefonts/life-savers)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/life-savers"
+  commit: "76eb6d11fa7a003dae0e05c4fa9e2f00a535d8c2"
+  files {
+    source_file: "fonts/ttf/LifeSavers-Regular.ttf"
+    dest_file: "LifeSavers-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LifeSavers-Bold.ttf"
+    dest_file: "LifeSavers-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/LifeSavers-ExtraBold.ttf"
+    dest_file: "LifeSavers-ExtraBold.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
+}
 stroke: "SERIF"
 classifications: "DISPLAY"

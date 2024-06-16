@@ -1,4 +1,18 @@
-The most common technical problem encountered when using variable fonts is with glyph outline contours that overlap.
+## Variable fonts are not supported at all
+
+Variable font was introduced to the web in 2016, but some applications still do not offer any support for them.
+
+To help with this situation, Google Fonts offers download ZIPs for each variable font family that include a set of commonly used static fonts.
+But it is common that you will want to use a specific style that was not included.
+
+There are several tools available to convert such an 'instance' into a static font, that will work everywhere:
+
+* [Dinamo Font Gauntlet](https://fontgauntlet.com) 
+* [Slice](https://slice-gui.netlify.app)
+
+## Glyph outline overlaps causing holes
+
+When variable fonts are supported, the most common technical problem encountered is with glyph outline contours that overlap.
 When it occurs, the problem looks something like this:
 
 <figure>

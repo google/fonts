@@ -1,13 +1,309 @@
 {
-    "last_run": "2024-06-10",
+    "last_run": "2024-06-17",
     "commits": [
+        {
+            "date": "2024-06-14T10:44:57",
+            "title": "Merge pull request #7855 from google/gftools_packager_ofl_notosanskaithi",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "4d015b57411aa9dfddb89655670b3f2a2834419e"
+        },
+        {
+            "date": "2024-06-14T09:45:23",
+            "title": "Merge pull request #7864 from google/gftools_packager_ofl_kalniaglaze",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a9fb7d403c26246ad6bb2b328d1d655c86933829"
+        },
+        {
+            "date": "2024-06-13T18:18:30",
+            "title": "new article images added",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "eb74a704e74b16c8e31473d642afda66569e0e4b"
+        },
+        {
+            "date": "2024-06-13T18:13:41",
+            "title": "url repo fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "77a431893ef67da7d357322a545df8b615cca01f"
+        },
+        {
+            "date": "2024-06-13T18:08:24",
+            "title": "Kalnia Glaze: article updated",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5de99d524dc06196f9448c870ff6d1c4d6b0833b"
+        },
+        {
+            "date": "2024-06-13T18:04:13",
+            "title": "Kalnia Glaze: Version 1.110 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "d4c19446e537c001ba66b38649dae21a83770752"
+        },
+        {
+            "date": "2024-06-13T15:14:28",
+            "title": "Merge pull request #7836 from google/gftools_packager_ofl_cutive",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "7799d58f0e87d776dcf160497e3b044f2943561a"
+        },
+        {
+            "date": "2024-06-13T14:48:44",
+            "title": "Cutive: Version 1.100; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "0f79e19d939f48b8dae71ece06885e68f885ac9d"
+        },
+        {
+            "date": "2024-06-13T14:31:53",
+            "title": "Merge pull request #7854 from google/gftools_packager_ofl_rammettoone",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "3547c93745046a26341bfd0088b14d0dd764d8b1"
+        },
+        {
+            "date": "2024-06-13T13:44:15",
+            "title": "Merge pull request #7857 from google/gftools_packager_ofl_notosanspsalterpahlavi",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "5dbfea0f1170a5661cfea9b6630a9f79f171f5b7"
+        },
+        {
+            "date": "2024-06-13T13:42:44",
+            "title": "Merge pull request #7858 from google/gftools_packager_ofl_notoseriftoto",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "4d25ca24d57b209ec05aa79671e21a165b87e31b"
+        },
+        {
+            "date": "2024-06-13T13:41:37",
+            "title": "Merge pull request #7859 from emmamarichal/gamaamli-article",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "556f9b049c5bdccaaa9b913a221237279417bbf7"
+        },
+        {
+            "date": "2024-06-13T13:40:43",
+            "title": "Merge pull request #7861 from emmamarichal/afoteyclementniiodai",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "designer",
+            "id": "b6f949eea649698c41bc0ec1c1b09ee1a0ab83fa"
+        },
+        {
+            "date": "2024-06-13T13:37:01",
+            "title": "Merge pull request #7862 from emmamarichal/amadiaka",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "designer",
+            "id": "32c4868ce16e8554cc010e060afcb215c1ee58c1"
+        },
+        {
+            "date": "2024-06-13T13:35:26",
+            "title": "Merge pull request #7863 from emmamarichal/davidabbeythompson",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "986b310f3ded162da2a90ac691368186e8d1ac6c"
+        },
+        {
+            "date": "2024-06-13T12:11:28",
+            "title": "David Abbey-Thompson: designer added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "039471e9e07fd9c19f16b3d09c35ea815af13f59"
+        },
+        {
+            "date": "2024-06-13T12:05:04",
+            "title": "Ama Diaka: designer added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "5094b7b29e61c0674df606fa6d64c3d07ccdd853"
+        },
+        {
+            "date": "2024-06-13T12:01:24",
+            "title": "Add designer Afotey Clement Nii Odai",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "532ccc2671f2e8cf0c9b9aaf4b77e60d244c9e1c"
+        },
+        {
+            "date": "2024-06-13T10:02:38",
+            "title": "Update ARTICLE.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8f00fdb0e9629f35f9acb6d7e2162562986dcdb5"
+        },
+        {
+            "date": "2024-06-13T09:56:16",
+            "title": "remove description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "6fe69a0333c4e4e9d124cf47e7a3261aff57a3f6"
+        },
+        {
+            "date": "2024-06-13T09:56:08",
+            "title": "add article + images",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "3c819e6130e1a0bace217064d20492773aa2d7dd"
+        },
+        {
+            "date": "2024-06-13T09:49:15",
+            "title": "Noto Serif Toto: Version 2.002 added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "a43a47861974c0f1c85cc75daa4fa48a7a13f852"
+        },
+        {
+            "date": "2024-06-13T09:39:45",
+            "title": "Noto Sans Psalter Pahlavi: Version 2.003; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "80c0f66aa7cbe8f58ad374e7a82dc7935d782036"
+        },
+        {
+            "date": "2024-06-13T09:34:16",
+            "title": "Noto Sans Kaithi: Version 2.006; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "538d0e732707ed56930d6ba5d02e8c4f63f3a375"
+        },
+        {
+            "date": "2024-06-13T09:33:12",
+            "title": "fix description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "88a09dd177e7cf4cbde4cf5bffc6e6cfebd04b0e"
+        },
+        {
+            "date": "2024-06-13T09:27:19",
+            "title": "Rammetto One: Version 1.100; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "50addfd74e38c98b7477f6cc17711af0e5d404c2"
+        },
+        {
+            "date": "2024-06-12T13:56:56",
+            "title": "Merge pull request #7850 from google/laura-garciua-mut-designer-info",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "25ddf5fe2540d5d743638bf7f438fb074e20e0fb"
+        },
+        {
+            "date": "2024-06-12T10:45:56",
+            "title": "Put Laura second since she designed, Khaled engineered",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "55147494003ccf96f7c822bae92223fe330c630a"
+        },
+        {
+            "date": "2024-06-12T10:44:45",
+            "title": "Added arabic subset",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "55f5f825a6f93294918e9b2bf916320c7b225b7c"
+        },
+        {
+            "date": "2024-06-12T10:43:12",
+            "title": "Designer info for Laura Garcia Mut (Fustat)",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "designer",
+            "id": "ae0acde5fb54af560485545d6d015906c89782e0"
+        },
+        {
+            "date": "2024-06-10T12:27:05",
+            "title": "Merge pull request #7839 from google/push-lists",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f82f14e78dc672d6e8cf6ee386fe12b386e3a4bb"
+        },
+        {
+            "date": "2024-06-10T10:24:53",
+            "title": "Merge pull request #7840 from google/zain-subset",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cca391b38e2a96c25894afcf74e18deb0df70155"
+        },
+        {
+            "date": "2024-06-10T10:24:24",
+            "title": "Merge pull request #7837 from google/gftools_packager_ofl_beiruti",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7f521066ef6cfc6110a77dd2697a18544a01d2e4"
+        },
+        {
+            "date": "2024-06-07T17:51:30",
+            "title": "Added arabic subset manually",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "bb4e76a230474772b19ec9d4c4c1da509d3c1d6b"
+        },
+        {
+            "date": "2024-06-07T17:49:58",
+            "title": "Update METADATA.pb",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7dcdd818b6805a3a53e8332ba8ecaed4f661cb3b"
+        },
+        {
+            "date": "2024-06-07T16:05:40",
+            "title": "update push lists",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cf2c9765f5ee3cade84fdd09a64d218007b3eb67"
+        },
         {
             "date": "2024-06-07T15:10:57",
             "title": "Revert \"Remove recently added primary_language from METADATA.pb files (#7822)\" (#7838)",
             "author": "Nathan Williams",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "387dad4be8a0d1592eaadf1dea8307ef0e16f231"
+        },
+        {
+            "date": "2024-06-07T14:05:19",
+            "title": "Beiruti: Version 1.00 added",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "family",
+            "id": "2a93129ba94115e6239e7fbe0c674fc8e7f5441f"
         },
         {
             "date": "2024-06-07T12:30:37",
@@ -63581,34 +63877,16 @@
     "pushes": {
         "sandbox": [
             {
-                "path": "ofl/antonsc",
+                "path": "ofl/fustat",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7770"
+                "url": "https://github.com/google/fonts/pull/7820"
             },
             {
-                "path": "ofl/arsenalsc",
+                "path": "ofl/gamaamli",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7771"
-            },
-            {
-                "path": "ofl/baskervvillesc",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7772"
-            },
-            {
-                "path": "ofl/bodonimodasc",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7773"
-            },
-            {
-                "path": "ofl/bonanovasc",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7774"
+                "url": "https://github.com/google/fonts/pull/7826"
             },
             {
                 "path": "ofl/playwriteis",
@@ -63653,34 +63931,70 @@
                 "url": "https://github.com/google/fonts/pull/7735"
             },
             {
-                "path": "ofl/concertone",
+                "path": "ofl/wittgenstein",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7818"
+            },
+            {
+                "path": "ofl/zain",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7825"
+            },
+            {
+                "path": "ofl/bungee",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7779"
+                "url": "https://github.com/google/fonts/pull/7794"
             },
             {
-                "path": "ofl/eduvicwantguide",
-                "category": "Deleted",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7557"
-            },
-            {
-                "path": "ofl/eduvicwantpreguide",
-                "category": "Deleted",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7557"
-            },
-            {
-                "path": "ofl/notosansadlamunjoined",
+                "path": "ofl/bungeehairline",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7681"
+                "url": "https://github.com/google/fonts/pull/7795"
             },
             {
-                "path": "ofl/notosansinscriptionalparthian",
+                "path": "ofl/bungeeinline",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7687"
+                "url": "https://github.com/google/fonts/pull/7797"
+            },
+            {
+                "path": "ofl/bungeeoutline",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7796"
+            },
+            {
+                "path": "ofl/bungeeshade",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7798"
+            },
+            {
+                "path": "ofl/bungeespice",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7799"
+            },
+            {
+                "path": "ofl/inter",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7776"
+            },
+            {
+                "path": "ofl/notosanshebrew",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7806"
+            },
+            {
+                "path": "ofl/shantellsans",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7778"
             },
             {
                 "path": "catalog/designers/celinehurka",
@@ -63689,10 +64003,16 @@
                 "url": "https://github.com/google/fonts/pull/7477"
             },
             {
-                "path": "catalog/designers/stefanschmidt",
+                "path": "catalog/designers/jorgdrees",
                 "category": "Designer profile",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7793"
+                "url": "https://github.com/google/fonts/pull/7817"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/using_variable_fonts_on_the_web/lessons/optimizing_typographic_space_with_variable_fonts/content.md",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7803"
             },
             {
                 "path": "lang/languages/bdh_Latn.textproto",
@@ -63797,22 +64117,10 @@
                 "url": "https://github.com/google/fonts/pull/7522"
             },
             {
-                "path": "ofl/gabarito",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7571"
-            },
-            {
                 "path": "ofl/jaro",
                 "category": "Other",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7603"
-            },
-            {
-                "path": "ofl/platypi",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7571"
             },
             {
                 "path": "ofl/playwriteaunsw",
@@ -64001,18 +64309,6 @@
                 "url": "https://github.com/google/fonts/pull/7801"
             },
             {
-                "path": "ofl/rethinksans",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7571"
-            },
-            {
-                "path": "ofl/teachers",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7571"
-            },
-            {
                 "path": "lang/languages/mlt_Latn.textproto",
                 "category": "Deleted",
                 "status": null,
@@ -64025,6 +64321,18 @@
                 "url": "https://github.com/google/fonts/pull/7248"
             },
             {
+                "path": "ofl/eduvicwantguide",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7557"
+            },
+            {
+                "path": "ofl/eduvicwantpreguide",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7557"
+            },
+            {
                 "path": "tags/all/families.csv",
                 "category": null,
                 "status": null,
@@ -64033,148 +64341,34 @@
         ],
         "production": [
             {
-                "path": "ofl/playwritebr",
+                "path": "ofl/antonsc",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7646"
+                "url": "https://github.com/google/fonts/pull/7770"
             },
             {
-                "path": "ofl/playwriteca",
+                "path": "ofl/arsenalsc",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7704"
+                "url": "https://github.com/google/fonts/pull/7771"
             },
             {
-                "path": "ofl/playwritedegrund",
+                "path": "ofl/baskervvillesc",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7647"
+                "url": "https://github.com/google/fonts/pull/7772"
             },
             {
-                "path": "ofl/playwritedela",
+                "path": "ofl/bodonimodasc",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7708"
+                "url": "https://github.com/google/fonts/pull/7773"
             },
             {
-                "path": "ofl/playwritedesas",
+                "path": "ofl/bonanovasc",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7709"
-            },
-            {
-                "path": "ofl/playwritedeva",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7710"
-            },
-            {
-                "path": "ofl/playwritees",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7714"
-            },
-            {
-                "path": "ofl/playwriteesdeco",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7713"
-            },
-            {
-                "path": "ofl/playwritegbj",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7716"
-            },
-            {
-                "path": "ofl/playwritegbs",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7643"
-            },
-            {
-                "path": "ofl/playwriteid",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7720"
-            },
-            {
-                "path": "ofl/playwriteie",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7721"
-            },
-            {
-                "path": "ofl/playwritein",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7722"
-            },
-            {
-                "path": "ofl/playwriteitmoderna",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7724"
-            },
-            {
-                "path": "ofl/playwriteittrad",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7725"
-            },
-            {
-                "path": "ofl/playwritemx",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7726"
-            },
-            {
-                "path": "ofl/playwritengmodern",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7727"
-            },
-            {
-                "path": "ofl/playwritenz",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7730"
-            },
-            {
-                "path": "ofl/playwritetz",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7736"
-            },
-            {
-                "path": "ofl/playwriteusmodern",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7737"
-            },
-            {
-                "path": "ofl/playwriteustrad",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7738"
-            },
-            {
-                "path": "ofl/playwriteza",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7739"
-            },
-            {
-                "path": "ofl/tiny5",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7583"
-            },
-            {
-                "path": "ofl/alata",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7595"
+                "url": "https://github.com/google/fonts/pull/7774"
             },
             {
                 "path": "ofl/alatsi",
@@ -64189,22 +64383,16 @@
                 "url": "https://github.com/google/fonts/pull/7569"
             },
             {
-                "path": "ofl/calistoga",
+                "path": "ofl/concertone",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7567"
+                "url": "https://github.com/google/fonts/pull/7779"
             },
             {
                 "path": "ofl/cutivemono",
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7630"
-            },
-            {
-                "path": "ofl/damion",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7580"
             },
             {
                 "path": "ofl/holtwoodonesc",
@@ -64219,22 +64407,16 @@
                 "url": "https://github.com/google/fonts/pull/7549"
             },
             {
-                "path": "ofl/notorashihebrew",
+                "path": "ofl/notosansadlamunjoined",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7590"
+                "url": "https://github.com/google/fonts/pull/7681"
             },
             {
                 "path": "ofl/notosansgrantha",
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7753"
-            },
-            {
-                "path": "ofl/notosanshebrew",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7588"
             },
             {
                 "path": "ofl/notoserifgrantha",
@@ -64249,28 +64431,16 @@
                 "url": "https://github.com/google/fonts/pull/7589"
             },
             {
-                "path": "ofl/pinyonscript",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7602"
-            },
-            {
-                "path": "catalog/designers/agyeiarcher",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7601"
-            },
-            {
-                "path": "catalog/designers/andreasrasmussen",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7379"
-            },
-            {
                 "path": "catalog/designers/gustavoibarra",
                 "category": "Designer profile",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7547"
+            },
+            {
+                "path": "catalog/designers/stefanschmidt",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7793"
             },
             {
                 "path": "lang/languages/awc_Latn.textproto",

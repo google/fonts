@@ -18,7 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/balinese"
-  archive_url: "https://github.com/notofonts/balinese/releases/download/NotoSerifBalinese-v2.004/NotoSerifBalinese-v2.004.zip"
+  commit: "e6c2d4c19072cb6da80d74ad9f683b749f5b6f00"
+  archive_url: "https://github.com/notofonts/balinese/releases/download/NotoSerifBalinese-v2.006/NotoSerifBalinese-v2.006.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -78,6 +78,28 @@ lang/languages/uma_Latn.textproto # https://github.com/google/fonts/pull/7680
 lang/languages/wal_Ethi.textproto # https://github.com/google/fonts/pull/7680
 lang/languages/wal_Latn.textproto # https://github.com/google/fonts/pull/7680
 lang/languages/xsm_Latn_BF.textproto # https://github.com/google/fonts/pull/7680
+lang/Lib/gflanguages/data/languages/cjy_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/cjy_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/gan_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/gan_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/hak_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/hak_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/hak_Latn.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/hsn_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/hsn_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/lzh_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/lzh_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/nan_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/nan_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/nan_Latn.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/wuu_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/wuu_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/yue_Hani.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/yue_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/yue_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/za_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/Lib/gflanguages/data/languages/za_Hant.textproto # https://github.com/google/fonts/pull/7877
+
 
 # Other
 ofl/bethellen # https://github.com/google/fonts/pull/7627

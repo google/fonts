@@ -18,7 +18,8 @@ subsets: "menu"
 subsets: "old-sogdian"
 source {
   repository_url: "https://github.com/notofonts/old-sogdian"
-  archive_url: "https://github.com/notofonts/old-sogdian/releases/download/NotoSansOldSogdian-v2.002/NotoSansOldSogdian-v2.002.zip"
+  commit: "63f94079fe9323c00a4bb1c4e4d5477008c76130"
+  archive_url: "https://github.com/notofonts/old-sogdian/releases/download/NotoSansOldSogdian-v2.003/NotoSansOldSogdian-v2.003.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

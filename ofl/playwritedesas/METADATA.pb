@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Deutschland Schulausgangschrift"
 minisite_url: "https://primarium.info/countries/germany"
+primary_language: "de_Latn"

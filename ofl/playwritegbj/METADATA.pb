@@ -66,3 +66,4 @@ source {
 }
 display_name: "Playwrite England Joined"
 minisite_url: "https://primarium.info/countries/england"
+primary_language: "en_Latn"

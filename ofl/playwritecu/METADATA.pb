@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Cuba"
 minisite_url: "https://primarium.info/countries/cuba"
+primary_language: "es_Latn"

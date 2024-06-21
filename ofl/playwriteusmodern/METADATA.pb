@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite USA Modern"
 minisite_url: "https://primarium.info/countries/united-states-of-america"
+primary_language: "en_Latn"

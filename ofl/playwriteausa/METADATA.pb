@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Australia SA"
 minisite_url: "https://primarium.info/countries/australia"
+primary_language: "en_Latn"

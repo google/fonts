@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite België Vlaams Gewest"
 minisite_url: "https://primarium.info/countries/belgium"
+primary_language: "nl_Latn"

@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Argentina"
 minisite_url: "https://primarium.info/countries/argentina"
+primary_language: "es_Latn"

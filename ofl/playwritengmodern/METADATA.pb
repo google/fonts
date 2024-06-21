@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Nigeria Modern"
 minisite_url: "https://primarium.info/countries/nigeria"
+primary_language: "en_Latn"

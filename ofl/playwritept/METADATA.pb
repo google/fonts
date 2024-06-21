@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Portugal"
 minisite_url: "https://primarium.info/countries/portugal"
+primary_language: "pt_Latn"

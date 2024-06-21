@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Polska"
 minisite_url: "https://primarium.info/countries/poland"
+primary_language: "pl_Latn"

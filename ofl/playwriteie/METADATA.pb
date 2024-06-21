@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Ireland"
 minisite_url: "https://primarium.info/countries/ireland"
+primary_language: "en_Latn"

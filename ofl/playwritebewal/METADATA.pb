@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite België Walloon"
 minisite_url: "https://primarium.info/countries/belgium"
+primary_language: "fr_Latn"

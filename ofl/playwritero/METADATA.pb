@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite România"
 minisite_url: "https://primarium.info/countries/romania"
+primary_language: "ro_Latn"

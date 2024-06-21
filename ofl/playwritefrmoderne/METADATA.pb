@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite France Moderne"
 minisite_url: "https://primarium.info/countries/france"
+primary_language: "fr_Latn"

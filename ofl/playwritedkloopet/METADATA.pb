@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Danmark Loopet"
 minisite_url: "https://primarium.info/countries/denmark"
+primary_language: "da_Latn"

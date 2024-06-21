@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Norge"
 minisite_url: "https://primarium.info/countries/norway"
+primary_language: "nb_Latn"

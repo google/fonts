@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Brasil"
 minisite_url: "https://primarium.info/countries/brazil"
+primary_language: "pt_Latn"

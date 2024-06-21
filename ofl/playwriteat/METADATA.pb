@@ -66,3 +66,4 @@ source {
 }
 display_name: "Playwrite Österreich"
 minisite_url: "https://primarium.info/countries/austria"
+primary_language: "de_Latn"

@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Deutschland Vereinfachte Ausgangsschrift"
 minisite_url: "https://primarium.info/countries/germany"
+primary_language: "de_Latn"

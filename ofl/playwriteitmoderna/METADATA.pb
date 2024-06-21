@@ -49,3 +49,4 @@ source {
 }
 display_name: "Playwrite Italia Moderna"
 minisite_url: "https://primarium.info/countries/italy"
+primary_language: "it_Latn"

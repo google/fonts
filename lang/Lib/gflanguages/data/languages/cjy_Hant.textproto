@@ -1,8 +1,13 @@
 id: "cjy_Hant"
 language: "cjy"
 script: "Hant"
+<<<<<<< HEAD
 name: "Chinese, Jinyu"
 autonym: "Jinyu Chinese（Traditional）"
+=======
+name: "Jin Chinese"
+autonym: "晉語"
+>>>>>>> f6a234f61ded3f2c386870192ad701f47105c23b
 region: "CN"
 sample_text {
   masthead_full: "人生而自"

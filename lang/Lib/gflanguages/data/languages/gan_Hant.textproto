@@ -2,8 +2,13 @@ id: "gan_Hant"
 language: "gan"
 script: "Hant"
 name: "Gan Chinese"
+<<<<<<< HEAD
 preferred_name: "Gan"
 autonym: "Gan Chinese（Traditional）"
+=======
+preferred_name: "Gan Chinese"
+autonym: "贛語"
+>>>>>>> f6a234f61ded3f2c386870192ad701f47105c23b
 population: 23698340
 region: "CN"
 sample_text {

@@ -1,20 +1,17 @@
-name: "gungsuh"
+name: "Gungsuh"
 designer: "HanYang I&C Co."
 license: "OFL"
-category: "SLAB_SERIF"
+category: "SERIF"
 date_added: "2024-05-15"
 fonts {
-  name: "gungsuh"
+  name: "Gungsuh"
   style: "normal"
   weight: 400
-  filename: "gungsuh-Regular.ttf"
-  post_script_name: "Gungsuh"
-  full_name: "Gungsuh"
+  filename: "Gungsuh-Regular.ttf"
+  post_script_name: "Gungsuh-Regular"
+  full_name: "Gungsuh Regular"
   copyright: "Copyright 2024 The Batang and Gungsuh Project Authors (https://github.com/googlefonts/batang)"
 }
-subsets: "chinese-hongkong"
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"
@@ -31,9 +28,9 @@ source {
   }
   files {
     source_file: "fonts/ttf/hinted/gungsuh-Regular.ttf"
-    dest_file: "gungsuh-Regular.ttf"
+    dest_file: "Gungsuh-Regular.ttf"
   }
   branch: "main"
 }
 primary_script: "Kore"
-stroke: "SLAB_SERIF"
+stroke: "SERIF"

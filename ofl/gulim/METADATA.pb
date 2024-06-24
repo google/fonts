@@ -1,20 +1,17 @@
-name: "gulim"
+name: "Gulim"
 designer: "HanYang I&C Co."
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-05-15"
 fonts {
-  name: "gulim"
+  name: "Gulim"
   style: "normal"
   weight: 400
-  filename: "gulim-Regular.ttf"
-  post_script_name: "Gulim"
-  full_name: "Gulim"
+  filename: "Gulim-Regular.ttf"
+  post_script_name: "Gulim-Regular"
+  full_name: "Gulim Regular"
   copyright: "Copyright 2024 The Gulim and Dotum Project Authors (https://github.com/googlefonts/gulim)"
 }
-subsets: "chinese-hongkong"
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"
@@ -31,7 +28,7 @@ source {
   }
   files {
     source_file: "fonts/ttf/hinted/gulim-Regular.ttf"
-    dest_file: "gulim-Regular.ttf"
+    dest_file: "Gulim-Regular.ttf"
   }
   branch: "main"
 }

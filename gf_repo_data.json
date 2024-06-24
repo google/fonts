@@ -1,6 +1,182 @@
 {
-    "last_run": "2024-06-17",
+    "last_run": "2024-06-24",
     "commits": [
+        {
+            "date": "2024-06-21T10:18:46",
+            "title": "Merge pull request #7534 from google/gftools_packager_ofl_miriamlibre",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "d5ea3092960d3d5db0b7a9890c828bafbf159c51"
+        },
+        {
+            "date": "2024-06-21T09:29:04",
+            "title": "Merge pull request #7846 from google/gftools_packager_ofl_notosansolditalic",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "b381ff602f57a795d234f8d7d183df27a64efe65"
+        },
+        {
+            "date": "2024-06-21T09:26:21",
+            "title": "Merge pull request #7845 from google/gftools_packager_ofl_notosansnagmundari",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "cbf02e38819a90e79a2e97812ae26c4aeec30e32"
+        },
+        {
+            "date": "2024-06-21T09:23:32",
+            "title": "Merge pull request #7853 from google/PW-metadata-primary-language",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c97f5a5a9e0d6681f10be8c99f2ab269dc59fce1"
+        },
+        {
+            "date": "2024-06-21T09:22:13",
+            "title": "Merge pull request #7847 from google/gftools_packager_ofl_notosansoldsogdian",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "2d44aa247b72bdf625760928503341a26b8cc9dc"
+        },
+        {
+            "date": "2024-06-21T09:20:50",
+            "title": "Merge pull request #7874 from google/PW-subsets-delete-2",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6a60507a92c5c407b7dace052a85c5692ae0881d"
+        },
+        {
+            "date": "2024-06-21T09:20:06",
+            "title": "Merge pull request #7848 from google/gftools_packager_ofl_notosansoldturkic",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "de21e0c6790f96f3d97b972eab72bc36f3cb49ff"
+        },
+        {
+            "date": "2024-06-21T09:16:17",
+            "title": "Merge pull request #7869 from google/gftools_packager_ofl_maname",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "4adc8b9b676c0091edd2e090b9ccc132cadd53f8"
+        },
+        {
+            "date": "2024-06-21T09:04:20",
+            "title": "Merge pull request #7866 from google/gftools_packager_ofl_lifesavers",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "1cdbb7b7bd437198acf85f2cc4ae2c56f1ab2521"
+        },
+        {
+            "date": "2024-06-20T16:52:12",
+            "title": "PW subsets removal part 2",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "30a57f74fcea64e1a0f305b181f320bcb54ebc2a"
+        },
+        {
+            "date": "2024-06-20T14:45:31",
+            "title": "Merge pull request #7852 from google/playwrite-html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "551a67b6c316d506ac507431c4cef8152647812a"
+        },
+        {
+            "date": "2024-06-19T18:03:26",
+            "title": "Merge pull request #7768 from google/gftools_packager_ofl_alumnisanssc",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "family",
+            "id": "29ef5562b054d2535ff681c3c21b6e5e16eff8db"
+        },
+        {
+            "date": "2024-06-19T17:52:28",
+            "title": "Merge pull request #7685 from google/gftools_packager_ofl_notosanscham",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "0e27c7f329d27cf985f013b24c26bdca92087b12"
+        },
+        {
+            "date": "2024-06-19T17:52:10",
+            "title": "Merge pull request #7684 from google/gftools_packager_ofl_notoserifbalinese",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "b7fccea6caefd433767770d9cd7fda613733c595"
+        },
+        {
+            "date": "2024-06-18T21:22:48",
+            "title": "Family name subtitle added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "60d8987dd6358935cbbdd24c9d39c3b2d126aa56"
+        },
+        {
+            "date": "2024-06-18T19:32:36",
+            "title": "WS instructions added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "b45b39db0a91a45dc12833944eb867f22ba9f37a"
+        },
+        {
+            "date": "2024-06-17T15:08:15",
+            "title": "Delete ofl/maname/DESCRIPTION.en_us.html",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "334eef559ba8394fa93018a3dffdcb728f19a49a"
+        },
+        {
+            "date": "2024-06-17T15:07:48",
+            "title": "Update ARTICLE.en_us.html",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f7d20a6604a0effb240a685074c2cd4eaeffc774"
+        },
+        {
+            "date": "2024-06-17T14:59:39",
+            "title": "Added description file",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "metadata",
+            "id": "8147f52b39e2d62f8e2d54ebe0414a4b53ff89bd"
+        },
+        {
+            "date": "2024-06-17T14:57:36",
+            "title": "Maname: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "9ef6fb6fb837ddc86157fb3c521860c34a03597c"
+        },
+        {
+            "date": "2024-06-14T12:09:01",
+            "title": "Update DESCRIPTION.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "e50988d96c43622eabeefb128c674518333f5403"
+        },
+        {
+            "date": "2024-06-14T12:01:24",
+            "title": "Life Savers: Version 3.100; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "a3992f870398414db5111519debe3ee0f7cccafd"
+        },
         {
             "date": "2024-06-14T10:44:57",
             "title": "Merge pull request #7855 from google/gftools_packager_ofl_notosanskaithi",
@@ -210,6 +386,206 @@
             "id": "50addfd74e38c98b7477f6cc17711af0e5d404c2"
         },
         {
+            "date": "2024-06-13T01:08:28",
+            "title": "PW Vietnamese primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "72e7237482c9a892f8392bc8b711464738f07e2c"
+        },
+        {
+            "date": "2024-06-13T01:06:50",
+            "title": "PW Slovak primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d2b3a0e2b2ab0bcf5ad2538904329c667694978d"
+        },
+        {
+            "date": "2024-06-13T01:05:04",
+            "title": "PW Romanian primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9f1f8f4283bcc0d671303d8127b5cb9b6a9c5722"
+        },
+        {
+            "date": "2024-06-13T01:03:17",
+            "title": "PW Portuguese primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d2ef5f3c556f0cf00e50f3b2f15b6b78741dd9ad"
+        },
+        {
+            "date": "2024-06-13T01:01:13",
+            "title": "PW Polish primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2082bf97f9ac0a8162f1f01239a6b810a6c85305"
+        },
+        {
+            "date": "2024-06-13T00:59:27",
+            "title": "PW Norwegian primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "575198de50f3fccd9324503696829b9059d0c945"
+        },
+        {
+            "date": "2024-06-13T00:55:24",
+            "title": "PW Italian primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d13576a616468dbd1f8a92505507e8d6c542347a"
+        },
+        {
+            "date": "2024-06-13T00:53:38",
+            "title": "PW Indonesian primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8655518bdb7cc66a7bd649d4e476b77267e038a2"
+        },
+        {
+            "date": "2024-06-13T00:50:39",
+            "title": "PW Icelandic primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "62480d43beb9fda742d06c25db31110773b7eaac"
+        },
+        {
+            "date": "2024-06-13T00:47:20",
+            "title": "PW Hungarian primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9c161c31400e0b00a43a6214610ab391885d5003"
+        },
+        {
+            "date": "2024-06-13T00:24:07",
+            "title": "PW Dutch primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c950c964a27ea8f8a3288742b932a70bb7bf058e"
+        },
+        {
+            "date": "2024-06-13T00:16:41",
+            "title": "PW Danish primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "99158c74ff2508b16de0c0efa47b683c47c1a930"
+        },
+        {
+            "date": "2024-06-13T00:11:21",
+            "title": "PW Czech primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0ef1f64564b7ce31e67a2f5ac28affb4e4143a8c"
+        },
+        {
+            "date": "2024-06-13T00:09:24",
+            "title": "PW Croatian primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d6a86ca5e4af4fa1e40a569e9e00296970497b1b"
+        },
+        {
+            "date": "2024-06-13T00:03:52",
+            "title": "PW Deutsch primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "96fb2362d206eca6b366984dcb6fb444854e93cc"
+        },
+        {
+            "date": "2024-06-12T23:58:14",
+            "title": "PW French primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "466218db853d581015d8fffdcce02a4f95617a07"
+        },
+        {
+            "date": "2024-06-12T23:53:38",
+            "title": "PW English primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dd947f229e907be9686cb190a23a50752ee7d806"
+        },
+        {
+            "date": "2024-06-12T23:40:08",
+            "title": "PW Spanish primary language added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "aa627b6c16cc5afbee47088cc2c7a8ade4b4ad71"
+        },
+        {
+            "date": "2024-06-12T22:52:21",
+            "title": "NZ Teaching Handwriting em>",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a4a907cc9d18210806dfa9a75170d800560732eb"
+        },
+        {
+            "date": "2024-06-12T22:50:12",
+            "title": "NG to Nelson Hanwriting",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0fa1b2b449ca1a52486bb2f230bcbfbb01f6d0de"
+        },
+        {
+            "date": "2024-06-12T22:46:03",
+            "title": "DE models url fixes",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4eeae814ab87a3eb866a2354b03a6d17176e90d5"
+        },
+        {
+            "date": "2024-06-12T22:26:48",
+            "title": "prettier + added formatting improvements",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "61dae71e7fea3c0e28a4f6e1bbebc936a2b4414a"
+        },
+        {
+            "date": "2024-06-12T20:43:42",
+            "title": "Libre Office macOS clarification added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "11b93f5c2fb2fbd5e760d0f36225dad59f6d3253"
+        },
+        {
+            "date": "2024-06-12T20:37:02",
+            "title": "<i> replaced by <em>",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e44853a58abb5e457336457501eae1ab66b426bb"
+        },
+        {
+            "date": "2024-06-12T15:18:18",
+            "title": "playwrite: fix html formatting",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "d418154a027e6871268562af036928614a2241b9"
+        },
+        {
             "date": "2024-06-12T13:56:56",
             "title": "Merge pull request #7850 from google/laura-garciua-mut-designer-info",
             "author": "Marc Foley",
@@ -237,9 +613,41 @@
             "date": "2024-06-12T10:43:12",
             "title": "Designer info for Laura Garcia Mut (Fustat)",
             "author": "Yanone",
-            "status": "new",
-            "kind": "designer",
+            "status": "modified",
+            "kind": "family",
             "id": "ae0acde5fb54af560485545d6d015906c89782e0"
+        },
+        {
+            "date": "2024-06-11T10:05:55",
+            "title": "Noto Sans Old Turkic: Version 2.004; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "fe3c068863ab1a2d8af1787d85fe95940d861e29"
+        },
+        {
+            "date": "2024-06-11T07:55:13",
+            "title": "Noto Sans Old Sogdian: Version 2.003; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "580c1662494c1e048e7f3efcea99cb110b921fe3"
+        },
+        {
+            "date": "2024-06-11T07:49:13",
+            "title": "Noto Sans Old Italic: Version 2.004; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "be7df2c1dc52965bc0f4938c31436c9d9130fa39"
+        },
+        {
+            "date": "2024-06-11T07:11:12",
+            "title": "Noto Sans Nag Mundari: Version 1.001 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "e4714af70cfd9f5c98fe66070b3de7809ebf9bc2"
         },
         {
             "date": "2024-06-10T12:27:05",
@@ -728,6 +1136,30 @@
             "status": "modified",
             "kind": "family",
             "id": "5c6ed23fc1c59bf6d316d7668c6134f48346abbf"
+        },
+        {
+            "date": "2024-06-03T07:44:59",
+            "title": "DESCRIPTION: adding the SC line",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "db5ea1e67550fa62038b883ba7e21a0f3a615d67"
+        },
+        {
+            "date": "2024-06-03T07:44:59",
+            "title": "Copy description from alumnisans",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "8f85166d37130c5d22b122615bc9667e7f2d3a53"
+        },
+        {
+            "date": "2024-06-03T07:44:59",
+            "title": "Alumni Sans SC: Version 1.016 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "521d1cdf32538a13a8f11cf4aae038ae31a5c548"
         },
         {
             "date": "2024-06-01T17:48:38",
@@ -2418,6 +2850,22 @@
             "id": "b030e4535133b142cb68793685871baa82560eaa"
         },
         {
+            "date": "2024-05-16T11:08:24",
+            "title": "Noto Sans Cham: Version 2.005 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "377e5c58bc674450be9c1908408475344ee71d71"
+        },
+        {
+            "date": "2024-05-16T10:57:01",
+            "title": "Noto Serif Balinese: Version 2.006; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "3c1882a40b9689d595b26cf9cba5103475c40acd"
+        },
+        {
             "date": "2024-05-16T10:45:31",
             "title": "Noto Sans Balinese: Version 2.006 added",
             "author": "simoncozens",
@@ -3890,6 +4338,14 @@
             "id": "4e06d8adc20422c19211abfbca6a60acdb30aa6c"
         },
         {
+            "date": "2024-04-18T12:32:19",
+            "title": "2.000 as released, with bold kerning",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "44c69a37d4b2d9cc62ee475d72efab975d2777de"
+        },
+        {
             "date": "2024-04-18T12:09:42",
             "title": "Add teachers article",
             "author": "Emma Marichal",
@@ -4342,8 +4798,32 @@
             "title": "Use our repo for Orbitron upstream",
             "author": "Simon Cozens",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "7139e5442efb10c433ab488dfc2a85df96f553a7"
+        },
+        {
+            "date": "2024-04-10T12:37:47",
+            "title": "Remove old statics",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "521350211df46cf70e20d1cef00085452e054c38"
+        },
+        {
+            "date": "2024-04-10T12:37:11",
+            "title": "Update description",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "f6051165be88596e34913452040a4fbc92221d19"
+        },
+        {
+            "date": "2024-04-10T12:34:54",
+            "title": "Miriam Libre: Version 2.000 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "dc7107d4ff3483df98f319751e1f9d639c33fbba"
         },
         {
             "date": "2024-04-10T10:11:31",

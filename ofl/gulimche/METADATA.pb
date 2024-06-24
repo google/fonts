@@ -1,20 +1,17 @@
-name: "gulimche"
+name: "GulimChe"
 designer: "HanYang I&C Co."
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-05-15"
 fonts {
-  name: "gulimche"
+  name: "GulimChe"
   style: "normal"
   weight: 400
-  filename: "gulimche-Regular.ttf"
-  post_script_name: "GulimChe"
-  full_name: "GulimChe"
+  filename: "GulimChe-Regular.ttf"
+  post_script_name: "GulimChe-Regular"
+  full_name: "GulimChe Regular"
   copyright: "Copyright 2024 The Gulim and Dotum Project Authors (https://github.com/googlefonts/gulim)"
 }
-subsets: "chinese-hongkong"
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"
@@ -31,7 +28,7 @@ source {
   }
   files {
     source_file: "fonts/ttf/hinted/gulimche-Regular.ttf"
-    dest_file: "gulimche-Regular.ttf"
+    dest_file: "GulimChe-Regular.ttf"
   }
   branch: "main"
 }

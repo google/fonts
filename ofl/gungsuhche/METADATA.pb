@@ -1,20 +1,17 @@
-name: "gungsuhche"
+name: "GungsuhChe"
 designer: "HanYang I&C Co."
 license: "OFL"
-category: "SLAB_SERIF"
+category: "SERIF"
 date_added: "2024-05-15"
 fonts {
-  name: "gungsuhche"
+  name: "GungsuhChe"
   style: "normal"
   weight: 400
-  filename: "gungsuhche-Regular.ttf"
-  post_script_name: "GungsuhChe"
-  full_name: "GungsuhChe"
+  filename: "GungsuhChe-Regular.ttf"
+  post_script_name: "GungsuhChe-Regular"
+  full_name: "GungsuhChe Regular"
   copyright: "Copyright 2024 The Batang and Gungsuh Project Authors (https://github.com/googlefonts/batang)"
 }
-subsets: "chinese-hongkong"
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"
@@ -31,9 +28,9 @@ source {
   }
   files {
     source_file: "fonts/ttf/hinted/gungsuhche-Regular.ttf"
-    dest_file: "gungsuhche-Regular.ttf"
+    dest_file: "GungsuhChe-Regular.ttf"
   }
   branch: "main"
 }
 primary_script: "Kore"
-stroke: "SLAB_SERIF"
+stroke: "SERIF"

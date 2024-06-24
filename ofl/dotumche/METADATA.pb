@@ -1,20 +1,17 @@
-name: "dotumche"
+name: "DotumChe"
 designer: "HanYang I&C Co."
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-05-15"
 fonts {
-  name: "dotumche"
+  name: "DotumChe"
   style: "normal"
   weight: 400
-  filename: "dotumche-Regular.ttf"
-  post_script_name: "DotumChe"
-  full_name: "DotumChe"
+  filename: "DotumChe-Regular.ttf"
+  post_script_name: "DotumChe-Regular"
+  full_name: "DotumChe Regular"
   copyright: "Copyright 2024 The Gulim and Dotum Project Authors (https://github.com/googlefonts/gulim)"
 }
-subsets: "chinese-hongkong"
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"
@@ -31,7 +28,7 @@ source {
   }
   files {
     source_file: "fonts/ttf/hinted/dotumche-Regular.ttf"
-    dest_file: "dotumche-Regular.ttf"
+    dest_file: "DotumChe-Regular.ttf"
   }
   branch: "main"
 }

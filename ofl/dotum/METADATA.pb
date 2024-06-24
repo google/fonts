@@ -1,20 +1,17 @@
-name: "dotum"
+name: "Dotum"
 designer: "HanYang I&C Co."
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-05-15"
 fonts {
-  name: "dotum"
+  name: "Dotum"
   style: "normal"
   weight: 400
-  filename: "dotum-Regular.ttf"
-  post_script_name: "Dotum"
-  full_name: "Dotum"
+  filename: "Dotum-Regular.ttf"
+  post_script_name: "Dotum-Regular"
+  full_name: "Dotum Regular"
   copyright: "Copyright 2024 The Gulim and Dotum Project Authors (https://github.com/googlefonts/gulim)"
 }
-subsets: "chinese-hongkong"
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"
@@ -31,7 +28,7 @@ source {
   }
   files {
     source_file: "fonts/ttf/hinted/dotum-Regular.ttf"
-    dest_file: "dotum-Regular.ttf"
+    dest_file: "Dotum-Regular.ttf"
   }
   branch: "main"
 }

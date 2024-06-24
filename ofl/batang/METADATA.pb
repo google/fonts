@@ -1,20 +1,17 @@
-name: "batang"
+name: "Batang"
 designer: "HanYang I&C Co."
 license: "OFL"
 category: "SERIF"
 date_added: "2024-05-15"
 fonts {
-  name: "batang"
+  name: "Batang"
   style: "normal"
   weight: 400
-  filename: "batang-Regular.ttf"
-  post_script_name: "Batang"
+  filename: "Batang-Regular.ttf"
+  post_script_name: "Batang-Regular"
   full_name: "Batang Regular"
   copyright: "Copyright 2024 The Batang and Gungsuh Project Authors (https://github.com/googlefonts/batang)"
 }
-subsets: "chinese-hongkong"
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"
@@ -31,7 +28,7 @@ source {
   }
   files {
     source_file: "fonts/ttf/hinted/batang-Regular.ttf"
-    dest_file: "batang-Regular.ttf"
+    dest_file: "Batang-Regular.ttf"
   }
   branch: "main"
 }

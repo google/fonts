@@ -1,20 +1,17 @@
-name: "batangche"
+name: "BatangChe"
 designer: "HanYang I&C Co."
 license: "OFL"
 category: "SERIF"
 date_added: "2024-05-15"
 fonts {
-  name: "batangche"
+  name: "BatangChe"
   style: "normal"
   weight: 400
-  filename: "batangche-Regular.ttf"
-  post_script_name: "BatangChe"
-  full_name: "BatangChe"
+  filename: "BatangChe-Regular.ttf"
+  post_script_name: "BatangChe-Regular"
+  full_name: "BatangChe Regular"
   copyright: "Copyright 2024 The Batang and Gungsuh Project Authors (https://github.com/googlefonts/batang)"
 }
-subsets: "chinese-hongkong"
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "greek"
 subsets: "japanese"
@@ -31,7 +28,7 @@ source {
   }
   files {
     source_file: "fonts/ttf/hinted/batangche-Regular.ttf"
-    dest_file: "batangche-Regular.ttf"
+    dest_file: "BatangChe-Regular.ttf"
   }
   branch: "main"
 }

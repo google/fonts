@@ -1,0 +1,28 @@
+sources:
+    - ../Big-Shoulders-Inline/sources/BigShouldersInline.glyphs
+recipe:
+  ../Big-Shoulders-Inline/fonts/variable/display/BigShouldersInlineDisplay[wght].ttf:
+    - source: ../Big-Shoulders-Inline/sources/BigShouldersInline.glyphs
+    - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildVariable
+    - operation: subspace
+      axes: opsz=72
+    - operation: rename
+      name: Big Shoulders Inline Display
+      args: --just-family
+    - operation: fix
+    - postprocess: buildStat
+  # And now the small caps family
+  ../Big-Shoulders-Inline/fonts/variable/display/BigShouldersInlineDisplaySC[wght].ttf:
+    - source: ../Big-Shoulders-Inline/sources/BigShouldersInline.glyphs
+    - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildVariable
+    - operation: subspace
+      axes: opsz=72
+    - args: '''smcp -> ccmp'''
+      operation: remapLayout
+    - operation: rename
+      name: Big Shoulders Inline Display SC
+      args: --just-family
+    - operation: fix
+    - postprocess: buildStat

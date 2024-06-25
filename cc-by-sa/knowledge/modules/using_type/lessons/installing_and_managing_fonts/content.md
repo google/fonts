@@ -43,7 +43,7 @@ The file extension variable fonts use is usually .ttf and, rarely, .otf, but sad
 
 Using variable fonts on the web is relatively straightforward, especially with a service such as Google Fonts: Simply [load the variable fonts](/lesson/loading_variable_fonts_on_the_web) you’d like to use, then [style the type with CSS](/lesson/styling_type_on_the_web_with_variable_fonts). But how do you use variable fonts in a desktop app?
 
-One important thing to note is that not all desktop apps populate their font menu in the same way. Sketch, for instance, uses fonts installed locally on your system, whereas Figma combines local fonts with a selection of fonts served from the Google Fonts library—which now includes hundreds of variable fonts. Adobe’s various Creative Cloud apps also combine local fonts with a selection of fonts bundled with the apps (including a few variable fonts). The Adobe Fonts library does not yet provide any variable fonts.
+One important thing to note is that not all desktop apps populate their font menu in the same way. Sketch, for instance, uses fonts installed locally on your system, whereas Figma combines local fonts with a selection of fonts served from the Google Fonts library—which now includes hundreds of variable fonts. Adobe’s various Creative Cloud apps also combine local fonts with a selection of fonts bundled with the apps (including a few variable fonts).
 
 Some font manager apps allow the Google Fonts library to be synced to your computer, which means they should show up in all font menus. At the time of writing, Typeface is the only app to sync the entire Google Fonts library, *including* variable fonts. Other apps sync the library, but without variable fonts included.
 

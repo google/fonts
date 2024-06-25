@@ -2,12 +2,8 @@ id: "wuu_Hant"
 language: "wuu"
 script: "Hant"
 name: "Wu Chinese"
-<<<<<<< HEAD
-autonym: "Wu Chinese（Traditional）"
-=======
 preferred_name: "Shanghainese"
 autonym: "吳語"
->>>>>>> f6a234f61ded3f2c386870192ad701f47105c23b
 population: 83641200
 region: "CN"
 sample_text {

@@ -18,7 +18,8 @@ subsets: "marchen"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/marchen"
-  archive_url: "https://github.com/notofonts/marchen/releases/download/NotoSansMarchen-v2.003/NotoSansMarchen-v2.003.zip"
+  commit: "0efb2639aef028a6e8be45790b60b71e5450b177"
+  archive_url: "https://github.com/notofonts/marchen/releases/download/NotoSansMarchen-v2.004/NotoSansMarchen-v2.004.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

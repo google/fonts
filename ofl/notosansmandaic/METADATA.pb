@@ -18,7 +18,8 @@ subsets: "mandaic"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/mandaic"
-  archive_url: "https://github.com/notofonts/mandaic/releases/download/NotoSansMandaic-v2.002/NotoSansMandaic-v2.002.zip"
+  commit: "ef8c8ef95fd08c51ffc93aa7f930cd0086d761b9"
+  archive_url: "https://github.com/notofonts/mandaic/releases/download/NotoSansMandaic-v2.003/NotoSansMandaic-v2.003.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -62,7 +62,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zain"
-  commit: "5a8d7fcea6f844382ed03c58d159f2ca29007a7c"
+  commit: "4c9896b8037ce409e24312eed1bd6a335e47c98a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

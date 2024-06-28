@@ -14,7 +14,6 @@ fonts {
 }
 subsets: "cyrillic"
 subsets: "greek"
-subsets: "japanese"
 subsets: "korean"
 subsets: "latin"
 subsets: "latin-ext"

@@ -24,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/beiruti"
-  commit: "f6d75f1afbc5a0315a426a62dd7e6bf123ca218c"
+  commit: "1d848d465d697dc6c61782818a382b80bc78c40c"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

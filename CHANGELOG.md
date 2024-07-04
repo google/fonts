@@ -1,5 +1,42 @@
 Below are the most important changes from each release.
 
+### 0.4.10 (2024-Jul-03)
+
+- Add Element Expansion [ELXP] axis by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/166
+- Add Size of Paint 1 [SZP1] axis by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/167
+- Add Size of Paint 2 [SZP2] axis by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/168
+- Add Horizontal Element Alignment [XELA] axis by @simoncozens in https://github.com/googlefonts/axisregistry/pull/158
+- Add Horizontal Position Paint 1 [XPN1] axis by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/169
+- Add Horizontal Position Paint 2 [XPN2] axis by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/170
+- Add Vertical Position of Paint 1 [YPN1] axis by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/171
+- Add Vertical Position of Paint 2 [YPN2] axis by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/172
+- YELA desc updated to match reviewed XELA by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/174
+
+
+### 0.4.9 (2024-Feb-26)
+
+- Allow less aggressive renames [#165](https://github.com/googlefonts/axisregistry/pull/165)
+
+### 0.4.8 (2024-Feb-05)
+
+- repull and push
+
+### 0.4.7 (2024-Feb-05)
+
+- publish-release: update to trusted publishers workflow [#164](https://github.com/googlefonts/axisregistry/pull/164)
+
+### 0.4.6 (2024-Feb-05)
+
+- _fvar_dflts: move priority of opsz axis [#162](https://github.com/googlefonts/axisregistry/pull/162)
+
+### 0.4.5 (2023-Nov-17)
+
+- Create shadow.textproto by @yanone in https://github.com/googlefonts/axisregistry/pull/150
+- Adding [SCAN] Scanlines custom Axis by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/145
+- Adding [BLED] Bleed custom Axis by @vv-monsalve in https://github.com/googlefonts/axisregistry/pull/144
+- Don't fail if there are no axis values by @simoncozens in https://github.com/googlefonts/axisregistry/pull/155
+- @yanone made their first contribution in https://github.com/googlefonts/axisregistry/pull/150
+
 ### 0.4.4 (2023-Oct-25)
 
 - Adding [ZROT] Rotation in Z custom axis by @vv-monsalve in #137
@@ -33,7 +70,7 @@ Below are the most important changes from each release.
   - Add Spacing [SPAC] axis #62
   - Add Informality [INFM] axis #90
   - Add Bounce [BNCE] axis #63
-  - tests/data/RobotoFlex*ttf Correct Optical Size title case 2d86d4c
+  - tests/data/RobotoFlex-ttf Correct Optical Size title case 2d86d4c
   - Add Mutation [MUTA] axis #100
   - Update width.textproto #105
   - Update wonky.textproto #107
@@ -98,12 +135,12 @@ Below are the most important changes from each release.
 ### 0.1.1 (2022-Mar-14)
   - Fix typos on cursive and monospace axes descriptions.
   - Remove space characteres from fallback name entries of all axes. (issue #7)
-  - Update `min_value` and `default_value` on **y_transparent_uppercase**.
+  - Update `min_value` and `default_value` on --y_transparent_uppercase--.
 
 
 ### 0.1.0 (2022-Mar-04)
 #### Release notes
   - Initial release of the `axisregistry` python module.
   - Most of the code & data was migrated from the [`fontbakery`](https://github.com/googlefonts/fontbakery/) and [`google/fonts`](https://github.com/google/fonts/) git repositories so that the GF Axis Registry data can be easily available to all our tools. The most immediate user of this module is `Font Bakery` itself, as well as `GFTools`.
-  - Axis Registry definitions are still being gradualy updated on the `google/fonts` repo, on its **axisregistry/*- directory (https://github.com/google/fonts/tree/main/axisregistry) and this `axisregistry` python module will try to be kept in sync.
+  - Axis Registry definitions are still being gradualy updated on the `google/fonts` repo, on its --axisregistry/-- directory (https://github.com/google/fonts/tree/main/axisregistry) and this `axisregistry` python module will try to be kept in sync.
   - There's an ongoing plan to make this module the main place to update these definitions, avoiding data duplication and guaranteeing uniformity across tools.

@@ -1,0 +1,14 @@
+#Element Expansion, based on https://github.com/petrvanblokland/TYPETR-Bitcount
+tag: "ELXP"
+display_name: "Element Expansion"
+min_value: 0
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description: 
+  "As the Element Expansion axis progresses, the elements move apart."

@@ -1,0 +1,16 @@
+#XELA based on [SixtyFour](https://github.com/jenskutilek/homecomputer-fonts/Sixtyfour)
+tag: "XELA"
+display_name: "Horizontal Element Alignment"
+min_value: -100.0
+default_value: -1
+max_value: 100.0
+precision: 0
+fallback {
+  name: "Default"
+  value: 0
+}
+fallback_only: false
+description:
+  "Align glyph elements from their default position (0%),"
+  " usually the baseline, to a rightmost (100%)"
+  " or leftmost (-100%) position."

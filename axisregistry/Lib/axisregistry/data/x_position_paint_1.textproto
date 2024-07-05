@@ -1,0 +1,16 @@
+#Horizontal Position of Paint 1, based on https://github.com/petrvanblokland/TYPETR-Bitcount
+tag: "XPN1"
+display_name: "Horizontal Position of Paint 1"
+min_value: -100
+default_value: 0
+max_value: 100
+precision: 0
+fallback {
+  name: "Default"
+  value: 0.0
+}
+fallback_only: false
+description: 
+  "The position of the paint moves left and right. Negative values"
+  " move to the left and positive values move to the right, in the X dimension."
+  " Paint 1 is behind Paint 2."

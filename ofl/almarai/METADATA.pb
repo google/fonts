@@ -1,5 +1,5 @@
 name: "Almarai"
-designer: "Boutros Fonts"
+designer: "Boutros Fonts, Mourad Boutros, Arlette Boutros"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-06-04"

@@ -25,3 +25,6 @@ https://fonts.google.com/noto/specimen/Noto+Sans+Phags+Pa
 
 # Apache license will be replaced by ofl
 apache/roboto # https://github.com/google/fonts/pull/6943
+
+# Sample text needed to unblock Noto Sans Syloti Nagri 
+lang/languages/sa_Sylo.textproto # https://github.com/google/fonts/pull/7248

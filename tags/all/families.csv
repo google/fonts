@@ -6798,8 +6798,8 @@ Six Caps,/Expressive/Stiff,94
 Six Caps,/Expressive/Vintage,59
 Six Caps,/Sans/Grotesque,100
 Six Caps,/Theme/Woodtype,50
-Sixtyfour,/Expressive/Stiff,50
 Sixtyfour,/Expressive/Vintage,80
+Sixtyfour,/Monospace/Monospace,100
 Sixtyfour,/Theme/Techno,100
 Skranji,/Expressive/Awkward,69
 Skranji,/Expressive/Calm,85
@@ -8290,9 +8290,9 @@ Baskervville SC,/Serif/Transitional,100
 Batang,/Expressive/Business,75
 Batang,/Expressive/Sincere,75
 Batang,/Serif/Transitional,100
-Batangche,/Expressive/Business,75
-Batangche,/Expressive/Sincere,100
-Batangche,/Serif/Transitional,100
+BatangChe,/Expressive/Business,75
+BatangChe,/Expressive/Sincere,100
+BatangChe,/Serif/Transitional,100
 Beiruti,/Arabic/Kufi,80
 Beiruti,/Arabic/Naskh,40
 Beiruti,/Expressive/Calm,60
@@ -8395,8 +8395,8 @@ Danfo,/Theme/Wacky,75
 Danfo,/Theme/Woodtype,90
 Dotum,/Expressive/Calm,75
 Dotum,/Sans/Geometric,100
-Dotumche,/Expressive/Calm,100
-Dotumche,/Sans/Geometric,100
+DotumChe,/Expressive/Calm,100
+DotumChe,/Sans/Geometric,100
 Edu AU NSW ACT Arrows Guide,/Expressive/Active,60
 Edu AU NSW ACT Arrows Guide,/Expressive/Childlike,90
 Edu AU NSW ACT Arrows Guide,/Script/Handwritten,100
@@ -8660,14 +8660,14 @@ Ga Maamli,/Theme/Wacky,10
 Gulim,/Expressive/Calm,75
 Gulim,/Sans/Geometric,50
 Gulim,/Sans/Rounded,100
-Gulimche,/Expressive/Calm,75
-Gulimche,/Sans/Geometric,75
-Gulimche,/Sans/Rounded,100
+GulimChe,/Expressive/Calm,75
+GulimChe,/Sans/Geometric,75
+GulimChe,/Sans/Rounded,100
 Gungsuh,/Script/Formal,100
 Gungsuh,/Slab/Geometric,100
 Gungsuh,/Theme/Brush,100
-Gungsuhche,/Script/Formal,100
-Gungsuhche,/Slab/Geometric,100
+GungsuhChe,/Script/Formal,100
+GungsuhChe,/Slab/Geometric,100
 Jaini,/Expressive/Excited,20
 Jaini,/Expressive/Innovative,20
 Jaini,/Expressive/Loud,20
@@ -8859,6 +8859,30 @@ Micro 5 Charted,/Expressive/Stiff,70
 Micro 5 Charted,/Sans/Geometric,70
 Micro 5 Charted,/Theme/Pixel,100
 Micro 5 Charted,/Theme/Techno,50
+Moderustic,/Expressive/Active,80
+Moderustic,/Expressive/Awkward,88
+Moderustic,/Expressive/Business,5
+Moderustic,/Expressive/Calm,35
+Moderustic,/Expressive/Competent,85
+Moderustic,/Expressive/Cute,23
+Moderustic,/Expressive/Excited,37
+Moderustic,/Expressive/Futuristic,56
+Moderustic,/Expressive/Happy,5
+Moderustic,/Expressive/Innovative,56
+Moderustic,/Expressive/Loud,90
+Moderustic,/Expressive/Playful,55
+Moderustic,/Expressive/Rugged,80
+Moderustic,/Expressive/Sincere,5
+Moderustic,/Expressive/Stiff,50
+Moderustic,/Expressive/Vintage,20
+Moderustic,/Sans/Geometric,60
+Moderustic,/Sans/Grotesque,70
+Moderustic,/Sans/Humanist,50
+Moderustic,/Sans/Neo Grotesque,100
+Mona Sans,/Expressive/Business,80
+Mona Sans,/Expressive/Calm,80
+Mona Sans,/Expressive/Competent,80
+Mona Sans,/Sans/Geometric,100
 Noto Serif Hentaigana,/Expressive/Sincere,20
 Noto Serif Hentaigana,/Expressive/Sophisticated,10
 Noto Serif Hentaigana,/Script/Formal,20
@@ -9275,6 +9299,12 @@ Sedan,/Expressive/Sincere,80
 Sedan,/Serif/Old Style Garalde,90
 Sedan SC,/Expressive/Sincere,80
 Sedan SC,/Serif/Old Style Garalde,90
+Sixtyfour Convergence,/Expressive/Innovative,60
+Sixtyfour Convergence,/Expressive/Vintage,60
+Sixtyfour Convergence,/Monospace/Monospace,100
+Sixtyfour Convergence,/Sans/Geometric,60
+Sixtyfour Convergence,/Sans/Rounded,100
+Sixtyfour Convergence,/Theme/Techno,90
 Teachers,/Expressive/Artistic,5
 Teachers,/Expressive/Business,30
 Teachers,/Expressive/Calm,95

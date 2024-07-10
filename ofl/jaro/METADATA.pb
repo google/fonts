@@ -1,5 +1,5 @@
 name: "Jaro"
-designer: "Agyei Archer, Celine Hurka, Mirko Velimirović"
+designer: "Agyei Archer, Céline Hurka, Mirko Velimirović"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-03-15"

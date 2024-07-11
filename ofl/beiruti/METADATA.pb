@@ -1,5 +1,5 @@
 name: "Beiruti"
-designer: "Boutros Fonts"
+designer: "Boutros Fonts, Arlette Boutros, Volker Schnebel"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-06-07"

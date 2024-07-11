@@ -8,6 +8,9 @@ ofl/notosansmarchen # https://github.com/google/fonts/pull/7829
 ofl/notoserifbalinese # https://github.com/google/fonts/pull/7929
 ofl/philosopher # https://github.com/google/fonts/pull/7887
 
+# Designer profile
+catalog/designers/gustavoibarra # https://github.com/google/fonts/pull/7547
+
 # Knowledge
 cc-by-sa/knowledge/modules/using_variable_fonts_on_the_web/lessons/optimizing_typographic_space_with_variable_fonts/content.md # https://github.com/google/fonts/pull/7803
 
@@ -63,9 +66,6 @@ ofl/notoserifhk # https://github.com/google/fonts/pull/7792
 ofl/notoserifsc # https://github.com/google/fonts/pull/7792
 ofl/notoseriftc # https://github.com/google/fonts/pull/7792
 ofl/wittgenstein # https://github.com/google/fonts/pull/7920
-
-# Deleted
-# Deleted: lang/languages/mlt_Latn.textproto # https://github.com/google/fonts/pull/7680
-
-# Tags
-tags/all/families.csv
+ofl/almarai # https://github.com/google/fonts/pull/7930
+ofl/beiruti # https://github.com/google/fonts/pull/7930
+ofl/tajawal # https://github.com/google/fonts/pull/7930

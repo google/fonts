@@ -10,7 +10,7 @@ fonts {
   filename: "EduAUVICWANTCursive[wght].ttf"
   post_script_name: "EduAUVICWANTCursive-Regular"
   full_name: "Edu AU VIC WA NT Cursive Regular"
-  copyright: "Copyright 2023 The VIC WA NT School Hand Australia Project Authors (https://github.com/SorkinType/VICWANTSchoolHandAustralia)"
+  copyright: "Copyright 2023 The VIC WA NT School Hand Australia Project Authors (https://github.com/SorkinType/VICWANTSchoolhandAustralia)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -21,9 +21,9 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/SorkinType/VICWANTSchoolHandAustralia"
+  repository_url: "https://github.com/SorkinType/VICWANTSchoolhandAustralia"
   commit: "abab94d19985f24132e45db4c4822b042eb63302"
-  archive_url: "https://github.com/SorkinType/VICWANTSchoolHandAustralia/releases/download/v1.000/VICWANTSchoolHandAustralia-v1.000.zip"
+  archive_url: "https://github.com/SorkinType/VICWANTSchoolhandAustralia/releases/download/v1.000/VICWANTSchoolhandAustralia-v1.000.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -1,15 +1,15 @@
-name: "Edu VIC WA NT Cursive"
+name: "Edu AU VIC WA NT Cursive"
 designer: "Tina Anderson, Corey Anderson"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-03-19"
 fonts {
-  name: "Edu VIC WA NT Cursive"
+  name: "Edu AU VIC WA NT Cursive"
   style: "normal"
   weight: 400
-  filename: "EduVICWANTCursive[wght].ttf"
-  post_script_name: "EduVICWANTCursive-Regular"
-  full_name: "Edu VIC WA NT Cursive Regular"
+  filename: "EduAUVICWANTCursive[wght].ttf"
+  post_script_name: "EduAUVICWANTCursive-Regular"
+  full_name: "Edu AU VIC WA NT Cursive Regular"
   copyright: "Copyright 2023 The VIC WA NT School Hand Australia Project Authors (https://github.com/SorkinType/VICWANTSchoolHandAustralia)"
 }
 subsets: "latin"
@@ -29,8 +29,8 @@ source {
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/variable/EduVICWANTCursive[wght].ttf"
-    dest_file: "EduVICWANTCursive[wght].ttf"
+    source_file: "fonts/variable/EduAUVICWANTCursive[wght].ttf"
+    dest_file: "EduAUVICWANTCursive[wght].ttf"
   }
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -38,4 +38,6 @@ source {
   }
   branch: "main"
 }
-display_name: "Edu VIC WA NT Hand Cursive"
+display_name: "Edu Australia VIC WA NT Cursive"
+stroke: "SANS_SERIF"
+classifications: "HANDWRITING"

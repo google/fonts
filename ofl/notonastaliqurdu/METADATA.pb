@@ -23,7 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/nastaliq"
-  archive_url: "https://github.com/notofonts/nastaliq/releases/download/NotoNastaliqUrdu-v3.009/NotoNastaliqUrdu-v3.009.zip"
+  commit: "9887ddfebe84a0e73d8d9be968d9685f5aa9ed55"
+  archive_url: "https://github.com/notofonts/nastaliq/releases/download/NotoNastaliqUrdu-v4.000/NotoNastaliqUrdu-v4.000.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"
@@ -37,7 +38,7 @@ source {
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "NotoNastaliqUrdu/googlefonts/variable/NotoNastaliqUrdu[wght].ttf"
+    source_file: "NotoNastaliqUrdu/googlefonts/variable-ttf/NotoNastaliqUrdu[wght].ttf"
     dest_file: "NotoNastaliqUrdu[wght].ttf"
   }
   branch: "main"

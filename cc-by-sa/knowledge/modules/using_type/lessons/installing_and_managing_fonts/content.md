@@ -53,11 +53,11 @@ Also, support for variable fonts can differ between apps, falling into one of th
 
 ![Two type specimens, with the top set in the small optical size and the bottom set in the large optical size. Next to each are variable axes and a “set optical size manually” checkbox. It is unchecked in the top example, which is why the text appears to be set at the wrong optical size.](images/installing_managing_2.svg)
 
-2. Variable fonts are supported with direct control over axes (usually shown as sliders and number inputs). Many design apps now allow for this, including Figma, Sketch, and Adobe’s Photoshop, InDesign, and Illustrator apps. [v-fonts.com/support](http://v-fonts.com/support) actively maintains a list of supporting software.
+2. Variable fonts are supported with direct control over axes (usually shown as sliders and number inputs). Many design apps now allow for this, including Figma, Sketch, Affinity, and Adobe’s Photoshop, InDesign, and Illustrator apps. [v-fonts.com/support](http://v-fonts.com/support) actively maintains a list of supporting software.
 
 ![A representation of common user interface controls for fonts—a family name followed by a style name—with a sub-menu showing additional sliders for controlling variable axes.](images/installing_managing_3.svg)
 
-3. Variable fonts are presented as a set of static fonts. In this case, we can’t set any axis value, but we can access the named [instances](/glossary/instance). Current examples include Apple’s Keynote, Numbers, and Pages apps, and Microsoft’s Word and Powerpoint. In Affinity’s suite of apps, variable fonts’ metrics remain at their default values, which means they’re currently unusable.
+3. Variable fonts are presented as a set of static fonts. In this case, we can’t set any axis value, but we can access the named [instances](/glossary/instance). Current examples include Apple’s Keynote, Numbers, and Pages apps, and Microsoft’s Word and Powerpoint.
 
 4. Variable fonts are occasionally not supported at all, in which case only the default style can be used.
 

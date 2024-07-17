@@ -12,7 +12,6 @@ fonts {
   full_name: "Anuphan Regular"
   copyright: "Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)"
 }
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -25,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/cadsondemak/Anuphan"
-  commit: "1d795ec6bd23806049aa4bf8cfe01c2f609402a9"
+  commit: "a8ee8448324cc13fb69d585c4f6da4994f7652b0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

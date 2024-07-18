@@ -83,10 +83,13 @@ SKIP_REGION = {
     "tlh_Latn": "Klingon is an artifical language.",
 }
 
+LANGUAGE_NAME_REGEX = "^[A-Za-z-]+(, [A-Za-z-]+)?( [(][A-Za-z-]+[)])?$"
+
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
 @pytest.mark.parametrize(
-    "exemplar_name", ["base", "auxiliary", "marks", "numerals", "punctuation", "index"]
+    "exemplar_name", ["base", "auxiliary", "marks",
+                      "numerals", "punctuation", "index"]
 )
 def test_languages_exemplars_canonical_duplicates(lang_code, exemplar_name):
     lang = LANGUAGES[lang_code]
@@ -105,13 +108,15 @@ def test_languages_exemplars_canonical_duplicates(lang_code, exemplar_name):
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
 @pytest.mark.parametrize(
-    "exemplar_name", ["base", "auxiliary", "marks", "numerals", "punctuation", "index"]
+    "exemplar_name", ["base", "auxiliary", "marks",
+                      "numerals", "punctuation", "index"]
 )
 def test_languages_exemplars_duplicates(lang_code, exemplar_name):
     lang = LANGUAGES[lang_code]
     exemplar = getattr(lang.exemplar_chars, exemplar_name).split()
     counter = Counter(exemplar)
-    counts = sorted(counter.most_common(), key=lambda pair: exemplar.index(pair[0]))
+    counts = sorted(counter.most_common(),
+                    key=lambda pair: exemplar.index(pair[0]))
     assert counts == [(v, 1) for v in exemplar]
 
 
@@ -211,7 +216,8 @@ def test_sample_texts_are_in_script(lang_code):
         "idu_Latn",
         "ban_Bali",
     ]:
-        pytest.xfail("These languages have known issues with their sample text")
+        pytest.xfail(
+            "These languages have known issues with their sample text")
         return
     lang = LANGUAGES[lang_code]
     script_name = SCRIPTS[lang.script].name
@@ -230,7 +236,8 @@ def test_sample_texts_are_in_script(lang_code):
         chars = set(samples)
         for char in chars:
             char_script = (
-                youseedee.ucd_data(ord(char)).get("Script", "").replace("_", " ")
+                youseedee.ucd_data(ord(char)).get(
+                    "Script", "").replace("_", " ")
             )
             if char_script == "Common" or char_script == "Inherited":
                 continue
@@ -275,5 +282,18 @@ def test_language_uniqueness():
         else:
             names[lang.name] += 1
     if any(count > 1 for count in names.values()):
-        duplicates = {name: count for name, count in names.items() if count > 1}
+        duplicates = {name: count for name,
+                      count in names.items() if count > 1}
         pytest.fail(f"Duplicate language names: {duplicates}")
+
+
+def test_language_name_structure():
+    for lang in LANGUAGES.values():
+        language_name = lang.preferred_name if lang.preferred_name else lang.name
+        script_name = SCRIPTS[lang.script].name
+        if not re.match(LANGUAGE_NAME_REGEX, language_name):
+            pytest.fail(
+                f"Language name does not have expected structure (\"LANGUAGE, MODIFIER (SCRIPT)\"): {language_name}")
+        if language_name.endswith(")") and not language_name.endsWith(f"({script_name})"):
+            pytest.fail(
+                f"Language name parenthetical should contain script name ({script_name}): {language_name}")

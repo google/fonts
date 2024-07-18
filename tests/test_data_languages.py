@@ -289,11 +289,13 @@ def test_language_uniqueness():
 
 def test_language_name_structure():
     for lang in LANGUAGES.values():
-        language_name = lang.preferred_name if lang.preferred_name else lang.name
         script_name = SCRIPTS[lang.script].name
-        if not re.match(LANGUAGE_NAME_REGEX, language_name):
-            pytest.fail(
-                f"Language name does not have expected structure (\"LANGUAGE, MODIFIER (SCRIPT)\"): {language_name}")
-        if language_name.endswith(")") and not language_name.endsWith(f"({script_name})"):
-            pytest.fail(
-                f"Language name parenthetical should contain script name ({script_name}): {language_name}")
+        for type, name in [["name", lang.name], ["preferred_name", lang.preferred_name]]:
+            if name is None:
+                continue
+            if not re.match(LANGUAGE_NAME_REGEX, name):
+                pytest.fail(
+                    f"Language {type} does not have expected structure (\"LANGUAGE, MODIFIER (SCRIPT)\"): {name}")
+            if name.endswith(")") and not name.endsWith(f"({script_name})"):
+                pytest.fail(
+                    f"Language {type} parenthetical should contain script name ({script_name}): {name}")

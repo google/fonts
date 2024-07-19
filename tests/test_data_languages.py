@@ -288,14 +288,23 @@ def test_language_uniqueness():
 
 
 def test_language_name_structure():
+    languages_with_bad_name_structure = {}
     for lang in LANGUAGES.values():
         script_name = SCRIPTS[lang.script].name
-        for type, name in [["name", lang.name], ["preferred_name", lang.preferred_name]]:
-            if name is None:
-                continue
-            if not re.match(LANGUAGE_NAME_REGEX, name):
-                pytest.fail(
-                    f"Language {type} does not have expected structure (\"LANGUAGE, MODIFIER (SCRIPT)\"): {name}")
-            if name.endswith(")") and not name.endsWith(f"({script_name})"):
-                pytest.fail(
-                    f"Language {type} parenthetical should contain script name ({script_name}): {name}")
+        names = [["name", lang.name]]
+        if lang.preferred_name:
+            names += [["preferred_name", lang.preferred_name]]
+        bad_names = []
+        for type, name in names:
+            bad_structure = not re.match(LANGUAGE_NAME_REGEX, name)
+            bad_script_suffix = name.endswith(
+                ")") and not name.endsWith(f"({script_name})")
+            if bad_structure or bad_script_suffix:
+                bad_names.append(type)
+        if len(bad_names) > 0:
+            languages_with_bad_name_structure[lang.id] = bad_names
+    if len(languages_with_bad_name_structure) > 0:
+        misstructured_language_names = [f"{language_id}" if len(
+            types) == 1 else f"{language_id}: {types}" for language_id, types in languages_with_bad_name_structure.items() if len(types) > 0]
+        pytest.fail(
+            f"Languages names without expected structure (\"LANGUAGE, MODIFIER (SCRIPT)\"): {misstructured_language_names}")

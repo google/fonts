@@ -298,7 +298,7 @@ def test_language_name_structure():
         for type, name in names:
             bad_structure = not re.match(LANGUAGE_NAME_REGEX, name)
             bad_script_suffix = name.endswith(
-                ")") and not name.endsWith(f"({script_name})")
+                ")") and not name.endswith(f"({script_name})")
             if bad_structure or bad_script_suffix:
                 bad_names.append(type)
         if len(bad_names) > 0:

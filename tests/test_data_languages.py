@@ -83,7 +83,7 @@ SKIP_REGION = {
     "tlh_Latn": "Klingon is an artifical language.",
 }
 
-LANGUAGE_NAME_REGEX = "^[A-Za-z-]+(, [A-Za-z-]+)?( [(][A-Za-z-]+[)])?$"
+LANGUAGE_NAME_REGEX = "^[A-Za-z'- ]+[ʼ]?(, [A-Za-z- ]+)?( [(][A-Za-z- ]+[)])?$"
 
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)

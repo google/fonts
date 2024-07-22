@@ -1,6 +1,198 @@
 {
-    "last_run": "2024-07-15",
+    "last_run": "2024-07-22",
     "commits": [
+        {
+            "date": "2024-07-19T15:39:27",
+            "title": "Merge pull request #7952 from google/gftools_packager_ofl_bungeetint",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "be513c976cb05d66f196b8213a75620fdce1d062"
+        },
+        {
+            "date": "2024-07-19T15:31:11",
+            "title": "Update ARTICLE.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "de9d25beddc6552e2325220aa6711fe81aa215f8"
+        },
+        {
+            "date": "2024-07-18T19:21:30",
+            "title": "gif reduced down to 1020 to avoif the fail",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e1afbfdf5d87c7d08b603424d43f1199c64fa359"
+        },
+        {
+            "date": "2024-07-18T19:02:56",
+            "title": "Images resized",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ff3b139ac53ff64900b9c22bc9682a136a040f40"
+        },
+        {
+            "date": "2024-07-18T18:47:59",
+            "title": "Bungee Tint article added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2a8293b0d5f55593340f00cfb59a2580b6b83602"
+        },
+        {
+            "date": "2024-07-18T17:22:10",
+            "title": "OFL license added",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "3c96c145819e4542704afe82835576426c2e7740"
+        },
+        {
+            "date": "2024-07-18T17:17:36",
+            "title": "Bungee Tint: Version 2.001 added",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "family",
+            "id": "fff14184d4a726b34f96f5044755acca819c4f44"
+        },
+        {
+            "date": "2024-07-18T15:06:03",
+            "title": "Merge pull request #7936 from google/gftools_packager_ofl_moderustic",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "30cf6a3f8ee3b536854bf72ceaf106278c52de86"
+        },
+        {
+            "date": "2024-07-18T14:08:29",
+            "title": "Update DESCRIPTION.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "aced3c99c83b7be7921d4433f27d9bf4b34fba88"
+        },
+        {
+            "date": "2024-07-18T14:06:58",
+            "title": "Moderustic: Version 2.120 added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "af49d1bcc3dd85fcdbb14cd1b36c73a82bbcc7eb"
+        },
+        {
+            "date": "2024-07-17T21:30:27",
+            "title": "Merge pull request #7951 from google/to_prod-update-July17",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "b1ea5007663b77de0addf01761558476e1d67b3a"
+        },
+        {
+            "date": "2024-07-17T21:17:36",
+            "title": "Delist list updated",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "31a0e8ad095737b36562ee2fef05004b51365965"
+        },
+        {
+            "date": "2024-07-17T21:17:15",
+            "title": "Zain added to prod list",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "80e8934eddcd659b9f98f90033c455ae10bf4956"
+        },
+        {
+            "date": "2024-07-17T08:59:36",
+            "title": "Merge pull request #7875 from google/gftools_packager_ofl_matemasie",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "6f142e955a075111d0a709b40c53d34e2982d774"
+        },
+        {
+            "date": "2024-07-17T08:51:11",
+            "title": "Update ARTICLE.en_us.html",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "301c182adcf75d72281a0cd19ab27ff74e90e1b6"
+        },
+        {
+            "date": "2024-07-17T08:42:30",
+            "title": "Merge pull request #7927 from google/davelab6-gfk-affinity-vf",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "021028abc039f35871eeab4b42144df76458d403"
+        },
+        {
+            "date": "2024-07-17T08:19:53",
+            "title": "Merge pull request #7942 from google/gftools_packager_ofl_anuphan",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "f1c8962a4ad5e46843a9363545e2c4225c80a00b"
+        },
+        {
+            "date": "2024-07-16T07:59:18",
+            "title": "Merge pull request #7946 from google/nyshadhr9-patch-4",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "109daedef795c0bc27355164260907149e965185"
+        },
+        {
+            "date": "2024-07-16T01:09:50",
+            "title": "Update to_production.txt (#7947)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f39fab01ffc78dd78ddf912953cdec62ad948406"
+        },
+        {
+            "date": "2024-07-15T18:42:02",
+            "title": "Update families.csv",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "47133ef96cfab201a2cb7e2bee086ab872a26f15"
+        },
+        {
+            "date": "2024-07-15T14:35:53",
+            "title": "Revert \"Update de_Latn.textproto (#7926)\" (#7945)",
+            "author": "Nathan Williams",
+            "status": "modified",
+            "kind": "family",
+            "id": "5f9bd91a324980495a2d423eb9054d865fe2c0ba"
+        },
+        {
+            "date": "2024-07-12T09:24:32",
+            "title": "removed cyrillic-ext substet",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6eb9a4ce7859717c92e94bf0e89849af554fc010"
+        },
+        {
+            "date": "2024-07-12T09:20:04",
+            "title": "Update DESCRIPTION.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "ddc4ecc048de22a8d994eb4164ee7647ba5cffe5"
+        },
+        {
+            "date": "2024-07-12T09:13:17",
+            "title": "Anuphan: Version 3.002 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "703389a30fa69424bf4d8421b64eee2231507a5e"
+        },
         {
             "date": "2024-07-11T20:57:55",
             "title": "Merge pull request #7940 from google/Axis-Reg-subtree-pull-XELA",
@@ -78,8 +270,16 @@
             "title": "Merge pull request #7934 from emmamarichal/jaro-metadatas",
             "author": "Viviana Monsalve",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "de14e5cf58c8e8bcd3ff3d4efee4710852deff69"
+        },
+        {
+            "date": "2024-07-10T10:28:57",
+            "title": "Matemasie: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Nathan Willis",
+            "status": "modified",
+            "kind": "family",
+            "id": "f4e074ab693075edba98492d65f9bd127964b611"
         },
         {
             "date": "2024-07-10T09:50:17",
@@ -160,6 +360,14 @@
             "status": "modified",
             "kind": "family",
             "id": "152812dd8a2d9fb226ef40935c632ae9fc26f2ed"
+        },
+        {
+            "date": "2024-07-09T00:33:57",
+            "title": "Update installing_and_managing_fonts/content.md for affinity 2.5",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9e50b0417d4f04c1cee29ae43b9d87b38185ad65"
         },
         {
             "date": "2024-07-09T00:13:28",
@@ -66427,76 +66635,10 @@
         ],
         "production": [
             {
-                "path": "ofl/eduauvicwanthand",
+                "path": "ofl/zain",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7628"
-            },
-            {
-                "path": "ofl/kalniaglaze",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7864"
-            },
-            {
-                "path": "ofl/lifesavers",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7866"
-            },
-            {
-                "path": "ofl/notoseriftoto",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7858"
-            },
-            {
-                "path": "ofl/rammettoone",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7854"
-            },
-            {
-                "path": "catalog/designers/afoteyclementniiodai",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7861"
-            },
-            {
-                "path": "catalog/designers/amaasantewadiaka",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7862"
-            },
-            {
-                "path": "catalog/designers/davidannerteyabbeythompson",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7863"
-            },
-            {
-                "path": "catalog/designers/lauragarciamut",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7850"
-            },
-            {
-                "path": "ofl/elsieswashcaps",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7522"
-            },
-            {
-                "path": "ofl/jaro",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7603"
-            },
-            {
-                "path": "ofl/bethellen",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7627"
+                "url": "https://github.com/google/fonts/pull/7890"
             }
         ]
     }

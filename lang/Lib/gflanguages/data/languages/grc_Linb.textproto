@@ -1,8 +1,7 @@
 id: "grc_Linb"
 language: "grc"
 script: "Linb"
-name: "Ancient Greek, Linear B"
-preferred_name: "Ancient Greek"
+name: "Ancient Greek (Linear B)"
 population: 0
 sample_text {
   masthead_full: "𐀐𐀮𐀝𐀹"

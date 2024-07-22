@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 from collections import defaultdict, Counter
-import re
+import regex
 import unicodedata
 
 from gflanguages import (
@@ -83,10 +83,21 @@ SKIP_REGION = {
     "tlh_Latn": "Klingon is an artifical language.",
 }
 
+LANGUAGE_NAME_REGEX = regex.compile(r"^[-'’ʼ\p{L} ]+(, [-'’ʼ\p{L}/ ]+)?( [(][-'’ʼ\p{L} ]+[)])?$")
+# Some scripts have abbreviated names for reference in language names that are
+# sufficient in context. If an alternate is listed here, it should be used
+# universally and consistently across all language names.
+ALTERNATE_SCRIPT_NAMES = {
+    "Dupl": "Duployan",
+    "Hans": "Simplified",
+    "Hant": "Traditional",
+}
+
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
 @pytest.mark.parametrize(
-    "exemplar_name", ["base", "auxiliary", "marks", "numerals", "punctuation", "index"]
+    "exemplar_name", ["base", "auxiliary", "marks",
+                      "numerals", "punctuation", "index"]
 )
 def test_languages_exemplars_canonical_duplicates(lang_code, exemplar_name):
     lang = LANGUAGES[lang_code]
@@ -105,13 +116,15 @@ def test_languages_exemplars_canonical_duplicates(lang_code, exemplar_name):
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
 @pytest.mark.parametrize(
-    "exemplar_name", ["base", "auxiliary", "marks", "numerals", "punctuation", "index"]
+    "exemplar_name", ["base", "auxiliary", "marks",
+                      "numerals", "punctuation", "index"]
 )
 def test_languages_exemplars_duplicates(lang_code, exemplar_name):
     lang = LANGUAGES[lang_code]
     exemplar = getattr(lang.exemplar_chars, exemplar_name).split()
     counter = Counter(exemplar)
-    counts = sorted(counter.most_common(), key=lambda pair: exemplar.index(pair[0]))
+    counts = sorted(counter.most_common(),
+                    key=lambda pair: exemplar.index(pair[0]))
     assert counts == [(v, 1) for v in exemplar]
 
 
@@ -184,7 +197,7 @@ def test_exemplars_are_in_script(lang_code):
         if field.name == "auxiliary" or field.name == "index":
             continue
         exemplars = getattr(lang.exemplar_chars, field.name)
-        group_of_chars = re.findall(r"(\{[^}]+\}|\S+)", exemplars)
+        group_of_chars = regex.findall(r"(\{[^}]+\}|\S+)", exemplars)
         for chars in group_of_chars:
             for char in chars:
                 char_script = youseedee.ucd_data(ord(char)).get("Script")
@@ -211,7 +224,8 @@ def test_sample_texts_are_in_script(lang_code):
         "idu_Latn",
         "ban_Bali",
     ]:
-        pytest.xfail("These languages have known issues with their sample text")
+        pytest.xfail(
+            "These languages have known issues with their sample text")
         return
     lang = LANGUAGES[lang_code]
     script_name = SCRIPTS[lang.script].name
@@ -230,7 +244,8 @@ def test_sample_texts_are_in_script(lang_code):
         chars = set(samples)
         for char in chars:
             char_script = (
-                youseedee.ucd_data(ord(char)).get("Script", "").replace("_", " ")
+                youseedee.ucd_data(ord(char)).get(
+                    "Script", "").replace("_", " ")
             )
             if char_script == "Common" or char_script == "Inherited":
                 continue
@@ -270,13 +285,34 @@ def test_exemplar_parser():
 def test_language_uniqueness():
     names = Counter([])
     for lang in LANGUAGES.values():
-        # We check that names are unique *within a script* since
-        # when we display them in a menu we segment that menu by
-        # script and then by language
         if lang.preferred_name:
-            names[lang.script + "/" + lang.preferred_name] += 1
+            names[lang.preferred_name] += 1
         else:
-            names[lang.name + "/" + lang.preferred_name] += 1
+            names[lang.name] += 1
     if any(count > 1 for count in names.values()):
-        duplicates = {name: count for name, count in names.items() if count > 1}
+        duplicates = {name: count for name,
+                      count in names.items() if count > 1}
         pytest.fail(f"Duplicate language names: {duplicates}")
+
+
+def test_language_name_structure():
+    languages_with_bad_name_structure = {}
+    for lang in LANGUAGES.values():
+        script_name = SCRIPTS[lang.script].name if lang.script not in ALTERNATE_SCRIPT_NAMES else ALTERNATE_SCRIPT_NAMES[lang.script]
+        names = [["name", lang.name]]
+        if lang.preferred_name:
+            names += [["preferred_name", lang.preferred_name]]
+        bad_names = []
+        for type, name in names:
+            bad_structure = not regex.match(LANGUAGE_NAME_REGEX, name)
+            bad_script_suffix = name.endswith(
+                ")") and not name.endswith(f"({script_name})")
+            if bad_structure or bad_script_suffix:
+                bad_names.append(type)
+        if len(bad_names) > 0:
+            languages_with_bad_name_structure[lang.id] = bad_names
+    if len(languages_with_bad_name_structure) > 0:
+        misstructured_language_names = [f"{language_id}" if len(
+            types) == 1 else f"{language_id}: {types}" for language_id, types in languages_with_bad_name_structure.items() if len(types) > 0]
+        pytest.fail(
+            f"Languages names without expected structure (\"LANGUAGE, MODIFIER (SCRIPT)\"): {misstructured_language_names}")

@@ -17,7 +17,7 @@ dynamic = ["version"]
 name = "gflanguages"
 description = "A python API for evaluating language support in the Google Fonts collection."
 readme = "README.md"
-authors = [ 
+authors = [
    { name = "Simon Cozens", email = "simon@simon-cozens.org" }
 ]
 
@@ -29,5 +29,6 @@ dependencies = [
 dev = [
    "uharfbuzz",
    "youseedee",
-   "pytest"
+   "pytest",
+   "regex"
 ]

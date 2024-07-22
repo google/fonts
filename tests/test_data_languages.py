@@ -83,8 +83,7 @@ SKIP_REGION = {
     "tlh_Latn": "Klingon is an artifical language.",
 }
 
-# "ʼ" allowed as last character in language name for Metaʼ
-LANGUAGE_NAME_REGEX = "^[-’A-Za-zÀ-ÿ ]+(ʼ)?(, [-’A-Za-zÀ-ÿ/ ]+)?( [(][-’A-Za-zÀ-ÿ ]+[)])?$"
+LANGUAGE_NAME_REGEX = "^[-'’ʼ\p{L} ]+(, [-'’ʼ\p{L}/ ]+)?( [(][-'’ʼ\p{L} ]+[)])?$"
 # Some scripts have abbreviated names for reference in language names that are
 # sufficient in context. If an alternate is listed here, it should be used
 # universally and consistently across all language names.

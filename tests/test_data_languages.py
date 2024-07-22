@@ -84,7 +84,7 @@ SKIP_REGION = {
 }
 
 # "ʼ" allowed as last character in language name for Metaʼ
-LANGUAGE_NAME_REGEX = "^[-A-Za-z ]+(ʼ)?(, [-A-Za-z ]+)?( [(][-A-Za-z ]+[)])?$"
+LANGUAGE_NAME_REGEX = "^[-A-Za-zÀ-ÿ ]+(ʼ)?(, [-A-Za-zÀ-ÿ ]+)?( [(][-A-Za-zÀ-ÿ ]+[)])?$"
 
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)

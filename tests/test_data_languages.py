@@ -84,7 +84,15 @@ SKIP_REGION = {
 }
 
 # "ʼ" allowed as last character in language name for Metaʼ
-LANGUAGE_NAME_REGEX = "^[-A-Za-zÀ-ÿ ]+(ʼ)?(, [-A-Za-zÀ-ÿ ]+)?( [(][-A-Za-zÀ-ÿ ]+[)])?$"
+LANGUAGE_NAME_REGEX = "^[-’A-Za-zÀ-ÿ ]+(ʼ)?(, [-’A-Za-zÀ-ÿ/ ]+)?( [(][-’A-Za-zÀ-ÿ ]+[)])?$"
+# Some scripts have abbreviated names for reference in language names that are
+# sufficient in context. If an alternate is listed here, it should be used
+# universally and consistently across all language names.
+ALTERNATE_SCRIPT_NAMES = {
+    "Dupl": "Duployan",
+    "Hans": "Simplified",
+    "Hant": "Traditional",
+}
 
 
 @pytest.mark.parametrize("lang_code", LANGUAGES)
@@ -291,7 +299,7 @@ def test_language_uniqueness():
 def test_language_name_structure():
     languages_with_bad_name_structure = {}
     for lang in LANGUAGES.values():
-        script_name = SCRIPTS[lang.script].name
+        script_name = SCRIPTS[lang.script].name if lang.script not in ALTERNATE_SCRIPT_NAMES else ALTERNATE_SCRIPT_NAMES[lang.script]
         names = [["name", lang.name]]
         if lang.preferred_name:
             names += [["preferred_name", lang.preferred_name]]

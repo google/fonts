@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 from collections import defaultdict, Counter
-import re
+import regex
 import unicodedata
 
 from gflanguages import (
@@ -83,7 +83,7 @@ SKIP_REGION = {
     "tlh_Latn": "Klingon is an artifical language.",
 }
 
-LANGUAGE_NAME_REGEX = r"^[-'’ʼ\p{L} ]+(, [-'’ʼ\p{L}/ ]+)?( [(][-'’ʼ\p{L} ]+[)])?$"
+LANGUAGE_NAME_REGEX = regex.compile(r"^[-'’ʼ\p{L} ]+(, [-'’ʼ\p{L}/ ]+)?( [(][-'’ʼ\p{L} ]+[)])?$")
 # Some scripts have abbreviated names for reference in language names that are
 # sufficient in context. If an alternate is listed here, it should be used
 # universally and consistently across all language names.
@@ -197,7 +197,7 @@ def test_exemplars_are_in_script(lang_code):
         if field.name == "auxiliary" or field.name == "index":
             continue
         exemplars = getattr(lang.exemplar_chars, field.name)
-        group_of_chars = re.findall(r"(\{[^}]+\}|\S+)", exemplars)
+        group_of_chars = regex.findall(r"(\{[^}]+\}|\S+)", exemplars)
         for chars in group_of_chars:
             for char in chars:
                 char_script = youseedee.ucd_data(ord(char)).get("Script")
@@ -304,7 +304,7 @@ def test_language_name_structure():
             names += [["preferred_name", lang.preferred_name]]
         bad_names = []
         for type, name in names:
-            bad_structure = not re.match(LANGUAGE_NAME_REGEX, name)
+            bad_structure = not regex.match(LANGUAGE_NAME_REGEX, name)
             bad_script_suffix = name.endswith(
                 ")") and not name.endswith(f"({script_name})")
             if bad_structure or bad_script_suffix:

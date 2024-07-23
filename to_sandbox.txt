@@ -1,15 +1,23 @@
 # New
-ofl/sankofadisplay # https://github.com/google/fonts/pull/7614
+ofl/bungeetint # https://github.com/google/fonts/pull/7952
+ofl/matemasie # https://github.com/google/fonts/pull/7875
+ofl/moderustic # https://github.com/google/fonts/pull/7936
 
 # Upgrade
-ofl/notosanslimbu # https://github.com/google/fonts/pull/7827
-ofl/notosansmandaic # https://github.com/google/fonts/pull/7828
-ofl/notosansmarchen # https://github.com/google/fonts/pull/7829
-ofl/notoserifbalinese # https://github.com/google/fonts/pull/7929
-ofl/philosopher # https://github.com/google/fonts/pull/7887
+ofl/anuphan # https://github.com/google/fonts/pull/7942
+
+# Designer profile
+catalog/designers/gustavoibarra # https://github.com/google/fonts/pull/7547
 
 # Knowledge
 cc-by-sa/knowledge/modules/using_variable_fonts_on_the_web/lessons/optimizing_typographic_space_with_variable_fonts/content.md # https://github.com/google/fonts/pull/7803
+
+# Metadata / Description / License
+ofl/cactusclassicalserif # https://github.com/google/fonts/pull/7838
+ofl/chocolateclassicalsans # https://github.com/google/fonts/pull/7838
+ofl/jaro # https://github.com/google/fonts/pull/7934
+ofl/lxgwwenkaimonotc # https://github.com/google/fonts/pull/7838
+ofl/lxgwwenkaitc # https://github.com/google/fonts/pull/7838
 
 # Sample texts
 lang/languages/bdh_Latn.textproto # https://github.com/google/fonts/pull/7680
@@ -49,20 +57,6 @@ lang/languages/yue_Hans.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/yue_Hant.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/za_Hans.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/za_Hant.textproto # https://github.com/google/fonts/pull/7877
-
-# Other
-ofl/cactusclassicalserif # https://github.com/google/fonts/pull/7792
-ofl/chocolateclassicalsans # https://github.com/google/fonts/pull/7792
-ofl/danfo # https://github.com/google/fonts/pull/7566
-ofl/lxgwwenkaimonotc # https://github.com/google/fonts/pull/7792
-ofl/lxgwwenkaitc # https://github.com/google/fonts/pull/7792
-ofl/notosanshk # https://github.com/google/fonts/pull/7792
-ofl/notosanssc # https://github.com/google/fonts/pull/7792
-ofl/notosanstc # https://github.com/google/fonts/pull/7792
-ofl/notoserifhk # https://github.com/google/fonts/pull/7792
-ofl/notoserifsc # https://github.com/google/fonts/pull/7792
-ofl/notoseriftc # https://github.com/google/fonts/pull/7792
-ofl/wittgenstein # https://github.com/google/fonts/pull/7920
 
 # Deleted
 # Deleted: lang/languages/mlt_Latn.textproto # https://github.com/google/fonts/pull/7680

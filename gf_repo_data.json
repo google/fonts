@@ -1,6 +1,70 @@
 {
-    "last_run": "2024-07-22",
+    "last_run": "2024-07-29",
     "commits": [
+        {
+            "date": "2024-07-26T17:10:37",
+            "title": "fix font tags (#7971)",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cf2e71b89970c123f31de76a242b17c788297c4c"
+        },
+        {
+            "date": "2024-07-26T12:50:44",
+            "title": "Merge pull request #7970 from google/gftools_packager_ofl_newamsterdam",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "962935005295946732c10e264e2466c7d0381e67"
+        },
+        {
+            "date": "2024-07-26T12:42:51",
+            "title": "Merge pull request #7924 from emmamarichal/turalalisoy",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "350438c9774030ec14f08b5947f1e877257db464"
+        },
+        {
+            "date": "2024-07-26T08:57:02",
+            "title": "adds article and images",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4030134c1d2151696cf3046f22147118960961eb"
+        },
+        {
+            "date": "2024-07-26T08:51:30",
+            "title": "New Amsterdam: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "82acdc4434c1589a81ce45de037fa8dfdcc56d93"
+        },
+        {
+            "date": "2024-07-23T19:00:09",
+            "title": "Merge pull request #7960 from google/push-lists",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0847c23d2fc5dfbca51693f5d57b99924c23d911"
+        },
+        {
+            "date": "2024-07-22T13:54:09",
+            "title": "Lang update (#7962)",
+            "author": "Nathan Williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "00f12e7673c0bd0f9abf5ff0869bba8c52a32e2f"
+        },
+        {
+            "date": "2024-07-22T10:21:48",
+            "title": "Update push lists",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3839785477e8192a1b6001942faddccf98f6fa21"
+        },
         {
             "date": "2024-07-19T15:39:27",
             "title": "Merge pull request #7952 from google/gftools_packager_ofl_bungeetint",
@@ -397,9 +461,17 @@
             "date": "2024-07-05T14:50:38",
             "title": "Merge pull request #7851 from google/gftools_packager_ofl_afacadflux",
             "author": "Viviana Monsalve",
-            "status": "new",
-            "kind": "infrastructure",
+            "status": "modified",
+            "kind": "family",
             "id": "9c9656bfe93c86c3aa3f48c4dd899ffbd9ee9daa"
+        },
+        {
+            "date": "2024-07-05T14:23:54",
+            "title": "Update bio.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "bf81960d7c3d30597bfc6b1efeef1edc0ee0527a"
         },
         {
             "date": "2024-07-05T12:59:47",
@@ -413,9 +485,17 @@
             "date": "2024-07-05T12:47:58",
             "title": "Afacad Flux: Version 1.100 added",
             "author": "Emma Marichal",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "ef30d6c39e80b57af3661bc883f8818b7df685f1"
+        },
+        {
+            "date": "2024-07-05T09:47:00",
+            "title": "Add designer: Tural Alisoy",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "designer",
+            "id": "b72165276fcd5ad8af47ca5099e8445161579aee"
         },
         {
             "date": "2024-07-05T07:55:35",
@@ -66285,46 +66365,70 @@
     "pushes": {
         "sandbox": [
             {
-                "path": "ofl/sankofadisplay",
+                "path": "ofl/bungeetint",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7614"
+                "url": "https://github.com/google/fonts/pull/7952"
             },
             {
-                "path": "ofl/notosanslimbu",
-                "category": "Upgrade",
+                "path": "ofl/matemasie",
+                "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7827"
+                "url": "https://github.com/google/fonts/pull/7875"
             },
             {
-                "path": "ofl/notosansmandaic",
-                "category": "Upgrade",
+                "path": "ofl/moderustic",
+                "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7828"
+                "url": "https://github.com/google/fonts/pull/7936"
             },
             {
-                "path": "ofl/notosansmarchen",
+                "path": "ofl/anuphan",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7829"
+                "url": "https://github.com/google/fonts/pull/7942"
             },
             {
-                "path": "ofl/notoserifbalinese",
-                "category": "Upgrade",
+                "path": "catalog/designers/gustavoibarra",
+                "category": "Designer profile",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7929"
-            },
-            {
-                "path": "ofl/philosopher",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7887"
+                "url": "https://github.com/google/fonts/pull/7547"
             },
             {
                 "path": "cc-by-sa/knowledge/modules/using_variable_fonts_on_the_web/lessons/optimizing_typographic_space_with_variable_fonts/content.md",
                 "category": "Knowledge",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7803"
+            },
+            {
+                "path": "ofl/cactusclassicalserif",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7838"
+            },
+            {
+                "path": "ofl/chocolateclassicalsans",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7838"
+            },
+            {
+                "path": "ofl/jaro",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7934"
+            },
+            {
+                "path": "ofl/lxgwwenkaimonotc",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7838"
+            },
+            {
+                "path": "ofl/lxgwwenkaitc",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7838"
             },
             {
                 "path": "lang/languages/bdh_Latn.textproto",
@@ -66549,78 +66653,6 @@
                 "url": "https://github.com/google/fonts/pull/7877"
             },
             {
-                "path": "ofl/cactusclassicalserif",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/chocolateclassicalsans",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/danfo",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7566"
-            },
-            {
-                "path": "ofl/lxgwwenkaimonotc",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/lxgwwenkaitc",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/notosanshk",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/notosanssc",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/notosanstc",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/notoserifhk",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/notoserifsc",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/notoseriftc",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7792"
-            },
-            {
-                "path": "ofl/wittgenstein",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7920"
-            },
-            {
                 "path": "lang/languages/mlt_Latn.textproto",
                 "category": "Deleted",
                 "status": null,
@@ -66635,10 +66667,184 @@
         ],
         "production": [
             {
-                "path": "ofl/zain",
+                "path": "ofl/sankofadisplay",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7890"
+                "url": "https://github.com/google/fonts/pull/7614"
+            },
+            {
+                "path": "ofl/inter",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7776"
+            },
+            {
+                "path": "ofl/notosanscham",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7685"
+            },
+            {
+                "path": "ofl/notosanskaithi",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7855"
+            },
+            {
+                "path": "ofl/notosanslimbu",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7827"
+            },
+            {
+                "path": "ofl/notosansmandaic",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7828"
+            },
+            {
+                "path": "ofl/notosansmarchen",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7829"
+            },
+            {
+                "path": "ofl/notosansnagmundari",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7845"
+            },
+            {
+                "path": "ofl/notosansolditalic",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7846"
+            },
+            {
+                "path": "ofl/notosansoldsogdian",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7847"
+            },
+            {
+                "path": "ofl/notosansoldturkic",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7848"
+            },
+            {
+                "path": "ofl/notosanspsalterpahlavi",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7857"
+            },
+            {
+                "path": "ofl/notoserifbalinese",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7929"
+            },
+            {
+                "path": "ofl/philosopher",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7887"
+            },
+            {
+                "path": "ofl/bethellen",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7627"
+            },
+            {
+                "path": "ofl/bricolagegrotesque",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7761"
+            },
+            {
+                "path": "ofl/cactusclassicalserif",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/chocolateclassicalsans",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/danfo",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7689"
+            },
+            {
+                "path": "ofl/lxgwwenkaimonotc",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/lxgwwenkaitc",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/notosanshk",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/notosanssc",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/notosanstc",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/notoserifhk",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/notoserifsc",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/notoseriftc",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7792"
+            },
+            {
+                "path": "ofl/wittgenstein",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7920"
+            },
+            {
+                "path": "ofl/elsieswashcaps",
+                "category": "Other",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7522"
+            },
+            {
+                "path": "lang/languages/sa_Sylo.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7248"
             }
         ]
     }

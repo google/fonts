@@ -7,21 +7,26 @@ assignees: ''
 
 ---
 
-Specify the font name in title with a short description of the bug. 
-Please report any issue related to Noto fonts [here](https://notofonts.github.io/reporter.html).
-Report any issue with Google Icon/Symbols [here](https://github.com/google/material-design-icons)
+[DELETE THIS PARAGARPH: Specify the font name in the issue title now, then add a short description of the bug here.
+If this is about any Noto font, please go to https://notofonts.github.io/reporter.html instead.
+If this is about Google Fonts' Material Symbols icon font, go to https://github.com/google/material-design-icons instead.]
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+
+[DELETE THIS LINE: A clear and concise description of what the bug is.]
 
 **To Reproduce**
-Steps to reproduce the behavior.
+
+[DELETE THIS LINE: Steps to reproduce the behavior.]
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+
+[DELETE THIS LINE: A clear and concise description of what you expected to happen.]
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+
+[DELETE THIS LINE: If applicable, add screenshots to help explain your problem.]
 
 **Additional context**
-Add any other context about the problem here (OS version, browser, printer…)
+
+[DELETE THIS LINE: Add any other context about the problem here (OS version, browser, printer…), and remember to specify the font name in the issue title now]

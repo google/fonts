@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/CutiveFont"
-  commit: "2d3d48d9f1b915c840abbd1be6a97324f1f16974"
+  commit: "d97e7cb29296a2c091568d01e3394ae87111bd39"
   files {
     source_file: "fonts/ttf/Cutive-Regular.ttf"
     dest_file: "Cutive-Regular.ttf"

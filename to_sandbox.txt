@@ -1,13 +1,10 @@
 # New
-ofl/bungeetint # https://github.com/google/fonts/pull/7952
-ofl/matemasie # https://github.com/google/fonts/pull/7875
-ofl/moderustic # https://github.com/google/fonts/pull/7936
-
-# Upgrade
-ofl/anuphan # https://github.com/google/fonts/pull/7942
+ofl/newamsterdam # https://github.com/google/fonts/pull/7970
 
 # Designer profile
 catalog/designers/gustavoibarra # https://github.com/google/fonts/pull/7547
+catalog/designers/turalalisoy # https://github.com/google/fonts/pull/7924
+catalog/designers/vladimirnikolic # https://github.com/google/fonts/pull/7969
 
 # Knowledge
 cc-by-sa/knowledge/modules/using_variable_fonts_on_the_web/lessons/optimizing_typographic_space_with_variable_fonts/content.md # https://github.com/google/fonts/pull/7803
@@ -15,9 +12,13 @@ cc-by-sa/knowledge/modules/using_variable_fonts_on_the_web/lessons/optimizing_ty
 # Metadata / Description / License
 ofl/cactusclassicalserif # https://github.com/google/fonts/pull/7838
 ofl/chocolateclassicalsans # https://github.com/google/fonts/pull/7838
-ofl/jaro # https://github.com/google/fonts/pull/7934
 ofl/lxgwwenkaimonotc # https://github.com/google/fonts/pull/7838
 ofl/lxgwwenkaitc # https://github.com/google/fonts/pull/7838
+ofl/matemasie # https://github.com/google/fonts/pull/7989
+ofl/wellfleet # https://github.com/google/fonts/pull/7980
+ofl/tajawal # https://github.com/google/fonts/pull/7930
+ofl/beiruti # https://github.com/google/fonts/pull/7930
+ofl/almarai # https://github.com/google/fonts/pull/7930
 
 # Sample texts
 lang/languages/bdh_Latn.textproto # https://github.com/google/fonts/pull/7680
@@ -42,6 +43,7 @@ lang/languages/hsn_Hant.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/kr_Arab.textproto # https://github.com/google/fonts/pull/7680
 lang/languages/lzh_Hans.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/lzh_Hant.textproto # https://github.com/google/fonts/pull/7877
+# Deleted: lang/languages/mlt_Latn.textproto # https://github.com/google/fonts/pull/7680
 lang/languages/nan_Hans.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/nan_Hant.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/nan_Latn.textproto # https://github.com/google/fonts/pull/7877
@@ -57,9 +59,3 @@ lang/languages/yue_Hans.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/yue_Hant.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/za_Hans.textproto # https://github.com/google/fonts/pull/7877
 lang/languages/za_Hant.textproto # https://github.com/google/fonts/pull/7877
-
-# Deleted
-# Deleted: lang/languages/mlt_Latn.textproto # https://github.com/google/fonts/pull/7680
-
-# Tags
-tags/all/families.csv

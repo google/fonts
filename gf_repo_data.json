@@ -1,6 +1,150 @@
 {
-    "last_run": "2024-07-29",
+    "last_run": "2024-08-05",
     "commits": [
+        {
+            "date": "2024-08-02T16:07:54",
+            "title": "Merge pull request #7991 from google/to_lists_0208",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "2c79d252a94d3ed5051375cc78f25723ccbe8033"
+        },
+        {
+            "date": "2024-08-02T15:35:56",
+            "title": "Update to_production.txt",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "59f58ef6818e9b820162050e416f23813f5e666d"
+        },
+        {
+            "date": "2024-08-02T15:01:48",
+            "title": "Update to_production.txt",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1be413e84b38d04ab602692ac7598dbfb6c0c676"
+        },
+        {
+            "date": "2024-08-02T10:09:08",
+            "title": "To_lists of the 02nd of August",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "50ce880c61dfe47844fd5bff76bab9d3532cdaeb"
+        },
+        {
+            "date": "2024-08-02T08:24:56",
+            "title": "Merge pull request #7988 from google/gftools_packager_ofl_cutive",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "89587c355cfb5bd2f0039af918393f153d3dd68c"
+        },
+        {
+            "date": "2024-08-01T14:13:22",
+            "title": "Merge pull request #7969 from emmamarichal/vladimirnikolic",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "designer",
+            "id": "de39e718274ee0436a1191292921a6a347cf1291"
+        },
+        {
+            "date": "2024-08-01T13:55:58",
+            "title": "Merge pull request #7989 from google/matemasie-description",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "94ce6af0f23d35decd2c8b282994d72315d496f0"
+        },
+        {
+            "date": "2024-08-01T13:48:21",
+            "title": "Update url",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a796c427cb7568e60039faab173e826e31f6072c"
+        },
+        {
+            "date": "2024-08-01T13:48:07",
+            "title": "Fix article (link issue)",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "fe268fa13ee8bff73ff66c3c1d889ab778ba1582"
+        },
+        {
+            "date": "2024-08-01T12:07:31",
+            "title": "updated url in description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "7bc5029eb55b7ccd7662a3ee8434eb7a98b1b8da"
+        },
+        {
+            "date": "2024-08-01T12:02:21",
+            "title": "Cutive: Version 1.110; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "46bc8761f94b9a4e2422541ae7d845c640c695bf"
+        },
+        {
+            "date": "2024-07-31T08:38:40",
+            "title": "Merge pull request #7980 from google/chrissimpkins-wellfleet-metadata",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "97f020acbffb7abfaad87b25dd55975aa3ef3c2f"
+        },
+        {
+            "date": "2024-07-31T08:28:58",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "561b49e9b494828b5af2306b22bd74726b5a6267"
+        },
+        {
+            "date": "2024-07-31T00:45:49",
+            "title": "Refix font tags (#7979)",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "68a7eaa10d115dd084351ea1d52bd7f0166efb0a"
+        },
+        {
+            "date": "2024-07-30T05:48:57",
+            "title": "Update 3_font-bug.md",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e378509813f938b337111836fee5b9191e8e5860"
+        },
+        {
+            "date": "2024-07-30T05:45:37",
+            "title": "Update 1_add-font.md",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "175b66354dbb7345aee996da8f62883b4d69c51b"
+        },
+        {
+            "date": "2024-07-30T05:44:19",
+            "title": "Update 2_update-font.md",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "02ee16958343570d3ae7c0e5a0521628114610d9"
+        },
+        {
+            "date": "2024-07-29T22:04:01",
+            "title": "Update METADATA.pb",
+            "author": "Chris Simpkins",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5368cbc893ed8d5638c1e2f8164911c2bd9eb266"
+        },
         {
             "date": "2024-07-26T17:10:37",
             "title": "fix font tags (#7971)",
@@ -37,9 +181,17 @@
             "date": "2024-07-26T08:51:30",
             "title": "New Amsterdam: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
             "author": "Emma Marichal",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "82acdc4434c1589a81ce45de037fa8dfdcc56d93"
+        },
+        {
+            "date": "2024-07-26T08:47:03",
+            "title": "Add designer: Vladimir Nikolic",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "designer",
+            "id": "ab0111f8420ea9de5d86aa68e7a1d44abd2bc58d"
         },
         {
             "date": "2024-07-23T19:00:09",
@@ -66365,34 +66517,28 @@
     "pushes": {
         "sandbox": [
             {
-                "path": "ofl/bungeetint",
+                "path": "ofl/newamsterdam",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7952"
-            },
-            {
-                "path": "ofl/matemasie",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7875"
-            },
-            {
-                "path": "ofl/moderustic",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7936"
-            },
-            {
-                "path": "ofl/anuphan",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7942"
+                "url": "https://github.com/google/fonts/pull/7970"
             },
             {
                 "path": "catalog/designers/gustavoibarra",
                 "category": "Designer profile",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7547"
+            },
+            {
+                "path": "catalog/designers/turalalisoy",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7924"
+            },
+            {
+                "path": "catalog/designers/vladimirnikolic",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7969"
             },
             {
                 "path": "cc-by-sa/knowledge/modules/using_variable_fonts_on_the_web/lessons/optimizing_typographic_space_with_variable_fonts/content.md",
@@ -66413,12 +66559,6 @@
                 "url": "https://github.com/google/fonts/pull/7838"
             },
             {
-                "path": "ofl/jaro",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7934"
-            },
-            {
                 "path": "ofl/lxgwwenkaimonotc",
                 "category": "Metadata / Description / License",
                 "status": null,
@@ -66429,6 +66569,36 @@
                 "category": "Metadata / Description / License",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7838"
+            },
+            {
+                "path": "ofl/matemasie",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7989"
+            },
+            {
+                "path": "ofl/wellfleet",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7980"
+            },
+            {
+                "path": "ofl/tajawal",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7930"
+            },
+            {
+                "path": "ofl/beiruti",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7930"
+            },
+            {
+                "path": "ofl/almarai",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7930"
             },
             {
                 "path": "lang/languages/bdh_Latn.textproto",
@@ -66563,6 +66733,12 @@
                 "url": "https://github.com/google/fonts/pull/7877"
             },
             {
+                "path": "lang/languages/mlt_Latn.textproto",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7680"
+            },
+            {
                 "path": "lang/languages/nan_Hans.textproto",
                 "category": "Sample texts",
                 "status": null,
@@ -66651,116 +66827,38 @@
                 "category": "Sample texts",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7877"
-            },
-            {
-                "path": "lang/languages/mlt_Latn.textproto",
-                "category": "Deleted",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7680"
-            },
-            {
-                "path": "tags/all/families.csv",
-                "category": null,
-                "status": null,
-                "url": null
             }
         ],
         "production": [
             {
-                "path": "ofl/sankofadisplay",
+                "path": "ofl/matemasie",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7614"
+                "url": "https://github.com/google/fonts/pull/7875"
             },
             {
-                "path": "ofl/inter",
-                "category": "Upgrade",
+                "path": "ofl/moderustic",
+                "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7776"
+                "url": "https://github.com/google/fonts/pull/7936"
             },
             {
-                "path": "ofl/notosanscham",
+                "path": "ofl/anuphan",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7685"
+                "url": "https://github.com/google/fonts/pull/7942"
             },
             {
-                "path": "ofl/notosanskaithi",
-                "category": "Upgrade",
+                "path": "catalog/designers/celinehurka",
+                "category": "Designer profile",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7855"
-            },
-            {
-                "path": "ofl/notosanslimbu",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7827"
-            },
-            {
-                "path": "ofl/notosansmandaic",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7828"
-            },
-            {
-                "path": "ofl/notosansmarchen",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7829"
-            },
-            {
-                "path": "ofl/notosansnagmundari",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7845"
-            },
-            {
-                "path": "ofl/notosansolditalic",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7846"
-            },
-            {
-                "path": "ofl/notosansoldsogdian",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7847"
-            },
-            {
-                "path": "ofl/notosansoldturkic",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7848"
-            },
-            {
-                "path": "ofl/notosanspsalterpahlavi",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7857"
-            },
-            {
-                "path": "ofl/notoserifbalinese",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7929"
-            },
-            {
-                "path": "ofl/philosopher",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7887"
+                "url": "https://github.com/google/fonts/pull/7477"
             },
             {
                 "path": "ofl/bethellen",
                 "category": "Metadata / Description / License",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7627"
-            },
-            {
-                "path": "ofl/bricolagegrotesque",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7761"
             },
             {
                 "path": "ofl/cactusclassicalserif",
@@ -66775,10 +66873,10 @@
                 "url": "https://github.com/google/fonts/pull/7792"
             },
             {
-                "path": "ofl/danfo",
+                "path": "ofl/jaro",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/7689"
+                "url": "https://github.com/google/fonts/pull/7934"
             },
             {
                 "path": "ofl/lxgwwenkaimonotc",
@@ -66829,22 +66927,10 @@
                 "url": "https://github.com/google/fonts/pull/7792"
             },
             {
-                "path": "ofl/wittgenstein",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7920"
-            },
-            {
                 "path": "ofl/elsieswashcaps",
                 "category": "Other",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/7522"
-            },
-            {
-                "path": "lang/languages/sa_Sylo.textproto",
-                "category": "Deleted",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7248"
             }
         ]
     }

@@ -103,7 +103,7 @@ It’s advisable to employ small caps after three or more characters of uppercas
 
 </figure>
 
-If switching an already captitalized word over to small caps (for instance, “University”), it’s possible to decide between setting all characters in small caps (known as “all small caps”) or just the lowercase letters (known as “small caps”), which would leave the “U” in the its standard uppercase form.
+If switching an already capitalized word (for instance, “University”) or sentence case text (for instance, “Sentence Case”) over to small caps, it’s possible to decide between setting all characters in small caps (known as “all small caps”) or just the lowercase letters (known as “small caps”). In the “University” example this would leave the “U” in the its standard uppercase form.
 
 This is all just a taster of what OpenType can do. For more information, see:
 

@@ -1,14 +1,21 @@
 # New
+ofl/bungeetint # https://github.com/google/fonts/pull/7952
 ofl/matemasie # https://github.com/google/fonts/pull/7875
 ofl/moderustic # https://github.com/google/fonts/pull/7936
+ofl/newamsterdam # https://github.com/google/fonts/pull/7970
 
 # Upgrade
 ofl/anuphan # https://github.com/google/fonts/pull/7942
+ofl/notosanssylotinagri # https://github.com/google/fonts/pull/6432
 
 # Designer profile
 catalog/designers/celinehurka # https://github.com/google/fonts/pull/7477
+catalog/designers/turalalisoy # https://github.com/google/fonts/pull/7924
+catalog/designers/vladimirnikolic # https://github.com/google/fonts/pull/7969
 
 # Metadata / Description / License
+ofl/almarai # https://github.com/google/fonts/pull/7930
+ofl/beiruti # https://github.com/google/fonts/pull/7930
 ofl/bethellen # https://github.com/google/fonts/pull/7627
 ofl/cactusclassicalserif # https://github.com/google/fonts/pull/7792
 ofl/chocolateclassicalsans # https://github.com/google/fonts/pull/7792
@@ -21,6 +28,49 @@ ofl/notosanstc # https://github.com/google/fonts/pull/7792
 ofl/notoserifhk # https://github.com/google/fonts/pull/7792
 ofl/notoserifsc # https://github.com/google/fonts/pull/7792
 ofl/notoseriftc # https://github.com/google/fonts/pull/7792
+ofl/tajawal # https://github.com/google/fonts/pull/7930
+ofl/wellfleet # https://github.com/google/fonts/pull/7980
+
+# Sample texts
+lang/languages/bdh_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/beh_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bgn_Arab.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bkc_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bsc_Latn_GN.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bsq_Bass.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/bsq_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/cjy_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/cjy_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/crh_Cyrl.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/dnj_Latn_LR.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/evn_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/gan_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/gan_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/hak_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/hak_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/hak_Latn.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/hsn_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/hsn_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/kr_Arab.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/lzh_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/lzh_Hant.textproto # https://github.com/google/fonts/pull/7877
+# Deleted: lang/languages/mlt_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/nan_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/nan_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/nan_Latn.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/sa_Nand.textproto # https://github.com/google/fonts/pull/7680
+# Deleted: lang/languages/sa_Sylo.textproto # https://github.com/google/fonts/pull/7248
+lang/languages/uma_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/wal_Ethi.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/wal_Latn.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/wuu_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/wuu_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/xsm_Latn_BF.textproto # https://github.com/google/fonts/pull/7680
+lang/languages/yue_Hani.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/yue_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/yue_Hant.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/za_Hans.textproto # https://github.com/google/fonts/pull/7877
+lang/languages/za_Hant.textproto # https://github.com/google/fonts/pull/7877
 
 # Other
 ofl/elsieswashcaps # https://github.com/google/fonts/pull/7522

@@ -427,7 +427,9 @@ def build_fvar_instances(ttFont, axis_dflts={}):
 
             inst = NamedInstance()
             inst.subfamilyNameID = name_table.addName(name)
-            inst.postscriptNameID = name_table.addName(f"{family_name}-{name}".replace(" ", ""))
+            inst.postscriptNameID = name_table.addName(
+                f"{family_name}-{name}".replace(" ", "")
+            )
             inst.coordinates = coordinates
             log.debug(f"Adding fvar instance: {name}: {coordinates}")
             results.append(inst)

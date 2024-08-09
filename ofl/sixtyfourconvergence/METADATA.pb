@@ -1,5 +1,5 @@
 name: "Sixtyfour Convergence"
-designer: "Simon Cozens, Jens Kutílek"
+designer: "Jens Kutílek, Simon Cozens"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2024-07-03"

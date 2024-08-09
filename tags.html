@@ -35,6 +35,7 @@
       <div class="panel-tile">
         <button @click="saveCSV">Save CSV</button>
       </div>
+      <div v-if="isEdited" id="edited-panel">Edited</div>
     </div>
 
     <div class="item" v-for="family in sortedFamilies" :key="family">
@@ -46,7 +47,7 @@
         The quick brown fox jumps over the lazy dog
       </div>
       <div>
-        <input v-model.lazy="family.Weight" placeholder="family.Weight">
+        <input v-model.lazy="family.Weight" @input="edited" placeholder="family.Weight">
         <button @click="removeFamily(family)">X</button>
       </div>
     </div>
@@ -60,6 +61,7 @@
   createApp({
     data() {
       return {
+        isEdited: false,
         newFamily: '',
         newWeight: '',
         CurrentCategory: "/Expressive/Calm",
@@ -82,6 +84,9 @@
       }
     },
     methods: {
+      edited() {
+        this.isEdited = true;
+      },
       familyLink(Family) {
         return "https://fonts.googleapis.com/css2?family=" + Family.Family.replace(" ", "+") + "&display=swap"
       },
@@ -101,9 +106,11 @@
         return "font-family: " + Family.Family + "; font-size: 32pt;";
       },
       AddFamily() {
+        this.isEdited = true;
         this.Families.push({ Weight: this.newWeight, Family: this.newFamily, "Group/Tag": this.CurrentCategory });
       },
       removeFamily(Family) {
+        this.isEdited = true;
         this.Families = this.Families.filter((t) => t !== Family)
       },
       saveCSV() {
@@ -183,5 +190,14 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid #000;
+  }
+  #edited-panel {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 80px;
+    padding: 5px;
+    background-color: black;
+    color: white;
   }
 </style>

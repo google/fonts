@@ -20,7 +20,8 @@ subsets: "mongolian"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/mongolian"
-  archive_url: "https://github.com/notofonts/mongolian/releases/download/NotoSansMongolian-v3.001/NotoSansMongolian-v3.001.zip"
+  commit: "37a437828f5f3fc0c1cc23be44f9ed7ae1863ecf"
+  archive_url: "https://github.com/notofonts/mongolian/releases/download/NotoSansMongolian-v3.002/NotoSansMongolian-v3.002.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

@@ -35,3 +35,4 @@ source {
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+minisite_url: "https://aayalolo.com/fonts/ga-maamli"

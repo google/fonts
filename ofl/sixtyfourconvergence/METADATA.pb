@@ -19,7 +19,7 @@ subsets: "menu"
 subsets: "symbols"
 axes {
   tag: "BLED"
-  min_value: 0.0
+  min_value: 0.00
   max_value: 100.0
 }
 axes {

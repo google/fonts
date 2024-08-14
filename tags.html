@@ -1,0 +1,205 @@
+<script type="importmap">
+  {
+    "imports": {
+      "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+    }
+  }
+</script>
+<script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+
+<body>
+  <div id="app">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <h1>Google Fonts Tagger</h1>
+    <p>When you're done editing, please save the csv and open a pull request in the Google Fonts repo that replaces the <a href="https://github.com/google/fonts/blob/main/tags/all/families.csv">families.csv</a> file.</p>
+
+
+    <div id="panel">
+      <div class="panel-tile">
+        <label>Current tag:</label>
+        <select v-model="CurrentCategory">
+          <option v-for="category in sortedCategories" :key="category" :value="category">
+            {{ category }}
+          </option>
+        </select>
+      </div>
+
+      <div class="panel-tile">
+        <form @submit.prevent="AddFamily">
+          <label>Add family:</label>
+          <input v-model="newFamily" required placeholder="Family Name">
+          <input v-model="newWeight" required placeholder="Weight">
+          <button>Add</button>
+        </form>
+      </div>
+      <div class="panel-tile">
+        <button @click="saveCSV">Save CSV</button>
+      </div>
+      <div v-if="isEdited" id="edited-panel">Edited</div>
+    </div>
+
+    <div class="item" v-for="family in sortedFamilies" :key="family">
+      <link :href="familyLink(family)" rel="stylesheet">
+      <div style="float: left; width: 150px;">
+        <b>{{ family.Family }}</b>
+      </div>
+      <div style="float: left; width: 100px;">
+        <input style="width: 50px;" v-model.lazy="family.Weight" @input="edited" placeholder="family.Weight">
+        <button @click="removeFamily(family)">X</button>
+      </div>
+      <div :style="familyStyle(family)" contenteditable="true">      
+        The quick brown fox jumps over the lazy dog
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<script type="module">
+  import { createApp } from 'vue';
+  
+  createApp({
+    data() {
+      return {
+        isEdited: false,
+        newFamily: '',
+        newWeight: '',
+        CurrentCategory: "/Expressive/Calm",
+        Categories: new Set(),
+        Families: []
+      };
+    },
+    created() {
+      this.loadCSV();
+    },
+    computed: {
+      sortedFamilies() {
+        let ll = this.Families;
+        let filtered = ll.filter(family => family["Group/Tag"] === this.CurrentCategory);
+        filtered.sort(function(a, b) {return b.Weight - a.Weight;});
+        return filtered;
+      },
+      sortedCategories() {
+        return Array.from(this.Categories).sort();
+      }
+    },
+    methods: {
+      edited() {
+        this.isEdited = true;
+      },
+      familyLink(Family) {
+        return "https://fonts.googleapis.com/css2?family=" + Family.Family.replace(" ", "+") + "&display=swap"
+      },
+      familyCSSClass(Family) {
+        let cssName = Family.family.replace(" ", "-").toLowerCase();
+        return `.${cssName} {
+                font-family: "${Family.family}", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+              }`
+      },
+      familySelector(Family) {
+        let cssName = Family.Family.replace(" ", "-").toLowerCase();
+        return cssName;
+      },
+      familyStyle(Family) {
+        return "font-family: " + Family.Family + "; font-size: 32pt;";
+      },
+      AddFamily() {
+        this.isEdited = true;
+        this.Families.push({ Weight: this.newWeight, Family: this.newFamily, "Group/Tag": this.CurrentCategory });
+      },
+      removeFamily(Family) {
+        this.isEdited = true;
+        this.Families = this.Families.filter((t) => t !== Family)
+      },
+      saveCSV() {
+        this.Families = this.Families.filter((t) => t.Family !== "");
+        console.log(this.Families);
+        let csv = Papa.unparse(this.Families,
+          {
+            columns: ["Family", "Group/Tag", "Weight"],
+            skipEmptyLines: true,
+          }
+        );
+
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "families.csv";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      },
+      loadCSV() {
+        const csvFilePath = 'https://raw.githubusercontent.com/google/fonts/main/tags/all/families.csv'; // Update this path to your CSV file
+        fetch(csvFilePath)
+          .then(response => response.text())
+          .then(csvText => {
+            Papa.parse(csvText, {
+              header: true,
+              complete: (results) => {
+                this.Categories = new Set(results.data.map((row) => row["Group/Tag"]));
+                this.Families = results.data.map((row) => ({
+                  Weight: row.Weight,
+                  Family: row.Family,
+                  "Group/Tag": row["Group/Tag"]
+                })
+              );
+              }
+            });
+          })
+          .catch(error => {
+            console.error('Error loading CSV file:', error);
+          });
+        }
+      }
+    } // methods
+  ).mount('#app')
+</script>
+
+
+<style>
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: left;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+  #panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 3px lightgray;
+  }
+  .panel-tile {
+    margin-bottom: 10px;
+  }
+  .familyy {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .item {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #000;
+  }
+  #edited-panel {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 80px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }
+</style>

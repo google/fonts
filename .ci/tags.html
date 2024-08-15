@@ -13,8 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <h1>Google Fonts Tagger</h1>
-    <p>When you're done editing, please save the csv and open a pull request in the Google Fonts repo that replaces the <a href="https://github.com/google/fonts/blob/main/tags/all/families.csv">families.csv</a> file.</p>
-
 
     <div id="panel">
       <div class="panel-tile">
@@ -36,6 +34,7 @@
       </div>
       <div class="panel-tile">
         <button @click="saveCSV">Save CSV</button>
+        <button @click="prCSV">Open Pull Request</button>
       </div>
       <div v-if="isEdited" id="edited-panel">Edited</div>
     </div>
@@ -134,6 +133,19 @@
         a.click();
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
+      },
+      prCSV() {
+        this.Families = this.Families.filter((t) => t.Family !== "");
+        console.log(this.Families);
+        let csv = Papa.unparse(this.Families,
+          {
+            columns: ["Family", "Group/Tag", "Weight"],
+            skipEmptyLines: true,
+          }
+        );
+        alert("Tag data copied to clipboard. A github pull request page will open in a new tab. Please remove the old data and paste in the new.");
+        navigator.clipboard.writeText(csv);
+        window.open("https://github.com/google/fonts/edit/main/tags/all/families.csv")
       },
       loadCSV() {
         const csvFilePath = 'https://raw.githubusercontent.com/google/fonts/main/tags/all/families.csv'; // Update this path to your CSV file

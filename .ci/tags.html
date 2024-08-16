@@ -98,7 +98,7 @@
         return cssName;
       },
       familyStyle(Family) {
-        return `font-family: "${Family.Family}"; font-size: 32pt;`
+        return `font-family: "${Family.Family}", "Adobe NotDef"; font-size: 32pt;`
       },
       AddFamily() {
         this.isEdited = true;
@@ -170,6 +170,10 @@
 
 
 <style>
+  @font-face {
+      font-family: "Adobe NotDef";
+      src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+  }
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;

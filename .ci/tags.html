@@ -1,10 +1,4 @@
-<script type="importmap">
-  {
-    "imports": {
-      "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
-    }
-  }
-</script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 
 <body>
@@ -28,13 +22,13 @@
         <form @submit.prevent="AddFamily">
           <label>Add family:</label>
           <input v-model="newFamily" required placeholder="Family Name">
-          <input v-model="newWeight" required placeholder="Weight">
+          <input v-model="newWeight" required placeholder="Score">
           <button>Add</button>
         </form>
       </div>
       <div class="panel-tile">
-        <button @click="saveCSV">Save CSV</button>
         <button @click="prCSV">Open Pull Request</button>
+        <button style="float: right;" @click="saveCSV">Save CSV</button>
       </div>
       <div v-if="isEdited" id="edited-panel">Edited</div>
     </div>
@@ -56,10 +50,10 @@
   </div>
 </body>
 
-<script type="module">
-  import { createApp } from 'vue';
+<script>
   
-  createApp({
+  var app = new Vue({
+    el: '#app',
     data() {
       return {
         isEdited: false,
@@ -104,7 +98,7 @@
         return cssName;
       },
       familyStyle(Family) {
-        return "font-family: " + Family.Family + "; font-size: 32pt;";
+        return `font-family: "${Family.Family}", "Adobe NotDef"; font-size: 32pt;`
       },
       AddFamily() {
         this.isEdited = true;
@@ -171,11 +165,15 @@
         }
       }
     } // methods
-  ).mount('#app')
+  )
 </script>
 
 
 <style>
+  @font-face {
+      font-family: "Adobe NotDef";
+      src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+  }
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -207,11 +205,12 @@
   }
   #edited-panel {
     position: fixed;
-    right: 0px;
-    bottom: 0px;
+    left: 0px;
+    top: 0px;
     width: 80px;
     padding: 5px;
     background-color: black;
     color: white;
+    font-weight: bold;
   }
 </style>

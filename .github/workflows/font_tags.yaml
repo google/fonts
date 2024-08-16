@@ -1,5 +1,5 @@
-# Check font tagging spreadsheet is correctly structured
-name: Font tagging structure
+# Check font tags
+name: Check font tags
 
 on:
   push:
@@ -19,9 +19,6 @@ jobs:
       with:
         python-version: "3.10"
 
-    # Check font tags data is correct
-    - name: Install gftools
-      run: pip install gftools[qa]
-    - name: Test font tagging spreadsheet
+    - name: Check font tags
       run: |
-        gftools font-tags lint .
+        python .ci/test_font_tags.py

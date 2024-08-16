@@ -1,10 +1,4 @@
-<script type="importmap">
-  {
-    "imports": {
-      "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
-    }
-  }
-</script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 
 <body>
@@ -28,7 +22,7 @@
         <form @submit.prevent="AddFamily">
           <label>Add family:</label>
           <input v-model="newFamily" required placeholder="Family Name">
-          <input v-model="newWeight" required placeholder="Weight">
+          <input v-model="newWeight" required placeholder="Score">
           <button>Add</button>
         </form>
       </div>
@@ -56,10 +50,10 @@
   </div>
 </body>
 
-<script type="module">
-  import { createApp } from 'vue';
+<script>
   
-  createApp({
+  var app = new Vue({
+    el: '#app',
     data() {
       return {
         isEdited: false,
@@ -171,7 +165,7 @@
         }
       }
     } // methods
-  ).mount('#app')
+  )
 </script>
 
 
@@ -207,11 +201,12 @@
   }
   #edited-panel {
     position: fixed;
-    right: 0px;
-    bottom: 0px;
+    left: 0px;
+    top: 0px;
     width: 80px;
     padding: 5px;
     background-color: black;
     color: white;
+    font-weight: bold;
   }
 </style>

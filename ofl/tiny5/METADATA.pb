@@ -10,7 +10,7 @@ fonts {
   filename: "Tiny5-Regular.ttf"
   post_script_name: "Tiny5-Regular"
   full_name: "Tiny5 Regular"
-  copyright: "Copyright 2024 The tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
+  copyright: "Copyright 2022-2024 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

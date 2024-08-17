@@ -1,5 +1,5 @@
 name: "SUSE"
-designer: "Rene Bieder"
+designer: "René Bieder"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-08-14"

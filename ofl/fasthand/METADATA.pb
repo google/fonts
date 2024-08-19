@@ -1,5 +1,5 @@
 name: "Fasthand"
-designer: "Danh Hong"
+designer: "Danh Hong, Neapolitan"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-05-24"

@@ -13,10 +13,7 @@ fonts {
   copyright: "(c) 2017-2024 Adobe (http://www.adobe.com/)."
 }
 subsets: "chinese-hongkong"
-subsets: "chinese-simplified"
-subsets: "chinese-traditional"
 subsets: "cyrillic"
-subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

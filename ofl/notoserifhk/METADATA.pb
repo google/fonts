@@ -10,10 +10,13 @@ fonts {
   filename: "NotoSerifHK[wght].ttf"
   post_script_name: "NotoSerifHK-ExtraLight"
   full_name: "Noto Serif HK ExtraLight"
-  copyright: "(c) 2017-2023 Adobe (http://www.adobe.com/)."
+  copyright: "(c) 2017-2024 Adobe (http://www.adobe.com/)."
 }
 subsets: "chinese-hongkong"
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
+subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -23,6 +26,15 @@ axes {
   min_value: 200.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://www.github.com/notofonts/noto-cjk"
+  commit: "985fa52c81c1d6692ccdd82bc3656e8fb932fd89"
+  files {
+    source_file: "google-fonts/NotoSerifHK[wght].ttf"
+    dest_file: "NotoSerifHK[wght].ttf"
+  }
+  branch: "main"
+}
 is_noto: true
 languages: "cjy_Hant"  # Jin Chinese
 languages: "gan_Hant"  # Gan Chinese
@@ -31,8 +43,7 @@ languages: "hsn_Hant"  # Xiang Chinese
 languages: "lzh_Hant"  # Literary Chinese
 languages: "nan_Hant"  # Southern Min Chinese
 languages: "wuu_Hant"  # Wu Chinese
-languages: "yue_Hant"  # Cantonese
+languages: "yue_Hant"  # Yue Chinese
 languages: "zh_Hant"  # Chinese (Traditional)
 display_name: "Noto Serif Hong Kong"
 primary_script: "Hant"
-primary_language: "yue_Hant"

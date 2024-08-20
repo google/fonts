@@ -10,7 +10,7 @@ fonts {
   filename: "NotoSerifSC[wght].ttf"
   post_script_name: "NotoSerifSC-ExtraLight"
   full_name: "Noto Serif SC ExtraLight"
-  copyright: "(c) 2017-2023 Adobe (http://www.adobe.com/)."
+  copyright: "(c) 2017-2024 Adobe (http://www.adobe.com/)."
 }
 subsets: "chinese-simplified"
 subsets: "cyrillic"
@@ -23,17 +23,25 @@ axes {
   min_value: 200.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://www.github.com/notofonts/noto-cjk"
+  commit: "985fa52c81c1d6692ccdd82bc3656e8fb932fd89"
+  files {
+    source_file: "google-fonts/NotoSerifSC[wght].ttf"
+    dest_file: "NotoSerifSC[wght].ttf"
+  }
+  branch: "main"
+}
 is_noto: true
-languages: "cjy_Hans"  # Chinese, Jinyu
-languages: "gan_Hans"  # Gan Chinese
-languages: "hak_Hans"  # Hakka Chinese, Simplified
-languages: "hsn_Hans"  # Xiang Chinese
-languages: "lzh_Hans"  # Literary Chinese, Simplified
-languages: "nan_Hans"  # Min Nan Chinese, Simplified
-languages: "wuu_Hans"  # Wu Chinese
-languages: "yue_Hans"  # Cantonese
-languages: "za_Hans"   # Zhuang, Simplified Han
-languages: "zh_Hans"   # Chinese (Simplified)
+languages: "cjy_Hans"  # Jin Chinese (Simplified)
+languages: "gan_Hans"  # Gan Chinese (Simplified)
+languages: "hak_Hans"  # Hakka Chinese (Simplified)
+languages: "hsn_Hans"  # Xiang Chinese (Simplified)
+languages: "lzh_Hans"  # Literary Chinese (Simplified)
+languages: "nan_Hans"  # Southern Min Chinese (Simplified)
+languages: "wuu_Hans"  # Wu Chinese (Simplified)
+languages: "yue_Hans"  # Yue Chinese (Simplified)
+languages: "za_Hans"  # Zhuang, Simplified Han
+languages: "zh_Hans"  # Simplified Chinese
 display_name: "Noto Serif Simplified Chinese"
 primary_script: "Hans"
-primary_language: "zh_Hans"

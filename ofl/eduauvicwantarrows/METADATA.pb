@@ -38,4 +38,4 @@ source {
   }
   branch: "main"
 }
-display_name: "Edu AU VIC WA NT Hand Arrows"
+display_name: "Edu Australia VIC WA NT Hand Arrows"

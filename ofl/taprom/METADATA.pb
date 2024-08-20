@@ -1,5 +1,5 @@
 name: "Taprom"
-designer: "Danh Hong"
+designer: "Danh Hong, Neapolitan"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-03-02"

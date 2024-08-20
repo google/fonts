@@ -10,7 +10,7 @@ fonts {
   filename: "NotoSerifTC[wght].ttf"
   post_script_name: "NotoSerifTC-ExtraLight"
   full_name: "Noto Serif TC ExtraLight"
-  copyright: "(c) 2017-2023 Adobe (http://www.adobe.com/)."
+  copyright: "(c) 2017-2024 Adobe (http://www.adobe.com/)."
 }
 subsets: "chinese-traditional"
 subsets: "cyrillic"
@@ -23,6 +23,15 @@ axes {
   min_value: 200.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://www.github.com/notofonts/noto-cjk"
+  commit: "985fa52c81c1d6692ccdd82bc3656e8fb932fd89"
+  files {
+    source_file: "google-fonts/NotoSerifTC[wght].ttf"
+    dest_file: "NotoSerifTC[wght].ttf"
+  }
+  branch: "main"
+}
 is_noto: true
 languages: "cjy_Hant"  # Jin Chinese
 languages: "gan_Hant"  # Gan Chinese
@@ -31,9 +40,8 @@ languages: "hsn_Hant"  # Xiang Chinese
 languages: "lzh_Hant"  # Literary Chinese
 languages: "nan_Hant"  # Southern Min Chinese
 languages: "wuu_Hant"  # Wu Chinese
-languages: "yue_Hant"  # Cantonese
-languages: "za_Hant"   # Zhuang, Traditional Han
-languages: "zh_Hant"   # Chinese (Traditional)
+languages: "yue_Hant"  # Yue Chinese
+languages: "za_Hant"  # Zhuang, Traditional Han
+languages: "zh_Hant"  # Chinese (Traditional)
 display_name: "Noto Serif Traditional Chinese"
 primary_script: "Hant"
-primary_language: "zh_Hant"

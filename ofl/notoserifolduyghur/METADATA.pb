@@ -18,7 +18,8 @@ subsets: "menu"
 subsets: "old-uyghur"
 source {
   repository_url: "https://github.com/notofonts/old-uyghur"
-  archive_url: "https://github.com/notofonts/old-uyghur/releases/download/NotoSerifOldUyghur-v1.003/NotoSerifOldUyghur-v1.003.zip"
+  commit: "da8ad06ede81ce5a88624f05a916306aa9179f5f"
+  archive_url: "https://github.com/notofonts/old-uyghur/releases/download/NotoSerifOldUyghur-v1.004/NotoSerifOldUyghur-v1.004.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"

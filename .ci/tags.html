@@ -1,17 +1,19 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 
 <body>
   <div id="app">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link v-for="family in uniqueFamilies" :href="familyLink(family)" rel="stylesheet">
 
     <h1>Google Fonts Tagger</h1>
 
     <div id="panel">
       <div class="panel-tile">
         <label>Current tag:</label>
-        <select v-model="CurrentCategory">
+        <select v-model="CurrentCategory" style="max-width: 300px;">
           <option v-for="category in sortedCategories" :key="category" :value="category">
             {{ category }}
           </option>
@@ -33,8 +35,7 @@
       <div v-if="isEdited" id="edited-panel">Edited</div>
     </div>
 
-    <div class="item" v-for="family in sortedFamilies" :key="family">
-      <link :href="familyLink(family)" rel="stylesheet">
+    <div class="item" v-for="family in sortedFamilies" :key="family.Family">
       <div style="float: left; width: 150px;">
         <b>{{ family.Family }}</b>
       </div>
@@ -42,8 +43,11 @@
         <input style="width: 50px;" v-model.lazy="family.Weight" @input="edited" placeholder="family.Weight">
         <button @click="removeFamily(family)">X</button>
       </div>
-      <div :style="familyStyle(family)" contenteditable="true">      
-        The quick brown fox jumps over the lazy dog
+      <div v-if="ready" :style="familyStyle(family)" contenteditable="true">
+        {{ familyPangram(family) }}
+      </div>
+      <div v-else>
+        Loading...
       </div>
     </div>
 
@@ -56,16 +60,36 @@
     el: '#app',
     data() {
       return {
+        ready: false,
         isEdited: false,
         newFamily: '',
         newWeight: '',
         CurrentCategory: "/Expressive/Calm",
         Categories: new Set(),
-        Families: []
+        Families: [],
+        Pangrams: new Map([
+          ["English", "The quick brown fox jumps over the lazy dog."],
+          ["Greek", "Ζαφείρι δέξου πάγκαλο, βαθῶν ψυχῆς τὸ σῆμα"],
+          ["Cyrillic", "В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!"],
+          ["Japanese", "いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせす（ん"],
+          ["Chinese", "視野無限廣，窗外有藍天"],
+          ["Arabic", "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"],
+          ["Hebrew", "שפן אכל קצת גזר בטעם חסה, ודי."],
+          ["Devanagari", "ऋषियों को सताने वाले दुष्ट राक्षसों के राजा रावण का सर्वनाश करने वाले विष्णुवतार भगवान श्रीराम, अयोध्या के महाराज दशरथ के बड़े सपुत्र थे।"],
+          ["Bengali", "যেহেতু মানব পরিবারের সকল সদস্যের সমান ও অবিচ্ছেদ্য অধিকারসমূহ"],
+          ["Gujarati", "કેમ કે માનવકુટુંબના દરેક સભ્યની પરંપરાપ્રાપ્ત પ્રતિષ્ઠાને અને"],
+          ["Telugu", "మానవకుటంబమునందలి వ్యక్తులందరికిని గల ఆజన్మసిద్ధమైన ప్రతిపత్తిని"],
+          ["Kannada", "ಎಲ್ಲಾ ಮಾನವರೂ ಸ್ವತಂತ್ರರಾಗಿಯೇ ಜನಿಸಿದ್ದಾರೆ. ಹಾಗೂ ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ"],
+          ["Khmer", "ដោយយល់ឃើញថា ការទទួលស្គាល់សេចក្ដីថ្លៃថ្នូរជាប់ពីកំណើត និងសិទ្ធិស្មើភាពគ្នា"],
+          ["Phags Pa", "ꡗ ꡈꡱ ᠂ ꡒ ꡂ ꡈꡞ ᠂ ꡚꡖꡋ ꡈꡞꡋꡨꡖ ꡗꡛꡧꡖ ꡈꡋ ꡈꡱꡨꡖ ꡳꡬꡖ"],
+          ["Tamil", "மனிதக் குடும்பத்தினைச் சேர்ந்த யாவரதும் உள்ளார்ந்த"],
+        ]),
+        FamilyScripts: new Map(),
       };
     },
     created() {
       this.loadCSV();
+      this.loadFamilyPangrams();
     },
     computed: {
       sortedFamilies() {
@@ -74,16 +98,64 @@
         filtered.sort(function(a, b) {return b.Weight - a.Weight;});
         return filtered;
       },
+      uniqueFamilies() {
+        return Array.from(new Set(this.Families.map((family) => family.Family)));
+      },
       sortedCategories() {
         return Array.from(this.Categories).sort();
       }
     },
     methods: {
+      familyPangram(family) {
+        return this.Pangrams.get(this.FamilyScripts.get(family.Family));
+      },
       edited() {
         this.isEdited = true;
       },
+      parseUnicode(str) {
+        let ranges = str.split(",");
+        let script = "English";
+        let scripts = {
+          "U+600-6FF": "Arabic",
+          "U+900-97F": "Devanagari",
+          "U+590-5FF": "Hebrew",
+          "U+A80-AFF": "Gujarati",
+          "U+C00-C7F": "Telugu",
+          "U+C80-CFF": "Kannada",
+          "U+980-9FE": "Bengali",
+          "U+1780-17FF": "Khmer",
+          "U+A840-A877": "Phags Pa",
+          "U+0B82-0BFA": "Tamil",
+        }
+        for (let i = 0; i < ranges.length; i++) {
+          for (let key in scripts) {
+            if (ranges[i].includes(key)) {
+              script = scripts[key];
+              break;
+            }
+          }
+        }
+        return script;
+      },
+      async loadFamilyPangrams(delay = 1000) {
+        await document.fonts.ready;
+        let result = new Map();
+        let fonts = document.fonts;
+        fonts.forEach((font) => {
+          if (!result.has(font.family)) {
+            result.set(font.family, this.parseUnicode(font.unicodeRange));
+          }
+        });
+        console.log(result.size)
+        if (result.size < 1000) {
+          console.log("retry")
+          setTimeout(() => this.loadFamilyPangrams(), delay);
+        }
+        this.FamilyScripts = result;
+        this.ready = true;
+      },
       familyLink(Family) {
-        return "https://fonts.googleapis.com/css2?family=" + Family.Family.replace(" ", "+") + "&display=swap"
+        return "https://fonts.googleapis.com/css2?family=" + Family.replace(" ", "+") + "&display=swap"
       },
       familyCSSClass(Family) {
         let cssName = Family.family.replace(" ", "-").toLowerCase();
@@ -110,7 +182,6 @@
       },
       saveCSV() {
         this.Families = this.Families.filter((t) => t.Family !== "");
-        console.log(this.Families);
         let csv = Papa.unparse(this.Families,
           {
             columns: ["Family", "Group/Tag", "Weight"],
@@ -130,7 +201,6 @@
       },
       prCSV() {
         this.Families = this.Families.filter((t) => t.Family !== "");
-        console.log(this.Families);
         let csv = Papa.unparse(this.Families,
           {
             columns: ["Family", "Group/Tag", "Weight"],

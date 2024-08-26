@@ -1,6 +1,350 @@
 {
-    "last_run": "2024-08-19",
+    "last_run": "2024-08-26",
     "commits": [
+        {
+            "date": "2024-08-23T12:46:42",
+            "title": "Merge pull request #8076 from google/tag-scripts",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "d917462c0d0f44b2e205aeb769790a175b3e752f"
+        },
+        {
+            "date": "2024-08-23T08:36:41",
+            "title": "tags.html: auto select pangram based on scripts supported in the font",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "56a5e154c1ca4a6dba476b902477116bb9c45d5d"
+        },
+        {
+            "date": "2024-08-22T14:44:25",
+            "title": "Merge pull request #7849 from google/gftools_packager_ofl_notoserifolduyghur",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "0c3004841b06eddebe04d821bf67f6e8634b2993"
+        },
+        {
+            "date": "2024-08-22T01:22:04",
+            "title": "Update to_production.txt (#8074)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dd774d21ab1d83c7d2e27bc90ff6f43e2766ea10"
+        },
+        {
+            "date": "2024-08-21T14:07:39",
+            "title": "Merge pull request #7964 from google/gftools_packager_ofl_notosansmongolian",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "fe01d7048643b1060e241928654258479a2cfc95"
+        },
+        {
+            "date": "2024-08-21T09:23:36",
+            "title": "Merge pull request #7996 from google/ftxvalidator",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0019a0cc2d72c7d06e7b13009281800d57f87758"
+        },
+        {
+            "date": "2024-08-21T02:58:14",
+            "title": "Update to_sandbox.txt (#8072)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "12da35c19566e4b56c954afea10920d894fb0db7"
+        },
+        {
+            "date": "2024-08-20T22:41:48",
+            "title": "Merge pull request #8071 from google/csv-Edu-AU-VIC-addition",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "489c9ce18dea2eec808cbce15cc16c2057a8ff16"
+        },
+        {
+            "date": "2024-08-20T22:26:43",
+            "title": "Edu AU VIC WA NT families tagging added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6d24d1b62e3e5fd8d263c06b615d5411ee5b9e6e"
+        },
+        {
+            "date": "2024-08-20T22:06:53",
+            "title": "Merge pull request #8070 from google/EduAUVICWANTArrows-smallfix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dc8dc1b7ea7627f4ffdedc1ab857640108114491"
+        },
+        {
+            "date": "2024-08-20T21:56:40",
+            "title": "Merge pull request #8020 from google/gftools_packager_ofl_eduauvicwantdots",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "3ee8c2408447ac45ae1a83116794301d9eccda1a"
+        },
+        {
+            "date": "2024-08-20T21:53:20",
+            "title": "Edu AU VIC WA NT Arrows display_name fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "28b557484787dc9fb85cdaaacc8c612eabe5b659"
+        },
+        {
+            "date": "2024-08-20T21:39:57",
+            "title": "Merge pull request #8021 from google/gftools_packager_ofl_eduauvicwantguides",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "8603b7d261c0cb5ce6130ff7c09fcc16541452d5"
+        },
+        {
+            "date": "2024-08-20T21:15:59",
+            "title": "Update METADATA.pb display_name",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "8715b34018aaaf1c00a6bddf3bb5f4a3bfae8be3"
+        },
+        {
+            "date": "2024-08-20T21:05:48",
+            "title": "Merge pull request #8050 from google/gftools_packager_ofl_notoserifhk",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "f8be24ff9d33b38f55ff97d90c6be192b06c24ee"
+        },
+        {
+            "date": "2024-08-20T20:55:18",
+            "title": "Merge pull request #8051 from google/gftools_packager_ofl_notoserifjp",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "d38f0ff04647b321cc37fd6dbccabcd59caa2c7e"
+        },
+        {
+            "date": "2024-08-20T20:50:04",
+            "title": "Update METADATA.pb display_name",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "42cbd18e0c1c1902a59a09bfce961c8d209ef16d"
+        },
+        {
+            "date": "2024-08-20T20:47:23",
+            "title": "Merge pull request #8052 from google/gftools_packager_ofl_notoserifkr",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "a547ca6001454ebeee4b23917e90723e217d062f"
+        },
+        {
+            "date": "2024-08-20T18:29:34",
+            "title": "Merge pull request #8053 from google/gftools_packager_ofl_notoserifsc",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "001e4fa8f1347e5334a7c34d666254c23f1fc9c2"
+        },
+        {
+            "date": "2024-08-20T17:33:41",
+            "title": "Merge pull request #8056 from google/gftools_packager_ofl_notoseriftc",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "3f2272070e64d4c0f2eceff0b2346700a7fb7f2a"
+        },
+        {
+            "date": "2024-08-20T17:08:10",
+            "title": "Merge pull request #8063 from google/davelab6-seaweed-khmer",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "66ef41cdc1964369c73d1ddd712bea0d66f4bc9e"
+        },
+        {
+            "date": "2024-08-20T17:06:08",
+            "title": "Merge pull request #8069 from google/lists-Ag-20",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "24fc5f168f1f4cbf2b34dbc786b1f09905aae021"
+        },
+        {
+            "date": "2024-08-20T16:20:52",
+            "title": "delisting language PR#7792 -- already Live",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dd4cb38d8bdda5e2ed099f919e20e57cdaf0250d"
+        },
+        {
+            "date": "2024-08-20T15:52:30",
+            "title": "push lists updated August 20th",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0e3cbcff62fbb48b175f881c37cf2ce3afafe953"
+        },
+        {
+            "date": "2024-08-20T13:01:57",
+            "title": "Merge pull request #8068 from google/m4rc1e-patch-9",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "06ef02c1cc6cee40f7ee0be16ff16d78da1b1682"
+        },
+        {
+            "date": "2024-08-20T13:01:36",
+            "title": "families.csv: Add more families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7127acd6d7868f2e8d4432d6e8fd7d15b883bff2"
+        },
+        {
+            "date": "2024-08-20T11:45:41",
+            "title": "Merge pull request #8048 from ahmoin/fix-typos",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "546d39db54176476b55f01a991b83d05e28658d7"
+        },
+        {
+            "date": "2024-08-20T11:35:33",
+            "title": "Merge pull request #8066 from google/m4rc1e-patch-8",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "840f99c57ed03eaf74c726f9a15a13aceb38601f"
+        },
+        {
+            "date": "2024-08-20T10:56:53",
+            "title": "families.csv: Fix /Expressive/Vintage",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "23d919cb83a52f7a44052b8fcf25de472fac7cb1"
+        },
+        {
+            "date": "2024-08-20T10:42:28",
+            "title": "Merge pull request #8065 from google/m4rc1e-patch-7",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "ca4eb74847ca386b7c22ba7656f93d242de5935d"
+        },
+        {
+            "date": "2024-08-20T10:41:18",
+            "title": "tags: add some families and rm trailing commas",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "8ea97ce4fe81dc57fefd2fbd2cf083bbb81683a4"
+        },
+        {
+            "date": "2024-08-19T22:00:48",
+            "title": "Update fasthand, taprom and seaweedscript credits",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "family",
+            "id": "707e04e90c873aab01ca016926f8f8b9aace7363"
+        },
+        {
+            "date": "2024-08-19T21:40:48",
+            "title": "Merge pull request #8055 from google/tags-vintage",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "3f5f2f8704fbbb59544666934772b7187ebf7363"
+        },
+        {
+            "date": "2024-08-19T16:02:25",
+            "title": "Noto Serif TC: Version 2.003-H1;hotconv 1.1.1;makeotfexe 2.6.0 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "6d17dab13b85129360f9748f057c7f67c5f484d4"
+        },
+        {
+            "date": "2024-08-19T14:50:50",
+            "title": "tags: Update Vintage",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "e44f05fdc7e823860631c6636e8f7053f23ee6dc"
+        },
+        {
+            "date": "2024-08-19T12:43:15",
+            "title": "Noto Serif SC: Version 2.003-H1;hotconv 1.1.1;makeotfexe 2.6.0 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "2e61f4355afd22b801791b0df176065082423b87"
+        },
+        {
+            "date": "2024-08-19T11:00:26",
+            "title": "Noto Serif KR: Version 2.003-H1;hotconv 1.1.1;makeotfexe 2.6.0 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "d58d8d9f1c5c68363f51f4696bb79af59bc7cf0e"
+        },
+        {
+            "date": "2024-08-19T10:56:23",
+            "title": "Noto Serif JP: Version 2.003-H1;hotconv 1.1.1;makeotfexe 2.6.0 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "8a7c74854f766ae441c7584925cc0ec626fc5aa6"
+        },
+        {
+            "date": "2024-08-19T10:24:46",
+            "title": "Override packager",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "213d5bb1b5a02f891e14642d3d2899a45d2bc5d3"
+        },
+        {
+            "date": "2024-08-19T09:48:29",
+            "title": "Noto Serif HK: Version 2.003-H1;hotconv 1.1.1;makeotfexe 2.6.0 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "e77694ec3e5af6a320303ab387537e9fe995c595"
+        },
+        {
+            "date": "2024-08-19T09:00:27",
+            "title": "Merge pull request #8049 from google/loud-tag",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a51fe019e48c071e3afc596c54aa21aa13feb02c"
+        },
+        {
+            "date": "2024-08-19T08:57:29",
+            "title": "tags: add new loud tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "55122aaeaf86f57cc2488a3fd1b5ab9720471a2c"
+        },
+        {
+            "date": "2024-08-17T15:31:53",
+            "title": "fix: communites -> communities typos",
+            "author": "Ahsan Moin",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e0f317d04eb5e1eb541ba88d0f84dd607dc5f601"
+        },
         {
             "date": "2024-08-17T00:55:19",
             "title": "Merge pull request #8046 from google/SUSE-designer-typo-fix",
@@ -354,6 +698,22 @@
             "id": "30eb0ab9368f777b3b03e3d4e32f586c0e575d4d"
         },
         {
+            "date": "2024-08-13T12:59:58",
+            "title": "Edu VIC WA NT Guides: Version 1.001 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "7228394178c87fc12cef5dd44c78301d7988ff10"
+        },
+        {
+            "date": "2024-08-13T12:47:40",
+            "title": "Edu VIC WA NT Dots: Version 1.001 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "d287d97d3105f2ca9a354b54490882a41f620474"
+        },
+        {
             "date": "2024-08-13T12:18:40",
             "title": "Rename and update font",
             "author": "Simon Cozens",
@@ -382,8 +742,16 @@
             "title": "Removed push to_sandbox items.",
             "author": "Garret Rieger",
             "status": "modified",
-            "kind": "designer",
+            "kind": "family",
             "id": "539cd46437b64ccdf41f21e253946625f4e31f28"
+        },
+        {
+            "date": "2024-08-09T14:39:08",
+            "title": "Remove dead link",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "768e9dbdafe82ae0604b2b678047ad28e2914b9f"
         },
         {
             "date": "2024-08-09T13:43:18",
@@ -416,6 +784,22 @@
             "status": "modified",
             "kind": "metadata",
             "id": "153f76f2f9bca2a65510231c803af25811b74f97"
+        },
+        {
+            "date": "2024-08-07T15:15:31",
+            "title": "Add ftxvalidator CI run",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "929dc59a1dc2872889272d1d67b47e274359921a"
+        },
+        {
+            "date": "2024-08-07T08:29:06",
+            "title": "Move git parsing logic to shared file",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0aa73ac303633a7e5e748ff1baffbbfdd4892c73"
         },
         {
             "date": "2024-08-07T08:16:36",
@@ -645,9 +1029,17 @@
             "date": "2024-07-26T08:47:03",
             "title": "Add designer: Vladimir Nikolic",
             "author": "Emma Marichal",
-            "status": "new",
-            "kind": "designer",
+            "status": "modified",
+            "kind": "family",
             "id": "ab0111f8420ea9de5d86aa68e7a1d44abd2bc58d"
+        },
+        {
+            "date": "2024-07-24T17:03:37",
+            "title": "Noto Sans Mongolian: Version 3.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "20fd71eed00436ff92cacdffd5574403bc4ce23a"
         },
         {
             "date": "2024-07-23T19:00:09",
@@ -2680,6 +3072,14 @@
             "status": "modified",
             "kind": "family",
             "id": "ae0acde5fb54af560485545d6d015906c89782e0"
+        },
+        {
+            "date": "2024-06-11T13:48:34",
+            "title": "Noto Serif Old Uyghur: Version 1.004; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "93d81b6b650ae0f96e0d1adef6e1a8c447b80508"
         },
         {
             "date": "2024-06-11T10:05:55",
@@ -66988,19 +67388,6 @@
     ],
     "pushes": {
         "sandbox": [],
-        "production": [
-            {
-                "path": "lang/languages/mlt_Latn.textproto",
-                "category": "Deleted",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7680"
-            },
-            {
-                "path": "lang/languages/sa_Sylo.textproto",
-                "category": "Deleted",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7248"
-            }
-        ]
+        "production": []
     }
 }

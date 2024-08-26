@@ -14,6 +14,5 @@ fonts {
 }
 subsets: "emoji"
 subsets: "menu"
-primary_script: "Jpan"
 stroke: "SANS_SERIF"
 classifications: "SYMBOLS"

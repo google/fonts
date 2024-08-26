@@ -15,4 +15,4 @@ fonts {
 subsets: "chinese-simplified"
 subsets: "latin"
 subsets: "menu"
-primary_script: "Jpan"
+primary_script: "Hans"

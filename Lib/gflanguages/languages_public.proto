@@ -48,8 +48,9 @@ message ExemplarCharsProto {
   optional string numerals = 4;
   optional string punctuation = 5;
   optional string index = 6;
+  optional string removable = 7;  // Base characters which can be ignored when determining language support
 
-  // Next = 7;
+  // Next = 8;
 }
 
 message SampleTextProto {

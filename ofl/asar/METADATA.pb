@@ -19,3 +19,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/SorkinType/Asar"
 }
+primary_script: "Deva"

@@ -36,3 +36,4 @@ source {
 is_noto: true
 languages: "mis_Nshu"  # Xiangnan Tuhua
 display_name: "Noto Sans Nüshu"
+primary_script: "Nshu"

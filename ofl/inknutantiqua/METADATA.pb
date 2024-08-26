@@ -73,4 +73,3 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/clauseggers/Inknut-Antiqua"
 }
-primary_script: "Deva"

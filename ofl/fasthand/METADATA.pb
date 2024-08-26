@@ -27,5 +27,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Khmr"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

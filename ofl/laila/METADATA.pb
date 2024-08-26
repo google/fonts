@@ -55,5 +55,6 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/itfoundry/laila"
 }
+primary_script: "Deva"
 stroke: "SERIF"
 classifications: "DISPLAY"

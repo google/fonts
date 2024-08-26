@@ -31,5 +31,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Jpan"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

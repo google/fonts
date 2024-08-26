@@ -44,6 +44,7 @@ def LoadLanguages(base_dir=DATA_DIR):
     for textproto_file in glob.iglob(os.path.join(languages_dir, "*.textproto")):
         with open(textproto_file, "r", encoding="utf-8") as f:
             language = text_format.Parse(f.read(), languages_public_pb2.LanguageProto())
+            assert language.id not in langs, f"Duplicate language id: {language.id}"
             langs[language.id] = language
     return langs
 
@@ -57,6 +58,7 @@ def LoadScripts(base_dir=DATA_DIR):
     for textproto_file in glob.iglob(os.path.join(scripts_dir, "*.textproto")):
         with open(textproto_file, "r", encoding="utf-8") as f:
             script = text_format.Parse(f.read(), languages_public_pb2.ScriptProto())
+            assert script.id not in scripts, f"Duplicate script id: {script.id}"
             scripts[script.id] = script
     return scripts
 
@@ -70,6 +72,7 @@ def LoadRegions(base_dir=DATA_DIR):
     for textproto_file in glob.iglob(os.path.join(regions_dir, "*.textproto")):
         with open(textproto_file, "r", encoding="utf-8") as f:
             region = text_format.Parse(f.read(), languages_public_pb2.RegionProto())
+            assert region.id not in regions, f"Duplicate region id: {region.id}"
             regions[region.id] = region
     return regions
 

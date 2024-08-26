@@ -38,3 +38,4 @@ source {
   }
   branch: "main"
 }
+primary_script: "Deva"

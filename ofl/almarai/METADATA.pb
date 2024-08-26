@@ -39,9 +39,10 @@ fonts {
   full_name: "Almarai ExtraBold"
   copyright: "Copyright (c) 2019 by Almarai. All rights reserved."
 }
-source {
-  repository_url: "https://github.com/JuergenWillrodt/Almarai"
-}
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/JuergenWillrodt/Almarai"
+}
+primary_script: "Arab"

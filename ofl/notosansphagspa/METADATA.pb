@@ -45,3 +45,4 @@ languages: "mn_Phag"  # Mongolian, Phags-pa
 languages: "sa_Phag"  # Sanskrit, Phags-pa
 languages: "zh_Phag"  # Chinese, Phags-pa
 display_name: "Noto Sans Phags-pa"
+primary_script: "Phag"

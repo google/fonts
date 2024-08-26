@@ -47,3 +47,4 @@ sample_text {
   poster_md: "𘰭𘱀 𘬜𘳍𘰄"
   poster_lg: "𘰭𘱀"
 }
+primary_script: "Kits"

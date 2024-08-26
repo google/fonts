@@ -48,3 +48,4 @@ sample_text {
   poster_md: "𑫢𑫪𑫫𑫬𑫭𑫮𑫯 𑫔𑫜𑫝"
   poster_lg: "𑫀𑫁𑫂"
 }
+primary_script: "Pauc"

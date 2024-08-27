@@ -23,10 +23,16 @@
       <div class="panel-tile">
         <form @submit.prevent="AddFamily">
           <label>Add family:</label>
-          <input v-model="newFamily" required placeholder="Family Name">
+          <input list="items" v-model="newFamily" required placeholder="Family Name">
+          <datalist id="items">
+            <option v-for="family in uniqueFamilies" :value="family">
+          </datalist>
           <input v-model="newWeight" required placeholder="Score">
           <button>Add</button>
         </form>
+      </div>
+      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;">
+
       </div>
       <div class="panel-tile">
         <button @click="prCSV">Open Pull Request</button>
@@ -245,7 +251,7 @@
       src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
   }
   #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: left;

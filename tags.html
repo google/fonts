@@ -188,6 +188,15 @@
       },
       saveCSV() {
         this.Families = this.Families.filter((t) => t.Family !== "");
+        this.Families = Array.from(this.Families).sort((a, b) => {
+          if (`${a.Family},${a['Group/Tag']}` < `${b.Family},${b['Group/Tag']}`) {
+            return -1;
+          }
+          if (`${a.Family},${a['Group/Tag']}` > `${b.Family},${b['Group/Tag']}`) {
+            return 1;
+          }
+          return 0;
+        });
         let csv = Papa.unparse(this.Families,
           {
             columns: ["Family", "Group/Tag", "Weight"],
@@ -207,6 +216,15 @@
       },
       prCSV() {
         this.Families = this.Families.filter((t) => t.Family !== "");
+        this.Families = Array.from(this.Families).sort((a, b) => {
+          if (`${a.Family},${a['Group/Tag']}` < `${b.Family},${b['Group/Tag']}`) {
+            return -1;
+          }
+          if (`${a.Family},${a['Group/Tag']}` > `${b.Family},${b['Group/Tag']}`) {
+            return 1;
+          }
+          return 0;
+        });
         let csv = Papa.unparse(this.Families,
           {
             columns: ["Family", "Group/Tag", "Weight"],

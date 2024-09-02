@@ -1,6 +1,166 @@
 {
-    "last_run": "2024-08-26",
+    "last_run": "2024-09-02",
     "commits": [
+        {
+            "date": "2024-08-30T09:32:11",
+            "title": "Merge pull request #8111 from google/m4rc1e-patch-9",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "1f294bb2bcd35b8a68b4c7ae7fceb469f91207ba"
+        },
+        {
+            "date": "2024-08-29T15:08:41",
+            "title": "families.csv: sort alphabetically",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "09fd4375878a45f6e8327027cb512867ca9fa169"
+        },
+        {
+            "date": "2024-08-29T15:06:56",
+            "title": "Merge pull request #8110 from google/tags-sort",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "72687ed61799a9aacd90f79ed38d052216072ed5"
+        },
+        {
+            "date": "2024-08-29T15:05:48",
+            "title": "tags.html: sort output alphabetically",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9ae70079a87d6025e0559d9aca3459376ae07f02"
+        },
+        {
+            "date": "2024-08-29T14:50:19",
+            "title": "Merge pull request #8109 from google/tags-rm-fams",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "5a9eec5effbff09681ab290c6d7a892ba190a6f2"
+        },
+        {
+            "date": "2024-08-29T14:41:52",
+            "title": "families.csv: rm families that do not exist",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "34eee7d024a7db15de919d137e2b7ec811236ba2"
+        },
+        {
+            "date": "2024-08-28T08:31:02",
+            "title": "families.csv: rm vintage tags from barcode families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "837ea2455cc1e7291f28820071cdebaff5b4e752"
+        },
+        {
+            "date": "2024-08-27T21:11:47",
+            "title": "Update to_sandbox.txt (#8106)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a51886a7bb68bcfa2560f3cf46a8c4232feaa3ed"
+        },
+        {
+            "date": "2024-08-27T14:41:42",
+            "title": "Merge pull request #8079 from google/lists-Aug-23",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c22de03fc6441f6f9fc70c248f7805069f5e1108"
+        },
+        {
+            "date": "2024-08-27T14:27:25",
+            "title": "COLRv1 font deleted from to prod list",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "80e884965b7cdb2f2ddee136af66ef0dba3ad214"
+        },
+        {
+            "date": "2024-08-27T12:47:06",
+            "title": "Merge pull request #8103 from google/m4rc1e-patch-9",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "62413055a565ca94d5aca13233cc09cc3ae42e8b"
+        },
+        {
+            "date": "2024-08-27T12:00:25",
+            "title": "families.csv: Add more families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fb5cce805852973cbd8c8d91f25b77b8289d39e2"
+        },
+        {
+            "date": "2024-08-27T11:10:24",
+            "title": "Merge pull request #8102 from google/tags-dave-req",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0f518c6f8d316692a4386aa28f20bd5c66d2e44b"
+        },
+        {
+            "date": "2024-08-27T10:40:44",
+            "title": "tags: implement dave c feedback",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ef67e71ecb9c57d1e6487654bcddbb7c6797a498"
+        },
+        {
+            "date": "2024-08-27T09:38:02",
+            "title": "Merge pull request #8077 from google/tags-no-fams",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "9f71aef8fd0f92d447917d615d1b82d005fd115c"
+        },
+        {
+            "date": "2024-08-27T09:37:14",
+            "title": "tags: Remove families not in dev or upcoming in the pipeline",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "315c79f79390e53a32f65c95a711cb4406ddfd5f"
+        },
+        {
+            "date": "2024-08-27T08:59:59",
+            "title": "Merge pull request #8101 from google/m4rc1e-patch-9",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "57e348189ff2f61a13d7fa95715198f9dde1dec7"
+        },
+        {
+            "date": "2024-08-27T08:39:20",
+            "title": "knowledge: rm sizecalc.com url",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1f6dff2c55a78e4c30cf5a9768d15dffca8d760e"
+        },
+        {
+            "date": "2024-08-26T05:58:49",
+            "title": "[Font Category Tagginh] Updates to data for Business, Competent, Sincere, and Stiff (#8081)",
+            "author": "Kalapi Gajjar",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "132fe269f2819870f2405f4e55266085867d6251"
+        },
+        {
+            "date": "2024-08-23T19:53:14",
+            "title": "Push lists August 23 update",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "34ccebfc4846a4a787a8eb8c8ab32eba7c01579e"
+        },
         {
             "date": "2024-08-23T12:46:42",
             "title": "Merge pull request #8076 from google/tag-scripts",
@@ -67388,6 +67548,61 @@
     ],
     "pushes": {
         "sandbox": [],
-        "production": []
+        "production": [
+            {
+                "path": "ofl/suse",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8044"
+            },
+            {
+                "path": "catalog/designers/adamyeo",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8035"
+            },
+            {
+                "path": "catalog/designers/batsiraimadzonga",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8005"
+            },
+            {
+                "path": "catalog/designers/gustavoibarra",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7547"
+            },
+            {
+                "path": "catalog/designers/renebieder",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8045"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/the_canadian_syllabics/lessons/inuktut_syllabics/content.md",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8048"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/using_type/lessons/the_complications_of_typographic_size/content.md",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7918"
+            },
+            {
+                "path": "lang/languages/alq_Latn.textproto",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8048"
+            },
+            {
+                "path": "ofl/gamaamli",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8023"
+            }
+        ]
     }
 }

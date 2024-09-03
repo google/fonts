@@ -170,6 +170,7 @@ Alfa Slab One,/Expressive/Rugged,58
 Alfa Slab One,/Expressive/Vintage,56.4
 Alfa Slab One,/Slab/Geometric,50
 Alfa Slab One,/Slab/Humanist,50
+Alfa Slab One,/Serif/Fat Face,70
 Alice,/Expressive/Business,30
 Alice,/Expressive/Loud,19
 Alice,/Expressive/Vintage,76.7
@@ -876,6 +877,7 @@ Bevan,/Expressive/Vintage,79.8
 Bevan,/Slab/Geometric,40
 Bevan,/Slab/Humanist,60
 Bevan,/Expressive/Stiff,20
+Bevan,/Serif/Fat Face,60
 Bhavuka,/Expressive/Calm,52
 Bhavuka,/Expressive/Childlike,10
 Bhavuka,/Expressive/Cute,56
@@ -2132,6 +2134,7 @@ Diplomata,/Expressive/Rugged,46
 Diplomata,/Expressive/Vintage,94
 Diplomata,/Serif/Didone,100
 Diplomata,/Theme/Inline,100
+Diplomata,/Serif/Fat Face,70
 Diplomata SC,/Expressive/Calm,79
 Diplomata SC,/Expressive/Competent,97.5
 Diplomata SC,/Expressive/Innovative,93
@@ -3009,6 +3012,7 @@ Goblin One,/Expressive/Loud,97
 Goblin One,/Expressive/Sincere,70.1
 Goblin One,/Expressive/Vintage,83
 Goblin One,/Theme/Woodtype,80
+Goblin One,/Serif/Fat Face,50
 Gochi Hand,/Expressive/Artistic,42
 Gochi Hand,/Expressive/Childlike,79
 Gochi Hand,/Expressive/Cute,40
@@ -3737,6 +3741,9 @@ Kalam,/Script/Informal,100
 Kalam,/Theme/Brush,100
 Kalnia Glaze,/Expressive/Innovative,100
 Kalnia Glaze,/Theme/Inline,100
+Kalnia,/Serif/Didone,55
+Kalnia,/Expressive/Cute,14
+Kalnia,/Expressive/Playful,20
 Kameron,/Expressive/Business,46
 Kameron,/Expressive/Calm,99
 Kameron,/Expressive/Sincere,89
@@ -3992,6 +3999,13 @@ Kumar One,/Expressive/Vintage,56.7
 Kumar One,/Serif/Fat Face,30
 Kumar One,/Serif/Modern,100
 Kumar One,/Slab/Geometric,10
+Kumar One Outline,/Expressive/Futuristic,91
+Kumar One Outline,/Expressive/Innovative,92
+Kumar One Outline,/Serif/Fat Face,30
+Kumar One Outline,/Serif/Modern,100
+Kumar One Outline,/Slab/Geometric,10
+Kumar One Outline,/Theme/Inline,50
+Kumar One Outline,/Expressive/Stiff,97
 Kumbh Sans,/Expressive/Calm,99
 Kumbh Sans,/Sans/Geometric,100
 Kurale,/Expressive/Calm,73
@@ -4580,6 +4594,8 @@ Mate SC,/Expressive/Business,31
 Mate SC,/Expressive/Sincere,92
 Mate SC,/Expressive/Vintage,83.5
 Mate SC,/Serif/Humanist Venetian,50
+Matemasie,/Expressive/Playful,20
+Matemasie,/Expressive/Childlike,60
 Maven Pro,/Expressive/Calm,75
 Maven Pro,/Expressive/Futuristic,72
 Maven Pro,/Sans/Humanist,50
@@ -6172,6 +6188,8 @@ Plaster,/Theme/Art Deco,10
 Plaster,/Theme/Stencil,100
 Plaster,/Theme/Woodtype,80
 Plaster,/Expressive/Stiff,93
+Platypi,/Expressive/Business,85
+Platypi,/Serif/Old Style Garalde,50
 Play,/Expressive/Business,11
 Play,/Expressive/Calm,73
 Play,/Expressive/Futuristic,98
@@ -7130,6 +7148,7 @@ Rozha One,/Expressive/Loud,73
 Rozha One,/Expressive/Sincere,71
 Rozha One,/Expressive/Vintage,74
 Rozha One,/Serif/Didone,100
+Rozha One,/Serif/Fat Face,20
 Rubik,/Expressive/Business,69.2
 Rubik,/Expressive/Calm,98
 Rubik,/Expressive/Cute,1
@@ -8623,6 +8642,7 @@ Ultra,/Expressive/Loud,100
 Ultra,/Expressive/Vintage,84.5
 Ultra,/Slab/Clarendon,90
 Ultra,/Expressive/Stiff,60
+Ultra,/Serif/Fat Face,100
 Unbounded,/Expressive/Awkward,31
 Unbounded,/Expressive/Business,21
 Unbounded,/Expressive/Calm,77
@@ -9208,16 +9228,3 @@ Zilla Slab Highlight,/Slab/Humanist,70
 Zilla Slab Highlight,/Theme/Shaded,10
 Zilla Slab Highlight,/Theme/Techno,30
 Zilla Slab Highlight,/Expressive/Stiff,72
-Kalnia,/Serif/Didone,55
-Kalnia,/Expressive/Cute,14
-Kalnia,/Expressive/Playful,20
-Matemasie,/Expressive/Playful,20
-Matemasie,/Expressive/Childlike,60
-Platypi,/Expressive/Business,85
-Platypi,/Serif/Old Style Garalde,50
-Ultra,/Serif/Fat Face,100
-Alfa Slab One,/Serif/Fat Face,70
-Bevan,/Serif/Fat Face,60
-Diplomata,/Serif/Fat Face,70
-Goblin One,/Serif/Fat Face,50
-Rozha One,/Serif/Fat Face,20

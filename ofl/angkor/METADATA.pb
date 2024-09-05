@@ -27,5 +27,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Khmr"
 stroke: "SERIF"
 classifications: "DISPLAY"

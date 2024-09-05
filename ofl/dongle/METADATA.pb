@@ -59,5 +59,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Hang"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

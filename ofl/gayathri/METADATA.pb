@@ -33,5 +33,6 @@ fonts {
 subsets: "latin"
 subsets: "malayalam"
 subsets: "menu"
+primary_script: "Mlym"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

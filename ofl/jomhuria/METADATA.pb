@@ -15,5 +15,6 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+primary_script: "Arab"
 stroke: "SERIF"
 classifications: "DISPLAY"

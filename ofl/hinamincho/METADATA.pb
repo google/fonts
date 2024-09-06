@@ -34,5 +34,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Jpan"
 stroke: "SERIF"
 classifications: "DISPLAY"

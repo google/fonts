@@ -1,6 +1,198 @@
 {
-    "last_run": "2024-09-02",
+    "last_run": "2024-09-09",
     "commits": [
+        {
+            "date": "2024-09-06T12:51:50",
+            "title": "Merge pull request #8088 from google/primary-script-06",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "34f78ebb503b2e2d65cdec54822bbdb65055bb02"
+        },
+        {
+            "date": "2024-09-06T12:11:29",
+            "title": "Merge pull request #8087 from google/primary-script-05",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fec18951ce29981681739fa24c7381ca1928af94"
+        },
+        {
+            "date": "2024-09-06T12:11:05",
+            "title": "Merge pull request #8086 from google/primary-script-04",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3857c894ee313c365548600dd16c5bc1e3fe969f"
+        },
+        {
+            "date": "2024-09-06T11:45:17",
+            "title": "Merge pull request #8134 from google/gftools_packager_ofl_librefranklin",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "f1b6ddb6fdf48ed6935dac77f438bf4ede375b74"
+        },
+        {
+            "date": "2024-09-05T14:57:38",
+            "title": "Merge pull request #8139 from google/m4rc1e-patch-12",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "4f22e51da9bea567b6224ba1981b30977caa79bf"
+        },
+        {
+            "date": "2024-09-05T14:57:02",
+            "title": "families.csv: Add more families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0a134f57e755e852f0874b826efee91b0f0eaed3"
+        },
+        {
+            "date": "2024-09-05T10:17:54",
+            "title": "Merge pull request #8135 from google/tag-hist",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "46b0e31be806a468b3ae2e1ef3a5afcb5e37c839"
+        },
+        {
+            "date": "2024-09-05T10:11:19",
+            "title": "tags.html: Add history panel",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "518041cf5dbfbd423c766079c515210e2005480b"
+        },
+        {
+            "date": "2024-09-05T09:40:50",
+            "title": "remove statics",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "8e7a5aa44f9783d6d057d73ddc383ed7a9a58e08"
+        },
+        {
+            "date": "2024-09-05T09:30:40",
+            "title": "Libre Franklin: Version 3.000 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "a2daac853851393356624c3a63cf2727da3d1960"
+        },
+        {
+            "date": "2024-09-05T08:48:25",
+            "title": "Merge pull request #8085 from google/primary-script-03",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b7a7bc9fed110e373eee9e9dd129275e30170d91"
+        },
+        {
+            "date": "2024-09-05T08:47:39",
+            "title": "Merge pull request #8084 from google/primary-script-02",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "15dbf767deb8af8404e4574cf06efca1e8b17f1b"
+        },
+        {
+            "date": "2024-09-04T15:22:13",
+            "title": "Merge pull request #8133 from google/m4rc1e-patch-12",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "6ea9db4fec2dd76076dd7a532448313043821a6c"
+        },
+        {
+            "date": "2024-09-04T15:17:51",
+            "title": "Update families.csv",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "98152af944618dd1c066cededf67e4453b567011"
+        },
+        {
+            "date": "2024-09-03T16:08:27",
+            "title": "Pull in updates from lang subtree (#8132)",
+            "author": "Nathan Williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4528dc803bd11a5602c320edf270d7975cd12dd0"
+        },
+        {
+            "date": "2024-09-03T16:08:16",
+            "title": "Merge pull request #8131 from google/rsheeter-patch-3",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "882a1084c89761dd362022105415425012be86c5"
+        },
+        {
+            "date": "2024-09-03T16:01:39",
+            "title": "Fix typos in Alata description",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "f4fdab0f9a868f3b9c357dce00b468a0e29e740a"
+        },
+        {
+            "date": "2024-09-03T15:20:32",
+            "title": "Merge pull request #8129 from google/m4rc1e-patch-10",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "5a7eb98527690028ffce3a1db175de70047006b5"
+        },
+        {
+            "date": "2024-09-03T15:16:19",
+            "title": "families.csv: sort",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "564d2306b475323077f2efa1c503d77aa0f6601e"
+        },
+        {
+            "date": "2024-09-03T09:15:57",
+            "title": "Merge pull request #8083 from google/primary-script-01",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cee2b3a938f412eb30c32c8d04fde5a09fc4d903"
+        },
+        {
+            "date": "2024-09-03T08:34:38",
+            "title": "Merge pull request #8128 from google/universalthirst-typo-tags",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "e9da2bd354720d25536a5842ea4f4f6a5ca38f03"
+        },
+        {
+            "date": "2024-09-03T08:31:37",
+            "title": "Adds fixes to typographic tag issues identified by Evan",
+            "author": "Kalapi Gajjar",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d85a2d015228feedb214b07db02090453d1d195b"
+        },
+        {
+            "date": "2024-09-02T12:44:01",
+            "title": "Merge pull request #8125 from google/revert-8111-m4rc1e-patch-9",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "9a1997e8b7a10e0e47e5de54b86b4395b4269e2b"
+        },
+        {
+            "date": "2024-09-02T12:43:51",
+            "title": "Revert \"families.csv: sort alphabetically\"",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c1be4af9ca972cb4bb259bf1210537d2996c32fa"
+        },
         {
             "date": "2024-08-30T09:32:11",
             "title": "Merge pull request #8111 from google/m4rc1e-patch-9",
@@ -142,8 +334,64 @@
             "title": "knowledge: rm sizecalc.com url",
             "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "1f6dff2c55a78e4c30cf5a9768d15dffca8d760e"
+        },
+        {
+            "date": "2024-08-26T10:07:32",
+            "title": "Remove primary script Deva for Inknut",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8460441912bd9abd34510e11a7c096cb102d885c"
+        },
+        {
+            "date": "2024-08-26T09:52:59",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ca99119fbb8afdaa6ff31c83302ef78562c878c9"
+        },
+        {
+            "date": "2024-08-26T09:52:58",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "de4d7d5e24a70c855ca150a620ff2b1bcc7be55d"
+        },
+        {
+            "date": "2024-08-26T09:52:58",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1bca224e6201fe701333d5aff3f9ca935186c3a8"
+        },
+        {
+            "date": "2024-08-26T09:52:57",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "70edd092d731e0b325159f9e9a9b7b3baa14b04e"
+        },
+        {
+            "date": "2024-08-26T09:52:56",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a94b726a22688557251642e2e1e8476cf5d5dc2c"
+        },
+        {
+            "date": "2024-08-26T09:52:56",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "1748832a9a0e003200e98543803cd98fc73445bf"
         },
         {
             "date": "2024-08-26T05:58:49",

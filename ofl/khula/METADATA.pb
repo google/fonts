@@ -55,3 +55,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/erinmclaughlin/Khula"
 }
+primary_script: "Deva"

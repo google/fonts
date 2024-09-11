@@ -23,5 +23,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "korean"
+primary_script: "Hang"
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

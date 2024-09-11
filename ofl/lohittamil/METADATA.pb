@@ -17,3 +17,4 @@ subsets: "tamil"
 source {
   repository_url: "https://github.com/pravins/lohit"
 }
+primary_script: "Taml"

@@ -44,3 +44,4 @@ sample_text {
   poster_md: "𐔻𐔼𐔽𐕌𐕍𐕎𐕏 𐕉𐕊𐕋"
   poster_lg: "𐔰𐔱𐔲"
 }
+primary_script: "Aghb"

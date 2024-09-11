@@ -62,7 +62,7 @@ languages: "id_Arab"  # Indonesian, Arabic
 languages: "inh_Arab"  # Ingush, Arabic
 languages: "khw_Arab"  # Khowar
 languages: "kk_Arab"  # Kazakh (Arabic)
-languages: "kr_Arab"  # Kanuri
+languages: "kr_Arab"  # Kanuri, Arabic
 languages: "ks_Arab"  # Kashmiri
 languages: "ku_Arab"  # Kurdish (Arabic)
 languages: "kvx_Arab"  # Parkari Koli
@@ -91,7 +91,7 @@ languages: "shi_Arab"  # Tachelhit
 languages: "skr_Arab"  # Saraiki
 languages: "so_Arab"  # Somali, Arabic
 languages: "sus_Arab"  # Susu, Arabic
-languages: "swb_Arab"  # Comorian
+languages: "swb_Arab"  # Maore Comorian, Arabic
 languages: "tg_Arab"  # Tajik (Arabic)
 languages: "tk_Arab"  # Turkmen
 languages: "tly_Arab"  # Talysh
@@ -106,3 +106,4 @@ languages: "wni_Arab"  # Ndzwani Comorian
 languages: "wo_Arab"  # Wolof, Arabic
 languages: "zdj_Arab"  # Ngazidja Comorian
 languages: "zlm_Arab"  # Malay, Arabic
+primary_script: "Arab"

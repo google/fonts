@@ -18,8 +18,10 @@ message RegionProto {
 message ScriptProto {
   optional string id = 1;  // Script codes defined by CLDR
   optional string name = 2;
-
-  // Next = 3;
+  optional bool historical = 3;
+  optional bool fictional = 4;
+  optional string summary = 5;
+  // Next = 6;
 }
 
 message LanguageProto {

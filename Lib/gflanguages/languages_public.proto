@@ -20,7 +20,8 @@ message ScriptProto {
   optional string name = 2;
   optional bool historical = 3;
   optional bool fictional = 4;
-  optional string summary = 5;
+  optional string family = 5;
+  optional string summary = 6;
   // Next = 6;
 }
 

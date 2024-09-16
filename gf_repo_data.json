@@ -1,13 +1,269 @@
 {
-    "last_run": "2024-09-09",
+    "last_run": "2024-09-16",
     "commits": [
+        {
+            "date": "2024-09-12T14:04:43",
+            "title": "Merge pull request #8154 from google/Edu-Dots-Guides",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8c96cf9b92a7fdde2702132bf5a73fd64c8766d9"
+        },
+        {
+            "date": "2024-09-12T14:03:50",
+            "title": "Merge pull request #8167 from google/lang-0.6.4",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "c95e8a4686015170956fba5ed718e12459007be4"
+        },
+        {
+            "date": "2024-09-12T13:39:13",
+            "title": "Merge commit '9f60a8d1bd982fe5dea1286b13b51d4ada1e0591' into lang-0.6.4",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "6bcf600ea1d13bbdc5b2cc69dbd4dfea43680e11"
+        },
+        {
+            "date": "2024-09-12T10:55:43",
+            "title": "Merge pull request #164 from googlefonts/bangla",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "9f60a8d1bd982fe5dea1286b13b51d4ada1e0591"
+        },
+        {
+            "date": "2024-09-12T10:07:33",
+            "title": "Other languages using Bangla script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e4e9d409fb239b46ec05519328b786da12f218d7"
+        },
+        {
+            "date": "2024-09-12T10:02:29",
+            "title": "Merge pull request #163 from googlefonts/move-lang-sample-text",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "257af538708655ffaf9a3593e28a0217dbca47e6"
+        },
+        {
+            "date": "2024-09-12T10:01:57",
+            "title": "Change 'Bengali' to 'Bangla'",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fe4b8afad20d315926f2de1422657ec7ef8879ae"
+        },
+        {
+            "date": "2024-09-12T09:59:52",
+            "title": "Merge pull request #162 from googlefonts/new-maori",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a16f59dada64d33b2c37be16f303eda9bc04c5a3"
+        },
+        {
+            "date": "2024-09-12T09:53:32",
+            "title": "Move sample text updater from gftools to here",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "15a5c30221862e06300f865f37d2860589e9e9d3"
+        },
+        {
+            "date": "2024-09-12T09:50:22",
+            "title": "Improve Maori sample, fixes #55",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "446878eb5c94436e474d93bc7cd7e49c8c837833"
+        },
+        {
+            "date": "2024-09-12T08:44:04",
+            "title": "Merge pull request #161 from googlefonts/chinook-jargon",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "66b0fa648927e2d00e071c124299123b44186954"
+        },
+        {
+            "date": "2024-09-12T06:57:20",
+            "title": "No Chinook Jargon in the US",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4beb50012cd42079781c299cf9746036402c2b23"
+        },
+        {
+            "date": "2024-09-12T06:55:39",
+            "title": "Merge pull request #160 from googlefonts/fix-ukranian",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "3b435fe6a0a23b9a6c9af895699ab3370ae757e1"
+        },
+        {
+            "date": "2024-09-12T06:37:39",
+            "title": "Improvements to Ukrainian as per #155",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "e06ea87571e72294d38fd153936cb013b2f51f83"
+        },
+        {
+            "date": "2024-09-11T15:30:13",
+            "title": "Merge pull request #8159 from google/fix-ci",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "e72e7ce4e10ee2e5df10ca6e1311b5fd9674c9c5"
+        },
+        {
+            "date": "2024-09-11T15:24:03",
+            "title": "Upgrade upload-artifact",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d28c65887b7a856d0273277ee97bac5db05ec2b9"
+        },
+        {
+            "date": "2024-09-11T13:42:30",
+            "title": "Merge pull request #8094 from google/primary-script-12",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "369f705a0060697f4a85670b7819dc9587c29ce1"
+        },
+        {
+            "date": "2024-09-11T12:36:52",
+            "title": "Merge pull request #8144 from google/pushlists",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a59c462c7b25dafed6281ac50d326328792648bf"
+        },
+        {
+            "date": "2024-09-11T12:32:38",
+            "title": "Update to_production.txt",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "c8858ffad921601b5648fa3438a271a50f22bf50"
+        },
+        {
+            "date": "2024-09-11T11:20:52",
+            "title": "Merge pull request #159 from googlefonts/todhri",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "9801ef19f727ad9ed71713d290cc3414325ce774"
+        },
+        {
+            "date": "2024-09-11T10:46:40",
+            "title": "Merge pull request #8093 from google/primary-script-11",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3162e46b376b6462d8e71645fa35b1d5a8b66c5b"
+        },
+        {
+            "date": "2024-09-11T10:46:21",
+            "title": "Merge pull request #8092 from google/primary-script-10",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ffa93f8f429b2cb3e4b086555f2eea225bb66d8e"
+        },
+        {
+            "date": "2024-09-11T09:11:37",
+            "title": "Merge pull request #8091 from google/primary-script-09",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a8bbd9f12b9e04d6552e58caf200e7ef94a0f0af"
+        },
+        {
+            "date": "2024-09-10T13:40:36",
+            "title": "Edu families: Dots + Guides fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4aadf6ce72a3c469f9b80e4f5c058a78f07dc3bc"
+        },
+        {
+            "date": "2024-09-10T10:41:55",
+            "title": "Merge pull request #8148 from ethamck/patch-1",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ba2009596755909606108518564be4a777f38337"
+        },
+        {
+            "date": "2024-09-10T10:36:40",
+            "title": "Merge pull request #8090 from google/primary-script-08",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "952dd109035a2c361e193c7d153879e80d69f392"
+        },
+        {
+            "date": "2024-09-10T10:36:16",
+            "title": "Merge pull request #8089 from google/primary-script-07",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d8dbb4b5453781cda4df4cb245ab4247188f7acf"
+        },
+        {
+            "date": "2024-09-10T08:04:00",
+            "title": "Merge pull request #8153 from google/m4rc1e-patch-12",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "715066f331ec086ef5add5e12c5c8fd59762f304"
+        },
+        {
+            "date": "2024-09-10T08:02:28",
+            "title": "families.csv: Add Edu Australia VIC WA NT Hand Dots",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bcd6c5f4ddc29c38d2cda3d0cfb776b5d838f597"
+        },
+        {
+            "date": "2024-09-08T00:33:35",
+            "title": "Fix broken link in figcaption",
+            "author": "ethamck",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ddb4ec73662be1dbb77ac05c0bacc51f9b381671"
+        },
+        {
+            "date": "2024-09-06T15:01:00",
+            "title": "Update pushlists",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "21688612d97c13966e8ffd7eb451f34835611d45"
+        },
         {
             "date": "2024-09-06T12:51:50",
             "title": "Merge pull request #8088 from google/primary-script-06",
             "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "34f78ebb503b2e2d65cdec54822bbdb65055bb02"
+        },
+        {
+            "date": "2024-09-06T12:49:11",
+            "title": "Add Todhri",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "bd9ad711242b1050ac4ff135db1dc716828b8e3c"
         },
         {
             "date": "2024-09-06T12:11:29",
@@ -254,8 +510,16 @@
             "title": "Update to_sandbox.txt (#8106)",
             "author": "Rod",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "a51886a7bb68bcfa2560f3cf46a8c4232feaa3ed"
+        },
+        {
+            "date": "2024-08-27T17:20:04",
+            "title": "Merge pull request #157 from googlefonts/add-removable",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "bffb3c66800daf010b2f5b92e0994507c9aa71ee"
         },
         {
             "date": "2024-08-27T14:41:42",
@@ -338,12 +602,132 @@
             "id": "1f6dff2c55a78e4c30cf5a9768d15dffca8d760e"
         },
         {
+            "date": "2024-08-26T17:04:02",
+            "title": "Rename removable to not_required",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5248f078360a3fa54ee44c8bac2d54fbd01d18a6"
+        },
+        {
+            "date": "2024-08-26T15:52:35",
+            "title": "Merge pull request #156 from googlefonts/duplicate-ids",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "62f135e21c434c217abc9c2d341f124acb613add"
+        },
+        {
+            "date": "2024-08-26T13:39:42",
+            "title": "Recompile protobuf (protoc 3.17.3)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "68177e6df46db0717ce023be3878063b0e35caa3"
+        },
+        {
+            "date": "2024-08-26T13:35:32",
+            "title": "Add LATIN CAPITAL LETTER SHARP S to removable",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "07a2d635b27891855b3324e71310308b63751a16"
+        },
+        {
+            "date": "2024-08-26T13:35:13",
+            "title": "Add \"removable\" category of characters not required for language support",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "ecc71b8e5623a776b14136e7e02515d27b5dc660"
+        },
+        {
+            "date": "2024-08-26T10:15:33",
+            "title": "Not greek",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e32e24ee8471494d0103b3837842f423bb74d04f"
+        },
+        {
+            "date": "2024-08-26T10:15:22",
+            "title": "Not Japanese",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dd39a05e8fe300ffa4b09a105b5aa997db928e4f"
+        },
+        {
+            "date": "2024-08-26T10:13:06",
+            "title": "Correct Jpan->Hans",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d2100b5f7153006029577c724c0ad5b4ffba8480"
+        },
+        {
+            "date": "2024-08-26T10:11:29",
+            "title": "Correct primary script of Liu Jian Mao Cao",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7dd9731a4e7292d68d8f3fa3c405cd0e835f2c03"
+        },
+        {
             "date": "2024-08-26T10:07:32",
             "title": "Remove primary script Deva for Inknut",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
             "id": "8460441912bd9abd34510e11a7c096cb102d885c"
+        },
+        {
+            "date": "2024-08-26T09:53:02",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8f355e8884f6663f137ab0f978263683dac5d07c"
+        },
+        {
+            "date": "2024-08-26T09:53:02",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "696857c9cd2eafde33a17a49be1b1b161018a2b2"
+        },
+        {
+            "date": "2024-08-26T09:53:01",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c201127236fb03a66ce27340779368ebea7b858c"
+        },
+        {
+            "date": "2024-08-26T09:53:00",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "32bbd1b48b46ce4fff9e0292a6b0cddd7b536805"
+        },
+        {
+            "date": "2024-08-26T09:53:00",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3002c24ff52b3d3679e425e809d62c5b997bde2b"
+        },
+        {
+            "date": "2024-08-26T09:52:59",
+            "title": "Set primary script",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "abf76b293d8eec6068ef9fb767ebf6ae623dcee0"
         },
         {
             "date": "2024-08-26T09:52:59",
@@ -406,8 +790,16 @@
             "title": "Push lists August 23 update",
             "author": "Viviana Monsalve",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "34ccebfc4846a4a787a8eb8c8ab32eba7c01579e"
+        },
+        {
+            "date": "2024-08-23T15:32:23",
+            "title": "Rename to Language, Place",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "a0e70c0d30569ad8996abb701dbb6e48159a0489"
         },
         {
             "date": "2024-08-23T12:46:42",
@@ -680,6 +1072,22 @@
             "status": "modified",
             "kind": "family",
             "id": "6d17dab13b85129360f9748f057c7f67c5f484d4"
+        },
+        {
+            "date": "2024-08-19T15:10:19",
+            "title": "Fix up languages with non-unique IDs",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bac8f7c3c51609785e8a2dd6210e20241202c990"
+        },
+        {
+            "date": "2024-08-19T15:09:58",
+            "title": "Assert uniqueness of all IDs",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "be426cd01d42047ff878f8351f43acbe52bf5333"
         },
         {
             "date": "2024-08-19T14:50:50",
@@ -1462,16 +1870,160 @@
             "title": "Lang update (#7962)",
             "author": "Nathan Williams",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "00f12e7673c0bd0f9abf5ff0869bba8c52a32e2f"
+        },
+        {
+            "date": "2024-07-22T13:48:03",
+            "title": "Merge pull request #154 from googlefonts/unique-language-names",
+            "author": "Nathan Williams",
+            "status": "modified",
+            "kind": "family",
+            "id": "136e32b1982ed8cfe3605de97ccbdd095b93b3a9"
         },
         {
             "date": "2024-07-22T10:21:48",
             "title": "Update push lists",
             "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "3839785477e8192a1b6001942faddccf98f6fa21"
+        },
+        {
+            "date": "2024-07-22T05:57:14",
+            "title": "Fix name structure for two languages",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3cecbbbcb95ebf027eaf8c86ccaa0596845d275c"
+        },
+        {
+            "date": "2024-07-22T05:53:41",
+            "title": "Add regex to deps in TOML config",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a661bc2979d6ed2cec3a429a16c2afecf20525c7"
+        },
+        {
+            "date": "2024-07-22T05:34:24",
+            "title": "Add regex package to dev reqs",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "83eb95f990328d3a6b78fa8aa20c6f0036867e4f"
+        },
+        {
+            "date": "2024-07-22T05:19:51",
+            "title": "Use regex instead of re for access to unicode character classes",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fc1dc973b3700a426e078e396879daf8f94fecfe"
+        },
+        {
+            "date": "2024-07-22T05:11:13",
+            "title": "Fix unicode character class in language name regex",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1303c7060e80f2356205321ca76ebbcf82144f8f"
+        },
+        {
+            "date": "2024-07-22T05:07:12",
+            "title": "Update character class for language names to use Unicode class",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "91119daf006c5f45b8903c8874dc776a9e72c251"
+        },
+        {
+            "date": "2024-07-22T05:06:51",
+            "title": "Correct a batch of language names",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7d5fe21c45ec7944f09fd43825a693938fa677b8"
+        },
+        {
+            "date": "2024-07-22T04:43:01",
+            "title": "Expand character class for language names",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "640c050f19b10245ef27ebea400f4bf445843c02"
+        },
+        {
+            "date": "2024-07-22T04:21:25",
+            "title": "Re-structure several language names",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5dc2b3ba0107d90189fde0fe5434086a838c542d"
+        },
+        {
+            "date": "2024-07-22T04:17:18",
+            "title": "Update language name character class to allow accent marks",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d7416e26d08206b908d9fe3d1230f7bcf6d9bee0"
+        },
+        {
+            "date": "2024-07-22T02:49:26",
+            "title": "Fix dash character in character class",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "17b4bdd2ef28ec90afa3d9028c02aa530b70a83e"
+        },
+        {
+            "date": "2024-07-22T00:03:31",
+            "title": "Fix language name regex",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0db6f9a30733fb8df0c6722d93047afd67669415"
+        },
+        {
+            "date": "2024-07-22T00:01:48",
+            "title": "Remove duplicate entries for Malay",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3a48ff209d6058dc2f18d83078ebcb0d2d60ce0a"
+        },
+        {
+            "date": "2024-07-21T23:15:24",
+            "title": "Fix language name regex to allow spaces and a couple other edge cases",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b84e90ebe51f8ebda84ca9e2e079a51215849875"
+        },
+        {
+            "date": "2024-07-21T23:14:51",
+            "title": "Restructure language names to be consistent",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3e9373a0f3dfce72e0788374d046b6f0a584250d"
+        },
+        {
+            "date": "2024-07-19T16:07:14",
+            "title": "Fix type: endsWith => endswith",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c6fa0d8a8f5e292eed108e49f309801b696331ed"
+        },
+        {
+            "date": "2024-07-19T15:58:10",
+            "title": "Update language name structure test to output error once",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "family",
+            "id": "149b73435c9b0d2205e54e07a355703bd10f1af5"
         },
         {
             "date": "2024-07-19T15:39:27",
@@ -1510,24 +2062,72 @@
             "title": "Bungee Tint article added",
             "author": "Viviana Monsalve",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "2a8293b0d5f55593340f00cfb59a2580b6b83602"
+        },
+        {
+            "date": "2024-07-18T17:39:35",
+            "title": "Enforce language name structure for both name and preferred name",
+            "author": "nathan-williams",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "bee8c9f22e60fdf0bd49dc586af2ff365a413295"
+        },
+        {
+            "date": "2024-07-18T17:24:45",
+            "title": "Enforce language name structure for both name and preferred name",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "family",
+            "id": "6b34df3c0dd827eea3c604d8aa16215906e68642"
         },
         {
             "date": "2024-07-18T17:22:10",
             "title": "OFL license added",
             "author": "Viviana Monsalve",
-            "status": "new",
-            "kind": "infrastructure",
+            "status": "modified",
+            "kind": "family",
             "id": "3c96c145819e4542704afe82835576426c2e7740"
+        },
+        {
+            "date": "2024-07-18T17:20:40",
+            "title": "Update language names for Ancient Greek, there were duplicates",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "95e4db291778c9f42fe9d600a1126b253253ba43"
+        },
+        {
+            "date": "2024-07-18T17:20:16",
+            "title": "Fix duplicate or near malstructured Chinese language names",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "af1807c6ec727c4e5f022e6faa4179fa395186b8"
+        },
+        {
+            "date": "2024-07-18T17:19:13",
+            "title": "Add test for enforcing language name structure",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "family",
+            "id": "5a57dcaa8a5c159cc026855c6baf69c9ea1c8a20"
         },
         {
             "date": "2024-07-18T17:17:36",
             "title": "Bungee Tint: Version 2.001 added",
             "author": "Viviana Monsalve",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "fff14184d4a726b34f96f5044755acca819c4f44"
+        },
+        {
+            "date": "2024-07-18T15:54:03",
+            "title": "Enforce uniqueness of language names across all scripts",
+            "author": "nathan-williams",
+            "status": "modified",
+            "kind": "family",
+            "id": "cc55af739d121218ca1763c84ec2b18c2f7c6214"
         },
         {
             "date": "2024-07-18T15:06:03",
@@ -1640,6 +2240,22 @@
             "status": "modified",
             "kind": "family",
             "id": "5f9bd91a324980495a2d423eb9054d865fe2c0ba"
+        },
+        {
+            "date": "2024-07-15T14:34:53",
+            "title": "Merge pull request #153 from googlefonts/revert-152-de_Latn_base_charset_update",
+            "author": "Nathan Williams",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "40918f67946f4ff373ba30ef6b74d5f9a5c42c83"
+        },
+        {
+            "date": "2024-07-15T14:34:07",
+            "title": "Revert \"Update de_Latn.textproto\"",
+            "author": "Nathan Williams",
+            "status": "modified",
+            "kind": "family",
+            "id": "c8f64d01bf842a5ee4509f2f03b145eea45165b2"
         },
         {
             "date": "2024-07-12T09:24:32",
@@ -1846,8 +2462,24 @@
             "title": "Update de_Latn.textproto (#7926)",
             "author": "Nathan Williams",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "c5c086447f8e59fe4dc841e1a8e633cb48318b93"
+        },
+        {
+            "date": "2024-07-08T22:54:53",
+            "title": "Merge pull request #152 from googlefonts/de_Latn_base_charset_update",
+            "author": "Nathan Williams",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "0f47e099b9d6515d239adba055fac5454313d325"
+        },
+        {
+            "date": "2024-07-08T22:48:01",
+            "title": "Update de_Latn.textproto",
+            "author": "Nathan Williams",
+            "status": "modified",
+            "kind": "family",
+            "id": "6d88fbd4946b1bdad6a2e7450e102deef7c59525"
         },
         {
             "date": "2024-07-05T18:45:47",
@@ -67795,25 +68427,440 @@
         }
     ],
     "pushes": {
-        "sandbox": [],
-        "production": [
+        "sandbox": [
             {
-                "path": "ofl/suse",
+                "path": "ofl/afacadflux",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8044"
+                "url": "https://github.com/google/fonts/pull/7851"
             },
             {
-                "path": "catalog/designers/adamyeo",
-                "category": "Designer profile",
+                "path": "ofl/librefranklin",
+                "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8035"
+                "url": "https://github.com/google/fonts/pull/8134"
             },
             {
-                "path": "catalog/designers/batsiraimadzonga",
-                "category": "Designer profile",
+                "path": "ofl/akayatelivigala",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8005"
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/akshar",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/alata",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8131"
+            },
+            {
+                "path": "ofl/almarai",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekbangla",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekdevanagari",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekgujarati",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekkannada",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekmalayalam",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekodia",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anektamil",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anektelugu",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/angkor",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/asar",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/bakbakone",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/battambang",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/blackandwhitepicture",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/blackhansans",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/bokor",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/cambay",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/chathura",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8084"
+            },
+            {
+                "path": "ofl/chenla",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/chilanka",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/content",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/cutefont",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/dangrek",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/delagothicone",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/dhurjati",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/dokdo",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/dongle",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/dotgothic16",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8085"
+            },
+            {
+                "path": "ofl/eastseadokdo",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/ekmukta",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/fasthand",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/freehand",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/gaegu",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/galada",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/gamjaflower",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/gayathri",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/gidugu",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/gothica1",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/gowunbatang",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/gowundodum",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/gugi",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/gurajada",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/hachimarupop",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/hahmlet",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/halant",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/hanuman",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/himelody",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/hinamincho",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/hind",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8088"
+            },
+            {
+                "path": "ofl/hindguntur",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8088"
+            },
+            {
+                "path": "ofl/hindmysuru",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8088"
+            },
+            {
+                "path": "ofl/hindsiliguri",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8088"
+            },
+            {
+                "path": "ofl/hindvadodara",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8088"
+            },
+            {
+                "path": "ofl/hubballi",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8088"
+            },
+            {
+                "path": "ofl/jomhuria",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8088"
+            },
+            {
+                "path": "ofl/jomolhari",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8088"
+            },
+            {
+                "path": "ofl/kaiseidecol",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8088"
+            },
+            {
+                "path": "ofl/notoserifhentaigana",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8013"
+            },
+            {
+                "path": "tags/all/families.csv",
+                "category": null,
+                "status": null,
+                "url": null
+            }
+        ],
+        "production": [
+            {
+                "path": "ofl/eduauvicwantdots",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8020"
+            },
+            {
+                "path": "ofl/eduauvicwantguides",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8021"
+            },
+            {
+                "path": "ofl/notosansmongolian",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7964"
+            },
+            {
+                "path": "ofl/notoserifhk",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8050"
+            },
+            {
+                "path": "ofl/notoserifjp",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8051"
+            },
+            {
+                "path": "ofl/notoserifkr",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8052"
+            },
+            {
+                "path": "ofl/notoserifolduyghur",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7849"
+            },
+            {
+                "path": "ofl/notoseriftc",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8056"
             },
             {
                 "path": "catalog/designers/gustavoibarra",
@@ -67822,34 +68869,16 @@
                 "url": "https://github.com/google/fonts/pull/7547"
             },
             {
-                "path": "catalog/designers/renebieder",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8045"
-            },
-            {
                 "path": "cc-by-sa/knowledge/modules/the_canadian_syllabics/lessons/inuktut_syllabics/content.md",
                 "category": "Knowledge",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8048"
             },
             {
-                "path": "cc-by-sa/knowledge/modules/using_type/lessons/the_complications_of_typographic_size/content.md",
-                "category": "Knowledge",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7918"
-            },
-            {
                 "path": "lang/languages/alq_Latn.textproto",
                 "category": "Knowledge",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8048"
-            },
-            {
-                "path": "ofl/gamaamli",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8023"
             }
         ]
     }

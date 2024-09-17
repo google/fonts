@@ -200,8 +200,10 @@
         this.Families = this.Families.filter((t) => t !== Family);
         this.history.push(`- ${Family.Family},${Family["Group/Tag"]},${Family.Weight}`);
       },
-      saveCSV() {
+      familiesToCSV() {
         this.Families = this.Families.filter((t) => t.Family !== "");
+        // The sorting function used is case sensitive.
+        // This means that "A" will come before "a".
         this.Families = Array.from(this.Families).sort((a, b) => {
           if (`${a.Family},${a['Group/Tag']}` < `${b.Family},${b['Group/Tag']}`) {
             return -1;
@@ -211,13 +213,16 @@
           }
           return 0;
         });
-        let csv = Papa.unparse(this.Families,
+        // Include a newline at the end to keep Evan's Vim happy.
+        return Papa.unparse(this.Families,
           {
             columns: ["Family", "Group/Tag", "Weight"],
             skipEmptyLines: true,
           }
-        );
-
+        ) + "\n";
+      },
+      saveCSV() {
+        let csv = this.familiesToCSV();
         const blob = new Blob([csv], { type: 'text/csv' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -229,22 +234,7 @@
         URL.revokeObjectURL(url);
       },
       prCSV() {
-        this.Families = this.Families.filter((t) => t.Family !== "");
-        this.Families = Array.from(this.Families).sort((a, b) => {
-          if (`${a.Family},${a['Group/Tag']}` < `${b.Family},${b['Group/Tag']}`) {
-            return -1;
-          }
-          if (`${a.Family},${a['Group/Tag']}` > `${b.Family},${b['Group/Tag']}`) {
-            return 1;
-          }
-          return 0;
-        });
-        let csv = Papa.unparse(this.Families,
-          {
-            columns: ["Family", "Group/Tag", "Weight"],
-            skipEmptyLines: true,
-          }
-        );
+        let csv = this.familiesToCSV();
         alert("Tag data copied to clipboard. A github pull request page will open in a new tab. Please remove the old data and paste in the new.");
         navigator.clipboard.writeText(csv);
         window.open("https://github.com/google/fonts/edit/main/tags/all/families.csv")

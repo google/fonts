@@ -26,3 +26,4 @@ axes {
 }
 is_noto: true
 languages: "ml_Mlym"  # Malayalam
+primary_script: "Mlym"

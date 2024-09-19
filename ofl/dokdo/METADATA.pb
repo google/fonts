@@ -14,4 +14,4 @@ fonts {
 }
 subsets: "korean"
 subsets: "menu"
-primary_script: "Hang"
+primary_script: "Kore"

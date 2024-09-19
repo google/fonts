@@ -46,4 +46,4 @@ source {
   }
   branch: "master"
 }
-primary_script: "Hang"
+primary_script: "Kore"

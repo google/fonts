@@ -47,3 +47,4 @@ sample_text {
   poster_md: "𝡝𝪜𝦦𝪬"
   poster_lg: "𝡝𝪩𝡝𝪡𝤅"
 }
+primary_script: "Sgnw"

@@ -50,5 +50,6 @@ sample_text {
   poster_md: "⌚✋⯧☔🛪🏟⛅🞽🕖🚲"
   poster_lg: "🡽🨄"
 }
+primary_script: "Brai"
 stroke: "SANS_SERIF"
 classifications: "SYMBOLS"

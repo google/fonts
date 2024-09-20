@@ -146,7 +146,7 @@ The problem with this sort of photographic or digital manipulation is that it de
 
 ## Fitting the line today
 
-Today, designers still use spacing and width to fit the line. But variable fonts make this task easier by allowing us to select a different value on the [wght axis](/glossary/weight_axis) for each line of type. This enables different text lengths to always fit the same measure. [explanation of how this works]
+Today, designers still use spacing and width to fit the line. But variable fonts make this task easier by allowing us to select a different value on the [wght axis](/glossary/weight_axis) for each line of type. This enables different text lengths to always fit the same measure.
 
 A couple tools that help make it even easier are [Wakamai Fondue](https://wakamaifondue.com/) and [Fitty](https://rikschennink.github.io/fitty/#examples). Wakamai Fondu is an online tool that makes it easy to find out the attributes of any variable font (e.g. whether it has weight and width axes) just by dragging a file from your drive onto the page. And Fitty is a Javascript library that automatically scales text up (or down) so it fits its parent container perfectly. If we combine Fitty and a variable font with weight and width axes, we can fit text to a line automatically, no matter the word length—like magic!
 

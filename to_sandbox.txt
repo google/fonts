@@ -1,13 +1,9 @@
-# New
-ofl/afacadflux # https://github.com/google/fonts/pull/7851
-
-# Upgrade
-ofl/librefranklin # https://github.com/google/fonts/pull/8134
+# Upgrades
+ofl/miriamlibre # https://github.com/google/fonts/pull/7534
 
 # Metadata / Description / License
 ofl/akayatelivigala # https://github.com/google/fonts/pull/8083
 ofl/akshar # https://github.com/google/fonts/pull/8083
-ofl/alata # https://github.com/google/fonts/pull/8131
 ofl/almarai # https://github.com/google/fonts/pull/8083
 ofl/anekbangla # https://github.com/google/fonts/pull/8083
 ofl/anekdevanagari # https://github.com/google/fonts/pull/8083
@@ -16,56 +12,38 @@ ofl/anekkannada # https://github.com/google/fonts/pull/8083
 ofl/anekmalayalam # https://github.com/google/fonts/pull/8083
 ofl/anekodia # https://github.com/google/fonts/pull/8083
 ofl/anektamil # https://github.com/google/fonts/pull/8083
-ofl/anektelugu # https://github.com/google/fonts/pull/8084
-ofl/angkor # https://github.com/google/fonts/pull/8084
-ofl/asar # https://github.com/google/fonts/pull/8084
-ofl/bakbakone # https://github.com/google/fonts/pull/8084
-ofl/battambang # https://github.com/google/fonts/pull/8084
-ofl/blackandwhitepicture # https://github.com/google/fonts/pull/8084
-ofl/blackhansans # https://github.com/google/fonts/pull/8084
-ofl/bokor # https://github.com/google/fonts/pull/8084
-ofl/cambay # https://github.com/google/fonts/pull/8084
-ofl/chathura # https://github.com/google/fonts/pull/8084
-ofl/chenla # https://github.com/google/fonts/pull/8085
-ofl/chilanka # https://github.com/google/fonts/pull/8085
-ofl/content # https://github.com/google/fonts/pull/8085
-ofl/cutefont # https://github.com/google/fonts/pull/8085
-ofl/dangrek # https://github.com/google/fonts/pull/8085
-ofl/delagothicone # https://github.com/google/fonts/pull/8085
-ofl/dhurjati # https://github.com/google/fonts/pull/8085
-ofl/dokdo # https://github.com/google/fonts/pull/8085
-ofl/dongle # https://github.com/google/fonts/pull/8085
-ofl/dotgothic16 # https://github.com/google/fonts/pull/8085
-ofl/eastseadokdo # https://github.com/google/fonts/pull/8086
-ofl/ekmukta # https://github.com/google/fonts/pull/8086
-ofl/fasthand # https://github.com/google/fonts/pull/8086
-ofl/freehand # https://github.com/google/fonts/pull/8086
-ofl/gaegu # https://github.com/google/fonts/pull/8086
-ofl/galada # https://github.com/google/fonts/pull/8086
-ofl/gamjaflower # https://github.com/google/fonts/pull/8086
-ofl/gayathri # https://github.com/google/fonts/pull/8086
-ofl/gidugu # https://github.com/google/fonts/pull/8086
-ofl/gothica1 # https://github.com/google/fonts/pull/8086
-ofl/gowunbatang # https://github.com/google/fonts/pull/8087
-ofl/gowundodum # https://github.com/google/fonts/pull/8087
-ofl/gugi # https://github.com/google/fonts/pull/8087
-ofl/gurajada # https://github.com/google/fonts/pull/8087
-ofl/hachimarupop # https://github.com/google/fonts/pull/8087
-ofl/hahmlet # https://github.com/google/fonts/pull/8087
-ofl/halant # https://github.com/google/fonts/pull/8087
-ofl/hanuman # https://github.com/google/fonts/pull/8087
-ofl/himelody # https://github.com/google/fonts/pull/8087
-ofl/hinamincho # https://github.com/google/fonts/pull/8087
-ofl/hind # https://github.com/google/fonts/pull/8088
-ofl/hindguntur # https://github.com/google/fonts/pull/8088
-ofl/hindmysuru # https://github.com/google/fonts/pull/8088
-ofl/hindsiliguri # https://github.com/google/fonts/pull/8088
-ofl/hindvadodara # https://github.com/google/fonts/pull/8088
-ofl/hubballi # https://github.com/google/fonts/pull/8088
-ofl/jomhuria # https://github.com/google/fonts/pull/8088
-ofl/jomolhari # https://github.com/google/fonts/pull/8088
-ofl/kaiseidecol # https://github.com/google/fonts/pull/8088
+ofl/kaiseiharunoumi # https://github.com/google/fonts/pull/8089
+ofl/kaiseiopti # https://github.com/google/fonts/pull/8089
+ofl/kaiseitokumin # https://github.com/google/fonts/pull/8089
+ofl/kalam # https://github.com/google/fonts/pull/8089
+ofl/kantumruypro # https://github.com/google/fonts/pull/8089
+ofl/karlatamilinclined # https://github.com/google/fonts/pull/8089
+ofl/karlatamilupright # https://github.com/google/fonts/pull/8089
+ofl/karma # https://github.com/google/fonts/pull/8089
+ofl/katibeh # https://github.com/google/fonts/pull/8089
+ofl/kdamthmorpro # https://github.com/google/fonts/pull/8089
+ofl/khand # https://github.com/google/fonts/pull/8090
+ofl/khmer # https://github.com/google/fonts/pull/8090
+ofl/khula # https://github.com/google/fonts/pull/8090
+ofl/kiwimaru # https://github.com/google/fonts/pull/8090
+ofl/kleeone # https://github.com/google/fonts/pull/8090
+ofl/kohsantepheap # https://github.com/google/fonts/pull/8090
+ofl/kumarone # https://github.com/google/fonts/pull/8090
+ofl/laila # https://github.com/google/fonts/pull/8090
+ofl/lakkireddy # https://github.com/google/fonts/pull/8090
+ofl/liujianmaocao # https://github.com/google/fonts/pull/8090
+ofl/nanumgothiccoding # https://github.com/google/fonts/pull/8093
+ofl/nanumpenscript # https://github.com/google/fonts/pull/8093
+ofl/newtegomin # https://github.com/google/fonts/pull/8093
+ofl/nokora # https://github.com/google/fonts/pull/8093
+ofl/notosansarabicui # https://github.com/google/fonts/pull/8094
+ofl/notosansbamum # https://github.com/google/fonts/pull/8094
+ofl/notosansbengaliui # https://github.com/google/fonts/pull/8094
+ofl/notosanscaucasianalbanian # https://github.com/google/fonts/pull/8094
+ofl/notosanscyprominoan # https://github.com/google/fonts/pull/8094
+ofl/notosansdevanagariui # https://github.com/google/fonts/pull/8094
+ofl/notosanselymaic # https://github.com/google/fonts/pull/8094
+ofl/notosansgujaratiui # https://github.com/google/fonts/pull/8094
+ofl/notosansgurmukhiui # https://github.com/google/fonts/pull/8094
+ofl/notosansindicsiyaqnumbers # https://github.com/google/fonts/pull/8094
 ofl/notoserifhentaigana # https://github.com/google/fonts/pull/8013
-
-# Family tags
-tags/all/families.csv

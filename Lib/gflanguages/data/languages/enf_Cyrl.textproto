@@ -3,6 +3,7 @@ language: "enf"
 script: "Cyrl"
 name: "Forest Enets"
 region: "RU"
+population: 50
 exemplar_chars {
 base: "А а Б б В в Г г Д д Е е Ԑ ԑ Ё ё Ж ж З з И и Й й К к Л л М м Н н Ӊ ӊ О о {О̂} {о̂} П п Р р С с Т т У у Ф ф Х х Ц ц Ч ч Ш ш Щ щ ъ Ы ы ь Э э Ю ю Я я ˮ"
   marks: "◌̂"

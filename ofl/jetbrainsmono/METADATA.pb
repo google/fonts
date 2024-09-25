@@ -35,6 +35,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/JetBrains/JetBrainsMono"
+  commit: "b0a3712ee175cd7d8105f9786234eed97c59bdf5"
   files {
     source_file: "fonts/variable/JetBrainsMono[wght].ttf"
     dest_file: "JetBrainsMono[wght].ttf"

@@ -106,4 +106,4 @@ source {
   }
   branch: "master"
 }
-minisite_url: "https://www.jetbrains.com/lp/mono/"
+minisite_url: "https://www.jetbrains.com/lp/mono"

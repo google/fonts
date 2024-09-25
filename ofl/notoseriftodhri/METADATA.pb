@@ -15,6 +15,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "todhri"
 source {
   repository_url: "https://github.com/notofonts/todhri"
   commit: "850ebfdfca2d445c3e53577ec0b4c7e5d80a7d0f"
@@ -38,3 +39,5 @@ source {
   branch: "main"
 }
 is_noto: true
+languages: "sq_Todr"  # Albanian (Todhri)
+primary_script: "Todr"

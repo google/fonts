@@ -1,0 +1,15 @@
+id: "haa_Latn"
+language: "haa"
+script: "Latn"
+name: "Han"
+preferred_name: "Hän"
+population: 6
+region: "CA"
+region: "US"
+exemplar_chars {
+  base: "a A ą Ą à À {ą̀} {Ą̀} â Â {ą̂} {Ą̂} ǎ Ǎ {ą̌} {Ą̌} ä Ä {ą̈} {Ą̈} {ä̀} {Ä̀} {ą̈̀} {Ą̈̀} {ä̂} {Ä̂} {ą̈̂} {Ą̈̂} {ä̌} {Ä̌} {ą̈̌} {Ą̈̌} b B {ch} {CH} {chʼ} {CHʼ} d D {dh} {DH} {dl} {DL} {dr} {DR} {dz} {DZ} e E ę Ę è È {ę̀} {Ę̀} ê Ê {ę̂} {Ę̂} ě Ě {ę̌} {Ę̌} ë Ë {ę̈} {Ę̈} {ë̀} {Ë̀} {ę̈̀} {Ę̈̀} {ë̂} {Ë̂} {ę̈̂} {Ę̈̂} {ë̌} {Ë̌} {ę̈̌} {Ę̈̌} g G {gh} {GH} h H i I į Į ì Ì {į̀} {Į̀} î Î {į̂} {Į̂} ǐ Ǐ {į̌} {Į̌} j J k K {kʼ} {Kʼ} {kh} {KH} l L ł Ł m M {mb} {MB} n N {nd} {ND} {nh} {NH} {nj} {NJ} o O ǫ Ǫ ò Ò {ǫ̀} {Ǫ̀} ô Ô {ǫ̂} {Ǫ̂} ǒ Ǒ {ǫ̌} {Ǫ̌} p P r R {rh} {RH} s S {sh} {SH} {sr} {SR} t T {tʼ} {Tʼ} {th} {TH} {tl} {TL} {tlʼ} {TLʼ} {tr} {TR} {trʼ} {TRʼ} {ts} {TS} {tsʼ} {TSʼ} u U ų Ų ù Ù {ų̀} {Ų̀} û Û {ų̂} {Ų̂} ǔ Ǔ {ų̌} {Ų̌} w W {wh} {WH} y Y"
+  marks: "◌́ ◌̀ ◌̂ ◌̌ ◌̨"
+  auxiliary: "c C f F q Q v V x X z Z"
+}
+source: "Yukon Native Language Centre, Hän Alphabet, Council of Yukon First Nations, 2020"
+source: "FirstVoices"

@@ -1,7 +1,7 @@
 name: "Funnel Display"
-designer: "Kristian Möller"
+designer: "NORD ID, Kristian Möller" 
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2024-09-25"
 fonts {
   name: "Funnel Display"

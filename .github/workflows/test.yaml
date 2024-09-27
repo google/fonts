@@ -61,9 +61,9 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
-          name: diffbrowsers-${{matrix.os}}
+          name: qa
           path: out/
 
   diffenator:
@@ -110,9 +110,9 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
-          name: diffenator-fontbakery
+          name: qa
           path: out/
 
   ftxvalidator:

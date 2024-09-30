@@ -1,6 +1,158 @@
 {
-    "last_run": "2024-09-23",
+    "last_run": "2024-09-30",
     "commits": [
+        {
+            "date": "2024-09-27T14:23:32",
+            "title": "Update families.csv (#8215)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "186eeb188589589eb08aa44ccd7d5aa0e897c3d6"
+        },
+        {
+            "date": "2024-09-27T14:12:33",
+            "title": "Update families.csv (#8214)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "99d26e64ba0c7d3c262940aaa9d403763ee7435e"
+        },
+        {
+            "date": "2024-09-27T11:17:33",
+            "title": "Merge pull request #8210 from google/ci-artifacts",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "cc8f3b4d3645c04030dfdccafa6d8514a0b8ba2c"
+        },
+        {
+            "date": "2024-09-27T11:14:42",
+            "title": "ci: use v3 upload action",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "16b9fd4192043185ff4892d1aa3d980143ae7414"
+        },
+        {
+            "date": "2024-09-27T11:14:42",
+            "title": "Give artefacts individual names",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "74cb46918f9a772ef579cc9787e100e19ca722a3"
+        },
+        {
+            "date": "2024-09-26T16:20:31",
+            "title": "Merge pull request #8199 from google/gftools_packager_ofl_notoseriftodhri",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "family",
+            "id": "303bf840b89ba414ddf86dcb7c5efbf85697b913"
+        },
+        {
+            "date": "2024-09-26T14:19:28",
+            "title": "Merge pull request #8158 from google/gftools_packager_ofl_sourgummy",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "family",
+            "id": "e1b807a2579196fa4fb97ee27ea924f67aa78761"
+        },
+        {
+            "date": "2024-09-25T23:20:28",
+            "title": "Merge pull request #8202 from google/emmamarichal-patch-1",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "997bb0b892c9af761299befa88a360dba58dcbae"
+        },
+        {
+            "date": "2024-09-25T22:30:03",
+            "title": "Merge pull request #8205 from google/kalapi-tags",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "4b9fdf4b34e4fd7795ca35b03dfbbb3c238d8c3c"
+        },
+        {
+            "date": "2024-09-25T22:09:28",
+            "title": "Merge pull request #8204 from google/rugged-tags",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "65c946bbaa0b206659a81acee08a7d4fe280124b"
+        },
+        {
+            "date": "2024-09-25T21:52:32",
+            "title": "Merge pull request #8192 from google/davelab6-tags-playwrite-active",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3ba433d1e68cacbdcdabd4b6009577cb41b0e126"
+        },
+        {
+            "date": "2024-09-25T21:02:27",
+            "title": "families.csv: reimport Kalapi tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8bca530c94984b10ac960dadcb9e21a6882605f1"
+        },
+        {
+            "date": "2024-09-25T17:31:29",
+            "title": "families.csv: update rugged",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8736fd6cd0528c58c7ce346ae33b28e83e302c1a"
+        },
+        {
+            "date": "2024-09-25T14:27:06",
+            "title": "Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "de4d1140ca9de4de394e0edc8f6c16e3c1580a60"
+        },
+        {
+            "date": "2024-09-25T08:52:53",
+            "title": "Fix OFL",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c12ac3ae17e60a873926f410d2de48944cfbcf0b"
+        },
+        {
+            "date": "2024-09-25T08:51:45",
+            "title": "Manually add subsets/languages",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c377196c21007a995060a909a5d3e787d53c1588"
+        },
+        {
+            "date": "2024-09-25T08:48:58",
+            "title": "notoseriftodhri: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "family",
+            "id": "1fe5e877c1b421f49b9977ad694f15983bdaaa04"
+        },
+        {
+            "date": "2024-09-23T21:57:48",
+            "title": "[Knowledge] [History of Typography] Remove placeholder (#8190)",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bc55ede294bbeca56da1ebb05f53f50295e004d9"
+        },
+        {
+            "date": "2024-09-20T22:29:22",
+            "title": "Update families.csv Playwrite's Active tag values",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5b40b026e11c35d41cf3e059b8b619a7ea945a8d"
+        },
         {
             "date": "2024-09-20T14:59:16",
             "title": "Merge pull request #8188 from google/familiescsv",
@@ -290,6 +442,14 @@
             "id": "e06ea87571e72294d38fd153936cb013b2f51f83"
         },
         {
+            "date": "2024-09-11T15:59:27",
+            "title": "added article and images",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "caf895c322335b380bd1b810b1a78ce8f8a3ee7a"
+        },
+        {
             "date": "2024-09-11T15:30:13",
             "title": "Merge pull request #8159 from google/fix-ci",
             "author": "Simon Cozens",
@@ -302,8 +462,16 @@
             "title": "Upgrade upload-artifact",
             "author": "Simon Cozens",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "d28c65887b7a856d0273277ee97bac5db05ec2b9"
+        },
+        {
+            "date": "2024-09-11T14:49:00",
+            "title": "Sour Gummy: Version 1.000 added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "94905dccb71880189549fce799632564b2bddbd0"
         },
         {
             "date": "2024-09-11T13:42:30",

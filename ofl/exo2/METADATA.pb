@@ -33,8 +33,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/NDISCOVER/Exo-2.0"
-  commit: "182060cd38adf3cde0d22add3f8009d30bd48cde"
+  repository_url: "https://github.com/googlefonts/Exo-2.0"
+  commit: "54902ff3d6cf21615ca8de74727e316ceb363a14"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "MonaSans[wdth,wght].ttf"
-  post_script_name: "MonaSans-Regular"
-  full_name: "Mona Sans Regular"
+  post_script_name: "MonaSans-ExtraLight"
+  full_name: "Mona Sans ExtraLight"
   copyright: "Copyright 2022 The Mona Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name \"Mona\""
 }
 fonts {
@@ -17,8 +17,8 @@ fonts {
   style: "italic"
   weight: 400
   filename: "MonaSans-Italic[wdth,wght].ttf"
-  post_script_name: "MonaSans-Italic"
-  full_name: "Mona Sans Italic"
+  post_script_name: "MonaSans-ExtraLightItalic"
+  full_name: "Mona Sans ExtraLight Italic"
   copyright: "Copyright 2022 The Mona Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name \"Mona\""
 }
 subsets: "latin"
@@ -36,8 +36,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/emmamarichal/mona-sans"
-  commit: "499af4a3c950af2b75c8b79f394120776847d264"
+  repository_url: "https://github.com/googlefonts/mona-sans"
+  commit: "56384c90b986d431470303b4f7296585cb9c4515"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

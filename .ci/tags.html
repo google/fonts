@@ -110,9 +110,29 @@
         history: [],
       };
     },
+    watch: {
+      commit(newCommit) {
+        this.updateURL();
+      },
+      CurrentCategory(newCategory) {
+        this.updateURL();
+      }
+    },
     created() {
       this.loadCSV();
       this.loadFamilyPangrams();
+    },
+    mounted() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const category = urlParams.get('category');
+      if (category) {
+        this.CurrentCategory = category;
+      }
+      const commit = urlParams.get('commit');
+      if (commit) {
+        this.commit = commit;
+        this.loadCSV();
+      }
     },
     computed: {
       sortedFamilies() {
@@ -129,6 +149,20 @@
       }
     },
     methods: {
+      updateURL() {
+        const url = new URL(window.location);
+        if (this.commit) {
+          url.searchParams.set('commit', this.commit);
+        } else {
+          url.searchParams.delete('commit');
+        }
+        if (this.CurrentCategory) {
+          url.searchParams.set('category', this.CurrentCategory);
+        } else {
+          url.searchParams.delete('category');
+        }
+        history.pushState(null, '', url);
+      },
       familyPangram(family) {
         return this.Pangrams.get(this.FamilyScripts.get(family.Family));
       },

@@ -53,3 +53,4 @@ source {
   branch: "main"
 }
 stroke: "SANS_SERIF"
+minisite_url: "https://github.com/mona-sans"

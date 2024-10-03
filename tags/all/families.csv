@@ -213,6 +213,7 @@ Allison,/Expressive/Artistic,99
 Allison,/Expressive/Childlike,38
 Allison,/Expressive/Fancy,77
 Allison,/Expressive/Rugged,42
+Allison,/Expressive/Sophisticated,58
 Allison,/Expressive/Vintage,58.9
 Allison,/Script/Formal,20
 Allison,/Script/Handwritten,30
@@ -293,6 +294,7 @@ Amita,/Expressive/Artistic,40
 Amita,/Expressive/Cute,11
 Amita,/Expressive/Happy,14
 Amita,/Expressive/Loud,40
+Amita,/Expressive/Sophisticated,23
 Amita,/Expressive/Vintage,73.4
 Amita,/Script/Informal,20
 Amita,/Script/Upright Script,20
@@ -443,12 +445,14 @@ Aref Ruqaa Ink,/Expressive/Artistic,32
 Aref Ruqaa Ink,/Expressive/Childlike,13
 Aref Ruqaa Ink,/Expressive/Playful,11
 Aref Ruqaa Ink,/Expressive/Sincere,50
+Aref Ruqaa Ink,/Expressive/Sophisticated,50
 Aref Ruqaa Ink,/Serif/Humanist Venetian,60
 Aref Ruqaa,/Arabic/Ruqah,100
 Aref Ruqaa,/Expressive/Artistic,40
 Aref Ruqaa,/Expressive/Childlike,13
 Aref Ruqaa,/Expressive/Playful,11
 Aref Ruqaa,/Expressive/Sincere,50
+Aref Ruqaa,/Expressive/Sophisticated,50
 Aref Ruqaa,/Serif/Humanist Venetian,60
 Arima,/Expressive/Artistic,11
 Arima,/Expressive/Cute,14
@@ -1451,7 +1455,6 @@ Cedarville Cursive,/Expressive/Happy,34
 Cedarville Cursive,/Expressive/Playful,37
 Cedarville Cursive,/Expressive/Rugged,4
 Cedarville Cursive,/Expressive/Sincere,99
-Cedarville Cursive,/Expressive/Sophisticated,22
 Cedarville Cursive,/Script/Handwritten,100
 Cedarville Cursive,/Script/Informal,100
 Ceviche One,/Expressive/Active,12
@@ -1502,6 +1505,7 @@ Charis SIL,/Serif/Transitional,100
 Charm,"/South East Asian (Thai, Khmer, Lao)/Looped",100
 Charm,/Expressive/Artistic,59
 Charm,/Expressive/Excited,11
+Charm,/Expressive/Sophisticated,95
 Charm,/Expressive/Vintage,63.4
 Charm,/Script/Formal,100
 Charmonman,"/South East Asian (Thai, Khmer, Lao)/Looped",100
@@ -3040,6 +3044,7 @@ Gwendolyn,/Expressive/Artistic,80
 Gwendolyn,/Expressive/Cute,51
 Gwendolyn,/Expressive/Fancy,63
 Gwendolyn,/Expressive/Sincere,94
+Gwendolyn,/Expressive/Sophisticated,77
 Gwendolyn,/Expressive/Vintage,67.8
 Gwendolyn,/Script/Formal,80
 Habibi,/Expressive/Business,48
@@ -4210,6 +4215,7 @@ Luxurious Roman,/Expressive/Artistic,34
 Luxurious Roman,/Expressive/Happy,11
 Luxurious Roman,/Expressive/Playful,11
 Luxurious Roman,/Expressive/Sincere,20.5
+Luxurious Roman,/Expressive/Sophisticated,20
 Luxurious Roman,/Expressive/Vintage,87.5
 Luxurious Roman,/Serif/Humanist Venetian,50
 Luxurious Roman,/Serif/Transitional,50
@@ -4934,6 +4940,7 @@ Niconne,/Expressive/Active,66
 Niconne,/Expressive/Fancy,57
 Niconne,/Expressive/Loud,37
 Niconne,/Expressive/Sincere,40.1
+Niconne,/Expressive/Sophisticated,74
 Niconne,/Expressive/Vintage,77
 Niconne,/Serif/Modern,100
 Niramit,/Expressive/Business,67.3
@@ -6045,288 +6052,237 @@ Playpen Sans,/Script/Handwritten,100
 Playpen Sans,/Script/Informal,100
 Playwrite AR,/Expressive/Calm,50
 Playwrite AR,/Expressive/Cute,50
-Playwrite AR,/Expressive/Sophisticated,50
 Playwrite AR,/Script/Handwritten,100
 Playwrite AR,/Script/Informal,80
 Playwrite AR,/Script/Upright Script,100
 Playwrite AT,/Expressive/Calm,50
 Playwrite AT,/Expressive/Cute,50
-Playwrite AT,/Expressive/Sophisticated,50
 Playwrite AT,/Script/Handwritten,100
 Playwrite AT,/Script/Informal,80
 Playwrite AT,/Script/Upright Script,50
 Playwrite AU NSW,/Expressive/Active,80
 Playwrite AU NSW,/Expressive/Calm,50
 Playwrite AU NSW,/Expressive/Cute,50
-Playwrite AU NSW,/Expressive/Sophisticated,50
 Playwrite AU NSW,/Script/Handwritten,100
 Playwrite AU NSW,/Script/Informal,80
 Playwrite AU QLD,/Expressive/Calm,50
 Playwrite AU QLD,/Expressive/Cute,50
-Playwrite AU QLD,/Expressive/Sophisticated,50
 Playwrite AU QLD,/Script/Handwritten,100
 Playwrite AU QLD,/Script/Informal,80
 Playwrite AU SA,/Expressive/Calm,50
 Playwrite AU SA,/Expressive/Cute,50
-Playwrite AU SA,/Expressive/Sophisticated,50
 Playwrite AU SA,/Script/Handwritten,100
 Playwrite AU SA,/Script/Informal,80
 Playwrite AU TAS,/Expressive/Calm,50
 Playwrite AU TAS,/Expressive/Cute,50
-Playwrite AU TAS,/Expressive/Sophisticated,50
 Playwrite AU TAS,/Script/Handwritten,100
 Playwrite AU TAS,/Script/Informal,80
 Playwrite AU VIC,/Expressive/Calm,50
 Playwrite AU VIC,/Expressive/Cute,50
-Playwrite AU VIC,/Expressive/Sophisticated,50
 Playwrite AU VIC,/Script/Handwritten,100
 Playwrite AU VIC,/Script/Informal,80
 Playwrite BE VLG,/Expressive/Calm,50
 Playwrite BE VLG,/Expressive/Cute,50
-Playwrite BE VLG,/Expressive/Sophisticated,50
 Playwrite BE VLG,/Script/Handwritten,100
 Playwrite BE VLG,/Script/Informal,80
 Playwrite BE WAL,/Expressive/Calm,50
 Playwrite BE WAL,/Expressive/Cute,50
-Playwrite BE WAL,/Expressive/Sophisticated,50
 Playwrite BE WAL,/Script/Handwritten,100
 Playwrite BE WAL,/Script/Informal,80
 Playwrite BE WAL,/Script/Upright Script,100
 Playwrite BR,/Expressive/Calm,50
 Playwrite BR,/Expressive/Cute,50
-Playwrite BR,/Expressive/Sophisticated,50
 Playwrite BR,/Script/Handwritten,100
 Playwrite BR,/Script/Informal,80
 Playwrite BR,/Script/Upright Script,100
 Playwrite CA,/Expressive/Calm,50
 Playwrite CA,/Expressive/Cute,50
-Playwrite CA,/Expressive/Sophisticated,50
 Playwrite CA,/Script/Handwritten,100
 Playwrite CA,/Script/Informal,80
 Playwrite CL,/Expressive/Calm,50
 Playwrite CL,/Expressive/Cute,50
-Playwrite CL,/Expressive/Sophisticated,50
 Playwrite CL,/Script/Handwritten,100
 Playwrite CL,/Script/Informal,80
 Playwrite CL,/Script/Upright Script,100
 Playwrite CO,/Expressive/Active,100
 Playwrite CO,/Expressive/Cute,50
-Playwrite CO,/Expressive/Sophisticated,50
 Playwrite CO,/Script/Handwritten,100
 Playwrite CO,/Script/Informal,80
 Playwrite CU,/Expressive/Calm,50
 Playwrite CU,/Expressive/Cute,50
-Playwrite CU,/Expressive/Sophisticated,50
 Playwrite CU,/Script/Handwritten,100
 Playwrite CU,/Script/Informal,80
 Playwrite CZ,/Expressive/Active,80
 Playwrite CZ,/Expressive/Calm,50
 Playwrite CZ,/Expressive/Cute,50
-Playwrite CZ,/Expressive/Sophisticated,50
 Playwrite CZ,/Script/Handwritten,100
 Playwrite CZ,/Script/Informal,80
 Playwrite DE Grund,/Expressive/Calm,50
 Playwrite DE Grund,/Expressive/Cute,50
-Playwrite DE Grund,/Expressive/Sophisticated,50
 Playwrite DE Grund,/Script/Handwritten,100
 Playwrite DE Grund,/Script/Informal,80
 Playwrite DE Grund,/Script/Upright Script,100
 Playwrite DE LA,/Expressive/Active,80
 Playwrite DE LA,/Expressive/Calm,50
 Playwrite DE LA,/Expressive/Cute,50
-Playwrite DE LA,/Expressive/Sophisticated,50
 Playwrite DE LA,/Script/Handwritten,100
 Playwrite DE LA,/Script/Informal,80
 Playwrite DE SAS,/Expressive/Active,80
 Playwrite DE SAS,/Expressive/Calm,50
 Playwrite DE SAS,/Expressive/Cute,50
-Playwrite DE SAS,/Expressive/Sophisticated,50
 Playwrite DE SAS,/Script/Handwritten,100
 Playwrite DE SAS,/Script/Informal,80
 Playwrite DE VA,/Expressive/Active,80
 Playwrite DE VA,/Expressive/Calm,50
 Playwrite DE VA,/Expressive/Cute,50
-Playwrite DE VA,/Expressive/Sophisticated,50
 Playwrite DE VA,/Script/Handwritten,100
 Playwrite DE VA,/Script/Informal,80
 Playwrite DK Loopet,/Expressive/Calm,50
 Playwrite DK Loopet,/Expressive/Cute,50
-Playwrite DK Loopet,/Expressive/Sophisticated,50
 Playwrite DK Loopet,/Script/Handwritten,100
 Playwrite DK Loopet,/Script/Informal,80
 Playwrite DK Uloopet,/Expressive/Calm,50
 Playwrite DK Uloopet,/Expressive/Cute,50
-Playwrite DK Uloopet,/Expressive/Sophisticated,50
 Playwrite DK Uloopet,/Script/Handwritten,100
 Playwrite DK Uloopet,/Script/Informal,80
 Playwrite ES Deco,/Expressive/Calm,50
 Playwrite ES Deco,/Expressive/Cute,50
-Playwrite ES Deco,/Expressive/Sophisticated,50
 Playwrite ES Deco,/Script/Handwritten,100
 Playwrite ES Deco,/Script/Informal,80
 Playwrite ES Deco,/Script/Upright Script,100
 Playwrite ES,/Expressive/Calm,50
 Playwrite ES,/Expressive/Cute,50
-Playwrite ES,/Expressive/Sophisticated,50
 Playwrite ES,/Script/Handwritten,100
 Playwrite ES,/Script/Informal,80
 Playwrite ES,/Script/Upright Script,100
 Playwrite FR Moderne,/Expressive/Calm,50
 Playwrite FR Moderne,/Expressive/Cute,50
-Playwrite FR Moderne,/Expressive/Sophisticated,50
 Playwrite FR Moderne,/Script/Handwritten,100
 Playwrite FR Moderne,/Script/Informal,80
 Playwrite FR Moderne,/Script/Upright Script,100
 Playwrite FR Trad,/Expressive/Active,100
 Playwrite FR Trad,/Expressive/Cute,50
-Playwrite FR Trad,/Expressive/Sophisticated,50
 Playwrite FR Trad,/Script/Handwritten,100
 Playwrite FR Trad,/Script/Informal,80
 Playwrite FR Trad,/Script/Upright Script,100
 Playwrite GB J,/Expressive/Calm,50
 Playwrite GB J,/Expressive/Cute,50
-Playwrite GB J,/Expressive/Sophisticated,50
 Playwrite GB J,/Script/Handwritten,100
 Playwrite GB J,/Script/Informal,80
 Playwrite GB J,/Script/Upright Script,50
 Playwrite GB S,/Expressive/Calm,50
 Playwrite GB S,/Expressive/Cute,50
-Playwrite GB S,/Expressive/Sophisticated,50
 Playwrite GB S,/Script/Handwritten,100
 Playwrite GB S,/Script/Informal,80
 Playwrite GB S,/Script/Upright Script,50
 Playwrite HR Lijeva,/Expressive/Calm,50
 Playwrite HR Lijeva,/Expressive/Cute,50
-Playwrite HR Lijeva,/Expressive/Sophisticated,50
 Playwrite HR Lijeva,/Script/Handwritten,100
 Playwrite HR Lijeva,/Script/Informal,80
 Playwrite HR Lijeva,/Script/Upright Script,100
 Playwrite HR,/Expressive/Calm,50
 Playwrite HR,/Expressive/Cute,50
-Playwrite HR,/Expressive/Sophisticated,50
 Playwrite HR,/Script/Handwritten,100
 Playwrite HR,/Script/Informal,80
 Playwrite HU,/Expressive/Calm,50
 Playwrite HU,/Expressive/Cute,50
-Playwrite HU,/Expressive/Sophisticated,50
 Playwrite HU,/Script/Handwritten,100
 Playwrite HU,/Script/Informal,80
 Playwrite HU,/Script/Upright Script,100
 Playwrite ID,/Expressive/Calm,50
 Playwrite ID,/Expressive/Cute,50
-Playwrite ID,/Expressive/Sophisticated,50
 Playwrite ID,/Script/Handwritten,100
 Playwrite ID,/Script/Informal,80
 Playwrite ID,/Script/Upright Script,100
 Playwrite IE,/Expressive/Active,80
 Playwrite IE,/Expressive/Calm,50
 Playwrite IE,/Expressive/Cute,50
-Playwrite IE,/Expressive/Sophisticated,50
 Playwrite IE,/Script/Handwritten,100
 Playwrite IE,/Script/Informal,80
 Playwrite IN,/Expressive/Calm,50
 Playwrite IN,/Expressive/Cute,50
-Playwrite IN,/Expressive/Sophisticated,50
 Playwrite IN,/Script/Handwritten,100
 Playwrite IN,/Script/Informal,80
 Playwrite IS,/Expressive/Calm,50
 Playwrite IS,/Expressive/Cute,50
-Playwrite IS,/Expressive/Sophisticated,50
 Playwrite IS,/Script/Handwritten,100
 Playwrite IS,/Script/Informal,80
 Playwrite IT Moderna,/Expressive/Calm,50
 Playwrite IT Moderna,/Expressive/Cute,50
-Playwrite IT Moderna,/Expressive/Sophisticated,50
 Playwrite IT Moderna,/Script/Handwritten,100
 Playwrite IT Moderna,/Script/Informal,80
 Playwrite IT Moderna,/Script/Upright Script,100
 Playwrite IT Trad,/Expressive/Calm,50
 Playwrite IT Trad,/Expressive/Cute,50
-Playwrite IT Trad,/Expressive/Sophisticated,50
 Playwrite IT Trad,/Script/Handwritten,100
 Playwrite IT Trad,/Script/Informal,80
 Playwrite IT Trad,/Script/Upright Script,100
 Playwrite MX,/Expressive/Active,80
 Playwrite MX,/Expressive/Calm,50
 Playwrite MX,/Expressive/Cute,50
-Playwrite MX,/Expressive/Sophisticated,50
 Playwrite MX,/Script/Handwritten,100
 Playwrite MX,/Script/Informal,80
 Playwrite NG Modern,/Expressive/Calm,50
 Playwrite NG Modern,/Expressive/Cute,50
-Playwrite NG Modern,/Expressive/Sophisticated,50
 Playwrite NG Modern,/Script/Handwritten,100
 Playwrite NG Modern,/Script/Informal,80
 Playwrite NL,/Expressive/Active,80
 Playwrite NL,/Expressive/Calm,50
 Playwrite NL,/Expressive/Cute,50
-Playwrite NL,/Expressive/Sophisticated,50
 Playwrite NL,/Script/Handwritten,100
 Playwrite NL,/Script/Informal,80
 Playwrite NO,/Expressive/Calm,50
 Playwrite NO,/Expressive/Cute,50
-Playwrite NO,/Expressive/Sophisticated,50
 Playwrite NO,/Script/Handwritten,100
 Playwrite NO,/Script/Informal,80
 Playwrite NZ,/Expressive/Calm,50
 Playwrite NZ,/Expressive/Cute,50
-Playwrite NZ,/Expressive/Sophisticated,50
 Playwrite NZ,/Script/Handwritten,100
 Playwrite NZ,/Script/Informal,80
 Playwrite PE,/Expressive/Calm,50
 Playwrite PE,/Expressive/Cute,50
-Playwrite PE,/Expressive/Sophisticated,50
 Playwrite PE,/Script/Handwritten,100
 Playwrite PE,/Script/Informal,80
 Playwrite PE,/Script/Upright Script,100
 Playwrite PL,/Expressive/Calm,50
 Playwrite PL,/Expressive/Cute,50
-Playwrite PL,/Expressive/Sophisticated,50
 Playwrite PL,/Script/Handwritten,100
 Playwrite PL,/Script/Informal,80
 Playwrite PL,/Script/Upright Script,100
 Playwrite PT,/Expressive/Calm,50
 Playwrite PT,/Expressive/Cute,50
-Playwrite PT,/Expressive/Sophisticated,50
 Playwrite PT,/Script/Handwritten,100
 Playwrite PT,/Script/Informal,80
 Playwrite PT,/Script/Upright Script,100
 Playwrite RO,/Expressive/Calm,50
 Playwrite RO,/Expressive/Cute,50
-Playwrite RO,/Expressive/Sophisticated,50
 Playwrite RO,/Script/Handwritten,100
 Playwrite RO,/Script/Informal,80
 Playwrite SK,/Expressive/Calm,50
 Playwrite SK,/Expressive/Cute,50
-Playwrite SK,/Expressive/Sophisticated,50
 Playwrite SK,/Script/Handwritten,100
 Playwrite SK,/Script/Informal,80
 Playwrite TZ,/Expressive/Calm,50
 Playwrite TZ,/Expressive/Cute,50
-Playwrite TZ,/Expressive/Sophisticated,50
 Playwrite TZ,/Script/Handwritten,100
 Playwrite TZ,/Script/Informal,80
 Playwrite US Modern,/Expressive/Calm,50
 Playwrite US Modern,/Expressive/Cute,50
-Playwrite US Modern,/Expressive/Sophisticated,50
 Playwrite US Modern,/Script/Handwritten,100
 Playwrite US Modern,/Script/Informal,80
 Playwrite US Modern,/Script/Upright Script,100
 Playwrite US Trad,/Expressive/Active,80
 Playwrite US Trad,/Expressive/Calm,50
 Playwrite US Trad,/Expressive/Cute,50
-Playwrite US Trad,/Expressive/Sophisticated,50
 Playwrite US Trad,/Script/Handwritten,100
 Playwrite US Trad,/Script/Informal,80
 Playwrite VN,/Expressive/Calm,50
 Playwrite VN,/Expressive/Cute,50
-Playwrite VN,/Expressive/Sophisticated,50
 Playwrite VN,/Script/Handwritten,100
 Playwrite VN,/Script/Informal,80
 Playwrite VN,/Script/Upright Script,100
 Playwrite ZA,/Expressive/Calm,50
 Playwrite ZA,/Expressive/Cute,50
-Playwrite ZA,/Expressive/Sophisticated,50
 Playwrite ZA,/Script/Handwritten,100
 Playwrite ZA,/Script/Informal,80
 Plus Jakarta Sans,/Expressive/Business,55.2
@@ -7880,6 +7836,7 @@ Style Script,/Expressive/Artistic,80
 Style Script,/Expressive/Childlike,61
 Style Script,/Expressive/Fancy,74
 Style Script,/Expressive/Loud,23
+Style Script,/Expressive/Sophisticated,78
 Style Script,/Expressive/Vintage,78.1
 Style Script,/Script/Upright Script,100
 Stylish,/Expressive/Awkward,77
@@ -8566,6 +8523,7 @@ Waterfall,/Expressive/Artistic,70
 Waterfall,/Expressive/Cute,35
 Waterfall,/Expressive/Fancy,55
 Waterfall,/Expressive/Loud,42
+Waterfall,/Expressive/Sophisticated,70
 Waterfall,/Expressive/Vintage,58.7
 Waterfall,/Script/Informal,50
 Wavefont,/Not text/Symbols,100
@@ -8686,6 +8644,7 @@ Yeseva One,/Serif/Fat Face,10
 Yesteryear,/Expressive/Childlike,36
 Yesteryear,/Expressive/Fancy,91
 Yesteryear,/Expressive/Loud,73
+Yesteryear,/Expressive/Sophisticated,23
 Yesteryear,/Expressive/Vintage,47.6
 Yesteryear,/Script/Handwritten,40
 Yomogi,/Expressive/Awkward,62

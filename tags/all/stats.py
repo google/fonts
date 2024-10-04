@@ -1,17 +1,14 @@
 """
-Result 5/29/2024:
-
-Num tags 9125
-Mean tags  5.086399108138239
-Median tags 5.0
-Stdev tags 2.474364733745681
-Max tags 27
+Gives basic stats about tags.
 
 Usage:
 
-	clone https://github.com/google/fonts
-	write to a file in tags/all called stats.py
-	python3 stats.py
+	$ python3 stats.py
+	Num tags 9125
+	Mean tags  5.086399108138239
+	Median tags 5.0
+	Stdev tags 2.474364733745681
+	Max tags 27
 """
 
 import collections

@@ -12,6 +12,13 @@
 
     <div id="panel">
       <div class="panel-tile">
+        <form @submit.prevent="loadCSV">
+          <label>Checkout Commit:</label>
+          <input v-model="commit" required placeholder="refs/heads/main">
+          <button>Checkout</button>
+        </form>
+      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
+
         <label>Current tag:</label>
         <select v-model="CurrentCategory" style="max-width: 300px;">
           <option v-for="category in sortedCategories" :key="category" :value="category">
@@ -76,6 +83,7 @@
       return {
         ready: false,
         isEdited: false,
+        commit: "refs/heads/main",
         newFamily: '',
         newWeight: '',
         CurrentCategory: "/Expressive/Calm",
@@ -102,9 +110,29 @@
         history: [],
       };
     },
+    watch: {
+      commit(newCommit) {
+        this.updateURL();
+      },
+      CurrentCategory(newCategory) {
+        this.updateURL();
+      }
+    },
     created() {
       this.loadCSV();
       this.loadFamilyPangrams();
+    },
+    mounted() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const category = urlParams.get('category');
+      if (category) {
+        this.CurrentCategory = category;
+      }
+      const commit = urlParams.get('commit');
+      if (commit) {
+        this.commit = commit;
+        this.loadCSV();
+      }
     },
     computed: {
       sortedFamilies() {
@@ -121,6 +149,20 @@
       }
     },
     methods: {
+      updateURL() {
+        const url = new URL(window.location);
+        if (this.commit) {
+          url.searchParams.set('commit', this.commit);
+        } else {
+          url.searchParams.delete('commit');
+        }
+        if (this.CurrentCategory) {
+          url.searchParams.set('category', this.CurrentCategory);
+        } else {
+          url.searchParams.delete('category');
+        }
+        history.pushState(null, '', url);
+      },
       familyPangram(family) {
         return this.Pangrams.get(this.FamilyScripts.get(family.Family));
       },
@@ -240,9 +282,21 @@
         window.open("https://github.com/google/fonts/edit/main/tags/all/families.csv")
       },
       loadCSV() {
-        const csvFilePath = 'https://raw.githubusercontent.com/google/fonts/main/tags/all/families.csv'; // Update this path to your CSV file
+        if (this.history.length > 0) {
+          let proceed = confirm("Checking out a new commit will delete any changes you've made. Would you like to continue?")
+          if (proceed === false) {
+            return;
+          }
+        }
+        this.history = [];
+        const csvFilePath = `https://raw.githubusercontent.com/google/fonts/${this.commit}/tags/all/families.csv`; // Update this path to your CSV file
         fetch(csvFilePath)
-          .then(response => response.text())
+          .then(response => {
+            if (response.status === 404) {
+              alert(`No data found for commit "${this.commit}". Please input a git commit hash e.g 538d9635c160306b40af31c9a3821c59b285bbff`);
+            }
+            return response.text()
+          })
           .then(csvText => {
             Papa.parse(csvText, {
               header: true,

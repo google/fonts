@@ -239,7 +239,6 @@ Almendra SC,/Expressive/Sincere,92
 Almendra SC,/Expressive/Vintage,99
 Almendra SC,/Serif/Humanist Venetian,80
 Almendra,/Expressive/Artistic,29
-Almendra,/Expressive/Loud,81
 Almendra,/Expressive/Sincere,92
 Almendra,/Expressive/Vintage,98
 Almendra,/Serif/Humanist Venetian,100
@@ -3171,6 +3170,8 @@ Homenaje,/Expressive/Stiff,100
 Homenaje,/Sans/Geometric,60
 Homenaje,/Sans/Superellipse,30
 Honk,/Expressive/Innovative,100
+Honk,/Expressive/Loud,85
+Honk,/Expressive/Playful,50
 Honk,/Sans/Geometric,10
 Honk,/Theme/Shaded,100
 Hubballi,/Expressive/Calm,68.8
@@ -3233,33 +3234,43 @@ IBM Plex Serif,/Expressive/Competent,99.4
 IBM Plex Serif,/Expressive/Sincere,93
 IBM Plex Serif,/Serif/Scotch,100
 IM Fell DW Pica SC,/Expressive/Business,28
+IM Fell DW Pica SC,/Expressive/Rugged,99.3
 IM Fell DW Pica SC,/Expressive/Sincere,98
 IM Fell DW Pica SC,/Expressive/Vintage,89
 IM Fell DW Pica,/Expressive/Business,28
+IM Fell DW Pica,/Expressive/Rugged,99.3
 IM Fell DW Pica,/Expressive/Sincere,98
 IM Fell DW Pica,/Expressive/Vintage,89
 IM Fell Double Pica SC,/Expressive/Business,28
+IM Fell Double Pica SC,/Expressive/Rugged,99.1
 IM Fell Double Pica SC,/Expressive/Sincere,98
 IM Fell Double Pica SC,/Expressive/Vintage,89
 IM Fell Double Pica,/Expressive/Business,28
+IM Fell Double Pica,/Expressive/Rugged,94.2
 IM Fell Double Pica,/Expressive/Sincere,98
 IM Fell Double Pica,/Expressive/Vintage,89
 IM Fell English SC,/Expressive/Business,28
+IM Fell English SC,/Expressive/Rugged,99.2
 IM Fell English SC,/Expressive/Sincere,98
 IM Fell English SC,/Expressive/Vintage,90
 IM Fell English,/Expressive/Business,28
+IM Fell English,/Expressive/Rugged,99.2
 IM Fell English,/Expressive/Sincere,98
 IM Fell English,/Expressive/Vintage,89
 IM Fell French Canon SC,/Expressive/Business,28
+IM Fell French Canon SC,/Expressive/Rugged,98.6
 IM Fell French Canon SC,/Expressive/Sincere,98
 IM Fell French Canon SC,/Expressive/Vintage,89
 IM Fell French Canon,/Expressive/Business,28
+IM Fell French Canon,/Expressive/Rugged,98.6
 IM Fell French Canon,/Expressive/Sincere,98
 IM Fell French Canon,/Expressive/Vintage,90.8
 IM Fell Great Primer SC,/Expressive/Business,28
+IM Fell Great Primer SC,/Expressive/Rugged,98.5
 IM Fell Great Primer SC,/Expressive/Sincere,98
 IM Fell Great Primer SC,/Expressive/Vintage,89
 IM Fell Great Primer,/Expressive/Business,28
+IM Fell Great Primer,/Expressive/Rugged,98.5
 IM Fell Great Primer,/Expressive/Sincere,98
 IM Fell Great Primer,/Expressive/Vintage,89
 Ibarra Real Nova,/Expressive/Business,71.8
@@ -3315,10 +3326,11 @@ Ingrid Darling,/Theme/Wacky,40
 Inika,/Expressive/Awkward,12
 Inika,/Expressive/Sincere,58
 Inika,/Serif/Old Style Garalde,10
-Inknut Antiqua,/Expressive/Business,80.1
-Inknut Antiqua,/Expressive/Loud,72
-Inknut Antiqua,/Expressive/Sincere,44.5
-Inknut Antiqua,/Expressive/Stiff,81
+Inknut Antiqua,/Expressive/Business,70
+Inknut Antiqua,/Expressive/Calm,90
+Inknut Antiqua,/Expressive/Loud,70
+Inknut Antiqua,/Expressive/Sincere,50
+Inknut Antiqua,/Expressive/Stiff,80
 Inknut Antiqua,/Serif/Humanist Venetian,90
 Inria Sans,/Expressive/Business,92
 Inria Sans,/Expressive/Calm,77
@@ -3935,19 +3947,12 @@ Lexend Zetta,/Expressive/Competent,95.9
 Lexend Zetta,/Sans/Geometric,100
 Lexend,/Expressive/Calm,99.8
 Lexend,/Sans/Geometric,100
-Libre Barcode 128 Text,/Expressive/Vintage,73.4
 Libre Barcode 128 Text,/Not text/Symbols,100
-Libre Barcode 128,/Expressive/Vintage,73.4
 Libre Barcode 128,/Not text/Symbols,100
-Libre Barcode 39 Extended Text,/Expressive/Vintage,73.4
 Libre Barcode 39 Extended Text,/Not text/Symbols,100
-Libre Barcode 39 Extended,/Expressive/Vintage,73.4
 Libre Barcode 39 Extended,/Not text/Symbols,100
-Libre Barcode 39 Text,/Expressive/Vintage,73.4
 Libre Barcode 39 Text,/Not text/Symbols,100
-Libre Barcode 39,/Expressive/Vintage,73.4
 Libre Barcode 39,/Not text/Symbols,100
-Libre Barcode EAN13 Text,/Expressive/Vintage,73.4
 Libre Barcode EAN13 Text,/Not text/Symbols,100
 Libre Baskerville,/Expressive/Business,87.9
 Libre Baskerville,/Expressive/Sincere,99
@@ -4951,17 +4956,10 @@ Noticia Text,/Expressive/Business,79
 Noticia Text,/Expressive/Sincere,97
 Noticia Text,/Slab/Humanist,100
 Noto Color Emoji Compat Test,/Not text/Symbols,100
-Noto Color Emoji,/Expressive/Childlike,90
-Noto Color Emoji,/Expressive/Cute,95
-Noto Color Emoji,/Expressive/Excited,100
-Noto Color Emoji,/Expressive/Innovative,100
-Noto Color Emoji,/Expressive/Playful,100
 Noto Emoji,/Expressive/Cute,80
 Noto Emoji,/Expressive/Innovative,99
 Noto Emoji,/Expressive/Playful,80
 Noto Kufi Arabic,/Arabic/Kufi,100
-Noto Music,/Expressive/Business,58
-Noto Music,/Expressive/Calm,99
 Noto Music,/Not text/Symbols,100
 Noto Naskh Arabic UI,/Arabic/Naskh,100
 Noto Naskh Arabic,/Arabic/Naskh,100
@@ -5379,8 +5377,6 @@ Noto Sans Sundanese,/Sans/Humanist,100
 Noto Sans Syloti Nagri,/Expressive/Business,58
 Noto Sans Syloti Nagri,/Expressive/Calm,99
 Noto Sans Syloti Nagri,/Sans/Humanist,100
-Noto Sans Symbols 2,/Expressive/Business,58
-Noto Sans Symbols 2,/Expressive/Calm,99
 Noto Sans Symbols 2,/Not text/Symbols,100
 Noto Sans Symbols,/Expressive/Business,58
 Noto Sans Symbols,/Expressive/Calm,99
@@ -6647,9 +6643,7 @@ Red Rose,/Expressive/Competent,89.4
 Red Rose,/Expressive/Stiff,81
 Red Rose,/Expressive/Vintage,68
 Red Rose,/Sans/Glyphic,100
-Redacted Script,/Expressive/Playful,60
 Redacted Script,/Not text/Symbols,100
-Redacted,/Expressive/Stiff,100
 Redacted,/Not text/Symbols,100
 Redressed,/Expressive/Stiff,10
 Redressed,/Expressive/Vintage,86
@@ -8190,7 +8184,6 @@ Trocchi,/Expressive/Vintage,84.5
 Trocchi,/Serif/Scotch,100
 Trochut,/Expressive/Awkward,11
 Trochut,/Expressive/Happy,33
-Trochut,/Expressive/Loud,77
 Trochut,/Expressive/Stiff,70
 Truculenta,/Expressive/Calm,62
 Truculenta,/Expressive/Childlike,46
@@ -8515,7 +8508,6 @@ Waterfall,/Expressive/Fancy,55
 Waterfall,/Expressive/Loud,42
 Waterfall,/Expressive/Vintage,58.7
 Waterfall,/Script/Informal,50
-Wavefont,/Expressive/Stiff,100
 Wavefont,/Not text/Symbols,100
 Wellfleet,/Expressive/Excited,22
 Wellfleet,/Expressive/Happy,31

@@ -3,7 +3,7 @@ language: "kca"
 script: "Cyrl"
 name: "Khanty"
 autonym: "Ханты"
-population: 0
+population: 14000
 exemplar_chars {
   base: "А Ӑ Ӓ В Е Ё И Й К Қ Л Љ Ԯ М Н {Н’} Њ Ң О Ӧ Ө {Ө̆} Ӫ П Р С Т Ᲊ У Ў Ӱ Х Ҳ Ҷ Ш Щ Ы Ь Э Є Ә Ӛ Ю Я а ӑ ӓ в е ё и й к қ л љ ԯ м н {н’} њ ң о ӧ ө {ө̆} ӫ п р с т ᲊ у ў ӱ х ҳ ҷ ш щ ы ь э є ә ӛ ю я"
   marks: "◌̆ ◌̈"
@@ -14,4 +14,5 @@ source: "Ф. М. Лельхова, Хантыйский язык. 2 класс. 
 source: "Ф. М. Лельхова, Словарь глаголов хантыйского языка (шурышкарский диалект), Ханты-Мансийск, ОАО Издательский дом Новости Югры, 2012."
 source: "Е.А. Нeмысова, А.С. Песикова, М.А. Прасина, Картинный словарь шурышкарского, казымского, сургутского и ваховского диалектов хантыйского языка: Пособие для учащихся 9-11 классов общеобразовательных учреждений, СПб., ООО Миралл, 2008."
 source: "В. Н. Соловар, Хантыйско-русский словарь (казымский диалект), Тюмень, ООО ФОРМАТ, 2014."
+source: "Росстат, Итоги ВПН-2020. Том 5 Национальный состав и владение языками, 2020"
 note: "Kazym, Shurishkar, Surgut, Vahov variants have different alphabets. In practice letters with hooks Ӄ Ԓ Ӈ Ӽ are often used instead of Қ Ԯ Ң Ҳ as some alphabet primers or other learning material has used those letteforms. Ӆ Ӊ are also used in the Хӑнты ясӑӊ newspaper."

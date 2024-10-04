@@ -199,6 +199,7 @@ Alkatra,/Expressive/Sincere,93
 Alkatra,/Expressive/Vintage,33.4
 Alkatra,/Script/Handwritten,50
 Alkatra,/Script/Informal,70
+Allan,/Expressive/Active,99
 Allan,/Expressive/Calm,57
 Allan,/Expressive/Childlike,50
 Allan,/Expressive/Cute,12
@@ -212,6 +213,7 @@ Allerta,/Expressive/Competent,38
 Allison,/Expressive/Artistic,99
 Allison,/Expressive/Fancy,77
 Allison,/Expressive/Rugged,42
+Allison,/Expressive/Sophisticated,58
 Allison,/Expressive/Vintage,58.9
 Allison,/Script/Formal,20
 Allison,/Script/Handwritten,30
@@ -242,17 +244,14 @@ Almendra,/Expressive/Sincere,92
 Almendra,/Expressive/Vintage,98
 Almendra,/Serif/Humanist Venetian,100
 Alumni Sans Collegiate One,/Expressive/Calm,15
-Alumni Sans Collegiate One,/Expressive/Futuristic,77
 Alumni Sans Collegiate One,/Expressive/Innovative,93
 Alumni Sans Collegiate One,/Expressive/Loud,100
 Alumni Sans Collegiate One,/Expressive/Stiff,20
-Alumni Sans Inline One,/Expressive/Futuristic,77
 Alumni Sans Inline One,/Expressive/Innovative,93
 Alumni Sans Inline One,/Expressive/Loud,99
 Alumni Sans Pinstripe,/Expressive/Calm,99.9
 Alumni Sans Pinstripe,/Sans/Geometric,10
 Alumni Sans Pinstripe,/Sans/Humanist,10
-Alumni Sans,/Expressive/Business,73.1
 Alumni Sans,/Expressive/Calm,81.1
 Alumni Sans,/Expressive/Competent,95.7
 Alumni Sans,/Sans/Geometric,20
@@ -281,7 +280,6 @@ Amethysta,/Serif/Transitional,20
 Amiko,/Expressive/Calm,96.5
 Amiko,/Sans/Humanist,100
 Amiri Quran,/Arabic/Naskh,100
-Amiri Quran,/Expressive/Business,81.4
 Amiri Quran,/Serif/Old Style Garalde,100
 Amiri,/Arabic/Naskh,100
 Amiri,/Expressive/Business,81.4
@@ -290,6 +288,7 @@ Amita,/Expressive/Artistic,40
 Amita,/Expressive/Cute,11
 Amita,/Expressive/Happy,14
 Amita,/Expressive/Loud,40
+Amita,/Expressive/Sophisticated,23
 Amita,/Expressive/Vintage,73.4
 Amita,/Script/Informal,20
 Amita,/Script/Upright Script,20
@@ -342,7 +341,6 @@ Anek Telugu,/Expressive/Calm,74
 Anek Telugu,/Expressive/Competent,28
 Anek Telugu,/Sans/Humanist,100
 Angkor,"/South East Asian (Thai, Khmer, Lao)/Looped",100
-Angkor,/Expressive/Business,27
 Angkor,/Expressive/Loud,99
 Angkor,/Expressive/Vintage,78.7
 Angkor,/Slab/Humanist,20
@@ -373,7 +371,6 @@ Anton,/Expressive/Loud,88
 Anton,/Expressive/Vintage,71
 Anton,/Sans/Grotesque,30
 Anton,/Sans/Neo Grotesque,70
-Antonio,/Expressive/Business,90.2
 Antonio,/Expressive/Calm,91.8
 Antonio,/Expressive/Competent,99.7
 Antonio,/Expressive/Loud,52
@@ -416,7 +413,6 @@ Architects Daughter,/Expressive/Cute,20
 Architects Daughter,/Expressive/Playful,28
 Architects Daughter,/Expressive/Sincere,97
 Architects Daughter,/Expressive/Vintage,37.5
-Archivo Black,/Expressive/Business,19
 Archivo Black,/Expressive/Calm,96.4
 Archivo Black,/Expressive/Competent,94.5
 Archivo Black,/Expressive/Stiff,30
@@ -439,11 +435,13 @@ Aref Ruqaa Ink,/Arabic/Ruqah,100
 Aref Ruqaa Ink,/Expressive/Artistic,32
 Aref Ruqaa Ink,/Expressive/Playful,11
 Aref Ruqaa Ink,/Expressive/Sincere,50
+Aref Ruqaa Ink,/Expressive/Sophisticated,50
 Aref Ruqaa Ink,/Serif/Humanist Venetian,60
 Aref Ruqaa,/Arabic/Ruqah,100
 Aref Ruqaa,/Expressive/Artistic,40
 Aref Ruqaa,/Expressive/Playful,11
 Aref Ruqaa,/Expressive/Sincere,50
+Aref Ruqaa,/Expressive/Sophisticated,50
 Aref Ruqaa,/Serif/Humanist Venetian,60
 Arima,/Expressive/Artistic,11
 Arima,/Expressive/Cute,14
@@ -505,7 +503,6 @@ Asar,/Expressive/Business,60.9
 Asar,/Expressive/Happy,3
 Asar,/Expressive/Vintage,58.9
 Asar,/Serif/Humanist Venetian,60
-Asset,/Expressive/Business,39
 Asset,/Expressive/Loud,100
 Asset,/Expressive/Playful,22
 Asset,/Expressive/Vintage,94
@@ -529,7 +526,6 @@ Asul,/Sans/Glyphic,100
 Athiti,/Expressive/Awkward,11
 Athiti,/Expressive/Calm,93.8
 Athiti,/Expressive/Excited,11
-Athiti,/Expressive/Futuristic,14
 Athiti,/Sans/Geometric,20
 Athiti,/Sans/Humanist,70
 Atkinson Hyperlegible,/Expressive/Calm,84.2
@@ -621,7 +617,6 @@ BIZ UDPGothic,/Expressive/Calm,85.3
 BIZ UDPGothic,/Expressive/Stiff,10
 BIZ UDPMincho,/Expressive/Vintage,77.4
 Babylonica,/Expressive/Artistic,99
-Babylonica,/Expressive/Fancy,73
 Babylonica,/Expressive/Rugged,87.7
 Babylonica,/Expressive/Vintage,76.7
 Babylonica,/Script/Informal,60
@@ -664,7 +659,7 @@ Bai Jamjuree,/Expressive/Stiff,94
 Bai Jamjuree,/Expressive/Vintage,82
 Bai Jamjuree,/Sans/Superellipse,90
 Bakbak One,/Expressive/Calm,58
-Bakbak One,/Expressive/Futuristic,23
+Bakbak One,/Expressive/Futuristic,77
 Bakbak One,/Expressive/Loud,62
 Bakbak One,/Expressive/Stiff,20
 Bakbak One,/Sans/Geometric,30
@@ -767,7 +762,6 @@ Beau Rivage,/Expressive/Loud,42
 Beau Rivage,/Expressive/Sophisticated,77
 Beau Rivage,/Expressive/Vintage,91
 Beau Rivage,/Script/Formal,100
-Bebas Neue,/Expressive/Business,65.8
 Bebas Neue,/Expressive/Calm,99.2
 Bebas Neue,/Expressive/Competent,97.8
 Bebas Neue,/Sans/Neo Grotesque,100
@@ -790,7 +784,6 @@ Bellefair,/Serif/Humanist Venetian,25
 Bellefair,/Serif/Old Style Garalde,75
 Belleza,/Expressive/Awkward,11
 Belleza,/Expressive/Calm,7.2
-Belleza,/Expressive/Futuristic,33
 Belleza,/Sans/Grotesque,10
 Belleza,/Sans/Humanist,90
 Bellota Text,/Expressive/Calm,93.5
@@ -801,7 +794,6 @@ Bellota,/Expressive/Childlike,50
 Bellota,/Expressive/Cute,39
 Bellota,/Sans/Geometric,20
 Bellota,/Sans/Humanist,80
-BenchNine,/Expressive/Business,39
 BenchNine,/Expressive/Calm,79
 BenchNine,/Expressive/Competent,96.3
 BenchNine,/Expressive/Stiff,42
@@ -833,7 +825,6 @@ Beth Ellen,/Expressive/Artistic,30
 Beth Ellen,/Expressive/Rugged,48
 Beth Ellen,/Expressive/Vintage,84.5
 Beth Ellen,/Script/Handwritten,100
-Bevan,/Expressive/Business,59.8
 Bevan,/Expressive/Loud,99
 Bevan,/Expressive/Stiff,20
 Bevan,/Expressive/Vintage,79.8
@@ -909,7 +900,6 @@ Bigelow Rules,/Expressive/Vintage,26.5
 Bigelow Rules,/Serif/Modern,40
 Bigelow Rules,/Theme/Wacky,60
 Bigshot One,/Expressive/Excited,11
-Bigshot One,/Expressive/Futuristic,48
 Bigshot One,/Expressive/Loud,59
 Bigshot One,/Expressive/Sincere,51.5
 Bigshot One,/Serif/Fat Face,20
@@ -917,6 +907,7 @@ Bigshot One,/Serif/Scotch,80
 Bilbo Swash Caps,/Expressive/Active,27
 Bilbo Swash Caps,/Expressive/Artistic,80
 Bilbo Swash Caps,/Expressive/Excited,46
+Bilbo Swash Caps,/Expressive/Fancy,43
 Bilbo Swash Caps,/Expressive/Sophisticated,38
 Bilbo Swash Caps,/Expressive/Vintage,53.8
 Bilbo Swash Caps,/Script/Formal,10
@@ -924,6 +915,7 @@ Bilbo Swash Caps,/Script/Handwritten,90
 Bilbo,/Expressive/Active,27
 Bilbo,/Expressive/Artistic,78
 Bilbo,/Expressive/Excited,46
+Bilbo,/Expressive/Fancy,43
 Bilbo,/Expressive/Sophisticated,38
 Bilbo,/Expressive/Vintage,53
 Bilbo,/Script/Handwritten,100
@@ -939,12 +931,12 @@ BioRhyme,/Slab/Geometric,40
 BioRhyme,/Slab/Humanist,60
 Birthstone Bounce,/Expressive/Artistic,80
 Birthstone Bounce,/Expressive/Excited,60
-Birthstone Bounce,/Expressive/Fancy,73
 Birthstone Bounce,/Expressive/Vintage,58.9
 Birthstone Bounce,/Script/Formal,30
 Birthstone Bounce,/Script/Handwritten,70
 Birthstone,/Expressive/Artistic,79
 Birthstone,/Expressive/Cute,42
+Birthstone,/Expressive/Fancy,95
 Birthstone,/Expressive/Sophisticated,77
 Birthstone,/Expressive/Vintage,77.4
 Birthstone,/Script/Formal,20
@@ -965,7 +957,6 @@ Black And White Picture,/Expressive/Cute,16
 Black And White Picture,/Expressive/Innovative,99
 Black And White Picture,/Expressive/Playful,60
 Black And White Picture,/Expressive/Rugged,79.3
-Black Han Sans,/Expressive/Business,33
 Black Han Sans,/Expressive/Calm,59
 Black Han Sans,/Expressive/Playful,12
 Black Han Sans,/Expressive/Stiff,30
@@ -1009,7 +1000,6 @@ Blinker,/Sans/Humanist,40
 Blinker,/Sans/Superellipse,90
 Bodoni Moda,/Expressive/Business,77.7
 Bodoni Moda,/Expressive/Competent,98.1
-Bodoni Moda,/Expressive/Futuristic,16
 Bodoni Moda,/Expressive/Loud,71
 Bodoni Moda,/Expressive/Sincere,99
 Bodoni Moda,/Expressive/Vintage,84.5
@@ -1023,12 +1013,10 @@ Bokor,/Expressive/Vintage,99
 Bona Nova,/Expressive/Business,72.1
 Bona Nova,/Expressive/Vintage,74.3
 Bona Nova,/Serif/Humanist Venetian,100
-Bonbon,/Expressive/Active,72
 Bonbon,/Expressive/Artistic,56
 Bonbon,/Expressive/Childlike,50
 Bonbon,/Expressive/Cute,99
 Bonbon,/Expressive/Excited,74
-Bonbon,/Expressive/Fancy,64
 Bonbon,/Expressive/Happy,53
 Bonbon,/Expressive/Innovative,91
 Bonbon,/Expressive/Playful,96.9
@@ -1036,7 +1024,6 @@ Bonbon,/Script/Handwritten,100
 Bonbon,/Script/Informal,80
 Bonbon,/Theme/Blobby,5
 Bonbon,/Theme/Wacky,80
-Bonheur Royale,/Expressive/Active,92
 Bonheur Royale,/Expressive/Artistic,98
 Bonheur Royale,/Expressive/Fancy,94
 Bonheur Royale,/Expressive/Rugged,36
@@ -1064,7 +1051,6 @@ Borel,/Expressive/Stiff,10
 Borel,/Expressive/Vintage,35
 Borel,/Script/Formal,50
 Borel,/Script/Upright Script,100
-Bowlby One SC,/Expressive/Business,34
 Bowlby One SC,/Expressive/Calm,76
 Bowlby One SC,/Expressive/Happy,13
 Bowlby One SC,/Expressive/Innovative,71
@@ -1075,7 +1061,6 @@ Bowlby One SC,/Expressive/Stiff,75
 Bowlby One SC,/Expressive/Vintage,72.3
 Bowlby One SC,/Sans/Grotesque,100
 Bowlby One SC,/Theme/Distressed,40
-Bowlby One,/Expressive/Business,34
 Bowlby One,/Expressive/Calm,76
 Bowlby One,/Expressive/Happy,13
 Bowlby One,/Expressive/Innovative,71
@@ -1224,7 +1209,6 @@ Butterfly Kids,/Expressive/Artistic,45
 Butterfly Kids,/Expressive/Childlike,68
 Butterfly Kids,/Expressive/Cute,93
 Butterfly Kids,/Expressive/Excited,55
-Butterfly Kids,/Expressive/Fancy,75
 Butterfly Kids,/Expressive/Happy,42
 Butterfly Kids,/Expressive/Playful,96.9
 Butterfly Kids,/Expressive/Rugged,52
@@ -1235,7 +1219,6 @@ Butterfly Kids,/Theme/Distressed,40
 Cabin Condensed,/Expressive/Business,85.5
 Cabin Condensed,/Expressive/Calm,72
 Cabin Condensed,/Expressive/Competent,89.2
-Cabin Condensed,/Expressive/Futuristic,31
 Cabin Condensed,/Sans/Humanist,100
 Cabin Sketch,/Expressive/Innovative,91
 Cabin Sketch,/Expressive/Playful,91
@@ -1277,7 +1260,6 @@ Caladea,/Expressive/Playful,11
 Caladea,/Expressive/Sincere,93
 Caladea,/Expressive/Vintage,70.4
 Caladea,/Serif/Modern,70
-Calistoga,/Expressive/Business,66.8
 Calistoga,/Expressive/Stiff,60
 Calistoga,/Expressive/Vintage,64.7
 Calistoga,/Serif/Transitional,80
@@ -1298,7 +1280,6 @@ Cambo,/Expressive/Business,29
 Cambo,/Expressive/Sincere,92
 Cambo,/Expressive/Vintage,70.8
 Cambo,/Serif/Modern,70
-Candal,/Expressive/Business,36
 Candal,/Expressive/Calm,73.4
 Candal,/Expressive/Happy,1
 Candal,/Expressive/Loud,97
@@ -1325,7 +1306,6 @@ Cantora One,/Expressive/Vintage,67.8
 Cantora One,/Sans/Glyphic,40
 Cantora One,/Sans/Humanist,100
 Caprasimo,/Expressive/Artistic,21
-Caprasimo,/Expressive/Business,50.6
 Caprasimo,/Expressive/Cute,14
 Caprasimo,/Expressive/Happy,11
 Caprasimo,/Expressive/Loud,97
@@ -1350,7 +1330,9 @@ Caramel,/Expressive/Sophisticated,40
 Caramel,/Expressive/Vintage,76.8
 Caramel,/Script/Formal,70
 Caramel,/Script/Handwritten,10
+Carattere,/Expressive/Active,97
 Carattere,/Expressive/Artistic,99
+Carattere,/Expressive/Fancy,53
 Carattere,/Expressive/Sophisticated,77
 Carattere,/Expressive/Vintage,77.3
 Carattere,/Script/Formal,80
@@ -1427,14 +1409,12 @@ Caveat,/Expressive/Playful,35
 Caveat,/Expressive/Sincere,100
 Caveat,/Script/Handwritten,100
 Caveat,/Script/Informal,100
-Cedarville Cursive,/Expressive/Active,36
 Cedarville Cursive,/Expressive/Artistic,31
 Cedarville Cursive,/Expressive/Awkward,41
 Cedarville Cursive,/Expressive/Happy,34
 Cedarville Cursive,/Expressive/Playful,37
 Cedarville Cursive,/Expressive/Rugged,4
 Cedarville Cursive,/Expressive/Sincere,99
-Cedarville Cursive,/Expressive/Sophisticated,22
 Cedarville Cursive,/Script/Handwritten,100
 Cedarville Cursive,/Script/Informal,100
 Ceviche One,/Expressive/Active,12
@@ -1452,7 +1432,6 @@ Chakra Petch,/Expressive/Stiff,99
 Chakra Petch,/Sans/Geometric,10
 Chakra Petch,/Theme/Inline,30
 Chakra Petch,/Theme/Techno,100
-Changa One,/Expressive/Business,55.1
 Changa One,/Expressive/Calm,58
 Changa One,/Expressive/Playful,11
 Changa One,/Expressive/Stiff,57
@@ -1483,8 +1462,11 @@ Charis SIL,/Expressive/Sincere,93
 Charis SIL,/Expressive/Vintage,63
 Charis SIL,/Serif/Transitional,100
 Charm,"/South East Asian (Thai, Khmer, Lao)/Looped",100
+Charm,/Expressive/Active,94
 Charm,/Expressive/Artistic,59
 Charm,/Expressive/Excited,11
+Charm,/Expressive/Sophisticated,95
+Charm,/Expressive/Fancy,74
 Charm,/Expressive/Vintage,63.4
 Charm,/Script/Formal,100
 Charmonman,"/South East Asian (Thai, Khmer, Lao)/Looped",100
@@ -1496,7 +1478,7 @@ Charmonman,/Expressive/Vintage,66.4
 Charmonman,/Script/Formal,70
 Charmonman,/Script/Informal,10
 Chathura,/Expressive/Calm,49
-Chathura,/Expressive/Futuristic,37
+Chathura,/Expressive/Futuristic,80
 Chathura,/Expressive/Playful,11
 Chathura,/Expressive/Stiff,30
 Chathura,/Indic/Low contrast,100
@@ -1726,6 +1708,7 @@ Contrail One,/Sans/Humanist,100
 Convergence,/Expressive/Calm,68
 Cookie,/Expressive/Artistic,59
 Cookie,/Expressive/Cute,76
+Cookie,/Expressive/Fancy,79
 Cookie,/Expressive/Sincere,92
 Cookie,/Expressive/Sophisticated,78
 Cookie,/Expressive/Vintage,47
@@ -1741,7 +1724,6 @@ Copse,/Slab/Humanist,100
 Corben,/Expressive/Playful,18
 Corben,/Expressive/Sincere,93
 Corben,/Serif/Modern,50
-Corinthia,/Expressive/Active,32
 Corinthia,/Expressive/Artistic,99
 Corinthia,/Expressive/Fancy,95
 Corinthia,/Expressive/Sophisticated,92
@@ -1864,13 +1846,12 @@ Crushed,/Expressive/Stiff,10
 Crushed,/Expressive/Vintage,43.4
 Crushed,/Theme/Art Nouveau,20
 Crushed,/Theme/Wacky,10
-Cuprum,/Expressive/Business,38
 Cuprum,/Expressive/Calm,73
 Cuprum,/Expressive/Competent,95.5
 Cuprum,/Expressive/Stiff,78
 Cuprum,/Sans/Neo Grotesque,100
 Cute Font,/Expressive/Cute,2
-Cute Font,/Expressive/Futuristic,96
+Cute Font,/Expressive/Futuristic,97
 Cute Font,/Expressive/Innovative,34
 Cute Font,/Expressive/Loud,52
 Cute Font,/Expressive/Stiff,77
@@ -1901,7 +1882,6 @@ DM Sans,/Expressive/Competent,24
 DM Sans,/Expressive/Stiff,52
 DM Sans,/Sans/Geometric,100
 DM Sans,/Sans/Neo Grotesque,10
-DM Serif Display,/Expressive/Business,100
 DM Serif Display,/Expressive/Stiff,30
 DM Serif Display,/Expressive/Vintage,78.9
 DM Serif Display,/Serif/Transitional,100
@@ -1922,6 +1902,7 @@ Damion,/Expressive/Sincere,94
 Damion,/Expressive/Vintage,78.4
 Dancing Script,/Expressive/Artistic,80
 Dancing Script,/Expressive/Cute,31
+Dancing Script,/Expressive/Fancy,93
 Dancing Script,/Expressive/Happy,94
 Dancing Script,/Expressive/Sincere,93
 Dancing Script,/Expressive/Sophisticated,62
@@ -1946,15 +1927,12 @@ Darumadrop One,/Theme/Distressed,80
 Darumadrop One,/Theme/Wacky,20
 David Libre,/Expressive/Vintage,83
 David Libre,/Serif/Old Style Garalde,100
-Dawning of a New Day,/Expressive/Active,35
 Dawning of a New Day,/Expressive/Artistic,31
 Dawning of a New Day,/Expressive/Cute,31
 Dawning of a New Day,/Expressive/Excited,32
 Dawning of a New Day,/Expressive/Happy,57
 Dawning of a New Day,/Expressive/Vintage,56.5
-Days One,/Expressive/Business,35
 Days One,/Expressive/Calm,64
-Days One,/Expressive/Futuristic,12
 Days One,/Expressive/Stiff,73
 Dekko,/Expressive/Artistic,41
 Dekko,/Expressive/Childlike,78
@@ -1992,7 +1970,6 @@ Della Respira,/Expressive/Sincere,50.1
 Della Respira,/Expressive/Vintage,88.5
 Denk One,/Expressive/Competent,77
 Denk One,/Expressive/Excited,71
-Denk One,/Expressive/Futuristic,73
 Denk One,/Expressive/Innovative,54
 Denk One,/Expressive/Playful,74
 Denk One,/Expressive/Stiff,91
@@ -2052,7 +2029,6 @@ Do Hyeon,/Expressive/Stiff,92
 Do Hyeon,/Sans/Geometric,20
 Do Hyeon,/Sans/Humanist,20
 Do Hyeon,/Sans/Superellipse,100
-Dokdo,/Expressive/Active,51
 Dokdo,/Expressive/Awkward,92
 Dokdo,/Expressive/Excited,52
 Dokdo,/Expressive/Happy,60
@@ -2121,6 +2097,7 @@ DynaPuff,/Sans/Rounded,100
 DynaPuff,/Theme/Blobby,100
 DynaPuff,/Theme/Wacky,50
 Dynalight,/Expressive/Artistic,99
+Dynalight,/Expressive/Fancy,94
 Dynalight,/Expressive/Vintage,92
 Dynalight,/Script/Formal,100
 EB Garamond,/Expressive/Business,79.6
@@ -2128,11 +2105,11 @@ EB Garamond,/Expressive/Sincere,100
 EB Garamond,/Expressive/Vintage,82.5
 EB Garamond,/Serif/Old Style Garalde,100
 Eagle Lake,/Expressive/Artistic,92
+Eagle Lake,/Expressive/Fancy,64
 Eagle Lake,/Expressive/Vintage,98
 Eagle Lake,/Script/Formal,50
 Eagle Lake,/Script/Handwritten,70
 Eagle Lake,/Theme/Medieval,50
-East Sea Dokdo,/Expressive/Active,33
 East Sea Dokdo,/Expressive/Childlike,90
 East Sea Dokdo,/Expressive/Excited,52
 East Sea Dokdo,/Expressive/Innovative,92
@@ -2145,7 +2122,6 @@ Eater,/Expressive/Innovative,92
 Eater,/Expressive/Playful,97.6
 Eater,/Expressive/Vintage,67.8
 Eater,/Theme/Wacky,100
-Economica,/Expressive/Business,48
 Economica,/Expressive/Calm,82.8
 Economica,/Expressive/Futuristic,68
 Economica,/Expressive/Stiff,79
@@ -2284,7 +2260,6 @@ Encode Sans Expanded,/Expressive/Calm,95.6
 Encode Sans Expanded,/Expressive/Competent,95.4
 Encode Sans Expanded,/Expressive/Stiff,76
 Encode Sans Expanded,/Sans/Humanist,100
-Encode Sans SC,/Expressive/Business,93.4
 Encode Sans SC,/Expressive/Calm,95.6
 Encode Sans SC,/Expressive/Competent,95.4
 Encode Sans SC,/Expressive/Stiff,76
@@ -2305,6 +2280,7 @@ Encode Sans,/Expressive/Competent,95.4
 Encode Sans,/Expressive/Stiff,76
 Encode Sans,/Sans/Humanist,100
 Engagement,/Expressive/Artistic,94
+Engagement,/Expressive/Fancy,74
 Engagement,/Expressive/Loud,61
 Engagement,/Expressive/Playful,22
 Engagement,/Expressive/Sincere,94
@@ -2320,6 +2296,7 @@ Enriqueta,/Expressive/Stiff,40
 Enriqueta,/Slab/Humanist,80
 Ephesis,/Expressive/Artistic,99
 Ephesis,/Expressive/Excited,13
+Ephesis,/Expressive/Fancy,92
 Ephesis,/Expressive/Happy,31
 Ephesis,/Expressive/Sincere,92
 Ephesis,/Expressive/Vintage,54.7
@@ -2328,7 +2305,6 @@ Epilogue,/Expressive/Calm,79
 Epilogue,/Expressive/Competent,13
 Epilogue,/Expressive/Stiff,71
 Epilogue,/Sans/Geometric,80
-Erica One,/Expressive/Business,63
 Erica One,/Expressive/Calm,66
 Erica One,/Expressive/Loud,100
 Erica One,/Sans/Humanist,50
@@ -2339,7 +2315,9 @@ Esteban,/Expressive/Playful,14
 Esteban,/Expressive/Vintage,82
 Esteban,/Serif/Transitional,100
 Esteban,/Theme/Distressed,20
+Estonia,/Expressive/Active,88
 Estonia,/Expressive/Artistic,77
+Estonia,/Expressive/Fancy,30
 Estonia,/Expressive/Rugged,66
 Estonia,/Expressive/Vintage,59.4
 Estonia,/Script/Informal,40
@@ -2441,7 +2419,7 @@ Fenix,/Serif/Old Style Garalde,20
 Festive,/Expressive/Artistic,100
 Festive,/Expressive/Awkward,15
 Festive,/Expressive/Cute,12
-Festive,/Expressive/Fancy,97
+Festive,/Expressive/Fancy,37
 Festive,/Script/Handwritten,30
 Festive,/Script/Informal,100
 Festive,/Theme/Wacky,40
@@ -2504,7 +2482,6 @@ Flow Rounded,/Not text/Symbols,100
 Foldit,/Expressive/Innovative,100
 Foldit,/Expressive/Stiff,93
 Foldit,/Theme/Shaded,100
-Fondamento,/Expressive/Active,56
 Fondamento,/Expressive/Vintage,92
 Fondamento,/Script/Handwritten,100
 Fontdiner Swanky,/Expressive/Awkward,100
@@ -2602,6 +2579,7 @@ Fruktur,/Script/Informal,70
 Fruktur,/Script/Upright Script,100
 Fruktur,/Theme/Blackletter,90
 Fruktur,/Theme/Brush,30
+Fugaz One,/Expressive/Active,98
 Fugaz One,/Expressive/Artistic,15
 Fugaz One,/Expressive/Calm,71
 Fugaz One,/Expressive/Childlike,20
@@ -2709,7 +2687,6 @@ Gantari,/Expressive/Calm,91.7
 Gantari,/Expressive/Stiff,71
 Gantari,/Sans/Geometric,20
 Gantari,/Sans/Neo Grotesque,100
-Gasoek One,/Expressive/Business,38
 Gasoek One,/Expressive/Calm,64
 Gasoek One,/Expressive/Loud,100
 Gasoek One,/Expressive/Stiff,76
@@ -2847,7 +2824,6 @@ Gluten,/Expressive/Rugged,8
 Gluten,/Script/Handwritten,100
 Gluten,/Script/Informal,100
 Gluten,/Script/Upright Script,90
-Goblin One,/Expressive/Business,33
 Goblin One,/Expressive/Loud,97
 Goblin One,/Expressive/Sincere,70.1
 Goblin One,/Expressive/Vintage,83
@@ -2862,7 +2838,6 @@ Gochi Hand,/Expressive/Sincere,98
 Gochi Hand,/Script/Handwritten,100
 Gochi Hand,/Script/Informal,100
 Gochi Hand,/Script/Upright Script,90
-Goldman,/Expressive/Business,34
 Goldman,/Expressive/Calm,82.6
 Goldman,/Expressive/Futuristic,98
 Goldman,/Expressive/Stiff,100
@@ -2900,7 +2875,6 @@ Gowun Dodum,/Expressive/Calm,99.3
 Gowun Dodum,/Expressive/Stiff,61
 Gowun Dodum,/Sans/Humanist,90
 Gowun Dodum,/Sans/Neo Grotesque,20
-Graduate,/Expressive/Business,37
 Graduate,/Expressive/Futuristic,12
 Graduate,/Expressive/Sincere,22.5
 Graduate,/Expressive/Stiff,91
@@ -2937,6 +2911,7 @@ Gravitas One,/Expressive/Vintage,84.5
 Gravitas One,/Serif/Fat Face,100
 Gravitas One,/Theme/Woodtype,100
 Great Vibes,/Expressive/Artistic,99
+Great Vibes,/Expressive/Fancy,90
 Great Vibes,/Expressive/Sincere,91
 Great Vibes,/Expressive/Sophisticated,75
 Great Vibes,/Expressive/Vintage,93
@@ -2944,7 +2919,6 @@ Great Vibes,/Script/Formal,80
 Grechen Fuemen,/Expressive/Active,77
 Grechen Fuemen,/Expressive/Artistic,20
 Grechen Fuemen,/Expressive/Awkward,56
-Grechen Fuemen,/Expressive/Fancy,73
 Grechen Fuemen,/Expressive/Happy,44
 Grechen Fuemen,/Expressive/Playful,14
 Grechen Fuemen,/Expressive/Vintage,46.7
@@ -2983,7 +2957,7 @@ Gudea,/Expressive/Competent,16
 Gudea,/Expressive/Stiff,54
 Gudea,/Sans/Humanist,100
 Gugi,/Expressive/Calm,77.8
-Gugi,/Expressive/Futuristic,50
+Gugi,/Expressive/Futuristic,85
 Gugi,/Expressive/Stiff,98
 Gugi,/Sans/Rounded,100
 Gugi,/Sans/Superellipse,90
@@ -3003,6 +2977,7 @@ Gwendolyn,/Expressive/Artistic,80
 Gwendolyn,/Expressive/Cute,51
 Gwendolyn,/Expressive/Fancy,63
 Gwendolyn,/Expressive/Sincere,94
+Gwendolyn,/Expressive/Sophisticated,77
 Gwendolyn,/Expressive/Vintage,67.8
 Gwendolyn,/Script/Formal,80
 Habibi,/Expressive/Business,48
@@ -3129,12 +3104,10 @@ Hind Vadodara,/Sans/Humanist,100
 Hind,/Expressive/Business,37
 Hind,/Expressive/Calm,98.2
 Hind,/Sans/Humanist,100
-Holtwood One SC,/Expressive/Business,61.6
 Holtwood One SC,/Expressive/Futuristic,36
 Holtwood One SC,/Expressive/Loud,97
 Holtwood One SC,/Expressive/Stiff,94
 Holtwood One SC,/Serif/Transitional,70
-Homemade Apple,/Expressive/Active,66
 Homemade Apple,/Expressive/Artistic,72
 Homemade Apple,/Expressive/Cute,74
 Homemade Apple,/Expressive/Happy,52
@@ -3291,7 +3264,6 @@ Indie Flower,/Expressive/Happy,97
 Indie Flower,/Expressive/Playful,90.6
 Indie Flower,/Script/Handwritten,100
 Indie Flower,/Script/Informal,100
-Ingrid Darling,/Expressive/Active,45
 Ingrid Darling,/Expressive/Artistic,58
 Ingrid Darling,/Expressive/Awkward,45
 Ingrid Darling,/Expressive/Cute,72
@@ -3304,7 +3276,6 @@ Ingrid Darling,/Theme/Wacky,40
 Inika,/Expressive/Awkward,12
 Inika,/Expressive/Sincere,58
 Inika,/Serif/Old Style Garalde,10
-Inknut Antiqua,/Expressive/Business,70
 Inknut Antiqua,/Expressive/Calm,90
 Inknut Antiqua,/Expressive/Loud,70
 Inknut Antiqua,/Expressive/Sincere,50
@@ -3320,7 +3291,6 @@ Inria Serif,/Expressive/Business,56.5
 Inria Serif,/Expressive/Loud,38
 Inria Serif,/Serif/Modern,80
 Inria Serif,/Serif/Transitional,20
-Inspiration,/Expressive/Active,71
 Inspiration,/Expressive/Awkward,56
 Inspiration,/Expressive/Excited,97
 Inspiration,/Expressive/Fancy,55
@@ -3365,7 +3335,7 @@ Istok Web,/Sans/Rounded,60
 Italiana,/Expressive/Loud,54
 Italiana,/Serif/Modern,100
 Italianno,/Expressive/Artistic,99
-Italianno,/Expressive/Fancy,18
+Italianno,/Expressive/Fancy,40
 Italianno,/Expressive/Rugged,13
 Italianno,/Expressive/Sophisticated,98
 Italianno,/Expressive/Vintage,92
@@ -3403,9 +3373,7 @@ Jersey 20 Charted,/Theme/Pixel,100
 Jersey 20,/Theme/Pixel,100
 Jersey 25 Charted,/Theme/Pixel,100
 Jersey 25,/Theme/Pixel,100
-JetBrains Mono,/Expressive/Business,38
 JetBrains Mono,/Expressive/Calm,79
-JetBrains Mono,/Expressive/Futuristic,76
 JetBrains Mono,/Expressive/Stiff,74
 JetBrains Mono,/Expressive/Vintage,28.7
 JetBrains Mono,/Monospace/Monospace,100
@@ -3430,7 +3398,6 @@ Jolly Lodger,/Expressive/Excited,98
 Jolly Lodger,/Expressive/Playful,98.9
 Jolly Lodger,/Expressive/Vintage,58.5
 Jolly Lodger,/Theme/Wacky,100
-Jomhuria,/Expressive/Futuristic,33
 Jomhuria,/Expressive/Loud,71
 Jomhuria,/Expressive/Playful,31
 Jomhuria,/Sans/Superellipse,100
@@ -3587,7 +3554,6 @@ Kapakana,/Script/Formal,100
 Karantina,/Expressive/Awkward,31
 Karantina,/Expressive/Calm,82.7
 Karantina,/Expressive/Competent,79.7
-Karantina,/Expressive/Futuristic,73
 Karantina,/Expressive/Loud,96
 Karantina,/Expressive/Stiff,85
 Karla Tamil Inclined,/Expressive/Business,91.3
@@ -3674,7 +3640,6 @@ Kenia,/Expressive/Loud,91
 Kenia,/Expressive/Playful,62
 Kenia,/Theme/Blackletter,20
 Kenia,/Theme/Stencil,100
-Khand,/Expressive/Business,82
 Khand,/Expressive/Calm,84.3
 Khand,/Expressive/Competent,94.6
 Khand,/Expressive/Futuristic,66
@@ -3779,7 +3744,6 @@ Kranky,/Theme/Inline,20
 Kranky,/Theme/Wacky,100
 Kreon,/Expressive/Business,26
 Kreon,/Expressive/Sincere,71
-Kristi,/Expressive/Active,92
 Kristi,/Expressive/Childlike,90
 Kristi,/Expressive/Excited,15
 Kristi,/Expressive/Happy,80
@@ -3800,14 +3764,12 @@ Kulim Park,/Expressive/Rugged,2
 Kulim Park,/Expressive/Stiff,52
 Kulim Park,/Sans/Geometric,30
 Kulim Park,/Sans/Humanist,30
-Kumar One Inline,/Expressive/Futuristic,91
 Kumar One Inline,/Expressive/Stiff,97
 Kumar One Outline,/Expressive/Innovative,92
 Kumar One Outline,/Serif/Fat Face,30
 Kumar One Outline,/Serif/Modern,100
 Kumar One Outline,/Slab/Geometric,10
 Kumar One Outline,/Theme/Inline,50
-Kumar One,/Expressive/Futuristic,92
 Kumar One,/Expressive/Loud,95
 Kumar One,/Expressive/Stiff,93
 Kumar One,/Expressive/Vintage,56.7
@@ -3825,7 +3787,6 @@ Kurale,/Expressive/Vintage,78.8
 Kurale,/Script/Upright Script,80
 Kurale,/Serif/Old Style Garalde,80
 Kurale,/Theme/Wacky,20
-La Belle Aurore,/Expressive/Active,58
 La Belle Aurore,/Expressive/Awkward,12
 La Belle Aurore,/Expressive/Happy,34
 La Belle Aurore,/Script/Informal,100
@@ -3886,7 +3847,6 @@ League Script,/Script/Informal,40
 League Spartan,/Expressive/Business,62
 League Spartan,/Expressive/Calm,94.5
 League Spartan,/Sans/Geometric,100
-Leckerli One,/Expressive/Active,26
 Leckerli One,/Expressive/Cute,99
 Leckerli One,/Expressive/Playful,54
 Leckerli One,/Script/Handwritten,100
@@ -3897,7 +3857,6 @@ Ledger,/Expressive/Sincere,93
 Ledger,/Serif/Modern,100
 Lekton,/Expressive/Calm,74
 Lekton,/Expressive/Competent,97.2
-Lekton,/Expressive/Futuristic,97
 Lekton,/Expressive/Stiff,91
 Lekton,/Sans/Humanist,70
 Lemon,/Expressive/Calm,48
@@ -3962,7 +3921,7 @@ Libre Franklin,/Expressive/Vintage,84.5
 Libre Franklin,/Sans/Grotesque,100
 Licorice,/Expressive/Artistic,80
 Licorice,/Expressive/Cute,37
-Licorice,/Expressive/Fancy,45
+Licorice,/Expressive/Fancy,36
 Licorice,/Expressive/Happy,67
 Licorice,/Expressive/Playful,33
 Licorice,/Expressive/Vintage,35.4
@@ -4084,7 +4043,6 @@ Londrina Solid,/Expressive/Stiff,63
 Londrina Solid,/Sans/Grotesque,100
 Londrina Solid,/Theme/Distressed,100
 Londrina Solid,/Theme/Wacky,10
-Long Cang,/Expressive/Active,12
 Long Cang,/Expressive/Artistic,43
 Long Cang,/Expressive/Childlike,49
 Long Cang,/Expressive/Excited,45
@@ -4141,6 +4099,7 @@ Luckiest Guy,/Theme/Wacky,40
 Luckiest Guy,/Theme/Woodtype,30
 Lugrasimo,/Expressive/Active,64
 Lugrasimo,/Expressive/Artistic,79
+Lugrasimo,/Expressive/Fancy,64
 Lugrasimo,/Expressive/Vintage,97
 Lugrasimo,/Script/Formal,100
 Lugrasimo,/Script/Handwritten,100
@@ -4168,16 +4127,16 @@ Luxurious Roman,/Expressive/Artistic,34
 Luxurious Roman,/Expressive/Happy,11
 Luxurious Roman,/Expressive/Playful,11
 Luxurious Roman,/Expressive/Sincere,20.5
+Luxurious Roman,/Expressive/Sophisticated,20
 Luxurious Roman,/Expressive/Vintage,87.5
 Luxurious Roman,/Serif/Humanist Venetian,50
 Luxurious Roman,/Serif/Transitional,50
 Luxurious Script,/Expressive/Artistic,99
-Luxurious Script,/Expressive/Fancy,77
+Luxurious Script,/Expressive/Fancy,81
 Luxurious Script,/Expressive/Sophisticated,99
 Luxurious Script,/Expressive/Vintage,92
 Luxurious Script,/Script/Formal,100
 M PLUS 1 Code,/Expressive/Calm,57
-M PLUS 1 Code,/Expressive/Futuristic,54
 M PLUS 1 Code,/Expressive/Stiff,10
 M PLUS 1 Code,/Monospace/Monospace,100
 M PLUS 1 Code,/Sans/Humanist,60
@@ -4192,7 +4151,6 @@ M PLUS 2,/Expressive/Calm,99
 M PLUS 2,/Sans/Geometric,50
 M PLUS 2,/Sans/Humanist,50
 M PLUS Code Latin,/Expressive/Calm,56
-M PLUS Code Latin,/Expressive/Futuristic,58
 Ma Shan Zheng,/Expressive/Active,19
 Ma Shan Zheng,/Expressive/Excited,39
 Ma Shan Zheng,/Script/Handwritten,100
@@ -4352,7 +4310,6 @@ Martel,/Serif/Old Style Garalde,20
 Martian Mono,/Expressive/Business,11
 Martian Mono,/Expressive/Calm,64
 Martian Mono,/Expressive/Competent,44
-Martian Mono,/Expressive/Futuristic,96
 Martian Mono,/Expressive/Happy,42
 Martian Mono,/Expressive/Stiff,71
 Martian Mono,/Sans/Grotesque,100
@@ -4371,7 +4328,6 @@ Mate,/Serif/Humanist Venetian,50
 Matemasie,/Expressive/Childlike,60
 Matemasie,/Expressive/Playful,20
 Maven Pro,/Expressive/Calm,75
-Maven Pro,/Expressive/Futuristic,72
 Maven Pro,/Expressive/Stiff,91
 Maven Pro,/Sans/Humanist,50
 McLaren,/Expressive/Awkward,41
@@ -4384,9 +4340,8 @@ Mea Culpa,/Expressive/Fancy,100
 Mea Culpa,/Expressive/Sophisticated,89
 Mea Culpa,/Expressive/Vintage,92
 Mea Culpa,/Script/Formal,100
-Meddon,/Expressive/Active,78
 Meddon,/Expressive/Artistic,97
-Meddon,/Expressive/Fancy,98
+Meddon,/Expressive/Fancy,73
 Meddon,/Expressive/Sincere,97
 Meddon,/Expressive/Vintage,91
 Meddon,/Script/Formal,50
@@ -4469,7 +4424,6 @@ Metamorphous,/Expressive/Sincere,23
 Metamorphous,/Theme/Medieval,100
 Metrophobic,/Expressive/Calm,77
 Metrophobic,/Expressive/Competent,78.4
-Metrophobic,/Expressive/Futuristic,74
 Metrophobic,/Expressive/Stiff,79
 Metrophobic,/Sans/Superellipse,100
 Miama,/Expressive/Artistic,60
@@ -4518,7 +4472,6 @@ Mingzat,/Expressive/Stiff,51
 Mingzat,/Expressive/Vintage,67
 Mingzat,/Sans/Grotesque,20
 Mingzat,/Sans/Neo Grotesque,80
-Miniver,/Expressive/Active,54
 Miniver,/Expressive/Cute,78
 Miniver,/Expressive/Excited,15
 Miniver,/Expressive/Playful,35
@@ -4616,7 +4569,6 @@ Monomaniac One,/Sans/Rounded,100
 Monomaniac One,/Sans/Superellipse,100
 Monoton,/Expressive/Artistic,93
 Monoton,/Expressive/Excited,91
-Monoton,/Expressive/Futuristic,15
 Monoton,/Expressive/Innovative,97
 Monoton,/Expressive/Playful,15
 Monoton,/Sans/Geometric,100
@@ -4644,6 +4596,7 @@ MonteCarlo,/Expressive/Vintage,45.4
 MonteCarlo,/Script/Formal,100
 Montez,/Expressive/Cute,32
 Montez,/Expressive/Excited,34
+Montez,/Expressive/Fancy,33
 Montez,/Expressive/Playful,12
 Montez,/Expressive/Vintage,63.4
 Montez,/Script/Handwritten,100
@@ -4736,7 +4689,6 @@ Mrs Saint Delafield,/Expressive/Vintage,64.7
 Mrs Saint Delafield,/Script/Formal,80
 Mrs Saint Delafield,/Script/Handwritten,100
 Mrs Saint Delafield,/Script/Informal,20
-Mrs Sheppards,/Expressive/Active,79
 Mrs Sheppards,/Expressive/Awkward,14
 Mrs Sheppards,/Expressive/Cute,54
 Mrs Sheppards,/Expressive/Excited,20
@@ -4777,7 +4729,6 @@ MuseoModerno,/Expressive/Calm,91.1
 MuseoModerno,/Expressive/Competent,34
 MuseoModerno,/Expressive/Vintage,34.8
 MuseoModerno,/Sans/Geometric,100
-My Soul,/Expressive/Active,53
 My Soul,/Expressive/Artistic,80
 My Soul,/Expressive/Excited,20
 My Soul,/Expressive/Fancy,59
@@ -4829,14 +4780,12 @@ Nanum Brush Script,/Script/Handwritten,100
 NanumGothic,/Expressive/Calm,97.9
 NanumGothicCoding,/Expressive/Calm,78
 NanumGothicCoding,/Expressive/Competent,78.1
-NanumGothicCoding,/Expressive/Futuristic,32
 NanumGothicCoding,/Expressive/Stiff,10
 NanumMyeongjo,/Expressive/Business,98.7
 NanumMyeongjo,/Expressive/Stiff,40
 NanumMyeongjo,/Expressive/Vintage,81
 Narnoor,/Expressive/Calm,90.8
 Narnoor,/Sans/Humanist,100
-Neonderthaw,/Expressive/Active,78
 Neonderthaw,/Expressive/Artistic,74
 Neonderthaw,/Expressive/Cute,36
 Neonderthaw,/Expressive/Fancy,72
@@ -4886,6 +4835,7 @@ Niconne,/Expressive/Active,66
 Niconne,/Expressive/Fancy,57
 Niconne,/Expressive/Loud,37
 Niconne,/Expressive/Sincere,40.1
+Niconne,/Expressive/Sophisticated,74
 Niconne,/Expressive/Vintage,77
 Niconne,/Serif/Modern,100
 Niramit,/Expressive/Business,67.3
@@ -5494,7 +5444,6 @@ Noto Serif,/Serif/Transitional,100
 Noto Traditional Nushu,/Expressive/Business,58
 Noto Traditional Nushu,/Expressive/Calm,99
 Noto Traditional Nushu,/Sans/Humanist,100
-Nova Cut,/Expressive/Futuristic,78
 Nova Cut,/Expressive/Loud,28
 Nova Cut,/Expressive/Stiff,96
 Nova Cut,/Theme/Blackletter,20
@@ -5565,7 +5514,7 @@ Odor Mean Chey,/Expressive/Stiff,30
 Odor Mean Chey,/Expressive/Vintage,81
 Offside,/Expressive/Calm,80.5
 Offside,/Expressive/Competent,89.7
-Offside,/Expressive/Futuristic,98
+Offside,/Expressive/Futuristic,80
 Offside,/Expressive/Innovative,21
 Offside,/Expressive/Stiff,94
 Offside,/Sans/Superellipse,100
@@ -5592,7 +5541,6 @@ Oldenburg,/Theme/Medieval,30
 Ole,/Expressive/Artistic,96
 Ole,/Expressive/Awkward,47
 Ole,/Expressive/Excited,98
-Ole,/Expressive/Fancy,44
 Ole,/Expressive/Playful,18
 Ole,/Expressive/Vintage,27.4
 Ole,/Theme/Wacky,100
@@ -5665,7 +5613,6 @@ Oswald,/Expressive/Competent,99.9
 Oswald,/Expressive/Stiff,91
 Oswald,/Expressive/Vintage,41.2
 Oswald,/Sans/Grotesque,100
-Otomanopee One,/Expressive/Business,45
 Otomanopee One,/Expressive/Calm,14
 Otomanopee One,/Expressive/Excited,54
 Otomanopee One,/Expressive/Happy,21
@@ -5694,7 +5641,6 @@ Overlock,/Sans/Humanist,100
 Overlock,/Theme/Brush,20
 Overpass Mono,/Expressive/Calm,58
 Overpass Mono,/Expressive/Competent,45
-Overpass Mono,/Expressive/Futuristic,97
 Overpass Mono,/Expressive/Stiff,78
 Overpass Mono,/Monospace/Monospace,100
 Overpass Mono,/Sans/Grotesque,80
@@ -5711,7 +5657,6 @@ Oxanium,/Expressive/Stiff,98
 Oxanium,/Sans/Superellipse,100
 Oxanium,/Theme/Techno,100
 Oxygen Mono,/Expressive/Calm,59
-Oxygen Mono,/Expressive/Futuristic,54
 Oxygen Mono,/Expressive/Stiff,78
 Oxygen Mono,/Expressive/Vintage,33
 Oxygen Mono,/Monospace/Monospace,100
@@ -5766,7 +5711,6 @@ Padyakke Expanded One,/Indic/Low contrast,100
 Padyakke Expanded One,/Serif/Humanist Venetian,30
 Padyakke Expanded One,/Serif/Transitional,50
 Padyakke Expanded One,/Slab/Humanist,60
-Palanquin Dark,/Expressive/Business,11
 Palanquin Dark,/Expressive/Calm,79
 Palanquin Dark,/Expressive/Happy,17
 Palanquin Dark,/Expressive/Stiff,40
@@ -5810,7 +5754,6 @@ Passero One,/Expressive/Stiff,91
 Passero One,/Theme/Techno,50
 Passero One,/Theme/Wacky,10
 Passero One,/Theme/Woodtype,20
-Passion One,/Expressive/Business,65.9
 Passion One,/Expressive/Calm,64
 Passion One,/Expressive/Competent,66
 Passion One,/Expressive/Loud,88
@@ -5823,12 +5766,10 @@ Passions Conflict,/Expressive/Vintage,68.7
 Passions Conflict,/Script/Formal,100
 Pathway Extreme,/Expressive/Business,35
 Pathway Extreme,/Expressive/Calm,59
-Pathway Extreme,/Expressive/Futuristic,49
 Pathway Extreme,/Expressive/Stiff,77
 Pathway Extreme,/Sans/Grotesque,50
 Pathway Extreme,/Sans/Neo Grotesque,50
 Pathway Extreme,/Sans/Superellipse,70
-Pathway Gothic One,/Expressive/Business,49
 Pathway Gothic One,/Expressive/Calm,69
 Pathway Gothic One,/Expressive/Competent,95.2
 Pathway Gothic One,/Expressive/Vintage,58.5
@@ -5870,7 +5811,6 @@ Pavanam,/Expressive/Competent,19
 Pavanam,/Expressive/Stiff,51
 Pavanam,/Indic/Low contrast,100
 Pavanam,/Sans/Neo Grotesque,80
-Paytone One,/Expressive/Business,42
 Paytone One,/Expressive/Calm,73
 Paytone One,/Expressive/Vintage,68.2
 Paytone One,/Sans/Geometric,80
@@ -5926,7 +5866,6 @@ Phudu,/Sans/Humanist,40
 Piazzolla,/Expressive/Awkward,31
 Piazzolla,/Expressive/Business,57.5
 Piazzolla,/Expressive/Sincere,72.5
-Piedra,/Expressive/Futuristic,21
 Piedra,/Expressive/Innovative,92
 Piedra,/Expressive/Playful,91.4
 Piedra,/Expressive/Rugged,89
@@ -5994,288 +5933,236 @@ Playpen Sans,/Script/Handwritten,100
 Playpen Sans,/Script/Informal,100
 Playwrite AR,/Expressive/Calm,50
 Playwrite AR,/Expressive/Cute,50
-Playwrite AR,/Expressive/Sophisticated,50
 Playwrite AR,/Script/Handwritten,100
 Playwrite AR,/Script/Informal,80
 Playwrite AR,/Script/Upright Script,100
 Playwrite AT,/Expressive/Calm,50
 Playwrite AT,/Expressive/Cute,50
-Playwrite AT,/Expressive/Sophisticated,50
 Playwrite AT,/Script/Handwritten,100
 Playwrite AT,/Script/Informal,80
 Playwrite AT,/Script/Upright Script,50
-Playwrite AU NSW,/Expressive/Active,80
+Playwrite AU NSW,/Expressive/Active,81
 Playwrite AU NSW,/Expressive/Calm,50
 Playwrite AU NSW,/Expressive/Cute,50
-Playwrite AU NSW,/Expressive/Sophisticated,50
 Playwrite AU NSW,/Script/Handwritten,100
 Playwrite AU NSW,/Script/Informal,80
 Playwrite AU QLD,/Expressive/Calm,50
 Playwrite AU QLD,/Expressive/Cute,50
-Playwrite AU QLD,/Expressive/Sophisticated,50
 Playwrite AU QLD,/Script/Handwritten,100
 Playwrite AU QLD,/Script/Informal,80
 Playwrite AU SA,/Expressive/Calm,50
 Playwrite AU SA,/Expressive/Cute,50
-Playwrite AU SA,/Expressive/Sophisticated,50
 Playwrite AU SA,/Script/Handwritten,100
 Playwrite AU SA,/Script/Informal,80
 Playwrite AU TAS,/Expressive/Calm,50
 Playwrite AU TAS,/Expressive/Cute,50
-Playwrite AU TAS,/Expressive/Sophisticated,50
 Playwrite AU TAS,/Script/Handwritten,100
 Playwrite AU TAS,/Script/Informal,80
 Playwrite AU VIC,/Expressive/Calm,50
 Playwrite AU VIC,/Expressive/Cute,50
-Playwrite AU VIC,/Expressive/Sophisticated,50
 Playwrite AU VIC,/Script/Handwritten,100
 Playwrite AU VIC,/Script/Informal,80
 Playwrite BE VLG,/Expressive/Calm,50
 Playwrite BE VLG,/Expressive/Cute,50
-Playwrite BE VLG,/Expressive/Sophisticated,50
 Playwrite BE VLG,/Script/Handwritten,100
 Playwrite BE VLG,/Script/Informal,80
 Playwrite BE WAL,/Expressive/Calm,50
 Playwrite BE WAL,/Expressive/Cute,50
-Playwrite BE WAL,/Expressive/Sophisticated,50
 Playwrite BE WAL,/Script/Handwritten,100
 Playwrite BE WAL,/Script/Informal,80
 Playwrite BE WAL,/Script/Upright Script,100
 Playwrite BR,/Expressive/Calm,50
 Playwrite BR,/Expressive/Cute,50
-Playwrite BR,/Expressive/Sophisticated,50
 Playwrite BR,/Script/Handwritten,100
 Playwrite BR,/Script/Informal,80
 Playwrite BR,/Script/Upright Script,100
 Playwrite CA,/Expressive/Calm,50
 Playwrite CA,/Expressive/Cute,50
-Playwrite CA,/Expressive/Sophisticated,50
 Playwrite CA,/Script/Handwritten,100
 Playwrite CA,/Script/Informal,80
 Playwrite CL,/Expressive/Calm,50
 Playwrite CL,/Expressive/Cute,50
-Playwrite CL,/Expressive/Sophisticated,50
 Playwrite CL,/Script/Handwritten,100
 Playwrite CL,/Script/Informal,80
 Playwrite CL,/Script/Upright Script,100
-Playwrite CO,/Expressive/Active,100
+Playwrite CO,/Expressive/Active,80
 Playwrite CO,/Expressive/Cute,50
-Playwrite CO,/Expressive/Sophisticated,50
 Playwrite CO,/Script/Handwritten,100
 Playwrite CO,/Script/Informal,80
 Playwrite CU,/Expressive/Calm,50
 Playwrite CU,/Expressive/Cute,50
-Playwrite CU,/Expressive/Sophisticated,50
 Playwrite CU,/Script/Handwritten,100
 Playwrite CU,/Script/Informal,80
 Playwrite CZ,/Expressive/Active,80
 Playwrite CZ,/Expressive/Calm,50
 Playwrite CZ,/Expressive/Cute,50
-Playwrite CZ,/Expressive/Sophisticated,50
 Playwrite CZ,/Script/Handwritten,100
 Playwrite CZ,/Script/Informal,80
 Playwrite DE Grund,/Expressive/Calm,50
 Playwrite DE Grund,/Expressive/Cute,50
-Playwrite DE Grund,/Expressive/Sophisticated,50
 Playwrite DE Grund,/Script/Handwritten,100
 Playwrite DE Grund,/Script/Informal,80
 Playwrite DE Grund,/Script/Upright Script,100
 Playwrite DE LA,/Expressive/Active,80
 Playwrite DE LA,/Expressive/Calm,50
 Playwrite DE LA,/Expressive/Cute,50
-Playwrite DE LA,/Expressive/Sophisticated,50
 Playwrite DE LA,/Script/Handwritten,100
 Playwrite DE LA,/Script/Informal,80
 Playwrite DE SAS,/Expressive/Active,80
 Playwrite DE SAS,/Expressive/Calm,50
 Playwrite DE SAS,/Expressive/Cute,50
-Playwrite DE SAS,/Expressive/Sophisticated,50
 Playwrite DE SAS,/Script/Handwritten,100
 Playwrite DE SAS,/Script/Informal,80
-Playwrite DE VA,/Expressive/Active,80
+Playwrite DE VA,/Expressive/Active,70
 Playwrite DE VA,/Expressive/Calm,50
 Playwrite DE VA,/Expressive/Cute,50
-Playwrite DE VA,/Expressive/Sophisticated,50
 Playwrite DE VA,/Script/Handwritten,100
 Playwrite DE VA,/Script/Informal,80
 Playwrite DK Loopet,/Expressive/Calm,50
 Playwrite DK Loopet,/Expressive/Cute,50
-Playwrite DK Loopet,/Expressive/Sophisticated,50
 Playwrite DK Loopet,/Script/Handwritten,100
 Playwrite DK Loopet,/Script/Informal,80
 Playwrite DK Uloopet,/Expressive/Calm,50
 Playwrite DK Uloopet,/Expressive/Cute,50
-Playwrite DK Uloopet,/Expressive/Sophisticated,50
 Playwrite DK Uloopet,/Script/Handwritten,100
 Playwrite DK Uloopet,/Script/Informal,80
 Playwrite ES Deco,/Expressive/Calm,50
 Playwrite ES Deco,/Expressive/Cute,50
-Playwrite ES Deco,/Expressive/Sophisticated,50
 Playwrite ES Deco,/Script/Handwritten,100
 Playwrite ES Deco,/Script/Informal,80
 Playwrite ES Deco,/Script/Upright Script,100
 Playwrite ES,/Expressive/Calm,50
 Playwrite ES,/Expressive/Cute,50
-Playwrite ES,/Expressive/Sophisticated,50
 Playwrite ES,/Script/Handwritten,100
 Playwrite ES,/Script/Informal,80
 Playwrite ES,/Script/Upright Script,100
 Playwrite FR Moderne,/Expressive/Calm,50
 Playwrite FR Moderne,/Expressive/Cute,50
-Playwrite FR Moderne,/Expressive/Sophisticated,50
 Playwrite FR Moderne,/Script/Handwritten,100
 Playwrite FR Moderne,/Script/Informal,80
 Playwrite FR Moderne,/Script/Upright Script,100
-Playwrite FR Trad,/Expressive/Active,100
 Playwrite FR Trad,/Expressive/Cute,50
-Playwrite FR Trad,/Expressive/Sophisticated,50
 Playwrite FR Trad,/Script/Handwritten,100
 Playwrite FR Trad,/Script/Informal,80
 Playwrite FR Trad,/Script/Upright Script,100
 Playwrite GB J,/Expressive/Calm,50
 Playwrite GB J,/Expressive/Cute,50
-Playwrite GB J,/Expressive/Sophisticated,50
 Playwrite GB J,/Script/Handwritten,100
 Playwrite GB J,/Script/Informal,80
 Playwrite GB J,/Script/Upright Script,50
 Playwrite GB S,/Expressive/Calm,50
 Playwrite GB S,/Expressive/Cute,50
-Playwrite GB S,/Expressive/Sophisticated,50
 Playwrite GB S,/Script/Handwritten,100
 Playwrite GB S,/Script/Informal,80
 Playwrite GB S,/Script/Upright Script,50
 Playwrite HR Lijeva,/Expressive/Calm,50
 Playwrite HR Lijeva,/Expressive/Cute,50
-Playwrite HR Lijeva,/Expressive/Sophisticated,50
 Playwrite HR Lijeva,/Script/Handwritten,100
 Playwrite HR Lijeva,/Script/Informal,80
 Playwrite HR Lijeva,/Script/Upright Script,100
 Playwrite HR,/Expressive/Calm,50
 Playwrite HR,/Expressive/Cute,50
-Playwrite HR,/Expressive/Sophisticated,50
 Playwrite HR,/Script/Handwritten,100
 Playwrite HR,/Script/Informal,80
 Playwrite HU,/Expressive/Calm,50
 Playwrite HU,/Expressive/Cute,50
-Playwrite HU,/Expressive/Sophisticated,50
 Playwrite HU,/Script/Handwritten,100
 Playwrite HU,/Script/Informal,80
 Playwrite HU,/Script/Upright Script,100
 Playwrite ID,/Expressive/Calm,50
 Playwrite ID,/Expressive/Cute,50
-Playwrite ID,/Expressive/Sophisticated,50
 Playwrite ID,/Script/Handwritten,100
 Playwrite ID,/Script/Informal,80
 Playwrite ID,/Script/Upright Script,100
-Playwrite IE,/Expressive/Active,80
+Playwrite IE,/Expressive/Active,82
 Playwrite IE,/Expressive/Calm,50
 Playwrite IE,/Expressive/Cute,50
-Playwrite IE,/Expressive/Sophisticated,50
 Playwrite IE,/Script/Handwritten,100
 Playwrite IE,/Script/Informal,80
 Playwrite IN,/Expressive/Calm,50
 Playwrite IN,/Expressive/Cute,50
-Playwrite IN,/Expressive/Sophisticated,50
 Playwrite IN,/Script/Handwritten,100
 Playwrite IN,/Script/Informal,80
 Playwrite IS,/Expressive/Calm,50
 Playwrite IS,/Expressive/Cute,50
-Playwrite IS,/Expressive/Sophisticated,50
 Playwrite IS,/Script/Handwritten,100
 Playwrite IS,/Script/Informal,80
 Playwrite IT Moderna,/Expressive/Calm,50
 Playwrite IT Moderna,/Expressive/Cute,50
-Playwrite IT Moderna,/Expressive/Sophisticated,50
 Playwrite IT Moderna,/Script/Handwritten,100
 Playwrite IT Moderna,/Script/Informal,80
 Playwrite IT Moderna,/Script/Upright Script,100
 Playwrite IT Trad,/Expressive/Calm,50
 Playwrite IT Trad,/Expressive/Cute,50
-Playwrite IT Trad,/Expressive/Sophisticated,50
 Playwrite IT Trad,/Script/Handwritten,100
 Playwrite IT Trad,/Script/Informal,80
 Playwrite IT Trad,/Script/Upright Script,100
-Playwrite MX,/Expressive/Active,80
+Playwrite MX,/Expressive/Active,82
 Playwrite MX,/Expressive/Calm,50
 Playwrite MX,/Expressive/Cute,50
-Playwrite MX,/Expressive/Sophisticated,50
 Playwrite MX,/Script/Handwritten,100
 Playwrite MX,/Script/Informal,80
 Playwrite NG Modern,/Expressive/Calm,50
 Playwrite NG Modern,/Expressive/Cute,50
-Playwrite NG Modern,/Expressive/Sophisticated,50
 Playwrite NG Modern,/Script/Handwritten,100
 Playwrite NG Modern,/Script/Informal,80
-Playwrite NL,/Expressive/Active,80
+Playwrite NL,/Expressive/Active,82
 Playwrite NL,/Expressive/Calm,50
 Playwrite NL,/Expressive/Cute,50
-Playwrite NL,/Expressive/Sophisticated,50
 Playwrite NL,/Script/Handwritten,100
 Playwrite NL,/Script/Informal,80
 Playwrite NO,/Expressive/Calm,50
 Playwrite NO,/Expressive/Cute,50
-Playwrite NO,/Expressive/Sophisticated,50
 Playwrite NO,/Script/Handwritten,100
 Playwrite NO,/Script/Informal,80
 Playwrite NZ,/Expressive/Calm,50
 Playwrite NZ,/Expressive/Cute,50
-Playwrite NZ,/Expressive/Sophisticated,50
 Playwrite NZ,/Script/Handwritten,100
 Playwrite NZ,/Script/Informal,80
 Playwrite PE,/Expressive/Calm,50
 Playwrite PE,/Expressive/Cute,50
-Playwrite PE,/Expressive/Sophisticated,50
 Playwrite PE,/Script/Handwritten,100
 Playwrite PE,/Script/Informal,80
 Playwrite PE,/Script/Upright Script,100
 Playwrite PL,/Expressive/Calm,50
 Playwrite PL,/Expressive/Cute,50
-Playwrite PL,/Expressive/Sophisticated,50
 Playwrite PL,/Script/Handwritten,100
 Playwrite PL,/Script/Informal,80
 Playwrite PL,/Script/Upright Script,100
 Playwrite PT,/Expressive/Calm,50
 Playwrite PT,/Expressive/Cute,50
-Playwrite PT,/Expressive/Sophisticated,50
 Playwrite PT,/Script/Handwritten,100
 Playwrite PT,/Script/Informal,80
 Playwrite PT,/Script/Upright Script,100
 Playwrite RO,/Expressive/Calm,50
 Playwrite RO,/Expressive/Cute,50
-Playwrite RO,/Expressive/Sophisticated,50
 Playwrite RO,/Script/Handwritten,100
 Playwrite RO,/Script/Informal,80
 Playwrite SK,/Expressive/Calm,50
 Playwrite SK,/Expressive/Cute,50
-Playwrite SK,/Expressive/Sophisticated,50
 Playwrite SK,/Script/Handwritten,100
 Playwrite SK,/Script/Informal,80
 Playwrite TZ,/Expressive/Calm,50
 Playwrite TZ,/Expressive/Cute,50
-Playwrite TZ,/Expressive/Sophisticated,50
 Playwrite TZ,/Script/Handwritten,100
 Playwrite TZ,/Script/Informal,80
 Playwrite US Modern,/Expressive/Calm,50
 Playwrite US Modern,/Expressive/Cute,50
-Playwrite US Modern,/Expressive/Sophisticated,50
 Playwrite US Modern,/Script/Handwritten,100
 Playwrite US Modern,/Script/Informal,80
 Playwrite US Modern,/Script/Upright Script,100
-Playwrite US Trad,/Expressive/Active,80
+Playwrite US Trad,/Expressive/Active,70
 Playwrite US Trad,/Expressive/Calm,50
 Playwrite US Trad,/Expressive/Cute,50
-Playwrite US Trad,/Expressive/Sophisticated,50
 Playwrite US Trad,/Script/Handwritten,100
 Playwrite US Trad,/Script/Informal,80
 Playwrite VN,/Expressive/Calm,50
 Playwrite VN,/Expressive/Cute,50
-Playwrite VN,/Expressive/Sophisticated,50
 Playwrite VN,/Script/Handwritten,100
 Playwrite VN,/Script/Informal,80
 Playwrite VN,/Script/Upright Script,100
 Playwrite ZA,/Expressive/Calm,50
 Playwrite ZA,/Expressive/Cute,50
-Playwrite ZA,/Expressive/Sophisticated,50
 Playwrite ZA,/Script/Handwritten,100
 Playwrite ZA,/Script/Informal,80
 Plus Jakarta Sans,/Expressive/Business,55.2
@@ -6292,7 +6179,6 @@ Poiret One,/Expressive/Business,41
 Poiret One,/Expressive/Calm,99.4
 Poiret One,/Expressive/Stiff,62
 Poiret One,/Sans/Geometric,100
-Poller One,/Expressive/Business,41
 Poller One,/Expressive/Calm,23
 Poller One,/Expressive/Loud,98
 Poller One,/Expressive/Stiff,40
@@ -6402,7 +6288,6 @@ Pridi,/Serif/Modern,50
 Pridi,/Slab/Clarendon,100
 Princess Sofia,/Expressive/Artistic,19
 Princess Sofia,/Expressive/Excited,72
-Princess Sofia,/Expressive/Fancy,25
 Princess Sofia,/Expressive/Happy,20
 Princess Sofia,/Expressive/Innovative,64
 Princess Sofia,/Expressive/Vintage,14.3
@@ -6599,7 +6484,6 @@ Readex Pro,/Sans/Geometric,100
 Recursive,/Expressive/Business,80.8
 Recursive,/Expressive/Calm,76
 Recursive,/Expressive/Competent,71
-Recursive,/Expressive/Futuristic,58
 Recursive,/Expressive/Stiff,73
 Recursive,/Sans/Humanist,100
 Recursive,/Sans/Superellipse,20
@@ -6619,7 +6503,6 @@ Red Hat Text,/Sans/Humanist,20
 Red Rose,/Expressive/Business,49
 Red Rose,/Expressive/Calm,29
 Red Rose,/Expressive/Competent,89.4
-Red Rose,/Expressive/Futuristic,72
 Red Rose,/Expressive/Stiff,81
 Red Rose,/Expressive/Vintage,68
 Red Rose,/Sans/Glyphic,100
@@ -6684,7 +6567,6 @@ Rhodium Libre,/Serif/Transitional,30
 Ribeye Marrow,/Expressive/Awkward,92
 Ribeye Marrow,/Expressive/Childlike,32
 Ribeye Marrow,/Expressive/Excited,46
-Ribeye Marrow,/Expressive/Futuristic,25
 Ribeye Marrow,/Expressive/Innovative,63
 Ribeye Marrow,/Expressive/Playful,91.2
 Ribeye Marrow,/Expressive/Vintage,46
@@ -6694,7 +6576,6 @@ Ribeye Marrow,/Theme/Wacky,10
 Ribeye,/Expressive/Awkward,92
 Ribeye,/Expressive/Childlike,32
 Ribeye,/Expressive/Excited,46
-Ribeye,/Expressive/Futuristic,18
 Ribeye,/Expressive/Loud,76
 Ribeye,/Expressive/Playful,91.2
 Ribeye,/Expressive/Vintage,46
@@ -6714,7 +6595,6 @@ Risque,/Expressive/Playful,94.8
 Risque,/Expressive/Sincere,1
 Risque,/Expressive/Vintage,57.8
 Risque,/Theme/Wacky,70
-Road Rage,/Expressive/Futuristic,28
 Road Rage,/Expressive/Innovative,92
 Road Rage,/Expressive/Playful,92.3
 Road Rage,/Expressive/Rugged,98.2
@@ -6759,7 +6639,6 @@ Rochester,/Expressive/Vintage,74.5
 Rochester,/Script/Formal,50
 Rochester,/Script/Informal,50
 Rock 3D,/Expressive/Excited,39
-Rock 3D,/Expressive/Futuristic,22
 Rock 3D,/Expressive/Innovative,99
 Rock 3D,/Expressive/Playful,99.9
 Rock 3D,/Expressive/Rugged,84
@@ -6918,7 +6797,6 @@ Rubik Microbe,/Expressive/Excited,95
 Rubik Microbe,/Expressive/Innovative,99
 Rubik Microbe,/Expressive/Playful,99.7
 Rubik Microbe,/Expressive/Rugged,92.2
-Rubik Mono One,/Expressive/Business,12
 Rubik Mono One,/Expressive/Calm,87.7
 Rubik Mono One,/Expressive/Stiff,97
 Rubik Mono One,/Sans/Neo Grotesque,100
@@ -6927,7 +6805,6 @@ Rubik Moonrocks,/Expressive/Excited,48
 Rubik Moonrocks,/Expressive/Innovative,99
 Rubik Moonrocks,/Expressive/Playful,99.7
 Rubik Moonrocks,/Expressive/Stiff,53
-Rubik One,/Expressive/Business,56.2
 Rubik One,/Expressive/Calm,87.7
 Rubik One,/Expressive/Stiff,97
 Rubik One,/Sans/Neo Grotesque,100
@@ -6994,7 +6871,6 @@ Rufina,/Expressive/Vintage,38.9
 Rufina,/Serif/Didone,90
 Ruge Boogie,/Expressive/Awkward,76
 Ruge Boogie,/Expressive/Excited,76
-Ruge Boogie,/Expressive/Fancy,55
 Ruge Boogie,/Expressive/Happy,36
 Ruge Boogie,/Expressive/Innovative,53
 Ruge Boogie,/Expressive/Playful,40
@@ -7019,7 +6895,6 @@ Ruslan Display,/Expressive/Innovative,54
 Ruslan Display,/Expressive/Loud,85
 Ruslan Display,/Expressive/Playful,90.7
 Ruslan Display,/Theme/Wacky,20
-Russo One,/Expressive/Business,12
 Russo One,/Expressive/Calm,89.2
 Russo One,/Expressive/Futuristic,98
 Russo One,/Expressive/Stiff,99
@@ -7062,7 +6937,7 @@ SUSE,/Sans/Humanist,40
 SUSE,/Sans/Superellipse,50
 Sacramento,/Expressive/Artistic,62
 Sacramento,/Expressive/Cute,75
-Sacramento,/Expressive/Fancy,65
+Sacramento,/Expressive/Fancy,36
 Sacramento,/Expressive/Sophisticated,39
 Sacramento,/Expressive/Vintage,89
 Sacramento,/Script/Informal,90
@@ -7076,7 +6951,6 @@ Sail,/Expressive/Artistic,40
 Sail,/Expressive/Cute,28
 Sail,/Expressive/Loud,71
 Sail,/Expressive/Vintage,78.8
-Saira Condensed,/Expressive/Business,66.1
 Saira Condensed,/Expressive/Calm,78
 Saira Condensed,/Expressive/Competent,99.5
 Saira Condensed,/Expressive/Futuristic,97
@@ -7206,11 +7080,9 @@ Seaweed Script,/Expressive/Rugged,53
 Seaweed Script,/Expressive/Vintage,53.3
 Seaweed Script,/Script/Handwritten,20
 Seaweed Script,/Theme/Brush,20
-Secular One,/Expressive/Business,66
 Secular One,/Expressive/Calm,86.7
 Secular One,/Expressive/Stiff,65
 Secular One,/Sans/Humanist,100
-Sedan SC,/Expressive/Business,50
 Sedan SC,/Expressive/Sincere,96
 Sedan SC,/Expressive/Vintage,83
 Sedan SC,/Serif/Old Style Garalde,90
@@ -7218,7 +7090,7 @@ Sedan,/Expressive/Business,50
 Sedan,/Expressive/Sincere,99
 Sedan,/Expressive/Vintage,82.5
 Sedan,/Serif/Old Style Garalde,90
-Sedgwick Ave Display,/Expressive/Active,93
+Sedgwick Ave Display,/Expressive/Active,4
 Sedgwick Ave Display,/Expressive/Artistic,14
 Sedgwick Ave Display,/Expressive/Awkward,68
 Sedgwick Ave Display,/Expressive/Cute,15
@@ -7227,7 +7099,7 @@ Sedgwick Ave Display,/Expressive/Happy,79
 Sedgwick Ave Display,/Expressive/Innovative,13
 Sedgwick Ave Display,/Expressive/Vintage,25
 Sedgwick Ave Display,/Script/Handwritten,100
-Sedgwick Ave,/Expressive/Active,66
+Sedgwick Ave,/Expressive/Active,10
 Sedgwick Ave,/Expressive/Artistic,12
 Sedgwick Ave,/Expressive/Awkward,32
 Sedgwick Ave,/Expressive/Cute,15
@@ -7245,7 +7117,7 @@ Sen,/Expressive/Vintage,75.4
 Sen,/Sans/Humanist,100
 Send Flowers,/Expressive/Artistic,57
 Send Flowers,/Expressive/Cute,90
-Send Flowers,/Expressive/Fancy,36
+Send Flowers,/Expressive/Fancy,22
 Send Flowers,/Expressive/Sincere,94
 Send Flowers,/Script/Informal,100
 Sevillana,/Expressive/Artistic,20
@@ -7254,7 +7126,6 @@ Sevillana,/Expressive/Innovative,43
 Sevillana,/Expressive/Loud,47
 Sevillana,/Expressive/Sincere,93
 Sevillana,/Expressive/Vintage,57.6
-Seymour One,/Expressive/Business,1
 Seymour One,/Expressive/Calm,75
 Seymour One,/Expressive/Happy,42
 Seymour One,/Expressive/Playful,32
@@ -7430,7 +7301,6 @@ Sirin Stencil,/Expressive/Innovative,78
 Sirin Stencil,/Expressive/Stiff,62
 Sirin Stencil,/Theme/Stencil,100
 Sitara,/Indic/Contemporary,100
-Six Caps,/Expressive/Business,38
 Six Caps,/Expressive/Calm,83.9
 Six Caps,/Expressive/Competent,96.8
 Six Caps,/Expressive/Stiff,94
@@ -7492,7 +7362,6 @@ Smooch Sans,/Expressive/Stiff,90
 Smooch Sans,/Sans/Superellipse,80
 Smooch Sans,/Theme/Techno,30
 Smooch,/Expressive/Artistic,88
-Smooch,/Expressive/Fancy,94
 Smooch,/Expressive/Innovative,11
 Smooch,/Expressive/Rugged,45
 Smooch,/Expressive/Vintage,66.5
@@ -7528,13 +7397,11 @@ Sofadi One,/Sans/Rounded,100
 Sofadi One,/Theme/Blobby,20
 Sofia Sans Condensed,/Expressive/Business,44
 Sofia Sans Condensed,/Expressive/Calm,79
-Sofia Sans Condensed,/Expressive/Futuristic,74
 Sofia Sans Condensed,/Expressive/Stiff,75
 Sofia Sans Condensed,/Sans/Neo Grotesque,80
 Sofia Sans Condensed,/Sans/Rounded,20
 Sofia Sans Extra Condensed,/Expressive/Business,45
 Sofia Sans Extra Condensed,/Expressive/Calm,79
-Sofia Sans Extra Condensed,/Expressive/Futuristic,74
 Sofia Sans Extra Condensed,/Expressive/Stiff,76
 Sofia Sans Extra Condensed,/Sans/Neo Grotesque,80
 Sofia Sans Extra Condensed,/Sans/Rounded,20
@@ -7548,7 +7415,6 @@ Sofia Sans Semi Condensed,/Sans/Rounded,20
 Sofia Sans,/Expressive/Business,43
 Sofia Sans,/Expressive/Calm,79
 Sofia Sans,/Expressive/Competent,37
-Sofia Sans,/Expressive/Futuristic,74
 Sofia Sans,/Expressive/Stiff,75
 Sofia Sans,/Sans/Neo Grotesque,80
 Sofia Sans,/Sans/Rounded,20
@@ -7576,7 +7442,6 @@ Solway,/Slab/Humanist,100
 Sometype Mono,/Expressive/Business,12
 Sometype Mono,/Expressive/Calm,69
 Sometype Mono,/Expressive/Competent,22
-Sometype Mono,/Expressive/Futuristic,64
 Sometype Mono,/Expressive/Stiff,91
 Sometype Mono,/Expressive/Vintage,28.9
 Sometype Mono,/Monospace/Monospace,100
@@ -7588,7 +7453,6 @@ Song Myung,/Serif/Transitional,100
 Sono,/Expressive/Business,33
 Sono,/Expressive/Calm,80.3
 Sono,/Expressive/Competent,44
-Sono,/Expressive/Futuristic,92
 Sono,/Expressive/Stiff,84
 Sono,/Expressive/Vintage,54
 Sono,/Monospace/Monospace,100
@@ -7616,7 +7480,6 @@ Sour Gummy,/Theme/Blobby,100
 Source Code Pro,/Expressive/Business,32
 Source Code Pro,/Expressive/Calm,78
 Source Code Pro,/Expressive/Competent,21
-Source Code Pro,/Expressive/Futuristic,62
 Source Code Pro,/Expressive/Stiff,84
 Source Code Pro,/Expressive/Vintage,14
 Source Code Pro,/Monospace/Monospace,100
@@ -7642,14 +7505,13 @@ Space Grotesk,/Theme/Techno,100
 Space Mono,/Expressive/Business,17
 Space Mono,/Expressive/Calm,72
 Space Mono,/Expressive/Competent,78.5
-Space Mono,/Expressive/Futuristic,98
+Space Mono,/Expressive/Futuristic,72
 Space Mono,/Expressive/Stiff,84
 Space Mono,/Monospace/Monospace,100
 Space Mono,/Sans/Grotesque,80
 Space Mono,/Sans/Neo Grotesque,100
 Space Mono,/Theme/Techno,100
 Special Elite,/Expressive/Awkward,74
-Special Elite,/Expressive/Business,41
 Special Elite,/Expressive/Excited,22
 Special Elite,/Expressive/Innovative,83
 Special Elite,/Expressive/Rugged,98.3
@@ -7687,7 +7549,6 @@ Spirax,/Expressive/Happy,32
 Spirax,/Expressive/Innovative,55
 Spirax,/Expressive/Vintage,60.2
 Splash,/Expressive/Artistic,97
-Splash,/Expressive/Fancy,93
 Splash,/Expressive/Happy,16
 Splash,/Expressive/Innovative,91
 Splash,/Expressive/Loud,52
@@ -7698,7 +7559,6 @@ Splash,/Theme/Distressed,50
 Spline Sans Mono,/Expressive/Business,14
 Spline Sans Mono,/Expressive/Calm,77
 Spline Sans Mono,/Expressive/Competent,37
-Spline Sans Mono,/Expressive/Futuristic,74
 Spline Sans Mono,/Expressive/Stiff,73
 Spline Sans Mono,/Sans/Neo Grotesque,100
 Spline Sans,/Expressive/Business,96.5
@@ -7708,7 +7568,6 @@ Spline Sans,/Expressive/Stiff,73
 Spline Sans,/Sans/Neo Grotesque,100
 Squada One,/Expressive/Calm,81.8
 Squada One,/Expressive/Competent,94.9
-Squada One,/Expressive/Futuristic,72
 Squada One,/Expressive/Stiff,98
 Squada One,/Expressive/Vintage,79.4
 Squada One,/Sans/Grotesque,100
@@ -7748,7 +7607,6 @@ Srisakdi,/Expressive/Rugged,2
 Srisakdi,/Script/Handwritten,100
 Srisakdi,/Theme/Techno,10
 Srisakdi,/Theme/Wacky,10
-Staatliches,/Expressive/Business,38
 Staatliches,/Expressive/Calm,99.6
 Staatliches,/Expressive/Competent,94.8
 Staatliches,/Expressive/Futuristic,74
@@ -7782,7 +7640,6 @@ Stick,/Expressive/Excited,53
 Stick,/Expressive/Happy,30
 Stick,/Expressive/Innovative,46
 Stick,/Theme/Wacky,40
-Stint Ultra Condensed,/Expressive/Business,50.4
 Stint Ultra Condensed,/Expressive/Futuristic,54
 Stint Ultra Condensed,/Expressive/Sincere,33
 Stint Ultra Condensed,/Expressive/Stiff,75
@@ -7815,6 +7672,7 @@ Strong,/Sans/Humanist,60
 Style Script,/Expressive/Artistic,80
 Style Script,/Expressive/Fancy,74
 Style Script,/Expressive/Loud,23
+Style Script,/Expressive/Sophisticated,78
 Style Script,/Expressive/Vintage,78.1
 Style Script,/Script/Upright Script,100
 Stylish,/Expressive/Awkward,77
@@ -7853,7 +7711,6 @@ Sunshiney,/Expressive/Awkward,73
 Sunshiney,/Expressive/Childlike,97
 Sunshiney,/Expressive/Cute,38
 Sunshiney,/Expressive/Excited,18
-Sunshiney,/Expressive/Fancy,47
 Sunshiney,/Expressive/Happy,53
 Sunshiney,/Expressive/Innovative,74
 Sunshiney,/Expressive/Playful,35
@@ -7862,7 +7719,6 @@ Sunshiney,/Script/Handwritten,100
 Supermercado One,/Expressive/Business,22
 Supermercado One,/Expressive/Calm,13
 Supermercado One,/Expressive/Cute,13
-Supermercado One,/Expressive/Futuristic,73
 Supermercado One,/Expressive/Stiff,65
 Supermercado One,/Sans/Neo Grotesque,40
 Supermercado One,/Sans/Rounded,100
@@ -7959,7 +7815,6 @@ Taviraj,/Expressive/Business,38
 Taviraj,/Expressive/Loud,45
 Taviraj,/Expressive/Sincere,77
 Taviraj,/Serif/Modern,50
-Teko,/Expressive/Business,56
 Teko,/Expressive/Calm,87
 Teko,/Expressive/Competent,93
 Teko,/Expressive/Futuristic,98
@@ -7996,7 +7851,6 @@ Text Me One,/Expressive/Stiff,83
 Text Me One,/Sans/Geometric,80
 Text Me One,/Sans/Neo Grotesque,30
 Text Me One,/Sans/Superellipse,70
-Texturina,/Expressive/Futuristic,95
 Texturina,/Expressive/Innovative,72
 Texturina,/Expressive/Loud,63
 Texturina,/Expressive/Sincere,37
@@ -8051,7 +7905,6 @@ Tilt Neon,/Expressive/Vintage,69.7
 Tilt Neon,/Sans/Geometric,100
 Tilt Neon,/Theme/Techno,70
 Tilt Prism,/Expressive/Artistic,74
-Tilt Prism,/Expressive/Futuristic,94
 Tilt Prism,/Expressive/Innovative,100
 Tilt Prism,/Expressive/Stiff,82
 Tilt Prism,/Expressive/Vintage,84.5
@@ -8112,11 +7965,9 @@ Tiro Telugu,/Expressive/Stiff,70
 Tiro Telugu,/Expressive/Vintage,76.3
 Tiro Telugu,/Indic/Contemporary,100
 Tiro Telugu,/Serif/Transitional,100
-Titan One,/Expressive/Business,50.2
 Titan One,/Expressive/Calm,63
 Titan One,/Expressive/Competent,88.5
 Titan One,/Expressive/Cute,30
-Titan One,/Expressive/Futuristic,42
 Titan One,/Expressive/Loud,100
 Titan One,/Expressive/Playful,35
 Titan One,/Expressive/Stiff,92
@@ -8148,7 +7999,6 @@ Trade Winds,/Expressive/Playful,91.3
 Trade Winds,/Expressive/Rugged,78.8
 Trade Winds,/Expressive/Vintage,89.5
 Trade Winds,/Theme/Distressed,90
-Train One,/Expressive/Futuristic,36
 Train One,/Expressive/Innovative,97
 Train One,/Expressive/Stiff,51
 Train One,/Theme/Inline,100
@@ -8161,7 +8011,6 @@ Trirong,/Serif/Modern,30
 Trispace,/Expressive/Business,11
 Trispace,/Expressive/Calm,74
 Trispace,/Expressive/Competent,19
-Trispace,/Expressive/Futuristic,92
 Trispace,/Expressive/Stiff,71
 Trispace,/Expressive/Vintage,64.7
 Trispace,/Sans/Humanist,50
@@ -8171,7 +8020,6 @@ Trocchi,/Expressive/Stiff,70
 Trocchi,/Expressive/Vintage,84.5
 Trocchi,/Serif/Scotch,100
 Trochut,/Expressive/Awkward,11
-Trochut,/Expressive/Futuristic,52
 Trochut,/Expressive/Happy,33
 Trochut,/Expressive/Stiff,70
 Truculenta,/Expressive/Calm,62
@@ -8217,7 +8065,6 @@ Turret Road,/Theme/Techno,100
 Twinkle Star,/Expressive/Awkward,11
 Twinkle Star,/Expressive/Childlike,96
 Twinkle Star,/Expressive/Excited,52
-Twinkle Star,/Expressive/Fancy,46
 Twinkle Star,/Expressive/Happy,66
 Twinkle Star,/Expressive/Innovative,41
 Twinkle Star,/Expressive/Playful,16
@@ -8305,7 +8152,6 @@ Unkempt,/Script/Informal,80
 Unkempt,/Theme/Distressed,50
 Unkempt,/Theme/Wacky,20
 Unlock,/Expressive/Awkward,71
-Unlock,/Expressive/Business,60.8
 Unlock,/Expressive/Futuristic,84
 Unlock,/Expressive/Happy,32
 Unlock,/Expressive/Loud,88
@@ -8362,7 +8208,6 @@ Varta,/Expressive/Business,89.1
 Varta,/Expressive/Calm,76
 Varta,/Expressive/Stiff,63
 Varta,/Sans/Humanist,100
-Vast Shadow,/Expressive/Business,38
 Vast Shadow,/Expressive/Futuristic,72
 Vast Shadow,/Expressive/Innovative,93
 Vast Shadow,/Expressive/Stiff,72
@@ -8410,13 +8255,11 @@ Vidaloka,/Expressive/Vintage,84.5
 Vidaloka,/Serif/Didone,100
 Viga,/Expressive/Calm,62
 Viga,/Expressive/Competent,34
-Viga,/Expressive/Futuristic,76
 Viga,/Expressive/Playful,31
 Viga,/Expressive/Stiff,83
 Viga,/Sans/Humanist,50
 Viga,/Sans/Neo Grotesque,50
 Vina Sans,/Expressive/Calm,69
-Vina Sans,/Expressive/Futuristic,96
 Vina Sans,/Expressive/Innovative,12
 Vina Sans,/Expressive/Loud,98
 Vina Sans,/Expressive/Stiff,91
@@ -8486,7 +8329,6 @@ Warnes,/Expressive/Vintage,90
 Warnes,/Script/Handwritten,50
 Warnes,/Theme/Techno,20
 Water Brush,/Expressive/Artistic,80
-Water Brush,/Expressive/Fancy,59
 Water Brush,/Expressive/Innovative,52
 Water Brush,/Expressive/Rugged,76.7
 Water Brush,/Expressive/Vintage,35.4
@@ -8495,6 +8337,7 @@ Waterfall,/Expressive/Artistic,70
 Waterfall,/Expressive/Cute,35
 Waterfall,/Expressive/Fancy,55
 Waterfall,/Expressive/Loud,42
+Waterfall,/Expressive/Sophisticated,70
 Waterfall,/Expressive/Vintage,58.7
 Waterfall,/Script/Informal,50
 Wavefont,/Not text/Symbols,100
@@ -8528,7 +8371,6 @@ WindSong,/Expressive/Vintage,37.6
 WindSong,/Script/Informal,70
 Wire One,/Expressive/Calm,66
 Wire One,/Expressive/Cute,48
-Wire One,/Expressive/Futuristic,79
 Wire One,/Expressive/Stiff,68
 Wire One,/Sans/Neo Grotesque,50
 Wire One,/Sans/Rounded,100
@@ -8549,7 +8391,6 @@ Work Sans,/Expressive/Vintage,69
 Work Sans,/Sans/Grotesque,50
 Work Sans,/Sans/Neo Grotesque,60
 Xanh Mono,/Expressive/Business,16
-Xanh Mono,/Expressive/Futuristic,68
 Xanh Mono,/Expressive/Sincere,70.1
 Xanh Mono,/Expressive/Stiff,60
 Xanh Mono,/Expressive/Vintage,83
@@ -8586,7 +8427,6 @@ Yarndings 12,/Not text/Symbols,100
 Yarndings 20 Charted,/Not text/Symbols,100
 Yarndings 20,/Not text/Symbols,100
 Yatra One,/Expressive/Awkward,99
-Yatra One,/Expressive/Futuristic,64
 Yatra One,/Expressive/Happy,60
 Yatra One,/Expressive/Innovative,14
 Yatra One,/Expressive/Loud,57
@@ -8613,6 +8453,7 @@ Yeseva One,/Serif/Didone,70
 Yeseva One,/Serif/Fat Face,10
 Yesteryear,/Expressive/Fancy,91
 Yesteryear,/Expressive/Loud,73
+Yesteryear,/Expressive/Sophisticated,23
 Yesteryear,/Expressive/Vintage,47.6
 Yesteryear,/Script/Handwritten,40
 Yomogi,/Expressive/Awkward,62
@@ -8743,7 +8584,6 @@ Zen Kurenaido,/Expressive/Happy,41
 Zen Kurenaido,/Expressive/Stiff,73
 Zen Kurenaido,/Sans/Neo Grotesque,90
 Zen Kurenaido,/Sans/Rounded,100
-Zen Loop,/Expressive/Active,97
 Zen Loop,/Expressive/Calm,38
 Zen Loop,/Expressive/Happy,51
 Zen Loop,/Expressive/Innovative,8
@@ -8765,7 +8605,6 @@ Zen Old Mincho,/Expressive/Stiff,60
 Zen Old Mincho,/Expressive/Vintage,74
 Zen Old Mincho,/Serif/Scotch,40
 Zen Old Mincho,/Serif/Transitional,80
-Zen Tokyo Zoo,/Expressive/Futuristic,92
 Zen Tokyo Zoo,/Expressive/Innovative,93
 Zen Tokyo Zoo,/Expressive/Stiff,82
 Zen Tokyo Zoo,/Expressive/Vintage,73.6
@@ -8784,7 +8623,6 @@ Zhi Mang Xing,/Expressive/Artistic,67
 Zhi Mang Xing,/Expressive/Cute,23
 Zhi Mang Xing,/Expressive/Innovative,10
 Zhi Mang Xing,/Script/Handwritten,100
-Zilla Slab Highlight,/Expressive/Futuristic,21
 Zilla Slab Highlight,/Expressive/Innovative,94
 Zilla Slab Highlight,/Expressive/Stiff,72
 Zilla Slab Highlight,/Slab/Clarendon,10
@@ -8793,7 +8631,6 @@ Zilla Slab Highlight,/Slab/Humanist,70
 Zilla Slab Highlight,/Theme/Shaded,10
 Zilla Slab Highlight,/Theme/Techno,30
 Zilla Slab,/Expressive/Business,88.5
-Zilla Slab,/Expressive/Futuristic,21
 Zilla Slab,/Expressive/Stiff,72
 Zilla Slab,/Expressive/Vintage,28
 Zilla Slab,/Slab/Clarendon,10

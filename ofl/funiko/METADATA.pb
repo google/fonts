@@ -2,7 +2,7 @@ name: "Funiko Roman"
 designer: "Cara Polah, David Welch"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2024-10-02"
+date_added: "2024-10-05"
 fonts {
   name: "Funiko Roman"
   style: "normal"
@@ -17,6 +17,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/DCWelch/Funiko"
-  commit: "857f1ea55642620cf30fe92edae52a7fd3da4031"
+  commit: "98c7f378d9a78419db2e85818fce2506c2c7a63e"
   archive_url: "https://github.com/DCWelch/Funiko/releases/download/v1.100/Funiko-v1.100.zip"
 }

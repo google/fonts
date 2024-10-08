@@ -10,7 +10,7 @@ fonts {
   filename: "Exo2[wght].ttf"
   post_script_name: "Exo2-Regular"
   full_name: "Exo 2 Regular"
-  copyright: "Copyright 2013 The Exo 2 Project Authors (https://github.com/NDISCOVER/Exo-2.0)"
+  copyright: "Copyright 2013 The Exo 2 Project Authors (https://github.com/googlefonts/Exo-2.0)"
 }
 fonts {
   name: "Exo 2"
@@ -19,7 +19,7 @@ fonts {
   filename: "Exo2-Italic[wght].ttf"
   post_script_name: "Exo2-Italic"
   full_name: "Exo 2 Italic"
-  copyright: "Copyright 2013 The Exo 2 Project Authors (https://github.com/NDISCOVER/Exo-2.0)"
+  copyright: "Copyright 2013 The Exo 2 Project Authors (https://github.com/googlefonts/Exo-2.0)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -34,7 +34,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/Exo-2.0"
-  commit: "54902ff3d6cf21615ca8de74727e316ceb363a14"
+  commit: "f83ea8a02d3e1d6963ab6e910038521f27e283a2"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

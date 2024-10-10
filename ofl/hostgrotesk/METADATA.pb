@@ -1,5 +1,5 @@
 name: "Host Grotesk"
-designer: "Doğukan Karapınar, Element Type, İbrahim Kaçtıoğlu"
+designer: "Element Type, Doğukan Karapınar, İbrahim Kaçtıoğlu"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-10-03"

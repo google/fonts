@@ -16,7 +16,4 @@ fallback {
 fallback_only: false
 illustration_url: "fill.svg"
 description:
-  "Fill in transparent forms with opaque ones. Sometimes interior opaque"
-  " forms become transparent, to maintain contrasting shapes. This can"
-  " be useful in animation or interaction to convey a state transition."
-  " Ranges from 0 (no treatment) to 1 (completely filled)."
+  "Pretty full."

@@ -1,6 +1,230 @@
 {
-    "last_run": "2024-10-07",
+    "last_run": "2024-10-14",
     "commits": [
+        {
+            "date": "2024-10-11T22:27:56",
+            "title": "Merge pull request #8242 from google/gftools_packager_ofl_monasans",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "83b7192a280ca0b2af6b111a78176a8b8c9aa3d2"
+        },
+        {
+            "date": "2024-10-11T10:23:14",
+            "title": "Merge pull request #8292 from emmamarichal/oliverlalan",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "designer",
+            "id": "d5ee1e8889c47de07a13a8101e734abcfb368676"
+        },
+        {
+            "date": "2024-10-11T10:22:21",
+            "title": "Merge pull request #8293 from emmamarichal/Afacad-Flux-article-update",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0bb6571313374558a55e704b78fbf8b16e60fe8b"
+        },
+        {
+            "date": "2024-10-11T10:21:54",
+            "title": "Merge pull request #8294 from emmamarichal/Afacad-article-update",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "70ffd9db64d87335a0bfab5d99d81d0dc2ba086d"
+        },
+        {
+            "date": "2024-10-11T08:55:47",
+            "title": "Merge pull request #8247 from google/gftools_packager_ofl_hostgrotesk",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "25957c12a7f70acefc2356f23fdc767da43ccab3"
+        },
+        {
+            "date": "2024-10-11T08:50:49",
+            "title": "Merge pull request #8301 from google/Element-designer-image",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "c7264402e1eb1424464afb443e1b53b02ae8ecbd"
+        },
+        {
+            "date": "2024-10-10T22:31:50",
+            "title": "Revert \"Temporary edit to trigger dev push\" (#8306)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c9628d6fc190853c32afb62b9f80383d11a69627"
+        },
+        {
+            "date": "2024-10-10T22:25:58",
+            "title": "Revert \"Test upstream commit capture\" (#8305)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1e9848e282d1089c4365e8919f46067fb04296e1"
+        },
+        {
+            "date": "2024-10-10T22:20:19",
+            "title": "Temporary edit to trigger dev push (#8304)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "10d8c4f6b91861df4fbce272a8e14dd69434b18c"
+        },
+        {
+            "date": "2024-10-10T22:15:03",
+            "title": "Test upstream commit capture (#8303)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "designer",
+            "id": "6233dce9256edd19dfd0fb491fdede91c5acaf2e"
+        },
+        {
+            "date": "2024-10-10T18:49:17",
+            "title": "Image added to Element Type designer bio",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "6d097df64e47c33ae5a3a396eb6557620ccad600"
+        },
+        {
+            "date": "2024-10-10T18:40:59",
+            "title": "OFL license updated",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f7af201c4880d50c56f0908135dadedd2a26b7c5"
+        },
+        {
+            "date": "2024-10-10T18:37:31",
+            "title": "HostGrotesk article restored",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7952170760809ec3321bb6319d9f5cb91eea4168"
+        },
+        {
+            "date": "2024-10-10T18:30:22",
+            "title": "Designers order updated",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "89c788981c389627b10789be5b98a45b25743dce"
+        },
+        {
+            "date": "2024-10-10T18:27:38",
+            "title": "Host Grotesk: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "family",
+            "id": "5b5a99da970ec99e2ac88042fbb2b7f225ec55ac"
+        },
+        {
+            "date": "2024-10-10T12:10:45",
+            "title": "Merge pull request #8298 from google/emmamarichal-patch-1",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "dc45538b922204b4294f493f847dde146b08c9f8"
+        },
+        {
+            "date": "2024-10-10T11:54:49",
+            "title": "Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b9276bd9d60702aea69d49704c287cf6292732ba"
+        },
+        {
+            "date": "2024-10-10T09:34:06",
+            "title": "Merge pull request #8297 from google/emmamarichal-patch-1",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "29c6a407dcc15553ae1aa9aaddb617ff1ab797dc"
+        },
+        {
+            "date": "2024-10-10T09:29:08",
+            "title": "Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6cde12182a5b693ecfc49c47b3e12a0a4bd00018"
+        },
+        {
+            "date": "2024-10-09T15:37:54",
+            "title": "update article (images)",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e22a95e2ef772fa95273818364820fb52da1f353"
+        },
+        {
+            "date": "2024-10-09T15:30:52",
+            "title": "Article update",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ccf4814a41eae993bb8a3ef06fa8d9c033baec50"
+        },
+        {
+            "date": "2024-10-09T14:05:22",
+            "title": "Merge pull request #8262 from google/vv-monsalve-Geist-tags",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e0fb074f5e9eb3a5e0a68fa7f48716731f578dcb"
+        },
+        {
+            "date": "2024-10-09T14:05:08",
+            "title": "Merge pull request #8263 from google/vv-monsalve-HostG-tags",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dbcba98c1502983074648a5f53889b6020679f9d"
+        },
+        {
+            "date": "2024-10-09T14:01:38",
+            "title": "Update families.csv: Geist",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bd5a89ac12255cba91d803ce3af3257cabc65bf3"
+        },
+        {
+            "date": "2024-10-09T13:59:11",
+            "title": "Update families.csv: Host Grotesk",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "designer",
+            "id": "e59508643f7707349d91a2f5dac6b727ee1b6d39"
+        },
+        {
+            "date": "2024-10-09T13:31:54",
+            "title": "Add designer: Oliver Lalan",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "designer",
+            "id": "dba0a732847947bee15920541828e7f6c318b0fc"
+        },
+        {
+            "date": "2024-10-08T09:46:55",
+            "title": "Merge pull request #8272 from google/gftools_packager_ofl_hubotsans",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "bc64869476db57f86901c62119ec89e411e7f893"
+        },
+        {
+            "date": "2024-10-08T07:55:45",
+            "title": "Merge pull request #8273 from google/gftools_packager_ofl_exo2",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "8e46a30a13a2fefdfb6155db4c0776aa188007d4"
+        },
         {
             "date": "2024-10-06T07:34:20",
             "title": "Update families.csv (#8278)",
@@ -197,9 +421,49 @@
             "date": "2024-10-04T14:07:39",
             "title": "Merge pull request #8248 from google/Andres-Briganti",
             "author": "Emma Marichal",
-            "status": "new",
-            "kind": "designer",
+            "status": "modified",
+            "kind": "family",
             "id": "707192df6f2927c3ab0eab15acd104d877c02f23"
+        },
+        {
+            "date": "2024-10-04T13:02:23",
+            "title": "update url in description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "b1125e9373501341608c9644034fd8db2365c402"
+        },
+        {
+            "date": "2024-10-04T12:55:44",
+            "title": "Exo 2: Version 2.010 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "8445cfa2e5f80a6c91ccc1a86726761421791476"
+        },
+        {
+            "date": "2024-10-04T12:25:02",
+            "title": "removed images",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "1e1e95876b99d64e753e266a764e49d15b91f4ce"
+        },
+        {
+            "date": "2024-10-04T12:24:06",
+            "title": "added article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e5c7a242e73259a06b63e44f00923c1c8f00d5bc"
+        },
+        {
+            "date": "2024-10-04T12:18:26",
+            "title": "Hubot Sans: Version 2.000 added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "ccca81e56d5ba64269257fe8a0370f0fcdae17ab"
         },
         {
             "date": "2024-10-04T05:57:29",
@@ -301,9 +565,33 @@
             "date": "2024-10-03T16:53:22",
             "title": "Andr\u00e9s Briganti designer added",
             "author": "Viviana Monsalve",
-            "status": "new",
-            "kind": "designer",
+            "status": "modified",
+            "kind": "family",
             "id": "56b817110e55459eaf093b42edc270cf4de2e67b"
+        },
+        {
+            "date": "2024-10-03T09:03:42",
+            "title": "Added article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b75297607962d97fb5795d55081307b3a3f67300"
+        },
+        {
+            "date": "2024-10-02T16:10:05",
+            "title": "minisite url added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c926e4ada2f15f154c13c12b19ffd977011ee310"
+        },
+        {
+            "date": "2024-10-02T16:04:52",
+            "title": "Mona Sans: Version 2.000 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "d671c359531ea8e3b6977c71709f278da2558705"
         },
         {
             "date": "2024-10-02T15:37:03",

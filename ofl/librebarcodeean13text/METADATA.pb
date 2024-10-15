@@ -12,7 +12,6 @@ fonts {
   full_name: "Libre Barcode EAN13 Text Regular"
   copyright: "Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)"
 }
-subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/graphicore/librebarcode"

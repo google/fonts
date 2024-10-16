@@ -23,11 +23,29 @@ fonts {
 }
 fonts {
   name: "Zain"
+  style: "italic"
+  weight: 300
+  filename: "Zain-LightItalic.ttf"
+  post_script_name: "Zain-LightItalic"
+  full_name: "Zain Light Italic"
+  copyright: "Copyright 2024 The Zain Project Authors (https://github.com/googlefonts/zain)"
+}
+fonts {
+  name: "Zain"
   style: "normal"
   weight: 400
   filename: "Zain-Regular.ttf"
   post_script_name: "Zain-Regular"
-  full_name: "Zain"
+  full_name: "Zain Regular"
+  copyright: "Copyright 2024 The Zain Project Authors (https://github.com/googlefonts/zain)"
+}
+fonts {
+  name: "Zain"
+  style: "italic"
+  weight: 400
+  filename: "Zain-Italic.ttf"
+  post_script_name: "Zain-Italic"
+  full_name: "Zain Italic"
   copyright: "Copyright 2024 The Zain Project Authors (https://github.com/googlefonts/zain)"
 }
 fonts {
@@ -62,7 +80,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zain"
-  commit: "4c9896b8037ce409e24312eed1bd6a335e47c98a"
+  commit: "20ee949e2aee939aa5986703ce0bf6036dc71b32"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -80,8 +98,16 @@ source {
     dest_file: "Zain-Light.ttf"
   }
   files {
+    source_file: "Fonts/TTF/Zain-LightItalic.ttf"
+    dest_file: "Zain-LightItalic.ttf"
+  }
+  files {
     source_file: "Fonts/TTF/Zain-Regular.ttf"
     dest_file: "Zain-Regular.ttf"
+  }
+  files {
+    source_file: "Fonts/TTF/Zain-Italic.ttf"
+    dest_file: "Zain-Italic.ttf"
   }
   files {
     source_file: "Fonts/TTF/Zain-Bold.ttf"

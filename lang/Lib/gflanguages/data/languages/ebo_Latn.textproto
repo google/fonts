@@ -1,0 +1,14 @@
+id: "ebo_Latn"
+language: "ebo"
+script: "Latn"
+name: "Teke-Ebo"
+preferred_name: "Teke-Eboo-Nzikou"
+population: 260000
+region: "CD"
+region: "CG"
+exemplar_chars {
+  base: "a A ã Ã b B {bv} {BV} {dz} {DZ} e E ẽ Ẽ ɛ Ɛ {ɛ̃} {Ɛ̃} f F i I ĩ Ĩ ɨ Ɨ {ɨ̃} {Ɨ̃} k K l L m M {mb} {MB} {mf} {MF} {mp} {MP} {mv} {MV} n N {nd} {ND} {ng} {NG} {nk} {NK} {ns} {NS} {nt} {NT} {ny} {NY} {nz} {NZ} ŋ Ŋ o O õ Õ ɔ Ɔ {ɔ̃} {Ɔ̃} p P {pf} {PF} r R s S {sh} {SH} t T {ts} {TS} u U ũ Ũ ʉ Ʉ {ʉ̃} {Ʉ̃} w W y Y {yw} {YW}"
+  marks: "◌̃"
+  auxiliary: "c C d D g G h H j J q Q v V x X z Z"
+}
+source: "Ruth Raharimanantsoa & Basile Okana, Petit guide d’orthographe et de grammaire téké des Plateaux, Brazzaville, SIL-Congo, 2020"

@@ -195,8 +195,8 @@ source {
     dest_file: "SpectralSC-ExtraBoldItalic.ttf"
   }
   files {
-    source_file: "ofl.txt"
-    dest_file: "ofl.txt"
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
   }
   branch: "master"
 }

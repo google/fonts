@@ -30,6 +30,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeNetwork/Josefinslab"
+  commit: "b8b24fea5b8e6f8927c3787d485ff302acbf4303"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

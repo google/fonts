@@ -12,6 +12,7 @@ fonts {
   full_name: "Oi Regular"
   copyright: "Copyright 2019 The Oi Project Authors (github.com/kosbarts/Oi)"
 }
+subsets: "arabic"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
@@ -22,6 +23,7 @@ subsets: "tamil"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/kosbarts/Oi"
+  commit: "1938199013c7810522c354d2a885401e6a319ab1"
   files {
     source_file: "fonts/ttf/Oi-Regular.ttf"
     dest_file: "Oi-Regular.ttf"

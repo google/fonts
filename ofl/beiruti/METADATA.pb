@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Beiruti[wght].ttf"
   post_script_name: "Beiruti-Regular"
-  full_name: "Beiruti"
+  full_name: "Beiruti Regular"
   copyright: "Copyright 2024 The Beiruti Project Authors (https://github.com/googlefonts/beiruti)"
 }
 subsets: "arabic"
@@ -24,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/beiruti"
-  commit: "f6d75f1afbc5a0315a426a62dd7e6bf123ca218c"
+  commit: "bd45772aeff26f3ed83faa1efbb52a30b39608f2"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

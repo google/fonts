@@ -1,6 +1,118 @@
 {
-    "last_run": "2024-10-14",
+    "last_run": "2024-10-21",
     "commits": [
+        {
+            "date": "2024-10-18T13:15:46",
+            "title": "Merge pull request #8352 from emmamarichal/nordID",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "designer",
+            "id": "c8db839e73c32d7f18a01ab998e05650bd7567f9"
+        },
+        {
+            "date": "2024-10-18T13:14:07",
+            "title": "Merge pull request #8344 from google/gftools_packager_ofl_facultyglyphic",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "96f48a8068ecaaff27576ceb5ddba18b510dc5fe"
+        },
+        {
+            "date": "2024-10-18T12:51:39",
+            "title": "Merge pull request #8351 from google/emmamarichal-patch-2",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "designer",
+            "id": "870f65ee969589fccc995a9422f8a2d1331c8baa"
+        },
+        {
+            "date": "2024-10-18T12:48:04",
+            "title": "Designer added: NORD ID",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "2bdbb249f5fdb6274ed9e0580d8a2fe87307a51c"
+        },
+        {
+            "date": "2024-10-18T12:33:10",
+            "title": "Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ca51f1edde39007bc057c57dc69d1064f726d02e"
+        },
+        {
+            "date": "2024-10-17T19:03:41",
+            "title": "Update families.csv (#8350)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6d438df15e90cf853484e03bca154b85fb0b95db"
+        },
+        {
+            "date": "2024-10-17T16:41:26",
+            "title": "Update families.csv (#8349)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a8ed5163f5e0943290d9fef8a70002a51264e1ef"
+        },
+        {
+            "date": "2024-10-17T16:39:56",
+            "title": "Update families.csv (#8348)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e45e0c01678f0eb47f2784a7eb873f5628ef77a3"
+        },
+        {
+            "date": "2024-10-17T16:30:58",
+            "title": "Update families.csv (#8346)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "family",
+            "id": "0d1adb3e641f97d08f9811ab8ac13d08e12a3f57"
+        },
+        {
+            "date": "2024-10-17T14:58:42",
+            "title": "article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4d577139dae71548b0771a60dba5f4a795e793af"
+        },
+        {
+            "date": "2024-10-17T14:53:53",
+            "title": "Faculty Glyphic: Version 1.003; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "007f15f353d459737fa3c14213084964a5b2278b"
+        },
+        {
+            "date": "2024-10-15T14:15:45",
+            "title": "Merge pull request #8282 from google/gftools_packager_ofl_notosansnandinagari",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "839c63e643455b1d166ae8b38e82f28cf68316ac"
+        },
+        {
+            "date": "2024-10-15T14:04:52",
+            "title": "Merge pull request #8212 from google/gftools_packager_ofl_doto",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "e7967b14dc8f09edab48c5efe4e4bce60c0a31fe"
+        },
+        {
+            "date": "2024-10-14T22:00:43",
+            "title": "Update families.csv (#8324)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cbb12ba97d6582658ab15e3d0035ed91825408ec"
+        },
         {
             "date": "2024-10-11T22:27:56",
             "title": "Merge pull request #8242 from google/gftools_packager_ofl_monasans",
@@ -205,9 +317,25 @@
             "date": "2024-10-09T13:31:54",
             "title": "Add designer: Oliver Lalan",
             "author": "Emma Marichal",
-            "status": "new",
-            "kind": "designer",
+            "status": "modified",
+            "kind": "family",
             "id": "dba0a732847947bee15920541828e7f6c318b0fc"
+        },
+        {
+            "date": "2024-10-09T13:23:07",
+            "title": "article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8861ee460e284194c786360c94e2ee5fc5a5935f"
+        },
+        {
+            "date": "2024-10-09T13:22:24",
+            "title": "Doto: Version 1.000 added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "2c982e6bdf88fefbe9e34e78695d8e9e02d788ec"
         },
         {
             "date": "2024-10-08T09:46:55",
@@ -224,6 +352,14 @@
             "status": "modified",
             "kind": "family",
             "id": "8e46a30a13a2fefdfb6155db4c0776aa188007d4"
+        },
+        {
+            "date": "2024-10-07T10:07:16",
+            "title": "Noto Sans Nandinagari: Version 1.003; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "e937c35c6930749f549a0da10e1805d88a411edc"
         },
         {
             "date": "2024-10-06T07:34:20",

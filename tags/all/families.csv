@@ -1342,6 +1342,7 @@ Chakra Petch,/Expressive/Futuristic,99
 Chakra Petch,/Expressive/Stiff,99
 Chakra Petch,/Sans/Geometric,10
 Chakra Petch,"/South East Asian (Thai, Khmer, Lao)/Looped",100
+Chakra Petch,/Theme/Inline,30
 Chakra Petch,/Theme/Techno,100
 Changa One,/Expressive/Playful,11
 Changa One,/Expressive/Stiff,57
@@ -1524,6 +1525,7 @@ Codystar,/Expressive/Rugged,18
 Codystar,/Expressive/Vintage,38.7
 Codystar,/Sans/Rounded,100
 Codystar,/Theme/Distressed,20
+Codystar,/Theme/Inline,30
 Coiny,/Expressive/Childlike,10
 Coiny,/Expressive/Cute,24
 Coiny,/Expressive/Loud,84
@@ -3196,9 +3198,13 @@ Itim,/Expressive/Playful,65
 Itim,/Sans/Humanist,40
 Itim,/Script/Handwritten,50
 Itim,/Theme/Brush,100
+Jacquard 12 Charted,/Theme/Medieval,80
 Jacquard 12 Charted,/Theme/Pixel,100
+Jacquard 12,/Theme/Medieval,100
 Jacquard 12,/Theme/Pixel,100
+Jacquard 24 Charted,/Theme/Medieval,80
 Jacquard 24 Charted,/Theme/Pixel,100
+Jacquard 24,/Theme/Medieval,100
 Jacquard 24,/Theme/Pixel,100
 Jacquarda Bastarda 9 Charted,/Theme/Pixel,100
 Jacquarda Bastarda 9,/Theme/Pixel,100
@@ -4156,7 +4162,7 @@ Meddon,/Script/Handwritten,100
 MedievalSharp,/Expressive/Artistic,49
 MedievalSharp,/Expressive/Vintage,34
 MedievalSharp,/Theme/Blackletter,20
-MedievalSharp,/Theme/Medieval,60
+MedievalSharp,/Theme/Medieval,100
 Medula One,/Expressive/Stiff,54
 Medula One,/Theme/Blackletter,50
 Meera Inimai,/Expressive/Calm,97
@@ -5092,13 +5098,13 @@ Nova Mono,/Theme/Blackletter,10
 Nova Mono,/Theme/Techno,50
 Nova Oval,/Expressive/Playful,14
 Nova Oval,/Theme/Blackletter,10
-Nova Oval,/Theme/Medieval,50
+Nova Oval,/Theme/Medieval,20
 Nova Round,/Expressive/Calm,38
 Nova Round,/Expressive/Stiff,30
 Nova Round,/Theme/Blackletter,10
 Nova Round,/Theme/Techno,20
 Nova Script,/Expressive/Active,37
-Nova Script,/Theme/Medieval,50
+Nova Script,/Theme/Medieval,20
 Nova Script,/Theme/Techno,10
 Nova Slim,/Expressive/Calm,78
 Nova Slim,/Expressive/Competent,32
@@ -5144,7 +5150,6 @@ Offside,/Expressive/Competent,89.7
 Offside,/Expressive/Futuristic,80
 Offside,/Expressive/Stiff,94
 Offside,/Sans/Superellipse,100
-Offside,/Theme/Medieval,10
 Offside,/Theme/Stencil,10
 Offside,/Theme/Techno,100
 Oi,/Expressive/Innovative,98

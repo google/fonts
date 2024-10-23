@@ -1,5 +1,5 @@
 name: "Faculty Glyphic"
-designer: "Dylan Young"
+designer: "Koto Studio"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-10-17"

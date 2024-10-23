@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/DylanYoungKoto/FacultyGlyphic"
-  commit: "54ab4ddfac95147ffb344c83756e999f60d5e409"
+  commit: "217893d53b5e77627f997b41e75e45d5818bc0e2"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

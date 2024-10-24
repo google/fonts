@@ -467,6 +467,7 @@ Asset,/Expressive/Vintage,94
 Asset,/Seasonal/Christmas,85
 Asset,/Seasonal/Halloween,90
 Asset,/Serif/Fat Face,100
+Asset,/Theme/Woodtype,90
 Assistant,/Expressive/Business,33
 Assistant,/Expressive/Calm,97.9
 Assistant,/Expressive/Stiff,41
@@ -1158,7 +1159,6 @@ Candal,/Expressive/Loud,97
 Candal,/Expressive/Playful,31
 Candal,/Expressive/Vintage,70.4
 Candal,/Sans/Humanist,100
-Candal,/Theme/Woodtype,20
 Cantarell,/Expressive/Business,36
 Cantarell,/Expressive/Calm,92
 Cantarell,/Expressive/Competent,20
@@ -1342,7 +1342,6 @@ Chau Philomene One,/Expressive/Rugged,31
 Chau Philomene One,/Sans/Neo Grotesque,40
 Chau Philomene One,/Sans/Rounded,20
 Chau Philomene One,/Sans/Superellipse,50
-Chau Philomene One,/Theme/Woodtype,20
 Chela One,/Expressive/Happy,3
 Chela One,/Expressive/Loud,81
 Chela One,/Expressive/Playful,90.1
@@ -1429,7 +1428,6 @@ Chonburi,/Expressive/Sincere,54.5
 Chonburi,/Expressive/Vintage,77.9
 Chonburi,/Serif/Modern,100
 Chonburi,"/South East Asian (Thai, Khmer, Lao)/Loopless",100
-Chonburi,/Theme/Woodtype,80
 Cinzel Decorative,/Expressive/Artistic,31
 Cinzel Decorative,/Expressive/Vintage,91
 Cinzel Decorative,/Serif/Old Style Garalde,100
@@ -2301,7 +2299,6 @@ Fraunces,/Expressive/Loud,57
 Fraunces,/Expressive/Sincere,90
 Fraunces,/Expressive/Vintage,84.5
 Fraunces,/Serif/Old Style Garalde,100
-Fraunces,/Theme/Woodtype,50
 Freckle Face,/Expressive/Awkward,69
 Freckle Face,/Expressive/Excited,49
 Freckle Face,/Expressive/Happy,90
@@ -2498,7 +2495,6 @@ Geo,/Expressive/Futuristic,100
 Geo,/Expressive/Stiff,100
 Geo,/Sans/Geometric,80
 Geo,/Theme/Techno,100
-Geo,/Theme/Woodtype,20
 Geologica,/Expressive/Business,47
 Geologica,/Expressive/Calm,88.3
 Geologica,/Expressive/Stiff,71
@@ -2519,7 +2515,6 @@ Geostar,/Expressive/Playful,32
 Geostar,/Expressive/Stiff,97
 Geostar,/Theme/Inline,100
 Geostar,/Theme/Techno,10
-Geostar,/Theme/Woodtype,20
 Germania One,/Expressive/Artistic,77
 Germania One,/Expressive/Playful,11
 Germania One,/Expressive/Vintage,92
@@ -2542,7 +2537,6 @@ Gilda Display,/Serif/Transitional,100
 Girassol,/Expressive/Sincere,72
 Girassol,/Expressive/Vintage,90.5
 Girassol,/Serif/Old Style Garalde,100
-Girassol,/Theme/Woodtype,20
 Give You Glory,/Expressive/Artistic,72
 Give You Glory,/Expressive/Childlike,80
 Give You Glory,/Expressive/Happy,73
@@ -2554,7 +2548,6 @@ Glass Antiqua,/Expressive/Sincere,2
 Glass Antiqua,/Expressive/Vintage,58.9
 Glass Antiqua,/Theme/Art Nouveau,10
 Glass Antiqua,/Theme/Wacky,40
-Glass Antiqua,/Theme/Woodtype,10
 Glegoo,/Expressive/Business,23
 Glegoo,/Expressive/Sincere,95
 Glegoo,/Expressive/Stiff,30
@@ -2686,7 +2679,6 @@ Grenze Gotisch,/Expressive/Vintage,98
 Grenze Gotisch,/Seasonal/Christmas,86
 Grenze Gotisch,/Seasonal/Halloween,90
 Grenze Gotisch,/Theme/Blackletter,100
-Grenze Gotisch,/Theme/Woodtype,10
 Grenze,/Expressive/Artistic,36
 Grenze,/Expressive/Sincere,39
 Grenze,/Expressive/Vintage,89
@@ -3361,7 +3353,6 @@ Kelly Slab,/Expressive/Futuristic,89
 Kelly Slab,/Expressive/Sincere,44
 Kelly Slab,/Expressive/Stiff,58
 Kelly Slab,/Slab/Humanist,30
-Kelly Slab,/Theme/Woodtype,30
 Kenia,/Expressive/Innovative,70
 Kenia,/Expressive/Loud,91
 Kenia,/Expressive/Playful,62
@@ -4021,8 +4012,8 @@ Meddon,/Expressive/Sincere,97
 Meddon,/Expressive/Vintage,91
 Meddon,/Script/Formal,50
 Meddon,/Script/Handwritten,100
-Meddon,/Seasonal/Halloween,85
 Meddon,/Seasonal/Christmas,93
+Meddon,/Seasonal/Halloween,85
 MedievalSharp,/Expressive/Artistic,49
 MedievalSharp,/Expressive/Vintage,34
 MedievalSharp,/Theme/Blackletter,20
@@ -4524,6 +4515,7 @@ Notable,/Expressive/Artistic,97
 Notable,/Expressive/Loud,98
 Notable,/Expressive/Stiff,71
 Notable,/Theme/Art Deco,100
+Notable,/Theme/Woodtype,90
 Nothing You Could Do,/Expressive/Active,76
 Nothing You Could Do,/Expressive/Childlike,90
 Nothing You Could Do,/Expressive/Excited,23
@@ -5227,7 +5219,6 @@ Passero One,/Expressive/Innovative,65
 Passero One,/Expressive/Stiff,91
 Passero One,/Theme/Techno,50
 Passero One,/Theme/Wacky,10
-Passero One,/Theme/Woodtype,20
 Passion One,/Expressive/Competent,66
 Passion One,/Expressive/Loud,88
 Passion One,/Expressive/Stiff,76
@@ -6085,7 +6076,6 @@ Rubik 80s Fade,/Expressive/Rugged,67
 Rubik 80s Fade,/Expressive/Stiff,91
 Rubik 80s Fade,/Theme/Distressed,30
 Rubik 80s Fade,/Theme/Techno,100
-Rubik 80s Fade,/Theme/Woodtype,10
 Rubik Beastly,/Expressive/Awkward,90
 Rubik Beastly,/Expressive/Excited,80
 Rubik Beastly,/Expressive/Innovative,99
@@ -6874,7 +6864,6 @@ Squada One,/Expressive/Stiff,98
 Squada One,/Expressive/Vintage,79.4
 Squada One,/Sans/Grotesque,100
 Squada One,/Sans/Superellipse,80
-Squada One,/Theme/Woodtype,70
 Square Peg,/Expressive/Active,78
 Square Peg,/Expressive/Artistic,12
 Square Peg,/Expressive/Childlike,43
@@ -6913,7 +6902,6 @@ Stalinist One,/Expressive/Futuristic,99
 Stalinist One,/Expressive/Stiff,99
 Stalinist One,/Expressive/Vintage,90.5
 Stalinist One,/Theme/Techno,80
-Stalinist One,/Theme/Woodtype,30
 Stardos Stencil,/Expressive/Sincere,27
 Stardos Stencil,/Expressive/Stiff,71
 Stardos Stencil,/Expressive/Vintage,83
@@ -7555,7 +7543,6 @@ Wellfleet,/Expressive/Sincere,10.1
 Wellfleet,/Expressive/Stiff,54
 Wellfleet,/Slab/Humanist,100
 Wellfleet,/Theme/Wacky,40
-Wellfleet,/Theme/Woodtype,10
 Wendy One,/Expressive/Awkward,58
 Wendy One,/Expressive/Childlike,40
 Wendy One,/Expressive/Happy,23

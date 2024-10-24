@@ -151,7 +151,7 @@
     methods: {
       updateURL() {
         const url = new URL(window.location);
-        if (this.commit) {
+        if (this.commit && this.commit !== "refs/heads/main") {
           url.searchParams.set('commit', this.commit);
         } else {
           url.searchParams.delete('commit');

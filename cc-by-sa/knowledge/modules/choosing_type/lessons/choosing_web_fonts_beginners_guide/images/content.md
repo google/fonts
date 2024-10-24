@@ -39,9 +39,7 @@ When choosing web fonts, you often have to weigh several considerations together
 ![An animated loop showing the similarities of characters 'a', 'g', and 'o', in a certain font.](images/web-fonts2.gif)
 
 <figcaption>
-
 “For a paragraph, which needs to be highly legible, you shouldn’t use something with ambiguous shapes,” says type designer Octavio Pardo. Decorative fonts like <a href="https://fonts.google.com/specimen/Comfortaa">Comfortaa</a> (shown above) can be difficult to read at length, so for long texts stick to highly legible “workhorse“ fonts like <a href="https://fonts.google.com/specimen/Alegreya">Alegreya</a> or <a href="https://fonts.google.com/specimen/Bellefair">Bellefair</a>.
-
 </figcaption>
 
 </figure>
@@ -61,9 +59,7 @@ Remember that your app or website will probably reach users all over the world. 
 ![An animated loop showing text translated into Czech.](images/web-fonts3.gif)
 
 <figcaption>
-
 “Auto-translation as a service makes the chances of someone seeing your content in another language a near certainty,” says type designer Eben Sorkin, whose <a href="https://fonts.google.com/specimen/Merriweather">Merriweather</a> (shown above) has been expanded in recent years to support more European languages, as well as those using the Cyrillic script. “Having the glyphs needed for their language available will help make the user feel catered to,” says Sorkin. “The more global your customers, the more you will probably care about this.”
-
 </figcaption>
 
 </figure>
@@ -75,9 +71,7 @@ In other words, if the font you’ve chosen has only basic Latin letters, auto-t
 ![An animated loop showing text translated into different languages.](images/web-fonts4.gif)
 
 <figcaption>
-
 If your principle concern is for a font to remain consistent across the greatest number of scripts possible, consider using the <a href="https://fonts.google.com/noto">Noto</a> font family (shown above).
-
 </figcaption>
 
 </figure>
@@ -103,9 +97,7 @@ And while it’s uncommon for contextual alternates to be considered essential f
 ![An animated loop showing text showing oldstyle and tabular numbers.](images/web-fonts5.gif)
 
 <figcaption>
-
 Depending on what’s needed for your project, remember to compare the styles of your font’s figures. The difference between Oldstyle and Tabular styling (shown above), will affect your layout and formatting choices. Tabular figures are often used in tables because each number has the same character width, while Oldstyle figures read more comfortably in paragraphs.
-
 </figcaption>
 
 </figure>

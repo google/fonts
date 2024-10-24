@@ -44,6 +44,7 @@ When choosing web fonts, you often have to weigh several considerations together
 
 </figure>
 
+
 You can also get a sense of the overall quality of a font by examining the letters that tend to demand more time from a type designer—or just fall lower on their priority list. “Look at the shapes of the ‘a’, ‘g’ and the numerals,” says type designer Octavio Pardo. “Risky font choices reveal themselves in those glyphs. They should be daring but also legible. You can allow extravagant designs in low frequency glyphs like ‘v’ ‘w’ ‘x’ ‘y’ and ‘z’ as well as italics.”
 
 At medium sizes—such as subheads, pull quotes, or smaller titles ranging from 16pt to 24pt—consider using a sans serif font in the Geometric, Grotesque, or Humanist style. [Montserrat](https://fonts.google.com/specimen/Montserrat), [Lato](https://fonts.google.com/specimen/Lato), and [Quattrocento Sans](https://fonts.google.com/specimen/Quattrocento+Sans) are good examples. Avoid extreme weights, neither too thick nor too thin, to keep text easy to read at a glance. If instead you’d like a serif font that’s contemporary and not too bookish, look for something without too much stroke contrast, like the slab serif fonts [Arvo](https://fonts.google.com/specimen/Arvo), [Sanchez](https://fonts.google.com/specimen/Sanchez), and [Slabo](https://fonts.google.com/specimen/Slabo+27px).

@@ -12,8 +12,6 @@ fonts {
   full_name: "Geist Mono Regular"
   copyright: "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)"
 }
-subsets: "cyrillic"
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

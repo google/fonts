@@ -12,7 +12,7 @@ For a simple example of hover interaction, let’s consider hyperlinks that chan
 
 </figure>
 
-The effect is rather sudden, switching between weights instantly on hover. With variable fonts, though, it’s possible smooth the effect using a simple transition
+The effect is rather sudden, switching between weights instantly on hover. With variable fonts, though, it’s possible smooth the effect using a simple transition:
 
 <figure>
 

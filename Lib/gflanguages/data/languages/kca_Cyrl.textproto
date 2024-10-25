@@ -4,6 +4,7 @@ script: "Cyrl"
 name: "Khanty"
 autonym: "Ханты"
 population: 14000
+region: "RU"
 exemplar_chars {
   base: "А Ӑ Ӓ В Е Ё И Й К Қ Л Љ Ԯ М Н {Н’} Њ Ң О Ӧ Ө {Ө̆} Ӫ П Р С Т Ᲊ У Ў Ӱ Х Ҳ Ҷ Ш Щ Ы Ь Э Є Ә Ӛ Ю Я а ӑ ӓ в е ё и й к қ л љ ԯ м н {н’} њ ң о ӧ ө {ө̆} ӫ п р с т ᲊ у ў ӱ х ҳ ҷ ш щ ы ь э є ә ӛ ю я"
   marks: "◌̆ ◌̈"

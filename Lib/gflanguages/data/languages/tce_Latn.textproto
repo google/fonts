@@ -1,0 +1,13 @@
+id: "tce_Latn"
+language: "tce"
+script: "Latn"
+name: "Southern Tutchone"
+population: 65
+region: "CA"
+exemplar_chars {
+  base: "a A ä Ä b B {ch} {CH} {ch’} {CH’} d D {dh} {DH} {ddh} {DDH} {dl} {DL} {dz} {DZ} e E g G {gw} {GW} {gh} {GH} {ghw} {GHW} h H i I j J k K {kw} {KW} {k’} {K’} {k’w} {K’W} {kh} {KH} {khw} {KHW} l L ł Ł m M {mb} {MB} n N {nd} {ND} {nj} {NJ} o O r R s S {sh} {SH} t T {t’} {T’} {th} {TH} {tl} {TL} {tl’} {TL’} {ts} {TS} {ts’} {TS’} {tth} {TTH} {tth’u} {TTH’U} ü Ü w W y Y z Z {zh} {ZH} à À â Â ǎ Ǎ {ä̀} {Ä̀} {ä̂} {Ä̂} {ä̌} {Ä̌} è È ê Ê ě Ě ì Ì î Î ǐ Ǐ ò Ò ô Ô ǒ Ǒ ù Ù û Û ǔ Ǔ ǜ Ǜ {ü̂} {Ü̂} ǚ Ǚ {ą̀} {Ą̀} {ą̂} {Ą̂} {ą̌} {Ą̌} {ą̈̀} {Ą̈̀} {ą̈̂} {Ą̈̂} {ą̈̌} {Ą̈̌} {ę̀} {Ę̀} {ę̂} {Ę̂} {ę̌} {Ę̌} {į̀} {Į̀} {į̂} {Į̂} {į̌} {Į̌} {ǫ̀} {Ǫ̀} {ǫ̂} {Ǫ̂} {ǫ̌} {Ǫ̌} {ų̀} {Ų̀} {ų̂} {Ų̂} {ų̌} {Ų̌} {ų̈̀} {Ų̈̀} {ų̈̂} {Ų̈̂} {ų̈̌} {Ų̈̌}"
+  auxiliary: "f F p P q Q v V á Á ā Ā {ä́} {Ä́} ǟ Ǟ é É ē Ē í Í ī Ī ó Ó ō Ō ú Ú ū Ū ǘ Ǘ ǖ Ǖ {ą́} {Ą́} {ą̄} {Ą̄} {ą̈́} {Ą̈́} {ą̈̄} {Ą̈̄} {ę́} {Ę́} {ę̄} {Ę̄} {į́} {Į́} {į̄} {Į̄} {ǫ́} {Ǫ́} ǭ Ǭ {ų́} {Ų́} {ų̄} {Ų̄} {ų̈́} {Ų̈́} {ų̈̄} {Ų̈̄}"
+  marks: "◌́ ◌̀ ◌̂ ◌̄ ◌̈ ◌̌ ◌̨"
+}
+source: "Southern Tutchone Alphabet, Yukon Native Language Centre, 2020"
+note: "The earlier YNLC orthography used acute for rising tone instead of caron, macron for falling tone instead of circumflex."

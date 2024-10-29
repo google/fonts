@@ -36,7 +36,7 @@ When choosing web fonts, you often have to weigh several considerations together
 
 <figure>
 
-<video autoplay muted src="images/web-fonts2.mp4" type="video/mp4"></video>
+<video autoplay muted src="https://github.com/user-attachments/assets/8350e834-38fc-4d0a-9a2c-f2c2dd2ac104" type="video/mp4"></video>
 
 *“For a paragraph, which needs to be highly legible, you shouldn’t use something with ambiguous shapes,” says type designer Octavio Pardo. Decorative fonts like <a href="https://fonts.google.com/specimen/Comfortaa">Comfortaa</a> (shown above) can be difficult to read at length, so for long texts stick to highly legible “workhorse“ fonts like <a href="https://fonts.google.com/specimen/Alegreya">Alegreya</a> or <a href="https://fonts.google.com/specimen/Bellefair">Bellefair</a>.*
 

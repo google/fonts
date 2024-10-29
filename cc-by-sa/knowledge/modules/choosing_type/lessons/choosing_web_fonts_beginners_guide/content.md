@@ -65,7 +65,7 @@ In other words, if the font you’ve chosen has only basic Latin letters, auto-t
 
 <figure>
 
-<video autoplay muted src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/guidelines/gsf.mp4" type="video/mp4"></video>
+<video autoplay muted src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/guidelines/gsf.mp4?raw=true" type="video/mp4"></video>
 
 *If your principle concern is for a font to remain consistent across the greatest number of scripts possible, consider using the <a href="https://fonts.google.com/noto">Noto</a> font family (shown above).*
 

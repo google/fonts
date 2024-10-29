@@ -63,10 +63,13 @@ Remember that your app or website will probably reach users all over the world. 
 In other words, if the font you’ve chosen has only basic Latin letters, auto-translate takes the typography of your project out of your hands—shifting your layout into some other font for those letters, giving it a “ransom note effect” where individual, accented letters change and stick out. Choosing a font that includes characters for other languages, guarantees that the design of your site will remain consistent for a broader swath of your readership. This may sound like a losing battle, but there are plenty of font families that include multiscript support.
 
 
-<video autoplay muted src="https://github.com/shailenpatel2/fonts/blob/upcycle-gd-article/cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/web-fonts2.mp4?raw=true" type="video/mp4"></video>
+<figure>
+
+<video autoplay muted src="https://github.com/user-attachments/assets/4b0fd479-5b01-44d0-8f05-e9d62bf01f6b" type="video/mp4"></video>
 
 *If your principle concern is for a font to remain consistent across the greatest number of scripts possible, consider using the <a href="https://fonts.google.com/noto">Noto</a> font family (shown above).*
 
+</figure>
 
 Even with basic Latin fonts, you’ll want to check whether the font includes the “Extended Latin” characters used in specific European languages. Consider characters accented with diacritic marks like the circumflex (â), grave (á), umlaut (ä), overring (å), or ogonek (ą). There are many more, but choosing a font with an Extended Latin character set will ensure that accented letters don’t mistakenly default to the unaccented version.
 

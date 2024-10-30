@@ -5,7 +5,7 @@ name: "Belanda Viri, Latin"
 region: "SS"
 population: 73000
 exemplar_chars {
-  base: "a A á Á ã Ã ä Ä {’b} {’B} d D {’d} {’D} e E {ä́} {Ä́} {ä̃} {Ä̃} é É ẽ Ẽ ë Ë {ë́} {Ë́} {ë̃} {Ë̃} f F g G {gb} {GB} i I í Í ĩ Ĩ ï Ï ḯ Ḯ {ï̃} {Ï̃} k K {kp} {KP} l L m M {mgb} {MGB} n N {nd} {ND} {ng} {NG} {nv} {NV} {nz} {NZ} o O ó Ó õ Õ ö Ö {ö́} {Ö́} {ö̃} {Ö̃} r R s S t T u U ú Ú ũ Ũ ü Ü ǘ Ǘ {ü̃} {Ü̃} v V w W y Y z Z"
+  base: "a A á Á ã Ã ä Ä {ä́} {Ä́} {ä̃} {Ä̃} {’b} {’B} d D {’d} {’D} e E é É ẽ Ẽ ë Ë {ë́} {Ë́} {ë̃} {Ë̃} f F g G {gb} {GB} i I í Í ĩ Ĩ ï Ï ḯ Ḯ {ï̃} {Ï̃} k K {kp} {KP} l L m M {mgb} {MGB} n N {nd} {ND} {ng} {NG} {nv} {NV} {nz} {NZ} o O ó Ó õ Õ ö Ö {ö́} {Ö́} {ö̃} {Ö̃} r R s S t T u U ú Ú ũ Ũ ü Ü ǘ Ǘ {ü̃} {Ü̃} v V w W y Y z Z"
   marks: "◌́ ◌̃"
   auxiliary: "ʼ"
 }

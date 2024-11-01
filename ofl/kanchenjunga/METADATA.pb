@@ -67,3 +67,5 @@ source {
   }
   branch: "main"
 }
+primary_script: "Krai"
+

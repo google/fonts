@@ -6,8 +6,8 @@ autonym: "Kisukuma"
 population: 5094093
 region: "TZ"
 exemplar_chars {
-  base: "A B {CH} D E F G H I Ī J K L M N O Ó P S T U Ū V W Y Z a b c d e f g h i ī j k l m n o ó p s t u ū v w y z ’"
-  auxiliary: "Q q R r Á á À à Ò ò Ĩ ĩ Ũ ũ"
+  base: "A B {CH} D E F G H I Ī J K L M N O Ó P S T U Ū V W Y Z a b {ch} d e f g h i ī j k l m n o ó p s t u ū v w y z ’"
+  auxiliary: "C c Q q R r Á á À à Ò ò Ĩ ĩ Ũ ũ"
 }
 sample_text {
   masthead_full: "BbAa"

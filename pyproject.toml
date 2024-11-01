@@ -22,7 +22,8 @@ authors = [
 ]
 
 dependencies = [
-   "protobuf>=3.7.0, <4"
+   "protobuf>=3.7.0, <4",
+   "importlib_resources",  # Needed for 3.9 and below
 ]
 
 [project.optional-dependencies]

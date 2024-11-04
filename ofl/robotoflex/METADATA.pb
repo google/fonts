@@ -85,24 +85,16 @@ axes {
   max_value: 1000.0
 }
 registry_default_overrides {
-  key: "XTRA"
-  value: 468.0
-}
-registry_default_overrides {
   key: "XOPQ"
   value: 96.0
 }
 registry_default_overrides {
+  key: "XTRA"
+  value: 468.0
+}
+registry_default_overrides {
   key: "YOPQ"
   value: 79.0
-}
-registry_default_overrides {
-  key: "YTLC"
-  value: 514.0
-}
-registry_default_overrides {
-  key: "YTUC"
-  value: 712.0
 }
 registry_default_overrides {
   key: "YTDE"
@@ -112,7 +104,20 @@ registry_default_overrides {
   key: "YTFI"
   value: 738.0
 }
+registry_default_overrides {
+  key: "YTLC"
+  value: 514.0
+}
+registry_default_overrides {
+  key: "YTUC"
+  value: 712.0
+}
 source {
   repository_url: "https://github.com/googlefonts/Roboto-Flex"
-  archive_url: "https://github.com/googlefonts/roboto-flex/releases/download/3.100/roboto-flex-fonts.zip"
+  archive_url: "https://github.com/googlefonts/roboto-flex/releases/download/3.200/roboto-flex-fonts.zip"
+  files {
+    source_file: "roboto-flex-fonts/fonts/variable/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf"
+    dest_file: "RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf"
+  }
+  branch: "main"
 }

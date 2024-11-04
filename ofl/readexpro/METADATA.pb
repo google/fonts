@@ -30,5 +30,14 @@ axes {
 source {
   repository_url: "https://github.com/ThomasJockin/readexpro"
   commit: "6a4f24e40e424ec77badb04c101af81da96ed157"
+  files {
+    source_file: "fonts/variable/Readexpro[HEXP,wght].ttf"
+    dest_file: "ReadexPro[HEXP,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
 }
 primary_script: "Arab"

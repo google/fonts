@@ -7,8 +7,8 @@ population: 2357094
 region: "LT"
 region: "PL"
 exemplar_chars {
-  base: "a ą b c č d e ę ė f g h i į y j k l m n o p r s š t u ų ū v z ž"
-  auxiliary: "á à ã {ą́} {ą̃} {ch} {dz} {dž} é è ẽ {ę́} {ę̃} {ė́} {ė̃} {i̇́} í {i̇̀} ì {i̇̃} ĩ {į́} {į̇́} {į̃} {į̇̃} {j̃} {j̇̃} {l̃} {m̃} ñ ó ò õ q {r̃} ú ù ũ {ų́} {ų̃} {ū́} {ū̃} w x"
+  base: "A Ą B C Č D E Ę Ė F G H I Į Y J K L M N O P R S Š T U Ų Ū V Z Ž a ą b c č d e ę ė f g h i į y j k l m n o p r s š t u ų ū v z ž"
+  auxiliary: "Á À Ã {Ą́} {Ą̃} {CH} {DZ} {DŽ} É È Ẽ {Ę́} {Ę̃} {Ė́} {Ė̃} {İ́} Í {İ̀} Ì {İ̃} Ĩ {Į́} {Į̇́} {Į̃} {Į̇̃} {J̃} {J̇̃} {L̃} {M̃} Ñ Ó Ò Õ Q {R̃} Ú Ù Ũ {Ų́} {Ų̃} {Ū́} {Ū̃} W X á à ã {ą́} {ą̃} {ch} {dz} {dž} é è ẽ {ę́} {ę̃} {ė́} {ė̃} {i̇́} í {i̇̀} ì {i̇̃} ĩ {į́} {į̇́} {į̃} {į̇̃} {j̃} {j̇̃} {l̃} {m̃} ñ ó ò õ q {r̃} ú ù ũ {ų́} {ų̃} {ū́} {ū̃} w x"
   marks: "◌̄ ◌̇ ◌̌ ◌̨"
   numerals: ", % + − 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … “ „ ( ) [ ] { }"

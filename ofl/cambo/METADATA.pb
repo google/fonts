@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+minisite_url: "https://huertatipografica.com/en/fonts/cambo-ht"

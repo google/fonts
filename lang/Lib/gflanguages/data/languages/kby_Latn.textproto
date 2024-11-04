@@ -2,6 +2,9 @@ id: "kby_Latn"
 language: "kby"
 script: "Latn"
 name: "Kanuri, Manga"
+population: 1170000
+region: "NE"
+region: "NG"
 exemplar_chars {
   base: "a A b B c C d D e E ǝ Ǝ f F g G h H i I j J k K l L m M n N o O p P r R ɍ Ɍ s S t T u U w W y Y"
   auxiliary: "z Z"

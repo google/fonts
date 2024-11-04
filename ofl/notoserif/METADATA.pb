@@ -40,8 +40,29 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/latin-greek-cyrillic.git"
-  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.012/NotoSerif-v2.012.zip"
+  repository_url: "https://github.com/notofonts/latin-greek-cyrillic"
+  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.013/NotoSerif-v2.013.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSerif/googlefonts/variable/NotoSerif[wdth,wght].ttf"
+    dest_file: "NotoSerif[wdth,wght].ttf"
+  }
+  files {
+    source_file: "NotoSerif/googlefonts/variable/NotoSerif-Italic[wdth,wght].ttf"
+    dest_file: "NotoSerif-Italic[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aa_Latn"  # Afar
@@ -51,9 +72,9 @@ languages: "abr_Latn"  # Abron
 languages: "ace_Latn"  # Achinese
 languages: "acf_Latn"  # Saint Lucian Creole French, Latin
 languages: "ach_Latn"  # Acoli
-languages: "acu_Latn"  # Achuar-Shiwiar, Latin, Ecuador
+languages: "acu_Latn"  # Achuar-Shiwiar
 languages: "ada_Latn"  # Adangme
-languages: "adl_Latn"  # Galo, Latin
+languages: "adl_Latn"
 languages: "ady_Cyrl"  # Adyghe
 languages: "af_Latn"  # Afrikaans
 languages: "agq_Latn"  # Aghem
@@ -62,7 +83,7 @@ languages: "aii_Cyrl"  # Assyrian Neo-Aramaic, Cyrillic
 languages: "aii_Latn"  # Assyrian Neo-Aramaic, Latin
 languages: "ain_Latn"  # Ainu, Latin
 languages: "ajg_Latn"  # Aja
-languages: "ak_Latn"  # Akan
+languages: "ak_Latn"
 languages: "akz_Latn"  # Alabama
 languages: "ale_Latn"  # Aleut
 languages: "aln_Latn"  # Gheg Albanian
@@ -84,7 +105,7 @@ languages: "arw_Latn"  # Arawak
 languages: "asa_Latn"  # Asu
 languages: "ast_Latn"  # Asturian
 languages: "atj_Latn"  # Atikamekw
-languages: "auc_Latn"  # Waorani, Latin, Ecuador
+languages: "auc_Latn"  # Waorani
 languages: "av_Cyrl"  # Avaric
 languages: "avk_Latn"  # Kotava
 languages: "ay_Latn"  # Aymara
@@ -139,7 +160,7 @@ languages: "bug_Latn"  # Buginese
 languages: "bum_Latn"  # Bulu
 languages: "bvb_Latn"  # Bube
 languages: "bvi_Latn"  # Belanda Viri, Latin
-languages: "bwy_Latn"  # Cwi Bwamu, Latin
+languages: "bwy_Latn"
 languages: "byv_Latn"  # Medumba
 languages: "bze_Latn"  # Jenaama Bozo
 languages: "bzx_Latn"  # Bozo, Hainyaxo
@@ -437,7 +458,7 @@ languages: "lkt_Latn"  # Lakota
 languages: "lld_Latn"  # Ladin
 languages: "lmo_Latn"  # Lombard
 languages: "ln_Latn"  # Lingala
-languages: "lns_Latn"  # Lamnso'
+languages: "lns_Latn"  # Lamnso’
 languages: "lob_Latn"  # Lobi
 languages: "lol_Latn"  # Mongo
 languages: "lot_Latn"  # Otuho
@@ -458,7 +479,7 @@ languages: "lzz_Latn"  # Laz, Latin
 languages: "mad_Latn"  # Madurese
 languages: "maf_Latn"  # Mafa
 languages: "mak_Latn"  # Makasar
-languages: "mam_Latn"  # Mam, Northern
+languages: "mam_Latn"  # Mam
 languages: "man_Latn"  # Mandingo
 languages: "mas_Latn"  # Masai
 languages: "maz_Latn"  # Central Mazahua
@@ -648,7 +669,7 @@ languages: "sbp_Latn"  # Sangu
 languages: "sc_Latn"  # Sardinian
 languages: "scn_Latn"  # Sicilian
 languages: "sco_Latn"  # Scots
-languages: "scs_Latn"  # North Slavey
+languages: "scs_Latn"  # South Slavey
 languages: "sdc_Latn"  # Sassarese Sardinian
 languages: "se_Cyrl"  # Northern Sami, Cyrillic
 languages: "se_Latn"  # Northern Sami
@@ -699,7 +720,7 @@ languages: "suk_Latn"  # Sukuma
 languages: "sus_Latn"  # Susu
 languages: "sv_Latn"  # Swedish
 languages: "sw_Latn"  # Swahili
-languages: "swb_Latn"  # Comorian, Latin
+languages: "swb_Latn"  # Maore Comorian, Latin
 languages: "swg_Latn"  # Swabian
 languages: "sxn_Latn"  # Sangir
 languages: "syi_Latn"  # Seki

@@ -53,4 +53,36 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/zen-kakugothic"
+  files {
+    source_file: "fonts/ttf/ZenKakuGothicNew-Light.ttf"
+    dest_file: "ZenKakuGothicNew-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ZenKakuGothicNew-Regular.ttf"
+    dest_file: "ZenKakuGothicNew-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ZenKakuGothicNew-Medium.ttf"
+    dest_file: "ZenKakuGothicNew-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ZenKakuGothicNew-Bold.ttf"
+    dest_file: "ZenKakuGothicNew-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ZenKakuGothicNew-Black.ttf"
+    dest_file: "ZenKakuGothicNew-Black.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
+}
 primary_script: "Jpan"

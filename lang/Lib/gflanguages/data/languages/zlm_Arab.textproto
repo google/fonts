@@ -1,8 +1,11 @@
 id: "zlm_Arab"
 language: "zlm"
 script: "Arab"
-name: "Malay, Arabic"
-region: "TG"
+name: "Malay (Arabic)"
+region: "BN"
+region: "ID"
+region: "MY"
+region: "SG"
 sample_text {
   masthead_full: "سموا"
   masthead_partial: "أن"

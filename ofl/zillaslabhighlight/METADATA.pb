@@ -1,7 +1,7 @@
 name: "Zilla Slab Highlight"
 designer: "Typotheque"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2017-07-26"
 fonts {
   name: "Zilla Slab Highlight"
@@ -24,3 +24,4 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SLAB_SERIF"

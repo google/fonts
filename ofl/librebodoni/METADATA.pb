@@ -33,4 +33,17 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/Libre-Bodoni"
   commit: "37d048938a8a32e6ba3992072cb3857659a7828f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/LibreBodoni[wght].ttf"
+    dest_file: "LibreBodoni[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/LibreBodoni-Italic[wght].ttf"
+    dest_file: "LibreBodoni-Italic[wght].ttf"
+  }
+  branch: "master"
 }

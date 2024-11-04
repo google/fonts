@@ -6,8 +6,8 @@ autonym: "Latviešu"
 population: 1147550
 region: "LV"
 exemplar_chars {
-  base: "a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž"
-  auxiliary: "y ō q ŗ w x"
+  base: "A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O P R S Š T U Ū V Z Ž a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž"
+  auxiliary: "Y Ō Q Ŗ W X y ō q ŗ w x"
   marks: "◌̄ ◌̌ ◌̧"
   numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … \' ‘ ’ ‚ \" “ ” „ ( ) [ ] @ * / & #"

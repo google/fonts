@@ -2,5 +2,13 @@ id: "puu_Latn"
 language: "puu"
 script: "Latn"
 name: "Punu"
+autonym: "yipunu"
 population: 200781
 region: "GA"
+exemplar_chars {
+    base: "a A b B d D e E f F g G i I j J k K l L m M n N ñ Ñ o O p P r R s S t T u U v V w W y Y {mb} {MB} {mf} {MF} {nd} {ND} {ng} {NG} {nz} {NZ} {ts} {TS}"
+    marks: "◌̃"
+    auxiliary: "ꞵ Ꞵ c C ɣ Ɣ h H q Q x X z Z"
+}
+source: "Mabik-ma-Kombil, Parlons yipunu: langue et culture des Punu du Gabon-Congo, Paris, L’Harmattan, 2001"
+source: "Jérôme Tangu Kwenzi-Mikala, “Yipunu”, Revue gabonaise des sciences de l’Homme, no. 2 “Actes du séminaire des experts : Alphabet scientifique des langues du Gabon (20/24 février 1989)”, 1990, 299-306"

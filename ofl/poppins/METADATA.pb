@@ -1,5 +1,5 @@
 name: "Poppins"
-designer: "Indian Type Foundry, Jonny Pinhorn"
+designer: "Indian Type Foundry, Jonny Pinhorn, Ninad Kale"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-06-03"
@@ -168,3 +168,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/itfoundry/Poppins"
+}
+primary_script: "Deva"

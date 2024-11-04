@@ -1,0 +1,13 @@
+id: "gna_Latn"
+language: "gna"
+script: "Latn"
+name: "Kaansa"
+region: "BF"
+population: 15000
+exemplar_chars {
+  base: "a A á Á â Â ã Ã ǎ Ǎ {ã́} {Ã́} {ã̂} {Ã̂} {ã̌} {Ã̌} b B c C d D e E é É ê Ê ẽ Ẽ ě Ě ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̂} {Ɛ̂} {ɛ̃} {Ɛ̃} {ɛ̌} {Ɛ̌} {ɛ̃́} {Ɛ̃́} f F g G h H i I í Í î Î ĩ Ĩ ǐ Ǐ {ĩ́} {Ĩ́} {ĩ̌} {Ĩ̌} ɩ Ɩ {ɩ́} {Ɩ́} {ɩ̂} {Ɩ̂} {ɩ̃} {Ɩ̃} {ɩ̌} {Ɩ̌} {ɩ̃́} {Ɩ̃́} {ɩ̃̂} {Ɩ̃̂} j J k K l L m M n N ŋ Ŋ ɲ Ɲ o O ó Ó ô Ô õ Õ ǒ Ǒ ṍ Ṍ ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̂} {Ɔ̂} {ɔ̃} {Ɔ̃} {ɔ̌} {Ɔ̌} {ɔ̃́} {Ɔ̃́} p P r R s S t T u U ú Ú û Û ũ Ũ ṹ Ṹ {ũ̂} {Ũ̂} ʋ Ʋ {ʋ́} {Ʋ́} {ʋ̂} {Ʋ̂} {ʋ̃} {Ʋ̃} {ʋ̃́} {Ʋ̃́} v V w W x X y Y z Z"
+  marks: "◌́ ◌̂ ◌̃ ◌̌"
+}
+source: "Nɩ́ɩnɛ́ɛ Fʋ̃ŋ sɩ́ Yékírí Khonni Nɩ́pɩnɛ Yésú Kírísi wá Bárkárá wɛra = Le Nouveau Testament en langue kaansa du Burkina Faso, 2018, Wycliffe Bible Translators"
+source: "A Karaŋ Kã́asa [ = Lisons le kaansa!: Syllabaire en langue kaansa ], SIL-Burkina Faso, Projet Kaansa, 2017"
+source: "Équipe kaansa, Guide de transition français-kaansa, Ouagadougou: SIL, 2018"

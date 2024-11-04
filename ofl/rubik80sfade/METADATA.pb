@@ -21,4 +21,17 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "f68dfcddd341aaabe53aa924d634122bb8bf999d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "80sfade/fonts/ttf/Rubik80sFade-Regular.ttf"
+    dest_file: "Rubik80sFade-Regular.ttf"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }

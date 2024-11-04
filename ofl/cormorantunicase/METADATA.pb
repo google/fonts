@@ -57,4 +57,29 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/CatharsisFonts/Cormorant"
   commit: "cc1bfb51ce6568cb3abf9199ab718d543f6fa189"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantUnicase-Bold.ttf"
+    dest_file: "CormorantUnicase-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantUnicase-Light.ttf"
+    dest_file: "CormorantUnicase-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantUnicase-Medium.ttf"
+    dest_file: "CormorantUnicase-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantUnicase-Regular.ttf"
+    dest_file: "CormorantUnicase-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CormorantUnicase-SemiBold.ttf"
+    dest_file: "CormorantUnicase-SemiBold.ttf"
+  }
+  branch: "master"
 }

@@ -1,5 +1,5 @@
 name: "Tajawal"
-designer: "Boutros Fonts"
+designer: "Boutros Fonts, Mourad Boutros, Soulaf Khalifeh"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-04-04"

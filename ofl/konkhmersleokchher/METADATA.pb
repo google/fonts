@@ -19,5 +19,14 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/suonmaysophanith7/KonKhmer_SleokChher"
   commit: "1289371ce1f5f4f9223f023f607d83c98fc03625"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/KonkhmerSleokchher-Regular.ttf"
+    dest_file: "KonkhmerSleokchher-Regular.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Khmr"

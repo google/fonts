@@ -10,7 +10,7 @@ fonts {
   filename: "AbyssinicaSIL-Regular.ttf"
   post_script_name: "AbyssinicaSIL-Regular"
   full_name: "Abyssinica SIL"
-  copyright: "Copyright (c) 2000-2022 by SIL International"
+  copyright: "Copyright (c) 2000-2024 by SIL Global"
 }
 subsets: "ethiopic"
 subsets: "latin"
@@ -18,6 +18,16 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-abyssinica"
-  archive_url: "https://github.com/silnrsi/font-abyssinica/releases/download/v2.200/AbyssinicaSIL-2.200.zip"
+  commit: "1f7e65b0e7367681198c980647b3049559ebefa0"
+  archive_url: "https://github.com/silnrsi/font-abyssinica/releases/download/v2.300/AbyssinicaSIL-2.300.zip"
+  files {
+    source_file: "AbyssinicaSIL-2.300/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "AbyssinicaSIL-2.300/AbyssinicaSIL-Regular.ttf"
+    dest_file: "AbyssinicaSIL-Regular.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Ethi"

@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "nabataean"
 source {
-  repository_url: "https://github.com/notofonts/nabataean.git"
+  repository_url: "https://github.com/notofonts/nabataean"
   archive_url: "https://github.com/notofonts/nabataean/releases/download/NotoSansNabataean-v2.001/NotoSansNabataean-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansNabataean/googlefonts/ttf/NotoSansNabataean-Regular.ttf"
+    dest_file: "NotoSansNabataean-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aii_Nbat"  # Assyrian Neo-Aramaic, Nabataean

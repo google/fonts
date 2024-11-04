@@ -1,0 +1,12 @@
+id: "dur_Latn"
+language: "dur"
+script: "Latn"
+name: "Dii"
+region: "CM"
+population: 71000
+exemplar_chars {
+  base: "a A à À á Á {a̧} {A̧} {à̧} {À̧} {á̧} {Á̧} b B ɓ Ɓ d D e E è È é É ȩ Ȩ {ȩ̀} {Ȩ̀} {ȩ́} {Ȩ́} ɛ Ɛ ə Ə {ə̀} {Ə̀} {ə́} {Ə́} {ə̧} {Ə̧} {ə̧̀} {Ə̧̀} {ə̧́} {Ə̧́} f F g G {gb} {GB} h H i I ì Ì í Í {i̧} {I̧} {ì̧} {Ì̧} {í̧} {Í̧} ɨ Ɨ {ɨ̀} {Ɨ̀} {ɨ́} {Ɨ́} l L m M {ʼm} {ʼM} {mb} {MB} {mgb} {MGB} n N {ʼn} {ʼN} {nd} {ND} {nz} {NZ} ŋ Ŋ {ŋg} {ŊG} o O ò Ò ó Ó {o̧} {O̧} {ò̧} {Ò̧} {ó̧} {Ó̧} ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} r R s S u U ù Ù ú Ú {u̧} {U̧} {ù̧} {Ù̧} {ú̧} {Ú̧} ʉ Ʉ {ʉ̀} {Ʉ̀} {ʉ́} {Ʉ́} v V {vb} {VB} w W {ʼw} {ʼW} y Y {ʼy} {ʼY} z Z"
+  marks: "◌̀ ◌́ ◌̧"
+  auxiliary: "c C j J k K p P q Q t T x X"
+}
+source: "Lee E. Bohnhoff, Kadia Mathieu & Asmaou Marthe, A description of Dii phonology, grammar, and discourse, SIL, 2010"

@@ -26,4 +26,17 @@ axes {
 source {
   repository_url: "https://github.com/suman51284/Alkatra"
   commit: "0192cbf706f1dc560534c73153fd0e566323b31e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Alkatra[wght].ttf"
+    dest_file: "Alkatra[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
 }

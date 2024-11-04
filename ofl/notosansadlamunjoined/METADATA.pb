@@ -22,8 +22,18 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/adlam.git"
-  archive_url: "https://github.com/notofonts/adlam/releases/download/NotoSansAdlamUnjoined-v3.001/NotoSansAdlamUnjoined-v3.001.zip"
+  repository_url: "https://github.com/notofonts/adlam"
+  commit: "66c3f0126b2a54f51f6a902d5a33106a833c91d8"
+  archive_url: "https://github.com/notofonts/adlam/releases/download/NotoSansAdlamUnjoined-v3.003/NotoSansAdlamUnjoined-v3.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansAdlamUnjoined/googlefonts/variable-ttf/NotoSansAdlamUnjoined[wght].ttf"
+    dest_file: "NotoSansAdlamUnjoined[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ff_Adlm"  # Fulah (Adlam)

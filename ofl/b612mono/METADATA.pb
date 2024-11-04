@@ -41,3 +41,8 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/polarsys/b612"
+}
+stroke: "SANS_SERIF"
+classifications: "MONOSPACE"

@@ -2,6 +2,8 @@ id: "bhy_Latn"
 language: "bhy"
 script: "Latn"
 name: "Bhele"
+population: 15000
+region: "CD"
 exemplar_chars {
   base: "a A b B d D e E ɛ Ɛ g G h H i I j J k K l L m M n N o O ɔ Ɔ p P s S t T u U w W y Y"
   auxiliary: "c C f F q Q r R v V x X z Z"

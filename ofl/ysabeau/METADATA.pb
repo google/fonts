@@ -26,7 +26,9 @@ subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 subsets: "vietnamese"
 axes {
   tag: "wght"
@@ -35,5 +37,22 @@ axes {
 }
 source {
   repository_url: "https://github.com/CatharsisFonts/Ysabeau"
-  commit: "9a0cb91eb5618a60acdb2f9dc07897d05efec798"
+  commit: "8e2ca3573545176256d370f891604bc453029568"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/googlefonts/variable/Ysabeau[wght].ttf"
+    dest_file: "Ysabeau[wght].ttf"
+  }
+  files {
+    source_file: "fonts/googlefonts/variable/Ysabeau-Italic[wght].ttf"
+    dest_file: "Ysabeau-Italic[wght].ttf"
+  }
+  branch: "master"
 }

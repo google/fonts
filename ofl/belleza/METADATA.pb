@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/belleza"
   commit: "af3974fe84e2cfd236455a14d2c708264b692167"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Belleza-Regular.ttf"
+    dest_file: "Belleza-Regular.ttf"
+  }
+  branch: "master"
 }

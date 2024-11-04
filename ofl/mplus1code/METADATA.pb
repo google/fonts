@@ -1,7 +1,7 @@
 name: "M PLUS 1 Code"
 designer: "Coji Morishita"
 license: "OFL"
-category: "SANS_SERIF"
+category: "MONOSPACE"
 date_added: "2021-09-22"
 fonts {
   name: "M PLUS 1 Code"
@@ -22,3 +22,20 @@ axes {
   min_value: 100.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/coz-m/MPLUS_FONTS"
+  files {
+    source_file: "fonts/ttf/MPLUS1Code[wght].ttf"
+    dest_file: "MPLUS1Code[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Mplus1Code_DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}
+primary_script: "Jpan"

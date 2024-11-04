@@ -64,8 +64,36 @@ subsets: "tifinagh"
 source {
   repository_url: "https://github.com/silnrsi/font-akatab"
   archive_url: "https://github.com/silnrsi/font-akatab/releases/download/v3.000/Akatab-3.000.zip"
+  files {
+    source_file: "Akatab-3.000/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Akatab-3.000/Akatab-Regular.ttf"
+    dest_file: "Akatab-Regular.ttf"
+  }
+  files {
+    source_file: "Akatab-3.000/Akatab-Medium.ttf"
+    dest_file: "Akatab-Medium.ttf"
+  }
+  files {
+    source_file: "Akatab-3.000/Akatab-SemiBold.ttf"
+    dest_file: "Akatab-SemiBold.ttf"
+  }
+  files {
+    source_file: "Akatab-3.000/Akatab-Bold.ttf"
+    dest_file: "Akatab-Bold.ttf"
+  }
+  files {
+    source_file: "Akatab-3.000/Akatab-ExtraBold.ttf"
+    dest_file: "Akatab-ExtraBold.ttf"
+  }
+  files {
+    source_file: "Akatab-3.000/Akatab-Black.ttf"
+    dest_file: "Akatab-Black.ttf"
+  }
+  branch: "master"
 }
-primary_script: "Tfng"
 sample_text {
   masthead_full: "ⵎⴸⴰⵏ ⴸⴸⵓⵏⵜ ⵜⵉⵓⵉⵏ ⵍⵍⵓⵍⵍⵉⵏ ⵓⵍⴰⵏ ⵙ ⵍⵆⵈ."
   masthead_partial: "ⵎⴸⴰⵏ ⴸⴸⵓⵏⵜ ⵜⵉⵓⵉⵏ ⵍⵍⵓⵍⵍⵉⵏ ⵓⵍⴰⵏ ⵙ ⵍⵆⵈ."
@@ -75,3 +103,4 @@ sample_text {
   poster_md: "ⵎⴸⴰⵏ ⴸⴸⵓⵏⵜ ⵜⵉⵓⵉⵏ ⵍⵍⵓⵍⵍⵉⵏ ⵓⵍⴰⵏ ⵙ ⵍⵆⵈ."
   poster_lg: "ⵎⴸⴰⵏ ⴸⴸⵓⵏⵜ ⵜⵉⵓⵉⵏ ⵍⵍⵓⵍⵍⵉⵏ ⵓⵍⴰⵏ ⵙ ⵍⵆⵈ."
 }
+primary_script: "Tfng"

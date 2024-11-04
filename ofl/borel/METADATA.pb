@@ -14,8 +14,22 @@ fonts {
 }
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
+subsets: "vietnamese"
 source {
   repository_url: "https://github.com/RosaWagner/Borel"
-  commit: "f6e1e35c95b7af91a6be7294e5e9a2b38858b8bb"
+  commit: "dd3d42ca23056f23889e31cde0af0081da3d847d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Borel/fonts/ttf/Borel-Regular.ttf"
+    dest_file: "Borel-Regular.ttf"
+  }
+  branch: "main"
 }
+stroke: "SANS_SERIF"
+classifications: "HANDWRITING"

@@ -15,3 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+source {
+  repository_url: "https://github.com/EbenSorkin/Kavoon"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

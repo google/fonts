@@ -154,5 +154,74 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-lisu-bosa"
   archive_url: "https://github.com/silnrsi/font-lisu-bosa/releases/download/v2.000/LisuBosa-2.000.zip"
+  files {
+    source_file: "LisuBosa-2.000/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-ExtraLight.ttf"
+    dest_file: "LisuBosa-ExtraLight.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-ExtraLightItalic.ttf"
+    dest_file: "LisuBosa-ExtraLightItalic.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-Light.ttf"
+    dest_file: "LisuBosa-Light.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-LightItalic.ttf"
+    dest_file: "LisuBosa-LightItalic.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-Regular.ttf"
+    dest_file: "LisuBosa-Regular.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-Italic.ttf"
+    dest_file: "LisuBosa-Italic.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-Medium.ttf"
+    dest_file: "LisuBosa-Medium.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-MediumItalic.ttf"
+    dest_file: "LisuBosa-MediumItalic.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-SemiBold.ttf"
+    dest_file: "LisuBosa-SemiBold.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-SemiBoldItalic.ttf"
+    dest_file: "LisuBosa-SemiBoldItalic.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-Bold.ttf"
+    dest_file: "LisuBosa-Bold.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-BoldItalic.ttf"
+    dest_file: "LisuBosa-BoldItalic.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-ExtraBold.ttf"
+    dest_file: "LisuBosa-ExtraBold.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-ExtraBoldItalic.ttf"
+    dest_file: "LisuBosa-ExtraBoldItalic.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-Black.ttf"
+    dest_file: "LisuBosa-Black.ttf"
+  }
+  files {
+    source_file: "LisuBosa-2.000/LisuBosa-BlackItalic.ttf"
+    dest_file: "LisuBosa-BlackItalic.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Lisu"

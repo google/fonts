@@ -2,8 +2,14 @@ id: "nmz_Latn"
 language: "nmz"
 script: "Latn"
 name: "Nawdm"
+autonym: "nawdm"
+population: 150000
+region: "GH"
+region: "TG"
 exemplar_chars {
-  base: "a A à À á Á b B d D e E ɛ Ɛ f F g G h H ɦ Ɦ i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ r R s S t T u U v V w W y Y"
-  marks: "◌̀ ◌́ ◌̈"
-  auxiliary: "c C p P q Q x X z Z"
+  base: "a A b B d D e E ɛ Ɛ f F g G {g̈} {G̈} h H ɦ Ɦ i I j J k K l L m M n {n̈} {N̈} N ŋ Ŋ {ŋ̈} {Ŋ̈} o O ɔ Ɔ r R s S t T u U v V w W y Y"
+  auxiliary: "c C ĥ Ĥ p P q Q x X z Z"
+  marks: "◌̀ ◌́ ◌̂ ◌̈"
 }
+source: "Wikipedia"
+source: "https://www.webonary.org/nawdm"

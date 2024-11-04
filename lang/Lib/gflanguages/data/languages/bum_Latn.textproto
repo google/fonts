@@ -4,6 +4,11 @@ script: "Latn"
 name: "Bulu"
 population: 1276269
 region: "CM"
+exemplar_chars {
+  base: "a A à À á Á b B c C d D e E è È é É ə Ə {ə̀} {Ə̀} {ə́} {Ə́} f F i I ì Ì í Í j J k K l L m M n N ŋ Ŋ {ny} {NY} o O ò Ò ó Ó ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} s S t T u U ù Ù ú Ú v V y Y z Z ʼ"
+  marks: "◌̀ ◌́ ◌̂ ◌̃"
+  auxiliary: "ñ Ñ ô Ô"
+}
 sample_text {
   masthead_full: "AaBb"
   masthead_partial: "Ii"
@@ -18,3 +23,6 @@ sample_text {
   specimen_21: "Eyóñ bia noñ na fili, sosoo ai mvoe bia so bia olugu biave ekokom mod.\nEyóñ bia noñ na fili ya nyol ai a nsisim ene dzom ya mod ose ayi, adzeñe fe, ai na ndimi, tege yene, ebiandi y\'akar so e minsingi ai minyanda a minnam.\nEyóñ bia noñ na ngomena ayian kala enyiñ asu e na bod be za bam nge batibili bo.\nEyóñ bia noñ na fulu mbga etam, fulu anyañ, fulu ediñ ndzo ene mfi asu mie bod ya minnam."
   specimen_16: "Eyóñ bia noñ na fili, sosoo ai mvoe bia so bia olugu biave ekokom mod.\nEyóñ bia noñ na fili ya nyol ai a nsisim ene dzom ya mod ose ayi, adzeñe fe, ai na ndimi, tege yene, ebiandi y\'akar so e minsingi ai minyanda a minnam.\nEyóñ bia noñ na ngomena ayian kala enyiñ asu e na bod be za bam nge batibili bo.\nEyóñ bia noñ na fulu mbga etam, fulu anyañ, fulu ediñ ndzo ene mfi asu mie bod ya minnam.\nEyóñ bia noñ na Akōk Memvende Ekuan Elad Meyoñ amem na aluman asu na enyiñ bod bese etebe etu dzia.\nEyóñ bia noñ na abui minnam mbamena ai Ekuan Elad meyoñ mo yebe ovañ ye na si ese ebaala memvende m\'enyiñ ma."
 }
+note: "The exemplar characters, based on GACL, used in Abomo-Maurin (2006), do not match the sample text because it uses an older orthography. Other works like the Bulu Dictionary on Webonary also uses a slightly different old orthography."
+source: "Marie-Rose Abomo-Maurin, Parlons boulou, langue bantou du Cameroun, Paris: L’Harmattan, 2006"
+source: "Bulu Dictionary, Webonary"

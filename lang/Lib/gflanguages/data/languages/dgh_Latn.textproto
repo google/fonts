@@ -2,6 +2,8 @@ id: "dgh_Latn"
 language: "dgh"
 script: "Latn"
 name: "Dghwede"
+population: 30000
+region: "NG"
 exemplar_chars {
   base: "a A b B ɓ Ɓ c C d D e E f F g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W x X y Y z Z"
   auxiliary: "q Q"

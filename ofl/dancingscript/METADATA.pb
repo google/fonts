@@ -21,3 +21,15 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/DancingScript"
+  files {
+    source_file: "fonts/variable/DancingScript[wght].ttf"
+    dest_file: "DancingScript[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}

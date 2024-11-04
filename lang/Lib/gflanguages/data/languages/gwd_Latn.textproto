@@ -1,0 +1,16 @@
+id: "gwd_Latn"
+language: "gwd"
+script: "Latn"
+name: "Gawwada"
+preferred_name: "'Ale"
+autonym: "Qale"
+population: 146000
+region: "ET"
+exemplar_chars {
+  base: "a A b B {ch} {CH} {c’} {C’} d D e E f F g G {gh} {GH} h H  i I j J k K {k’} {K’} l L m M n N {ny} {NY} o O p P {qh} {QH} r R s S {sh} {SH} t T {t’} {T’} u U w W x X {hx} {HX} y Y ’ {bh} {BH} {dh} {DH} q Q z Z"
+  auxiliary: "c C v V ħ Ħ ʔ ʕ ʼ"
+}
+note: "The 2012 alphabet uses the apostrophe instead of the ʔ used in Kebede & Bekele 2005. The 2021 alphabet uses q, x, gh instead of ʕ, ħ, q."
+source: "ሀረገወይን ከበደ [Hargewein Kebede], ዮናስ በቀለ [Yonas Bekele], የአሌ ቋንቋ ስርዐተ ድምፅ እና ስርዐተ ፅህፈት (Sound system and Orthography of Ale), በአዲስ አበባ ዩኒቨርሲቲ የኢትዮጵያ ቋንቋዎችና ባህሎች አካዳሚ [ = Addis Ababa University, Academy of Ethiopian Languages and Cultures], 2005"
+source: "Ikkito Poko ʕalena = Ale Alphabet: Trial alphabet chart produced by the participants of the language development workshop held in Arba Minch, 2012"
+source: "Luminița Prisecaru, “Salutări calde din Etiopia”, Wycliffe România, 2020-07-27"

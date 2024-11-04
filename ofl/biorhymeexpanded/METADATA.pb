@@ -51,3 +51,5 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

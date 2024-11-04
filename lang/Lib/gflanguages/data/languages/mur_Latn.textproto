@@ -2,8 +2,11 @@ id: "mur_Latn"
 language: "mur"
 script: "Latn"
 name: "Murle"
+population: 196000
+region: "ET"
+region: "SS"
 exemplar_chars {
   base: "a A b B c C d D e E ɛ Ɛ g G i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R t T u U v V w W y Y z Z"
-  marks: "◌̠"
+  marks: "◌̱"
   auxiliary: "f F h H q Q s S x X"
 }

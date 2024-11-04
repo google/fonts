@@ -35,3 +35,35 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/TypeNetwork/Arimo"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Arimo-Bold.ttf"
+    dest_file: "static/Arimo-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Arimo-BoldItalic.ttf"
+    dest_file: "static/Arimo-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Arimo-Italic.ttf"
+    dest_file: "static/Arimo-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Arimo-Regular.ttf"
+    dest_file: "static/Arimo-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/vf/Arimo-Italic[wght].ttf"
+    dest_file: "Arimo-Italic[wght].ttf"
+  }
+  files {
+    source_file: "fonts/vf/Arimo[wght].ttf"
+    dest_file: "Arimo[wght].ttf"
+  }
+  branch: "master"
+}

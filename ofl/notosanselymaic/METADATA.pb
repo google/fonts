@@ -10,10 +10,34 @@ fonts {
   filename: "NotoSansElymaic-Regular.ttf"
   post_script_name: "NotoSansElymaic-Regular"
   full_name: "Noto Sans Elymaic Regular"
-  copyright: "Copyright 2019 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/elymaic)"
 }
-subsets: "menu"
 subsets: "elymaic"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/elymaic"
+  archive_url: "https://github.com/notofonts/elymaic/releases/download/NotoSansElymaic-v1.002/NotoSansElymaic-v1.002.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansElymaic/googlefonts/ttf/NotoSansElymaic-Regular.ttf"
+    dest_file: "NotoSansElymaic-Regular.ttf"
+  }
+  branch: "main"
+}
 is_noto: true
 languages: "aii_Elym"  # Assyrian Neo-Aramaic, Elymaic
 languages: "xly_Elym"  # Elymian
+primary_script: "Elym"

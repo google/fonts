@@ -21,53 +21,62 @@ data on the Google Fonts collection.
 """
 import glob
 import os
+import unicodedata
 
 from gflanguages import languages_public_pb2
 from google.protobuf import text_format
-from pkg_resources import resource_filename
+from importlib_resources import files
 
 try:
     from ._version import version as __version__  # type: ignore
 except ImportError:
     __version__ = "0.0.0+unknown"
 
-DATA_DIR = resource_filename("gflanguages", "data")
+
+def _load_thing(thing_type, proto_class, base_dir=None):
+    things = {}
+
+    def read_a_thing(contents):
+        proto = proto_class()
+        thing = text_format.Parse(contents, proto)
+        assert thing.id not in things, f"Duplicate {thing_type} id: {thing.id}"
+        things[thing.id] = thing
+
+    if base_dir is not None:
+        thing_dir = os.path.join(base_dir, thing_type)
+        for textproto_file in glob.iglob(os.path.join(thing_dir, "*.textproto")):
+            with open(textproto_file, "r", encoding="utf-8") as f:
+                read_a_thing(f.read())
+    else:
+        for textproto_file in files("gflanguages.data").joinpath(thing_type).iterdir():
+            if not textproto_file.name.endswith(".textproto"):
+                continue
+            read_a_thing(textproto_file.read_text(encoding="utf-8"))
+    return things
 
 
-def LoadLanguages(base_dir=DATA_DIR):
-    if base_dir is None:
-        base_dir = DATA_DIR
-
-    languages_dir = os.path.join(base_dir, "languages")
-    langs = {}
-    for textproto_file in glob.iglob(os.path.join(languages_dir, "*.textproto")):
-        with open(textproto_file, "r", encoding="utf-8") as f:
-            language = text_format.Parse(f.read(), languages_public_pb2.LanguageProto())
-            langs[language.id] = language
-    return langs
+def LoadLanguages(base_dir=None):
+    return _load_thing("languages", languages_public_pb2.LanguageProto, base_dir)
 
 
-def LoadScripts(base_dir=DATA_DIR):
-    if base_dir is None:
-        base_dir = DATA_DIR
-
-    scripts_dir = os.path.join(base_dir, "scripts")
-    scripts = {}
-    for textproto_file in glob.iglob(os.path.join(scripts_dir, "*.textproto")):
-        with open(textproto_file, "r", encoding="utf-8") as f:
-            script = text_format.Parse(f.read(), languages_public_pb2.ScriptProto())
-            scripts[script.id] = script
-    return scripts
+def LoadScripts(base_dir=None):
+    return _load_thing("scripts", languages_public_pb2.ScriptProto, base_dir)
 
 
-def LoadRegions(base_dir=DATA_DIR):
-    if base_dir is None:
-        base_dir = DATA_DIR
+def LoadRegions(base_dir=None):
+    return _load_thing("regions", languages_public_pb2.RegionProto, base_dir)
 
-    regions_dir = os.path.join(base_dir, "regions")
-    regions = {}
-    for textproto_file in glob.iglob(os.path.join(regions_dir, "*.textproto")):
-        with open(textproto_file, "r", encoding="utf-8") as f:
-            region = text_format.Parse(f.read(), languages_public_pb2.RegionProto())
-            regions[region.id] = region
-    return regions
+
+def parse(exemplars: str):
+    """Parses a list of exemplar characters into a set of codepoints."""
+    codepoints = set()
+    for chars in exemplars.split():
+        if len(chars) > 1:
+            chars = chars.lstrip("{").rstrip("}")
+        normalized_chars = unicodedata.normalize("NFC", chars)
+        if normalized_chars != chars:
+            for char in normalized_chars:
+                codepoints.add(char)
+        for char in chars:
+            codepoints.add(char)
+    return codepoints

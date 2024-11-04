@@ -71,4 +71,44 @@ subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/plex"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/descriptions/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Devanagari/fonts/complete/ttf/IBMPlexSansDevanagari-Bold.ttf"
+    dest_file: "IBMPlexSansDevanagari-Bold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Devanagari/fonts/complete/ttf/IBMPlexSansDevanagari-ExtraLight.ttf"
+    dest_file: "IBMPlexSansDevanagari-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Devanagari/fonts/complete/ttf/IBMPlexSansDevanagari-Light.ttf"
+    dest_file: "IBMPlexSansDevanagari-Light.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Devanagari/fonts/complete/ttf/IBMPlexSansDevanagari-Medium.ttf"
+    dest_file: "IBMPlexSansDevanagari-Medium.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Devanagari/fonts/complete/ttf/IBMPlexSansDevanagari-Regular.ttf"
+    dest_file: "IBMPlexSansDevanagari-Regular.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Devanagari/fonts/complete/ttf/IBMPlexSansDevanagari-SemiBold.ttf"
+    dest_file: "IBMPlexSansDevanagari-SemiBold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Devanagari/fonts/complete/ttf/IBMPlexSansDevanagari-Thin.ttf"
+    dest_file: "IBMPlexSansDevanagari-Thin.ttf"
+  }
+  branch: "master"
+}
 primary_script: "Deva"

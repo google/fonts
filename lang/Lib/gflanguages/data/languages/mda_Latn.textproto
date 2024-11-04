@@ -2,8 +2,10 @@ id: "mda_Latn"
 language: "mda"
 script: "Latn"
 name: "Mada"
+population: 100000
+region: "NG"
 exemplar_chars {
-  base: "a A à À ā Ā â Â ă Ă b B c C d D e E é É ē Ē è È ê Ê ĕ Ĕ ə Ə ɛ Ɛ f F g G h H i I ī Ī ì Ì î Î ĭ Ĭ j J k K l L m M n N o O ō Ō ò Ò ô Ô ŏ Ŏ ɔ Ɔ p P r R s S t T u U ū Ū ù Ù û Û ŭ Ŭ v V w W y Y z Z"
-  marks: "◌̀ ◌̄ ◌̂ ◌̆ ◌́"
+  base: "a A à À ā Ā â Â ǎ Ǎ b B c C d D e E é É ē Ē è È ê Ê ě Ě ə Ə ɛ Ɛ f F g G h H i I ī Ī ì Ì î Î ǐ Ǐ j J k K l L m M n N o O ō Ō ò Ò ô Ô ǒ Ǒ ɔ Ɔ p P r R s S t T u U ū Ū ù Ù û Û ǔ Ǔ v V w W y Y z Z"
+    marks: "◌̀ ◌̄ ◌̂ ◌̌ ◌́"
   auxiliary: "q Q x X"
 }

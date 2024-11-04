@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "tangut"
 source {
-  repository_url: "https://github.com/notofonts/tangut.git"
+  repository_url: "https://github.com/notofonts/tangut"
   archive_url: "https://github.com/notofonts/tangut/releases/download/NotoSerifTangut-v2.169/NotoSerifTangut-v2.169.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSerifTangut/googlefonts/ttf/NotoSerifTangut-Regular.ttf"
+    dest_file: "NotoSerifTangut-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "txg_Tang"  # Tangut

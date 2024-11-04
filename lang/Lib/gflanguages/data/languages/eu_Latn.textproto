@@ -7,8 +7,8 @@ population: 1088518
 region: "ES"
 region: "FR"
 exemplar_chars {
-  base: "a b c ç d e f g h i j k l m n ñ o p q r s t u v w x y z"
-  auxiliary: "á à ă â å ä ã ā æ é è ĕ ê ë ē í ì ĭ î ï ī ó ò ŏ ô ö ø ō œ ú ù ŭ û ü ū ÿ"
+  base: "A B C Ç D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z a b c ç d e f g h i j k l m n ñ o p q r s t u v w x y z"
+  auxiliary: "Á À Ă Â Å Ä Ã Ā Æ É È Ĕ Ê Ë Ē Í Ì Ĭ Î Ï Ī Ó Ò Ŏ Ô Ö Ø Ō Œ Ú Ù Ŭ Û Ü Ū Ÿ á à ă â å ä ã ā æ é è ĕ ê ë ē í ì ĭ î ï ī ó ò ŏ ô ö ø ō œ ú ù ŭ û ü ū ÿ"
   marks: "◌̃ ◌̈"
   numerals: ", . % + − 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"

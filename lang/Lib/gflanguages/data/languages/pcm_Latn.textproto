@@ -5,8 +5,8 @@ name: "Nigerian Pidgin"
 population: 44945880
 region: "NG"
 exemplar_chars {
-  base: "a á b {ch} d e é ẹ {ẹ́} f g {gb} h i í j k {kp} l m n o ó ọ {ọ́} p r s {sh} t u ú v w y z {zh}"
-  auxiliary: "à c è {ẹ̀} ì ò {ọ̀} q ù x"
+  base: "A Á B {CH} D E É Ẹ {Ẹ́} F G {GB} H I Í J K {KP} L M N O Ó Ọ {Ọ́} P R S {SH} T U Ú V W Y Z {ZH} a á b {ch} d e é ẹ {ẹ́} f g {gb} h i í j k {kp} l m n o ó ọ {ọ́} p r s {sh} t u ú v w y z {zh}"
+  auxiliary: "À C È {Ẹ̀} Ì Ò {Ọ̀} Q Ù X à c è {ẹ̀} ì ò {ọ̀} q ù x"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"
   index: "A B {CH} D E F G H I J K L M N O P R S T U V W Y Z"

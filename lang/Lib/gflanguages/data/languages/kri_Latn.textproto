@@ -5,7 +5,7 @@ name: "Krio"
 population: 6293683
 region: "SL"
 exemplar_chars {
-  base: "A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P S T U V W Y Z a b c d e ɛ f g h i j k l m n ŋ o ɔ p s t u v w y z"
+  base: "A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z"
 }
 sample_text {
   masthead_full: "ƐɛVv"

@@ -34,3 +34,27 @@ subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/ronykoch/Karantina"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/TTF/Karantina-Light.ttf"
+    dest_file: "Karantina-Light.ttf"
+  }
+  files {
+    source_file: "fonts/TTF/Karantina-Regular.ttf"
+    dest_file: "Karantina-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/TTF/Karantina-Bold.ttf"
+    dest_file: "Karantina-Bold.ttf"
+  }
+  branch: "main"
+}

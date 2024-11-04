@@ -80,7 +80,7 @@ Let’s take a closer look at each form model and make it more obvious by settin
 
 </figure>
 
-Looking at the **dynamic form model,** you can see the open shapes, and a very subtle [diagonal axis](/glossary/axis_in_type_design). This all adds to the friendly, open, and approachable feeling that a dynamic typeface creates. [Kupferschmid associated the form models with certain adjectives](https://kupferschrift.de/cms/2012/03/on-classifications/). They can be helpful when picking a typeface that should follow a certain mood. Naturally, this mood might shift when there are serifs or no serifs, or other stylistic features, but it’s a good starting point.
+Looking at the **dynamic form model,** you can see the open shapes, and a very subtle [diagonal axis](/glossary/axis_in_type_design). This all adds to the friendly, open, and approachable feeling that a dynamic typeface creates. [Kupferschmid associated the form models with certain adjectives](http://kupferschrift.de/cms/2012/03/on-classifications/). They can be helpful when picking a typeface that should follow a certain mood. Naturally, this mood might shift when there are serifs or no serifs, or other stylistic features, but it’s a good starting point.
 
 <figure>
 

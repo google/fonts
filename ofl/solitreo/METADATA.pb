@@ -17,7 +17,20 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/ladinoprojects/solitreo.git"
+  repository_url: "https://github.com/ladinoprojects/solitreo"
   commit: "9b03239708d7d37e86cb2594cf9360121be0740e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Solitreo-Regular.ttf"
+    dest_file: "Solitreo-Regular.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Hebr"

@@ -17,8 +17,26 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "psalter-pahlavi"
 source {
-  repository_url: "https://github.com/notofonts/psalter-pahlavi.git"
-  archive_url: "https://github.com/notofonts/psalter-pahlavi/releases/download/NotoSansPsalterPahlavi-v2.002/NotoSansPsalterPahlavi-v2.002.zip"
+  repository_url: "https://github.com/notofonts/psalter-pahlavi"
+  commit: "67ed6002f772c9b7cea9c8d56c28e2fe65bd114d"
+  archive_url: "https://github.com/notofonts/psalter-pahlavi/releases/download/NotoSansPsalterPahlavi-v2.003/NotoSansPsalterPahlavi-v2.003.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansPsalterPahlavi/googlefonts/ttf/NotoSansPsalterPahlavi-Regular.ttf"
+    dest_file: "NotoSansPsalterPahlavi-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aii_Phlp"  # Assyrian Neo-Aramaic, Psalter Pahlavi

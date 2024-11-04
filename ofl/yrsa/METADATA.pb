@@ -30,3 +30,23 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/rosettatype/yrsa-rasa"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/Yrsa-DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/YrsaVariable/YrsaVF-Ups.ttf"
+    dest_file: "Yrsa[wght].ttf"
+  }
+  files {
+    source_file: "fonts/YrsaVariable/YrsaVF-Its.ttf"
+    dest_file: "Yrsa-Italic[wght].ttf"
+  }
+  branch: "master"
+}

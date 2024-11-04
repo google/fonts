@@ -2,6 +2,8 @@ id: "acd_Latn"
 language: "acd"
 script: "Latn"
 name: "Gikyode"
+population: 18000
+region: "GH"
 exemplar_chars {
   base: "a A b B d D e E f F g G h H i I k K l L m M n N o O p P r R s S t T u U w W y Y ŋ Ŋ ɔ Ɔ ɛ Ɛ ꞌ Ꞌ"
   auxiliary: "c C j J q Q v V x X z Z"

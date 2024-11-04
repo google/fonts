@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/imprima"
   commit: "efec6ee25d2ba461487c391b62ae26817614741a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Imprima-Regular.ttf"
+    dest_file: "Imprima-Regular.ttf"
+  }
+  branch: "master"
 }

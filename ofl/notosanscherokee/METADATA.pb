@@ -22,8 +22,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/cherokee.git"
+  repository_url: "https://github.com/notofonts/cherokee"
   archive_url: "https://github.com/notofonts/cherokee/releases/download/NotoSansCherokee-v2.001/NotoSansCherokee-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansCherokee/googlefonts/variable-ttf/NotoSansCherokee[wght].ttf"
+    dest_file: "NotoSansCherokee[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "chr_Cher"  # Cherokee

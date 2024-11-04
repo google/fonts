@@ -2,8 +2,10 @@ id: "din_Latn"
 language: "din"
 script: "Latn"
 name: "Dinka"
-population: 0
+population: 1300000
+region: "SD"
+region: "SS"
 exemplar_chars {
-  base: "A B C D E Ɛ G Ɣ I K L M N Ŋ O Ɔ P R S T U W Y Ä Ë Ï Ö a b c d e ɛ g ɣ i k l m n ŋ o ɔ p r s t u w y ä ë ï ö"
+  base: "a A ä Ä b B c C d D e E ë Ë ɛ Ɛ {ɛ̈} {Ɛ̈} g G ɣ Ɣ i I ï Ï k K l L m M n N ŋ Ŋ o O ö Ö ɔ Ɔ {ɔ̈} {Ɔ̈} p P r R s S t T u U w W y Y"
   marks: "◌̈"
 }

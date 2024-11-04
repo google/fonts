@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "samaritan"
 source {
-  repository_url: "https://github.com/notofonts/samaritan.git"
+  repository_url: "https://github.com/notofonts/samaritan"
   archive_url: "https://github.com/notofonts/samaritan/releases/download/NotoSansSamaritan-v2.001/NotoSansSamaritan-v2.001.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansSamaritan/googlefonts/ttf/NotoSansSamaritan-Regular.ttf"
+    dest_file: "NotoSansSamaritan-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aii_Samr"  # Assyrian Neo-Aramaic, Samaritan

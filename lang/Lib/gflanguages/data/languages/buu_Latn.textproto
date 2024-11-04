@@ -2,7 +2,11 @@ id: "buu_Latn"
 language: "buu"
 script: "Latn"
 name: "Budu"
+population: 475000
+region: "CD"
 exemplar_chars {
-  base: "a A b B d D e E ɛ Ɛ f F g G h H i I ɨ Ɨ j J k K l L m M n N o O ɔ Ɔ p P s S t T u U ʉ Ʉ v V w W y Y z Z"
+  base: "a A b B d D e E ɛ Ɛ f F g G h H i I ɨ Ɨ j J k K l L m M n N o O ɔ Ɔ p P s S t T u U ʉ Ʉ v V w W y Y z Z ꞉ ꞊"
   auxiliary: "c C q Q r R x X"
 }
+source: "Peter G. Constable and Lorna A. Priest, Proposal to Encode Additional Orthographic and Modifier Characters, L2/06-259R, 2006"
+source: "Agɔmɔ ngia wʉ Ɨtakɨ-takɨ, Wycliffe Bible Translators, 2021"

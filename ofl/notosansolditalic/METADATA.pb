@@ -17,8 +17,26 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "old-italic"
 source {
-  repository_url: "https://github.com/notofonts/old-italic.git"
-  archive_url: "https://github.com/notofonts/old-italic/releases/download/NotoSansOldItalic-v2.003/NotoSansOldItalic-v2.003.zip"
+  repository_url: "https://github.com/notofonts/old-italic"
+  commit: "51420632db471f800592bd0f03617585b0f7734d"
+  archive_url: "https://github.com/notofonts/old-italic/releases/download/NotoSansOldItalic-v2.004/NotoSansOldItalic-v2.004.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansOldItalic/googlefonts/ttf/NotoSansOldItalic-Regular.ttf"
+    dest_file: "NotoSansOldItalic-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ett_Ital"  # Etruscan

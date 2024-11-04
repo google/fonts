@@ -8,9 +8,23 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Damion-Regular.ttf"
-  post_script_name: "Damion"
-  full_name: "Damion"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name \'Damion\'. All rights reserved."
+  post_script_name: "Damion-Regular"
+  full_name: "Damion Regular"
+  copyright: "Copyright 2014 The Damion Project Authors (https://github.com/googlefonts/damionFont)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/damionFont"
+  commit: "6408c983f707a0bd5129eecf74a834146fec2983"
+  files {
+    source_file: "fonts/ttf/Damion-Regular.ttf"
+    dest_file: "Damion-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}

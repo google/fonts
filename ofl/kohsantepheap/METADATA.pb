@@ -1,7 +1,7 @@
 name: "Koh Santepheap"
 designer: "Danh Hong"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2021-06-10"
 fonts {
   name: "Koh Santepheap"
@@ -51,3 +51,32 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/KohSantepheap"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/KohSantepheap-Thin.ttf"
+    dest_file: "KohSantepheap-Thin.ttf"
+  }
+  files {
+    source_file: "Release/ttf/KohSantepheap-Light.ttf"
+    dest_file: "KohSantepheap-Light.ttf"
+  }
+  files {
+    source_file: "Release/ttf/KohSantepheap-Regular.ttf"
+    dest_file: "KohSantepheap-Regular.ttf"
+  }
+  files {
+    source_file: "Release/ttf/KohSantepheap-Bold.ttf"
+    dest_file: "KohSantepheap-Bold.ttf"
+  }
+  files {
+    source_file: "Release/ttf/KohSantepheap-Black.ttf"
+    dest_file: "KohSantepheap-Black.ttf"
+  }
+  branch: "master"
+}
+primary_script: "Khmr"

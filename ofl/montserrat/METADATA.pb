@@ -32,6 +32,23 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/JulietaUla/Montserrat"
+  commit: "f025b649a5302db60edb04a88199b8b941abc33a"
+  files {
+    source_file: "fonts/variable/Montserrat[wght].ttf"
+    dest_file: "Montserrat[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Montserrat-Italic[wght].ttf"
+    dest_file: "Montserrat-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "merge-forked-changes"
+}
 fallbacks {
   axis_target {
     tag: "wght"

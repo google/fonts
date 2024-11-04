@@ -1,0 +1,13 @@
+id: "mne_Latn"
+language: "mne"
+script: "Latn"
+name: "Naba"
+population: 477000
+region: "TD"
+exemplar_chars {
+  base: "a A b B ɓ Ɓ c C d D ɗ Ɗ e E f F g G h H i I j J k K l L m M n N ŋ Ŋ {n̰} {N̰} o O r R s S t T u U w W y Y z Z"
+  auxiliary: "p P q Q v V x X"
+  marks: "◌̰"
+}
+source: "Abécédaire bilala, SIL & FAPLN, 2020"
+source: "Adoum Abakar Mahammat, Hissein Sali Ngali & Elaine Marie Scherrer, Ndeyki o njanki te tar melbeneǃ = Apprenons à lire et écrire le melbené!: Syllabaire de transition du français au melbené, Melbene, Fédération des Associations pour la Promotion des Langues Nationales (FAPLN), 2021"

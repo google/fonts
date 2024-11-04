@@ -21,3 +21,11 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/ThomasJockin/QuicksandFamily"
+  files {
+    source_file: "fonts/variable/Quicksand[wght].ttf"
+    dest_file: "Quicksand[wght].ttf"
+  }
+  branch: "master"
+}

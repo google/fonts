@@ -1,0 +1,15 @@
+id: "mcn_Latn"
+language: "mcn"
+script: "Latn"
+name: "Masana"
+autonym: "masana"
+population: 230000
+region: "TD"
+exemplar_chars {
+  base: "A B Ɓ C D Ɗ E F G H Ɦ I J K L M N Ŋ O P R S T U V W Y Z a b ɓ c d ɗ e f g h ɦ i j k l m n ŋ o p r s t u v w y z"
+  auxiliary: "Ḇ Ḏ ḇ ḏ"
+  marks: "◌̱ ◌̂"
+}
+source: "Wikipedia"
+source: "Unicode proposal: https://www.unicode.org/L2/L2010/10166-chad.pdf"
+source: "https://www.bible.com/versions/557"

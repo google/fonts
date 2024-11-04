@@ -21,3 +21,15 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/theleagueof/league-spartan"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/LeagueSpartan[wght].ttf"
+    dest_file: "LeagueSpartan[wght].ttf"
+  }
+  branch: "master"
+}

@@ -8,10 +8,12 @@ fonts {
   style: "normal"
   weight: 400
   filename: "NotoSansHebrew[wdth,wght].ttf"
-  post_script_name: "NotoSansHebrew-Regular"
-  full_name: "Noto Sans Hebrew Regular"
-  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hebrew)"
+  post_script_name: "NotoSansHebrew-Thin"
+  full_name: "Noto Sans Hebrew Thin"
+  copyright: "Copyright 2024 The Noto Project Authors (https://github.com/notofonts/hebrew)"
 }
+subsets: "cyrillic-ext"
+subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
@@ -27,8 +29,18 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/hebrew.git"
-  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSansHebrew-v2.003/NotoSansHebrew-v2.003.zip"
+  repository_url: "https://github.com/notofonts/hebrew"
+  commit: "036f3206f67caac235cf8546a7751d3440771a7e"
+  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSansHebrew-v3.001/NotoSansHebrew-v3.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansHebrew/googlefonts/variable-ttf/NotoSansHebrew[wdth,wght].ttf"
+    dest_file: "NotoSansHebrew[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "he_Hebr"  # Hebrew

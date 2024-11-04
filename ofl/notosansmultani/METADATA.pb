@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "multani"
 source {
-  repository_url: "https://github.com/notofonts/multani.git"
+  repository_url: "https://github.com/notofonts/multani"
   archive_url: "https://github.com/notofonts/multani/releases/download/NotoSansMultani-v2.002/NotoSansMultani-v2.002.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansMultani/googlefonts/ttf/NotoSansMultani-Regular.ttf"
+    dest_file: "NotoSansMultani-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "sa_Mult"  # Sanskrit, Multani

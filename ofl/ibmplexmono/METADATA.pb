@@ -138,4 +138,69 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/plex"
   commit: "9ab3b5b3b96325fb20f365ee0804adca92024cbf"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/descriptions/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-Bold.ttf"
+    dest_file: "IBMPlexMono-Bold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-BoldItalic.ttf"
+    dest_file: "IBMPlexMono-BoldItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-ExtraLight.ttf"
+    dest_file: "IBMPlexMono-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-ExtraLightItalic.ttf"
+    dest_file: "IBMPlexMono-ExtraLightItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-Italic.ttf"
+    dest_file: "IBMPlexMono-Italic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-Light.ttf"
+    dest_file: "IBMPlexMono-Light.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-LightItalic.ttf"
+    dest_file: "IBMPlexMono-LightItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-Medium.ttf"
+    dest_file: "IBMPlexMono-Medium.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-MediumItalic.ttf"
+    dest_file: "IBMPlexMono-MediumItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-Regular.ttf"
+    dest_file: "IBMPlexMono-Regular.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-SemiBold.ttf"
+    dest_file: "IBMPlexMono-SemiBold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-SemiBoldItalic.ttf"
+    dest_file: "IBMPlexMono-SemiBoldItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-Thin.ttf"
+    dest_file: "IBMPlexMono-Thin.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Mono/fonts/complete/ttf/IBMPlexMono-ThinItalic.ttf"
+    dest_file: "IBMPlexMono-ThinItalic.ttf"
+  }
+  branch: "master"
 }

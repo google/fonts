@@ -42,4 +42,17 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/literata"
   commit: "0c2761b727a1b3a7cffd313c37f0f5163dfc7a63"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Literata[opsz,wght].ttf"
+    dest_file: "Literata[opsz,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Literata-Italic[opsz,wght].ttf"
+    dest_file: "Literata-Italic[opsz,wght].ttf"
+  }
+  branch: "main"
 }

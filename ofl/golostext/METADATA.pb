@@ -25,4 +25,13 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/golos-text"
   commit: "d321a70cd12f84603617d4cf5d0e0321c2291dd9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/GolosText[wght].ttf"
+    dest_file: "GolosText[wght].ttf"
+  }
+  branch: "main"
 }

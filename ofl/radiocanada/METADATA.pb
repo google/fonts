@@ -39,4 +39,17 @@ axes {
 source {
   repository_url: "https://github.com/cbcrc/radiocanadafonts"
   commit: "61a4efa847d6361be8e9cd3c656b3256b29d4ff4"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/RadioCanada[wdth,wght].ttf"
+    dest_file: "RadioCanada[wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/RadioCanada-Italic[wdth,wght].ttf"
+    dest_file: "RadioCanada-Italic[wdth,wght].ttf"
+  }
+  branch: "main"
 }

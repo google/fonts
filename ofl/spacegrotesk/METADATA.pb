@@ -21,4 +21,36 @@ axes {
   min_value: 300.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/floriankarsten/space-grotesk"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/SpaceGrotesk[wght].ttf"
+    dest_file: "SpaceGrotesk[wght].ttf"
+  }
+  files {
+    source_file: "fonts/ttf/static/SpaceGrotesk-Bold.ttf"
+    dest_file: "static/SpaceGrotesk-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/static/SpaceGrotesk-Light.ttf"
+    dest_file: "static/SpaceGrotesk-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/static/SpaceGrotesk-Medium.ttf"
+    dest_file: "static/SpaceGrotesk-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/static/SpaceGrotesk-Regular.ttf"
+    dest_file: "static/SpaceGrotesk-Regular.ttf"
+  }
+  branch: "master"
+}
 minisite_url: "https://floriankarsten.github.io/space-grotesk"

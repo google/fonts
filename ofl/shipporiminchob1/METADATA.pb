@@ -52,3 +52,35 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/fontdasu/ShipporiMincho"
+  files {
+    source_file: "fonts/ttf/ShipporiMinchoB1-Regular.ttf"
+    dest_file: "ShipporiMinchoB1-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ShipporiMinchoB1-Medium.ttf"
+    dest_file: "ShipporiMinchoB1-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ShipporiMinchoB1-SemiBold.ttf"
+    dest_file: "ShipporiMinchoB1-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ShipporiMinchoB1-Bold.ttf"
+    dest_file: "ShipporiMinchoB1-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/ShipporiMinchoB1-ExtraBold.ttf"
+    dest_file: "ShipporiMinchoB1-ExtraBold.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}

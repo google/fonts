@@ -6,7 +6,7 @@ autonym: "Markweta"
 population: 4068120
 region: "KE"
 exemplar_chars {
-  base: "a b c d e g h i j k l m n o p r s t u w y"
-  auxiliary: "f q v x z"
+  base: "A B C D E G H I J K L M N O P R S T U W Y a b c d e g h i j k l m n o p r s t u w y"
+  auxiliary: "F Q V X Z f q v x z"
   index: "A B C D E G H I J K L M N O P R S T U W Y"
 }

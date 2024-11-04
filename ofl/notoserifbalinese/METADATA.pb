@@ -17,8 +17,18 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/balinese.git"
-  archive_url: "https://github.com/notofonts/balinese/releases/download/NotoSerifBalinese-v2.005/NotoSerifBalinese-v2.005.zip"
+  repository_url: "https://github.com/notofonts/balinese"
+  commit: "3677ecce1289bdd0014392c8ef878ba972b93bb0"
+  archive_url: "https://github.com/notofonts/balinese/releases/download/NotoSerifBalinese-v2.007/NotoSerifBalinese-v2.007.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSerifBalinese/googlefonts/ttf/NotoSerifBalinese-Regular.ttf"
+    dest_file: "NotoSerifBalinese-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ban_Bali"  # Balinese, Balinese

@@ -9,9 +9,24 @@ fonts {
   weight: 400
   filename: "Cutive-Regular.ttf"
   post_script_name: "Cutive-Regular"
-  full_name: "Cutive"
-  copyright: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Cutive\""
+  full_name: "Cutive Regular"
+  copyright: "Copyright 2012 The Cutive Project Authors (https://github.com/googlefonts/CutiveFont), with Reserved Font Names \"Cutive\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/CutiveFont"
+  commit: "d97e7cb29296a2c091568d01e3394ae87111bd39"
+  files {
+    source_file: "fonts/ttf/Cutive-Regular.ttf"
+    dest_file: "Cutive-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

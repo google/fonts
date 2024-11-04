@@ -1,0 +1,14 @@
+id: "pug_Latn"
+language: "pug"
+script: "Latn"
+name: "Phuie"
+autonym: "phuó"
+population: 14000
+region: "BF"
+exemplar_chars {
+  base: "A B Ɓ C D Ɗ E Ɛ F G H I Ɩ J K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ V W Ⱳ Y Ƴ Z a b ɓ c d ɗ e ɛ f g h i ɩ j k l m n ɲ ŋ o ɔ p r s t u ʋ v w ⱳ y ƴ z Ã Ẽ {Ɛ̃} Ĩ {Ɩ̃} Õ {Ɔ̃} Ũ {Ʋ̃} À È {Ɛ̀} Ì {Ɩ̀} Ò {Ɔ̀} Ù {Ʋ̀} Á É {Ɛ́} Í {Ɩ́} Ó {Ɔ́} Ú {Ʋ́} {Ã̀} {Ẽ̀} {Ɛ̃̀} {Ĩ̀} {Ɩ̃̀} {Õ̀} {Ɔ̃̀} {Ũ̀} {Ʋ̃̀} {Ã́} {Ẽ́} {Ɛ̃́} {Ĩ́} {Ɩ̃́} Ṍ {Ɔ̃́} Ṹ {Ʋ̃́} ã ẽ {ɛ̃} ĩ {ɩ̃} õ {ɔ̃} ũ {ʋ̃} à è {ɛ̀} ì {ɩ̀} ò {ɔ̀} ù {ʋ̀} á é {ɛ́} í {ɩ́} ó {ɔ́} ú {ʋ́} {ã̀} {ẽ̀} {ɛ̃̀} {ĩ̀} {ɩ̃̀} {õ̀} {ɔ̃̀} {ũ̀} {ʋ̃̀} {ã́} {ẽ́} {ɛ̃́} {ĩ́} {ɩ̃́} ṍ {ɔ̃́} ṹ {ʋ̃́}"
+  marks: "◌̀ ◌́ ◌̃"
+}
+source: "Wikipedia"
+source: "http://www.puguli.com"
+source: "https://www.webonary.org/phuien"

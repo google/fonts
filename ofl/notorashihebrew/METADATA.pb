@@ -12,6 +12,7 @@ fonts {
   full_name: "Noto Rashi Hebrew Regular"
   copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hebrew)"
 }
+subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
@@ -22,8 +23,18 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/hebrew.git"
-  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoRashiHebrew-v1.006/NotoRashiHebrew-v1.006.zip"
+  repository_url: "https://github.com/notofonts/hebrew"
+  commit: "02fcd18e295ebadcda7bcaa774c107538fe2a5ee"
+  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoRashiHebrew-v1.007/NotoRashiHebrew-v1.007.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoRashiHebrew/googlefonts/variable/NotoRashiHebrew[wght].ttf"
+    dest_file: "NotoRashiHebrew[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "he_Hebr"  # Hebrew

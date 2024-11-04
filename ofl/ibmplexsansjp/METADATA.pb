@@ -74,5 +74,42 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/plex"
   commit: "80fcb676509354caa75c6bfc7f9db598545d466f"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/descriptions/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-JP/fonts/complete/ttf/IBMPlexSansJP-Bold.ttf"
+    dest_file: "IBMPlexSansJP-Bold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-JP/fonts/complete/ttf/IBMPlexSansJP-ExtraLight.ttf"
+    dest_file: "IBMPlexSansJP-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-JP/fonts/complete/ttf/IBMPlexSansJP-Light.ttf"
+    dest_file: "IBMPlexSansJP-Light.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-JP/fonts/complete/ttf/IBMPlexSansJP-Medium.ttf"
+    dest_file: "IBMPlexSansJP-Medium.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-JP/fonts/complete/ttf/IBMPlexSansJP-Regular.ttf"
+    dest_file: "IBMPlexSansJP-Regular.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-JP/fonts/complete/ttf/IBMPlexSansJP-SemiBold.ttf"
+    dest_file: "IBMPlexSansJP-SemiBold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-JP/fonts/complete/ttf/IBMPlexSansJP-Thin.ttf"
+    dest_file: "IBMPlexSansJP-Thin.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Jpan"

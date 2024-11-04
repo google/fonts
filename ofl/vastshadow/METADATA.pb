@@ -1,7 +1,7 @@
 name: "Vast Shadow"
 designer: "Nicole Fally"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2011-10-12"
 fonts {
   name: "Vast Shadow"
@@ -14,3 +14,5 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

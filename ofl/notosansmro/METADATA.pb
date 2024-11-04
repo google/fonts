@@ -17,8 +17,21 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "mro"
 source {
-  repository_url: "https://github.com/notofonts/mro.git"
+  repository_url: "https://github.com/notofonts/mro"
   archive_url: "https://github.com/notofonts/mro/releases/download/NotoSansMro-v2.001/NotoSansMro-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansMro/googlefonts/ttf/NotoSansMro-Regular.ttf"
+    dest_file: "NotoSansMro-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "mro_Mroo"  # Mru, Mro

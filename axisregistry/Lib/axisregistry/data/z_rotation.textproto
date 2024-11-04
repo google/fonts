@@ -9,6 +9,7 @@ fallback {
   name: "Default"
   value: 0.0
 }
+fallback_only: false
 description: 
   "Glyphs rotate left and right, negative values to the left"
   " and positive values to the right, in the Z dimension."

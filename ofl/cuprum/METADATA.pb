@@ -32,3 +32,35 @@ axes {
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/alexeiva/cuprum"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Cuprum-Italic[wght].ttf"
+    dest_file: "Cuprum-Italic[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Cuprum[wght].ttf"
+    dest_file: "Cuprum[wght].ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cuprum-Regular.ttf"
+    dest_file: "static/Cuprum-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cuprum-Bold.ttf"
+    dest_file: "static/Cuprum-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cuprum-Italic.ttf"
+    dest_file: "static/Cuprum-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Cuprum-BoldItalic.ttf"
+    dest_file: "static/Cuprum-BoldItalic.ttf"
+  }
+  branch: "master"
+}

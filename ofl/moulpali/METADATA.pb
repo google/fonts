@@ -1,7 +1,7 @@
 name: "Moulpali"
 designer: "Danh Hong"
 license: "OFL"
-category: "DISPLAY"
+category: "SANS_SERIF"
 date_added: "2011-03-02"
 fonts {
   name: "Moulpali"
@@ -15,3 +15,16 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Moulpali"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Moulpali-Regular.ttf"
+    dest_file: "Moulpali-Regular.ttf"
+  }
+  branch: "master"
+}
+primary_script: "Khmr"

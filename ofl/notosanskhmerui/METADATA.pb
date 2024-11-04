@@ -26,3 +26,4 @@ axes {
 }
 is_noto: true
 languages: "km_Khmr"  # Khmer
+primary_script: "Khmr"

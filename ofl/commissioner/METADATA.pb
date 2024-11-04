@@ -42,4 +42,13 @@ axes {
 source {
   repository_url: "https://github.com/m4rc1e/Commissioner"
   commit: "9bf35952a56ff7ba7d7fa1b0380e4bf2a63fcc35"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Commissioner[FLAR,VOLM,slnt,wght].ttf"
+    dest_file: "Commissioner[FLAR,VOLM,slnt,wght].ttf"
+  }
+  branch: "flair-rename"
 }

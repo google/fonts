@@ -22,8 +22,21 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/medefaidrin.git"
+  repository_url: "https://github.com/notofonts/medefaidrin"
   archive_url: "https://github.com/notofonts/medefaidrin/releases/download/NotoSansMedefaidrin-v1.002/NotoSansMedefaidrin-v1.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansMedefaidrin/googlefonts/variable-ttf/NotoSansMedefaidrin[wght].ttf"
+    dest_file: "NotoSansMedefaidrin[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "dmf_Medf"  # Medefaidrin

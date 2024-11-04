@@ -1,0 +1,14 @@
+id: "nza_Latn"
+language: "nza"
+script: "Latn"
+name: "Tigon Mbembe"
+autonym: "Mbembe"
+population: 60000
+region: "CM"
+exemplar_chars {
+  base: "A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ě ě Ŋ ŋ Ɔ Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ ɑ ɔ ɛ Ɑ"
+  marks: "◌̀ ◌́ ◌̂ ◌̌"
+}
+note: "Tigon Mbembe in Nigeria may have a different orthography."
+source: "Julius A. Eyoh, Emmanuel S. Echebi, Mbembe Orthography Guide, Cameroon Association for Bible Translation and Literacy (CABTAL), 2009"
+source: "Wikipedia"

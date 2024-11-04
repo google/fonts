@@ -7,9 +7,9 @@ population: 91180665
 region: "ID"
 region: "MY"
 exemplar_chars {
-  base: "a â å b c d e é è ê g h i ì j k l m n o ò p r s t u ù w y"
-  auxiliary: "f q v x z"
-  marks: "◌̀ ◌́"
+  base: "A Â Å B C D E É È Ê G H I Ì J K L M N O Ò P R S T U Ù W Y a â å b c d e é è ê g h i ì j k l m n o ò p r s t u ù w y"
+  auxiliary: "F Q V X Z f q v x z"
+  marks: "◌̀ ◌́ ◌̂"
   index: "A Â Å B C D E É È Ê G H I Ì J K L M N O Ò P R S T U Ù W Y"
 }
 sample_text {

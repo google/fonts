@@ -1,0 +1,12 @@
+id: "hei_Latn"
+language: "hei"
+script: "Latn"
+name: "Heiltsuk"
+population: 300
+region: "CA"
+exemplar_chars {
+  base: "b B p P {p̓} {P̓} m M {ṃ́} {Ṃ́} ṃ Ṃ {m̓} {M̓} {ṃ̓} {Ṃ̓} d D t T {t̓} {T̓} n N {ṇ́} {Ṇ́} ṇ Ṇ {n̓} {N̓} {ṇ̓} {Ṇ̓} z Z c C {c̓} {C̓} ꟛ Ꟛ ƛ Ƛ {ƛ̓} {Ƛ̓} ɫ Ɫ l L {ḷ́} {Ḷ́} ḷ Ḷ {l̓} {L̓} {ḷ̓} {Ḷ̓} g G k K {k̓} {K̓} x X y Y í Í i I {y̓} {Y̓} {i̓} {I̓} {gv} {GV} {kv} {KV} {k̓v} {K̓V} {xv} {XV} w W ú Ú {w̓} {W̓} {u̓} {U̓} {ǧv} {ǦV} {qv} {QV} {q̓v} {Q̓V} {x̌v} {X̌V} ǧ Ǧ q Q {q̓} {Q̓} {x̌} {X̌} h H á Á a A {h̓} {H̓} {a̓} {A̓}"
+  marks: "◌̓ ◌́ ◌̣"
+  auxiliary: "e E f F j J o O r R s S v V"
+}
+source: "John Rath, Heiltsuk alphabet, Heiltsuk Cultural Education Centre, 1986"

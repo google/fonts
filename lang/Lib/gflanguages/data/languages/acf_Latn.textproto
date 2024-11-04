@@ -3,6 +3,7 @@ language: "acf"
 script: "Latn"
 name: "Saint Lucian Creole French, Latin"
 region: "LC"
+population: 360000
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Uu"

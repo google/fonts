@@ -31,5 +31,18 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/karla"
-  commit: "e04a98d57933cf18a8e4913506aa9aac99a1756c"
+  commit: "69b25f663101efb4113dd7ed416c120dd2dce56a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Karla[wght].ttf"
+    dest_file: "Karla[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Karla-Italic[wght].ttf"
+    dest_file: "Karla-Italic[wght].ttf"
+  }
+  branch: "main"
 }

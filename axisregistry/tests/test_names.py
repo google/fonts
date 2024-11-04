@@ -303,13 +303,13 @@ def _test_names(ttFont, expected):
             None,
             [],
             {
-                (1, 3, 1, 0x409): "Playfair 5pt SemiExpanded Light",
+                (1, 3, 1, 0x409): "Playfair SemiExpanded Light",
                 (2, 3, 1, 0x409): "Regular",
-                (3, 3, 1, 0x409): "2.000;FTH;Playfair-5ptSemiExpandedLight",
-                (4, 3, 1, 0x409): "Playfair 5pt SemiExpanded Light",
-                (6, 3, 1, 0x409): "Playfair-5ptSemiExpandedLight",
+                (3, 3, 1, 0x409): "2.000;FTH;Playfair-SemiExpandedLight",
+                (4, 3, 1, 0x409): "Playfair SemiExpanded Light",
+                (6, 3, 1, 0x409): "Playfair-SemiExpandedLight",
                 (16, 3, 1, 0x409): "Playfair",
-                (17, 3, 1, 0x409): "5pt SemiExpanded Light",
+                (17, 3, 1, 0x409): "SemiExpanded Light",
             },
         ),
     ],
@@ -319,6 +319,37 @@ def test_name_table(fp, family_name, style_name, siblings, expected):
     siblings = [TTFont(fp) for fp in siblings]
     build_name_table(font, family_name, style_name, siblings)
     _test_names(font, expected)
+
+
+def test_name_table_aggression():
+    font = TTFont(mavenpro_fp)
+    build_name_table(font, "Raven Am", "Regular", aggressive=True)
+    _test_names(
+        font,
+        {
+            (
+                0,
+                3,
+                1,
+                0x409,
+            ): 'Copyright 2011 The Raven Am Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name "Raven Am".',
+            (4, 3, 1, 0x409): "Raven Am Regular",
+        },
+    )
+    font = TTFont(mavenpro_fp)
+    build_name_table(font, "Raven Am", "Regular", aggressive=False)
+    _test_names(
+        font,
+        {
+            (
+                0,
+                3,
+                1,
+                0x409,
+            ): 'Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name "Maven Pro".',
+            (4, 3, 1, 0x409): "Raven Am Regular",
+        },
+    )
 
 
 @pytest.mark.parametrize(

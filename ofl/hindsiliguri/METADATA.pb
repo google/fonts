@@ -52,3 +52,7 @@ subsets: "bengali"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/itfoundry/hind-siliguri"
+}
+primary_script: "Beng"

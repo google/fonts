@@ -2,6 +2,8 @@ id: "mfo_Latn"
 language: "mfo"
 script: "Latn"
 name: "Mbe"
+population: 65000
+region: "NG"
 exemplar_chars {
   base: "a A b B d D e E ɛ Ɛ f F g G i I j J k K l L m M n N o O ɔ Ɔ p P r R s S t T u U w W y Y"
   auxiliary: "c C h H q Q v V x X z Z"

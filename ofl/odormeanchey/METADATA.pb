@@ -15,3 +15,16 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/OdorMeanChey"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/OdorMeanChey-Regular.ttf"
+    dest_file: "OdorMeanChey-Regular.ttf"
+  }
+  branch: "master"
+}
+primary_script: "Khmr"

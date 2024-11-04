@@ -2,6 +2,8 @@ id: "mqb_Latn"
 language: "mqb"
 script: "Latn"
 name: "Mbuko"
+population: 15000
+region: "CM"
 exemplar_chars {
   base: "a A à À á Á â Â b B c C d D e E é É f F g G h H i I ì Ì î Î j J k K l L m M n N o O ò Ò p P r R s S t T u U ù Ù û Û v V w W y Y z Z œ Œ ɓ Ɓ ɗ Ɗ ə Ə"
   marks: "◌̀ ◌́ ◌̂"

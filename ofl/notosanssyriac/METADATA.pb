@@ -22,8 +22,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/syriac.git"
+  repository_url: "https://github.com/notofonts/syriac"
   archive_url: "https://github.com/notofonts/syriac/releases/download/NotoSansSyriac-v3.000/NotoSansSyriac-v3.000.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansSyriac/googlefonts/variable-ttf/NotoSansSyriac[wght].ttf"
+    dest_file: "NotoSansSyriac[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aii_Syrc"  # Assyrian Neo-Aramaic

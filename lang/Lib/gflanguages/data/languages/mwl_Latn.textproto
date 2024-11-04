@@ -3,7 +3,8 @@ language: "mwl"
 script: "Latn"
 name: "Mirandese"
 autonym: "Mirandés"
-population: 0
+population: 15000
+region: "PT"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ç É Ê Í Ó Ô Ú Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ç é ê í ó ô ú ũ"
   marks: "◌́ ◌̂ ◌̃ ◌̧"

@@ -112,6 +112,8 @@ Here is a list of 3rd party directories:
 * <https://designmeme.github.io/finding-baseline>
 * <https://mikk3lro.github.io/vue-fontpicker>
 * <https://paulzi.github.io/google-fonts-loader>
+* <https://winniethemu.github.io/tiff>
+* <https://www.fontcomparer.com>
 
 There are also handcrafted directories with rich samples:
 
@@ -152,7 +154,7 @@ Some interesting articles about Google Fonts:
 
 ## Interesting Libre Fonts Not In Google Fonts
 
-Here is a list of some libre fonts made for special purposes (emoij, math, icon, etc) that are not available in Google Fonts. 
+Here is a list of some libre fonts made for special purposes (emoji, math, icons, etc) that are not available in Google Fonts. 
 
 * <https://material.io/icons>
 * <https://github.com/figs-lab/datalegreya>

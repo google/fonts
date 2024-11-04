@@ -1,9 +1,15 @@
 id: "myk_Latn"
 language: "myk"
 script: "Latn"
-name: "Sénoufo, Mamara"
+name: "Mamara Senoufo"
+autonym: "mamaara"
+population: 740000
+region: "ML"
 exemplar_chars {
-  base: "a A á Á à À b B c C d D e E é É è È ɛ Ɛ f F g G h H i I í Í j J k K l L m M n N ɲ Ɲ ŋ Ŋ o O ò Ò ɔ Ɔ p P r R s S t T u U ú Ú ù Ù v V w W x X y Y z Z"
-  marks: "◌́ ◌̀"
+  base: "a A á Á à À b B c C d D e E é É è È ɛ Ɛ {ɛ́} {Ɛ́} {ɛ̀} {Ɛ̀} f F g G h H i I í Í ì Ì j J k K l L m M n N ɲ Ɲ ŋ Ŋ o O ó Ó ò Ò ɔ Ɔ {ɔ́} {Ɔ́} {ɔ̀} {Ɔ̀} p P r R s S t T u U ú Ú ù Ù v V w W x X y Y z Z"
   auxiliary: "q Q"
+  marks: "◌̀ ◌́"
 }
+source: "République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993"
+source: "Wikipedia"
+source: "https://www.bible.com/versions/1140"

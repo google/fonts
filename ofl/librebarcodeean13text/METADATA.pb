@@ -14,6 +14,18 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/graphicore/librebarcode"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/LibreBarcodeEAN13Text-Regular.ttf"
+    dest_file: "LibreBarcodeEAN13Text-Regular.ttf"
+  }
+  branch: "master"
+}
 sample_text {
   masthead_full: "abcdefghij"
   masthead_partial: "abcd"
@@ -23,3 +35,5 @@ sample_text {
   poster_md: "abcdefghij x012345678"
   poster_lg: "23456789"
 }
+classifications: "DISPLAY"
+classifications: "SYMBOLS"

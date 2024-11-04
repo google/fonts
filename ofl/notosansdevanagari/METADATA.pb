@@ -27,8 +27,26 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/devanagari.git"
-  archive_url: "https://github.com/notofonts/devanagari/releases/download/NotoSansDevanagari-v2.004/NotoSansDevanagari-v2.004.zip"
+  repository_url: "https://github.com/notofonts/devanagari"
+  commit: "bb8d2566a1708ef2dcc6396ee2eb261a18967f76"
+  archive_url: "https://github.com/notofonts/devanagari/releases/download/NotoSansDevanagari-v2.006/NotoSansDevanagari-v2.006.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansDevanagari/googlefonts/variable-ttf/NotoSansDevanagari[wdth,wght].ttf"
+    dest_file: "NotoSansDevanagari[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "anp_Deva"  # Angika

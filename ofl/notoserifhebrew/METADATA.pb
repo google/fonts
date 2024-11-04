@@ -27,8 +27,18 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/hebrew.git"
-  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSerifHebrew-v2.003/NotoSerifHebrew-v2.003.zip"
+  repository_url: "https://github.com/notofonts/hebrew"
+  commit: "02fcd18e295ebadcda7bcaa774c107538fe2a5ee"
+  archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSerifHebrew-v2.004/NotoSerifHebrew-v2.004.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSerifHebrew/googlefonts/variable/NotoSerifHebrew[wdth,wght].ttf"
+    dest_file: "NotoSerifHebrew[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "he_Hebr"  # Hebrew

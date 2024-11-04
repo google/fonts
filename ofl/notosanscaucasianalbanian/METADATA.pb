@@ -10,10 +10,29 @@ fonts {
   filename: "NotoSansCaucasianAlbanian-Regular.ttf"
   post_script_name: "NotoSansCaucasianAlbanian-Regular"
   full_name: "Noto Sans Caucasian Albanian Regular"
-  copyright: "Copyright 2018 Google Inc. All Rights Reserved."
+  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/caucasian-albanian)"
 }
-subsets: "menu"
 subsets: "caucasian-albanian"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/notofonts/caucasian-albanian"
+  archive_url: "https://github.com/notofonts/caucasian-albanian/releases/download/NotoSansCaucasianAlbanian-v2.005/NotoSansCaucasianAlbanian-v2.005.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansCaucasianAlbanian/googlefonts/ttf/NotoSansCaucasianAlbanian-Regular.ttf"
+    dest_file: "NotoSansCaucasianAlbanian-Regular.ttf"
+  }
+  branch: "main"
+}
 is_noto: true
 languages: "lez_Aghb"  # Lezghian, Caucasian Albanian
 sample_text {
@@ -25,3 +44,4 @@ sample_text {
   poster_md: "𐔻𐔼𐔽𐕌𐕍𐕎𐕏 𐕉𐕊𐕋"
   poster_lg: "𐔰𐔱𐔲"
 }
+primary_script: "Aghb"

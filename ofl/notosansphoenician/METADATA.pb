@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "phoenician"
 source {
-  repository_url: "https://github.com/notofonts/phoenician.git"
+  repository_url: "https://github.com/notofonts/phoenician"
   archive_url: "https://github.com/notofonts/phoenician/releases/download/NotoSansPhoenician-v2.001/NotoSansPhoenician-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansPhoenician/googlefonts/ttf/NotoSansPhoenician-Regular.ttf"
+    dest_file: "NotoSansPhoenician-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aii_Phnx"  # Assyrian Neo-Aramaic, Phoenician

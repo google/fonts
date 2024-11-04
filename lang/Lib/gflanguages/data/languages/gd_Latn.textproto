@@ -6,8 +6,8 @@ autonym: "Gàidhlig"
 population: 65103
 region: "GB"
 exemplar_chars {
-  base: "a à b c d e è f g h i ì l m n o ò p r s t u ù"
-  auxiliary: "á ă â å ä ã ā æ ċ ç ḋ é ĕ ê ë ē ḟ ġ í ĭ î ï ī ı j k ł ṁ ñ ó ŏ ô ö ø ō œ ṗ q ṡ ş ș ṫ ú ŭ û ü ū v w x y ÿ z"
+  base: "A À B C D E È F G H I Ì L M N O Ò P R S T U Ù a à b c d e è f g h i ì l m n o ò p r s t u ù"
+  auxiliary: "Á Ă Â Å Ä Ã Ā Æ Ċ Ç Ḋ É Ĕ Ê Ë Ē Ḟ Ġ Í Ĭ Î Ï Ī I J K Ł Ṁ Ñ Ó Ŏ Ô Ö Ø Ō Œ Ṗ Q Ṡ Ş Ș Ṫ Ú Ŭ Û Ü Ū V W X Y Ÿ Z á ă â å ä ã ā æ ċ ç ḋ é ĕ ê ë ē ḟ ġ í ĭ î ï ī ı j k ł ṁ ñ ó ŏ ô ö ø ō œ ṗ q ṡ ş ș ṫ ú ŭ û ü ū v w x y ÿ z"
   marks: "◌̀ ◌́"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ¡ ? . … · \' ‘ ’ \" “ ” ( ) [ ] { } ¶ @ * / & ⁊ # % ‧ ° © ® ™"

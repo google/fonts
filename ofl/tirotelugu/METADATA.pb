@@ -28,5 +28,22 @@ subsets: "telugu"
 source {
   repository_url: "https://github.com/TiroTypeworks/Indigo"
   commit: "24f67ca20ca4720eb4302592f2e0f6ec21042a5d"
+  files {
+    source_file: "fonts/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "docs/descriptions/TiroTelugu/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/TiroTelugu/TTF/TiroTelugu-Regular.ttf"
+    dest_file: "TiroTelugu-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/TiroTelugu/TTF/TiroTelugu-Italic.ttf"
+    dest_file: "TiroTelugu-Italic.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Telu"

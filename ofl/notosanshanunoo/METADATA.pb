@@ -17,10 +17,22 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/hanunoo.git"
-  archive_url: "https://github.com/notofonts/hanunoo/releases/download/NotoSansHanunoo-v2.003/NotoSansHanunoo-v2.003.zip"
+  repository_url: "https://github.com/notofonts/hanunoo"
+  archive_url: "https://github.com/notofonts/hanunoo/releases/download/NotoSansHanunoo-v2.004/NotoSansHanunoo-v2.004.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansHanunoo/googlefonts/ttf/NotoSansHanunoo-Regular.ttf"
+    dest_file: "NotoSansHanunoo-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "hnn_Hano"  # Hanunoo, Hanunoo
-languages: "sa_Hano"  # Sanskrit, Hanunoo
 primary_script: "Hano"

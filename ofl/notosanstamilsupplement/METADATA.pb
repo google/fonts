@@ -17,13 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "tamil-supplement"
 source {
-  repository_url: "https://github.com/notofonts/tamil.git"
+  repository_url: "https://github.com/notofonts/tamil"
   archive_url: "https://github.com/notofonts/tamil/releases/download/NotoSansTamilSupplement-v2.001/NotoSansTamilSupplement-v2.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansTamilSupplement/googlefonts/ttf/NotoSansTamilSupplement-Regular.ttf"
+    dest_file: "NotoSansTamilSupplement-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "bfq_Taml"  # Badaga
 languages: "ta_Taml"  # Tamil
-primary_script: "Taml"
 sample_text {
   masthead_full: "𑿗𑿘𑿚𑿛"
   masthead_partial: "𑿖𑿛"
@@ -33,3 +45,4 @@ sample_text {
   poster_md: "𑿕𑿖𑿗𑿘𑿙𑿚𑿛 𑿱𑿪"
   poster_lg: "𑿗𑿘𑿚𑿛"
 }
+primary_script: "Taml"

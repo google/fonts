@@ -24,3 +24,6 @@ fonts {
 subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/solmatas/Kadwa"
+}

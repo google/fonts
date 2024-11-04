@@ -22,8 +22,18 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/toto.git"
-  archive_url: "https://github.com/notofonts/toto/releases/download/NotoSerifToto-v2.001/NotoSerifToto-v2.001.zip"
+  repository_url: "https://github.com/notofonts/toto"
+  commit: "3ea8167782a839042453dec5d164f1a5f801a8e1"
+  archive_url: "https://github.com/notofonts/toto/releases/download/NotoSerifToto-v2.002/NotoSerifToto-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSerifToto/googlefonts/variable-ttf/NotoSerifToto[wght].ttf"
+    dest_file: "NotoSerifToto[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "txo_Toto"  # Toto

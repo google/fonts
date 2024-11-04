@@ -41,780 +41,782 @@ axes {
   max_value: 900.0
 }
 is_noto: true
-languages: "aa_Latn"  # Afar
-languages: "ab_Cyrl"  # Abkhazian
-languages: "abq_Cyrl"  # Abaza
-languages: "abr_Latn"  # Abron
-languages: "ace_Latn"  # Achinese
-languages: "acf_Latn"  # Saint Lucian Creole French, Latin
-languages: "ach_Latn"  # Acoli
-languages: "acu_Latn"  # Achuar-Shiwiar, Latin, Ecuador
-languages: "ada_Latn"  # Adangme
-languages: "adl_Latn"  # Galo, Latin
-languages: "ady_Cyrl"  # Adyghe
-languages: "af_Latn"  # Afrikaans
-languages: "agq_Latn"  # Aghem
-languages: "agr_Latn"  # Aguaruna
-languages: "aii_Cyrl"  # Assyrian Neo-Aramaic, Cyrillic
-languages: "aii_Latn"  # Assyrian Neo-Aramaic, Latin
-languages: "ain_Latn"  # Ainu, Latin
-languages: "ajg_Latn"  # Aja
-languages: "ak_Latn"  # Akan
-languages: "akz_Latn"  # Alabama
-languages: "ale_Latn"  # Aleut
-languages: "aln_Latn"  # Gheg Albanian
-languages: "alt_Cyrl"  # Southern Altai
-languages: "amc_Latn"  # Amahuaca
-languages: "ame_Latn"  # Yaneshaʼ
-languages: "ami_Latn"  # Amis
-languages: "amo_Latn"  # Amo
-languages: "amr_Latn"  # Amarakaeri
-languages: "an_Latn"  # Aragonese
-languages: "ang_Latn"  # Old English
-languages: "aoz_Latn"  # Uab Meto
-languages: "arl_Latn"  # Arabela
-languages: "arn_Latn"  # Mapuche
-languages: "aro_Latn"  # Araona
-languages: "arp_Latn"  # Arapaho
-languages: "art_Latn"  # Artificial languages, Latin, World
-languages: "arw_Latn"  # Arawak
-languages: "asa_Latn"  # Asu
-languages: "ast_Latn"  # Asturian
-languages: "atj_Latn"  # Atikamekw
-languages: "auc_Latn"  # Waorani, Latin, Ecuador
-languages: "av_Cyrl"  # Avaric
-languages: "avk_Latn"  # Kotava
-languages: "ay_Latn"  # Aymara
-languages: "az_Cyrl"  # Azerbaijani (Cyrillic)
-languages: "az_Latn"  # Azerbaijani
-languages: "azj_Cyrl"  # Azerbaijani, North, Cyrillic
-languages: "ba_Cyrl"  # Bashkir
-languages: "ba_Latn"  # Bashkir, Latin
-languages: "bal_Latn"  # Baluchi, Latin
-languages: "ban_Latn"  # Balinese
-languages: "bar_Latn"  # Bavarian
-languages: "bas_Latn"  # Basaa
-languages: "bax_Latn"  # Bamun, Latin
-languages: "bba_Latn"  # Baatonum
-languages: "bbc_Latn"  # Batak Toba
-languages: "bbj_Latn"  # Ghomala
-languages: "bci_Latn"  # Baoulé
-languages: "be_Cyrl"  # Belarusian
-languages: "be_Latn"  # Belarusian, Latin
-languages: "bem_Latn"  # Bemba
-languages: "ber_Latn"  # Berber, Latin
-languages: "bew_Latn"  # Betawi
-languages: "bez_Latn"  # Bena
-languages: "bfa_Latn"  # Bari
-languages: "bfd_Latn"  # Bafut
-languages: "bg_Cyrl"  # Bulgarian
-languages: "bgx_Grek"  # Balkan Gagauz Turkish
-languages: "bhk_Latn"  # Albay Bikol
-languages: "bi_Latn"  # Bislama
-languages: "bik_Latn"  # Bikol
-languages: "bin_Latn"  # Bini
-languages: "bjn_Latn"  # Banjar
-languages: "bjt_Latn"  # Balanta-Ganja
-languages: "bkm_Latn"  # Kom
-languages: "bku_Latn"  # Buhid
-languages: "bla_Latn"  # Siksika
-languages: "bm_Latn"  # Bambara
-languages: "bmq_Latn"  # Bomu
-languages: "boa_Latn"  # Bora
-languages: "bqv_Latn"  # Koro Wachi
-languages: "br_Latn"  # Breton
-languages: "brh_Latn"  # Brahui, Latin
-languages: "brx_Latn"  # Bodo, Latin
-languages: "bs_Cyrl"  # Bosnian (Cyrillic)
-languages: "bs_Latn"  # Bosnian
-languages: "bsc_Latn"  # Bassari
-languages: "bss_Latn"  # Akoose
-languages: "bto_Latn"  # Rinconada Bikol
-languages: "bua_Cyrl"  # Buriat
-languages: "buc_Latn"  # Bushi
-languages: "bug_Latn"  # Buginese
-languages: "bum_Latn"  # Bulu
-languages: "bvb_Latn"  # Bube
-languages: "bvi_Latn"  # Belanda Viri, Latin
-languages: "bwy_Latn"  # Cwi Bwamu, Latin
-languages: "byv_Latn"  # Medumba
-languages: "bze_Latn"  # Jenaama Bozo
-languages: "bzx_Latn"  # Bozo, Hainyaxo
-languages: "ca_Latn"  # Catalan
-languages: "cab_Latn"  # Garifuna
-languages: "cad_Latn"  # Caddo
-languages: "cak_Latn"  # Kaqchikel, Central
-languages: "car_Latn"  # Carib
-languages: "cay_Latn"  # Cayuga
-languages: "cbi_Latn"  # Chachi
-languages: "cbk_Latn"  # Chavacano, Latin, Philippines
-languages: "cbr_Latn"  # Cashibo-Cacataibo
-languages: "cbs_Latn"  # Cashinahua
-languages: "cbt_Latn"  # Chayahuita
-languages: "cbu_Latn"  # Candoshi-Shapra
-languages: "cch_Latn"  # Atsam
-languages: "ce_Cyrl"  # Chechen
-languages: "ceb_Latn"  # Cebuano
-languages: "cfm_Latn"  # Chin, Falam
-languages: "cgg_Latn"  # Chiga
-languages: "ch_Latn"  # Chamorro
-languages: "chj_Latn"  # Chinantec, Ojitlán
-languages: "chk_Latn"  # Chuukese
-languages: "chm_Cyrl"  # Mari
-languages: "chn_Latn"  # Chinook Jargon
-languages: "cho_Latn"  # Choctaw
-languages: "chp_Latn"  # Chipewyan
-languages: "chy_Latn"  # Cheyenne
-languages: "cic_Latn"  # Chickasaw
-languages: "cjk_Latn"  # Chokwe
-languages: "cjs_Cyrl"  # Shor
-languages: "ckt_Cyrl"  # Chukot
-languages: "cnh_Latn"  # Chin, Haka
-languages: "cni_Latn"  # Asháninka
-languages: "co_Latn"  # Corsican
-languages: "cof_Latn"  # Colorado
-languages: "con_Latn"  # Cofán, Latin
-languages: "cop_Grek"  # Coptic, Greek
-languages: "cot_Latn"  # Caquinte
-languages: "cpf_Latn"  # French-based Creoles
-languages: "cps_Latn"  # Capiznon
-languages: "cpu_Latn"  # Ashéninka, Pichis
-languages: "cr_Latn"  # Cree, Latin
-languages: "crh_Cyrl"  # Crimean Turkish
-languages: "crh_Latn"  # Crimean Turkish
-languages: "cri_Latn"  # Sãotomense
-languages: "crj_Latn"  # Southern East Cree, Latin
-languages: "crl_Latn"  # Northern East Cree, Latin
-languages: "crs_Latn"  # Seselwa Creole French
-languages: "cs_Latn"  # Czech
-languages: "csa_Latn"  # Chinantec, Chiltepec
-languages: "csb_Latn"  # Kashubian
-languages: "ctd_Latn"  # Tedim Chin
-languages: "cu_Cyrl"  # Church Slavic
-languages: "cv_Cyrl"  # Chuvash
-languages: "cy_Latn"  # Welsh
-languages: "cyo_Latn"  # Cuyonon, Latin
-languages: "da_Latn"  # Danish
-languages: "dag_Latn"  # Dagbani
-languages: "dak_Latn"  # Dakota
-languages: "dar_Cyrl"  # Dargwa
-languages: "dav_Latn"  # Taita
-languages: "ddn_Latn"  # Dendi
-languages: "de_Latn"  # German
-languages: "del_Latn"  # Delaware
-languages: "den_Latn"  # Slave
-languages: "dga_Latn"  # Dagaare, Southern
-languages: "dgr_Latn"  # Dogrib
-languages: "din_Latn"  # Dinka
-languages: "dip_Latn"  # Dinka, Northeastern
-languages: "dje_Latn"  # Zarma
-languages: "dng_Cyrl"  # Dungan
-languages: "dnj_Latn"  # Dan
-languages: "dsb_Latn"  # Lower Sorbian
-languages: "dtm_Latn"  # Tomo Kan Dogon
-languages: "dtp_Latn"  # Central Dusun
-languages: "dua_Latn"  # Duala
-languages: "dum_Latn"  # Middle Dutch
-languages: "duu_Latn"  # Drung
-languages: "dyo_Latn"  # Jola-Fonyi
-languages: "dyu_Latn"  # Dyula
-languages: "ebu_Latn"  # Embu
-languages: "ee_Latn"  # Ewe
-languages: "efi_Latn"  # Efik
-languages: "egl_Latn"  # Emilian
-languages: "eka_Latn"  # Ekajuk
-languages: "el_Grek"  # Greek
-languages: "emk_Latn"  # Maninkakan, Eastern
-languages: "en_Latn"  # English
-languages: "enm_Latn"  # Middle English
-languages: "eo_Latn"  # Esperanto
-languages: "es_Latn"  # Spanish
-languages: "ese_Latn"  # Ese Ejja
-languages: "esu_Latn"  # Central Yupik
-languages: "et_Latn"  # Estonian
-languages: "ett_Latn"  # Etruscan, Latin
-languages: "eu_Latn"  # Basque
-languages: "eve_Cyrl"  # Even
-languages: "evn_Cyrl"  # Evenki
-languages: "evn_Latn"  # Evenki
-languages: "ewo_Latn"  # Ewondo
-languages: "ext_Latn"  # Extremaduran
-languages: "fan_Latn"  # Fang
-languages: "fbl_Latn"  # West Albay Bikol
-languages: "ff_Latn"  # Fulah
-languages: "ffm_Latn"  # Maasina Fulfulde
-languages: "fi_Latn"  # Finnish
-languages: "fil_Latn"  # Filipino
-languages: "fit_Latn"  # Tornedalen Finnish
-languages: "fj_Latn"  # Fijian
-languages: "fkv_Latn"  # Finnish, Kven
-languages: "fo_Latn"  # Faroese
-languages: "fon_Latn"  # Fon
-languages: "fr_Latn"  # French
-languages: "frc_Latn"  # Cajun French
-languages: "frm_Latn"  # Middle French
-languages: "fro_Latn"  # Old French
-languages: "frp_Latn"  # Arpitan
-languages: "frr_Latn"  # Northern Frisian
-languages: "frs_Latn"  # Eastern Frisian
-languages: "fuc_Latn"  # Pulaar
-languages: "fud_Latn"  # East Futuna
-languages: "fuf_Latn"  # Pular
-languages: "fuq_Latn"  # Central-Eastern Niger Fulfulde
-languages: "fur_Latn"  # Friulian
-languages: "fuv_Latn"  # Nigerian Fulfulde
-languages: "fvr_Latn"  # Fur
-languages: "fy_Latn"  # Western Frisian
-languages: "ga_Latn"  # Irish
-languages: "gaa_Latn"  # Ga
-languages: "gag_Cyrl"  # Gagauz, Cyrillic
-languages: "gag_Latn"  # Gagauz
-languages: "gay_Latn"  # Gayo
-languages: "gba_Latn"  # Gbaya
-languages: "gcf_Latn"  # Guadeloupean Creole French, Latin, Martinique
-languages: "gcr_Latn"  # Guianese Creole French
-languages: "gd_Latn"  # Scottish Gaelic
-languages: "gem_Latn"  # Germanic languages, Latin
-languages: "ggn_Latn"  # Eastern Gurung, Latin
-languages: "gil_Latn"  # Gilbertese
-languages: "giw_Latn"  # Gelao, Klau
-languages: "gjn_Latn"  # Gonja
-languages: "gkp_Latn"  # Kpelle, Guinea
-languages: "gl_Latn"  # Galician
-languages: "gld_Cyrl"  # Nanai
-languages: "gmh_Latn"  # Middle High German
-languages: "gn_Latn"  # Guarani
-languages: "goh_Latn"  # Old High German
-languages: "gor_Latn"  # Gorontalo
-languages: "gos_Latn"  # Gronings
-languages: "grb_Latn"  # Grebo
-languages: "grc_Grek"  # Ancient Greek, Greek
-languages: "gsw_Latn"  # Swiss German
-languages: "gub_Latn"  # Guajajára
-languages: "guc_Latn"  # Wayuu
-languages: "gur_Latn"  # Frafra
-languages: "guu_Latn"  # Yanomamö
-languages: "guz_Latn"  # Gusii
-languages: "gv_Latn"  # Manx
-languages: "gwi_Latn"  # Gwichʼin
-languages: "gyr_Latn"  # Guarayu
-languages: "ha_Latn"  # Hausa
-languages: "hai_Latn"  # Haida
-languages: "hak_Latn"  # Hakka Chinese, Latin
-languages: "haw_Latn"  # Hawaiian
-languages: "hea_Latn"  # Hmong, Northern Qiandong
-languages: "hi_Latn"  # Hindi (Latin)
-languages: "hif_Latn"  # Fiji Hindi, Latin
-languages: "hil_Latn"  # Hiligaynon
-languages: "hlt_Latn"  # Chin, Matu
-languages: "hmn_Latn"  # Hmong
-languages: "hms_Latn"  # Hmong, Southern Qiandong
-languages: "hna_Latn"  # Mina
-languages: "hni_Latn"  # Hani
-languages: "hnj_Latn"  # Hmong Njua
-languages: "hnn_Latn"  # Hanunoo
-languages: "hns_Latn"  # Hindustani, Sarnami
-languages: "ho_Latn"  # Hiri Motu
-languages: "hop_Latn"  # Hopi
-languages: "hr_Latn"  # Croatian
-languages: "hsb_Latn"  # Upper Sorbian
-languages: "ht_Latn"  # Haitian Creole
-languages: "hu_Latn"  # Hungarian
-languages: "hup_Latn"  # Hupa
-languages: "hus_Latn"  # Huastec, San Luís Potosí
-languages: "huu_Latn"  # Huitoto, Murui
-languages: "hz_Latn"  # Herero
-languages: "ia_Latn"  # Interlingua
-languages: "iba_Latn"  # Iban
-languages: "ibb_Latn"  # Ibibio
-languages: "id_Latn"  # Indonesian
-languages: "idu_Latn"  # Idoma
-languages: "ie_Latn"  # Interlingue, Latin
-languages: "ife_Latn"  # Ifè
-languages: "ig_Latn"  # Igbo
-languages: "ii_Latn"  # Sichuan Yi, Latin
-languages: "ijs_Latn"  # Ijo, Southeast
-languages: "ik_Latn"  # Inupiaq
-languages: "ikt_Latn"  # Inuinnaqtun
-languages: "ilo_Latn"  # Iloko
-languages: "inh_Cyrl"  # Ingush
-languages: "inh_Latn"  # Ingush, Latin
-languages: "io_Latn"  # Ido
-languages: "is_Latn"  # Icelandic
-languages: "it_Latn"  # Italian
-languages: "iu_Latn"  # Inuktitut (Latin)
-languages: "izh_Latn"  # Ingrian
-languages: "jam_Latn"  # Jamaican Creole English
-languages: "jbo_Latn"  # Lojban, Latin
-languages: "jgo_Latn"  # Ngomba
-languages: "jiv_Latn"  # Shuar, Latin, Ecuador
-languages: "jmc_Latn"  # Machame
-languages: "jra_Latn"  # Jarai, Latin
-languages: "jut_Latn"  # Jutish
-languages: "jv_Latn"  # Javanese
-languages: "kaa_Cyrl"  # Kara-Kalpak
-languages: "kab_Latn"  # Kabyle
-languages: "kac_Latn"  # Kachin
-languages: "kaj_Latn"  # Jju
-languages: "kam_Latn"  # Kamba
-languages: "kao_Latn"  # Xaasongaxango
-languages: "kbd_Cyrl"  # Kabardian
-languages: "kbp_Latn"  # Kabiyé
-languages: "kca_Cyrl"  # Khanty
-languages: "kcg_Latn"  # Tyap
-languages: "kck_Latn"  # Kalanga
-languages: "kde_Latn"  # Makonde
-languages: "kdh_Latn"  # Tem
-languages: "kea_Latn"  # Kabuverdianu
-languages: "kek_Latn"  # Q'eqchi'
-languages: "kfo_Latn"  # Koro
-languages: "kg_Latn"  # Kongo
-languages: "kge_Latn"  # Komering
-languages: "kgp_Latn"  # Kaingang
-languages: "kha_Latn"  # Khasi
-languages: "khq_Latn"  # Koyra Chiini
-languages: "khw_Latn"  # Khowar, Latin
-languages: "ki_Latn"  # Kikuyu
-languages: "kiu_Latn"  # Kirmanjki
-languages: "kj_Latn"  # Kuanyama
-languages: "kjg_Latn"  # Khmu, Latin
-languages: "kjh_Cyrl"  # Khakas
-languages: "kk_Cyrl"  # Kazakh
-languages: "kk_Latn"  # Kazakh, Latin
-languages: "kkj_Latn"  # Kako
-languages: "kl_Latn"  # Kalaallisut
-languages: "kln_Latn"  # Kalenjin
-languages: "kmb_Latn"  # Kimbundu
-languages: "knc_Latn"  # Kanuri, Central
-languages: "knf_Latn"  # Mankanya
-languages: "koi_Cyrl"  # Komi-Permyak
-languages: "koo_Latn"  # Konjo
-languages: "kos_Latn"  # Kosraean
-languages: "kpe_Latn"  # Kpelle
-languages: "kpy_Cyrl"  # Koryak
-languages: "kqn_Latn"  # Kaonde
-languages: "kqs_Latn"  # Kissi, Northern
-languages: "kr_Latn"  # Kanuri
-languages: "krc_Cyrl"  # Karachay-Balkar
-languages: "kri_Latn"  # Krio
-languages: "krj_Latn"  # Kinaray-a
-languages: "krl_Latn"  # Karelian
-languages: "ksb_Latn"  # Shambala
-languages: "ksf_Latn"  # Bafia
-languages: "ksh_Latn"  # Colognian
-languages: "ktu_Latn"  # Kituba
-languages: "ku_Cyrl"  # Kurdish
-languages: "ku_Latn"  # Kurdish, Latin
-languages: "kum_Cyrl"  # Kumyk
-languages: "kut_Latn"  # Kutenai
-languages: "kv_Cyrl"  # Komi
-languages: "kvr_Latn"  # Kerinci
-languages: "kw_Latn"  # Cornish
-languages: "kwi_Latn"  # Awa-Cuaiquer
-languages: "ky_Cyrl"  # Kyrgyz
-languages: "ky_Latn"  # Kyrgyz (Latin)
-languages: "la_Latn"  # Latin
-languages: "lad_Latn"  # Ladino, Latin
-languages: "lag_Latn"  # Langi
-languages: "laj_Latn"  # Lango [Uganda]
-languages: "lam_Latn"  # Lamba
-languages: "lb_Latn"  # Luxembourgish
-languages: "lbe_Cyrl"  # Lak
-languages: "lbw_Latn"  # Tolaki
-languages: "lez_Cyrl"  # Lezghian
-languages: "lfn_Cyrl"  # Lingua Franca Nova
-languages: "lfn_Latn"  # Lingua Franca Nova, Latin
-languages: "lg_Latn"  # Ganda
-languages: "li_Latn"  # Limburgish
-languages: "lia_Latn"  # Limba, West-Central
-languages: "lij_Latn"  # Ligurian
-languages: "liv_Latn"  # Livonian
-languages: "ljp_Latn"  # Lampung Api
-languages: "lkt_Latn"  # Lakota
-languages: "lld_Latn"  # Ladin
-languages: "lmo_Latn"  # Lombard
-languages: "ln_Latn"  # Lingala
-languages: "lns_Latn"  # Lamnso'
-languages: "lob_Latn"  # Lobi
-languages: "lol_Latn"  # Mongo
-languages: "lot_Latn"  # Otuho
-languages: "loz_Latn"  # Lozi
-languages: "lt_Latn"  # Lithuanian
-languages: "ltg_Latn"  # Latgalian
-languages: "lu_Latn"  # Luba-Katanga
-languages: "lua_Latn"  # Luba-Lulua
-languages: "lue_Latn"  # Luvale
-languages: "lui_Latn"  # Luiseno
-languages: "lun_Latn"  # Lunda
-languages: "luo_Latn"  # Luo
-languages: "lus_Latn"  # Mizo, Latin
-languages: "lut_Latn"  # Lushootseed
-languages: "luy_Latn"  # Luyia
-languages: "lv_Latn"  # Latvian
-languages: "lzz_Latn"  # Laz, Latin
-languages: "mad_Latn"  # Madurese
-languages: "maf_Latn"  # Mafa
-languages: "mak_Latn"  # Makasar
-languages: "mam_Latn"  # Mam, Northern
-languages: "man_Latn"  # Mandingo
-languages: "mas_Latn"  # Masai
-languages: "maz_Latn"  # Central Mazahua
-languages: "mcd_Latn"  # Sharanahua
-languages: "mcf_Latn"  # Matsés, Latin, Peru
-languages: "mdf_Cyrl"  # Moksha
-languages: "mdh_Latn"  # Maguindanaon
-languages: "mdr_Latn"  # Mandar
-languages: "mdt_Latn"  # Mbere
-languages: "men_Latn"  # Mende
-languages: "mer_Latn"  # Meru
-languages: "mey_Latn"  # Hassaniyya
-languages: "mfe_Latn"  # Morisyen
-languages: "mfq_Latn"  # Moba
-languages: "mfv_Latn"  # Mandjak
-languages: "mg_Latn"  # Malagasy
-languages: "mgh_Latn"  # Makhuwa-Meetto
-languages: "mgo_Latn"  # Metaʼ
-languages: "mgy_Latn"  # Mbunga
-languages: "mh_Latn"  # Marshallese
-languages: "mi_Latn"  # Maori
-languages: "mic_Latn"  # Mi'kmaq
-languages: "min_Latn"  # Minangkabau
-languages: "miq_Latn"  # Mískito
-languages: "mis_Latn"  # Uncoded languages, Latin, World
-languages: "mk_Cyrl"  # Macedonian
-languages: "mls_Latn"  # Masalit
-languages: "mn_Cyrl"  # Mongolian
-languages: "mns_Cyrl"  # Mansi
-languages: "moe_Latn"  # Innu
-languages: "moh_Latn"  # Mohawk
-languages: "mor_Latn"  # Moro
-languages: "mos_Latn"  # Mossi
-languages: "mrj_Cyrl"  # Western Mari
-languages: "mro_Latn"  # Mru
-languages: "mrw_Latn"  # Maranao, Latin
-languages: "ms_Latn"  # Malay
-languages: "mt_Latn"  # Maltese
-languages: "mto_Latn"  # Mixe, Totontepec
-languages: "mua_Latn"  # Mundang
-languages: "mui_Latn"  # Musi, Latin
-languages: "mus_Latn"  # Muscogee
-languages: "mwk_Latn"  # Kita Maninkakan
-languages: "mwl_Latn"  # Mirandese
-languages: "mwv_Latn"  # Mentawai
-languages: "mxc_Latn"  # Manyika
-languages: "mxi_Latn"  # Mozarabic
-languages: "mxv_Latn"  # Mixtec, Metlatónoc
-languages: "myv_Cyrl"  # Erzya
-languages: "myx_Latn"  # Masaaba
-languages: "mzi_Latn"  # Mazatec, Ixcatlán
-languages: "na_Latn"  # Nauru
-languages: "nan_Latn"  # Min Nan Chinese, Latin
-languages: "nap_Latn"  # Neapolitan
-languages: "naq_Latn"  # Nama
-languages: "nb_Latn"  # Norwegian Bokmål
-languages: "nba_Latn"  # Nyemba
-languages: "nch_Latn"  # Central Huasteca Nahuatl
-languages: "nd_Latn"  # North Ndebele
-languages: "ndc_Latn"  # Ndau
-languages: "nds_Latn"  # Low German
-languages: "ng_Latn"  # Ndonga
-languages: "ngl_Latn"  # Lomwe
-languages: "nhe_Latn"  # Eastern Huasteca Nahuatl
-languages: "nhn_Latn"  # Nahuatl, Central
-languages: "nhw_Latn"  # Western Huasteca Nahuatl
-languages: "nia_Latn"  # Nias
-languages: "nij_Latn"  # Ngaju
-languages: "nio_Cyrl"  # Nganasan
-languages: "niu_Latn"  # Niuean
-languages: "njo_Latn"  # Ao Naga
-languages: "nku_Latn"  # Kulango, Bouna
-languages: "nl_Latn"  # Dutch
-languages: "nmg_Latn"  # Kwasio
-languages: "nn_Latn"  # Norwegian Nynorsk
-languages: "nnh_Latn"  # Ngiemboon
-languages: "nnp_Latn"  # Wancho Naga, Latin
-languages: "no_Latn"  # Norwegian
-languages: "nog_Cyrl"  # Nogai
-languages: "non_Latn"  # Old Norse, Latin, Sweden
-languages: "not_Latn"  # Nomatsiguenga
-languages: "nov_Latn"  # Novial
-languages: "nr_Latn"  # South Ndebele
-languages: "nrf_Latn"  # Jèrriais, Latin
-languages: "nsk_Latn"  # Naskapi, Latin
-languages: "nso_Latn"  # Northern Sotho
-languages: "nus_Latn"  # Nuer
-languages: "nv_Latn"  # Navajo
-languages: "nxq_Latn"  # Naxi
-languages: "ny_Latn"  # Nyanja
-languages: "nym_Latn"  # Nyamwezi
-languages: "nyn_Latn"  # Nyankole
-languages: "nyo_Latn"  # Nyoro
-languages: "nzi_Latn"  # Nzima
-languages: "oaa_Cyrl"  # Orok
-languages: "oc_Latn"  # Occitan
-languages: "oj_Latn"  # Ojibwa, Latin
-languages: "oki_Latn"  # Okiek
-languages: "om_Latn"  # Oromo
-languages: "orh_Latn"  # Oroqen
-languages: "orv_Cyrl"  # Old Russian, Cyrillic
-languages: "os_Cyrl"  # Ossetic
-languages: "osa_Latn"  # Osage, Latin
-languages: "osc_Latn"  # Oscan, Latin
-languages: "ote_Latn"  # Otomi, Mezquital
-languages: "otn_Latn"  # Tenango Otomi, Latin
-languages: "owl_Latn"  # Old Welsh, Latin
-languages: "pag_Latn"  # Pangasinan
-languages: "pam_Latn"  # Pampanga
-languages: "pap_Latn"  # Papiamento
-languages: "pau_Latn"  # Palauan
-languages: "pbb_Latn"  # Páez
-languages: "pcd_Latn"  # Picard
-languages: "pck_Latn"  # Paite Chin, Latin
-languages: "pcm_Latn"  # Nigerian Pidgin
-languages: "pdc_Latn"  # Pennsylvania German
-languages: "pdt_Latn"  # Plautdietsch
-languages: "pfl_Latn"  # Palatine German
-languages: "pis_Latn"  # Pijin
-languages: "piu_Latn"  # Pintupi-Luritja
-languages: "pko_Latn"  # Pökoot
-languages: "pl_Latn"  # Polish
-languages: "pms_Latn"  # Piedmontese
-languages: "pnt_Cyrl"  # Pontic
-languages: "pnt_Grek"  # Pontic, Greek
-languages: "pnt_Latn"  # Pontic, Latin
-languages: "pon_Latn"  # Pohnpeian
-languages: "pov_Latn"  # Crioulo, Upper Guinea
-languages: "ppl_Latn"  # Pipil
-languages: "prg_Latn"  # Prussian
-languages: "pro_Latn"  # Old Provençal
-languages: "prq_Latn"  # Ashéninka Perené
-languages: "pt_Latn"  # Portuguese
-languages: "puu_Latn"  # Punu
-languages: "qu_Latn"  # Quechua
-languages: "quc_Latn"  # Kʼicheʼ
-languages: "qud_Latn"  # Quechua, Unified Quichua, old Hispanic orthography
-languages: "qug_Latn"  # Chimborazo Highland Quichua
-languages: "quh_Latn"  # Quechua, South Bolivian
-languages: "quy_Latn"  # Quechua, Ayacucho
-languages: "quz_Latn"  # Quechua, Cusco
-languages: "qva_Latn"  # Quechua, Ambo-Pasco
-languages: "qvc_Latn"  # Quechua, Cajamarca
-languages: "qvh_Latn"  # Quechua, Huamalíes-Dos de Mayo Huánuco
-languages: "qvm_Latn"  # Quechua, Margos-Yarowilca-Lauricocha
-languages: "qvn_Latn"  # Quechua, North Junín
-languages: "qwh_Latn"  # Quechua, Huaylas Ancash
-languages: "qxn_Latn"  # Quechua, Northern Conchucos Ancash
-languages: "qxu_Latn"  # Quechua, Arequipa-La Unión
-languages: "rap_Latn"  # Rapanui
-languages: "rar_Latn"  # Rarotongan
-languages: "ray_Latn"  # Rapa, Latin
-languages: "rcf_Latn"  # Réunion Creole French
-languages: "rej_Latn"  # Rejang
-languages: "rgn_Latn"  # Romagnol
-languages: "rhg_Latn"  # Rohingya, Latin
-languages: "ria_Latn"  # Riang [India]
-languages: "rif_Latn"  # Riffian (Latin)
-languages: "rm_Latn"  # Romansh
-languages: "rmf_Latn"  # Kalo Finnish Romani
-languages: "rmn_Latn"  # Romani, Balkan
-languages: "rmo_Latn"  # Sinte Romani
-languages: "rmu_Latn"  # Tavringer Romani
-languages: "rn_Latn"  # Rundi
-languages: "rng_Latn"  # Ronga
-languages: "ro_Cyrl"  # Romanian, Cyrillic
-languages: "ro_Latn"  # Romanian
-languages: "rob_Latn"  # Tae'
-languages: "rof_Latn"  # Rombo
-languages: "rom_Cyrl"  # Romany, Cyrillic
-languages: "rom_Latn"  # Romany
-languages: "rtm_Latn"  # Rotuman
-languages: "ru_Cyrl"  # Russian
-languages: "rue_Cyrl"  # Rusyn
-languages: "rug_Latn"  # Roviana
-languages: "rup_Latn"  # Aromanian
-languages: "rw_Latn"  # Kinyarwanda
-languages: "rwk_Latn"  # Rwa
-languages: "sad_Latn"  # Sandawe
-languages: "saf_Latn"  # Safaliba
-languages: "sah_Cyrl"  # Sakha
-languages: "saq_Latn"  # Samburu
-languages: "sas_Latn"  # Sasak
-languages: "sat_Latn"  # Santali, Latin
-languages: "sav_Latn"  # Saafi-Saafi
-languages: "sbp_Latn"  # Sangu
-languages: "sc_Latn"  # Sardinian
-languages: "scn_Latn"  # Sicilian
-languages: "sco_Latn"  # Scots
-languages: "scs_Latn"  # North Slavey
-languages: "sdc_Latn"  # Sassarese Sardinian
-languages: "se_Cyrl"  # Northern Sami, Cyrillic
-languages: "se_Latn"  # Northern Sami
-languages: "see_Latn"  # Seneca
-languages: "sef_Latn"  # Cebaara Senoufo
-languages: "seh_Latn"  # Sena
-languages: "sei_Latn"  # Seri
-languages: "sel_Cyrl"  # Selkup
-languages: "ses_Latn"  # Koyraboro Senni
-languages: "sey_Latn"  # Secoya
-languages: "sg_Latn"  # Sango
-languages: "sga_Latn"  # Old Irish
-languages: "sgs_Latn"  # Samogitian
-languages: "shi_Latn"  # Tachelhit (Latin)
-languages: "shk_Latn"  # Shilluk
-languages: "shp_Latn"  # Shipibo-Conibo
-languages: "sid_Latn"  # Sidamo
-languages: "sja_Latn"  # Epena, Latin
-languages: "sk_Latn"  # Slovak
-languages: "sl_Latn"  # Slovenian
-languages: "sla_Latn"  # Slavic languages, Latin
-languages: "sli_Latn"  # Lower Silesian
-languages: "slr_Latn"  # Salar
-languages: "sly_Latn"  # Selayar
-languages: "sm_Latn"  # Samoan
-languages: "sma_Latn"  # Southern Sami
-languages: "smj_Latn"  # Lule Sami
-languages: "smn_Latn"  # Inari Sami
-languages: "sms_Latn"  # Skolt Sami
-languages: "sn_Latn"  # Shona
-languages: "snf_Latn"  # Noon
-languages: "snk_Latn"  # Soninke
-languages: "snn_Latn"  # Siona
-languages: "so_Latn"  # Somali
-languages: "sq_Latn"  # Albanian
-languages: "sr_Cyrl"  # Serbian
-languages: "sr_Latn"  # Serbian (Latin)
-languages: "srb_Latn"  # Sora
-languages: "srn_Latn"  # Sranan Tongo
-languages: "srr_Latn"  # Serer
-languages: "ss_Latn"  # Swati
-languages: "ssy_Latn"  # Saho
-languages: "st_Latn"  # Southern Sotho
-languages: "stq_Latn"  # Saterland Frisian
-languages: "str_Latn"  # Straits Salish, Latin
-languages: "su_Latn"  # Sundanese
-languages: "suk_Latn"  # Sukuma
-languages: "sus_Latn"  # Susu
-languages: "sv_Latn"  # Swedish
-languages: "sw_Latn"  # Swahili
-languages: "swb_Latn"  # Comorian, Latin
-languages: "swg_Latn"  # Swabian
-languages: "sxn_Latn"  # Sangir
-languages: "syi_Latn"  # Seki
-languages: "szl_Latn"  # Silesian
-languages: "tab_Cyrl"  # Tabassaran
-languages: "taq_Latn"  # Tamasheq, Latin
-languages: "tbw_Latn"  # Tagbanwa
-languages: "tbz_Latn"  # Ditammari
-languages: "tca_Latn"  # Ticuna
-languages: "tdt_Latn"  # Tetun Dili
-languages: "tem_Latn"  # Timne
-languages: "teo_Latn"  # Teso
-languages: "ter_Latn"  # Tereno
-languages: "tet_Latn"  # Tetum
-languages: "tg_Cyrl"  # Tajik
-languages: "tg_Latn"  # Tajik, Latin
-languages: "tiv_Latn"  # Tiv
-languages: "tiw_Latn"  # Tiwi, Latin
-languages: "tjs_Latn"  # Southern Tujia
-languages: "tk_Cyrl"  # Turkmen, Cyrillic
-languages: "tk_Latn"  # Turkmen, Latin
-languages: "tkl_Latn"  # Tokelau
-languages: "tkr_Cyrl"  # Tsakhur
-languages: "tkr_Latn"  # Tsakhur, Latin
-languages: "tlh_Latn"  # Klingon, Latin
-languages: "tli_Latn"  # Tlingit
-languages: "tly_Cyrl"  # Talysh, Cyrillic
-languages: "tly_Latn"  # Talysh, Latin
-languages: "tmh_Latn"  # Tamashek
-languages: "tn_Latn"  # Tswana
-languages: "tnr_Latn"  # Ménik
-languages: "to_Latn"  # Tongan
-languages: "tob_Latn"  # Toba
-languages: "tog_Latn"  # Nyasa Tonga
-languages: "toi_Latn"  # Tonga
-languages: "toj_Latn"  # Tojolabal
-languages: "top_Latn"  # Totonac, Papantla
-languages: "tpi_Latn"  # Tok Pisin
-languages: "tr_Latn"  # Turkish
-languages: "tru_Latn"  # Turoyo
-languages: "trv_Latn"  # Taroko
-languages: "ts_Latn"  # Tsonga
-languages: "tsd_Grek"  # Tsakonian
-languages: "tsg_Latn"  # Tausug
-languages: "tsi_Latn"  # Tsimshian
-languages: "tsz_Latn"  # Purepecha
-languages: "tt_Cyrl"  # Tatar
-languages: "tt_Latn"  # Tatar, Latin
-languages: "ttj_Latn"  # Tooro
-languages: "ttt_Cyrl"  # Muslim Tat
-languages: "ttt_Latn"  # Muslim Tat, Latin
-languages: "tum_Latn"  # Tumbuka
-languages: "tvl_Latn"  # Tuvalu
-languages: "twq_Latn"  # Tasawaq
-languages: "ty_Latn"  # Tahitian
-languages: "tyv_Cyrl"  # Tuvinian
-languages: "tzh_Latn"  # Tzeltal, Oxchuc
-languages: "tzm_Latn"  # Central Atlas Tamazight
-languages: "tzo_Latn"  # Tzotzil, Chamula
-languages: "ude_Cyrl"  # Udihe
-languages: "udm_Cyrl"  # Udmurt
-languages: "udm_Latn"  # Udmurt, Latin
-languages: "udu_Latn"  # Uduk
-languages: "ug_Cyrl"  # Uyghur (Cyrillic)
-languages: "ug_Latn"  # Uyghur, Latin
-languages: "uk_Cyrl"  # Ukrainian
-languages: "uli_Latn"  # Ulithian
-languages: "umb_Latn"  # Umbundu
-languages: "ura_Latn"  # Urarina
-languages: "uz_Cyrl"  # Uzbek (Cyrillic)
-languages: "uz_Latn"  # Uzbek
-languages: "vai_Latn"  # Vai (Latin)
-languages: "ve_Latn"  # Venda
-languages: "vec_Latn"  # Venetian
-languages: "vep_Latn"  # Veps
-languages: "vi_Latn"  # Vietnamese
-languages: "vic_Latn"  # Virgin Islands Creole English
-languages: "vls_Latn"  # West Flemish
-languages: "vmf_Latn"  # Main-Franconian
-languages: "vmw_Latn"  # Makhuwa
-languages: "vo_Latn"  # Volapük
-languages: "vot_Latn"  # Votic
-languages: "vro_Latn"  # Võro
-languages: "vun_Latn"  # Vunjo
-languages: "wa_Latn"  # Walloon
-languages: "wae_Latn"  # Walser
-languages: "war_Latn"  # Waray
-languages: "was_Latn"  # Washo
-languages: "wbp_Latn"  # Warlpiri
-languages: "wls_Latn"  # Wallisian
-languages: "wo_Latn"  # Wolof
-languages: "wwa_Latn"  # Waama
-languages: "xal_Cyrl"  # Kalmyk
-languages: "xav_Latn"  # Xavánte
-languages: "xh_Latn"  # Xhosa
-languages: "xog_Latn"  # Soga
-languages: "xsm_Latn"  # Kasem
-languages: "xum_Latn"  # Umbrian, Latin
-languages: "yad_Latn"  # Yagua
-languages: "yao_Latn"  # Yao
-languages: "yap_Latn"  # Yapese
-languages: "yav_Latn"  # Yangben
-languages: "ybb_Latn"  # Yemba
-languages: "ykg_Cyrl"  # Yukaghir, Northern
-languages: "yo_Latn"  # Yoruba
-languages: "yrk_Cyrl"  # Nenets
-languages: "yrl_Latn"  # Nheengatu
-languages: "yua_Latn"  # Yucateco
-languages: "za_Latn"  # Zhuang
-languages: "zag_Latn"  # Zaghawa
-languages: "zam_Latn"  # Zapotec, Miahuatlán
-languages: "zap_Latn"  # Zapotec
-languages: "zdj_Latn"  # Comorian, Ngazidja
-languages: "zea_Latn"  # Zeelandic
-languages: "zlm_Latn"  # Malay, Latin
-languages: "zmi_Latn"  # Negeri Sembilan Malay
-languages: "zro_Latn"  # Záparo
-languages: "ztu_Latn"  # Zapotec, Güilá
-languages: "zu_Latn"  # Zulu
-languages: "zun_Latn"  # Zuni
-languages: "zza_Latn"  # Zaza
+languages: "aa_Latn"
+languages: "ab_Cyrl"
+languages: "abq_Cyrl"
+languages: "abr_Latn"
+languages: "ace_Latn"
+languages: "acf_Latn"
+languages: "ach_Latn"
+languages: "acu_Latn"
+languages: "ada_Latn"
+languages: "adl_Latn"
+languages: "ady_Cyrl"
+languages: "af_Latn"
+languages: "agq_Latn"
+languages: "agr_Latn"
+languages: "aii_Cyrl"
+languages: "aii_Latn"
+languages: "ain_Latn"
+languages: "ajg_Latn"
+languages: "ak_Latn"
+languages: "akz_Latn"
+languages: "ale_Latn"
+languages: "aln_Latn"
+languages: "alt_Cyrl"
+languages: "amc_Latn"
+languages: "ame_Latn"
+languages: "ami_Latn"
+languages: "amo_Latn"
+languages: "amr_Latn"
+languages: "an_Latn"
+languages: "ang_Latn"
+languages: "aoz_Latn"
+languages: "arl_Latn"
+languages: "arn_Latn"
+languages: "aro_Latn"
+languages: "arp_Latn"
+languages: "art_Latn"
+languages: "arw_Latn"
+languages: "asa_Latn"
+languages: "ast_Latn"
+languages: "atj_Latn"
+languages: "auc_Latn"
+languages: "av_Cyrl"
+languages: "avk_Latn"
+languages: "ay_Latn"
+languages: "az_Cyrl"
+languages: "az_Latn"
+languages: "azj_Cyrl"
+languages: "ba_Cyrl"
+languages: "ba_Latn"
+languages: "bal_Latn"
+languages: "ban_Latn"
+languages: "bar_Latn"
+languages: "bas_Latn"
+languages: "bax_Latn"
+languages: "bba_Latn"
+languages: "bbc_Latn"
+languages: "bbj_Latn"
+languages: "bci_Latn"
+languages: "be_Cyrl"
+languages: "be_Latn"
+languages: "bem_Latn"
+languages: "ber_Latn"
+languages: "bew_Latn"
+languages: "bez_Latn"
+languages: "bfa_Latn"
+languages: "bfd_Latn"
+languages: "bg_Cyrl"
+languages: "bgx_Grek"
+languages: "bhk_Latn"
+languages: "bi_Latn"
+languages: "bik_Latn"
+languages: "bin_Latn"
+languages: "bjn_Latn"
+languages: "bjt_Latn"
+languages: "bkm_Latn"
+languages: "bku_Latn"
+languages: "bla_Latn"
+languages: "bm_Latn"
+languages: "bmq_Latn"
+languages: "boa_Latn"
+languages: "bqv_Latn"
+languages: "br_Latn"
+languages: "brh_Latn"
+languages: "brx_Latn"
+languages: "bs_Cyrl"
+languages: "bs_Latn"
+languages: "bsc_Latn"
+languages: "bss_Latn"
+languages: "bto_Latn"
+languages: "bua_Cyrl"
+languages: "buc_Latn"
+languages: "bug_Latn"
+languages: "bum_Latn"
+languages: "bvb_Latn"
+languages: "bvi_Latn"
+languages: "bwy_Latn"
+languages: "byv_Latn"
+languages: "bze_Latn"
+languages: "bzx_Latn"
+languages: "ca_Latn"
+languages: "cab_Latn"
+languages: "cad_Latn"
+languages: "cak_Latn"
+languages: "car_Latn"
+languages: "cay_Latn"
+languages: "cbi_Latn"
+languages: "cbk_Latn"
+languages: "cbr_Latn"
+languages: "cbs_Latn"
+languages: "cbt_Latn"
+languages: "cbu_Latn"
+languages: "cch_Latn"
+languages: "ce_Cyrl"
+languages: "ceb_Latn"
+languages: "cfm_Latn"
+languages: "cgg_Latn"
+languages: "ch_Latn"
+languages: "chj_Latn"
+languages: "chk_Latn"
+languages: "chm_Cyrl"
+languages: "chn_Latn"
+languages: "cho_Latn"
+languages: "chp_Latn"
+languages: "chy_Latn"
+languages: "cic_Latn"
+languages: "cjk_Latn"
+languages: "cjs_Cyrl"
+languages: "ckt_Cyrl"
+languages: "cnh_Latn"
+languages: "cni_Latn"
+languages: "co_Latn"
+languages: "cof_Latn"
+languages: "con_Latn"
+languages: "cop_Grek"
+languages: "cot_Latn"
+languages: "cpf_Latn"
+languages: "cps_Latn"
+languages: "cpu_Latn"
+languages: "cr_Latn"
+languages: "crh_Cyrl"
+languages: "crh_Latn"
+languages: "cri_Latn"
+languages: "crj_Latn"
+languages: "crl_Latn"
+languages: "crs_Latn"
+languages: "cs_Latn"
+languages: "csa_Latn"
+languages: "csb_Latn"
+languages: "ctd_Latn"
+languages: "cu_Cyrl"
+languages: "cv_Cyrl"
+languages: "cy_Latn"
+languages: "cyo_Latn"
+languages: "da_Latn"
+languages: "dag_Latn"
+languages: "dak_Latn"
+languages: "dar_Cyrl"
+languages: "dav_Latn"
+languages: "ddn_Latn"
+languages: "de_Latn"
+languages: "del_Latn"
+languages: "den_Latn"
+languages: "dga_Latn"
+languages: "dgr_Latn"
+languages: "din_Latn"
+languages: "dip_Latn"
+languages: "dje_Latn"
+languages: "dng_Cyrl"
+languages: "dnj_Latn"
+languages: "dsb_Latn"
+languages: "dtm_Latn"
+languages: "dtp_Latn"
+languages: "dua_Latn"
+languages: "dum_Latn"
+languages: "duu_Latn"
+languages: "dyo_Latn"
+languages: "dyu_Latn"
+languages: "ebu_Latn"
+languages: "ee_Latn"
+languages: "efi_Latn"
+languages: "egl_Latn"
+languages: "eka_Latn"
+languages: "el_Grek"
+languages: "emk_Latn"
+languages: "en_Latn"
+languages: "enm_Latn"
+languages: "eo_Latn"
+languages: "es_Latn"
+languages: "ese_Latn"
+languages: "esu_Latn"
+languages: "et_Latn"
+languages: "ett_Latn"
+languages: "eu_Latn"
+languages: "eve_Cyrl"
+languages: "evn_Cyrl"
+languages: "evn_Latn"
+languages: "ewo_Latn"
+languages: "ext_Latn"
+languages: "fan_Latn"
+languages: "fbl_Latn"
+languages: "ff_Latn"
+languages: "ffm_Latn"
+languages: "fi_Latn"
+languages: "fil_Latn"
+languages: "fit_Latn"
+languages: "fj_Latn"
+languages: "fkv_Latn"
+languages: "fo_Latn"
+languages: "fon_Latn"
+languages: "fr_Latn"
+languages: "frc_Latn"
+languages: "frm_Latn"
+languages: "fro_Latn"
+languages: "frp_Latn"
+languages: "frr_Latn"
+languages: "frs_Latn"
+languages: "fuc_Latn"
+languages: "fud_Latn"
+languages: "fuf_Latn"
+languages: "fuq_Latn"
+languages: "fur_Latn"
+languages: "fuv_Latn"
+languages: "fvr_Latn"
+languages: "fy_Latn"
+languages: "ga_Latn"
+languages: "gaa_Latn"
+languages: "gag_Cyrl"
+languages: "gag_Latn"
+languages: "gay_Latn"
+languages: "gba_Latn"
+languages: "gcf_Latn"
+languages: "gcr_Latn"
+languages: "gd_Latn"
+languages: "gem_Latn"
+languages: "ggn_Latn"
+languages: "gil_Latn"
+languages: "giw_Latn"
+languages: "gjn_Latn"
+languages: "gkp_Latn"
+languages: "gl_Latn"
+languages: "gld_Cyrl"
+languages: "gmh_Latn"
+languages: "gn_Latn"
+languages: "goh_Latn"
+languages: "gor_Latn"
+languages: "gos_Latn"
+languages: "grb_Latn"
+languages: "grc_Grek"
+languages: "gsw_Latn"
+languages: "gub_Latn"
+languages: "guc_Latn"
+languages: "gur_Latn"
+languages: "guu_Latn"
+languages: "guz_Latn"
+languages: "gv_Latn"
+languages: "gwi_Latn"
+languages: "gyr_Latn"
+languages: "ha_Latn"
+languages: "hai_Latn"
+languages: "hak_Latn"
+languages: "haw_Latn"
+languages: "hea_Latn"
+languages: "hi_Latn"
+languages: "hif_Latn"
+languages: "hil_Latn"
+languages: "hlt_Latn"
+languages: "hmn_Latn"
+languages: "hms_Latn"
+languages: "hna_Latn"
+languages: "hni_Latn"
+languages: "hnj_Latn"
+languages: "hnn_Latn"
+languages: "hns_Latn"
+languages: "ho_Latn"
+languages: "hop_Latn"
+languages: "hr_Latn"
+languages: "hsb_Latn"
+languages: "ht_Latn"
+languages: "hu_Latn"
+languages: "hup_Latn"
+languages: "hus_Latn"
+languages: "huu_Latn"
+languages: "hz_Latn"
+languages: "ia_Latn"
+languages: "iba_Latn"
+languages: "ibb_Latn"
+languages: "id_Latn"
+languages: "idu_Latn"
+languages: "ie_Latn"
+languages: "ife_Latn"
+languages: "ig_Latn"
+languages: "ii_Latn"
+languages: "ijs_Latn"
+languages: "ik_Latn"
+languages: "ikt_Latn"
+languages: "ilo_Latn"
+languages: "inh_Cyrl"
+languages: "inh_Latn"
+languages: "io_Latn"
+languages: "is_Latn"
+languages: "it_Latn"
+languages: "iu_Latn"
+languages: "izh_Latn"
+languages: "jam_Latn"
+languages: "jbo_Latn"
+languages: "jgo_Latn"
+languages: "jiv_Latn"
+languages: "jmc_Latn"
+languages: "jra_Latn"
+languages: "jut_Latn"
+languages: "jv_Latn"
+languages: "kaa_Cyrl"
+languages: "kab_Latn"
+languages: "kac_Latn"
+languages: "kaj_Latn"
+languages: "kam_Latn"
+languages: "kao_Latn"
+languages: "kbd_Cyrl"
+languages: "kbp_Latn"
+languages: "kca_Cyrl"
+languages: "kcg_Latn"
+languages: "kck_Latn"
+languages: "kde_Latn"
+languages: "kdh_Latn"
+languages: "kea_Latn"
+languages: "kek_Latn"
+languages: "kfo_Latn"
+languages: "kg_Latn"
+languages: "kge_Latn"
+languages: "kgp_Latn"
+languages: "kha_Latn"
+languages: "khq_Latn"
+languages: "khw_Latn"
+languages: "ki_Latn"
+languages: "kiu_Latn"
+languages: "kj_Latn"
+languages: "kjg_Latn"
+languages: "kjh_Cyrl"
+languages: "kk_Cyrl"
+languages: "kk_Latn"
+languages: "kkj_Latn"
+languages: "kl_Latn"
+languages: "kln_Latn"
+languages: "kmb_Latn"
+languages: "knc_Latn"
+languages: "knf_Latn"
+languages: "koi_Cyrl"
+languages: "koo_Latn"
+languages: "kos_Latn"
+languages: "kpe_Latn"
+languages: "kpy_Cyrl"
+languages: "kqn_Latn"
+languages: "kqs_Latn"
+languages: "kr_Latn"
+languages: "krc_Cyrl"
+languages: "kri_Latn"
+languages: "krj_Latn"
+languages: "krl_Latn"
+languages: "ksb_Latn"
+languages: "ksf_Latn"
+languages: "ksh_Latn"
+languages: "ktu_Latn"
+languages: "ku_Cyrl"
+languages: "ku_Latn"
+languages: "kum_Cyrl"
+languages: "kut_Latn"
+languages: "kv_Cyrl"
+languages: "kvr_Latn"
+languages: "kw_Latn"
+languages: "kwi_Latn"
+languages: "ky_Cyrl"
+languages: "ky_Latn"
+languages: "la_Latn"
+languages: "lad_Latn"
+languages: "lag_Latn"
+languages: "laj_Latn"
+languages: "lam_Latn"
+languages: "lb_Latn"
+languages: "lbe_Cyrl"
+languages: "lbw_Latn"
+languages: "lez_Cyrl"
+languages: "lfn_Cyrl"
+languages: "lfn_Latn"
+languages: "lg_Latn"
+languages: "li_Latn"
+languages: "lia_Latn"
+languages: "lij_Latn"
+languages: "liv_Latn"
+languages: "ljp_Latn"
+languages: "lkt_Latn"
+languages: "lld_Latn"
+languages: "lmo_Latn"
+languages: "ln_Latn"
+languages: "lns_Latn"
+languages: "lob_Latn"
+languages: "lol_Latn"
+languages: "lot_Latn"
+languages: "loz_Latn"
+languages: "lt_Latn"
+languages: "ltg_Latn"
+languages: "lu_Latn"
+languages: "lua_Latn"
+languages: "lue_Latn"
+languages: "lui_Latn"
+languages: "lun_Latn"
+languages: "luo_Latn"
+languages: "lus_Latn"
+languages: "lut_Latn"
+languages: "luy_Latn"
+languages: "lv_Latn"
+languages: "lzz_Latn"
+languages: "mad_Latn"
+languages: "maf_Latn"
+languages: "mak_Latn"
+languages: "mam_Latn"
+languages: "man_Latn"
+languages: "mas_Latn"
+languages: "maz_Latn"
+languages: "mcd_Latn"
+languages: "mcf_Latn"
+languages: "mdf_Cyrl"
+languages: "mdh_Latn"
+languages: "mdr_Latn"
+languages: "mdt_Latn"
+languages: "men_Latn"
+languages: "mer_Latn"
+languages: "mey_Latn"
+languages: "mfe_Latn"
+languages: "mfq_Latn"
+languages: "mfv_Latn"
+languages: "mg_Latn"
+languages: "mgh_Latn"
+languages: "mgo_Latn"
+languages: "mgy_Latn"
+languages: "mh_Latn"
+languages: "mi_Latn"
+languages: "mic_Latn"
+languages: "min_Latn"
+languages: "miq_Latn"
+languages: "mis_Latn"
+languages: "mk_Cyrl"
+languages: "mls_Latn"
+languages: "mn_Cyrl"
+languages: "mns_Cyrl"
+languages: "moe_Latn"
+languages: "moh_Latn"
+languages: "mor_Latn"
+languages: "mos_Latn"
+languages: "mrj_Cyrl"
+languages: "mro_Latn"
+languages: "mrw_Latn"
+languages: "ms_Latn"
+languages: "mt_Latn"
+languages: "mto_Latn"
+languages: "mua_Latn"
+languages: "mui_Latn"
+languages: "mus_Latn"
+languages: "mwk_Latn"
+languages: "mwl_Latn"
+languages: "mwv_Latn"
+languages: "mxc_Latn"
+languages: "mxi_Latn"
+languages: "mxv_Latn"
+languages: "myv_Cyrl"
+languages: "myx_Latn"
+languages: "mzi_Latn"
+languages: "na_Latn"
+languages: "nan_Latn"
+languages: "nap_Latn"
+languages: "naq_Latn"
+languages: "nb_Latn"
+languages: "nba_Latn"
+languages: "nch_Latn"
+languages: "nd_Latn"
+languages: "ndc_Latn"
+languages: "nds_Latn"
+languages: "ng_Latn"
+languages: "ngl_Latn"
+languages: "nhe_Latn"
+languages: "nhn_Latn"
+languages: "nhw_Latn"
+languages: "nia_Latn"
+languages: "nij_Latn"
+languages: "nio_Cyrl"
+languages: "niu_Latn"
+languages: "njo_Latn"
+languages: "nku_Latn"
+languages: "nl_Latn"
+languages: "nmg_Latn"
+languages: "nn_Latn"
+languages: "nnh_Latn"
+languages: "nnp_Latn"
+languages: "no_Latn"
+languages: "nog_Cyrl"
+languages: "non_Latn"
+languages: "not_Latn"
+languages: "nov_Latn"
+languages: "nr_Latn"
+languages: "nrf_Latn"
+languages: "nsk_Latn"
+languages: "nso_Latn"
+languages: "nus_Latn"
+languages: "nv_Latn"
+languages: "nxq_Latn"
+languages: "ny_Latn"
+languages: "nym_Latn"
+languages: "nyn_Latn"
+languages: "nyo_Latn"
+languages: "nzi_Latn"
+languages: "oaa_Cyrl"
+languages: "oc_Latn"
+languages: "oj_Latn"
+languages: "oki_Latn"
+languages: "om_Latn"
+languages: "orh_Latn"
+languages: "orv_Cyrl"
+languages: "os_Cyrl"
+languages: "osa_Latn"
+languages: "osc_Latn"
+languages: "ote_Latn"
+languages: "otn_Latn"
+languages: "owl_Latn"
+languages: "pag_Latn"
+languages: "pam_Latn"
+languages: "pap_Latn"
+languages: "pau_Latn"
+languages: "pbb_Latn"
+languages: "pcd_Latn"
+languages: "pck_Latn"
+languages: "pcm_Latn"
+languages: "pdc_Latn"
+languages: "pdt_Latn"
+languages: "pfl_Latn"
+languages: "pis_Latn"
+languages: "piu_Latn"
+languages: "pko_Latn"
+languages: "pl_Latn"
+languages: "pms_Latn"
+languages: "pnt_Cyrl"
+languages: "pnt_Grek"
+languages: "pnt_Latn"
+languages: "pon_Latn"
+languages: "pov_Latn"
+languages: "ppl_Latn"
+languages: "prg_Latn"
+languages: "pro_Latn"
+languages: "prq_Latn"
+languages: "pt_Latn"
+languages: "puu_Latn"
+languages: "qu_Latn"
+languages: "quc_Latn"
+languages: "qud_Latn"
+languages: "qug_Latn"
+languages: "quh_Latn"
+languages: "quy_Latn"
+languages: "quz_Latn"
+languages: "qva_Latn"
+languages: "qvc_Latn"
+languages: "qvh_Latn"
+languages: "qvm_Latn"
+languages: "qvn_Latn"
+languages: "qwh_Latn"
+languages: "qxn_Latn"
+languages: "qxu_Latn"
+languages: "rap_Latn"
+languages: "rar_Latn"
+languages: "ray_Latn"
+languages: "rcf_Latn"
+languages: "rej_Latn"
+languages: "rgn_Latn"
+languages: "rhg_Latn"
+languages: "ria_Latn"
+languages: "rif_Latn"
+languages: "rm_Latn"
+languages: "rmf_Latn"
+languages: "rmn_Latn"
+languages: "rmo_Latn"
+languages: "rmu_Latn"
+languages: "rn_Latn"
+languages: "rng_Latn"
+languages: "ro_Cyrl"
+languages: "ro_Latn"
+languages: "rob_Latn"
+languages: "rof_Latn"
+languages: "rom_Cyrl"
+languages: "rom_Latn"
+languages: "rtm_Latn"
+languages: "ru_Cyrl"
+languages: "rue_Cyrl"
+languages: "rug_Latn"
+languages: "rup_Latn"
+languages: "rw_Latn"
+languages: "rwk_Latn"
+languages: "sad_Latn"
+languages: "saf_Latn"
+languages: "sah_Cyrl"
+languages: "saq_Latn"
+languages: "sas_Latn"
+languages: "sat_Latn"
+languages: "sav_Latn"
+languages: "sbp_Latn"
+languages: "sc_Latn"
+languages: "scn_Latn"
+languages: "sco_Latn"
+languages: "scs_Latn"
+languages: "sdc_Latn"
+languages: "se_Cyrl"
+languages: "se_Latn"
+languages: "see_Latn"
+languages: "sef_Latn"
+languages: "seh_Latn"
+languages: "sei_Latn"
+languages: "sel_Cyrl"
+languages: "ses_Latn"
+languages: "sey_Latn"
+languages: "sg_Latn"
+languages: "sga_Latn"
+languages: "sgs_Latn"
+languages: "shi_Latn"
+languages: "shk_Latn"
+languages: "shp_Latn"
+languages: "sid_Latn"
+languages: "sja_Latn"
+languages: "sk_Latn"
+languages: "sl_Latn"
+languages: "sla_Latn"
+languages: "sli_Latn"
+languages: "slr_Latn"
+languages: "sly_Latn"
+languages: "sm_Latn"
+languages: "sma_Latn"
+languages: "smj_Latn"
+languages: "smn_Latn"
+languages: "sms_Latn"
+languages: "sn_Latn"
+languages: "snf_Latn"
+languages: "snk_Latn"
+languages: "snn_Latn"
+languages: "so_Latn"
+languages: "sq_Latn"
+languages: "sr_Cyrl"
+languages: "sr_Latn"
+languages: "srb_Latn"
+languages: "srn_Latn"
+languages: "srr_Latn"
+languages: "ss_Latn"
+languages: "ssy_Latn"
+languages: "st_Latn"
+languages: "stq_Latn"
+languages: "str_Latn"
+languages: "su_Latn"
+languages: "suk_Latn"
+languages: "sus_Latn"
+languages: "sv_Latn"
+languages: "sw_Latn"
+languages: "swb_Latn"
+languages: "swg_Latn"
+languages: "sxn_Latn"
+languages: "syi_Latn"
+languages: "szl_Latn"
+languages: "tab_Cyrl"
+languages: "taq_Latn"
+languages: "tbw_Latn"
+languages: "tbz_Latn"
+languages: "tca_Latn"
+languages: "tdt_Latn"
+languages: "tem_Latn"
+languages: "teo_Latn"
+languages: "ter_Latn"
+languages: "tet_Latn"
+languages: "tg_Cyrl"
+languages: "tg_Latn"
+languages: "tiv_Latn"
+languages: "tiw_Latn"
+languages: "tjs_Latn"
+languages: "tk_Cyrl"
+languages: "tk_Latn"
+languages: "tkl_Latn"
+languages: "tkr_Cyrl"
+languages: "tkr_Latn"
+languages: "tlh_Latn"
+languages: "tli_Latn"
+languages: "tly_Cyrl"
+languages: "tly_Latn"
+languages: "tmh_Latn"
+languages: "tn_Latn"
+languages: "tnr_Latn"
+languages: "to_Latn"
+languages: "tob_Latn"
+languages: "tog_Latn"
+languages: "toi_Latn"
+languages: "toj_Latn"
+languages: "top_Latn"
+languages: "tpi_Latn"
+languages: "tr_Latn"
+languages: "tru_Latn"
+languages: "trv_Latn"
+languages: "ts_Latn"
+languages: "tsd_Grek"
+languages: "tsg_Latn"
+languages: "tsi_Latn"
+languages: "tsz_Latn"
+languages: "tt_Cyrl"
+languages: "tt_Latn"
+languages: "ttj_Latn"
+languages: "ttt_Cyrl"
+languages: "ttt_Latn"
+languages: "tum_Latn"
+languages: "tvl_Latn"
+languages: "twq_Latn"
+languages: "ty_Latn"
+languages: "tyv_Cyrl"
+languages: "tzh_Latn"
+languages: "tzm_Latn"
+languages: "tzo_Latn"
+languages: "ude_Cyrl"
+languages: "udm_Cyrl"
+languages: "udm_Latn"
+languages: "udu_Latn"
+languages: "ug_Cyrl"
+languages: "ug_Latn"
+languages: "uk_Cyrl"
+languages: "uli_Latn"
+languages: "umb_Latn"
+languages: "ura_Latn"
+languages: "uz_Cyrl"
+languages: "uz_Latn"
+languages: "vai_Latn"
+languages: "ve_Latn"
+languages: "vec_Latn"
+languages: "vep_Latn"
+languages: "vi_Latn"
+languages: "vic_Latn"
+languages: "vls_Latn"
+languages: "vmf_Latn"
+languages: "vmw_Latn"
+languages: "vo_Latn"
+languages: "vot_Latn"
+languages: "vro_Latn"
+languages: "vun_Latn"
+languages: "wa_Latn"
+languages: "wae_Latn"
+languages: "war_Latn"
+languages: "was_Latn"
+languages: "wbp_Latn"
+languages: "wls_Latn"
+languages: "wo_Latn"
+languages: "wwa_Latn"
+languages: "xal_Cyrl"
+languages: "xav_Latn"
+languages: "xh_Latn"
+languages: "xog_Latn"
+languages: "xsm_Latn"
+languages: "xum_Latn"
+languages: "yad_Latn"
+languages: "yao_Latn"
+languages: "yap_Latn"
+languages: "yav_Latn"
+languages: "ybb_Latn"
+languages: "ykg_Cyrl"
+languages: "yo_Latn"
+languages: "yrk_Cyrl"
+languages: "yrl_Latn"
+languages: "yua_Latn"
+languages: "za_Latn"
+languages: "zag_Latn"
+languages: "zam_Latn"
+languages: "zap_Latn"
+languages: "zdj_Latn"
+languages: "zea_Latn"
+languages: "zlm_Latn"
+languages: "zmi_Latn"
+languages: "zro_Latn"
+languages: "ztu_Latn"
+languages: "zu_Latn"
+languages: "zun_Latn"
+languages: "zza_Latn"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

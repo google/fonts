@@ -1,0 +1,17 @@
+id: "awc_Latn"
+language: "awc"
+script: "Latn"
+name: "Cicipu"
+population: 44000
+region: "NG"
+exemplar_chars {
+  base: "a A á Á ã Ã b B ɓ Ɓ c C d D ɗ Ɗ e E é É ẽ Ẽ g G {gw} {GW} h H {hw} {HW} {hy} {HY} i I í Í ĩ Ĩ j J k K {kw} {KW} l L m M n N o O ó Ó õ Õ ø Ø ǿ Ǿ {ø̃} {Ø̃} p P r R s S t T u U ú Ú ũ Ũ v V w W y Y z Z ʼ {ʼw} {ʼW} {ʼy} {ʼY}"
+  marks: "◌̃ ◌̀ ◌́ ◌̂ ◌̋ ◌̌"
+  auxiliary: "f F q Q x X à À â Â {a̋} {A̋} {ã̀} {Ã̀} {ã́} {Ã́} {ã̂} {Ã̂} è È ê Ê {e̋} {E̋} {ẽ̀} {Ẽ̀} {ẽ́} {Ẽ́} {ẽ̂} {Ẽ̂} {ẽ̌} {Ẽ̌} ì Ì î Î {i̋} {I̋} {ĩ̀} {Ĩ̀} {ĩ́} {Ĩ́} {ĩ̂} {Ĩ̂} ò Ò ô Ô ő Ő {õ̀} {Õ̀} ṍ Ṍ {õ̂} {Õ̂} {ø̀} {Ø̀} {ø̂} {Ø̂} {ø̋} {Ø̋} {ø̃̀} {Ø̃̀} {ø̃́} {Ø̃́} {ø̃̂} {Ø̃̂} ù Ù û Û ű Ű {ũ̀} {Ũ̀} ṹ Ṹ {ũ̂} {Ũ̂}"
+}
+source: "Yadda za a karanta a kuma rubuta Cicipu = How to read and write Cicipu, 2011"
+source: "Stuart McGill, “Cicipu”, Journal of the International Phonetic Association, vol. 44, no. 3, 2014, p. 303-318"
+source: "Stuart McGill & Markus Yabani, Cicipu dictionary (with English and Hausa finderlists), 2015"
+source: "CAPRO BTL-Cicipu Language Development Project, Ukincaani Wu'etẽi wukKungwa Cicipu, Katakadda Kotto: Uhwara Wussayini katakadda kaKkungwa, CAPRO BTL-Cicipu Language Development Project, 2021"
+note: "McGill & Yabani 2015 use diacritics to indicate tones, CAPRO BTL-CLDP 2021 uses the acute and other works do not indicate any."
+

@@ -1,7 +1,7 @@
 name: "Stint Ultra Expanded"
 designer: "Astigmatic"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2012-02-15"
 fonts {
   name: "Stint Ultra Expanded"
@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

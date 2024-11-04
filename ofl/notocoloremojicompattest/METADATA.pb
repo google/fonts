@@ -14,3 +14,5 @@ fonts {
 }
 subsets: "emoji"
 subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "SYMBOLS"

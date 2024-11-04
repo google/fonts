@@ -38,4 +38,17 @@ axes {
 source {
   repository_url: "https://github.com/Omnibus-Type/Asap"
   commit: "927ab390d4ece9eaa70a3b16a6124baa9192e34c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Asap[wdth,wght].ttf"
+    dest_file: "Asap[wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Asap-Italic[wdth,wght].ttf"
+    dest_file: "Asap-Italic[wdth,wght].ttf"
+  }
+  branch: "master"
 }

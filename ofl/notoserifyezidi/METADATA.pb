@@ -22,8 +22,25 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/yezidi.git"
+  repository_url: "https://github.com/notofonts/yezidi"
   archive_url: "https://github.com/notofonts/yezidi/releases/download/NotoSerifYezidi-v1.001/NotoSerifYezidi-v1.001.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSerifYezidi/googlefonts/variable-ttf/NotoSerifYezidi[wght].ttf"
+    dest_file: "NotoSerifYezidi[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "ku_Yezi"  # Kurdish, Yezidi

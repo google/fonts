@@ -6,7 +6,7 @@ autonym: "Shibushi"
 population: 44620
 region: "YT"
 exemplar_chars {
-  base: "A B D E F G H I K L M N O P R S T U V W X Y Z Ɓ Ɗ N̈ a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ n̈"
+  base: "A B D E F G H I K L M N O P R S T U V W X Y Z Ɓ Ɗ {N̈} a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ {n̈}"
   auxiliary: "C J Q c j q"
   marks: "◌̈"
 }

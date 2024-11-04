@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/orienta"
   commit: "18d3b4ce823c8a5b374023c559cf6d2b2bd505a2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Orienta-Regular.ttf"
+    dest_file: "Orienta-Regular.ttf"
+  }
+  branch: "master"
 }

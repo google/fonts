@@ -23,4 +23,13 @@ axes {
 source {
   repository_url: "https://github.com/philatype/Sen/"
   commit: "8a0a0d7648fb466ebbab3a00b0e07046b0814727"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Sen[wght].ttf"
+    dest_file: "Sen[wght].ttf"
+  }
+  branch: "master"
 }

@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "linear-b"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/linear-b.git"
+  repository_url: "https://github.com/notofonts/linear-b"
   archive_url: "https://github.com/notofonts/linear-b/releases/download/NotoSansLinearB-v2.002/NotoSansLinearB-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansLinearB/googlefonts/ttf/NotoSansLinearB-Regular.ttf"
+    dest_file: "NotoSansLinearB-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "gmy_Linb"  # Mycenaean Greek

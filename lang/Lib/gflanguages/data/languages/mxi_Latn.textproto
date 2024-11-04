@@ -2,7 +2,7 @@ id: "mxi_Latn"
 language: "mxi"
 script: "Latn"
 name: "Mozarabic"
-region: "US"
+historical: true
 sample_text {
   masthead_full: "TtOo"
   masthead_partial: "Ss"

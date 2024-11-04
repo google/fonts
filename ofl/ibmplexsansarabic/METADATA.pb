@@ -71,4 +71,44 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/plex"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/descriptions/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Arabic/fonts/complete/ttf/IBMPlexSansArabic-Bold.ttf"
+    dest_file: "IBMPlexSansArabic-Bold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Arabic/fonts/complete/ttf/IBMPlexSansArabic-ExtraLight.ttf"
+    dest_file: "IBMPlexSansArabic-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Arabic/fonts/complete/ttf/IBMPlexSansArabic-Light.ttf"
+    dest_file: "IBMPlexSansArabic-Light.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Arabic/fonts/complete/ttf/IBMPlexSansArabic-Medium.ttf"
+    dest_file: "IBMPlexSansArabic-Medium.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Arabic/fonts/complete/ttf/IBMPlexSansArabic-Regular.ttf"
+    dest_file: "IBMPlexSansArabic-Regular.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Arabic/fonts/complete/ttf/IBMPlexSansArabic-SemiBold.ttf"
+    dest_file: "IBMPlexSansArabic-SemiBold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Arabic/fonts/complete/ttf/IBMPlexSansArabic-Thin.ttf"
+    dest_file: "IBMPlexSansArabic-Thin.ttf"
+  }
+  branch: "master"
+}
 primary_script: "Arab"

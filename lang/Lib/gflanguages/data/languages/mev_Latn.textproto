@@ -1,0 +1,14 @@
+id: "mev_Latn"
+language: "mev"
+script: "Latn"
+name: "Mano"
+population: 430000
+region: "GN"
+region: "LR"
+exemplar_chars {
+  base: "a A à À á Á ã Ã {ã̀} {Ã̀} {ã́} {Ã́} b B ɓ Ɓ d D e E è È é É ɛ Ɛ {ɛ̀} {Ɛ̀} {ɛ́} {Ɛ́} {ɛ̃̀} {Ɛ̃̀} {ɛ̃́} {Ɛ̃́} f F g G {gb} {GB} {gw} {GW} i I ì Ì í Í k K {kp} {KP} {kw} {KW} l L m M {m̀} {M̀} ḿ Ḿ n N ŋ Ŋ {ŋw} {ŊW} ɲ Ɲ o O ò Ò ó Ó ɔ Ɔ {ɔ̀} {Ɔ̀} {ɔ́} {Ɔ́} {ɔ̃} {Ɔ̃̀} {ɔ̃́} {Ɔ̃́} p P s S t T u U ù Ù ú Ú {ũ̀} {Ũ̀} ṹ Ṹ v V w W y Y z Z"
+  marks: "◌̀ ◌́ ◌̃ ◌̄ ◌̰"
+  auxiliary: "{a̰} {A̰} {à̰} {À̰} {á̰} {Á̰} {ā̰} {Ā̰} {ɛ̰} {Ɛ̰} {ɛ̰̀} {Ɛ̰̀} {ɛ̰́} {Ɛ̰́} {ɛ̰̄} {Ɛ̰̄} {ŋ̀} {Ŋ̀} {ŋ́} {Ŋ́} {ŋ̄} {Ŋ̄} {ɔ̰} {Ɔ̰} {ɔ̰̀} {Ɔ̰̀} {ɔ̰́} {Ɔ̰́} {ɔ̰̄} {Ɔ̰̄} ṵ Ṵ {ṵ̀} {Ṵ̀} {ṵ́} {Ṵ́} {ṵ̄} {Ṵ̄}"
+}
+note: "The LIBTRALO orthography uses ◌̀ ◌́ ◌̃ for low tone, high tone and nasal pronunciation whereas Khachaturyan, Carbo & Mamy 2022 uses ◌̀ ◌́ ◌̄ ◌̰ for low tone, high tone, mid tone and nasal pronunciation. Some authors use n after a nasal vowel instead of using tilde above (or below)."
+source: "Maria Khachaturyan, Matilda Carbo & Pe Mamy, “Dictionnaire mano-français suivi d’un index français-mano”, Mandenkan, no. 67, 2022, p. 45-278"

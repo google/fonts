@@ -1,7 +1,7 @@
 name: "Dokdo"
 designer: "FONTRIX"
 license: "OFL"
-category: "HANDWRITING"
+category: "DISPLAY"
 date_added: "2018-02-23"
 fonts {
   name: "Dokdo"
@@ -14,3 +14,4 @@ fonts {
 }
 subsets: "korean"
 subsets: "menu"
+primary_script: "Kore"

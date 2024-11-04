@@ -1,0 +1,14 @@
+id: "bot_Latn"
+language: "bot"
+script: "Latn"
+name: "Bongo"
+autonym: "Bongo"
+population: 19000
+region: "SS"
+exemplar_chars {
+  base: "a A ä Ä b B {ꞌb} {ꞋB} c C d D {ꞌd} {ꞋD} e E ë Ë {ë̱} {Ë̱} f F g G {gb} {GB} h H i I ï Ï {ï̱} {Ï̱} j J {ꞌj} {ꞋJ} k K {kp} {KP} l L m M {mb} {MB} n N {nd} {ND} {ng} {NG} {ngb} {NGB} {nj} {NJ} {ny} {NY} {ꞌng} {ꞋNG} o O ö Ö p P r R t T u U ü Ü {ü̱} {Ü̱} w W y Y"
+  auxiliary: "q Q s S v V x X z Z"
+  marks: "◌̈ ◌̱"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+}
+source: "Daniel Rabbi Moi, Mario Lau Babur Kuduku, Mary Mangira Michael, Simon Hagimir John, Rapheal Zakenia Paul Mafoi et Nyoul Gulluma Kuduku, Bongo consonant and vowel book, Juba, SIL-South Sudan, 2018"

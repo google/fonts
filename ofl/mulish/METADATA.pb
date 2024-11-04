@@ -32,3 +32,23 @@ axes {
   min_value: 200.0
   max_value: 1000.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/mulish"
+  files {
+    source_file: "fonts/variable/Mulish[wght].ttf"
+    dest_file: "Mulish[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Mulish-Italic[wght].ttf"
+    dest_file: "Mulish-Italic[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
+}

@@ -14,3 +14,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/s-a/digital-numbers-font"
+}

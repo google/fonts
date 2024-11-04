@@ -27,8 +27,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/ethiopic.git"
+  repository_url: "https://github.com/notofonts/ethiopic"
   archive_url: "https://github.com/notofonts/ethiopic/releases/download/NotoSerifEthiopic-v2.102/NotoSerifEthiopic-v2.102.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf"
+    dest_file: "NotoSerifEthiopic[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "am_Ethi"  # Amharic

@@ -5,7 +5,7 @@ Hierarchy refers to the overall structure of a document and the relationship bet
 
 ![An article-like layout, with each element wrapped in a bounding box, from the level-one heading that serves as a heading for the entire content, to the level-two heading that relates to the second paragraph, to the pull quote off to one side.](images/thumbnail.svg)
 
-<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Source+Serif+Pro">Source Serif Pro</a></figcaption>
+<figcaption>Typeface: <a href="https://fonts.google.com/specimen/Source+Serif+4">Source Serif 4</a></figcaption>
 
 </figure>
 

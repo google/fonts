@@ -24,4 +24,13 @@ axes {
 source {
   repository_url: "https://github.com/bettergui/DarkerGrotesque"
   commit: "a5c3584b44ab3a7d272565662139ee07bb72e8e8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/DarkerGrotesque[wght].ttf"
+    dest_file: "DarkerGrotesque[wght].ttf"
+  }
+  branch: "master"
 }

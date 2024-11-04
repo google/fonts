@@ -30,3 +30,6 @@ axes {
   min_value: 300.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/Omnibus-Type/Manuale"
+}

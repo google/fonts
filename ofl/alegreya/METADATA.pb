@@ -34,3 +34,20 @@ axes {
   min_value: 400.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/TypeNetwork/Alegreya"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Alegreya[wght].ttf"
+    dest_file: "Alegreya[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Alegreya-Italic[wght].ttf"
+    dest_file: "Alegreya-Italic[wght].ttf"
+  }
+  branch: "master"
+}
+minisite_url: "https://huertatipografica.com/en/fonts/alegreya-ht-pro"

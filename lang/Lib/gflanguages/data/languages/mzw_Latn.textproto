@@ -2,6 +2,8 @@ id: "mzw_Latn"
 language: "mzw"
 script: "Latn"
 name: "Deg"
+population: 27500
+region: "GH"
 exemplar_chars {
   base: "a A b B d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V w W y Y"
   auxiliary: "q Q x X z Z"

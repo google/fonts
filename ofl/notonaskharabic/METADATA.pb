@@ -15,15 +15,35 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/arabic.git"
-  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.016/NotoNaskhArabic-v2.016.zip"
+  repository_url: "https://github.com/notofonts/arabic"
+  commit: "136d96955b0581da8718eb4cdb2e700a723aefc6"
+  archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.019/NotoNaskhArabic-v2.019.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoNaskhArabic/googlefonts/variable-ttf/NotoNaskhArabic[wght].ttf"
+    dest_file: "NotoNaskhArabic[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aeb_Arab"  # Tunisian Arabic
@@ -92,7 +112,7 @@ languages: "shi_Arab"  # Tachelhit
 languages: "skr_Arab"  # Saraiki
 languages: "so_Arab"  # Somali, Arabic
 languages: "sus_Arab"  # Susu, Arabic
-languages: "swb_Arab"  # Comorian
+languages: "swb_Arab"  # Maore Comorian, Arabic
 languages: "tg_Arab"  # Tajik (Arabic)
 languages: "tk_Arab"  # Turkmen
 languages: "tly_Arab"  # Talysh

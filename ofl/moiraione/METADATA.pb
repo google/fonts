@@ -19,5 +19,18 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Moirai"
   commit: "3220f0c211c8d3a3bb989896cf7ea66d16a925e6"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Fonts/ttf/MoiraiOne-Regular.ttf"
+    dest_file: "MoiraiOne-Regular.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Kore"

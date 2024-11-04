@@ -17,10 +17,24 @@ subsets: "latin-ext"
 subsets: "limbu"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/limbu.git"
-  archive_url: "https://github.com/notofonts/limbu/releases/download/NotoSansLimbu-v2.004/NotoSansLimbu-v2.004.zip"
+  repository_url: "https://github.com/notofonts/limbu"
+  commit: "912b8113bbabaf7322956fe80a0ad18575e77d7e"
+  archive_url: "https://github.com/notofonts/limbu/releases/download/NotoSansLimbu-v2.005/NotoSansLimbu-v2.005.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansLimbu/googlefonts/ttf/NotoSansLimbu-Regular.ttf"
+    dest_file: "NotoSansLimbu-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "lif_Limb"  # Limbu, Limbu
-languages: "sa_Limb"  # Sanskrit, Limbu
+languages: "sa_Limb"
 primary_script: "Limb"

@@ -23,3 +23,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

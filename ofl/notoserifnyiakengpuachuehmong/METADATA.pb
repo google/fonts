@@ -21,3 +21,4 @@ axes {
 }
 is_noto: true
 languages: "hmn_Hmnp"  # Hmong, Nyiakeng Puachue Hmong
+primary_script: "Hmnp"

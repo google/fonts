@@ -16,10 +16,27 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "makasar"
 subsets: "menu"
-primary_script: "Maka"
-languages: "mak_Maka"  # Makasar, Old Makasar
 source {
-  repository_url: "https://github.com/notofonts/makasar.git"
+  repository_url: "https://github.com/notofonts/makasar"
   archive_url: "https://github.com/notofonts/makasar/releases/download/NotoSerifMakasar-v1.001/NotoSerifMakasar-v1.001.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSerifMakasar/googlefonts/ttf/NotoSerifMakasar-Regular.ttf"
+    dest_file: "NotoSerifMakasar-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
+languages: "mak_Maka"  # Makasar, Old Makasar
+primary_script: "Maka"

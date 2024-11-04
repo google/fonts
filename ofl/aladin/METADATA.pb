@@ -1,7 +1,7 @@
 name: "Aladin"
 designer: "Sudtipos"
 license: "OFL"
-category: "HANDWRITING"
+category: "DISPLAY"
 date_added: "2011-11-30"
 fonts {
   name: "Aladin"

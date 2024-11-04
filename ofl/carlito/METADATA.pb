@@ -50,4 +50,25 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/carlito"
   commit: "3a810cab78ebd6e2e4eed42af9e8453c4f9b850a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Carlito-Regular.ttf"
+    dest_file: "Carlito-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Carlito-Bold.ttf"
+    dest_file: "Carlito-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Carlito-BoldItalic.ttf"
+    dest_file: "Carlito-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Carlito-Italic.ttf"
+    dest_file: "Carlito-Italic.ttf"
+  }
+  branch: "main"
 }

@@ -19,5 +19,14 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-alkalami"
   archive_url: "https://github.com/silnrsi/font-alkalami/releases/download/v3.000/Alkalami-3.000.zip"
+  files {
+    source_file: "Alkalami-3.000/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Alkalami-3.000/Alkalami-Regular.ttf"
+    dest_file: "Alkalami-Regular.ttf"
+  }
+  branch: "master"
 }
 primary_script: "Arab"

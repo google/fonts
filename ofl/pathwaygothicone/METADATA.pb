@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/pathway-gothic"
   commit: "cb77ed5f79d4572096191b7c7dfb157b65abf748"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/PathwayGothicOne-Regular.ttf"
+    dest_file: "PathwayGothicOne-Regular.ttf"
+  }
+  branch: "master"
 }

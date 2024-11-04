@@ -2,4 +2,15 @@ id: "car_Latn"
 language: "car"
 script: "Latn"
 name: "Carib"
-population: 0
+population: 8600
+region: "BR"
+region: "GF"
+region: "GY"
+region: "SR"
+region: "VE"
+exemplar_chars {
+    base: "a A b B d D e E f F g G h H i I ɨ Ɨ k K l L m M n N o O p P s S t T u U w W y Y ʼ `"
+}
+note: "Courtz (2008) uses ` and y instead of ʼ and ɨ."
+source: "Isabelle Appolinaire, Marie-Hélène Appolinaire, Daniel François et Wellya Jean-Jacques, Kali’na aulan melɨ, 2018"
+source: "Henk Courtz, A Carib Grammar and Dictionary, Leiden University, 2008"

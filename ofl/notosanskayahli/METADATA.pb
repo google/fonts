@@ -22,8 +22,21 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/notofonts/kayah-li.git"
+  repository_url: "https://github.com/notofonts/kayah-li"
   archive_url: "https://github.com/notofonts/kayah-li/releases/download/NotoSansKayahLi-v2.002/NotoSansKayahLi-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansKayahLi/googlefonts/variable-ttf/NotoSansKayahLi[wght].ttf"
+    dest_file: "NotoSansKayahLi[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "eky_Kali"  # Eastern Kayah

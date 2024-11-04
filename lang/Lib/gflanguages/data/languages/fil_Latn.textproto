@@ -7,8 +7,8 @@ population: 66905683
 region: "PH"
 region: "US"
 exemplar_chars {
-  base: "a b c d e f g h i j k l m n ñ {ng} o p q r s t u v w x y z"
-  auxiliary: "á à â é è ê í ì î ó ò ô ú ù û"
+  base: "A B C D E F G H I J K L M N Ñ {NG} O P Q R S T U V W X Y Z a b c d e f g h i j k l m n ñ {ng} o p q r s t u v w x y z"
+  auxiliary: "Á À Â É È Ê Í Ì Î Ó Ò Ô Ú Ù Û á à â é è ê í ì î ó ò ô ú ù û"
   marks: "◌̃"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] * / & #"

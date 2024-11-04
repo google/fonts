@@ -8,9 +8,24 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Shanti-Regular.ttf"
-  post_script_name: "Shanti"
-  full_name: "Shanti"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Names \'Shanti\'. All rights reserved."
+  post_script_name: "Shanti-Regular"
+  full_name: "Shanti Regular"
+  copyright: "Copyright 2011 The Shanti Project Authors (https://github.com/googlefonts/ShantiFont)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/ShantiFont"
+  commit: "511bc905381c9863b3dc241fc47523d1c3ba382f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Shanti-Regular.ttf"
+    dest_file: "Shanti-Regular.ttf"
+  }
+  branch: "master"
+}
+stroke: "SANS_SERIF"

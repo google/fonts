@@ -2,6 +2,9 @@ id: "xuo_Latn"
 language: "xuo"
 script: "Latn"
 name: "Kuo"
+population: 20000
+region: "CM"
+region: "TD"
 exemplar_chars {
   base: "a A à À b B d D e E f F g G h H i I ì Ì k K l L m M n N o O p P r R s S t T u U ù Ù v V w W y Y z Z ŋ Ŋ ɓ Ɓ ɔ Ɔ ɗ Ɗ ɛ Ɛ"
   marks: "◌̀ ◌́ ◌̌ ◌̰"

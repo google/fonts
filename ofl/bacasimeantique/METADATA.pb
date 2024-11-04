@@ -18,4 +18,17 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/docrepair-fonts/bacasime-antique-fonts"
   commit: "673db74ee28486bb370847e062a97a5f94cec2e0"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/BacasimeAntique-Regular.ttf"
+    dest_file: "BacasimeAntique-Regular.ttf"
+  }
+  branch: "main"
 }

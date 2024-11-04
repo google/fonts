@@ -32,3 +32,20 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/solmatas/BitterPro"
+  commit: "cd40ea8b9d4cf7f5f11bc62a156136258465dc9e"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Bitter[wght].ttf"
+    dest_file: "Bitter[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Bitter-Italic[wght].ttf"
+    dest_file: "Bitter-Italic[wght].ttf"
+  }
+  branch: "master"
+}

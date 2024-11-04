@@ -20,4 +20,13 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/FjallaOne"
   commit: "e5fcc44bb44b8a84debd0cc070bad1360cc91761"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/FjallaOne-Regular.ttf"
+    dest_file: "FjallaOne-Regular.ttf"
+  }
+  branch: "main"
 }

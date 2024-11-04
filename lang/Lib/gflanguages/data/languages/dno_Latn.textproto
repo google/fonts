@@ -1,0 +1,14 @@
+id: "dno_Latn"
+language: "dno"
+script: "Latn"
+name: "Ndrulo"
+autonym: "Ndrǔló"
+population: 150000
+region: "CD"
+region: "UG"
+exemplar_chars {
+  base: "A B D E F G H Ɦ I J K L M N Ŋ O P R S T U V W Y Z a b d e f g h ɦ i j k l m n ŋ o p r s t u v w y z Â Ê Î Ô {R̂} Û Á É Í Ó Ŕ Ś Ú À È Ì Ò {R̀} {S̀} Ù Ǎ Ě Ǐ Ǒ Ř Š Ǔ â ê î ô {r̂} û á é í ó ŕ ś ú à è ì ò {r̀} {s̀} ù ǎ ě ǐ ǒ ř š ǔ"
+  marks: "◌̀ ◌́ ◌̂ ◌̌"
+}
+source: "Wikipedia"
+source: "SIL International, Ndrǔló zòwdha ndèymí ddiy ndíydha [= Alphabet ndrǔló], SIL International, 2014"

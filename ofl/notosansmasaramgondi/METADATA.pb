@@ -17,8 +17,26 @@ subsets: "latin-ext"
 subsets: "masaram-gondi"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/masaram-gondi.git"
-  archive_url: "https://github.com/notofonts/masaram-gondi/releases/download/NotoSansMasaramGondi-v1.004/NotoSansMasaramGondi-v1.004.zip"
+  repository_url: "https://github.com/notofonts/masaram-gondi"
+  commit: "ce1d61955ea2cdc3da93cdc8dc0786aebd4a8667"
+  archive_url: "https://github.com/notofonts/masaram-gondi/releases/download/NotoSansMasaramGondi-v1.005/NotoSansMasaramGondi-v1.005.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansMasaramGondi/googlefonts/ttf/NotoSansMasaramGondi-Regular.ttf"
+    dest_file: "NotoSansMasaramGondi-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "esg_Gonm"  # Aheri Gondi

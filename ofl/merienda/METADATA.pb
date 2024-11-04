@@ -24,4 +24,13 @@ axes {
 source {
   repository_url: "https://github.com/etunni/merienda"
   commit: "15f2f36d29595fa3dd6cf068323ef44bc0713b56"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Merienda[wght].ttf"
+    dest_file: "Merienda[wght].ttf"
+  }
+  branch: "master"
 }

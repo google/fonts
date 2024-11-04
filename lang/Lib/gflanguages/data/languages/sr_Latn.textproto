@@ -12,7 +12,7 @@ region: "RU"
 region: "TR"
 region: "XK"
 exemplar_chars {
-  base: "a b c č ć d {dž} đ e f g h i j k l {lj} m n {nj} o p r s š t u v z ž"
+  base: "A B C Č Ć D {DŽ} Đ E F G H I J K L {LJ} M N {NJ} O P R S Š T U V Z Ž a b c č ć d {dž} đ e f g h i j k l {lj} m n {nj} o p r s š t u v z ž"
   auxiliary: "å q w x y"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – , ; : ! ? . … ‘ ‚ “ „ ( ) [ ] { } * #"

@@ -1,7 +1,7 @@
 name: "Wellfleet"
 designer: "Riccardo De Franceschi"
 license: "OFL"
-category: "DISPLAY"
+category: "SERIF"
 date_added: "2012-01-11"
 fonts {
   name: "Wellfleet"
@@ -12,6 +12,7 @@ fonts {
   full_name: "Wellfleet"
   copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name Wellfleet"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+stroke: "SLAB_SERIF"

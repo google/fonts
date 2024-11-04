@@ -26,7 +26,7 @@ Even young children understand that the closer something is to your eyes, the la
 
 </figure>
 
-For example, [type](/glossary/type) with a physical size of 72 points viewed from a distance of 10 inches has [a perceived size](https://sizecalc.com/#distance=10inches&physical-size=72points&perceived-size-units=arcminutes) of about 5.72°, or 343 arcminutes. To match that same perceived size from 1.5 times the distance (15 inches away), you’d have to also [increase the physical size](https://sizecalc.com/#distance=15inches&perceived-size=343.488627arcminutes&physical-size-units=points) by 1.5 times (to 108 points).
+For example, [type](/glossary/type) with a physical size of 72 points viewed from a distance of 10 inches has [a perceived size](https://web.archive.org/web/20240505051650/https://sizecalc.com/#distance=10inches&physical-size=72points&perceived-size-units=arcminutes) of about 5.72°, or 343 arcminutes. To match that same perceived size from 1.5 times the distance (15 inches away), you’d have to also [increase the physical size](https://web.archive.org/web/20240505051650/https://sizecalc.com/#distance=15inches&perceived-size=343.488627arcminutes&physical-size-units=points) by 1.5 times (to 108 points).
 
 Angular measurements like this are the basis of [visual acuity](https://en.wikipedia.org/wiki/Visual_acuity) tests you may be familiar with from the [eye charts](https://en.wikipedia.org/wiki/Eye_chart) at your optician’s office. They also inform standards about the design of traffic signs and other critical text-based information. This way of measuring perceived size is among the most relevant when it comes to how we experience text in the real world because it’s directly related to how quickly and easily we can decipher letters and words.
 
@@ -80,7 +80,7 @@ Despite some of the limitations and complications mentioned above, there’s sti
 - Experiment with API technologies like [DisplayID](https://en.wikipedia.org/wiki/DisplayID) and [RawDpi](https://learn.microsoft.com/en-us/uwp/api/windows.graphics.display.displayinformation.rawdpix) for working with actual physical size and resolution, even if it’s beyond the context of typical web browsers where they aren’t supported yet.
 - Try setting font sizes according to internal font measurements like x-height, and/or even more complex [fluid sizing calculations](https://css-tricks.com/simplified-fluid-typography/) based on a variety of interrelated factors.
 - Submit or support [feature requests](https://github.com/w3c/csswg-drafts/issues/614) for app developers and standards organizations to improve functionality for working with sizes based on physical measurements and/or internal font metrics.
-- Get more comfortable thinking about [viewing distance and angular units of measure](https://sizecalc.com) when calculating type sizes.
+- Get more comfortable thinking about [viewing distance and angular units of measure](https://web.archive.org/web/20240505051650/https://sizecalc.com/#distance=15inches&perceived-size=343.488627arcminutes&physical-size-units=points) when calculating type sizes.
 - Be more observant about how different typefaces may require changes in size specifications due to differences in their design or production.
 - Perhaps more important than anything, test the sizing logic on a variety of screens and devices to ensure it works reasonably well in as many environments as possible.
 

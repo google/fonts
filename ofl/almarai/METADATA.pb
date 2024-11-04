@@ -1,5 +1,5 @@
 name: "Almarai"
-designer: "Boutros Fonts"
+designer: "Boutros Fonts, Mourad Boutros"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2019-06-04"
@@ -42,3 +42,7 @@ fonts {
 subsets: "arabic"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/JuergenWillrodt/Almarai"
+}
+primary_script: "Arab"

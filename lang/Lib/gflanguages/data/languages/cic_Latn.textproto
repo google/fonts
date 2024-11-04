@@ -6,8 +6,8 @@ autonym: "Chikashshanompa\'"
 population: 0
 region: "US"
 exemplar_chars {
-  base: "A B C F G H I K L M N O P S T W Y A̠ I̠ O̠ a b c f g h i k l m n o p s t w y a̠ i̠ o̠ \'"
-  marks: "◌̠"
+  base: "a A b B c C f F g G h H i I k K l L m M n N o O p P s S t T w W y Y {a̱} {A̱} {i̱} {I̱} {o̱} {O̱} \'"
+  marks: "◌̱"
 }
 sample_text {
   masthead_full: "HhIi"

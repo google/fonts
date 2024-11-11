@@ -1,6 +1,174 @@
 {
-    "last_run": "2024-11-04",
+    "last_run": "2024-11-11",
     "commits": [
+        {
+            "date": "2024-11-09T00:11:14",
+            "title": "Merge pull request #8477 from google/lists-Nov-8",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "96d49db635eca9c3f48f036afb16891871f4103b"
+        },
+        {
+            "date": "2024-11-08T23:52:36",
+            "title": "Primary scripts PR updated",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7f2a9dd78d8c740fc29099be15c988440223e414"
+        },
+        {
+            "date": "2024-11-08T22:04:09",
+            "title": "November 8th lists added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ee4a9a0f79004049206d60756c01ce1dcf7dda57"
+        },
+        {
+            "date": "2024-11-08T19:48:48",
+            "title": "Merge pull request #8334 from google/davelab6-gupter-desc",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "edcdca16e0cc74c4e9cb42712c1eb10091128e73"
+        },
+        {
+            "date": "2024-11-08T13:47:00",
+            "title": "Merge pull request #8319 from google/gftools_packager_ofl_eduauvicwantarrows",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "8b77a15f5a79b2d1ae2188401fca2af3e57f9df5"
+        },
+        {
+            "date": "2024-11-07T19:29:40",
+            "title": "Merge pull request #8470 from google/gftools_packager_ofl_parkinsans",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "5a06479d5f275912e7e4d5a6306cfc9d1d361f4a"
+        },
+        {
+            "date": "2024-11-07T15:49:29",
+            "title": "article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "75c7cef8677374e8c6e9f2ff16e564aa609678f1"
+        },
+        {
+            "date": "2024-11-07T15:48:55",
+            "title": "Parkinsans: Version 1.000 added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "0de6c6b17ce1f17d5cc5a8f67269286cb6b22b5f"
+        },
+        {
+            "date": "2024-11-07T14:20:53",
+            "title": "Merge pull request #8472 from google/emmamarichal-patch-1",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "696c28f5893682f985be5904b7288abdb6514f65"
+        },
+        {
+            "date": "2024-11-07T13:51:23",
+            "title": "Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "a390e2f552ede3f8a50c9933f97d79b1e778128f"
+        },
+        {
+            "date": "2024-11-06T23:58:15",
+            "title": "Update DESCRIPTION.en_us.html",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "7fe3878a4a1eb8fa905dc801d6671c497ca68e00"
+        },
+        {
+            "date": "2024-11-06T23:57:15",
+            "title": "Link to upstream repo updated to last standard",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "d3d34744609707e1afe32c379881f97370c5f00c"
+        },
+        {
+            "date": "2024-11-06T23:45:48",
+            "title": "Merge pull request #8444 from google/gftools_packager_ofl_lateef",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "e5617d425ee7ed6196af3b615e363c4bafa07bab"
+        },
+        {
+            "date": "2024-11-05T23:34:15",
+            "title": "Update to_production.txt (#8465)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dd154026c1c8e6896c0c295ec02fbce13b27fed1"
+        },
+        {
+            "date": "2024-11-05T23:19:51",
+            "title": "Update to_production.txt (#8464)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ff45ec2103847a7c5c57a19d6985a3564e17c5e2"
+        },
+        {
+            "date": "2024-11-05T19:36:26",
+            "title": "Update to_sandbox.txt (#8463)",
+            "author": "Zhao",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6a40a07360a58102406e3bf641f0ca2e1b0e6ef2"
+        },
+        {
+            "date": "2024-11-04T23:05:42",
+            "title": "Update to_sandbox.txt (#8462)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9b501cc8f47c02b6812a8d18ea4982b629663240"
+        },
+        {
+            "date": "2024-11-04T22:37:18",
+            "title": "Upcycle gd (#8461)",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "005816a54afcd09d3ef3b3a9d4731739102b2ac5"
+        },
+        {
+            "date": "2024-11-04T21:23:39",
+            "title": "Upcycle gd (#8460)",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "20eeaa1aabf38a9fb63010c5e253fd6283288db2"
+        },
+        {
+            "date": "2024-11-04T18:51:05",
+            "title": "Merge pull request #8450 from shailenpatel2/gdesign-article (#8459)",
+            "author": "shailenpatel2",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "2e0f8dfd155de5b1a9faabe565d62cb0d31797e3"
+        },
+        {
+            "date": "2024-11-04T13:27:12",
+            "title": "Lists of the 1st of november (#8452)",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "047f53081e93356ccaa1cc900322b603c30633e4"
+        },
         {
             "date": "2024-11-01T19:18:32",
             "title": "Merge pull request #8453 from google/revert-8450-gdesign-article",
@@ -56,6 +224,14 @@
             "status": "modified",
             "kind": "family",
             "id": "a495359cdf3c536688f79f712554d55afb902615"
+        },
+        {
+            "date": "2024-11-01T10:18:03",
+            "title": "Lateef: Version 4.300 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "190eb6c3ec27dab8d207857e4474841d35981ebf"
         },
         {
             "date": "2024-11-01T10:17:31",
@@ -1550,8 +1726,16 @@
             "title": "Update families.csv",
             "author": "Emma Marichal",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "metadata",
             "id": "79fa164782654370b11ece47bbff31df1efa2f7f"
+        },
+        {
+            "date": "2024-10-15T21:31:07",
+            "title": "Update /ofl/gupter/DESCRIPTION.en_us.html",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "e87082f3a0ecacffd612a4612cf003df04c668c8"
         },
         {
             "date": "2024-10-15T14:15:45",
@@ -1584,6 +1768,14 @@
             "status": "modified",
             "kind": "family",
             "id": "83b7192a280ca0b2af6b111a78176a8b8c9aa3d2"
+        },
+        {
+            "date": "2024-10-11T12:01:26",
+            "title": "Edu AU VIC WA NT Arrows: Version 1.001 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "22484892c7906d7e005c05f1989b40b74d915f1f"
         },
         {
             "date": "2024-10-11T10:23:14",
@@ -71555,12 +71747,463 @@
                 "url": "https://github.com/google/fonts/pull/8199"
             },
             {
-                "path": "ofl/notosansnko_todelist",
+                "path": "ofl/parkinsans",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8470"
+            },
+            {
+                "path": "ofl/eduauvicwantarrows",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8319"
+            },
+            {
+                "path": "ofl/lateef",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8444"
+            },
+            {
+                "path": "ofl/paprika",
+                "category": "Upgrade",
+                "status": null,
+                "url": null
+            },
+            {
+                "path": "ofl/tapestry",
+                "category": "Upgrade",
+                "status": null,
+                "url": null
+            },
+            {
+                "path": "ofl/zain",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8335"
+            },
+            {
+                "path": "ofl/facultyglyphic",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8095"
+                "url": "https://github.com/google/fonts/pull/8447"
+            },
+            {
+                "path": "ofl/gupter",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8334"
             }
         ],
-        "production": []
+        "production": [
+            {
+                "path": "ofl/abyssinicasil",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8445"
+            },
+            {
+                "path": "ofl/harmattan",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8443"
+            },
+            {
+                "path": "ofl/notosansarabic",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/6859"
+            },
+            {
+                "path": "ofl/oi",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8353"
+            },
+            {
+                "path": "ofl/scheherazadenew",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8430"
+            },
+            {
+                "path": "catalog/designers/gustavoibarra",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7547"
+            },
+            {
+                "path": "catalog/designers/kotostudio",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8414"
+            },
+            {
+                "path": "ofl/akayatelivigala",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/akshar",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/almarai",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekbangla",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekdevanagari",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekgujarati",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekkannada",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekmalayalam",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekodia",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anektamil",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/blackandwhitepicture",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/blackhansans",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/cutefont",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/dokdo",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/dongle",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/eastseadokdo",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/fasthand",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8063"
+            },
+            {
+                "path": "ofl/gaegu",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/gamjaflower",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/gothica1",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/gowunbatang",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/gowundodum",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/gugi",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/hahmlet",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/himelody",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/khand",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/khmer",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/khula",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/kiwimaru",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/kleeone",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/kohsantepheap",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/kumarone",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/laila",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/lakkireddy",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/liujianmaocao",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8090"
+            },
+            {
+                "path": "ofl/matemasie",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8208"
+            },
+            {
+                "path": "ofl/moul",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/moulpali",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/mplus1",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/mplus1code",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/mplus1p",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/mplus2",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/mukta",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/muktavaani",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/nanumbrushscript",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/nanumgothic",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8092"
+            },
+            {
+                "path": "ofl/nanumgothiccoding",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/nanummyeongjo",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/nanumpenscript",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8185"
+            },
+            {
+                "path": "ofl/notoserifnyiakengpuachuehmong",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/nototraditionalnushu",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/ntr",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/odormeanchey",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/palanquin",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/palanquindark",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/peddana",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/phetsarath",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/ponnala",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/poorstory",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8097"
+            },
+            {
+                "path": "ofl/seaweedscript",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8063"
+            },
+            {
+                "path": "ofl/taprom",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8063"
+            }
+        ]
     }
 }

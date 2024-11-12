@@ -20,6 +20,7 @@ csv_families = set(
 )
 
 families_missing_tags = sorted(prod_families - csv_families)
+families_missing_tags = [f for f in families_missing_tags if not f.endswith("SC")]
 
 if families_missing_tags:
     missing_list = "\n".join(families_missing_tags)

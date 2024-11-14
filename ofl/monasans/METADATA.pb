@@ -1,5 +1,5 @@
 name: "Mona Sans"
-designer: "Github, Deni Anggara"
+designer: "Tobias Bjerrome Ahlin, Github, Deni Anggara, Sebastian Carewe"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-06-28"

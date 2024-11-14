@@ -36,7 +36,7 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/googlefonts/hubot-sans"
+  repository_url: "https://github.com/github/hubot-sans"
   commit: "9c2cc3ac30ac77cc7c3b40e0813b3487a0c56b7b"
   files {
     source_file: "OFL.txt"

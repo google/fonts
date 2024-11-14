@@ -36,7 +36,7 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/googlefonts/mona-sans"
+  repository_url: "https://github.com/github/mona-sans"
   commit: "56384c90b986d431470303b4f7296585cb9c4515"
   files {
     source_file: "OFL.txt"

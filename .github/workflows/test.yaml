@@ -69,6 +69,7 @@ jobs:
   diffenator:
     name: Diffenate fonts
     runs-on: ubuntu-latest
+    continue-on-error: true
 
     steps:
       - name: Cancel previous

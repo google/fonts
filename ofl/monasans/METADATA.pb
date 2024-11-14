@@ -1,5 +1,5 @@
 name: "Mona Sans"
-designer: "Tobias Bjerrome Ahlin, Github, Deni Anggara, Sebastian Carewe"
+designer: "Tobias Bjerrome Ahlin, Github, Degarism Studio, Sebastian Carewe"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-06-28"

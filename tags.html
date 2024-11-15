@@ -156,7 +156,7 @@
       },
       uniqueFamilies() {
         return Array.from(new Set(this.Families.map((family) => family.Family)));
-      },
+      }
     },
     methods: {
       sortedCategories() {
@@ -317,6 +317,7 @@
             return response.text()
           })
           .then(csvText => {
+            csvText = "Family,Group/Tag,Weight\n" + csvText;
             Papa.parse(csvText, {
               header: true,
               complete: (results) => {

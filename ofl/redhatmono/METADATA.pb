@@ -9,18 +9,18 @@ fonts {
   style: "normal"
   weight: 400
   filename: "RedHatMono[wght].ttf"
-  post_script_name: "RedHatMono-Light"
-  full_name: "Red Hat Mono Light"
-  copyright: "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)"
+  post_script_name: "RedHatMono-Regular"
+  full_name: "Red Hat Mono Regular"
+  copyright: "Copyright 2024 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)"
 }
 fonts {
   name: "Red Hat Mono"
   style: "italic"
   weight: 400
   filename: "RedHatMono-Italic[wght].ttf"
-  post_script_name: "RedHatMono-LightItalic"
-  full_name: "Red Hat Mono Light Italic"
-  copyright: "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)"
+  post_script_name: "RedHatMono-Italic"
+  full_name: "Red Hat Mono Italic"
+  copyright: "Copyright 2024 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -31,19 +31,19 @@ axes {
   max_value: 700.0
 }
 source {
-  repository_url: "https://github.com/jeremymickel/RedHatFonts"
-  commit: "d20968c93b62cedcc5ca4d2de2d8063c7efe35d1"
+  repository_url: "https://github.com/bghryct/RedHatMono"
+  commit: "a0f2a7032143500e44dfd569d09ba30414d51a1c"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/mono/RedHatMono[wght].ttf"
+    source_file: "fonts/variable/RedHatMono[wght].ttf"
     dest_file: "RedHatMono[wght].ttf"
   }
   files {
-    source_file: "fonts/mono/RedHatMono-Italic[wght].ttf"
+    source_file: "fonts/variable/RedHatMono-Italic[wght].ttf"
     dest_file: "RedHatMono-Italic[wght].ttf"
   }
-  branch: "master"
+  branch: "main"
 }

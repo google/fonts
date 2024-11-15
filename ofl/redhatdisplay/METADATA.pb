@@ -8,18 +8,18 @@ fonts {
   style: "normal"
   weight: 400
   filename: "RedHatDisplay[wght].ttf"
-  post_script_name: "RedHatDisplay-Light"
-  full_name: "Red Hat Display Light"
-  copyright: "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)"
+  post_script_name: "RedHatDisplay-Regular"
+  full_name: "Red Hat Display Regular"
+  copyright: "Copyright 2024 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)"
 }
 fonts {
   name: "Red Hat Display"
   style: "italic"
   weight: 400
   filename: "RedHatDisplay-Italic[wght].ttf"
-  post_script_name: "RedHatDisplay-LightItalic"
-  full_name: "Red Hat Display Light Italic"
-  copyright: "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)"
+  post_script_name: "RedHatDisplay-Italic"
+  full_name: "Red Hat Display Italic"
+  copyright: "Copyright 2024 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -30,21 +30,21 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/jeremymickel/RedHatFonts"
-  commit: "d20968c93b62cedcc5ca4d2de2d8063c7efe35d1"
+  repository_url: "https://github.com/bghryct/RedHatDisplay"
+  commit: "fd36df3a3ad95084fe777597ed4b5c19961b3631"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/proportional/RedHatDisplay[wght].ttf"
+    source_file: "fonts/variable/RedHatDisplay[wght].ttf"
     dest_file: "RedHatDisplay[wght].ttf"
   }
   files {
-    source_file: "fonts/proportional/RedHatDisplay-Italic[wght].ttf"
+    source_file: "fonts/variable/RedHatDisplay-Italic[wght].ttf"
     dest_file: "RedHatDisplay-Italic[wght].ttf"
   }
-  branch: "master"
+  branch: "main"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

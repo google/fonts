@@ -35,3 +35,19 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/Omnibus-Type/Archivo"
+  files {
+    source_file: "fonts/variable/Archivo[wdth,wght].ttf"
+    dest_file: "Archivo[wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Archivo-Italic[wdth,wght].ttf"
+    dest_file: "Archivo-Italic[wdth,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}

@@ -1,7 +1,7 @@
 
 “Parametric Counter Width” (`XTRA` in CSS) is a [parametric axis](/glossary/parametric_axis), found in some [variable fonts](/glossary/variable_fonts), that varies counter widths in the X dimension. It can be used for fine-tuning [justification](/glossary/alignment_justification) (as demonstrated in [TypeNetwork’s example](https://variablefonts.typenetwork.com/topics/spacing/variations)) by affecting the number of [characters](/glossary/character) per line.
 
-The [Google Fonts CSS v2 API ](https://developers.google.com/fonts/docs/css2) defines the axis as:
+The [Google Fonts CSS v2 API](https://developers.google.com/fonts/docs/css2) defines the axis as:
 
 | Default: | Min: | Max: | Step: |
 | --- | --- | --- | --- |

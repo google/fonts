@@ -49,6 +49,25 @@ axes {
 }
 source {
   repository_url: "https://github.com/arrowtype/shantell-sans"
-  commit: "eb212fc669479ba32740440fab2e4207057c37b2"
+  commit: "68f5eca1490a58973b2a814d3a7d0f61291fd0c9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/shantell_sans-for-googlefonts/ShantellSans[BNCE,INFM,SPAC,wght].ttf"
+    dest_file: "ShantellSans[BNCE,INFM,SPAC,wght].ttf"
+  }
+  files {
+    source_file: "fonts/shantell_sans-for-googlefonts/ShantellSans-Italic[BNCE,INFM,SPAC,wght].ttf"
+    dest_file: "ShantellSans-Italic[BNCE,INFM,SPAC,wght].ttf"
+  }
+  branch: "main"
 }
 minisite_url: "https://www.shantellsans.com"
+stroke: "SANS_SERIF"
+classifications: "HANDWRITING"

@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "signwriting"
 source {
-  repository_url: "https://github.com/notofonts/sign-writing.git"
-  archive_url: "https://github.com/notofonts/sign-writing/releases/download/NotoSansSignWriting-v2.004/NotoSansSignWriting-v2.004.zip"
+  repository_url: "https://github.com/notofonts/sign-writing"
+  archive_url: "https://github.com/notofonts/sign-writing/releases/download/NotoSansSignWriting-v2.005/NotoSansSignWriting-v2.005.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NotoSansSignWriting/googlefonts/ttf/NotoSansSignWriting-Regular.ttf"
+    dest_file: "NotoSansSignWriting-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 sample_text {
@@ -30,3 +47,4 @@ sample_text {
   poster_md: "𝡝𝪜𝦦𝪬"
   poster_lg: "𝡝𝪩𝡝𝪡𝤅"
 }
+primary_script: "Sgnw"

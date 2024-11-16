@@ -35,5 +35,22 @@ axes {
 source {
   repository_url: "https://github.com/lettersoup/Sofia-Sans"
   commit: "185877d082cebb40facd65143326147431863688"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/Normal/SofiaSans[wght].ttf"
+    dest_file: "SofiaSans[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Normal/SofiaSans-Italic[wght].ttf"
+    dest_file: "SofiaSans-Italic[wght].ttf"
+  }
+  branch: "master"
 }
 minisite_url: "https://www.lettersoup.de/sofia-sans/"

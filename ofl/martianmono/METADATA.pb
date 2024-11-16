@@ -31,4 +31,13 @@ axes {
 source {
   repository_url: "https://github.com/evilmartians/mono"
   commit: "17865aac562a1a800888de6604f7251f135cf3b5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/MartianMono[wdth,wght].ttf"
+    dest_file: "MartianMono[wdth,wght].ttf"
+  }
+  branch: "main"
 }

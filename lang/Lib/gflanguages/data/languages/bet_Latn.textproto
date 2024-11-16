@@ -2,8 +2,11 @@ id: "bet_Latn"
 language: "bet"
 script: "Latn"
 name: "Bété, Guiberoua"
+population: 265000
+region: "CI"
 exemplar_chars {
-  base: "a A ä Ä b B c C d D e E ë Ë ɛ Ɛ f F g G i I ï Ï ɩ Ɩ j J k K l L m M n N o O ö Ö ɔ Ɔ p P s S t T u U ʋ Ʋ v V w W y Y z Z"
+  base: "a A ä Ä b B {bh} {BH} c C d D e E {eh} {EH} ë Ë ɛ Ɛ f F g G {gb} {GB} {gh} {GH} i I ï Ï j J k K {kp} {KP} l L m M n N {ng} {NG} {ny} {NY} o O {oh} {OH} ö Ö ɔ Ɔ p P s S t T u U v V w W y Y z Z"
   marks: "◌̈"
   auxiliary: "q Q r R x X"
 }
+source: "Gnahore Menehi and Georges Retord, A-ayoo! : cours de bété, “Annales de l’Université d’Abidjan / H” (no 13), 1980"

@@ -14,3 +14,5 @@ fonts {
 }
 subsets: "korean"
 subsets: "menu"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

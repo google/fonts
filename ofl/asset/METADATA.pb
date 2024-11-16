@@ -1,5 +1,5 @@
 name: "Asset"
-designer: "Riccardo De Franceschi"
+designer: "Riccardo De Franceschi, Eben Sorkin"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-06-29"
@@ -10,7 +10,30 @@ fonts {
   filename: "Asset-Regular.ttf"
   post_script_name: "Asset-Regular"
   full_name: "Asset Regular"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Asset\".  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright 2023 The Asset Project Authors (https://github.com/SorkinType/Asset)"
 }
+subsets: "cyrillic-ext"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
+source {
+  repository_url: "https://github.com/SorkinType/Asset"
+  commit: "8b65aa032ccd4cd76c6e1e6e28bad4601210c8fe"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Asset-Regular.ttf"
+    dest_file: "Asset-Regular.ttf"
+  }
+  branch: "main"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

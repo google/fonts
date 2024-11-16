@@ -1,0 +1,12 @@
+id: "gov_Latn"
+language: "gov"
+script: "Latn"
+name: "Goo"
+population: 8500
+region: "CI"
+exemplar_chars {
+  base: "a A ʌ Ʌ b B {bh} {BH} d D e E ɛ Ɛ g G {gb} {GB} {gw} {GW} i I ɩ Ɩ j J k K {kp} {KP} {kw} {KW} l L n N ŋ Ŋ o O ɔ Ɔ ɤ Ɤ p P s S t T u U ʋ Ʋ v V w W y Y z Z á Á {ʌ́} {Ʌ́} é É {ɛ́} {Ɛ́} í Í {ɩ́} {Ɩ́} ó Ó {ɔ́} {Ɔ́} {ɤ́} {Ɤ́} ú Ú {ʋ́} {Ʋ́} ń Ń {ŋ́} {Ŋ́} â Â {ʌ̂} {Ʌ̂} ê Ê {ɛ̂} {Ɛ̂} î Î {ɩ̂} {Ɩ̂} ô Ô {ɔ̂} {Ɔ̂} {ɤ̂} {Ɤ̂} û Û {ʋ̂} {Ʋ̂} {n̂} {N̂} {ŋ̂} {Ŋ̂} à À {ʌ̀} {Ʌ̀} è È {ɛ̀} {Ɛ̀} ì Ì {ɩ̀} {Ɩ̀} ò Ò {ɔ̀} {Ɔ̀} {ɤ̀} {Ɤ̀} ù Ù {ʋ̀} {Ʋ̀} ǹ Ǹ {ŋ̀} {Ŋ̀}"
+  auxiliary: "c C f F h H m M q Q r R x X"
+  marks: "◌̀ ◌́ ◌̂"
+}
+source: "Ekaterina Aplonova, “Dictionnaire goo – français”, Mandenkan, no. 63, 2020, pp. 3-67"

@@ -43,7 +43,7 @@ The file extension variable fonts use is usually .ttf and, rarely, .otf, but sad
 
 Using variable fonts on the web is relatively straightforward, especially with a service such as Google Fonts: Simply [load the variable fonts](/lesson/loading_variable_fonts_on_the_web) you’d like to use, then [style the type with CSS](/lesson/styling_type_on_the_web_with_variable_fonts). But how do you use variable fonts in a desktop app?
 
-One important thing to note is that not all desktop apps populate their font menu in the same way. Sketch, for instance, uses fonts installed locally on your system, whereas Figma combines local fonts with a selection of fonts served from the Google Fonts library—which now includes hundreds of variable fonts. Adobe’s various Creative Cloud apps also combine local fonts with a selection of fonts bundled with the apps (including a few variable fonts). The Adobe Fonts library does not yet provide any variable fonts.
+One important thing to note is that not all desktop apps populate their font menu in the same way. Sketch, for instance, uses fonts installed locally on your system, whereas Figma combines local fonts with a selection of fonts served from the Google Fonts library—which now includes hundreds of variable fonts. Adobe’s various Creative Cloud apps also combine local fonts with a selection of fonts bundled with the apps (including a few variable fonts).
 
 Some font manager apps allow the Google Fonts library to be synced to your computer, which means they should show up in all font menus. At the time of writing, Typeface is the only app to sync the entire Google Fonts library, *including* variable fonts. Other apps sync the library, but without variable fonts included.
 
@@ -53,11 +53,11 @@ Also, support for variable fonts can differ between apps, falling into one of th
 
 ![Two type specimens, with the top set in the small optical size and the bottom set in the large optical size. Next to each are variable axes and a “set optical size manually” checkbox. It is unchecked in the top example, which is why the text appears to be set at the wrong optical size.](images/installing_managing_2.svg)
 
-2. Variable fonts are supported with direct control over axes (usually shown as sliders and number inputs). Many design apps now allow for this, including Figma, Sketch, and Adobe’s Photoshop, InDesign, and Illustrator apps. [v-fonts.com/support](http://v-fonts.com/support) actively maintains a list of supporting software.
+2. Variable fonts are supported with direct control over axes (usually shown as sliders and number inputs). Many design apps now allow for this, including Figma, Sketch, Affinity, and Adobe’s Photoshop, InDesign, and Illustrator apps. [v-fonts.com/support](http://v-fonts.com/support) actively maintains a list of supporting software.
 
 ![A representation of common user interface controls for fonts—a family name followed by a style name—with a sub-menu showing additional sliders for controlling variable axes.](images/installing_managing_3.svg)
 
-3. Variable fonts are presented as a set of static fonts. In this case, we can’t set any axis value, but we can access the named [instances](/glossary/instance). Current examples include Apple’s Keynote, Numbers, and Pages apps, and Microsoft’s Word and Powerpoint. In Affinity’s suite of apps, variable fonts’ metrics remain at their default values, which means they’re currently unusable.
+3. Variable fonts are presented as a set of static fonts. In this case, we can’t set any axis value, but we can access the named [instances](/glossary/instance). Current examples include Apple’s Keynote, Numbers, and Pages apps, and Microsoft’s Word and Powerpoint.
 
 4. Variable fonts are occasionally not supported at all, in which case only the default style can be used.
 

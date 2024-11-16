@@ -1,6 +1,6 @@
 Although it’s possible to practice good typography with whatever typeface we’re handed—even the most basic of defaults can be improved with some thoughtful tweaks to [line-height](/lesson/choosing_a_suitable_line_height), [measure](/lesson/understanding_measure_line_length), and [tracking](https://fonts.google.com/knowledge/using_type/track_carefully_or_not_at_all)—it’s nice to have options. A wider selection of typefaces can help us nail the look and feel we’re going for, or even just give us a larger palette to paint with. 
 
-Google’s Workspace apps, such as Docs, Sheets, and Slides, come with a selection of typefaces to choose from, accessible via the Font menu. But did you know you can actually add _any_ font from the [Google Fonts library](https://fonts.google.com) to this menu, too?
+Google’s Workspace apps, such as Docs, Sheets, and Slides, come with a selection of typefaces to choose from, accessible via the Font menu. But did you know you can actually add most fonts from the [Google Fonts library](https://fonts.google.com) to this menu, too?
 
 To do this, click on the menu showing the name of the font that’s currently selected. In the dropdown that appears, above the big list of currently available fonts, you’ll notice a “More fonts” button:
 
@@ -36,7 +36,7 @@ Note that the search box and those options work together, so if you’d like to 
 
 </figure>
 
-Tip: If you’re not able to find what you want via this interface, just open up [Google Fonts](https://fonts.google.com) in a new tab, then if you find something you like, make a note of its name and  jump back to Workspace and search for the name in the “More fonts” window.
+Tip: If you’re not able to find what you want via this interface, just open up [Google Fonts](https://fonts.google.com) in a new tab, then if you find something you like, make a note of its name and jump back to Workspace and search for the name in the “More fonts” window. If the font still cannot be found, is it likely not supported in Workspace at this time (e.g. [color fonts](https://fonts.google.com/knowledge/glossary/color_fonts)).
 
 Note that any fonts you add here will persist within that Workspace app, so once you’ve added a font once, you won’t need to do it again next time you open that app.
 

@@ -2,6 +2,10 @@ id: "apd_Latn"
 language: "apd"
 script: "Latn"
 name: "Sudanese Arabic"
+population: 33000000
+region: "ER"
+region: "SD"
+region: "SS"
 exemplar_chars {
   base: "a A b B d D ḍ Ḍ f F g G h H ḥ Ḥ i I j J k K x X l L m M n N r R s S ṣ Ṣ t T ṭ Ṭ u U w W y Y z Z ẓ Ẓ"
   marks: "◌̣ ◌͟"

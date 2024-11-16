@@ -19,4 +19,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/secular"
   commit: "7b6bf2d21cfc4bedfc320014224ef5713adc57a9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/SecularOne-Regular.ttf"
+    dest_file: "SecularOne-Regular.ttf"
+  }
+  branch: "main"
 }

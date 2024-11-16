@@ -27,4 +27,21 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/TiroTypeworks/Castoro"
   commit: "58a386a96e522b6d47c566175c7ee799d4c8d14f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "docs/descriptions/Castoro/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/Castoro/TTF/Castoro-Regular.ttf"
+    dest_file: "Castoro-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/Castoro/TTF/Castoro-Italic.ttf"
+    dest_file: "Castoro-Italic.ttf"
+  }
+  branch: "master"
 }

@@ -21,3 +21,15 @@ axes {
   min_value: 100.0
   max_value: 900.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/lexend"
+  files {
+    source_file: "fonts/giga/variable/LexendGiga[wght].ttf"
+    dest_file: "LexendGiga[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
+}

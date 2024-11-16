@@ -2,7 +2,13 @@ id: "tod_Latn"
 language: "tod"
 script: "Latn"
 name: "Toma"
+autonym: "lɔgɔma"
+population: 420000
+region: "GN"
 exemplar_chars {
-  base: "a A á Á b B d D e E é É f F g G i I k K l L m M n N o O p P s S t T u U v V w W y Y z Z ɓ Ɓ ɔ Ɔ ɗ Ɗ ɛ Ɛ ɠ Ɠ ɲ Ɲ ʋ Ʋ"
-  marks: "◌́ ◌̀"
+  base: "a A b B ɓ Ɓ d D ɗ Ɗ e E ǝ Ǝ ɛ Ɛ f F g G ɠ Ɠ i I j J k K l L m M n N ɲ Ɲ ŋ Ŋ o O ɔ Ɔ p P s S t T u U v V ʋ Ʋ w W y Y z Z"
+  auxiliary: "á Á é É è È ë Ë ö Ö"
+  marks: "◌́ ◌̀ ◌̈"
 }
+source: "Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015"
+source: "Wikipedia"

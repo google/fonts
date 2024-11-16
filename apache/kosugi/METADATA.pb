@@ -17,3 +17,15 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/kosugi"
+  files {
+    source_file: "fonts/ttf/Kosugi-Regular.ttf"
+    dest_file: "Kosugi-Regular.ttf"
+  }
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  branch: "main"
+}

@@ -23,4 +23,13 @@ axes {
 source {
   repository_url: "https://github.com/SorkinType/SplineSans"
   commit: "d524ab0d587c5067a17284918cd5f144ac521ec9"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/SplineSans[wght].ttf"
+    dest_file: "SplineSans[wght].ttf"
+  }
+  branch: "main"
 }

@@ -29,6 +29,19 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/silnrsi/font-taiheritagepro"
   archive_url: "https://github.com/silnrsi/font-taiheritagepro/releases/download/v2.600/TaiHeritagePro-2.600.zip"
+  files {
+    source_file: "TaiHeritagePro-2.600/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "TaiHeritagePro-2.600/TaiHeritagePro-Regular.ttf"
+    dest_file: "TaiHeritagePro-Regular.ttf"
+  }
+  files {
+    source_file: "TaiHeritagePro-2.600/TaiHeritagePro-Bold.ttf"
+    dest_file: "TaiHeritagePro-Bold.ttf"
+  }
+  branch: "master"
 }
+languages: "blt_Tavt"  # Tai Dam
 primary_script: "Tavt"
-languages: "blt_Tavt"

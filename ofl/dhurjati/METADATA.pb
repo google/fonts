@@ -15,3 +15,9 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/appajid/dhurjati"
+}
+primary_script: "Telu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

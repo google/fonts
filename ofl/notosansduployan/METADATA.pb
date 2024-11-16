@@ -10,7 +10,7 @@ fonts {
   filename: "NotoSansDuployan-Regular.ttf"
   post_script_name: "NotoSansDuployan-Regular"
   full_name: "Noto Sans Duployan Regular"
-  copyright: "Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2018-2019, 2022-2023 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
 }
 fonts {
   name: "Noto Sans Duployan"
@@ -19,21 +19,41 @@ fonts {
   filename: "NotoSansDuployan-Bold.ttf"
   post_script_name: "NotoSansDuployan-Bold"
   full_name: "Noto Sans Duployan Bold"
-  copyright: "Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
+  copyright: "Copyright 2018-2019, 2022-2023 David Corbett. Copyright 2019-2022 Google LLC. All Rights Reserved."
 }
 subsets: "duployan"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/duployan.git"
-  archive_url: "https://github.com/notofonts/duployan/releases/download/NotoSansDuployan-v3.001/NotoSansDuployan-v3.001.zip"
+  repository_url: "https://github.com/notofonts/duployan"
+  commit: "dcec488da5e9c16d48051fe8d20b1b615bf8c9be"
+  archive_url: "https://github.com/notofonts/duployan/releases/download/NotoSansDuployan-v3.002/NotoSansDuployan-v3.002.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansDuployan/googlefonts/ttf/NotoSansDuployan-Regular.ttf"
+    dest_file: "NotoSansDuployan-Regular.ttf"
+  }
+  files {
+    source_file: "NotoSansDuployan/googlefonts/ttf/NotoSansDuployan-Bold.ttf"
+    dest_file: "NotoSansDuployan-Bold.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "chn_Dupl"  # Chinook Jargon, Duployan
 languages: "fr_Dupl"  # French, Duployan
-# This is not real text. It needs replacing, ideally with
-# language-specific samples in the lang repo.
 sample_text {
   masthead_full: "𛰳𛱰𛱘𛱢"
   masthead_partial: "𛰠𛰏"

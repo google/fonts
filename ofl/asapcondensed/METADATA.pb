@@ -154,4 +154,73 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/Omnibus-Type/Asap"
   commit: "927ab390d4ece9eaa70a3b16a6124baa9192e34c"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-Black.ttf"
+    dest_file: "AsapCondensed-Black.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-BlackItalic.ttf"
+    dest_file: "AsapCondensed-BlackItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-Bold.ttf"
+    dest_file: "AsapCondensed-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-BoldItalic.ttf"
+    dest_file: "AsapCondensed-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-ExtraBold.ttf"
+    dest_file: "AsapCondensed-ExtraBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-ExtraBoldItalic.ttf"
+    dest_file: "AsapCondensed-ExtraBoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-ExtraLight.ttf"
+    dest_file: "AsapCondensed-ExtraLight.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-ExtraLightItalic.ttf"
+    dest_file: "AsapCondensed-ExtraLightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-Light.ttf"
+    dest_file: "AsapCondensed-Light.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-LightItalic.ttf"
+    dest_file: "AsapCondensed-LightItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-Medium.ttf"
+    dest_file: "AsapCondensed-Medium.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-MediumItalic.ttf"
+    dest_file: "AsapCondensed-MediumItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-Regular.ttf"
+    dest_file: "AsapCondensed-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-Italic.ttf"
+    dest_file: "AsapCondensed-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-SemiBold.ttf"
+    dest_file: "AsapCondensed-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/AsapCondensed-SemiBoldItalic.ttf"
+    dest_file: "AsapCondensed-SemiBoldItalic.ttf"
+  }
+  branch: "master"
 }

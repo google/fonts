@@ -1,0 +1,13 @@
+id: "anw_Latn"
+language: "anw"
+script: "Latn"
+name: "Anaang"
+autonym: "Anaañ"
+population: 2900000
+region: "NG"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N ñ Ñ o O ö Ö p P q Q r R s S u U ü Ü w W y Y"
+  marks: "◌̃ ◌̈"
+}
+source: "Ernest Owulette, Annang-English dictionary: Anaañ heritage dictionary, 2019"
+source: "Wikipedia"

@@ -17,8 +17,26 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/egyptian-hieroglyphs.git"
-  archive_url: "https://github.com/notofonts/egyptian-hieroglyphs/releases/download/NotoSansEgyptianHieroglyphs-v2.001/NotoSansEgyptianHieroglyphs-v2.001.zip"
+  repository_url: "https://github.com/notofonts/egyptian-hieroglyphs"
+  commit: "08dec90190624040743ebb4e28d5552ae3d60862"
+  archive_url: "https://github.com/notofonts/egyptian-hieroglyphs/releases/download/NotoSansEgyptianHieroglyphs-v2.002/NotoSansEgyptianHieroglyphs-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansEgyptianHieroglyphs/googlefonts/ttf/NotoSansEgyptianHieroglyphs-Regular.ttf"
+    dest_file: "NotoSansEgyptianHieroglyphs-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "aii_Egyp"  # Assyrian Neo-Aramaic, Egyptian hieroglyphs

@@ -4,3 +4,9 @@ script: "Latn"
 name: "Fang"
 population: 426450
 region: "GQ"
+exemplar_chars {
+    base: "a A b B d D ǝ Ǝ e E ɛ Ɛ f F g G ɣ Ɣ i I ʒ Ʒ j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S ʃ Ʃ t T u U ṳ Ṳ v V w W {w̤} {W̤} y Y z Z"
+    marks: "◌̤"
+}
+note: "The exemplar characters are based on "
+source: "Michel Voltz, “Faŋ (ntumu)”, Revue gabonaise des sciences de l’Homme, Libreville, Université Omar Bongo, no. 2 “Actes du séminaire des experts, Alphabet scientifique des langues du Gabon (20/24 février 1989”, 1990, 143-174"

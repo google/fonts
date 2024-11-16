@@ -1,0 +1,388 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<body>
+  <div id="app">
+    <link v-for="family in uniqueFamilies" :href="familyLink(family)" rel="stylesheet">
+
+    <h1>Google Fonts Tagger</h1>
+
+    <div id="panel">
+      <div class="panel-tile">
+        <form @submit.prevent="loadCSV">
+          <label>Checkout Commit:</label>
+          <input v-model="commit" required placeholder="refs/heads/main">
+          <button>Checkout</button>
+        </form>
+      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
+
+        <label>Current tag:</label>
+        <select v-model="CurrentCategory" style="max-width: 300px;">
+          <option v-for="category in sortedCategories()" :key="category" :value="category">
+            {{ category }}
+          </option>
+        </select>
+      </div>
+      <div class="panel-tile">
+        <form @submit.prevent="AddTag">
+          <label>Add Tag:</label>
+          <input v-model="newTag" required placeholder="Tag Name">
+          <button>Add</button>
+        </form>
+      </div>
+      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
+
+      <div class="panel-tile">
+        <form @submit.prevent="AddFamily">
+          <label>Add family:</label>
+          <input list="items" v-model="newFamily" required placeholder="Family Name">
+          <datalist id="items">
+            <option v-for="family in uniqueFamilies" :value="family">
+          </datalist>
+          <input v-model="newWeight" required placeholder="Score">
+          <button>Add</button>
+        </form>
+      </div>
+      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
+      <div class="panel-tile" style="max-height: 100px; overflow: scroll;">
+        <label>History</label>
+          <div v-if="isEdited">
+            <p style="font-size: 10pt;" v-for="item in history">{{ item }}</p>
+          </div>
+          <div v-else>
+            <p style="font-size: 10pt;">No changes</p>
+          </div>
+      </div>
+      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
+      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
+      <div class="panel-tile">
+        <button @click="prCSV">Open Pull Request</button>
+        <button style="float: right;" @click="saveCSV">Save CSV</button>
+      </div>
+
+    </div>
+
+    <div v-if="sortedFamilies.length === 0">
+      <p>No families found for this tag. Please add some</p>
+    </div>
+    <div class="item" v-for="family in sortedFamilies" :key="family.Family">
+      <div style="float: left; width: 150px;">
+        <b>{{ family.Family }}</b>
+      </div>
+      <div style="float: left; width: 100px;">
+        <input style="width: 50px;" v-model.lazy="family.Weight" @change="edited(family)" placeholder="family.Weight">
+        <button @click="removeFamily(family)">X</button>
+      </div>
+      <div v-if="ready" :style="familyStyle(family)" contenteditable="true">
+        {{ familyPangram(family) }}
+      </div>
+      <div v-else>
+        Loading...
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<script>
+  
+  var app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        ready: false,
+        isEdited: false,
+        commit: "refs/heads/main",
+        newTag: "",
+        newFamily: '',
+        newWeight: '',
+        CurrentCategory: "/Expressive/Calm",
+        Categories: new Set(),
+        Families: [],
+        Pangrams: new Map([
+          ["English", "The quick brown fox jumps over the lazy dog."],
+          ["Greek", "Ζαφείρι δέξου πάγκαλο, βαθῶν ψυχῆς τὸ σῆμα"],
+          ["Cyrillic", "В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!"],
+          ["Japanese", "いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせす（ん"],
+          ["Chinese", "視野無限廣，窗外有藍天"],
+          ["Arabic", "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"],
+          ["Hebrew", "שפן אכל קצת גזר בטעם חסה, ודי."],
+          ["Devanagari", "ऋषियों को सताने वाले दुष्ट राक्षसों के राजा रावण का सर्वनाश करने वाले विष्णुवतार भगवान श्रीराम, अयोध्या के महाराज दशरथ के बड़े सपुत्र थे।"],
+          ["Bengali", "যেহেতু মানব পরিবারের সকল সদস্যের সমান ও অবিচ্ছেদ্য অধিকারসমূহ"],
+          ["Gujarati", "કેમ કે માનવકુટુંબના દરેક સભ્યની પરંપરાપ્રાપ્ત પ્રતિષ્ઠાને અને"],
+          ["Telugu", "మానవకుటంబమునందలి వ్యక్తులందరికిని గల ఆజన్మసిద్ధమైన ప్రతిపత్తిని"],
+          ["Kannada", "ಎಲ್ಲಾ ಮಾನವರೂ ಸ್ವತಂತ್ರರಾಗಿಯೇ ಜನಿಸಿದ್ದಾರೆ. ಹಾಗೂ ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ"],
+          ["Khmer", "ដោយយល់ឃើញថា ការទទួលស្គាល់សេចក្ដីថ្លៃថ្នូរជាប់ពីកំណើត និងសិទ្ធិស្មើភាពគ្នា"],
+          ["Phags Pa", "ꡗ ꡈꡱ ᠂ ꡒ ꡂ ꡈꡞ ᠂ ꡚꡖꡋ ꡈꡞꡋꡨꡖ ꡗꡛꡧꡖ ꡈꡋ ꡈꡱꡨꡖ ꡳꡬꡖ"],
+          ["Tamil", "மனிதக் குடும்பத்தினைச் சேர்ந்த யாவரதும் உள்ளார்ந்த"],
+        ]),
+        FamilyScripts: new Map(),
+        history: [],
+      };
+    },
+    watch: {
+      commit(newCommit) {
+        this.updateURL();
+      },
+      CurrentCategory(newCategory) {
+        this.updateURL();
+      },
+    },
+    created() {
+      this.loadCSV();
+      this.loadFamilyPangrams();
+    },
+    mounted() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const category = urlParams.get('category');
+      if (category) {
+        this.CurrentCategory = category;
+      }
+      const commit = urlParams.get('commit');
+      if (commit) {
+        this.commit = commit;
+        this.loadCSV();
+      }
+    },
+    computed: {
+      sortedFamilies() {
+        let ll = this.Families;
+        let filtered = ll.filter(family => family["Group/Tag"] === this.CurrentCategory);
+        filtered.sort(function(a, b) {return b.Weight - a.Weight;});
+        return filtered;
+      },
+      uniqueFamilies() {
+        return Array.from(new Set(this.Families.map((family) => family.Family)));
+      }
+    },
+    methods: {
+      sortedCategories() {
+        return Array.from(this.Categories).sort();
+      },
+      updateURL() {
+        const url = new URL(window.location);
+        if (this.commit && this.commit !== "refs/heads/main") {
+          url.searchParams.set('commit', this.commit);
+        } else {
+          url.searchParams.delete('commit');
+        }
+        if (this.CurrentCategory) {
+          url.searchParams.set('category', this.CurrentCategory);
+        } else {
+          url.searchParams.delete('category');
+        }
+        history.pushState(null, '', url);
+      },
+      familyPangram(family) {
+        return this.Pangrams.get(this.FamilyScripts.get(family.Family));
+      },
+      edited(family) {
+        this.isEdited = true;
+        this.history.push(`* ${family.Family},${family["Group/Tag"]},${family.Weight}`);
+      },
+      parseUnicode(str) {
+        let ranges = str.split(",");
+        let script = "English";
+        let scripts = {
+          "U+600-6FF": "Arabic",
+          "U+900-97F": "Devanagari",
+          "U+590-5FF": "Hebrew",
+          "U+A80-AFF": "Gujarati",
+          "U+C00-C7F": "Telugu",
+          "U+C80-CFF": "Kannada",
+          "U+980-9FE": "Bengali",
+          "U+1780-17FF": "Khmer",
+          "U+A840-A877": "Phags Pa",
+          "U+0B82-0BFA": "Tamil",
+        }
+        for (let i = 0; i < ranges.length; i++) {
+          for (let key in scripts) {
+            if (ranges[i].includes(key)) {
+              script = scripts[key];
+              break;
+            }
+          }
+        }
+        return script;
+      },
+      async loadFamilyPangrams(delay = 1000) {
+        await document.fonts.ready;
+        let result = new Map();
+        let fonts = document.fonts;
+        fonts.forEach((font) => {
+          if (!result.has(font.family)) {
+            result.set(font.family, this.parseUnicode(font.unicodeRange));
+          }
+        });
+        console.log(result.size)
+        if (result.size < 1000) {
+          console.log("retry")
+          setTimeout(() => this.loadFamilyPangrams(), delay);
+        }
+        this.FamilyScripts = result;
+        this.ready = true;
+      },
+      familyLink(Family) {
+        return "https://fonts.googleapis.com/css2?family=" + Family.replace(" ", "+") + "&display=swap"
+      },
+      familyCSSClass(Family) {
+        let cssName = Family.family.replace(" ", "-").toLowerCase();
+        return `.${cssName} {
+                font-family: "${Family.family}", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+              }`
+      },
+      familySelector(Family) {
+        let cssName = Family.Family.replace(" ", "-").toLowerCase();
+        return cssName;
+      },
+      familyStyle(Family) {
+        return `font-family: "${Family.Family}", "Adobe NotDef"; font-size: 32pt;`
+      },
+      AddTag() {
+        this.isEdited = true;
+        this.Categories.add(this.newTag);
+        this.history.push(`+ Tag added "${this.newTag}"`);
+        this.CurrentCategory = this.newTag;
+      },
+      AddFamily() {
+        this.isEdited = true;
+        let newFamily = { Weight: this.newWeight, Family: this.newFamily, "Group/Tag": this.CurrentCategory }
+        this.Families.push(newFamily);
+        
+        this.history.push(`+ ${newFamily.Family},${newFamily["Group/Tag"]},${newFamily.Weight}`);
+      },
+      removeFamily(Family) {
+        this.isEdited = true;
+        this.Families = this.Families.filter((t) => t !== Family);
+        this.history.push(`- ${Family.Family},${Family["Group/Tag"]},${Family.Weight}`);
+      },
+      familiesToCSV() {
+        this.Families = this.Families.filter((t) => t.Family !== "");
+        // The sorting function used is case sensitive.
+        // This means that "A" will come before "a".
+        this.Families = Array.from(this.Families).sort((a, b) => {
+          if (`${a.Family},${a['Group/Tag']}` < `${b.Family},${b['Group/Tag']}`) {
+            return -1;
+          }
+          if (`${a.Family},${a['Group/Tag']}` > `${b.Family},${b['Group/Tag']}`) {
+            return 1;
+          }
+          return 0;
+        });
+        // Include a newline at the end to keep Evan's Vim happy.
+        return Papa.unparse(this.Families,
+          {
+            columns: ["Family", "Group/Tag", "Weight"],
+            skipEmptyLines: true,
+          }
+        ) + "\n";
+      },
+      saveCSV() {
+        let csv = this.familiesToCSV();
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "families.csv";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      },
+      prCSV() {
+        let csv = this.familiesToCSV();
+        alert("Tag data copied to clipboard. A github pull request page will open in a new tab. Please remove the old data and paste in the new.");
+        navigator.clipboard.writeText(csv);
+        window.open("https://github.com/google/fonts/edit/main/tags/all/families.csv")
+      },
+      loadCSV() {
+        if (this.history.length > 0) {
+          let proceed = confirm("Checking out a new commit will delete any changes you've made. Would you like to continue?")
+          if (proceed === false) {
+            return;
+          }
+        }
+        this.history = [];
+        const csvFilePath = `https://raw.githubusercontent.com/google/fonts/${this.commit}/tags/all/families.csv`; // Update this path to your CSV file
+        fetch(csvFilePath)
+          .then(response => {
+            if (response.status === 404) {
+              alert(`No data found for commit "${this.commit}". Please input a git commit hash e.g 538d9635c160306b40af31c9a3821c59b285bbff`);
+            }
+            return response.text()
+          })
+          .then(csvText => {
+            csvText = "Family,Group/Tag,Weight\n" + csvText;
+            Papa.parse(csvText, {
+              header: true,
+              complete: (results) => {
+                this.Categories = new Set(results.data.map((row) => row["Group/Tag"]));
+                this.Families = results.data.map((row) => ({
+                  Weight: row.Weight,
+                  Family: row.Family,
+                  "Group/Tag": row["Group/Tag"]
+                })
+              );
+              }
+            });
+          })
+          .catch(error => {
+            console.error('Error loading CSV file:', error);
+          });
+        }
+      }
+    } // methods
+  )
+</script>
+
+
+<style>
+  @font-face {
+      font-family: "Adobe NotDef";
+      src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+  }
+  #app {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: left;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+  #panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 3px lightgray;
+  }
+  .panel-tile {
+    margin-bottom: 10px;
+  }
+  .familyy {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .item {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #000;
+  }
+  #edited-panel {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 80px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+</style>

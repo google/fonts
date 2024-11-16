@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/paprika"
   commit: "4297101a8717fd9ee5795b693f37f3c80bdd3d68"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Paprika-Regular.ttf"
+    dest_file: "Paprika-Regular.ttf"
+  }
+  branch: "master"
 }

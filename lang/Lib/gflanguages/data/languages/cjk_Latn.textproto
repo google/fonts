@@ -2,8 +2,13 @@ id: "cjk_Latn"
 language: "cjk"
 script: "Latn"
 name: "Chokwe"
+population: 2500000
 region: "AO"
 region: "CD"
+exemplar_chars {
+  base: "a A c C e E f F g G h H i I j J k K l L m M {mb} {Mb} n N {nd} {Nd} {ng} {Ng} o O p P s S t T u U v V w W x X y Y z Z"
+  auxiliary: "b B d D q Q r R"
+}
 sample_text {
   masthead_full: "MmWw"
   masthead_partial: "Ee"

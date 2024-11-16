@@ -22,7 +22,35 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/symbols.git"
-  archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols-v2.002/NotoSansSymbols-v2.002.zip"
+  repository_url: "https://github.com/notofonts/symbols"
+  archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols-v2.003/NotoSansSymbols-v2.003.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansSymbols/googlefonts/variable-ttf/NotoSansSymbols[wght].ttf"
+    dest_file: "NotoSansSymbols[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
+sample_text {
+  masthead_full: "☺🜻⚛🅰"
+  masthead_partial: "⚓♻"
+  styles: "⛾⛿☯☸ ⛩⛰⛱⛴⛷⛸⛹ ♸⚥☊☍☓☤ 🄰🄱🆈🆉 ⚖♇♪♬"
+  tester: "⚓⛲⛵⛺⛽ ⎈⎉⎊⎋⎌⎍⎎ 🜈🜉🜌🜍🜪🝥🜴🜻🜟🝂↕ ♷⚱⚑⚲🝆🝍🜎 ♻♾⚒⚕🜲🜳🜴🜶🜷🜸 ☺⚺⚻⚼ ⎁⎗⏙⏒⏧🅫☽⛩⛯⚖🜕🝰🝗🝬🝞"
+  poster_sm: "☺⚓🜖🝃⚻ ⚗⛰♸⚘⏚ ⎉⎐☊⎘🝭🆎"
+  poster_md: "♻⚚⚖⛱⎙⛯🝈⏃⎃"
+  poster_lg: "⛲🝃♪"
+}
+stroke: "SANS_SERIF"
+classifications: "SYMBOLS"

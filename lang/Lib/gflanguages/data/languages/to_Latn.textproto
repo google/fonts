@@ -6,8 +6,8 @@ autonym: "Faka Tonga"
 population: 100790
 region: "TO"
 exemplar_chars {
-  base: "a á ā e é ē f h i í ī k l m n {ng} o ó ō p s t u ú ū v ʻ"
-  auxiliary: "à ă â å ä æ b c ç d è ĕ ê ë g ì ĭ î ï j ñ ò ŏ ô ö ø œ q r ù ŭ û ü w x y ÿ z"
+  base: "A Á Ā E É Ē F H I Í Ī K L M N {NG} O Ó Ō P S T U Ú Ū V a á ā e é ē f h i í ī k l m n {ng} o ó ō p s t u ú ū v ʻ"
+  auxiliary: "À Ă Â Å Ä Æ B C Ç D È Ĕ Ê Ë G Ì Ĭ Î Ï J Ñ Ò Ŏ Ô Ö Ø Œ Q R Ù Ŭ Û Ü W X Y Ÿ Z à ă â å ä æ b c ç d è ĕ ê ë g ì ĭ î ï j ñ ò ŏ ô ö ø œ q r ù ŭ û ü w x y ÿ z"
   marks: "◌́ ◌̄"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"

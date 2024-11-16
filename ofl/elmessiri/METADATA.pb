@@ -17,9 +17,21 @@ subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-primary_script: "Arab"
 axes {
   tag: "wght"
   min_value: 400.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/Gue3bara/El-Messiri"
+  files {
+    source_file: "fonts/variable/ElMessiri[wght].ttf"
+    dest_file: "ElMessiri[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
+primary_script: "Arab"

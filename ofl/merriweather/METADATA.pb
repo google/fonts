@@ -81,6 +81,9 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/EbenSorkin/Merriweather"
+}
 fallbacks {
   axis_target {
     tag: "wght"

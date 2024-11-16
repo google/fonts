@@ -33,4 +33,17 @@ axes {
 source {
   repository_url: "https://github.com/Omnibus-Type/ArchivoNarrow"
   commit: "9793ec77b6682a26bc7a6ed523ca65cc3cb90aec"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/ArchivoNarrow[wght].ttf"
+    dest_file: "ArchivoNarrow[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/ArchivoNarrow-Italic[wght].ttf"
+    dest_file: "ArchivoNarrow-Italic[wght].ttf"
+  }
+  branch: "master"
 }

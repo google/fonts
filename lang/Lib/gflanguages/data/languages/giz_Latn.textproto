@@ -1,0 +1,13 @@
+id: "giz_Latn"
+language: "giz"
+script: "Latn"
+name: "Southern Giziga"
+preferred_name: "Giziga"
+population: 211000
+region: "CM"
+exemplar_chars {
+  base: "a A i I u U e E b B ɓ Ɓ c C d D ɗ Ɗ f F g G {gb} {GB} {gw} {GW} h H j J {kp} {KP} {kw} {KW} l L m M {mb} {MB} {nd} {ND} {ng} {NG} {ngb} {NGB} {ngw} {NGW} {nj} {NJ} ŋ Ŋ p P r R s S {sl} {SL} v V {vb} {VB} w W y Y {zl} {ZL} ˀ"
+}
+note: "Southern Giziga (ISO 639-3: giz) and Northern Giziga (ISO 639-3: gis) are distinct languages in Barreteau et al. (1984) but are considered variants of the same language in Lukas 1970, Barreteau & Dieu (2000), Shay 2021.\nU+02C0 ˀ is used in Alliance Biblique du Cameroun 2011 and some other works."
+source: "Bible en langue Guiziga, Alliance Biblique du Cameroun, 2011"
+source: "Erin Shay, A Grammar of Giziga: A Chadic Language of Far North Cameroon, Leiden, Brill, 2021"

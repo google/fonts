@@ -2,6 +2,8 @@ id: "lok_Latn"
 language: "lok"
 script: "Latn"
 name: "Loko"
+population: 140000
+region: "SL"
 exemplar_chars {
   base: "a A b B e E ɛ Ɛ f F g G h H i I k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U w W y Y"
   auxiliary: "d D j J q Q r R v V x X z Z"

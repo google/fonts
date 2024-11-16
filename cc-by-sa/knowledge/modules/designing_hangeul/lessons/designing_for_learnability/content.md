@@ -24,9 +24,9 @@ In crafting the 28 basic letters of the alphabet (many of which are preserved in
 
 <figure>
 
-![28 different Hangeul letters.](images/hangeul_2_fig_1.svg)
+![24 different Hangeul letters.](images/hangeul_2_fig_1.svg)
 
-<figcaption>An example of 28 different Hangeul letters, similar in appearance to what they would have looked like when originally created.</figcaption>
+<figcaption>An example of 24 different Hangeul letters, similar in appearance to what they would have looked like when originally created.</figcaption>
 
 </figure>
 

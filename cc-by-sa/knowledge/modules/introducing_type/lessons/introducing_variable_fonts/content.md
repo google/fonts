@@ -86,4 +86,4 @@ For more chances to play around with variable fonts directly in your browser, co
 - [Axis-Praxis](https://www.axis-praxis.org)
 - [Variable Fonts](https://v-fonts.com)
 - [Font Playground](https://play.typedetail.com)
-- [Very Able Fonts](https://www.very-able-fonts.com)
+- [Very Able Fonts](http://www.very-able-fonts.com)

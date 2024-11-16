@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         python-version: ['3.10']
-        os: [windows-latest, macos-latest, ubuntu-latest]
+        os: [windows-latest, macos-12, ubuntu-latest]
     steps:
       - name: Cancel previous
         uses: styfle/cancel-workflow-action@0.11.0
@@ -29,20 +29,18 @@ jobs:
           pip install gftools[qa] pytest
         shell: bash
       - name: Setup Chrome
-        uses: browser-actions/setup-chrome@latest
-      - name: Setup Chrome Driver
-        uses: nanasess/setup-chromedriver@master
+        uses: browser-actions/setup-chrome@v1.6.2
         with:
-          # TODO: Unpin when nanasess/setup-chromedriver#190 is fixed:
-          #       https://github.com/nanasess/setup-chromedriver/issues/190
-          chromedriver-version: 114.0.5735.90
+          chrome-version: '127.0.6509.0'
+      - name: Setup Chrome Driver
+        uses: nanasess/setup-chromedriver@v2.2.2
 
       - name: Setup Firefox
-        uses: m4rc1e/setup-firefox@master
-        with:
-          firefox-version: '84.0'
+        uses: browser-actions/setup-firefox@latest
       - name: Setup Firefox Driver
-        uses: m4rc1e/setup-geckodriver@master
+        uses: browser-actions/setup-geckodriver@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run Diffbrowsers
         run: |
@@ -63,7 +61,7 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: qa
           path: out/
@@ -71,6 +69,7 @@ jobs:
   diffenator:
     name: Diffenate fonts
     runs-on: ubuntu-latest
+    continue-on-error: true
 
     steps:
       - name: Cancel previous
@@ -88,7 +87,7 @@ jobs:
         # and benefit from its newest checks:
         run: |
           pip install --upgrade pip
-          pip install --pre fontbakery
+          pip install --pre fontbakery[googlefonts]
           pip install gftools[qa] pytest
         shell: bash
 
@@ -112,7 +111,26 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: qa
           path: out/
+
+  ftxvalidator:
+    name: Run ftxvalidator on new/changed fonts
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Download and install
+        run: |
+          ${{secrets.OBTAIN_FONTTOOLS}}
+          hdiutil attach font_tools.dmg
+          sudo installer -pkg /Volumes/macOS\ Font\ Tools/macOS\ Font\ Tools.pkg -target /
+          hdiutil detach /Volumes/macOS\ Font\ Tools
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4.4.0
+        with:
+          python-version: '3.10'
+      - name: Test font with ftxvalidator
+        run: python3 .ci/ftxvalidator.py
+      

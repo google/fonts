@@ -2,6 +2,8 @@ id: "ngb_Latn"
 language: "ngb"
 script: "Latn"
 name: "Ngbandi, Northern"
+population: 250000
+region: "CD"
 exemplar_chars {
   base: "a A b B d D e E ɛ Ɛ f F g G h H i I k K l L m M n N o O ɔ Ɔ p P s S t T u U v V w W y Y z Z"
   auxiliary: "c C j J q Q r R x X"

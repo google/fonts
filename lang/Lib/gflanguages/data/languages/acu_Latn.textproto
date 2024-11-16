@@ -1,9 +1,14 @@
 id: "acu_Latn"
 language: "acu"
 script: "Latn"
-name: "Achuar-Shiwiar, Latin, Ecuador"
+name: "Achuar-Shiwiar"
+population: 7800
 region: "EC"
-region: "US"
+region: "PE"
+exemplar_chars {
+  base: "a A á Á {a̱} {A̱} {á̱} {Á̱} {ch} {CH} e E é É {e̱} {E̱} {é̱} {É̱} i I í Í {i̱} {I̱} {í̱} {Í̱} j J k K m M n N ñ Ñ p P r R s S {sh} {SH} t T {ts} {TS} u U ú Ú {u̱} {U̱} {ú̱} {Ú̱} ü Ü w W y Y"
+  marks: "◌́ ◌̃ ◌̈ ◌̱"
+}
 sample_text {
   masthead_full: "PpEe"
   masthead_partial: "Nn"
@@ -18,3 +23,5 @@ sample_text {
   specimen_21: "Penker inintimsamka mash aintsti ankan, metekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti arantukmau atinuitji mai metekrak.\nPenker inintimsamka mash aintsti ankan, metekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti arantukmau atinuitji mai metekrak.\nPenker inintimsamka mash aintsti ankan, metekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti arantukmau atinuitji mai metekrak."
   specimen_16: "Penker inintimsamka mash aintsti ankan, metekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti arantukmau atinuitji mai metekrak.\nPenker inintimsamka mash aintsti ankan, metekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti arantukmau atinuitji mai metekrak.\nPenker inintimsamka mash aintsti ankan, metekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti arantukmau atinuitji mai metekrak.\nPenker inintimsamka mash aintsti ankan, metekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti arantukmau atinuitji mai metekrak.\nPenker inintimsamka mash aintsti ankan, metekrin nuya nii penkerin takakui nii akiniamunmaya tu ausamti arantukmau atinuitji mai metekrak."
 }
+note: "There are two main orthographies, one indicates nasalization with macron below and stress with acute accent."
+source: "Martin Kohlberger, A Grammatical Description of Shiwiar, Leiden University, 2020"

@@ -18,4 +18,13 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/julee"
   commit: "9a2efe6783e9ea590cee62c8aec51670a3dec51d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Julee-Regular.ttf"
+    dest_file: "Julee-Regular.ttf"
+  }
+  branch: "master"
 }

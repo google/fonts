@@ -17,10 +17,27 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/notofonts/kaithi.git"
-  archive_url: "https://github.com/notofonts/kaithi/releases/download/NotoSansKaithi-v2.004/NotoSansKaithi-v2.004.zip"
+  repository_url: "https://github.com/notofonts/kaithi"
+  commit: "a439d16c5fd54cce21f4a46ee6cb18813c3d5112"
+  archive_url: "https://github.com/notofonts/kaithi/releases/download/NotoSansKaithi-v2.006/NotoSansKaithi-v2.006.zip"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "NotoSansKaithi/googlefonts/ttf/NotoSansKaithi-Regular.ttf"
+    dest_file: "NotoSansKaithi-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "bho_Kthi"  # Bhojpuri, Kaithi
-languages: "sa_Kthi"  # Sanskrit, Kaithi
 primary_script: "Kthi"

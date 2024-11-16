@@ -12,11 +12,11 @@ region: "RO"
 region: "SK"
 region: "UA"
 exemplar_chars {
-  base: "a ą b c ć d e ę f g h i j k l ł m n ń o ó p r s ś t u w y z ź ż"
-  auxiliary: "à â å ä æ ç é è ê ë î ï ô ö œ q ß ù û ü v x ÿ"
+  base: "A Ą B C Ć D E Ę F G H I J K L Ł M N Ń O Ó P R S Ś T U W Y Z Ź Ż a ą b c ć d e ę f g h i j k l ł m n ń o ó p r s ś t u w y z ź ż"
+  auxiliary: "À Â Å Ä Æ Ç É È Ê Ë Î Ï Ô Ö Œ Q ẞ Ù Û Ü V X Ÿ à â å ä æ ç é è ê ë î ï ô ö œ q ß ù û ü v x ÿ"
   marks: "◌́ ◌̇ ◌̨"
   numerals: "- , % + 0 1 2 3 4 5 6 7 8 9"
-  punctuation: "- – — , ; : ! ? . … \' \" ” „ « » ( ) [ ] { } @ * / & # %° ~"
+  punctuation: "- — , ; : ! ? . … \' \" ” „ « » ( ) [ ] { } @ * / & # % ° ~"
   index: "A B C Ć D E F G H I J K L Ł M N O Ó P Q R S Ś T U V W X Y Z Ź Ż"
 }
 sample_text {

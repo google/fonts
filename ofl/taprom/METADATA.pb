@@ -1,5 +1,5 @@
 name: "Taprom"
-designer: "Danh Hong"
+designer: "Danh Hong, Neapolitan"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-03-02"
@@ -15,3 +15,15 @@ fonts {
 subsets: "khmer"
 subsets: "latin"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Taprom"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Taprom-Regular.ttf"
+    dest_file: "Taprom-Regular.ttf"
+  }
+  branch: "master"
+}

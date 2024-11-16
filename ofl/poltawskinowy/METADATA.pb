@@ -33,5 +33,18 @@ axes {
 source {
   repository_url: "https://github.com/kosmynkab/Poltawski-Nowy"
   commit: "6e5631b27a50d7f63bf0d1528060c34d882e1f40"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/PoltawskiNowy[wght].ttf"
+    dest_file: "PoltawskiNowy[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/PoltawskiNowy-Italic[wght].ttf"
+    dest_file: "PoltawskiNowy-Italic[wght].ttf"
+  }
+  branch: "main"
 }
 display_name: "Półtawski Nowy"

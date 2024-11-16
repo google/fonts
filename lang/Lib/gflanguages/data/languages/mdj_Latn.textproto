@@ -2,6 +2,8 @@ id: "mdj_Latn"
 language: "mdj"
 script: "Latn"
 name: "Mangbetu"
+population: 650000
+region: "CD"
 exemplar_chars {
   base: "a A b B d D e E ɛ Ɛ f F g G h H i I ɨ Ɨ k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U ʉ Ʉ v V w W y Y z Z"
   auxiliary: "c C j J q Q x X"

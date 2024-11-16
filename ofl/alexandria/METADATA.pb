@@ -25,5 +25,18 @@ axes {
 source {
   repository_url: "https://github.com/Gue3bara/Alexandria"
   commit: "cee89798e4b38c8df61477a646aa9c111314e6ae"
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Alexandria[wght].ttf"
+    dest_file: "Alexandria[wght].ttf"
+  }
+  branch: "master"
 }
 primary_script: "Arab"

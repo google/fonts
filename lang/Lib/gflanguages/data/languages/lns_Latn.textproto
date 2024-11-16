@@ -1,8 +1,14 @@
 id: "lns_Latn"
 language: "lns"
 script: "Latn"
-name: "Lamnso\'"
+name: "Lamnso’"
 region: "CM"
+population: 396000
+exemplar_chars {
+  base: "a A b B c C d D e E ə Ə f F g G h H i I j J k K l L m M n N ŋ Ŋ o O p P r R s S t T u U v V w W y Y z Z ’"
+  marks: "◌̀ ◌́"
+  auxiliary: "q Q x X ʼ"
+}
 sample_text {
   masthead_full: "ÁáDd"
   masthead_partial: "Zz"
@@ -17,3 +23,4 @@ sample_text {
   specimen_21: "Á dzə̀ə́ wir dzə̀m réŋréŋ fó ghvəm wùn à fó ghày, á yo’ dzə̀ə́ wir msòŋ ji kwàn. Wìr dzə̀m k̀m k fómo woo fó kwà’tì wùn à fó vifii, a wù kér fó a yiì e wùmò’ woo wír moo fə́r və.\nÁ dzə̀ə́ wir dzə̀m réŋréŋ fó ghvəm wùn à fó ghày, á yo’ dzə̀ə́ wir msòŋ ji kwàn. Wìr dzə̀m k̀m k fómo woo fó kwà’tì wùn à fó vifii, a wù kér fó a yiì e wùmò’ woo wír moo fə́r və."
   specimen_16: "Á dzə̀ə́ wir dzə̀m réŋréŋ fó ghvəm wùn à fó ghày, á yo’ dzə̀ə́ wir msòŋ ji kwàn. Wìr dzə̀m k̀m k fómo woo fó kwà’tì wùn à fó vifii, a wù kér fó a yiì e wùmò’ woo wír moo fə́r və.\nÁ dzə̀ə́ wir dzə̀m réŋréŋ fó ghvəm wùn à fó ghày, á yo’ dzə̀ə́ wir msòŋ ji kwàn. Wìr dzə̀m k̀m k fómo woo fó kwà’tì wùn à fó vifii, a wù kér fó a yiì e wùmò’ woo wír moo fə́r və.\nÁ dzə̀ə́ wir dzə̀m réŋréŋ fó ghvəm wùn à fó ghày, á yo’ dzə̀ə́ wir msòŋ ji kwàn. Wìr dzə̀m k̀m k fómo woo fó kwà’tì wùn à fó vifii, a wù kér fó a yiì e wùmò’ woo wír moo fə́r və.\nÁ dzə̀ə́ wir dzə̀m réŋréŋ fó ghvəm wùn à fó ghày, á yo’ dzə̀ə́ wir msòŋ ji kwàn. Wìr dzə̀m k̀m k fómo woo fó kwà’tì wùn à fó vifii, a wù kér fó a yiì e wùmò’ woo wír moo fə́r və."
 }
+source: "Steven Bird, Orthography and identity in Cameroon, 2001"

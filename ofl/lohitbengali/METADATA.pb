@@ -1,7 +1,7 @@
 name: "Lohit Bengali"
 designer: "Multiple Designers"
 license: "OFL"
-category: "SERIF"
+category: "SANS_SERIF"
 date_added: "2012-05-09"
 fonts {
   name: "Lohit Bengali"
@@ -13,3 +13,7 @@ fonts {
   copyright: "Copyright 2011 Lohit Fonts Project contributors (psatpute@redhat.com). <http://fedorahosted.org/lohit> Licensed under the SIL Open Font License 1.1 (see file OFL.txt)"
 }
 subsets: "bengali"
+source {
+  repository_url: "https://github.com/pravins/lohit"
+}
+primary_script: "Beng"

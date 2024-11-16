@@ -28,3 +28,22 @@ axes {
   min_value: 100.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/googlefonts/josefinslab"
+  commit: "d14756349e966c3f4f6bec371e877da960a8470b"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/JosefinSlab-Italic[wght].ttf"
+    dest_file: "JosefinSlab-Italic[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/JosefinSlab[wght].ttf"
+    dest_file: "JosefinSlab[wght].ttf"
+  }
+  branch: "master"
+}
+stroke: "SLAB_SERIF"
+classifications: "DISPLAY"

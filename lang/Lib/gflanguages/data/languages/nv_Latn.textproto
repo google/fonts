@@ -6,7 +6,7 @@ autonym: "Diné Bizaad"
 population: 166319
 region: "US"
 exemplar_chars {
-  base: "A Ą B C D E Ę G H I Į J K L Ł M N O Ǫ S T W X Y Z a á ą ą́ b c d e é ę ę́ g h i í į į́ j k l ł m n o ó ǫ ǫ́ s t w x y z ʼ"
+  base: "A Á Ą {Ą́} B C D E É Ę {Ę́} G H I Í Į {Į́} J K L Ł M N O Ó Ǫ {Ǫ́} S T W X Y Z a á ą {ą́} b c d e é ę {ę́} g h i í į {į́} j k l ł m n o ó ǫ {ǫ́} s t w x y z ʼ"
   marks: "◌́ ◌̨"
 }
 sample_text {

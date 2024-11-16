@@ -12,5 +12,8 @@ fonts {
   full_name: "Love Ya Like A Sister Regular"
   copyright: "Copyright (c) 2011 by Kimberly Geswein (kimberlygeswein@gmail.com). All rights reserved."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+classifications: "DISPLAY"
+classifications: "HANDWRITING"

@@ -88,3 +88,4 @@ subsets: "gujarati"
 subsets: "menu"
 is_noto: true
 languages: "gu_Gujr"  # Gujarati
+primary_script: "Gujr"

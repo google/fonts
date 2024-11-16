@@ -2,6 +2,9 @@ id: "wci_Latn"
 language: "wci"
 script: "Latn"
 name: "Gbe, Waci"
+population: 915000
+region: "TG"
+region: "BJ"
 exemplar_chars {
   base: "a A b B c C d D ɖ Ɖ e E ɛ Ɛ f F ƒ Ƒ g G ɣ Ɣ h H x X i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P s S t T u U v V ʋ Ʋ w W y Y z Z"
   auxiliary: "q Q r R"

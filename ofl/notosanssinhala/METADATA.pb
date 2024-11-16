@@ -27,8 +27,25 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/sinhala.git"
+  repository_url: "https://github.com/notofonts/sinhala"
   archive_url: "https://github.com/notofonts/sinhala/releases/download/NotoSansSinhala-v2.006/NotoSansSinhala-v2.006.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansSinhala/googlefonts/variable-ttf/NotoSansSinhala[wdth,wght].ttf"
+    dest_file: "NotoSansSinhala[wdth,wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "pi_Sinh"  # Pali, Sinhala

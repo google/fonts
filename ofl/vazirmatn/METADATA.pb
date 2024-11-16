@@ -24,4 +24,13 @@ axes {
 source {
   repository_url: "https://github.com/rastikerdar/vazirmatn"
   commit: "14f8686945b97ac535bdb144a7c3794431d894d2"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Vazirmatn[wght].ttf"
+    dest_file: "Vazirmatn[wght].ttf"
+  }
+  branch: "master"
 }

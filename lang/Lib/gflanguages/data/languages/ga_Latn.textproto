@@ -7,8 +7,8 @@ population: 1155943
 region: "GB"
 region: "IE"
 exemplar_chars {
-  base: "a á b c d e é f g h i í l m n o ó p r s t u ú"
-  auxiliary: "å ḃ ċ ḋ ḟ ġ j k ṁ ṗ q ṡ ṫ v w x y z"
+  base: "A Á B C D E É F G H I Í L M N O Ó P R S T U Ú a á b c d e é f g h i í l m n o ó p r s t u ú"
+  auxiliary: "Å Ḃ Ċ Ḋ Ḟ Ġ J K Ṁ Ṗ Q Ṡ Ṫ V W X Y Z å ḃ ċ ḋ ḟ ġ j k ṁ ṗ q ṡ ṫ v w x y z"
   marks: "◌́"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & #"

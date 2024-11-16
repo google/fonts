@@ -3,7 +3,8 @@ language: "del"
 script: "Latn"
 name: "Delaware"
 autonym: "Huluníixsuwaakan"
-population: 0
+population: 2
+region: "US"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ú Ă Ŭ a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ă ŭ"
   marks: "◌́ ◌̆"

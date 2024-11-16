@@ -2,6 +2,9 @@ id: "kub_Latn"
 language: "kub"
 script: "Latn"
 name: "Kutep"
+population: 46000
+region: "NG"
+region: "CM"
 exemplar_chars {
   base: "á Á ā Ā a A b B c C d D é É ē Ē e E f F g G h H í Í ī Ī i I j J k K l L ḿ Ḿ m M ń Ń n N ó Ó ō Ō o O p P r R s S t T ú Ú ū Ū u U v V w W y Y z Z"
   marks: "◌́ ◌̄"

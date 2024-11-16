@@ -10,7 +10,7 @@ fonts {
   filename: "BadScript-Regular.ttf"
   post_script_name: "BadScript-Regular"
   full_name: "Bad Script Regular"
-  copyright: "Copyright 2011 The Bad Script Project Authors (gaslighttypefoundry@gmail.com)"
+  copyright: "Copyright 2011 The Bad Script Project Authors (https://github.com/alexeiva/badscript)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -18,3 +18,17 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/alexeiva/badscript"
+  commit: "dca2962433a2b5817f1e716d6731a743440fbd79"
+  files {
+    source_file: "fonts/ttf/BadScript-Regular.ttf"
+    dest_file: "BadScript-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
+primary_script: "Latn"

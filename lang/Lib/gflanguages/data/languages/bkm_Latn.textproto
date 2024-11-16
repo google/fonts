@@ -4,3 +4,9 @@ script: "Latn"
 name: "Kom"
 population: 360685
 region: "CM"
+exemplar_chars {
+  base: "A Æ B C D E F G H I Ɨ J ’ K L M N {NY} Ŋ O Œ S T U V W Y Z a æ b c d e f g h i ɨ j k l m n {ny} ŋ o œ s t u v w y z À {Æ̀} È Ì {Ɨ̀} Ò {Œ̀} Ù Â {Æ̂} Ê Î {Ɨ̂} Ô {Œ̂} Û à {æ̀} è ì {ɨ̀} ò {œ̀} ù â {æ̂} ê î {ɨ̂} ô {œ̂} û"
+  marks: "◌̀ ◌̂"
+}
+source: "Wikipedia"
+source: "Paul Kawldim Kimbi, Relativization in Kom, Nairobi Evangelical Graduate School of Theology, 2005."

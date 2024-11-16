@@ -14,7 +14,8 @@ In this article we’ll first look at the process of adding fonts from a font de
 Once we’ve browsed the font library and made our selection(s), we’ll need to copy the code provided by the delivery service into the `<head>` of our HTML. Google Fonts provides something like this:
 
 ```
-<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap" rel="stylesheet">
 ```
 

@@ -21,3 +21,19 @@ axes {
   min_value: 200.0
   max_value: 700.0
 }
+source {
+  repository_url: "https://github.com/mooniak/yaldevi-font"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/variable/Yaldevi[wght].ttf"
+    dest_file: "Yaldevi[wght].ttf"
+  }
+  branch: "main"
+}

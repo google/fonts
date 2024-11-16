@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "tai-le"
 source {
-  repository_url: "https://github.com/notofonts/tai-le.git"
+  repository_url: "https://github.com/notofonts/tai-le"
   archive_url: "https://github.com/notofonts/tai-le/releases/download/NotoSansTaiLe-v2.002/NotoSansTaiLe-v2.002.zip"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansTaiLe/googlefonts/ttf/NotoSansTaiLe-Regular.ttf"
+    dest_file: "NotoSansTaiLe-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "tdd_Tale"  # Tai Nüa

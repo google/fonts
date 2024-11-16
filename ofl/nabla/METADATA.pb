@@ -31,5 +31,10 @@ axes {
 source {
   repository_url: "https://github.com/justvanrossum/nabla"
   archive_url: "https://github.com/justvanrossum/nabla/releases/download/v1.002/nabla-fonts.zip"
+  files {
+    source_file: "nabla-fonts/Nabla[EDPT,EHLT].ttf"
+    dest_file: "Nabla[EDPT,EHLT].ttf"
+  }
+  branch: "main"
 }
 minisite_url: "https://nabla.typearture.com/"

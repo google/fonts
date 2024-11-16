@@ -2,7 +2,14 @@ id: "ozm_Latn"
 language: "ozm"
 script: "Latn"
 name: "Koonzime"
+autonym: "kɔ́ɔzime"
+population: 40000
+region: "CM"
 exemplar_chars {
-  base: "a A b B c C d D e E ɛ Ɛ f F g G h H i I ɨ Ɨ j J k K l L m M n N ŋ Ŋ o O ø Ø ɔ Ɔ œ Œ p P r R s S t T u U ʉ Ʉ v V w W y Y z Z"
-  auxiliary: "q Q x X"
+  base: "a A b B c C d D e E ɛ Ɛ f F g G h H i I ɨ Ɨ j J k K ʼ l L m M n N ŋ Ŋ o O œ Œ Ø ø ɔ Ɔ p P r R s S t T u U ʉ Ʉ v V w W y Y z Z Á É {Ɛ́} Í {Ɨ́} Ó {Œ́} Ǿ {Ɔ́} Ú {Ʉ́} Â Ê {Ɛ̂} Î {Ɨ̂} Ô {Œ̂} {Ø̂} {Ɔ̂} Û Ǎ Ě {Ɛ̌} Ǐ {Ɨ̌} Ǒ {Œ̌} {Ø̌} {Ɔ̌} Ǔ {Ʉ̌} á é {ɛ́} í {ɨ́} ó {œ́} ǿ {ɔ́} ú {ʉ́} â ê {ɛ̂} î {ɨ̂} ô {œ̂} {ø̂} {ɔ̂} û ǎ ě {ɛ̌} ǐ {ɨ̌} ǒ {œ̌} {ø̌} {ɔ̌} ǔ {ʉ̌}"
+  marks: "◌̀ ◌́ ◌̂ ◌̌"
 }
+note: "Badweʼe doesn’t use ø and its accented forms."
+source: "Wikipedia"
+source: "https://www.webonary.org/badwe"
+source: "Keith Beavon and Mary Beavon, Lexique kɔ́ɔnzime-français, Ministère de la Recherche Scientifique et Technique and SIL, Yaoundé, 1996."

@@ -70,4 +70,44 @@ subsets: "korean"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/plex"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/descriptions/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-KR/fonts/complete/ttf/IBMPlexSansKR-Bold.ttf"
+    dest_file: "IBMPlexSansKR-Bold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-KR/fonts/complete/ttf/IBMPlexSansKR-ExtraLight.ttf"
+    dest_file: "IBMPlexSansKR-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-KR/fonts/complete/ttf/IBMPlexSansKR-Light.ttf"
+    dest_file: "IBMPlexSansKR-Light.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-KR/fonts/complete/ttf/IBMPlexSansKR-Medium.ttf"
+    dest_file: "IBMPlexSansKR-Medium.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-KR/fonts/complete/ttf/IBMPlexSansKR-Regular.ttf"
+    dest_file: "IBMPlexSansKR-Regular.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-KR/fonts/complete/ttf/IBMPlexSansKR-SemiBold.ttf"
+    dest_file: "IBMPlexSansKR-SemiBold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-KR/fonts/complete/ttf/IBMPlexSansKR-Thin.ttf"
+    dest_file: "IBMPlexSansKR-Thin.ttf"
+  }
+  branch: "master"
+}
 primary_script: "Kore"

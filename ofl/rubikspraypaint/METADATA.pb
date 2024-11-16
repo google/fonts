@@ -21,4 +21,17 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "3a1ee9007cf7a5a4d2991fb4e6404ca97b141925"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "spraypaint/fonts/ttf/RubikSprayPaint-Regular.ttf"
+    dest_file: "RubikSprayPaint-Regular.ttf"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
 }

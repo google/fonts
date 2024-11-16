@@ -71,4 +71,44 @@ subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/plex"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/descriptions/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Hebrew/fonts/complete/ttf/IBMPlexSansHebrew-Bold.ttf"
+    dest_file: "IBMPlexSansHebrew-Bold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Hebrew/fonts/complete/ttf/IBMPlexSansHebrew-ExtraLight.ttf"
+    dest_file: "IBMPlexSansHebrew-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Hebrew/fonts/complete/ttf/IBMPlexSansHebrew-Light.ttf"
+    dest_file: "IBMPlexSansHebrew-Light.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Hebrew/fonts/complete/ttf/IBMPlexSansHebrew-Medium.ttf"
+    dest_file: "IBMPlexSansHebrew-Medium.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Hebrew/fonts/complete/ttf/IBMPlexSansHebrew-Regular.ttf"
+    dest_file: "IBMPlexSansHebrew-Regular.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Hebrew/fonts/complete/ttf/IBMPlexSansHebrew-SemiBold.ttf"
+    dest_file: "IBMPlexSansHebrew-SemiBold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Hebrew/fonts/complete/ttf/IBMPlexSansHebrew-Thin.ttf"
+    dest_file: "IBMPlexSansHebrew-Thin.ttf"
+  }
+  branch: "master"
+}
 primary_script: "Hebr"

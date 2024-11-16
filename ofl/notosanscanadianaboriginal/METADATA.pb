@@ -15,15 +15,34 @@ fonts {
 subsets: "canadian-aboriginal"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
+subsets: "symbols"
 axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/notofonts/canadian-aboriginal.git"
-  archive_url: "https://github.com/notofonts/canadian-aboriginal/releases/download/NotoSansCanadianAboriginal-v2.002/NotoSansCanadianAboriginal-v2.002.zip"
+  repository_url: "https://github.com/notofonts/canadian-aboriginal"
+  archive_url: "https://github.com/notofonts/canadian-aboriginal/releases/download/NotoSansCanadianAboriginal-v2.004/NotoSansCanadianAboriginal-v2.004.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoSansCanadianAboriginal/googlefonts/variable/NotoSansCanadianAboriginal[wght].ttf"
+    dest_file: "NotoSansCanadianAboriginal[wght].ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 languages: "chp_Cans"  # Chipewyan, Unified Canadian Aboriginal Syllabics

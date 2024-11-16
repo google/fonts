@@ -19,5 +19,18 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Diphylleia"
   commit: "d481ed1f2dc17d2457f9788351a1d4e886cdc221"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Fonts/ttf/Diphylleia-Regular.ttf"
+    dest_file: "Diphylleia-Regular.ttf"
+  }
+  branch: "main"
 }
 primary_script: "Kore"

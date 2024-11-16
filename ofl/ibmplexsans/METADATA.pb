@@ -136,3 +136,71 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/plex"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/descriptions/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-Bold.ttf"
+    dest_file: "IBMPlexSans-Bold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-BoldItalic.ttf"
+    dest_file: "IBMPlexSans-BoldItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-ExtraLight.ttf"
+    dest_file: "IBMPlexSans-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-ExtraLightItalic.ttf"
+    dest_file: "IBMPlexSans-ExtraLightItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-Italic.ttf"
+    dest_file: "IBMPlexSans-Italic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-Light.ttf"
+    dest_file: "IBMPlexSans-Light.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-LightItalic.ttf"
+    dest_file: "IBMPlexSans-LightItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-Medium.ttf"
+    dest_file: "IBMPlexSans-Medium.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-MediumItalic.ttf"
+    dest_file: "IBMPlexSans-MediumItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-Regular.ttf"
+    dest_file: "IBMPlexSans-Regular.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-SemiBold.ttf"
+    dest_file: "IBMPlexSans-SemiBold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-SemiBoldItalic.ttf"
+    dest_file: "IBMPlexSans-SemiBoldItalic.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-Thin.ttf"
+    dest_file: "IBMPlexSans-Thin.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans/fonts/complete/ttf/IBMPlexSans-ThinItalic.ttf"
+    dest_file: "IBMPlexSans-ThinItalic.ttf"
+  }
+  branch: "master"
+}

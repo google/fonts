@@ -2,8 +2,12 @@ id: "cko_Latn"
 language: "cko"
 script: "Latn"
 name: "Anufo"
+population: 180000
+region: "TG"
 exemplar_chars {
   base: "a A b B c C d D e E ɛ Ɛ f F g G h H i I j J k K l L m M n N ŋ Ŋ o O ɔ Ɔ p P r R s S t T u U v V w W y Y z Z"
   marks: "◌́"
   auxiliary: "q Q x X"
 }
+source: "Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 288"
+source: "Wikipedia"

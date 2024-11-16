@@ -1,0 +1,28 @@
+sources:
+    - ../Big-Shoulders/sources/BigShoulders.glyphs
+recipe:
+  ../Big-Shoulders/fonts/variable/text/BigShouldersText[wght].ttf:
+    - source: ../Big-Shoulders/sources/BigShoulders.glyphs
+    - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildVariable
+    - operation: subspace
+      axes: opsz=10
+    - operation: rename
+      name: Big Shoulders Text
+      args: --just-family
+    - operation: fix
+    - postprocess: buildStat
+  # And now the small caps family
+  ../Big-Shoulders/fonts/variable/text/BigShouldersTextSC[wght].ttf:
+    - source: ../Big-Shoulders/sources/BigShoulders.glyphs
+    - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildVariable
+    - operation: subspace
+      axes: opsz=10
+    - args: '''smcp -> ccmp'''
+      operation: remapLayout
+    - operation: rename
+      name: Big Shoulders Text SC
+      args: --just-family
+    - operation: fix
+    - postprocess: buildStat

@@ -71,4 +71,44 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "thai"
+source {
+  repository_url: "https://github.com/googlefonts/plex"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/descriptions/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai/fonts/complete/ttf/IBMPlexSansThai-Bold.ttf"
+    dest_file: "IBMPlexSansThai-Bold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai/fonts/complete/ttf/IBMPlexSansThai-ExtraLight.ttf"
+    dest_file: "IBMPlexSansThai-ExtraLight.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai/fonts/complete/ttf/IBMPlexSansThai-Light.ttf"
+    dest_file: "IBMPlexSansThai-Light.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai/fonts/complete/ttf/IBMPlexSansThai-Medium.ttf"
+    dest_file: "IBMPlexSansThai-Medium.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai/fonts/complete/ttf/IBMPlexSansThai-Regular.ttf"
+    dest_file: "IBMPlexSansThai-Regular.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai/fonts/complete/ttf/IBMPlexSansThai-SemiBold.ttf"
+    dest_file: "IBMPlexSansThai-SemiBold.ttf"
+  }
+  files {
+    source_file: "Google-Fonts-Fixes/fonts/IBM-Plex-Sans-Thai/fonts/complete/ttf/IBMPlexSansThai-Thin.ttf"
+    dest_file: "IBMPlexSansThai-Thin.ttf"
+  }
+  branch: "master"
+}
 primary_script: "Thai"

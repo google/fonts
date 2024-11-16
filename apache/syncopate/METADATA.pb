@@ -23,3 +23,5 @@ fonts {
 }
 subsets: "latin"
 subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

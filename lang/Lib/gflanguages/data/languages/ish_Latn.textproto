@@ -1,0 +1,12 @@
+id: "ish_Latn"
+language: "ish"
+name: "Esan"
+script: "Latn"
+region: "NG"
+population: 700000
+exemplar_chars {
+  base: "a A á Á b B {bh} {BH} {ch} {CH} d D e E é É ẹ Ẹ {ẹ́} {Ẹ́} f F g G {gb} {GB} {gh} {GH} h H i I í Í j J k K {kh} {KH} {kp} {KP} l L m M n N o O ó Ó ọ Ọ {ọ́} {Ọ́} p P r R s S {sh} {SH} t T u U ú Ú v V w W y Y z Z"
+  auxiliary: "c C q Q x X à À è È {ẹ̀} {Ẹ̀} ì Ì ò Ò {ọ̀} {Ọ̀} ù Ù"
+  marks: "◌́ ◌̀ ◌̣"
+}
+source: "Christopher Okojie & P.E. Ejele, “Esan orthography”, Rebecca Nogieru Agheyisi, Orthographies of Nigerian languages: manual V, Lagos, Federal Ministry of Education, National Language Centre, 1987, p. 20-38"

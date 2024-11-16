@@ -22,4 +22,13 @@ axes {
 source {
   repository_url: "https://github.com/MezMerrit/AU-School-Handwriting-Fonts"
   commit: "0dbdee65c92d10e24e5d634719054f4f96b69133"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "NSW-ACT-School-Fonts/fonts/variable/EduNSWACTFoundation[wght].ttf"
+    dest_file: "EduNSWACTFoundation[wght].ttf"
+  }
+  branch: "main"
 }

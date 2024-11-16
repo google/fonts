@@ -16,3 +16,9 @@ subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/zeynepakay/Rakkas"
+}
+primary_script: "Arab"
+stroke: "SERIF"
+classifications: "DISPLAY"

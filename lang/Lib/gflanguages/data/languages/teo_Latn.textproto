@@ -7,7 +7,9 @@ population: 2082973
 region: "KE"
 region: "UG"
 exemplar_chars {
-  base: "a A b B c C d D e E g G h H i I j J k K l L m M n N o O p P r R s S t T u U v V w W x X y Y"
-  auxiliary: "f F q Q z Z"
-  index: "A B C D E G H I J K L M N O P R S T U V W X Y"
+  base: "a A b B c C d D e E ɛ Ɛ g G h H i I ɨ Ɨ j J k K l L m M n N {ng} {NG} {ny} {NY} o O ɔ Ɔ p P r R s S t T u U ʉ Ʉ v V w W y Y ᵃ ᵉ ᵋ ⁱ ᶤ ᵒ ᵓ ᵘ ᶶ"
+  auxiliary: "f F q Q x X z Z"
+  index: "A B C D E Ɛ G H I Ɨ J K L M N O Ɔ P R S T U Ʉ V W Y"
 }
+note: "Letters ɛ Ɛ ɨ Ɨ ʉ Ʉ and modifier letters were not used in early orthography."
+source: "A Guide to the Standardised Orthography of Atɛsɔ, Kampala: Atɛsɔ Local Language Board, 2014"

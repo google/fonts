@@ -48,4 +48,25 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/silnrsi/font-andika"
   archive_url: "https://github.com/silnrsi/font-andika/releases/download/v6.101/Andika-6.101.zip"
+  files {
+    source_file: "Andika-6.101/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Andika-6.101/Andika-Regular.ttf"
+    dest_file: "Andika-Regular.ttf"
+  }
+  files {
+    source_file: "Andika-6.101/Andika-Italic.ttf"
+    dest_file: "Andika-Italic.ttf"
+  }
+  files {
+    source_file: "Andika-6.101/Andika-Bold.ttf"
+    dest_file: "Andika-Bold.ttf"
+  }
+  files {
+    source_file: "Andika-6.101/Andika-BoldItalic.ttf"
+    dest_file: "Andika-BoldItalic.ttf"
+  }
+  branch: "master"
 }

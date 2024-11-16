@@ -17,8 +17,25 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "music"
 source {
-  repository_url: "https://github.com/notofonts/music.git"
-  archive_url: "https://github.com/notofonts/music/releases/download/NotoMusic-v2.002/NotoMusic-v2.002.zip"
+  repository_url: "https://github.com/notofonts/music"
+  archive_url: "https://github.com/notofonts/music/releases/download/NotoMusic-v2.003/NotoMusic-v2.003.zip"
+  files {
+    source_file: "ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "NotoMusic/googlefonts/ttf/NotoMusic-Regular.ttf"
+    dest_file: "NotoMusic-Regular.ttf"
+  }
+  branch: "main"
 }
 is_noto: true
 sample_text {
@@ -30,3 +47,5 @@ sample_text {
   poster_md: "𝄆 𝄞𝄰 𝅗𝅥𝅘𝅥𝅮𝅘𝅥𝅮𝅘𝅥 𝄇"
   poster_lg: "𝄞𝅘𝅥𝅯"
 }
+stroke: "SANS_SERIF"
+classifications: "SYMBOLS"

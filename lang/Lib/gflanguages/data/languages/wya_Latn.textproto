@@ -1,0 +1,11 @@
+id: "wya_Latn"
+language: "wya"
+script: "Latn"
+name: "Wendat"
+population: 0
+region: "CA"
+exemplar_chars {
+  base: "a A ä Ä c C d D e E ë Ë g G h H i I ï Ï j J k K n N o O ö Ö r R s S t T u U ü Ü w W y Y ’"
+  auxiliary: "b B f F l L m M ȣ Ȣ p P q Q v V w W x X z Z"
+  marks: "◌̈"
+}

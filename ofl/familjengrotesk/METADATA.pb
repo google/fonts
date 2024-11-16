@@ -33,4 +33,17 @@ axes {
 source {
   repository_url: "https://github.com/Familjen-Sthlm/Familjen-Grotesk"
   commit: "3db181c2b39766045aff4a99663f515d3247512a"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/FamiljenGrotesk[wght].ttf"
+    dest_file: "FamiljenGrotesk[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/FamiljenGrotesk-Italic[wght].ttf"
+    dest_file: "FamiljenGrotesk-Italic[wght].ttf"
+  }
+  branch: "master"
 }

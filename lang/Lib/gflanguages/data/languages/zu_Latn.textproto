@@ -3,15 +3,15 @@ language: "zu"
 script: "Latn"
 name: "Zulu"
 autonym: "isiZulu"
-population: 13973829
+population: 16000000
 region: "LS"
 region: "MW"
 region: "MZ"
 region: "SZ"
 region: "ZA"
 exemplar_chars {
-  base: "a b {bh} c {ch} d {dl} {dy} e f g {gc} {gq} {gx} h {hh} {hl} i j k {kh} {kl} {kp} l m n {nc} {ngc} {ngq} {ngx} {nhl} {nk} {nkc} {nkq} {nkx} {nq} {ntsh} {nx} {ny} o p {ph} q {qh} r {rh} s {sh} t {th} {tl} {ts} {tsh} u v w x {xh} y z"
-  auxiliary: "á à ă â å ä ã ā æ ç é è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ö ø ō œ ú ù ŭ û ü ū ÿ"
+  base: "A B {BH} C {CH} D {DL} {DY} E F G {GC} {GQ} {GX} H {HH} {HL} I J K {KH} {KL} {KP} L M N {NC} {NGC} {NGQ} {NGX} {NHL} {NK} {NKC} {NKQ} {NKX} {NQ} {NTSH} {NX} {NY} O P {PH} Q {QH} R {RH} S {SH} T {TH} {TL} {TS} {TSH} U V W X {XH} Y Z a b {bh} c {ch} d {dl} {dy} e f g {gc} {gq} {gx} h {hh} {hl} i j k {kh} {kl} {kp} l m n {nc} {ngc} {ngq} {ngx} {nhl} {nk} {nkc} {nkq} {nkx} {nq} {ntsh} {nx} {ny} o p {ph} q {qh} r {rh} s {sh} t {th} {tl} {ts} {tsh} u v w x {xh} y z"
+  marks: "◌́ ◌̀ ◌̆ ◌̂ ◌̊ ◌̈ ◌̃ ◌̄ ◌̧"
   numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
   punctuation: "- , ; : ! ? . ( ) [ ] { }"
   index: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
@@ -30,3 +30,5 @@ sample_text {
   specimen_21: "Ngokunjalo ukwamukelwa ngokuzuzwa kwesithunzi samalungelo alinganayo najwayelekile awowonke amalunga omndeni wesintu kuyisisekelo senkululeko, sobulungiswa noxolo emhlabeni,\nNgokunjalo ukunganakwa nokwedelelwa kwamalungelo esintu kube nomphumela wezenzo zobuqaba eseziqede unembeza kubantu, kanye nomhlaba obhekwe isintu ukuba senamele inkululeko yokukhuluma nokukholwa, inkululeko yokungesabi futhi nokufuna kugunyazwe ugqozi kubobonke abantu,"
   specimen_16: "Ngokunjalo ukwamukelwa ngokuzuzwa kwesithunzi samalungelo alinganayo najwayelekile awowonke amalunga omndeni wesintu kuyisisekelo senkululeko, sobulungiswa noxolo emhlabeni,\nNgokunjalo ukunganakwa nokwedelelwa kwamalungelo esintu kube nomphumela wezenzo zobuqaba eseziqede unembeza kubantu, kanye nomhlaba obhekwe isintu ukuba senamele inkululeko yokukhuluma nokukholwa, inkululeko yokungesabi futhi nokufuna kugunyazwe ugqozi kubobonke abantu,\nNgokunjalo kudingekile, uma umuntu engenakuphoqwa ukulandela umgudu othize, njengendlela yokugcina, avukele ababusi nabacindezeli, ukuze amalungelo esintu avikelwe ngokubusa ngomthetho,"
 }
+source: "Clement M. Doke, B. W. Vilakazi, Zulu-English dictionary, Johannesburg: Witwatersand University Press, 1972 (1st ed. 1958)"
+note: "Old orthography used Ɓ ɓ. Marks like ◌́ for tone are only used in dictionaries."

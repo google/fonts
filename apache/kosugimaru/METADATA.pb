@@ -17,3 +17,15 @@ subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/googlefonts/kosugi-maru"
+  files {
+    source_file: "fonts/ttf/KosugiMaru-Regular.ttf"
+    dest_file: "KosugiMaru-Regular.ttf"
+  }
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  branch: "main"
+}

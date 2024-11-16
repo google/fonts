@@ -93,3 +93,4 @@ languages: "mnw_Mymr"  # Mon
 languages: "my_Mymr"  # Burmese
 languages: "pwo_Mymr"  # Pwo Western Karen, Myanmar
 languages: "shn_Mymr"  # Shan
+primary_script: "Mymr"

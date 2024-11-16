@@ -111,6 +111,4 @@ It’s worth making a short list and getting to know the fonts you’re consider
 
 Typography is a subtle art, but less elusive than its reputation might suggest. If you’ve already given some thought to the organization of your project, its scope, and its audience, you’re primed to make smart typographic choices.
 
-Several designers lent their expertise to the construction of this guide: Yuin Chien, Joana Correia, Dave Crossland, Natanael Gama, Octavio Pardo, Eben Sorkin, and Eduardo Tunni.
-
 This guide was originally published on [Google Design](https://design.google/library/choosing-web-fonts-beginners-guide).

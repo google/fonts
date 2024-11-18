@@ -317,7 +317,7 @@
             return response.text()
           })
           .then(csvText => {
-            csvText = "Family,Group/Tag,Weight\n" + csvText;
+            csvText = "Family,Group/Tag,Weight\r\n" + csvText;
             Papa.parse(csvText, {
               header: true,
               complete: (results) => {

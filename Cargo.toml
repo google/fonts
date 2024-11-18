@@ -1,7 +1,10 @@
 [package]
 name = "google-fonts-languages"
-version = "0.6.3"
+version = "0.7.1"
 edition = "2021"
+description = "Google Fonts script and language support data"
+repository = "https://github.com/googlefonts/lang"
+license-file = "LICENSE.txt"
 
 [dependencies]
 bytes = "1.7.1"
@@ -11,10 +14,10 @@ serde_json = "1.0"
 
 [build-dependencies]
 prost-build = "0.13"
-protobuf-support = { git = "https://github.com/cmyr/rust-protobuf", branch = "parse-unicode-strings" }
-protobuf = { git = "https://github.com/cmyr/rust-protobuf", branch = "parse-unicode-strings" }
-protobuf-parse = { git = "https://github.com/cmyr/rust-protobuf", branch = "parse-unicode-strings" }
-glob = "*"                                                                                             # This is a joke.
+protobuf-support = "3.7.1"
+protobuf = "3.7.1"
+protobuf-parse = "3.7.1"
+glob = "0"
 prettyplease = "0.2"
 quote = "1.0"
 proc-macro2 = "1.0"

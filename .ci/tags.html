@@ -69,26 +69,50 @@
       <p>No families found for this tag. Please add some</p>
     </div>
     <div class="item" v-for="family in sortedFamilies" :key="family.Family">
-      <div style="float: left; width: 150px;">
-        <b>{{ family.Family }}</b>
-      </div>
-      <div style="float: left; width: 100px;">
-        <input style="width: 50px;" v-model.lazy="family.Weight" @change="edited(family)" placeholder="family.Weight">
-        <button @click="removeFamily(family)">X</button>
-      </div>
-      <div v-if="ready" :style="familyStyle(family)" contenteditable="true">
-        {{ familyPangram(family) }}
-      </div>
-      <div v-else>
-        Loading...
-      </div>
+      <family-item :family="family" :ready="ready" @edited="edited" @remove="removeFamily"></family-item>
     </div>
 
   </div>
 </body>
 
 <script>
-  
+  Vue.component('family-item', {
+    props: ['family', 'ready'],
+    template: `
+      <div class="item">
+        <div style="float: left; width: 150px;">
+          <b>{{ family.Family }}</b>
+        </div>
+        <div style="float: left; width: 100px;">
+          <input style="width: 50px;" v-model.lazy="family.Weight" @change="edited" placeholder="family.Weight">
+          <button @click="removeFamily">X</button>
+        </div>
+        <div v-if="ready" :style="familyStyle" contenteditable="true">
+          {{ familyPangram }}
+        </div>
+        <div v-else>
+          Loading...
+        </div>
+      </div>
+    `,
+    methods: {
+      edited() {
+        this.$emit('edited', this.family);
+      },
+      removeFamily() {
+        this.$emit('remove', this.family);
+      }
+    },
+    computed: {
+      familyPangram() {
+        return this.$root.familyPangram(this.family);
+      },
+      familyStyle() {
+        return `font-family: "${this.family.Family}", "Adobe NotDef"; font-size: 32pt;`;
+      }
+    }
+  });
+
   var app = new Vue({
     el: '#app',
     data() {

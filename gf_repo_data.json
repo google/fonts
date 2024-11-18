@@ -1,6 +1,422 @@
 {
-    "last_run": "2024-11-11",
+    "last_run": "2024-11-18",
     "commits": [
+        {
+            "date": "2024-11-15T21:00:40",
+            "title": "Merge pull request #8503 from google/lists-Nov-15",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "e575ab2e954b57ac6744e0b0bf0a2ad47c62601c"
+        },
+        {
+            "date": "2024-11-15T20:26:25",
+            "title": "Push Lists November 15th",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2990b84c2ff0cc9ea3f5a6500f5a4625739a45e3"
+        },
+        {
+            "date": "2024-11-15T19:08:54",
+            "title": "Merge pull request #8491 from google/m4rc1e-patch-14",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c820333ebd756318dab948e3330a641d15c84935"
+        },
+        {
+            "date": "2024-11-15T19:02:53",
+            "title": "Merge pull request #8206 from google/gftools_packager_ofl_josefinslab",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "420f4a87ffab22058042fe2f236650e563007729"
+        },
+        {
+            "date": "2024-11-15T15:35:00",
+            "title": "update fonts",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "321d1360eca94812d5fac91677941af52a2da726"
+        },
+        {
+            "date": "2024-11-15T15:30:21",
+            "title": "Josefin Slab: Version 2.100 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "2f085fa9251d862cd7f5d947d961a0e7d6aebcfd"
+        },
+        {
+            "date": "2024-11-15T11:20:38",
+            "title": "Merge pull request #8497 from google/tag-fix",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a092635ac0cccacdc9a21783a06093b9ea3ff28f"
+        },
+        {
+            "date": "2024-11-15T11:06:55",
+            "title": "tags.html: add header before parsing",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0402c10dc53c41711a1619797789dee73ad51ac4"
+        },
+        {
+            "date": "2024-11-14T19:20:33",
+            "title": "Merge pull request #8490 from google/githubfonts_designers2",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "958bd436366a724e13218bb47c75165b4ef8696d"
+        },
+        {
+            "date": "2024-11-14T19:11:06",
+            "title": "Update families.csv (#8495)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3f641c959759fb9524e07773ed12309ccf97bd29"
+        },
+        {
+            "date": "2024-11-14T18:48:14",
+            "title": "Merge pull request #8489 from google/githubfonts_designers",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "96ac35402855e7ab6e468b00598913f96d33bfd5"
+        },
+        {
+            "date": "2024-11-14T18:46:55",
+            "title": "Merge pull request #8493 from google/degarismstudio",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "designer",
+            "id": "7e00b30950a1f99728e503e9ca4fd31d0b3028e6"
+        },
+        {
+            "date": "2024-11-14T18:17:19",
+            "title": "Update bio.html",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "53fe62e9130b14064ea73a088a8aac1e22dfb7a2"
+        },
+        {
+            "date": "2024-11-14T18:14:39",
+            "title": "Update bio.html redundancy fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "designer",
+            "id": "2e33a67f92a9ccdd3e19cf8b4294335a02feaae2"
+        },
+        {
+            "date": "2024-11-14T18:13:04",
+            "title": "Merge pull request #8494 from google/tobiasbjerromeahlin",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "designer",
+            "id": "c3c88fce2f66c64dca9221877296341ae395f4a1"
+        },
+        {
+            "date": "2024-11-14T17:08:19",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c72a13bd265eaf0f06cbd3f874e8945ba1486062"
+        },
+        {
+            "date": "2024-11-14T17:07:44",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "91bf3c3b46425a98b2b33cf6d5aa939ff56106bd"
+        },
+        {
+            "date": "2024-11-14T16:32:20",
+            "title": "Merge pull request #8486 from shailenpatel2/update-choosing-type-article",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d3b70670132265961bf0dcb5eb1b8d1b0eb73311"
+        },
+        {
+            "date": "2024-11-14T15:39:00",
+            "title": "Merge pull request #8492 from google/sebastiancrewe",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "designer",
+            "id": "76fde90fb6794ae8ec91e4d06f586e560dae6004"
+        },
+        {
+            "date": "2024-11-14T15:28:55",
+            "title": "Add Tobias Bjerrome Ahlin",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "45a99a12aee08727bb33b2fdedc373bd6e3a27c3"
+        },
+        {
+            "date": "2024-11-14T15:25:25",
+            "title": "Add Degarism Studio",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "cbf83e0b1cf03c4b01e4daed9c5447eba14d847a"
+        },
+        {
+            "date": "2024-11-14T15:23:45",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9a194145e82496eb997998628d0ea04964a8c7e6"
+        },
+        {
+            "date": "2024-11-14T15:23:26",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "1470dc70c3b7f4b1bed2e4b7aac096596c4054cb"
+        },
+        {
+            "date": "2024-11-14T15:21:21",
+            "title": "Add Sebastian Carewe",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "22eb58a63234a9afbec7156a4f9a9db12e725c1a"
+        },
+        {
+            "date": "2024-11-14T15:11:04",
+            "title": "families.csv: Add more missing families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "aa24a65fb27b381aa2eb5896a7e3156a6fe01818"
+        },
+        {
+            "date": "2024-11-14T15:10:29",
+            "title": "update metadata (designers)",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fe31254d7d9a8721965af6564c559186c372c94a"
+        },
+        {
+            "date": "2024-11-14T15:08:12",
+            "title": "Updated metadata (designers)",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b9d42b74127b71d3a8e0bad7e6bddaedf25b95c0"
+        },
+        {
+            "date": "2024-11-14T14:48:12",
+            "title": "Merge pull request #8483 from google/m4rc1e-patch-15",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a64f05c2b1a0d84f1d1e72c13bb0309168357cd1"
+        },
+        {
+            "date": "2024-11-14T14:47:14",
+            "title": "Merge pull request #8480 from google/m4rc1e-patch-14",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bf37cf45fe9d3204b52bdcd42dbf0596d70085ac"
+        },
+        {
+            "date": "2024-11-14T14:46:32",
+            "title": "Merge pull request #8488 from google/ci-continue",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5f080788cbf33c17ae2a659dc450554d844be517"
+        },
+        {
+            "date": "2024-11-14T14:44:52",
+            "title": "Merge pull request #7892 from google/gftools_packager_ofl_beiruti",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "4f5c310e5c35ec910906f8909e27cecf23316253"
+        },
+        {
+            "date": "2024-11-14T14:42:39",
+            "title": "Merge pull request #8475 from google/gftools_packager_ofl_ibmplexsansarabic",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "27bbb56131a7551505f5d9bb3729379348a269c8"
+        },
+        {
+            "date": "2024-11-14T14:04:03",
+            "title": "test.yaml: continue running if job errors so other jobs still finish",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "c8ce7f8f08c0bd7a55d716f945a5d1e7c5cda817"
+        },
+        {
+            "date": "2024-11-14T10:26:52",
+            "title": "Implement Viv feedback",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0c26e0f6ca19c2ed9cadfa074db3922bb7ac34af"
+        },
+        {
+            "date": "2024-11-14T10:04:47",
+            "title": "Update families.csv",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "4f145fb5bc239e4bc7851599b85cf780325c02e3"
+        },
+        {
+            "date": "2024-11-13T22:36:16",
+            "title": "Merge pull request #8485 from google/m4rc1e-patch-17",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "dd1bcf0b430ae4cb20daa6f12e19de0fd7df19b4"
+        },
+        {
+            "date": "2024-11-13T22:19:48",
+            "title": "update the adding fonts to google docs knowledge article",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "family",
+            "id": "c5fa8eae05aa04151c6b4a30388af81a452c3275"
+        },
+        {
+            "date": "2024-11-13T20:57:25",
+            "title": "Merge pull request #8469 from google/gftools_packager_ofl_montserratunderline",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "family",
+            "id": "a5b3c0d94ae209c86412dd321d606b9e7c929b8f"
+        },
+        {
+            "date": "2024-11-13T20:56:46",
+            "title": "Merge pull request #8476 from google/gftools_packager_ofl_badscript",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "d2ebba07bfbf9ee0f3566f58b234aae7a5056de5"
+        },
+        {
+            "date": "2024-11-13T20:54:05",
+            "title": "Merge pull request #8482 from google/Host-about-fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "75df96815325dc5e439928971dea41b5f73824cb"
+        },
+        {
+            "date": "2024-11-13T18:37:16",
+            "title": "Merge pull request #8479 from shailenpatel2/add-gd-article-to-module-list",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "06990ac11d74fcd40e20ac8140c378141e1e954b"
+        },
+        {
+            "date": "2024-11-13T15:04:53",
+            "title": "families.csv: Add some missing families (3/?)",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "30714975b7dc3693d9525b3fd917121bb2732565"
+        },
+        {
+            "date": "2024-11-13T13:29:52",
+            "title": "Host about added fixes",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5e58da3b578397c332a090f3cd86d43ca21c3a02"
+        },
+        {
+            "date": "2024-11-13T13:27:42",
+            "title": "Restoring the A fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8caff7fab928b346054f89e4c948552598ede0e9"
+        },
+        {
+            "date": "2024-11-13T13:27:42",
+            "title": "Host Grotest foundry typo + added fixes",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "99e56b4c4e7a30cf0a235736f4d0a8c09fa9e1e0"
+        },
+        {
+            "date": "2024-11-13T10:18:32",
+            "title": "families.csv: Add some missing families (2/?)",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d5fae1c924f99aa9ea1c9172de90a6c8bf939725"
+        },
+        {
+            "date": "2024-11-12T21:50:42",
+            "title": "Merge pull request #8481 from google/tags-skip-sc",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "417578b383e3384c5cc682f235df38fae013005f"
+        },
+        {
+            "date": "2024-11-12T20:16:52",
+            "title": "ci/test_font_tags.py: Ignore SC families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e4891659fad4d474dd123ef44ea9867787e0e70d"
+        },
+        {
+            "date": "2024-11-12T20:16:52",
+            "title": "ci/test_font_tags.py: rename dev to prod since we are checking the prod server",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ebc670c69514c7c812f18281cdd9f567e96bf38f"
+        },
+        {
+            "date": "2024-11-12T20:03:15",
+            "title": "families.csv: correct family name HeadlandOne to Headland One",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8f5996d043340bb1750f116f881610d98ea63cbb"
+        },
+        {
+            "date": "2024-11-12T20:01:43",
+            "title": "families.csv: Add some missing families (1/?)",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "8825218947063ffa64e5e44077ffde3942d21856"
+        },
+        {
+            "date": "2024-11-12T04:59:41",
+            "title": "add new GD article to modules list",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "family",
+            "id": "9348a3b7e30ab09b74dff1ea7ea2404edbc3bb1c"
+        },
         {
             "date": "2024-11-09T00:11:14",
             "title": "Merge pull request #8477 from google/lists-Nov-8",
@@ -42,6 +458,46 @@
             "id": "8b77a15f5a79b2d1ae2188401fca2af3e57f9df5"
         },
         {
+            "date": "2024-11-08T13:24:03",
+            "title": "fixed conflicts",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "25e5ba4cbbaf1fcee457c9a4518ab7d7a00356ab"
+        },
+        {
+            "date": "2024-11-08T13:22:01",
+            "title": "update description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "03c1c7162b0c048df72318d7661dbd3b51c5b93e"
+        },
+        {
+            "date": "2024-11-08T13:16:16",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "34f7b5560c28b430453cc8668ce854cb639629fe"
+        },
+        {
+            "date": "2024-11-08T13:13:45",
+            "title": "Bad Script: Version 2.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "0827c33ede05bacde51db73daa3041f30f489261"
+        },
+        {
+            "date": "2024-11-08T13:12:42",
+            "title": "IBM Plex Sans Arabic: Version 1.101 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "2cf30108643373d19195f09bdba07de4317152ae"
+        },
+        {
             "date": "2024-11-07T19:29:40",
             "title": "Merge pull request #8470 from google/gftools_packager_ofl_parkinsans",
             "author": "Viviana Monsalve",
@@ -80,6 +536,22 @@
             "status": "modified",
             "kind": "family",
             "id": "a390e2f552ede3f8a50c9933f97d79b1e778128f"
+        },
+        {
+            "date": "2024-11-07T12:11:23",
+            "title": "update description",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "017d7d249e69b5762e4dc31b9c68d197165c8c38"
+        },
+        {
+            "date": "2024-11-07T11:27:26",
+            "title": "Montserrat Underline: Version 9.000 added",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "cb5ccada7c737563b8b72128345f6bf7c93d1931"
         },
         {
             "date": "2024-11-06T23:58:15",
@@ -224,6 +696,14 @@
             "status": "modified",
             "kind": "family",
             "id": "a495359cdf3c536688f79f712554d55afb902615"
+        },
+        {
+            "date": "2024-11-01T10:19:17",
+            "title": "Beiruti: Version 1.41 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "9b9cbd55e1480381d712ec0ad09a9ef0828b81da"
         },
         {
             "date": "2024-11-01T10:18:03",
@@ -71741,28 +72221,52 @@
     "pushes": {
         "sandbox": [
             {
+                "path": "ofl/montserratunderline",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8469"
+            },
+            {
                 "path": "ofl/notoseriftodhri",
                 "category": "New",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8199"
             },
             {
-                "path": "ofl/parkinsans",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8470"
-            },
-            {
-                "path": "ofl/eduauvicwantarrows",
+                "path": "ofl/badscript",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8319"
+                "url": "https://github.com/google/fonts/pull/8476"
+            },
+            {
+                "path": "ofl/beiruti",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7892"
+            },
+            {
+                "path": "ofl/ibmplexsansarabic",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8475"
+            },
+            {
+                "path": "ofl/josefinslab",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8206"
             },
             {
                 "path": "ofl/lateef",
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8444"
+            },
+            {
+                "path": "ofl/notosansphagspa",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7049"
             },
             {
                 "path": "ofl/paprika",
@@ -71777,10 +72281,22 @@
                 "url": null
             },
             {
-                "path": "ofl/zain",
-                "category": "Upgrade",
+                "path": "catalog/designers/degarismstudio",
+                "category": "Designer profile",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8335"
+                "url": "https://github.com/google/fonts/pull/8493"
+            },
+            {
+                "path": "catalog/designers/sebastiancarewe",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8492"
+            },
+            {
+                "path": "catalog/designers/tobiasbjerromeahlin",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8494"
             },
             {
                 "path": "ofl/facultyglyphic",
@@ -71793,14 +72309,44 @@
                 "category": "Metadata / Description / License",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8334"
+            },
+            {
+                "path": "ofl/hostgrotesk",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8482"
+            },
+            {
+                "path": "ofl/hubotsans",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8490"
+            },
+            {
+                "path": "ofl/monasans",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8489"
             }
         ],
         "production": [
+            {
+                "path": "ofl/parkinsans",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8470"
+            },
             {
                 "path": "ofl/abyssinicasil",
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8445"
+            },
+            {
+                "path": "ofl/eduauvicwantarrows",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8319"
             },
             {
                 "path": "ofl/harmattan",
@@ -71825,6 +72371,12 @@
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8430"
+            },
+            {
+                "path": "ofl/zain",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8335"
             },
             {
                 "path": "catalog/designers/gustavoibarra",

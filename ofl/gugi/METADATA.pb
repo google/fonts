@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright (c) 2017 by TAE System & Typefaces Co.. All rights reserved."
 }
 subsets: "korean"
+subsets: "latin"
 subsets: "menu"
 primary_script: "Kore"
 stroke: "SANS_SERIF"

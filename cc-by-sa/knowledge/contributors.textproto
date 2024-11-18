@@ -27,8 +27,16 @@ contributors {
   personal_site: "https://publicmechanics.com"
 }
 contributors {
+  name: "Bryn Smith"
+  personal_site: ""
+}
+contributors {
   name: "Cassidy Curtis"
   personal_site: "http://otherthings.com"
+}
+contributors {
+  name: "Charles Berret"
+  personal_site: "https://charlesberret.net"
 }
 contributors {
   name: "Cosimo Lupo"
@@ -53,6 +61,14 @@ contributors {
 contributors {
   name: "Doug Wilson"
   personal_site: "https://realdougwilson.com"
+}
+contributors {
+  name: "Eben Sorkin"
+  personal_site: ""
+}
+contributors {
+  name: "Eduardo Tunni"
+  personal_site: ""
 }
 contributors {
   name: "Ellen Lupton"
@@ -103,6 +119,10 @@ contributors {
   personal_site: "https://jessicahische.is"
 }
 contributors {
+  name: "Joana Correia"
+  personal_site: ""
+}
+contributors {
   name: "John Boardley"
   personal_site: "https://ilovetypography.com/about"
 }
@@ -151,12 +171,20 @@ contributors {
   personal_site: "https://www.instagram.com/mintoming/"
 }
 contributors {
+  name: "Natanael Gama"
+  personal_site: ""
+}
+contributors {
   name: "Nick Sherman"
   personal_site: "https://nicksherman.com"
 }
 contributors {
   name: "Niteesh Yadav"
   personal_site: "https://niteeshyadav.com/"
+}
+contributors {
+  name: "Octavio Pardo"
+  personal_site: ""
 }
 contributors {
   name: "Oliver Schöndorfer"
@@ -233,6 +261,10 @@ contributors {
 contributors {
   name: "Tyler Finck"
   personal_site: "https://www.tylerfinck.com"
+}
+contributors {
+  name: "Yuin Chien"
+  personal_site: ""
 }
 contributors {
   name: "Yves Peters"

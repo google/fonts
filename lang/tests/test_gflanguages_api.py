@@ -14,36 +14,45 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-from pkg_resources import resource_filename
+
+import sys
+
+if sys.version_info < (3, 10):
+    import importlib_resources as importlib_resources
+else:
+    import importlib.resources as importlib_resources
 
 from gflanguages import (LoadLanguages,
                          LoadRegions,
                          LoadScripts)
 
-DATA_DIR = resource_filename("gflanguages", "data")
+DATA_DIR = importlib_resources.files("gflanguages") / "data"
 
 
 def test_LoadLanguages():
-    for langs in [LoadLanguages(),
-                  LoadLanguages(None),
-                  LoadLanguages(DATA_DIR)]:
-        numerals = langs["yi_Hebr"].exemplar_chars.numerals
-        assert numerals == '- , . % + 0 1 2 3 4 5 6 7 8 9'
+    with importlib_resources.as_file(DATA_DIR) as data_path:
+        for langs in [LoadLanguages(),
+                    LoadLanguages(None),
+                    LoadLanguages(data_path)]:
+            numerals = langs["yi_Hebr"].exemplar_chars.numerals
+            assert numerals == '- , . % + 0 1 2 3 4 5 6 7 8 9'
 
 
 def test_LoadScripts():
-    for scripts in [LoadScripts(),
-                    LoadScripts(None),
-                    LoadScripts(DATA_DIR)]:
-        scripts = LoadScripts()
-        assert scripts["Tagb"].name == 'Tagbanwa'
+    with importlib_resources.as_file(DATA_DIR) as data_path:
+        for scripts in [LoadScripts(),
+                        LoadScripts(None),
+                        LoadScripts(data_path)]:
+            scripts = LoadScripts()
+            assert scripts["Tagb"].name == 'Tagbanwa'
 
 
 def test_LoadRegions():
-    for regions in [LoadRegions(),
-                    LoadRegions(None),
-                    LoadRegions(DATA_DIR)]:
-        regions = LoadRegions()
-        br = regions["BR"]
-        assert br.name == 'Brazil'
-        assert br.region_group == ['Americas']
+    with importlib_resources.as_file(DATA_DIR) as data_path:
+        for regions in [LoadRegions(),
+                        LoadRegions(None),
+                        LoadRegions(data_path)]:
+            regions = LoadRegions()
+            br = regions["BR"]
+            assert br.name == 'Brazil'
+            assert br.region_group == ['Americas']

@@ -1,10 +1,14 @@
-from importlib_resources import files
 import glob
 import os
 import pytest
+import sys
 from gflanguages import languages_public_pb2
 from google.protobuf import text_format
 
+if sys.version_info < (3, 10):
+    from importlib_resources import files
+else:
+    from importlib.resources import files
 
 languages_dir = files("gflanguages.data").joinpath("languages")
 textproto_files = [

@@ -22,10 +22,15 @@ data on the Google Fonts collection.
 import glob
 import os
 import unicodedata
+import sys
 
 from gflanguages import languages_public_pb2
 from google.protobuf import text_format
-from importlib_resources import files
+
+if sys.version_info < (3, 10):
+    from importlib_resources import files
+else:
+    from importlib.resources import files
 
 try:
     from ._version import version as __version__  # type: ignore

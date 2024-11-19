@@ -31,6 +31,7 @@ fonts {
   copyright: "Copyright 2018 The Gaegu Project Authors"
 }
 subsets: "korean"
+subsets: "latin"
 subsets: "menu"
 primary_script: "Kore"
 stroke: "SANS_SERIF"

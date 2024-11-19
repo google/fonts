@@ -13,6 +13,7 @@ fonts {
   copyright: "Copyright 2015 The Black Han Sans Authors"
 }
 subsets: "korean"
+subsets: "latin"
 subsets: "menu"
 primary_script: "Kore"
 stroke: "SANS_SERIF"

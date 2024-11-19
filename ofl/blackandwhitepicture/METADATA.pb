@@ -13,5 +13,6 @@ fonts {
   copyright: "Copyright (c) 1992-2018 AsiaSoft Inc. Seoul Korea All Rights Reserved."
 }
 subsets: "korean"
+subsets: "latin"
 subsets: "menu"
 primary_script: "Kore"

@@ -2,10 +2,10 @@ import json
 from urllib.request import urlopen
 import sys
 
-prod_data = json.loads(
+dev_data = json.loads(
     urlopen("https://fonts.google.com/metadata/fonts").read().decode("utf-8")
 )
-prod_families = set(f["family"] for f in prod_data["familyMetadataList"])
+dev_families = set(f["family"] for f in dev_data["familyMetadataList"])
 
 csv_data = (
     urlopen("https://raw.githubusercontent.com/google/fonts/main/tags/all/families.csv")
@@ -19,8 +19,7 @@ csv_families = set(
     if line.split(",")[0] != "Family"
 )
 
-families_missing_tags = sorted(prod_families - csv_families)
-families_missing_tags = [f for f in families_missing_tags if not f.endswith("SC")]
+families_missing_tags = sorted(dev_families - csv_families)
 
 if families_missing_tags:
     missing_list = "\n".join(families_missing_tags)

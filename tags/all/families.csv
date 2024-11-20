@@ -1,3 +1,4 @@
+Family,Group/Tag,Weight
 ABeeZee,/Expressive/Calm,91.6
 ABeeZee,/Sans/Geometric,10
 ABeeZee,/Sans/Humanist,75
@@ -53,12 +54,14 @@ Advent Pro,/Expressive/Calm,54
 Advent Pro,/Expressive/Playful,31
 Advent Pro,/Sans/Humanist,40
 Advent Pro,/Theme/Wacky,10
+Advent Pro,Kwanzaa,70
 Afacad Flux,/Expressive/Calm,90.6
 Afacad Flux,/Sans/Geometric,100
 Afacad,/Sans/Geometric,100
 Agbalumo,/Expressive/Cute,53
 Agbalumo,/Seasonal/Hanukkah,70
 Agbalumo,/Theme/Brush,80
+Agbalumo,Kwanzaa,95
 Agdasima,/Expressive/Business,27
 Agdasima,/Expressive/Calm,93.4
 Agdasima,/Sans/Humanist,60
@@ -262,6 +265,7 @@ Amethysta,/Serif/Old Style Garalde,70
 Amethysta,/Serif/Transitional,20
 Amiko,/Expressive/Calm,96.5
 Amiko,/Sans/Humanist,100
+Amiko,Kwanzaa,65
 Amiri Quran,/Arabic/Naskh,100
 Amiri Quran,/Serif/Old Style Garalde,100
 Amiri,/Arabic/Naskh,100
@@ -561,6 +565,7 @@ B612 Mono,/Expressive/Awkward,12
 B612 Mono,/Monospace/Monospace,100
 B612 Mono,/Sans/Geometric,20
 B612 Mono,/Sans/Humanist,20
+B612 Mono,Kwanzaa,70
 B612,/Expressive/Calm,93.2
 B612,/Expressive/Competent,39
 B612,/Sans/Geometric,20
@@ -592,6 +597,7 @@ Bagel Fat One,/Expressive/Innovative,90
 Bagel Fat One,/Expressive/Playful,98.7
 Bagel Fat One,/Sans/Rounded,100
 Bagel Fat One,/Theme/Blobby,80
+Bagel Fat One,Kwanzaa,75
 Bahiana,/Expressive/Awkward,86
 Bahiana,/Expressive/Futuristic,42
 Bahiana,/Expressive/Playful,97.8
@@ -603,6 +609,7 @@ Bahianita,/Expressive/Futuristic,59
 Bahianita,/Expressive/Playful,97.8
 Bahianita,/Expressive/Rugged,31
 Bahianita,/Expressive/Stiff,51
+Bahianita,Kwanzaa,80
 Bai Jamjuree,/Expressive/Business,42
 Bai Jamjuree,/Expressive/Calm,75
 Bai Jamjuree,/Expressive/Stiff,94
@@ -973,6 +980,7 @@ Boogaloo,/Script/Upright Script,50
 Boogaloo,/Seasonal/Christmas,70
 Boogaloo,/Seasonal/Hanukkah,67
 Boogaloo,/Theme/Wacky,30
+Boogaloo,Kwanzaa,70
 Borel,/Expressive/Childlike,87
 Borel,/Expressive/Cute,100
 Borel,/Expressive/Playful,53
@@ -997,6 +1005,7 @@ Braah One,/Expressive/Playful,32
 Braah One,/Expressive/Stiff,91
 Braah One,/Sans/Geometric,50
 Braah One,/Sans/Humanist,50
+Braah One,Kwanzaa,75
 Brawler,/Expressive/Business,57.7
 Brawler,/Expressive/Sincere,96
 Brawler,/Serif/Old Style Garalde,50
@@ -1049,6 +1058,7 @@ Bungee Hairline,/Sans/Geometric,70
 Bungee Hairline,/Sans/Humanist,5
 Bungee Hairline,/Sans/Rounded,60
 Bungee Hairline,/Theme/Woodtype,10
+Bungee Hairline,Kwanzaa,85
 Bungee Inline,/Expressive/Innovative,93
 Bungee Inline,/Expressive/Playful,33
 Bungee Inline,/Expressive/Stiff,97
@@ -1066,6 +1076,7 @@ Bungee Outline,/Sans/Geometric,70
 Bungee Outline,/Sans/Humanist,5
 Bungee Outline,/Sans/Rounded,60
 Bungee Outline,/Theme/Woodtype,10
+Bungee Outline,Kwanzaa,85
 Bungee Shade,/Expressive/Innovative,99
 Bungee Shade,/Expressive/Playful,34
 Bungee Shade,/Expressive/Stiff,94
@@ -1074,6 +1085,7 @@ Bungee Shade,/Sans/Geometric,70
 Bungee Shade,/Sans/Humanist,5
 Bungee Shade,/Sans/Rounded,60
 Bungee Shade,/Theme/Woodtype,10
+Bungee Shade,Kwanzaa,80
 Bungee Spice,/Expressive/Innovative,100
 Bungee Spice,/Expressive/Playful,40
 Bungee Spice,/Expressive/Stiff,92
@@ -1083,6 +1095,7 @@ Bungee Spice,/Sans/Humanist,5
 Bungee Spice,/Sans/Rounded,60
 Bungee Spice,/Seasonal/Diwali,96
 Bungee Spice,/Seasonal/Hanukkah,80
+Bungee Spice,Kwanzaa,90
 Bungee Tint,/Expressive/Futuristic,95
 Bungee Tint,/Expressive/Innovative,100
 Bungee Tint,/Sans/Geometric,70
@@ -1132,6 +1145,7 @@ Caesar Dressing,/Expressive/Vintage,98.5
 Caesar Dressing,/Script/Handwritten,10
 Caesar Dressing,/Theme/Distressed,20
 Caesar Dressing,/Theme/Wacky,100
+Caesar Dressing,Kwanzaa,70
 Cagliostro,/Expressive/Calm,49
 Cagliostro,/Expressive/Competent,54
 Cagliostro,/Expressive/Playful,31
@@ -1157,6 +1171,7 @@ Calistoga,/Expressive/Stiff,60
 Calistoga,/Expressive/Vintage,64.7
 Calistoga,/Seasonal/Hanukkah,60
 Calistoga,/Serif/Transitional,80
+Calistoga,Kwanzaa,65
 Calligraffitti,/Expressive/Active,69
 Calligraffitti,/Expressive/Artistic,78
 Calligraffitti,/Expressive/Awkward,62
@@ -1192,6 +1207,7 @@ Cantora One,/Expressive/Playful,21
 Cantora One,/Expressive/Vintage,67.8
 Cantora One,/Sans/Glyphic,40
 Cantora One,/Sans/Humanist,100
+Cantora One,Kwanzaa,80
 Caprasimo,/Expressive/Cute,14
 Caprasimo,/Expressive/Loud,97
 Caprasimo,/Expressive/Playful,32
@@ -1205,6 +1221,7 @@ Capriola,/Sans/Glyphic,40
 Capriola,/Sans/Humanist,50
 Capriola,/Sans/Rounded,70
 Capriola,/Script/Upright Script,20
+Capriola,Kwanzaa,80
 Caramel,/Expressive/Artistic,97
 Caramel,/Expressive/Fancy,73
 Caramel,/Expressive/Playful,11
@@ -1247,6 +1264,7 @@ Carter One,/Expressive/Vintage,58.7
 Carter One,/Sans/Glyphic,40
 Carter One,/Sans/Humanist,80
 Carter One,/Script/Handwritten,30
+Carter One,/Seasonal/Hanukkah,70
 Carter One,/Seasonal/Hanukkah,75
 Castoro Titling,/Expressive/Sincere,98
 Castoro Titling,/Expressive/Vintage,91
@@ -1369,6 +1387,7 @@ Chela One,/Expressive/Playful,90.1
 Chela One,/Expressive/Sincere,97
 Chela One,/Expressive/Vintage,73.9
 Chela One,/Theme/Brush,100
+Chela One,Kwanzaa,80
 Chelsea Market,/Expressive/Awkward,85
 Chelsea Market,/Expressive/Happy,70
 Chelsea Market,/Expressive/Innovative,32
@@ -1393,6 +1412,7 @@ Cherry Bomb One,/Expressive/Playful,98.3
 Cherry Bomb One,/Expressive/Vintage,66.8
 Cherry Bomb One,/Theme/Blobby,100
 Cherry Bomb One,/Theme/Wacky,20
+Cherry Bomb One,Kwanzaa,75
 Cherry Cream Soda,/Expressive/Awkward,51
 Cherry Cream Soda,/Expressive/Childlike,20
 Cherry Cream Soda,/Expressive/Happy,89
@@ -1419,6 +1439,7 @@ Chicle,/Expressive/Playful,97.7
 Chicle,/Expressive/Vintage,90.5
 Chicle,/Seasonal/Christmas,65
 Chicle,/Theme/Blobby,70
+Chicle,Kwanzaa,75
 Chilanka,/Expressive/Awkward,11
 Chilanka,/Expressive/Childlike,98
 Chilanka,/Expressive/Cute,56
@@ -1471,6 +1492,7 @@ Climate Crisis,/Expressive/Playful,37
 Climate Crisis,/Expressive/Rugged,73.9
 Climate Crisis,/Sans/Geometric,70
 Climate Crisis,/Sans/Humanist,30
+Climate Crisis,Kwanzaa,75
 Coda,/Expressive/Calm,74
 Coda,/Expressive/Futuristic,76
 Coda,/Expressive/Stiff,78
@@ -1783,6 +1805,7 @@ Dela Gothic One,/Sans/Geometric,10
 Dela Gothic One,/Sans/Grotesque,80
 Dela Gothic One,/Theme/Wacky,10
 Dela Gothic One,/Theme/Woodtype,40
+Dela Gothic One,Kwanzaa,75
 Delicious Handrawn,/Expressive/Awkward,53
 Delicious Handrawn,/Expressive/Cute,79
 Delicious Handrawn,/Expressive/Excited,22
@@ -1806,6 +1829,7 @@ Denk One,/Expressive/Competent,77
 Denk One,/Expressive/Excited,71
 Denk One,/Expressive/Playful,74
 Denk One,/Expressive/Stiff,91
+Denk One,Kwanzaa,75
 Devonshire,/Expressive/Artistic,66
 Devonshire,/Expressive/Cute,36
 Devonshire,/Expressive/Excited,38
@@ -1848,6 +1872,7 @@ Diplomata SC,/Expressive/Vintage,94
 Diplomata SC,/Script/Informal,20
 Diplomata SC,/Script/Upright Script,40
 Diplomata SC,/Serif/Didone,100
+Diplomata SC,Kwanzaa,95
 Diplomata,/Expressive/Competent,97.5
 Diplomata,/Expressive/Innovative,93
 Diplomata,/Expressive/Loud,99
@@ -1855,6 +1880,7 @@ Diplomata,/Expressive/Vintage,94
 Diplomata,/Serif/Didone,100
 Diplomata,/Serif/Fat Face,70
 Diplomata,/Theme/Inline,100
+Diplomata,Kwanzaa,95
 Do Hyeon,/Expressive/Futuristic,79
 Do Hyeon,/Expressive/Playful,31
 Do Hyeon,/Expressive/Stiff,92
@@ -1926,6 +1952,7 @@ DynaPuff,/Sans/Rounded,100
 DynaPuff,/Seasonal/Christmas,65
 DynaPuff,/Theme/Blobby,100
 DynaPuff,/Theme/Wacky,50
+DynaPuff,Kwanzaa,70
 Dynalight,/Expressive/Artistic,99
 Dynalight,/Expressive/Fancy,94
 Dynalight,/Expressive/Vintage,92
@@ -2119,6 +2146,7 @@ Englebert,/Expressive/Cute,68
 Englebert,/Expressive/Happy,86
 Englebert,/Expressive/Playful,90.9
 Englebert,/Theme/Wacky,50
+Englebert,Kwanzaa,75
 Enriqueta,/Expressive/Business,97.7
 Enriqueta,/Expressive/Stiff,40
 Enriqueta,/Slab/Humanist,80
@@ -2208,6 +2236,7 @@ Fascinate Inline,/Expressive/Loud,97
 Fascinate Inline,/Expressive/Vintage,92
 Fascinate Inline,/Theme/Art Deco,100
 Fascinate Inline,/Theme/Inline,100
+Fascinate Inline,Kwanzaa,90
 Fascinate,/Expressive/Artistic,100
 Fascinate,/Expressive/Loud,97
 Fascinate,/Expressive/Vintage,92
@@ -2245,6 +2274,7 @@ Festive,/Expressive/Cute,12
 Festive,/Script/Handwritten,30
 Festive,/Script/Informal,100
 Festive,/Seasonal/Diwali,75
+Festive,/Seasonal/Hanukkah,65
 Festive,/Seasonal/Hanukkah,65
 Festive,/Theme/Wacky,40
 Figtree,/Expressive/Business,93
@@ -2372,6 +2402,7 @@ Freehand,/Script/Informal,80
 Freehand,/Theme/Brush,30
 Freeman,/Sans/Grotesque,70
 Freeman,/Sans/Humanist,30
+Freeman,Kwanzaa,80
 Fresca,/Expressive/Happy,54
 Fresca,/Expressive/Playful,14
 Fresca,/Sans/Geometric,10
@@ -2440,6 +2471,7 @@ GFS Neohellenic,/Sans/Humanist,100
 Ga Maamli,/Expressive/Artistic,52
 Ga Maamli,/Expressive/Loud,70
 Ga Maamli,/Script/Handwritten,100
+Ga Maamli,Kwanzaa,60
 Gabarito,/Expressive/Business,57.3
 Gabarito,/Expressive/Calm,98.7
 Gabarito,/Expressive/Stiff,81
@@ -2486,6 +2518,7 @@ Galindo,/Expressive/Childlike,70
 Galindo,/Expressive/Playful,97.5
 Galindo,/Theme/Wacky,20
 Galindo,/Theme/Woodtype,50
+Galindo,Kwanzaa,70
 Gamja Flower,/Expressive/Childlike,100
 Gamja Flower,/Expressive/Cute,80
 Gamja Flower,/Expressive/Playful,64
@@ -2690,6 +2723,7 @@ Grandstander,/Expressive/Happy,56
 Grandstander,/Expressive/Playful,53
 Grandstander,/Sans/Humanist,20
 Grandstander,/Theme/Wacky,50
+Grandstander,Kwanzaa,80
 Grape Nuts,/Expressive/Active,99
 Grape Nuts,/Expressive/Artistic,72
 Grape Nuts,/Expressive/Happy,44
@@ -2785,6 +2819,7 @@ Hachi Maru Pop,/Script/Handwritten,100
 Hachi Maru Pop,/Script/Upright Script,100
 Hachi Maru Pop,/Theme/Brush,100
 Hachi Maru Pop,/Theme/Wacky,20
+Hachi Maru Pop,Kwanzaa,60
 Hahmlet,/Expressive/Business,84.1
 Hahmlet,/Expressive/Vintage,53
 Hahmlet,/Serif/Transitional,100
@@ -3127,6 +3162,7 @@ Itim,/Sans/Humanist,40
 Itim,/Script/Handwritten,50
 Itim,/Seasonal/Christmas,81
 Itim,/Theme/Brush,100
+Itim,Kwanzaa,75
 Jacquard 12 Charted,/Expressive/Vintage,95
 Jacquard 12 Charted,/Theme/Medieval,80
 Jacquard 12 Charted,/Theme/Pixel,100
@@ -3154,6 +3190,7 @@ Jaini,/Theme/Blackletter,60
 Jaldi,/Expressive/Calm,95.4
 Jaldi,/Indic/Low contrast,100
 Jaro,/Expressive/Loud,82
+Jaro,Kwanzaa,70
 Jersey 10 Charted,/Theme/Pixel,100
 Jersey 10,/Theme/Pixel,100
 Jersey 15 Charted,/Theme/Pixel,100
@@ -3269,6 +3306,7 @@ Kablammo,/Expressive/Vintage,48.4
 Kablammo,/Seasonal/Halloween,90
 Kablammo,/Theme/Blobby,100
 Kablammo,/Theme/Wacky,100
+Kablammo,Kwanzaa,65
 Kadwa,/Expressive/Business,70
 Kadwa,/Expressive/Stiff,20
 Kaisei Decol,/Expressive/Business,39
@@ -3520,6 +3558,7 @@ Kranky,/Theme/Brush,20
 Kranky,/Theme/Distressed,50
 Kranky,/Theme/Inline,20
 Kranky,/Theme/Wacky,100
+Kranky,Kwanzaa,80
 Kreon,/Expressive/Business,26
 Kreon,/Expressive/Sincere,71
 Kristi,/Expressive/Artistic,73
@@ -3708,6 +3747,7 @@ Lilita One,/Expressive/Stiff,51
 Lilita One,/Sans/Humanist,100
 Lilita One,/Theme/Blobby,30
 Lilita One,/Theme/Woodtype,20
+Lilita One,Kwanzaa,80
 Lily Script One,/Expressive/Artistic,54
 Lily Script One,/Expressive/Cute,52
 Lily Script One,/Expressive/Happy,22
@@ -3855,6 +3895,7 @@ Luckiest Guy,/Expressive/Playful,96
 Luckiest Guy,/Seasonal/Christmas,70
 Luckiest Guy,/Theme/Wacky,40
 Luckiest Guy,/Theme/Woodtype,30
+Luckiest Guy,Kwanzaa,75
 Lugrasimo,/Expressive/Active,64
 Lugrasimo,/Expressive/Artistic,79
 Lugrasimo,/Expressive/Fancy,64
@@ -4028,6 +4069,7 @@ Marhey,/Expressive/Playful,45
 Marhey,/Sans/Humanist,40
 Marhey,/Script/Upright Script,30
 Marhey,/Theme/Brush,50
+Marhey,Kwanzaa,80
 Markazi Text,/Expressive/Business,99.7
 Markazi Text,/Expressive/Stiff,50
 Markazi Text,/Expressive/Vintage,58.7
@@ -4189,6 +4231,7 @@ Miltonian Tattoo,/Expressive/Happy,70
 Miltonian Tattoo,/Expressive/Loud,74
 Miltonian Tattoo,/Serif/Modern,40
 Miltonian Tattoo,/Theme/Brush,10
+Miltonian Tattoo,Kwanzaa,80
 Miltonian,/Expressive/Childlike,15
 Miltonian,/Expressive/Happy,77
 Miltonian,/Expressive/Innovative,71
@@ -4196,6 +4239,7 @@ Miltonian,/Expressive/Sincere,10.1
 Miltonian,/Serif/Modern,40
 Miltonian,/Theme/Brush,10
 Miltonian,/Theme/Inline,100
+Miltonian,Kwanzaa,85
 Mina,/Expressive/Competent,79.3
 Mina,/Expressive/Futuristic,96
 Mina,/Expressive/Stiff,96
@@ -4305,6 +4349,7 @@ Monoton,/Sans/Geometric,100
 Monoton,/Theme/Art Deco,80
 Monoton,/Theme/Inline,100
 Monoton,/Theme/Techno,20
+Monoton,Kwanzaa,95
 Monsieur La Doulaise,/Expressive/Artistic,100
 Monsieur La Doulaise,/Expressive/Fancy,100
 Monsieur La Doulaise,/Expressive/Sophisticated,100
@@ -4334,6 +4379,7 @@ Montez,/Script/Upright Script,100
 Montez,/Seasonal/Diwali,80
 Montserrat Alternates,/Expressive/Calm,98.3
 Montserrat Alternates,/Sans/Geometric,100
+Montserrat Alternates,Kwanzaa,65
 Montserrat Subrayada,/Sans/Geometric,100
 Montserrat,/Expressive/Business,56.6
 Montserrat,/Expressive/Calm,98.3
@@ -5087,6 +5133,7 @@ Oi,/Slab/Clarendon,80
 Oi,/Theme/Wacky,80
 Ojuju,/Expressive/Awkward,60
 Ojuju,/Expressive/Cute,20
+Ojuju,Kwanzaa,95
 Old Standard TT,/Expressive/Business,68.8
 Old Standard TT,/Expressive/Competent,99.8
 Old Standard TT,/Expressive/Vintage,78.7
@@ -5164,6 +5211,7 @@ Original Surfer,/Expressive/Playful,91.6
 Original Surfer,/Expressive/Vintage,71.7
 Original Surfer,/Sans/Glyphic,80
 Original Surfer,/Theme/Wacky,100
+Original Surfer,Kwanzaa,75
 Oswald,/Expressive/Business,94.1
 Oswald,/Expressive/Calm,85.2
 Oswald,/Expressive/Competent,99.9
@@ -5344,6 +5392,7 @@ Patrick Hand,/Expressive/Sincere,96
 Patrick Hand,/Script/Handwritten,100
 Patrick Hand,/Script/Informal,100
 Patrick Hand,/Script/Upright Script,100
+Patrick Hand,Kwanzaa,65
 Pattaya,/Expressive/Artistic,75
 Pattaya,/Expressive/Cute,35
 Pattaya,/Expressive/Fancy,92
@@ -5485,6 +5534,7 @@ Playwrite AT,/Expressive/Cute,50
 Playwrite AT,/Script/Handwritten,100
 Playwrite AT,/Script/Informal,80
 Playwrite AT,/Script/Upright Script,50
+Playwrite AT,Kwanzaa,85
 Playwrite AU NSW,/Expressive/Active,81
 Playwrite AU NSW,/Expressive/Cute,50
 Playwrite AU NSW,/Script/Handwritten,100
@@ -5495,6 +5545,7 @@ Playwrite AU QLD,/Script/Informal,80
 Playwrite AU SA,/Expressive/Cute,50
 Playwrite AU SA,/Script/Handwritten,100
 Playwrite AU SA,/Script/Informal,80
+Playwrite AU SA,Kwanzaa,85
 Playwrite AU TAS,/Expressive/Cute,50
 Playwrite AU TAS,/Script/Handwritten,100
 Playwrite AU TAS,/Script/Informal,80
@@ -5504,6 +5555,7 @@ Playwrite AU VIC,/Script/Informal,80
 Playwrite BE VLG,/Expressive/Cute,50
 Playwrite BE VLG,/Script/Handwritten,100
 Playwrite BE VLG,/Script/Informal,80
+Playwrite BE VLG,Kwanzaa,65
 Playwrite BE WAL,/Expressive/Calm,50
 Playwrite BE WAL,/Expressive/Cute,50
 Playwrite BE WAL,/Script/Handwritten,100
@@ -5533,6 +5585,7 @@ Playwrite CZ,/Expressive/Active,80
 Playwrite CZ,/Expressive/Cute,50
 Playwrite CZ,/Script/Handwritten,100
 Playwrite CZ,/Script/Informal,80
+Playwrite CZ,Kwanzaa,85
 Playwrite DE Grund,/Expressive/Calm,50
 Playwrite DE Grund,/Expressive/Cute,50
 Playwrite DE Grund,/Script/Handwritten,100
@@ -5553,6 +5606,7 @@ Playwrite DE VA,/Script/Informal,80
 Playwrite DK Loopet,/Expressive/Cute,50
 Playwrite DK Loopet,/Script/Handwritten,100
 Playwrite DK Loopet,/Script/Informal,80
+Playwrite DK Loopet,Kwanzaa,85
 Playwrite DK Uloopet,/Expressive/Cute,50
 Playwrite DK Uloopet,/Script/Handwritten,100
 Playwrite DK Uloopet,/Script/Informal,80
@@ -5682,6 +5736,7 @@ Playwrite VN,/Script/Upright Script,100
 Playwrite ZA,/Expressive/Cute,50
 Playwrite ZA,/Script/Handwritten,100
 Playwrite ZA,/Script/Informal,80
+Playwrite ZA,Kwanzaa,85
 Plus Jakarta Sans,/Expressive/Business,55.2
 Plus Jakarta Sans,/Expressive/Calm,79
 Plus Jakarta Sans,/Expressive/Stiff,71
@@ -5736,6 +5791,7 @@ Port Lligat Sans,/Expressive/Calm,8
 Port Lligat Sans,/Expressive/Playful,12
 Port Lligat Sans,/Sans/Humanist,50
 Port Lligat Sans,/Sans/Rounded,10
+Port Lligat Sans,Kwanzaa,75
 Port Lligat Slab,/Expressive/Playful,12
 Port Lligat Slab,/Expressive/Sincere,9
 Port Lligat Slab,/Serif/Humanist Venetian,50
@@ -5940,6 +5996,7 @@ Rammetto One,/Expressive/Loud,99
 Rammetto One,/Expressive/Playful,12
 Rammetto One,/Expressive/Stiff,51
 Rammetto One,/Sans/Humanist,100
+Rammetto One,Kwanzaa,75
 Rampart One,/Expressive/Excited,34
 Rampart One,/Expressive/Innovative,99
 Rampart One,/Expressive/Playful,91.1
@@ -5952,6 +6009,7 @@ Ranchers,/Expressive/Loud,99
 Ranchers,/Expressive/Playful,96.2
 Ranchers,/Expressive/Vintage,76.9
 Ranchers,/Theme/Brush,80
+Ranchers,Kwanzaa,70
 Rancho,/Expressive/Excited,44
 Rancho,/Expressive/Happy,54
 Rancho,/Expressive/Loud,45
@@ -6371,6 +6429,7 @@ Rum Raisin,/Expressive/Excited,19
 Rum Raisin,/Expressive/Happy,17
 Rum Raisin,/Expressive/Playful,90.5
 Rum Raisin,/Theme/Wacky,30
+Rum Raisin,Kwanzaa,70
 Ruslan Display,/Expressive/Awkward,97
 Ruslan Display,/Expressive/Loud,85
 Ruslan Display,/Expressive/Playful,90.7
@@ -6469,6 +6528,7 @@ Sancreek,/Theme/Tuscan,100
 Sancreek,/Theme/Woodtype,90
 Sankofa Display,/Expressive/Innovative,91
 Sankofa Display,/Expressive/Playful,70.5
+Sankofa Display,Kwanzaa,90
 Sansation,/Expressive/Calm,79
 Sansation,/Expressive/Futuristic,88
 Sansation,/Expressive/Stiff,83
@@ -6796,6 +6856,7 @@ Slackside One,/Theme/Blobby,30
 Slackside One,/Theme/Brush,20
 Slackside One,/Theme/Distressed,50
 Slackside One,/Theme/Wacky,40
+Slackside One,Kwanzaa,75
 Smokum,/Expressive/Loud,80
 Smokum,/Expressive/Stiff,74
 Smokum,/Expressive/Vintage,92.5
@@ -6972,6 +7033,7 @@ Spicy Rice,/Expressive/Stiff,30
 Spicy Rice,/Expressive/Vintage,90.5
 Spicy Rice,/Seasonal/Diwali,80
 Spicy Rice,/Theme/Wacky,10
+Spicy Rice,Kwanzaa,75
 Spinnaker,/Expressive/Business,24
 Spinnaker,/Expressive/Calm,85.1
 Spinnaker,/Expressive/Stiff,62
@@ -7285,6 +7347,7 @@ Tilt Prism,/Expressive/Innovative,100
 Tilt Prism,/Expressive/Stiff,82
 Tilt Prism,/Expressive/Vintage,84.5
 Tilt Prism,/Theme/Inline,50
+Tilt Prism,Kwanzaa,80
 Tilt Warp,/Expressive/Stiff,63
 Tilt Warp,/Expressive/Vintage,84.5
 Tilt Warp,/Sans/Geometric,80
@@ -7382,6 +7445,7 @@ Train One,/Expressive/Innovative,97
 Train One,/Expressive/Stiff,51
 Train One,/Theme/Inline,100
 Train One,/Theme/Techno,30
+Train One,Kwanzaa,90
 Trirong,/Expressive/Business,87.7
 Trirong,/Expressive/Sincere,78
 Trirong,/Expressive/Vintage,43.9
@@ -7476,6 +7540,7 @@ Unbounded,/Expressive/Futuristic,20
 Unbounded,/Expressive/Stiff,74
 Unbounded,/Sans/Humanist,50
 Unbounded,/Sans/Neo Grotesque,50
+Unbounded,Kwanzaa,70
 Uncial Antiqua,/Expressive/Loud,65
 Uncial Antiqua,/Expressive/Playful,41
 Uncial Antiqua,/Expressive/Vintage,98
@@ -7611,6 +7676,7 @@ Viga,/Expressive/Playful,31
 Viga,/Expressive/Stiff,83
 Viga,/Sans/Humanist,50
 Viga,/Sans/Neo Grotesque,50
+Viga,Kwanzaa,75
 Vina Sans,/Expressive/Loud,98
 Vina Sans,/Expressive/Stiff,91
 Vina Sans,/Sans/Geometric,100
@@ -7922,6 +7988,7 @@ Zen Tokyo Zoo,/Expressive/Stiff,82
 Zen Tokyo Zoo,/Expressive/Vintage,73.6
 Zen Tokyo Zoo,/Theme/Art Deco,30
 Zen Tokyo Zoo,/Theme/Inline,70
+Zen Tokyo Zoo,Kwanzaa,90
 Zeyada,/Expressive/Artistic,71
 Zeyada,/Expressive/Awkward,55
 Zeyada,/Expressive/Childlike,64

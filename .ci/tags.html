@@ -27,8 +27,8 @@
             <details>
               <summary>Edit</summary>
               <ul class="shadow w-56">
-                <li><a>Insert placeholder tags</a></li>
-                <li><a>Remove placeholder tags</a></li>
+                <li><a @click="AddPlaceHolderTags">Insert placeholder tags</a></li>
+                <li><a @click="RemovePlaceHolderTags">Remove placeholder tags</a></li>
               </ul>
             </details>
           </li>
@@ -311,12 +311,31 @@
         
         this.history.push(`+ ${newFamily.Family},${newFamily["Group/Tag"]},${newFamily.Weight}`);
       },
+      AddPlaceHolderTags() {
+        this.isEdited = true;
+        const existingTags = this.sortedFamilies
+        let seen = new Set();
+        existingTags.forEach((family) => seen.add(family.Family));
+        const familiesToAdd = this.uniqueFamilies
+        familiesToAdd.forEach((family) => {
+          if (!seen.has(family)) {
+            this.Families.push({ Family: family, "Group/Tag": this.CurrentCategory, Weight: "" });
+          }
+        });
+        this.history.push(`+ Placeholder tags added for ${this.CurrentCategory}`);
+      },
+      RemovePlaceHolderTags() {
+        this.isEdited = true;
+        this.Families = this.Families.filter((family) => family.Weight !== "");
+        this.history.push(`- Placeholder tags removed for all categories`);
+      },
       removeFamily(Family) {
         this.isEdited = true;
         this.Families = this.Families.filter((t) => t !== Family);
         this.history.push(`- ${Family.Family},${Family["Group/Tag"]},${Family.Weight}`);
       },
       familiesToCSV() {
+        this.RemovePlaceHolderTags();
         this.Families = this.Families.filter((t) => t.Family !== "");
         // The sorting function used is case sensitive.
         // This means that "A" will come before "a".

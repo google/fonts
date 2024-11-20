@@ -16,6 +16,7 @@ dynamic = ["version"]
 
 name = "gflanguages"
 description = "A python API for evaluating language support in the Google Fonts collection."
+requires-python = ">=3.8"
 readme = "README.md"
 authors = [
    { name = "Simon Cozens", email = "simon@simon-cozens.org" }
@@ -23,7 +24,7 @@ authors = [
 
 dependencies = [
    "protobuf>=3.7.0, <4",
-   "importlib_resources",  # Needed for 3.9 and below
+   "importlib_resources ; python_version < '3.10'",
 ]
 
 [project.optional-dependencies]

@@ -47,3 +47,6 @@ source {
   }
   branch: "main"
 }
+
+classifications: "MONOSPACE"
+stroke: "SANS_SERIF"

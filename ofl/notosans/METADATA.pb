@@ -42,8 +42,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/latin-greek-cyrillic"
-  commit: "22328ea1ab03320d5519445fb74fd5659eebcb81"
-  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v2.014/NotoSans-v2.014.zip"
+  commit: "c4a321e123e4d4ff315f57f4e0adf294fe3a95be"
+  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v2.015/NotoSans-v2.015.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"
@@ -76,7 +76,7 @@ languages: "acf_Latn"  # Saint Lucian Creole French, Latin
 languages: "ach_Latn"  # Acoli
 languages: "acu_Latn"  # Achuar-Shiwiar
 languages: "ada_Latn"  # Adangme
-languages: "adl_Latn"  # Galo, Latin
+languages: "adl_Latn"
 languages: "ady_Cyrl"  # Adyghe
 languages: "af_Latn"  # Afrikaans
 languages: "agq_Latn"  # Aghem
@@ -85,7 +85,7 @@ languages: "aii_Cyrl"  # Assyrian Neo-Aramaic, Cyrillic
 languages: "aii_Latn"  # Assyrian Neo-Aramaic, Latin
 languages: "ain_Latn"  # Ainu (Latin)
 languages: "ajg_Latn"  # Aja
-languages: "ak_Latn"  # Akan
+languages: "ak_Latn"
 languages: "akz_Latn"  # Alabama
 languages: "ale_Latn"  # Aleut
 languages: "aln_Latn"  # Gheg Albanian
@@ -120,7 +120,7 @@ languages: "ba_Cyrl"  # Bashkir
 languages: "ba_Latn"  # Bashkir (Latin)
 languages: "bal_Latn"  # Baluchi (Latin)
 languages: "ban_Latn"  # Balinese
-languages: "bap_Deva"  # Bantawa
+languages: "bap_Deva"  # Bantawa (Devanagari)
 languages: "bar_Latn"  # Bavarian
 languages: "bas_Latn"  # Basaa
 languages: "bax_Latn"  # Bamun (Latin)
@@ -174,7 +174,7 @@ languages: "bug_Latn"  # Buginese
 languages: "bum_Latn"  # Bulu
 languages: "bvb_Latn"  # Bube
 languages: "bvi_Latn"  # Belanda Viri, Latin
-languages: "bwy_Latn"  # Cwi Bwamu, Latin
+languages: "bwy_Latn"
 languages: "byh_Deva"  # Bhujel (Devanagari)
 languages: "byv_Latn"  # Medumba
 languages: "bze_Latn"  # Jenaama Bozo
@@ -467,7 +467,7 @@ languages: "ksb_Latn"  # Shambala
 languages: "ksf_Latn"  # Bafia
 languages: "ksh_Latn"  # Colognian
 languages: "ktu_Latn"  # Kituba
-languages: "ku_Cyrl"  # Kurdish
+languages: "ku_Cyrl"
 languages: "ku_Latn"  # Kurdish (Latin)
 languages: "kum_Cyrl"  # Kumyk
 languages: "kut_Latn"  # Kutenai
@@ -563,7 +563,7 @@ languages: "mrd_Deva"  # Western Magar
 languages: "mrj_Cyrl"  # Western Mari
 languages: "mro_Latn"  # Mru
 languages: "mrw_Latn"  # Maranao (Latin)
-languages: "ms_Latn"  # Malay
+languages: "ms_Latn"
 languages: "mt_Latn"  # Maltese
 languages: "mto_Latn"  # Mixe, Totontepec
 languages: "mtr_Deva"  # Mewari

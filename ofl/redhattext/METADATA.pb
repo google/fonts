@@ -46,3 +46,5 @@ source {
   }
   branch: "main"
 }
+primary_script: "Latn"
+stroke: "SANS_SERIF"

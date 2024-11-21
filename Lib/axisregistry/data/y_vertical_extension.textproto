@@ -10,7 +10,7 @@ fallback {
   value: 0
 }
 fallback_only: false
-description: "The axis extends glyphs in the Y dimension, such as the
-  Cap Height, Ascender and Descender lengths. This is a relative axis,
-  starting at 0% and going to the typeface's individual maximum
-  extent at 100%."
+description: "The axis extends glyphs in the Y dimension, such as the "
+  "Cap Height, Ascender and Descender lengths. This is a relative axis, "
+  "starting at 0% and going to the typeface's individual maximum "
+  "extent at 100%."

@@ -157,6 +157,7 @@
         CurrentCategory: "/Expressive/Calm",
         Categories: new Set(),
         Families: [],
+        Seen: new Set(),
         Pangrams: new Map([
           ["English", "The quick brown fox jumps over the lazy dog."],
           ["Greek", "Ζαφείρι δέξου πάγκαλο, βαθῶν ψυχῆς τὸ σῆμα"],
@@ -307,6 +308,11 @@
       AddFamily() {
         this.isEdited = true;
         let newFamily = { Weight: this.newWeight, Family: this.newFamily, "Group/Tag": this.CurrentCategory }
+        let tagKey = `${newFamily.Family},${newFamily["Group/Tag"]}`;
+        if (this.Seen.has(tagKey)) {
+          alert(`Tag "${newFamily.Family}" already exists in "${this.CurrentCategory}"`);
+          return;
+        }
         this.Families.push(newFamily);
         
         this.history.push(`+ ${newFamily.Family},${newFamily["Group/Tag"]},${newFamily.Weight}`);
@@ -397,6 +403,16 @@
               header: true,
               complete: (results) => {
                 this.Categories = new Set(results.data.map((row) => row["Group/Tag"]));
+                results.data.map((row) => {
+                  this.Seen.add(`${row.Family},${row["Group/Tag"]}`);
+                  this.Families.push(
+                    {
+                      Family: row.Family,
+                      "Group/Tag": row["Group/Tag"],
+                      Weight: parseInt(row.Weight, 10)
+                    }
+                  )
+                });
                 this.Families = results.data.map((row) => ({
                   Weight: row.Weight,
                   Family: row.Family,

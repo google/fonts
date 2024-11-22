@@ -1,7 +1,7 @@
 name: "Playwrite GBJ Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
-category: "SANS_SERIF"
+category: "HANDWRITING"
 date_added: "2024-11-22"
 fonts {
   name: "Playwrite GBJ Guides"
@@ -44,4 +44,3 @@ source {
 }
 display_name: "Playwrite England Joined Guides"
 minisite_url: "https://primarium.info/countries/england"
-classifications: "HANDWRITING"

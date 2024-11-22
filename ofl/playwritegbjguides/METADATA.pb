@@ -1,4 +1,4 @@
-name: "Playwrite GBJ Guides"
+name: "Playwrite GB J Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"

@@ -411,6 +411,7 @@ def build_fvar_instances(ttFont, axis_dflts={}):
 
     def gen_instances(is_italic):
         results = []
+        family_name = name_table.getBestFamilyName()
         for fallback in wght_fallbacks:
             name = fallback.name if not is_italic else f"{fallback.name} Italic".strip()
             name = name.replace("Regular Italic", "Italic")
@@ -426,6 +427,9 @@ def build_fvar_instances(ttFont, axis_dflts={}):
 
             inst = NamedInstance()
             inst.subfamilyNameID = name_table.addName(name)
+            inst.postscriptNameID = name_table.addName(
+                f"{family_name}-{name}".replace(" ", "")
+            )
             inst.coordinates = coordinates
             log.debug(f"Adding fvar instance: {name}: {coordinates}")
             results.append(inst)

@@ -1,7 +1,7 @@
 name: "Playwrite CO Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
-category: "SANS_SERIF"
+category: "HANDWRITING"
 date_added: "2024-11-22"
 fonts {
   name: "Playwrite CO Guides"
@@ -31,4 +31,3 @@ source {
 }
 display_name: "Playwrite Colombia Guides"
 minisite_url: "https://primarium.info/countries/colombia"
-classifications: "HANDWRITING"

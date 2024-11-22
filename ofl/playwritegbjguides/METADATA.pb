@@ -4,7 +4,7 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-22"
 fonts {
-  name: "Playwrite GBJ Guides"
+  name: "Playwrite GB J Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteGBJGuides-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
 fonts {
-  name: "Playwrite GBJ Guides"
+  name: "Playwrite GB J Guides"
   style: "italic"
   weight: 400
   filename: "PlaywriteGBJGuides-Italic.ttf"

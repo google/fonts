@@ -29,6 +29,6 @@ source {
   }
   branch: "main"
 }
-display_name: "Playwrite Colombia"
+display_name: "Playwrite Colombia Guides"
 minisite_url: "https://primarium.info/countries/colombia"
 classifications: "HANDWRITING"

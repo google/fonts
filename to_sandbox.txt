@@ -1,7 +1,44 @@
-# New
-
 # Upgrade
+ofl/notosans # https://github.com/google/fonts/pull/8523
+ofl/notosansphagspa # https://github.com/google/fonts/pull/7049
+ofl/redhatdisplay # https://github.com/google/fonts/pull/8500
+ofl/redhatmono # https://github.com/google/fonts/pull/8502
+ofl/redhattext # https://github.com/google/fonts/pull/8501
 
 # Designer profile
+catalog/designers/degarismstudio # https://github.com/google/fonts/pull/8493
+catalog/designers/gustavoibarra # https://github.com/google/fonts/pull/7547
+catalog/designers/hanialasadi # https://github.com/google/fonts/pull/8522
+catalog/designers/sebastiancarewe # https://github.com/google/fonts/pull/8492
+catalog/designers/tobiasbjerromeahlin # https://github.com/google/fonts/pull/8494
+
+# Axis Registry
+axisregistry/slant.textproto # https://github.com/google/fonts/pull/8531
+axisregistry/y_vertical_extension.textproto # https://github.com/google/fonts/pull/8531
 
 # Metadata / Description / License
+ofl/blackandwhitepicture # https://github.com/google/fonts/pull/8511
+ofl/blackhansans # https://github.com/google/fonts/pull/8511
+ofl/cutefont # https://github.com/google/fonts/pull/8511
+ofl/dokdo # https://github.com/google/fonts/pull/8511
+ofl/facultyglyphic # https://github.com/google/fonts/pull/8447
+ofl/gaegu # https://github.com/google/fonts/pull/8511
+ofl/gugi # https://github.com/google/fonts/pull/8511
+ofl/hostgrotesk # https://github.com/google/fonts/pull/8482
+ofl/nanumgothic # https://github.com/google/fonts/pull/8511
+ofl/nanumgothiccoding # https://github.com/google/fonts/pull/8511
+ofl/nanummyeongjo # https://github.com/google/fonts/pull/8511
+ofl/nanumpenscript # https://github.com/google/fonts/pull/8511
+ofl/poppins # https://github.com/google/fonts/pull/8098
+ofl/pottaone # https://github.com/google/fonts/pull/8098
+ofl/pragatinarrow # https://github.com/google/fonts/pull/8098
+ofl/preahvihear # https://github.com/google/fonts/pull/8098
+ofl/rajdhani # https://github.com/google/fonts/pull/8098
+ofl/rakkas # https://github.com/google/fonts/pull/8098
+ofl/ramabhadra # https://github.com/google/fonts/pull/8098
+ofl/ramaraja # https://github.com/google/fonts/pull/8098
+ofl/rampartone # https://github.com/google/fonts/pull/8098
+ofl/raviprakash # https://github.com/google/fonts/pull/8098
+
+# Sample texts
+lang/languages/bap_Krai.textproto # https://github.com/google/fonts/pull/8509

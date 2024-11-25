@@ -2,51 +2,88 @@
 <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 
 
 <body>
   <div id="app">
     <link v-for="family in uniqueFamilies" :href="familyLink(family)" rel="stylesheet">
 
-    <h1>Google Fonts Tagger</h1>
+    <!-- Navbar -->
+    <div style="max-height: 3rem" class="navbar bg-base-100 fixed left-0 top-0 shadow">
+        <a class="btn btn-ghost btn-sm text-xl">GF Tagger</a>
+        <ul class="menu menu-horizontal px-1">
+          <li>
+            <details>
+              <summary>File</summary>
+              <ul class="shadow w-36">
+                <li><a @click="saveCSV">Export CSV</a></li>
+                <li><a @click="prCSV">Open PR</a></li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>Edit</summary>
+              <ul class="shadow w-56">
+                <li><a @click="AddPlaceHolderTags">Insert placeholder tags</a></li>
+                <li><a @click="RemovePlaceHolderTags">Remove placeholder tags</a></li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>{{ CurrentCategory }}</summary>
+              <ul class="shadow">
+                <div class="cont" style="max-height: 16rem; overflow: scroll">
+                  <li  v-for="category in sortedCategories()">
+                    <a @click="CurrentCategory = category">{{ category }}</a>
+                  </li>
+                </div>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <form @submit.prevent="loadCSV">
+              <div class="join" style="padding-top: 12px;">
+                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="commit" required placeholder="refs/heads/main">
+                  <button class="join-item btn btn-sm">checkout</button>
+              </div>
+            </form>
+          </li>
+        </ul>
+    </div>    
 
-    <div id="panel">
-      <div class="panel-tile">
-        <form @submit.prevent="loadCSV">
-          <label>Checkout Commit:</label>
-          <input v-model="commit" required placeholder="refs/heads/main">
-          <button>Checkout</button>
-        </form>
-      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
-
-        <label>Current tag:</label>
-        <select v-model="CurrentCategory" style="max-width: 300px;">
-          <option v-for="category in sortedCategories()" :key="category" :value="category">
-            {{ category }}
-          </option>
-        </select>
-      </div>
+    <!-- Add font panel -->
+    <div id="panel" class="fixed top-20 right-0 bg-base-100 p-5 shadow">
       <div class="panel-tile">
         <form @submit.prevent="AddTag">
-          <label>Add Tag:</label>
-          <input v-model="newTag" required placeholder="Tag Name">
-          <button>Add</button>
-        </form>
-      </div>
-      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
-
-      <div class="panel-tile">
+          <div class="label label-xs">
+            <span class="label-text label-xs">Add Tag</span>
+          </div>
+          <div class="join">
+            <input class="join-item input input-xs input-bordered w-full max-w-xs" v-model="newTag" required placeholder="/Expressive/Funky">
+            <button class="join-item btn btn-xs">Add</button>
+          </div>
+        </form> 
+        <div class="divider"></div>
         <form @submit.prevent="AddFamily">
-          <label>Add family:</label>
-          <input list="items" v-model="newFamily" required placeholder="Family Name">
-          <datalist id="items">
-            <option v-for="family in uniqueFamilies" :value="family">
-          </datalist>
-          <input v-model="newWeight" required placeholder="Score">
-          <button>Add</button>
+          <div class="label lavel-xs">
+            <span class="label-text label-xs">Add Family</span>
+          </div>
+          <div class="join">
+            <input class="join-item input input-xs input-bordered w-full max-w-xs" list="items" v-model="newFamily" required placeholder="Family Name">
+            <datalist id="items">
+              <option v-for="family in uniqueFamilies" :value="family">
+            </datalist>
+            <input class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
+            <button class="join-item btn btn-xs">Add</button>
+          </div>
         </form>
       </div>
-      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
+      <div class="divider"></div>
+
       <div class="panel-tile" style="max-height: 100px; overflow: scroll;">
         <label>History</label>
           <div v-if="isEdited">
@@ -56,31 +93,14 @@
             <p style="font-size: 10pt;">No changes</p>
           </div>
       </div>
-      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
-      <div style="border: 0.1px solid rgb(161, 161, 161); margin-bottom: 10pt; margin-top: 10pt;"></div>
-      <div class="panel-tile">
-        <button @click="prCSV">Open Pull Request</button>
-        <button style="float: right;" @click="saveCSV">Save CSV</button>
-      </div>
-
     </div>
 
     <div v-if="sortedFamilies.length === 0">
       <p>No families found for this tag. Please add some</p>
     </div>
-    <div class="item" v-for="family in sortedFamilies" :key="family.Family">
-      <div style="float: left; width: 150px;">
-        <b>{{ family.Family }}</b>
-      </div>
-      <div style="float: left; width: 100px;">
-        <input style="width: 50px;" v-model.lazy="family.Weight" @change="edited(family)" placeholder="family.Weight">
-        <button @click="removeFamily(family)">X</button>
-      </div>
-      <div v-if="ready" :style="familyStyle(family)" contenteditable="true">
-        {{ familyPangram(family) }}
-      </div>
-      <div v-else>
-        Loading...
+    <div class="mt-20">
+      <div class="item" v-for="family in sortedFamilies" :key="family.Family">
+        <family-item :family="family" :ready="ready" @edited="edited" @remove="removeFamily"></family-item>
       </div>
     </div>
 
@@ -88,7 +108,42 @@
 </body>
 
 <script>
-  
+  Vue.component('family-item', {
+    props: ['family', 'ready'],
+    template: `
+      <div class="item p-1">
+        <div class="join">
+          <b class="pr-2">{{ family.Family }}</b>
+          <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square"  v-model.lazy="family.Weight" @change="edited" placeholder="family.Weight">
+          <button class="btn btn-xs join-item pr-2" @click="removeFamily">X</button>
+          </div>
+          <div v-if="ready" :style="familyStyle" contenteditable="true">
+            {{ familyPangram }}
+          </div>
+        <div v-else>
+          Loading...
+        </div>
+        <div class="divider"></div>
+      </div>
+    `,
+    methods: {
+      edited() {
+        this.$emit('edited', this.family);
+      },
+      removeFamily() {
+        this.$emit('remove', this.family);
+      }
+    },
+    computed: {
+      familyPangram() {
+        return this.$root.familyPangram(this.family);
+      },
+      familyStyle() {
+        return `font-family: "${this.family.Family}", "Adobe NotDef"; font-size: 32pt;`;
+      }
+    }
+  });
+
   var app = new Vue({
     el: '#app',
     data() {
@@ -102,6 +157,7 @@
         CurrentCategory: "/Expressive/Calm",
         Categories: new Set(),
         Families: [],
+        Seen: new Set(),
         Pangrams: new Map([
           ["English", "The quick brown fox jumps over the lazy dog."],
           ["Greek", "Ζαφείρι δέξου πάγκαλο, βαθῶν ψυχῆς τὸ σῆμα"],
@@ -252,9 +308,32 @@
       AddFamily() {
         this.isEdited = true;
         let newFamily = { Weight: this.newWeight, Family: this.newFamily, "Group/Tag": this.CurrentCategory }
+        let tagKey = `${newFamily.Family},${newFamily["Group/Tag"]}`;
+        if (this.Seen.has(tagKey)) {
+          alert(`Tag "${newFamily.Family}" already exists in "${this.CurrentCategory}"`);
+          return;
+        }
         this.Families.push(newFamily);
         
         this.history.push(`+ ${newFamily.Family},${newFamily["Group/Tag"]},${newFamily.Weight}`);
+      },
+      AddPlaceHolderTags() {
+        this.isEdited = true;
+        const existingTags = this.sortedFamilies
+        let seen = new Set();
+        existingTags.forEach((family) => seen.add(family.Family));
+        const familiesToAdd = this.uniqueFamilies
+        familiesToAdd.forEach((family) => {
+          if (!seen.has(family)) {
+            this.Families.push({ Family: family, "Group/Tag": this.CurrentCategory, Weight: "" });
+          }
+        });
+        this.history.push(`+ Placeholder tags added for ${this.CurrentCategory}`);
+      },
+      RemovePlaceHolderTags() {
+        this.isEdited = true;
+        this.Families = this.Families.filter((family) => family.Weight !== "");
+        this.history.push(`- Placeholder tags removed for all categories`);
       },
       removeFamily(Family) {
         this.isEdited = true;
@@ -262,6 +341,7 @@
         this.history.push(`- ${Family.Family},${Family["Group/Tag"]},${Family.Weight}`);
       },
       familiesToCSV() {
+        this.RemovePlaceHolderTags();
         this.Families = this.Families.filter((t) => t.Family !== "");
         // The sorting function used is case sensitive.
         // This means that "A" will come before "a".
@@ -279,6 +359,7 @@
           {
             columns: ["Family", "Group/Tag", "Weight"],
             skipEmptyLines: true,
+            header: false
           }
         ) + "\n";
       },
@@ -322,6 +403,16 @@
               header: true,
               complete: (results) => {
                 this.Categories = new Set(results.data.map((row) => row["Group/Tag"]));
+                results.data.map((row) => {
+                  this.Seen.add(`${row.Family},${row["Group/Tag"]}`);
+                  this.Families.push(
+                    {
+                      Family: row.Family,
+                      "Group/Tag": row["Group/Tag"],
+                      Weight: parseInt(row.Weight, 10)
+                    }
+                  )
+                });
                 this.Families = results.data.map((row) => ({
                   Weight: row.Weight,
                   Family: row.Family,
@@ -338,6 +429,15 @@
       }
     } // methods
   )
+  // close open navbar dropdowns when user clicks elsewhere
+  var details = [...document.querySelectorAll('details')];
+  document.addEventListener('click', function(e) {
+  if (!details.some(f => f.contains(e.target))) {
+    details.forEach(f => f.removeAttribute('open'));
+  } else {
+    details.forEach(f => !f.contains(e.target) ? f.removeAttribute('open') : '');
+  }
+})
 </script>
 
 
@@ -345,44 +445,5 @@
   @font-face {
       font-family: "Adobe NotDef";
       src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
-  }
-  #app {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: left;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-  #panel {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 3px 3px 3px lightgray;
-  }
-  .panel-tile {
-    margin-bottom: 10px;
-  }
-  .familyy {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .item {
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top: 1px solid #000;
-  }
-  #edited-panel {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 80px;
-    padding: 5px;
-    background-color: black;
-    color: white;
-    font-weight: bold;
   }
 </style>

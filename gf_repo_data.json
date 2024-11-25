@@ -1,6 +1,550 @@
 {
-    "last_run": "2024-11-18",
+    "last_run": "2024-11-25",
     "commits": [
+        {
+            "date": "2024-11-22T19:36:12",
+            "title": "Removed pushed entries from to_sandbox.txt.",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7651e7fdecd3becdfebd5ea65d13127214706894"
+        },
+        {
+            "date": "2024-11-22T15:46:48",
+            "title": "Merge pull request #8539 from google/pushlists",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "d7af653aba7018bbfda356f64ad9687aed19d417"
+        },
+        {
+            "date": "2024-11-22T15:32:30",
+            "title": "pushlists updated",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "687764f1529da50832e5f1002ce6de1422e001da"
+        },
+        {
+            "date": "2024-11-22T14:45:37",
+            "title": "Merge pull request #8534 from google/tag-no-dups",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "e6122fc80e4afe185682d3d97c843f3b38ecbad5"
+        },
+        {
+            "date": "2024-11-22T14:39:37",
+            "title": "tags.html: don't allow users to enter duplicate tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d4ed13f489b7c78cf8bb78822b05ce68db714da8"
+        },
+        {
+            "date": "2024-11-22T13:54:29",
+            "title": "Merge pull request #8523 from google/gftools_packager_ofl_notosans",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "f5dd6c032de03fed4f7a050132fb670c803ccafc"
+        },
+        {
+            "date": "2024-11-22T13:43:32",
+            "title": "Merge pull request #8522 from google/designer-badeen-display",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "designer",
+            "id": "1ab0ef21f914f96e76e6dd467823df3191ff4e13"
+        },
+        {
+            "date": "2024-11-22T13:42:25",
+            "title": "Merge pull request #8529 from google/kwanzaa2-tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c6cc135936673b6f3b1bdef82d552d2173ef0c98"
+        },
+        {
+            "date": "2024-11-22T13:41:38",
+            "title": "Merge pull request #8531 from google/YEXT-pull",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6c9809a1ca70069ebf4eebb6cefe907342a98a2d"
+        },
+        {
+            "date": "2024-11-22T00:00:14",
+            "title": "Update to_delist.txt with finished items.",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "77895b2b18074336fda8545331b2b73605f61bcb"
+        },
+        {
+            "date": "2024-11-21T21:09:48",
+            "title": "Merge commit '3db2ff673bb85c8ecee55f9e38ce601e8bc2e2f4' into YEXT-pull",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b46896e7c21ea54fae993801b71991faff1e6f42"
+        },
+        {
+            "date": "2024-11-21T16:08:25",
+            "title": "Update bio.html (#8530)",
+            "author": "Nathan Williams",
+            "status": "modified",
+            "kind": "family",
+            "id": "a3a262a464bd46d737ce02f63d1801ba3ef58727"
+        },
+        {
+            "date": "2024-11-21T15:19:14",
+            "title": "Merge pull request #183 from googlefonts/YEXT",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "3db2ff673bb85c8ecee55f9e38ce601e8bc2e2f4"
+        },
+        {
+            "date": "2024-11-21T15:10:12",
+            "title": "description formatting fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "07b8f7c112bcfb2dac36e3e8b4ea8681ec1fed1d"
+        },
+        {
+            "date": "2024-11-21T11:07:34",
+            "title": "Merge pull request #8518 from google/placeholder-tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "950f1b3ac698a19e9f4df5144b3f6c4eccab1dfc"
+        },
+        {
+            "date": "2024-11-21T10:50:39",
+            "title": "families.csv: further Kwanzaa tag changes.",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1095d122523640e963cdfa2b333d570c0b7c073e"
+        },
+        {
+            "date": "2024-11-21T10:47:26",
+            "title": "families.csv: further Kwanzaa tag fixes",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c0fba29386c79f3bc34edc8fbf7c21e03926e501"
+        },
+        {
+            "date": "2024-11-21T10:39:32",
+            "title": "families.csv: Fix up Kwanzaa tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f3d0af904e8845ce1f535ff2a264427fc3d33ccf"
+        },
+        {
+            "date": "2024-11-21T10:29:59",
+            "title": "Update families.csv",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6ac198566f2683c54f3eafa2311a379e9bbb5175"
+        },
+        {
+            "date": "2024-11-21T10:26:52",
+            "title": "tags.html: close open dropdown when user clicks elsewhere",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "803e52469acf852402cbca0716fa39b7722ee126"
+        },
+        {
+            "date": "2024-11-21T03:00:49",
+            "title": "Create tags_ui_details.textproto (#8527)",
+            "author": "nyshadhr9",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "91bd600406509d693d276ace0a725f08ab029100"
+        },
+        {
+            "date": "2024-11-21T02:11:13",
+            "title": "Create tags_metadata.csv (#8526)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "family",
+            "id": "544b09e84538829f1e869718e45be826d7e93cbd"
+        },
+        {
+            "date": "2024-11-20T21:45:18",
+            "title": "Vertical Extension axis added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "7ffd601e480e6ca5c5d5ef4c4335dc075ea3cae1"
+        },
+        {
+            "date": "2024-11-20T21:00:54",
+            "title": "Update to_production.txt with pushed items.",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d9a84065a7336a37a2a2628a8a5359230478e9b1"
+        },
+        {
+            "date": "2024-11-20T20:26:07",
+            "title": "Merge pull request #8502 from google/gftools_packager_ofl_redhatmono",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "f637e88dbeee8a82d489ac142065ae178c5ac47b"
+        },
+        {
+            "date": "2024-11-20T20:23:26",
+            "title": "Merge pull request #8501 from google/gftools_packager_ofl_redhattext",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "5c07b91b298cb11e4eb90aed3d84174469882f22"
+        },
+        {
+            "date": "2024-11-20T20:21:10",
+            "title": "Merge pull request #8500 from google/gftools_packager_ofl_redhatdisplay",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "3c1ff7665907897d345bf1f5d5e97afd112a43cb"
+        },
+        {
+            "date": "2024-11-20T18:32:32",
+            "title": "Update families.csv with Kwanzaa Tags",
+            "author": "agyeiagyeiagyei",
+            "status": "modified",
+            "kind": "family",
+            "id": "da13b19a931d17b8e7933e8cf109ce616d277702"
+        },
+        {
+            "date": "2024-11-20T17:26:03",
+            "title": "Noto Sans: Version 2.015 added",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "2984c575fdce412ee02b2baaba67672b9a9434d8"
+        },
+        {
+            "date": "2024-11-20T15:10:57",
+            "title": "classifications + stroke",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "80bd72c233fd00cbd37f407ccd49b118ecef7d23"
+        },
+        {
+            "date": "2024-11-20T14:47:38",
+            "title": "Designer bio Hani Alasadi",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "designer",
+            "id": "e32bed73c88d430a96f3d1ef2ffd2bccc6421a1f"
+        },
+        {
+            "date": "2024-11-20T14:23:26",
+            "title": "Merge pull request #8509 from google/lang-v0.7.1",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1dca23243176f40c2535c9a55a0f2186514e3a1a"
+        },
+        {
+            "date": "2024-11-20T14:21:27",
+            "title": "Merge pull request #8520 from google/revert-8481-tags-skip-sc",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "5b0c5a666e1e6742ca4bb97480d20bedb2490974"
+        },
+        {
+            "date": "2024-11-20T14:21:05",
+            "title": "Revert \"ci/test_font_tags.py: Ignore SC families\"",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "8b942303112b0342f7ed782890b324b85d6eaf6b"
+        },
+        {
+            "date": "2024-11-20T14:01:55",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "9d70d15b8834773bb1b30bee6db490d62239cf4e"
+        },
+        {
+            "date": "2024-11-20T14:01:37",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "a08ec4ba8fc02d8457a3f181370a4da74e4aedf3"
+        },
+        {
+            "date": "2024-11-20T14:01:18",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "f38521cf8ae3061b2f514bb0670777359ee1dfc7"
+        },
+        {
+            "date": "2024-11-20T12:17:10",
+            "title": "Merge pull request #8516 from google/m4rc1e-patch-14",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6f2436e2e53660c14102f9784fd20b24dfacc71d"
+        },
+        {
+            "date": "2024-11-20T11:41:53",
+            "title": "tags.html: Add and remove placeholder tags for a category",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c7365260896c60832c8a8c1cde61b8b46050e57e"
+        },
+        {
+            "date": "2024-11-20T11:41:53",
+            "title": "tags.html: don't export header",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "28ae835f43af60af577bff8fc80dac1fdaa1edc8"
+        },
+        {
+            "date": "2024-11-20T11:41:53",
+            "title": "tags.html: restyle",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e4a05f2e404d8d5610469312db2d6780647c9670"
+        },
+        {
+            "date": "2024-11-20T11:41:53",
+            "title": "tags.html: componentize each tag",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "07fb483ec539fedb224c47d101f88e259ffb9b32"
+        },
+        {
+            "date": "2024-11-20T10:20:17",
+            "title": "added primary_script",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2f79e6c7c4e336ecd8f32c1a36fef4d685d4b128"
+        },
+        {
+            "date": "2024-11-20T10:20:04",
+            "title": "Update description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "fb16f9cb5c871571024dcce499088d69ba8299cd"
+        },
+        {
+            "date": "2024-11-20T10:17:17",
+            "title": "added primary_script and stroke",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ef2ad9a238fb592654649ca5781440b0507a1108"
+        },
+        {
+            "date": "2024-11-20T10:17:05",
+            "title": "Update description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "4a967878899cce5878350945066a63af8c43c8d6"
+        },
+        {
+            "date": "2024-11-20T10:15:44",
+            "title": "Added primary_script",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6560d1fb38345e2fec9b26d2ff3348c6bca6c70e"
+        },
+        {
+            "date": "2024-11-20T10:15:33",
+            "title": "Update description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "ea3ea892d565cc4a8c6e80fc2cb6a7c91c062966"
+        },
+        {
+            "date": "2024-11-20T08:52:09",
+            "title": "families.csv: remove duplicates",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "221b852a7d6768ace5a1f480a2a98e67e0737b87"
+        },
+        {
+            "date": "2024-11-19T14:15:38",
+            "title": "Merge pull request #8511 from garretrieger/bad_metadata",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f601549b7b7a3b9145aa58ca266330ebb226eebb"
+        },
+        {
+            "date": "2024-11-19T10:51:16",
+            "title": "Merge pull request #8512 from google/hanukkah",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9630a0a042a31877a24331034aa51351eea5e81b"
+        },
+        {
+            "date": "2024-11-19T10:07:58",
+            "title": "families.csv: add hanukkah tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5d66ca174bfacbbfd848cd4b4b5186f2947ab022"
+        },
+        {
+            "date": "2024-11-18T22:43:22",
+            "title": "Fix incorrect metadata for several Korean families.",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "99959df665f9a32790a56f4e3ef01f24571b66ef"
+        },
+        {
+            "date": "2024-11-18T19:59:39",
+            "title": "Remove pushed entries from to_sandbox.txt.",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "67c212f1fe6e4c58dc97b818c8024402b9746993"
+        },
+        {
+            "date": "2024-11-18T19:53:11",
+            "title": "Merge pull request #8504 from shailenpatel2/update-gd-article",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "edd04c35363c6f94d7f05eab3174a46d129d2ae8"
+        },
+        {
+            "date": "2024-11-18T13:29:16",
+            "title": "Merge commit '7d71975ee699566498f4e4aa7f99e0d4794bfbcb' into lang-v0.7.1",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "6e0f6d2dfc931d7dce63b5aa35b486ab5609b1b0"
+        },
+        {
+            "date": "2024-11-18T13:11:59",
+            "title": "rust fixes (#191)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "7d71975ee699566498f4e4aa7f99e0d4794bfbcb"
+        },
+        {
+            "date": "2024-11-18T11:28:10",
+            "title": "Merge pull request #8508 from google/tag-fix2",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "76a24d19aaef68baa8b9430a247110d75907ccbf"
+        },
+        {
+            "date": "2024-11-18T11:17:07",
+            "title": "tags: use same linebreak for header",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "06b1cf9b0cdeda383788b257f7108175d9c229f3"
+        },
+        {
+            "date": "2024-11-16T03:40:56",
+            "title": "Update reviewers ordering",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f1b09f38c48b31198597a1c76b452931da4919ba"
+        },
+        {
+            "date": "2024-11-16T03:39:56",
+            "title": "Add Bryn Smith to contributors list",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "76cd4000398556ecffc4cf8f1f33ab0edc503825"
+        },
+        {
+            "date": "2024-11-16T03:37:41",
+            "title": "Add reviewers to textproto",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "858966911242c349022978f23d7deb5be4edfc46"
+        },
+        {
+            "date": "2024-11-16T03:36:00",
+            "title": "Delete reviewers mention in the article in favor of reviewers key",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "172e75dcf0fddf725bd1b779dbc5a11d3e02e81a"
+        },
+        {
+            "date": "2024-11-16T03:35:00",
+            "title": "Add reviewers to contributors textproto",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6f9f72de856c6941d89ab401b8f7dc18f3619638"
+        },
+        {
+            "date": "2024-11-16T03:25:44",
+            "title": "Update contributors.textproto Charles Berret contributors link",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fa24a02ed19883919f38277b50d05b66819ab404"
+        },
+        {
+            "date": "2024-11-16T03:21:20",
+            "title": "Update content.md",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7360bfc94b5ea85e638a7c69dbaba2546ef74230"
+        },
+        {
+            "date": "2024-11-16T02:59:35",
+            "title": "Update lesson.textproto",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bc71665de0f7c91de42f2013807d197090171ccd"
+        },
+        {
+            "date": "2024-11-16T02:38:42",
+            "title": "Update contributors.textproto",
+            "author": "shailenpatel2",
+            "status": "modified",
+            "kind": "family",
+            "id": "ee92013970c410c5a1d5009912b51e38145945ff"
+        },
         {
             "date": "2024-11-15T21:00:40",
             "title": "Merge pull request #8503 from google/lists-Nov-15",
@@ -48,6 +592,30 @@
             "status": "modified",
             "kind": "family",
             "id": "2f085fa9251d862cd7f5d947d961a0e7d6aebcfd"
+        },
+        {
+            "date": "2024-11-15T14:32:24",
+            "title": "Red Hat Mono: Version 1.030 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "988131b4198915eee3df709d1f63abb01b5d1155"
+        },
+        {
+            "date": "2024-11-15T14:26:21",
+            "title": "Red Hat Text: Version 1.030 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "5586f40517c878eae7b9bdf37257a0fa69c3f653"
+        },
+        {
+            "date": "2024-11-15T14:15:54",
+            "title": "Red Hat Display: Version 1.030 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "105f8a8f7b4a7a48cf21cd39bb11a2d14f920fd6"
         },
         {
             "date": "2024-11-15T11:20:38",
@@ -446,8 +1014,32 @@
             "title": "Merge pull request #8334 from google/davelab6-gupter-desc",
             "author": "Viviana Monsalve",
             "status": "modified",
-            "kind": "metadata",
+            "kind": "family",
             "id": "edcdca16e0cc74c4e9cb42712c1eb10091128e73"
+        },
+        {
+            "date": "2024-11-08T15:52:12",
+            "title": "Rust crate (#158)",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a8fa72c1c58668a51aeba347110f96604aa85d89"
+        },
+        {
+            "date": "2024-11-08T15:51:47",
+            "title": "Make importlib_resources optional (#187)",
+            "author": "Nikolaus Waxweiler",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6e0838b8095ad34e436a437ca3976e4389a47263"
+        },
+        {
+            "date": "2024-11-08T15:51:32",
+            "title": "Replace Deva danda with Kirat Rai danda (#189)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "28d8c5ada26420833b76e9856568f04f4aefac6e"
         },
         {
             "date": "2024-11-08T13:47:00",
@@ -5205,9 +5797,25 @@
             "date": "2024-08-15T20:15:53",
             "title": "Merge pull request #7447 from google/gftools_packager_ofl_eduvicwantarrows",
             "author": "Viviana Monsalve",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "869ddb7d33dbbbb1cb62d59bb2bd4091cd981712"
+        },
+        {
+            "date": "2024-08-15T18:00:06",
+            "title": "Merge pull request #179 from googlefonts/rm-changelog",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e661ec9ecfd368483760dbee2586ab1188364344"
+        },
+        {
+            "date": "2024-08-15T17:59:55",
+            "title": "Merge pull request #180 from googlefonts/slnt-dscrp-rev",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "ff682450d426781df1685d9659abf8ac6f12d5cb"
         },
         {
             "date": "2024-08-15T12:48:47",
@@ -5342,8 +5950,16 @@
             "title": "Add sample text for Hentaigana",
             "author": "Simon Cozens",
             "status": "modified",
-            "kind": "metadata",
+            "kind": "family",
             "id": "56dd84a4591ace1f0c773c952e6b59fb66cddb6d"
+        },
+        {
+            "date": "2024-08-09T18:10:53",
+            "title": "slnt description updated with range interpretation",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "c3e09337e976fe07f2daeff08eac10440b2b735c"
         },
         {
             "date": "2024-08-09T17:03:12",
@@ -5373,9 +5989,41 @@
             "date": "2024-08-09T08:33:43",
             "title": "Merge pull request #8002 from google/to_lists080824",
             "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "83f9b06dd3da14b6599ca7cef713675222f8f144"
+        },
+        {
+            "date": "2024-08-08T16:52:15",
+            "title": "rm Changelog file: redundant and amanually updated",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cf69ce2ccf635313b7d3c10c9c90330eee78766b"
+        },
+        {
+            "date": "2024-08-08T14:47:53",
+            "title": "Merge pull request #178 from googlefonts/ps-name",
+            "author": "Marc Foley",
             "status": "new",
             "kind": "infrastructure",
-            "id": "83f9b06dd3da14b6599ca7cef713675222f8f144"
+            "id": "ba2291b2e5d37032d895671e01f28ba58b0ef02b"
+        },
+        {
+            "date": "2024-08-08T14:37:37",
+            "title": "black",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "de5aa28e6afbdfc18570ca396e272a59252dae57"
+        },
+        {
+            "date": "2024-08-08T14:29:57",
+            "title": "build_fvar: add fvar instance ps names",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "f2420b4a1ab2816630b432a1fbd1a79f4a61e198"
         },
         {
             "date": "2024-08-08T13:26:09",
@@ -72219,18 +72867,13 @@
         }
     ],
     "pushes": {
-        "sandbox": [
+        "sandbox": [],
+        "production": [
             {
                 "path": "ofl/montserratunderline",
                 "category": "New",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8469"
-            },
-            {
-                "path": "ofl/notoseriftodhri",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8199"
             },
             {
                 "path": "ofl/badscript",
@@ -72261,134 +72904,6 @@
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8444"
-            },
-            {
-                "path": "ofl/notosansphagspa",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7049"
-            },
-            {
-                "path": "ofl/paprika",
-                "category": "Upgrade",
-                "status": null,
-                "url": null
-            },
-            {
-                "path": "ofl/tapestry",
-                "category": "Upgrade",
-                "status": null,
-                "url": null
-            },
-            {
-                "path": "catalog/designers/degarismstudio",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8493"
-            },
-            {
-                "path": "catalog/designers/sebastiancarewe",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8492"
-            },
-            {
-                "path": "catalog/designers/tobiasbjerromeahlin",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8494"
-            },
-            {
-                "path": "ofl/facultyglyphic",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8447"
-            },
-            {
-                "path": "ofl/gupter",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8334"
-            },
-            {
-                "path": "ofl/hostgrotesk",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8482"
-            },
-            {
-                "path": "ofl/hubotsans",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8490"
-            },
-            {
-                "path": "ofl/monasans",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8489"
-            }
-        ],
-        "production": [
-            {
-                "path": "ofl/parkinsans",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8470"
-            },
-            {
-                "path": "ofl/abyssinicasil",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8445"
-            },
-            {
-                "path": "ofl/eduauvicwantarrows",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8319"
-            },
-            {
-                "path": "ofl/harmattan",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8443"
-            },
-            {
-                "path": "ofl/notosansarabic",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/6859"
-            },
-            {
-                "path": "ofl/oi",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8353"
-            },
-            {
-                "path": "ofl/scheherazadenew",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8430"
-            },
-            {
-                "path": "ofl/zain",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8335"
-            },
-            {
-                "path": "catalog/designers/gustavoibarra",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/7547"
-            },
-            {
-                "path": "catalog/designers/kotostudio",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8414"
             },
             {
                 "path": "ofl/akayatelivigala",
@@ -72484,187 +72999,151 @@
                 "path": "ofl/eastseadokdo",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8185"
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/ekmukta",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
             },
             {
                 "path": "ofl/fasthand",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8063"
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/freehand",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
             },
             {
                 "path": "ofl/gaegu",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8185"
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/galada",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
             },
             {
                 "path": "ofl/gamjaflower",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8185"
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/gayathri",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
+            },
+            {
+                "path": "ofl/gidugu",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8086"
             },
             {
                 "path": "ofl/gothica1",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8185"
+                "url": "https://github.com/google/fonts/pull/8086"
             },
             {
                 "path": "ofl/gowunbatang",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8185"
+                "url": "https://github.com/google/fonts/pull/8087"
             },
             {
                 "path": "ofl/gowundodum",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8185"
+                "url": "https://github.com/google/fonts/pull/8087"
             },
             {
                 "path": "ofl/gugi",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8185"
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/gupter",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8334"
+            },
+            {
+                "path": "ofl/gurajada",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/hachimarupop",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
             },
             {
                 "path": "ofl/hahmlet",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8185"
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/halant",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
+            },
+            {
+                "path": "ofl/hanuman",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8087"
             },
             {
                 "path": "ofl/himelody",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8185"
+                "url": "https://github.com/google/fonts/pull/8087"
             },
             {
-                "path": "ofl/khand",
+                "path": "ofl/hinamincho",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
+                "url": "https://github.com/google/fonts/pull/8087"
             },
             {
-                "path": "ofl/khmer",
+                "path": "ofl/hubotsans",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
+                "url": "https://github.com/google/fonts/pull/8490"
             },
             {
-                "path": "ofl/khula",
+                "path": "ofl/monasans",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
-            },
-            {
-                "path": "ofl/kiwimaru",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
-            },
-            {
-                "path": "ofl/kleeone",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
-            },
-            {
-                "path": "ofl/kohsantepheap",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
-            },
-            {
-                "path": "ofl/kumarone",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
-            },
-            {
-                "path": "ofl/laila",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
-            },
-            {
-                "path": "ofl/lakkireddy",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
-            },
-            {
-                "path": "ofl/liujianmaocao",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8090"
-            },
-            {
-                "path": "ofl/matemasie",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8208"
-            },
-            {
-                "path": "ofl/moul",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
-            },
-            {
-                "path": "ofl/moulpali",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
-            },
-            {
-                "path": "ofl/mplus1",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
-            },
-            {
-                "path": "ofl/mplus1code",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
-            },
-            {
-                "path": "ofl/mplus1p",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
-            },
-            {
-                "path": "ofl/mplus2",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
-            },
-            {
-                "path": "ofl/mukta",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
-            },
-            {
-                "path": "ofl/muktavaani",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
+                "url": "https://github.com/google/fonts/pull/8489"
             },
             {
                 "path": "ofl/nanumbrushscript",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
+                "url": "https://github.com/google/fonts/pull/8185"
             },
             {
                 "path": "ofl/nanumgothic",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8092"
+                "url": "https://github.com/google/fonts/pull/8185"
             },
             {
                 "path": "ofl/nanumgothiccoding",
@@ -72743,18 +73222,6 @@
                 "category": "Metadata / Description / License",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8097"
-            },
-            {
-                "path": "ofl/seaweedscript",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8063"
-            },
-            {
-                "path": "ofl/taprom",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8063"
             }
         ]
     }

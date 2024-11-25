@@ -55,11 +55,11 @@ source {
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "NotoSerif/googlefonts/variable/NotoSerif[wdth,wght].ttf"
+    source_file: "NotoSerif/googlefonts/variable-ttf/NotoSerif[wdth,wght].ttf"
     dest_file: "NotoSerif[wdth,wght].ttf"
   }
   files {
-    source_file: "NotoSerif/googlefonts/variable/NotoSerif-Italic[wdth,wght].ttf"
+    source_file: "NotoSerif/googlefonts/variable-ttf/NotoSerif-Italic[wdth,wght].ttf"
     dest_file: "NotoSerif-Italic[wdth,wght].ttf"
   }
   branch: "main"

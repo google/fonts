@@ -12,12 +12,13 @@ fonts {
   full_name: "Iansui Regular"
   copyright: "Copyright 2022 The Iansui Project Authors (https://github.com/ButTaiwan/iansui)."
 }
-subsets: "chinese-traditional"
+subsets: "chinese-hongkong"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "symbols2"
-primary_script: "Hani"
+primary_script: "Hant"
+primary_language: "yue_Hant"
 
 source {
   repository_url: "https://github.com/ButTaiwan/iansui"

@@ -12,10 +12,8 @@ fonts {
   full_name: "Playwrite CO Guides Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-subsets: "latin"
-subsets: "latin-ext"
+# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
 subsets: "menu"
-subsets: "vietnamese"
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
   commit: "dc7ceab2ea7b91cf958da11023654aa3d5c91bf3"

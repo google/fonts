@@ -21,6 +21,7 @@ fonts {
   full_name: "Playwrite GB J Guides Italic"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
+# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
 subsets: "menu"
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"

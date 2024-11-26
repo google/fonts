@@ -1,7 +1,7 @@
 import pytest
 import json
 from urllib.request import urlopen
-import sys
+import csv
 
 
 @pytest.fixture
@@ -21,8 +21,6 @@ def family_tags():
         .read()
         .decode("utf-8")
     )
-    import csv
-
     reader = csv.reader(csv_data.splitlines())
     res = []
     for row in reader:
@@ -42,3 +40,15 @@ def test_families_missing_tags(family_tags, family_metadata):
         "Please add tags for these families using the following webapp: "
         "https://google.github.io/fonts/tags.html"
     )
+
+
+def test_no_duplicate_families(family_tags):
+    import pdb; pdb.set_trace()
+    seen = set()
+    dups = []
+    for family, cat, _ in family_tags:
+        key = (family, cat)
+        if key in seen:
+            dups.append(",".join(key))
+        seen.add(key)
+    assert not dups, f"Duplicate tags found: {dups}"

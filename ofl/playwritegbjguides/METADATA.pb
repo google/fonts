@@ -1,10 +1,10 @@
-name: "Playwrite GB J Guides"
+name: "Playwrite GBJ Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-22"
 fonts {
-  name: "Playwrite GB J Guides"
+  name: "Playwrite GBJ Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteGBJGuides-Regular.ttf"
@@ -13,7 +13,7 @@ fonts {
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
 fonts {
-  name: "Playwrite GB J Guides"
+  name: "Playwrite GBJ Guides"
   style: "italic"
   weight: 400
   filename: "PlaywriteGBJGuides-Italic.ttf"
@@ -21,11 +21,13 @@ fonts {
   full_name: "Playwrite GB J Guides Italic"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "dc7ceab2ea7b91cf958da11023654aa3d5c91bf3"
+  commit: "0bd52a3a13b6f3492820c746fa4bfa5196005306"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -37,6 +39,26 @@ source {
   files {
     source_file: "fonts/ttf/PlaywriteGBJGuides-Italic.ttf"
     dest_file: "PlaywriteGBJGuides-Italic.ttf"
+  }
+  files {
+    source_file: "documentation/about-guides/GB_J/ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "documentation/about-guides/GB_J/Playwrite-England-Joined-Guides_1.png"
+    dest_file: "article/Playwrite-England-Joined-Guides_1.png"
+  }
+  files {
+    source_file: "documentation/about-guides/GB_J/Playwrite-England-Joined-Guides_2.png"
+    dest_file: "article/Playwrite-England-Joined-Guides_2.png"
+  }
+  files {
+    source_file: "documentation/about-guides/GB_J/Playwrite-England-Joined-Guides_3.png"
+    dest_file: "article/Playwrite-England-Joined-Guides_3.png"
+  }
+  files {
+    source_file: "documentation/about-guides/GB_J/Playwrite-England-Joined-Guides_4.png"
+    dest_file: "article/Playwrite-England-Joined-Guides_4.png"
   }
   branch: "main"
 }

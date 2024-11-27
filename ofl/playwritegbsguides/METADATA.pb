@@ -34,6 +34,10 @@ source {
     dest_file: "PlaywriteGBSGuides-Regular.ttf"
   }
   files {
+    source_file: "fonts/ttf/PlaywriteGBSGuides-Italic.ttf"
+    dest_file: "PlaywriteGBSGuides-Italic.ttf"
+  }
+  files {
     source_file: "documentation/about-guides/GB_S/ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"
   }

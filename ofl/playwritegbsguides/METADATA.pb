@@ -1,10 +1,10 @@
-name: "Playwrite GBS Guides"
+name: "Playwrite GB S Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-27"
 fonts {
-  name: "Playwrite GBS Guides"
+  name: "Playwrite GB S Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteGBSGuides-Regular.ttf"

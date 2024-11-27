@@ -12,6 +12,15 @@ fonts {
   full_name: "Playwrite GB S Guides Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
+fonts {
+  name: "Playwrite GB S Guides"
+  style: "italic"
+  weight: 400
+  filename: "PlaywriteGBSGuides-Istalic.ttf"
+  post_script_name: "PlaywriteGBSGuides-Italic"
+  full_name: "Playwrite GB S Guides Italic"
+  copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
+}
 subsets: "menu"
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"

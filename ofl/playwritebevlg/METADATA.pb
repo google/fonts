@@ -47,6 +47,6 @@ source {
   }
   branch: "main"
 }
-display_name: "Playwrite België Vlaams Gewest"
+display_name: "Playwrite België Vlaanderen"
 minisite_url: "https://primarium.info/countries/belgium"
 primary_language: "nl_Latn"

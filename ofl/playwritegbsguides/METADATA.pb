@@ -16,7 +16,7 @@ fonts {
   name: "Playwrite GB S Guides"
   style: "italic"
   weight: 400
-  filename: "PlaywriteGBSGuides-Istalic.ttf"
+  filename: "PlaywriteGBSGuides-Italic.ttf"
   post_script_name: "PlaywriteGBSGuides-Italic"
   full_name: "Playwrite GB S Guides Italic"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"

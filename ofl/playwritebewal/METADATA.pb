@@ -47,6 +47,6 @@ source {
   }
   branch: "main"
 }
-display_name: "Playwrite België Walloon"
+display_name: "Playwrite Belgique Wallonie-Bruxelles"
 minisite_url: "https://primarium.info/countries/belgium"
 primary_language: "fr_Latn"

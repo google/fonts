@@ -21,11 +21,10 @@ fonts {
   full_name: "Playwrite GB J Guides Italic"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
 subsets: "menu"
+
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "dc7ceab2ea7b91cf958da11023654aa3d5c91bf3"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -38,7 +37,28 @@ source {
     source_file: "fonts/ttf/PlaywriteGBJGuides-Italic.ttf"
     dest_file: "PlaywriteGBJGuides-Italic.ttf"
   }
+  files {
+    source_file: "documentation/about-guides/GB_J/ARTICLE.en_us.html"
+    dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "documentation/about-guides/GB_J/Playwrite-England-Joined-Guides_1.png"
+    dest_file: "article/Playwrite-England-Joined-Guides_1.png"
+  }
+  files {
+    source_file: "documentation/about-guides/GB_J/Playwrite-England-Joined-Guides_2.png"
+    dest_file: "article/Playwrite-England-Joined-Guides_2.png"
+  }
+  files {
+    source_file: "documentation/about-guides/GB_J/Playwrite-England-Joined-Guides_3.png"
+    dest_file: "article/Playwrite-England-Joined-Guides_3.png"
+  }
+  files {
+    source_file: "documentation/about-guides/GB_J/Playwrite-England-Joined-Guides_4.png"
+    dest_file: "article/Playwrite-England-Joined-Guides_4.png"
+  }
   branch: "main"
 }
 display_name: "Playwrite England Joined Guides"
 minisite_url: "https://primarium.info/countries/england"
+primary_language: "en_Latn"

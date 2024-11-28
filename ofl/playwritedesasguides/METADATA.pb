@@ -1,4 +1,4 @@
-name: "Playwrite DESAS Guides"
+name: "Playwrite DE SAS Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"

@@ -12,6 +12,15 @@ fonts {
   full_name: "Playwrite AT Guides Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
+fonts {
+  name: "Playwrite AT Guides"
+  style: "italic"
+  weight: 400
+  filename: "PlaywriteATGuides-Italic.ttf"
+  post_script_name: "PlaywriteATGuides-Italic"
+  full_name: "Playwrite AT Guides Italic"
+  copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
+}
 subsets: "menu"
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
@@ -24,6 +33,10 @@ source {
     source_file: "fonts/ttf/PlaywriteATGuides-Regular.ttf"
     dest_file: "PlaywriteATGuides-Regular.ttf"
   }
+  files {
+    source_file: "fonts/ttf/PlaywriteATGuides-Italic.ttf"
+    dest_file: "PlaywriteATGuides-Italic.ttf"
+  }  
   files {
     source_file: "documentation/about-guides/AT/ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

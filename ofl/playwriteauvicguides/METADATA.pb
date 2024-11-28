@@ -1,10 +1,10 @@
-name: "Playwrite AUVIC Guides"
+name: "Playwrite AU VIC Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-27"
 fonts {
-  name: "Playwrite AUVIC Guides"
+  name: "Playwrite AU VIC Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteAUVICGuides-Regular.ttf"

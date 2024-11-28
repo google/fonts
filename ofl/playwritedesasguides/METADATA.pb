@@ -4,7 +4,7 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-27"
 fonts {
-  name: "Playwrite DESAS Guides"
+  name: "Playwrite DE SAS Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteDESASGuides-Regular.ttf"

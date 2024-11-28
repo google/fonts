@@ -1,10 +1,10 @@
-name: "Playwrite AUSA Guides"
+name: "Playwrite AU SA Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-27"
 fonts {
-  name: "Playwrite AUSA Guides"
+  name: "Playwrite AU SA Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteAUSAGuides-Regular.ttf"

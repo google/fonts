@@ -1,10 +1,10 @@
-name: "Playwrite DEVA Guides"
+name: "Playwrite DE VA Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-27"
 fonts {
-  name: "Playwrite DEVA Guides"
+  name: "Playwrite DE VA Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteDEVAGuides-Regular.ttf"

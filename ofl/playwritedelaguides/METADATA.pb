@@ -4,7 +4,7 @@ license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-27"
 fonts {
-  name: "Playwrite DELA Guides"
+  name: "Playwrite DE LA Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteDELAGuides-Regular.ttf"

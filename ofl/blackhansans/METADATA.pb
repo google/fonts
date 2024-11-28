@@ -18,3 +18,7 @@ subsets: "menu"
 primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
+
+source {
+  repository_url: "https://github.com/zesstype/Black-Han-Sans"
+}

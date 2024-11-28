@@ -1,10 +1,10 @@
-name: "Playwrite AUTAS Guides"
+name: "Playwrite AU TAS Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-27"
 fonts {
-  name: "Playwrite AUTAS Guides"
+  name: "Playwrite AU TAS Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteAUTASGuides-Regular.ttf"

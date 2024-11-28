@@ -1,10 +1,10 @@
-name: "Playwrite AUQLD Guides"
+name: "Playwrite AU QLD Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2024-11-27"
 fonts {
-  name: "Playwrite AUQLD Guides"
+  name: "Playwrite AU QLD Guides"
   style: "normal"
   weight: 400
   filename: "PlaywriteAUQLDGuides-Regular.ttf"

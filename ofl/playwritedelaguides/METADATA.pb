@@ -1,4 +1,4 @@
-name: "Playwrite DELA Guides"
+name: "Playwrite DE LA Guides"
 designer: "TypeTogether, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"

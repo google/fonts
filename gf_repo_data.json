@@ -1,6 +1,1670 @@
 {
-    "last_run": "2024-11-25",
+    "last_run": "2024-12-02",
     "commits": [
+        {
+            "date": "2024-11-30T00:01:28",
+            "title": "Update families.csv (#8682)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "161cfed20249464c01427bb2277af6c014aa8b17"
+        },
+        {
+            "date": "2024-11-29T23:57:37",
+            "title": "Update families.csv (#8681)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c28a9ba2506d9acb96a37e7be1996be0a545a3a6"
+        },
+        {
+            "date": "2024-11-29T23:14:49",
+            "title": "Update families.csv (#8680)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ec8e9100729b851fce1b6387efb18bfd4a4fe914"
+        },
+        {
+            "date": "2024-11-28T19:42:11",
+            "title": "Merge pull request #8670 from google/PW-links-fixes",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "6ca295bcf6d1f1198a5316cc9eed7f06cbf51948"
+        },
+        {
+            "date": "2024-11-28T15:57:01",
+            "title": "ZA link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f1a16d559ad0f8cd112b60e1d7ab41c804f7b598"
+        },
+        {
+            "date": "2024-11-28T15:55:01",
+            "title": "US Modern link to characteristics fix 2",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "aed3e9470d323e42a419e5e2c2e2d8ca2fd1ffb7"
+        },
+        {
+            "date": "2024-11-28T15:53:10",
+            "title": "US Trad link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b5ba3611a962a684aae298158fefa3c5f30e13ab"
+        },
+        {
+            "date": "2024-11-28T15:50:40",
+            "title": "US Modern link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bd42af97e2c64c0e143fd2ae9fddac0ea58d905e"
+        },
+        {
+            "date": "2024-11-28T15:47:21",
+            "title": "TZ link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6eef8d4137b9867ea648f4936432e94c3963391d"
+        },
+        {
+            "date": "2024-11-28T15:45:50",
+            "title": "SK link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ad95e92177e6ffacefc0eb24fe6fcb1078128412"
+        },
+        {
+            "date": "2024-11-28T15:45:37",
+            "title": "PT link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "95fde2a53078c9e41673f4a482c6fb22f567562b"
+        },
+        {
+            "date": "2024-11-28T15:43:46",
+            "title": "Merge pull request #8668 from google/TT-profile-pic",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "46fccfc219a84185355ec452fa67b571d188eea4"
+        },
+        {
+            "date": "2024-11-28T15:38:43",
+            "title": "PL link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "27ff5b549cd57d03397a3a19a7ed1ee39a2e666f"
+        },
+        {
+            "date": "2024-11-28T15:38:30",
+            "title": "Merge pull request #8669 from google/gftools_packager_ofl_playwritecoguides",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "0f54ad1d906366bc37c0215d78f0a09c2209b64b"
+        },
+        {
+            "date": "2024-11-28T15:36:31",
+            "title": "NO link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "83efff7b0d9a8e278366b0d9a44a2d21a61e7be7"
+        },
+        {
+            "date": "2024-11-28T15:35:23",
+            "title": "NG link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fd4ea7debd1ccc6c552c5811fdd78663b7a64d98"
+        },
+        {
+            "date": "2024-11-28T15:33:39",
+            "title": "NZ link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a170606efeb4d9358693eeff1006e8f9f6e78e36"
+        },
+        {
+            "date": "2024-11-28T15:32:36",
+            "title": "NL link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6f490cda021f568c14db836d46bc012b344e1a10"
+        },
+        {
+            "date": "2024-11-28T15:30:55",
+            "title": "IT Tradizionale Article overall fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "18492a582230a9dfb09270ea342839d3fbc2a7d3"
+        },
+        {
+            "date": "2024-11-28T15:25:05",
+            "title": "IT Moderna link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cae133545a94414b18b728a642e008e3986e6736"
+        },
+        {
+            "date": "2024-11-28T15:23:41",
+            "title": "IE link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8099558642631ba2cd65e391c42b87cf03d0b418"
+        },
+        {
+            "date": "2024-11-28T15:19:50",
+            "title": "ID link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e8c4b099700456796138768efa0c27e86f7d87c7"
+        },
+        {
+            "date": "2024-11-28T15:16:04",
+            "title": "IN link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "20d4f038c12faee982920bcf754ac3f26f5aa0e0"
+        },
+        {
+            "date": "2024-11-28T15:13:15",
+            "title": "HR Lijeva link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d155744dd1f5f676a36f08260124c403ce92386d"
+        },
+        {
+            "date": "2024-11-28T15:12:20",
+            "title": "HR link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ce4728cb9b8c968f795c168fd273a0d2e8bad7b3"
+        },
+        {
+            "date": "2024-11-28T15:10:44",
+            "title": "FR Traditionnelle link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "222d155da6cc6909367101ed68c9d59716543777"
+        },
+        {
+            "date": "2024-11-28T15:09:29",
+            "title": "FR Moderne link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e8754179743389e4a074bcb8b22d18ba7f8ed6ca"
+        },
+        {
+            "date": "2024-11-28T15:06:31",
+            "title": "DK Uloopet link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "19572ca9f65419cc510f6925b8d6f048296003cb"
+        },
+        {
+            "date": "2024-11-28T15:05:29",
+            "title": "DK Loopet link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "24e5843ee0c4750503e29f8b4b4d2669fe19475a"
+        },
+        {
+            "date": "2024-11-28T15:01:23",
+            "title": "DE Grund link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8df5d7050e68dd99c58bfb56e1498b587bbe2f6f"
+        },
+        {
+            "date": "2024-11-28T14:58:29",
+            "title": "CU link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "03d5396190718e37d9b7c0f03e451e55b817c5aa"
+        },
+        {
+            "date": "2024-11-28T14:42:40",
+            "title": "CO link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "15e45c0af333e1a2f0650e2e977ffe091e126601"
+        },
+        {
+            "date": "2024-11-28T14:38:13",
+            "title": "Playwrite CO Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "b6030dc254aa11fa4a534677b27f06542ff208c0"
+        },
+        {
+            "date": "2024-11-28T14:24:48",
+            "title": "TypeTogether info pb updated",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "designer",
+            "id": "2e981f8ab01eea4f9865a88c9d2e820b27a06e86"
+        },
+        {
+            "date": "2024-11-28T14:23:42",
+            "title": "CA link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bc49a5bcd0a7ceffcfab468e7e3b87e16a643788"
+        },
+        {
+            "date": "2024-11-28T14:21:18",
+            "title": "BR link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "58011ff790325bc77304a78a7f5a020883876dc8"
+        },
+        {
+            "date": "2024-11-28T14:20:04",
+            "title": "BE VLG localized name fixed",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f8cd4b5d33d3b7c729dd6c5aacf2e792bb98e206"
+        },
+        {
+            "date": "2024-11-28T14:18:48",
+            "title": "BE WAL localized name fixed",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a5cdd791b85965135ef0121a077fd555739d1567"
+        },
+        {
+            "date": "2024-11-28T14:14:20",
+            "title": "AU SA link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6df7de3d41a28d529db844e414b01ca1452ba712"
+        },
+        {
+            "date": "2024-11-28T14:12:19",
+            "title": "AU QLD link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "23c2f1df39cd81280400bcaec30f72efe2395d3f"
+        },
+        {
+            "date": "2024-11-28T14:11:17",
+            "title": "AU NSW link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "47e593e03a85ce4aad2b289a059f36b0712b9bd5"
+        },
+        {
+            "date": "2024-11-28T14:10:08",
+            "title": "AR link to characteristics fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1ea63bd2fbe85c69335461dd5c294c5676c2a76a"
+        },
+        {
+            "date": "2024-11-28T14:01:49",
+            "title": "TypeTogether profile pic updated",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1c0ac3d4024f41fa9c5291b806c0b987f771e340"
+        },
+        {
+            "date": "2024-11-28T13:13:32",
+            "title": "Merge pull request #8614 from google/gftools_packager_ofl_playwriteatguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "ce000d1b33bc17e635c24b89c547f17598af56fa"
+        },
+        {
+            "date": "2024-11-28T13:13:26",
+            "title": "Merge pull request #8615 from google/gftools_packager_ofl_playwriteaunswguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "28996afef810fd407189c35d3d129369ef6d2f01"
+        },
+        {
+            "date": "2024-11-28T13:13:21",
+            "title": "Merge pull request #8616 from google/gftools_packager_ofl_playwriteauqldguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "d6fc8bffea07a872008d88040eda9f0553a2d0e3"
+        },
+        {
+            "date": "2024-11-28T13:13:15",
+            "title": "Merge pull request #8617 from google/gftools_packager_ofl_playwriteausaguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "f300bea3062204436c1a64e592f30a04a7fa7773"
+        },
+        {
+            "date": "2024-11-28T13:13:09",
+            "title": "Merge pull request #8618 from google/gftools_packager_ofl_playwriteautasguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "a624bd723325f4f20a5af0c0dcfca2f70cc816de"
+        },
+        {
+            "date": "2024-11-28T13:13:04",
+            "title": "Merge pull request #8619 from google/gftools_packager_ofl_playwriteauvicguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "a6ea7237b106d70ec9b06bf039c2895e2330d9a7"
+        },
+        {
+            "date": "2024-11-28T13:12:57",
+            "title": "Merge pull request #8620 from google/gftools_packager_ofl_playwritebevlgguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "2d8e7ac0afde928e1bb63ec46e5d47c76de3469e"
+        },
+        {
+            "date": "2024-11-28T13:12:52",
+            "title": "Merge pull request #8621 from google/gftools_packager_ofl_playwritebewalguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "248ab17a8d290bfd2779cd7e37ce5ba934eb2d0f"
+        },
+        {
+            "date": "2024-11-28T13:12:46",
+            "title": "Merge pull request #8622 from google/gftools_packager_ofl_playwritebrguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "10ff70fa4caba31edede7258c74813ca5107298e"
+        },
+        {
+            "date": "2024-11-28T13:12:40",
+            "title": "Merge pull request #8623 from google/gftools_packager_ofl_playwritecaguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "bef4aced5154c2f2e260c61b5059180fe4ff67fb"
+        },
+        {
+            "date": "2024-11-28T13:12:33",
+            "title": "Merge pull request #8624 from google/gftools_packager_ofl_playwriteclguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "e678b7eef72f14ba0d4aa50ea068452e7e8d7927"
+        },
+        {
+            "date": "2024-11-28T13:12:26",
+            "title": "Merge pull request #8625 from google/gftools_packager_ofl_playwritecuguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "d5615cd218e184ac31b49cb1542fb512d91d6325"
+        },
+        {
+            "date": "2024-11-28T13:12:21",
+            "title": "Merge pull request #8626 from google/gftools_packager_ofl_playwriteczguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "6a51af4bcb04be107c36d55e3336ddd9fb8f4c1a"
+        },
+        {
+            "date": "2024-11-28T13:12:16",
+            "title": "Merge pull request #8627 from google/gftools_packager_ofl_playwritedegrundguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "300e16f4c4d8fa26750b96ffa134e1fcfb4d569d"
+        },
+        {
+            "date": "2024-11-28T13:12:09",
+            "title": "Merge pull request #8628 from google/gftools_packager_ofl_playwritedelaguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "5ae9d93216f41cb026c0830fb4d2e396dd8d7c5c"
+        },
+        {
+            "date": "2024-11-28T13:12:03",
+            "title": "Merge pull request #8629 from google/gftools_packager_ofl_playwritedesasguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "8db3ea70c5a80f27537513305be0c2a4c72bbd16"
+        },
+        {
+            "date": "2024-11-28T13:11:56",
+            "title": "Merge pull request #8630 from google/gftools_packager_ofl_playwritedevaguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "6d8a79062e0f2ee10abb62c0ab532538a551e1b6"
+        },
+        {
+            "date": "2024-11-28T13:11:50",
+            "title": "Merge pull request #8631 from google/gftools_packager_ofl_playwritedkloopetguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "8e5dc432381e5da57b72f95f21c3e222764011fa"
+        },
+        {
+            "date": "2024-11-28T13:11:41",
+            "title": "Merge pull request #8632 from google/gftools_packager_ofl_playwritedkuloopetguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "5791dfec0467f0bde7b0080938c179259f9f0292"
+        },
+        {
+            "date": "2024-11-28T13:11:25",
+            "title": "Merge pull request #8633 from google/gftools_packager_ofl_playwriteesdecoguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "1e987ab4f3fda95e23fc0805c5dae377938defd3"
+        },
+        {
+            "date": "2024-11-28T13:11:20",
+            "title": "Merge pull request #8634 from google/gftools_packager_ofl_playwriteesguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "906fb96983fb79082fe5abdb686e78f2f0c47de3"
+        },
+        {
+            "date": "2024-11-28T13:11:14",
+            "title": "Merge pull request #8635 from google/gftools_packager_ofl_playwritefrmoderneguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "5157bfd03df14a44f10bbad0ef4ba2b8e7701fa8"
+        },
+        {
+            "date": "2024-11-28T13:11:08",
+            "title": "Merge pull request #8636 from google/gftools_packager_ofl_playwritefrtradguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "577d0b91e9f6dbc0651ef9ba5bab21ef7dda01b1"
+        },
+        {
+            "date": "2024-11-28T13:11:03",
+            "title": "Merge pull request #8637 from google/gftools_packager_ofl_playwritegbsguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "026f48411a57bead332850a6c8a9d808a50bd233"
+        },
+        {
+            "date": "2024-11-28T13:10:57",
+            "title": "Merge pull request #8638 from google/gftools_packager_ofl_playwritehrguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "6f60df9b484d5a8168200ebbedecebda31a3b963"
+        },
+        {
+            "date": "2024-11-28T13:10:51",
+            "title": "Merge pull request #8639 from google/gftools_packager_ofl_playwritehrlijevaguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "2b845b88e94322fef7ac36ad668e27672ed4764e"
+        },
+        {
+            "date": "2024-11-28T13:10:44",
+            "title": "Merge pull request #8640 from google/gftools_packager_ofl_playwritehuguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "4e8bbb07d480215e4110a7d9d0f2419f1481d6b3"
+        },
+        {
+            "date": "2024-11-28T13:10:38",
+            "title": "Merge pull request #8641 from google/gftools_packager_ofl_playwriteidguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "8d0aa4c153bbfe00f89d621db1ea72d733846941"
+        },
+        {
+            "date": "2024-11-28T13:10:33",
+            "title": "Merge pull request #8642 from google/gftools_packager_ofl_playwriteieguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "fefc169077de26941ee02e3e3bc89dc3ddb6b5bd"
+        },
+        {
+            "date": "2024-11-28T13:10:27",
+            "title": "Merge pull request #8643 from google/gftools_packager_ofl_playwriteinguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "0269191964d72f9201afbad07fea25c71500e142"
+        },
+        {
+            "date": "2024-11-28T13:10:21",
+            "title": "Merge pull request #8644 from google/gftools_packager_ofl_playwriteisguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "f2fd75b286b2b2d0e4c7db208ee817d9e7f7eb77"
+        },
+        {
+            "date": "2024-11-28T13:10:15",
+            "title": "Merge pull request #8645 from google/gftools_packager_ofl_playwriteitmodernaguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "fce80ea52219066b75fc8a0a254c25cd08e8f5ba"
+        },
+        {
+            "date": "2024-11-28T13:10:10",
+            "title": "Merge pull request #8646 from google/gftools_packager_ofl_playwriteittradguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "3e20fb84cf33d062658b37026ac1c3f77faad895"
+        },
+        {
+            "date": "2024-11-28T13:10:05",
+            "title": "Merge pull request #8647 from google/gftools_packager_ofl_playwritemxguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "bafde58fce8d6e58843c4c17ba06c83e2ca26824"
+        },
+        {
+            "date": "2024-11-28T13:09:58",
+            "title": "Merge pull request #8648 from google/gftools_packager_ofl_playwritengmodernguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "baf0911638aa706f6c5129311fb269b3c4f20b03"
+        },
+        {
+            "date": "2024-11-28T13:09:52",
+            "title": "Merge pull request #8649 from google/gftools_packager_ofl_playwritenlguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "42378006938ed30461327373cdacb50f5cfb8ce8"
+        },
+        {
+            "date": "2024-11-28T13:09:20",
+            "title": "Merge pull request #8650 from google/gftools_packager_ofl_playwritenoguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "921140aaf9bdb88d9befcb0d09054dc0dda036a1"
+        },
+        {
+            "date": "2024-11-28T13:09:14",
+            "title": "Merge pull request #8651 from google/gftools_packager_ofl_playwritenzguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "cf2d174b18ac5cca7d81d3454c08777033794e58"
+        },
+        {
+            "date": "2024-11-28T13:09:08",
+            "title": "Merge pull request #8652 from google/gftools_packager_ofl_playwritepeguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "cf210767b568d7cbbdf04a2cd2e22614a233a490"
+        },
+        {
+            "date": "2024-11-28T13:09:02",
+            "title": "Merge pull request #8653 from google/gftools_packager_ofl_playwriteplguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "c03148c33f1d3222c64b24624e59071642751e55"
+        },
+        {
+            "date": "2024-11-28T13:08:56",
+            "title": "Merge pull request #8654 from google/gftools_packager_ofl_playwriteptguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "1274472c3e25d0162d319cee33bd6cb66464fe7a"
+        },
+        {
+            "date": "2024-11-28T13:08:51",
+            "title": "Merge pull request #8655 from google/gftools_packager_ofl_playwriteroguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "9ee7087512b5f6c002bcd6a9437cb0e9f5af3eff"
+        },
+        {
+            "date": "2024-11-28T13:08:44",
+            "title": "Merge pull request #8656 from google/gftools_packager_ofl_playwriteskguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "135cb40658e00bcc957ebaca4522b0125291f4e5"
+        },
+        {
+            "date": "2024-11-28T13:08:39",
+            "title": "Merge pull request #8657 from google/gftools_packager_ofl_playwritetzguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "71985767cb3b9e2f7bf812babc5cd49099d1936c"
+        },
+        {
+            "date": "2024-11-28T13:07:32",
+            "title": "Merge pull request #8658 from google/gftools_packager_ofl_playwriteusmodernguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "bddfe5496615da5c83e1d13a72ce6dc7f33da2d9"
+        },
+        {
+            "date": "2024-11-28T13:07:03",
+            "title": "Merge pull request #8659 from google/gftools_packager_ofl_playwriteustradguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "6be44770bae938dc24ee92a9f9d842ba122ed2fb"
+        },
+        {
+            "date": "2024-11-28T13:06:45",
+            "title": "Merge pull request #8660 from google/gftools_packager_ofl_playwritevnguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "0ac6787c40ee39fa74b573ffa2d2123f9e018ccc"
+        },
+        {
+            "date": "2024-11-28T13:03:55",
+            "title": "Merge pull request #8661 from google/gftools_packager_ofl_playwritezaguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "9d4e560f13fab1e67de12fdb92a654d711e4047a"
+        },
+        {
+            "date": "2024-11-28T13:03:21",
+            "title": "Merge pull request #8662 from google/gftools_packager_ofl_playwritearguides",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "5c9eca5988922bd003c59435da331d4c3e01c93b"
+        },
+        {
+            "date": "2024-11-28T13:02:53",
+            "title": "Merge pull request #8663 from google/gftools_packager_ofl_playwritegbjguides",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "b9be17f4310525826bb3b65257bc9c8a28392f7b"
+        },
+        {
+            "date": "2024-11-28T11:02:44",
+            "title": "Merge pull request #8591 from google/gf_cjk_q4_blackHan",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "bbf2bea8419757209b6a0d8544e190e155a9109b"
+        },
+        {
+            "date": "2024-11-28T10:34:03",
+            "title": "Update families.csv (#8667)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "family",
+            "id": "985bcad97db39a2739a467191b08c1f1f251684d"
+        },
+        {
+            "date": "2024-11-28T08:54:09",
+            "title": "adds family.source.repository_url entry",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9bb786b0e37c076e44d9ebbebe0c52410143e7c5"
+        },
+        {
+            "date": "2024-11-28T08:47:56",
+            "title": "metadata.pb updated",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7e633adb23d33b8174217d00dd1ae85295ebacb0"
+        },
+        {
+            "date": "2024-11-28T08:43:43",
+            "title": "last hotfix in copyright",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "80a0a8ab22ed6dddb5e05bf6f59c0bc0dc7356ba"
+        },
+        {
+            "date": "2024-11-28T08:37:27",
+            "title": "hotfix copyright",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "e7afbb3c599a47742ae412fe34dbaad050c38c90"
+        },
+        {
+            "date": "2024-11-28T08:37:06",
+            "title": "update OFL",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "74ab767603362f14747e11aa153267032fea84d0"
+        },
+        {
+            "date": "2024-11-28T08:30:48",
+            "title": "description updated",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "3c1eb1218cde1ee2c4eb58a6cc1f13a06a563ab7"
+        },
+        {
+            "date": "2024-11-28T08:07:27",
+            "title": "Merge pull request #8665 from google/tiny5-About",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "10c96fdd93e07ff2f3be6437b932f2fbfbc9d9fb"
+        },
+        {
+            "date": "2024-11-28T08:05:09",
+            "title": "Merge pull request #8666 from google/bungee-articles-fix",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "d07310c593b2af85203fdf68b2b48ca5f379bb8b"
+        },
+        {
+            "date": "2024-11-28T02:05:09",
+            "title": "Bungee article formatting small fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "436b4166982b0b3e691abe32024a18be284cf1b3"
+        },
+        {
+            "date": "2024-11-28T01:58:56",
+            "title": "Bungee Spice article with images added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "703a2259d5bc452ab0eea5d2444914cd186dc2bc"
+        },
+        {
+            "date": "2024-11-28T01:56:06",
+            "title": "Bungee Shade article with images added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "5f528c279fd29010208ea80148640a5497664aa4"
+        },
+        {
+            "date": "2024-11-28T01:55:11",
+            "title": "Bungee Outline article with images added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "decf00f7ea8bb674cb45f6d311622f510cfaf2ee"
+        },
+        {
+            "date": "2024-11-28T01:53:23",
+            "title": "Bungee Inline article with images added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "4e8b90f9674cdd11b094ecd492eb9664f0abbc0d"
+        },
+        {
+            "date": "2024-11-28T01:51:56",
+            "title": "Bungee Hairline article with images added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "a38c790f7e4381724b5f45cbb907862cd3636993"
+        },
+        {
+            "date": "2024-11-28T01:44:29",
+            "title": "Bungee article with images added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "e920b5c239ed77e629960507f745b320c9428a72"
+        },
+        {
+            "date": "2024-11-28T01:12:32",
+            "title": "Tiny5 Article with images added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "baf051d84ccb7144a1c26a79bcfec62e50ae0990"
+        },
+        {
+            "date": "2024-11-28T00:45:01",
+            "title": "PW AT Italic font added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "2656ee08b569d985ef97acef6561be3477218120"
+        },
+        {
+            "date": "2024-11-28T00:39:16",
+            "title": "PW AU NSW family name fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "b9dfd2347cbb396b09b8077733d7145f702c7081"
+        },
+        {
+            "date": "2024-11-28T00:37:08",
+            "title": "PW AU QLD family name fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "aad64b6e349444a1d2b281ae9e84f3dcf049a090"
+        },
+        {
+            "date": "2024-11-28T00:33:39",
+            "title": "PW AU SA family name fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "4deffa6e84d371b72804a8a3ffce171ea6d21de6"
+        },
+        {
+            "date": "2024-11-28T00:32:04",
+            "title": "PW AU TAS family name fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "45f206f6cee031fc250d79e5fdee1cfdeaf04a01"
+        },
+        {
+            "date": "2024-11-28T00:30:03",
+            "title": "PW AU VIC family name fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "12018192206ed8bebf076c8175c43db66b63b5a9"
+        },
+        {
+            "date": "2024-11-28T00:27:21",
+            "title": "PW DE VLG typo fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "5841a2540aa66717ee37591c8565101afa1da52c"
+        },
+        {
+            "date": "2024-11-28T00:25:40",
+            "title": "PW DE LA typo fix 2",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "dd655ff60c2e9470c71bd06996033199c6433237"
+        },
+        {
+            "date": "2024-11-28T00:25:02",
+            "title": "PW DE SAS typo fix 2",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "00238a1d60af24c9f82a7ec53863500a9ee1d5e2"
+        },
+        {
+            "date": "2024-11-28T00:23:52",
+            "title": "PW BE WAL typo fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "f9668d808701979e3c0165c8140d4a8e39e234b7"
+        },
+        {
+            "date": "2024-11-28T00:06:45",
+            "title": "PW DE LA typo fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "c6afa3d538af1aa664f4c3bce30eec598340f27c"
+        },
+        {
+            "date": "2024-11-28T00:05:04",
+            "title": "PW DE SAS typo fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "d865ed9bd8d3eb5c872892dd7b762472aee1535f"
+        },
+        {
+            "date": "2024-11-28T00:03:06",
+            "title": "PW DE VA typo fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "f122cad7e63dfcb3f2d150157887ec31852ed1e7"
+        },
+        {
+            "date": "2024-11-27T23:53:29",
+            "title": "PW GB J typo fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6bfed7a4db60b7ca4a75fcf7d740225f69e19d45"
+        },
+        {
+            "date": "2024-11-27T23:40:15",
+            "title": "Playwrite GB J Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "c45ae20dec1dbe84b8694559a5dc7527098809e5"
+        },
+        {
+            "date": "2024-11-27T23:17:28",
+            "title": "PW FR Trad broken link fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "00c4aec0715c7a7d0d11b6e1186f451d04e9ec3b"
+        },
+        {
+            "date": "2024-11-27T23:09:53",
+            "title": "PW GB S Italic font added to sources dic",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d05fc8b1109bdb4d0b8e9efe48cebf9ca1a424bf"
+        },
+        {
+            "date": "2024-11-27T22:59:59",
+            "title": "PW GB S Italic font added to metadata typo",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8c5bf8cc7586278d0557c2548200e633c26e8104"
+        },
+        {
+            "date": "2024-11-27T22:56:49",
+            "title": "PW GB S Italic font added to metadata",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "25ef17bde86c8e010561b65a628dc82da12cda59"
+        },
+        {
+            "date": "2024-11-27T22:53:58",
+            "title": "PW GB S Italic metadata family name fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dc96e5c4339152d73c36a7fdb1cdc933eef33069"
+        },
+        {
+            "date": "2024-11-27T22:47:36",
+            "title": "PW GB S Italic font added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "4bf84ad0d3ca384d3f2aa2dca97fab7a0a8ff759"
+        },
+        {
+            "date": "2024-11-27T22:24:04",
+            "title": "Update BlackHanSans-Regular.ttf",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "422922b9048428a50bca9b6d07e62b70bf168627"
+        },
+        {
+            "date": "2024-11-27T22:10:12",
+            "title": "Update BlackHanSans-Regular.ttf",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "15687c3c95ebde6d883cd7f6a8530485a90bd8c8"
+        },
+        {
+            "date": "2024-11-27T20:59:25",
+            "title": "Playwrite AR Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "29fdbabb85083c50f02d511cd57495f0b4e2ff48"
+        },
+        {
+            "date": "2024-11-27T20:35:55",
+            "title": "Playwrite ZA Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "1cbc6b4afba329339c27103a6bb47bf23aeea012"
+        },
+        {
+            "date": "2024-11-27T20:35:39",
+            "title": "Playwrite VN Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "97dbd615584962455e0b84c1a7a1e7906a8b6d88"
+        },
+        {
+            "date": "2024-11-27T20:35:19",
+            "title": "Playwrite US Trad Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "c8f934a8ea4b17781e0c856c87f0ddc25be42799"
+        },
+        {
+            "date": "2024-11-27T20:35:05",
+            "title": "Playwrite US Modern Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "0ec0149effb91c0590ca89f40c4ac5c6f6a3df66"
+        },
+        {
+            "date": "2024-11-27T20:34:40",
+            "title": "Playwrite TZ Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "20fae9dc1b4fd38892bafa5cca9f5d81e5ad7338"
+        },
+        {
+            "date": "2024-11-27T20:34:25",
+            "title": "Playwrite SK Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "2d9802d4f03b6608bbc6f5553c13e5a54ce9ec8a"
+        },
+        {
+            "date": "2024-11-27T20:34:07",
+            "title": "Playwrite RO Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "cfb55c69cb9dc73e7aa2f679995aff8547695fbc"
+        },
+        {
+            "date": "2024-11-27T20:33:53",
+            "title": "Playwrite PT Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "de2600619ac2e8da520b51a00cbd8be5127b04d4"
+        },
+        {
+            "date": "2024-11-27T20:33:39",
+            "title": "Playwrite PL Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "8acc5fdc88d7186e5dfc7930835498f5c19ad5ee"
+        },
+        {
+            "date": "2024-11-27T20:33:25",
+            "title": "Playwrite PE Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "caf45d090069be9f53bbd8716653688955923f2f"
+        },
+        {
+            "date": "2024-11-27T20:33:10",
+            "title": "Playwrite NZ Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "b47ff8bb6cd8c65a50fae948f149426f395ff273"
+        },
+        {
+            "date": "2024-11-27T20:32:56",
+            "title": "Playwrite NO Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "5bd3468db24cf78cbaca85eca6991461c840d468"
+        },
+        {
+            "date": "2024-11-27T20:32:41",
+            "title": "Playwrite NL Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "75f08dad4146f6399a4732ed7bc9a8d261350ef1"
+        },
+        {
+            "date": "2024-11-27T20:32:18",
+            "title": "Playwrite NG Modern Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "136ca1f5555ea518f3b1a66a717290e82d8ff750"
+        },
+        {
+            "date": "2024-11-27T20:32:05",
+            "title": "Playwrite MX Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "e4d69728f2d229b88318f5e03cf1d3317387f256"
+        },
+        {
+            "date": "2024-11-27T20:31:48",
+            "title": "Playwrite IT Trad Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "ad6ea7dbc7cf142f34c4b8df256e0ada31938ac7"
+        },
+        {
+            "date": "2024-11-27T20:31:34",
+            "title": "Playwrite IT Moderna Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "f481507e3395cfb7fb6fb2ad19fe0920edf40247"
+        },
+        {
+            "date": "2024-11-27T20:31:20",
+            "title": "Playwrite IS Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "0d563f56245cf6e0f7d91fe12e11160612281d76"
+        },
+        {
+            "date": "2024-11-27T20:31:06",
+            "title": "Playwrite IN Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "ba16400e9d9fec8013c24c0263cb9fe0c77f8e51"
+        },
+        {
+            "date": "2024-11-27T20:30:46",
+            "title": "Playwrite IE Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "55ace60f284ff75bfd08a83203c5cb284083eced"
+        },
+        {
+            "date": "2024-11-27T20:30:31",
+            "title": "Playwrite ID Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "c63a115db7672f59c99899890b0af4e5d777c06c"
+        },
+        {
+            "date": "2024-11-27T20:29:53",
+            "title": "Playwrite HU Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "48133440178622e215912d34d386c5ee1682c677"
+        },
+        {
+            "date": "2024-11-27T20:29:38",
+            "title": "Playwrite HR Lijeva Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "5d62c78016d3cec8fd5340839d484d08f3bd12aa"
+        },
+        {
+            "date": "2024-11-27T20:29:23",
+            "title": "Playwrite HR Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "66b13d55999b0285c98ede658c25fdd874ca1a38"
+        },
+        {
+            "date": "2024-11-27T20:29:05",
+            "title": "Playwrite GB S Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "43f0ce89fc2cdc93a8c91a7ef6a0de8358fd4fd9"
+        },
+        {
+            "date": "2024-11-27T20:28:32",
+            "title": "Playwrite FR Trad Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "cb48c87e78927ea0090d1c5ff184216a6ad16ed0"
+        },
+        {
+            "date": "2024-11-27T20:28:19",
+            "title": "Playwrite FR Moderne Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "897b5c31ef1a92f5a9c9eaf930434ba69bdd2d66"
+        },
+        {
+            "date": "2024-11-27T20:28:05",
+            "title": "Playwrite ES Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "1f3331b61391bb553ea3874e2238eac45c9d19a7"
+        },
+        {
+            "date": "2024-11-27T20:27:51",
+            "title": "Playwrite ES Deco Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "889d7efa8df7f7f464589c8ff80578e2afb4f1e9"
+        },
+        {
+            "date": "2024-11-27T20:27:34",
+            "title": "Playwrite DK Uloopet Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "c64710bfc5827f41939a28cc89b1cff6406d0914"
+        },
+        {
+            "date": "2024-11-27T20:27:20",
+            "title": "Playwrite DK Loopet Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "9527a3bca5e927fbdcc3435a1865d7f78f493928"
+        },
+        {
+            "date": "2024-11-27T20:27:03",
+            "title": "Playwrite DE VA Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "902d3f525a35ef700ace2543509076e51a1fe163"
+        },
+        {
+            "date": "2024-11-27T20:26:48",
+            "title": "Playwrite DE SAS Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "21bd8c184f320ac57c3a20cf0ef9c2e23c9f6cb0"
+        },
+        {
+            "date": "2024-11-27T20:26:29",
+            "title": "Playwrite DE LA Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "c3f7f5709b60c88e94aff0b4bf801088befeef4c"
+        },
+        {
+            "date": "2024-11-27T20:25:59",
+            "title": "Playwrite DE Grund Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "622dab406950840a00b8b889a319f6a8ec563f7f"
+        },
+        {
+            "date": "2024-11-27T20:25:16",
+            "title": "Playwrite CZ Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "815cce8f1d6000cbc9c4207f6445e9aafdb63b36"
+        },
+        {
+            "date": "2024-11-27T20:25:02",
+            "title": "Playwrite CU Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "725c95d4a05c48b0bf41c98e0d41f132496efad4"
+        },
+        {
+            "date": "2024-11-27T20:24:09",
+            "title": "Playwrite CL Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "0d25d830283f374259ac2d6fcfcaf32d43a516dc"
+        },
+        {
+            "date": "2024-11-27T20:23:56",
+            "title": "Playwrite CA Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "219bc677f673f030a8492da1bc46939bc694dc7c"
+        },
+        {
+            "date": "2024-11-27T20:23:42",
+            "title": "Playwrite BR Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "069772e9faa7ae2213453614acaa056f7ee641a9"
+        },
+        {
+            "date": "2024-11-27T20:23:03",
+            "title": "Playwrite BE WAL Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "01edf53d8a070d459cb1d2ae7a3ed60a7490a5e3"
+        },
+        {
+            "date": "2024-11-27T20:21:54",
+            "title": "Playwrite BE VLG Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "5f0f7f70cf37476067bd0924e22dc536ad88189b"
+        },
+        {
+            "date": "2024-11-27T20:20:33",
+            "title": "Playwrite AU VIC Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "135bc1c8e7f20aa4c666d02d702bebdfef470ac7"
+        },
+        {
+            "date": "2024-11-27T20:19:48",
+            "title": "Playwrite AU TAS Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "3b5cff07b181d24e264b9a5ec82fc86a7898c64c"
+        },
+        {
+            "date": "2024-11-27T20:18:54",
+            "title": "Playwrite AU SA Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "f734358e74666b09a276ba5d65921d0d5f6cdb17"
+        },
+        {
+            "date": "2024-11-27T20:17:51",
+            "title": "Playwrite AU QLD Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "a7b339f0a0ac16faff422af0c8470bbd9e4dc8ea"
+        },
+        {
+            "date": "2024-11-27T20:17:27",
+            "title": "Playwrite AU NSW Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "4d8bf60153e5d6b43e1372ac89d3b6f80ff4396c"
+        },
+        {
+            "date": "2024-11-27T20:17:04",
+            "title": "Playwrite AT Guides: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "family",
+            "id": "48ebf37c2b2df241d62de663dafb5c302265ebe9"
+        },
+        {
+            "date": "2024-11-27T19:06:28",
+            "title": "Merge pull request #8597 from google/PW-Guides-tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f2b6af0e09d7a07fbd26b361be4802ef1cb520d7"
+        },
+        {
+            "date": "2024-11-27T18:55:21",
+            "title": "Merge pull request #8604 from google/PW-BE",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "53aeaadb60ecbf31089b8888b587a83ea3aba32f"
+        },
+        {
+            "date": "2024-11-27T17:55:45",
+            "title": "PW BE VLG display name fix following #8161",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3131e5458121b5cc27c36829d256db61ff64bd41"
+        },
+        {
+            "date": "2024-11-27T17:55:13",
+            "title": "PW BE WAl display name fix following #8161",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "09849d3086d4970acd90eae43d83a040d171e096"
+        },
+        {
+            "date": "2024-11-27T14:49:16",
+            "title": "Playwrite Guides families added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9c1e4529551f96f8dba712cfa775dfce3f285e97"
+        },
+        {
+            "date": "2024-11-27T11:32:49",
+            "title": "Merge pull request #8599 from google/ci-fix",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "31092d1e876aee342a24309abd610428e7afe7d1"
+        },
+        {
+            "date": "2024-11-27T10:55:56",
+            "title": "font_tags.yaml: install pytest",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0a0b160f7c2420ef89c59be2f059b71088e0090d"
+        },
+        {
+            "date": "2024-11-27T09:54:21",
+            "title": "Merge pull request #8487 from google/gftools_packager_ofl_agudisplay",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "097b77e91c24141a5c5d4bb09ffa8744a61bd0b5"
+        },
+        {
+            "date": "2024-11-26T20:23:21",
+            "title": "Merge pull request #8538 from google/gftools_packager_ofl_playwritegbjguides",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "a2bcf1c907ca7cdfec5c05cefe29f14e840a899b"
+        },
+        {
+            "date": "2024-11-26T20:12:52",
+            "title": "PW GB J Guides note on menu only subset added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "08e30d8e5f8b7746b8e97b62d27a46f7b802e755"
+        },
+        {
+            "date": "2024-11-26T20:09:11",
+            "title": "PW GB J Guides rm subsets by menu in metadata",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "06539eb4c5859f0d6477477a04c4c34e9b250b70"
+        },
+        {
+            "date": "2024-11-26T18:34:02",
+            "title": "PW GB J Guides images added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "60734ac5a4178fbdcbbf292c96aa9d85c7b0a3e9"
+        },
+        {
+            "date": "2024-11-26T15:03:24",
+            "title": "Merge pull request #8596 from google/font-tag-ci",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "dcdf2960a71f5f7d9f1fb2f5d77a851943c339e3"
+        },
+        {
+            "date": "2024-11-26T14:53:04",
+            "title": "test tags have value within range 1-100",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2eb83712d3dad206427ef978fbbdafd01bb048e6"
+        },
+        {
+            "date": "2024-11-26T14:48:30",
+            "title": "detect duplicate tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c9d137cda798d09c8932e7a3fb58adc94ffe6d84"
+        },
+        {
+            "date": "2024-11-26T14:44:47",
+            "title": "use pytest",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "eb9cd8823c54c30ee27d9b05a1e4f28407fb55e6"
+        },
+        {
+            "date": "2024-11-26T12:01:41",
+            "title": "Update tags_metadata.csv (#8595)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "family",
+            "id": "87c2ac1f4b927b5de4aef9d13386516fd6e1b714"
+        },
+        {
+            "date": "2024-11-25T20:12:55",
+            "title": "Black Han Sans: 1.001",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "a1d231b683f476406dd6b1daa97d76d7008307eb"
+        },
+        {
+            "date": "2024-11-25T14:03:46",
+            "title": "Merge pull request #8182 from google/gftools_packager_ofl_notoserif",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "c06520efccd2c99d970b536d4f62cb4d95b4e6b2"
+        },
+        {
+            "date": "2024-11-25T13:58:00",
+            "title": "Merge pull request #8521 from google/gftools_packager_ofl_badeendisplay",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "e26e9bccd37d2ca73c4998daee58806d69d5575e"
+        },
+        {
+            "date": "2024-11-25T10:36:23",
+            "title": "Agu Display: Version 1.103 added",
+            "author": "Nathan Willis",
+            "status": "new",
+            "kind": "family",
+            "id": "6913b39387ca9c290c757ea577f9e21a16969614"
+        },
+        {
+            "date": "2024-11-25T06:28:41",
+            "title": "Update families.csv (#8589)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "family",
+            "id": "091dafb5b5a374da3bdf2c449d3fa8d0d8e8ea8e"
+        },
+        {
+            "date": "2024-11-22T22:05:26",
+            "title": "metadata Family name fix 2",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5d4ed565e0bd0dbb9f3bcbe97a380c272ba22e11"
+        },
+        {
+            "date": "2024-11-22T20:59:09",
+            "title": "metadata Family name fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "61a4eecdea5534db763ab5a7593f1cd774d98cad"
+        },
+        {
+            "date": "2024-11-22T20:52:34",
+            "title": "GB J characteristics link fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "39a6599e26861aee0b3729421469bead25fd08cf"
+        },
         {
             "date": "2024-11-22T19:36:12",
             "title": "Removed pushed entries from to_sandbox.txt.",
@@ -13,17 +1677,41 @@
             "date": "2024-11-22T15:46:48",
             "title": "Merge pull request #8539 from google/pushlists",
             "author": "Marc Foley",
-            "status": "new",
-            "kind": "infrastructure",
+            "status": "modified",
+            "kind": "family",
             "id": "d7af653aba7018bbfda356f64ad9687aed19d417"
+        },
+        {
+            "date": "2024-11-22T15:33:55",
+            "title": "PW GB J Guides article added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "71d4ae9d38afdfc9655128119133ed6e1bc9ae63"
         },
         {
             "date": "2024-11-22T15:32:30",
             "title": "pushlists updated",
             "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "687764f1529da50832e5f1002ce6de1422e001da"
+        },
+        {
+            "date": "2024-11-22T15:27:59",
+            "title": "GB J Guides category fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "077902dc5e6b8c18773986de084c53c99af8e335"
+        },
+        {
+            "date": "2024-11-22T15:25:17",
+            "title": "Playwrite GB J Guides: Version 1.002 added",
+            "author": "Viviana Monsalve",
+            "status": "new",
+            "kind": "family",
+            "id": "67a8549a12023a9f293facfd6069e761d411e639"
         },
         {
             "date": "2024-11-22T14:45:37",
@@ -226,6 +1914,22 @@
             "id": "da13b19a931d17b8e7933e8cf109ce616d277702"
         },
         {
+            "date": "2024-11-20T18:26:35",
+            "title": "Upgrade to 2.015 (which fixes kinks)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "49af86b54514f1390e126f3139ced33824f5d72e"
+        },
+        {
+            "date": "2024-11-20T18:26:17",
+            "title": "Use new release artefact structure",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "4858f2c6a22b3db715ddbc4e717392e2216ae74c"
+        },
+        {
             "date": "2024-11-20T17:26:03",
             "title": "Noto Sans: Version 2.015 added",
             "author": "simoncozens",
@@ -245,9 +1949,17 @@
             "date": "2024-11-20T14:47:38",
             "title": "Designer bio Hani Alasadi",
             "author": "Yanone",
-            "status": "new",
-            "kind": "designer",
+            "status": "modified",
+            "kind": "family",
             "id": "e32bed73c88d430a96f3d1ef2ffd2bccc6421a1f"
+        },
+        {
+            "date": "2024-11-20T14:36:38",
+            "title": "Badeen Display: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "family",
+            "id": "c31eae58516b87cb879e539b520dd9eccda59a1a"
         },
         {
             "date": "2024-11-20T14:23:26",

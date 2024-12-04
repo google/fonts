@@ -12,10 +12,7 @@ fonts {
   full_name: "Playwrite AR Guides Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
-subsets: "vietnamese"
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
   commit: "0bd52a3a13b6f3492820c746fa4bfa5196005306"

@@ -9,12 +9,12 @@ fonts {
   weight: 400
   filename: "Englebert-Regular.ttf"
   post_script_name: "Englebert-Regular"
-  full_name: "Englebert"
+  full_name: "Englebert Regular"
   copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \'Englebert\'"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 source {
   repository_url: "https://github.com/librefonts/englebert"
 }

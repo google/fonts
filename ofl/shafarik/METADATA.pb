@@ -10,7 +10,7 @@ fonts {
   filename: "Shafarik-Regular.ttf"
   post_script_name: "Shafarik-Regular"
   full_name: "Shafarik Regular"
-  copyright: "Copyright 2024 The Shafarik Project Authors (https://github.com/slavonic/Shafarik.git)"
+  copyright: "Copyright 2024 The Shafarik Project Authors (https://github.com/slavonic/shafarik)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

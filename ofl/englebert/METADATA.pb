@@ -10,7 +10,7 @@ fonts {
   filename: "Englebert-Regular.ttf"
   post_script_name: "Englebert-Regular"
   full_name: "Englebert Regular"
-  copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \'Englebert\'"
+  copyright: "Copyright 2012 The Englebert Project Authors (https://github.com/librefonts/englebert)"
 }
 subsets: "latin"
 subsets: "latin-ext"

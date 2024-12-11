@@ -10,7 +10,7 @@ fonts {
   filename: "Ponomar-Regular.ttf"
   post_script_name: "Ponomar-Regular"
   full_name: "Ponomar Regular"
-  copyright: "Copyright 2013-2024 The Ponomar Project Authors (https://github.com/slavonic/ponomar)"
+  copyright: "Copyright 2013-2024 The Ponomar Project Authors (https://github.com/slavonic/Ponomar)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

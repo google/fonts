@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/Triodion"
-  commit: "b803a5d83e85ec8ceaa46c240b04ebdca4ceb723"
+  commit: "a594c8894fc2de270a262c02b5a21c7e1f340f46"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

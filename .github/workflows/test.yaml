@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         python-version: ['3.10']
-        os: [windows-latest, macos-13, ubuntu-latest]
+        os: [windows-latest, macos-13, ubuntu-22.04]
     steps:
       - name: Cancel previous
         uses: styfle/cancel-workflow-action@0.11.0
@@ -68,7 +68,7 @@ jobs:
 
   diffenator:
     name: Diffenate fonts
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     continue-on-error: true
 
     steps:

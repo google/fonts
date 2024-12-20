@@ -17,7 +17,7 @@ subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/slavonic/Ponomar"
+  repository_url: "https://github.com/slavonic/ponomar"
   commit: "a45d4cc09e37e1f7fff266e98a3245dad73c9ac9"
   files {
     source_file: "OFL.txt"

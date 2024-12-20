@@ -36,3 +36,4 @@ source {
   branch: "main"
 }
 primary_script: "Cyrl"
+primary_language: "cu_Cyrl"

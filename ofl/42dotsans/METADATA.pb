@@ -21,3 +21,7 @@ axes {
   max_value: 800.0
 }
 primary_script: "Hang"
+source {
+  repository_url: "https://github.com/42dot/42dot-Sans"
+  branch: "main"
+}

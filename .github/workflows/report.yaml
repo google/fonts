@@ -21,7 +21,6 @@ jobs:
       with:
         python-version: "3.10"
     - name: Install Cairo (Ubuntu)
-      if: matrix.platform == 'ubuntu-latest'
       run: sudo apt-get install libcairo2-dev
     - name: Install dependencies
       run: pip install gftools[qa]

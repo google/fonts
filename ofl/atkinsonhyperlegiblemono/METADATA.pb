@@ -1,5 +1,5 @@
 name: "Atkinson Hyperlegible Mono"
-designer: "Braille Institute, Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky, Letters from Sweden"
+designer: "Braille Institute, Applied Design, Elliott Scott, Megan Eiswerth, Letters From Sweden"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-11-20"

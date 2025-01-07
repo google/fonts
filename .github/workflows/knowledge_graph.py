@@ -219,6 +219,7 @@ def _check_outbound_link(url: str):
         'webmd.com',
         "jessicahische.is",
         "type.method.ac",
+        "dev.epicgames.com", # Returns a 403 response when using requests
     ])
     # Following urls will be fixed at a later date. If the CI is failing and a suitable
     # replacement url cannot be found, please add them to this set.

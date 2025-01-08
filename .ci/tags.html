@@ -77,7 +77,7 @@
             <datalist id="items">
               <option v-for="family in uniqueFamilies" :value="family">
             </datalist>
-            <input class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
+            <input type="number" max="100" min="0" class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
             <button class="join-item btn btn-xs">Add</button>
           </div>
         </form>

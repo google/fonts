@@ -10,7 +10,7 @@ fonts {
   filename: "InclusiveSans-Regular.ttf"
   post_script_name: "InclusiveSans-Regular"
   full_name: "Inclusive Sans Regular"
-  copyright: "Copyright 2023 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)"
+  copyright: "Copyright 2024 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)"
 }
 fonts {
   name: "Inclusive Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "InclusiveSans-Italic.ttf"
   post_script_name: "InclusiveSans-Italic"
   full_name: "Inclusive Sans Italic"
-  copyright: "Copyright 2023 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)"
+  copyright: "Copyright 2024 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -27,7 +27,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/LivKing/Inclusive-Sans"
-  commit: "97577e1a7c08db105c19bae35ea17b1a8f81ec5e"
+  commit: "54ed9e4da94e7ea566a0322afc60b750c8544eaa"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -44,3 +44,4 @@ source {
 }
 display_name: "Playwrite Colombia Guides"
 minisite_url: "https://primarium.info/countries/colombia"
+primary_language: "es_Latn"

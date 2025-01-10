@@ -44,3 +44,4 @@ source {
 }
 display_name: "Playwrite Argentina Guides"
 minisite_url: "https://primarium.info/countries/argentina"
+primary_language: "es_Latn"

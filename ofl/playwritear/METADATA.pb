@@ -12,10 +12,7 @@ fonts {
   full_name: "Playwrite AR Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
-subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
@@ -37,3 +34,4 @@ source {
 }
 display_name: "Playwrite Argentina"
 minisite_url: "https://primarium.info/countries/argentina"
+primary_language: "es_Latn"

@@ -12,6 +12,7 @@ fonts {
   full_name: "Playwrite AR Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
+# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
 subsets: "menu"
 axes {
   tag: "wght"

@@ -77,11 +77,26 @@
             <datalist id="items">
               <option v-for="family in uniqueFamilies" :value="family">
             </datalist>
-            <input class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
+            <input type="number" max="100" min="0" class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
             <button class="join-item btn btn-xs">Add</button>
           </div>
         </form>
+        <div class="divider"></div>
+        <form @submit.prevent="copyFamily">
+          <div class="label lavel-xs">
+            <span class="label-text label-xs">Copy tags from a family</span>
+          </div>
+          <div class="join">
+            <input class="join-item input input-xs input-bordered" list="items" v-model="fromFamily" required placeholder="From Family">
+            <input class="join-item input input-xs input-bordered" list="items" v-model="toFamily" required placeholder="To Family">
+            <datalist id="items">
+              <option v-for="family in uniqueFamilies" :value="family">
+            </datalist>
+            <button class="join-item btn btn-xs">Copy</button>
+          </div>
+        </form>
       </div>
+
       <div class="divider"></div>
 
       <div class="panel-tile" style="max-height: 100px; overflow: scroll;">
@@ -154,6 +169,8 @@
         newTag: "",
         newFamily: '',
         newWeight: '',
+        fromFamily: "",
+        toFamily: "",
         CurrentCategory: "/Expressive/Calm",
         Categories: new Set(),
         Families: [],
@@ -316,6 +333,19 @@
         this.Families.push(newFamily);
         
         this.history.push(`+ ${newFamily.Family},${newFamily["Group/Tag"]},${newFamily.Weight}`);
+      },
+      copyFamily() {
+        this.isEdited = true;
+        let fromTags = this.Families.filter(family => family.Family === this.fromFamily);
+        if (fromTags.length === 0) {
+          alert(`No tags found for Family "${this.toFamily}"`);
+          return;
+        }
+        fromTags.forEach((tag) => {
+          let newTag = {Family: this.toFamily, "Group/Tag": tag["Group/Tag"], Weight: tag.Weight};
+          this.Families.push(newTag);
+          this.history.push(`+ ${newTag.Family},${newTag["Group/Tag"]},${newTag.Weight}`);
+        })
       },
       AddPlaceHolderTags() {
         this.isEdited = true;

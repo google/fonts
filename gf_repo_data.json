@@ -1,6 +1,494 @@
 {
-    "last_run": "2024-12-16",
+    "last_run": "2025-01-13",
     "commits": [
+        {
+            "date": "2025-01-10T15:29:26",
+            "title": "Merge pull request #8593 from google/gftools_packager_ofl_cormorantgaramond",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "8179189657d1c5d7eb365d68c97a13efddc0e2b2"
+        },
+        {
+            "date": "2025-01-10T08:08:31",
+            "title": "Merge pull request #8821 from google/PWG-PL-fixes",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "b5829bab95a0d159d14bc4abc8a88ad578d324f3"
+        },
+        {
+            "date": "2025-01-10T01:01:08",
+            "title": "Prmary language info added to PW AR & CO",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3633fb46ec2e645cda7496695b3a9f0f41d1d52b"
+        },
+        {
+            "date": "2025-01-09T15:06:51",
+            "title": "Merge pull request #8820 from google/emmamarichal-patch-1",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "be78ebaa416e16a7e01b5bab5e338efc0b03f824"
+        },
+        {
+            "date": "2025-01-09T14:35:39",
+            "title": "Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5124de77375bfb361368e0f0ccbe463b597a897c"
+        },
+        {
+            "date": "2025-01-09T09:33:13",
+            "title": "Merge pull request #8818 from google/gftools_packager_ofl_inclusivesans",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "e655192310daaf63355d7e809ae9a2383236a84e"
+        },
+        {
+            "date": "2025-01-09T09:18:30",
+            "title": "Inclusive Sans: Version 2.004; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "f4160c6ff89fc7b389df46a6d35e5b445e352b1c"
+        },
+        {
+            "date": "2025-01-09T08:59:59",
+            "title": "Rebuild with babelfont 3.1.2",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "5fcfd99f2fa4422991d29f4adae3f2f4b774f058"
+        },
+        {
+            "date": "2025-01-08T14:03:13",
+            "title": "Merge pull request #8817 from google/atkinson_metadatas",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "1082e5cba575b5e0aa2ab8addff278695f3e0905"
+        },
+        {
+            "date": "2025-01-08T13:53:02",
+            "title": "Designer list corrected",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6243882ed9fb3580a2673b45369fc471c0dc05d3"
+        },
+        {
+            "date": "2025-01-08T11:13:32",
+            "title": "Merge pull request #8816 from google/tag-type",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "0ca73672d6820f2f27b42f2b09405eafb45107bb"
+        },
+        {
+            "date": "2025-01-08T10:57:51",
+            "title": "tags.html: ensure value is number and its range is 0-100",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "08cd960b9e6c4658369edbf327924f2ceaef0707"
+        },
+        {
+            "date": "2025-01-07T16:47:24",
+            "title": "Merge pull request #8813 from google/gftools_packager_ofl_atkinsonhyperlegiblenext",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "ba69dccea3520649e643c4841ecc02812d03b3c2"
+        },
+        {
+            "date": "2025-01-07T16:24:17",
+            "title": "Merge pull request #8519 from google/gftools_packager_ofl_atkinsonhyperlegiblemono",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "b09ac53cde64935d945d4ede93a6301219562dce"
+        },
+        {
+            "date": "2025-01-07T15:14:38",
+            "title": "Merge pull request #8812 from google/lettersfromsweden",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "designer",
+            "id": "864864e85a192aa71778d30c09f1bb5c52d1a8c6"
+        },
+        {
+            "date": "2025-01-07T14:46:06",
+            "title": "Merge pull request #8814 from google/emmamarichal-patch-1",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "71978e1f351c7913b6715a70d9705f41be9a5b85"
+        },
+        {
+            "date": "2025-01-07T13:34:48",
+            "title": "Update families.csv AHN and AHM",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "bf72a38d6e92f5b88c2a633725aa078d1afe8e65"
+        },
+        {
+            "date": "2025-01-07T13:15:05",
+            "title": "Add article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c4ddb7d86a0c190dfbb8915ac7bec676e0484b8e"
+        },
+        {
+            "date": "2025-01-07T13:12:56",
+            "title": "Atkinson Hyperlegible Next: Version 2.001 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "66eef70728ca29f28c31cdc5e7947f2c2de73e8d"
+        },
+        {
+            "date": "2025-01-07T12:58:25",
+            "title": "Add designer: Letters From Sweden",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "54a467d2d8ebd8bd214f386842bb2b1809390808"
+        },
+        {
+            "date": "2025-01-07T12:45:38",
+            "title": "Update designers in metadatas",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0c32bb71e7ec9ef3c04698f38c4f166b468f50bc"
+        },
+        {
+            "date": "2025-01-07T12:45:28",
+            "title": "Add article and images",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "fd090bd8ed55716f44b3e0749336719bb0d2f27b"
+        },
+        {
+            "date": "2025-01-07T12:13:11",
+            "title": "Merge pull request #8811 from dylanatsmith/main",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "db9323ef881fd2e9b775986d2210b6de764014bb"
+        },
+        {
+            "date": "2025-01-07T11:13:09",
+            "title": "Capitalize H in GitHub",
+            "author": "Dylan Smith",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "80f7d56500a51f1cfc205de0484703415e0b13fc"
+        },
+        {
+            "date": "2025-01-07T09:59:57",
+            "title": "Merge pull request #8809 from google/cairo",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "de1f1fb285d168490a71f0b7311988965e60c734"
+        },
+        {
+            "date": "2025-01-07T09:19:10",
+            "title": "ci: add epicgames url to whitelist",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "480fdf21ebe2f9a9f458619734ee0d9e8856f83b"
+        },
+        {
+            "date": "2025-01-07T09:03:14",
+            "title": "rm platform if statements",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e7ac1b342ee2aefb1d9c20734600a71e74f5155a"
+        },
+        {
+            "date": "2025-01-07T08:56:01",
+            "title": "ci: install cairo on ubuntu latest",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "edd8bbeaa733209211d37fd3b119dfe0829f6c7d"
+        },
+        {
+            "date": "2025-01-02T22:38:17",
+            "title": "Update tags_metadata.csv (#8799)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "462de4fbee9e271e3b54a54a0977f3b763344b50"
+        },
+        {
+            "date": "2025-01-02T22:35:54",
+            "title": "Update tags_metadata.csv (#8798)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5c32bcd64d1e115426292441eea6f75bfe7f861b"
+        },
+        {
+            "date": "2024-12-20T14:40:02",
+            "title": "Merge pull request #8768 from google/primary_language-for-church-slavonic",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "057514444ab92c5819ae66fc91d42ad176a37728"
+        },
+        {
+            "date": "2024-12-20T14:17:12",
+            "title": "Added primary_language to all four Church Slavonic fonts",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "57d9d0e359e6699cc485fd6399e3fae0b3af7d4d"
+        },
+        {
+            "date": "2024-12-20T14:12:45",
+            "title": "Merge pull request #8758 from google/gftools_packager_ofl_pochaevsk",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "34daf801a1dacdda4b2d7cfd55444a376612ecdf"
+        },
+        {
+            "date": "2024-12-20T13:40:04",
+            "title": "Merge pull request #8766 from google/m4rc1e-patch-22",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "5773663f100a20fbf521118eae04a9d344f87a07"
+        },
+        {
+            "date": "2024-12-20T13:35:44",
+            "title": "Update families.csv",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3bc48766e6cf125eafd411c81d5759b9dc64a252"
+        },
+        {
+            "date": "2024-12-20T13:31:42",
+            "title": "Merge pull request #8762 from google/m4rc1e-patch-22",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "62a99624d5d05ee419a518fb07d40d105a135a6a"
+        },
+        {
+            "date": "2024-12-20T11:29:41",
+            "title": "families.csv: Add last missing families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "08e41aacbee6961a4f7b457c27b71b67e3abfac1"
+        },
+        {
+            "date": "2024-12-20T11:09:21",
+            "title": "Merge pull request #8760 from google/m4rc1e-patch-22",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a8b8aa8b04b8cde9cab6c847fe844f0dafd3d260"
+        },
+        {
+            "date": "2024-12-20T11:01:22",
+            "title": "Update families.csv",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "8fac60ee2a168d7b443cc337b36476b4dc5fc356"
+        },
+        {
+            "date": "2024-12-19T16:54:36",
+            "title": "Update DESCRIPTION.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "31a533481097372d0c0484657c07f7e9d301c2a3"
+        },
+        {
+            "date": "2024-12-19T16:52:31",
+            "title": "Merge pull request #8725 from google/gftools_packager_ofl_ponomar",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "116b5a7731c989ab9b45fffee834a15acd28b9dc"
+        },
+        {
+            "date": "2024-12-19T12:48:31",
+            "title": "Pochaevsk: Version 1.200; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "family",
+            "id": "d8839307894dab432981660d46188aa5e576f23b"
+        },
+        {
+            "date": "2024-12-19T11:59:06",
+            "title": "Merge pull request #8757 from google/tags-copy",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "0c424c54a55f6b9fad793376496b1c6d8526c089"
+        },
+        {
+            "date": "2024-12-19T11:52:34",
+            "title": "test.yaml: pin ubuntu",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a95d05ac38a5716d38769efdb740b9571bdb0bc8"
+        },
+        {
+            "date": "2024-12-19T09:40:20",
+            "title": "tags: add ability to copy tags from another family",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "8f35ffdf19891c80e725065f475f251c1121b564"
+        },
+        {
+            "date": "2024-12-19T09:17:08",
+            "title": "Merge pull request #8756 from google/m4rc1e-patch-19",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a861d93f93da389182ceb9e3754a9f381fb47901"
+        },
+        {
+            "date": "2024-12-19T09:10:23",
+            "title": "Update families.csv",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "b1cbc9b7f73286f7cb3cadcd2e39cfab27b642f3"
+        },
+        {
+            "date": "2024-12-18T16:28:24",
+            "title": "Ponomar: Version 1.301; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "family",
+            "id": "ff174dbdadcf5cfbd779c1a9e3fdffc890bb46e6"
+        },
+        {
+            "date": "2024-12-18T15:59:17",
+            "title": "Merge pull request #8752 from google/m4rc1e-patch-19",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d48229c9c5a00aed0b99fc6abfdc8a37ab1fe1f2"
+        },
+        {
+            "date": "2024-12-18T14:53:21",
+            "title": "Merge pull request #8726 from google/gftools_packager_ofl_shafarik",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "11e7dcd399ad3e32e08dd72cef314376b16a0f53"
+        },
+        {
+            "date": "2024-12-18T14:12:10",
+            "title": "Update families.csv",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "21035cb97aa26f7a254e3ace44b13a91d2c414d5"
+        },
+        {
+            "date": "2024-12-18T13:45:36",
+            "title": "Merge pull request #8747 from google/m4rc1e-patch-19",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "356f3a3b299bfbf4351595782b6ff08ef64ae51c"
+        },
+        {
+            "date": "2024-12-18T00:30:27",
+            "title": "Update METADATA.pb (#8750)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a40bb1c78f5aa936e05e16c6eefa09ec51593823"
+        },
+        {
+            "date": "2024-12-18T00:29:08",
+            "title": "Update METADATA.pb (#8749)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d9b590eb9ffec0518b25419c55d9e39715a66f37"
+        },
+        {
+            "date": "2024-12-18T00:17:01",
+            "title": "Update families.csv (#8748)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "be37de0bbd90649629f87fbbc56e99fe145a88b8"
+        },
+        {
+            "date": "2024-12-17T13:33:28",
+            "title": "families.csv: Add more missing families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4e1986b6919744afbc3c4e4d22bb5678b296a944"
+        },
+        {
+            "date": "2024-12-16T13:05:30",
+            "title": "Merge pull request #8743 from google/m4rc1e-patch-19",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "7fd29cc660cc8e97e6ee7c16a14982d2fd3340b6"
+        },
+        {
+            "date": "2024-12-16T12:57:58",
+            "title": "Update families.csv: sort",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b7a78d8b958d8c514f196e8b1a822f8532d1cbdd"
+        },
+        {
+            "date": "2024-12-16T12:55:39",
+            "title": "Merge pull request #8742 from google/sc-tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "1705158d857336489ef22490f5039b25e94ae481"
+        },
+        {
+            "date": "2024-12-16T12:51:41",
+            "title": "families.csv: add missing SC families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "af9f8505ae4119b971151ab316443ee42d94a681"
+        },
+        {
+            "date": "2024-12-16T12:46:43",
+            "title": "Merge pull request #8605 from google/m4rc1e-patch-19",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e3d58f03f5ed11146f4992da411177f31d993d5b"
+        },
         {
             "date": "2024-12-13T15:46:06",
             "title": "Merge pull request #8735 from google/gftools_packager_ofl_tagesschrift",
@@ -162,12 +650,36 @@
             "id": "8483c10d63a3e3c8ac81e8649aa1874f8c6d8a7d"
         },
         {
+            "date": "2024-12-11T13:56:06",
+            "title": "Update OFL.txt",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4bd00f729e5102f5b76b79458f9b76df6a0002fb"
+        },
+        {
+            "date": "2024-12-11T13:55:42",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "8629747e3937f4584ee5952146231db312f746aa"
+        },
+        {
             "date": "2024-12-11T13:46:45",
             "title": "Merge pull request #8698 from google/gftools_packager_ofl_triodion",
             "author": "Emma Marichal",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "314ee0f57d5b24f1ce3d38c25318a0d017717c05"
+        },
+        {
+            "date": "2024-12-11T13:20:52",
+            "title": "Shafarik: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "family",
+            "id": "dbecd11ad3d0a0545701a87bd76768989f12606e"
         },
         {
             "date": "2024-12-09T21:43:44",
@@ -334,8 +846,16 @@
             "title": "Added primary_script",
             "author": "Yanone",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "d04c306051774065c59aaee31ba289bd070e85cd"
+        },
+        {
+            "date": "2024-12-06T11:00:24",
+            "title": "Rebuild with babelfont 3.1.2",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "72ecfc335133e7f41dfc6b028332ca77974014a5"
         },
         {
             "date": "2024-12-06T10:59:52",
@@ -2002,6 +2522,14 @@
             "id": "f2b6af0e09d7a07fbd26b361be4802ef1cb520d7"
         },
         {
+            "date": "2024-11-27T19:06:17",
+            "title": "font_tags.yaml: fix typo",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "58a8e6a2573ad0d5efb00b6231ab64b2d660ab19"
+        },
+        {
             "date": "2024-11-27T18:55:21",
             "title": "Merge pull request #8604 from google/PW-BE",
             "author": "Marc Foley",
@@ -2138,6 +2666,14 @@
             "id": "eb9cd8823c54c30ee27d9b05a1e4f28407fb55e6"
         },
         {
+            "date": "2024-11-26T14:39:05",
+            "title": "Rebuild with babelfont 3.1.1",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "06b080045ce42896d51eeced97abb066bb4c9006"
+        },
+        {
             "date": "2024-11-26T14:38:37",
             "title": "Rebuild with babelfont 3.1.1",
             "author": "Simon Cozens",
@@ -2168,6 +2704,14 @@
             "status": "modified",
             "kind": "family",
             "id": "1b9fdaa5c12013757d1c88123807e68ae1a56a74"
+        },
+        {
+            "date": "2024-11-26T09:52:55",
+            "title": "Cormorant Garamond: Version 4.001 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "93473babe2e8a7e67d76c39832ca6a6d97ec6a42"
         },
         {
             "date": "2024-11-25T20:12:55",
@@ -2576,6 +3120,14 @@
             "status": "modified",
             "kind": "family",
             "id": "8b942303112b0342f7ed782890b324b85d6eaf6b"
+        },
+        {
+            "date": "2024-11-20T14:04:40",
+            "title": "Atkinson Hyperlegible Mono: Version 2.001 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "a4ccc36e525ba9a4241ad4f6153ef85ac67756f1"
         },
         {
             "date": "2024-11-20T14:01:55",

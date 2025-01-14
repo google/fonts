@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/scfried/soft-type-yarndings"
-  commit: "200cc40a30ffbe590807cdfc8b8e17d0d63c43ff"
+  commit: "31a5afb1007733ed93b7ade5b1eccc164fc75bca"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

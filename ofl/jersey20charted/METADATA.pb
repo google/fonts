@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/scfried/soft-type-jersey"
-  commit: "f32179dbeffdb64d0401f34bf9e4e38a768f4cfb"
+  commit: "d8446c4c9c2ba14cf408c295be35213c006e19ff"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

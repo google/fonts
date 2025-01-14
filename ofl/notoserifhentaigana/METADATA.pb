@@ -43,8 +43,6 @@ source {
   branch: "main"
 }
 is_noto: true
-primary_script: "Hira"
-primary_language: "ja_Hira"
 sample_text {
   # The text is the traditional Japanese pangram poem "Iroha"
   # https://en.wikipedia.org/wiki/Iroha

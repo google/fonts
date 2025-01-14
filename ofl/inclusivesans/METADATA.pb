@@ -7,7 +7,7 @@ fonts {
   name: "Inclusive Sans"
   style: "normal"
   weight: 400
-  filename: "InclusiveSans-Regular.ttf"
+  filename: "InclusiveSans[wght].ttf"
   post_script_name: "InclusiveSans-Regular"
   full_name: "Inclusive Sans Regular"
   copyright: "Copyright 2024 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)"
@@ -16,7 +16,7 @@ fonts {
   name: "Inclusive Sans"
   style: "italic"
   weight: 400
-  filename: "InclusiveSans-Italic.ttf"
+  filename: "InclusiveSans-Italic[wght].ttf"
   post_script_name: "InclusiveSans-Italic"
   full_name: "Inclusive Sans Italic"
   copyright: "Copyright 2024 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)"
@@ -25,6 +25,11 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 300.0
+  max_value: 700.0
+}
 source {
   repository_url: "https://github.com/LivKing/Inclusive-Sans"
   commit: "54ed9e4da94e7ea566a0322afc60b750c8544eaa"
@@ -33,12 +38,12 @@ source {
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/ttf/InclusiveSans-Regular.ttf"
-    dest_file: "InclusiveSans-Regular.ttf"
+    source_file: "fonts/variable/InclusiveSans[wght].ttf"
+    dest_file: "InclusiveSans[wght].ttf"
   }
   files {
-    source_file: "fonts/ttf/InclusiveSans-Italic.ttf"
-    dest_file: "InclusiveSans-Italic.ttf"
+    source_file: "fonts/variable/InclusiveSans-Italic[wght].ttf"
+    dest_file: "InclusiveSans-Italic[wght].ttf"
   }
   branch: "main"
 }

@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/scfried/soft-type-jersey"
-  commit: "d8446c4c9c2ba14cf408c295be35213c006e19ff"
+  commit: "afc20d521110d3ba6d6614d226896c74d62f8f2f"
   files {
     source_file: "fonts/ttf/Jersey25Charted-Regular.ttf"
     dest_file: "Jersey25Charted-Regular.ttf"

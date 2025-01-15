@@ -20,7 +20,7 @@ axes {
   min_value: 300.0
   max_value: 800.0
 }
-primary_script: "Hang"
+primary_script: "Kore"
 source {
   repository_url: "https://github.com/42dot/42dot-Sans"
   branch: "main"

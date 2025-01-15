@@ -12,10 +12,8 @@ fonts {
   full_name: "Playwrite AU NSW Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-subsets: "latin"
-subsets: "latin-ext"
+# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
 subsets: "menu"
-subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
@@ -37,3 +35,4 @@ source {
 }
 display_name: "Playwrite Australia NSW"
 minisite_url: "https://primarium.info/countries/australia"
+primary_language: "en_Latn"

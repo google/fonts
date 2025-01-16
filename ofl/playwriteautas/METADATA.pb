@@ -12,7 +12,10 @@ fonts {
   full_name: "Playwrite AU TAS Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
@@ -20,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "30b5a7b7466274c296058dd889b097434d5d6eb9"
+  commit: "c92b72cb8ae2e7458b5de4e0f8f08b0861c35afc"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -49,4 +52,3 @@ source {
 }
 display_name: "Playwrite Australia Tasmania"
 minisite_url: "https://primarium.info/countries/australia"
-primary_language: "en_Latn"

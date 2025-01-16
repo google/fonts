@@ -1,5 +1,4 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-<script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -8,7 +7,7 @@
 
 <body>
   <div id="app">
-    <link v-for="family in uniqueFamilies" :href="familyLink(family)" rel="stylesheet">
+    <link v-for="family in uniqueFamilies" :href="family.toUrl()" rel="stylesheet">
 
     <!-- Navbar -->
     <div style="max-height: 3rem" class="navbar bg-base-100 fixed left-0 top-0 shadow">
@@ -34,11 +33,11 @@
           </li>
           <li>
             <details>
-              <summary>{{ CurrentCategory }}</summary>
+              <summary>{{ currentCategory }}</summary>
               <ul class="shadow">
                 <div class="cont" style="max-height: 16rem; overflow: scroll">
                   <li  v-for="category in sortedCategories()">
-                    <a @click="CurrentCategory = category">{{ category }}</a>
+                    <a @click="currentCategory = category">{{ category }}</a>
                   </li>
                 </div>
               </ul>
@@ -110,11 +109,11 @@
       </div>
     </div>
 
-    <div v-if="sortedFamilies.length === 0">
+    <div v-if="sortedTags.length === 0">
       <p>No families found for this tag. Please add some</p>
     </div>
     <div class="mt-20">
-      <div class="item" v-for="family in sortedFamilies" :key="family.Family">
+      <div class="item" v-for="family in sortedTags" :key="family.name">
         <family-item :family="family" :ready="ready" @edited="edited" @remove="removeFamily"></family-item>
       </div>
     </div>
@@ -123,13 +122,72 @@
 </body>
 
 <script>
+  class FontTag {
+    constructor(name, category, fonts = [], score = 0) {
+        this.name = name;
+        this.fonts = fonts;
+        this.category = category;
+        this.score = score;
+    }
+
+    static fromCsv(line) {
+        let [name, category, score] = line.split(",");
+        if (!name.includes(":")) {
+            return new FontTag(name, category, [], parseInt(score));
+        }
+        let [namePart, axes] = name.split(":");
+        let [axisNames, vals] = axes.split("@");
+        let fonts = vals.split(";").map(val => {
+            return Object.fromEntries(axisNames.split("|").map((axis, i) => [axis, val.split("|")[i]]));
+        });
+        return new FontTag(name, category, fonts, parseInt(score));
+    }
+
+    toCsv() {
+        let tag = this.toTag();
+        return `${tag},${this.category},${this.score}`;
+    }
+
+    toTag() {
+        if (!this.fonts.length) {
+            return `${this.name},${this.category},${this.score}`;
+        }
+        let tag = [];
+        tag.push(this.name + ":");
+        let fontAxes = Object.keys(this.fonts[0]).sort();
+        tag.push(fontAxes.join("|") + "@");
+        this.fonts.forEach(font => {
+            tag.push(fontAxes.map(axis => font[axis]).join("|") + ";");
+        });
+        return tag.join("").slice(0, -1); // remove last ";"
+    }
+
+    toUrl() {
+        let baseUrl = "https://fonts.googleapis.com/css2?family=";
+        if (this.fonts.length === 0) {
+            return baseUrl + this.name;
+        }
+        let tag = this.toTag();
+        return baseUrl + tag.replace(/\|/g, ",");
+    }
+
+    toAnimation() {
+        // TODO should be based on the font axes
+        return [
+            { fontVariationSettings: "'wght' 100" },
+            { fontVariationSettings: "'wght' 900" }
+        ]
+    }
+}
+
+
   Vue.component('family-item', {
     props: ['family', 'ready'],
     template: `
       <div class="item p-1">
         <div class="join">
-          <b class="pr-2">{{ family.Family }}</b>
-          <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square"  v-model.lazy="family.Weight" @change="edited" placeholder="family.Weight">
+          <b class="pr-2">{{ family.name }}</b>
+          <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square"  v-model.lazy="family.score" @change="edited" placeholder="family.score">
           <button class="btn btn-xs join-item pr-2" @click="removeFamily">X</button>
           </div>
           <div v-if="ready" :style="familyStyle" contenteditable="true">
@@ -154,7 +212,7 @@
         return this.$root.familyPangram(this.family);
       },
       familyStyle() {
-        return `font-family: "${this.family.Family}", "Adobe NotDef"; font-size: 32pt;`;
+        return `font-family: "${this.family.name}", "Adobe NotDef"; font-size: 32pt;`;
       }
     }
   });
@@ -171,11 +229,11 @@
         newWeight: '',
         fromFamily: "",
         toFamily: "",
-        CurrentCategory: "/Expressive/Calm",
-        Categories: new Set(),
-        Families: [],
-        Seen: new Set(),
-        Pangrams: new Map([
+        currentCategory: "/Expressive/Calm",
+        categories: new Set(),
+        tags: [],
+        seen: new Set(),
+        pangrams: new Map([
           ["English", "The quick brown fox jumps over the lazy dog."],
           ["Greek", "Ζαφείρι δέξου πάγκαλο, βαθῶν ψυχῆς τὸ σῆμα"],
           ["Cyrillic", "В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!"],
@@ -192,7 +250,7 @@
           ["Phags Pa", "ꡗ ꡈꡱ ᠂ ꡒ ꡂ ꡈꡞ ᠂ ꡚꡖꡋ ꡈꡞꡋꡨꡖ ꡗꡛꡧꡖ ꡈꡋ ꡈꡱꡨꡖ ꡳꡬꡖ"],
           ["Tamil", "மனிதக் குடும்பத்தினைச் சேர்ந்த யாவரதும் உள்ளார்ந்த"],
         ]),
-        FamilyScripts: new Map(),
+        familyScripts: new Map(),
         history: [],
       };
     },
@@ -200,7 +258,7 @@
       commit(newCommit) {
         this.updateURL();
       },
-      CurrentCategory(newCategory) {
+      currentCategory(newCategory) {
         this.updateURL();
       },
     },
@@ -212,7 +270,7 @@
       const urlParams = new URLSearchParams(window.location.search);
       const category = urlParams.get('category');
       if (category) {
-        this.CurrentCategory = category;
+        this.currentCategory = category;
       }
       const commit = urlParams.get('commit');
       if (commit) {
@@ -221,19 +279,28 @@
       }
     },
     computed: {
-      sortedFamilies() {
-        let ll = this.Families;
-        let filtered = ll.filter(family => family["Group/Tag"] === this.CurrentCategory);
-        filtered.sort(function(a, b) {return b.Weight - a.Weight;});
+      sortedTags() {
+        let ll = this.tags;
+        let filtered = ll.filter(family => family.category === this.currentCategory);
+        filtered.sort(function(a, b) {return b.score - a.score;});
         return filtered;
       },
       uniqueFamilies() {
-        return Array.from(new Set(this.Families.map((family) => family.Family)));
+        const seen = new Set();
+        let res = [];
+        for (let family of this.tags) {
+          if (seen.has(family.name)) {
+            continue;
+          }
+          seen.add(family.name);
+          res.push(family);
+        }
+        return res;
       }
     },
     methods: {
       sortedCategories() {
-        return Array.from(this.Categories).sort();
+        return Array.from(this.categories).sort();
       },
       updateURL() {
         const url = new URL(window.location);
@@ -242,19 +309,19 @@
         } else {
           url.searchParams.delete('commit');
         }
-        if (this.CurrentCategory) {
-          url.searchParams.set('category', this.CurrentCategory);
+        if (this.currentCategory) {
+          url.searchParams.set('category', this.currentCategory);
         } else {
           url.searchParams.delete('category');
         }
         history.pushState(null, '', url);
       },
       familyPangram(family) {
-        return this.Pangrams.get(this.FamilyScripts.get(family.Family));
+        return this.pangrams.get(this.familyScripts.get(family.name));
       },
       edited(family) {
         this.isEdited = true;
-        this.history.push(`* ${family.Family},${family["Group/Tag"]},${family.Weight}`);
+        this.history.push(`* ${family.name},${family.category},${family.Weight}`);
       },
       parseUnicode(str) {
         let ranges = str.split(",");
@@ -290,111 +357,106 @@
             result.set(font.family, this.parseUnicode(font.unicodeRange));
           }
         });
-        console.log(result.size)
         if (result.size < 1000) {
-          console.log("retry")
           setTimeout(() => this.loadFamilyPangrams(), delay);
         }
-        this.FamilyScripts = result;
+        this.familyScripts = result;
         this.ready = true;
       },
       familyLink(Family) {
         return "https://fonts.googleapis.com/css2?family=" + Family.replace(" ", "+") + "&display=swap"
       },
       familyCSSClass(Family) {
-        let cssName = Family.family.replace(" ", "-").toLowerCase();
+        let cssName = Family.name.replace(" ", "-").toLowerCase();
         return `.${cssName} {
-                font-family: "${Family.family}", sans-serif;
+                font-family: "${Family.name}", sans-serif;
                 font-weight: 400;
                 font-style: normal;
               }`
       },
       familySelector(Family) {
-        let cssName = Family.Family.replace(" ", "-").toLowerCase();
+        let cssName = Family.name.replace(" ", "-").toLowerCase();
         return cssName;
       },
       familyStyle(Family) {
-        return `font-family: "${Family.Family}", "Adobe NotDef"; font-size: 32pt;`
+        return `font-family: "${Family.name}", "Adobe NotDef"; font-size: 32pt;`
       },
       AddTag() {
         this.isEdited = true;
-        this.Categories.add(this.newTag);
+        this.categories.add(this.newTag);
         this.history.push(`+ Tag added "${this.newTag}"`);
-        this.CurrentCategory = this.newTag;
+        this.currentCategory = this.newTag;
       },
       AddFamily() {
         this.isEdited = true;
-        let newFamily = { Weight: this.newWeight, Family: this.newFamily, "Group/Tag": this.CurrentCategory }
-        let tagKey = `${newFamily.Family},${newFamily["Group/Tag"]}`;
-        if (this.Seen.has(tagKey)) {
-          alert(`Tag "${newFamily.Family}" already exists in "${this.CurrentCategory}"`);
+        let newFamily = new FontTag(this.newFamily, this.currentCategory, fonts=[], score=this.newWeight);
+        let tagKey = `${newFamily.name},${newFamily.category}`;
+        if (this.seen.has(tagKey)) {
+          alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);
           return;
         }
-        this.Families.push(newFamily);
-        
-        this.history.push(`+ ${newFamily.Family},${newFamily["Group/Tag"]},${newFamily.Weight}`);
+        this.seen.add(tagKey);
+        this.tags.push(newFamily);
+        this.history.push(`+ ${newFamily.name},${newFamily.category},${newFamily.score}`);
       },
       copyFamily() {
         this.isEdited = true;
-        let fromTags = this.Families.filter(family => family.Family === this.fromFamily);
+        let fromTags = this.tags.filter(family => family.name === this.fromFamily.name);
         if (fromTags.length === 0) {
           alert(`No tags found for Family "${this.toFamily}"`);
           return;
         }
         fromTags.forEach((tag) => {
           let newTag = {Family: this.toFamily, "Group/Tag": tag["Group/Tag"], Weight: tag.Weight};
-          this.Families.push(newTag);
+          this.tags.push(newTag);
           this.history.push(`+ ${newTag.Family},${newTag["Group/Tag"]},${newTag.Weight}`);
         })
       },
       AddPlaceHolderTags() {
         this.isEdited = true;
-        const existingTags = this.sortedFamilies
+        const existingTags = this.sortedTags
         let seen = new Set();
-        existingTags.forEach((family) => seen.add(family.Family));
+        existingTags.forEach((family) => seen.add(family.name));
         const familiesToAdd = this.uniqueFamilies
         familiesToAdd.forEach((family) => {
-          if (!seen.has(family)) {
-            this.Families.push({ Family: family, "Group/Tag": this.CurrentCategory, Weight: "" });
+          if (!seen.has(family.name)) {
+            this.tags.push(new FontTag(family.name, this.currentCategory, fonts=[], score=0));
           }
         });
-        this.history.push(`+ Placeholder tags added for ${this.CurrentCategory}`);
+        this.history.push(`+ Placeholder tags added for ${this.currentCategory}`);
       },
       RemovePlaceHolderTags() {
         this.isEdited = true;
-        this.Families = this.Families.filter((family) => family.Weight !== "");
+        this.tags = this.tags.filter((family) => family.score !== 0);
         this.history.push(`- Placeholder tags removed for all categories`);
       },
       removeFamily(Family) {
         this.isEdited = true;
-        this.Families = this.Families.filter((t) => t !== Family);
-        this.history.push(`- ${Family.Family},${Family["Group/Tag"]},${Family.Weight}`);
+        this.tags = this.tags.filter((t) => t !== Family);
+        this.history.push(`- ${Family.name},${Family.category},${Family.score}`);
       },
       familiesToCSV() {
         this.RemovePlaceHolderTags();
-        this.Families = this.Families.filter((t) => t.Family !== "");
+        this.tags = this.tags.filter((t) => t.name !== "");
         // The sorting function used is case sensitive.
         // This means that "A" will come before "a".
-        this.Families = Array.from(this.Families).sort((a, b) => {
-          if (`${a.Family},${a['Group/Tag']}` < `${b.Family},${b['Group/Tag']}`) {
+        this.tags = Array.from(this.tags).sort((a, b) => {
+          if (`${a.name},${a.category}` < `${b.name},${b.category}`) {
             return -1;
           }
-          if (`${a.Family},${a['Group/Tag']}` > `${b.Family},${b['Group/Tag']}`) {
+          if (`${a.name},${a.category}` > `${b.name},${b.category}`) {
             return 1;
           }
           return 0;
         });
-        // Include a newline at the end to keep Evan's Vim happy.
-        return Papa.unparse(this.Families,
-          {
-            columns: ["Family", "Group/Tag", "Weight"],
-            skipEmptyLines: true,
-            header: false
-          }
-        ) + "\n";
+        let res = "Family,Group/Tag,Weight\r\n"
+        this.tags.forEach((family) => {
+          res += family.toCsv() + "\r\n";
+        });
+        return res
       },
       saveCSV() {
-        let csv = this.familiesToCSV();
+        let csv = this.tagsToCSV();
         const blob = new Blob([csv], { type: 'text/csv' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -406,7 +468,7 @@
         URL.revokeObjectURL(url);
       },
       prCSV() {
-        let csv = this.familiesToCSV();
+        let csv = this.tagsToCSV();
         alert("Tag data copied to clipboard. A github pull request page will open in a new tab. Please remove the old data and paste in the new.");
         navigator.clipboard.writeText(csv);
         window.open("https://github.com/google/fonts/edit/main/tags/all/families.csv")
@@ -428,36 +490,20 @@
             return response.text()
           })
           .then(csvText => {
-            csvText = "Family,Group/Tag,Weight\r\n" + csvText;
-            Papa.parse(csvText, {
-              header: true,
-              complete: (results) => {
-                this.Categories = new Set(results.data.map((row) => row["Group/Tag"]));
-                results.data.map((row) => {
-                  this.Seen.add(`${row.Family},${row["Group/Tag"]}`);
-                  this.Families.push(
-                    {
-                      Family: row.Family,
-                      "Group/Tag": row["Group/Tag"],
-                      Weight: parseInt(row.Weight, 10)
-                    }
-                  )
-                });
-                this.Families = results.data.map((row) => ({
-                  Weight: row.Weight,
-                  Family: row.Family,
-                  "Group/Tag": row["Group/Tag"]
-                })
-              );
+            const lines = csvText.split("\r\n")
+            lines.forEach((line) => {
+              if (line === "") {
+                return;
               }
+              let family = FontTag.fromCsv(line);
+              this.categories.add(family.category);
+              this.tags.push(family);
             });
-          })
-          .catch(error => {
-            console.error('Error loading CSV file:', error);
-          });
-        }
+            csvText = "Family,Group/Tag,Weight\r\n" + csvText;
+        })
       }
-    } // methods
+    }
+  } // methods
   )
   // close open navbar dropdowns when user clicks elsewhere
   var details = [...document.querySelectorAll('details')];

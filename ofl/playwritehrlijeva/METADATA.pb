@@ -12,10 +12,8 @@ fonts {
   full_name: "Playwrite HR Lijeva Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-subsets: "latin"
-subsets: "latin-ext"
+# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
 subsets: "menu"
-subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
@@ -23,7 +21,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "c92b72cb8ae2e7458b5de4e0f8f08b0861c35afc"
   archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {
     source_file: "OFL.txt"
@@ -37,3 +34,4 @@ source {
 }
 display_name: "Playwrite Hrvatska Lijeva"
 minisite_url: "https://primarium.info/countries/croatia"
+primary_language: "hr_Latn"

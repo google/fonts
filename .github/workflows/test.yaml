@@ -61,9 +61,9 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: qa
+          name: qa-${{ matrix.os }}
           path: out/
 
   diffenator:
@@ -111,10 +111,20 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: qa
+          name: qa-diffenator
           path: out/
+
+  consolidate:
+    needs: [diffbrowsers, diffenator]
+    name: Consolidate results into a single zip
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/upload-artifact/merge@v4
+        with:
+          pattern: qa-*
+          name: qa
 
   ftxvalidator:
     name: Run ftxvalidator on new/changed fonts

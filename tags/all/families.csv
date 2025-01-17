@@ -61,7 +61,7 @@ Afacad,/Sans/Geometric,100
 Agbalumo,/Expressive/Cute,53
 Agbalumo,/Seasonal/Hanukkah,86
 Agbalumo,/Seasonal/Kwanzaa,92
-Agbalumo,/Seasonal/Valentine's Day,93
+Agbalumo,/Seasonal/Valentine's Day,65
 Agbalumo,/Theme/Brush,80
 Agdasima,/Expressive/Business,27
 Agdasima,/Expressive/Calm,93.4
@@ -429,6 +429,7 @@ Arizonia,/Expressive/Fancy,47
 Arizonia,/Expressive/Sophisticated,77
 Arizonia,/Expressive/Vintage,68.7
 Arizonia,/Script/Informal,50
+Arizonia,/Seasonal/Valentine's Day,86
 Armata,/Expressive/Calm,92.7
 Armata,/Expressive/Futuristic,47
 Armata,/Expressive/Stiff,58
@@ -637,7 +638,7 @@ Ballet,/Expressive/Sophisticated,100
 Ballet,/Expressive/Vintage,99
 Ballet,/Script/Formal,100
 Ballet,/Seasonal/Christmas,96
-Ballet,/Seasonal/Valentine's Day,97
+Ballet,/Seasonal/Valentine's Day,94
 Baloo 2,/Expressive/Calm,79.4
 Baloo 2,/Sans/Rounded,100
 Baloo Bhai 2,/Expressive/Calm,79.4
@@ -877,7 +878,6 @@ Bilbo,/Script/Handwritten,100
 BioRhyme Expanded,/Expressive/Playful,51
 BioRhyme Expanded,/Expressive/Sincere,32
 BioRhyme Expanded,/Expressive/Vintage,46.5
-BioRhyme Expanded,/Seasonal/Valentine's Day,67
 BioRhyme Expanded,/Slab/Geometric,20
 BioRhyme Expanded,/Slab/Humanist,80
 BioRhyme,/Expressive/Sincere,55
@@ -890,7 +890,7 @@ Birthstone Bounce,/Expressive/Excited,60
 Birthstone Bounce,/Expressive/Vintage,58.9
 Birthstone Bounce,/Script/Formal,30
 Birthstone Bounce,/Script/Handwritten,70
-Birthstone Bounce,/Seasonal/Valentine's Day,83
+Birthstone Bounce,/Seasonal/Valentine's Day,81
 Birthstone,/Expressive/Artistic,79
 Birthstone,/Expressive/Cute,42
 Birthstone,/Expressive/Fancy,95
@@ -981,7 +981,7 @@ Bonbon,/Script/Handwritten,100
 Bonbon,/Script/Informal,80
 Bonbon,/Seasonal/Christmas,72
 Bonbon,/Seasonal/Diwali,75
-Bonbon,/Seasonal/Valentine's Day,75
+Bonbon,/Seasonal/Valentine's Day,60
 Bonbon,/Theme/Wacky,80
 Bonheur Royale,/Expressive/Artistic,98
 Bonheur Royale,/Expressive/Fancy,94
@@ -1646,7 +1646,7 @@ Courgette,/Expressive/Sincere,92
 Courgette,/Script/Handwritten,10
 Courgette,/Script/Informal,80
 Courgette,/Seasonal/Hanukkah,98
-Courgette,/Seasonal/Valentine's Day,86
+Courgette,/Seasonal/Valentine's Day,85
 Courier Prime,/Expressive/Competent,99.8
 Courier Prime,/Expressive/Sincere,76
 Courier Prime,/Expressive/Vintage,84
@@ -1783,7 +1783,7 @@ Dancing Script,/Expressive/Sincere,93
 Dancing Script,/Expressive/Sophisticated,62
 Dancing Script,/Expressive/Vintage,84.5
 Dancing Script,/Seasonal/Lunar New Year,82
-Dancing Script,/Seasonal/Valentine's Day,99
+Dancing Script,/Seasonal/Valentine's Day,96
 Danfo,/Expressive/Loud,97
 Danfo,/Theme/Tuscan,100
 Danfo,/Theme/Wacky,100
@@ -1967,7 +1967,7 @@ DynaPuff,/Expressive/Playful,98
 DynaPuff,/Sans/Glyphic,100
 DynaPuff,/Sans/Rounded,100
 DynaPuff,/Seasonal/Christmas,63
-DynaPuff,/Seasonal/Valentine's Day,95
+DynaPuff,/Seasonal/Valentine's Day,68
 DynaPuff,/Theme/Blobby,100
 DynaPuff,/Theme/Wacky,50
 Dynalight,/Expressive/Artistic,99
@@ -2123,7 +2123,7 @@ Emilys Candy,/Expressive/Excited,38
 Emilys Candy,/Expressive/Loud,73
 Emilys Candy,/Expressive/Playful,20
 Emilys Candy,/Seasonal/Halloween,100
-Emilys Candy,/Seasonal/Valentine's Day,79
+Emilys Candy,/Seasonal/Valentine's Day,91
 Emilys Candy,/Serif/Modern,80
 Emilys Candy,/Theme/Wacky,80
 Encode Sans Condensed,/Expressive/Business,93.2
@@ -2177,6 +2177,7 @@ Ephesis,/Expressive/Fancy,92
 Ephesis,/Expressive/Sincere,92
 Ephesis,/Expressive/Vintage,54.7
 Ephesis,/Script/Formal,100
+Ephesis,/Seasonal/Valentine's Day,8
 Epilogue,/Expressive/Calm,79
 Epilogue,/Expressive/Competent,13
 Epilogue,/Expressive/Stiff,71
@@ -2202,7 +2203,7 @@ Euphoria Script,/Expressive/Sincere,94
 Euphoria Script,/Expressive/Vintage,43.9
 Euphoria Script,/Script/Formal,20
 Euphoria Script,/Script/Informal,60
-Euphoria Script,/Seasonal/Valentine's Day,80
+Euphoria Script,/Seasonal/Valentine's Day,82
 Ewert,/Expressive/Vintage,93.5
 Ewert,/Seasonal/Christmas,88
 Ewert,/Theme/Shaded,100
@@ -2354,7 +2355,7 @@ Fleur De Leah,/Expressive/Sophisticated,98
 Fleur De Leah,/Expressive/Vintage,66.4
 Fleur De Leah,/Script/Formal,60
 Fleur De Leah,/Script/Informal,40
-Fleur De Leah,/Seasonal/Valentine's Day,89
+Fleur De Leah,/Seasonal/Valentine's Day,88
 Flow Block,/Not text/Symbols,100
 Flow Circular,/Not text/Symbols,100
 Flow Rounded,/Not text/Symbols,100
@@ -2771,7 +2772,7 @@ Great Vibes,/Seasonal/Christmas,93
 Great Vibes,/Seasonal/Diwali,90
 Great Vibes,/Seasonal/Hanukkah,80
 Great Vibes,/Seasonal/Lunar New Year,90
-Great Vibes,/Seasonal/Valentine's Day,98
+Great Vibes,/Seasonal/Valentine's Day,97
 Grechen Fuemen,/Expressive/Active,77
 Grechen Fuemen,/Expressive/Artistic,20
 Grechen Fuemen,/Expressive/Awkward,56
@@ -2794,7 +2795,7 @@ Grey Qo,/Expressive/Excited,26
 Grey Qo,/Expressive/Fancy,68
 Grey Qo,/Expressive/Vintage,63.4
 Grey Qo,/Script/Formal,80
-Grey Qo,/Seasonal/Valentine's Day,92
+Grey Qo,/Seasonal/Valentine's Day,90
 Griffy,/Expressive/Cute,99
 Griffy,/Expressive/Loud,73
 Griffy,/Expressive/Rugged,73
@@ -2833,7 +2834,7 @@ Gwendolyn,/Expressive/Sincere,94
 Gwendolyn,/Expressive/Sophisticated,77
 Gwendolyn,/Expressive/Vintage,67.8
 Gwendolyn,/Script/Formal,80
-Gwendolyn,/Seasonal/Valentine's Day,85
+Gwendolyn,/Seasonal/Valentine's Day,84
 Habibi,/Expressive/Business,48
 Habibi,/Expressive/Sincere,80
 Habibi,/Expressive/Vintage,77.3
@@ -3095,7 +3096,7 @@ Imperial Script,/Expressive/Sophisticated,78
 Imperial Script,/Expressive/Vintage,73
 Imperial Script,/Script/Formal,100
 Imperial Script,/Seasonal/Diwali,90
-Imperial Script,/Seasonal/Valentine's Day,91
+Imperial Script,/Seasonal/Valentine's Day,89
 Imprima,/Expressive/Calm,79
 Imprima,/Sans/Humanist,100
 Inclusive Sans,/Expressive/Business,94.4
@@ -3293,7 +3294,7 @@ Julius Sans One,/Expressive/Artistic,10
 Julius Sans One,/Expressive/Stiff,58
 Julius Sans One,/Expressive/Vintage,81
 Julius Sans One,/Sans/Glyphic,100
-Julius Sans One,/Seasonal/Valentine's Day,84
+Julius Sans One,/Seasonal/Valentine's Day,80
 Junge,/Expressive/Sincere,74
 Junge,/Expressive/Vintage,58.3
 Junge,/Serif/Humanist Venetian,30
@@ -3378,7 +3379,6 @@ Kalnia Glaze,/Seasonal/Diwali,98
 Kalnia Glaze,/Seasonal/Valentine's Day,88
 Kalnia Glaze,/Theme/Inline,100
 Kalnia,/Expressive/Cute,14
-Kalnia,/Seasonal/Valentine's Day,88
 Kalnia,/Serif/Didone,55
 Kameron,/Expressive/Business,46
 Kameron,/Expressive/Sincere,89
@@ -3684,7 +3684,7 @@ League Script,/Expressive/Vintage,69.4
 League Script,/Script/Formal,40
 League Script,/Script/Handwritten,40
 League Script,/Script/Informal,40
-League Script,/Seasonal/Valentine's Day,74
+League Script,/Seasonal/Valentine's Day,75
 League Spartan,/Expressive/Business,62
 League Spartan,/Expressive/Calm,94.5
 League Spartan,/Sans/Geometric,100
@@ -3771,7 +3771,7 @@ Life Savers,/Expressive/Playful,14
 Life Savers,/Expressive/Sincere,50.1
 Life Savers,/Expressive/Vintage,37.6
 Life Savers,/Seasonal/Christmas,54
-Life Savers,/Seasonal/Valentine's Day,81
+Life Savers,/Seasonal/Valentine's Day,80
 Life Savers,/Theme/Wacky,50
 Lilita One,/Expressive/Competent,54
 Lilita One,/Expressive/Happy,5
@@ -3901,6 +3901,7 @@ Love Light,/Expressive/Playful,55
 Love Light,/Expressive/Sophisticated,15
 Love Light,/Expressive/Vintage,61.2
 Love Light,/Script/Formal,60
+Love Light,/Seasonal/Valentine's Day,85
 Love Ya Like A Sister,/Expressive/Awkward,87
 Love Ya Like A Sister,/Expressive/Childlike,46
 Love Ya Like A Sister,/Expressive/Excited,34
@@ -4168,7 +4169,7 @@ Mea Culpa,/Expressive/Fancy,100
 Mea Culpa,/Expressive/Sophisticated,89
 Mea Culpa,/Expressive/Vintage,92
 Mea Culpa,/Script/Formal,100
-Mea Culpa,/Seasonal/Valentine's Day,96
+Mea Culpa,/Seasonal/Valentine's Day,95
 Meddon,/Expressive/Artistic,97
 Meddon,/Expressive/Fancy,73
 Meddon,/Expressive/Sincere,97
@@ -4424,7 +4425,7 @@ MonteCarlo,/Expressive/Sophisticated,97
 MonteCarlo,/Expressive/Vintage,45.4
 MonteCarlo,/Script/Formal,100
 MonteCarlo,/Seasonal/Diwali,90
-MonteCarlo,/Seasonal/Valentine's Day,82
+MonteCarlo,/Seasonal/Valentine's Day,83
 Montez,/Expressive/Cute,32
 Montez,/Expressive/Excited,34
 Montez,/Expressive/Fancy,33
@@ -5218,7 +5219,7 @@ Oi,/Expressive/Innovative,98
 Oi,/Expressive/Loud,100
 Oi,/Expressive/Playful,99.9
 Oi,/Expressive/Sincere,10.1
-Oi,/Seasonal/Valentine's Day,90
+Oi,/Seasonal/Valentine's Day,70
 Oi,/Slab/Clarendon,80
 Oi,/Theme/Wacky,80
 Ojuju,/Expressive/Awkward,60
@@ -5261,6 +5262,7 @@ Oooh Baby,/Expressive/Sincere,94
 Oooh Baby,/Expressive/Vintage,33.4
 Oooh Baby,/Script/Handwritten,100
 Oooh Baby,/Script/Informal,100
+Oooh Baby,/Seasonal/Valentine's Day,85
 Open Sans,/Expressive/Business,98.5
 Open Sans,/Expressive/Calm,87.9
 Open Sans,/Sans/Humanist,80
@@ -5401,6 +5403,7 @@ Padauk,/Sans/Geometric,20
 Padauk,/Sans/Grotesque,90
 Padyakke Expanded One,/Expressive/Happy,24
 Padyakke Expanded One,/Expressive/Stiff,20
+Padyakke Expanded One,/Seasonal/Valentine's Day,67
 Padyakke Expanded One,/Serif/Humanist Venetian,30
 Padyakke Expanded One,/Serif/Transitional,50
 Padyakke Expanded One,/Slab/Humanist,60
@@ -7056,7 +7059,7 @@ Snowburst One,/Expressive/Cute,67
 Snowburst One,/Expressive/Happy,69
 Snowburst One,/Seasonal/Diwali,75
 Snowburst One,/Seasonal/Hanukkah,93
-Snowburst One,/Seasonal/Valentine's Day,78
+Snowburst One,/Seasonal/Valentine's Day,79
 Snowburst One,/Theme/Wacky,20
 Sofadi One,/Expressive/Childlike,26
 Sofadi One,/Expressive/Cute,26
@@ -7425,7 +7428,7 @@ Tangerine,/Expressive/Fancy,97
 Tangerine,/Expressive/Loud,22
 Tangerine,/Script/Formal,100
 Tangerine,/Seasonal/Diwali,90
-Tangerine,/Seasonal/Valentine's Day,94
+Tangerine,/Seasonal/Valentine's Day,92
 Tapestry,/Expressive/Active,21
 Tapestry,/Expressive/Innovative,61
 Tapestry,/Theme/Inline,20

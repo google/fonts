@@ -19,8 +19,8 @@ subsets: "sinhala"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/mooniak/maname-font"
-  commit: "45ff5d76e1cd1beab81bcfdb00ef1d6bf25659d1"
-  archive_url: "https://github.com/mooniak/maname-font/releases/download/v1.000/maname-font-v1.000.zip"
+  commit: "626ceee1311626c5240a68b0ef27722f44c374af"
+  archive_url: "https://github.com/mooniak/maname-font/releases/download/v1.002/maname-font-v1.002.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

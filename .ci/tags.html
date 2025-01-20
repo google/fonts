@@ -4,7 +4,6 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
-
 <body>
   <div id="app">
     <link v-for="family in uniqueFamilies" :href="family.toUrl()" rel="stylesheet">
@@ -55,7 +54,7 @@
     </div>    
 
     <!-- Add font panel -->
-    <div id="panel" class="fixed top-20 right-0 bg-base-100 p-5 shadow">
+    <div id="panel" class="fixed top-20 right-0 bg-base-100 p-5 shadow w-80">
       <div class="panel-tile">
         <form @submit.prevent="AddTag">
           <div class="label label-xs">
@@ -67,19 +66,19 @@
           </div>
         </form> 
         <div class="divider"></div>
-        <form @submit.prevent="AddFamily">
           <div class="label lavel-xs">
             <span class="label-text label-xs">Add Family</span>
           </div>
           <div class="join">
             <input class="join-item input input-xs input-bordered w-full max-w-xs" list="items" v-model="newFamily" required placeholder="Family Name">
             <datalist id="items">
-              <option v-for="family in uniqueFamilies" :value="family">
+              <option v-for="family in uniqueFamilies" :value="family.name">
             </datalist>
             <input type="number" max="100" min="0" class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
-            <button class="join-item btn btn-xs">Add</button>
+            <button @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
+            <button @click="AddFamily" class="join-item btn btn-xs">Add</button>
           </div>
-        </form>
+          <div id="add-axis-panel"></div>
         <div class="divider"></div>
         <form @submit.prevent="copyFamily">
           <div class="label lavel-xs">
@@ -299,6 +298,31 @@
       }
     },
     methods: {
+      addAxis() {
+        let panel = document.getElementById("add-axis-panel");
+        let axisName = document.createElement("input");
+        axisName.placeholder = "Axis Tag";
+        axisName.classList = "input input-xs input-bordered w-full max-w-xs mb-2";
+
+        let minVal = document.createElement("input");
+        minVal.placeholder = "Min";
+        minVal.type = "number";
+        minVal.classList = "input input-xs input-bordered w-full max-w-xs mb-2";
+
+        let maxVal = document.createElement("input");
+        maxVal.placeholder = "Max";
+        maxVal.type = "number";
+        maxVal.classList = "input input-xs input-bordered w-full max-w-xs mb-2";
+
+        let divv = document.createElement("div");
+        divv.classList = "axis";
+        divv.style = "padding-top: 10px;";
+        divv.appendChild(axisName);
+        divv.appendChild(minVal);
+        divv.appendChild(maxVal);
+
+        panel.appendChild(divv);
+      },
       sortedCategories() {
         return Array.from(this.categories).sort();
       },
@@ -398,6 +422,11 @@
         this.seen.add(tagKey);
         this.tags.push(newFamily);
         this.history.push(`+ ${newFamily.name},${newFamily.category},${newFamily.score}`);
+        // Remove all axis inputs for the next family
+        let axisPanel = document.getElementById("add-axis-panel")
+        while (axisPanel.firstChild) {
+          axisPanel.removeChild(axisPanel.lastChild);
+        }
       },
       copyFamily() {
         this.isEdited = true;
@@ -523,3 +552,4 @@
       src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
   }
 </style>
+  

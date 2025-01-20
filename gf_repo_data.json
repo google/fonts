@@ -1,6 +1,910 @@
 {
-    "last_run": "2025-01-13",
+    "last_run": "2025-01-20",
     "commits": [
+        {
+            "date": "2025-01-17T23:36:36",
+            "title": "Update tags_metadata.csv (#8978)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "de89dd9b2f4b4608a9d9f61c84d589eceb37f3da"
+        },
+        {
+            "date": "2025-01-17T21:37:23",
+            "title": "Update to_sandbox.txt (#8975)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "add041969cd7bd0882e849585c0318b4891f2579"
+        },
+        {
+            "date": "2025-01-17T19:46:42",
+            "title": "Update families.csv with updated Valentine's tag data (#8974)",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "be13ebeab71573ede35a09d4a6a94199660b4e4a"
+        },
+        {
+            "date": "2025-01-17T15:25:52",
+            "title": "Merge pull request #8933 from google/to_lists_160125",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e4c33620713f183e7aa7753ca87a6fbddb593e2f"
+        },
+        {
+            "date": "2025-01-17T14:05:14",
+            "title": "Merge pull request #8970 from google/ci-upload",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "70b5594d75fa33a1b7195c8e20f82269744fc4d1"
+        },
+        {
+            "date": "2025-01-17T13:17:25",
+            "title": "test.yaml: bump upload artifact",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1bcd4f248248c3a584ef3aa3d84cab66c5d3bc60"
+        },
+        {
+            "date": "2025-01-16T15:18:29",
+            "title": "Merge pull request #8826 from google/gftools_packager_ofl_playwritear",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "2cb2f66207b904608e0e85870d8f18f2a65f69f3"
+        },
+        {
+            "date": "2025-01-16T15:18:13",
+            "title": "Merge pull request #8929 from google/gftools_packager_ofl_playwritebr",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "1ade3c3434c0a4d15030fac37fbd7185a9a4b42d"
+        },
+        {
+            "date": "2025-01-16T15:04:07",
+            "title": "Update to_production.txt",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f85b6aeefbe3c797a6111df43a845fde326af181"
+        },
+        {
+            "date": "2025-01-16T14:36:30",
+            "title": "lists of the 16th of January 25",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7958ddc446d36700d3f5012362e6bd2afdcf260e"
+        },
+        {
+            "date": "2025-01-16T13:30:14",
+            "title": "Merge pull request #8930 from google/gftools_packager_ofl_playwriteca",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "6e1a7734acca703bcb08c64f41ffd30b8592049a"
+        },
+        {
+            "date": "2025-01-16T13:19:23",
+            "title": "Merge pull request #8928 from google/gftools_packager_ofl_playwriteauvic",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "11bd3ae846ef4c8613154b8340136571f3c704bc"
+        },
+        {
+            "date": "2025-01-16T13:10:26",
+            "title": "Merge pull request #8926 from google/gftools_packager_ofl_playwriteautas",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "a2fdcfe6c39f7e47ca5c62065770f085df8917e0"
+        },
+        {
+            "date": "2025-01-16T12:57:51",
+            "title": "Merge pull request #8924 from google/gftools_packager_ofl_playwriteausa",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "e179c070a6d8313deacf7bff5a65e9e927c39214"
+        },
+        {
+            "date": "2025-01-16T12:55:13",
+            "title": "Merge pull request #8923 from google/gftools_packager_ofl_playwriteauqld",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "4f50812a25081edf62d08d1fe83031f0b5259449"
+        },
+        {
+            "date": "2025-01-16T12:41:43",
+            "title": "Merge pull request #7573 from google/gftools_packager_ofl_buenard",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "71677bdbf504258b4ed8a1ff57c7b987a4c89abd"
+        },
+        {
+            "date": "2025-01-16T11:48:34",
+            "title": "Cedilla, brackets, lcaron",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "851184c61a74b0f0cd38dbb18256f55cd6231828"
+        },
+        {
+            "date": "2025-01-16T11:29:11",
+            "title": "Merge pull request #8918 from google/42dots_metadatas",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dae68365c9c2cc16ae1317099c1309803665d0b1"
+        },
+        {
+            "date": "2025-01-16T11:02:44",
+            "title": "Merge pull request #8921 from google/gftools_packager_ofl_playwriteat",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "f32fb63ce146c236e9170eba47630955290f67a0"
+        },
+        {
+            "date": "2025-01-16T11:01:53",
+            "title": "Merge pull request #8922 from google/gftools_packager_ofl_playwriteaunsw",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "5d3c279014ba2ab9995d6a2a0315e21a00999340"
+        },
+        {
+            "date": "2025-01-16T01:22:17",
+            "title": "Update families.csv (#8931)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "family",
+            "id": "6ce60aad6146baee4665a0dab82a46413532b2e9"
+        },
+        {
+            "date": "2025-01-16T01:09:11",
+            "title": "PW CA Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "63c57427e732dff27c00457ecd8d6593b346d2ed"
+        },
+        {
+            "date": "2025-01-16T01:08:25",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e33afb0cbd9b667c9dc4e825bfcedb480f00cf6a"
+        },
+        {
+            "date": "2025-01-16T01:07:19",
+            "title": "Playwrite CA: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "02992bbab5dacc61ca96f15577100c1c59c11599"
+        },
+        {
+            "date": "2025-01-16T01:03:11",
+            "title": "PW BR Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "38a455c52b89cf6294900f810885d4ca14bc7164"
+        },
+        {
+            "date": "2025-01-16T01:01:58",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e9e54f06c79a976954f2205b6b44efadc8778b36"
+        },
+        {
+            "date": "2025-01-16T00:59:05",
+            "title": "Playwrite BR: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "57cd65f36a25277dd256b6d3680391c13fc4e24e"
+        },
+        {
+            "date": "2025-01-16T00:54:33",
+            "title": "PW AU VIC Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3f554b264505323be3f6fc1f285b990b8b5ebd18"
+        },
+        {
+            "date": "2025-01-16T00:51:54",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fdac8b9348459dc7033ef2b2af30e1ad425cce98"
+        },
+        {
+            "date": "2025-01-16T00:50:06",
+            "title": "Playwrite AU VIC: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "45e65382e0ff0dfacdbaa58141d8b18cb8a450b2"
+        },
+        {
+            "date": "2025-01-16T00:38:17",
+            "title": "PW AU TAS Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "93b3d34f7c43d9872e19580be1f53b40aa8d5ec9"
+        },
+        {
+            "date": "2025-01-16T00:36:32",
+            "title": "subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "61a73d1fc687eaecbeb95d40d208d803c3a620f6"
+        },
+        {
+            "date": "2025-01-16T00:33:56",
+            "title": "Playwrite AU TAS: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "e52713b2c1b859eaa297187d31493d4ffee5a7b0"
+        },
+        {
+            "date": "2025-01-16T00:14:53",
+            "title": "PW AU SA Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6c244c981be4f01b56f2985adcca97964269b9e2"
+        },
+        {
+            "date": "2025-01-16T00:13:11",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a53d07d7abcea0d8c75e48a03d0173751612bed4"
+        },
+        {
+            "date": "2025-01-16T00:11:09",
+            "title": "Playwrite AU SA: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "e38dd9f8df39cc3988c2e1067d0d5b6f6c235ffe"
+        },
+        {
+            "date": "2025-01-16T00:03:54",
+            "title": "PW AU QLD Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9f8e830cd883f62bca2c9f688e10218e7469f7a8"
+        },
+        {
+            "date": "2025-01-16T00:00:45",
+            "title": "subset fis with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4e52ce58d1e131f6d1c4f71c7f86e68a922932f8"
+        },
+        {
+            "date": "2025-01-15T23:55:38",
+            "title": "Playwrite AU QLD: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "12d655282dd35af9eba916f9ecb08696de2e54bf"
+        },
+        {
+            "date": "2025-01-15T23:43:55",
+            "title": "broken link to sandbox fixed",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c2cf5c183ac2218ec99b2fef27968a921a97de88"
+        },
+        {
+            "date": "2025-01-15T23:41:38",
+            "title": "PW AU NSW Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a36a8f4e7f6301022e93d48ca17bc79e07039f17"
+        },
+        {
+            "date": "2025-01-15T23:39:31",
+            "title": "subsets fix with note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7182ee88b8d1771f701fdee1c8bc9db5f330b1cb"
+        },
+        {
+            "date": "2025-01-15T23:36:53",
+            "title": "Playwrite AU NSW: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "6899e9c2a40510ee412d8691c684b88b53b7d441"
+        },
+        {
+            "date": "2025-01-15T23:32:08",
+            "title": "PW AT Article ref to AT Guides",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bb53aeb54d9d68651f725e77c9dea3b8ba7c20cd"
+        },
+        {
+            "date": "2025-01-15T23:29:50",
+            "title": "subsets fix with note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "613480e947c5591a8b2764ec90092c91fcec3bc1"
+        },
+        {
+            "date": "2025-01-15T23:25:59",
+            "title": "Playwrite AT: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "42e15fd185c1113328d603400496fa7f7c529f54"
+        },
+        {
+            "date": "2025-01-15T17:13:46",
+            "title": "Rebuild",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "bd543d59603d048e12d4c190482a709ccd9bc21d"
+        },
+        {
+            "date": "2025-01-15T17:03:21",
+            "title": "OFL/description fixes",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "7eaa34f22ea57d1fc2c19844fba91c38f75c1c75"
+        },
+        {
+            "date": "2025-01-15T12:40:05",
+            "title": "Update primary_script to \"kore\"",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cbf99a278b407ccc43a120de05f5d91dbd4c5c09"
+        },
+        {
+            "date": "2025-01-15T10:14:43",
+            "title": "Merge pull request #8917 from google/revert-8901-gftools_packager_ofl_jersey25charted",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "0fd3507089c8d8f740f62fb8a05ac2a56bf079c0"
+        },
+        {
+            "date": "2025-01-15T10:01:50",
+            "title": "Revert \"Jersey 25 Charted: Version 1.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "cba254412c0da1bb1176ef1c1de256e094b6a7f2"
+        },
+        {
+            "date": "2025-01-14T17:48:04",
+            "title": "tags: add valentine's day (#8810)",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c7f02063883879c6efa31e64f8c87a6dcd9a1036"
+        },
+        {
+            "date": "2025-01-14T15:20:27",
+            "title": "Merge pull request #8909 from google/hentaigana-remove-primary-script",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "7860c0f0424255b26cf85bf06f1725c4c3d22fdd"
+        },
+        {
+            "date": "2025-01-14T15:09:17",
+            "title": "Remove primary script and language as we have custom sample text",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e9bf480edb6500877bb2a5c6305382c400b927e1"
+        },
+        {
+            "date": "2025-01-14T14:20:29",
+            "title": "Merge pull request #8888 from google/gftools_packager_ofl_jacquard12",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "c62620c17208737e970aa6f8c2b8b26c49b8ca9d"
+        },
+        {
+            "date": "2025-01-14T14:20:16",
+            "title": "Merge pull request #8889 from google/gftools_packager_ofl_jacquard12charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "69f9947baf4ce26412d8af07043cd6424ad2e5f3"
+        },
+        {
+            "date": "2025-01-14T14:18:37",
+            "title": "Merge pull request #8890 from google/gftools_packager_ofl_jacquard24",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "83e57504263a98ad38b86954ea1260751315f1ad"
+        },
+        {
+            "date": "2025-01-14T14:15:05",
+            "title": "Merge pull request #8891 from google/gftools_packager_ofl_jacquard24charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "1a2672184052a67ac006d88eba78716ba211a639"
+        },
+        {
+            "date": "2025-01-14T14:13:06",
+            "title": "Merge pull request #8892 from google/gftools_packager_ofl_jacquardabastarda9",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "f7684348eb0b550b0394c99a96fa7ded72e4456b"
+        },
+        {
+            "date": "2025-01-14T14:12:28",
+            "title": "Merge pull request #8893 from google/gftools_packager_ofl_jacquardabastarda9charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "cfc911f819f6f9f0a5c1128a680e9c56adcca79b"
+        },
+        {
+            "date": "2025-01-14T14:12:09",
+            "title": "Merge pull request #8894 from google/gftools_packager_ofl_jersey10",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "f1430b8491ddf3933405c80614f9e7cdfe50d5eb"
+        },
+        {
+            "date": "2025-01-14T14:11:32",
+            "title": "Merge pull request #8895 from google/gftools_packager_ofl_jersey15",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "670df1b20e3dc88998b7f4e4c22567a3aeb8aa43"
+        },
+        {
+            "date": "2025-01-14T14:11:17",
+            "title": "Merge pull request #8896 from google/gftools_packager_ofl_jersey20",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "94445887779fc8c005c80073f8fe37c3cf33d3ff"
+        },
+        {
+            "date": "2025-01-14T14:10:46",
+            "title": "Merge pull request #8897 from google/gftools_packager_ofl_jersey25",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "1f0dd824796eb2eaea2051a3f9bbf5e03cebd09a"
+        },
+        {
+            "date": "2025-01-14T14:08:56",
+            "title": "Merge pull request #8898 from google/gftools_packager_ofl_jersey10charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "733343b75f990f72d7c53b7cb4a73b5ed25c7e5b"
+        },
+        {
+            "date": "2025-01-14T14:08:44",
+            "title": "Merge pull request #8899 from google/gftools_packager_ofl_jersey15charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "0c181f15bc8807151ff6994eaaa1b0e3fcad1e4d"
+        },
+        {
+            "date": "2025-01-14T14:08:10",
+            "title": "Merge pull request #8900 from google/gftools_packager_ofl_jersey20charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "0c978bcc686748d7ae16656590e9ca869e5b1fc7"
+        },
+        {
+            "date": "2025-01-14T14:06:30",
+            "title": "Merge pull request #8901 from google/gftools_packager_ofl_jersey25charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "b1d40dc7f15b42f5ddee2569bc2717725ee12abb"
+        },
+        {
+            "date": "2025-01-14T14:05:53",
+            "title": "Merge pull request #8902 from google/gftools_packager_ofl_micro5",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "c3c7e8d035e7a86ac2991e5885b60f583a566dcc"
+        },
+        {
+            "date": "2025-01-14T14:05:33",
+            "title": "Merge pull request #8903 from google/gftools_packager_ofl_micro5charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "3539bfe3e5ecb80c29827f6c81e8689960f1db31"
+        },
+        {
+            "date": "2025-01-14T13:58:10",
+            "title": "Merge pull request #8904 from google/gftools_packager_ofl_yarndings12",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "94d9939a38a4017a7fc6a51c76e874e015199934"
+        },
+        {
+            "date": "2025-01-14T13:57:57",
+            "title": "Merge pull request #8905 from google/gftools_packager_ofl_yarndings20",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "f5ab44a86e7589e02994e294a5c0090265704330"
+        },
+        {
+            "date": "2025-01-14T13:57:47",
+            "title": "Merge pull request #8906 from google/gftools_packager_ofl_yarndings12charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "1e25ebb057a6951442f67c7f5b3b92269dbd5942"
+        },
+        {
+            "date": "2025-01-14T13:57:32",
+            "title": "Merge pull request #8907 from google/gftools_packager_ofl_yarndings20charted",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "dceba32de379007b718f1cc1fe0f1d1211912e43"
+        },
+        {
+            "date": "2025-01-14T10:17:25",
+            "title": "Merge pull request #8823 from google/gftools_packager_ofl_playfair",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "f445a7607285d96d9c1655a481a5fdf4a1669e37"
+        },
+        {
+            "date": "2025-01-14T09:56:27",
+            "title": "Merge pull request #8819 from google/gftools_packager_ofl_liter",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "f38e340c151ccb5b7fc1f680f3d7632065a8b722"
+        },
+        {
+            "date": "2025-01-14T09:56:10",
+            "title": "Update ARTICLE.en_us.html",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "5ffd19fad49c052bac222506acdcfcc522173a26"
+        },
+        {
+            "date": "2025-01-14T09:54:31",
+            "title": "Merge pull request #8883 from google/alexandrivanin",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "designer",
+            "id": "8484f706922f1ddd10dccb4cb8d7d1c23f65bf9f"
+        },
+        {
+            "date": "2025-01-14T09:54:12",
+            "title": "Merge pull request #8882 from google/antonskugarov",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "designer",
+            "id": "8eca2ef0c11664a29a489ac7e935a911c2758fea"
+        },
+        {
+            "date": "2025-01-14T09:53:50",
+            "title": "Merge pull request #8881 from google/gftools_packager_ofl_inclusivesans",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "113ef9b2160fbdb9e73706067cea20172dcb110b"
+        },
+        {
+            "date": "2025-01-14T09:51:41",
+            "title": "Update DESCRIPTION.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "e306b68c9b50b63c4659fa9a69050b3822b9ab3b"
+        },
+        {
+            "date": "2025-01-14T09:51:11",
+            "title": "Update DESCRIPTION.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "39401ae62a8759445a9c055ae8d3ad3eff2061ee"
+        },
+        {
+            "date": "2025-01-14T09:43:54",
+            "title": "Yarndings 20 Charted: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "a98f96660db925bb19f9d0a06189b3952bac7a2d"
+        },
+        {
+            "date": "2025-01-14T09:43:39",
+            "title": "Yarndings 12 Charted: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "abe026d67583689044025601d1430908138d9861"
+        },
+        {
+            "date": "2025-01-14T09:43:21",
+            "title": "Yarndings 20: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "0934c877adc76b745313b63f5fc073db6969d226"
+        },
+        {
+            "date": "2025-01-14T09:43:05",
+            "title": "Yarndings 12: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "8e43c309211bc99fa8e7c39354e1d5d2b344776f"
+        },
+        {
+            "date": "2025-01-14T09:42:10",
+            "title": "Micro 5 Charted: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "988c7d1550e3e832673b4ebacb3204a19441b000"
+        },
+        {
+            "date": "2025-01-14T09:41:53",
+            "title": "Micro 5: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "c9403f933c516b837b4ec2a79a714a4952add6f0"
+        },
+        {
+            "date": "2025-01-14T09:41:19",
+            "title": "Jersey 25 Charted: Version 1.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "b9a533293faa5fd286aa70aecbd2ad157e563c45"
+        },
+        {
+            "date": "2025-01-14T09:41:01",
+            "title": "Jersey 20 Charted: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "df879ca449efe0417efc43cf994821db3dde05dc"
+        },
+        {
+            "date": "2025-01-14T09:40:41",
+            "title": "Jersey 15 Charted: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "2035997edc320b6d8212f3a32634b737857adf2c"
+        },
+        {
+            "date": "2025-01-14T09:40:22",
+            "title": "Jersey 10 Charted: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "37eb61a29fa7d84eed89c658982fadc05e35beb6"
+        },
+        {
+            "date": "2025-01-14T09:39:49",
+            "title": "Jersey 25: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "220d0c5be4c2b369bd442fd28c162ba08455cfc6"
+        },
+        {
+            "date": "2025-01-14T09:39:33",
+            "title": "Jersey 20: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "064d437c73364b35a95e42bad4621e25c8014e1e"
+        },
+        {
+            "date": "2025-01-14T09:39:16",
+            "title": "Jersey 15: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "0219b6a510161b719c2c44d639ef1628d02ee466"
+        },
+        {
+            "date": "2025-01-14T09:38:53",
+            "title": "Jersey 10: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "3c5464b4dc90bd091348526b68428650ece8e13e"
+        },
+        {
+            "date": "2025-01-14T09:38:07",
+            "title": "Jacquarda Bastarda 9 Charted: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "40f58ba3610707407c1a8c472407a71287a449a6"
+        },
+        {
+            "date": "2025-01-14T09:37:32",
+            "title": "Jacquarda Bastarda 9: Version 1.001; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "dc82d7003d4bb651e2c1c8c6b1469a798713e7c7"
+        },
+        {
+            "date": "2025-01-14T09:31:09",
+            "title": "Jacquard 24 Charted: Version 1.002 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "49b165c1f9f37de267af18fa17b8551e326d2e0b"
+        },
+        {
+            "date": "2025-01-14T09:30:47",
+            "title": "Jacquard 24: Version 1.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "fd2716baa0a1689ccb60b086140580d016de69b0"
+        },
+        {
+            "date": "2025-01-14T09:30:26",
+            "title": "Jacquard 12 Charted: Version 1.002 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "3516a36ac269fdc648a209a8b7a8e4a2f9014a06"
+        },
+        {
+            "date": "2025-01-14T09:29:23",
+            "title": "Jacquard 12: Version 1.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "32276db4799dca776825703242ea43290f524a01"
+        },
+        {
+            "date": "2025-01-13T16:21:00",
+            "title": "Merge pull request #8772 from google/42dot_sans",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "52603d913354eeed987671c5af38061b18735019"
+        },
+        {
+            "date": "2025-01-13T15:15:35",
+            "title": "Add article and images",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "786aa7a5e77ec76a1040c8a0a8db2af17da6d6e5"
+        },
+        {
+            "date": "2025-01-13T15:07:06",
+            "title": "Add designer: Alexandr Ivanin",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "f75ddaf762a1874870467ca1104c63b3833dc76a"
+        },
+        {
+            "date": "2025-01-13T15:04:09",
+            "title": "Add designer: Anton Skugarov",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "28743c8f8cf1e3259f6ff7013cc398ab19e4adda"
+        },
+        {
+            "date": "2025-01-13T13:40:45",
+            "title": "Inclusive Sans: Version 2.004 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "f65fecd9be0dc1a507033150f997db53b06a517d"
+        },
+        {
+            "date": "2025-01-13T13:05:26",
+            "title": "Merge pull request #8824 from google/gftools_packager_ofl_ibmplexsans",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "4f66b0b9685247ee6736b5d22feec81a39aaed42"
+        },
+        {
+            "date": "2025-01-13T10:51:45",
+            "title": "Add repo URL in DESCRIPTION.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "a64a5f5c9bc1e46899086a99d095de8e57b20dd4"
+        },
+        {
+            "date": "2025-01-10T23:07:25",
+            "title": "sibling font fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "21893dd09108c331ae419e43bee6cfd2a3e51f3d"
+        },
+        {
+            "date": "2025-01-10T23:06:01",
+            "title": "Link to Guides version added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5b19935669367a5fa683848b3f9a176ef8bc90b9"
+        },
+        {
+            "date": "2025-01-10T22:47:29",
+            "title": "Update METADATA.pb",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cfd70047fcab458060f0069d1d75f82bca6848e1"
+        },
+        {
+            "date": "2025-01-10T22:44:59",
+            "title": "Playwrite AR: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "26a465b5e1f68ce86785cd236590fd733aac9abd"
+        },
         {
             "date": "2025-01-10T15:29:26",
             "title": "Merge pull request #8593 from google/gftools_packager_ofl_cormorantgaramond",
@@ -8,6 +912,38 @@
             "status": "modified",
             "kind": "family",
             "id": "8179189657d1c5d7eb365d68c97a13efddc0e2b2"
+        },
+        {
+            "date": "2025-01-10T13:08:23",
+            "title": "Image size",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "af70a27160395dd3c2d5179fc30254f6539ae38d"
+        },
+        {
+            "date": "2025-01-10T12:41:30",
+            "title": "IBM Plex Sans: Version 3.201 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "8409f033cd7dee08914990602f0df5f5e70e0c14"
+        },
+        {
+            "date": "2025-01-10T10:23:15",
+            "title": "add article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "61f75851da1884a673612bead3c7ca253707be17"
+        },
+        {
+            "date": "2025-01-10T09:01:25",
+            "title": "Playfair: Version 2.203 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "e215cac7ce9c497350f7d63e136544dedde20c1e"
         },
         {
             "date": "2025-01-10T08:08:31",
@@ -38,8 +974,16 @@
             "title": "Update families.csv",
             "author": "Emma Marichal",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "5124de77375bfb361368e0f0ccbe463b597a897c"
+        },
+        {
+            "date": "2025-01-09T14:23:01",
+            "title": "Liter: Version 1.004; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "dad316c757f3f624f6c33b6d66db7bc2bd1cf6ae"
         },
         {
             "date": "2025-01-09T09:33:13",
@@ -238,8 +1182,32 @@
             "title": "Update tags_metadata.csv (#8798)",
             "author": "nyshadhr9",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "5c32bcd64d1e115426292441eea6f75bfe7f861b"
+        },
+        {
+            "date": "2024-12-23T14:48:27",
+            "title": "Update ARTICLE.en_us.html",
+            "author": "Aaron Bell",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "35b5e391ffac2aedafa978c3906d0fe7d42409a8"
+        },
+        {
+            "date": "2024-12-23T14:47:33",
+            "title": "Fixing some metadata items",
+            "author": "Aaron Bell",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bd00500d634f8618823d63c20339f73250f3a288"
+        },
+        {
+            "date": "2024-12-23T13:51:32",
+            "title": "42dot Sans : v1.00 added",
+            "author": "Aaron",
+            "status": "new",
+            "kind": "family",
+            "id": "d60948acd8c17985547d23a641913b5713f1967c"
         },
         {
             "date": "2024-12-20T14:40:02",
@@ -15021,9 +15989,25 @@
             "date": "2024-04-29T14:14:56",
             "title": "Sankofa Display: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
             "author": "Marc Foley",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "215a94743c6cd755ae1fcafd6ecd9b7dace7722d"
+        },
+        {
+            "date": "2024-04-29T14:12:11",
+            "title": "Metadata and description",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "5a895e2a99e89a148a4064c0afb08fafc0c85258"
+        },
+        {
+            "date": "2024-04-29T14:06:55",
+            "title": "Latest build",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "8ae3662885d9ee2a775a102b29988486f91da196"
         },
         {
             "date": "2024-04-29T13:27:14",
@@ -15496,6 +16480,22 @@
             "status": "modified",
             "kind": "family",
             "id": "caeef114f7372dd1d9976a28e89c83cb5767fc89"
+        },
+        {
+            "date": "2024-04-18T16:44:52",
+            "title": "Remove old statics and fontlog",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "0dbd99df5149473af744fc6fe78ac51a0fcca244"
+        },
+        {
+            "date": "2024-04-18T16:44:27",
+            "title": "Buenard: Version 2.000 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "7217e59b651944c739b9ffedb6064a98e0f16105"
         },
         {
             "date": "2024-04-18T14:32:10",
@@ -75749,12 +76749,865 @@
     "pushes": {
         "sandbox": [
             {
-                "path": "ofl/zhimangxing",
+                "path": "ofl/42dotsans",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8772"
+            },
+            {
+                "path": "ofl/atkinsonhyperlegiblemono",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8519"
+            },
+            {
+                "path": "ofl/atkinsonhyperlegiblenext",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8813"
+            },
+            {
+                "path": "ofl/liter",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8819"
+            },
+            {
+                "path": "ofl/pochaevsk",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8758"
+            },
+            {
+                "path": "ofl/shafarik",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8726"
+            },
+            {
+                "path": "ofl/triodion",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8741"
+            },
+            {
+                "path": "ofl/buenard",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7573"
+            },
+            {
+                "path": "ofl/cormorantgaramond",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8593"
+            },
+            {
+                "path": "ofl/cormorantinfant",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8594"
+            },
+            {
+                "path": "ofl/englebert",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8688"
+            },
+            {
+                "path": "ofl/ibmplexsans",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8824"
+            },
+            {
+                "path": "ofl/inclusivesans",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8881"
+            },
+            {
+                "path": "ofl/jacquard12",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8888"
+            },
+            {
+                "path": "ofl/jacquard12charted",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8889"
+            },
+            {
+                "path": "ofl/jacquard24",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8890"
+            },
+            {
+                "path": "ofl/jacquard24charted",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8891"
+            },
+            {
+                "path": "ofl/jacquardabastarda9",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8892"
+            },
+            {
+                "path": "ofl/jacquardabastarda9charted",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8893"
+            },
+            {
+                "path": "ofl/jersey10",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8894"
+            },
+            {
+                "path": "ofl/jersey10charted",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8898"
+            },
+            {
+                "path": "ofl/jersey15",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8895"
+            },
+            {
+                "path": "ofl/jersey15charted",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8899"
+            },
+            {
+                "path": "ofl/jersey20",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8896"
+            },
+            {
+                "path": "ofl/jersey20charted",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8900"
+            },
+            {
+                "path": "ofl/jersey25",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8897"
+            },
+            {
+                "path": "ofl/micro5",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8902"
+            },
+            {
+                "path": "ofl/micro5charted",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8903"
+            },
+            {
+                "path": "ofl/nanummyeongjo",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8692"
+            },
+            {
+                "path": "ofl/nanummyeongjo/hotfix-space.py",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8692"
+            },
+            {
+                "path": "ofl/playfair",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8823"
+            },
+            {
+                "path": "ofl/yarndings12",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8904"
+            },
+            {
+                "path": "ofl/yarndings12charted",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8906"
+            },
+            {
+                "path": "ofl/yarndings20",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8905"
+            },
+            {
+                "path": "ofl/yarndings20charted",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8907"
+            },
+            {
+                "path": "catalog/designers/aleksandrandreev",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8696"
+            },
+            {
+                "path": "catalog/designers/antonskugarov",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8882"
+            },
+            {
+                "path": "catalog/designers/gustavoibarra",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7547"
+            },
+            {
+                "path": "catalog/designers/redstone",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8603"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/content.md",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8450"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/thumbnail.svg",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8450"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/web-fonts2.mp4",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8450"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/web-fonts3.mp4",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8450"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/web-fonts4.mp4",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8450"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/web-fonts5.mp4",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8450"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/lesson.textproto",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8450"
+            },
+            {
+                "path": "ofl/notosanspaucinhau",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8728"
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/notosansphagspa",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/notosanssignwriting",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/notosanssinhalaui",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/notosanssymbols2",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/notosanstamilui",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/notosansteluguui",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/notosansthaiui",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/notoserifhentaigana",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8909"
+            },
+            {
+                "path": "ofl/notoserifkhitansmallscript",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/notoserifmyanmar",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8096"
+            },
+            {
+                "path": "ofl/playwritear",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritearguides",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8821"
+            },
+            {
+                "path": "ofl/playwriteat",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteaunsw",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteauqld",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteausa",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteautas",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteauvic",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritebevlg",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritebewal",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritebr",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteca",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritecl",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteco",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritecoguides",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8821"
+            },
+            {
+                "path": "ofl/playwritecu",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritecz",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritedegrund",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritedela",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritedesas",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritedeva",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritedkloopet",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritedkuloopet",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritees",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteesdeco",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritefrmoderne",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritefrtrad",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritegbj",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritegbs",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritehr",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritehrlijeva",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritehu",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteid",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteie",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritein",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteis",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteitmoderna",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteittrad",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritemx",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritengmodern",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritenl",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteno",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritenz",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritepe",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritepl",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritept",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritero",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritesk",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritetz",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteusmodern",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteustrad",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwritevn",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/playwriteza",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/7853"
+            },
+            {
+                "path": "ofl/ponomar",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8768"
+            },
+            {
+                "path": "lang/languages/bap_Krai.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8509"
             }
         ],
-        "production": []
+        "production": [
+            {
+                "path": "ofl/notoseriftodhri",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8199"
+            },
+            {
+                "path": "ofl/akayatelivigala",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/akshar",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/almarai",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekbangla",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekdevanagari",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekgujarati",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekkannada",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekmalayalam",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anekodia",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/anektamil",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8083"
+            },
+            {
+                "path": "ofl/lohitbengali",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/lohittamil",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/longcang",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/mashanzheng",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/metal",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/mirza",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/mochiypopone",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/mochiypoppone",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/modak",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/mogra",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8091"
+            },
+            {
+                "path": "ofl/poppins",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            },
+            {
+                "path": "ofl/pottaone",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            },
+            {
+                "path": "ofl/pragatinarrow",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            },
+            {
+                "path": "ofl/preahvihear",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            },
+            {
+                "path": "ofl/rajdhani",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            },
+            {
+                "path": "ofl/rakkas",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            },
+            {
+                "path": "ofl/ramabhadra",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            },
+            {
+                "path": "ofl/ramaraja",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            },
+            {
+                "path": "ofl/rampartone",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            },
+            {
+                "path": "ofl/raviprakash",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8098"
+            }
+        ]
     }
 }

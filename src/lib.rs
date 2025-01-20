@@ -11,7 +11,7 @@ use write_fonts::{
 include!(concat!(env!("OUT_DIR"), "/_.rs"));
 include!(concat!(env!("OUT_DIR"), "/data.rs"));
 
-const LINKED_VALUES: [(&str, (f32, f32)); 2] = [("wght", (400.0, 700.0)), ("ital", (0.0, 1.0))];
+// const LINKED_VALUES: [(&str, (f32, f32)); 2] = [("wght", (400.0, 700.0)), ("ital", (0.0, 1.0))];
 const GF_STATIC_STYLES: [(&str, u16); 18] = [
     ("Thin", 100),
     ("ExtraLight", 200),
@@ -225,7 +225,7 @@ mod fontations {
         if font.table_data(Tag::new(b"fvar")).is_some() {
             build_vf_name_table(&mut new_font, &font, &family_name, siblings)?;
         } else {
-            // build_static_name_table_v1(&mut new_font, &font, &family_name, &style_name)
+            build_static_name_table_v1(&mut new_font, &font, &family_name, &style_name)?;
         }
 
         let mut styles: Vec<_> = GF_STATIC_STYLES.iter().collect();
@@ -263,7 +263,7 @@ mod fontations {
     ) -> Result<(), Box<dyn std::error::Error>> {
         let style_name = vf_style_name(font, family_name)?;
         let mut new_name: Name = (if fvar_instance_collisions(font, siblings) {
-            build_static_name_table_v1(newfont, font, family_name, style_name)
+            build_static_name_table_v1(newfont, font, family_name, &style_name)
         } else {
             build_static_name_table(newfont, font, family_name, style_name)
         })?;
@@ -290,12 +290,33 @@ mod fontations {
     }
 
     fn build_static_name_table_v1(
-        _newfont: &mut FontBuilder,
-        _font: &FontRef,
-        _family_name: &str,
-        _style_name: String,
+        newfont: &mut FontBuilder,
+        font: &FontRef,
+        family_name: &str,
+        style_name: &str,
     ) -> Result<Name, Box<dyn std::error::Error>> {
-        unimplemented!()
+        let (v1_tokens, non_weight) = style_name
+            .split_whitespace()
+            .partition::<Vec<_>, _>(|token| GF_STATIC_STYLES.iter().any(|(name, _)| name == token));
+        let family_tokens = family_name.split_whitespace();
+        let mut new_family_name = vec![];
+        for token in family_tokens {
+            if non_weight.contains(&token) || new_family_name.contains(&token) {
+                continue;
+            }
+            new_family_name.push(token);
+        }
+        new_family_name.extend(non_weight);
+        let family_name = new_family_name.join(" ");
+        let mut style_name = v1_tokens
+            .join(" ")
+            .replace("Regular Italic", "Italic")
+            .trim()
+            .to_string();
+        if style_name.is_empty() {
+            style_name = "Regular".to_string();
+        }
+        build_static_name_table(newfont, font, &family_name, style_name)
     }
 
     fn build_static_name_table(
@@ -442,7 +463,7 @@ mod fontations {
             .flat_map(|particle| particle.name.clone())
             .collect::<Vec<_>>();
         let family_name_tokens = family_name.split_whitespace().collect::<HashSet<_>>();
-        let subfamily_name = best_subfamilyname(&font);
+        let subfamily_name = best_subfamilyname(font);
         let font_styles = axisregistry
             .name_table_fallbacks(
                 family_name,
@@ -452,7 +473,7 @@ mod fontations {
             .map(|(_tag, proto)| proto.name())
             .filter(|name| !family_name_tokens.contains(name))
             .map(|name| name.to_string())
-            .filter(|name| !relevant_particles.contains(&name))
+            .filter(|name| !relevant_particles.contains(name))
             .collect::<Vec<_>>();
         relevant_particles.extend(font_styles);
         let name = relevant_particles

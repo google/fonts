@@ -78,7 +78,11 @@
             <button @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
             <button @click="AddFamily" class="join-item btn btn-xs">Add</button>
           </div>
-          <div id="add-axis-panel"></div>
+          <div v-for="axis in newAxes" :value="axis.name" class="axis">
+            <input class="input input-xs input-bordered w-full max-w-xs" v-model="axis.name" placeholder="Axis Tag">
+            <input type="number" max="100" min="0" class="input input-xs input-bordered w-full max-w-xs" v-model="axis.min" placeholder="Min">
+            <input type="number" max="100" min="0" class="input input-xs input-bordered w-full max-w-xs" v-model="axis.max" placeholder="Max">
+          </div>
         <div class="divider"></div>
         <form @submit.prevent="copyFamily">
           <div class="label lavel-xs">
@@ -122,24 +126,31 @@
 
 <script>
   class FontTag {
-    constructor(name, category, fonts = [], score = 0) {
+    constructor(name, category, axes = [], score = 0) {
         this.name = name;
-        this.fonts = fonts;
+        this.axes = axes.sort((a, b) => a.name.localeCompare(b.name));
         this.category = category;
         this.score = score;
     }
 
     static fromCsv(line) {
         let [name, category, score] = line.split(",");
+        // tag is for a static font
         if (!name.includes(":")) {
             return new FontTag(name, category, [], parseInt(score));
         }
         let [namePart, axes] = name.split(":");
         let [axisNames, vals] = axes.split("@");
-        let fonts = vals.split(";").map(val => {
-            return Object.fromEntries(axisNames.split("|").map((axis, i) => [axis, val.split("|")[i]]));
+
+        let axisPeices = axisNames.split("|");
+        let valPeices = vals.split("|");
+
+        let axes2 = axisPeices.map((axis, i) => {
+            let [min, max] = valPeices[i].split("..");
+            return {name: axis, min: min, max: max};
         });
-        return new FontTag(name, category, fonts, parseInt(score));
+        let res = axes2.sort((a, b) => a.name.localeCompare(b.name));
+        return new FontTag(name, category, res, parseInt(score));
     }
 
     toCsv() {
@@ -148,22 +159,22 @@
     }
 
     toTag() {
-        if (!this.fonts.length) {
-            return `${this.name},${this.category},${this.score}`;
+        if (!this.axes.length) {
+            return this.name;
         }
         let tag = [];
         tag.push(this.name + ":");
-        let fontAxes = Object.keys(this.fonts[0]).sort();
+        const fontAxes = this.axes.map(axis => axis.name)
         tag.push(fontAxes.join("|") + "@");
-        this.fonts.forEach(font => {
-            tag.push(fontAxes.map(axis => font[axis]).join("|") + ";");
+        this.axes.forEach(ax => {
+            tag.push(`${ax.min}..${ax.max}|`);
         });
-        return tag.join("").slice(0, -1); // remove last ";"
+        return tag.join("").slice(0, -1);
     }
 
     toUrl() {
         let baseUrl = "https://fonts.googleapis.com/css2?family=";
-        if (this.fonts.length === 0) {
+        if (this.axes.length === 0) {
             return baseUrl + this.name;
         }
         let tag = this.toTag();
@@ -177,6 +188,13 @@
             { fontVariationSettings: "'wght' 900" }
         ]
     }
+
+    get displayName() {
+      if (this.axes.length === 0) {
+        return this.name;
+      }
+      return this.toTag();
+    }
 }
 
 
@@ -185,7 +203,7 @@
     template: `
       <div class="item p-1">
         <div class="join">
-          <b class="pr-2">{{ family.name }}</b>
+          <b class="pr-2">{{ familyDisplayName }}</b>
           <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square"  v-model.lazy="family.score" @change="edited" placeholder="family.score">
           <button class="btn btn-xs join-item pr-2" @click="removeFamily">X</button>
           </div>
@@ -212,6 +230,9 @@
       },
       familyStyle() {
         return `font-family: "${this.family.name}", "Adobe NotDef"; font-size: 32pt;`;
+      },
+      familyDisplayName() {
+        return this.family.displayName;
       }
     }
   });
@@ -226,6 +247,7 @@
         newTag: "",
         newFamily: '',
         newWeight: '',
+        newAxes: [],
         fromFamily: "",
         toFamily: "",
         currentCategory: "/Expressive/Calm",
@@ -299,29 +321,7 @@
     },
     methods: {
       addAxis() {
-        let panel = document.getElementById("add-axis-panel");
-        let axisName = document.createElement("input");
-        axisName.placeholder = "Axis Tag";
-        axisName.classList = "input input-xs input-bordered w-full max-w-xs mb-2";
-
-        let minVal = document.createElement("input");
-        minVal.placeholder = "Min";
-        minVal.type = "number";
-        minVal.classList = "input input-xs input-bordered w-full max-w-xs mb-2";
-
-        let maxVal = document.createElement("input");
-        maxVal.placeholder = "Max";
-        maxVal.type = "number";
-        maxVal.classList = "input input-xs input-bordered w-full max-w-xs mb-2";
-
-        let divv = document.createElement("div");
-        divv.classList = "axis";
-        divv.style = "padding-top: 10px;";
-        divv.appendChild(axisName);
-        divv.appendChild(minVal);
-        divv.appendChild(maxVal);
-
-        panel.appendChild(divv);
+        this.newAxes.push({name: "wght", min: 100, max: 900});
       },
       sortedCategories() {
         return Array.from(this.categories).sort();
@@ -413,7 +413,7 @@
       },
       AddFamily() {
         this.isEdited = true;
-        let newFamily = new FontTag(this.newFamily, this.currentCategory, fonts=[], score=this.newWeight);
+        let newFamily = new FontTag(this.newFamily, this.currentCategory, axes=this.newAxes, score=this.newWeight);
         let tagKey = `${newFamily.name},${newFamily.category}`;
         if (this.seen.has(tagKey)) {
           alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);
@@ -423,10 +423,8 @@
         this.tags.push(newFamily);
         this.history.push(`+ ${newFamily.name},${newFamily.category},${newFamily.score}`);
         // Remove all axis inputs for the next family
-        let axisPanel = document.getElementById("add-axis-panel")
-        while (axisPanel.firstChild) {
-          axisPanel.removeChild(axisPanel.lastChild);
-        }
+        this.newAxes = [];
+
       },
       copyFamily() {
         this.isEdited = true;
@@ -449,7 +447,7 @@
         const familiesToAdd = this.uniqueFamilies
         familiesToAdd.forEach((family) => {
           if (!seen.has(family.name)) {
-            this.tags.push(new FontTag(family.name, this.currentCategory, fonts=[], score=0));
+            this.tags.push(new FontTag(family.name, this.currentCategory, axes=this.newAxes, score=0));
           }
         });
         this.history.push(`+ Placeholder tags added for ${this.currentCategory}`);
@@ -464,16 +462,16 @@
         this.tags = this.tags.filter((t) => t !== Family);
         this.history.push(`- ${Family.name},${Family.category},${Family.score}`);
       },
-      familiesToCSV() {
+      tagsToCSV() {
         this.RemovePlaceHolderTags();
         this.tags = this.tags.filter((t) => t.name !== "");
         // The sorting function used is case sensitive.
         // This means that "A" will come before "a".
         this.tags = Array.from(this.tags).sort((a, b) => {
-          if (`${a.name},${a.category}` < `${b.name},${b.category}`) {
+          if (`${a.displayName},${a.category}` < `${b.displayName},${b.category}`) {
             return -1;
           }
-          if (`${a.name},${a.category}` > `${b.name},${b.category}`) {
+          if (`${a.displayName},${a.category}` > `${b.displayName},${b.category}`) {
             return 1;
           }
           return 0;

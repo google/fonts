@@ -58,6 +58,7 @@ pub(crate) fn find_or_add_name(records: &mut Vec<NameRecord>, string: &str) -> S
             && r.platform_id == 3
             && r.encoding_id == 1
             && r.language_id == 0x409
+            && r.name_id.to_u16() >= 256
     }) {
         return existing.name_id;
     }

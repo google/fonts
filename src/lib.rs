@@ -12,7 +12,15 @@ use write_fonts::{
 include!(concat!(env!("OUT_DIR"), "/_.rs"));
 include!(concat!(env!("OUT_DIR"), "/data.rs"));
 
-// const LINKED_VALUES: [(&str, (f32, f32)); 2] = [("wght", (400.0, 700.0)), ("ital", (0.0, 1.0))];
+const LINKED_VALUES: [(&str, (f32, f32)); 2] = [("wght", (400.0, 700.0)), ("ital", (0.0, 1.0))];
+
+fn linked_value(axis: &str, value: f32) -> Option<f32> {
+    LINKED_VALUES
+        .iter()
+        .find(|(linked_axis, (cur, _link))| *linked_axis == axis && value == *cur)
+        .map(|(_, (_, link))| *link)
+}
+
 const GF_STATIC_STYLES: [(&str, u16); 18] = [
     ("Thin", 100),
     ("ExtraLight", 200),
@@ -212,6 +220,8 @@ mod monkeypatching;
 #[cfg(feature = "fontations")]
 mod nametable;
 #[cfg(feature = "fontations")]
+mod stat;
+#[cfg(feature = "fontations")]
 mod fontations {
     use super::*;
     use monkeypatching::{AxisValueNameId, SetAxisValueNameId};
@@ -219,6 +229,7 @@ mod fontations {
         add_name, best_familyname, best_subfamilyname, find_or_add_name, rewrite_or_insert,
     };
     use skrifa::{string::StringId, MetadataProvider, Tag};
+    use stat::{AxisLocation, AxisRecord, AxisValue, StatBuilder};
     use std::{cmp::Reverse, collections::HashMap};
     use write_fonts::{
         from_obj::ToOwnedTable,
@@ -695,6 +706,171 @@ mod fontations {
         new_font.add_table(&fvar)?;
         name_table.name_record.sort_by_key(|record| record.name_id);
         new_font.add_table(&name_table)?;
+        Ok(new_font.copy_missing_tables(font).build())
+    }
+
+    // All right, let's do it
+    pub fn build_stat(
+        font: FontRef,
+        siblings: &[FontRef],
+    ) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
+        let mut new_font = FontBuilder::new();
+        let axes = font_axes(&font)?;
+        let axis_registry = AxisRegistry::new();
+        let fallbacks_in_fvar: HashMap<String, Vec<FallbackProto>> =
+            axis_registry.fallbacks(&axes).collect();
+        let mut fallbacks_in_siblings: Vec<(String, FallbackProto)> = vec![];
+        for fnt in siblings {
+            let family_name = best_familyname(fnt).unwrap_or("New Font".to_string());
+            let subfamily_name = best_subfamilyname(fnt).unwrap_or("Regular".to_string());
+            let font_axes = font_axes(fnt).unwrap_or_default();
+            fallbacks_in_siblings.extend(
+                axis_registry
+                    .name_table_fallbacks(&family_name, &subfamily_name, &font_axes)
+                    .map(|(tag, proto)| (tag.to_string(), proto.clone())),
+            )
+        }
+        // And for this font
+        let family_name = best_familyname(&font).unwrap_or("New Font".to_string());
+        let subfamily_name = best_subfamilyname(&font).unwrap_or("Regular".to_string());
+        let fallbacks_in_names =
+            axis_registry.name_table_fallbacks(&family_name, &subfamily_name, &axes);
+
+        let fvar: Fvar = font.fvar().unwrap().to_owned_table();
+        let mut name: Name = font.name().unwrap().to_owned_table();
+        let fvar_name_ids: HashSet<StringId> = fvar
+            .axis_instance_arrays
+            .instances
+            .iter()
+            .map(|x| x.subfamily_name_id)
+            .chain(
+                fvar.axis_instance_arrays
+                    .axes
+                    .iter()
+                    .map(|x| x.axis_name_id),
+            )
+            .collect();
+        let keep = |name_id: StringId| -> bool {
+            name_id.to_u16() <= 25 || fvar_name_ids.contains(&name_id)
+        };
+        let mut delete_ids = vec![];
+        if let Ok(stat) = font.stat() {
+            for axis in stat.design_axes()?.iter() {
+                let id = axis.axis_name_id.get();
+                if !keep(id) {
+                    delete_ids.push(id);
+                }
+            }
+            if let Some(axis_values) = stat.offset_to_axis_values().transpose()? {
+                for axis_value in axis_values.axis_values().iter().flatten() {
+                    let id = axis_value.value_name_id();
+                    if !keep(id) {
+                        delete_ids.push(id);
+                    }
+                }
+            }
+        }
+        name.name_record
+            .retain(|record| !delete_ids.contains(&record.name_id));
+        let mut axis_records: Vec<AxisRecord> = vec![];
+        let mut values: Vec<AxisValue> = vec![];
+        let mut seen_axes = HashSet::new();
+
+        fn make_location(axis: Tag, value: f32, linked_value: Option<f32>) -> AxisLocation {
+            if let Some(linked_value) = linked_value {
+                AxisLocation::Three {
+                    tag: axis,
+                    value: Fixed::from_f64(value as f64),
+                    linked: Fixed::from_f64(linked_value as f64),
+                }
+            } else {
+                AxisLocation::One {
+                    tag: axis,
+                    value: Fixed::from_f64(value as f64),
+                }
+            }
+        }
+
+        for (axis, fallbacks) in fallbacks_in_fvar.iter() {
+            let tag = Tag::new_checked(&axis.as_bytes()[0..4])?;
+            let ar_axis = axis_registry.get(axis).unwrap();
+            seen_axes.insert(tag);
+            axis_records.push(AxisRecord {
+                tag,
+                name: ar_axis.display_name().to_string(),
+                ordering: 0,
+            });
+            let fallback_values = fallbacks.iter().map(|f| f.value()).collect::<Vec<f32>>();
+            for fallback in fallbacks.iter() {
+                values.push(AxisValue {
+                    flags: if fallback.value() == ar_axis.default_value() {
+                        0x2
+                    } else {
+                        0x0
+                    },
+                    name: fallback.name().to_string(),
+                    location: make_location(
+                        tag,
+                        fallback.value(),
+                        linked_value(axis, fallback.value())
+                            .filter(|value| fallback_values.contains(value)),
+                    ),
+                })
+            }
+        }
+
+        for (axis, fallback) in fallbacks_in_names {
+            let tag = Tag::new_checked(&axis.as_bytes()[0..4])?;
+            if seen_axes.contains(&tag) {
+                continue;
+            }
+            seen_axes.insert(tag);
+
+            let ar_axis = axis_registry.get(axis).unwrap();
+            axis_records.push(AxisRecord {
+                tag,
+                name: ar_axis.display_name().to_string(),
+                ordering: 0,
+            });
+            values.push(AxisValue {
+                flags: 0x0,
+                name: fallback.name().to_string(),
+                location: make_location(
+                    tag,
+                    fallback.value(),
+                    linked_value(axis, fallback.value()),
+                ),
+            });
+        }
+
+        for (axis, _fallback) in fallbacks_in_siblings {
+            let tag = Tag::new_checked(&axis.as_bytes()[0..4])?;
+            if seen_axes.contains(&tag) {
+                continue;
+            }
+            let ar_axis = axis_registry.get(&axis).unwrap();
+            let elided_value = ar_axis.default_value();
+            axis_records.push(AxisRecord {
+                tag,
+                name: ar_axis.display_name().to_string(),
+                ordering: 0,
+            });
+            if let Some(elided_fallback) = axis_registry.fallback_for_value(&axis, elided_value) {
+                values.push(AxisValue {
+                    flags: 0x2,
+                    name: elided_fallback.name().to_string(),
+                    location: make_location(tag, elided_value, linked_value(&axis, elided_value)),
+                })
+            }
+        }
+
+        let stat_builder = StatBuilder {
+            records: axis_records,
+            values,
+        };
+        let stat = stat_builder.build(&mut name.name_record);
+        new_font.add_table(&name)?;
+        new_font.add_table(&stat)?;
         Ok(new_font.copy_missing_tables(font).build())
     }
 }

@@ -179,7 +179,7 @@
         if (this.axes.length === 0) {
             return baseUrl + this.name.replace(" ", "+");
         }
-        let tag = this.toTag();
+        let tag = this.toTag().replace(" ", "+");
         return baseUrl + tag.replace(/\|/g, ",");
     }
 
@@ -428,7 +428,7 @@
         }
         this.seen.add(tagKey);
         this.tags.push(newFamily);
-        this.history.push(`+ ${newFamily.name},${newFamily.category},${newFamily.score}`);
+        this.history.push(`+ ${newFamily.displayName},${newFamily.category},${newFamily.score}`);
         // Remove all axis inputs for the next family
         this.newAxes = [];
 
@@ -477,7 +477,9 @@
       removeFamily(Family) {
         this.isEdited = true;
         this.tags = this.tags.filter((t) => t !== Family);
-        this.history.push(`- ${Family.name},${Family.category},${Family.score}`);
+        let tagKey = `${Family.name},${Family.category}`;
+        this.seen.delete(tagKey);
+        this.history.push(`- ${Family.displayName},${Family.category},${Family.score}`);
       },
       tagsToCSV() {
         this.RemovePlaceHolderTags();

@@ -34,13 +34,16 @@ const GF_STATIC_STYLES: [(&str, u16); 18] = [
     ("Black Italic", 900),
 ];
 
-const PROTECTED_IDS: [StringId; 6] = [
+const PROTECTED_IDS: [StringId; 9] = [
     StringId::FAMILY_NAME,
     StringId::SUBFAMILY_NAME,
+    StringId::UNIQUE_ID,
     StringId::FULL_NAME,
-    StringId::TYPOGRAPHIC_SUBFAMILY_NAME,
-    StringId::FULL_NAME,
+    StringId::VERSION_STRING,
     StringId::POSTSCRIPT_NAME,
+    StringId::TYPOGRAPHIC_FAMILY_NAME,
+    StringId::TYPOGRAPHIC_SUBFAMILY_NAME,
+    StringId::VARIATIONS_POSTSCRIPT_NAME_PREFIX,
 ];
 
 pub struct AxisRegistry {
@@ -366,7 +369,7 @@ mod fontations {
         let mut name: Name = font.name()?.to_owned_table();
         let mut records = name.name_record.into_iter().collect::<Vec<NameRecord>>();
         records.retain(|record| record.platform_id != 1);
-        // let existing_name = best_familyname(font).unwrap_or("New Font".to_string());
+        let existing_name = best_familyname(font).unwrap_or("New Font".to_string());
         let mut removed_names: HashMap<StringId, String> = HashMap::new();
         let full_name = family_name.to_string() + " " + &style_name;
         let ps_name = (family_name.to_string() + "-" + &style_name).replace(" ", "");
@@ -458,7 +461,23 @@ mod fontations {
                 *existing.string = new_unique;
             }
         }
-        // if aggressive.unwrap_or_default() == RenameAggressiveness::Aggressive {}
+        if aggressive.unwrap_or_default() == RenameAggressiveness::Aggressive {
+            for record in records.iter_mut() {
+                if PROTECTED_IDS.contains(&record.name_id)
+                    || !record.string.contains(&existing_name)
+                {
+                    continue;
+                }
+                if !record.string.contains(' ') {
+                    *record.string = record
+                        .string
+                        .replace(&existing_name, family_name)
+                        .replace(" ", "");
+                } else {
+                    *record.string = record.string.replace(&existing_name, family_name);
+                }
+            }
+        }
         name.name_record = records;
         Ok(name)
     }
@@ -1024,6 +1043,11 @@ mod tests {
                 ],
             },
         ];
+
+        run_name_table_tests(&cases, None);
+    }
+
+    fn run_name_table_tests(cases: &[NameTableTestCase], aggression: Option<RenameAggressiveness>) {
         for (ix, case) in cases.iter().enumerate() {
             let font = FontRef::new(case.binary).expect("Failed to read font");
             let siblings: Vec<FontRef> = case
@@ -1036,7 +1060,7 @@ mod tests {
                 Some(case.family_name),
                 case.subfamily_name,
                 &siblings,
-                None,
+                aggression,
             )
             .unwrap();
             let result_font = FontRef::new(&result).unwrap();
@@ -1055,5 +1079,35 @@ mod tests {
                 }
             }
         }
+    }
+
+    #[test]
+    fn test_name_table_aggression() {
+        let cases = [
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Raven Am",
+                subfamily_name: Some("Regular"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::COPYRIGHT_NOTICE, Some("Copyright 2011 The Raven Am Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Raven Am\".")),
+                    (StringId::FULL_NAME, Some("Raven Am Regular")),
+                ]
+            }
+        ];
+        run_name_table_tests(&cases, Some(RenameAggressiveness::Aggressive));
+        let cases = [
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Raven Am",
+                subfamily_name: Some("Regular"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::COPYRIGHT_NOTICE, Some("Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".")),
+                    (StringId::FULL_NAME, Some("Raven Am Regular")),
+                ]
+            }
+        ];
+        run_name_table_tests(&cases, Some(RenameAggressiveness::Conservative));
     }
 }

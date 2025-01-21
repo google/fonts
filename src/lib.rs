@@ -1,6 +1,7 @@
 use std::{collections::HashSet, ops::Index};
 
 use indexmap::IndexMap;
+use skrifa::string::StringId;
 #[cfg(feature = "fontations")]
 use write_fonts::{
     read::FontRef,
@@ -33,10 +34,20 @@ const GF_STATIC_STYLES: [(&str, u16); 18] = [
     ("Black Italic", 900),
 ];
 
+const PROTECTED_IDS: [StringId; 6] = [
+    StringId::FAMILY_NAME,
+    StringId::SUBFAMILY_NAME,
+    StringId::FULL_NAME,
+    StringId::TYPOGRAPHIC_SUBFAMILY_NAME,
+    StringId::FULL_NAME,
+    StringId::POSTSCRIPT_NAME,
+];
+
 pub struct AxisRegistry {
     axes: BTreeMap<String, Box<AxisProto>>,
 }
 
+#[derive(Debug, Clone)]
 pub struct FontAxis {
     pub tag: String,
     pub min: f32,
@@ -44,6 +55,7 @@ pub struct FontAxis {
     pub default: f32,
 }
 
+#[derive(Debug, Clone)]
 pub struct NameParticle {
     pub name: Option<String>,
     pub value: f32,
@@ -94,10 +106,7 @@ impl AxisRegistry {
                     registry_axis
                         .fallback
                         .iter()
-                        .filter(|f| {
-                            f.value.unwrap_or(-f32::INFINITY) <= axis.min
-                                && f.value.unwrap_or(f32::INFINITY) >= axis.max
-                        })
+                        .filter(|f| f.value() >= axis.min && f.value() <= axis.max)
                         .cloned()
                         .collect(),
                 )
@@ -119,7 +128,7 @@ impl AxisRegistry {
             .chain(subfamily_name.split_whitespace());
         tokens
             .flat_map(|token| self.get_fallback(token))
-            .filter(move |(tag, _)| axis_names.contains(tag))
+            .filter(move |(tag, _)| !axis_names.contains(tag))
     }
 
     pub fn fallback_for_value<'a>(
@@ -132,12 +141,18 @@ impl AxisRegistry {
     }
 
     pub fn axis_order(&self) -> Vec<&str> {
-        let mut axis_tags: Vec<&str> = self.axes.keys().map(|k| k.as_str()).collect();
+        let mut axis_tags: Vec<&str> = self
+            .axes
+            .keys()
+            .filter(|k| k.chars().all(|c| c.is_ascii_uppercase()))
+            .map(|k| k.as_str())
+            .collect();
         axis_tags.sort();
         axis_tags.extend(vec!["opsz", "wdth", "wght", "ital", "slnt"]);
         axis_tags
     }
 
+    // This is the old "_fvar_dflts"
     pub fn name_particles<'a>(&self, font_axes: &'a [FontAxis]) -> IndexMap<&'a str, NameParticle> {
         let mut particles = IndexMap::new();
         for axis in font_axes {
@@ -147,7 +162,7 @@ impl AxisRegistry {
                     NameParticle {
                         name: Some(format!("{}pt", axis.default)),
                         value: axis.default,
-                        elided: false,
+                        elided: true,
                     },
                 );
             } else if let Some(fallback) = self.fallback_for_value(&axis.tag, axis.default) {
@@ -156,7 +171,7 @@ impl AxisRegistry {
                     NameParticle {
                         name: fallback.name.clone(),
                         value: axis.default,
-                        elided: (fallback.value() == axis.default)
+                        elided: (fallback.value() == self.get(&axis.tag).unwrap().default_value())
                             && !(["Regular", "Italic", "14pt"].contains(&fallback.name())),
                     },
                 );
@@ -190,29 +205,42 @@ impl Index<&str> for AxisRegistry {
 }
 
 #[cfg(feature = "fontations")]
+mod monkeypatching;
+#[cfg(feature = "fontations")]
 mod nametable;
-
 #[cfg(feature = "fontations")]
 mod fontations {
     use super::*;
-    use nametable::{best_familyname, best_subfamilyname, find_or_add_name, rewrite_or_insert};
-    use skrifa::{string::StringId, Tag};
+    use monkeypatching::{AxisValueNameId, SetAxisValueNameId};
+    use nametable::{
+        add_name, best_familyname, best_subfamilyname, find_or_add_name, rewrite_or_insert,
+    };
+    use skrifa::{string::StringId, MetadataProvider, Tag};
     use std::{cmp::Reverse, collections::HashMap};
     use write_fonts::{
         from_obj::ToOwnedTable,
         tables::{
+            fvar::{Fvar, InstanceRecord},
             name::{Name, NameRecord},
             os2::Os2,
-            stat::{AxisValue, Stat},
+            stat::Stat,
         },
         types::Fixed,
     };
+
+    #[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
+    pub enum RenameAggressiveness {
+        #[default]
+        Aggressive,
+        Conservative,
+    }
 
     pub fn build_name_table(
         font: FontRef,
         family_name: Option<&str>,
         style_name: Option<&str>,
         siblings: &[FontRef],
+        aggressive: Option<RenameAggressiveness>,
     ) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
         let mut new_font = FontBuilder::new();
         let family_name = family_name
@@ -222,11 +250,11 @@ mod fontations {
             .map(|x| x.to_string())
             .unwrap_or_else(|| best_subfamilyname(&font).unwrap_or("Regular".to_string()));
 
-        if font.table_data(Tag::new(b"fvar")).is_some() {
-            build_vf_name_table(&mut new_font, &font, &family_name, siblings)?;
+        let new_name = if font.table_data(Tag::new(b"fvar")).is_some() {
+            build_vf_name_table(&mut new_font, &font, &family_name, siblings, aggressive)?
         } else {
-            build_static_name_table_v1(&mut new_font, &font, &family_name, &style_name)?;
-        }
+            build_static_name_table_v1(&mut new_font, &font, &family_name, &style_name, aggressive)?
+        };
 
         let mut styles: Vec<_> = GF_STATIC_STYLES.iter().collect();
         styles.sort_by_key(|(name, _weight)| Reverse(name.len()));
@@ -239,6 +267,7 @@ mod fontations {
             }
         }
         // Set RIBBI bits
+        new_font.add_table(&new_name)?;
         Ok(new_font.copy_missing_tables(font).build())
     }
 
@@ -251,8 +280,7 @@ mod fontations {
                     .unwrap_or(false)
             })
             .collect::<Vec<_>>();
-        // Any duplicates?
-        is_italic.iter().any(|&x| x) && is_italic.iter().all(|&x| x)
+        is_italic.len() != is_italic.iter().collect::<HashSet<_>>().len()
     }
 
     fn build_vf_name_table(
@@ -260,16 +288,20 @@ mod fontations {
         font: &FontRef,
         family_name: &str,
         siblings: &[FontRef],
-    ) -> Result<(), Box<dyn std::error::Error>> {
+        aggressive: Option<RenameAggressiveness>,
+    ) -> Result<Name, Box<dyn std::error::Error>> {
         let style_name = vf_style_name(font, family_name)?;
         let mut new_name: Name = (if fvar_instance_collisions(font, siblings) {
-            build_static_name_table_v1(newfont, font, family_name, &style_name)
+            build_static_name_table_v1(newfont, font, family_name, &style_name, aggressive)
         } else {
-            build_static_name_table(newfont, font, family_name, style_name)
+            build_static_name_table(newfont, font, family_name, style_name, aggressive)
         })?;
+        // println!("Records: {:#?}", new_name.name_record);
         build_variations_ps_name(&mut new_name, font, Some(family_name));
-        newfont.add_table(&new_name)?;
-        Ok(())
+
+        // Ensure table records are sorted
+        new_name.name_record.sort_by_key(|record| record.name_id);
+        Ok(new_name)
     }
 
     fn build_variations_ps_name(newname: &mut Name, font: &FontRef, family_name: Option<&str>) {
@@ -286,7 +318,11 @@ mod fontations {
                 var_ps.push_str(fallback_name);
             }
         }
-        rewrite_or_insert(&mut newname.name_record, StringId::POSTSCRIPT_NAME, var_ps);
+        rewrite_or_insert(
+            &mut newname.name_record,
+            StringId::VARIATIONS_POSTSCRIPT_NAME_PREFIX,
+            &var_ps,
+        );
     }
 
     fn build_static_name_table_v1(
@@ -294,6 +330,7 @@ mod fontations {
         font: &FontRef,
         family_name: &str,
         style_name: &str,
+        aggressive: Option<RenameAggressiveness>,
     ) -> Result<Name, Box<dyn std::error::Error>> {
         let (v1_tokens, non_weight) = style_name
             .split_whitespace()
@@ -316,7 +353,7 @@ mod fontations {
         if style_name.is_empty() {
             style_name = "Regular".to_string();
         }
-        build_static_name_table(newfont, font, &family_name, style_name)
+        build_static_name_table(newfont, font, &family_name, style_name, aggressive)
     }
 
     fn build_static_name_table(
@@ -324,24 +361,27 @@ mod fontations {
         font: &FontRef,
         family_name: &str,
         style_name: String,
+        aggressive: Option<RenameAggressiveness>,
     ) -> Result<Name, Box<dyn std::error::Error>> {
         let mut name: Name = font.name()?.to_owned_table();
         let mut records = name.name_record.into_iter().collect::<Vec<NameRecord>>();
         records.retain(|record| record.platform_id != 1);
         // let existing_name = best_familyname(font).unwrap_or("New Font".to_string());
         let mut removed_names: HashMap<StringId, String> = HashMap::new();
-        let (new_family_name, new_style_name, removeable_name_ids) =
+        let full_name = family_name.to_string() + " " + &style_name;
+        let ps_name = (family_name.to_string() + "-" + &style_name).replace(" ", "");
+        let removeable_name_ids =
             if ["Italic", "Bold Italic", "Bold", "Regular"].contains(&style_name.as_str()) {
-                (
-                    family_name.to_string(),
-                    style_name,
-                    vec![
-                        StringId::TYPOGRAPHIC_FAMILY_NAME,
-                        StringId::TYPOGRAPHIC_SUBFAMILY_NAME,
-                        StringId::new(21),
-                        StringId::new(22),
-                    ],
-                )
+                rewrite_or_insert(&mut records, StringId::FAMILY_NAME, family_name);
+                rewrite_or_insert(&mut records, StringId::SUBFAMILY_NAME, &style_name);
+                rewrite_or_insert(&mut records, StringId::FULL_NAME, &full_name);
+                rewrite_or_insert(&mut records, StringId::POSTSCRIPT_NAME, &ps_name);
+                vec![
+                    StringId::TYPOGRAPHIC_FAMILY_NAME,
+                    StringId::TYPOGRAPHIC_SUBFAMILY_NAME,
+                    StringId::new(21),
+                    StringId::new(22),
+                ]
             } else {
                 let style_tokens = style_name.split_whitespace().collect::<Vec<_>>();
                 let mut new_family_name_tokens = family_name.split_whitespace().collect::<Vec<_>>();
@@ -355,28 +395,21 @@ mod fontations {
                 new_family_name_tokens.extend(additional_tokens);
                 let new_family_name = new_family_name_tokens.join(" ");
                 let new_style_name = if is_italic { "Italic" } else { "Regular" };
-                rewrite_or_insert(
-                    &mut records,
-                    StringId::TYPOGRAPHIC_FAMILY_NAME,
-                    family_name.to_string(),
-                );
+
+                rewrite_or_insert(&mut records, StringId::FAMILY_NAME, &new_family_name);
+                rewrite_or_insert(&mut records, StringId::SUBFAMILY_NAME, new_style_name);
+                rewrite_or_insert(&mut records, StringId::FULL_NAME, &full_name);
+                rewrite_or_insert(&mut records, StringId::POSTSCRIPT_NAME, &ps_name);
+                rewrite_or_insert(&mut records, StringId::TYPOGRAPHIC_FAMILY_NAME, family_name);
                 rewrite_or_insert(
                     &mut records,
                     StringId::TYPOGRAPHIC_SUBFAMILY_NAME,
-                    style_name,
+                    &style_name,
                 );
-                (
-                    new_family_name,
-                    new_style_name.to_string(),
-                    vec![StringId::new(21), StringId::new(22)],
-                )
+
+                vec![StringId::new(21), StringId::new(22)]
             };
-        let full_name = new_family_name.to_string() + " " + &new_style_name;
-        let ps_name = (new_family_name.to_string() + "-" + &new_style_name).replace(" ", "");
-        rewrite_or_insert(&mut records, StringId::FAMILY_NAME, family_name.to_string());
-        rewrite_or_insert(&mut records, StringId::SUBFAMILY_NAME, new_style_name);
-        rewrite_or_insert(&mut records, StringId::FULL_NAME, full_name);
-        rewrite_or_insert(&mut records, StringId::POSTSCRIPT_NAME, ps_name);
+
         let mut to_delete = vec![];
         for name_id in removeable_name_ids.into_iter() {
             if let Some(existing) = records.iter_mut().position(|r| {
@@ -405,32 +438,57 @@ mod fontations {
             // Also do the axis value array
             if let Some(axis_values) = stat.offset_to_axis_values.as_deref_mut() {
                 for axis_value in axis_values.iter_mut() {
-                    match &mut **axis_value {
-                        AxisValue::Format1(ref mut axis_value) => {
-                            if let Some(old_name) = removed_names.get(&axis_value.value_name_id) {
-                                axis_value.value_name_id = find_or_add_name(&mut records, old_name);
-                            }
-                        }
-                        AxisValue::Format2(ref mut axis_value) => {
-                            if let Some(old_name) = removed_names.get(&axis_value.value_name_id) {
-                                axis_value.value_name_id = find_or_add_name(&mut records, old_name);
-                            }
-                        }
-                        AxisValue::Format3(ref mut axis_value) => {
-                            if let Some(old_name) = removed_names.get(&axis_value.value_name_id) {
-                                axis_value.value_name_id = find_or_add_name(&mut records, old_name);
-                            }
-                        }
-                        AxisValue::Format4(_axis_value_format4) => {
-                            // We don't do any magic here in Python; maybe we should...
+                    if let Some(name_id) = axis_value.value_name_id() {
+                        if let Some(old_name) = removed_names.get(&name_id) {
+                            axis_value.set_value_name_id(find_or_add_name(&mut records, old_name));
                         }
                     }
                 }
             }
             newfont.add_table(&stat)?;
         }
+
+        if let Some(existing) = records.iter_mut().find(|r| {
+            r.name_id == StringId::UNIQUE_ID
+                && r.platform_id == 3
+                && r.encoding_id == 1
+                && r.language_id == 0x409
+        }) {
+            if let Some(new_unique) = new_unique_id(font, &full_name, &ps_name, &existing.string) {
+                *existing.string = new_unique;
+            }
+        }
+        // if aggressive.unwrap_or_default() == RenameAggressiveness::Aggressive {}
         name.name_record = records;
         Ok(name)
+    }
+
+    fn new_unique_id(
+        font: &FontRef<'_>,
+        full_name: &str,
+        ps_name: &str,
+        existing: &str,
+    ) -> Option<String> {
+        let new = existing.to_string();
+        if let Some(existing_full_name) = font
+            .localized_strings(StringId::FULL_NAME)
+            .english_or_first()
+        {
+            let existing_full_name = existing_full_name.chars().collect::<String>();
+            if new.contains(&existing_full_name) {
+                return Some(new.replace(&existing_full_name, full_name));
+            }
+        }
+        if let Some(existing_ps_name) = font
+            .localized_strings(StringId::POSTSCRIPT_NAME)
+            .english_or_first()
+        {
+            let existing_ps_name = existing_ps_name.chars().collect::<String>();
+            if new.contains(&existing_ps_name) {
+                return Some(new.replace(&existing_ps_name, ps_name));
+            }
+        }
+        None
     }
 
     fn font_axes(font: &FontRef) -> Result<Vec<FontAxis>, ReadError> {
@@ -481,6 +539,145 @@ mod fontations {
             .replace("Regular Italic", "Italic");
         Ok(name)
     }
+
+    /// Return a font with an fvar table which conforms to the Google Fonts instance spec:
+    /// https://github.com/googlefonts/gf-docs/tree/main/Spec#fvar-instances
+    pub fn build_fvar_instances(
+        font: FontRef,
+        axis_dflts: Option<HashMap<String, f32>>,
+    ) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
+        let axis_registry = AxisRegistry::new();
+        let mut new_font = FontBuilder::new();
+        let mut fvar: Fvar = font.fvar().unwrap().to_owned_table();
+        let mut name_table: Name = font.name().unwrap().to_owned_table();
+        let family_name = best_familyname(&font).unwrap_or("New Font".to_string());
+        let style_name = best_subfamilyname(&font).unwrap_or("Regular".to_string());
+        // Protect name IDs which are shared with the STAT table
+        let mut stat_name_ids = HashSet::new();
+        if let Ok(stat) = font.stat() {
+            for axis in stat.design_axes()?.iter() {
+                stat_name_ids.insert(axis.axis_name_id());
+            }
+            if let Some(axis_values_offset) = stat.offset_to_axis_values().transpose()? {
+                for axis_value in axis_values_offset.axis_values().iter().flatten() {
+                    stat_name_ids.insert(axis_value.value_name_id());
+                }
+            }
+        }
+
+        // Remove old fvar subfamily and ps name records
+        for instance in fvar.axis_instance_arrays.instances.iter() {
+            if instance.subfamily_name_id != StringId::SUBFAMILY_NAME
+                && instance.subfamily_name_id != StringId::TYPOGRAPHIC_SUBFAMILY_NAME
+                && !stat_name_ids.contains(&instance.subfamily_name_id)
+            {
+                name_table
+                    .name_record
+                    .retain(|record| record.name_id != instance.subfamily_name_id);
+            }
+            if let Some(psname) = instance.post_script_name_id {
+                if psname != StringId::POSTSCRIPT_NAME {
+                    name_table
+                        .name_record
+                        .retain(|record| record.name_id != psname);
+                }
+            }
+        }
+
+        let axes = font_axes(&font)?;
+        let fvar_defaults = axis_registry.name_particles(&axes);
+
+        let axis_dflts = axis_dflts.unwrap_or_else(|| {
+            fvar_defaults
+                .iter()
+                .map(|(tag, particle)| (tag.to_string(), particle.value))
+                .collect()
+        });
+
+        let is_italic = style_name.contains("Italic");
+        let is_roman_and_italic =
+            fvar_defaults.contains_key("ital") || fvar_defaults.contains_key("slnt");
+
+        let mut fallbacks: HashMap<String, Vec<FallbackProto>> =
+            axis_registry.fallbacks(&axes).collect();
+        if !fvar_defaults.contains_key("wght") {
+            fallbacks.insert(
+                "wght".to_string(),
+                axis_registry
+                    .get("wght")
+                    .unwrap()
+                    .fallback
+                    .iter()
+                    .filter(|f| f.value == Some(400.0))
+                    .take(1)
+                    .cloned()
+                    .collect(),
+            );
+        }
+        let wght_fallbacks = fallbacks.get("wght").ok_or("No wght fallbacks")?;
+        let min_ital: Option<f32> = axes
+            .iter()
+            .filter(|axis| axis.tag == "ital")
+            .map(|axis| axis.min)
+            .next();
+        let min_slnt: Option<f32> = axes
+            .iter()
+            .filter(|axis| axis.tag == "ital")
+            .map(|axis| axis.min)
+            .next();
+
+        let mut instances = vec![];
+        let do_italic = if is_roman_and_italic {
+            vec![false, true]
+        } else if is_italic {
+            vec![true]
+        } else {
+            vec![false]
+        };
+        for italic in do_italic.into_iter() {
+            for fallback in wght_fallbacks.iter() {
+                let mut name = fallback.name.as_ref().unwrap().to_string();
+                if italic {
+                    name += " Italic";
+                }
+                name = name.replace("Regular Italic", "Italic");
+                let mut coordinates = axis_dflts.clone();
+                if fvar_defaults.contains_key("wght") {
+                    coordinates.insert("wght".to_string(), fallback.value.unwrap());
+                }
+                if italic {
+                    if let Some(min) = min_ital {
+                        coordinates.insert("ital".to_string(), min);
+                    } else if let Some(min) = min_slnt {
+                        coordinates.insert("slnt".to_string(), min);
+                    }
+                }
+                let subfamily_name_id = add_name(&mut name_table.name_record, &name);
+                let post_script_name_id = add_name(
+                    &mut name_table.name_record,
+                    &format!("{}-{}", family_name, name).replace(" ", ""),
+                );
+                let coordinates = axes
+                    .iter()
+                    .map(|axis| coordinates.get(&axis.tag).cloned().unwrap_or(axis.default))
+                    .map(|val| Fixed::from_f64(val as f64))
+                    .collect();
+                instances.push(InstanceRecord {
+                    subfamily_name_id,
+                    flags: 0,
+                    coordinates,
+                    post_script_name_id: Some(post_script_name_id),
+                })
+            }
+        }
+
+        fvar.axis_instance_arrays.instances = instances;
+
+        new_font.add_table(&fvar)?;
+        name_table.name_record.sort_by_key(|record| record.name_id);
+        new_font.add_table(&name_table)?;
+        Ok(new_font.copy_missing_tables(font).build())
+    }
 }
 
 #[cfg(feature = "fontations")]
@@ -488,6 +685,8 @@ pub use fontations::*;
 
 #[cfg(test)]
 mod tests {
+    use skrifa::{string::StringId, MetadataProvider};
+
     use super::*;
 
     #[test]
@@ -495,5 +694,366 @@ mod tests {
         let ar = AxisRegistry::new();
         assert!(ar.contains_key("opsz"));
         assert_eq!(ar["opsz"].display_name.as_deref(), Some("Optical Size"));
+    }
+    const MAVEN_PRO: &[u8; 83576] = include_bytes!("../tests/data/MavenPro-Regular.ttf");
+    const OPEN_SANS: &[u8; 532636] = include_bytes!("../tests/data/OpenSans[wdth,wght].ttf");
+    const OPEN_SANS_ITALIC: &[u8; 584112] =
+        include_bytes!("../tests/data/OpenSans-Italic[wdth,wght].ttf");
+    const OPEN_SANS_CONDENSED: &[u8; 973780] =
+        include_bytes!("../tests/data/OpenSansCondensed[wght].ttf");
+    const OPEN_SANS_CONDENSED_ITALIC: &[u8; 1054652] =
+        include_bytes!("../tests/data/OpenSansCondensed-Italic[wght].ttf");
+    const WONKY: &[u8; 532564] = include_bytes!("../tests/data/Wonky[wdth,wght].ttf");
+    const PLAYFAIR: &[u8; 1150824] = include_bytes!("../tests/data/Playfair[opsz,wdth,wght].ttf");
+
+    struct NameTableTestCase {
+        binary: &'static [u8],
+        family_name: &'static str,
+        subfamily_name: Option<&'static str>,
+        siblings: Vec<&'static [u8]>,
+        expectations: Vec<(StringId, Option<&'static str>)>,
+    }
+
+    #[test]
+    fn test_name_table() {
+        let cases: Vec<NameTableTestCase> = vec![
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("Regular"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Maven Pro")),
+                    (StringId::SUBFAMILY_NAME, Some("Regular")),
+                    (StringId::UNIQUE_ID, Some("2.003;NONE;MavenPro-Regular")),
+                    (StringId::FULL_NAME, Some("Maven Pro Regular")),
+                    (StringId::POSTSCRIPT_NAME, Some("MavenPro-Regular")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                ],
+            },
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("Italic"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Maven Pro")),
+                    (StringId::SUBFAMILY_NAME, Some("Italic")),
+                    (StringId::UNIQUE_ID, Some("2.003;NONE;MavenPro-Italic")),
+                    (StringId::FULL_NAME, Some("Maven Pro Italic")),
+                    (StringId::POSTSCRIPT_NAME, Some("MavenPro-Italic")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                ],
+            },
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("Bold"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Maven Pro")),
+                    (StringId::SUBFAMILY_NAME, Some("Bold")),
+                    (StringId::UNIQUE_ID, Some("2.003;NONE;MavenPro-Bold")),
+                    (StringId::FULL_NAME, Some("Maven Pro Bold")),
+                    (StringId::POSTSCRIPT_NAME, Some("MavenPro-Bold")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                ],
+            },
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("Bold Italic"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Maven Pro")),
+                    (StringId::SUBFAMILY_NAME, Some("Bold Italic")),
+                    (StringId::UNIQUE_ID, Some("2.003;NONE;MavenPro-BoldItalic")),
+                    (StringId::FULL_NAME, Some("Maven Pro Bold Italic")),
+                    (StringId::POSTSCRIPT_NAME, Some("MavenPro-BoldItalic")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                ],
+            },
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("Black"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Maven Pro Black")),
+                    (StringId::SUBFAMILY_NAME, Some("Regular")),
+                    (StringId::UNIQUE_ID, Some("2.003;NONE;MavenPro-Black")),
+                    (StringId::FULL_NAME, Some("Maven Pro Black")),
+                    (StringId::POSTSCRIPT_NAME, Some("MavenPro-Black")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, Some("Maven Pro")),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, Some("Black")),
+                ],
+            },
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("Black Italic"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Maven Pro Black")),
+                    (StringId::SUBFAMILY_NAME, Some("Italic")),
+                    (StringId::UNIQUE_ID, Some("2.003;NONE;MavenPro-BlackItalic")),
+                    (StringId::FULL_NAME, Some("Maven Pro Black Italic")),
+                    (StringId::POSTSCRIPT_NAME, Some("MavenPro-BlackItalic")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, Some("Maven Pro")),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, Some("Black Italic")),
+                ],
+            },
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("ExtraLight Italic"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Maven Pro ExtraLight")),
+                    (StringId::SUBFAMILY_NAME, Some("Italic")),
+                    (
+                        StringId::UNIQUE_ID,
+                        Some("2.003;NONE;MavenPro-ExtraLightItalic"),
+                    ),
+                    (StringId::FULL_NAME, Some("Maven Pro ExtraLight Italic")),
+                    (StringId::POSTSCRIPT_NAME, Some("MavenPro-ExtraLightItalic")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, Some("Maven Pro")),
+                    (
+                        StringId::TYPOGRAPHIC_SUBFAMILY_NAME,
+                        Some("ExtraLight Italic"),
+                    ),
+                ],
+            },
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("UltraExpanded Regular"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Maven Pro UltraExpanded")),
+                    (StringId::SUBFAMILY_NAME, Some("Regular")),
+                    (
+                        StringId::UNIQUE_ID,
+                        Some("2.003;NONE;MavenProUltraExpanded-Regular"),
+                    ),
+                    (StringId::FULL_NAME, Some("Maven Pro UltraExpanded Regular")),
+                    (
+                        StringId::POSTSCRIPT_NAME,
+                        Some("MavenProUltraExpanded-Regular"),
+                    ),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                ],
+            },
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("Condensed ExtraLight Italic"),
+                siblings: vec![],
+                expectations: vec![
+                    (
+                        StringId::FAMILY_NAME,
+                        Some("Maven Pro Condensed ExtraLight"),
+                    ),
+                    (StringId::SUBFAMILY_NAME, Some("Italic")),
+                    (
+                        StringId::UNIQUE_ID,
+                        Some("2.003;NONE;MavenProCondensed-ExtraLightItalic"),
+                    ),
+                    (
+                        StringId::FULL_NAME,
+                        Some("Maven Pro Condensed ExtraLight Italic"),
+                    ),
+                    (
+                        StringId::POSTSCRIPT_NAME,
+                        Some("MavenProCondensed-ExtraLightItalic"),
+                    ),
+                    (
+                        StringId::TYPOGRAPHIC_FAMILY_NAME,
+                        Some("Maven Pro Condensed"),
+                    ),
+                    (
+                        StringId::TYPOGRAPHIC_SUBFAMILY_NAME,
+                        Some("ExtraLight Italic"),
+                    ),
+                ],
+            },
+            NameTableTestCase {
+                binary: OPEN_SANS,
+                family_name: "Open Sans",
+                subfamily_name: None,
+                siblings: vec![
+                    OPEN_SANS_ITALIC,
+                    OPEN_SANS_CONDENSED,
+                    OPEN_SANS_CONDENSED_ITALIC,
+                ],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Open Sans")),
+                    (StringId::SUBFAMILY_NAME, Some("Regular")),
+                    (StringId::UNIQUE_ID, Some("3.000;GOOG;OpenSans-Regular")),
+                    (StringId::FULL_NAME, Some("Open Sans Regular")),
+                    (StringId::POSTSCRIPT_NAME, Some("OpenSans-Regular")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                    (
+                        StringId::VARIATIONS_POSTSCRIPT_NAME_PREFIX,
+                        Some("OpenSans"),
+                    ),
+                ],
+            },
+            NameTableTestCase {
+                binary: OPEN_SANS_ITALIC,
+                family_name: "Open Sans",
+                subfamily_name: None,
+                siblings: vec![OPEN_SANS, OPEN_SANS_CONDENSED, OPEN_SANS_CONDENSED_ITALIC],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Open Sans")),
+                    (StringId::SUBFAMILY_NAME, Some("Italic")),
+                    (StringId::UNIQUE_ID, Some("3.000;GOOG;OpenSans-Italic")),
+                    (StringId::FULL_NAME, Some("Open Sans Italic")),
+                    (StringId::POSTSCRIPT_NAME, Some("OpenSans-Italic")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                    (
+                        StringId::VARIATIONS_POSTSCRIPT_NAME_PREFIX,
+                        Some("OpenSansItalic"),
+                    ),
+                ],
+            },
+            NameTableTestCase {
+                binary: OPEN_SANS_CONDENSED,
+                family_name: "Open Sans Condensed",
+                subfamily_name: None,
+                siblings: vec![OPEN_SANS, OPEN_SANS_ITALIC, OPEN_SANS_CONDENSED_ITALIC],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Open Sans Condensed")),
+                    (StringId::SUBFAMILY_NAME, Some("Regular")),
+                    (
+                        StringId::UNIQUE_ID,
+                        Some("3.000;GOOG;OpenSansCondensed-Regular"),
+                    ),
+                    (StringId::FULL_NAME, Some("Open Sans Condensed Regular")),
+                    (StringId::POSTSCRIPT_NAME, Some("OpenSansCondensed-Regular")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                    (
+                        StringId::VARIATIONS_POSTSCRIPT_NAME_PREFIX,
+                        Some("OpenSansCondensed"),
+                    ),
+                ],
+            },
+            NameTableTestCase {
+                binary: OPEN_SANS_CONDENSED_ITALIC,
+                family_name: "Open Sans Condensed",
+                subfamily_name: None,
+                siblings: vec![OPEN_SANS, OPEN_SANS_ITALIC, OPEN_SANS_CONDENSED],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Open Sans Condensed")),
+                    (StringId::SUBFAMILY_NAME, Some("Italic")),
+                    (
+                        StringId::UNIQUE_ID,
+                        Some("3.000;GOOG;OpenSansCondensed-Italic"),
+                    ),
+                    (StringId::FULL_NAME, Some("Open Sans Condensed Italic")),
+                    (StringId::POSTSCRIPT_NAME, Some("OpenSansCondensed-Italic")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                    (
+                        StringId::VARIATIONS_POSTSCRIPT_NAME_PREFIX,
+                        Some("OpenSansCondensedItalic"),
+                    ),
+                ],
+            },
+            // Bad names
+            NameTableTestCase {
+                binary: MAVEN_PRO,
+                family_name: "Maven Pro",
+                subfamily_name: Some("Fat"),
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Maven Pro Fat")),
+                    (StringId::SUBFAMILY_NAME, Some("Regular")),
+                    (StringId::UNIQUE_ID, Some("2.003;NONE;MavenProFat-Regular")),
+                    (StringId::FULL_NAME, Some("Maven Pro Fat Regular")),
+                    (StringId::POSTSCRIPT_NAME, Some("MavenProFat-Regular")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                ],
+            },
+            NameTableTestCase {
+                binary: WONKY,
+                family_name: "Wonky",
+                subfamily_name: None,
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Wonky")),
+                    (StringId::SUBFAMILY_NAME, Some("Regular")),
+                    (StringId::UNIQUE_ID, Some("3.000;GOOG;Wonky-Regular")),
+                    (StringId::FULL_NAME, Some("Wonky Regular")),
+                    (StringId::POSTSCRIPT_NAME, Some("Wonky-Regular")),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, None),
+                    (StringId::TYPOGRAPHIC_SUBFAMILY_NAME, None),
+                ],
+            },
+            NameTableTestCase {
+                binary: PLAYFAIR,
+                family_name: "Playfair",
+                subfamily_name: None,
+                siblings: vec![],
+                expectations: vec![
+                    (StringId::FAMILY_NAME, Some("Playfair SemiExpanded Light")),
+                    (StringId::SUBFAMILY_NAME, Some("Regular")),
+                    (
+                        StringId::UNIQUE_ID,
+                        Some("2.000;FTH;Playfair-SemiExpandedLight"),
+                    ),
+                    (StringId::FULL_NAME, Some("Playfair SemiExpanded Light")),
+                    (
+                        StringId::POSTSCRIPT_NAME,
+                        Some("Playfair-SemiExpandedLight"),
+                    ),
+                    (StringId::TYPOGRAPHIC_FAMILY_NAME, Some("Playfair")),
+                    (
+                        StringId::TYPOGRAPHIC_SUBFAMILY_NAME,
+                        Some("SemiExpanded Light"),
+                    ),
+                ],
+            },
+        ];
+        for (ix, case) in cases.iter().enumerate() {
+            let font = FontRef::new(case.binary).expect("Failed to read font");
+            let siblings: Vec<FontRef> = case
+                .siblings
+                .iter()
+                .map(|b| FontRef::new(b).unwrap())
+                .collect();
+            let result = build_name_table(
+                font,
+                Some(case.family_name),
+                case.subfamily_name,
+                &siblings,
+                None,
+            )
+            .unwrap();
+            let result_font = FontRef::new(&result).unwrap();
+            for (id, expectation) in case.expectations.iter() {
+                let record = result_font.localized_strings(*id).english_or_first();
+                if let Some(expectation) = expectation {
+                    assert_eq!(
+                        record.unwrap().chars().collect::<String>(),
+                        *expectation,
+                        "Case {}, {}",
+                        ix + 1,
+                        id
+                    );
+                } else {
+                    assert!(record.is_none());
+                }
+            }
+        }
     }
 }

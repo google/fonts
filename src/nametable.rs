@@ -36,18 +36,18 @@ pub(crate) fn best_subfamilyname(font: &FontRef) -> Option<String> {
     )
 }
 
-pub(crate) fn rewrite_or_insert(records: &mut Vec<NameRecord>, name_id: StringId, string: String) {
+pub(crate) fn rewrite_or_insert(records: &mut Vec<NameRecord>, name_id: StringId, string: &str) {
     if let Some(existing) = records.iter_mut().find(|r| {
         r.name_id == name_id && r.platform_id == 3 && r.encoding_id == 1 && r.language_id == 0x409
     }) {
-        *existing.string = string.into();
+        *existing.string = string.to_string();
     } else {
         records.push(NameRecord {
             platform_id: 3,
             encoding_id: 1,
             language_id: 0x409,
             name_id,
-            string: string.into(),
+            string: string.to_string().into(),
         });
     }
 }
@@ -61,6 +61,10 @@ pub(crate) fn find_or_add_name(records: &mut Vec<NameRecord>, string: &str) -> S
     }) {
         return existing.name_id;
     }
+    add_name(records, string)
+}
+
+pub(crate) fn add_name(records: &mut Vec<NameRecord>, string: &str) -> StringId {
     let existing_ids: HashSet<u16> = records.iter().map(|r| r.name_id.to_u16()).collect();
     let mut id: u16 = 256;
     while existing_ids.contains(&id) {

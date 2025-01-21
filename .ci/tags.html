@@ -6,7 +6,9 @@
 
 <body>
   <div id="app">
-    <link v-for="family in uniqueFamilies" :href="family.toUrl()" rel="stylesheet">
+    <div id="fonts">
+      <link v-for="family in uniqueFamilies" :href="family.toUrl()" rel="stylesheet">
+    </div>
 
     <!-- Navbar -->
     <div style="max-height: 3rem" class="navbar bg-base-100 fixed left-0 top-0 shadow">
@@ -175,7 +177,7 @@
     toUrl() {
         let baseUrl = "https://fonts.googleapis.com/css2?family=";
         if (this.axes.length === 0) {
-            return baseUrl + this.name;
+            return baseUrl + this.name.replace(" ", "+");
         }
         let tag = this.toTag();
         return baseUrl + tag.replace(/\|/g, ",");
@@ -216,6 +218,11 @@
         <div class="divider"></div>
       </div>
     `,
+    mounted() {
+      if (this.family.axes.length !== 0) {
+        this.$el.children[1].animate(this.family.toAnimation(), { duration: 1000, iterations: Infinity, direction: 'alternate' });
+      }
+    },
     methods: {
       edited() {
         this.$emit('edited', this.family);
@@ -229,7 +236,7 @@
         return this.$root.familyPangram(this.family);
       },
       familyStyle() {
-        return `font-family: "${this.family.name}", "Adobe NotDef"; font-size: 32pt;`;
+        return `font-family: ${this.family.name}; font-size: 32pt;`;
       },
       familyDisplayName() {
         return this.family.displayName;
@@ -310,10 +317,10 @@
         const seen = new Set();
         let res = [];
         for (let family of this.tags) {
-          if (seen.has(family.name)) {
+          if (seen.has(family.displayName)) {
             continue;
           }
-          seen.add(family.name);
+          seen.add(family.displayName);
           res.push(family);
         }
         return res;
@@ -424,6 +431,16 @@
         this.history.push(`+ ${newFamily.name},${newFamily.category},${newFamily.score}`);
         // Remove all axis inputs for the next family
         this.newAxes = [];
+
+        // display results correctly by ensuring fonts are correct
+        // update fonts
+        const fonts = document.getElementById("fonts").children
+        const newUrl = newFamily.toUrl();
+        for (let i = 0; i < fonts.length; i++) {
+          if (newUrl.includes(fonts[i].href)) {
+            fonts[i].href = newFamily.toUrl();
+          }
+        }
 
       },
       copyFamily() {
@@ -550,4 +567,3 @@
       src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
   }
 </style>
-  

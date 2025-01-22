@@ -825,7 +825,7 @@ mod fontations {
             if seen_axes.contains(&tag) {
                 continue;
             }
-            println!("Adding {} in names", axis);
+            // println!("Adding {} in names", axis);
             seen_axes.insert(tag);
 
             let ar_axis = axis_registry.get(axis).unwrap();
@@ -852,7 +852,7 @@ mod fontations {
             }
             seen_axes.insert(tag);
 
-            println!("Adding {} in siblings", axis);
+            // println!("Adding {} in siblings", axis);
             let ar_axis = axis_registry.get(&axis).unwrap();
             let elided_value = ar_axis.default_value();
             axis_records.push(AxisRecord {

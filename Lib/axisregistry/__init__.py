@@ -4,7 +4,6 @@ from fontTools.misc.testTools import getXML
 from fontTools.otlLib.builder import buildStatTable
 from fontTools.varLib.instancer.names import _updateUniqueIdNameRecord, NameID
 from fontTools.ttLib.tables._f_v_a_r import NamedInstance
-from pkg_resources import resource_filename
 from google.protobuf import text_format
 from collections import OrderedDict
 from axisregistry.axes_pb2 import AxisProto
@@ -13,6 +12,13 @@ from itertools import chain
 import logging
 from glob import glob
 import os
+import sys
+
+if sys.version_info < (3, 10):
+    from importlib_resources import files
+else:
+    from importlib.resources import files
+
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -53,19 +59,27 @@ GF_STATIC_STYLES = OrderedDict(
 )
 
 
-def load_protobuf(klass, path):
+def load_protobuf(klass, data):
     message = klass()
-    with open(path, "rb") as text_data:
-        text_format.Merge(text_data.read(), message)
+    text_format.Merge(data, message)
     return message
 
 
 class AxisRegistry:
-    def __init__(self, fp=resource_filename("axisregistry", "data")):
-        axis_fps = [fp for fp in glob(os.path.join(fp, "*.textproto"))]
+    def __init__(self, fp=None):
+        if fp is not None:
+            protos = [
+                open(fp).read() for fp in glob.glob(os.path.join(fp, "*.textproto"))
+            ]
+        else:
+            protos = [
+                fp.read_text(encoding="utf-8")
+                for fp in files("axisregistry.data").iterdir()
+                if fp.name.endswith(".textproto")
+            ]
         self._data = {}
-        for fp in axis_fps:
-            axis = load_protobuf(AxisProto, fp)
+        for proto in protos:
+            axis = load_protobuf(AxisProto, proto)
             self._data[axis.tag] = axis
 
     def __getitem__(self, k):

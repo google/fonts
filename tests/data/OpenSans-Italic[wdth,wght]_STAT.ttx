@@ -1,6 +1,6 @@
 <Version value="0x00010001"/>
 <DesignAxisRecordSize value="8"/>
-<!-- DesignAxisCount=4 -->
+<!-- DesignAxisCount=3 -->
 <DesignAxisRecord>
   <Axis index="0">
     <AxisTag value="wght"/>
@@ -17,13 +17,8 @@
     <AxisNameID value="260"/>  <!-- Italic -->
     <AxisOrdering value="2"/>
   </Axis>
-  <Axis index="3">
-    <AxisTag value="ital"/>
-    <AxisNameID value="260"/>  <!-- Italic -->
-    <AxisOrdering value="3"/>
-  </Axis>
 </DesignAxisRecord>
-<!-- AxisValueCount=11 -->
+<!-- AxisValueCount=10 -->
 <AxisValueArray>
   <AxisValue index="0" Format="1">
     <AxisIndex value="0"/>
@@ -85,13 +80,6 @@
     <Flags value="0"/>
     <ValueNameID value="2"/>  <!-- Italic -->
     <Value value="1.0"/>
-  </AxisValue>
-  <AxisValue index="10" Format="3">
-    <AxisIndex value="3"/>
-    <Flags value="2"/>  <!-- ElidableAxisValueName -->
-    <ValueNameID value="289"/>  <!-- Roman -->
-    <Value value="0.0"/>
-    <LinkedValue value="1.0"/>
   </AxisValue>
 </AxisValueArray>
 <ElidedFallbackNameID value="2"/>  <!-- Italic -->

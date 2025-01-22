@@ -169,7 +169,11 @@
         const fontAxes = this.axes.map(axis => axis.name)
         tag.push(fontAxes.join("|") + "@");
         this.axes.forEach(ax => {
-            tag.push(`${ax.min}..${ax.max}|`);
+            if (ax.min === ax.max) {
+                tag.push(`${ax.min}|`);
+            } else {
+                tag.push(`${ax.min}..${ax.max}|`);
+            }
         });
         return tag.join("").slice(0, -1);
     }

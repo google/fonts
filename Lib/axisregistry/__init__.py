@@ -229,6 +229,7 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     for axis, fallback in fallbacks_in_names:
         if axis in seen_axes:
             continue
+        seen_axes.add(axis)
         a = {
             "tag": axis,
             "name": axis_registry[axis].display_name,
@@ -242,6 +243,7 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     for axis, fallback in fallbacks_in_siblings:
         if axis in seen_axes:
             continue
+        seen_axes.add(axis)
         elided_value = axis_registry[axis].default_value
         elided_fallback = axis_registry.fallback_for_value(axis, elided_value)
         a = {

@@ -1440,7 +1440,7 @@ mod tests {
                 value("wdth", "Condensed", 75.0, None),
                 value("wdth", "SemiCondensed", 87.5, None),
                 value("wdth", "Normal", 100.0, None),
-                value("ital", "Italic", 1.0, Some(0.0)),
+                value("ital", "Italic", 1.0, None),
             ]
         )
     }

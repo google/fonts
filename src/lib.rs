@@ -717,8 +717,9 @@ mod fontations {
         let mut new_font = FontBuilder::new();
         let axes = font_axes(&font)?;
         let axis_registry = AxisRegistry::new();
-        let fallbacks_in_fvar: HashMap<String, Vec<FallbackProto>> =
+        let fallbacks_in_fvar: IndexMap<String, Vec<FallbackProto>> =
             axis_registry.fallbacks(&axes).collect();
+
         let mut fallbacks_in_siblings: Vec<(String, FallbackProto)> = vec![];
         for fnt in siblings {
             let family_name = best_familyname(fnt).unwrap_or("New Font".to_string());
@@ -824,6 +825,7 @@ mod fontations {
             if seen_axes.contains(&tag) {
                 continue;
             }
+            println!("Adding {} in names", axis);
             seen_axes.insert(tag);
 
             let ar_axis = axis_registry.get(axis).unwrap();
@@ -848,6 +850,9 @@ mod fontations {
             if seen_axes.contains(&tag) {
                 continue;
             }
+            seen_axes.insert(tag);
+
+            println!("Adding {} in siblings", axis);
             let ar_axis = axis_registry.get(&axis).unwrap();
             let elided_value = ar_axis.default_value();
             axis_records.push(AxisRecord {
@@ -863,12 +868,16 @@ mod fontations {
                 })
             }
         }
+        axis_records.iter_mut().enumerate().for_each(|(i, record)| {
+            record.ordering = i as u16;
+        });
 
         let stat_builder = StatBuilder {
             records: axis_records,
             values,
         };
         let stat = stat_builder.build(&mut name.name_record);
+        name.name_record.sort_by_key(|record| record.name_id);
         new_font.add_table(&name)?;
         new_font.add_table(&stat)?;
         Ok(new_font.copy_missing_tables(font).build())
@@ -880,7 +889,15 @@ pub use fontations::*;
 
 #[cfg(test)]
 mod tests {
-    use skrifa::{string::StringId, MetadataProvider};
+    use pretty_assertions::assert_eq;
+    use skrifa::{string::StringId, MetadataProvider, Tag};
+    use write_fonts::{
+        from_obj::ToOwnedTable,
+        tables::{
+            name::Name,
+            stat::{AxisValue, Stat},
+        },
+    };
 
     use super::*;
 
@@ -1285,5 +1302,146 @@ mod tests {
             }
         ];
         run_name_table_tests(&cases, Some(RenameAggressiveness::Conservative));
+    }
+
+    #[derive(Debug, Clone, PartialEq)]
+    struct DumpStatValue<'a> {
+        axis: Tag,
+        name: &'a str,
+        value: f32,
+        linked: Option<f32>,
+    }
+
+    fn dump_stat_values<'a>(stat: &Stat, name: &'a Name) -> Vec<DumpStatValue<'a>> {
+        let mut values = vec![];
+        let tags = stat
+            .design_axes
+            .iter()
+            .map(|a| a.axis_tag)
+            .collect::<Vec<_>>();
+        if let Some(axis_values) = stat.offset_to_axis_values.as_ref() {
+            for axis_value in axis_values.iter() {
+                match axis_value.as_ref() {
+                    AxisValue::Format1(v) => values.push(DumpStatValue {
+                        axis: tags[v.axis_index as usize],
+                        name: name
+                            .name_record
+                            .iter()
+                            .find(|record| record.name_id == v.value_name_id)
+                            .map(|record| record.string.as_str())
+                            .unwrap_or(""),
+                        value: v.value.to_f32(),
+                        linked: None,
+                    }),
+                    AxisValue::Format2(_) => {
+                        panic!("I didn't produce this")
+                    }
+                    AxisValue::Format3(v) => values.push(DumpStatValue {
+                        axis: tags[v.axis_index as usize],
+                        name: name
+                            .name_record
+                            .iter()
+                            .find(|record| record.name_id == v.value_name_id)
+                            .map(|record| record.string.as_str())
+                            .unwrap_or(""),
+                        value: v.value.to_f32(),
+                        linked: Some(v.linked_value.to_f32()),
+                    }),
+                    AxisValue::Format4(_) => {
+                        panic!("I didn't produce this")
+                    }
+                }
+            }
+        }
+        values
+    }
+
+    fn value<'a>(axis: &str, name: &'a str, value: f32, linked: Option<f32>) -> DumpStatValue<'a> {
+        DumpStatValue {
+            axis: Tag::new_checked(axis.as_bytes()).unwrap(),
+            name,
+            value,
+            linked,
+        }
+    }
+
+    #[test]
+    fn test_build_stat() {
+        let font_data = build_stat(
+            FontRef::new(OPEN_SANS).unwrap(),
+            &[
+                FontRef::new(OPEN_SANS_ITALIC).unwrap(),
+                FontRef::new(OPEN_SANS_CONDENSED).unwrap(),
+                FontRef::new(OPEN_SANS_CONDENSED_ITALIC).unwrap(),
+            ],
+        )
+        .unwrap();
+        let new_font = FontRef::new(&font_data).unwrap();
+        let new_stat: Stat = new_font.stat().unwrap().to_owned_table();
+        let name: Name = new_font.name().unwrap().to_owned_table();
+        // We expect three axes, wght, wdth, and ital
+        assert_eq!(
+            new_stat
+                .design_axes
+                .iter()
+                .map(|a| a.axis_tag)
+                .collect::<Vec<_>>(),
+            vec![Tag::new(b"wght"), Tag::new(b"wdth"), Tag::new(b"ital")]
+        );
+        assert_eq!(
+            dump_stat_values(&new_stat, &name),
+            vec![
+                value("wght", "Light", 300.0, None),
+                value("wght", "Regular", 400.0, Some(700.0)),
+                value("wght", "Medium", 500.0, None),
+                value("wght", "SemiBold", 600.0, None),
+                value("wght", "Bold", 700.0, None),
+                value("wght", "ExtraBold", 800.0, None),
+                value("wdth", "Condensed", 75.0, None),
+                value("wdth", "SemiCondensed", 87.5, None),
+                value("wdth", "Normal", 100.0, None),
+                value("ital", "Roman", 0.0, Some(1.0)),
+            ]
+        )
+    }
+
+    #[test]
+    fn test_build_stat2() {
+        let font_data = build_stat(
+            FontRef::new(OPEN_SANS_ITALIC).unwrap(),
+            &[
+                FontRef::new(OPEN_SANS).unwrap(),
+                FontRef::new(OPEN_SANS_CONDENSED).unwrap(),
+                FontRef::new(OPEN_SANS_CONDENSED_ITALIC).unwrap(),
+            ],
+        )
+        .unwrap();
+        let new_font = FontRef::new(&font_data).unwrap();
+        let new_stat: Stat = new_font.stat().unwrap().to_owned_table();
+        let name: Name = new_font.name().unwrap().to_owned_table();
+        // We expect three axes, wght, wdth, and ital
+        assert_eq!(
+            new_stat
+                .design_axes
+                .iter()
+                .map(|a| a.axis_tag)
+                .collect::<Vec<_>>(),
+            vec![Tag::new(b"wght"), Tag::new(b"wdth"), Tag::new(b"ital")]
+        );
+        assert_eq!(
+            dump_stat_values(&new_stat, &name),
+            vec![
+                value("wght", "Light", 300.0, None),
+                value("wght", "Regular", 400.0, Some(700.0)),
+                value("wght", "Medium", 500.0, None),
+                value("wght", "SemiBold", 600.0, None),
+                value("wght", "Bold", 700.0, None),
+                value("wght", "ExtraBold", 800.0, None),
+                value("wdth", "Condensed", 75.0, None),
+                value("wdth", "SemiCondensed", 87.5, None),
+                value("wdth", "Normal", 100.0, None),
+                value("ital", "Italic", 1.0, Some(0.0)),
+            ]
+        )
     }
 }

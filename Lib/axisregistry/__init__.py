@@ -58,6 +58,10 @@ GF_STATIC_STYLES = OrderedDict(
     ]
 )
 
+# The platforms to include when adding records to the `name` table, which
+# differs from fontTools' default.
+NAME_PLATFORMS = ((3, 1, 0x409),)
+
 
 def load_protobuf(klass, data):
     message = klass()
@@ -442,9 +446,9 @@ def build_fvar_instances(ttFont, axis_dflts={}):
                     coordinates["slnt"] = slnt_axis.minValue
 
             inst = NamedInstance()
-            inst.subfamilyNameID = name_table.addName(name)
+            inst.subfamilyNameID = name_table.addName(name, platforms=NAME_PLATFORMS)
             inst.postscriptNameID = name_table.addName(
-                f"{family_name}-{name}".replace(" ", "")
+                f"{family_name}-{name}".replace(" ", ""), platforms=NAME_PLATFORMS
             )
             inst.coordinates = coordinates
             log.debug(f"Adding fvar instance: {name}: {coordinates}")

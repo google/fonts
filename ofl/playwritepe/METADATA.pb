@@ -12,7 +12,10 @@ fonts {
   full_name: "Playwrite PE Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
+subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
@@ -20,7 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "e53bd89e9d46f46f0f8ce089fdef3a869130f670"
+  commit: "c92b72cb8ae2e7458b5de4e0f8f08b0861c35afc"
+  archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -29,24 +33,7 @@ source {
     source_file: "fonts/variable/PlaywritePE[wght].ttf"
     dest_file: "PlaywritePE[wght].ttf"
   }
-  files {
-    source_file: "documentation/about/PE/ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "documentation/about/PE/Playwrite-Peru-1.png"
-    dest_file: "article/Playwrite-Peru-1.png"
-  }
-  files {
-    source_file: "documentation/about/PE/Playwrite-Peru-2.png"
-    dest_file: "article/Playwrite-Peru-2.png"
-  }
-  files {
-    source_file: "documentation/about/PE/Playwrite-Peru-3.png"
-    dest_file: "article/Playwrite-Peru-3.png"
-  }
   branch: "main"
 }
 display_name: "Playwrite Perú"
 minisite_url: "https://primarium.info/countries/peru"
-primary_language: "es_Latn"

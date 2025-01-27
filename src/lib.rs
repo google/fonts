@@ -490,6 +490,7 @@ mod fontations {
             }
         }
         name.name_record = records;
+        name.name_record.sort_by_key(|record| record.name_id);
         Ok(name)
     }
 

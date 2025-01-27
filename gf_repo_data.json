@@ -1,13 +1,829 @@
 {
-    "last_run": "2025-01-20",
+    "last_run": "2025-01-27",
     "commits": [
+        {
+            "date": "2025-01-24T14:59:14",
+            "title": "Merge pull request #8991 from google/gftools_packager_ofl_monomakh",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "ef354d5dd5c2d4658d0d442013b247d41247ccbb"
+        },
+        {
+            "date": "2025-01-24T14:55:50",
+            "title": "Merge pull request #8990 from google/gftools_packager_ofl_shafarik",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "8c1938a99ddaf6e7e3ecb6660f7064ac226eae09"
+        },
+        {
+            "date": "2025-01-24T14:53:57",
+            "title": "Merge pull request #8992 from google/gftools_packager_ofl_playwritenl",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "6d18cb3cc6c9b999ee5d7088024fb5c750328d91"
+        },
+        {
+            "date": "2025-01-24T14:53:45",
+            "title": "Merge pull request #8994 from google/gftools_packager_ofl_playwriteno",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "a116998b55ea1e02ba8732c23dd7a0b225042e19"
+        },
+        {
+            "date": "2025-01-24T14:53:34",
+            "title": "Merge pull request #8995 from google/gftools_packager_ofl_playwritenz",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "1ef9e08b5d4b86b05bc81e9da09e1d559b8d43c0"
+        },
+        {
+            "date": "2025-01-24T14:53:24",
+            "title": "Merge pull request #8996 from google/gftools_packager_ofl_playwritepe",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "5ed4ad012b96243df26614c2a11d488ed68b9b15"
+        },
+        {
+            "date": "2025-01-24T14:53:16",
+            "title": "Merge pull request #8997 from google/gftools_packager_ofl_playwritepl",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "a0343423fe4b591b2aa00a1d6a942e819b5b8ac7"
+        },
+        {
+            "date": "2025-01-24T14:53:07",
+            "title": "Merge pull request #8998 from google/gftools_packager_ofl_playwritept",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "d904fd3c169cb94f55e385722d3d57bdf75e6f40"
+        },
+        {
+            "date": "2025-01-24T14:52:59",
+            "title": "Merge pull request #8999 from google/gftools_packager_ofl_playwritero",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "6b51900371bb23fb9ae4f61f83efd14c94c25c7b"
+        },
+        {
+            "date": "2025-01-24T14:52:47",
+            "title": "Merge pull request #9000 from google/gftools_packager_ofl_playwritesk",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "b32cc9a439718d71bf81595c6d4d0fcc825a25b9"
+        },
+        {
+            "date": "2025-01-24T14:52:37",
+            "title": "Merge pull request #9001 from google/gftools_packager_ofl_playwritetz",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "ecdf25de0f4c5b15e6b77dbdff6d9ddc61b057fc"
+        },
+        {
+            "date": "2025-01-24T14:52:30",
+            "title": "Merge pull request #9002 from google/gftools_packager_ofl_playwriteusmodern",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "75fa90d3d1a4732c0e1827475e8d0d4734e87c07"
+        },
+        {
+            "date": "2025-01-24T14:52:22",
+            "title": "Merge pull request #9003 from google/gftools_packager_ofl_playwriteustrad",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "b9546b9bebaf9e7b34f6871eb137a392e3bdd7bb"
+        },
+        {
+            "date": "2025-01-24T14:52:14",
+            "title": "Merge pull request #9004 from google/gftools_packager_ofl_playwritevn",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "7b46c2902532be75e11b573e0fe56a3cf9e48596"
+        },
+        {
+            "date": "2025-01-24T14:52:04",
+            "title": "Merge pull request #9005 from google/gftools_packager_ofl_playwriteza",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "583fd22a26e67844f1d18eea516c3b31486b16e9"
+        },
+        {
+            "date": "2025-01-23T17:16:52",
+            "title": "PW ZA Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e8287b67fb24ec1f04d8b5eb48a2248503370333"
+        },
+        {
+            "date": "2025-01-23T17:15:11",
+            "title": "Subsets note added + source point at release",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "aa1616b6308428f54b1a87b50845d9305adf80cc"
+        },
+        {
+            "date": "2025-01-23T17:14:09",
+            "title": "Playwrite ZA: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "ad5d87197656a8e21ad9f0fd56d2eba4fa5c6f11"
+        },
+        {
+            "date": "2025-01-23T17:02:08",
+            "title": "PW VN Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9da4b78d6c146cbee95204bb0556d31a165cfed4"
+        },
+        {
+            "date": "2025-01-23T17:00:27",
+            "title": "Subsets note added + source point at release",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "64476d0680bd8c2d7d4d368d2017655097e0645d"
+        },
+        {
+            "date": "2025-01-23T16:59:00",
+            "title": "Playwrite VN: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "6debdc8bd8b6986f81fdb84dbb852661f2f441b1"
+        },
+        {
+            "date": "2025-01-23T16:55:43",
+            "title": "PW US Trad Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c0a7bfb42230a9857c2732e76e647f5881004b1f"
+        },
+        {
+            "date": "2025-01-23T16:54:06",
+            "title": "Subsets note added + source point at release",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8b0f15c8f182859084a1285e9226032e7e53ec0c"
+        },
+        {
+            "date": "2025-01-23T16:53:44",
+            "title": "Playwrite US Trad: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "7f36bed59352c1b52752f8fbbcd6da7643f5b02c"
+        },
+        {
+            "date": "2025-01-23T16:49:06",
+            "title": "PW US Modern Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "067ae8e100831cb6257fac3c7120468ffa2e3d63"
+        },
+        {
+            "date": "2025-01-23T16:47:30",
+            "title": "Subsets note added + source point at release",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "628a23c11591f14af258490978e66ba9796361fe"
+        },
+        {
+            "date": "2025-01-23T16:46:08",
+            "title": "Playwrite US Modern: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "d51cdbd62ea0996f0b1a24ebcc1e1cd3c1ae43d6"
+        },
+        {
+            "date": "2025-01-23T16:25:22",
+            "title": "PW TZ Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9699094f77f1b459193045093918e7108dbdf1e0"
+        },
+        {
+            "date": "2025-01-23T16:24:07",
+            "title": "Subsets note added + source point at release",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "28a12d8100e74805b3ac3a86f8763ba6e75b1453"
+        },
+        {
+            "date": "2025-01-23T16:23:48",
+            "title": "Playwrite TZ: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "17e5e1490c9da1fbb0f43cfbec76bd8e949cf118"
+        },
+        {
+            "date": "2025-01-23T16:20:33",
+            "title": "PW SK Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "587117bf3703a607c621bcbd0a9c66e4d214a9ba"
+        },
+        {
+            "date": "2025-01-23T16:19:35",
+            "title": "Subsets note added + source point at release",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c7216aac43d2a04715dc6c3e49a8f0014bd45bc6"
+        },
+        {
+            "date": "2025-01-23T16:19:01",
+            "title": "Playwrite SK: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "9239ffaaaaa33ba64ceb5ba8260ba7ba30c249e6"
+        },
+        {
+            "date": "2025-01-23T16:15:33",
+            "title": "PW RO Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c2cf187e16ff5fe4b91427640e52d61d05d97ded"
+        },
+        {
+            "date": "2025-01-23T16:14:24",
+            "title": "Subsets note added + source point at release",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "93b071d0a5319c1f17e9ed5f0cc97070728419cb"
+        },
+        {
+            "date": "2025-01-23T16:14:00",
+            "title": "Playwrite RO: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "d4d418509090e17c6a507dcd632c59cd7847afd1"
+        },
+        {
+            "date": "2025-01-23T15:57:52",
+            "title": "PW PT Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "32024a737cb8b82387aa7b4005bd346f3686bd09"
+        },
+        {
+            "date": "2025-01-23T15:56:52",
+            "title": "Subsets note added + source point at release",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f805014ab5c64db023aff510f34bf6049a4640d8"
+        },
+        {
+            "date": "2025-01-23T15:56:08",
+            "title": "Playwrite PT: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "f74784c857b1c45a50e06b4e51ec2051c9e65c15"
+        },
+        {
+            "date": "2025-01-23T15:53:03",
+            "title": "PW PL Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5d49989d4959028709a92e441af2a16761abcca7"
+        },
+        {
+            "date": "2025-01-23T15:52:02",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5ee77738d74d70cdc4ff30b1400d13a17b9f6e76"
+        },
+        {
+            "date": "2025-01-23T15:51:35",
+            "title": "Playwrite PL: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "3e3eed9eb7fb49051c148c0d0cb7aa2dc8b92fd8"
+        },
+        {
+            "date": "2025-01-23T15:44:23",
+            "title": "PW PE Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0bf0f97a60874c42d3856608da72932ef646edce"
+        },
+        {
+            "date": "2025-01-23T15:43:18",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "039a4f340666da00c18045502e937c8214f2d170"
+        },
+        {
+            "date": "2025-01-23T15:42:18",
+            "title": "Playwrite PE: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "d24709839eff644582d8034b173151b06ca5268f"
+        },
+        {
+            "date": "2025-01-23T15:39:19",
+            "title": "PW NZ Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "de2d30abc2d77fa71b9478e89e17ffa17a43d284"
+        },
+        {
+            "date": "2025-01-23T15:38:39",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "27fd3b6417c5dfd1b9ad616c50d3db25afd4b543"
+        },
+        {
+            "date": "2025-01-23T15:38:11",
+            "title": "Playwrite NZ: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "fcb6c123d7f4e6119220f4b2792ebacb48841c9d"
+        },
+        {
+            "date": "2025-01-23T15:34:25",
+            "title": "PW NO Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f2613b2bb061b3ea3ddc94b1ddc70d4deb393080"
+        },
+        {
+            "date": "2025-01-23T15:33:30",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3078444e18b30dd0674dca4e45fc3ff8d160acc6"
+        },
+        {
+            "date": "2025-01-23T15:32:54",
+            "title": "Playwrite NO: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "1278c95fab1b417005827d83a8580ff57b92a274"
+        },
+        {
+            "date": "2025-01-23T15:24:41",
+            "title": "Update tags_metadata.csv (#8993)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "family",
+            "id": "9fd4541a6438cae1842104fced1438c081ac1ada"
+        },
+        {
+            "date": "2025-01-23T15:05:11",
+            "title": "PW NL Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ee221fd91f916bc2a48910636a85fb9f93d8286e"
+        },
+        {
+            "date": "2025-01-23T15:02:46",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cddab6045b360611c29fbca74ed6866f434c45c4"
+        },
+        {
+            "date": "2025-01-23T15:02:11",
+            "title": "Playwrite NL: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "a860aae477fecb42ff4d916276d9892ef1b86c06"
+        },
+        {
+            "date": "2025-01-23T14:01:35",
+            "title": "Monomakh: Version 1.200; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "f2229d84a7ef9c9d63cfd64ec6b0acf7274ae691"
+        },
+        {
+            "date": "2025-01-23T13:53:29",
+            "title": "Shafarik: Version 1.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "de0c67d717c28387058a36516c6b9c56dcdb26f8"
+        },
+        {
+            "date": "2025-01-23T12:54:47",
+            "title": "Merge pull request #8934 from google/gftools_packager_ofl_playwritecl",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "62e9dd3dcc3dcb21365c498d998cd73ad3ecce04"
+        },
+        {
+            "date": "2025-01-23T12:54:36",
+            "title": "Merge pull request #8935 from google/gftools_packager_ofl_playwriteco",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "ea641f30e273e0735044c9ce0937a188d8edda29"
+        },
+        {
+            "date": "2025-01-23T12:54:27",
+            "title": "Merge pull request #8936 from google/gftools_packager_ofl_playwritecu",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "09388cf0211ded6a23d8b9a92587959cfb8b4ee6"
+        },
+        {
+            "date": "2025-01-23T12:54:15",
+            "title": "Merge pull request #8937 from google/gftools_packager_ofl_playwritecz",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "6d706bb3dc203580c37081f02323b1b1a73e7f8d"
+        },
+        {
+            "date": "2025-01-23T12:53:52",
+            "title": "Merge pull request #8939 from google/gftools_packager_ofl_playwritedegrund",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "b3faa89473f7e0e5f5b3fb6794f61e5ba66bf582"
+        },
+        {
+            "date": "2025-01-23T12:53:05",
+            "title": "Merge pull request #8940 from google/gftools_packager_ofl_playwritedela",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "461630947c850afcbc886ff04da41ce09d90ad64"
+        },
+        {
+            "date": "2025-01-23T12:52:56",
+            "title": "Merge pull request #8941 from google/gftools_packager_ofl_playwritedesas",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "7e4c51b430ea1aaeb3263627bbaa491bf350985e"
+        },
+        {
+            "date": "2025-01-23T12:52:45",
+            "title": "Merge pull request #8942 from google/gftools_packager_ofl_playwritedeva",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "7beccb9f4d26db52874a4eabd7337f9479e23b28"
+        },
+        {
+            "date": "2025-01-23T12:52:37",
+            "title": "Merge pull request #8943 from google/gftools_packager_ofl_playwritedkloopet",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "74721e668757f40d2382343ec13ff7467634546c"
+        },
+        {
+            "date": "2025-01-23T12:52:29",
+            "title": "Merge pull request #8944 from google/gftools_packager_ofl_playwritedkuloopet",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "be400a58c1899be2c53b7545edc099262d0a3f27"
+        },
+        {
+            "date": "2025-01-23T12:52:20",
+            "title": "Merge pull request #8945 from google/gftools_packager_ofl_playwritees",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "7a3b97e4da4fa1073f4cbec851f0a80cab442a6d"
+        },
+        {
+            "date": "2025-01-23T12:52:12",
+            "title": "Merge pull request #8946 from google/gftools_packager_ofl_playwriteesdeco",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "4761a9a915e79b752e0f4721ddd1f17a63825a45"
+        },
+        {
+            "date": "2025-01-23T12:52:03",
+            "title": "Merge pull request #8947 from google/gftools_packager_ofl_playwritefrmoderne",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "6340c9b256b558f03ac39b887e7586ed906da817"
+        },
+        {
+            "date": "2025-01-23T12:51:53",
+            "title": "Merge pull request #8948 from google/gftools_packager_ofl_playwritefrtrad",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "b7bce1682aecc315f7453ec9ff201d2f03712c5a"
+        },
+        {
+            "date": "2025-01-23T12:51:37",
+            "title": "Merge pull request #8949 from google/gftools_packager_ofl_playwritegbj",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "8a407900cb64f8de00a52a1c2a5e8f958f5e8f0f"
+        },
+        {
+            "date": "2025-01-23T11:52:21",
+            "title": "Merge pull request #8950 from google/gftools_packager_ofl_playwritegbs",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "f287c330ac0188e2d778cde6ef5c6739026a6f2d"
+        },
+        {
+            "date": "2025-01-23T11:52:05",
+            "title": "Merge pull request #8951 from google/gftools_packager_ofl_playwritehr",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "7b18b525bda8f04d10a40f553004721e4d3bb41c"
+        },
+        {
+            "date": "2025-01-23T11:51:57",
+            "title": "Merge pull request #8952 from google/gftools_packager_ofl_playwritehrlijeva",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "5462a4fd6c5a9cb55dc3b2d194093014b53c988d"
+        },
+        {
+            "date": "2025-01-23T11:51:47",
+            "title": "Merge pull request #8953 from google/gftools_packager_ofl_playwritehu",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "3ec62b791de843b34f3bfad523b4633fc42da8ca"
+        },
+        {
+            "date": "2025-01-23T11:51:35",
+            "title": "Merge pull request #8954 from google/gftools_packager_ofl_playwriteid",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "608623cb00f53138c96fdd80c3a0a885087f1cc7"
+        },
+        {
+            "date": "2025-01-23T11:51:10",
+            "title": "Merge pull request #8955 from google/gftools_packager_ofl_playwriteie",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "016fa76e286a07a278d88c43d7811d53314b8e53"
+        },
+        {
+            "date": "2025-01-23T11:38:47",
+            "title": "Merge pull request #8956 from google/gftools_packager_ofl_playwritein",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "2d765c9304f7c3357510dec373b935fe31ee485d"
+        },
+        {
+            "date": "2025-01-23T10:30:22",
+            "title": "Merge pull request #8967 from google/gftools_packager_ofl_bitcountpropsingleink",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "8a7db22e7256fbe8ee961d19d6f2858241205927"
+        },
+        {
+            "date": "2025-01-23T09:29:51",
+            "title": "Merge pull request #8972 from google/gftools_packager_ofl_playwriteis",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "b9b012c55bd2925b15aae93fdecc815ffe4933aa"
+        },
+        {
+            "date": "2025-01-23T09:29:34",
+            "title": "Merge pull request #8973 from google/gftools_packager_ofl_playwriteitmoderna",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "58e0b6c4a456459b8f3544439298e108b22deb99"
+        },
+        {
+            "date": "2025-01-23T09:15:59",
+            "title": "Merge pull request #8976 from google/gftools_packager_ofl_playwritemx",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "db483db97f9738bd5436e541a16af136df2acd7a"
+        },
+        {
+            "date": "2025-01-23T09:15:47",
+            "title": "Merge pull request #8977 from google/gftools_packager_ofl_playwritengmodern",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "89df7213e3e2cbe664decfd32708b992700ebf58"
+        },
+        {
+            "date": "2025-01-23T09:15:35",
+            "title": "Merge pull request #8979 from google/gftools_packager_ofl_playwriteittrad",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "5163e0fb85b58770c49e007e020c10c79d88457e"
+        },
+        {
+            "date": "2025-01-22T14:49:41",
+            "title": "Merge pull request #8969 from google/gftools_packager_ofl_bitcountsingleink",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "9a16f561cdb0ffaee2ebd6cd8d5c6d4f7fe9a1b6"
+        },
+        {
+            "date": "2025-01-22T14:32:45",
+            "title": "Merge pull request #8988 from google/gftools_packager_ofl_spacemono",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "40c19249b0a724d1daadf0f2e53802522a88b9f1"
+        },
+        {
+            "date": "2025-01-22T12:58:41",
+            "title": "Space Mono: Version 1.003; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "fa55d0564c2bc8e1e308be751a699673a723b9a9"
+        },
+        {
+            "date": "2025-01-22T10:15:36",
+            "title": "Merge pull request #8985 from google/Atkinson_prom",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "314181666c24764ff4d4ec2a61e39a559bca016b"
+        },
+        {
+            "date": "2025-01-22T09:28:05",
+            "title": "atkinson next article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9d927be949304eaf5bddc3574b23c3cfbc8509c8"
+        },
+        {
+            "date": "2025-01-22T09:27:54",
+            "title": "atkinson mono article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f1e386f8fb23c07b1ec24231ab57d0aa86b25b23"
+        },
+        {
+            "date": "2025-01-21T11:13:04",
+            "title": "Merge pull request #8971 from google/gftools_packager_ofl_maname",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "6efb520c0f98340fab4e792a64ce8c8b4edefe08"
+        },
+        {
+            "date": "2025-01-21T11:12:37",
+            "title": "Merge pull request #8958 from google/gftools_packager_ofl_bitcount",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "98f641e74b10c61924104d3d70b6b55cd190e8a1"
+        },
         {
             "date": "2025-01-17T23:36:36",
             "title": "Update tags_metadata.csv (#8978)",
             "author": "nyshadhr9",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "de89dd9b2f4b4608a9d9f61c84d589eceb37f3da"
+        },
+        {
+            "date": "2025-01-17T23:36:32",
+            "title": "PW IT Tradizionale Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0b9d719a816ab834d07e54e78d15f24c694c461a"
+        },
+        {
+            "date": "2025-01-17T23:34:52",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3384efdbc8c6b59d3b055ae5910a998bc9aef504"
+        },
+        {
+            "date": "2025-01-17T23:34:22",
+            "title": "Playwrite IT Trad: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "e89e4846eecfa1b28451ec91f7909462988657d1"
+        },
+        {
+            "date": "2025-01-17T23:30:25",
+            "title": "PW NG Modern Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "584488a3d28250e1d890a164e9f89573e23aba17"
+        },
+        {
+            "date": "2025-01-17T23:29:01",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "db8b2a4ca35cdca2ad306397dcfe5343beff6aa1"
+        },
+        {
+            "date": "2025-01-17T23:28:30",
+            "title": "Playwrite NG Modern: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "589717adfb8189581c680aaa012f1d45b830989f"
+        },
+        {
+            "date": "2025-01-17T23:23:31",
+            "title": "PW MX Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3f3d4d3530f58262cea6203059f39a2e4d8ab2d4"
+        },
+        {
+            "date": "2025-01-17T23:21:58",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d8cacb45d8b16afbead973b4c272ae30f9484927"
+        },
+        {
+            "date": "2025-01-17T23:21:27",
+            "title": "Playwrite MX: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "5ef9586063268d9ad05078419d51f9b13bb361ea"
         },
         {
             "date": "2025-01-17T21:37:23",
@@ -22,16 +838,96 @@
             "title": "Update families.csv with updated Valentine's tag data (#8974)",
             "author": "Dave Crossland",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "be13ebeab71573ede35a09d4a6a94199660b4e4a"
+        },
+        {
+            "date": "2025-01-17T16:39:46",
+            "title": "PW CZ Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b420430798b81b588deba2fab45c130df5d15335"
+        },
+        {
+            "date": "2025-01-17T16:39:46",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2f7d4ac36af86a0383b5cc6d35f7652dd7b34017"
+        },
+        {
+            "date": "2025-01-17T16:39:46",
+            "title": "Playwrite CZ: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "5ef7588abc86158902da3666eceb841550fe17c1"
+        },
+        {
+            "date": "2025-01-17T16:00:46",
+            "title": "PW IT Moderna Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9f4559eef8876664d02650d91cce4cbdc9f41ea2"
+        },
+        {
+            "date": "2025-01-17T15:57:55",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5b8e888ec181d8d747608c59e39f6e30a47220d6"
+        },
+        {
+            "date": "2025-01-17T15:30:14",
+            "title": "Playwrite IT Moderna: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "8dae7cf365bbbaf8456ef4e3eea92a9828d5d0c2"
         },
         {
             "date": "2025-01-17T15:25:52",
             "title": "Merge pull request #8933 from google/to_lists_160125",
             "author": "Emma Marichal",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "e4c33620713f183e7aa7753ca87a6fbddb593e2f"
+        },
+        {
+            "date": "2025-01-17T15:20:28",
+            "title": "PW IS Article: ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "63a47a7fcbfd22b70d33f222854976af075dc199"
+        },
+        {
+            "date": "2025-01-17T15:08:50",
+            "title": "Sibsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "87be942d8c4968cb7c57eaaa01561c150ad6438d"
+        },
+        {
+            "date": "2025-01-17T15:08:11",
+            "title": "Playwrite IS: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "26f02e3836e69603009e0f5725167090d1606461"
+        },
+        {
+            "date": "2025-01-17T14:43:01",
+            "title": "Maname: Version 1.002; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "c48257652b27eea3219f5782bccbb04f70c00c2a"
         },
         {
             "date": "2025-01-17T14:05:14",
@@ -46,8 +942,536 @@
             "title": "test.yaml: bump upload artifact",
             "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "1bcd4f248248c3a584ef3aa3d84cab66c5d3bc60"
+        },
+        {
+            "date": "2025-01-17T12:59:14",
+            "title": "Bitcount Single Ink: Version 1.0 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "9cc1c52fccc2c03ccab403dce21989d284be3195"
+        },
+        {
+            "date": "2025-01-17T12:49:27",
+            "title": "Bitcount Prop Single Ink: Version 1.0 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "bc28f2f37ebf9886948fc2ef74ef98d54f62c0dd"
+        },
+        {
+            "date": "2025-01-17T12:24:54",
+            "title": "Bitcount: Version 1.0 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "50712b8cc85f0ec8e88e582deb41322d5af4fdb5"
+        },
+        {
+            "date": "2025-01-17T01:36:15",
+            "title": "PW IN Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2e1ec5eafacfba4a426166f29740fede46d87654"
+        },
+        {
+            "date": "2025-01-17T01:13:33",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9b71b85f2c9a0913df63d889f83a69ea998f776d"
+        },
+        {
+            "date": "2025-01-17T01:13:00",
+            "title": "Playwrite IN: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "ccee3fc6d6089c78309cbc9fcf5c203a692cf9d1"
+        },
+        {
+            "date": "2025-01-17T01:00:29",
+            "title": "PW IE Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c4c135401831714646b9f48333654ca18c0472e1"
+        },
+        {
+            "date": "2025-01-17T00:57:25",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d54ece5f2c53533f71ab67e647d741c4917af95d"
+        },
+        {
+            "date": "2025-01-17T00:56:47",
+            "title": "Playwrite IE: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "7ec5840f444de8c45bd52a2a5bb2dd33715e43f9"
+        },
+        {
+            "date": "2025-01-17T00:51:01",
+            "title": "PW ID Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0136aaa140148ee03e963e7623b2f3334d6988d3"
+        },
+        {
+            "date": "2025-01-17T00:49:58",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cdd64113daf790045e3c43775cab78ac19c6ed65"
+        },
+        {
+            "date": "2025-01-17T00:49:20",
+            "title": "Playwrite ID: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "7d181bdf0421d364f03433f19301cfa1fd4bf453"
+        },
+        {
+            "date": "2025-01-17T00:45:00",
+            "title": "PW HU Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7c7d915f2879b2360152331cd5c85a7456fe3478"
+        },
+        {
+            "date": "2025-01-17T00:43:43",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "df928157177746314185472a3bccff0e987b80c6"
+        },
+        {
+            "date": "2025-01-17T00:41:26",
+            "title": "Playwrite HU: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "515aa2da1e26e8889ffd15301b3d97e5e483075a"
+        },
+        {
+            "date": "2025-01-17T00:37:59",
+            "title": "PW HR Lijeva Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d8a9706d6e1bfa402ff42a2e13e5f2e0dee18557"
+        },
+        {
+            "date": "2025-01-17T00:36:32",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "92c3644f834b3729753a500820a267120a186164"
+        },
+        {
+            "date": "2025-01-17T00:35:49",
+            "title": "Playwrite HR Lijeva: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "10fe16d86e53a7ac6b2938208fb6c121dcc1d1f4"
+        },
+        {
+            "date": "2025-01-17T00:29:30",
+            "title": "PW HR Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "eabb2d0ed053d5f86560b4f0a0f5e423e6a238cd"
+        },
+        {
+            "date": "2025-01-17T00:08:26",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f42a0b762a3aa90e3a59404ab1d9ca02b7198a9c"
+        },
+        {
+            "date": "2025-01-17T00:06:46",
+            "title": "Playwrite HR: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "31291b52994804515dea1cb2d3c9fb0c95611c4e"
+        },
+        {
+            "date": "2025-01-17T00:02:30",
+            "title": "PW GB SemiJoined Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e0703744d610a6b7f937f1c4dcab417b28ca72f7"
+        },
+        {
+            "date": "2025-01-17T00:00:48",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "78a2839a9978eed532061bde083efa9aa6026074"
+        },
+        {
+            "date": "2025-01-17T00:00:15",
+            "title": "Playwrite GB S: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "e02ee73e83d7400a86768fca96db1190621e08bd"
+        },
+        {
+            "date": "2025-01-16T23:56:38",
+            "title": "PW GB Joined Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "227e5abe471a063dce056533eeefedb7d9766a7a"
+        },
+        {
+            "date": "2025-01-16T23:53:02",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "45a083dd208183bfe1c49a697024459edc23b133"
+        },
+        {
+            "date": "2025-01-16T23:52:34",
+            "title": "Playwrite GB J: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "f035126354422eaea75d5136eef4365f8a699925"
+        },
+        {
+            "date": "2025-01-16T23:41:31",
+            "title": "PW FR Traditionelle Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2a61037807e8601e7938e37e7d3345ff02d6e136"
+        },
+        {
+            "date": "2025-01-16T23:38:33",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dcf28bd03fbdb892156baa365c8abeeb01c0b96b"
+        },
+        {
+            "date": "2025-01-16T23:36:55",
+            "title": "Playwrite FR Trad: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "00b2da6c2b7ad366788082014bcfbd9b107236c1"
+        },
+        {
+            "date": "2025-01-16T22:57:21",
+            "title": "PW FR Moderne Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9180122d2854e4014b9193aef489493f490cfd93"
+        },
+        {
+            "date": "2025-01-16T22:55:34",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b0499dd2f324d0dda0fc2aef676452cf553c7db3"
+        },
+        {
+            "date": "2025-01-16T22:54:45",
+            "title": "Playwrite FR Moderne: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "2f305b9adec1dc26ddb6bdfdde5282fca2a09efd"
+        },
+        {
+            "date": "2025-01-16T22:49:33",
+            "title": "PW ES Deco Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2d2ad634a2a207d6bb879888e618f80a6f0f3340"
+        },
+        {
+            "date": "2025-01-16T22:47:37",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c130cc7f6bec8b1f53f78146d7b3f4e97dce7c9b"
+        },
+        {
+            "date": "2025-01-16T22:46:52",
+            "title": "Playwrite ES Deco: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "be614a8ca65e200694293d781e0f362284a75db2"
+        },
+        {
+            "date": "2025-01-16T22:10:44",
+            "title": "PW ES Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c69ff4b0083661d9428303628b28bca5f55d16a2"
+        },
+        {
+            "date": "2025-01-16T22:06:08",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2b98bccc9102acf107ce504582a5e0712daeafe2"
+        },
+        {
+            "date": "2025-01-16T22:04:50",
+            "title": "Playwrite ES: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "067b9f13a0c583ba291c50215cccd5bf64ff72b9"
+        },
+        {
+            "date": "2025-01-16T20:38:23",
+            "title": "PW DK Uloopet Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "51e58cc78771105ccd13b79674c09e60d95c6614"
+        },
+        {
+            "date": "2025-01-16T20:28:54",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6266fbee9599b3b044101700156b3592cd561d9e"
+        },
+        {
+            "date": "2025-01-16T20:28:15",
+            "title": "Playwrite DK Uloopet: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "69c3e4dbde522facb1a87c27a9c7c76774278ce9"
+        },
+        {
+            "date": "2025-01-16T18:28:37",
+            "title": "PW DK Loopet Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "51c02700b34c71bf918d57b9169e580768e9ba51"
+        },
+        {
+            "date": "2025-01-16T18:25:07",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "333f91c275c035a69768f8d875f48c64f3360161"
+        },
+        {
+            "date": "2025-01-16T18:24:05",
+            "title": "Playwrite DK Loopet: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "9588748670624c0b6885bf12bb8f493efc85418e"
+        },
+        {
+            "date": "2025-01-16T18:06:29",
+            "title": "PW DE VA Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bc433ba7db934b68d0c447518b2b6c9651543f74"
+        },
+        {
+            "date": "2025-01-16T18:01:39",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "84f7ecce1d4b1d4e247680cc1a98147ba330a703"
+        },
+        {
+            "date": "2025-01-16T18:00:04",
+            "title": "Playwrite DE VA: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "1efeb33896a624a149e2102eeaac76948fdb3219"
+        },
+        {
+            "date": "2025-01-16T17:54:03",
+            "title": "PW DE SAS Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ec260c1658ac234ceca609e09cb3818ff8e45139"
+        },
+        {
+            "date": "2025-01-16T17:52:09",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3d8ccb3ec8774a6f16a103ae700440bdb921c2f3"
+        },
+        {
+            "date": "2025-01-16T17:50:33",
+            "title": "Playwrite DE SAS: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "e4b9110416be54f42be9b32d8bc6d8ef11e301b3"
+        },
+        {
+            "date": "2025-01-16T17:39:04",
+            "title": "PW DE LA Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "57bcf575e13f1c8ef7abea0051744420d86fbe57"
+        },
+        {
+            "date": "2025-01-16T17:36:22",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b3e7fc147d5005bcb230f81d170b7e57bfc8f000"
+        },
+        {
+            "date": "2025-01-16T17:35:14",
+            "title": "Playwrite DE LA: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "fc306c15c6a40797a5ffd72348cf5e88b7b54d67"
+        },
+        {
+            "date": "2025-01-16T16:37:14",
+            "title": "PW DE Grund Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "663541a48bc4ac873e823b440a40d27cc084c420"
+        },
+        {
+            "date": "2025-01-16T16:23:20",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "341ba2b71ed358f37b4ff71bb0df5a18ad03fe6e"
+        },
+        {
+            "date": "2025-01-16T16:22:37",
+            "title": "Playwrite DE Grund: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "87c7be24a43965602e9103484ab1107a982ecafc"
+        },
+        {
+            "date": "2025-01-16T15:57:30",
+            "title": "PW CU Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "89a1615043ea0d4da1319fd8f66ea837d9369b84"
+        },
+        {
+            "date": "2025-01-16T15:56:43",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5db83bb07bb39396fd41cf7b076e3c08235c8946"
+        },
+        {
+            "date": "2025-01-16T15:54:07",
+            "title": "Playwrite CU: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "6cbc6604ade37a8233a0e45d8c04e7f637fa5160"
+        },
+        {
+            "date": "2025-01-16T15:43:39",
+            "title": "PW CO Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f87635abae4c619424f87d3ed98a1f250d585fb6"
+        },
+        {
+            "date": "2025-01-16T15:41:59",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "98b8bf090189ae9d137178ca9a6fb9055d3f254b"
+        },
+        {
+            "date": "2025-01-16T15:41:09",
+            "title": "Playwrite CO: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "25c7efcf1bd89755139bc8995b67f133d7c29d7c"
+        },
+        {
+            "date": "2025-01-16T15:31:43",
+            "title": "PW CL Article ref to Guides variant added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b7960e900c76f505e940012a5176e493ae8351b3"
+        },
+        {
+            "date": "2025-01-16T15:31:22",
+            "title": "Subsets fix with a note",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "18909d2cf487a3c76c571b1409350d7f8ec18ae2"
+        },
+        {
+            "date": "2025-01-16T15:23:57",
+            "title": "Playwrite CL: Version 1.003 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "ae60230eba705ce1831c575bd1e5bb86a409cc92"
         },
         {
             "date": "2025-01-16T15:18:29",

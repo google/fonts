@@ -27,7 +27,8 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 400.0
-}source {
+}
+source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
   archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {

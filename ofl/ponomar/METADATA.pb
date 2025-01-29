@@ -10,7 +10,7 @@ fonts {
   filename: "Ponomar-Regular.ttf"
   post_script_name: "Ponomar-Regular"
   full_name: "Ponomar Regular"
-  copyright: "Copyright 2013-2024 The Ponomar Project Authors (https://github.com/slavonic/ponomar)"
+  copyright: "Copyright 2025 The Ponomar Project Authors (https://github.com/slavonic/ponomar)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/Ponomar"
-  commit: "a45d4cc09e37e1f7fff266e98a3245dad73c9ac9"
+  commit: "7c70a2c8d21d58543d9a5d202d50fb6c1d93e38a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

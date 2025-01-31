@@ -883,6 +883,32 @@ mod fontations {
         new_font.add_table(&stat)?;
         Ok(new_font.copy_missing_tables(font).build())
     }
+
+    pub fn build_filename(font: FontRef, extension: &str) -> String {
+        let family_name = best_familyname(&font)
+            .unwrap_or("New Font".to_string())
+            .replace(" ", "");
+        let style_name = best_subfamilyname(&font).unwrap_or("Regular".to_string());
+        if font.table_data(Tag::new(b"fvar")).is_some() {
+            let is_italic = style_name.contains("Italic");
+            let axes = font_axes(&font).unwrap_or_default();
+            // Sort uppercase axes first, then lowercase axes
+            let mut axes = axes
+                .iter()
+                .map(|axis| axis.tag.to_string())
+                .collect::<Vec<_>>();
+            axes.sort();
+            let axes = axes.join(",");
+            return format!(
+                "{}{}[{}].{}",
+                family_name,
+                if is_italic { "-Italic" } else { "" },
+                axes,
+                extension
+            );
+        }
+        format!("{family_name}-{style_name}.{extension}").replace(" ", "")
+    }
 }
 
 #[cfg(feature = "fontations")]
@@ -1444,5 +1470,35 @@ mod tests {
                 value("ital", "Italic", 1.0, None),
             ]
         )
+    }
+
+    #[test]
+    fn test_build_filename() {
+        let maven_pro = FontRef::new(MAVEN_PRO).unwrap();
+        assert_eq!(build_filename(maven_pro, "ttf"), "MavenPro-Regular.ttf");
+        let open_sans = FontRef::new(OPEN_SANS).unwrap();
+        assert_eq!(build_filename(open_sans, "ttf"), "OpenSans[wdth,wght].ttf");
+        let open_sans_italic = FontRef::new(OPEN_SANS_ITALIC).unwrap();
+        assert_eq!(
+            build_filename(open_sans_italic, "ttf"),
+            "OpenSans-Italic[wdth,wght].ttf"
+        );
+        let open_sans_condensed = FontRef::new(OPEN_SANS_CONDENSED).unwrap();
+        assert_eq!(
+            build_filename(open_sans_condensed, "ttf"),
+            "OpenSansCondensed[wght].ttf"
+        );
+        let open_sans_condensed_italic = FontRef::new(OPEN_SANS_CONDENSED_ITALIC).unwrap();
+        assert_eq!(
+            build_filename(open_sans_condensed_italic, "ttf"),
+            "OpenSansCondensed-Italic[wght].ttf"
+        );
+        let wonky = FontRef::new(WONKY).unwrap();
+        assert_eq!(build_filename(wonky, "ttf"), "Wonky[wdth,wght].ttf");
+        let playfair = FontRef::new(PLAYFAIR).unwrap();
+        assert_eq!(
+            build_filename(playfair, "ttf"),
+            "Playfair[opsz,wdth,wght].ttf"
+        );
     }
 }

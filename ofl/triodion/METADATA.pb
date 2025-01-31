@@ -10,7 +10,7 @@ fonts {
   filename: "Triodion-Regular.ttf"
   post_script_name: "Triodion-Regular"
   full_name: "Triodion Regular"
-  copyright: "Copyright 2013-2024 The Triodion Project Authors (https://github.com/slavonic/Triodion)."
+  copyright: "Copyright 2025 The Triodion Project Authors (https://github.com/slavonic/Triodion)."
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/Triodion"
-  commit: "a594c8894fc2de270a262c02b5a21c7e1f340f46"
+  commit: "9a608c40b343917da2d075afa6ca1e55dc6052f3"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

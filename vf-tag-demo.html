@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <style>
+            .recursive {
+                font-size: 64pt;
+                font-family: "Recursive", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:
+                    "slnt" 0,
+                    "CASL" 0,
+                    "CRSV" 0,
+                    "MONO" 0;
+                }
+            .roboto-slab {
+                font-family: "Roboto Slab", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <label for="wght">Weight (wght):</label>
+            <input type="range" id="wght" name="wght" min="300" max="1000" value="400">
+        </div>
+        <div>
+            <label for="slnt">Slant (slnt):</label>
+            <input type="range" id="slnt" name="slnt" min="-15" max="0" value="0">
+        </div>
+        <div>
+            <label for="CASL">Casual (CASL):</label>
+            <input type="range" id="CASL" name="CASL" min="0" max="1" step="0.01" value="0">
+        </div>
+        <div>
+            <label for="CRSV">Cursive (CRSV):</label>
+            <input type="range" id="CRSV" name="CRSV" min="0" max="1" step="0.01" value="0">
+        </div>
+        <div>
+            <label for="MONO">Monospace (MONO):</label>
+            <input type="range" id="MONO" name="MONO" min="0" max="1" step="0.01" value="0">
+        </div>
+        <p><span class="recursive" id="text">Hamburgevons</span></p>
+        <b>Results</b>
+        <div id="results"></div>
+    </body>
+    <script>
+        // Recursive,/Script/Handwritten,slnt|CRSV@-4..-15|0.2..1@10|30
+        // Recursive,/Script/Handwritten,CASL@0..1@30
+        // Recursive,/Monospace/Monospace,MONO@1..1@100
+       let tagsv2 = {
+            "/Script/Handwritten": [
+                {
+                    "slnt": {minAxis: -3, maxAxis: -15, maxScore: 10},
+                    "CASL": {minAxis: 0.2, maxAxis: 1, maxScore: 1}
+                },
+                {
+                    "CASL": {minAxis: 0, maxAxis: 1, maxScore: 30},
+                },
+                {
+                    "CRSV": {minAxis: 0.99, maxAxis: 1, maxScore: 30},
+                    "CASL": {minAxis: 0.2, maxAxis: 1, maxScore: 1}
+                }
+            ],
+            "/Monospace/Monospace": [
+                {
+                    "MONO": {minAxis: 0.999, maxAxis: 1, maxScore: 100}
+                }
+            ],
+            "/Expressive/Loud": [
+                {
+                    "wght": {minAxis: 700, maxAxis: 1000, maxScore: 95}
+                }
+            ]
+        }
+        const textElement = document.getElementById('text');
+        const sliders = ['wght', 'slnt', 'CASL', 'CRSV', 'MONO'];
+
+        sliders.forEach(slider => {
+            document.getElementById(slider).addEventListener('input', updateFontVariations);
+        });
+
+        function updateFontVariations() {
+            const wght = document.getElementById('wght').value;
+            const slnt = document.getElementById('slnt').value;
+            const CASL = document.getElementById('CASL').value;
+            const CRSV = document.getElementById('CRSV').value;
+            const MONO = document.getElementById('MONO').value;
+            const sliderCoords = {"wght": Number(wght), "slnt": Number(slnt), "CASL": Number(CASL), "CRSV": Number(CRSV), "MONO": Number(MONO)};
+            textElement.style.fontVariationSettings = `"wght" ${wght}, "slnt" ${slnt}, "CASL" ${CASL}, "CRSV" ${CRSV}, "MONO" ${MONO}`;
+            const results = sliderCoordsToTag(sliderCoords, tagsv2)
+            const resultsElement = document.getElementById('results');
+            resultsElement.innerHTML = '';
+            results.forEach(result => {
+                const resultElement = document.createElement('div');
+                resultElement.innerHTML = `Recursive,${result.name},${result.score}`;
+                resultsElement.appendChild(resultElement);
+            });
+        }
+
+        function sliderCoordsToTag(sliderCoords, tags) {
+            const res = []
+            for (category in tags) {
+                let catScore = 0
+                const tagRules = tags[category]
+                tagRules.forEach(tagRule => {
+                    let tagRuleScore = 0
+                    for (axis in tagRule) {
+                        const minAxis = tagRule[axis].minAxis
+                        const maxAxis = tagRule[axis].maxAxis
+                        const maxScore = tagRule[axis].maxScore
+                        const axisScore = _axisScore(sliderCoords[axis], 0, minAxis, maxScore, maxAxis)
+                        console.log(axis, axisScore)
+                        if (axisScore < 0) {
+                            tagRuleScore = 0
+                            break
+                        } else {
+                            tagRuleScore += axisScore
+                        } 
+                    }
+                    catScore += tagRuleScore
+                })
+                if (catScore !== 0) {
+                    res.push({name: category, score: catScore})
+                }
+            }
+            return res
+        }
+        function _axisScore(sliderVal, minScore, minAxis, maxScore, maxAxis) {      
+            return minScore + (maxScore - minScore) * (Number(sliderVal) - minAxis) / (maxAxis - minAxis)
+        }
+    </script>
+</html>

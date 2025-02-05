@@ -7,9 +7,9 @@ fonts {
   name: "Kakao Small Sans"
   style: "normal"
   weight: 300
-  filename: "KakaoSmallSans-Regular.ttf"
-  post_script_name: "KakaoSmallSans-Regular"
-  full_name: "Kakao Small Sans Regular"
+  filename: "KakaoSmallSans-Light.ttf"
+  post_script_name: "KakaoSmallSans-Light"
+  full_name: "Kakao Small Sans Light"
   copyright: "Copyright (c) 2021 Kakao Corp. All rights reserved. Font designed by FONTRIX Inc. & Min Bon & Choi Min-gyu"
 }
 fonts {

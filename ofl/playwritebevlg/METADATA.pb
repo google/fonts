@@ -12,7 +12,9 @@ fonts {
   full_name: "Playwrite BE VLG Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
+# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
 subsets: "menu"
+
 axes {
   tag: "wght"
   min_value: 100.0
@@ -20,7 +22,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "30b5a7b7466274c296058dd889b097434d5d6eb9"
+  archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,22 +30,6 @@ source {
   files {
     source_file: "fonts/variable/PlaywriteBEVLG[wght].ttf"
     dest_file: "PlaywriteBEVLG[wght].ttf"
-  }
-  files {
-    source_file: "documentation/about/BE_VLG/ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "documentation/about/BE_VLG/Playwrite-Belgie-Vlaams-Gewest-1.png"
-    dest_file: "article/Playwrite-Belgie-Vlaams-Gewest-1.png"
-  }
-  files {
-    source_file: "documentation/about/BE_VLG/Playwrite-Belgie-Vlaams-Gewest-2.png"
-    dest_file: "article/Playwrite-Belgie-Vlaams-Gewest-2.png"
-  }
-  files {
-    source_file: "documentation/about/BE_VLG/Playwrite-Belgie-Vlaams-Gewest-3.png"
-    dest_file: "article/Playwrite-Belgie-Vlaams-Gewest-3.png"
   }
   branch: "main"
 }

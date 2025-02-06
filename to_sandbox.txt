@@ -7,8 +7,10 @@ ofl/buenard # https://github.com/google/fonts/pull/7573
 ofl/cormorantgaramond # https://github.com/google/fonts/pull/8593
 ofl/cormorantinfant # https://github.com/google/fonts/pull/8594
 ofl/englebert # https://github.com/google/fonts/pull/8688
-ofl/iansui # https://github.com/google/fonts/pull/9022
-ofl/merriweather # https://github.com/google/fonts/pull/7886
+ofl/iansui # https://github.com/google/fonts/pull/9022#
+# Encountered this error: Fallback should specify targeting for axis tags [ital, opsz, wdth, wght] but instead specifies [ital, wght]
+# So commented it out for now
+# ofl/merriweather # https://github.com/google/fonts/pull/7886
 ofl/nanummyeongjo # https://github.com/google/fonts/pull/8692
 ofl/nanummyeongjo/hotfix-space.py # https://github.com/google/fonts/pull/8692
 

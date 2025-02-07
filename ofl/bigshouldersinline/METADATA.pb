@@ -2,7 +2,7 @@ name: "Big Shoulders Inline"
 designer: "Patric King"
 license: "OFL"
 category: "DISPLAY"
-date_added: ""
+date_added: "2025-02-06"
 fonts {
   name: "Big Shoulders Inline"
   style: "normal"

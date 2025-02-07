@@ -1,116 +1,16 @@
 # New
-ofl/pochaevsk # https://github.com/google/fonts/pull/8758
-ofl/kanchenjunga # https://github.com/google/fonts/pull/8431
 
 # Upgrade
-ofl/buenard # https://github.com/google/fonts/pull/7573
-ofl/cormorantgaramond # https://github.com/google/fonts/pull/8593
-ofl/cormorantinfant # https://github.com/google/fonts/pull/8594
-ofl/englebert # https://github.com/google/fonts/pull/8688
-ofl/iansui # https://github.com/google/fonts/pull/9022#
 # Encountered this error: Fallback should specify targeting for axis tags [ital, opsz, wdth, wght] but instead specifies [ital, wght]
 # So commented it out for now
 # ofl/merriweather # https://github.com/google/fonts/pull/7886
-ofl/nanummyeongjo # https://github.com/google/fonts/pull/8692
-ofl/nanummyeongjo/hotfix-space.py # https://github.com/google/fonts/pull/8692
 
 # Designer profile
-catalog/designers/aleksandrandreev # https://github.com/google/fonts/pull/8696
-catalog/designers/antonskugarov # https://github.com/google/fonts/pull/8882
-catalog/designers/gustavoibarra # https://github.com/google/fonts/pull/7547
-catalog/designers/redstone # https://github.com/google/fonts/pull/8603
-catalog/designers/yellowtype # https://github.com/google/fonts/pull/9010
 
 # Axis Registry
-axisregistry/element_expansion.textproto # https://github.com/google/fonts/pull/7923
-axisregistry/size_paint_1.textproto # https://github.com/google/fonts/pull/7923
-axisregistry/size_paint_2.textproto # https://github.com/google/fonts/pull/7923
-axisregistry/x_element_alignment.textproto # https://github.com/google/fonts/pull/7923
-axisregistry/x_position_paint_1.textproto # https://github.com/google/fonts/pull/7923
-axisregistry/x_position_paint_2.textproto # https://github.com/google/fonts/pull/7923
-axisregistry/y_element_alignment.textproto # https://github.com/google/fonts/pull/7923
-axisregistry/y_position_paint_1.textproto # https://github.com/google/fonts/pull/7923
-axisregistry/y_position_paint_2.textproto # https://github.com/google/fonts/pull/7923
 
 # Knowledge
-cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/content.md # https://github.com/google/fonts/pull/8450
-cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/thumbnail.svg # https://github.com/google/fonts/pull/8450
-cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/web-fonts2.mp4 # https://github.com/google/fonts/pull/8450
-cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/web-fonts3.mp4 # https://github.com/google/fonts/pull/8450
-cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/web-fonts4.mp4 # https://github.com/google/fonts/pull/8450
-cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/images/web-fonts5.mp4 # https://github.com/google/fonts/pull/8450
-cc-by-sa/knowledge/modules/choosing_type/lessons/choosing_web_fonts_beginners_guide/lesson.textproto # https://github.com/google/fonts/pull/8450
 
 # Metadata / Description / License
-ofl/atkinsonhyperlegiblemono # https://github.com/google/fonts/pull/8985
-ofl/atkinsonhyperlegiblenext # https://github.com/google/fonts/pull/8985
-ofl/notosanspaucinhau # https://github.com/google/fonts/pull/8096
-ofl/notosansphagspa # https://github.com/google/fonts/pull/8096
-ofl/notosanssignwriting # https://github.com/google/fonts/pull/8096
-ofl/notosanssinhalaui # https://github.com/google/fonts/pull/8096
-ofl/notosanssymbols2 # https://github.com/google/fonts/pull/8096
-ofl/notosanstamilui # https://github.com/google/fonts/pull/8096
-ofl/notosansteluguui # https://github.com/google/fonts/pull/8096
-ofl/notosansthaiui # https://github.com/google/fonts/pull/8096
-ofl/notoserifhentaigana # https://github.com/google/fonts/pull/8909
-ofl/notoserifkhitansmallscript # https://github.com/google/fonts/pull/8096
-ofl/notoserifmyanmar # https://github.com/google/fonts/pull/8096
-ofl/playwritear # https://github.com/google/fonts/pull/7853
-ofl/playwritearguides # https://github.com/google/fonts/pull/8821
-ofl/playwriteat # https://github.com/google/fonts/pull/7853
-ofl/playwriteaunsw # https://github.com/google/fonts/pull/7853
-ofl/playwriteauqld # https://github.com/google/fonts/pull/7853
-ofl/playwriteausa # https://github.com/google/fonts/pull/7853
-ofl/playwriteautas # https://github.com/google/fonts/pull/7853
-ofl/playwriteauvic # https://github.com/google/fonts/pull/7853
-ofl/playwritebevlg # https://github.com/google/fonts/pull/7853
-ofl/playwritebewal # https://github.com/google/fonts/pull/7853
-ofl/playwritebr # https://github.com/google/fonts/pull/7853
-ofl/playwriteca # https://github.com/google/fonts/pull/7853
-ofl/playwritecl # https://github.com/google/fonts/pull/7853
-ofl/playwriteco # https://github.com/google/fonts/pull/7853
-ofl/playwritecoguides # https://github.com/google/fonts/pull/8821
-ofl/playwritecu # https://github.com/google/fonts/pull/7853
-ofl/playwritecz # https://github.com/google/fonts/pull/7853
-ofl/playwritedegrund # https://github.com/google/fonts/pull/7853
-ofl/playwritedela # https://github.com/google/fonts/pull/7853
-ofl/playwritedesas # https://github.com/google/fonts/pull/7853
-ofl/playwritedeva # https://github.com/google/fonts/pull/7853
-ofl/playwritedkloopet # https://github.com/google/fonts/pull/7853
-ofl/playwritedkuloopet # https://github.com/google/fonts/pull/7853
-ofl/playwritees # https://github.com/google/fonts/pull/7853
-ofl/playwriteesdeco # https://github.com/google/fonts/pull/7853
-ofl/playwritefrmoderne # https://github.com/google/fonts/pull/7853
-ofl/playwritefrtrad # https://github.com/google/fonts/pull/7853
-ofl/playwritegbj # https://github.com/google/fonts/pull/7853
-ofl/playwritegbs # https://github.com/google/fonts/pull/7853
-ofl/playwritehr # https://github.com/google/fonts/pull/7853
-ofl/playwritehrlijeva # https://github.com/google/fonts/pull/7853
-ofl/playwritehu # https://github.com/google/fonts/pull/7853
-ofl/playwriteid # https://github.com/google/fonts/pull/7853
-ofl/playwriteie # https://github.com/google/fonts/pull/7853
-ofl/playwritein # https://github.com/google/fonts/pull/7853
-ofl/playwriteis # https://github.com/google/fonts/pull/7853
-ofl/playwriteitmoderna # https://github.com/google/fonts/pull/7853
-ofl/playwriteittrad # https://github.com/google/fonts/pull/7853
-ofl/playwritemx # https://github.com/google/fonts/pull/7853
-ofl/playwritengmodern # https://github.com/google/fonts/pull/7853
-ofl/playwritenl # https://github.com/google/fonts/pull/7853
-ofl/playwriteno # https://github.com/google/fonts/pull/7853
-ofl/playwritenz # https://github.com/google/fonts/pull/7853
-ofl/playwritepe # https://github.com/google/fonts/pull/7853
-ofl/playwritepl # https://github.com/google/fonts/pull/7853
-ofl/playwritept # https://github.com/google/fonts/pull/7853
-ofl/playwritero # https://github.com/google/fonts/pull/7853
-ofl/playwritesk # https://github.com/google/fonts/pull/7853
-ofl/playwritetz # https://github.com/google/fonts/pull/7853
-ofl/playwriteusmodern # https://github.com/google/fonts/pull/7853
-ofl/playwriteustrad # https://github.com/google/fonts/pull/7853
-ofl/playwritevn # https://github.com/google/fonts/pull/7853
-ofl/playwriteza # https://github.com/google/fonts/pull/7853
-ofl/ponomar # https://github.com/google/fonts/pull/8768
-ofl/shafarik # https://github.com/google/fonts/pull/8768
-ofl/triodion # https://github.com/google/fonts/pull/8768
 
 # Sample texts
-lang/languages/bap_Krai.textproto # https://github.com/google/fonts/pull/8509

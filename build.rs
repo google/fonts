@@ -21,6 +21,7 @@ fn main() {
     // Now we use the prost crate to compile them, so that we can
     // generate Rust structs.
     let mut config = prost_build::Config::new();
+    config.protoc_executable(protoc_bin_vendored::protoc_bin_path().unwrap());
     // config.boxed(".google.languages_public.LanguageProto.sample_text");
     // config.boxed(".google.languages_public.LanguageProto.exemplar_chars");
 

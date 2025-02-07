@@ -1,0 +1,29 @@
+id: "djc_Latn"
+language: "djc"
+script: "Latn"
+name: "Dar Daju Daju"
+autonym: "dajiŋge"
+population: 75000
+region: "TD"
+exemplar_chars {
+  base: "A a B b Ɓ ɓ C c D d Ɗ ɗ E e G g H h I i J j K k L l M m {MB} {mb} N n {ND} {nd} Ŋ ŋ {ŊG} {ŋg} {N̰} {n̰} {N̰J} {n̰j} O o P p R r S s T t U u Y y Ƴ ƴ Z z"
+  auxiliary: "F f Q q V v W w X x"
+  marks: "◌̰"
+  numerals: "- , . % + 0 1 2 3 4 5 6 7 8 9"
+}
+sample_text {
+  masthead_full: "ƁɓŊŋ"
+  masthead_partial: "N̰j"
+  styles: "Na ɓene watiri me oso ki Duzu. Isitaŋga tir ƴuge ani."
+  tester: "Asin̰i tespedi wa mudugi posuma asin̰i mudugi wa arani sogo ette raki wa raki."
+  poster_sm: "Ŋgan̰ki kasi."
+  poster_md: "Sa lan̰jike"
+  poster_lg: "lan̰jinma."
+  specimen_48: "Kona gogcina silene asin̰i karin paktindi. Kona ki gederina ki ŋgan̰ina ŋgern̰i?"
+  specimen_36: "Kor cicce na ediŋga urene ɗidano aapiye? Ha ha, ma aapiye. Aŋasi hale meŋ-bane ediŋga? Meŋ-bane edaŋga aapiye."
+  specimen_32: "Kor ni aapiya? Na batali itira. Labinaŋga ɗeba tiro ɓiji labiniŋga. Idine mugne. Na oso ki yumdiŋge mugnane. Kine ani aŋgala? Ma mbakine na ede meska."
+  specimen_21: "Arani posuma mudugi sogo asin̰i karin raki. Sogo emsire asin̰i karin pida ki aydin̰ce raki. Sogo suŋge asin̰i karin tespedi ki dorine pida. Emsire pida undini tiŋgidi emsire raki. Ki emsire tespedi, ode tibe. Sogo uŋge oosine ki emsire kosonda. Asin̰i karin arani posuma kodosi sogo asin̰i karin bistenda."
+  specimen_16: "Sogo yumdiŋge ki suŋde asin̰i pida na emsire paktindi sa sahine asin̰i karin raki. Ki suŋde asin̰i pida wa raki na emsire raki, ediska osi ki Jamena. Ki suŋde asin̰i pida wa pida, ediska ayi ɓiji Jamena. Kor sogo yumdiŋge ki suŋde asin̰i pida wa mudugi na emsire kosonda. Kor ni wen̰e ƴane? Na wen̰e goyabi. Zonuma silene tespedi. Kor oŋa wen̰ina ƴane? Kona wen̰cina goyabi. Goyabi raki zonuma silene mudugi. Abakari wen̰e goyabi pida. Ettigma urginaŋko ŋgidaŋko wen̰e asin̰i pida wa pida goyabi. Edona ɗidano sogo aydin̰ce ŋgern̰i? Am sogo aydin̰ce asin̰i karin kosonda. Sogo sahine asin̰i wa cenne. Edena ɓono sogo aydin̰ce asin̰i kodosi wa arani. Edona ɓono urene sogo aydin̰ce asin̰i kodosi wa tespedi. Edona urene ɗidano sogo aydin̰ce asin̰i pida wa raki. Ure meska nanona sogo aydin̰ce asin̰i mudugi wa kodosi. Sogo suŋde asin̰i kodosi wa raki ki emsire kodosi."
+}
+source: "Association pour le développement et la promotion de la langue daju, Diksiyoneri Dajiŋɡe - Iŋglisi : Diksiyoneri ɓiji ŋgake dajiŋge ya ŋgake iŋglisi, Association pour le développement et la promotion de la langue daju, 2011"
+source: "Association pour le développement et la promotion de la langue daju, Diksiyoneri me oruwa Dajiŋge-Nasariŋge = Dictionnaire visuel daju-français, Association pour le développement et la promotion de la langue daju, 2012"

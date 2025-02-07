@@ -10,6 +10,7 @@ where = ["Lib"]
 
 [tool.setuptools_scm]
 git_describe_command = "git describe --match 'v*' --tags"
+write_to = "Lib/gflanguages/_version.py"
 
 [project]
 dynamic = ["version"]

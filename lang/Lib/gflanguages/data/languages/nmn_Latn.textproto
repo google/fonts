@@ -1,0 +1,14 @@
+id: "nmn_Latn"
+language: "nmn"
+script: "Latn"
+region: "BW"
+region: "NA"
+population: 3600
+name: "ǃXoon"
+preferred_name: "Taa"
+exemplar_chars {
+  base: "a A b B d D e E f F g G h H i I k K l L m M n N o O p P q Q r R s S t T u U x X y Y ʘ ǀ ǃ ǂ ǁ '"
+  auxiliary: "’"
+}
+source: "Christfried Naumann, Frieda 'Nǃahma-ǁ''Ai Tsame, Frans ǀAqrite Tsame, John Dzui-Dzui Barase, Josef Axi Isaacs, Julieta ǀUu-Ka'e Tsame, Maria Tamaro Bessa, Piet ǀ''Uri-ǂOm Jacobs, Sophia Puna Dikole, Xoa ke Taa ǂAan - ǃXuun ǀa ǂxanya = A Primer for Writing Taa - West !Xoon version, 2015"
+note: "The letter apostrophe is generally represented with U+0027 ' but sometimes U+2019 ’ is used; U+02BC ʼ does not seem to be used orthographically. The double apostrophe is generally represented with two U+0027 ' or two U+2019 ’; the U+0022 \", U+02EE ˮ or U+201D ” do not seem to be used orthographically. Several sequences are used as digraphs, trigraphs, etc.\nAnthony Traill used a phonetic orthography indicating tones and other features with diacritics, whereas Naumann et al. (2015) does not indicate tones and uses sequences of letters instead of diacritics."

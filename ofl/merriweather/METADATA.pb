@@ -107,6 +107,16 @@ fallbacks {
     max_value: 700.0
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
+  }
+  axis_target {
     tag: "ital"
     min_value: 0.0
     max_value: 0.0
@@ -123,6 +133,16 @@ fallbacks {
     tag: "wght"
     min_value: 900.0
     max_value: 900.0
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
   }
   axis_target {
     tag: "ital"
@@ -143,6 +163,16 @@ fallbacks {
     max_value: 300.0
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
+  }
+  axis_target {
     tag: "ital"
     min_value: 1.0
     max_value: 1.0
@@ -159,6 +189,16 @@ fallbacks {
     tag: "wght"
     min_value: 400.0
     max_value: 400.0
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
   }
   axis_target {
     tag: "ital"
@@ -179,6 +219,16 @@ fallbacks {
     max_value: 700.0
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
+  }
+  axis_target {
     tag: "ital"
     min_value: 1.0
     max_value: 1.0
@@ -195,6 +245,16 @@ fallbacks {
     tag: "wght"
     min_value: 900.0
     max_value: 900.0
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
   }
   axis_target {
     tag: "ital"

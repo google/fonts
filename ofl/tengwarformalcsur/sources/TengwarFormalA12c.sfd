@@ -1,0 +1,2662 @@
+SplineFontDB: 3.0
+FontName: TengwarFormalA12b
+FullName: Tengwar Formal A
+FamilyName: Tengwar Formal A
+Weight: Book
+Copyright: 2005 - Michal "miszka" Nowakowski *freeware*
+Version: 1.2b
+ItalicAngle: 0
+UnderlinePosition: -133
+UnderlineWidth: 20
+Ascent: 1290
+Descent: 758
+LayerCount: 2
+Layer: 0 1 "Warstwa t+AUIA-a"  1
+Layer: 1 1 "Plan pierwszy"  0
+NeedsXUIDChange: 1
+XUID: [1021 134 475744448 5096305]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1252786451
+ModificationTime: 1252786519
+PfmFamily: 81
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 0 0 4 0 0 0 0 0 0 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 41
+OS2WinAOffset: 1
+OS2WinDescent: -6
+OS2WinDOffset: 1
+HheadAscent: 83
+HheadAOffset: 1
+HheadDescent: 12
+HheadDOffset: 1
+OS2SubXSize: 1433
+OS2SubYSize: 1329
+OS2SubXOff: 0
+OS2SubYOff: 292
+OS2SupXSize: 1433
+OS2SupYSize: 1329
+OS2SupXOff: 0
+OS2SupYOff: 927
+OS2StrikeYSize: 100
+OS2StrikeYPos: 528
+OS2Vendor: 'PfEd'
+DEI: 91125
+TtTable: prep
+MPPEM
+PUSHW_1
+ 3
+LT
+IF
+PUSHB_2
+ 1
+ 1
+INSTCTRL
+EIF
+PUSHW_1
+ 511
+SCANCTRL
+PUSHB_1
+ 1
+SCVTCI
+EndTTInstrs
+LangName: 1033 "" "" "Regular" "FontTengwarFormal1A2c" "" "1.2c" "" "" "" "Micha+AUIA Nowakowski" "" "" "http://tengwarformal.limes.com.pl" "" "http://scripts.sil.org/OFL" 
+Encoding: win
+UnicodeInterp: none
+NameList: Adobe Glyph List
+DisplaySize: -24
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 16 16 15
+BeginChars: 256 225
+
+StartChar: .notdef
+Encoding: 0 -1 0
+AltUni2: 000000.ffffffff.0
+Width: 1533
+Flags: MW
+TtInstrs:
+NPUSHB
+ 9
+ 6
+ 2
+ 4
+ 0
+ 6
+ 2
+ 9
+ 4
+ 0
+MDAP[rnd]
+MDRP[min,rnd,black]
+MDAP[rnd]
+MDRP[rp0,min,rnd,white]
+MDRP[min,rnd,black]
+SVTCA[y-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+MDAP[rnd]
+MDRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+256 0 m 1,0,-1
+ 256 1280 l 1,1,-1
+ 1280 1280 l 1,2,-1
+ 1280 0 l 1,3,-1
+ 256 0 l 1,0,-1
+289 33 m 1,4,-1
+ 1247 33 l 1,5,-1
+ 1247 1247 l 1,6,-1
+ 289 1247 l 1,7,-1
+ 289 33 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: space
+Encoding: 32 32 1
+Width: 452
+Flags: MW
+LayerCount: 2
+EndChar
+
+StartChar: numbersign
+Encoding: 35 35 2
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+-551 1243 m 0,0,1
+ -477 1243 -477 1243 -427 1189 c 0,2,3
+ -387 1145 -387 1145 -387 1085 c 0,4,5
+ -387 990 -387 990 -472 934 c 0,6,7
+ -527 897 -527 897 -588 897 c 0,8,9
+ -663 897 -663 897 -711 965 c 0,10,11
+ -745 1013 -745 1013 -745 1069 c 0,12,13
+ -745 1139 -745 1139 -683 1193 c 0,14,15
+ -626 1243 -626 1243 -551 1243 c 0,0,1
+-594 1200 m 0,8,9
+ -638 1200 -638 1200 -660 1161 c 0,10,11
+ -672 1141 -672 1141 -672 1116 c 0,12,13
+ -672 1058 -672 1058 -629 1004 c 0,14,15
+ -592 958 -592 958 -549 958 c 0,16,17
+ -502 958 -502 958 -481 997 c 0,18,19
+ -471 1014 -471 1014 -471 1036 c 0,20,21
+ -471 1114 -471 1114 -525 1167 c 0,22,23
+ -559 1200 -559 1200 -594 1200 c 0,8,9
+EndSplineSet
+EndChar
+
+StartChar: dollar
+Encoding: 36 36 3
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+-442 1032 m 0,0,1
+ -442 1090 -442 1090 -555 1090 c 129,-1,0
+ -619 1084 -619 1084 -690 1083 c 0,1,2
+ -739 1083 -739 1083 -739 1149 c 0,3,4
+ -739 1235 -739 1235 -674 1282 c 1,5,6
+ -682 1258 -682 1258 -682 1239 c 0,7,8
+ -682 1210 -682 1210 -643 1210 c 1,9,-1
+ -525 1217 l 1,10,-1
+ -518 1217 l 2,11,12
+ -428 1217 -428 1217 -403 1190 c 0,13,14
+ -383 1168 -383 1168 -383 1120 c 0,15,16
+ -383 1046 -383 1046 -434 944 c 0,17,18
+ -474 865 -474 865 -512 844 c 1,19,20
+ -448 944 -448 944 -442 1021 c 0,21,22
+ -442 1027 -442 1027 -442 1032 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: percent
+Encoding: 37 37 4
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+-575 1032 m 1,0,1
+ -628 933 -628 933 -662 902 c 0,2,3
+ -694 872 -694 872 -725 872 c 0,4,5
+ -767 872 -767 872 -785 910 c 0,6,7
+ -791 922 -791 922 -791 934 c 0,8,9
+ -791 975 -791 975 -742 1016 c 0,10,11
+ -733 1024 -733 1024 -731 1024 c 0,12,13
+ -728 1024 -728 1024 -725 1001 c 0,14,15
+ -719 961 -719 961 -688 961 c 0,16,17
+ -656 961 -656 961 -631 1015 c 0,18,19
+ -623 1031 -623 1031 -602 1083 c 1,20,21
+ -640 1146 -640 1146 -651 1157 c 0,22,23
+ -664 1171 -664 1171 -674 1171 c 0,24,25
+ -683 1171 -683 1171 -704 1149 c 0,26,27
+ -714 1139 -714 1139 -719 1139 c 0,28,29
+ -728 1139 -728 1139 -731 1153 c 1,30,31
+ -731 1176 -731 1176 -688 1216 c 0,32,33
+ -652 1249 -652 1249 -629 1249 c 0,34,35
+ -598 1249 -598 1249 -540 1138 c 2,36,-1
+ -476 1015 l 1,37,38
+ -448 967 -448 967 -432 967 c 0,39,40
+ -417 967 -417 967 -396 1013 c 0,41,42
+ -383 1042 -383 1042 -377 1042 c 0,43,44
+ -369 1042 -369 1042 -369 1016 c 0,45,46
+ -369 966 -369 966 -403 916 c 0,47,48
+ -427 883 -427 883 -449 883 c 0,49,50
+ -485 883 -485 883 -527 951 c 2,51,-1
+ -575 1032 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: seven
+Encoding: 55 55 5
+Width: 806
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+166 637 m 0,0,1
+ 181 637 181 637 199 621 c 1,2,3
+ 342 440 342 440 398 321 c 0,4,5
+ 439 237 439 237 471 123 c 1,6,7
+ 670 333 670 333 670 459 c 0,8,9
+ 670 522 670 522 607 546 c 0,10,11
+ 583 555 583 555 555 555 c 0,12,13
+ 507 555 507 555 458 515 c 0,14,15
+ 432 494 432 494 422 494 c 0,16,17
+ 412 494 412 494 406 506 c 1,18,19
+ 406 519 406 519 454 563 c 0,20,21
+ 537 639 537 639 598 639 c 0,22,23
+ 675 639 675 639 704 624 c 0,24,25
+ 758 597 758 597 758 506 c 1,26,27
+ 752 400 752 400 587 184 c 0,28,29
+ 496 64 496 64 430 4 c 0,30,31
+ 415 -10 415 -10 297 -109 c 0,32,33
+ 194 -196 194 -196 165 -254 c 0,34,35
+ 147 -289 147 -289 147 -324 c 0,36,37
+ 147 -374 147 -374 189 -429 c 0,38,39
+ 262 -526 262 -526 406 -526 c 0,40,41
+ 485 -526 485 -526 564 -478 c 0,42,43
+ 584 -465 584 -465 590 -465 c 0,44,45
+ 594 -465 594 -465 594 -469 c 0,46,47
+ 594 -482 594 -482 566 -522 c 0,48,49
+ 492 -630 492 -630 370 -637 c 0,50,-1
+ 356 -637 l 0,51,52
+ 215 -637 215 -637 128 -546 c 0,53,54
+ 59 -474 59 -474 59 -379 c 0,55,56
+ 59 -249 59 -249 216 -113 c 1,57,-1
+ 344 -8 l 1,58,59
+ 371 17 371 17 371 31 c 0,60,61
+ 371 117 371 117 278 289 c 0,62,63
+ 195 441 195 441 129 499 c 0,64,65
+ 105 520 105 520 90 520 c 0,66,67
+ 71 520 71 520 29 492 c 0,68,69
+ 3 475 3 475 -10 475 c 0,70,71
+ -26 475 -26 475 -30 488 c 0,72,73
+ -31 490 -31 490 -31 492 c 0,74,75
+ -31 504 -31 504 48 566 c 0,76,77
+ 140 637 140 637 166 637 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: less
+Encoding: 60 60 6
+Width: 806
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+313 645 m 0,0,1
+ 451 645 451 645 625 471 c 1,11,12
+ 625 1013 625 1013 641 1098 c 0,13,14
+ 657 1192 657 1192 701 1240 c 0,15,16
+ 728 1270 728 1270 760 1270 c 0,17,18
+ 791 1270 791 1270 811 1213 c 0,19,20
+ 819 1191 819 1191 819 1176 c 0,21,22
+ 819 1151 819 1151 803 1149 c 2,23,-1
+ 788 1149 l 2,24,25
+ 731 1149 731 1149 725 870 c 1,26,27
+ 727 663 727 663 722 286 c 0,28,29
+ 720 132 720 132 752 -27 c 0,30,31
+ 755 -44 755 -44 700 -23 c 0,32,33
+ 599 13 599 13 418 3 c 0,34,35
+ 231 -7 231 -7 220 -7 c 0,36,37
+ 190 -7 190 -7 164 -6 c 0,38,39
+ 91 -0 91 -0 16 82 c 0,40,41
+ -21 123 -21 123 9 121 c 0,42,43
+ 14 121 14 121 23 119 c 0,44,45
+ 82 105 82 105 135 100 c 1,46,47
+ 72 253 72 253 72 352 c 0,48,49
+ 72 548 72 548 189 615 c 0,50,51
+ 241 645 241 645 313 645 c 0,0,1
+627 84 m 1,0,1
+ 623 122 623 122 626 215 c 0,2,3
+ 629 297 629 297 621 401 c 1,4,5
+ 621 424 621 424 581 466 c 0,6,7
+ 501 549 501 549 387 549 c 0,8,9
+ 267 549 267 549 203 454 c 0,10,11
+ 158 387 158 387 158 293 c 0,12,13
+ 158 232 158 232 186 100 c 1,14,15
+ 587 103 587 103 627 84 c 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: B
+Encoding: 66 66 7
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 4 37 N 1 0 0 1 440 0 2
+EndChar
+
+StartChar: C
+Encoding: 67 67 8
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2 35 N 1 0 0 1 410 0 2
+EndChar
+
+StartChar: D
+Encoding: 68 68 9
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2 35 N 1 0 0 1 242 0 2
+EndChar
+
+StartChar: E
+Encoding: 69 69 10
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2 35 N 1 0 0 1 131 0 2
+EndChar
+
+StartChar: F
+Encoding: 70 70 11
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 3 36 N 1 0 0 1 217 0 2
+EndChar
+
+StartChar: G
+Encoding: 71 71 12
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 4 37 N 1 0 0 1 254 0 2
+EndChar
+
+StartChar: H
+Encoding: 72 72 13
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 19 94 N 1 0 0 1 256 0 2
+EndChar
+
+StartChar: N
+Encoding: 78 78 14
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 19 94 N 1 0 0 1 438 0 2
+EndChar
+
+StartChar: R
+Encoding: 82 82 15
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 3 36 N 1 0 0 1 139 0 2
+EndChar
+
+StartChar: T
+Encoding: 84 84 16
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 4 37 N 1 0 0 1 129 0 2
+EndChar
+
+StartChar: V
+Encoding: 86 86 17
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+-260 1083 m 2,0,1
+ -309 1083 -309 1083 -309 1149 c 0,2,3
+ -309 1235 -309 1235 -244 1282 c 1,4,5
+ -252 1258 -252 1258 -252 1239 c 0,6,7
+ -252 1210 -252 1210 -213 1210 c 1,8,-1
+ -99 1217 l 1,9,-1
+ -98 1217 l 2,10,11
+ -24 1217 -24 1217 -5 1182 c 0,12,13
+ 6 1161 6 1161 6 1120 c 0,14,15
+ 6 1045 6 1045 -45 944 c 0,16,17
+ -84 865 -84 865 -123 844 c 1,0,1
+ -83 899 -83 899 -62 975 c 0,2,3
+ -53 1008 -53 1008 -53 1032 c 0,4,5
+ -53 1087 -53 1087 -127 1087 c 1,6,-1
+ -256 1083 l 1,7,-1
+ -260 1083 l 2,0,1
+EndSplineSet
+EndChar
+
+StartChar: Y
+Encoding: 89 89 18
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 19 94 N 1 0 0 1 131 0 2
+EndChar
+
+StartChar: asciicircum
+Encoding: 94 94 19
+Width: 0
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+-432 1174 m 0,0,1
+ -424 1174 -424 1174 -420 1159 c 1,2,3
+ -420 1144 -420 1144 -455 1103 c 0,4,5
+ -528 1020 -528 1020 -608 1020 c 0,6,7
+ -689 1020 -689 1020 -750 1094 c 0,8,9
+ -778 1127 -778 1127 -778 1143 c 0,10,11
+ -778 1175 -778 1175 -743 1203 c 0,12,13
+ -724 1219 -724 1219 -707 1219 c 0,14,15
+ -691 1219 -691 1219 -663 1191 c 0,16,17
+ -616 1145 -616 1145 -567 1145 c 0,18,19
+ -544 1145 -544 1145 -459 1168 c 0,20,21
+ -439 1174 -439 1174 -432 1174 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: grave
+Encoding: 96 96 20
+Width: 274
+VWidth: 1000
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+102 322 m 0,0,1
+ 104 469 104 469 103 477 c 0,2,3
+ 99 529 99 529 69 549 c 0,4,5
+ 59 555 59 555 45 561 c 1,6,7
+ 18 559 18 559 57 612 c 0,8,9
+ 116 694 116 694 175 634 c 0,10,11
+ 190 618 190 618 193 608 c 0,12,13
+ 200 581 200 581 197 483 c 1,14,15
+ 208 215 208 215 196 115 c 0,16,17
+ 195 113 195 113 195 111 c 0,18,19
+ 184 46 184 46 63 -31 c 1,20,21
+ 55 -34 55 -34 55 -25 c 1,22,23
+ 92 47 92 47 98 118 c 0,24,25
+ 100 146 100 146 102 322 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: u
+Encoding: 117 117 21
+Width: 806
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+41 -127 m 1,0,1
+ 8 -123 8 -123 8 -109 c 0,2,3
+ 8 2 8 2 302 218 c 0,4,5
+ 309 223 309 223 311 225 c 1,0,1
+ 298 260 298 260 236 359 c 0,2,3
+ 135 520 135 520 90 520 c 0,4,5
+ 71 520 71 520 29 492 c 0,6,7
+ 3 475 3 475 -10 475 c 0,8,9
+ -26 475 -26 475 -30 488 c 0,10,11
+ -31 490 -31 490 -31 492 c 0,12,13
+ -31 504 -31 504 48 566 c 0,14,15
+ 140 637 140 637 166 637 c 0,16,17
+ 181 637 181 637 199 621 c 1,18,19
+ 342 440 342 440 398 321 c 0,20,21
+ 439 237 439 237 471 123 c 1,22,23
+ 670 333 670 333 670 459 c 0,24,25
+ 670 522 670 522 607 546 c 0,26,27
+ 583 555 583 555 555 555 c 0,28,29
+ 507 555 507 555 458 515 c 0,30,31
+ 432 494 432 494 422 494 c 0,32,33
+ 412 494 412 494 406 506 c 1,34,35
+ 406 519 406 519 454 563 c 0,36,37
+ 537 639 537 639 598 639 c 0,38,39
+ 675 639 675 639 704 624 c 0,40,41
+ 758 597 758 597 758 506 c 1,42,43
+ 752 400 752 400 587 184 c 0,44,45
+ 496 64 496 64 430 4 c 0,46,47
+ 415 -10 415 -10 297 -109 c 0,48,49
+ 194 -196 194 -196 165 -254 c 0,50,51
+ 147 -289 147 -289 147 -324 c 0,52,53
+ 147 -374 147 -374 189 -429 c 0,54,55
+ 262 -526 262 -526 406 -526 c 0,56,57
+ 485 -526 485 -526 564 -478 c 0,58,59
+ 584 -465 584 -465 590 -465 c 0,60,61
+ 594 -465 594 -465 594 -469 c 0,62,63
+ 594 -482 594 -482 566 -522 c 0,64,65
+ 492 -630 492 -630 370 -637 c 0,66,-1
+ 356 -637 l 0,67,68
+ 215 -637 215 -637 128 -546 c 0,69,70
+ 59 -474 59 -474 59 -379 c 0,71,72
+ 59 -253 59 -253 205 -123 c 1,73,-1
+ 341 -10 l 1,74,75
+ 375 22 375 22 375 41 c 0,76,77
+ 375 93 375 93 324 199 c 1,78,79
+ 156 63 156 63 111 -60 c 0,80,81
+ 95 -105 95 -105 91 -110 c 0,82,83
+ 78 -127 78 -127 41 -127 c 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: y
+Encoding: 121 121 22
+Width: 806
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+578 -6 m 1,0,-1
+ 297 8 l 1,1,2
+ 204 8 204 8 78 -14 c 1,3,4
+ 50 -23 50 -23 59 14 c 1,5,6
+ 95 59 95 59 92 283 c 1,7,-1
+ 95 491 l 1,8,9
+ 94 519 94 519 88 526 c 0,10,11
+ 78 537 78 537 48 560 c 0,12,13
+ 35 569 35 569 35 580 c 0,14,15
+ 35 599 35 599 64 633 c 0,16,17
+ 94 668 94 668 121 668 c 0,18,19
+ 196 668 196 668 197 534 c 0,20,-1
+ 197 479 l 1,0,1
+ 365 645 365 645 502 645 c 0,2,3
+ 662 645 662 645 718 504 c 0,4,5
+ 743 442 743 442 743 358 c 0,6,7
+ 743 261 743 261 692 130 c 0,8,9
+ 686 116 686 116 680 100 c 1,10,11
+ 702 102 702 102 737 102 c 0,12,13
+ 807 102 807 102 844 31 c 0,14,15
+ 866 -13 866 -13 866 -72 c 0,16,17
+ 866 -205 866 -205 754 -293 c 0,18,19
+ 699 -336 699 -336 643 -336 c 0,20,21
+ 561 -336 561 -336 559 -283 c 0,22,23
+ 559 -242 559 -242 600 -196 c 0,24,25
+ 615 -180 615 -180 621 -180 c 0,26,27
+ 631 -180 631 -180 643 -206 c 0,28,29
+ 665 -252 665 -252 694 -252 c 0,30,31
+ 776 -252 776 -252 793 -147 c 1,32,33
+ 793 0 793 0 702 0 c 1,34,-1
+ 580 -6 l 1,35,-1
+ 578 -6 l 1,0,-1
+188 84 m 1,0,1
+ 224 103 224 103 629 100 c 1,2,3
+ 655 226 655 226 655 297 c 0,4,5
+ 655 427 655 427 571 498 c 0,6,7
+ 511 549 511 549 426 549 c 0,8,9
+ 336 549 336 549 258 486 c 0,10,11
+ 201 440 201 440 201 401 c 1,12,13
+ 191 296 191 296 193 175 c 0,14,15
+ 193 130 193 130 188 84 c 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: braceright
+Encoding: 125 125 23
+Width: 32
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+-584 -272 m 1,0,-1
+ -598 -319 l 1,1,2
+ -598 -349 -598 -349 -575 -372 c 0,3,4
+ -562 -385 -562 -385 -547 -385 c 0,5,6
+ -475 -385 -475 -385 -396 -232 c 0,7,8
+ -373 -188 -373 -188 -358 -147 c 1,9,10
+ -333 -72 -333 -72 -247 93 c 0,11,12
+ -175 232 -175 232 -129 285 c 0,13,14
+ -29 401 -29 401 35 401 c 0,15,16
+ 117 401 117 401 140 343 c 0,17,18
+ 147 326 147 326 147 305 c 0,19,20
+ 147 250 147 250 64 140 c 0,21,22
+ 11 69 11 69 -10 63 c 1,23,24
+ -29 63 -29 63 -33 82 c 1,25,26
+ -33 96 -33 96 4 141 c 0,27,28
+ 57 205 57 205 57 242 c 0,0,1
+ 57 275 57 275 23 298 c 0,2,3
+ 6 309 6 309 -10 309 c 0,4,5
+ -39 309 -39 309 -86 262 c 1,6,7
+ -150 203 -150 203 -299 -115 c 0,8,9
+ -338 -200 -338 -200 -358 -248 c 0,10,11
+ -403 -353 -403 -353 -470 -419 c 0,12,13
+ -530 -479 -530 -479 -588 -479 c 0,14,15
+ -646 -479 -646 -479 -662 -433 c 0,16,17
+ -666 -421 -666 -421 -666 -406 c 0,18,19
+ -666 -353 -666 -353 -619 -294 c 0,20,21
+ -584 -252 -584 -252 -584 -272 c 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: asciitilde
+Encoding: 126 126 24
+Width: 274
+VWidth: 1000
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+193 471 m 0,0,1
+ 188 381 188 381 199 -289 c 1,2,3
+ 205 -533 205 -533 195 -600 c 0,4,5
+ 185 -664 185 -664 63 -731 c 1,6,7
+ 54 -734 54 -734 57 -725 c 1,8,9
+ 89 -660 89 -660 95 -602 c 0,10,11
+ 99 -569 99 -569 102 -385 c 0,12,13
+ 108 -62 108 -62 98 391 c 0,14,15
+ 95 523 95 523 92 528 c 0,16,17
+ 78 553 78 553 48 565 c 0,18,19
+ 35 571 35 571 35 580 c 0,20,21
+ 35 599 35 599 64 633 c 0,22,23
+ 94 668 94 668 121 668 c 0,24,25
+ 198 668 198 668 195 517 c 0,26,27
+ 195 540 195 540 193 471 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: questiondown
+Encoding: 191 191 25
+Width: 806
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 5 55 N -1 0 0 -1 805 571 2
+EndChar
+
+StartChar: exclam
+Encoding: 33 33 26
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: quotedbl
+Encoding: 34 34 27
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ampersand
+Encoding: 38 38 28
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: quotesingle
+Encoding: 39 39 29
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: parenleft
+Encoding: 40 40 30
+Width: 1533
+Flags: W
+TeX: 112 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: parenright
+Encoding: 41 41 31
+Width: 1533
+Flags: W
+TeX: 112 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: asterisk
+Encoding: 42 42 32
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: plus
+Encoding: 43 43 33
+Width: 1533
+Flags: W
+TeX: 112 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: comma
+Encoding: 44 44 34
+Width: 1533
+Flags: W
+TeX: 99 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 35
+Width: 1533
+Flags: W
+TeX: 104 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: period
+Encoding: 46 46 36
+Width: 1533
+Flags: W
+TeX: 112 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: slash
+Encoding: 47 47 37
+Width: 1533
+Flags: W
+TeX: 115 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: zero
+Encoding: 48 48 38
+Width: 1533
+Flags: W
+TeX: 122 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: one
+Encoding: 49 49 39
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: two
+Encoding: 50 50 40
+Width: 1533
+Flags: W
+TeX: 116 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: three
+Encoding: 51 51 41
+Width: 1533
+Flags: W
+TeX: 116 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: four
+Encoding: 52 52 42
+Width: 1533
+Flags: W
+TeX: 102 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: five
+Encoding: 53 53 43
+Width: 1533
+Flags: W
+TeX: 102 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: six
+Encoding: 54 54 44
+Width: 1533
+Flags: W
+TeX: 115 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eight
+Encoding: 56 56 45
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: nine
+Encoding: 57 57 46
+Width: 1533
+Flags: W
+TeX: 110 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: colon
+Encoding: 58 58 47
+Width: 1533
+Flags: W
+TeX: 99 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: semicolon
+Encoding: 59 59 48
+Width: 1533
+Flags: W
+TeX: 115 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: equal
+Encoding: 61 61 49
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: greater
+Encoding: 62 62 50
+Width: 1533
+Flags: W
+TeX: 103 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: question
+Encoding: 63 63 51
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: at
+Encoding: 64 64 52
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: A
+Encoding: 65 65 53
+Width: 1533
+Flags: W
+TeX: 65 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: I
+Encoding: 73 73 54
+Width: 1533
+Flags: W
+TeX: 73 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: J
+Encoding: 74 74 55
+Width: 1533
+Flags: W
+TeX: 74 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: K
+Encoding: 75 75 56
+Width: 1533
+Flags: W
+TeX: 75 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: L
+Encoding: 76 76 57
+Width: 1533
+Flags: W
+TeX: 76 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: M
+Encoding: 77 77 58
+Width: 1533
+Flags: W
+TeX: 77 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: O
+Encoding: 79 79 59
+Width: 1533
+Flags: W
+TeX: 79 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: P
+Encoding: 80 80 60
+Width: 1533
+Flags: W
+TeX: 80 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Q
+Encoding: 81 81 61
+Width: 1533
+Flags: W
+TeX: 81 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: S
+Encoding: 83 83 62
+Width: 1533
+Flags: W
+TeX: 83 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: U
+Encoding: 85 85 63
+Width: 1533
+Flags: W
+TeX: 85 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: W
+Encoding: 87 87 64
+Width: 1533
+Flags: W
+TeX: 87 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: X
+Encoding: 88 88 65
+Width: 1533
+Flags: W
+TeX: 88 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Z
+Encoding: 90 90 66
+Width: 1533
+Flags: W
+TeX: 90 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: bracketleft
+Encoding: 91 91 67
+Width: 1533
+Flags: W
+TeX: 98 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: backslash
+Encoding: 92 92 68
+Width: 1533
+Flags: W
+TeX: 98 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: bracketright
+Encoding: 93 93 69
+Width: 1533
+Flags: W
+TeX: 98 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: underscore
+Encoding: 95 95 70
+Width: 1533
+Flags: W
+TeX: 117 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: a
+Encoding: 97 97 71
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: b
+Encoding: 98 98 72
+Width: 1533
+Flags: W
+TeX: 98 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: c
+Encoding: 99 99 73
+Width: 1533
+Flags: W
+TeX: 99 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: d
+Encoding: 100 100 74
+Width: 1533
+Flags: W
+TeX: 100 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: e
+Encoding: 101 101 75
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: f
+Encoding: 102 102 76
+Width: 1533
+Flags: W
+TeX: 102 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: g
+Encoding: 103 103 77
+Width: 1533
+Flags: W
+TeX: 103 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: h
+Encoding: 104 104 78
+Width: 1533
+Flags: W
+TeX: 104 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: i
+Encoding: 105 105 79
+Width: 1533
+Flags: HW
+TeX: 105 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: j
+Encoding: 106 106 80
+Width: 1533
+Flags: W
+TeX: 106 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: k
+Encoding: 107 107 81
+Width: 1533
+Flags: W
+TeX: 107 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: l
+Encoding: 108 108 82
+Width: 1533
+Flags: W
+TeX: 108 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: m
+Encoding: 109 109 83
+Width: 1533
+Flags: W
+TeX: 109 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: n
+Encoding: 110 110 84
+Width: 1533
+Flags: W
+TeX: 110 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: o
+Encoding: 111 111 85
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: p
+Encoding: 112 112 86
+Width: 1533
+Flags: W
+TeX: 112 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: q
+Encoding: 113 113 87
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: r
+Encoding: 114 114 88
+Width: 1533
+Flags: W
+TeX: 114 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: s
+Encoding: 115 115 89
+Width: 1533
+Flags: W
+TeX: 115 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: t
+Encoding: 116 116 90
+Width: 1533
+Flags: W
+TeX: 116 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: v
+Encoding: 118 118 91
+Width: 1533
+Flags: W
+TeX: 118 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: w
+Encoding: 119 119 92
+Width: 1533
+Flags: W
+TeX: 119 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: x
+Encoding: 120 120 93
+Width: 1533
+Flags: W
+TeX: 120 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: z
+Encoding: 122 122 94
+Width: 1533
+Flags: W
+TeX: 122 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: braceleft
+Encoding: 123 123 95
+Width: 1533
+Flags: W
+TeX: 98 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: bar
+Encoding: 124 124 96
+Width: 1533
+Flags: W
+TeX: 98 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: NameMe-127
+Encoding: 127 127 97
+Width: 1533
+Flags: W
+TeX: 78 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Euro
+Encoding: 128 8364 98
+Width: 1533
+Flags: W
+TeX: 69 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: NameMe-129
+Encoding: 129 -1 99
+Width: 1533
+Flags: W
+TeX: 78 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: quotesinglbase
+Encoding: 130 8218 100
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: florin
+Encoding: 131 402 101
+Width: 1533
+Flags: W
+TeX: 102 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: quotedblbase
+Encoding: 132 8222 102
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ellipsis
+Encoding: 133 8230 103
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: dagger
+Encoding: 134 8224 104
+Width: 1533
+Flags: W
+TeX: 100 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: daggerdbl
+Encoding: 135 8225 105
+Width: 1533
+Flags: W
+TeX: 100 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: circumflex
+Encoding: 136 710 106
+Width: 1533
+Flags: W
+TeX: 99 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: perthousand
+Encoding: 137 8240 107
+Width: 1533
+Flags: W
+TeX: 112 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Scaron
+Encoding: 138 352 108
+Width: 1533
+Flags: W
+TeX: 83 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: guilsinglleft
+Encoding: 139 8249 109
+Width: 1533
+Flags: W
+TeX: 103 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: OE
+Encoding: 140 338 110
+Width: 1533
+Flags: W
+TeX: 79 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: NameMe-141
+Encoding: 141 -1 111
+Width: 1533
+Flags: W
+TeX: 78 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Zcaron
+Encoding: 142 381 112
+Width: 1533
+Flags: W
+TeX: 90 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: NameMe-143
+Encoding: 143 -1 113
+Width: 1533
+Flags: W
+TeX: 78 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: NameMe-144
+Encoding: 144 -1 114
+Width: 1533
+Flags: W
+TeX: 78 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: quoteleft
+Encoding: 145 8216 115
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: quoteright
+Encoding: 146 8217 116
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: quotedblleft
+Encoding: 147 8220 117
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: quotedblright
+Encoding: 148 8221 118
+Width: 1533
+Flags: W
+TeX: 113 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: bullet
+Encoding: 149 8226 119
+Width: 1533
+Flags: W
+TeX: 98 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: endash
+Encoding: 150 8211 120
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: emdash
+Encoding: 151 8212 121
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: tilde
+Encoding: 152 732 122
+Width: 1533
+Flags: W
+TeX: 116 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: trademark
+Encoding: 153 8482 123
+Width: 1533
+Flags: W
+TeX: 116 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: scaron
+Encoding: 154 353 124
+Width: 1533
+Flags: W
+TeX: 115 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: guilsinglright
+Encoding: 155 8250 125
+Width: 1533
+Flags: W
+TeX: 103 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oe
+Encoding: 156 339 126
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: NameMe-157
+Encoding: 157 -1 127
+Width: 1533
+Flags: W
+TeX: 78 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: zcaron
+Encoding: 158 382 128
+Width: 1533
+Flags: W
+TeX: 122 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ydieresis
+Encoding: 159 376 129
+Width: 1533
+Flags: W
+TeX: 89 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: nonbreakingspace
+Encoding: 160 160 130
+Width: 1533
+Flags: W
+TeX: 110 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: exclamdown
+Encoding: 161 161 131
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: cent
+Encoding: 162 162 132
+Width: 1533
+Flags: W
+TeX: 99 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: sterling
+Encoding: 163 163 133
+Width: 1533
+Flags: W
+TeX: 115 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: currency
+Encoding: 164 164 134
+Width: 1533
+Flags: W
+TeX: 99 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: yen
+Encoding: 165 165 135
+Width: 1533
+Flags: W
+TeX: 121 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: brokenbar
+Encoding: 166 166 136
+Width: 1533
+Flags: W
+TeX: 98 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: section
+Encoding: 167 167 137
+Width: 1533
+Flags: W
+TeX: 115 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: dieresis
+Encoding: 168 168 138
+Width: 1533
+Flags: W
+TeX: 100 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: copyright
+Encoding: 169 169 139
+Width: 1533
+Flags: W
+TeX: 99 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ordfeminine
+Encoding: 170 170 140
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: guillemotleft
+Encoding: 171 171 141
+Width: 1533
+Flags: W
+TeX: 103 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: logicalnot
+Encoding: 172 172 142
+Width: 1533
+Flags: W
+TeX: 108 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: softhyphen
+Encoding: 173 173 143
+Width: 1533
+Flags: W
+TeX: 115 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: registered
+Encoding: 174 174 144
+Width: 1533
+Flags: W
+TeX: 114 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: macron
+Encoding: 175 175 145
+Width: 1533
+Flags: W
+TeX: 109 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: degree
+Encoding: 176 176 146
+Width: 1533
+Flags: W
+TeX: 100 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: plusminus
+Encoding: 177 177 147
+Width: 1533
+Flags: W
+TeX: 112 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni00B2
+Encoding: 178 178 148
+Width: 1533
+Flags: W
+TeX: 117 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni00B3
+Encoding: 179 179 149
+Width: 1533
+Flags: W
+TeX: 117 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acute
+Encoding: 180 180 150
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni00B5
+Encoding: 181 181 151
+Width: 1533
+Flags: W
+TeX: 117 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: paragraph
+Encoding: 182 182 152
+Width: 1533
+Flags: W
+TeX: 112 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: periodcentered
+Encoding: 183 183 153
+Width: 1533
+Flags: W
+TeX: 112 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: cedilla
+Encoding: 184 184 154
+Width: 1533
+Flags: W
+TeX: 99 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni00B9
+Encoding: 185 185 155
+Width: 1533
+Flags: W
+TeX: 117 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ordmasculine
+Encoding: 186 186 156
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: guillemotright
+Encoding: 187 187 157
+Width: 1533
+Flags: W
+TeX: 103 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: onequarter
+Encoding: 188 188 158
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: onehalf
+Encoding: 189 189 159
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: threequarters
+Encoding: 190 190 160
+Width: 1533
+Flags: W
+TeX: 116 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Agrave
+Encoding: 192 192 161
+Width: 1533
+Flags: W
+TeX: 65 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Aacute
+Encoding: 193 193 162
+Width: 1533
+Flags: W
+TeX: 65 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Acircumflex
+Encoding: 194 194 163
+Width: 1533
+Flags: W
+TeX: 65 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Atilde
+Encoding: 195 195 164
+Width: 1533
+Flags: W
+TeX: 65 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Adieresis
+Encoding: 196 196 165
+Width: 1533
+Flags: W
+TeX: 65 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Aring
+Encoding: 197 197 166
+Width: 1533
+Flags: W
+TeX: 65 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: AE
+Encoding: 198 198 167
+Width: 1533
+Flags: W
+TeX: 65 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ccedilla
+Encoding: 199 199 168
+Width: 1533
+Flags: W
+TeX: 67 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Egrave
+Encoding: 200 200 169
+Width: 1533
+Flags: W
+TeX: 69 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Eacute
+Encoding: 201 201 170
+Width: 1533
+Flags: W
+TeX: 69 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ecircumflex
+Encoding: 202 202 171
+Width: 1533
+Flags: W
+TeX: 69 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Edieresis
+Encoding: 203 203 172
+Width: 1533
+Flags: W
+TeX: 69 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Igrave
+Encoding: 204 204 173
+Width: 1533
+Flags: W
+TeX: 73 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Iacute
+Encoding: 205 205 174
+Width: 1533
+Flags: W
+TeX: 73 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Icircumflex
+Encoding: 206 206 175
+Width: 1533
+Flags: W
+TeX: 73 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Idieresis
+Encoding: 207 207 176
+Width: 1533
+Flags: W
+TeX: 73 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Eth
+Encoding: 208 208 177
+Width: 1533
+Flags: W
+TeX: 69 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ntilde
+Encoding: 209 209 178
+Width: 1533
+Flags: W
+TeX: 78 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ograve
+Encoding: 210 210 179
+Width: 1533
+Flags: W
+TeX: 79 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Oacute
+Encoding: 211 211 180
+Width: 1533
+Flags: W
+TeX: 79 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ocircumflex
+Encoding: 212 212 181
+Width: 1533
+Flags: W
+TeX: 79 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Otilde
+Encoding: 213 213 182
+Width: 1533
+Flags: W
+TeX: 79 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Odieresis
+Encoding: 214 214 183
+Width: 1533
+Flags: W
+TeX: 79 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: multiply
+Encoding: 215 215 184
+Width: 1533
+Flags: W
+TeX: 109 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Oslash
+Encoding: 216 216 185
+Width: 1533
+Flags: W
+TeX: 79 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ugrave
+Encoding: 217 217 186
+Width: 1533
+Flags: W
+TeX: 85 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Uacute
+Encoding: 218 218 187
+Width: 1533
+Flags: W
+TeX: 85 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ucircumflex
+Encoding: 219 219 188
+Width: 1533
+Flags: W
+TeX: 85 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Udieresis
+Encoding: 220 220 189
+Width: 1533
+Flags: W
+TeX: 85 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Yacute
+Encoding: 221 221 190
+Width: 1533
+Flags: W
+TeX: 89 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Thorn
+Encoding: 222 222 191
+Width: 1533
+Flags: W
+TeX: 84 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: germandbls
+Encoding: 223 223 192
+Width: 1533
+Flags: W
+TeX: 103 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: agrave
+Encoding: 224 224 193
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aacute
+Encoding: 225 225 194
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acircumflex
+Encoding: 226 226 195
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: atilde
+Encoding: 227 227 196
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: adieresis
+Encoding: 228 228 197
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aring
+Encoding: 229 229 198
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ae
+Encoding: 230 230 199
+Width: 1533
+Flags: W
+TeX: 97 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ccedilla
+Encoding: 231 231 200
+Width: 1533
+Flags: W
+TeX: 99 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: egrave
+Encoding: 232 232 201
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eacute
+Encoding: 233 233 202
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ecircumflex
+Encoding: 234 234 203
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: edieresis
+Encoding: 235 235 204
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: igrave
+Encoding: 236 236 205
+Width: 1533
+Flags: W
+TeX: 105 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: iacute
+Encoding: 237 237 206
+Width: 1533
+Flags: W
+TeX: 105 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: icircumflex
+Encoding: 238 238 207
+Width: 1533
+Flags: W
+TeX: 105 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: idieresis
+Encoding: 239 239 208
+Width: 1533
+Flags: W
+TeX: 105 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eth
+Encoding: 240 240 209
+Width: 1533
+Flags: W
+TeX: 101 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ntilde
+Encoding: 241 241 210
+Width: 1533
+Flags: W
+TeX: 110 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ograve
+Encoding: 242 242 211
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oacute
+Encoding: 243 243 212
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ocircumflex
+Encoding: 244 244 213
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: otilde
+Encoding: 245 245 214
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: odieresis
+Encoding: 246 246 215
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: divide
+Encoding: 247 247 216
+Width: 1533
+Flags: W
+TeX: 100 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oslash
+Encoding: 248 248 217
+Width: 1533
+Flags: W
+TeX: 111 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ugrave
+Encoding: 249 249 218
+Width: 1533
+Flags: W
+TeX: 117 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uacute
+Encoding: 250 250 219
+Width: 1533
+Flags: W
+TeX: 117 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ucircumflex
+Encoding: 251 251 220
+Width: 1533
+Flags: W
+TeX: 117 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: udieresis
+Encoding: 252 252 221
+Width: 1533
+Flags: W
+TeX: 117 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: yacute
+Encoding: 253 253 222
+Width: 1533
+Flags: W
+TeX: 121 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: thorn
+Encoding: 254 254 223
+Width: 1533
+Flags: W
+TeX: 116 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ydieresis
+Encoding: 255 255 224
+Width: 1533
+Flags: W
+TeX: 121 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 0 0 3
+EndChar
+EndChars
+EndSplineFont

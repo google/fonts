@@ -1,0 +1,1150 @@
+// Morph Input File for Tengwar Formal CSUR
+// Copyright: Copyleft 2011 j. 'mach' wust, Johan Winge
+// Version: 2011-11-16
+// http://freetengwar.sourceforge.net/formal.html
+//
+// This is free software: you can redistribute it and/or
+// modify it under the terms of the GNU General Public License as
+// published by the Free Software Foundation, either version 3 of
+// the License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+//--------------------------------------------------------------
+// Combinations of i-tehta with either curl tehta, and other ligatures
+// Mind the DEL produced by the ligatures in order for following rules to work!
+
+Type           LigatureList
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+List
+	tehtaE_tehtaE.shift2	tehtaE tehtaE
+	tehtaGrave_tehtaGrave.shift2	tehtaGrave tehtaGrave
+	tehtaO_tehtaI.shift2	tehtaI tehtaO
+	tehtaO_tehtaI.shift2	tehtaO tehtaI
+	tehtaO_tehtaO.shift2	tehtaO tehtaO
+	tehtaU_tehtaI.shift2	tehtaI tehtaU
+	tehtaU_tehtaI.shift2	tehtaU tehtaI
+	tehtaU_tehtaU.shift2	tehtaU tehtaU
+	tehtaY	tehtaI tehtaI
+	aha_tinco	aha zwj tinco
+	hwesta_tinco	hwesta zwj tinco
+	silme_aha	silme zwj aha
+	tehtaThinnas	zwj longCarrier
+
+
+//--------------------------------------------------------------
+
+Type          Noncontextual
+Name          Character Alternatives
+Namecode      17
+Setting       Descending W-Tengwa
+Settingcode   16010
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     no
+
+lambeN lambeN.alt
+
+
+//--------------------------------------------------------------
+
+Type          Insertion
+Name          Osse Diacritic (for 'Full Writing')
+Namecode      16040
+Setting       Dot on Ambiguous Osse
+Settingcode   16041
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     yes
+
+osse	osse
+ambiguous	tinco parma calma ando umbar anga
++	suule formen aha anto ampa anca
++	tincoX parmaX calmaX andoX umbarX angaX
++	nuumen malta noldo oore vala anna
++	longCarrier halla shortCarrier
++	carrierX
++	maltaX valaX
++	aha_tinco
+
+           EOT  OOB  DEL  EOL  osse  ambiguous
+StartText  1    1    1    1    2     1
+StartLine  1    1    1    1    2     1
+sawosse    1    1    2    1    4     3
+
+   GoTo       Mark? Advance? InsertMark  InsertCurrent
+1  StartText  no    yes      none        none
+2  sawosse    no    yes      none        none
+3  StartText  no    yes      none        dot
+4  sawosse    no    yes      none        dot
+
+dot
+	IsKashidaLike yes
+	InsertBefore yes
+	Glyphs tehtaI
+
+
+//--------------------------------------------------------------
+
+Type          Insertion
+Name          Osse Diacritic (for 'Full Writing')
+Namecode      16040
+Setting       Dot on Every Osse
+Settingcode   16042
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     yes
+
+osse	osse
+anytehta	tehtaA tehtaAB tehtaAE tehtaB tehtaBreve tehtaDotInside
++	tehtaE tehtaEB tehtaEEB tehtaGrave tehtaI tehtaIB tehtaN tehtaO tehtaOB
++	tehtaThinnas tehtaU tehtaUB tehtaW tehtaX tehtaY tehtaYanta tehtaYB tengwardigitMark
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+
+           EOT  OOB  DEL  EOL  osse  anytehta
+StartText  1    1    1    1    2     1
+StartLine  1    1    1    1    2     1
+sawosse    3    3    2    3    4     1
+
+   GoTo       Mark? Advance? InsertMark  InsertCurrent
+1  StartText  no    yes      none        none
+2  sawosse    no    yes      none        none
+3  StartText  no    yes      none        dot
+4  sawosse    no    yes      none        dot
+
+dot
+	IsKashidaLike yes
+	InsertBefore yes
+	Glyphs tehtaI
+
+
+//--------------------------------------------------------------
+
+Type          Insertion
+Name          Carrier Diacritic (for 'Full Writing')
+Namecode      16030
+Setting       Dot
+Settingcode   16031
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     yes
+
+carrier	shortCarrier longCarrier
+anytehta	tehtaA tehtaAB tehtaAE tehtaB tehtaBreve tehtaDotInside
++	tehtaE tehtaEB tehtaEEB tehtaGrave tehtaI tehtaIB tehtaN tehtaO tehtaOB
++	tehtaThinnas tehtaU tehtaUB tehtaW tehtaX tehtaY tehtaYanta tehtaYB tengwardigitMark
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+
+           EOT  OOB  DEL  EOL  carrier anytehta
+StartText  1    1    1    1    2       1
+StartLine  1    1    1    1    2       1
+sawcarrier 3    3    2    3    4       1
+
+   GoTo       Mark? Advance? InsertMark  InsertCurrent
+1  StartText  no    yes      none        none
+2  sawcarrier no    yes      none        none
+3  StartText  no    yes      none        dot
+4  sawcarrier no    yes      none        dot
+
+dot
+	IsKashidaLike yes
+	InsertBefore yes
+	Glyphs tehtaI
+
+
+//--------------------------------------------------------------
+
+Type          Insertion
+Name          Carrier Diacritic (for 'Full Writing')
+Namecode      16030
+Setting       Acute
+Settingcode   16032
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     yes
+
+carrier	shortCarrier longCarrier
+anytehta	tehtaA tehtaAB tehtaAE tehtaB tehtaBreve tehtaDotInside
++	tehtaE tehtaEB tehtaEEB tehtaGrave tehtaI tehtaIB tehtaN tehtaO tehtaOB
++	tehtaThinnas tehtaU tehtaUB tehtaW tehtaX tehtaY tehtaYanta tehtaYB tengwardigitMark
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+
+           EOT  OOB  DEL  EOL  carrier anytehta
+StartText  1    1    1    1    2       1
+StartLine  1    1    1    1    2       1
+sawcarrier 3    3    2    3    4       1
+
+   GoTo       Mark? Advance? InsertMark  InsertCurrent
+1  StartText  no    yes      none        none
+2  sawcarrier no    yes      none        none
+3  StartText  no    yes      none        dot
+4  sawcarrier no    yes      none        dot
+
+dot
+	IsKashidaLike yes
+	InsertBefore yes
+	Glyphs tehtaE
+
+
+//--------------------------------------------------------------
+
+Type          Contextual
+Name          Osse Hook
+Namecode      16020
+Setting       Word Final
+Settingcode   16021
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     yes
+
+anytehta	tehtaA tehtaAB tehtaAE tehtaB tehtaBreve tehtaDotInside
++	tehtaE tehtaEB tehtaEEB tehtaGrave tehtaI tehtaIB tehtaN tehtaO tehtaOB
++	tehtaThinnas tehtaU tehtaUB tehtaW tehtaX tehtaY tehtaYanta tehtaYB tengwardigitMark
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+anytengwaBUTosse	tinco parma calma quesse ando umbar anga ungwe
++	suule formen aha hwesta anto ampa anca unque
++	tincoX parmaX calmaX quesseX andoX umbarX angaX ungweX
++	nuumen malta noldo nwalme oore vala anna vilya
++	roomen arda lambe alda silme silmeN esse esseN
++	hyarmen hwestaS yanta uure longCarrier halla shortCarrier
++	osseN lambeN lambeN.alt carrierX annaX quesseC hwestaC
++	roomenN maltaX valaX hallaRoomen vaiya
++	aha_tinco hwesta_tinco silme_aha
++	tehtaS
+osse	osse
+
+           EOT  OOB  DEL  EOL  anytehta anytengwaBUTosse osse
+StartText  1    1    1    1    1        1                2
+StartLine  1    1    1    1    1        1                2
+sawosse    3    3    4    3    4        1                2
+
+  GoTo      Mark? Advance? SubstMark SubstCurrent
+1 StartText no    yes      none      none
+2 sawosse   yes   yes      none      none
+3 StartText no    yes      altosse   none
+4 sawosse   no    yes      none      none
+
+altosse
+	osse osse.alt
+
+
+//--------------------------------------------------------------
+
+Type          Noncontextual
+Name          Osse Hook
+Namecode      16020
+Setting       Always
+Settingcode   16022
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     yes
+
+osse osse.alt
+
+
+//--------------------------------------------------------------
+
+Type          Noncontextual
+Name          Character Alternatives
+Namecode      17
+Setting       Tilde Bar
+Settingcode   16012
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     no
+
+tehtaN tehtaN.altnarrow
+tehtaB tehtaB.altnarrow
+
+
+//--------------------------------------------------------------
+
+Type          Noncontextual
+Name          Character Alternatives
+Namecode      17
+Setting       Circumflex A-Tehta
+Settingcode   16014
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     no
+
+tehtaA tehtaA.altshift2
+tehtaAE tehtaAE.altshift2
+
+
+//--------------------------------------------------------------
+// Choose spacing sarince
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+lifted	calmaX quesseX angaX ungweX halla quesseC vaiya lambeN lambeN.alt roomenN
+aha	aha hwesta anca unque noldo anna nwalme vilya annaX silme_aha
+hyarmen	hyarmen
+lambelow	lambe esse
+raisedalt	calma anga quesse ungwe roomen arda alda silmeN hwestaS uure hallaRoomen
++	osse osse.alt longCarrier carrierX
+yanta	yanta maltaX valaX
+anytehta	tehtaA tehtaA.altshift2 tehtaAB tehtaAE tehtaAE.altshift2
++	tehtaB tehtaB.altnarrow tehtaBreve tehtaDotInside tehtaE
++	tehtaEB tehtaEEB tehtaGrave tehtaI tehtaIB
++	tehtaN tehtaN.altnarrow tehtaO tehtaOB
++	tehtaThinnas tehtaU tehtaUB tehtaW tehtaX
++	tehtaY tehtaYanta tehtaYB tengwardigitMark
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+tehtaS	tehtaS
+
+             EOT  OOB  DEL  EOL lifted aha hyarmen lambelow raisedalt yanta anytehta tehtaS
+StartText    1    1    1    1   2      3   4       5        6         7     1        1
+StartLine    1    1    1    1   2      3   4       5        6         7     1        1
+sawlifted    1    1    2    1   2      3   4       5        6         7     2        8
+sawaha       1    1    3    1   2      3   4       5        6         7     3        9
+sawhyarmen   1    1    4    1   2      3   4       5        6         7     4        10
+sawlambelow  1    1    5    1   2      3   4       5        6         7     5        11
+sawraisedalt 1    1    6    1   2      3   4       5        6         7     6        12
+sawyanta     1    1    7    1   2      3   4       5        6         7     7        13
+
+   GoTo         Mark? Advance? SubstMark SubstCurrent
+1  StartText    no    yes      none      none
+2  sawlifted    no    yes      none      none
+3  sawaha       no    yes      none      none
+4  sawhyarmen   no    yes      none      none
+5  sawlambelow  no    yes      none      none
+6  sawraisedalt no    yes      none      none
+7  sawyanta     no    yes      none      none
+8  StartText    no    yes      none      Slifted
+9  StartText    no    yes      none      Saha
+10 StartText    no    yes      none      Shyarmen
+11 StartText    no    yes      none      Slambelow
+12 StartText    no    yes      none      Sraisedalt
+13 StartText    no    yes      none      Syanta
+
+Slifted
+	tehtaS tehtaS.lifted
+
+Saha
+	tehtaS tehtaS.aha
+
+Shyarmen
+	tehtaS tehtaS.hyarmen
+
+Slambelow
+	tehtaS tehtaS.lambelow
+
+Sraisedalt
+	tehtaS tehtaS.raisedalt
+
+Syanta
+	tehtaS tehtaS.yanta
+
+
+//--------------------------------------------------------------
+
+Type          Contextual
+Name          Character Alternatives
+Namecode      17
+Setting       Swash Sa-Rince
+Settingcode   16016
+Default       no
+Orientation   HV
+Forward       yes
+Exclusive     no
+
+tinco	tinco parma ando umbar suule formen aha hwesta anto ampa anca unque
++	tincoX parmaX andoX umbarX nuumen malta noldo nwalme oore vala anna vilya
++	alda silme esseN shortCarrier osseN halla quesseC vaiya lambeN lambeN.alt roomenN annaX
++	maltaX valaX aha_tinco hwesta_tinco silme_aha
+hyarmen	hyarmen
+yanta	yanta
+lambe	lambe esse
+raised	calma anga quesse ungwe roomen arda silmeN hwestaS uure hallaRoomen osse osse.alt
++	longCarrier carrierX calmaX quesseX angaX ungweX
+anytehta	tehtaA tehtaA.altshift2 tehtaAB tehtaAE tehtaAE.altshift2
++	tehtaB tehtaB.altnarrow tehtaBreve tehtaDotInside tehtaE
++	tehtaEB tehtaEEB tehtaGrave tehtaI tehtaIB
++	tehtaN tehtaN.altnarrow tehtaO tehtaOB
++	tehtaThinnas tehtaU tehtaUB tehtaW tehtaX
++	tehtaY tehtaYanta tehtaYB tengwardigitMark
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+tehtaS	tehtaS tehtaS.lifted tehtaS.aha tehtaS.hyarmen tehtaS.lambelow tehtaS.raisedalt tehtaS.yanta
+
+             EOT  OOB  DEL  EOL tinco hyarmen yanta lambe raised anytehta tehtaS //null
+StartText    1    1    1    1   2     3       4     5     6      1        1      //1
+StartLine    1    1    1    1   2     3       4     5     6      1        1      //1
+sawtinco     1    1    2    1   2     3       4     5     6      2        7      //2
+sawhyarmen   1    1    3    1   2     3       4     5     6      3        8      //3
+sawyanta     1    1    4    1   2     3       4     5     6      4        9      //4
+sawlambe     1    1    5    1   2     3       4     5     6      5        10     //5
+sawraised    1    1    6    1   2     3       4     5     6      6        11     //6
+swashhyarmen 1    1    12   1   2     3       4     5     6      13       1      //12
+swashyanta   1    1    14   1   2     3       4     5     6      15       1      //14
+
+   GoTo         Mark? Advance? SubstMark        SubstCurrent
+1  StartText    no    yes      none             none
+2  sawtinco     no    yes      none             none
+3  sawhyarmen   no    yes      none             none
+4  sawyanta     no    yes      none             none
+5  sawlambe     no    yes      none             none
+6  sawraised    no    yes      none             none
+7  StartText    no    yes      none             Sswash
+8  swashhyarmen yes   yes      none             Sswashhyarmen
+9  swashyanta   yes   yes      none             Sswashyanta
+10 StartText    no    yes      none             Sswashlambe
+11 StartText    no    yes      none             Sswashraised
+12 swashhyarmen no    yes      none             none
+13 StartText    no    yes      Sswashhyarmenalt none
+14 swashyanta   no    yes      none             none
+15 StartText    no    yes      Sswashyantaalt   none
+
+Sswash
+	tehtaS tehtaS.swash
+	tehtaS.lifted tehtaS.swash
+	tehtaS.aha tehtaS.swash
+	tehtaS.hyarmen tehtaS.swash
+	tehtaS.lambelow tehtaS.swash
+	tehtaS.raisedalt tehtaS.swash
+	tehtaS.yanta tehtaS.swash
+
+Sswashhyarmen
+	tehtaS tehtaS.swashhyarmen
+	tehtaS.lifted tehtaS.swashhyarmen
+	tehtaS.aha tehtaS.swashhyarmen
+	tehtaS.hyarmen tehtaS.swashhyarmen
+	tehtaS.lambelow tehtaS.swashhyarmen
+	tehtaS.raisedalt tehtaS.swashhyarmen
+	tehtaS.yanta tehtaS.swashhyarmen
+
+Sswashyanta
+	tehtaS tehtaS.swashyanta
+	tehtaS.lifted tehtaS.swashyanta
+	tehtaS.aha tehtaS.swashyanta
+	tehtaS.hyarmen tehtaS.swashyanta
+	tehtaS.lambelow tehtaS.swashyanta
+	tehtaS.raisedalt tehtaS.swashyanta
+	tehtaS.yanta tehtaS.swashyanta
+
+Sswashlambe
+	tehtaS tehtaS.swashlambe
+	tehtaS.lifted tehtaS.swashlambe
+	tehtaS.aha tehtaS.swashlambe
+	tehtaS.hyarmen tehtaS.swashlambe
+	tehtaS.lambelow tehtaS.swashlambe
+	tehtaS.raisedalt tehtaS.swashlambe
+	tehtaS.yanta tehtaS.swashlambe
+
+Sswashraised
+	tehtaS tehtaS.swashraised
+	tehtaS.lifted tehtaS.swashraised
+	tehtaS.aha tehtaS.swashraised
+	tehtaS.hyarmen tehtaS.swashraised
+	tehtaS.lambelow tehtaS.swashraised
+	tehtaS.raisedalt tehtaS.swashraised
+	tehtaS.yanta tehtaS.swashraised
+
+Sswashhyarmenalt
+	tehtaS tehtaS.swashhyarmenalt
+	tehtaS.swashhyarmen tehtaS.swashhyarmenalt
+
+Sswashyantaalt
+	tehtaS tehtaS.swashyantaalt
+	tehtaS.swashyanta tehtaS.swashyantaalt
+
+
+//--------------------------------------------------------------
+// Alternative Roomen when there is any tehta below
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+roomenetc	roomen arda
+anytehtaBUTdown	tehtaA tehtaA.altshift2 tehtaAE tehtaAE.altshift2
++	tehtaBreve tehtaDotInside tehtaE tehtaGrave tehtaI
++	tehtaN tehtaN.altnarrow tehtaO tehtaU tehtaW tehtaX tehtaY tehtaYanta
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+downtehtar	tehtaAB tehtaB tehtaB.altnarrow
++	tehtaEB tehtaEEB tehtaIB tehtaOB tehtaThinnas tehtaYB tengwardigitMark
+exception	tehtaUB
+
+           EOT  OOB  DEL  EOL  roomenetc anytehtaBUTdown downtehtar exception
+StartText  1    1    1    1    2         1               1          1
+StartLine  1    1    1    1    2         1               1          1
+sawroomen  1    1    3    1    2         3               4          1
+sawdown    5    5    4    5    6         4               4          1
+
+  GoTo      Mark? Advance? SubstMark SubstCurrent
+1 StartText no    yes      none      none
+2 sawroomen yes   yes      none      none
+3 sawroomen no    yes      none      none
+4 sawdown   no    yes      none      none
+5 StartText no    yes      altroomen none
+6 sawroomen yes   yes      altroomen none
+
+altroomen
+	roomen roomen.alt
+	arda arda.alt
+
+
+//--------------------------------------------------------------
+// Lower nasal bar when there is any tehta above
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+nasal	tehtaN tehtaN.altnarrow
+uptehtar	tehtaA tehtaA.altshift2 tehtaAE tehtaAE.altshift2 tehtaBreve tehtaE
++	tehtaGrave tehtaI tehtaO tehtaU tehtaW tehtaY tehtaYanta 
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+other	tehtaAB tehtaB tehtaB.altnarrow tehtaDotInside tehtaEB tehtaEEB tehtaIB tehtaOB
++	tehtaThinnas tehtaUB tehtaX tehtaYB tengwardigitMark
+
+           EOT  OOB  DEL  EOL  nasal uptehtar other
+StartText  1    1    1    1    2     3        1
+StartLine  1    1    1    1    2     3        1
+sawnasal   1    1    5    1    2     4        5
+sawuptehta 1    1    3    1    6     3        3
+
+   GoTo       Mark? Advance? SubstMark  SubstCurrent
+1  StartText  no    yes      none       none
+2  sawnasal   yes   yes      none       none
+3  sawuptehta no    yes      none       none
+4  sawuptehta no    yes      lowernasal none
+5  sawnasal   no    yes      none       none
+6  sawuptehta no    yes      none       lowernasal
+
+lowernasal
+	tehtaN tehtaN.narrowlow
+	tehtaN.altnarrow tehtaN.altnarrowlow
+
+
+// If you type nasal, nasal, uptehta, there's no way of substituting
+// both nasals at once, therefore BACKWARD:
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        no
+Exclusive      yes
+
+lownasal	tehtaN.narrowlow tehtaN.altnarrowlow
+othertehtar	tehtaA tehtaA.altshift2 tehtaAE tehtaAE.altshift2 tehtaBreve tehtaE
++	tehtaGrave tehtaI tehtaO tehtaU tehtaW tehtaY tehtaYanta 
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
++	tehtaAB tehtaB tehtaB.altnarrow tehtaDotInside tehtaEB tehtaEEB tehtaIB tehtaOB
++	tehtaThinnas tehtaUB tehtaX tehtaYB tengwardigitMark
+nasal	tehtaN tehtaN.altnarrow
+
+            EOT  OOB  DEL  EOL  lownasal othertehtar nasal
+StartText   1    1    1    1    2        1           1
+StartLine   1    1    1    1    2        1           1
+sawlownasal 1    1    2    1    2        2           3
+
+   GoTo        Mark? Advance? SubstMark  SubstCurrent
+1  StartText   no    yes      none       none
+2  sawlownasal no    yes      none       none
+3  sawlownasal no    yes      none       lowernasal
+
+lowernasal
+	tehtaN tehtaN.narrowlow
+	tehtaN.altnarrow tehtaN.altnarrowlow
+
+
+//--------------------------------------------------------------
+// Smaller following-w tehta when there is another oomatehta above.
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+oomaUPtehtar	tehtaA tehtaA.altshift2 tehtaAE tehtaAE.altshift2 tehtaBreve tehtaE
++	tehtaGrave tehtaI
++	tehtaO tehtaU tehtaY tehtaYanta 
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+tehtaW	tehtaW
+other		tehtaAB tehtaB tehtaB.altnarrow tehtaDotInside tehtaEB tehtaEEB tehtaIB tehtaOB tehtaThinnas
++	tehtaUB tehtaX tehtaYB tengwardigitMark tehtaN tehtaN.narrowlow tehtaN.altnarrow tehtaN.altnarrowlow
+
+             EOT  OOB  DEL  EOL  oomaUPtehtar tehtaW other
+StartText    1    1    1    1    2            3      1
+StartLine    1    1    1    1    2            3      1
+sawoomaup    1    1    4    1    2            5      4
+saww         1    1    6    1    7            7      6
+
+   GoTo         Mark? Advance? SubstMark SubstCurrent
+1  StartText    no    yes      none      none
+2  sawoomaup    yes   yes      none      none
+3  saww         yes   yes      none      none
+4  sawoomaup    no    yes      none      none
+5  StartText    no    yes      none      smallerw
+6  saww         no    yes      none      none
+7  StartText    no    yes      smallerw  none
+
+smallerw
+	tehtaW tehtaW.combshift2
+
+
+// If you type tehtaW, tehtaW, uptehta, there's no way of substituting
+// both tehtaW at once, therefore BACKWARD:
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        no
+Exclusive      yes
+
+smallw	tehtaW.combshift2
+othertehtar	tehtaA tehtaA.altshift2 tehtaAE tehtaAE.altshift2 tehtaBreve tehtaE
++	tehtaGrave tehtaI
++	tehtaO tehtaU tehtaY tehtaYanta 
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
++	tehtaAB tehtaB tehtaB.altnarrow tehtaDotInside tehtaEB tehtaEEB tehtaIB tehtaOB tehtaThinnas
++	tehtaUB tehtaX tehtaYB tengwardigitMark tehtaN tehtaN.narrowlow tehtaN.altnarrow tehtaN.altnarrowlow
+wtehta	tehtaW
+
+            EOT  OOB  DEL  EOL  smallw othertehtar wtehta
+StartText   1    1    1    1    2      1           1
+StartLine   1    1    1    1    2      1           1
+sawsmall    1    1    2    1    2      3           1
+changenext  1    1    3    1    3      3           4
+
+   GoTo        Mark? Advance? SubstMark  SubstCurrent
+1  StartText   no    yes      none       none
+2  sawsmall    no    yes      none       none
+3  changenext  no    yes      none       none
+4  changenext  no    yes      none       smallerw
+
+smallerw
+	tehtaW tehtaW.combshift2
+
+
+//--------------------------------------------------------------
+// Choose combining sarince
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+tincoetc	tinco parma ando umbar suule formen anto ampa tincoX parmaX andoX umbarX
++	nuumen malta oore vala hallaRoomen
++	aha_tinco hwesta_tinco
+angaetc	anga ungwe anca unque angaX ungweX noldo nwalme
+anytehtaBUTx	tehtaA tehtaA.altshift2 tehtaAB tehtaAE tehtaAE.altshift2
++	tehtaB tehtaB.altnarrow tehtaBreve tehtaDotInside tehtaE
++	tehtaEB tehtaEEB tehtaGrave tehtaI tehtaIB
++	tehtaN tehtaN.narrowlow tehtaN.altnarrow tehtaN.altnarrowlow tehtaO tehtaOB tehtaThinnas
++	tehtaU tehtaUB tehtaW tehtaW.combshift2 tehtaY tehtaYanta tehtaYB tengwardigitMark
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+tehtaX	tehtaX
+
+           EOT  OOB  DEL  EOL  tincoetc angaetc anytehtaBUTx tehtaX
+StartText  1    1    1    1    2        3       1            1
+StartLine  1    1    1    1    2        3       1            1
+sawtinco   1    1    4    1    2        3       4            5
+sawanga    1    1    6    1    2        3       6            7
+
+   GoTo       Mark? Advance? SubstMark SubstCurrent
+1  StartText  no    yes      none      none
+2  sawtinco   yes   yes      none      none
+3  sawanga    yes   yes      none      none
+4  sawtinco   no    yes      none      none
+5  sawtinco   no    yes      none      Xtinco
+6  sawanga    no    yes      none      none
+7  sawanga    no    yes      none      Xanga
+
+Xtinco
+	tehtaX tehtaX.down
+
+Xanga
+	tehtaX tehtaX.shift4
+
+
+//--------------------------------------------------------------
+// Choose tehtar above
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+wide	ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme
++	andoX umbarX angaX ungweX lambe lambeN.alt alda silme esse maltaX silme_aha
++	tengwardigit3 tengwardigit6
+normal	tinco parma roomen.alt arda.alt calma quesse aha hwesta oore anna vala vilya
++	calmaX quesseX roomen arda silmeN esseN hyarmen yanta hwestaS uure
++	osseN lambeN osse osse.alt carrierX quesseC hwestaC valaX annaX vaiya
++	tengwardigit2 tengwardigit5 tengwardigit9
+narrow	suule formen tincoX parmaX
++	tehtaS.swash tehtaS.swashhyarmen tehtaS.swashhyarmenalt
++	tehtaS.swashlambe tehtaS.swashraised tehtaS.swashyanta tehtaS.swashyantaalt
+carrier	longCarrier halla shortCarrier hallaRoomen roomenN aha_tinco hwesta_tinco
++	tehtaS tehtaS.aha tehtaS.hyarmen tehtaS.lambelow tehtaS.lifted tehtaS.raisedalt tehtaS.yanta
+anytehtaBUTup	tehtaAB tehtaB tehtaB.altnarrow tehtaDotInside tehtaEB tehtaEEB tehtaIB tehtaOB
++	tehtaThinnas tehtaUB tehtaX tehtaX.shift4 tehtaX.down tehtaYB tengwardigitMark
+uptehtar	tehtaA tehtaA.altshift2 tehtaAE tehtaAE.altshift2
++	tehtaBreve tehtaE tehtaGrave tehtaI tehtaN tehtaN.narrowlow
++	tehtaN.altnarrow tehtaN.altnarrowlow tehtaO tehtaU tehtaW tehtaW.combshift2 tehtaY tehtaYanta
++	tehtaE_tehtaE.shift2 tehtaGrave_tehtaGrave.shift2 tehtaO_tehtaI.shift2
++	tehtaO_tehtaO.shift2 tehtaU_tehtaI.shift2 tehtaU_tehtaU.shift2
+
+           EOT  OOB  DEL  EOL  wide normal narrow carrier anytehtaBUTup uptehtar
+StartText  1    1    1    1    2    3      4      5       1             1
+StartLine  1    1    1    1    2    3      4      5       1             1
+sawwide    1    1    6    1    2    3      4      5       6             7
+sawnormal  1    1    8    1    2    3      4      5       8             9
+sawnarrow  1    1    10   1    2    3      4      5       10            11
+sawcarrier 1    1    12   1    2    3      4      5       12            13
+
+   GoTo       Mark? Advance? SubstMark SubstCurrent
+1  StartText  no    yes      none      none
+2  sawwide    yes   yes      none      none
+3  sawnormal  yes   yes      none      none
+4  sawnarrow  yes   yes      none      none
+5  sawcarrier yes   yes      none      none
+6  sawwide    no    yes      none      none
+7  sawwide    no    yes      none      wideuptehta
+8  sawnormal  no    yes      none      none
+9  sawnormal  no    yes      none      normaluptehta
+10 sawnarrow  no    yes      none      none
+11 sawnarrow  no    yes      none      none
+12 sawcarrier no    yes      none      none
+13 sawcarrier no    yes      none      carrieruptehta
+
+wideuptehta
+	tehtaA tehtaA.shift4
+	tehtaA.altshift2 tehtaA.altshift4
+	tehtaAE tehtaAE.shift4
+	tehtaAE.altshift2 tehtaAE.altshift4
+	tehtaBreve tehtaBreve.shift4
+	tehtaE tehtaE.shift4
+	tehtaGrave tehtaGrave.shift4
+	tehtaI tehtaI.shift4
+	tehtaN tehtaN.wide
+	tehtaN.altnarrow tehtaN.altwide
+	tehtaN.narrowlow tehtaN.widelow
+	tehtaN.altnarrowlow tehtaN.altwidelow
+	tehtaO tehtaO.shift4
+	tehtaU tehtaU.shift4
+	tehtaW tehtaW.shift4
+	tehtaW.combshift2 tehtaW.combshift4
+	tehtaY tehtaY.shift4
+	tehtaYanta tehtaYanta.shift4
+	tehtaE_tehtaE.shift2 tehtaE_tehtaE.shift4
+	tehtaGrave_tehtaGrave.shift2 tehtaGrave_tehtaGrave.shift4
+	tehtaO_tehtaI.shift2 tehtaO_tehtaI.shift4
+	tehtaO_tehtaI.shift2 tehtaO_tehtaI.shift4
+	tehtaO_tehtaO.shift2 tehtaO_tehtaO.shift4
+	tehtaU_tehtaI.shift2 tehtaU_tehtaI.shift4
+	tehtaU_tehtaI.shift2 tehtaU_tehtaI.shift4
+	tehtaU_tehtaU.shift2 tehtaU_tehtaU.shift4
+
+normaluptehta
+	tehtaA tehtaA.shift3
+	tehtaA.altshift2 tehtaA.altshift3
+	tehtaAE tehtaAE.shift3
+	tehtaAE.altshift2 tehtaAE.altshift3
+	tehtaBreve tehtaBreve.shift3
+	tehtaE tehtaE.shift3
+	tehtaGrave tehtaGrave.shift3
+	tehtaI tehtaI.shift3
+	tehtaN tehtaN.narrow
+	tehtaN.altnarrow tehtaN.altnarrow
+	tehtaN.narrowlow tehtaN.narrowlow
+	tehtaN.altnarrowlow tehtaN.altnarrowlow
+	tehtaO tehtaO.shift3
+	tehtaU tehtaU.shift3
+	tehtaW tehtaW.shift3
+	tehtaW.combshift2 tehtaW.combshift3
+	tehtaY tehtaY.shift3
+	tehtaYanta tehtaYanta.shift3
+	tehtaE_tehtaE.shift2 tehtaE_tehtaE.shift3
+	tehtaGrave_tehtaGrave.shift2 tehtaGrave_tehtaGrave.shift3
+	tehtaO_tehtaI.shift2 tehtaO_tehtaI.shift3
+	tehtaO_tehtaI.shift2 tehtaO_tehtaI.shift3
+	tehtaO_tehtaO.shift2 tehtaO_tehtaO.shift3
+	tehtaU_tehtaI.shift2 tehtaU_tehtaI.shift3
+	tehtaU_tehtaI.shift2 tehtaU_tehtaI.shift3
+	tehtaU_tehtaU.shift2 tehtaU_tehtaU.shift3
+
+carrieruptehta
+	tehtaA tehtaA.shift1
+	tehtaA.altshift2 tehtaA.altshift1
+	tehtaAE tehtaAE.shift1
+	tehtaAE.altshift2 tehtaAE.altshift1
+	tehtaBreve tehtaBreve.shift1
+	tehtaE tehtaE.shift1
+	tehtaGrave tehtaGrave.shift1
+	tehtaI tehtaI.shift1
+	tehtaN tehtaN.shift1
+	tehtaN.altnarrow tehtaN.altshift1
+	tehtaN.narrowlow tehtaN.shift1low
+	tehtaN.altnarrowlow tehtaN.altshift1low
+	tehtaO tehtaO.shift1
+	tehtaU tehtaU.shift1
+	tehtaW tehtaW.shift1
+	tehtaW.combshift2 tehtaW.combshift1
+	tehtaY tehtaY.shift1
+	tehtaYanta tehtaYanta.shift1
+	tehtaE_tehtaE.shift2 tehtaE_tehtaE.shift1
+	tehtaGrave_tehtaGrave.shift2 tehtaGrave_tehtaGrave.shift1
+	tehtaO_tehtaI.shift2 tehtaO_tehtaI.shift1
+	tehtaO_tehtaI.shift2 tehtaO_tehtaI.shift1
+	tehtaO_tehtaO.shift2 tehtaO_tehtaO.shift1
+	tehtaU_tehtaI.shift2 tehtaU_tehtaI.shift1
+	tehtaU_tehtaI.shift2 tehtaU_tehtaI.shift1
+	tehtaU_tehtaU.shift2 tehtaU_tehtaU.shift1
+
+
+//--------------------------------------------------------------
+// Choose tehtar below
+// This is separted from the choice of tehtar above since the tengwar classes that trigger them are different.
+// Because it is seperated, however, all above tehtar variants must be enumerated.
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+wide	ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme
++	andoX umbarX angaX ungweX alda maltaX silme_aha
++	tengwardigit3 tengwardigit6
+normal	suule formen calma quesse aha hwesta oore anna vala vilya
++	calmaX quesseX roomen arda silme esse esseN hyarmen yanta hwestaS uure
++	osseN lambeN osse osse.alt carrierX quesseC hwestaC roomenN valaX annaX vaiya
++	tengwardigit2 tengwardigit5 tengwardigit9
+narrow	tinco parma tincoX parmaX hallaRoomen roomen.alt arda.alt
++	tengwardigit0 tengwardigit1 tengwardigit4 tengwardigit7 tengwardigit8
++	tengwarduodecimal10 tengwarduodecimal11 tengwarduodecimal12
++	tehtaS.swash tehtaS.swashhyarmen tehtaS.swashhyarmenalt
++	tehtaS.swashlambe tehtaS.swashraised tehtaS.swashyanta tehtaS.swashyantaalt
+carrier	longCarrier halla shortCarrier silmeN aha_tinco hwesta_tinco
++	tehtaS tehtaS.aha tehtaS.hyarmen tehtaS.lambelow tehtaS.lifted tehtaS.raisedalt tehtaS.yanta
+lambe	lambe lambeN.alt
+anytehtaBUTdown	tehtaA tehtaA.shift1 tehtaA.shift2 tehtaA.shift3 tehtaA.shift4
++	tehtaA.altshift1 tehtaA.altshift2 tehtaA.altshift3 tehtaA.altshift4
++	tehtaAE tehtaAE.shift1 tehtaAE.shift2 tehtaAE.shift3 tehtaAE.shift4
++	tehtaAE.altshift1 tehtaAE.altshift2 tehtaAE.altshift3 tehtaAE.altshift4
++	tehtaBreve tehtaBreve.shift1 tehtaBreve.shift2 tehtaBreve.shift3 tehtaBreve.shift4
++	tehtaDotInside
++	tehtaE tehtaE.shift1 tehtaE.shift2 tehtaE.shift3 tehtaE.shift4
++	tehtaGrave tehtaGrave.shift1 tehtaGrave.shift2 tehtaGrave.shift3 tehtaGrave.shift4
++	tehtaI tehtaI.shift1 tehtaI.shift2 tehtaI.shift3 tehtaI.shift4
++	tehtaN tehtaN.narrow tehtaN.altnarrow tehtaN.wide tehtaN.altwide
++	tehtaN.narrowlow tehtaN.altnarrowlow tehtaN.widelow tehtaN.altwidelow
++	tehtaN.shift1 tehtaN.altshift1 tehtaN.shift1low tehtaN.altshift1low
++	tehtaO tehtaO.shift1 tehtaO.shift2 tehtaO.shift3 tehtaO.shift4
++	tehtaU tehtaU.shift1 tehtaU.shift2 tehtaU.shift3 tehtaU.shift4
++	tehtaW tehtaW.shift1 tehtaW.shift2 tehtaW.shift3 tehtaW.shift4
++	tehtaW.combshift1 tehtaW.combshift2 tehtaW.combshift3 tehtaW.combshift4
++	tehtaX tehtaX.shift4 tehtaX.down
++	tehtaY tehtaY.shift1 tehtaY.shift2 tehtaY.shift3 tehtaY.shift4
++	tehtaYanta tehtaYanta.shift1 tehtaYanta.shift2 tehtaYanta.shift3 tehtaYanta.shift4
++	tehtaE_tehtaE.shift1 tehtaE_tehtaE.shift2 tehtaE_tehtaE.shift3 tehtaE_tehtaE.shift4
++	tehtaGrave_tehtaGrave.shift1 tehtaGrave_tehtaGrave.shift2 tehtaGrave_tehtaGrave.shift3 tehtaGrave_tehtaGrave.shift4
++	tehtaO_tehtaI.shift1 tehtaO_tehtaI.shift2 tehtaO_tehtaI.shift3 tehtaO_tehtaI.shift4
++	tehtaO_tehtaO.shift1 tehtaO_tehtaO.shift2 tehtaO_tehtaO.shift3 tehtaO_tehtaO.shift4
++	tehtaU_tehtaI.shift1 tehtaU_tehtaI.shift2 tehtaU_tehtaI.shift3 tehtaU_tehtaI.shift4
++	tehtaU_tehtaU.shift1 tehtaU_tehtaU.shift2 tehtaU_tehtaU.shift3 tehtaU_tehtaU.shift4
+downtehtar	tehtaAB tehtaB tehtaB.altnarrow
++	tehtaEB tehtaEEB tehtaIB tehtaOB tehtaThinnas tehtaUB tehtaYB tengwardigitMark
+
+           EOT  OOB  DEL  EOL  wide normal narrow carrier lambe anytehtaBUTdown downtehtar
+StartText  1    1    1    1    2    3      4      5       6     1               1
+StartLine  1    1    1    1    2    3      4      5       6     1               1
+sawwide    1    1    7    1    2    3      4      5       6     7               8
+sawnormal  1    1    9    1    2    3      4      5       6     9               10
+sawnarrow  1    1    11   1    2    3      4      5       6     11              12
+sawcarrier 1    1    13   1    2    3      4      5       6     13              14
+sawlambe   1    1    15   1    2    3      4      5       6     15              16
+
+   GoTo       Mark? Advance? SubstMark SubstCurrent
+1  StartText  no    yes      none      none
+2  sawwide    yes   yes      none      none
+3  sawnormal  yes   yes      none      none
+4  sawnarrow  yes   yes      none      none
+5  sawcarrier yes   yes      none      none
+6  sawlambe   yes   yes      none      none
+7  sawwide    no    yes      none      none
+8  sawwide    no    yes      none      widedowntehta
+9  sawnormal  no    yes      none      none
+10 sawnormal  no    yes      none      normaldowntehta
+11 sawnarrow  no    yes      none      none
+12 sawnarrow  no    yes      none      none
+13 sawcarrier no    yes      none      none
+14 sawcarrier no    yes      none      carrierdowntehta
+15 sawlambe   no    yes      none      none
+16 sawlambe   no    yes      none      lambedowntehta
+
+widedowntehta
+	tehtaAB tehtaAB.shift4
+	tehtaB tehtaB.wide
+	tehtaB.altnarrow tehtaB.altwide
+	tehtaEB tehtaEB.shift4
+	tehtaEEB tehtaEEB.shift4
+	tehtaIB tehtaIB.shift4
+	tehtaOB tehtaOB.shift4
+	tehtaThinnas tehtaThinnas.shift4
+	tehtaUB tehtaUB.shift4
+	tehtaYB tehtaYB.shift4
+	tengwardigitMark tengwardigitMark.shift4
+
+normaldowntehta
+	tehtaAB tehtaAB.shift3
+	tehtaB tehtaB.narrow
+	tehtaB.altnarrow tehtaB.altnarrow
+	tehtaEB tehtaEB.shift3
+	tehtaEEB tehtaEEB.shift3
+	tehtaIB tehtaIB.shift3
+	tehtaOB tehtaOB.shift3
+	tehtaThinnas tehtaThinnas.shift3
+	tehtaUB tehtaUB.shift3
+	tehtaYB tehtaYB.shift3
+	tengwardigitMark tengwardigitMark.shift3
+
+carrierdowntehta
+	tehtaAB tehtaAB.shift1
+	tehtaB tehtaB.shift1
+	tehtaB.altnarrow tehtaB.altshift1
+	tehtaEB tehtaEB.shift1
+	tehtaEEB tehtaEEB.shift1
+	tehtaIB tehtaIB.shift1
+	tehtaOB tehtaOB.shift1
+	tehtaThinnas tehtaThinnas.shift1
+	tehtaUB tehtaUB.shift1
+	tehtaYB tehtaYB.shift1
+	tengwardigitMark tengwardigitMark.shift1
+
+lambedowntehta
+	tehtaAB tehtaAB.shift4
+	tehtaB tehtaB.lambe
+	tehtaB.altnarrow tehtaB.altlambe
+	tehtaEB tehtaEB.shift4
+	tehtaEEB tehtaEEB.lambe
+	tehtaIB tehtaIB.lambe
+	tehtaOB tehtaOB.shift4
+	tehtaThinnas tehtaThinnas.shift4
+	tehtaUB tehtaUB.shift4
+	tehtaYB tehtaYB.lambe
+	tengwardigitMark tengwardigitMark.shift4
+
+
+//--------------------------------------------------------------
+// Shift thinnas when there are other tehtar below
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+nocarrDownBUTthinnas	tehtaAB tehtaAB.shift2 tehtaAB.shift3 tehtaAB.shift4
++	tehtaB tehtaB.altnarrow tehtaB.altwide tehtaB.narrow tehtaB.wide
++	tehtaEB tehtaEB.shift2 tehtaEB.shift3 tehtaEB.shift4
++	tehtaEEB tehtaEEB.shift2 tehtaEEB.shift3 tehtaEEB.shift4
++	tehtaIB tehtaIB.shift2 tehtaIB.shift3 tehtaIB.shift4
++	tehtaOB tehtaOB.shift2 tehtaOB.shift3 tehtaOB.shift4
++	tehtaUB tehtaUB.shift2 tehtaUB.shift3 tehtaUB.shift4
++	tehtaYB tehtaYB.shift2 tehtaYB.shift3 tehtaYB.shift4
++	tengwardigitMark tengwardigitMark.shift2 tengwardigitMark.shift3 tengwardigitMark.shift4
+thinnas	tehtaThinnas tehtaThinnas.shift3 tehtaThinnas.shift4
+anytehtaBUTdown	tehtaA tehtaA.shift1 tehtaA.shift2 tehtaA.shift3 tehtaA.shift4
++	tehtaA.altshift1 tehtaA.altshift2 tehtaA.altshift3 tehtaA.altshift4
++	tehtaAE tehtaAE.shift1 tehtaAE.shift2 tehtaAE.shift3 tehtaAE.shift4
++	tehtaAE.altshift1 tehtaAE.altshift2 tehtaAE.altshift3 tehtaAE.altshift4
++	tehtaBreve tehtaBreve.shift1 tehtaBreve.shift2 tehtaBreve.shift3 tehtaBreve.shift4
++	tehtaDotInside
++	tehtaE tehtaE.shift1 tehtaE.shift2 tehtaE.shift3 tehtaE.shift4
++	tehtaGrave tehtaGrave.shift1 tehtaGrave.shift2 tehtaGrave.shift3 tehtaGrave.shift4
++	tehtaI tehtaI.shift1 tehtaI.shift2 tehtaI.shift3 tehtaI.shift4
++	tehtaN tehtaN.narrow tehtaN.altnarrow tehtaN.wide tehtaN.altwide
++	tehtaN.narrowlow tehtaN.altnarrowlow tehtaN.widelow tehtaN.altwidelow
++	tehtaO tehtaO.shift1 tehtaO.shift2 tehtaO.shift3 tehtaO.shift4
++	tehtaU tehtaU.shift1 tehtaU.shift2 tehtaU.shift3 tehtaU.shift4
++	tehtaW tehtaW.shift1 tehtaW.shift2 tehtaW.shift3 tehtaW.shift4
++	tehtaW.combshift1 tehtaW.combshift2 tehtaW.combshift3 tehtaW.combshift4
++	tehtaX tehtaX.shift4 tehtaX.down
++	tehtaY tehtaY.shift1 tehtaY.shift2 tehtaY.shift3 tehtaY.shift4
++	tehtaYanta tehtaYanta.shift1 tehtaYanta.shift2 tehtaYanta.shift3 tehtaYanta.shift4
++	tehtaE_tehtaE.shift1 tehtaE_tehtaE.shift2 tehtaE_tehtaE.shift3 tehtaE_tehtaE.shift4
++	tehtaGrave_tehtaGrave.shift1 tehtaGrave_tehtaGrave.shift2 tehtaGrave_tehtaGrave.shift3 tehtaGrave_tehtaGrave.shift4
++	tehtaO_tehtaI.shift1 tehtaO_tehtaI.shift2 tehtaO_tehtaI.shift3 tehtaO_tehtaI.shift4
++	tehtaO_tehtaO.shift1 tehtaO_tehtaO.shift2 tehtaO_tehtaO.shift3 tehtaO_tehtaO.shift4
++	tehtaU_tehtaI.shift1 tehtaU_tehtaI.shift2 tehtaU_tehtaI.shift3 tehtaU_tehtaI.shift4
++	tehtaU_tehtaU.shift1 tehtaU_tehtaU.shift2 tehtaU_tehtaU.shift3 tehtaU_tehtaU.shift4
+
+           EOT  OOB  DEL  EOL  nocarrDownBUTthinnas thinnas anytehtaBUTdown
+StartText  1    1    1    1    2                    3       1
+StartLine  1    1    1    1    2                    3       1
+sawdown    1    1    2    1    2                    4       2
+sawthinnas 1    1    5    1    6                    3       5
+didthinnas 1    1    7    1    7                    4       7
+
+   GoTo       Mark? Advance? SubstMark SubstCurrent
+1  StartText  no    yes      none      none
+2  sawdown    no    yes      none      none
+3  sawthinnas yes   yes      none      none
+4  didthinnas no    yes      none      dothinnas
+5  sawthinnas no    yes      none      none
+6  didthinnas no    yes      dothinnas none
+7  didthinnas no    yes      none      none
+
+dothinnas
+	tehtaThinnas tehtaThinnas.shift1
+	tehtaThinnas.shift2 tehtaThinnas.shift1
+	tehtaThinnas.shift3 tehtaThinnas.shift1
+	tehtaThinnas.shift4 tehtaThinnas.shift1
+
+
+// If you type thinnas, thinnas, downtehta, there's no way of substituting
+// both thinnas at once, therefore BACKWARD:
+
+Type           Contextual
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        no
+Exclusive      yes
+
+shiftedthinnas	tehtaThinnas.shift1
+othertehtar	tehtaA tehtaA.shift1 tehtaA.shift2 tehtaA.shift3 tehtaA.shift4
++	tehtaA.altshift1 tehtaA.altshift2 tehtaA.altshift3 tehtaA.altshift4
++	tehtaAE tehtaAE.shift1 tehtaAE.shift2 tehtaAE.shift3 tehtaAE.shift4
++	tehtaAE.altshift1 tehtaAE.altshift2 tehtaAE.altshift3 tehtaAE.altshift4
++	tehtaBreve tehtaBreve.shift1 tehtaBreve.shift2 tehtaBreve.shift3 tehtaBreve.shift4
++	tehtaDotInside
++	tehtaE tehtaE.shift1 tehtaE.shift2 tehtaE.shift3 tehtaE.shift4
++	tehtaGrave tehtaGrave.shift1 tehtaGrave.shift2 tehtaGrave.shift3 tehtaGrave.shift4
++	tehtaI tehtaI.shift1 tehtaI.shift2 tehtaI.shift3 tehtaI.shift4
++	tehtaN tehtaN.narrow tehtaN.altnarrow tehtaN.wide tehtaN.altwide
++	tehtaN.narrowlow tehtaN.altnarrowlow tehtaN.widelow tehtaN.altwidelow
++	tehtaO tehtaO.shift1 tehtaO.shift2 tehtaO.shift3 tehtaO.shift4
++	tehtaU tehtaU.shift1 tehtaU.shift2 tehtaU.shift3 tehtaU.shift4
++	tehtaW tehtaW.shift1 tehtaW.shift2 tehtaW.shift3 tehtaW.shift4
++	tehtaW.combshift1 tehtaW.combshift2 tehtaW.combshift3 tehtaW.combshift4
++	tehtaX tehtaX.shift4 tehtaX.down
++	tehtaY tehtaY.shift1 tehtaY.shift2 tehtaY.shift3 tehtaY.shift4
++	tehtaYanta tehtaYanta.shift1 tehtaYanta.shift2 tehtaYanta.shift3 tehtaYanta.shift4
++	tehtaE_tehtaE.shift1 tehtaE_tehtaE.shift2 tehtaE_tehtaE.shift3 tehtaE_tehtaE.shift4
++	tehtaGrave_tehtaGrave.shift1 tehtaGrave_tehtaGrave.shift2 tehtaGrave_tehtaGrave.shift3 tehtaGrave_tehtaGrave.shift4
++	tehtaO_tehtaI.shift1 tehtaO_tehtaI.shift2 tehtaO_tehtaI.shift3 tehtaO_tehtaI.shift4
++	tehtaO_tehtaO.shift1 tehtaO_tehtaO.shift2 tehtaO_tehtaO.shift3 tehtaO_tehtaO.shift4
++	tehtaU_tehtaI.shift1 tehtaU_tehtaI.shift2 tehtaU_tehtaI.shift3 tehtaU_tehtaI.shift4
++	tehtaU_tehtaU.shift1 tehtaU_tehtaU.shift2 tehtaU_tehtaU.shift3 tehtaU_tehtaU.shift4
++	tehtaAB tehtaAB.shift1 tehtaAB.shift2 tehtaAB.shift3 tehtaAB.shift4
++	tehtaB tehtaB.altlambe tehtaB.altnarrow tehtaB.altwide tehtaB.lambe tehtaB.narrow tehtaB.wide
++	tehtaEB tehtaEB.shift1 tehtaEB.shift2 tehtaEB.shift3 tehtaEB.shift4
++	tehtaEEB tehtaEEB.lambe tehtaEEB.shift1 tehtaEEB.shift2 tehtaEEB.shift3 tehtaEEB.shift4
++	tehtaIB tehtaIB.lambe tehtaIB.shift1 tehtaIB.shift2 tehtaIB.shift3 tehtaIB.shift4
++	tehtaOB tehtaOB.shift1 tehtaOB.shift2 tehtaOB.shift3 tehtaOB.shift4
++	tehtaUB tehtaUB.shift1 tehtaUB.shift2 tehtaUB.shift3 tehtaUB.shift4
++	tehtaYB tehtaYB.lambe tehtaYB.shift1 tehtaYB.shift2 tehtaYB.shift3 tehtaYB.shift4
++	tengwardigitMark tengwardigitMark.shift1 tengwardigitMark.shift2 tengwardigitMark.shift3 tengwardigitMark.shift4
+thinnas	tehtaThinnas tehtaThinnas.shift2 tehtaThinnas.shift3 tehtaThinnas.shift4
+
+            EOT  OOB  DEL  EOL  shiftedthinnas othertehtar thinnas
+StartText   1    1    1    1    2              1           1
+StartLine   1    1    1    1    2              1           1
+sawshifted  1    1    2    1    2              2           3
+
+   GoTo        Mark? Advance? SubstMark  SubstCurrent
+1  StartText   no    yes      none       none
+2  sawshifted  no    yes      none       none
+3  sawshifted  no    yes      none       shiftthinnas
+
+shiftthinnas
+	tehtaThinnas tehtaThinnas.shift1
+	tehtaThinnas.shift2 tehtaThinnas.shift1
+	tehtaThinnas.shift3 tehtaThinnas.shift1
+	tehtaThinnas.shift4 tehtaThinnas.shift1

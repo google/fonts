@@ -1,0 +1,304 @@
+FontLog for Tengwar Formal CSUR
+==================================
+
+1 About Tengwar Formal CSUR
+==============================
+
+1.1 Purpose
+
+Tengwar Formal CSUR is a Tengwar font based on Michał Nowakowski's
+Tengwar Formal font. The difference from Michał's font is that it encodes
+the Tengwar in the Personal Use Area of Unicode. Like this, it does not
+violate the Unicode standard. Also, it uses the smart font technologies
+Graphite and AAT for correct placement of tehtar and for font options.
+
+Tengwar Formal CSUR is an example of how a Tengwar font with a legacy
+Dan-Smithian encoding can be converted into a Tengwar font with a Personal
+Use Area encoding.
+
+For more information, see:
+http://freetengwar.sourceforge.net/formal.html
+
+
+1.2 Installation
+
+Tengwar Formal CSUR can be used in any modern operating system, even if
+the smart tehtar placement may not work.
+
+This document explains how to install it on some common systems.
+
+
+	* Windows 95/98/NT/2000/XP; Vista
+
+		Vista:
+			1) From the Start menu, open Control Panels
+			2) Drag-n-drop font files onto Fonts control panel
+			You may get a dialog saying
+				"Windows needs your permission to continue"
+			a) Click Continue
+
+		95/98/NT:
+			The font installation is similar to Vista.
+
+			In order to use OpenType, users of Windows 95, 98 and NT 4.0
+			can install Adobe's 'Type Manager Light'.  It is available
+			for download without cost from Adobe's web site.
+
+			Otherwise, use the TrueType versions.
+
+	* Mac OS X
+
+		Installing on Mac OS X consists of moving the .ttf files to
+		either /Library/Fonts/  or  ~/Library/Fonts/ depending on
+		whether they should be available to all users on your system or
+		just to yourself.
+
+	* UNIX/GNU/Linux/BSD Systems
+
+		KDE local installation:
+			Users of KDE can install .ttf files on a per-user basis
+			using the KDE Control Center module "kcmfontinst", which
+			may appear in the menu as
+
+				Settings -> System Administration -> Font Installer
+
+			This is especially helpful for developers and testers.
+
+
+		Generic X-windows:
+
+			1) Unpack TrueType fonts into a suitable directory, e.g.
+			/usr/local/share/fonts/default/TrueType/
+
+			2) If you have chosen any other directory, make sure the
+			directory you used to install the fonts is listed in the
+			path searched by the X Font Server by editing the config
+			file in /etc/X11/.
+
+			In some systems, you list the directory in the item
+			"catalogue=" in the file /etc/X11/fs/config.
+
+			3) Run ttmkfdir in the directory where you unpacked the
+			fonts.
+
+
+1.3 Files
+
+TengwarFormalCSUR.ttf
+    This is the font.
+
+TengwarFormal12c.sfd
+TengwarFormalA12c.sfd
+    These are Michał Nowakowski's original Tengwar Formal source files.
+    They have been made with FontForge, the free outline font editor:
+    http://fontforge.sourceforge.net/
+
+TengwarFormalCSUR-addchar.sfd
+    This is a source file that contains new glyphs that were not part of
+    Michał's original font.
+
+dansmith2unicode.py
+    This is a FontForge script by Johan Winge that will merge the three
+    above source files. You can run it with the following command:
+
+        fontforge -script dansmith2unicode.py
+
+    This creates the new font where the tengwar are encoded in the Personal
+    Use Area of Unicode, and a GDH file that contains all glyph names of that
+    font:
+
+        TengwarFormalCSUR.sfd
+        TengwarFormalCSUR_dumb.ttf
+        TengwarFormalCSUR.gdh
+
+TengwarFormalCSUR.mif
+    This is a Morph Input File that is used to add AAT information to
+    TengwarFormalCSUR. It requires Apple's font tools:
+    http://developer.apple.com/fonts/download/
+
+        ftxenhancer -m TengwarFormalCSUR.mif TengwarFormalCSUR_dumb.ttf
+
+TengwarFormalCSUR.gdl
+    This is a Graphite Description Language file that is used to add
+    Graphite information to TengwarFormalCSUR. It requires a Graphite
+    Compiler:
+    http://scripts.sil.org/GraphiteCompilerDownload
+
+        grcompiler TengwarFormalCSUR.gdl TengwarFormalCSUR_dumb.ttf TengwarFormalCSUR.ttf
+
+compile.sh
+    This is a small shell script that automates the generation of
+    TengwarFormalCSUR with dansmith2unicode.py, TengwarFormalCSUR.mif and
+    TengwarFormalCSUR.gdl:
+
+        ./compile.sh
+
+
+2 Original FontLog of Tengwar Formal
+====================================
+
+1.1  FONTLOG for Tengwar Formal
+
+This file provides detailed information on the Tengwar Formal font software.
+This information should be distributed along with the Tengwar Formal fonts and
+any derivative works.
+
+1.2  Basic Font Information
+
+The Tengwar alphabet was originally designed by J.R.R Tolkien,
+and the design was first published on paper in Appendix E in the
+first edition of the "Lord of the Rings".
+
+The Tengwar Formal Font was first made by Michał Nowakowski in 2002.
+Its glyphs' forms are to resemble one of Tolkien's original
+designs, namely the "formal bookhand" Tengwar style. Please do not
+confuse this style with Latin "formal scripts".
+
+The fonts are licensed under the SIL Open Font License, Version 1.1.
+This license is provided in a separate file, LICENSE, supplied with
+the fonts, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+Tengwar Formal keyboard layout is almost identical to standard Tengwar
+fonts keymapping by Dan Smith. Tengwar Formal A keyboard layout will
+probably vary between versions, as it is still in development.
+The details are described in the Keymapping.pdf file, included with
+the fonts, and available as a standalone file at:
+http://tengwarformal.limes.com.pl
+
+The most important: any publications should use UTF-8 or other Unicode
+encoding. This is the only working solution for problems mentioned below.
+
+Please note that the keymapping was originally developed for Windows
+- that is, Windows Latin encoding was used. This may cause some problems
+on other operating systems, unless they are capable of using Unicode.
+Unix users may notice lack of code points 128..159, as their ISO-8869-1
+specifies them as control chars.
+
+Users of old versions of Mac OS may suffer from wholly different keystrokes.
+For them, I made last-resort ps1-mac and ttf-mac versions, re-engineered
+so that they should, under certain conditions, work with similar keystrokes
+and give correct look for text that was prepared for PC. Please note that
+Unicode codes for tengwar are all different, so these re-engineered versions
+are absolutely not portable and foreign documents (from the Internet or other
+users) may (almost certainly will) look illegible.
+
+
+3  ChangeLog
+============
+
+2012-01-22 (Johan Winge & J. "Mach" Wust) Tengwar Formal CSUR Version 1.1
+- Name changed from Tengwar Formal Unicode to Tengwar Formal CSUR.
+- Optional diacritic dot/acute (for full writing).
+- Minor code updates in order to conform with updated Graphite and AAT compilers.
+
+2010-06-11 (Johan Winge & J. "Mach" Wust) Tengwar Formal Unicode Version 1.0
+- Converted to Unicode PUA, with smart rendering using Graphite and AAT.
+- Added characters for open Anna, Vaiya, grave tehta, dot-inside tehta, duodecimal 12,
+  several s-hooks and s-swashes.
+- Changed the glyph shapes of prefeanorian quesse, Lowdham HW.
+- Added glyphs for lower nasal bar, smaller following-w, and for the tehtar
+  ligatures EE, OI, OO, UI, UU.
+- Released as Tengwar Formal Unicode Version 1.0 (reserved font name reused with permission.)
+
+14 Sep 2009 (Michał Nowakowski) Tengwar Formal Version 1.2c (bug-fix release)
+- Fixed horizontal metrics, that were rubbish, and different between
+  "Tengwar Formal" and "Tengwar Formal A". This may result in slightly
+  different size than the previous versions.
+- Removed GPOS from ttf-mac version - only apple-style kerning is left.
+- Truetype versions had different underlines than their postscript/cff
+  counterparts.
+- One symbol for reverse triple-overdots is encoded as Alt/0173,
+  that is - soft hyphen, and often not displayed. Added a duplicate
+  at Alt/0128 (Euro Sign).
+- Filler glyphs for unused encoding slots in ps1-mac version
+  of "Tengwar Formal A" most had duplicated contours.
+- Fixed self-intersecting contours of alternate letter for "schwa".
+- Updated license to SIL OFL 1.1. For details, see LICENSE file.
+- Updated obsolete copyright notices in font files and documentation,
+  so that they now all point to the LICENSE file.
+- Changed encoding of this and other help files to UTF-8.
+- *.ttf and *.otf versions now come with config files for Omega.
+
+13 Feb 2006 (Michał Nowakowski) Version 1.2b (bug-fix release)
+- First version to take clear licensing policy. The license choosen is
+  Open Font License by SIL. For details, see LICENSE file.
+- Vendor updated to "PfEd".
+- TFM files were fixed so that the fonts now can be used with TeX,
+  thanks to Ignacio Fernández Galván for pointing the bug out!
+- Empty code points were filled with references to .notdef, so that
+  no rasterizers should report it broken. These references are hinted.
+- Removed broken typographic features from Open Type versions.
+- Mac version with changed keymapping - see keymapping section.
+
+9 Mar 2005 (Michał Nowakowski) Version 1.2
+- Rómenlike tengwar were widened after suggestions of Harri Perälä.
+- Tehtar were changed to look better, also when doubled.
+- Vowel carriers were given a bit more space.
+- Additional font "Tengwar Formal A" with some non-standard and
+  alternate glyphs is provided.
+- Truetypes were given a tiny prep code to enable dropout control
+  when rendering. The font looks a bit better, though still unhinted.
+
+21 Oct 2004 (Michał Nowakowski) Version 1.1
+- First version to be made with Pfaedit (now FontForge).
+  This made possible publishing the font in multiple formats.
+- Broken hinting left after ver. 1.0 framework removed.
+- Glyph shapes slightly improved and simplified.
+- Tehtar shapes redone.
+- Changes in encoding introduced by Pfaedit.
+
+? ? 2004 (Michał Nowakowski) Tengwar Formal Version 1.0
+- Initial release of font "Tengwar Formal".
+
+
+4  Acknowledgements (sorted after last name)
+============================================
+
+N: Måns Björkman
+E: at @ mansbjorkman.net
+W: http://at.mansbjorkman.net/
+D: After looking at examples of Formal Bookhand style in Tengwar Calligraphy,
+   it becomes clear that they were main inspiration for creating Tengwar Formal.
+   His Tengwar Parmaite font was a also good start point for the design for
+   its compatibility with web browsers. Was among first people to evaluate
+   Tengwar Formal.
+
+N: Ignacio Ignacio Fernández Galván
+E: jellby @ unex.es
+W: http://djelibeibi.unex.es
+D: Pointed out that it was impossible to use Tengwar Formal 1.2 with TeX.
+   Also did a great job explaining usage of Tengwar Formal and similar fonts
+   with TeX (see http://djelibeibi.unex.es/tengwar).
+
+N: Michał Nowakowski
+E: miszka @ limes.com.pl
+W: http://tengwarformal.limes.com.pl
+D: Made the font; maintains new versions, documentation and primary download.
+
+N: Harri Perälä
+E: harri.perala @ iki.fi
+W: http://www.sci.fi/~alboin/
+D: Was among first people to evaluate Tengwar Formal - he proposed widening of
+   Rómenlike tengwar and better tehtar spacing.
+
+N: Daniel Steven Smith
+E: fontmaster.geo @ yahoo.com
+W: http://www.geocities.com/fontmaster.geo/
+D: Made first widespread tengwar fonts. Keymapping he invented for them became
+   a de-facto standard that Tengwar Formal follows. Also he was among first
+   people to evaluate Tengwar Formal.
+
+N: Michał Świątkiewicz
+E: mimas @ tengwar.art.pl
+W: http://www.tengwar.art.pl
+D: Was among first people to evaluate and publish Tengwar Formal.
+
+N: George Williams
+E: gww @ silcom.com
+W: http://fontforge.sourceforge.net/
+D: Creator and maintainer of the tool I use to make Tengwar Formal: FontForge.
+
+N: Johan Winge
+E: johan.winge @ telia.com
+W: http://freetengwar.sourceforge.net/
+D: Converted the font to Unicode PUA, and added Graphite tables.

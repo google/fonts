@@ -1,0 +1,349 @@
+// Morph Input File for FreeMonoTengwar-embedding
+// Copyright: Copyleft 2010 j. 'mach' wust
+// Version: 2010-06-11
+// http://freetengwar.sourceforge.net/freemonotengwar.html
+//
+// This is free software: you can redistribute it and/or
+// modify it under the terms of the GNU General Public License as
+// published by the Free Software Foundation, either version 3 of
+// the License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+// --------------------------------------------------------------
+// Ligatures
+
+Type           LigatureList
+Name           NULL
+Namecode       16000
+Setting        NULL
+Settingcode    16001
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+List
+	tehtaY	tehtaI tehtaI
+	tehtaEE	tehtaE tehtaE
+	tehtaYB	tehtaIB tehtaIB
+	tehtaEEB	tehtaEB tehtaEB
+	tehtaOO	tehtaO tehtaO
+	tehtaUU	tehtaU tehtaU
+	tehtaGrave_tehtaGrave	tehtaGrave tehtaGrave
+	tehtaI_tehtaE	tehtaI tehtaE
+	tehtaI_tehtaE	tehtaI zwj tehtaE
+	tehtaO_tehtaI	tehtaI tehtaO
+	tehtaO_tehtaI	tehtaI zwj tehtaO
+	tehtaO_tehtaI	tehtaO tehtaI
+	tehtaO_tehtaI	tehtaO zwj tehtaI
+	tehtaU_tehtaI	tehtaU tehtaI
+	tehtaU_tehtaI	tehtaU zwj tehtaI
+	tehtaU_tehtaI	tehtaI tehtaU
+	tehtaU_tehtaI	tehtaI zwj tehtaU
+	tehtaThinnas	zwj longCarrier
+	aha_tinco	aha zwj tinco
+	hwesta_tinco	hwesta zwj tinco
+	silme_aha	silme zwj aha
+
+
+// --------------------------------------------------------------
+// mark zwj for deletion
+
+Type           Noncontextual
+Name           NULL
+Namecode       16015
+Setting        NULL
+Settingcode    16016
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+	zwj 2393
+
+
+// --------------------------------------------------------------
+// tehtaX combinations
+
+Type           Contextual
+Name           NULL
+Namecode       16020
+Setting        NULL
+Settingcode    16021
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+tinco	tinco parma calma quesse ando umbar suule formen aha hwesta anto ampa nuumen malta
++	oore vala anna vilya tincoX parmaX calmaX quesseX andoX umbarX yanta uure shortCarrier
+tehtaX	tehtaX
+tehtar	tehtaA tehtaAE tehtaBreve
++	tehtaE tehtaGrave tehtaI tehtaO tehtaU tehtaY tehtaYanta
++	tehtaEE tehtaGrave_tehtaGrave tehtaI_tehtaE tehtaO_tehtaI
++	tehtaOO tehtaU_tehtaI tehtaUU
++	tehtaW tehtaB tehtaEEB
++	tehtaDotInside
++	tehtaThinnas
++	tehtaN
++	tehtaAB tehtaEB tehtaIB tehtaOB tehtaUB tehtaYB tengwardigitMark
++	2393
+
+             EOT  OOB  DEL  EOL  tinco tehtaX tehtar
+StartText    1    1    1    1    2     1      1
+StartLine    1    1    1    1    2     1      1
+sawtinco     1    1    3    1    2     4      3
+
+   GoTo       Mark? Advance? SubstMark SubstCurrent
+1  StartText  no    yes      none      none
+2  sawtinco   yes   yes      none      none
+3  sawtinco   no    yes      none      none
+4  StartText  no    yes      replace   delete
+
+replace
+	tinco tinco_tehtaX
+	parma parma_tehtaX
+	calma calma_tehtaX
+	quesse quesse_tehtaX
+	ando ando_tehtaX
+	umbar umbar_tehtaX
+	suule suule_tehtaX
+	formen formen_tehtaX
+	aha aha_tehtaX
+	hwesta hwesta_tehtaX
+	anto anto_tehtaX
+	ampa ampa_tehtaX
+	nuumen nuumen_tehtaX
+	malta maltaX
+	oore oore_tehtaX
+	vala valaX
+	anna anna_tehtaX
+	vilya vilya_tehtaX
+	tincoX tincoX_tehtaX
+	parmaX parmaX_tehtaX
+	calmaX calmaX_tehtaX
+	quesseX quesseX_tehtaX
+	andoX andoX_tehtaX
+	umbarX umbarX_tehtaX
+	yanta yanta_tehtaX
+	uure uure_tehtaX
+	shortCarrier shortCarrier_tehtaX
+
+delete
+	tehtaX 2393
+
+
+// --------------------------------------------------------------
+// tehtaB combinations
+
+Type           Contextual
+Name           NULL
+Namecode       16030
+Setting        NULL
+Settingcode    16031
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+lambe	lambe alda lambeN
+tehtaB	tehtaB
+tehtar	tehtaA tehtaAE tehtaBreve
++	tehtaE tehtaGrave tehtaI tehtaO tehtaU tehtaY tehtaYanta
++	tehtaEE tehtaGrave_tehtaGrave tehtaI_tehtaE tehtaO_tehtaI
++	tehtaOO tehtaU_tehtaI tehtaUU
++	tehtaW tehtaEEB
++	tehtaDotInside
++	tehtaThinnas
++	tehtaN
++	tehtaX
++	tehtaAB tehtaEB tehtaIB tehtaOB tehtaUB tehtaYB tengwardigitMark
++	2393
+
+             EOT  OOB  DEL  EOL  lambe tehtaB tehtar
+StartText    1    1    1    1    2     1      1
+StartLine    1    1    1    1    2     1      1
+sawlambe     1    1    3    1    2     4      3
+
+   GoTo       Mark? Advance? SubstMark SubstCurrent
+1  StartText  no    yes      none      none
+2  sawlambe   yes   yes      none      none
+3  sawlambe   no    yes      none      none
+4  StartText  no    yes      replace   delete
+
+replace
+	lambe lambe_tehtaB
+	alda alda_tehtaB
+	lambeN lambeN_tehtaB
+
+delete
+	tehtaB 2393
+
+
+// --------------------------------------------------------------
+// lambe + tehtaIB/tehtaYB combinations
+
+Type           Contextual
+Name           NULL
+Namecode       16040
+Setting        NULL
+Settingcode    16041
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+lambe	lambe
+tehtaIB	tehtaIB
+tehtaYB tehtaYB
+tehtar	tehtaA tehtaAE tehtaBreve
++	tehtaE tehtaGrave tehtaI tehtaO tehtaU tehtaY tehtaYanta
++	tehtaEE tehtaGrave_tehtaGrave tehtaI_tehtaE tehtaO_tehtaI
++	tehtaOO tehtaU_tehtaI tehtaUU
++	tehtaW tehtaB tehtaEEB
++	tehtaDotInside
++	tehtaThinnas
++	tehtaN
++	tehtaX
++	tehtaAB tehtaEB tehtaOB tehtaUB tengwardigitMark
++	2393
+
+             EOT  OOB  DEL  EOL  lambe tehtaIB tehtaYB tehtar
+StartText    1    1    1    1    2     1       1       1
+StartLine    1    1    1    1    2     1       1       1
+sawlambe     1    1    3    1    2     4       5       3
+
+   GoTo       Mark? Advance? SubstMark SubstCurrent
+1  StartText  no    yes      none      none
+2  sawlambe   yes   yes      none      none
+3  sawlambe   no    yes      none      none
+4  StartText  no    yes      replaceIB delete
+5  StartText  no    yes      replaceYB delete
+
+replaceIB
+	lambe lambe_tehtaIB
+
+replaceYB
+	lambe lambe_tehtaYB
+
+delete
+	tehtaIB 2393
+	tehtaYB 2393
+
+
+// --------------------------------------------------------------
+// tehtaThinnas tehtaIB combinations
+
+Type           Contextual
+Name           NULL
+Namecode       16050
+Setting        NULL
+Settingcode    16051
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+thinnas	tehtaThinnas
+tehtaIB	tehtaIB
+tehtar	tehtaA tehtaAE tehtaBreve
++	tehtaE tehtaGrave tehtaI tehtaO tehtaU tehtaY tehtaYanta
++	tehtaEE tehtaGrave_tehtaGrave tehtaI_tehtaE tehtaO_tehtaI
++	tehtaOO tehtaU_tehtaI tehtaUU
++	tehtaW tehtaB tehtaEEB
++	tehtaDotInside
++	tehtaN
++	tehtaX
++	tehtaAB tehtaEB tehtaOB tehtaUB tehtaYB tengwardigitMark
++	2393
+
+            EOT  OOB  DEL  EOL  thinnas tehtaIB tehtar
+StartText   1    1    1    1    2       3       1
+StartLine   1    1    1    1    2       3       1
+sawthinnas  1    1    4    1    2       5       4
+sawtehtaIB  1    1    6    1    5       3       6
+
+   GoTo        Mark? Advance? SubstMark SubstCurrent
+1  StartText   no    yes      none      none
+2  sawthinnas  yes   yes      none      none
+3  sawtehtaIB  yes   yes      none      none
+4  sawthinnas  no    yes      none      none
+5  StartText   no    yes      replace   delete
+6  sawtehtaIB  no    yes      none      none
+
+replace
+	tehtaThinnas tehtaThinnas_tehtaIB
+	tehtaIB tehtaThinnas_tehtaIB
+
+delete
+	tehtaThinnas 2393
+	tehtaIB 2393
+
+
+// --------------------------------------------------------------
+// tehtaW combinations
+
+Type           Contextual
+Name           NULL
+Namecode       16060
+Setting        NULL
+Settingcode    16061
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+oomaUPtehtar	tehtaA tehtaAE tehtaBreve
++	tehtaE tehtaGrave tehtaI tehtaO tehtaU tehtaY tehtaYanta
++	tehtaEE tehtaGrave_tehtaGrave tehtaI_tehtaE tehtaO_tehtaI
++	tehtaOO tehtaU_tehtaI tehtaUU
+tehtaW	tehtaW
+other	tehtaB tehtaEEB
++	tehtaDotInside
++	tehtaThinnas tehtaThinnas_tehtaIB
++	tehtaN
++	tehtaX
++	tehtaAB tehtaEB tehtaIB tehtaOB tehtaUB tehtaYB tengwardigitMark
++	2393
+
+             EOT  OOB  DEL  EOL  oomaUPtehtar tehtaW other
+StartText    1    1    1    1    2            3      1
+StartLine    1    1    1    1    2            3      1
+sawoomaup    1    1    4    1    2            5      4
+saww         1    1    6    1    7            7      6
+
+   GoTo         Mark? Advance? SubstMark SubstCurrent
+1  StartText    no    yes      none      none
+2  sawoomaup    yes   yes      none      none
+3  saww         yes   yes      none      none
+4  sawoomaup    no    yes      none      none
+5  StartText    no    yes      none      replace
+6  saww         no    yes      none      none
+7  StartText    no    yes      replace   none
+
+replace
+	tehtaW tehtaW.alt
+
+
+// --------------------------------------------------------------
+// Glyph Deletetion
+
+Type           Noncontextual
+Name           NULL
+Namecode       16070
+Setting        NULL
+Settingcode    16071
+Default        yes
+Orientation    HV
+Forward        yes
+Exclusive      yes
+
+	2393 .null

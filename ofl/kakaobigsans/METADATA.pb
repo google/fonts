@@ -35,3 +35,9 @@ subsets: "korean"
 subsets: "latin"
 subsets: "Japanese"
 primary_script: "Kore"
+
+source {
+  repository_url: "https://github.com/kakao/kakao-font"
+  branch: "main"
+  files: "kakao-big-sans/sources/KakaoBigSans.glyphs"
+}

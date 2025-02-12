@@ -80,11 +80,25 @@
             <button @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
             <button @click="AddFamily" class="join-item btn btn-xs">Add</button>
           </div>
-          <div v-for="axis in newAxes" :value="axis.name" class="axis">
-            <input class="input input-xs input-bordered w-full max-w-xs" v-model="axis.name" placeholder="Axis Tag">
-            <input type="number" max="100" min="0" class="input input-xs input-bordered w-full max-w-xs" v-model="axis.min" placeholder="Min">
-            <input type="number" max="100" min="0" class="input input-xs input-bordered w-full max-w-xs" v-model="axis.max" placeholder="Max">
+          <div style="max-height: 200px; overflow: scroll">
+          <div style="margin-bottom: 12pt;" v-for="(axisSet, idx) in newAxes">
+            Pos {{ idx+1 }}
+            <div v-for="axis in axisSet.axes">
+              <label class="input input-bordered input-xs flex items-center gap-2">
+                Axis Tag
+                <input type="text" class="grow" placeholder="wght" v-model="axis.tag" />
+              </label>
+              <label class="input input-bordered input-xs flex items-center gap-2">
+                Coordinate
+                <input type="text" class="grow" placeholder="400" v-model="axis.coordinate" />
+              </label>
+            </div>  
+              <label class="input input-bordered input-xs flex items-center gap-2">
+                Score
+                <input type="number" class="grow" placeholder="400" v-model="axisSet.score" placeholder="100" />
+              </label>
           </div>
+        </div>
         <div class="divider"></div>
         <form @submit.prevent="copyFamily">
           <div class="label lavel-xs">
@@ -331,8 +345,27 @@
       }
     },
     methods: {
+
       addAxis() {
-        this.newAxes.push({name: "wght", min: 100, max: 900});
+        if (this.newAxes.length === 0) {
+          this.newAxes.push({axes: [{tag: "", coordinate: ""}], score: ""})
+          this.newAxes.push({axes: [{tag: "", coordinate: ""}], score: ""})
+          return;
+        }
+        this.newAxes.forEach((axisSet) => {
+          axisSet.axes.push({tag: "", coordinate: ""})
+        })
+
+        // copy and dup
+        let newSet = []
+        this.newAxes.forEach((axisSet) => {
+          let newAxisSet = {axes: [], score: axisSet.score}
+          axisSet.axes.forEach((axis) => {
+            newAxisSet.axes.push({tag: axis.tag, coordinate: axis.coordinate})
+          })
+          newSet.push(newAxisSet)
+        })
+        this.newAxes = this.newAxes.concat(newSet);
       },
       sortedCategories() {
         return Array.from(this.categories).sort();

@@ -10,7 +10,7 @@ fonts {
   filename: "Bytesized-Regular.ttf"
   post_script_name: "Bytesized-Regular"
   full_name: "Bytesized Regular"
-  copyright: "???."
+  copyright: "Copyright 2024 The Bytesized Project Authors (https://github.com/balt-dev/bytesized-gf)"
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -2,12 +2,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.google.com/metadata/fonts" type="application/json" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
 <body>
   <div id="app">
     <div id="fonts">
-      <link v-for="family in uniqueFamilies" :href="family.toUrl()" rel="stylesheet">
+      <link v-for="url in fontUrls" :href="url" rel="stylesheet">
     </div>
 
     <!-- Navbar -->
@@ -142,78 +143,54 @@
 
 <script>
   class FontTag {
-    constructor(name, category, axes = [], score = 0) {
+    constructor(name, category, score = 0) {
         this.name = name;
-        this.axes = axes.sort((a, b) => a.name.localeCompare(b.name));
         this.category = category;
         this.score = score;
     }
-
+    // Maven Pro:"wght@400"
     static fromCsv(line) {
-        let [name, category, score] = line.split(",");
-        // tag is for a static font
-        if (!name.includes(":")) {
-            return new FontTag(name, category, [], parseInt(score));
-        }
-        let [namePart, axes] = name.split(":");
-        let [axisNames, vals] = axes.split("@");
+      //'Maven Pro:"wght,wdth@100,200",/Mono,40' --> ["Maven Pro:"wght,wdth@100,200", "/Mono", "40"]
+      //'Maven Pro,/Mono,40' --> ["Maven Pro", "/Mono", "40"]
+      const regex = /("[^"]+"|[^,]+)(?=\s*,|\s*$)/g;
+      const parsed = line.match(regex).map(item => item.trim())
+      const [name, category, score] = parsed;
+      return new FontTag(name, category, score);
+    }
 
-        let axisPeices = axisNames.split("|");
-        let valPeices = vals.split("|");
-
-        let axes2 = axisPeices.map((axis, i) => {
-            let [min, max] = valPeices[i].split("..");
-            return {name: axis, min: min, max: max};
-        });
-        let res = axes2.sort((a, b) => a.name.localeCompare(b.name));
-        return new FontTag(name, category, res, parseInt(score));
+    isVF() {
+      return this.name.includes("@");
     }
 
     toCsv() {
-        let tag = this.toTag();
-        return `${tag},${this.category},${this.score}`;
+        return `${this.name},${this.category},${this.score}`;
     }
 
     toTag() {
-        if (!this.axes.length) {
-            return this.name;
-        }
-        let tag = [];
-        tag.push(this.name + ":");
-        const fontAxes = this.axes.map(axis => axis.name)
-        tag.push(fontAxes.join("|") + "@");
-        this.axes.forEach(ax => {
-            if (ax.min === ax.max) {
-                tag.push(`${ax.min}|`);
-            } else {
-                tag.push(`${ax.min}..${ax.max}|`);
-            }
-        });
-        return tag.join("").slice(0, -1);
+      return `${this.name},${this.category},${this.score}`;
     }
 
     toUrl() {
-        let baseUrl = "https://fonts.googleapis.com/css2?family=";
-        if (this.axes.length === 0) {
-            return baseUrl + this.name.replace(" ", "+");
-        }
-        let tag = this.toTag().replace(" ", "+");
-        return baseUrl + tag.replace(/\|/g, ",");
+      return "https://fonts.googleapis.com/css2?family=" + this.name.replace(" ", "+").replace('"', "");
     }
-
-    toAnimation() {
-        // TODO should be based on the font axes
-        return [
-            { fontVariationSettings: "'wght' 100" },
-            { fontVariationSettings: "'wght' 900" }
-        ]
+    toStyle() {
+      if (!this.isVF()) {
+        return `font-family: ${this.name}; font-size: 32pt;`;
+      }
+      let cleaned = this.name.replaceAll('"', '')
+      let [name, axes] = cleaned.split(":");
+      let [axisTag, axisCoords] = axes.split("@");
+      let axisTags = axisTag.split(",");
+      let axisCoordinates = axisCoords.split(",");
+      let style = `font-family: ${name}; font-size: 32pt; font-variation-settings:`;
+      for (let i = 0; i < axisTags.length; i++) {
+        style += ` '${axisTags[i]}' ${axisCoordinates[i]},`;
+      }
+      return style.slice(0, -1) + ';';
     }
 
     get displayName() {
-      if (this.axes.length === 0) {
-        return this.name;
-      }
-      return this.toTag();
+      return this.name
     }
 }
 
@@ -236,11 +213,6 @@
         <div class="divider"></div>
       </div>
     `,
-    mounted() {
-      if (this.family.axes.length !== 0) {
-        this.$el.children[1].animate(this.family.toAnimation(), { duration: 1000, iterations: Infinity, direction: 'alternate' });
-      }
-    },
     methods: {
       edited() {
         this.$emit('edited', this.family);
@@ -254,7 +226,7 @@
         return this.$root.familyPangram(this.family);
       },
       familyStyle() {
-        return `font-family: ${this.family.name}; font-size: 32pt;`;
+        return this.family.toStyle();
       },
       familyDisplayName() {
         return this.family.displayName;
@@ -269,6 +241,7 @@
         ready: false,
         isEdited: false,
         commit: "refs/heads/main",
+        fontUrls: [],
         newTag: "",
         newFamily: '',
         newWeight: '',
@@ -309,8 +282,10 @@
       },
     },
     created() {
+      this.loadFonts();
       this.loadCSV();
       this.loadFamilyPangrams();
+
     },
     mounted() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -345,6 +320,26 @@
       }
     },
     methods: {
+
+      async loadFonts() {
+        let dat = await fetch("family_data.json").then(response => response.json()).then(data => {
+          let results = [];
+          let familyMeta = data["familyMetadataList"]
+          familyMeta.forEach(family => {
+            // to do bullshit aplhabetical sorting
+            let path = `https://fonts.googleapis.com/css2?family=${family.family.replaceAll(" ", "+")}`
+            if (family.axes.length > 0) {
+              path += ":" + family.axes.map(a => {return a.tag}).join(",")
+              path += "@";
+              path += family.axes.map(a => {return `${Number(a.min)}..${Number(a.max)}`}).join(",")
+            }
+            results.push(path);
+          })
+          return results
+        });
+        console.log(dat)
+        this.fontUrls = dat
+      },
 
       addAxis() {
         if (this.newAxes.length === 0) {
@@ -385,7 +380,11 @@
         history.pushState(null, '', url);
       },
       familyPangram(family) {
-        return this.pangrams.get(this.familyScripts.get(family.name));
+        let pangram = this.pangrams.get(this.familyScripts.get(family.name));
+        if (!pangram) {
+          return this.pangrams.get("English");
+        }
+        return pangram;
       },
       edited(family) {
         this.isEdited = true;
@@ -457,28 +456,26 @@
       },
       AddFamily() {
         this.isEdited = true;
-        let newFamily = new FontTag(this.newFamily, this.currentCategory, axes=this.newAxes, score=this.newWeight);
-        let tagKey = `${newFamily.name},${newFamily.category}`;
-        if (this.seen.has(tagKey)) {
-          alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);
-          return;
-        }
-        this.seen.add(tagKey);
-        this.tags.push(newFamily);
-        this.history.push(`+ ${newFamily.displayName},${newFamily.category},${newFamily.score}`);
-        // Remove all axis inputs for the next family
-        this.newAxes = [];
-
-        // display results correctly by ensuring fonts are correct
-        // update fonts
-        const fonts = document.getElementById("fonts").children
-        const newUrl = newFamily.toUrl();
-        for (let i = 0; i < fonts.length; i++) {
-          if (newUrl.includes(fonts[i].href)) {
-            fonts[i].href = newFamily.toUrl();
+        const fonts = document.getElementById("fonts")
+        if (this.newAxes.length > 0) {
+          this.newAxes.forEach((ax) => {
+            let name = `${this.newFamily}:"${ax.axes.map((a) => a.tag).join(",")}@${ax.axes.map((a) => a.coordinate).join(",")}"`;
+            let newFamily = new FontTag(name, this.currentCategory, ax.score)
+            this.tags.push(newFamily);
+          })
+          // Remove all axis inputs for the next family
+          this.newAxes = [];
+        } else {
+          let newFamily = new FontTag(this.newFamily, this.currentCategory, axes=this.newAxes, score=this.newWeight);
+            let tagKey = `${newFamily.name},${newFamily.category}`;
+          if (this.seen.has(tagKey)) {
+            alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);
+            return;
           }
+          this.seen.add(tagKey);
+          this.tags.push(newFamily);
+          this.history.push(`+ ${newFamily.displayName},${newFamily.category},${newFamily.score}`);
         }
-
       },
       copyFamily() {
         this.isEdited = true;

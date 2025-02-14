@@ -39,5 +39,7 @@ primary_script: "Kore"
 source {
   repository_url: "https://github.com/kakao/kakao-font"
   branch: "main"
-  files: "kakao-big-sans/sources/KakaoBigSans.glyphs"
+  files: "kakao-big-sans/sources/KakaoBigSans-Regular.glyphs"
+  files: "kakao-big-sans/sources/KakaoBigSans-Bold.glyphs"
+  files: "kakao-big-sans/sources/KakaoBigSans-ExtraBold.glyphs"
 }

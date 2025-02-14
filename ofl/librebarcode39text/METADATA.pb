@@ -27,8 +27,8 @@ source {
   branch: "master"
 }
 sample_text {
-  masthead_full: “1234”
-  masthead_partial: “12”
+  masthead_full: "1234"
+  masthead_partial: "12"
   styles: "0123456789abdefghijklmnopqrstx"
   tester: "0123456789abdefghijklmnopqrstx"
 }

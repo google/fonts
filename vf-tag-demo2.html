@@ -1,0 +1,262 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/14.0.1/math.js" integrity="sha512-ldafwBWmh8q0wplbjDzai4As66n/6e0kxw51a+LRJ6+aZ27t0oGpz7HH5dUh+MwWLacrsF8cGT4zR0p2S3QHtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <style>
+            .recursive {
+                font-size: 64pt;
+                font-family: "Recursive", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:
+                    "slnt" 0,
+                    "CASL" 0,
+                    "CRSV" 0,
+                    "MONO" 0;
+                }
+            .roboto-slab {
+                font-family: "Roboto Slab", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
+            #results {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            body {
+                font-family: "courier";
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <label for="wght">Weight (wght):</label>
+            <input type="range" id="wght" name="wght" min="300" max="1000" value="400">
+        </div>
+        <div>
+            <label for="slnt">Slant (slnt):</label>
+            <input type="range" id="slnt" name="slnt" min="-15" max="0" value="0">
+        </div>
+        <div>
+            <label for="CASL">Casual (CASL):</label>
+            <input type="range" id="CASL" name="CASL" min="0" max="1" step="0.01" value="0">
+        </div>
+        <div>
+            <label for="CRSV">Cursive (CRSV):</label>
+            <input type="range" id="CRSV" name="CRSV" min="0" max="1" step="0.01" value="0">
+        </div>
+        <div>
+            <label for="MONO">Monospace (MONO):</label>
+            <input type="range" id="MONO" name="MONO" min="0" max="1" step="0.01" value="0">
+        </div>
+        <p><span class="recursive" id="text">Hamburgevons</span></p>
+        <b>Results</b>
+        <div id="results"></div>
+        <b>Tags defined</b>
+        <div id="tags"></div>
+    </body>
+    <script type="module">
+        
+    // Port of https://github.com/linebender/rbf-interp. Thanks Raph!
+    class Basis {
+        constructor(type, param) {
+            this.type = type;
+            this.param = param;
+        }
+
+        eval(r) {
+            switch (this.type) {
+                case 'PolyHarmonic':
+                    if (this.param % 2 === 0) {
+                        return r < 1e-12 ? 0.0 : Math.pow(r, this.param) * Math.log(r);
+                    } else {
+                        return Math.pow(r, this.param);
+                    }
+                case 'Gaussian':
+                    return math.exp(-Math.pow(r / this.param, 2));
+                case 'MultiQuadric':
+                    return math.hypot(r, this.param);
+                case 'InverseMultiQuadric':
+                    return Math.pow(r * r + this.param * this.param, -0.5);
+                default:
+                    throw new Error('Unknown basis function type');
+            }
+        }
+    }
+
+    class Scatter {
+        constructor(basis, centers, deltas) {
+            this.basis = basis;
+            this.centers = centers;
+            this.deltas = deltas;
+        }
+
+        eval(coords) {
+            const n = this.centers.length;
+            const basis = math.matrix(Array.from({ length: this.deltas.size()[1] }, (_, row) => {
+                if (row < n) {
+                    return this.basis.eval(math.norm(math.subtract(coords, this.centers[row])));
+                } else if (row === n) {
+                    return 1.0;
+                } else {
+                    return coords[row - n - 1];
+                }
+            }));
+            return math.multiply(this.deltas, basis);
+        }
+
+        static create(centers, vals, basis, order) {
+            const n = centers.length;
+            let valsMatrix = math.transpose(math.matrix(vals));
+            const n_aug = order === 0 ? n : order === 1 ? n + 1 : n + 1 + centers[0].length;
+
+            if (n_aug > n) {
+                valsMatrix = valsMatrix.resize([n_aug, valsMatrix.size()[1]], 0.0);
+            }
+
+            const means = order === 2 ? centers[0].map((_, i) => centers.reduce((sum, c) => sum + c[i], 0) / n) : [];
+
+            const mat = math.matrix(Array.from({ length: n_aug }, (_, r) => Array.from({ length: n_aug }, (_, c) => {
+                if (r < n && c < n) {
+                    return basis.eval(math.norm(math.subtract(centers[r], centers[c])));
+                } else if (r < n) {
+                    return c === n ? 1.0 : centers[r][c - n - 1] - means[c - n - 1];
+                } else if (c < n) {
+                    return r === n ? 1.0 : centers[c][r - n - 1] - means[r - n - 1];
+                } else {
+                    return 0.0;
+                }
+            })));
+
+            const invMat = math.inv(mat);
+            let deltas = math.transpose(math.multiply(invMat, valsMatrix));
+
+            if (order === 2) {
+                const m = centers[0].length;
+                for (let i = 0; i < deltas.size()[0]; i++) {
+                    const offset = means.reduce((sum, mean, j) => sum + mean * deltas.get([i, n + 1 + j]), 0);
+                    deltas.set([i, n], deltas.get([i, n]) - offset);
+                }
+            }
+
+            return new Scatter(basis, centers, deltas);
+        }
+    }
+
+    function getTags(userCoords, tags) {
+        const basis = new Basis('Gaussian', 1.0);
+        const tagCategories = new Set(tags.map(tag => tag.category));
+        const results = []
+        tagCategories.forEach(category => {
+            const catTags = tags.filter(tag => tag.category === category);
+            const catAxes = Object.keys(catTags[0].coords);
+
+            const filteredUserCoords = {}
+            for (let axis in userCoords) {
+                if (catAxes.includes(axis)) {
+                    filteredUserCoords[axis] = userCoords[axis];
+                }
+            }
+            const tagCoords = catTags.map(tag => Object.values(tag.coords));
+            const tagScores = catTags.map(tag => tag.score);
+
+            const scatter = Scatter.create(tagCoords, [tagScores], basis, 2);
+            const interpolatedValue = scatter.eval(Object.values(filteredUserCoords));
+            if (interpolatedValue._data[0] > 0) {
+                results.push({name: category, score: interpolatedValue._data[0]})
+            }
+        })
+        return results
+    }
+
+
+        // Recursive,/Script/Handwritten,slnt|CRSV@-4..-15|0.2..1@10|30
+        // Recursive,/Script/Handwritten,CASL@0..1@30
+        // Recursive,/Monospace/Monospace,MONO@1..1@100
+    const tags = [
+        // /Expressive/Loud
+        {"category": "/Expressive/Loud", "coords": {"wght": 700}, "score": 10},
+        {"category": "/Expressive/Loud", "coords": {"wght": 1000}, "score": 95},
+
+        // /Monospace/Monospace
+        {"category": "/Monospace/Monospace", "coords": {"MONO": 0.99999}, "score": 0},
+        {"category": "/Monospace/Monospace", "coords": {"MONO": 1.0}, "score": 100},
+
+        // /Script/Handwritten
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": 0, "CASL": 0, "CRSV": 0}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": 0, "CASL": 0, "CRSV": 0}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": -14, "CASL": 0, "CRSV": 0}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": -14, "CASL": 0, "CRSV": 0}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": 0, "CASL": 1, "CRSV": 0}, "score": 30},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": 0, "CASL": 1, "CRSV": 0}, "score": 30},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": -14, "CASL": 1, "CRSV": 0}, "score": 40},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": -14, "CASL": 1, "CRSV": 0}, "score": 40},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": 0, "CASL": 0, "CRSV": 1}, "score": -3},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": 0, "CASL": 0, "CRSV": 1}, "score": -3},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": -14, "CASL": 0, "CRSV": 1}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": -14, "CASL": 0, "CRSV": 1}, "score": 0},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": 0, "CASL": 1, "CRSV": 1}, "score": 50},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": 0, "CASL": 1, "CRSV": 1}, "score": 50},
+        {"category": "/Script/Handwritten", "coords": {"wght": 100, "slnt": -14, "CASL": 1, "CRSV": 1}, "score": 60},
+        {"category": "/Script/Handwritten", "coords": {"wght": 900, "slnt": -14, "CASL": 1, "CRSV": 1}, "score": 60},
+    ]
+
+        const textElement = document.getElementById('text');
+        const sliders = ['wght', 'slnt', 'CASL', 'CRSV', 'MONO'];
+
+        sliders.forEach(slider => {
+            document.getElementById(slider).addEventListener('input', updateFontVariations);
+        });
+
+        function updateFontVariations() {
+            const wght = document.getElementById('wght').value;
+            const slnt = document.getElementById('slnt').value;
+            const CASL = document.getElementById('CASL').value;
+            const CRSV = document.getElementById('CRSV').value;
+            const MONO = document.getElementById('MONO').value;
+            const sliderCoords = {"wght": Number(wght), "slnt": Number(slnt), "CASL": Number(CASL), "CRSV": Number(CRSV), "MONO": Number(MONO)};
+            textElement.style.fontVariationSettings = `"wght" ${wght}, "slnt" ${slnt}, "CASL" ${CASL}, "CRSV" ${CRSV}, "MONO" ${MONO}`;
+            const results = getTags(sliderCoords, tags)
+            const resultsElement = document.getElementById('results');
+            resultsElement.innerHTML = '';
+            results.forEach(result => {
+                const resultElement = document.createElement('div');
+                resultElement.innerHTML = `Recursive,${result.name},${result.score}`;
+                resultsElement.appendChild(resultElement);
+            });
+        }
+            const tagsElement = document.getElementById('tags');
+            tagsElement.innerHTML = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>wght</th>
+                            <th>slnt</th>
+                            <th>CASL</th>
+                            <th>CRSV</th>
+                            <th>MONO</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${tags.map(tag => `
+                            <tr>
+                                <td>${tag.category}</td>
+                                <td>${tag.coords.wght || 0}</td>
+                                <td>${tag.coords.slnt || 0}</td>
+                                <td>${tag.coords.CASL || 0}</td>
+                                <td>${tag.coords.CRSV || 0}</td>
+                                <td>${tag.coords.MONO || 0}</td>
+                                <td>${tag.score}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+    </script>
+</html>

@@ -53,6 +53,11 @@
               </div>
             </form>
           </li>
+          <li>
+              <div class="join" style="padding-top: 12px;">
+                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="nameFilter" placeholder="filter">
+              </div>
+          </li>
         </ul>
     </div>    
 
@@ -83,22 +88,45 @@
           </div>
           <div style="max-height: 200px; overflow: scroll">
           <div style="margin-bottom: 12pt;" v-for="(axisSet, idx) in newAxes">
-            Pos {{ idx+1 }}
-            <div v-for="axis in axisSet.axes">
-              <label class="input input-bordered input-xs flex items-center gap-2">
-                Axis Tag
-                <input type="text" class="grow" placeholder="wght" v-model="axis.tag" />
-              </label>
+            Axis: {{ axisSet.tag }}
+            <label class="input input-bordered input-xs flex items-center gap-2">
+              Tag
+              <input type="text" class="grow" placeholder="wght" v-model="axisSet.tag" />
+            </label>
+            <div v-for="position in axisSet.positions">
               <label class="input input-bordered input-xs flex items-center gap-2">
                 Coordinate
-                <input type="text" class="grow" placeholder="400" v-model="axis.coordinate" />
+                <input type="text" class="grow" placeholder="400" v-model="position.coordinate" />
               </label>
-            </div>  
               <label class="input input-bordered input-xs flex items-center gap-2">
                 Score
-                <input type="number" class="grow" placeholder="400" v-model="axisSet.score" placeholder="100" />
+                <input type="number" class="grow" placeholder="400" v-model="position.score" />
               </label>
+            </div>  
           </div>
+          <div v-if="newAxes.length > 0">
+            <button @click="solveAxes" class="btn btn-xs">Solve</button>
+          </div>
+          
+          <div style="margin-bottom: 12pt;" v-for="(axisSet, idx) in solvedAxes">
+            <div v-for="axis in axisSet.axes">
+              <label class="input input-bordered input-xs flex items-center gap-2">
+                Tag
+                <input type="text" class="grow" placeholder="400" v-model="axis.tag" />
+              </label>
+              <label class="input input-bordered input-xs flex items-center gap-2">
+                Coords
+                <input type="text" class="grow" placeholder="400" v-model="axis.coords" />
+              </label>
+            </div>
+            <label class="input input-bordered input-xs flex items-center gap-2">
+              Score
+              <input type="number" class="grow" placeholder="400" v-model="axisSet.score" />
+            </label>
+          </div>
+        
+
+
         </div>
         <div class="divider"></div>
         <form @submit.prevent="copyFamily">
@@ -148,7 +176,6 @@
         this.category = category;
         this.score = score;
     }
-    // Maven Pro:"wght@400"
     static fromCsv(line) {
       //'Maven Pro:"wght,wdth@100,200",/Mono,40' --> ["Maven Pro:"wght,wdth@100,200", "/Mono", "40"]
       //'Maven Pro,/Mono,40' --> ["Maven Pro", "/Mono", "40"]
@@ -193,7 +220,31 @@
       return this.name
     }
 }
+function _axesCombos(axes, current = [], res = []) {
+    if (current.length === axes.length) {
+        const axisSet = {score: 0, axes: []};
+        for (let i = 0; i < current.length; i++) {
+            axisSet.score += Number(current[i].score);
+            axisSet.axes.push({tag: axes[i].tag, coords: current[i].coordinate});
+        }
+        res.push(axisSet);
+        return res;
+    }
+    for (let i = 0; i < axes[current.length].positions.length; i++) {
+        _axesCombos(axes, [...current, axes[current.length].positions[i]], res);
+    }
+    return res;
+}
 
+function axesCombos(axes) {
+    let axisSets = _axesCombos(axes);
+    axisSets.forEach((axisSet) => {
+        axisSet.axes.forEach((axis) => {
+            delete axis.score;
+        });
+    });
+    return axisSets;
+}
 
   Vue.component('family-item', {
     props: ['family', 'ready'],
@@ -246,6 +297,7 @@
         newFamily: '',
         newWeight: '',
         newAxes: [],
+        solvedAxes: [],
         fromFamily: "",
         toFamily: "",
         currentCategory: "/Expressive/Calm",
@@ -337,30 +389,22 @@
           })
           return results
         });
-        console.log(dat)
         this.fontUrls = dat
       },
 
       addAxis() {
-        if (this.newAxes.length === 0) {
-          this.newAxes.push({axes: [{tag: "", coordinate: ""}], score: ""})
-          this.newAxes.push({axes: [{tag: "", coordinate: ""}], score: ""})
-          return;
-        }
-        this.newAxes.forEach((axisSet) => {
-          axisSet.axes.push({tag: "", coordinate: ""})
-        })
-
-        // copy and dup
-        let newSet = []
-        this.newAxes.forEach((axisSet) => {
-          let newAxisSet = {axes: [], score: axisSet.score}
-          axisSet.axes.forEach((axis) => {
-            newAxisSet.axes.push({tag: axis.tag, coordinate: axis.coordinate})
-          })
-          newSet.push(newAxisSet)
-        })
-        this.newAxes = this.newAxes.concat(newSet);
+        this.newAxes.push(
+          {
+            tag: "",
+            positions: [
+              {coordinate: "", score: 0},
+              {coordinate: "", score: 0},
+            ]
+          }
+        )
+      },
+      solveAxes() {
+        this.solvedAxes = axesCombos(this.newAxes);
       },
       sortedCategories() {
         return Array.from(this.categories).sort();
@@ -430,24 +474,6 @@
         this.familyScripts = result;
         this.ready = true;
       },
-      familyLink(Family) {
-        return "https://fonts.googleapis.com/css2?family=" + Family.replace(" ", "+") + "&display=swap"
-      },
-      familyCSSClass(Family) {
-        let cssName = Family.name.replace(" ", "-").toLowerCase();
-        return `.${cssName} {
-                font-family: "${Family.name}", sans-serif;
-                font-weight: 400;
-                font-style: normal;
-              }`
-      },
-      familySelector(Family) {
-        let cssName = Family.name.replace(" ", "-").toLowerCase();
-        return cssName;
-      },
-      familyStyle(Family) {
-        return `font-family: "${Family.name}", "Adobe NotDef"; font-size: 32pt;`
-      },
       AddTag() {
         this.isEdited = true;
         this.categories.add(this.newTag);
@@ -457,9 +483,9 @@
       AddFamily() {
         this.isEdited = true;
         const fonts = document.getElementById("fonts")
-        if (this.newAxes.length > 0) {
-          this.newAxes.forEach((ax) => {
-            let name = `${this.newFamily}:"${ax.axes.map((a) => a.tag).join(",")}@${ax.axes.map((a) => a.coordinate).join(",")}"`;
+        if (this.solvedAxes.length > 0) {
+          this.solvedAxes.forEach((ax) => {
+            let name = `${this.newFamily}:"${ax.axes.map((a) => a.tag).join(",")}@${ax.axes.map((a) => a.coords).join(",")}"`;
             let newFamily = new FontTag(name, this.currentCategory, ax.score)
             this.tags.push(newFamily);
           })

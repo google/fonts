@@ -31,6 +31,7 @@ jobs:
         mkdir out
         gftools push-stats . out/index.html
         cp .ci/tags.html out/tags.html
+        cp .ci/vf-tag-demo2.html out/vf-tag-demo2.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: ${{ github.ref == 'refs/heads/main' }}

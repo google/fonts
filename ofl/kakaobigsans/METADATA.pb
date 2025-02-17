@@ -30,7 +30,6 @@ fonts {
   full_name: "Kakao Big Sans ExtraBold"
   copyright: "Copyright (c) 2021 Kakao Corp. All rights reserved. Font designed by FONTRIX Inc. & Min Bon & Choi Min-gyu"
 }
-subsets: "cyrillic"
 subsets: "korean"
 subsets: "latin"
 subsets: "Japanese"
@@ -39,7 +38,20 @@ primary_script: "Kore"
 source {
   repository_url: "https://github.com/kakao/kakao-font"
   branch: "main"
-  files: "kakao-big-sans/sources/KakaoBigSans-Regular.glyphs"
-  files: "kakao-big-sans/sources/KakaoBigSans-Bold.glyphs"
-  files: "kakao-big-sans/sources/KakaoBigSans-ExtraBold.glyphs"
+  files {
+    source_file: "Kakao-Big-Sans/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Kakao-Big-Sans/fonts/KakaoBigSans-Regular.ttf"
+    dest_file: "KakaoBigSans-Regular.ttf"
+  }
+  files {
+    source_file: "Kakao-Big-Sans/fonts/KakaoBigSans-Bold.ttf"
+    dest_file: "KakaoBigSans-Bold.ttf"
+  }
+  files {
+    source_file: "Kakao-Big-Sans/fonts/KakaoBigSans-ExtraBold.ttf"
+    dest_file: "KakaoBigSans-ExtraBold.ttf"
+  }
 }

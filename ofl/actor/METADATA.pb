@@ -12,5 +12,5 @@ fonts {
   full_name: "Actor Regular"
   copyright: "Copyright (c) 2011, Thomas Junold <hallo@buerofueraufmerksamkeit.de>, with Reserved Font Name \"Actor\"."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"

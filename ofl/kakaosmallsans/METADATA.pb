@@ -30,7 +30,6 @@ fonts {
   full_name: "Kakao Small Sans Bold"
   copyright: "Copyright (c) 2021 Kakao Corp. All rights reserved. Font designed by FONTRIX Inc. & Min Bon & Choi Min-gyu"
 }
-subsets: "cyrillic"
 subsets: "korean"
 subsets: "latin"
 subsets: "Japanese"
@@ -39,7 +38,20 @@ primary_script: "Kore"
 source {
   repository_url: "https://github.com/kakao/kakao-font"
   branch: "main"
-  files: "kakao-small-sans/sources/KakaoSmallSans-Light.glyphs"
-  files: "kakao-small-sans/sources/KakaoSmallSans-Regular.glyphs"
-  files: "kakao-small-sans/sources/KakaoSmallSans-Bold.glyphs"
+  files {
+    source_file: "Kakao-Small-Sans/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Kakao-Small-Sans/fonts/KakaoSmallSans-Light.ttf"
+    dest_file: "KakaoSmallSans-Light.ttf"
+  }
+  files {
+    source_file: "Kakao-Small-Sans/fonts/KakaoSmallSans-Regular.ttf"
+    dest_file: "KakaoSmallSans-Regular.ttf"
+  }
+  files {
+    source_file: "Kakao-Small-Sans/fonts/KakaoSmallSans-Bold.ttf"
+    dest_file: "KakaoSmallSans-Bold.ttf"
+  }
 }

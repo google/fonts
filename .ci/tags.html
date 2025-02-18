@@ -55,7 +55,7 @@
           </li>
           <li>
               <div class="join" style="padding-top: 12px;">
-                  <input class="join-item input input-sm input-bordered w-full max-w-xs" placeholder="filter">
+                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="tagFilter" placeholder="filter">
               </div>
           </li>
         </ul>
@@ -104,23 +104,6 @@
               </label>
             </div>  
               <button class="btn btn-xs join-item pr-2" @click="removeAxis(idx)">X</button>
-          </div>
-          
-          <div style="margin-bottom: 12pt;" v-for="(axisSet, idx) in solvedAxes">
-            <div v-for="axis in axisSet.axes">
-              <label class="input input-bordered input-xs flex items-center gap-2">
-                Tag
-                <input type="text" class="grow" placeholder="400" v-model="axis.tag" />
-              </label>
-              <label class="input input-bordered input-xs flex items-center gap-2">
-                Coords
-                <input type="text" class="grow" placeholder="400" v-model="axis.coords" />
-              </label>
-            </div>
-            <label class="input input-bordered input-xs flex items-center gap-2">
-              Score
-              <input type="number" class="grow" placeholder="400" v-model="axisSet.score" />
-            </label>
           </div>
         </div>
 
@@ -286,6 +269,7 @@ function axesCombos(axes) {
       return {
         ready: false,
         isEdited: false,
+        tagFilter: "",
         commit: "refs/heads/main",
         fontUrls: [],
         newTag: "",
@@ -349,6 +333,7 @@ function axesCombos(axes) {
       sortedTags() {
         let ll = this.tags;
         let filtered = ll.filter(family => family.category === this.currentCategory);
+        filtered = filtered.filter(family => family.name.toLowerCase().includes(this.tagFilter.toLowerCase()));
         filtered.sort(function(a, b) {return b.score - a.score;});
         return filtered;
       },

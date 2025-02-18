@@ -386,7 +386,6 @@ function axesCombos(axes) {
         });
         this.fontUrls = dat
       },
-
       addAxis() {
         this.newAxes.push(
           {
@@ -480,6 +479,19 @@ function axesCombos(axes) {
         const fonts = document.getElementById("fonts")
         if (this.newAxes.length > 0) {
           const solved = axesCombos(this.newAxes);
+          for(let i=0; i<solved.length; i++) {
+            let vfTag = solved[i]
+            if (vfTag.score === 0) {
+              alert("Please fill in all axis scores");
+              return;
+            }
+            for (let j=0; j<vfTag.axes.length; j++) {
+              if (vfTag.axes[j].tag === "" || vfTag.axes[j].coords === "") {
+                alert("Please fill in all axis tags and coordinates");
+                return;
+              }
+            }
+          }
           solved.forEach((ax) => {
             let name = `${this.newFamily}:"${ax.axes.map((a) => a.tag).join(",")}@${ax.axes.map((a) => a.coords).join(",")}"`;
             let newFamily = new FontTag(name, this.currentCategory, ax.score)

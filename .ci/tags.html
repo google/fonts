@@ -55,7 +55,7 @@
           </li>
           <li>
               <div class="join" style="padding-top: 12px;">
-                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="nameFilter" placeholder="filter">
+                  <input class="join-item input input-sm input-bordered w-full max-w-xs" placeholder="filter">
               </div>
           </li>
         </ul>
@@ -104,9 +104,6 @@
               </label>
             </div>  
           </div>
-          <div v-if="newAxes.length > 0">
-            <button @click="solveAxes" class="btn btn-xs">Solve</button>
-          </div>
           
           <div style="margin-bottom: 12pt;" v-for="(axisSet, idx) in solvedAxes">
             <div v-for="axis in axisSet.axes">
@@ -124,10 +121,8 @@
               <input type="number" class="grow" placeholder="400" v-model="axisSet.score" />
             </label>
           </div>
-        
-
-
         </div>
+
         <div class="divider"></div>
         <form @submit.prevent="copyFamily">
           <div class="label lavel-xs">
@@ -403,9 +398,6 @@ function axesCombos(axes) {
           }
         )
       },
-      solveAxes() {
-        this.solvedAxes = axesCombos(this.newAxes);
-      },
       sortedCategories() {
         return Array.from(this.categories).sort();
       },
@@ -483,13 +475,13 @@ function axesCombos(axes) {
       AddFamily() {
         this.isEdited = true;
         const fonts = document.getElementById("fonts")
-        if (this.solvedAxes.length > 0) {
-          this.solvedAxes.forEach((ax) => {
+        if (this.newAxes.length > 0) {
+          const solved = axesCombos(this.newAxes);
+          solved.forEach((ax) => {
             let name = `${this.newFamily}:"${ax.axes.map((a) => a.tag).join(",")}@${ax.axes.map((a) => a.coords).join(",")}"`;
             let newFamily = new FontTag(name, this.currentCategory, ax.score)
             this.tags.push(newFamily);
           })
-          // Remove all axis inputs for the next family
           this.newAxes = [];
         } else {
           let newFamily = new FontTag(this.newFamily, this.currentCategory, axes=this.newAxes, score=this.newWeight);

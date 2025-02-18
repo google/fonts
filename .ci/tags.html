@@ -103,6 +103,7 @@
                 <input type="number" class="grow" placeholder="400" v-model="position.score" />
               </label>
             </div>  
+              <button class="btn btn-xs join-item pr-2" @click="removeAxis(idx)">X</button>
           </div>
           
           <div style="margin-bottom: 12pt;" v-for="(axisSet, idx) in solvedAxes">
@@ -125,7 +126,7 @@
 
         <div class="divider"></div>
         <form @submit.prevent="copyFamily">
-          <div class="label lavel-xs">
+          <div class="label label-xs">
             <span class="label-text label-xs">Copy tags from a family</span>
           </div>
           <div class="join">
@@ -396,6 +397,9 @@ function axesCombos(axes) {
             ]
           }
         )
+      },
+      removeAxis(idx) {
+        this.newAxes.splice(idx, 1);
       },
       sortedCategories() {
         return Array.from(this.categories).sort();

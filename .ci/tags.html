@@ -54,7 +54,7 @@
             </form>
           </li>
           <li>
-              <div class="join" style="padding-top: 12px;">
+              <div class="join" style="padding-top: 10px;">
                   <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="tagFilter" placeholder="filter">
               </div>
           </li>
@@ -187,7 +187,7 @@
       let [axisTag, axisCoords] = axes.split("@");
       let axisTags = axisTag.split(",");
       let axisCoordinates = axisCoords.split(",");
-      let style = `font-family: ${name}; font-size: 32pt; font-variation-settings:`;
+      let style = `font-family: "${name}", "Adobe NotDef"; font-size: 32pt; font-variation-settings:`;
       for (let i = 0; i < axisTags.length; i++) {
         style += ` '${axisTags[i]}' ${axisCoordinates[i]},`;
       }

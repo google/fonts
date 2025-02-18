@@ -179,7 +179,6 @@
       const [name, category, score] = parsed;
       return new FontTag(name, category, score);
     }
-
     isVF() {
       return this.name.includes("@");
     }
@@ -480,7 +479,14 @@ function axesCombos(axes) {
           solved.forEach((ax) => {
             let name = `${this.newFamily}:"${ax.axes.map((a) => a.tag).join(",")}@${ax.axes.map((a) => a.coords).join(",")}"`;
             let newFamily = new FontTag(name, this.currentCategory, ax.score)
+            let tagKey = `${newFamily.name},${newFamily.category}`;
+            if (this.seen.has(tagKey)) {
+              alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);
+              return; 
+            }
+            this.seen.add(tagKey)
             this.tags.push(newFamily);
+            this.history.push(`+ ${newFamily.displayName},${newFamily.category},${newFamily.score}`);
           })
           this.newAxes = [];
         } else {

@@ -469,6 +469,10 @@ function axesCombos(axes) {
               alert("Please fill in all axis scores");
               return;
             }
+            if (vfTag.score > 100) {
+              alert("Summed score of axes must be less than 100")
+              return;
+            }
             for (let j=0; j<vfTag.axes.length; j++) {
               if (vfTag.axes[j].tag === "" || vfTag.axes[j].coords === "") {
                 alert("Please fill in all axis tags and coordinates");

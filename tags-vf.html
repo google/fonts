@@ -1,0 +1,633 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.google.com/metadata/fonts" type="application/json" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<body>
+  <div id="app">
+    <div id="fonts">
+      <link v-for="url in fontUrls" :href="url" rel="stylesheet">
+    </div>
+
+    <!-- Navbar -->
+    <div style="max-height: 3rem" class="navbar bg-base-100 fixed left-0 top-0 shadow">
+        <a class="btn btn-ghost btn-sm text-xl">GF Tagger</a>
+        <ul class="menu menu-horizontal px-1">
+          <li>
+            <details>
+              <summary>File</summary>
+              <ul class="shadow w-36">
+                <li><a @click="saveCSV">Export CSV</a></li>
+                <li><a @click="prCSV">Open PR</a></li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>Edit</summary>
+              <ul class="shadow w-56">
+                <li><a @click="AddPlaceHolderTags">Insert placeholder tags</a></li>
+                <li><a @click="RemovePlaceHolderTags">Remove placeholder tags</a></li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>{{ currentCategory }}</summary>
+              <ul class="shadow">
+                <div class="cont" style="max-height: 16rem; overflow: scroll">
+                  <li  v-for="category in sortedCategories()">
+                    <a @click="currentCategory = category">{{ category }}</a>
+                  </li>
+                </div>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <form @submit.prevent="loadCSV">
+              <div class="join" style="padding-top: 12px;">
+                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="commit" required placeholder="refs/heads/main">
+                  <button class="join-item btn btn-sm">checkout</button>
+              </div>
+            </form>
+          </li>
+          <li>
+              <div class="join" style="padding-top: 10px;">
+                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="tagFilter" placeholder="filter">
+              </div>
+          </li>
+        </ul>
+    </div>    
+
+    <!-- Add font panel -->
+    <div id="panel" class="fixed top-20 right-0 bg-base-100 p-5 shadow w-80">
+      <div class="panel-tile">
+        <form @submit.prevent="AddTag">
+          <div class="label label-xs">
+            <span class="label-text label-xs">Add Tag</span>
+          </div>
+          <div class="join">
+            <input class="join-item input input-xs input-bordered w-full max-w-xs" v-model="newTag" required placeholder="/Expressive/Funky">
+            <button class="join-item btn btn-xs">Add</button>
+          </div>
+        </form> 
+        <div class="divider"></div>
+          <div class="label lavel-xs">
+            <span class="label-text label-xs">Add Family</span>
+          </div>
+          <div class="join">
+            <input class="join-item input input-xs input-bordered w-full max-w-xs" list="items" v-model="newFamily" required placeholder="Family Name">
+            <datalist id="items">
+              <option v-for="family in uniqueFamilies" :value="family.name">
+            </datalist>
+            <input type="number" max="100" min="0" class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
+            <button @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
+            <button @click="AddFamily" class="join-item btn btn-xs">Add</button>
+          </div>
+          <div style="max-height: 200px; overflow: scroll">
+          <div style="margin-bottom: 12pt;" v-for="(axisSet, idx) in newAxes">
+            Axis: {{ axisSet.tag }}
+            <label class="input input-bordered input-xs flex items-center gap-2">
+              Tag
+              <input type="text" class="grow" placeholder="wght" v-model="axisSet.tag" />
+            </label>
+            <div v-for="position in axisSet.positions">
+              <label class="input input-bordered input-xs flex items-center gap-2">
+                Coordinate
+                <input type="text" class="grow" placeholder="400" v-model="position.coordinate" />
+              </label>
+              <label class="input input-bordered input-xs flex items-center gap-2">
+                Score
+                <input type="number" class="grow" placeholder="400" v-model="position.score" />
+              </label>
+            </div>  
+              <button class="btn btn-xs join-item pr-2" @click="removeAxis(idx)">X</button>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+        <form @submit.prevent="copyFamily">
+          <div class="label label-xs">
+            <span class="label-text label-xs">Copy tags from a family</span>
+          </div>
+          <div class="join">
+            <input class="join-item input input-xs input-bordered" list="items" v-model="fromFamily" required placeholder="From Family">
+            <input class="join-item input input-xs input-bordered" list="items" v-model="toFamily" required placeholder="To Family">
+            <datalist id="items">
+              <option v-for="family in uniqueFamilies" :value="family">
+            </datalist>
+            <button class="join-item btn btn-xs">Copy</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="panel-tile" style="max-height: 100px; overflow: scroll;">
+        <label>History</label>
+          <div v-if="isEdited">
+            <p style="font-size: 10pt;" v-for="item in history">{{ item }}</p>
+          </div>
+          <div v-else>
+            <p style="font-size: 10pt;">No changes</p>
+          </div>
+      </div>
+    </div>
+
+    <div v-if="sortedTags.length === 0">
+      <p>No families found for this tag. Please add some</p>
+    </div>
+    <div class="mt-20">
+      <div class="item" v-for="family in sortedTags" :key="family.name">
+        <family-item :family="family" :ready="ready" @edited="edited" @remove="removeFamily"></family-item>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<script>
+  class FontTag {
+    constructor(name, category, score = 0) {
+        this.name = name;
+        this.category = category;
+        this.score = score;
+    }
+    static fromCsv(line) {
+      //'Maven Pro:"wght,wdth@100,200",/Mono,40' --> ["Maven Pro:"wght,wdth@100,200", "/Mono", "40"]
+      //'Maven Pro,/Mono,40' --> ["Maven Pro", "/Mono", "40"]
+      const regex = /("[^"]+"|[^,]+)(?=\s*,|\s*$)/g;
+      const parsed = line.match(regex).map(item => item.trim())
+      const [name, category, score] = parsed;
+      return new FontTag(name, category, score);
+    }
+    isVF() {
+      return this.name.includes("@");
+    }
+
+    toCsv() {
+        return `${this.name},${this.category},${this.score}`;
+    }
+
+    toTag() {
+      return `${this.name},${this.category},${this.score}`;
+    }
+
+    toUrl() {
+      return "https://fonts.googleapis.com/css2?family=" + this.name.replace(" ", "+").replace('"', "");
+    }
+    toStyle() {
+      if (!this.isVF()) {
+        return `font-family: ${this.name}; font-size: 32pt;`;
+      }
+      let cleaned = this.name.replaceAll('"', '')
+      let [name, axes] = cleaned.split(":");
+      let [axisTag, axisCoords] = axes.split("@");
+      let axisTags = axisTag.split(",");
+      let axisCoordinates = axisCoords.split(",");
+      let style = `font-family: "${name}", "Adobe NotDef"; font-size: 32pt; font-variation-settings:`;
+      for (let i = 0; i < axisTags.length; i++) {
+        style += ` '${axisTags[i]}' ${axisCoordinates[i]},`;
+      }
+      return style.slice(0, -1) + ';';
+    }
+
+    get displayName() {
+      return this.name
+    }
+}
+function _axesCombos(axes, current = [], res = []) {
+    if (current.length === axes.length) {
+        const axisSet = {score: 0, axes: []};
+        for (let i = 0; i < current.length; i++) {
+            axisSet.score += Number(current[i].score);
+            axisSet.axes.push({tag: axes[i].tag, coords: current[i].coordinate});
+        }
+        res.push(axisSet);
+        return res;
+    }
+    for (let i = 0; i < axes[current.length].positions.length; i++) {
+        _axesCombos(axes, [...current, axes[current.length].positions[i]], res);
+    }
+    return res;
+}
+
+function axesCombos(axes) {
+    let axisSets = _axesCombos(axes);
+    axisSets.forEach((axisSet) => {
+        axisSet.axes.forEach((axis) => {
+            delete axis.score;
+        });
+    });
+    return axisSets;
+}
+
+  Vue.component('family-item', {
+    props: ['family', 'ready'],
+    template: `
+      <div class="item p-1">
+        <div class="join">
+          <b class="pr-2">{{ familyDisplayName }}</b>
+          <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square"  v-model.lazy="family.score" @change="edited" placeholder="family.score">
+          <button class="btn btn-xs join-item pr-2" @click="removeFamily">X</button>
+          </div>
+          <div v-if="ready" :style="familyStyle" contenteditable="true">
+            {{ familyPangram }}
+          </div>
+        <div v-else>
+          Loading...
+        </div>
+        <div class="divider"></div>
+      </div>
+    `,
+    methods: {
+      edited() {
+        this.$emit('edited', this.family);
+      },
+      removeFamily() {
+        this.$emit('remove', this.family);
+      }
+    },
+    computed: {
+      familyPangram() {
+        return this.$root.familyPangram(this.family);
+      },
+      familyStyle() {
+        return this.family.toStyle();
+      },
+      familyDisplayName() {
+        return this.family.displayName;
+      }
+    }
+  });
+
+  var app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        ready: false,
+        isEdited: false,
+        tagFilter: "",
+        commit: "refs/heads/main",
+        fontUrls: [],
+        newTag: "",
+        newFamily: '',
+        newWeight: '',
+        newAxes: [],
+        fromFamily: "",
+        toFamily: "",
+        currentCategory: "/Expressive/Calm",
+        categories: new Set(),
+        tags: [],
+        seen: new Set(),
+        pangrams: new Map([
+          ["English", "The quick brown fox jumps over the lazy dog."],
+          ["Greek", "Ζαφείρι δέξου πάγκαλο, βαθῶν ψυχῆς τὸ σῆμα"],
+          ["Cyrillic", "В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!"],
+          ["Japanese", "いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせす（ん"],
+          ["Chinese", "視野無限廣，窗外有藍天"],
+          ["Arabic", "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"],
+          ["Hebrew", "שפן אכל קצת גזר בטעם חסה, ודי."],
+          ["Devanagari", "ऋषियों को सताने वाले दुष्ट राक्षसों के राजा रावण का सर्वनाश करने वाले विष्णुवतार भगवान श्रीराम, अयोध्या के महाराज दशरथ के बड़े सपुत्र थे।"],
+          ["Bengali", "যেহেতু মানব পরিবারের সকল সদস্যের সমান ও অবিচ্ছেদ্য অধিকারসমূহ"],
+          ["Gujarati", "કેમ કે માનવકુટુંબના દરેક સભ્યની પરંપરાપ્રાપ્ત પ્રતિષ્ઠાને અને"],
+          ["Telugu", "మానవకుటంబమునందలి వ్యక్తులందరికిని గల ఆజన్మసిద్ధమైన ప్రతిపత్తిని"],
+          ["Kannada", "ಎಲ್ಲಾ ಮಾನವರೂ ಸ್ವತಂತ್ರರಾಗಿಯೇ ಜನಿಸಿದ್ದಾರೆ. ಹಾಗೂ ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ"],
+          ["Khmer", "ដោយយល់ឃើញថា ការទទួលស្គាល់សេចក្ដីថ្លៃថ្នូរជាប់ពីកំណើត និងសិទ្ធិស្មើភាពគ្នា"],
+          ["Phags Pa", "ꡗ ꡈꡱ ᠂ ꡒ ꡂ ꡈꡞ ᠂ ꡚꡖꡋ ꡈꡞꡋꡨꡖ ꡗꡛꡧꡖ ꡈꡋ ꡈꡱꡨꡖ ꡳꡬꡖ"],
+          ["Tamil", "மனிதக் குடும்பத்தினைச் சேர்ந்த யாவரதும் உள்ளார்ந்த"],
+        ]),
+        familyScripts: new Map(),
+        history: [],
+      };
+    },
+    watch: {
+      commit(newCommit) {
+        this.updateURL();
+      },
+      currentCategory(newCategory) {
+        this.updateURL();
+      },
+    },
+    created() {
+      this.loadFonts();
+      this.loadCSV();
+      this.loadFamilyPangrams();
+
+    },
+    mounted() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const category = urlParams.get('category');
+      if (category) {
+        this.currentCategory = category;
+      }
+      const commit = urlParams.get('commit');
+      if (commit) {
+        this.commit = commit;
+        this.loadCSV();
+      }
+    },
+    computed: {
+      sortedTags() {
+        let ll = this.tags;
+        let filtered = ll.filter(family => family.category === this.currentCategory);
+        filtered = filtered.filter(family => family.name.toLowerCase().includes(this.tagFilter.toLowerCase()));
+        filtered.sort(function(a, b) {return b.score - a.score;});
+        return filtered;
+      },
+      uniqueFamilies() {
+        const seen = new Set();
+        let res = [];
+        for (let family of this.tags) {
+          if (seen.has(family.displayName)) {
+            continue;
+          }
+          seen.add(family.displayName);
+          res.push(family);
+        }
+        return res;
+      }
+    },
+    methods: {
+
+      async loadFonts() {
+        let dat = await fetch("family_data.json").then(response => response.json()).then(data => {
+          let results = [];
+          let familyMeta = data["familyMetadataList"]
+          familyMeta.forEach(family => {
+            // to do bullshit aplhabetical sorting
+            let path = `https://fonts.googleapis.com/css2?family=${family.family.replaceAll(" ", "+")}`
+            if (family.axes.length > 0) {
+              path += ":" + family.axes.map(a => {return a.tag}).join(",")
+              path += "@";
+              path += family.axes.map(a => {return `${Number(a.min)}..${Number(a.max)}`}).join(",")
+            }
+            results.push(path);
+          })
+          return results
+        });
+        this.fontUrls = dat
+      },
+      addAxis() {
+        this.newAxes.push(
+          {
+            tag: "",
+            positions: [
+              {coordinate: "", score: 0},
+              {coordinate: "", score: 0},
+            ]
+          }
+        )
+      },
+      removeAxis(idx) {
+        this.newAxes.splice(idx, 1);
+      },
+      sortedCategories() {
+        return Array.from(this.categories).sort();
+      },
+      updateURL() {
+        const url = new URL(window.location);
+        if (this.commit && this.commit !== "refs/heads/main") {
+          url.searchParams.set('commit', this.commit);
+        } else {
+          url.searchParams.delete('commit');
+        }
+        if (this.currentCategory) {
+          url.searchParams.set('category', this.currentCategory);
+        } else {
+          url.searchParams.delete('category');
+        }
+        history.pushState(null, '', url);
+      },
+      familyPangram(family) {
+        let pangram = this.pangrams.get(this.familyScripts.get(family.name));
+        if (!pangram) {
+          return this.pangrams.get("English");
+        }
+        return pangram;
+      },
+      edited(family) {
+        this.isEdited = true;
+        this.history.push(`* ${family.name},${family.category},${family.Weight}`);
+      },
+      parseUnicode(str) {
+        let ranges = str.split(",");
+        let script = "English";
+        let scripts = {
+          "U+600-6FF": "Arabic",
+          "U+900-97F": "Devanagari",
+          "U+590-5FF": "Hebrew",
+          "U+A80-AFF": "Gujarati",
+          "U+C00-C7F": "Telugu",
+          "U+C80-CFF": "Kannada",
+          "U+980-9FE": "Bengali",
+          "U+1780-17FF": "Khmer",
+          "U+A840-A877": "Phags Pa",
+          "U+0B82-0BFA": "Tamil",
+        }
+        for (let i = 0; i < ranges.length; i++) {
+          for (let key in scripts) {
+            if (ranges[i].includes(key)) {
+              script = scripts[key];
+              break;
+            }
+          }
+        }
+        return script;
+      },
+      async loadFamilyPangrams(delay = 1000) {
+        await document.fonts.ready;
+        let result = new Map();
+        let fonts = document.fonts;
+        fonts.forEach((font) => {
+          if (!result.has(font.family)) {
+            result.set(font.family, this.parseUnicode(font.unicodeRange));
+          }
+        });
+        if (result.size < 1000) {
+          setTimeout(() => this.loadFamilyPangrams(), delay);
+        }
+        this.familyScripts = result;
+        this.ready = true;
+      },
+      AddTag() {
+        this.isEdited = true;
+        this.categories.add(this.newTag);
+        this.history.push(`+ Tag added "${this.newTag}"`);
+        this.currentCategory = this.newTag;
+      },
+      AddFamily() {
+        this.isEdited = true;
+        const fonts = document.getElementById("fonts")
+        if (this.newAxes.length > 0) {
+          const solved = axesCombos(this.newAxes);
+          for(let i=0; i<solved.length; i++) {
+            let vfTag = solved[i]
+            if (vfTag.score === 0) {
+              alert("Please fill in all axis scores");
+              return;
+            }
+            if (vfTag.score > 100) {
+              alert("Summed score of axes must be less than 100")
+              return;
+            }
+            for (let j=0; j<vfTag.axes.length; j++) {
+              if (vfTag.axes[j].tag === "" || vfTag.axes[j].coords === "") {
+                alert("Please fill in all axis tags and coordinates");
+                return;
+              }
+            }
+          }
+          solved.forEach((ax) => {
+            let name = `${this.newFamily}:"${ax.axes.map((a) => a.tag).join(",")}@${ax.axes.map((a) => a.coords).join(",")}"`;
+            let newFamily = new FontTag(name, this.currentCategory, ax.score)
+            let tagKey = `${newFamily.name},${newFamily.category}`;
+            if (this.seen.has(tagKey)) {
+              alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);
+              return; 
+            }
+            this.seen.add(tagKey)
+            this.tags.push(newFamily);
+            this.history.push(`+ ${newFamily.displayName},${newFamily.category},${newFamily.score}`);
+          })
+          this.newAxes = [];
+        } else {
+          let newFamily = new FontTag(this.newFamily, this.currentCategory, axes=this.newAxes, score=this.newWeight);
+            let tagKey = `${newFamily.name},${newFamily.category}`;
+          if (this.seen.has(tagKey)) {
+            alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);
+            return;
+          }
+          this.seen.add(tagKey);
+          this.tags.push(newFamily);
+          this.history.push(`+ ${newFamily.displayName},${newFamily.category},${newFamily.score}`);
+        }
+      },
+      copyFamily() {
+        this.isEdited = true;
+        let fromTags = this.tags.filter(family => family.name === this.fromFamily.name);
+        if (fromTags.length === 0) {
+          alert(`No tags found for Family "${this.toFamily}"`);
+          return;
+        }
+        fromTags.forEach((tag) => {
+          let newTag = {Family: this.toFamily, "Group/Tag": tag["Group/Tag"], Weight: tag.Weight};
+          this.tags.push(newTag);
+          this.history.push(`+ ${newTag.Family},${newTag["Group/Tag"]},${newTag.Weight}`);
+        })
+      },
+      AddPlaceHolderTags() {
+        this.isEdited = true;
+        const existingTags = this.sortedTags
+        let seen = new Set();
+        existingTags.forEach((family) => seen.add(family.name));
+        const familiesToAdd = this.uniqueFamilies
+        familiesToAdd.forEach((family) => {
+          if (!seen.has(family.name)) {
+            this.tags.push(new FontTag(family.name, this.currentCategory, axes=this.newAxes, score=0));
+          }
+        });
+        this.history.push(`+ Placeholder tags added for ${this.currentCategory}`);
+      },
+      RemovePlaceHolderTags() {
+        this.isEdited = true;
+        this.tags = this.tags.filter((family) => family.score !== 0);
+        this.history.push(`- Placeholder tags removed for all categories`);
+      },
+      removeFamily(Family) {
+        this.isEdited = true;
+        this.tags = this.tags.filter((t) => t !== Family);
+        let tagKey = `${Family.name},${Family.category}`;
+        this.seen.delete(tagKey);
+        this.history.push(`- ${Family.displayName},${Family.category},${Family.score}`);
+      },
+      tagsToCSV() {
+        this.RemovePlaceHolderTags();
+        this.tags = this.tags.filter((t) => t.name !== "");
+        // The sorting function used is case sensitive.
+        // This means that "A" will come before "a".
+        this.tags = Array.from(this.tags).sort((a, b) => {
+          if (`${a.displayName},${a.category}` < `${b.displayName},${b.category}`) {
+            return -1;
+          }
+          if (`${a.displayName},${a.category}` > `${b.displayName},${b.category}`) {
+            return 1;
+          }
+          return 0;
+        });
+        let res = "Family,Group/Tag,Weight\r\n"
+        this.tags.forEach((family) => {
+          res += family.toCsv() + "\r\n";
+        });
+        return res
+      },
+      saveCSV() {
+        let csv = this.tagsToCSV();
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "families.csv";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      },
+      prCSV() {
+        let csv = this.tagsToCSV();
+        alert("Tag data copied to clipboard. A github pull request page will open in a new tab. Please remove the old data and paste in the new.");
+        navigator.clipboard.writeText(csv);
+        window.open("https://github.com/google/fonts/edit/main/tags/all/families.csv")
+      },
+      loadCSV() {
+        if (this.history.length > 0) {
+          let proceed = confirm("Checking out a new commit will delete any changes you've made. Would you like to continue?")
+          if (proceed === false) {
+            return;
+          }
+        }
+        this.history = [];
+        const csvFilePath = `https://raw.githubusercontent.com/google/fonts/${this.commit}/tags/all/families.csv`; // Update this path to your CSV file
+        fetch(csvFilePath)
+          .then(response => {
+            if (response.status === 404) {
+              alert(`No data found for commit "${this.commit}". Please input a git commit hash e.g 538d9635c160306b40af31c9a3821c59b285bbff`);
+            }
+            return response.text()
+          })
+          .then(csvText => {
+            const lines = csvText.split("\r\n")
+            lines.forEach((line) => {
+              if (line === "") {
+                return;
+              }
+              let family = FontTag.fromCsv(line);
+              this.categories.add(family.category);
+              this.tags.push(family);
+            });
+            csvText = "Family,Group/Tag,Weight\r\n" + csvText;
+        })
+      }
+    }
+  } // methods
+  )
+  // close open navbar dropdowns when user clicks elsewhere
+  var details = [...document.querySelectorAll('details')];
+  document.addEventListener('click', function(e) {
+  if (!details.some(f => f.contains(e.target))) {
+    details.forEach(f => f.removeAttribute('open'));
+  } else {
+    details.forEach(f => !f.contains(e.target) ? f.removeAttribute('open') : '');
+  }
+})
+</script>
+
+
+<style>
+  @font-face {
+      font-family: "Adobe NotDef";
+      src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+  }
+</style>

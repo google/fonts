@@ -10,7 +10,7 @@ fonts {
   filename: "WinkySans[wght].ttf"
   post_script_name: "WinkySans-Regular"
   full_name: "Winky Sans Regular"
-  copyright: "???."
+  copyright: "Copyright 2024 The Winky Sans Project Authors (https://github.com/typofactur/winkysans.)"
 }
 fonts {
   name: "Winky Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "WinkySans-Italic[wght].ttf"
   post_script_name: "WinkySans-Italic"
   full_name: "Winky Sans Italic"
-  copyright: "???."
+  copyright: "Copyright 2024 The Winky Sans Project Authors (https://github.com/typofactur/winkysans)"
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -46,3 +46,5 @@ source {
   }
   branch: "main"
 }
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

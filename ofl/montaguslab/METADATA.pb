@@ -48,3 +48,4 @@ source {
 }
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"
+minisite_url: "https://fonts.floriankarsten.com/montagu-slab"

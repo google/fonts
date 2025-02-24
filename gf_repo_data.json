@@ -1,6 +1,102 @@
 {
-    "last_run": "2025-02-17",
+    "last_run": "2025-02-24",
     "commits": [
+        {
+            "date": "2025-02-21T11:03:20",
+            "title": "Merge pull request #9077 from google/gftools_packager_ofl_bytesized",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "c6fb1923767debf61398eedb7f64ea54a15eca58"
+        },
+        {
+            "date": "2025-02-21T11:02:17",
+            "title": "Merge pull request #9090 from google/gftools_packager_ofl_notosansthailooped",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "7cf4517373e41064e60968fa3fc725f32ae22bfa"
+        },
+        {
+            "date": "2025-02-21T11:00:01",
+            "title": "Merge pull request #9101 from google/fix-scorecard",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "6d2234d79a272cbf6b511ab3481d19a344919eef"
+        },
+        {
+            "date": "2025-02-21T10:55:26",
+            "title": "scorecard.yml: bump upload-artifact",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "9b3ab7026526557d5ad62c9ff52441fa9b66ce01"
+        },
+        {
+            "date": "2025-02-21T10:51:47",
+            "title": "Merge pull request #9092 from google/gftools_packager_ofl_boldonse",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "01b13c2f7dbfb2dbf22c7617b24b7e67b8af4ec4"
+        },
+        {
+            "date": "2025-02-21T10:41:54",
+            "title": "Merge pull request #9096 from google/bio-universitype",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "74a0f4385a8443c3653b64f8c6983b94bc74aafa"
+        },
+        {
+            "date": "2025-02-21T10:37:56",
+            "title": "update workflow to not fail",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9be7b18ecc2fbd384001dab4d130e6f70d2f1a8f"
+        },
+        {
+            "date": "2025-02-20T13:04:12",
+            "title": "Bio for Universitype",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "designer",
+            "id": "8afec667d3caa5ec8328b6b263c6d28c043e52bf"
+        },
+        {
+            "date": "2025-02-19T15:36:48",
+            "title": "Merge pull request #9084 from google/PPS-emojis-list-update",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "3b5f85033a56513d3cf3f4c964705afdfe461bf6"
+        },
+        {
+            "date": "2025-02-19T15:26:38",
+            "title": "Boldonse: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "5bf2c8330ab94bf00b354e40e5675f11ac819d4a"
+        },
+        {
+            "date": "2025-02-19T14:13:04",
+            "title": "Merge pull request #9078 from google/emmamarichal-patch-1",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "5bc5e682397f98576f998d64c4d36241a78501e6"
+        },
+        {
+            "date": "2025-02-19T13:07:32",
+            "title": "Noto Sans Thai Looped: Version 2.000 added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "e1652b5bc0a863e8a239f0a1bf19d07d816e85e5"
+        },
         {
             "date": "2025-02-16T22:12:45",
             "title": "Merge pull request #9089 from google/report-fix",
@@ -46,8 +142,16 @@
             "title": "Update tags_metadata.csv (#9085)",
             "author": "evanwadams",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "a270bfdb4dc9982f63671bb2577b4014813cdea5"
+        },
+        {
+            "date": "2025-02-14T16:09:07",
+            "title": "PPS emojis list updated",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "37ada40508127ed25ef39e835e6988158f1a8cd5"
         },
         {
             "date": "2025-02-14T15:50:41",
@@ -88,6 +192,46 @@
             "status": "modified",
             "kind": "infrastructure",
             "id": "c824bcb7d8f889c17db74a3a2b4716ee449766ac"
+        },
+        {
+            "date": "2025-02-13T15:24:37",
+            "title": "Bytesized: Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "bdc167969c49c0c423f59d03a150b86fdb4a657a"
+        },
+        {
+            "date": "2025-02-13T15:15:27",
+            "title": "small fix",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "96ea038c140625e73fa5f5e4243f77a7371273a5"
+        },
+        {
+            "date": "2025-02-13T15:08:15",
+            "title": "Update METADATA.pb - copyright",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "15c8bc44abb900a7e3ed365aa1cde62262b10d51"
+        },
+        {
+            "date": "2025-02-13T15:07:05",
+            "title": "add article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9cb1a7e03977aff8851d8266eb370574b76ee03a"
+        },
+        {
+            "date": "2025-02-13T15:02:19",
+            "title": "Bytesized: Version 1.000 added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "e91890c801c2c66b997adeab7838c32bd3fc6475"
         },
         {
             "date": "2025-02-13T14:32:55",

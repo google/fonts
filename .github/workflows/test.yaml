@@ -72,9 +72,7 @@ jobs:
     continue-on-error: true
 
     outputs:
-      finished:
-        description: "Check whether diffenator2 ran and produced output files"
-        value: ${{ steps.check_files.outputs.files_exists }}
+      finished: ${{ steps.check_files.outputs.files_exists }}
 
     steps:
       - name: Cancel previous
@@ -123,7 +121,7 @@ jobs:
 
   consolidate:
     needs: [diffbrowsers, diffenator]
-    if: jobs.diffenator.outputs.finished == 'true'
+    if: needs.diffenator.outputs.finished == 'true'
     name: Consolidate results into a single zip
     runs-on: ubuntu-latest
     steps:

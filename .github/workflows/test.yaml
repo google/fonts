@@ -1,8 +1,8 @@
 name: Google Fonts QA
 on:
   pull_request:
-    branches:
-    - main
+    paths:
+    - '{ofl,ufl,apache}/*/*'
 
 jobs:
 

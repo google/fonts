@@ -66,7 +66,7 @@ def main():
 
         elif check_type == CheckType.DESIGNER:
             print(f"Checking designer profile: {directory}")
-            subprocess.run(["pytest", profile_test_file, directory])
+            subprocess.run(["pytest", profile_test_file, directory], check=True)
 
         else:
             print(f"Skipping directory {directory}")

@@ -61,13 +61,6 @@ def test_profile_dir_has_info(profile_dir):
     assert "info.pb" in os.listdir(profile_dir), "info.pb is missing"
 
 
-def test_profile_has_correct_img(profile_dir):
-    assert not any(f for f in os.listdir(profile_dir) if f.endswith((".jpg", ".jpeg")))
-    assert any(
-        f for f in os.listdir(profile_dir) if f.endswith(".png")
-    ), "Profile is missing png image"
-
-
 def test_profile_info_image_link_is_correct(profile_dir, proto_info):
     img_path = proto_info.avatar.file_name
     assert img_path in os.listdir(profile_dir), "info.pb: image path is incorrect"

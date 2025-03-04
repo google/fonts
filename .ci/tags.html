@@ -580,7 +580,11 @@ function axesCombos(axes) {
         let csv = this.tagsToCSV();
         alert("Tag data copied to clipboard. A github pull request page will open in a new tab. Please remove the old data and paste in the new.");
         navigator.clipboard.writeText(csv);
-        window.open("https://github.com/google/fonts/edit/main/tags/all/families.csv")
+        if (this.commit !== "refs/heads/main") {
+          window.open(`https://github.com/google/fonts/edit/${this.commit}/tags/all/families.csv`);
+        } else {
+          window.open("https://github.com/google/fonts/edit/main/tags/all/families.csv")
+        }
       },
       loadCSV() {
         if (this.history.length > 0) {

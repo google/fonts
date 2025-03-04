@@ -141,8 +141,8 @@
       <p>No families found for this tag. Please add some</p>
     </div>
     <div class="mt-20">
-      <div class="item" v-for="family in sortedTags" :key="family.name">
-        <family-item :family="family" :ready="ready" @edited="edited" @remove="removeFamily"></family-item>
+      <div class="item" v-for="(family, i) in sortedTags" :key="family.name">
+        <family-item :family="family" :ready="ready" :index="i" @edited="edited" @remove="removeFamily"></family-item>
       </div>
     </div>
 
@@ -226,12 +226,12 @@ function axesCombos(axes) {
 }
 
   Vue.component('family-item', {
-    props: ['family', 'ready'],
+    props: ['family', 'ready', 'index'],
     template: `
       <div class="item p-1">
         <div class="join">
           <b class="pr-2">{{ familyDisplayName }}</b>
-          <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square"  v-model.lazy="family.score" @change="edited" placeholder="family.score">
+          <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square" :data-index="index" v-model.lazy="family.score" @change="edited" placeholder="family.score">
           <button class="btn btn-xs join-item pr-2" @click="removeFamily">X</button>
           </div>
           <div v-if="ready" :style="familyStyle" contenteditable="true">
@@ -527,14 +527,14 @@ function axesCombos(axes) {
         const familiesToAdd = this.uniqueFamilies
         familiesToAdd.forEach((family) => {
           if (!seen.has(family.name)) {
-            this.tags.push(new FontTag(family.name, this.currentCategory, axes=this.newAxes, score=0));
+            this.tags.push(new FontTag(family.name, this.currentCategory, score=""));
           }
         });
         this.history.push(`+ Placeholder tags added for ${this.currentCategory}`);
       },
       RemovePlaceHolderTags() {
         this.isEdited = true;
-        this.tags = this.tags.filter((family) => family.score !== 0);
+        this.tags = this.tags.filter((family) => family.score !== "");
         this.history.push(`- Placeholder tags removed for all categories`);
       },
       removeFamily(Family) {
@@ -622,6 +622,58 @@ function axesCombos(axes) {
   } else {
     details.forEach(f => !f.contains(e.target) ? f.removeAttribute('open') : '');
   }
+})
+
+document.addEventListener("keydown", function(e) {
+  const scoreInputs = document.querySelectorAll("[data-index]")
+  let active = document.activeElement;
+  let idx = Number(active.dataset.index)  
+  switch (e.key) {
+    case "ArrowUp":
+      if (idx > 0) {
+        idx--
+      }
+      break;
+    case "ArrowDown":
+      if (idx < scoreInputs.length - 1) {
+        idx++
+      }
+      break;
+    case "!":
+      e.preventDefault();
+      app.sortedTags[idx].score = 100;
+      idx++
+      scoreInputs[idx].scrollIntoView({"block": "center"});
+      scoreInputs.forEach((input, i) => {
+        if (i !== idx) {
+          input.parentElement.parentElement.parentElement.style.webkitFilter = "blur(5px)";
+        } else {
+          input.parentElement.parentElement.parentElement.style.webkitFilter = "none";
+        }
+      })
+      break;
+    case "@":
+      e.preventDefault();
+      app.removeFamily(app.sortedTags[idx]);
+      scoreInputs[idx].scrollIntoView({"block": "center"});
+      idx++
+      scoreInputs.forEach((input, i) => {
+        if (i !== idx) {
+          input.parentElement.parentElement.parentElement.style.webkitFilter = "blur(5px)";
+        } else {
+          input.parentElement.parentElement.parentElement.style.webkitFilter = "none";
+        }
+      })
+      break;
+    case "Escape":
+      scoreInputs.forEach((input, i) => {
+        input.parentElement.parentElement.parentElement.style.webkitFilter = "none";
+      })
+      break;
+    default:
+      return;
+  }
+  scoreInputs[idx].focus();
 })
 </script>
 

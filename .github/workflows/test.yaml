@@ -2,7 +2,9 @@ name: Google Fonts QA
 on:
   pull_request:
     paths:
-    - '{ofl,ufl,apache}/*/*'
+    - 'ofl/*/*'
+    - 'ufl/*/*'
+    - 'apache/*/*'
 
 jobs:
 

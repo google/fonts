@@ -72,6 +72,8 @@ jobs:
     name: Diffenate fonts
     runs-on: ubuntu-22.04
     continue-on-error: true
+    permissions:
+      pull-requests: write
 
     outputs:
       finished: ${{ steps.check_files.outputs.files_exists }}

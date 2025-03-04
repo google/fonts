@@ -1,0 +1,85 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<body>
+  <div id="app">
+    <div id="drop-area" @dragover.prevent @drop.prevent="handleDrop" class="border-dashed border-4 border-gray-400 p-10 text-center">
+      Drag and drop a variable font file here
+    </div>
+    <div v-if="fontAxes.length > 0" class="mt-5">
+      <div v-for="axis in fontAxes" :key="axis.tag" class="mb-4">
+        <label :for="axis.tag">{{ axis.tag }} ({{ axis.min }} - {{ axis.max }})</label>
+        <input type="range" :id="axis.tag" :min="axis.min" :max="axis.max" v-model="axis.value" @input="updateFont">
+        <span>{{ axis.value }}</span>
+      </div>
+      <p class="mt-5">Current settings: {{ currentSettings }}</p>
+    </div>
+  </div>
+
+  <script>
+    new Vue({
+      el: '#app',
+      data() {
+        return {
+          fontAxes: [],
+        };
+      },
+      computed: {
+        currentSettings() {
+          return this.fontAxes.map(axis => `${axis.tag}: ${axis.value}`).join(', ');
+        }
+      },
+      methods: {
+        handleDrop(event) {
+          const file = event.dataTransfer.files[0];
+          if (file && file.name.endsWith('.ttf')) {
+            this.loadFont(file);
+          } else {
+            alert('Please drop a valid .ttf font file.');
+          }
+        },
+        loadFont(file) {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            const font = new FontFace('CustomFont', e.target.result);
+            font.load().then((loadedFont) => {
+              document.fonts.add(loadedFont);
+              this.extractAxes(loadedFont);
+            });
+          };
+          reader.readAsArrayBuffer(file);
+        },
+        extractAxes(font) {
+          const variationSettings = font.variationSettings;
+          this.fontAxes = [];
+          for (const axis of variationSettings) {
+            this.fontAxes.push({
+              tag: axis.tag,
+              min: axis.minValue,
+              max: axis.maxValue,
+              value: axis.defaultValue,
+            });
+          }
+        },
+        updateFont() {
+          const settings = this.fontAxes.map(axis => `"${axis.tag}" ${axis.value}`).join(', ');
+          document.body.style.fontVariationSettings = settings;
+        }
+      }
+    });
+  </script>
+
+  <style>
+    #drop-area {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f9f9f9;
+    }
+  </style>
+</body>

@@ -1,4 +1,6 @@
+Family,Group/Tag,Weight
 ABeeZee,/Expressive/Calm,91.6
+ABeeZee,/Quality/Good,100
 ABeeZee,/Sans/Geometric,10
 ABeeZee,/Sans/Humanist,75
 ADLaM Display,/Sans/Humanist,70
@@ -6,20 +8,24 @@ ADLaM Display,/Sans/Rounded,20
 ADLaM Display,/Theme/Wacky,20
 AR One Sans,/Expressive/Calm,90.6
 AR One Sans,/Expressive/Competent,68
+AR One Sans,/Quality/Good,100
 AR One Sans,/Sans/Geometric,30
 AR One Sans,/Sans/Humanist,50
 Abel,/Expressive/Calm,83.4
 Abel,/Expressive/Competent,19
+Abel,/Quality/Good,100
 Abel,/Sans/Geometric,40
 Abel,/Sans/Humanist,10
 Abel,/Sans/Neo Grotesque,40
 Abhaya Libre,/Expressive/Business,20
 Abhaya Libre,/Expressive/Vintage,57.8
+Abhaya Libre,/Quality/Good,100
 Abhaya Libre,/Serif/Modern,70
 Abhaya Libre,/Serif/Transitional,10
 Aboreto,/Expressive/Competent,32
 Aboreto,/Expressive/Loud,53
 Aboreto,/Expressive/Vintage,89.5
+Aboreto,/Quality/Good,100
 Aboreto,/Sans/Glyphic,50
 Aboreto,/Sans/Humanist,70
 Aboreto,/Seasonal/Kwanzaa,76
@@ -27,10 +33,12 @@ Abril Fatface,/Expressive/Competent,97.9
 Abril Fatface,/Expressive/Loud,82
 Abril Fatface,/Expressive/Sincere,97
 Abril Fatface,/Expressive/Vintage,74
+Abril Fatface,/Quality/Good,100
 Abril Fatface,/Serif/Fat Face,90
 Abril Fatface,/Serif/Modern,90
 Abyssinica SIL,/Expressive/Business,48
 Abyssinica SIL,/Expressive/Vintage,82.5
+Abyssinica SIL,/Quality/Good,100
 Abyssinica SIL,/Serif/Old Style Garalde,10
 Aclonica,/Expressive/Loud,57
 Aclonica,/Sans/Humanist,10
@@ -45,14 +53,17 @@ Acme,/Sans/Glyphic,50
 Acme,/Sans/Humanist,90
 Acme,/Seasonal/Kwanzaa,79
 Actor,/Expressive/Calm,94.1
+Actor,/Quality/Good,100
 Actor,/Sans/Humanist,70
 Adamina,/Expressive/Business,46
 Adamina,/Expressive/Sincere,93
 Adamina,/Expressive/Vintage,71.7
+Adamina,/Quality/Good,100
 Adamina,/Serif/Old Style Garalde,80
 Adobe Blank,/Monospace/Monospace,100
 Advent Pro,/Expressive/Calm,54
 Advent Pro,/Expressive/Playful,31
+Advent Pro,/Quality/Good,100
 Advent Pro,/Sans/Humanist,40
 Advent Pro,/Theme/Wacky,10
 Afacad Flux,/Expressive/Calm,90.6
@@ -1157,10 +1168,10 @@ Butterfly Kids,/Expressive/Playful,96.9
 Butterfly Kids,/Script/Handwritten,100
 Butterfly Kids,/Script/Informal,100
 Butterfly Kids,/Seasonal/Diwali,75
+Bytesized,/Expressive/Vintage,50
+Bytesized,/Monospace/Monospace,100
 Bytesized,/Theme/Pixel,100
 Bytesized,/Theme/Techno,70
-Bytesized,/Monospace/Monospace,100
-Bytesized,/Expressive/Vintage,50
 Cabin Condensed,/Expressive/Business,85.5
 Cabin Condensed,/Expressive/Calm,72
 Cabin Condensed,/Expressive/Competent,89.2
@@ -3609,8 +3620,8 @@ Kulim Park,/Expressive/Rugged,2
 Kulim Park,/Expressive/Stiff,52
 Kulim Park,/Sans/Geometric,30
 Kulim Park,/Sans/Humanist,30
-Kumar One Outline,/Expressive/Stiff,97
 Kumar One Outline,/Expressive/Innovative,92
+Kumar One Outline,/Expressive/Stiff,97
 Kumar One Outline,/Seasonal/Holi,98
 Kumar One Outline,/Serif/Fat Face,30
 Kumar One Outline,/Serif/Modern,100
@@ -6683,16 +6694,16 @@ Saira Condensed,/Expressive/Competent,99.5
 Saira Condensed,/Expressive/Futuristic,97
 Saira Condensed,/Expressive/Stiff,98
 Saira Condensed,/Sans/Superellipse,80
-Saira Extra Condensed,/Sans/Superellipse,80
 Saira Extra Condensed,/Expressive/Calm,78
 Saira Extra Condensed,/Expressive/Competent,99.5
 Saira Extra Condensed,/Expressive/Futuristic,97
 Saira Extra Condensed,/Expressive/Stiff,98
-Saira Semi Condensed,/Sans/Superellipse,80
+Saira Extra Condensed,/Sans/Superellipse,80
 Saira Semi Condensed,/Expressive/Calm,78
 Saira Semi Condensed,/Expressive/Competent,99.5
 Saira Semi Condensed,/Expressive/Futuristic,97
 Saira Semi Condensed,/Expressive/Stiff,98
+Saira Semi Condensed,/Sans/Superellipse,80
 Saira Stencil One,/Expressive/Futuristic,99
 Saira Stencil One,/Expressive/Innovative,32
 Saira Stencil One,/Expressive/Stiff,98
@@ -8004,13 +8015,6 @@ WindSong,/Expressive/Vintage,37.6
 WindSong,/Script/Informal,70
 WindSong,/Seasonal/Diwali,80
 WindSong,/Seasonal/Halloween,75
-Winky Sans,/Expressive/Awkward,50
-Winky Sans,/Expressive/Childlike,70
-Winky Sans,/Expressive/Cute,50
-Winky Sans,/Expressive/Playful,80
-Winky Sans,/Sans/Humanist,90
-Winky Sans,/Sans/Rounded,100
-Winky Sans,/Theme/Brush,40
 Winky Rough,/Expressive/Artistic,60
 Winky Rough,/Expressive/Awkward,50
 Winky Rough,/Expressive/Childlike,70
@@ -8020,6 +8024,13 @@ Winky Rough,/Expressive/Rugged,80
 Winky Rough,/Sans/Humanist,90
 Winky Rough,/Sans/Rounded,100
 Winky Rough,/Theme/Brush,60
+Winky Sans,/Expressive/Awkward,50
+Winky Sans,/Expressive/Childlike,70
+Winky Sans,/Expressive/Cute,50
+Winky Sans,/Expressive/Playful,80
+Winky Sans,/Sans/Humanist,90
+Winky Sans,/Sans/Rounded,100
+Winky Sans,/Theme/Brush,40
 Wire One,/Expressive/Calm,66
 Wire One,/Expressive/Stiff,68
 Wire One,/Sans/Neo Grotesque,50

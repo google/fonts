@@ -18,7 +18,7 @@ for font in glob.glob("*.ttf"):
     ttfont.setGlyphOrder(glyphs)
 
     ttfont["glyf"].glyphs["space"] = Glyph()
-    ttfont["hmtx"].metrics["space"] = (1024, 0)
+    ttfont["hmtx"].metrics["space"] = (280, 0)
 
     ttfont.save(font)
 

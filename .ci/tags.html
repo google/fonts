@@ -634,6 +634,7 @@ function axesCombos(axes) {
           }
         }
         this.history = [];
+        this.tags = [];
         const csvFilePath = `https://raw.githubusercontent.com/google/fonts/${this.commit}/tags/all/families.csv`; // Update this path to your CSV file
         fetch(csvFilePath)
           .then(response => {

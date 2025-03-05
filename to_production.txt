@@ -1,15 +1,5 @@
 # New
 
-# Upgrade
-# The following 4 fonts were not pushed to prod because they are converting
-# from static to VF fonts and we need to do some special processing of them
-# as other parts of Google are referencing the static instances.  That should
-# happen in the week of Mar 3.
-ofl/buenard # https://github.com/google/fonts/pull/7573
-ofl/cormorantgaramond # https://github.com/google/fonts/pull/8593
-ofl/cormorantinfant # https://github.com/google/fonts/pull/8594
-ofl/merriweather # https://github.com/google/fonts/pull/7886
-
 # Designer profile
 # Commented out by Evan as these have not been pushed to sandbox yet
 # catalog/designers/42dot # https://github.com/google/fonts/pull/9046

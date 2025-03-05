@@ -12,7 +12,10 @@ fonts {
   full_name: "Playpen Sans Regular"
   copyright: "Copyright 2023 The Playpen Sans Project Authors (https://github.com/TypeTogether/Playpen-Sans)"
 }
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "emoji"
+subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
@@ -25,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "0de440c9453a4f2f971d89506df4ed1ba9124cb4"
+  commit: "02847831d01c5c2d013712c61e8375439c4bd24b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -34,7 +37,7 @@ source {
     source_file: "fonts/variable/PlaypenSans[wght].ttf"
     dest_file: "PlaypenSans[wght].ttf"
   }
-  branch: "main"
+  branch: "builder2"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 stroke: "SANS_SERIF"

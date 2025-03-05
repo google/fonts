@@ -56,9 +56,24 @@
           </li>
           <li>
               <div class="join" style="padding-top: 10px;">
-                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="tagFilter" placeholder="filter">
+                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="tagFilter" placeholder="Search Fonts">
               </div>
           </li>
+          <li>
+          <li>
+            <details>
+              <summary>{{ sortMethod }}</summary>
+              <ul class="shadow">
+                <div class="cont" style="max-height: 16rem; overflow: scroll">
+                  <li><a @click="sortMethod = 'Name'">Name</a></li>
+                  <li><a @click="sortMethod = 'Popularity'">Popularity</a></li>
+                  <li><a @click="sortMethod = 'Trending'">Trending</a></li>
+                  <li><a @click="sortMethod = 'Score'">Score</a></li>
+                </div>
+              </ul>
+            </details>
+          </li>
+
         </ul>
     </div>    
 
@@ -270,6 +285,7 @@ function axesCombos(axes) {
       return {
         ready: false,
         isEdited: false,
+        familyData: {},
         tagFilter: "",
         commit: "refs/heads/main",
         fontUrls: [],
@@ -280,6 +296,7 @@ function axesCombos(axes) {
         fromFamily: "",
         toFamily: "",
         currentCategory: "/Expressive/Calm",
+        sortMethod: "Score",
         categories: new Set(),
         tags: [],
         seen: new Set(),
@@ -312,7 +329,8 @@ function axesCombos(axes) {
         this.updateURL();
       },
     },
-    created() {
+    async created() {
+      await this.getFamilyData()
       this.loadFonts();
       this.loadCSV();
       this.loadFamilyPangrams();
@@ -332,10 +350,26 @@ function axesCombos(axes) {
     },
     computed: {
       sortedTags() {
+        let sortFunc
+        const _this = this
+        if (this.sortMethod === "Score") {
+          sortFunc = function(a, b) {return b.score - a.score;}
+        } else if (this.sortMethod === "Name") {
+          sortFunc = function(a, b) {return a.displayName.localeCompare(b.displayName)}
+        } else if (["Popularity", "Trending"].includes(this.sortMethod)) {
+          sortFunc = function(a, b) {
+            const aFamilyData = _this.familyData[b.displayName]
+            const bFamilyData = _this.familyData[a.displayName]
+            if (aFamilyData === undefined || bFamilyData === undefined) {
+              return 1;
+            }
+            return bFamilyData[_this.sortMethod.toLowerCase()] - aFamilyData[_this.sortMethod.toLowerCase()];
+          }
+        }
         let ll = this.tags;
         let filtered = ll.filter(family => family.category === this.currentCategory);
         filtered = filtered.filter(family => family.name.toLowerCase().includes(this.tagFilter.toLowerCase()));
-        filtered.sort(function(a, b) {return b.score - a.score;});
+        filtered.sort(sortFunc);
         return filtered;
       },
       uniqueFamilies() {
@@ -352,12 +386,19 @@ function axesCombos(axes) {
       }
     },
     methods: {
-
-      async loadFonts() {
+      async getFamilyData() {
         let dat = await fetch("family_data.json").then(response => response.json()).then(data => {
           let results = [];
           let familyMeta = data["familyMetadataList"]
           familyMeta.forEach(family => {
+            this.familyData[family.family] = family;
+          })
+        })
+      },
+      loadFonts() {
+          let results = [];
+          for (k in this.familyData) {
+            const family = this.familyData[k];
             // to do bullshit aplhabetical sorting
             let path = `https://fonts.googleapis.com/css2?family=${family.family.replaceAll(" ", "+")}`
             if (family.axes.length > 0) {
@@ -366,10 +407,9 @@ function axesCombos(axes) {
               path += family.axes.map(a => {return `${Number(a.min)}..${Number(a.max)}`}).join(",")
             }
             results.push(path);
-          })
+          }
+          this.fontUrls = results;
           return results
-        });
-        this.fontUrls = dat
       },
       addAxis() {
         this.newAxes.push(
@@ -594,6 +634,7 @@ function axesCombos(axes) {
           }
         }
         this.history = [];
+        this.tags = [];
         const csvFilePath = `https://raw.githubusercontent.com/google/fonts/${this.commit}/tags/all/families.csv`; // Update this path to your CSV file
         fetch(csvFilePath)
           .then(response => {

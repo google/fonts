@@ -25,16 +25,3 @@ lang/languages/mlt_Latn.textproto # https://github.com/google/fonts/pull/7680
 # will be replaced by https://fonts.google.com/noto/specimen/Noto+Sans+PhagsPa (no space)
 https://fonts.google.com/noto/specimen/Noto+Sans+Phags+Pa 
 
-# Big Shoulders fonts need to be de-listed after the new variable version reached the API
-# New versions:
-# Big Shoulders Stencil https://github.com/google/fonts/pull/9029
-# Big Shoulders https://github.com/google/fonts/pull/9027
-# Big Shoulders Inline https://github.com/google/fonts/pull/9028
-# To delist:
-https://fonts.google.com/specimen/Big+Shoulders+Display
-https://fonts.google.com/specimen/Big+Shoulders+Text
-https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display
-https://fonts.google.com/specimen/Big+Shoulders+Stencil+Text
-https://fonts.google.com/specimen/Big+Shoulders+Inline+Display
-https://fonts.google.com/specimen/Big+Shoulders+Inline+Text
-

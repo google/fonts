@@ -598,7 +598,7 @@ function axesCombos(axes) {
           }
           return 0;
         });
-        let res = "Family,Group/Tag,Weight\r\n"
+        let res = ""
         this.tags.forEach((family) => {
           res += family.toCsv() + "\r\n";
         });

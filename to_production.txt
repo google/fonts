@@ -1,21 +1,36 @@
-# New
-
-# Upgrade
-# The following 4 fonts were not pushed to prod because they are converting
-# from static to VF fonts and we need to do some special processing of them
-# as other parts of Google are referencing the static instances.  That should
-# happen in the week of Mar 3.
-ofl/buenard # https://github.com/google/fonts/pull/7573
-ofl/cormorantgaramond # https://github.com/google/fonts/pull/8593
-ofl/cormorantinfant # https://github.com/google/fonts/pull/8594
-ofl/merriweather # https://github.com/google/fonts/pull/7886
-
 # Designer profile
-# Commented out by Evan as these have not been pushed to sandbox yet
-# catalog/designers/42dot # https://github.com/google/fonts/pull/9046
-# catalog/designers/42dot/42dot.jpg # https://github.com/google/fonts/pull/9046
-# catalog/designers/lettersfromsweden # https://github.com/google/fonts/pull/8812
-
-# Axis Registry
+catalog/designers/42dot # https://github.com/google/fonts/pull/9046
+catalog/designers/42dot/42dot.jpg # https://github.com/google/fonts/pull/9046
+catalog/designers/gustavoibarra # https://github.com/google/fonts/pull/7547
 
 # Metadata / Description / License
+ofl/akayatelivigala # https://github.com/google/fonts/pull/8083
+ofl/akshar # https://github.com/google/fonts/pull/8083
+ofl/almarai # https://github.com/google/fonts/pull/8083
+ofl/anekbangla # https://github.com/google/fonts/pull/8083
+ofl/anekdevanagari # https://github.com/google/fonts/pull/8083
+ofl/anekgujarati # https://github.com/google/fonts/pull/8083
+ofl/anekkannada # https://github.com/google/fonts/pull/8083
+ofl/anekmalayalam # https://github.com/google/fonts/pull/8083
+ofl/anekodia # https://github.com/google/fonts/pull/8083
+ofl/anektamil # https://github.com/google/fonts/pull/8083
+ofl/lohitbengali # https://github.com/google/fonts/pull/8091
+ofl/lohittamil # https://github.com/google/fonts/pull/8091
+ofl/longcang # https://github.com/google/fonts/pull/8091
+ofl/mashanzheng # https://github.com/google/fonts/pull/8091
+ofl/metal # https://github.com/google/fonts/pull/8091
+ofl/mirza # https://github.com/google/fonts/pull/8091
+ofl/mochiypopone # https://github.com/google/fonts/pull/8091
+ofl/mochiypoppone # https://github.com/google/fonts/pull/8091
+ofl/modak # https://github.com/google/fonts/pull/8091
+ofl/mogra # https://github.com/google/fonts/pull/8091
+ofl/poppins # https://github.com/google/fonts/pull/8098
+ofl/pottaone # https://github.com/google/fonts/pull/8098
+ofl/pragatinarrow # https://github.com/google/fonts/pull/8098
+ofl/preahvihear # https://github.com/google/fonts/pull/8098
+ofl/rajdhani # https://github.com/google/fonts/pull/8098
+ofl/rakkas # https://github.com/google/fonts/pull/8098
+ofl/ramabhadra # https://github.com/google/fonts/pull/8098
+ofl/ramaraja # https://github.com/google/fonts/pull/8098
+ofl/rampartone # https://github.com/google/fonts/pull/8098
+ofl/raviprakash # https://github.com/google/fonts/pull/8098

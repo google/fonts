@@ -29,6 +29,7 @@ jobs:
       - name: Install packages
         run: |
           pip install gftools[qa] pytest
+          pip install -U --pre shaperglot
         shell: bash
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1.6.2

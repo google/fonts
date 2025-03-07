@@ -686,7 +686,6 @@ document.addEventListener("keydown", function(e) {
       break;
     case "!":
       e.preventDefault();
-      app.sortedTags[idx].score = 100;
       idx++
       scoreInputs[idx].scrollIntoView({"block": "center"});
       scoreInputs.forEach((input, i) => {
@@ -699,9 +698,8 @@ document.addEventListener("keydown", function(e) {
       break;
     case "@":
       e.preventDefault();
-      app.removeFamily(app.sortedTags[idx]);
       scoreInputs[idx].scrollIntoView({"block": "center"});
-      idx++
+      idx--
       scoreInputs.forEach((input, i) => {
         if (i !== idx) {
           input.parentElement.parentElement.parentElement.style.webkitFilter = "blur(5px)";

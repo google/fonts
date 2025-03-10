@@ -76,7 +76,6 @@ languages: "acf_Latn"  # Saint Lucian Creole French, Latin
 languages: "ach_Latn"  # Acoli
 languages: "acu_Latn"  # Achuar-Shiwiar
 languages: "ada_Latn"  # Adangme
-languages: "adl_Latn"
 languages: "ady_Cyrl"  # Adyghe
 languages: "af_Latn"  # Afrikaans
 languages: "agq_Latn"  # Aghem
@@ -174,7 +173,7 @@ languages: "bug_Latn"  # Buginese
 languages: "bum_Latn"  # Bulu
 languages: "bvb_Latn"  # Bube
 languages: "bvi_Latn"  # Belanda Viri, Latin
-languages: "bwy_Latn"
+languages: "byh_Deva"  # Bhujel, Devanagari
 languages: "byh_Deva"  # Bhujel (Devanagari)
 languages: "byv_Latn"  # Medumba
 languages: "bze_Latn"  # Jenaama Bozo

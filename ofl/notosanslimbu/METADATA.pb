@@ -36,5 +36,4 @@ source {
 }
 is_noto: true
 languages: "lif_Limb"  # Limbu, Limbu
-languages: "sa_Limb"
 primary_script: "Limb"

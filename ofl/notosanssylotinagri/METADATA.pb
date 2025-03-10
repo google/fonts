@@ -38,6 +38,5 @@ source {
   branch: "main"
 }
 is_noto: true
-languages: "sa_Sylo"
 languages: "syl_Sylo"  # Sylheti, Syloti Nagri
 primary_script: "Sylo"

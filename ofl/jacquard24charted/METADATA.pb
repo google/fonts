@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/scfried/soft-type-jacquard"
-  commit: "ff555eb48673d04b64e451d84d77b8742bc37544"
+  commit: "b11565152caccd6eaedce5fe2ca0e377d1a7c597"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

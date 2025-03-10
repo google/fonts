@@ -46,3 +46,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/anexasajoop/cambay"
 }
+primary_script: "Deva"

@@ -39,3 +39,4 @@ source {
 }
 is_noto: true
 languages: "xlc_Lyci"  # Lycian
+primary_script: "Lyci"

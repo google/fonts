@@ -1,0 +1,13 @@
+id: "kyu_Latn"
+language: "kyu"
+script: "Latn"
+name: "Western Kayah (Latin)"
+population: 186000
+region: "TH"
+region: "MM"
+exemplar_chars {
+  base: "a A b B c C d D e E f F g G h H i I j J k K l L m M n N o O p P q Q r R s S t T u U v V w W x X y Y z Z è È ò Ò ô Ô û Û á Á é É í Í ó Ó ú Ú {è́} {È́} {ò́} {Ò́} ố Ố {û́} {Û́} ǎ Ǎ ě Ě ǐ Ǐ ǒ Ǒ ǔ Ǔ {è̌} {È̌} {ò̌} {Ò̌} {ô̌} {Ô̌} {û̌} {Û̌} {a̤} {A̤} {e̤} {E̤} {i̤} {I̤} {o̤} {O̤} ṳ Ṳ {è̤} {È̤} {ò̤} {Ò̤} {ô̤} {Ô̤} {ṳ̂} {Ṳ̂}"
+  marks: "◌́ ◌̀ ◌̂ ◌̌ ◌̤"
+  punctuation: "- – — , ; : ! ? . … \' ‘ ’ \" “ ” ( ) [ ] @ * / & # ꤮"
+}
+source: "Kayǎ Lilè akhǎshyékhǎrya̤ = Kayah Basic Literacy, 2017"

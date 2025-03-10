@@ -55,3 +55,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/itfoundry/karma"
 }
+primary_script: "Deva"

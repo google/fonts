@@ -22,8 +22,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/SorkinType/VICWANTSchoolhandAustralia"
-  commit: "abab94d19985f24132e45db4c4822b042eb63302"
-  archive_url: "https://github.com/SorkinType/VICWANTSchoolhandAustralia/releases/download/v1.000/VICWANTSchoolhandAustralia-v1.000.zip"
+  commit: "4d4efe710065410b34b66fa9d588498351642f41"
+  archive_url: "https://github.com/SorkinType/VICWANTSchoolhandAustralia/releases/download/v1.002/VICWANTSchoolhandAustralia-v1.002.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

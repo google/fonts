@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/YADAMSS/Matemasie-Font"
-  commit: "05f20fba79c6e780b125220555909646f29b999c"
+  commit: "a53371edff5c32131e93492ccb7618f4c567fbe0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -29,6 +29,22 @@ source {
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"
+  }
+  files {
+    source_file: "documentation/social-media-posts/1440px-x-765px/1/1.png"
+    dest_file: "article/1.png"
+  }
+  files {
+    source_file: "documentation/social-media-posts/1440px-x-765px/1/2.png"
+    dest_file: "article/2.png"
+  }
+  files {
+    source_file: "documentation/social-media-posts/1440px-x-765px/1/3.gif"
+    dest_file: "article/3.gif"
+  }
+  files {
+    source_file: "documentation/social-media-posts/1440px-x-765px/1/4.png"
+    dest_file: "article/4.png"
   }
   branch: "main"
 }

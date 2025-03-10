@@ -47,3 +47,4 @@ sample_text {
   poster_md: "𒾑 𒾒 𒾓"
   poster_lg: "𒾐"
 }
+primary_script: "Cpmn"

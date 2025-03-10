@@ -31,5 +31,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Hans"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

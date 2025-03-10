@@ -15,7 +15,7 @@ fonts {
 fonts {
   name: "Nanum Myeongjo"
   style: "normal"
-  weight: 600
+  weight: 700
   filename: "NanumMyeongjo-Bold.ttf"
   post_script_name: "NanumMyeongjoBold"
   full_name: "NanumMyeongjoBold"
@@ -24,7 +24,7 @@ fonts {
 fonts {
   name: "Nanum Myeongjo"
   style: "normal"
-  weight: 700
+  weight: 800
   filename: "NanumMyeongjo-ExtraBold.ttf"
   post_script_name: "NanumMyeongjoExtraBold"
   full_name: "NanumMyeongjoExtraBold"
@@ -33,3 +33,4 @@ fonts {
 subsets: "korean"
 subsets: "latin"
 subsets: "menu"
+primary_script: "Kore"

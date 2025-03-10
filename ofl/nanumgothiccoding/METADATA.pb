@@ -22,6 +22,8 @@ fonts {
   copyright: "Copyright © 2009 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
 subsets: "menu"
+subsets: "latin"
 subsets: "korean"
+primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

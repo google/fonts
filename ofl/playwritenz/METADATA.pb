@@ -12,6 +12,7 @@ fonts {
   full_name: "Playwrite NZ Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
+# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
 subsets: "menu"
 axes {
   tag: "wght"
@@ -20,7 +21,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "e53bd89e9d46f46f0f8ce089fdef3a869130f670"
+  archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,22 +29,6 @@ source {
   files {
     source_file: "fonts/variable/PlaywriteNZ[wght].ttf"
     dest_file: "PlaywriteNZ[wght].ttf"
-  }
-  files {
-    source_file: "documentation/about/NZ/ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "documentation/about/NZ/Playwrite-New-Zealand-1.png"
-    dest_file: "article/Playwrite-New-Zealand-1.png"
-  }
-  files {
-    source_file: "documentation/about/NZ/Playwrite-New-Zealand-2.png"
-    dest_file: "article/Playwrite-New-Zealand-2.png"
-  }
-  files {
-    source_file: "documentation/about/NZ/Playwrite-New-Zealand-3.png"
-    dest_file: "article/Playwrite-New-Zealand-3.png"
   }
   branch: "main"
 }

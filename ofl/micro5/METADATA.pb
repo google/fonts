@@ -19,7 +19,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/scfried/soft-type-micro"
-  commit: "e8450033cd07542081f72abd540b93574434bc71"
+  commit: "a5a61b057a6804ea75840f2b9f31cfb339652e58"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

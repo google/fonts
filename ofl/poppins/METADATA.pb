@@ -171,3 +171,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/itfoundry/Poppins"
 }
+primary_script: "Deva"

@@ -18,5 +18,6 @@ subsets: "telugu"
 source {
   repository_url: "https://github.com/appajid/gidugu"
 }
+primary_script: "Telu"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

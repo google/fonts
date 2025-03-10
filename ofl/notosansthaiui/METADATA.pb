@@ -33,3 +33,4 @@ languages: "pi_Thai"  # Pali, Thai
 languages: "sou_Thai"  # Southern Thai
 languages: "th_Thai"  # Thai
 languages: "tts_Thai"  # Northeastern Thai
+primary_script: "Thai"

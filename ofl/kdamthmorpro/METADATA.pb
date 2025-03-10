@@ -29,5 +29,6 @@ source {
   }
   branch: "main"
 }
+primary_script: "Khmr"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

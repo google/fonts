@@ -13,6 +13,8 @@ fonts {
   copyright: "COPYRIGHT  2004-2017 by TypoDesign Lab. Inc. All rights reserved. Font designed by TypoDesign Lab. Inc."
 }
 subsets: "korean"
+subsets: "latin"
 subsets: "menu"
+primary_script: "Kore"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -10,7 +10,7 @@ fonts {
   filename: "LibreFranklin[wght].ttf"
   post_script_name: "LibreFranklin-Thin"
   full_name: "Libre Franklin Thin"
-  copyright: "Copyright 2020 The LibreFranklin Project Authors (https://github.com/impallari/Libre-Franklin)"
+  copyright: "Copyright 2020 The Libre Franklin Project Authors (https://github.com/googlefonts/Libre-Franklin)"
 }
 fonts {
   name: "Libre Franklin"
@@ -19,8 +19,10 @@ fonts {
   filename: "LibreFranklin-Italic[wght].ttf"
   post_script_name: "LibreFranklin-ThinItalic"
   full_name: "Libre Franklin Thin Italic"
-  copyright: "Copyright 2020 The LibreFranklin Project Authors (https://github.com/impallari/Libre-Franklin)"
+  copyright: "Copyright 2020 The Libre Franklin Project Authors (https://github.com/googlefonts/Libre-Franklin)"
 }
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -31,7 +33,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/TypeNetwork/Libre-Franklin"
+  repository_url: "https://github.com/googlefonts/Libre-Franklin"
+  commit: "310b7eef1f7b7ba82322295e0034675ea68040b0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

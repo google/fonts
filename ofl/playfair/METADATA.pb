@@ -11,7 +11,7 @@ fonts {
   filename: "Playfair[opsz,wdth,wght].ttf"
   post_script_name: "Playfair-5ptSemiExpandedLight"
   full_name: "Playfair 5pt SemiExpanded Light"
-  copyright: "Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)"
+  copyright: "Copyright 2005 The Playfair Project Authors (https://github.com/clauseggers/Playfair)"
 }
 fonts {
   name: "Playfair"
@@ -45,7 +45,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/Playfair"
-  commit: "beae63554370252f8d45c3eb95f809fcba56af9c"
+  commit: "a49f9f9dc9a2924641cefba3f5e33ac1c5aa4264"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

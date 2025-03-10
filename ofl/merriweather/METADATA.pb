@@ -6,74 +6,20 @@ date_added: "2011-05-11"
 fonts {
   name: "Merriweather"
   style: "normal"
-  weight: 300
-  filename: "Merriweather-Light.ttf"
+  weight: 400
+  filename: "Merriweather[opsz,wdth,wght].ttf"
   post_script_name: "Merriweather-Light"
   full_name: "Merriweather Light"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
+  copyright: "Copyright 2024 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather4) with Reserved Font Name \"Merriweather\"."
 }
 fonts {
   name: "Merriweather"
   style: "italic"
-  weight: 300
-  filename: "Merriweather-LightItalic.ttf"
+  weight: 400
+  filename: "Merriweather-Italic[opsz,wdth,wght].ttf"
   post_script_name: "Merriweather-LightItalic"
   full_name: "Merriweather Light Italic"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
-}
-fonts {
-  name: "Merriweather"
-  style: "normal"
-  weight: 400
-  filename: "Merriweather-Regular.ttf"
-  post_script_name: "Merriweather-Regular"
-  full_name: "Merriweather Regular"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
-}
-fonts {
-  name: "Merriweather"
-  style: "italic"
-  weight: 400
-  filename: "Merriweather-Italic.ttf"
-  post_script_name: "Merriweather-Italic"
-  full_name: "Merriweather Italic"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
-}
-fonts {
-  name: "Merriweather"
-  style: "normal"
-  weight: 700
-  filename: "Merriweather-Bold.ttf"
-  post_script_name: "Merriweather-Bold"
-  full_name: "Merriweather Bold"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
-}
-fonts {
-  name: "Merriweather"
-  style: "italic"
-  weight: 700
-  filename: "Merriweather-BoldItalic.ttf"
-  post_script_name: "Merriweather-BoldItalic"
-  full_name: "Merriweather Bold Italic"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
-}
-fonts {
-  name: "Merriweather"
-  style: "normal"
-  weight: 900
-  filename: "Merriweather-Black.ttf"
-  post_script_name: "Merriweather-Black"
-  full_name: "Merriweather Black"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
-}
-fonts {
-  name: "Merriweather"
-  style: "italic"
-  weight: 900
-  filename: "Merriweather-BlackItalic.ttf"
-  post_script_name: "Merriweather-BlackItalic"
-  full_name: "Merriweather Black Italic"
-  copyright: "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\"."
+  copyright: "Copyright 2024 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather4) with Reserved Font Name \"Merriweather\"."
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -81,14 +27,58 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "opsz"
+  min_value: 18.0
+  max_value: 144.0
+}
+axes {
+  tag: "wdth"
+  min_value: 87.0
+  max_value: 112.0
+}
+axes {
+  tag: "wght"
+  min_value: 300.0
+  max_value: 900.0
+}
+registry_default_overrides {
+  key: "opsz"
+  value: 18.0
+}
 source {
-  repository_url: "https://github.com/EbenSorkin/Merriweather"
+  repository_url: "https://github.com/EbenSorkin/Merriweather4"
+  commit: "e586023aa0fe1dba9a7d4ec80fa8b9e546cb7ecf"
+  archive_url: "https://github.com/EbenSorkin/Merriweather4/releases/download/4.008/Merriweather4-4.008.zip"
+  files {
+    source_file: "fonts/variable/Merriweather[opsz,wdth,wght].ttf"
+    dest_file: "Merriweather[opsz,wdth,wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Merriweather-Italic[opsz,wdth,wght].ttf"
+    dest_file: "Merriweather-Italic[opsz,wdth,wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "main"
 }
 fallbacks {
   axis_target {
     tag: "wght"
     min_value: 300.0
     max_value: 300.0
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
   }
   axis_target {
     tag: "ital"
@@ -107,6 +97,16 @@ fallbacks {
     tag: "wght"
     min_value: 400.0
     max_value: 400.0
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
   }
   axis_target {
     tag: "ital"
@@ -127,6 +127,16 @@ fallbacks {
     max_value: 700.0
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
+  }
+  axis_target {
     tag: "ital"
     min_value: 0.0
     max_value: 0.0
@@ -143,6 +153,16 @@ fallbacks {
     tag: "wght"
     min_value: 900.0
     max_value: 900.0
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
   }
   axis_target {
     tag: "ital"
@@ -163,6 +183,16 @@ fallbacks {
     max_value: 300.0
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
+  }
+  axis_target {
     tag: "ital"
     min_value: 1.0
     max_value: 1.0
@@ -179,6 +209,16 @@ fallbacks {
     tag: "wght"
     min_value: 400.0
     max_value: 400.0
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
   }
   axis_target {
     tag: "ital"
@@ -199,6 +239,16 @@ fallbacks {
     max_value: 700.0
   }
   axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
+  }
+  axis_target {
     tag: "ital"
     min_value: 1.0
     max_value: 1.0
@@ -215,6 +265,16 @@ fallbacks {
     tag: "wght"
     min_value: 900.0
     max_value: 900.0
+  }
+  axis_target {
+    tag: "wdth"
+    min_value: 100.0
+    max_value: 100.0
+  }
+  axis_target {
+    tag: "opsz"
+    min_value: 18.0
+    max_value: 18.0
   }
   axis_target {
     tag: "ital"

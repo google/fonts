@@ -15,7 +15,7 @@ fonts {
 fonts {
   name: "Nanum Gothic"
   style: "normal"
-  weight: 600
+  weight: 700
   filename: "NanumGothic-Bold.ttf"
   post_script_name: "NanumGothicBold"
   full_name: "NanumGothicBold"
@@ -24,7 +24,7 @@ fonts {
 fonts {
   name: "Nanum Gothic"
   style: "normal"
-  weight: 700
+  weight: 800
   filename: "NanumGothic-ExtraBold.ttf"
   post_script_name: "NanumGothicExtraBold"
   full_name: "NanumGothicExtraBold"
@@ -33,3 +33,4 @@ fonts {
 subsets: "korean"
 subsets: "latin"
 subsets: "menu"
+primary_script: "Kore"

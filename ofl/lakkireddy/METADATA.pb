@@ -18,5 +18,6 @@ subsets: "telugu"
 source {
   repository_url: "https://github.com/appajid/lakkireddy"
 }
+primary_script: "Telu"
 stroke: "SERIF"
 classifications: "DISPLAY"

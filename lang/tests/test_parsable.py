@@ -1,22 +1,28 @@
-from gflanguages import DATA_DIR
 import glob
 import os
 import pytest
+import sys
 from gflanguages import languages_public_pb2
 from google.protobuf import text_format
 
+if sys.version_info < (3, 10):
+    from importlib_resources import files
+else:
+    from importlib.resources import files
 
-languages_dir = os.path.join(DATA_DIR, "languages")
+languages_dir = files("gflanguages.data").joinpath("languages")
 textproto_files = [
-    os.path.basename(x) for x in glob.iglob(os.path.join(languages_dir, "*.textproto"))
+    file.name for file in languages_dir.iterdir() if file.name.endswith(".textproto")
 ]
 
 
 @pytest.mark.parametrize("lang_code", textproto_files)
 def test_parsable(lang_code):
-    with open(os.path.join(languages_dir, lang_code), "r", encoding="utf-8") as f:
-        msg = text_format.Parse(f.read(), languages_public_pb2.LanguageProto())
-        assert msg.id
-        assert msg.language
-        assert msg.script
-        assert msg.population is not None
+    f = languages_dir.joinpath(lang_code)
+    msg = text_format.Parse(
+        f.read_text(encoding="utf-8"), languages_public_pb2.LanguageProto()
+    )
+    assert msg.id
+    assert msg.language
+    assert msg.script
+    assert msg.population is not None

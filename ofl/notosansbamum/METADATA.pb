@@ -53,3 +53,4 @@ sample_text {
   poster_md: "ꚳꚴ𖥉𖥊𖥋𖥌𖥍 𖠎𖠏𖠐"
   poster_lg: "ꚠꚡꚢ"
 }
+primary_script: "Bamu"

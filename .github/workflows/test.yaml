@@ -1,8 +1,10 @@
 name: Google Fonts QA
 on:
   pull_request:
-    branches:
-    - main
+    paths:
+    - 'ofl/*/*'
+    - 'ufl/*/*'
+    - 'apache/*/*'
 
 jobs:
 
@@ -12,7 +14,7 @@ jobs:
     strategy:
       matrix:
         python-version: ['3.10']
-        os: [windows-latest, macos-12, ubuntu-latest]
+        os: [windows-latest, macos-13, ubuntu-22.04]
     steps:
       - name: Cancel previous
         uses: styfle/cancel-workflow-action@0.11.0
@@ -61,14 +63,20 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
-          name: qa
+          name: qa-${{ matrix.os }}
           path: out/
 
   diffenator:
     name: Diffenate fonts
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    continue-on-error: true
+    permissions:
+      pull-requests: write
+
+    outputs:
+      finished: ${{ steps.check_files.outputs.files_exists }}
 
     steps:
       - name: Cancel previous
@@ -110,10 +118,21 @@ jobs:
 
       - name: Upload check results
         if: steps.check_files.outputs.files_exists == 'true'
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
-          name: qa
+          name: qa-diffenator
           path: out/
+
+  consolidate:
+    needs: [diffbrowsers, diffenator]
+    if: needs.diffenator.outputs.finished == 'true'
+    name: Consolidate results into a single zip
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/upload-artifact/merge@v4
+        with:
+          pattern: qa-*
+          name: qa
 
   ftxvalidator:
     name: Run ftxvalidator on new/changed fonts

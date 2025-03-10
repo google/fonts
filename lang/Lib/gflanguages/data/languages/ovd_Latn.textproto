@@ -1,0 +1,10 @@
+id: "ovd_Latn"
+language: "ovd"
+script: "Latn"
+name: "Elfdalian"
+region: "SE"
+exemplar_chars {
+  base: "a A ą Ą b B c C d D ð Đ e E ę Ę f F g G h H i I į Į j J k K l L m M n N o O p P q Q r R s S t T u U ų Ų v V w W x X y Y {y̨} {Y̨} z Z å Å {ą̊} {Ą̊} ä Ä ö Ö"
+  marks: "◌̈ ◌̊ ◌̨"
+}
+source: "Råðdjärum, Älvdalska språkrådets förslag till älvdalsk stavning, 2005"

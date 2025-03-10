@@ -47,3 +47,4 @@ sample_text {
   poster_md: "𞲝𞲉𞲊𞲋𞲃𞲄𞲅"
   poster_lg: "ا٠١"
 }
+primary_script: "Arab"

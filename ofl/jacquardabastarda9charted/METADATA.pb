@@ -19,7 +19,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/scfried/soft-type-jacquarda-bastarda"
-  commit: "cfc133ee284c74b8f76980a1267f4a3d45671377"
+  commit: "ca6bf8560d7e3fd2aae341ffe0838b61b35b3c61"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

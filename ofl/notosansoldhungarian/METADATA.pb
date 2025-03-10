@@ -39,3 +39,4 @@ source {
 }
 is_noto: true
 languages: "ohu_Hung"  # Old Hungarian
+primary_script: "Hung"

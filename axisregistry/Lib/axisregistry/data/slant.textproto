@@ -12,6 +12,7 @@ fallback {
 fallback_only: false
 illustration_url: "slant.svg"
 description:
-  "Adjust the style from upright to slanted, also known to typographers"
-  " as an 'oblique' style. Rarely, slant can work in the other direction,"
-  " called a 'backslanted' or 'reverse oblique' style."
+  "Adjust the style from upright to slanted. Negative values produce"
+  " right-leaning forms, also known to typographers as an 'oblique' style."
+  " Positive values produce left-leaning forms, also called a 'backslanted'"
+  " or 'reverse oblique' style."

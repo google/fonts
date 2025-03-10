@@ -14,3 +14,24 @@ Language/region/script definitions and the `gflanguages` modules are used as a s
 This module is the main place to update these definitions, avoiding data duplication and guaranteeing uniformity across tools.
 
 To learn more about how *lang* metadata affects downstream, see [gf-guide/lang](https://googlefonts.github.io/gf-guide/lang).
+
+## Sample text rules
+
+If there is a `sample_text` field for a language, it should contain all of the following fields:
+
+* `masthead_full`: show off four glyphs
+* `masthead_partial`: show off two glyphs
+* `styles`: a phrase of 40-60 characters
+* `tester`: a phrase of 60-90 characters
+* `poster_sm`: a word or phrase of 10-17 characters
+* `poster_md`: a word or phrase of 6-12 characters
+* `poster_lg`: a word or phrase of 3-8 characters
+* `specimen_48`: a sentence of 50-80 characters
+* `specimen_36`: a paragraph of 100-120 characters
+* `specimen_32`: a paragraph of 140-180 characters
+* `specimen_21`: one or more paragraphs totalling 300-500 characters
+* `specimen_16`: one or more paragraphs totalling 550-750 characters
+
+Generally the sample text should be taken from the UN Declaration of Human Rights; if using Eric Muller's XML translations, `snippets/lang_sample_text.py` will convert the XML into textproto.
+
+If the UDHR is not available in the language, the sample text should be a "neutral" text (not political or religious) - folk tales are generally good sources. (We recognise that for some liturgical languages, religious texts may be the only extant samples.) In these cases, please add a `note:` field with the source of the sample text.

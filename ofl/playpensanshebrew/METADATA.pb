@@ -12,9 +12,11 @@ fonts {
   full_name: "Playpen Sans Hebrew Regular"
   copyright: "Copyright 2023 The Playpen Sans Project Authors (https://github.com/TypeTogether/Playpen-Sans)"
 }
+subsets: "emoji"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
 axes {
   tag: "wght"

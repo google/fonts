@@ -12,6 +12,7 @@ fonts {
   full_name: "Playpen Sans Arabic Regular"
   copyright: "Copyright 2023 The Playpen Sans Project Authors (https://github.com/TypeTogether/Playpen-Sans)"
 }
+subsets: "arabic"
 subsets: "emoji"
 subsets: "latin"
 subsets: "latin-ext"

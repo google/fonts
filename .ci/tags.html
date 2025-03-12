@@ -20,6 +20,7 @@
             <details>
               <summary>File</summary>
               <ul class="shadow w-36">
+                <li><a @click="lastSession">Last Session</a></li>
                 <li><a @click="saveCSV">Export CSV</a></li>
                 <li><a @click="prCSV">Open PR</a></li>
               </ul>
@@ -73,6 +74,9 @@
               </ul>
             </details>
           </li>
+          <button @click="reverseTags = !reverseTags" class="btn btn-square btn-xs">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z"/></svg>
+          </button>
 
         </ul>
     </div>    
@@ -299,6 +303,7 @@ function axesCombos(axes) {
         sortMethod: "Score",
         categories: new Set(),
         tags: [],
+        reverseTags: false,
         seen: new Set(),
         pangrams: new Map([
           ["English", "The quick brown fox jumps over the lazy dog."],
@@ -334,7 +339,6 @@ function axesCombos(axes) {
       this.loadFonts();
       this.loadCSV();
       this.loadFamilyPangrams();
-
     },
     mounted() {
       const urlParams = new URLSearchParams(window.location.search);
@@ -370,6 +374,10 @@ function axesCombos(axes) {
         let filtered = ll.filter(family => family.category === this.currentCategory);
         filtered = filtered.filter(family => family.name.toLowerCase().includes(this.tagFilter.toLowerCase()));
         filtered.sort(sortFunc);
+
+        if (this.reverseTags) {
+          filtered.reverse();
+        }
         return filtered;
       },
       uniqueFamilies() {
@@ -386,6 +394,15 @@ function axesCombos(axes) {
       }
     },
     methods: {
+      saveSession() {
+        localStorage.setItem("tagData", this.tagsToCSV());
+      },
+      lastSession() {
+        if (localStorage.getItem("tagData")) {
+          this.tags = this.parseCSV(localStorage.getItem("tagData"));
+        }
+        this.history.push("Last session loaded");
+      },
       async getFamilyData() {
         let dat = await fetch("family_data.json").then(response => response.json()).then(data => {
           let results = [];
@@ -452,6 +469,7 @@ function axesCombos(axes) {
       edited(family) {
         this.isEdited = true;
         this.history.push(`* ${family.name},${family.category},${family.Weight}`);
+        this.saveSession();
       },
       parseUnicode(str) {
         let ranges = str.split(",");
@@ -545,6 +563,7 @@ function axesCombos(axes) {
           this.tags.push(newFamily);
           this.history.push(`+ ${newFamily.displayName},${newFamily.category},${newFamily.score}`);
         }
+        this.saveSession();
       },
       copyFamily() {
         this.isEdited = true;
@@ -558,6 +577,7 @@ function axesCombos(axes) {
           this.tags.push(newTag);
           this.history.push(`+ ${newTag.Family},${newTag["Group/Tag"]},${newTag.Weight}`);
         })
+        this.saveSession();
       },
       AddPlaceHolderTags() {
         this.isEdited = true;
@@ -583,6 +603,7 @@ function axesCombos(axes) {
         let tagKey = `${Family.name},${Family.category}`;
         this.seen.delete(tagKey);
         this.history.push(`- ${Family.displayName},${Family.category},${Family.score}`);
+        this.saveSession();
       },
       tagsToCSV() {
         this.RemovePlaceHolderTags();
@@ -644,17 +665,22 @@ function axesCombos(axes) {
             return response.text()
           })
           .then(csvText => {
-            const lines = csvText.split("\r\n")
-            lines.forEach((line) => {
-              if (line === "") {
-                return;
-              }
-              let family = FontTag.fromCsv(line);
-              this.categories.add(family.category);
-              this.tags.push(family);
-            });
+            this.tags = this.parseCSV(csvText);
             csvText = "Family,Group/Tag,Weight\r\n" + csvText;
         })
+      },
+      parseCSV(text) {
+        const lines = text.split("\r\n");
+        let res = [];
+        lines.forEach((line) => {
+          if (line === "") {
+            return;
+          }
+          let family = FontTag.fromCsv(line);
+          this.categories.add(family.category);
+          res.push(family);
+        });
+        return res;
       }
     }
   } // methods

@@ -1,5 +1,5 @@
 name: "Liter"
-designer: "Anton Skugarov, Aleksandr Ivanin"
+designer: "Anton Skugarov, Alexandr Ivanin"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-01-09"

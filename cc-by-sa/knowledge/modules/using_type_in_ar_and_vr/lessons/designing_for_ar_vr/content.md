@@ -72,14 +72,14 @@ This means extra care is required while designing AR/VR applications. The typefa
 
 While both the hardware and software aspects of AR/VR implementation are advancing rapidly, type within them has a lot of catching up to do. For a long time, the need for extra processing power to render text properly has hampered progress. This pushes AR/VR designers to resort to the least CPU-intensive methods to render text, thereby degrading the quality of the text. It also keeps designers from considering rich text applications, thus limiting the potential of AR/VR environments.
 
-Future wearables have the potential to replace smartphones and computers. Looking at current progress, it seems that the processing power required for high-quality text rendering may take a while; however, this shouldn’t hinder the progress of AR/VR. One way to help speed up the process is to design applications that take into account the typographic challenges of this medium. In parallel, we can promote the design of typefaces that are specifically developed to optimize the performance of existing rendering systems.  
+Future wearables have the potential to replace smartphones and computers. Looking at current progress, it seems that the processing power required for high-quality text rendering may take a while; however, this shouldn’t hinder the progress of AR/VR. One way to help speed up the process is to design applications that take into account the typographic challenges of this medium. In parallel, we can promote the design of typefaces that are specifically developed to optimize the performance of existing rendering systems.
 
 Useful links:
 - [The current state of the text in augmented reality](https://niteeshyadav.com/blog/the-current-state-of-the-text-in-augmented-reality-7507/)
 - [Font assets Unity](https://docs.unity3d.com/2022.2/Documentation/Manual/class-Font.html)
 - [TextMesh Pro Documentation (Method of text rendering in Unity)](http://digitalnativestudios.com/textmeshpro/docs/)
 - [Text in Unity - Microsoft Mixed Reality](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/text-in-unity)
-- [Text in Unreal Engine](https://docs.unrealengine.com/4.27/en-US/Basics/Actors/3DText/)
+- [Text in Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/3d-text?application_version=4.27)
 - [Playing around with distance field font rendering](https://lambdacube3d.wordpress.com/2014/11/12/playing-around-with-font-rendering/)
 - [Techniques for rendering text with WebGL](https://css-tricks.com/techniques-for-rendering-text-with-webgl/)
 - [Future of Typography in Augmented Reality](https://youtu.be/lFO5A8-FzlI?t=3554)

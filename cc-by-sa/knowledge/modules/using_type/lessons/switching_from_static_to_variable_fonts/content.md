@@ -2,7 +2,7 @@ For many designers, implementing [variable fonts](/glossary/variable_fonts) on a
 
 ## Manipulating the first axis
 
-Let’s test this out and make the move from the static version of [Anybody](https://fonts.google.com/specimen/Anybody/), by Tyler Finck, to its newer, variable version. This font contains three variable axes: [Weight](/glossary/weight_axis) (`wght`), [Italic](/glossary/italic_axis) (`ital`), and [Width](/glossary/width_axis) (`wdth`). But before we get into the axes themselves, we first need to actually load the variable fonts. Assuming we’re using the Google Fonts API (of course, we could always download the font files and [self-host](https://fonts.google.com/knowledge/using_type/self_hosting_web_fonts) them), we’ll update the line in our HTML’s `head`—which is currently using the Regular (400), Regular Italic, Bold (700), and Bold Italic styles—from this:
+Let’s test this out and make the move from the static version of [Anybody](https://fonts.google.com/specimen/Anybody), by Tyler Finck, to its newer, variable version. This font contains three variable axes: [Weight](/glossary/weight_axis) (`wght`), [Italic](/glossary/italic_axis) (`ital`), and [Width](/glossary/width_axis) (`wdth`). But before we get into the axes themselves, we first need to actually load the variable fonts. Assuming we’re using the Google Fonts API (of course, we could always download the font files and [self-host](https://fonts.google.com/knowledge/using_type/self_hosting_web_fonts) them), we’ll update the line in our HTML’s `head`—which is currently using the Regular (400), Regular Italic, Bold (700), and Bold Italic styles—from this:
 
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -64,7 +64,7 @@ Switching italics on and off in this case is very easy because it essentially ju
 
 ## Manipulating an additional axis
 
-It’s time to move onto our third axis: Width (`wdth`). In this font in particular, width wasn’t exposed until the release of this variable version, so it’s a great excuse to make use of variable fonts’ powers of further refinement. 
+It’s time to move onto our third axis: Width (`wdth`). In this font in particular, width wasn’t exposed until the release of this variable version, so it’s a great excuse to make use of variable fonts’ powers of further refinement.
 
 Once again, the Width axis has been mapped to familiar CSS: we can manipulate it using the `font-stretch` property. The only difference is that, unlike weight, we need to declare it as a percentage. Let’s give our `span` element the maximum width value of 150%:
 
@@ -76,7 +76,7 @@ span {
 
 ![switching_to_vfs_4.svg](images/switching_to_vfs_4.svg)
 
-And while we’re at it, why not make everything *but* the `span` a little more condensed with a font-stretch value of 72%? 
+And while we’re at it, why not make everything *but* the `span` a little more condensed with a font-stretch value of 72%?
 
 ```css
 body {

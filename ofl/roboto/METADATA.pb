@@ -1,5 +1,5 @@
 name: "Roboto"
-designer: "Christian Robertson, Paratype, Font Bureau"
+designer: "Christian Robertson, ParaType, Font Bureau"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-01-09"

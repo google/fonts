@@ -1,5 +1,5 @@
 name: "Roboto"
-designer: "Christian Robertson, Paratype, Font Bureau"
+designer: "Christian Robertson, ParaType, Font Bureau"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2013-01-09"
@@ -43,7 +43,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/roboto-classic"
-  archive_url: "https://github.com/googlefonts/roboto-classic/releases/download/v3.009/Roboto_v3.009.zip"
+  commit: "b3ab25297a96373a8053db2d6fbf94b3ce61a8ac"
+  archive_url: "https://github.com/googlefonts/roboto-3-classic/releases/download/v3.011/Roboto_v3.011.zip"
   files {
     source_file: "web/split/Roboto[wdth,wght].ttf"
     dest_file: "Roboto[wdth,wght].ttf"

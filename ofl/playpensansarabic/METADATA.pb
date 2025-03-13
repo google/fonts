@@ -1,26 +1,23 @@
-name: "Playpen Sans"
-designer: "TypeTogether, Laura Meseguer, Veronika Burian, José Scaglione, Kostas Bartsokas, Vera Evstafieva, Tom Grace, Yorlmar Campos"
+name: "Playpen Sans Arabic"
+designer: "TypeTogether, Azza Alameddine, Laura Meseguer, Veronika Burian, José Scaglione"
 license: "OFL"
 category: "HANDWRITING"
-date_added: "2023-09-07"
+date_added: "2025-03-11"
 fonts {
-  name: "Playpen Sans"
+  name: "Playpen Sans Arabic"
   style: "normal"
   weight: 400
-  filename: "PlaypenSans[wght].ttf"
-  post_script_name: "PlaypenSans-Regular"
-  full_name: "Playpen Sans Regular"
+  filename: "PlaypenSansArabic[wght].ttf"
+  post_script_name: "PlaypenSansArabic-Regular"
+  full_name: "Playpen Sans Arabic Regular"
   copyright: "Copyright 2023 The Playpen Sans Project Authors (https://github.com/TypeTogether/Playpen-Sans)"
 }
-subsets: "cyrillic"
-subsets: "cyrillic-ext"
+subsets: "arabic"
 subsets: "emoji"
-subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "math"
 subsets: "menu"
-subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
@@ -28,16 +25,17 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "e9de3f5df6328821ed98775d347b8da652fc47fc"
+  commit: "6990b3115c68779625bad656c6b0723db7435044"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/variable/PlaypenSans[wght].ttf"
-    dest_file: "PlaypenSans[wght].ttf"
+    source_file: "fonts/variable/PlaypenSansArabic[wght].ttf"
+    dest_file: "PlaypenSansArabic[wght].ttf"
   }
   branch: "main"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
+primary_script: "Arab"
 stroke: "SANS_SERIF"

@@ -553,7 +553,7 @@ function axesCombos(axes) {
           })
           this.newAxes = [];
         } else {
-          let newFamily = new FontTag(this.newFamily, this.currentCategory, axes=this.newAxes, score=this.newWeight);
+          let newFamily = new FontTag(this.newFamily, this.currentCategory, score=this.newWeight);
             let tagKey = `${newFamily.name},${newFamily.category}`;
           if (this.seen.has(tagKey)) {
             alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);

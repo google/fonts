@@ -1,0 +1,47 @@
+FONTLOG for Zephirum fonts
+
+This file provides detailed information on the Zephirum
+Font Software. This information should be distributed
+along with the Zephirum fonts and any derivative works.
+
+Basic Font Information
+
+Zephirum is designed for good readability and legibility.
+Its distinctive, machine-readable design makes it
+ideal for technical documentation, coding environments,
+and any application requiring clear, consistent
+character spacing.
+
+Zephirum is a Unicode typeface family that supports languages
+that use the Latin script and its variants, including
+Eastern European languages.
+
+More specifically, this release supports the following
+Unicode ranges: Basic Latin, Latin-1 Supplement, Latin
+Extended-A, Latin Extended-B
+
+To contribute to the project open a PR on GitHub.
+
+ChangeLog
+
+31 Dec 2019 (Rastislav Vašička) Zephirum v1.0
+- Initial release of modernized version
+- Added extended Latin character support
+- Improved hinting for screen readability
+- Optimized spacing and kerning
+
+21 Feb 2025 (Rastislav Vašička) Zephirum v1.2
+- Added additional characters
+- Monospace fixes
+- Added combining characters
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N),
+email (E), web-address (if you have one) (W) and
+description (D). This list is in alphabetical order.
+
+N: Rastislav Vašička
+E: rastislav@onion.email
+W: https://vasicka.eu
+D: Initial design (2019)

@@ -28,5 +28,6 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/Amita"
 }
+primary_script: "Deva"
 stroke: "SERIF"
 classifications: "DISPLAY"

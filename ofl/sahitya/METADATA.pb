@@ -24,3 +24,4 @@ fonts {
 subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
+primary_script: "Deva"

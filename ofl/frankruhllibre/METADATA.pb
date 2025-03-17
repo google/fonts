@@ -34,4 +34,5 @@ source {
   }
   branch: "master"
 }
+primary_script: "Hebr"
 stroke: "SERIF"

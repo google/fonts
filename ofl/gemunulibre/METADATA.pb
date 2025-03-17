@@ -37,5 +37,6 @@ source {
   }
   branch: "main"
 }
+primary_script: "Sinh"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

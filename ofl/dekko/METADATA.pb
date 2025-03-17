@@ -19,5 +19,6 @@ subsets: "latin-ext"
 source {
   repository_url: "https://github.com/EbenSorkin/Dekko"
 }
+primary_script: "Deva"
 stroke: "SANS_SERIF"
 classifications: "HANDWRITING"

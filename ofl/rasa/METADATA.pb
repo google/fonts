@@ -51,5 +51,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Gujr"
 stroke: "SERIF"
 classifications: "DISPLAY"

@@ -381,7 +381,7 @@ function axesCombos(axes) {
         if (this.currentCategory !== " All") {
           filtered = filtered.filter(family => family.category === this.currentCategory);
         }
-        filtered = filtered.filter(family => family.tag.toLowerCase().includes(this.tagFilter.toLowerCase()));
+        filtered = filtered.filter(family => family.tag.match(this.tagFilter));
         filtered.sort(sortFunc);
 
         if (this.reverseTags) {

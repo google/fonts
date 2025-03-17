@@ -12,6 +12,7 @@ fonts {
   full_name: "Geist Regular"
   copyright: "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)"
 }
+subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

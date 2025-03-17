@@ -41,3 +41,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "greek"
+subsets: "greek-ext"
+subsets: "latin"
+subsets: "vietnamese"

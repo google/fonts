@@ -39,6 +39,7 @@ fonts {
   full_name: "Kanchenjunga Bold"
   copyright: "Copyright (c) 2021-2024 SIL International"
 }
+subsets: "kirat-rai"
 subsets: "latin"
 subsets: "menu"
 source {

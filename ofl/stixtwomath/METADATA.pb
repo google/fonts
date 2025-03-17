@@ -17,6 +17,7 @@ subsets: "cyrillic-ext"
 subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
 subsets: "vietnamese"
 source {

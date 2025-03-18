@@ -28,6 +28,18 @@ def family_tags():
     return res
 
 
+@pytest.fixture
+def tags_metadata():
+    data = (
+        urlopen(
+            "https://raw.githubusercontent.com/google/fonts/main/tags/tags_metadata.csv"
+        )
+        .read()
+        .decode("utf-8")
+    )
+    return data.splitlines()
+
+
 def test_families_missing_tags(family_tags, family_metadata):
     tagged_families = set(f[0] for f in family_tags)
     families_in_gf = set(f["family"] for f in family_metadata)
@@ -40,6 +52,16 @@ def test_families_missing_tags(family_tags, family_metadata):
         "Please add tags for these families using the following webapp: "
         "https://google.github.io/fonts/tags.html"
     )
+
+
+def test_categories_exist(family_tags, tags_metadata):
+    """Every tag category in the families.csv file must also exist in the
+    tags_metadata.csv file
+    """
+    meta_categories = set(tags_metadata)
+    families_categories = set(cat for _, cat, _ in family_tags)
+    missing = families_categories - meta_categories
+    assert not missing, f"Missing categories: {missing}"
 
 
 def test_no_duplicate_families(family_tags):

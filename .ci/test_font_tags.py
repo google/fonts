@@ -30,7 +30,13 @@ def family_tags():
 
 @pytest.fixture
 def tags_metadata():
-    data = urlopen("https://raw.githubusercontent.com/google/fonts/main/tags/tags_metadata.csv").read().decode("utf-8")
+    data = (
+        urlopen(
+            "https://raw.githubusercontent.com/google/fonts/main/tags/tags_metadata.csv"
+        )
+        .read()
+        .decode("utf-8")
+    )
     return data.splitlines()
 
 

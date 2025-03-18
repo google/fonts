@@ -58,9 +58,9 @@ def test_categories_exist(family_tags, tags_metadata):
     """Every tag category in the families.csv file must also exist in the
     tags_metadata.csv file
     """
-    tags_meta = set(tags_metadata)
-    families = set(cat for _, cat, _ in family_tags)
-    missing = families - tags_meta
+    meta_categories = set(tags_metadata)
+    families_categories = set(cat for _, cat, _ in family_tags)
+    missing = families_categories - meta_categories
     assert not missing, f"Missing categories: {missing}"
 
 

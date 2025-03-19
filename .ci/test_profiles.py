@@ -13,7 +13,7 @@ from google.protobuf import text_format
 @pytest.fixture
 def profile_dir():
     if len(sys.argv) != 3:
-        print("Usage: python test_profiles fonts/catalog/designers/designerprofile")
+        print("Usage: pytest .ci/test_profiles.py ./catalog/designers/designerprofile")
         sys.exit(1)
     return sys.argv[-1]
 
@@ -63,6 +63,9 @@ def test_profile_dir_has_info(profile_dir):
 
 def test_profile_info_image_link_is_correct(profile_dir, proto_info):
     img_path = proto_info.avatar.file_name
+    # Images are optional so we can skip this test if there is no image
+    if img_path == "":
+        return
     assert img_path in os.listdir(profile_dir), "info.pb: image path is incorrect"
 
 

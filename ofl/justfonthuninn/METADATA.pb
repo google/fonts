@@ -14,7 +14,6 @@ fonts {
 }
 subsets: "chinese-traditional"
 subsets: "cyrillic"
-subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

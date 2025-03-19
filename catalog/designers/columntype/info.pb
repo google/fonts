@@ -1,4 +1,4 @@
-designer: "Raphael Alẹ́gbẹ́lẹ́yẹ̀"
+designer: "ColumnType"
 link: ""
 avatar {
   file_name: "columntype.png"

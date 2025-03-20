@@ -19,7 +19,7 @@ fonts {
   filename: "EpundaSlab-Italic[wght].ttf"
   post_script_name: "EpundaSlab-LightItalic"
   full_name: "Epunda Slab Light Italic"
-  copyright: "???."
+  copyright: "Copyright 2023 The Epunda Slab Project Authors (https://github.com/typofactur/epundaslab.git)"
 }
 subsets: "latin"
 subsets: "latin-ext"

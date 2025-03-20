@@ -65,3 +65,4 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/athiti"
 }
+primary_script: "Thai"

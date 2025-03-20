@@ -18,3 +18,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/bluemix/vibes-typeface"
 }
+primary_script: "Arab"

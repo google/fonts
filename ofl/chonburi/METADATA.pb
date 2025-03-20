@@ -20,5 +20,6 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/chonburi"
 }
+primary_script: "Thai"
 stroke: "SERIF"
 classifications: "DISPLAY"

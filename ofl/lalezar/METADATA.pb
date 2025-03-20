@@ -20,3 +20,4 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/BornaIz/Lalezar"
 }
+primary_script: "Arab"

@@ -37,3 +37,4 @@ source {
   }
   branch: "main"
 }
+primary_script: "Sinh"

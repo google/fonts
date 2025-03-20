@@ -20,5 +20,6 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/itim"
 }
+primary_script: "Thai"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

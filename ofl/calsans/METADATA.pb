@@ -1,5 +1,5 @@
 name: "Cal Sans"
-designer: "Mark Davis"
+designer: "Mark Davis, Cal.com Inc."
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-03-19"

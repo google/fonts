@@ -37,6 +37,7 @@ subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "symbols2"
 source {
   repository_url: "https://github.com/googlefonts/FiraGFVersion"
 }

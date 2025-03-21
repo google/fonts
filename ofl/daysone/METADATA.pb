@@ -12,6 +12,7 @@ fonts {
   full_name: "Days One"
   copyright: "Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
+subsets: "cyrillic"
 subsets: "menu"
 subsets: "latin"
 stroke: "SANS_SERIF"

@@ -32,7 +32,6 @@ fonts {
 }
 subsets: "korean"
 subsets: "latin"
-subsets: "Japanese"
 primary_script: "Kore"
 
 source {

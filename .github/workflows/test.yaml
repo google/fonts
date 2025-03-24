@@ -94,9 +94,15 @@ jobs:
         # and benefit from its newest checks:
         run: |
           pip install --upgrade pip
-          pip install --pre fontbakery[googlefonts]
-          pip install gftools[qa] pytest
+          pip install pytest
+          pip install "gftools[qa]@git+https://github.com/simoncozens/gftools@rust-qa"
         shell: bash
+      - name: Install diffenator3 and fontspector
+        run: |
+          wget https://nightly.link/fonttools/fontspector/workflows/rust/main/fontspector-dev-x86_64-unknown-linux-gnu-py3.10.tar.gz.zip
+          unzip fontspector-dev-x86_64-unknown-linux-gnu-py3.10.tar.gz.zip
+          tar zxvf fontspector-dev-x86_64-unknown-linux-gnu-py3.10.tar.gz
+          sudo cp fontspector-dev*/fontspector /usr/local/bin/
 
       - name: Run Diffenator and Fontbakery
         run: |

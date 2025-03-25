@@ -43,6 +43,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/aaronbell/LxgwWenkaiTC"
   commit: "a5cf76f5bd1f26cdf74ca1b22b9f6fe17b8d5bc5"
+  config_yaml: "sources/project.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -59,7 +60,6 @@ source {
     source_file: "fonts/TTF/LXGWWenKaiTC-Bold.ttf"
     dest_file: "LXGWWenKaiTC-Bold.ttf"
   }
-  branch: "main"
 }
 primary_script: "Hant"
 primary_language: "zh_Hant"

@@ -18,6 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/erinmclaughlin/BhuTuka-Extended-One"
+  commit: "ac2ad17bcd23da70b2c63a4ed794cbb7a7ebaac6"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -30,7 +32,6 @@ source {
     source_file: "fonts/ttf/BhuTukaExpandedOne-Regular.ttf"
     dest_file: "BhuTukaExpandedOne-Regular.ttf"
   }
-  branch: "master"
 }
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"

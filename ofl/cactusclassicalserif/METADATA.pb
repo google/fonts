@@ -20,7 +20,8 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/aaronbell/CactusSerif"
-  commit: "eb5a6eaf6a0f6d3d9ff63b64605c0bdbb9fec82b"
+  commit: "1d5b4158aa0411f7b1279f4bfa3f49416ba0b15d"
+  config_yaml: "sources/project.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -29,7 +30,6 @@ source {
     source_file: "fonts/ttf/CactusClassicalSerif-Regular.ttf"
     dest_file: "CactusClassicalSerif-Regular.ttf"
   }
-  branch: "main"
 }
 primary_script: "Hant"
 primary_language: "yue_Hant"

@@ -28,6 +28,7 @@ axes {
 source {
   repository_url: "https://github.com/NDISCOVER/Arima-Font"
   commit: "c5fd72960f129076fbf3759d6d777cedcbceb468"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -40,5 +41,4 @@ source {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
   }
-  branch: "master"
 }

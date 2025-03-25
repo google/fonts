@@ -1,0 +1,24 @@
+name: QA whole library
+on:
+  push:
+  schedule:
+    - cron: "12 1 * * *"
+jobs:
+  rebuild:
+    runs-on: macos-13 # More RAM, heh heh
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Install protoc
+        run: brew install protobuf
+      - name: Install Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+      - name: Build fontspector
+        run: cargo install --git https://github.com/fonttools/fontspector --features duckdb
+      - name: Test all the things
+        run: fontspector --profile googlefonts ofl/*/*{.ttf,.pb,*html,*svg,*jpg,*gif} --skip-network  --succinct --duckdb .ci/fontspector.db || true
+      - name: Upload results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: .ci/fontspector.db

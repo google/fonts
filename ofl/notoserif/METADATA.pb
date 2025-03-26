@@ -28,6 +28,7 @@ subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "math"
 subsets: "vietnamese"
 axes {
   tag: "wdth"

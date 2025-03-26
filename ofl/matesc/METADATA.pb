@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/mate"
   commit: "2ea8febc952610379af663b1651411493d34beea"
+  config_yaml: "sources/matesc.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -26,5 +27,4 @@ source {
     source_file: "fonts/matesc/ttf/MateSC-Regular.ttf"
     dest_file: "MateSC-Regular.ttf"
   }
-  branch: "master"
 }

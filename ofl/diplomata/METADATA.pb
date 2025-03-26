@@ -27,6 +27,7 @@ source {
     source_file: "fonts/diplomata/ttf/Diplomata-Regular.ttf"
     dest_file: "Diplomata-Regular.ttf"
   }
+  branch: "master"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

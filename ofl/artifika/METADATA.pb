@@ -30,4 +30,5 @@ source {
     source_file: "fonts/ttf/Artifika-Regular.ttf"
     dest_file: "Artifika-Regular.ttf"
   }
+  branch: "master"
 }

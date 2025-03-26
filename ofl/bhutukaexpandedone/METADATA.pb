@@ -32,6 +32,7 @@ source {
     source_file: "fonts/ttf/BhuTukaExpandedOne-Regular.ttf"
     dest_file: "BhuTukaExpandedOne-Regular.ttf"
   }
+  branch: "master"
 }
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"

@@ -35,6 +35,7 @@ source {
     source_file: "fonts/variable/PlaypenSansHebrew[wght].ttf"
     dest_file: "PlaypenSansHebrew[wght].ttf"
   }
+  branch: "main"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 primary_script: "Hebr"

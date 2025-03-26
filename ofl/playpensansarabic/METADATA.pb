@@ -35,6 +35,7 @@ source {
     source_file: "fonts/variable/PlaypenSansArabic[wght].ttf"
     dest_file: "PlaypenSansArabic[wght].ttf"
   }
+  branch: "main"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 primary_script: "Arab"

@@ -30,6 +30,7 @@ source {
     source_file: "fonts/ttf/CactusClassicalSerif-Regular.ttf"
     dest_file: "CactusClassicalSerif-Regular.ttf"
   }
+  branch: "main"
 }
 primary_script: "Hant"
 primary_language: "yue_Hant"

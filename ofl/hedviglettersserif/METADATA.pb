@@ -38,5 +38,6 @@ source {
     source_file: "fonts/HedvigLettersSerif/variable/HedvigLettersSerif[opsz].ttf"
     dest_file: "HedvigLettersSerif[opsz].ttf"
   }
+  branch: "main"
 }
 stroke: "SERIF"

@@ -39,5 +39,6 @@ source {
     source_file: "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf"
     dest_file: "CairoPlay[slnt,wght].ttf"
   }
+  branch: "master"
 }
 primary_script: "Arab"

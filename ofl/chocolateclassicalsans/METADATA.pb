@@ -30,6 +30,7 @@ source {
     source_file: "fonts/ttf/ChocolateClassicalSans-Regular.ttf"
     dest_file: "ChocolateClassicalSans-Regular.ttf"
   }
+  branch: "main"
 }
 primary_script: "Hant"
 primary_language: "yue_Hant"

@@ -29,5 +29,6 @@ source {
     source_file: "fonts/HedvigLettersSans/ttf/HedvigLettersSans-Regular.ttf"
     dest_file: "HedvigLettersSans-Regular.ttf"
   }
+  branch: "main"
 }
 stroke: "SANS_SERIF"

@@ -17,8 +17,15 @@ jobs:
       - name: Build fontspector
         run: cargo install --git https://github.com/fonttools/fontspector --features duckdb
       - name: Test all the things
-        run: fontspector --profile googlefonts ofl/*/*{.ttf,.pb,*html,*svg,*jpg,*gif} --skip-network  --succinct --duckdb .ci/fontspector.db || true
+        run: fontspector --profile googlefonts ofl/*/*{.ttf,.pb,*html,*svg,*jpg,*gif} --skip-network --succinct --duckdb .ci/fontspector-dashboard/src/fontspector.db || true
       - name: Upload results
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: .ci/fontspector.db
+          file_pattern: .ci/fontspector-dashboard/src/fontspector.db
+      - name: Rebuild dashboard
+        run: rm -rf fontspector-dashboard && cd .ci/fontspector-dashboard && npm install && npm run build
+      - name: Upload results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: gh-pages
+          file_pattern: fontspector-dashboard

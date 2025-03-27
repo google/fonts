@@ -18,6 +18,7 @@ subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "symbols2"
 subsets: "menu"
 axes {
   tag: "wght"

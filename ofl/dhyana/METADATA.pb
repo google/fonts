@@ -23,6 +23,7 @@ fonts {
 }
 subsets: "menu"
 subsets: "lao"
+subsets: "latin"
 source {
   repository_url: "https://github.com/vernnobile/DhyanaFont"
 }

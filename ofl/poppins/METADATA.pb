@@ -165,6 +165,7 @@ fonts {
   full_name: "Poppins Black Italic"
   copyright: "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)"
 }
+subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

@@ -4,6 +4,6 @@ export default {
   root: "src",
   footer: "",
   sidebar: false, // whether to show the sidebar
-  output: "../../fontspector-dashboard", // path to the output root for build
+  output: "../../fontspector-dashboard-build", // path to the output root for build
   preserveExtension: true
 };

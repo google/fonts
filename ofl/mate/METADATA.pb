@@ -40,6 +40,7 @@ source {
     source_file: "fonts/mate/ttf/Mate-Italic.ttf"
     dest_file: "Mate-Italic.ttf"
   }
+  branch: "master"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

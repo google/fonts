@@ -30,6 +30,7 @@ source {
     source_file: "fonts/TTF/WireOne-Regular.ttf"
     dest_file: "WireOne-Regular.ttf"
   }
+  branch: "master"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

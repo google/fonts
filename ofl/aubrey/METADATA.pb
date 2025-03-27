@@ -30,4 +30,5 @@ source {
     source_file: "fonts/TTF/Aubrey-Regular.ttf"
     dest_file: "Aubrey-Regular.ttf"
   }
+  branch: "master"
 }

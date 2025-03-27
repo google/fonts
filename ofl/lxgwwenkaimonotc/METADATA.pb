@@ -60,6 +60,7 @@ source {
     source_file: "fonts/TTF/LXGWWenKaiMonoTC-Bold.ttf"
     dest_file: "LXGWWenKaiMonoTC-Bold.ttf"
   }
+  branch: "main"
 }
 primary_script: "Hant"
 primary_language: "zh_Hant"

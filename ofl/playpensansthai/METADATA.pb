@@ -35,6 +35,7 @@ source {
     source_file: "fonts/variable/PlaypenSansThai[wght].ttf"
     dest_file: "PlaypenSansThai[wght].ttf"
   }
+  branch: "main"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 primary_script: "Thai"

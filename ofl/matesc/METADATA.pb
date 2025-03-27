@@ -27,4 +27,5 @@ source {
     source_file: "fonts/matesc/ttf/MateSC-Regular.ttf"
     dest_file: "MateSC-Regular.ttf"
   }
+  branch: "master"
 }

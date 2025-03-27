@@ -1,7 +1,7 @@
 name: "Anton SC"
 designer: "Vernon Adams"
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2024-05-27"
 fonts {
   name: "Anton SC"

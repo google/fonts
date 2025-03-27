@@ -1,7 +1,7 @@
 name: "Antonio"
 designer: "Vernon Adams"
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2013-03-06"
 fonts {
   name: "Antonio"

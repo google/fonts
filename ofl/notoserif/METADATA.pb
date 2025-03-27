@@ -27,6 +27,7 @@ subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
 subsets: "vietnamese"
 axes {

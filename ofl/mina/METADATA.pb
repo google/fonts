@@ -21,6 +21,10 @@ fonts {
   full_name: "Mina Bold"
   copyright: "Copyright 2015 The Mina Project Authors, with Reserved Font Name \'Exo\'"
 }
+subsets: "bengali"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
 source {
   repository_url: "https://github.com/suman51284/Mina"
   files {
@@ -36,7 +40,4 @@ source {
     dest_file: "OFL.txt"
   }
 }
-subsets: "bengali"
-subsets: "latin"
-subsets: "latin-ext"
-subsets: "menu"
+primary_script: "Beng"

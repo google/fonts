@@ -29,3 +29,4 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/Charmonman"
 }
+primary_script: "Thai"

@@ -79,3 +79,4 @@ source {
   }
   branch: "master"
 }
+primary_script: "Khmr"

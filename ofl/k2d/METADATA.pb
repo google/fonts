@@ -155,5 +155,6 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/K2D"
 }
+primary_script: "Thai"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

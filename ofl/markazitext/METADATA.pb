@@ -25,3 +25,4 @@ axes {
 source {
   repository_url: "https://github.com/BornaIz/markazitext"
 }
+primary_script: "Arab"

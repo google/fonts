@@ -27,3 +27,4 @@ subsets: "latin"
 source {
   repository_url: "https://github.com/solmatas/Kadwa"
 }
+primary_script: "Deva"

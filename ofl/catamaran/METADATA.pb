@@ -24,3 +24,4 @@ axes {
 source {
   repository_url: "https://github.com/VanillaandCream/Catamaran-Tamil"
 }
+primary_script: "Taml"

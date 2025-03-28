@@ -51,5 +51,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Cher"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -15,3 +15,4 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+primary_script: "Telu"

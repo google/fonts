@@ -28,5 +28,5 @@ source {
   }
   branch: "main"
 }
-stroke: "SANS_SERIF"
+stroke: "SERIF"
 classifications: "DISPLAY"

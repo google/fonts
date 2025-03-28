@@ -10,7 +10,7 @@ fonts {
   filename: "CoralPixels-Regular.ttf"
   post_script_name: "CoralPixels-Regular"
   full_name: "Coral Pixels Regular"
-  copyright: "Copyright 2024 The Coral Pixels Project Authors (https://github.com/tanukifont/coral-pixels)"
+  copyright: "Copyright 2024 The Coral Pixels Project Authors (https://github.com/tanukifont/Coral-Pixels)"
 }
 subsets: "latin"
 subsets: "latin-ext"

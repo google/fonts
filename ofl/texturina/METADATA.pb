@@ -41,6 +41,7 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Texturina"
+  commit: "5f38963152042ab3bcb1722c1bdcc950f8605345"
   files {
     source_file: "fonts/variable/Texturina[opsz,wght].ttf"
     dest_file: "Texturina[opsz,wght].ttf"
@@ -198,6 +199,7 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

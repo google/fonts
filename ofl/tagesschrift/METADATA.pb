@@ -31,4 +31,5 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

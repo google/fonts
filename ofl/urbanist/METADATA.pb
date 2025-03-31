@@ -31,6 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/coreyhu/Urbanist"
+  commit: "549716453f76335ccc5a9e537cbe0da03d6fed34"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -44,6 +45,7 @@ source {
     dest_file: "Urbanist-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

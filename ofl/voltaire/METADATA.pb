@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Voltaire"
-  commit: "40a82d5f7a1c4b09f5a9ff5e8711d6cbb8bbc01d"
+  commit: "3587d918a1a19e01a9b8f9dbcb504ffc12d04dbe"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,6 +28,7 @@ source {
     dest_file: "Voltaire-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

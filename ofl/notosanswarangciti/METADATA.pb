@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "warang-citi"
 source {
   repository_url: "https://github.com/notofonts/warang-citi"
+  commit: "4e2380582fe87044e718328edaf1eaa38e108fc4"
   archive_url: "https://github.com/notofonts/warang-citi/releases/download/NotoSansWarangCiti-v3.002/NotoSansWarangCiti-v3.002.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansWarangCiti-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-warang-citi.yaml"
 }
 is_noto: true
-languages: "hoc_Wara"  # Ho, Warang Citi
-languages: "sa_Wara"  # Sanskrit, Varang Kshiti / Warang Citi
+languages: "hoc_Wara"
+languages: "sa_Wara"
 primary_script: "Wara"

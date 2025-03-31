@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "tai-viet"
 source {
   repository_url: "https://github.com/notofonts/tai-viet"
+  commit: "8e1e11187d6bc19f48530777d268d2eee8b644b6"
   archive_url: "https://github.com/notofonts/tai-viet/releases/download/NotoSansTaiViet-v2.004/NotoSansTaiViet-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansTaiViet-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-tai-viet.yaml"
 }
 is_noto: true
-languages: "blt_Tavt"  # Tai Dam
+languages: "blt_Tavt"
 primary_script: "Tavt"

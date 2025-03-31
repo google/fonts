@@ -46,4 +46,5 @@ source {
     dest_file: "LibreBodoni-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

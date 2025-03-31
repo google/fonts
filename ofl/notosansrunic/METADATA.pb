@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "runic"
 source {
   repository_url: "https://github.com/notofonts/runic"
+  commit: "0badcd990e0be2e6010362488af5a901a7bfefa1"
   archive_url: "https://github.com/notofonts/runic/releases/download/NotoSansRunic-v2.002/NotoSansRunic-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,9 +37,10 @@ source {
     dest_file: "NotoSansRunic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-runic.yaml"
 }
 is_noto: true
-languages: "de_Runr"  # German, Runic
-languages: "got_Runr"  # Gothic, Runic
-languages: "non_Runr"  # Old Norse
+languages: "de_Runr"
+languages: "got_Runr"
+languages: "non_Runr"
 primary_script: "Runr"

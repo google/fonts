@@ -18,6 +18,7 @@ subsets: "manichaean"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/manichaean"
+  commit: "d3d108ab2cdf0250927b267fab4d2c8dea07dd68"
   archive_url: "https://github.com/notofonts/manichaean/releases/download/NotoSansManichaean-v2.005/NotoSansManichaean-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansManichaean-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-manichaean.yaml"
 }
 is_noto: true
-languages: "aii_Mani"  # Assyrian Neo-Aramaic, Manichaean
-languages: "xmn_Mani"  # Manichaean Middle Persian
+languages: "aii_Mani"
+languages: "xmn_Mani"
 primary_script: "Mani"

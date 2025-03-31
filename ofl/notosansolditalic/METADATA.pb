@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "old-italic"
 source {
   repository_url: "https://github.com/notofonts/old-italic"
-  commit: "51420632db471f800592bd0f03617585b0f7734d"
+  commit: "486912f34b04a5ce9eb157ab3045ac665b6c36a8"
   archive_url: "https://github.com/notofonts/old-italic/releases/download/NotoSansOldItalic-v2.004/NotoSansOldItalic-v2.004.zip"
   files {
     source_file: "OFL.txt"
@@ -37,9 +37,10 @@ source {
     dest_file: "NotoSansOldItalic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-old.yaml"
 }
 is_noto: true
-languages: "ett_Ital"  # Etruscan
-languages: "osc_Ital"  # Oscan
-languages: "xum_Ital"  # Umbrian
+languages: "ett_Ital"
+languages: "osc_Ital"
+languages: "xum_Ital"
 primary_script: "Ital"

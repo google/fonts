@@ -16,6 +16,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/notable"
+  commit: "e3426360fa15b1824f4694663271956e50514498"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

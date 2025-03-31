@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/kawi"
+  commit: "7b1182376580f1192b0ac9cc172ee1ee723655b7"
   archive_url: "https://github.com/notofonts/kawi/releases/download/NotoSansKawi-v1.000/NotoSansKawi-v1.000.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoSansKawi[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-kawi.yaml"
 }
 is_noto: true
-languages: "kaw_Kawi"  # Old Javanese, Kawi
+languages: "kaw_Kawi"
 primary_script: "Kawi"

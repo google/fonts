@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/sursly/league-gothic"
+  commit: "f1d4a1c8c1db3c4a32cc13763c5fbb1776b5d478"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,6 +33,7 @@ source {
     dest_file: "LeagueGothic[wdth].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

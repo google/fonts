@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/imperial-aramaic"
-  commit: "f32017cb2dba233b0a09565037af84f12016b0c8"
+  commit: "059b859599f8e189962b73d357882446f195e77f"
   archive_url: "https://github.com/notofonts/imperial-aramaic/releases/download/NotoSansImperialAramaic-v2.002/NotoSansImperialAramaic-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -37,8 +37,9 @@ source {
     dest_file: "NotoSansImperialAramaic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-imperial-aramaic.yaml"
 }
 is_noto: true
-languages: "aii_Armi"  # Assyrian Neo-Aramaic, Imperial Aramaic
-languages: "arc_Armi"  # Aramaic
+languages: "aii_Armi"
+languages: "arc_Armi"
 primary_script: "Armi"

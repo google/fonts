@@ -173,4 +173,6 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/JulietaUla/Montserrat"
+  commit: "cc8daf2e7085006b9c112542fc82b58afc13521d"
+  config_yaml: "sources/config.yaml"
 }

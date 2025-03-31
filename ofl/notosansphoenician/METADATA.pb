@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "phoenician"
 source {
   repository_url: "https://github.com/notofonts/phoenician"
+  commit: "42000fa28062130c663c83e38fe9df00f9a85a4f"
   archive_url: "https://github.com/notofonts/phoenician/releases/download/NotoSansPhoenician-v2.001/NotoSansPhoenician-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansPhoenician-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-phoenician.yaml"
 }
 is_noto: true
-languages: "aii_Phnx"  # Assyrian Neo-Aramaic, Phoenician
-languages: "phn_Phnx"  # Phoenician
+languages: "aii_Phnx"
+languages: "phn_Phnx"
 primary_script: "Phnx"

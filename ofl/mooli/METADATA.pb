@@ -27,5 +27,6 @@ source {
     dest_file: "Mooli-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

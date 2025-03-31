@@ -22,4 +22,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/kreon"
+  commit: "d7f798b480013cfa899779d6dae4511fd3c310cb"
+  config_yaml: "sources/config.yaml"
 }

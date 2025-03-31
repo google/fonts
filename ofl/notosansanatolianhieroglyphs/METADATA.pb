@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/anatolian-hieroglyphs"
+  commit: "d82f0bce270456bb1e975e11b250f61cd1f0e8c7"
   archive_url: "https://github.com/notofonts/anatolian-hieroglyphs/releases/download/NotoSansAnatolianHieroglyphs-v2.001/NotoSansAnatolianHieroglyphs-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansAnatolianHieroglyphs-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-anatolian-hieroglyphs.yaml"
 }
 is_noto: true
-languages: "hlu_Hluw"  # Hieroglyphic Luwian
+languages: "hlu_Hluw"
 primary_script: "Hluw"

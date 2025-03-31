@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "saurashtra"
 source {
   repository_url: "https://github.com/notofonts/saurashtra"
+  commit: "922f6bdd4c2f6b6bae4d140253f810359ef2e62b"
   archive_url: "https://github.com/notofonts/saurashtra/releases/download/NotoSansSaurashtra-v2.002/NotoSansSaurashtra-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansSaurashtra-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-saurashtra.yaml"
 }
 is_noto: true
-languages: "saz_Saur"  # Saurashtra
+languages: "saz_Saur"
 primary_script: "Saur"

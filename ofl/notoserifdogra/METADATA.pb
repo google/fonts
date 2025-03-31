@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/dogra"
+  commit: "ca3e78b572e9f0a62e7b843905255e7cbd2db380"
   archive_url: "https://github.com/notofonts/dogra/releases/download/NotoSerifDogra-v1.007/NotoSerifDogra-v1.007.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSerifDogra-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-serif-dogra.yaml"
 }
 is_noto: true
-languages: "doi_Dogr"  # Dogri, Dogra
+languages: "doi_Dogr"
 primary_script: "Dogr"

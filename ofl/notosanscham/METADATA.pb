@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/cham"
-  commit: "1688bf8b8c53fbc07d363c5ab31610a1a65f16f9"
+  commit: "ab48c582e3c834028dc0444b832874be83532350"
   archive_url: "https://github.com/notofonts/cham/releases/download/NotoSansCham-v2.005/NotoSansCham-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -42,9 +42,10 @@ source {
     dest_file: "NotoSansCham[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-cham.yaml"
 }
 is_noto: true
-languages: "cja_Cham"  # Western Cham, Cham
-languages: "cjm_Cham"  # Eastern Cham
-languages: "sa_Cham"  # Sanskrit, Cham
+languages: "cja_Cham"
+languages: "cjm_Cham"
+languages: "sa_Cham"
 primary_script: "Cham"

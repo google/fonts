@@ -27,7 +27,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/fridamedrano/Kalnia-Glaze"
-  commit: "1da962604705abc74467d29d5ca74e0f371f7dd5"
+  commit: "3338853e096724f548386c608d7c42c63c6c33bd"
   archive_url: "https://github.com/fridamedrano/Kalnia-Glaze/releases/download/v1.110/Kalnia-Glaze-v1.110.zip"
   files {
     source_file: "OFL.txt"
@@ -38,6 +38,7 @@ source {
     dest_file: "KalniaGlaze[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://www.fridamedrano.com/kalniaglaze"
 stroke: "SERIF"

@@ -33,6 +33,7 @@ source {
     dest_file: "MadimiOne-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

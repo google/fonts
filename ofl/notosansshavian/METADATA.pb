@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "shavian"
 source {
   repository_url: "https://github.com/notofonts/shavian"
+  commit: "15edbc9e0dd0c0ad627c658bbf439dce175a8ba4"
   archive_url: "https://github.com/notofonts/shavian/releases/download/NotoSansShavian-v2.001/NotoSansShavian-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansShavian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-shavian.yaml"
 }
 is_noto: true
-languages: "en_Shaw"  # English, Shavian
+languages: "en_Shaw"
 primary_script: "Shaw"

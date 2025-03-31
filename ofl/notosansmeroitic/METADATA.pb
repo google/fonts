@@ -20,6 +20,7 @@ subsets: "meroitic-cursive"
 subsets: "meroitic-hieroglyphs"
 source {
   repository_url: "https://github.com/notofonts/meroitic"
+  commit: "d682685c8c0ef7ef9d1091a6dad7d8ce2843e565"
   archive_url: "https://github.com/notofonts/meroitic/releases/download/NotoSansMeroitic-v2.002/NotoSansMeroitic-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -38,9 +39,10 @@ source {
     dest_file: "NotoSansMeroitic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-meroitic.yaml"
 }
 is_noto: true
-languages: "xmr_Mero"  # Meroitic, Meroitic Hieroglyphs
+languages: "xmr_Mero"
 sample_text {
   masthead_full: "𐦂𐦝𐦤𐦿"
   masthead_partial: "𐦁𐦐"

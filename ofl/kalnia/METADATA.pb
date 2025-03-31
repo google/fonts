@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/fridamedrano/Kalnia-Typeface"
-  commit: "22e2d855245c5a4f94aa12461e1b1be5c0da841b"
+  commit: "b58d2689de548478ed6cee6937c37eabc4140958"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -42,6 +42,7 @@ source {
     dest_file: "Kalnia[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

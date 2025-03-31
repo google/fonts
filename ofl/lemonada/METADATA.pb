@@ -24,6 +24,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/Gue3bara/Lemonada"
+  commit: "21a53a1760f6f3c3e585bc50bc3463e97f1fa7e6"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Arab"
 stroke: "SANS_SERIF"

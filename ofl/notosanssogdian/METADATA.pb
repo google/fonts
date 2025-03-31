@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "sogdian"
 source {
   repository_url: "https://github.com/notofonts/sogdian"
+  commit: "9f27761f150f7d0952e4873296cdc0eeaa6d28d3"
   archive_url: "https://github.com/notofonts/sogdian/releases/download/NotoSansSogdian-v2.002/NotoSansSogdian-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansSogdian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-sogdian.yaml"
 }
 is_noto: true
-languages: "aii_Sogd"  # Assyrian Neo-Aramaic, Sogdian
-languages: "sog_Sogd"  # Sogdian
+languages: "aii_Sogd"
+languages: "sog_Sogd"
 primary_script: "Sogd"

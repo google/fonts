@@ -37,4 +37,5 @@ source {
     dest_file: "Monda[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

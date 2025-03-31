@@ -46,4 +46,5 @@ source {
     dest_file: "Labrada[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

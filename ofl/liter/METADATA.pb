@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/skugiz/liter"
-  commit: "4bcb5b1fcac534445cb40ac31c1c4c5669fcbbc6"
+  commit: "3808843f982fae783aedd11d2f6ed8956f37fa04"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,5 +28,6 @@ source {
     dest_file: "Liter-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

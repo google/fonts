@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "mro"
 source {
   repository_url: "https://github.com/notofonts/mro"
+  commit: "3d7debf9b0faf7750c1c9191e9bc348c2a1fcedd"
   archive_url: "https://github.com/notofonts/mro/releases/download/NotoSansMro-v2.001/NotoSansMro-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -32,8 +33,9 @@ source {
     dest_file: "NotoSansMro-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-mro.yaml"
 }
 is_noto: true
-languages: "mro_Mroo"  # Mru, Mro
-languages: "sa_Mroo"  # Sanskrit, Mro
+languages: "mro_Mroo"
+languages: "sa_Mroo"
 primary_script: "Mroo"

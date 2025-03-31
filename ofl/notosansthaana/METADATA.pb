@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/thaana"
+  commit: "18a413df01de7199c95d4115b8cd5ad492b9819c"
   archive_url: "https://github.com/notofonts/thaana/releases/download/NotoSansThaana-v3.001/NotoSansThaana-v3.001.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoSansThaana[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-thaana.yaml"
 }
 is_noto: true
-languages: "dv_Thaa"  # Divehi
+languages: "dv_Thaa"
 primary_script: "Thaa"

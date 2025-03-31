@@ -50,4 +50,5 @@ source {
     dest_file: "Lunasima-Bold.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

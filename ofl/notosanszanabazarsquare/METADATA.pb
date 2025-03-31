@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "zanabazar-square"
 source {
   repository_url: "https://github.com/notofonts/zanabazar-square"
+  commit: "41b2554e25c1ff4c7ea1231c8c966d0d5ec200b3"
   archive_url: "https://github.com/notofonts/zanabazar-square/releases/download/NotoSansZanabazarSquare-v2.006/NotoSansZanabazarSquare-v2.006.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,9 +37,10 @@ source {
     dest_file: "NotoSansZanabazarSquare-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-zanabazar-square.yaml"
 }
 is_noto: true
-languages: "bo_Zanb"  # Tibetan, Zanabazar
-languages: "mn_Zanb"  # Mongolian, Zanabazar
-languages: "sa_Zanb"  # Sanskrit, Zanabazar
+languages: "bo_Zanb"
+languages: "mn_Zanb"
+languages: "sa_Zanb"
 primary_script: "Zanb"

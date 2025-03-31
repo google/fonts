@@ -37,7 +37,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/github/mona-sans"
-  commit: "56384c90b986d431470303b4f7296585cb9c4515"
+  commit: "0d07d5a501a2d8d4ea456fab73aad6b9fda2060a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -51,6 +51,7 @@ source {
     dest_file: "MonaSans[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
-stroke: "SANS_SERIF"
 minisite_url: "https://github.com/mona-sans"
+stroke: "SANS_SERIF"

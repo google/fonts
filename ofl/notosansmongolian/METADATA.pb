@@ -20,7 +20,7 @@ subsets: "mongolian"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/mongolian"
-  commit: "37a437828f5f3fc0c1cc23be44f9ed7ae1863ecf"
+  commit: "a61ef47935dcf4e4675456b632d6248836a5496a"
   archive_url: "https://github.com/notofonts/mongolian/releases/download/NotoSansMongolian-v3.002/NotoSansMongolian-v3.002.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -39,9 +39,10 @@ source {
     dest_file: "NotoSansMongolian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-mongolian.yaml"
 }
 is_noto: true
-languages: "mn_Mong"  # Mongolian (Mongolian)
-languages: "mnc_Mong"  # Manchu
-languages: "sa_Mong"  # Sanskrit, Mongolian
+languages: "mn_Mong"
+languages: "mnc_Mong"
+languages: "sa_Mong"
 primary_script: "Mong"

@@ -18,6 +18,7 @@ subsets: "makasar"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/makasar"
+  commit: "e7902cc5d89ed7d091c247c855f516fe49f8b6ac"
   archive_url: "https://github.com/notofonts/makasar/releases/download/NotoSerifMakasar-v1.001/NotoSerifMakasar-v1.001.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSerifMakasar-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 is_noto: true
-languages: "mak_Maka"  # Makasar, Old Makasar
+languages: "mak_Maka"
 primary_script: "Maka"

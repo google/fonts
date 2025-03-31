@@ -46,6 +46,7 @@ source {
     dest_file: "MuseoModerno-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

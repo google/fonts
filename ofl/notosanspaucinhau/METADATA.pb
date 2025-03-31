@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "pau-cin-hau"
 source {
   repository_url: "https://github.com/notofonts/pau-cin-hau"
+  commit: "31ef11c2be728b8f709ea9b65fa04aa3519af39a"
   archive_url: "https://github.com/notofonts/pau-cin-hau/releases/download/NotoSansPauCinHau-v2.002/NotoSansPauCinHau-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -36,9 +37,10 @@ source {
     dest_file: "NotoSansPauCinHau-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-pau-cin-hau.yaml"
 }
 is_noto: true
-languages: "ctd_Pauc"  # Tedim Chin, Pau Cin Hau
+languages: "ctd_Pauc"
 sample_text {
   masthead_full: "𑫂𑫱𑫪𑫜"
   masthead_partial: "𑫁𑫶"

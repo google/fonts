@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/sovichet/kantumruy-pro"
-  commit: "8bf831210d27c1eda0129aa991d12af9e4c16632"
+  commit: "dfca20df61b64efa148539a0103e52189aca78bc"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -46,5 +46,6 @@ source {
     dest_file: "KantumruyPro-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Khmr"

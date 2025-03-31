@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/ol-chiki"
+  commit: "61f81d5651c9c31d44d2731dc840607dd443c604"
   archive_url: "https://github.com/notofonts/ol-chiki/releases/download/NotoSansOlChiki-v2.003/NotoSansOlChiki-v2.003.zip"
   files {
     source_file: "OFL.txt"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoSansOlChiki[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-ol-chiki.yaml"
 }
 is_noto: true
-languages: "sat_Olck"  # Santali, Ol Chiki
+languages: "sat_Olck"
 primary_script: "Olck"

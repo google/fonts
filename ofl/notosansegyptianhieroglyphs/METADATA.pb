@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/egyptian-hieroglyphs"
-  commit: "08dec90190624040743ebb4e28d5552ae3d60862"
+  commit: "773da399bed8fb50cf285b13d75dfd1667d6fbca"
   archive_url: "https://github.com/notofonts/egyptian-hieroglyphs/releases/download/NotoSansEgyptianHieroglyphs-v2.002/NotoSansEgyptianHieroglyphs-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -37,8 +37,9 @@ source {
     dest_file: "NotoSansEgyptianHieroglyphs-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-egyptian-hieroglyphs.yaml"
 }
 is_noto: true
-languages: "aii_Egyp"  # Assyrian Neo-Aramaic, Egyptian hieroglyphs
-languages: "egy_Egyp"  # Ancient Egyptian
+languages: "aii_Egyp"
+languages: "egy_Egyp"
 primary_script: "Egyp"

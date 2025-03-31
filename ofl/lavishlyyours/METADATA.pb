@@ -32,6 +32,7 @@ source {
     dest_file: "LavishlyYours-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

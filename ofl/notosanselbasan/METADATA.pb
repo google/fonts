@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/elbasan"
+  commit: "42c59134bafaf22df600e5b3e3a97224f14cca06"
   archive_url: "https://github.com/notofonts/elbasan/releases/download/NotoSansElbasan-v2.004/NotoSansElbasan-v2.004.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansElbasan-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-elbasan.yaml"
 }
 is_noto: true
-languages: "sq_Elba"  # Albanian, Elbasan
+languages: "sq_Elba"
 primary_script: "Elba"

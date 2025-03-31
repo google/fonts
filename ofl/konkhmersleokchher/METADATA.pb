@@ -28,5 +28,6 @@ source {
     dest_file: "KonkhmerSleokchher-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Khmr"

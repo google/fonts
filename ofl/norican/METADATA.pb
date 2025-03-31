@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/NoricanFont"
-  commit: "c8f871d4dd2a00f17ba95783a3bd41c296188faf"
+  commit: "5e30b33570463b57d70795d7ccac56b4d69688e5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -27,4 +27,5 @@ source {
     dest_file: "Norican-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

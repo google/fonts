@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/meetei-mayek"
+  commit: "0df27325288cee071d2f5d06016b0de1e6738aa5"
   archive_url: "https://github.com/notofonts/meetei-mayek/releases/download/NotoSansMeeteiMayek-v2.002/NotoSansMeeteiMayek-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -41,8 +42,9 @@ source {
     dest_file: "NotoSansMeeteiMayek[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-meetei-mayek.yaml"
 }
 is_noto: true
-languages: "mni_Mtei"  # Manipuri, Meetei Mayek
-languages: "sa_Mtei"  # Sanskrit, Meetei Mayek / Meitei
+languages: "mni_Mtei"
+languages: "sa_Mtei"
 primary_script: "Mtei"

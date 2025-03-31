@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/cherokee"
+  commit: "a8a61f7f537960c468130795eaa168f4a594266e"
   archive_url: "https://github.com/notofonts/cherokee/releases/download/NotoSansCherokee-v2.001/NotoSansCherokee-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoSansCherokee[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-cherokee.yaml"
 }
 is_noto: true
-languages: "chr_Cher"  # Cherokee
+languages: "chr_Cher"
 primary_script: "Cher"

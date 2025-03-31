@@ -20,6 +20,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/chorasmian"
+  commit: "0ce3cfe5b4aecaa18ee820c9a668c7cd3744a29f"
   archive_url: "https://github.com/notofonts/chorasmian/releases/download/NotoSansChorasmian-v1.004/NotoSansChorasmian-v1.004.zip"
   files {
     source_file: "OFL.txt"
@@ -38,7 +39,8 @@ source {
     dest_file: "NotoSansChorasmian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-chorasmian.yaml"
 }
 is_noto: true
-languages: "aii_Chrs"  # Assyrian Neo-Aramaic, Chorasmian
+languages: "aii_Chrs"
 primary_script: "Chrs"

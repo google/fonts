@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "osage"
 source {
   repository_url: "https://github.com/notofonts/osage"
+  commit: "7778dc00e3e91c0ca4498acbf6ea5b43b70fefcb"
   archive_url: "https://github.com/notofonts/osage/releases/download/NotoSansOsage-v2.002/NotoSansOsage-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansOsage-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-osage.yaml"
 }
 is_noto: true
-languages: "osa_Osge"  # Osage
+languages: "osa_Osge"
 primary_script: "Osge"

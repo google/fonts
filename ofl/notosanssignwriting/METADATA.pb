@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "signwriting"
 source {
   repository_url: "https://github.com/notofonts/sign-writing"
+  commit: "a0a0e9a8691ea81cfd32f7afb971c1ed4bf58f9a"
   archive_url: "https://github.com/notofonts/sign-writing/releases/download/NotoSansSignWriting-v2.005/NotoSansSignWriting-v2.005.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,6 +37,7 @@ source {
     dest_file: "NotoSansSignWriting-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-sign-writing.yaml"
 }
 is_noto: true
 sample_text {

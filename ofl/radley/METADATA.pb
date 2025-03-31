@@ -26,6 +26,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/RadleyFont"
+  commit: "7f54a0b10f092538849afcfbae11b9968eb2970b"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

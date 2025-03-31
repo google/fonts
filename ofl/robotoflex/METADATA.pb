@@ -114,10 +114,12 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/googlefonts/Roboto-Flex"
+  commit: "739e06dc46ebb14cddd88b9768a6c1504d4677f6"
   archive_url: "https://github.com/googlefonts/roboto-flex/releases/download/3.200/roboto-flex-fonts.zip"
   files {
     source_file: "roboto-flex-fonts/fonts/variable/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf"
     dest_file: "RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

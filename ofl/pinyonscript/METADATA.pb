@@ -28,6 +28,7 @@ source {
     dest_file: "PinyonScript-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

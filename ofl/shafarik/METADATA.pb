@@ -20,7 +20,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/shafarik"
-  commit: "44d30b29c35d555cdd53382a5fa0156ea0accd62"
+  commit: "e4045d59b275755b2b8532b201402786055466d8"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -34,5 +34,6 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Cyrl"

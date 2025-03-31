@@ -12,7 +12,6 @@ fonts {
   full_name: "Playwrite SK Regular"
   copyright: "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)"
 }
-# We use only the menu subset to avoid the subsetter issues identified with the PW fonts.
 subsets: "menu"
 axes {
   tag: "wght"
@@ -21,6 +20,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
+  commit: "02e4e15767f5b6c2109413429fc51879b9507ab4"
   archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {
     source_file: "OFL.txt"
@@ -31,6 +31,7 @@ source {
     dest_file: "PlaywriteSK[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Playwrite Slovensko"
 minisite_url: "https://primarium.info/countries/slovakia"

@@ -27,5 +27,6 @@ source {
     dest_file: "Shanti-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

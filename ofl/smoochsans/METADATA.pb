@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/smooch-sans"
+  commit: "0a0a405279f4a706e657e95d97fad245e327d5bd"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -36,6 +37,7 @@ source {
     dest_file: "SmoochSans[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

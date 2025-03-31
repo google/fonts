@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "12483714650a12591e1914cad7d123e2cadc45e9"
+  commit: "c85bb380b56b2009e7c9bff11f573a3028034161"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -35,7 +35,7 @@ source {
     dest_file: "PlaypenSansHebrew[wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config-Hebrew.yaml"
+  config_yaml: "sources/config.yml"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 primary_script: "Hebr"

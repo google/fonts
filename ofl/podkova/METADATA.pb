@@ -25,6 +25,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/cyrealtype/Podkova"
+  commit: "e321080f4bfe74e7b14b4e928880c495f8b40675"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

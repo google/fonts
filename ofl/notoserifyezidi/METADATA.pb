@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/yezidi"
+  commit: "905a5f0b0de80d566e756478bc77a0c0f37c3348"
   archive_url: "https://github.com/notofonts/yezidi/releases/download/NotoSerifYezidi-v1.001/NotoSerifYezidi-v1.001.zip"
   files {
     source_file: "OFL.txt"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoSerifYezidi[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-serif-yezidi.yaml"
 }
 is_noto: true
-languages: "ku_Yezi"  # Kurdish, Yezidi
+languages: "ku_Yezi"
 primary_script: "Yezi"

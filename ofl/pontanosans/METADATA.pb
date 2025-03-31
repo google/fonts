@@ -32,5 +32,6 @@ source {
     dest_file: "PontanoSans[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

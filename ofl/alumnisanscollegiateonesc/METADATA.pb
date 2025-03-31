@@ -47,6 +47,7 @@ source {
     dest_file: "AlumniSansCollegiateOneSC-Italic.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

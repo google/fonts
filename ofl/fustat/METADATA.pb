@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Kief-Type-Foundry/Fustat"
-  commit: "3b33a705912543690e9b428ff62830fe2fa15603"
+  commit: "8e5354428eb81c3ebf9edbc86bfa9cdca23ce8b1"
   archive_url: "https://github.com/Kief-Type-Foundry/Fustat/releases/download/v1.007/Fustat-v1.007.zip"
   files {
     source_file: "OFL.txt"
@@ -38,5 +38,6 @@ source {
     dest_file: "Fustat[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Arab"

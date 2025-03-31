@@ -19,6 +19,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/cyrealtype/Alice"
+  commit: "19421efc21eeeb872773006539ddcd743fb72440"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,4 +29,5 @@ source {
     dest_file: "Alice-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

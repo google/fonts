@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Afrotype/danfo"
-  commit: "a66fc9ded8f42ad2d39b91c9cd8a1960737ad02a"
+  commit: "f4a0c2dd9c65c42707208ec788371cec30b71b7f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -33,7 +33,8 @@ source {
     dest_file: "Danfo[ELSH].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
+minisite_url: "https://www.afrotype.com/danfo"
 stroke: "SERIF"
 classifications: "DISPLAY"
-minisite_url: "https://www.afrotype.com/danfo"

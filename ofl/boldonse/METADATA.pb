@@ -47,4 +47,5 @@ source {
     dest_file: "article/image4.jpg"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

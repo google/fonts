@@ -25,6 +25,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/cyrealtype/Brawler"
+  commit: "a8e1fc6a4c43dedc38394c4f4086f526b72e852d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -42,4 +43,5 @@ source {
     dest_file: "Brawler-Bold.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

@@ -32,6 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/glory"
+  commit: "76ea446c0499989af653f75c1cbd80447ef955d6"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -49,6 +50,7 @@ source {
     dest_file: "Glory[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

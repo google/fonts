@@ -19,7 +19,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Denk-One"
-  commit: "95da30b8aa7bd5fb3045afb2fe054bf1b2e4e029"
+  commit: "eadc321b9f89db0d7090550e1d7bf6dcd75b6996"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -29,6 +29,7 @@ source {
     dest_file: "DenkOne-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

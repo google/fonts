@@ -27,5 +27,6 @@ source {
     dest_file: "Joan-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"

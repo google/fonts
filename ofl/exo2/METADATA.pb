@@ -48,4 +48,5 @@ source {
     dest_file: "Exo2-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

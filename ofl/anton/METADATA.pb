@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/AntonFont"
+  commit: "beb92fcad87808357123bb66881b4032dc96efe7"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,6 +32,7 @@ source {
     dest_file: "Anton-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

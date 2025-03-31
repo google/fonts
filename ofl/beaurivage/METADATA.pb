@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/beau-rivage"
+  commit: "a80b72a03f6ea0a5667c58620973efdb72384ffa"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,4 +32,5 @@ source {
     dest_file: "BeauRivage-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }

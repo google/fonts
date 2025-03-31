@@ -35,6 +35,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/JetBrains/JetBrainsMono"
+  commit: "19371302b95d218af43299bce79ddbddd0bc364d"
   files {
     source_file: "fonts/variable/JetBrainsMono[wght].ttf"
     dest_file: "JetBrainsMono[wght].ttf"
@@ -104,5 +105,6 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://www.jetbrains.com/lp/mono/"

@@ -27,4 +27,5 @@ source {
     dest_file: "Bytesized-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

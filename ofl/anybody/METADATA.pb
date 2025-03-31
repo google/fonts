@@ -52,6 +52,7 @@ source {
     dest_file: "Anybody-Italic[wdth,wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

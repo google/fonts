@@ -32,4 +32,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/Etcetera-Type-Co/Epilogue"
+  commit: "76bd97a82f0105535fb06e6940f2140b2c1a660c"
+  config_yaml: "sources/config.yaml"
 }

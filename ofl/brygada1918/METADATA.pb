@@ -35,6 +35,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/kosmynkab/Brygada-1918"
+  commit: "8325dc36ca87b8c7b8909c3e048fe90fd7e46c4b"
   files {
     source_file: "fonts/variable/Brygada1918[wght].ttf"
     dest_file: "Brygada1918[wght].ttf"
@@ -48,5 +49,6 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://brygada1918.eu/"

@@ -32,7 +32,9 @@ axes {
 }
 source {
   repository_url: "https://github.com/Etcetera-Type-Co/Grandstander"
+  commit: "0bf9e31d529d7a67b23510b841cb3597db0cb130"
+  config_yaml: "sources/config.yaml"
 }
+minisite_url: "https://etceteratype.co/grandstander"
 classifications: "DISPLAY"
 classifications: "HANDWRITING"
-minisite_url: "https://etceteratype.co/grandstander"

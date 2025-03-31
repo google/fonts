@@ -31,7 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/erikdkennedy/figtree"
-  commit: "efdedb2a9337b5baa897771e91ac9203f99e2084"
+  commit: "937cfe82ffa598f4965350aa9edfdf133f483d90"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -45,5 +45,6 @@ source {
     dest_file: "Figtree-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://www.erikdkennedy.com/projects/figtree.html"

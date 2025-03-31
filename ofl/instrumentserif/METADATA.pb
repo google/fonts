@@ -26,7 +26,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/Instrument/instrument-serif"
-  commit: "9aefd76b9b96dffbdc7b65d38c0dc5bcae2717a9"
+  commit: "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -40,4 +40,5 @@ source {
     dest_file: "InstrumentSerif-Italic.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/alphArtype/Delicious-Handrawn"
-  commit: "0a9b42f98d6f2ee40563a406b1cdd9bb5a58fe57"
+  commit: "454896185708d68530577800804c032756040370"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -27,6 +27,7 @@ source {
     dest_file: "DeliciousHandrawn-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

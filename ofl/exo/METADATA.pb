@@ -32,4 +32,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/NDISCOVER/Exo-1.0"
+  commit: "3be4f55b626129f17a3b82677703e48c03dc2052"
+  config_yaml: "sources/config.yaml"
 }

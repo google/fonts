@@ -50,4 +50,5 @@ source {
     dest_file: "article/4GidoleNumbers.png"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

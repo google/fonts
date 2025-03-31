@@ -34,7 +34,7 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/EkType/Honk"
-  commit: "964739fca4b7f5485b21525df1e803fffbe6da99"
+  commit: "99094d4f6e3e73745fe3f2a6387d56c19d2a04cd"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -48,4 +48,5 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

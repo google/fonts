@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/DancingScript"
+  commit: "291f87c05206179b6bfd53735a5638b5cc84e3b3"
   files {
     source_file: "fonts/variable/DancingScript[wght].ttf"
     dest_file: "DancingScript[wght].ttf"
@@ -32,4 +33,5 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

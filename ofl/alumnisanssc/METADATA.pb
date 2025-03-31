@@ -48,6 +48,7 @@ source {
     dest_file: "AlumniSansSC-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

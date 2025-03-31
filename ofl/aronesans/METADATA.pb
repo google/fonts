@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/niteeshy/ar-one-sans"
-  commit: "a463b112ca9393f1904765e0f32891b849eb9cf1"
+  commit: "6dc5e6850f2ced9f28e733c9a7860c54246e17a8"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -42,4 +42,5 @@ source {
     dest_file: "AROneSans[ARRR,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

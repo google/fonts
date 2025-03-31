@@ -31,7 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/usted/Albert-Sans"
-  commit: "929c7d5058afd06870d1dd4ebc3a0ee98bb77420"
+  commit: "f7f46082233f5a29cb71d6ae1d8d0ef9c7962d6c"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -45,4 +45,5 @@ source {
     dest_file: "AlbertSans-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

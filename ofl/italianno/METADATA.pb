@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/italianno"
+  commit: "3e3995ef5b90bd2b9dc587fb8f831f3a158cb95b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,4 +32,5 @@ source {
     dest_file: "Italianno-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }

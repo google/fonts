@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/island-moments"
+  commit: "665d59f297c782358f09699fc2231c0eee293f25"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,6 +32,7 @@ source {
     dest_file: "IslandMoments-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/birthstone"
+  commit: "6fb65f5dc60e40fe907e5dfe22917613bde97f73"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,6 +32,7 @@ source {
     dest_file: "Birthstone-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

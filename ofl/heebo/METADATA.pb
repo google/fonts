@@ -35,6 +35,7 @@ source {
     dest_file: "Heebo[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Hebr"
 stroke: "SANS_SERIF"

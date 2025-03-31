@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/caramel"
+  commit: "87aff25878217835c9d22342d60678d4dcf8be75"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,4 +32,5 @@ source {
     dest_file: "Caramel-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }

@@ -38,4 +38,5 @@ source {
     dest_file: "Fredoka[wdth,wght].ttf"
   }
   branch: "gh-pages"
+  config_yaml: "sources/config.yml"
 }

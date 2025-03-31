@@ -31,6 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/displaay/Azeret"
+  commit: "3d45a6c3e094f08bfc70551b525bd2037cac51ba"
   files {
     source_file: "fonts/variable/AzeretMono[wght].ttf"
     dest_file: "AzeretMono[wght].ttf"
@@ -44,4 +45,5 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

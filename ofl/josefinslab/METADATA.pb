@@ -30,7 +30,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/josefinslab"
-  commit: "d14756349e966c3f4f6bec371e877da960a8470b"
+  commit: "61773366f714341802e5f131bd7181073094898f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -44,6 +44,7 @@ source {
     dest_file: "JosefinSlab[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"

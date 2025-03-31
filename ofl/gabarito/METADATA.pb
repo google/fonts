@@ -32,5 +32,6 @@ source {
     dest_file: "Gabarito[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

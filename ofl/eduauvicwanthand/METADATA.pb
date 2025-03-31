@@ -22,7 +22,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/SorkinType/VICWANTSchoolhandAustralia"
-  commit: "88099a2e2d47e222cb62441730a2bc1c082754e1"
+  commit: "6529c525fceb9ec15e51dfa6d87244ef053c2d8a"
   archive_url: "https://github.com/SorkinType/VICWANTSchoolhandAustralia/releases/download/v1.001/VICWANTSchoolhandAustralia-v1.001.zip"
   files {
     source_file: "OFL.txt"
@@ -37,6 +37,7 @@ source {
     dest_file: "EduAUVICWANTHand[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Edu Australia VIC WA NT Hand"
 stroke: "SANS_SERIF"

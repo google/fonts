@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/imperial-script"
+  commit: "01a1656c6ffebe306262129aafee029fe6a7f3f3"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,6 +32,7 @@ source {
     dest_file: "ImperialScript-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

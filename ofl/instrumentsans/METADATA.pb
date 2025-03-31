@@ -36,7 +36,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Instrument/instrument-sans"
-  commit: "4a27996becc1c7d8e8d4095df4bb485068252bb2"
+  commit: "7fa22308a3d0c94ee2b3cd537a1196b65db34a3e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -50,4 +50,5 @@ source {
     dest_file: "InstrumentSans-Italic[wdth,wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

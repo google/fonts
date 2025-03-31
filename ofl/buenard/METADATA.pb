@@ -22,7 +22,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/buenard"
-  commit: "4e9ae114c1180a9093d310e7985aa4e024e4901e"
+  commit: "cf400a29bbb4c8d850c221aa5b9835e8783648fb"
   files {
     source_file: "fonts/variable/Buenard[wght].ttf"
     dest_file: "Buenard[wght].ttf"
@@ -36,4 +36,5 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -27,5 +27,6 @@ source {
     dest_file: "SpecialGothicCondensedOne-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-condensed.yaml"
 }
 stroke: "SANS_SERIF"

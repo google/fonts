@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/batsimadz/Sankofa-Display"
-  commit: "ee4cefac12dd65aff8be308854b717f374a2d89b"
+  commit: "078848b9058a9e51b36ac4602c7c7424d34bef21"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,5 +28,6 @@ source {
     dest_file: "SankofaDisplay-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://www.sankofadisplay.com"

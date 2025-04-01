@@ -24,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/simpals/onest"
-  commit: "838e8c63a8e9efd5cb81cddcc7ffacb15bd9a596"
+  commit: "f18c06a14512e43a6191849278d6f07fdaf347d6"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -34,4 +34,5 @@ source {
     dest_file: "Onest[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

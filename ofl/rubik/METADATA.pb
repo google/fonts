@@ -49,4 +49,5 @@ source {
     dest_file: "Rubik[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

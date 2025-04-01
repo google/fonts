@@ -18,4 +18,6 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/questrial"
+  commit: "8db71bfbabedd8c8dda35818ea5d5508758c2e19"
+  config_yaml: "sources/config.yaml"
 }

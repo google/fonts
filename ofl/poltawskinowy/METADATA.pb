@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/kosmynkab/Poltawski-Nowy"
-  commit: "6e5631b27a50d7f63bf0d1528060c34d882e1f40"
+  commit: "4d541846c51c5267937a06fd5da9ab7837be166f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -46,5 +46,6 @@ source {
     dest_file: "PoltawskiNowy-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Półtawski Nowy"

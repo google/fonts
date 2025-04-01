@@ -20,6 +20,7 @@ subsets: "symbols"
 subsets: "znamenny"
 source {
   repository_url: "https://github.com/notofonts/znamenny"
+  commit: "342a8039c2317865d203a448d118c384f2b51313"
   archive_url: "https://github.com/notofonts/znamenny/releases/download/NotoZnamennyMusicalNotation-v1.003/NotoZnamennyMusicalNotation-v1.003.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -38,6 +39,7 @@ source {
     dest_file: "NotoZnamennyMusicalNotation-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-znamenny.yaml"
 }
 is_noto: true
 sample_text {

@@ -32,4 +32,5 @@ source {
     dest_file: "Outfit[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

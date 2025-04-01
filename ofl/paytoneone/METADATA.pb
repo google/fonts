@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/paytoneFont"
-  commit: "b1438bc11966d48a1e9e8943b7b8a32dcb0c533c"
+  commit: "126567cf41b70d287e05359dbaf31561496282fa"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,6 +28,7 @@ source {
     dest_file: "PaytoneOne-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

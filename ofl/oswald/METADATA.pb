@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/OswaldFont"
-  commit: "6e65651c229e897dc55fb8d17097ee7f75b2769b"
+  commit: "89795261ac9eeb9aa8cd99f43982c4e4b0e53261"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -35,6 +35,7 @@ source {
     dest_file: "Oswald[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 fallbacks {
   axis_target {

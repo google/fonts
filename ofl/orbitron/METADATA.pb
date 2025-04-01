@@ -21,6 +21,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/orbitron-vf"
+  commit: "f16482824e0ce4d008dee59b9b632e9ce9663359"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

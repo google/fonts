@@ -52,4 +52,5 @@ source {
     dest_file: "RadioCanada-Italic[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -28,6 +28,7 @@ source {
     dest_file: "SeymourOne-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

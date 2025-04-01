@@ -18,4 +18,6 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/sedgwickave"
+  commit: "3b269a9037e6ed8c8bc8f4bd90cd4d955855a20e"
+  config_yaml: "sources/config.yaml"
 }

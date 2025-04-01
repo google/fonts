@@ -32,6 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Rosario"
+  commit: "d8bf83600979c82357d8023243d3d01a386fc7fe"
   files {
     source_file: "fonts/variable/Rosario[wght].ttf"
     dest_file: "Rosario[wght].ttf"
@@ -45,4 +46,5 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

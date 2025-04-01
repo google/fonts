@@ -26,7 +26,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/silkscreen"
-  commit: "8f254a7d67a37f8da1f4f82d9c4281458f5c554c"
+  commit: "206ccf3f5234c281461e63ecc59cbc6b0563472b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -40,6 +40,7 @@ source {
     dest_file: "Silkscreen-Bold.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

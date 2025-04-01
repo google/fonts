@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/Ponomar"
-  commit: "7c70a2c8d21d58543d9a5d202d50fb6c1d93e38a"
+  commit: "a3023c5d838ee65b5617f3f9179269160bd177e5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,6 +32,7 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Cyrl"
 primary_language: "cu_Cyrl"

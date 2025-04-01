@@ -6,11 +6,15 @@ on:
 jobs:
   rebuild:
     runs-on: macos-13 # More RAM, heh heh
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           lfs: true
+      - name: Grab fontspector database
+        run: git fetch origin gh-pages; git checkout gh-pages; cp fontspector-dashboard/fontspector.db .ci/fontspector-dashboard/src/fontspector.db || true; git checkout main
       - name: Install protoc
         run: brew install protobuf
       - name: Install Rust
@@ -19,12 +23,8 @@ jobs:
         run: cargo install --git https://github.com/fonttools/fontspector --features duckdb
       - name: Test all the things
         run: fontspector --profile googlefonts ofl/*/*{.ttf,.pb,*html,*svg,*jpg,*gif} --skip-network --succinct --duckdb .ci/fontspector-dashboard/src/fontspector.db || true
-      - name: Upload results
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          file_pattern: .ci/fontspector-dashboard/src/fontspector.db
       - name: Build dashboard
-        run: cd .ci/fontspector-dashboard && npm install && npm run build
+        run: cd .ci/fontspector-dashboard && npm install && npm run build && cp src/fontspector.db ../../fontspector-dashboard-build/
       - name: Add to branch
         run: git checkout gh-pages; git rm -rf fontspector-dashboard || true; rm -rf fontspector-dashboard || true; mv fontspector-dashboard-build fontspector-dashboard
       - name: Upload results

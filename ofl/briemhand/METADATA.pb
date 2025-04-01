@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/SorkinType/Briem-Hand"
-  commit: "68fedd7eb5d65c2c1490300719ef8b1fa51fbcd5"
+  commit: "7b991840508c9a90632354034ed0a72002836c05"
   archive_url: "https://github.com/SorkinType/Briem-Hand/releases/download/v1.004/Briem-Hand-v1.004.zip"
   files {
     source_file: "OFL.txt"
@@ -40,5 +40,6 @@ source {
     dest_file: "BriemHand[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "HANDWRITING"

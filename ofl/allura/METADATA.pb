@@ -24,6 +24,7 @@ source {
     dest_file: "Allura-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

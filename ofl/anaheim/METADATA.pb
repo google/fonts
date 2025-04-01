@@ -37,4 +37,5 @@ source {
     dest_file: "Anaheim[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

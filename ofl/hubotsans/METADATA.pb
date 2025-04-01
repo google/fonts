@@ -37,7 +37,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/github/hubot-sans"
-  commit: "9c2cc3ac30ac77cc7c3b40e0813b3487a0c56b7b"
+  commit: "d4b2f67cd7686f5907296d3f027112bbc4f69f42"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -51,6 +51,7 @@ source {
     dest_file: "HubotSans-Italic[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://github.com/mona-sans"
 primary_script: "Latn"

@@ -44,6 +44,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/atkinson-hyperlegible"
+  commit: "1cb311624b2ddf88e9e37873999d165a8cd28b46"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -69,4 +70,5 @@ source {
     dest_file: "AtkinsonHyperlegible-BoldItalic.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }

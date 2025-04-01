@@ -32,6 +32,7 @@ source {
     dest_file: "Babylonica-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

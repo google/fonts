@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/ephesis"
+  commit: "8b303b53193b302c8894fb4635bbd49d4420d433"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,6 +32,7 @@ source {
     dest_file: "Ephesis-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

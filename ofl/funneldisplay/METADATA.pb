@@ -1,5 +1,5 @@
 name: "Funnel Display"
-designer: "NORD ID, Kristian Möller" 
+designer: "NORD ID, Kristian Möller"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2024-09-25"
@@ -32,6 +32,7 @@ source {
     dest_file: "FunnelDisplay[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

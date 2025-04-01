@@ -32,6 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Faustina"
+  commit: "eaed5823e55b6256571a2bb379b5203083cab452"
   files {
     source_file: "fonts/variable/Faustina[wght].ttf"
     dest_file: "Faustina[wght].ttf"
@@ -41,4 +42,5 @@ source {
     dest_file: "Faustina-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

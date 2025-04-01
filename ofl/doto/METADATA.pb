@@ -37,5 +37,6 @@ source {
     dest_file: "Doto[ROND,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"

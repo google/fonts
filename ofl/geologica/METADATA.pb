@@ -59,4 +59,5 @@ source {
     dest_file: "Geologica[CRSV,SHRP,slnt,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

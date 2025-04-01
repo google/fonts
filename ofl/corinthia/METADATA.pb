@@ -27,6 +27,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/corinthia"
+  commit: "9c81839655dfec773b737abc90cb09ac94b1bea1"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -44,6 +45,7 @@ source {
     dest_file: "Corinthia-Bold.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

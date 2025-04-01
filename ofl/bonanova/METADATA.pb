@@ -40,6 +40,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/kosmynkab/Bona-Nova"
+  commit: "a5cbdfb8741af20ea5bfe252f0128beed6c8beed"
   files {
     source_file: "fonts/ttf/BonaNova-Regular.ttf"
     dest_file: "BonaNova-Regular.ttf"
@@ -57,5 +58,6 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "http://bonanova.wtf/"

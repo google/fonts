@@ -26,6 +26,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/abeezee"
+  commit: "b9bd3f3522d91aca81eb668f56d40c2c62a90125"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -39,4 +40,5 @@ source {
     dest_file: "ABeeZee-Italic.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

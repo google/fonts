@@ -38,5 +38,6 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Thai"

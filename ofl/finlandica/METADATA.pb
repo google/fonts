@@ -33,7 +33,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/HelsinkiTypeStudio/Finlandica"
-  commit: "f18a892e62bdcd80839549c04e3572e2bdca435e"
+  commit: "959e075ccc9652de57c72ecf56f887e13a537c85"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -47,4 +47,5 @@ source {
     dest_file: "Finlandica-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

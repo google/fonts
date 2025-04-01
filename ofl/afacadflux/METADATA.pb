@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Dicotype/Afacad"
-  commit: "4655a472cef57467e1604ce80336ab87ea72facc"
+  commit: "b294b1f8610ff16a3846a255b1a6a2e6788a056e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -38,5 +38,6 @@ source {
     dest_file: "AfacadFlux[slnt,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

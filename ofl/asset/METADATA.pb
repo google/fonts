@@ -34,6 +34,7 @@ source {
     dest_file: "Asset-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

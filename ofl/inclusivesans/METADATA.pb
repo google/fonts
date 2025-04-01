@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/LivKing/Inclusive-Sans"
-  commit: "54ed9e4da94e7ea566a0322afc60b750c8544eaa"
+  commit: "38b8ed1dd67bd25ef4180140492810cf050ef501"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -46,5 +46,6 @@ source {
     dest_file: "InclusiveSans-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Zinh"

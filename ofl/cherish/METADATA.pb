@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/cherish"
+  commit: "fd3a5b6b7fa7865540892380eb94290c2d49227b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,4 +32,5 @@ source {
     dest_file: "Cherish-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }

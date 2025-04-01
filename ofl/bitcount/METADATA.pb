@@ -42,7 +42,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/petrvanblokland/TYPETR-Bitcount"
-  commit: "af0818eaeb3b0839806ea19134fc18f317cdcf5a"
+  commit: "653fc48a72cf3b6a293f6fc207a770f537921889"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -52,4 +52,5 @@ source {
     dest_file: "Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

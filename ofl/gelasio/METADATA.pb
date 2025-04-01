@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/SorkinType/Gelasio"
-  commit: "a6ee02d6ba3d3a038610aa0972f0d4c39b251539"
+  commit: "9228e69b160d79f33950e026293f6e13ba9780d0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -46,5 +46,6 @@ source {
     dest_file: "Gelasio-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"

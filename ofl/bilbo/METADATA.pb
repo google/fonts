@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/bilbo"
+  commit: "1ffb16299d6f1ae0304a0ed6a36a95acbb1148e3"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,4 +32,5 @@ source {
     dest_file: "Bilbo-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }

@@ -22,7 +22,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/SorkinType/VICWANTSchoolhandAustralia"
-  commit: "abab94d19985f24132e45db4c4822b042eb63302"
+  commit: "6529c525fceb9ec15e51dfa6d87244ef053c2d8a"
   archive_url: "https://github.com/SorkinType/VICWANTSchoolhandAustralia/releases/download/v1.000/VICWANTSchoolhandAustralia-v1.000.zip"
   files {
     source_file: "OFL.txt"
@@ -37,5 +37,6 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Edu Australia VIC WA NT Hand Precursive"

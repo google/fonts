@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/dosis-vf"
+  commit: "3407d52f1d1b1c36c14e756ad0b36561d8d44a3b"
   files {
     source_file: "fonts/variable/Dosis[wght].ttf"
     dest_file: "Dosis[wght].ttf"
@@ -32,6 +33,7 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

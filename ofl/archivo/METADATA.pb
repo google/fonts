@@ -37,6 +37,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Archivo"
+  commit: "b5d63988ce19d044d3e10362de730af00526b672"
   files {
     source_file: "fonts/variable/Archivo[wdth,wght].ttf"
     dest_file: "Archivo[wdth,wght].ttf"
@@ -50,4 +51,5 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

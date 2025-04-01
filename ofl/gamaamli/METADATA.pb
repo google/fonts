@@ -32,7 +32,8 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
+minisite_url: "https://aayalolo.com/fonts/ga-maamli"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"
-minisite_url: "https://aayalolo.com/fonts/ga-maamli"

@@ -24,6 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Gue3bara/El-Messiri"
+  commit: "553b98d8e374318694b50862849af666268fd278"
   files {
     source_file: "fonts/variable/ElMessiri[wght].ttf"
     dest_file: "ElMessiri[wght].ttf"
@@ -33,5 +34,6 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Arab"

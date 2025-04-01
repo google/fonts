@@ -22,4 +22,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/Domine"
+  commit: "2974ac627aad3a34190288c07fd0a0040d38550f"
+  config_yaml: "sources/config.yaml"
 }

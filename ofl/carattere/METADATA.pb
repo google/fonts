@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/carattere"
+  commit: "18fbebe0c73ec82068be167eb3e63a795bd814ac"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,4 +32,5 @@ source {
     dest_file: "Carattere-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }

@@ -23,12 +23,14 @@ axes {
 }
 source {
   repository_url: "https://github.com/SophiaDesign/Foldit"
+  commit: "934034370b760240516ba533549436935c49fbc2"
   archive_url: "https://github.com/SophiaDesign/Foldit/releases/download/1.003/Foldit-fonts.zip"
   files {
     source_file: "Foldit-fonts/fonts/variable/Foldit[wght].ttf"
     dest_file: "Foldit[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

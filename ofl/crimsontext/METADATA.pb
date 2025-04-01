@@ -93,4 +93,5 @@ source {
     dest_file: "CrimsonText-SemiBoldItalic.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

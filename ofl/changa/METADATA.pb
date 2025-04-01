@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/changa-vf"
+  commit: "fb3207d4fe7234f610d0d4ef77dce01cfda57027"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,6 +33,7 @@ source {
     dest_file: "Changa[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

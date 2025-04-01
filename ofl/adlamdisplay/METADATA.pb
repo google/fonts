@@ -32,5 +32,6 @@ source {
     dest_file: "ADLaMDisplay-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Adlm"

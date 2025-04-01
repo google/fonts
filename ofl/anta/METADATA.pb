@@ -33,4 +33,5 @@ source {
     dest_file: "Anta-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

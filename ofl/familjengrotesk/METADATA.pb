@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Familjen-Sthlm/Familjen-Grotesk"
-  commit: "3db181c2b39766045aff4a99663f515d3247512a"
+  commit: "de7dfe09f6014e43bfad3724ac4a07b95972763c"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -46,4 +46,5 @@ source {
     dest_file: "FamiljenGrotesk-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

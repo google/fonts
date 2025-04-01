@@ -37,5 +37,6 @@ source {
     dest_file: "BioRhyme[wdth,wght].ttf"
   }
   branch: "gh-pages"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SLAB_SERIF"

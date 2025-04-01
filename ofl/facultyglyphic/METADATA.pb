@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/DylanYoungKoto/FacultyGlyphic"
-  commit: "217893d53b5e77627f997b41e75e45d5818bc0e2"
+  commit: "0f609bebfae8490a140feebfd3faacf3dfa87d62"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -27,6 +27,7 @@ source {
     dest_file: "FacultyGlyphic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Latn"
 stroke: "SANS_SERIF"

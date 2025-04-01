@@ -40,4 +40,5 @@ source {
     dest_file: "Baskervville-Italic.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

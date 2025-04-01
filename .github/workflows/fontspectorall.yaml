@@ -6,6 +6,8 @@ on:
 jobs:
   rebuild:
     runs-on: macos-13 # More RAM, heh heh
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:

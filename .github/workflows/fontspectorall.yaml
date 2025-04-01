@@ -10,6 +10,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          lfs: true
       - name: Install protoc
         run: brew install protobuf
       - name: Install Rust

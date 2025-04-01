@@ -1,0 +1,34 @@
+name: QA whole library
+on:
+  push:
+  schedule:
+    - cron: "12 1 * * *"
+jobs:
+  rebuild:
+    runs-on: macos-13 # More RAM, heh heh
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          lfs: true
+      - name: Install protoc
+        run: brew install protobuf
+      - name: Install Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+      - name: Build fontspector
+        run: cargo install --git https://github.com/fonttools/fontspector --features duckdb
+      - name: Test all the things
+        run: fontspector --profile googlefonts ofl/*/*{.ttf,.pb,*html,*svg,*jpg,*gif} --skip-network --succinct --duckdb .ci/fontspector-dashboard/src/fontspector.db || true
+      - name: Upload results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: .ci/fontspector-dashboard/src/fontspector.db
+      - name: Build dashboard
+        run: cd .ci/fontspector-dashboard && npm install && npm run build
+      - name: Add to branch
+        run: git checkout gh-pages; git rm -rf fontspector-dashboard || true; rm -rf fontspector-dashboard || true; mv fontspector-dashboard-build fontspector-dashboard
+      - name: Upload results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: gh-pages
+          file_pattern: fontspector-dashboard

@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "tirhuta"
 source {
   repository_url: "https://github.com/notofonts/tirhuta"
+  commit: "3c941a6f7183c147e807ed92b4a4f894c4e5e7f6"
   archive_url: "https://github.com/notofonts/tirhuta/releases/download/NotoSansTirhuta-v2.003/NotoSansTirhuta-v2.003.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansTirhuta-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-tirhuta.yaml"
 }
 is_noto: true
-languages: "mai_Tirh"  # Maithili, Tirhuta
-languages: "sa_Tirh"  # Sanskrit, Tirhuta
+languages: "mai_Tirh"
+languages: "sa_Tirh"
 primary_script: "Tirh"

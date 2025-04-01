@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/tangsa"
+  commit: "8d40c34e78702e6ec2ef9a8e2cbd6a38cd7f6d4a"
   archive_url: "https://github.com/notofonts/tangsa/releases/download/NotoSansTangsa-v1.506/NotoSansTangsa-v1.506.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoSansTangsa[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-tangsa.yaml"
 }
 is_noto: true
-languages: "nst_Tnsa"  # Tangsa
+languages: "nst_Tnsa"
 primary_script: "Tnsa"

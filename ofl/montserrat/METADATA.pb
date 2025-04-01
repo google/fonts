@@ -34,7 +34,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/JulietaUla/Montserrat"
-  commit: "f025b649a5302db60edb04a88199b8b941abc33a"
+  commit: "cc8daf2e7085006b9c112542fc82b58afc13521d"
   files {
     source_file: "fonts/variable/Montserrat[wght].ttf"
     dest_file: "Montserrat[wght].ttf"
@@ -48,6 +48,7 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "merge-forked-changes"
+  config_yaml: "sources/config.yaml"
 }
 fallbacks {
   axis_target {

@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/ahom"
+  commit: "fb3e25e81eb2a7d8301ddd86085f60a4b2a88d73"
   archive_url: "https://github.com/notofonts/ahom/releases/download/NotoSerifAhom-v2.007/NotoSerifAhom-v2.007.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSerifAhom-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-serif-ahom.yaml"
 }
 is_noto: true
-languages: "aho_Ahom"  # Ahom
-languages: "sa_Ahom"  # Sanskrit, Ahom
+languages: "aho_Ahom"
+languages: "sa_Ahom"
 primary_script: "Ahom"

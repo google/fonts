@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/kharoshthi"
+  commit: "aacffd48d67ea30b8836a4069df73aa789148c01"
   archive_url: "https://github.com/notofonts/kharoshthi/releases/download/NotoSansKharoshthi-v2.004/NotoSansKharoshthi-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansKharoshthi-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-kharoshthi.yaml"
 }
 is_noto: true
-languages: "pra_Khar"  # Prakrit
-languages: "sa_Khar"  # Sanskrit, Kharoshthi
+languages: "pra_Khar"
+languages: "sa_Khar"
 primary_script: "Khar"

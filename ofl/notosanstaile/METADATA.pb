@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "tai-le"
 source {
   repository_url: "https://github.com/notofonts/tai-le"
+  commit: "297f30f9460ad4d16f64ed70f659320e415ccee1"
   archive_url: "https://github.com/notofonts/tai-le/releases/download/NotoSansTaiLe-v2.002/NotoSansTaiLe-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansTaiLe-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-tai-le.yaml"
 }
 is_noto: true
-languages: "tdd_Tale"  # Tai Nüa
+languages: "tdd_Tale"
 primary_script: "Tale"

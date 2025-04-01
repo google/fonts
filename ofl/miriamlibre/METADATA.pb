@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/simoncozens/Miriam-Libre"
-  commit: "72606f962886b013985f71c300dda3b9deb61a6b"
+  commit: "fc1dbbb7ef6f331b10771c22d33b4bf7543efbd8"
   files {
     source_file: "fonts/variable/MiriamLibre[wght].ttf"
     dest_file: "MiriamLibre[wght].ttf"
@@ -33,4 +33,5 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

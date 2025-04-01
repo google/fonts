@@ -33,4 +33,5 @@ source {
     dest_file: "Merienda[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

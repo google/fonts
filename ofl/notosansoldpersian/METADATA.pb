@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "old-persian"
 source {
   repository_url: "https://github.com/notofonts/old-persian"
+  commit: "27b5583d16934490eda51cb723316f65d8b8379b"
   archive_url: "https://github.com/notofonts/old-persian/releases/download/NotoSansOldPersian-v2.001/NotoSansOldPersian-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansOldPersian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-old-persian.yaml"
 }
 is_noto: true
-languages: "peo_Xpeo"  # Old Persian
-languages: "sa_Xpeo"  # Sanskrit, Old Persian
+languages: "peo_Xpeo"
+languages: "sa_Xpeo"
 primary_script: "Xpeo"

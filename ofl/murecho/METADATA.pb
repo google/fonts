@@ -26,6 +26,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/positype/Murecho-Project"
+  commit: "0efba44c1c504efe50edc3ae30da5840461e5d49"
   files {
     source_file: "fonts/variable/Murecho[wght].ttf"
     dest_file: "Murecho[wght].ttf"
@@ -35,5 +36,6 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Hira"

@@ -29,5 +29,6 @@ source {
     dest_file: "Micro5-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

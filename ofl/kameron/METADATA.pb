@@ -22,7 +22,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/kameronFont"
-  commit: "4c36d3f42f93806b911562d50927406fbb043f89"
+  commit: "c13447c3b5fc11abd2eb640bd4a8dd789e38d76f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,5 +32,6 @@ source {
     dest_file: "Kameron[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SLAB_SERIF"

@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/indic-siyaq-numbers"
+  commit: "5c2be06e8ce0f4a3f552cc7100cffbbf5a200ad5"
   archive_url: "https://github.com/notofonts/indic-siyaq-numbers/releases/download/NotoSansIndicSiyaqNumbers-v2.002/NotoSansIndicSiyaqNumbers-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -36,6 +37,7 @@ source {
     dest_file: "NotoSansIndicSiyaqNumbers-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-indic-siyaq-numbers.yaml"
 }
 is_noto: true
 sample_text {

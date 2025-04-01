@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/hatran"
+  commit: "de472058911afccdf8ab8ddafc7b0314ad30e673"
   archive_url: "https://github.com/notofonts/hatran/releases/download/NotoSansHatran-v2.001/NotoSansHatran-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansHatran-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-hatran.yaml"
 }
 is_noto: true
-languages: "aii_Hatr"  # Assyrian Neo-Aramaic, Hatran
-languages: "mis_Hatr"  # Hatran Aramaic
+languages: "aii_Hatr"
+languages: "mis_Hatr"
 primary_script: "Hatr"

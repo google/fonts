@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/JAMO-TYPEFACE/Moirai"
-  commit: "3220f0c211c8d3a3bb989896cf7ea66d16a925e6"
+  commit: "2da483959021f384eebc39feb6da1e8cbcdf452d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,5 +32,6 @@ source {
     dest_file: "MoiraiOne-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Kore"

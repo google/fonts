@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "osmanya"
 source {
   repository_url: "https://github.com/notofonts/osmanya"
+  commit: "6b87e2ca0c0b8e746247b9c2d073d4cacd522dce"
   archive_url: "https://github.com/notofonts/osmanya/releases/download/NotoSansOsmanya-v2.001/NotoSansOsmanya-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansOsmanya-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-osmanya.yaml"
 }
 is_noto: true
-languages: "so_Osma"  # Somali, Osmanya
+languages: "so_Osma"
 primary_script: "Osma"

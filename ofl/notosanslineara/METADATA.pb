@@ -18,6 +18,7 @@ subsets: "linear-a"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/linear-a"
+  commit: "e139e1cc000341fbe4c154932e02d4996f105b85"
   archive_url: "https://github.com/notofonts/linear-a/releases/download/NotoSansLinearA-v2.002/NotoSansLinearA-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,10 +37,11 @@ source {
     dest_file: "NotoSansLinearA-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-linear-a.yaml"
 }
 is_noto: true
-languages: "lab_Lina"  # Linear A
-languages: "omn_Lina"  # Minoan
+languages: "lab_Lina"
+languages: "omn_Lina"
 sample_text {
   masthead_full: "𐘂𐚰𐚩𐛌"
   masthead_partial: "𐘁𐚵"

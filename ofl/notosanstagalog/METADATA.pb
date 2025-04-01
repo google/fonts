@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "tagalog"
 source {
   repository_url: "https://github.com/notofonts/tagalog"
+  commit: "3546fa08fc9d624166a1521054c6f3f473ee1485"
   archive_url: "https://github.com/notofonts/tagalog/releases/download/NotoSansTagalog-v2.002/NotoSansTagalog-v2.002.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansTagalog-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-tagalog.yaml"
 }
 is_noto: true
-languages: "fil_Tglg"  # Filipino, Tagalog
+languages: "fil_Tglg"
 primary_script: "Tglg"

@@ -18,6 +18,7 @@ subsets: "lepcha"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/lepcha"
+  commit: "22993dbe4ed924277e75a444a40d2b420a372e7c"
   archive_url: "https://github.com/notofonts/lepcha/releases/download/NotoSansLepcha-v2.006/NotoSansLepcha-v2.006.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansLepcha-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-lepcha.yaml"
 }
 is_noto: true
-languages: "lep_Lepc"  # Lepcha
+languages: "lep_Lepc"
 primary_script: "Lepc"

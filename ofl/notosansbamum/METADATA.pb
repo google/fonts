@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/bamum"
+  commit: "92bf2329accf9c1e6bc9373a64def94578a5f89b"
   archive_url: "https://github.com/notofonts/bamum/releases/download/NotoSansBamum-v2.002/NotoSansBamum-v2.002.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -41,9 +42,10 @@ source {
     dest_file: "NotoSansBamum[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-bamum.yaml"
 }
 is_noto: true
-languages: "bax_Bamu"  # Bamun
+languages: "bax_Bamu"
 sample_text {
   masthead_full: "ꚢ𖠤ꚴ𖠏"
   masthead_partial: "ꚡ𖠩"

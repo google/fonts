@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "siddham"
 source {
   repository_url: "https://github.com/notofonts/siddham"
+  commit: "6ff212cb17efb2ad8b6a3b677d61cb66edc44dae"
   archive_url: "https://github.com/notofonts/siddham/releases/download/NotoSansSiddham-v2.005/NotoSansSiddham-v2.005.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansSiddham-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-siddham.yaml"
 }
 is_noto: true
-languages: "sa_Sidd"  # Sanskrit, Siddham
+languages: "sa_Sidd"
 primary_script: "Sidd"

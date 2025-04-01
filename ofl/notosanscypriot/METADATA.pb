@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/cypriot"
+  commit: "4f81293d17d7b3c9c67b9ab2c335905c75ad3f1d"
   archive_url: "https://github.com/notofonts/cypriot/releases/download/NotoSansCypriot-v2.002/NotoSansCypriot-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansCypriot-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-cypriot.yaml"
 }
 is_noto: true
-languages: "grc_Cprt"  # Ancient Greek
+languages: "grc_Cprt"
 primary_script: "Cprt"

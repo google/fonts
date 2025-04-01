@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/isaozler/kode-mono"
-  commit: "94d565d4b6164cee482c68ee706e51135d6691ad"
+  commit: "2d427d3f44649656d2c1932bb671d0c4cd064041"
   files {
     source_file: "fonts/variable/KodeMono[wght].ttf"
     dest_file: "KodeMono[wght].ttf"
@@ -37,7 +37,8 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
+minisite_url: "https://kodemono.com"
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"
-minisite_url: "https://kodemono.com"

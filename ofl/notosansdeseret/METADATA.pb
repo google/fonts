@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/deseret"
+  commit: "fab3d4d90de5f00b318f70a2d0c247402348fd8f"
   archive_url: "https://github.com/notofonts/deseret/releases/download/NotoSansDeseret-v2.001/NotoSansDeseret-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansDeseret-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-deseret.yaml"
 }
 is_noto: true
-languages: "en_Dsrt"  # English, Deseret
+languages: "en_Dsrt"
 primary_script: "Dsrt"

@@ -32,4 +32,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Manuale"
+  commit: "20a5ab6a0da1c8cb56916d843e50db0ad6b6dfd3"
+  config_yaml: "sources/config.yaml"
 }

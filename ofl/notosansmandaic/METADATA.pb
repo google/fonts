@@ -18,7 +18,7 @@ subsets: "mandaic"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/mandaic"
-  commit: "ef8c8ef95fd08c51ffc93aa7f930cd0086d761b9"
+  commit: "36a3804b7febaa6827c198f9a39324c8b24ad366"
   archive_url: "https://github.com/notofonts/mandaic/releases/download/NotoSansMandaic-v2.003/NotoSansMandaic-v2.003.zip"
   files {
     source_file: "OFL.txt"
@@ -37,7 +37,8 @@ source {
     dest_file: "NotoSansMandaic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-mandaic.yaml"
 }
 is_noto: true
-languages: "myz_Mand"  # Mandaic
+languages: "myz_Mand"
 primary_script: "Mand"

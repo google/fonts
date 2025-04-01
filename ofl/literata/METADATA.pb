@@ -55,4 +55,5 @@ source {
     dest_file: "Literata-Italic[opsz,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

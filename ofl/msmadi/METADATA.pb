@@ -32,4 +32,5 @@ source {
     dest_file: "MsMadi-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }

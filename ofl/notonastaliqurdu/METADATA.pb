@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/nastaliq"
+  commit: "3508acd351a8603c6b74d2cff2da66b0806374d1"
   archive_url: "https://github.com/notofonts/nastaliq/releases/download/NotoNastaliqUrdu-v3.009/NotoNastaliqUrdu-v3.009.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoNastaliqUrdu[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-nastaliq-urdu.yaml"
 }
 is_noto: true
-languages: "ur_Arab"  # Urdu
+languages: "ur_Arab"
 primary_script: "Arab"

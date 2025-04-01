@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/bassa-vah"
+  commit: "bed459c24b109a612b53f44542d4fe6f9c754641"
   archive_url: "https://github.com/notofonts/bassa-vah/releases/download/NotoSansBassaVah-v2.002/NotoSansBassaVah-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -37,7 +38,8 @@ source {
     dest_file: "NotoSansBassaVah[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-bassa-vah.yaml"
 }
 is_noto: true
-languages: "bsq_Bass"  # Bassa
+languages: "bsq_Bass"
 primary_script: "Bass"

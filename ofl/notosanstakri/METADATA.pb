@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "takri"
 source {
   repository_url: "https://github.com/notofonts/takri"
+  commit: "bf175ad0b88bacf551fa992f19ce0e1cd2270b22"
   archive_url: "https://github.com/notofonts/takri/releases/download/NotoSansTakri-v2.005/NotoSansTakri-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansTakri-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-takri.yaml"
 }
 is_noto: true
-languages: "doi_Takr"  # Dogri, Takri
+languages: "doi_Takr"
 primary_script: "Takr"

@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/inscriptional-pahlavi"
-  commit: "ccf6d043ac12c7817b7934f8fb98d217b8081762"
+  commit: "ae11e4305961021e457dc2f9a17b3a7eb1fe3357"
   archive_url: "https://github.com/notofonts/inscriptional-pahlavi/releases/download/NotoSansInscriptionalPahlavi-v2.004/NotoSansInscriptionalPahlavi-v2.004.zip"
   files {
     source_file: "OFL.txt"
@@ -37,8 +37,9 @@ source {
     dest_file: "NotoSansInscriptionalPahlavi-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-inscriptional-pahlavi.yaml"
 }
 is_noto: true
-languages: "aii_Phli"  # Assyrian Neo-Aramaic, Inscriptional Pahlavi
-languages: "pal_Phli"  # Pahlavi
+languages: "aii_Phli"
+languages: "pal_Phli"
 primary_script: "Phli"

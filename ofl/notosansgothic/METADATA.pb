@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/gothic"
+  commit: "1fdfe7f6a2be15afc26970deb0420146549766c3"
   archive_url: "https://github.com/notofonts/gothic/releases/download/NotoSansGothic-v2.001/NotoSansGothic-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansGothic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-gothic.yaml"
 }
 is_noto: true
-languages: "got_Goth"  # Gothic
+languages: "got_Goth"
 primary_script: "Goth"

@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/MakoFont"
-  commit: "493c8535e2ae836eea478f167b7c05755818360f"
+  commit: "f1365c6fd308090395e543858ce9c8520061c913"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -27,4 +27,5 @@ source {
     dest_file: "Mako-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

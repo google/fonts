@@ -34,7 +34,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/JulietaUla/Montserrat"
-  commit: "679ead9bcd0d6cef6d3712369dc49fe72e8bd8d7"
+  commit: "cc8daf2e7085006b9c112542fc82b58afc13521d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -48,4 +48,5 @@ source {
     dest_file: "MontserratUnderline-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

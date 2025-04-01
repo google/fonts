@@ -18,7 +18,7 @@ subsets: "limbu"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/limbu"
-  commit: "912b8113bbabaf7322956fe80a0ad18575e77d7e"
+  commit: "191ac5f51c1dc7603d7636a26161ff9c36b9671b"
   archive_url: "https://github.com/notofonts/limbu/releases/download/NotoSansLimbu-v2.005/NotoSansLimbu-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -33,7 +33,8 @@ source {
     dest_file: "NotoSansLimbu-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-limbu.yaml"
 }
 is_noto: true
-languages: "lif_Limb"  # Limbu, Limbu
+languages: "lif_Limb"
 primary_script: "Limb"

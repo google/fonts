@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "ogham"
 source {
   repository_url: "https://github.com/notofonts/ogham"
+  commit: "f9ef276aefef0c9442f613db21f69a02d4102888"
   archive_url: "https://github.com/notofonts/ogham/releases/download/NotoSansOgham-v2.001/NotoSansOgham-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansOgham-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-ogham.yaml"
 }
 is_noto: true
-languages: "sga_Ogam"  # Old Irish, Ogham
+languages: "sga_Ogam"
 primary_script: "Ogam"

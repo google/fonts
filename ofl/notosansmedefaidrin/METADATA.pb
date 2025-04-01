@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/medefaidrin"
+  commit: "db67ede293998b151205e6b7ca30f699f71e1624"
   archive_url: "https://github.com/notofonts/medefaidrin/releases/download/NotoSansMedefaidrin-v1.002/NotoSansMedefaidrin-v1.002.zip"
   files {
     source_file: "OFL.txt"
@@ -37,7 +38,8 @@ source {
     dest_file: "NotoSansMedefaidrin[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-medefaidrin.yaml"
 }
 is_noto: true
-languages: "dmf_Medf"  # Medefaidrin
+languages: "dmf_Medf"
 primary_script: "Medf"

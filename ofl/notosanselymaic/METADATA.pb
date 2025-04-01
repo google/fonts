@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/elymaic"
+  commit: "4a230cd737fee5c57d6343ff349ca74531a5e92c"
   archive_url: "https://github.com/notofonts/elymaic/releases/download/NotoSansElymaic-v1.002/NotoSansElymaic-v1.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansElymaic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-elymaic.yaml"
 }
 is_noto: true
-languages: "aii_Elym"  # Assyrian Neo-Aramaic, Elymaic
-languages: "xly_Elym"  # Elymian
+languages: "aii_Elym"
+languages: "xly_Elym"
 primary_script: "Elym"

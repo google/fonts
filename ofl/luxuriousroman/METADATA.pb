@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/luxurious-roman"
+  commit: "79ca0d1eececc94be7fe0e23f306043de77c7457"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,6 +32,7 @@ source {
     dest_file: "LuxuriousRoman-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

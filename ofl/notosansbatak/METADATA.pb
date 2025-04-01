@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/batak"
+  commit: "9e4d85f112e7c8a5b1d958b5b848db15eea069b2"
   archive_url: "https://github.com/notofonts/batak/releases/download/NotoSansBatak-v2.003/NotoSansBatak-v2.003.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansBatak-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-batak.yaml"
 }
 is_noto: true
-languages: "bbc_Batk"  # Batak Toba, Batak
+languages: "bbc_Batk"
 primary_script: "Batk"

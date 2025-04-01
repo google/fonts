@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/MetrophobicFont"
-  commit: "c834ca0e9188d756627252ae510266ed5e8d2416"
+  commit: "d4da54632ddd53631332a5a469183c887b4ea3e1"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,4 +28,5 @@ source {
     dest_file: "Metrophobic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

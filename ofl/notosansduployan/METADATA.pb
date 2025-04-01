@@ -27,7 +27,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/duployan"
-  commit: "dcec488da5e9c16d48051fe8d20b1b615bf8c9be"
+  commit: "9626869cc851873c96eafd019fab55d984bbebc0"
   archive_url: "https://github.com/notofonts/duployan/releases/download/NotoSansDuployan-v3.002/NotoSansDuployan-v3.002.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -50,10 +50,11 @@ source {
     dest_file: "NotoSansDuployan-Bold.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-duployan.yaml"
 }
 is_noto: true
-languages: "chn_Dupl"  # Chinook Jargon, Duployan
-languages: "fr_Dupl"  # French, Duployan
+languages: "chn_Dupl"
+languages: "fr_Dupl"
 sample_text {
   masthead_full: "𛰳𛱰𛱘𛱢"
   masthead_partial: "𛰠𛰏"

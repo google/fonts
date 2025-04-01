@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "nabataean"
 source {
   repository_url: "https://github.com/notofonts/nabataean"
+  commit: "d16bdaad189b2af2547b7e39819b0501f324f9f7"
   archive_url: "https://github.com/notofonts/nabataean/releases/download/NotoSansNabataean-v2.001/NotoSansNabataean-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansNabataean-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-nabataean.yaml"
 }
 is_noto: true
-languages: "aii_Nbat"  # Assyrian Neo-Aramaic, Nabataean
-languages: "arc_Nbat"  # Aramaic, Nabataean
+languages: "aii_Nbat"
+languages: "arc_Nbat"
 primary_script: "Nbat"

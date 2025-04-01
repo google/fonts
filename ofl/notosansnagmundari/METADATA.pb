@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/nag-mundari"
-  commit: "aa14d2df1a500fe504b250182c6aa64822c8d441"
+  commit: "64846ef2e38f46694aca851f48837ed2635994a4"
   archive_url: "https://github.com/notofonts/nag-mundari/releases/download/NotoSansNagMundari-v1.001/NotoSansNagMundari-v1.001.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -42,7 +42,8 @@ source {
     dest_file: "NotoSansNagMundari[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 is_noto: true
-languages: "unr_Nagm"  # Mundari (Nag Mundari)
+languages: "unr_Nagm"
 primary_script: "Nagm"

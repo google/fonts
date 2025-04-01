@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "modi"
 source {
   repository_url: "https://github.com/notofonts/modi"
+  commit: "8e9d4844a2daef44f622cb15639649c5d075625d"
   archive_url: "https://github.com/notofonts/modi/releases/download/NotoSansModi-v2.004/NotoSansModi-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansModi-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-modi.yaml"
 }
 is_noto: true
-languages: "mr_Modi"  # Marathi, Modi
+languages: "mr_Modi"
 primary_script: "Modi"

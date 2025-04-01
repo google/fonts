@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/hanunoo"
+  commit: "5799d6111ecc607bf5fcfdb9ce8b6dcb1712eef5"
   archive_url: "https://github.com/notofonts/hanunoo/releases/download/NotoSansHanunoo-v2.004/NotoSansHanunoo-v2.004.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -32,7 +33,8 @@ source {
     dest_file: "NotoSansHanunoo-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-hanunoo.yaml"
 }
 is_noto: true
-languages: "hnn_Hano"  # Hanunoo, Hanunoo
+languages: "hnn_Hano"
 primary_script: "Hano"

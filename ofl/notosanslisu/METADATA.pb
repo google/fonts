@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/lisu"
+  commit: "d7e34571c41408f05975acaee719c2353408eb9e"
   archive_url: "https://github.com/notofonts/lisu/releases/download/NotoSansLisu-v2.102/NotoSansLisu-v2.102.zip"
   files {
     source_file: "OFL.txt"
@@ -33,7 +34,8 @@ source {
     dest_file: "NotoSansLisu[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-lisu.yaml"
 }
 is_noto: true
-languages: "lis_Lisu"  # Lisu
+languages: "lis_Lisu"
 primary_script: "Lisu"

@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "sharada"
 source {
   repository_url: "https://github.com/notofonts/sharada"
+  commit: "cafc138eaa89d3fa491ea6d81051fc910ade8c87"
   archive_url: "https://github.com/notofonts/sharada/releases/download/NotoSansSharada-v2.006/NotoSansSharada-v2.006.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansSharada-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-sharada.yaml"
 }
 is_noto: true
-languages: "sa_Shrd"  # Sanskrit, Sharada
+languages: "sa_Shrd"
 primary_script: "Shrd"

@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/avestan"
+  commit: "c19976eacac1ca2abf665d3363cf61893342c0ab"
   archive_url: "https://github.com/notofonts/avestan/releases/download/NotoSansAvestan-v2.003/NotoSansAvestan-v2.003.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansAvestan-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-avestan.yaml"
 }
 is_noto: true
-languages: "ae_Avst"  # Avestan
+languages: "ae_Avst"
 primary_script: "Avst"

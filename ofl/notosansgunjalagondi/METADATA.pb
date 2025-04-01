@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/gunjala-gondi"
+  commit: "ab82937f84db18fad4493b1c689c8f8852ad13ed"
   archive_url: "https://github.com/notofonts/gunjala-gondi/releases/download/NotoSansGunjalaGondi-v1.004/NotoSansGunjalaGondi-v1.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -41,8 +42,9 @@ source {
     dest_file: "NotoSansGunjalaGondi[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-gunjala-gondi.yaml"
 }
 is_noto: true
-languages: "gon_Gong"  # Gondi, Gunjala Gondi
-languages: "wsg_Gong"  # Adilabad Gondi, Gunjala Gondi
+languages: "gon_Gong"
+languages: "wsg_Gong"
 primary_script: "Gong"

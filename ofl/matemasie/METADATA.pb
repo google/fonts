@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/YADAMSS/Matemasie-Font"
-  commit: "a53371edff5c32131e93492ccb7618f4c567fbe0"
+  commit: "a6dbde5f9eb448066e8c751ee4c5b4146a7fbc99"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -47,6 +47,7 @@ source {
     dest_file: "article/4.png"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://yadamss.github.io/Matemasie-miniwebsite"
 stroke: "SANS_SERIF"

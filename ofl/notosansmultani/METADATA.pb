@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "multani"
 source {
   repository_url: "https://github.com/notofonts/multani"
+  commit: "1ef5899c9e386c6b824641d32352444d8c418a6c"
   archive_url: "https://github.com/notofonts/multani/releases/download/NotoSansMultani-v2.002/NotoSansMultani-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansMultani-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-multani.yaml"
 }
 is_noto: true
-languages: "sa_Mult"  # Sanskrit, Multani
-languages: "skr_Mult"  # Saraiki, Multani
+languages: "sa_Mult"
+languages: "skr_Mult"
 primary_script: "Mult"

@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "syloti-nagri"
 source {
   repository_url: "https://github.com/notofonts/syloti-nagri"
+  commit: "24ab3ac364a1b0882f36fa18f8f090145b009bf8"
   archive_url: "https://github.com/notofonts/syloti-nagri/releases/download/NotoSansSylotiNagri-v2.004/NotoSansSylotiNagri-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansSylotiNagri-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-syloti-nagri.yaml"
 }
 is_noto: true
-languages: "syl_Sylo"  # Sylheti, Syloti Nagri
+languages: "syl_Sylo"
 primary_script: "Sylo"

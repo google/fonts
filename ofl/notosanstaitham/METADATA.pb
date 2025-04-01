@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/tai-tham"
+  commit: "e336c5170ba284d0726e4a82a5b7a12fa07367bf"
   archive_url: "https://github.com/notofonts/tai-tham/releases/download/NotoSansTaiTham-v2.002/NotoSansTaiTham-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -41,8 +42,9 @@ source {
     dest_file: "NotoSansTaiTham[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-tai-tham.yaml"
 }
 is_noto: true
-languages: "kkh_Lana"  # Tai Khün
-languages: "nod_Lana"  # Northern Thai
+languages: "kkh_Lana"
+languages: "nod_Lana"
 primary_script: "Lana"

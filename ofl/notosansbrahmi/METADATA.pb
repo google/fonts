@@ -20,6 +20,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/brahmi"
+  commit: "7803437c1a61033137e89a7860cccb8f735a6088"
   archive_url: "https://github.com/notofonts/brahmi/releases/download/NotoSansBrahmi-v2.004/NotoSansBrahmi-v2.004.zip"
   files {
     source_file: "OFL.txt"
@@ -38,10 +39,11 @@ source {
     dest_file: "NotoSansBrahmi-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-brahmi.yaml"
 }
 is_noto: true
-languages: "aii_Brah"  # Assyrian Neo-Aramaic, Brahmi
-languages: "pi_Brah"  # Pali, Brahmi
-languages: "pka_Brah"  # Ardhamagadhi Prakrit
-languages: "sa_Brah"  # Sanskrit, Brahmi
+languages: "aii_Brah"
+languages: "pi_Brah"
+languages: "pka_Brah"
+languages: "sa_Brah"
 primary_script: "Brah"

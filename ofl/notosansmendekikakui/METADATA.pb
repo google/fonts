@@ -18,6 +18,7 @@ subsets: "mende-kikakui"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/mende-kikakui"
+  commit: "70eb55ce4b682dc87c87266a25aa9b12b44f479d"
   archive_url: "https://github.com/notofonts/mende-kikakui/releases/download/NotoSansMendeKikakui-v2.003/NotoSansMendeKikakui-v2.003.zip"
   files {
     source_file: "OFL.txt"
@@ -32,7 +33,8 @@ source {
     dest_file: "NotoSansMendeKikakui-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-mende-kikakui.yaml"
 }
 is_noto: true
-languages: "men_Mend"  # Mende, Mende
+languages: "men_Mend"
 primary_script: "Mend"

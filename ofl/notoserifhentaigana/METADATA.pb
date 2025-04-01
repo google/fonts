@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/hentaigana"
+  commit: "05826fcd095f41f3517f4126dda514f51de644cc"
   archive_url: "https://github.com/notofonts/hentaigana/releases/download/NotoSerifHentaigana-v1.000/NotoSerifHentaigana-v1.000.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -41,15 +42,13 @@ source {
     dest_file: "NotoSerifHentaigana[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 is_noto: true
 sample_text {
-  # The text is the traditional Japanese pangram poem "Iroha"
-  # https://en.wikipedia.org/wiki/Iroha
   masthead_full: "𛀆𛄆𛂡𛂉"
   masthead_partial: "𛀆𛄆"
   styles: "𛀆𛄆𛂡𛂉𛂺𛂳𛁹 𛁢𛃱𛂏𛃸𛄖 𛄉𛀗𛃧𛁟𛄀𛁗 𛁩𛂒𛁿𛃰𛃐"
-  # This is "I-I-I-I RO-RO-RO-RO HA-HA-HA-HA ..." using different variant forms of each character
   tester: "𛀆𛀇𛀈𛀉 𛄂𛄃𛄄𛄅 𛂞𛂟𛂠𛂡 𛂇𛂈𛂉𛂊 𛂺𛂻𛂼𛂽 𛂳𛂴𛂵𛂶 𛁷𛁸𛁹𛁺 𛁢𛁣𛁤𛁥 𛃱𛃲𛃳𛃴 𛂏𛂐𛂑 𛃸𛃹𛃺𛃻 𛄖𛄗𛄘𛄙"
   poster_sm: "𛀆𛄆𛂡𛂉𛂺𛂳𛁹 𛁢𛃱𛂏𛃸𛄖 𛄉𛀗𛃧𛁟𛄀𛁗 𛁩𛂒𛁿𛃰𛃐"
   poster_md: "𛀆𛄆𛂡𛂉𛂺𛂳𛁹 𛁢𛃱𛂏𛃸𛄖 𛄉𛀗𛃧𛁟𛄀𛁗 𛁩𛂒𛁿𛃰𛃐"

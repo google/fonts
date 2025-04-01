@@ -31,6 +31,7 @@ source {
     dest_file: "Lumanosimo-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "HANDWRITING"

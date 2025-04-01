@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "nandinagari"
 source {
   repository_url: "https://github.com/notofonts/nandinagari"
-  commit: "c75145633ab708aedddef32f5141e8a19a0ece99"
+  commit: "6fd9a06474f168966558decc068b3f404b7d9063"
   archive_url: "https://github.com/notofonts/nandinagari/releases/download/NotoSansNandinagari-v1.003/NotoSansNandinagari-v1.003.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -37,7 +37,8 @@ source {
     dest_file: "NotoSansNandinagari-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-nandinagari.yaml"
 }
 is_noto: true
-languages: "sa_Nand"  # Sanskrit (Nandinagari)
+languages: "sa_Nand"
 primary_script: "Nand"

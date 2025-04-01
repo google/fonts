@@ -32,6 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/weiweihuanghuang/Work-Sans"
+  commit: "b35c81086186162164947bd39574683073d9b268"
   files {
     source_file: "fonts/variable/WorkSans[wght].ttf"
     dest_file: "WorkSans[wght].ttf"
@@ -45,4 +46,5 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

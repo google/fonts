@@ -27,6 +27,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/windsong"
+  commit: "08da686e588864189c5c1616ed6971c1aeebafd5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -44,6 +45,7 @@ source {
     dest_file: "WindSong-Medium.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

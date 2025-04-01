@@ -38,7 +38,7 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/dy/wavefont"
-  commit: "91649d7bede2a302b8b820dbccc2401672400cdd"
+  commit: "76d6e2cb12f3cbea3fb2766ae3f849a061a54227"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -48,6 +48,7 @@ source {
     dest_file: "Wavefont[ROND,YELA,wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 sample_text {
   masthead_full: "111198765432111987654432111"

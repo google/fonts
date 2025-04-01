@@ -32,6 +32,7 @@ source {
     dest_file: "Tapestry-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

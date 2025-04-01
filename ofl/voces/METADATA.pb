@@ -17,4 +17,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/VocesFont"
+  commit: "48b989992d00a8df49a81c26989876b77c633597"
+  config_yaml: "sources/config.yaml"
 }

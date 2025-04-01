@@ -37,6 +37,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Etcetera-Type-Co/Tourney"
+  commit: "643f1026ad6d41b4527f42cd93c776414fdd6503"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -50,6 +51,7 @@ source {
     dest_file: "Tourney[wdth,wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

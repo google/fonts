@@ -37,7 +37,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/CatharsisFonts/Ysabeau"
-  commit: "8e2ca3573545176256d370f891604bc453029568"
+  commit: "c21395fc7e596c66e8e03daa09babf245005ce01"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -55,4 +55,5 @@ source {
     dest_file: "YsabeauInfant-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

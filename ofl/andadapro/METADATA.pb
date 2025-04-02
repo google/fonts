@@ -32,6 +32,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/huertatipografica/Andada-Pro"
+  commit: "a0b87b947003dee6c615809d3eebc8c1334dc575"
+  config_yaml: "sources/build.yaml"
   files {
     source_file: "fonts/variable/AndadaPro[wght].ttf"
     dest_file: "AndadaPro[wght].ttf"

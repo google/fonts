@@ -54,4 +54,30 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/CatharsisFonts/Cormorant"
+  commit: "b1a0a7781e3a59d3c2a96f953650463469a2e841"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "1. TrueType Font Files/CormorantUpright-Bold.ttf"
+    dest_file: "CormorantUpright-Bold.ttf"
+  }
+  files {
+    source_file: "1. TrueType Font Files/CormorantUpright-Light.ttf"
+    dest_file: "CormorantUpright-Light.ttf"
+  }
+  files {
+    source_file: "1. TrueType Font Files/CormorantUpright-Medium.ttf"
+    dest_file: "CormorantUpright-Medium.ttf"
+  }
+  files {
+    source_file: "1. TrueType Font Files/CormorantUpright-Regular.ttf"
+    dest_file: "CormorantUpright-Regular.ttf"
+  }
+  files {
+    source_file: "1. TrueType Font Files/CormorantUpright-SemiBold.ttf"
+    dest_file: "CormorantUpright-SemiBold.ttf"
+  }
+  branch: "master"
 }

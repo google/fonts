@@ -12,7 +12,7 @@ fonts {
   full_name: "Cactus Classical Serif Regular"
   copyright: "Copyright 2024 The Cactus Classical Serif Project Authors (https://github.com/MoonlitOwen/CactusSerif)"
 }
-subsets: "chinese-hongkong"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"

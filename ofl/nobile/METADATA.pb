@@ -57,6 +57,7 @@ fonts {
   full_name: "Nobile Bold Italic"
   copyright: "Copyright (c) 2010 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name \'Nobile\'. All rights reserved."
 }
+subsets: "cyrillic"
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"

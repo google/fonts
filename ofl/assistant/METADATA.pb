@@ -12,6 +12,7 @@ fonts {
   full_name: "Assistant ExtraLight"
   copyright: "Copyright 2020 The Assistant Project Authors (https://github.com/hafontia/Assistant). Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro), with Reserved Font Name \'Source\'. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
 }
+primary_script: "Hebr"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"

@@ -34,5 +34,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Guru"
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"

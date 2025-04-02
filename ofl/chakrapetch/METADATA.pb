@@ -101,5 +101,6 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/m4rc1e/Chakra-Petch"
 }
+primary_script: "Thai"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

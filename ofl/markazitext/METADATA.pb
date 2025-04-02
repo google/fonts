@@ -27,3 +27,4 @@ source {
   commit: "a876c4f0111b96f407741a877e79f207e9117338"
   config_yaml: "sources/config.yaml"
 }
+primary_script: "Arab"

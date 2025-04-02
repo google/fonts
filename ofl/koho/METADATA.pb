@@ -119,3 +119,4 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/Koho"
 }
+primary_script: "Thai"

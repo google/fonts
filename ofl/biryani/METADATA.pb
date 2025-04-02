@@ -73,3 +73,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/typeoff/biryani"
 }
+primary_script: "Deva"

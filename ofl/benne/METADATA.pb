@@ -34,3 +34,4 @@ source {
   branch: "master"
   config_yaml: "sources/config.yaml"
 }
+primary_script: "Knda"

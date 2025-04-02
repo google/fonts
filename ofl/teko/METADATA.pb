@@ -34,5 +34,6 @@ source {
   }
   branch: "master"
 }
+primary_script: "Deva"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

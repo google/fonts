@@ -1,6 +1,6 @@
 import { DuckDBInstance } from "@duckdb/node-api";
 
-const instance = await DuckDBInstance.create("./src/fontspector.db");
+const instance = await DuckDBInstance.create("../../fontspector.db");
 const db = await instance.connect();
 
 const reader = await db.runAndReadAll(

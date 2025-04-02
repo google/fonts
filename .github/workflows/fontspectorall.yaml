@@ -1,6 +1,5 @@
 name: QA whole library
 on:
-  push:
   schedule:
     - cron: "12 1 * * *"
 jobs:
@@ -14,7 +13,7 @@ jobs:
           ref: main
           lfs: true
       - name: Grab fontspector database
-        run: git fetch origin gh-pages; git checkout gh-pages; cp fontspector-dashboard/fontspector.db .ci/fontspector-dashboard/src/fontspector.db || true; git checkout main
+        run: git fetch origin gh-pages; git checkout gh-pages; cp fontspector-dashboard/fontspector.db . ; git checkout main
       - name: Install protoc
         run: brew install protobuf
       - name: Install Rust
@@ -22,9 +21,11 @@ jobs:
       - name: Build fontspector
         run: cargo install --git https://github.com/fonttools/fontspector --features duckdb
       - name: Test all the things
-        run: fontspector --profile googlefonts ofl/*/*{.ttf,.pb,*html,*svg,*jpg,*gif} --skip-network --succinct --duckdb .ci/fontspector-dashboard/src/fontspector.db || true
+        run: fontspector --profile googlefonts ofl/*/*{.ttf,.pb,*html,*svg,*jpg,*gif} --skip-network --succinct --duckdb fontspector.db || true
       - name: Build dashboard
-        run: cd .ci/fontspector-dashboard && npm install && npm run build && cp src/fontspector.db ../../fontspector-dashboard-build/
+        run: cd .ci/fontspector-dashboard && npm install && npm run build
+      - name: Stash database again
+        run: cp fontspector.db fontspector-dashboard-build/
       - name: Add to branch
         run: git checkout gh-pages; git rm -rf fontspector-dashboard || true; rm -rf fontspector-dashboard || true; mv fontspector-dashboard-build fontspector-dashboard
       - name: Upload results

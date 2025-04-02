@@ -24,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "c85bb380b56b2009e7c9bff11f573a3028034161"
+  commit: "12483714650a12591e1914cad7d123e2cadc45e9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -34,7 +34,7 @@ source {
     dest_file: "PlaypenSansDeva[wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yml"
+  config_yaml: "sources/config-Deva.yaml"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 primary_script: "Deva"

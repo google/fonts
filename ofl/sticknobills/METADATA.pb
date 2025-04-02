@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/mooniak/stick-no-bills-font"
+  commit: "b7d7f0ce678b7785a3271586d9e59f26dc0f6e7e"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

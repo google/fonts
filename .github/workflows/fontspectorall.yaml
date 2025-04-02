@@ -1,6 +1,5 @@
 name: QA whole library
 on:
-  push:
   schedule:
     - cron: "12 1 * * *"
 jobs:

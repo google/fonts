@@ -32,6 +32,7 @@ axes {
 source {
   repository_url: "https://github.com/typofactur/winkyrough"
   commit: "505f77bdee3b09d4290a9a6813d1eded2dea81b5"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

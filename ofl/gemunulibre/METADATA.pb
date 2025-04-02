@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/mooniak/gemunu-libre-font"
+  commit: "8a8867dd893adb9e82baef9d85ccbc3764a55b0c"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

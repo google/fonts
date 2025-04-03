@@ -24,6 +24,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/hyper-type/hahmlet/"
+  commit: "106541144954a9b7037b8d3837097ba660312655"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "fonts/variable/Hahmlet[wght].ttf"
     dest_file: "Hahmlet[wght].ttf"

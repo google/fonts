@@ -2,30 +2,32 @@ name: Google Fonts QA
 on:
   pull_request:
     paths:
-    - 'ofl/*/*'
-    - 'ufl/*/*'
-    - 'apache/*/*'
+      - "ofl/*/*"
+      - "ufl/*/*"
+      - "apache/*/*"
+
+env:
+  DIFFENATOR3_VERSION: "0.1.2"
 
 jobs:
-
   diffbrowsers:
     name: Build Google Fonts
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        python-version: ['3.10']
+        python-version: ["3.10"]
         os: [windows-latest, macos-13, ubuntu-22.04]
     steps:
       - name: Cancel previous
         uses: styfle/cancel-workflow-action@0.11.0
         with:
           access_token: ${{ github.token }}
-    
+
       - uses: actions/checkout@v1
       - name: Set up Python 3.10
         uses: actions/setup-python@v4.4.0
         with:
-          python-version: '3.10'
+          python-version: "3.10"
       - name: Install packages
         run: |
           pip install gftools[qa] pytest
@@ -33,7 +35,7 @@ jobs:
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1.6.2
         with:
-          chrome-version: '127.0.6509.0'
+          chrome-version: "127.0.6509.0"
       - name: Setup Chrome Driver
         uses: nanasess/setup-chromedriver@v2.2.2
 
@@ -51,8 +53,8 @@ jobs:
           chromedriver --url-base=/wd/hub &
           python3 .ci/run.py --render
         env:
-          PYTHONIOENCODING: 'utf-8'
-          PYTHONUTF8: '1'
+          PYTHONIOENCODING: "utf-8"
+          PYTHONUTF8: "1"
         shell: bash
 
       - name: Check file existence
@@ -83,33 +85,45 @@ jobs:
         uses: styfle/cancel-workflow-action@0.11.0
         with:
           access_token: ${{ github.token }}
-    
+
       - uses: actions/checkout@v1
       - name: Set up Python 3.10
         uses: actions/setup-python@v4.4.0
         with:
-          python-version: '3.10'
+          python-version: "3.10"
       - name: Install packages
         # The --pre flag below will ensure we use the latest Font Bakery pre-releases
         # and benefit from its newest checks:
         run: |
           pip install --upgrade pip
-          pip install --pre fontbakery[googlefonts]
-          pip install gftools[qa] pytest
+          pip install pytest
+          pip install "gftools[qa]@git+https://github.com/simoncozens/gftools@rust-qa"
         shell: bash
+      - name: Install diffenator3 and fontspector
+        run: |
+          wget https://nightly.link/fonttools/fontspector/workflows/rust/main/fontspector-dev-x86_64-unknown-linux-gnu-py3.10.tar.gz.zip
+          unzip fontspector-dev-x86_64-unknown-linux-gnu-py3.10.tar.gz.zip
+          tar zxvf fontspector-dev-x86_64-unknown-linux-gnu-py3.10.tar.gz
+          sudo cp fontspector-dev*/fontspector /usr/local/bin/
 
+          wget "https://github.com/googlefonts/diffenator3/releases/download/v$DIFFENATOR3_VERSION/diffenator3-v$DIFFENATOR3_VERSION-x86_64-unknown-linux-musl.tar.gz"
+          tar zxvf diffenator3-v$DIFFENATOR3_VERSION-x86_64-unknown-linux-musl.tar.gz
+          cp diffenator3*/* /usr/local/bin/
+      - name: Install interpolatable
+        run: |
+          cargo install --git https://github.com/simoncozens/interpolatable
       - name: Run Diffenator and Fontbakery
         run: |
           mkdir out
           python -m youseedee 0x078A
           python3 .ci/run.py --pr-number $PR_NUMBER --pr-url-body https://www.github.com/google/fonts/pull/
         env:
-          PYTHONIOENCODING: 'utf-8'
-          PYTHONUTF8: '1'
+          PYTHONIOENCODING: "utf-8"
+          PYTHONUTF8: "1"
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.number }}
         shell: bash
-      
+
       - name: Check file existence
         id: check_files
         uses: andstor/file-existence-action@v2.0.0
@@ -148,7 +162,6 @@ jobs:
       - name: Set up Python 3.10
         uses: actions/setup-python@v4.4.0
         with:
-          python-version: '3.10'
+          python-version: "3.10"
       - name: Test font with ftxvalidator
         run: python3 .ci/ftxvalidator.py
-      

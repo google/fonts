@@ -10,7 +10,7 @@ fonts {
   filename: "Akatab-Regular.ttf"
   post_script_name: "Akatab-Regular"
   full_name: "Akatab"
-  copyright: "Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
+  copyright: "Copyright (c) 2010-2025, SIL Global (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
 }
 fonts {
   name: "Akatab"
@@ -19,7 +19,7 @@ fonts {
   filename: "Akatab-Medium.ttf"
   post_script_name: "Akatab-Medium"
   full_name: "Akatab Medium"
-  copyright: "Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
+  copyright: "Copyright (c) 2010-2025, SIL Global (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
 }
 fonts {
   name: "Akatab"
@@ -28,7 +28,7 @@ fonts {
   filename: "Akatab-SemiBold.ttf"
   post_script_name: "Akatab-SemiBold"
   full_name: "Akatab SemiBold"
-  copyright: "Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
+  copyright: "Copyright (c) 2010-2025, SIL Global (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
 }
 fonts {
   name: "Akatab"
@@ -37,7 +37,7 @@ fonts {
   filename: "Akatab-Bold.ttf"
   post_script_name: "Akatab-Bold"
   full_name: "Akatab Bold"
-  copyright: "Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
+  copyright: "Copyright (c) 2010-2025, SIL Global (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
 }
 fonts {
   name: "Akatab"
@@ -46,7 +46,7 @@ fonts {
   filename: "Akatab-ExtraBold.ttf"
   post_script_name: "Akatab-ExtraBold"
   full_name: "Akatab ExtraBold"
-  copyright: "Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
+  copyright: "Copyright (c) 2010-2025, SIL Global (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
 }
 fonts {
   name: "Akatab"
@@ -55,7 +55,7 @@ fonts {
   filename: "Akatab-Black.ttf"
   post_script_name: "Akatab-Black"
   full_name: "Akatab Black"
-  copyright: "Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
+  copyright: "Copyright (c) 2010-2025, SIL Global (https://scripts.sil.org), with Reserved Font Name \"Akatab\", copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name \"Source\" (Latin glyphs)."
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -63,33 +63,34 @@ subsets: "menu"
 subsets: "tifinagh"
 source {
   repository_url: "https://github.com/silnrsi/font-akatab"
-  archive_url: "https://github.com/silnrsi/font-akatab/releases/download/v3.000/Akatab-3.000.zip"
+  commit: "54e989b80bf4c99a2b16dc40710083b2b80ebaef"
+  archive_url: "https://github.com/silnrsi/font-akatab/releases/download/v4.000/Akatab-4.000.zip"
   files {
-    source_file: "Akatab-3.000/OFL.txt"
+    source_file: "Akatab-4.000/OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "Akatab-3.000/Akatab-Regular.ttf"
+    source_file: "Akatab-4.000/Akatab-Regular.ttf"
     dest_file: "Akatab-Regular.ttf"
   }
   files {
-    source_file: "Akatab-3.000/Akatab-Medium.ttf"
+    source_file: "Akatab-4.000/Akatab-Medium.ttf"
     dest_file: "Akatab-Medium.ttf"
   }
   files {
-    source_file: "Akatab-3.000/Akatab-SemiBold.ttf"
+    source_file: "Akatab-4.000/Akatab-SemiBold.ttf"
     dest_file: "Akatab-SemiBold.ttf"
   }
   files {
-    source_file: "Akatab-3.000/Akatab-Bold.ttf"
+    source_file: "Akatab-4.000/Akatab-Bold.ttf"
     dest_file: "Akatab-Bold.ttf"
   }
   files {
-    source_file: "Akatab-3.000/Akatab-ExtraBold.ttf"
+    source_file: "Akatab-4.000/Akatab-ExtraBold.ttf"
     dest_file: "Akatab-ExtraBold.ttf"
   }
   files {
-    source_file: "Akatab-3.000/Akatab-Black.ttf"
+    source_file: "Akatab-4.000/Akatab-Black.ttf"
     dest_file: "Akatab-Black.ttf"
   }
   branch: "master"

@@ -21,6 +21,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/octaviopardo/Protest"
   commit: "094e74050a0547c8decd760b4f926321a5e72c6e"
+  config_yaml: "sources/config-Strike.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

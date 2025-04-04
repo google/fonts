@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/scfried/soft-type-jersey"
   commit: "afc20d521110d3ba6d6614d226896c74d62f8f2f"
+  config_yaml: "sources/config-jersey25charted.yaml"
   files {
     source_file: "fonts/ttf/Jersey25Charted-Regular.ttf"
     dest_file: "Jersey25Charted-Regular.ttf"

@@ -19,6 +19,7 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/scfried/soft-type-yarndings"
   commit: "31a5afb1007733ed93b7ade5b1eccc164fc75bca"
+  config_yaml: "sources/config-yarndings20.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

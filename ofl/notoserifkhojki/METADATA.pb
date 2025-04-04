@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/khojki"
+  commit: "02e25bf94664812076be4fa7dd1d688641e4bf8a"
+  config_yaml: "sources/config-serif-khojki.yaml"
   archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSerifKhojki-v2.005/NotoSerifKhojki-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

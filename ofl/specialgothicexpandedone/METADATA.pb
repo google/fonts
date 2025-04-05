@@ -27,5 +27,6 @@ source {
     dest_file: "SpecialGothicExpandedOne-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-expanded.yaml"
 }
 stroke: "SANS_SERIF"

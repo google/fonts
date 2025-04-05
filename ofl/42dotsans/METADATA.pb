@@ -23,5 +23,7 @@ axes {
 primary_script: "Kore"
 source {
   repository_url: "https://github.com/42dot/42dot-Sans"
+  commit: "d23e87fe44d5b4f5afaa9dca9d5926d7c414d625"
   branch: "main"
+  config_yaml: "sources/config_variable.yaml"
 }

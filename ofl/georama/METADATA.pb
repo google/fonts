@@ -37,6 +37,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/productiontype/Georama"
+  commit: "1b063b6256c228a56d13b8b2f8f1d807f41467f8"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "ofl.txt"
     dest_file: "OFL.txt"

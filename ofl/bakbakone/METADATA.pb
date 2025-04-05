@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/bakbak"
+  commit: "b53b9c31c16f0021b7c206a57a8f04a4d382bc67"
   files {
     source_file: "fonts/ttf/BakbakOne-Regular.ttf"
     dest_file: "BakbakOne-Regular.ttf"
@@ -27,6 +28,7 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/builder.yaml"
 }
 primary_script: "Deva"
 stroke: "SANS_SERIF"

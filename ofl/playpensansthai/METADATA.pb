@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "c85bb380b56b2009e7c9bff11f573a3028034161"
+  commit: "edaffec145577d12d6b5439ecb954b9f76a4a9a5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -35,7 +35,7 @@ source {
     dest_file: "PlaypenSansThai[wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yml"
+  config_yaml: "sources/config-Thai.yaml"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 primary_script: "Thai"

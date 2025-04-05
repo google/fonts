@@ -33,6 +33,7 @@ axes {
 source {
   repository_url: "https://github.com/reddit/redditsans"
   commit: "60e19b50bde6de34b695591a8a047a6a3618a37c"
+  config_yaml: "sources/sans.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -26,6 +26,7 @@ axes {
 source {
   repository_url: "https://github.com/rosettatype/eczar"
   commit: "f248ec9c0c5e3a9442d22824cc1cba6c713725d5"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

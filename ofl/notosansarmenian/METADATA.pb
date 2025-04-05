@@ -29,6 +29,7 @@ axes {
 source {
   repository_url: "https://github.com/notofonts/armenian"
   archive_url: "https://github.com/notofonts/armenian/releases/download/NotoSansArmenian-v2.008/NotoSansArmenian-v2.008.zip"
+  config_yaml: "sources/config-sans-armenian.yaml"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"

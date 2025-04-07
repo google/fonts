@@ -20,6 +20,7 @@ source {
   repository_url: "https://github.com/notofonts/balinese"
   commit: "3677ecce1289bdd0014392c8ef878ba972b93bb0"
   archive_url: "https://github.com/notofonts/balinese/releases/download/NotoSerifBalinese-v2.007/NotoSerifBalinese-v2.007.zip"
+  config_yaml: "sources/config-serif-balinese.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

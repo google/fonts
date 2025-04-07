@@ -33,5 +33,6 @@ source {
     dest_file: "NationalPark[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

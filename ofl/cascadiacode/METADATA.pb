@@ -39,4 +39,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/microsoft/cascadia-code"
+  commit: "56bcca3f2c1e4cb19458954f0e2bb4635960df91"
 }

@@ -19,7 +19,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/cyrealtype/Alice"
-  commit: "19421efc21eeeb872773006539ddcd743fb72440"
+  commit: "13be04734d33464e627bd201d35aa9697feed289"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

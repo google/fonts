@@ -24,6 +24,7 @@ axes {
 source {
   repository_url: "https://www.github.com/m4rc1e/mavenproFont"
   commit: "a694ee80d067e6f8cad700930e78ce395d4949e6"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "fonts/variable/MavenPro[wght].ttf"
     dest_file: "MavenPro[wght].ttf"

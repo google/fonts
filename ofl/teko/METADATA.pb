@@ -24,6 +24,7 @@ axes {
 source {
   repository_url: "https://www.github.com/googlefonts/teko"
   commit: "6715caf853f342eef57ea367b6c2991cd3928398"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

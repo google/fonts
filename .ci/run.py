@@ -26,6 +26,9 @@ def main():
     for directory, check_type in directory_check_types(args.branch):
         out = os.path.join("out", os.path.basename(directory))
         fonts = glob(os.path.join(directory, "*.ttf"))
+        if not fonts:
+            print(f"Skipping {directory} because no fonts were found")
+            continue
 
         qa_cmd_prefix = ["gftools", "qa", "-f"] + fonts + ["-o", out]
         if args.pr_number:

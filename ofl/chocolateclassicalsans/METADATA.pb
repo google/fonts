@@ -1,5 +1,5 @@
 name: "Chocolate Classical Sans"
-designer: "Moonlit Owen"
+designer: "Moonlit Owen 宇文滿月"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-05-14"

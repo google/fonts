@@ -32,6 +32,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/georgian"
+  commit: "c02e5483c2dd63c5cf223845010ebd6e6dc56aec"
+  config_yaml: "sources/config-sans-georgian.yaml"
   archive_url: "https://github.com/notofonts/georgian/releases/download/NotoSansGeorgian-v2.005/NotoSansGeorgian-v2.005.zip"
   files {
     source_file: "ARTICLE.en_us.html"

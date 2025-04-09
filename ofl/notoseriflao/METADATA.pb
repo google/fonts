@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/lao"
+  commit: "ab77daf4d8d6d9564da2dae84ae31bd9c971090f"
+  config_yaml: "sources/config-serif-lao.yaml"
   archive_url: "https://github.com/notofonts/lao/releases/download/NotoSerifLao-v2.003/NotoSerifLao-v2.003.zip"
   files {
     source_file: "ARTICLE.en_us.html"

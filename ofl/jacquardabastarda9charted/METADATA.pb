@@ -29,5 +29,6 @@ source {
     dest_file: "JacquardaBastarda9Charted-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-charted.yaml"
 }
 stroke: "SERIF"

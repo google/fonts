@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/docrepair-fonts/lugrasimo-fonts"
-  commit: "40395a6877a6bcdfe74deb2a7e355c0a4c7228e7"
+  commit: "18103084964ae884ad65dc31115dbc650b164a1a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,6 +31,7 @@ source {
     dest_file: "Lugrasimo-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "HANDWRITING"

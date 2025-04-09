@@ -33,7 +33,8 @@ source {
     dest_file: "Danfo[ELSH].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
+minisite_url: "https://www.afrotype.com/danfo"
 stroke: "SERIF"
 classifications: "DISPLAY"
-minisite_url: "https://www.afrotype.com/danfo"

@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/kaithi"
-  commit: "a439d16c5fd54cce21f4a46ee6cb18813c3d5112"
+  commit: "897d285a72e97fa29eed1c6db8db95ede52951e7"
   archive_url: "https://github.com/notofonts/kaithi/releases/download/NotoSansKaithi-v2.006/NotoSansKaithi-v2.006.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -37,7 +37,8 @@ source {
     dest_file: "NotoSansKaithi-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-kaithi.yaml"
 }
 is_noto: true
-languages: "bho_Kthi"  # Bhojpuri, Kaithi
+languages: "bho_Kthi"
 primary_script: "Kthi"

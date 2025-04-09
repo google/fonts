@@ -33,6 +33,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/genos"
+  commit: "707181862a0fe1ceecc334bb54c63ea4377e95d8"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -50,6 +51,8 @@ source {
     dest_file: "Genos-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
+primary_script: "Cher"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -24,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/golos-text"
-  commit: "d321a70cd12f84603617d4cf5d0e0321c2291dd9"
+  commit: "cf2e27222937d97c2d858fff0499bcc667a64e9d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -34,4 +34,5 @@ source {
     dest_file: "GolosText[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

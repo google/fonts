@@ -19,6 +19,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/comforter-brush"
+  commit: "4f308116699899ec59db6b7596e00912abd4ebef"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,6 +33,7 @@ source {
     dest_file: "ComforterBrush-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

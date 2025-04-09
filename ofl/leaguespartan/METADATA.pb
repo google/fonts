@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/theleagueof/league-spartan"
+  commit: "27341b9bf93a2c7faa140538a64ce342486c5fb5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,4 +33,5 @@ source {
     dest_file: "LeagueSpartan[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

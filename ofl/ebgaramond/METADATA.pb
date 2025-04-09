@@ -36,5 +36,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/octaviopardo/EBGaramond12"
+  commit: "e608414f52e532b68e2182f96b4ce9db35335593"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://googlefonts.github.io/ebgaramond-specimen/"

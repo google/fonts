@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/inscriptional-parthian"
-  commit: "893003503fb689e1b2a3d8810b7ee67d8ab98bf7"
+  commit: "3ad1b227f70b46d299ec1a911a39136c8b2a5a89"
   archive_url: "https://github.com/notofonts/inscriptional-parthian/releases/download/NotoSansInscriptionalParthian-v2.004/NotoSansInscriptionalParthian-v2.004.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -37,8 +37,9 @@ source {
     dest_file: "NotoSansInscriptionalParthian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-inscriptional-parthian.yaml"
 }
 is_noto: true
-languages: "aii_Prti"  # Assyrian Neo-Aramaic, Inscriptional Parthian
-languages: "xpr_Prti"  # Parthian
+languages: "aii_Prti"
+languages: "xpr_Prti"
 primary_script: "Prti"

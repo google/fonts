@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "psalter-pahlavi"
 source {
   repository_url: "https://github.com/notofonts/psalter-pahlavi"
-  commit: "67ed6002f772c9b7cea9c8d56c28e2fe65bd114d"
+  commit: "2f531fdc967e90d6d01da58384063314ccd14bf5"
   archive_url: "https://github.com/notofonts/psalter-pahlavi/releases/download/NotoSansPsalterPahlavi-v2.003/NotoSansPsalterPahlavi-v2.003.zip"
   files {
     source_file: "OFL.txt"
@@ -37,8 +37,9 @@ source {
     dest_file: "NotoSansPsalterPahlavi-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-psalter-pahlavi.yaml"
 }
 is_noto: true
-languages: "aii_Phlp"  # Assyrian Neo-Aramaic, Psalter Pahlavi
-languages: "pal_Phlp"  # Pahlavi, Psalter Pahlavi
+languages: "aii_Phlp"
+languages: "pal_Phlp"
 primary_script: "Phlp"

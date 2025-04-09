@@ -67,5 +67,6 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://www.colophon-foundry.org/custom-projects/space-mono"

@@ -29,4 +29,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/Inconsolata"
+  commit: "fc1fc21081558b39a2db43bfd9b65bf9acb50701"
+  config_yaml: "sources/config.yaml"
 }

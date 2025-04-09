@@ -50,6 +50,7 @@ source {
     dest_file: "SourGummy-Italic[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

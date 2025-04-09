@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/oooh-baby"
+  commit: "f36e2452e1c1a793fcf49524ab392eb6a2cd1dce"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,4 +32,5 @@ source {
     dest_file: "OoohBaby-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }

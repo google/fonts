@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/coptic"
+  commit: "ed3522436a4e3c41b0479c8d7785facd3c397eaa"
   archive_url: "https://github.com/notofonts/coptic/releases/download/NotoSansCoptic-v2.004/NotoSansCoptic-v2.004.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansCoptic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-coptic.yaml"
 }
 is_noto: true
-languages: "cop_Copt"  # Coptic, Coptic
+languages: "cop_Copt"
 primary_script: "Copt"

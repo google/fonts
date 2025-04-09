@@ -34,6 +34,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/alumni"
+  commit: "28754a9295db605d4e4ffc7bf60b4a8301eef9ab"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -47,6 +48,7 @@ source {
     dest_file: "AlumniSans-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

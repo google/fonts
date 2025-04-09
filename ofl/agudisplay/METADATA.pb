@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/theseunbadejo/Agu-Display"
-  commit: "17a7ce91583f40d9e8f21eab6c57870a59c1b668"
+  commit: "d520ebead8de4091a82040fe3d8f94d84c38c66f"
   archive_url: "https://github.com/theseunbadejo/Agu-Display/releases/download/1.05/Agu-Display-1.05.zip"
   files {
     source_file: "OFL.txt"
@@ -38,6 +38,7 @@ source {
     dest_file: "article/ARTICLE.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://www.agudisplay.com"
 stroke: "SERIF"

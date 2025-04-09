@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/cuneiform"
+  commit: "24c590e3586376ead66466b6c8b8a810df24d06f"
   archive_url: "https://github.com/notofonts/cuneiform/releases/download/NotoSansCuneiform-v2.001/NotoSansCuneiform-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansCuneiform-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-cuneiform.yaml"
 }
 is_noto: true
-languages: "akk_Xsux"  # Akkadian
-languages: "hit_Xsux"  # Hittite
+languages: "akk_Xsux"
+languages: "hit_Xsux"
 primary_script: "Xsux"

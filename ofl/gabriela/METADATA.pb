@@ -29,6 +29,7 @@ source {
     dest_file: "Gabriela-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

@@ -27,5 +27,6 @@ source {
     dest_file: "NewAmsterdam-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

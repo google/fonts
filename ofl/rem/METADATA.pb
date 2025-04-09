@@ -50,4 +50,5 @@ source {
     dest_file: "REM-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

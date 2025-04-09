@@ -1,7 +1,7 @@
 name: "Antonio"
 designer: "Vernon Adams"
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2013-03-06"
 fonts {
   name: "Antonio"
@@ -22,6 +22,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/antonioFont"
+  commit: "08562998b10c6c21a3505f47236b42f5d58c9909"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -35,6 +36,7 @@ source {
     dest_file: "Antonio[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

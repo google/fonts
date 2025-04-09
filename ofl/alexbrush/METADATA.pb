@@ -24,4 +24,5 @@ source {
     dest_file: "AlexBrush-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }

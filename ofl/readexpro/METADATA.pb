@@ -39,5 +39,6 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Arab"

@@ -12,6 +12,7 @@ fonts {
   full_name: "Geist Regular"
   copyright: "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)"
 }
+subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -23,6 +24,7 @@ axes {
 source {
   repository_url: "https://github.com/vercel/geist-font"
   commit: "b193ef74010119759bfb7f71ddf81a3dee238535"
+  config_yaml: "sources/config-Geist.yaml"
   archive_url: "https://github.com/vercel/geist-font/releases/download/1.4.01/Geist-1.4.01.zip"
   files {
     source_file: "variable/Geist[wght].ttf"

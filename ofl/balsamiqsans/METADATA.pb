@@ -46,6 +46,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/balsamiq/balsamiqsans"
+  commit: "009740f8b2c3915b1553182ec406aaddb1a12dc7"
   archive_url: "https://github.com/balsamiq/balsamiqsans/releases/download/1.020/balsamiqsans-fonts.zip"
   files {
     source_file: "balsamiqsans-fonts/fonts/ttf/BalsamiqSans-Bold.ttf"
@@ -64,6 +65,7 @@ source {
     dest_file: "BalsamiqSans-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

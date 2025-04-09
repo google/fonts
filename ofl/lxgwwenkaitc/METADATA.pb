@@ -43,6 +43,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/aaronbell/LxgwWenkaiTC"
   commit: "a5cf76f5bd1f26cdf74ca1b22b9f6fe17b8d5bc5"
+  config_yaml: "sources/project.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

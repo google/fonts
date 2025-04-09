@@ -34,6 +34,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/mulish"
+  commit: "5503f7a18ce79870148b9f9cb8e592ac44c044c3"
   files {
     source_file: "fonts/variable/Mulish[wght].ttf"
     dest_file: "Mulish[wght].ttf"
@@ -51,4 +52,5 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -31,7 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/atkinson-hyperlegible-next"
-  commit: "5d633f80fc654ef5fffa7cfc257528685158dcef"
+  commit: "7925f50f649b3813257faf2f4c0b381011f434f1"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -45,5 +45,6 @@ source {
     dest_file: "AtkinsonHyperlegibleNext-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

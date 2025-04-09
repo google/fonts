@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/diplomata"
   commit: "32dc35e6b420631acc10808e1f92f74e3048e81d"
+  config_yaml: "sources/diplomatasc.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

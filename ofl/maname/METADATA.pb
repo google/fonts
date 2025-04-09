@@ -30,5 +30,6 @@ source {
     dest_file: "Maname-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Sinh"

@@ -32,6 +32,7 @@ source {
     dest_file: "Parkinsans[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Latn"
 stroke: "SANS_SERIF"

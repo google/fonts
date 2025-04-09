@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "music"
 source {
   repository_url: "https://github.com/notofonts/music"
+  commit: "2c97b9ea6927a3a80bc7289d663d9115b070f365"
   archive_url: "https://github.com/notofonts/music/releases/download/NotoMusic-v2.003/NotoMusic-v2.003.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,6 +37,7 @@ source {
     dest_file: "NotoMusic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-music.yaml"
 }
 is_noto: true
 sample_text {

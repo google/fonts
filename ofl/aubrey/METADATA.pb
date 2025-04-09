@@ -16,6 +16,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/cyrealtype/Aubrey"
+  commit: "1946b0d99c0fec87702a59afc8b5b941a32e0171"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

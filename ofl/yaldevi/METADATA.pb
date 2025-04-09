@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/mooniak/yaldevi-font"
+  commit: "187eddeb8dae00acd11f2b96e0c74ea3d70ed302"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -37,3 +39,4 @@ source {
   }
   branch: "main"
 }
+primary_script: "Sinh"

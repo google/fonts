@@ -34,7 +34,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/nunito"
-  commit: "43d16f963c5c341c10efa0bfe7a82aa1bea8a938"
+  commit: "8c6a9bb9732545b9ed53f29ec5e1ab0ff53c4e6f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -48,4 +48,5 @@ source {
     dest_file: "Nunito-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

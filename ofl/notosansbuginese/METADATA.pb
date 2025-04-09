@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/buginese"
+  commit: "8d73947363e673e82d4812be966a212d7633a7ee"
   archive_url: "https://github.com/notofonts/buginese/releases/download/NotoSansBuginese-v2.002/NotoSansBuginese-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -36,10 +37,11 @@ source {
     dest_file: "NotoSansBuginese-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-buginese.yaml"
 }
 is_noto: true
-languages: "bug_Bugi"  # Buginese, Buginese
-languages: "mak_Bugi"  # Makasar, Buginese
-languages: "mdr_Bugi"  # Mandar, Buginese
-languages: "sa_Bugi"  # Sanskrit, Buginese
+languages: "bug_Bugi"
+languages: "mak_Bugi"
+languages: "mdr_Bugi"
+languages: "sa_Bugi"
 primary_script: "Bugi"

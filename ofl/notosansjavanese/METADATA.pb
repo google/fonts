@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/javanese"
+  commit: "da4d01347950f097f175ff332955f5d95f8bd617"
   archive_url: "https://github.com/notofonts/javanese/releases/download/NotoSansJavanese-v2.005/NotoSansJavanese-v2.005.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoSansJavanese[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-javanese.yaml"
 }
 is_noto: true
-languages: "jv_Java"  # Javanese, Javanese
+languages: "jv_Java"
 primary_script: "Java"

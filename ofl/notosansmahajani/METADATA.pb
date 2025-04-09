@@ -18,6 +18,7 @@ subsets: "mahajani"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/mahajani"
+  commit: "6af195b21b1841f6b842af2a3d2f6b252718a70d"
   archive_url: "https://github.com/notofonts/mahajani/releases/download/NotoSansMahajani-v2.003/NotoSansMahajani-v2.003.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansMahajani-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-mahajani.yaml"
 }
 is_noto: true
-languages: "hi_Mahj"  # Hindi, Mahajani
+languages: "hi_Mahj"
 primary_script: "Mahj"

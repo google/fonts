@@ -58,5 +58,6 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "http://bonanova.wtf"

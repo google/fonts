@@ -18,7 +18,7 @@ subsets: "masaram-gondi"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/masaram-gondi"
-  commit: "ce1d61955ea2cdc3da93cdc8dc0786aebd4a8667"
+  commit: "aa688154eb5d517ed368e6905fbf1d2e087141a1"
   archive_url: "https://github.com/notofonts/masaram-gondi/releases/download/NotoSansMasaramGondi-v1.005/NotoSansMasaramGondi-v1.005.zip"
   files {
     source_file: "OFL.txt"
@@ -37,10 +37,11 @@ source {
     dest_file: "NotoSansMasaramGondi-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-masaram-gondi.yaml"
 }
 is_noto: true
-languages: "esg_Gonm"  # Aheri Gondi
-languages: "gon_Gonm"  # Gondi, Masaram Gondi
-languages: "sa_Gonm"  # Sanskrit, Masaram Gondi
-languages: "wsg_Gonm"  # Adilabad Gondi
+languages: "esg_Gonm"
+languages: "gon_Gonm"
+languages: "sa_Gonm"
+languages: "wsg_Gonm"
 primary_script: "Gonm"

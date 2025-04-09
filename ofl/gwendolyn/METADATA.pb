@@ -27,6 +27,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/gwendolyn"
+  commit: "8ab228a0fd9cc201781ce4596cb039330b504e57"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -44,6 +45,7 @@ source {
     dest_file: "Gwendolyn-Bold.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

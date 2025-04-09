@@ -23,7 +23,7 @@ subsets: "tamil"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/kosbarts/Oi"
-  commit: "5e2b01ea2e873bb5fa58cee970faaaa156804b33"
+  commit: "bd7ccfa844054ec4a0b2b17e56c33830646668ea"
   files {
     source_file: "fonts/ttf/Oi-Regular.ttf"
     dest_file: "Oi-Regular.ttf"
@@ -33,6 +33,7 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/carian"
+  commit: "90653aaa664123ff3b49ac9a1380d08feb84cf4e"
   archive_url: "https://github.com/notofonts/carian/releases/download/NotoSansCarian-v2.002/NotoSansCarian-v2.002.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansCarian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-carian.yaml"
 }
 is_noto: true
-languages: "xcr_Cari"  # Carian
+languages: "xcr_Cari"
 primary_script: "Cari"

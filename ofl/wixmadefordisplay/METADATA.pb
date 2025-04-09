@@ -25,12 +25,14 @@ axes {
 }
 source {
   repository_url: "https://github.com/wix/wixmadefor"
+  commit: "85646f130c8d3edffe66c4d8755c3f9f7abfa877"
   archive_url: "https://github.com/wix/wixmadefor/releases/download/3.100/wixmadefor-fonts.zip"
   files {
     source_file: "wixmadefor-fonts/fonts/variable/WixMadeforDisplay[wght].ttf"
     dest_file: "WixMadeforDisplay[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

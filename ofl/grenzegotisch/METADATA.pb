@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Grenze-Gotisch"
+  commit: "7b5eac166bc3b2a519f98b5c124cb7a11670cc7b"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

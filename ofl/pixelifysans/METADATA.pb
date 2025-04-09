@@ -23,7 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/eifetx/Pixelify-Sans"
-  commit: "b862e0925f58e77583ddb2e056a2d667f2f3544a"
+  commit: "39df74aba80df8157546034b878e8be1eb565ced"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -33,6 +33,7 @@ source {
     dest_file: "PixelifySans[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

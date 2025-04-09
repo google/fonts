@@ -19,7 +19,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Agbalumo"
-  commit: "c6c381d3704ef794dde69b80489d0cde36fb6f9b"
+  commit: "9d9ec3e32c10533233c9e48835e436ff5e5aa451"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -33,5 +33,6 @@ source {
     dest_file: "Agbalumo-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"

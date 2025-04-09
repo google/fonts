@@ -24,7 +24,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Gue3bara/Alexandria"
-  commit: "cee89798e4b38c8df61477a646aa9c111314e6ae"
+  commit: "4fd1422be3488837c41fbdb84a77350f0f56a734"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
@@ -38,5 +38,6 @@ source {
     dest_file: "Alexandria[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Arab"

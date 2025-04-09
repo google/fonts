@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/bhaiksuki"
+  commit: "570db5a125e4f011e2d54b55220c0e2111adea2e"
   archive_url: "https://github.com/notofonts/bhaiksuki/releases/download/NotoSansBhaiksuki-v2.002/NotoSansBhaiksuki-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansBhaiksuki-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-bhaiksuki.yaml"
 }
 is_noto: true
-languages: "sa_Bhks"  # Sanskrit, Bhaiksuki
+languages: "sa_Bhks"
 primary_script: "Bhks"

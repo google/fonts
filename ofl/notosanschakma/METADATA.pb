@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/chakma"
+  commit: "239fe3aac753fa2007fa34fa4897a6b520994e88"
   archive_url: "https://github.com/notofonts/chakma/releases/download/NotoSansChakma-v2.003/NotoSansChakma-v2.003.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansChakma-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-chakma.yaml"
 }
 is_noto: true
-languages: "ccp_Cakm"  # Chakma
+languages: "ccp_Cakm"
 primary_script: "Cakm"

@@ -18,6 +18,7 @@ subsets: "lydian"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/lydian"
+  commit: "fb2444aa3ac4b7e4bd8d5a0e971895f6545aa418"
   archive_url: "https://github.com/notofonts/lydian/releases/download/NotoSansLydian-v2.002/NotoSansLydian-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansLydian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-lydian.yaml"
 }
 is_noto: true
-languages: "xld_Lydi"  # Lydian
+languages: "xld_Lydi"
 primary_script: "Lydi"

@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "pahawh-hmong"
 source {
   repository_url: "https://github.com/notofonts/pahawh-hmong"
+  commit: "793abf16bdd65ee298dcfaf6a8c77113341c4890"
   archive_url: "https://github.com/notofonts/pahawh-hmong/releases/download/NotoSansPahawhHmong-v2.001/NotoSansPahawhHmong-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,10 +37,11 @@ source {
     dest_file: "NotoSansPahawhHmong-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-pahawh-hmong.yaml"
 }
 is_noto: true
-languages: "hmd_Hmng"  # A-Hmao, Pahawh Hmong
-languages: "hmn_Hmng"  # Hmong, Pahawh Hmong
-languages: "hnj_Hmng"  # Mong Njua, Pahawh Hmong
-languages: "mww_Hmng"  # Hmong Daw
+languages: "hmd_Hmng"
+languages: "hmn_Hmng"
+languages: "hnj_Hmng"
+languages: "mww_Hmng"
 primary_script: "Hmng"

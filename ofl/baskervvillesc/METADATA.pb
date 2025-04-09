@@ -27,4 +27,5 @@ source {
     dest_file: "BaskervvilleSC-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

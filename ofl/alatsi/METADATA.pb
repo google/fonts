@@ -20,6 +20,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Alatsi/"
   commit: "92b5663a41d41e2912ec46cb4e523303e33f9723"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

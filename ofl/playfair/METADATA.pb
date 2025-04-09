@@ -59,6 +59,7 @@ source {
     dest_file: "Playfair[opsz,wdth,wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

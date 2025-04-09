@@ -56,5 +56,6 @@ source {
     dest_file: "BodoniModaSC-Italic[opsz,wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"

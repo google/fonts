@@ -21,6 +21,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/glagolitic"
+  commit: "142196c12c02018cbd55250f9ebf9380fa006203"
   archive_url: "https://github.com/notofonts/glagolitic/releases/download/NotoSansGlagolitic-v2.004/NotoSansGlagolitic-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -39,7 +40,8 @@ source {
     dest_file: "NotoSansGlagolitic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-glagolitic.yaml"
 }
 is_noto: true
-languages: "cu_Glag"  # Church Slavic, Glagolitic
+languages: "cu_Glag"
 primary_script: "Glag"

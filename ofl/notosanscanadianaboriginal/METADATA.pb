@@ -25,6 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/canadian-aboriginal"
+  commit: "1766b85dfc150695e2322c33fdc441f552720b6f"
   archive_url: "https://github.com/notofonts/canadian-aboriginal/releases/download/NotoSansCanadianAboriginal-v2.004/NotoSansCanadianAboriginal-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -43,18 +44,19 @@ source {
     dest_file: "NotoSansCanadianAboriginal[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-canadian-aboriginal.yaml"
 }
 is_noto: true
-languages: "chp_Cans"  # Chipewyan, Unified Canadian Aboriginal Syllabics
-languages: "cr_Cans"  # Cree
-languages: "crj_Cans"  # Southern East Cree
-languages: "crk_Cans"  # Plains Cree
-languages: "crl_Cans"  # Northern East Cree
-languages: "crm_Cans"  # Moose Cree
-languages: "csw_Cans"  # Swampy Cree
-languages: "den_Cans"  # Slave, Unified Canadian Aboriginal Syllabics
-languages: "iu_Cans"  # Inuktitut
-languages: "nsk_Cans"  # Naskapi
-languages: "oj_Cans"  # Ojibwa
-languages: "ojb_Cans"  # Northwestern Ojibwa, Unified Canadian Aboriginal Syllabics, Canada
+languages: "chp_Cans"
+languages: "cr_Cans"
+languages: "crj_Cans"
+languages: "crk_Cans"
+languages: "crl_Cans"
+languages: "crm_Cans"
+languages: "csw_Cans"
+languages: "den_Cans"
+languages: "iu_Cans"
+languages: "nsk_Cans"
+languages: "oj_Cans"
+languages: "ojb_Cans"
 primary_script: "Cans"

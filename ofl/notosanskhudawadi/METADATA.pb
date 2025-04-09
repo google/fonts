@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/khudawadi"
-  commit: "77a425be0b41864390f3b973dbd41c9ad47922b9"
+  commit: "842e04f50a19bc13847da26afbbf3ccac2ccc125"
   archive_url: "https://github.com/notofonts/khudawadi/releases/download/NotoSansKhudawadi-v2.004/NotoSansKhudawadi-v2.004.zip"
   files {
     source_file: "OFL.txt"
@@ -37,7 +37,8 @@ source {
     dest_file: "NotoSansKhudawadi-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-khudawadi.yaml"
 }
 is_noto: true
-languages: "sd_Sind"  # Sindhi, Khudawadi
+languages: "sd_Sind"
 primary_script: "Sind"

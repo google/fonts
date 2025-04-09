@@ -32,4 +32,5 @@ source {
     dest_file: "Comme[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

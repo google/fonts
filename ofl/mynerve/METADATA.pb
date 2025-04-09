@@ -29,6 +29,7 @@ source {
     dest_file: "Mynerve-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

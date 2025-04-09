@@ -31,6 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/Expletus-Sans"
+  commit: "b64823a38d36cb09ec9ffce05f079585a4811217"
   files {
     source_file: "fonts/variable/ExpletusSans[wght].ttf"
     dest_file: "ExpletusSans[wght].ttf"
@@ -44,6 +45,7 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -51,4 +51,5 @@ source {
     dest_file: "Asap-Italic[wdth,wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

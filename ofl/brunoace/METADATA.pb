@@ -17,7 +17,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/Bruno-ace"
-  commit: "4eb5f7fc38a1548b353b4ee03b1f7043b48ae181"
+  commit: "58dc219db32ffd9eaf573f2dc3be2e342410e15a"
+  config_yaml: "sources/brunoace-regular.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

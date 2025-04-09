@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/chankfonts/Teachers-fonts"
-  commit: "f903bca18f4ecb61ee43f6a33e30a91e21449836"
+  commit: "71a4377cf26d6d016527557d2c8bd18894d0c7ad"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -46,5 +46,6 @@ source {
     dest_file: "Teachers-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

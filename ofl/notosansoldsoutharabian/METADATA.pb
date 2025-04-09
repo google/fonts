@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "old-south-arabian"
 source {
   repository_url: "https://github.com/notofonts/old-south-arabian"
+  commit: "e77ff1f357de7696d8c44f0ea0394a32d6a19745"
   archive_url: "https://github.com/notofonts/old-south-arabian/releases/download/NotoSansOldSouthArabian-v2.001/NotoSansOldSouthArabian-v2.001.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansOldSouthArabian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-old-south-arabian.yaml"
 }
 is_noto: true
-languages: "aii_Sarb"  # Assyrian Neo-Aramaic, Old South Arabian
-languages: "xsa_Sarb"  # Sabaean
+languages: "aii_Sarb"
+languages: "xsa_Sarb"
 primary_script: "Sarb"

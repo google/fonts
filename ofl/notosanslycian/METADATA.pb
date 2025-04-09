@@ -18,6 +18,7 @@ subsets: "lycian"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/lycian"
+  commit: "1e9e778f10314086451d972c0e42693890dfda36"
   archive_url: "https://github.com/notofonts/lycian/releases/download/NotoSansLycian-v2.002/NotoSansLycian-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansLycian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-lycian.yaml"
 }
 is_noto: true
-languages: "xlc_Lyci"  # Lycian
+languages: "xlc_Lyci"
 primary_script: "Lyci"

@@ -18,6 +18,9 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/EbenSorkin/Dekko"
+  commit: "4887c14997f1158a2a122d4351343e8745a8d504"
+  config_yaml: "sources/config.yaml"
 }
+primary_script: "Deva"
 stroke: "SANS_SERIF"
 classifications: "HANDWRITING"

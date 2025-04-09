@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/sovichet/kdam-thmor-pro"
-  commit: "a78a9ff035108630f42ae15a04b4ab8150298786"
+  commit: "02b97ee272f9a32d06135f70e220d2c4d6dd218f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,6 +28,7 @@ source {
     dest_file: "KdamThmorPro-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Khmr"
 stroke: "SANS_SERIF"

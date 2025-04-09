@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/tibetan"
+  commit: "28f1693070a917c50b3d275c9381def412a2ea2b"
   archive_url: "https://github.com/notofonts/tibetan/releases/download/NotoSerifTibetan-v2.103/NotoSerifTibetan-v2.103.zip"
   files {
     source_file: "OFL.txt"
@@ -41,12 +42,13 @@ source {
     dest_file: "NotoSerifTibetan[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-serif-tibetan.yaml"
 }
 is_noto: true
-languages: "bft_Tibt"  # Balti, Tibetan
-languages: "bo_Tibt"  # Tibetan
-languages: "dz_Tibt"  # Dzongkha
-languages: "taj_Tibt"  # Eastern Tamang, Tibetan
-languages: "tdg_Tibt"  # Western Tamang, Tibetan
-languages: "tsj_Tibt"  # Tshangla
+languages: "bft_Tibt"
+languages: "bo_Tibt"
+languages: "dz_Tibt"
+languages: "taj_Tibt"
+languages: "tdg_Tibt"
+languages: "tsj_Tibt"
 primary_script: "Tibt"

@@ -29,5 +29,6 @@ source {
     dest_file: "Alike-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"

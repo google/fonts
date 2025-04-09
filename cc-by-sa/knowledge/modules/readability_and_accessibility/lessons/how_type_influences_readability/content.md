@@ -149,7 +149,7 @@ You might find these sources valuable for more information on readability and ac
 
 * [Web Usability](https://www.nngroup.com/articles/how-users-read-on-the-web/)
 * [Glanceable fonts](https://www.nngroup.com/articles/glanceable-fonts/)
-* [Interlude reading](https://www.bendsawyer.com/project/towards-individuated-reading-experiences/)
+* [Interlude reading](https://web.archive.org/web/20250112201154/https://www.bendsawyer.com/project/towards-individuated-reading-experiences/)
 * [Handwriting in education around the world](https://www.type-together.com/new-research-handwritting)
 * [Experiencing crowding](https://www.sciencedirect.com/science/article/pii/S0042698907005561)
 * [Individualising reading formats research provided by The Readability Consortium](https://www.thereadabilityconsortium.org/research)

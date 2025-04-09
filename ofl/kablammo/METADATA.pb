@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Vectro-Type-Foundry/kablammo"
-  commit: "49d6cecb53612bfb428995a43ba94dfda725c415"
+  commit: "cccc120d23cbf65f7f263122407d980a24f65f27"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -39,5 +39,6 @@ source {
     dest_file: "Kablammo[MORF].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }
 minisite_url: "https://fonts.withgoogle.com/kablammo"

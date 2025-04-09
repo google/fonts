@@ -29,6 +29,8 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/AmaticSC"
+  commit: "308846136d2dcfb6aef2160d7e927698cdaf9c05"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

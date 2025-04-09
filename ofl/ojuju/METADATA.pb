@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/jobosonchisa/ojuju"
-  commit: "7f366504f204a579b27c99cb6c6272183100cde0"
+  commit: "61052b2801035d3011c87708bd3367eeabd0bb82"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -39,6 +39,7 @@ source {
     dest_file: "Ojuju[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

@@ -223,4 +223,5 @@ source {
     dest_file: "AsapCondensed-SemiBoldItalic.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

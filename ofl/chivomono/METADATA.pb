@@ -47,6 +47,7 @@ source {
     dest_file: "ChivoMono-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "MONOSPACE"

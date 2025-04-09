@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/noirblancrouge/YoungSerif"
-  commit: "8d67638d5ae1aa9e339d53326cd608e186d03dbd"
+  commit: "d307c79320df6b8ccc656b5ab83719519ddffc28"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -27,5 +27,6 @@ source {
     dest_file: "YoungSerif-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"

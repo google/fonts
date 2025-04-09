@@ -27,6 +27,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/fuzzy-bubbles"
+  commit: "16d63fbca17f057559d0187fa7c07dd302d2276d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -44,6 +45,7 @@ source {
     dest_file: "FuzzyBubbles-Bold.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

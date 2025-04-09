@@ -28,6 +28,7 @@ source {
     dest_file: "Calistoga-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

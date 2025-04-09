@@ -120,4 +120,5 @@ source {
     dest_file: "static/LibreFranklin-ThinItalic.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "old-turkic"
 source {
   repository_url: "https://github.com/notofonts/old-turkic"
-  commit: "b9616aba12e777d230e9fd4e52a049477c862e59"
+  commit: "598d6ec8b4cb7db6012a370b9546b29d4a0bc607"
   archive_url: "https://github.com/notofonts/old-turkic/releases/download/NotoSansOldTurkic-v2.004/NotoSansOldTurkic-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -37,7 +37,8 @@ source {
     dest_file: "NotoSansOldTurkic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-old-turkic.yaml"
 }
 is_noto: true
-languages: "otk_Orkh"  # Old Turkish
+languages: "otk_Orkh"
 primary_script: "Orkh"

@@ -46,5 +46,6 @@ source {
     dest_file: "Aleo-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SLAB_SERIF"

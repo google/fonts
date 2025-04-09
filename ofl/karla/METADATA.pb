@@ -45,4 +45,5 @@ source {
     dest_file: "Karla-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

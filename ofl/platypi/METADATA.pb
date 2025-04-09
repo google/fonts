@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/d-sargent/platypi"
-  commit: "8574bbbc965e398a8c3da7edd926edda82b63113"
+  commit: "c204c7ba647cd05f55a68be6973340fa47aa67d1"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -46,5 +46,6 @@ source {
     dest_file: "Platypi-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"

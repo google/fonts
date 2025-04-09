@@ -16,7 +16,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/cyrealtype/Artifika"
-  commit: "50137a4bf13c4918f78d4b566d14ae3dde703456"
+  commit: "c317fd292b4e15dc5f42f91c3ec9dff3f7654535"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

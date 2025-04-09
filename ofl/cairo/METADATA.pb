@@ -30,6 +30,7 @@ axes {
 source {
   repository_url: "https://github.com/Gue3bara/Cairo"
   commit: "73d16933c6a0f341c27a69e401da83dcb0d53114"
+  config_yaml: "sources/cairo.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

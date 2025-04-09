@@ -18,7 +18,7 @@ subsets: "marchen"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/marchen"
-  commit: "0efb2639aef028a6e8be45790b60b71e5450b177"
+  commit: "8b7d0d75ddbd5e2069b8b0f1a89a842d6b37cff2"
   archive_url: "https://github.com/notofonts/marchen/releases/download/NotoSansMarchen-v2.004/NotoSansMarchen-v2.004.zip"
   files {
     source_file: "OFL.txt"
@@ -37,8 +37,9 @@ source {
     dest_file: "NotoSansMarchen-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-marchen.yaml"
 }
 is_noto: true
-languages: "bo_Marc"  # Tibetan, Marchen
-languages: "sa_Marc"  # Sanskrit, Marchen
+languages: "bo_Marc"
+languages: "sa_Marc"
 primary_script: "Marc"

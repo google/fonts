@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/Michroma-font"
-  commit: "07893d1b85a537a6ed4b96fdb091bee45eabe65f"
+  commit: "8602c0e9a86c0aa6529cc861926bf727568dcac8"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -27,6 +27,7 @@ source {
     dest_file: "Michroma-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

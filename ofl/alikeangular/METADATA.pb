@@ -29,6 +29,7 @@ source {
     dest_file: "AlikeAngular-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

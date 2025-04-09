@@ -24,6 +24,7 @@ axes {
 source {
   repository_url: "https://github.com/tallchai/akshar-type"
   commit: "0c6de5ef9cef264b3b3f958e772b3a371f92d083"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

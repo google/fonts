@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "tifinagh"
 source {
   repository_url: "https://github.com/notofonts/tifinagh"
+  commit: "6c19a68ff330ec938fb21d6be8c94b2183e1b077"
   archive_url: "https://github.com/notofonts/tifinagh/releases/download/NotoSansTifinagh-v2.006/NotoSansTifinagh-v2.006.zip"
   files {
     source_file: "OFL.txt"
@@ -36,14 +37,15 @@ source {
     dest_file: "NotoSansTifinagh-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-tifinagh.yaml"
 }
 is_noto: true
-languages: "ber_Tfng"  # Berber, Tifinagh
-languages: "kab_Tfng"  # Kabyle, Tifinagh
-languages: "rif_Tfng"  # Riffian
-languages: "shi_Tfng"  # Tachelhit, Tifinagh
-languages: "taq_Tfng"  # Tamasheq, Tifinagh
-languages: "tzm_Tfng"  # Central Atlas Tamazight, Tifinagh
-languages: "zen_Tfng"  # Zenaga
-languages: "zgh_Tfng"  # Standard Moroccan Tamazight
+languages: "ber_Tfng"
+languages: "kab_Tfng"
+languages: "rif_Tfng"
+languages: "shi_Tfng"
+languages: "taq_Tfng"
+languages: "tzm_Tfng"
+languages: "zen_Tfng"
+languages: "zgh_Tfng"
 primary_script: "Tfng"

@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/cypro-minoan"
+  commit: "12b0fed7738a0a2b6d47040d383c2a5a5e796b0d"
   archive_url: "https://github.com/notofonts/cypro-minoan/releases/download/NotoSansCyproMinoan-v1.503/NotoSansCyproMinoan-v1.503.zip"
   files {
     source_file: "OFL.txt"
@@ -36,6 +37,7 @@ source {
     dest_file: "NotoSansCyproMinoan-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-cypro-minoan.yaml"
 }
 is_noto: true
 sample_text {

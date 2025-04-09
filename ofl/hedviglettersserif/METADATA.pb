@@ -29,6 +29,7 @@ registry_default_overrides {
 source {
   repository_url: "https://github.com/KanonFoundry/HedvigLetters"
   commit: "345b4d9015af6a26eb05e436460ca41fc42784df"
+  config_yaml: "sources/Serif.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

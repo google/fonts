@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/ossobuffo/jura"
+  commit: "f9df75d92c93324e74e5ec0df6d91c8ee4b84b5a"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

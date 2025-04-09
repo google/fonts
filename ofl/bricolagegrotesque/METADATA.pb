@@ -43,6 +43,7 @@ source {
     dest_file: "BricolageGrotesque[opsz,wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://ateliertriay.github.io/bricolage"
 stroke: "SANS_SERIF"

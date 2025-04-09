@@ -57,5 +57,6 @@ source {
     dest_file: "DavidLibre-Bold.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Hebr"

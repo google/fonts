@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/ole"
+  commit: "fe77f34a3002bc4c2e26a8e27bee31cb45307846"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,4 +32,5 @@ source {
     dest_file: "Ole-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }

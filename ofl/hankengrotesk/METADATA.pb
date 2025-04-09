@@ -33,7 +33,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/marcologous/hanken-grotesk"
-  commit: "e6e3c4df55acfe44333c587e3d97ae3c44b7dce5"
+  commit: "1ab416e82130b2d3ddb7710abf7ceabf07156a13"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -51,4 +51,5 @@ source {
     dest_file: "HankenGrotesk-Italic[wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }

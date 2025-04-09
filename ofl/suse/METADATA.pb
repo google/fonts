@@ -22,7 +22,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/SUSE/suse-font"
-  commit: "d5d0b353f3defb9dece73334a50cc4a62ae97e00"
+  commit: "f315ee46344ccc4f8d470cee3644b7bc99cadbaa"
   archive_url: "https://github.com/SUSE/suse-font/releases/download/v1.000/suse-font-v1.000.zip"
   files {
     source_file: "OFL.txt"
@@ -33,4 +33,5 @@ source {
     dest_file: "SUSE[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -35,6 +35,7 @@ axes {
 source {
   repository_url: "https://github.com/CatharsisFonts/Cormorant"
   commit: "6d210fd3550b7358ca62d6ba3e354ec1ec940813"
+  config_yaml: "sources/config-infant.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

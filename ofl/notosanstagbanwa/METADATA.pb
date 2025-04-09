@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "tagbanwa"
 source {
   repository_url: "https://github.com/notofonts/tagbanwa"
+  commit: "ec39a09e038aae3d9551027fcfb43b417aa486a2"
   archive_url: "https://github.com/notofonts/tagbanwa/releases/download/NotoSansTagbanwa-v2.001/NotoSansTagbanwa-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansTagbanwa-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-tagbanwa.yaml"
 }
 is_noto: true
-languages: "sa_Tagb"  # Sanskrit, Tagbanwa
-languages: "tbw_Tagb"  # Tagbanwa, Tagbanwa
+languages: "sa_Tagb"
+languages: "tbw_Tagb"
 primary_script: "Tagb"

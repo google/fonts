@@ -19,6 +19,7 @@ subsets: "menu"
 subsets: "old-permic"
 source {
   repository_url: "https://github.com/notofonts/old-permic"
+  commit: "080df8840211dde6b17fc87957950358b723e5e0"
   archive_url: "https://github.com/notofonts/old-permic/releases/download/NotoSansOldPermic-v2.001/NotoSansOldPermic-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -37,10 +38,11 @@ source {
     dest_file: "NotoSansOldPermic-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-old-permic.yaml"
 }
 is_noto: true
-languages: "koi_Perm"  # Komi-Permyak, Old Permic
-languages: "kv_Perm"  # Komi, Old Permic
+languages: "koi_Perm"
+languages: "kv_Perm"
 sample_text {
   masthead_full: "𐍒𐍟𐍦𐍘"
   masthead_partial: "𐍑𐍤"

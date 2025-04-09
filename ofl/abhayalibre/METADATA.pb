@@ -48,11 +48,13 @@ fonts {
   full_name: "Abhaya Libre ExtraBold"
   copyright: "Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com) Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak (hello@mooniak.com)"
 }
-primary_script: "Sinh"
-source {
-  repository_url: "https://github.com/mooniak/abhaya-libre-font"
-}
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "sinhala"
+source {
+  repository_url: "https://github.com/mooniak/abhaya-libre-font"
+  commit: "ade314aa678ceb44f892ed58169c6b270c775d02"
+  config_yaml: "sources/config.yaml"
+}
+primary_script: "Sinh"

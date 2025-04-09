@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/caucasian-albanian"
+  commit: "fe112d99202d347b106fe63ebc6b10c3655e00cd"
   archive_url: "https://github.com/notofonts/caucasian-albanian/releases/download/NotoSansCaucasianAlbanian-v2.005/NotoSansCaucasianAlbanian-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -32,9 +33,10 @@ source {
     dest_file: "NotoSansCaucasianAlbanian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-caucasian-albanian.yaml"
 }
 is_noto: true
-languages: "lez_Aghb"  # Lezghian, Caucasian Albanian
+languages: "lez_Aghb"
 sample_text {
   masthead_full: "𐔲𐕢𐔼𐕊"
   masthead_partial: "𐔱𐕁"

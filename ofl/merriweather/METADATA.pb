@@ -63,6 +63,7 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 fallbacks {
   axis_target {

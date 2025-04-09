@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/dy/linefont"
-  commit: "347effeda6955b1aa7febc34e17dcce3e04f5e15"
+  commit: "9edec1a1f780db52db0297bab464451f3dbd4d5a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -35,6 +35,7 @@ source {
     dest_file: "Linefont[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 sample_text {
   masthead_full: "ĀŤĀŤĀŤĀŤĀŤĀŤĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤĀĀŤŤŤŤĀĀĀĀŤŤŤŤĀĀĀĀŤŤŤŤĀĀ"

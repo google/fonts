@@ -28,7 +28,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Fruktur"
-  commit: "a2277f91aebc0e5e70062bdd7f17f15d2a787cd2"
+  commit: "0f8b79b91438420d4c158890cb28bcb1eef407a0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -42,4 +42,5 @@ source {
     dest_file: "Fruktur-Italic.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

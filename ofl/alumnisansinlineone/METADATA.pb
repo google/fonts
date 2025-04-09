@@ -46,6 +46,7 @@ source {
     dest_file: "AlumniSansInlineOne-Italic.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

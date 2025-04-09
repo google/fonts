@@ -36,6 +36,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/ronykoch/Karantina"
+  commit: "efb7e920f0a441badef8920cd87d894383a19e6a"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -57,4 +58,6 @@ source {
     dest_file: "Karantina-Bold.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
+primary_script: "Hebr"

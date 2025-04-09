@@ -18,7 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/my-soul"
-  commit: "13b1f37605ab5bd23b9c71be2d8f639810996236"
+  commit: "bf7a506caeb8994fd9820787fb6f2c0f0480ec09"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,6 +32,7 @@ source {
     dest_file: "MySoul-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

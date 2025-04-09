@@ -35,7 +35,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Dicotype/Afacad"
-  commit: "d7e973f5d3f17f54662ed9a18b130dcbf7a0e709"
+  commit: "b294b1f8610ff16a3846a255b1a6a2e6788a056e"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -49,5 +49,6 @@ source {
     dest_file: "Afacad-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SANS_SERIF"

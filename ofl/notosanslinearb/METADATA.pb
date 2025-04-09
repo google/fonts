@@ -18,6 +18,7 @@ subsets: "linear-b"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/linear-b"
+  commit: "410f88c1d4d10b5db76217e57e7b153811ce0674"
   archive_url: "https://github.com/notofonts/linear-b/releases/download/NotoSansLinearB-v2.002/NotoSansLinearB-v2.002.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansLinearB-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-linear-b.yaml"
 }
 is_noto: true
-languages: "gmy_Linb"  # Mycenaean Greek
-languages: "grc_Linb"  # Ancient Greek, Linear B
+languages: "gmy_Linb"
+languages: "grc_Linb"
 primary_script: "Linb"

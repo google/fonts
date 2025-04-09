@@ -24,7 +24,7 @@ fonts {
 subsets: "menu"
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "0bd52a3a13b6f3492820c746fa4bfa5196005306"
+  commit: "02e4e15767f5b6c2109413429fc51879b9507ab4"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -58,6 +58,7 @@ source {
     dest_file: "article/Playwrite-England-SemiJoined-Guides_4.png"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Playwrite England SemiJoined Guides"
 minisite_url: "https://primarium.info/countries/england"

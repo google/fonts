@@ -35,6 +35,7 @@ source {
     dest_file: "PlaypenSansThai[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-Thai.yaml"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 primary_script: "Thai"

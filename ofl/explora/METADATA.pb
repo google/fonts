@@ -19,6 +19,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/explora"
+  commit: "b0d0e026f48eefee38dc06821f2c9088a347fa9b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,6 +29,7 @@ source {
     dest_file: "Explora-Regular.ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

@@ -20,7 +20,8 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/aaronbell/ChocolateSans"
-  commit: "ce0c3c542b943f1e56fddc54116f1c18326f5ba1"
+  commit: "91c9c5179adc1b2af2de1e3972d91e5e62c7bbc4"
+  config_yaml: "sources/project.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

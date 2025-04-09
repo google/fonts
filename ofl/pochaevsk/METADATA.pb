@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/pochaevsk"
-  commit: "4238da848a89ef6a6cf41937c98932ce9d7c2303"
+  commit: "2117e7362d9b465ff0ac1850b535860d43d05f1d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,6 +32,7 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Cyrl"
 primary_language: "cu_Cyrl"

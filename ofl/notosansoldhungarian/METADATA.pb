@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "old-hungarian"
 source {
   repository_url: "https://github.com/notofonts/old-hungarian"
+  commit: "1e4081448c3313c4486e148b86aff6cbbc1584d5"
   archive_url: "https://github.com/notofonts/old-hungarian/releases/download/NotoSansOldHungarian-v2.005/NotoSansOldHungarian-v2.005.zip"
   files {
     source_file: "ARTICLE.en_us.html"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansOldHungarian-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-old-hungarian.yaml"
 }
 is_noto: true
-languages: "ohu_Hung"  # Old Hungarian
+languages: "ohu_Hung"
 primary_script: "Hung"

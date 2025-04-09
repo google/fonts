@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vai"
 source {
   repository_url: "https://github.com/notofonts/vai"
+  commit: "f30c6331f2be292991c1ae047f5aeec48bd79644"
   archive_url: "https://github.com/notofonts/vai/releases/download/NotoSansVai-v2.001/NotoSansVai-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,7 +37,8 @@ source {
     dest_file: "NotoSansVai-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-vai.yaml"
 }
 is_noto: true
-languages: "vai_Vaii"  # Vai
+languages: "vai_Vaii"
 primary_script: "Vaii"

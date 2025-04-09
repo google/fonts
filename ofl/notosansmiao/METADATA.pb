@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "miao"
 source {
   repository_url: "https://github.com/notofonts/miao"
+  commit: "60e05da3a76e726c5496c3dcbead5051e8b782f7"
   archive_url: "https://github.com/notofonts/miao/releases/download/NotoSansMiao-v2.003/NotoSansMiao-v2.003.zip"
   files {
     source_file: "OFL.txt"
@@ -32,7 +33,8 @@ source {
     dest_file: "NotoSansMiao-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-miao.yaml"
 }
 is_noto: true
-languages: "hmd_Plrd"  # A-Hmao
+languages: "hmd_Plrd"
 primary_script: "Plrd"

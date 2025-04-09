@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "ottoman-siyaq-numbers"
 source {
   repository_url: "https://github.com/notofonts/ottoman-siyaq-numbers"
+  commit: "b6cca8ffe60e4978e07980dd9ae8820a474a9301"
   archive_url: "https://github.com/notofonts/ottoman-siyaq-numbers/releases/download/NotoSerifOttomanSiyaq-v1.006/NotoSerifOttomanSiyaq-v1.006.zip"
   files {
     source_file: "OFL.txt"
@@ -36,6 +37,7 @@ source {
     dest_file: "NotoSerifOttomanSiyaq-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 is_noto: true
 sample_text {

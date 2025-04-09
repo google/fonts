@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/lexend"
+  commit: "20491885ca2cf7ffc556432973e7bdbc701952b5"
+  config_yaml: "sources/giga.yaml"
   files {
     source_file: "fonts/giga/variable/LexendGiga[wght].ttf"
     dest_file: "LexendGiga[wght].ttf"

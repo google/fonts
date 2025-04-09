@@ -137,7 +137,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/productiontype/Spectral"
-  commit: "e1179c4fc05c1ba7efd40038e203312b4c90c376"
+  commit: "dbc06862d7030eedb1b01b60cdad8f6102f4ddfa"
   files {
     source_file: "fonts/ttf/SC/SpectralSC-ExtraLight.ttf"
     dest_file: "SpectralSC-ExtraLight.ttf"
@@ -199,6 +199,7 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Latn"
 stroke: "SERIF"

@@ -25,6 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/RedHatOfficial/Overpass"
+  commit: "c580d28bfab7f39013568e684a65eeb23eff588d"
   files {
     source_file: "fonts/variable_mono/OverpassMono[wght].ttf"
     dest_file: "OverpassMono[wght].ttf"
@@ -34,4 +35,5 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

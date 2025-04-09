@@ -27,6 +27,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/birthstone-bounce"
+  commit: "db48de44b60017495c71a024aa2c079d70869225"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -44,6 +45,7 @@ source {
     dest_file: "BirthstoneBounce-Medium.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

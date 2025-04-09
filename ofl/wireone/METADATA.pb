@@ -16,6 +16,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/cyrealtype/Wire-One"
+  commit: "16db96d77889d4a8de2015ca5f3fc965446437d4"
+  config_yaml: "sources/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

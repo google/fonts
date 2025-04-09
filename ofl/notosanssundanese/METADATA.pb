@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/sundanese"
+  commit: "8069fb6e2b3a9bc2888748b4d3cc1dd5919728ee"
   archive_url: "https://github.com/notofonts/sundanese/releases/download/NotoSansSundanese-v2.005/NotoSansSundanese-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoSansSundanese[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-sundanese.yaml"
 }
 is_noto: true
-languages: "su_Sund"  # Sundanese, Sundanese
+languages: "su_Sund"
 primary_script: "Sund"

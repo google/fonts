@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "palmyrene"
 source {
   repository_url: "https://github.com/notofonts/palmyrene"
+  commit: "bbb69ea150a25cabb937bcbd654c171ff958b426"
   archive_url: "https://github.com/notofonts/palmyrene/releases/download/NotoSansPalmyrene-v2.001/NotoSansPalmyrene-v2.001.zip"
   files {
     source_file: "OFL.txt"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansPalmyrene-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-palmyrene.yaml"
 }
 is_noto: true
-languages: "aii_Palm"  # Assyrian Neo-Aramaic, Palmyrene
-languages: "arc_Palm"  # Aramaic, Palmyrene
+languages: "aii_Palm"
+languages: "arc_Palm"
 primary_script: "Palm"

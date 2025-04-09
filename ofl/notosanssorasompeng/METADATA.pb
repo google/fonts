@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/sora-sompeng"
+  commit: "d6dc3eaa0f252c018aaf41314e24bcc889a8c5e4"
   archive_url: "https://github.com/notofonts/sora-sompeng/releases/download/NotoSansSoraSompeng-v2.101/NotoSansSoraSompeng-v2.101.zip"
   files {
     source_file: "OFL.txt"
@@ -41,8 +42,9 @@ source {
     dest_file: "NotoSansSoraSompeng[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-sora-sompeng.yaml"
 }
 is_noto: true
-languages: "sa_Sora"  # Sanskrit, Sora Sompeng
-languages: "srb_Sora"  # Sora, Sora Sompeng
+languages: "sa_Sora"
+languages: "srb_Sora"
 primary_script: "Sora"

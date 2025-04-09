@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/secular"
-  commit: "7b6bf2d21cfc4bedfc320014224ef5713adc57a9"
+  commit: "6a1b3caa448955ffe8fe7e5440f620abc0913995"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -28,4 +28,6 @@ source {
     dest_file: "SecularOne-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
+primary_script: "Hebr"

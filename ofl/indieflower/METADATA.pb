@@ -18,6 +18,8 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/indieflower"
+  commit: "db44d10c34c1d74011b7f3bee8c7c12123b6068e"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

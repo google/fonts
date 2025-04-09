@@ -67,4 +67,5 @@ source {
     dest_file: "NunitoSans-Italic[YTLC,opsz,wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

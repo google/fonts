@@ -31,7 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Lafontype/Gantari"
-  commit: "5115aa79532c3b442fa22f94507e611ed369e2ba"
+  commit: "363a3dd5634bfec7e9f7db11ca3e1f4739a182ab"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -45,4 +45,5 @@ source {
     dest_file: "Gantari-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

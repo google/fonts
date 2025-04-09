@@ -27,6 +27,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/BevanFont"
+  commit: "ab1035d7823b4c53400a6007ee077ecc9324c3e5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -40,6 +41,7 @@ source {
     dest_file: "Bevan-Italic.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 stroke: "SLAB_SERIF"
 classifications: "DISPLAY"

@@ -41,7 +41,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/m4rc1e/Commissioner"
-  commit: "9bf35952a56ff7ba7d7fa1b0380e4bf2a63fcc35"
+  commit: "7f7dc8e9ed7ffeb3f7a91261f2b9549436ab3d02"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -51,4 +51,5 @@ source {
     dest_file: "Commissioner[FLAR,VOLM,slnt,wght].ttf"
   }
   branch: "flair-rename"
+  config_yaml: "sources/config.yml"
 }

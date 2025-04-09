@@ -19,7 +19,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/Monomakh"
-  commit: "762ecd97ee44511bb9bf696d2d3cffb65d74e54c"
+  commit: "5131e23dcd584741d7481ecbd3e81a8cb3eea871"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -33,5 +33,6 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Cyrl"

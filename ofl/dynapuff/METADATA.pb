@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/dynapuff"
-  commit: "d1b4a98067a23e7ffbcf5b3665a887241983857b"
+  commit: "0cc624ef50b654ffe1a30785396aaba308406132"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -38,4 +38,5 @@ source {
     dest_file: "DynaPuff[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }

@@ -20,6 +20,7 @@ subsets: "phags-pa"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/phags-pa"
+  commit: "a2cd1a7833b6e7d2be2519fe2539b1d3be53f28e"
   archive_url: "https://github.com/notofonts/phags-pa/releases/download/NotoSansPhagsPa-v2.004/NotoSansPhagsPa-v2.004.zip"
   files {
     source_file: "OFL.txt"
@@ -38,11 +39,12 @@ source {
     dest_file: "NotoSansPhagsPa-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-phags-pa.yaml"
 }
 is_noto: true
-languages: "lzh_Phag"  # Literary Chinese, Phags-pa
-languages: "mn_Phag"  # Mongolian, Phags-pa
-languages: "sa_Phag"  # Sanskrit, Phags-pa
-languages: "zh_Phag"  # Chinese, Phags-pa
+languages: "lzh_Phag"
+languages: "mn_Phag"
+languages: "sa_Phag"
+languages: "zh_Phag"
 display_name: "Noto Sans Phags-pa"
 primary_script: "Phag"

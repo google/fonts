@@ -61,4 +61,5 @@ source {
     dest_file: "PathwayExtreme-Italic[opsz,wdth,wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

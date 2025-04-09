@@ -25,7 +25,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "6990b3115c68779625bad656c6b0723db7435044"
+  commit: "a4829cda744ea7e9ae73c14468a8a5672809f525"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -35,6 +35,7 @@ source {
     dest_file: "PlaypenSansArabic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-Arabic.yaml"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 primary_script: "Arab"

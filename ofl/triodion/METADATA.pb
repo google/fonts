@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/Triodion"
-  commit: "9a608c40b343917da2d075afa6ca1e55dc6052f3"
+  commit: "3274de97310bf4660d6fb2a1ea49f771071be4b0"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,6 +32,7 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Cyrl"
 primary_language: "cu_Cyrl"

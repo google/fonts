@@ -31,7 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Element-Type/HostGrotesk"
-  commit: "4f267d366fec1961bb219fe156fe7b4821ce8a15"
+  commit: "ab2ba6769119e7ae71aa2fab46eedcb993c670a3"
   archive_url: "https://github.com/Element-Type/HostGrotesk/releases/download/1.002/HostGrotesk-1.002.zip"
   files {
     source_file: "OFL.txt"
@@ -46,6 +46,7 @@ source {
     dest_file: "HostGrotesk-Italic[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 minisite_url: "https://elementtype.co/host-grotesk"
 primary_script: "Latn"

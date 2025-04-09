@@ -26,6 +26,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zen-loop"
+  commit: "6ca53231f8adfb03f75d63b1dc1a8d8db6d641cf"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -43,6 +44,7 @@ source {
     dest_file: "ZenLoop-Italic.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

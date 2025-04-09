@@ -31,4 +31,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/tokotype/Mohave-Typefaces"
+  commit: "703dda9b4da22ec66dd2a09cc492f6228401147a"
+  config_yaml: "sources/config.yaml"
 }

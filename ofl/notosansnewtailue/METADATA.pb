@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/new-tai-lue"
+  commit: "f591483c535ff7c2db1f010907be69251fc0bb1c"
   archive_url: "https://github.com/notofonts/new-tai-lue/releases/download/NotoSansNewTaiLue-v2.004/NotoSansNewTaiLue-v2.004.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -41,7 +42,8 @@ source {
     dest_file: "NotoSansNewTaiLue[wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 is_noto: true
-languages: "khb_Talu"  # Lü
+languages: "khb_Talu"
 primary_script: "Talu"

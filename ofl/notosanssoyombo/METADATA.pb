@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "soyombo"
 source {
   repository_url: "https://github.com/notofonts/soyombo"
+  commit: "c2488cb18ec2296faa98ddc50144c1be4e94dffb"
   archive_url: "https://github.com/notofonts/soyombo/releases/download/NotoSansSoyombo-v2.001/NotoSansSoyombo-v2.001.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
@@ -36,8 +37,9 @@ source {
     dest_file: "NotoSansSoyombo-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-soyombo.yaml"
 }
 is_noto: true
-languages: "cmg_Soyo"  # Classical Mongolian
-languages: "sa_Soyo"  # Sanskrit, Soyombo
+languages: "cmg_Soyo"
+languages: "sa_Soyo"
 primary_script: "Soyo"

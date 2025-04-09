@@ -32,4 +32,6 @@ axes {
 }
 source {
   repository_url: "https://github.com/Fonthausen/CrimsonPro"
+  commit: "24e8f7bf59ec45d77c67879ad80d97e5f94c787b"
+  config_yaml: "sources/config.yaml"
 }

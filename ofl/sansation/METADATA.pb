@@ -59,5 +59,6 @@ fonts {
 }
 subsets: "menu"
 subsets: "cyrillic"
+subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"

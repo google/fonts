@@ -38,6 +38,7 @@ source {
     dest_file: "Gluten[slnt,wght].ttf"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/aaronbell/signika"
+  commit: "bd066259b5a87d24b23c4f0da03a96889b6d0503"
   files {
     source_file: "fonts/variable_negative/SignikaNegative[wght].ttf"
     dest_file: "SignikaNegative[wght].ttf"
@@ -32,4 +33,5 @@ source {
     dest_file: "OFL.txt"
   }
   branch: "master"
+  config_yaml: "sources/config.yaml"
 }

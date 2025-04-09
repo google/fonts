@@ -17,6 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/zen-dots"
+  commit: "c9f0bc02e2aad7544f843aefce01845a2d3ba372"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -30,6 +31,7 @@ source {
     dest_file: "ZenDots-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config.yml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

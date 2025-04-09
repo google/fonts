@@ -1,5 +1,5 @@
 name: "Chocolate Classical Sans"
-designer: "Moonlit Owen"
+designer: "Moonlit Owen 宇文滿月"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-05-14"
@@ -12,7 +12,7 @@ fonts {
   full_name: "Chocolate Classical Sans Regular"
   copyright: "Copyright 2024 The Chocolate Classical Sans Project Authors (https://github.com/MoonlitOwen/ChocolateSans)"
 }
-subsets: "chinese-hongkong"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"

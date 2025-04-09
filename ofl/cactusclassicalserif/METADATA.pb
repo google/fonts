@@ -1,5 +1,5 @@
 name: "Cactus Classical Serif"
-designer: "Moonlit Owen"
+designer: "Henry Chan, Tian Haidong 田海東, Moonlit Owen 宇文滿月"
 license: "OFL"
 category: "SERIF"
 date_added: "2024-05-14"
@@ -12,7 +12,7 @@ fonts {
   full_name: "Cactus Classical Serif Regular"
   copyright: "Copyright 2024 The Cactus Classical Serif Project Authors (https://github.com/MoonlitOwen/CactusSerif)"
 }
-subsets: "chinese-hongkong"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "latin"
 subsets: "latin-ext"

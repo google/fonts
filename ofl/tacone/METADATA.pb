@@ -20,7 +20,7 @@ subsets: "symbols"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/Afrotype/tac"
-  commit: "b18a7f59ff2e14cbc28968ea550926306426f6ce"
+  commit: "85b9001fb4c9f6801808de5ee2f5e257ad062856"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

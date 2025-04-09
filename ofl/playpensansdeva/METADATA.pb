@@ -34,7 +34,7 @@ source {
     dest_file: "PlaypenSansDeva[wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yml"
+  config_yaml: "sources/config-Deva.yaml"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 primary_script: "Deva"

@@ -1,10 +1,10 @@
-name: "XL Lubrifont TC"
+name: "WD-XL Lubrifont TC"
 designer: "NightFurySL2001"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-04-01"
 fonts {
-  name: "XL Lubrifont TC"
+  name: "WD-XL Lubrifont TC"
   style: "normal"
   weight: 400
   filename: "WD-XLLubrifontTC-Regular.ttf"

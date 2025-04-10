@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/lao"
+  commit: "ab77daf4d8d6d9564da2dae84ae31bd9c971090f"
+  config_yaml: "sources/config-sans-lao-looped.yaml"
   archive_url: "https://github.com/notofonts/lao/releases/download/NotoSansLaoLooped-v1.002/NotoSansLaoLooped-v1.002.zip"
   files {
     source_file: "ARTICLE.en_us.html"

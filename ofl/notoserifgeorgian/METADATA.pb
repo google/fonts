@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/georgian"
+  commit: "d0d6ca54c3809bdb8f20bbbd46760d068d2bfe0e"
+  config_yaml: "sources/config-serif-georgian.yaml"
   archive_url: "https://github.com/notofonts/georgian/releases/download/NotoSerifGeorgian-v2.003/NotoSerifGeorgian-v2.003.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

@@ -24,6 +24,7 @@ axes {
 source {
   repository_url: "https://github.com/notofonts/adlam"
   commit: "66c3f0126b2a54f51f6a902d5a33106a833c91d8"
+  config_yaml: "sources/config-sans-adlam-unjoined.yaml"
   archive_url: "https://github.com/notofonts/adlam/releases/download/NotoSansAdlamUnjoined-v3.003/NotoSansAdlamUnjoined-v3.003.zip"
   files {
     source_file: "OFL.txt"

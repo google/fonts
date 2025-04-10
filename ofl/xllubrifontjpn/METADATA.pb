@@ -1,10 +1,10 @@
-name: "XL Lubrifont JP N"
+name: "WD-XL Lubrifont JP N"
 designer: "NightFurySL2001"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-04-01"
 fonts {
-  name: "XL Lubrifont JP N"
+  name: "WD-XL Lubrifont JP N"
   style: "normal"
   weight: 400
   filename: "WD-XLLubrifontJPN-Regular.ttf"

@@ -28,3 +28,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/Arya"
 }
+primary_script: "Deva"

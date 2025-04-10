@@ -21,3 +21,4 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/kurale"
 }
+primary_script: "Deva"

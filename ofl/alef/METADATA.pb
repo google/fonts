@@ -24,3 +24,4 @@ fonts {
 subsets: "hebrew"
 subsets: "latin"
 subsets: "menu"
+primary_script: "Hebr"

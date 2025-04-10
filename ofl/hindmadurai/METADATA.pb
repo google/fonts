@@ -55,3 +55,4 @@ subsets: "tamil"
 source {
   repository_url: "https://github.com/itfoundry/hind-madurai"
 }
+primary_script: "Taml"

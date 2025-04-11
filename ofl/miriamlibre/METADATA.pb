@@ -35,3 +35,4 @@ source {
   branch: "main"
   config_yaml: "sources/config.yaml"
 }
+primary_script: "Hebr"

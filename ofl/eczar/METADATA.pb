@@ -41,3 +41,4 @@ source {
   }
   branch: "master"
 }
+primary_script: "Deva"

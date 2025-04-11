@@ -10,9 +10,9 @@ fonts {
   filename: "Iansui-Regular.ttf"
   post_script_name: "Iansui-Regular"
   full_name: "Iansui Regular"
-  copyright: "Copyright 2022 The Iansui Project Authors (https://github.com/ButTaiwan/iansui)."
+  copyright: "Copyright 2025 The Iansui Project Authors (https://github.com/ButTaiwan/iansui)"
 }
-subsets: "chinese-hongkong"
+subsets: "chinese-traditional"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

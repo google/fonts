@@ -1,5 +1,5 @@
 name: "Agbalumo"
-designer: "Raphael Alẹ́gbẹ́lẹ́yẹ̀, Sorkin Type, Eben Sorkin"
+designer: "Raphael Alẹ́gbẹ́lẹ́yẹ̀, Yikun Ayalew, Sorkin Type, Eben Sorkin"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2023-10-06"

@@ -160,8 +160,8 @@
       <p>No families found for this tag. Please add some</p>
     </div>
     <div class="mt-20">
-      <div class="item" v-for="(family, i) in sortedTags" :key="family.name">
-        <family-item :family="family" :ready="ready" :index="i" @edited="edited" @remove="removeFamily"></family-item>
+      <div class="item" v-for="(family, i) in sortedTags" :key="family.tag">
+        <family-item :family="family" :ready="ready" :index="i" :category="currentCategory" @edited="edited" @remove="removeFamily"></family-item>
       </div>
     </div>
 
@@ -193,6 +193,9 @@
 
     toTag() {
       return `${this.name},${this.category},${this.score}`;
+    }
+    get tag() {
+      return this.toTag();
     }
 
     toUrl() {
@@ -245,11 +248,12 @@ function axesCombos(axes) {
 }
 
   Vue.component('family-item', {
-    props: ['family', 'ready', 'index'],
+    props: ['family', 'ready', 'index', 'category'],
     template: `
       <div class="item p-1">
         <div class="join">
-          <b class="pr-2">{{ familyDisplayName }}</b>
+          <b v-if="category == ' All'" class="pr-2">{{ familyTag }}</b>
+          <b v-else class="pr-2">{{ familyDisplayName }}</b>
           <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square" :data-index="index" v-model.lazy="family.score" @change="edited" placeholder="family.score">
           <button class="btn btn-xs join-item pr-2" @click="removeFamily">X</button>
           </div>
@@ -279,6 +283,9 @@ function axesCombos(axes) {
       },
       familyDisplayName() {
         return this.family.displayName;
+      },
+      familyTag() {
+        return this.family.tag
       }
     }
   });
@@ -301,7 +308,7 @@ function axesCombos(axes) {
         toFamily: "",
         currentCategory: "/Expressive/Calm",
         sortMethod: "Score",
-        categories: new Set(),
+        categories: new Set([" All"]),
         tags: [],
         reverseTags: false,
         seen: new Set(),
@@ -370,9 +377,11 @@ function axesCombos(axes) {
             return bFamilyData[_this.sortMethod.toLowerCase()] - aFamilyData[_this.sortMethod.toLowerCase()];
           }
         }
-        let ll = this.tags;
-        let filtered = ll.filter(family => family.category === this.currentCategory);
-        filtered = filtered.filter(family => family.name.toLowerCase().includes(this.tagFilter.toLowerCase()));
+        let filtered = this.tags;
+        if (this.currentCategory !== " All") {
+          filtered = filtered.filter(family => family.category === this.currentCategory);
+        }
+        filtered = filtered.filter(family => family.tag.match(this.tagFilter));
         filtered.sort(sortFunc);
 
         if (this.reverseTags) {

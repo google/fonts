@@ -1,5 +1,5 @@
 name: "Cascadia Mono"
-designer: "Aaron Bell, Mohamad Dakak, Viktoriya Grabowska, Liron Lavi Turkenich, Gerry Leonidas, Donny Trương"
+designer: "Aaron Bell, Mohamad Dakak, Viktoriya Grabowska, Liron Lavi Turkenich"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-03-18"

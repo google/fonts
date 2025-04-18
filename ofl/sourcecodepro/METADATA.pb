@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "SourceCodePro[wght].ttf"
-  post_script_name: "SourceCode_ExtraLight"
-  full_name: "Source Code Pro"
+  post_script_name: "SourceCodePro-ExtraLight"
+  full_name: "Source Code Pro ExtraLight Regular"
   copyright: "© 2010 - 2020 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
 }
 fonts {
@@ -17,8 +17,8 @@ fonts {
   style: "italic"
   weight: 400
   filename: "SourceCodePro-Italic[wght].ttf"
-  post_script_name: "SourceCode_ExtraLight-Italic"
-  full_name: "Source Code Pro Italic"
+  post_script_name: "SourceCodePro-ExtraLightItalic"
+  full_name: "Source Code Pro ExtraLight Italic"
   copyright: "© 2010 - 2020 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
 }
 subsets: "cyrillic"
@@ -33,4 +33,8 @@ axes {
   tag: "wght"
   min_value: 200.0
   max_value: 900.0
+}
+
+source {
+  repository_url: "https://github.com/adobe-fonts/source-code-pro"
 }

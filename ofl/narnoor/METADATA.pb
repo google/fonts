@@ -1,7 +1,7 @@
 name: "Narnoor"
 designer: "SIL International"
 license: "OFL"
-category: "SERIF"
+category: "SANS_SERIF"
 date_added: "2023-03-03"
 fonts {
   name: "Narnoor"
@@ -85,4 +85,4 @@ source {
 }
 languages: "wsg_Gong"  # Adilabad Gondi, Gunjala Gondi
 primary_script: "Gong"
-stroke: "SERIF"
+stroke: "SANS_SERIF"

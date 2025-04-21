@@ -1,7 +1,7 @@
 name: "Gurajada"
 designer: "Purushoth Kumar Guttula"
 license: "OFL"
-category: "SERIF"
+category: "SANS_SERIF"
 date_added: "2015-01-08"
 fonts {
   name: "Gurajada"

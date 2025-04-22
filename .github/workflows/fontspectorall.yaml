@@ -2,6 +2,7 @@ name: QA whole library
 on:
   schedule:
     - cron: "12 1 * * *"
+  workflow_dispatch:
 jobs:
   rebuild:
     runs-on: macos-13 # More RAM, heh heh

@@ -2,6 +2,7 @@ name: QA whole library
 on:
   schedule:
     - cron: "12 1 * * *"
+  workflow_dispatch:
 jobs:
   rebuild:
     runs-on: macos-13 # More RAM, heh heh
@@ -13,7 +14,16 @@ jobs:
           ref: main
           lfs: true
       - name: Grab fontspector database
-        run: git fetch origin gh-pages; git checkout gh-pages; cp fontspector-dashboard/fontspector.db . ; git checkout main
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$CORVEL_SSH_PRIVATE_KEY" > ../private.key
+          sudo chmod 600 ../private.key
+          echo "$CORVEL_KNOWNHOSTS" > ~/.ssh/known_hosts
+          scp -i ../private.key fontspector@corvelsoftware.co.uk:fontspector.db .
+        shell: bash
+        env:
+          CORVEL_SSH_PRIVATE_KEY: ${{secrets.CORVEL_SSH_PRIVATE_KEY}}
+          CORVEL_KNOWNHOSTS: ${{secrets.CORVEL_KNOWNHOSTS}}
       - name: Install protoc
         run: brew install protobuf
       - name: Install Rust
@@ -25,7 +35,7 @@ jobs:
       - name: Build dashboard
         run: cd .ci/fontspector-dashboard && npm install && npm run build
       - name: Stash database again
-        run: cp fontspector.db fontspector-dashboard-build/
+        run: "scp -i ../private.key fontspector.db fontspector@corvelsoftware.co.uk:"
       - name: Add to branch
         run: git checkout gh-pages; git rm -rf fontspector-dashboard || true; rm -rf fontspector-dashboard || true; mv fontspector-dashboard-build fontspector-dashboard
       - name: Upload results

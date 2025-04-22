@@ -18,6 +18,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+subsets: "emoji"
 axes {
   tag: "MORF"
   min_value: 0.0

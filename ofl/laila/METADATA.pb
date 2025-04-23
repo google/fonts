@@ -1,7 +1,7 @@
 name: "Laila"
 designer: "Indian Type Foundry"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2014-08-27"
 fonts {
   name: "Laila"

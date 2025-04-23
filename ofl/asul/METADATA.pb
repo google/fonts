@@ -1,7 +1,7 @@
 name: "Asul"
 designer: "Mariela Monsalve"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2011-12-19"
 fonts {
   name: "Asul"

@@ -87,5 +87,5 @@ source {
   branch: "main"
 }
 primary_script: "Jpan"
-stroke: "SERIF"
+stroke: "SANS_SERIF"
 classifications: "DISPLAY"

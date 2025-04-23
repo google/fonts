@@ -14,5 +14,5 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
-stroke: "SERIF"
+stroke: "SANS_SERIF"
 classifications: "DISPLAY"

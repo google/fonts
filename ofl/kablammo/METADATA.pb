@@ -14,10 +14,12 @@ fonts {
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
+subsets: "emoji"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
+
 axes {
   tag: "MORF"
   min_value: 0.0

@@ -26,7 +26,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/anrt-type/ANRT-Baskervville"
-  commit: "11a43fe1ef8b4c23aff9f24c218412d15cca54fd"
+  commit: "0629447774568fd957d98736487afb000be38b55"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

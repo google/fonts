@@ -1,16 +1,16 @@
-name: "WD-XL Lubrifont SC"
+name: "WDXL Lubrifont SC"
 designer: "NightFurySL2001"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-04-01"
 fonts {
-  name: "WD-XL Lubrifont SC"
+  name: "WDXL Lubrifont SC"
   style: "normal"
   weight: 400
-  filename: "WD-XLLubrifontSC-Regular.ttf"
-  post_script_name: "WD-XLLubrifontSC-Regular"
-  full_name: "WD-XL 滑油字 SC"
-  copyright: "Copyright 2025 The WD-XL Lubrifont Project Authors (https://github.com/NightFurySL2001/WD-XL-font)"
+  filename: "WDXLLubrifontSC-Regular.ttf"
+  post_script_name: "WDXLLubrifontSC-Regular"
+  full_name: "WDXL Lubrifont SC"
+  copyright: "Copyright 2025 The WDXL Lubrifont Project Authors (https://github.com/NightFurySL2001/WD-XL-font)"
 }
 subsets: "chinese-simplified"
 subsets: "cyrillic"

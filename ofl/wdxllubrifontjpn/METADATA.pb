@@ -1,16 +1,16 @@
-name: "WD-XL Lubrifont JP N"
+name: "WDXL Lubrifont JP N"
 designer: "NightFurySL2001"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-04-01"
 fonts {
-  name: "WD-XL Lubrifont JP N"
+  name: "WDXL Lubrifont JP N"
   style: "normal"
   weight: 400
-  filename: "WD-XLLubrifontJPN-Regular.ttf"
-  post_script_name: "WD-XLLubrifontJPN-Regular"
-  full_name: "WD-XL 滑油字 JP N"
-  copyright: "Copyright 2025 The WD-XL Lubrifont Project Authors (https://github.com/NightFurySL2001/WD-XL-font)"
+  filename: "WDXLLubrifontJPN-Regular.ttf"
+  post_script_name: "WDXLLubrifontJPN-Regular"
+  full_name: "WDXL Lubrifont JP N"
+  copyright: "Copyright 2025 The WDXL Lubrifont Project Authors (https://github.com/NightFurySL2001/WD-XL-font)"
 }
 subsets: "cyrillic"
 subsets: "japanese"

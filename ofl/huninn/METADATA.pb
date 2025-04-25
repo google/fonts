@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
-primary_script: "Hani"
+primary_script: "Hant"
 
 source {
   repository_url: "https://github.com/justfont/Huninn"

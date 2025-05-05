@@ -20,6 +20,7 @@ source {
   repository_url: "https://github.com/notofonts/grantha"
   commit: "6bb911fa061ee18766c677ffcbd844ac1041eb81"
   archive_url: "https://github.com/notofonts/grantha/releases/download/NotoSansGrantha-v2.005/NotoSansGrantha-v2.005.zip"
+  config_yaml: "sources/config-sans-grantha.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -43,6 +43,7 @@ axes {
 source {
   repository_url: "https://github.com/notofonts/latin-greek-cyrillic"
   commit: "c4a321e123e4d4ff315f57f4e0adf294fe3a95be"
+  config_yaml: "sources/config-sans.yaml"
   archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v2.015/NotoSans-v2.015.zip"
   files {
     source_file: "ARTICLE.en_us.html"

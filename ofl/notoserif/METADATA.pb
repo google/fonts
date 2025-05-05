@@ -42,7 +42,9 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/latin-greek-cyrillic"
-  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.013/NotoSerif-v2.013.zip"
+  commit: "c4a321e123e4d4ff315f57f4e0adf294fe3a95be"
+  config_yaml: "sources/config-serif.yaml"
+  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.015/NotoSerif-v2.015.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

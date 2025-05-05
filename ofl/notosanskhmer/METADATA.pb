@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/khmer"
+  commit: "5d2251a4e32635c6657967a157759aac7a662fc9"
+  config_yaml: "sources/config-sans-khmer.yaml"
   archive_url: "https://github.com/notofonts/khmer/releases/download/NotoSansKhmer-v2.004/NotoSansKhmer-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"

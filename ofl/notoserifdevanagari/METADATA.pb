@@ -30,6 +30,7 @@ source {
   repository_url: "https://github.com/notofonts/devanagari"
   commit: "bb8d2566a1708ef2dcc6396ee2eb261a18967f76"
   archive_url: "https://github.com/notofonts/devanagari/releases/download/NotoSerifDevanagari-v2.006/NotoSerifDevanagari-v2.006.zip"
+  config_yaml: "sources/config-serif-devanagari.yaml"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"

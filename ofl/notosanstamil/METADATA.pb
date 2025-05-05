@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/tamil"
+  commit: "626575fa0c68c81dee17a0342003c08c0ab8375e"
+  config_yaml: "sources/config-sans-tamil.yaml"
   archive_url: "https://github.com/notofonts/tamil/releases/download/NotoSansTamil-v2.004/NotoSansTamil-v2.004.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

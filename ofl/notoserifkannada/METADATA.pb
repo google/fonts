@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/kannada"
+  commit: "b0e78acf3176fb4d30c95ece3825ef8561dbd7aa"
+  config_yaml: "sources/config-serif-kannada.yaml"
   archive_url: "https://github.com/notofonts/kannada/releases/download/NotoSerifKannada-v2.005/NotoSerifKannada-v2.005.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

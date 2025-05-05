@@ -29,6 +29,7 @@ axes {
 source {
   repository_url: "https://github.com/notofonts/hebrew"
   commit: "02fcd18e295ebadcda7bcaa774c107538fe2a5ee"
+  config_yaml: "sources/config-serif-hebrew.yaml"
   archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSerifHebrew-v2.004/NotoSerifHebrew-v2.004.zip"
   files {
     source_file: "OFL.txt"

@@ -29,6 +29,7 @@ axes {
 source {
   repository_url: "https://github.com/notofonts/thai"
   commit: "c62000b1b2328aa5e08470c1924ac9987fdb83b9"
+  config_yaml: "sources/config-sans-thai-looped.yaml"
   archive_url: "https://github.com/notofonts/thai/releases/download/NotoSansThaiLooped-v2.000/NotoSansThaiLooped-v2.000.zip"
   files {
     source_file: "OFL.txt"

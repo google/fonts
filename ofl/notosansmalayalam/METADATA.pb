@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/malayalam"
+  commit: "ea3898d22b4659221728ad8a854c076c57e33836"
+  config_yaml: "sources/config-sans-malayalam.yaml"
   archive_url: "https://github.com/notofonts/malayalam/releases/download/NotoSansMalayalam-v2.104/NotoSansMalayalam-v2.104.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

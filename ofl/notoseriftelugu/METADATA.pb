@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/telugu"
+  commit: "af5b949ed1906ead47608577d092fb013d3145d3"
+  config_yaml: "sources/config-serif-telugu.yaml"
   archive_url: "https://github.com/notofonts/telugu/releases/download/NotoSerifTelugu-v2.005/NotoSerifTelugu-v2.005.zip"
   files {
     source_file: "ARTICLE.en_us.html"

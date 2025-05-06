@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/nushu"
+  commit: "836ef3cc41d6f95e6f64e3f4a46ad260eb7e9d9d"
+  config_yaml: "sources/config-traditional-nushu.yaml"
   archive_url: "https://github.com/notofonts/nushu/releases/download/NotoTraditionalNushu-v2.003/NotoTraditionalNushu-v2.003.zip"
   files {
     source_file: "OFL.txt"

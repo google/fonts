@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/myanmar"
+  commit: "bd348056676051ac9076de5737436f0308b0de29"
+  config_yaml: "sources/config-sans-myanmar.yaml"
   archive_url: "https://github.com/notofonts/myanmar/releases/download/NotoSansMyanmar-v2.107/NotoSansMyanmar-v2.107.zip"
   files {
     source_file: "OFL.txt"

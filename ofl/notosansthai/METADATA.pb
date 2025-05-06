@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/thai"
+  commit: "f8f3f024703f9d939d02f4e2fe16f1d5a39ca963"
+  config_yaml: "sources/config-sans-thai.yaml"
   archive_url: "https://github.com/notofonts/thai/releases/download/NotoSansThai-v2.002/NotoSansThai-v2.002.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

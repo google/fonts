@@ -18,6 +18,8 @@ subsets: "menu"
 subsets: "nushu"
 source {
   repository_url: "https://github.com/notofonts/nushu"
+  commit: "933f7be1e6083e9ead39e560fa0b526d491bec4b"
+  config_yaml: "sources/config-sans-nushu.yaml"
   archive_url: "https://github.com/notofonts/nushu/releases/download/NotoSansNushu-v1.003/NotoSansNushu-v1.003.zip"
   files {
     source_file: "OFL.txt"

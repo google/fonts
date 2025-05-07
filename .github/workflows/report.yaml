@@ -8,6 +8,7 @@ on:
       - '.github/workflows/report.yaml'
   schedule:
     # Every Monday at 12am
+    # - cron: '1/5 * * * *'
     - cron:  '0 0 * * 1'
   
 
@@ -30,6 +31,9 @@ jobs:
     - name: Generate report
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        DEV_META_URL: ${{ secrets.DEV_META_URL }}
+        SANDBOX_META_URL: ${{ secrets.SANDBOX_META_URL }}
+        PRODUCTION_META_URL: ${{ secrets.PRODUCTION_META_URL }}
       run: |
         mkdir out
         gftools push-stats . out/index.html

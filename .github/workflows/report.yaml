@@ -4,9 +4,9 @@ name: Google Fonts Report
 on:
   schedule:
     # Every Monday at 12am
-    - cron:  '0 0 * * 1'
+    #- cron:  '0 0 * * 1'
     # for testing every 5th minute e.g 1:05, 1:10, 1:15...
-    #- cron: '1/5 * * * *'
+    - cron: '1/5 * * * *'
 
 
 jobs:
@@ -30,6 +30,7 @@ jobs:
       run: |
         mkdir out
         gftools push-stats . out/index.html
+        gftools compare-meta --meta -o out/meta.html
         cp .ci/tags.html out/tags.html
         cp .ci/vf-tag-demo2.html out/vf-tag-demo2.html
         curl https://fonts.google.com/metadata/fonts > out/family_data.json

@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/symbols"
+  commit: "b61fa7f86fb7d4163ee11d46d0977393f98d4f7a"
+  config_yaml: "sources/config-sans-symbols.yaml"
   archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols-v2.003/NotoSansSymbols-v2.003.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

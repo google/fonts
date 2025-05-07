@@ -2,16 +2,22 @@
 name: Google Fonts Report
 
 on:
+  # will run when modifying this file for testing purposes
+  pull_request:
+    paths:
+      - '.github/workflows/report.yaml'
   schedule:
     # Every Monday at 12am
+    # - cron: '1/5 * * * *'
     - cron:  '0 0 * * 1'
-    # for testing every 5th minute e.g 1:05, 1:10, 1:15...
-    #- cron: '1/5 * * * *'
+  
 
 
 jobs:
   gen_report:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v3
       with:
@@ -27,9 +33,13 @@ jobs:
     - name: Generate report
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        DEV_META_URL: ${{ secrets.DEV_META_URL }}
+        SANDBOX_META_URL: ${{ secrets.SANDBOX_META_URL }}
+        PRODUCTION_META_URL: ${{ secrets.PRODUCTION_META_URL }}
       run: |
         mkdir out
         gftools push-stats . out/index.html
+        gftools compare-meta --meta -o out/meta.html
         cp .ci/tags.html out/tags.html
         cp .ci/vf-tag-demo2.html out/vf-tag-demo2.html
         curl https://fonts.google.com/metadata/fonts > out/family_data.json

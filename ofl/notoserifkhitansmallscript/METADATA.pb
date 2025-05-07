@@ -18,6 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/khitan-small-script"
+  commit: "8769c8b092f7a228b69fe7420f8c714abb0bcd44"
+  config_yaml: "sources/config-serif.yaml"
   archive_url: "https://github.com/notofonts/khitan-small-script/releases/download/NotoSerifKhitanSmallScript-v1.000/NotoSerifKhitanSmallScript-v1.000.zip"
   files {
     source_file: "ARTICLE.en_us.html"

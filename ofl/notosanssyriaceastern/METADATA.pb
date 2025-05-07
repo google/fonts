@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/syriac"
+  commit: "11c7d5208e347bf59e1064253d3ec5916c1c2314"
+  config_yaml: "sources/config-sans-syriac-eastern.yaml"
   archive_url: "https://github.com/notofonts/syriac/releases/download/NotoSansSyriacEastern-v3.001/NotoSansSyriacEastern-v3.001.zip"
   files {
     source_file: "ARTICLE.en_us.html"

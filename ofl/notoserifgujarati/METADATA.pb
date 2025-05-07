@@ -25,6 +25,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/gujarati"
+  commit: "825b7f9e39b0eea6f02a4646ffa4ce18d482250a"
+  config_yaml: "sources/config-serif-gujarati.yaml"
   archive_url: "https://github.com/notofonts/gujarati/releases/download/NotoSerifGujarati-v2.106/NotoSerifGujarati-v2.106.zip"
   files {
     source_file: "OFL.txt"

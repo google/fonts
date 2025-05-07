@@ -25,6 +25,7 @@ axes {
 source {
   repository_url: "https://github.com/notofonts/hebrew"
   commit: "02fcd18e295ebadcda7bcaa774c107538fe2a5ee"
+  config_yaml: "sources/config-rashi-hebrew.yaml"
   archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoRashiHebrew-v1.007/NotoRashiHebrew-v1.007.zip"
   files {
     source_file: "OFL.txt"

@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/telugu"
+  commit: "af5b949ed1906ead47608577d092fb013d3145d3"
+  config_yaml: "sources/config-sans-telugu.yaml"
   archive_url: "https://github.com/notofonts/telugu/releases/download/NotoSansTelugu-v2.005/NotoSansTelugu-v2.005.zip"
   files {
     source_file: "ARTICLE.en_us.html"

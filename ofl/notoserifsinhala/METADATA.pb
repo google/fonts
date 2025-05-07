@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/sinhala"
+  commit: "add62c1ebbbd54bcb291eb30aeea22400f839bfa"
+  config_yaml: "sources/config-serif-sinhala.yaml"
   archive_url: "https://github.com/notofonts/sinhala/releases/download/NotoSerifSinhala-v2.007/NotoSerifSinhala-v2.007.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

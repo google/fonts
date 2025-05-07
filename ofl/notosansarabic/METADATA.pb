@@ -31,6 +31,8 @@ axes {
 source {
   repository_url: "https://github.com/notofonts/arabic"
   archive_url: "https://github.com/notofonts/arabic/releases/download/NotoSansArabic-v2.012/NotoSansArabic-v2.012.zip"
+  commit: "6c8320740db19efbb3127c3697b0ee5d0fa62319"
+  config_yaml: "sources/config-sans-arabic.yaml"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

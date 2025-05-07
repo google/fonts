@@ -30,7 +30,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/hebrew"
-  commit: "036f3206f67caac235cf8546a7751d3440771a7e"
+  commit: "d2ce986faa9c149e8961c7bceddb8e376760541a"
+  config_yaml: "sources/config-sans-hebrew.yaml"
   archive_url: "https://github.com/notofonts/hebrew/releases/download/NotoSansHebrew-v3.001/NotoSansHebrew-v3.001.zip"
   files {
     source_file: "OFL.txt"

@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/vithkuqi"
+  commit: "b1538fae374bd36a28c35d504ecea658dd015aaf"
+  config_yaml: "sources/config-sans-vithkuqi.yaml"
   archive_url: "https://github.com/notofonts/vithkuqi/releases/download/NotoSansVithkuqi-v1.001/NotoSansVithkuqi-v1.001.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

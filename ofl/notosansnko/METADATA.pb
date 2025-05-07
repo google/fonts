@@ -18,6 +18,8 @@ subsets: "menu"
 subsets: "nko"
 source {
   repository_url: "https://github.com/notofonts/nko"
+  commit: "a5db712e48059443e873e60805458924ec36f87a"
+  config_yaml: "sources/config-sans-nko.yaml"
   archive_url: "https://github.com/notofonts/nko/releases/download/NotoSansNKo-v2.004/NotoSansNKo-v2.004.zip"
   files {
     source_file: "ARTICLE.en_us.html"

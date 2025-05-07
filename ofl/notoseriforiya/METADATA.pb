@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/oriya"
+  commit: "795268df4e01d7869805c7af179e5038568212e9"
+  config_yaml: "sources/config-serif-oriya.yaml"
   archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSerifOriya-v1.051/NotoSerifOriya-v1.051.zip"
   files {
     source_file: "OFL.txt"

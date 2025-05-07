@@ -28,7 +28,9 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/ethiopic"
+  commit: "1cc6933c58b7c42bbade15d6c7173897c24759e3"
   archive_url: "https://github.com/notofonts/ethiopic/releases/download/NotoSansEthiopic-v2.102/NotoSansEthiopic-v2.102.zip"
+  config_yaml: "sources/config-sans-ethiopic.yaml"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

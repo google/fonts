@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/gurmukhi"
+  commit: "231c5c6e9c622c4ef3792ead7a91045af0ee610a"
+  config_yaml: "sources/config-serif-gurmukhi.yaml"
   archive_url: "https://github.com/notofonts/gurmukhi/releases/download/NotoSerifGurmukhi-v2.004/NotoSerifGurmukhi-v2.004.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

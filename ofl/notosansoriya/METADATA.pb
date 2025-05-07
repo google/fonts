@@ -28,6 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/oriya"
+  commit: "97abab82ec512f8a4a98c389352f194a03385ce2"
+  config_yaml: "sources/config-sans-oriya.yaml"
   archive_url: "https://github.com/notofonts/oriya/releases/download/NotoSansOriya-v2.006/NotoSansOriya-v2.006.zip"
   files {
     source_file: "ARTICLE.en_us.html"

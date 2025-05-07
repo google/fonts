@@ -18,6 +18,8 @@ subsets: "menu"
 subsets: "tamil-supplement"
 source {
   repository_url: "https://github.com/notofonts/tamil"
+  commit: "27af016af77aed49475014b9cfe2a46b8fe71966"
+  config_yaml: "sources/config-sans-tamil-supplement.yaml"
   archive_url: "https://github.com/notofonts/tamil/releases/download/NotoSansTamilSupplement-v2.001/NotoSansTamilSupplement-v2.001.zip"
   files {
     source_file: "OFL.txt"

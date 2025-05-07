@@ -21,6 +21,8 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/notofonts/symbols"
+  commit: "25b00f0d3f40873a005287514ba2a48558655314"
+  config_yaml: "sources/config-sans-symbols2.yaml"
   archive_url: "https://github.com/notofonts/symbols/releases/download/NotoSansSymbols2-v2.008/NotoSansSymbols2-v2.008.zip"
   files {
     source_file: "ARTICLE.en_us.html"

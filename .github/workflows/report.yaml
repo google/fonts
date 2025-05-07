@@ -2,11 +2,14 @@
 name: Google Fonts Report
 
 on:
+  # will run when modifying this file for testing purposes
+  pull_request:
+    paths:
+      - '.github/workflows/report.yaml'
   schedule:
     # Every Monday at 12am
-    #- cron:  '0 0 * * 1'
-    # for testing every 5th minute e.g 1:05, 1:10, 1:15...
-    - cron: '1/5 * * * *'
+    - cron:  '0 0 * * 1'
+  
 
 
 jobs:

@@ -15,7 +15,7 @@ bytes = "1.7.1"
 prost = "0.13"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-write-fonts = { version = "0", optional = true, features = ["read"] }
+write-fonts = { version = "0.37.0", optional = true, features = ["read"] }
 skrifa = { version = "0", optional = true }
 indexmap = "2.7.0"
 

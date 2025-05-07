@@ -18,7 +18,8 @@ subsets: "math"
 subsets: "menu"
 source {
   repository_url: "https://www.github.com/notofonts/math"
-  commit: "00e9941d95b2a355399a66f3990ffde6e4985676"
+  commit: "4b78263eac2301b04367d600a07b521cfbff0867"
+  config_yaml: "sources/config-sans-math.yaml"
   archive_url: "https://github.com/notofonts/math/releases/download/NotoSansMath-v3.000/NotoSansMath-v3.000.zip"
   files {
     source_file: "fonts/ttf/NotoSansMath-Regular.ttf"

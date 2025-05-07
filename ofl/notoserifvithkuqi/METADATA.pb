@@ -23,6 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/vithkuqi"
+  commit: "b1538fae374bd36a28c35d504ecea658dd015aaf"
+  config_yaml: "sources/config-serif-vithkuqi.yaml"
   archive_url: "https://github.com/notofonts/vithkuqi/releases/download/NotoSerifVithkuqi-v1.005/NotoSerifVithkuqi-v1.005.zip"
   files {
     source_file: "OFL.txt"

@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "telugu"
 source {
-  repository_url: "https://www.github.com/googlefonts/gidugu"
+  repository_url: "https://github.com/googlefonts/gidugu"
   commit: "368be453c9ff3a999f47fb961dce0019d12a4b17"
   files {
     source_file: "fonts/ttf/Gidugu-Regular.ttf"

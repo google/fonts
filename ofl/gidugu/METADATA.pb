@@ -8,7 +8,7 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Gidugu-Regular.ttf"
-  post_script_name: "Gidugu"
+  post_script_name: "Gidugu-Regular"
   full_name: "Gidugu Regular"
   copyright: "Copyright 2025 The Gidugu Project Authors (https://github.com/googlefonts/gidugu)"
 }

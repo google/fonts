@@ -888,14 +888,6 @@ BhuTuka Expanded One,/Expressive/Sincere,50.1
 BhuTuka Expanded One,/Expressive/Vintage,55.3
 BhuTuka Expanded One,/Seasonal/Diwali,90
 BhuTuka Expanded One,/Slab/Humanist,100
-Big Shoulders,/Expressive/Calm,79
-Big Shoulders,/Expressive/Competent,96.9
-Big Shoulders,/Expressive/Futuristic,56
-Big Shoulders,/Expressive/Stiff,30
-Big Shoulders,/Sans/Geometric,20
-Big Shoulders,/Sans/Grotesque,40
-Big Shoulders,/Sans/Humanist,20
-Big Shoulders,/Sans/Superellipse,20
 Big Shoulders Inline,/Expressive/Calm,79
 Big Shoulders Inline,/Expressive/Competent,96.9
 Big Shoulders Inline,/Expressive/Futuristic,56
@@ -912,6 +904,14 @@ Big Shoulders Stencil,/Sans/Grotesque,30
 Big Shoulders Stencil,/Sans/Humanist,15
 Big Shoulders Stencil,/Sans/Superellipse,20
 Big Shoulders Stencil,/Theme/Stencil,20
+Big Shoulders,/Expressive/Calm,79
+Big Shoulders,/Expressive/Competent,96.9
+Big Shoulders,/Expressive/Futuristic,56
+Big Shoulders,/Expressive/Stiff,30
+Big Shoulders,/Sans/Geometric,20
+Big Shoulders,/Sans/Grotesque,40
+Big Shoulders,/Sans/Humanist,20
+Big Shoulders,/Sans/Superellipse,20
 Bigelow Rules,/Expressive/Playful,47
 Bigelow Rules,/Expressive/Sincere,30.1
 Bigelow Rules,/Expressive/Vintage,26.5
@@ -6877,16 +6877,11 @@ Pochaevsk,/Quality/Concept,50
 Pochaevsk,/Quality/Drawing,50
 Pochaevsk,/Quality/Spacing,50
 Pochaevsk,/Serif/Old Style Garalde,100
+Podkova,/Expressive/Sincere,9
 Podkova,/Quality/Concept,50
 Podkova,/Quality/Drawing,50
 Podkova,/Quality/Spacing,50
-Podkova,/Expressive/Sincere,9
 Podkova,/Slab/Humanist,30
-Ponomar,/Quality/Concept,50
-Ponomar,/Quality/Drawing,50
-Ponomar,/Quality/Spacing,50
-Ponomar,/Expressive/Sincere,9
-Ponomar,/Slab/Humanist,30
 Poetsen One,/Expressive/Childlike,10
 Poetsen One,/Expressive/Cute,20
 Poetsen One,/Expressive/Playful,51
@@ -6920,6 +6915,11 @@ Pompiere,/Seasonal/Valentine's Day,62
 Pompiere,/Theme/Art Deco,50
 Ponnala,/Expressive/Loud,99
 Ponnala,/Seasonal/Holi,96
+Ponomar,/Expressive/Sincere,9
+Ponomar,/Quality/Concept,50
+Ponomar,/Quality/Drawing,50
+Ponomar,/Quality/Spacing,50
+Ponomar,/Slab/Humanist,30
 Pontano Sans,/Expressive/Business,91.1
 Pontano Sans,/Expressive/Calm,81.9
 Pontano Sans,/Expressive/Competent,38
@@ -7355,6 +7355,8 @@ Roboto Flex,/Expressive/Stiff,51
 Roboto Flex,/Quality/Concept,100
 Roboto Flex,/Quality/Drawing,100
 Roboto Flex,/Sans/Neo Grotesque,100
+Roboto Flex:"wght@500",/Expressive/Calm,100
+Roboto Flex:"wght@700",/Expressive/Calm,100
 Roboto Mono,/Expressive/Calm,79
 Roboto Mono,/Expressive/Competent,62
 Roboto Mono,/Expressive/Stiff,51

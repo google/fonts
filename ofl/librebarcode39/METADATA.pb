@@ -28,3 +28,12 @@ source {
 }
 classifications: "DISPLAY"
 classifications: "SYMBOLS"
+sample_text {
+  masthead_full: "abcdefghij"
+  masthead_partial: "abcd"
+  styles: "abcdefghij x012345678 23456789 klmnopqrst"
+  tester: "abcdefghij x012345678 23456789 klmnopqrst"
+  poster_sm: "abcdefghij x012345678 23456789"
+  poster_md: "abcdefghij x012345678"
+  poster_lg: "23456789"
+}

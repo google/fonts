@@ -23,8 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/Kief-Type-Foundry/Fustat"
-  commit: "8e5354428eb81c3ebf9edbc86bfa9cdca23ce8b1"
-  archive_url: "https://github.com/Kief-Type-Foundry/Fustat/releases/download/v1.007/Fustat-v1.007.zip"
+  commit: "642499b606f79bc6c25e63a4f8335a40afd96a13"
+  archive_url: "https://github.com/Kief-Type-Foundry/Fustat/releases/download/v1.010/Fustat-v1.010.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

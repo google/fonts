@@ -1,13 +1,14 @@
 use std::{collections::HashSet, ops::Index};
 
-use indexmap::IndexMap;
-use skrifa::string::StringId;
 #[cfg(feature = "fontations")]
-use write_fonts::{
+use fontations::skrifa::string::StringId;
+#[cfg(feature = "fontations")]
+use fontations::{
     read::FontRef,
     read::{ReadError, TableProvider},
-    FontBuilder,
+    write::FontBuilder,
 };
+use indexmap::IndexMap;
 
 include!(concat!(env!("OUT_DIR"), "/_.rs"));
 include!(concat!(env!("OUT_DIR"), "/data.rs"));
@@ -222,16 +223,10 @@ mod nametable;
 #[cfg(feature = "fontations")]
 mod stat;
 #[cfg(feature = "fontations")]
-mod fontations {
+mod fontations_impl {
     use super::*;
-    use monkeypatching::{AxisValueNameId, SetAxisValueNameId};
-    use nametable::{
-        add_name, best_familyname, best_subfamilyname, find_or_add_name, rewrite_or_insert,
-    };
-    use skrifa::{string::StringId, MetadataProvider, Tag};
-    use stat::{AxisLocation, AxisRecord, AxisValue, StatBuilder};
-    use std::{cmp::Reverse, collections::HashMap};
-    use write_fonts::{
+    use fontations::skrifa::{string::StringId, MetadataProvider, Tag};
+    use fontations::write::{
         from_obj::ToOwnedTable,
         tables::{
             fvar::{Fvar, InstanceRecord},
@@ -241,6 +236,12 @@ mod fontations {
         },
         types::Fixed,
     };
+    use monkeypatching::{AxisValueNameId, SetAxisValueNameId};
+    use nametable::{
+        add_name, best_familyname, best_subfamilyname, find_or_add_name, rewrite_or_insert,
+    };
+    use stat::{AxisLocation, AxisRecord, AxisValue, StatBuilder};
+    use std::{cmp::Reverse, collections::HashMap};
 
     #[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
     pub enum RenameAggressiveness {
@@ -912,19 +913,19 @@ mod fontations {
 }
 
 #[cfg(feature = "fontations")]
-pub use fontations::*;
+pub use fontations_impl::*;
 
 #[cfg(test)]
 mod tests {
-    use pretty_assertions::assert_eq;
-    use skrifa::{string::StringId, MetadataProvider, Tag};
-    use write_fonts::{
+    use fontations::skrifa::{string::StringId, MetadataProvider, Tag};
+    use fontations::write::{
         from_obj::ToOwnedTable,
         tables::{
             name::Name,
             stat::{AxisValue, Stat},
         },
     };
+    use pretty_assertions::assert_eq;
 
     use super::*;
 

@@ -103,11 +103,23 @@ checksum = "1d674e81391d1e1ab681a28d99df07927c6d4aa5b027d7da16ba32d1d21ecd99"
 
 [[package]]
 name = "font-types"
-version = "0.8.4"
+version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1fa6a5e5a77b5f3f7f9e32879f484aa5b3632ddfbe568a16266c904a6f32cdaf"
+checksum = "02a596f5713680923a2080d86de50fe472fb290693cf0f701187a1c8b36996b7"
 dependencies = [
  "bytemuck",
+]
+
+[[package]]
+name = "fontations"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "011db3cf1a28538f05bd7118555aec155a6295689ecba65f62da8d2cdf10fe83"
+dependencies = [
+ "font-types",
+ "read-fonts",
+ "skrifa",
+ "write-fonts",
 ]
 
 [[package]]
@@ -133,6 +145,7 @@ name = "google-fonts-axisregistry"
 version = "0.4.13"
 dependencies = [
  "bytes",
+ "fontations",
  "glob",
  "indexmap",
  "itertools 0.13.0",
@@ -147,9 +160,7 @@ dependencies = [
  "quote",
  "serde",
  "serde_json",
- "skrifa",
  "syn",
- "write-fonts",
 ]
 
 [[package]]
@@ -403,9 +414,9 @@ checksum = "74765f6d916ee2faa39bc8e68e4f3ed8949b48cccdac59983d287a7cb71ce9c5"
 
 [[package]]
 name = "read-fonts"
-version = "0.28.0"
+version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "600e807b48ac55bad68a8cb75cc3c7739f139b9248f7e003e01e080f589b5288"
+checksum = "5ce8e2ca6b24313587a03ca61bb74c384e2a815bd90cf2866cfc9f5fb7a11fa0"
 dependencies = [
  "bytemuck",
  "font-types",
@@ -506,9 +517,9 @@ dependencies = [
 
 [[package]]
 name = "skrifa"
-version = "0.30.0"
+version = "0.31.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6fa1e5622e4f7b98877e8a19890efddcac1230cec6198bd9de91ec0e00010dc8"
+checksum = "bbe6666ab11018ab91ff7b03f1a3b9fdbecfb610848436fefa5ce50343d3d913"
 dependencies = [
  "bytemuck",
  "read-fonts",
@@ -675,9 +686,9 @@ dependencies = [
 
 [[package]]
 name = "write-fonts"
-version = "0.37.0"
+version = "0.38.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "19b5dd9aad60a3be53ac918d46620ef2c2305e94bb3e86fe6297698390b0e9e0"
+checksum = "f441672abab9ac7d1c2fe559c0364559728914d7da369d76591e6153cf561fc7"
 dependencies = [
  "font-types",
  "indexmap",

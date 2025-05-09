@@ -1,7 +1,7 @@
 // STAT tables are *horrible*.
 
-use skrifa::string::StringId;
-use write_fonts::tables::stat::AxisValue as WriteAxisValue;
+use fontations::skrifa::string::StringId;
+use fontations::write::tables::stat::AxisValue as WriteAxisValue;
 
 pub(crate) trait AxisValueNameId {
     fn value_name_id(&self) -> Option<StringId>;

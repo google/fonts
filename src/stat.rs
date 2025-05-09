@@ -4,11 +4,11 @@
 // We're uninterested in anything other than 3/1/0x409, so we use Strings instead
 // of the more correct NameSpec.
 
-use std::collections::HashMap;
-use write_fonts::{
+use fontations::write::{
     tables::{name::NameRecord, stat as write_stat},
     types::{Fixed, NameId, Tag},
 };
+use std::collections::HashMap;
 
 use crate::nametable::find_or_add_name;
 

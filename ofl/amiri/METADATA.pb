@@ -43,8 +43,29 @@ subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
-primary_script: "Arab"
 source {
   repository_url: "https://github.com/aliftype/amiri.git"
-  archive_url: "https://github.com/aliftype/amiri/releases/download/1.000/Amiri-1.000.zip"
+  commit: "e0c13fb226b78a3d091e69a5ac7a7f940e8c58da"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/Amiri-Regular.ttf"
+    dest_file: "Amiri-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/Amiri-Italic.ttf"
+    dest_file: "Amiri-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/Amiri-Bold.ttf"
+    dest_file: "Amiri-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/Amiri-BoldItalic.ttf"
+    dest_file: "Amiri-BoldItalic.ttf"
+  }
+  branch: "main"
 }
+primary_script: "Arab"

@@ -7,9 +7,8 @@ on:
     paths:
       - '.github/workflows/report.yaml'
   schedule:
-    # Every Monday at 12am
-    # - cron: '1/5 * * * *'
-    - cron:  '0 0 * * 1'
+    # Every day at 12am
+    - cron:  '0 0 * * *'
   
 
 

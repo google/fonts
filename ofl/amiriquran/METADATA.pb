@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "AmiriQuran-Regular.ttf"
-  post_script_name: "AmiriQuranColored-Regular"
-  full_name: "Amiri Quran Colored Regular"
+  post_script_name: "AmiriQuran-Regular"
+  full_name: "Amiri Quran Regular"
   copyright: "Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri)."
 }
 subsets: "arabic"
@@ -24,7 +24,7 @@ source {
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "AmiriQuranColored.ttf"
+    source_file: "AmiriQuran.ttf"
     dest_file: "AmiriQuran-Regular.ttf"
   }
   branch: "main"

@@ -425,12 +425,25 @@ function axesCombos(axes) {
           let results = [];
           for (k in this.familyData) {
             const family = this.familyData[k];
-            // to do bullshit aplhabetical sorting
             let path = `https://fonts.googleapis.com/css2?family=${family.family.replaceAll(" ", "+")}`
+            // GF api wants the axes in sorted alphabetical order. However, axes with
+            // caps are last
+            const sortedUpperCaseAxes = []
+            const sortedLowerCaseAxes = []
+            for (let a of family.axes) {
+              if (a.tag.toUpperCase() === a.tag) {
+                sortedUpperCaseAxes.push(a);
+              } else {
+                sortedLowerCaseAxes.push(a);
+              }
+            }
+            sortedLowerCaseAxes.sort((a, b) => a.tag.localeCompare(b.tag));
+            sortedUpperCaseAxes.sort((a, b) => a.tag.localeCompare(b.tag));
+            const sortedAxes = [...sortedLowerCaseAxes, ...sortedUpperCaseAxes]
             if (family.axes.length > 0) {
-              path += ":" + family.axes.map(a => {return a.tag}).join(",")
+              path += ":" + sortedAxes.map(a => {return a.tag}).join(",")
               path += "@";
-              path += family.axes.map(a => {return `${Number(a.min)}..${Number(a.max)}`}).join(",")
+              path += sortedAxes.map(axis => {return `${Number(axis.min)}..${Number(axis.max)}`}).join(",")
             }
             results.push(path);
           }

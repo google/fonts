@@ -10,7 +10,7 @@ fonts {
   filename: "Savate[wght].ttf"
   post_script_name: "Savate-ExtraLight"
   full_name: "Savate ExtraLight"
-  copyright: "???."
+  copyright: "Copyright 2024 The Savate Project Authors (https://github.com/maxesnee/savate)"
 }
 fonts {
   name: "Savate"
@@ -19,7 +19,7 @@ fonts {
   filename: "Savate-Italic[wght].ttf"
   post_script_name: "Savate-ExtraLightItalic"
   full_name: "Savate ExtraLight Italic"
-  copyright: "???."
+  copyright: "Copyright 2024 The Savate Project Authors (https://github.com/maxesnee/savate)"
 }
 subsets: "latin"
 subsets: "latin-ext"

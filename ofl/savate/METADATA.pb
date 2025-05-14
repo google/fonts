@@ -10,7 +10,7 @@ fonts {
   filename: "Savate[wght].ttf"
   post_script_name: "Savate-ExtraLight"
   full_name: "Savate ExtraLight"
-  copyright: "???."
+  copyright: "Copyright 2024 The Savate Project Authors (https://github.com/maxesnee/savate)"
 }
 fonts {
   name: "Savate"

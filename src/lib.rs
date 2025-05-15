@@ -225,16 +225,18 @@ mod stat;
 #[cfg(feature = "fontations")]
 mod fontations_impl {
     use super::*;
-    use fontations::skrifa::{string::StringId, MetadataProvider, Tag};
-    use fontations::write::{
-        from_obj::ToOwnedTable,
-        tables::{
-            fvar::{Fvar, InstanceRecord},
-            name::{Name, NameRecord},
-            os2::Os2,
-            stat::Stat,
+    use fontations::{
+        skrifa::{string::StringId, MetadataProvider, Tag},
+        write::{
+            from_obj::ToOwnedTable,
+            tables::{
+                fvar::{Fvar, InstanceRecord},
+                name::{Name, NameRecord},
+                os2::Os2,
+                stat::Stat,
+            },
+            types::Fixed,
         },
-        types::Fixed,
     };
     use monkeypatching::{AxisValueNameId, SetAxisValueNameId};
     use nametable::{
@@ -265,7 +267,7 @@ mod fontations_impl {
             .map(|x| x.to_string())
             .unwrap_or_else(|| best_subfamilyname(&font).unwrap_or("Regular".to_string()));
 
-        let new_name = if font.table_data(Tag::new(b"fvar")).is_some() {
+        let mut new_name = if font.table_data(Tag::new(b"fvar")).is_some() {
             build_vf_name_table(&mut new_font, &font, &family_name, siblings, aggressive)?
         } else {
             build_static_name_table_v1(&mut new_font, &font, &family_name, &style_name, aggressive)?
@@ -282,6 +284,7 @@ mod fontations_impl {
             }
         }
         // Set RIBBI bits
+        new_name.name_record.sort();
         new_font.add_table(&new_name)?;
         Ok(new_font.copy_missing_tables(font).build())
     }
@@ -315,7 +318,7 @@ mod fontations_impl {
         build_variations_ps_name(&mut new_name, font, Some(family_name));
 
         // Ensure table records are sorted
-        new_name.name_record.sort_by_key(|record| record.name_id);
+        new_name.name_record.sort();
         Ok(new_name)
     }
 
@@ -491,7 +494,7 @@ mod fontations_impl {
             }
         }
         name.name_record = records;
-        name.name_record.sort_by_key(|record| record.name_id);
+        name.name_record.sort();
         Ok(name)
     }
 
@@ -706,7 +709,7 @@ mod fontations_impl {
         fvar.axis_instance_arrays.instances = instances;
 
         new_font.add_table(&fvar)?;
-        name_table.name_record.sort_by_key(|record| record.name_id);
+        name_table.name_record.sort();
         new_font.add_table(&name_table)?;
         Ok(new_font.copy_missing_tables(font).build())
     }
@@ -879,7 +882,7 @@ mod fontations_impl {
             values,
         };
         let stat = stat_builder.build(&mut name.name_record);
-        name.name_record.sort_by_key(|record| record.name_id);
+        name.name_record.sort();
         new_font.add_table(&name)?;
         new_font.add_table(&stat)?;
         Ok(new_font.copy_missing_tables(font).build())
@@ -917,12 +920,14 @@ pub use fontations_impl::*;
 
 #[cfg(test)]
 mod tests {
-    use fontations::skrifa::{string::StringId, MetadataProvider, Tag};
-    use fontations::write::{
-        from_obj::ToOwnedTable,
-        tables::{
-            name::Name,
-            stat::{AxisValue, Stat},
+    use fontations::{
+        skrifa::{string::StringId, MetadataProvider, Tag},
+        write::{
+            from_obj::ToOwnedTable,
+            tables::{
+                name::Name,
+                stat::{AxisValue, Stat},
+            },
         },
     };
     use pretty_assertions::assert_eq;

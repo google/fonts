@@ -9,6 +9,8 @@ jobs:
   build:
     name: Build distribution
     runs-on: ubuntu-latest
+    permissions:
+        content: write
     steps:
       - uses: actions/checkout@v4
         with:

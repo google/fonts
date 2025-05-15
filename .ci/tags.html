@@ -257,7 +257,7 @@ function axesCombos(axes) {
           <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square" :data-index="index" v-model.lazy="family.score" @change="edited" placeholder="family.score">
           <button class="btn btn-xs join-item pr-2" @click="removeFamily">X</button>
           </div>
-          <div v-if="ready" :style="familyStyle" contenteditable="true">
+          <div v-if="ready" :style="familyStyle" contenteditable="true" @input="customSampleText">
             {{ familyPangram }}
           </div>
         <div v-else>
@@ -267,6 +267,9 @@ function axesCombos(axes) {
       </div>
     `,
     methods: {
+      customSampleText(event) {
+        this.$root.sampleText = event.target.innerText;
+      },
       edited() {
         this.$emit('edited', this.family);
       },
@@ -276,6 +279,9 @@ function axesCombos(axes) {
     },
     computed: {
       familyPangram() {
+        if (this.$root.sampleText !== "") {
+          return this.$root.sampleText;
+        }
         return this.$root.familyPangram(this.family);
       },
       familyStyle() {
@@ -329,6 +335,7 @@ function axesCombos(axes) {
           ["Phags Pa", "ꡗ ꡈꡱ ᠂ ꡒ ꡂ ꡈꡞ ᠂ ꡚꡖꡋ ꡈꡞꡋꡨꡖ ꡗꡛꡧꡖ ꡈꡋ ꡈꡱꡨꡖ ꡳꡬꡖ"],
           ["Tamil", "மனிதக் குடும்பத்தினைச் சேர்ந்த யாவரதும் உள்ளார்ந்த"],
         ]),
+        sampleText: "",
         familyScripts: new Map(),
         history: [],
       };

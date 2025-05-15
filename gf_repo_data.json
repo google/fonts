@@ -1,6 +1,174 @@
 {
-    "last_run": "2025-05-14",
+    "last_run": "2025-05-15",
     "commits": [
+        {
+            "date": "2025-05-14T16:12:11",
+            "title": "Merge pull request #9446 from google/plombtype",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "designer",
+            "id": "900d3f5007ce477bc39d654767c046e7ac3f7460"
+        },
+        {
+            "date": "2025-05-14T16:11:48",
+            "title": "Merge pull request #9445 from google/maxesnee",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "designer",
+            "id": "8b7ae568b7734d1ddf78759a5554994dc95e1454"
+        },
+        {
+            "date": "2025-05-14T16:10:53",
+            "title": "Merge pull request #9453 from google/gftools_packager_ofl_savate",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "65ba31eea7903cbae018a955f8bbf9a85398a225"
+        },
+        {
+            "date": "2025-05-14T15:20:08",
+            "title": "update copyright in metadata",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ccdc20742d6d7c3fc40c9dce3c8fce0f322da87f"
+        },
+        {
+            "date": "2025-05-14T15:17:30",
+            "title": "update OFL",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "57038e9dc2603a7be2ba0f928695f46bc67aa83f"
+        },
+        {
+            "date": "2025-05-14T15:17:18",
+            "title": "add article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "279af92d0eae5808530c6345f126e76de15de9e6"
+        },
+        {
+            "date": "2025-05-14T15:15:01",
+            "title": "Savate: Version 2.000 added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "37e409985191dbfa7c70bc6682e47655bcbb1355"
+        },
+        {
+            "date": "2025-05-14T13:28:56",
+            "title": "Merge pull request #9448 from google/m4rc1e-patch-33",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cdc237bb8e2dbb45f9e3cdf38608ddee1dc24f8e"
+        },
+        {
+            "date": "2025-05-14T13:23:30",
+            "title": "Merge pull request #9450 from google/revert-9444-gftools_packager_ofl_savate",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "75a2ed2fc6f7bb6b6c1c1408d92d5f667d02f39f"
+        },
+        {
+            "date": "2025-05-14T13:22:26",
+            "title": "Revert \"Savate: Version 2.000 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "01e9c552a68a91651aef5efa65647eddc51e1f9f"
+        },
+        {
+            "date": "2025-05-14T10:41:54",
+            "title": "families.csv: Add Exile",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "df0e81a2e2f4e5728a4da6dbe1da784639eb4374"
+        },
+        {
+            "date": "2025-05-14T10:13:26",
+            "title": "Merge pull request #9447 from google/emmamarichal-patch-1",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "416cfd2152ffdb87828f1698fcd3692ada2cb692"
+        },
+        {
+            "date": "2025-05-14T10:05:27",
+            "title": "Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3441fd9c4615e20f8f8ad095751e0731e774c0d8"
+        },
+        {
+            "date": "2025-05-14T09:57:23",
+            "title": "Merge pull request #9444 from google/gftools_packager_ofl_savate",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "a803122951271e47564ce5029d9a78199c4a8907"
+        },
+        {
+            "date": "2025-05-14T09:42:32",
+            "title": "Add designer: Plomb Type",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "13b66afa95eb75cf48075ee7b44e292e91219a6d"
+        },
+        {
+            "date": "2025-05-14T09:30:11",
+            "title": "Add designer: Max Esn\u00e9e",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "e2d55da0e224c3d40ceef63ba4f7ce350e70670f"
+        },
+        {
+            "date": "2025-05-14T09:03:43",
+            "title": "remove 'controls' in article videos",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "40047fbeb2319cf103a35c8453ffc2186b67daf2"
+        },
+        {
+            "date": "2025-05-14T08:55:49",
+            "title": "metadata fixed",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4d50b4e482ee19df9c27368cfcf7b5885f3a5782"
+        },
+        {
+            "date": "2025-05-14T08:51:20",
+            "title": "fix URL issue",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bd9ac44bc5a70b3645b9dfd590ab1ef35cbc0443"
+        },
+        {
+            "date": "2025-05-14T08:46:48",
+            "title": "add article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "320a89f792b87eee10c3af917b371ce7d4a0aaf5"
+        },
+        {
+            "date": "2025-05-14T08:44:23",
+            "title": "Savate: Version 2.000 added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "cf3a6548741af12b1d9562ca32cd20f42543d718"
+        },
         {
             "date": "2025-05-13T16:39:43",
             "title": "Update to_production.txt. Remove pushed items.",

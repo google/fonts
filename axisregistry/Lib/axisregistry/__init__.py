@@ -96,7 +96,7 @@ class AxisRegistry:
         }
         for axis in axes_in_font:
             if axis not in self.keys():
-                log.warn(f"Axis {axis} not found in GF Axis Registry!")
+                log.warning(f"Axis {axis} not found in GF Axis Registry!")
                 continue
             for fallback in self[axis].fallback:
                 if (

@@ -17,8 +17,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/aliftype/amiri.git"
-  commit: "5154179080bd904b166af557530623ea7e92f0ff"
-  archive_url: "https://github.com/aliftype/amiri/releases/download/1.001/Amiri-1.001.zip"
+  commit: "04d40ee68cc6b8cb6870eca81a8a7451165aa95a"
+  archive_url: "https://github.com/aliftype/amiri/releases/download/1.002/Amiri-1.002.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

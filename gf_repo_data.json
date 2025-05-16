@@ -1,6 +1,54 @@
 {
-    "last_run": "2025-05-15",
+    "last_run": "2025-05-16",
     "commits": [
+        {
+            "date": "2025-05-15T11:50:58",
+            "title": "Merge pull request #9457 from google/tag-edit",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "98fa91417082bb6815514dd1d0a2022581ff6e25"
+        },
+        {
+            "date": "2025-05-15T10:55:18",
+            "title": "include linebreaks",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8de78694f2c576c27c1119672fc124a9d4f7b037"
+        },
+        {
+            "date": "2025-05-15T10:31:03",
+            "title": "tags.html: update all sample text when editing a single tag",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5763d3f6e9c89499ae380fcab4dda205660637d3"
+        },
+        {
+            "date": "2025-05-15T09:53:07",
+            "title": "Merge pull request #9455 from google/article_savate",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5fcbb7c4891a9032fe88a645b6ad4cf859e2c47f"
+        },
+        {
+            "date": "2025-05-15T08:58:34",
+            "title": "images order",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5d51b1280f9c380637793fd84d8dc967d36a5319"
+        },
+        {
+            "date": "2025-05-15T08:53:10",
+            "title": "Merge pull request #9443 from google/tag-rm",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "be45a10d3cbcfe66c4079e71080e464c7724a008"
+        },
         {
             "date": "2025-05-14T16:12:11",
             "title": "Merge pull request #9446 from google/plombtype",
@@ -142,8 +190,16 @@
             "title": "metadata fixed",
             "author": "Emma Marichal",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "4d50b4e482ee19df9c27368cfcf7b5885f3a5782"
+        },
+        {
+            "date": "2025-05-14T08:54:26",
+            "title": "tags: Add families progressing through pipeline",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "521ffac5fb9fc7163c74072a40f4faf0b40e95f9"
         },
         {
             "date": "2025-05-14T08:51:20",
@@ -165,9 +221,17 @@
             "date": "2025-05-14T08:44:23",
             "title": "Savate: Version 2.000 added",
             "author": "Emma Marichal",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "cf3a6548741af12b1d9562ca32cd20f42543d718"
+        },
+        {
+            "date": "2025-05-14T08:34:11",
+            "title": "tags: rm families that won't make it to prod",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "65d660d6d0e3ccb553b605a88c9d8ef8bea2ff12"
         },
         {
             "date": "2025-05-13T16:39:43",

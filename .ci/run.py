@@ -15,7 +15,7 @@ def main():
     parser.add_argument(
         "--render", action="store_true", help="Check rendering of families only"
     )
-    parser.add_argument("--pr-number", help="PR to output fontbakery report to")
+    parser.add_argument("--pr-number", help="PR to output fontspector report to")
     parser.add_argument(
         "--pr-url-body", default="https://www.github.com/google/fonts/pull/%s"
     )
@@ -52,20 +52,20 @@ def main():
         elif check_type == CheckType.NEW_FAMILY:
             print(f"Checking new family: {directory}")
             subprocess.run(
-                qa_cmd_prefix + ["--fontbakery", "--interpolations"], check=True
+                qa_cmd_prefix + ["--fontspector", "--interpolations"], check=True
             )
 
         elif check_type == CheckType.MODIFIED_FAMILY:
             print(f"Checking modified family: {directory}")
             subprocess.run(
                 qa_cmd_prefix
-                + ["-gfb", "--fontbakery", "--diffenator", "--interpolations"],
+                + ["-gfb", "--fontspector", "--diffenator", "--interpolations"],
                 check=True,
             )
 
         elif check_type == CheckType.MODIFIED_FAMILY_METADATA:
             print(f"Checking modified family metadata: {directory}")
-            subprocess.run(qa_cmd_prefix + ["--fontbakery", "-o", out], check=True)
+            subprocess.run(qa_cmd_prefix + ["--fontspector", "-o", out], check=True)
 
         elif check_type == CheckType.DESIGNER:
             print(f"Checking designer profile: {directory}")

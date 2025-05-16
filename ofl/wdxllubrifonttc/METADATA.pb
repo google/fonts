@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "symbols2"
-primary_script: "Hani"
+primary_script: "Hant"
 source {
   repository_url: "https://github.com/NightFurySL2001/WD-XL-font"
   commit: "75c4a3bb2fffefa0f0aae470c2c0a73d6f79d0b9"

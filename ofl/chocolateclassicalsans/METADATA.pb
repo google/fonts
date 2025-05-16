@@ -19,11 +19,11 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
-  repository_url: "https://github.com/aaronbell/ChocolateSans"
-  commit: "91c9c5179adc1b2af2de1e3972d91e5e62c7bbc4"
+  repository_url: "https://github.com/MoonlitOwen/ChocolateSans"
+  commit: "0446a76d969f9788b0b339a9923f6541699df903"
   config_yaml: "sources/project.yaml"
   files {
-    source_file: "OFL.txt"
+    source_file: "license.md"
     dest_file: "OFL.txt"
   }
   files {

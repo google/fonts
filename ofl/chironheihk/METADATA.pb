@@ -37,8 +37,8 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/aaronbell/chiron-hei-hk"
-  commit: "7fbd1015720cd8c7566f0bf8f34ee8c9cd690f24"
+  repository_url: "https://github.com/chiron-fonts/chiron-hei-hk"
+  commit: "d2115b4e7a390f83f9279f4fd7b6f79eeba30a3e"
   config_yaml: "scripts/config.yaml"
   branch: "source"
 }

@@ -92,27 +92,26 @@ jobs:
         with:
           python-version: "3.10"
       - name: Install packages
-        # The --pre flag below will ensure we use the latest Font Bakery pre-releases
-        # and benefit from its newest checks:
         run: |
           pip install --upgrade pip
           pip install pytest
-          pip install "gftools[qa]@git+https://github.com/simoncozens/gftools@rust-qa"
+          pip install "gftools[qa]"
         shell: bash
-      - name: Install diffenator3 and fontspector
+      - name: Set up Fontspector
+        uses: fonttools/setup-fontspector@main
+        with:
+          version: head
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install diffenator3
         run: |
-          wget https://nightly.link/fonttools/fontspector/workflows/rust/main/fontspector-dev-x86_64-unknown-linux-gnu-py3.10.tar.gz.zip
-          unzip fontspector-dev-x86_64-unknown-linux-gnu-py3.10.tar.gz.zip
-          tar zxvf fontspector-dev-x86_64-unknown-linux-gnu-py3.10.tar.gz
-          sudo cp fontspector-dev*/fontspector /usr/local/bin/
-
           wget "https://github.com/googlefonts/diffenator3/releases/download/v$DIFFENATOR3_VERSION/diffenator3-v$DIFFENATOR3_VERSION-x86_64-unknown-linux-musl.tar.gz"
           tar zxvf diffenator3-v$DIFFENATOR3_VERSION-x86_64-unknown-linux-musl.tar.gz
           cp diffenator3*/* /usr/local/bin/
       - name: Install interpolatable
         run: |
           cargo install --git https://github.com/simoncozens/interpolatable
-      - name: Run Diffenator and Fontbakery
+      - name: Run Diffenator and Fontspector
         run: |
           mkdir out
           python -m youseedee 0x078A

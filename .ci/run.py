@@ -30,7 +30,7 @@ def main():
             print(f"Skipping {directory} because no fonts were found")
             continue
 
-        qa_cmd_prefix = ["gftools", "qa", "-f"] + fonts + ["-o", out]
+        qa_cmd_prefix = ["gftools", "qa", "--rust", "-f"] + fonts + ["-o", out]
         if args.pr_number:
             if not args.pr_url_body.endswith("/"):
                 args.pr_url_body += "/"
@@ -52,20 +52,20 @@ def main():
         elif check_type == CheckType.NEW_FAMILY:
             print(f"Checking new family: {directory}")
             subprocess.run(
-                qa_cmd_prefix + ["--fontspector", "--interpolations"], check=True
+                qa_cmd_prefix + ["--fontbakery", "--interpolations"], check=True
             )
 
         elif check_type == CheckType.MODIFIED_FAMILY:
             print(f"Checking modified family: {directory}")
             subprocess.run(
                 qa_cmd_prefix
-                + ["-gfb", "--fontspector", "--diffenator", "--interpolations"],
+                + ["-gfb", "--fontbakery", "--diffenator", "--interpolations"],
                 check=True,
             )
 
         elif check_type == CheckType.MODIFIED_FAMILY_METADATA:
             print(f"Checking modified family metadata: {directory}")
-            subprocess.run(qa_cmd_prefix + ["--fontspector", "-o", out], check=True)
+            subprocess.run(qa_cmd_prefix + ["--fontbakery", "-o", out], check=True)
 
         elif check_type == CheckType.DESIGNER:
             print(f"Checking designer profile: {directory}")

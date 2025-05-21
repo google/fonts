@@ -23,7 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/thegraphicant/Matangi"
-  commit: "81c68488ff396d1264c6e9d195f106ff85e124ec"
+  commit: "c67a7d9b7d52f4582b7167131d46e2992563ea66"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

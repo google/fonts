@@ -23,6 +23,7 @@ axes {
 source {
   repository_url: "https://github.com/danhhong/Hanuman"
   commit: "7188b3c0e5722ad0126f045d4eeb895176e12c14"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

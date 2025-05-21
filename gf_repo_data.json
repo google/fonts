@@ -1,6 +1,46 @@
 {
-    "last_run": "2025-05-20",
+    "last_run": "2025-05-21",
     "commits": [
+        {
+            "date": "2025-05-20T22:05:52",
+            "title": "Update to_production.txt. Remove pushed items.",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5943c55fc482bdfa335946e2200ab9ae15da473a"
+        },
+        {
+            "date": "2025-05-20T10:17:17",
+            "title": "Merge pull request #9486 from google/gftools-rust",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "d2874ee7b24b7a234bb360263a8ec7ffe268c196"
+        },
+        {
+            "date": "2025-05-20T10:15:10",
+            "title": "Correct usage is \"gftools-qa --fontbakery --rust\", not \"--fontspector\" (for now)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "31f545ca430b1af4ca0380fe910d681b08e7713c"
+        },
+        {
+            "date": "2025-05-20T09:17:32",
+            "title": "Merge pull request #9289 from google/rust-qa",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "cb84327f2067ce7f4ddffef2deb3c1d301954cda"
+        },
+        {
+            "date": "2025-05-20T09:13:43",
+            "title": "Use fontspector action to install fontspector",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "e9951e7413fc78b6d7baa721cdb0eb0cb4b86b33"
+        },
         {
             "date": "2025-05-16T18:10:22",
             "title": "Merge pull request #9462 from google/to_list_1505",
@@ -2886,8 +2926,16 @@
             "title": "Try to run fontspector on everything",
             "author": "Simon Cozens",
             "status": "modified",
-            "kind": "family",
+            "kind": "infrastructure",
             "id": "d1b044e9826557ea459b86f7f083dfb66501053e"
+        },
+        {
+            "date": "2025-04-01T08:15:00",
+            "title": "Use Rust tooling for QA action",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "16e4985bea01685b219a0b8d727338fc4f35c44b"
         },
         {
             "date": "2025-04-01T08:08:33",
@@ -85351,12 +85399,6 @@
                 "category": "Upgrade",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9090"
-            },
-            {
-                "path": "ofl/robotomono",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9282"
             },
             {
                 "path": "ofl/sourcecodepro",

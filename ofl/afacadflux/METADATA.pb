@@ -38,6 +38,6 @@ source {
     dest_file: "AfacadFlux[slnt,wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
+  config_yaml: "sources/config_flux.yaml"
 }
 stroke: "SANS_SERIF"

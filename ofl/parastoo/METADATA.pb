@@ -43,4 +43,5 @@ source {
   branch: "master"
 }
 primary_script: "Arab"
+primary_language: "fa_Arab"
 stroke: "SERIF"

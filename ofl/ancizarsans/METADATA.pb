@@ -33,6 +33,7 @@ axes {
 source {
   repository_url: "https://github.com/UNAL-OMD/UNAL-Ancizar"
   commit: "54a5aa2153b4485ff2710612d47183c346e6b842"
+  config_yaml: "sources/config-sans.yaml"
   files {
     source_file: "article/ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

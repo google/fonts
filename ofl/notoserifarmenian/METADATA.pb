@@ -29,6 +29,7 @@ axes {
 source {
   repository_url: "https://github.com/notofonts/armenian"
   archive_url: "https://github.com/notofonts/armenian/releases/download/NotoSerifArmenian-v2.008/NotoSerifArmenian-v2.008.zip"
+  commit: "6eda0736b79b405c7151fd558c83ecec1c9c534c"
   config_yaml: "sources/config-serif-armenian.yaml"
   files {
     source_file: "DESCRIPTION.en_us.html"

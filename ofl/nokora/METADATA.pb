@@ -23,6 +23,7 @@ axes {
 source {
   repository_url: "https://github.com/danhhong/Nokora"
   commit: "9c5f991b700b9be3519315a854a7b986e6877ace"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

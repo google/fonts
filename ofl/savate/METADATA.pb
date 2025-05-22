@@ -31,6 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/maxesnee/savate"
+  config_yaml: "sources/config.yaml"
   commit: "ca21a81c2b28507638e9290e9d2c26ff863dd32d"
   files {
     source_file: "OFL.txt"

@@ -32,7 +32,7 @@ source {
     dest_file: "GrandifloraOne-Regular.ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
+  config_yaml: "Sources/config.yaml"
 }
 primary_script: "Kore"
 classifications: "DISPLAY"

@@ -51,7 +51,7 @@ source {
     dest_file: "Tourney[wdth,wght].ttf"
   }
   branch: "master"
-  config_yaml: "sources/config.yaml"
+  config_yaml: "Sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

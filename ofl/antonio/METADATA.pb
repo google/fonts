@@ -36,7 +36,7 @@ source {
     dest_file: "Antonio[wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
+  config_yaml: "Sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

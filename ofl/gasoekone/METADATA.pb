@@ -32,7 +32,7 @@ source {
     dest_file: "GasoekOne-Regular.ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yaml"
+  config_yaml: "Sources/config.yaml"
 }
 primary_script: "Kore"
 stroke: "SANS_SERIF"

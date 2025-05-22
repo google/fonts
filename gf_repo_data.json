@@ -1,6 +1,54 @@
 {
-    "last_run": "2025-05-21",
+    "last_run": "2025-05-22",
     "commits": [
+        {
+            "date": "2025-05-21T13:19:51",
+            "title": "Merge pull request #9469 from google/gftools_packager_ofl_hanuman",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "b4c961dead34df0f1c43e7d4bdc338094ca64b3f"
+        },
+        {
+            "date": "2025-05-21T12:51:02",
+            "title": "Merge pull request #9481 from google/gftools_packager_ofl_matangi",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "89d72c15058e276b3d1ba1653efba1e39a1f60f8"
+        },
+        {
+            "date": "2025-05-21T09:56:10",
+            "title": "Merge pull request #9461 from google/lang-v0.7.4",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3dea784725d54988e2b40318ec8f2dec9d5cd17a"
+        },
+        {
+            "date": "2025-05-21T09:47:19",
+            "title": "Merge pull request #9480 from google/qahiri-sample-text",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5127a183c1ee9bfb2f45aa9fe1ce0810ba2301ad"
+        },
+        {
+            "date": "2025-05-21T09:36:06",
+            "title": "Merge pull request #9482 from google/bio-for-matangi",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "designer",
+            "id": "4baa9a88d43f634ade3ee940c31a6fd707566a28"
+        },
+        {
+            "date": "2025-05-21T09:35:03",
+            "title": "Merge pull request #9483 from google/chrissimpkins-space-mono-minisite-remove",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "87ad850bda24efee5dee99251ba3072ed8983498"
+        },
         {
             "date": "2025-05-20T22:05:52",
             "title": "Update to_production.txt. Remove pushed items.",
@@ -42,12 +90,68 @@
             "id": "e9951e7413fc78b6d7baa721cdb0eb0cb4b86b33"
         },
         {
+            "date": "2025-05-19T21:11:22",
+            "title": "remove Space Mono minisite",
+            "author": "Chris Simpkins",
+            "status": "modified",
+            "kind": "designer",
+            "id": "9c9760ddb880455f1c838265a015f0f4687f62cd"
+        },
+        {
+            "date": "2025-05-19T16:11:07",
+            "title": "Bio for Matangi",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "d332da2d5e1146023c816478083323e34747f901"
+        },
+        {
+            "date": "2025-05-19T16:07:20",
+            "title": "Update OFL.txt",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6f6cad16a1b91cb7f22f507b9ec93a773adfab26"
+        },
+        {
+            "date": "2025-05-19T16:04:57",
+            "title": "Matangi: Version 3.002 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "3f9d2a9e3c03b99a943fa7bc49fea76e0bc1b192"
+        },
+        {
+            "date": "2025-05-19T10:02:30",
+            "title": "Custom sample text for Qahiri",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c09cfac2f06d14cb7f4ca135fbd4f7dd91cb7c2b"
+        },
+        {
             "date": "2025-05-16T18:10:22",
             "title": "Merge pull request #9462 from google/to_list_1505",
             "author": "Emma Marichal",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "973a8934ba60f3a32a83617dce24edc3605fe3bb"
+        },
+        {
+            "date": "2025-05-16T14:06:33",
+            "title": "Update OFL.txt",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1aa3c0f324b5fdb772ec6c6ce0b86e8c1609e530"
+        },
+        {
+            "date": "2025-05-16T14:05:04",
+            "title": "Hanuman: Version 9.000 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "bc4d15f26edadc991b0d768e035b7e8b0d1635aa"
         },
         {
             "date": "2025-05-16T13:01:58",
@@ -104,6 +208,38 @@
             "status": "modified",
             "kind": "infrastructure",
             "id": "7d8b87fe31ecb74082cefeafa2e837b8ef793ed8"
+        },
+        {
+            "date": "2025-05-15T13:42:07",
+            "title": "Merge commit 'c8367f98939d52987a1fcc4a267cac9902bd914b' into lang-v0.7.4",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "080b4f797aaf9a1b8d55efb66a8b20e0d092e902"
+        },
+        {
+            "date": "2025-05-15T13:16:35",
+            "title": "This is v0.7.4 (#229)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c8367f98939d52987a1fcc4a267cac9902bd914b"
+        },
+        {
+            "date": "2025-05-15T13:13:37",
+            "title": "Changes/additions of 4 Arabic-based languages (#225)",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7b8c93122f20238a44d2c8a4f4c1cde0b34352b8"
+        },
+        {
+            "date": "2025-05-15T13:13:04",
+            "title": "Add Kabyle UDHR text (#228)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "f55d558659738a2259f5dcf12e7dc7ac1668f37e"
         },
         {
             "date": "2025-05-15T11:50:58",
@@ -422,8 +558,16 @@
             "title": "tags: sort tag axes GF way",
             "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "3b1f549d19e7bd096d65f1798935caebbfbf17b5"
+        },
+        {
+            "date": "2025-05-09T14:51:24",
+            "title": "Add mgz_Latn (#226)",
+            "author": "Denis Moyogo Jacquerye",
+            "status": "modified",
+            "kind": "family",
+            "id": "77fa45ad484fe458a02c9a69fadbace76c387e50"
         },
         {
             "date": "2025-05-09T10:21:17",
@@ -960,6 +1104,14 @@
             "status": "modified",
             "kind": "family",
             "id": "c93a7f48692f02ce53b27777a6b82a90d0f9fc78"
+        },
+        {
+            "date": "2025-05-01T14:28:17",
+            "title": "Replace erroneous eng with Adlam NHA (#227)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "42fc079d13efd66ff6c96d4da785c70f6a9f1a2b"
         },
         {
             "date": "2025-05-01T13:51:59",

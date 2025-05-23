@@ -1,6 +1,182 @@
 {
-    "last_run": "2025-05-22",
+    "last_run": "2025-05-23",
     "commits": [
+        {
+            "date": "2025-05-22T13:01:34",
+            "title": "Merge pull request #9478 from google/chironsunghk",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "86be546366f3e47f2239b00a535a9a0eb95f9827"
+        },
+        {
+            "date": "2025-05-22T12:34:46",
+            "title": "Merge pull request #9464 from google/gftools_packager_ofl_intelonemono",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "4b555bd26615bc53ff739834c4ec60e3a5920a2c"
+        },
+        {
+            "date": "2025-05-22T12:23:31",
+            "title": "resize imgs",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "7801f11061e8fe9d6a783a034e95c04fcd4f86b8"
+        },
+        {
+            "date": "2025-05-22T10:03:19",
+            "title": "Merge pull request #9488 from google/bio-for-parastoo",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "designer",
+            "id": "c29a510bc4394a82b70a5eccaa206f437bbc806e"
+        },
+        {
+            "date": "2025-05-22T09:01:00",
+            "title": "Merge pull request #9491 from google/plombtype_designers",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2a9e32352fd716fa80c45711b3aaaa0ef102525a"
+        },
+        {
+            "date": "2025-05-22T08:58:25",
+            "title": "Merge pull request #9460 from google/issue-template",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9ad4ecb8d8a075cbf1608a2243ac05843ba07a84"
+        },
+        {
+            "date": "2025-05-22T08:56:48",
+            "title": "removed '/'",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e911f6e8a8f4a1c61e613bb864bf1b0a01930522"
+        },
+        {
+            "date": "2025-05-22T08:53:50",
+            "title": "Merge pull request #9429 from google/markerGothic",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "cd56d7a5141713e41a91f67fac8e9b417bb0618e"
+        },
+        {
+            "date": "2025-05-22T08:35:10",
+            "title": "Merge pull request #9426 from google/gftools_packager_ofl_gidugu",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "e4de50de43daa9e800d3df76b0cffaef8fd9d16d"
+        },
+        {
+            "date": "2025-05-22T07:40:15",
+            "title": "Merge pull request #9490 from felipesanches/sources_info_2025-05-22",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "12a88fa63b2d92303e783ba52eebd9d426701e2f"
+        },
+        {
+            "date": "2025-05-22T07:23:12",
+            "title": "sources info for Afacad Flux: Version 1.100",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "187711d44175ad01c937770d66d837a8815cf254"
+        },
+        {
+            "date": "2025-05-22T07:21:22",
+            "title": "sources info for Noto Sans Armenian (Sans & Serif): Version 2.008",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "774571ae0128b29b9556070371147bca9467635c"
+        },
+        {
+            "date": "2025-05-22T07:06:09",
+            "title": "sources info for Abhaya Libre",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5862ed413c43f2c38b7c859686475742201d4e88"
+        },
+        {
+            "date": "2025-05-22T06:57:14",
+            "title": "A few fonts have `Sources` instead of `sources` directory.",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7190093b1c5bb8b12ed96d1bcbb44a178a098860"
+        },
+        {
+            "date": "2025-05-22T06:18:24",
+            "title": "sources info for Ancizar Serif: Version 8.100",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e258478e1a9d7121574359f51d44c412469b49bb"
+        },
+        {
+            "date": "2025-05-22T06:17:35",
+            "title": "sources info for Ancizar Sans: Version 8.100",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6a0d06ba45d8755eae6f37c7c5fa4e732fc4f9ab"
+        },
+        {
+            "date": "2025-05-22T05:20:59",
+            "title": "sources info for Nokora: Version 9.000",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "badbbb43dbe591a660b7be923ace763e26fc519e"
+        },
+        {
+            "date": "2025-05-22T04:53:58",
+            "title": "sources info for Savate: Version 2.000",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "designer",
+            "id": "7b3da9461da4f9228010144022aa50466819a616"
+        },
+        {
+            "date": "2025-05-21T14:48:47",
+            "title": "Updated bio for Saber Rastikerdar",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "designer",
+            "id": "43c0637596cfb7b78e921b845724aa281363e142"
+        },
+        {
+            "date": "2025-05-21T14:10:16",
+            "title": "sources info for Matangi: Version 3.002",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "family",
+            "id": "26254ae76255500e35173f047cd49a9db4400d10"
+        },
+        {
+            "date": "2025-05-21T13:53:21",
+            "title": "Chiron Sung HK added: version 1.019",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "83ae20a53947989b3ef554dbcea1852080b5a0d2"
+        },
+        {
+            "date": "2025-05-21T13:34:40",
+            "title": "sources info for Hanuman: Version 9.000",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "eb94c3c4eaff6adf4d51f4f84f45fb6f4fc17e5c"
+        },
         {
             "date": "2025-05-21T13:19:51",
             "title": "Merge pull request #9469 from google/gftools_packager_ofl_hanuman",
@@ -54,8 +230,56 @@
             "title": "Update to_production.txt. Remove pushed items.",
             "author": "Garret Rieger",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "5943c55fc482bdfa335946e2200ab9ae15da473a"
+        },
+        {
+            "date": "2025-05-20T10:17:37",
+            "title": "Rebuild",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "a83ea3e02ffd0951f9624f32e283c1f140ca7568"
+        },
+        {
+            "date": "2025-05-20T10:17:37",
+            "title": "Fix postscript name in METADATA",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a7347618d09714c436664d148f16c6b77191f91f"
+        },
+        {
+            "date": "2025-05-20T10:17:37",
+            "title": "Fix repo URL for consistency",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ba45d2341077ce8e57eb0444f9c6c1b334f3a02f"
+        },
+        {
+            "date": "2025-05-20T10:17:37",
+            "title": "Update DESCRIPTION URL",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "dbeae2473a112c6c32f3f883aae1016dbf784592"
+        },
+        {
+            "date": "2025-05-20T10:17:37",
+            "title": "Rebuild",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "8e576eb13660aa4bbc7299f17f6fb00d0bd0420d"
+        },
+        {
+            "date": "2025-05-20T10:17:37",
+            "title": "Gidugu: Version 2.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "e5930c738d061bab3090a441c352f75f8306d6c4"
         },
         {
             "date": "2025-05-20T10:17:17",
@@ -166,8 +390,16 @@
             "title": "Adjusting primary scripts",
             "author": "Aaron",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "5b810c1ffc7f134006841603cb43c72b60ef8e45"
+        },
+        {
+            "date": "2025-05-16T08:52:17",
+            "title": "Intel One Mono: Version 1.004 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "f9bed585f07209e331af41b7b8c4dda4b12dc54e"
         },
         {
             "date": "2025-05-16T08:10:08",
@@ -214,8 +446,16 @@
             "title": "Merge commit 'c8367f98939d52987a1fcc4a267cac9902bd914b' into lang-v0.7.4",
             "author": "Simon Cozens",
             "status": "modified",
-            "kind": "family",
+            "kind": "infrastructure",
             "id": "080b4f797aaf9a1b8d55efb66a8b20e0d092e902"
+        },
+        {
+            "date": "2025-05-15T13:32:28",
+            "title": "update template 'add font'",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "32571098804caf87b1ea0ad2dfc2a3848d96cb93"
         },
         {
             "date": "2025-05-15T13:16:35",
@@ -605,9 +845,17 @@
             "date": "2025-05-09T08:50:04",
             "title": "Merge pull request #9417 from google/gftools_packager_ofl_fustat",
             "author": "Emma Marichal",
-            "status": "new",
-            "kind": "infrastructure",
+            "status": "modified",
+            "kind": "family",
             "id": "d3cfa48209076dbdecf03b48bb4c2212df235155"
+        },
+        {
+            "date": "2025-05-08T15:14:07",
+            "title": "Adding image into the article.",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "d847d6cf8a7cc9be0663f6d39cbbd09822b9cc62"
         },
         {
             "date": "2025-05-08T13:54:34",
@@ -616,6 +864,14 @@
             "status": "modified",
             "kind": "family",
             "id": "6bfb6e6b532e06dff3b7f50b007ecbaf43e3b465"
+        },
+        {
+            "date": "2025-05-08T12:27:57",
+            "title": "LXGW Marker Gothic : 1.001 added",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "e04d4ae23c9758d36c1fa302dd9f4e03ee1880d9"
         },
         {
             "date": "2025-05-08T12:19:54",

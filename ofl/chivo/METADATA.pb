@@ -32,7 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Chivo"
-  commit: "dc61c468d79781eb5183426e88e844af16cdc3e5"
+  commit: "d98623c96068cd02fbe9f22982d4b0504be8b851"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

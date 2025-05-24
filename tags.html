@@ -6,6 +6,12 @@
 <link href="https://fonts.google.com/metadata/fonts" type="application/json" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
+<style>
+  .tagEdited {
+    border-left: 5px solid red;
+  }
+</style>
+
 <body>
   <div id="app">
     <div id="fonts">
@@ -250,7 +256,7 @@ function axesCombos(axes) {
   Vue.component('family-item', {
     props: ['family', 'ready', 'index', 'category'],
     template: `
-      <div class="item p-1">
+      <div class="p-2" :class="{ tagEdited: family.isEdited }" style="border-bottom: 1px solid #e5e7eb;">
         <div class="join">
           <b v-if="category == ' All'" class="pr-2">{{ familyTag }}</b>
           <b v-else class="pr-2">{{ familyDisplayName }}</b>
@@ -261,7 +267,6 @@ function axesCombos(axes) {
         <div v-else>
           Loading...
         </div>
-        <div class="divider"></div>
       </div>
     `,
     methods: {
@@ -270,6 +275,7 @@ function axesCombos(axes) {
         console.log(this.$root.sampleText);
       },
       edited() {
+        this.family.isEdited = true;
         this.$emit('edited', this.family);
       },
       removeFamily() {
@@ -590,6 +596,7 @@ function axesCombos(axes) {
           this.seen.add(tagKey);
           this.tags.push(newFamily);
           this.history.push(`+ ${newFamily.displayName},${newFamily.category},${newFamily.score}`);
+          newFamily.isEdited = true;
         }
         this.saveSession();
       },

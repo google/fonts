@@ -1,4 +1,4 @@
-name: "Uoq Mun Then Khung"
+name: "UoqMunThenKhung"
 designer: "Moonlit Owen"
 license: "OFL"
 category: "SERIF"

@@ -27,6 +27,7 @@ source {
   repository_url: "https://github.com/notofonts/arabic"
   commit: "136d96955b0581da8718eb4cdb2e700a723aefc6"
   archive_url: "https://github.com/notofonts/arabic/releases/download/NotoNaskhArabic-v2.019/NotoNaskhArabic-v2.019.zip"
+  config_yaml: "sources/config-naskh-arabic.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

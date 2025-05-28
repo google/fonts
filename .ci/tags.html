@@ -622,14 +622,14 @@ function axesCombos(axes) {
         const familiesToAdd = this.uniqueFamilies
         familiesToAdd.forEach((family) => {
           if (!seen.has(family.name)) {
-            this.tags.push(new FontTag(family.name, this.currentCategory, score=""));
+            this.tags.push(new FontTag(family.name, this.currentCategory, score=0));
           }
         });
         this.history.push(`+ Placeholder tags added for ${this.currentCategory}`);
       },
       RemovePlaceHolderTags() {
         this.isEdited = true;
-        this.tags = this.tags.filter((family) => family.score !== "");
+        this.tags = this.tags.filter((family) => family.score !== 0);
         this.history.push(`- Placeholder tags removed for all categories`);
       },
       removeFamily(Family) {

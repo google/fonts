@@ -30,6 +30,7 @@ axes {
   min_value: 300.0
   max_value: 900.0
 }
+display_name: "UNAL Ancizar Serif"
 source {
   repository_url: "https://github.com/UNAL-OMD/UNAL-Ancizar"
   commit: "063bdd3121fef76289b035226acdc1b4e885f31a"

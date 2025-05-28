@@ -30,6 +30,7 @@ axes {
   min_value: 100.0
   max_value: 1000.0
 }
+display_name: "UNAL Ancizar Sans"
 source {
   repository_url: "https://github.com/UNAL-OMD/UNAL-Ancizar"
   commit: "54a5aa2153b4485ff2710612d47183c346e6b842"

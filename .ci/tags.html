@@ -63,7 +63,7 @@
           </li>
           <li>
               <div class="join" style="padding-top: 10px;">
-                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="tagFilter" placeholder="Search Fonts">
+                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model.lazy="tagFilter" placeholder="Search Fonts">
               </div>
           </li>
           <li>
@@ -393,7 +393,9 @@ function axesCombos(axes) {
         if (this.currentCategory !== " All") {
           filtered = filtered.filter(family => family.category === this.currentCategory);
         }
-        filtered = filtered.filter(family => family.tag.match(this.tagFilter));
+        if (this.tagFilter !== "") {
+          filtered = filtered.filter(family => family.tag.match(this.tagFilter));
+        }
         filtered.sort(sortFunc);
 
         if (this.reverseTags) {

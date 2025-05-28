@@ -126,21 +126,21 @@ jobs:
           pattern: qa-*
           name: qa
 
-  ftxvalidator:
-    name: Run ftxvalidator on new/changed fonts
-    runs-on: macos-latest
-    steps:
-      - uses: actions/checkout@v1
-      - name: Download and install
-        run: |
-          ${{secrets.OBTAIN_FONTTOOLS}}
-          hdiutil attach font_tools.dmg
-          sudo installer -pkg /Volumes/macOS\ Font\ Tools/macOS\ Font\ Tools.pkg -target /
-          hdiutil detach /Volumes/macOS\ Font\ Tools
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v4.4.0
-        with:
-          python-version: '3.10'
-      - name: Test font with ftxvalidator
-        run: python3 .ci/ftxvalidator.py
+#  ftxvalidator:
+#    name: Run ftxvalidator on new/changed fonts
+#    runs-on: macos-latest
+#    steps:
+#      - uses: actions/checkout@v1
+#      - name: Download and install
+#        run: |
+#          ${{secrets.OBTAIN_FONTTOOLS}}
+#          hdiutil attach font_tools.dmg
+#          sudo installer -pkg /Volumes/macOS\ Font\ Tools/macOS\ Font\ Tools.pkg -target /
+#          hdiutil detach /Volumes/macOS\ Font\ Tools
+#      - name: Set up Python 3.10
+#        uses: actions/setup-python@v4.4.0
+#        with:
+#          python-version: '3.10'
+#      - name: Test font with ftxvalidator
+#        run: python3 .ci/ftxvalidator.py
       

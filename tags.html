@@ -640,8 +640,8 @@ function axesCombos(axes) {
         this.history.push(`- ${Family.displayName},${Family.category},${Family.score}`);
         this.saveSession();
       },
-      tagsToCSV() { 
-//        this.RemovePlaceHolderTags();
+      tagsToCSV() {
+        this.RemovePlaceHolderTags();
         this.tags = this.tags.filter((t) => t.name !== "");
         // The sorting function used is case sensitive.
         // This means that "A" will come before "a".

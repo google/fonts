@@ -661,6 +661,7 @@ function axesCombos(axes) {
         return res
       },
       saveCSV() {
+        this.RemovePlaceHolderTags();
         let csv = this.tagsToCSV();
         const blob = new Blob([csv], { type: 'text/csv' });
         const url = URL.createObjectURL(blob);
@@ -673,6 +674,7 @@ function axesCombos(axes) {
         URL.revokeObjectURL(url);
       },
       prCSV() {
+        this.RemovePlaceHolderTags();
         let csv = this.tagsToCSV();
         alert("Tag data copied to clipboard. A github pull request page will open in a new tab. Please remove the old data and paste in the new.");
         navigator.clipboard.writeText(csv);

@@ -32,6 +32,7 @@ source {
   files {
     source_file: "fonts/gf/LXGWMarkerGothic-Regular.ttf"
     dest_file: "LXGWMarkerGothic-Regular.ttf"
+  }
   branch: "main"
 }
 primary_script: "Hant"

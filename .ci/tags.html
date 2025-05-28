@@ -63,7 +63,7 @@
           </li>
           <li>
               <div class="join" style="padding-top: 10px;">
-                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model="tagFilter" placeholder="Search Fonts">
+                  <input class="join-item input input-sm input-bordered w-full max-w-xs" v-model.lazy="tagFilter" placeholder="Search Fonts">
               </div>
           </li>
           <li>
@@ -293,7 +293,7 @@ function axesCombos(axes) {
         return this.family.toStyle();
       },
       familyDisplayName() {
-        return this.family.displayName;
+        return `${this.family.displayName}`;
       },
       familyTag() {
         return this.family.tag
@@ -381,21 +381,39 @@ function axesCombos(axes) {
           sortFunc = function(a, b) {return a.displayName.localeCompare(b.displayName)}
         } else if (["Popularity", "Trending"].includes(this.sortMethod)) {
           sortFunc = function(a, b) {
-            const aFamilyData = _this.familyData[b.displayName]
-            const bFamilyData = _this.familyData[a.displayName]
-            if (aFamilyData === undefined || bFamilyData === undefined) {
-              return 1;
+            let aVal, bVal;
+            const aFamilyData = _this.familyData[a.displayName]
+            const bFamilyData = _this.familyData[b.displayName]
+            if (aFamilyData === undefined) {
+             aVal = Number.MAX_SAFE_INTEGER; 
+            } else {
+              aVal = aFamilyData[_this.sortMethod.toLowerCase()];
             }
-            return bFamilyData[_this.sortMethod.toLowerCase()] - aFamilyData[_this.sortMethod.toLowerCase()];
+            if (bFamilyData === undefined) {
+              bVal = Number.MAX_SAFE_INTEGER;
+            } else {
+              bVal = bFamilyData[_this.sortMethod.toLowerCase()];
+            }
+            
+            if (aVal < bVal) {
+              return -1;
+            } else if (aVal > bVal) {
+              return 1;
+            } else {
+              return 0;
+            }
           }
         }
         let filtered = this.tags;
         if (this.currentCategory !== " All") {
           filtered = filtered.filter(family => family.category === this.currentCategory);
         }
-        filtered = filtered.filter(family => family.tag.match(this.tagFilter));
+        if (this.tagFilter !== "") {
+          filtered = filtered.filter(family => family.tag.match(this.tagFilter));
+        }
         filtered.sort(sortFunc);
 
+        
         if (this.reverseTags) {
           filtered.reverse();
         }
@@ -622,14 +640,14 @@ function axesCombos(axes) {
         const familiesToAdd = this.uniqueFamilies
         familiesToAdd.forEach((family) => {
           if (!seen.has(family.name)) {
-            this.tags.push(new FontTag(family.name, this.currentCategory, score=""));
+            this.tags.push(new FontTag(family.name, this.currentCategory, score=0));
           }
         });
         this.history.push(`+ Placeholder tags added for ${this.currentCategory}`);
       },
       RemovePlaceHolderTags() {
         this.isEdited = true;
-        this.tags = this.tags.filter((family) => family.score !== "");
+        this.tags = this.tags.filter((family) => family.score !== 0);
         this.history.push(`- Placeholder tags removed for all categories`);
       },
       removeFamily(Family) {
@@ -661,6 +679,7 @@ function axesCombos(axes) {
         return res
       },
       saveCSV() {
+        this.RemovePlaceHolderTags();
         let csv = this.tagsToCSV();
         const blob = new Blob([csv], { type: 'text/csv' });
         const url = URL.createObjectURL(blob);
@@ -673,6 +692,7 @@ function axesCombos(axes) {
         URL.revokeObjectURL(url);
       },
       prCSV() {
+        this.RemovePlaceHolderTags();
         let csv = this.tagsToCSV();
         alert("Tag data copied to clipboard. A github pull request page will open in a new tab. Please remove the old data and paste in the new.");
         navigator.clipboard.writeText(csv);

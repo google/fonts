@@ -2,7 +2,7 @@ import pytest
 import json
 from urllib.request import urlopen
 import csv
-
+import os
 
 @pytest.fixture
 def family_metadata():
@@ -14,14 +14,8 @@ def family_metadata():
 
 @pytest.fixture
 def family_tags():
-    csv_data = (
-        urlopen(
-            "https://raw.githubusercontent.com/google/fonts/main/tags/all/families.csv"
-        )
-        .read()
-        .decode("utf-8")
-    )
-    reader = csv.reader(csv_data.splitlines())
+    fp = os.path.join(os.path.dirname(__file__), "..", "tags", "all", "families.csv")
+    reader = csv.reader(open(fp, "r", encoding="utf-8"))
     res = []
     for row in reader:
         res.append([row[0], row[1], float(row[2])])

@@ -1,6 +1,190 @@
 {
-    "last_run": "2025-05-28",
+    "last_run": "2025-05-31",
     "commits": [
+        {
+            "date": "2025-05-30T12:27:51",
+            "title": "Merge pull request #9496 from google/gftools_packager_ofl_manufacturingconsent",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "6f219c35c5116e463728615982cdfa76ef007123"
+        },
+        {
+            "date": "2025-05-30T12:26:25",
+            "title": "Merge pull request #9516 from google/gftools_packager_ofl_asap",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "d280966cdb36231ff61ab7ba03f2401dff70d091"
+        },
+        {
+            "date": "2025-05-29T08:02:53",
+            "title": "families.csv: rm further dups",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6c948e9fee60487409432444c24eccc4cf7fb33d"
+        },
+        {
+            "date": "2025-05-29T08:02:29",
+            "title": "test_font_tags: run on local families.csv",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "87aa59e6c82fa845e3240bdafa050fe633be000b"
+        },
+        {
+            "date": "2025-05-29T07:53:51",
+            "title": "Merge pull request #9517 from google/m4rc1e-patch-33",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a5375f1eb1e7b734521f404d14f5168ea6ee0373"
+        },
+        {
+            "date": "2025-05-29T07:51:43",
+            "title": "families.csv: rm empty vals",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6ce5e5ab0aa0f84a4236b8a31b893696dbb91607"
+        },
+        {
+            "date": "2025-05-29T07:39:43",
+            "title": "families.csv: remove dup",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "c4b566f3c409d820e937db0b62df9f995b62d79a"
+        },
+        {
+            "date": "2025-05-28T15:45:28",
+            "title": "Asap: Version 3.002 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "bd28c4263189426f3ad554f3ab087fc8e9f4ac21"
+        },
+        {
+            "date": "2025-05-28T15:31:46",
+            "title": "Merge pull request #9515 from google/tag-eben",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2b436a001710e7b62386c5edad2b46d646e872c9"
+        },
+        {
+            "date": "2025-05-28T15:29:00",
+            "title": "Merge pull request #9514 from google/m4rc1e-patch-33",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fd28fdd56544071ae7c4d4cf7bb16110eabb207b"
+        },
+        {
+            "date": "2025-05-28T15:21:52",
+            "title": "fix trending and popularity sort",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2a1a399382d0fbfc01fefd29b3b040d01d968e15"
+        },
+        {
+            "date": "2025-05-28T15:13:52",
+            "title": "lxgwmarkergothic: fix metadata",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7a41139f5861a0ce89a8f681f99150f931bbb503"
+        },
+        {
+            "date": "2025-05-28T14:05:16",
+            "title": "only run filter when return key is hit",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ae919126b103d71bf4bc11133cea0f226c137daa"
+        },
+        {
+            "date": "2025-05-28T13:51:06",
+            "title": "rm placeholders when saving or pring",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "61e13d61abe2a291de44266b91d75761f17e4b24"
+        },
+        {
+            "date": "2025-05-28T13:49:08",
+            "title": "set placeholder value to 0",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4a8b0e8443c9c75a29381e0040e35069bd3ffde2"
+        },
+        {
+            "date": "2025-05-28T13:45:32",
+            "title": "temp disable rm placeholder tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4121e9cc74d01bf8d8ea127dd24b454d2ee8f9df"
+        },
+        {
+            "date": "2025-05-28T12:43:01",
+            "title": "Merge pull request #9512 from EbenSorkin/patch-11",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1211d9d68a569713aa4a623972b0b071729dd8fb"
+        },
+        {
+            "date": "2025-05-28T09:33:49",
+            "title": "Merge pull request #9513 from felipesanches/patch-1",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "bd495b596b706f20d61b32dbf021878ae4de3461"
+        },
+        {
+            "date": "2025-05-28T09:28:06",
+            "title": "Update fontspectorall.yaml",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "442df2181d3c31939846e3ab8ef6be75dce94f1e"
+        },
+        {
+            "date": "2025-05-28T09:07:57",
+            "title": "Merge pull request #9511 from google/davelab6-intel-article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8be25de85b1e5e3262b436051f72b830c7e00e09"
+        },
+        {
+            "date": "2025-05-28T08:30:35",
+            "title": "Merge pull request #9495 from google/davelab6-ancizar-catalog-name",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9b83ce53834bd4d255896a134d7deb620d5bb1bc"
+        },
+        {
+            "date": "2025-05-28T05:44:23",
+            "title": "Update families.csv Wordspace",
+            "author": "Eben Sorkin",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "683ce4e8922df38f0ebbf728d15d3aa77a4b5d6a"
+        },
+        {
+            "date": "2025-05-27T18:38:05",
+            "title": "Update intelonemono/article/ARTICLE.en_us.html",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d982a73c73df29f2911c5638894d23ae4d95b079"
+        },
         {
             "date": "2025-05-27T16:51:06",
             "title": "Update to_production.txt (#9510)",
@@ -70,16 +254,32 @@
             "title": "tags.html: add red left hand border to edited/new tags",
             "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "030b781bd882118de7a50bf3c1393da555cb46cd"
+        },
+        {
+            "date": "2025-05-23T08:58:06",
+            "title": "Manufacturing Consent: Version 3.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "family",
+            "id": "d893d58f395153276bec50314943a1a75db5d853"
         },
         {
             "date": "2025-05-23T08:18:58",
             "title": "Merge pull request #9493 from google/to-lists2205",
             "author": "Emma Marichal",
-            "status": "new",
+            "status": "modified",
             "kind": "infrastructure",
             "id": "45647cec1c032596f62c012fe9f13a443c8ea172"
+        },
+        {
+            "date": "2025-05-22T21:50:27",
+            "title": "Add UNAL to display_name of Ancizar Sans + Serif",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "264e439715d34bdafce89254b0422300d28b2fa6"
         },
         {
             "date": "2025-05-22T13:56:27",

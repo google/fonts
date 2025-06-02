@@ -11,7 +11,7 @@ So, for this article, we’ll explore the emotive considerations that come into 
 
 But first: A warning! Selecting a typeface based on the emotional reactions it stirs in us and our readers is perfectly valid, but it’s important to not base our decisions on them alone. By all means, use emotive considerations as a way of making an initial selection, but be sure to quickly analyze for technical suitability, too—there’s no point in choosing something that feels perfect if it [only has one weight, or lacks character support for a language we need to cover](/lesson/choosing_reliable_typefaces).
 
-In his book, “Stop Stealing Sheep and Find Out How Type Works,” Erik Spiekermann shows a few examples of type set in appropriate typefaces that invoke either trust or distrust from the reader:
+In his book, “Stop Stealing Sheep and Find Out How Type Works” (which is now available as a [complete PDF download](https://static.googleusercontent.com/media/fonts.google.com/en//knowledge/stop_stealing_sheep.pdf) from Google Fonts), Erik Spiekermann shows a few examples of type set in appropriate typefaces that invoke either trust or distrust from the reader:
 
 <figure>
 

@@ -1,18 +1,92 @@
 # New
+ofl/chironsunghk # https://github.com/google/fonts/pull/9478
+ofl/huninn # https://github.com/google/fonts/pull/9228
+ofl/lxgwmarkergothic # https://github.com/google/fonts/pull/9429
+ofl/matangi # https://github.com/google/fonts/pull/9481
+ofl/savate # https://github.com/google/fonts/pull/9453
+ofl/wdxllubrifontjpn # https://github.com/google/fonts/pull/9294
+ofl/wdxllubrifontsc # https://github.com/google/fonts/pull/9292
 
 # Upgrade
-
-ofl/notosansthailooped # https://github.com/google/fonts/pull/9090
+ofl/baskervvillesc # https://github.com/google/fonts/pull/9376
+ofl/gidugu # https://github.com/google/fonts/pull/9426
+ofl/hanuman # https://github.com/google/fonts/pull/9469
+ofl/nokora # https://github.com/google/fonts/pull/9412
 
 # Designer profile
-# Deleted: catalog/designers/cal.com,inc. # https://github.com/google/fonts/pull/9250
-
+catalog/designers/alemetadesse # https://github.com/google/fonts/pull/9140
+catalog/designers/alvarofranca # https://github.com/google/fonts/pull/9373
+catalog/designers/anrt # https://github.com/google/fonts/pull/9386
+catalog/designers/columntype # https://github.com/google/fonts/pull/9140
+catalog/designers/contrastfoundry(cofo) # https://github.com/google/fonts/pull/9326
+catalog/designers/grillitype # https://github.com/google/fonts/pull/9325
+catalog/designers/jeremyshellhorn # https://github.com/google/fonts/pull/9369
+catalog/designers/maxesnee # https://github.com/google/fonts/pull/9445
+catalog/designers/naipefoundry # https://github.com/google/fonts/pull/9373
+catalog/designers/plombtype # https://github.com/google/fonts/pull/9446
+catalog/designers/raphaelalegbeleye # https://github.com/google/fonts/pull/9140
+catalog/designers/thegraphicant # https://github.com/google/fonts/pull/9482
+catalog/designers/typenetwork # https://github.com/google/fonts/pull/9324
+catalog/designers/yikunoamlakayalew # https://github.com/google/fonts/pull/9140
 
 # Knowledge
+cc-by-sa/knowledge/modules/readability_and_accessibility/lessons/how_type_influences_readability/content.md # https://github.com/google/fonts/pull/9322
 
 # Metadata / Description / License
-# Deleted: ofl/phetsarath/EARLY_ACCESS.category # https://github.com/google/fonts/pull/9364
+ofl/asul # https://github.com/google/fonts/pull/9364
+ofl/cactusclassicalserif # https://github.com/google/fonts/pull/9298
+ofl/calsans # https://github.com/google/fonts/pull/9406
+ofl/chocolateclassicalsans # https://github.com/google/fonts/pull/9298
+ofl/eduauvicwantarrows # https://github.com/google/fonts/pull/9411
+ofl/eduauvicwantdots # https://github.com/google/fonts/pull/9411
+ofl/gurajada # https://github.com/google/fonts/pull/9364
+ofl/italiana # https://github.com/google/fonts/pull/9364
+ofl/laila # https://github.com/google/fonts/pull/9364
+ofl/librebarcode39 # https://github.com/google/fonts/pull/9411
+ofl/lxgwwenkaimonotc # https://github.com/google/fonts/pull/9298
+ofl/lxgwwenkaitc # https://github.com/google/fonts/pull/9298
+ofl/narnoor # https://github.com/google/fonts/pull/9364
+ofl/phetsarath # https://github.com/google/fonts/pull/9364
+ofl/pollerone # https://github.com/google/fonts/pull/9364
+ofl/qahiri # https://github.com/google/fonts/pull/9480
+ofl/spacemono # https://github.com/google/fonts/pull/9483
+ofl/stylish # https://github.com/google/fonts/pull/9364
+ofl/wdxllubrifonttc # https://github.com/google/fonts/pull/9463
+ofl/zenmarugothic # https://github.com/google/fonts/pull/9364
 
 # Sample texts
+lang/languages/agq_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/apd_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/bap_Krai.textproto # https://github.com/google/fonts/pull/8509
+lang/languages/bax_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/buc_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/cu_Cyrl.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/djc_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/dv_Diak.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/dzg_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/ema_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/en_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/gby_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/gvl_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/lom_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/mg_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/nl_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/nmn_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/shu_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/snk_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/tda_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/ttq_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/tum_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/wdt_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/languages/yo_Latn.textproto # https://github.com/google/fonts/pull/9054
+lang/scripts/Diak.textproto # https://github.com/google/fonts/pull/9054
 
 # Other
+ofl/kumaroneoutline # https://github.com/google/fonts/pull/9332
+ofl/mplusrounded1c # https://github.com/google/fonts/pull/9332
+ofl/notoznamennymusicalnotation # https://github.com/google/fonts/pull/9337
+ofl/sawarabigothic # https://github.com/google/fonts/pull/9332
+
+# Deleted
+# Deleted: catalog/designers/cal.com,inc. # https://github.com/google/fonts/pull/9250
+# Deleted: ofl/phetsarath/EARLY_ACCESS.category # https://github.com/google/fonts/pull/9364

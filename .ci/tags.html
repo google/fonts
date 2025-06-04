@@ -109,6 +109,7 @@
               <option v-for="family in uniqueFamilies" :value="family.name">
             </datalist>
             <input type="number" max="100" min="0" class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
+            <input type="number" min="2" default="2" max="100" class="join-item input input-xs input-bordered btn-square" v-model="axisPositionCount" required placeholder="Axis Position Count">
             <button @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
             <button @click="AddFamily" class="join-item btn btn-xs">Add</button>
           </div>
@@ -314,6 +315,7 @@ function axesCombos(axes) {
         newTag: "",
         newFamily: '',
         newWeight: '',
+        axisPositionCount: 2,
         newAxes: [],
         fromFamily: "",
         toFamily: "",
@@ -481,15 +483,14 @@ function axesCombos(axes) {
           return results
       },
       addAxis() {
-        this.newAxes.push(
-          {
-            tag: "",
-            positions: [
-              {coordinate: "", score: 0},
-              {coordinate: "", score: 0},
-            ]
-          }
-        )
+        let axis = {
+          tag: "",
+          positions: []
+        }
+        for (let i = 0; i < this.axisPositionCount; i++) {
+          axis.positions.push({coordinate: "", score: 0});
+        }
+        this.newAxes.push(axis);
       },
       removeAxis(idx) {
         this.newAxes.splice(idx, 1);

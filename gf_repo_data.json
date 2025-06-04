@@ -1,6 +1,14 @@
 {
-    "last_run": "2025-06-03",
+    "last_run": "2025-06-04",
     "commits": [
+        {
+            "date": "2025-06-03T20:00:29",
+            "title": "Update to_production.txt (#9527)",
+            "author": "evanwadams",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "19eb0d80bab4427918406559354d92ceed460fbf"
+        },
         {
             "date": "2025-06-02T15:18:28",
             "title": "Update to_production.txt (#9523)",
@@ -85861,6 +85869,12 @@
     "pushes": {
         "sandbox": [],
         "production": [
+            {
+                "path": "ofl/notosansthailooped",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9090"
+            },
             {
                 "path": "catalog/designers/cal.com,inc.",
                 "category": "Deleted",

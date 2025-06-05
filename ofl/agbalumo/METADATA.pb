@@ -13,13 +13,14 @@ fonts {
   copyright: "Copyright 2023 The Agbalumo Project Authors (https://github.com/SorkinType/Agbalumo)"
 }
 subsets: "cyrillic-ext"
+subsets: "ethiopic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/SorkinType/Agbalumo"
-  commit: "9d9ec3e32c10533233c9e48835e436ff5e5aa451"
+  commit: "261ad51ef2291821685c1bebf10cf0fb9f7e08f9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

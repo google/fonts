@@ -29,5 +29,4 @@ source {
   }
   branch: "master"
 }
-languages: "lep_Lepc"  # Lepcha
 primary_script: "Lepc"

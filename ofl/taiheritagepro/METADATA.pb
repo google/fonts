@@ -43,5 +43,4 @@ source {
   }
   branch: "master"
 }
-languages: "blt_Tavt"  # Tai Dam
 primary_script: "Tavt"

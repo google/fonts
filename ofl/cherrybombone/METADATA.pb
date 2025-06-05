@@ -33,6 +33,4 @@ source {
   }
   branch: "ver3.00"
 }
-languages: "ja_Kana"  # Japanese, Katakana
-languages: "ja_Hira"  # Japanese, Hiragana
 primary_script: "Hira"

@@ -32,8 +32,6 @@ source {
   }
   branch: "master"
 }
-languages: "ja_Kana"  # Japanese, Katakana
-languages: "ja_Hira"  # Japanese, Hiragana
 primary_script: "Hira"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

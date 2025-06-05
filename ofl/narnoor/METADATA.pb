@@ -83,6 +83,5 @@ source {
   }
   branch: "master"
 }
-languages: "wsg_Gong"  # Adilabad Gondi, Gunjala Gondi
 primary_script: "Gong"
 stroke: "SANS_SERIF"

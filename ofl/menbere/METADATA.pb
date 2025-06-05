@@ -39,3 +39,5 @@ source {
   }
   branch: "main"
 }
+primary_script: "Ethi"
+stroke: "SANS_SERIF"

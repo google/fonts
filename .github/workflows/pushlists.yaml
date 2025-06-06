@@ -1,0 +1,25 @@
+name: Check server files
+on:
+  push:
+    paths:
+    - 'tags/all/families.csv'
+  pull_request:
+    paths:
+    - 'to_sandbox.txt'
+    - 'to_production.txt'
+    - '.github/workflows/pushlists.yaml"'
+
+jobs:
+  test_server_files:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+    - name: Install gftools
+      run: pip install gftools
+    - name: Lint server files
+      run: |
+        gftools push-status . --lint

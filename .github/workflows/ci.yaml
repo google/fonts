@@ -7,7 +7,6 @@ on:
     tags: ["v*.*.*"]
     paths:
     - "cc-by-sa/*"
-    - "to_*.txt"
     - ".github/workflows/ci.yaml"
     - "/.github/workflows/knowledge_graph.py"
   pull_request:

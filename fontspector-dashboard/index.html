@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.3">
+<title>Fontspector Dashboard</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.dcdbf18e.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.dcdbf18e.css">
+<link rel="modulepreload" href="./_observablehq/client.b309c0af.js">
+<link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.ec062f48.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/d761ef9b.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/e780feca.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/5ced1d52.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/86074ef6.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/843b6a76.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/02d43215.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/aa00730b.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.b309c0af.js";
+import {registerFile} from "./_observablehq/stdlib.ec062f48.js";
+
+registerFile("./results.json", {"name":"./results.json","mimeType":"application/json","path":"./_file/results.32b9c1ca.json","lastModified":1749262933706,"size":163929});
+
+define({id: "ace96b3a", inputs: ["FileAttachment"], outputs: ["allResults","categoricals"], body: (FileAttachment) => {
+const allResults = FileAttachment("./results.json").json();
+
+const categoricals = {
+    type: "categorical",
+    domain: ['INFO', 'WARN', 'FAIL', 'ERROR'],
+    range: ["#2182bf", "#bdae4f", "#cf4f2b", "#ff0000"],
+    legend: true
+  };
+return {allResults,categoricals};
+}});
+
+define({id: "48b47dbe", mode: "inline", inputs: ["allResults","display"], body: async (allResults,display) => {
+display(await(
+ allResults.headline.WARN 
+))
+}});
+
+define({id: "ef556c62", mode: "inline", inputs: ["allResults","display"], body: async (allResults,display) => {
+display(await(
+ allResults.headline.FAIL 
+))
+}});
+
+define({id: "5d49393d", inputs: ["Plot","allResults","categoricals","width","display"], body: async (Plot,allResults,categoricals,width,display) => {
+display(await(
+Plot.plot({
+  marks: [
+    Plot.ruleY([0]),
+    Plot.line(
+      allResults.fails_by_run,
+      Plot.stackY2({ y: "count", x: (d) => new Date(d.run), stroke: "status" })
+    ),
+    Plot.dot(
+      allResults.fails_by_run,
+      Plot.stackY2(
+        { y: "count", x: "run", fill: "status", "tip": true }
+      )
+    )
+  ],
+  color: categoricals,
+  width
+})
+))
+}});
+
+define({id: "9e54e7d2", inputs: ["view","html","allResults"], outputs: ["runSlider"], body: (view,html,allResults) => {
+const runSlider = view(html`<input type=range step=1 min=0 max=${allResults.allRuns.length-1} value=${allResults.allRuns.length-1}>`)
+return {runSlider};
+}});
+
+define({id: "a3e64552", inputs: ["allResults","runSlider"], outputs: ["selectedRun"], body: (allResults,runSlider) => {
+const selectedRun = allResults.allRuns[allResults.allRuns.length-(1+runSlider)]
+return {selectedRun};
+}});
+
+define({id: "c1fe9f12", mode: "inline", inputs: ["selectedRun","display"], body: async (selectedRun,display) => {
+display(await(
+(new Date(selectedRun)).toISOString().replace("T", " ").replace(/\.\d+Z$/, "") 
+))
+}});
+
+define({id: "0156f5b6", inputs: ["Plot","categoricals","allResults","selectedRun","display"], body: async (Plot,categoricals,allResults,selectedRun,display) => {
+display(await(
+Plot.plot({
+  marginBottom: 90,
+  marginLeft: 90,
+   x: {
+    tickRotate: -30,
+    label: null,
+  },
+  color: categoricals,
+  marks: [
+    Plot.ruleY([0]),
+    Plot.rectY(allResults.most_failing_checks[selectedRun],
+  
+    { y: "count", x: "check_id", sort: {x: "y", reverse: "true"}, tip: true, fill: "status" },
+  )
+]})
+))
+}});
+
+define({id: "181d3ca8", inputs: ["Plot","categoricals","allResults","selectedRun","display"], body: async (Plot,categoricals,allResults,selectedRun,display) => {
+display(await(
+Plot.plot({
+   x: {
+    tickRotate: -30,
+    label: null,
+
+  },
+  color: categoricals,
+  marks: [
+  
+    Plot.ruleY([0]),
+    Plot.barY(allResults.most_failing_families[selectedRun],
+    { y: "count", x: "family", tip: true, fill: "status", order: "status", sort: {x: "y", reverse: true} },
+  ),
+],
+})
+))
+}});
+
+</script>
+</head>
+<body>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<div class="observablehq observablehq--block"><!--:ace96b3a:--></div>
+<div class="hero">
+  <h1> Google Fonts QA </h1>
+  <h2> WARNs last run: <span class="huge warn"><observablehq-loading></observablehq-loading><!--:48b47dbe:--></span></h2>
+  <h2> FAILs last run: <span class="huge fail"><observablehq-loading></observablehq-loading><!--:ef556c62:--></span></h2>
+</div>
+<div class="card">
+<h2 id="overall-failures" tabindex="-1"><a class="observablehq-header-anchor" href="#overall-failures">Overall failures</a></h2>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:5d49393d:--></div>
+</div>
+<div>
+<hr>
+<div class="runslider">
+<p>Select run:</p>
+<div class="observablehq observablehq--block"><!--:9e54e7d2:--></div>
+<div class="observablehq observablehq--block"><!--:a3e64552:--></div>
+<p><span class="when"><observablehq-loading></observablehq-loading><!--:c1fe9f12:--></span></p>
+</div>
+<div class="grid grid-cols-2">
+  <div class="card">
+    <h2>Most failing checks</h2>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:0156f5b6:--></div>
+  </div>
+  <div class="card">
+<h2 id="most-failing-families" tabindex="-1"><a class="observablehq-header-anchor" href="#most-failing-families">Most failing families</a></h2>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:181d3ca8:--></div>
+  </div>
+</div>
+</div>
+<style>
+
+.card {
+  height: 450px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--sans-serif);
+  text-wrap: balance;
+  text-align: center;
+}
+
+.runslider {
+  height: 50px;
+}
+
+.runslider div { display: inline-block}
+.runslider div:first-child { display: inline-block; width: 50% ; }
+.runslider p { display: inline-block; font-family: sans-serif; }
+
+.hero h1 {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  max-width: none;
+  font-size: 14vw;
+  font-weight: 900;
+  line-height: 1;
+  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero h2 {
+  margin: 0;
+  max-width: 34em;
+  font-size: 40px;
+  font-style: initial;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--theme-foreground-muted);
+  vertical-align: middle; 
+  display: inline-block;
+}
+
+.hero h2 .huge {
+  font-size: 60px;
+  font-weight: 700;
+  vertical-align: middle; 
+}
+
+.warn { color: #bdae4f; }
+.fail { color: #cf4f2b; }
+
+
+@media (min-width: 640px) {
+  .hero h1 {
+    font-size: 90px;
+  }
+}
+
+</style>
+</main>
+</div>
+</body>
+</html>

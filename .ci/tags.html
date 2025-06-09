@@ -354,6 +354,15 @@ function axesCombos(axes) {
       currentCategory(newCategory) {
         this.updateURL();
       },
+      tagFilter(newFilter) {
+        this.updateURL();
+      },
+      sortMethod(newSort) {
+        this.updateURL();
+      },
+      reverseTags(newReverse) {
+        this.updateURL();
+      },
     },
     async created() {
       await this.getFamilyData()
@@ -364,10 +373,24 @@ function axesCombos(axes) {
     mounted() {
       const urlParams = new URLSearchParams(window.location.search);
       const category = urlParams.get('category');
+      const filter = urlParams.get('filter');
+      const sort_ = urlParams.get('sort');
+      const reverse = urlParams.get('reverse');
       if (category) {
         this.currentCategory = category;
       }
       const commit = urlParams.get('commit');
+      if (filter) {
+        this.tagFilter = filter;
+      }
+      if (sort_) {
+        this.sortMethod = sort_;
+      }
+      if (reverse === "true") {
+        this.reverseTags = true;
+      } else {
+        this.reverseTags = false;
+      }
       if (commit) {
         this.commit = commit;
         this.loadCSV();
@@ -509,6 +532,21 @@ function axesCombos(axes) {
           url.searchParams.set('category', this.currentCategory);
         } else {
           url.searchParams.delete('category');
+        }
+        if (this.tagFilter !== "") {
+          url.searchParams.set('filter', this.tagFilter);
+        } else {
+          url.searchParams.delete('filter');
+        }
+        if (this.sortMethod !== "") {
+          url.searchParams.set('sort', this.sortMethod);
+        } else {
+          url.searchParams.delete('sort');
+        }
+        if (this.reverseTags !== "") {
+          url.searchParams.set('reverse', this.reverseTags);
+        } else {
+          url.searchParams.delete('reverse');
         }
         history.pushState(null, '', url);
       },

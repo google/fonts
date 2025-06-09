@@ -153,8 +153,8 @@
             <datalist id="items">
               <option v-for="family in uniqueFamilies" :value="family">
             </datalist>
-            <button class="join-item btn btn-xs">Copy</button>
           </div>
+          <button class="join-item btn btn-xs">Copy</button>
         </form>
       </div>
 
@@ -364,6 +364,7 @@ function axesCombos(axes) {
         this.updateURL();
       },
       currentCategories(newCategories) {
+        this.currentCategory = newCategories[0];
         this.updateURL();
       },
       tagFilter(newFilter) {

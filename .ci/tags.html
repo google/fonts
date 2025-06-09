@@ -106,6 +106,10 @@
           <div class="label lavel-xs">
             <span class="label-text label-xs">Add Family</span>
           </div>
+          <label class="label">
+            Variable Tag
+            <input type="checkbox" checked="checked" class="toggle" v-model="variableTag"/>
+          </label>
             <select v-model="currentCategory" class="select select-xs select-bordered w-full max-w-xs">
               <option v-for="category in currentCategories">{{ category }}</option>
             </select>
@@ -113,14 +117,12 @@
             <datalist id="items">
               <option v-for="family in uniqueFamilies" :value="family.name">
             </datalist>
-          <div class="join">
-            <input type="number" max="100" min="0" class="join-item input input-xs w-full input-bordered" v-model="newWeight" required placeholder="Score">
-            <input type="number" min="2" default="2" max="100" class="join-item input input-xs input-bordered btn-square" v-model="axisPositionCount" required placeholder="Axis Position Count">
-            <button @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
+            <input v-if="variableTag === false" type="number" max="100" min="0" class="join-item input input-xs w-full input-bordered" v-model="newWeight" required placeholder="Score">
+            <input v-if="variableTag === true" type="number" min="2"  max="100" class="join-item input input-xs w-full input-bordered" v-model="axisPositionCount" required placeholder="Axis Position Count">
+            <button v-if="variableTag === true" @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
             <button @click="AddFamily" class="join-item btn btn-xs">Add</button>
-          </div>
           <div style="max-height: 200px; overflow: scroll">
-          <div style="margin-bottom: 12pt;" v-for="(axisSet, idx) in newAxes">
+          <div v-if="variableTag === true" style="margin-bottom: 12pt;" v-for="(axisSet, idx) in newAxes">
             Axis: {{ axisSet.tag }}
             <label class="input input-bordered input-xs flex items-center gap-2">
               Tag
@@ -313,6 +315,7 @@ function axesCombos(axes) {
       return {
         ready: false,
         isEdited: false,
+        variableTag: false,
         familyData: {},
         tagFilter: "",
         commit: "refs/heads/main",
@@ -320,7 +323,7 @@ function axesCombos(axes) {
         newTag: "",
         newFamily: '',
         newWeight: '',
-        axisPositionCount: 2,
+        axisPositionCount: "",
         newAxes: [],
         fromFamily: "",
         toFamily: "",
@@ -516,6 +519,10 @@ function axesCombos(axes) {
           return results
       },
       addAxis() {
+        if (this.axisPositionCount === "" || this.axisPositionCount < 2) {
+          alert("Please enter a valid axis position count (minimum 2)");
+          return;
+        }
         let axis = {
           tag: "",
           positions: []

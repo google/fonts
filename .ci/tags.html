@@ -10,6 +10,9 @@
   .tagEdited {
     border-left: 5px solid red;
   }
+  option {
+    padding: 10px;
+  }
 </style>
 
 <body>
@@ -43,12 +46,12 @@
           </li>
           <li>
             <details>
-              <summary>{{ currentCategory }}</summary>
+              <summary>Tag Categories</summary>
               <ul class="shadow">
                 <div class="cont" style="max-height: 16rem; overflow: scroll">
-                  <li  v-for="category in sortedCategories()">
-                    <a @click="currentCategory = category">{{ category }}</a>
-                  </li>
+                  <select multiple="true" v-model="currentCategories">
+                  <option v-for="category in sortedCategories()">{{ category }}</option>
+                  </select>
                 </div>
               </ul>
             </details>
@@ -103,12 +106,15 @@
           <div class="label lavel-xs">
             <span class="label-text label-xs">Add Family</span>
           </div>
-          <div class="join">
+            <select v-model="currentCategory" class="select select-xs select-bordered w-full max-w-xs">
+              <option v-for="category in currentCategories">{{ category }}</option>
+            </select>
             <input class="join-item input input-xs input-bordered w-full max-w-xs" list="items" v-model="newFamily" required placeholder="Family Name">
             <datalist id="items">
               <option v-for="family in uniqueFamilies" :value="family.name">
             </datalist>
-            <input type="number" max="100" min="0" class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
+          <div class="join">
+            <input type="number" max="100" min="0" class="join-item input input-xs w-full input-bordered" v-model="newWeight" required placeholder="Score">
             <input type="number" min="2" default="2" max="100" class="join-item input input-xs input-bordered btn-square" v-model="axisPositionCount" required placeholder="Axis Position Count">
             <button @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
             <button @click="AddFamily" class="join-item btn btn-xs">Add</button>
@@ -259,8 +265,7 @@ function axesCombos(axes) {
     template: `
       <div class="p-2" :class="{ tagEdited: family.isEdited }" style="border-bottom: 1px solid #e5e7eb;">
         <div class="join">
-          <b v-if="category == ' All'" class="pr-2">{{ familyTag }}</b>
-          <b v-else class="pr-2">{{ familyDisplayName }}</b>
+          <b class="pr-2">{{ familyTag }}</b>
           <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square" :data-index="index" v-model.lazy="family.score" @change="edited" placeholder="family.score">
           <button class="btn btn-xs join-item pr-2" @click="removeFamily">X</button>
           </div>
@@ -319,7 +324,8 @@ function axesCombos(axes) {
         newAxes: [],
         fromFamily: "",
         toFamily: "",
-        currentCategory: "/Expressive/Calm",
+        currentCategories: ["/Expressive/Active"],
+        currentCategory: "/Expressive/Active",
         sortMethod: "Score",
         categories: new Set([" All"]),
         tags: [],
@@ -354,6 +360,9 @@ function axesCombos(axes) {
       currentCategory(newCategory) {
         this.updateURL();
       },
+      currentCategories(newCategories) {
+        this.updateURL();
+      },
       tagFilter(newFilter) {
         this.updateURL();
       },
@@ -373,11 +382,15 @@ function axesCombos(axes) {
     mounted() {
       const urlParams = new URLSearchParams(window.location.search);
       const category = urlParams.get('category');
+      const categories = urlParams.get('categories');
       const filter = urlParams.get('filter');
       const sort_ = urlParams.get('sort');
       const reverse = urlParams.get('reverse');
       if (category) {
         this.currentCategory = category;
+      }
+      if (categories) {
+        this.currentCategories = categories.split(",");
       }
       const commit = urlParams.get('commit');
       if (filter) {
@@ -430,11 +443,8 @@ function axesCombos(axes) {
           }
         }
         let filtered = this.tags;
-        if (this.currentCategory !== " All") {
-          filtered = filtered.filter(family => family.category === this.currentCategory);
-        }
-        if (this.tagFilter !== "") {
-          filtered = filtered.filter(family => family.tag.match(this.tagFilter));
+        if (this.currentCategories.length > 0) {
+          filtered = filtered.filter(family => this.currentCategories.includes(family.category));
         }
         filtered.sort(sortFunc);
 
@@ -532,6 +542,11 @@ function axesCombos(axes) {
           url.searchParams.set('category', this.currentCategory);
         } else {
           url.searchParams.delete('category');
+        }
+        if (this.currentCategories.length > 0) {
+          url.searchParams.set('categories', this.currentCategories.join(","));
+        } else {
+          url.searchParams.delete('categories');
         }
         if (this.tagFilter !== "") {
           url.searchParams.set('filter', this.tagFilter);

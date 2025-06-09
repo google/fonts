@@ -385,14 +385,10 @@ function axesCombos(axes) {
     },
     mounted() {
       const urlParams = new URLSearchParams(window.location.search);
-      const category = urlParams.get('category');
       const categories = urlParams.get('categories');
       const filter = urlParams.get('filter');
       const sort_ = urlParams.get('sort');
       const reverse = urlParams.get('reverse');
-      if (category) {
-        this.currentCategory = category;
-      }
       if (categories) {
         this.currentCategories = categories.split(",");
       }
@@ -546,11 +542,6 @@ function axesCombos(axes) {
         } else {
           url.searchParams.delete('commit');
         }
-        if (this.currentCategory) {
-          url.searchParams.set('category', this.currentCategory);
-        } else {
-          url.searchParams.delete('category');
-        }
         if (this.currentCategories.length > 0) {
           url.searchParams.set('categories', this.currentCategories.join(","));
         } else {
@@ -582,7 +573,7 @@ function axesCombos(axes) {
       },
       edited(family) {
         this.isEdited = true;
-        this.history.push(`* ${family.name},${family.category},${family.Weight}`);
+        this.history.push(`* ${family.name},${family.category},${family.score}`);
         this.saveSession();
       },
       parseUnicode(str) {

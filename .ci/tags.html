@@ -448,6 +448,11 @@ function axesCombos(axes) {
         }
         filtered.sort(sortFunc);
 
+        if (this.tagFilter !== "") {
+          const myRegex = new RegExp(this.tagFilter, "i");
+          filtered = filtered.filter(family => myRegex.test(family.displayName));
+        }
+
         
         if (this.reverseTags) {
           filtered.reverse();

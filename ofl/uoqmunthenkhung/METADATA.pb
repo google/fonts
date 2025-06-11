@@ -1,16 +1,16 @@
-name: "Uoq Mun Then Khung"
+name: "UoqMunThenKhung"
 designer: "Moonlit Owen"
 license: "OFL"
 category: "SERIF"
 date_added: "2025-05-16"
 fonts {
-  name: "Uoq Mun Then Khung"
+  name: "UoqMunThenKhung"
   style: "normal"
   weight: 400
   filename: "UoqMunThenKhung-Regular.ttf"
   post_script_name: "UoqMunThenKhung-Regular"
   full_name: "宇文天穹"
-  copyright: "Copyright 2025 The Uoq Mun Then Khung Project Authors (https://github.com/MoonlitOwen/ThenKhung)"
+  copyright: "Copyright 2025 The UoqMunThenKhung Project Authors (https://github.com/MoonlitOwen/ThenKhung)"
 }
 subsets: "chinese-traditional"
 subsets: "cyrillic"

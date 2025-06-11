@@ -1,6 +1,86 @@
 {
-    "last_run": "2025-06-10",
+    "last_run": "2025-06-11",
     "commits": [
+        {
+            "date": "2025-06-10T16:16:51",
+            "title": "Update families.csv (#9546)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "dd22516471a9321ac19fb013f44ec4568666043c"
+        },
+        {
+            "date": "2025-06-10T15:03:07",
+            "title": "Merge pull request #9506 from google/gftools_packager_ofl_reemkufiink",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "dc0850e3f73e789acd377d39dde66d9d5e21e5b9"
+        },
+        {
+            "date": "2025-06-10T14:58:15",
+            "title": "Merge pull request #9520 from google/lang-v0.7.5",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "98af416e3407ff460ab12effd7d0bfd16d86aaee"
+        },
+        {
+            "date": "2025-06-10T14:57:49",
+            "title": "Merge pull request #9539 from google/emmamarichal-patch-1",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fe3b7234deb4e28c087e081f2a6752db7254ebd6"
+        },
+        {
+            "date": "2025-06-10T10:52:57",
+            "title": "Merge pull request #9544 from google/tags-multi",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "f4ebecaefe058967588ff1dec93ebcc85fe456c7"
+        },
+        {
+            "date": "2025-06-09T14:25:22",
+            "title": "fix regex filter",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1ec24ec99d4b1d1a5819c12336e0b324b8d33eff"
+        },
+        {
+            "date": "2025-06-09T14:15:40",
+            "title": "Tidyup url",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "13d534e6931f0bdf0a49d2ebab9af6be75f5072e"
+        },
+        {
+            "date": "2025-06-09T14:15:40",
+            "title": "set currentCategory to first selection",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b136af145efe7761062f702ca115315b0221d45f"
+        },
+        {
+            "date": "2025-06-09T14:15:40",
+            "title": "tags.html: improve ui for tag menu",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "ae280589f42bc90ddd68339dbd2b8f64368b4660"
+        },
+        {
+            "date": "2025-06-09T14:15:40",
+            "title": "tags.html: Enable multiple category selection",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8a386ab2cde503bb76b09c644810ec61c297b0b3"
+        },
         {
             "date": "2025-06-09T09:56:38",
             "title": "Merge pull request #9543 from google/tag-filter-tag",
@@ -16,6 +96,14 @@
             "status": "modified",
             "kind": "infrastructure",
             "id": "feba8a23298856d71b4a033e722a6da6d7018060"
+        },
+        {
+            "date": "2025-06-06T12:23:34",
+            "title": "Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "119d448185ef35bbb30765b60b954666dc3140c0"
         },
         {
             "date": "2025-06-06T11:11:18",
@@ -306,6 +394,14 @@
             "id": "defb9eb53d4d1bc01789718c8dd518f661b97636"
         },
         {
+            "date": "2025-05-30T14:43:19",
+            "title": "Merge commit 'fe5727081b9a02a04fa69750a0a7aa8209177404' into lang-v0.7.5",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1b6f2401a4e4488288062c78fe303396058f4688"
+        },
+        {
             "date": "2025-05-30T12:27:51",
             "title": "Merge pull request #9496 from google/gftools_packager_ofl_manufacturingconsent",
             "author": "Marc Foley",
@@ -454,8 +550,16 @@
             "title": "Update fontspectorall.yaml",
             "author": "Felipe Corr\u00eaa da Silva Sanches",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "442df2181d3c31939846e3ab8ef6be75dce94f1e"
+        },
+        {
+            "date": "2025-05-28T09:19:49",
+            "title": "Add Sunwar (suz_Sunu) (#233)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "fe5727081b9a02a04fa69750a0a7aa8209177404"
         },
         {
             "date": "2025-05-28T09:07:57",
@@ -534,8 +638,16 @@
             "title": "fix up",
             "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "77327a5d087a00c536b86a951c3ad34ff0c69ef3"
+        },
+        {
+            "date": "2025-05-26T12:00:06",
+            "title": "Reem Kufi Ink: Version 1.899 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "210eff9c2526b04f409da3aec8a6a1973976d7d2"
         },
         {
             "date": "2025-05-23T16:11:30",
@@ -1030,8 +1142,32 @@
             "title": "to delist update",
             "author": "Emma Marichal",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "3c2fe8ad8ba0a28192b108ba21ddce2c07301b14"
+        },
+        {
+            "date": "2025-05-15T14:21:40",
+            "title": "Upgrade pypi-publish action too (#232)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e8b57d8e9af1c3421b01aeba6c1742604f2b6f7b"
+        },
+        {
+            "date": "2025-05-15T14:18:24",
+            "title": "And again (#231)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f9711c6f205433acfa7e33b79a0e5d46f320e34b"
+        },
+        {
+            "date": "2025-05-15T14:14:59",
+            "title": "Allow write permissions for release (#230)",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "5343c1dae1cdb174b50315ef21821e013acf64e9"
         },
         {
             "date": "2025-05-15T14:03:05",

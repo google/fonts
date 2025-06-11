@@ -10,6 +10,9 @@
   .tagEdited {
     border-left: 5px solid red;
   }
+  option {
+    padding: 10px;
+  }
 </style>
 
 <body>
@@ -43,12 +46,12 @@
           </li>
           <li>
             <details>
-              <summary>{{ currentCategory }}</summary>
+              <summary>Tag Categories</summary>
               <ul class="shadow">
                 <div class="cont" style="max-height: 16rem; overflow: scroll">
-                  <li  v-for="category in sortedCategories()">
-                    <a @click="currentCategory = category">{{ category }}</a>
-                  </li>
+                  <select multiple="true" v-model="currentCategories">
+                  <option v-for="category in sortedCategories()">{{ category }}</option>
+                  </select>
                 </div>
               </ul>
             </details>
@@ -103,18 +106,23 @@
           <div class="label lavel-xs">
             <span class="label-text label-xs">Add Family</span>
           </div>
-          <div class="join">
+          <label class="label">
+            Variable Tag
+            <input type="checkbox" checked="checked" class="toggle" v-model="variableTag"/>
+          </label>
+            <select v-model="currentCategory" class="select select-xs select-bordered w-full max-w-xs">
+              <option v-for="category in currentCategories">{{ category }}</option>
+            </select>
             <input class="join-item input input-xs input-bordered w-full max-w-xs" list="items" v-model="newFamily" required placeholder="Family Name">
             <datalist id="items">
               <option v-for="family in uniqueFamilies" :value="family.name">
             </datalist>
-            <input type="number" max="100" min="0" class="join-item input input-xs input-bordered btn-square" v-model="newWeight" required placeholder="Score">
-            <input type="number" min="2" default="2" max="100" class="join-item input input-xs input-bordered btn-square" v-model="axisPositionCount" required placeholder="Axis Position Count">
-            <button @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
+            <input v-if="variableTag === false" type="number" max="100" min="0" class="join-item input input-xs w-full input-bordered" v-model="newWeight" required placeholder="Score">
+            <input v-if="variableTag === true" type="number" min="2"  max="100" class="join-item input input-xs w-full input-bordered" v-model="axisPositionCount" required placeholder="Axis Position Count">
+            <button v-if="variableTag === true" @click="addAxis" class="join-item btn btn-xs">Add Axis</button>
             <button @click="AddFamily" class="join-item btn btn-xs">Add</button>
-          </div>
           <div style="max-height: 200px; overflow: scroll">
-          <div style="margin-bottom: 12pt;" v-for="(axisSet, idx) in newAxes">
+          <div v-if="variableTag === true" style="margin-bottom: 12pt;" v-for="(axisSet, idx) in newAxes">
             Axis: {{ axisSet.tag }}
             <label class="input input-bordered input-xs flex items-center gap-2">
               Tag
@@ -145,8 +153,8 @@
             <datalist id="items">
               <option v-for="family in uniqueFamilies" :value="family">
             </datalist>
-            <button class="join-item btn btn-xs">Copy</button>
           </div>
+          <button class="join-item btn btn-xs">Copy</button>
         </form>
       </div>
 
@@ -259,8 +267,7 @@ function axesCombos(axes) {
     template: `
       <div class="p-2" :class="{ tagEdited: family.isEdited }" style="border-bottom: 1px solid #e5e7eb;">
         <div class="join">
-          <b v-if="category == ' All'" class="pr-2">{{ familyTag }}</b>
-          <b v-else class="pr-2">{{ familyDisplayName }}</b>
+          <b class="pr-2">{{ familyTag }}</b>
           <input style="width: 3rem;" class="join-item input input-xs input-bordered btn-square" :data-index="index" v-model.lazy="family.score" @change="edited" placeholder="family.score">
           <button class="btn btn-xs join-item pr-2" @click="removeFamily">X</button>
           </div>
@@ -308,6 +315,7 @@ function axesCombos(axes) {
       return {
         ready: false,
         isEdited: false,
+        variableTag: false,
         familyData: {},
         tagFilter: "",
         commit: "refs/heads/main",
@@ -315,11 +323,12 @@ function axesCombos(axes) {
         newTag: "",
         newFamily: '',
         newWeight: '',
-        axisPositionCount: 2,
+        axisPositionCount: "",
         newAxes: [],
         fromFamily: "",
         toFamily: "",
-        currentCategory: "/Expressive/Calm",
+        currentCategories: ["/Expressive/Active"],
+        currentCategory: "/Expressive/Active",
         sortMethod: "Score",
         categories: new Set([" All"]),
         tags: [],
@@ -354,6 +363,10 @@ function axesCombos(axes) {
       currentCategory(newCategory) {
         this.updateURL();
       },
+      currentCategories(newCategories) {
+        this.currentCategory = newCategories[0];
+        this.updateURL();
+      },
       tagFilter(newFilter) {
         this.updateURL();
       },
@@ -372,12 +385,12 @@ function axesCombos(axes) {
     },
     mounted() {
       const urlParams = new URLSearchParams(window.location.search);
-      const category = urlParams.get('category');
+      const categories = urlParams.get('categories');
       const filter = urlParams.get('filter');
       const sort_ = urlParams.get('sort');
       const reverse = urlParams.get('reverse');
-      if (category) {
-        this.currentCategory = category;
+      if (categories) {
+        this.currentCategories = categories.split(",");
       }
       const commit = urlParams.get('commit');
       if (filter) {
@@ -430,13 +443,15 @@ function axesCombos(axes) {
           }
         }
         let filtered = this.tags;
-        if (this.currentCategory !== " All") {
-          filtered = filtered.filter(family => family.category === this.currentCategory);
-        }
-        if (this.tagFilter !== "") {
-          filtered = filtered.filter(family => family.tag.match(this.tagFilter));
+        if (this.currentCategories.length > 0) {
+          filtered = filtered.filter(family => this.currentCategories.includes(family.category));
         }
         filtered.sort(sortFunc);
+
+        if (this.tagFilter !== "") {
+          const myRegex = new RegExp(this.tagFilter, "i");
+          filtered = filtered.filter(family => myRegex.test(family.displayName));
+        }
 
         
         if (this.reverseTags) {
@@ -506,6 +521,10 @@ function axesCombos(axes) {
           return results
       },
       addAxis() {
+        if (this.axisPositionCount === "" || this.axisPositionCount < 2) {
+          alert("Please enter a valid axis position count (minimum 2)");
+          return;
+        }
         let axis = {
           tag: "",
           positions: []
@@ -528,10 +547,10 @@ function axesCombos(axes) {
         } else {
           url.searchParams.delete('commit');
         }
-        if (this.currentCategory) {
-          url.searchParams.set('category', this.currentCategory);
+        if (this.currentCategories.length > 0) {
+          url.searchParams.set('categories', this.currentCategories.join(","));
         } else {
-          url.searchParams.delete('category');
+          url.searchParams.delete('categories');
         }
         if (this.tagFilter !== "") {
           url.searchParams.set('filter', this.tagFilter);
@@ -559,7 +578,7 @@ function axesCombos(axes) {
       },
       edited(family) {
         this.isEdited = true;
-        this.history.push(`* ${family.name},${family.category},${family.Weight}`);
+        this.history.push(`* ${family.name},${family.category},${family.score}`);
         this.saveSession();
       },
       parseUnicode(str) {

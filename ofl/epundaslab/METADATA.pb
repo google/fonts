@@ -10,7 +10,7 @@ fonts {
   filename: "EpundaSlab[wght].ttf"
   post_script_name: "EpundaSlab-Light"
   full_name: "Epunda Slab Light"
-  copyright: "Copyright 2023 The Epunda Slab Project Authors (https://github.com/typofactur/epundaslab.git)"
+  copyright: "???."
 }
 fonts {
   name: "Epunda Slab"
@@ -19,7 +19,7 @@ fonts {
   filename: "EpundaSlab-Italic[wght].ttf"
   post_script_name: "EpundaSlab-LightItalic"
   full_name: "Epunda Slab Light Italic"
-  copyright: "Copyright 2023 The Epunda Slab Project Authors (https://github.com/typofactur/epundaslab.git)"
+  copyright: "???."
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -31,7 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/typofactur/epundaslab"
-  commit: "6ad46fde8036ef359369bd922c0d8209f659b70f"
+  commit: "b7f3ef7ccf9e7f1c0d8ef23bd5c6017a8c77a268"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

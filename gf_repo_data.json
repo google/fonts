@@ -1,6 +1,118 @@
 {
-    "last_run": "2025-06-11",
+    "last_run": "2025-06-12",
     "commits": [
+        {
+            "date": "2025-06-11T16:01:06",
+            "title": "Merge pull request #9505 from google/gftools_packager_ofl_reemkufifun",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "f1fd78ee42787ff4c9763717df4ef16101eb805f"
+        },
+        {
+            "date": "2025-06-11T15:43:10",
+            "title": "Merge pull request #9549 from google/gftools_packager_ofl_notosanssunuwar",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "2fe5957d2c21a2a338413117097bfad10ea72f3c"
+        },
+        {
+            "date": "2025-06-11T14:22:04",
+            "title": "Merge pull request #9554 from google/emmamarichal-patch-1",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "9c69c38fe81ef2548604d6bfd2672a467070d2be"
+        },
+        {
+            "date": "2025-06-11T14:15:29",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "30446d2f86cc6f9e222e271efbed01792e010b67"
+        },
+        {
+            "date": "2025-06-11T13:58:19",
+            "title": "Create families_new.csv (#9553)",
+            "author": "nyshadhr9",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "826d8f9f81236a019808023ac8bd52c23d10f7d0"
+        },
+        {
+            "date": "2025-06-11T13:56:47",
+            "title": "Merge pull request #9552 from google/emmamarichal-patch-1",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "8aaab2b5f4b1acff2dd1c3ed803204e2f68998a0"
+        },
+        {
+            "date": "2025-06-11T13:47:39",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "226b07114c5e69000fd16b6499c5f4191ba9b500"
+        },
+        {
+            "date": "2025-06-11T12:43:29",
+            "title": "Merge pull request #9468 from google/UoqMunThenKhung",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "fc7aefa87b806b5153396ac29b02111c8f13b9ba"
+        },
+        {
+            "date": "2025-06-11T12:42:36",
+            "title": "Merge pull request #9467 from google/ChocolateSans",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "5cbbde9c9711a3775ef987e034a7b3aaeaa60e33"
+        },
+        {
+            "date": "2025-06-11T12:35:32",
+            "title": "Merge pull request #9430 from google/ChironHeiHK",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "f9df965863a5a4ceae84ada8b9ccf2938e517419"
+        },
+        {
+            "date": "2025-06-11T12:07:19",
+            "title": "Noto Sans Sunuwar: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "family",
+            "id": "cd8b66cc0328ad348e3a410b414dabf974ef5a7e"
+        },
+        {
+            "date": "2025-06-11T09:53:24",
+            "title": "Merge pull request #9547 from google/davelab6-glory-desc",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "e235d3519abf2bd08be9214d71597e921036304d"
+        },
+        {
+            "date": "2025-06-11T03:16:35",
+            "title": "Experimental addition of stroke metrics (#9548)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "ec17a8ced49230682d19b97ebd3e3d80d3b6358b"
+        },
+        {
+            "date": "2025-06-10T19:53:01",
+            "title": "Update glory/DESCRIPTION.en_us.html",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "metadata",
+            "id": "85b768b3903de39bd94970c2cda8ca38c8e2a8a1"
+        },
         {
             "date": "2025-06-10T16:16:51",
             "title": "Update families.csv (#9546)",
@@ -37,9 +149,17 @@
             "date": "2025-06-10T10:52:57",
             "title": "Merge pull request #9544 from google/tags-multi",
             "author": "Marc Foley",
-            "status": "new",
-            "kind": "infrastructure",
+            "status": "modified",
+            "kind": "family",
             "id": "f4ebecaefe058967588ff1dec93ebcc85fe456c7"
+        },
+        {
+            "date": "2025-06-09T17:14:08",
+            "title": "Update ChocolateClassicalSans-Regular.ttf",
+            "author": "Aaron Bell",
+            "status": "modified",
+            "kind": "family",
+            "id": "968ef1ed477e39cd9f26d7133f50483d82cc2ac9"
         },
         {
             "date": "2025-06-09T14:25:22",
@@ -582,8 +702,32 @@
             "title": "Update families.csv Wordspace",
             "author": "Eben Sorkin",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "683ce4e8922df38f0ebbf728d15d3aa77a4b5d6a"
+        },
+        {
+            "date": "2025-05-27T22:16:34",
+            "title": "Create OFL.txt",
+            "author": "Aaron",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "1d43fed66b0d52a111978af5f5167010568af7a4"
+        },
+        {
+            "date": "2025-05-27T22:14:48",
+            "title": "New version",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "4b072d8e7dc6a113c8cd2b7b297ab5dc69e51d05"
+        },
+        {
+            "date": "2025-05-27T22:11:34",
+            "title": "Update ChocolateClassicalSans-Regular.ttf",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "38e2ebbf3d582079d3c01f7ef7b37d5b072a1501"
         },
         {
             "date": "2025-05-27T18:38:05",
@@ -648,6 +792,14 @@
             "status": "modified",
             "kind": "family",
             "id": "210eff9c2526b04f409da3aec8a6a1973976d7d2"
+        },
+        {
+            "date": "2025-05-26T11:59:20",
+            "title": "Reem Kufi Fun: Version 1.899 added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "9161d803c3b2bef1eb8c711af204f27449dca71d"
         },
         {
             "date": "2025-05-23T16:11:30",
@@ -946,6 +1098,22 @@
             "id": "5943c55fc482bdfa335946e2200ab9ae15da473a"
         },
         {
+            "date": "2025-05-20T16:48:51",
+            "title": "Updating to 1.005 version per Night's request",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "2dae0d864bacadf848dc143761f22d4ca5d66b4a"
+        },
+        {
+            "date": "2025-05-20T16:48:01",
+            "title": "Changing to 1.005 version per Night's request",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "72229b649743c5852be373555e0f6c271de33a27"
+        },
+        {
             "date": "2025-05-20T10:17:37",
             "title": "Rebuild",
             "author": "Simon Cozens",
@@ -1062,8 +1230,16 @@
             "title": "Custom sample text for Qahiri",
             "author": "Simon Cozens",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "c09cfac2f06d14cb7f4ca135fbd4f7dd91cb7c2b"
+        },
+        {
+            "date": "2025-05-18T03:59:26",
+            "title": "Update METADATA.pb",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "f11a339a9f3fa18612b992af8069db783ded40c0"
         },
         {
             "date": "2025-05-16T18:10:22",
@@ -1093,9 +1269,25 @@
             "date": "2025-05-16T13:01:58",
             "title": "Merge pull request #9463 from google/primary_script_cjk",
             "author": "Emma Marichal",
-            "status": "new",
-            "kind": "infrastructure",
+            "status": "modified",
+            "kind": "family",
             "id": "70fbac300f0d795b357f3977081158b10b72320a"
+        },
+        {
+            "date": "2025-05-16T12:50:59",
+            "title": "Uoq Mun Then Kung: version 1.197",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "c5237487a93306a36571b7135c7560f4ecfcc9bb"
+        },
+        {
+            "date": "2025-05-16T12:20:38",
+            "title": "Update Chocolate Sans to 1.197",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "dbdb812e04320382b8d952448ce621895e116357"
         },
         {
             "date": "2025-05-16T12:14:17",
@@ -1326,8 +1518,16 @@
             "title": "removed localised family names",
             "author": "Emma Marichal",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "d4e9f646bf0563beec141aa666efa91a40002269"
+        },
+        {
+            "date": "2025-05-14T13:51:33",
+            "title": "Update OFL.txt",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "69818785837014e539e133166d2cd460836b90cb"
         },
         {
             "date": "2025-05-14T13:28:56",
@@ -1600,6 +1800,14 @@
             "status": "modified",
             "kind": "family",
             "id": "6bfb6e6b532e06dff3b7f50b007ecbaf43e3b465"
+        },
+        {
+            "date": "2025-05-08T12:41:49",
+            "title": "Chiron Hei HK : 2.525 added",
+            "author": "Aaron",
+            "status": "modified",
+            "kind": "family",
+            "id": "4d6ad4301618415501684fbb3ca34294f8bcd6a7"
         },
         {
             "date": "2025-05-08T12:27:57",

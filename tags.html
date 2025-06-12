@@ -678,15 +678,15 @@ function axesCombos(axes) {
       },
       copyFamily() {
         this.isEdited = true;
-        let fromTags = this.tags.filter(family => family.name === this.fromFamily.name);
+        let fromTags = this.tags.filter(family => family.name === this.fromFamily);
         if (fromTags.length === 0) {
           alert(`No tags found for Family "${this.toFamily}"`);
           return;
         }
         fromTags.forEach((tag) => {
-          let newTag = {Family: this.toFamily, "Group/Tag": tag["Group/Tag"], Weight: tag.Weight};
+          let newTag = new FontTag(this.toFamily, tag.category, tag.score);
           this.tags.push(newTag);
-          this.history.push(`+ ${newTag.Family},${newTag["Group/Tag"]},${newTag.Weight}`);
+          this.history.push(`+ ${newTag.name},${newTag.category},${newTag.score}`);
         })
         this.saveSession();
       },

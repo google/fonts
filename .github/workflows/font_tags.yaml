@@ -10,7 +10,7 @@ on:
     - 'tags/all/families.csv'
 
 jobs:
-  test_server_files:
+  test_font_tags:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3

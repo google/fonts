@@ -1,8 +1,5 @@
 name: Check server files
 on:
-  push:
-    paths:
-    - 'tags/all/families.csv'
   pull_request:
     paths:
     - 'to_sandbox.txt'

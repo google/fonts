@@ -10,7 +10,7 @@ fonts {
   filename: "EpundaSans[wght].ttf"
   post_script_name: "EpundaSans-Light"
   full_name: "Epunda Sans Light"
-  copyright: "Copyright 2024 The Epunda Sans Project Authors (https://github.com/typofactur/epundasans.git)"
+  copyright: "???."
 }
 fonts {
   name: "Epunda Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "EpundaSans-Italic[wght].ttf"
   post_script_name: "EpundaSans-LightItalic"
   full_name: "Epunda Sans Light Italic"
-  copyright: "Copyright 2024 The Epunda Sans Project Authors (https://github.com/typofactur/epundasans.git)"
+  copyright: "???."
 }
 subsets: "latin"
 subsets: "latin-ext"
@@ -31,7 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/typofactur/epundasans"
-  commit: "0c85f7005b9513b2f0b0482830aa9e25c3b203cb"
+  commit: "4a75d7da519ebed2c580e024a3e447a6bde69377"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -10,7 +10,7 @@ fonts {
   filename: "EpundaSans[wght].ttf"
   post_script_name: "EpundaSans-Light"
   full_name: "Epunda Sans Light"
-  copyright: "???."
+  copyright: "Copyright 2024 The Epunda Sans Project Authors (https://github.com/typofactur/epundasans.git)"
 }
 fonts {
   name: "Epunda Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "EpundaSans-Italic[wght].ttf"
   post_script_name: "EpundaSans-LightItalic"
   full_name: "Epunda Sans Light Italic"
-  copyright: "???."
+  copyright: "Copyright 2024 The Epunda Sans Project Authors (https://github.com/typofactur/epundasans.git)"
 }
 subsets: "latin"
 subsets: "latin-ext"

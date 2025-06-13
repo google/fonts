@@ -1,6 +1,150 @@
 {
-    "last_run": "2025-06-12",
+    "last_run": "2025-06-13",
     "commits": [
+        {
+            "date": "2025-06-12T13:11:49",
+            "title": "Merge pull request #9545 from google/CactusSerif_v1005",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "1c04373b9dc99d4ebacc54fd5a52c443c1e354a9"
+        },
+        {
+            "date": "2025-06-12T13:05:56",
+            "title": "Merge pull request #9561 from google/intel-vtt",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "5f105eb9e07bc24aa4db034c9fd7b1e837c165bf"
+        },
+        {
+            "date": "2025-06-12T12:22:01",
+            "title": "intelonemono: Update vf",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "d27aca07a0d0f0096c2597c0bd141194d658e62e"
+        },
+        {
+            "date": "2025-06-12T10:46:28",
+            "title": "intelonemono: Add new hinted statics",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "63362583bcbe56eb6f6a35c27d32b47e4fc32c60"
+        },
+        {
+            "date": "2025-06-12T09:46:14",
+            "title": "Merge pull request #9492 from google/gftools_packager_ofl_parastoo",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "2134d4569c02a5534177a0666af467919ec72b10"
+        },
+        {
+            "date": "2025-06-12T09:40:02",
+            "title": "Merge pull request #9560 from google/m4rc1e-patch-35",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "bf9cdbdb9d911f27a656bd45fd30f85b0cfcebfb"
+        },
+        {
+            "date": "2025-06-12T09:37:12",
+            "title": "Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "65d27b47974b88994a68f422086b46ca64ce4d8f"
+        },
+        {
+            "date": "2025-06-12T09:22:28",
+            "title": "Readd 42dot Sans to keep ci happy",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "19057c196fc58f87440aa9da0a447606a0ccf6a8"
+        },
+        {
+            "date": "2025-06-12T09:18:38",
+            "title": "families.csv: Add missing families",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "55cc4f4e98f3ba121a7bd1e2c6e024dacdbf226f"
+        },
+        {
+            "date": "2025-06-12T09:07:01",
+            "title": "Merge pull request #9558 from google/m4rc1e-patch-35",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "755e4ad33c2c0c84de2209cefae9e72389857257"
+        },
+        {
+            "date": "2025-06-12T09:06:04",
+            "title": "Update families.csv",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "91ef1b3530f4644e1822376a9d2f7d94b00cfc2f"
+        },
+        {
+            "date": "2025-06-12T08:50:40",
+            "title": "Merge pull request #9557 from google/tag-cp",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "13a475613c1fad7c57778697b2395036a1163f49"
+        },
+        {
+            "date": "2025-06-12T08:46:51",
+            "title": "tags.html: fix copy family",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5c2a7028c8699ea626504ece84ccc705cd651f74"
+        },
+        {
+            "date": "2025-06-12T08:10:40",
+            "title": "font_tags.yaml: rename job",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "18d9a93a925c838c23b911a69f5da3cfc8e8397c"
+        },
+        {
+            "date": "2025-06-12T08:03:58",
+            "title": "Merge pull request #9556 from google/m4rc1e-patch-33",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "aa3e5ad5dd27ff7ee94aafacfd3f11b407bf9128"
+        },
+        {
+            "date": "2025-06-12T08:00:11",
+            "title": "pushlists.yaml: rm tags path check",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fba665e6c8b077fe4dedcfdf7eb7bece2360780e"
+        },
+        {
+            "date": "2025-06-12T07:58:53",
+            "title": "tags_metadata.csv: Add /Quality/Wordspace",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bae8c587a9509c8d04b21e4f563a8b5947ffebd4"
+        },
+        {
+            "date": "2025-06-12T07:48:12",
+            "title": "Merge pull request #9555 from google/restore-tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6e3d706a17c8078f41fa4b68187ec997e000680d"
+        },
         {
             "date": "2025-06-11T16:01:06",
             "title": "Merge pull request #9505 from google/gftools_packager_ofl_reemkufifun",
@@ -13,9 +157,17 @@
             "date": "2025-06-11T15:43:10",
             "title": "Merge pull request #9549 from google/gftools_packager_ofl_notosanssunuwar",
             "author": "Emma Marichal",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "2fe5957d2c21a2a338413117097bfad10ea72f3c"
+        },
+        {
+            "date": "2025-06-11T15:05:21",
+            "title": "families.csv: restore missing Wordspace tags",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b26d46dc4438763e19869ff0be68d7e80cd56b1b"
         },
         {
             "date": "2025-06-11T14:22:04",
@@ -152,6 +304,14 @@
             "status": "modified",
             "kind": "family",
             "id": "f4ebecaefe058967588ff1dec93ebcc85fe456c7"
+        },
+        {
+            "date": "2025-06-09T17:18:30",
+            "title": "Updating Cactus Serif to version 1.005",
+            "author": "Aaron Bell",
+            "status": "modified",
+            "kind": "family",
+            "id": "a05de18302ed1e97b9c88802c571081b3599a977"
         },
         {
             "date": "2025-06-09T17:14:08",
@@ -869,9 +1029,25 @@
             "date": "2025-05-22T13:01:34",
             "title": "Merge pull request #9478 from google/chironsunghk",
             "author": "Emma Marichal",
-            "status": "new",
+            "status": "modified",
             "kind": "family",
             "id": "86be546366f3e47f2239b00a535a9a0eb95f9827"
+        },
+        {
+            "date": "2025-05-22T12:57:26",
+            "title": "Added primary_language",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "68028497f252b775f1ccb9e22873a30a0ac58007"
+        },
+        {
+            "date": "2025-05-22T12:55:40",
+            "title": "Parastoo: Version 3.000 added",
+            "author": "Yanone",
+            "status": "new",
+            "kind": "family",
+            "id": "6bdc53e337ed23fde10cd1d5ba36c64e4570e28d"
         },
         {
             "date": "2025-05-22T12:34:46",

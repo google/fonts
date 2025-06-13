@@ -102,6 +102,32 @@ fonts {
 fonts {
   name: "Intel One Mono"
   style: "normal"
+  weight: 600
+  filename: "IntelOneMono-SemiBold.ttf"
+  post_script_name: "IntelOneMono-SemiBold"
+  full_name: "Intel One Mono SemiBold"
+  copyright: "Copyright 2023-2024 The Intel One Mono Project Authors (https://github.com/intel/intel-one-mono)"
+  position {
+    tag: "wght"
+    position: 600.0
+  }
+}
+fonts {
+  name: "Intel One Mono"
+  style: "italic"
+  weight: 600
+  filename: "IntelOneMono-SemiBoldItalic.ttf"
+  post_script_name: "IntelOneMono-SemiBoldItalic"
+  full_name: "Intel One Mono SemiBold Italic"
+  copyright: "Copyright 2023-2024 The Intel One Mono Project Authors (https://github.com/intel/intel-one-mono)"
+  position {
+    tag: "wght"
+    position: 600.0
+  }
+}
+fonts {
+  name: "Intel One Mono"
+  style: "normal"
   weight: 700
   filename: "IntelOneMono-Bold.ttf"
   post_script_name: "IntelOneMono-Bold"

@@ -1,6 +1,70 @@
 {
-    "last_run": "2025-06-13",
+    "last_run": "2025-06-14",
     "commits": [
+        {
+            "date": "2025-06-13T13:13:10",
+            "title": "Merge pull request #9568 from EbenSorkin/patch-14",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8462f38b2da745bbf8b2edc7babb2c35e284ba8c"
+        },
+        {
+            "date": "2025-06-13T12:20:50",
+            "title": "Merge pull request #9570 from google/intel-vtt2",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "0673a9323ecd699a41be1ee821421150fbda024c"
+        },
+        {
+            "date": "2025-06-13T09:06:37",
+            "title": "intelonemono: v1.005 add SemiBold instances",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "fbba48d1d43f79072397810a78a847cbd68e18c3"
+        },
+        {
+            "date": "2025-06-13T08:36:13",
+            "title": "Merge pull request #9564 from google/to_lists_1206",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e68547775942d5e2c3410f2cf2c3659214353933"
+        },
+        {
+            "date": "2025-06-13T08:27:04",
+            "title": "Merge pull request #9569 from google/fix-dives-tofu",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a432d052270853dcc1e97a5c9c3745b923ff970b"
+        },
+        {
+            "date": "2025-06-13T06:50:32",
+            "title": "Typo in autonym",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "79ff675ba60bceef04946b03ec9ed419ce853ad0"
+        },
+        {
+            "date": "2025-06-13T06:34:05",
+            "title": "Update families.csv - added missing tags for Word space Quality",
+            "author": "Eben Sorkin",
+            "status": "modified",
+            "kind": "family",
+            "id": "1ed220369a1afb65ca7610edb570069c07600182"
+        },
+        {
+            "date": "2025-06-12T15:35:42",
+            "title": "Update to_production.txt - remove intel",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "d3d6498e8b10698841e5da04ec1f1fd516d4c06c"
+        },
         {
             "date": "2025-06-12T13:11:49",
             "title": "Merge pull request #9545 from google/CactusSerif_v1005",
@@ -13,9 +77,17 @@
             "date": "2025-06-12T13:05:56",
             "title": "Merge pull request #9561 from google/intel-vtt",
             "author": "Emma Marichal",
-            "status": "new",
-            "kind": "infrastructure",
+            "status": "modified",
+            "kind": "family",
             "id": "5f105eb9e07bc24aa4db034c9fd7b1e837c165bf"
+        },
+        {
+            "date": "2025-06-12T12:34:37",
+            "title": "to lists of the 12th of June",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "81db88a95dffba099393b804cece1327637f3fb9"
         },
         {
             "date": "2025-06-12T12:22:01",
@@ -86709,28 +86781,100 @@
     "pushes": {
         "sandbox": [
             {
-                "path": "ofl/intelonemono",
+                "path": "ofl/bitcount",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9464"
+                "url": "https://github.com/google/fonts/pull/8958"
             },
             {
-                "path": "ofl/manufacturingconsent",
+                "path": "ofl/bitcountgriddouble",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9496"
+                "url": "https://github.com/google/fonts/pull/8959"
             },
             {
-                "path": "ofl/asap",
+                "path": "ofl/bitcountgridsingle",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8961"
+            },
+            {
+                "path": "ofl/bitcountpropdouble",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8964"
+            },
+            {
+                "path": "ofl/bitcountpropsingle",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8966"
+            },
+            {
+                "path": "ofl/bitcountsingle",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8968"
+            },
+            {
+                "path": "ofl/chironheihk",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9430"
+            },
+            {
+                "path": "ofl/menbere",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9345"
+            },
+            {
+                "path": "ofl/notosanssunuwar",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9549"
+            },
+            {
+                "path": "ofl/parastoo",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9492"
+            },
+            {
+                "path": "ofl/uoqmunthenkhung",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9468"
+            },
+            {
+                "path": "ofl/agbalumo",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9516"
+                "url": "https://github.com/google/fonts/pull/9344"
+            },
+            {
+                "path": "ofl/reemkufifun",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9505"
+            },
+            {
+                "path": "ofl/reemkufiink",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9506"
             },
             {
                 "path": "catalog/designers/saberrastikerdar",
                 "category": "Designer profile",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9488"
+            },
+            {
+                "path": "catalog/designers/stefiejustprince",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9537"
             },
             {
                 "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/emotive_considerations_for_choosing_typefaces/content.md",
@@ -86745,22 +86889,16 @@
                 "url": "https://github.com/google/fonts/pull/9524"
             },
             {
-                "path": "ofl/cactusclassicalserif",
+                "path": "ofl/glory",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9451"
+                "url": "https://github.com/google/fonts/pull/9547"
             },
             {
-                "path": "ofl/chocolateclassicalsans",
+                "path": "ofl/liter",
                 "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9451"
-            },
-            {
-                "path": "ofl/iansui",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9451"
+                "url": "https://github.com/google/fonts/pull/9190"
             },
             {
                 "path": "lang/languages/bal_Arab.textproto",
@@ -86811,16 +86949,10 @@
                 "url": "https://github.com/google/fonts/pull/9461"
             },
             {
-                "path": "ofl/ancizarsans",
-                "category": "Other",
+                "path": "lang/languages/suz_Sunu.textproto",
+                "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9495"
-            },
-            {
-                "path": "ofl/ancizarserif",
-                "category": "Other",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9495"
+                "url": "https://github.com/google/fonts/pull/9520"
             }
         ],
         "production": [
@@ -86843,16 +86975,16 @@
                 "url": "https://github.com/google/fonts/pull/9429"
             },
             {
+                "path": "ofl/manufacturingconsent",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9496"
+            },
+            {
                 "path": "ofl/matangi",
                 "category": "New",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9481"
-            },
-            {
-                "path": "ofl/savate",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9453"
             },
             {
                 "path": "ofl/wdxllubrifontjpn",
@@ -86867,10 +86999,10 @@
                 "url": "https://github.com/google/fonts/pull/9292"
             },
             {
-                "path": "ofl/baskervvillesc",
+                "path": "ofl/asap",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9376"
+                "url": "https://github.com/google/fonts/pull/9516"
             },
             {
                 "path": "ofl/gidugu",
@@ -86885,12 +87017,6 @@
                 "url": "https://github.com/google/fonts/pull/9469"
             },
             {
-                "path": "ofl/nokora",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9412"
-            },
-            {
                 "path": "catalog/designers/alemetadesse",
                 "category": "Designer profile",
                 "status": null,
@@ -86901,12 +87027,6 @@
                 "category": "Designer profile",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9373"
-            },
-            {
-                "path": "catalog/designers/anrt",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9386"
             },
             {
                 "path": "catalog/designers/columntype",
@@ -86933,22 +87053,10 @@
                 "url": "https://github.com/google/fonts/pull/9369"
             },
             {
-                "path": "catalog/designers/maxesnee",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9445"
-            },
-            {
                 "path": "catalog/designers/naipefoundry",
                 "category": "Designer profile",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9373"
-            },
-            {
-                "path": "catalog/designers/plombtype",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9446"
             },
             {
                 "path": "catalog/designers/raphaelalegbeleye",
@@ -86993,12 +87101,6 @@
                 "url": "https://github.com/google/fonts/pull/9298"
             },
             {
-                "path": "ofl/calsans",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9406"
-            },
-            {
                 "path": "ofl/chocolateclassicalsans",
                 "category": "Metadata / Description / License",
                 "status": null,
@@ -87021,6 +87123,12 @@
                 "category": "Metadata / Description / License",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9364"
+            },
+            {
+                "path": "ofl/iansui",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9451"
             },
             {
                 "path": "ofl/italiana",
@@ -87069,12 +87177,6 @@
                 "category": "Metadata / Description / License",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9364"
-            },
-            {
-                "path": "ofl/qahiri",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9480"
             },
             {
                 "path": "ofl/spacemono",
@@ -87251,6 +87353,18 @@
                 "url": "https://github.com/google/fonts/pull/9054"
             },
             {
+                "path": "ofl/ancizarsans",
+                "category": "Other",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9495"
+            },
+            {
+                "path": "ofl/ancizarserif",
+                "category": "Other",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9495"
+            },
+            {
                 "path": "ofl/kumaroneoutline",
                 "category": "Other",
                 "status": null,
@@ -87273,18 +87387,6 @@
                 "category": "Other",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9332"
-            },
-            {
-                "path": "catalog/designers/cal.com,inc.",
-                "category": "Deleted",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9250"
-            },
-            {
-                "path": "ofl/phetsarath/EARLY_ACCESS.category",
-                "category": "Deleted",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9364"
             }
         ]
     }

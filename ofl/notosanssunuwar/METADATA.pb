@@ -2,7 +2,7 @@ name: "Noto Sans Sunuwar"
 designer: "Google"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: ""
+date_added: "2025-06-11"
 fonts {
   name: "Noto Sans Sunuwar"
   style: "normal"

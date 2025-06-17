@@ -630,6 +630,10 @@ function axesCombos(axes) {
       AddFamily() {
         this.isEdited = true;
         const fonts = document.getElementById("fonts")
+        if (this.variableTag === false && ((this.newWeight) < 1 || Number(this.newWeight) > 100)) {
+          alert("Please enter a valid weight (1-100)");
+          return;
+        }
         if (this.newAxes.length > 0) {
           const solved = axesCombos(this.newAxes);
           for(let i=0; i<solved.length; i++) {

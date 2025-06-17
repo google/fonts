@@ -1,6 +1,46 @@
 {
-    "last_run": "2025-06-16",
+    "last_run": "2025-06-17",
     "commits": [
+        {
+            "date": "2025-06-16T15:54:32",
+            "title": "Update experimental_quant.csv (#9576)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1ade59d088239e9aa38f7678e3a5efd9e4d5c70d"
+        },
+        {
+            "date": "2025-06-16T15:43:58",
+            "title": "Update METADATA.pb (#9575)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d5ff46e1e5ed2e7b7db116d1cc4e3a3df0522cbc"
+        },
+        {
+            "date": "2025-06-16T14:48:07",
+            "title": "Update tags_metadata.csv (#9574)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "032021802db4adb8383459774a06be95d33010a4"
+        },
+        {
+            "date": "2025-06-16T14:30:01",
+            "title": "Merge pull request #9573 from google/tag-score",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "a3360d07d4f8b0d70be09cae49dde40ca48e3531"
+        },
+        {
+            "date": "2025-06-16T14:22:09",
+            "title": "tags.html: only allow tag scores in range 1-100",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9e7c4708ee55c22e7cf77d59db49eba97368ca9a"
+        },
         {
             "date": "2025-06-13T13:13:10",
             "title": "Merge pull request #9568 from EbenSorkin/patch-14",

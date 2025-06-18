@@ -1,6 +1,14 @@
 {
-    "last_run": "2025-06-17",
+    "last_run": "2025-06-18",
     "commits": [
+        {
+            "date": "2025-06-17T20:07:20",
+            "title": "Update to_sandbox.txt",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "53329aae37d1a5c9c684d4b2f3fc2f0d7a096544"
+        },
         {
             "date": "2025-06-16T15:54:32",
             "title": "Update experimental_quant.csv (#9576)",
@@ -86821,178 +86829,10 @@
     "pushes": {
         "sandbox": [
             {
-                "path": "ofl/bitcount",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8958"
-            },
-            {
                 "path": "ofl/bitcountgriddouble",
                 "category": "New",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/8959"
-            },
-            {
-                "path": "ofl/bitcountgridsingle",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8961"
-            },
-            {
-                "path": "ofl/bitcountpropdouble",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8964"
-            },
-            {
-                "path": "ofl/bitcountpropsingle",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8966"
-            },
-            {
-                "path": "ofl/bitcountsingle",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8968"
-            },
-            {
-                "path": "ofl/chironheihk",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9430"
-            },
-            {
-                "path": "ofl/menbere",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9345"
-            },
-            {
-                "path": "ofl/notosanssunuwar",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9549"
-            },
-            {
-                "path": "ofl/parastoo",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9492"
-            },
-            {
-                "path": "ofl/uoqmunthenkhung",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9468"
-            },
-            {
-                "path": "ofl/agbalumo",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9344"
-            },
-            {
-                "path": "ofl/reemkufifun",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9505"
-            },
-            {
-                "path": "ofl/reemkufiink",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9506"
-            },
-            {
-                "path": "catalog/designers/saberrastikerdar",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9488"
-            },
-            {
-                "path": "catalog/designers/stefiejustprince",
-                "category": "Designer profile",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9537"
-            },
-            {
-                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/emotive_considerations_for_choosing_typefaces/content.md",
-                "category": "Knowledge",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9524"
-            },
-            {
-                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/pairing_typefaces/content.md",
-                "category": "Knowledge",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9524"
-            },
-            {
-                "path": "ofl/glory",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9547"
-            },
-            {
-                "path": "ofl/liter",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9190"
-            },
-            {
-                "path": "lang/languages/bal_Arab.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9461"
-            },
-            {
-                "path": "lang/languages/ff_Adlm.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9461"
-            },
-            {
-                "path": "lang/languages/kab_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9461"
-            },
-            {
-                "path": "lang/languages/kk_Arab.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9461"
-            },
-            {
-                "path": "lang/languages/kpz_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9461"
-            },
-            {
-                "path": "lang/languages/mgz_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9461"
-            },
-            {
-                "path": "lang/languages/prs_Arab.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9461"
-            },
-            {
-                "path": "lang/languages/so_Arab.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9461"
-            },
-            {
-                "path": "lang/languages/suz_Sunu.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9520"
             }
         ],
         "production": [

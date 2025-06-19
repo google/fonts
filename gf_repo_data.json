@@ -1,6 +1,70 @@
 {
-    "last_run": "2025-06-18",
+    "last_run": "2025-06-19",
     "commits": [
+        {
+            "date": "2025-06-18T19:25:04",
+            "title": "Update METADATA.pb (#9586)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2aa4955d0d3a51143efc8b1f9b0a96400284dcdc"
+        },
+        {
+            "date": "2025-06-18T15:51:33",
+            "title": "v2.048 of Noto Color Emoji (#9585)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "family",
+            "id": "be7a91f7db2db749ebfc36f598eb85501127e7db"
+        },
+        {
+            "date": "2025-06-18T12:38:00",
+            "title": "Update experimental_quant.csv (#9584)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fd0a6f907a275106326036dd5070328a85e46f47"
+        },
+        {
+            "date": "2025-06-18T12:28:44",
+            "title": "Update experimental_quant.csv (#9582)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "09c25787558ffb95e859be501350757de4f5dab7"
+        },
+        {
+            "date": "2025-06-18T11:31:06",
+            "title": "Merge pull request #9581 from felipesanches/sources_info_2025-05-23",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "27b82882985218f69be7064513607f1ad9ea7ad0"
+        },
+        {
+            "date": "2025-06-18T10:40:29",
+            "title": "sources info for Noto Naskh Arabic: Version 2.019",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "13bf290e4014033c4b14fd41821a0357641f7173"
+        },
+        {
+            "date": "2025-06-18T10:40:29",
+            "title": "sources info for Chivo Mono: Version 1.008",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5f125d9e6fac6ddc3b92ef9d68a082c85fb7daca"
+        },
+        {
+            "date": "2025-06-18T10:40:28",
+            "title": "sources info for Chivo: Version 2.002",
+            "author": "Felipe Correa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8678d187e408c9681d7bf38706bbc80659e73016"
+        },
         {
             "date": "2025-06-17T20:07:20",
             "title": "Update to_sandbox.txt",

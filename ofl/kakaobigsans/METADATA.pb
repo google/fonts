@@ -10,7 +10,7 @@ fonts {
   filename: "KakaoBigSans-Regular.ttf"
   post_script_name: "KakaoBigSans-Regular"
   full_name: "Kakao Big Sans Regular"
-  copyright: "Copyright (c) 2021 Kakao Corp. All rights reserved. Font designed by FONTRIX Inc. & Min Bon & Choi Min-gyu"
+  copyright: "Copyright 2024 The Kakao Big Sans Project Authors (https://github.com/kakao/kakao-font/)"
 }
 fonts {
   name: "Kakao Big Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "KakaoBigSans-Bold.ttf"
   post_script_name: "KakaoBigSans-Bold"
   full_name: "Kakao Big Sans Bold"
-  copyright: "Copyright (c) 2021 Kakao Corp. All rights reserved. Font designed by FONTRIX Inc. & Min Bon & Choi Min-gyu"
+  copyright: "Copyright 2024 The Kakao Big Sans Project Authors (https://github.com/kakao/kakao-font/)"
 }
 fonts {
   name: "Kakao Big Sans"
@@ -28,7 +28,7 @@ fonts {
   filename: "KakaoBigSans-ExtraBold.ttf"
   post_script_name: "KakaoBigSans-ExtraBold"
   full_name: "Kakao Big Sans ExtraBold"
-  copyright: "Copyright (c) 2021 Kakao Corp. All rights reserved. Font designed by FONTRIX Inc. & Min Bon & Choi Min-gyu"
+  copyright: "Copyright 2024 The Kakao Big Sans Project Authors (https://github.com/kakao/kakao-font/)"
 }
 subsets: "korean"
 subsets: "latin"

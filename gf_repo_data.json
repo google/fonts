@@ -1,6 +1,54 @@
 {
-    "last_run": "2025-06-19",
+    "last_run": "2025-06-20",
     "commits": [
+        {
+            "date": "2025-06-19T19:34:00",
+            "title": "Update to_sandbox.txt",
+            "author": "Garret Rieger",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c67fb0794def08b03ab659643cdbfb236d4bd9d7"
+        },
+        {
+            "date": "2025-06-19T15:29:29",
+            "title": "Merge pull request #9587 from google/bitcount-grid-double-rebuild",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "2e0126dc0b63de131704f1442d32093274f1c423"
+        },
+        {
+            "date": "2025-06-19T13:44:27",
+            "title": "Fix italic feature, fixes ots-sanitizer",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "ce6029c683dfc5ed28bf26d205a0e95f1f3d9d20"
+        },
+        {
+            "date": "2025-06-19T13:37:33",
+            "title": "Merge pull request #9572 from google/bitcount-ink-rebuild",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "8d4c371ec0efe8e7008fe527da9262c87cb9588d"
+        },
+        {
+            "date": "2025-06-19T13:17:14",
+            "title": "And again",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "a8916f4091359e3a484873260201ca02b15764fd"
+        },
+        {
+            "date": "2025-06-19T12:37:21",
+            "title": "Rebuild to fix name table version",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "566bead4372de182ecd474c46bf031f22c5940b9"
+        },
         {
             "date": "2025-06-18T19:25:04",
             "title": "Update METADATA.pb (#9586)",
@@ -110,8 +158,16 @@
             "title": "tags.html: only allow tag scores in range 1-100",
             "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "9e7c4708ee55c22e7cf77d59db49eba97368ca9a"
+        },
+        {
+            "date": "2025-06-16T11:19:21",
+            "title": "Bitcount 1.001",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "9205630b7dc414ca7732f4920aff9f4cf1fab7c1"
         },
         {
             "date": "2025-06-13T13:13:10",
@@ -86891,14 +86947,7 @@
         }
     ],
     "pushes": {
-        "sandbox": [
-            {
-                "path": "ofl/bitcountgriddouble",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8959"
-            }
-        ],
+        "sandbox": [],
         "production": [
             {
                 "path": "ofl/chironsunghk",

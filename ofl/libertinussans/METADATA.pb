@@ -10,7 +10,7 @@ fonts {
   filename: "LibertinusSans-Regular.ttf"
   post_script_name: "LibertinusSans-Regular"
   full_name: "Libertinus Sans Regular"
-  copyright: "???."
+  copyright: "Copyright 2025 The Libertinus Sans Project Authors (https://github.com/googlefonts/libertinus)"
 }
 fonts {
   name: "Libertinus Sans"
@@ -19,7 +19,7 @@ fonts {
   filename: "LibertinusSans-Italic.ttf"
   post_script_name: "LibertinusSans-Italic"
   full_name: "Libertinus Sans Italic"
-  copyright: "???."
+  copyright: "Copyright 2025 The Libertinus Sans Project Authors (https://github.com/googlefonts/libertinus)"
 }
 fonts {
   name: "Libertinus Sans"
@@ -28,7 +28,7 @@ fonts {
   filename: "LibertinusSans-Bold.ttf"
   post_script_name: "LibertinusSans-Bold"
   full_name: "Libertinus Sans Bold"
-  copyright: "???."
+  copyright: "Copyright 2025 The Libertinus Sans Project Authors (https://github.com/googlefonts/libertinus)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

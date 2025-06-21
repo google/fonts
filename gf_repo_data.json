@@ -1,6 +1,46 @@
 {
-    "last_run": "2025-06-20",
+    "last_run": "2025-06-21",
     "commits": [
+        {
+            "date": "2025-06-20T23:09:49",
+            "title": "tags/all/experimental_quant.csv (#9595)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "22c2e282d46b2b4e5a8bab1088c621fdd3c66905"
+        },
+        {
+            "date": "2025-06-20T12:48:27",
+            "title": "Merge pull request #9594 from google/lists_20-06",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "5b8a5111fe309d6d3229093ce03eded74e820a61"
+        },
+        {
+            "date": "2025-06-20T09:52:17",
+            "title": "Lists of the 20th of June",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4e31ac8e4a531c96b323d69c4d0146d510accd9b"
+        },
+        {
+            "date": "2025-06-20T03:45:59",
+            "title": "Widths for /Expressive/Calm if not already available (#9592)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d1446ff0eb9cc40da28d2c3c6e751a240b6b4b4f"
+        },
+        {
+            "date": "2025-06-20T02:02:04",
+            "title": "Wider range of width measuement (#9591)",
+            "author": "Rod",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1c60ce7b2f4fcfea5d925fe4855ca46145bbf0d0"
+        },
         {
             "date": "2025-06-19T19:34:00",
             "title": "Update to_sandbox.txt",
@@ -86947,25 +86987,92 @@
         }
     ],
     "pushes": {
-        "sandbox": [],
+        "sandbox": [
+            {
+                "path": "ofl/intelonemono",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9570"
+            },
+            {
+                "path": "ofl/bitcountpropsingleink",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9572"
+            },
+            {
+                "path": "ofl/bitcountsingleink",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9572"
+            },
+            {
+                "path": "ofl/cactusclassicalserif",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9545"
+            },
+            {
+                "path": "ofl/notosanssunuwar",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9575"
+            },
+            {
+                "path": "ofl/notoserifdivesakuru",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9569"
+            }
+        ],
         "production": [
             {
-                "path": "ofl/chironsunghk",
+                "path": "ofl/bitcount",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9478"
+                "url": "https://github.com/google/fonts/pull/8958"
             },
             {
-                "path": "ofl/huninn",
+                "path": "ofl/bitcountgridsingle",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9228"
+                "url": "https://github.com/google/fonts/pull/8961"
             },
             {
-                "path": "ofl/lxgwmarkergothic",
+                "path": "ofl/bitcountpropdouble",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9429"
+                "url": "https://github.com/google/fonts/pull/8964"
+            },
+            {
+                "path": "ofl/bitcountpropsingle",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8966"
+            },
+            {
+                "path": "ofl/bitcountsingle",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8968"
+            },
+            {
+                "path": "ofl/chironheihk",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9430"
+            },
+            {
+                "path": "ofl/libertinusmath",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9302"
+            },
+            {
+                "path": "ofl/libertinusmono",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9303"
             },
             {
                 "path": "ofl/manufacturingconsent",
@@ -86974,22 +87081,34 @@
                 "url": "https://github.com/google/fonts/pull/9496"
             },
             {
-                "path": "ofl/matangi",
+                "path": "ofl/menbere",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9481"
+                "url": "https://github.com/google/fonts/pull/9345"
             },
             {
-                "path": "ofl/wdxllubrifontjpn",
+                "path": "ofl/notosanssunuwar",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9294"
+                "url": "https://github.com/google/fonts/pull/9549"
             },
             {
-                "path": "ofl/wdxllubrifontsc",
+                "path": "ofl/parastoo",
                 "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9292"
+                "url": "https://github.com/google/fonts/pull/9492"
+            },
+            {
+                "path": "ofl/uoqmunthenkhung",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9468"
+            },
+            {
+                "path": "ofl/agbalumo",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9344"
             },
             {
                 "path": "ofl/asap",
@@ -86998,16 +87117,22 @@
                 "url": "https://github.com/google/fonts/pull/9516"
             },
             {
-                "path": "ofl/gidugu",
+                "path": "ofl/bitcountgriddouble",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9426"
+                "url": "https://github.com/google/fonts/pull/9587"
             },
             {
-                "path": "ofl/hanuman",
+                "path": "ofl/reemkufifun",
                 "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9469"
+                "url": "https://github.com/google/fonts/pull/9505"
+            },
+            {
+                "path": "ofl/reemkufiink",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9506"
             },
             {
                 "path": "catalog/designers/alemetadesse",
@@ -87058,10 +87183,16 @@
                 "url": "https://github.com/google/fonts/pull/9140"
             },
             {
-                "path": "catalog/designers/thegraphicant",
+                "path": "catalog/designers/saberrastikerdar",
                 "category": "Designer profile",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9482"
+                "url": "https://github.com/google/fonts/pull/9488"
+            },
+            {
+                "path": "catalog/designers/stefiejustprince",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9537"
             },
             {
                 "path": "catalog/designers/typenetwork",
@@ -87074,6 +87205,18 @@
                 "category": "Designer profile",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9140"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/emotive_considerations_for_choosing_typefaces/content.md",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9524"
+            },
+            {
+                "path": "cc-by-sa/knowledge/modules/choosing_type/lessons/pairing_typefaces/content.md",
+                "category": "Knowledge",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9524"
             },
             {
                 "path": "cc-by-sa/knowledge/modules/readability_and_accessibility/lessons/how_type_influences_readability/content.md",
@@ -87112,6 +87255,12 @@
                 "url": "https://github.com/google/fonts/pull/9411"
             },
             {
+                "path": "ofl/glory",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9547"
+            },
+            {
                 "path": "ofl/gurajada",
                 "category": "Metadata / Description / License",
                 "status": null,
@@ -87142,6 +87291,12 @@
                 "url": "https://github.com/google/fonts/pull/9411"
             },
             {
+                "path": "ofl/liter",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9190"
+            },
+            {
                 "path": "ofl/lxgwwenkaimonotc",
                 "category": "Metadata / Description / License",
                 "status": null,
@@ -87166,6 +87321,12 @@
                 "url": "https://github.com/google/fonts/pull/9364"
             },
             {
+                "path": "ofl/phetsarath/EARLY_ACCESS.category",
+                "category": "Deleted",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9364"
+            },
+            {
                 "path": "ofl/pollerone",
                 "category": "Metadata / Description / License",
                 "status": null,
@@ -87184,166 +87345,64 @@
                 "url": "https://github.com/google/fonts/pull/9364"
             },
             {
-                "path": "ofl/wdxllubrifonttc",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9463"
-            },
-            {
                 "path": "ofl/zenmarugothic",
                 "category": "Metadata / Description / License",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9364"
             },
             {
-                "path": "lang/languages/agq_Latn.textproto",
+                "path": "lang/languages/bal_Arab.textproto",
                 "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9461"
             },
             {
-                "path": "lang/languages/apd_Latn.textproto",
+                "path": "lang/languages/ff_Adlm.textproto",
                 "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9461"
             },
             {
-                "path": "lang/languages/bap_Krai.textproto",
+                "path": "lang/languages/kab_Latn.textproto",
                 "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8509"
+                "url": "https://github.com/google/fonts/pull/9461"
             },
             {
-                "path": "lang/languages/bax_Latn.textproto",
+                "path": "lang/languages/kk_Arab.textproto",
                 "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9461"
             },
             {
-                "path": "lang/languages/buc_Latn.textproto",
+                "path": "lang/languages/kpz_Latn.textproto",
                 "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9461"
             },
             {
-                "path": "lang/languages/cu_Cyrl.textproto",
+                "path": "lang/languages/mgz_Latn.textproto",
                 "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9461"
             },
             {
-                "path": "lang/languages/djc_Latn.textproto",
+                "path": "lang/languages/prs_Arab.textproto",
                 "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9461"
             },
             {
-                "path": "lang/languages/dv_Diak.textproto",
+                "path": "lang/languages/so_Arab.textproto",
                 "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9461"
             },
             {
-                "path": "lang/languages/dzg_Latn.textproto",
+                "path": "lang/languages/suz_Sunu.textproto",
                 "category": "Sample texts",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/ema_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/en_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/gby_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/gvl_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/lom_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/mg_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/nl_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/nmn_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/shu_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/snk_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/tda_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/ttq_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/tum_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/wdt_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/languages/yo_Latn.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/scripts/Diak.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9520"
             },
             {
                 "path": "ofl/ancizarsans",

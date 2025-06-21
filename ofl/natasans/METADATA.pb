@@ -14,13 +14,19 @@ fonts {
 }
 axes {
   tag: "wght"
-  name: "Weight"
   min_value: 100.0
   max_value: 900.0
-  default_value: 400.0
 }
-subsets: "latin"
-subsets: "latin-ext"
-subsets: "vietnamese"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
+subsets: "greek"
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "math"
+subsets: "menu"
+subsets: "symbols"
+subsets: "vietnamese"
+
+source {
+  repository_url: "https://github.com/dnlzqn/nata-sans"
+}

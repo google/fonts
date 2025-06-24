@@ -1,0 +1,111 @@
+<meta charset="utf-8">
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.google.com/metadata/fonts" type="application/json" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    .font-view{
+        font-size: 72pt;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <div id="fonts">
+            <link v-for="url in fontUrls" :href="url" rel="stylesheet">
+        </div>
+        <select v-model="currentFamily" class="select select-xs select-bordered w-full max-w-xs">
+            <option v-for="font in familyData">{{ font.family }}</option>
+        </select>
+        <div class="font-view" contenteditable="true" :style="styleClass">
+            Hello world
+        </div>
+        <div v-for="axis in familyData[currentFamily].axes" class="form-control">
+            <label class="label">
+                <span class="label-text-alt">{{ axis.tag }}: {{ positions[axis.tag] }}</span>
+            </label>
+            <input type="range" class="range range-xs" v-model="positions[axis.tag]" :min="axis.min" :max="axis.max"/>
+        </div>
+    </div>
+</body>
+
+<script>
+new Vue({
+    el: '#app',
+    data() {return {
+        hello: 'Hello, World!',
+        positions: {},
+        fontUrls: [],
+        familyData: {},
+        currentFamily: 'Roboto',
+    }},
+    async created() {
+        this.familyData = await this.getFamilyData();
+        this.loadFonts();
+        console.log('Vue instance mounted');
+    },
+    computed: {
+        styleClass() {
+            let res = `font-family: "${this.currentFamily}"; font-variation-settings:`
+            const data = this.familyData[this.currentFamily]
+            for (let ax of data.axes) {
+                res += ` '${ax.tag}' ${this.positions[ax.tag] || 100},`;
+            }
+            console.log(res);
+            return res.slice(0, -1) + ';';
+        },
+    },
+    methods: {
+
+        async getFamilyData() {
+            return await fetch("family_data.json").then(response => response.json()).then(data => {
+                let results = {};
+                let familyMeta = data["familyMetadataList"]
+                familyMeta.forEach(family => {
+                    if (family.axes.length === 0) {
+                        // skip static fonts
+                        return;
+                    }
+                    results[family.family] = family;
+                })
+                return results
+            })
+        },
+        loadFonts() {
+            let results = [];
+            for (k in this.familyData) {
+                const family = this.familyData[k];
+                
+                let path = `https://fonts.googleapis.com/css2?family=${family.family.replaceAll(" ", "+")}`
+                // GF api wants the axes in sorted alphabetical order. However, axes with
+                // caps are last
+                const sortedUpperCaseAxes = []
+                const sortedLowerCaseAxes = []
+                // skip static fonts
+                if (family.axes.length === 0) {
+                    continue
+                }
+                for (let a of family.axes) {
+                    if (a.tag.toUpperCase() === a.tag) {
+                        sortedUpperCaseAxes.push(a);
+                    } else {
+                        sortedLowerCaseAxes.push(a);
+                    }
+                }
+                sortedLowerCaseAxes.sort((a, b) => a.tag.localeCompare(b.tag));
+                sortedUpperCaseAxes.sort((a, b) => a.tag.localeCompare(b.tag));
+                const sortedAxes = [...sortedLowerCaseAxes, ...sortedUpperCaseAxes]
+                path += ":" + sortedAxes.map(a => {return a.tag}).join(",")
+                path += "@";
+                path += sortedAxes.map(axis => {return `${Number(axis.min)}..${Number(axis.max)}`}).join(",")
+                results.push(path);
+            }
+            this.fontUrls = results;
+            return results
+        },
+    }
+    });
+    </script>

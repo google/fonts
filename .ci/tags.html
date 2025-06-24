@@ -227,9 +227,9 @@
       let axisCoordinates = axisCoords.split(",");
       let style = `font-family: "${name}", "Adobe NotDef"; font-size: 32pt; font-variation-settings:`;
       for (let i = 0; i < axisTags.length; i++) {
-        style += ` '${axisTags[i]}' ${axisCoordinates[i]},`;
+        style += ` '${axisTags[i]}' ${axisCoordinates[i]};`;
       }
-      return style.slice(0, -1) + ';';
+      return style
     }
 
     get displayName() {

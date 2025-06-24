@@ -1,6 +1,14 @@
 {
-    "last_run": "2025-06-23",
+    "last_run": "2025-06-24",
     "commits": [
+        {
+            "date": "2025-06-23T15:26:22",
+            "title": "Update to_production.txt - removing bitcount until DESC/ART",
+            "author": "Dave Crossland",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6f3fcbf834a82989699a8298f43f156c51476b5e"
+        },
         {
             "date": "2025-06-20T23:09:49",
             "title": "tags/all/experimental_quant.csv (#9595)",
@@ -87026,36 +87034,6 @@
             }
         ],
         "production": [
-            {
-                "path": "ofl/bitcount",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8958"
-            },
-            {
-                "path": "ofl/bitcountgridsingle",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8961"
-            },
-            {
-                "path": "ofl/bitcountpropdouble",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8964"
-            },
-            {
-                "path": "ofl/bitcountpropsingle",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8966"
-            },
-            {
-                "path": "ofl/bitcountsingle",
-                "category": "New",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/8968"
-            },
             {
                 "path": "ofl/chironheihk",
                 "category": "New",

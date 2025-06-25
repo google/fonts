@@ -1,6 +1,14 @@
 {
-    "last_run": "2025-06-24",
+    "last_run": "2025-06-25",
     "commits": [
+        {
+            "date": "2025-06-24T09:45:14",
+            "title": "Merge pull request #9588 from google/gftools_packager_ofl_specialgothic",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "family",
+            "id": "2fe2e7a29b71a6d1a4167fc0181a8e4d3b757e47"
+        },
         {
             "date": "2025-06-23T15:26:22",
             "title": "Update to_production.txt - removing bitcount until DESC/ART",
@@ -54,8 +62,16 @@
             "title": "Update to_sandbox.txt",
             "author": "Garret Rieger",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "c67fb0794def08b03ab659643cdbfb236d4bd9d7"
+        },
+        {
+            "date": "2025-06-19T15:39:56",
+            "title": "Special Gothic: Version 1.011 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "0f90c20da9750be4a231f3e4821ae773b518f782"
         },
         {
             "date": "2025-06-19T15:29:29",

@@ -26,6 +26,24 @@
                 <input type="number" min="12" max="200" v-model.number="fontSize" class="input input-xs w-16"/>
                 <span class="label-text-alt">pt</span>
             </div>
+            <div class="flex items-center gap-2" v-for="(filter, i) in axisFilters" :key="i">
+                <select v-model="filter.axis" class="select select-xs select-bordered">
+                    <option value="">Axis</option>
+                    <option v-for="axis in allAxes" :key="axis" :value="axis">{{ axis }}</option>
+                </select>
+                <select v-model="filter.op" class="select select-xs select-bordered">
+                    <option value=">">&gt;</option>
+                    <option value=">=">&ge;</option>
+                    <option value="<">&lt;</option>
+                    <option value="<=">&le;</option>
+                    <option value="==">=</option>
+                </select>
+                <input v-model.number="filter.value" type="number" class="input input-xs w-16" placeholder="Value"/>
+                <button v-if="axisFilters.length > 1" class="btn btn-xs btn-ghost" @click="removeAxisFilter(i)">✕</button>
+            </div>
+            <button class="btn btn-xs btn-accent" @click="addAxisFilter">+ Axis</button>
+            <button class="btn btn-xs btn-accent" @click="addFilteredPanels">Add filtered</button>
+            <button class="btn btn-xs btn-error" @click="clearPanels">Clear all</button>
         </div>
         <div class="grid grid-cols-1 gap-8" ref="panelList">
             <font-panel
@@ -112,12 +130,20 @@ new Vue({
         ],
         selectedSampleText: 'Hello world',
         fontSize: 72,
+        axisFilters: [
+            { axis: '', op: '>', value: '' }
+        ],
+        filterAxis: '',
+        filterOp: '>',
+        filterValue: '',
+        allAxes: [],
     }},
     async created() {
         this.familyData = await this.getFamilyData();
         this.loadFonts();
         this.restorePanelsFromUrl();
         if (this.panels.length === 0) this.addPanel();
+        this.allAxes = this.getAllAxes();
         this.$watch('panels', this.updateUrlFromPanels, { deep: true });
         console.log('Vue instance mounted');
     },
@@ -200,6 +226,50 @@ new Vue({
                 text,
             });
         },
+        getAllAxes() {
+            const axesSet = new Set();
+            Object.values(this.familyData).forEach(fam => {
+                fam.axes.forEach(ax => axesSet.add(ax.tag));
+            });
+            return Array.from(axesSet).sort();
+        },
+        addAxisFilter() {
+            this.axisFilters.push({ axis: '', op: '>', value: '' });
+        },
+        removeAxisFilter(i) {
+            this.axisFilters.splice(i, 1);
+        },
+        addFilteredPanels() {
+            // Only include filters with axis and value
+            const filters = this.axisFilters.filter(f => f.axis && f.value !== '');
+            if (!filters.length) return;
+            const families = Object.values(this.familyData).filter(fam => {
+                return filters.every(f => {
+                    const ax = fam.axes.find(a => a.tag === f.axis);
+                    if (!ax) return false;
+                    const min = Number(ax.min);
+                    const max = Number(ax.max);
+                    const val = Number(f.value);
+                    if (f.op === '>') return max > val;
+                    if (f.op === '>=') return max >= val;
+                    if (f.op === '<') return min < val;
+                    if (f.op === '<=') return min <= val;
+                    if (f.op === '==') return min <= val && max >= val;
+                    return false;
+                });
+            });
+            families.forEach(fam => {
+                // Default positions for axes
+                const positions = {};
+                fam.axes.forEach(ax => { positions[ax.tag] = ax.defaultValue || ax.min; });
+                this.panels.push({
+                    id: this.nextPanelId++,
+                    currentFamily: fam.family,
+                    positions: { ...positions },
+                    text: this.selectedSampleText,
+                });
+            });
+        },
         updateUrlFromPanels() {
             if (this.restoring) return;
             const panelsForUrl = this.panels.map(p => ({
@@ -230,6 +300,10 @@ new Vue({
         },
         applySampleText() {
             this.panels.forEach(panel => { panel.text = this.selectedSampleText; });
+        },
+        clearPanels() {
+            this.panels = [];
+            this.updateUrlFromPanels();
         },
     }
 });

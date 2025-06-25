@@ -35,7 +35,7 @@ jobs:
           echo "$CORVEL_SSH_PRIVATE_KEY" > ../private.key
           sudo chmod 600 ../private.key
           echo "$CORVEL_KNOWNHOSTS" > ~/.ssh/known_hosts
-          scp -i ../private.key fontspector@corvelsoftware.co.uk:fontspector.db .
+          scp -i ../private.key fontspector@corvelsoftware.co.uk:fontspector.db .ci/dashboard/fontspector.db
         shell: bash
         env:
           CORVEL_SSH_PRIVATE_KEY: ${{secrets.CORVEL_SSH_PRIVATE_KEY}}

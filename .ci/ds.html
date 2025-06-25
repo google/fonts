@@ -26,6 +26,21 @@
                 <input type="number" min="12" max="200" v-model.number="fontSize" class="input input-xs w-16"/>
                 <span class="label-text-alt">pt</span>
             </div>
+            <div class="flex items-center gap-2">
+                <select v-model="filterAxis" class="select select-xs select-bordered">
+                    <option value="">Axis</option>
+                    <option v-for="axis in allAxes" :key="axis" :value="axis">{{ axis }}</option>
+                </select>
+                <select v-model="filterOp" class="select select-xs select-bordered">
+                    <option value=">">&gt;</option>
+                    <option value=">=">&ge;</option>
+                    <option value="<">&lt;</option>
+                    <option value="<=">&le;</option>
+                    <option value="==">=</option>
+                </select>
+                <input v-model.number="filterValue" type="number" class="input input-xs w-16" placeholder="Value"/>
+                <button class="btn btn-xs btn-accent" @click="addFilteredPanels">Add filtered</button>
+            </div>
         </div>
         <div class="grid grid-cols-1 gap-8" ref="panelList">
             <font-panel
@@ -112,12 +127,17 @@ new Vue({
         ],
         selectedSampleText: 'Hello world',
         fontSize: 72,
+        filterAxis: '',
+        filterOp: '>',
+        filterValue: '',
+        allAxes: [],
     }},
     async created() {
         this.familyData = await this.getFamilyData();
         this.loadFonts();
         this.restorePanelsFromUrl();
         if (this.panels.length === 0) this.addPanel();
+        this.allAxes = this.getAllAxes();
         this.$watch('panels', this.updateUrlFromPanels, { deep: true });
         console.log('Vue instance mounted');
     },
@@ -198,6 +218,42 @@ new Vue({
                 currentFamily: family,
                 positions: { ...positions },
                 text,
+            });
+        },
+        getAllAxes() {
+            const axesSet = new Set();
+            Object.values(this.familyData).forEach(fam => {
+                fam.axes.forEach(ax => axesSet.add(ax.tag));
+            });
+            return Array.from(axesSet).sort();
+        },
+        addFilteredPanels() {
+            if (!this.filterAxis || this.filterValue === '') return;
+            const op = this.filterOp;
+            const val = Number(this.filterValue);
+            const axis = this.filterAxis;
+            const families = Object.values(this.familyData).filter(fam => {
+                const ax = fam.axes.find(a => a.tag === axis);
+                if (!ax) return false;
+                const min = Number(ax.min);
+                const max = Number(ax.max);
+                if (op === '>') return max > val;
+                if (op === '>=') return max >= val;
+                if (op === '<') return min < val;
+                if (op === '<=') return min <= val;
+                if (op === '==') return min <= val && max >= val;
+                return false;
+            });
+            families.forEach(fam => {
+                // Default positions for axes
+                const positions = {};
+                fam.axes.forEach(ax => { positions[ax.tag] = ax.defaultValue || ax.min; });
+                this.panels.push({
+                    id: this.nextPanelId++,
+                    currentFamily: fam.family,
+                    positions: { ...positions },
+                    text: this.selectedSampleText,
+                });
             });
         },
         updateUrlFromPanels() {

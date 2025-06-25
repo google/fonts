@@ -16,7 +16,7 @@
 <body>
     <div id="app">
         <div class="flex items-center gap-4 mb-4">
-            <button class="btn btn-primary" @click="addPanel">Add</button>
+            <button class="btn btn-primary" @click="addPanel">+</button>
             <select v-model="selectedSampleText" class="select select-xs select-bordered w-full max-w-xs" @change="applySampleText">
                 <option v-for="sample in sampleTexts" :value="sample">{{ sample }}</option>
             </select>
@@ -76,7 +76,7 @@ Vue.component('font-panel', {
                 <div id="fonts">
                     <link v-for="url in fontUrls" :href="url" rel="stylesheet">
                 </div>
-                <button class="btn btn-xs btn-error" @click="$emit('delete')">Delete</button>
+                <button class="btn btn-xs btn-error" @click="$emit('delete')">-</button>
             </div>
         </div>
         <select v-model="panel.currentFamily" class="select select-xs select-bordered w-full max-w-xs">

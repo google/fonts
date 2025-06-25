@@ -1,0 +1,236 @@
+<meta charset="utf-8">
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.google.com/metadata/fonts" type="application/json" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+
+<style>
+    .font-view{
+        font-size: 72pt;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <div class="flex items-center gap-4 mb-4">
+            <button class="btn btn-primary" @click="addPanel">+</button>
+            <select v-model="selectedSampleText" class="select select-xs select-bordered w-full max-w-xs" @change="applySampleText">
+                <option v-for="sample in sampleTexts" :value="sample">{{ sample }}</option>
+            </select>
+            <div class="flex items-center gap-2">
+                <label class="label-text">Font size:</label>
+                <input type="range" min="12" max="200" step="1" v-model.number="fontSize" class="range range-xs w-32"/>
+                <input type="number" min="12" max="200" v-model.number="fontSize" class="input input-xs w-16"/>
+                <span class="label-text-alt">pt</span>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 gap-8" ref="panelList">
+            <font-panel
+                v-for="(panel, idx) in panels"
+                :key="panel.id"
+                :panel.sync="panels[idx]"
+                :family-data="familyData"
+                :font-urls="fontUrls"
+                :font-size="fontSize"
+                @delete="panels.splice(idx, 1)"
+            />
+        </div>
+    </div>
+</body>
+
+<script>
+Vue.component('font-panel', {
+    props: ['panel', 'familyData', 'fontUrls', 'fontSize'],
+    computed: {
+        styleClass() {
+            let res = `font-family: \"${this.panel.currentFamily}\"; font-variation-settings:`
+            const data = this.familyData[this.panel.currentFamily]
+            for (let ax of data.axes) {
+                res += ` '${ax.tag}' ${this.panel.positions[ax.tag] || 100},`;
+            }
+            res = res.slice(0, -1) + ';';
+            res += ` font-size: ${this.fontSize}pt;`;
+            return res;
+        },
+        axes() {
+            return this.familyData[this.panel.currentFamily]?.axes || [];
+        }
+    },
+    template: `
+    <div class="card bg-base-100 shadow-xl p-6">
+        <div class="flex flex-col items-center mb-2 relative">
+            <span class="cursor-move handle text-lg select-none absolute left-1/2 -translate-x-1/2 top-0 z-10" title="Drag to reorder" style="line-height:1;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5" cy="5" r="1.5" fill="#888"/>
+                    <circle cx="10" cy="5" r="1.5" fill="#888"/>
+                    <circle cx="15" cy="5" r="1.5" fill="#888"/>
+                    <circle cx="5" cy="10" r="1.5" fill="#888"/>
+                    <circle cx="10" cy="10" r="1.5" fill="#888"/>
+                    <circle cx="15" cy="10" r="1.5" fill="#888"/>
+                </svg>
+            </span>
+            <div class="flex justify-between items-center w-full mt-4">
+                <div id="fonts">
+                    <link v-for="url in fontUrls" :href="url" rel="stylesheet">
+                </div>
+                <button class="btn btn-xs btn-error" @click="$emit('delete')">-</button>
+            </div>
+        </div>
+        <select v-model="panel.currentFamily" class="select select-xs select-bordered w-full max-w-xs">
+            <option v-for="font in familyData">{{ font.family }}</option>
+        </select>
+        <div class="font-view" contenteditable="true" :style="styleClass">
+            {{ panel.text }}
+        </div>
+        <div v-for="axis in axes" class="form-control">
+            <label class="label">
+                <span class="label-text-alt">{{ axis.tag }}: {{ panel.positions[axis.tag] }}</span>
+            </label>
+            <input type="range" class="range range-xs" step="0.1" v-model="panel.positions[axis.tag]" :min="axis.min" :max="axis.max"/>
+        </div>
+    </div>
+    `
+});
+
+new Vue({
+    el: '#app',
+    data() {return {
+        familyData: {},
+        fontUrls: [],
+        panels: [],
+        nextPanelId: 1,
+        restoring: false, // prevent infinite loop when restoring from URL
+        sampleTexts: [
+            'Hello world',
+            'The quick brown fox jumps over the lazy dog.',
+            'Sphinx of black quartz, judge my vow.',
+            '1234567890',
+            'Grumpy wizards make toxic brew for the evil Queen and Jack.'
+        ],
+        selectedSampleText: 'Hello world',
+        fontSize: 72,
+    }},
+    async created() {
+        this.familyData = await this.getFamilyData();
+        this.loadFonts();
+        this.restorePanelsFromUrl();
+        if (this.panels.length === 0) this.addPanel();
+        this.$watch('panels', this.updateUrlFromPanels, { deep: true });
+        console.log('Vue instance mounted');
+    },
+    mounted() {
+        // Enable drag-and-drop sorting with SortableJS
+        const vm = this;
+        Sortable.create(this.$refs.panelList, {
+            animation: 150,
+            handle: '.handle', // Only allow drag on the handle
+            ghostClass: 'bg-base-200',
+            onEnd(evt) {
+                if (evt.oldIndex === evt.newIndex) return;
+                const moved = vm.panels.splice(evt.oldIndex, 1)[0];
+                vm.panels.splice(evt.newIndex, 0, moved);
+            }
+        });
+    },
+    methods: {
+        async getFamilyData() {
+            return await fetch("family_data.json").then(response => response.json()).then(data => {
+                let results = {};
+                let familyMeta = data["familyMetadataList"]
+                familyMeta.forEach(family => {
+                    if (family.axes.length === 0) {
+                        // skip static fonts
+                        return;
+                    }
+                    results[family.family] = family;
+                })
+                return results
+            })
+        },
+        loadFonts() {
+            let results = [];
+            for (k in this.familyData) {
+                const family = this.familyData[k];
+                let path = `https://fonts.googleapis.com/css2?family=${family.family.replaceAll(" ", "+")}`
+                const sortedUpperCaseAxes = []
+                const sortedLowerCaseAxes = []
+                if (family.axes.length === 0) {
+                    continue
+                }
+                for (let a of family.axes) {
+                    if (a.tag.toUpperCase() === a.tag) {
+                        sortedUpperCaseAxes.push(a);
+                    } else {
+                        sortedLowerCaseAxes.push(a);
+                    }
+                }
+                sortedLowerCaseAxes.sort((a, b) => a.tag.localeCompare(b.tag));
+                sortedUpperCaseAxes.sort((a, b) => a.tag.localeCompare(b.tag));
+                const sortedAxes = [...sortedLowerCaseAxes, ...sortedUpperCaseAxes]
+                path += ":" + sortedAxes.map(a => {return a.tag}).join(",")
+                path += "@";
+                path += sortedAxes.map(axis => {return `${Number(axis.min)}..${Number(axis.max)}`}).join(",")
+                results.push(path);
+            }
+            this.fontUrls = results;
+            return results
+        },
+        addPanel(panelData) {
+            // Default to first family in familyData
+            const firstFamily = Object.keys(this.familyData)[0] || 'Roboto';
+            let family = firstFamily;
+            let axes = this.familyData[family]?.axes || [];
+            let positions = {};
+            let text = 'Hello world';
+            if (panelData) {
+                family = panelData.currentFamily || family;
+                axes = this.familyData[family]?.axes || [];
+                positions = { ...panelData.positions };
+                text = panelData.text || text;
+            } else {
+                axes.forEach(ax => { positions[ax.tag] = ax.defaultValue || ax.min; });
+            }
+            this.panels.push({
+                id: this.nextPanelId++,
+                currentFamily: family,
+                positions: { ...positions },
+                text,
+            });
+        },
+        updateUrlFromPanels() {
+            if (this.restoring) return;
+            const panelsForUrl = this.panels.map(p => ({
+                family: p.currentFamily,
+                positions: p.positions,
+                text: p.text,
+            }));
+            const encoded = encodeURIComponent(JSON.stringify(panelsForUrl));
+            const url = new URL(window.location.href);
+            url.searchParams.set('panels', encoded);
+            window.history.replaceState({}, '', url);
+        },
+        restorePanelsFromUrl() {
+            const url = new URL(window.location.href);
+            const panelsParam = url.searchParams.get('panels');
+            if (panelsParam) {
+                try {
+                    this.restoring = true;
+                    const panelsArr = JSON.parse(decodeURIComponent(panelsParam));
+                    panelsArr.forEach(panel => this.addPanel({
+                        currentFamily: panel.family,
+                        positions: panel.positions,
+                        text: panel.text,
+                    }));
+                } catch (e) { /* ignore */ }
+                this.restoring = false;
+            }
+        },
+        applySampleText() {
+            this.panels.forEach(panel => { panel.text = this.selectedSampleText; });
+        },
+    }
+});
+</script>

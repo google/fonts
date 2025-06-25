@@ -2,6 +2,7 @@
 name: Google Fonts Report
 
 on:
+  workflow_dispatch:
   # will run when modifying this file for testing purposes
   pull_request:
     paths:

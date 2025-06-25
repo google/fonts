@@ -5,6 +5,7 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.google.com/metadata/fonts" type="application/json" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
 
 <style>
     .font-view{
@@ -19,14 +20,21 @@
             <select v-model="selectedSampleText" class="select select-xs select-bordered w-full max-w-xs" @change="applySampleText">
                 <option v-for="sample in sampleTexts" :value="sample">{{ sample }}</option>
             </select>
+            <div class="flex items-center gap-2">
+                <label class="label-text">Font size:</label>
+                <input type="range" min="12" max="200" step="1" v-model.number="fontSize" class="range range-xs w-32"/>
+                <input type="number" min="12" max="200" v-model.number="fontSize" class="input input-xs w-16"/>
+                <span class="label-text-alt">pt</span>
+            </div>
         </div>
-        <div class="grid grid-cols-1 gap-8">
+        <div class="grid grid-cols-1 gap-8" ref="panelList">
             <font-panel
                 v-for="(panel, idx) in panels"
                 :key="panel.id"
                 :panel.sync="panels[idx]"
                 :family-data="familyData"
                 :font-urls="fontUrls"
+                :font-size="fontSize"
                 @delete="panels.splice(idx, 1)"
             />
         </div>
@@ -35,7 +43,7 @@
 
 <script>
 Vue.component('font-panel', {
-    props: ['panel', 'familyData', 'fontUrls'],
+    props: ['panel', 'familyData', 'fontUrls', 'fontSize'],
     computed: {
         styleClass() {
             let res = `font-family: \"${this.panel.currentFamily}\"; font-variation-settings:`
@@ -43,7 +51,9 @@ Vue.component('font-panel', {
             for (let ax of data.axes) {
                 res += ` '${ax.tag}' ${this.panel.positions[ax.tag] || 100},`;
             }
-            return res.slice(0, -1) + ';';
+            res = res.slice(0, -1) + ';';
+            res += ` font-size: ${this.fontSize}pt;`;
+            return res;
         },
         axes() {
             return this.familyData[this.panel.currentFamily]?.axes || [];
@@ -51,11 +61,23 @@ Vue.component('font-panel', {
     },
     template: `
     <div class="card bg-base-100 shadow-xl p-6">
-        <div class="flex justify-between items-center mb-2">
-            <div id="fonts">
-                <link v-for="url in fontUrls" :href="url" rel="stylesheet">
+        <div class="flex flex-col items-center mb-2 relative">
+            <span class="cursor-move handle text-lg select-none absolute left-1/2 -translate-x-1/2 top-0 z-10" title="Drag to reorder" style="line-height:1;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5" cy="5" r="1.5" fill="#888"/>
+                    <circle cx="10" cy="5" r="1.5" fill="#888"/>
+                    <circle cx="15" cy="5" r="1.5" fill="#888"/>
+                    <circle cx="5" cy="10" r="1.5" fill="#888"/>
+                    <circle cx="10" cy="10" r="1.5" fill="#888"/>
+                    <circle cx="15" cy="10" r="1.5" fill="#888"/>
+                </svg>
+            </span>
+            <div class="flex justify-between items-center w-full mt-4">
+                <div id="fonts">
+                    <link v-for="url in fontUrls" :href="url" rel="stylesheet">
+                </div>
+                <button class="btn btn-xs btn-error" @click="$emit('delete')">Delete</button>
             </div>
-            <button class="btn btn-xs btn-error" @click="$emit('delete')">Delete</button>
         </div>
         <select v-model="panel.currentFamily" class="select select-xs select-bordered w-full max-w-xs">
             <option v-for="font in familyData">{{ font.family }}</option>
@@ -89,6 +111,7 @@ new Vue({
             'Grumpy wizards make toxic brew for the evil Queen and Jack.'
         ],
         selectedSampleText: 'Hello world',
+        fontSize: 72,
     }},
     async created() {
         this.familyData = await this.getFamilyData();
@@ -97,6 +120,20 @@ new Vue({
         if (this.panels.length === 0) this.addPanel();
         this.$watch('panels', this.updateUrlFromPanels, { deep: true });
         console.log('Vue instance mounted');
+    },
+    mounted() {
+        // Enable drag-and-drop sorting with SortableJS
+        const vm = this;
+        Sortable.create(this.$refs.panelList, {
+            animation: 150,
+            handle: '.handle', // Only allow drag on the handle
+            ghostClass: 'bg-base-200',
+            onEnd(evt) {
+                if (evt.oldIndex === evt.newIndex) return;
+                const moved = vm.panels.splice(evt.oldIndex, 1)[0];
+                vm.panels.splice(evt.newIndex, 0, moved);
+            }
+        });
     },
     methods: {
         async getFamilyData() {

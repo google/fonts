@@ -26,21 +26,24 @@
                 <input type="number" min="12" max="200" v-model.number="fontSize" class="input input-xs w-16"/>
                 <span class="label-text-alt">pt</span>
             </div>
-            <div class="flex items-center gap-2">
-                <select v-model="filterAxis" class="select select-xs select-bordered">
+            <div class="flex items-center gap-2" v-for="(filter, i) in axisFilters" :key="i">
+                <select v-model="filter.axis" class="select select-xs select-bordered">
                     <option value="">Axis</option>
                     <option v-for="axis in allAxes" :key="axis" :value="axis">{{ axis }}</option>
                 </select>
-                <select v-model="filterOp" class="select select-xs select-bordered">
+                <select v-model="filter.op" class="select select-xs select-bordered">
                     <option value=">">&gt;</option>
                     <option value=">=">&ge;</option>
                     <option value="<">&lt;</option>
                     <option value="<=">&le;</option>
                     <option value="==">=</option>
                 </select>
-                <input v-model.number="filterValue" type="number" class="input input-xs w-16" placeholder="Value"/>
-                <button class="btn btn-xs btn-accent" @click="addFilteredPanels">Add filtered</button>
+                <input v-model.number="filter.value" type="number" class="input input-xs w-16" placeholder="Value"/>
+                <button v-if="axisFilters.length > 1" class="btn btn-xs btn-ghost" @click="removeAxisFilter(i)">✕</button>
             </div>
+            <button class="btn btn-xs btn-accent" @click="addAxisFilter">+ Axis</button>
+            <button class="btn btn-xs btn-accent" @click="addFilteredPanels">Add filtered</button>
+            <button class="btn btn-xs btn-error" @click="clearPanels">Clear all</button>
         </div>
         <div class="grid grid-cols-1 gap-8" ref="panelList">
             <font-panel
@@ -127,6 +130,9 @@ new Vue({
         ],
         selectedSampleText: 'Hello world',
         fontSize: 72,
+        axisFilters: [
+            { axis: '', op: '>', value: '' }
+        ],
         filterAxis: '',
         filterOp: '>',
         filterValue: '',
@@ -227,22 +233,30 @@ new Vue({
             });
             return Array.from(axesSet).sort();
         },
+        addAxisFilter() {
+            this.axisFilters.push({ axis: '', op: '>', value: '' });
+        },
+        removeAxisFilter(i) {
+            this.axisFilters.splice(i, 1);
+        },
         addFilteredPanels() {
-            if (!this.filterAxis || this.filterValue === '') return;
-            const op = this.filterOp;
-            const val = Number(this.filterValue);
-            const axis = this.filterAxis;
+            // Only include filters with axis and value
+            const filters = this.axisFilters.filter(f => f.axis && f.value !== '');
+            if (!filters.length) return;
             const families = Object.values(this.familyData).filter(fam => {
-                const ax = fam.axes.find(a => a.tag === axis);
-                if (!ax) return false;
-                const min = Number(ax.min);
-                const max = Number(ax.max);
-                if (op === '>') return max > val;
-                if (op === '>=') return max >= val;
-                if (op === '<') return min < val;
-                if (op === '<=') return min <= val;
-                if (op === '==') return min <= val && max >= val;
-                return false;
+                return filters.every(f => {
+                    const ax = fam.axes.find(a => a.tag === f.axis);
+                    if (!ax) return false;
+                    const min = Number(ax.min);
+                    const max = Number(ax.max);
+                    const val = Number(f.value);
+                    if (f.op === '>') return max > val;
+                    if (f.op === '>=') return max >= val;
+                    if (f.op === '<') return min < val;
+                    if (f.op === '<=') return min <= val;
+                    if (f.op === '==') return min <= val && max >= val;
+                    return false;
+                });
             });
             families.forEach(fam => {
                 // Default positions for axes
@@ -286,6 +300,10 @@ new Vue({
         },
         applySampleText() {
             this.panels.forEach(panel => { panel.text = this.selectedSampleText; });
+        },
+        clearPanels() {
+            this.panels = [];
+            this.updateUrlFromPanels();
         },
     }
 });

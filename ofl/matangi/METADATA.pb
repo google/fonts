@@ -23,8 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/thegraphicant/Matangi"
-  commit: "c67a7d9b7d52f4582b7167131d46e2992563ea66"
-  config_yaml: "sources/config.yaml"
+  commit: "a806f5ac9093cab670d0ce25a2cf5639bcc000ca"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -66,6 +65,7 @@ source {
     dest_file: "article/MATANGI-07.jpg"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Deva"
 stroke: "SANS_SERIF"

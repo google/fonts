@@ -2,7 +2,7 @@ name: "Nata Sans"
 designer: "Daniel Uzquiano"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2025-01-01"
+date_added: "2025-06-26"
 fonts {
   name: "Nata Sans"
   style: "normal"
@@ -19,14 +19,23 @@ axes {
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
-subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "math"
 subsets: "menu"
-subsets: "symbols"
 subsets: "vietnamese"
 
 source {
   repository_url: "https://github.com/dnlzqn/nata-sans"
+  archive_url: "https://github.com/dnlzqn/nata-sans/releases/download/v2.2/Nata.Sans.zip"
+  files {
+    source_file: "Nata.Sans/OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Nata.Sans/build/variable/NataSans[wght].ttf"
+    dest_file: "NataSans[wght].ttf"
+  }
+  branch: "main"
 }
+stroke: "SANS_SERIF"
+minisite_url: "https://dnlzqn.xyz/nata/"

@@ -32,8 +32,6 @@ jobs:
         run: cargo install --git https://github.com/fonttools/fontspector --features duckdb
       - name: Test all the things
         run: fontspector --profile googlefonts ofl/*/*{.ttf,.pb,.html,.svg,.jpg,.gif} --skip-network --succinct --duckdb fontspector.db || true
-      - name: Build dashboard
-        run: cd .ci/fontspector-dashboard && npm install && npm run build
       - name: Stash database again
         run: "scp -i ../private.key fontspector.db fontspector@corvelsoftware.co.uk:"
       - name: Add to branch

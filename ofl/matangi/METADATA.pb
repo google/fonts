@@ -34,35 +34,35 @@ source {
   }
   files {
     source_file: "article/ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
+    dest_file: "ARTICLE.en_us.html"
   }
   files {
     source_file: "article/MATANGI-01.jpg"
-    dest_file: "article/MATANGI-01.jpg"
+    dest_file: "MATANGI-01.jpg"
   }
   files {
     source_file: "article/MATANGI-02.jpg"
-    dest_file: "article/MATANGI-02.jpg"
+    dest_file: "MATANGI-02.jpg"
   }
   files {
     source_file: "article/MATANGI-03.jpg"
-    dest_file: "article/MATANGI-03.jpg"
+    dest_file: "MATANGI-03.jpg"
   }
   files {
     source_file: "article/MATANGI-04.jpg"
-    dest_file: "article/MATANGI-04.jpg"
+    dest_file: "MATANGI-04.jpg"
   }
   files {
     source_file: "article/MATANGI-05.jpg"
-    dest_file: "article/MATANGI-05.jpg"
+    dest_file: "MATANGI-05.jpg"
   }
   files {
     source_file: "article/MATANGI-06.jpg"
-    dest_file: "article/MATANGI-06.jpg"
+    dest_file: "MATANGI-06.jpg"
   }
   files {
     source_file: "article/MATANGI-07.jpg"
-    dest_file: "article/MATANGI-07.jpg"
+    dest_file: "MATANGI-07.jpg"
   }
   branch: "main"
   config_yaml: "sources/config.yaml"

@@ -6,6 +6,7 @@
 <link href="https://fonts.google.com/metadata/fonts" type="application/json" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-virtual-scroll-list@2.4.17/dist/index.umd.min.js"></script>
 
 <style>
     .font-view{
@@ -17,6 +18,7 @@
     <div id="app">
         <div class="flex items-center gap-4 mb-4">
             <button class="btn btn-primary" @click="addPanel">+</button>
+            <button class="btn btn-secondary" @click="addRangeGroup">+ Range Group</button>
             <select v-model="selectedSampleText" class="select select-xs select-bordered w-full max-w-xs" @change="applySampleText">
                 <option v-for="sample in sampleTexts" :value="sample">{{ sample }}</option>
             </select>
@@ -45,16 +47,62 @@
             <button class="btn btn-xs btn-accent" @click="addFilteredPanels">Add filtered</button>
             <button class="btn btn-xs btn-error" @click="clearPanels">Clear all</button>
         </div>
-        <div class="grid grid-cols-1 gap-8" ref="panelList">
-            <font-panel
-                v-for="(panel, idx) in panels"
-                :key="panel.id"
-                :panel.sync="panels[idx]"
-                :family-data="familyData"
-                :font-urls="fontUrls"
-                :font-size="fontSize"
-                @delete="panels.splice(idx, 1)"
-            />
+        <virtual-list
+            class="grid grid-cols-1 gap-8"
+            ref="panelList"
+            :size="320"
+            :remain="6"
+            :bench="4"
+            :item="fontPanelItem"
+            :item-count="panels.length"
+            :item-data="panels"
+            :key-field="'id'"
+        >
+            <template v-slot="{ item, index }">
+                <font-panel
+                    :panel.sync="panels[index]"
+                    :family-data="familyData"
+                    :font-urls="fontUrls"
+                    :font-size="fontSize"
+                    @delete="panels.splice(index, 1)"
+                    :key="item.id"
+                />
+            </template>
+        </virtual-list>
+
+        <!-- Render range groups -->
+        <div id="range-group-list">
+          <div v-for="group in panelRangeGroups" :key="group.id" class="flex gap-4 mb-8 border p-4 rounded-lg bg-base-200 range-group-item relative">
+              <!-- Drag handle for range group -->
+              <span class="cursor-move range-group-handle text-lg select-none absolute left-1/2 -translate-x-1/2 -top-3 z-20 bg-base-200 px-2 rounded shadow" title="Drag to reorder" style="line-height:1;">
+                <svg width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="6" cy="5" r="1.5" fill="#888"/>
+                  <circle cx="16" cy="5" r="1.5" fill="#888"/>
+                  <circle cx="26" cy="5" r="1.5" fill="#888"/>
+                  <circle cx="6" cy="13" r="1.5" fill="#888"/>
+                  <circle cx="16" cy="13" r="1.5" fill="#888"/>
+                  <circle cx="26" cy="13" r="1.5" fill="#888"/>
+                </svg>
+              </span>
+              <div class="w-1/2">
+                  <h3 class="font-bold mb-2">Min Panel</h3>
+                  <font-panel
+                      :panel.sync="group.minPanel"
+                      :family-data="familyData"
+                      :font-urls="fontUrls"
+                      :font-size="fontSize"
+                  />
+              </div>
+              <div class="w-1/2">
+                  <h3 class="font-bold mb-2">Max Panel</h3>
+                  <font-panel
+                      :panel.sync="group.maxPanel"
+                      :family-data="familyData"
+                      :font-urls="fontUrls"
+                      :font-size="fontSize"
+                  />
+              </div>
+          </div>
         </div>
     </div>
 </body>
@@ -109,6 +157,13 @@ Vue.component('font-panel', {
             </label>
             <input type="range" class="range range-xs" step="0.1" v-model="panel.positions[axis.tag]" :min="axis.min" :max="axis.max"/>
         </div>
+        <!-- Score input box -->
+        <div class="form-control mt-2">
+            <label class="label">
+                <span class="label-text">Score:</span>
+            </label>
+            <input type="number" class="input input-xs w-24" v-model.number="panel.score" placeholder="Score" />
+        </div>
     </div>
     `
 });
@@ -119,7 +174,9 @@ new Vue({
         familyData: {},
         fontUrls: [],
         panels: [],
+        panelRangeGroups: [], // New: holds parent objects with min/max panels
         nextPanelId: 1,
+        nextRangeGroupId: 1, // New: for range group ids
         restoring: false, // prevent infinite loop when restoring from URL
         sampleTexts: [
             'Hello world',
@@ -148,18 +205,17 @@ new Vue({
         console.log('Vue instance mounted');
     },
     mounted() {
-        // Enable drag-and-drop sorting with SortableJS
-        const vm = this;
-        Sortable.create(this.$refs.panelList, {
+        // Drag-and-drop for RangeGroups using SortableJS
+        if (this.$el.querySelector('#range-group-list')) {
+          new Sortable(this.$el.querySelector('#range-group-list'), {
+            handle: '.range-group-handle', // Only allow drag by handle
             animation: 150,
-            handle: '.handle', // Only allow drag on the handle
-            ghostClass: 'bg-base-200',
-            onEnd(evt) {
-                if (evt.oldIndex === evt.newIndex) return;
-                const moved = vm.panels.splice(evt.oldIndex, 1)[0];
-                vm.panels.splice(evt.newIndex, 0, moved);
+            onEnd: (evt) => {
+              const moved = this.panelRangeGroups.splice(evt.oldIndex, 1)[0];
+              this.panelRangeGroups.splice(evt.newIndex, 0, moved);
             }
-        });
+          });
+        }
     },
     methods: {
         async getFamilyData() {
@@ -226,6 +282,34 @@ new Vue({
                 text,
             });
         },
+        addRangeGroup() {
+            // Create two panels: minPanel and maxPanel, defaulting to first family
+            const firstFamily = Object.keys(this.familyData)[0] || 'Roboto';
+            const axes = this.familyData[firstFamily]?.axes || [];
+            let minPositions = {};
+            let maxPositions = {};
+            axes.forEach(ax => {
+                minPositions[ax.tag] = ax.min;
+                maxPositions[ax.tag] = ax.max;
+            });
+            const minPanel = {
+                id: this.nextPanelId++,
+                currentFamily: firstFamily,
+                positions: { ...minPositions },
+                text: this.selectedSampleText,
+            };
+            const maxPanel = {
+                id: this.nextPanelId++,
+                currentFamily: firstFamily,
+                positions: { ...maxPositions },
+                text: this.selectedSampleText,
+            };
+            this.panelRangeGroups.push({
+                id: this.nextRangeGroupId++,
+                minPanel,
+                maxPanel
+            });
+        },
         getAllAxes() {
             const axesSet = new Set();
             Object.values(this.familyData).forEach(fam => {
@@ -258,17 +342,33 @@ new Vue({
                     return false;
                 });
             });
-            families.forEach(fam => {
-                // Default positions for axes
-                const positions = {};
-                fam.axes.forEach(ax => { positions[ax.tag] = ax.defaultValue || ax.min; });
-                this.panels.push({
+            // Batch create range groups for performance
+            const newGroups = families.map(fam => {
+                const minPositions = {};
+                const maxPositions = {};
+                fam.axes.forEach(ax => {
+                    minPositions[ax.tag] = ax.min;
+                    maxPositions[ax.tag] = ax.max;
+                });
+                const minPanel = {
                     id: this.nextPanelId++,
                     currentFamily: fam.family,
-                    positions: { ...positions },
+                    positions: { ...minPositions },
                     text: this.selectedSampleText,
-                });
+                };
+                const maxPanel = {
+                    id: this.nextPanelId++,
+                    currentFamily: fam.family,
+                    positions: { ...maxPositions },
+                    text: this.selectedSampleText,
+                };
+                return {
+                    id: this.nextRangeGroupId++,
+                    minPanel,
+                    maxPanel
+                };
             });
+            this.panelRangeGroups = this.panelRangeGroups.concat(newGroups);
         },
         updateUrlFromPanels() {
             if (this.restoring) return;

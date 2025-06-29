@@ -34,8 +34,6 @@ jobs:
         run: fontspector --profile googlefonts ofl/*/*{.ttf,.pb,.html,.svg,.jpg,.gif} --skip-network --succinct --duckdb fontspector.db || true
       - name: Stash database again
         run: "scp -i ../private.key fontspector.db fontspector@corvelsoftware.co.uk:"
-      - name: Add to branch
-        run: git fetch origin gh-pages; git checkout gh-pages; git rm -rf fontspector-dashboard || true; rm -rf fontspector-dashboard || true; mv fontspector-dashboard-build fontspector-dashboard
       - name: Upload results
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

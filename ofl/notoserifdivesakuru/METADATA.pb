@@ -1,7 +1,7 @@
 name: "Noto Serif Dives Akuru"
 designer: "Google"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2025-02-06"
 fonts {
   name: "Noto Serif Dives Akuru"

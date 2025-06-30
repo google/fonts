@@ -7,24 +7,34 @@ fonts {
   name: "Special Gothic"
   style: "normal"
   weight: 400
-  filename: "SpecialGothic-Regular.ttf"
+  filename: "SpecialGothic[wdth,wght].ttf"
   post_script_name: "SpecialGothic-Regular"
   full_name: "Special Gothic Regular"
-  copyright: "Copyright 2022 The Special-Gothic Project Authors (https://github.com/AlistairMcCready/Special-Gothic)"
+  copyright: "Copyright 2023 The Special Gothic Project Authors (https://github.com/AlistairMcCready/Special-Gothic/)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "wdth"
+  min_value: 75.0
+  max_value: 125.0
+}
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
 source {
   repository_url: "https://github.com/AlistairMcCready/Special-Gothic"
-  commit: "805adb65b7262a7abf1c37877ff657111bfcf864"
+  commit: "17774cf97eec75a115aebc7ed66a57ce67b88177"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/specialgothic/ttf/SpecialGothic-Regular.ttf"
-    dest_file: "SpecialGothic-Regular.ttf"
+    source_file: "fonts/variable/SpecialGothic[wdth,wght].ttf"
+    dest_file: "SpecialGothic[wdth,wght].ttf"
   }
   branch: "main"
   config_yaml: "sources/config.yaml"

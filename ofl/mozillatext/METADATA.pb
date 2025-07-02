@@ -10,7 +10,7 @@ fonts {
   filename: "MozillaText[wght].ttf"
   post_script_name: "MozillaText-ExtraLight"
   full_name: "Mozilla Text ExtraLight"
-  copyright: "Copyright 2025 The Mozilla Text Project Authors (https://github.com/mozilla/mozilla-type-family/)"
+  copyright: "Copyright 2025 The Mozilla Text Project Authors (https://github.com/mozilla/mozilla-text-type)"
 }
 subsets: "latin"
 subsets: "latin-ext"

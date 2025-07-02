@@ -33,6 +33,7 @@ subsets: "symbols"
 subsets: "symbols2"
 subsets: "syriac"
 subsets: "vietnamese"
+experiments: "layout_features=ss01"
 axes {
   tag: "wght"
   min_value: 300.0

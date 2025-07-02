@@ -10,7 +10,7 @@ fonts {
   filename: "MozillaHeadline[wdth,wght].ttf"
   post_script_name: "MozillaHeadline-ExtraLight"
   full_name: "Mozilla Headline ExtraLight"
-  copyright: "Copyright 2025 The Mozilla Headline Project Authors (https://github.com/mozilla/mozilla-type-family/)"
+  copyright: "Copyright 2025 The Mozilla Headline Project Authors (https://github.com/mozilla/mozilla-headline-type)"
 }
 subsets: "latin"
 subsets: "latin-ext"

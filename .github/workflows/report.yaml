@@ -76,6 +76,7 @@ jobs:
           npm run build
           gftools compare-meta --meta -o build/meta.html
           cp ../tags.html build/tags.html
+          curl https://fonts.google.com/metadata/fonts > build/family_data.json
           cp ../vf-tag-demo2.html build/vf-tag-demo2.html
         working-directory: .ci/dashboard
       - name: Upload build artifacts

@@ -5545,6 +5545,10 @@
       {
         "version": "Version 1.000; ttfautohint (v1.8.4)",
         "date": "2023-10-26T09:09:29.267337"
+      },
+      {
+        "version": "Version 2.000; ttfautohint (v1.8.4.7-5d5b)",
+        "date": "2025-07-03T13:58:32.785960"
       }
     ]
   },
@@ -8530,6 +8534,10 @@
       {
         "version": "Version 1.7",
         "date": "1970-01-01T00:00:00"
+      },
+      {
+        "version": "Version 1.899",
+        "date": "2025-07-03T13:58:33.595021"
       }
     ]
   },
@@ -12394,6 +12402,10 @@
       {
         "version": "Version 1.005",
         "date": "1970-01-01T00:00:00"
+      },
+      {
+        "version": "Version 1.899",
+        "date": "2025-07-03T13:58:32.933309"
       }
     ]
   },
@@ -27004,6 +27016,10 @@
       {
         "version": "Version 3.001",
         "date": "1970-01-01T00:00:00"
+      },
+      {
+        "version": "Version 3.002",
+        "date": "2025-07-03T13:58:33.245661"
       }
     ]
   },
@@ -30550,6 +30566,10 @@
       {
         "version": "Version 1.002",
         "date": "2025-03-19T02:12:24.428467"
+      },
+      {
+        "version": "Version 1.005",
+        "date": "2025-07-03T13:58:33.292816"
       }
     ]
   },
@@ -39354,6 +39374,12 @@
         "version": "Version 7.051;RELEASE",
         "date": "2025-06-23T17:08:55.433623"
       }
+    ],
+    "production": [
+      {
+        "version": "Version 7.051;RELEASE",
+        "date": "2025-07-03T13:58:32.969405"
+      }
     ]
   },
   "Roboto Mono": {
@@ -39435,6 +39461,12 @@
       {
         "version": "Version 7.051;RELEASE",
         "date": "2025-06-23T17:08:55.468091"
+      }
+    ],
+    "production": [
+      {
+        "version": "Version 7.051;RELEASE",
+        "date": "2025-07-03T13:58:32.884429"
       }
     ]
   },
@@ -39664,6 +39696,10 @@
       {
         "version": "Version 3.002",
         "date": "2025-05-22T01:57:26.330105"
+      },
+      {
+        "version": "Version 3.003",
+        "date": "2025-07-03T13:58:33.372252"
       }
     ],
     "sandbox": [
@@ -39739,6 +39775,12 @@
         "version": "Version 3.000; ttfautohint (v1.8.4.7-5d5b)",
         "date": "2025-06-06T03:38:15.748086"
       }
+    ],
+    "production": [
+      {
+        "version": "Version 3.000; ttfautohint (v1.8.4.7-5d5b)",
+        "date": "2025-07-03T13:58:33.109380"
+      }
     ]
   },
   "Menbere": {
@@ -39752,6 +39794,12 @@
       {
         "version": "Version 1.000",
         "date": "2025-06-20T12:43:38.767867"
+      }
+    ],
+    "production": [
+      {
+        "version": "Version 1.000",
+        "date": "2025-07-03T13:58:32.682457"
       }
     ]
   },
@@ -39781,6 +39829,12 @@
         "version": "Version 1.001",
         "date": "2025-06-20T12:43:38.543218"
       }
+    ],
+    "production": [
+      {
+        "version": "Version 1.001",
+        "date": "2025-07-03T13:58:32.876603"
+      }
     ]
   },
   "UoqMunThenKhung": {
@@ -39794,6 +39848,12 @@
       {
         "version": "Version 1.197",
         "date": "2025-06-20T12:43:38.579983"
+      }
+    ],
+    "production": [
+      {
+        "version": "Version 1.197",
+        "date": "2025-07-03T13:58:33.686059"
       }
     ]
   },
@@ -39837,6 +39897,12 @@
         "version": "Version 3.000",
         "date": "2025-06-20T12:43:38.855505"
       }
+    ],
+    "production": [
+      {
+        "version": "Version 3.000",
+        "date": "2025-07-03T13:58:32.676215"
+      }
     ]
   },
   "Noto Sans Sunuwar": {
@@ -39850,6 +39916,12 @@
       {
         "version": "Version 1.000; ttfautohint (v1.8.4.7-5d5b)",
         "date": "2025-06-20T12:43:38.966916"
+      }
+    ],
+    "production": [
+      {
+        "version": "Version 1.000; ttfautohint (v1.8.4.7-5d5b)",
+        "date": "2025-07-03T13:58:33.436549"
       }
     ]
   },
@@ -39878,6 +39950,52 @@
       {
         "version": "Version 2.525",
         "date": "2025-06-20T12:43:39.005216"
+      }
+    ],
+    "production": [
+      {
+        "version": "Version 2.525",
+        "date": "2025-07-03T13:58:32.630114"
+      }
+    ]
+  },
+  "Libertinus Sans": {
+    "dev": [
+      {
+        "version": "Version 7.051;RELEASE",
+        "date": "2025-07-03T13:58:32.765113"
+      }
+    ]
+  },
+  "Nata Sans": {
+    "dev": [
+      {
+        "version": "Version 1.001",
+        "date": "2025-07-03T13:58:33.219514"
+      }
+    ]
+  },
+  "Mozilla Headline": {
+    "dev": [
+      {
+        "version": "Version 1.000",
+        "date": "2025-07-03T13:58:33.351158"
+      }
+    ]
+  },
+  "Mozilla Text": {
+    "dev": [
+      {
+        "version": "Version 1.000",
+        "date": "2025-07-03T13:58:33.377646"
+      }
+    ]
+  },
+  "Libertinus Serif": {
+    "dev": [
+      {
+        "version": "Version 7.051;RELEASE",
+        "date": "2025-07-03T13:58:33.447016"
       }
     ]
   }

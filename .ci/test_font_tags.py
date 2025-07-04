@@ -31,7 +31,11 @@ def tags_metadata():
         .read()
         .decode("utf-8")
     )
-    return data.splitlines()
+    reader = csv.reader(data.splitlines())
+    res = []
+    for category, _, _ in reader:
+        res.append(category)
+    return res
 
 
 def test_families_missing_tags(family_tags, family_metadata):

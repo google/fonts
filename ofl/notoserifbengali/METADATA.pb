@@ -10,7 +10,7 @@ fonts {
   filename: "NotoSerifBengali[wdth,wght].ttf"
   post_script_name: "NotoSerifBengali-Regular"
   full_name: "Noto Serif Bengali Regular"
-  copyright: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bengali)"
+  copyright: "Copyright 2025 The Noto Project Authors (https://github.com/notofonts/bengali)"
 }
 subsets: "bengali"
 subsets: "latin"
@@ -28,9 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/bengali"
-  commit: "020a5701f6fc6a363d5eccbae45e37714c0ad686"
-  config_yaml: "sources/config-serif-bengali.yaml"
-  archive_url: "https://github.com/notofonts/bengali/releases/download/NotoSerifBengali-v2.003/NotoSerifBengali-v2.003.zip"
+  commit: "7ab89a047313e4a2c7ca5d670b28ced031c86542"
+  archive_url: "https://github.com/notofonts/bengali/releases/download/NotoSerifBengali-v3.000/NotoSerifBengali-v3.000.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -40,21 +39,22 @@ source {
     dest_file: "NotoSerifBengali[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-serif-bengali.yaml"
 }
 is_noto: true
 languages: "as_Beng"  # Assamese
-languages: "bn_Beng"  # Bengali
+languages: "bn_Beng"  # Bangla
 languages: "bpy_Beng"  # Bishnupriya
-languages: "brx_Beng"  # Bodo, Bangla
-languages: "ccp_Beng"  # Chakma, Bengali
+languages: "brx_Beng"  # Bodo (Bangla)
+languages: "ccp_Beng"  # Chakma (Bangla)
 languages: "grt_Beng"  # Garo
-languages: "kha_Beng"  # Khasi, Bengali
-languages: "khr_Beng"  # Kharia, Bangla
-languages: "kyw_Beng"  # Kudmali, Bangla
+languages: "kha_Beng"  # Khasi (Bangla)
+languages: "khr_Beng"  # Kharia (Bangla)
+languages: "kyw_Beng"  # Kudmali (Bangla)
 languages: "lus_Beng"  # Mizo
 languages: "mni_Beng"  # Manipuri
 languages: "rkt_Beng"  # Rangpuri
-languages: "sat_Beng"  # Santali, Bengali
+languages: "sat_Beng"  # Santali (Bangla)
 languages: "syl_Beng"  # Sylheti
 languages: "trp_Beng"  # Kok Borok, Bangla
 languages: "unr_Beng"  # Mundari

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div id="fonts">
+      <link v-for="family in gf.families" :href="family.url" rel="stylesheet">
+    </div>
+    <div v-for="font in fontView" :key="font">
+      <tags-by-font :tags="tags.items" :font="font"></tags-by-font>
+    </div>
+    <tags-by-category :tags="tags.items" category="/Expressive/Loud"></tags-by-category>
+    
+  </div>
+  <script type="module">
+    import { GF, Tags } from './models.js';
+    import TagsByFont from "./TagsByFont.js";
+    import TagsByCategory from "./TagsByCategory.js";
+
+    Vue.component('tags-by-font', TagsByFont);
+    Vue.component('tags-by-category', TagsByCategory);
+    
+    var app = new Vue({
+      el: '#app',
+      data: {
+        gf: null,
+        tags: null,
+        fontView: ["Maven Pro", "Roboto"],
+      },
+      async created() {
+        // Load the GF and Tags classes
+        this.gf = new GF();
+        this.gf.getFamilyData().then(() => {
+          this.gf.loadFamilies()
+          this.tags = new Tags(this.gf);
+          this.tags.items = this.tags.items
+        }).catch(error => {
+          console.error('Error loading family data:', error);
+        });
+      }
+    });
+    window.app = app
+  </script>
+</body>
+</html>

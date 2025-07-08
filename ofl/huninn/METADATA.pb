@@ -1,5 +1,5 @@
 name: "Huninn"
-designer: "Justfont"
+designer: "justfont"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-03-18"

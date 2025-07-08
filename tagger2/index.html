@@ -11,16 +11,16 @@
     <div v-for="font in fontView" :key="font">
       <tags-by-font :tags="tags.items" :font="font"></tags-by-font>
     </div>
-    <tags-by-category :tags="tags.items" category="/Expressive/Loud"></tags-by-category>
+    <tags-by-categories :tags="tags.items" :categories="categoryView"></tags-by-category>
     
   </div>
   <script type="module">
     import { GF, Tags } from './models.js';
     import TagsByFont from "./TagsByFont.js";
-    import TagsByCategory from "./TagsByCategory.js";
+    import TagsByCategories from "./TagsByCategories.js";
 
     Vue.component('tags-by-font', TagsByFont);
-    Vue.component('tags-by-category', TagsByCategory);
+    Vue.component('tags-by-categories', TagsByCategories);
     
     var app = new Vue({
       el: '#app',
@@ -28,6 +28,7 @@
         gf: null,
         tags: null,
         fontView: ["Maven Pro", "Roboto"],
+        categoryView: ["/Expressive/Loud", "/Expressive/Childlike"],
       },
       async created() {
         // Load the GF and Tags classes

@@ -8,12 +8,13 @@
     <div id="fonts">
       <link v-for="family in gf && gf.families ? gf.families : []" :href="family.url" rel="stylesheet">
     </div>
-    <div v-for="(panel, idx) in panels" :key="idx">
-      <panel :panel="panel" :tags="tags && tags.items ? tags.items : []" @remove="removePanel(idx)"></panel>
+    <button @click="addFontPanel('Maven Pro')">Add Font View</button>
+    <button @click="addCategoriesPanel(['/Expressive/Loud'])">Add Tag View</button>
+    <div style="display: flex; flex-direction: row; width: 100vw; min-height: 100vh;">
+      <div v-for="(panel, idx) in panels" :key="idx" :style="{ flex: '1 1 0', minWidth: 0, borderRight: idx < panels.length - 1 ? '1px solid #eee' : 'none', height: '100vh', overflow: 'auto' }">
+        <panel :panel="panel" :tags="tags && tags.items ? tags.items : []" @remove="removePanel(idx)"></panel>
+      </div>
     </div>
-    <!-- Optionally, add buttons to add panels for testing -->
-    <button @click="addFontPanel('Maven Pro')">Add Maven Pro Panel</button>
-    <button @click="addCategoriesPanel(['/Expressive/Loud'])">Add /Expressive/Loud Panel</button>
   </div>
   <script type="module">
     import { GF, Tags } from './models.js';

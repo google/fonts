@@ -8,7 +8,12 @@ export default {
   },
   template: `
     <div>
-      <h3>Tags for font: {{ font }}</h3>
+      <h3>Tags for fonter</h3>
+      <select v-model="font" @change="filteredTags">
+        <option v-for="tag in tags.map(tag => tag.family.name).filter((value, index, self) => self.indexOf(value) === index)" :key="tag">
+          {{ tag }}
+        </option>
+      </select>
       <ul>
         <li v-for="tag in filteredTags" :key="tag.tagName + tag.family.name">
           {{ tag.tagName }} (Score: {{ tag.score }})

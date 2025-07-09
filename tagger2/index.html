@@ -6,40 +6,53 @@
 <body>
   <div id="app">
     <div id="fonts">
-      <link v-for="family in gf.families" :href="family.url" rel="stylesheet">
+      <link v-for="family in gf && gf.families ? gf.families : []" :href="family.url" rel="stylesheet">
     </div>
-    <div v-for="font in fontView" :key="font">
-      <tags-by-font :tags="tags.items" :font="font"></tags-by-font>
+    <div v-for="(panel, idx) in panels" :key="idx">
+      <panel :panel="panel" :tags="tags && tags.items ? tags.items : []" @remove="removePanel(idx)"></panel>
     </div>
-    <tags-by-categories :tags="tags.items" :categories="categoryView"></tags-by-category>
-    
+    <!-- Optionally, add buttons to add panels for testing -->
+    <button @click="addFontPanel('Maven Pro')">Add Maven Pro Panel</button>
+    <button @click="addCategoriesPanel(['/Expressive/Loud'])">Add /Expressive/Loud Panel</button>
   </div>
   <script type="module">
     import { GF, Tags } from './models.js';
     import TagsByFont from "./TagsByFont.js";
     import TagsByCategories from "./TagsByCategories.js";
+    import Panel from "./Panel.js";
 
     Vue.component('tags-by-font', TagsByFont);
     Vue.component('tags-by-categories', TagsByCategories);
+    Vue.component('panel', Panel);
     
     var app = new Vue({
       el: '#app',
       data: {
         gf: null,
         tags: null,
-        fontView: ["Maven Pro", "Roboto"],
-        categoryView: ["/Expressive/Loud", "/Expressive/Childlike"],
+        panels: [
+          { type: 'font', font: 'Roboto' },
+          { type: 'categories', categories: ['/Expressive/Loud', '/Expressive/Childlike'] }
+        ],
+      },
+      methods: {
+        addFontPanel(font) {
+          this.panels.push({ type: 'font', font });
+        },
+        addCategoriesPanel(categories) {
+          this.panels.push({ type: 'categories', categories });
+        },
+        removePanel(idx) {
+          this.panels.splice(idx, 1);
+        }
       },
       async created() {
         // Load the GF and Tags classes
         this.gf = new GF();
-        this.gf.getFamilyData().then(() => {
-          this.gf.loadFamilies()
-          this.tags = new Tags(this.gf);
-          this.tags.items = this.tags.items
-        }).catch(error => {
-          console.error('Error loading family data:', error);
-        });
+        await this.gf.getFamilyData();
+        this.gf.loadFamilies();
+        this.tags = new Tags(this.gf);
+        this.tags.items = this.tags.items;
       }
     });
     window.app = app

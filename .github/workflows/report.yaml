@@ -55,6 +55,7 @@ jobs:
         name: Commit any updated data files
         with:
           file_pattern: ".ci/dashboard/src/data/"
+          token: ${{ secrets.GH_TOKEN }}
 
       # Now build the dashboard
       - name: Install Node.js

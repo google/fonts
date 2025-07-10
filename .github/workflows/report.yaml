@@ -20,6 +20,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -55,7 +56,6 @@ jobs:
         name: Commit any updated data files
         with:
           file_pattern: ".ci/dashboard/src/data/"
-          token: ${{ secrets.GH_TOKEN }}
 
       # Now build the dashboard
       - name: Install Node.js

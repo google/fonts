@@ -30470,6 +30470,10 @@
       {
         "version": "Version 1.001",
         "date": "2025-03-09T03:13:24.138800"
+      },
+      {
+        "version": "Version 1.005",
+        "date": "2025-07-10T10:17:52.700068"
       }
     ],
     "dev": [
@@ -33286,6 +33290,10 @@
       {
         "version": "Version 2.003; ttfautohint (v1.8.4.7-5d5b)",
         "date": "2024-08-28T17:27:03.898185"
+      },
+      {
+        "version": "Version 2.004; ttfautohint (v1.8.4.7-5d5b)",
+        "date": "2025-07-10T10:17:53.687025"
       }
     ],
     "sandbox": [
@@ -33490,6 +33498,10 @@
       {
         "version": "Version 2.003",
         "date": "2024-08-28T17:33:56.400730"
+      },
+      {
+        "version": "Version 3.000",
+        "date": "2025-07-10T10:17:53.396255"
       }
     ],
     "sandbox": [
@@ -34622,6 +34634,10 @@
       {
         "version": "Version 2.003",
         "date": "2024-08-28T18:17:50.250558"
+      },
+      {
+        "version": "Version 3.000",
+        "date": "2025-07-10T10:17:53.815296"
       }
     ],
     "sandbox": [
@@ -39231,6 +39247,10 @@
       {
         "version": "Version 1.010; ttfautohint (v1.8.4.7-5d5b)",
         "date": "2025-03-25T03:25:53.247089"
+      },
+      {
+        "version": "Version 1.011",
+        "date": "2025-07-10T10:17:53.561842"
       }
     ],
     "production": [
@@ -39706,6 +39726,10 @@
       {
         "version": "Version 3.002",
         "date": "2025-06-03T01:56:14.218409"
+      },
+      {
+        "version": "Version 3.003",
+        "date": "2025-07-10T10:17:53.542215"
       }
     ],
     "production": [
@@ -39965,6 +39989,12 @@
         "version": "Version 7.051;RELEASE",
         "date": "2025-07-03T13:58:32.765113"
       }
+    ],
+    "sandbox": [
+      {
+        "version": "Version 7.051;RELEASE",
+        "date": "2025-07-10T10:17:52.932858"
+      }
     ]
   },
   "Nata Sans": {
@@ -39972,6 +40002,12 @@
       {
         "version": "Version 1.001",
         "date": "2025-07-03T13:58:33.219514"
+      }
+    ],
+    "sandbox": [
+      {
+        "version": "Version 1.001",
+        "date": "2025-07-10T10:17:53.389101"
       }
     ]
   },
@@ -39981,6 +40017,12 @@
         "version": "Version 1.000",
         "date": "2025-07-03T13:58:33.351158"
       }
+    ],
+    "sandbox": [
+      {
+        "version": "Version 1.000",
+        "date": "2025-07-10T10:17:53.521187"
+      }
     ]
   },
   "Mozilla Text": {
@@ -39989,6 +40031,12 @@
         "version": "Version 1.000",
         "date": "2025-07-03T13:58:33.377646"
       }
+    ],
+    "sandbox": [
+      {
+        "version": "Version 1.000",
+        "date": "2025-07-10T10:17:53.547560"
+      }
     ]
   },
   "Libertinus Serif": {
@@ -39996,6 +40044,20 @@
       {
         "version": "Version 7.051;RELEASE",
         "date": "2025-07-03T13:58:33.447016"
+      }
+    ],
+    "sandbox": [
+      {
+        "version": "Version 7.051;RELEASE",
+        "date": "2025-07-10T10:17:53.617100"
+      }
+    ]
+  },
+  "Google Sans Code": {
+    "dev": [
+      {
+        "version": "Version 6.000",
+        "date": "2025-07-10T10:17:53.554856"
       }
     ]
   }

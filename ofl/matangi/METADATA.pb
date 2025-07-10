@@ -37,31 +37,31 @@ source {
     dest_file: "ARTICLE.en_us.html"
   }
   files {
-    source_file: "article/MATANGI-01.jpg"
+    source_file: "article/matangi-01.jpg"
     dest_file: "matangi-01.jpg"
   }
   files {
-    source_file: "article/MATANGI-02.jpg"
+    source_file: "article/matangi-02.jpg"
     dest_file: "matangi-02.jpg"
   }
   files {
-    source_file: "article/MATANGI-03.jpg"
+    source_file: "article/matangi-03.jpg"
     dest_file: "matangi-03.jpg"
   }
   files {
-    source_file: "article/MATANGI-04.jpg"
+    source_file: "article/matangi-04.jpg"
     dest_file: "matangi-04.jpg"
   }
   files {
-    source_file: "article/MATANGI-05.jpg"
+    source_file: "article/matangi-05.jpg"
     dest_file: "matangi-05.jpg"
   }
   files {
-    source_file: "article/MATANGI-06.jpg"
+    source_file: "article/matangi-06.jpg"
     dest_file: "matangi-06.jpg"
   }
   files {
-    source_file: "article/MATANGI-07.jpg"
+    source_file: "article/matangi-07.jpg"
     dest_file: "matangi-07.jpg"
   }
   branch: "main"

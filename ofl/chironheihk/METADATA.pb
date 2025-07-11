@@ -21,7 +21,7 @@ fonts {
   full_name: "Chiron Hei HK ExtraLight Italic"
   copyright: "Copyright 2025 The Chiron Hei HK Project Authors (https://github.com/chiron-fonts/chiron-hei-hk)"
 }
-subsets: "chinese-hongkong"
+subsets: "chinese-traditional"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"

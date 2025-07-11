@@ -6,6 +6,11 @@ export default {
       return this.tags.filter(tag => tag.family && tag.family.name === this.font);
     }
   },
+  methods: {
+    removeTag(tag) {
+      this.$root.$emit('remove-tag', tag);
+    }
+  },
   template: `
     <div>
       <h3>Tags for fonter</h3>
@@ -16,7 +21,9 @@ export default {
       </select>
       <ul>
         <li v-for="tag in filteredTags" :key="tag.tagName + tag.family.name">
-          {{ tag.tagName }} (Score: {{ tag.score }})
+          {{ tag.tagName }}
+           <input type="number" v-model="tag.score" @change="$emit('update:tags', tags)" />
+           <button @click="removeTag(tag)">Remove</button>
         </li>
       </ul>
     </div>

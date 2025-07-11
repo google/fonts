@@ -21,10 +21,12 @@
     import TagsByFont from "./TagsByFont.js";
     import TagsByCategories from "./TagsByCategories.js";
     import Panel from "./Panel.js";
+    import TagView from "./TagView.js";
 
     Vue.component('tags-by-font', TagsByFont);
     Vue.component('tags-by-categories', TagsByCategories);
     Vue.component('panel', Panel);
+    Vue.component('tag-view', TagView);
     
     var app = new Vue({
       el: '#app',
@@ -45,6 +47,13 @@
         },
         removePanel(idx) {
           this.panels.splice(idx, 1);
+        },
+        removeTag(tag) {
+          console.log("Removing tag:", tag);
+          const index = this.tags.items.indexOf(tag)
+          if (index !== -1) {
+            this.tags.items.splice(index, 1);
+          }
         }
       },
       async created() {
@@ -54,6 +63,7 @@
         this.gf.loadFamilies();
         this.tags = new Tags(this.gf);
         this.tags.items = this.tags.items;
+        this.$root.$on("remove-tag", this.removeTag);
       }
     });
     window.app = app

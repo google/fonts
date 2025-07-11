@@ -1,5 +1,5 @@
 name: "TikTok Sans"
-designer: "Contrast Foundry, Grilli Type, Type Network"
+designer: "Grilli Type, Contrast Foundry, Type Network"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-07-09"

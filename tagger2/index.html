@@ -10,6 +10,7 @@
     </div>
     <button @click="addFontPanel('Maven Pro')">Add Font View</button>
     <button @click="addCategoriesPanel(['/Expressive/Loud'])">Add Tag View</button>
+    <add-tag :categories="sortedCategories" @tag-added="addTag"></add-tag>
     <div style="display: flex; flex-direction: row; width: 100vw; min-height: 100vh;">
       <div v-for="(panel, idx) in panels" :key="idx" :style="{ flex: '1 1 0', minWidth: 0, borderRight: idx < panels.length - 1 ? '1px solid #eee' : 'none', height: '100vh', overflow: 'auto' }">
         <panel :panel="panel" :tags="tags && tags.items ? tags.items : []" @remove="removePanel(idx)"></panel>
@@ -22,11 +23,13 @@
     import TagsByCategories from "./TagsByCategories.js";
     import Panel from "./Panel.js";
     import TagView from "./TagView.js";
+    import AddTag from "./AddTag.js";
 
     Vue.component('tags-by-font', TagsByFont);
     Vue.component('tags-by-categories', TagsByCategories);
     Vue.component('panel', Panel);
     Vue.component('tag-view', TagView);
+    Vue.component('add-tag', AddTag);
     
     var app = new Vue({
       el: '#app',
@@ -37,6 +40,15 @@
           { type: 'font', font: 'Roboto' },
           { type: 'categories', categories: ['/Expressive/Loud', '/Expressive/Childlike'] }
         ],
+      },
+
+      computed: {
+        sortedCategories() {
+          const res = this.tags.items.map(tag => tag.tagName)
+            .filter((value, index, self) => self.indexOf(value) === index)
+            .sort();
+          return res;
+        }
       },
       methods: {
         addFontPanel(font) {
@@ -54,6 +66,11 @@
           if (index !== -1) {
             this.tags.items.splice(index, 1);
           }
+        },
+        addTag(tag) {
+          const family = this.gf.families.find(f => f.name === tag.family);
+          tag.family = family
+          this.tags.items.push(tag);
         }
       },
       async created() {

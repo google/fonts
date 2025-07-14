@@ -48,8 +48,8 @@ jobs:
       - name: Grab data files from last run
         working-directory: .ci/dashboard/src/data/
         run: |
-          curl https://google.github.io/fonts/_file/data/servers.d9167fe6.json -o servers.json
-          curl https://google.github.io/fonts/_file/data/versionhistory.cab04ce9.json -o versionhistory.json
+          curl https://google.github.io/fonts/_file/data/servers.json -o servers.json
+          curl https://google.github.io/fonts/_file/data/versionhistory.json -o versionhistory.json
       - name: Write out secret
         run: echo "${{ secrets.GF_PUSH_CONFIG }}" | base64 -d > ~/.gf_push_config.ini
       - name: Update servers

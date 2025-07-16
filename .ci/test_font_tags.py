@@ -1,4 +1,6 @@
+from collections import defaultdict
 import pytest
+import ast
 import json
 from urllib.request import urlopen
 import csv
@@ -20,6 +22,13 @@ def family_tags():
     for row in reader:
         res.append([row[0], row[1], float(row[2])])
     return res
+
+@pytest.fixture
+def tag_rules():
+    fp = os.path.join(os.path.dirname(__file__), "..", "tagger2", "tag_rules.csv")
+    reader = csv.reader(open(fp, "r", encoding="utf-8"))
+    rules = [row for row in reader if row and not row[0].startswith("#")]
+    return rules
 
 
 @pytest.fixture
@@ -75,3 +84,41 @@ def test_tag_vals_in_range(family_tags):
         if val <= 0 or val > 100:
             out_of_range.append((family, cat, val))
     assert not out_of_range, f"Values out of range 1-100: {out_of_range}"
+
+def create_context(family, family_tags):
+    """Evaluate a rule against a family name."""
+    tag = defaultdict(lambda: float("nan"))
+    for f, c, v in family_tags:
+        if f == family:
+            tag[c] = v
+    font = {}
+    font["OS/2"] = {"fsSelection": 0}  # Dummy value for now
+    return {"tag": tag, "font": font, "family": family}
+
+def test_rules_are_ok(tag_rules):
+    """Check that the rules in tag_rules.csv are valid for the families.csv file."""
+    for rule, severity, message in tag_rules:
+        if severity not in ["WARN", "INFO", "FAIL"]:
+            raise ValueError(f"Invalid severity '{severity}' in rule: {rule}")
+        # Each rule should be a valid snippet of Python code
+        try:
+            ast.parse(rule)
+        except SyntaxError as e:
+            raise ValueError(f"Invalid rule syntax in rule '{rule}': {e}")
+
+def test_rules(family_tags, tag_rules):
+    """Check that the families are valid according to the rules."""
+    tagged_families = set(f[0] for f in family_tags)
+    problems = []
+    for family in sorted(tagged_families):
+        context = create_context(family, family_tags)
+        for rule, severity, message in tag_rules:
+            try:
+                ok = not eval(rule, context)
+            except Exception as e:
+                raise ValueError(f"Error evaluating rule '{rule}' for family '{family}': {e}")
+            if not ok and (severity == "FAIL" or severity == "WARN"):
+                problems.append(
+                    f"{family}: {message} ({severity})"
+                )
+    assert not problems, "\n".join(problems)

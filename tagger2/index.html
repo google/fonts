@@ -2,6 +2,7 @@
 <html>
 <head>
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="app">
@@ -33,6 +34,7 @@
     import AddTags from "./AddTags.js";
     import AddCategory from "./AddCategory.js";
     import VFView from "./VFView.js";
+    import { linter } from "./linter.js";
 
     Vue.component('tags-by-font', TagsByFont);
     Vue.component('tags-by-categories', TagsByCategories);
@@ -93,7 +95,9 @@
         // Load the GF and Tags classes
         this.gf = new GF();
         await this.gf.getFamilyData();
+        await this.gf.getLintRules();
         this.gf.loadFamilies();
+        this.gf.linter = linter;
         this.tags = new Tags(this.gf);
         this.tags.sortCategories();
         this.$root.$on("remove-tag", this.removeTag);

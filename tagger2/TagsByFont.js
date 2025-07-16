@@ -7,6 +7,9 @@ export default {
     },
     similarFamilies() {
       return this.$root.gf.similarFamilies(this.font, 10);
+    },
+    lintErrors() {
+      return this.$root.gf.linter(this.$root.gf.lintRules, this.font, this.filteredTags);
     }
   },
   methods: {
@@ -36,6 +39,9 @@ export default {
       <ul>
         <li v-for="family in similarFamilies" :key="family" :style="{ fontFamily: family }">
           {{ family }} <button @click="addFontPanel(family)">Add</button>
+        </li>
+        <li v-for="error in lintErrors" :key="error.description" :class="{ 'tag-error': error.severity === 'ERROR', 'tag-warn': error.severity === 'WARN', 'tag-fail': error.severity === 'FAIL', 'tag-info': error.severity === 'INFO' }">
+        {{ error.description }}
         </li>
       </ul>
     </div>

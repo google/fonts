@@ -12,6 +12,8 @@
     <button @click="addFontPanel('Maven Pro')">Tags in font</button>
     <button @click="addCategoriesPanel(['/Expressive/Loud'])">Tags in category</button>
     <button @click="addVFViewPanel()">Font explorer</button>
+    <button @click="addFontPanel('Maven Pro')">Add Font View</button>
+    <button @click="addCategoriesPanel(['/Expressive/Loud'])">Add Tag View</button>
     <add-tag :categories="categories" @tag-added="addTag"></add-tag>
     <add-category @category-added="addCategory"></add-category>
     <div style="display: flex; flex-direction: row; width: 100vw; min-height: 100vh;">
@@ -35,6 +37,7 @@
     import AddCategory from "./AddCategory.js";
     import VFView from "./VFView.js";
     import { linter } from "./linter.js";
+    import AddCategory from "./AddCategory.js";
 
     Vue.component('tags-by-font', TagsByFont);
     Vue.component('tags-by-categories', TagsByCategories);
@@ -44,6 +47,7 @@
     Vue.component("add-tags", AddTags);
     Vue.component('add-category', AddCategory);
     Vue.component('vf-view', VFView);
+    Vue.component('add-category', AddCategory);
     
     var app = new Vue({
       el: '#app',

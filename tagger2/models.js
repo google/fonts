@@ -26,9 +26,10 @@ export class FontTag {
         return `${this.tagName},${this.family.name},${axesCSV},${this.score}`;
     }
     get cssStyle() {
-      if (!this.family.isVF) {
+      if (this.axes.length === 0) {
         return `font-family: ${this.family.name}; font-size: 32pt;`;
       }
+      // TODO after lunch
       let cleaned = this.family.name.replaceAll('"', '')
       let [name, axes] = cleaned.split(":");
       let [axisTag, axisCoords] = this.family.axes.split("@");
@@ -116,6 +117,7 @@ export class Tags {
         this.gf = gf;
         this.items = []
         this.loadTags();
+        this.categories = [];
     }
     toCSV() {
         return this.items.map(tag => tag.toCSV()).join('\n');
@@ -126,6 +128,9 @@ export class Tags {
     }
     sort() {
         this.items.sort((a, b) => a.tagName.localeCompare(b.tagName));
+    }
+    sortCategories() {
+        this.categories.sort((a, b) => a.localeCompare(b));
     }
     loadTags(commit) {
         if (commit === undefined) {
@@ -148,6 +153,9 @@ export class Tags {
                 }
                 const tag = new FontTag(tagName, family, [], score);
                 this.items.push(tag);
+                if (!this.categories.includes(tag.tagName)) {
+                    this.categories.push(tag.tagName);
+                }
             }
         })
     }

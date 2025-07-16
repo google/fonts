@@ -18,14 +18,14 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/aliftype/amiri"
   commit: "480bb746e99ea700bb0d6b4dbf96302d58192103"
-  archive_url: "https://github.com/aliftype/amiri/releases/download/1.002/Amiri-1.002.zip"
+  archive_url: "https://github.com/aliftype/amiri/releases/download/1.003/Amiri-1.003.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
     source_file: "AmiriQuran.ttf"
-    dest_file: "AmiriQuran-Regular.ttf"
+    dest_file: "AmiriQuran.ttf"
   }
   branch: "main"
 }

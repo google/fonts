@@ -13,7 +13,7 @@ export default {
   },
   template: `
     <div>
-      <h3>Tags for fonter</h3>
+      <h3>Tags for:</h3>
       <select v-model="font" @change="filteredTags">
         <option v-for="tag in tags.map(tag => tag.family.name).filter((value, index, self) => self.indexOf(value) === index)" :key="tag">
           {{ tag }}

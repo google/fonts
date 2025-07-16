@@ -10,6 +10,7 @@ export default {
       <button @click="remove" style="float:right">✕</button>
       <tags-by-font v-if="panel.type === 'font'" :tags="tags" :font="panel.font"></tags-by-font>
       <tags-by-categories v-else-if="panel.type === 'categories'" :tags="tags" :categories="panel.categories"></tags-by-categories>
+      <vf-view v-else-if="panel.type === 'vf-view'" :families="panel.families"></vf-view>
     </div>
   `
 };

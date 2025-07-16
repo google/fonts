@@ -53,7 +53,14 @@ export class Font {
         return this.axes.length > 0;
     }
     get cssStyle() {
-        return `font-family: '${this.name}';`;
+        if (!this.isVF) {
+            return `font-family: '${this.name}'; font-size: 32pt;`;
+        }
+        let res = `font-family: '${this.name}'; font-size: 32pt; font-variation-settings:`;
+        this.axes.forEach(axis => {
+            res += ` '${axis.tag}' ${axis.min}..${axis.max},`;
+        });
+        return res.slice(0, -1) + ';'; // Remove trailing comma and add semicolon
     }
     get url() {
         let path = `https://fonts.googleapis.com/css2?family=${this.name.replaceAll(" ", "+")}`

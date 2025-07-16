@@ -8,13 +8,18 @@
     <div id="fonts">
       <link v-for="family in gf && gf.families ? gf.families : []" :href="family.url" rel="stylesheet">
     </div>
-    <button @click="addFontPanel('Maven Pro')">Add Font View</button>
-    <button @click="addCategoriesPanel(['/Expressive/Loud'])">Add Tag View</button>
+    <button @click="addFontPanel('Maven Pro')">Tags in font</button>
+    <button @click="addCategoriesPanel(['/Expressive/Loud'])">Tags in category</button>
+    <button @click="addVFViewPanel()">Font explorer</button>
     <add-tag :categories="categories" @tag-added="addTag"></add-tag>
     <add-category @category-added="addCategory"></add-category>
     <div style="display: flex; flex-direction: row; width: 100vw; min-height: 100vh;">
       <div v-for="(panel, idx) in panels" :key="idx" :style="{ flex: '1 1 0', minWidth: 0, borderRight: idx < panels.length - 1 ? '1px solid #eee' : 'none', height: '100vh', overflow: 'auto' }">
-        <panel :panel="panel" :tags="tags && tags.items ? tags.items : []" @remove="removePanel(idx)"></panel>
+        <panel
+          :panel="panel"
+          :tags="tags && tags.items ? tags.items : []"
+          @remove="removePanel(idx)"
+        ></panel>
       </div>
     </div>
   </div>
@@ -26,6 +31,7 @@
     import TagView from "./TagView.js";
     import AddTag from "./AddTag.js";
     import AddCategory from "./AddCategory.js";
+    import VFView from "./VFView.js";
 
     Vue.component('tags-by-font', TagsByFont);
     Vue.component('tags-by-categories', TagsByCategories);
@@ -33,6 +39,7 @@
     Vue.component('tag-view', TagView);
     Vue.component('add-tag', AddTag);
     Vue.component('add-category', AddCategory);
+    Vue.component('vf-view', VFView);
     
     var app = new Vue({
       el: '#app',
@@ -50,6 +57,9 @@
         },
         addCategoriesPanel(categories) {
           this.panels.push({ type: 'categories', categories });
+        },
+        addVFViewPanel() {
+          this.panels.push({ type: 'vf-view', families: this.gf.families });
         },
         removePanel(idx) {
           this.panels.splice(idx, 1);

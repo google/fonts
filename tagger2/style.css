@@ -1,0 +1,9 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.tag-error { background-color: #f88f7e; padding: 2px; }
+.tag-warn { color: #c0a007; }
+.tag-fail { color: #c02007; }
+.tag-info { color: #007ac0; }

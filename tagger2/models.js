@@ -83,6 +83,7 @@ export class GF {
     constructor() {
         this.familyData = {}; 
         this.families = [];
+        this.lintRules = [];
     }
     async getFamilyData() {
         let data = await loadText('family_data.json');
@@ -91,6 +92,26 @@ export class GF {
         familyMeta.forEach(family => {
             this.familyData[family.family] = family;
         });
+    }
+    async getLintRules() {
+        let data = await loadText('tag_rules.csv');
+        const lines = data.split('\n');
+        for (let line of lines) {
+            if (line.startsWith('#') || line.trim() === '') {
+                continue;
+            }
+            let [rule, severity, description] = line.split(',');
+            description = description.replace(/^"(.*)"$/, '$1');
+            if (!rule || !description || !severity) {
+                console.warn("Skipping line due to missing fields:", line);
+                continue;
+            }
+            this.lintRules.push({
+                rule: rule.trim(),
+                description: description.trim(),
+                severity: severity.trim()
+            });
+        }
     }
     loadFamilies() {
         for (let familyName in this.familyData) {

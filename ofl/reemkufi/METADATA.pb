@@ -27,11 +27,11 @@ source {
   commit: "d304c9a381a4b005d9527312c8d51508e57ed0ed"
   archive_url: "https://github.com/aliftype/reem-kufi/releases/download/v2.0/ReemKufi-2.0.zip"
   files {
-    source_file: "OFL.txt"
+    source_file: "ReemKufi-2.0/OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "ReemKufi.ttf"
+    source_file: "ReemKufi-2.0/ReemKufi.ttf"
     dest_file: "ReemKufi[wght].ttf"
   }
   branch: "main"

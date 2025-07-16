@@ -1,0 +1,31 @@
+# Active
+tag["/Expressive/Active"] > 0 and tag["/Expressive/Business"] > 50,WARN,"Active and Business?"
+tag["/Expressive/Active"] > 0 and tag["/Expressive/Calm"] > 0,WARN,"Active and Calm?"
+tag["/Expressive/Active"] > 0 and tag["/Expressive/Stiff"] > 0,WARN,"Active and Stiff?"
+tag["/Expressive/Excited"] > 0 and not tag["/Expressive/Active"] > 0,WARN,"Excited but not Active?"
+tag["/Expressive/Playful"] > 0 and not tag["/Expressive/Active"] > 0,WARN,"Playful but not Active?"
+tag["/Expressive/Cute"] > 0 and not tag["/Expressive/Active"] > 0,INFO,"Cute but not Active?"
+tag["/Expressive/Calligraphy"] > 0 and not tag["/Expressive/Active"],INFO,"Calligraphy but not Active?"
+
+# Awkward
+tag["/Expressive/Awkward"] > 0 and tag["/Expressive/Fancy"] > 0,WARN,"Awkward and Fancy?"
+tag["/Expressive/Awkward"] > 0 and tag["/Expressive/Sophisticated"] > 0,WARN,"Awkward and Sophisticated?"
+
+# Fancy
+tag["/Expressive/Fancy"] > 0 and not tag["/Expressive/Active"] > 0,INFO,"Fancy but not Active?"
+tag["/Expressive/Fancy"] > 0 and not font["OS/2"]["fsSelection"] & 0x1,INFO,"Italic but not Active?"
+
+# Business
+tag["/Expressive/Business"] > 0 and tag["/Expressive/Artistic"] > 0,WARN,"Business and Artistic?"
+tag["/Expressive/Business"] > 0 and tag["/Expressive/Awkward"] > 0,WARN,"Business and Awkward?"
+tag["/Expressive/Business"] > 0 and tag["/Expressive/Childlike"] > 0,WARN,"Business and Childlike?"
+tag["/Expressive/Business"] > 0 and tag["/Expressive/Cute"] > 0,WARN,"Business and Cute?"
+tag["/Expressive/Business"] > 0 and tag["/Expressive/Excited"] > 0,WARN,"Business and Excited?"
+tag["/Expressive/Business"] > 0 and tag["/Expressive/Fancy"] > 0,WARN,"Business and Fancy?"
+tag["/Expressive/Business"] > 0 and tag["/Expressive/Happy"] > 0,WARN,"Business and Happy?"
+tag["/Expressive/Business"] > 0 and tag["/Expressive/Loud"] > 0,WARN,"Business and Loud?"
+tag["/Expressive/Business"] > 0 and "SC" in family,FAIL,"Small-caps families are banned from Business"
+tag["/Expressive/Business"] > 50 and tag["/Quality/Wordspace"] < 80,FAIL,"Business but low Wordspace quality?"
+tag["/Expressive/Business"] > 50 and tag["/Quality/Drawing"] < 80,FAIL,"Business but low Drawing quality?"
+tag["/Expressive/Business"] > 50 and tag["/Quality/Spacing"] < 80,FAIL,"Business but low Spacing quality?"
+

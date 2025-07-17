@@ -15,6 +15,7 @@
     <button @click="addFontPanel('Maven Pro')">Add Font View</button>
     <button @click="addCategoriesPanel(['/Expressive/Loud'])">Add Tag View</button>
     <add-tag :categories="categories" @tag-added="addTag"></add-tag>
+    <add-tags :categories="categories" @tags-added="addTags"></add-tags>
     <add-category @category-added="addCategory"></add-category>
     <div style="display: flex; flex-direction: row; width: 100vw; min-height: 100vh;">
       <div v-for="(panel, idx) in panels" :key="idx" :style="{ flex: '1 1 0', minWidth: 0, borderRight: idx < panels.length - 1 ? '1px solid #eee' : 'none', height: '100vh', overflow: 'auto' }">
@@ -37,6 +38,7 @@
     import AddCategory from "./AddCategory.js";
     import VFView from "./VFView.js";
     import { linter } from "./linter.js";
+    import AddTags from "./AddTags.js";
     import AddCategory from "./AddCategory.js";
     import VFView from "./VFView.js";
 
@@ -85,6 +87,25 @@
           tag.family = family
           this.tags.items.push(tag);
         },
+        addTags(filterSet) {
+            let tags = []
+            let filteredFamilies = []
+            for (let family of this.gf.families) {
+              let includeFamily = false;
+              for (let axis of family.axes) {
+                if (
+                  filterSet.filters.map(f => f.axis).includes(axis.tag) &&
+                  axis.min <= filterSet.filters.find(f => f.axis === axis.tag).value &&
+                  axis.max >= filterSet.filters.find(f => f.axis === axis.tag).value) {
+                    includeFamily = true;
+                  }
+              }
+              if (includeFamily) {
+                console.log("Including family:", family);
+              }
+              includeFamily = false;
+            }
+        },
         addCategory(category) {
           console.log("Adding category", category);
           if (!this.tags.categories.includes(category)) {
@@ -106,6 +127,8 @@
         this.gf.linter = linter;
         this.tags = new Tags(this.gf);
         this.tags.sortCategories();
+
+        // Subscribe to events
         this.$root.$on("remove-tag", this.removeTag);
       }
     });

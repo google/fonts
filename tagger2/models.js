@@ -106,7 +106,9 @@ export class GF {
         let styleEmbeddings = JSON.parse(styleEmbeddingsData);
         familyMeta.forEach(family => {
             this.familyData[family.family] = family;
-            this.familyData[family.family].style = styleEmbeddings[family.family] || [];
+            if (family.family in styleEmbeddings) {
+                this.familyData[family.family].style = styleEmbeddings[family.family];
+            }
         });
     }
     loadFamilies() {
@@ -132,7 +134,9 @@ export class GF {
             console.warn(`Family not found: ${name}`);
             return [];
         }
-        let distances = Object.values(this.familyData).map(f => {
+        let distances = Object.values(this.familyData).filter(
+            f => f.style // New fonts may not have style embeddings
+        ).map(f => {
             // Compute norm between the style embeddings
             let distance = family.style.map((value, index) => {
                 return (value - (f.style[index] || 0)) ** 2;
@@ -140,7 +144,7 @@ export class GF {
             return [f.family, Math.sqrt(distance)];
         });
         distances.sort((a, b) => a[1] - b[1]);
-        return distances.slice(0, count).map(item => item[0]);
+        return distances.slice(0, count).map(item => item[0]).filter(familyName => familyName !== name);
     }
 }
 

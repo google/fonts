@@ -4,11 +4,17 @@ export default {
     filteredTags() {
       // Assumes each tag has a property 'family' with a 'name'
       return this.tags.filter(tag => tag.family && tag.family.name === this.font);
+    },
+    similarFamilies() {
+      return this.$root.gf.similarFamilies(this.font, 10);
     }
   },
   methods: {
     removeTag(tag) {
       this.$root.$emit('remove-tag', tag);
+    },
+    addFontPanel(font) {
+      this.$root.panels.push({ type: 'font', font });
     }
   },
   template: `
@@ -24,6 +30,12 @@ export default {
           {{ tag.tagName }}
            <input type="number" v-model="tag.score" @change="$emit('update:tags', tags)" />
            <button @click="removeTag(tag)">Remove</button>
+        </li>
+      </ul>
+      <p>Similar families</p>
+      <ul>
+        <li v-for="family in similarFamilies" :key="family" :style="{ fontFamily: family }">
+          {{ family }} <button @click="addFontPanel(family)">Add</button>
         </li>
       </ul>
     </div>

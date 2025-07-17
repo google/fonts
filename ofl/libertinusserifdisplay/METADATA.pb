@@ -10,7 +10,7 @@ fonts {
   filename: "LibertinusSerifDisplay-Regular.ttf"
   post_script_name: "LibertinusSerifDisplay-Regular"
   full_name: "Libertinus Serif Display Regular"
-  copyright: "???."
+  copyright: "Copyright 2025 The Libertinus Serif Display Project Authors (https://github.com/googlefonts/libertinus)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

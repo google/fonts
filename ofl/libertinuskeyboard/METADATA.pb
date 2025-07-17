@@ -10,7 +10,7 @@ fonts {
   filename: "LibertinusKeyboard-Regular.ttf"
   post_script_name: "LibertinusKeyboard-Regular"
   full_name: "Libertinus Keyboard Regular"
-  copyright: "???."
+  copyright: "Copyright 2025 The Libertinus Keyboard Project Authors (https://github.com/googlefonts/libertinus)"
 }
 subsets: "latin"
 subsets: "latin-ext"

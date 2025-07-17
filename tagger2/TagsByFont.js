@@ -32,7 +32,7 @@ export default {
            <button @click="removeTag(tag)">Remove</button>
         </li>
       </ul>
-      <p>Similar families</p>
+      <p v-if="similarFamilies.length">Similar families</p>
       <ul>
         <li v-for="family in similarFamilies" :key="family" :style="{ fontFamily: family }">
           {{ family }} <button @click="addFontPanel(family)">Add</button>

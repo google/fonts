@@ -28,7 +28,7 @@
     </div>
   </div>
   <script type="module">
-    import { GF, Tags } from './models.js';
+    import { GF, Tags, FontTag } from './models.js';
     import TagsByFont from "./TagsByFont.js";
     import TagsByCategories from "./TagsByCategories.js";
     import Panel from "./Panel.js";
@@ -88,23 +88,28 @@
           this.tags.items.push(tag);
         },
         addTags(filterSet) {
-            let tags = []
-            let filteredFamilies = []
-            for (let family of this.gf.families) {
-              let includeFamily = false;
-              for (let axis of family.axes) {
-                if (
-                  filterSet.filters.map(f => f.axis).includes(axis.tag) &&
-                  axis.min <= filterSet.filters.find(f => f.axis === axis.tag).value &&
-                  axis.max >= filterSet.filters.find(f => f.axis === axis.tag).value) {
-                    includeFamily = true;
-                  }
+          for (let family of this.gf.families) {
+            let addFamily = false;
+            for (let axis of family.axes) {
+              if (
+                filterSet.lowTag.filters.some(f => f.axis == axis.tag) &&
+                filterSet.highTag.filters.some(f => f.axis == axis.tag) &&
+                filterSet.lowTag.filters.some(f => f.value >= axis.min) &&
+                filterSet.highTag.filters.some(f => f.value <= axis.max)
+              ) {
+                addFamily = true;
               }
-              if (includeFamily) {
-                console.log("Including family:", family);
-              }
-              includeFamily = false;
             }
+            if (addFamily) {
+              for (let category of filterSet.categories) {
+                const lowTag = new FontTag(category, family, filterSet.lowTag.filters, filterSet.lowTag.score);
+                const highTag = new FontTag(category, family, filterSet.highTag.filters, filterSet.highTag.score);
+                console.log(lowTag, highTag, "tt");
+                this.tags.items.push(lowTag);
+                this.tags.items.push(highTag);
+              }
+            }
+          }
         },
         addCategory(category) {
           console.log("Adding category", category);

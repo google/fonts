@@ -29,7 +29,7 @@ export default {
         </option>
       </select>
       <ul>
-        <li v-for="tag in filteredTags" :key="tag.tagName + tag.family.name">
+        <li v-for="tag in filteredTags" :key="tag.tagName + tag.family.name + tag.score">
           {{ tag.tagName }}
            <input type="number" v-model="tag.score" @change="$emit('update:tags', tags)" />
            <button @click="removeTag(tag)">Remove</button>

@@ -48,7 +48,7 @@ export default {
           {{ category }}
         </option>
       </select>
-        <div v-for="tag in filteredTags" :key="tag.family.name + tag.tagName">
+        <div v-for="tag in filteredTags" :key="tag.family.name + tag.tagName + tag.score">
           <tag-view :tag="tag"></tag-view>
         </div>
     </div>

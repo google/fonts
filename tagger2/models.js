@@ -102,8 +102,11 @@ export class GF {
         let data = await loadText('family_data.json');
         data = JSON.parse(data);
         let familyMeta = data["familyMetadataList"];
+        let styleEmbeddingsData = await loadText('embeddings.json');
+        let styleEmbeddings = JSON.parse(styleEmbeddingsData);
         familyMeta.forEach(family => {
             this.familyData[family.family] = family;
+            this.familyData[family.family].style = styleEmbeddings[family.family] || [];
         });
     }
     loadFamilies() {
@@ -122,6 +125,22 @@ export class GF {
     }
     family(name) {
         return this.families.find(family => family.name === name);
+    }
+    similarFamilies(name, count = 10) {
+        const family = this.familyData[name];
+        if (!family || !family.style) {
+            console.warn(`Family not found: ${name}`);
+            return [];
+        }
+        let distances = Object.values(this.familyData).map(f => {
+            // Compute norm between the style embeddings
+            let distance = family.style.map((value, index) => {
+                return (value - (f.style[index] || 0)) ** 2;
+            }).reduce((a, b) => a + b, 0);
+            return [f.family, Math.sqrt(distance)];
+        });
+        distances.sort((a, b) => a[1] - b[1]);
+        return distances.slice(0, count).map(item => item[0]);
     }
 }
 

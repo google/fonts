@@ -2,6 +2,8 @@ body {
     font-family: sans-serif;
     margin: 0;
 }
+h1,h2,h3 { margin-top: 0; margin-bottom: 0; }
+.frame h1, .frame h2, .frame h3 { margin-top: 5px; margin-bottom: 5px; }
 
 .tag-error { background-color: #f88f7e; padding: 2px; }
 .tag-warn { color: #c0a007; }
@@ -16,4 +18,4 @@ body {
 .frame { margin: 5px; padding: 5px; border: 1px solid black; }
 .panel { margin: 5px; padding: 5px; }
 
-.sample { font-size: 25pt; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 100%; }
+.sample { font-size: 25pt; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 100%; margin-top: 5px; margin-bottom: 5px; }

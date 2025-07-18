@@ -35,17 +35,11 @@ export class FontTag {
       if (this.axes.length === 0) {
         return `font-family: ${this.family.name}; font-size: 32pt;`;
       }
-      // TODO after lunch
-      let cleaned = this.family.name.replaceAll('"', '')
-      let [name, axes] = cleaned.split(":");
-      let [axisTag, axisCoords] = this.family.axes.split("@");
-      let axisTags = axisTag.split(",");
-      let axisCoordinates = axisCoords.split(",");
-      let style = `font-family: "${name}", "Adobe NotDef"; font-size: 32pt; font-variation-settings:`;
-      for (let i = 0; i < axisTags.length; i++) {
-        style += ` '${axisTags[i]}' ${axisCoordinates[i]};`;
+      let style = `font-family: "${this.family.name}", "Adobe NotDef"; font-size: 32pt; font-variation-settings:`;
+      for (let axis of this.axes) {
+        style += ` '${axis.tag}' ${axis.value},`;
       }
-      return style
+      return style.slice(0, -1) + ';'; // Remove trailing comma and add semicolon
     }
 
 }

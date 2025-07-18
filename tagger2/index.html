@@ -102,9 +102,8 @@
             }
             if (addFamily) {
               for (let category of filterSet.categories) {
-                const lowTag = new FontTag(category, family, filterSet.lowTag.filters, filterSet.lowTag.score);
-                const highTag = new FontTag(category, family, filterSet.highTag.filters, filterSet.highTag.score);
-                console.log(lowTag, highTag, "tt");
+                const lowTag = new FontTag(category, family, [{tag: "wght", value: 100}], filterSet.lowTag.score);
+                const highTag = new FontTag(category, family, [{tag: "wght", value: 900}], filterSet.highTag.score);
                 this.tags.items.push(lowTag);
                 this.tags.items.push(highTag);
               }

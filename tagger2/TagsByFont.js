@@ -34,7 +34,7 @@ export default {
 
       <ul>
         <li v-for="tag in filteredTags" :key="tag.tagName + tag.family.name + tag.score">
-          {{ tag.tagName }}
+          <span class="tag-name">{{ tag.tagName }}</span>
            <input type="number" v-model="tag.score" @change="$emit('update:tags', tags)" />
            <button @click="removeTag(tag)">Remove</button>
         </li>

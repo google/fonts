@@ -13,7 +13,7 @@ tag["/Expressive/Awkward"] > 0 and tag["/Expressive/Sophisticated"] > 0,WARN,"Aw
 
 # Fancy
 tag["/Expressive/Fancy"] > 0 and not tag["/Expressive/Active"] > 0,INFO,"Fancy but not Active?"
-tag["/Expressive/Fancy"] > 0 and not font["OS/2"]["fsSelection"] & 0x1,INFO,"Italic but not Active?"
+#tag["/Expressive/Fancy"] > 0 and not font["OS/2"]["fsSelection"] & 0x1,INFO,"Italic but not Active?"
 
 # Business
 tag["/Expressive/Business"] > 0 and tag["/Expressive/Artistic"] > 0,WARN,"Business and Artistic?"

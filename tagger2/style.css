@@ -15,3 +15,5 @@ body {
 
 .frame { margin: 5px; padding: 5px; border: 1px solid black; }
 .panel { margin: 5px; padding: 5px; }
+
+.sample { font-size: 25pt; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 100%; }

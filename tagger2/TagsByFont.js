@@ -28,6 +28,10 @@ export default {
           {{ tag }}
         </option>
       </select>
+      <p :style="{ fontFamily: font }" contenteditable="true" class="sample">
+        Grumpy wizards make toxic brew for the evil Queen and Jack.
+      </p>
+
       <ul>
         <li v-for="tag in filteredTags" :key="tag.tagName + tag.family.name + tag.score">
           {{ tag.tagName }}

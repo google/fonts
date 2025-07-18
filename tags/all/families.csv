@@ -251,6 +251,7 @@ Alfa Slab One,/Serif/Fat Face,70
 Alfa Slab One,/Slab/Geometric,50
 Alfa Slab One,/Slab/Humanist,50
 Alice,/Expressive/Vintage,76.7
+Alice,/Quality/Spacing,70
 Alice,/Quality/Wordspace,90
 Alice,/Serif/Old Style Garalde,70
 Alike Angular,/Expressive/Rugged,40
@@ -933,6 +934,7 @@ Bahianita,/Quality/Wordspace,90
 Bai Jamjuree,/Expressive/Business,42
 Bai Jamjuree,/Expressive/Calm,75
 Bai Jamjuree,/Expressive/Stiff,94
+Bai Jamjuree,/Quality/Spacing,60
 Bai Jamjuree,/Quality/Wordspace,70
 Bai Jamjuree,/Sans/Superellipse,90
 Bakbak One,/Expressive/Futuristic,77
@@ -1794,6 +1796,7 @@ Carter One,/Expressive/Excited,62
 Carter One,/Expressive/Loud,98
 Carter One,/Expressive/Vintage,58.7
 Carter One,/Quality/Drawing,50
+Carter One,/Quality/Spacing,100
 Carter One,/Quality/Wordspace,90
 Carter One,/Sans/Glyphic,40
 Carter One,/Sans/Humanist,80
@@ -3171,6 +3174,7 @@ Fauna One,/Slab/Humanist,100
 Faustina,/Expressive/Business,99.1
 Faustina,/Expressive/Sincere,94
 Faustina,/Expressive/Vintage,49.8
+Faustina,/Quality/Spacing,70
 Faustina,/Quality/Wordspace,90
 Faustina,/Serif/Scotch,100
 Federant,/Expressive/Awkward,31
@@ -3570,6 +3574,7 @@ Geist Mono,/Quality/Wordspace,100
 Geist,/Expressive/Business,96
 Geist,/Expressive/Calm,95
 Geist,/Expressive/Competent,24
+Geist,/Quality/Spacing,90
 Geist,/Quality/Wordspace,85
 Geist,/Sans/Neo Grotesque,100
 Gelasio,/Expressive/Business,87.6
@@ -3996,6 +4001,7 @@ Handjet,/Quality/Wordspace,100
 Handjet,/Theme/Techno,100
 Handlee,/Expressive/Childlike,77
 Handlee,/Expressive/Happy,52
+Handlee,/Quality/Spacing,60
 Handlee,/Quality/Wordspace,90
 Handlee,/Script/Handwritten,100
 Handlee,/Script/Informal,50
@@ -4418,6 +4424,7 @@ Island Moments,/Script/Formal,100
 Island Moments,/Script/Handwritten,20
 Istok Web,/Expressive/Business,15
 Istok Web,/Expressive/Calm,93.1
+Istok Web,/Quality/Spacing,70
 Istok Web,/Quality/Wordspace,70
 Istok Web,/Sans/Humanist,60
 Istok Web,/Sans/Rounded,60
@@ -4431,6 +4438,7 @@ Italianno,/Expressive/Artistic,99
 Italianno,/Expressive/Fancy,40
 Italianno,/Expressive/Sophisticated,98
 Italianno,/Expressive/Vintage,92
+Italianno,/Quality/Spacing,60
 Italianno,/Quality/Wordspace,90
 Italianno,/Script/Formal,100
 Italianno,/Script/Handwritten,100
@@ -4439,6 +4447,7 @@ Itim,/Expressive/Childlike,61
 Itim,/Expressive/Cute,15
 Itim,/Expressive/Happy,54
 Itim,/Expressive/Playful,65
+Itim,/Quality/Spacing,70
 Itim,/Quality/Wordspace,80
 Itim,/Sans/Humanist,40
 Itim,/Script/Handwritten,50
@@ -5170,6 +5179,7 @@ Lexend Exa,/Sans/Geometric,100
 Lexend Giga,/Expressive/Calm,99.8
 Lexend Giga,/Expressive/Competent,95.9
 Lexend Giga,/Purpose/Easy Reading,100
+Lexend Giga,/Quality/Spacing,50
 Lexend Giga,/Quality/Wordspace,90
 Lexend Giga,/Sans/Geometric,100
 Lexend Mega,/Expressive/Calm,99.8
@@ -5229,6 +5239,7 @@ Libre Baskerville,/Serif/Transitional,100
 Libre Bodoni,/Expressive/Business,91
 Libre Bodoni,/Expressive/Sincere,98
 Libre Bodoni,/Expressive/Vintage,82
+Libre Bodoni,/Quality/Spacing,70
 Libre Bodoni,/Quality/Wordspace,90
 Libre Bodoni,/Serif/Didone,100
 Libre Caslon Display,/Expressive/Business,87.9
@@ -5593,6 +5604,7 @@ Macondo,/Theme/Medieval,80
 Mada,/Expressive/Business,95.6
 Mada,/Expressive/Calm,80.7
 Mada,/Expressive/Stiff,40
+Mada,/Quality/Spacing,90
 Mada,/Quality/Wordspace,100
 Mada,/Sans/Humanist,80
 Mada,/Sans/Neo Grotesque,20
@@ -6221,6 +6233,7 @@ Mr Dafoe,/Expressive/Sincere,93
 Mr Dafoe,/Expressive/Sophisticated,18
 Mr Dafoe,/Expressive/Vintage,78.7
 Mr Dafoe,/Quality/Drawing,50
+Mr Dafoe,/Quality/Spacing,60
 Mr Dafoe,/Quality/Wordspace,90
 Mr Dafoe,/Script/Handwritten,100
 Mr Dafoe,/Script/Informal,100
@@ -6378,6 +6391,7 @@ Nanum Myeongjo,/Serif/Transitional,50
 Nanum Pen Script,/Expressive/Awkward,52
 Nanum Pen Script,/Expressive/Cute,75
 Nanum Pen Script,/Expressive/Happy,75
+Nanum Pen Script,/Quality/Spacing,90
 Nanum Pen Script,/Quality/Wordspace,70
 Nanum Pen Script,/Script/Handwritten,100
 Narnoor,/Expressive/Calm,90.8
@@ -6524,10 +6538,13 @@ Noticia Text,/Expressive/Sincere,97
 Noticia Text,/Quality/Spacing,80
 Noticia Text,/Quality/Wordspace,80
 Noticia Text,/Slab/Humanist,100
+Noto Color Emoji,/Quality/Spacing,90
 Noto Color Emoji,/Quality/Wordspace,100
 Noto Color Emoji,/Special use/Symbols,100
+Noto Emoji Color,/Quality/Spacing,90
 Noto Emoji Color,/Quality/Wordspace,100
 Noto Emoji Color,/Special use/Symbols,100
+Noto Emoji,/Quality/Spacing,90
 Noto Emoji,/Quality/Wordspace,100
 Noto Emoji,/Special use/Symbols,100
 Noto Kufi Arabic,/Expressive/Business,98.3
@@ -6535,99 +6552,131 @@ Noto Kufi Arabic,/Expressive/Calm,99
 Noto Kufi Arabic,/Quality/Spacing,90
 Noto Kufi Arabic,/Quality/Wordspace,100
 Noto Kufi Arabic,/Sans/Humanist,100
+Noto Music,/Quality/Spacing,90
 Noto Music,/Quality/Wordspace,100
 Noto Music,/Special use/Symbols,100
 Noto Naskh Arabic,/Quality/Spacing,90
 Noto Naskh Arabic,/Quality/Wordspace,80
 Noto Naskh Arabic,/Serif/Transitional,100
 Noto Nastaliq Urdu,/Expressive/Vintage,53.4
+Noto Nastaliq Urdu,/Quality/Spacing,90
 Noto Nastaliq Urdu,/Quality/Wordspace,90
 Noto Nastaliq Urdu,/Serif/Transitional,100
+Noto Rashi Hebrew,/Quality/Spacing,90
 Noto Rashi Hebrew,/Quality/Wordspace,100
 Noto Rashi Hebrew,/Serif/Transitional,100
 Noto Sans Adlam Unjoined,/Expressive/Business,58
+Noto Sans Adlam Unjoined,/Quality/Spacing,90
 Noto Sans Adlam Unjoined,/Quality/Wordspace,100
 Noto Sans Adlam Unjoined,/Sans/Humanist,100
 Noto Sans Adlam,/Expressive/Business,58
+Noto Sans Adlam,/Quality/Spacing,90
 Noto Sans Adlam,/Quality/Wordspace,100
 Noto Sans Adlam,/Sans/Humanist,100
 Noto Sans Anatolian Hieroglyphs,/Expressive/Business,58
+Noto Sans Anatolian Hieroglyphs,/Quality/Spacing,90
 Noto Sans Anatolian Hieroglyphs,/Quality/Wordspace,100
 Noto Sans Anatolian Hieroglyphs,/Sans/Humanist,100
+Noto Sans Arabic UI,/Quality/Spacing,90
 Noto Sans Arabic UI,/Quality/Wordspace,100
 Noto Sans Arabic,/Quality/Spacing,90
 Noto Sans Arabic,/Quality/Wordspace,100
 Noto Sans Arabic,/Sans/Humanist,100
 Noto Sans Armenian,/Expressive/Business,58
+Noto Sans Armenian,/Quality/Spacing,90
 Noto Sans Armenian,/Quality/Wordspace,100
 Noto Sans Armenian,/Sans/Humanist,100
 Noto Sans Avestan,/Expressive/Business,58
+Noto Sans Avestan,/Quality/Spacing,90
 Noto Sans Avestan,/Quality/Wordspace,100
 Noto Sans Avestan,/Sans/Humanist,100
 Noto Sans Balinese,/Expressive/Business,58
+Noto Sans Balinese,/Quality/Spacing,90
 Noto Sans Balinese,/Quality/Wordspace,100
 Noto Sans Balinese,/Sans/Humanist,100
 Noto Sans Bamum,/Expressive/Business,58
+Noto Sans Bamum,/Quality/Spacing,90
 Noto Sans Bamum,/Quality/Wordspace,100
 Noto Sans Bamum,/Sans/Humanist,100
 Noto Sans Bassa Vah,/Expressive/Business,58
+Noto Sans Bassa Vah,/Quality/Spacing,90
 Noto Sans Bassa Vah,/Quality/Wordspace,100
 Noto Sans Bassa Vah,/Sans/Humanist,100
 Noto Sans Batak,/Expressive/Business,58
+Noto Sans Batak,/Quality/Spacing,90
 Noto Sans Batak,/Quality/Wordspace,100
 Noto Sans Batak,/Sans/Humanist,100
+Noto Sans Bengali UI,/Quality/Spacing,90
 Noto Sans Bengali UI,/Quality/Wordspace,100
 Noto Sans Bengali,/Expressive/Business,58
+Noto Sans Bengali,/Quality/Spacing,90
 Noto Sans Bengali,/Quality/Wordspace,100
 Noto Sans Bengali,/Sans/Humanist,100
 Noto Sans Bhaiksuki,/Expressive/Business,58
+Noto Sans Bhaiksuki,/Quality/Spacing,90
 Noto Sans Bhaiksuki,/Quality/Wordspace,100
 Noto Sans Bhaiksuki,/Sans/Humanist,100
 Noto Sans Brahmi,/Expressive/Business,58
+Noto Sans Brahmi,/Quality/Spacing,90
 Noto Sans Brahmi,/Quality/Wordspace,100
 Noto Sans Brahmi,/Sans/Humanist,100
 Noto Sans Buginese,/Expressive/Business,58
+Noto Sans Buginese,/Quality/Spacing,90
 Noto Sans Buginese,/Quality/Wordspace,100
 Noto Sans Buginese,/Sans/Humanist,100
 Noto Sans Buhid,/Expressive/Business,58
+Noto Sans Buhid,/Quality/Spacing,90
 Noto Sans Buhid,/Quality/Wordspace,100
 Noto Sans Buhid,/Sans/Humanist,100
 Noto Sans Canadian Aboriginal,/Expressive/Business,58
+Noto Sans Canadian Aboriginal,/Quality/Spacing,90
 Noto Sans Canadian Aboriginal,/Quality/Wordspace,100
 Noto Sans Canadian Aboriginal,/Sans/Humanist,100
 Noto Sans Carian,/Expressive/Business,58
+Noto Sans Carian,/Quality/Spacing,90
 Noto Sans Carian,/Quality/Wordspace,100
 Noto Sans Carian,/Sans/Humanist,100
 Noto Sans Caucasian Albanian,/Expressive/Business,58
+Noto Sans Caucasian Albanian,/Quality/Spacing,90
 Noto Sans Caucasian Albanian,/Quality/Wordspace,100
 Noto Sans Caucasian Albanian,/Sans/Humanist,100
 Noto Sans Chakma,/Expressive/Business,58
+Noto Sans Chakma,/Quality/Spacing,90
 Noto Sans Chakma,/Quality/Wordspace,100
 Noto Sans Chakma,/Sans/Humanist,100
 Noto Sans Cham,/Expressive/Business,58
+Noto Sans Cham,/Quality/Spacing,90
 Noto Sans Cham,/Quality/Wordspace,100
 Noto Sans Cham,/Sans/Humanist,100
 Noto Sans Cherokee,/Expressive/Business,58
+Noto Sans Cherokee,/Quality/Spacing,90
 Noto Sans Cherokee,/Quality/Wordspace,100
 Noto Sans Cherokee,/Sans/Humanist,100
 Noto Sans Chorasmian,/Expressive/Business,58
+Noto Sans Chorasmian,/Quality/Spacing,90
 Noto Sans Chorasmian,/Quality/Wordspace,100
 Noto Sans Chorasmian,/Sans/Humanist,100
 Noto Sans Coptic,/Expressive/Business,58
+Noto Sans Coptic,/Quality/Spacing,90
 Noto Sans Coptic,/Quality/Wordspace,100
 Noto Sans Coptic,/Sans/Humanist,100
 Noto Sans Cuneiform,/Expressive/Business,58
+Noto Sans Cuneiform,/Quality/Spacing,90
 Noto Sans Cuneiform,/Quality/Wordspace,100
 Noto Sans Cuneiform,/Sans/Humanist,100
 Noto Sans Cypriot,/Expressive/Business,58
+Noto Sans Cypriot,/Quality/Spacing,90
 Noto Sans Cypriot,/Quality/Wordspace,100
 Noto Sans Cypriot,/Sans/Humanist,100
 Noto Sans Cypro Minoan,/Expressive/Business,58
+Noto Sans Cypro Minoan,/Quality/Spacing,90
 Noto Sans Cypro Minoan,/Quality/Wordspace,100
 Noto Sans Cypro Minoan,/Sans/Humanist,100
 Noto Sans Deseret,/Expressive/Business,58
+Noto Sans Deseret,/Quality/Spacing,90
 Noto Sans Deseret,/Quality/Wordspace,100
 Noto Sans Deseret,/Sans/Humanist,100
+Noto Sans Devanagari UI,/Quality/Spacing,90
 Noto Sans Devanagari UI,/Quality/Wordspace,100
 Noto Sans Devanagari,/Expressive/Business,58
 Noto Sans Devanagari,/Quality/Spacing,90
@@ -6639,41 +6688,55 @@ Noto Sans Display,/Quality/Spacing,90
 Noto Sans Display,/Quality/Wordspace,100
 Noto Sans Display,/Sans/Humanist,100
 Noto Sans Duployan,/Expressive/Business,58
+Noto Sans Duployan,/Quality/Spacing,90
 Noto Sans Duployan,/Quality/Wordspace,100
 Noto Sans Duployan,/Sans/Humanist,100
 Noto Sans Egyptian Hieroglyphs,/Expressive/Business,58
+Noto Sans Egyptian Hieroglyphs,/Quality/Spacing,90
 Noto Sans Egyptian Hieroglyphs,/Quality/Wordspace,100
 Noto Sans Egyptian Hieroglyphs,/Sans/Humanist,100
 Noto Sans Elbasan,/Expressive/Business,58
+Noto Sans Elbasan,/Quality/Spacing,90
 Noto Sans Elbasan,/Quality/Wordspace,100
 Noto Sans Elbasan,/Sans/Humanist,100
 Noto Sans Elymaic,/Expressive/Business,58
+Noto Sans Elymaic,/Quality/Spacing,90
 Noto Sans Elymaic,/Quality/Wordspace,100
 Noto Sans Elymaic,/Sans/Humanist,100
 Noto Sans Ethiopic,/Expressive/Business,58
+Noto Sans Ethiopic,/Quality/Spacing,90
 Noto Sans Ethiopic,/Quality/Wordspace,100
 Noto Sans Ethiopic,/Sans/Humanist,100
 Noto Sans Georgian,/Expressive/Business,58
+Noto Sans Georgian,/Quality/Spacing,90
 Noto Sans Georgian,/Quality/Wordspace,100
 Noto Sans Georgian,/Sans/Humanist,100
 Noto Sans Glagolitic,/Expressive/Business,58
+Noto Sans Glagolitic,/Quality/Spacing,90
 Noto Sans Glagolitic,/Quality/Wordspace,100
 Noto Sans Glagolitic,/Sans/Humanist,100
 Noto Sans Gothic,/Expressive/Business,58
+Noto Sans Gothic,/Quality/Spacing,90
 Noto Sans Gothic,/Quality/Wordspace,100
 Noto Sans Gothic,/Sans/Humanist,100
 Noto Sans Grantha,/Expressive/Business,58
+Noto Sans Grantha,/Quality/Spacing,90
 Noto Sans Grantha,/Quality/Wordspace,100
 Noto Sans Grantha,/Sans/Humanist,100
+Noto Sans Gujarati UI,/Quality/Spacing,90
 Noto Sans Gujarati UI,/Quality/Wordspace,100
 Noto Sans Gujarati,/Expressive/Business,58
+Noto Sans Gujarati,/Quality/Spacing,90
 Noto Sans Gujarati,/Quality/Wordspace,100
 Noto Sans Gujarati,/Sans/Humanist,100
 Noto Sans Gunjala Gondi,/Expressive/Business,58
+Noto Sans Gunjala Gondi,/Quality/Spacing,90
 Noto Sans Gunjala Gondi,/Quality/Wordspace,100
 Noto Sans Gunjala Gondi,/Sans/Humanist,100
+Noto Sans Gurmukhi UI,/Quality/Spacing,90
 Noto Sans Gurmukhi UI,/Quality/Wordspace,100
 Noto Sans Gurmukhi,/Expressive/Business,58
+Noto Sans Gurmukhi,/Quality/Spacing,90
 Noto Sans Gurmukhi,/Quality/Wordspace,100
 Noto Sans Gurmukhi,/Sans/Humanist,100
 Noto Sans HK,/Expressive/Business,58
@@ -6681,133 +6744,178 @@ Noto Sans HK,/Quality/Spacing,90
 Noto Sans HK,/Quality/Wordspace,100
 Noto Sans HK,/Sans/Humanist,100
 Noto Sans Hanifi Rohingya,/Expressive/Business,58
+Noto Sans Hanifi Rohingya,/Quality/Spacing,90
 Noto Sans Hanifi Rohingya,/Quality/Wordspace,100
 Noto Sans Hanifi Rohingya,/Sans/Humanist,100
 Noto Sans Hanunoo,/Expressive/Business,58
+Noto Sans Hanunoo,/Quality/Spacing,90
 Noto Sans Hanunoo,/Quality/Wordspace,100
 Noto Sans Hanunoo,/Sans/Humanist,100
 Noto Sans Hatran,/Expressive/Business,58
+Noto Sans Hatran,/Quality/Spacing,90
 Noto Sans Hatran,/Quality/Wordspace,100
 Noto Sans Hatran,/Sans/Humanist,100
 Noto Sans Hebrew,/Expressive/Business,58
+Noto Sans Hebrew,/Quality/Spacing,90
 Noto Sans Hebrew,/Quality/Wordspace,100
 Noto Sans Hebrew,/Sans/Humanist,100
 Noto Sans Imperial Aramaic,/Expressive/Business,58
+Noto Sans Imperial Aramaic,/Quality/Spacing,90
 Noto Sans Imperial Aramaic,/Quality/Wordspace,100
 Noto Sans Imperial Aramaic,/Sans/Humanist,100
 Noto Sans Indic Siyaq Numbers,/Expressive/Business,58
+Noto Sans Indic Siyaq Numbers,/Quality/Spacing,90
 Noto Sans Indic Siyaq Numbers,/Quality/Wordspace,100
 Noto Sans Indic Siyaq Numbers,/Sans/Humanist,100
 Noto Sans Inscriptional Pahlavi,/Expressive/Business,58
+Noto Sans Inscriptional Pahlavi,/Quality/Spacing,90
 Noto Sans Inscriptional Pahlavi,/Quality/Wordspace,100
 Noto Sans Inscriptional Pahlavi,/Sans/Humanist,100
 Noto Sans Inscriptional Parthian,/Expressive/Business,58
+Noto Sans Inscriptional Parthian,/Quality/Spacing,90
 Noto Sans Inscriptional Parthian,/Quality/Wordspace,100
 Noto Sans Inscriptional Parthian,/Sans/Humanist,100
 Noto Sans JP,/Expressive/Business,58
+Noto Sans JP,/Quality/Spacing,90
 Noto Sans JP,/Quality/Wordspace,100
 Noto Sans JP,/Sans/Humanist,100
 Noto Sans Javanese,/Expressive/Business,58
+Noto Sans Javanese,/Quality/Spacing,90
 Noto Sans Javanese,/Quality/Wordspace,100
 Noto Sans Javanese,/Sans/Humanist,100
 Noto Sans KR,/Expressive/Business,58
+Noto Sans KR,/Quality/Spacing,90
 Noto Sans KR,/Quality/Wordspace,100
 Noto Sans KR,/Sans/Humanist,100
 Noto Sans Kaithi,/Expressive/Business,58
+Noto Sans Kaithi,/Quality/Spacing,90
 Noto Sans Kaithi,/Quality/Wordspace,100
 Noto Sans Kaithi,/Sans/Humanist,100
+Noto Sans Kannada UI,/Quality/Spacing,90
 Noto Sans Kannada UI,/Quality/Wordspace,100
 Noto Sans Kannada,/Expressive/Business,58
+Noto Sans Kannada,/Quality/Spacing,90
 Noto Sans Kannada,/Quality/Wordspace,100
 Noto Sans Kannada,/Sans/Humanist,100
 Noto Sans Kawi,/Expressive/Business,58
+Noto Sans Kawi,/Quality/Spacing,90
 Noto Sans Kawi,/Quality/Wordspace,100
 Noto Sans Kawi,/Sans/Humanist,100
 Noto Sans Kayah Li,/Expressive/Business,58
+Noto Sans Kayah Li,/Quality/Spacing,90
 Noto Sans Kayah Li,/Quality/Wordspace,100
 Noto Sans Kayah Li,/Sans/Humanist,100
 Noto Sans Kharoshthi,/Expressive/Business,58
+Noto Sans Kharoshthi,/Quality/Spacing,90
 Noto Sans Kharoshthi,/Quality/Wordspace,100
 Noto Sans Kharoshthi,/Sans/Humanist,100
+Noto Sans Khmer UI,/Quality/Spacing,90
 Noto Sans Khmer UI,/Quality/Wordspace,100
 Noto Sans Khmer,/Expressive/Business,58
+Noto Sans Khmer,/Quality/Spacing,90
 Noto Sans Khmer,/Quality/Wordspace,100
 Noto Sans Khmer,/Sans/Humanist,100
 Noto Sans Khojki,/Expressive/Business,58
+Noto Sans Khojki,/Quality/Spacing,90
 Noto Sans Khojki,/Quality/Wordspace,100
 Noto Sans Khojki,/Sans/Humanist,100
 Noto Sans Khudawadi,/Expressive/Business,58
+Noto Sans Khudawadi,/Quality/Spacing,90
 Noto Sans Khudawadi,/Quality/Wordspace,100
 Noto Sans Khudawadi,/Sans/Humanist,100
 Noto Sans Lao Looped,/Expressive/Business,58
+Noto Sans Lao Looped,/Quality/Spacing,90
 Noto Sans Lao Looped,/Quality/Wordspace,100
 Noto Sans Lao Looped,/Sans/Humanist,100
 Noto Sans Lao,/Expressive/Business,58
+Noto Sans Lao,/Quality/Spacing,90
 Noto Sans Lao,/Quality/Wordspace,100
 Noto Sans Lao,/Sans/Humanist,100
 Noto Sans Lepcha,/Expressive/Business,58
+Noto Sans Lepcha,/Quality/Spacing,90
 Noto Sans Lepcha,/Quality/Wordspace,100
 Noto Sans Lepcha,/Sans/Humanist,100
 Noto Sans Limbu,/Expressive/Business,58
+Noto Sans Limbu,/Quality/Spacing,90
 Noto Sans Limbu,/Quality/Wordspace,100
 Noto Sans Limbu,/Sans/Humanist,100
 Noto Sans Linear A,/Expressive/Business,58
+Noto Sans Linear A,/Quality/Spacing,90
 Noto Sans Linear A,/Quality/Wordspace,100
 Noto Sans Linear A,/Sans/Humanist,100
 Noto Sans Linear B,/Expressive/Business,58
+Noto Sans Linear B,/Quality/Spacing,90
 Noto Sans Linear B,/Quality/Wordspace,100
 Noto Sans Linear B,/Sans/Humanist,100
 Noto Sans Lisu,/Expressive/Business,58
+Noto Sans Lisu,/Quality/Spacing,90
 Noto Sans Lisu,/Quality/Wordspace,100
 Noto Sans Lisu,/Sans/Humanist,100
+Noto Sans Lycian,/Quality/Spacing,90
 Noto Sans Lycian,/Quality/Wordspace,100
 Noto Sans Lycian,/Sans/Humanist,100
 Noto Sans Lydian,/Expressive/Business,58
+Noto Sans Lydian,/Quality/Spacing,90
 Noto Sans Lydian,/Quality/Wordspace,100
 Noto Sans Lydian,/Sans/Humanist,100
 Noto Sans Mahajani,/Expressive/Business,58
+Noto Sans Mahajani,/Quality/Spacing,90
 Noto Sans Mahajani,/Quality/Wordspace,100
 Noto Sans Mahajani,/Sans/Humanist,100
 Noto Sans Malayalam,/Expressive/Business,58
+Noto Sans Malayalam,/Quality/Spacing,90
 Noto Sans Malayalam,/Quality/Wordspace,100
 Noto Sans Malayalam,/Sans/Humanist,100
 Noto Sans Mandaic,/Expressive/Business,58
+Noto Sans Mandaic,/Quality/Spacing,90
 Noto Sans Mandaic,/Quality/Wordspace,90
 Noto Sans Mandaic,/Sans/Humanist,100
 Noto Sans Manichaean,/Expressive/Business,58
+Noto Sans Manichaean,/Quality/Spacing,90
 Noto Sans Manichaean,/Quality/Wordspace,100
 Noto Sans Manichaean,/Sans/Humanist,100
 Noto Sans Marchen,/Expressive/Business,58
+Noto Sans Marchen,/Quality/Spacing,90
 Noto Sans Marchen,/Quality/Wordspace,100
 Noto Sans Marchen,/Sans/Humanist,100
 Noto Sans Masaram Gondi,/Expressive/Business,58
+Noto Sans Masaram Gondi,/Quality/Spacing,90
 Noto Sans Masaram Gondi,/Quality/Wordspace,100
 Noto Sans Masaram Gondi,/Sans/Humanist,100
 Noto Sans Math,/Expressive/Business,58
+Noto Sans Math,/Quality/Spacing,90
 Noto Sans Math,/Quality/Wordspace,100
 Noto Sans Math,/Sans/Humanist,100
 Noto Sans Mayan Numerals,/Expressive/Business,58
+Noto Sans Mayan Numerals,/Quality/Spacing,90
 Noto Sans Mayan Numerals,/Quality/Wordspace,100
 Noto Sans Mayan Numerals,/Sans/Humanist,100
 Noto Sans Medefaidrin,/Expressive/Business,58
+Noto Sans Medefaidrin,/Quality/Spacing,90
 Noto Sans Medefaidrin,/Quality/Wordspace,100
 Noto Sans Medefaidrin,/Sans/Humanist,100
 Noto Sans Meetei Mayek,/Expressive/Business,58
+Noto Sans Meetei Mayek,/Quality/Spacing,90
 Noto Sans Meetei Mayek,/Quality/Wordspace,100
 Noto Sans Meetei Mayek,/Sans/Humanist,100
 Noto Sans Mende Kikakui,/Expressive/Business,58
+Noto Sans Mende Kikakui,/Quality/Spacing,90
 Noto Sans Mende Kikakui,/Quality/Wordspace,100
 Noto Sans Mende Kikakui,/Sans/Humanist,100
 Noto Sans Meroitic,/Expressive/Business,58
+Noto Sans Meroitic,/Quality/Spacing,90
 Noto Sans Meroitic,/Quality/Wordspace,100
 Noto Sans Meroitic,/Sans/Humanist,100
 Noto Sans Miao,/Expressive/Business,58
+Noto Sans Miao,/Quality/Spacing,90
 Noto Sans Miao,/Quality/Wordspace,100
 Noto Sans Miao,/Sans/Humanist,100
 Noto Sans Modi,/Expressive/Business,58
+Noto Sans Modi,/Quality/Spacing,90
 Noto Sans Modi,/Quality/Wordspace,100
 Noto Sans Modi,/Sans/Humanist,100
 Noto Sans Mongolian,/Expressive/Business,58
+Noto Sans Mongolian,/Quality/Spacing,90
 Noto Sans Mongolian,/Quality/Wordspace,100
 Noto Sans Mongolian,/Sans/Humanist,100
 Noto Sans Mono,/Expressive/Business,58
@@ -6816,117 +6924,155 @@ Noto Sans Mono,/Quality/Spacing,100
 Noto Sans Mono,/Quality/Wordspace,100
 Noto Sans Mono,/Sans/Humanist,100
 Noto Sans Mro,/Expressive/Business,58
+Noto Sans Mro,/Quality/Spacing,90
 Noto Sans Mro,/Quality/Wordspace,100
 Noto Sans Mro,/Sans/Humanist,100
 Noto Sans Multani,/Expressive/Business,58
+Noto Sans Multani,/Quality/Spacing,90
 Noto Sans Multani,/Quality/Wordspace,100
 Noto Sans Multani,/Sans/Humanist,100
+Noto Sans Myanmar,/Quality/Spacing,90
 Noto Sans Myanmar,/Quality/Wordspace,100
 Noto Sans Myanmar,/Sans/Humanist,100
 Noto Sans NKo Unjoined,/Expressive/Business,58
+Noto Sans NKo Unjoined,/Quality/Spacing,90
 Noto Sans NKo Unjoined,/Quality/Wordspace,100
 Noto Sans NKo Unjoined,/Sans/Humanist,100
 Noto Sans NKo,/Expressive/Business,58
+Noto Sans NKo,/Quality/Spacing,90
 Noto Sans NKo,/Quality/Wordspace,100
 Noto Sans NKo,/Sans/Humanist,100
 Noto Sans Nabataean,/Expressive/Business,58
+Noto Sans Nabataean,/Quality/Spacing,90
 Noto Sans Nabataean,/Quality/Wordspace,100
 Noto Sans Nabataean,/Sans/Humanist,100
 Noto Sans Nag Mundari,/Expressive/Business,58
+Noto Sans Nag Mundari,/Quality/Spacing,90
 Noto Sans Nag Mundari,/Quality/Wordspace,100
 Noto Sans Nag Mundari,/Sans/Humanist,100
 Noto Sans Nandinagari,/Expressive/Business,58
+Noto Sans Nandinagari,/Quality/Spacing,90
 Noto Sans Nandinagari,/Quality/Wordspace,100
 Noto Sans Nandinagari,/Sans/Humanist,100
 Noto Sans New Tai Lue,/Expressive/Business,58
+Noto Sans New Tai Lue,/Quality/Spacing,90
 Noto Sans New Tai Lue,/Quality/Wordspace,100
 Noto Sans New Tai Lue,/Sans/Humanist,100
 Noto Sans Newa,/Expressive/Business,58
+Noto Sans Newa,/Quality/Spacing,90
 Noto Sans Newa,/Quality/Wordspace,100
 Noto Sans Newa,/Sans/Humanist,100
 Noto Sans Nushu,/Expressive/Business,58
+Noto Sans Nushu,/Quality/Spacing,90
 Noto Sans Nushu,/Quality/Wordspace,100
 Noto Sans Nushu,/Sans/Humanist,100
 Noto Sans Ogham,/Expressive/Business,58
+Noto Sans Ogham,/Quality/Spacing,90
 Noto Sans Ogham,/Quality/Wordspace,100
 Noto Sans Ogham,/Sans/Humanist,100
 Noto Sans Ol Chiki,/Expressive/Business,58
+Noto Sans Ol Chiki,/Quality/Spacing,90
 Noto Sans Ol Chiki,/Quality/Wordspace,100
 Noto Sans Ol Chiki,/Sans/Humanist,100
 Noto Sans Old Hungarian,/Expressive/Business,58
+Noto Sans Old Hungarian,/Quality/Spacing,90
 Noto Sans Old Hungarian,/Quality/Wordspace,100
 Noto Sans Old Hungarian,/Sans/Humanist,100
 Noto Sans Old Italic,/Expressive/Business,58
+Noto Sans Old Italic,/Quality/Spacing,90
 Noto Sans Old Italic,/Quality/Wordspace,100
 Noto Sans Old Italic,/Sans/Humanist,100
 Noto Sans Old North Arabian,/Expressive/Business,58
+Noto Sans Old North Arabian,/Quality/Spacing,90
 Noto Sans Old North Arabian,/Quality/Wordspace,100
 Noto Sans Old North Arabian,/Sans/Humanist,100
 Noto Sans Old Permic,/Expressive/Business,58
+Noto Sans Old Permic,/Quality/Spacing,90
 Noto Sans Old Permic,/Quality/Wordspace,100
 Noto Sans Old Permic,/Sans/Humanist,100
 Noto Sans Old Persian,/Expressive/Business,58
+Noto Sans Old Persian,/Quality/Spacing,90
 Noto Sans Old Persian,/Quality/Wordspace,100
 Noto Sans Old Persian,/Sans/Humanist,100
 Noto Sans Old Sogdian,/Expressive/Business,58
+Noto Sans Old Sogdian,/Quality/Spacing,90
 Noto Sans Old Sogdian,/Quality/Wordspace,100
 Noto Sans Old Sogdian,/Sans/Humanist,100
 Noto Sans Old South Arabian,/Expressive/Business,58
+Noto Sans Old South Arabian,/Quality/Spacing,90
 Noto Sans Old South Arabian,/Quality/Wordspace,100
 Noto Sans Old South Arabian,/Sans/Humanist,100
 Noto Sans Old Turkic,/Expressive/Business,58
+Noto Sans Old Turkic,/Quality/Spacing,90
 Noto Sans Old Turkic,/Quality/Wordspace,100
 Noto Sans Old Turkic,/Sans/Humanist,100
 Noto Sans Oriya,/Expressive/Business,58
+Noto Sans Oriya,/Quality/Spacing,90
 Noto Sans Oriya,/Quality/Wordspace,100
 Noto Sans Oriya,/Sans/Humanist,100
 Noto Sans Osage,/Expressive/Business,58
+Noto Sans Osage,/Quality/Spacing,90
 Noto Sans Osage,/Quality/Wordspace,100
 Noto Sans Osage,/Sans/Humanist,100
 Noto Sans Osmanya,/Expressive/Business,58
+Noto Sans Osmanya,/Quality/Spacing,90
 Noto Sans Osmanya,/Quality/Wordspace,100
 Noto Sans Osmanya,/Sans/Humanist,100
 Noto Sans Pahawh Hmong,/Expressive/Business,58
+Noto Sans Pahawh Hmong,/Quality/Spacing,90
 Noto Sans Pahawh Hmong,/Quality/Wordspace,100
 Noto Sans Pahawh Hmong,/Sans/Humanist,100
 Noto Sans Palmyrene,/Expressive/Business,58
+Noto Sans Palmyrene,/Quality/Spacing,90
 Noto Sans Palmyrene,/Quality/Wordspace,100
 Noto Sans Palmyrene,/Sans/Humanist,100
 Noto Sans Pau Cin Hau,/Expressive/Business,58
+Noto Sans Pau Cin Hau,/Quality/Spacing,90
 Noto Sans Pau Cin Hau,/Quality/Wordspace,100
 Noto Sans Pau Cin Hau,/Sans/Humanist,100
 Noto Sans PhagsPa,/Expressive/Business,58
+Noto Sans PhagsPa,/Quality/Spacing,90
 Noto Sans PhagsPa,/Quality/Wordspace,100
 Noto Sans PhagsPa,/Sans/Humanist,100
 Noto Sans Phoenician,/Expressive/Business,58
+Noto Sans Phoenician,/Quality/Spacing,90
 Noto Sans Phoenician,/Quality/Wordspace,100
 Noto Sans Phoenician,/Sans/Humanist,100
 Noto Sans Psalter Pahlavi,/Expressive/Business,58
+Noto Sans Psalter Pahlavi,/Quality/Spacing,90
 Noto Sans Psalter Pahlavi,/Quality/Wordspace,100
 Noto Sans Psalter Pahlavi,/Sans/Humanist,100
 Noto Sans Rejang,/Expressive/Business,58
+Noto Sans Rejang,/Quality/Spacing,90
 Noto Sans Rejang,/Quality/Wordspace,100
 Noto Sans Rejang,/Sans/Humanist,100
 Noto Sans Runic,/Expressive/Business,58
+Noto Sans Runic,/Quality/Spacing,90
 Noto Sans Runic,/Quality/Wordspace,100
 Noto Sans Runic,/Sans/Humanist,100
 Noto Sans SC,/Expressive/Business,58
 Noto Sans SC,/Expressive/Calm,99
+Noto Sans SC,/Quality/Spacing,90
 Noto Sans SC,/Quality/Wordspace,100
 Noto Sans SC,/Sans/Humanist,100
 Noto Sans Samaritan,/Expressive/Business,58
+Noto Sans Samaritan,/Quality/Spacing,90
 Noto Sans Samaritan,/Quality/Wordspace,100
 Noto Sans Samaritan,/Sans/Humanist,100
 Noto Sans Saurashtra,/Expressive/Business,58
+Noto Sans Saurashtra,/Quality/Spacing,90
 Noto Sans Saurashtra,/Quality/Wordspace,100
 Noto Sans Saurashtra,/Sans/Humanist,100
 Noto Sans Sharada,/Expressive/Business,58
+Noto Sans Sharada,/Quality/Spacing,90
 Noto Sans Sharada,/Quality/Wordspace,90
 Noto Sans Sharada,/Sans/Humanist,100
 Noto Sans Shavian,/Expressive/Business,58
+Noto Sans Shavian,/Quality/Spacing,90
 Noto Sans Shavian,/Quality/Wordspace,100
 Noto Sans Shavian,/Sans/Humanist,100
 Noto Sans Siddham,/Expressive/Business,58
+Noto Sans Siddham,/Quality/Spacing,90
 Noto Sans Siddham,/Quality/Wordspace,100
 Noto Sans Siddham,/Sans/Humanist,100
 Noto Sans SignWriting,/Expressive/Business,58
@@ -6934,57 +7080,74 @@ Noto Sans SignWriting,/Quality/Drawing,100
 Noto Sans SignWriting,/Quality/Wordspace,100
 Noto Sans SignWriting,/Sans/Humanist,100
 Noto Sans Sinhala,/Expressive/Business,58
+Noto Sans Sinhala,/Quality/Spacing,90
 Noto Sans Sinhala,/Quality/Wordspace,80
 Noto Sans Sinhala,/Sans/Humanist,100
 Noto Sans Sogdian,/Expressive/Business,58
+Noto Sans Sogdian,/Quality/Spacing,90
 Noto Sans Sogdian,/Quality/Wordspace,100
 Noto Sans Sogdian,/Sans/Humanist,100
 Noto Sans Sora Sompeng,/Expressive/Business,58
+Noto Sans Sora Sompeng,/Quality/Spacing,90
 Noto Sans Sora Sompeng,/Quality/Wordspace,100
 Noto Sans Sora Sompeng,/Sans/Humanist,100
 Noto Sans Soyombo,/Expressive/Business,58
+Noto Sans Soyombo,/Quality/Spacing,90
 Noto Sans Soyombo,/Quality/Wordspace,100
 Noto Sans Soyombo,/Sans/Humanist,100
 Noto Sans Sundanese,/Expressive/Business,58
+Noto Sans Sundanese,/Quality/Spacing,90
 Noto Sans Sundanese,/Quality/Wordspace,100
 Noto Sans Sundanese,/Sans/Humanist,100
 Noto Sans Syloti Nagri,/Expressive/Business,58
+Noto Sans Syloti Nagri,/Quality/Spacing,90
 Noto Sans Syloti Nagri,/Quality/Wordspace,100
 Noto Sans Syloti Nagri,/Sans/Humanist,100
+Noto Sans Symbols 2,/Quality/Spacing,90
 Noto Sans Symbols 2,/Quality/Wordspace,100
 Noto Sans Symbols 2,/Special use/Symbols,100
 Noto Sans Symbols,/Expressive/Business,58
+Noto Sans Symbols,/Quality/Spacing,90
 Noto Sans Symbols,/Quality/Wordspace,100
 Noto Sans Symbols,/Sans/Humanist,100
 Noto Sans Symbols,/Special use/Symbols,100
 Noto Sans Syriac Eastern,/Expressive/Business,58
+Noto Sans Syriac Eastern,/Quality/Spacing,90
 Noto Sans Syriac Eastern,/Quality/Wordspace,100
 Noto Sans Syriac Eastern,/Sans/Humanist,100
 Noto Sans Syriac,/Expressive/Business,58
 Noto Sans Syriac,/Quality/Wordspace,100
 Noto Sans Syriac,/Sans/Humanist,100
 Noto Sans TC,/Expressive/Business,58
+Noto Sans TC,/Quality/Spacing,90
 Noto Sans TC,/Quality/Wordspace,100
 Noto Sans TC,/Sans/Humanist,100
 Noto Sans Tagalog,/Expressive/Business,58
+Noto Sans Tagalog,/Quality/Spacing,90
 Noto Sans Tagalog,/Quality/Wordspace,100
 Noto Sans Tagalog,/Sans/Humanist,100
 Noto Sans Tagbanwa,/Expressive/Business,58
+Noto Sans Tagbanwa,/Quality/Spacing,90
 Noto Sans Tagbanwa,/Quality/Wordspace,80
 Noto Sans Tagbanwa,/Sans/Humanist,100
 Noto Sans Tai Le,/Expressive/Business,58
+Noto Sans Tai Le,/Quality/Spacing,90
 Noto Sans Tai Le,/Quality/Wordspace,90
 Noto Sans Tai Le,/Sans/Humanist,100
 Noto Sans Tai Tham,/Expressive/Business,58
+Noto Sans Tai Tham,/Quality/Spacing,90
 Noto Sans Tai Tham,/Quality/Wordspace,100
 Noto Sans Tai Tham,/Sans/Humanist,100
 Noto Sans Tai Viet,/Expressive/Business,58
+Noto Sans Tai Viet,/Quality/Spacing,90
 Noto Sans Tai Viet,/Quality/Wordspace,100
 Noto Sans Tai Viet,/Sans/Humanist,100
 Noto Sans Takri,/Expressive/Business,58
+Noto Sans Takri,/Quality/Spacing,90
 Noto Sans Takri,/Quality/Wordspace,100
 Noto Sans Takri,/Sans/Humanist,100
 Noto Sans Tamil Supplement,/Expressive/Business,58
+Noto Sans Tamil Supplement,/Quality/Spacing,90
 Noto Sans Tamil Supplement,/Quality/Wordspace,100
 Noto Sans Tamil Supplement,/Sans/Humanist,100
 Noto Sans Tamil,/Expressive/Business,58
@@ -6992,6 +7155,7 @@ Noto Sans Tamil,/Quality/Spacing,70
 Noto Sans Tamil,/Quality/Wordspace,100
 Noto Sans Tamil,/Sans/Humanist,100
 Noto Sans Tangsa,/Expressive/Business,58
+Noto Sans Tangsa,/Quality/Spacing,90
 Noto Sans Tangsa,/Quality/Wordspace,100
 Noto Sans Tangsa,/Sans/Humanist,100
 Noto Sans Telugu,/Expressive/Business,58
@@ -6999,9 +7163,11 @@ Noto Sans Telugu,/Quality/Spacing,90
 Noto Sans Telugu,/Quality/Wordspace,100
 Noto Sans Telugu,/Sans/Humanist,100
 Noto Sans Thaana,/Expressive/Business,58
+Noto Sans Thaana,/Quality/Spacing,90
 Noto Sans Thaana,/Quality/Wordspace,100
 Noto Sans Thaana,/Sans/Humanist,100
 Noto Sans Thai Looped,/Expressive/Business,58
+Noto Sans Thai Looped,/Quality/Spacing,90
 Noto Sans Thai Looped,/Quality/Wordspace,100
 Noto Sans Thai Looped,/Sans/Humanist,100
 Noto Sans Thai,/Expressive/Business,58
@@ -7009,30 +7175,39 @@ Noto Sans Thai,/Quality/Spacing,90
 Noto Sans Thai,/Quality/Wordspace,100
 Noto Sans Thai,/Sans/Humanist,100
 Noto Sans Tifinagh,/Expressive/Business,58
+Noto Sans Tifinagh,/Quality/Spacing,90
 Noto Sans Tifinagh,/Quality/Wordspace,100
 Noto Sans Tifinagh,/Sans/Humanist,100
 Noto Sans Tirhuta,/Expressive/Business,58
+Noto Sans Tirhuta,/Quality/Spacing,90
 Noto Sans Tirhuta,/Quality/Wordspace,100
 Noto Sans Tirhuta,/Sans/Humanist,100
 Noto Sans Ugaritic,/Expressive/Business,58
+Noto Sans Ugaritic,/Quality/Spacing,90
 Noto Sans Ugaritic,/Quality/Wordspace,100
 Noto Sans Ugaritic,/Sans/Humanist,100
 Noto Sans Vai,/Expressive/Business,58
+Noto Sans Vai,/Quality/Spacing,90
 Noto Sans Vai,/Quality/Wordspace,100
 Noto Sans Vai,/Sans/Humanist,100
 Noto Sans Vithkuqi,/Expressive/Business,58
+Noto Sans Vithkuqi,/Quality/Spacing,90
 Noto Sans Vithkuqi,/Quality/Wordspace,100
 Noto Sans Vithkuqi,/Sans/Humanist,100
 Noto Sans Wancho,/Expressive/Business,58
+Noto Sans Wancho,/Quality/Spacing,90
 Noto Sans Wancho,/Quality/Wordspace,100
 Noto Sans Wancho,/Sans/Humanist,100
 Noto Sans Warang Citi,/Expressive/Business,58
+Noto Sans Warang Citi,/Quality/Spacing,90
 Noto Sans Warang Citi,/Quality/Wordspace,100
 Noto Sans Warang Citi,/Sans/Humanist,100
 Noto Sans Yi,/Expressive/Business,58
+Noto Sans Yi,/Quality/Spacing,90
 Noto Sans Yi,/Quality/Wordspace,100
 Noto Sans Yi,/Sans/Humanist,100
 Noto Sans Zanabazar Square,/Expressive/Business,58
+Noto Sans Zanabazar Square,/Quality/Spacing,90
 Noto Sans Zanabazar Square,/Quality/Wordspace,100
 Noto Sans Zanabazar Square,/Sans/Humanist,100
 Noto Sans,/Expressive/Business,98.3
@@ -7040,10 +7215,13 @@ Noto Sans,/Expressive/Calm,99
 Noto Sans,/Quality/Spacing,90
 Noto Sans,/Quality/Wordspace,100
 Noto Sans,/Sans/Humanist,100
+Noto Serif Ahom,/Quality/Spacing,90
 Noto Serif Ahom,/Quality/Wordspace,100
 Noto Serif Ahom,/Serif/Transitional,100
+Noto Serif Armenian,/Quality/Spacing,90
 Noto Serif Armenian,/Quality/Wordspace,100
 Noto Serif Armenian,/Serif/Transitional,100
+Noto Serif Balinese,/Quality/Spacing,90
 Noto Serif Balinese,/Quality/Wordspace,100
 Noto Serif Balinese,/Serif/Transitional,100
 Noto Serif Bengali,/Quality/Spacing,90
@@ -7052,34 +7230,44 @@ Noto Serif Bengali,/Serif/Transitional,100
 Noto Serif Devanagari,/Quality/Spacing,90
 Noto Serif Devanagari,/Quality/Wordspace,100
 Noto Serif Devanagari,/Serif/Transitional,100
+Noto Serif Display,/Quality/Spacing,90
 Noto Serif Display,/Quality/Wordspace,100
 Noto Serif Display,/Serif/Transitional,100
+Noto Serif Dives Akuru,/Quality/Spacing,90
 Noto Serif Dives Akuru,/Quality/Wordspace,100
 Noto Serif Dives Akuru,/Seasonal/Diwali,100
 Noto Serif Dives Akuru,/Serif/Transitional,100
+Noto Serif Dogra,/Quality/Spacing,90
 Noto Serif Dogra,/Quality/Wordspace,100
 Noto Serif Dogra,/Serif/Transitional,100
+Noto Serif Ethiopic,/Quality/Spacing,90
 Noto Serif Ethiopic,/Quality/Wordspace,100
 Noto Serif Ethiopic,/Serif/Transitional,100
+Noto Serif Georgian,/Quality/Spacing,90
 Noto Serif Georgian,/Quality/Wordspace,100
 Noto Serif Georgian,/Serif/Transitional,100
+Noto Serif Grantha,/Quality/Spacing,90
 Noto Serif Grantha,/Quality/Wordspace,100
 Noto Serif Grantha,/Serif/Transitional,100
+Noto Serif Gujarati,/Quality/Spacing,90
 Noto Serif Gujarati,/Quality/Wordspace,80
 Noto Serif Gujarati,/Serif/Transitional,100
+Noto Serif Gurmukhi,/Quality/Spacing,90
 Noto Serif Gurmukhi,/Quality/Wordspace,100
 Noto Serif Gurmukhi,/Serif/Transitional,100
 Noto Serif HK,/Expressive/Loud,25
+Noto Serif HK,/Quality/Spacing,90
 Noto Serif HK,/Quality/Wordspace,100
 Noto Serif HK,/Seasonal/Lunar New Year,66
 Noto Serif HK,/Serif/Transitional,100
+Noto Serif Hebrew,/Quality/Spacing,90
 Noto Serif Hebrew,/Quality/Wordspace,90
 Noto Serif Hebrew,/Serif/Transitional,100
 Noto Serif Hentaigana,/Expressive/Artistic,80
 Noto Serif Hentaigana,/Expressive/Sincere,50
 Noto Serif Hentaigana,/Quality/Concept,100
 Noto Serif Hentaigana,/Quality/Drawing,100
-Noto Serif Hentaigana,/Quality/Spacing,100
+Noto Serif Hentaigana,/Quality/Spacing,90
 Noto Serif Hentaigana,/Quality/Wordspace,100
 Noto Serif Hentaigana,/Theme/Brush,100
 Noto Serif JP,/Expressive/Loud,25
@@ -7091,55 +7279,76 @@ Noto Serif KR,/Quality/Spacing,90
 Noto Serif KR,/Quality/Wordspace,100
 Noto Serif KR,/Seasonal/Lunar New Year,66
 Noto Serif KR,/Serif/Transitional,100
+Noto Serif Kannada,/Quality/Spacing,90
 Noto Serif Kannada,/Quality/Wordspace,100
 Noto Serif Kannada,/Serif/Transitional,100
+Noto Serif Khitan Small Script,/Quality/Spacing,90
 Noto Serif Khitan Small Script,/Quality/Wordspace,100
 Noto Serif Khitan Small Script,/Serif/Transitional,100
+Noto Serif Khmer,/Quality/Spacing,90
 Noto Serif Khmer,/Quality/Wordspace,90
 Noto Serif Khmer,/Serif/Transitional,100
+Noto Serif Khojki,/Quality/Spacing,90
 Noto Serif Khojki,/Quality/Wordspace,100
 Noto Serif Khojki,/Serif/Transitional,100
+Noto Serif Lao,/Quality/Spacing,90
 Noto Serif Lao,/Quality/Wordspace,100
 Noto Serif Lao,/Serif/Transitional,100
+Noto Serif Makasar,/Quality/Spacing,90
 Noto Serif Makasar,/Quality/Wordspace,100
 Noto Serif Makasar,/Serif/Transitional,100
+Noto Serif Malayalam,/Quality/Spacing,90
 Noto Serif Malayalam,/Quality/Wordspace,100
 Noto Serif Malayalam,/Seasonal/Diwali,92
 Noto Serif Malayalam,/Serif/Transitional,100
+Noto Serif Myanmar,/Quality/Spacing,90
 Noto Serif Myanmar,/Quality/Wordspace,100
 Noto Serif Myanmar,/Serif/Transitional,100
+Noto Serif NP Hmong,/Quality/Spacing,90
 Noto Serif NP Hmong,/Quality/Wordspace,100
 Noto Serif NP Hmong,/Serif/Transitional,100
+Noto Serif Nyiakeng Puachue Hmong,/Quality/Spacing,90
 Noto Serif Nyiakeng Puachue Hmong,/Quality/Wordspace,100
 Noto Serif Nyiakeng Puachue Hmong,/Serif/Transitional,100
 Noto Serif Old Uyghur,/Expressive/Business,98.9
 Noto Serif Old Uyghur,/Expressive/Competent,98.9
 Noto Serif Old Uyghur,/Expressive/Sincere,91
+Noto Serif Old Uyghur,/Quality/Spacing,90
 Noto Serif Old Uyghur,/Quality/Wordspace,100
 Noto Serif Old Uyghur,/Serif/Transitional,100
+Noto Serif Oriya,/Quality/Spacing,90
 Noto Serif Oriya,/Quality/Wordspace,100
 Noto Serif Oriya,/Serif/Transitional,100
+Noto Serif Ottoman Siyaq,/Quality/Spacing,90
 Noto Serif Ottoman Siyaq,/Quality/Wordspace,100
 Noto Serif Ottoman Siyaq,/Serif/Transitional,100
 Noto Serif SC,/Expressive/Loud,25
+Noto Serif SC,/Quality/Spacing,90
 Noto Serif SC,/Quality/Wordspace,100
 Noto Serif SC,/Seasonal/Lunar New Year,66
 Noto Serif SC,/Serif/Transitional,100
+Noto Serif Sinhala,/Quality/Spacing,90
 Noto Serif Sinhala,/Quality/Wordspace,100
 Noto Serif Sinhala,/Serif/Transitional,100
 Noto Serif TC,/Expressive/Loud,25
+Noto Serif TC,/Quality/Spacing,90
 Noto Serif TC,/Quality/Wordspace,100
 Noto Serif TC,/Seasonal/Lunar New Year,66
 Noto Serif TC,/Serif/Transitional,100
+Noto Serif Tamil,/Quality/Spacing,90
 Noto Serif Tamil,/Quality/Wordspace,100
 Noto Serif Tamil,/Serif/Transitional,100
 Noto Serif Tangut,/Expressive/Loud,25
+Noto Serif Tangut,/Quality/Spacing,90
 Noto Serif Tangut,/Quality/Wordspace,100
 Noto Serif Tangut,/Serif/Transitional,100
+Noto Serif Telugu,/Quality/Spacing,90
 Noto Serif Telugu,/Quality/Wordspace,90
 Noto Serif Telugu,/Serif/Transitional,100
+Noto Serif Thai,/Quality/Spacing,90
 Noto Serif Thai,/Quality/Wordspace,100
 Noto Serif Thai,/Serif/Transitional,100
+Noto Serif Tibetan,/Quality/Spacing,90
 Noto Serif Tibetan,/Quality/Wordspace,100
 Noto Serif Tibetan,/Serif/Transitional,100
 Noto Serif Todhri,/Expressive/Competent,100
@@ -7147,10 +7356,13 @@ Noto Serif Todhri,/Quality/Concept,100
 Noto Serif Todhri,/Quality/Drawing,100
 Noto Serif Todhri,/Quality/Spacing,90
 Noto Serif Todhri,/Quality/Wordspace,100
+Noto Serif Toto,/Quality/Spacing,90
 Noto Serif Toto,/Quality/Wordspace,100
 Noto Serif Toto,/Serif/Transitional,100
+Noto Serif Vithkuqi,/Quality/Spacing,90
 Noto Serif Vithkuqi,/Quality/Wordspace,100
 Noto Serif Vithkuqi,/Serif/Transitional,100
+Noto Serif Yezidi,/Quality/Spacing,90
 Noto Serif Yezidi,/Quality/Wordspace,100
 Noto Serif Yezidi,/Serif/Transitional,100
 Noto Serif,/Expressive/Business,98.9
@@ -7160,10 +7372,12 @@ Noto Serif,/Quality/Spacing,90
 Noto Serif,/Quality/Wordspace,100
 Noto Serif,/Serif/Transitional,100
 Noto Traditional Nushu,/Expressive/Business,58
+Noto Traditional Nushu,/Quality/Spacing,90
 Noto Traditional Nushu,/Quality/Wordspace,100
 Noto Traditional Nushu,/Sans/Humanist,100
 Noto Znamenny Musical Notation,/Expressive/Business,98.3
 Noto Znamenny Musical Notation,/Expressive/Calm,99
+Noto Znamenny Musical Notation,/Quality/Spacing,90
 Noto Znamenny Musical Notation,/Quality/Wordspace,100
 Noto Znamenny Musical Notation,/Sans/Humanist,100
 Nova Cut,/Expressive/Loud,28
@@ -7438,6 +7652,7 @@ Ovo,/Quality/Wordspace,90
 Ovo,/Serif/Humanist Venetian,100
 Oxanium,/Expressive/Futuristic,99
 Oxanium,/Expressive/Stiff,98
+Oxanium,/Quality/Spacing,70
 Oxanium,/Quality/Wordspace,80
 Oxanium,/Sans/Superellipse,100
 Oxanium,/Theme/Techno,100
@@ -7460,6 +7675,7 @@ Oxygen,/Sans/Humanist,60
 PT Mono,/Expressive/Sincere,63
 PT Mono,/Expressive/Vintage,83.5
 PT Mono,/Monospace/Monospace,100
+PT Mono,/Quality/Spacing,100
 PT Mono,/Quality/Wordspace,100
 PT Sans Caption,/Expressive/Business,86.1
 PT Sans Caption,/Expressive/Calm,88.2
@@ -7548,6 +7764,7 @@ Pangolin,/Expressive/Excited,31
 Pangolin,/Expressive/Happy,55
 Pangolin,/Expressive/Innovative,51
 Pangolin,/Expressive/Playful,22
+Pangolin,/Quality/Spacing,80
 Pangolin,/Quality/Wordspace,95
 Pangolin,/Script/Handwritten,100
 Pangolin,/Script/Informal,100
@@ -7845,6 +8062,7 @@ Playpen Sans,/Script/Informal,100
 Playwrite AR Guides,/Purpose/Learn To Write,100
 Playwrite AR Guides,/Quality/Concept,100
 Playwrite AR Guides,/Quality/Drawing,100
+Playwrite AR Guides,/Quality/Spacing,90
 Playwrite AR Guides,/Quality/Wordspace,100
 Playwrite AR Guides,/Script/Handwritten,100
 Playwrite AR Guides,/Script/Upright Script,100
@@ -7853,6 +8071,7 @@ Playwrite AR,/Expressive/Cute,50
 Playwrite AR,/Purpose/Learn To Write,100
 Playwrite AR,/Quality/Concept,100
 Playwrite AR,/Quality/Drawing,100
+Playwrite AR,/Quality/Spacing,90
 Playwrite AR,/Quality/Wordspace,100
 Playwrite AR,/Script/Handwritten,100
 Playwrite AR,/Script/Informal,80
@@ -7860,6 +8079,7 @@ Playwrite AR,/Script/Upright Script,100
 Playwrite AT Guides,/Purpose/Learn To Write,100
 Playwrite AT Guides,/Quality/Concept,100
 Playwrite AT Guides,/Quality/Drawing,100
+Playwrite AT Guides,/Quality/Spacing,90
 Playwrite AT Guides,/Quality/Wordspace,100
 Playwrite AT Guides,/Script/Handwritten,100
 Playwrite AT Guides,/Script/Upright Script,50
@@ -7868,6 +8088,7 @@ Playwrite AT,/Expressive/Cute,50
 Playwrite AT,/Purpose/Learn To Write,100
 Playwrite AT,/Quality/Concept,100
 Playwrite AT,/Quality/Drawing,100
+Playwrite AT,/Quality/Spacing,90
 Playwrite AT,/Quality/Wordspace,100
 Playwrite AT,/Script/Handwritten,100
 Playwrite AT,/Script/Informal,80
@@ -7876,6 +8097,7 @@ Playwrite AT,/Seasonal/Kwanzaa,72
 Playwrite AU NSW Guides,/Purpose/Learn To Write,100
 Playwrite AU NSW Guides,/Quality/Concept,100
 Playwrite AU NSW Guides,/Quality/Drawing,100
+Playwrite AU NSW Guides,/Quality/Spacing,70
 Playwrite AU NSW Guides,/Quality/Wordspace,100
 Playwrite AU NSW Guides,/Script/Handwritten,100
 Playwrite AU NSW,/Expressive/Active,81
@@ -7883,30 +8105,35 @@ Playwrite AU NSW,/Expressive/Cute,50
 Playwrite AU NSW,/Purpose/Learn To Write,100
 Playwrite AU NSW,/Quality/Concept,100
 Playwrite AU NSW,/Quality/Drawing,100
+Playwrite AU NSW,/Quality/Spacing,70
 Playwrite AU NSW,/Quality/Wordspace,100
 Playwrite AU NSW,/Script/Handwritten,100
 Playwrite AU NSW,/Script/Informal,80
 Playwrite AU QLD Guides,/Purpose/Learn To Write,100
 Playwrite AU QLD Guides,/Quality/Concept,100
 Playwrite AU QLD Guides,/Quality/Drawing,100
+Playwrite AU QLD Guides,/Quality/Spacing,70
 Playwrite AU QLD Guides,/Quality/Wordspace,100
 Playwrite AU QLD Guides,/Script/Handwritten,100
 Playwrite AU QLD,/Expressive/Cute,50
 Playwrite AU QLD,/Purpose/Learn To Write,100
 Playwrite AU QLD,/Quality/Concept,100
 Playwrite AU QLD,/Quality/Drawing,100
+Playwrite AU QLD,/Quality/Spacing,70
 Playwrite AU QLD,/Quality/Wordspace,100
 Playwrite AU QLD,/Script/Handwritten,100
 Playwrite AU QLD,/Script/Informal,80
 Playwrite AU SA Guides,/Purpose/Learn To Write,100
 Playwrite AU SA Guides,/Quality/Concept,100
 Playwrite AU SA Guides,/Quality/Drawing,100
+Playwrite AU SA Guides,/Quality/Spacing,70
 Playwrite AU SA Guides,/Quality/Wordspace,100
 Playwrite AU SA Guides,/Script/Handwritten,100
 Playwrite AU SA,/Expressive/Cute,50
 Playwrite AU SA,/Purpose/Learn To Write,100
 Playwrite AU SA,/Quality/Concept,100
 Playwrite AU SA,/Quality/Drawing,100
+Playwrite AU SA,/Quality/Spacing,70
 Playwrite AU SA,/Quality/Wordspace,100
 Playwrite AU SA,/Script/Handwritten,100
 Playwrite AU SA,/Script/Informal,80
@@ -7914,42 +8141,49 @@ Playwrite AU SA,/Seasonal/Kwanzaa,74
 Playwrite AU TAS Guides,/Purpose/Learn To Write,100
 Playwrite AU TAS Guides,/Quality/Concept,100
 Playwrite AU TAS Guides,/Quality/Drawing,100
+Playwrite AU TAS Guides,/Quality/Spacing,70
 Playwrite AU TAS Guides,/Quality/Wordspace,100
 Playwrite AU TAS Guides,/Script/Handwritten,100
 Playwrite AU TAS,/Expressive/Cute,50
 Playwrite AU TAS,/Purpose/Learn To Write,100
 Playwrite AU TAS,/Quality/Concept,100
 Playwrite AU TAS,/Quality/Drawing,100
+Playwrite AU TAS,/Quality/Spacing,70
 Playwrite AU TAS,/Quality/Wordspace,100
 Playwrite AU TAS,/Script/Handwritten,100
 Playwrite AU TAS,/Script/Informal,80
 Playwrite AU VIC Guides,/Purpose/Learn To Write,100
 Playwrite AU VIC Guides,/Quality/Concept,100
 Playwrite AU VIC Guides,/Quality/Drawing,100
+Playwrite AU VIC Guides,/Quality/Spacing,90
 Playwrite AU VIC Guides,/Quality/Wordspace,100
 Playwrite AU VIC Guides,/Script/Handwritten,100
 Playwrite AU VIC,/Expressive/Cute,50
 Playwrite AU VIC,/Purpose/Learn To Write,100
 Playwrite AU VIC,/Quality/Concept,100
 Playwrite AU VIC,/Quality/Drawing,100
+Playwrite AU VIC,/Quality/Spacing,90
 Playwrite AU VIC,/Quality/Wordspace,100
 Playwrite AU VIC,/Script/Handwritten,100
 Playwrite AU VIC,/Script/Informal,80
 Playwrite BE VLG Guides,/Purpose/Learn To Write,100
 Playwrite BE VLG Guides,/Quality/Concept,100
 Playwrite BE VLG Guides,/Quality/Drawing,100
+Playwrite BE VLG Guides,/Quality/Spacing,90
 Playwrite BE VLG Guides,/Quality/Wordspace,100
 Playwrite BE VLG Guides,/Script/Handwritten,100
 Playwrite BE VLG,/Expressive/Cute,50
 Playwrite BE VLG,/Purpose/Learn To Write,100
 Playwrite BE VLG,/Quality/Concept,100
 Playwrite BE VLG,/Quality/Drawing,100
+Playwrite BE VLG,/Quality/Spacing,80
 Playwrite BE VLG,/Quality/Wordspace,100
 Playwrite BE VLG,/Script/Handwritten,100
 Playwrite BE VLG,/Script/Informal,80
 Playwrite BE WAL Guides,/Purpose/Learn To Write,100
 Playwrite BE WAL Guides,/Quality/Concept,100
 Playwrite BE WAL Guides,/Quality/Drawing,100
+Playwrite BE WAL Guides,/Quality/Spacing,90
 Playwrite BE WAL Guides,/Quality/Wordspace,100
 Playwrite BE WAL Guides,/Script/Handwritten,100
 Playwrite BE WAL Guides,/Script/Upright Script,100
@@ -7958,6 +8192,7 @@ Playwrite BE WAL,/Expressive/Cute,50
 Playwrite BE WAL,/Purpose/Learn To Write,100
 Playwrite BE WAL,/Quality/Concept,100
 Playwrite BE WAL,/Quality/Drawing,100
+Playwrite BE WAL,/Quality/Spacing,90
 Playwrite BE WAL,/Quality/Wordspace,100
 Playwrite BE WAL,/Script/Handwritten,100
 Playwrite BE WAL,/Script/Informal,80
@@ -7965,6 +8200,7 @@ Playwrite BE WAL,/Script/Upright Script,100
 Playwrite BR Guides,/Purpose/Learn To Write,100
 Playwrite BR Guides,/Quality/Concept,100
 Playwrite BR Guides,/Quality/Drawing,100
+Playwrite BR Guides,/Quality/Spacing,90
 Playwrite BR Guides,/Quality/Wordspace,100
 Playwrite BR Guides,/Script/Handwritten,100
 Playwrite BR Guides,/Script/Upright Script,100
@@ -7973,6 +8209,7 @@ Playwrite BR,/Expressive/Cute,50
 Playwrite BR,/Purpose/Learn To Write,100
 Playwrite BR,/Quality/Concept,100
 Playwrite BR,/Quality/Drawing,100
+Playwrite BR,/Quality/Spacing,90
 Playwrite BR,/Quality/Wordspace,100
 Playwrite BR,/Script/Handwritten,100
 Playwrite BR,/Script/Informal,80
@@ -7980,18 +8217,21 @@ Playwrite BR,/Script/Upright Script,100
 Playwrite CA Guides,/Purpose/Learn To Write,100
 Playwrite CA Guides,/Quality/Concept,100
 Playwrite CA Guides,/Quality/Drawing,100
+Playwrite CA Guides,/Quality/Spacing,90
 Playwrite CA Guides,/Quality/Wordspace,100
 Playwrite CA Guides,/Script/Handwritten,100
 Playwrite CA,/Expressive/Cute,50
 Playwrite CA,/Purpose/Learn To Write,100
 Playwrite CA,/Quality/Concept,100
 Playwrite CA,/Quality/Drawing,100
+Playwrite CA,/Quality/Spacing,90
 Playwrite CA,/Quality/Wordspace,100
 Playwrite CA,/Script/Handwritten,100
 Playwrite CA,/Script/Informal,80
 Playwrite CL Guides,/Purpose/Learn To Write,100
 Playwrite CL Guides,/Quality/Concept,100
 Playwrite CL Guides,/Quality/Drawing,100
+Playwrite CL Guides,/Quality/Spacing,90
 Playwrite CL Guides,/Quality/Wordspace,100
 Playwrite CL Guides,/Script/Handwritten,100
 Playwrite CL Guides,/Script/Upright Script,100
@@ -8000,6 +8240,7 @@ Playwrite CL,/Expressive/Cute,50
 Playwrite CL,/Purpose/Learn To Write,100
 Playwrite CL,/Quality/Concept,100
 Playwrite CL,/Quality/Drawing,100
+Playwrite CL,/Quality/Spacing,90
 Playwrite CL,/Quality/Wordspace,100
 Playwrite CL,/Script/Handwritten,100
 Playwrite CL,/Script/Informal,80
@@ -8007,6 +8248,7 @@ Playwrite CL,/Script/Upright Script,100
 Playwrite CO Guides,/Purpose/Learn To Write,100
 Playwrite CO Guides,/Quality/Concept,100
 Playwrite CO Guides,/Quality/Drawing,100
+Playwrite CO Guides,/Quality/Spacing,90
 Playwrite CO Guides,/Quality/Wordspace,100
 Playwrite CO Guides,/Script/Handwritten,100
 Playwrite CO,/Expressive/Active,80
@@ -8014,24 +8256,28 @@ Playwrite CO,/Expressive/Cute,50
 Playwrite CO,/Purpose/Learn To Write,100
 Playwrite CO,/Quality/Concept,100
 Playwrite CO,/Quality/Drawing,100
+Playwrite CO,/Quality/Spacing,90
 Playwrite CO,/Quality/Wordspace,100
 Playwrite CO,/Script/Handwritten,100
 Playwrite CO,/Script/Informal,80
 Playwrite CU Guides,/Purpose/Learn To Write,100
 Playwrite CU Guides,/Quality/Concept,100
 Playwrite CU Guides,/Quality/Drawing,100
+Playwrite CU Guides,/Quality/Spacing,90
 Playwrite CU Guides,/Quality/Wordspace,100
 Playwrite CU Guides,/Script/Handwritten,100
 Playwrite CU,/Expressive/Cute,50
 Playwrite CU,/Purpose/Learn To Write,100
 Playwrite CU,/Quality/Concept,100
 Playwrite CU,/Quality/Drawing,100
+Playwrite CU,/Quality/Spacing,90
 Playwrite CU,/Quality/Wordspace,100
 Playwrite CU,/Script/Handwritten,100
 Playwrite CU,/Script/Informal,80
 Playwrite CZ Guides,/Purpose/Learn To Write,100
 Playwrite CZ Guides,/Quality/Concept,100
 Playwrite CZ Guides,/Quality/Drawing,100
+Playwrite CZ Guides,/Quality/Spacing,80
 Playwrite CZ Guides,/Quality/Wordspace,100
 Playwrite CZ Guides,/Script/Handwritten,100
 Playwrite CZ,/Expressive/Active,80
@@ -8039,6 +8285,7 @@ Playwrite CZ,/Expressive/Cute,50
 Playwrite CZ,/Purpose/Learn To Write,100
 Playwrite CZ,/Quality/Concept,100
 Playwrite CZ,/Quality/Drawing,100
+Playwrite CZ,/Quality/Spacing,80
 Playwrite CZ,/Quality/Wordspace,100
 Playwrite CZ,/Script/Handwritten,100
 Playwrite CZ,/Script/Informal,80
@@ -8046,6 +8293,7 @@ Playwrite CZ,/Seasonal/Kwanzaa,78
 Playwrite DE Grund Guides,/Purpose/Learn To Write,100
 Playwrite DE Grund Guides,/Quality/Concept,100
 Playwrite DE Grund Guides,/Quality/Drawing,100
+Playwrite DE Grund Guides,/Quality/Spacing,70
 Playwrite DE Grund Guides,/Quality/Wordspace,100
 Playwrite DE Grund Guides,/Script/Handwritten,100
 Playwrite DE Grund Guides,/Script/Upright Script,100
@@ -8054,6 +8302,7 @@ Playwrite DE Grund,/Expressive/Cute,50
 Playwrite DE Grund,/Purpose/Learn To Write,100
 Playwrite DE Grund,/Quality/Concept,100
 Playwrite DE Grund,/Quality/Drawing,100
+Playwrite DE Grund,/Quality/Spacing,70
 Playwrite DE Grund,/Quality/Wordspace,100
 Playwrite DE Grund,/Script/Handwritten,100
 Playwrite DE Grund,/Script/Informal,80
@@ -8061,6 +8310,7 @@ Playwrite DE Grund,/Script/Upright Script,100
 Playwrite DE LA Guides,/Purpose/Learn To Write,100
 Playwrite DE LA Guides,/Quality/Concept,100
 Playwrite DE LA Guides,/Quality/Drawing,100
+Playwrite DE LA Guides,/Quality/Spacing,90
 Playwrite DE LA Guides,/Quality/Wordspace,100
 Playwrite DE LA Guides,/Script/Handwritten,100
 Playwrite DE LA,/Expressive/Active,80
@@ -8068,12 +8318,14 @@ Playwrite DE LA,/Expressive/Cute,50
 Playwrite DE LA,/Purpose/Learn To Write,100
 Playwrite DE LA,/Quality/Concept,100
 Playwrite DE LA,/Quality/Drawing,100
+Playwrite DE LA,/Quality/Spacing,80
 Playwrite DE LA,/Quality/Wordspace,100
 Playwrite DE LA,/Script/Handwritten,100
 Playwrite DE LA,/Script/Informal,80
 Playwrite DE SAS Guides,/Purpose/Learn To Write,100
 Playwrite DE SAS Guides,/Quality/Concept,100
 Playwrite DE SAS Guides,/Quality/Drawing,100
+Playwrite DE SAS Guides,/Quality/Spacing,90
 Playwrite DE SAS Guides,/Quality/Wordspace,100
 Playwrite DE SAS Guides,/Script/Handwritten,100
 Playwrite DE SAS,/Expressive/Active,80
@@ -8081,12 +8333,14 @@ Playwrite DE SAS,/Expressive/Cute,50
 Playwrite DE SAS,/Purpose/Learn To Write,100
 Playwrite DE SAS,/Quality/Concept,100
 Playwrite DE SAS,/Quality/Drawing,100
+Playwrite DE SAS,/Quality/Spacing,80
 Playwrite DE SAS,/Quality/Wordspace,100
 Playwrite DE SAS,/Script/Handwritten,100
 Playwrite DE SAS,/Script/Informal,80
 Playwrite DE VA Guides,/Purpose/Learn To Write,100
 Playwrite DE VA Guides,/Quality/Concept,100
 Playwrite DE VA Guides,/Quality/Drawing,100
+Playwrite DE VA Guides,/Quality/Spacing,90
 Playwrite DE VA Guides,/Quality/Wordspace,100
 Playwrite DE VA Guides,/Script/Handwritten,100
 Playwrite DE VA,/Expressive/Active,70
@@ -8094,18 +8348,21 @@ Playwrite DE VA,/Expressive/Cute,50
 Playwrite DE VA,/Purpose/Learn To Write,100
 Playwrite DE VA,/Quality/Concept,100
 Playwrite DE VA,/Quality/Drawing,100
+Playwrite DE VA,/Quality/Spacing,80
 Playwrite DE VA,/Quality/Wordspace,100
 Playwrite DE VA,/Script/Handwritten,100
 Playwrite DE VA,/Script/Informal,80
 Playwrite DK Loopet Guides,/Purpose/Learn To Write,100
 Playwrite DK Loopet Guides,/Quality/Concept,100
 Playwrite DK Loopet Guides,/Quality/Drawing,100
+Playwrite DK Loopet Guides,/Quality/Spacing,90
 Playwrite DK Loopet Guides,/Quality/Wordspace,100
 Playwrite DK Loopet Guides,/Script/Handwritten,100
 Playwrite DK Loopet,/Expressive/Cute,50
 Playwrite DK Loopet,/Purpose/Learn To Write,100
 Playwrite DK Loopet,/Quality/Concept,100
 Playwrite DK Loopet,/Quality/Drawing,100
+Playwrite DK Loopet,/Quality/Spacing,80
 Playwrite DK Loopet,/Quality/Wordspace,100
 Playwrite DK Loopet,/Script/Handwritten,100
 Playwrite DK Loopet,/Script/Informal,80
@@ -8113,18 +8370,21 @@ Playwrite DK Loopet,/Seasonal/Kwanzaa,81
 Playwrite DK Uloopet Guides,/Purpose/Learn To Write,100
 Playwrite DK Uloopet Guides,/Quality/Concept,100
 Playwrite DK Uloopet Guides,/Quality/Drawing,100
+Playwrite DK Uloopet Guides,/Quality/Spacing,70
 Playwrite DK Uloopet Guides,/Quality/Wordspace,100
 Playwrite DK Uloopet Guides,/Script/Handwritten,100
 Playwrite DK Uloopet,/Expressive/Cute,50
 Playwrite DK Uloopet,/Purpose/Learn To Write,100
 Playwrite DK Uloopet,/Quality/Concept,100
 Playwrite DK Uloopet,/Quality/Drawing,100
+Playwrite DK Uloopet,/Quality/Spacing,70
 Playwrite DK Uloopet,/Quality/Wordspace,100
 Playwrite DK Uloopet,/Script/Handwritten,100
 Playwrite DK Uloopet,/Script/Informal,80
 Playwrite ES Deco Guides,/Purpose/Learn To Write,100
 Playwrite ES Deco Guides,/Quality/Concept,100
 Playwrite ES Deco Guides,/Quality/Drawing,100
+Playwrite ES Deco Guides,/Quality/Spacing,90
 Playwrite ES Deco Guides,/Quality/Wordspace,100
 Playwrite ES Deco Guides,/Script/Handwritten,100
 Playwrite ES Deco Guides,/Script/Upright Script,100
@@ -8133,6 +8393,7 @@ Playwrite ES Deco,/Expressive/Cute,50
 Playwrite ES Deco,/Purpose/Learn To Write,100
 Playwrite ES Deco,/Quality/Concept,100
 Playwrite ES Deco,/Quality/Drawing,100
+Playwrite ES Deco,/Quality/Spacing,90
 Playwrite ES Deco,/Quality/Wordspace,100
 Playwrite ES Deco,/Script/Handwritten,100
 Playwrite ES Deco,/Script/Informal,80
@@ -8140,6 +8401,7 @@ Playwrite ES Deco,/Script/Upright Script,100
 Playwrite ES Guides,/Purpose/Learn To Write,100
 Playwrite ES Guides,/Quality/Concept,100
 Playwrite ES Guides,/Quality/Drawing,100
+Playwrite ES Guides,/Quality/Spacing,80
 Playwrite ES Guides,/Quality/Wordspace,100
 Playwrite ES Guides,/Script/Handwritten,100
 Playwrite ES Guides,/Script/Upright Script,100
@@ -8148,6 +8410,7 @@ Playwrite ES,/Expressive/Cute,50
 Playwrite ES,/Purpose/Learn To Write,100
 Playwrite ES,/Quality/Concept,100
 Playwrite ES,/Quality/Drawing,100
+Playwrite ES,/Quality/Spacing,80
 Playwrite ES,/Quality/Wordspace,100
 Playwrite ES,/Script/Handwritten,100
 Playwrite ES,/Script/Informal,80
@@ -8155,6 +8418,7 @@ Playwrite ES,/Script/Upright Script,100
 Playwrite FR Moderne Guides,/Purpose/Learn To Write,100
 Playwrite FR Moderne Guides,/Quality/Concept,100
 Playwrite FR Moderne Guides,/Quality/Drawing,100
+Playwrite FR Moderne Guides,/Quality/Spacing,80
 Playwrite FR Moderne Guides,/Quality/Wordspace,100
 Playwrite FR Moderne Guides,/Script/Handwritten,100
 Playwrite FR Moderne Guides,/Script/Upright Script,100
@@ -8163,6 +8427,7 @@ Playwrite FR Moderne,/Expressive/Cute,50
 Playwrite FR Moderne,/Purpose/Learn To Write,100
 Playwrite FR Moderne,/Quality/Concept,100
 Playwrite FR Moderne,/Quality/Drawing,100
+Playwrite FR Moderne,/Quality/Spacing,80
 Playwrite FR Moderne,/Quality/Wordspace,100
 Playwrite FR Moderne,/Script/Handwritten,100
 Playwrite FR Moderne,/Script/Informal,80
@@ -8170,6 +8435,7 @@ Playwrite FR Moderne,/Script/Upright Script,100
 Playwrite FR Trad Guides,/Purpose/Learn To Write,100
 Playwrite FR Trad Guides,/Quality/Concept,100
 Playwrite FR Trad Guides,/Quality/Drawing,100
+Playwrite FR Trad Guides,/Quality/Spacing,90
 Playwrite FR Trad Guides,/Quality/Wordspace,100
 Playwrite FR Trad Guides,/Script/Handwritten,100
 Playwrite FR Trad Guides,/Script/Upright Script,100
@@ -8177,6 +8443,7 @@ Playwrite FR Trad,/Expressive/Cute,50
 Playwrite FR Trad,/Purpose/Learn To Write,100
 Playwrite FR Trad,/Quality/Concept,100
 Playwrite FR Trad,/Quality/Drawing,100
+Playwrite FR Trad,/Quality/Spacing,90
 Playwrite FR Trad,/Quality/Wordspace,100
 Playwrite FR Trad,/Script/Handwritten,100
 Playwrite FR Trad,/Script/Informal,80
@@ -8184,6 +8451,7 @@ Playwrite FR Trad,/Script/Upright Script,100
 Playwrite GB J Guides,/Purpose/Learn To Write,100
 Playwrite GB J Guides,/Quality/Concept,100
 Playwrite GB J Guides,/Quality/Drawing,100
+Playwrite GB J Guides,/Quality/Spacing,70
 Playwrite GB J Guides,/Quality/Wordspace,100
 Playwrite GB J Guides,/Script/Handwritten,100
 Playwrite GB J Guides,/Script/Upright Script,50
@@ -8192,6 +8460,7 @@ Playwrite GB J,/Expressive/Cute,50
 Playwrite GB J,/Purpose/Learn To Write,100
 Playwrite GB J,/Quality/Concept,100
 Playwrite GB J,/Quality/Drawing,100
+Playwrite GB J,/Quality/Spacing,80
 Playwrite GB J,/Quality/Wordspace,100
 Playwrite GB J,/Script/Handwritten,100
 Playwrite GB J,/Script/Informal,80
@@ -8199,6 +8468,7 @@ Playwrite GB J,/Script/Upright Script,50
 Playwrite GB S Guides,/Purpose/Learn To Write,100
 Playwrite GB S Guides,/Quality/Concept,100
 Playwrite GB S Guides,/Quality/Drawing,100
+Playwrite GB S Guides,/Quality/Spacing,80
 Playwrite GB S Guides,/Quality/Wordspace,100
 Playwrite GB S Guides,/Script/Handwritten,100
 Playwrite GB S Guides,/Script/Upright Script,50
@@ -8207,6 +8477,7 @@ Playwrite GB S,/Expressive/Cute,50
 Playwrite GB S,/Purpose/Learn To Write,100
 Playwrite GB S,/Quality/Concept,100
 Playwrite GB S,/Quality/Drawing,100
+Playwrite GB S,/Quality/Spacing,100
 Playwrite GB S,/Quality/Wordspace,100
 Playwrite GB S,/Script/Handwritten,100
 Playwrite GB S,/Script/Informal,80
@@ -8214,11 +8485,13 @@ Playwrite GB S,/Script/Upright Script,50
 Playwrite HR Guides,/Purpose/Learn To Write,100
 Playwrite HR Guides,/Quality/Concept,100
 Playwrite HR Guides,/Quality/Drawing,100
+Playwrite HR Guides,/Quality/Spacing,90
 Playwrite HR Guides,/Quality/Wordspace,100
 Playwrite HR Guides,/Script/Handwritten,100
 Playwrite HR Lijeva Guides,/Purpose/Learn To Write,100
 Playwrite HR Lijeva Guides,/Quality/Concept,100
 Playwrite HR Lijeva Guides,/Quality/Drawing,100
+Playwrite HR Lijeva Guides,/Quality/Spacing,90
 Playwrite HR Lijeva Guides,/Quality/Wordspace,100
 Playwrite HR Lijeva Guides,/Script/Handwritten,100
 Playwrite HR Lijeva Guides,/Script/Upright Script,100
@@ -8227,6 +8500,7 @@ Playwrite HR Lijeva,/Expressive/Cute,50
 Playwrite HR Lijeva,/Purpose/Learn To Write,100
 Playwrite HR Lijeva,/Quality/Concept,100
 Playwrite HR Lijeva,/Quality/Drawing,100
+Playwrite HR Lijeva,/Quality/Spacing,90
 Playwrite HR Lijeva,/Quality/Wordspace,100
 Playwrite HR Lijeva,/Script/Handwritten,100
 Playwrite HR Lijeva,/Script/Informal,80
@@ -8235,12 +8509,14 @@ Playwrite HR,/Expressive/Cute,50
 Playwrite HR,/Purpose/Learn To Write,100
 Playwrite HR,/Quality/Concept,100
 Playwrite HR,/Quality/Drawing,100
+Playwrite HR,/Quality/Spacing,90
 Playwrite HR,/Quality/Wordspace,100
 Playwrite HR,/Script/Handwritten,100
 Playwrite HR,/Script/Informal,80
 Playwrite HU Guides,/Purpose/Learn To Write,100
 Playwrite HU Guides,/Quality/Concept,100
 Playwrite HU Guides,/Quality/Drawing,100
+Playwrite HU Guides,/Quality/Spacing,90
 Playwrite HU Guides,/Quality/Wordspace,100
 Playwrite HU Guides,/Script/Handwritten,100
 Playwrite HU Guides,/Script/Upright Script,100
@@ -8249,6 +8525,7 @@ Playwrite HU,/Expressive/Cute,50
 Playwrite HU,/Purpose/Learn To Write,100
 Playwrite HU,/Quality/Concept,100
 Playwrite HU,/Quality/Drawing,100
+Playwrite HU,/Quality/Spacing,90
 Playwrite HU,/Quality/Wordspace,100
 Playwrite HU,/Script/Handwritten,100
 Playwrite HU,/Script/Informal,80
@@ -8256,6 +8533,7 @@ Playwrite HU,/Script/Upright Script,100
 Playwrite ID Guides,/Purpose/Learn To Write,100
 Playwrite ID Guides,/Quality/Concept,100
 Playwrite ID Guides,/Quality/Drawing,100
+Playwrite ID Guides,/Quality/Spacing,90
 Playwrite ID Guides,/Quality/Wordspace,100
 Playwrite ID Guides,/Script/Handwritten,100
 Playwrite ID Guides,/Script/Upright Script,100
@@ -8264,6 +8542,7 @@ Playwrite ID,/Expressive/Cute,50
 Playwrite ID,/Purpose/Learn To Write,100
 Playwrite ID,/Quality/Concept,100
 Playwrite ID,/Quality/Drawing,100
+Playwrite ID,/Quality/Spacing,90
 Playwrite ID,/Quality/Wordspace,100
 Playwrite ID,/Script/Handwritten,100
 Playwrite ID,/Script/Informal,80
@@ -8271,6 +8550,7 @@ Playwrite ID,/Script/Upright Script,100
 Playwrite IE Guides,/Purpose/Learn To Write,100
 Playwrite IE Guides,/Quality/Concept,100
 Playwrite IE Guides,/Quality/Drawing,100
+Playwrite IE Guides,/Quality/Spacing,90
 Playwrite IE Guides,/Quality/Wordspace,100
 Playwrite IE Guides,/Script/Handwritten,100
 Playwrite IE,/Expressive/Active,82
@@ -8278,36 +8558,42 @@ Playwrite IE,/Expressive/Cute,50
 Playwrite IE,/Purpose/Learn To Write,100
 Playwrite IE,/Quality/Concept,100
 Playwrite IE,/Quality/Drawing,100
+Playwrite IE,/Quality/Spacing,80
 Playwrite IE,/Quality/Wordspace,100
 Playwrite IE,/Script/Handwritten,100
 Playwrite IE,/Script/Informal,80
 Playwrite IN Guides,/Purpose/Learn To Write,100
 Playwrite IN Guides,/Quality/Concept,100
 Playwrite IN Guides,/Quality/Drawing,100
+Playwrite IN Guides,/Quality/Spacing,80
 Playwrite IN Guides,/Quality/Wordspace,100
 Playwrite IN Guides,/Script/Handwritten,100
 Playwrite IN,/Expressive/Cute,50
 Playwrite IN,/Purpose/Learn To Write,100
 Playwrite IN,/Quality/Concept,100
 Playwrite IN,/Quality/Drawing,100
+Playwrite IN,/Quality/Spacing,80
 Playwrite IN,/Quality/Wordspace,100
 Playwrite IN,/Script/Handwritten,100
 Playwrite IN,/Script/Informal,80
 Playwrite IS Guides,/Purpose/Learn To Write,100
 Playwrite IS Guides,/Quality/Concept,100
 Playwrite IS Guides,/Quality/Drawing,100
+Playwrite IS Guides,/Quality/Spacing,70
 Playwrite IS Guides,/Quality/Wordspace,100
 Playwrite IS Guides,/Script/Handwritten,100
 Playwrite IS,/Expressive/Cute,50
 Playwrite IS,/Purpose/Learn To Write,100
 Playwrite IS,/Quality/Concept,100
 Playwrite IS,/Quality/Drawing,100
+Playwrite IS,/Quality/Spacing,70
 Playwrite IS,/Quality/Wordspace,100
 Playwrite IS,/Script/Handwritten,100
 Playwrite IS,/Script/Informal,80
 Playwrite IT Moderna Guides,/Purpose/Learn To Write,100
 Playwrite IT Moderna Guides,/Quality/Concept,100
 Playwrite IT Moderna Guides,/Quality/Drawing,100
+Playwrite IT Moderna Guides,/Quality/Spacing,80
 Playwrite IT Moderna Guides,/Quality/Wordspace,100
 Playwrite IT Moderna Guides,/Script/Handwritten,100
 Playwrite IT Moderna Guides,/Script/Upright Script,100
@@ -8316,6 +8602,7 @@ Playwrite IT Moderna,/Expressive/Cute,50
 Playwrite IT Moderna,/Purpose/Learn To Write,100
 Playwrite IT Moderna,/Quality/Concept,100
 Playwrite IT Moderna,/Quality/Drawing,100
+Playwrite IT Moderna,/Quality/Spacing,80
 Playwrite IT Moderna,/Quality/Wordspace,100
 Playwrite IT Moderna,/Script/Handwritten,100
 Playwrite IT Moderna,/Script/Informal,80
@@ -8323,6 +8610,7 @@ Playwrite IT Moderna,/Script/Upright Script,100
 Playwrite IT Trad Guides,/Purpose/Learn To Write,100
 Playwrite IT Trad Guides,/Quality/Concept,100
 Playwrite IT Trad Guides,/Quality/Drawing,100
+Playwrite IT Trad Guides,/Quality/Spacing,80
 Playwrite IT Trad Guides,/Quality/Wordspace,100
 Playwrite IT Trad Guides,/Script/Handwritten,100
 Playwrite IT Trad Guides,/Script/Upright Script,100
@@ -8331,6 +8619,7 @@ Playwrite IT Trad,/Expressive/Cute,50
 Playwrite IT Trad,/Purpose/Learn To Write,100
 Playwrite IT Trad,/Quality/Concept,100
 Playwrite IT Trad,/Quality/Drawing,100
+Playwrite IT Trad,/Quality/Spacing,90
 Playwrite IT Trad,/Quality/Wordspace,100
 Playwrite IT Trad,/Script/Handwritten,100
 Playwrite IT Trad,/Script/Informal,80
@@ -8338,6 +8627,7 @@ Playwrite IT Trad,/Script/Upright Script,100
 Playwrite MX Guides,/Purpose/Learn To Write,100
 Playwrite MX Guides,/Quality/Concept,100
 Playwrite MX Guides,/Quality/Drawing,100
+Playwrite MX Guides,/Quality/Spacing,90
 Playwrite MX Guides,/Quality/Wordspace,100
 Playwrite MX Guides,/Script/Handwritten,100
 Playwrite MX,/Expressive/Active,82
@@ -8345,12 +8635,14 @@ Playwrite MX,/Expressive/Cute,50
 Playwrite MX,/Purpose/Learn To Write,100
 Playwrite MX,/Quality/Concept,100
 Playwrite MX,/Quality/Drawing,100
+Playwrite MX,/Quality/Spacing,90
 Playwrite MX,/Quality/Wordspace,100
 Playwrite MX,/Script/Handwritten,100
 Playwrite MX,/Script/Informal,80
 Playwrite NG Modern Guides,/Purpose/Learn To Write,100
 Playwrite NG Modern Guides,/Quality/Concept,100
 Playwrite NG Modern Guides,/Quality/Drawing,100
+Playwrite NG Modern Guides,/Quality/Spacing,80
 Playwrite NG Modern Guides,/Quality/Wordspace,100
 Playwrite NG Modern Guides,/Script/Handwritten,100
 Playwrite NG Modern,/Expressive/Calm,50
@@ -8358,12 +8650,14 @@ Playwrite NG Modern,/Expressive/Cute,50
 Playwrite NG Modern,/Purpose/Learn To Write,100
 Playwrite NG Modern,/Quality/Concept,100
 Playwrite NG Modern,/Quality/Drawing,100
+Playwrite NG Modern,/Quality/Spacing,70
 Playwrite NG Modern,/Quality/Wordspace,100
 Playwrite NG Modern,/Script/Handwritten,100
 Playwrite NG Modern,/Script/Informal,80
 Playwrite NL Guides,/Purpose/Learn To Write,100
 Playwrite NL Guides,/Quality/Concept,100
 Playwrite NL Guides,/Quality/Drawing,100
+Playwrite NL Guides,/Quality/Spacing,80
 Playwrite NL Guides,/Quality/Wordspace,100
 Playwrite NL Guides,/Script/Handwritten,100
 Playwrite NL,/Expressive/Active,82
@@ -8371,36 +8665,42 @@ Playwrite NL,/Expressive/Cute,50
 Playwrite NL,/Purpose/Learn To Write,100
 Playwrite NL,/Quality/Concept,100
 Playwrite NL,/Quality/Drawing,100
+Playwrite NL,/Quality/Spacing,80
 Playwrite NL,/Quality/Wordspace,100
 Playwrite NL,/Script/Handwritten,100
 Playwrite NL,/Script/Informal,80
 Playwrite NO Guides,/Purpose/Learn To Write,100
 Playwrite NO Guides,/Quality/Concept,100
 Playwrite NO Guides,/Quality/Drawing,100
+Playwrite NO Guides,/Quality/Spacing,80
 Playwrite NO Guides,/Quality/Wordspace,100
 Playwrite NO Guides,/Script/Handwritten,100
 Playwrite NO,/Expressive/Cute,50
 Playwrite NO,/Purpose/Learn To Write,100
 Playwrite NO,/Quality/Concept,100
 Playwrite NO,/Quality/Drawing,100
+Playwrite NO,/Quality/Spacing,80
 Playwrite NO,/Quality/Wordspace,100
 Playwrite NO,/Script/Handwritten,100
 Playwrite NO,/Script/Informal,80
 Playwrite NZ Guides,/Purpose/Learn To Write,100
 Playwrite NZ Guides,/Quality/Concept,100
 Playwrite NZ Guides,/Quality/Drawing,100
+Playwrite NZ Guides,/Quality/Spacing,90
 Playwrite NZ Guides,/Quality/Wordspace,100
 Playwrite NZ Guides,/Script/Handwritten,100
 Playwrite NZ,/Expressive/Cute,50
 Playwrite NZ,/Purpose/Learn To Write,100
 Playwrite NZ,/Quality/Concept,100
 Playwrite NZ,/Quality/Drawing,100
+Playwrite NZ,/Quality/Spacing,90
 Playwrite NZ,/Quality/Wordspace,100
 Playwrite NZ,/Script/Handwritten,100
 Playwrite NZ,/Script/Informal,80
 Playwrite PE Guides,/Purpose/Learn To Write,100
 Playwrite PE Guides,/Quality/Concept,100
 Playwrite PE Guides,/Quality/Drawing,100
+Playwrite PE Guides,/Quality/Spacing,90
 Playwrite PE Guides,/Quality/Wordspace,100
 Playwrite PE Guides,/Script/Handwritten,100
 Playwrite PE Guides,/Script/Upright Script,100
@@ -8409,6 +8709,7 @@ Playwrite PE,/Expressive/Cute,50
 Playwrite PE,/Purpose/Learn To Write,100
 Playwrite PE,/Quality/Concept,100
 Playwrite PE,/Quality/Drawing,100
+Playwrite PE,/Quality/Spacing,90
 Playwrite PE,/Quality/Wordspace,100
 Playwrite PE,/Script/Handwritten,100
 Playwrite PE,/Script/Informal,80
@@ -8416,6 +8717,7 @@ Playwrite PE,/Script/Upright Script,100
 Playwrite PL Guides,/Purpose/Learn To Write,100
 Playwrite PL Guides,/Quality/Concept,100
 Playwrite PL Guides,/Quality/Drawing,100
+Playwrite PL Guides,/Quality/Spacing,90
 Playwrite PL Guides,/Quality/Wordspace,100
 Playwrite PL Guides,/Script/Handwritten,100
 Playwrite PL Guides,/Script/Upright Script,100
@@ -8424,6 +8726,7 @@ Playwrite PL,/Expressive/Cute,50
 Playwrite PL,/Purpose/Learn To Write,100
 Playwrite PL,/Quality/Concept,100
 Playwrite PL,/Quality/Drawing,100
+Playwrite PL,/Quality/Spacing,90
 Playwrite PL,/Quality/Wordspace,100
 Playwrite PL,/Script/Handwritten,100
 Playwrite PL,/Script/Informal,80
@@ -8431,6 +8734,7 @@ Playwrite PL,/Script/Upright Script,100
 Playwrite PT Guides,/Purpose/Learn To Write,100
 Playwrite PT Guides,/Quality/Concept,100
 Playwrite PT Guides,/Quality/Drawing,100
+Playwrite PT Guides,/Quality/Spacing,90
 Playwrite PT Guides,/Quality/Wordspace,100
 Playwrite PT Guides,/Script/Handwritten,100
 Playwrite PT Guides,/Script/Upright Script,100
@@ -8439,6 +8743,7 @@ Playwrite PT,/Expressive/Cute,50
 Playwrite PT,/Purpose/Learn To Write,100
 Playwrite PT,/Quality/Concept,100
 Playwrite PT,/Quality/Drawing,100
+Playwrite PT,/Quality/Spacing,90
 Playwrite PT,/Quality/Wordspace,100
 Playwrite PT,/Script/Handwritten,100
 Playwrite PT,/Script/Informal,80
@@ -8446,42 +8751,49 @@ Playwrite PT,/Script/Upright Script,100
 Playwrite RO Guides,/Purpose/Learn To Write,100
 Playwrite RO Guides,/Quality/Concept,100
 Playwrite RO Guides,/Quality/Drawing,100
+Playwrite RO Guides,/Quality/Spacing,90
 Playwrite RO Guides,/Quality/Wordspace,100
 Playwrite RO Guides,/Script/Handwritten,100
 Playwrite RO,/Expressive/Cute,50
 Playwrite RO,/Purpose/Learn To Write,100
 Playwrite RO,/Quality/Concept,100
 Playwrite RO,/Quality/Drawing,100
+Playwrite RO,/Quality/Spacing,90
 Playwrite RO,/Quality/Wordspace,100
 Playwrite RO,/Script/Handwritten,100
 Playwrite RO,/Script/Informal,80
 Playwrite SK Guides,/Purpose/Learn To Write,100
 Playwrite SK Guides,/Quality/Concept,100
 Playwrite SK Guides,/Quality/Drawing,100
+Playwrite SK Guides,/Quality/Spacing,90
 Playwrite SK Guides,/Quality/Wordspace,100
 Playwrite SK Guides,/Script/Handwritten,100
 Playwrite SK,/Expressive/Cute,50
 Playwrite SK,/Purpose/Learn To Write,100
 Playwrite SK,/Quality/Concept,100
 Playwrite SK,/Quality/Drawing,100
+Playwrite SK,/Quality/Spacing,90
 Playwrite SK,/Quality/Wordspace,100
 Playwrite SK,/Script/Handwritten,100
 Playwrite SK,/Script/Informal,80
 Playwrite TZ Guides,/Purpose/Learn To Write,100
 Playwrite TZ Guides,/Quality/Concept,100
 Playwrite TZ Guides,/Quality/Drawing,100
+Playwrite TZ Guides,/Quality/Spacing,90
 Playwrite TZ Guides,/Quality/Wordspace,100
 Playwrite TZ Guides,/Script/Handwritten,100
 Playwrite TZ,/Expressive/Cute,50
 Playwrite TZ,/Purpose/Learn To Write,100
 Playwrite TZ,/Quality/Concept,100
 Playwrite TZ,/Quality/Drawing,100
+Playwrite TZ,/Quality/Spacing,90
 Playwrite TZ,/Quality/Wordspace,100
 Playwrite TZ,/Script/Handwritten,100
 Playwrite TZ,/Script/Informal,80
 Playwrite US Modern Guides,/Purpose/Learn To Write,100
 Playwrite US Modern Guides,/Quality/Concept,100
 Playwrite US Modern Guides,/Quality/Drawing,100
+Playwrite US Modern Guides,/Quality/Spacing,90
 Playwrite US Modern Guides,/Quality/Wordspace,100
 Playwrite US Modern Guides,/Script/Handwritten,100
 Playwrite US Modern Guides,/Script/Upright Script,100
@@ -8490,6 +8802,7 @@ Playwrite US Modern,/Expressive/Cute,50
 Playwrite US Modern,/Purpose/Learn To Write,100
 Playwrite US Modern,/Quality/Concept,100
 Playwrite US Modern,/Quality/Drawing,100
+Playwrite US Modern,/Quality/Spacing,90
 Playwrite US Modern,/Quality/Wordspace,100
 Playwrite US Modern,/Script/Handwritten,100
 Playwrite US Modern,/Script/Informal,80
@@ -8497,6 +8810,7 @@ Playwrite US Modern,/Script/Upright Script,100
 Playwrite US Trad Guides,/Purpose/Learn To Write,100
 Playwrite US Trad Guides,/Quality/Concept,100
 Playwrite US Trad Guides,/Quality/Drawing,100
+Playwrite US Trad Guides,/Quality/Spacing,90
 Playwrite US Trad Guides,/Quality/Wordspace,100
 Playwrite US Trad Guides,/Script/Handwritten,100
 Playwrite US Trad,/Expressive/Active,70
@@ -8504,12 +8818,14 @@ Playwrite US Trad,/Expressive/Cute,50
 Playwrite US Trad,/Purpose/Learn To Write,100
 Playwrite US Trad,/Quality/Concept,100
 Playwrite US Trad,/Quality/Drawing,100
+Playwrite US Trad,/Quality/Spacing,90
 Playwrite US Trad,/Quality/Wordspace,100
 Playwrite US Trad,/Script/Handwritten,100
 Playwrite US Trad,/Script/Informal,80
 Playwrite VN Guides,/Purpose/Learn To Write,100
 Playwrite VN Guides,/Quality/Concept,100
 Playwrite VN Guides,/Quality/Drawing,100
+Playwrite VN Guides,/Quality/Spacing,90
 Playwrite VN Guides,/Quality/Wordspace,100
 Playwrite VN Guides,/Script/Handwritten,100
 Playwrite VN Guides,/Script/Upright Script,100
@@ -8518,6 +8834,7 @@ Playwrite VN,/Expressive/Cute,50
 Playwrite VN,/Purpose/Learn To Write,100
 Playwrite VN,/Quality/Concept,100
 Playwrite VN,/Quality/Drawing,100
+Playwrite VN,/Quality/Spacing,90
 Playwrite VN,/Quality/Wordspace,100
 Playwrite VN,/Script/Handwritten,100
 Playwrite VN,/Script/Informal,80
@@ -8525,12 +8842,14 @@ Playwrite VN,/Script/Upright Script,100
 Playwrite ZA Guides,/Purpose/Learn To Write,100
 Playwrite ZA Guides,/Quality/Concept,100
 Playwrite ZA Guides,/Quality/Drawing,100
+Playwrite ZA Guides,/Quality/Spacing,90
 Playwrite ZA Guides,/Quality/Wordspace,100
 Playwrite ZA Guides,/Script/Handwritten,100
 Playwrite ZA,/Expressive/Cute,50
 Playwrite ZA,/Purpose/Learn To Write,100
 Playwrite ZA,/Quality/Concept,100
 Playwrite ZA,/Quality/Drawing,100
+Playwrite ZA,/Quality/Spacing,90
 Playwrite ZA,/Quality/Wordspace,100
 Playwrite ZA,/Script/Handwritten,100
 Playwrite ZA,/Script/Informal,80
@@ -8674,7 +8993,7 @@ Pridi,/Expressive/Sincere,71
 Pridi,/Expressive/Stiff,51
 Pridi,/Expressive/Vintage,81
 Pridi,/Quality/Drawing,50
-Pridi,/Quality/Spacing,20
+Pridi,/Quality/Spacing,70
 Pridi,/Quality/Wordspace,70
 Pridi,/Serif/Modern,50
 Pridi,/Slab/Clarendon,100
@@ -9029,6 +9348,7 @@ Reenie Beanie,/Expressive/Excited,57
 Reenie Beanie,/Expressive/Happy,54
 Reenie Beanie,/Expressive/Playful,14
 Reenie Beanie,/Expressive/Sincere,96
+Reenie Beanie,/Quality/Spacing,90
 Reenie Beanie,/Quality/Wordspace,80
 Reenie Beanie,/Script/Handwritten,100
 Reggae One,/Expressive/Awkward,72
@@ -10327,6 +10647,7 @@ Spicy Rice,/Expressive/Loud,94
 Spicy Rice,/Expressive/Playful,91.8
 Spicy Rice,/Expressive/Stiff,30
 Spicy Rice,/Expressive/Vintage,90.5
+Spicy Rice,/Quality/Spacing,60
 Spicy Rice,/Quality/Wordspace,95
 Spicy Rice,/Seasonal/Diwali,80
 Spicy Rice,/Seasonal/Valentine's Day,68
@@ -10983,6 +11304,7 @@ UNAL Ancizar Sans,/Sans/Humanist,100
 UNAL Ancizar Serif,/Expressive/Business,70
 UNAL Ancizar Serif,/Expressive/Competent,90
 UNAL Ancizar Serif,/Expressive/Sincere,90
+UNAL Ancizar Serif,/Quality/Spacing,70
 UNAL Ancizar Serif,/Quality/Wordspace,95
 UNAL Ancizar Serif,/Serif/Transitional,100
 Ubuntu Condensed,/Expressive/Business,55.6
@@ -11251,6 +11573,7 @@ Volkhov,/Expressive/Business,95.9
 Volkhov,/Expressive/Sincere,92
 Volkhov,/Expressive/Stiff,70
 Volkhov,/Expressive/Vintage,68.4
+Volkhov,/Quality/Spacing,100
 Volkhov,/Quality/Wordspace,90
 Volkhov,/Serif/Transitional,80
 Vollkorn SC,/Expressive/Sincere,94
@@ -11680,6 +12003,7 @@ Zen Kaku Gothic New,/Sans/Grotesque,30
 Zen Kaku Gothic New,/Sans/Neo Grotesque,80
 Zen Kurenaido,/Expressive/Happy,41
 Zen Kurenaido,/Expressive/Stiff,73
+Zen Kurenaido,/Quality/Spacing,60
 Zen Kurenaido,/Quality/Wordspace,60
 Zen Kurenaido,/Sans/Neo Grotesque,90
 Zen Kurenaido,/Sans/Rounded,100
@@ -11694,6 +12018,7 @@ Zen Loop,/Script/Informal,60
 Zen Maru Gothic,/Expressive/Business,1
 Zen Maru Gothic,/Expressive/Calm,69
 Zen Maru Gothic,/Expressive/Stiff,51
+Zen Maru Gothic,/Quality/Spacing,90
 Zen Maru Gothic,/Quality/Wordspace,90
 Zen Maru Gothic,/Sans/Grotesque,30
 Zen Maru Gothic,/Sans/Neo Grotesque,80
@@ -11708,6 +12033,7 @@ Zen Tokyo Zoo,/Expressive/Innovative,93
 Zen Tokyo Zoo,/Expressive/Stiff,82
 Zen Tokyo Zoo,/Expressive/Vintage,73.6
 Zen Tokyo Zoo,/Quality/Concept,20
+Zen Tokyo Zoo,/Quality/Spacing,90
 Zen Tokyo Zoo,/Quality/Wordspace,60
 Zen Tokyo Zoo,/Seasonal/Kwanzaa,91
 Zen Tokyo Zoo,/Theme/Art Deco,30
@@ -11723,6 +12049,7 @@ Zeyada,/Script/Informal,90
 Zhi Mang Xing,/Expressive/Active,61
 Zhi Mang Xing,/Expressive/Artistic,67
 Zhi Mang Xing,/Expressive/Cute,23
+Zhi Mang Xing,/Quality/Spacing,60
 Zhi Mang Xing,/Quality/Wordspace,90
 Zhi Mang Xing,/Script/Handwritten,100
 Zhi Mang Xing,/Seasonal/Lunar New Year,100
@@ -11743,5 +12070,6 @@ Zilla Slab,/Slab/Geometric,20
 Zilla Slab,/Slab/Humanist,70
 Znamenny Musical Notation,/Expressive/Business,98.3
 Znamenny Musical Notation,/Expressive/Calm,99
+Znamenny Musical Notation,/Quality/Spacing,90
 Znamenny Musical Notation,/Quality/Wordspace,100
 Znamenny Musical Notation,/Sans/Humanist,100

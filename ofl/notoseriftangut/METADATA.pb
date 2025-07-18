@@ -18,8 +18,8 @@ subsets: "menu"
 subsets: "tangut"
 source {
   repository_url: "https://github.com/notofonts/tangut"
-  commit: "fd05a0c467af2d97ebcb6ed46453c9a0a37dfa66"
-  archive_url: "https://github.com/notofonts/tangut/releases/download/NotoSerifTangut-v2.169/NotoSerifTangut-v2.169.zip"
+  commit: "bc79cdc478cd198b4ea77827c42a50dbb3613187"
+  archive_url: "https://github.com/notofonts/tangut/releases/download/NotoSerifTangut-v2.170/NotoSerifTangut-v2.170.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"
     dest_file: "DESCRIPTION.en_us.html"
@@ -40,5 +40,5 @@ source {
   config_yaml: "sources/config-serif-tangut.yaml"
 }
 is_noto: true
-languages: "txg_Tang"
+languages: "txg_Tang"  # Tangut
 primary_script: "Tang"

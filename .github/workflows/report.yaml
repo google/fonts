@@ -45,6 +45,11 @@ jobs:
       - name: Compact fontspector database
         run: |
           /home/runner/.duckdb/cli/latest/duckdb .ci/dashboard/fontspector.db -f .ci/dashboard/scripts/tidy-database.sql
+      - name: Grab data files from last run
+        working-directory: .ci/dashboard/src/data/
+        run: |
+          curl https://google.github.io/fonts/_file/data/servers.json -o servers.json
+          curl https://google.github.io/fonts/_file/data/versionhistory.json -o versionhistory.json
       - name: Write out secret
         run: echo "${{ secrets.GF_PUSH_CONFIG }}" | base64 -d > ~/.gf_push_config.ini
       - name: Update servers
@@ -52,11 +57,6 @@ jobs:
         env:
           GF_PATH: /home/runner/work/fonts/fonts
         working-directory: .ci/dashboard
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        name: Commit any updated data files
-        with:
-          file_pattern: ".ci/dashboard/src/data/"
-
       # Now build the dashboard
       - name: Install Node.js
         uses: actions/setup-node@v3
@@ -80,6 +80,10 @@ jobs:
           curl https://fonts.google.com/metadata/fonts > build/family_data.json
           cp ../vf-tag-demo2.html build/vf-tag-demo2.html
         working-directory: .ci/dashboard
+      - name: Copy JSON files we need to well-known names
+        run: |
+          cp .ci/dashboard/build/_file/data/servers.*.json .ci/dashboard/build/_file/data/servers.json
+          cp .ci/dashboard/build/_file/data/versionhistory.*.json .ci/dashboard/build/_file/data/versionhistory.json
       - name: Upload build artifacts
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: actions/upload-pages-artifact@v3.0.1

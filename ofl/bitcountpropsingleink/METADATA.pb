@@ -42,22 +42,22 @@ axes {
 }
 axes {
   tag: "XPN1"
-  min_value: 0.0
+  min_value: -100.0
   max_value: 100.0
 }
 axes {
   tag: "XPN2"
-  min_value: 0.0
+  min_value: -100.0
   max_value: 100.0
 }
 axes {
   tag: "YPN1"
-  min_value: 0.0
+  min_value: -100.0
   max_value: 100.0
 }
 axes {
   tag: "YPN2"
-  min_value: 0.0
+  min_value: -100.0
   max_value: 100.0
 }
 axes {

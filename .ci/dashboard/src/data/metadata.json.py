@@ -10,7 +10,7 @@ from gftools.push.items import parse_html
 repo_path = os.environ["GF_REPO_PATH"]
 metadata = {}
 
-for directory in glob(os.path.join(repo_path, "ofl", "*")):
+for directory in list(glob(os.path.join(repo_path, "ofl", "*"))) + list(glob(os.path.join(repo_path, "apache", "*"))):
     if not os.path.isdir(directory):
         continue
 

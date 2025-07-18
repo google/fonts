@@ -97,3 +97,4 @@ source {
 }
 primary_script: "Tfng"
 stroke: "SANS_SERIF"
+classifications: "HANDWRITING"

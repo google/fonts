@@ -39,11 +39,14 @@ export default {
            <button @click="removeTag(tag)">Remove</button>
         </li>
       </ul>
-      <p v-if="similarFamilies.length">Similar families</p>
+      <h3 v-if="similarFamilies.length">Similar families</h3>
       <ul>
         <li v-for="family in similarFamilies" :key="family" :style="{ fontFamily: family }">
           {{ family }} <button @click="addFontPanel(family)">Add</button>
         </li>
+      </ul>
+      <h3 v-if="lintErrors.length">Warnings</h3>
+      <ul>
         <li v-for="error in lintErrors" :key="error.description" :class="{ 'tag-error': error.severity === 'ERROR', 'tag-warn': error.severity === 'WARN', 'tag-fail': error.severity === 'FAIL', 'tag-info': error.severity === 'INFO' }">
         {{ error.description }}
         </li>

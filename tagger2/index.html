@@ -28,7 +28,7 @@
     </div>
   </div>
   <script type="module">
-    import { GF, Tags, FontTag } from './models.js';
+    import { GF, Tags, FontTag, FontTagGroup } from './models.js';
     import TagsByFont from "./TagsByFont.js";
     import TagsByCategories from "./TagsByCategories.js";
     import Panel from "./Panel.js";
@@ -58,6 +58,7 @@
       data: {
         gf: null,
         tags: null,
+        tagGroups: [],
         panels: [
           { type: 'font', font: 'Roboto' },
           { type: 'categories', categories: ['/Expressive/Loud', '/Expressive/Childlike'] }
@@ -68,7 +69,7 @@
           this.panels.push({ type: 'font', font });
         },
         addCategoriesPanel(categories) {
-          this.panels.push({ type: 'categories', categories });
+          this.panels.push({ type: 'categories', categories , tagGroups: this.tagGroups });
         },
         addVFViewPanel() {
           this.panels.push({ type: 'vf-view', families: this.gf.families });
@@ -104,8 +105,10 @@
               for (let category of filterSet.categories) {
                 const lowTag = new FontTag(category, family, [{tag: "wght", value: 100}], filterSet.lowTag.score);
                 const highTag = new FontTag(category, family, [{tag: "wght", value: 900}], filterSet.highTag.score);
-                this.tags.items.push(lowTag);
-                this.tags.items.push(highTag);
+                const fontTag = new FontTagGroup();
+                fontTag.addTag(lowTag);
+                fontTag.addTag(highTag);
+                this.tagGroups.push(fontTag);
               }
             }
           }
@@ -134,6 +137,13 @@
 
         // Subscribe to events
         this.$root.$on("remove-tag", this.removeTag);
+        const family = this.gf.families.find(f => f.name === 'Maven Pro');
+        const tag1 = new FontTag('/Purpose/Easy Reading', family, [{tag: "wght", value: 400}], 10);
+        const tag2 = new FontTag('/Purpose/Easy Reading', family, [{tag: "wght", value: 900}], 100);
+        const tagGroup = new FontTagGroup();
+        tagGroup.addTag(tag1);
+        tagGroup.addTag(tag2);
+        this.tagGroups.push(tagGroup);
       }
     });
     window.app = app

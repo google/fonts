@@ -44,6 +44,15 @@ export class FontTag {
 
 }
 
+export class FontTagGroup {
+    constructor() {
+        this.tags = [];
+    }
+    addTag(tag) {
+        this.tags.push(tag);
+    }
+}
+
 export class Font {
     constructor(name, axes) {
         this.name = name;

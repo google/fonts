@@ -1,7 +1,7 @@
 export default {
     props: ["tag"],
     template: `
-        <div>
+        <div class="tag-view">
             <div class="tag-title">
                 <span class="tag-name">{{ tag.tagName }}</span>
                 <span class="tag-family">{{ tag.family.name }}</span>

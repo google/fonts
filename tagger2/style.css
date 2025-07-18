@@ -7,3 +7,8 @@ body {
 .tag-warn { color: #c0a007; }
 .tag-fail { color: #c02007; }
 .tag-info { color: #007ac0; }
+
+.tag-view { padding: 5px; border: 1px solid #eee; margin-bottom: 10px; }
+.tag-name { display: inline-block; width: 200px; font-family: monospace; font-weight: bold; }
+.tag-family { width: 200px; display: inline-block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tag-score { padding-left: 20px; color: #888; }

@@ -69,7 +69,7 @@ export default {
         }
     },
     template: `
-        <div style="border: 1px solid black">
+        <div class="frame">
             <h3>Add Tag</h3>
             <input type="checkbox" v-model="isVF" value="true" /> Variable Font
             <h3>Category</h3>

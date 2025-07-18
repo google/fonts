@@ -82,7 +82,7 @@ export default {
         }
     },
     template: `
-    <div>
+    <div class="frame">
         <h3>Add Tags</h3>
         <div>
             <h3>Categories</h3>

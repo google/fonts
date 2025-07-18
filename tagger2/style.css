@@ -12,3 +12,6 @@ body {
 .tag-name { display: inline-block; width: 200px; font-family: monospace; font-weight: bold; }
 .tag-family { width: 200px; display: inline-block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .tag-score { padding-left: 20px; color: #888; }
+
+.frame { margin: 5px; padding: 5px; border: 1px solid black; }
+.panel { margin: 5px; padding: 5px; }

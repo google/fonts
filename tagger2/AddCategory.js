@@ -15,7 +15,7 @@ export default {
         }
     },
     template: `
-        <div>
+        <div class="frame">
             <h3>Add new category</h3>
             <input type="text" v-model="category" placeholder="Category" />
             <button @click="addCategory">Add</button>

@@ -1,0 +1,15 @@
+id: "zen_Latn"
+language: "zen"
+script: "Latn"
+name: "Zenaga (Latin)"
+autonym: "tuẓẓungiyyä"
+population: 2700
+region: "MR"
+region: "SN"
+exemplar_chars {
+  base: "a A ā Ā ä Ä e E ə Ə i I ī Ī u U ū Ū ˀ ʔ b B ḅ Ḅ p P d D đ Đ {dʸ} {Dʸ} ḍ Ḍ {đ̣} {Đ̣} f F ḟ Ḟ ṿ Ṿ g G ġ Ġ h H ḥ Ḥ k K ḫ Ḫ l L ḷ Ḷ m M ṃ Ṃ n N {nʸ} {Nʸ} q Q r R ṛ Ṛ s S š Š ṣ Ṣ t T {tʸ} {Tʸ} ṭ Ṭ w W ʷ y Y ʸ z Z {z̄} {Z̄} ž Ž {ẕ̌} {Ẕ̌} ẓ Ẓ {ẓ̄} {Ẓ̄} ˁ ʕ"
+  auxiliary: "Ɣ ɣ ˤ"
+  marks: "◌̄ ◌̌ ◌̇ ◌̈ ◌̣ ◌̱ ◌̮"
+}
+source: "Catherine Taine-Cheikh, Dictionnaire français–zénaga (berbère de Mauritanie) : avec renvois au classement par racines du Dictionnaire zénaga–français, Köln: Rüdiger Köppe Verlag, 2010"
+note: "The transcription systems used for Zenaga vary to some degree and there is no practical nor standardized orthography."

@@ -5,7 +5,7 @@ name: "Kimbundu"
 population: 8130575
 region: "AO"
 exemplar_chars {
-  base: "A B D E F H I J K L M N O P S T U V X Z a b d e f h i j k l m n o p s t u v x z"
+  base: "A B D E F H I J K L M N O P S T U V X Z a b d e é ê f h i j k l m n o ô p s t u v x z"
 }
 sample_text {
   masthead_full: "OoAa"

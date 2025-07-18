@@ -10,17 +10,21 @@ region: "ET"
 exemplar_chars {
   base: "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z"
 }
+# Originally we had seehadaytiinô, matching the translation at
+# http://alma.matrix.msu.edu/wp-content/uploads/2022/06/UDHR-Afar-Somalia.pdf
+# but I can't find any reference for there being diacritics in this alphabet, so we
+# go with the exemplars
 sample_text {
   masthead_full: "KkAa"
   masthead_partial: "Rr"
   styles: "Seehada le karaamat kee garway inki gide"
-  tester: "Seehadayti garwah iggimaa kee bura aliinoh abtoy seehadaytiinô"
+  tester: "Seehadayti garwah iggimaa kee bura aliinoh abtoy seehadaytiino"
   poster_sm: "Seehadayti"
   poster_md: "Ummattah"
   poster_lg: "Karaamat"
   specimen_48: "Galli-Maroh ayyuntitte qusba addah kukti addal tan seehadayti"
   specimen_36: "Kulli num ayyunti caddoo kee baad caddola kuktih addal tan garwah addal tanim dudda luk geyaamih gar le."
   specimen_32: "Seehada le karaamat kee garway inki gide takke edde yaaqitoonu duude waana yaaxigeenim baadal curriyataay, qadlii kee wagari rakiiboh tanim kinnim cedak,"
-  specimen_21: "Seehada le karaamat kee garway inki gide takke edde yaaqitoonu duude waana yaaxigeenim baadal curriyataay, qadlii kee wagari rakiiboh tanim kinnim cedak,\nSeehadayti garwah iggimaa kee bura aliinoh abtoy seehadaytiinô kas cerissat sinam bahtem kee seehada yab kee diini curriyat elle leeh, gilic kee assommik elle tesseqqeh xintu dudda baadih geyto seehadaytuk inkih naba fayxi kinnim cedak,"
-  specimen_16: "Seehada le karaamat kee garway inki gide takke edde yaaqitoonu duude waana yaaxigeenim baadal curriyataay, qadlii kee wagari rakiiboh tanim kinnim cedak,\nSeehadayti garwah iggimaa kee bura aliinoh abtoy seehadaytiinô kas cerissat sinam bahtem kee seehada yab kee diini curriyat elle leeh, gilic kee assommik elle tesseqqeh xintu dudda baadih geyto seehadaytuk inkih naba fayxi kinnim cedak,\nSeehadayti dulmi kee xukkot koosituh ellecaboh eleytoh qeebi haysite wayuh seehadayti garwa garti xintoh dacayri geytam saqlah tanim cedak,\nUmmattah fanal qalliini dadal ilsiisaanam saqlah tanim kinnim cedak,"
+  specimen_21: "Seehada le karaamat kee garway inki gide takke edde yaaqitoonu duude waana yaaxigeenim baadal curriyataay, qadlii kee wagari rakiiboh tanim kinnim cedak,\nSeehadayti garwah iggimaa kee bura aliinoh abtoy seehadaytiino kas cerissat sinam bahtem kee seehada yab kee diini curriyat elle leeh, gilic kee assommik elle tesseqqeh xintu dudda baadih geyto seehadaytuk inkih naba fayxi kinnim cedak,"
+  specimen_16: "Seehada le karaamat kee garway inki gide takke edde yaaqitoonu duude waana yaaxigeenim baadal curriyataay, qadlii kee wagari rakiiboh tanim kinnim cedak,\nSeehadayti garwah iggimaa kee bura aliinoh abtoy seehadaytiino kas cerissat sinam bahtem kee seehada yab kee diini curriyat elle leeh, gilic kee assommik elle tesseqqeh xintu dudda baadih geyto seehadaytuk inkih naba fayxi kinnim cedak,\nSeehadayti dulmi kee xukkot koosituh ellecaboh eleytoh qeebi haysite wayuh seehadayti garwa garti xintoh dacayri geytam saqlah tanim cedak,\nUmmattah fanal qalliini dadal ilsiisaanam saqlah tanim kinnim cedak,"
 }

@@ -5,7 +5,7 @@ name: "Ao Naga"
 population: 305000
 region: "IN"
 exemplar_chars {
-  base: "A B C E I J K L M N O P R S T U Y Z a b c e i j k l m n o p r s t u y z"
+  base: "A B C E I J K L M N O P R S T U Y Z a b c e i j k l m n o p r s t u ü y z"
 }
 sample_text {
   masthead_full: "MmEe"

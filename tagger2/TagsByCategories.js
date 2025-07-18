@@ -39,15 +39,18 @@ export default {
   template: `
     <div>
       <h3>Tags for categories:</h3>
-      <select v-model="sortBy">
-        <option value="family">Family</option>
-        <option value="score">Score</option>
-      </select>
-      <select v-model="selectedCategories" multiple>
-        <option v-for="category in sortedCategories" :key="category">
-          {{ category }}
-        </option>
-      </select>
+      <div>
+        <select v-model="selectedCategories" multiple>
+          <option v-for="category in sortedCategories" :key="category">
+            {{ category }}
+          </option>
+        </select>
+        <label for="sortBy">Sort by:</label>
+        <select id="sortBy" v-model="sortBy">
+          <option value="family">Family</option>
+          <option value="score">Score</option>
+        </select>
+      </div>
         <div v-for="tag in filteredTags" :key="tag.family.name + tag.tagName + tag.score">
           <tag-view :tag="tag"></tag-view>
         </div>

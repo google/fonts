@@ -80,3 +80,28 @@ jobs:
         with:
           # repository-url: https://test.pypi.org/legacy/ # for testing purposes
           verify-metadata: false # twine previously didn't verify metadata when uploading
+
+  rust:
+    name: Publish Rust 🦀 distribution 📦 to crates.io
+    runs-on: ubuntu-latest
+    permissions:
+        contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Set up Rust
+
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        
+      - name: Check tag name matches Cargo.toml version
+        run: |-
+          TAG_NAME=${GITHUB_REF/refs\/tags\/v/}
+          CARGO_VERSION=$(cargo pkgid | sed 's/.*@//')
+          if [ "$TAG_NAME" != "$CARGO_VERSION" ]; then
+            echo "Tag name ($TAG_NAME) does not match Cargo.toml version ($CARGO_VERSION)"
+            exit 1
+          fi
+      - name: Publish Rust distribution 📦 to crates.io
+        run: cargo publish --token "${{ secrets.CRATES_IO_API_TOKEN }}"

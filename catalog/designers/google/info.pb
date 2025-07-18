@@ -1,5 +1,5 @@
 designer: "Google"
-link: "https://about.google"
+link: ""
 avatar {
   file_name: "google.png"
 }

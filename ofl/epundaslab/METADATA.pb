@@ -1,7 +1,7 @@
 name: "Epunda Slab"
 designer: "Typofactur"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2025-03-20"
 fonts {
   name: "Epunda Slab"

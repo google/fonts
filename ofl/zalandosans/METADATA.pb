@@ -1,5 +1,5 @@
 name: "Zalando Sans"
-designer: "Jakob Ekelund, Kurppa Hosk, Zalando"
+designer: "Jakob Ekelund, KH Type, Zalando"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-07-14"

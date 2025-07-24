@@ -23,13 +23,13 @@ axes {
 source {
   repository_url: "https://github.com/localremotetw/TASA-Typeface-Collection"
   commit: "659e7c4a05cfa1e22b4317303fcd40d5ff3587a2"
-  archive_url: "https://github.com/localremotetw/TASA-Typeface-Collection/releases/download/v2.010/TASA-Typeface-Collection-v2.010.zip"
+  archive_url: "https://github.com/localremotetw/TASA-Typeface-Collection/releases/download/v2.011/TASA-Typeface-Collection-v2.011.zip"
   files {
-    source_file: "TASA-Typeface-Collection-v2.010/OFL.txt"
+    source_file: "TASA-Typeface-Collection-v2.011/OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "TASA-Typeface-Collection-v2.010/fonts/TASAOrbiter/variable/TASAOrbiter[wght].ttf"
+    source_file: "TASA-Typeface-Collection-v2.011/fonts/TASAOrbiter/variable/TASAOrbiter[wght].ttf"
     dest_file: "TASAOrbiter[wght].ttf"
   }
   branch: "main"

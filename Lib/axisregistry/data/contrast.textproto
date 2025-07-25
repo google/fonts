@@ -16,6 +16,7 @@ fallback {
   name: "High"
   value: 100.0
 }
+fallback_only: false
 illustration_url: "contrast.svg"
 description:
   "Contrast describes the stroke width difference"

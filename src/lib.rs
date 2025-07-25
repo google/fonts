@@ -43,6 +43,7 @@ const GF_STATIC_STYLES: [(&str, u16); 18] = [
     ("Black Italic", 900),
 ];
 
+#[cfg(feature = "fontations")]
 const PROTECTED_IDS: [StringId; 9] = [
     StringId::FAMILY_NAME,
     StringId::SUBFAMILY_NAME,

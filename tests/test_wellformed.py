@@ -23,14 +23,19 @@ def test_proto_wellformed(axis_tag):
         field_name = field.name
         if field_name in OPTIONAL_FIELDS:
             continue
-        assert field_name in raw_fields, f"Non-optional field {field_name} is missing in {axis_tag}"
+        assert (
+            field_name in raw_fields
+        ), f"Non-optional field {field_name} is missing in {axis_tag}"
         assert raw_fields[field_name] is not None, field_name
 
+
 proto_files = [
-                file
-                for file in files("axisregistry.data").iterdir()
-                if file.name.endswith(".textproto")
-            ]
+    file
+    for file in files("axisregistry.data").iterdir()
+    if file.name.endswith(".textproto")
+]
+
+
 @pytest.mark.parametrize("proto_file", proto_files)
 def test_proto_multiline_string(proto_file):
     with open(proto_file, "r") as f:
@@ -40,8 +45,8 @@ def test_proto_multiline_string(proto_file):
     pattern = re.compile(r'".*\S"\n\s*"\S+')
     matches = pattern.findall(content)
     if matches:
-        matches = [
-            re.sub(r'"\n\s+"', "", match) for match in matches
-        ]
+        matches = [re.sub(r'"\n\s+"', "", match) for match in matches]
     # Assert that there are no such matches
-    assert not matches, f"Badly-spaced multiline strings found in {proto_file.name}: {', '.join(matches)}"
+    assert (
+        not matches
+    ), f"Badly-spaced multiline strings found in {proto_file.name}: {', '.join(matches)}"

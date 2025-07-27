@@ -40,6 +40,7 @@ jobs:
           scp -i ../private.key fontspector@corvelsoftware.co.uk:fontspector.db .ci/dashboard/fontspector.db
         shell: bash
         env:
+          # we will have to add our keys here
           CORVEL_SSH_PRIVATE_KEY: ${{secrets.CORVEL_SSH_PRIVATE_KEY}}
           CORVEL_KNOWNHOSTS: ${{secrets.CORVEL_KNOWNHOSTS}}
       - name: Compact fontspector database

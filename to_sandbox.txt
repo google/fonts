@@ -1,35 +1,46 @@
 # New
-ofl/chirongoroundtc # https://github.com/google/fonts/pull/9596
-ofl/epundaslab # https://github.com/google/fonts/pull/9562
-ofl/storyscript # https://github.com/google/fonts/pull/9565
-ofl/sirivennela # https://github.com/google/fonts/pull/9665
+ofl/asimovian # https://github.com/google/fonts/pull/9708
+ofl/epundasans # https://github.com/google/fonts/pull/9563
+ofl/libertinuskeyboard # https://github.com/google/fonts/pull/9301
+ofl/libertinusserifdisplay # https://github.com/google/fonts/pull/9353
+ofl/tasaexplorer # https://github.com/google/fonts/pull/9706
+ofl/tasaorbiter # https://github.com/google/fonts/pull/9707
+ofl/tirra # https://github.com/google/fonts/pull/9693
+ofl/zalandosans # https://github.com/google/fonts/pull/9667
+ofl/zalandosansexpanded # https://github.com/google/fonts/pull/9704
+ofl/zalandosanssemiexpanded # https://github.com/google/fonts/pull/9705
 
 # Upgrade
+ofl/amiri # https://github.com/google/fonts/pull/9418
+ofl/amiriquran # https://github.com/google/fonts/pull/9420
 ofl/bitcountpropsingleink # https://github.com/google/fonts/pull/9572
 ofl/bitcountsingleink # https://github.com/google/fonts/pull/9572
-ofl/matangi # https://github.com/google/fonts/pull/9658
-ofl/notosansbatak # https://github.com/google/fonts/pull/9604
-ofl/notosansbengali # https://github.com/google/fonts/pull/9644
-ofl/notoserifbengali # https://github.com/google/fonts/pull/9645
-ofl/reemkufi # https://github.com/google/fonts/pull/9504
-ofl/chironheihk # https://github.com/google/fonts/pull/9606
+ofl/notoseriftangut # https://github.com/google/fonts/pull/9692
 
 # Designer profile
-catalog/designers/cyreal # https://github.com/google/fonts/pull/9641
-catalog/designers/danieluzquiano # https://github.com/google/fonts/pull/9622
+catalog/designers/alexeivanyashin # https://github.com/google/fonts/pull/9683
+catalog/designers/benbuysse # https://github.com/google/fonts/pull/9682
+catalog/designers/jakobekelund # https://github.com/google/fonts/pull/9681
 catalog/designers/justfont # https://github.com/google/fonts/pull/9642
-catalog/designers/universalthirst # https://github.com/google/fonts/pull/9632
-catalog/designers/appajiambarisha # https://github.com/google/fonts/pull/9668 
-catalog/designers/google # https://github.com/google/fonts/pull/9679 
+catalog/designers/khtype # https://github.com/google/fonts/pull/9680
+catalog/designers/localremote # https://github.com/google/fonts/pull/9703
+catalog/designers/petrvanblokland # https://github.com/google/fonts/pull/9684
+catalog/designers/weizhongzhang # https://github.com/google/fonts/pull/9702
+catalog/designers/zalando # https://github.com/google/fonts/pull/9700
 
 # Metadata / Description / License
-ofl/bitcount # https://github.com/google/fonts/pull/9657
-ofl/bitcountgriddouble # https://github.com/google/fonts/pull/9657
-ofl/bitcountgridsingle # https://github.com/google/fonts/pull/9657
-ofl/bitcountpropdouble # https://github.com/google/fonts/pull/9657
-ofl/bitcountpropsingle # https://github.com/google/fonts/pull/9657
-ofl/bitcountsingle # https://github.com/google/fonts/pull/9657
 ofl/notoserifdivesakuru # https://github.com/google/fonts/pull/9569
-ofl/tiktoksans # https://github.com/google/fonts/pull/9662
-ofl/bitcountsingleink # https://github.com/google/fonts/pull/9672
-ofl/bitcountpropsingleink # https://github.com/google/fonts/pull/9672
+ofl/storyscript # https://github.com/google/fonts/pull/9688
+
+# Sample texts
+lang/languages/aa_Latn.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/ber_Latn.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/buc_Latn.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/crs_Latn.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/kmb_Latn.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/njo_Latn.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/pov_Latn.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/ty_Latn.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/zen_Latn.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/zen_Tfng.textproto # https://github.com/google/fonts/pull/9694
+lang/languages/zu_Latn.textproto # https://github.com/google/fonts/pull/9694

@@ -1,0 +1,34 @@
+tag: "CTRS"
+display_name: "Contrast"
+min_value: -100.0
+default_value: 0.0
+max_value: 100.0
+precision: 1
+fallback {
+  name: "Reversed"
+  value: -100.0
+}
+fallback {
+  name: "None"
+  value: 0.0
+}
+fallback {
+  name: "High"
+  value: 100.0
+}
+fallback_only: false
+illustration_url: "contrast.svg"
+description:
+  "Contrast describes the stroke width difference"
+  " between the thick and thin parts of the font glyphs."
+  " A value of zero indicates no visible/apparent contrast."
+  " A positive number indicates an increase in contrast relative to"
+  " the zero-contrast thickness, achieved by making the thin stroke"
+  " thinner. A value of 100 indicates that the thin stroke has"
+  " disappeared completely."
+  " A negative value indicates “reverse contrast”: the strokes"
+  " which would conventionally be thick in the writing system are"
+  " instead made thinner. In western-language fonts this"
+  " might be perceived as a 19th-century, “circus” or"
+  " “old West” effect. A value of -100 indicates that the strokes"
+  " which would normally be thick have disappeared completely."

@@ -9,6 +9,8 @@ jobs:
   build:
     name: Build distribution
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
         with:
@@ -74,7 +76,7 @@ jobs:
           name: python-package-distributions
           path: dist/
       - name: Publish distribution 📦 to PyPI
-        uses: pypa/gh-action-pypi-publish@v1.8.11
+        uses: pypa/gh-action-pypi-publish@release/v1
         with:
           # repository-url: https://test.pypi.org/legacy/ # for testing purposes
           verify-metadata: false # twine previously didn't verify metadata when uploading

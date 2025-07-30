@@ -1,0 +1,43 @@
+name: "Cossette Titre"
+designer: "Cossette"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2025-07-29"
+fonts {
+  name: "Cossette Titre"
+  style: "normal"
+  weight: 400
+  filename: "CossetteTitre-Regular.ttf"
+  post_script_name: "CossetteTitre-Regular"
+  full_name: "Cossette Titre Regular"
+  copyright: "Cossette Communication Inc."
+}
+fonts {
+  name: "Cossette Titre"
+  style: "normal"
+  weight: 700
+  filename: "CossetteTitre-Bold.ttf"
+  post_script_name: "CossetteTitre-Bold"
+  full_name: "Cossette Titre Bold"
+  copyright: "Cossette Communication Inc."
+}
+subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/m4rc1e/cossette-fonts"
+  commit: "4f62a05f9296f959a3d62392fdb2ebc0a0a37798"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CossetteTitre-Regular.ttf"
+    dest_file: "CossetteTitre-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CossetteTitre-Bold.ttf"
+    dest_file: "CossetteTitre-Bold.ttf"
+  }
+  branch: "main"
+}

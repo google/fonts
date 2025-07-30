@@ -4,7 +4,6 @@ from fontTools.misc.testTools import getXML
 from fontTools.otlLib.builder import buildStatTable
 from fontTools.varLib.instancer.names import _updateUniqueIdNameRecord, NameID
 from fontTools.ttLib.tables._f_v_a_r import NamedInstance
-from pkg_resources import resource_filename
 from google.protobuf import text_format
 from collections import OrderedDict
 from axisregistry.axes_pb2 import AxisProto
@@ -13,6 +12,13 @@ from itertools import chain
 import logging
 from glob import glob
 import os
+import sys
+
+if sys.version_info < (3, 10):
+    from importlib_resources import files
+else:
+    from importlib.resources import files
+
 
 try:
     from ._version import version as __version__  # type: ignore
@@ -52,20 +58,32 @@ GF_STATIC_STYLES = OrderedDict(
     ]
 )
 
+# The platforms to include when adding records to the `name` table, which
+# differs from fontTools' default.
+NAME_PLATFORMS = ((3, 1, 0x409),)
 
-def load_protobuf(klass, path):
+
+def load_protobuf(klass, data):
     message = klass()
-    with open(path, "rb") as text_data:
-        text_format.Merge(text_data.read(), message)
+    text_format.Merge(data, message)
     return message
 
 
 class AxisRegistry:
-    def __init__(self, fp=resource_filename("axisregistry", "data")):
-        axis_fps = [fp for fp in glob(os.path.join(fp, "*.textproto"))]
+    def __init__(self, fp=None):
+        if fp is not None:
+            protos = [
+                open(fp).read() for fp in glob.glob(os.path.join(fp, "*.textproto"))
+            ]
+        else:
+            protos = [
+                fp.read_text(encoding="utf-8")
+                for fp in files("axisregistry.data").iterdir()
+                if fp.name.endswith(".textproto")
+            ]
         self._data = {}
-        for fp in axis_fps:
-            axis = load_protobuf(AxisProto, fp)
+        for proto in protos:
+            axis = load_protobuf(AxisProto, proto)
             self._data[axis.tag] = axis
 
     def __getitem__(self, k):
@@ -96,7 +114,7 @@ class AxisRegistry:
         }
         for axis in axes_in_font:
             if axis not in self.keys():
-                log.warn(f"Axis {axis} not found in GF Axis Registry!")
+                log.warning(f"Axis {axis} not found in GF Axis Registry!")
                 continue
             for fallback in self[axis].fallback:
                 if (
@@ -229,6 +247,7 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     for axis, fallback in fallbacks_in_names:
         if axis in seen_axes:
             continue
+        seen_axes.add(axis)
         a = {
             "tag": axis,
             "name": axis_registry[axis].display_name,
@@ -242,6 +261,7 @@ def build_stat(ttFont, sibling_ttFonts=[]):
     for axis, fallback in fallbacks_in_siblings:
         if axis in seen_axes:
             continue
+        seen_axes.add(axis)
         elided_value = axis_registry[axis].default_value
         elided_fallback = axis_registry.fallback_for_value(axis, elided_value)
         a = {
@@ -426,9 +446,9 @@ def build_fvar_instances(ttFont, axis_dflts={}):
                     coordinates["slnt"] = slnt_axis.minValue
 
             inst = NamedInstance()
-            inst.subfamilyNameID = name_table.addName(name)
+            inst.subfamilyNameID = name_table.addName(name, platforms=NAME_PLATFORMS)
             inst.postscriptNameID = name_table.addName(
-                f"{family_name}-{name}".replace(" ", "")
+                f"{family_name}-{name}".replace(" ", ""), platforms=NAME_PLATFORMS
             )
             inst.coordinates = coordinates
             log.debug(f"Adding fvar instance: {name}: {coordinates}")

@@ -723,6 +723,17 @@ Asar,/Expressive/Vintage,58.9
 Asar,/Quality/Spacing,70
 Asar,/Quality/Wordspace,100
 Asar,/Serif/Humanist Venetian,60
+Asimovian,/Expressive/Artistic,70
+Asimovian,/Expressive/Futuristic,100
+Asimovian,/Expressive/Playful,80
+Asimovian,/Expressive/Stiff,70
+Asimovian,/Quality/Concept,80
+Asimovian,/Quality/Drawing,60
+Asimovian,/Quality/Spacing,50
+Asimovian,/Quality/Wordspace,80
+Asimovian,/Sans/Superellipse,50
+Asimovian,/Seasonal/Halloween,50
+Asimovian,/Theme/Techno,70
 Asset,/Expressive/Loud,100
 Asset,/Expressive/Playful,22
 Asset,/Expressive/Vintage,94
@@ -973,7 +984,6 @@ Baloo Bhaina 2,/Expressive/Calm,79.4
 Baloo Bhaina 2,/Quality/Wordspace,100
 Baloo Bhaina 2,/Sans/Rounded,100
 Baloo Chettan 2,/Expressive/Calm,79.4
-Baloo Chettan 2,/Quality/Wordspace,100
 Baloo Chettan 2,/Sans/Rounded,100
 Baloo Da 2,/Expressive/Calm,79.4
 Baloo Da 2,/Quality/Wordspace,100
@@ -5367,6 +5377,37 @@ Lexend,/Purpose/Easy Reading,100
 Lexend,/Quality/Spacing,80
 Lexend,/Quality/Wordspace,90
 Lexend,/Sans/Geometric,100
+Libertinus Math,/Expressive/Business,50
+Libertinus Math,/Expressive/Competent,100
+Libertinus Math,/Expressive/Sincere,80
+Libertinus Math,/Quality/Concept,90
+Libertinus Math,/Quality/Drawing,80
+Libertinus Math,/Quality/Spacing,80
+Libertinus Math,/Quality/Wordspace,90
+Libertinus Math,/Serif/Transitional,100
+Libertinus Mono,/Monospace/Monospace,100
+Libertinus Mono,/Expressive/Business,50
+Libertinus Mono,/Expressive/Competent,100
+Libertinus Mono,/Expressive/Sincere,80
+Libertinus Mono,/Quality/Concept,90
+Libertinus Mono,/Quality/Drawing,80
+Libertinus Mono,/Quality/Spacing,80
+Libertinus Mono,/Quality/Wordspace,90
+Libertinus Mono,/Serif/Transitional,100
+Libertinus Sans,/Expressive/Business,50
+Libertinus Sans,/Expressive/Sincere,95
+Libertinus Sans,/Quality/Drawing,80
+Libertinus Sans,/Quality/Spacing,80
+Libertinus Sans,/Quality/Wordspace,90
+Libertinus Sans,/Sans/Glyphic,80
+Libertinus Serif,/Expressive/Business,50
+Libertinus Serif,/Expressive/Competent,100
+Libertinus Serif,/Expressive/Sincere,80
+Libertinus Serif,/Quality/Concept,90
+Libertinus Serif,/Quality/Drawing,80
+Libertinus Serif,/Quality/Spacing,80
+Libertinus Serif,/Quality/Wordspace,90
+Libertinus Serif,/Serif/Transitional,100
 Libre Barcode 128 Text,/Quality/Wordspace,100
 Libre Barcode 128 Text,/Special use/Barcode,100
 Libre Barcode 128 Text,/Special use/Symbols,100
@@ -5855,6 +5896,17 @@ Manuale,/Expressive/Business,74.2
 Manuale,/Expressive/Stiff,71
 Manuale,/Quality/Wordspace,90
 Manuale,/Serif/Transitional,20
+Manufacturing Consent,/Expressive/Artistic,70
+Manufacturing Consent,/Expressive/Fancy,50
+Manufacturing Consent,/Expressive/Loud,80
+Manufacturing Consent,/Expressive/Vintage,70
+Manufacturing Consent,/Quality/Concept,70
+Manufacturing Consent,/Quality/Drawing,100
+Manufacturing Consent,/Quality/Spacing,90
+Manufacturing Consent,/Quality/Wordspace,100
+Manufacturing Consent,/Script/Formal,100
+Manufacturing Consent,/Seasonal/Halloween,70
+Manufacturing Consent,/Theme/Blackletter,100
 Marcellus SC,/Expressive/Sincere,10
 Marcellus SC,/Expressive/Stiff,20
 Marcellus SC,/Quality/Drawing,50
@@ -5936,6 +5988,12 @@ Marvel,/Expressive/Competent,89.7
 Marvel,/Quality/Wordspace,90
 Marvel,/Sans/Humanist,70
 Marvel,/Sans/Superellipse,70
+Matangi,/Expressive/Calm,80
+Matangi,/Expressive/Cute,40
+Matangi,/Quality/Concept,80
+Matangi,/Quality/Drawing,80
+Matangi,/Quality/Spacing,50
+Matangi,/Quality/Wordspace,80
 Mate SC,/Expressive/Sincere,92
 Mate SC,/Expressive/Vintage,83.5
 Mate SC,/Quality/Drawing,50
@@ -7259,6 +7317,10 @@ Noto Sans Sundanese,/Expressive/Business,58
 Noto Sans Sundanese,/Quality/Spacing,90
 Noto Sans Sundanese,/Quality/Wordspace,100
 Noto Sans Sundanese,/Sans/Humanist,100
+Noto Sans Sunuwar,/Expressive/Business,58
+Noto Sans Sunuwar,/Quality/Spacing,90
+Noto Sans Sunuwar,/Quality/Wordspace,100
+Noto Sans Sunuwar,/Sans/Humanist,100
 Noto Sans Syloti Nagri,/Expressive/Business,58
 Noto Sans Syloti Nagri,/Quality/Spacing,90
 Noto Sans Syloti Nagri,/Quality/Wordspace,100
@@ -7935,6 +7997,14 @@ Paprika,/Expressive/Artistic,18
 Paprika,/Quality/Wordspace,70
 Paprika,/Seasonal/Hanukkah,70
 Paprika,/Serif/Humanist Venetian,90
+Parastoo,/Expressive/Business,50
+Parastoo,/Expressive/Competent,100
+Parastoo,/Expressive/Sincere,80
+Parastoo,/Quality/Concept,90
+Parastoo,/Quality/Drawing,80
+Parastoo,/Quality/Spacing,80
+Parastoo,/Quality/Wordspace,90
+Parastoo,/Serif/Transitional,100
 Parisienne,/Expressive/Artistic,99
 Parisienne,/Expressive/Fancy,73
 Parisienne,/Expressive/Sophisticated,83
@@ -11121,6 +11191,24 @@ Taprom,/Expressive/Excited,22
 Taprom,/Expressive/Rugged,88
 Taprom,/Quality/Drawing,50
 Taprom,/Quality/Wordspace,100
+TASA Explorer,/Expressive/Business,100
+TASA Explorer,/Expressive/Calm,90
+TASA Explorer,/Expressive/Futuristic,50
+TASA Explorer,/Quality/Concept,100
+TASA Explorer,/Quality/Drawing,100
+TASA Explorer,/Quality/Spacing,100
+TASA Explorer,/Quality/Wordspace,100
+TASA Explorer,/Sans/Humanist,80
+TASA Explorer,/Sans/Neo Grotesque,20
+TASA Orbiter,/Expressive/Business,100
+TASA Orbiter,/Expressive/Calm,90
+TASA Orbiter,/Expressive/Futuristic,50
+TASA Orbiter,/Quality/Concept,100
+TASA Orbiter,/Quality/Drawing,100
+TASA Orbiter,/Quality/Spacing,100
+TASA Orbiter,/Quality/Wordspace,100
+TASA Orbiter,/Sans/Geometric,20
+TASA Orbiter,/Sans/Neo Grotesque,100
 Tauri,/Expressive/Business,68.5
 Tauri,/Expressive/Calm,79
 Tauri,/Expressive/Competent,43
@@ -11219,6 +11307,14 @@ Tienne,/Expressive/Vintage,58.9
 Tienne,/Quality/Spacing,60
 Tienne,/Quality/Wordspace,80
 Tienne,/Serif/Modern,30
+TikTok Sans,/Expressive/Business,100
+TikTok Sans,/Expressive/Calm,80
+TikTok Sans,/Expressive/Competent,100
+TikTok Sans,/Quality/Concept,100
+TikTok Sans,/Quality/Drawing,100
+TikTok Sans,/Quality/Spacing,100
+TikTok Sans,/Quality/Wordspace,100
+TikTok Sans,/Sans/Grotesque,90
 Tillana,/Expressive/Active,62
 Tillana,/Expressive/Awkward,51
 Tillana,/Expressive/Happy,18
@@ -11594,6 +11690,14 @@ Unna,/Expressive/Vintage,71.5
 Unna,/Quality/Spacing,90
 Unna,/Quality/Wordspace,60
 Unna,/Serif/Modern,80
+UoqMunThenKhung,/Expressive/Competent,70
+UoqMunThenKhung,/Expressive/Sincere,80
+UoqMunThenKhung,/Quality/Concept,80
+UoqMunThenKhung,/Quality/Drawing,80
+UoqMunThenKhung,/Quality/Spacing,70
+UoqMunThenKhung,/Quality/Wordspace,80
+UoqMunThenKhung,/Seasonal/Lunar New Year,80
+UoqMunThenKhung,/Serif/Transitional,90
 Updock,/Expressive/Artistic,100
 Updock,/Expressive/Fancy,79
 Updock,/Expressive/Sophisticated,58
@@ -11767,6 +11871,20 @@ Vujahday Script,/Quality/Drawing,50
 Vujahday Script,/Quality/Wordspace,80
 Vujahday Script,/Script/Handwritten,70
 Vujahday Script,/Script/Informal,70
+WDXL Lubrifont JP N,/Expressive/Futuristic,100
+WDXL Lubrifont JP N,/Expressive/Stiff,100
+WDXL Lubrifont JP N,/Expressive/Vintage,68.3
+WDXL Lubrifont JP N,/Quality/Drawing,50
+WDXL Lubrifont JP N,/Quality/Spacing,80
+WDXL Lubrifont JP N,/Quality/Wordspace,80
+WDXL Lubrifont JP N,/Theme/Techno,100
+WDXL Lubrifont SC,/Expressive/Futuristic,100
+WDXL Lubrifont SC,/Expressive/Stiff,100
+WDXL Lubrifont SC,/Expressive/Vintage,68.3
+WDXL Lubrifont SC,/Quality/Drawing,50
+WDXL Lubrifont SC,/Quality/Spacing,80
+WDXL Lubrifont SC,/Quality/Wordspace,80
+WDXL Lubrifont SC,/Theme/Techno,100
 WDXL Lubrifont TC,/Expressive/Futuristic,100
 WDXL Lubrifont TC,/Expressive/Stiff,100
 WDXL Lubrifont TC,/Expressive/Vintage,68.3
@@ -12103,6 +12221,33 @@ Yusei Magic,/Quality/Drawing,50
 Yusei Magic,/Quality/Wordspace,60
 Yusei Magic,/Theme/Blobby,30
 Yusei Magic,/Theme/Brush,30
+Zalando Sans,/Expressive/Business,100
+Zalando Sans,/Expressive/Calm,80
+Zalando Sans,/Quality/Concept,80
+Zalando Sans,/Quality/Drawing,100
+Zalando Sans,/Quality/Spacing,100
+Zalando Sans,/Quality/Wordspace,100
+Zalando Sans,/Sans/Geometric,20
+Zalando Sans,/Sans/Humanist,10
+Zalando Sans,/Sans/Neo Grotesque,100
+Zalando Sans Expanded,/Expressive/Business,100
+Zalando Sans Expanded,/Expressive/Calm,80
+Zalando Sans Expanded,/Quality/Concept,80
+Zalando Sans Expanded,/Quality/Drawing,100
+Zalando Sans Expanded,/Quality/Spacing,100
+Zalando Sans Expanded,/Quality/Wordspace,100
+Zalando Sans Expanded,/Sans/Geometric,20
+Zalando Sans Expanded,/Sans/Humanist,10
+Zalando Sans Expanded,/Sans/Neo Grotesque,100
+Zalando Sans SemiExpanded,/Expressive/Business,100
+Zalando Sans SemiExpanded,/Expressive/Calm,80
+Zalando Sans SemiExpanded,/Quality/Concept,80
+Zalando Sans SemiExpanded,/Quality/Drawing,100
+Zalando Sans SemiExpanded,/Quality/Spacing,100
+Zalando Sans SemiExpanded,/Quality/Wordspace,100
+Zalando Sans SemiExpanded,/Sans/Geometric,20
+Zalando Sans SemiExpanded,/Sans/Humanist,10
+Zalando Sans SemiExpanded,/Sans/Neo Grotesque,100
 ZCOOL KuaiLe,/Expressive/Awkward,53
 ZCOOL KuaiLe,/Expressive/Excited,45
 ZCOOL KuaiLe,/Expressive/Happy,43

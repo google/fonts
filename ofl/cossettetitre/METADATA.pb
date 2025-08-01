@@ -10,7 +10,7 @@ fonts {
   filename: "CossetteTitre-Regular.ttf"
   post_script_name: "CossetteTitre-Regular"
   full_name: "Cossette Titre Regular"
-  copyright: "Cossette Communication Inc."
+  copyright: "Copyright 2025 The Cossette Project Authors (https://github.com/cossette/cossette-fonts)"
 }
 fonts {
   name: "Cossette Titre"
@@ -19,7 +19,7 @@ fonts {
   filename: "CossetteTitre-Bold.ttf"
   post_script_name: "CossetteTitre-Bold"
   full_name: "Cossette Titre Bold"
-  copyright: "Cossette Communication Inc."
+  copyright: "Copyright 2025 The Cossette Project Authors (https://github.com/cossette/cossette-fonts)"
 }
 subsets: "latin"
 subsets: "latin-ext"

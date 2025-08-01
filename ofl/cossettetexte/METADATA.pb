@@ -25,7 +25,7 @@ subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/m4rc1e/cossette-fonts"
+  repository_url: "https://github.com/cossette/cossette-fonts"
   commit: "0a00470f26cfe60f2e9578307d8125e0d8115bb9"
   files {
     source_file: "OFL.txt"

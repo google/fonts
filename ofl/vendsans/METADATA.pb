@@ -32,6 +32,7 @@ axes {
 source {
   repository_url: "https://github.com/ktkm/Vend-Sans"
   commit: "2663f1c7da5f71a0dd073b6dd6e42645b678d661"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

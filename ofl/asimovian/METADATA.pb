@@ -19,6 +19,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/carolinashort/asimovian"
   commit: "ae24db36d32c554da5a4a831663700c18d1360cf"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

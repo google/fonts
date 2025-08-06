@@ -6,6 +6,7 @@ ofl/libertinusserifdisplay # https://github.com/google/fonts/pull/9353
 ofl/tasaexplorer # https://github.com/google/fonts/pull/9706
 ofl/tasaorbiter # https://github.com/google/fonts/pull/9707
 ofl/tirra # https://github.com/google/fonts/pull/9693
+ofl/vendsans # https://github.com/google/fonts/pull/9540
 ofl/zalandosans # https://github.com/google/fonts/pull/9667
 ofl/zalandosansexpanded # https://github.com/google/fonts/pull/9704
 ofl/zalandosanssemiexpanded # https://github.com/google/fonts/pull/9705
@@ -13,8 +14,6 @@ ofl/zalandosanssemiexpanded # https://github.com/google/fonts/pull/9705
 # Upgrade
 ofl/amiri # https://github.com/google/fonts/pull/9418
 ofl/amiriquran # https://github.com/google/fonts/pull/9420
-ofl/bitcountpropsingleink # https://github.com/google/fonts/pull/9572
-ofl/bitcountsingleink # https://github.com/google/fonts/pull/9572
 ofl/notoseriftangut # https://github.com/google/fonts/pull/9692
 
 # Designer profile
@@ -28,9 +27,13 @@ catalog/designers/petrvanblokland # https://github.com/google/fonts/pull/9684
 catalog/designers/weizhongzhang # https://github.com/google/fonts/pull/9702
 catalog/designers/zalando # https://github.com/google/fonts/pull/9700
 
+# Axis Registry
+axisregistry/contrast.textproto # https://github.com/google/fonts/pull/9718
+
 # Metadata / Description / License
+ofl/bitcountpropsingleink # https://github.com/google/fonts/pull/9672
+ofl/bitcountsingleink # https://github.com/google/fonts/pull/9672
 ofl/notoserifdivesakuru # https://github.com/google/fonts/pull/9569
-ofl/storyscript # https://github.com/google/fonts/pull/9688
 
 # Sample texts
 lang/languages/aa_Latn.textproto # https://github.com/google/fonts/pull/9694

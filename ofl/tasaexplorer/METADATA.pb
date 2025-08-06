@@ -22,8 +22,9 @@ axes {
 }
 source {
   repository_url: "https://github.com/localremotetw/TASA-Typeface-Collection"
-  commit: "659e7c4a05cfa1e22b4317303fcd40d5ff3587a2"
+  commit: "4c5acaf21a4cd84f9c49c9907d83a25d2350f635"
   archive_url: "https://github.com/localremotetw/TASA-Typeface-Collection/releases/download/v2.011/TASA-Typeface-Collection-v2.011.zip"
+  config_yaml: "sources/config-TASAExplorer.yaml"
   files {
     source_file: "TASA-Typeface-Collection-v2.011/OFL.txt"
     dest_file: "OFL.txt"

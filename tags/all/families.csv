@@ -96,7 +96,7 @@ Afacad,/Quality/Spacing,90
 Afacad,/Quality/Wordspace,70
 Afacad,/Sans/Geometric,100
 Agbalumo,/Expressive/Cute,53
-Agbalumo,/Quality/Concept,70
+Agbalumo,/Quality/Concept,80
 Agbalumo,/Quality/Drawing,80
 Agbalumo,/Quality/Spacing,100
 Agbalumo,/Quality/Wordspace,100
@@ -316,12 +316,14 @@ Allerta Stencil,/Quality/Wordspace,70
 Allerta Stencil,/Theme/Stencil,100
 Allerta,/Expressive/Calm,88.4
 Allerta,/Expressive/Competent,38
+Allerta,/Quality/Concept,60
 Allerta,/Quality/Drawing,80
 Allerta,/Quality/Spacing,0
 Allerta,/Quality/Wordspace,60
 Allison,/Expressive/Artistic,99
 Allison,/Expressive/Sophisticated,58
 Allison,/Expressive/Vintage,58.9
+Allison,/Quality/Concept,50
 Allison,/Quality/Drawing,20
 Allison,/Quality/Spacing,0
 Allison,/Quality/Wordspace,100
@@ -332,6 +334,7 @@ Allura,/Expressive/Artistic,99
 Allura,/Expressive/Fancy,69
 Allura,/Expressive/Sophisticated,65
 Allura,/Expressive/Vintage,62.3
+Allura,/Quality/Concept,70
 Allura,/Quality/Drawing,70
 Allura,/Quality/Spacing,60
 Allura,/Quality/Wordspace,90
@@ -357,12 +360,14 @@ Almendra SC,/Expressive/Artistic,29
 Almendra SC,/Expressive/Loud,48
 Almendra SC,/Expressive/Sincere,92
 Almendra SC,/Expressive/Vintage,99
+Almendra SC,/Quality/Concept,60
 Almendra SC,/Quality/Spacing,0
 Almendra SC,/Quality/Wordspace,90
 Almendra SC,/Serif/Humanist Venetian,80
 Almendra,/Expressive/Artistic,29
 Almendra,/Expressive/Sincere,92
 Almendra,/Expressive/Vintage,98
+Almendra,/Quality/Concept,60
 Almendra,/Quality/Spacing,0
 Almendra,/Quality/Wordspace,80
 Almendra,/Seasonal/Christmas,96
@@ -370,25 +375,30 @@ Almendra,/Serif/Humanist Venetian,100
 Alumni Sans Collegiate One,/Expressive/Innovative,93
 Alumni Sans Collegiate One,/Expressive/Loud,100
 Alumni Sans Collegiate One,/Expressive/Stiff,20
+Alumni Sans Collegiate One,/Quality/Concept,20
 Alumni Sans Collegiate One,/Quality/Spacing,0
 Alumni Sans Collegiate One,/Quality/Wordspace,70
 Alumni Sans Inline One,/Expressive/Innovative,93
 Alumni Sans Inline One,/Expressive/Loud,99
+Alumni Sans Inline One,/Quality/Concept,20
 Alumni Sans Inline One,/Quality/Spacing,0
 Alumni Sans Inline One,/Quality/Wordspace,90
 Alumni Sans Pinstripe,/Expressive/Calm,99.9
+Alumni Sans Pinstripe,/Quality/Concept,60
 Alumni Sans Pinstripe,/Quality/Spacing,90
 Alumni Sans Pinstripe,/Quality/Wordspace,100
 Alumni Sans Pinstripe,/Sans/Geometric,10
 Alumni Sans Pinstripe,/Sans/Humanist,10
 Alumni Sans SC,/Expressive/Calm,81.1
 Alumni Sans SC,/Expressive/Competent,95.7
+Alumni Sans SC,/Quality/Concept,60
 Alumni Sans SC,/Quality/Spacing,90
 Alumni Sans SC,/Quality/Wordspace,60
 Alumni Sans SC,/Sans/Geometric,20
 Alumni Sans SC,/Sans/Humanist,20
 Alumni Sans,/Expressive/Calm,81.1
 Alumni Sans,/Expressive/Competent,95.7
+Alumni Sans,/Quality/Concept,70
 Alumni Sans,/Quality/Spacing,90
 Alumni Sans,/Quality/Wordspace,60
 Alumni Sans,/Sans/Geometric,20
@@ -398,6 +408,7 @@ Amarante,/Expressive/Awkward,41
 Amarante,/Expressive/Loud,45
 Amarante,/Expressive/Sincere,94
 Amarante,/Expressive/Vintage,73
+Amarante,/Quality/Concept,70
 Amarante,/Quality/Drawing,60
 Amarante,/Quality/Spacing,70
 Amarante,/Quality/Wordspace,60
@@ -406,6 +417,7 @@ Amarante,/Theme/Art Nouveau,100
 Amaranth,/Expressive/Calm,83.2
 Amaranth,/Expressive/Happy,24
 Amaranth,/Expressive/Vintage,48.4
+Amaranth,/Quality/Concept,60
 Amaranth,/Quality/Drawing,60
 Amaranth,/Quality/Spacing,70
 Amaranth,/Quality/Wordspace,80
@@ -414,6 +426,7 @@ Amatic SC,/Expressive/Awkward,41
 Amatic SC,/Expressive/Childlike,88
 Amatic SC,/Expressive/Happy,33
 Amatic SC,/Expressive/Vintage,36.4
+Amatic SC,/Quality/Concept,60
 Amatic SC,/Quality/Spacing,90
 Amatic SC,/Quality/Wordspace,90
 Amatic SC,/Script/Handwritten,100
@@ -422,6 +435,7 @@ Amatic SC,/Seasonal/Halloween,75
 Amatic SC,/Seasonal/Lunar New Year,76
 Amethysta,/Expressive/Business,88.9
 Amethysta,/Expressive/Vintage,28.3
+Amethysta,/Quality/Concept,70
 Amethysta,/Quality/Spacing,70
 Amethysta,/Quality/Wordspace,40
 Amethysta,/Serif/Old Style Garalde,70
@@ -3339,7 +3353,7 @@ Ewert,/Theme/Shaded,100
 Ewert,/Theme/Tuscan,100
 Ewert,/Theme/Woodtype,20
 Exile,/Expressive/Loud,80
-Exile,/Quality/Concept,90
+Exile,/Quality/Concept,60
 Exile,/Quality/Spacing,60
 Exile,/Quality/Wordspace,100
 Exile,/Slab/Clarendon,70
@@ -8249,6 +8263,7 @@ Oswald,/Expressive/Calm,85.2
 Oswald,/Expressive/Competent,99.9
 Oswald,/Expressive/Stiff,91
 Oswald,/Expressive/Vintage,41.2
+Oswald,/Quality/Concept,90
 Oswald,/Quality/Spacing,100
 Oswald,/Quality/Wordspace,90
 Oswald,/Sans/Grotesque,100
@@ -8317,6 +8332,7 @@ Oxygen Mono,/Expressive/Calm,59
 Oxygen Mono,/Expressive/Stiff,78
 Oxygen Mono,/Expressive/Vintage,33
 Oxygen Mono,/Monospace/Monospace,100
+Oxygen Mono,/Quality/Concept,70
 Oxygen Mono,/Quality/Drawing,50
 Oxygen Mono,/Quality/Spacing,70
 Oxygen Mono,/Quality/Wordspace,100
@@ -8325,6 +8341,7 @@ Oxygen Mono,/Sans/Humanist,60
 Oxygen,/Expressive/Business,96
 Oxygen,/Expressive/Calm,86.8
 Oxygen,/Expressive/Stiff,52
+Oxygen,/Quality/Concept,70
 Oxygen,/Quality/Spacing,80
 Oxygen,/Quality/Wordspace,80
 Oxygen,/Sans/Grotesque,40
@@ -8337,6 +8354,7 @@ PT Mono,/Quality/Wordspace,100
 PT Sans Caption,/Expressive/Business,86.1
 PT Sans Caption,/Expressive/Calm,88.2
 PT Sans Caption,/Expressive/Stiff,40
+PT Sans Caption,/Quality/Concept,70
 PT Sans Caption,/Quality/Drawing,100
 PT Sans Caption,/Quality/Spacing,70
 PT Sans Caption,/Quality/Wordspace,90
@@ -8345,6 +8363,7 @@ PT Sans Narrow,/Expressive/Business,86.1
 PT Sans Narrow,/Expressive/Calm,85
 PT Sans Narrow,/Expressive/Competent,90.2
 PT Sans Narrow,/Expressive/Stiff,40
+PT Sans Narrow,/Quality/Concept,70
 PT Sans Narrow,/Quality/Drawing,100
 PT Sans Narrow,/Quality/Spacing,100
 PT Sans Narrow,/Quality/Wordspace,90
@@ -8352,6 +8371,7 @@ PT Sans Narrow,/Sans/Humanist,100
 PT Sans,/Expressive/Business,86.1
 PT Sans,/Expressive/Calm,87.1
 PT Sans,/Expressive/Stiff,40
+PT Sans,/Quality/Concept,70
 PT Sans,/Quality/Drawing,100
 PT Sans,/Quality/Spacing,100
 PT Sans,/Quality/Wordspace,90
@@ -8359,6 +8379,7 @@ PT Sans,/Sans/Humanist,100
 PT Serif Caption,/Expressive/Business,98
 PT Serif Caption,/Expressive/Sincere,93
 PT Serif Caption,/Expressive/Stiff,40
+PT Serif Caption,/Quality/Concept,70
 PT Serif Caption,/Quality/Drawing,100
 PT Serif Caption,/Quality/Spacing,90
 PT Serif Caption,/Quality/Wordspace,90
@@ -8366,6 +8387,7 @@ PT Serif Caption,/Slab/Humanist,80
 PT Serif,/Expressive/Business,98
 PT Serif,/Expressive/Sincere,93
 PT Serif,/Expressive/Stiff,40
+PT Serif,/Quality/Concept,70
 PT Serif,/Quality/Drawing,100
 PT Serif,/Quality/Spacing,100
 PT Serif,/Quality/Wordspace,90
@@ -8375,6 +8397,7 @@ Pacifico,/Expressive/Cute,100
 Pacifico,/Expressive/Playful,89.9
 Pacifico,/Expressive/Sincere,95
 Pacifico,/Expressive/Vintage,58.9
+Pacifico,/Quality/Concept,70
 Pacifico,/Quality/Spacing,90
 Pacifico,/Quality/Wordspace,90
 Pacifico,/Script/Handwritten,50
@@ -8432,6 +8455,7 @@ Pangolin,/Script/Upright Script,100
 Pangolin,/Theme/Brush,80
 Pangolin,/Theme/Distressed,60
 Paprika,/Expressive/Artistic,18
+Paprika,/Quality/Concept,70
 Paprika,/Quality/Spacing,0
 Paprika,/Quality/Wordspace,70
 Paprika,/Seasonal/Hanukkah,70
@@ -8681,6 +8705,7 @@ Playball,/Script/Formal,80
 Playball,/Seasonal/Lunar New Year,80
 Playfair Display SC,/Expressive/Sincere,96
 Playfair Display SC,/Expressive/Vintage,84.5
+Playfair Display SC,/Quality/Concept,80
 Playfair Display SC,/Quality/Drawing,100
 Playfair Display SC,/Quality/Spacing,90
 Playfair Display SC,/Quality/Wordspace,100
@@ -8688,6 +8713,7 @@ Playfair Display SC,/Serif/Didone,100
 Playfair Display,/Expressive/Business,82.8
 Playfair Display,/Expressive/Sincere,96
 Playfair Display,/Expressive/Vintage,84.5
+Playfair Display,/Quality/Concept,80
 Playfair Display,/Quality/Drawing,100
 Playfair Display,/Quality/Spacing,100
 Playfair Display,/Quality/Wordspace,100
@@ -8696,6 +8722,7 @@ Playfair,/Expressive/Business,66.6
 Playfair,/Expressive/Competent,98.8
 Playfair,/Expressive/Sincere,99
 Playfair,/Expressive/Vintage,83
+Playfair,/Quality/Concept,80
 Playfair,/Quality/Drawing,100
 Playfair,/Quality/Spacing,100
 Playfair,/Quality/Wordspace,100
@@ -8706,6 +8733,7 @@ Playpen Sans Arabic,/Expressive/Cute,43
 Playpen Sans Arabic,/Expressive/Happy,56
 Playpen Sans Arabic,/Expressive/Playful,22
 Playpen Sans Arabic,/Expressive/Sincere,99
+Playpen Sans Arabic,/Quality/Concept,80
 Playpen Sans Arabic,/Quality/Spacing,0
 Playpen Sans Arabic,/Quality/Wordspace,100
 Playpen Sans Arabic,/Script/Handwritten,100
@@ -8715,6 +8743,7 @@ Playpen Sans Deva,/Expressive/Cute,43
 Playpen Sans Deva,/Expressive/Happy,56
 Playpen Sans Deva,/Expressive/Playful,22
 Playpen Sans Deva,/Expressive/Sincere,99
+Playpen Sans Deva,/Quality/Concept,80
 Playpen Sans Deva,/Quality/Spacing,0
 Playpen Sans Deva,/Quality/Wordspace,100
 Playpen Sans Deva,/Script/Handwritten,100
@@ -8724,6 +8753,7 @@ Playpen Sans Hebrew,/Expressive/Cute,43
 Playpen Sans Hebrew,/Expressive/Happy,56
 Playpen Sans Hebrew,/Expressive/Playful,22
 Playpen Sans Hebrew,/Expressive/Sincere,99
+Playpen Sans Hebrew,/Quality/Concept,80
 Playpen Sans Hebrew,/Quality/Spacing,0
 Playpen Sans Hebrew,/Quality/Wordspace,100
 Playpen Sans Hebrew,/Script/Handwritten,100
@@ -8733,6 +8763,7 @@ Playpen Sans Thai,/Expressive/Cute,43
 Playpen Sans Thai,/Expressive/Happy,56
 Playpen Sans Thai,/Expressive/Playful,22
 Playpen Sans Thai,/Expressive/Sincere,99
+Playpen Sans Thai,/Quality/Concept,80
 Playpen Sans Thai,/Quality/Spacing,0
 Playpen Sans Thai,/Quality/Wordspace,100
 Playpen Sans Thai,/Script/Handwritten,100
@@ -8742,6 +8773,7 @@ Playpen Sans,/Expressive/Cute,43
 Playpen Sans,/Expressive/Happy,56
 Playpen Sans,/Expressive/Playful,22
 Playpen Sans,/Expressive/Sincere,99
+Playpen Sans,/Quality/Concept,80
 Playpen Sans,/Quality/Spacing,0
 Playpen Sans,/Quality/Wordspace,100
 Playpen Sans,/Script/Handwritten,100
@@ -9575,6 +9607,7 @@ Poiret One,/Sans/Geometric,100
 Poller One,/Expressive/Loud,98
 Poller One,/Expressive/Stiff,40
 Poller One,/Expressive/Vintage,91.5
+Poller One,/Quality/Concept,70
 Poller One,/Quality/Spacing,0
 Poller One,/Quality/Wordspace,60
 Poller One,/Sans/Humanist,100
@@ -9728,9 +9761,11 @@ Prosto One,/Quality/Spacing,40
 Prosto One,/Quality/Wordspace,70
 Prosto One,/Theme/Techno,100
 Protest Guerrilla,/Expressive/Loud,100
+Protest Guerrilla,/Quality/Concept,90
 Protest Guerrilla,/Quality/Spacing,0
 Protest Guerrilla,/Quality/Wordspace,100
 Protest Guerrilla,/Theme/Stencil,100
+Protest Revolution,/Quality/Concept,90
 Protest Revolution,/Quality/Spacing,0
 Protest Revolution,/Quality/Wordspace,100
 Protest Revolution,/Seasonal/Lunar New Year,69
@@ -9780,6 +9815,7 @@ Puritan,/Sans/Grotesque,100
 Purple Purse,/Expressive/Awkward,74
 Purple Purse,/Expressive/Loud,73
 Purple Purse,/Expressive/Playful,32
+Purple Purse,/Quality/Concept,60
 Purple Purse,/Quality/Spacing,0
 Purple Purse,/Quality/Wordspace,90
 Purple Purse,/Seasonal/Halloween,75
@@ -9795,6 +9831,7 @@ Qahiri,/Quality/Wordspace,100
 Quando,/Expressive/Cute,11
 Quando,/Expressive/Playful,1
 Quando,/Expressive/Sincere,82
+Quando,/Quality/Concept,60
 Quando,/Quality/Drawing,60
 Quando,/Quality/Spacing,50
 Quando,/Quality/Wordspace,60
@@ -9819,12 +9856,14 @@ Quattrocento,/Quality/Wordspace,80
 Quattrocento,/Serif/Humanist Venetian,50
 Quattrocento,/Serif/Old Style Garalde,50
 Questrial,/Expressive/Calm,96.3
+Questrial,/Quality/Concept,60
 Questrial,/Quality/Drawing,100
 Questrial,/Quality/Spacing,100
 Questrial,/Quality/Wordspace,70
 Questrial,/Sans/Geometric,100
 Quicksand,/Expressive/Business,19
 Quicksand,/Expressive/Calm,98.6
+Quicksand,/Quality/Concept,50
 Quicksand,/Quality/Spacing,80
 Quicksand,/Quality/Wordspace,80
 Quicksand,/Sans/Geometric,100
@@ -9876,18 +9915,21 @@ Racing Sans One,/Expressive/Vintage,33.2
 Racing Sans One,/Quality/Spacing,0
 Racing Sans One,/Quality/Wordspace,90
 Racing Sans One,/Sans/Humanist,100
+Radio Canada Big,/Quality/Concept,60
 Radio Canada Big,/Quality/Spacing,0
 Radio Canada Big,/Quality/Wordspace,90
 Radio Canada Big,/Sans/Neo Grotesque,100
 Radio Canada,/Expressive/Business,44
 Radio Canada,/Expressive/Calm,97.4
 Radio Canada,/Expressive/Competent,99.3
+Radio Canada,/Quality/Concept,60
 Radio Canada,/Quality/Spacing,0
 Radio Canada,/Quality/Wordspace,90
 Radio Canada,/Sans/Humanist,100
 Radley,/Expressive/Business,98.2
 Radley,/Expressive/Stiff,60
 Radley,/Expressive/Vintage,83
+Radley,/Quality/Concept,60
 Radley,/Quality/Spacing,0
 Radley,/Quality/Wordspace,80
 Radley,/Serif/Old Style Garalde,100
@@ -9917,6 +9959,7 @@ Raleway,/Expressive/Business,55.5
 Raleway,/Expressive/Calm,88.1
 Raleway,/Expressive/Competent,12
 Raleway,/Expressive/Stiff,51
+Raleway,/Quality/Concept,70
 Raleway,/Quality/Drawing,90
 Raleway,/Quality/Spacing,95
 Raleway,/Quality/Wordspace,80
@@ -10014,6 +10057,7 @@ Recursive,/Sans/Humanist,100
 Recursive,/Sans/Superellipse,20
 Red Hat Display,/Expressive/Calm,99.1
 Red Hat Display,/Expressive/Competent,52
+Red Hat Display,/Quality/Concept,60
 Red Hat Display,/Quality/Spacing,90
 Red Hat Display,/Quality/Wordspace,80
 Red Hat Display,/Sans/Geometric,90
@@ -10022,12 +10066,14 @@ Red Hat Mono,/Expressive/Calm,60
 Red Hat Mono,/Expressive/Competent,61
 Red Hat Mono,/Expressive/Vintage,38.9
 Red Hat Mono,/Monospace/Monospace,100
+Red Hat Mono,/Quality/Concept,60
 Red Hat Mono,/Quality/Spacing,0
 Red Hat Mono,/Quality/Wordspace,100
 Red Hat Mono,/Sans/Geometric,60
 Red Hat Mono,/Sans/Humanist,10
 Red Hat Text,/Expressive/Calm,99.1
 Red Hat Text,/Expressive/Competent,52
+Red Hat Text,/Quality/Concept,60
 Red Hat Text,/Quality/Drawing,100
 Red Hat Text,/Quality/Spacing,80
 Red Hat Text,/Quality/Wordspace,90
@@ -10053,13 +10099,16 @@ Redacted,/Quality/Wordspace,100
 Redacted,/Special use/Redaction,100
 Redacted,/Special use/Symbols,100
 Reddit Mono,/Monospace/Monospace,100
+Reddit Mono,/Quality/Concept,60
 Reddit Mono,/Quality/Spacing,0
 Reddit Mono,/Quality/Wordspace,100
+Reddit Sans Condensed,/Quality/Concept,60
 Reddit Sans Condensed,/Quality/Drawing,100
 Reddit Sans Condensed,/Quality/Spacing,0
 Reddit Sans Condensed,/Quality/Wordspace,90
 Reddit Sans Condensed,/Sans/Humanist,100
 Reddit Sans,/Expressive/Business,96.7
+Reddit Sans,/Quality/Concept,60
 Reddit Sans,/Quality/Drawing,100
 Reddit Sans,/Quality/Spacing,100
 Reddit Sans,/Quality/Wordspace,90
@@ -10093,6 +10142,7 @@ Reenie Beanie,/Quality/Wordspace,80
 Reenie Beanie,/Script/Handwritten,100
 Reggae One,/Expressive/Awkward,72
 Reggae One,/Expressive/Excited,65
+Reggae One,/Quality/Concept,40
 Reggae One,/Quality/Spacing,0
 Reggae One,/Quality/Wordspace,70
 Reggae One,/Theme/Techno,10
@@ -10141,6 +10191,7 @@ Ribeye,/Expressive/Excited,46
 Ribeye,/Expressive/Loud,76
 Ribeye,/Expressive/Playful,91.2
 Ribeye,/Expressive/Vintage,46
+Ribeye,/Quality/Concept,70
 Ribeye,/Quality/Drawing,20
 Ribeye,/Quality/Spacing,0
 Ribeye,/Quality/Wordspace,60
@@ -10179,6 +10230,7 @@ Roboto Condensed,/Expressive/Business,99.4
 Roboto Condensed,/Expressive/Calm,80
 Roboto Condensed,/Expressive/Competent,98.5
 Roboto Condensed,/Expressive/Stiff,51
+Roboto Condensed,/Quality/Concept,80
 Roboto Condensed,/Quality/Drawing,100
 Roboto Condensed,/Quality/Spacing,90
 Roboto Condensed,/Quality/Wordspace,90
@@ -10196,6 +10248,7 @@ Roboto Mono,/Expressive/Competent,62
 Roboto Mono,/Expressive/Stiff,51
 Roboto Mono,/Expressive/Vintage,24.3
 Roboto Mono,/Monospace/Monospace,100
+Roboto Mono,/Quality/Concept,80
 Roboto Mono,/Quality/Spacing,100
 Roboto Mono,/Quality/Wordspace,100
 Roboto Mono,/Sans/Neo Grotesque,100
@@ -10213,6 +10266,7 @@ Roboto Slab,/Expressive/Business,70
 Roboto Slab,/Expressive/Competent,98.8
 Roboto Slab,/Expressive/Stiff,71
 Roboto Slab,/Expressive/Vintage,37.3
+Roboto Slab,/Quality/Concept,80
 Roboto Slab,/Quality/Drawing,100
 Roboto Slab,/Quality/Spacing,100
 Roboto Slab,/Quality/Wordspace,90
@@ -10222,6 +10276,7 @@ Roboto,/Expressive/Business,99.6
 Roboto,/Expressive/Calm,80
 Roboto,/Expressive/Competent,98.5
 Roboto,/Expressive/Stiff,51
+Roboto,/Quality/Concept,80
 Roboto,/Quality/Drawing,100
 Roboto,/Quality/Spacing,100
 Roboto,/Quality/Wordspace,90
@@ -10345,7 +10400,7 @@ Rubik Beastly,/Seasonal/Halloween,90
 Rubik Beastly,/Theme/Distressed,80
 Rubik Beastly,/Theme/Wacky,80
 Rubik Broken Fax,/Expressive/Innovative,99
-Rubik Broken Fax,/Quality/Concept,80
+Rubik Broken Fax,/Quality/Concept,70
 Rubik Broken Fax,/Quality/Drawing,10
 Rubik Broken Fax,/Quality/Spacing,0
 Rubik Broken Fax,/Quality/Wordspace,100
@@ -10643,6 +10698,7 @@ Rye,/Expressive/Artistic,82
 Rye,/Expressive/Innovative,76
 Rye,/Expressive/Stiff,81
 Rye,/Expressive/Vintage,93
+Rye,/Quality/Concept,70
 Rye,/Quality/Spacing,0
 Rye,/Quality/Wordspace,80
 Rye,/Theme/Inline,20
@@ -10707,6 +10763,7 @@ Saira Semi Condensed,/Sans/Superellipse,80
 Saira Stencil One,/Expressive/Futuristic,99
 Saira Stencil One,/Expressive/Innovative,32
 Saira Stencil One,/Expressive/Stiff,98
+Saira Stencil One,/Quality/Concept,60
 Saira Stencil One,/Quality/Spacing,0
 Saira Stencil One,/Quality/Wordspace,80
 Saira Stencil One,/Sans/Superellipse,80
@@ -10735,6 +10792,7 @@ Sanchez,/Slab/Humanist,90
 Sancreek,/Expressive/Artistic,50
 Sancreek,/Expressive/Innovative,76
 Sancreek,/Expressive/Vintage,93
+Sancreek,/Quality/Concept,80
 Sancreek,/Quality/Spacing,0
 Sancreek,/Quality/Wordspace,80
 Sancreek,/Seasonal/Halloween,75
@@ -10742,6 +10800,7 @@ Sancreek,/Theme/Tuscan,100
 Sancreek,/Theme/Woodtype,90
 Sankofa Display,/Expressive/Innovative,91
 Sankofa Display,/Expressive/Playful,70.5
+Sankofa Display,/Quality/Concept,90
 Sankofa Display,/Quality/Spacing,0
 Sankofa Display,/Quality/Wordspace,100
 Sankofa Display,/Seasonal/Kwanzaa,87
@@ -10952,6 +11011,7 @@ Shadows Into Light Two,/Expressive/Childlike,100
 Shadows Into Light Two,/Expressive/Cute,36
 Shadows Into Light Two,/Expressive/Excited,24
 Shadows Into Light Two,/Expressive/Sincere,98
+Shadows Into Light Two,/Quality/Concept,60
 Shadows Into Light Two,/Quality/Drawing,50
 Shadows Into Light Two,/Quality/Spacing,70
 Shadows Into Light Two,/Quality/Wordspace,40
@@ -10963,6 +11023,7 @@ Shadows Into Light,/Expressive/Childlike,100
 Shadows Into Light,/Expressive/Cute,8
 Shadows Into Light,/Expressive/Excited,56
 Shadows Into Light,/Expressive/Sincere,98
+Shadows Into Light,/Quality/Concept,50
 Shadows Into Light,/Quality/Drawing,50
 Shadows Into Light,/Quality/Spacing,70
 Shadows Into Light,/Quality/Wordspace,40
@@ -11076,6 +11137,7 @@ Short Stack,/Expressive/Childlike,99
 Short Stack,/Expressive/Cute,14
 Short Stack,/Expressive/Excited,51
 Short Stack,/Expressive/Happy,57
+Short Stack,/Quality/Concept,70
 Short Stack,/Quality/Drawing,60
 Short Stack,/Quality/Spacing,0
 Short Stack,/Quality/Wordspace,60
@@ -11140,6 +11202,7 @@ Signika,/Quality/Wordspace,90
 Signika,/Sans/Humanist,100
 Silkscreen,/Expressive/Futuristic,94
 Silkscreen,/Expressive/Stiff,98
+Silkscreen,/Quality/Concept,60
 Silkscreen,/Quality/Spacing,100
 Silkscreen,/Quality/Wordspace,50
 Silkscreen,/Theme/Techno,100
@@ -11208,12 +11271,14 @@ Skranji,/Theme/Medieval,50
 Slabo 13px,/Expressive/Business,97.8
 Slabo 13px,/Expressive/Stiff,75
 Slabo 13px,/Expressive/Vintage,25
+Slabo 13px,/Quality/Concept,70
 Slabo 13px,/Quality/Spacing,0
 Slabo 13px,/Quality/Wordspace,100
 Slabo 13px,/Slab/Humanist,100
 Slabo 27px,/Expressive/Business,97.8
 Slabo 27px,/Expressive/Stiff,75
 Slabo 27px,/Expressive/Vintage,65
+Slabo 27px,/Quality/Concept,70
 Slabo 27px,/Quality/Spacing,100
 Slabo 27px,/Quality/Wordspace,100
 Slabo 27px,/Slab/Humanist,100
@@ -11225,6 +11290,7 @@ Slackey,/Expressive/Playful,97.9
 Slackey,/Expressive/Rugged,2
 Slackey,/Expressive/Stiff,10
 Slackey,/Expressive/Vintage,75.4
+Slackey,/Quality/Concept,50
 Slackey,/Quality/Spacing,0
 Slackey,/Quality/Wordspace,80
 Slackey,/Theme/Distressed,10
@@ -11290,6 +11356,7 @@ Snippet,/Quality/Wordspace,70
 Snowburst One,/Expressive/Childlike,83
 Snowburst One,/Expressive/Cute,67
 Snowburst One,/Expressive/Happy,69
+Snowburst One,/Quality/Concept,90
 Snowburst One,/Quality/Spacing,0
 Snowburst One,/Quality/Wordspace,90
 Snowburst One,/Seasonal/Diwali,75
@@ -11390,6 +11457,7 @@ Sono,/Sans/Rounded,100
 Sonsie One,/Expressive/Cute,35
 Sonsie One,/Expressive/Loud,95
 Sonsie One,/Expressive/Vintage,63.4
+Sonsie One,/Quality/Concept,90
 Sonsie One,/Quality/Drawing,50
 Sonsie One,/Quality/Spacing,0
 Sonsie One,/Quality/Wordspace,70
@@ -11420,6 +11488,7 @@ Source Code Pro,/Expressive/Competent,21
 Source Code Pro,/Expressive/Stiff,84
 Source Code Pro,/Expressive/Vintage,14
 Source Code Pro,/Monospace/Monospace,100
+Source Code Pro,/Quality/Concept,90
 Source Code Pro,/Quality/Drawing,100
 Source Code Pro,/Quality/Spacing,100
 Source Code Pro,/Quality/Wordspace,100
@@ -11428,6 +11497,7 @@ Source Sans 3,/Expressive/Business,97.4
 Source Sans 3,/Expressive/Calm,80
 Source Sans 3,/Expressive/Competent,98.8
 Source Sans 3,/Expressive/Stiff,71
+Source Sans 3,/Quality/Concept,90
 Source Sans 3,/Quality/Drawing,100
 Source Sans 3,/Quality/Spacing,100
 Source Sans 3,/Quality/Wordspace,100
@@ -11436,6 +11506,7 @@ Source Serif 4,/Expressive/Business,99.1
 Source Serif 4,/Expressive/Competent,99.1
 Source Serif 4,/Expressive/Sincere,94
 Source Serif 4,/Expressive/Vintage,62.4
+Source Serif 4,/Quality/Concept,90
 Source Serif 4,/Quality/Drawing,100
 Source Serif 4,/Quality/Spacing,100
 Source Serif 4,/Quality/Wordspace,100
@@ -11494,6 +11565,7 @@ Special Gothic,/Sans/Grotesque,100
 Spectral SC,/Expressive/Sincere,96
 Spectral SC,/Expressive/Stiff,60
 Spectral SC,/Expressive/Vintage,82.5
+Spectral SC,/Quality/Concept,80
 Spectral SC,/Quality/Spacing,0
 Spectral SC,/Quality/Wordspace,70
 Spectral SC,/Serif/Transitional,100
@@ -11502,6 +11574,7 @@ Spectral,/Expressive/Competent,98.2
 Spectral,/Expressive/Sincere,96
 Spectral,/Expressive/Stiff,60
 Spectral,/Expressive/Vintage,82.5
+Spectral,/Quality/Concept,80
 Spectral,/Quality/Drawing,100
 Spectral,/Quality/Spacing,70
 Spectral,/Quality/Wordspace,70
@@ -11521,6 +11594,7 @@ Spicy Rice,/Theme/Wacky,10
 Spinnaker,/Expressive/Business,24
 Spinnaker,/Expressive/Calm,85.1
 Spinnaker,/Expressive/Stiff,62
+Spinnaker,/Quality/Concept,80
 Spinnaker,/Quality/Spacing,60
 Spinnaker,/Quality/Wordspace,70
 Spinnaker,/Sans/Humanist,100
@@ -11544,6 +11618,7 @@ Spline Sans Mono,/Expressive/Calm,77
 Spline Sans Mono,/Expressive/Competent,37
 Spline Sans Mono,/Expressive/Stiff,73
 Spline Sans Mono,/Monospace/Monospace,100
+Spline Sans Mono,/Quality/Concept,70
 Spline Sans Mono,/Quality/Drawing,100
 Spline Sans Mono,/Quality/Spacing,0
 Spline Sans Mono,/Quality/Wordspace,100
@@ -11552,6 +11627,7 @@ Spline Sans,/Expressive/Business,96.5
 Spline Sans,/Expressive/Calm,79
 Spline Sans,/Expressive/Competent,11
 Spline Sans,/Expressive/Stiff,73
+Spline Sans,/Quality/Concept,70
 Spline Sans,/Quality/Drawing,100
 Spline Sans,/Quality/Spacing,100
 Spline Sans,/Quality/Wordspace,100
@@ -11586,6 +11662,7 @@ Sriracha,/Expressive/Excited,44
 Sriracha,/Expressive/Rugged,7
 Sriracha,/Expressive/Sincere,94
 Sriracha,/Expressive/Vintage,67.5
+Sriracha,/Quality/Concept,70
 Sriracha,/Quality/Spacing,0
 Sriracha,/Quality/Wordspace,70
 Sriracha,/Script/Handwritten,100
@@ -11616,6 +11693,7 @@ Stalemate,/Script/Upright Script,100
 Stalinist One,/Expressive/Futuristic,99
 Stalinist One,/Expressive/Stiff,99
 Stalinist One,/Expressive/Vintage,90.5
+Stalinist One,/Quality/Concept,40
 Stalinist One,/Quality/Spacing,0
 Stalinist One,/Quality/Wordspace,90
 Stalinist One,/Theme/Techno,80
@@ -11636,6 +11714,7 @@ Stick,/Expressive/Awkward,80
 Stick,/Expressive/Excited,53
 Stick,/Expressive/Happy,30
 Stick,/Expressive/Innovative,46
+Stick,/Quality/Concept,70
 Stick,/Quality/Spacing,0
 Stick,/Quality/Wordspace,60
 Stick,/Seasonal/Halloween,75
@@ -11655,6 +11734,7 @@ Stint Ultra Expanded,/Slab/Geometric,50
 Stoke,/Expressive/Sincere,95
 Stoke,/Expressive/Stiff,50
 Stoke,/Expressive/Vintage,70.1
+Stoke,/Quality/Concept,60
 Stoke,/Quality/Drawing,60
 Stoke,/Quality/Spacing,30
 Stoke,/Quality/Wordspace,70
@@ -11692,6 +11772,7 @@ Sue Ellen Francisco,/Expressive/Childlike,98
 Sue Ellen Francisco,/Expressive/Cute,14
 Sue Ellen Francisco,/Expressive/Playful,48
 Sue Ellen Francisco,/Expressive/Sincere,97
+Sue Ellen Francisco,/Quality/Concept,60
 Sue Ellen Francisco,/Quality/Drawing,10
 Sue Ellen Francisco,/Quality/Spacing,0
 Sue Ellen Francisco,/Quality/Wordspace,60
@@ -11731,6 +11812,7 @@ Sunshiney,/Quality/Wordspace,60
 Sunshiney,/Script/Handwritten,100
 Supermercado One,/Expressive/Cute,13
 Supermercado One,/Expressive/Stiff,65
+Supermercado One,/Quality/Concept,80
 Supermercado One,/Quality/Drawing,65
 Supermercado One,/Quality/Spacing,0
 Supermercado One,/Quality/Wordspace,40
@@ -11763,6 +11845,7 @@ Swanky and Moo Moo,/Expressive/Awkward,75
 Swanky and Moo Moo,/Expressive/Childlike,79
 Swanky and Moo Moo,/Expressive/Happy,76
 Swanky and Moo Moo,/Expressive/Sincere,96
+Swanky and Moo Moo,/Quality/Concept,60
 Swanky and Moo Moo,/Quality/Drawing,50
 Swanky and Moo Moo,/Quality/Spacing,0
 Swanky and Moo Moo,/Quality/Wordspace,40
@@ -11771,6 +11854,7 @@ Syncopate,/Expressive/Awkward,50
 Syncopate,/Expressive/Competent,85.2
 Syncopate,/Expressive/Futuristic,92
 Syncopate,/Expressive/Stiff,75
+Syncopate,/Quality/Concept,70
 Syncopate,/Quality/Drawing,100
 Syncopate,/Quality/Spacing,80
 Syncopate,/Quality/Wordspace,80
@@ -11841,6 +11925,7 @@ Tajawal,/Sans/Humanist,100
 Tangerine,/Expressive/Artistic,89
 Tangerine,/Expressive/Fancy,97
 Tangerine,/Expressive/Loud,22
+Tangerine,/Quality/Concept,80
 Tangerine,/Quality/Spacing,100
 Tangerine,/Quality/Wordspace,70
 Tangerine,/Script/Formal,100
@@ -11848,6 +11933,7 @@ Tangerine,/Seasonal/Diwali,90
 Tangerine,/Seasonal/Valentine's Day,92
 Tapestry,/Expressive/Active,21
 Tapestry,/Expressive/Innovative,61
+Tapestry,/Quality/Concept,80
 Tapestry,/Quality/Drawing,50
 Tapestry,/Quality/Spacing,50
 Tapestry,/Quality/Wordspace,60
@@ -11864,6 +11950,7 @@ Tauri,/Expressive/Calm,79
 Tauri,/Expressive/Competent,43
 Tauri,/Expressive/Stiff,64
 Tauri,/Expressive/Vintage,28
+Tauri,/Quality/Concept,70
 Tauri,/Quality/Drawing,60
 Tauri,/Quality/Spacing,50
 Tauri,/Quality/Wordspace,50
@@ -11887,6 +11974,7 @@ Teko,/Sans/Superellipse,40
 Tektur,/Expressive/Futuristic,100
 Tektur,/Expressive/Stiff,100
 Tektur,/Expressive/Vintage,57.8
+Tektur,/Quality/Concept,50
 Tektur,/Quality/Spacing,90
 Tektur,/Quality/Wordspace,40
 Tektur,/Sans/Geometric,80
@@ -11908,6 +11996,7 @@ Tenali Ramakrishna,/Sans/Humanist,30
 Tenali Ramakrishna,/Sans/Neo Grotesque,50
 Tenor Sans,/Expressive/Calm,58
 Tenor Sans,/Expressive/Vintage,83
+Tenor Sans,/Quality/Concept,60
 Tenor Sans,/Quality/Drawing,50
 Tenor Sans,/Quality/Spacing,60
 Tenor Sans,/Quality/Wordspace,70
@@ -11916,6 +12005,7 @@ Tenor Sans,/Sans/Humanist,50
 Text Me One,/Expressive/Calm,72
 Text Me One,/Expressive/Futuristic,92
 Text Me One,/Expressive/Stiff,83
+Text Me One,/Quality/Concept,60
 Text Me One,/Quality/Drawing,50
 Text Me One,/Quality/Spacing,30
 Text Me One,/Quality/Wordspace,30
@@ -12078,6 +12168,7 @@ Titillium Web,/Expressive/Business,44
 Titillium Web,/Expressive/Calm,88.7
 Titillium Web,/Expressive/Competent,88.9
 Titillium Web,/Expressive/Stiff,67
+Titillium Web,/Quality/Concept,60
 Titillium Web,/Quality/Spacing,90
 Titillium Web,/Quality/Wordspace,90
 Titillium Web,/Sans/Geometric,20
@@ -12087,6 +12178,7 @@ Tomorrow,/Expressive/Business,35
 Tomorrow,/Expressive/Competent,53
 Tomorrow,/Expressive/Futuristic,98
 Tomorrow,/Expressive/Stiff,100
+Tomorrow,/Quality/Concept,50
 Tomorrow,/Quality/Spacing,90
 Tomorrow,/Quality/Wordspace,90
 Tomorrow,/Sans/Geometric,80
@@ -12105,6 +12197,7 @@ Trade Winds,/Expressive/Innovative,71
 Trade Winds,/Expressive/Playful,91.3
 Trade Winds,/Expressive/Rugged,78.8
 Trade Winds,/Expressive/Vintage,89.5
+Trade Winds,/Quality/Concept,70
 Trade Winds,/Quality/Drawing,50
 Trade Winds,/Quality/Spacing,100
 Trade Winds,/Quality/Wordspace,80
@@ -12112,6 +12205,7 @@ Trade Winds,/Seasonal/Halloween,90
 Trade Winds,/Theme/Distressed,90
 Train One,/Expressive/Innovative,97
 Train One,/Expressive/Stiff,51
+Train One,/Quality/Concept,70
 Train One,/Quality/Spacing,70
 Train One,/Quality/Wordspace,80
 Train One,/Seasonal/Kwanzaa,89
@@ -12158,6 +12252,7 @@ Trykker,/Expressive/Business,79.7
 Trykker,/Expressive/Sincere,92
 Trykker,/Expressive/Stiff,70
 Trykker,/Expressive/Vintage,78.7
+Trykker,/Quality/Concept,70
 Trykker,/Quality/Drawing,60
 Trykker,/Quality/Spacing,40
 Trykker,/Quality/Wordspace,80
@@ -12225,6 +12320,7 @@ Ubuntu Condensed,/Expressive/Calm,73
 Ubuntu Condensed,/Expressive/Competent,94.7
 Ubuntu Condensed,/Expressive/Futuristic,18
 Ubuntu Condensed,/Expressive/Stiff,74
+Ubuntu Condensed,/Quality/Concept,70
 Ubuntu Condensed,/Quality/Spacing,80
 Ubuntu Condensed,/Quality/Wordspace,90
 Ubuntu Condensed,/Sans/Neo Grotesque,100
@@ -12233,6 +12329,7 @@ Ubuntu Mono,/Expressive/Competent,94.7
 Ubuntu Mono,/Expressive/Futuristic,77
 Ubuntu Mono,/Expressive/Stiff,74
 Ubuntu Mono,/Monospace/Monospace,100
+Ubuntu Mono,/Quality/Concept,70
 Ubuntu Mono,/Quality/Spacing,100
 Ubuntu Mono,/Quality/Wordspace,100
 Ubuntu Mono,/Sans/Neo Grotesque,100
@@ -12241,6 +12338,7 @@ Ubuntu Sans Mono,/Expressive/Competent,94.7
 Ubuntu Sans Mono,/Expressive/Futuristic,77
 Ubuntu Sans Mono,/Expressive/Stiff,74
 Ubuntu Sans Mono,/Monospace/Monospace,100
+Ubuntu Sans Mono,/Quality/Concept,70
 Ubuntu Sans Mono,/Quality/Spacing,100
 Ubuntu Sans Mono,/Quality/Wordspace,100
 Ubuntu Sans Mono,/Sans/Neo Grotesque,100
@@ -12249,6 +12347,7 @@ Ubuntu Sans,/Expressive/Calm,73
 Ubuntu Sans,/Expressive/Competent,94.7
 Ubuntu Sans,/Expressive/Futuristic,18
 Ubuntu Sans,/Expressive/Stiff,74
+Ubuntu Sans,/Quality/Concept,70
 Ubuntu Sans,/Quality/Spacing,80
 Ubuntu Sans,/Quality/Wordspace,80
 Ubuntu Sans,/Sans/Humanist,100
@@ -12257,6 +12356,7 @@ Ubuntu,/Expressive/Calm,73
 Ubuntu,/Expressive/Competent,94.7
 Ubuntu,/Expressive/Futuristic,18
 Ubuntu,/Expressive/Stiff,74
+Ubuntu,/Quality/Concept,70
 Ubuntu,/Quality/Spacing,80
 Ubuntu,/Quality/Wordspace,90
 Ubuntu,/Sans/Neo Grotesque,100
@@ -12317,6 +12417,7 @@ UnifrakturCook,/Quality/Wordspace,80
 UnifrakturCook,/Theme/Blackletter,100
 UnifrakturMaguntia,/Expressive/Artistic,100
 UnifrakturMaguntia,/Expressive/Vintage,100
+UnifrakturMaguntia,/Quality/Concept,60
 UnifrakturMaguntia,/Quality/Drawing,70
 UnifrakturMaguntia,/Quality/Spacing,60
 UnifrakturMaguntia,/Quality/Wordspace,80
@@ -12354,6 +12455,7 @@ Updock,/Expressive/Artistic,100
 Updock,/Expressive/Fancy,79
 Updock,/Expressive/Sophisticated,58
 Updock,/Expressive/Vintage,77.8
+Updock,/Quality/Concept,70
 Updock,/Quality/Drawing,50
 Updock,/Quality/Spacing,90
 Updock,/Quality/Wordspace,70
@@ -12364,6 +12466,7 @@ Urbanist,/Expressive/Business,61.8
 Urbanist,/Expressive/Calm,79
 Urbanist,/Expressive/Stiff,62
 Urbanist,/Expressive/Vintage,81
+Urbanist,/Quality/Concept,60
 Urbanist,/Quality/Spacing,90
 Urbanist,/Quality/Wordspace,80
 Urbanist,/Sans/Geometric,100
@@ -12408,12 +12511,14 @@ Varela,/Sans/Humanist,80
 Varta,/Expressive/Business,89.1
 Varta,/Expressive/Calm,76
 Varta,/Expressive/Stiff,63
+Varta,/Quality/Concept,50
 Varta,/Quality/Spacing,0
 Varta,/Quality/Wordspace,100
 Varta,/Sans/Humanist,100
 Vast Shadow,/Expressive/Innovative,93
 Vast Shadow,/Expressive/Stiff,72
 Vast Shadow,/Expressive/Vintage,91.5
+Vast Shadow,/Quality/Concept,70
 Vast Shadow,/Quality/Spacing,60
 Vast Shadow,/Quality/Wordspace,100
 Vast Shadow,/Seasonal/Valentine's Day,58
@@ -12534,6 +12639,7 @@ Vujahday Script,/Script/Informal,70
 WDXL Lubrifont TC,/Expressive/Futuristic,100
 WDXL Lubrifont TC,/Expressive/Stiff,100
 WDXL Lubrifont TC,/Expressive/Vintage,68.3
+WDXL Lubrifont TC,/Quality/Concept,40
 WDXL Lubrifont TC,/Quality/Drawing,50
 WDXL Lubrifont TC,/Quality/Spacing,80
 WDXL Lubrifont TC,/Quality/Wordspace,80
@@ -12541,6 +12647,7 @@ WDXL Lubrifont TC,/Theme/Techno,100
 Waiting for the Sunrise,/Expressive/Awkward,53
 Waiting for the Sunrise,/Expressive/Childlike,80
 Waiting for the Sunrise,/Expressive/Happy,36
+Waiting for the Sunrise,/Quality/Concept,60
 Waiting for the Sunrise,/Quality/Drawing,50
 Waiting for the Sunrise,/Quality/Spacing,0
 Waiting for the Sunrise,/Quality/Wordspace,60
@@ -12549,6 +12656,7 @@ Waiting for the Sunrise,/Script/Informal,80
 Wallpoet,/Expressive/Awkward,31
 Wallpoet,/Expressive/Innovative,77
 Wallpoet,/Expressive/Stiff,100
+Wallpoet,/Quality/Concept,40
 Wallpoet,/Quality/Spacing,60
 Wallpoet,/Quality/Wordspace,50
 Wallpoet,/Theme/Stencil,100
@@ -12559,6 +12667,7 @@ Walter Turncoat,/Expressive/Happy,16
 Walter Turncoat,/Expressive/Innovative,32
 Walter Turncoat,/Expressive/Playful,24
 Walter Turncoat,/Expressive/Sincere,97
+Walter Turncoat,/Quality/Concept,70
 Walter Turncoat,/Quality/Drawing,60
 Walter Turncoat,/Quality/Spacing,90
 Walter Turncoat,/Quality/Wordspace,80
@@ -12579,6 +12688,7 @@ Warnes,/Theme/Techno,20
 Water Brush,/Expressive/Artistic,80
 Water Brush,/Expressive/Rugged,76.7
 Water Brush,/Expressive/Vintage,35.4
+Water Brush,/Quality/Concept,80
 Water Brush,/Quality/Drawing,50
 Water Brush,/Quality/Spacing,100
 Water Brush,/Quality/Wordspace,100
@@ -12604,6 +12714,7 @@ Wellfleet,/Expressive/Happy,31
 Wellfleet,/Expressive/Playful,53
 Wellfleet,/Expressive/Sincere,10.1
 Wellfleet,/Expressive/Stiff,54
+Wellfleet,/Quality/Concept,90
 Wellfleet,/Quality/Drawing,90
 Wellfleet,/Quality/Spacing,50
 Wellfleet,/Quality/Wordspace,60
@@ -12652,6 +12763,7 @@ Winky Sans,/Expressive/Awkward,50
 Winky Sans,/Expressive/Childlike,70
 Winky Sans,/Expressive/Cute,50
 Winky Sans,/Expressive/Playful,80
+Winky Sans,/Quality/Concept,40
 Winky Sans,/Quality/Spacing,60
 Winky Sans,/Quality/Wordspace,90
 Winky Sans,/Sans/Humanist,90
@@ -12659,6 +12771,7 @@ Winky Sans,/Sans/Rounded,100
 Winky Sans,/Theme/Brush,40
 Wire One,/Expressive/Calm,66
 Wire One,/Expressive/Stiff,68
+Wire One,/Quality/Concept,60
 Wire One,/Quality/Drawing,90
 Wire One,/Quality/Spacing,80
 Wire One,/Quality/Wordspace,80
@@ -12671,6 +12784,7 @@ Wittgenstein,/Quality/Wordspace,90
 Wittgenstein,/Serif/Transitional,100
 Wix Madefor Display,/Expressive/Calm,80
 Wix Madefor Display,/Expressive/Stiff,40
+Wix Madefor Display,/Quality/Concept,70
 Wix Madefor Display,/Quality/Spacing,90
 Wix Madefor Display,/Quality/Wordspace,90
 Wix Madefor Display,/Sans/Geometric,80
@@ -12678,6 +12792,7 @@ Wix Madefor Display,/Sans/Neo Grotesque,20
 Wix Madefor Text,/Expressive/Business,92.8
 Wix Madefor Text,/Expressive/Calm,80
 Wix Madefor Text,/Expressive/Stiff,40
+Wix Madefor Text,/Quality/Concept,70
 Wix Madefor Text,/Quality/Spacing,60
 Wix Madefor Text,/Quality/Wordspace,90
 Wix Madefor Text,/Sans/Geometric,80
@@ -12686,6 +12801,7 @@ Work Sans,/Expressive/Calm,80
 Work Sans,/Expressive/Competent,51
 Work Sans,/Expressive/Stiff,40
 Work Sans,/Expressive/Vintage,69
+Work Sans,/Quality/Concept,70
 Work Sans,/Quality/Spacing,60
 Work Sans,/Quality/Wordspace,80
 Work Sans,/Sans/Grotesque,50
@@ -12715,6 +12831,7 @@ Yaldevi,/Sans/Neo Grotesque,80
 Yanone Kaffeesatz,/Expressive/Business,90.1
 Yanone Kaffeesatz,/Expressive/Competent,97
 Yanone Kaffeesatz,/Expressive/Stiff,30
+Yanone Kaffeesatz,/Quality/Concept,90
 Yanone Kaffeesatz,/Quality/Spacing,90
 Yanone Kaffeesatz,/Quality/Wordspace,100
 Yanone Kaffeesatz,/Sans/Humanist,100
@@ -12762,6 +12879,7 @@ Yatra One,/Theme/Wacky,40
 Yellowtail,/Expressive/Artistic,52
 Yellowtail,/Expressive/Cute,99
 Yellowtail,/Expressive/Vintage,88
+Yellowtail,/Quality/Concept,40
 Yellowtail,/Quality/Drawing,50
 Yellowtail,/Quality/Spacing,80
 Yellowtail,/Quality/Wordspace,90
@@ -12771,6 +12889,7 @@ Yeon Sung,/Expressive/Awkward,53
 Yeon Sung,/Expressive/Childlike,70
 Yeon Sung,/Expressive/Happy,37
 Yeon Sung,/Expressive/Vintage,77.4
+Yeon Sung,/Quality/Concept,20
 Yeon Sung,/Quality/Spacing,0
 Yeon Sung,/Quality/Wordspace,60
 Yeon Sung,/Script/Handwritten,100
@@ -12787,6 +12906,7 @@ Yesteryear,/Expressive/Fancy,91
 Yesteryear,/Expressive/Loud,73
 Yesteryear,/Expressive/Sophisticated,23
 Yesteryear,/Expressive/Vintage,47.6
+Yesteryear,/Quality/Concept,80
 Yesteryear,/Quality/Drawing,100
 Yesteryear,/Quality/Spacing,100
 Yesteryear,/Quality/Wordspace,90
@@ -12803,12 +12923,14 @@ Young Serif,/Expressive/Loud,65
 Young Serif,/Expressive/Sincere,71
 Young Serif,/Expressive/Stiff,50
 Young Serif,/Expressive/Vintage,82.5
+Young Serif,/Quality/Concept,60
 Young Serif,/Quality/Spacing,80
 Young Serif,/Quality/Wordspace,80
 Young Serif,/Serif/Old Style Garalde,100
 Yrsa,/Expressive/Business,99
 Yrsa,/Expressive/Sincere,98
 Yrsa,/Expressive/Stiff,50
+Yrsa,/Quality/Concept,70
 Yrsa,/Quality/Spacing,100
 Yrsa,/Quality/Wordspace,70
 Yrsa,/Serif/Transitional,100
@@ -12817,6 +12939,7 @@ Ysabeau Infant,/Expressive/Calm,74
 Ysabeau Infant,/Expressive/Competent,52
 Ysabeau Infant,/Expressive/Stiff,51
 Ysabeau Infant,/Expressive/Vintage,84.5
+Ysabeau Infant,/Quality/Concept,80
 Ysabeau Infant,/Quality/Spacing,60
 Ysabeau Infant,/Quality/Wordspace,90
 Ysabeau Infant,/Sans/Humanist,100
@@ -12825,6 +12948,7 @@ Ysabeau Office,/Expressive/Calm,74
 Ysabeau Office,/Expressive/Competent,52
 Ysabeau Office,/Expressive/Stiff,51
 Ysabeau Office,/Expressive/Vintage,84.5
+Ysabeau Office,/Quality/Concept,80
 Ysabeau Office,/Quality/Drawing,50
 Ysabeau Office,/Quality/Spacing,50
 Ysabeau Office,/Quality/Wordspace,70
@@ -12833,6 +12957,7 @@ Ysabeau SC,/Expressive/Calm,75
 Ysabeau SC,/Expressive/Competent,52
 Ysabeau SC,/Expressive/Stiff,51
 Ysabeau SC,/Expressive/Vintage,84.5
+Ysabeau SC,/Quality/Concept,80
 Ysabeau SC,/Quality/Spacing,0
 Ysabeau SC,/Quality/Wordspace,70
 Ysabeau SC,/Sans/Humanist,100
@@ -12841,12 +12966,14 @@ Ysabeau,/Expressive/Calm,74
 Ysabeau,/Expressive/Competent,52
 Ysabeau,/Expressive/Stiff,51
 Ysabeau,/Expressive/Vintage,84.5
+Ysabeau,/Quality/Concept,80
 Ysabeau,/Quality/Spacing,70
 Ysabeau,/Quality/Wordspace,70
 Ysabeau,/Sans/Humanist,100
 Yuji Boku,/Expressive/Active,66
 Yuji Boku,/Expressive/Awkward,52
 Yuji Boku,/Expressive/Childlike,70
+Yuji Boku,/Quality/Concept,30
 Yuji Boku,/Quality/Spacing,0
 Yuji Boku,/Quality/Wordspace,90
 Yuji Boku,/Script/Handwritten,100
@@ -12865,6 +12992,7 @@ Yuji Hentaigana Akebono,/Script/Informal,70
 Yuji Mai,/Expressive/Awkward,72
 Yuji Mai,/Expressive/Excited,45
 Yuji Mai,/Expressive/Playful,20
+Yuji Mai,/Quality/Concept,20
 Yuji Mai,/Quality/Spacing,70
 Yuji Mai,/Quality/Wordspace,100
 Yuji Mai,/Theme/Brush,10
@@ -12892,6 +13020,7 @@ ZCOOL KuaiLe,/Expressive/Excited,45
 ZCOOL KuaiLe,/Expressive/Happy,43
 ZCOOL KuaiLe,/Expressive/Innovative,37
 ZCOOL KuaiLe,/Expressive/Playful,69
+ZCOOL KuaiLe,/Quality/Concept,40
 ZCOOL KuaiLe,/Quality/Spacing,0
 ZCOOL KuaiLe,/Quality/Wordspace,90
 ZCOOL KuaiLe,/Theme/Techno,10
@@ -12961,6 +13090,7 @@ Zen Kurenaido,/Sans/Neo Grotesque,90
 Zen Kurenaido,/Sans/Rounded,100
 Zen Loop,/Expressive/Calm,38
 Zen Loop,/Expressive/Stiff,72
+Zen Loop,/Quality/Concept,50
 Zen Loop,/Quality/Spacing,0
 Zen Loop,/Quality/Wordspace,60
 Zen Loop,/Sans/Geometric,20
@@ -12996,6 +13126,7 @@ Zeyada,/Expressive/Awkward,55
 Zeyada,/Expressive/Childlike,64
 Zeyada,/Expressive/Playful,34
 Zeyada,/Expressive/Sincere,97
+Zeyada,/Quality/Concept,40
 Zeyada,/Quality/Spacing,90
 Zeyada,/Quality/Wordspace,40
 Zeyada,/Script/Informal,90

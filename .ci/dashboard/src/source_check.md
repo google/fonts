@@ -6,8 +6,6 @@ toc: false
 ```js
 const fontc = await FileAttachment("./data/fontc.json").json();
 const metadata = await FileAttachment("./data/metadata.json").json();
-const servers = await FileAttachment("./data/servers.json").json();
-const github = await FileAttachment("./data/github.json").json();
 const reviewlist = await FileAttachment("./data/fontc_review.json").json();
 
 const family_to_directory = Object.fromEntries(
@@ -19,10 +17,10 @@ const directory_to_family = Object.fromEntries(
 
 function fontcKeyToGithubAndSha(key, state) {
   let match = key.match(
-    /^([^\/]+)\/([^\/]+)\/(\S+)\?([a-f0-9]+) \((\S+)\) (\S+)/
+    /^([^\/]+)\/([^\/]+)\/.*\?([a-f0-9]+) \((\S+)\)/
   );
   if (match) {
-    let [_, owner, repo, path, sha, config, mode] = match;
+    let [_, owner, repo, sha, mode] = match;
     return { repo: `${owner}/${repo}`, sha, state };
   }
 }

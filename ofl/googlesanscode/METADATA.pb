@@ -40,8 +40,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/googlesans-code"
-  commit: "18523d8837d98e6be89316017d323bc610b21c66"
-  archive_url: "https://github.com/googlefonts/googlesans-code/releases/download/v6.000/GoogleSansCode-v6.000.zip"
+  commit: "edcd56e39fb7e98d6f1b697e187c144cef2fd994"
+  archive_url: "https://github.com/googlefonts/googlesans-code/releases/download/v6.001/GoogleSansCode-v6.001.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

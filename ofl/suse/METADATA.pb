@@ -10,20 +10,30 @@ fonts {
   filename: "SUSE[wght].ttf"
   post_script_name: "SUSE-Thin"
   full_name: "SUSE Thin"
-  copyright: "Copyright 2024 The SUSE Project Authors (https://github.com/SUSE/suse-font)"
+  copyright: "Copyright 2025 The SUSE Project Authors (https://github.com/SUSE/suse-font)"
+}
+fonts {
+  name: "SUSE"
+  style: "italic"
+  weight: 400
+  filename: "SUSE-Italic[wght].ttf"
+  post_script_name: "SUSE-ThinItalic"
+  full_name: "SUSE Thin Italic"
+  copyright: "Copyright 2025 The SUSE Project Authors (https://github.com/SUSE/suse-font)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
-  max_value: 800.0
+  max_value: 1000.0
 }
 source {
   repository_url: "https://github.com/SUSE/suse-font"
-  commit: "f315ee46344ccc4f8d470cee3644b7bc99cadbaa"
-  archive_url: "https://github.com/SUSE/suse-font/releases/download/v1.000/suse-font-v1.000.zip"
+  commit: "7159afb2555b06d3a5c2f90e4d324e59e69c277d"
+  archive_url: "https://github.com/SUSE/suse-font/releases/download/v2.000/suse-font-v2.000.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,6 +41,10 @@ source {
   files {
     source_file: "fonts/variable/SUSE[wght].ttf"
     dest_file: "SUSE[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/SUSE-Italic[wght].ttf"
+    dest_file: "SUSE-Italic[wght].ttf"
   }
   branch: "main"
   config_yaml: "sources/config.yaml"

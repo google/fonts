@@ -41,6 +41,7 @@ axes {
 source {
   repository_url: "https://github.com/canonical/Ubuntu-Sans-fonts"
   commit: "9554af00fb9d438a12c916df8451c10dcedc9b7e"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "LICENCE.txt"
     dest_file: "LICENCE.txt"

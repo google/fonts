@@ -28,6 +28,7 @@ axes {
 source {
   repository_url: "https://github.com/mozilla/mozilla-headline-type"
   commit: "a6ff8ec6ceb014463fe16e6eaeb158ae0af60879"
+  config_yaml: "sources/config.yaml"
   archive_url: "https://github.com/mozilla/mozilla-headline-type/releases/download/v1.01/mozilla-headline-type-v1.01.zip"
   files {
     source_file: "OFL.txt"

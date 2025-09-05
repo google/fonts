@@ -32,6 +32,7 @@ axes {
 source {
   repository_url: "https://github.com/zalando/sans"
   commit: "2fe06d0700b5b9ccd18a52c240e8927f48e92629"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

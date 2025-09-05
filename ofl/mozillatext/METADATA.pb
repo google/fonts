@@ -23,6 +23,7 @@ axes {
 source {
   repository_url: "https://github.com/mozilla/mozilla-text-type"
   commit: "5ff275ec4906665df3126ad88c70ffd19d770335"
+  config_yaml: "sources/config.yaml"
   archive_url: "https://github.com/mozilla/mozilla-text-type/releases/download/v1.00/mozilla-text-type-v1.00.zip"
   files {
     source_file: "OFL.txt"

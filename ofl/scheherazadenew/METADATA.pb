@@ -10,7 +10,7 @@ fonts {
   filename: "ScheherazadeNew-Regular.ttf"
   post_script_name: "ScheherazadeNew-Regular"
   full_name: "Scheherazade New"
-  copyright: "Copyright (c) 1994-2024, SIL Global (https://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
+  copyright: "Copyright (c) 1994-2025, SIL Global (https://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
 }
 fonts {
   name: "Scheherazade New"
@@ -19,7 +19,7 @@ fonts {
   filename: "ScheherazadeNew-Medium.ttf"
   post_script_name: "ScheherazadeNew-Medium"
   full_name: "Scheherazade New Medium"
-  copyright: "Copyright (c) 1994-2024, SIL Global (https://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
+  copyright: "Copyright (c) 1994-2025, SIL Global (https://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
 }
 fonts {
   name: "Scheherazade New"
@@ -28,7 +28,7 @@ fonts {
   filename: "ScheherazadeNew-SemiBold.ttf"
   post_script_name: "ScheherazadeNew-SemiBold"
   full_name: "Scheherazade New SemiBold"
-  copyright: "Copyright (c) 1994-2024, SIL Global (https://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
+  copyright: "Copyright (c) 1994-2025, SIL Global (https://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
 }
 fonts {
   name: "Scheherazade New"
@@ -37,7 +37,7 @@ fonts {
   filename: "ScheherazadeNew-Bold.ttf"
   post_script_name: "ScheherazadeNew-Bold"
   full_name: "Scheherazade New Bold"
-  copyright: "Copyright (c) 1994-2024, SIL Global (https://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
+  copyright: "Copyright (c) 1994-2025, SIL Global (https://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
 }
 subsets: "arabic"
 subsets: "latin"
@@ -45,26 +45,26 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/silnrsi/font-scheherazade"
-  commit: "74197340596893c31122e71052fc440570b838ef"
-  archive_url: "https://github.com/silnrsi/font-scheherazade/releases/download/v4.300/ScheherazadeNew-4.300.zip"
+  commit: "e630202ccd00ca8f147641658b4518f7b847a511"
+  archive_url: "https://github.com/silnrsi/font-scheherazade/releases/download/v4.400/ScheherazadeNew-4.400.zip"
   files {
-    source_file: "ScheherazadeNew-4.300/OFL.txt"
+    source_file: "ScheherazadeNew-4.400/OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "ScheherazadeNew-4.300/ScheherazadeNew-Regular.ttf"
+    source_file: "ScheherazadeNew-4.400/ScheherazadeNew-Regular.ttf"
     dest_file: "ScheherazadeNew-Regular.ttf"
   }
   files {
-    source_file: "ScheherazadeNew-4.300/ScheherazadeNew-Medium.ttf"
+    source_file: "ScheherazadeNew-4.400/ScheherazadeNew-Medium.ttf"
     dest_file: "ScheherazadeNew-Medium.ttf"
   }
   files {
-    source_file: "ScheherazadeNew-4.300/ScheherazadeNew-SemiBold.ttf"
+    source_file: "ScheherazadeNew-4.400/ScheherazadeNew-SemiBold.ttf"
     dest_file: "ScheherazadeNew-SemiBold.ttf"
   }
   files {
-    source_file: "ScheherazadeNew-4.300/ScheherazadeNew-Bold.ttf"
+    source_file: "ScheherazadeNew-4.400/ScheherazadeNew-Bold.ttf"
     dest_file: "ScheherazadeNew-Bold.ttf"
   }
   branch: "master"

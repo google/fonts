@@ -35,6 +35,7 @@ axes {
 source {
   repository_url: "https://github.com/canonical/Ubuntu-Sans-Mono-fonts"
   commit: "5f47c8f963e2863468e49d2bb5bb6e6c4eb18ef7"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "LICENCE.txt"
     dest_file: "LICENCE.txt"

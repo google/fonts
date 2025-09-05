@@ -19,6 +19,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/kosugi-maru"
+  commit: "bd22c671a9ffc10cc4313e6f2fd75f2b86d6b14b"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "fonts/ttf/KosugiMaru-Regular.ttf"
     dest_file: "KosugiMaru-Regular.ttf"

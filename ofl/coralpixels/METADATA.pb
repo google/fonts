@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/tanukifont/Coral-Pixels"
   commit: "2817da74e36af89291ed233f6e2d799554eff991"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

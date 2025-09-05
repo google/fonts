@@ -28,6 +28,7 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/robotoslab"
   commit: "67af3ce9c4ca574419e1295b6165a2eeee112e6e"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "LICENSE.txt"
     dest_file: "LICENSE.txt"

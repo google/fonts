@@ -25,6 +25,7 @@ axes {
 source {
   repository_url: "https://github.com/SorkinType/Menbere"
   commit: "ab34feb55b02536fd40281b7651ddafbfcabc544"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

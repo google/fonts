@@ -203,11 +203,11 @@
     }
 
     toCsv() {
-        return `${this.name},${this.category},${this.score}`;
+        return `${this.name},,${this.category},${this.score}`;
     }
 
     toTag() {
-      return `${this.name},${this.category},${this.score}`;
+      return `${this.name},,${this.category},${this.score}`;
     }
     get tag() {
       return this.toTag();
@@ -747,7 +747,7 @@ function axesCombos(axes) {
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = "families.csv";
+        a.download = "families_new.csv";
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
@@ -759,9 +759,9 @@ function axesCombos(axes) {
         alert("Tag data copied to clipboard. A github pull request page will open in a new tab. Please remove the old data and paste in the new.");
         navigator.clipboard.writeText(csv);
         if (this.commit !== "refs/heads/main") {
-          window.open(`https://github.com/google/fonts/edit/${this.commit}/tags/all/families.csv`);
+          window.open(`https://github.com/google/fonts/edit/${this.commit}/tags/all/families_new.csv`);
         } else {
-          window.open("https://github.com/google/fonts/edit/main/tags/all/families.csv")
+          window.open("https://github.com/google/fonts/edit/main/tags/all/families_new.csv")
         }
       },
       loadCSV() {
@@ -773,7 +773,7 @@ function axesCombos(axes) {
         }
         this.history = [];
         this.tags = [];
-        const csvFilePath = `https://raw.githubusercontent.com/google/fonts/${this.commit}/tags/all/families.csv`; // Update this path to your CSV file
+        const csvFilePath = `https://raw.githubusercontent.com/google/fonts/${this.commit}/tags/all/families_new.csv`; // Update this path to your CSV file
         fetch(csvFilePath)
           .then(response => {
             if (response.status === 404) {
@@ -783,11 +783,11 @@ function axesCombos(axes) {
           })
           .then(csvText => {
             this.tags = this.parseCSV(csvText);
-            csvText = "Family,Group/Tag,Weight\r\n" + csvText;
+            csvText = "Family,Axes,Group/Tag,Weight\r\n" + csvText;
         })
       },
       parseCSV(text) {
-        const lines = text.split("\r\n");
+        const lines = text.split("\n");
         let res = [];
         lines.forEach((line) => {
           if (line === "") {

@@ -33,17 +33,17 @@ axes {
 source {
   repository_url: "https://github.com/SUSE/suse-font"
   commit: "7159afb2555b06d3a5c2f90e4d324e59e69c277d"
-  archive_url: "https://github.com/SUSE/suse-font/releases/download/v2.000/suse-font-v2.000.zip"
+  archive_url: "https://github.com/SUSE/suse-font/releases/download/v2.001/suse-font-v2.001.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
   }
   files {
-    source_file: "fonts/variable/SUSEMono[wght].ttf"
+    source_file: "suse-font-v2.001/fonts/variable/SUSEMono[wght].ttf"
     dest_file: "SUSEMono[wght].ttf"
   }
   files {
-    source_file: "fonts/variable/SUSEMono-Italic[wght].ttf"
+    source_file: "suse-font-v2.001//fonts/variable/SUSEMono-Italic[wght].ttf"
     dest_file: "SUSEMono-Italic[wght].ttf"
   }
   branch: "main"

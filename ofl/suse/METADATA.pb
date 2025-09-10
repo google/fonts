@@ -28,12 +28,12 @@ subsets: "vietnamese"
 axes {
   tag: "wght"
   min_value: 100.0
-  max_value: 1000.0
+  max_value: 900.0
 }
 source {
   repository_url: "https://github.com/SUSE/suse-font"
   commit: "7159afb2555b06d3a5c2f90e4d324e59e69c277d"
-  archive_url: "https://github.com/SUSE/suse-font/releases/download/v2.000/suse-font-v2.000.zip"
+  archive_url: "https://github.com/SUSE/suse-font/releases/download/v2.001/suse-font-v2.001.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

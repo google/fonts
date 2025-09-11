@@ -312,3 +312,41 @@ needed to be monospaced, because there was no way pixels could be stored as in m
 <img src="image53.png">
 
 <p>Early sketches of the 5 x 7 pixel grid show that even in a small design space of 35 pixels, the number of different options is enormous. Note the various alternatives for the “m”, to make it fit in the impossible width of 5 pixels. It is common understanding in design, that what first seems to be an extreme reduction of design options, in reality still needs a design process to find the best choice. Or to create alternative solutions that work just as well or better.</p>
+
+
+<h2>COLRv1</h2>
+
+<img src="image54.png">
+
+<p>COLRv1 is using the regular pixel shapes as mask for 2 “static” color layers. There is a “Foreground” image with partial transparant areas. And similarly there is a “Background” image, slightly different from the foreground.</p>
+
+<p>The “Foreground” layer is guided by 3 independent axes:</p>
+
+<ul>
+  <li>Size [SZP1]</li>
+  <li>x-position [XPN1]</li>
+  <li>y-position [YPN1]</li>
+</ul>
+
+<p>And the “Background” also has 3 independent axes:</p>
+
+<ul>
+  <li>Size [SZP2]
+  <li>x-position [XPN2]</li>
+  <li>y-position [YPN2]</li>
+</ul>
+
+<p>The total amount of axes in the Bitcount is 10, but since they are all independent from each other, we don’t need the same amount of master drawing that otherwise would have been necessary for a 10 dimensional design space.</p>
+
+<img src="image55.png">
+
+<p>Sub-pixel coloring axes</p>
+
+<img src="image56.png">
+
+<p>Typing /canvas shows the full Foreground and Background layers.</p>
+
+<img src="image57.png">
+
+<p>The element in the middle shows the selected pixel shape mask on top of the Foreground + Background</p>
+

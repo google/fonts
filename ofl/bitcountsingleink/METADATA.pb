@@ -72,7 +72,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/petrvanblokland/TYPETR-Bitcount"
-  commit: "653fc48a72cf3b6a293f6fc207a770f537921889"
+  commit: "89e7994f73b7f5ced80e7cf493d40be9e66ff82f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

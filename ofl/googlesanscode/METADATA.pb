@@ -1,7 +1,7 @@
 name: "Google Sans Code"
 designer: "Google, Universal Thirst"
 license: "OFL"
-category: "SANS_SERIF"
+category: "MONOSPACE"
 date_added: "2024-11-21"
 fonts {
   name: "Google Sans Code"
@@ -37,6 +37,43 @@ axes {
   tag: "wght"
   min_value: 300.0
   max_value: 800.0
+}
+sample_text {
+  masthead_full: "print('Hello Google!')"
+  masthead_partial: "print('Hello Google!')"
+  styles: "print('Hello Google!')"
+  tester: "print('Hello Google!')"
+  specimen_48: "f = 'Google Sans Code'\n"
+  specimen_36:
+    "def greet(person):\n"
+    "  print(f\"Hi {person}\")\n"
+  specimen_32:
+    "enum Mood {\n"
+    "  HAPPY,\n"
+    "  CURIOUS };\n"
+    "// Spread glowing vibes!\n"
+    "update(Mood.HAPPY);\n"
+  specimen_21:
+    "<script type=\"module\">\n"
+    "/* For demo purposes only! */\n"
+    "const family = 'Google Sans Code';\n"
+    "if (family && log || debug) {\n"
+    "  log(`Font: ${family}`);\n"
+    "  log(`First letter? ${family[0]}`);\n"
+    "}\n"
+    "</script>"
+  specimen_16:
+    "public static int fib(int n) {\n"
+    "  a = 0;\n"
+    "  b = 1;\n"
+    "  result = 0;\n"
+    "  for (int i = 2; i <=n; i++) {\n"
+    "    result = a + b;\n"
+    "    a = b\n"
+    "    b = result\n"
+    "  }\n"
+    "  return result;\n"
+    "}"
 }
 source {
   repository_url: "https://github.com/googlefonts/googlesans-code"

@@ -38,7 +38,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/chiron-fonts/chiron-hei-hk"
-  commit: "d2115b4e7a390f83f9279f4fd7b6f79eeba30a3e"
+  commit: "5d80c2cecb7d0d702c23b4caa71e524b030d99d5"
   config_yaml: "scripts/config.yaml"
   branch: "source"
 }

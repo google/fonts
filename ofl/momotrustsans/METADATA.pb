@@ -10,7 +10,7 @@ fonts {
   filename: "MomoTrustSans[wght].ttf"
   post_script_name: "MomoTrustSans-Regular"
   full_name: "Momo Trust Sans Regular"
-  copyright: "Copyright 2024 The Momo Trust Project Authors (https://github.com/typeassociates)"
+  copyright: "Copyright 2024 The Momo Trust Project Authors (https://github.com/typeassociates/MomoTrustSans)"
 }
 subsets: "latin"
 subsets: "latin-ext"

@@ -19,7 +19,7 @@ subsets: "menu"
 subsets: "symbols2"
 source {
   repository_url: "https://github.com/MoonlitOwen/ThenKhung/"
-  commit: "https://github.com/MoonlitOwen/ThenKhung/"
+  commit: "cdf0805fd0db0aba5c7789f60033060e1566d4cc"
   config_yaml: "source/config.yaml"
   files {
     source_file: "license.md"

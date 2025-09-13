@@ -10,7 +10,7 @@ fonts {
   filename: "RoundedCutter-Light.ttf"
   post_script_name: "RoundedCutter-Light"
   full_name: "Rounded Cutter Light"
-  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/davidemura/RoundedCutter)"
+  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/iljester/RoundedCutter)"
 }
 fonts {
   name: "Rounded Cutter"
@@ -19,7 +19,7 @@ fonts {
   filename: "RoundedCutter-LightItalic.ttf"
   post_script_name: "RoundedCutter-LightItalic"
   full_name: "Rounded Cutter Light Italic"
-  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/davidemura/RoundedCutter)"
+  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/iljester/RoundedCutter)"
 }
 fonts {
   name: "Rounded Cutter"
@@ -28,7 +28,7 @@ fonts {
   filename: "RoundedCutter-Regular.ttf"
   post_script_name: "RoundedCutter-Regular"
   full_name: "Rounded Cutter Regular"
-  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/davidemura/RoundedCutter)"
+  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/iljester/RoundedCutter)"
 }
 fonts {
   name: "Rounded Cutter"
@@ -37,7 +37,7 @@ fonts {
   filename: "RoundedCutter-Italic.ttf"
   post_script_name: "RoundedCutter-Italic"
   full_name: "Rounded Cutter Italic"
-  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/davidemura/RoundedCutter)"
+  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/iljester/RoundedCutter)"
 }
 fonts {
   name: "Rounded Cutter"
@@ -46,7 +46,7 @@ fonts {
   filename: "RoundedCutter-Medium.ttf"
   post_script_name: "RoundedCutter-Medium"
   full_name: "Rounded Cutter Medium"
-  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/davidemura/RoundedCutter)"
+  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/iljester/RoundedCutter)"
 }
 fonts {
   name: "Rounded Cutter"
@@ -55,7 +55,7 @@ fonts {
   filename: "RoundedCutter-MediumItalic.ttf"
   post_script_name: "RoundedCutter-MediumItalic"
   full_name: "Rounded Cutter Medium Italic"
-  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/davidemura/RoundedCutter)"
+  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/iljester/RoundedCutter)"
 }
 fonts {
   name: "Rounded Cutter"
@@ -64,7 +64,7 @@ fonts {
   filename: "RoundedCutter-Bold.ttf"
   post_script_name: "RoundedCutter-Bold"
   full_name: "Rounded Cutter Bold"
-  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/davidemura/RoundedCutter)"
+  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/iljester/RoundedCutter)"
 }
 fonts {
   name: "Rounded Cutter"
@@ -73,7 +73,7 @@ fonts {
   filename: "RoundedCutter-BoldItalic.ttf"
   post_script_name: "RoundedCutter-BoldItalic"
   full_name: "Rounded Cutter Bold Italic"
-  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/davidemura/RoundedCutter)"
+  copyright: "Copyright 2025 The RoundedCutter Project Authors (https://github.com/iljester/RoundedCutter)"
 }
 subsets: "latin"
 subsets: "latin-ext"

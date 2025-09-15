@@ -12,6 +12,7 @@ fonts {
   full_name: "Parastoo Regular"
   copyright: "Copyright 2016 The Parastoo Project Authors (https://github.com/googlefonts/parastoo-font)"
 }
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

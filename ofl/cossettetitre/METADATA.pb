@@ -10,7 +10,7 @@ fonts {
   filename: "CossetteTitre-Regular.ttf"
   post_script_name: "CossetteTitre-Regular"
   full_name: "Cossette Titre Regular"
-  copyright: "Copyright 2025 The Cossette Titre Project Authors (https://github.com/cossette/cossette-fonts)"
+  copyright: "Copyright 2025 The Cossette Titre Project Authors (https://github.com/googlefonts/cossette-fonts)"
 }
 fonts {
   name: "Cossette Titre"
@@ -19,13 +19,13 @@ fonts {
   filename: "CossetteTitre-Bold.ttf"
   post_script_name: "CossetteTitre-Bold"
   full_name: "Cossette Titre Bold"
-  copyright: "Copyright 2025 The Cossette Titre Project Authors (https://github.com/cossette/cossette-fonts)"
+  copyright: "Copyright 2025 The Cossette Titre Project Authors (https://github.com/googlefonts/cossette-fonts)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
 source {
-  repository_url: "https://github.com/cossette/cossette-fonts"
+  repository_url: "https://github.com/googlefonts/cossette-fonts"
   commit: "7a3a7d62f4eac78d1ac722d25def17c67d9bb445"
   config_yaml: "sources/config-titre.yaml"
   files {

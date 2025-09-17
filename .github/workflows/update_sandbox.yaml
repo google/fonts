@@ -1,0 +1,44 @@
+name: Generate Push Lists
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # every hour on the hour
+  workflow_dispatch:      # allow manual runs too
+
+permissions:
+  contents: write
+
+jobs:
+  gen-push-lists:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install gftools
+        run: pip install gftools
+
+      - name: setup git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/google/fonts.git
+
+      - name: Run gftools gen-push-lists
+        run: gftools gen-push-lists .
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Commit to_sandbox.txt if changed
+        run: |
+          git add to_sandbox.txt
+          git commit -m "Update to_sandbox.txt [automated]" || echo "No changes to commit"
+          git push

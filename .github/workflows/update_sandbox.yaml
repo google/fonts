@@ -39,6 +39,17 @@ jobs:
 
       - name: Commit to_sandbox.txt if changed
         run: |
+          git checkout -B pushlists
           git add to_sandbox.txt
           git commit -m "Update to_sandbox.txt [automated]" || echo "No changes to commit"
-          git push
+          git push origin pushlists --force
+      
+      - name: Create pull request
+        run: |
+          gh pr create \
+            --base main \
+            --head pushlists \
+            --title "Update to_sandbox.txt" \
+            --body ""
+        env:
+          GITHUB_TOKEN: ${{ secrets.MF_GH_TOKEN }}

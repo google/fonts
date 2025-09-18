@@ -1,8 +1,6 @@
 name: Generate Push Lists
 
 on:
-  schedule:
-    - cron: "0 * * * *"  # every hour on the hour
   workflow_dispatch:      # allow manual runs too
 
 permissions:

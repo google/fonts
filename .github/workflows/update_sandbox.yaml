@@ -35,7 +35,7 @@ jobs:
       - name: Run gftools gen-push-lists
         run: gftools gen-push-lists .
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Commit to_sandbox.txt if changed
         run: |

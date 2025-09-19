@@ -30,6 +30,7 @@ axes {
 source {
   repository_url: "https://github.com/jenskutilek/homecomputer-fonts"
   commit: "09b2f79d686453d3bc160d04a687488e66962c43"
+  config_yaml: "Sixtyfour/sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

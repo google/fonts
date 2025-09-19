@@ -19,6 +19,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/haniadnansd/Badeen-Display"
   commit: "c1370b602b4a9819c4ddce4af17962a42edb8bc3"
+  config_yaml: "source/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

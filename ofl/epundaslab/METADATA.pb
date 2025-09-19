@@ -32,6 +32,7 @@ axes {
 source {
   repository_url: "https://github.com/typofactur/epundaslab"
   commit: "b7f3ef7ccf9e7f1c0d8ef23bd5c6017a8c77a268"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -37,6 +37,7 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/dm-fonts"
   commit: "d0520ba03bd780f5dccb3024854463d44f699b78"
+  config_yaml: "Sans/Source/config.yaml"
   files {
     source_file: "Sans/OFL.txt"
     dest_file: "OFL.txt"

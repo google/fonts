@@ -17,6 +17,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/danhhong/OdorMeanChey"
+  commit: "aef50fea8910e7982fde427d114d8cfd6ccbbb9e"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

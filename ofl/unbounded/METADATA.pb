@@ -26,6 +26,7 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/unbounded"
   commit: "f3ec43228a864a72487e41552e2140efab9884ea"
+  config_yaml: "Source/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

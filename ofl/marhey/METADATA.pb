@@ -24,6 +24,7 @@ axes {
 source {
   repository_url: "https://github.com/namelatype/Marhey"
   commit: "535eeb5a3f4dee825fdaf13d84075b212d969f8d"
+  config_yaml: "source/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

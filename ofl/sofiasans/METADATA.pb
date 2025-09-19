@@ -35,6 +35,7 @@ axes {
 source {
   repository_url: "https://github.com/lettersoup/Sofia-Sans"
   commit: "185877d082cebb40facd65143326147431863688"
+  config_yaml: "sources/Normal/sofia-normal.yml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

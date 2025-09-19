@@ -19,6 +19,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/lroulh/story-script"
   commit: "464caab609d0c56a028a6db52e411b7e4f86a1cf"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/manufacturing-consent-font"
   commit: "80c3d822c2459ac0d76f8cb9d7ca1ca89a068f3b"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

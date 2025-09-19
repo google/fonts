@@ -53,6 +53,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/danhhong/Suwannaphum"
+  commit: "86c0dfc2b5abe20f239e3a3dfec2a9b9e153b28b"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

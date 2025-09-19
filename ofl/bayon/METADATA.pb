@@ -17,6 +17,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/danhhong/Bayon"
+  commit: "1749b1d8a8321d4294aae0f73ebb473535c39aee"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

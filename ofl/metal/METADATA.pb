@@ -17,6 +17,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/danhhong/Metal"
+  commit: "2d74e37de805a7bc4fb3f704897fbfd2f4e0ac7f"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

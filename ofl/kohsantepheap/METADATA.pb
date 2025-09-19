@@ -53,6 +53,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/danhhong/KohSantepheap"
+  commit: "316be9428c2fa32b872cb298e2439d2293dc006f"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

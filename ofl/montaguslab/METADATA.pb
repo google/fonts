@@ -32,6 +32,8 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/floriankarsten/montagu-slab"
+  commit: "317bc2344f39f20620fae2424afc645aff7ab0ef"
+  config_yaml: "sources/glyphs-decomposed/config.yml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

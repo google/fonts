@@ -25,6 +25,7 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/parastoo-font"
   commit: "80a254f68aa51a80a97e33218e3e23e9d3229b10"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

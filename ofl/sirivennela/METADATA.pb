@@ -17,7 +17,8 @@ subsets: "menu"
 subsets: "telugu"
 source {
   repository_url: "https://github.com/appajid/Sirivennela"
-  commit: "db4712ce3ee65a5cbee0223d5266d1fdd897ab3e"
+  commit: "1e9e8dbbc7a3fd9e4c352aeb865a7328dae07eed"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

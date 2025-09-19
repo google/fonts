@@ -18,6 +18,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/rozgatype/Exile"
   commit: "b5c737683dcc95f1e749e2189fc242c4a2b31e97"
+  config_yaml: "Source/config.yaml"
   files {
     source_file: "OFL.txt.txt"
     dest_file: "OFL.txt"

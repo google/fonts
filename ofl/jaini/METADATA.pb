@@ -19,6 +19,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/EkType/Jaini"
   commit: "4d2bcf9760fccb42eb95a079a17c430907059f58"
+  config_yaml: "Source/jaini.yaml"
   files {
     source_file: "fonts/ttf/Jaini-Regular.ttf"
     dest_file: "Jaini-Regular.ttf"

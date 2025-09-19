@@ -17,6 +17,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/danhhong/Angkor"
+  commit: "8a6117ad7d97eee87c364657b47f35742df3bba9"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

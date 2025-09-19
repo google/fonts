@@ -19,6 +19,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/DunwichType/Padyakke_Libre"
   commit: "6b18f969591fb9d4767478137061cdd5b727a6b4"
+  config_yaml: "source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

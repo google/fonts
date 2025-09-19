@@ -53,6 +53,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/danhhong/Battambang"
+  commit: "b2350045aaa01ab6c4aa572d677432e25c338807"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

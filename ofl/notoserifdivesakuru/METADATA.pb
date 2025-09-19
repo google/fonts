@@ -19,6 +19,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/dives-akuru"
   commit: "e9e925bc4b31fa6347c166ea31d0064a5b8599ae"
+  config_yaml: "sources/config-serif-dives-akuru.yaml"
   archive_url: "https://github.com/notofonts/dives-akuru/releases/download/NotoSerifDivesAkuru-v2.000/NotoSerifDivesAkuru-v2.000.zip"
   files {
     source_file: "DESCRIPTION.en_us.html"

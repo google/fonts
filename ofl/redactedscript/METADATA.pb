@@ -35,6 +35,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/christiannaths/redacted-font"
+  commit: "dae1afaa7d96c89825c5e0193f07b4b16ccef4d7"
+  config_yaml: "RedactedScript/sources/config.yaml"
   files {
     source_file: "RedactedScript/fonts/ttf/RedactedScript-Regular.ttf"
     dest_file: "RedactedScript-Regular.ttf"

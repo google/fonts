@@ -37,6 +37,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/Omnibus-Type/Saira"
+  commit: "1916f2a575479b626238d9842126e63aa208eebf"
+  config_yaml: "Saira/sources/config.yaml"
   files {
     source_file: "Saira/fonts/variable/Saira[wdth,wght].ttf"
     dest_file: "Saira[wdth,wght].ttf"

@@ -18,6 +18,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/erinmclaughlin/Hubballi"
+  commit: "e5c909bedfc4a2395ea300f94acec0d245ff7635"
+  config_yaml: "source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -17,6 +17,8 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/danhhong/Fasthand"
+  commit: "048b6cfd785212af6470687da43969cc9bf462d9"
+  config_yaml: "Source/builder.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

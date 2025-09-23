@@ -18,7 +18,9 @@ def family_tags():
     reader = csv.reader(open(fp, "r", encoding="utf-8"))
     res = []
     for row in reader:
-        res.append([row[0], row[1], float(row[2])])
+        if not row:
+            continue
+        res.append([row[0], row[1], row[2], float(row[3])])
     return res
 
 
@@ -65,7 +67,7 @@ def test_categories_exist(family_tags, tags_metadata):
 def test_no_duplicate_families(family_tags):
     seen = set()
     dups = []
-    for family, cat, _ in family_tags:
+    for family, axes, cat, _ in family_tags:
         key = (family, cat)
         if key in seen:
             dups.append(",".join(key))
@@ -75,7 +77,7 @@ def test_no_duplicate_families(family_tags):
 
 def test_tag_vals_in_range(family_tags):
     out_of_range = []
-    for family, cat, val in family_tags:
+    for family, axes, cat, val in family_tags:
         if val <= 0 or val > 100:
             out_of_range.append((family, cat, val))
     assert not out_of_range, f"Values out of range 1-100: {out_of_range}"

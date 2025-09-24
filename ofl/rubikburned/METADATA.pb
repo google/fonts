@@ -21,6 +21,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "f61d39563df1f583122af0866fc827666c2b385b"
+  config_yaml: "burned/sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

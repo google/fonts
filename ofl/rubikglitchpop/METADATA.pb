@@ -23,6 +23,7 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "c89f25696f8c15d3c180b087256591d43d6f46db"
+  config_yaml: "glitchpop/sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

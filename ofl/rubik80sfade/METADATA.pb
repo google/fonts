@@ -21,6 +21,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "f68dfcddd341aaabe53aa924d634122bb8bf999d"
+  config_yaml: "80sfade/sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

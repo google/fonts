@@ -21,7 +21,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/MezMerrit/AU-School-Handwriting-Fonts"
-  commit: "0dbdee65c92d10e24e5d634719054f4f96b69133"
+  commit: "055799b858017157b6138e59833ab5b1a8947bbd"
+  config_yaml: "VIC-WA-NT-School-fonts/sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -23,7 +23,9 @@ axes {
   max_value: 800.0
 }
 source {
-  repository_url: "https://github.com/EkType/Baloo2-Variable"
+  repository_url: "https://github.com/yanone/Baloo2-Variable"
+  commit: "da523dfa21aa0e376253d61c21e39146dc55702a"
+  config_yaml: "builder/BalooPaaji2.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

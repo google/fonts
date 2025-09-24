@@ -21,6 +21,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "6a9f34277f6656762de34970de67f70c1c42d9e2"
+  config_yaml: "markerhatch/sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

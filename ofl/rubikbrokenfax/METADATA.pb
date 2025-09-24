@@ -23,6 +23,7 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "df817f272b98fb24d9c3b10323ac08ab74c08227"
+  config_yaml: "brokenfax/sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

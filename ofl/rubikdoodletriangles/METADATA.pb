@@ -23,6 +23,7 @@ subsets: "symbols"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "409369746e32796524d9b0b6c9c5aa6445c83bcd"
+  config_yaml: "doodletriangles/sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

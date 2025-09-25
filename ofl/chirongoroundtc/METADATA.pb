@@ -29,3 +29,4 @@ source {
   branch: "source"
 }
 primary_script: "Hant"
+primary_language: "yue_Hant"

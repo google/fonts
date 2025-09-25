@@ -1,5 +1,5 @@
 name: "BBH Sans Hegarty"
-designer: "Studio Drama"
+designer: "Studio DRAMA"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-09-24"

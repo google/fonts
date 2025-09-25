@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Fonts Quality Analysis</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        .header p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        .controls {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .weights-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .filters-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .filters-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #495057;
+        }
+        .tag-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            padding: 10px;
+            background: #f8f9fa;
+        }
+        .tag-filter {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 10px;
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 0.85em;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .tag-filter:hover {
+            border-color: #dc3545;
+            background: #fff5f5;
+        }
+        .tag-filter.excluded {
+            background: #dc3545;
+            color: white;
+            border-color: #dc3545;
+        }
+        .tag-filter input[type="checkbox"] {
+            margin: 0;
+        }
+        .clear-filters {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+        .clear-filters:hover {
+            background: #5a6268;
+        }
+        .weights-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #495057;
+        }
+        .weights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .weight-control {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .weight-label {
+            font-size: 0.9em;
+            font-weight: 500;
+            color: #495057;
+        }
+        .weight-input {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .weight-slider {
+            flex: 1;
+            -webkit-appearance: none;
+            appearance: none;
+            height: 6px;
+            border-radius: 3px;
+            background: #dee2e6;
+            outline: none;
+        }
+        .weight-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+        }
+        .weight-slider::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+            border: none;
+        }
+        .weight-value {
+            min-width: 40px;
+            font-weight: 600;
+            color: #495057;
+        }
+        .stats {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .stat-item {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .stat-label {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #495057;
+        }
+        .loading {
+            text-align: center;
+            padding: 60px;
+            font-size: 1.2em;
+            color: #6c757d;
+        }
+        .error {
+            text-align: center;
+            padding: 60px;
+            color: #dc3545;
+            font-size: 1.1em;
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95em;
+        }
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #495057;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .font-name {
+            font-weight: 600;
+            color: #495057;
+            font-size: 1.1em;
+        }
+        .font-preview {
+            margin-bottom: 4px;
+            line-height: 1.2;
+        }
+        .font-family-name {
+            font-size: 0.85em;
+            color: #6c757d;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+        }
+        .floating-controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 1000;
+            min-width: 280px;
+            max-width: 350px;
+        }
+        .floating-controls h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.1em;
+            color: #495057;
+        }
+        .control-group {
+            margin-bottom: 15px;
+        }
+        .control-label {
+            display: block;
+            font-size: 0.9em;
+            font-weight: 500;
+            color: #495057;
+            margin-bottom: 5px;
+        }
+        .control-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-family: inherit;
+        }
+        .control-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+        }
+        
+        .size-control {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .size-slider {
+            flex: 1;
+            -webkit-appearance: none;
+            appearance: none;
+            height: 6px;
+            border-radius: 3px;
+            background: #dee2e6;
+            outline: none;
+        }
+        .size-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+        }
+        .size-slider::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+            border: none;
+        }
+        .size-value {
+            min-width: 40px;
+            font-weight: 600;
+            color: #495057;
+            font-size: 0.9em;
+        }
+        
+        /* Tags popup */
+        .tags-popup {
+            position: absolute;
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            max-width: 300px;
+            pointer-events: none;
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: opacity 0.2s ease, transform 0.2s ease;
+        }
+        
+        .tags-popup.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .tags-popup h4 {
+            margin: 0 0 8px 0;
+            font-size: 0.9em;
+            color: #495057;
+            font-weight: 600;
+        }
+        
+        .tags-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+        
+        .tag-item {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            padding: 2px 8px;
+            font-size: 0.75em;
+            color: #495057;
+        }
+        .quality-tag {
+            background: #e7f3ff;
+            color: #0066cc;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .score {
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 4px;
+            color: white;
+        }
+        .score-high { background: #28a745; }
+        .score-medium { background: #ffc107; color: #212529; }
+        .score-low { background: #dc3545; }
+        .quality-breakdown {
+            font-size: 0.8em;
+            color: #6c757d;
+            margin-top: 4px;
+        }
+        .weighted-score {
+            font-weight: 700;
+            font-size: 1.1em;
+        }
+        .no-data {
+            text-align: center;
+            padding: 60px;
+            color: #6c757d;
+            font-size: 1.1em;
+        }
+        @media (max-width: 768px) {
+            .stats {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .stat-item {
+                width: 100%;
+                text-align: center;
+            }
+            .floating-controls {
+                position: relative;
+                top: auto;
+                right: auto;
+                margin-bottom: 20px;
+                min-width: auto;
+                max-width: none;
+            }
+            th, td {
+                padding: 8px 12px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Floating Controls -->
+                    <div class="floating-controls">
+                <div>
+                    <label style="display: block; margin-bottom: 5px; font-weight: 600; color: #495057; font-size: 0.9em;">Custom Text:</label>
+                    <input 
+                        type="text" 
+                        v-model="previewText" 
+                        placeholder="Enter your preview text..."
+                        class="control-input"
+                    />
+                </div>
+                <div class="size-control">
+                    <label style="font-weight: 600; color: #495057; font-size: 0.9em;">Size:</label>
+                    <input 
+                        type="range" 
+                        v-model="fontSize" 
+                        min="12" 
+                        max="72" 
+                        class="size-slider"
+                    />
+                    <span class="size-value">{{ fontSize }}px</span>
+                </div>
+            </div>
+
+            <!-- Tags popup -->
+            <div 
+                ref="tagsPopup"
+                class="tags-popup"
+                :class="{ visible: popupVisible }"
+                :style="popupStyle"
+            >
+                <h4>Tags</h4>
+                <div class="tags-list">
+                    <span 
+                        v-for="tag in popupTags" 
+                        :key="tag" 
+                        class="tag-item"
+                    >
+                        {{ tag }}
+                    </span>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="header">
+                <h1>Google Fonts Quality Analysis</h1>
+                <p>Font families filtered by Quality metrics from the Google Fonts repository</p>
+            </div>
+            
+            <div class="controls">
+                <div class="filters-section">
+                    <div class="filters-title">Exclude Tags ({{ excludedTags.size }} excluded)</div>
+                    <div class="tag-filters">
+                        <div 
+                            v-for="tag in availableTags" 
+                            :key="tag"
+                            class="tag-filter"
+                            :class="{ excluded: excludedTags.has(tag) }"
+                            @click="toggleTagExclusion(tag)"
+                        >
+                            <input 
+                                type="checkbox" 
+                                :checked="excludedTags.has(tag)"
+                                @click.stop="toggleTagExclusion(tag)"
+                            >
+                            {{ tag }}
+                        </div>
+                    </div>
+                    <button 
+                        class="clear-filters"
+                        @click="clearAllFilters"
+                        v-if="excludedTags.size > 0"
+                    >
+                        Clear All Filters
+                    </button>
+                </div>
+                
+                <div class="weights-section">
+                    <div class="weights-title">Quality Metric Weights</div>
+                    <div class="weights-grid">
+                        <div class="weight-control">
+                            <div class="weight-label">Concept</div>
+                            <div class="weight-input">
+                                <input 
+                                    type="range" 
+                                    min="0" 
+                                    max="100" 
+                                    v-model.number="weights.concept" 
+                                    class="weight-slider"
+                                    @input="calculateWeightedScores"
+                                >
+                                <span class="weight-value">{{ weights.concept }}%</span>
+                            </div>
+                        </div>
+                        <div class="weight-control">
+                            <div class="weight-label">Drawing</div>
+                            <div class="weight-input">
+                                <input 
+                                    type="range" 
+                                    min="0" 
+                                    max="100" 
+                                    v-model.number="weights.drawing" 
+                                    class="weight-slider"
+                                    @input="calculateWeightedScores"
+                                >
+                                <span class="weight-value">{{ weights.drawing }}%</span>
+                            </div>
+                        </div>
+                        <div class="weight-control">
+                            <div class="weight-label">Spacing</div>
+                            <div class="weight-input">
+                                <input 
+                                    type="range" 
+                                    min="0" 
+                                    max="100" 
+                                    v-model.number="weights.spacing" 
+                                    class="weight-slider"
+                                    @input="calculateWeightedScores"
+                                >
+                                <span class="weight-value">{{ weights.spacing }}%</span>
+                            </div>
+                        </div>
+                        <div class="weight-control">
+                            <div class="weight-label">Wordspace</div>
+                            <div class="weight-input">
+                                <input 
+                                    type="range" 
+                                    min="0" 
+                                    max="100" 
+                                    v-model.number="weights.wordspace" 
+                                    class="weight-slider"
+                                    @input="calculateWeightedScores"
+                                >
+                                <span class="weight-value">{{ weights.wordspace }}%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-label">Visible Font Families</div>
+                        <div class="stat-value">{{ filteredFamilies.length }}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Total Font Families</div>
+                        <div class="stat-value">{{ processedFamilies.length }}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Average Weighted Score</div>
+                        <div class="stat-value">{{ averageWeightedScore }}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Weight Total</div>
+                        <div class="stat-value">{{ totalWeight }}%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div v-if="loading" class="loading">
+                Loading CSV data...
+            </div>
+
+            <div v-else-if="error" class="error">
+                {{ error }}
+            </div>
+
+            <div v-else-if="filteredFamilies.length === 0" class="no-data">
+                No font families match the current filters.
+            </div>
+
+            <div v-else class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Font Family</th>
+                            <th>Weighted Score</th>
+                            <th>Quality Breakdown</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="(family, index) in filteredFamilies" :key="index"
+                            @dblclick="showTagsPopup($event, family)"
+                            @mouseleave="hideTagsPopup">
+                            <td class="font-name">
+                                <div 
+                                    class="font-preview" 
+                                    :style="{ 
+                                        fontFamily: family.fontFamily, 
+                                        fontSize: fontSize + 'px' 
+                                    }"
+                                >
+                                    {{ previewText }}
+                                </div>
+                                <div class="font-family-name">{{ family.name }}</div>
+                            </td>
+                            <td>
+                                <span class="score weighted-score" :class="getScoreClass(family.weightedScore)">
+                                    {{ family.weightedScore.toFixed(1) }}
+                                </span>
+                            </td>
+                            <td>
+                                <div class="quality-breakdown">
+                                    <div v-if="family.scores.concept !== null">Concept: {{ family.scores.concept }}</div>
+                                    <div v-if="family.scores.drawing !== null">Drawing: {{ family.scores.drawing }}</div>
+                                    <div v-if="family.scores.spacing !== null">Spacing: {{ family.scores.spacing }}</div>
+                                    <div v-if="family.scores.wordspace !== null">Wordspace: {{ family.scores.wordspace }}</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp } = Vue;
+
+        createApp({
+            data() {
+                return {
+                    csvData: [],
+                    filteredData: [],
+                    allCsvData: [],
+                    processedFamilies: [],
+                    loading: true,
+                    error: null,
+                    loadedFonts: new Set(),
+                    availableTags: [],
+                    excludedTags: new Set(),
+                    previewText: 'The quick brown fox jumps over the lazy dog',
+                    fontSize: 24,
+                    popupVisible: false,
+                    popupTags: [],
+                    popupStyle: {},
+                    weights: {
+                        concept: 25,
+                        drawing: 25,
+                        spacing: 25,
+                        wordspace: 25
+                    }
+                }
+            },
+            computed: {
+                uniqueFamilies() {
+                    const families = new Set(this.filteredData.map(row => row.fontFamily));
+                    return families.size;
+                },
+                averageWeightedScore() {
+                    if (this.filteredFamilies.length === 0) return '0.0';
+                    const total = this.filteredFamilies.reduce((sum, family) => sum + family.weightedScore, 0);
+                    return (total / this.filteredFamilies.length).toFixed(1);
+                },
+                totalWeight() {
+                    return this.weights.concept + this.weights.drawing + this.weights.spacing + this.weights.wordspace;
+                },
+                filteredFamilies() {
+                    if (this.excludedTags.size === 0) {
+                        return this.processedFamilies;
+                    }
+                    
+                    return this.processedFamilies.filter(family => {
+                        // Check if this family has any excluded tags
+                        return !family.tags.some(tag => this.excludedTags.has(tag));
+                    });
+                }
+            },
+            methods: {
+                async fetchCSV() {
+                    try {
+                        const response = await fetch('https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/families.csv');
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        const csvText = await response.text();
+                        this.parseCSV(csvText);
+                    } catch (err) {
+                        this.error = `Failed to fetch CSV data: ${err.message}`;
+                        console.error('Error fetching CSV:', err);
+                    } finally {
+                        this.loading = false;
+                    }
+                },
+                parseCSV(csvText) {
+                    try {
+                        const lines = csvText.trim().split('\n');
+                        const allData = [];
+                        const qualityData = [];
+                        
+                        for (let line of lines) {
+                            // Split by comma, handling potential commas in quoted fields
+                            const columns = line.split(',');
+                            
+                            if (columns.length >= 4) {
+                                const fontFamily = columns[0].trim();
+                                const category = columns[2].trim();
+                                const score = columns[3].trim();
+                                
+                                // Store all data for tag extraction
+                                allData.push({
+                                    fontFamily: fontFamily,
+                                    category: category.replace(/^\//, '').replace(/\/$/, ''), // Remove leading/trailing slashes
+                                    score: parseFloat(score)
+                                });
+                                
+                                // Filter for rows where column 2 contains "Quality"
+                                if (category.includes('Quality')) {
+                                    qualityData.push({
+                                        fontFamily: fontFamily,
+                                        qualityCategory: category.replace(/^\//, '').replace(/\/$/, ''), // Remove leading/trailing slashes
+                                        score: parseFloat(score)
+                                    });
+                                }
+                            }
+                        }
+                        
+                        this.allCsvData = allData;
+                        this.filteredData = qualityData;
+                    this.extractAvailableTags();
+                    this.loadSettingsFromUrl();
+                    this.groupByFamilyAndCalculateScores();                        if (qualityData.length === 0) {
+                            this.error = 'No rows found with "Quality" in the category column.';
+                        }
+                    } catch (err) {
+                        this.error = `Failed to parse CSV data: ${err.message}`;
+                        console.error('Error parsing CSV:', err);
+                    }
+                },
+                extractAvailableTags() {
+                    const tagsSet = new Set();
+                    
+                    for (const row of this.allCsvData) {
+                        // Skip quality tags since we're already filtering by those
+                        if (!row.category.includes('Quality')) {
+                            tagsSet.add(row.category);
+                        }
+                    }
+                    
+                    this.availableTags = Array.from(tagsSet).sort();
+                },
+                loadSettingsFromUrl() {
+                    const urlParams = new URLSearchParams(window.location.search);
+                    
+                    // Load weights from URL parameters
+                    const concept = urlParams.get('concept');
+                    const drawing = urlParams.get('drawing');
+                    const spacing = urlParams.get('spacing');
+                    const wordspace = urlParams.get('wordspace');
+                    
+                    if (concept !== null) this.weights.concept = parseInt(concept) || 25;
+                    if (drawing !== null) this.weights.drawing = parseInt(drawing) || 25;
+                    if (spacing !== null) this.weights.spacing = parseInt(spacing) || 25;
+                    if (wordspace !== null) this.weights.wordspace = parseInt(wordspace) || 25;
+                    
+                    // Load excluded tags
+                    const excludedParam = urlParams.get('exclude');
+                    if (excludedParam) {
+                        const excludedArray = excludedParam.split(',').filter(tag => tag.trim());
+                        this.excludedTags = new Set(excludedArray);
+                    }
+                },
+                groupByFamilyAndCalculateScores() {
+                    const familyMap = new Map();
+                    
+                    // Group scores by family and quality type
+                    for (const row of this.filteredData) {
+                        if (!familyMap.has(row.fontFamily)) {
+                            familyMap.set(row.fontFamily, {
+                                name: row.fontFamily,
+                                fontFamily: this.formatFontFamily(row.fontFamily),
+                                tags: null, // Tags will be calculated on demand
+                                scores: {
+                                    concept: null,
+                                    drawing: null,
+                                    spacing: null,
+                                    wordspace: null
+                                }
+                            });
+                        }
+                        
+                        const family = familyMap.get(row.fontFamily);
+                        
+                        const category = row.qualityCategory.toLowerCase();
+                        
+                        if (category.includes('concept')) {
+                            family.scores.concept = row.score;
+                        } else if (category.includes('drawing')) {
+                            family.scores.drawing = row.score;
+                        } else if (category.includes('spacing')) {
+                            family.scores.spacing = row.score;
+                        } else if (category.includes('wordspace')) {
+                            family.scores.wordspace = row.score;
+                        }
+                    }
+                    
+                    this.processedFamilies = Array.from(familyMap.values());
+                    this.calculateWeightedScores();
+                    this.loadGoogleFonts();
+                },
+                formatFontFamily(fontName) {
+                    // Format font name for CSS font-family property
+                    return `"${fontName}", sans-serif`;
+                },
+                formatFontNameForUrl(fontName) {
+                    // Format font name for Google Fonts URL
+                    return fontName.replace(/\s+/g, '+');
+                },
+                loadGoogleFonts() {
+                    // Load all fonts but batch them to avoid overwhelming the browser
+                    const fontsToLoad = this.filteredFamilies;
+                    
+                    // Load fonts in batches of 20 with a small delay between batches
+                    const batchSize = 20;
+                    for (let i = 0; i < fontsToLoad.length; i += batchSize) {
+                        setTimeout(() => {
+                            const batch = fontsToLoad.slice(i, i + batchSize);
+                            for (const family of batch) {
+                                if (!this.loadedFonts.has(family.name)) {
+                                    this.loadGoogleFont(family.name);
+                                    this.loadedFonts.add(family.name);
+                                }
+                            }
+                        }, (i / batchSize) * 100); // 100ms delay between batches
+                    }
+                },
+                loadGoogleFont(fontName) {
+                    const formattedName = this.formatFontNameForUrl(fontName);
+                    const url = `https://fonts.googleapis.com/css2?family=${formattedName}`;
+                    
+                    // Create link element
+                    const link = document.createElement('link');
+                    link.rel = 'stylesheet';
+                    link.href = url;
+                    
+                    // Add error handling
+                    link.onerror = () => {
+                        console.warn(`Failed to load font: ${fontName}`);
+                    };
+                    
+                    // Append to head
+                    document.head.appendChild(link);
+                },
+                toggleTagExclusion(tag) {
+                    if (this.excludedTags.has(tag)) {
+                        this.excludedTags.delete(tag);
+                    } else {
+                        this.excludedTags.add(tag);
+                    }
+                    // Trigger reactivity
+                    this.excludedTags = new Set(this.excludedTags);
+                    
+                    // Update URL and reload fonts
+                    this.updateUrl();
+                    this.loadGoogleFonts();
+                },
+                clearAllFilters() {
+                    this.excludedTags.clear();
+                    this.excludedTags = new Set();
+                    this.updateUrl();
+                    this.loadGoogleFonts();
+                },
+                updateUrl() {
+                    const url = new URL(window.location.href);
+                    url.search = ''; // Clear existing parameters
+                    
+                    // Add weight parameters
+                    url.searchParams.set('concept', this.weights.concept);
+                    url.searchParams.set('drawing', this.weights.drawing);
+                    url.searchParams.set('spacing', this.weights.spacing);
+                    url.searchParams.set('wordspace', this.weights.wordspace);
+                    
+                    // Add excluded tags
+                    if (this.excludedTags.size > 0) {
+                        const excludedArray = Array.from(this.excludedTags);
+                        url.searchParams.set('exclude', excludedArray.join(','));
+                    }
+                    
+                    // Update browser URL without reloading
+                    window.history.replaceState({}, '', url.toString());
+                },
+                showTagsPopup(event, family) {
+                    // Calculate tags on demand for this family
+                    if (family.tags === null) {
+                        const familyTags = new Set();
+                        for (const row of this.allCsvData) {
+                            if (row.fontFamily === family.name && !row.category.includes('Quality')) {
+                                familyTags.add(row.category);
+                            }
+                        }
+                        family.tags = Array.from(familyTags).sort();
+                    }
+                    
+                    this.popupTags = family.tags;
+                    
+                    // Position the popup
+                    const rect = event.currentTarget.getBoundingClientRect();
+                    this.popupStyle = {
+                        left: Math.min(rect.right + 10, window.innerWidth - 320) + 'px',
+                        top: rect.top + window.scrollY + 'px'
+                    };
+                    
+                    this.popupVisible = true;
+                },
+                hideTagsPopup() {
+                    this.popupVisible = false;
+                    this.popupTags = [];
+                },
+                calculateWeightedScores() {
+                    for (const family of this.processedFamilies) {
+                        let weightedSum = 0;
+                        let totalWeight = 0;
+                        
+                        if (family.scores.concept !== null) {
+                            weightedSum += family.scores.concept * (this.weights.concept / 100);
+                            totalWeight += this.weights.concept / 100;
+                        }
+                        if (family.scores.drawing !== null) {
+                            weightedSum += family.scores.drawing * (this.weights.drawing / 100);
+                            totalWeight += this.weights.drawing / 100;
+                        }
+                        if (family.scores.spacing !== null) {
+                            weightedSum += family.scores.spacing * (this.weights.spacing / 100);
+                            totalWeight += this.weights.spacing / 100;
+                        }
+                        if (family.scores.wordspace !== null) {
+                            weightedSum += family.scores.wordspace * (this.weights.wordspace / 100);
+                            totalWeight += this.weights.wordspace / 100;
+                        }
+                        
+                        // Calculate weighted average (only using available scores)
+                        family.weightedScore = totalWeight > 0 ? weightedSum / totalWeight : 0;
+                    }
+                    
+                    // Sort families by weighted score (highest first)
+                    this.processedFamilies.sort((a, b) => b.weightedScore - a.weightedScore);
+                    
+                    // Update URL when weights change
+                    this.updateUrl();
+                },
+                getScoreClass(score) {
+                    const numScore = parseFloat(score);
+                    if (numScore >= 80) return 'score-high';
+                    if (numScore >= 60) return 'score-medium';
+                    return 'score-low';
+                }
+            },
+            mounted() {
+                this.fetchCSV();
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>

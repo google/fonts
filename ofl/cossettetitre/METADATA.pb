@@ -26,8 +26,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/googlefonts/cossette-fonts"
-  commit: "7a3a7d62f4eac78d1ac722d25def17c67d9bb445"
-  config_yaml: "sources/config-titre.yaml"
+  commit: "ee99cea3c23039e31865c3c37bd7d716278e546b"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -41,4 +40,5 @@ source {
     dest_file: "CossetteTitre-Bold.ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-titre.yaml"
 }

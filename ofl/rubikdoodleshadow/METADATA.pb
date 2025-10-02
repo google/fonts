@@ -22,7 +22,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
-  commit: "c70421b2f209e0aa88a84210d94da557602a5e56"
+  commit: "409369746e32796524d9b0b6c9c5aa6445c83bcd"
   config_yaml: "doodleshadow/sources/config.yaml"
   files {
     source_file: "OFL.txt"

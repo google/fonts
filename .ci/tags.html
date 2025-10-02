@@ -184,30 +184,55 @@
 </body>
 
 <script>
+  function parseCSVLine(line) {
+    const fields = [];
+    let current = "";
+    let inQuotes = false;
+
+    for (let i = 0; i < line.length; i++) {
+      const char = line[i];
+
+      if (char === '"') {
+        // Toggle quoted state (unless it's an escaped quote, which you could handle here too)
+        inQuotes = !inQuotes;
+      } else if (char === "," && !inQuotes) {
+        // Field separator when not inside quotes
+        current = current.replace('"', '');
+        fields.push(current);
+        current = "";
+      } else {
+        current += char;
+      }
+    }
+    current = current.replace('"', '');
+    fields.push(current);
+    return fields;
+  }
+
   class FontTag {
-    constructor(name, category, score = 0) {
+    constructor(name, axes, category, score = 0) {
         this.name = name;
+        this.axes = axes;
         this.category = category;
         this.score = score;
     }
     static fromCsv(line) {
-      //'Maven Pro:"wght,wdth@100,200",/Mono,40' --> ["Maven Pro:"wght,wdth@100,200", "/Mono", "40"]
-      //'Maven Pro,/Mono,40' --> ["Maven Pro", "/Mono", "40"]
-      const regex = /("[^"]+"|[^,]+)(?=\s*,|\s*$)/g;
-      const parsed = line.match(regex).map(item => item.trim())
-      const [name, category, score] = parsed;
-      return new FontTag(name, category, score);
+      const [name, axes, category, score] = parseCSVLine(line);
+      return new FontTag(name, axes, category, score);
     }
     isVF() {
-      return this.name.includes("@");
+      return this.axes.length > 0;
     }
 
     toCsv() {
-        return `${this.name},,${this.category},${this.score}`;
+        if (this.axes.includes(",")) {
+          return `${this.name},"${this.axes}",${this.category},${this.score}`;
+        }
+        return `${this.name},${this.axes},${this.category},${this.score}`;
     }
 
     toTag() {
-      return `${this.name},,${this.category},${this.score}`;
+      return `${this.name},${this.axes},${this.category},${this.score}`;
     }
     get tag() {
       return this.toTag();
@@ -220,12 +245,10 @@
       if (!this.isVF()) {
         return `font-family: ${this.name}; font-size: 32pt;`;
       }
-      let cleaned = this.name.replaceAll('"', '')
-      let [name, axes] = cleaned.split(":");
-      let [axisTag, axisCoords] = axes.split("@");
+      let [axisTag, axisCoords] = this.axes.split("@");
       let axisTags = axisTag.split(",");
       let axisCoordinates = axisCoords.split(",");
-      let style = `font-family: "${name}", "Adobe NotDef"; font-size: 32pt; font-variation-settings:`;
+      let style = `font-family: "${this.name}", "Adobe NotDef"; font-size: 32pt; font-variation-settings:`;
       for (let i = 0; i < axisTags.length; i++) {
         style += ` '${axisTags[i]}' ${axisCoordinates[i]},`;
       }
@@ -654,11 +677,12 @@ function axesCombos(axes) {
             }
           }
           solved.forEach((ax) => {
-            let name = `${this.newFamily}:"${ax.axes.map((a) => a.tag).join(",")}@${ax.axes.map((a) => a.coords).join(",")}"`;
-            let newFamily = new FontTag(name, this.currentCategory, ax.score)
-            let tagKey = `${newFamily.name},${newFamily.category}`;
+            let axes = `"${ax.axes.map((a) => a.tag).join(",")}@${ax.axes.map((a) => a.coords).join(",")}"`;
+            axes = axes.replaceAll('"', '')
+            let newFamily = new FontTag(this.newFamily, axes, this.currentCategory, ax.score);
+            let tagKey = `${newFamily.name},${axes},${newFamily.category}`;
             if (this.seen.has(tagKey)) {
-              alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);
+              alert(`Tag "${newFamily},${axes}" already exists in "${this.currentCategory}"`);
               return; 
             }
             this.seen.add(tagKey)
@@ -667,8 +691,8 @@ function axesCombos(axes) {
           })
           this.newAxes = [];
         } else {
-          let newFamily = new FontTag(this.newFamily, this.currentCategory, score=this.newWeight);
-            let tagKey = `${newFamily.name},${newFamily.category}`;
+          let newFamily = new FontTag(this.newFamily, "", this.currentCategory, score=this.newWeight);
+            let tagKey = `${newFamily.name},,${newFamily.category}`;
           if (this.seen.has(tagKey)) {
             alert(`Tag "${newFamily.name}" already exists in "${this.currentCategory}"`);
             return;

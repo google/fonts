@@ -20,8 +20,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
-  commit: "f68dfcddd341aaabe53aa924d634122bb8bf999d"
-  config_yaml: "80sfade/sources/config.yaml"
+  commit: "8064988f06c4126e1cf1596baab46f9aeb626056"
+  config_yaml: "80sfade/sources/80sfade.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

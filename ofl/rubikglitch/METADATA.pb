@@ -20,8 +20,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
-  commit: "50fec619b373f40dfd839408e77c5b3a616e972d"
-  config_yaml: "glitch/sources/config.yaml"
+  commit: "70c5affdb044fecf4eb4988c320b8bfa8e8005c6"
+  config_yaml: "glitch/sources/glitch.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

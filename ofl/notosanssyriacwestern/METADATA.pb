@@ -23,8 +23,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/syriac"
-  commit: "0be4b71ccc6f9477c3be18d151642eb7d70dcf63"
-  archive_url: "https://github.com/notofonts/syriac/releases/download/NotoSansSyriacWestern-v3.000/NotoSansSyriacWestern-v3.000.zip"
+  commit: "4b57be25d8e7399e7214d32fcb648c53a2493676"
+  archive_url: "https://github.com/notofonts/syriac/releases/download/NotoSansSyriacWestern-v3.001/NotoSansSyriacWestern-v3.001.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"

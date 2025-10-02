@@ -31,6 +31,8 @@ jobs:
         run: pip3 install 'git+https://github.com/googlefonts/gftools'
       - name: Setup duckdb
         run: curl https://install.duckdb.org | sh
+        env:
+          DUCKDB_VERSION: "1.3.2"
       - name: Grab fontspector database
         run: |
           mkdir -p ~/.ssh/

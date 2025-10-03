@@ -21,7 +21,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "bc320bc8232696b7a88109217eee5ca1194aabbb"
-  config_yaml: "storm/sources/config.yaml"
+  config_yaml: "storm/sources/storm.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

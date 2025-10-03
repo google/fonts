@@ -36,22 +36,27 @@
         <div>
             <label for="wght">Weight (wght):</label>
             <input type="range" id="wght" name="wght" min="300" max="1000" value="400">
+            <span id="wght-value">400</span>
         </div>
         <div>
             <label for="slnt">Slant (slnt):</label>
             <input type="range" id="slnt" name="slnt" min="-15" max="0" value="0">
+            <span id="slnt-value">0</span>
         </div>
         <div>
             <label for="CASL">Casual (CASL):</label>
             <input type="range" id="CASL" name="CASL" min="0" max="1" step="0.01" value="0">
+            <span id="CASL-value">0</span>
         </div>
         <div>
             <label for="CRSV">Cursive (CRSV):</label>
             <input type="range" id="CRSV" name="CRSV" min="0" max="1" step="0.01" value="0">
+            <span id="CRSV-value">0</span>
         </div>
         <div>
             <label for="MONO">Monospace (MONO):</label>
             <input type="range" id="MONO" name="MONO" min="0" max="1" step="0.01" value="0">
+            <span id="MONO-value">0</span>
         </div>
         <p><span class="recursive" id="text">Hamburgevons</span></p>
         <b>Results</b>
@@ -218,6 +223,14 @@
             const CASL = document.getElementById('CASL').value;
             const CRSV = document.getElementById('CRSV').value;
             const MONO = document.getElementById('MONO').value;
+            
+            // Update coordinate value displays
+            document.getElementById('wght-value').textContent = wght;
+            document.getElementById('slnt-value').textContent = slnt;
+            document.getElementById('CASL-value').textContent = CASL;
+            document.getElementById('CRSV-value').textContent = CRSV;
+            document.getElementById('MONO-value').textContent = MONO;
+            
             const sliderCoords = {"wght": Number(wght), "slnt": Number(slnt), "CASL": Number(CASL), "CRSV": Number(CRSV), "MONO": Number(MONO)};
             textElement.style.fontVariationSettings = `"wght" ${wght}, "slnt" ${slnt}, "CASL" ${CASL}, "CRSV" ${CRSV}, "MONO" ${MONO}`;
             const results = getTags(sliderCoords, tags)

@@ -22,7 +22,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
-  commit: "112698043433bee2d652b8fa1943ea2c19854550"
+  commit: "6555502a8b48b1aa3b8c773d34a871a9fb84a2b8"
   config_yaml: "maps/sources/config.yaml"
   files {
     source_file: "OFL.txt"

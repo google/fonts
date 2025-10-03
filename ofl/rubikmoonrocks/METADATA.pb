@@ -20,8 +20,8 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
-  commit: "50fec619b373f40dfd839408e77c5b3a616e972d"
-  config_yaml: "moonrocks/sources/config.yaml"
+  commit: "4d7ed915105cea35a8aba9399480ad020bb74d08"
+  config_yaml: "moonrocks/sources/moonrocks.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

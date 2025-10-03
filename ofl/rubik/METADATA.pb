@@ -35,7 +35,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/rubik"
-  commit: "e337a5f69a9bea30e58d05bd40184d79cc099628"
+  commit: "9167c98fa8699d75ee51769eba20d81beb16bcb5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

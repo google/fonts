@@ -21,7 +21,7 @@ subsets: "menu"
 source {
   repository_url: "https://github.com/NaN-xyz/Rubik-Filtered"
   commit: "0c9d20f75e69991e2f3b075d978d9e23844027b6"
-  config_yaml: "pixels/sources/config.yaml"
+  config_yaml: "pixels/sources/pixels.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

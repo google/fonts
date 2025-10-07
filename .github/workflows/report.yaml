@@ -81,6 +81,7 @@ jobs:
           cp ../tags.html build/tags.html
           curl https://fonts.google.com/metadata/fonts > build/family_data.json
           cp ../vf-tag-demo2.html build/vf-tag-demo2.html
+          cp ../vf-tag-demo-linear.html build/vf-tag-demo-linear.html
           cp ../quality-tag-review.html build/quality-tag-review.html
         working-directory: .ci/dashboard
       - name: Copy JSON files we need to well-known names

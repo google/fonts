@@ -36,6 +36,7 @@ axes {
 source {
   repository_url: "https://github.com/googlefonts/RobotoMono"
   commit: "111eb14e367888c9374da4da0b018e72cf8ac46d"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "fonts/variable/RobotoMono[wght].ttf"
     dest_file: "RobotoMono[wght].ttf"

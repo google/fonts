@@ -20,7 +20,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/aaronbell/CactusSerif"
-  commit: "eb5a6eaf6a0f6d3d9ff63b64605c0bdbb9fec82b"
+  commit: "a267f9f32087eb9e6a9203c734cb952a64bc05be"
   config_yaml: "source/config.yaml"
 }
 primary_script: "Hant"

@@ -20,8 +20,8 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/MoonlitOwen/ChocolateSans"
-  commit: "0446a76d969f9788b0b339a9923f6541699df903"
-  config_yaml: "sources/project.yaml"
+  commit: "624ecb8064d34258383bcbb08521f9fa2af00124"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "license.md"
     dest_file: "OFL.txt"

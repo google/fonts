@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/notofonts/khojki"
-  commit: "02e25bf94664812076be4fa7dd1d688641e4bf8a"
+  commit: "85ad2f40806bff108a62e75ea958e4d77921e86c"
   config_yaml: "sources/config-sans-khojki.yaml"
   archive_url: "https://github.com/notofonts/khojki/releases/download/NotoSansKhojki-v2.005/NotoSansKhojki-v2.005.zip"
   files {

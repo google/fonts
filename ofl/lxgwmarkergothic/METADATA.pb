@@ -24,7 +24,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/aaronbell/LxgwMarkerGothic"
   commit: "fe8357007423a983e696d2d3ff545ac9bb1bb89e"
-  config_yaml: "sources/project.yaml"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

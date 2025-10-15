@@ -1,17 +1,20 @@
 # New
 ofl/kedebideri # https://github.com/google/fonts/pull/9820
-ofl/momosignature # https://github.com/google/fonts/pull/9876
-ofl/momotrustdisplay # https://github.com/google/fonts/pull/9849
-ofl/momotrustsans # https://github.com/google/fonts/pull/9829
-ofl/notosanssyriacwestern # https://github.com/google/fonts/pull/9416
+# Deleted: ofl/sciencegothic # https://github.com/google/fonts/pull/9728
 
 # Upgrade
-ofl/cossettetexte # https://github.com/google/fonts/pull/9890
-ofl/cossettetitre # https://github.com/google/fonts/pull/9889
+ofl/librebaskerville # https://github.com/google/fonts/pull/9909
+ofl/notonaskharabic # https://github.com/google/fonts/pull/9915
+ofl/notosanssinhala # https://github.com/google/fonts/pull/9914
+ofl/zain # https://github.com/google/fonts/pull/9910
 
 # Designer profile
-catalog/designers/typeassociates # https://github.com/google/fonts/pull/9848
+# Deleted: catalog/designers/brandonbuerkle # https://github.com/google/fonts/pull/9917
+catalog/designers/koto # https://github.com/google/fonts/pull/9903
+# Deleted: catalog/designers/kotostudio # https://github.com/google/fonts/pull/9903
+catalog/designers/thomasphinney # https://github.com/google/fonts/pull/9912
+catalog/designers/vassilkateliev # https://github.com/google/fonts/pull/9913
 
-# Metadata / Description / License
-ofl/parastoo # https://github.com/google/fonts/pull/9837
-ofl/kedebideri # https://github.com/google/fonts/pull/9895
+# Sample texts
+lang/languages/zag_Berf.textproto # https://github.com/google/fonts/pull/9819
+lang/scripts/Berf.textproto # https://github.com/google/fonts/pull/9819

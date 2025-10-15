@@ -28,9 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/sinhala"
-  commit: "66e5a2ed9797e575222d6e7c5b3710c7bf68be79"
-  config_yaml: "sources/config-sans-sinhala.yaml"
-  archive_url: "https://github.com/notofonts/sinhala/releases/download/NotoSansSinhala-v2.006/NotoSansSinhala-v2.006.zip"
+  commit: "032355e96de5bac83fd996535af3d13b1fbfeccf"
+  archive_url: "https://github.com/notofonts/sinhala/releases/download/NotoSansSinhala-v3.000/NotoSansSinhala-v3.000.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"
@@ -48,9 +47,10 @@ source {
     dest_file: "NotoSansSinhala[wdth,wght].ttf"
   }
   branch: "main"
+  config_yaml: "sources/config-sans-sinhala.yaml"
 }
 is_noto: true
-languages: "pi_Sinh"  # Pali, Sinhala
-languages: "sa_Sinh"  # Sanskrit, Sinhala
+languages: "pi_Sinh"  # Pali (Sinhala)
+languages: "sa_Sinh"  # Sanskrit (Sinhala)
 languages: "si_Sinh"  # Sinhala
 primary_script: "Sinh"

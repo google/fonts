@@ -20,8 +20,7 @@ subsets: "symbols"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/RosaWagner/Borel"
-  commit: "dd3d42ca23056f23889e31cde0af0081da3d847d"
-  config_yaml: "Borel/sources/config.yaml"
+  commit: "4d7a2639ee1f3fb55bcbbc1c4e61e33ffb2e6885"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -31,6 +30,7 @@ source {
     dest_file: "Borel-Regular.ttf"
   }
   branch: "main"
+  config_yaml: "Borel/sources/config.yaml"
 }
 stroke: "SANS_SERIF"
 classifications: "HANDWRITING"

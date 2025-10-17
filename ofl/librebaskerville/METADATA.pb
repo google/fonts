@@ -35,7 +35,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/impallari/Libre-Baskerville"
-  commit: "54fc9db66e87fde72cb2b8cf3e51b366a6336562"
+  commit: "9852edf75ece3af500a5ec61245f94788c3d4633"
   files {
     source_file: "legacy/version-1.051 - African Pri/fonts/ttf/LibreBaskerville-Regular.ttf"
     dest_file: "LibreBaskerville-Regular.ttf"

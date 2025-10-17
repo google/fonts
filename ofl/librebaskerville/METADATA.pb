@@ -7,7 +7,7 @@ fonts {
   name: "Libre Baskerville"
   style: "normal"
   weight: 400
-  filename: "LibreBaskerville-Regular.ttf"
+  filename: "LibreBaskerville[wght].ttf"
   post_script_name: "LibreBaskerville-Regular"
   full_name: "Libre Baskerville Regular"
   copyright: "Copyright 2012 The Libre Baskerville Project Authors (https://github.com/impallari/Libre-Baskerville)"
@@ -16,37 +16,29 @@ fonts {
   name: "Libre Baskerville"
   style: "italic"
   weight: 400
-  filename: "LibreBaskerville-Italic.ttf"
+  filename: "LibreBaskerville-Italic[wght].ttf"
   post_script_name: "LibreBaskerville-Italic"
   full_name: "Libre Baskerville Italic"
-  copyright: "Copyright 2012 The Libre Baskerville Project Authors (https://github.com/impallari/Libre-Baskerville)"
-}
-fonts {
-  name: "Libre Baskerville"
-  style: "normal"
-  weight: 700
-  filename: "LibreBaskerville-Bold.ttf"
-  post_script_name: "LibreBaskerville-Bold"
-  full_name: "Libre Baskerville Bold"
   copyright: "Copyright 2012 The Libre Baskerville Project Authors (https://github.com/impallari/Libre-Baskerville)"
 }
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
 source {
   repository_url: "https://github.com/impallari/Libre-Baskerville"
-  commit: "9852edf75ece3af500a5ec61245f94788c3d4633"
+  commit: "a658d05478fc33cd5b7fa1129258f498553b5532"
   files {
-    source_file: "legacy/version-1.051 - African Pri/fonts/ttf/LibreBaskerville-Regular.ttf"
-    dest_file: "LibreBaskerville-Regular.ttf"
+    source_file: "fonts/variable/LibreBaskerville[wght].ttf"
+    dest_file: "LibreBaskerville[wght].ttf"
   }
   files {
-    source_file: "legacy/version-1.051 - African Pri/fonts/ttf/LibreBaskerville-Italic.ttf"
-    dest_file: "LibreBaskerville-Italic.ttf"
-  }
-  files {
-    source_file: "legacy/version-1.051 - African Pri/fonts/ttf/LibreBaskerville-Bold.ttf"
-    dest_file: "LibreBaskerville-Bold.ttf"
+    source_file: "fonts/variable/LibreBaskerville-Italic[wght].ttf"
+    dest_file: "LibreBaskerville-Italic[wght].ttf"
   }
   files {
     source_file: "OFL.txt"

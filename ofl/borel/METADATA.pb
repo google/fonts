@@ -20,8 +20,15 @@ subsets: "symbols"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/RosaWagner/Borel"
-  commit: "dd3d42ca23056f23889e31cde0af0081da3d847d"
-  config_yaml: "Borel/sources/config.yaml"
+  commit: "68b8266ec6b70c4753b46753c8b103d2ee50b7c8"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Borel/fonts/ttf/Borel-Regular.ttf"
+    dest_file: "Borel-Regular.ttf"
+  }
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

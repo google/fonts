@@ -31,7 +31,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/impallari/Libre-Baskerville"
-  commit: "a658d05478fc33cd5b7fa1129258f498553b5532"
+  commit: "d20160cfa0ac4c532327f85b3ca4054acf92ed38"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "fonts/variable/LibreBaskerville[wght].ttf"
     dest_file: "LibreBaskerville[wght].ttf"

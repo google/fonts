@@ -23,6 +23,7 @@ axes {
 source {
   repository_url: "https://github.com/DylanYoungKoto/Stack-Sans"
   commit: "b9f1dbd88aa25563ed2ea60aa14ec4436e0c8015"
+  config_yaml: "sources/config-notch.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

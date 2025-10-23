@@ -21,6 +21,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/RosaWagner/Borel"
   commit: "68b8266ec6b70c4753b46753c8b103d2ee50b7c8"
+  config_yaml: "Borel/sources/config.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

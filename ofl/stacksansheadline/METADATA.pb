@@ -23,6 +23,7 @@ axes {
 source {
   repository_url: "https://github.com/DylanYoungKoto/Stack-Sans"
   commit: "4b62a2ddf8c2ff3bb1c31bfe97c8fa3aab26a0cd"
+  config_yaml: "sources/config-headline.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

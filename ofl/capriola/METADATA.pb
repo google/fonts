@@ -24,6 +24,7 @@ axes {
 source {
   repository_url: "https://github.com/SorkinType/Capriola-VF"
   commit: "bc902b75ef32988b6c2dc97183b44c6c307d3081"
+  config_yaml: "Capriola-VF/sources/config.yaml"
   files {
     source_file: "fonts/variable/Capriola[wght].ttf"
     dest_file: "Capriola[wght].ttf"

@@ -98,4 +98,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/noponies/Kulim-Park"
+  commit: "e080ee92d3f56075f641d0c988a480c0590a4426"
 }

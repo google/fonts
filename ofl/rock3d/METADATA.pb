@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/shibuyafont/3d-rock-font"
+  commit: "04e20f0b2387a7619f8e9e8b06cb9b5337f6a2fe"
   files {
     source_file: "fonts/ttf/Rock3D-Regular.ttf"
     dest_file: "Rock3D-Regular.ttf"

@@ -17,7 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/domija/Aboreto"
-  commit: "07795db7fb5cf9029f1bac1ae0b130bbae6c5feb"
+  commit: "6e64ee7e7ff1c53220d96b88a8d4bf2db9f76735"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

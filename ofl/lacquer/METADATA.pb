@@ -16,4 +16,5 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/Lacquer-Font/Lacquer"
+  commit: "efffa0e54fbf2a6cd5e1b3909a9a8082cab61b5a"
 }

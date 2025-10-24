@@ -18,7 +18,8 @@ subsets: "menu"
 subsets: "telugu"
 source {
   repository_url: "https://github.com/googlefonts/gidugu"
-  commit: "368be453c9ff3a999f47fb961dce0019d12a4b17"
+  commit: "834c5de1862debc558e536377bc3ebc1c35bf958"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "fonts/ttf/Gidugu-Regular.ttf"
     dest_file: "Gidugu-Regular.ttf"

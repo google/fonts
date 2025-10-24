@@ -32,4 +32,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/RingoSeeber/Petrona"
+  commit: "03d4b6dd8af6ecf3a51d3b126bd64e491cb01d18"
 }

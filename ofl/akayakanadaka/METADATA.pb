@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/vaishnavimurthy/Akaya-Kanadaka"
+  commit: "24f25461789ee8642e184b43dd6d5d04ea7f49d1"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

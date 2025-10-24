@@ -36,6 +36,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeNetwork/Alegreya"
+  commit: "1dd6b28b57c50e3168db1cbbb8086e7978abcfbf"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

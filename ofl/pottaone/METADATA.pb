@@ -19,6 +19,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/go108go/Potta"
+  commit: "574738ac030a0551d675056dc56166fddbcad53c"
   files {
     source_file: "fonts/ttf/PottaOne-Regular.ttf"
     dest_file: "PottaOne-Regular.ttf"

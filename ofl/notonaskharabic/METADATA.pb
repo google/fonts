@@ -98,7 +98,6 @@ languages: "mfa_Arab"  # Pattani Malay
 languages: "min_Arab"  # Minangkabau (Arabic)
 languages: "mis_Arab"  # Uncoded languages, Arabic
 languages: "mrw_Arab"  # Maranao (Arabic)
-languages: "ms_Arab"
 languages: "mvy_Arab"  # Indus Kohistani
 languages: "mzn_Arab"  # Mazanderani
 languages: "ota_Arab"  # Ottoman Turkish, Arabic

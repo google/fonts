@@ -1,5 +1,5 @@
 name: "Momo Trust Sans"
-designer: "TYPE Associates, DuyN, Phuc Tran, Bao Truong"
+designer: "Type Associates"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-09-12"

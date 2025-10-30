@@ -32,6 +32,7 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/Etcetera-Type-Co/Imbue"
+  commit: "41b16f3fd61d33cacad0e579c35ef9566817184b"
   files {
     source_file: "fonts/variable/Imbue[opsz,wght].ttf"
     dest_file: "Imbue[opsz,wght].ttf"

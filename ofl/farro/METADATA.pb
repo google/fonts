@@ -44,4 +44,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/grayscaleltd/farro"
+  commit: "fa80aadd0c61b6e76d95870579d0650f9d91df76"
 }

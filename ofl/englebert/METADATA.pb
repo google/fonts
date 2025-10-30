@@ -17,6 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/librefonts/englebert"
+  commit: "0b03ab09eab75a39c93f8fb0432459a7dca74176"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

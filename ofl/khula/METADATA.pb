@@ -54,5 +54,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/erinmclaughlin/Khula"
+  commit: "1389c0184856d690ea489f86e84c546e4473722d"
 }
 primary_script: "Deva"

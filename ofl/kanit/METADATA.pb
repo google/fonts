@@ -172,5 +172,6 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/kanit"
+  commit: "467dfe842185681d8042cd608b8291199dd37cda"
 }
 primary_script: "Thai"

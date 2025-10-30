@@ -118,5 +118,6 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/Krub"
+  commit: "c568bc61bd5b8af816057893e527aa55d6f08908"
 }
 primary_script: "Thai"

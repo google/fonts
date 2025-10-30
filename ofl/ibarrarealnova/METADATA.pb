@@ -31,6 +31,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/googlefonts/ibarrareal"
+  commit: "7ae92a27f13f8e187db49312e7111041d1fa2a17"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

@@ -72,5 +72,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/typeoff/martel_sans"
+  commit: "7a536b7ce5f6059665d45bfff7c24bee414c1fd1"
 }
 primary_script: "Deva"

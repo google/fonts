@@ -20,5 +20,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/kurale"
+  commit: "ff36a9f75711afc415a9a9f96968861d22d878cf"
 }
 primary_script: "Deva"

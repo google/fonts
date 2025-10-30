@@ -72,5 +72,6 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/typeoff/martel"
+  commit: "ae74b972c6870d296e1a2693c91006beba8c4801"
 }
 primary_script: "Deva"

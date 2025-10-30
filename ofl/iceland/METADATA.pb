@@ -16,6 +16,7 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/cyrealtype/Iceland"
+  commit: "bb43144b50825221060747ddba7b23bc05e7c960"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

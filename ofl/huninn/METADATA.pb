@@ -22,4 +22,6 @@ primary_script: "Hant"
 
 source {
   repository_url: "https://github.com/justfont/Huninn"
+  commit: "2f278099d0a6fdf77593c30bd6e4a44859800ee2"
+  config_yaml: "sources/config.yaml"
 }

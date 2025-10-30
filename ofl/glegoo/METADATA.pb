@@ -27,5 +27,6 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/etunni/glegoo"
+  commit: "a6b0a10abfaf1b88feb4a9f9eb731beefbb4bbb8"
 }
 stroke: "SLAB_SERIF"

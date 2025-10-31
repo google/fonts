@@ -28,7 +28,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playpen-Sans"
-  commit: "c85bb380b56b2009e7c9bff11f573a3028034161"
+  commit: "354fed4e5d1397aa3a092e6baa41b0064c8340b5"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -38,7 +38,7 @@ source {
     dest_file: "PlaypenSans[wght].ttf"
   }
   branch: "main"
-  config_yaml: "sources/config.yml"
+  config_yaml: "sources/config-LGC.yaml"
 }
 minisite_url: "https://www.type-together.com/making-playpen-sans"
 stroke: "SANS_SERIF"

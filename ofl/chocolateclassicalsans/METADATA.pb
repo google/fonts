@@ -21,7 +21,7 @@ subsets: "vietnamese"
 source {
   repository_url: "https://github.com/MoonlitOwen/ChocolateSans"
   commit: "624ecb8064d34258383bcbb08521f9fa2af00124"
-  config_yaml: "sources/config.yaml"
+  config_yaml: "source/config.yaml"
   files {
     source_file: "license.md"
     dest_file: "OFL.txt"

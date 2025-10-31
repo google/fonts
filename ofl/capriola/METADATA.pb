@@ -7,11 +7,35 @@ fonts {
   name: "Capriola"
   style: "normal"
   weight: 400
-  filename: "Capriola-Regular.ttf"
+  filename: "Capriola[wght].ttf"
   post_script_name: "Capriola-Regular"
   full_name: "Capriola Regular"
-  copyright: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Capriola\"."
+  copyright: "Copyright 2025 The Capriola Project Authors (https://github.com/SorkinType/Capriola-VF)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 300.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/SorkinType/Capriola-VF"
+  commit: "bc902b75ef32988b6c2dc97183b44c6c307d3081"
+  config_yaml: "Capriola-VF/sources/config.yaml"
+  files {
+    source_file: "fonts/variable/Capriola[wght].ttf"
+    dest_file: "Capriola[wght].ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "documentation/DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "main"
+}

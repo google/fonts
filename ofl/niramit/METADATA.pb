@@ -118,5 +118,6 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/Niramit"
+  commit: "1b5fd503662d7fb259b0d09ba714d7dace5cefff"
 }
 primary_script: "Thai"

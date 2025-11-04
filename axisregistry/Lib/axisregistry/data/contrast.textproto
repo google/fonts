@@ -3,7 +3,7 @@ display_name: "Contrast"
 min_value: -100.0
 default_value: 0.0
 max_value: 100.0
-precision: 1
+precision: 0
 fallback {
   name: "Reversed"
   value: -100.0

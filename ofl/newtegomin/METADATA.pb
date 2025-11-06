@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/nagamaki008/NewTegomin"
+  commit: "955803d27527edbfb9a416f765b6144215c250df"
   files {
     source_file: "fonts/ttf/NewTegomin-Regular.ttf"
     dest_file: "NewTegomin-Regular.ttf"

@@ -85,9 +85,9 @@ jobs:
           cp ../quality-tag-review.html build/quality-tag-review.html
           cp ../family_features.json build/family_features.json
           cp ../familyexplorer.html build/familyexplorer.html
-          cp ../../ofl  build/ofl/
-          cp ../../apache  build/apache/
-          cp ../../ufl  build/ufl/
+          cp -r ../../ofl  build/ofl/
+          cp -r ../../apache  build/apache/
+          cp -r ../../ufl  build/ufl/
         working-directory: .ci/dashboard
       - name: Copy JSON files we need to well-known names
         run: |

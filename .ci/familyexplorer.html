@@ -126,6 +126,10 @@
 						<div class="section-title">Tags</div>
 						<div class="toolbar">
 							<input class="search" type="search" v-model="tagQuery" placeholder="Search tags…" />
+							<div class="segmented" role="tablist" aria-label="Tag match mode">
+								<button :class="{active: tagMatchMode==='any'}" @click="tagMatchMode='any'; persistToUrl()">Any</button>
+								<button :class="{active: tagMatchMode==='all'}" @click="tagMatchMode='all'; persistToUrl()">All</button>
+							</div>
 							<button class="btn muted" @click="clearTags" :disabled="selectedTags.size===0">Clear</button>
 						</div>
 						<div class="chip-list" aria-label="Selectable tags">
@@ -142,6 +146,9 @@
 						<div class="section-title">OpenType Features</div>
 						<div class="toolbar">
 							<input class="search" type="search" v-model="featureQuery" placeholder="Search features (e.g. smcp, ss01)…" />
+								<button :class="{active: featureMatchMode==='any'}" @click="featureMatchMode='any'; persistToUrl()">Any</button>
+								<button :class="{active: featureMatchMode==='all'}" @click="featureMatchMode='all'; persistToUrl()">All</button>
+							</div>
 							<button class="btn muted" @click="clearFeatures" :disabled="selectedFeatures.size===0">Clear</button>
 						</div>
 						<div class="chip-list" aria-label="Selectable OpenType features">

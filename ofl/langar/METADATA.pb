@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/typeland/Langar"
+  commit: "82c844e60ab055cef1169f7825bc119ea3bd5090"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

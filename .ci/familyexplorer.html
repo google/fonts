@@ -147,6 +147,7 @@
 						<div class="section-title">OpenType Features</div>
 						<div class="toolbar">
 							<input class="search" type="search" v-model="featureQuery" placeholder="Search features (e.g. smcp, ss01)…" />
+							<div class="segmented" role="tablist" aria-label="Feature match mode">
 								<button :class="{active: featureMatchMode==='any'}" @click="featureMatchMode='any'; persistToUrl()">Any</button>
 								<button :class="{active: featureMatchMode==='all'}" @click="featureMatchMode='all'; persistToUrl()">All</button>
 							</div>

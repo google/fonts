@@ -83,6 +83,8 @@ jobs:
           cp ../vf-tag-demo2.html build/vf-tag-demo2.html
           cp ../vf-tag-demo-linear.html build/vf-tag-demo-linear.html
           cp ../quality-tag-review.html build/quality-tag-review.html
+          cp ../family_features.json build/family_features.json
+          cp ../familyexplorer.html build/familyexplorer.html
         working-directory: .ci/dashboard
       - name: Copy JSON files we need to well-known names
         run: |

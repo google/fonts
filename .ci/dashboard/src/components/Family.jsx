@@ -41,7 +41,6 @@ export function RenderFamily({family, directory, allResults, metadata, servers, 
   );
   }
   let repo_metadata = metadata[directory];
-  let dev_metadata = servers?.dev?.metadata[family] || {};
   let sandbox_metadata = servers?.sandbox?.metadata[family] || {};
   let production_metadata = servers?.production?.metadata[family] || {};
 
@@ -53,7 +52,6 @@ export function RenderFamily({family, directory, allResults, metadata, servers, 
         <tr><th>Date added</th> <td>{new Date(repo_metadata.dateAdded).toLocaleDateString()}</td></tr>
         <tr><th>Last updated</th> <td>{lastUpdated}</td></tr>
         <tr><th>Repo version</th> <td>{repo_metadata.version}</td></tr>
-        <tr><th>Dev version</th> <td class="dev">{servers?.dev.families[family]?.version || "None"}</td></tr>
         <tr><th>Sandbox version</th> <td class="sandbox">{servers?.sandbox.families[family]?.version || "None"}</td></tr>
         <tr ><th>Production version</th> <td class="production">{servers?.production.families[family]?.version || "None"}</td></tr>
         { pullsForThisDirectory.length > 0 ?
@@ -72,7 +70,6 @@ export function RenderFamily({family, directory, allResults, metadata, servers, 
 
       {CompareMetadata({
         repo: repo_metadata,
-        dev: dev_metadata,
         sandbox: sandbox_metadata,
         production: production_metadata,
       })}
@@ -101,10 +98,9 @@ export function RenderFamily({family, directory, allResults, metadata, servers, 
   </div>;
 }
 
-function CompareMetadata({repo, dev, sandbox, production}) {
+function CompareMetadata({repo, sandbox, production}) {
   let allKeys = new Set([
     ...Object.keys(repo),
-    ...Object.keys(dev),
     ...Object.keys(sandbox),
     ...Object.keys(production),
   ]);
@@ -126,18 +122,15 @@ function CompareMetadata({repo, dev, sandbox, production}) {
     return value !== undefined && value !== null && value !== '';
   };
   let allEmpty = (key) => {
-    return !truthy(repo[key]) && !truthy(dev[key]) && !truthy(sandbox[key]) && !truthy(production[key]);
+    return !truthy(repo[key]) && !truthy(sandbox[key]) && !truthy(production[key]);
   };
-  let servers = { "repo": repo, "dev": dev, "sandbox": sandbox, "production": production };
+  let servers = { "repo": repo, "sandbox": sandbox, "production": production };
   let furthest = (serverlist) => {
     if (serverlist.includes("production")) {
       return "production";
     }
     if (serverlist.includes("sandbox")) {
       return "sandbox";
-    }
-    if (serverlist.includes("dev")) {
-      return "dev";
     }
     return "repo";
   }
@@ -174,10 +167,8 @@ function CompareMetadata({repo, dev, sandbox, production}) {
 
 export function hasVersionDifference(family, metadata, servers) {
     let repoVersion = metadata[family]?.version?.split(";")[0];
-    let devVersion = servers?.dev?.families[family]?.version.split(";")[0];
     let sandboxVersion = servers?.sandbox?.families[family]?.version.split(";")[0];
     let productionVersion = servers?.production?.families[family]?.version.split(";")[0];
-    return (repoVersion && repoVersion !== devVersion) ||
-           (sandboxVersion && sandboxVersion !== devVersion) ||
+    return (repoVersion && repoVersion !== sandboxVersion) ||
            (productionVersion && productionVersion !== sandboxVersion);
 }

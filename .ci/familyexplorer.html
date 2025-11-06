@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Google Fonts Family Explorer</title>
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<style>
+		:root {
+			--bg: #f5f5f5;
+			--card: #ffffff;
+			--muted: #6c757d;
+			--border: #dee2e6;
+			--primary: #667eea;
+			--primary-2: #764ba2;
+			--danger: #dc3545;
+		}
+		* { box-sizing: border-box; }
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+			margin: 0;
+			padding: 20px;
+			background: var(--bg);
+			color: #212529;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			background: var(--card);
+			border-radius: 8px;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+			overflow: hidden;
+		}
+		.header {
+			background: linear-gradient(135deg, var(--primary) 0%, var(--primary-2) 100%);
+			color: white;
+			padding: 30px;
+			text-align: center;
+		}
+		.header h1 { margin: 0 0 8px; font-size: 2.2em; font-weight: 300; }
+		.header p { margin: 0; opacity: 0.9; }
+
+		.controls { padding: 20px; background: #f8f9fa; border-bottom: 1px solid var(--border); }
+		.section {
+			background: white;
+			padding: 16px;
+			border-radius: 8px;
+			margin-bottom: 16px;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+		}
+		.section-title { font-weight: 600; color: #495057; margin: 0 0 10px; }
+
+		.row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+		@media (max-width: 900px) { .row { grid-template-columns: 1fr; } }
+
+		.chip-list { display: flex; flex-wrap: wrap; gap: 8px; max-height: 220px; overflow: auto; padding: 8px; border: 1px solid var(--border); border-radius: 6px; background: #f8f9fa; }
+		.chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border: 1px solid var(--border); border-radius: 12px; background: white; font-size: .85em; cursor: pointer; }
+		.chip input { margin: 0; }
+		.chip.selected { background: #e7f3ff; border-color: #b6dcff; }
+		.chip:hover { background: #fff5f5; border-color: var(--danger); }
+
+		.toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+		.btn { padding: 6px 10px; border: 1px solid var(--border); background: white; border-radius: 6px; cursor: pointer; font-size: .9em; }
+		.btn.primary { background: var(--primary); color: white; border-color: var(--primary); }
+		.btn.muted { background: #6c757d; color: white; border-color: #6c757d; }
+		.btn:disabled { opacity: .6; cursor: not-allowed; }
+		.segmented { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+		.segmented button { border: none; background: white; padding: 6px 10px; cursor: pointer; }
+		.segmented button.active { background: #e9ecef; font-weight: 600; }
+
+		.search { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: .95em; }
+		.muted { color: var(--muted); font-size: .9em; }
+
+		.stats { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+		.stat { background: white; padding: 12px 14px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+		.stat .label { color: var(--muted); font-size: .85em; margin-bottom: 4px; }
+		.stat .value { font-weight: 700; font-size: 1.2em; }
+
+		.table-wrap { overflow-x: auto; }
+		table { width: 100%; border-collapse: collapse; font-size: .95em; }
+		th, td { padding: 12px 16px; border-bottom: 1px solid var(--border); text-align: left; }
+		th { background: #f8f9fa; position: sticky; top: 0; z-index: 1; }
+		tr:hover { background: #fafafa; }
+		.family-name { font-weight: 600; color: #495057; font-size: 1.05em; }
+		.font-preview { margin-top: 6px; color: #343a40; }
+		.tag { background: #f8f9fa; border: 1px solid var(--border); border-radius: 12px; padding: 2px 8px; font-size: .75em; margin: 0 6px 6px 0; display: inline-block; }
+
+		.floating-controls { position: fixed; top: 20px; right: 20px; background: white; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,.15); z-index: 5; min-width: 280px; }
+		.floating-controls .group { margin-bottom: 10px; }
+		.floating-controls label { display: block; font-size: .9em; font-weight: 600; color: #495057; margin-bottom: 6px; }
+		.floating-controls .control-input { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: .95em; }
+		.floating-controls .size { display: flex; align-items: center; gap: 10px; }
+		.size input[type="range"] { flex: 1; }
+		.size .val { min-width: 40px; text-align: right; font-weight: 600; color: #495057; }
+
+		.loading, .error, .empty { text-align: center; padding: 60px; }
+		.error { color: var(--danger); }
+	</style>
+	<!-- Preload commonly used APIs -->
+</head>
+<body>
+	<div id="app">
+		<!-- Floating Preview Controls -->
+		<div class="floating-controls">
+			<div class="group">
+				<label>Custom Text</label>
+				<input class="control-input" type="text" v-model="previewText" placeholder="Type to preview…" />
+			</div>
+			<div class="size">
+				<label style="margin:0;">Size</label>
+				<input type="range" min="12" max="96" v-model.number="previewSize" />
+				<span class="val">{{ previewSize }}px</span>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="header">
+				<h1>Google Fonts Family Explorer</h1>
+				<p>Select families by Tags and OpenType features</p>
+			</div>
+
+			<div class="controls">
+				<div class="row">
+					<!-- Tags filter -->
+					<div class="section">
+						<div class="section-title">Tags</div>
+						<div class="toolbar">
+							<input class="search" type="search" v-model="tagQuery" placeholder="Search tags…" />
+							<button class="btn muted" @click="clearTags" :disabled="selectedTags.size===0">Clear</button>
+						</div>
+						<div class="chip-list" aria-label="Selectable tags">
+							<label v-for="tag in filteredTags" :key="tag" class="chip" :class="{selected: selectedTags.has(tag)}">
+								<input type="checkbox" :checked="selectedTags.has(tag)" @change="toggleTag(tag)" />
+								<span>{{ tag }}</span>
+							</label>
+						</div>
+						<div class="muted" style="margin-top:6px;">{{ selectedTags.size }} selected</div>
+					</div>
+
+					<!-- OpenType features filter -->
+					<div class="section">
+						<div class="section-title">OpenType Features</div>
+						<div class="toolbar">
+							<input class="search" type="search" v-model="featureQuery" placeholder="Search features (e.g. smcp, ss01)…" />
+							<button class="btn muted" @click="clearFeatures" :disabled="selectedFeatures.size===0">Clear</button>
+						</div>
+						<div class="chip-list" aria-label="Selectable OpenType features">
+							<label v-for="feat in filteredFeatures" :key="feat" class="chip" :class="{selected: selectedFeatures.has(feat)}">
+								<input type="checkbox" :checked="selectedFeatures.has(feat)" @change="toggleFeature(feat)" />
+								<span>{{ feat }}</span>
+							</label>
+						</div>
+						<div class="muted" style="margin-top:6px;">{{ selectedFeatures.size }} selected</div>
+					</div>
+				</div>
+
+				<div class="section">
+					<div class="stats">
+						<div class="stat">
+							<div class="label">Visible Families</div>
+							<div class="value">{{ filteredFamilies.length }}</div>
+						</div>
+						<div class="stat">
+							<div class="label">Total Families</div>
+							<div class="value">{{ totalFamilies }}</div>
+						</div>
+						<div class="stat">
+							<div class="label">Selected Tags</div>
+							<div class="value">{{ selectedTags.size }}</div>
+						</div>
+						<div class="stat">
+							<div class="label">Selected Features</div>
+							<div class="value">{{ selectedFeatures.size }}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div v-if="loading" class="loading">Loading data…</div>
+			<div v-else-if="error" class="error">{{ error }}</div>
+			<div v-else-if="filteredFamilies.length === 0" class="empty">No families match the current filters.</div>
+			<div v-else class="table-wrap">
+				<table>
+					<thead>
+						<tr>
+							<th style="width: 28%;">Family</th>
+							<th>Preview</th>
+							<th style="width: 30%;">Tags</th>
+							<th style="width: 18%;">Features</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr v-for="fam in filteredFamilies" :key="fam">
+							<td>
+								<div class="family-name">{{ fam }}</div>
+								<div class="muted">{{ fontSourceLabel(fam) }}</div>
+							</td>
+							<td>
+								<div :style="{ fontFamily: cssFontFamily(fam), fontSize: previewSize + 'px' }" class="font-preview">
+									{{ previewText }}
+								</div>
+							</td>
+							<td>
+								<span v-for="tag in (familyTags.get(fam) || [])" :key="fam + tag" class="tag">{{ tag }}</span>
+							</td>
+							<td>
+								<span v-for="feat in (familyFeatures.get(fam) || [])" :key="fam + feat" class="tag">{{ feat }}</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		const { createApp } = Vue;
+
+		createApp({
+			data() {
+				return {
+					loading: true,
+					error: null,
+					// Raw inputs
+					csvText: '',
+					featuresJson: null,
+					// Built data
+					allTags: [], // array of unique tag strings
+					familyTags: new Map(), // Map<family, string[]>
+					familyFeatures: new Map(), // Map<family, string[]>
+					allFeatures: [], // unique features
+					allFamilies: [], // union of families across tags and features
+
+					// Controls
+					previewText: 'The quick brown fox jumps over the lazy dog',
+					previewSize: 24,
+					tagQuery: '',
+					featureQuery: '',
+					tagMatchMode: 'any', // 'any' | 'all'
+					featureMatchMode: 'any', // 'any' | 'all'
+					selectedTags: new Set(),
+					selectedFeatures: new Set(),
+				}
+			},
+			computed: {
+				totalFamilies() { return this.allFamilies.length; },
+				filteredTags() {
+					const q = this.tagQuery.trim().toLowerCase();
+					if (!q) return this.allTags;
+					return this.allTags.filter(t => t.toLowerCase().includes(q));
+				},
+				filteredFeatures() {
+					const q = this.featureQuery.trim().toLowerCase();
+					if (!q) return this.allFeatures;
+					return this.allFeatures.filter(f => f.toLowerCase().includes(q));
+				},
+				filteredFamilies() {
+					const tagSel = Array.from(this.selectedTags);
+					const featSel = Array.from(this.selectedFeatures);
+
+					return this.allFamilies.filter(fam => {
+						const famTags = this.familyTags.get(fam) || [];
+						const famFeats = this.familyFeatures.get(fam) || [];
+
+						// Tag filter
+						if (tagSel.length) {
+							const tagMatchCount = tagSel.filter(t => famTags.includes(t)).length;
+							const tagOk = this.tagMatchMode === 'all' ? tagMatchCount === tagSel.length : tagMatchCount > 0;
+							if (!tagOk) return false;
+						}
+
+						// Feature filter
+						if (featSel.length) {
+							const featMatchCount = featSel.filter(ft => famFeats.includes(ft)).length;
+							const featOk = this.featureMatchMode === 'all' ? featMatchCount === featSel.length : featMatchCount > 0;
+							if (!featOk) return false;
+						}
+
+						return true;
+					});
+				}
+			},
+			methods: {
+				async init() {
+					try {
+						await Promise.all([
+							this.fetchFamiliesCsv(),
+							this.fetchFamilyFeaturesJson(),
+						]);
+						this.buildDataStructures();
+						this.restoreFromUrl();
+						// Initial font load for visible families (batched)
+						this.batchLoadGoogleFonts(this.filteredFamilies);
+					} catch (e) {
+						this.error = e?.message || String(e);
+						console.error(e);
+					} finally {
+						this.loading = false;
+					}
+				},
+				async fetchFamiliesCsv() {
+					const url = 'https://raw.githubusercontent.com/google/fonts/refs/heads/main/tags/all/families.csv';
+					const res = await fetch(url);
+					if (!res.ok) throw new Error(`Failed to fetch families.csv (${res.status})`);
+					this.csvText = await res.text();
+				},
+				async fetchFamilyFeaturesJson() {
+					// Try multiple relative paths to be robust when opened from /.ci
+					const candidates = [
+						'family_features.json',
+						'../family_features.json',
+						'./family_features.json',
+					];
+					let lastErr = null;
+					for (const p of candidates) {
+						try {
+							const res = await fetch(p);
+							if (res.ok) {
+								this.featuresJson = await res.json();
+								return;
+							} else {
+								lastErr = new Error(`HTTP ${res.status} for ${p}`);
+							}
+						} catch (e) {
+							lastErr = e;
+						}
+					}
+					// If not found, gracefully degrade with empty features
+					console.warn('family_features.json not found. Proceeding without features.', lastErr);
+					this.featuresJson = {};
+				},
+				buildDataStructures() {
+					// 1) Parse CSV into Map<family, Set<tag>> and collect tags
+					const famTagMap = new Map();
+					const tagsSet = new Set();
+					const rows = this.parseCsvRows(this.csvText);
+
+					// Heuristic: find family column (first) and the first column that looks like a tag path (contains '/')
+					let startIndex = 0;
+					// Skip header if it contains non-family keyword
+					if (rows.length && rows[0].length) {
+						const header = rows[0].map(x => (x || '').toLowerCase());
+						if (header.some(h => h.includes('family') || h.includes('tag') || h.includes('category'))) {
+							startIndex = 1;
+						}
+					}
+
+					for (let i = startIndex; i < rows.length; i++) {
+						const cols = rows[i];
+						if (!cols || cols.length === 0) continue;
+						const family = (cols[0] || '').trim();
+						if (!family) continue;
+						// Find a tag-like column
+						let tagPath = '';
+						for (let c = 1; c < cols.length; c++) {
+							const val = (cols[c] || '').trim();
+							if (!val) continue;
+							if (val.includes('/')) { tagPath = val; break; }
+						}
+						if (!tagPath) continue;
+						// Normalize tag path (remove duplicate spaces)
+						const tag = tagPath.replace(/\s+/g, ' ').trim();
+						if (!famTagMap.has(family)) famTagMap.set(family, new Set());
+						famTagMap.get(family).add(tag);
+						tagsSet.add(tag);
+					}
+
+					// 2) Parse features JSON as Map<family, Set<feature>>
+					const famFeatMap = new Map();
+					if (this.featuresJson && typeof this.featuresJson === 'object') {
+						// Accept either {"Family": ["smcp","liga"]} or {families: {"Family": [...]}} forms
+						const src = this.featuresJson.families || this.featuresJson;
+						for (const [family, feats] of Object.entries(src)) {
+							const arr = Array.isArray(feats) ? feats : [];
+							famFeatMap.set(family, new Set(arr.map(f => String(f).trim()).filter(Boolean)));
+						}
+					}
+
+					// 3) Finalize collections
+					this.familyTags = new Map(Array.from(famTagMap.entries(), ([k, v]) => [k, Array.from(v).sort()]));
+					const featureSet = new Set();
+					this.familyFeatures = new Map(Array.from(famFeatMap.entries(), ([k, v]) => {
+						const arr = Array.from(v).sort();
+						arr.forEach(x => featureSet.add(x));
+						return [k, arr];
+					}));
+
+					this.allTags = Array.from(tagsSet).sort((a,b)=>a.localeCompare(b));
+					this.allFeatures = Array.from(featureSet).sort();
+					const names = new Set([...this.familyTags.keys(), ...this.familyFeatures.keys()]);
+					this.allFamilies = Array.from(names).sort((a,b)=>a.localeCompare(b));
+				},
+				parseCsvRows(text) {
+					// Simple CSV parser that handles quotes and commas
+					const rows = [];
+					let row = [];
+					let cur = '';
+					let inQuotes = false;
+					for (let i = 0; i < text.length; i++) {
+						const ch = text[i];
+						if (ch === '"') {
+							if (inQuotes && text[i+1] === '"') { cur += '"'; i++; }
+							else { inQuotes = !inQuotes; }
+						} else if (ch === ',' && !inQuotes) {
+							row.push(cur); cur = '';
+						} else if ((ch === '\n' || ch === '\r') && !inQuotes) {
+							if (cur.length || row.length) { row.push(cur); rows.push(row); }
+							row = []; cur = '';
+							// swallow \r\n pairs
+							if (ch === '\r' && text[i+1] === '\n') i++;
+						} else {
+							cur += ch;
+						}
+					}
+					if (cur.length || row.length) { row.push(cur); rows.push(row); }
+					return rows;
+				},
+				toggleTag(tag) {
+					if (this.selectedTags.has(tag)) this.selectedTags.delete(tag); else this.selectedTags.add(tag);
+					// force reactivity on Set
+					this.selectedTags = new Set(this.selectedTags);
+					this.persistToUrl();
+					this.batchLoadGoogleFonts(this.filteredFamilies);
+				},
+				toggleFeature(feat) {
+					if (this.selectedFeatures.has(feat)) this.selectedFeatures.delete(feat); else this.selectedFeatures.add(feat);
+					this.selectedFeatures = new Set(this.selectedFeatures);
+					this.persistToUrl();
+					this.batchLoadGoogleFonts(this.filteredFamilies);
+				},
+				clearTags() {
+					this.selectedTags.clear();
+					this.selectedTags = new Set();
+					this.persistToUrl();
+					this.batchLoadGoogleFonts(this.filteredFamilies);
+				},
+				clearFeatures() {
+					this.selectedFeatures.clear();
+					this.selectedFeatures = new Set();
+					this.persistToUrl();
+					this.batchLoadGoogleFonts(this.filteredFamilies);
+				},
+				cssFontFamily(name) { return `"${name}", system-ui, -apple-system, Segoe UI, Roboto, sans-serif`; },
+				fontSourceLabel(name) {
+					const hasTags = this.familyTags.has(name);
+					const hasFeats = this.familyFeatures.has(name);
+					if (hasTags && hasFeats) return 'Tags + Features';
+					if (hasTags) return 'Tags only';
+					if (hasFeats) return 'Features only';
+					return '—';
+				},
+				persistToUrl() {
+					const url = new URL(window.location.href);
+					url.search = '';
+					if (this.selectedTags.size) url.searchParams.set('tags', Array.from(this.selectedTags).join('|'));
+					if (this.selectedFeatures.size) url.searchParams.set('features', Array.from(this.selectedFeatures).join('|'));
+					if (this.tagMatchMode !== 'any') url.searchParams.set('tagMode', this.tagMatchMode);
+					if (this.featureMatchMode !== 'any') url.searchParams.set('featMode', this.featureMatchMode);
+					if (this.previewText) url.searchParams.set('text', this.previewText);
+					if (this.previewSize !== 24) url.searchParams.set('size', String(this.previewSize));
+					window.history.replaceState({}, '', url.toString());
+				},
+				restoreFromUrl() {
+					const qs = new URLSearchParams(window.location.search);
+					const tags = qs.get('tags');
+					const feats = qs.get('features');
+					const tagMode = qs.get('tagMode');
+					const featMode = qs.get('featMode');
+					const txt = qs.get('text');
+					const size = qs.get('size');
+					if (tags) this.selectedTags = new Set(tags.split('|').filter(Boolean));
+					if (feats) this.selectedFeatures = new Set(feats.split('|').filter(Boolean));
+					if (tagMode === 'all' || tagMode === 'any') this.tagMatchMode = tagMode;
+					if (featMode === 'all' || featMode === 'any') this.featureMatchMode = featMode;
+					if (txt) this.previewText = txt;
+					if (size && !Number.isNaN(Number(size))) this.previewSize = Number(size);
+				},
+				batchLoadGoogleFonts(families) {
+					// load in small batches to avoid hammering CSS endpoint
+					const BATCH = 16;
+					families = Array.from(new Set(families));
+					const batches = [];
+					for (let i = 0; i < families.length; i += BATCH) batches.push(families.slice(i, i+BATCH));
+					batches.forEach((batch, idx) => setTimeout(() => {
+						batch.forEach(name => this.loadGoogleFont(name));
+					}, idx * 150));
+				},
+				loadGoogleFont(name) {
+					const href = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(name).replace(/%20/g, '+')}:wght@400`;
+					// Skip if already appended
+					if ([...document.styleSheets].some(s => s.href === href)) return;
+					const link = document.createElement('link');
+					link.rel = 'stylesheet';
+					link.href = href;
+					link.onerror = () => console.warn('Failed to load font', name);
+					document.head.appendChild(link);
+				}
+			},
+			watch: {
+				// Keep URL in sync when these change via UI typing
+				previewText() { this.persistToUrl(); },
+				previewSize() { this.persistToUrl(); },
+				tagQuery() { /* no-op */ },
+				featureQuery() { /* no-op */ },
+				filteredFamilies(newList) { this.batchLoadGoogleFonts(newList); }
+			},
+			mounted() {
+				this.init();
+			}
+		}).mount('#app');
+	</script>
+</body>
+</html>
+

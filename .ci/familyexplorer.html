@@ -231,14 +231,13 @@
 					// Raw inputs
 					csvText: '',
 					featuresJson: null,
-					// Built data
-					allTags: [], // array of unique tag strings
-					familyTags: new Map(), // Map<family, string[]>
-					familyFeatures: new Map(), // Map<family, string[]>
-					allFeatures: [], // unique features
-					allFamilies: [], // union of families across tags and features
-
-					// Controls
+				// Built data
+				allTags: [], // array of unique tag strings
+				familyTags: new Map(), // Map<family, string[]>
+				familyFeatures: new Map(), // Map<family, string[]>
+				familyFontUrls: new Map(), // Map<family, string> - GitHub raw URLs
+				allFeatures: [], // unique features
+				allFamilies: [], // union of families across tags and features					// Controls
 					previewText: 'The quick brown fox jumps over the lazy dog',
 					previewSize: 24,
 					tagQuery: '',
@@ -372,19 +371,33 @@
 						tagsSet.add(tag);
 					}
 
-					// 2) Parse features JSON as Map<family, Set<feature>>
-					const famFeatMap = new Map();
-					if (this.featuresJson && typeof this.featuresJson === 'object') {
-						// Accept either {"Family": ["smcp","liga"]} or {families: {"Family": [...]}} forms
-						const src = this.featuresJson.families || this.featuresJson;
-						for (const [family, feats] of Object.entries(src)) {
-							const arr = Array.isArray(feats) ? feats : [];
-							famFeatMap.set(family, new Set(arr.map(f => String(f).trim()).filter(Boolean)));
+				// 2) Parse features JSON as Map<family, Set<feature>>
+				const famFeatMap = new Map();
+				const famUrlMap = new Map();
+				if (this.featuresJson && typeof this.featuresJson === 'object') {
+					// New structure: { features: [...], families: { "Family": { features: [...], fp: "..." } } }
+					const familiesData = this.featuresJson.families || {};
+					const allFeaturesFromJson = this.featuresJson.features || [];
+					
+					for (const [family, data] of Object.entries(familiesData)) {
+						if (data && Array.isArray(data.features)) {
+							famFeatMap.set(family, new Set(data.features.map(f => String(f).trim()).filter(Boolean)));
+						}
+						// Store the font URL
+						if (data && data.fp) {
+							famUrlMap.set(family, data.fp);
 						}
 					}
-
-					// 3) Finalize collections
+					
+					// Use the top-level features array if available
+					if (allFeaturesFromJson.length > 0) {
+						this.allFeatures = allFeaturesFromJson.map(f => String(f).trim()).filter(Boolean).sort();
+					}
+				}					// 3) Finalize collections
 					this.familyTags = new Map(Array.from(famTagMap.entries(), ([k, v]) => [k, Array.from(v).sort()]));
+					this.familyFontUrls = famUrlMap;
+					
+					// Build familyFeatures map and collect unique features if not from JSON
 					const featureSet = new Set();
 					this.familyFeatures = new Map(Array.from(famFeatMap.entries(), ([k, v]) => {
 						const arr = Array.from(v).sort();
@@ -392,8 +405,12 @@
 						return [k, arr];
 					}));
 
+					// If we didn't get allFeatures from JSON, build from collected features
+					if (!this.allFeatures || this.allFeatures.length === 0) {
+						this.allFeatures = Array.from(featureSet).sort();
+					}
+					
 					this.allTags = Array.from(tagsSet).sort((a,b)=>a.localeCompare(b));
-					this.allFeatures = Array.from(featureSet).sort();
 					const names = new Set([...this.familyTags.keys(), ...this.familyFeatures.keys()]);
 					this.allFamilies = Array.from(names).sort((a,b)=>a.localeCompare(b));
 				},
@@ -483,24 +500,42 @@
 					if (size && !Number.isNaN(Number(size))) this.previewSize = Number(size);
 				},
 				batchLoadGoogleFonts(families) {
-					// load in small batches to avoid hammering CSS endpoint
+					// load in small batches to avoid hammering requests
 					const BATCH = 16;
 					families = Array.from(new Set(families));
 					const batches = [];
 					for (let i = 0; i < families.length; i += BATCH) batches.push(families.slice(i, i+BATCH));
 					batches.forEach((batch, idx) => setTimeout(() => {
-						batch.forEach(name => this.loadGoogleFont(name));
+						batch.forEach(name => this.loadFontFromGitHub(name));
 					}, idx * 150));
 				},
-				loadGoogleFont(name) {
-					const href = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(name).replace(/%20/g, '+')}:wght@400`;
-					// Skip if already appended
-					if ([...document.styleSheets].some(s => s.href === href)) return;
-					const link = document.createElement('link');
-					link.rel = 'stylesheet';
-					link.href = href;
-					link.onerror = () => console.warn('Failed to load font', name);
-					document.head.appendChild(link);
+				loadFontFromGitHub(name) {
+					// Check if font URL exists in our map
+					const fontUrl = this.familyFontUrls.get(name);
+					if (!fontUrl) {
+						console.warn('No font URL found for', fontUrl);
+						return;
+					}
+					
+					// Create a unique ID for this font-face rule
+					const fontFaceId = `font-face-${name.replace(/\s+/g, '-')}`;
+					
+					// Skip if already loaded
+					if (document.getElementById(fontFaceId)) return;
+					
+					// Create @font-face rule
+					const style = document.createElement('style');
+					style.id = fontFaceId;
+					style.textContent = `
+						@font-face {
+							font-family: "${name}";
+							src: url("${fontUrl}") format("truetype");
+							font-weight: 100 900;
+							font-stretch: 25% 200%;
+							font-style: normal;
+						}
+					`;
+					document.head.appendChild(style);
 				}
 			},
 			watch: {

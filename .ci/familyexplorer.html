@@ -124,12 +124,13 @@
 					<!-- Tags filter -->
 					<div class="section">
 						<div class="section-title">Tags</div>
-						<div class="toolbar">
+									<div class="toolbar">
 							<input class="search" type="search" v-model="tagQuery" placeholder="Search tags…" />
 							<div class="segmented" role="tablist" aria-label="Tag match mode">
 								<button :class="{active: tagMatchMode==='any'}" @click="tagMatchMode='any'; persistToUrl()">Any</button>
 								<button :class="{active: tagMatchMode==='all'}" @click="tagMatchMode='all'; persistToUrl()">All</button>
 							</div>
+										<button class="btn" @click="selectAllTags" :disabled="filteredTags.length===0">Select All</button>
 							<button class="btn muted" @click="clearTags" :disabled="selectedTags.size===0">Clear</button>
 						</div>
 						<div class="chip-list" aria-label="Selectable tags">
@@ -179,6 +180,7 @@
 							<div class="label">Selected Features</div>
 							<div class="value">{{ selectedFeatures.size }}</div>
 						</div>
+						<button class="btn primary" @click="exportActiveFamilies" :disabled="filteredFamilies.length===0">Export visible families (.txt)</button>
 					</div>
 				</div>
 			</div>
@@ -202,11 +204,11 @@
 								<div class="family-name">{{ fam }}</div>
 								<div class="muted">{{ fontSourceLabel(fam) }}</div>
 							</td>
-							<td>
-								<div :style="{ fontFamily: cssFontFamily(fam), fontSize: previewSize + 'px' }" class="font-preview">
-									{{ previewText }}
-								</div>
-							</td>
+											<td>
+												<div :style="previewStyle(fam)" class="font-preview">
+													{{ previewText }}
+												</div>
+											</td>
 							<td>
 								<span v-for="tag in (familyTags.get(fam) || [])" :key="fam + tag" class="tag">{{ tag }}</span>
 							</td>
@@ -458,6 +460,12 @@
 					this.persistToUrl();
 					this.batchLoadGoogleFonts(this.filteredFamilies);
 				},
+						selectAllTags() {
+							// Select all tags currently visible after filtering by query
+							this.selectedTags = new Set(this.filteredTags);
+							this.persistToUrl();
+							this.batchLoadGoogleFonts(this.filteredFamilies);
+						},
 				clearFeatures() {
 					this.selectedFeatures.clear();
 					this.selectedFeatures = new Set();
@@ -465,6 +473,21 @@
 					this.batchLoadGoogleFonts(this.filteredFamilies);
 				},
 				cssFontFamily(name) { return `"${name}", system-ui, -apple-system, Segoe UI, Roboto, sans-serif`; },
+						previewStyle(name) {
+							const style = {
+								fontFamily: this.cssFontFamily(name),
+								fontSize: this.previewSize + 'px',
+							};
+							if (this.selectedFeatures && this.selectedFeatures.size > 0) {
+								const feats = Array.from(this.selectedFeatures)
+									.map(f => `'${f}' 1`)
+									.join(', ');
+								style.fontFeatureSettings = feats;
+								// For broader compatibility
+								style['-webkit-font-feature-settings'] = feats;
+							}
+							return style;
+						},
 				fontSourceLabel(name) {
 					const hasTags = this.familyTags.has(name);
 					const hasFeats = this.familyFeatures.has(name);
@@ -484,6 +507,23 @@
 					if (this.previewSize !== 24) url.searchParams.set('size', String(this.previewSize));
 					window.history.replaceState({}, '', url.toString());
 				},
+						exportActiveFamilies() {
+							try {
+								const lines = this.filteredFamilies.join('\n');
+								const blob = new Blob([lines], { type: 'text/plain;charset=utf-8' });
+								const url = URL.createObjectURL(blob);
+								const a = document.createElement('a');
+								const stamp = new Date().toISOString().replace(/[:T]/g, '-').slice(0, 16);
+								a.href = url;
+								a.download = `families-${stamp}.txt`;
+								document.body.appendChild(a);
+								a.click();
+								document.body.removeChild(a);
+								URL.revokeObjectURL(url);
+							} catch (e) {
+								console.error('Export failed', e);
+							}
+						},
 				restoreFromUrl() {
 					const qs = new URLSearchParams(window.location.search);
 					const tags = qs.get('tags');

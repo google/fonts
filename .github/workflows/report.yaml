@@ -46,7 +46,7 @@ jobs:
           CORVEL_KNOWNHOSTS: ${{secrets.CORVEL_KNOWNHOSTS}}
       - name: Compact fontspector database
         run: |
-          /home/runner/.duckdb/cli/latest/duckdb .ci/dashboard/fontspector.db -f .ci/dashboard/scripts/tidy-database.sql && mv fontspector-new.db .ci/dashboard/fontspector.db
+          /home/runner/.duckdb/cli/1.3.2/duckdb .ci/dashboard/fontspector.db -f .ci/dashboard/scripts/tidy-database.sql && mv fontspector-new.db .ci/dashboard/fontspector.db
       - name: Grab data files from last run
         working-directory: .ci/dashboard/src/data/
         run: |

@@ -414,6 +414,23 @@
                 font-size: 0.9em;
             }
         }
+        .export-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9em;
+            transition: background 0.2s;
+        }
+        .export-btn:hover {
+            background: #218838;
+        }
     </style>
 </head>
 <body>
@@ -440,6 +457,9 @@
                     />
                     <span class="size-value">{{ fontSize }}px</span>
                 </div>
+                <button @click="exportCSV" class="export-btn">
+                    Export CSV
+                </button>
             </div>
 
             <!-- Tags popup -->
@@ -963,7 +983,44 @@
                     if (numScore >= 80) return 'score-high';
                     if (numScore >= 60) return 'score-medium';
                     return 'score-low';
+                },
+                exportCSV() {
+                    // Header
+                    let csvContent = "data:text/csv;charset=utf-8,Font Family,Weighted Score,Tags\n";
+
+                    // Loop through currently filtered families
+                    this.filteredFamilies.forEach(family => {
+                        // 1. Ensure tags are calculated (they might be null if not yet viewed)
+                        if (family.tags === null) {
+                            const familyTags = new Set();
+                            for (const row of this.allCsvData) {
+                                if (row.fontFamily === family.name && !row.category.includes('Quality')) {
+                                    familyTags.add(row.category);
+                                }
+                            }
+                            family.tags = Array.from(familyTags).sort();
+                        }
+
+                        // 2. Safe-guard data for CSV format (escape quotes)
+                        const safeName = `"${family.name.replace(/"/g, '""')}"`;
+                        // Join tags with semicolons so they don't break the CSV columns
+                        const safeTags = `"${family.tags.join(';').replace(/"/g, '""')}"`;
+                        const score = family.weightedScore.toFixed(2);
+
+                        // 3. Append row
+                        csvContent += `${safeName},${score},${safeTags}\n`;
+                    });
+
+                    // Trigger download
+                    const encodedUri = encodeURI(csvContent);
+                    const link = document.createElement("a");
+                    link.setAttribute("href", encodedUri);
+                    link.setAttribute("download", "google_fonts_quality_export.csv");
+                    document.body.appendChild(link); // Required for Firefox
+                    link.click();
+                    document.body.removeChild(link);
                 }
+                
             },
             mounted() {
                 this.fetchCSV();

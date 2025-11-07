@@ -37,6 +37,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeNetwork/Arimo"
+  commit: "77fdf7e032ef18c5ad72929bdea60ae6ab19adbe"
   files {
     source_file: "LICENSE.txt"
     dest_file: "LICENSE.txt"

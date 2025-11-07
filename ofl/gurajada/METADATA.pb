@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "telugu"
 source {
   repository_url: "https://github.com/appajid/gurajada"
+  commit: "47d49279bffcb4cebab2dca10f8d7b20ff5230a2"
 }
 primary_script: "Telu"
 stroke: "SANS_SERIF"

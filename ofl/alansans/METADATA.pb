@@ -34,4 +34,4 @@ source {
   branch: "main"
 }
 stroke: "SANS_SERIF"
-minisite_url: "https://typeface.alan.com/"
+minisite_url: "https://typeface.alan.com"

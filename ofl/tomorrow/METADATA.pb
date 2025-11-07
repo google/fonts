@@ -170,6 +170,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/MonicaRizzolli/Tomorrow"
+  commit: "5be77729a028a17876819eb262d22ba5977b5d7c"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

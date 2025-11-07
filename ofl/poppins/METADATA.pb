@@ -171,5 +171,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/itfoundry/Poppins"
+  commit: "738d9d691b66f1ad917123c58df104d16c74e1a7"
 }
 primary_script: "Deva"

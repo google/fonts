@@ -61,4 +61,5 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/crozynski/comicneue"
+  commit: "c5ee07b5eebc4cc6347badfad56cb0c705a2e41e"
 }

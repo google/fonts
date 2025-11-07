@@ -1,5 +1,5 @@
 name: "Elms Sans"
-designer: "Amarachi Nwauwa"
+designer: "Amarachi Nwauwa, Gida Type Studio"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-10-17"

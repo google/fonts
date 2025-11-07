@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/Gutenberg-Labo/Otomanopee"
+  commit: "21c3571eebc24b2723f94ef25dbf478c3a996047"
   files {
     source_file: "fonts/ttf/OtomanopeeOne-Regular.ttf"
     dest_file: "OtomanopeeOne-Regular.ttf"

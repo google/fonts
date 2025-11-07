@@ -18,6 +18,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/googlefonts/inspiration"
+  commit: "629ca27262fbcc6cfe745bd95d2e7b72a8e3b047"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

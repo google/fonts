@@ -1,5 +1,5 @@
 name: "Lilex"
-designer: "Bold Monday, Mikhael Khrustik"
+designer: "Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Mikhael Khrustik"
 license: "OFL"
 category: "MONOSPACE"
 date_added: "2025-11-06"

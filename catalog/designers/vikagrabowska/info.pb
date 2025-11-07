@@ -1,5 +1,5 @@
-designer: "Vika Grabowska"
+designer: "Viktoriya Grabowska"
 link: ""
 avatar {
-  file_name: "vikagrabowska.png"
+  file_name: "viktoriyagrabowska.png"
 }

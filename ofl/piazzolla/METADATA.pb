@@ -41,7 +41,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/huertatipografica/piazzolla"
-  commit: "2c84615f45b98b75238401c53ef993e558082a63"
+  commit: "fbd775f98a0a27570de0eaf20206860021c68b6b"
   files {
     source_file: "fonts/variable/ttf/Piazzolla[opsz,wght].ttf"
     dest_file: "Piazzolla[opsz,wght].ttf"

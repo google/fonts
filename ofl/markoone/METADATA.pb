@@ -16,4 +16,5 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/cyrealtype/Marko-One"
+  commit: "d5cfae97a173fc09d182a391fb78dd3d8a727cd8"
 }

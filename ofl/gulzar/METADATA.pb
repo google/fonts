@@ -18,7 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/simoncozens/Gulzar"
-  commit: "7f736710573840523e68ea977843f7af7239632b"
+  commit: "42b27958a84d56d8341ad1e2dc26b19dba03b15f"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

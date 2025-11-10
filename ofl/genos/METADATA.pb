@@ -21,7 +21,6 @@ fonts {
   full_name: "Genos Thin Italic"
   copyright: "Copyright 2011 The Genos Project Authors (https://github.com/googlefonts/genos)"
 }
-subsets: "cherokee"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
@@ -53,6 +52,5 @@ source {
   branch: "master"
   config_yaml: "sources/config.yml"
 }
-primary_script: "Cher"
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

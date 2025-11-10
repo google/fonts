@@ -118,5 +118,6 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/Fah-Kwang"
+  commit: "7b16186dadf959e79ded967a7620bfb05600fcaf"
 }
 primary_script: "Thai"

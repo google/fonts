@@ -16,6 +16,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/cyrealtype/Bonbon"
+  commit: "ffac6513dd512d2a76e620c933e6d9a6f0953348"
 }
 classifications: "DISPLAY"
 classifications: "HANDWRITING"

@@ -28,6 +28,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/yangheeryu/Gowun-Batang"
+  commit: "4e73f5a9a004927220354f4b68a4c720da538147"
   files {
     source_file: "fonts/ttf/GowunBatang-Regular.ttf"
     dest_file: "GowunBatang-Regular.ttf"

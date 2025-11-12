@@ -1,0 +1,16 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800' viewBox='0 0 1200 800'>
+  <defs>
+    <style><![CDATA[
+      .title { font: 700 64px "Akt", "Akt", sans-serif; }
+      .subtitle { font: 400 32px "Akt", "Akt", sans-serif; fill: #666; }
+      .block { font: 400 24px "Akt", "Akt", sans-serif; }
+    ]]></style>
+  </defs>
+  <rect x='0' y='0' width='1200' height='800' fill='#fff'/>
+  <text x='60' y='120' class='title'>Akt</text>
+  <text x='60' y='170' class='subtitle'>A practical sans for text and UI</text>
+  <text x='60' y='240' class='block'>English: The quick brown fox jumps over the lazy dog.</text>
+  <text x='60' y='280' class='block'>Русский: Съешь ещё этих мягких французских булок да выпей чаю.</text>
+  <text x='60' y='320' class='block'>Symbols: 1234567890 !?@#%&*() [] {} → ← ± × ÷</text>
+  <text x='60' y='380' class='block'>Weights: Thin • ExtraLight • Light • Regular • Medium • SemiBold • Bold • ExtraBold • Black</text>
+</svg>

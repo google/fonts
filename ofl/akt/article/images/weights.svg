@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800' viewBox='0 0 1200 800'>
+  <defs>
+    <style><![CDATA[
+      .row { font: 700 48px "Akt", "Akt", sans-serif; }
+      .label { font: 400 20px "Akt", "Akt", sans-serif; fill: #555; }
+    ]]></style>
+  </defs>
+  <rect x='0' y='0' width='1200' height='800' fill='#fff'/>
+  <text x='60' y='80' class='label'>Weight overview</text>
+  <text x='60' y='140' class='row' style='font-weight:100'>Thin</text>
+  <text x='60' y='200' class='row' style='font-weight:200'>ExtraLight</text>
+  <text x='60' y='260' class='row' style='font-weight:300'>Light</text>
+  <text x='60' y='320' class='row' style='font-weight:400'>Regular</text>
+  <text x='60' y='380' class='row' style='font-weight:500'>Medium</text>
+  <text x='60' y='440' class='row' style='font-weight:600'>SemiBold</text>
+  <text x='60' y='500' class='row' style='font-weight:700'>Bold</text>
+  <text x='60' y='560' class='row' style='font-weight:800'>ExtraBold</text>
+  <text x='60' y='620' class='row' style='font-weight:900'>Black</text>
+</svg>

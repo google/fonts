@@ -8,6 +8,7 @@ on:
   pull_request:
     paths:
     - 'tags/all/families.csv'
+  workflow_dispatch:
 
 jobs:
   test_font_tags:

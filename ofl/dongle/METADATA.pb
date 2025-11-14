@@ -37,6 +37,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/yangheeryu/Dongle"
+  commit: "f7127c4d2450e1cad20254ec692591347e2fc260"
   files {
     source_file: "fonts/ttf/Dongle-Light.ttf"
     dest_file: "Dongle-Light.ttf"

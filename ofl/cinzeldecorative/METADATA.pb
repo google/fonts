@@ -34,3 +34,7 @@ subsets: "latin"
 subsets: "menu"
 stroke: "SERIF"
 classifications: "DISPLAY"
+source {
+  repository_url: "https://github.com/NDISCOVER/Cinzel"
+  commit: "1c62abfb8d5e27ea0a09169d621b32d24fdb8691"
+}

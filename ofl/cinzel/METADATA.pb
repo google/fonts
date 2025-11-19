@@ -22,4 +22,5 @@ axes {
 }
 source {
   repository_url: "https://github.com/NDISCOVER/Cinzel"
+  commit: "8271e162a7c6064ff1e539ba86011b16b6a6184f"
 }

@@ -18,8 +18,8 @@ subsets: "menu"
 subsets: "rejang"
 source {
   repository_url: "https://github.com/notofonts/rejang"
-  commit: "260e890f159e60ffbcc4994006a003b7a9a28f07"
-  archive_url: "https://github.com/notofonts/rejang/releases/download/NotoSansRejang-v2.002/NotoSansRejang-v2.002.zip"
+  commit: "f8a0b6d6e937ca8893d86c4a3e3dabd3ffa3ccd9"
+  archive_url: "https://github.com/notofonts/rejang/releases/download/NotoSansRejang-v2.003/NotoSansRejang-v2.003.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"
@@ -40,6 +40,6 @@ source {
   config_yaml: "sources/config-sans-rejang.yaml"
 }
 is_noto: true
-languages: "rej_Rjng"
-languages: "sa_Rjng"
+languages: "rej_Rjng"  # Rejang (Rejang)
+languages: "sa_Rjng"  # Sanskrit (Rejang)
 primary_script: "Rjng"

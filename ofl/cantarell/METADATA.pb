@@ -44,4 +44,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/davelab6/cantarell"
+  commit: "52d3363878871c868eaeb64c75a701c1193750af"
 }

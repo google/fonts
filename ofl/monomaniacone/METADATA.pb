@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/ManiackersDesign/monomaniac"
+  commit: "2318283d6dbf3cbe50e8eed3c75a17a425e6bd8c"
   files {
     source_file: "fonts/ttf/MonomaniacOne-Regular.ttf"
     dest_file: "MonomaniacOne-Regular.ttf"

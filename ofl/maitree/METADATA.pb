@@ -64,5 +64,6 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/maitree"
+  commit: "e530c1fb68e167a5e990b8125e62231cbedfe4be"
 }
 primary_script: "Thai"

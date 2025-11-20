@@ -7817,6 +7817,8 @@ Matemasie,,/Quality/Spacing,90
 Matemasie,,/Quality/Wordspace,100
 Matemasie,,/Seasonal/Valentine's Day,65
 Maven Pro,,/Expressive/Calm,75
+Maven Pro,wght@400,/Expressive/Loud,3
+Maven Pro,wght@900,/Expressive/Loud,88
 Maven Pro,,/Expressive/Stiff,91
 Maven Pro,,/Quality/Concept,50
 Maven Pro,,/Quality/Drawing,60
@@ -10318,6 +10320,10 @@ Oooh Baby,,/Script/Informal,100
 Oooh Baby,,/Seasonal/Valentine's Day,85
 Open Sans,,/Expressive/Business,98.5
 Open Sans,,/Expressive/Calm,87.9
+Open Sans,"wght,wdth@600,75",/Expressive/Loud,21
+Open Sans,"wght,wdth@600,100",/Expressive/Loud,15
+Open Sans,"wght,wdth@800,75",/Expressive/Loud,80
+Open Sans,"wght,wdth@800,100",/Expressive/Loud,75
 Open Sans,,/Quality/Concept,70
 Open Sans,,/Quality/Drawing,70
 Open Sans,,/Quality/Spacing,80
@@ -13120,9 +13126,9 @@ STIX Two Text,,/Quality/Drawing,70
 STIX Two Text,,/Quality/Spacing,80
 STIX Two Text,,/Quality/Wordspace,80
 STIX Two Text,,/Serif/Transitional,100
-SUSE Mono,,/Monospace/Monospace,100
 SUSE Mono,,/Expressive/Calm,80
 SUSE Mono,,/Expressive/Futuristic,30
+SUSE Mono,,/Monospace/Monospace,100
 SUSE Mono,,/Quality/Concept,70
 SUSE Mono,,/Quality/Drawing,70
 SUSE Mono,,/Quality/Spacing,80

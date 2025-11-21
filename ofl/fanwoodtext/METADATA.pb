@@ -25,4 +25,5 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/theleagueof/fanwood"
+  commit: "cbaaed9704e7d37d3dcdbdf0b472e9efd0e39432"
 }

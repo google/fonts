@@ -154,6 +154,7 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/K2D"
+  commit: "5df785dc3b0d17e7b57eedb2f4139436dbeb6440"
 }
 primary_script: "Thai"
 stroke: "SANS_SERIF"

@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/nagamaki008/kapakana"
+  commit: "0074870cd85239e8c5cf8949da54e0b111333a87"
   files {
     source_file: "fonts/ttf/Kapakana-Light.ttf"
     dest_file: "static/Kapakana-Light.ttf"

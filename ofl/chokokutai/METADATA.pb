@@ -19,6 +19,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/go108go/Chokokutai"
+  commit: "55016eef4cfaf7d9001eeaa64ad5a0a0f20a67c7"
   files {
     source_file: "fonts/ttf/Chokokutai-Regular.ttf"
     dest_file: "Chokokutai-Regular.ttf"

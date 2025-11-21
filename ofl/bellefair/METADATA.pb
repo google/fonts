@@ -18,4 +18,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/shinntype/bellefair"
+  commit: "879a39cbf0b78b01a14f7f750927a075da4055f8"
 }

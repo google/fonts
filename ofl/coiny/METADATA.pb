@@ -19,4 +19,6 @@ subsets: "tamil"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/marcelommp/Coiny"
+  commit: "0341b95f0c79f0e0b33ab7b5404cf9265be88516"
+  branch: "gh-pages"
 }

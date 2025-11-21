@@ -18,7 +18,7 @@ subsets: "malayalam"
 subsets: "menu"
 source {
   repository_url: "https://github.com/smc/Chilanka"
-  commit: "bbc2c94ae7af008975c81e509911b609444b3902"
+  commit: "4688e5c6fcfb5ccf8fc9f28dedaa15b2eacbe8e9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -27,6 +27,6 @@ source {
     source_file: "build/Chilanka-Regular.ttf"
     dest_file: "Chilanka-Regular.ttf"
   }
-  branch: "tags/Version1.6"
+  branch: "master"
 }
 primary_script: "Mlym"

@@ -19,6 +19,7 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/chonburi"
+  commit: "1c6599a6ae44a2d30ff3ee44d015ffab2c0cb014"
 }
 primary_script: "Thai"
 stroke: "SERIF"

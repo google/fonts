@@ -32,6 +32,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/indestructible-type/Jost"
+  commit: "35f141c970538f1ed0f235789c19156b3ce2a762"
   files {
     source_file: "fonts/variable/Jost[wght].ttf"
     dest_file: "Jost[wght].ttf"

@@ -16,4 +16,5 @@ subsets: "menu"
 subsets: "latin"
 source {
   repository_url: "https://github.com/cyrealtype/Federo"
+  commit: "79d2ed54e783fb0b116aabdb6c9b0318393cd3c8"
 }

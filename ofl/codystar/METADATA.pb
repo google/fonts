@@ -26,6 +26,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/librefonts/codystar"
+  commit: "e32d050fbb01232b6a85423b121da89f21bba8b3"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

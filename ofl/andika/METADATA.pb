@@ -47,6 +47,7 @@ subsets: "menu"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/silnrsi/font-andika"
+  commit: "ca568520c61193de89a795ca676b6978fb435759"
   archive_url: "https://github.com/silnrsi/font-andika/releases/download/v6.101/Andika-6.101.zip"
   files {
     source_file: "Andika-6.101/OFL.txt"

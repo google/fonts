@@ -31,6 +31,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/indestructible-type/Besley"
+  commit: "eb8b1b7f62f9f328e4be345d3e5928fefba3c38e"
+  config_yaml: "sources/config.yaml"
   files {
     source_file: "fonts/variable/Besley[wght].ttf"
     dest_file: "Besley[wght].ttf"

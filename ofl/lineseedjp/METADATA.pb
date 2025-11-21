@@ -1,5 +1,5 @@
 name: "LINE Seed JP"
-designer: "LY Corporation & Fontrix & Fontworks"
+designer: "LY Corporation, Fontrix, Fontworks"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2024-10-07"

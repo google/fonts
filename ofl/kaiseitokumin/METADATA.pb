@@ -46,6 +46,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/FontKai-Kaisei/Kaisei"
+  commit: "b396c906d67ddbfde60c2c78588f8de00b46c891"
   files {
     source_file: "fonts/ttf/tokumin/KaiseiTokumin-Regular.ttf"
     dest_file: "KaiseiTokumin-Regular.ttf"

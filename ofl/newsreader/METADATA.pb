@@ -41,6 +41,7 @@ registry_default_overrides {
 }
 source {
   repository_url: "https://github.com/productiontype/NewsReader"
+  commit: "1ece6a8bfe5db1a2b90c76cc1fe5d3b2eed5dcf3"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

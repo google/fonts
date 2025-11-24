@@ -726,7 +726,7 @@ function axesCombos(axes) {
         const familiesToAdd = this.uniqueFamilies
         familiesToAdd.forEach((family) => {
           if (!seen.has(family.name)) {
-            this.tags.push(new FontTag(family.name, this.currentCategory, score=0));
+            this.tags.push(new FontTag(family.name, [], this.currentCategory, score=0));
           }
         });
         this.history.push(`+ Placeholder tags added for ${this.currentCategory}`);

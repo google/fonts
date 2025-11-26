@@ -29,6 +29,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontworks-fonts/Klee"
+  commit: "8b0532731b63ad8a445ca341d8d7d941079b83ab"
   files {
     source_file: "fonts/ttf/KleeOne-Regular.ttf"
     dest_file: "KleeOne-Regular.ttf"

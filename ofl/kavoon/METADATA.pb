@@ -17,6 +17,7 @@ subsets: "latin"
 subsets: "latin-ext"
 source {
   repository_url: "https://github.com/EbenSorkin/Kavoon"
+  commit: "0b985571f93c97f70ce9065bfc1a883a21b9deac"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

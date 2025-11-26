@@ -19,6 +19,7 @@ subsets: "thai"
 subsets: "vietnamese"
 source {
   repository_url: "https://github.com/cadsondemak/itim"
+  commit: "eb5e37a5412ea61cbc048f57dad5a97285d470e1"
 }
 primary_script: "Thai"
 classifications: "DISPLAY"

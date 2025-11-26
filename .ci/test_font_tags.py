@@ -35,7 +35,7 @@ def tags_metadata():
     )
     reader = csv.reader(data.splitlines())
     res = []
-    for category, _, _ in reader:
+    for category, _, _, _ in reader:
         res.append(category)
     return res
 
@@ -59,7 +59,7 @@ def test_categories_exist(family_tags, tags_metadata):
     tags_metadata.csv file
     """
     meta_categories = set(tags_metadata)
-    families_categories = set(cat for _, cat, _ in family_tags)
+    families_categories = set(cat for _, _, cat, _ in family_tags)
     missing = families_categories - meta_categories
     assert not missing, f"Missing categories: {missing}"
 
@@ -68,7 +68,7 @@ def test_no_duplicate_families(family_tags):
     seen = set()
     dups = []
     for family, axes, cat, _ in family_tags:
-        key = (family, cat)
+        key = (family, axes, cat)
         if key in seen:
             dups.append(",".join(key))
         seen.add(key)

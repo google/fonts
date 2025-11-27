@@ -1,0 +1,29 @@
+name: "BBH Bogle"
+designer: "Studio DRAMA"
+license: "OFL"
+category: "SANS_SERIF"
+date_added: "2025-09-24"
+fonts {
+  name: "BBH Bogle"
+  style: "normal"
+  weight: 400
+  filename: "BBHBogle-Regular.ttf"
+  post_script_name: "BBHBogle-Regular"
+  full_name: "BBH Bogle Regular"
+  copyright: "Copyright 2025 The BBH Project Authors (https://github.com/Studio-DRAMA/BBH)"
+}
+subsets: "latin"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/Studio-DRAMA/BBH"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/BBHBogle-Regular.ttf"
+    dest_file: "BBHBogle-Regular.ttf"
+  }
+  branch: "main"
+}
+stroke: "SANS_SERIF"

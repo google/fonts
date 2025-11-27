@@ -17,5 +17,6 @@ subsets: "latin"
 subsets: "telugu"
 source {
   repository_url: "https://github.com/appajid/mallanna"
+  commit: "52b5b8b53bd89d84ecc8a0da7b809ea241c8eb74"
 }
 primary_script: "Telu"

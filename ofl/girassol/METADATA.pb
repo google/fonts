@@ -17,6 +17,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/liamspradlin/Girassol-Display"
+  commit: "cc8fa1b5a1afc28520fdc0ccc36256db243d9dfa"
 }
 stroke: "SERIF"
 classifications: "DISPLAY"

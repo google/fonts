@@ -26,5 +26,6 @@ subsets: "devanagari"
 subsets: "latin"
 source {
   repository_url: "https://github.com/solmatas/Kadwa"
+  commit: "ec58500fc2026ed3125a609b8c617b4b0c4bce20"
 }
 primary_script: "Deva"

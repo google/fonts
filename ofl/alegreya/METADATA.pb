@@ -35,7 +35,7 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/TypeNetwork/Alegreya"
+  repository_url: "https://github.com/huertatipografica/Alegreya"
   commit: "1dd6b28b57c50e3168db1cbbb8086e7978abcfbf"
   files {
     source_file: "OFL.txt"

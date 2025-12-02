@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/aliftype/mada"
+  commit: "2f7dea3a2bad718583bfcc1dc2030cf15401c789"
   archive_url: "https://github.com/aliftype/mada/releases/download/v1.5/Mada-1.5.zip"
   files {
     source_file: "Mada-1.5/OFL.txt"

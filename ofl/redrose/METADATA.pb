@@ -23,6 +23,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/magictype/redrose"
+  commit: "d173625490893538463fa9746477f35c975ab0e9"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

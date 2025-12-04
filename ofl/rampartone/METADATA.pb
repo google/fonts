@@ -19,6 +19,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontworks-fonts/Rampart"
+  commit: "3f5fe9d544c290f6fc7c2176976ee7fe6ce14fbb"
   files {
     source_file: "fonts/ttf/RampartOne-Regular.ttf"
     dest_file: "RampartOne-Regular.ttf"

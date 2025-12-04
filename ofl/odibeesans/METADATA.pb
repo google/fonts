@@ -16,6 +16,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/barnard555/odibeesans"
+  commit: "c72b102fec681b3b74f025e70a673d2ef4ac664e"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

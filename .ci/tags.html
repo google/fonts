@@ -174,7 +174,10 @@
     <div v-if="sortedTags.length === 0">
       <p>No families found for this tag. Please add some</p>
     </div>
-    <div class="mt-20">
+    <div v-if="ready === false">
+      <p>Loading fonts...</p>
+    </div>
+    <div v-else class="mt-20">
       <div class="item" v-for="(family, i) in sortedTags" :key="family.tag">
         <family-item :family="family" :ready="ready" :index="i" :category="currentCategory" @edited="edited" @remove="removeFamily"></family-item>
       </div>
@@ -243,7 +246,7 @@
     }
     toStyle() {
       if (!this.isVF()) {
-        return `font-family: ${this.name}; font-size: 32pt;`;
+        return `font-family: "${this.name}"; font-size: 32pt;`;
       }
       let [axisTag, axisCoords] = this.axes.split("@");
       let axisTags = axisTag.split(",");
@@ -402,7 +405,9 @@ function axesCombos(axes) {
     },
     async created() {
       await this.getFamilyData()
-      this.loadFonts();
+      console.log("loading fonts")
+      await this.loadFonts();
+      console.log("loaded fonts")
       this.loadCSV();
       this.loadFamilyPangrams();
     },
@@ -514,7 +519,7 @@ function axesCombos(axes) {
           })
         })
       },
-      loadFonts() {
+      async loadFonts() {
           let results = [];
           for (k in this.familyData) {
             const family = this.familyData[k];

@@ -29,5 +29,5 @@ source {
   branch: "master"
 }
 primary_script: "hebr"
-stroke: "HANDWRITING"
 classifications: "DISPLAY"
+classifications: "HANDWRITING"

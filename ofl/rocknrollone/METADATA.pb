@@ -18,6 +18,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/fontworks-fonts/RocknRoll"
+  commit: "29a2aa8bb7ab10702dee769ee681a9baeeb52ec1"
   files {
     source_file: "fonts/ttf/RocknRollOne-Regular.ttf"
     dest_file: "RocknRollOne-Regular.ttf"

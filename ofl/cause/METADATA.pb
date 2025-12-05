@@ -21,7 +21,7 @@ axes {
   max_value: 900.0
 }
 source {
-  repository_url: "https://github.com/xconsau/Cause"
+  repository_url: "https://github.com/xconsau/cause"
   commit: "d7259fb3079c4d310c89a731c647829fba251495"
   archive_url: "https://github.com/xconsau/Cause/releases/download/v1.0/Cause-fonts.zip"
   files {

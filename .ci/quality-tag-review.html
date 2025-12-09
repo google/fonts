@@ -88,10 +88,10 @@
             border-color: #dc3545;
             background: #fff5f5;
         }
-        .tag-filter.excluded {
-            background: #dc3545;
-            color: white;
-            border-color: #dc3545;
+        .tag-filter.selected {
+            background: #e7f3ff;
+            color: #0066cc;
+            border-color: #b6d4ff;
         }
         .tag-filter input[type="checkbox"] {
             margin: 0;
@@ -489,29 +489,29 @@
             
             <div class="controls">
                 <div class="filters-section">
-                    <div class="filters-title">Exclude Tags ({{ excludedTags.size }} excluded)</div>
+                    <div class="filters-title">Filter by Tags ({{ selectedTags.size }} selected)</div>
                     <div class="tag-filters">
                         <div 
                             v-for="tag in availableTags" 
                             :key="tag"
                             class="tag-filter"
-                            :class="{ excluded: excludedTags.has(tag) }"
-                            @click="toggleTagExclusion(tag)"
+                            :class="{ selected: selectedTags.has(tag) }"
+                            @click="toggleTagSelection(tag)"
                         >
                             <input 
                                 type="checkbox" 
-                                :checked="excludedTags.has(tag)"
-                                @click.stop="toggleTagExclusion(tag)"
+                                :checked="selectedTags.has(tag)"
+                                @click.stop="toggleTagSelection(tag)"
                             >
                             {{ tag }}
                         </div>
                     </div>
                     <button 
                         class="clear-filters"
-                        @click="clearAllFilters"
-                        v-if="excludedTags.size > 0"
+                        @click="clearTagFilters"
+                        v-if="selectedTags.size > 0"
                     >
-                        Clear All Filters
+                        Clear Tag Filters
                     </button>
                 </div>
                 
@@ -668,7 +668,7 @@
                     error: null,
                     loadedFonts: new Set(),
                     availableTags: [],
-                    excludedTags: new Set(),
+                    selectedTags: new Set(),
                     previewText: 'The quick brown fox jumps over the lazy dog',
                     fontSize: 24,
                     popupVisible: false,
@@ -696,13 +696,13 @@
                     return this.weights.concept + this.weights.drawing + this.weights.spacing + this.weights.wordspace;
                 },
                 filteredFamilies() {
-                    if (this.excludedTags.size === 0) {
+                    if (this.selectedTags.size === 0) {
                         return this.processedFamilies;
                     }
-                    
+                    const needed = Array.from(this.selectedTags);
                     return this.processedFamilies.filter(family => {
-                        // Check if this family has any excluded tags
-                        return !family.tags.some(tag => this.excludedTags.has(tag));
+                        const tags = family.tags || [];
+                        return needed.every(tag => tags.includes(tag));
                     });
                 }
             },
@@ -793,23 +793,33 @@
                     if (spacing !== null) this.weights.spacing = parseInt(spacing) || 25;
                     if (wordspace !== null) this.weights.wordspace = parseInt(wordspace) || 25;
                     
-                    // Load excluded tags
-                    const excludedParam = urlParams.get('exclude');
-                    if (excludedParam) {
-                        const excludedArray = excludedParam.split(',').filter(tag => tag.trim());
-                        this.excludedTags = new Set(excludedArray);
+                    // Load selected tags
+                    const includedParam = urlParams.get('tags');
+                    if (includedParam) {
+                        const includedArray = includedParam.split(',').filter(tag => tag.trim());
+                        this.selectedTags = new Set(includedArray);
                     }
                 },
                 groupByFamilyAndCalculateScores() {
+                    // Build a map of non-Quality tags per family
+                    const familyTagsMap = new Map();
+                    for (const row of this.allCsvData) {
+                        if (!row.category.includes('Quality')) {
+                            if (!familyTagsMap.has(row.fontFamily)) familyTagsMap.set(row.fontFamily, new Set());
+                            familyTagsMap.get(row.fontFamily).add(row.category);
+                        }
+                    }
+
                     const familyMap = new Map();
                     
                     // Group scores by family and quality type
                     for (const row of this.filteredData) {
                         if (!familyMap.has(row.fontFamily)) {
+                            const tags = Array.from(familyTagsMap.get(row.fontFamily) || []).sort();
                             familyMap.set(row.fontFamily, {
                                 name: row.fontFamily,
                                 fontFamily: this.formatFontFamily(row.fontFamily),
-                                tags: null, // Tags will be calculated on demand
+                                tags,
                                 scores: {
                                     concept: null,
                                     drawing: null,
@@ -881,22 +891,22 @@
                     // Append to head
                     document.head.appendChild(link);
                 },
-                toggleTagExclusion(tag) {
-                    if (this.excludedTags.has(tag)) {
-                        this.excludedTags.delete(tag);
+                toggleTagSelection(tag) {
+                    if (this.selectedTags.has(tag)) {
+                        this.selectedTags.delete(tag);
                     } else {
-                        this.excludedTags.add(tag);
+                        this.selectedTags.add(tag);
                     }
                     // Trigger reactivity
-                    this.excludedTags = new Set(this.excludedTags);
+                    this.selectedTags = new Set(this.selectedTags);
                     
                     // Update URL and reload fonts
                     this.updateUrl();
                     this.loadGoogleFonts();
                 },
-                clearAllFilters() {
-                    this.excludedTags.clear();
-                    this.excludedTags = new Set();
+                clearTagFilters() {
+                    this.selectedTags.clear();
+                    this.selectedTags = new Set();
                     this.updateUrl();
                     this.loadGoogleFonts();
                 },
@@ -910,10 +920,10 @@
                     url.searchParams.set('spacing', this.weights.spacing);
                     url.searchParams.set('wordspace', this.weights.wordspace);
                     
-                    // Add excluded tags
-                    if (this.excludedTags.size > 0) {
-                        const excludedArray = Array.from(this.excludedTags);
-                        url.searchParams.set('exclude', excludedArray.join(','));
+                    // Add selected tags
+                    if (this.selectedTags.size > 0) {
+                        const selectedArray = Array.from(this.selectedTags);
+                        url.searchParams.set('tags', selectedArray.join(','));
                     }
                     
                     // Update browser URL without reloading

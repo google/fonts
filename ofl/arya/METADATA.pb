@@ -27,5 +27,6 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/etunni/Arya"
+  commit: "103dc785f25067abe0e63de7b8e839e1863877a9"
 }
 primary_script: "Deva"

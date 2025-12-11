@@ -80,4 +80,5 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/supertype-de/Blinker"
+  commit: "35cee57f389012c6a213acab504efb82f81c3b8f"
 }

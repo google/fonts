@@ -43,6 +43,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/marcelommp/Londrina-Typeface"
+  commit: "7f4129ee609e13f4dc9bcdce6f8a08f5d9bc8060"
 }
 stroke: "SANS_SERIF"
 classifications: "DISPLAY"

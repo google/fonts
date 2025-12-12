@@ -29,6 +29,7 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/silnrsi/font-annapurna"
+  commit: "5bd915dff1934cf36041d7766784347713c812a3"
   archive_url: "https://github.com/silnrsi/font-annapurna/releases/download/v2.000/AnnapurnaSIL-2.000.zip"
   files {
     source_file: "AnnapurnaSIL-2.000/OFL.txt"

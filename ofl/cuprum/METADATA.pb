@@ -34,6 +34,7 @@ axes {
 }
 source {
   repository_url: "https://github.com/alexeiva/cuprum"
+  commit: "98adc59dc00ca00dbde9eb42a23ace5f924b4f90"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

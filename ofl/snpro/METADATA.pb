@@ -1,5 +1,5 @@
 name: "SN Pro"
-designer: "Tobias Whetton"
+designer: "Tobias Whetton, Supernotes"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2025-12-03"

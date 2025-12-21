@@ -28,8 +28,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/bengali"
-  commit: "7ab89a047313e4a2c7ca5d670b28ced031c86542"
-  archive_url: "https://github.com/notofonts/bengali/releases/download/NotoSansBengali-v3.000/NotoSansBengali-v3.000.zip"
+  commit: "07b2d5789d7ca42a1dabca23ea7bdd14165808b3"
+  archive_url: "https://github.com/notofonts/bengali/releases/download/NotoSansBengali-v3.010/NotoSansBengali-v3.010.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
